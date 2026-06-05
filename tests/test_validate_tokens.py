@@ -1,3 +1,4 @@
+import copy
 import json
 from pathlib import Path
 from scripts.validate_tokens import validate_tokens
@@ -18,21 +19,21 @@ def test_missing_top_key_detected():
 
 
 def test_missing_color_detected():
-    bad = json.loads(json.dumps(EXAMPLE))
+    bad = copy.deepcopy(EXAMPLE)
     del bad["colors"]["accent"]
     errors = validate_tokens(bad, SCHEMA)
     assert any("accent" in e for e in errors)
 
 
 def test_invalid_hex_detected():
-    bad = json.loads(json.dumps(EXAMPLE))
+    bad = copy.deepcopy(EXAMPLE)
     bad["colors"]["accent"] = "B5651D"  # missing #
     errors = validate_tokens(bad, SCHEMA)
     assert any("accent" in e and "hex" in e.lower() for e in errors)
 
 
 def test_missing_typography_detected():
-    bad = json.loads(json.dumps(EXAMPLE))
+    bad = copy.deepcopy(EXAMPLE)
     del bad["typography"]["heading"]
     errors = validate_tokens(bad, SCHEMA)
     assert any("heading" in e for e in errors)

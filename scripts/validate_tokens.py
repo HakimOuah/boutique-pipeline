@@ -1,3 +1,4 @@
+"""Valide un brand-tokens.json contre un schéma dict. CLI : validate_tokens.py <fichier>."""
 import json
 import re
 import sys
@@ -30,6 +31,7 @@ def main(argv):
     if len(argv) != 2:
         print("Usage: validate_tokens.py <brand-tokens.json>", file=sys.stderr)
         return 2
+    # Suppose que ce fichier se trouve à <racine-du-dépôt>/scripts/
     root = Path(__file__).resolve().parent.parent
     schema = json.loads((root / "schema/brand-tokens.schema.json").read_text())
     tokens = json.loads(Path(argv[1]).read_text())
