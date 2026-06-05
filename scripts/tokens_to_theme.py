@@ -14,8 +14,8 @@ def build_scheme(colors: dict) -> dict:
     text = colors["text"]
     accent = colors["accent"]
     accent_text = colors["accent_text"]
-    border = _alpha(text, "17")
-    soft_border = _alpha(text, "30")
+    border = _alpha(text, "17")  # ~9% opacité
+    soft_border = _alpha(text, "30")  # ~19% opacité
     return {
         "background": bg,
         "foreground": text,
@@ -59,7 +59,7 @@ def font_settings(typography: dict) -> dict:
         "type_heading_font": typography["heading"],
         "type_subheading_font": typography["subheading"],
         "type_body_font": typography["body"],
-        "type_primary_font": typography["body"],
+        "type_primary_font": typography["body"],  # le thème réutilise la police de corps comme police primaire
     }
 
 

@@ -44,6 +44,7 @@ def test_font_settings_map_typography():
     assert f["type_heading_font"] == "playfair_display_n5"
     assert f["type_subheading_font"] == "work_sans_n4"
     assert f["type_body_font"] == "work_sans_n4"
+    assert f["type_primary_font"] == "work_sans_n4"
 
 
 def test_apply_tokens_injects_scheme_and_fonts():
