@@ -15,6 +15,7 @@ def test_scaffold_brand_tokens_is_valid_json(tmp_path):
     project = scaffold("ma-boutique", tmp_path)
     data = json.loads((project / "brand-tokens.json").read_text())
     assert "colors" in data and "typography" in data
+    assert data["brand"]["name"] == "ma-boutique"
 
 
 def test_scaffold_refuses_existing_dir(tmp_path):

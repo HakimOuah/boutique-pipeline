@@ -10,9 +10,10 @@ EXAMPLE_TOKENS = ROOT / "examples/brand-tokens.example.json"
 
 def scaffold(name: str, base_dir: Path) -> Path:
     project = Path(base_dir) / name
-    if project.exists():
+    try:
+        project.mkdir(parents=True, exist_ok=False)
+    except FileExistsError:
         raise FileExistsError(f"Le dossier existe déjà : {project}")
-    project.mkdir(parents=True)
     (project / "content").mkdir()
     shutil.copy(TEMPLATES / "research-brief.template.md", project / "research-brief.md")
     shutil.copy(TEMPLATES / "sitemap.template.md", project / "sitemap.md")
