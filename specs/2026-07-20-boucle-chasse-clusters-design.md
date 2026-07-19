@@ -109,10 +109,10 @@ Son verdict est binaire : retenu / non retenu. Un « presque » est un non.
 
 Ajouté le 20 juillet 2026 après le dry-run de la famille 16, qui a produit le cas d'école : `punch needle`, 17 850 recherches — volume supérieur au tufting — mais un ticket réel de 25 à 30 €. Sans sonde, ce constat n'arrivait qu'en phase 3, après un audit SERP complet.
 
-**Entrée** : les produits sortis de `phase2-filtre`.
+**Entrée** : sur le chemin B, le mot-clé de tête d'un cluster mesuré par la phase 0 ; sur le chemin A, des produits sortis de la phase 2.
 **Sortie** : une fourchette de prix lue sur Google Shopping France, et un verdict parmi `DANS LA TRANCHE`, `LOW-TICKET`, `INDÉTERMINÉ`.
 
-Il se place entre le filtre qualitatif et la validation de la demande — c'est-à-dire juste avant le premier travail coûteux. Ordre de grandeur : environ 1 % du coût d'une phase 3.
+**Position sur le chemin B : avant la phase 2** (déplacée le 20/07/2026 après le dry-run de la famille 1). La position initiale — après la phase 2 — laissait le filtre prix de la phase 2 inopérant : sur le chemin B il n'existe aucune phase 1, la phase 0 s'interdit tout prix, et les règles de preuve de la phase 2 lui interdisent d'improviser un ticket. La sonde passe donc en premier, et sa fourchette datée est transmise à la phase 2 comme seule donnée de prix autorisée. Bénéfice secondaire : un cluster low-ticket est écarté avant même la phase 2. Ordre de grandeur : environ 1 % du coût d'une phase 3.
 
 **Asymétrie volontaire des verdicts.** Seul `LOW-TICKET` écarte un produit, et uniquement sur une lecture nette et complète. Toute ambiguïté donne `INDÉTERMINÉ` et le produit continue. Un faux `LOW-TICKET` perdrait un candidat définitivement ; un faux `INDÉTERMINÉ` ne coûte qu'une phase 3. La sonde a le droit de faire gagner du temps, jamais d'en faire perdre.
 
@@ -122,13 +122,23 @@ Nommée sans numéro de phase parce qu'elle sert aussi au pipeline classique `/r
 
 ### 4.4 Les viviers
 
-Un produit `LOW-TICKET` n'est pas rejeté : il entre dans la section « Viviers — volume réel, ticket incompatible » du registre, avec son cluster, son volume mesuré et sa fourchette de prix constatée.
+Un cluster ou produit `LOW-TICKET` n'est pas rejeté : il entre dans la section « Viviers — volume réel, ticket incompatible » du registre, avec son cluster, son volume mesuré et sa fourchette de prix constatée.
+
+Deuxième source de viviers depuis le 20/07/2026 : les **poches repérées non instruites**. Sur le chemin B, la phase 2 dérive ses produits uniquement du vocabulaire mesuré du cluster (règle de dérivation, §4.5). Quand elle repère un signal qu'elle ne peut pas instruire — segment adjacent, mot-clé à CPC élevé, persona professionnel — elle le liste au lieu de le laisser tomber, et la boucle l'inscrit en vivier avec le motif `poche repérée, non instruite`. Premier cas réel : `outillage frigoriste` (CPC 1,72 €, le plus élevé de la famille 1), repéré pendant un balayage dont tous les candidats sont morts au filtre.
 
 C'est une catégorie distincte des STOP, et l'anti-doublon ne la traite pas comme telle : un vivier peut être repris sans reprise motivée dès qu'un projet de boutique en change le périmètre de prix — typiquement une boutique de niche mêlant machines high-ticket et consommables low-ticket.
 
 Un vivier ne compte pas dans les 20, et ne compte pas non plus comme candidat pour la règle des trois familles stériles : une famille qui ne produit que des viviers reste une famille sans candidat, sinon la boucle pourrait tourner longtemps en accumulant des consolations.
 
-### 4.5 Réutilisation des agents existants
+### 4.5 Règle de dérivation des produits (chemin B)
+
+Constat du dry-run famille 1 : la phase 2 recevait un cluster sans qu'aucune méthode ne dise comment en dériver des produits — deux exécutions sur le même cluster auraient donné deux listes différentes, inacceptable en autonomie.
+
+Règle, transmise par la boucle dans chaque brief de phase 2 : **un produit n'est instruit que s'il est attesté par au moins un mot-clé mesuré du cluster.** Aucun produit imaginé hors du vocabulaire mesuré.
+
+Angle mort assumé : le chemin B ne peut structurellement pas produire un candidat que le vocabulaire du marché ne nomme pas encore — c'est le prix de la fiabilité du volume. Le chemin A (phase 1 d'idéation) reste la voie pour ce type de découverte ; les deux chemins ne sont pas interchangeables.
+
+### 4.6 Réutilisation des agents existants
 
 `phase2-filtre` est appelé pour le filtre qualitatif (banalité, valeur perçue, prix cible) ; `phase3-demande` pour le nettoyage SERP et le comptage de concurrents ; `phase4-sourcing` pour les fiches AliExpress. Leurs fichiers ne sont pas modifiés. La boucle leur transmet un cluster déjà mesuré au lieu d'un candidat non mesuré.
 
@@ -146,17 +156,22 @@ Tant que (candidats retenus < 20) et (familles non balayées restantes) :
      (un STOP ou un rejet documenté n'est jamais re-proposé,
       sauf reprise motivée explicite de Hakim)
   5. Pour chaque cluster survivant :
-       a. phase2-filtre : produits qui servent ce cluster,
+       a. sonde-prix : lecture Google Shopping France
+          sur le mot-clé de tête du cluster
+          LOW-TICKET → cluster entier en vivier, on s'arrête là
+          DANS LA TRANCHE ou INDÉTERMINÉ → continue,
+          fourchette transmise à la phase 2
+       b. phase2-filtre : produits qui servent ce cluster,
           filtre banalité / valeur perçue / prix 150–400 €
-     a-bis. sonde-prix : lecture Google Shopping France
-          LOW-TICKET → vivier, le produit ne continue pas
-          DANS LA TRANCHE ou INDÉTERMINÉ → continue
-       b. phase3-demande : nettoyage SERP, prix marché,
+          (règle de dérivation : produits attestés par un
+           mot-clé mesuré uniquement ; poches non instruites
+           versées en vivier)
+       c. phase3-demande : nettoyage SERP, prix marché,
           comptage concurrents institutionnels vs dropship
-       c. phase4-sourcing : 1 à 2 fiches AliExpress ouvertes et vérifiées
+       d. phase4-sourcing : 1 à 2 fiches AliExpress ouvertes et vérifiées
           (prix rendu, notation vendeur, délai, entrepôt)
-       d. critique-candidat : verdict à froid
-       e. si retenu → écriture immédiate au registre, compteur +1
+       e. critique-candidat : verdict à froid
+       f. si retenu → écriture immédiate au registre, compteur +1
   6. Rapport de famille, marquer la famille comme balayée
   7. Famille suivante
 ```

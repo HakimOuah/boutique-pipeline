@@ -30,6 +30,13 @@ Chaque ligne a passé le contrôle de `critique-candidat`. Aucune n'est allée j
 |---|---|---|---|---|---|---|---|---|
 | — | *aucun candidat retenu à ce jour* | — | — | — | — | — | — | — |
 
+### Familles balayées sans candidat
+
+| Famille | Date | Clusters mesurés | Issue | Rapports |
+|---|---|---|---|---|
+| 16 — Loisirs créatifs & artisanat (dry-run) | 2026-07-20 | Tufting 13 110 (contrôle, déjà au registre) ; punch needle 17 850 ; résine époxy sol 23 500 (hors périmètre famille) | 0 candidat, 1 vivier | [phase 0](reports/chasse-clusters-loisirs-creatifs-artisanat-2026-07-20.md) |
+| 1 — Atelier & outillage (dry-run) | 2026-07-20 | Servante d'atelier ≈ 30 300 ; établi ≈ 36 400 | 0 candidat — **shortlist vide en phase 2**, les 9 produits dérivés rejetés au §4 (Facom/KS Tools/Stanley/Wolfcraft + Leroy Merlin/Brico Dépôt/Castorama/Lidl attestés dans le vocabulaire mesuré). Ne pas re-dériver ces produits depuis cette famille sans reprise motivée. 1 vivier (outillage frigoriste) | [phase 0](reports/chasse-clusters-atelier-outillage-2026-07-20.md) · [phase 2](reports/phase2-filtre-atelier-outillage-2026-07-20.md) |
+
 ### Viviers — volume réel, ticket incompatible
 
 Marchés dont la demande est mesurée et réelle, mais dont le prix pratiqué est nettement sous la tranche 150–400 €. **Ce ne sont pas des rejets** : ils sont mis de côté pour une éventuelle boutique mêlant low et high ticket, et l'anti-doublon ne doit pas les traiter comme des STOP.
@@ -39,6 +46,7 @@ Marchés dont la demande est mesurée et réelle, mais dont le prix pratiqué es
 | Cluster | Volume pertinent | Fourchette de prix constatée | Note | Date |
 |---|---|---|---|---|
 | Punch needle (pratique et kits) | 17 850 (plancher mesuré, [balayage famille 16](reports/chasse-clusters-loisirs-creatifs-artisanat-2026-07-20.md)) | 25–30 € (vérifié par Hakim le 20/07/2026) | Volume supérieur au tufting. CPC 0,10–0,37 € et présence Action/Gifi/Zeeman cohérents avec le ticket. Voisin direct du tufting : candidat naturel pour une boutique loisirs créatifs mêlant machines high-ticket et consommables low-ticket | 2026-07-20 |
+| Outillage frigoriste | Non mesuré en cluster (repéré au [balayage famille 1](reports/chasse-clusters-atelier-outillage-2026-07-20.md)) | Non sondée | **Poche repérée, non instruite.** CPC 1,72 € — le plus élevé de toute la famille 1, signal d'intention pro à ticket élevé. Repérée par la phase 2 sans pouvoir être instruite (hors vocabulaire des clusters mesurés). À re-mesurer en phase 0 si reprise | 2026-07-20 |
 
 ### Cas limites remontés à Hakim
 

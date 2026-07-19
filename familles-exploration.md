@@ -17,7 +17,7 @@ Quand un cluster est retenu, `phase0-decouverte` note les sous-groupes voisins e
 
 | # | Famille | Graines de départ | Statut | Dernier balayage | Candidats retenus |
 |---|---|---|---|---|---|
-| 1 | Atelier & outillage | atelier, établi, outillage, servante atelier | à faire | — | — |
+| 1 | Atelier & outillage | atelier, établi, outillage, servante atelier | balayée (dry-run) | 2026-07-20 | 0 candidat (§4), 1 vivier (outillage frigoriste) |
 | 2 | Travail du bois | travail du bois, menuiserie, tour à bois, ponçage | à faire | — | — |
 | 3 | Travail du métal & soudure | soudure, poste à souder, forge, métal atelier | à faire | — | — |
 | 4 | Auto / moto atelier & diagnostic | diagnostic auto, atelier moto, outil garage, valise diagnostic | à faire | — | — |
