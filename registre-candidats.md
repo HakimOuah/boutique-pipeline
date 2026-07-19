@@ -20,8 +20,8 @@ Chaque ligne a passé le contrôle de `critique-candidat`. Aucune n'est allée j
 **Niveau de confiance fournisseur** (décision de Hakim du 20/07/2026 — la case fournisseur prouve que le produit est sourçable, pas que le vendeur est bon) :
 
 - **A** — avis solides **et** expédition France ou UE ;
-- **B** — avis solides, expédition Chine ;
-- **C** — peu ou pas d'avis, mais fiche vérifiée et correspondant au produit. Retenu, à valider par commande test.
+- **B** — une seule des deux forces : avis solides mais expédition Chine, ou pas d'avis mais expédition France/UE ;
+- **C** — pas d'avis **et** expédition Chine, mais fiche vérifiée et correspondant au produit. Retenu, à valider par commande test.
 
 **Compteur : 0 / 20**
 

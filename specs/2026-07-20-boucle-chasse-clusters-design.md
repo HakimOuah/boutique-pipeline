@@ -176,8 +176,10 @@ Ne sont donc **pas** éliminatoires : une notation vendeur faible ou entre 90 et
 | Niveau | Condition |
 |---|---|
 | A | Avis solides **et** expédition France ou UE |
-| B | Avis solides, expédition Chine |
-| C | Peu ou pas d'avis, mais fiche vérifiée et correspondant au produit |
+| B | Une seule des deux forces : avis solides mais expédition Chine, ou pas d'avis mais expédition France/UE |
+| C | Ni l'un ni l'autre, mais fiche vérifiée et correspondant au produit |
+
+Le raisonnement du niveau B : un entrepôt européen compense l'absence d'avis, parce qu'il rend le délai vérifiable et le retour praticable. Les deux forces sont considérées comme équivalentes.
 
 Restent strictement éliminatoires : l'absence de fiche, une fiche qui ne correspond pas au produit du cluster (variante incompatible, accessoire, produit voisin), et un prix rendu supérieur ou égal au prix marché constaté.
 
