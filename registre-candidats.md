@@ -17,11 +17,17 @@ Objectif : 20 candidats qualifiés (volume mesuré, concurrence chiffrée, fiche
 
 Chaque ligne a passé le contrôle de `critique-candidat`. Aucune n'est allée jusqu'à la phase 5 : le choix des candidats à pousser appartient à Hakim.
 
+**Niveau de confiance fournisseur** (décision de Hakim du 20/07/2026 — la case fournisseur prouve que le produit est sourçable, pas que le vendeur est bon) :
+
+- **A** — avis solides **et** expédition France ou UE ;
+- **B** — avis solides, expédition Chine ;
+- **C** — peu ou pas d'avis, mais fiche vérifiée et correspondant au produit. Retenu, à valider par commande test.
+
 **Compteur : 0 / 20**
 
-| # | Candidat | Cluster et volume pertinent | Prix marché | Concurrents (institutionnels / dropship) | Fournisseur AliExpress | Réserves | Date |
-|---|---|---|---|---|---|---|---|
-| — | *aucun candidat retenu à ce jour* | — | — | — | — | — | — |
+| # | Candidat | Cluster et volume pertinent | Prix marché | Concurrents (institutionnels / dropship) | Fournisseur AliExpress | Confiance | Réserves | Date |
+|---|---|---|---|---|---|---|---|---|
+| — | *aucun candidat retenu à ce jour* | — | — | — | — | — | — | — |
 
 ### Cas limites remontés à Hakim
 

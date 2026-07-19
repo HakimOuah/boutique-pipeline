@@ -632,7 +632,13 @@ Deux points restent ouverts et appartiennent à Hakim, voir la section suivante.
 
 La mention « validation **Ahrefs** » de l'ancien §7 a été corrigée dans la foulée : SEMrush France est la source de mesure, Ahrefs n'est qu'un repli à signaler.
 
-**B. Notation vendeur entre 90 et 95 % traitée en cas limite.** Ce seuil vient de l'orchestrateur `/recherche-produit` existant, il n'est donc pas inventé. Mais sa conséquence dans la boucle est nouvelle : un cas limite est `NON RETENU` par `critique-candidat`, donc tout candidat dont le vendeur est noté entre 90 et 95 % ne comptera jamais dans les 20 — il remontera à Hakim. Le candidat de référence tufting est à 93,1 % et serait dans ce cas. Comportement défendable (l'arbitrage revient à l'humain), mais Hakim doit savoir qu'il réduira mécaniquement le débit de la boucle.
+**B. Qualité fournisseur — RÉSOLU le 20/07/2026 sur décision de Hakim.** La règle « notation vendeur 90-95 % = cas limite = non retenu » aurait exclu du compte des 20 tout candidat au fournisseur moyen, dont le tufting de référence à 93,1 %.
+
+Décision : la case fournisseur devient un critère **d'existence**, pas de qualité. Ce qu'on prouve est que le produit est sourçable et qu'une fiche lui correspond ; Hakim vérifie ensuite lui-même, quitte à commander un échantillon. Notation faible, absence d'avis, une ou deux commandes, expédition Chine et délai long ne sont plus éliminatoires — ils déterminent un niveau de confiance A / B / C reporté au registre, avec priorité donnée aux vendeurs à avis solides et aux entrepôts France/UE.
+
+Restent éliminatoires : pas de fiche, fiche ne correspondant pas au produit du cluster, prix rendu supérieur ou égal au prix marché.
+
+Répercuté dans `critique-candidat.md` (case 3 réécrite, règle des cas limites scindée entre marché et fournisseur), `chasse-clusters/SKILL.md` (étapes 3c et 3e), `registre-candidats.md` (colonne « Confiance ») et la spec (§8.1).
 
 ## Ce que ce plan ne fait pas
 

@@ -163,8 +163,25 @@ Une section du registre contenant 15 à 20 lignes comparables, chacune avec :
 | Produit | Le produit qui sert ce cluster, dans la tranche 150–400 € |
 | Prix marché | Fourchette constatée en SERP et Shopping |
 | Concurrence | Nombre de concurrents institutionnels / nombre de dropshippers identifiés |
-| Fournisseur | Lien AliExpress, prix rendu, notation vendeur, délai, entrepôt |
+| Fournisseur | Lien AliExpress, prix rendu, notation vendeur si elle existe, nombre de commandes, délai, entrepôt |
+| Confiance | Niveau A, B ou C (voir §8.1) |
 | Réserves | Tout point non vérifié ou conditionnel, jamais supprimé |
+
+### 8.1 La case fournisseur prouve la sourçabilité, pas la qualité du vendeur
+
+Décision de Hakim du 20 juillet 2026. Ce qu'on veut établir est qu'une fiche AliExpress existe et correspond précisément au produit du cluster — Hakim ira vérifier lui-même, quitte à passer une commande test.
+
+Ne sont donc **pas** éliminatoires : une notation vendeur faible ou entre 90 et 95 %, l'absence totale d'avis, une ou deux commandes seulement, une expédition depuis la Chine, un délai long. Ces points se notent et déterminent le niveau de confiance :
+
+| Niveau | Condition |
+|---|---|
+| A | Avis solides **et** expédition France ou UE |
+| B | Avis solides, expédition Chine |
+| C | Peu ou pas d'avis, mais fiche vérifiée et correspondant au produit |
+
+Restent strictement éliminatoires : l'absence de fiche, une fiche qui ne correspond pas au produit du cluster (variante incompatible, accessoire, produit voisin), et un prix rendu supérieur ou égal au prix marché constaté.
+
+Conséquence assumée : la boucle produira des candidats de niveau C. Ils partent avec la mention « fournisseur à valider par commande test », jamais gommée.
 
 Hakim choisit ensuite lesquels passent en phase 5. Les niveaux 3 (commande test) et 4 (GO lancement) restent hors d'atteinte de la boucle.
 
