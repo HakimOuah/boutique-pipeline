@@ -1,0 +1,191 @@
+# Design — Boucle autonome de chasse aux candidats (volume-first)
+
+Date : 20 juillet 2026
+Statut : validé par Hakim (conversation du 20 juillet 2026)
+Portée : découverte et qualification de candidats produit jusqu'au niveau « fiche AliExpress vérifiée ». Hors périmètre : phase 5 (marge), commande test, construction boutique, Google Ads.
+
+Complète le design du 17 juillet 2026 ([pipeline agents phases 1 à 5](2026-07-17-pipeline-agents-phases-1-5-design.md)) sans le remplacer : les agents `phase3-demande` à `phase5-marge` restent la référence méthodologique.
+
+## 1. Problème à résoudre
+
+Le pipeline actuel ordonne le travail ainsi : idée → filtre qualitatif → mesure du volume. Le comptage des verdicts du registre au 19 juillet 2026 montre où meurent les candidats :
+
+| Cause de rejet | Ordre de grandeur | Phase |
+|---|---|---|
+| Volume pertinent insuffisant | ~30 candidats | 3 |
+| Domination enseignes / prix indéfendable | ~12 candidats | 2 et analyses broyeur |
+| Ticket hors 150–400 € | ~5 candidats | 2 |
+| Fournisseur ou conformité | ~3 candidats | 4 |
+
+Le motif dominant est toujours le même : le mot-clé parent affiche 8 000 à 12 000 recherches, mais une fois la SERP nettoyée il ne reste que 1 000 à 4 000 réellement adressables (vitrail, rouet, torréfacteur, hydroponie, mur végétal, meuble de couture, catio).
+
+Autrement dit : **les phases 1 et 2 produisent des idées séduisantes mais non mesurées**, et tout le travail créatif est réalisé avant que le critère le plus éliminatoire soit appliqué. Le taux d'acceptation observé est d'environ 4 % (2 candidats retenus sur ~50 étudiés).
+
+Répéter ce pipeline en boucle produirait bien 15 à 20 candidats, mais en traitant environ 500 idées, dont 96 % de travail jeté.
+
+## 2. Décisions actées
+
+| Question | Décision de Hakim |
+|---|---|
+| Ordre du pipeline | **Inversé** — le volume est mesuré avant toute idéation produit |
+| Objectif de la boucle | **20 candidats retenus** (plancher acceptable : 15) |
+| Profondeur par candidat | **Fiche AliExpress vérifiée, sans phase 5** |
+| Supervision | **Autonomie totale** jusqu'à 20, arrêt seulement sur blocage |
+| Accès données mots-clés | **SEMrush via Chrome** avec compte connecté (à souscrire) |
+| Source des idées | **Balayage par familles de marché** (option A), minage de concurrents en source secondaire seulement |
+
+### 2.1 Pourquoi pas un Workflow multi-agents
+
+L'orchestration parallèle a été écartée : toutes les mesures passent par une **session Chrome unique** connectée à SEMrush. Des agents parallèles feraient la queue devant la même ressource — on paierait la complexité sans gagner de vitesse. La boucle est donc **séquentielle**, pilotée par `/loop`, ce qui a deux avantages secondaires : reprise naturelle après interruption et état durable sur disque.
+
+### 2.2 Pourquoi pas le minage de concurrents comme source primaire
+
+Partir des domaines qui vendent déjà la tranche 150–400 € (VEVOR.fr, ManoMano, Aosom, marketplaces) garantit le volume et prouve la monétisation, mais ne trouve que des marchés **déjà occupés par ces acteurs** — précisément ce que rejette le critère de différenciation (§4 de `PRODUCT-RESEARCH-CRITERIA.md`). Ces domaines servent donc à **qualifier** la concurrence sur un cluster déjà trouvé, jamais à générer les candidats.
+
+## 3. Principe central — le Keyword Magic Tool comme générateur d'idées
+
+Le point clé du design : on ne demande pas à un agent d'inventer des produits. On lui donne un **terme d'univers** et SEMrush renvoie 300 à 700 formulations réellement tapées par des Français, avec volumes, CPC, KD, et son propre regroupement automatique en sous-groupes.
+
+Les segments qui en sortent sont des demandes réelles, pas des hypothèses. La boucle ne cherche donc pas des idées : elle cherche du **vocabulaire d'entrée**, ce qui est un problème beaucoup plus facile.
+
+### 3.1 Deux étages d'alimentation
+
+**Étage 1 — familles de marché.** Un fichier `familles-exploration.md` liste ~40 univers, éditable et réordonnable par Hakim. Chaque famille donne plusieurs milliers de mots-clés mesurés.
+
+**Étage 2 — auto-expansion.** Chaque cluster retenu génère ses propres graines à partir des sous-groupes voisins et termes connexes proposés par SEMrush. L'univers s'élargit là où il donne des résultats, ce qui empêche l'assèchement.
+
+Si les 40 familles sont épuisées sans atteindre 20 candidats, le diagnostic n'est plus « manque d'idées » mais « le seuil de 10 000 est trop haut pour le périmètre actuel » — décision qui appartient à Hakim, jamais à la boucle.
+
+### 3.2 Rôle modifié des sources d'idées existantes
+
+Amazon, VEVOR, Europages, Flippa et DotMarket restent au périmètre (§2 de `PRODUCT-RESEARCH-CRITERIA.md`) mais changent de fonction : ils fournissent du **vocabulaire de famille** (noms de catégories, d'usages, de rayons), plus des candidats produit. Coût très inférieur, rendement très supérieur, critère « explorer largement » préservé.
+
+## 4. Architecture
+
+```
+Boutiques drop/
+├── .claude/
+│   ├── skills/
+│   │   ├── recherche-produit/SKILL.md        ← orchestrateur existant, inchangé
+│   │   └── chasse-clusters/SKILL.md          ← NOUVEAU : corps de la boucle
+│   └── agents/
+│       ├── phase0-decouverte.md              ← NOUVEAU : balayage SEMrush
+│       ├── phase1-ideation.md                ← existant, non appelé par la boucle
+│       ├── phase2-filtre.md                  ← existant, réutilisé (filtre qualitatif)
+│       ├── phase3-demande.md                 ← existant, réutilisé (nettoyage SERP)
+│       ├── phase4-sourcing.md                ← existant, réutilisé (fiches AliExpress)
+│       ├── phase5-marge.md                   ← existant, hors périmètre de la boucle
+│       └── critique-candidat.md              ← NOUVEAU : contrôle anti-dérive
+└── boutique-pipeline/
+    ├── PRODUCT-RESEARCH-CRITERIA.md          ← source de vérité, inchangée
+    ├── familles-exploration.md               ← NOUVEAU : liste des ~40 familles + état
+    ├── registre-candidats.md                 ← existant, étendu d'une section
+    └── reports/
+        └── chasse-clusters-<famille>-<date>.md
+```
+
+### 4.1 `phase0-decouverte` — nouvel agent
+
+**Entrée** : une famille de marché, la date du jour.
+**Sortie** : un rapport listant les clusters dont le volume France mesuré atteint le seuil, avec leurs mots-clés constitutifs et volumes.
+
+**Interdits** (mêmes règles d'étanchéité que les autres phases) :
+
+- ne propose aucun produit et ne nomme aucun candidat ;
+- ne juge aucune concurrence et ne rend aucun verdict marché ;
+- n'estime jamais un volume : toute donnée non lue à l'écran est absente du rapport ;
+- n'additionne pas des familles de mots-clés pour atteindre le seuil — l'erreur documentée sur le catio (13 000–17 000 par addition de trois familles, contre 2 400 pour le mot-clé exact) est explicitement citée dans le fichier de l'agent comme anti-exemple.
+
+### 4.2 `critique-candidat` — nouvel agent
+
+Relit `PRODUCT-RESEARCH-CRITERIA.md` et le dossier d'un candidat, puis répond : ce candidat coche-t-il réellement les trois cases (volume, concurrence, fournisseur) ?
+
+**On ne lui communique jamais le compteur** ni le nombre de candidats manquants. C'est le mécanisme central contre la dérive de critères — le risque n°1 d'une boucle autonome poursuivant un objectif chiffré.
+
+Son verdict est binaire : retenu / non retenu. Un « presque » est un non.
+
+### 4.3 Réutilisation des agents existants
+
+`phase2-filtre` est appelé pour le filtre qualitatif (banalité, valeur perçue, prix cible) ; `phase3-demande` pour le nettoyage SERP et le comptage de concurrents ; `phase4-sourcing` pour les fiches AliExpress. Leurs fichiers ne sont pas modifiés. La boucle leur transmet un cluster déjà mesuré au lieu d'un candidat non mesuré.
+
+`phase1-ideation` n'est pas appelé : sa fonction — générer des idées — est remplacée par `phase0-decouverte`. Il reste disponible pour les recherches lancées à la main via `/recherche-produit`, qui continue de fonctionner à l'identique.
+
+## 5. Séquence de la boucle
+
+```
+Tant que (candidats retenus < 20) et (familles non balayées restantes) :
+
+  1. Lire registre-candidats.md et familles-exploration.md
+  2. Prendre la famille suivante non balayée
+  3. phase0-decouverte  → clusters au-dessus du seuil, mesurés
+  4. Anti-doublon contre le registre
+     (un STOP ou un rejet documenté n'est jamais re-proposé,
+      sauf reprise motivée explicite de Hakim)
+  5. Pour chaque cluster survivant :
+       a. phase2-filtre : produits qui servent ce cluster,
+          filtre banalité / valeur perçue / prix 150–400 €
+       b. phase3-demande : nettoyage SERP, prix marché,
+          comptage concurrents institutionnels vs dropship
+       c. phase4-sourcing : 1 à 2 fiches AliExpress ouvertes et vérifiées
+          (prix rendu, notation vendeur, délai, entrepôt)
+       d. critique-candidat : verdict à froid
+       e. si retenu → écriture immédiate au registre, compteur +1
+  6. Rapport de famille, marquer la famille comme balayée
+  7. Famille suivante
+```
+
+## 6. Garde-fous
+
+L'autonomie totale ayant été choisie, trois mécanismes remplacent la supervision humaine.
+
+**Anti-dérive de critères.** L'étape (d) est confiée à un agent distinct, aveugle au compteur, qui relit les critères canoniques à chaque candidat.
+
+**Fail-closed sur les données.** SEMrush déconnecté, CAPTCHA AliExpress, page qui ne charge pas, fichier canonique introuvable → la boucle **s'arrête et le signale**. Aucun volume n'est jamais estimé, aucune donnée inventée pour continuer. C'est la règle existante du pipeline, reprise sans modification.
+
+**État durable.** Le registre est écrit après *chaque* candidat retenu, pas en fin de tour. Une interruption à n'importe quel moment ne perd rien ; relancer reprend où la boucle s'est arrêtée.
+
+## 7. Conditions d'arrêt
+
+La boucle s'arrête dans quatre cas :
+
+1. **20 candidats retenus** — objectif atteint.
+2. **Familles épuisées** — rapport de couverture remis à Hakim avec le compte obtenu.
+3. **Trois familles consécutives sans aucun candidat** — signal que le seuil de 10 000 est incompatible avec le périmètre. La boucle ne baisse jamais le seuil d'elle-même : elle remonte le constat à Hakim.
+4. **Blocage technique** — voir fail-closed ci-dessus.
+
+## 8. Livrable
+
+Une section du registre contenant 15 à 20 lignes comparables, chacune avec :
+
+| Colonne | Contenu |
+|---|---|
+| Cluster | Mots-clés constitutifs et volume France mesuré, après nettoyage SERP |
+| Produit | Le produit qui sert ce cluster, dans la tranche 150–400 € |
+| Prix marché | Fourchette constatée en SERP et Shopping |
+| Concurrence | Nombre de concurrents institutionnels / nombre de dropshippers identifiés |
+| Fournisseur | Lien AliExpress, prix rendu, notation vendeur, délai, entrepôt |
+| Réserves | Tout point non vérifié ou conditionnel, jamais supprimé |
+
+Hakim choisit ensuite lesquels passent en phase 5. Les niveaux 3 (commande test) et 4 (GO lancement) restent hors d'atteinte de la boucle.
+
+## 9. Attente réaliste
+
+À un rendement estimé de 25 à 40 % (contre ~4 % aujourd'hui), 20 candidats demandent de mesurer et qualifier 50 à 80 clusters.
+
+Répartition attendue du temps :
+
+- **balayage SEMrush : 10–15 %** — un chargement de page rend des centaines de mots-clés d'un coup ;
+- **qualification : 85–90 %** — nettoyage SERP par cluster, comptage concurrents, relevé de prix, fiches AliExpress une par une.
+
+Compte plusieurs heures de tournage, probablement réparties sur plusieurs sessions. La reprise sur interruption est prévue pour ça.
+
+## 10. Risques connus
+
+| Risque | Traitement |
+|---|---|
+| Dérive des critères à mesure que les candidats faciles s'épuisent | `critique-candidat` aveugle au compteur |
+| Gonflage de volume par addition de familles de mots-clés | Interdit explicite dans `phase0-decouverte`, anti-exemple catio cité |
+| Session Chrome perdue en cours de route | Fail-closed, arrêt et signalement |
+| Chrome monopolisé pendant que Hakim en a besoin | Accepté : la boucle est interruptible sans perte |
+| Familles trop larges donnant des clusters non adressables | Le nettoyage SERP de `phase3-demande` reste obligatoire, jamais court-circuité |
+| Le seuil de 10 000 rend l'objectif de 20 inatteignable | Condition d'arrêt n°3 : constat remonté, seuil jamais modifié par la boucle |
