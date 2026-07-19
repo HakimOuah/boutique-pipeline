@@ -615,6 +615,25 @@ Sans intervalle : la boucle s'auto-cadence. Elle s'arrêtera à 20 candidats, su
 
 Les tâches 1 à 5 sont indépendantes et peuvent être faites dans n'importe quel ordre. La tâche 6 exige que les cinq précédentes soient terminées et que le compte SEMrush soit actif.
 
+## Correctifs appliqués après revue (20 juillet 2026)
+
+Une revue de conformité a été passée sur les cinq fichiers livrés. Quatre correctifs ont été appliqués directement, hors du contenu prescrit ci-dessus :
+
+1. **`chasse-clusters/SKILL.md`, étape 3e** — la mise à jour de la ligne `**Compteur : N / 20**` du registre et la suppression de la ligne d'amorce placeholder ont été rendues explicites. Sans ça le compteur serait resté figé à 0 et le placeholder aurait pu être compté comme un candidat.
+2. **`chasse-clusters/SKILL.md`, étape de démarrage** — le compteur de reprise se lit en comptant les lignes du tableau, pas la valeur affichée, pour qu'une désynchronisation ne se propage pas.
+3. **`chasse-clusters/SKILL.md`, contrôle de livrable** — le chemin et le nombre de sections attendus du rapport de `phase0-decouverte` sont désormais cités, sinon le contrôle ne pouvait pas détecter un mauvais nommage.
+4. **`familles-exploration.md`, §Auto-expansion** — « colonne » corrigé en « section », pour correspondre à la structure réelle du rapport produit par `phase0-decouverte`.
+
+Deux points restent ouverts et appartiennent à Hakim, voir la section suivante.
+
+## Points ouverts pour Hakim
+
+**A. Contradiction avec le §7 de `PRODUCT-RESEARCH-CRITERIA.md`.** Ce paragraphe impose un « ordre obligatoire du pipeline » : idée → filtre → validation du volume. La boucle inverse volontairement cet ordre. Or `critique-candidat` a pour consigne de relire ce fichier intégralement et de n'assouplir aucun critère — un critique littéral peut donc rejeter tout candidat au motif que l'ordre n'a pas été respecté. Le fichier de critères doit reconnaître deux chemins d'entrée légitimes. C'est une modification d'un fichier canonique : elle appartient à Hakim.
+
+À noter au passage : le §7 mentionne « validation **Ahrefs** » alors que toute la chaîne impose SEMrush. Incohérence préexistante, que la boucle rend opérante.
+
+**B. Notation vendeur entre 90 et 95 % traitée en cas limite.** Ce seuil vient de l'orchestrateur `/recherche-produit` existant, il n'est donc pas inventé. Mais sa conséquence dans la boucle est nouvelle : un cas limite est `NON RETENU` par `critique-candidat`, donc tout candidat dont le vendeur est noté entre 90 et 95 % ne comptera jamais dans les 20 — il remontera à Hakim. Le candidat de référence tufting est à 93,1 % et serait dans ce cas. Comportement défendable (l'arbitrage revient à l'humain), mais Hakim doit savoir qu'il réduira mécaniquement le débit de la boucle.
+
 ## Ce que ce plan ne fait pas
 
 - Il ne modifie aucun agent existant. Si le dry-run montre que `phase2-filtre` ou `phase3-demande` supportent mal un cluster en entrée, ce sera un plan séparé.

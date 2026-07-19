@@ -11,7 +11,7 @@ Ce fichier alimente l'agent `phase0-decouverte`. C'est le **seul fichier à édi
 
 ## Auto-expansion
 
-Quand un cluster est retenu, `phase0-decouverte` note les sous-groupes voisins et termes connexes proposés par SEMrush dans la colonne « graines dérivées » du rapport de famille. La boucle les traite avant de passer à la famille suivante. C'est ce qui empêche l'assèchement : la boucle creuse là où ça donne.
+Quand un cluster est retenu, `phase0-decouverte` note les sous-groupes voisins et termes connexes proposés par SEMrush dans la section « Graines dérivées » du rapport de famille. La boucle les traite avant de passer à la famille suivante. C'est ce qui empêche l'assèchement : la boucle creuse là où ça donne.
 
 ## Familles
 
