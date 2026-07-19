@@ -71,6 +71,7 @@ Boutiques drop/
 │   └── agents/
 │       ├── phase0-decouverte.md              ← NOUVEAU : balayage SEMrush
 │       ├── phase1-ideation.md                ← existant, non appelé par la boucle
+│       ├── sonde-prix.md                     ← NOUVEAU : fourchette Google Shopping
 │       ├── phase2-filtre.md                  ← existant, réutilisé (filtre qualitatif)
 │       ├── phase3-demande.md                 ← existant, réutilisé (nettoyage SERP)
 │       ├── phase4-sourcing.md                ← existant, réutilisé (fiches AliExpress)
@@ -104,7 +105,30 @@ Relit `PRODUCT-RESEARCH-CRITERIA.md` et le dossier d'un candidat, puis répond :
 
 Son verdict est binaire : retenu / non retenu. Un « presque » est un non.
 
-### 4.3 Réutilisation des agents existants
+### 4.3 `sonde-prix` — nouvel agent
+
+Ajouté le 20 juillet 2026 après le dry-run de la famille 16, qui a produit le cas d'école : `punch needle`, 17 850 recherches — volume supérieur au tufting — mais un ticket réel de 25 à 30 €. Sans sonde, ce constat n'arrivait qu'en phase 3, après un audit SERP complet.
+
+**Entrée** : les produits sortis de `phase2-filtre`.
+**Sortie** : une fourchette de prix lue sur Google Shopping France, et un verdict parmi `DANS LA TRANCHE`, `LOW-TICKET`, `INDÉTERMINÉ`.
+
+Il se place entre le filtre qualitatif et la validation de la demande — c'est-à-dire juste avant le premier travail coûteux. Ordre de grandeur : environ 1 % du coût d'une phase 3.
+
+**Asymétrie volontaire des verdicts.** Seul `LOW-TICKET` écarte un produit, et uniquement sur une lecture nette et complète. Toute ambiguïté donne `INDÉTERMINÉ` et le produit continue. Un faux `LOW-TICKET` perdrait un candidat définitivement ; un faux `INDÉTERMINÉ` ne coûte qu'une phase 3. La sonde a le droit de faire gagner du temps, jamais d'en faire perdre.
+
+**Interdits** : ne visite aucun site marchand, ne rend aucun verdict marché, ne compte aucun concurrent, ne mesure aucun volume. Elle lit une page de résultats et en sort.
+
+Nommée sans numéro de phase parce qu'elle sert aussi au pipeline classique `/recherche-produit`, où elle s'insère au même endroit — entre la phase 2 et la phase 3.
+
+### 4.4 Les viviers
+
+Un produit `LOW-TICKET` n'est pas rejeté : il entre dans la section « Viviers — volume réel, ticket incompatible » du registre, avec son cluster, son volume mesuré et sa fourchette de prix constatée.
+
+C'est une catégorie distincte des STOP, et l'anti-doublon ne la traite pas comme telle : un vivier peut être repris sans reprise motivée dès qu'un projet de boutique en change le périmètre de prix — typiquement une boutique de niche mêlant machines high-ticket et consommables low-ticket.
+
+Un vivier ne compte pas dans les 20, et ne compte pas non plus comme candidat pour la règle des trois familles stériles : une famille qui ne produit que des viviers reste une famille sans candidat, sinon la boucle pourrait tourner longtemps en accumulant des consolations.
+
+### 4.5 Réutilisation des agents existants
 
 `phase2-filtre` est appelé pour le filtre qualitatif (banalité, valeur perçue, prix cible) ; `phase3-demande` pour le nettoyage SERP et le comptage de concurrents ; `phase4-sourcing` pour les fiches AliExpress. Leurs fichiers ne sont pas modifiés. La boucle leur transmet un cluster déjà mesuré au lieu d'un candidat non mesuré.
 
@@ -124,6 +148,9 @@ Tant que (candidats retenus < 20) et (familles non balayées restantes) :
   5. Pour chaque cluster survivant :
        a. phase2-filtre : produits qui servent ce cluster,
           filtre banalité / valeur perçue / prix 150–400 €
+     a-bis. sonde-prix : lecture Google Shopping France
+          LOW-TICKET → vivier, le produit ne continue pas
+          DANS LA TRANCHE ou INDÉTERMINÉ → continue
        b. phase3-demande : nettoyage SERP, prix marché,
           comptage concurrents institutionnels vs dropship
        c. phase4-sourcing : 1 à 2 fiches AliExpress ouvertes et vérifiées

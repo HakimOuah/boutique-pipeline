@@ -32,7 +32,7 @@ Quand un cluster est retenu, `phase0-decouverte` note les sous-groupes voisins e
 | 13 | Apiculture & petit élevage | apiculture, ruche, poulailler, élevage amateur | à faire | — | — |
 | 14 | Jardin technique & potager | serre, potager surélevé, irrigation, culture intérieur | à faire | — | — |
 | 15 | Piscine & spa | piscine équipement, spa, traitement eau piscine, robot piscine | à faire | — | — |
-| 16 | Loisirs créatifs & artisanat | loisir créatif, tufting, vitrail, résine époxy, punch needle | à faire | — | — |
+| 16 | Loisirs créatifs & artisanat | loisir créatif, tufting, vitrail, résine époxy, punch needle | balayée (dry-run) | 2026-07-20 | 0 candidat, 1 vivier (punch needle) |
 | 17 | Céramique & émaillage | poterie, céramique, four céramique, émaillage | à faire | — | — |
 | 18 | Bijouterie & lapidaire | bijouterie amateur, lapidaire, polissage pierre, outil bijoutier | à faire | — | — |
 | 19 | Textile, couture & tissage | couture, machine à coudre, tricot, métier à tisser | à faire | — | — |

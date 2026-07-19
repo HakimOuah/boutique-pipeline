@@ -6,6 +6,7 @@ Règles d'usage :
 
 - Une ligne par produit jamais étudié. Les synonymes servent à l'anti-doublon (singulier/pluriel, accents, français/anglais, variantes proches, même usage client).
 - Un produit en STOP ou rejeté ne peut pas être re-proposé, sauf thèse réellement nouvelle documentée, marquée `déjà recherché — reprise motivée`.
+- Un **vivier** n'est ni un STOP ni un rejet : c'est un marché à volume réel écarté sur le seul critère du ticket. Il peut être repris sans reprise motivée dès qu'un projet de boutique en change le périmètre de prix.
 - Le registre pointe vers les rapports ; il ne remplace jamais leur détail ni leurs réserves.
 - Niveaux de validation : 1 = marché, 2 = fiche AliExpress, 3 = commande test, 4 = GO lancement. Aucun raccourci entre niveaux.
 
@@ -28,6 +29,16 @@ Chaque ligne a passé le contrôle de `critique-candidat`. Aucune n'est allée j
 | # | Candidat | Cluster et volume pertinent | Prix marché | Concurrents (institutionnels / dropship) | Fournisseur AliExpress | Confiance | Réserves | Date |
 |---|---|---|---|---|---|---|---|---|
 | — | *aucun candidat retenu à ce jour* | — | — | — | — | — | — | — |
+
+### Viviers — volume réel, ticket incompatible
+
+Marchés dont la demande est mesurée et réelle, mais dont le prix pratiqué est nettement sous la tranche 150–400 €. **Ce ne sont pas des rejets** : ils sont mis de côté pour une éventuelle boutique mêlant low et high ticket, et l'anti-doublon ne doit pas les traiter comme des STOP.
+
+Écartés par `sonde-prix` avant la phase 3, pour ne pas payer un audit SERP complet sur un ticket qu'une lecture de Google Shopping suffit à disqualifier.
+
+| Cluster | Volume pertinent | Fourchette de prix constatée | Note | Date |
+|---|---|---|---|---|
+| Punch needle (pratique et kits) | 17 850 (plancher mesuré, [balayage famille 16](reports/chasse-clusters-loisirs-creatifs-artisanat-2026-07-20.md)) | 25–30 € (vérifié par Hakim le 20/07/2026) | Volume supérieur au tufting. CPC 0,10–0,37 € et présence Action/Gifi/Zeeman cohérents avec le ticket. Voisin direct du tufting : candidat naturel pour une boutique loisirs créatifs mêlant machines high-ticket et consommables low-ticket | 2026-07-20 |
 
 ### Cas limites remontés à Hakim
 
