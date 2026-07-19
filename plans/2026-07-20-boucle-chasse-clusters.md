@@ -628,9 +628,9 @@ Deux points restent ouverts et appartiennent à Hakim, voir la section suivante.
 
 ## Points ouverts pour Hakim
 
-**A. Contradiction avec le §7 de `PRODUCT-RESEARCH-CRITERIA.md`.** Ce paragraphe impose un « ordre obligatoire du pipeline » : idée → filtre → validation du volume. La boucle inverse volontairement cet ordre. Or `critique-candidat` a pour consigne de relire ce fichier intégralement et de n'assouplir aucun critère — un critique littéral peut donc rejeter tout candidat au motif que l'ordre n'a pas été respecté. Le fichier de critères doit reconnaître deux chemins d'entrée légitimes. C'est une modification d'un fichier canonique : elle appartient à Hakim.
+**A. Contradiction avec le §7 de `PRODUCT-RESEARCH-CRITERIA.md` — RÉSOLU le 20/07/2026 sur décision de Hakim.** Le §7 imposait un ordre unique (idée → filtre → volume) que la boucle inverse. Il a été réécrit pour reconnaître deux chemins d'entrée : chemin A par l'idée (`/recherche-produit`), chemin B par le volume (`/chasse-clusters`). Les étapes 4 à 8 restent communes et le nettoyage SERP y est déclaré obligatoire quel que soit le chemin. Une sous-section « ce qui ne change pas selon le chemin » verrouille le seuil, les filtres de différenciation, l'interdit d'addition de familles de mots-clés, l'étanchéité des quatre niveaux et l'anti-doublon.
 
-À noter au passage : le §7 mentionne « validation **Ahrefs** » alors que toute la chaîne impose SEMrush. Incohérence préexistante, que la boucle rend opérante.
+La mention « validation **Ahrefs** » de l'ancien §7 a été corrigée dans la foulée : SEMrush France est la source de mesure, Ahrefs n'est qu'un repli à signaler.
 
 **B. Notation vendeur entre 90 et 95 % traitée en cas limite.** Ce seuil vient de l'orchestrateur `/recherche-produit` existant, il n'est donc pas inventé. Mais sa conséquence dans la boucle est nouvelle : un cas limite est `NON RETENU` par `critique-candidat`, donc tout candidat dont le vendeur est noté entre 90 et 95 % ne comptera jamais dans les 20 — il remontera à Hakim. Le candidat de référence tufting est à 93,1 % et serait dans ce cas. Comportement défendable (l'arbitrage revient à l'humain), mais Hakim doit savoir qu'il réduira mécaniquement le débit de la boucle.
 
