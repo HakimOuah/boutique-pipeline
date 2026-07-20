@@ -240,7 +240,18 @@ Répartition attendue du temps :
 
 Compte plusieurs heures de tournage, probablement réparties sur plusieurs sessions. La reprise sur interruption est prévue pour ça.
 
-## 10. Risques connus
+## 10. Addendum du 20 juillet 2026 (après-midi) — pivot vers la voie hybride
+
+Après 7 familles balayées (1 candidat retenu, 2 dossiers remontés, arrêt réglementaire sur trois familles consécutives sans candidat retenu), Hakim a décidé de faire des **idées** la source principale, en conservant la discipline de mesure précoce de la boucle.
+
+Bilan qui motive le pivot :
+
+- **Acquis confirmé** : plus aucune mort tardive sur le volume — les rejets se sont déplacés vers le §4 (concurrence), 10 fois moins chers parce que prononcés en phase 2.
+- **Défauts constatés** : le balayage traite les familles sans jugement de potentiel (3 familles « machines » verrouillées au §4 broyées en pure perte) ; l'angle mort du §4.5 s'est vérifié — le chemin B ne trouve que ce que le vocabulaire nomme ; la seule vraie trouvaille (fontaine) vient de la famille que Hakim connaissait déjà.
+
+Voie hybride (`/qualifie-idees`, skill dédié) : idée → mesure express (`phase0-decouverte` en mode ciblé + `sonde-prix`) → si le volume et le ticket tiennent, chaîne complète (phases 2, 3, 4, critique, registre). Une idée sans volume meurt en minutes. Toute l'infrastructure de ce design est réutilisée telle quelle ; l'objectif des 20 candidats et le compteur du registre restent communs à tous les chemins. La boucle de balayage reste disponible en voie secondaire, familles choisies à la main.
+
+## 11. Risques connus
 
 | Risque | Traitement |
 |---|---|

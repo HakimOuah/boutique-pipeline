@@ -1,6 +1,6 @@
 # Critères canoniques de recherche produit
 
-Dernière mise à jour : 20 juillet 2026 (§7 : reconnaissance de deux chemins d'entrée, par l'idée ou par le volume)
+Dernière mise à jour : 20 juillet 2026 (§7 : deux chemins d'entrée ; le chemin A intègre désormais la mesure express — volume + sonde prix avant tout travail qualitatif — et redevient la voie principale, le balayage passant en voie secondaire)
 
 Ce document est le référentiel à appliquer à toutes les nouvelles recherches produit du pipeline.
 
@@ -82,23 +82,25 @@ Un produit isolé peut rester candidat s'il surperforme clairement sur tous les 
 
 Deux chemins d'entrée sont légitimes. Ils diffèrent uniquement par **ce qui déclenche l'étude** ; les portes à franchir sont les mêmes et aucune n'est jamais sautée.
 
-### Chemin A — entrée par l'idée
+### Chemin A — entrée par l'idée, avec mesure express (voie principale depuis le 20/07/2026)
 
-Utilisé pour une recherche cadrée sur une niche précise (orchestrateur `/recherche-produit`).
+Utilisé pour toute idée produit, qu'elle vienne de Hakim ou d'une salve d'idéation (`/qualifie-idees`, ou `/recherche-produit` pour une recherche cadrée).
 
-1. Idée trouvée sur les sources d'inspiration.
-2. Filtre immédiat : banalité, valeur perçue, problème/usage et prix cible.
-3. Validation du volume : cluster pertinent supérieur ou égal au seuil, en France.
+1. Idée trouvée sur les sources d'inspiration ou apportée par Hakim.
+2. **Mesure express, avant tout travail qualitatif** : volume du cluster de l'idée (SEMrush France, niveaux hiérarchiques séparés) + sonde prix (Google Shopping). Une idée nettement sous le seuil meurt ici, en quelques minutes ; un ticket manifestement low-ticket part en vivier.
+3. Filtre qualitatif : banalité, valeur perçue, problème/usage, avec la fourchette de la sonde comme donnée de prix.
 
-### Chemin B — entrée par le volume
+La mesure express existe parce que l'ancien ordre (idée → filtre → validation volume en phase 3) faisait porter tout le travail créatif avant le critère le plus éliminatoire : sur les recherches de juillet 2026, environ 30 candidats sur 50 sont morts sur le volume en phase 3, après filtrage qualitatif complet.
 
-Utilisé pour l'accumulation de candidats en autonomie (boucle `/chasse-clusters`). Voir `specs/2026-07-20-boucle-chasse-clusters-design.md`.
+### Chemin B — entrée par le volume (balayage, voie secondaire)
 
-1. Balayage d'une famille de marché : clusters mesurés en France, sans qu'aucun produit ne soit encore nommé.
-2. Sélection des clusters atteignant le seuil.
-3. Filtre qualitatif sur les produits qui servent ces clusters : banalité, valeur perçue, problème/usage et prix cible.
+Balayage de familles de marché sans idée préalable (`/chasse-clusters`). Voir `specs/2026-07-20-boucle-chasse-clusters-design.md`.
 
-Ce chemin existe parce que l'entrée par l'idée fait porter tout le travail créatif avant le critère le plus éliminatoire : sur les recherches de juillet 2026, environ 30 candidats sur 50 sont morts sur le volume en phase 3, après filtrage qualitatif complet.
+1. Balayage d'une famille : clusters mesurés en France, sans qu'aucun produit ne soit encore nommé.
+2. Sélection des clusters atteignant le seuil, sonde prix.
+3. Filtre qualitatif sur les produits attestés par le vocabulaire mesuré.
+
+Bilan du 20/07/2026 (7 familles balayées) : le chemin B élimine bien les morts tardives sur le volume, mais il balaie sans jugement de potentiel (3 familles « machines » verrouillées au §4 traitées en pure perte) et ne peut pas nommer ce que le vocabulaire du marché ne nomme pas encore. Il reste disponible pour de la couverture systématique, en choisissant les familles ; la voie principale est le chemin A avec mesure express.
 
 ### Étapes communes aux deux chemins
 

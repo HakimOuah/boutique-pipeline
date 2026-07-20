@@ -14,7 +14,7 @@ Dernière mise à jour : 20 juillet 2026 (chasse clusters : premier candidat ret
 
 ## Chasse clusters — boucle volume-first (lancée le 20 juillet 2026)
 
-Objectif : 20 candidats qualifiés (volume mesuré, concurrence chiffrée, fiche AliExpress vérifiée). Design : [specs/2026-07-20-boucle-chasse-clusters-design.md](specs/2026-07-20-boucle-chasse-clusters-design.md). État du balayage : [familles-exploration.md](familles-exploration.md).
+Objectif : 20 candidats qualifiés (volume mesuré, concurrence chiffrée, fiche AliExpress vérifiée), **tous chemins confondus** — balayage `/chasse-clusters` (voie secondaire depuis le 20/07) et qualification express d'idées `/qualifie-idees` (voie principale) alimentent ce même tableau et ce même compteur. Design : [specs/2026-07-20-boucle-chasse-clusters-design.md](specs/2026-07-20-boucle-chasse-clusters-design.md). État du balayage : [familles-exploration.md](familles-exploration.md).
 
 Chaque ligne a passé le contrôle de `critique-candidat`. Aucune n'est allée jusqu'à la phase 5 : le choix des candidats à pousser appartient à Hakim.
 
