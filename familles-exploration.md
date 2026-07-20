@@ -15,48 +15,62 @@ Quand un cluster est retenu, `phase0-decouverte` note les sous-groupes voisins e
 
 ## Familles
 
+Réordonnées le 20 juillet 2026 (décision Hakim) : priorité aux familles **explicable-particulier** — un particulier face à un choix qu'il ne maîtrise pas — et rétrogradation des familles **technique-pro / machines de marque**, dont le bilan des balayages 1-4 a montré qu'elles sont structurellement verrouillées (marques prescriptrices, persona métier, tranche occupée). Le numéro de famille est un identifiant stable (les rapports y font référence) ; **l'ordre des lignes est l'ordre de balayage**.
+
+### Priorité haute — explicable-particulier
+
 | # | Famille | Graines de départ | Statut | Dernier balayage | Candidats retenus |
 |---|---|---|---|---|---|
+| 9 | Sommeil & environnement nocturne | sommeil, matelas, bruit chambre, obscurité chambre | à faire | — | — |
+| 8 | Traitement de l'air | purificateur air, ventilation, qualité air intérieur, filtration air | à faire | — | — |
+| 11 | Animalerie équipement | équipement chien, équipement chat, dressage animal, transport animal | à faire | — | — |
+| 12 | Aquariophilie & terrariophilie | aquarium, terrarium, filtration aquarium, éclairage aquarium | à faire | — | — |
+| 21 | Puériculture & motricité | motricité enfant, éveil bébé, chambre enfant, sécurité enfant | à faire | — | — |
+| 14 | Jardin technique & potager | serre, potager surélevé, irrigation, culture intérieur | à faire | — | — |
+| 26 | Bien-être matériel | sauna, luminothérapie, cryothérapie, bain froid | à faire | — | — |
+| 25 | Fitness & récupération | musculation maison, récupération sportive, cardio maison, mobilité | à faire | — | — |
+| 32 | Camping, van & bivouac | camping, aménagement van, bivouac, autonomie électrique | à faire | — | — |
+| 37 | Rangement modulaire & mobilier transformable | rangement modulaire, meuble gain de place, mobilier transformable | à faire | — | — |
+| 38 | Éclairage décoratif & scénographie | éclairage décoratif, luminaire design, scénographie, ambiance lumineuse | à faire | — | — |
+| 10 | Chauffage, climatisation & humidité | déshumidificateur, climatisation, poêle, humidité maison | à faire | — | — |
+| 15 | Piscine & spa | piscine équipement, spa, traitement eau piscine, robot piscine | à faire | — | — |
+| 13 | Apiculture & petit élevage | apiculture, ruche, poulailler, élevage amateur | à faire | — | — |
+| 35 | Domotique & sécurité | domotique, alarme maison, vidéosurveillance, contrôle accès | à faire | — | — |
+| 30 | Astronomie & optique | télescope, astronomie, jumelles, observation nature | à faire | — | — |
+| 33 | Chasse, pêche & nature | pêche, chasse, observation nature, piège photo | à faire | — | — |
+| 34 | Vélo & mobilité douce | entretien vélo, atelier vélo, trottinette, mobilité électrique | à faire | — | — |
+| 28 | Home studio & musique | home studio, enregistrement, instrument, sonorisation | à faire | — | — |
+| 29 | Photo, vidéo & éclairage | matériel photo, éclairage studio, stabilisateur, fond studio | à faire | — | — |
+| 31 | Modélisme & radiocommandé | modélisme, drone, voiture rc, maquette | à faire | — | — |
+| 19 | Textile, couture & tissage | couture, machine à coudre, tricot, métier à tisser | à faire | — | — |
+| 23 | Brassage, fermentation & conservation | brassage bière, fermentation, conservation aliments, déshydrateur | à faire | — | — |
+| 40 | Agriculture de loisir & autonomie | permaculture, autonomie alimentaire, petit matériel agricole, meulage grain | à faire | — | — |
+| 17 | Céramique & émaillage | poterie, céramique, four céramique, émaillage | à faire | — | — |
+| 18 | Bijouterie & lapidaire | bijouterie amateur, lapidaire, polissage pierre, outil bijoutier | à faire | — | — |
+| 20 | Cuir & maroquinerie | travail du cuir, maroquinerie, outil cuir, cordonnerie | à faire | — | — |
+| 36 | Nettoyage technique | nettoyage professionnel, nettoyeur, décapage, entretien surface | à faire | — | — |
+| 39 | Événementiel & réception | matériel réception, tente événement, mobilier événementiel | à faire | — | — |
+
+### Priorité basse — technique-pro / machines de marque (balayer seulement si les précédentes sont épuisées)
+
+| # | Famille | Graines de départ | Statut | Dernier balayage | Candidats retenus |
+|---|---|---|---|---|---|
+| 5 | Impression 3D, découpe & gravure | imprimante 3d, graveur laser, découpe vinyle, cnc | à faire | — | — |
+| 6 | Électronique & réparation | réparation smartphone, station soudage, microscope électronique, outil réparation | à faire | — | — |
+| 22 | Cuisine semi-professionnelle | matériel cuisine pro, four professionnel, pâtisserie matériel | à faire | — | — |
+| 24 | Restauration & food truck | food truck, matériel snack, vitrine réfrigérée, machine restauration | à faire | — | — |
+| 27 | Esthétique & coiffure pro | matériel esthétique, coiffure professionnel, onglerie, épilation | à faire | — | — |
+
+### Balayées
+
+| # | Famille | Graines de départ | Statut | Dernier balayage | Candidats retenus |
+|---|---|---|---|---|---|
+| 7 | Traitement de l'eau | traitement eau, osmoseur, adoucisseur, filtration eau | balayée (dry-run) | 2026-07-20 | **1 candidat RETENU (fontaine gravité, confiance A)**, 1 STOP (adoucisseur compact), 2 viviers + 6 poches |
+| 16 | Loisirs créatifs & artisanat | loisir créatif, tufting, vitrail, résine époxy, punch needle | balayée (dry-run) | 2026-07-20 | 0 candidat, 1 vivier (punch needle) |
 | 1 | Atelier & outillage | atelier, établi, outillage, servante atelier | balayée (dry-run) | 2026-07-20 | 0 candidat (§4), 1 vivier (outillage frigoriste) |
 | 2 | Travail du bois | travail du bois, menuiserie, tour à bois, ponçage | balayée | 2026-07-20 | 0 candidat (§4 machines de marque), poches dont gabarits queue d'aronde |
 | 3 | Travail du métal & soudure | soudure, poste à souder, forge, métal atelier | balayée | 2026-07-20 | 0 candidat (plieuse STOP phase 3, reste §4/hors tranche), poches dont table soudure 2D |
 | 4 | Auto / moto atelier & diagnostic | diagnostic auto, atelier moto, outil garage, valise diagnostic | balayée | 2026-07-20 | 0 retenu — presse À APPROFONDIR + lève-moto CAS LIMITE remontés à Hakim, 1 vivier (béquille) |
-| 5 | Impression 3D, découpe & gravure | imprimante 3d, graveur laser, découpe vinyle, cnc | à faire | — | — |
-| 6 | Électronique & réparation | réparation smartphone, station soudage, microscope électronique, outil réparation | à faire | — | — |
-| 7 | Traitement de l'eau | traitement eau, osmoseur, adoucisseur, filtration eau | balayée (dry-run) | 2026-07-20 | **1 candidat RETENU (fontaine gravité, confiance A)**, 1 STOP (adoucisseur compact), 2 viviers + 6 poches |
-| 8 | Traitement de l'air | purificateur air, ventilation, qualité air intérieur, filtration air | à faire | — | — |
-| 9 | Sommeil & environnement nocturne | sommeil, matelas, bruit chambre, obscurité chambre | à faire | — | — |
-| 10 | Chauffage, climatisation & humidité | déshumidificateur, climatisation, poêle, humidité maison | à faire | — | — |
-| 11 | Animalerie équipement | équipement chien, équipement chat, dressage animal, transport animal | à faire | — | — |
-| 12 | Aquariophilie & terrariophilie | aquarium, terrarium, filtration aquarium, éclairage aquarium | à faire | — | — |
-| 13 | Apiculture & petit élevage | apiculture, ruche, poulailler, élevage amateur | à faire | — | — |
-| 14 | Jardin technique & potager | serre, potager surélevé, irrigation, culture intérieur | à faire | — | — |
-| 15 | Piscine & spa | piscine équipement, spa, traitement eau piscine, robot piscine | à faire | — | — |
-| 16 | Loisirs créatifs & artisanat | loisir créatif, tufting, vitrail, résine époxy, punch needle | balayée (dry-run) | 2026-07-20 | 0 candidat, 1 vivier (punch needle) |
-| 17 | Céramique & émaillage | poterie, céramique, four céramique, émaillage | à faire | — | — |
-| 18 | Bijouterie & lapidaire | bijouterie amateur, lapidaire, polissage pierre, outil bijoutier | à faire | — | — |
-| 19 | Textile, couture & tissage | couture, machine à coudre, tricot, métier à tisser | à faire | — | — |
-| 20 | Cuir & maroquinerie | travail du cuir, maroquinerie, outil cuir, cordonnerie | à faire | — | — |
-| 21 | Puériculture & motricité | motricité enfant, éveil bébé, chambre enfant, sécurité enfant | à faire | — | — |
-| 22 | Cuisine semi-professionnelle | matériel cuisine pro, four professionnel, pâtisserie matériel | à faire | — | — |
-| 23 | Brassage, fermentation & conservation | brassage bière, fermentation, conservation aliments, déshydrateur | à faire | — | — |
-| 24 | Restauration & food truck | food truck, matériel snack, vitrine réfrigérée, machine restauration | à faire | — | — |
-| 25 | Fitness & récupération | musculation maison, récupération sportive, cardio maison, mobilité | à faire | — | — |
-| 26 | Bien-être matériel | sauna, luminothérapie, cryothérapie, bain froid | à faire | — | — |
-| 27 | Esthétique & coiffure pro | matériel esthétique, coiffure professionnel, onglerie, épilation | à faire | — | — |
-| 28 | Home studio & musique | home studio, enregistrement, instrument, sonorisation | à faire | — | — |
-| 29 | Photo, vidéo & éclairage | matériel photo, éclairage studio, stabilisateur, fond studio | à faire | — | — |
-| 30 | Astronomie & optique | télescope, astronomie, jumelles, observation nature | à faire | — | — |
-| 31 | Modélisme & radiocommandé | modélisme, drone, voiture rc, maquette | à faire | — | — |
-| 32 | Camping, van & bivouac | camping, aménagement van, bivouac, autonomie électrique | à faire | — | — |
-| 33 | Chasse, pêche & nature | pêche, chasse, observation nature, piège photo | à faire | — | — |
-| 34 | Vélo & mobilité douce | entretien vélo, atelier vélo, trottinette, mobilité électrique | à faire | — | — |
-| 35 | Domotique & sécurité | domotique, alarme maison, vidéosurveillance, contrôle accès | à faire | — | — |
-| 36 | Nettoyage technique | nettoyage professionnel, nettoyeur, décapage, entretien surface | à faire | — | — |
-| 37 | Rangement modulaire & mobilier transformable | rangement modulaire, meuble gain de place, mobilier transformable | à faire | — | — |
-| 38 | Éclairage décoratif & scénographie | éclairage décoratif, luminaire design, scénographie, ambiance lumineuse | à faire | — | — |
-| 39 | Événementiel & réception | matériel réception, tente événement, mobilier événementiel | à faire | — | — |
-| 40 | Agriculture de loisir & autonomie | permaculture, autonomie alimentaire, petit matériel agricole, meulage grain | à faire | — | — |
 
 ## Familles écartées d'office
 

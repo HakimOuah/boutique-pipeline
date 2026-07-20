@@ -1,6 +1,6 @@
 # Critères canoniques de recherche produit
 
-Dernière mise à jour : 20 juillet 2026 (§7 : deux chemins d'entrée ; le chemin A intègre désormais la mesure express — volume + sonde prix avant tout travail qualitatif — et redevient la voie principale, le balayage passant en voie secondaire)
+Dernière mise à jour : 20 juillet 2026 (§3 : « explicable-particulier » remplace « technique » comme levier, signal d'exclusion persona pro ajouté ; §7 : deux chemins d'entrée, le chemin A avec mesure express redevient la voie principale)
 
 Ce document est le référentiel à appliquer à toutes les nouvelles recherches produit du pipeline.
 
@@ -27,9 +27,13 @@ Ces sites servent uniquement à trouver et valider des idées. **Le fournisseur 
 
 ## 3. Profils de produits recherchés
 
+**Cible : le particulier, toujours.** Précision du 20 juillet 2026, tirée du bilan des balayages 1-4 : le levier gagnant n'est pas « produit technique » mais **« produit explicable au particulier »** — un particulier face à un choix qu'il ne maîtrise pas (osmoseur, fontaine à gravité, tufting), ce qui justifie une boutique spécialisée pédagogique. Ne pas confondre avec le technique-pro (poste à souder, plieuse, presse), où l'acheteur est expert, fidèle aux marques prescriptrices, et où le parcours d'achat (comparaison, devis, facture pro) ne correspond pas au modèle Search → fiche produit.
+
+**Signal d'exclusion — persona professionnel** : un vocabulaire de métier dans le cluster (nom de profession, chantier, devis, location, occasion massive, formation) indique un acheteur pro. C'est un motif d'exclusion ou de vivier, pas de poursuite. Cas d'école documenté : la plieuse zinc (vocabulaire de couvreur — chantier, location, « parisienne ») a coûté une chaîne complète avant que ce signal soit lu.
+
 Un candidat peut appartenir à une ou plusieurs familles :
 
-- produit technique nécessitant une explication ;
+- produit **explicable** nécessitant pédagogie et aide au choix, destiné au particulier ;
 - produit qui résout un problème précis, fréquent et suffisamment gênant ;
 - produit à forte valeur perçue ;
 - produit offrable ou visuellement désirable pour le Q4 ;
