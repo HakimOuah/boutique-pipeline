@@ -10,7 +10,7 @@ Règles d'usage :
 - Le registre pointe vers les rapports ; il ne remplace jamais leur détail ni leurs réserves.
 - Niveaux de validation : 1 = marché, 2 = fiche AliExpress, 3 = commande test, 4 = GO lancement. Aucun raccourci entre niveaux.
 
-Dernière mise à jour : 20 juillet 2026 (chasse clusters : premier candidat retenu — fontaine à gravité, confiance A, dry-run complet de la chaîne sur la famille 7 ; familles 1 et 16 balayées sans candidat ; viviers punch needle, douche filtrante, filtre robinet, outillage frigoriste).
+Dernière mise à jour : 20 juillet 2026 soir (candidat n°2 retenu : surpresseur domestique, confiance B, issu de la vague 1 du minage Brand Search ; 3 dossiers À APPROFONDIR remontés à Hakim : papier peint panoramique, pompe immergée, Seiko mod).
 
 ## Chasse clusters — boucle volume-first (lancée le 20 juillet 2026)
 
@@ -24,11 +24,12 @@ Chaque ligne a passé le contrôle de `critique-candidat`. Aucune n'est allée j
 - **B** — une seule des deux forces : avis solides mais expédition Chine, ou pas d'avis mais expédition France/UE ;
 - **C** — pas d'avis **et** expédition Chine, mais fiche vérifiée et correspondant au produit. Retenu, à valider par commande test.
 
-**Compteur : 1 / 20**
+**Compteur : 2 / 20**
 
 | # | Candidat | Cluster et volume pertinent | Prix marché | Concurrents (institutionnels / dropship) | Fournisseur AliExpress | Confiance | Réserves | Date |
 |---|---|---|---|---|---|---|---|---|
 | 1 | **Fontaine à eau filtrante à gravité, grande capacité** | `fontaine filtrante` + `filtre gravité` ≈ **13 000–15 500/mois** nettoyé ([phase 3](reports/phase3-demande-traitement-de-l-eau-2026-07-20.md)) | Cœur 150–420 € (EVA 179–295, Weeplow 179,99–199,99, Orinko 179,99, Berkefeld 265–320, Berkey 200–416) | Spécialistes DTC dominants en organique (7+ identifiés) / dropship non isolé ; GSB = bornes de prix seulement ; VEVOR 70–106 € en ancre basse | [Fiche 1005008291010462](https://fr.aliexpress.com/item/1005008291010462.html) : 8,5 L inox, **86,99 € rendu, expédié France 2–8 j**, 4,9/5 · 32 avis · 127 vendus, vendeur SucceBuy 95,9 % ; backup + repli Pologne sans titre VEVOR ; [cartouches 32,19 €](https://fr.aliexpress.com/item/1005010470376800.html) même vendeur ([phase 4](reports/phase4-sourcing-fontaine-gravite-2026-07-20.md)) | **A** | 11 réserves du [contrôle critique](reports/phase4-sourcing-fontaine-gravite-2026-07-20.md) dont 3 majeures : logo VEVOR possible sur la cuve livrée (contrôle prioritaire commande test), conformité contact alimentaire non documentée (aucun claim santé), statut Berkey non instruit juridiquement. Niveau 2 (fiche) — pas de GO fournisseur, commande test = décision Hakim | 2026-07-20 |
+| 2 | **Surpresseur domestique** | `surpresseur eau` + variantes ≈ **19 000–26 600/mois** nettoyé ([phase 3](reports/phase3-demande-vague1-brandsearch-2026-07-20.md)) | Entrée GSB 65–145 €, cœur 130–450 € (Tallas 209–339 €, kits ballon 208–299 €), premium 469–1 199 € (Grundfos SCALA2, DAB) | 6 spécialistes en organique dont pompeaeau.fr n°2 (≈ 600 ads, boutique preuve Brand Search) ; GSB via listings sans verrou ; AliExpress déjà en Shopping (ancre basse) | [Fiche Haijiaxin 1005012663097367](https://fr.aliexpress.com/item/1005012663097367.html) : 1100 W + ballon 24 L, **161,39 € rendu, entrepôt Allemagne 4–10 j**, 5,0/1 avis/5 vendus, vendeur 93,9 % ; backup Dutoofree gamme 4 puissances 90–118 € (94,5 %, 26 avis, Chine 34–48 j) ([phase 4](reports/phase4-sourcing-surpresseur-2026-07-20.md)) | **B** | 8 réserves du contrôle critique dont 4 majeures : prise UE/tension et CE/RoHS non confirmées (produit électrique — contrôle échantillon obligatoire), contenu réel fiche à vérifier (catégorisation interne incohérente), réassort inconnu (limite 1 pièce, stock 5), 0 annonce texte captée à re-vérifier avant plan média. Niveau 2 — commande test = décision Hakim | 2026-07-20 |
 
 ### Familles balayées sans candidat
 
@@ -46,7 +47,7 @@ Source : [minage](reports/minage-brandsearch-2026-07-20.md) (20 idées, 11 requ�
 
 | Idée | Issue | Motif résumé |
 |---|---|---|
-| **Surpresseur domestique** | **GO marché** (phase 3) — ≈ 19 000–26 600 pertinent | SERP achat avec couche pédagogique, 6 spécialistes dont pompeaeau.fr n°2, GSB sans verrou ; le premium (SCALA2) est un argument marques, pas un cluster. → phase 4 en cours |
+| **Surpresseur domestique** | **RETENU** — candidat n°2 du registre (confiance B) | Chaîne complète le 20/07 : GO marché (19 000–26 600) → fiche Allemagne 161,39 € → critique RETENU. Voir tableau des candidats |
 | Papier peint panoramique sur mesure | **À APPROFONDIR** (phase 3) — voir Cas limites | 40 500 exact mais le « sur mesure guidé » est le standard du marché, ~10 spécialistes DTC installés (Hexoa 2 855 avis, Izoa 5 334) ; wondermural (preuve) absent des SERP FR, 30 ads en DE/IT — preuve invalidée pour la France |
 | Pompe immergée de puits | **À APPROFONDIR** (phase 3) — voir Cas limites | Pas de verrou GSB, mais dimensionnement guidé déjà servi + VEVOR commoditise (95–174 €) ; extension de gamme naturelle derrière le surpresseur, pas produit phare |
 | Montre custom Seiko mod | **À APPROFONDIR** (phase 3 du 20/07, poussé par Hakim depuis cas limite) — voir Cas limites | Volume tranché : ≈ 17 600–20 000 nettoyé (hors bande). Bloquants : marques déposées (≈ 5 500–6 100/mois nomment Datejust/Nautilus/Royal Oak — designs imités par les produits) + 20+ boutiques mod FR au standard « assemblé en France + garantie » ([phase 3](reports/phase3-demande-seiko-mod-2026-07-20.md)) |
