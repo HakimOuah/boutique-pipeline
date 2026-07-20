@@ -47,6 +47,13 @@ Chaque ligne a passé le contrôle de `critique-candidat`. Aucune n'est allée j
 | Adoucisseur compact sans électricité pour appartement | adoucisseur appartement, adoucisseur compact, adoucisseur sans électricité | **STOP marché** (20/07/2026) — segment ≈ 2 900–3 400/mois | Règle hiérarchique appliquée : le parent `adoucisseur d'eau` (40 500) sert exclusivement l'adoucisseur classique posé 450–1 300 €, GSB + installateurs ; annonces texte = installateurs ([phase 3](reports/phase3-demande-traitement-de-l-eau-2026-07-20.md)) |
 | Plieuse de tôle / zinc manuelle d'établi | plieuse tole, plieuse zinc, plieuse manuelle, plieuse d'établi | **STOP marché** (20/07/2026) — adressable ≈ 5 000–6 500/mois | Unité tôle/zinc invalidée en SERP : établi 52–402 € vs couvreur 749–6 811 € (Jouanel/Dimos prescripteurs), deux mondes non mutualisables. Espace spécialiste déjà occupé par des domaines exacts (plieuse-tole.com, plieuse-atelier.fr, plieuse-zinc.fr). Persona zinc = pro/chantier ([phase 3](reports/phase3-demande-plieuse-tole-2026-07-20.md)) |
 
+### Rejets sur décision Hakim — minage Brand Search (20/07/2026)
+
+| Idée | Décision | Note |
+|---|---|---|
+| Trottinette électrique adulte (vente de l'engin) | **Rejet Hakim 20/07/2026** — §4 évident : Decathlon, grandes surfaces, grosses marques positionnées | L'angle **accessoires / personnalisation / amélioration** reste ouvert et peut être proposé comme idée distincte |
+| Vélo urbain / fixie (vente de l'engin) | **Rejet Hakim 20/07/2026** — même motif | Même ouverture accessoires |
+
 ### Viviers — volume réel, ticket incompatible
 
 Marchés dont la demande est mesurée et réelle, mais dont le prix pratiqué est nettement sous la tranche 150–400 €. **Ce ne sont pas des rejets** : ils sont mis de côté pour une éventuelle boutique mêlant low et high ticket, et l'anti-doublon ne doit pas les traiter comme des STOP.
