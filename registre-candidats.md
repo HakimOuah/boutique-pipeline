@@ -57,6 +57,12 @@ Source : [minage](reports/minage-brandsearch-2026-07-20.md) (20 idées, 11 requ�
 | Pompe arrosage | Rejet phase 2 | Sous le seuil (6 180) + marques jardin saturées. Pas un vivier (motif ≠ ticket) |
 | Trottinette / vélo (vente engin) | Rejet Hakim (voir section dédiée) | §4 évident ; angle accessoires ouvert |
 
+### Tableau Codex multi-marchés (20-21/07/2026) — hors pipeline, sourcing d'existence fait
+
+Recherche parallèle menée par Codex (Brand Search 7 marchés, 216 boutiques, 30 niches) : 8 « VALIDÉ » sur volumes BRUTS (équivalent mesure express, PAS de nettoyage SERP ni phase 2/3), 16 à creuser, 6 exclus. Sourcing AliExpress d'existence fait par le pipeline le 20/07 : 8/8 sourçables. Fichier : `codex-chasse-clusters/outputs/20260720-200609/tableau-produits-multimarches-20260720-200609-sourcing.xlsx` · rapport : [sourcing-existence-codex-8](reports/sourcing-existence-codex-8-2026-07-20.md) · tout répliqué dans Notion (famille « Codex multi-marchés »).
+
+Anti-doublon : ces produits ne sont PAS des candidats du registre tant qu'ils n'ont pas passé la chaîne. Meuble-cage chien = notre STOP France confirmé par les chiffres Codex (FR 2 060). Dossiers FR qualifiables si Hakim le demande : fauteuil suspendu (le plus renforcé — fiche Allemagne 106 € vs marché 290-350 €), housse voiture, évier cascade, haltères (fragile : piège unité/paire + Decathlon).
+
 ### STOP marché issus de la chasse
 
 | Candidat | Synonymes | Verdict | Motif |
