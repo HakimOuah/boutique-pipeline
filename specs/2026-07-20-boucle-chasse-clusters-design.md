@@ -251,6 +251,8 @@ Bilan qui motive le pivot :
 
 Voie hybride (`/qualifie-idees`, skill dédié) : idée → mesure express (`phase0-decouverte` en mode ciblé + `sonde-prix`) → si le volume et le ticket tiennent, chaîne complète (phases 2, 3, 4, critique, registre). Une idée sans volume meurt en minutes. Toute l'infrastructure de ce design est réutilisée telle quelle ; l'objectif des 20 candidats et le compteur du registre restent communs à tous les chemins. La boucle de balayage reste disponible en voie secondaire, familles choisies à la main.
 
+**Synchronisation Notion (ajoutée le 20/07/2026)** : chaque écriture registre (retenu, vivier, poche, STOP, cas limite) produit sa fiche dans la base Notion « Chasse aux clusters — juillet 2026 » (data source `9490c443-ea82-4102-8b3f-f58cdb9c7dc6`, hub Pipeline Boutiques Drop). Trois règles : le registre local d'abord (source de vérité, Notion = tableau de lecture) ; une panne Notion ne bloque jamais la boucle (fiches manquées consignées dans `notion-sync-pending.md`) ; pas de doublon (mise à jour si la fiche existe).
+
 ## 11. Risques connus
 
 | Risque | Traitement |
