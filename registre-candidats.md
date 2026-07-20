@@ -10,7 +10,7 @@ Règles d'usage :
 - Le registre pointe vers les rapports ; il ne remplace jamais leur détail ni leurs réserves.
 - Niveaux de validation : 1 = marché, 2 = fiche AliExpress, 3 = commande test, 4 = GO lancement. Aucun raccourci entre niveaux.
 
-Dernière mise à jour : 19 juillet 2026 (tufting : phase 5 faite, commande test lancée par Hakim, arborescence boutique + sourcing catalogue letufting.fr documentés dans [reports/arborescence-sourcing-tufting-2026-07-19.md](reports/arborescence-sourcing-tufting-2026-07-19.md) et répliqués dans Notion).
+Dernière mise à jour : 20 juillet 2026 (chasse clusters : premier candidat retenu — fontaine à gravité, confiance A, dry-run complet de la chaîne sur la famille 7 ; familles 1 et 16 balayées sans candidat ; viviers punch needle, douche filtrante, filtre robinet, outillage frigoriste).
 
 ## Chasse clusters — boucle volume-first (lancée le 20 juillet 2026)
 
@@ -24,11 +24,11 @@ Chaque ligne a passé le contrôle de `critique-candidat`. Aucune n'est allée j
 - **B** — une seule des deux forces : avis solides mais expédition Chine, ou pas d'avis mais expédition France/UE ;
 - **C** — pas d'avis **et** expédition Chine, mais fiche vérifiée et correspondant au produit. Retenu, à valider par commande test.
 
-**Compteur : 0 / 20**
+**Compteur : 1 / 20**
 
 | # | Candidat | Cluster et volume pertinent | Prix marché | Concurrents (institutionnels / dropship) | Fournisseur AliExpress | Confiance | Réserves | Date |
 |---|---|---|---|---|---|---|---|---|
-| — | *aucun candidat retenu à ce jour* | — | — | — | — | — | — | — |
+| 1 | **Fontaine à eau filtrante à gravité, grande capacité** | `fontaine filtrante` + `filtre gravité` ≈ **13 000–15 500/mois** nettoyé ([phase 3](reports/phase3-demande-traitement-de-l-eau-2026-07-20.md)) | Cœur 150–420 € (EVA 179–295, Weeplow 179,99–199,99, Orinko 179,99, Berkefeld 265–320, Berkey 200–416) | Spécialistes DTC dominants en organique (7+ identifiés) / dropship non isolé ; GSB = bornes de prix seulement ; VEVOR 70–106 € en ancre basse | [Fiche 1005008291010462](https://fr.aliexpress.com/item/1005008291010462.html) : 8,5 L inox, **86,99 € rendu, expédié France 2–8 j**, 4,9/5 · 32 avis · 127 vendus, vendeur SucceBuy 95,9 % ; backup + repli Pologne sans titre VEVOR ; [cartouches 32,19 €](https://fr.aliexpress.com/item/1005010470376800.html) même vendeur ([phase 4](reports/phase4-sourcing-fontaine-gravite-2026-07-20.md)) | **A** | 11 réserves du [contrôle critique](reports/phase4-sourcing-fontaine-gravite-2026-07-20.md) dont 3 majeures : logo VEVOR possible sur la cuve livrée (contrôle prioritaire commande test), conformité contact alimentaire non documentée (aucun claim santé), statut Berkey non instruit juridiquement. Niveau 2 (fiche) — pas de GO fournisseur, commande test = décision Hakim | 2026-07-20 |
 
 ### Familles balayées sans candidat
 
@@ -36,6 +36,12 @@ Chaque ligne a passé le contrôle de `critique-candidat`. Aucune n'est allée j
 |---|---|---|---|---|
 | 16 — Loisirs créatifs & artisanat (dry-run) | 2026-07-20 | Tufting 13 110 (contrôle, déjà au registre) ; punch needle 17 850 ; résine époxy sol 23 500 (hors périmètre famille) | 0 candidat, 1 vivier | [phase 0](reports/chasse-clusters-loisirs-creatifs-artisanat-2026-07-20.md) |
 | 1 — Atelier & outillage (dry-run) | 2026-07-20 | Servante d'atelier ≈ 30 300 ; établi ≈ 36 400 | 0 candidat — **shortlist vide en phase 2**, les 9 produits dérivés rejetés au §4 (Facom/KS Tools/Stanley/Wolfcraft + Leroy Merlin/Brico Dépôt/Castorama/Lidl attestés dans le vocabulaire mesuré). Ne pas re-dériver ces produits depuis cette famille sans reprise motivée. 1 vivier (outillage frigoriste) | [phase 0](reports/chasse-clusters-atelier-outillage-2026-07-20.md) · [phase 2](reports/phase2-filtre-atelier-outillage-2026-07-20.md) |
+
+### STOP marché issus de la chasse
+
+| Candidat | Synonymes | Verdict | Motif |
+|---|---|---|---|
+| Adoucisseur compact sans électricité pour appartement | adoucisseur appartement, adoucisseur compact, adoucisseur sans électricité | **STOP marché** (20/07/2026) — segment ≈ 2 900–3 400/mois | Règle hiérarchique appliquée : le parent `adoucisseur d'eau` (40 500) sert exclusivement l'adoucisseur classique posé 450–1 300 €, GSB + installateurs ; annonces texte = installateurs ([phase 3](reports/phase3-demande-traitement-de-l-eau-2026-07-20.md)) |
 
 ### Viviers — volume réel, ticket incompatible
 
@@ -47,6 +53,9 @@ Marchés dont la demande est mesurée et réelle, mais dont le prix pratiqué es
 |---|---|---|---|---|
 | Punch needle (pratique et kits) | 17 850 (plancher mesuré, [balayage famille 16](reports/chasse-clusters-loisirs-creatifs-artisanat-2026-07-20.md)) | 25–30 € (vérifié par Hakim le 20/07/2026) | Volume supérieur au tufting. CPC 0,10–0,37 € et présence Action/Gifi/Zeeman cohérents avec le ticket. Voisin direct du tufting : candidat naturel pour une boutique loisirs créatifs mêlant machines high-ticket et consommables low-ticket | 2026-07-20 |
 | Outillage frigoriste | Non mesuré en cluster (repéré au [balayage famille 1](reports/chasse-clusters-atelier-outillage-2026-07-20.md)) | Non sondée | **Poche repérée, non instruite.** CPC 1,72 € — le plus élevé de toute la famille 1, signal d'intention pro à ticket élevé. Repérée par la phase 2 sans pouvoir être instruite (hors vocabulaire des clusters mesurés). À re-mesurer en phase 0 si reprise | 2026-07-20 |
+| Douche filtrante anti-calcaire | ≈ 34 700 plancher ([phase 0 famille 7](reports/chasse-clusters-traitement-de-l-eau-2026-07-20.md)) | 7–145 € (sonde 20/07) — l'unité plafonne ~140 € | Volume important, gros de l'offre 7–40 €, étage DTC 59–99 €. Complément naturel d'une boutique construite autour de la fontaine à gravité (candidat n°1) | 2026-07-20 |
+| Filtre sur robinet (format littéral) | ≈ 31 260 plancher famille, format littéral 17–80 € (sonde 20/07) | 17–80 € | La valeur dans la tranche sur cette requête est servie par gravité/sous évier — captée par le candidat n°1. Le format littéral lui-même est low-ticket, complément de gamme possible | 2026-07-20 |
+| Poches famille 7 non instruites | — ([phase 2](reports/phase2-filtre-traitement-de-l-eau-2026-07-20.md)) | Non sondées | **Poches repérées, non instruites** : station filtration maison entière (borderline phase 0), charbon binchotan (≈ 6 200), pommeau douche coréen, PFAS (angle réassurance émergent), traitement eau camping-car (→ famille 32), consommables adoucisseur | 2026-07-20 |
 
 ### Cas limites remontés à Hakim
 

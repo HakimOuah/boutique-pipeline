@@ -23,7 +23,7 @@ Quand un cluster est retenu, `phase0-decouverte` note les sous-groupes voisins e
 | 4 | Auto / moto atelier & diagnostic | diagnostic auto, atelier moto, outil garage, valise diagnostic | à faire | — | — |
 | 5 | Impression 3D, découpe & gravure | imprimante 3d, graveur laser, découpe vinyle, cnc | à faire | — | — |
 | 6 | Électronique & réparation | réparation smartphone, station soudage, microscope électronique, outil réparation | à faire | — | — |
-| 7 | Traitement de l'eau | traitement eau, osmoseur, adoucisseur, filtration eau | à faire | — | — |
+| 7 | Traitement de l'eau | traitement eau, osmoseur, adoucisseur, filtration eau | balayée (dry-run) | 2026-07-20 | **1 candidat RETENU (fontaine gravité, confiance A)**, 1 STOP (adoucisseur compact), 2 viviers + 6 poches |
 | 8 | Traitement de l'air | purificateur air, ventilation, qualité air intérieur, filtration air | à faire | — | — |
 | 9 | Sommeil & environnement nocturne | sommeil, matelas, bruit chambre, obscurité chambre | à faire | — | — |
 | 10 | Chauffage, climatisation & humidité | déshumidificateur, climatisation, poêle, humidité maison | à faire | — | — |
