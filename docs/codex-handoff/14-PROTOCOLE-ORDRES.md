@@ -112,6 +112,14 @@ Un ordre classé C est déplacé en `attente-hakim/` et un résultat `status: "a
 
 ## 5. Cycle de vie d'un ordre
 
+> **Mécanisme unique de déplacement** (ajout du 31/07, testé de bout en bout) : tout
+> changement d'état passe par `bash ordres/classer_ordre.sh <fichier> <etat>` —
+> jamais `mv`/`rm` directs. Raison : le chemin du dépôt contient un espace et les
+> listes d'autorisations headless ne reconnaissent pas les commandes composées
+> avec chemins cités ; l'assistant n'accepte que des sources sous `ordres/` (hors
+> `exemples/`) et les quatre états légaux. Prouvé : ordre invalide → `rejetes/` +
+> motif, classe C conforme → `attente-hakim/`, inbox vidée dans les deux cas.
+
 1. **Dépôt** — Codex écrit `inbox/<nom>.json`. Codex n'écrit **jamais** ailleurs.
 2. **Verrou d'exécutant** — avant tout traitement, l'exécutant vérifie que `en-cours/` est **vide**. Sinon : arrêt immédiat — soit une autre session travaille, soit une session a crashé (dans ce cas, contrôle humain avant reprise). **Jamais deux exécutants en parallèle sur la boîte** : le navigateur est une ressource unique, deux consommateurs simultanés = onglets qui se re-naviguent **[FAIT — repo:boutique-seiko-mod/journal-nuit-2026-07-25.md]**.
 3. **Idempotence** (§6) — un `id` ou nom de fichier déjà présent dans `resultats/`, `rejetes/`, `attente-hakim/` ou `en-cours/` ne se ré-exécute **jamais** : l'ordre entrant est déplacé en `rejetes/` avec motif `doublon`.

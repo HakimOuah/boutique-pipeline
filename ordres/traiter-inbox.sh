@@ -71,6 +71,11 @@ PROMPT="Tu es l'exécutant headless du régime synchrone du protocole d'ordres.
 Lis \`ordres/README.md\`, puis applique EXACTEMENT le prompt de dépouillement
 canonique du §7 de \`docs/codex-handoff/14-PROTOCOLE-ORDRES.md\` aux ordres de
 \`ordres/inbox/\` (hors \`exemples/\`).
+Cycle de vie : pour TOUT déplacement d'un ordre entre états, utilise UNIQUEMENT
+\`bash ordres/classer_ordre.sh <fichier> <etat>\` (etat : en-cours | resultats |
+rejetes | attente-hakim). N'utilise ni mv ni rm directement — le chemin du
+dépôt contient un espace et les autorisations les bloquent. Un ordre classé ne
+doit JAMAIS rester en inbox.
 Règle du régime synchrone (14, section « Régime synchrone ») : tu tournes en
 headless, SANS navigateur ni Chrome connecté garantis. Si un ordre exige un
 navigateur ou une session interactive dont tu ne disposes pas (AliExpress,
@@ -88,7 +93,7 @@ Même règle pour un outil MCP Shopify absent de ta session : motif
 ALLOWED_TOOLS=(
   "Read" "Write" "Edit" "Glob" "Grep"
   "Bash(/usr/bin/python3 ordres/valider_ordre.py:*)"
-  "Bash(mv ordres/:*)"
+  "Bash(bash ordres/classer_ordre.sh:*)"
   "Bash(cp ordres/:*)"
   "Bash(ls ordres/:*)"
   "Bash(mkdir -p ordres/:*)"

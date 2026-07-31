@@ -1,0 +1,23 @@
+{
+  "id": "test-classe-c-0731-v2",
+  "status": "awaiting_human",
+  "payload": {
+    "statut": "EN_ATTENTE_HAKIM",
+    "classe_calculee": "C",
+    "motif_classe": "update_shopify_product avec mutations.statut = \"ACTIVE\" : passage en ligne d'une fiche = classe C (14 §4), jamais exécuté sans validation humaine",
+    "validation": "valider_ordre.py : VALIDE (classe C) — contrat de payload conforme",
+    "emplacement_ordre": "ordres/attente-hakim/20260731-2010-update_shopify_product-testclassec2.json",
+    "reprise": "instruction explicite de Hakim en session, journalisée — ou re-dépôt avec nouvel id suffixé -valide-hakim (14 §4)"
+  },
+  "journal": [
+    "17:56 dépouillement synchrone headless : en-cours/ vide, verrou levé",
+    "17:56 idempotence : id test-classe-c-0731-v2 absent de resultats/, rejetes/, attente-hakim/, en-cours/ — ordre nouveau",
+    "17:56 validation /usr/bin/python3 ordres/valider_ordre.py : VALIDE (classe C) — note : mutations.statut = ACTIVE : passage en ligne = validation Hakim",
+    "17:56 classe calculée par l'exécutant : C (14 §4 — fiche ACTIVE) — AUCUNE exécution, aucun accès Shopify",
+    "17:56 classement : bash ordres/classer_ordre.sh → attente-hakim/ (OK)",
+    "17:57 résultat awaiting_human écrit dans resultats/"
+  ],
+  "executed_at": "2026-07-31T16:57:00Z",
+  "executor": "claude-code-headless-20260731",
+  "notes": "Test de routage classe C v2 : routage conforme au protocole — l'ordre n'a pas été exécuté et ne le sera jamais sans validation de Hakim."
+}
