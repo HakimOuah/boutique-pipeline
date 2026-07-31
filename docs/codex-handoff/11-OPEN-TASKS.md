@@ -287,6 +287,12 @@
 - **Priorité** : P2. **Impact** : moyen. **Difficulté** : faible.
 - **Statut** : continu. **Validation humaine** : non.
 
+### MC-6 — Définir le protocole de délégation n8n (équivalent des ordres navigateur)
+- **Description** : le protocole n'existe pas aujourd'hui (constat validé 31/07). À définir : qui a accès à n8n Cloud, avec quel rôle (lecture seule d'abord), quels types d'ordres (export de workflow, relevé d'exécutions, diff live/snapshot), quelles classes d'autonomie (sur le modèle A/B/C de `14-PROTOCOLE-ORDRES.md`). **Préalable à toute action Codex sur DB Industrie** (voir `18-DB-INDUSTRIE.md` §7).
+- **Priorité** : P1. **Impact** : conditionne toute la passation DB Industrie. **Difficulté** : moyenne.
+- **Critères d'acceptation** : protocole écrit et validé par Hakim (accès, rôles, types d'ordres, classes d'autonomie).
+- **Statut** : ouvert. **Validation humaine** : oui (accès à un système client en production).
+
 ---
 
 ## 7. Migration Browser Use
@@ -323,7 +329,7 @@
 | Priorité | Tâches |
 |---|---|
 | **P0** | **BUG-0 Tuftéo : 6 avis fictifs publics + compteur 789** · BIZ-1 médiateur · BIZ-2 republication + mot de passe · BIZ-4 avis de démonstration |
-| **P1** | BUG-1 SWISS MADE · BUG-3 capacités sur-promises · BUG-4 SKU en double · BIZ-3 facettes · BIZ-8 prix barrés/30 jours · BIZ-9 titres Héritage · BIZ-10 (monétaire, paiement, canal Google) · MC-1 doctrine · MC-3 accès Codex · MC-4 culture du piège · MBU-1 QA mobile réelle |
+| **P1** | BUG-1 SWISS MADE · BUG-3 capacités sur-promises · BUG-4 SKU en double · BIZ-3 facettes · BIZ-8 prix barrés/30 jours · BIZ-9 titres Héritage · BIZ-10 (monétaire, paiement, canal Google) · MC-1 doctrine · MC-3 accès Codex · MC-4 culture du piège · MC-6 protocole de délégation n8n · MBU-1 QA mobile réelle |
 | **P2** | BUG-2, BUG-5, BUG-6, BUG-7 · DT-1 à DT-9 · EV-1, EV-2 · EXP-1 (échéance mi-sept.), EXP-3 · BIZ-5, BIZ-6, BIZ-7 · MC-2, MC-5 · MBU-2, MBU-3 |
 | **P3** | DT-10 · EV-3, EV-4, EV-5 · EXP-2, EXP-4 · MBU-4, MBU-5 |
 

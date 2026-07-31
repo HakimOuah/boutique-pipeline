@@ -132,3 +132,6 @@ validation.** Détail complet : `db-industrie-retours-herve.md` (mémoire Claude
 - **Statut de l'accès SQL Server EBP** (retour d'Isocell) et de la bascule Outlook.
 - **Comment Codex accédera à n8n** : le MCP n8n est branché côté Claude Code ; l'équivalent côté Codex
   (API n8n ? MCP ? interface) est à décider avec Hakim — rien dans les sources.
+- **Protocole de délégation n8n** : inexistant au 31/07 — accès, rôles (lecture seule d'abord), types
+  d'ordres et classes d'autonomie à définir avant toute action Codex sur DB Industrie → tâche **MC-6** de
+  `11-OPEN-TASKS.md` (P1, validation humaine obligatoire).

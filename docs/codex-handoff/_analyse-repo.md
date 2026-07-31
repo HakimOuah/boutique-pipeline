@@ -7,6 +7,8 @@
 
 ## 1. État git — le problème n°1
 
+> **[CORRIGÉ 31/07 : remote créé et dépôt poussé — l'affirmation ci-dessous décrivait l'état au moment de l'audit initial (30/07).]** État réel au 31/07 : branche `main`, arbre propre, remote privé `origin` = `HakimOuah/boutique-pipeline`, HEAD local = HEAD distant. Restent d'actualité dans cette section : la purge du mot de passe storefront (07-SETUP §4) et le tri archives/binaires (§2-3).
+
 - Branche courante `feat/boucle-chasse-clusters`, dernier commit **21/07/2026** ; `main` en retard ; **aucun remote**. **[FAIT — repo:.git]**
 - **La quasi-totalité du travail de production est untracked** : `boutique-seiko-mod/` (toute la boutique Noirmont), `boutique-tufting/`, `dropilot/`, `docs/`, `reports/`, `scratchpad/`, `personas/`, `specs/`… **[FAIT — `git status`]**
 - Modifs non commitées sur des fichiers suivis : `PLAYBOOK.md`, `registre-candidats.md`, `README.md`, `scripts/new_boutique.py`, 4 templates, `.gitignore`, `pytest.ini`. **[FAIT]**
@@ -61,7 +63,7 @@
 
 ## 7. Ce qui empêche Codex de reprendre aujourd'hui
 
-1. **Pas de remote git** + travail untracked → aucun moyen d'accéder au code hors du Mac. **[FAIT]**
+1. **Pas de remote git** + travail untracked → aucun moyen d'accéder au code hors du Mac. **[FAIT]** [CORRIGÉ 31/07 : résolu — remote privé `HakimOuah/boutique-pipeline` créé et dépôt poussé, `main` alignée sur le distant.]
 2. **Aucun accès API propre** : tout passe par des connecteurs MCP Claude et des sessions Chrome. [MANQUANT — tokens à créer]
 3. **La méthode vit hors du dépôt** (`.claude/` parent + mémoire `~/.claude/`) — un clone du dépôt seul est incomplet.
 4. **Identifiants boutique Tuftéo partiellement documentés** : `et0hua-w1.myshopify.com`, `tufteo.com` et thème live `188623847809` confirmés publiquement le 30/07 ; compte DSers et accès CLI/API toujours [MANQUANT].
@@ -71,7 +73,7 @@
 ## 8. Refactorisations recommandées AVANT migration (liste, rien d'exécuté)
 
 1. Purger le mot de passe storefront des 3 fichiers identifiés (07-SETUP §4) puis le faire tourner dans l'admin.
-2. Committer l'existant sur une branche propre ; exclure binaires/backups via `.gitignore` renforcé (`tmp/`, `*.bak`, dossiers backup-*, assets sources) ; créer un remote privé.
+2. Committer l'existant sur une branche propre ; exclure binaires/backups via `.gitignore` renforcé (`tmp/`, `*.bak`, dossiers backup-*, assets sources) ; créer un remote privé. [CORRIGÉ 31/07 : commits sur `main` + remote privé poussé — fait ; le renforcement du `.gitignore` reste à vérifier.]
 3. Rapatrier dans le dépôt les éléments hors-git faisant foi : `../.claude/skills` + `agents` (ou leur réécriture agnostique), export des 14 fiches mémoire → `docs/decisions/`.
 4. Compléter `boutique-tufting/project-state.md` (bloc Accès & Shopify) et créer l'équivalent pour Noirmont si `REPRISE-SESSION.md` ne suffit pas.
 5. Réécrire `README.md` en carte du dépôt réelle (starter-kit + agents + boutiques + dropilot-prototype + handoff).

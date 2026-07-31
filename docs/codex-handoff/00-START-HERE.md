@@ -56,11 +56,12 @@ Pipeline : 2 candidats qualifiés en attente de décision Hakim (fontaine à gra
 
 ## 3. Blocages majeurs
 
-1. ⚠️ **Git sans remote et travail non suivi — le blocage n°1** [FAIT — repo:.git] : branche `feat/boucle-chasse-clusters`, dernier commit **21/07** ; la quasi-totalité du travail de production (`boutique-seiko-mod/`, `boutique-tufting/`, `docs/`, `reports/`…) est **untracked** ; **aucun remote**. Le projet n'existe que sur ce Mac. Première action recommandée : faire committer/pousser par Hakim **après purge des secrets** (voir `07` §4 : le mot de passe storefront est en clair dans 3 fichiers du dépôt/mémoire — il a aussi été retiré de ce dossier de passation).
-2. **Médiateur de la consommation** (obligation légale, adhésion **par site**, jamais recopiée d'une autre boutique) — P0 Noirmont, marqueur `[À COMPLÉTER…]` en CGV art. 17. [FAIT — voir `11` BIZ-1]
-3. **Mot de passe storefront + thème UNPUBLISHED** : tant que Hakim n'a pas republié le thème `204248088914` et levé le mot de passe, tout le travail Noirmont est invisible. [FAIT — voir `11` BIZ-2]
-4. **Avis et compteurs de démonstration** : Noirmont affiche « 1340 avis », « 2 000 clients satisfaits » pour 0 commande (= motif de suspension GMC, précédent Bien Brûlé) — chasse gardée de Hakim, à purger avant exposition. **Cas aggravé Tuftéo : le site public sert les 6 avis explicitement fictifs avec « Vérifié » et un compteur « 789 avis » non étayé** — confirmé par rendu Browser Use et HTTP public le 30/07 à 23:35. [FAIT — voir `boutique-tufting/audit-avis-demo-publics-2026-07-30.md`, `11` BUG-0]
-5. **Accès** : tout passe par les MCP Claude et les sessions Chrome de Hakim (SEMrush, DSers, AliExpress) ; aucun accès API propre n'existe pour un repreneur ; AliExpress a déjà bloqué le navigateur Codex le 20/07. [FAIT — voir `07`, `08`]
+> Note 31/07 : l'ancien blocage n°1 (« git sans remote, travail non suivi ») est **résolu** — branche `main`, arbre propre, remote privé `origin` = `HakimOuah/boutique-pipeline`, HEAD local aligné sur le distant, poussé le 31/07 [FAIT — repo:.git]. La purge du mot de passe storefront des 3 fichiers et sa rotation restent à faire (`07` §4).
+
+1. **Médiateur de la consommation** (obligation légale, adhésion **par site**, jamais recopiée d'une autre boutique) — P0 Noirmont, marqueur `[À COMPLÉTER…]` en CGV art. 17. [FAIT — voir `11` BIZ-1]
+2. **Mot de passe storefront + thème UNPUBLISHED** : tant que Hakim n'a pas republié le thème `204248088914` et levé le mot de passe, tout le travail Noirmont est invisible. [FAIT — voir `11` BIZ-2]
+3. **Avis et compteurs de démonstration** : Noirmont affiche « 1340 avis », « 2 000 clients satisfaits » pour 0 commande (= motif de suspension GMC, précédent Bien Brûlé) — chasse gardée de Hakim, à purger avant exposition. **Cas aggravé Tuftéo : le site public sert les 6 avis explicitement fictifs avec « Vérifié » et un compteur « 789 avis » non étayé** — confirmé par rendu Browser Use et HTTP public le 30/07 à 23:35. [FAIT — voir `boutique-tufting/audit-avis-demo-publics-2026-07-30.md`, `11` BUG-0]
+4. **Accès** : tout passe par les MCP Claude et les sessions Chrome de Hakim (SEMrush, DSers, AliExpress) ; aucun accès API propre n'existe pour un repreneur ; AliExpress a déjà bloqué le navigateur Codex le 20/07. [FAIT — voir `07`, `08`]
 
 ## 4. Priorités (P0 du backlog `11`)
 
@@ -70,7 +71,8 @@ Pipeline : 2 candidats qualifiés en attente de décision Hakim (fontaine à gra
 | P0 | **BIZ-2** — Republier le thème « Maison Noirmont », retirer le mot de passe, supprimer le fork obsolète `204329288018` | Hakim |
 | P0 | **BIZ-4** — Trancher/retirer les avis et compteurs de démonstration avant toute exposition publique | Hakim (exclusif) |
 | P0 | **BUG-0 — retirer les 6 avis fictifs publics et le compteur 789 de Tuftéo** | Hakim (exclusif) |
-| P0 de passation (hors backlog `11`) | Committer + créer un remote privé **après purge des secrets** | Hakim + Codex |
+
+L'ancien « P0 de passation » (committer + créer un remote privé) est **fait au 31/07** ; reste la purge du mot de passe storefront des 3 fichiers + rotation dans l'admin Shopify (`07` §4).
 
 Ordre conseillé pour Noirmont (Phase 0 de `plan-nommage-seo.md` §5) : médiateur → republication → paiement/commande test → mot de passe → purge des affirmations invérifiables. Ensuite, P1 : voir la vue d'ensemble en fin de `11`.
 

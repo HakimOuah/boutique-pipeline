@@ -8,7 +8,7 @@
 ## 1. Source de vérité et ordre de lecture
 
 - **La source de vérité est le dépôt local** `boutique-pipeline/` (fichiers markdown + JSON), jamais Notion (tableau de bord périmable — voir `06`), jamais la mémoire d'une conversation. [MÉMOIRE — notion-pipeline-boutiques]
-- ⚠️ **Le dépôt n'a AUCUN remote et l'essentiel du travail est untracked** [FAIT — repo:.git]. **Première action recommandée de toute reprise : faire committer et pousser par Hakim** (après purge des secrets — `07` §4). Tant que ce n'est pas fait, toute perte du Mac est une perte totale.
+- ✅ **Le dépôt est versionné et poussé** [FAIT — repo:.git, 31/07] : branche `main`, arbre propre, remote privé `origin` = `HakimOuah/boutique-pipeline`, HEAD local = HEAD distant. [CORRIGÉ 31/07 : remote créé et dépôt poussé — ce point décrivait auparavant un dépôt sans remote au travail untracked.] La purge du mot de passe storefront (`07` §4) reste à faire.
 - Ordre de lecture en début de session :
   1. Ce dossier (`00` → ordre du §5).
   2. Pour le pipeline produit : `PRODUCT-RESEARCH-CRITERIA.md` (seuils canoniques — **jamais recopiés ailleurs**), puis `registre-candidats.md`.
@@ -102,9 +102,9 @@ Mécanique complète : `14-PROTOCOLE-ORDRES.md`.
 
 ## 8. Git et journalisation
 
-- **État réel** : branche `feat/boucle-chasse-clusters` (dernier commit 21/07), `main` en retard, **pas de remote**, travail de production untracked [FAIT — repo:.git]. Détail et tri recommandé : `_analyse-repo.md`.
+- **État réel (31/07)** : branche `main`, arbre propre, remote privé `origin` = `HakimOuah/boutique-pipeline`, HEAD local = HEAD distant, poussé le 31/07 [FAIT — repo:.git]. [CORRIGÉ 31/07 : remote créé et dépôt poussé — l'ancien état (branche `feat/boucle-chasse-clusters` figée au 21/07, pas de remote, travail untracked) est documenté dans `_analyse-repo.md`.]
 - **Stratégie recommandée** (à valider par Hakim) :
-  - Faire committer l'existant puis créer un **remote privé** — après purge du mot de passe storefront des 3 fichiers (`07` §4) et renforcement du `.gitignore` (binaires, `tmp/`, `*.bak`, backups images).
-  - Ensuite : **une branche par chantier** (`feat/…`, `boutique/…`), **commits en français descriptifs** (le style existant : `docs(chasse): tableau Codex multi-marches…`), petits et fréquents.
+  - Purger le mot de passe storefront des 3 fichiers (`07` §4) et le faire tourner dans l'admin Shopify — toujours d'actualité, et d'autant plus depuis que le dépôt est poussé.
+  - **Une branche par chantier** (`feat/…`, `boutique/…`), **commits en français descriptifs** (le style existant : `docs(chasse): tableau Codex multi-marches…`), petits et fréquents, poussés vers `origin`.
   - **Jamais de secret committé** ; les `.env` restent hors git (`.gitignore` les couvre déjà).
 - **Journalisation de session** : chaque session significative (a) produit ses **livrables datés** dans le dossier boutique/`reports/` concerné, (b) met à jour le document de reprise de la boutique (`REPRISE-SESSION.md` pour Noirmont, `project-state.md` pour Tuftéo), (c) **met à jour ce dossier de passation** (`11-OPEN-TASKS.md` au minimum, `10-FAILURES` pour tout nouveau piège payé, `13-HANDOFF-SUMMARY.json` si l'état change), (d) réplique vers Notion en dernier (panne Notion non bloquante — `notion-sync-pending.md`).

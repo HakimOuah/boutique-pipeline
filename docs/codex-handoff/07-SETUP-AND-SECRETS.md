@@ -17,9 +17,9 @@ Ce qui existe et fonctionne sur le Mac de Hakim :
 
 ## 2. GitHub / remote
 
-- **Aucun remote configuré** (`git remote -v` vide). Le dépôt n'existe que sur ce Mac. **[FAIT — repo:.git]**
-- Branche courante `feat/boucle-chasse-clusters` (dernier commit 21/07/2026) ; `main` en retard ; l'essentiel du travail récent est **untracked** (voir `_analyse-repo.md`). **[FAIT — repo]**
-- Conséquence passation : Codex ne peut pas cloner quoi que ce soit aujourd'hui. Créer un remote privé (et committer/purger d'abord, voir analyse) est un pré-requis. [HYPOTHÈSE de résolution — à valider par Hakim]
+- **Remote privé configuré** : `origin` = `https://github.com/HakimOuah/boutique-pipeline.git` (dépôt privé). **[FAIT — repo:.git, 31/07]** [CORRIGÉ 31/07 : remote créé et dépôt poussé — l'audit initial du 30/07 constatait « aucun remote ».]
+- Branche courante `main`, arbre propre, HEAD local = HEAD distant, poussé le 31/07. **[FAIT — repo]**
+- Conséquence passation : Codex peut cloner le dépôt privé dès que Hakim lui accorde l'accès GitHub. La purge du mot de passe storefront (§4) reste à faire.
 
 ## 3. Connexions et comptes, service par service
 
@@ -94,7 +94,7 @@ Recherche effectuée sur tout le dépôt (`shpat_`, `api_key=`, `Bearer`, `passw
    - `boutique-pipeline/boutique-seiko-mod/build-site-2026-07-24.md` (ligne 4) ;
    - `boutique-pipeline/boutique-seiko-mod/branchement-galeries-codex.md` (ligne 218) ;
    - la fiche mémoire `~/.claude/projects/-Users-Hakim-Documents-Boutiques-drop/memory/shopify-canal-et-visuels-ia.md`.
-   **La valeur n'est pas recopiée ici.** Gravité modérée (mot de passe de vitrine « ouverture prochaine », pas un accès admin), mais c'est un **stockage non sécurisé** : à purger des fichiers avant tout push vers un remote, et à faire tourner dans l'admin Shopify (Préférences) après purge. **[FAIT — repo]**
+   **La valeur n'est pas recopiée ici.** Gravité modérée (mot de passe de vitrine « ouverture prochaine », pas un accès admin), mais c'est un **stockage non sécurisé** : à purger des fichiers et à faire tourner dans l'admin Shopify (Préférences) après purge — d'autant plus urgent que le dépôt a été poussé le 31/07 vers le remote privé (voir §2). **[FAIT — repo]**
 2. ✅ Aucun token API (Shopify, Notion, BigBuy, Trustoo, Higgsfield) en clair dans le dépôt. **[FAIT — repo]**
 3. ✅ `.gitignore` exclut `.env`. **[FAIT — repo:.gitignore]**
 4. ℹ️ Données d'entreprise sensibles mais publiques (SIREN, TVA intracom, adresse, téléphone d'OH Ventures) figurent dans `../CONTEXTE-MEMOIRE-pour-Codex.md` — registre public, pas un secret, mais à savoir avant de partager le dossier. **[FAIT — repo parent]**
@@ -103,7 +103,7 @@ Recherche effectuée sur tout le dépôt (`shpat_`, `api_key=`, `Bearer`, `passw
 
 ## 5. Checklist de connexion pour un repreneur (Codex)
 
-1. Obtenir l'accès au Mac ou à un remote git (à créer) — voir §2.
+1. Obtenir l'accès au dépôt privé GitHub `HakimOuah/boutique-pipeline` (ou au Mac) — voir §2.
 2. Shopify : créer une app custom Admin API sur `v42pzp-h4` (Noirmont) et sur `et0hua-w1` (Tuftéo) ; scopes produits/thèmes/publications ; token dans `.env`.
 3. DSers : demander à Hakim les comptes exacts par boutique (seul `contact.noirmont` est attesté) ; l'accès restera par navigateur.
 4. SEMrush / Brand Search / Trustoo : accès par sessions navigateur de Hakim ou identifiants via gestionnaire de mots de passe — jamais en clair dans le dépôt.
