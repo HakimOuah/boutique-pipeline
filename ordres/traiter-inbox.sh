@@ -113,6 +113,7 @@ echo "dépouillement headless lancé — journal : $JOURNAL"
 (
   cd "$REPO_ROOT" &&
   claude -p "$PROMPT" \
+    --model claude-fable-5 \
     --allowedTools "${ALLOWED_TOOLS[@]}"
 ) >"$JOURNAL" 2>&1
 CODE_CLAUDE=$?
