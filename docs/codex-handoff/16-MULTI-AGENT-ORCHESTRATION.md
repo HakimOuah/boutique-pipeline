@@ -63,9 +63,11 @@ Exemples nommables, tous [FAIT — repo:boutique-seiko-mod/] :
 Deux précédents documentés (`03` §8) : la boucle chasse-clusters isolée (20/07) et surtout **les galeries
 Noirmont** — Codex générateur d'images en local, contrat écrit `PROMPT-CODEX-galeries.md`, interdiction
 absolue de toucher Shopify, branchement resté côté Claude Code : **85 fiches, 206 médias**
-[FAIT — repo:boutique-seiko-mod/branchement-galeries-codex.md]. Depuis le 31/07 ce rôle est
-institutionnalisé (décision D-0731-A) : ordres `generate_images` dans `ordres/pour-codex/`
-[FAIT — repo:docs/codex-handoff/14-PROTOCOLE-ORDRES.md §9, 15-CODEX-EXECUTANT-IMAGES.md].
+[FAIT — repo:boutique-seiko-mod/branchement-galeries-codex.md]. Le 31/07 au matin ce rôle avait été
+institutionnalisé (décision D-0731-A : ordres `generate_images` dans `ordres/pour-codex/`) ; **supersédé le
+soir même par D-0731-B** — Codex reprend l'orchestration et génère les images nativement selon la
+spécification `15-CODEX-EXECUTANT-IMAGES.md`
+[FAIT — repo:docs/codex-handoff/05-DECISION-LOG.md D-0731-B, 14-PROTOCOLE-ORDRES.md §9].
 
 ---
 

@@ -4,13 +4,13 @@
 > **Rôle de ce document** : rendre opérationnels, par fichiers, les 9 contrats JSON de `08-BROWSER-AUTOMATION.md` §2.2. Il ne redéfinit aucun contrat — 08 reste l'autorité sur les payloads.
 > Étiquettes de source : mêmes conventions que `00-START-HERE.md`.
 >
-> **Mise à jour du 31/07/2026 (décision D-0731-A — `05-DECISION-LOG.md`)** : Claude Code conserve
-> l'orchestration du projet **et toute l'exécution navigateur (AliExpress, DSers) — définitif**. Le sens
-> historique de ce protocole (§1-§8 : Codex dépose des ordres navigateur dans `ordres/inbox/`) est conservé
-> mais **dormant** : la mécanique reste en place, plus rien ne l'alimente en régime normal ; il ne se
-> réactiverait que sur instruction de Hakim, toutes ses règles restant entières. Le sens **actif** est
-> désormais l'inverse — **Claude Code dépose des ordres d'images dans `ordres/pour-codex/inbox/`, Codex
-> exécute** : voir §9.
+> **Mise à jour du 31/07/2026 au soir (décision D-0731-B — `05-DECISION-LOG.md`, supersède D-0731-A)** :
+> **Codex orchestre, Claude Code exécute le navigateur.** Le sens d'origine de ce protocole (§1-§8 :
+> **Codex dépose des ordres navigateur dans `ordres/inbox/`, Claude Code valide et exécute**) est le sens
+> **actif**. Le sens inverse (§9 : Claude Code → Codex, ordres d'images `pour-codex/`) est **dormant** —
+> sans objet en routine, Codex générant ses images nativement selon la spécification
+> `15-CODEX-EXECUTANT-IMAGES.md` ; il resservirait tel quel si un autre exécutant d'images apparaissait.
+> Aucun contrat des deux sens n'est modifié par ce changement de régime.
 
 ---
 
@@ -173,6 +173,10 @@ Toutes les règles de `08` partie 1 et `12` restent entières : fail-closed, com
 > Document d'exécutant **autoportant** : `15-CODEX-EXECUTANT-IMAGES.md` — c'est lui que Hakim transmet à
 > Codex comme instructions permanentes ; il détaille DA canonique, contraintes et QA. Cette section fixe la
 > mécanique et le contrat.
+>
+> **⚠️ Sens dormant depuis D-0731-B (31/07 au soir)** : Codex orchestre et génère ses images **nativement**
+> (spec `15`) — cette boîte n'est plus alimentée en routine. Contrat conservé tel quel, réactivable si un
+> autre exécutant d'images apparaissait.
 
 ### 9.1 Arborescence et rôles
 

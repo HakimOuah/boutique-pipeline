@@ -7,17 +7,19 @@
 
 ---
 
-> ## ⚡ Décision du 31/07/2026 — le partage des rôles est inversé (D-0731-A, `05-DECISION-LOG.md`)
+> ## ⚡ Décision du 31/07/2026 au soir — reprise TOTALE par Codex (D-0731-B, `05-DECISION-LOG.md` — supersède D-0731-A)
 >
-> **Claude Code conserve l'orchestration du projet.** Codex est **exécutant de génération d'images,
-> uniquement** (GPT Image 2 natif, sans compteur de crédits), servi par la boîte `ordres/pour-codex/`
-> (`14-PROTOCOLE-ORDRES.md` §9 ; instructions permanentes : `15-CODEX-EXECUTANT-IMAGES.md`).
-> **L'exécution navigateur (AliExpress, DSers) reste à Claude Code, définitif** — Codex n'utilisera pas
-> DSers. Le sens historique Codex → Claude de `14` est conservé mais dormant. Les passages de ce dossier qui
-> décrivent une reprise d'orchestration par Codex (§1 point 9 ci-dessous, `01`, `05` Partie 3) se lisent à
-> travers cette décision : **le dossier reste la référence projet pour tout collaborateur.**
-> Le mode opératoire d'orchestration multi-agents que Claude Code conserve est documenté dans
-> **`16-MULTI-AGENT-ORCHESTRATION.md`** (numéroté 16, les numéros 14 et 15 étant pris par le protocole d'ordres).
+> **Codex reprend l'orchestration complète de toute la collaboration** : la factory dropshipping (ce dépôt)
+> **et le projet DB Industrie** (`18-DB-INDUSTRIE.md` — le projet vit hors de ce dépôt). Codex hérite du rôle
+> tenu jusqu'ici par Claude Code — son mode opératoire est documenté dans **`16-MULTI-AGENT-ORCHESTRATION.md`**
+> et **`17-FABLE-OPERATING-SYSTEM.md`**, à lire comme le manuel du poste repris.
+> **Claude Code devient exécutant navigateur** (AliExpress, DSers — via le protocole d'ordres `14`, sens
+> Codex → Claude **redevenu actif** : Codex dépose dans `ordres/inbox/`, classes A/B/C et refus purs
+> inchangés) **et solution de secours**. La **génération d'images revient à Codex en natif** :
+> `15-CODEX-EXECUTANT-IMAGES.md` devient la spécification qu'il s'applique à lui-même ; le sens
+> `ordres/pour-codex/` est **dormant** (sans objet en routine).
+> Les passages de ce dossier qui décrivaient le partage du matin (D-0731-A) se lisent à travers cette
+> décision : **le dossier reste la référence projet pour tout collaborateur.**
 
 ---
 
@@ -31,7 +33,7 @@
 6. **Six marques existent** (voir §2) ; la plus avancée, **Maison Noirmont** (montres à cadran stérile), est construite mais **sous mot de passe, 0 commande**. [FAIT — Shopify API]
 7. Garde-fous transversaux hérités des échecs : **jamais de fausse preuve sociale** (suspension GMC Bien Brûlé vécue), **promesses vérifiables uniquement**, persona validé **bloquant** avant tout copywriting, mobile-first. [FAIT + MÉMOIRE]
 8. **Fichiers locaux = source de vérité, Notion = tableau de bord** — invariant du système. [MÉMOIRE — notion-pipeline-boutiques]
-9. La vision cible de Hakim ([INFO HAKIM]) : migrer l'orchestration vers **Codex** (avec Browser Use / Apify / n8n en briques d'exécution) — architecture **non actée** à ce jour, voir `01` et `05` Partie 3.
+9. La vision cible de Hakim ([INFO HAKIM]) : migrer l'orchestration vers **Codex** — **actée le 31/07 au soir (D-0731-B)** pour l'orchestration elle-même ; les briques Browser Use / Apify / n8n **dans ce dépôt** restent non actées, voir `01` et `05` Partie 3.
 10. Deux précédents Codex réussis existent déjà : la boucle `codex-chasse-clusters` (20/07) et les galeries Noirmont (26/07). [FAIT — voir `03` §8]
 
 ## 2. État actuel (30/07/2026)
@@ -87,9 +89,10 @@ Lire dans cet ordre (une ligne par fichier) :
 9. **`07-SETUP-AND-SECRETS.md`** — installation, connexions service par service, état des secrets (aucune valeur recopiée), checklist repreneur.
 10. **`.env.example`** — gabarit des variables d'environnement à créer (aucune valeur réelle).
 11. **`08-BROWSER-AUTOMATION.md`** — tout ce qui passe par le navigateur (AliExpress, DSers, SEMrush) : recettes existantes puis contrats JSON de l'architecture cible.
-11 bis. **`14-PROTOCOLE-ORDRES.md`** — la mise en œuvre opérationnelle des contrats de `08` : boîte aux lettres `ordres/` entre Codex (dépose) et Claude Code (valide + exécute), classes d'autonomie A/B/C — sens désormais **dormant** ; le §9 porte le sens actif inverse (Claude Code → Codex, images), détaillé dans **`15-CODEX-EXECUTANT-IMAGES.md`**.
+11 bis. **`14-PROTOCOLE-ORDRES.md`** — la mise en œuvre opérationnelle des contrats de `08` : boîte aux lettres `ordres/` entre Codex (dépose) et Claude Code (valide + exécute), classes d'autonomie A/B/C — sens **actif** depuis D-0731-B ; le §9 (Claude Code → Codex, images) est désormais **dormant**, requalifié en spécification interne dans **`15-CODEX-EXECUTANT-IMAGES.md`**.
 11 ter. **`16-MULTI-AGENT-ORCHESTRATION.md`** — le mode opératoire réel de Claude Code en chef d'équipe multi-agents : anatomie des briefs, vagues de parallélisation, gates humains, détection des résultats faibles, protocole de reprise état-d'abord (numéroté 16 car 14 et 15 étaient déjà pris).
 11 quater. **`17-FABLE-OPERATING-SYSTEM.md`** — l'introspection de l'orchestrateur lui-même : modèle mental, ~50 heuristiques, méta-règles, erreurs analysées, bloc d'instructions prêt pour un AGENTS.md (numéroté 17, le 15 demandé étant pris). À lire en 2ᵉ position par tout successeur.
+11 quinquies. **`18-DB-INDUSTRIE.md`** — index de passation du **second chantier** repris par Codex (D-0731-B) : le projet DB Industrie (automatisation n8n de mails B2B), qui vit **hors de ce dépôt** — où vit chaque chose, état réel des workflows, fragilités connues, manquants.
 12. **`09-DATA-MODELS.md`** — les 18 modèles de données (registre, fiches, variantes/SKU, médias, erreurs fail-closed) ancrés dans les structures réelles.
 13. **`06-NOTION-INDEX.md`** — cartographie du workspace Notion, ce qui n'existe **que** dans Notion (campement type !), divergences Notion↔dépôt.
 14. **`13-HANDOFF-SUMMARY.json`** — synthèse machine-lisible de l'ensemble.

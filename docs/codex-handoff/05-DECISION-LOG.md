@@ -265,19 +265,61 @@
 - **[CONTRADICTOIRE non tranché — « chiffres romains » du Trente-Neuf Duo]** : le BILAN du 25/07 conclut « la fiche fournisseur annonce Index Romain et sa photo le confirme : **c'est notre visuel qui est infidèle** — corriger l'image, pas le texte » ; `verification-catalogue-strategie.md` (27/07) retraite le point comme **ouvert** (« sa photo montre des bâtons : relecture éditoriale indépendante »). **Résolution proposée : revérifier la fiche fournisseur une troisième fois avant toute correction — à valider.**
 - **Statut** : garde-fou transversal actif, hérité de D-0722-A(5) et de la doctrine GMC/DGCCRF héritée de Bien Brûlé.
 
-### D-0731-A · Partage des rôles Claude Code / Codex : orchestration conservée, Codex exécutant images
+### D-0731-A · Partage des rôles Claude Code / Codex : orchestration conservée, Codex exécutant images — ⚠️ SUPERSÉDÉE par D-0731-B
+
+> ⚠️ **Supersédée le 31/07/2026 au soir par D-0731-B (ci-dessous)** : Codex reprend l'orchestration
+> totale (factory + DB Industrie), Claude Code devient exécutant navigateur + solution de secours.
+> Le texte de D-0731-A est conservé tel quel pour l'historique — ne plus s'y référer comme état courant.
 
 - **Date** : 31/07/2026 (décision de Hakim). **[INFO HAKIM]** + **[FAIT — repo:ordres/pour-codex/, docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md, ordres/valider_ordre.py]**
 - **Contexte** : (1) Codex est bloqué sur AliExpress depuis son environnement (« Browser Use rejected this action due to browser security policy », 20/07) — le blocage est côté environnement Codex, pas côté site ; (2) la qualité d'orchestration de Claude Code est constatée sur les chantiers de production ; (3) Codex dispose de **GPT Image 2 natif, sans compteur de crédits** — contre **87 crédits Higgsfield restants** côté Claude, alors que GPT Image 2 n'avait été écarté du pipeline image que pour coût et résolution native, deux objections sans objet côté Codex (`PROMPT-CODEX-galeries.md` §Modèle).
 - **Décision** : **Claude Code conserve l'orchestration du projet et toute l'exécution navigateur (AliExpress, DSers) — définitif : Codex n'utilisera pas DSers.** **Codex = exécutant de génération d'images uniquement**, classe A (aucun accès boutique, fichiers seulement), via la boîte inverse `ordres/pour-codex/` et le type d'ordre `generate_images`.
 - **Conséquences** : protocole `14` **bidirectionnel** — le sens historique Codex → Claude (ordres navigateur) est conservé mais **dormant** ; le sens actif est Claude → Codex (`14` §9) ; document d'exécutant autoportant `15-CODEX-EXECUTANT-IMAGES.md` (instructions permanentes transmises par Hakim à Codex) ; `12` §7 réécrit en conséquence ; validateur `ordres/valider_ordre.py` étendu au type `generate_images` (chemins confinés dépôt/projet, IDs de variante/média refusés dans les manifestes) ; le branchement Shopify des images livrées reste côté Claude Code. La Partie 3 ci-dessous (« Codex comme exécutant principal / migration d'orchestration ») est **close : orientation non retenue**.
-- **Statut** : actée.
+- **Statut** : **supersédée** le 31/07/2026 au soir par **D-0731-B** (reste dans le log pour l'historique).
+
+### D-0731-B · Reprise TOTALE de l'orchestration par Codex (factory + DB Industrie) — supersède D-0731-A
+
+- **Date** : 31/07/2026 au soir (décision de Hakim). **[INFO HAKIM — brief de recadrage du 31/07]**
+- **Contexte** : (1) un **test de reprise concluant côté Hakim** — Codex a fait la preuve qu'il peut reprendre
+  l'orchestration ; (2) volonté de Hakim d'**unifier l'orchestration chez Codex** pour toute la collaboration,
+  au lieu du partage par rôles de D-0731-A décidé le matin même.
+- **Décision** :
+  1. **Codex reprend l'orchestration complète** de toute la collaboration : la **factory dropshipping**
+     (ce dépôt et toutes ses boutiques) **et le projet DB Industrie** (voir `18-DB-INDUSTRIE.md`).
+     Codex hérite du rôle tenu jusqu'ici par Claude Code, décrit dans `16` et `17`.
+  2. **Claude Code devient exécutant navigateur** (AliExpress, DSers, sessions Chrome de Hakim), servi par
+     le protocole d'ordres `14` dans son **sens d'origine, redevenu actif** : Codex dépose dans
+     `ordres/inbox/`, Claude Code valide et exécute (classes A/B/C et refus purs inchangés, non négociables).
+     Claude Code est aussi la **solution de secours** si Codex est indisponible ou bloqué.
+  3. **La génération d'images revient à Codex en natif** : plus d'aller-retour par `ordres/pour-codex/` en
+     routine — `15-CODEX-EXECUTANT-IMAGES.md` devient la **spécification interne** que Codex s'applique à
+     lui-même quand il génère (DA canonique, contraintes, QA, manifestes `handle`+`sku` : tout reste valable).
+- **Conséquences** :
+  - `00-START-HERE.md` : encadré de tête réécrit ; le point 9 du « projet en 10 lignes » et la Partie 3
+    ci-dessous (« Codex comme exécutant principal ») se lisent désormais comme **actés par cette décision** —
+    la clôture prononcée par D-0731-A est annulée.
+  - `12-CODEX-INSTRUCTIONS.md` §7 : cadrage inversé — Codex déposant d'ordres navigateur ; le sens
+    `pour-codex/` (images) devient **sans objet en routine**, conservé utilisable si un autre exécutant
+    d'images apparaissait un jour.
+  - `14-PROTOCOLE-ORDRES.md` : en-tête mis à jour — sens Codex → Claude **actif**, sens Claude → Codex
+    **dormant**. **Aucun contrat modifié** dans les deux sens.
+  - `15-CODEX-EXECUTANT-IMAGES.md` : note d'en-tête — document requalifié en spécification interne de Codex.
+  - Nouveau document **`18-DB-INDUSTRIE.md`** : index de passation du projet DB Industrie (qui vit hors de
+    ce dépôt), pour que l'orchestration unifiée couvre les deux chantiers.
+  - Les garde-fous transversaux (fail-closed, véracité, frontière humaine de `08` §1.8, refus purs,
+    domaines réservés de Hakim) sont **indépendants du porteur du rôle** et restent entiers.
+- **Statut** : **actée — supersède D-0731-A** (qui reste dans le log, marquée supersédée, avec renvoi).
 
 ---
 
 ## Partie 3 — Vision cible : orientations exprimées, non actées
 
 ⚠️ Les éléments suivants relèvent du **brief de passation de Hakim** (vision cible), pas de décisions passées. Aucune preuve d'installation ou d'usage dans les sources locales, sauf mention contraire. Les classer « orientation exprimée, non actée ».
+
+> **Mise à jour 31/07 (D-0731-B)** : la ligne « Codex / GPT-5.6 comme exécutant principal » est désormais
+> **actée** (reprise totale de l'orchestration par Codex). Les autres lignes (n8n dans CE dépôt, VPS, Apify,
+> Browser Use) restent des orientations non actées — n8n est en revanche **réel et en production sur le
+> projet DB Industrie**, hors de ce dépôt : voir `18-DB-INDUSTRIE.md`.
 
 | Élément | Traces dans les sources | Classement |
 |---|---|---|

@@ -1,5 +1,13 @@
 # 15 — Codex, exécutant de génération d'images (instructions permanentes)
 
+> **⚠️ Requalifié le 31/07/2026 au soir (décision D-0731-B — `05-DECISION-LOG.md`, supersède D-0731-A)** :
+> Codex est désormais l'**orchestrateur** et génère les images **nativement**. Ce document devient la
+> **spécification interne que Codex s'applique à lui-même quand il génère** : la DA canonique, les
+> contraintes, la QA et les manifestes indexés `handle` + `sku` restent valables **à l'identique** —
+> seul le passage par la boîte `ordres/pour-codex/` (rôle d'exécutant sur ordre) devient sans objet en
+> routine. Les mentions « sur ordre de Claude Code » ci-dessous se lisent désormais « pour toute
+> génération d'images », l'auto-contrôle remplaçant l'ordre reçu.
+>
 > Créé le 2026-07-31 — décision **D-0731-A** (`05-DECISION-LOG.md`) : **Claude Code conserve l'orchestration
 > du projet et toute l'exécution navigateur ; Codex est exécutant de génération d'images, uniquement.**
 > Ce document est **autoportant** : c'est lui que Hakim transmet à Codex comme instructions permanentes.
