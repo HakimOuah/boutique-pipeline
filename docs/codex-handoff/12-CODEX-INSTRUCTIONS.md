@@ -15,6 +15,7 @@
   3. Pour Noirmont : `boutique-seiko-mod/REPRISE-SESSION.md` **d'abord**, puis les livrables datés cités.
   4. Pour Tuftéo : `boutique-tufting/project-state.md`.
   5. Notion seulement ensuite, comme dashboard (et jamais les instructions périmées qu'il contient : `switch-shop`, vérif `updatedAt/size`, ancienne charte — voir `06` §4).
+- Pour tout travail impliquant des sous-agents (briefs, parallélisation, reprise, escalade) : appliquer le mode opératoire de `16-MULTI-AGENT-ORCHESTRATION.md` (check-list du brief §9.1).
 
 ## 2. Conventions de travail
 

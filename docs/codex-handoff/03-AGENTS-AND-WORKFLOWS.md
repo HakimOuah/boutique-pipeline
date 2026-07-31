@@ -3,6 +3,7 @@
 > Dossier de passation Codex — généré le 2026-07-30.
 > Étiquettes de source : **[FAIT — repo:chemin]** (vérifié dans les fichiers), **[MÉMOIRE]** (fiches mémoire Claude), **[NOTION]** (lu dans Notion le 30/07), **[HYPOTHÈSE]**, **[OBSOLÈTE POSSIBLE]**, **[CONTRADICTOIRE]**, **[MANQUANT]**.
 > Racine projet : `/Users/Hakim/Documents/Boutiques drop` · Les agents/skills projet vivent dans `Boutiques drop/.claude/` (hors dépôt git `boutique-pipeline/`).
+> Ce fichier est l'**inventaire** (qui existe, quoi, où) ; le **comportement d'orchestration** (comment ces agents sont briefés, parallélisés, contrôlés, repris après incident) : voir `16-MULTI-AGENT-ORCHESTRATION.md`.
 
 ---
 

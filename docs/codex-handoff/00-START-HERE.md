@@ -16,6 +16,8 @@
 > DSers. Le sens historique Codex → Claude de `14` est conservé mais dormant. Les passages de ce dossier qui
 > décrivent une reprise d'orchestration par Codex (§1 point 9 ci-dessous, `01`, `05` Partie 3) se lisent à
 > travers cette décision : **le dossier reste la référence projet pour tout collaborateur.**
+> Le mode opératoire d'orchestration multi-agents que Claude Code conserve est documenté dans
+> **`16-MULTI-AGENT-ORCHESTRATION.md`** (numéroté 16, les numéros 14 et 15 étant pris par le protocole d'ordres).
 
 ---
 
@@ -70,7 +72,7 @@ Pipeline : 2 candidats qualifiés en attente de décision Hakim (fontaine à gra
 
 Ordre conseillé pour Noirmont (Phase 0 de `plan-nommage-seo.md` §5) : médiateur → republication → paiement/commande test → mot de passe → purge des affirmations invérifiables. Ensuite, P1 : voir la vue d'ensemble en fin de `11`.
 
-## 5. Ordre de lecture recommandé des 13 autres fichiers
+## 5. Ordre de lecture recommandé des autres fichiers
 
 Lire dans cet ordre (une ligne par fichier) :
 
@@ -86,6 +88,7 @@ Lire dans cet ordre (une ligne par fichier) :
 10. **`.env.example`** — gabarit des variables d'environnement à créer (aucune valeur réelle).
 11. **`08-BROWSER-AUTOMATION.md`** — tout ce qui passe par le navigateur (AliExpress, DSers, SEMrush) : recettes existantes puis contrats JSON de l'architecture cible.
 11 bis. **`14-PROTOCOLE-ORDRES.md`** — la mise en œuvre opérationnelle des contrats de `08` : boîte aux lettres `ordres/` entre Codex (dépose) et Claude Code (valide + exécute), classes d'autonomie A/B/C — sens désormais **dormant** ; le §9 porte le sens actif inverse (Claude Code → Codex, images), détaillé dans **`15-CODEX-EXECUTANT-IMAGES.md`**.
+11 ter. **`16-MULTI-AGENT-ORCHESTRATION.md`** — le mode opératoire réel de Claude Code en chef d'équipe multi-agents : anatomie des briefs, vagues de parallélisation, gates humains, détection des résultats faibles, protocole de reprise état-d'abord (numéroté 16 car 14 et 15 étaient déjà pris).
 12. **`09-DATA-MODELS.md`** — les 18 modèles de données (registre, fiches, variantes/SKU, médias, erreurs fail-closed) ancrés dans les structures réelles.
 13. **`06-NOTION-INDEX.md`** — cartographie du workspace Notion, ce qui n'existe **que** dans Notion (campement type !), divergences Notion↔dépôt.
 14. **`13-HANDOFF-SUMMARY.json`** — synthèse machine-lisible de l'ensemble.
