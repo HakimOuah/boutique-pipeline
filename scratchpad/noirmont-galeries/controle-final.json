@@ -1,0 +1,87 @@
+{
+  "auditVersion": 3,
+  "contrôléLe": "2026-07-26T06:05:59.955582+00:00",
+  "shopify": {
+    "connexionEffectuée": false,
+    "écritureEffectuée": false
+  },
+  "fiches": {
+    "total": 90,
+    "parFamille": {
+      "montre": 52,
+      "accessoire": 38
+    }
+  },
+  "fichiers": {
+    "total": 230,
+    "parSlot": {
+      "situation": 88,
+      "macro": 90,
+      "poignet": 52
+    },
+    "format": "JPEG",
+    "dimensions": "2048x2048",
+    "mode": "RGB",
+    "qualitéCible": 90
+  },
+  "sources": {
+    "visuel-valide-2026-07-25": 41,
+    "cdn": 36,
+    "local-accessoire": 13
+  },
+  "qa": {
+    "planchesParFiche": 90,
+    "pagesVueEnsemble": 15
+  },
+  "régénérations": {
+    "distribution": {
+      "0": 227,
+      "1": 3
+    },
+    "fichiersRégénérés": [
+      {
+        "handle": "doigtiers-d-horloger-latex",
+        "sku": "14:350686#white 100pcs;200007763:201336100",
+        "slot": "situation",
+        "fichier": "/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/scratchpad/noirmont-galeries/generated/doigtiers-d-horloger-latex-situation.jpg",
+        "modèle utilisé": "GPT Image 2 natif",
+        "nombre de régénérations": 1
+      },
+      {
+        "handle": "pince-a-barrettes",
+        "sku": "14:173#Silver",
+        "slot": "situation",
+        "fichier": "/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/scratchpad/noirmont-galeries/generated/pince-a-barrettes-situation.jpg",
+        "modèle utilisé": "GPT Image 2 natif",
+        "nombre de régénérations": 1
+      },
+      {
+        "handle": "pince-a-barrettes",
+        "sku": "14:173#Silver",
+        "slot": "macro",
+        "fichier": "/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/scratchpad/noirmont-galeries/generated/pince-a-barrettes-macro.jpg",
+        "modèle utilisé": "GPT Image 2 natif",
+        "nombre de régénérations": 1
+      }
+    ],
+    "plusDeTrois": []
+  },
+  "exclusions": [
+    {
+      "handle": "noirmont-deux-plongeuse-ceramique",
+      "raison": "Exclue par le prompt et l'audit v3: les 7 références ne peuvent pas être identifiées avec fiabilité."
+    },
+    {
+      "handle": "carte-cadeau-maison-noirmont",
+      "raison": "Produit numérique avec visuel unique déjà conforme."
+    },
+    {
+      "périmètre": "3 déclinaisons GMT siglé",
+      "raison": "Variantes invendables portant une marque tierce; aucune fiche active correspondante dans le périmètre."
+    },
+    {
+      "périmètre": "7 fiches mères en brouillon",
+      "raison": "Hors catalogue actif et explicitement non traitées."
+    }
+  ]
+}
