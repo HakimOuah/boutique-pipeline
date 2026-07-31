@@ -7,8 +7,16 @@ def test_scaffold_creates_expected_files(tmp_path):
     assert (project / "research-brief.md").exists()
     assert (project / "sitemap.md").exists()
     assert (project / "shot-list.md").exists()
+    assert (project / "project-state.md").exists()
+    assert (project / "product-page-brief.md").exists()
+    assert (project / "test-plan.md").exists()
     assert (project / "brand-tokens.json").exists()
     assert (project / "content").is_dir()
+    assert (project / "assets/source").is_dir()
+    assert (project / "assets/generated").is_dir()
+    assert (project / "assets/final").is_dir()
+    assert (project / "shopify").is_dir()
+    assert (project / "shopify/portable-kit/sections/dp-purchase-support.liquid").exists()
 
 
 def test_scaffold_brand_tokens_is_valid_json(tmp_path):

@@ -1,0 +1,85 @@
+{% comment %}
+  Référence portable extraite du panier Bonum Vitae.
+  Dépendances Horizon : cart, all_products, product-form-component et product-form.js.
+  À insérer dans le contenu non vide du tiroir, après la liste des articles et avant le récapitulatif.
+  Les poignées produit, textes, couleurs et politique de livraison sont à adapter par boutique.
+{% endcomment %}
+
+<div class="bv-cart-banner">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M1 3h15v13H1z"/>
+    <path d="M16 8h4l3 3v5h-7z"/>
+    <circle cx="5.5" cy="18.5" r="1.6"/>
+    <circle cx="18.5" cy="18.5" r="1.6"/>
+  </svg>
+  <span>Livraison offerte en France</span>
+</div>
+
+{%- liquid
+  assign bv_upsell = 'membrane-d-osmose-inverse-ro-cartouche-de-remplacement,elements-filtrants-de-robinet-anti-chlore-lot-alloet,aerateur-de-robinet-economie-d-eau-buse-remplacable,filtre-de-douche-parfume-anti-calcaire-corps-abs' | split: ','
+  assign bv_count = 0
+-%}
+
+{%- capture bv_upsell_items -%}
+  {%- for h in bv_upsell -%}
+    {%- if bv_count >= 2 -%}{%- break -%}{%- endif -%}
+    {%- assign p = all_products[h] -%}
+    {%- if p != empty and p.available -%}
+      {%- assign in_cart = false -%}
+      {%- for item in cart.items -%}
+        {%- if item.product.handle == h -%}
+          {%- assign in_cart = true -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- unless in_cart -%}
+        {%- assign v = p.selected_or_first_available_variant -%}
+        {%- assign bv_form_id = 'BvUpsellForm-' | append: p.id -%}
+        <div class="bv-cart-upsell__item">
+          <a href="{{ p.url }}" class="bv-cart-upsell__media">
+            <img src="{{ p.featured_image | image_url: width: 160 }}" alt="{{ p.title | escape }}" width="56" height="56" loading="lazy">
+          </a>
+          <div class="bv-cart-upsell__info">
+            <a href="{{ p.url }}" class="bv-cart-upsell__name">{{ p.title }}</a>
+            <div class="bv-cart-upsell__row">
+              <span class="bv-cart-upsell__price">{{ v.price | money }}</span>
+              <product-form-component data-section-id="cart-drawer-section" data-product-id="{{ p.id }}" data-product-url="{{ p.url }}" on:submit="/handleSubmit" data-quantity-default="1">
+                {%- form 'product', p, id: bv_form_id, class: 'bv-upsell-form', data-type: 'add-to-cart-form' -%}
+                  <input type="hidden" name="id" value="{{ v.id }}">
+                  <button type="submit" name="add" class="bv-upsell-add">Ajouter</button>
+                {%- endform -%}
+              </product-form-component>
+            </div>
+          </div>
+        </div>
+        {%- assign bv_count = bv_count | plus: 1 -%}
+      {%- endunless -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+
+{%- assign bv_upsell_trim = bv_upsell_items | strip -%}
+{%- if bv_upsell_trim != '' -%}
+  <div class="bv-cart-upsell">
+    <p class="bv-cart-upsell__title">Complétez votre installation</p>
+    <div class="bv-cart-upsell__list">{{ bv_upsell_items }}</div>
+  </div>
+{%- endif -%}
+
+<style>
+  .bv-cart-banner{display:flex;align-items:center;justify-content:center;gap:.5rem;margin:0 var(--cart-drawer-padding) var(--gap-lg);padding:.6rem 1rem;border-radius:12px;background:linear-gradient(90deg,#0E3A5A,#35B6AA);color:#fff;font-size:.85rem;font-weight:500}
+  .bv-cart-banner svg{width:20px;height:20px;flex-shrink:0}
+  .bv-cart-upsell{padding-block-start:var(--gap-lg);padding-block-end:var(--gap-md);padding-inline:var(--cart-drawer-padding);border-top:var(--style-border-width) solid rgb(var(--color-foreground-rgb) / var(--opacity-10-25));margin-block-start:var(--gap-lg)}
+  .bv-cart-upsell__title{font-family:var(--font-heading--family);color:#0E3A5A;font-size:1.05rem;margin:0 0 .8rem}
+  .bv-cart-upsell__list{display:flex;flex-direction:column;gap:.9rem}
+  .bv-cart-upsell__item{display:grid;grid-template-columns:56px 1fr;align-items:center;gap:.75rem}
+  .bv-cart-upsell__media{display:block}
+  .bv-cart-upsell__item img{width:56px;height:56px;object-fit:cover;border-radius:10px;background:#f2f2f2;display:block}
+  .bv-cart-upsell__info{display:flex;flex-direction:column;gap:.35rem;min-width:0}
+  .bv-cart-upsell__name{font-size:.85rem;line-height:1.25;color:#1C2830;text-decoration:none}
+  .bv-cart-upsell__name:hover{text-decoration:underline}
+  .bv-cart-upsell__row{display:flex;align-items:center;justify-content:space-between;gap:.5rem}
+  .bv-cart-upsell__price{font-size:.9rem;font-weight:600;color:#0E3A5A;white-space:nowrap}
+  .bv-upsell-form{margin:0}
+  .bv-upsell-add{border:0;cursor:pointer;background:#0E3A5A;color:#fff;font-size:.78rem;font-weight:600;padding:.4rem .85rem;border-radius:999px;white-space:nowrap;transition:background .15s ease}
+  .bv-upsell-add:hover{background:#35B6AA}
+</style>

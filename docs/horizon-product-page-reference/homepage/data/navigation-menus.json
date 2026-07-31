@@ -1,0 +1,235 @@
+[
+  {
+    "id": "gid://shopify/Menu/332712214866",
+    "handle": "main-menu",
+    "title": "Menu principal",
+    "isDefault": true,
+    "items": [
+      {
+        "id": "gid://shopify/MenuItem/815984476498",
+        "title": "Accueil",
+        "type": "FRONTPAGE",
+        "url": "/",
+        "resourceId": null,
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/815984509266",
+        "title": "Catalogue",
+        "type": "CATALOG",
+        "url": "/collections/all",
+        "resourceId": null,
+        "items": [
+          {
+            "id": "gid://shopify/MenuItem/815984542034",
+            "title": "Osmoseurs",
+            "type": "COLLECTION",
+            "url": "/collections/osmoseurs",
+            "resourceId": "gid://shopify/Collection/689049174354",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/815984574802",
+            "title": "Filtres de douche",
+            "type": "COLLECTION",
+            "url": "/collections/filtres-de-douche",
+            "resourceId": "gid://shopify/Collection/689049207122",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/815984607570",
+            "title": "Filtres robinet",
+            "type": "COLLECTION",
+            "url": "/collections/filtres-robinet",
+            "resourceId": "gid://shopify/Collection/689049272658",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/815984640338",
+            "title": "Carafes filtrantes",
+            "type": "COLLECTION",
+            "url": "/collections/carafes-filtrantes",
+            "resourceId": "gid://shopify/Collection/689049239890",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/815984673106",
+            "title": "Anti-calcaire sans sel",
+            "type": "COLLECTION",
+            "url": "/collections/anti-calcaire-sans-sel",
+            "resourceId": "gid://shopify/Collection/689049338194",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/815984705874",
+            "title": "Purificateurs nomades",
+            "type": "COLLECTION",
+            "url": "/collections/purificateurs-nomades",
+            "resourceId": "gid://shopify/Collection/689049305426",
+            "items": []
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/MenuItem/815984738642",
+        "title": "Notre histoire",
+        "type": "PAGE",
+        "url": "/pages/notre-histoire",
+        "resourceId": "gid://shopify/Page/174940782930",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/815984771410",
+        "title": "FAQ",
+        "type": "PAGE",
+        "url": "/pages/faq",
+        "resourceId": "gid://shopify/Page/174959231314",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/815984804178",
+        "title": "Contact",
+        "type": "PAGE",
+        "url": "/pages/contact",
+        "resourceId": "gid://shopify/Page/174929445202",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/815984836946",
+        "title": "Suivre ma commande",
+        "type": "HTTP",
+        "url": "/account",
+        "resourceId": null,
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Menu/332712247634",
+    "handle": "footer",
+    "title": "Politiques",
+    "isDefault": true,
+    "items": [
+      {
+        "id": "gid://shopify/MenuItem/815753462098",
+        "title": "Suivre votre commande",
+        "type": "HTTP",
+        "url": "/account",
+        "resourceId": null,
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/815753494866",
+        "title": "Mentions légales",
+        "type": "PAGE",
+        "url": "/pages/mentions-legales",
+        "resourceId": "gid://shopify/Page/174952874322",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/815753527634",
+        "title": "Politique de confidentialité",
+        "type": "PAGE",
+        "url": "/pages/politique-de-confidentialite",
+        "resourceId": "gid://shopify/Page/174953103698",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/815753560402",
+        "title": "Politique de remboursement",
+        "type": "PAGE",
+        "url": "/pages/politique-de-remboursement",
+        "resourceId": "gid://shopify/Page/174952907090",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/815753593170",
+        "title": "CGV",
+        "type": "PAGE",
+        "url": "/pages/conditions-generales-de-vente",
+        "resourceId": "gid://shopify/Page/174953169234",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/815753625938",
+        "title": "Conditions d'utilisation",
+        "type": "PAGE",
+        "url": "/pages/conditions-generales-d-utilisation",
+        "resourceId": "gid://shopify/Page/174953234770",
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Menu/332712280402",
+    "handle": "customer-account-main-menu",
+    "title": "Menu principal du compte client",
+    "isDefault": true,
+    "items": [
+      {
+        "id": "gid://shopify/MenuItem/815562817874",
+        "title": "Commandes",
+        "type": "CUSTOMER_ACCOUNT_PAGE",
+        "url": "https://shopify.com/109072515410/account/orders",
+        "resourceId": "gid://shopify/CustomerAccountPage/162612674898",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/815562850642",
+        "title": "Profil",
+        "type": "CUSTOMER_ACCOUNT_PAGE",
+        "url": "https://shopify.com/109072515410/account/profile",
+        "resourceId": "gid://shopify/CustomerAccountPage/162612707666",
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Menu/332773392722",
+    "handle": "informations",
+    "title": "Informations",
+    "isDefault": false,
+    "items": [
+      {
+        "id": "gid://shopify/MenuItem/815753658706",
+        "title": "Notre histoire",
+        "type": "PAGE",
+        "url": "/pages/notre-histoire",
+        "resourceId": "gid://shopify/Page/174940782930",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/815753691474",
+        "title": "FAQ",
+        "type": "PAGE",
+        "url": "/pages/faq",
+        "resourceId": "gid://shopify/Page/174959231314",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/815753724242",
+        "title": "Contactez-nous",
+        "type": "PAGE",
+        "url": "/pages/contact",
+        "resourceId": "gid://shopify/Page/174929445202",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/815753757010",
+        "title": "Livraison & Retour",
+        "type": "PAGE",
+        "url": "/pages/politique-de-livraison",
+        "resourceId": "gid://shopify/Page/174952939858",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/815753789778",
+        "title": "Suivre votre commande",
+        "type": "HTTP",
+        "url": "/account",
+        "resourceId": null,
+        "items": []
+      }
+    ]
+  }
+]

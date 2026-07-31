@@ -1,0 +1,20 @@
+{
+  "name": "dropilot_run",
+  "description": "Lance l'analyse d'un export produit déjà déposé dans la boîte d'entrée Dropilot.",
+  "method": "POST",
+  "url": "http://127.0.0.1:8787/run",
+  "headers": {
+    "Authorization": "Bearer ${DROPILOT_WEBHOOK_TOKEN}",
+    "Content-Type": "application/json"
+  },
+  "body_schema": {
+    "type": "object",
+    "required": ["input"],
+    "properties": {
+      "input": {"type": "string", "description": "Nom de fichier présent dans DROPILOT_INBOX"},
+      "source": {"type": "string"},
+      "format": {"type": "string", "enum": ["json", "csv", "tsv", "md", "markdown"]}
+    }
+  }
+}
+

@@ -15,9 +15,17 @@ def scaffold(name: str, base_dir: Path) -> Path:
     except FileExistsError:
         raise FileExistsError(f"Le dossier existe déjà : {project}")
     (project / "content").mkdir()
+    (project / "assets/source").mkdir(parents=True)
+    (project / "assets/generated").mkdir(parents=True)
+    (project / "assets/final").mkdir(parents=True)
+    (project / "shopify").mkdir()
     shutil.copy(TEMPLATES / "research-brief.template.md", project / "research-brief.md")
     shutil.copy(TEMPLATES / "sitemap.template.md", project / "sitemap.md")
     shutil.copy(TEMPLATES / "shot-list.template.md", project / "shot-list.md")
+    shutil.copy(TEMPLATES / "project-state.template.md", project / "project-state.md")
+    shutil.copy(TEMPLATES / "product-page-brief.template.md", project / "product-page-brief.md")
+    shutil.copy(TEMPLATES / "test-plan.template.md", project / "test-plan.md")
+    shutil.copytree(ROOT / "shopify-portable", project / "shopify" / "portable-kit")
     tokens = json.loads(EXAMPLE_TOKENS.read_text())
     tokens["brand"] = {"name": name, "baseline": ""}
     (project / "brand-tokens.json").write_text(json.dumps(tokens, ensure_ascii=False, indent=2) + "\n")

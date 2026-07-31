@@ -1,0 +1,197 @@
+{
+  "project": {
+    "nom": "Boutiques drop — pipeline de boutiques Shopify dropshipping FR",
+    "societe": "OH Ventures (SASU — HT, TVA au réel, IS)",
+    "operateur": "Hakim",
+    "date_snapshot": "2026-07-30",
+    "description": "Pipeline semi-automatisé piloté par Claude Code : recherche produit volume-first (SEMrush FR, seuil 10 000/mois, 150-400 EUR TTC, explicable au particulier), lancement de boutiques via campement Notion 20 tickets, acquisition cible Google Ads Search/Shopping France, fournisseurs AliExpress via DSers.",
+    "sources_de_verite": "Fichiers locaux markdown du dépôt ; Notion = tableau de bord uniquement",
+    "dossier_passation": "boutique-pipeline/docs/codex-handoff/ (fichiers 00-13 + .env.example + _analyse-repo.md)"
+  },
+  "current_status": {
+    "resume": "6 marques (2 closes, 1 gelée, 1 publiée sans traçabilité ads, 1 en construction avancée sous mot de passe, 1 jamais créée). Tuftéo sert publiquement 6 avis explicitement fictifs avec le libellé Vérifié et un compteur 789 non étayé (audit public 30/07 23:35). Aucune boutique du pipeline en campagne. Aucun CA documenté. Registre candidats 2/20, boucle en pause depuis le 24/07.",
+    "boutique_la_plus_avancee": "Maison Noirmont — 0 commande, 0 client, storefront sous mot de passe, thème de travail UNPUBLISHED",
+    "rien_ne_tourne_en_continu": true,
+    "blocage_numero_1": "Dépôt git sans remote, travail de production untracked (dernier commit 21/07) — le projet n'existe que sur le Mac de Hakim"
+  },
+  "repositories": {
+    "boutique-pipeline": {
+      "chemin": "/Users/Hakim/Documents/Boutiques drop/boutique-pipeline",
+      "branche_courante": "feat/boucle-chasse-clusters",
+      "dernier_commit": "2026-07-21",
+      "remote": null,
+      "travail_untracked": ["boutique-seiko-mod/", "boutique-tufting/", "dropilot/", "docs/", "reports/", "scratchpad/", "personas/", "specs/"],
+      "secrets_a_purger_avant_push": "mot de passe storefront Noirmont en clair dans 3 fichiers (voir 07-SETUP-AND-SECRETS.md section 4)"
+    },
+    "hors_git": {
+      "agents_et_skills_projet": "/Users/Hakim/Documents/Boutiques drop/.claude/ (3 skills + 9 agents — hors dépôt)",
+      "memoire_claude": "~/.claude/projects/-Users-Hakim-Documents-Boutiques-drop/memory/ (14 fiches)",
+      "skills_globaux": "~/.claude/skills/ (38) ; archives à ne pas restaurer : ~/.claude/skills-archive/",
+      "espace_codex": "~/.codex/skills/chasse-clusters-codex/ + boutique-pipeline/codex-chasse-clusters/"
+    }
+  },
+  "shops": [
+    {
+      "nom": "Maison Noirmont",
+      "niche": "montres mécaniques à cadran stérile (Seiko mod), 279-430 EUR",
+      "myshopify": "v42pzp-h4.myshopify.com",
+      "domaine": "maisonnoirmont.fr",
+      "statut": "en construction — sous mot de passe, 0 commande, 0 client",
+      "themes": {"main_publie": "Helio 204246548818 (ne jamais y écrire)", "travail_unpublished": "Maison Noirmont 204248088914 (à republier)", "fork_obsolete_a_supprimer": "204329288018"},
+      "dsers": {"compte": "contact.noirmont", "produits": 103, "unmapped": 0},
+      "catalogue": "105 produits tous statuts ; 92 fiches actives au 27/07 ; 57 fiches montres ACTIVE au 30/07",
+      "document_de_reprise": "boutique-seiko-mod/REPRISE-SESSION.md"
+    },
+    {
+      "nom": "Tuftéo",
+      "niche": "kits tufting, produit phare 229 EUR",
+      "myshopify": "et0hua-w1.myshopify.com",
+      "domaine": "tufteo.com",
+      "statut": "publiée le 23/07 ; statut Notion 'Ads lancées' CONTRADICTOIRE avec le dépôt (aucune trace de campagne)",
+      "theme_live": "Tuftéo thème 188623847809",
+      "alertes": ["P0 CONFIRMÉ : les 6 avis démo fictifs du 22/07 sont publics avec Vérifié, plus un compteur 789 non étayé — audit navigateur/HTTP public du 30/07 23:35", "colis test non réceptionné", "accès CLI/API Tuftéo toujours manquants ; ne jamais utiliser switch-shop"],
+      "document_de_reprise": "boutique-tufting/project-state.md"
+    },
+    {
+      "nom": "Bonum Vitae",
+      "niche": "traitement de l'eau / osmoseurs 322-585 EUR",
+      "myshopify": "[MANQUANT]",
+      "domaine": "bonumvitae.fr",
+      "statut": "en ligne, Google Ads actives 30 EUR/jour (pointage 24/07, obsolète possible) — GEL : ne rien modifier sans autorisation de Hakim",
+      "role": "référence Horizon du pipeline (PDP/panier/homepage) : docs/horizon-product-page-reference/"
+    },
+    {
+      "nom": "Lihyl",
+      "niche": "reformer Pilates pliable 599 EUR",
+      "myshopify": "s001ti-nw.myshopify.com",
+      "domaine": "lihyl.fr",
+      "statut": "test clos non concluant (juin 2026) — détail du kill [MANQUANT]"
+    },
+    {
+      "nom": "Bien Brûlé",
+      "niche": "machines expresso portables 139 EUR",
+      "myshopify": "2npa6w-x0.myshopify.com",
+      "domaine": "bienbrule.com",
+      "statut": "test clos non concluant — origine de la règle anti-fausse-preuve-sociale (GMC 5806019978 suspendu pour misrepresentation puis réintégré)"
+    },
+    {
+      "nom": "Petit Astre",
+      "niche": "canapé modulable enfant",
+      "statut": "jamais créée — GO de juin invalidé par STOP SEMrush du 17/07 (volume ~1 800-2 000/mois)"
+    }
+  ],
+  "products": {
+    "registre_central": "boutique-pipeline/registre-candidats.md (MAJ 24/07 — fait foi sur Notion)",
+    "compteur_boucle": "2/20",
+    "candidats_qualifies": [
+      {"nom": "Fontaine à eau filtrante à gravité", "volume_fr": "13 000-15 500/mois", "fournisseur_item": "1005008291010462", "confiance": "A", "niveau": 2, "attente": "commande test = décision Hakim (3 réserves majeures)"},
+      {"nom": "Surpresseur domestique", "volume_fr": "19 000-26 600/mois", "fournisseur_item": "1005012663097367", "confiance": "B", "niveau": 2, "attente": "commande test = décision Hakim (4 réserves majeures dont CE/RoHS)"}
+    ],
+    "cas_limites_en_attente_hakim": ["papier peint panoramique sur mesure", "pompe immergée de puits", "presse hydraulique 12-20 t", "lève-moto hydraulique"],
+    "niveaux_de_validation": "1 marché -> 2 fiche AliExpress -> 3 commande test -> 4 GO lancement, aucun raccourci",
+    "seuils_canoniques": "PRODUCT-RESEARCH-CRITERIA.md : >= 10 000 recherches/mois FR nettoyées SERP, 150-400 EUR TTC, persona particulier, AliExpress only"
+  },
+  "agents": {
+    "skills_projet": ["/qualifie-idees (voie principale depuis le 20/07)", "/chasse-clusters (voie secondaire)", "/recherche-produit (orchestrateur 5 phases)"],
+    "agents_projet": ["phase0-decouverte", "phase1-ideation (mis de côté)", "phase2-filtre", "phase3-demande", "phase4-sourcing", "phase5-marge", "sonde-prix", "critique-candidat (aveugle au compteur)", "mineur-brandsearch"],
+    "principes": ["aucun critère chiffré copié dans les agents (relecture de CRITERIA à chaque mission)", "fail-closed : cas limite ou donnée invérifiable = arrêt et remontée à Hakim"],
+    "localisation": "Boutiques drop/.claude/ — HORS du dépôt git (point dur de migration)",
+    "skills_globaux": "38 dans ~/.claude/skills/ : 10 maison e-commerce (couche règles Hakim) + packs skills.sh du 26/07 (cro, copywriting, ads, higgsfield-*, ui-ux-pro-max, brandkit, shopify-liquid)",
+    "skills_archives_ne_pas_restaurer": ["niche-scorer", "competitor-analyzer", "margin-calculator"]
+  },
+  "workflows": {
+    "recherche_produit": "idée (Brand Search) -> mesure express SEMrush -> sonde prix -> filtre qualitatif -> demande SERP -> sourcing AliExpress -> critique à froid -> registre -> décision Hakim",
+    "lancement_boutique": "campement Notion 20 tickets (00 kick-off -> 17 clôture) : persona bloquant, charte validée Hakim, import DSers, francisation, prix x1,3, images anti-faux-logos, avis Trustoo, QA mobile-first",
+    "precedents_codex": [
+      {"nom": "boucle chasse-clusters Codex", "date": "2026-07-20", "resultat": "40/40 familles, 110 clusters, 17 retenus marché ; AliExpress bloqué (Browser Use policy) -> sourcing manuel côté Claude"},
+      {"nom": "galeries Noirmont", "date": "2026-07-26", "resultat": "230 générations GPT Image 2 en local, 85 fiches / 206 médias branchés côté Claude ; leçon : manifestes indexés SKU/handle, jamais IDs de variante"}
+    ],
+    "etapes_toujours_humaines": ["publication/republication de thème", "commandes et paiements", "dépenses publicitaires", "facettes Search & Discovery (iframe)", "médiateur de la consommation", "avis et preuve sociale", "contact fournisseur", "identifiants et CAPTCHA"]
+  },
+  "integrations": {
+    "shopify": {"acces": "connecteur MCP Claude (OAuth), branché sur Maison Noirmont", "interdits": ["switch-shop (invalide la connexion pour tous)", "écrire sur un thème MAIN"], "pieges": ["upsertedThemeFiles vide = écriture asynchrone, vérifier par relecture/MD5", "produits DSers/API publiés sur aucun canal -> publishablePublish", "médias partagés entre produits", "requêtes média plafonnées à 30"]},
+    "dsers": {"acces": "session Chrome uniquement (pas d'API publique)", "regle": "import par DSers jamais par API ; auto-matching par SKU inexistant ; contrôle par compteurs, Unmapped=0"},
+    "aliexpress": {"acces": "Chrome de Hakim avec session (sinon CAPTCHA-artefact) ; bloqué pour le navigateur Codex le 20/07", "regle": "IDs 16 chiffres complets ; relevés datés ; prix/délai/stock à re-vérifier systématiquement"},
+    "apify": {"etat": "console accessible dans le Chrome connecté ; deux Actors testés le 31/07/2026 pour un coût total observé de 0,042 $ ; MCP/API non configuré", "tests": [{"actor": "khadinakbar/aliexpress-product-search-scraper", "run": "VBc7BfR8JoFa9QPjc", "resultat": "19 lignes sur 25 après repli automatique sur thirdwatch/aliexpress-product-scraper ; 6 filtrées ; 1 min 55 s ; 0,038 $", "qualite": "découverte large mais premiers résultats hors cible et champs vendeur nuls"}, {"actor": "khadinakbar/aliexpress-all-in-one-scraper", "run": "Hvk3VN4KQ288uYei1", "resultat": "statut Succeeded ; 2 lignes ; 1 min 54 s ; 0,004 $", "qualite": "0 fiche exploitable : les deux lignes portent detail_page_blocked_anti_bot et les champs produit utiles sont nuls"}], "recommandation": "conserver le premier Actor seulement comme générateur de pistes à reclasser et revalider ; ne pas retenir le second dans son état testé ; tester un autre enrichisseur avant toute automatisation", "limites": ["prix et métriques datés à recontrôler avant chaque run", "un statut Succeeded ou un dataset non vide ne prouve pas une extraction utile : vérifier _warnings et les champs obligatoires", "Apify sert à la découverte et à l'enrichissement, pas à valider à lui seul prix livré par variante, délai France, stock, conformité ou fiabilité fournisseur", "arrêt propre si blocage anti-bot ; aucun CAPTCHA à résoudre"]},
+    "semrush": {"acces": "session navigateur, compte payant (statut d'abonnement CONTRADICTOIRE, à valider)", "piege": "quota épuisé rend 0 sans erreur -> mot-clé témoin obligatoire"},
+    "brand_search": {"acces": "MCP (quota 10 000 req/mois) + UI web app.brandsearch.co", "role": "source d'idéation principale"},
+    "notion": {"workspace": "OH VENTURES", "role": "dashboard uniquement, jamais source de vérité"},
+    "higgsfield": {"role": "visuels IA (nano_banana_pro côté Claude, GPT Image 2 côté Codex)", "piege": "modèles UGC/mode impriment de faux logos ; régénérer plutôt qu'inpainter ; solde ~87 crédits"},
+    "trustoo": {"role": "import d'avis AliExpress par bookmarklet piloté (recette éprouvée, 22 fiches Tuftéo)"},
+    "non_existants_vision_cible": ["n8n", "Apify MCP/API non configuré (console accessible, deux Actors testés manuellement)", "VPS Hermes (jamais déployé)", "Browser Use (une seule trace : échec AliExpress Codex)"]
+  },
+  "decisions": [
+    {"id": "D-0717-A", "date": "2026-07-17", "decision": "Pipeline par agents + critères centralisés dans PRODUCT-RESEARCH-CRITERIA.md ; anciens skills archivés"},
+    {"id": "D-0718-A", "date": "2026-07-18", "decision": "Fichiers locaux = source de vérité, Notion = tableau de bord"},
+    {"id": "D-0719-A", "date": "2026-07-19", "decision": "Persona validé par Hakim = bloquant avant tout copywriting"},
+    {"id": "D-0720-C", "date": "2026-07-20", "decision": "/qualifie-idees (idées + mesure express) devient la voie principale ; boucle familles en secondaire"},
+    {"id": "D-0720-D", "date": "2026-07-20", "decision": "Brand Search (boutiques prouvées Google Ads FR sans Meta) = source d'idées principale"},
+    {"id": "D-0720-E", "date": "2026-07-20", "decision": "Critère 'explicable au particulier' ; vocabulaire métier = signal d'exclusion"},
+    {"id": "D-0720-B", "date": "2026-07-20", "decision": "Case fournisseur = critère d'existence, pas de qualité (grille de confiance A/B/C)"},
+    {"id": "D-0722-A", "date": "2026-07-22", "decision": "Corrections Tuftéo : DA créative pas premium fade ; mobile-first ; placeholders = chasse gardée Hakim ; promesses vérifiables, bonus en numérique"},
+    {"id": "D-0724-N0", "date": "2026-07-24", "decision": "Noirmont : cadran 100% stérile, jamais de logo, jamais 'assemblée en France', promesse J+14/J+21"},
+    {"id": "D-0725-N1", "date": "2026-07-25", "decision": "Catalogue : 1 fiche = 1 coloris, naming communautaire, échelle de prix par mouvement (+39/+89/+29 EUR)"},
+    {"id": "D-0725-N3", "date": "2026-07-25", "decision": "Accessoires : entrer par import DSers, jamais par API (SKU + mapping d'un coup)"},
+    {"id": "D-0726-N1", "date": "2026-07-26", "decision": "Charte Noirmont 'A+B' : encre/craie/acier + cyan #22D3EE (instrument seulement) ; Oswald+Inter ; vert forêt et laiton purgés"},
+    {"id": "D-0726-N2", "date": "2026-07-26", "decision": "Étoiles d'avis vert Trustpilot #05b67a (décision Hakim, pas un écart à corriger)"},
+    {"id": "D-0727-N1", "date": "2026-07-27", "decision": "Acquisition par le vocabulaire mod/squelette/cadrans arabes ; le configurateur est une promesse de conversion, pas d'acquisition"},
+    {"id": "D-0730-N1", "date": "2026-07-30", "decision": "Cadrans orientaux stricts : attendre (aucun candidat publiable), réévaluer dans 6-8 semaines"},
+    {"id": "D-0730-N2", "date": "2026-07-30", "decision": "Titres produits = actif de marque, ne bougent pas ; seo.title porte les mots-clés (<= 65 caractères) ; zéro handle touché"}
+  ],
+  "open_tasks": {
+    "P0": [
+      "BUG-0 : Tuftéo public sert 6 avis fictifs Vérifié + un compteur 789 non étayé — pris en charge par Hakim, correction non vérifiée",
+      "BIZ-1 : adhésion médiateur de la consommation pour maisonnoirmont.fr — prise en charge par Hakim, résultat non vérifié",
+      "BIZ-2 : republier le thème Maison Noirmont + retirer le mot de passe + supprimer le fork obsolète (Hakim)",
+      "BIZ-4 : trancher/retirer avis et compteurs de démonstration avant exposition publique (exclusif Hakim)",
+      "Passation : committer + remote privé après purge des secrets"
+    ],
+    "P1": [
+      "BUG-1 : reliquat faces SWISS MADE (3/6 corrigées) + 6 cadrans à taches de flou",
+      "BUG-3 : 9 images sur-promettant la capacité vendue",
+      "BUG-4 : fiche aviateur redondante aux 6 SKU en double — ne jamais publier telle quelle",
+      "BIZ-3 : 5-6 facettes Search & Discovery (gestes manuels Hakim)",
+      "BIZ-8 : prix barrés permanents vs règle française des 30 jours",
+      "BIZ-9 : 'Plongeuse' dans 3 titres Héritage (5 bar)",
+      "BIZ-10 : format monétaire, paiement/commande test, canal Google & YouTube",
+      "MC-1 : adopter la doctrine de vérification dans l'outillage Codex",
+      "MC-3 : inventorier les accès réels depuis l'environnement Codex",
+      "MC-4 : maintenir la culture du piège documenté",
+      "MBU-1 : QA mobile réelle 375 px (jamais faite par un agent)"
+    ],
+    "P2_selection": ["DT-1 4 seo.description vides", "DT-2 11 diamètres manquants", "DT-4 SEO collections", "DT-5 télémétrie configurateur", "EV-1/EV-2 articles de blog", "EXP-1 cadrans orientaux (échéance mi-septembre)", "BIZ-6 confirmation écrite BL Watches", "BIZ-7 Noirmont Deux à trancher", "MC-2 pipeline visuel Codex (bloqué crédits)", "MBU-2/MBU-3 sourcing et DSers sous Browser Use"],
+    "detail": "11-OPEN-TASKS.md"
+  },
+  "risks": [
+    "Perte totale possible : git sans remote, travail untracked, tout vit sur un seul Mac",
+    "Misrepresentation GMC : faux compteurs d'avis encore présents sur Noirmont (sous mot de passe) ; Tuftéo PUBLIC sert 6 avis fictifs Vérifié et un compteur 789 non étayé, confirmé le 30/07 23:35 (précédent : suspension Bien Brûlé)",
+    "Mot de passe storefront en clair dans 3 fichiers du dépôt/mémoire — à purger avant tout push puis à faire tourner",
+    "Fiche aviateur DRAFT avec SKU en double : publiée telle quelle, elle casserait le mapping DSers",
+    "Dépendance aux sessions Chrome de Hakim (SEMrush, DSers, AliExpress) : aucun accès API propre pour un repreneur ; AliExpress bloqué pour le navigateur Codex (20/07)",
+    "La méthode vit hors du dépôt (.claude/ + mémoire ~/.claude/) : un clone git seul est incomplet",
+    "Marques déposées : ~1/3 du cluster Seiko mod nomme des designs protégés ; hybrides marque+mod volontairement écartés (EXP-2)",
+    "Prix barrés x1,3 permanents sans référentiel 30 jours (DGCCRF/Omnibus) — à trancher avant toute pub",
+    "Notion contient des instructions périmées dangereuses (switch-shop, ancienne charte, vérif updatedAt/size) — ne jamais les exécuter",
+    "brand-tokens-noirmont.json v2.0 divergent de la charte vivante — à régénérer avant usage"
+  ],
+  "notion_pages": {
+    "hub": {"titre": "Pipeline Boutiques Drop", "url": "https://app.notion.com/p/3a11f38c315481839935e21e1111bb20"},
+    "campement_type": {"titre": "Campement type — Lancement boutique", "url": "https://app.notion.com/p/3a71f38c315481b88b28d745e54efc05", "criticite": "CRITIQUE — seul actif sans copie locale (20 tickets-briefs + pièges vérifiés) ; à sauvegarder localement en priorité"},
+    "base_tickets_campement": {"db": "da8b39cc1a4248f2aec7494df5ef247b", "tickets": 20},
+    "base_recherches_produit": {"db": "b23a48625ace4704980659f165bb0ec6", "etat": "snapshot figé au 18/07 — en retard sur le registre local"},
+    "base_boutiques": {"db": "3a26f4af523d448a907fce7b45b42bcc", "etat": "3 lignes ; statut Tufting 'Ads lancées' non fiable"},
+    "fiche_noirmont": {"url": "https://app.notion.com/p/3a71f38c315481979cbfc1556049a1d9", "etat": "figée au 25/07 — charte et configurateur périmés, consigne switch-shop interdite"},
+    "modele_horizon": {"url": "https://app.notion.com/p/3a11f38c31548150a5afd3af4ea350bc", "etat": "doublon assumé de docs/horizon-product-page-reference/"}
+  },
+  "recommended_next_steps": [
+    "1. Faire committer et pousser le dépôt par Hakim (remote privé) après purge du mot de passe storefront des 3 fichiers et renforcement du .gitignore",
+    "2. Sauvegarder localement le Campement type Notion et ses 20 tickets (seul actif critique sans copie dans le dépôt)",
+    "3. Hakim : retirer immédiatement de tufteo.com les 6 avis fictifs publics et le compteur 789 non étayé, puis faire recontrôler en session déconnectée ; clarifier ensuite le statut réel des ads Tuftéo (contradiction C1)",
+    "4. Dérouler les P0 Noirmont avec Hakim : médiateur -> republication du thème -> paiement/commande test -> levée du mot de passe -> purge des preuves sociales",
+    "5. MC-3 : poursuivre l'inventaire des accès réels de l'environnement Codex (Shopify, SEMrush, Higgsfield, AliExpress direct) ; les accès Notion et Apify ainsi que deux runs Apify sont déjà documentés",
+    "6. Adopter MC-1 (doctrine de vérification) et MC-4 (culture du piège) avant toute écriture Codex sur une boutique",
+    "7. Le bloc Accès & Shopify de Tuftéo est partiellement complété (store/domaine/thème live) ; documenter encore ses accès CLI/API et le store myshopify de Bonum Vitae",
+    "8. Faire arbitrer par Hakim les points ouverts du 05 (SEMrush, seuils DE/IT, réduction des fiches mères, BL Watches) et la vision cible Browser Use/Apify/n8n avant toute construction",
+    "9. Relancer /qualifie-idees pour faire avancer le compteur 2/20 une fois la passation stabilisée"
+  ]
+}

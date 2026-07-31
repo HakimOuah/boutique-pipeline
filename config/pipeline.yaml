@@ -1,0 +1,98 @@
+version: 1
+
+markets:
+  primary: FR
+  enabled: [FR, UK, DE]
+  currency_by_market:
+    FR: EUR
+    UK: GBP
+    DE: EUR
+
+testing:
+  weekly_budget_min: 200
+  weekly_budget_max: 300
+  max_parallel_paid_tests: 2
+  target_clicks_per_test: null
+
+hard_filters:
+  ticket_floor: 150
+  ticket_reject_above: 2000
+  exceptional_margin_ratio: 10
+  exceptional_margin_floor: 80
+  banned_categories: [adult, weapons]
+  excluded_categories: [beauty, clothing, jewelry, food, computing, workwear, car_motorbike_generic]
+  institutional_dominance_reject: true
+  baby_toys_override:
+    minimum_price: 400
+    minimum_margin_ratio: 4
+
+scoring:
+  ticket:
+    bands:
+      - {minimum: 600, maximum: 900, points: 20}
+      - {minimum: 400, maximum_exclusive: 600, points: 15}
+      - {minimum_exclusive: 900, maximum: 1500, points: 13}
+      - {minimum: 250, maximum_exclusive: 400, points: 10}
+      - {minimum: 150, maximum_exclusive: 250, points: 6}
+  margin_ratio:
+    bands:
+      - {minimum: 5, points: 25}
+      - {minimum: 4, maximum_exclusive: 5, points: 20}
+      - {minimum: 3, maximum_exclusive: 4, points: 14}
+      - {minimum: 2, maximum_exclusive: 3, points: 6}
+      - {maximum_exclusive: 2, points: 0}
+    net_margin_gate:
+      minimum_percent: 20
+      points_cap_below_minimum: 6
+  competition:
+    dropshippers_weak_sites: 20
+    dropshippers_mixed: 14
+    few_or_none: 10
+    semi_brands: 6
+    institutional: 0
+  channel:
+    search_and_shopping: 15
+    search_only: 12
+    shopping_only: 6
+    neither: 0
+  source_signal:
+    flippa: 12
+    dotmarket: 12
+    amazon_movers: 9
+    pinterest_trends: 9
+    bigbuy: 6
+    europages: 6
+    vevor: 6
+    cdiscount: 6
+    temu: 3
+    manual: 0
+    multi_source_bonus: 4
+    maximum_with_bonus: 16
+  niche_defensibility:
+    yes: 8
+    partial: 4
+    commodity: 0
+  penalties:
+    seasonal: 10
+    trend_spike_above_percent: 300
+    low_entry_barrier_with_big_brands: 8
+    hard_to_source: 6
+  thresholds:
+    shortlist: 70
+    review: 55
+
+final_gates:
+  minimum_transactional_search_volume:
+    FR: 10000
+    UK: null
+    DE: null
+  minimum_net_margin_percent: 20
+  require_legal_verification: true
+  require_supplier_verification: true
+  require_google_verification: true
+  require_differentiation_thesis: true
+
+deduplication:
+  ignore_words: [le, la, les, un, une, de, du, des, pour, avec, sans, the, a, an, for, with]
+  include_angle_in_fingerprint: true
+

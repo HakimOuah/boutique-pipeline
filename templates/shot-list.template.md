@@ -1,12 +1,23 @@
 # Shot-list visuels — {{marque}}
 
-Pour chaque visuel : emplacement, format, rôle, et un prompt prêt à coller dans ChatGPT image.
+Pour chaque visuel : emplacement, format, rôle de vente, source/référence, prompt et fichier final.
 Voir `reference/image-prompt-guide.md` pour la méthode de rédaction des prompts.
 
-| # | Emplacement (page > section) | Format / ratio | Rôle | Statut | Prompt ChatGPT image |
-|---|------------------------------|----------------|------|--------|----------------------|
-| 1 | Accueil > hero | 16:9 paysage | émotion via usage | À PRODUIRE |  |
-| 2 | Page produit > galerie | 1:1 carré | vendre le produit | À PRODUIRE |  |
-| 3 | À propos > lifestyle | 3:2 paysage | preuve d'usage | À PRODUIRE |  |
+Éviter le texte incrusté dans les images. Les titres, arguments et CTA restent en HTML/CSS.
 
-Légende statut : `FOURNISSEUR` (placeholder ok) / `À PRODUIRE` (photo pro ou ChatGPT image requise).
+| # | Emplacement | Format / ratio | Rôle de vente | Source/réf | Statut | Prompt image | Fichier final |
+|---|-------------|----------------|---------------|------------|--------|--------------|---------------|
+| 1 | Accueil > hero | 16:9 paysage | désir / projection |  | À PRODUIRE |  |  |
+| 2 | Page produit > galerie | 1:1 carré | compréhension produit |  | À PRODUIRE |  |  |
+| 3 | Page produit > bénéfice | 4:3 paysage | douleur atténuée |  | À PRODUIRE |  |  |
+
+Légende statut : `FOURNISSEUR` / `À PRODUIRE` / `GÉNÉRÉ` / `VALIDÉ` / `INTÉGRÉ` / `À REFAIRE`.
+
+## Contrôle qualité
+- Image fidèle au produit :
+- Image utile pour vendre ou rassurer :
+- Qualité perçue premium :
+- Pas de watermark / logo tiers :
+- Pas de texte incrusté :
+- Pas de promesse visuelle trompeuse :
+- Mobile-safe :

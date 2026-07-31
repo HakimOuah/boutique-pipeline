@@ -1,0 +1,21 @@
+[Unit]
+Description=Dropilot webhook for Hermes and n8n
+After=network.target
+
+[Service]
+Type=simple
+User=dropilot
+Group=dropilot
+WorkingDirectory=/opt/dropilot
+EnvironmentFile=/opt/dropilot/.env
+ExecStart=/opt/dropilot/.venv/bin/python -m dropilot.cli serve --host 127.0.0.1 --port 8787
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ReadWritePaths=/opt/dropilot/data /opt/dropilot/reports
+
+[Install]
+WantedBy=multi-user.target
+

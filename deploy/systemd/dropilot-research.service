@@ -1,0 +1,16 @@
+[Unit]
+Description=Dropilot daily inbox processing
+After=network.target
+
+[Service]
+Type=oneshot
+User=dropilot
+Group=dropilot
+WorkingDirectory=/opt/dropilot
+EnvironmentFile=/opt/dropilot/.env
+ExecStart=/opt/dropilot/.venv/bin/python -m dropilot.cli --db /opt/dropilot/data/dropilot.sqlite3 process-inbox --inbox /opt/dropilot/data/inbox --config /opt/dropilot/config/pipeline.yaml --reports /opt/dropilot/reports
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ReadWritePaths=/opt/dropilot/data /opt/dropilot/reports
+

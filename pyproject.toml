@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dropilot-pipeline"
+version = "0.1.0"
+description = "Pipeline local de recherche, scoring et préparation de tests produits Google-first."
+requires-python = ">=3.9"
+dependencies = ["PyYAML>=6.0,<7"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+
+[project.scripts]
+dropilot = "dropilot.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["dropilot*", "broyeur*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "tests_dropilot"]
+pythonpath = ["."]

@@ -1,0 +1,73 @@
+{
+  "id": "claude-20260731-1200-explorateur-variantes",
+  "type": "generate_images",
+  "created_at": "2026-07-31T12:00:00Z",
+  "requested_by": "claude-code",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "montre-acier-chiffres-3-6-9-explorateur",
+        "sku": "#Black1",
+        "slot": "variante",
+        "fichier": "montre-acier-chiffres-3-6-9-explorateur-variante-black1.jpg"
+      },
+      {
+        "handle": "montre-acier-chiffres-3-6-9-explorateur",
+        "sku": "#Green1",
+        "slot": "variante",
+        "fichier": "montre-acier-chiffres-3-6-9-explorateur-variante-green1.jpg"
+      },
+      {
+        "handle": "montre-acier-chiffres-3-6-9-explorateur",
+        "sku": "#Blue1",
+        "slot": "variante",
+        "fichier": "montre-acier-chiffres-3-6-9-explorateur-variante-blue1.jpg"
+      },
+      {
+        "handle": "montre-acier-chiffres-3-6-9-explorateur",
+        "sku": "#Orange1",
+        "slot": "variante",
+        "fichier": "montre-acier-chiffres-3-6-9-explorateur-variante-orange1.jpg"
+      },
+      {
+        "handle": "montre-acier-chiffres-3-6-9-explorateur",
+        "sku": "#Red1",
+        "slot": "variante",
+        "fichier": "montre-acier-chiffres-3-6-9-explorateur-variante-red1.jpg"
+      },
+      {
+        "handle": "montre-acier-chiffres-3-6-9-explorateur",
+        "sku": "#White1",
+        "slot": "variante",
+        "fichier": "montre-acier-chiffres-3-6-9-explorateur-variante-white1.jpg"
+      }
+    ],
+    "sources": [
+      "boutique-seiko-mod/visuels-arabes-squelettes-2026-07-29/montre-acier-chiffres-3-6-9-explorateur-face.jpg",
+      "/Users/Hakim/Documents/Boutiques drop/scratchpad/backup-fournisseur-arabes-squelettes/montre-acier-chiffres-3-6-9-explorateur"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3"
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "Cadran 3-6-9 : les chiffres 3, 6 et 9 SONT le produit — ne jamais les retirer ni les remplacer par des index.",
+        "Image-to-image depuis la face validée : seul le coloris du cadran change entre les 6 visuels ; boîtier, aiguilles, bracelet acier 3 maillons identiques.",
+        "Le coloris de chaque code se lit sur les photos de variante du dossier fournisseur en source ; si l'appariement code↔photo reste ambigu pour un couple, rejeter l'entrée avec motif plutôt que deviner."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Zoom chiffre par chiffre sur 3, 6 et 9 pour chacun des 6 cadrans (formes, orientation, aucun texte).",
+        "Planche des 6 visuels côte à côte, ≥ 740 px par vignette, pour l'homogénéité de cadrage, de lumière et de coloris."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-explorateur-variantes-2026-07-31",
+      "manifeste": "manifeste-realise.json"
+    }
+  },
+  "notes": "Exemple VALIDE classe A — le besoin réel documenté (publication-grappes.md §6.4) : 6 visuels de variante pour lever les 6 couples indépartageables Black/Black1, Green/Green1, Blue/Blue1, Orange/Orange1, Red/Red1, White/White1 de l'Explorateur 3-6-9. Les `sku` sont les fragments discriminants du SKU fournisseur (ex. `14:200000080#Black1`) : le manifeste réalisé les reprend tels quels, l'appariement final au SKU complet se fait côté Claude Code par égalité stricte. Jamais d'ID de variante ni de média dans ce manifeste."
+}

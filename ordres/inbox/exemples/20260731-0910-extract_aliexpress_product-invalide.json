@@ -1,0 +1,10 @@
+{
+  "id": "codex-20260731-0910-invalide",
+  "type": "extract_aliexpress_product",
+  "created_at": "2026-07-31T09:10:00Z",
+  "requested_by": "codex",
+  "payload": {
+    "item_id": "1005012"
+  },
+  "notes": "Exemple INVALIDE volontaire : item_id tronqué à un préfixe (7 chiffres). Le validateur doit répondre INVALIDE — les préfixes reconstruits ont fabriqué de faux 404 (08 §1.2). Destination : rejetes/ avec motif."
+}
