@@ -279,6 +279,8 @@
 
 ### D-0731-B · Reprise TOTALE de l'orchestration par Codex (factory + DB Industrie) — supersède D-0731-A
 
+> ⚠️ **Supersédée le 31/07/2026 dans la nuit par D-0731-C (en fin de log)** : retour au partage initial, tranché par l'exploitation réelle.
+
 - **Date** : 31/07/2026 au soir (décision de Hakim). **[INFO HAKIM — brief de recadrage du 31/07]**
 - **Contexte** : (1) un **test de reprise concluant côté Hakim** — Codex a fait la preuve qu'il peut reprendre
   l'orchestration ; (2) volonté de Hakim d'**unifier l'orchestration chez Codex** pour toute la collaboration,
@@ -359,3 +361,10 @@
 6. **Cadrans orientaux** : réévaluer dans 6-8 semaines, ou trancher l'arbitrage « Automatic » (D-0730-N1).
 7. **Tuftéo** : publication suspendue au contrôle de l'échantillon (commande test du 19/07) — état au 30/07 [MANQUANT] dans les sources locales.
 8. **Filtres Search & Discovery** : iframe cross-origin non pilotable — les facettes du configurateur restent une action manuelle de Hakim.
+### D-0731-C · Retour au partage initial : Claude Code orchestrateur, Codex exécutant images via CLI — supersède D-0731-B
+
+- **Date** : 31/07/2026, dans la nuit (décision de Hakim, en conversation). **[INFO HAKIM]**
+- **Contexte** : le test de reprise par Codex était concluant sur la méthode (restitution 6 points, recadrage encaissé), mais l'exploitation réelle a tranché : **Codex accède à DSers mais y est beaucoup trop lent** (~5 min pour ouvrir l'interface, constat de Hakim) là où Claude Code opère vite via la session Chrome. En parallèle, la sonde du CLI Codex a prouvé la **génération d'images native (GPT Image 2) incluse dans l'abonnement**, invocable par `codex exec`, session partagée avec l'app — pont `ordres/generer-images.sh` câblé et testé le soir même **[FAIT — repo:ordres/generer-images.sh, commit 6a2ac04]**.
+- **Décision** : **Claude Code conserve l'orchestration complète et toute l'exécution navigateur** (AliExpress, DSers, Shopify). **Codex redevient exécutant de génération d'images uniquement**, via la boîte `ordres/pour-codex/` et le CLI. Ses instructions d'orchestrateur (17 §10) restent en place : elles resserviront si le partage évolue.
+- **Conséquences** : sens Claude → Codex **actif** (images) ; sens Codex → Claude **dormant** ; le doc 15 redevient la spec de l'exécutant ; DB Industrie reste orchestré par Claude Code (MC-6 inchangée). AliExpress headless : bloqué par reCAPTCHA au premier test réel (fail-closed conforme) — remède à l'étude : mode fenêtré + connexion unique de Hakim dans le profil dédié.
+- **Statut** : **actée**. Réévaluation si les performances navigateur de Codex changent.
