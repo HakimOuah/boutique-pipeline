@@ -8,6 +8,17 @@
 > routine. Les mentions « sur ordre de Claude Code » ci-dessous se lisent désormais « pour toute
 > génération d'images », l'auto-contrôle remplaçant l'ordre reçu.
 >
+> **Réactivation du rôle « sur ordre » via le CLI (31/07/2026, plus tard le même soir)** : le CLI Codex
+> est installé (`@openai/codex`, binaire `~/.npm-global/bin/codex`, session ChatGPT partagée via
+> `~/.codex/auth.json`) et son outil natif `image_generation` (GPT Image 2) est **vérifié fonctionnel en
+> non-interactif** (`codex exec`). La boîte `ordres/pour-codex/` est donc de nouveau servable **sans
+> relève manuelle** : Claude Code dépose des ordres et lance `bash ordres/generer-images.sh`, qui invoque
+> `codex exec` — un appel par ordre, sandbox `workspace-write` sur le dépôt, prompt renvoyant à CE
+> document (aucune duplication de la spec). Quand tu es invoqué ainsi, tout ce document s'applique au
+> sens littéral « sur ordre » : lecture de l'ordre transmis en `pour-codex/en-cours/`, écriture limitée à
+> `pour-codex/resultats/`, `pour-codex/rejetes/` et au dossier de livraison. Mécanique : `14` §9.4.
+> Les deux régimes coexistent : orchestrateur natif (D-0731-B) ET exécutant sur ordre via CLI.
+>
 > Créé le 2026-07-31 — décision **D-0731-A** (`05-DECISION-LOG.md`) : **Claude Code conserve l'orchestration
 > du projet et toute l'exécution navigateur ; Codex est exécutant de génération d'images, uniquement.**
 > Ce document est **autoportant** : c'est lui que Hakim transmet à Codex comme instructions permanentes.

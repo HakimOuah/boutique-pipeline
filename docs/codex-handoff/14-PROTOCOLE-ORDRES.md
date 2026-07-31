@@ -7,10 +7,11 @@
 > **Mise à jour du 31/07/2026 au soir (décision D-0731-B — `05-DECISION-LOG.md`, supersède D-0731-A)** :
 > **Codex orchestre, Claude Code exécute le navigateur.** Le sens d'origine de ce protocole (§1-§8 :
 > **Codex dépose des ordres navigateur dans `ordres/inbox/`, Claude Code valide et exécute**) est le sens
-> **actif**. Le sens inverse (§9 : Claude Code → Codex, ordres d'images `pour-codex/`) est **dormant** —
-> sans objet en routine, Codex générant ses images nativement selon la spécification
-> `15-CODEX-EXECUTANT-IMAGES.md` ; il resservirait tel quel si un autre exécutant d'images apparaissait.
-> Aucun contrat des deux sens n'est modifié par ce changement de régime.
+> **actif**. Le sens inverse (§9 : Claude Code → Codex, ordres d'images `pour-codex/`), un temps dormant,
+> est **réactivé depuis le 31/07 plus tard le même soir** : le **CLI Codex** (`codex exec`, génération
+> d'images native GPT Image 2 vérifiée) sert d'exécutant, dépouillement par `ordres/generer-images.sh`
+> (§9.4) — verrou dédié `ordres/.lock-codex`, parallèle au régime synchrone sans ressource partagée.
+> Aucun contrat des deux sens n'est modifié par ces changements de régime.
 
 ---
 
@@ -245,6 +246,12 @@ Toutes les règles de `08` partie 1 et `12` restent entières : fail-closed, com
 > **⚠️ Sens dormant depuis D-0731-B (31/07 au soir)** : Codex orchestre et génère ses images **nativement**
 > (spec `15`) — cette boîte n'est plus alimentée en routine. Contrat conservé tel quel, réactivable si un
 > autre exécutant d'images apparaissait.
+>
+> **✅ Sens RÉACTIVÉ (31/07, plus tard le même soir)** : le **CLI Codex** est installé et authentifié
+> (session ChatGPT partagée via `~/.codex/auth.json`), et son outil natif `image_generation` (GPT Image 2)
+> est **vérifié fonctionnel en non-interactif** — la boîte est servable sans relève manuelle via
+> `ordres/generer-images.sh` (§9.4). Les deux régimes coexistent : Codex-app orchestrateur génère
+> nativement (D-0731-B), ET Claude Code peut commander des images par ordres `generate_images`.
 
 ### 9.1 Arborescence et rôles
 
@@ -310,3 +317,38 @@ Exemple réaliste : `pour-codex/inbox/exemples/20260731-1200-generate_images-exp
 - Les rejets sont **propres** (fichier écarté + motif), jamais une image douteuse livrée en silence.
 - À réception, Claude Code contrôle les livrables (stérilité au zoom, orientation, fidélité) **avant** tout
   branchement : la QA de Codex ne remplace pas la vérification de l'exécutant Shopify.
+
+### 9.4 Mode d'appel — `ordres/generer-images.sh` (ajouté le 31/07/2026 au soir)
+
+Point d'entrée unique côté orchestrateur, symétrique de `traiter-inbox.sh` :
+
+```bash
+# 1. déposer le(s) ordre(s) generate_images dans ordres/pour-codex/inbox/
+# 2. lancer le dépouillement
+bash ordres/generer-images.sh
+# 3. lire pour-codex/resultats/<nom>.json (ou rejetes/<nom>.motif.json) + le dossier de livraison
+```
+
+Mécanique :
+
+- **Exécutant : CLI Codex** (`codex exec`, paquet npm `@openai/codex`, binaire `~/.npm-global/bin/codex` —
+  le script le retrouve même hors PATH). Authentification **partagée avec l'app Codex** via
+  `~/.codex/auth.json` (session ChatGPT) : si elle expire, action HAKIM : `codex login` — jamais un agent.
+  La génération est **native** (outil `image_generation`, GPT Image 2, inclus dans l'abonnement — aucune
+  clé API, aucune facturation séparée), vérifiée en non-interactif le 31/07.
+- **Verrou dédié `ordres/.lock-codex`** (30 min), distinct de `ordres/.lock` : les deux exécutants
+  tournent en parallèle, ils ne partagent aucune ressource. Mêmes règles : jamais forcé à la main.
+- **Un `codex exec` par ordre** (isolation), sandbox `workspace-write` sur le dépôt, prompt qui renvoie à
+  la spec `15` et à l'ordre — jamais de duplication de la spec dans le script.
+- **Cycle de vie tenu par le wrapper** (Claude Code est le déposant, §9.1) : validation
+  `valider_ordre.py` AVANT transmission (invalide → `rejetes/` + motif), puis `inbox/` → `en-cours/` →
+  archive en `resultats/<nom>.ordre.json` ou classement en `rejetes/` selon ce que Codex a réellement
+  écrit ; ni résultat ni motif → retour en `inbox/` et code 3. Idempotence par nom (§6).
+- **Journal** : `ordres/journal/codex-<horodatage>.log` (+ dernier message par ordre en
+  `codex-<nom>.last.txt`), hors git comme le reste du journal.
+- **Codes de sortie alignés sur `traiter-inbox.sh`** : 0 = dépouillement terminé (le succès PAR ORDRE se
+  lit dans la boîte, jamais ici) ; 2 = verrou frais, attendre ; 3 = échec de lancement/session.
+
+Validé de bout en bout le 31/07 avec un ordre de test à source volontairement manquante : rejet propre
+(`status: "rejected"`, motif « source manquante », aucune génération) — le chemin nominal de génération
+native, lui, est vérifié séparément (carré de test unique via `codex exec`).

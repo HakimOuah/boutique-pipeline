@@ -14,6 +14,8 @@ __pycache__/
 
 # verrou transitoire du régime synchrone (ordres/traiter-inbox.sh)
 /ordres/.lock
+# verrou transitoire de l'exécutant Codex images (ordres/generer-images.sh)
+/ordres/.lock-codex
 
 /ordres/journal/*
 !/ordres/journal/.gitkeep

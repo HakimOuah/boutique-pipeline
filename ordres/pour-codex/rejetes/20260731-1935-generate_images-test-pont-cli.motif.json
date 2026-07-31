@@ -1,0 +1,20 @@
+{
+  "id": "claude-20260731-1935-test-pont-cli",
+  "status": "rejected",
+  "payload": {
+    "manifeste_realise": [],
+    "rejets": [
+      {
+        "fichier": "test-pont-cli-face.jpg",
+        "motif": "source manquante : tmp/test-pont-codex/source-inexistante-volontairement.jpg"
+      }
+    ],
+    "sujets_difficiles": []
+  },
+  "journal": [
+    "Ordre valide de classe A ; source locale requise absente.",
+    "Aucune génération lancée, aucune image créée et aucune donnée devinée."
+  ],
+  "executed_at": "2026-07-31T18:31:21Z",
+  "executor": "codex-2026-07-31"
+}
