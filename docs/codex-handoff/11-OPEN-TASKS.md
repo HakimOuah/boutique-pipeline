@@ -253,6 +253,12 @@
 - **Espacement des en-têtes d'accordéon** (reliquat cibles tactiles 44 px) [FAIT — passe-coherence-avant-publication.md §8.2].
 - **Priorité** : P1 pour monétaire/paiement/canal, P2 le reste. **Validation humaine** : **oui** (réglages de compte).
 
+### BIZ-11 — Ré-authentifier le CLI `claude` pour activer le régime synchrone
+- **Description** : le régime synchrone du protocole d'ordres (`14` §7.1, `ordres/traiter-inbox.sh`) est construit et testé jusqu'au lancement, mais la session headless `claude -p` répond `401 authentication_error : OAuth access token has expired` — jeton OAuth du CLI expiré depuis le 18/07/2026 (l'app de bureau a sa propre authentification, distincte). Le script diagnostique ce cas (code 3 + cause en clair dans la sortie et `ordres/journal/`). Geste : lancer `claude` en interactif dans un terminal et se reconnecter (`/login`), puis rejouer un ordre de test invalide pour la preuve de bout en bout. [FAIT — repo:ordres/journal/20260731-172752.log]
+- **Priorité** : P1 (bloquant pour l'autonomie de la boucle Codex → Claude Code en synchrone ; les régimes manuel et planifié restent utilisables en session interactive).
+- **Critères d'acceptation** : `bash ordres/traiter-inbox.sh` avec un ordre invalide en inbox → code 0, ordre déplacé en `rejetes/` avec `.motif.json`, journal écrit.
+- **Statut** : ouvert. **Outil** : Hakim (terminal). **Validation humaine** : **oui** (saisie d'identifiants = domaine réservé).
+
 ---
 
 ## 6. Migration Codex

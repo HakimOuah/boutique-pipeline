@@ -11,3 +11,6 @@ __pycache__/
 !/data/inbox/.gitkeep
 /reports/*
 !/reports/.gitkeep
+
+# verrou transitoire du régime synchrone (ordres/traiter-inbox.sh)
+/ordres/.lock

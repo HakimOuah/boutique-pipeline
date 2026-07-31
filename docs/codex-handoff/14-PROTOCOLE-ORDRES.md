@@ -156,9 +156,69 @@ suppressions, publication. Le navigateur est une ressource unique : rien
 d'autre ne doit l'utiliser pendant le dépouillement.
 ```
 
-**Deux régimes possibles** :
+**Trois régimes possibles** :
 1. **Lancement manuel** par Hakim quand Codex signale des ordres en attente (régime par défaut).
 2. **Planification** — une tâche récurrente (type `/loop` ou tâche programmée) qui lance ce prompt à intervalle régulier. **Aucune tâche planifiée n'est créée par ce protocole** ; si Hakim en veut une, elle devra conserver le verrou `en-cours/` et la règle d'exécutant unique.
+3. **Régime synchrone** — Codex lance lui-même le dépouillement et attend le résultat (§7.1). Les régimes 1 et 2 restent valables tels quels.
+
+### 7.1 Régime synchrone — `ordres/traiter-inbox.sh` (ajouté le 31/07/2026)
+
+Un seul point d'entrée, appelé par Codex depuis la racine du dépôt :
+
+```
+bash ordres/traiter-inbox.sh
+```
+
+**La boucle côté Codex** : déposer l'ordre dans `inbox/` → appeler le script → à code 0, lire
+`resultats/<nom>.json` (ou `rejetes/<nom>.motif.json`, ou `attente-hakim/`) → enchaîner.
+
+**Ce que fait le script** :
+- **Verrou d'exécutant unique** : `ordres/.lock` (PID + horodatage), posé avant `claude -p`, retiré
+  dans tous les cas (trap). Verrou frais (< 30 min) déjà présent → sortie **code 2** sans rien lancer.
+  Verrou périmé (> 30 min) → signalé et remplacé. Ce verrou protège le *lancement* ; le verrou de
+  facto `en-cours/` du §5 reste la protection au niveau des ordres.
+- Inbox vide (hors `exemples/`) → **code 0**, « rien à traiter ».
+- Sinon : lance une session **`claude -p` headless** avec le prompt de dépouillement canonique du §7
+  (référencé, jamais dupliqué), le répertoire de travail forcé sur le dépôt, et une liste
+  `--allowedTools` **fermée** : lecture/écriture/édition de fichiers, Glob/Grep, Bash restreint
+  (validateur `valider_ordre.py`, `mv`/`cp`/`ls`/`mkdir` dans `ordres/`, `date`), outils MCP Shopify en
+  lecture + la mutation de classe B `update-product`. **Aucun outil navigateur en v1.**
+- Sortie journalisée dans `ordres/journal/<horodatage>.log`.
+
+**Codes de sortie** — ils disent que le dépouillement a tourné, **jamais** le succès des ordres :
+
+| Code | Sens |
+|---|---|
+| 0 | Dépouillement terminé (ou rien à traiter). Le statut PAR ORDRE se lit dans `resultats/` / `rejetes/` / `attente-hakim/`. |
+| 2 | Exécutant déjà actif (verrou frais). **Attendre et réessayer — jamais forcer le verrou.** |
+| 3 | Échec du lancement (binaire `claude` introuvable ou session sortie en erreur) — voir le journal. |
+
+**Prérequis d'authentification** : le CLI `claude` doit être authentifié en propre (session interactive,
+`/login`) — l'authentification du CLI est **distincte** de celle de l'app de bureau. Jeton OAuth expiré →
+code 3 avec `401 authentication_error` dans le journal ; la ré-authentification est un **geste de Hakim,
+jamais de Codex** (constaté le 31/07/2026 : jeton CLI expiré depuis le 18/07, headless incapable de se
+ré-authentifier seul — le script diagnostique ce cas et l'écrit en clair).
+
+**La limite honnête du headless** : en session `claude -p`, **les outils de navigateur et la session
+Chrome connectée de Hakim ne sont pas garantis** (et les outils MCP Shopify ne le sont que si un
+serveur MCP `shopify` est configuré pour le CLI). Le prompt du script l'encode : un ordre qui exige
+un navigateur ou une session absente produit un résultat **`failed` fail-closed** avec
+`payload.statut = "BLOQUE"` et `payload.erreur.motif = "requires_interactive_session"` — jamais de
+contournement, jamais de donnée inventée. Codex sait lire ce motif : c'est un signal de routage,
+pas une erreur du protocole — re-déposer ne sert à rien tant qu'une session interactive n'a pas
+traité l'ordre (re-dépôt = nouvel `id`, §6).
+
+**Types d'ordres fiables en synchrone vs à traiter en session interactive** :
+
+| Fiable en régime synchrone | À traiter en session interactive (avec Chrome connecté) |
+|---|---|
+| Validation, rejet (`rejetes/` + motif) | `search_aliexpress_products` |
+| Routage classe C → `attente-hakim/` (+ `awaiting_human`) | `extract_aliexpress_product` |
+| Contrôle d'idempotence, doublons | `compare_aliexpress_suppliers` |
+| `verify_shopify_product`, `update_shopify_product` (API Shopify, si MCP configuré) | `import_product_to_dsers`, `configure_dsers_variants`, `push_dsers_product_to_shopify`, `verify_supplier_mapping` |
+
+Cette répartition vaut **tant que le serveur MCP navigateur local n'existe pas** ; le jour où la
+session headless dispose d'un navigateur fiable, elle sera revue ici.
 
 ## 8. Ce que ce protocole ne change pas
 

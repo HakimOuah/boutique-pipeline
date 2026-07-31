@@ -29,6 +29,9 @@ Conservé en place mais plus alimenté en régime normal (`14` en-tête) ; contr
 - `resultats/` — enveloppe de résultat au même nom (+ ordre archivé en `.ordre.json`).
 - `rejetes/` — ordres invalides ou hors contrat (+ motif en `.motif.json`).
 - `attente-hakim/` — classe C : jamais exécuté sans validation humaine.
+- `traiter-inbox.sh` — **régime synchrone** (`14` §7.1) : Codex dépose puis lance `bash ordres/traiter-inbox.sh`
+  et lit `resultats/`. Verrou `.lock` (code 2 = attendre, jamais forcer), journal dans `journal/`.
+- `journal/` — sorties des dépouillements headless (`<horodatage>.log`).
 
 ## Validation (les deux sens)
 

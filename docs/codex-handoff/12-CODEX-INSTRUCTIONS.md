@@ -99,6 +99,20 @@ Mécanique complète : `14-PROTOCOLE-ORDRES.md`.
   contrat `generate_images` (`14` §9) restent en place, **utilisables si un autre exécutant d'images
   apparaissait** un jour.
 - Auto-contrôle d'un ordre (les deux sens) : `/usr/bin/python3 ordres/valider_ordre.py <fichier>`.
+- **Régime synchrone (31/07)** — Codex peut lancer lui-même le dépouillement et attendre le résultat
+  (`14` §7.1) :
+  1. Déposer l'ordre dans `ordres/inbox/` (auto-contrôlé par `valider_ordre.py` d'abord).
+  2. `bash ordres/traiter-inbox.sh` depuis la racine du dépôt.
+  3. À code 0, lire `ordres/resultats/<nom>.json` (ou `rejetes/<nom>.motif.json`, ou `attente-hakim/`)
+     puis enchaîner. Le code de sortie dit que le dépouillement a tourné, **jamais** le succès des ordres.
+  - ⚠️ **Code 2 = un exécutant est déjà actif : attendre et réessayer, JAMAIS forcer ni supprimer le
+    verrou `ordres/.lock`.** Code 3 = échec de lancement → lire `ordres/journal/<horodatage>.log`.
+  - ⚠️ **Un résultat `failed` se lit avant tout redépôt.** En particulier, le motif
+    `requires_interactive_session` signifie que l'ordre exige le navigateur/Chrome connecté : le
+    re-déposer en synchrone ne servira à rien — il attend une session interactive (Hakim). Tout
+    redépôt légitime = **nouvel `id`** (`14` §6).
+  - Fiables en synchrone : validation/rejet, routage classe C, ordres API Shopify (si MCP configuré).
+    AliExpress et DSers restent du ressort d'une session interactive (`14` §7.1, tableau).
 
 ## 8. Git et journalisation
 
