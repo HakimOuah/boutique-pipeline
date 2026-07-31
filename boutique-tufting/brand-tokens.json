@@ -1,0 +1,30 @@
+{
+  "brand": {
+    "name": "Tuftéo",
+    "baseline": "Ton premier tapis, guidé pas à pas.",
+    "_statut": "VALIDÉ PORTE 1 par Hakim le 19/07/2026 (nom + palette + typo)"
+  },
+  "colors": {
+    "background": "#FAF4EC",
+    "text": "#3D2C24",
+    "accent": "#C4593B",
+    "accent_text": "#FFFFFF",
+    "secondary": "#8FA98F"
+  },
+  "typography": {
+    "heading": "Fraunces",
+    "subheading": "Fraunces",
+    "body": "Nunito Sans"
+  },
+  "tone": {
+    "register": "tutoiement chaleureux et encourageant (persona Camille, validé 19/07)",
+    "avoid": [
+      "révolutionnaire",
+      "incroyable",
+      "unique au monde",
+      "meilleur",
+      "jargon technique sans traduction en bénéfice",
+      "fausse urgence"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" role="img" aria-label="Tuftéo — proposition B : le o pelote de laine">
+  <!-- DRAFT B 19/07/2026 — concept alternatif : wordmark brun, « o » final en pelote de laine terracotta. -->
+  <rect width="640" height="200" fill="#FAF4EC"/>
+  <!-- Wordmark (le o est dessiné, pas typographié) -->
+  <text x="60" y="126" font-family="Fraunces, Georgia, serif" font-weight="600" font-size="84" fill="#3D2C24">tufté</text>
+  <!-- o : pelote de laine -->
+  <circle cx="303" cy="99" r="24" fill="none" stroke="#C4593B" stroke-width="12"/>
+  <path d="M 289 91 q 14 6 28 2" fill="none" stroke="#8FA98F" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M 290 107 q 13 -5 26 -1" fill="none" stroke="#8FA98F" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- brin qui s'échappe de la pelote, retombe sous la ligne de base -->
+  <path d="M 310 121 q 2 16 -12 22" fill="none" stroke="#C4593B" stroke-width="5.5" stroke-linecap="round"/>
+  <!-- Baseline -->
+  <text x="62" y="166" font-family="'Nunito Sans', 'Trebuchet MS', sans-serif" font-weight="400" font-size="20" fill="#3D2C24" letter-spacing="0.4">Ton premier tapis, guidé pas à pas.</text>
+</svg>

@@ -1,0 +1,206 @@
+{%- liquid
+  assign selected_variant = product.selected_or_first_available_variant
+  assign installment_count = section.settings.installment_count | at_least: 2
+  assign installment_amount = selected_variant.price | divided_by: installment_count
+-%}
+
+<section
+  class="dp-purchase-support"
+  style="--dp-accent: {{ section.settings.accent_color }}; --dp-icon-bg: {{ section.settings.icon_background }}; --dp-text: {{ section.settings.text_color }}; --dp-surface: {{ section.settings.surface_color }};"
+>
+  {%- if section.settings.show_installments and selected_variant != blank -%}
+    <div class="dp-purchase-support__installments" aria-label="{{ 'dropilot.installments.accessible_label' | t }}">
+      <span>{{ 'dropilot.installments.prefix' | t: count: installment_count }}</span>
+      <strong>{{ installment_amount | money }}</strong>
+      <span>{{ 'dropilot.installments.with' | t }}</span>
+      <span class="dp-purchase-support__provider">{{ section.settings.provider_one }}</span>
+      {%- if section.settings.provider_two != blank -%}
+        <span>{{ 'dropilot.installments.and' | t }}</span>
+        <span class="dp-purchase-support__provider dp-purchase-support__provider--secondary">{{ section.settings.provider_two }}</span>
+      {%- endif -%}
+    </div>
+  {%- endif -%}
+
+  {%- if section.blocks.size > 0 -%}
+    <ul class="dp-purchase-support__benefits" role="list">
+      {%- for block in section.blocks -%}
+        <li class="dp-purchase-support__benefit" {{ block.shopify_attributes }}>
+          <span class="dp-purchase-support__icon">{% render 'dp-icon', name: block.settings.icon %}</span>
+          <span>{{ block.settings.text }}</span>
+        </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+  {%- if section.settings.show_shipping -%}
+    <div class="dp-purchase-support__shipping">
+      <span class="dp-purchase-support__shipping-message">
+        <span class="dp-purchase-support__status" aria-hidden="true"></span>
+        {{ 'dropilot.shipping.estimated_range' | t: minimum: section.settings.delivery_min_days, maximum: section.settings.delivery_max_days }}
+      </span>
+      {%- if section.settings.free_shipping -%}
+        <strong>{{ 'dropilot.shipping.free' | t }}</strong>
+      {%- endif -%}
+    </div>
+  {%- endif -%}
+</section>
+
+{% stylesheet %}
+  .dp-purchase-support {
+    color: var(--dp-text);
+    display: grid;
+    gap: 24px;
+    width: 100%;
+  }
+
+  .dp-purchase-support__installments {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.95rem;
+    gap: 6px;
+    line-height: 1.35;
+  }
+
+  .dp-purchase-support__installments strong {
+    font-size: 1.05rem;
+  }
+
+  .dp-purchase-support__provider {
+    background: #ffffff;
+    border: 1px solid color-mix(in srgb, var(--dp-text) 18%, transparent);
+    border-radius: 6px;
+    color: var(--dp-accent);
+    font-weight: 750;
+    padding: 4px 9px;
+  }
+
+  .dp-purchase-support__provider--secondary {
+    background: color-mix(in srgb, var(--dp-accent) 14%, #ffffff);
+  }
+
+  .dp-purchase-support__benefits {
+    display: grid;
+    gap: 14px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .dp-purchase-support__benefit {
+    align-items: center;
+    display: grid;
+    font-size: 1rem;
+    gap: 14px;
+    grid-template-columns: 44px minmax(0, 1fr);
+    line-height: 1.4;
+  }
+
+  .dp-purchase-support__icon {
+    align-items: center;
+    background: var(--dp-icon-bg);
+    border-radius: 999px;
+    color: var(--dp-accent);
+    display: flex;
+    height: 44px;
+    justify-content: center;
+    width: 44px;
+  }
+
+  .dp-purchase-support__icon svg {
+    fill: none;
+    height: 22px;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.8;
+    width: 22px;
+  }
+
+  .dp-purchase-support__shipping {
+    align-items: center;
+    background: var(--dp-surface);
+    border-radius: 10px;
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    padding: 12px 16px;
+  }
+
+  .dp-purchase-support__shipping-message {
+    align-items: center;
+    display: inline-flex;
+    gap: 9px;
+  }
+
+  .dp-purchase-support__status {
+    background: var(--dp-accent);
+    border-radius: 999px;
+    height: 10px;
+    width: 10px;
+  }
+
+  @media (max-width: 479px) {
+    .dp-purchase-support {
+      gap: 20px;
+    }
+
+    .dp-purchase-support__shipping {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 7px;
+    }
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "t:dropilot.purchase_support.name",
+  "tag": "div",
+  "class": "dp-section",
+  "max_blocks": 6,
+  "settings": [
+    {"type": "checkbox", "id": "show_installments", "label": "t:dropilot.purchase_support.show_installments", "default": true},
+    {"type": "range", "id": "installment_count", "label": "t:dropilot.purchase_support.installment_count", "min": 2, "max": 12, "step": 1, "default": 4},
+    {"type": "text", "id": "provider_one", "label": "t:dropilot.purchase_support.provider_one", "default": "PayPal"},
+    {"type": "text", "id": "provider_two", "label": "t:dropilot.purchase_support.provider_two", "default": "Klarna"},
+    {"type": "checkbox", "id": "show_shipping", "label": "t:dropilot.purchase_support.show_shipping", "default": true},
+    {"type": "range", "id": "delivery_min_days", "label": "t:dropilot.purchase_support.delivery_min", "min": 1, "max": 30, "step": 1, "default": 4},
+    {"type": "range", "id": "delivery_max_days", "label": "t:dropilot.purchase_support.delivery_max", "min": 2, "max": 45, "step": 1, "default": 8},
+    {"type": "checkbox", "id": "free_shipping", "label": "t:dropilot.purchase_support.free_shipping", "default": true},
+    {"type": "color", "id": "accent_color", "label": "t:dropilot.common.accent_color", "default": "#0E3A5A"},
+    {"type": "color", "id": "icon_background", "label": "t:dropilot.common.icon_background", "default": "#EAF3F1"},
+    {"type": "color", "id": "text_color", "label": "t:dropilot.common.text_color", "default": "#1C2830"},
+    {"type": "color", "id": "surface_color", "label": "t:dropilot.common.surface_color", "default": "#F1F1F1"}
+  ],
+  "blocks": [
+    {
+      "type": "benefit",
+      "name": "t:dropilot.purchase_support.benefit",
+      "settings": [
+        {"type": "select", "id": "icon", "label": "t:dropilot.common.icon", "options": [
+          {"value": "drop", "label": "t:dropilot.icons.drop"},
+          {"value": "wrench", "label": "t:dropilot.icons.wrench"},
+          {"value": "leaf", "label": "t:dropilot.icons.leaf"},
+          {"value": "sparkle", "label": "t:dropilot.icons.sparkle"},
+          {"value": "shield", "label": "t:dropilot.icons.shield"},
+          {"value": "check", "label": "t:dropilot.icons.check"}
+        ], "default": "check"},
+        {"type": "text", "id": "text", "label": "t:dropilot.common.text", "default": "Bénéfice client"}
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:dropilot.purchase_support.name",
+      "blocks": [
+        {"type": "benefit", "settings": {"icon": "drop", "text": "Eau filtrée à la demande, sans réservoir"}},
+        {"type": "benefit", "settings": {"icon": "wrench", "text": "S’installe sous l’évier, sans plombier"}},
+        {"type": "benefit", "settings": {"icon": "leaf", "text": "Rejet optimisé 2:1 — moins de gaspillage d’eau"}},
+        {"type": "benefit", "settings": {"icon": "sparkle", "text": "Une eau plus agréable au goût"}}
+      ]
+    }
+  ]
+}
+{% endschema %}
+

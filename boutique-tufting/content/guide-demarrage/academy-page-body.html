@@ -1,0 +1,142 @@
+<div class="tuf-ac">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600&family=Caveat:wght@600;700&display=swap');
+.tuf-ac{max-width:840px;margin:0 auto;padding:8px 4px 40px;color:#1C1410;font-size:17px;line-height:1.6;}
+.tuf-ac h1,.tuf-ac h2,.tuf-ac h3{font-family:'Fraunces',Georgia,serif;line-height:1.08;letter-spacing:-.01em;color:#1C1410;}
+.tuf-ac .feutre{font-style:italic;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 12' preserveAspectRatio='none'><path d='M3 9 C 20 3, 45 3, 60 7 S 100 11, 117 5' fill='none' stroke='%23FFD23F' stroke-width='6' stroke-linecap='round'/></svg>");background-repeat:no-repeat;background-position:0 94%;background-size:100% .34em;padding-bottom:.05em;}
+.tuf-ac .ac-sticker{display:inline-block;transform:rotate(-3deg);background:#FFD23F;color:#1C1410;border:2.5px solid #1C1410;border-radius:13px;padding:5px 15px;font-weight:800;font-size:15px;box-shadow:3px 3px 0 #1C1410;}
+.tuf-ac .ac-hand{font-family:'Caveat',cursive;font-weight:600;color:#E8542F;font-size:26px;line-height:1;margin:14px 0 0;}
+.tuf-ac .ac-hero{text-align:center;padding:26px 16px 8px;}
+.tuf-ac .ac-hero h1{font-size:52px;font-weight:700;margin:18px 0 0;}
+.tuf-ac .ac-hero h1 em{color:#E8542F;font-style:italic;}
+.tuf-ac .ac-lead{font-size:19px;max-width:560px;margin:14px auto 0;color:#4a3f38;}
+.tuf-ac .ac-dl{display:inline-block;margin:22px 0 6px;background:#E8542F;color:#fff;font-weight:800;font-size:18px;text-decoration:none;padding:15px 26px;border-radius:14px;border:2.5px solid #1C1410;box-shadow:4px 4px 0 #1C1410;transition:transform .15s,box-shadow .15s;}
+.tuf-ac .ac-dl:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 #1C1410;}
+.tuf-ac .ac-dl small{display:block;font-weight:600;font-size:12px;opacity:.85;}
+.tuf-ac figure{margin:26px 0;text-align:center;}
+.tuf-ac figure img{max-width:100%;border:3px solid #1C1410;border-radius:16px;}
+.tuf-ac .ac-sec{margin:38px 0;padding:0 16px;}
+.tuf-ac .ac-sec>h2{font-size:32px;font-weight:700;margin-bottom:6px;}
+.tuf-ac .ac-kicker{font-family:'Caveat',cursive;color:#2D5BFF;font-size:22px;font-weight:600;margin:0 0 16px;}
+.tuf-ac .ac-checks{display:grid;grid-template-columns:1fr 1fr;gap:6px 24px;list-style:none;padding:0;margin:10px 0;}
+.tuf-ac .ac-checks li{position:relative;padding-left:30px;margin:7px 0;}
+.tuf-ac .ac-checks li::before{content:"✓";position:absolute;left:0;top:-1px;color:#2D5BFF;font-weight:900;font-size:20px;}
+.tuf-ac .ac-step{display:flex;gap:18px;align-items:flex-start;padding:18px 0;border-bottom:2px dashed #e4d9cb;}
+.tuf-ac .ac-step:last-child{border-bottom:0;}
+.tuf-ac .ac-num{font-family:'Caveat',cursive;font-weight:700;font-size:58px;line-height:.7;flex-shrink:0;width:44px;text-align:center;}
+.tuf-ac .c1{color:#E8542F;}.tuf-ac .c2{color:#2D5BFF;}.tuf-ac .c3{color:#E6A100;}.tuf-ac .c4{color:#5f7a5f;}.tuf-ac .c5{color:#E8542F;}.tuf-ac .c6{color:#2D5BFF;}.tuf-ac .c7{color:#5f7a5f;}
+.tuf-ac .ac-step h3{font-size:22px;margin:6px 0 4px;}
+.tuf-ac .ac-step p{margin:0 0 8px;}
+.tuf-ac .ac-tip{background:#fff;border:2.5px solid #1C1410;border-radius:14px;padding:12px 16px;box-shadow:4px 4px 0 #1C1410;margin:10px 0 2px;position:relative;}
+.tuf-ac .ac-tip b{color:#E8542F;}
+.tuf-ac .ac-tip.klein{background:#eef2ff;}
+.tuf-ac .ac-step figure{margin:12px 0 4px;text-align:left;}
+.tuf-ac .ac-step figure img{max-height:230px;}
+.tuf-ac .ac-errors{background:#FFF3E4;border:2.5px solid #1C1410;border-radius:20px;padding:24px 22px;box-shadow:6px 6px 0 #1C1410;}
+.tuf-ac .ac-errors ol{margin:14px 0 0;padding-left:0;list-style:none;counter-reset:err;}
+.tuf-ac .ac-errors li{counter-increment:err;position:relative;padding:9px 0 9px 44px;border-top:1.5px dashed #d8c3a5;}
+.tuf-ac .ac-errors li:first-child{border-top:0;}
+.tuf-ac .ac-errors li::before{content:counter(err);position:absolute;left:0;top:8px;background:#E8542F;color:#fff;font-weight:800;width:28px;height:28px;border-radius:8px;display:flex;align-items:center;justify-content:center;border:2px solid #1C1410;}
+.tuf-ac .ac-end{margin:40px 16px 0;background:#1C1410;color:#FDF8EF;border-radius:22px;padding:32px 28px;text-align:center;}
+.tuf-ac .ac-end h2{color:#fff;font-size:28px;}
+.tuf-ac .ac-end a{color:#FFD23F;font-weight:700;}
+.tuf-ac .ac-end .ac-dl{background:#FFD23F;color:#1C1410;border-color:#FDF8EF;box-shadow:4px 4px 0 rgba(255,255,255,.25);}
+@media(max-width:640px){
+  .tuf-ac{font-size:16px;}
+  .tuf-ac .ac-hero h1{font-size:38px;}
+  .tuf-ac .ac-lead{font-size:17px;}
+  .tuf-ac .ac-sec>h2{font-size:26px;}
+  .tuf-ac .ac-checks{grid-template-columns:1fr;}
+  .tuf-ac .ac-num{font-size:46px;width:34px;}
+  .tuf-ac .ac-step{gap:12px;}
+}
+</style>
+
+<header class="ac-hero">
+  <span class="ac-sticker">Gratuit · pour bien débuter</span>
+  <h1>La Tuftéo <em>Academy</em></h1>
+  <p class="ac-lead">Apprends le tufting pas à pas, en français. De la toile tendue au tapis fini — chaque geste expliqué, sans jargon.</p>
+  <a class="ac-dl" href="https://cdn.shopify.com/s/files/1/0953/2774/8481/files/Guide-demarrage-Tufteo.pdf?v=1784729988" target="_blank" rel="noopener">⬇ Télécharger le guide de démarrage<small>PDF · 10 pages · gratuit</small></a>
+  <p class="ac-hand">on commence ensemble &rarr;</p>
+</header>
+
+<figure><img src="https://cdn.shopify.com/s/files/1/0953/2774/8481/files/tufteo-infographie-4-etapes.png?v=1784683640" alt="Ta pièce en 4 étapes : tendre, tufter, encoller, tondre"></figure>
+
+<section class="ac-sec">
+  <h2>Ce dont tu as <span class="feutre">besoin</span></h2>
+  <p class="ac-kicker">tout est dans ton kit, sauf le cadre</p>
+  <ul class="ac-checks">
+    <li>Ton pistolet à tufter 2-en-1 (Cut &amp; Loop)</li>
+    <li>Une tondeuse de finition + guide de tonte</li>
+    <li>De la toile primaire (avec lignes de guidage)</li>
+    <li>Des ciseaux pélican pour les finitions</li>
+    <li>Des cônes de fil, plusieurs couleurs</li>
+    <li>De la colle textile + une spatule</li>
+    <li>Un enfile-aiguille</li>
+    <li>Un cadre solide + bandes de préhension</li>
+  </ul>
+</section>
+
+<section class="ac-sec">
+  <h2>Ta première pièce, <span class="feutre">pas à pas</span></h2>
+
+  <div class="ac-step"><span class="ac-num c1">1</span><div>
+    <h3>Prépare ton cadre &amp; tends ta toile</h3>
+    <p>Fixe ta toile sur un cadre rigide avec les bandes de préhension, en gardant 10 cm de marge tout autour. Tends-la comme une peau de tambour : quand tu tapotes, ça doit résonner.</p>
+    <div class="ac-tip"><b>Le réflexe :</b> pendant que tu tuftes, la toile se détend. Retends-la régulièrement — une toile molle, c'est la cause n°1 des pièces ratées.</div>
+  </div></div>
+
+  <div class="ac-step"><span class="ac-num c2">2</span><div>
+    <h3>Reporte ton motif</h3>
+    <p>Choisis une forme simple, deux ou trois couleurs franches. Dessine ton motif au marqueur du côté où tu passes le gun — souviens-toi : <strong>tu tuftes à l'envers</strong>, le beau côté se forme derrière.</p>
+  </div></div>
+
+  <div class="ac-step"><span class="ac-num c3">3</span><div>
+    <h3>Enfile &amp; règle ton gun</h3>
+    <p>Passe le fil par l'arrière jusqu'à la pointe (laisse dépasser 1 cm), règle la hauteur de poil et démarre lentement. Tiens le gun bien perpendiculaire à la toile, à plat, et avance sans forcer : c'est la machine qui travaille.</p>
+    <figure><img src="https://cdn.shopify.com/s/files/1/0953/2774/8481/files/tufteo-infographie-anatomie-gun.png?v=1784683640" alt="Anatomie du pistolet à tufter"></figure>
+    <div class="ac-tip klein"><b>Piège :</b> trop vite, l'aiguille saute des points ; en biais, les poils partent de travers. Lent et droit gagne à tous les coups au début.</div>
+  </div></div>
+
+  <div class="ac-step"><span class="ac-num c4">4</span><div>
+    <h3>Tufte : Cut &amp; Loop</h3>
+    <p>Ton gun fait deux rendus : <strong>Cut</strong> (poils coupés, effet velours) et <strong>Loop</strong> (boucles fermées, effet texturé). Fais d'abord les contours d'une zone, puis remplis en lignes parallèles bien collées — pas de blanc entre deux couleurs.</p>
+    <figure><img src="https://cdn.shopify.com/s/files/1/0953/2774/8481/files/tufteo-infographie-cut-loop.png?v=1784683639" alt="Cut effet velours vs Loop effet texturé"></figure>
+  </div></div>
+
+  <div class="ac-step"><span class="ac-num c5">5</span><div>
+    <h3>Encolle le dos</h3>
+    <p>Motif terminé, dépoussière le dos puis applique une couche régulière de colle textile à la spatule. Laisse sécher complètement (plusieurs heures) : c'est ce qui verrouille chaque boucle. Ne saute jamais cette étape.</p>
+  </div></div>
+
+  <div class="ac-step"><span class="ac-num c6">6</span><div>
+    <h3>Découpe &amp; finis les bords</h3>
+    <p>Décolle du cadre, découpe en laissant 2 à 3 cm de marge. Replie et colle le bord, ou colle une toile de renfort sur tout l'arrière pour un rendu abouti et protéger ton sol.</p>
+  </div></div>
+
+  <div class="ac-step"><span class="ac-num c7">7</span><div>
+    <h3>Tonds &amp; sculpte</h3>
+    <p>Avec la tondeuse, égalise la surface par passes légères, puis sculpte du relief en raccourcissant certaines zones. Vas-y doucement : on peut toujours couper plus, jamais recoller.</p>
+  </div></div>
+</section>
+
+<section class="ac-sec">
+  <div class="ac-errors">
+    <h2>Les 5 erreurs <span class="feutre">à éviter</span></h2>
+    <ol>
+      <li><strong>Toile pas assez tendue.</strong> La cause n°1 des ratés. Retends dès que ça mollit.</li>
+      <li><strong>Aller trop vite.</strong> L'aiguille saute des points. Ralentis, la vitesse vient seule.</li>
+      <li><strong>Lignes trop espacées.</strong> Le tapis devient transparent et se déchire. Colle tes passes.</li>
+      <li><strong>Oublier de vérifier le recto.</strong> On corrige une erreur pendant, jamais après l'encollage.</li>
+      <li><strong>Encoller sans dépoussiérer.</strong> La colle n'accroche pas sur les peluches. Brosse d'abord.</li>
+    </ol>
+  </div>
+</section>
+
+<section class="ac-end">
+  <h2>Un doute, une question ?</h2>
+  <p>On te répond en français, avant comme après ton achat — écris-nous à <a href="mailto:contact@tufteo.com">contact@tufteo.com</a>. Et garde le guide sous la main :</p>
+  <a class="ac-dl" href="https://cdn.shopify.com/s/files/1/0953/2774/8481/files/Guide-demarrage-Tufteo.pdf?v=1784729988" target="_blank" rel="noopener">⬇ Le guide de démarrage en PDF</a>
+</section>
+
+</div>

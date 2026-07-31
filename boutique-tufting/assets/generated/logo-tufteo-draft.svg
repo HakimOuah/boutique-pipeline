@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" role="img" aria-label="Tuftéo — Ton premier tapis, guidé pas à pas.">
+  <!-- DRAFT v2 19/07/2026 — placeholder en attendant le logo final (Canva).
+       Police par référence : Fraunces (Google Fonts) doit être chargée par la page hôte. -->
+  <rect width="640" height="200" fill="#FAF4EC"/>
+  <!-- Wordmark -->
+  <text x="60" y="126" font-family="Fraunces, Georgia, serif" font-weight="600" font-size="84" fill="#C4593B">tuft</text>
+  <text x="219" y="126" font-family="Fraunces, Georgia, serif" font-weight="600" font-size="84" fill="#C4593B">eo</text>
+  <!-- Accent du é : boucle de laine ouverte, brin qui file vers la droite -->
+  <path d="M 247 70 a 10 10 0 1 1 4 -13" fill="none" stroke="#8FA98F" stroke-width="6.5" stroke-linecap="round"/>
+  <path d="M 247 70 q 11 5 22 -1" fill="none" stroke="#8FA98F" stroke-width="5.5" stroke-linecap="round" opacity="0.9"/>
+  <!-- Baseline -->
+  <text x="62" y="166" font-family="'Nunito Sans', 'Trebuchet MS', sans-serif" font-weight="400" font-size="20" fill="#3D2C24" letter-spacing="0.4">Ton premier tapis, guidé pas à pas.</text>
+</svg>

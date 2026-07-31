@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Nunito+Sans:wght@400;600;700;800&family=Caveat:wght@600;700&display=swap');
+
+:root{
+  --ink:#1C1410; --terra:#E8542F; --jaune:#FFD23F; --klein:#2D5BFF;
+  --creme:#FDF8EF; --sauge:#8FA98F; --paper:#FFFFFF;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+@page{ size:A4; margin:0; }
+html{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+body{ font-family:'Nunito Sans',sans-serif; color:var(--ink); background:var(--creme); font-size:11.2pt; line-height:1.6; }
+
+.page{
+  position:relative; width:210mm; min-height:297mm; padding:20mm 18mm 22mm;
+  background:var(--creme); overflow:hidden; page-break-after:always;
+}
+.page:last-child{ page-break-after:auto; }
+.step-head,.two,.toc-item,.end-card,figure,.astuce,.big-quote,.mat-grid{ break-inside:avoid; page-break-inside:avoid; }
+
+h1,h2,h3{ font-family:'Fraunces',serif; line-height:1.06; letter-spacing:-.01em; }
+em{ font-style:italic; }
+
+/* souligné feutre */
+.feutre{ font-style:italic; position:relative; white-space:nowrap;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 12' preserveAspectRatio='none'><path d='M3 9 C 20 3, 45 3, 60 7 S 100 11, 117 5' fill='none' stroke='%23FFD23F' stroke-width='6' stroke-linecap='round'/></svg>");
+  background-repeat:no-repeat; background-position:0 96%; background-size:100% .34em; padding-bottom:.06em; }
+
+/* sticker */
+.sticker{ display:inline-block; transform:rotate(-3deg); background:var(--jaune); color:var(--ink);
+  border:2.5px solid var(--ink); border-radius:13px; padding:5px 15px; font-family:'Nunito Sans';
+  font-weight:800; font-size:11pt; box-shadow:3px 3px 0 var(--ink); }
+.sticker.klein{ background:var(--klein); color:#fff; }
+.sticker.terra{ background:var(--terra); color:#fff; }
+
+/* main */
+.hand{ font-family:'Caveat',cursive; font-weight:600; color:var(--terra); font-size:21pt; line-height:1; }
+.hand.klein{ color:var(--klein); }
+
+/* ---------- COUVERTURE ---------- */
+.cover{ background:var(--creme); display:flex; flex-direction:column; padding:0; }
+.cover-top{ padding:24mm 18mm 0; }
+.cover-kicker{ display:flex; align-items:center; gap:14px; margin-bottom:20px; }
+.cover-logo{ font-family:'Fraunces'; font-weight:700; font-size:20pt; letter-spacing:-.02em; }
+.cover-logo b{ color:var(--terra); }
+.cover h1{ font-size:52pt; font-weight:700; margin:6px 0 0; }
+.cover h1 .l2{ display:block; color:var(--terra); }
+.cover-sub{ font-size:14pt; max-width:150mm; margin-top:16px; color:#4a3f38; }
+.cover-hand{ margin:18px 0 0; }
+.cover-img{ margin-top:auto; width:100%; height:135mm; object-fit:cover; border-top:5px solid var(--ink); }
+.cover-foot{ position:absolute; bottom:0; left:0; right:0; background:var(--ink); color:var(--creme);
+  padding:9px 18mm; font-weight:700; font-size:10pt; display:flex; justify-content:space-between; }
+.cover-foot b{ color:var(--jaune); }
+
+/* ---------- BANDEAUX / DIVERS ---------- */
+.frange{ position:relative; height:12px; margin:0 -18mm; }
+.frange::after{ content:""; position:absolute; left:0;right:0;top:0; height:12px;
+  background:radial-gradient(circle at 11px -4px, var(--terra) 10px, transparent 11px) repeat-x; background-size:22px 12px; }
+
+.step-head{ display:flex; align-items:flex-start; gap:16px; margin-bottom:14px; }
+.step-num{ font-family:'Caveat',cursive; font-weight:700; font-size:56pt; line-height:.7; }
+.c-terra{color:var(--terra);} .c-klein{color:var(--klein);} .c-jaune{color:#E6A100;} .c-sauge{color:#5f7a5f;}
+.step-head h2{ font-size:26pt; font-weight:700; padding-top:4px; }
+.step-head .eyebrow{ font-family:'Nunito Sans'; font-weight:800; text-transform:uppercase; letter-spacing:.12em;
+  font-size:8.5pt; color:var(--terra); display:block; margin-bottom:2px; }
+
+p{ margin-bottom:9px; }
+.lead{ font-size:12pt; }
+strong{ font-weight:800; }
+ul.clean{ list-style:none; margin:8px 0 12px; }
+ul.clean li{ position:relative; padding-left:24px; margin-bottom:7px; }
+ul.clean li::before{ content:""; position:absolute; left:2px; top:8px; width:9px; height:9px;
+  background:var(--terra); border-radius:2px; transform:rotate(-8deg); }
+ul.check li::before{ content:"✓"; background:none; color:var(--klein); font-weight:900; font-size:13pt; top:0; left:0; transform:none; }
+
+.astuce{ background:#fff; border:2.5px solid var(--ink); border-radius:16px; padding:28px 18px 14px 16px;
+  margin:24px 0 16px; box-shadow:4px 4px 0 var(--ink); position:relative; }
+.astuce .tag{ position:absolute; top:-13px; left:16px; }
+.astuce p{ margin:0; }
+.astuce.piege{ background:#FFF3E4; }
+
+figure{ margin:14px 0; text-align:center; }
+figure img{ display:block; margin:0 auto; max-width:100%; max-height:84mm; width:auto; height:auto;
+  border:3px solid var(--ink); border-radius:14px; }
+figure.small img{ max-height:72mm; }
+figcaption{ font-family:'Caveat',cursive; font-size:15pt; color:#6a5c52; text-align:center; margin-top:6px; }
+
+.pagefoot{ position:absolute; bottom:12mm; left:18mm; right:18mm; display:flex; justify-content:space-between;
+  align-items:center; font-size:8.5pt; color:#9a8d82; font-weight:700; border-top:1.5px solid #e4d9cb; padding-top:7px; }
+.pagefoot b{ color:var(--terra); }
+
+.two{ display:flex; gap:18px; }
+.two > div{ flex:1; }
+
+/* sommaire */
+.toc-item{ display:flex; align-items:baseline; gap:12px; padding:6px 0; border-bottom:1.5px dashed #ddd0c1; }
+.toc-num{ font-family:'Caveat'; font-weight:700; font-size:22pt; color:var(--terra); width:34px; }
+.toc-t{ font-family:'Fraunces'; font-weight:600; font-size:13.5pt; }
+.toc-t small{ display:block; font-family:'Nunito Sans'; font-weight:600; font-size:9.5pt; color:#8a7d72; }
+
+.mat-grid{ display:grid; grid-template-columns:1fr 1fr; gap:10px 22px; margin-top:6px; }
+
+.big-quote{ font-family:'Fraunces'; font-style:italic; font-weight:500; font-size:17pt; line-height:1.3;
+  color:var(--ink); border-left:5px solid var(--jaune); padding-left:16px; margin:12px 0; }
+
+.end-card{ background:var(--ink); color:var(--creme); border-radius:20px; padding:26px 28px; margin-top:14px; }
+.end-card h3{ color:#fff; font-size:19pt; margin-bottom:8px; }
+.end-card a,.end-card b{ color:var(--jaune); }
+.end-cta{ display:inline-block; margin-top:12px; background:var(--jaune); color:var(--ink); font-weight:800;
+  padding:9px 20px; border-radius:12px; box-shadow:3px 3px 0 rgba(255,255,255,.25); transform:rotate(-2deg); }
+</style>
+</head>
+<body>
+
+<!-- ============ COUVERTURE ============ -->
+<section class="page cover">
+  <div class="cover-top">
+    <div class="cover-kicker">
+      <span class="cover-logo">Tuft<b>éo</b></span>
+      <span class="sticker">Guide offert</span>
+    </div>
+    <h1>Ta première pièce,<span class="l2">pas à pas.</span></h1>
+    <p class="cover-sub">Le guide de démarrage tufting de Tuftéo — de la toile tendue au tapis fini, chaque geste expliqué en français, sans jargon.</p>
+    <p class="cover-hand"><span class="hand">on commence ensemble &rarr;</span></p>
+  </div>
+  <img class="cover-img" src="img/hero.png" alt="Atelier tufting">
+  <div class="cover-foot"><span>tufteo.com</span><span>Guide de démarrage · <b>édition 1</b></span></div>
+</section>
+
+<!-- ============ SOMMAIRE + MATÉRIEL ============ -->
+<section class="page">
+  <span class="sticker terra">Avant de commencer</span>
+  <h2 style="font-size:30pt;margin:16px 0 4px;">Au programme</h2>
+  <p class="hand klein" style="margin-bottom:14px;">tout ce qu'il te faut, dans l'ordre</p>
+
+  <div class="toc-item"><span class="toc-num">1</span><span class="toc-t">Prépare ton cadre &amp; tends ta toile <small>l'étape que 90 % des débutants bâclent</small></span></div>
+  <div class="toc-item"><span class="toc-num">2</span><span class="toc-t">Reporte ton motif <small>tufter en miroir, sans se tromper de côté</small></span></div>
+  <div class="toc-item"><span class="toc-num">3</span><span class="toc-t">Enfile &amp; règle ton gun <small>le geste qui bloque tout le monde au début</small></span></div>
+  <div class="toc-item"><span class="toc-num">4</span><span class="toc-t">Tufte : Cut &amp; Loop <small>remplir, contourner, changer de couleur</small></span></div>
+  <div class="toc-item"><span class="toc-num">5</span><span class="toc-t">Encolle le dos <small>la finition qui fait tout tenir</small></span></div>
+  <div class="toc-item"><span class="toc-num">6</span><span class="toc-t">Découpe &amp; finis les bords <small>un tapis propre au dos comme au dessus</small></span></div>
+  <div class="toc-item"><span class="toc-num">7</span><span class="toc-t">Tonds &amp; sculpte <small>égaliser la surface, créer du relief</small></span></div>
+
+  <h3 style="font-size:16pt;margin:22px 0 2px;">Ce dont tu as besoin</h3>
+  <p style="color:#8a7d72;margin-bottom:8px;font-weight:600;">Tout est dans ton kit Tuftéo, sauf le cadre (voir étape 1).</p>
+  <div class="mat-grid">
+    <ul class="clean check">
+      <li>Ton pistolet à tufter 2-en-1 (Cut &amp; Loop)</li>
+      <li>De la toile primaire (avec lignes de guidage)</li>
+      <li>Des cônes de fil, plusieurs couleurs</li>
+      <li>Un enfile-aiguille</li>
+    </ul>
+    <ul class="clean check">
+      <li>Une tondeuse de finition + guide de tonte</li>
+      <li>Des ciseaux pélican (finitions)</li>
+      <li>De la colle textile + une spatule</li>
+      <li>Un cadre solide + bandes de préhension</li>
+    </ul>
+  </div>
+
+  <p style="margin-top:12px;color:#8a7d72;font-weight:600;">Prévois aussi un <strong style="color:var(--ink)">marqueur</strong> et une <strong style="color:var(--ink)">brosse</strong> — rien d'obligatoire à racheter tout de suite.</p>
+
+  <div class="pagefoot"><span>Tuft<b>éo</b> · Guide de démarrage</span><span>02</span></div>
+</section>
+
+<!-- ============ ÉTAPE 1 ============ -->
+<section class="page">
+  <div class="step-head"><span class="step-num c-terra">1</span><div><span class="eyebrow">La fondation</span><h2>Prépare ton cadre &amp; <span class="feutre">tends ta toile</span></h2></div></div>
+
+  <p class="lead">Si tu ne retiens qu'une chose de ce guide, c'est celle-ci : <strong>une toile mal tendue = une pièce ratée.</strong> Ton aiguille a besoin d'une surface ferme, tendue comme une peau de tambour, pour percer proprement et déposer un poil régulier.</p>
+
+  <h3 style="font-size:14pt;margin:14px 0 4px;">Le cadre</h3>
+  <p>Fixe ta toile sur un cadre en bois rigide à l'aide des <strong>bandes de préhension</strong> (les picots agrippent le tissu) ou d'agrafes solides. Le cadre doit être plus grand que ton motif : garde <strong>au moins 10 cm de marge</strong> tout autour pour pouvoir tendre et tenir la pièce.</p>
+
+  <h3 style="font-size:14pt;margin:14px 0 4px;">La bonne tension</h3>
+  <p>Tire la toile depuis le centre vers les bords, puis fixe en croix (haut, bas, gauche, droite) avant de compléter les angles. Quand tu tapotes dessus, ça doit <strong>résonner</strong>. Pendant que tu tuftes, la toile se détend un peu : <strong>retends-la régulièrement</strong>.</p>
+
+  <div class="astuce piege"><span class="tag sticker terra">Piège de débutant</span>
+    <p>Une toile qui « gondole » ou qui s'enfonce quand l'aiguille passe, c'est le signe n°1 d'une tension insuffisante. Tu obtiendras des boucles inégales et des accrocs. Retends <em>avant</em> de continuer, jamais après.</p></div>
+
+  <div class="pagefoot"><span>Tuft<b>éo</b> · Guide de démarrage</span><span>03</span></div>
+</section>
+
+<!-- ============ ÉTAPE 2 ============ -->
+<section class="page">
+  <div class="step-head"><span class="step-num c-klein">2</span><div><span class="eyebrow">Le plan de route</span><h2>Reporte <span class="feutre">ton motif</span></h2></div></div>
+
+  <p class="lead">Choisis un motif simple pour ta première pièce : une forme pleine, deux ou trois couleurs franches. Les dégradés et les petits détails viendront plus tard.</p>
+
+  <div class="big-quote">Tu tuftes à <em>l'envers</em>. Le côté sur lequel tu travailles, c'est le dos de ton tapis — le beau côté se forme derrière.</div>
+
+  <p>Dessine ton motif au marqueur directement sur la toile, du côté où tu vas passer le gun. <strong>Pense-le en miroir</strong> si tu as du texte ou une forme asymétrique. Trace des traits épais et bien visibles : tu les suivras à travers le bruit de la machine.</p>
+
+  <ul class="clean">
+    <li>Commence par les <strong>contours</strong> de chaque zone de couleur.</li>
+    <li>Espace tes lignes de tuftage d'environ la largeur de l'aiguille — ni trop serré (ça bourre), ni trop lâche (le tapis devient transparent).</li>
+    <li>Repère à l'avance par où tu vas remplir, pour ne pas te retrouver coincé dans un coin.</li>
+  </ul>
+
+  <div class="astuce"><span class="tag sticker klein">Astuce d'atelier</span>
+    <p>Retourne ta toile et vérifie le <strong>recto</strong> toutes les quelques minutes. C'est le seul moyen de voir le vrai rendu et de repérer un trou ou une couleur qui déborde <em>pendant</em> que c'est encore rattrapable.</p></div>
+
+  <div class="pagefoot"><span>Tuft<b>éo</b> · Guide de démarrage</span><span>04</span></div>
+</section>
+
+<!-- ============ ÉTAPE 3 ============ -->
+<section class="page">
+  <div class="step-head"><span class="step-num c-jaune">3</span><div><span class="eyebrow">La prise en main</span><h2>Enfile &amp; <span class="feutre">règle ton gun</span></h2></div></div>
+
+  <p class="lead">C'est le moment qui intimide — et celui qui se règle en une fois. Une fois le fil en place et le bon geste trouvé, tu ne réfléchis plus.</p>
+
+  <figure class="small"><img src="img/anatomie.png" alt="Anatomie du pistolet à tufter">
+    <figcaption>Repère les 4 zones avant de démarrer</figcaption></figure>
+
+  <div class="two">
+    <div>
+      <h3 style="font-size:13.5pt;margin:6px 0 4px;">Enfiler</h3>
+      <p>Passe le fil par l'arrière du gun, guide-le avec l'enfile-aiguille jusqu'à la pointe, et laisse dépasser environ <strong>1 cm</strong>. Un fil mal engagé = un point sauté : prends ton temps sur les premiers.</p>
+    </div>
+    <div>
+      <h3 style="font-size:13.5pt;margin:6px 0 4px;">Régler</h3>
+      <p>Ajuste la hauteur de poil et la vitesse selon ta machine. Démarre <strong>lentement</strong> : tu prendras de la vitesse quand le geste sera fluide.</p>
+    </div>
+  </div>
+
+  <h3 style="font-size:13.5pt;margin:12px 0 4px;">Le geste</h3>
+  <p>Tiens le gun <strong>perpendiculaire</strong> à la toile, à plat contre le tissu. Avance en poussant régulièrement, sans forcer : c'est la machine qui travaille. Ne repasse pas deux fois au même endroit.</p>
+
+  <div class="astuce piege"><span class="tag sticker terra">Piège de débutant</span>
+    <p>Trop vite, l'aiguille bourre et saute des points ; en biais, les poils partent de travers. <em>Lent et droit</em> bat <em>rapide et penché</em> à tous les coups au début.</p></div>
+
+  <div class="pagefoot"><span>Tuft<b>éo</b> · Guide de démarrage</span><span>05</span></div>
+</section>
+
+<!-- ============ ÉTAPE 4 ============ -->
+<section class="page">
+  <div class="step-head"><span class="step-num c-sauge">4</span><div><span class="eyebrow">Le cœur du sujet</span><h2>Tufte : <span class="feutre">Cut &amp; Loop</span></h2></div></div>
+
+  <p class="lead">Ton gun 2-en-1 fait deux rendus. Comprends-les, et tu choisis l'effet de chaque zone.</p>
+
+  <figure><img src="img/cutloop.png" alt="Cut vs Loop"></figure>
+
+  <div class="two">
+    <div><h3 style="font-size:13.5pt;color:var(--terra);margin-bottom:2px;">Cut — effet velours</h3>
+      <p>Les poils sont coupés : surface dense, douce, moderne. Idéal pour les grandes zones et un rendu net.</p></div>
+    <div><h3 style="font-size:13.5pt;color:#5f7a5f;margin-bottom:2px;">Loop — effet texturé</h3>
+      <p>Les boucles restent fermées : rendu plus « fait main », un relief qui accroche la lumière. Parfait pour les détails.</p></div>
+  </div>
+
+  <h3 style="font-size:13.5pt;margin:12px 0 4px;">Remplir proprement</h3>
+  <ul class="clean">
+    <li>Fais d'abord le <strong>contour</strong> d'une zone, puis remplis l'intérieur en <strong>lignes parallèles</strong> collées les unes aux autres.</li>
+    <li>Pour changer de couleur, coupe le fil, ressors-le à l'arrière, et démarre la nouvelle zone bien contre la précédente — <strong>pas de blanc entre deux couleurs</strong>.</li>
+    <li>Recule régulièrement pour juger l'ensemble : c'est un marathon de petites zones, pas un sprint.</li>
+  </ul>
+
+  <div class="pagefoot"><span>Tuft<b>éo</b> · Guide de démarrage</span><span>06</span></div>
+</section>
+
+<!-- ============ LES ERREURS ============ -->
+<section class="page">
+  <span class="sticker">Le mémo qui sauve ta première pièce</span>
+  <h2 style="font-size:28pt;margin:16px 0 4px;">Les 5 erreurs <span class="feutre">à éviter</span></h2>
+  <p class="hand" style="margin-bottom:16px;">tout le monde les fait — toi, tu es prévenu</p>
+
+  <div class="astuce piege" style="margin:10px 0;"><span class="tag sticker terra">1</span>
+    <p><strong>Toile pas assez tendue.</strong> La cause n°1 des ratés. Retends dès que ça mollit.</p></div>
+  <div class="astuce piege" style="margin:10px 0;"><span class="tag sticker terra">2</span>
+    <p><strong>Aller trop vite.</strong> L'aiguille saute des points. Ralentis, la vitesse vient seule.</p></div>
+  <div class="astuce piege" style="margin:10px 0;"><span class="tag sticker terra">3</span>
+    <p><strong>Lignes trop espacées.</strong> Le tapis devient transparent et se déchire. Colle tes passes.</p></div>
+  <div class="astuce piege" style="margin:10px 0;"><span class="tag sticker terra">4</span>
+    <p><strong>Oublier de vérifier le recto.</strong> On corrige une erreur pendant, jamais après l'encollage.</p></div>
+  <div class="astuce piege" style="margin:10px 0;"><span class="tag sticker terra">5</span>
+    <p><strong>Encoller sans dépoussiérer.</strong> La colle n'accroche pas sur les peluches. Brosse d'abord.</p></div>
+
+  <div class="pagefoot"><span>Tuft<b>éo</b> · Guide de démarrage</span><span>07</span></div>
+</section>
+
+<!-- ============ ÉTAPE 5 ============ -->
+<section class="page">
+  <div class="step-head"><span class="step-num c-terra">5</span><div><span class="eyebrow">Ce qui fige ton travail</span><h2>Encolle <span class="feutre">le dos</span></h2></div></div>
+
+  <p class="lead">Sans colle, tout ce que tu viens de tufter peut s'arracher. Cette étape verrouille chaque boucle. Ne la saute jamais.</p>
+
+  <ul class="clean">
+    <li>Quand ton motif est terminé, <strong>dépoussière</strong> le dos (aspirateur ou brosse) : la colle a besoin d'une surface propre.</li>
+    <li>Applique une <strong>couche régulière de colle textile</strong> sur tout l'arrière (le côté que tu as tufté), en l'étalant à la spatule. Couvre bien les bords.</li>
+    <li>Laisse <strong>sécher complètement</strong> — souvent plusieurs heures, à plat. Patiente : une colle encore humide décolle tout.</li>
+  </ul>
+
+  <div class="astuce"><span class="tag sticker klein">Astuce d'atelier</span>
+    <p>Une couche <em>fine et homogène</em> tient mieux qu'une grosse couche baveuse qui traverse vers l'avant. Si tu vois la colle ressortir entre les poils du recto, tu en as trop mis.</p></div>
+
+  <p>Une fois sèche, ta pièce est solide : tu peux la décoller du cadre sans crainte.</p>
+
+  <div class="pagefoot"><span>Tuft<b>éo</b> · Guide de démarrage</span><span>08</span></div>
+</section>
+
+<!-- ============ ÉTAPE 6 + 7 ============ -->
+<section class="page">
+  <div class="step-head"><span class="step-num c-klein">6</span><div><span class="eyebrow">La touche pro</span><h2>Découpe &amp; <span class="feutre">finis les bords</span></h2></div></div>
+
+  <p>Décolle la pièce du cadre. Découpe autour de ton motif en laissant <strong>2 à 3 cm de marge</strong>. Deux façons de finir :</p>
+  <ul class="clean">
+    <li><strong>Replier &amp; coller</strong> : rabats la marge de toile sur l'arrière et colle-la — bords nets, rapide.</li>
+    <li><strong>Toile de renfort</strong> : colle un tissu de dossage sur tout l'arrière pour cacher l'envers et protéger le sol. Plus abouti.</li>
+  </ul>
+
+  <div class="frange" style="margin:16px -18mm;"></div>
+
+  <div class="step-head" style="margin-top:18px;"><span class="step-num c-sauge">7</span><div><span class="eyebrow">Le grand final</span><h2>Tonds &amp; <span class="feutre">sculpte</span></h2></div></div>
+
+  <p>Avec ta tondeuse de finition, <strong>égalise la surface</strong> par passes légères pour un rendu régulier. Tu peux ensuite <strong>sculpter du relief</strong> : raccourcis certaines zones pour créer des niveaux, détacher un motif, adoucir un contour. Avance doucement — on peut toujours couper plus, jamais recoller.</p>
+
+  <div class="astuce"><span class="tag sticker klein">Astuce d'atelier</span>
+    <p>Le guide de tonte maintient une hauteur constante : commence avec, tu improviseras à main levée quand l'œil sera fait.</p></div>
+
+  <div class="pagefoot"><span>Tuft<b>éo</b> · Guide de démarrage</span><span>09</span></div>
+</section>
+
+<!-- ============ ENTRETIEN + FIN ============ -->
+<section class="page">
+  <span class="sticker terra">Pour que ta machine dure</span>
+  <h2 style="font-size:26pt;margin:16px 0 10px;">Entretenir <span class="feutre">ton matériel</span></h2>
+  <ul class="clean">
+    <li><strong>Huile</strong> les points de graissage régulièrement pendant l'utilisation — reporte-toi à la fiche de ta machine pour l'intervalle exact. Une machine bien huilée dure des années.</li>
+    <li><strong>Débranche</strong> toujours avant de manipuler l'aiguille ou de déloger un fil coincé.</li>
+    <li><strong>Dépoussière</strong> le mécanisme après chaque session : les peluches sont l'ennemi n°1.</li>
+  </ul>
+
+  <div class="end-card">
+    <h3>Et maintenant ?</h3>
+    <p>Tu as les bases. La suite — motifs, dégradés, reliefs avancés, dépannage — t'attend dans la <b>Tuftéo Academy</b>, nos guides en ligne gratuits, accessibles à vie.</p>
+    <p style="margin-top:8px;">Un doute, une question, un point de blocage ? Écris-nous, on répond en français : <b>contact@tufteo.com</b></p>
+    <span class="end-cta">Rejoins l'Academy → tufteo.com/pages/apprendre</span>
+  </div>
+
+  <p style="text-align:center;margin-top:26px;"><span class="hand" style="font-size:26pt;">Bon tufting — et fais-toi plaisir&nbsp;!</span></p>
+
+  <div class="pagefoot"><span>Tuft<b>éo</b> · tufteo.com</span><span>10</span></div>
+</section>
+
+</body>
+</html>
