@@ -1,0 +1,27 @@
+mutation AssignVariantMedia(
+  $productId: ID!
+  $variants: [ProductVariantsBulkInput!]!
+) {
+  productVariantsBulkUpdate(
+    productId: $productId
+    variants: $variants
+    allowPartialUpdates: false
+  ) {
+    productVariants {
+      id
+      sku
+      media(first: 10) {
+        nodes {
+          id
+          alt
+          status
+        }
+      }
+    }
+    userErrors {
+      field
+      message
+      code
+    }
+  }
+}

@@ -1,0 +1,12 @@
+set -e
+curl -s -o /dev/null -w "%{http_code} %{header_json}" -X POST "https://shopify-staged-uploads.storage.googleapis.com/" \
+ -F "Content-Type=text/css" \
+ -F "success_action_status=201" \
+ -F "acl=private" \
+ -F "key=tmp/109418938706/files/bb286223-b206-467b-928b-a734442b2dd9/noirmont-tap-focus.css" \
+ -F "x-goog-date=20260727T034948Z" \
+ -F "x-goog-credential=merchant-assets@shopify-tiers.iam.gserviceaccount.com/20260727/auto/storage/goog4_request" \
+ -F "x-goog-algorithm=GOOG4-RSA-SHA256" \
+ -F "x-goog-signature=27352997418f0a3b2f26bba825ee1eb1c5a09cb41e8fc837be0a0174c5d69e7835a61d0863a6dc197cd71f45a41cebd1f5a873b720d2af6bad685c9caf0d11bcba173576a8951aceb4032a6d341083d4f31a778029080fd451d17e18bff6307998636d0d2ca7996fbe8405a5856c661d165ccf5200940a9f0d5e2184fa39822531f2fbde0531b84238d7c1b5a89cc58924cc5a7412b6971d625a436ceaaf8b708807b06f1a77b45a3feb6565588702ea2c6e3547c547df7c7dc122f6adebb4a91135246a41a5a7b1401de8836dc874f77425ba19b689a70b8aed834617c6e5727fc7f5ce85b3c4b91b89d5309b566ca93712e396a9b97485d9b9f8bdbe02bc24" \
+ -F "policy=eyJjb25kaXRpb25zIjpbeyJDb250ZW50LVR5cGUiOiJ0ZXh0XC9jc3MifSx7InN1Y2Nlc3NfYWN0aW9uX3N0YXR1cyI6IjIwMSJ9LHsiYWNsIjoicHJpdmF0ZSJ9LFsiY29udGVudC1sZW5ndGgtcmFuZ2UiLDEsMjA5NzE1MjBdLHsiYnVja2V0Ijoic2hvcGlmeS1zdGFnZWQtdXBsb2FkcyJ9LHsia2V5IjoidG1wXC8xMDk0MTg5Mzg3MDZcL2ZpbGVzXC9iYjI4NjIyMy1iMjA2LTQ2N2ItOTI4Yi1hNzM0NDQyYjJkZDlcL25vaXJtb250LXRhcC1mb2N1cy5jc3MifSx7IngtZ29vZy1kYXRlIjoiMjAyNjA3MjdUMDM0OTQ4WiJ9LHsieC1nb29nLWNyZWRlbnRpYWwiOiJtZXJjaGFudC1hc3NldHNAc2hvcGlmeS10aWVycy5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbVwvMjAyNjA3MjdcL2F1dG9cL3N0b3JhZ2VcL2dvb2c0X3JlcXVlc3QifSx7IngtZ29vZy1hbGdvcml0aG0iOiJHT09HNC1SU0EtU0hBMjU2In1dLCJleHBpcmF0aW9uIjoiMjAyNi0wNy0yOFQwMzo0OTo0OFoifQ==" \
+ -F "file=@noirmont-tap-focus.NEW.css"

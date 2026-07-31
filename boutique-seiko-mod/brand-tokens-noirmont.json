@@ -1,0 +1,94 @@
+{
+  "brand": "NOIRMONT",
+  "version": "2.0 — 2026-07-25 (arbitrage Hakim : aspiration d'abord)",
+  "positioning": "Votre signature au poignet — aspiration (allure, assurance, statut) en front ; réassurance en coulisse (PDP/FAQ) ; aucune promesse de délai absolue",
+  "tone": "vouvoiement, aspiration et allure d'abord, factuel en second niveau",
+  "colors": {
+    "noir-encre": "#0B0B0C",
+    "craie": "#FAFAF7",
+    "pierre": "#E7E4DE",
+    "graphite": "#55524C",
+    "vert-jura": "#1E3A2F",
+    "laiton": "#A98E5F"
+  },
+  "color-rules": {
+    "accent-usage": "vert-jura uniquement aux points de décision (CTA, prix, confirmation)",
+    "laiton-usage": "filets et détails fins seulement (étoiles, index), jamais en aplat",
+    "coverage": "≥90% de la page en craie/pierre/encre"
+  },
+  "fonts": {
+    "display": {
+      "family": "Bodoni Moda",
+      "source": "Google Fonts",
+      "usage": "titres, wordmark",
+      "letter-spacing-wordmark": "0.14em",
+      "weights": [
+        400,
+        500
+      ]
+    },
+    "ui": {
+      "family": "Inter",
+      "source": "Google Fonts",
+      "usage": "texte courant, UI",
+      "weights": [
+        400,
+        500,
+        600
+      ]
+    },
+    "data": {
+      "family": "Space Grotesk",
+      "source": "Google Fonts",
+      "usage": "prix, specs, nomenclature, résumé config"
+    }
+  },
+  "type-scale-px": {
+    "h1": [
+      44,
+      56
+    ],
+    "h2": 32,
+    "h3": 22,
+    "body": 16,
+    "caption": 13
+  },
+  "logo": {
+    "wordmark": "NOIRMONT — Bodoni Moda capitales, letter-spacing 0.14em",
+    "monogram": "N dans cercle fin (boîtier) + index 12h laiton, trait 1.5pt",
+    "generation-brief": "Minimal luxury watch brand monogram: letter N inside a thin perfect circle, small vertical index mark at 12 o'clock in brass (#A98E5F), black ink (#0B0B0C) on off-white (#FAFAF7), engraved-style thin strokes, flat vector, no gradients, centered, generous whitespace."
+  },
+  "ui": {
+    "button-radius-px": 2,
+    "button-primary": {
+      "bg": "#1E3A2F",
+      "text": "#FAFAF7"
+    },
+    "button-secondary": {
+      "border": "1px solid #0B0B0C",
+      "text": "#0B0B0C",
+      "bg": "transparent"
+    },
+    "card": {
+      "bg": "#FAFAF7",
+      "border": "1px solid #E7E4DE",
+      "image-ratio": "1:1"
+    },
+    "stars": "#A98E5F",
+    "shadows": "none",
+    "gradients": "none"
+  },
+  "imagery": {
+    "signature": "nomenclature / vue éclatée étiquetée",
+    "style": "macro 45° et flat lay, fond pierre clair chaud, lumière latérale douce, ombres nettes courtes, ratio 1:1",
+    "higgsfield-discipline": "image-to-image depuis photos fournisseur uniquement ; pas de mannequins IA ; fidélité produit obligatoire"
+  },
+  "forbidden": [
+    "« assemblée en France » / « atelier français »",
+    "logos ou noms de marques tierces sur produits, visuels, titres de collections",
+    "promesses de délai absolues tant que la logistique n'est pas éprouvée",
+    "réassurance en étendard (« sans logo », « sans mensonge » en hero)",
+    "superlatifs creux, fausse rareté, comptes à rebours artificiels",
+    "promesses d'inserts physiques (tout bonus = numérique)"
+  ]
+}

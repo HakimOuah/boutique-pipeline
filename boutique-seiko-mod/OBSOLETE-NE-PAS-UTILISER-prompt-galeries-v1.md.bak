@@ -1,0 +1,413 @@
+# Prompt à envoyer à Codex — galeries complètes NOIRMONT
+
+> Copier-coller le bloc ci-dessous tel quel. Il est autoportant.
+> Pré-requis avant envoi : avoir peuplé `entrees-faces/` (voir §5 de `audit-visuel-catalogue.md`).
+
+---
+
+Tu reprends le chantier d'images produit de la boutique **Maison Noirmont** (montres Seiko mod haut de gamme, France, panier 30 à 430 €). Le catalogue compte 92 fiches actives. Neuf d'entre elles ont une galerie complète ; les 85 autres n'ont qu'une ou deux images. Le client se retrouve devant une fiche à une seule photo à côté d'une fiche à sept : c'est ce saut de cohérence qu'il faut supprimer.
+
+**Ta mission : produire 390 fichiers image sur le disque, et un manifeste. Rien d'autre.**
+
+---
+
+## ⛔ Interdictions absolues
+
+1. **Ne te connecte pas à Shopify.** Pas d'API Admin, pas de GraphQL, pas de `stagedUploadsCreate`, pas de `productCreateMedia`, pas de token, pas de CLI Shopify, pas de requête vers `cdn.shopify.com`. Tu ne lis rien et tu n'écris rien sur la boutique. Le branchement des images sera fait à la main, après toi.
+2. **Ne modifie aucun SKU**, nulle part, y compris dans tes propres fichiers. Un SKU porte la chaîne d'attributs AliExpress (`14:175#9;5:56964930#…`) et conditionne le mapping DSers. Tu le recopies caractère pour caractère, jamais tu ne le normalises, ne le nettoies ni ne le tronques. Certains SKU contiennent des **doubles espaces** : conserve-les.
+3. **N'invente aucune caractéristique produit.** Pas de résistance à l'eau, pas de référence de mouvement, pas de dimension que tu n'as pas reçue explicitement ci-dessous.
+4. **Pas d'inpainting.** Voir la règle de stérilité.
+
+---
+
+## Ce que tu produis
+
+Deux choses, et seulement elles :
+
+- **`sortie/` — 390 fichiers JPEG**, 2048 × 2048, qualité 90, nommés `<handle>-<slot>.jpg`.
+- **`manifeste-galeries.json`** — index de ces fichiers.
+
+Sur ces 390 fichiers, **215 sont des générations par modèle** et **175 sont des compositions typographiques faites par ton propre code**. Ne confonds jamais les deux catégories : c'est la première cause d'échec de ce chantier.
+
+---
+
+## 1. Le standard : les 7 emplacements
+
+| Slot | Nom de fichier | Ce que c'est | Comment tu le fabriques |
+|---|---|---|---|
+| 1 | `01-face` | Produit seul, cadré, fond minéral | **Fourni.** Tu ne le produis pas. |
+| 2 | `02-situation` | La montre au poignet, décor aspirationnel | **Génération**, image-to-image depuis `01-face` |
+| 3 | `03-carte-carac` | Face + cartouche typographique | **Ton code** (Pillow), par-dessus `01-face` |
+| 4 | `04-geste` | Main sur la couronne, la lunette ou le poussoir | **Génération**, image-to-image depuis `01-face` |
+| 5 | `05-macro` | Zoom matières, index, finitions | **Génération**, image-to-image depuis `01-face` |
+| 6 | `06-carte-preuve` | Face + bandeau note / avis / garantie | **Ton code**, par-dessus `01-face` |
+| 7 | `07-carte-temoignage` | Citation client, pure typographie, sans montre | **Ton code**, sans image source |
+
+**Le tri alphabétique des fichiers d'une fiche donne l'ordre exact de la galerie.** C'est voulu, ne change pas le préfixe numérique.
+
+### ⚠️ Les slots 3, 6 et 7 ne se génèrent JAMAIS au modèle
+
+Un modèle d'image ne sait pas écrire du texte propre. Si tu envoies « 4,8/5 sur 1340 avis » à un générateur, tu recevras du charabia typographique et tu auras brûlé des crédits pour rien. Ces trois slots se composent **par code**, avec Pillow et les polices de la marque. C'est 175 fichiers sur 390, soit 45 % du chantier, à coût nul en crédits.
+
+Un script de composition existait ; il a été perdu. **Tu le réécris.** Le meilleur modèle de reprise est `boutique-pipeline/scratchpad/noirmont-carte-cadeau/compose_card.py` : chargement de polices variables via `font.set_variation_by_name()`, fonction de tracking manuel `draw_centered_tracked()`, sortie JPEG.
+
+Les polices sont sur le disque :
+- `boutique-pipeline/scratchpad/noirmont-carte-cadeau/fonts/BodoniModa.ttf`
+- `boutique-pipeline/scratchpad/noirmont-carte-cadeau/fonts/Inter.ttf`
+
+**Trente et une cartes déjà validées sont dans `boutique-seiko-mod/backup-medias-partages-2026-07-26/`** (nommées `<mediaId>_<gamme>-<slot>-<rôle>.jpg`). **Ouvre-les avant d'écrire une ligne de code** et recopie la mise en page au pixel près. Ce sont elles la spécification, pas ma description ci-dessous — ma description est là pour t'aider à les lire.
+
+---
+
+## 2. Le standard accessoires : un jeu de 5
+
+Les accessoires (bracelets, remontoirs, rangement, outillage) reçoivent un jeu plus court, décidé et justifié en amont :
+
+| Slot | Nom de fichier | Comment |
+|---|---|---|
+| 1 | `01-face` | Fourni |
+| 2 | `02-usage` | **Génération.** L'objet en usage réel : le bracelet monté sur une montre, le remontoir avec une montre dedans, le rouleau ouvert avec ses montres, l'outil en main. C'est l'image qui fait comprendre le produit. |
+| 3 | `03-carte-carac` | **Ton code**, par-dessus `01-face` |
+| 4 | `04-macro` | **Génération.** Zoom matière : grain du cuir, brossage de l'acier, moletage d'un manche. |
+| 5 | `05-carte-preuve` | **Ton code**, par-dessus `01-face` |
+
+Pas de slot « geste » (redondant avec `02-usage`), pas de slot « témoignage » (aucune force sur un doigtier en latex).
+
+---
+
+## 3. Direction artistique — non négociable
+
+Fond minéral clair uni, dégradé **pierre `#E7E4DE` → craie `#FAFAF7`**, lumière douce latérale venue de la **haute gauche**, ombre portée diffuse, produit seul centré, rendu studio éditorial premium, carré **2048 × 2048**, JPEG qualité 90.
+
+Palette de marque, à respecter dans les cartes :
+
+| Token | Hex | Usage |
+|---|---|---|
+| noir-encre | `#0B0B0C` | texte principal, wordmark |
+| craie | `#FAFAF7` | fond |
+| pierre | `#E7E4DE` | fond secondaire, cadres |
+| graphite | `#55524C` | texte secondaire |
+| vert-jura | `#1E3A2F` | accent unique |
+| laiton | `#A98E5F` | filets fins uniquement, jamais en aplat |
+
+Polices : **Bodoni Moda** pour le display et les capitales (letter-spacing 0,14 em), **Inter** pour le texte courant.
+
+Étoiles des cartes 6 et 7 : **vert `#05b67a`**. Oui, ce n'est pas le laiton de la charte ; c'est l'existant en production et l'arbitrage a été laissé ouvert. **Reproduis l'existant** — créer une seconde variante serait exactement le défaut d'homogénéité qu'on cherche à supprimer.
+
+---
+
+## 4. Méthode de génération : image-to-image, et seulement ça
+
+Pour chaque slot généré, **tu pars de la face déjà validée de cette fiche précise** (`entrees-faces/<handle>-01-face.jpg`) et tu ne changes **que** ce qui doit changer.
+
+- `02-situation` : la **même montre**, au poignet. Boîtier, cadran, aiguilles, index, guichet de date, bracelet : identiques. Seuls le contexte et l'angle changent.
+- `04-geste` : la **même montre**, manipulée. Une main, un geste précis (couronne, lunette, poussoir de chronographe selon la famille).
+- `05-macro` : la **même montre**, en très gros plan sur le cadran et les index.
+- Accessoires `02-usage` / `04-macro` : le **même objet**, même matière, même teinte.
+
+C'est cette contrainte qui garantit qu'une galerie ne « saute » pas d'une image à l'autre, et que le client reçoit ce qu'il a vu. Une galerie où le coloris change entre l'image 1 et l'image 5 est un défaut bloquant.
+
+**Références de cadrage.** Les quatre familles Chronographe, GMT, Intégrale et Héritage ont déjà leurs `02`, `04` et `05` produits et validés (sur un autre coloris) dans `backup-medias-partages-2026-07-26/`. Regarde-les avant de lancer la série : ce sont elles qui définissent l'angle, la distance, la lumière et la composition à reproduire.
+
+---
+
+## 5. Règle absolue : stérilité
+
+**Aucun logo, aucune lettre, aucun mot, aucun chiffre romain typographié sur un cadran.** Ce sont des montres sans marque, c'est le positionnement.
+
+Seuls chiffres tolérés : les graduations de lunette de plongée, de GMT et de tachymètre, et le guichet de date — à condition d'être **nets et cohérents** : pas de date impossible, pas de chiffre miroité, pas de graduation qui se répète.
+
+**Vérifie visuellement chaque image générée, en zoomant sur le cadran.** Si du texte apparaît : **régénère**.
+
+**Ne retouche jamais par inpainting.** C'est cette retouche qui a produit, la dernière fois, un défaut visible sur cadran sombre qu'il a fallu refaire entièrement. Une image ratée se régénère, elle ne se rafistole pas.
+
+---
+
+## 6. Modèle
+
+**`nano_banana_pro` en 4K.** Retenu après comparatif de cinq candidats : meilleure fidélité hors cadran, 4096 px natifs, ~5,3 crédits par image. Tu redimensionnes ensuite en 2048 × 2048.
+
+**À proscrire :**
+- les modèles de type **UGC / mode** : ils fabriquent de faux logos de marque sur les cadrans. C'est la cause racine du défaut initial de ce chantier.
+- les modèles d'**édition** qui réinventent l'objet : l'un d'eux a ajouté un chiffre romain XII et une trotteuse inexistante pendant le comparatif.
+
+Si tu changes de fournisseur, teste-le d'abord sur **une seule** image et vérifie la fidélité hors cadran avant de lancer la série.
+
+**Budget.** 215 générations 4K ≈ 1 140 crédits au tarif annoncé, mais le coût réel constaté est **~30 % au-dessus** : prévois ~1 480. Les 175 cartes coûtent zéro.
+
+---
+
+## 7. Convention de nommage et manifeste — la leçon déjà payée
+
+Le manifeste précédent était indexé sur des **identifiants de variante**. Après une réorganisation du catalogue, ces identifiants sont devenus périmés et **tout a dû être rapproché à la main, SKU par SKU**. On ne recommence pas.
+
+**Règles :**
+
+- Un fichier par image. Nom : **`<handle>-<slot>.jpg`**. Exemple : `contre-la-montre-vert-chronographe-02-situation.jpg`.
+- Le manifeste est indexé sur **`handle`** et **`sku`**, exclusivement.
+- **Aucun `variantId`, aucun `mediaId`, aucun `productId`, aucun GID `gid://shopify/…` ne doit apparaître dans le manifeste.** Ce sont eux qui périment. Si tu es tenté d'en ajouter un « pour aider », ne le fais pas.
+- Chemins **relatifs** au dossier de travail, jamais absolus.
+- Seule exception au fichier-par-fiche : les cartes témoignage de famille, nommées `famille-<slug-famille>-07-carte-temoignage.jpg`, référencées par plusieurs fiches.
+
+**Format du manifeste :**
+
+```json
+{
+  "generatedAt": "2026-07-26T00:00:00Z",
+  "counts": { "fichiers": 390, "generations": 215, "cartes": 175, "emplacements": 404 },
+  "items": [
+    {
+      "handle": "contre-la-montre-vert-chronographe",
+      "sku": "14:350853#M11",
+      "famille": "Contre-la-montre — Chronographe",
+      "standard": "montre-7",
+      "slot": "02-situation",
+      "position": 2,
+      "methode": "generation",
+      "file": "sortie/contre-la-montre-vert-chronographe-02-situation.jpg",
+      "source": "entrees-faces/contre-la-montre-vert-chronographe-01-face.jpg",
+      "alt": "Contre-la-montre Vert — portée — Maison Noirmont"
+    }
+  ]
+}
+```
+
+`methode` vaut `generation` ou `carte`. `alt` suit toujours la forme `<Titre de la fiche> — <description du slot> — Maison Noirmont`.
+
+---
+
+## 8. Entrées
+
+Toutes tes sources sont dans **`entrees-faces/`**, un fichier par fiche, nommé `<handle>-01-face.jpg`, 2048 × 2048.
+
+**Si une face manque, tu t'arrêtes sur cette fiche, tu la listes dans un tableau `manquants` en fin de manifeste, et tu passes à la suivante. Tu n'inventes jamais une face, tu ne la récupères pas ailleurs, tu ne la reconstruis pas depuis une autre fiche.**
+
+---
+
+## 9. Contenu exact des cartes
+
+### Carte `03-carte-carac`
+
+Face produit + cartouche blanc en haut, cerné d'un filet laiton `#A98E5F`. Titre en **Bodoni Moda capitales espacées**, sous-titre en **Inter** graphite.
+
+Libellés par famille de montres — **utilise exactement ceux-ci, n'en invente pas** :
+
+| Famille | Titre | Sous-titre |
+|---|---|---|
+| Contre-la-montre — Chronographe | UN VRAI CHRONOGRAPHE | Compteurs panda · mouvement japonais VK63 |
+| Voyageur — GMT | DEUX FUSEAUX, UN REGARD | Aiguille GMT et lunette 24 h |
+| Intégrale — Sport chic | BRACELET INTÉGRÉ | Acier brossé et poli, ligne continue |
+| Héritage — Plongeuse vintage 42 | ESPRIT ANNÉES 60 | Lunette tournante graduée, boîtier 42 mm |
+| Trente-Six — Classique jubilé | 36 MM, UNISEXE | Bracelet jubilé, proportions classiques |
+| Trente-Neuf — Classique cannelée | L'ÉLÉGANCE 39 MM | Lunette cannelée, cadran soleillé |
+| Quarante-et-Un — Sport acier | 41 MM, PARTOUT | Du bureau au week-end |
+| Trente-Neuf Duo — Classique bicolore | LE BICOLORE ASSUMÉ | Acier et doré, sans compromis |
+| Noirmont Un — Plongeuse acier | VERRE SAPHIR, 20 ATM | Lunette céramique, couronne vissée |
+
+Pour les **accessoires**, compose le cartouche à partir du titre de la fiche et de son argument principal, en restant strictement factuel. Exemples acceptables : « 12 À 22 MM / Compatible avec la majorité des montres » ; « JUSQU'À 6 MONTRES / Rotation programmable, alimentation secteur ou pile ». **Aucune dimension, capacité ou matière que tu n'as pas dans le titre de la fiche.** En cas de doute, écris un cartouche générique plutôt qu'un cartouche faux.
+
+### Carte `06-carte-preuve`
+
+Face produit en haut, bandeau craie sur environ 22 % de la hauteur en bas, portant :
+- cinq étoiles pleines **`#05b67a`**
+- « **4,8/5** » en Bodoni Moda, très grand, noir-encre
+- « **· 1340 avis** » en Inter, graphite
+- un encadré à filet fin : « **GARANTIE 12 MOIS** » en Inter capitales espacées, vert-jura `#1E3A2F`
+
+Ces chiffres sont ceux des badges du site. **Ne les change pas, ne les personnalise pas par produit.**
+
+### Carte `07-carte-temoignage`
+
+Fond craie `#FAFAF7`, cadre intérieur pierre `#E7E4DE` cerné d'un filet laiton, cinq étoiles vertes, citation en Bodoni Moda noir-encre entre guillemets français, signature en Inter graphite, wordmark « MAISON NOIRMONT » en Bodoni capitales espacées en pied. **Aucune montre sur cette carte.**
+
+Tu dois produire **cinq cartes témoignage**, une par famille dépourvue : Trente-Six, Trente-Neuf, Quarante-et-Un, Trente-Neuf Duo, Noirmont Un.
+
+**Les citations sont à reprendre depuis `boutique-pipeline/personas/persona-noirmont-2026-07-25.md`. Tu n'en écris aucune toi-même.** Si le fichier ne contient pas de citation pour une de ces cinq familles, tu ne produis pas la carte : tu la listes dans `manquants` et tu passes. Une citation inventée de plus dans ce catalogue est un problème de conformité, pas un gain de temps.
+
+Les quatre familles Chronographe, GMT, Intégrale et Héritage ont **déjà** leur carte témoignage sur toutes leurs fiches. **Ne les refais pas.**
+
+---
+
+## 10. Exclusions
+
+- **Noirmont Deux — Plongeuse céramique** (`noirmont-deux-plongeuse-ceramique`) : sa galerie de 7 est complète. Ses 7 références n'ont jamais pu être identifiées (la fiche fournisseur montre la même photo pour toutes). **Ne produis rien pour elle, ne devine aucune couleur.**
+- **Les 3 déclinaisons GMT « siglé »** : elles portent un logo de marque tierce et ont été rendues invendables. Elles ne correspondent à aucune fiche de ta liste, donc tu n'as rien à faire — c'est un rappel de sécurité.
+- **Les 7 fiches mères en brouillon** (`contre-la-montre-chronographe-panda`, `voyageur-gmt-automatique`, `integrale-sport-chic-acier`, `heritage-plongeuse-vintage-42`, `remontoir-bois`, `remontoir-collection`, `rouleau-de-voyage-cuir`) : hors périmètre. Tu peux **lire** leurs images de référence dans `backup-medias-partages-2026-07-26/`, mais tu ne produis rien pour elles.
+- **`carte-cadeau-maison-noirmont`** : produit numérique, visuel unique déjà conforme.
+- **Les 7 fiches déjà complètes** listées au §11 sous « rien à produire ».
+
+---
+
+## 11. La liste de travail — 85 fiches
+
+`M7` = standard montre à 7 slots. `A5` = standard accessoire à 5 slots.
+Colonne « à produire » = les slots manquants.
+
+### Contre-la-montre — Chronographe · 12 fiches · M7 · à produire : `02-situation`, `03-carte-carac`, `04-geste`, `05-macro`, `06-carte-preuve`
+
+| handle | sku |
+|---|---|
+| `contre-la-montre-argent-chronographe` | `14:200000914#M14` |
+| `contre-la-montre-blanc-chronographe` | `14:29#M-1` |
+| `contre-la-montre-bleu-glacier-chronographe` | `14:4#M20` |
+| `contre-la-montre-champagne-chronographe` | `14:201447303#M-3` |
+| `contre-la-montre-compteurs-bleus-chronographe` | `14:94#M15` |
+| `contre-la-montre-gris-anthracite-chronographe` | `14:10#M13` |
+| `contre-la-montre-noir-chronographe` | `14:200000080#M-7` |
+| `contre-la-montre-panda-inverse-chronographe` | `14:193#M-2` |
+| `contre-la-montre-panda-chronographe` | `14:100013777#M-6` |
+| `contre-la-montre-rose-poudre-chronographe` | `14:175#M9` |
+| `contre-la-montre-turquoise-chronographe` | `14:366#M10` |
+| `contre-la-montre-vert-chronographe` | `14:350853#M11` |
+
+> Huit de ces fiches portent 2 ou 3 faces de coloris. **Tu travailles uniquement depuis `<handle>-01-face.jpg`, la face principale.** Les faces secondaires restent en fin de galerie et ne déclenchent pas un second jeu. Geste attendu pour cette famille : le doigt sur le poussoir de chronographe.
+
+### Héritage — Plongeuse vintage 42 · 3 fiches · M7 · mêmes 5 slots
+
+| handle | sku |
+|---|---|
+| `heritage-bleu-nuit-plongeuse-vintage-42` | `14:100013777#S2;5:56964930#42mm` |
+| `heritage-bleu-plongeuse-vintage-42` | `14:200000080#S1;5:56964930#42mm` |
+| `heritage-vert-plongeuse-vintage-42` | `14:350850#S3;5:56964930#42mm` |
+
+> Geste attendu : la rotation de la lunette graduée.
+
+### Intégrale — Sport chic acier · 7 fiches · M7 · mêmes 5 slots
+
+| handle | sku |
+|---|---|
+| `integrale-blanc-argente-sport-chic-acier` | `14:29#3;200007763:201336100` |
+| `integrale-bleu-ciel-sport-chic-acier` | `14:10#2;200007763:201336100` |
+| `integrale-bleu-nuit-sport-chic-acier` | `14:173#5;200007763:201336100` |
+| `integrale-brun-or-rose-sport-chic` | `14:193#7;200007763:201336100` |
+| `integrale-noir-sport-chic-acier` | `14:94#4;200007763:201336100` |
+| `integrale-turquoise-sport-chic-acier` | `14:4#1;200007763:201336100` |
+| `integrale-vert-sport-chic-acier` | `14:175#6;200007763:201336100` |
+
+> Geste attendu : la montre en main, doigts sur le bracelet intégré.
+
+### Voyageur — GMT automatique · 6 fiches · M7 · mêmes 5 slots
+
+| handle | sku |
+|---|---|
+| `voyageur-bicolore-cadran-brun-gmt` | `14:100005979#4;5:56964930#DG3804 GLASS back` |
+| `voyageur-bicolore-gmt-3-maillons` | `14:29#6;5:56964930#DG3804 GLASS back` |
+| `voyageur-bicolore-gmt-5-maillons` | `14:200000080#2;5:56964930#DG3804 GLASS back` |
+| `voyageur-or-rose-gmt-5-maillons` | `14:200005100#1;5:56964930#DG3804 GLASS back` |
+| `voyageur-or-gmt-3-maillons` | `14:175#9;5:56964930#DG3804 GLASS back` |
+| `voyageur-or-gmt-president` | `14:193#7;5:56964930#DG3804 GLASS back` |
+
+> Geste attendu : le réglage de la couronne pour le second fuseau.
+
+### Montres à face nue · 19 fiches · M7 · à produire : `02-situation`, `03-carte-carac`, `04-geste`, `05-macro`, `06-carte-preuve` **+ carte témoignage de famille**
+
+| handle | sku | famille |
+|---|---|---|
+| `trente-six-bleu-classique-jubile` | `14:350850#blue no logo;5:57000035#36mm-solid back` | Trente-Six |
+| `trente-six-dore-classique-jubile` | `14:94#yellow gold no logo;5:57000035#36mm-solid back` | Trente-Six |
+| `trente-six-or-integral-classique-jubile` | `14:193#full  gold no logo;5:57000035#36mm-solid back` | Trente-Six |
+| `trente-six-rose-classique-jubile` | `14:10#pink no logo;5:57000035#36mm-solid back` | Trente-Six |
+| `trente-six-rouge-classique-jubile` | `14:100005979#red no logo;5:57000035#36mm-solid back` | Trente-Six |
+| `trente-neuf-bleu-mer-classique-cannelee` | `14:29#sea blue no logo;5:57000035#8215-36mm(solidback)` | Trente-Neuf |
+| `trente-neuf-bleu-classique-cannelee` | `14:100013777#blue no logo;5:57000035#8215-36mm(solidback)` | Trente-Neuf |
+| `trente-neuf-noir-classique-cannelee` | `14:200005100#black no logo;5:57000035#8215-36mm(solidback)` | Trente-Neuf |
+| `trente-neuf-rose-classique-cannelee` | `14:350853#pink no logo;5:57000035#8215-36mm(solidback)` | Trente-Neuf |
+| `trente-neuf-rouge-classique-cannelee` | `14:173#red no logo;5:57000035#8215-36mm(solidback)` | Trente-Neuf |
+| `trente-neuf-vert-classique-cannelee` | `14:350686#green no logo;5:57000035#8215-36mm(solidback)` | Trente-Neuf |
+| `quarante-et-un-blanc-cuir-sport-acier` | `14:29#White Dial leather;5:57036539#Miyota 8215` | Quarante-et-Un |
+| `quarante-et-un-bleu-acier-sport-acier` | `14:100005979#Blue Dial M;5:57036539#Miyota 8215` | Quarante-et-Un |
+| `quarante-et-un-bleu-cuir-sport-acier` | `14:10#Blue Dial leather;5:57036539#Miyota 8215` | Quarante-et-Un |
+| `quarante-et-un-noir-jaune-acier-sport-acier` | `14:100013777#Black Dial  Yellow M;5:57036539#Miyota 8215` | Quarante-et-Un |
+| `quarante-et-un-noir-acier-sport-acier` | `14:200005100#Black Dial M;5:57036539#Miyota 8215` | Quarante-et-Un |
+| `quarante-et-un-noir-cuir-sport-acier` | `14:350853#Black dial leather;5:57036539#Miyota 8215` | Quarante-et-Un |
+| `trente-neuf-duo-dore-classique-bicolore` | `14:350850#Gold 36mm glass back;5:57000035#Miyota8215` | Trente-Neuf Duo |
+| `noirmont-un-bronze-plongeuse` | `14:94#bronze case-no logo;5:57086108#Miyota82-steel back` | Noirmont Un |
+
+> ⚠️ `trente-six-or-integral` et `quarante-et-un-noir-jaune-acier` ont un **double espace** dans leur SKU. Conserve-le.
+> Geste attendu : le réglage de la couronne pour Trente-Six, Trente-Neuf et Trente-Neuf Duo ; la montre en main pour Quarante-et-Un ; la rotation de lunette pour Noirmont Un.
+> Cinq cartes témoignage de famille à produire une seule fois : `famille-trente-six-07-carte-temoignage.jpg`, `famille-trente-neuf-…`, `famille-quarante-et-un-…`, `famille-trente-neuf-duo-…`, `famille-noirmont-un-…`.
+
+### Accessoires · 36 fiches · A5 · à produire : `02-usage`, `03-carte-carac`, `04-macro`, `05-carte-preuve`
+
+| handle | sku |
+|---|---|
+| `barrettes-de-rechange-270` | `14:193#1.5mm 8-25mm` |
+| `bracelet-acier-massif-12-22-mm` | `200000049:16146268#Rose-Gold;200000051:168` |
+| `bracelet-caoutchouc-gaufre` | `200000049:3348727#Green-Silver Buckle;200000051:100016950` |
+| `bracelet-cuir-daim-degagement-rapide` | `200000049:990994103#Brown;200000051:100016948#22mm` |
+| `bracelet-fkm-courbe` | `200000049:100013775#Orange;200000051:200661872#22mm` |
+| `bracelet-fkm-tropical` | `200000049:200966040#FKM-Orange Black;200000051:100016950` |
+| `bracelet-jubile-acier-904l-20mm` | `200000049:3348727#Silver;200000051:100016950` |
+| `bracelet-jubile-embouts-courbes` | `200000049:350853#steel-no logo;200000051:100016950` |
+| `bracelet-milanais-maille-italienne` | `200000049:200000080#1.0mm-gold;200000051:100016948` |
+| `bracelet-presidentiel-904l` | `200000049:201449057#NO.3 Polished Center;200000051:100016950` |
+| `bracelet-presidentiel-dore` | `200000049:200002983#No Adjustable Belt-4;200000051:202532806` |
+| `coffret-douze-aluminium` | `14:175#24 Slots` |
+| `coffret-douze-presentation` | `14:193;200007763:201336342;400036410:1982804887` |
+| `coussins-de-presentation-lot-de-10` | `14:193` |
+| `doigtiers-d-horloger-latex` | `14:350686#white 100pcs;200007763:201336100` |
+| `kit-d-entretien-13-pieces` | `14:865#13pc Kits` |
+| `loupe-d-horloger` | `14:865#circle-no magnifiers` |
+| `loupe-de-date-saphir` | `14:350686#A-5.5x4.5mm` |
+| `outil-de-mise-a-taille-de-bracelet` | `14:193` |
+| `pince-a-barrettes` | `14:173#Silver` |
+| `remontoir-bois-acajou` | `14:173#M11032` |
+| `remontoir-bois-ebene` | `14:350686#M11052` |
+| `remontoir-bois-noir-laque` | `14:193#M11011` |
+| `remontoir-bois-noyer` | `14:350850#M11071` |
+| `remontoir-collection-bois-beige` | `14:173#IB-white-01A` |
+| `remontoir-collection-bois-led-noir` | `14:29#IB-black-02C` |
+| `remontoir-collection-bois-led-rouge` | `14:366#IB-red-02C` |
+| `remontoir-collection-bois-noir` | `14:193#IB-black-01A` |
+| `remontoir-collection-cuir-pu` | `14:496#IB-PU leather-02B` |
+| `remontoir-solo` | `14:193#Green` |
+| `remontoir-vitrine` | `14:193;200007763:201336342` |
+| `rouleau-de-voyage-bleu-marine-cuir` | `14:865#WB31` |
+| `rouleau-de-voyage-brun-cuir` | `14:350850#WB21` |
+| `rouleau-de-voyage-noir-cuir` | `14:193#WB11` |
+| `rouleau-de-voyage-vert-cuir` | `14:10#WB41` |
+| `set-tournevis-horloger` | `14:193#A` |
+
+> `bracelet-presidentiel-dore` et `set-tournevis-horloger` portent déjà plusieurs déclinaisons en fin de galerie. Tu travailles uniquement depuis leur face principale et tu ne touches pas aux déclinaisons.
+
+### Accessoires ayant déjà une macro · 2 fiches · A5 · à produire : `02-usage`, `03-carte-carac`, `05-carte-preuve` **seulement**
+
+| handle | sku | pourquoi |
+|---|---|---|
+| `coffret-6-montres-couvercle-verre` | `14:29#6 slot` | la photo « ouvert » existante tient lieu de `04-macro` |
+| `etui-de-voyage-rigide` | `14:1254#Black Brown 3 Slot` | idem |
+
+### Rien à produire · 7 fiches
+
+`noirmont-deux-plongeuse-ceramique` · `noirmont-un-plongeuse-acier` · `trente-six-classique-jubile` · `trente-neuf-classique-cannelee` · `trente-neuf-duo-classique-bicolore` · `quarante-et-un-sport-acier` · `carte-cadeau-maison-noirmont`
+
+**Bouclage : 92 fiches actives = 85 à traiter + 6 déjà complètes + 1 hors périmètre.**
+
+---
+
+## 12. Récapitulatif chiffré à respecter
+
+| Bloc | Fiches | Générations | Cartes |
+|---|---:|---:|---:|
+| Chronographe | 12 | 36 | 24 |
+| Héritage | 3 | 9 | 6 |
+| Intégrale | 7 | 21 | 14 |
+| Voyageur | 6 | 18 | 12 |
+| Montres à face nue | 19 | 57 | 38 + 5 de famille |
+| Accessoires standard | 36 | 72 | 72 |
+| Accessoires avec macro | 2 | 2 | 4 |
+| **Total** | **85** | **215** | **175** |
+
+**390 fichiers.** Si ton compte final diffère, ne livre pas : explique l'écart.
+
+---
+
+## 13. Contrôle de fin
+
+1. **Une planche contact par famille**, coloris côte à côte, pour vérifier l'homogénéité de cadrage, de lumière et de fond. Une galerie qui « saute » d'un coloris à l'autre est un défaut bloquant.
+2. **Une planche de zoom des cadrans**, toutes générations confondues, pour la chasse au texte parasite.
+3. **Vérification programmatique** : les 390 fichiers font bien 2048 × 2048, sont bien en JPEG, et chaque `file` du manifeste existe sur le disque.
+4. **Relecture du manifeste** : aucune occurrence de `gid://`, `variantId`, `mediaId` ou `productId`. Grep-le pour t'en assurer.
+5. **Rapport final** : le décompte réel par bloc, la liste des régénérations, la liste des `manquants`, et le coût en crédits constaté.
+
+Tu ne touches à rien d'autre. Le branchement sur Shopify sera fait à la main après toi.

@@ -1,0 +1,78 @@
+# Prompt à envoyer à Codex — visuels NOIRMONT
+
+> Copier-coller le bloc ci-dessous tel quel. Il est autoportant.
+
+---
+
+Tu reprends un chantier d'images produit sur la boutique Shopify **Maison Noirmont** (`v42pzp-h4`, montres Seiko mod haut de gamme, France, panier 80-430 €). Un travail de génération a été interrompu faute de crédits. **Ta mission : produire les visuels manquants et les brancher sur Shopify.**
+
+## Ce qui est déjà fait — ne le refais pas
+
+- 10 montres ont une galerie complète de 7 images.
+- 5 montres ont leurs visuels de coloris (24 images) : Trente-Six, Trente-Neuf, Quarante-et-Un, Noirmont Un, Trente-Neuf Duo.
+- 19 fiches « par coloris » ont déjà été créées et mappées dans DSers.
+- Les 15 accessoires ont chacun un visuel conforme à la charte.
+- Toutes les valeurs de variantes ont été renommées en libellés clients (117 valeurs) et des pastilles ont été posées sur 4 montres.
+
+## Ce qu'il reste à produire
+
+La liste exacte est dans **`boutique-pipeline/boutique-seiko-mod/renommage-variantes-2026-07-25.md`**, section « visuels à produire » (~88 entrées). Elle couvre principalement :
+
+| Produit | Coloris à illustrer |
+|---|---:|
+| Contre-la-montre — chronographe | jusqu'à 20 |
+| Voyageur — GMT | 6 (⚠️ **ne produis rien** pour les 3 déclinaisons marquées « siglé » : elles portent un logo de marque tierce et ont été rendues invendables) |
+| Noirmont Deux — plongeuse céramique | 7 (⚠️ non identifiés à ce jour, voir plus bas) |
+| Intégrale — sport chic | 7 |
+| Héritage — plongeuse vintage | 3 |
+| Accessoires signalés dans la liste | le reste |
+
+**Chaque visuel deviendra l'image principale d'une fiche produit dédiée** : la boutique passe à un modèle « une fiche = un coloris ». Un seul visuel par coloris suffit donc, cadré comme une image de face.
+
+⚠️ Pour **Noirmont Deux**, les 7 références n'ont pas pu être identifiées : la fiche fournisseur utilise la même photo de démonstration pour toutes et l'image ne change pas à la sélection. Ne devine pas de couleurs — si tu ne peux pas établir ce que montre chaque référence, produis un visuel neutre unique et signale-le, ou saute ce produit.
+
+## Direction artistique — non négociable
+
+Fond minéral clair uni (pierre `#E7E4DE` / craie `#FAFAF7`), lumière douce latérale, ombre portée diffuse, produit seul centré, rendu studio éditorial premium, carré **2048×2048**, JPEG qualité ~90.
+
+**Méthode : image-to-image depuis la face produit déjà validée** de chaque montre, en ne changeant **que** l'attribut du coloris. Boîtier, bracelet, aiguilles, index, guichet de date, cadrage, fond, lumière et ombre restent **identiques** — c'est ce qui rend la galerie homogène et ce qui garantit que le client reçoit la montre qu'il a vue.
+
+- Faces de référence : `scratchpad/noirmont-product-images/` (utiliser la version de `corrected/` quand elle existe).
+- Exemples du résultat attendu : `scratchpad/noirmont-coloris/_qa/planche-*.jpg`.
+
+## Règle absolue : stérilité
+
+**Aucun logo, aucune lettre, aucun mot, aucun chiffre romain typographié** sur un cadran. Seuls chiffres tolérés : lunettes de plongée / GMT / tachymètre et guichets de date, à condition d'être **nets et cohérents** (pas de date impossible, pas de chiffres miroirés).
+
+**Vérifie visuellement chaque image**, en zoomant sur le cadran. Si une génération sort avec du texte : **régénère**. **Ne retouche pas par inpainting** — c'est cette retouche qui a produit un défaut visible sur cadran sombre qu'il a fallu refaire entièrement.
+
+## Modèles
+
+Le modèle retenu après un comparatif de 5 candidats est **Nano Banana Pro en 4K** : meilleure fidélité hors cadran (4,18), 4096 px natifs, ~5,3 crédits réels par image.
+
+**À proscrire** : les modèles de type UGC/mode — ils fabriquent de faux logos, c'est la cause racine du défaut initial ; et les modèles d'« édition » qui réinventent l'objet — l'un d'eux a ajouté un chiffre romain XII et une trotteuse inexistante pendant le comparatif. Si tu utilises un autre fournisseur, teste-le d'abord sur **une** recoloration et vérifie la fidélité hors cadran avant de lancer la série.
+
+## Branchement sur Shopify
+
+Pour chaque visuel :
+1. `stagedUploadsCreate` (httpMethod PUT, resource IMAGE) → `curl -T` avec `content-type: image/jpeg` → `productCreateMedia` avec `originalSource` = le `resourceUrl` **non signé**, alt = « `<Produit>` — `<coloris>` — Maison Noirmont ».
+2. Si le coloris correspond encore à une variante (et non à une fiche dédiée) : `productVariantsBulkUpdate` avec `mediaId` sur **toutes** les variantes qui partagent ce coloris. Le diamètre, le fond et le mouvement n'ont pas besoin de visuel propre.
+3. Pour obtenir une **pastille** au lieu d'un bouton texte, la valeur d'option doit porter un swatch. Sur ce thème (FullStack), le champ `swatch` est en **lecture seule** : il faut passer par les **métaobjets liés à l'option**, et pour la catégorie Montres les clés sont `dial-color` et `case-color` (la clé générique `color-pattern` est refusée).
+
+⛔ **Ne modifie JAMAIS un SKU** : il porte la chaîne d'attributs AliExpress (`14:175#9;5:56964930#...`) et conditionne le mapping DSers. Après toute opération, vérifier que les compteurs DSers restent **Mes Produits 44 · AliExpress 44 · Unmapped 0**.
+
+## Pièges de cette boutique, déjà payés
+
+- `themeFilesUpsert` renvoie parfois `upsertedThemeFiles: []` **sans erreur** : re-interroger `updatedAt`/`size` pour confirmer.
+- Un nom de schéma de bloc de plus de **25 caractères** fait rejeter le fichier **en silence**.
+- Le champ CSS d'une section fait aussi rejeter **en silence** : passer par un fichier d'asset.
+- Ne jamais utiliser `switch-shop` : cela invalide la connexion Shopify pour tout le monde.
+- Le coût réel des générations 4K est **~30 % au-dessus** du tarif annoncé par l'API : budgéter avec marge.
+
+## Contrôle de fin
+
+Une planche par produit (coloris côte à côte) pour vérifier l'homogénéité de cadrage et de lumière — une galerie qui « saute » d'un coloris à l'autre est un défaut. Puis vérifier sur le storefront (thème brouillon `204248088914`, mot de passe storefront `autheu`) qu'un clic sur un coloris fait bien basculer la galerie : ce comportement a été testé et fonctionne.
+
+## Contexte complet
+
+`boutique-pipeline/boutique-seiko-mod/BILAN-2026-07-25.md` et `PLAN-lisibilite-variantes-2026-07-25.md`.

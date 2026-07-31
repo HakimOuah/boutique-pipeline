@@ -1,0 +1,1389 @@
+/* ==========================================================================
+   Maison Noirmont — affinages de lisibilité et de rythme — 25/07/2026
+   --------------------------------------------------------------------------
+   Chargé en dernier dans <head> (layout/theme.liquid), après 'css-variables'
+   et 'color-schemes', pour pouvoir surcharger les variables du thème.
+
+   Principes repris de montre-avenue et transposés dans la charte Noirmont :
+   texte courant plus grand, casse normale sur les titres de carte, médias
+   aux angles adoucis, grilles plus aérées, survols retenus.
+   Aucune couleur de la charte n'est remplacée.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Corps de texte : 15 → 16 px, desktop et mobile.
+      montre-avenue est à 16 px (1rem) ; nous étions à 15 px (0.9375rem).
+      Équivalent éditeur, si tu préfères le régler là : Typographie →
+      « Taille du paragraphe » = 16 (et sa variante mobile). Dans ce cas,
+      supprime ce bloc :root.
+   -------------------------------------------------------------------------- */
+:root {
+  --font-body--size: 1rem;
+  --font-body--size-emphasized: 1.0625rem;
+  --font-body--size-small: 0.875rem;
+}
+
+/* --------------------------------------------------------------------------
+   2. Médias de carte produit : angles adoucis, 2 px → 10 px.
+      Eux sont à 26 px ; 10 px suffit à dater le site de 2026 sans virer
+      au galet — on reste une maison, pas une boutique de gadgets.
+   -------------------------------------------------------------------------- */
+/* NB : styles.css (bundle des sections) est chargé APRÈS cette feuille.
+   À spécificité égale il gagnerait, d'où les sélecteurs à deux classes. */
+.product-card .product-card-media-gallery__media--rounded,
+.product-card .product-card-media-gallery__media--rounded .product-media {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* --------------------------------------------------------------------------
+   3. Survol : très léger rapproché de l'image. Pas d'ombre, pas de
+      soulèvement, pas de bord coloré — la retenue est le style maison.
+   -------------------------------------------------------------------------- */
+.product-card .product-card-media-gallery__media img {
+  transition: transform 0.55s cubic-bezier(0.2, 0.6, 0.2, 1);
+}
+
+.product-card:hover .product-card-media-gallery__media img {
+  transform: scale(1.03);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .product-card .product-card-media-gallery__media img {
+    transition: none;
+  }
+
+  .product-card:hover .product-card-media-gallery__media img {
+    transform: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   4. Titre de carte produit.
+      Le bloc titre était balisé <h2>, et le réglage global « casse des h2 »
+      est en majuscules : tous les noms de montres sortaient en capitales.
+      Sur des noms longs (« QUARANTE-ET-UN BLEU — SPORT CUIR ») la casse
+      normale rétablit la silhouette des mots et gagne souvent une ligne.
+      Le balisage est passé à <h3> côté template ; on neutralise ici ce qui
+      reste de l'échelle titre.
+
+      La hauteur de deux lignes réservée fait tomber prix et boutons sur la
+      même ligne de base d'un bout à l'autre de la rangée : c'est ce qui
+      donne à la grille son calme.
+   -------------------------------------------------------------------------- */
+.product-card .text-block.paragraph > * {
+  text-transform: none;
+  letter-spacing: 0;
+  line-height: 1.45;
+}
+
+/* Hauteur réservée = 1 ligne sur desktop : à 384 px de carte, les 29 noms
+   du catalogue tiennent tous sur une ligne (vérifié le 25/07), donc réserver
+   deux lignes ne ferait que creuser un blanc sous chaque titre.
+   ⚠️ Si un nom de montre passe un jour sur deux lignes, sa carte décalera son
+   prix par rapport à ses voisines : repasser cette valeur à 46px et l'alignement
+   de la rangée est de nouveau garanti. */
+.product-card .text-block.paragraph {
+  min-height: 24px;
+}
+
+/* --------------------------------------------------------------------------
+   5. Badge « En promotion ».
+      Il faisait 129 × 27 px, soit presque la moitié de la largeur de carte,
+      en aplat craie posé sur la montre. Ramené à l'échelle d'une mention,
+      Filet laiton (#A98E5F) à l'origine ; purgé le 26/07 au soir avec le
+      reste de l'ancienne palette (voir bloc 12).
+   -------------------------------------------------------------------------- */
+.product-badges {
+  top: 10px;
+  right: 10px;
+}
+
+.product-badges .badge {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  padding: 3px 9px;
+  background: rgba(250, 250, 247, 0.92);
+  border: 1px solid rgba(11, 11, 12, 0.14);
+}
+
+/* --------------------------------------------------------------------------
+   6. Grille de collection : plus de respiration entre les rangées.
+      Eux : 16/16 px sur des cartes de 279 px. Nos cartes passent à 389 px,
+      la gouttière doit suivre — sinon les rangées se collent.
+   -------------------------------------------------------------------------- */
+.main-collection .main-collection__products-grid {
+  column-gap: 24px;
+  row-gap: 44px;
+}
+
+/* --------------------------------------------------------------------------
+   7. Bouton d'ajout en carte : un cran moins bavard.
+   -------------------------------------------------------------------------- */
+.nm-card-cta .button {
+  letter-spacing: 0.04em;
+}
+
+/* --------------------------------------------------------------------------
+   8. Mobile d'abord : la règle maison. Gouttières resserrées, trois lignes
+      réservées pour le titre (les cartes y sont deux fois plus étroites),
+      badge encore réduit.
+   -------------------------------------------------------------------------- */
+@media (max-width: 749px) {
+  .main-collection .main-collection__products-grid {
+    column-gap: 14px;
+    row-gap: 32px;
+  }
+
+  .product-card .text-block.paragraph {
+    min-height: 69px;
+  }
+
+  .product-badges {
+    top: 8px;
+    right: 8px;
+  }
+
+  .product-badges .badge {
+    font-size: 10px;
+    padding: 2px 7px;
+  }
+}
+
+/* ==========================================================================
+   9. Accessibilité, tactile et lisibilité — 26/07/2026
+   --------------------------------------------------------------------------
+   Corrige, depuis les assets uniquement, les constats d'audit-uiux-home.md et
+   audit-uiux-panier.md : anneau de focus supprimé partout, cibles tactiles
+   sous 44 px, absence totale de touch-action / overscroll-behavior /
+   font-variant-numeric / env(safe-area-inset-*), champs à 14 px (zoom iOS),
+   prix barré indistinguable, voile de tiroir entièrement transparent.
+
+   ⚠️ Cette feuille est chargée AVANT le bundle des sections (styles.css) et
+   avant les <style> de section. Les règles qui doivent gagner utilisent donc
+   soit une spécificité supérieure, soit !important — c'est délibéré, chaque
+   occurrence corrige une règle du thème et non un choix éditorial.
+   ⚠️ Ne jamais reporter ce bloc dans le champ CSS d'une section : sur ce thème
+   le fichier est alors rejeté en silence.
+   ========================================================================== */
+
+:root {
+  /* Direction B validee le 26/07 : un seul accent, CYAN ELECTRIQUE, sur
+     encre / craie / acier. Le citron acide #D6FF3F est abandonne.
+
+     ⚠️ REGLE D'USAGE — le cyan est la couleur de l'INSTRUMENT. Il est reserve
+     aux elements techniques : puces de specifications, filets de cote, anneau
+     de focus, etats actifs, valeurs mesurees. JAMAIS un bouton d'achat,
+     JAMAIS un badge commercial. Un signal commercial qui emprunte la couleur
+     de l'instrument devalue les deux. C'est cette regle, et elle seule, qui
+     empeche le cyan de devenir un accent generique. */
+  --nm-cyan: #22d3ee;
+  --nm-acier: #8a9099;
+  --nm-encre: #0b0b0c;
+  --nm-craie: #fafaf7;
+  --nm-tap: 44px;
+  --nm-tap-gap: 8px;
+
+  /* 14 px → 16 px : sous 16 px, Safari iOS zoome la page à la mise au point
+     du champ. Une seule variable couvre code promo, e-mail du pied de page,
+     recherche et tous les autres champs du thème. */
+  --inputs-font-size: 1rem;
+
+  /* Cases à cocher, boutons radio, barres de progression : etats actifs,
+     donc du ressort de l'instrument. */
+  accent-color: var(--nm-cyan);
+}
+
+/* --------------------------------------------------------------------------
+   9.1 Anneau de focus clavier, rétabli de bout en bout.
+       Le thème posait `outline: none` sans remplacement sur .select,
+       .dialog-modal, .stories__modal, .quantity-selector input et
+       .textfield input : le focus clavier était invisible sur tout le site.
+
+       Anneau à deux couleurs (cyan cerné d'encre) : le cyan seul ne
+       contraste pas assez sur la craie (1,72:1 mesuré), l'encre seule
+       disparaît sur l'encre — c'est le halo d'encre de 6 px qui porte le
+       contraste (18,81:1 sur craie). L'anneau de focus est un état actif :
+       il relève bien du vocabulaire de l'instrument.
+       Uniquement en :focus-visible — jamais au clic à la souris.
+   -------------------------------------------------------------------------- */
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+details:focus-visible,
+[tabindex]:focus-visible,
+[role='button']:focus-visible,
+[contenteditable]:focus-visible,
+cart-icon:focus-visible,
+.button:focus-visible,
+.select:focus-visible,
+.textfield input:focus-visible,
+.dialog-modal:focus-visible,
+.stories__modal:focus-visible,
+.cart-drawer__close:focus-visible,
+.cart-discount__remove-discount:focus-visible,
+.header__menu-mobile:focus-visible,
+.header__icon:focus-visible,
+.header__icon-search:focus-visible,
+.header__mobile-menu-link:focus-visible {
+  outline: 2px solid var(--nm-cyan) !important;
+  outline-offset: 2px !important;
+  box-shadow: 0 0 0 6px rgba(11, 11, 12, 0.9) !important;
+  border-radius: 3px;
+}
+
+/* Le sélecteur de quantité est en overflow: hidden — un anneau extérieur y
+   serait rogné. On le rend visible le temps du focus. */
+.quantity-selector:has(:focus-visible) {
+  overflow: visible;
+}
+
+.quantity-selector input:focus-visible,
+.quantity-selector button:focus-visible {
+  outline: 2px solid var(--nm-cyan) !important;
+  outline-offset: -3px !important;
+  box-shadow: 0 0 0 2px rgba(11, 11, 12, 0.9) !important;
+  z-index: 2;
+}
+
+/* Sélection de texte : état actif, donc emploi légitime de l'accent.
+   Cyan sur encre : 10,70:1. */
+::selection {
+  background-color: var(--nm-cyan);
+  color: var(--nm-encre);
+}
+
+/* --------------------------------------------------------------------------
+   9.2 touch-action et -webkit-tap-highlight-color.
+       0 occurrence de touch-action sur les 203 Ko de CSS servis : tous les
+       taps traînaient le délai de 300 ms du double-tap-zoom.
+       `manipulation` supprime ce délai sans empêcher le défilement.
+   -------------------------------------------------------------------------- */
+a,
+button,
+summary,
+label,
+input,
+select,
+textarea,
+[role='button'],
+[tabindex],
+.button,
+cart-icon,
+quantity-selector,
+dialog-component,
+.header__mobile-menu-link,
+.cart-discount__remove-discount {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(11, 11, 12, 0.08);
+}
+
+/* --------------------------------------------------------------------------
+   9.3 overscroll-behavior : 0 occurrence auparavant.
+       Arrivé en bout de liste, le défilement fuyait vers la page derrière le
+       tiroir (WIG : « use overscroll-behavior: contain in modals, drawers »).
+   -------------------------------------------------------------------------- */
+.cart-drawer__body,
+.header__mobile-menu-nav,
+.header__mobile-menu,
+.wishlist-drawer__body,
+.dialog-modal,
+.predictive-search-results-container {
+  overscroll-behavior: contain;
+}
+
+/* Zones à défilement horizontal (remises du panier et du tiroir). */
+.cart-drawer__discounts,
+.cart__discounts,
+.splide__track {
+  overscroll-behavior-x: contain;
+}
+
+/* `scroll` réservait une gouttière permanente ; `auto` ne l'affiche qu'au
+   besoin, et le défilement reste contenu. */
+@media (width <= 750px) {
+  .cart-drawer__discounts {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   9.4 Voiles de tiroir : rgba(var(--color-shadow)) rendait rgba(0,0,0,0),
+       soit une transparence totale. Aucun assombrissement, donc aucun signal
+       que la page derrière est inerte et qu'un appui extérieur ferme.
+   -------------------------------------------------------------------------- */
+cart-drawer.is-open,
+cart-drawer.is-closing,
+.header__mobile-menu-overlay.is-open,
+.header__mobile-menu-overlay.is-closing,
+.wishlist-drawer.is-open {
+  background-color: rgba(11, 11, 12, 0.55) !important;
+}
+
+/* --------------------------------------------------------------------------
+   9.5 env(safe-area-inset-bottom) : 0 occurrence auparavant.
+       Le pied collant du tiroir — donc le bouton « Commander » — passait sous
+       la barre gestuelle iOS.
+   -------------------------------------------------------------------------- */
+.cart-drawer .cart-drawer__footer {
+  padding-bottom: calc(var(--padding-md) + env(safe-area-inset-bottom));
+}
+
+.cart-drawer .cart-drawer__body {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.header__mobile-menu-nav,
+.header__mobile-menu-footer {
+  padding-bottom: calc(var(--padding-md) + env(safe-area-inset-bottom));
+}
+
+/* Barre d'achat collante de la fiche produit : même contrainte iOS. */
+sticky-add-to-cart {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* --------------------------------------------------------------------------
+   9.6 Cibles tactiles à 44 × 44 px minimum, 8 px entre cibles adjacentes.
+       Le dessin des icônes n'est pas grossi : seule la zone de frappe l'est.
+   -------------------------------------------------------------------------- */
+
+/* En-tête mobile : hamburger 24 × 65, recherche 24 × 24, panier 24 × 24. */
+.header__menu .header__menu-mobile,
+.search-popup-mobile .header__icon-search,
+.header__actions .header__icon-search,
+.header__actions .header__icon,
+.header__actions .header__icon-cart,
+.header__actions .header__icon-account {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--nm-tap);
+  min-height: var(--nm-tap);
+  height: var(--nm-tap);
+  padding: 0;
+  border-radius: 6px;
+}
+
+/* Les cibles passant de 24 à 44 px, la gouttière de 16 px descend à 8 px :
+   au-dessus du minimum de 8 px, et l'en-tête garde de la place pour le logo.
+
+   Le logo est un long lettrage — 1162 × 84 px d'origine, soit 332 px de large
+   pour 24 px de haut, presque toute la rangée. Tant que sa colonne est en
+   `auto`, il impose sa largeur, écrase les deux colonnes latérales et les
+   icônes se superposent à lui (mesuré avant correctif : hamburger 20→64 px et
+   logo 28→347 px sur la même bande). Les groupes d'icônes gardent donc leur
+   largeur naturelle — 96 px à gauche, 44 px à droite — et c'est le logo qui
+   s'adapte, proportions conservées. Mesuré après : 96px 179px 44px, 8 px
+   d'écart, aucun recouvrement.
+
+   ⚠️ Conséquence de charte à assumer : à 375 px le lettrage se cale sur la
+   largeur restante (179 px, soit 13 px de haut). Si c'est trop discret, la
+   sortie propre est un logo mobile plus ramassé (monogramme, ou lettrage sur
+   deux lignes) — pas un retour des cibles sous 44 px. */
+.header__layout-mobile .header__layout--logo-center {
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: var(--nm-tap-gap);
+}
+
+.header__layout-mobile .header__menu,
+.header__layout-mobile .header__actions {
+  gap: var(--nm-tap-gap);
+}
+
+.header__layout-mobile .header__logo {
+  min-width: 0;
+}
+
+.header__layout-mobile .header__logo-image,
+.header__layout-mobile .header__logo-image--transparent {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: var(--logo-height-mobile);
+}
+
+/* Fermeture du tiroir panier : 24 × 24 mesuré en live. */
+.cart-drawer .cart-drawer__close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--nm-tap);
+  min-height: var(--nm-tap);
+  height: var(--nm-tap);
+  margin-right: calc(-1 * var(--nm-tap-gap));
+  border-radius: 6px;
+}
+
+/* Bouton supprimer : base.css verrouillait 35 × 35 par min/max-width et
+   min/max-height ; les max-* interdisaient tout agrandissement. */
+.cart-drawer .button--small.button--icon-only,
+.cart .button--small.button--icon-only,
+.cart-drawer__item-actions-wrapper .button--icon-only,
+.cart__item-actions-wrapper .button--icon-only {
+  min-width: var(--nm-tap) !important;
+  max-width: none !important;
+  min-height: var(--nm-tap) !important;
+  max-height: none !important;
+  width: var(--nm-tap) !important;
+  height: var(--nm-tap) !important;
+}
+
+/* Sélecteur de quantité du panier : boutons − / + à 33 × 33. */
+.cart-drawer__item-actions-wrapper .quantity-selector--small,
+.cart__item-actions-wrapper .quantity-selector--small {
+  height: var(--nm-tap) !important;
+  min-width: 0;
+  width: auto;
+}
+
+.cart-drawer__item-actions-wrapper .quantity-selector--small button,
+.cart__item-actions-wrapper .quantity-selector--small button {
+  width: var(--nm-tap) !important;
+  min-width: var(--nm-tap) !important;
+  height: calc(var(--nm-tap) - 2 * var(--inputs-border-width)) !important;
+}
+
+.cart-drawer__item-actions-wrapper .quantity-selector--small input,
+.cart__item-actions-wrapper .quantity-selector--small input {
+  width: 38px !important;
+  min-width: 38px !important;
+  height: calc(var(--nm-tap) - 2 * var(--inputs-border-width)) !important;
+}
+
+/* 5 px entre supprimer et « − » : la mauvaise action partait une fois sur
+   plusieurs. Porté à 8 px. */
+.cart-drawer__item-actions-wrapper,
+.cart__item-actions-wrapper,
+.cart-drawer__item-actions {
+  gap: var(--nm-tap-gap) !important;
+}
+
+/* Les actions passant de 101 à 170 px de large, elles ne tiennent plus à
+   côté du nom sur un tiroir de 345 px : on leur donne leur propre ligne.
+   Le nom récupère toute la largeur (il débordait de 60 px par astuce). */
+@media (width <= 749px) {
+  .cart-drawer__item-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .cart-drawer__item-content {
+    flex: 1 1 100%;
+    min-width: 0;
+  }
+
+  /* Le thème pose `width: calc(100% + 60px)` sur le nom d'article, une astuce
+     pour lui laisser mordre sur la colonne des actions. Les actions ayant
+     désormais leur propre ligne, ce débordement n'a plus de raison d'être — et
+     il coupait le nom de 44 px (mesuré : 280 px de nom pour 220 px utiles,
+     rognés par l'overflow: hidden du tiroir). Sélecteur renforcé : à
+     spécificité égale, la règle du thème gagnerait, styles.css étant chargé
+     après cette feuille. */
+  .cart-drawer .cart-drawer__item-name {
+    width: 100%;
+  }
+
+  .cart-drawer__item-actions {
+    width: 100%;
+  }
+
+  .cart-drawer__item-actions-wrapper {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: auto;
+    flex-wrap: nowrap;
+  }
+}
+
+/* Retrait d'une remise appliquée : cible de 14 px sur un <span>.
+   Le <span> est rendu focusable côté JS (cart-discount.js). */
+.cart-discount__remove-discount {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  min-height: 32px;
+  height: auto;
+  margin: -6px -4px -6px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Liens du pied de page : 20 px de haut, cibles empilées. */
+.footer a:not(.button),
+.footer-block a:not(.button) {
+  display: inline-block;
+  min-height: 24px;
+  padding-block: 10px;
+}
+
+/* Icônes sociales : mesurées 24 px de large, et rendues en rgb(0, 0, 238) —
+   le bleu de lien par défaut du navigateur, faute de couleur déclarée. C'était
+   le troisième accent involontaire de la page. Elles reprennent la couleur du
+   pied de page et une zone de frappe de 44 px. */
+.social-icon-block,
+[class*='social-icon'] a,
+[class*='social-icons'] a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--nm-tap);
+  min-height: var(--nm-tap);
+  color: inherit;
+}
+
+[class*='social-icons'],
+[class*='social-icon-list'] {
+  gap: var(--nm-tap-gap);
+}
+
+/* --------------------------------------------------------------------------
+   9.7 Champs de saisie : 16 px effectifs.
+       La variable --inputs-font-size est déjà passée à 1rem plus haut ; les
+       règles .textfield input / label du snippet sont chargées après cette
+       feuille à spécificité égale, d'où le sélecteur renforcé.
+   -------------------------------------------------------------------------- */
+div.textfield input,
+div.textfield label,
+input[name='cart-discount'],
+input[name='contact[email]'],
+input[type='email'],
+input[type='search'],
+input[type='text'],
+input[type='tel'],
+input[type='number'],
+select,
+textarea {
+  font-size: 16px;
+}
+
+/* Le code promo est sensible à la casse : on l'affiche tel qu'il sera envoyé.
+   autocapitalize / autocorrect / spellcheck / autocomplete sont posés côté JS
+   (cart-discount.js) — un attribut ne se pose pas en CSS. */
+input[name='cart-discount'] {
+  text-transform: uppercase;
+}
+
+input[name='cart-discount']::placeholder {
+  text-transform: none;
+}
+
+/* --------------------------------------------------------------------------
+   9.8 Chiffres tabulaires : 0 occurrence de font-variant-numeric auparavant.
+       Les prix d'une rangée de carrousel et les lignes du récapitulatif
+       doivent s'aligner en colonne, d'autant que show_trailing_zeros: false
+       fait varier le nombre de chiffres (€0, €12,90, €329).
+   -------------------------------------------------------------------------- */
+.price,
+.price *,
+.compare-at-price,
+.product-price,
+.cart__totals,
+.cart__totals p,
+.cart__totals-value,
+.cart__discounts,
+.cart-drawer__totals,
+.cart-drawer__totals p,
+.cart-drawer__totals-value,
+.cart-drawer__reductions,
+.cart-drawer__reductions-value,
+.cart-drawer__item-price,
+.cart-drawer__item-compare-price,
+.header__icon-count-bubble-inner,
+.nm-upsell-price,
+[class*='price'],
+[class*='total'],
+[class*='subtotal'] {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum' 1;
+}
+
+/* --------------------------------------------------------------------------
+   9.9 Prix barré : même couleur et même corps que le prix actif, distingué par
+       le seul line-through — la remise ne se lisait pas.
+
+   ⚠️ CORRIGÉ APRÈS MESURE — deux erreurs dans ma première version :
+
+   a) Elle posait `color: rgba(11, 11, 12, 0.62)`. Or le thème applique en plus
+      `opacity: 0.7` SUR `.compare-at-price` lui-même. Les deux se composent :
+      alpha effectif 0,62 × 0,7 = 0,43. Un calcul de contraste fait sur la
+      seule valeur de `color` ne voit pas cette composition et annonce 5,6:1 ;
+      le ratio réellement rendu était de 2,97:1 sur craie. L'opacité est
+      précisément ce qui détruit le contraste sans qu'on le voie venir.
+
+   b) Pire, la couleur était codée en dur en encre. Sur les blocs à schéma
+      sombre (fond vert #1E3A2F), cela donnait de l'encre sur du sombre :
+      1,28:1 mesuré, soit un ancien prix quasiment invisible.
+
+   Le prix barré est une INFORMATION DE PRIX, pas un ornement : il doit
+   atteindre 4,5:1. On le déhiérarchise donc par la TAILLE et la GRAISSE
+   uniquement, jamais par l'opacité, et on laisse la couleur suivre le schéma
+   du bloc (`inherit`), ce qui garantit le même contraste que le prix actif
+   dans tous les schémas — clair comme sombre.
+   -------------------------------------------------------------------------- */
+.compare-at-price,
+.price .compare-at-price,
+.cart-drawer__item-compare-price,
+s.price,
+del.price {
+  /* Hiérarchie par la taille et la graisse. */
+  font-size: 0.8125em !important;
+  font-weight: 400 !important;
+
+  /* La couleur suit le schéma de couleurs du bloc. */
+  color: inherit !important;
+
+  /* Neutralise le `opacity: 0.7` du thème, cause du contraste détruit. */
+  opacity: 1 !important;
+
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+}
+
+/* --------------------------------------------------------------------------
+   9.10 Accent unique : le filet laiton (#A98E5F) du badge de promotion, seul
+        second accent présent dans cette feuille, est retiré. Il ne cède PAS
+        la place à l'accent de la maison : « Épuisé » et le badge de métachamp
+        sont des signaux COMMERCIAUX, et le cyan est réservé à l'instrument.
+        Repère latéral en encre. Corps remonté de 11/10 px à 12 px
+        (plancher de lisibilité).
+   -------------------------------------------------------------------------- */
+.product-badges .badge {
+  font-size: 12px;
+  border: 1px solid rgba(11, 11, 12, 0.14);
+  box-shadow: inset 3px 0 0 0 rgba(11, 11, 12, 0.55);
+  color: var(--nm-encre);
+}
+
+@media (max-width: 749px) {
+  .product-badges .badge {
+    font-size: 12px;
+    padding: 3px 8px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   9.11 Mouvement : le tiroir panier et le menu mobile n'étaient couverts par
+        aucun @media (prefers-reduced-motion: reduce).
+   -------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  cart-drawer.is-open .cart-drawer__inner,
+  cart-drawer.is-closing .cart-drawer__inner,
+  .header__mobile-menu-overlay.is-open .header__mobile-menu,
+  .header__mobile-menu-overlay.is-closing .header__mobile-menu {
+    animation-duration: 1ms !important;
+  }
+
+  cart-drawer,
+  cart-drawer.is-open,
+  .header__mobile-menu-overlay,
+  .header__mobile-menu-overlay.is-open {
+    transition-duration: 1ms !important;
+  }
+
+  .button {
+    transition-duration: 1ms !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   9.12 Garde-fou de débordement horizontal, limité au tiroir.
+
+   ⚠️ NE JAMAIS poser overflow-x sur <html> ou <body> ici. Une première version
+   de ce bloc portait `html, body { overflow-x: clip }` : `overflow-x: clip`
+   laisse `overflow-y` à `visible`, ce qui retire au document son statut de
+   conteneur de défilement. Vérifié en rendu à 375 × 812 : la page ne défilait
+   plus verticalement du tout (scrollTop bloqué à 2,5 px sur 9679 px de haut),
+   et par ricochet la barre d'achat collante ne pouvait plus s'activer.
+   Les garde-fous `max-width: 100vw` / `overflow-x: clip` déjà posés sur les
+   conteneurs de noirmont-megamenu.css suffisent : le débordement se corrige
+   sur l'élément fautif, jamais sur la racine.
+   -------------------------------------------------------------------------- */
+@media (width <= 749px) {
+  .cart-drawer__item,
+  .cart-drawer__item-wrapper,
+  .cart-drawer__item-content {
+    max-width: 100%;
+  }
+}
+
+
+/* ==========================================================================
+   10. Charte A+B — 26/07/2026, révisée le soir même après retour de Hakim
+       sur téléphone.
+
+   Trois inflexions par rapport à la première version, toutes conservées ici :
+   1. le WORDMARK reprend l'identification principale en en-tête, mobile
+      compris ; l'anneau redescend au rang de marque secondaire (favicon,
+      pied de page) ;
+   2. l'accent passe du citron acide #D6FF3F au CYAN ÉLECTRIQUE #22D3EE, avec
+      une règle d'usage stricte : le cyan est la couleur de l'instrument,
+      jamais celle d'un signal commercial ;
+   3. l'appareil technique devient visible — puces de spécifications traitées
+      en instruments, filets de cote en séparateurs, inflexion monospace sur
+      les seules valeurs mesurées.
+
+   Cette feuille est chargée après 'css-variables' et 'color-schemes'.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   10.1 Un seul prix dominant.
+
+   Constat avant : sur une carte, le prix actif (16 px / 400), le prix barré
+   (13 px / 400) et l'économie (14 px / 500, sur fond craie, donc sans forme)
+   se suivaient sur la même ligne — trois montants de corps voisin, sans
+   libellé. Le prix actif ne dominait rien.
+
+   Après : le prix actif prend deux crans d'avance (20 px mobile / 22 px
+   desktop, graisse 600). Le prix barré n'est PAS touché ici — il garde le
+   réglage du bloc 9.9 (0,8125 em, graisse 400, couleur héritée, opacité
+   neutralisée, ≥ 4,5:1). On ne réintroduit aucune opacité.
+   -------------------------------------------------------------------------- */
+.product-price-container .price {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+@media (width > 749px) {
+  .product-price-container .price {
+    font-size: 22px;
+  }
+}
+
+.product-price-container .prices {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+}
+
+.product-price-container .price-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+}
+
+/* --------------------------------------------------------------------------
+   10.2 L'économie cesse d'être un troisième prix — et reste ACHROMATIQUE.
+
+   Avant : « -€90 » nu, 14 px, sur fond craie identique au fond de carte —
+   aucune forme, aucun libellé, indiscernable d'un montant.
+
+   Première version : pastille citron pleine. **Abandonnée sur consigne.**
+   Une remise est un signal commercial ; lui prêter la couleur de l'instrument
+   dévalue les deux. La pastille est donc encre sur craie, cernée d'un filet
+   pleine force, sans aucune couleur d'accent.
+
+   Allégée le 26/07 au soir en même temps que le reste : casse normale,
+   interlettrage normal, filet adouci à 32 % et angles complètement arrondis.
+   Elle reste distincte des deux prix — seul élément cerné et arrondi de la
+   ligne, sur un corps de 12,5 px là où le prix actif fait 20 px / 600 et le
+   prix barré 13 px / 400 barré — et distincte des puces de spécifications,
+   qui sont pleines et sans filet.
+
+   Couleurs héritées : sur craie, encre sur craie = 18,81:1 ; sur un bloc à
+   schéma sombre, craie sur vert = 11,80:1. Aucune valeur codée en dur, donc
+   aucun risque de répéter l'erreur du prix barré à 1,28:1.
+   -------------------------------------------------------------------------- */
+.badge--savings {
+  display: inline-flex !important;
+  align-items: baseline;
+  gap: 0.4em;
+  padding: 4px 12px;
+  border: 1px solid color-mix(in srgb, currentColor 32%, transparent) !important;
+  border-radius: 999px;
+  background: transparent !important;
+  color: inherit !important;
+  box-shadow: none !important;
+  opacity: 1 !important;
+  font-size: 12.5px;
+  font-weight: 400;
+  line-height: 1.35;
+  letter-spacing: normal !important;
+  text-transform: none !important;
+  white-space: nowrap;
+}
+
+.badge--savings .badge__text {
+  font-weight: 400;
+}
+
+.badge--savings .badge__savings {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum' 1;
+}
+
+/* ⚠️ Indispensable : le `display: inline-flex !important` ci-dessus écrase la
+   règle `.badge:has(.badge__savings:empty){display:none}` du snippet price.
+   Sans cette reprise, une fiche sans prix barré afficherait une pastille
+   « ÉCONOMIE » vide. Vérifié en rendu : montant vidé → display: none. */
+.badge--savings:has(.badge__savings:empty) {
+  display: none !important;
+}
+
+/* --------------------------------------------------------------------------
+   10.3 Le badge « En promotion » n'est plus rendu du tout :
+        show_sales_badge_on_cards est passé à false dans
+        config/settings_data.json — c'est le réglage qui le gouverne, pas ce
+        CSS. Les badges qui subsistent (« Épuisé », badge de métachamp) sont
+        des signaux commerciaux : leur repère latéral reste en encre, jamais
+        en cyan (voir 9.10, corrigé à la source).
+   -------------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------------------
+   10.4 Puces de spécifications traitées comme des INSTRUMENTS.
+
+   ⚠️ ALLÉGÉES le 26/07 au soir. La première version cumulait TROIS signaux
+   lourds pour annoncer un nombre : capitales, interlettrage de 0,18 em ET
+   bordure dure. C'est le traitement d'affichage appliqué à du fonctionnel,
+   et c'est ce qui rendait la fiche « carrée et agressive ».
+   Un seul signal technique désormais : pastille arrondie, fond doux, aucune
+   bordure, libellé en casse normale — et le côté instrument tient dans le
+   monospace de la valeur mesurée et un point cyan de 5 px.
+
+   Alimentées uniquement par les métachamps réels custom.diametre /
+   custom.calibre / custom.couleur_cadran. Une valeur absente ne produit
+   aucune puce — voir blocks/noirmont-specs.liquid.
+
+   Contrastes : libellé et valeur héritent de la couleur du schéma du bloc.
+   Le fond doux est `currentColor` à 7 %, donc il suit lui aussi le schéma —
+   aucune couleur codée en dur, clair comme sombre.
+   -------------------------------------------------------------------------- */
+.nm-specs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nm-specs__item {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 7px;
+  padding: 7px 14px;
+  border: 0;
+  border-radius: 999px;
+  background: color-mix(in srgb, currentColor 7%, transparent);
+  color: inherit;
+  opacity: 1;
+  white-space: nowrap;
+}
+
+/* Le seul repère technique qui reste : un point cyan de 5 px. Il ne porte
+   aucune information — mesuré à 1,72:1 sur craie, il ne le pourrait pas. */
+.nm-specs__item::before {
+  content: '';
+  align-self: center;
+  flex: 0 0 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: var(--nm-cyan);
+}
+
+.nm-specs__label {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.nm-specs__value {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: normal;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum' 1;
+}
+
+/* Inflexion monospace conservée sur les VALEURS MESURÉES (diamètre, calibre).
+   Pas sur la couleur de cadran, qui n'est pas une mesure, et jamais sur du
+   texte courant. Une police monospace est tabulaire par construction. */
+.nm-specs__item--mesure .nm-specs__value {
+  font-family: ui-monospace, 'SFMono-Regular', 'SF Mono', Menlo, Consolas, monospace;
+  font-size: 12.5px;
+  letter-spacing: 0.01em;
+}
+
+/* --------------------------------------------------------------------------
+   10.5 En-tête : le WORDMARK reprend l'identification principale.
+
+   Retour de Hakim, et c'est juste : à 30 px, un symbole seul ne prononce pas
+   le nom d'une marque que personne ne connaît encore — il se lit comme une
+   icône d'interface. L'anneau reste en favicon et en marque secondaire de
+   pied de page (10.8) ; il ne porte plus l'identification.
+
+   Le problème de dimensionnement, lui, reste entier et se règle par le
+   cadrage : le lettrage complet « MAISON NOIRMONT » fait 2379 × 172 px, soit
+   un rapport de 13,83:1. Dans la colonne de 179 px que laissent trois cibles
+   de 44 px à 375 px, il ne peut faire que 13 px de haut.
+
+   Sous 750 px on n'affiche donc plus que le mot « NOIRMONT », découpé dans
+   le lettrage d'origine (colonnes 1088 → 2372, rapport 8,18:1) : à la même
+   largeur de 179 px il fait 22 px de haut, soit 1,85× la hauteur de glyphe
+   précédente. Le nom de la maison reste prononcé, et le lettrage est le
+   lettrage de la maison — rien n'a été redessiné.
+
+   Le wordmark complet est intact en desktop et dans le pied de page. Le
+   <img> reste dans l'arbre d'accessibilité (technique du texte hors écran :
+   1 px + clip), donc le nom accessible du lien reste « Maison Noirmont »,
+   entier. Le rendu passe par un masque alimenté par `currentColor` : le
+   lettrage suit le schéma de couleurs de l'en-tête, clair comme sombre.
+
+   `mask-size: contain` : sur un écran plus étroit que 375 px la marque se
+   réduit proportionnellement, elle n'est jamais rognée.
+   -------------------------------------------------------------------------- */
+@media (width <= 749px) {
+  .header__logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 44px;
+  }
+
+  .header__logo .header__logo-image {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .header__logo::before {
+    content: '';
+    display: block;
+    width: 100%;
+    max-width: 179px;
+    height: 22px;
+    background-color: currentColor;
+    -webkit-mask: url('https://cdn.shopify.com/s/files/1/1094/1893/8706/files/logo-noirmont-mot-encre.png?v=1785098912') center / contain no-repeat;
+    mask: url('https://cdn.shopify.com/s/files/1/1094/1893/8706/files/logo-noirmont-mot-encre.png?v=1785098912') center / contain no-repeat;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   10.6 Chiffres tabulaires — reprise après le changement de police.
+
+   Mesuré : l'Inter servi par la bibliothèque Shopify N'EXPOSE PAS la
+   fonctionnalité `tnum`. Largeurs de « 111111 » / « 888888 » / « 000000 » à
+   20 px : 47,04 / 72,78 / 75,01 px, identiques avec et sans
+   `font-variant-numeric: tabular-nums` — la déclaration du bloc 9.8 était
+   donc devenue inopérante. L'Inter personnalisé qui servait auparavant de
+   police de corps, lui, est bien tabulaire : 77,81 px pour les trois.
+
+   Correctif : on réenrôle exactement ce fichier, mais UNIQUEMENT sur les
+   chiffres et les signes qui les accompagnent (`unicode-range`), et
+   uniquement sur les contextes de prix. Les lettres continuent d'être
+   rendues par l'Inter de la bibliothèque : aucune double police visible.
+
+   Le fichier reste par ailleurs référencé par `custom_type_body_font` dans
+   config/settings_data.json — les réglages de polices personnalisées y ont
+   été conservés tels quels, ce qui rend le retour en arrière immédiat.
+   -------------------------------------------------------------------------- */
+@font-face {
+  font-family: 'NM Chiffres';
+  src: url('https://cdn.shopify.com/s/files/1/1094/1893/8706/files/inter-400.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0020, U+0025, U+002C-002E, U+0030-0039, U+00A0, U+20AC, U+2212;
+}
+
+.price,
+.price *,
+.compare-at-price,
+.badge--savings .badge__savings,
+.nm-specs__value,
+.product-price,
+.cart__totals,
+.cart__totals p,
+.cart__totals-value,
+.cart__discounts,
+.cart-drawer__totals,
+.cart-drawer__totals p,
+.cart-drawer__totals-value,
+.cart-drawer__reductions,
+.cart-drawer__reductions-value,
+.cart-drawer__item-price,
+.cart-drawer__item-compare-price,
+.header__icon-count-bubble-inner,
+.nm-upsell-price {
+  font-family: 'NM Chiffres', var(--font-body--family), sans-serif;
+}
+
+/* --------------------------------------------------------------------------
+   10.7 Filets de cote — les séparateurs de section cessent d'être un trait.
+
+   Le thème rend `<div class="separator">` : un filet de 1 px, sans début ni
+   fin. On lui donne de vraies terminaisons, comme une ligne de cote sur un
+   plan : deux traits verticaux de 9 px aux extrémités.
+
+   Les terminaisons sont en `currentColor`, pas en cyan : à 1,72:1 sur craie
+   le cyan ne serait pas visible à cette taille, et l'accent est déjà employé
+   une fois dans la zone produit (le flanc des puces de spécifications). Un
+   élément technique par zone, pas trois.
+   -------------------------------------------------------------------------- */
+.separator-block .separator {
+  position: relative;
+}
+
+.separator-block .separator::before,
+.separator-block .separator::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 1px;
+  height: 9px;
+  transform: translateY(-50%);
+  background-color: currentColor;
+  opacity: 1;
+}
+
+.separator-block .separator::before {
+  left: 0;
+}
+
+.separator-block .separator::after {
+  right: 0;
+}
+
+/* --------------------------------------------------------------------------
+   10.8 L'anneau, marque secondaire : pied de page.
+
+   Il garde sa place dans l'identité — favicon et signature de bas de page —
+   mais il ne porte plus l'identification principale. Posé au-dessus du
+   wordmark du pied de page, à 22 px, en `currentColor` comme le fichier
+   assets/noirmont-marque.svg dont il reprend le tracé à l'identique.
+   -------------------------------------------------------------------------- */
+footer .block__logo {
+  display: block;
+}
+
+footer .block__logo::before {
+  content: '';
+  display: block;
+  width: 22px;
+  height: 22px;
+  margin: 0 0 12px;
+  background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22%3E%3Ccircle%20cx=%2250%22%20cy=%2250%22%20r=%2238%22%20fill=%22none%22%20stroke=%22%23000%22%20stroke-width=%227%22/%3E%3Cpath%20d=%22M%2050%2050%20L%2050%2012%20A%2038%2038%200%200%201%2076.87%2023.13%20Z%22%20fill=%22%23000%22/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22%3E%3Ccircle%20cx=%2250%22%20cy=%2250%22%20r=%2238%22%20fill=%22none%22%20stroke=%22%23000%22%20stroke-width=%227%22/%3E%3Cpath%20d=%22M%2050%2050%20L%2050%2012%20A%2038%2038%200%200%201%2076.87%2023.13%20Z%22%20fill=%22%23000%22/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+/* ==========================================================================
+   11. Allègement — 26/07/2026, après comparaison mobile avec montre-avenue.com
+
+   Diagnostic de Hakim, exact : le traitement d'AFFICHAGE avait été appliqué au
+   FONCTIONNEL. Un libellé de spécification portait capitales + interlettrage
+   large + bordure dure pour annoncer un nombre ; le sélecteur de variante
+   était un aplat d'encre en capitales pour une option unique ; le titre
+   produit était en grotesque condensée grasse alors que le wordmark de la
+   maison est une didone fine — deux mondes opposés sur le même écran.
+
+   Ce bloc allège la CHARGE VISUELLE. Il ne supprime pas le point de vue :
+   le cyan reste la couleur de l'instrument, les chiffres restent monospace et
+   tabulaires, les filets de cote restent (10.7). On ne va pas jusqu'au rendu
+   de montre-avenue, qui est agréable ET générique.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   11.1 Oswald redevient une police d'AFFICHAGE, et rien d'autre.
+
+   Il reste sur le hero et les titres de section (h1/h2/h3 des blocs
+   éditoriaux). Il sort du TITRE PRODUIT, qui est un libellé fonctionnel lu de
+   près : Inter 600, comme demandé.
+
+   Le reste du fonctionnel était déjà en Inter — mesuré avant intervention :
+   bouton d'achat, libellés de variantes et libellés de puces sortaient tous
+   de `--font-body--family` = Inter. Rien à y changer côté police.
+
+   `!important` nécessaire : `.text-block.h3 > *` (0,2,1) et cette règle
+   (0,2,1) sont à égalité de spécificité, et styles.css est chargé après
+   cette feuille — sans lui, le thème gagne.
+   -------------------------------------------------------------------------- */
+.shopify-section-product-section .text-block > h1 {
+  font-family: var(--font-body--family), sans-serif !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.005em !important;
+  line-height: 1.2;
+}
+
+/* --------------------------------------------------------------------------
+   11.2 Boutons : casse normale, interlettrage normal, angles adoucis.
+
+   Le bouton d'achat doit rester le plus visible de la page par sa SURFACE et
+   son CONTRASTE, pas par ses capitales. Ni la taille (335 × 50 px à 375 px)
+   ni les couleurs (craie sur vert #1E3A2F, 11,76:1 mesuré) ne sont touchées.
+   -------------------------------------------------------------------------- */
+.button,
+.button--primary,
+.button--secondary {
+  text-transform: none !important;
+  letter-spacing: 0.01em !important;
+  border-radius: 6px !important;
+}
+
+/* --------------------------------------------------------------------------
+   11.3 Sélecteur de variante : contour arrondi, casse normale, à son contenu.
+
+   Avant : aplat d'encre pleine largeur en capitales interlettrées, 40 px de
+   haut — sous le plancher tactile de 44 px, au passage.
+   Après : contour arrondi, casse normale, largeur ajustée au contenu,
+   min-height 44 px. L'état sélectionné se lit au filet pleine force doublé
+   d'un fond doux, plus au renversement encre/craie.
+
+   ⚠️ L'anneau de focus du bloc 9.1 n'est pas touché : il vise l'input radio
+   en :focus-visible, pas le label.
+   -------------------------------------------------------------------------- */
+.variant-picker__option-value > label {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: auto !important;
+  min-height: var(--nm-tap) !important;
+  padding: 10px 18px !important;
+  border-radius: 999px !important;
+  border: 1px solid color-mix(in srgb, currentColor 26%, transparent) !important;
+  background: transparent !important;
+  color: inherit !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+  text-align: center;
+  white-space: normal;
+}
+
+.variant-picker__option-value:has(input:checked) > label,
+.variant-picker__option-value > input:checked + label {
+  border-color: currentColor !important;
+  box-shadow: inset 0 0 0 1px currentColor !important;
+  background: color-mix(in srgb, currentColor 7%, transparent) !important;
+  font-weight: 500 !important;
+}
+
+.variant-picker__option-value {
+  width: auto !important;
+  max-width: 100%;
+}
+
+.variant-picker__option-values {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 8px !important;
+}
+
+/* --------------------------------------------------------------------------
+   11.4 Respirer.
+
+   C'est ce qui produit l'essentiel de la sensation de légèreté, plus encore
+   que la police. La colonne d'informations produit passe d'un pas de 12 px à
+   22 px entre ses 13 blocs fonctionnels ; le nom d'option prend de l'air
+   au-dessus de ses pastilles.
+   -------------------------------------------------------------------------- */
+.product-section__product-info {
+  gap: 22px !important;
+}
+
+.product-section__content {
+  gap: 24px !important;
+}
+
+.variant-picker__options {
+  display: flex;
+  flex-direction: column;
+  gap: 20px !important;
+}
+
+.variant-picker__option-name {
+  margin-bottom: 8px !important;
+}
+
+@media (width > 749px) {
+  .product-section__product-info {
+    gap: 24px !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   11.5 Angles : le thème est réglé sur 0 / 2 px partout, d'où le « carré ».
+        Adouci d'un cran sur les surfaces fonctionnelles seulement. Les
+        cartes produit et les images ne sont pas touchées : ce sont elles qui
+        tiennent la rigueur de la grille.
+   -------------------------------------------------------------------------- */
+.textfield input,
+.select,
+.quantity-selector {
+  border-radius: 6px !important;
+}
+
+/* ==========================================================================
+   12. Purge du vert forêt et de son cousin laiton — 26/07/2026
+
+   #1E3A2F et #A98E5F sont des restes de l'ancienne charte. La palette retenue
+   est : encre #0B0B0C, craie #FAFAF7, acier #8A9099, cyan #22D3EE.
+
+   Le vert n'était pas un détail : c'était LA PLUS GRANDE SURFACE COLORÉE de
+   la page, le bouton d'achat. Il passe en encre — le contraste le plus fort
+   disponible sur craie, donc le bouton gagne en présence au lieu d'en perdre.
+
+   ⚠️ Pas de cyan sur le bouton d'achat : la règle du bloc 9 l'interdit sur un
+   élément commercial, et à 1,72:1 sur fond clair il serait illisible.
+   ⚠️ Les étoiles d'avis restent en vert Trustpilot #05B67A — autre couleur,
+   autre sujet, décision de Hakim. Rien ici ne les vise.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   12.1 Jeux de couleurs — CORRIGÉ À LA SOURCE, plus aucune surcharge ici.
+
+   Une première version de ce bloc neutralisait le vert par six surcharges
+   `!important` sur --color-primary-button-* et --color-secondary-badge-* des
+   schémas 1 et 2, plus trois sur le schéma 3. Visuellement propre, mais les
+   valeurs sources restaient vertes dans config/settings_data.json :
+   l'éditeur de thème pouvait les faire réapparaître au premier
+   réenregistrement d'un jeu de couleurs. Une surcharge qui se bat contre une
+   valeur source est une bombe à retardement, pas un correctif.
+
+   Les 10 valeurs ont donc été remplacées dans `config/settings_data.json`,
+   teinte par teinte et rôle par rôle :
+
+     scheme-1 et scheme-2 (fond clair) — primary_button_background,
+       primary_button_border, secondary_badge_background,
+       secondary_badge_border : #1E3A2F → #0B0B0C.
+       Les textes correspondants étaient déjà en craie, ils n'ont pas bougé.
+     scheme-3 (fond encre) — secondary_badge_background,
+       secondary_badge_border : #A98E5F → #FAFAF7.
+       Son texte de badge était déjà en encre.
+
+   ⚠️ Le bouton primaire du schéma 3 (#FAFAF7 sur #0B0B0C) n'a PAS été touché :
+   c'est exactement le piège d'une purge globale, qui l'aurait rendu encre sur
+   encre donc invisible. Aucun jeu n'a été aplati sur un autre.
+
+   Les 9 surcharges `!important` de variables sont donc supprimées. Celles qui
+   subsistent en 12.2 et 12.3 ne sont pas redondantes : leurs sources sont des
+   `{% stylesheet %}` de blocs Liquid, deux feuilles `assets/` distinctes et un
+   `<style>` en ligne du tiroir panier — aucune n'est dans le périmètre de
+   cette passe.
+   -------------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------------------
+   12.2 Barre de livraison : le vert, et les capitales oubliées.
+
+   « LIVRAISON GRATUITE » traînait à la fois le vert et les capitales, alors
+   qu'on venait de retirer les capitales partout ailleurs. Casse normale, et
+   couleur reprise dans la palette.
+
+   L'acier #8A9099 a été essayé pour garder la mention secondaire : mesuré à
+   **3,06:1 sur craie**, sous le seuil de 4,5:1 d'un texte. Écarté. La mention
+   passe donc en encre, et sa mise en retrait est portée par le corps (0,8 rem)
+   et non par la couleur — même principe que le prix barré du bloc 9.9.
+
+   Ces déclarations viennent du `{% stylesheet %}` de
+   blocks/noirmont-livraison.liquid, donc de styles.css, chargé APRÈS cette
+   feuille : `!important` est nécessaire.
+   -------------------------------------------------------------------------- */
+.noirmont-livraison {
+  background: rgba(11, 11, 12, 0.05) !important;
+  border: 1px solid rgba(11, 11, 12, 0.14) !important;
+}
+
+.noirmont-livraison__dot {
+  background: var(--nm-encre) !important;
+}
+
+.noirmont-livraison__free {
+  color: var(--nm-encre) !important;
+  text-transform: none !important;
+  letter-spacing: 0.01em !important;
+  font-weight: 600 !important;
+}
+
+/* --------------------------------------------------------------------------
+   12.3 Les autres occurrences, feuille par feuille.
+
+   Relevé exhaustif sur les feuilles réellement servies (voir le livrable) :
+   bloc de réassurance, bloc « 4× », méga-menu illustré et pages collection.
+   Toutes repassent en encre ou en encre transparente. Aucune ne prend le
+   cyan : ce sont des ornements et des survols, pas des instruments.
+   -------------------------------------------------------------------------- */
+.noirmont-confiance__icon {
+  color: var(--nm-encre) !important;
+}
+
+.noirmont-confiance__card--contact {
+  background: rgba(11, 11, 12, 0.04) !important;
+  border-color: rgba(11, 11, 12, 0.18) !important;
+}
+
+.noirmont-4x__badge--alt {
+  background: rgba(11, 11, 12, 0.06) !important;
+}
+
+.nm-mm__grid .collection-card:hover .nm-mm__legend > *,
+.nm-soeurs .collection-card:hover .nm-soeurs__legend > * {
+  color: var(--nm-encre) !important;
+}
+
+.nm-mm__all a,
+.nm-coll-desc button,
+.nm-coll-desc .see-more__button {
+  color: var(--nm-encre) !important;
+  border-bottom-color: rgba(11, 11, 12, 0.35) !important;
+}
+
+.nm-soeurs .collection-card:hover {
+  border-color: rgba(11, 11, 12, 0.35) !important;
+}
+
+/* Deux dernières occurrences, trouvées au rendu et non dans les feuilles :
+   elles vivent dans un <style> en ligne du tiroir panier, injecté APRÈS cette
+   feuille — d'où le !important. Elles n'apparaissaient dans aucun fichier
+   `.css` servi, seul le balayage des couleurs CALCULÉES les a fait sortir. */
+.nm-cart-upsell__title,
+.nm-cart-upsell__price {
+  color: var(--nm-encre) !important;
+}
+
+/* --------------------------------------------------------------------------
+   12.4 Équilibrage des retours à la ligne des titres.
+
+   Le titre produit laissait « 42 » seul sur la seconde ligne. `text-wrap:
+   balance` répartit les mots sur des lignes de longueur voisine.
+
+   Le repli est explicite : la règle est enfermée dans un `@supports`. Là où
+   la propriété n'existe pas, rien n'est appliqué — le texte se coupe
+   normalement, simplement sans équilibrage. Aucun autre réglage n'en dépend.
+   -------------------------------------------------------------------------- */
+@supports (text-wrap: balance) {
+  h1,
+  h2,
+  h3,
+  .text-block > h1,
+  .text-block > h2,
+  .text-block > h3,
+  .product-card__title,
+  .collection-card__title {
+    text-wrap: balance;
+  }
+}

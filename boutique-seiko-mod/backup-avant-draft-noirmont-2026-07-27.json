@@ -1,0 +1,51 @@
+{
+  "date": "2026-07-27",
+  "boutique": "v42pzp-h4 / maisonnoirmont.fr",
+  "objet": "Etat AVANT passage en DRAFT des 3 fiches dont les visuels contredisent le listing fournisseur mappe.",
+  "restauration": "Rejouer productUpdate avec status ACTIVE. Les publications (Boutique en ligne / Point de vente / Shop) sont restaurees automatiquement par Shopify au repassage en ACTIVE ; si ce n'est pas le cas, republier sur les 3 publications listees ci-dessous.",
+  "rien_d_autre_touche": "Aucun SKU, prix, variante, option, media, titre, description, metachamp ni mapping DSers modifie par cette operation.",
+  "produits": [
+    {
+      "id": "gid://shopify/Product/10977448624466",
+      "handle": "noirmont-deux-plongeuse-ceramique",
+      "title": "Noirmont Deux — Plongeuse céramique",
+      "status_avant": "ACTIVE",
+      "publishedAt_avant": "2026-07-24T17:09:45Z",
+      "publications_avant": [
+        {"id": "gid://shopify/Publication/358599295314", "name": "Boutique en ligne", "isPublished": true, "publishDate": "2026-07-24T17:09:45Z"},
+        {"id": "gid://shopify/Publication/358599328082", "name": "Point de vente", "isPublished": true, "publishDate": "2026-07-24T17:09:45Z"},
+        {"id": "gid://shopify/Publication/358599360850", "name": "Shop", "isPublished": true, "publishDate": "2026-07-24T17:09:45Z"}
+      ],
+      "variantes": 20,
+      "fournisseur_mappe": "https://fr.aliexpress.com/item/1005005629655849.html (BLIGER / BL Watches Parts Store)"
+    },
+    {
+      "id": "gid://shopify/Product/10977448558930",
+      "handle": "noirmont-un-plongeuse-acier",
+      "title": "Noirmont Un — Plongeuse acier",
+      "status_avant": "ACTIVE",
+      "publishedAt_avant": "2026-07-24T17:09:44Z",
+      "publications_avant": [
+        {"id": "gid://shopify/Publication/358599295314", "name": "Boutique en ligne", "isPublished": true, "publishDate": "2026-07-24T17:09:44Z"},
+        {"id": "gid://shopify/Publication/358599328082", "name": "Point de vente", "isPublished": true, "publishDate": "2026-07-24T17:09:44Z"},
+        {"id": "gid://shopify/Publication/358599360850", "name": "Shop", "isPublished": true, "publishDate": "2026-07-24T17:09:44Z"}
+      ],
+      "variantes": 6,
+      "fournisseur_mappe": "https://fr.aliexpress.com/item/1005004626900765.html (Tandorio, 14:350686#steel case-no logo)"
+    },
+    {
+      "id": "gid://shopify/Product/10978722087250",
+      "handle": "noirmont-un-bronze-plongeuse",
+      "title": "Noirmont Un Bronze — Plongeuse",
+      "status_avant": "ACTIVE",
+      "publishedAt_avant": "2026-07-25T04:21:34Z",
+      "publications_avant": [
+        {"id": "gid://shopify/Publication/358599295314", "name": "Boutique en ligne", "isPublished": true, "publishDate": "2026-07-25T04:21:34Z"},
+        {"id": "gid://shopify/Publication/358599328082", "name": "Point de vente", "isPublished": true, "publishDate": "2026-07-25T04:22:46Z"},
+        {"id": "gid://shopify/Publication/358599360850", "name": "Shop", "isPublished": true, "publishDate": "2026-07-25T04:22:46Z"}
+      ],
+      "variantes": 6,
+      "fournisseur_mappe": "https://fr.aliexpress.com/item/1005004626900765.html (Tandorio, 14:94#bronze case-no logo)"
+    }
+  ]
+}

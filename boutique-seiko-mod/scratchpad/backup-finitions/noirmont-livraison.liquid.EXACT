@@ -1,0 +1,118 @@
+{%- liquid
+  assign nm_min_days = block.settings.min_days | default: 14
+  assign nm_max_days = block.settings.max_days | default: 21
+  assign nm_now = 'now' | date: '%s' | plus: 0
+  assign nm_sec_min = nm_min_days | times: 86400
+  assign nm_sec_max = nm_max_days | times: 86400
+  assign nm_start = nm_now | plus: nm_sec_min
+  assign nm_end = nm_now | plus: nm_sec_max
+  assign nm_mois = 'janvier,février,mars,avril,mai,juin,juillet,août,septembre,octobre,novembre,décembre' | split: ','
+  assign nm_m1 = nm_start | date: '%-m' | plus: 0 | minus: 1
+  assign nm_m2 = nm_end | date: '%-m' | plus: 0 | minus: 1
+-%}
+
+<div class="noirmont-livraison" {{ block.shopify_attributes }}>
+  <span class="noirmont-livraison__message">
+    <span class="noirmont-livraison__dot" aria-hidden="true"></span>
+    <span>
+      Livraison estimée entre le
+      <strong>{{ nm_start | date: '%-d' }} {{ nm_mois[nm_m1] }}</strong>
+      et le
+      <strong>{{ nm_end | date: '%-d' }} {{ nm_mois[nm_m2] }}</strong>
+    </span>
+  </span>
+  {%- if block.settings.show_free -%}
+    <strong class="noirmont-livraison__free">{{ block.settings.free_label }}</strong>
+  {%- endif -%}
+</div>
+
+{% stylesheet %}
+  .noirmont-livraison {
+    align-items: center;
+    background: rgba(30, 58, 47, 0.06);
+    border: 1px solid rgba(30, 58, 47, 0.14);
+    border-radius: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.92rem;
+    gap: 10px 16px;
+    justify-content: space-between;
+    line-height: 1.4;
+    padding: 12px 16px;
+    width: 100%;
+  }
+
+  .noirmont-livraison__message {
+    align-items: center;
+    display: inline-flex;
+    gap: 9px;
+  }
+
+  .noirmont-livraison__dot {
+    background: #1E3A2F;
+    border-radius: 999px;
+    flex: 0 0 auto;
+    height: 9px;
+    width: 9px;
+  }
+
+  .noirmont-livraison__free {
+    color: #1E3A2F;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+  }
+
+  @media (max-width: 479px) {
+    .noirmont-livraison {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 6px;
+    }
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "Barre de livraison",
+  "tag": null,
+  "settings": [
+    {
+      "type": "range",
+      "id": "min_days",
+      "label": "Délai minimum (jours)",
+      "min": 1,
+      "max": 40,
+      "step": 1,
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "max_days",
+      "label": "Délai maximum (jours)",
+      "min": 2,
+      "max": 60,
+      "step": 1,
+      "default": 21
+    },
+    {
+      "type": "checkbox",
+      "id": "show_free",
+      "label": "Afficher la mention livraison offerte",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "free_label",
+      "label": "Libellé livraison offerte",
+      "default": "Livraison gratuite"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Barre de livraison",
+      "category": "Produit"
+    }
+  ]
+}
+{% endschema %}

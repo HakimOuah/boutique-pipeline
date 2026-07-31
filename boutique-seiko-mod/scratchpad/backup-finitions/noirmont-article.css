@@ -1,0 +1,71 @@
+/* ------------------------------------------------------------------
+   Maison Noirmont — Article : tableaux larges.
+
+   Regle des guidelines : un contenu large defile DANS SON PROPRE
+   conteneur ; le corps de page ne defile jamais lateralement.
+
+   Cette feuille est un asset et non le champ CSS d'une section :
+   ce dernier est rejete en silence par Shopify.
+   L'enveloppe .nm-table-scroll est posee par assets/noirmont-article.js,
+   impossible a creer en CSS seul.
+   ------------------------------------------------------------------ */
+
+/* .article est un conteneur flex. Sans min-width:0, l'article ne peut pas
+   retrecir sous la largeur minimale du tableau : c'est alors la PAGE qui
+   deborde. Mesure a 375 px sans ces deux lignes : 85 px de debordement. */
+.article > .article-content {
+  min-width: 0;
+}
+
+.article-content .text-block {
+  min-width: 0;
+}
+
+.nm-table-scroll {
+  min-width: 0;
+  max-width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+  margin-block: 1.5rem;
+  border: 1px solid color-mix(in srgb, var(--color-foreground) 14%, transparent);
+}
+
+/* Le cyan ne porte ici aucune information : c'est un etat de focus. */
+.nm-table-scroll:focus-visible {
+  outline: 2px solid var(--nm-cyan, #22d3ee);
+  outline-offset: 2px;
+}
+
+.nm-table-scroll > table {
+  width: 100%;
+  min-width: 34rem;
+  margin: 0;
+  border-collapse: collapse;
+  font-size: var(--font-body--size-small, 0.875rem);
+  line-height: 1.45;
+}
+
+.nm-table-scroll th,
+.nm-table-scroll td {
+  padding: 0.75rem 0.875rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-foreground) 10%, transparent);
+}
+
+.nm-table-scroll thead th {
+  font-weight: 600;
+  white-space: nowrap;
+  border-bottom-color: color-mix(in srgb, var(--color-foreground) 30%, transparent);
+}
+
+.nm-table-scroll tbody tr:last-child th,
+.nm-table-scroll tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+/* Chiffres tabulaires, comme partout ailleurs sur la boutique. */
+.nm-table-scroll td {
+  font-variant-numeric: tabular-nums;
+}

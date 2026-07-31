@@ -1,0 +1,100 @@
+:focus-visible {
+  outline: 2px solid var(--nm-cyan, #22d3ee) !important;
+  outline-offset: 2px !important;
+  box-shadow: 0 0 0 6px rgba(11, 11, 12, 0.92) !important;
+}
+.input-group:has(:focus-visible),
+.textfield:has(:focus-visible),
+.see-more:has(:focus-visible) {
+  overflow: visible;
+}
+:root {
+  --nm-tap: 44px;
+  --nm-tap-gap: 8px;
+}
+.splide__arrow {
+  position: absolute;
+}
+.splide__arrow::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: var(--nm-tap);
+  height: var(--nm-tap);
+  transform: translate(-50%, -50%);
+}
+.splide__pagination {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.splide__pagination li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(var(--nm-tap) + var(--nm-tap-gap));
+  height: var(--nm-tap);
+}
+.splide__pagination__page {
+  position: relative;
+}
+.splide__pagination__page::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: var(--nm-tap);
+  height: var(--nm-tap);
+  transform: translate(-50%, -50%);
+}
+summary.accordion__header,
+.accordion__header {
+  min-height: var(--nm-tap);
+}
+.button--icon-only {
+  min-width: var(--nm-tap) !important;
+  min-height: var(--nm-tap) !important;
+}
+.button--small {
+  min-height: var(--nm-tap) !important;
+}
+.menu-block__link {
+  display: inline-flex;
+  align-items: center;
+  min-width: var(--nm-tap);
+  min-height: var(--nm-tap);
+}
+.header__mobile-menu-link {
+  min-height: var(--nm-tap);
+}
+.side-menu__toggle-link,
+.see-more__toggle {
+  min-height: var(--nm-tap);
+}
+.nm-soeurs .collection-card,
+.collection-card {
+  min-height: var(--nm-tap);
+}
+.cart-drawer__item-name,
+.nm-cart-upsell__name {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--nm-tap);
+}
+.nm-upsell-add {
+  min-width: var(--nm-tap);
+  min-height: var(--nm-tap);
+}
+.quantity-selector input,
+.quantity-selector button {
+  min-width: var(--nm-tap) !important;
+  min-height: var(--nm-tap) !important;
+}
+.cart-drawer__item-actions-wrapper .quantity-selector--small input,
+.cart__item-actions-wrapper .quantity-selector--small input {
+  width: var(--nm-tap) !important;
+  min-width: var(--nm-tap) !important;
+}
+.nm-cart-upsell__name {
+  margin-bottom: var(--nm-tap-gap);
+}

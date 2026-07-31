@@ -1,0 +1,228 @@
+/* ==========================================================================
+   Maison Noirmont — anneau de focus generalise et cibles tactiles
+   27/07/2026.
+
+   Chargee dans layout/theme.liquid APRES noirmont-article.css et APRES le
+   paquet styles.css des sections, AVANT noirmont-see-more-fix.css qui doit
+   rester la derniere feuille du <head>.
+
+   Pourquoi une feuille d'asset et non le champ CSS d'une section : sur ce
+   theme le champ CSS de section est rejete en silence.
+
+   ⚠️ PIEGE DE MESURE, a relire avant toute verification de cette feuille.
+   Les TRANSITIONS CSS passent AVANT les declarations `!important` dans la
+   cascade. Le theme pose `transition: .15s ease-in-out` sur `.button`, ce qui
+   met min-width, min-height, outline-color et outline-width en transition.
+   Tant qu'une transition court, getComputedStyle rend la valeur INTERPOLEE,
+   pas la valeur declaree — et dans une iframe hors ecran les transitions ne
+   se terminent jamais. Un releve fait a cet instant-la montre l'ancien
+   40 x 40 et un outline transparent, et fait conclure a tort que la regle ne
+   s'applique pas. Neutraliser les transitions avant de mesurer :
+     * , *::before , *::after { transition-duration: 0s !important }
+   C'est exactement ce piege qui avait fait lire « anneau a 1,72:1 ».
+
+   --------------------------------------------------------------------------
+   1. ANNEAU DE FOCUS — le contraste est porte par l'ENCRE, pas par le cyan.
+
+   Mesure du 27/07 sur le rendu, opacite cumulee des ancetres comprise, apres
+   parcours au clavier reel (Tab) sur 4 pages, 199 arrets de tabulation :
+
+     cyan #22D3EE sur craie #FAFAF7 ............  1,73:1  insuffisant seul
+     halo encre rgba(11,11,12,.92) sur craie ... 15,04:1  porte le contraste
+     cyan #22D3EE sur encre #0B0B0C ............ 10,89:1  porte le contraste
+     halo encre sur encre ......................  1,00:1  invisible, normal
+
+   L'anneau a donc DEUX composantes complementaires, et il en faut deux :
+   le halo d'encre gagne sur fond clair, le trait cyan gagne sur fond sombre.
+   Ne jamais retirer l'une des deux, ne jamais remplacer le halo par du cyan.
+
+   Ordre de peinture : le box-shadow exterieur est peint sous le fond de
+   l'element, l'outline par-dessus tout. L'anneau se lit donc de l'exterieur
+   vers l'interieur : encre 2 px, cyan 2 px, encre 2 px.
+
+   Le bloc 9.1 de noirmont-custom.css posait deja ce couple, mais sur une
+   liste NOMINATIVE de 22 selecteurs. Tout ce qui n'y figure pas reste sans
+   anneau. La regle ci-dessous est le filet universel qui ferme ce trou.
+   Specificite volontairement faible (0,1,0) : les cas particuliers deja
+   ecrits — .quantity-selector input:focus-visible et son anneau en offset
+   negatif — restent prioritaires.
+   ========================================================================== */
+
+:focus-visible {
+  outline: 2px solid var(--nm-cyan, #22d3ee) !important;
+  outline-offset: 2px !important;
+  box-shadow: 0 0 0 6px rgba(11, 11, 12, 0.92) !important;
+}
+
+/* Le halo est un box-shadow : il est rogne par tout ancetre en overflow
+   cache. Mesure sur les groupes de champs (newsletter, recherche) : 6 a 7 px
+   de rognage, donc l'anneau disparait d'un cote. Ces conteneurs n'ont un
+   overflow cache que pour leurs coins arrondis : on le rend visible le temps
+   du focus, comme le fait deja .quantity-selector au bloc 9.1.
+   Volontairement limite a ces trois conteneurs : rendre .splide__track ou
+   .cart-drawer__inner visibles casserait le carrousel et le tiroir. */
+.input-group:has(:focus-visible),
+.textfield:has(:focus-visible),
+.see-more:has(:focus-visible) {
+  overflow: visible;
+}
+
+/* ==========================================================================
+   2. CIBLES TACTILES — 44 x 44 px, 8 px d'ecart, mesure a 375 px.
+
+   Methode : on n'agrandit JAMAIS le dessin. Quand la boite visible doit
+   rester petite (fleches de carrousel, puces de pagination), la cible est
+   etendue par un ::after transparent centre sur l'element. Les quatre
+   familles concernees avaient bien ::after et ::before a `none` avant
+   modification — verifie element par element sur le rendu.
+   Ailleurs, un min-height suffit : il fait grandir la boite du controle sans
+   toucher a la taille de police de l'icone ni du libelle.
+   ========================================================================== */
+
+:root {
+  --nm-tap: 44px;
+  --nm-tap-gap: 8px;
+}
+
+/* -- 2.1 Fleches de carrousel : 40 x 40 mesure -> zone 44 x 44.
+      La fleche est deja en position absolue ; le ::after s'y accroche et
+      deborde de 2 px de chaque cote sans deplacer le glyphe. ------------- */
+.splide__arrow {
+  position: absolute;
+}
+
+.splide__arrow::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: var(--nm-tap);
+  height: var(--nm-tap);
+  transform: translate(-50%, -50%);
+}
+
+/* -- 2.2 Puces de pagination : 12 x 2 mesure, 6 px entre deux puces.
+      Le <li> passe au pas de 52 px (44 + 8) et la zone de frappe fait
+      44 x 44 centree : 44 de cible, 8 d'ecart franc. La puce visible reste
+      un trait de 12 x 2. Les deux carrousels pagines du site ont 6 puces
+      dans un conteneur de 335 px : 6 x 52 = 312, ca tient — MAIS seulement
+      apres avoir retire le `padding: 0 16px` du conteneur, qui ne laissait
+      que 303 px utiles et faisait passer la 6e puce a la ligne (mesure :
+      conteneur 335 x 88, soit deux rangees). Sans padding : 335 x 44, une
+      seule rangee, puces de 32 a 344, scrollWidth 375.
+      `flex-wrap: wrap` reste le garde-fou si un carrousel gagne des pages :
+      les puces passent a la ligne au lieu de deborder horizontalement. --- */
+.splide__pagination {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-inline: 0;
+}
+
+.splide__pagination li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(var(--nm-tap) + var(--nm-tap-gap));
+  height: var(--nm-tap);
+}
+
+.splide__pagination__page {
+  position: relative;
+}
+
+.splide__pagination__page::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: var(--nm-tap);
+  height: var(--nm-tap);
+  transform: translate(-50%, -50%);
+}
+
+/* -- 2.3 En-tetes d'accordeon : 40 px sur la fiche, 34,6 px sur le panier,
+      24 px pour « Ajouter un code de reduction » du tiroir. ------------- */
+summary.accordion__header,
+.accordion__header {
+  min-height: var(--nm-tap);
+}
+
+/* -- 2.4 Boutons a icone seule : 35 x 35 mesure — pagination de collection
+      et fermeture du menu mobile. `!important` parce que base.css verrouille
+      min-height a `calc(var(--small-multiplier) * var(--inputs-min-height))`
+      avec une specificite superieure. ----------------------------------- */
+.button--icon-only {
+  min-width: var(--nm-tap) !important;
+  min-height: var(--nm-tap) !important;
+}
+
+/* -- 2.5 Boutons courts : « Ajouter au panier » des cartes produit,
+      160,5 x 35 mesure, 36 occurrences sur la seule page Accessoires. --- */
+.button--small {
+  min-height: var(--nm-tap) !important;
+}
+
+/* -- 2.6 Liens de menu du pied de page : « FAQ » ne faisait que 30,6 px de
+      large. Ils sont empiles verticalement : elargir n'ecrase rien. ----- */
+.menu-block__link {
+  display: inline-flex;
+  align-items: center;
+  min-width: var(--nm-tap);
+  min-height: var(--nm-tap);
+}
+
+/* -- 2.7 Liens du menu mobile : 43,1 px de haut mesures. --------------- */
+.header__mobile-menu-link {
+  min-height: var(--nm-tap);
+}
+
+/* -- 2.8 Page de collection : barre « Filtres et tri » 102,9 x 24,
+      « Voir plus » 60 x 26,6, cartes de collections soeurs 81,2 x 31,8. - */
+.side-menu__toggle-link,
+.see-more__toggle {
+  min-height: var(--nm-tap);
+}
+
+.nm-soeurs .collection-card,
+.collection-card {
+  min-height: var(--nm-tap);
+}
+
+/* -- 2.9 Panier et tiroir : nom d'article 220 x 38,2, nom de la vente
+      complementaire 225 x 17, bouton « Ajouter » 72,3 x 28,3. ---------- */
+.cart-drawer__item-name,
+.nm-cart-upsell__name {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--nm-tap);
+}
+
+.nm-upsell-add {
+  min-width: var(--nm-tap);
+  min-height: var(--nm-tap);
+}
+
+/* -- 2.10 Selecteur de quantite : le champ faisait 38 px de large.
+      Le bloc 11 de noirmont-custom.css l'avait volontairement laisse a 38
+      quand les actions partageaient la ligne du nom d'article. Ce meme bloc
+      leur a depuis donne leur propre ligne (media query <= 749 px) : la
+      place existe, on ramene donc le champ a 44. Verifie apres ecriture :
+      scrollWidth 375, aucun debordement. -------------------------------- */
+.quantity-selector input,
+.quantity-selector button {
+  min-width: var(--nm-tap) !important;
+  min-height: var(--nm-tap) !important;
+}
+
+.cart-drawer__item-actions-wrapper .quantity-selector--small input,
+.cart__item-actions-wrapper .quantity-selector--small input {
+  width: var(--nm-tap) !important;
+  min-width: var(--nm-tap) !important;
+}
+
+/* -- 2.11 Ecart : le nom de la vente complementaire et son bouton
+      « Ajouter » n'etaient separes que de 5,6 px une fois les deux portes a
+      44. Mesure apres : 13,6 px. ---------------------------------------- */
+.nm-cart-upsell__name {
+  margin-bottom: var(--nm-tap-gap);
+}

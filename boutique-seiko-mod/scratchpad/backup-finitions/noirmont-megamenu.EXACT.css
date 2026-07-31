@@ -1,0 +1,164 @@
+/* ==========================================================================
+   Maison Noirmont — méga-menu illustré — 26/07/2026
+   --------------------------------------------------------------------------
+   Structure reprise de montre-avenue (même thème FullStack 2.2) : un bloc
+   natif 'collections-featured' posé dans un '_header-megamenu'. La direction
+   artistique, elle, reste la nôtre.
+
+   Palette : craie #FAFAF7 · pierre #E7E4DE · encre #0B0B0C
+             vert jura #1E3A2F · laiton #A98E5F
+
+   NB : chargé par layout/theme.liquid juste après noirmont-custom.css.
+   Le champ CSS des sections est évité — il fait rejeter le fichier en silence.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Le panneau déroulant.
+      Aplat craie, filet pierre, ombre à peine posée. Pas de bord coloré :
+      la retenue est la règle maison.
+      'overflow-x: clip' + 'max-width: 100vw' : garde-fou contre le
+      débordement horizontal, le défaut classique du méga-menu illustré.
+   -------------------------------------------------------------------------- */
+.header__submenu--megamenu {
+  background: #FAFAF7;
+  border-top: 1px solid #E7E4DE;
+  box-shadow: 0 12px 28px -18px rgba(11, 11, 12, 0.35);
+  max-width: 100vw;
+  overflow-x: clip;
+}
+
+.header__submenu--megamenu__content {
+  padding-block: 26px 30px;
+}
+
+/* Le conteneur flex du méga-menu : colonne (grille puis lien), pleine largeur. */
+.nm-mm .custom-megamenu-content,
+.custom-megamenu-content.nm-mm {
+  width: 100%;
+}
+
+/* --------------------------------------------------------------------------
+   2. La grille de vignettes.
+      'collections-featured' pose déjà --grid-columns / --grid-columns-mobile ;
+      on ne fait qu'assurer la largeur pleine et la gouttière.
+   -------------------------------------------------------------------------- */
+.nm-mm__grid {
+  width: 100%;
+}
+
+.nm-mm__grid .block-collections-featured__grid {
+  gap: 18px;
+}
+
+/* --------------------------------------------------------------------------
+   3. La vignette.
+      Angles à 10 px, comme les cartes produit (noirmont-custom.css §2) :
+      le menu doit avoir l'air d'appartenir à la même maison que la grille.
+   -------------------------------------------------------------------------- */
+.nm-mm__grid .collection-card .image-block {
+  border-radius: 10px;
+  overflow: hidden;
+  background: #E7E4DE;
+}
+
+.nm-mm__grid .collection-card .image-block__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.55s cubic-bezier(0.2, 0.6, 0.2, 1);
+}
+
+@media (width > 750px) {
+  .nm-mm__grid .collection-card:hover .image-block__image {
+    transform: scale(1.04);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nm-mm__grid .collection-card .image-block__image {
+    transition: none;
+  }
+  .nm-mm__grid .collection-card:hover .image-block__image {
+    transform: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   4. La légende.
+      Casse NORMALE, explicitement. C'est le point identifié comme tueur de
+      lisibilité sur ce thème : le réglage global de casse des titres remonte
+      partout où on ne le neutralise pas.
+   -------------------------------------------------------------------------- */
+.nm-mm__legend,
+.nm-mm__legend > * {
+  text-transform: none !important;
+  letter-spacing: 0;
+  line-height: 1.35;
+  color: #0B0B0C;
+}
+
+.nm-mm__grid .collection-card:hover .nm-mm__legend > * {
+  color: #1E3A2F;
+}
+
+/* --------------------------------------------------------------------------
+   5. Le lien de repli « Toutes les montres » / « Tous les accessoires ».
+      Souligné laiton, l'accent de la maison. Il ferme la grille par une
+      sortie explicite vers la collection complète.
+   -------------------------------------------------------------------------- */
+.nm-mm__all {
+  width: 100%;
+  padding-top: 14px;
+  border-top: 1px solid #E7E4DE;
+}
+
+.nm-mm__all a {
+  color: #1E3A2F;
+  text-decoration: none;
+  text-transform: none;
+  border-bottom: 1px solid #A98E5F;
+  padding-bottom: 2px;
+  transition: color 0.2s ease;
+}
+
+.nm-mm__all a:hover {
+  color: #0B0B0C;
+}
+
+/* --------------------------------------------------------------------------
+   6. Mobile — la grille du tiroir.
+      Le drawer ne rend PAS les méga-menus du desktop (deux mécanismes
+      distincts dans FullStack). La grille illustrée y est donc posée à part,
+      sous les liens, via le bloc '_header-drawer-menu-under-menu'.
+      Deux colonnes : au-delà, les légendes cassent dans un tiroir à 90vw.
+   -------------------------------------------------------------------------- */
+.nm-mm__drawer-title > * {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 11px;
+  color: rgba(11, 11, 12, 0.55);
+}
+
+.nm-mm__drawer-grid {
+  width: 100%;
+  margin-top: 4px;
+}
+
+.nm-mm__drawer-grid .block-collections-featured__grid {
+  gap: 12px;
+}
+
+.nm-mm__drawer-grid .collection-card .image-block {
+  border-radius: 8px;
+}
+
+/* Garde-fou : rien ne doit élargir le tiroir. */
+.header__mobile-menu-nav,
+.header__mobile-menu-nav * {
+  max-width: 100%;
+}
+
+.nm-mm__drawer-grid img {
+  max-width: 100%;
+  height: auto;
+}

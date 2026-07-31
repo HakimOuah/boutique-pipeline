@@ -1,0 +1,34 @@
+query VerifyProducts($ids: [ID!]!) {
+  nodes(ids: $ids) {
+    ... on Product {
+      id
+      title
+      handle
+      media(first: 100) {
+        nodes {
+          id
+          alt
+          mediaContentType
+          status
+          preview {
+            status
+          }
+        }
+      }
+      variants(first: 250) {
+        nodes {
+          id
+          sku
+          title
+          media(first: 10) {
+            nodes {
+              id
+              alt
+              status
+            }
+          }
+        }
+      }
+    }
+  }
+}

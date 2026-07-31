@@ -1,0 +1,226 @@
+/* ==========================================================================
+   Maison Noirmont — pages collection — 26/07/2026 (rév. 2)
+   --------------------------------------------------------------------------
+   Objectif : remonter la première rangée de produits au-dessus de la ligne de
+   flottaison. L'image de bannière à pleine largeur la repoussait hors écran.
+   Elle est désactivée côté template (groupe 'group_CgjeTw', conservé).
+
+   Rév. 2 — les pastilles sœurs étaient rendues en carrousel à grandes
+   vignettes rondes : elles sortaient de l'écran des deux côtés. Reprises en
+   rangée statique de boutons arrondis, contenus dans la largeur de page.
+
+   Palette : craie #FAFAF7 · pierre #E7E4DE · encre #0B0B0C
+             acier #8A9099 · cyan #22D3EE (instrument seul)
+             Vert jura et laiton purges le 27/07 : plus aucune occurrence.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Le titre de collection — casse normale.
+      Le bloc est balisé <h1> mais stylé à l'échelle h2, et le réglage global
+      de casse des h2 est en majuscules : « Classiques » sortait « CLASSIQUES ».
+      Même mécanisme que sur les cartes produit et le méga-menu.
+   -------------------------------------------------------------------------- */
+.nm-coll-title,
+.nm-coll-title > * {
+  text-transform: none !important;
+  letter-spacing: 0;
+  line-height: 1.15;
+}
+
+/* --------------------------------------------------------------------------
+   2. La description.
+      Conservée telle quelle — c'est l'image qui posait problème, pas le texte.
+      On borne la longueur de ligne : au-delà de ~68 caractères l'œil perd le
+      début de la ligne suivante.
+   -------------------------------------------------------------------------- */
+.nm-coll-desc {
+  max-width: 68ch;
+}
+
+.nm-coll-desc > * {
+  color: rgba(11, 11, 12, 0.72);
+}
+
+.nm-coll-desc button,
+.nm-coll-desc .see-more__button {
+  color: #0B0B0C;
+  border-bottom: 1px solid rgba(11, 11, 12, 0.32);
+  text-transform: none;
+}
+
+/* --------------------------------------------------------------------------
+   3. La bannière, une fois l'image retirée.
+   -------------------------------------------------------------------------- */
+.nm-coll-banner {
+  margin-bottom: 0;
+}
+
+@media (max-width: 749px) {
+  .nm-coll-banner .section-custom-section__inner,
+  .nm-coll-banner .card {
+    padding-block: 14px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   4. Les collections sœurs — rangée de boutons arrondis.
+      Le montage retenu chez montre-avenue : petite vignette ronde à gauche,
+      libellé à droite, fin liseré arrondi autour de l'ensemble. Aucune
+      flèche, aucun défilement : la rangée passe à la ligne quand elle ne
+      tient pas.
+
+      Le thème rend une grille CSS à colonnes fixes ; on la reprend en flex
+      avec retour à la ligne pour que chaque bouton fasse la largeur de son
+      texte au lieu d'occuper une colonne entière.
+      Le sélecteur couvre les deux classes possibles : la section rend
+      '.collections-featured__grid', la version bloc
+      '.block-collections-featured__grid'.
+   -------------------------------------------------------------------------- */
+.nm-soeurs {
+  border-bottom: 1px solid #E7E4DE;
+  max-width: 100%;
+}
+
+.nm-soeurs .collections-featured__grid,
+.nm-soeurs .block-collections-featured__grid {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Le bouton lui-même. 'width: auto' annule le 'width: 100%' que le thème
+   pose sur .collection-card — sans quoi chaque bouton prendrait toute la
+   largeur et il n'y en aurait qu'un par ligne. */
+.nm-soeurs .collection-card {
+  flex: 0 0 auto;
+  width: auto;
+  max-width: 100%;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 15px 4px 4px;
+  border: 1px solid #E7E4DE;
+  border-radius: 999px;
+  background: #FAFAF7;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.nm-soeurs .collection-card:hover {
+  border-color: #0B0B0C;
+  background: #FFFFFF;
+  transform: none; /* annule le léger soulèvement global des collection-card */
+}
+
+/* La vignette : 28 px, ronde, jamais plus. */
+.nm-soeurs .collection-card .image-block {
+  flex: 0 0 28px;
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #E7E4DE;
+  margin: 0;
+}
+
+.nm-soeurs .collection-card .image-block__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: none;
+  transition: none;
+}
+
+/* Le libellé : casse normale, sur une seule ligne — c'est le bouton entier
+   qui passe à la ligne, jamais le mot. */
+.nm-soeurs__legend,
+.nm-soeurs__legend > * {
+  text-transform: none !important;
+  letter-spacing: 0;
+  line-height: 1.2;
+  white-space: nowrap;
+  margin: 0;
+  color: rgba(11, 11, 12, 0.82);
+}
+
+.nm-soeurs .collection-card:hover .nm-soeurs__legend > * {
+  color: #0B0B0C;
+}
+
+/* Ceinture et bretelles : si le thème servait malgré tout un habillage de
+   carrousel, on le neutralise plutôt que de le laisser déborder. */
+.nm-soeurs .splide__arrows,
+.nm-soeurs .slider__arrows,
+.nm-soeurs .splide__pagination {
+  display: none !important;
+}
+
+.nm-soeurs .splide__track,
+.nm-soeurs .splide__list {
+  overflow: visible !important;
+  transform: none !important;
+}
+
+@media (max-width: 749px) {
+  .nm-soeurs .collections-featured__grid,
+  .nm-soeurs .block-collections-featured__grid {
+    gap: 8px;
+  }
+
+  .nm-soeurs .collection-card {
+    padding: 3px 12px 3px 3px;
+  }
+
+  .nm-soeurs .collection-card .image-block {
+    flex-basis: 24px;
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   5. Les filtres en colonne.
+      Le thème passe la grille en 25 % / 75 % dès que 'display_mode' vaut
+      'sidebar'. La colonne est collante : elle démarre sous le header
+      collant (65 px) et le fil d'Ariane.
+   -------------------------------------------------------------------------- */
+@media (width > 990px) {
+  .nm-filters {
+    position: sticky;
+    top: 88px;
+    align-self: start;
+    max-height: calc(100vh - 108px);
+    overflow-y: auto;
+  }
+}
+
+@media (max-width: 990px) {
+  .nm-filters {
+    position: static;
+    max-height: none;
+    overflow: visible;
+    width: 100%;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   6. Garde-fous de débordement horizontal.
+      NB : on n'applique PAS 'overflow-x: clip' à un ancêtre de .nm-filters —
+      cela casserait le 'position: sticky' de la colonne de filtres.
+      On borne donc les largeurs plutôt que de rogner.
+   -------------------------------------------------------------------------- */
+.main-collection,
+.main-collection__products-grid,
+.collections-featured {
+  max-width: 100%;
+}
+
+.nm-soeurs img,
+.nm-coll-banner img {
+  max-width: 100%;
+  height: auto;
+}

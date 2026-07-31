@@ -1,0 +1,522 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "t:header",
+  "sections": {
+    "announcement_bar_r8QCCw": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_y7tnxm": {
+          "type": "_announcement",
+          "settings": { "layout_gap": 10, "additional_class": "" },
+          "blocks": {
+            "text_Lk3QUw": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<p>Livraison offerte en France métropolitaine</p>",
+                "text_style": "paragraph",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "center",
+                "alignment_mobile": "center",
+                "show_read_more": false,
+                "read_more_length": 200,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": ["text_Lk3QUw"]
+        },
+        "announcement_VprFGF": {
+          "type": "_announcement",
+          "settings": { "layout_gap": 10, "additional_class": "" },
+          "blocks": {
+            "text_ndz4fN": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<p>Cadran vierge de tout logo emprunté</p>",
+                "text_style": "paragraph",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "center",
+                "alignment_mobile": "center",
+                "show_read_more": false,
+                "read_more_length": 200,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": ["text_ndz4fN"]
+        },
+        "announcement_TVKVNW": {
+          "type": "_announcement",
+          "settings": { "layout_gap": 10, "additional_class": "" },
+          "blocks": {
+            "text_P6mECF": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<p>Votre Noirmont en trois étapes</p>",
+                "text_style": "paragraph",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "center",
+                "alignment_mobile": "center",
+                "show_read_more": false,
+                "read_more_length": 200,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": ["text_P6mECF"]
+        }
+      },
+      "block_order": ["announcement_y7tnxm", "announcement_VprFGF", "announcement_TVKVNW"],
+      "name": "t:announcement_bar",
+      "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "color_scheme": "",
+        "show_arrows": true,
+        "rewind": true,
+        "autoplay": true,
+        "autoplay_speed": 4,
+        "padding_top": 10,
+        "padding_bottom": 10,
+        "additional_class": ""
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "button-header": {
+          "type": "button",
+          "disabled": true,
+          "static": true,
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "link": "",
+            "open_in_new_tab": false,
+            "label": "S'abonner",
+            "button_style": "secondary",
+            "button_shape": "small",
+            "icon": "none",
+            "icon_custom": "",
+            "icon_position": "start",
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {}
+        },
+        "header-advanced-megamenus": {
+          "type": "_header-advanced-megamenus",
+          "static": true,
+          "settings": {},
+          "blocks": {
+            "mm_montres": {
+              "type": "_header-megamenu",
+              "settings": {
+                "title": "Montres",
+                "position_within_the_menu": "0",
+                "layout_type": "flex",
+                "layout_direction": "column",
+                "layout_grid_columns": 5,
+                "layout_gap": 18,
+                "layout_wrap": "nowrap",
+                "layout_justify": "flex-start",
+                "layout_align_items": "flex-start",
+                "additional_class": "nm-mm"
+              },
+              "blocks": {
+                "cf_montres": {
+                  "type": "collections-featured",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "collection_list": ["classiques", "sport-chic", "chronos", "plongeuses", "gmt"],
+                    "max_collections": 5,
+                    "layout_type": "grid",
+                    "grid_columns": 5,
+                    "grid_columns_mobile": "2",
+                    "slider_items": 4,
+                    "slider_items_mobile": "1.8",
+                    "show_arrows": true,
+                    "show_pagination": false,
+                    "rewind": false,
+                    "padding_top": 0,
+                    "padding_bottom": 0,
+                    "margin_top": 0,
+                    "margin_bottom": 0,
+                    "additional_class": "nm-mm__grid"
+                  },
+                  "blocks": {
+                    "collection-card": {
+                      "type": "_collection-card",
+                      "static": true,
+                      "settings": { "wrap_in_card": false, "color_scheme": "", "layout_gap": 10 },
+                      "blocks": {
+                        "cc_image": {
+                          "type": "image",
+                          "settings": {
+                            "show_on_display": "desktop_and_mobile",
+                            "image": "{{ closest.collection.image }}",
+                            "show_placeholder": true,
+                            "link": "",
+                            "image_ratio": "landscape",
+                            "image_width_desktop": 100,
+                            "image_width_mobile": 100,
+                            "enable_rounded_corners": true,
+                            "margin_top": 0,
+                            "margin_bottom": 0,
+                            "additional_class": ""
+                          },
+                          "blocks": {}
+                        },
+                        "cc_text": {
+                          "type": "text",
+                          "settings": {
+                            "show_on_display": "desktop_and_mobile",
+                            "text": "<p>{{ closest.collection.title }}</p>",
+                            "text_style": "paragraph",
+                            "paragraph_font_size": "normal",
+                            "font_weight": 500,
+                            "alignment": "center",
+                            "alignment_mobile": "center",
+                            "show_read_more": false,
+                            "read_more_length": 50,
+                            "read_more_text": "Voir plus",
+                            "read_less_text": "Voir moins",
+                            "truncate": false,
+                            "truncate_length": 2,
+                            "margin_top": 0,
+                            "margin_bottom": 0,
+                            "additional_class": "nm-mm__legend"
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": ["cc_image", "cc_text"]
+                    }
+                  },
+                  "block_order": []
+                },
+                "txt_montres_all": {
+                  "type": "text",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "text": "<p><a href=\"/collections/montres\">Toutes les montres</a></p>",
+                    "text_style": "paragraph",
+                    "paragraph_font_size": "normal",
+                    "font_weight": 500,
+                    "alignment": "left",
+                    "alignment_mobile": "left",
+                    "show_read_more": false,
+                    "read_more_length": 50,
+                    "read_more_text": "Voir plus",
+                    "read_less_text": "Voir moins",
+                    "truncate": false,
+                    "truncate_length": 2,
+                    "margin_top": 0,
+                    "margin_bottom": 0,
+                    "additional_class": "nm-mm__all"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": ["cf_montres", "txt_montres_all"]
+            },
+            "mm_accessoires": {
+              "type": "_header-megamenu",
+              "settings": {
+                "title": "Accessoires",
+                "position_within_the_menu": "0",
+                "layout_type": "flex",
+                "layout_direction": "column",
+                "layout_grid_columns": 4,
+                "layout_gap": 18,
+                "layout_wrap": "nowrap",
+                "layout_justify": "flex-start",
+                "layout_align_items": "flex-start",
+                "additional_class": "nm-mm"
+              },
+              "blocks": {
+                "cf_accessoires": {
+                  "type": "collections-featured",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "collection_list": ["remontoirs", "ecrins-et-rouleaux", "bracelets", "outils-d-horloger"],
+                    "max_collections": 4,
+                    "layout_type": "grid",
+                    "grid_columns": 4,
+                    "grid_columns_mobile": "2",
+                    "slider_items": 4,
+                    "slider_items_mobile": "1.8",
+                    "show_arrows": true,
+                    "show_pagination": false,
+                    "rewind": false,
+                    "padding_top": 0,
+                    "padding_bottom": 0,
+                    "margin_top": 0,
+                    "margin_bottom": 0,
+                    "additional_class": "nm-mm__grid nm-mm__grid--4"
+                  },
+                  "blocks": {
+                    "collection-card": {
+                      "type": "_collection-card",
+                      "static": true,
+                      "settings": { "wrap_in_card": false, "color_scheme": "", "layout_gap": 10 },
+                      "blocks": {
+                        "cc_image": {
+                          "type": "image",
+                          "settings": {
+                            "show_on_display": "desktop_and_mobile",
+                            "image": "{{ closest.collection.image }}",
+                            "show_placeholder": true,
+                            "link": "",
+                            "image_ratio": "landscape",
+                            "image_width_desktop": 100,
+                            "image_width_mobile": 100,
+                            "enable_rounded_corners": true,
+                            "margin_top": 0,
+                            "margin_bottom": 0,
+                            "additional_class": ""
+                          },
+                          "blocks": {}
+                        },
+                        "cc_text": {
+                          "type": "text",
+                          "settings": {
+                            "show_on_display": "desktop_and_mobile",
+                            "text": "<p>{{ closest.collection.title }}</p>",
+                            "text_style": "paragraph",
+                            "paragraph_font_size": "normal",
+                            "font_weight": 500,
+                            "alignment": "center",
+                            "alignment_mobile": "center",
+                            "show_read_more": false,
+                            "read_more_length": 50,
+                            "read_more_text": "Voir plus",
+                            "read_less_text": "Voir moins",
+                            "truncate": false,
+                            "truncate_length": 2,
+                            "margin_top": 0,
+                            "margin_bottom": 0,
+                            "additional_class": "nm-mm__legend"
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": ["cc_image", "cc_text"]
+                    }
+                  },
+                  "block_order": []
+                },
+                "txt_accessoires_all": {
+                  "type": "text",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "text": "<p><a href=\"/collections/accessoires\">Tous les accessoires</a></p>",
+                    "text_style": "paragraph",
+                    "paragraph_font_size": "normal",
+                    "font_weight": 500,
+                    "alignment": "left",
+                    "alignment_mobile": "left",
+                    "show_read_more": false,
+                    "read_more_length": 50,
+                    "read_more_text": "Voir plus",
+                    "read_less_text": "Voir moins",
+                    "truncate": false,
+                    "truncate_length": 2,
+                    "margin_top": 0,
+                    "margin_bottom": 0,
+                    "additional_class": "nm-mm__all"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": ["cf_accessoires", "txt_accessoires_all"]
+            }
+          },
+          "block_order": ["mm_montres", "mm_accessoires"]
+        },
+        "header-notifications": {
+          "type": "_header-notifications",
+          "disabled": true,
+          "static": true,
+          "settings": { "enable_notifications_bubble": true },
+          "blocks": {}
+        },
+        "header-drawer-menu": {
+          "type": "_header-drawer-menu",
+          "static": true,
+          "settings": { "color_scheme": "scheme-1" },
+          "blocks": {
+            "header-drawer-menu-header": {
+              "type": "_header-drawer-menu-header",
+              "static": true,
+              "settings": { "wrap_in_card": false, "color_scheme": "", "margin_top": 0, "margin_bottom": 0 },
+              "blocks": {}
+            },
+            "header-drawer-menu-under-menu": {
+              "type": "_header-drawer-menu-under-menu",
+              "static": true,
+              "settings": { "wrap_in_card": false, "color_scheme": "", "margin_top": 16, "margin_bottom": 0 },
+              "blocks": {
+                "drawer_title": {
+                  "type": "text",
+                  "settings": {
+                    "show_on_display": "mobile_only",
+                    "text": "<p>Nos familles</p>",
+                    "text_style": "paragraph",
+                    "paragraph_font_size": "small",
+                    "font_weight": 500,
+                    "alignment": "left",
+                    "alignment_mobile": "left",
+                    "show_read_more": false,
+                    "read_more_length": 50,
+                    "read_more_text": "Voir plus",
+                    "read_less_text": "Voir moins",
+                    "truncate": false,
+                    "truncate_length": 2,
+                    "margin_top": 0,
+                    "margin_bottom": 10,
+                    "additional_class": "nm-mm__drawer-title"
+                  },
+                  "blocks": {}
+                },
+                "drawer_grid": {
+                  "type": "collections-featured",
+                  "settings": {
+                    "show_on_display": "mobile_only",
+                    "collection_list": ["classiques", "sport-chic", "chronos", "plongeuses", "gmt", "remontoirs", "ecrins-et-rouleaux", "bracelets", "outils-d-horloger"],
+                    "max_collections": 9,
+                    "layout_type": "grid",
+                    "grid_columns": 2,
+                    "grid_columns_mobile": "2",
+                    "slider_items": 2,
+                    "slider_items_mobile": "1.8",
+                    "show_arrows": false,
+                    "show_pagination": false,
+                    "rewind": false,
+                    "padding_top": 0,
+                    "padding_bottom": 0,
+                    "margin_top": 0,
+                    "margin_bottom": 0,
+                    "additional_class": "nm-mm__grid nm-mm__drawer-grid"
+                  },
+                  "blocks": {
+                    "collection-card": {
+                      "type": "_collection-card",
+                      "static": true,
+                      "settings": { "wrap_in_card": false, "color_scheme": "", "layout_gap": 8 },
+                      "blocks": {
+                        "cc_image": {
+                          "type": "image",
+                          "settings": {
+                            "show_on_display": "desktop_and_mobile",
+                            "image": "{{ closest.collection.image }}",
+                            "show_placeholder": true,
+                            "link": "",
+                            "image_ratio": "landscape",
+                            "image_width_desktop": 100,
+                            "image_width_mobile": 100,
+                            "enable_rounded_corners": true,
+                            "margin_top": 0,
+                            "margin_bottom": 0,
+                            "additional_class": ""
+                          },
+                          "blocks": {}
+                        },
+                        "cc_text": {
+                          "type": "text",
+                          "settings": {
+                            "show_on_display": "desktop_and_mobile",
+                            "text": "<p>{{ closest.collection.title }}</p>",
+                            "text_style": "paragraph",
+                            "paragraph_font_size": "small",
+                            "font_weight": 500,
+                            "alignment": "center",
+                            "alignment_mobile": "center",
+                            "show_read_more": false,
+                            "read_more_length": 50,
+                            "read_more_text": "Voir plus",
+                            "read_less_text": "Voir moins",
+                            "truncate": false,
+                            "truncate_length": 2,
+                            "margin_top": 0,
+                            "margin_bottom": 0,
+                            "additional_class": "nm-mm__legend"
+                          },
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": ["cc_image", "cc_text"]
+                    }
+                  },
+                  "block_order": []
+                }
+              },
+              "block_order": ["drawer_title", "drawer_grid"]
+            }
+          },
+          "block_order": []
+        }
+      },
+      "settings": {
+        "color_scheme": "scheme-1",
+        "header_layout": "logo_left",
+        "header_height": 65,
+        "enable_sticky_header": true,
+        "enable_transparent_header": false,
+        "transparent_header_color_scheme": "scheme-3",
+        "use_inverse_logo": false,
+        "logo_height": 28,
+        "logo_height_mobile": 24,
+        "header_menu_style": "dropdown",
+        "menu_font_weight": 400,
+        "uppercase_menu_items": false,
+        "menu": "noirmont-desktop",
+        "menu_2": "",
+        "menu_mobile": "noirmont-mobile",
+        "show_search": true,
+        "enable_predictive_search": true,
+        "show_country": true,
+        "show_country_icon": true,
+        "show_language": true,
+        "cart_icon": "local_mall",
+        "account_icon": "account_circle"
+      }
+    }
+  },
+  "order": ["announcement_bar_r8QCCw", "header"]
+}

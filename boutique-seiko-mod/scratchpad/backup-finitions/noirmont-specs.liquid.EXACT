@@ -1,0 +1,160 @@
+{%- doc -%}
+  Puces de spécifications de la fiche produit, traitées comme des instruments :
+  encadré fin, libellé en capitales espacées, valeur en chiffres tabulaires,
+  trait de cote cyan en flanc gauche (mise en forme dans
+  assets/noirmont-custom.css, bloc 10.4). L'inflexion monospace est portée par
+  la classe `--mesure`, réservée aux valeurs mesurées (diamètre, calibre) ;
+  la couleur de cadran n'en est pas une.
+
+  Règle absolue : ces puces ne sont alimentées QUE par les métachamps réels
+  custom.diametre, custom.calibre et custom.couleur_cadran. Aucune valeur
+  n'est déduite, complétée ni supposée — une valeur absente ne produit
+  simplement aucune puce, et si les trois sont absentes le bloc ne rend rien.
+
+  Rappel des trous connus au 26/07/2026 : 10 montres sur 53 n'ont pas de
+  diamètre (les 3 Noirmont et les 7 Intégrale), 8 n'ont pas de couleur de
+  cadran. Le calibre est renseigné sur 53/53.
+
+  Il n'existe AUCUN métachamp d'étanchéité : aucune puce « 10 bar » ne peut
+  donc être rendue sans inventer la donnée. Elle est volontairement absente.
+  Aucune puce « automatique » n'est déduite du calibre non plus : les 12
+  chronographes tournent en méca-quartz VK63.
+{%- enddoc -%}
+
+{%- liquid
+  assign nm_product = block.settings.product | default: closest.product | default: product
+
+  assign nm_diametre = ''
+  if block.settings.show_diametre
+    assign nm_diametre_raw = nm_product.metafields.custom.diametre.value
+    if nm_diametre_raw != blank
+      assign nm_diametre = nm_diametre_raw | join: ' / '
+    endif
+  endif
+
+  assign nm_calibre = ''
+  if block.settings.show_calibre
+    assign nm_calibre_raw = nm_product.metafields.custom.calibre.value
+    if nm_calibre_raw != blank
+      assign nm_calibre = nm_calibre_raw | join: ' / '
+    endif
+  endif
+
+  assign nm_cadran = ''
+  if block.settings.show_cadran
+    assign nm_cadran_raw = nm_product.metafields.custom.couleur_cadran.value
+    if nm_cadran_raw != blank
+      assign nm_cadran = nm_cadran_raw | join: ' / '
+    endif
+  endif
+-%}
+
+{%- if nm_diametre != blank or nm_calibre != blank or nm_cadran != blank -%}
+  <ul
+    class="
+      nm-specs
+      {%- if block.settings.show_on_display == 'desktop_only' %} mobile-hide{% endif -%}
+      {%- if block.settings.show_on_display == 'mobile_only' %} desktop-hide{% endif -%}
+      {%- if block.settings.additional_class != blank %} {{ block.settings.additional_class }}{% endif -%}
+    "
+    style="margin-top: {{ block.settings.margin_top }}px; margin-bottom: {{ block.settings.margin_bottom }}px;"
+    {{ block.shopify_attributes }}
+  >
+    {%- if nm_diametre != blank -%}
+      <li class="nm-specs__item nm-specs__item--mesure">
+        <span class="nm-specs__label">Diamètre</span>
+        <span class="nm-specs__value">{{ nm_diametre }}</span>
+      </li>
+    {%- endif -%}
+    {%- if nm_calibre != blank -%}
+      <li class="nm-specs__item nm-specs__item--mesure">
+        <span class="nm-specs__label">Calibre</span>
+        <span class="nm-specs__value">{{ nm_calibre }}</span>
+      </li>
+    {%- endif -%}
+    {%- if nm_cadran != blank -%}
+      <li class="nm-specs__item">
+        <span class="nm-specs__label">Cadran</span>
+        <span class="nm-specs__value">{{ nm_cadran }}</span>
+      </li>
+    {%- endif -%}
+  </ul>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Puces specs",
+  "tag": null,
+  "settings": [
+    {
+      "type": "select",
+      "id": "show_on_display",
+      "label": "Affichage",
+      "default": "desktop_and_mobile",
+      "options": [
+        { "value": "desktop_and_mobile", "label": "Bureau et mobile" },
+        { "value": "desktop_only", "label": "Bureau seulement" },
+        { "value": "mobile_only", "label": "Mobile seulement" }
+      ]
+    },
+    {
+      "type": "product",
+      "id": "product",
+      "label": "Produit"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_diametre",
+      "label": "Diamètre (custom.diametre)",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_calibre",
+      "label": "Calibre (custom.calibre)",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_cadran",
+      "label": "Couleur de cadran (custom.couleur_cadran)",
+      "default": true
+    },
+    {
+      "type": "paragraph",
+      "content": "Une puce n'apparaît que si le métachamp correspondant est renseigné. Aucune valeur n'est déduite."
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "label": "Marge haute",
+      "min": 0,
+      "max": 60,
+      "step": 2,
+      "default": 10,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "label": "Marge basse",
+      "min": 0,
+      "max": 60,
+      "step": 2,
+      "default": 0,
+      "unit": "px"
+    },
+    {
+      "type": "text",
+      "id": "additional_class",
+      "label": "Classe supplémentaire"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Puces specs",
+      "category": "Produit"
+    }
+  ]
+}
+{% endschema %}

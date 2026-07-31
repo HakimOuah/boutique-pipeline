@@ -1,0 +1,46 @@
+{
+  "date": "2026-07-27",
+  "boutique": "v42pzp-h4 / maisonnoirmont.fr",
+  "objet": "Sauvegarde integrale des 16 medias de plongeuse retires des deux fiches Noirmont Un devenues aviateurs. Telecharges depuis le CDN Shopify AVANT suppression, verifies ouvrables (16/16, 2048x2048 RGB).",
+  "restauration": "Reimport par stagedUploadsCreate + productCreateMedia. Le nom de fichier CDN d'origine est la partie apres le premier '_'. L'identifiant MediaImage d'origine est la partie avant, il ne sera PAS reattribue au reimport.",
+  "partage_verifie": "Aucun des 16 fichiers n'etait partage avec une autre fiche. Verification faite en deux passes : (1) index de l'URL CDN de TOUS les medias des 100 produits de la boutique, aucune collision ; (2) requete files(query:filename) sur les trois prefixes 10977448558930 / c-558930 / noirmont-un, un seul enregistrement MediaImage par fichier. productDeleteMedia a donc bien SUPPRIME ces fichiers, il ne les a pas seulement detaches.",
+  "note_doublon": "c-558930-bronze.jpg (media 59680343261522, fiche acier) et 10977448558930-var-bronze.jpg (media 59681641005394, fiche bronze) sont deux enregistrements de fichier DISTINCTS au contenu strictement identique (md5 702c720e932bfef14dc504e32084f8db). Ce n'est donc pas un fichier partage.",
+  "image_de_variante": "c-558930-acier.jpg (media 59680343228754) etait l'image des 6 variantes de noirmont-un-plongeuse-acier. Les 6 variantes ont ete reaffectees a la nouvelle face aviateur (media 59703252812114) AVANT suppression, pour ne pas les laisser pointer sur un media detruit. Aucun SKU, prix ni option touche.",
+  "fiches": {
+    "noirmont-un-plongeuse-acier": {
+      "productId": "gid://shopify/Product/10977448558930",
+      "medias_retires": [
+        { "mediaId": "59679286657362", "fichier": "10977448558930-1.jpg", "alt": "Noirmont Un — Plongeuse acier — Maison Noirmont", "octets": 459181 },
+        { "mediaId": "59694045659474", "fichier": "noirmont-un-plongeuse-acier-02-situation.jpg", "alt": "Noirmont Un — Plongeuse acier — en situation — Maison Noirmont", "octets": 391512 },
+        { "mediaId": "59694045692242", "fichier": "noirmont-un-plongeuse-acier-03-macro.jpg", "alt": "Noirmont Un — Plongeuse acier — macro — Maison Noirmont", "octets": 378738 },
+        { "mediaId": "59694045725010", "fichier": "noirmont-un-plongeuse-acier-04-poignet.jpg", "alt": "Noirmont Un — Plongeuse acier — au poignet — Maison Noirmont", "octets": 415197 },
+        { "mediaId": "59680093307218", "fichier": "10977448558930-2_586056ec-1737-4d43-b5a1-925ade0da45a.jpg", "alt": "Noirmont Un — Plongeuse acier portée — Maison Noirmont", "octets": 444634 },
+        { "mediaId": "59680093339986", "fichier": "10977448558930-3.jpg", "alt": "Noirmont Un — verre saphir, 20 ATM — Maison Noirmont", "octets": 419168, "type": "carte composee" },
+        { "mediaId": "59680093372754", "fichier": "10977448558930-4.jpg", "alt": "Noirmont Un — en main — Maison Noirmont", "octets": 563446 },
+        { "mediaId": "59680093405522", "fichier": "10977448558930-5.jpg", "alt": "Noirmont Un — détails et finitions — Maison Noirmont", "octets": 447695 },
+        { "mediaId": "59680093438290", "fichier": "10977448558930-6.jpg", "alt": "Noirmont Un — 4,8/5 sur 1340 avis, garantie 12 mois — Maison Noirmont", "octets": 347329, "type": "carte preuve sociale" },
+        { "mediaId": "59680093471058", "fichier": "10977448558930-7.jpg", "alt": "Noirmont Un — témoignage client — Maison Noirmont", "octets": 120542, "type": "carte temoignage" },
+        { "mediaId": "59680343228754", "fichier": "c-558930-acier.jpg", "alt": "Noirmont Un — boîtier acier — Maison Noirmont", "octets": 334098, "type": "image de coloris, etait l'image des 6 variantes" },
+        { "mediaId": "59680343261522", "fichier": "c-558930-bronze.jpg", "alt": "Noirmont Un — boîtier bronze — Maison Noirmont", "octets": 362530, "type": "image de coloris" }
+      ],
+      "medias_conserves": [
+        { "mediaId": "59703252812114", "slot": "face" },
+        { "mediaId": "59703252844882", "slot": "situation" },
+        { "mediaId": "59703252877650", "slot": "macro" },
+        { "mediaId": "59703252910418", "slot": "poignet" }
+      ]
+    },
+    "noirmont-un-bronze-plongeuse": {
+      "productId": "gid://shopify/Product/10978722087250",
+      "medias_retires": [
+        { "mediaId": "59681641005394", "fichier": "10977448558930-var-bronze.jpg", "alt": "Noirmont Un Bronze — Plongeuse — Maison Noirmont", "octets": 362530 },
+        { "mediaId": "59694045561170", "fichier": "noirmont-un-bronze-plongeuse-02-situation.jpg", "alt": "Noirmont Un Bronze — Plongeuse — en situation — Maison Noirmont", "octets": 346373 },
+        { "mediaId": "59694045593938", "fichier": "noirmont-un-bronze-plongeuse-03-macro.jpg", "alt": "Noirmont Un Bronze — Plongeuse — macro — Maison Noirmont", "octets": 436712 },
+        { "mediaId": "59694045626706", "fichier": "noirmont-un-bronze-plongeuse-04-poignet.jpg", "alt": "Noirmont Un Bronze — Plongeuse — au poignet — Maison Noirmont", "octets": 401207 }
+      ],
+      "medias_conserves": [
+        { "mediaId": "59703258415442", "slot": "face" }
+      ]
+    }
+  }
+}

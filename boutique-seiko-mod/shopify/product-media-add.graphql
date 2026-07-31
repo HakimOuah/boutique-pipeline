@@ -1,0 +1,32 @@
+mutation AddProductMedia(
+  $productId: ID!
+  $variants: [ProductVariantsBulkInput!]!
+  $media: [CreateMediaInput!]
+) {
+  productVariantsBulkUpdate(
+    productId: $productId
+    variants: $variants
+    media: $media
+    allowPartialUpdates: false
+  ) {
+    product {
+      id
+      media(first: 100) {
+        nodes {
+          id
+          alt
+          mediaContentType
+          status
+          preview {
+            status
+          }
+        }
+      }
+    }
+    userErrors {
+      field
+      message
+      code
+    }
+  }
+}

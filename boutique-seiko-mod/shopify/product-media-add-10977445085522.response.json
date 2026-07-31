@@ -1,0 +1,166 @@
+{
+  "productVariantsBulkUpdate": {
+    "product": {
+      "id": "gid://shopify/Product/10977445085522",
+      "media": {
+        "nodes": [
+          {
+            "id": "gid://shopify/MediaImage/59679728206162",
+            "alt": "Bracelet Présidentiel — doré — Maison Noirmont",
+            "mediaContentType": "IMAGE",
+            "status": "READY",
+            "preview": {
+              "status": "READY"
+            }
+          }
+        ]
+      }
+    },
+    "userErrors": [
+      {
+        "field": [
+          "variants",
+          "0",
+          "id"
+        ],
+        "message": "La variante de produit n’existe pas.",
+        "code": "PRODUCT_VARIANT_DOES_NOT_EXIST"
+      },
+      {
+        "field": [
+          "variants",
+          "1",
+          "id"
+        ],
+        "message": "La variante de produit n’existe pas.",
+        "code": "PRODUCT_VARIANT_DOES_NOT_EXIST"
+      },
+      {
+        "field": [
+          "variants",
+          "10",
+          "id"
+        ],
+        "message": "La variante de produit n’existe pas.",
+        "code": "PRODUCT_VARIANT_DOES_NOT_EXIST"
+      },
+      {
+        "field": [
+          "variants",
+          "11",
+          "id"
+        ],
+        "message": "La variante de produit n’existe pas.",
+        "code": "PRODUCT_VARIANT_DOES_NOT_EXIST"
+      },
+      {
+        "field": [
+          "variants",
+          "14",
+          "id"
+        ],
+        "message": "La variante de produit n’existe pas.",
+        "code": "PRODUCT_VARIANT_DOES_NOT_EXIST"
+      },
+      {
+        "field": [
+          "variants",
+          "15",
+          "id"
+        ],
+        "message": "La variante de produit n’existe pas.",
+        "code": "PRODUCT_VARIANT_DOES_NOT_EXIST"
+      },
+      {
+        "field": [
+          "variants",
+          "17",
+          "id"
+        ],
+        "message": "La variante de produit n’existe pas.",
+        "code": "PRODUCT_VARIANT_DOES_NOT_EXIST"
+      },
+      {
+        "field": [
+          "variants",
+          "2",
+          "id"
+        ],
+        "message": "La variante de produit n’existe pas.",
+        "code": "PRODUCT_VARIANT_DOES_NOT_EXIST"
+      },
+      {
+        "field": [
+          "variants",
+          "20",
+          "id"
+        ],
+        "message": "La variante de produit n’existe pas.",
+        "code": "PRODUCT_VARIANT_DOES_NOT_EXIST"
+      },
+      {
+        "field": [
+          "variants",
+          "21",
+          "id"
+        ],
+        "message": "La variante de produit n’existe pas.",
+        "code": "PRODUCT_VARIANT_DOES_NOT_EXIST"
+      },
+      {
+        "field": [
+          "variants",
+          "22",
+          "id"
+        ],
+        "message": "La variante de produit n’existe pas.",
+        "code": "PRODUCT_VARIANT_DOES_NOT_EXIST"
+      },
+      {
+        "field": [
+          "variants",
+          "4",
+          "id"
+        ],
+        "message": "La variante de produit n’existe pas.",
+        "code": "PRODUCT_VARIANT_DOES_NOT_EXIST"
+      },
+      {
+        "field": [
+          "variants",
+          "5",
+          "id"
+        ],
+        "message": "La variante de produit n’existe pas.",
+        "code": "PRODUCT_VARIANT_DOES_NOT_EXIST"
+      },
+      {
+        "field": [
+          "variants",
+          "6",
+          "id"
+        ],
+        "message": "La variante de produit n’existe pas.",
+        "code": "PRODUCT_VARIANT_DOES_NOT_EXIST"
+      },
+      {
+        "field": [
+          "variants",
+          "7",
+          "id"
+        ],
+        "message": "La variante de produit n’existe pas.",
+        "code": "PRODUCT_VARIANT_DOES_NOT_EXIST"
+      },
+      {
+        "field": [
+          "variants",
+          "8",
+          "id"
+        ],
+        "message": "La variante de produit n’existe pas.",
+        "code": "PRODUCT_VARIANT_DOES_NOT_EXIST"
+      }
+    ]
+  }
+}
