@@ -14,3 +14,6 @@ __pycache__/
 
 # verrou transitoire du régime synchrone (ordres/traiter-inbox.sh)
 /ordres/.lock
+
+/ordres/journal/*
+!/ordres/journal/.gitkeep
