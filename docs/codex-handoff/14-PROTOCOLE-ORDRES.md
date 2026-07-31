@@ -191,8 +191,44 @@ bash ordres/traiter-inbox.sh
   (référencé, jamais dupliqué), le répertoire de travail forcé sur le dépôt, et une liste
   `--allowedTools` **fermée** : lecture/écriture/édition de fichiers, Glob/Grep, Bash restreint
   (validateur `valider_ordre.py`, `mv`/`cp`/`ls`/`mkdir` dans `ordres/`, `date`), outils MCP Shopify en
-  lecture + la mutation de classe B `update-product`. **Aucun outil navigateur en v1.**
+  lecture + la mutation de classe B `update-product`, et depuis le 31/07 au soir les outils
+  **navigateur Playwright MCP** de navigation/lecture (voir ci-dessous, « Navigateur headless v2 »).
 - Sortie journalisée dans `ordres/journal/<horodatage>.log`.
+
+**Navigateur headless v2 (31/07/2026 au soir)** — la session headless dispose d'un navigateur via le
+serveur **MCP Playwright** du dépôt (`.mcp.json`, serveur `playwright` : `npx @playwright/mcp@0.0.78`,
+canal Chrome headless, locale fr-FR via `config/playwright-mcp.config.json`), chargé par le wrapper avec
+`--mcp-config` (aucune approbation interactive nécessaire — un fichier passé explicitement en
+`--mcp-config` est réputé approuvé ; pas de `--strict-mcp-config`, pour laisser vivre les connecteurs
+CLI existants). Garde-fous :
+- **Profil persistant dédié** `~/.cache/noirmont-playwright-profile` — hors du dépôt, hors de git,
+  **jamais le Chrome de Hakim** (ni son binaire piloté sur son profil, ni ses sessions connectées).
+- **Outils limités à la navigation et la lecture** : navigate, snapshot, screenshot, click, type,
+  press_key, wait_for, close. Exclus à dessein : evaluate, run_code_unsafe, file_upload, fill_form,
+  network. Le périmètre vient de la liste d'outils + du protocole, pas d'un blocage de domaines.
+- **Périmètre d'usage : les 3 types AliExpress de classe A uniquement** (tableau ci-dessous).
+  **DSers reste explicitement EXCLU du headless** — session interactive obligatoire. C'est une
+  **décision de prudence** (mutations d'interface vivante, mapping = table de vérité des commandes),
+  pas une limite technique à contourner.
+- **Jamais de contournement de CAPTCHA ni d'anti-bot** : fiche non rendue après une re-navigation →
+  résultat `failed` fail-closed, `payload.erreur.motif = "anti_bot_challenge"`. Une redirection de
+  locale (ex. `pt.aliexpress.com`, géo-adaptation `gatewayAdapt`) n'est pas un échec si la fiche
+  rend — notée au journal.
+
+**Verdict du test réel (31/07 au soir, ordre `codex-20260731-1940-tandorio-e2e`, item Tandorio
+`1005004626900765`)** : **AliExpress bloque le headless pur sur profil vierge.** Symptôme exact :
+géo-redirection `fr` → `pt.aliexpress.com` (`gatewayAdapt=fra2bra`), overlay reCAPTCHA « We need to
+check if you are a robot », requête produit `mtop.aliexpress.pdp.pc.query` interceptée, DOM réduit à
+l'en-tête et au pied de page — aucune donnée produit, y compris après la re-navigation unique. Le
+fail-closed a fonctionné de bout en bout (validation, exécution tentée, résultat `failed` motif
+`anti_bot_challenge`, ordre archivé, inbox vidée). Nuance : les premiers essais de la même soirée sur
+un profil ayant réussi sa toute première visite rendaient la fiche complète (titre, prix EUR,
+variantes) — le blocage est lié au profil vierge + hits rapprochés, pas à une impossibilité de
+principe. **Deux remèdes à l'étude, non testés** : (1) mode fenêtré (non-headless) — essayé une fois
+pendant la fenêtre de blocage, non concluant, à re-tester à froid ; (2) **connexion unique de Hakim
+dans le profil dédié** `~/.cache/noirmont-playwright-profile` (cookies + empreinte de vrai
+navigateur), geste de Hakim uniquement — jamais d'identifiant saisi par un agent.
+L'infrastructure Playwright reste en place, prête pour ces essais.
 
 **Codes de sortie** — ils disent que le dépouillement a tourné, **jamais** le succès des ordres :
 
@@ -208,26 +244,33 @@ code 3 avec `401 authentication_error` dans le journal ; la ré-authentification
 jamais de Codex** (constaté le 31/07/2026 : jeton CLI expiré depuis le 18/07, headless incapable de se
 ré-authentifier seul — le script diagnostique ce cas et l'écrit en clair).
 
-**La limite honnête du headless** : en session `claude -p`, **les outils de navigateur et la session
-Chrome connectée de Hakim ne sont pas garantis** (et les outils MCP Shopify ne le sont que si un
-serveur MCP `shopify` est configuré pour le CLI). Le prompt du script l'encode : un ordre qui exige
-un navigateur ou une session absente produit un résultat **`failed` fail-closed** avec
-`payload.statut = "BLOQUE"` et `payload.erreur.motif = "requires_interactive_session"` — jamais de
-contournement, jamais de donnée inventée. Codex sait lire ce motif : c'est un signal de routage,
-pas une erreur du protocole — re-déposer ne sert à rien tant qu'une session interactive n'a pas
-traité l'ordre (re-dépôt = nouvel `id`, §6).
+**La limite honnête du headless** : en session `claude -p`, **la session Chrome connectée de Hakim
+n'existe pas** — le navigateur Playwright headless est sans session, donc tout ce qui exige un compte
+connecté (DSers, panier/adresse de référence AliExpress) reste hors de portée (et les outils MCP
+Shopify ne sont garantis que si un serveur MCP `shopify` est configuré pour le CLI). Le prompt du
+script l'encode : un ordre qui exige une session interactive produit un résultat **`failed`
+fail-closed** avec `payload.statut = "BLOQUE"` et `payload.erreur.motif =
+"requires_interactive_session"` — jamais de contournement, jamais de donnée inventée. Codex sait lire
+ce motif : c'est un signal de routage, pas une erreur du protocole — re-déposer ne sert à rien tant
+qu'une session interactive n'a pas traité l'ordre (re-dépôt = nouvel `id`, §6). Un blocage anti-bot
+transitoire, lui, porte le motif `anti_bot_challenge` : là, un re-dépôt plus tard (nouvel `id`) a du
+sens.
 
-**Types d'ordres fiables en synchrone vs à traiter en session interactive** :
+**Types d'ordres fiables en synchrone vs à traiter en session interactive** (révisé le 31/07 au soir
+après le test réel ci-dessus) :
 
 | Fiable en régime synchrone | À traiter en session interactive (avec Chrome connecté) |
 |---|---|
-| Validation, rejet (`rejetes/` + motif) | `search_aliexpress_products` |
-| Routage classe C → `attente-hakim/` (+ `awaiting_human`) | `extract_aliexpress_product` |
-| Contrôle d'idempotence, doublons | `compare_aliexpress_suppliers` |
-| `verify_shopify_product`, `update_shopify_product` (API Shopify, si MCP configuré) | `import_product_to_dsers`, `configure_dsers_variants`, `push_dsers_product_to_shopify`, `verify_supplier_mapping` |
+| Validation, rejet (`rejetes/` + motif) | `search_aliexpress_products` (anti-bot sur profil headless vierge — remèdes à l'étude ci-dessus) |
+| Routage classe C → `attente-hakim/` (+ `awaiting_human`) | `extract_aliexpress_product` (idem — le synchrone les TENTE et rend `failed anti_bot_challenge` proprement en cas de blocage) |
+| Contrôle d'idempotence, doublons | `compare_aliexpress_suppliers` (dépend de fiches extraites) |
+| `verify_shopify_product`, `update_shopify_product` (API Shopify, si MCP configuré) | `import_product_to_dsers`, `configure_dsers_variants`, `push_dsers_product_to_shopify`, `verify_supplier_mapping` — **DSers = exclusion de prudence, décision, pas limite technique** |
 
-Cette répartition vaut **tant que le serveur MCP navigateur local n'existe pas** ; le jour où la
-session headless dispose d'un navigateur fiable, elle sera revue ici.
+Les 3 types AliExpress de classe A restent donc **hors synchrone pour l'instant** : le wrapper les
+tente (navigateur Playwright en place) mais le résultat fiable attendu aujourd'hui est un
+`failed anti_bot_challenge` fail-closed, pas une extraction. Cette répartition sera revue ici le jour
+où l'un des deux remèdes (mode fenêtré à froid, profil connecté par Hakim) est prouvé sur un ordre
+réel.
 
 ## 8. Ce que ce protocole ne change pas
 

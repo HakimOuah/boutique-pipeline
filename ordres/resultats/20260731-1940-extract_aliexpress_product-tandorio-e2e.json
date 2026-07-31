@@ -1,0 +1,37 @@
+{
+  "id": "codex-20260731-1940-tandorio-e2e",
+  "status": "failed",
+  "payload": {
+    "statut": "BLOQUE",
+    "releve_le": "2026-07-31T18:13:05Z",
+    "erreur": {
+      "motif": "anti_bot_challenge",
+      "type": "BLOCAGE_TECHNIQUE",
+      "sous_type": "captcha",
+      "outil": "playwright_mcp_headless",
+      "message_brut": "We need to check if you are a robot. — overlay reCAPTCHA (iframe acs.aliexpress.com, mtop.aliexpress.pdp.pc.query intercepté) ; DOM réduit à l'en-tête et au pied de page, aucune donnée produit rendue",
+      "contexte": {
+        "url": "https://fr.aliexpress.com/item/1005004626900765.html",
+        "url_finale": "https://pt.aliexpress.com/item/1005004626900765.html?gatewayAdapt=fra2bra",
+        "tache": "extract_aliexpress_product",
+        "item_id": "1005004626900765"
+      },
+      "comportement": "ARRET_DECLARE",
+      "donnees_inventees": false,
+      "consequence": "aucune fiche extraite ; blocage transitoire probable (profil sollicité en hits rapprochés ce soir) — re-dépôt plus tard avec un nouvel id a du sens (14 §7.1)",
+      "date": "2026-07-31"
+    }
+  },
+  "journal": [
+    "19:11 verrou traiter-inbox actif (pid=94787), en-cours/ vide, aucun doublon d'id dans resultats/, rejetes/, attente-hakim/",
+    "19:12 validation : /usr/bin/python3 ordres/valider_ordre.py → VALIDE (classe A) ; relecture payload conforme au contrat 08 §2.2",
+    "19:12 ordre passé en en-cours/ via classer_ordre.sh",
+    "19:12 navigation 1 : https://fr.aliexpress.com/item/1005004626900765.html → géo-redirection pt.aliexpress.com (gatewayAdapt=fra2bra, notée, non bloquante en soi) ; snapshot 227 lignes : en-tête + pied de page uniquement, overlay reCAPTCHA « We need to check if you are a robot », requête produit mtop.aliexpress.pdp.pc.query interceptée",
+    "19:13 re-navigation unique vers la même URL (règle 08 §1.2) → même blocage : reCAPTCHA présent, aucune donnée produit (ni titre, ni prix, ni variantes) dans le snapshot",
+    "19:13 arrêt fail-closed : CAPTCHA jamais résolu, anti-bot jamais contourné, aucune donnée inventée — résultat failed motif anti_bot_challenge",
+    "19:13 navigateur Playwright fermé (browser_close)",
+    "19:14 archivage : classer_ordre.sh en-cours→resultats a écrasé l'enveloppe homonyme (mv brut, pas de suffixe .ordre.json) — réparé : ordre ré-écrit en .ordre.json, enveloppe de résultat ré-écrite ; bug signalé au compte rendu"
+  ],
+  "executed_at": "2026-07-31T18:13:05Z",
+  "executor": "claude-code-headless-20260731"
+}

@@ -64,8 +64,10 @@ JOURNAL="$JOURNAL_DIR/$(date +%Y%m%d-%H%M%S).log"
 # 4. Lancement de la session headless de dépouillement
 #
 # Le prompt NE duplique PAS le protocole : il renvoie au prompt canonique du §7
-# de 14-PROTOCOLE-ORDRES.md, plus la seule règle propre au régime synchrone
-# (headless = pas de navigateur garanti → failed `requires_interactive_session`).
+# de 14-PROTOCOLE-ORDRES.md, plus les règles propres au régime synchrone :
+# navigateur Playwright MCP limité aux 3 types AliExpress de classe A (blocage
+# anti-bot constaté le 31/07 → failed `anti_bot_challenge` fail-closed), tout
+# le reste sans session → failed `requires_interactive_session`.
 # ---------------------------------------------------------------------------
 PROMPT="Tu es l'exécutant headless du régime synchrone du protocole d'ordres.
 Lis \`ordres/README.md\`, puis applique EXACTEMENT le prompt de dépouillement
@@ -77,17 +79,42 @@ rejetes | attente-hakim). N'utilise ni mv ni rm directement — le chemin du
 dépôt contient un espace et les autorisations les bloquent. Un ordre classé ne
 doit JAMAIS rester en inbox.
 Règle du régime synchrone (14, section « Régime synchrone ») : tu tournes en
-headless, SANS navigateur ni Chrome connecté garantis. Si un ordre exige un
-navigateur ou une session interactive dont tu ne disposes pas (AliExpress,
-DSers…), ne tente AUCUN contournement : écris pour cet ordre un résultat
-\`status: \"failed\"\` fail-closed avec \`payload.statut = \"BLOQUE\"\` et
-\`payload.erreur.motif = \"requires_interactive_session\"\`, archive l'ordre en
-\`resultats/<nom>.ordre.json\` comme pour tout échec, et passe au suivant.
-Même règle pour un outil MCP Shopify absent de ta session : motif
-\`requires_interactive_session\`, jamais de contournement ni de donnée inventée."
+headless, avec un navigateur Playwright MCP (outils \`mcp__playwright__*\`,
+profil dédié, JAMAIS le Chrome de Hakim) limité à la navigation et à la
+lecture. Ce navigateur autorise UNIQUEMENT les trois types AliExpress de
+classe A : \`extract_aliexpress_product\`, \`search_aliexpress_products\`,
+\`compare_aliexpress_suppliers\`.
+Recette AliExpress (08 §1.2) : passe par l'URL directe
+\`https://fr.aliexpress.com/item/<item_id>.html\` (les URL de recherche
+déclenchent souvent le challenge anti-bot, les URL directes passent) ;
+extrais depuis le snapshot d'accessibilité ; le résultat suit le contrat de
+sortie du type (08 §2.2), données vendeur \`annonce_par_vendeur\`, \`releve_le\`
+daté. Une redirection de locale (ex. pt.aliexpress.com) n'est pas un échec si
+la fiche rend — note-la dans le journal. Si la fiche ne rend PAS (CAPTCHA,
+challenge anti-bot, page vide, blocage réseau) : re-navigue UNE fois vers la
+même URL, et si le blocage persiste, écris un résultat \`status: \"failed\"\`
+fail-closed avec \`payload.statut = \"BLOQUE\"\` et \`payload.erreur.motif =
+\"anti_bot_challenge\"\` — ne résous JAMAIS un CAPTCHA, ne contourne JAMAIS un
+anti-bot, n'invente JAMAIS une donnée. Ferme le navigateur (browser_close) à
+la fin du dépouillement.
+DSers et tout le reste restent INTERDITS en headless (décision de prudence,
+pas une limite technique) : tout ordre DSers (\`import_product_to_dsers\`,
+\`configure_dsers_variants\`, \`push_dsers_product_to_shopify\`,
+\`verify_supplier_mapping\`) ou tout autre ordre exigeant une session
+interactive dont tu ne disposes pas produit un résultat \`status: \"failed\"\`
+fail-closed avec \`payload.statut = \"BLOQUE\"\` et \`payload.erreur.motif =
+\"requires_interactive_session\"\`, archivé en \`resultats/<nom>.ordre.json\`
+comme tout échec. Même règle pour un outil MCP Shopify absent de ta session :
+motif \`requires_interactive_session\`, jamais de contournement ni de donnée
+inventée."
 
 # Liste FERMÉE d'outils — le script ne doit jamais l'élargir.
-# Pas d'outil navigateur en v1 (voir 14, « Régime synchrone », limites).
+# v2 (31/07 au soir) : navigateur Playwright MCP (serveur « playwright » de
+# .mcp.json, chargé via --mcp-config) — navigation + lecture UNIQUEMENT, pour
+# les 3 types AliExpress de classe A. Exclus à dessein : evaluate,
+# run_code_unsafe, file_upload, fill_form, network_*, tabs — pas de scripting,
+# pas de téléchargement/upload. Profil dédié ~/.cache/noirmont-playwright-profile,
+# jamais le Chrome de Hakim.
 # Les outils mcp__shopify__* ne sont actifs que si un serveur MCP « shopify »
 # est configuré pour le CLI ; absents → fail-closed requires_interactive_session.
 ALLOWED_TOOLS=(
@@ -98,6 +125,15 @@ ALLOWED_TOOLS=(
   "Bash(ls ordres/:*)"
   "Bash(mkdir -p ordres/:*)"
   "Bash(date:*)"
+  "mcp__playwright__browser_navigate"
+  "mcp__playwright__browser_navigate_back"
+  "mcp__playwright__browser_snapshot"
+  "mcp__playwright__browser_take_screenshot"
+  "mcp__playwright__browser_click"
+  "mcp__playwright__browser_type"
+  "mcp__playwright__browser_press_key"
+  "mcp__playwright__browser_wait_for"
+  "mcp__playwright__browser_close"
   "mcp__shopify__get-shop-info"
   "mcp__shopify__get-product"
   "mcp__shopify__search_products"
@@ -115,10 +151,15 @@ if ! command -v claude >/dev/null 2>&1; then
 fi
 
 echo "dépouillement headless lancé — journal : $JOURNAL"
+# --mcp-config charge explicitement le serveur Playwright du dépôt (pas
+# d'approbation interactive nécessaire : un chemin passé en --mcp-config est
+# réputé approuvé par l'appelant). PAS de --strict-mcp-config : les serveurs
+# MCP déjà configurés côté CLI (ex. connecteur Shopify) restent disponibles.
 (
   cd "$REPO_ROOT" &&
   claude -p "$PROMPT" \
     --model claude-fable-5 \
+    --mcp-config "$REPO_ROOT/.mcp.json" \
     --allowedTools "${ALLOWED_TOOLS[@]}"
 ) >"$JOURNAL" 2>&1
 CODE_CLAUDE=$?

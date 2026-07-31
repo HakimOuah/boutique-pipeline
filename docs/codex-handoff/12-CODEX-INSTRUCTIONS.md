@@ -112,7 +112,14 @@ Mécanique complète : `14-PROTOCOLE-ORDRES.md`.
     re-déposer en synchrone ne servira à rien — il attend une session interactive (Hakim). Tout
     redépôt légitime = **nouvel `id`** (`14` §6).
   - Fiables en synchrone : validation/rejet, routage classe C, ordres API Shopify (si MCP configuré).
-    AliExpress et DSers restent du ressort d'une session interactive (`14` §7.1, tableau).
+    Depuis le 31/07 au soir, le wrapper embarque un navigateur Playwright headless et **tente** les
+    3 types AliExpress de classe A (`extract_aliexpress_product`, `search_aliexpress_products`,
+    `compare_aliexpress_suppliers`) — mais le test réel a montré qu'**AliExpress bloque le headless
+    pur sur profil vierge** (reCAPTCHA, motif `anti_bot_challenge`) : ces types restent à traiter en
+    session interactive tant qu'un remède (mode fenêtré à froid, ou connexion unique de Hakim dans le
+    profil dédié) n'est pas prouvé (`14` §7.1). Un `failed anti_bot_challenge` est propre et attendu ;
+    ne pas re-déposer en boucle. **DSers reste du ressort exclusif d'une session interactive**
+    (exclusion de prudence — `14` §7.1, tableau).
 
 ## 8. Git et journalisation
 

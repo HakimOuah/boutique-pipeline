@@ -28,5 +28,25 @@ case "$SRC_ABS" in
   */exemples/*) echo "REFUS : les exemples ne se classent jamais" >&2; exit 1 ;;
 esac
 
-mv "$SRC_ABS" "$ORDRES_DIR/$DEST_ETAT/"
-echo "OK : $(basename "$SRC_ABS") → $DEST_ETAT/"
+# Nom de destination : vers resultats/, un ordre s'archive en <nom>.ordre.json
+# (l'enveloppe de résultat homonyme <nom>.json ne doit JAMAIS être écrasée —
+# bug payé le 31/07 : un mv brut a écrasé l'enveloppe fraîchement écrite).
+BASENAME="$(basename "$SRC_ABS")"
+if [ "$DEST_ETAT" = "resultats" ]; then
+  case "$BASENAME" in
+    *.ordre.json) DEST_NAME="$BASENAME" ;;
+    *.json)       DEST_NAME="${BASENAME%.json}.ordre.json" ;;
+    *)            DEST_NAME="$BASENAME.ordre" ;;
+  esac
+else
+  DEST_NAME="$BASENAME"
+fi
+
+DEST_PATH="$ORDRES_DIR/$DEST_ETAT/$DEST_NAME"
+if [ -e "$DEST_PATH" ]; then
+  echo "REFUS : la cible existe déjà, jamais d'écrasement : $DEST_PATH" >&2
+  exit 1
+fi
+
+mv "$SRC_ABS" "$DEST_PATH"
+echo "OK : $BASENAME → $DEST_ETAT/$DEST_NAME"

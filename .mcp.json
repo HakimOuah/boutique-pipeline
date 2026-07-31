@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@0.0.78",
+        "--browser",
+        "chrome",
+        "--headless",
+        "--user-data-dir",
+        "/Users/Hakim/.cache/noirmont-playwright-profile",
+        "--config",
+        "/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/config/playwright-mcp.config.json",
+        "--viewport-size",
+        "1440x900",
+        "--timeout-navigation",
+        "45000"
+      ]
+    }
+  }
+}
