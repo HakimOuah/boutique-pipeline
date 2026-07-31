@@ -1,0 +1,59 @@
+/* ==========================================================================
+   Maison Noirmont — pied de page repris sur le modèle Tuftéo — 27/07/2026
+   --------------------------------------------------------------------------
+   Chargé après 'noirmont-custom.css' (layout/theme.liquid), dont il corrige
+   deux mesures du bloc 9.6 sans réécrire la feuille de 54 ko. Même convention
+   que 'noirmont-megamenu.css' et 'noirmont-collection.css'.
+
+   Le passage de 4 à 5 colonnes, la scission Boutique / Informations / Légal et
+   l'adresse de contact sont portés par sections/footer-group.json — pas ici.
+   Aucune couleur n'est déclarée : le pied de page reste en scheme-3, craie
+   #FAFAF7 sur encre #0B0B0C (18,81:1 mesuré). Le cyan #22D3EE ne sert qu'à
+   l'anneau de focus du bloc 9.1, qui n'est pas touché.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Cibles tactiles du pied de page : 44 px réels.
+
+   Le bloc 9.6 de 'noirmont-custom.css' posait `min-height: 24px` en visant
+   24 px de contenu + 2 × 10 px de marge intérieure = 44 px. Le thème est en
+   `box-sizing: border-box` : les 24 px comptaient DÉJÀ la marge intérieure,
+   donc la règle n'imposait plus rien et la hauteur retombait sur celle du
+   texte. Mesuré avant : 42,4 px sur les liens de colonne (Inter 16 px,
+   interligne 22,4 px) et 39,6 px sur la ligne légale (14 px, 19,6 px).
+   La valeur passe à 44 px, marge intérieure comprise.
+
+   ⚠️ `display: inline-block` est conservé volontairement. Le wordmark du pied
+   de page est lui aussi un `<a>` et tombe dans ce sélecteur ; le passer en
+   `inline-flex` ferait de l'anneau du bloc 10.8 un frère de rangée, posé À
+   CÔTÉ du wordmark au lieu d'être posé AU-DESSUS. Le wordmark mesure déjà
+   66 px de contenu, la nouvelle valeur ne le déplace pas.
+   -------------------------------------------------------------------------- */
+.footer a:not(.button),
+.footer-block a:not(.button) {
+  min-height: var(--nm-tap);
+}
+
+/* --------------------------------------------------------------------------
+   2. Ligne légale : 8 px entre deux rangées.
+
+   `.policy-list__links` prend sa gouttière verticale dans `--gap-xs`
+   (0,33 rem = 5,28 px), sous les 8 px exigés entre deux cibles adjacentes —
+   et la liste passe bien sur deux rangées à 1280 px comme à 375 px. Seule la
+   gouttière verticale bouge ; l'horizontale (`--padding-sm`, 12 px) est déjà
+   conforme et n'est pas touchée, pour ne pas déformer le rythme de la ligne.
+   -------------------------------------------------------------------------- */
+.footer .policy-list__links {
+  row-gap: var(--nm-tap-gap);
+}
+
+/* --------------------------------------------------------------------------
+   3. Millésime du copyright en chiffres tabulaires.
+
+   Même principe que le bloc 9.8 : tout chiffre affiché par le thème passe en
+   `tabular-nums`. La ligne « © 2026 Maison Noirmont » était la dernière
+   occurrence non couverte.
+   -------------------------------------------------------------------------- */
+.footer-copyright__text {
+  font-variant-numeric: tabular-nums;
+}
