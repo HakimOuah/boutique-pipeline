@@ -240,3 +240,65 @@ Ce registre est la source de vérité exclusive de l'expérience Codex. Le regis
 | Date/heure | Run | Événement | Radar | Retenus | Prochaine action |
 |---|---|---|---:|---:|---|
 | 2026-07-20 21:08 CEST | 20260720-200609 | 7 marchés minés, 216 entreprises dédupliquées, SEMrush/Trends/SERP contrôlés, classeur vérifié | 30 | 8 | Sourcing AliExpress manuel des huit verts, puis économie et conformité |
+
+## Run Brand Search France + SEMrush — `20260802-231531`
+
+- 25 concepts Brand Search nouveaux après anti-doublon.
+- 194 requêtes SEMrush France mesurées.
+- 9 concepts `A_CREUSER` ; aucun n'est encore `RETENU_MARCHE_A_SOURCER`.
+- Rapport : [qualification Brand Search + SEMrush](reports/qualification-brandsearch-semrush-2026-08-02-231531-a1.md).
+
+| ID | Statut durable | Produit / niche | Volume SEMrush FR | Réserve structurante |
+|---|---|---|---:|---|
+| bs-fr-20260802-c01 | **A_CREUSER** | Cornhole premium / personnalisable | 13 810 | Colis bois et différenciation locale |
+| bs-fr-20260802-c02 | **A_CREUSER** | Arbre à chat design en bois naturel | 21 500 ; 6 700 sur différenciateurs | Poids, stabilité, coût rendu |
+| bs-fr-20260802-c03 | **A_CREUSER** | Plante/arbre artificiel XXL haut de gamme | 21 380 ; 2 780 sur premium/XXL | Différenciation visuelle réelle |
+| bs-fr-20260802-c04 | **A_CREUSER** | Moustiquaire plissée sur mesure pour baie vitrée | 27 190 | Prix exact et signal ads portés par deux preuves distinctes |
+| bs-fr-20260802-c05 | **A_CREUSER** | Autoradio / écran CarPlay spécifique véhicule | 26 010 | Compatibilité, montage, firmware, SAV |
+| bs-fr-20260802-c06 | **A_CREUSER** | Float tube de pêche premium | 14 870 | Saisonnalité, sécurité, encombrement |
+| bs-fr-20260802-c07 | **A_CREUSER** | Voile d'ombrage en fibre de coco | 34 030 ; 1 270 spécifiques coco | Demande surtout générique, vent/UV/feu |
+| bs-fr-20260802-c08 | **A_CREUSER** | Batardeau / barrière anti-inondation | 12 080 | Preuve prix scindée, étanchéité et conséquences |
+| bs-fr-20260802-c09 | **A_CREUSER** | Sac de couchage duvet premium 3 saisons | 15 880 ; 110 sur premium/duvet | Demande générique, marques et température |
+| bs-fr-20260802-c10 | **CONDITIONNEL_TICKET** | Gabion / mur gabion de jardin | 20 310 | Produits exacts 29,90–101,90 USD ; pack 150–400 non prouvé |
+| bs-fr-20260802-c11 | **EXCLU_PREUVE_SCINDEE** | Miroir LED salle de bain | 37 170 | Aucun domaine ne réunit produit exact + Meta 0 + Google >= 1 |
+| bs-fr-20260802-c12 | **EXCLU_TICKET** | Piétement de table métallique design | 13 440 | Produits exacts 116–149 EUR |
+| bs-fr-20260802-c13 | **EXCLU_LOGISTIQUE** | Softboard / planche de surf en mousse | 13 260 catégorie ; 860 spécifique | Colis surdimensionné, saisonnalité, marques |
+| bs-fr-20260802-c14 | **EXCLU_VOLUME_PROPRE** | Cockpit simracing | 3 540 direct | Le total hobby/support mélangerait les produits |
+| bs-fr-20260802-c15 | **EXCLU_PREUVE_PRIX** | Jardinière acier Corten | 2 080 spécifique | Prix exact manquant ; tête `jardinière` trop large |
+| bs-fr-20260802-c16 | **EXCLU_VOLUME** | Protection balcon/fenêtre chat sans perçage | 8 420 | Sous 10K malgré prix exact 210–325 EUR |
+| bs-fr-20260802-c17 | **EXCLU_VOLUME_CONFORMITE** | Convertisseur 12/24 V 220 V | 7 170 | Sous 10K, conformité et SAV électrique |
+| bs-fr-20260802-c18 | **EXCLU_VOLUME** | Robe de cérémonie premium enfant | 7 560 | Sous 10K, tailles et retours |
+| bs-fr-20260802-c19 | **EXCLU_VOLUME_MARQUES** | Maquette mécanique en briques premium | 7 460 | Sous 10K, LEGO/licences |
+| bs-fr-20260802-c20 | **EXCLU_VOLUME_EXPERT** | Tours et accessoires d'illusion premium | 5 810 | Sous 10K, marché expert |
+| bs-fr-20260802-c21 | **EXCLU_VOLUME_CASSE** | Coffret de verres en cristal | 3 940 | Sous 10K, casse et vérité matière |
+| bs-fr-20260802-c22 | **EXCLU_VOLUME_LOGISTIQUE** | Statue animale XXL en résine | 2 700 | Volume spécifique quasi nul |
+| bs-fr-20260802-c23 | **EXCLU_VOLUME_CONFLIT_META** | Compteur de score pétanque premium | 410 | 0 Meta au filtre, 1 active en détail |
+| bs-fr-20260802-c24 | **EXCLU_VOLUME_SECURITE** | Atténuateur de puissance pour ampli guitare | 270 | Sous 10K, chauffe/impédance |
+| bs-fr-20260802-c25 | **EXCLU_VOLUME_PROPRIETAIRE** | Adaptateur de manette utilisable à une main | 70 | Sous 10K, compatibilité et sourcing propriétaire |
+
+## Rétrospective BrandSearch Q4 2025 — `20260807-000900`
+
+- 93 marques uniques dans la passe principale, toutes indiquées Shopify par BrandSearch.
+- Classification appliquée : Shopify comme filtre de périmètre, puis fiche produit, identité réelle de l'entreprise et réplicabilité AliExpress.
+- Contrôle SEMrush France exécuté sur les concepts capables de changer le verdict.
+- Résultat durable : **0 `GO_SOURCING`**, 1 signal marché incompatible avec le modèle et 9 STOP.
+- Rapport : [rétrospective BrandSearch Q4 2025](reports/brandsearch-q4-2025-retrospective-2026-08-07-a1.md).
+
+| ID | Statut durable | Produit / niche | Diagnostic concurrent | Preuve France ou réserve structurante |
+|---|---|---|---|---|
+| bs-q4-2025-c01 | **EXCLU_TICKET_MODELE** | Microscope numérique enfant | `MARQUE_ETABLIE` + match Ali plausible | 13,7 k variantes FR, mais gagnant autour de 39,90 EUR ; électronique enfant / SAV |
+| bs-q4-2025-c02 | **EXCLU_RIGHT_TO_WIN** | Jeu de boxe connecté | `MARQUE_ETABLIE` | Application, IP et communauté constituent le produit réel |
+| bs-q4-2025-c03 | **EXCLU_VOLUME_CONFORMITE** | Machine à lait végétal | `MARQUE_ETABLIE` + catégorie Ali | 5,6 k variantes FR ; alimentaire, électrique et SAV |
+| bs-q4-2025-c04 | **EXCLU_VOLUME_TICKET** | Mini-imprimante thermique | `PROBABLE_DROPSHIP` | 4,1 k variantes FR ; faible ticket, app et consommables |
+| bs-q4-2025-c05 | **EXCLU_VOLUME** | Planche d'équilibre premium | `MARQUE_ETABLIE` | 5,3 k variantes FR malgré un prix compatible |
+| bs-q4-2025-c06 | **EXCLU_TICKET_COMMODITE** | Tige refroidissante à vin | `PROBABLE_DROPSHIP` | Faible ticket, générique et saisonnier |
+| bs-q4-2025-c07 | **EXCLU_VOLUME_PRIX** | Table C réglable / table de lit | `PROBABLE_DROPSHIP` | 140 variantes FR, plancher marketplace voisin de 35 EUR, colis encombrant |
+| bs-q4-2025-c08 | **EXCLU_VOLUME_RISQUE** | Siège auto / Doggo Dock pour chien | `PROBABLE_DROPSHIP` hybride | 9,1 k variantes FR ; sécurité / ISOFIX et fournisseur exact absent |
+| bs-q4-2025-c09 | **EXCLU_TICKET_PREUVE_SCINDEE** | Tire-bouchon à air | `PROBABLE_DROPSHIP` | L'ad historique prouve le produit faible ticket, pas l'aérateur premium |
+| bs-q4-2025-c10 | **EXCLU_PREUVE_ADS_LOGISTIQUE** | Blocs de construction en mousse | `MARQUE_ETABLIE` | Une journée de signal ads ; enfant, volume colis, produit propriétaire |
+
+### Journal Q4 2025
+
+| Date/heure | Run | Événement | GO sourcing | STOP | Prochaine action |
+|---|---|---|---:|---:|---|
+| 2026-08-07 00:09 CEST | 20260807-000900 | Rétrospective Q4 2025, classification dropship, AliExpress lecture seule et mesures France | 0 | 10 | Nouvelle passe historique avec gates renforcés ; aucune mutation commerciale |

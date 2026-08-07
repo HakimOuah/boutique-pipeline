@@ -1,0 +1,33 @@
+{
+  "run_id": "20260807-000900",
+  "run_type": "brandsearch_q4_2025_retrospective",
+  "market": "FR",
+  "status": "COMPLETE_NO_GO",
+  "phase": "POST_SEMRUSH_VERDICT",
+  "historical_window": {
+    "start": "2025-09-15",
+    "end": "2025-12-31"
+  },
+  "brandsearch": {
+    "unique_brands_main_corpus": 93,
+    "holiday_subpass_unique_brands": 45,
+    "shopify_main_corpus": 93,
+    "latest_brand_index_date": "2026-07-24",
+    "latest_ad_index_timestamp": "2026-07-20T10:55:51"
+  },
+  "verdict_counts": {
+    "go_sourcing": 0,
+    "market_signal_but_incompatible_model": 1,
+    "stop": 9
+  },
+  "commercial_mutations": {
+    "shopify": false,
+    "dsers": false,
+    "ads": false,
+    "orders": false
+  },
+  "artifacts": {
+    "raw_evidence": "codex-chasse-clusters/runs/20260807-000900/brandsearch-q4-2025-raw.md",
+    "report": "codex-chasse-clusters/reports/brandsearch-q4-2025-retrospective-2026-08-07-a1.md"
+  }
+}

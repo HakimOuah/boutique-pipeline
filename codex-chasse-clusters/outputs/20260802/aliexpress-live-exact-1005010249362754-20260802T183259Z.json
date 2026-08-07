@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "status": "QUALIFIED_LIVE",
+  "checked_at_utc": "2026-08-02T18:32:59+00:00",
+  "source": {
+    "platform": "AliExpress Open Platform / AE-Dropshipper",
+    "api_methods": [
+      "aliexpress.ds.product.get",
+      "aliexpress.ds.freight.query"
+    ],
+    "execution_path": "Mac -> forced read-only SSH gateway -> whitelisted VPS -> aliexpress-mcp",
+    "vps_ip": "148.230.118.152"
+  },
+  "product": {
+    "product_id": "1005010249362754",
+    "status": "onSelling",
+    "title": "Tandorio 36mm 39mm chiffres arabes cadran vert noir mis5 8215 montre de plongée automatique pour hommes bracelet en acier boucle coulissante saphir",
+    "rating": "4.7",
+    "evaluation_count": "3",
+    "sales_count": "8",
+    "item_url": "https://fr.aliexpress.com/item/1005010249362754.html",
+    "exact_variant_url": "https://fr.aliexpress.com/item/1005010249362754.html?skuId=12000051675733200"
+  },
+  "seller": {
+    "store_id": 3209151,
+    "name": "tandorio Timepieces Store",
+    "country": "CN",
+    "item_as_described_rating": "4.8",
+    "communication_rating": "4.8",
+    "shipping_speed_rating": "4.8"
+  },
+  "exact_variant": {
+    "requested_properties": [
+      "white sterile",
+      "36mm-glass back"
+    ],
+    "sku_id": "12000051675733200",
+    "sku_attr": "5:57036539#36mm-glass back;14:175#white sterile",
+    "stock": 300,
+    "offer_sale_price": "102.39",
+    "sku_price": "102.39",
+    "currency": "EUR",
+    "tax_included": true,
+    "api_properties": [
+      {
+        "name": "Couleur",
+        "value": "white sterile",
+        "raw_value": "vert",
+        "image": "https://ae01.alicdn.com/kf/Sf838bdaa8e9e4e2a9c8158a9f3f756e2d.jpg"
+      },
+      {
+        "name": "Taille",
+        "value": "36mm-glass back",
+        "raw_value": "Option 5",
+        "image": null
+      }
+    ]
+  },
+  "visual_confirmation": {
+    "image_url": "https://ae01.alicdn.com/kf/Sf838bdaa8e9e4e2a9c8158a9f3f756e2d.jpg",
+    "sha256": "d5cf11465f9837e005fbc84c78a27d32a22f6c2c147dea6958370a9a6f70536d",
+    "observed": [
+      "white or silver dial",
+      "Eastern Arabic numerals",
+      "no Tandorio wordmark on the dial",
+      "Automatic inscription remains visible"
+    ]
+  },
+  "shipping_fr": {
+    "service_code": "CAINIAO_FULFILLMENT_STD",
+    "company": "AliExpress Selection Standard",
+    "shipping_fee": "1,99€",
+    "currency": "EUR",
+    "free_shipping": false,
+    "min_delivery_days": 8,
+    "max_delivery_days": 11,
+    "delivery_date_raw": "ao&ucirc;t 10 - 13",
+    "ship_from_country": "CN",
+    "tracking": true,
+    "available_stock": "300",
+    "observed_landed_cost_eur": "104.38"
+  },
+  "security_and_durability": {
+    "ssh_key_fingerprint": "SHA256:s2vV+WNhoYV0GedTF4pgoTe1q1rODjCYPiDIeb9VQt8",
+    "allowed_actions": [
+      "health",
+      "search",
+      "variants",
+      "exact"
+    ],
+    "arbitrary_remote_command_test": "blocked by forced command",
+    "final_exact_recheck_at_utc": "2026-08-02T18:40:20+00:00",
+    "access_token_refresh": "live tested and scheduled daily",
+    "access_token_expires_at_utc": "2026-09-01T18:29:47+00:00",
+    "refresh_token_expires_at_utc": "2026-10-01T18:09:12+00:00"
+  },
+  "caveats": [
+    "The API raw colour value says vert while its definition, sku_attr and SKU image identify white sterile; the image was inspected directly.",
+    "The listing has only 8 recorded sales and 3 evaluations, so technical sourcing qualification is not a commercial launch approval.",
+    "The AliExpress page can rewrite URL parameters; recheck that SKU 12000051675733200 remains selected before any DSers import.",
+    "No DSers import, Shopify mutation, order or payment was performed."
+  ]
+}
