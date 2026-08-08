@@ -860,3 +860,27 @@ aussi bien d'utiliser une source marquée que de gommer localement le marquage, 
 pas cherché à contourner. La fiche reste à 2 médias.
 
 **Cumul inchangé : 45 visuels rattachés sur 41 fiches. 2 refus.**
+
+---
+
+## Tour 29 — 09/08/2026 ~02h20
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `remontoir-vitrine` | `-g1` macro angle de cadre | 3/3 | Remontoir Vitrine — macro de l'angle du cadre : montant en bois brun rouge, tranche du verre et doublure intérieure taupe — Maison Noirmont |
+
+- **Premier accessoire (non-montre) de la campagne** : les critères cadran/lunette sont sans
+  objet, le contrôle porte sur la fidélité matière et l'absence d'élément inventé.
+- **Fidélité** : cadre bois brun rouge, tranche de verre clair, doublure intérieure taupe —
+  conformes aux deux vues en ligne. Aucun mécanisme, aucun accessoire, aucune montre ajoutée.
+- Codex signale avoir écarté une première génération qui « ajoutait une **plaque en laiton
+  absente de la source** ». Élément inventé, bien rejeté — c'est le même travers que la
+  surface circulaire de l'Éclaireur Bronze (tour 27), et il est attrapé à chaque fois.
+- **Aucun lettrage, aucune marque** sur le cadre — contrairement au Remontoir Solo du tour 28,
+  dont la source portait un lettrage gravé et qui est resté sans livraison.
+- Aucun avis ni badge ; 2048×2048 JPEG ; cette fiche n'ayant que 2 médias, le nouveau se
+  place en 3/3, image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 46 visuels rattachés sur 42 fiches. 2 refus.**
