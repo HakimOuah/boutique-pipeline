@@ -607,3 +607,31 @@ Les trois visuels sont bien distincts et chacun correspond à sa fiche. Aucune i
   2048×2048 JPEG ; fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 37 visuels rattachés sur 33 fiches. 2 refus.**
+
+---
+
+## Tour 21 — 09/08/2026 ~01h40
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `voyageur-or-gmt-3-maillons` | `-g1` macro contre-plongée bracelet 3 maillons | 5/5 | Voyageur Or — macro en contre-plongée du bracelet trois maillons doré et de sa jonction au boîtier, crantage du flanc de lunette visible — Maison Noirmont |
+
+### Contrôles du tour 21 — première GMT de la campagne, vigilance lunette
+
+- **Risque spécifique** : une GMT porte une **lunette graduée 24 h**, donc des chiffres.
+  C'est précisément le cas de figure signalé au briefing (graduation de lunette avec chiffres
+  fantaisistes ou marque). Ici le cadrage est en **contre-plongée** : seul le **crantage du
+  flanc** de la lunette apparaît, la face graduée bicolore brun/noir est entièrement hors
+  champ. **Aucun chiffre, aucun texte, aucune mention d'origine à l'image.** Le risque est
+  évité par le cadrage, pas masqué.
+- **Fidélité produit** : « Doré du boîtier au bracelet **trois maillons** ». La macro montre
+  bien un trois maillons (pas un jubilé cinq rangs comme les Trente-Six), entièrement doré,
+  boîtier compris. Conforme.
+- **Cadran hors champ** : la fiche précise « Cadran sans logo ni inscription de marque » —
+  point sans objet ici, aucun cadran n'est cadré.
+- Aucun avis ni badge ; 2048×2048 JPEG.
+- Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 38 visuels rattachés sur 34 fiches. 2 refus.**
