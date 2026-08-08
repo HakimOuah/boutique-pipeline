@@ -884,3 +884,22 @@ pas cherché à contourner. La fiche reste à 2 médias.
   place en 3/3, image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 46 visuels rattachés sur 42 fiches. 2 refus.**
+
+---
+
+## Tour 30 — 09/08/2026 ~02h25
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `coffret-douze-aluminium` | `-g1` macro angle aluminium | 3/3 | Coffret Douze — macro de l'angle : profil en aluminium brossé à arrête arrondie, insert intérieur noir texturé et bord d'un coussin gris — Maison Noirmont |
+
+- **Fidélité** : « structure aluminium, intérieur suédine » → profil aluminium brossé, insert
+  noir texturé, coussin gris. Conforme aux deux vues en ligne. Aucun verrou, aucune charnière
+  ni mécanisme inventé — le travers récurrent de cette fournée (plaque laiton, surface
+  circulaire) ne se présente pas ici.
+- Aucun lettrage ni marque sur le profil ; aucun avis ni badge ; 2048×2048 JPEG.
+- Fiche à 2 médias : le nouveau se place en 3/3, image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 47 visuels rattachés sur 43 fiches. 2 refus.**
