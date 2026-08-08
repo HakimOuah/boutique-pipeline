@@ -368,11 +368,12 @@ concurrent facultatif, concept/listing/revue humaine maintenus.
 | Terrarium | `STOP_VERROUILLE` | interdit | `/qualifie-idees` uniquement |
 | Scrap/journaling | `SUSPENDU_PHASE_2` | interdit | étude profonde avant toute shortlist |
 | Perles/bijoux | `SUSPENDU_PHASE_2` | interdit | étude profonde avant toute shortlist |
-| Aquarium/aquascaping | `SUSPENDU_PHASE_2` | interdit | finaliser la phase 2 |
-| Puzzle 3D bois | `FILE_PHASE_2_1` | interdit | prochaine étude profonde |
-| Théière | `FILE_PHASE_2_3` | interdit | après aquarium |
-| Lunch box | `FILE_PHASE_2_4` | interdit | après théière |
+| Aquarium/aquascaping | `STOP_PHASE_2` | interdit | `/qualifie-idees` uniquement |
+| Puzzle 3D bois | `STOP_PHASE_2` | interdit | `/qualifie-idees` uniquement |
+| Théière | `STOP_PHASE_2` | interdit | `/qualifie-idees` uniquement |
+| Lunch box | `STOP_PHASE_2` | interdit | `/qualifie-idees` uniquement |
 
 | Date/heure | Run | Événement | Site choisi | Prochaine action |
 |---|---|---|---:|---|
 | 2026-08-08 | gate-v3-reclassification | Gate produit corrigé sans rouvrir les STOP ; file de phase 2 enregistrée | 0 | Puzzle 3D bois : étude concurrentielle profonde, sans sourcing |
+| 2026-08-08 | second-rideau-phase2 | Puzzle 3D, aquarium, théière et lunch box tous arrêtés ; 8/8 dossiers profonds en STOP | 0 | Étudier scrap/journaling puis perles/bijoux, sans sourcing |

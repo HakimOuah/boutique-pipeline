@@ -62,9 +62,12 @@
 - Le gate actif est `codex-chasse-clusters/GATE-V3-CATALOGUE-SOURCING.md` : la
   preuve est portée par les collections, un jumeau concurrent n'est pas requis
   par PDP et un volume produit peut être égal à zéro.
-- Mobilité chien et mercerie : `STOP_PHASE_2`.
-- Scrap/journaling, perles/bijoux et aquascaping : `SUSPENDU_PHASE_2`; aucune
-  d'elles n'autorise encore le sourcing exact.
+- Mobilité chien, mercerie et aquascaping : `STOP_PHASE_2`.
+- Scrap/journaling et perles/bijoux : `SUSPENDU_PHASE_2`; aucune n'autorise
+  encore le sourcing exact.
+- Le second rideau a aussi été instruit : Puzzle 3D bois, théière et lunch box
+  sont `STOP_PHASE_2`. Avec basse-cour et terrarium, huit dossiers étudiés en
+  profondeur sur huit ont été arrêtés.
 - Aucun site n'est sélectionné. Les actions autorisées restent lecture, mesure
   et étude concurrentielle ; publication, import, commande et dépense restent
   interdits.

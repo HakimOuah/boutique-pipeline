@@ -13,3 +13,5 @@
 | 2026-08-08 | Scrap, perles et aquascaping suspendus | `SUSPENDU_PHASE_2` | analyses actuelles insuffisantes pour verdict complet | aucun sourcing | Hakim/Codex | après étude profonde |
 | 2026-08-08 | Gate V3 : preuve collection, PDP volume zéro possible, jumeau concurrent facultatif | `DECISION_PROJET` | corpus Kraken + correction Hakim | revue humaine et preuve SKU maintenues | Hakim | permanent |
 | 2026-08-08 | Ordre de la prochaine salve : Puzzle 3D, aquarium, théière, lunch box | `FILE_PHASE_2` | candidats de second rideau | aucun site choisi avant verdict | Codex | à la fin de chaque dossier |
+| 2026-08-08 | Puzzle 3D, aquarium, théière et lunch box arrêtés après phase 2 | `STOP_PHASE_2` | quatre profils profonds sous `competitor-profiles/kraken-2026-08-08/` | accepter 4/4 STOP sans forcer de sourcing | Hakim/Codex | uniquement via `/qualifie-idees` |
+| 2026-08-08 | Supplanter la file du second rideau ; terminer scrap puis perles | `FILE_PHASE_2` | seuls dossiers des cinq niches sans verdict profond | aucun site/sourcing avant verdict | Codex | après chaque dossier |
