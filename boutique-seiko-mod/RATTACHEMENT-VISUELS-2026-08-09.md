@@ -1060,3 +1060,32 @@ Trois déclinaisons traitées, trois couples cuir/doublure distincts — aucune 
   nouveau se place en 3/3, image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 54 visuels rattachés sur 50 fiches. 2 refus.**
+
+---
+
+## Tour 38 — 09/08/2026 ~03h05
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `remontoir-collection-bois-beige` | `-g1` macro socle bois blond | 3/3 | Remontoir Collection Bois beige — macro du socle : bois blond à grain droit, ressaut de plinthe arrondi et bas de la porte vitrée — Maison Noirmont |
+
+- **Fidélité** : « Coffret en bois **beige**, façade vitrée. Une teinte claire et douce » →
+  bois blond à grain droit, franchement clair. Conforme, et sans confusion possible avec la
+  version noire du tour 37 : même géométrie de socle, teintes opposées.
+- Montres et charnière exclus ; aucun lettrage ni marque ; aucun avis ni badge ;
+  2048×2048 JPEG ; fiche à 2 médias, le nouveau se place en 3/3, image 1 intacte, statut
+  ACTIVE inchangé.
+
+### Note de suivi — recherche du chemin `scratchpad/noirmont-galeries` close
+
+La recherche système lancée au tour 7 pour localiser le dossier
+`scratchpad/noirmont-galeries/entrees-faces/` s'est terminée **sans aucun résultat** sur
+l'ensemble du disque. Confirmation définitive : ce chemin, cité par la majorité des
+manifestes de la nuit, **n'existe nulle part**. Les contrôles de source ont donc tous été
+faits par substitution (planches QA + vues Shopify en ligne), ce qui a suffi à trancher
+chaque cas. À corriger côté Codex : citer un chemin versionné du repo, comme il l'a fait
+correctement pour les Squelettes et les Éclaireurs.
+
+**Cumul : 55 visuels rattachés sur 51 fiches. 2 refus.**
