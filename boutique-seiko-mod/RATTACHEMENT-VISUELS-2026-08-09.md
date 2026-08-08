@@ -668,3 +668,47 @@ Le bon réflexe.
 - Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 39 visuels rattachés sur 35 fiches. 2 refus.**
+
+---
+
+## Tour 23 — 09/08/2026 ~01h50
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `voyageur-bicolore-gmt-3-maillons` | `-g1` macro bracelet 3 maillons bicolore | 5/5 | Voyageur Bicolore — macro du bracelet trois maillons bicolore : rangée centrale dorée entre deux rangs d'acier brossé, lunette et couronne dorées sur boîtier acier — Maison Noirmont |
+
+### Contrôles du tour 23
+
+- **Fidélité produit** : « Boîtier bicolore, acier et doré, sur un bracelet trois maillons
+  dont **la rangée centrale reprend le ton doré** ». La macro montre exactement cela —
+  rangée centrale dorée, deux rangs extérieurs acier brossé, boîtier acier, lunette et
+  couronne dorées. Conforme, et bien distincte des deux Voyageur **Or** intégral des tours
+  21 et 22.
+- **Lunette** : cadrée de face cette fois. Elle porte des **pastilles rondes lumineuses**
+  et un crantage, mais **aucun chiffre de graduation, aucun texte, aucune mention d'origine**.
+  Contrôle GMT passé.
+- Cadran hors champ hormis un fragment noir sans texte. Aucun avis ni badge. 2048×2048 JPEG.
+- Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
+
+### ⚠️ À remonter à Hakim — description contredite par les visuels (3 fiches Voyageur)
+
+Les trois fiches Voyageur annoncent une « **lunette bicolore brun et noir** » (ou « lunette
+brun et noir ») :
+
+- `voyageur-or-gmt-3-maillons`
+- `voyageur-or-gmt-president`
+- `voyageur-bicolore-gmt-3-maillons`
+
+Or **les quatre vues déjà en ligne** sur chacune de ces fiches montrent une **lunette
+entièrement dorée à pastilles claires** — aucune trace de brun ni de noir sur la lunette.
+Le texte décrit un insert que le produit photographié n'a pas.
+
+Ce n'est **pas** un défaut du visuel livré ce soir : la macro est cohérente avec les quatre
+vues existantes. L'écart est dans le texte des fiches, et il préexiste à cette campagne.
+Aucune correction faite — le mandat interdit de toucher au texte. Décision à prendre par
+Hakim : corriger la description des trois fiches, ou vérifier auprès du fournisseur quelle
+lunette est réellement livrée.
+
+**Cumul : 40 visuels rattachés sur 36 fiches. 2 refus.**
