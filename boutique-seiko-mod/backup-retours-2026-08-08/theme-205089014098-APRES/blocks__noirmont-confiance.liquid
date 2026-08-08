@@ -1,0 +1,121 @@
+<div class="noirmont-confiance" {{ block.shopify_attributes }}>
+  <div class="noirmont-confiance__card">
+    <span class="noirmont-confiance__icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M3 7h11v10H3zM14 10h4l3 3v4h-7zM7.5 19.5a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6zM17.5 19.5a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6z"/></svg>
+    </span>
+    <div>
+      <strong>Livraison offerte et suivie</strong>
+      <p>En France métropolitaine, numéro de suivi dès l'expédition.</p>
+    </div>
+  </div>
+  <div class="noirmont-confiance__card">
+    <span class="noirmont-confiance__icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.4-3 8.4-7 10-4-1.6-7-5.6-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg>
+    </span>
+    <div>
+      <strong>14 jours satisfait ou remboursé</strong>
+      <p>Essai au poignet compris ; frais de retour à votre charge.</p>
+    </div>
+  </div>
+  <div class="noirmont-confiance__card">
+    <span class="noirmont-confiance__icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="7"/><path d="M12 8v4l2.5 2.5M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>
+    </span>
+    <div>
+      <strong>Garantie 12 mois</strong>
+      <p>Mouvement, couronne, aiguilles : on répare ou on remplace.</p>
+    </div>
+  </div>
+  <a class="noirmont-confiance__card noirmont-confiance__card--contact" href="mailto:{{ block.settings.contact_email }}">
+    <span class="noirmont-confiance__icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="M3 7l9 6 9-6"/></svg>
+    </span>
+    <div>
+      <strong>Une question ? SAV en français</strong>
+      <p>{{ block.settings.contact_email }} · réponse sous 24 h ouvrées.</p>
+    </div>
+  </a>
+</div>
+
+{% stylesheet %}
+  .noirmont-confiance {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+
+  .noirmont-confiance__card {
+    align-items: flex-start;
+    background: rgba(11, 11, 12, 0.025);
+    border: 1px solid rgba(11, 11, 12, 0.08);
+    border-radius: 2px;
+    color: inherit;
+    display: flex;
+    gap: 10px;
+    padding: 12px;
+    text-decoration: none;
+  }
+
+  .noirmont-confiance__card strong {
+    display: block;
+    font-size: 0.88rem;
+    line-height: 1.3;
+    margin-bottom: 3px;
+  }
+
+  .noirmont-confiance__card p {
+    font-size: 0.82rem;
+    line-height: 1.4;
+    margin: 0;
+    opacity: 0.75;
+  }
+
+  .noirmont-confiance__icon {
+    color: #0B0B0C;
+    flex: 0 0 auto;
+    margin-top: 2px;
+  }
+
+  .noirmont-confiance__icon svg {
+    fill: none;
+    height: 20px;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.6;
+    width: 20px;
+  }
+
+  .noirmont-confiance__card--contact {
+    background: rgba(11, 11, 12, 0.05);
+    border-color: rgba(11, 11, 12, 0.22);
+  }
+
+  @media (max-width: 599px) {
+    .noirmont-confiance {
+      grid-template-columns: 1fr;
+    }
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "Cartes de confiance",
+  "tag": null,
+  "settings": [
+    {
+      "type": "text",
+      "id": "contact_email",
+      "label": "E-mail de contact",
+      "default": "contact@maisonnoirmont.fr"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Cartes de confiance",
+      "category": "Produit"
+    }
+  ]
+}
+{% endschema %}
