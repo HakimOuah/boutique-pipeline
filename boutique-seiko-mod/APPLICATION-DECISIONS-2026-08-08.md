@@ -29,6 +29,13 @@ Vérification faite : les **12 variantes siglées** (logo de marque tierce) sont
 
 **⚠️ Vigilance à trancher par Hakim** : les deux fiches **actives** issues du découpage — « Voyageur Or — GMT bracelet 3 maillons » (`10980078780754`) et « Voyageur Or — GMT bracelet Président » (`10980079042898`) — reprennent exactement les combinaisons des variantes siglées (DG3804 / NH34 · fond verre/acier). Leurs **visuels sont stériles** (contrôle visuel effectué : cadran noir sans aucun logo), donc rien de siglé n'est affiché. Reste à confirmer que leur **mapping DSers ne pointe pas vers la référence fournisseur siglée** — sinon le client recevrait une montre logotée alors que la fiche montre un cadran vierge (double problème : contrefaçon + promesse non tenue). Contrôle impossible côté API (DSers exige une connexion) : **à vérifier manuellement dans DSers**.
 
+## Vérifications d'exécution (preuves, 08/08 18h05)
+
+- **Prix barrés** : scan paginé complet des **935 variantes** de la boutique → **0 variante avec `compareAtPrice` non nul**. (Note de méthode : `compare_at_price` n'est pas un champ filtrable sur `productVariants` — un `query:"compare_at_price:>0"` est ignoré silencieusement et renvoie tout le catalogue ; seul le scan paginé fait preuve.)
+- **Avis** : `themeFilesUpsert` renvoie `upsertedThemeFiles: []` **sans erreur** sur ce thème — c'est le rejet silencieux déjà connu, et ici un **faux négatif** : l'écriture a bien abouti. Preuve par empreinte du fichier distant `templates/index.json` — avant : md5 `1ccc270f…` / 91 705 o (identique à `index.json.avant`) ; après : md5 `57ecffa8…` / 91 731 o / `updatedAt 2026-08-08T16:05:17Z` = empreinte exacte de `index.json.apres`. Le thème MAIN `Helio` est resté intact (`updatedAt` toujours 2026-07-24).
+- **Leçon versée au campement** : sur ce thème, ne jamais conclure d'un `upsertedThemeFiles` vide ; vérifier par **empreinte du fichier distant** (plus fort qu'un grep, et sans rapatrier 91 Ko). Transporter les gros corps via `stagedUploadsCreate` + `body:{type:URL}` plutôt qu'en `TEXT` (risque de troncature à la retranscription).
+- **Précision de forme** : le commit `09c42c5` a été poussé pendant que l'écriture du thème était encore en cours — il documentait les décisions, pas leur exécution constatée. Les preuves ci-dessus la constatent.
+
 ## Décision 5 — Budget publicitaire : 30 €/jour
 
 Noté pour la phase 6. Conséquence méthode (corpus Kraken) : à 30 €/j, le **CPC doit rester cohérent — 0,16 à 0,25 €**, ce qui tombe bien puisque le marché seiko mod est à ~0,22 €. Objectif de phase inchangé : **15 conversions** pour débloquer le tROAS, sans chercher la rentabilité pendant cette phase.
