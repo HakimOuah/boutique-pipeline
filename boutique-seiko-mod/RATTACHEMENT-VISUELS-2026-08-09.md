@@ -333,3 +333,23 @@ Deux dossiers `quarante-et-un-noir-*` livrés pendant le tour 8. Handles valides
 - Ajout en fin de galerie (5/5), image 1 intacte, statuts ACTIVE inchangés.
 
 **Cumul : 26 visuels rattachés sur 22 fiches. 2 refus.**
+
+---
+
+## Tour 10 — 09/08/2026 ~00h45
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `quarante-et-un-noir-jaune-acier-sport-acier` | `-g1` macro angle bas jonction boîte-bracelet | 5/5 | Quarante-et-Un Noir & Jaune Acier — macro en angle bas de la jonction boîtier-bracelet : maillons acier brossés et polis, cadran noir à index cernés de jaune en haut de cadre — Maison Noirmont |
+
+La fiche vend « Cadran noir avec des accents jaunes — tirets de la graduation, trotteuse,
+contours des index — sur bracelet acier ». Le fragment de cadran visible montre bien les
+index **cernés de jaune** et les tirets jaunes de la graduation, sur **bracelet acier**
+brossé et poli : conforme, et bien distinct de la variante Noir Acier traitée au tour 9.
+
+Aucun logo, sigle ni lettrage ; aucun avis ni badge ; 2048×2048 JPEG ; ajout en fin de
+galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 27 visuels rattachés sur 23 fiches. 2 refus.**
