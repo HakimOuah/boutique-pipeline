@@ -846,3 +846,17 @@ vérifier la référence réellement livrée par le fournisseur.
   image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 45 visuels rattachés sur 41 fiches. 2 refus.**
+
+---
+
+## Tour 28 — 09/08/2026 ~02h15 — dossier vide assumé
+
+| Fiche | Livré | Motif consigné au manifeste |
+|---|---|---|
+| `remontoir-solo` | 0 visuel | source locale interdite : la seule face disponible porte un **lettrage de marque gravé sur la façade** ; aucune autre source propre dans le lot validé |
+
+Rien à rattacher — écart justifié, aucune action. C'est le bon arbitrage : la règle interdit
+aussi bien d'utiliser une source marquée que de gommer localement le marquage, et Codex n'a
+pas cherché à contourner. La fiche reste à 2 médias.
+
+**Cumul inchangé : 45 visuels rattachés sur 41 fiches. 2 refus.**
