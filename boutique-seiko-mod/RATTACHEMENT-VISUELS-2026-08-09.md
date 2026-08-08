@@ -763,3 +763,31 @@ Aucun texte modifié — hors mandat. À arbitrer par Hakim : corriger les descr
 vérifier la référence réellement livrée par le fournisseur.
 
 **Cumul : 42 visuels rattachés sur 38 fiches. 2 refus.**
+
+---
+
+## Tour 25 — 09/08/2026 ~02h00
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `voyageur-bicolore-cadran-brun-gmt` | `-g1` profil lunette + couronne + bracelet | 5/5 | Voyageur Bicolore cadran brun — profil rapproché : lunette dorée crantée, protège-couronne acier, couronne dorée à sommet lisse et bracelet cinq maillons bicolore — Maison Noirmont |
+
+### Contrôles du tour 25
+
+- **Fidélité produit** : « Boîtier bicolore acier et doré, bracelet cinq maillons ». La macro
+  montre la boîte acier, la lunette et la couronne dorées, les protège-couronne acier et un
+  bracelet cinq maillons bicolore. Conforme.
+- **Couronne cadrée en très gros plan** : sommet **parfaitement lisse et vierge**, aucun logo,
+  blason ni gravure. Point de risque principal du cadrage, il est propre.
+- **Cadran entièrement exclu** — et c'est ici le résultat de deux autocorrections successives
+  de Codex, toutes deux pertinentes :
+  1. une première génération rejetée parce que « des marqueurs de minutes restaient visibles » ;
+  2. une seconde rejetée parce qu'elle « inventait une grande ouverture de cadran vide ».
+  Le fichier livré ne montre aucun cadran, donc ni marqueur inventé ni texte.
+- **Lunette** : crantage vu de profil, **aucun chiffre de graduation 24 h**.
+- Aucun avis ni badge ; 2048×2048 JPEG ; fin de galerie (5/5), image 1 intacte, statut ACTIVE
+  inchangé.
+
+**Cumul : 43 visuels rattachés sur 39 fiches. 2 refus.**
