@@ -65,6 +65,28 @@ Les totaux restent des sommes d'expressions exactes distinctes, pas des utilisat
 - Catalogue : 130 IDs uniques.
 - Risque : électricité, étanchéité, CO2 et bien-être animal. La première vague recommandée est non électrique ; pompes, chauffages et LED nécessitent une gate conformité renforcée.
 
+## Étude concurrentielle approfondie
+
+La couche concurrence ajoute 31 domaines observés, 21 profils détaillés, 20 domaines BrandSearch et 15 domaines SEMrush France. Elle ne modifie pas le verdict de demande, mais elle change l'ordre conseillé pour un **premier test opérable** :
+
+1. scrapbooking/journaling — meilleur espace pour une offre souvenir-first et des kits modulaires ;
+2. mobilité du chien — demande forte et un benchmark `PROBABLE_DROPSHIP`, mais commencer par les accessoires non critiques ;
+3. mercerie — demande maximale mais autorités historiques et complexité matière/variantes ;
+4. perles/bijoux — longue traîne transactionnelle forte, sous la zone de confort 40 k et sensible à la composition ;
+5. aquascaping — intention marchande prouvée, mais risque technique/logistique le plus élevé.
+
+Un seul acteur du panel est classé `PROBABLE_DROPSHIP` avec une confiance moyenne : Boutiquechien.fr. Aucun fournisseur n'est prouvé. Ses 1 308 produits Shopify coexistent avec seulement 151 visites organiques France estimées par SEMrush : la profondeur seule n'est donc ni une preuve d'autorité SEO ni un modèle à copier.
+
+Le pattern commun des leaders est la vente d'un système complet : usage + compatibilité + preuve + panier. Les positionnements proposés sont :
+
+- chien : équipement par scénario et morphologie ;
+- mercerie : projet guidé et personnalisable ;
+- scrap : souvenir/rituel + palette modulaire ;
+- perles : bijou fini sans erreur de compatibilité ;
+- aquarium : écosystème compatible par volume et niveau.
+
+Étude complète : `../../../competitor-profiles/etude-concurrentielle-5-niches-2026-08-08.md`.
+
 ## Sourcing AliExpress
 
 - 100 requêtes lancées via AliExpress Open Platform / AE-Dropshipper sur le VPS autorisé.

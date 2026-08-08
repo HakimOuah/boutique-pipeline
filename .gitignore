@@ -22,3 +22,7 @@ __pycache__/
 
 # Artefacts locaux du serveur MCP Playwright (sorties/captures) — jamais dans git
 .playwright-mcp/
+
+# Artefacts temporaires locaux de contrôle/rendu Codex
+/.tmp/
+**/verification-import/

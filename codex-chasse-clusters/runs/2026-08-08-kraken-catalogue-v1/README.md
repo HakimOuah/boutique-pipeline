@@ -12,3 +12,14 @@ Cette exécution qualifie cinq niches France et prépare une première arboresce
 ## Niveau de preuve AliExpress
 
 `API_SEARCH_MATCH` signifie qu'un listing a été renvoyé par l'API au moment de la collecte. Ce statut ne valide pas encore la variante exacte, la conformité, la disponibilité durable ni le fret France. Les liens sont fournis pour contrôle humain avant toute sélection commerciale.
+
+## Extension concurrentielle
+
+La seconde passe croise 31 domaines publics, 20 marques BrandSearch, 15 domaines SEMrush France et cinq banques/ensembles VOC. Elle ajoute :
+
+- `../../../competitor-profiles/etude-concurrentielle-5-niches-2026-08-08.md` — synthèse et priorités ;
+- `build_competitor_workbook.mjs` — construction reproductible du classeur enrichi ;
+- `verify_competitor_workbook.mjs` — réimport, rendu des 11 onglets et scan d'erreurs ;
+- `../../outputs/2026-08-08-kraken-concurrence-v1/5-niches-kraken-etude-concurrentielle-2026-08-08.xlsx` — catalogue initial + concurrence, SEMrush, personas et différenciation.
+
+Un seul acteur est classé `PROBABLE_DROPSHIP` à confiance moyenne : Boutiquechien.fr. Aucun fournisseur n'est prouvé. Shopify reste un indice technique, jamais une preuve.

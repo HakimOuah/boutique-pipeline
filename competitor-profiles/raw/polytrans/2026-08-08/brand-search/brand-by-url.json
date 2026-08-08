@@ -1,0 +1,17 @@
+{
+  "queried_url": "https://www.polytrans.fr",
+  "pulled_at": "2026-08-08",
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool get_brand_by_url: upstream 404 brand_not_found: The requested brand was not found."
+      }
+    ],
+    "structuredContent": {
+      "error_code": "INVALID_ARGUMENT"
+    },
+    "isError": true
+  },
+  "error": null
+}
