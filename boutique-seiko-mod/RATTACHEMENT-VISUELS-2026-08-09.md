@@ -432,3 +432,31 @@ Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
 - Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 30 visuels rattachés sur 26 fiches. 2 refus.**
+
+---
+
+## Tour 14 — 09/08/2026 ~01h05
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `trente-neuf-noir-classique-cannelee` | `-g1` macro latérale lunette + couronne | 5/5 | Trente-Neuf Noir — macro latérale : stries polies de la lunette cannelée, couronne cannelée à sommet lisse, flanc acier brossé et jonction au bracelet jubilé — Maison Noirmont |
+
+### Contrôles du tour 14
+
+- **Fidélité produit** : « cadran noir brillant », « lunette cannelée », « bracelet jubilé à
+  cinq rangs ». La macro montre les stries de la lunette en gros plan, le bracelet jubilé
+  acier à gauche, et la tranche du cadran **noir** en haut de cadre. Conforme.
+- **Couronne — cadrée en gros plan, contrôle serré** : cannelure régulière et **sommet plat
+  entièrement lisse**, aucun logo, blason, sigle ni gravure. C'est le point de risque
+  principal de ce cadrage, il est propre.
+- **Cadran, date et loupe hors champ** : seule la tranche noire apparaît, aucun texte
+  lisible. Le risque « SWISS MADE » de la famille Trente-Neuf (cf. refus tour 1 sur la
+  version Rose) ne se présente pas ici.
+- Aucun avis ni badge ; 2048×2048 JPEG.
+- Codex signale 1 rejet interne (premier cadrage montrant à tort un disque gris brossé à la
+  place du cadran noir) — le fichier livré est bien la version corrigée, cadran noir.
+- Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 31 visuels rattachés sur 27 fiches. 2 refus.**
