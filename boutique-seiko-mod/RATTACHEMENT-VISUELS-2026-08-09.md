@@ -1112,3 +1112,24 @@ correctement pour les Squelettes et les Éclaireurs.
   le nouveau se place en 3/3, image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 56 visuels rattachés sur 52 fiches. 2 refus.**
+
+---
+
+## Tour 40 — 09/08/2026 ~03h15
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `remontoir-collection-cuir-pu` | `-g1` macro socle cuir PU | 3/3 | Remontoir Collection Cuir PU — macro du socle : habillage en cuir PU noir à grain fin, angle arrondi, bourrelet de transition et chant de la vitrine — Maison Noirmont |
+
+- **Fidélité** : « Habillage en **cuir PU** » → grain fin de synthèse bien rendu, nettement
+  différent du bois noir mat du tour 37 malgré la même couleur et la même géométrie de socle.
+  C'était le risque de confusion de cette variante, il est écarté.
+- **Fermeture à clé non cadrée** : la serrure, second argument de la fiche, n'apparaît pas —
+  mais elle n'est pas non plus **inventée** ailleurs sur le coffret. Cadrage honnête.
+- Montres et cadrans exclus ; aucun lettrage ni marque ; aucun avis ni badge ;
+  2048×2048 JPEG ; fiche à 2 médias, le nouveau se place en 3/3, image 1 intacte, statut
+  ACTIVE inchangé.
+
+**Cumul : 57 visuels rattachés sur 53 fiches. 2 refus.**
