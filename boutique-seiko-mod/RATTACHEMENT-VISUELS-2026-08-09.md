@@ -381,3 +381,25 @@ galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
 - **Technique** : 2048×2048 JPEG. Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 28 visuels rattachés sur 24 fiches. 2 refus.**
+
+---
+
+## Tour 12 — 09/08/2026 ~00h55
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `montre-squelette-automatique-octogone` | `-g1` macro transition boîtier-bracelet | 5/5 | Squelette Octogone — macro de la transition entre le boîtier octogonal acier brossé et les quatre premiers maillons du bracelet intégré, chants polis et articulations apparentes — Maison Noirmont |
+
+La fiche vend « Boîtier acier à lunette octogonale vissée, **bracelet acier dans le dessin du
+boîtier** » : la macro montre bien un bracelet intégré acier prolongeant la géométrie
+octogonale, identique aux quatre vues en ligne. Conforme, et bien distincte de la macro
+Squelette Carré du tour 11 — les deux constructions de maillons diffèrent.
+
+Cadran et couronne hors champ, aucun logo ni lettrage (la fiche précise « sans logo ni
+inscription »), aucun avis ni badge. Source versionnée présente
+(`visuels-arabes-squelettes-2026-07-29/…-octogone-face.jpg`). 2048×2048 JPEG.
+Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 29 visuels rattachés sur 25 fiches. 2 refus.**
