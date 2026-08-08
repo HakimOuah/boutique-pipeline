@@ -1205,3 +1205,19 @@ la correspondance est immédiate.
 - Image 1 intacte, statut ACTIVE inchangé, aucune variante touchée.
 
 **Cumul : 64 visuels rattachés sur 55 fiches. 2 refus.**
+
+---
+
+## Tour 43 — 09/08/2026 ~03h30 — dossier vide assumé
+
+| Fiche | Livré | Motif consigné au manifeste |
+|---|---|---|
+| `trente-neuf-duo-classique-bicolore` | 0 visuel | la table SKU distingue **36 mm / 39 mm**, mais la face locale unique ne permet ni d'identifier la taille représentée ni de prouver une seconde géométrie ; les options de mouvement et de fond ne changent rien à la face montrée |
+
+Rien à rattacher — écart justifié, aucune action. Le compte-rendu précise « **arrêt avant
+génération** pour éviter toute donnée inventée » et le dossier `rejected/` est vide : aucune
+image n'a même été produite. C'est le meilleur arbitrage possible sur ce cas — fabriquer une
+différence 36/39 mm invisible sur la source aurait été exactement le type d'invention que la
+mission proscrit. Cette fiche est déjà pourvue de 10 médias.
+
+**Cumul inchangé : 64 visuels rattachés sur 55 fiches. 2 refus.**
