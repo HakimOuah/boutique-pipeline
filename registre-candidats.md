@@ -22,6 +22,10 @@ Première salve en **mode Kraken** (type de produit à catalogue profond, ticket
 - **Preuves versées à un dossier existant** : papier peint panoramique (+3 boutiques Brand Search : lepapierpeint.fr, muralconcept.fr, wondermural.com).
 - **Écartés motivés** : tipi enfant (adjacent lit cabane, rejet terrain), déguisements (parc Enzo + vêtements), voitures miniatures et univers licenciés (TCG/manga/Funko), équipement militaire (GMC), suspensions-luminaires et vanlife (2e rideau).
 
+### Comparaison salves Claude × Codex (08/08/2026)
+
+Salve Codex (commit `618965f`, run `2026-08-08-kraken-catalogue-expansion-v2`) : 5 niches (chien balade/transport 81 860 nettoyé, mercerie 221 680, scrapbooking 64 740, perles 35 770, aquariophilie 48 320), 212 produits audités humainement (objectifs 100-200 non atteints — gate produit plus strict que la méthode Kraken : jumeau concurrent exigé par produit, là où le corpus valide la catégorie puis 10-20 produits/sous-catégorie choisis fournisseur). Comparaison : [reports/comparaison-salves-kraken-2026-08-08.md](reports/comparaison-salves-kraken-2026-08-08.md). **Shortlist fusionnée proposée à Hakim : terrarium, chien balade/transport (recoupement), équipement basse-cour, mercerie (sous réserve SERP/prix), puzzle 3D / aquariophilie en 2e rideau.**
+
 ## Chasse clusters — boucle volume-first (lancée le 20 juillet 2026)
 
 Objectif : 20 candidats qualifiés (volume mesuré, concurrence chiffrée, fiche AliExpress vérifiée), **tous chemins confondus** — balayage `/chasse-clusters` (voie secondaire depuis le 20/07) et qualification express d'idées `/qualifie-idees` (voie principale) alimentent ce même tableau et ce même compteur. Design : [specs/2026-07-20-boucle-chasse-clusters-design.md](specs/2026-07-20-boucle-chasse-clusters-design.md). État du balayage : [familles-exploration.md](familles-exploration.md).
