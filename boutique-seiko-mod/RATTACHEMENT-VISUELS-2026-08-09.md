@@ -529,3 +529,24 @@ Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
 - Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 34 visuels rattachés sur 30 fiches. 2 refus.**
+
+---
+
+## Tour 18 — 09/08/2026 ~01h25
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `trente-six-rose-classique-jubile` | `-g1` profil gauche boîtier + jubilé | 5/5 | Trente-Six Rose — profil gauche : boîtier acier fin à flanc poli, corne à barrette vissée et départ du bracelet jubilé acier à cinq rangs — Maison Noirmont |
+
+- **Fidélité** : boîtier acier fin et bracelet jubilé acier, conformes à la fiche. Cadran,
+  date et couronne entièrement hors champ — aucun texte, aucune mention d'origine.
+- **Autocorrection Codex à souligner** : le compte-rendu signale un premier cadrage rejeté
+  parce qu'il « laissait apparaître un grand fragment de cadran rose **vidé de ses index** ».
+  C'est exactement le type de défaut à ne pas laisser passer, et il a été écarté en amont.
+  Le fichier livré ne montre plus aucun cadran.
+- Aucun logo, aucun avis, aucun badge ; 2048×2048 JPEG.
+- Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 35 visuels rattachés sur 31 fiches. 2 refus.**
