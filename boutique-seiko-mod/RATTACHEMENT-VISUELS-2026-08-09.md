@@ -1020,3 +1020,23 @@ Trois déclinaisons traitées, trois couples cuir/doublure distincts — aucune 
   ACTIVE inchangé.
 
 **Cumul : 52 visuels rattachés sur 48 fiches. 2 refus.**
+
+---
+
+## Tour 36 — 09/08/2026 ~02h55
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `rouleau-de-voyage-bleu-marine-cuir` | `-g1` macro logement intérieur bleu | 3/3 | Rouleau de Voyage Bleu marine — macro d'un logement intérieur : séparateurs et doublure en suédine bleu marine, cuir extérieur bleu nuit grainé roulé — Maison Noirmont |
+
+- **Fidélité** : « Le bleu marine tranche avec le noir sans verser dans la couleur vive. Un
+  ton profond » → cuir bleu nuit et doublure bleu marine, ton sur ton. Conforme, et
+  distinguable du noir du tour 34 malgré la proximité des deux teintes sombres.
+- Quatre déclinaisons de Rouleau désormais traitées (vert, noir, brun, bleu marine), toutes
+  avec le bon couple cuir/doublure. Aucune interversion sur la famille.
+- Montres et cordon exclus ; aucun lettrage ni marque ; aucun avis ni badge ; 2048×2048 JPEG ;
+  fiche à 2 médias, le nouveau se place en 3/3, image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 53 visuels rattachés sur 49 fiches. 2 refus.**
