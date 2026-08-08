@@ -1,0 +1,49 @@
+Correction bloquants P0 « avis » — Maison Noirmont — 08/08/2026
+Theme cible : gid://shopify/OnlineStoreTheme/205089014098
+             « TRAVAIL Noirmont — publier apres validation » (UNPUBLISHED)
+Theme MAIN 204248088914 : NON TOUCHE.
+
+Methode : ajout de "disabled": true (reversible, aucune suppression).
+Ecriture : stagedUploadsCreate + themeFilesUpsert (body type URL).
+themeFilesUpsert a renvoye upsertedThemeFiles: [] sans erreur — verification
+faite par empreinte theme.files{ checksumMd5 size }.
+
+EMPREINTES (checksumMd5 / size renvoyes par l'API Shopify)
+
+fichier                     AVANT                             taille   APRES                             taille
+templates/index.json        57ecffa86c3e97328d83d82b20484f83  91731    25edae5c5f16abb288d1f6f3fcbacce9  92035
+templates/product.json      cb135b12e03f78825663a06479a65bb7  43182    d5ed057f8fa60a1c530a15c61ec97f9c  75531
+templates/collection.json   9839f6c7415df2a01a2143e2c816df10  9080     45a2274e57a1f9caddfe97c04b048492  16088
+templates/search.json       3c62a0de1a4ddcf25f1a8bcb529f1a27  9929     fcb907df229fa26d4b537ff19cb58337  9965
+
+Note : product.json et collection.json etaient stockes minifies ; l'API les
+restitue indentes, donc la taille augmente sans changement semantique. Le diff
+local avant/apres ne contient QUE des lignes "disabled": true ajoutees.
+Les fichiers avant/*.json de ce dossier sont la forme indentee restituee par
+l'API (leur md5 local ne vaut donc pas pour product.json et collection.json ;
+faire foi des checksums Shopify ci-dessus).
+
+BLOCS DESACTIVES (23 noeuds, 0 restant actif)
+
+P0 mandate :
+  index.json    section reviews_rXFabc (« Ils portent Noirmont ») + ses 6 _review-slide
+  product.json  section reviews_8P6xW3 + ses 6 _review-slide
+  product.json  bloc reviews_badge_noirmont (« 4,8/5 · 1340 avis », style trustpilot)
+
+Ajout — notes agregees fabriquees (rating 4.5 / review_count 123) :
+  index.json      rating_stars_z9LL3m, rating_stars_VJ6F6G (x2)
+  product.json    rating_stars_Krck47, rating_stars_nz7WzY
+  collection.json rating_stars_tmhMrj
+  search.json     rating_stars_kDXzxw  <-- seul sans hide_rating_when_no_reviews,
+                  donc le seul susceptible d'afficher reellement « 4,5 · 123 avis »
+
+Deja desactive avant cette passe (correctif partiel du 08/08) :
+  index.json  reviews_badge_efW9wU + le groupe portant « - 2 000 clients satisfaits »
+
+VERIFICATIONS FINALES
+- 20 templates du theme de travail reparcourus : 23 noeuds avis/rating, tous disabled:true.
+- sections/breadcrumbs-group.json, cart-drawer-group.json, footer-group.json,
+  header-group.json : aucun bloc avis/rating, aucune mention chiffree.
+- Restent hors perimetre (autres bloquants de l'audit, non traites ici) :
+  B3/B4 retractation (FAQ, CGV, accordeons « 14 jours pour changer d'avis »),
+  countdown_aJCPJc.
