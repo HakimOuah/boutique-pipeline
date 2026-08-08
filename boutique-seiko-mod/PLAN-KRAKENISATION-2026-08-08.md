@@ -15,7 +15,7 @@
 | **Véracité produit** | 351 images fournisseur supprimées ; loupe saphir corrigée ; VK63 documenté méca-quartz ; 12 variantes siglées neutralisées (DENY réversible) | `veracite-produit-cloture.md` |
 | **Charte & design** | Direction A+B (encre/craie/cyan instrument), collections modernisées, PDP à galeries 7 images | `charte-noirmont-2026-07-25.md` |
 | **Configurateur V2** | « Votre Noirmont en trois étapes » — découverte guidée, 34/34 chemins vers vraies variantes, vocabulaire vérifiable | `configurateur-implementation.md` |
-| **Site EN LIGNE** (constat 08/08) | maisonnoirmont.fr accessible sans mot de passe, thème custom publié (menu, bandeau, configurateur visibles) | audit live 08/08 |
+| ~~Site en ligne~~ **CORRIGÉ 08/08 soir** | La boutique est **toujours sous mot de passe** (302 vers `/password` en requête anonyme) ; le live vu au navigateur venait de la session preview de Hakim. Le thème MAIN reste `Helio` — le thème travaillé n'est pas publié. | vérification anonyme 08/08 |
 | **Positionnement** | « Cadran vierge de tout logo emprunté » — différenciant honnête vs mods contrefaits | live |
 
 ### Les risques bloquants constatés au live du 08/08 (avant toute pub)
@@ -94,7 +94,11 @@ Le site vend des **montres finies** ; or le gisement mesuré est le **vocabulair
 
 **Critère de succès à M+3** (calibré sur les benchmarks Enzo) : boutique rentable ou break-even sur Shopping avec tROAS actif, 200+ produits, 1er trafic SEO naissant — trajectoire Style Hippie (~11 k visites réelles = zone de rentabilité), pas besoin de plus pour gagner.
 
-## 4. Décisions en attente de Hakim (bloquantes)
+## 4. Décisions de Hakim — TRANCHÉES le 08/08 (voir [APPLICATION-DECISIONS-2026-08-08.md](APPLICATION-DECISIONS-2026-08-08.md))
+
+Les 6 décisions ont été prises et appliquées : avis retirés, prix barrés supprimés (931 variantes), commande test reçue et conforme (chemin critique levé), sigles déjà masqués (produit en brouillon + DENY), budget 30 €/j, GO sourcing. Restent : publication du thème et vérification DSers des 2 fiches « Voyageur Or ».
+
+### Tableau d'origine (historique)
 
 | # | Décision | Impact |
 |---|---|---|
