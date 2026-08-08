@@ -151,3 +151,25 @@ Quatre nouveaux dossiers livrés pendant le tour 1.
 - Ajout en fin de galerie, image 1 intacte, statuts ACTIVE inchangés.
 
 **Cumul : 18 visuels rattachés sur 14 fiches. 0 refus.**
+
+---
+
+## Tour 5 — 09/08/2026 ~00h25
+
+### Rattachés (2 visuels sur 2 fiches)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `integrale-brun-or-rose-sport-chic` | `-g1` macro bracelet intégré or rose | 5/5 | Intégrale Brun or rose — macro du bracelet intégré or rose : plaques satinées, deux connecteurs par articulation et chants polis — Maison Noirmont |
+| `integrale-noir-sport-chic-acier` | `-g1` macro jonction boîtier-bracelet | 5/5 | Intégrale Noir — macro de la jonction boîtier-bracelet : vis de lunette, chanfrein poli et deux connecteurs intégrés, tranche de cadran noir texturé — Maison Noirmont |
+
+### Contrôles du tour 5
+
+- **Fidélité produit** : la fiche Brun or rose vend un « boîtier or rose · bracelet
+  intégré » — la macro est bien or rose (pas acier), point de vigilance principal ici.
+  La fiche Noir vend un « cadran noir texturé » et un bracelet intégré acier : la macro
+  montre la tranche du cadran noir texturé et le bracelet intégré acier, conforme.
+- Aucun logo, lettrage ni mention d'origine ; aucun avis ni badge ; sources présentes ;
+  2/2 en 2048×2048 JPEG ; ajout en fin de galerie, image 1 intacte, statuts inchangés.
+
+**Cumul : 20 visuels rattachés sur 16 fiches. 0 refus.**
