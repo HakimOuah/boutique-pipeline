@@ -712,3 +712,54 @@ Hakim : corriger la description des trois fiches, ou vérifier auprès du fourni
 lunette est réellement livrée.
 
 **Cumul : 40 visuels rattachés sur 36 fiches. 2 refus.**
+
+---
+
+## Tour 24 — 09/08/2026 ~01h55
+
+### Rattachés (2 visuels sur 2 fiches)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `voyageur-bicolore-gmt-5-maillons` | `-g1` macro 5 maillons bicolore | 5/5 | Voyageur Bicolore — macro du bracelet cinq maillons bicolore : trois rangs centraux dorés entre deux rangs larges d'acier brossé, lunette dorée sur boîtier acier — Maison Noirmont |
+| `voyageur-or-rose-gmt-5-maillons` | `-g1` macro 5 maillons or rose | 5/5 | Voyageur Or rose — macro du bracelet cinq maillons entièrement or rose : deux rangs extérieurs larges satinés, trois rangs centraux étroits polis, boîtier et lunette dans le même ton — Maison Noirmont |
+
+### Contrôles du tour 24
+
+- **Or rose** : « Or rose du boîtier au bracelet cinq maillons » → la macro est intégralement
+  **or rose** (teinte cuivrée, nettement distincte de l'or jaune des tours 21-23), boîtier et
+  lunette compris. Conforme sans réserve. La géométrie cinq maillons est également distincte
+  des trois maillons du tour 21 et du Président du tour 22 : les quatre Voyageur traités ce
+  soir sont tous différenciés à l'image.
+- **Bicolore 5 maillons** : géométrie conforme (trois rangs centraux étroits entre deux rangs
+  larges), acier aux bords, boîtier acier — mais voir la réserve ci-dessous sur la teinte.
+- **Lunettes** : pastilles rondes et crantage, **aucun chiffre de graduation 24 h, aucun
+  texte, aucune mention d'origine**. Cadrans hors champ.
+- Aucun avis ni badge ; 2/2 en 2048×2048 JPEG ; fin de galerie (5/5), image 1 intacte,
+  statuts ACTIVE inchangés.
+
+### ⚠️ Deuxième anomalie de description — `voyageur-bicolore-gmt-5-maillons`
+
+La fiche annonce « **Acier et or rose** se répondent sur le boîtier comme sur le bracelet ».
+Or les **quatre vues déjà en ligne** montrent sans ambiguïté de l'**or jaune**, pas de l'or
+rose — et la comparaison est immédiate avec la vraie or rose traitée dans le même tour, dont
+la teinte cuivrée n'a rien à voir.
+
+Comme pour la lunette (tour 23), **le visuel livré n'est pas en cause** : il reproduit
+fidèlement l'or jaune des quatre vues existantes. C'est la description qui est fausse, et
+elle l'était avant cette campagne.
+
+Récapitulatif des écarts de texte constatés sur la famille Voyageur, tous préexistants :
+
+| Fiche | Ce que dit le texte | Ce que montrent les visuels en ligne |
+|---|---|---|
+| `voyageur-or-gmt-3-maillons` | lunette bicolore brun et noir | lunette dorée à pastilles |
+| `voyageur-or-gmt-president` | lunette bicolore brun et noir | lunette dorée à pastilles |
+| `voyageur-bicolore-gmt-3-maillons` | lunette brun et noir | lunette dorée à pastilles |
+| `voyageur-bicolore-gmt-5-maillons` | lunette brun et noir + **acier et or rose** | lunette dorée + **or jaune** |
+| `voyageur-or-rose-gmt-5-maillons` | lunette brun et noir | lunette or rose |
+
+Aucun texte modifié — hors mandat. À arbitrer par Hakim : corriger les descriptions, ou
+vérifier la référence réellement livrée par le fournisseur.
+
+**Cumul : 42 visuels rattachés sur 38 fiches. 2 refus.**
