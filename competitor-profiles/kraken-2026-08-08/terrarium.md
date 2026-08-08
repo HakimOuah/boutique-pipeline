@@ -101,6 +101,14 @@ Sources : WebFetch/WebSearch (SERP FR) + MCP Brandsearch (profils domaines). Les
 - **RÉSERVES** sur le seul angle défendable : équipement technique hors-verre + kits bioactifs double univers, pédagogie particulier, guides numériques. Conditions de levée avant toute phase 3 : (1) volume SEMrush FR spécifique aux clusters « brumisation terrarium / terrarium bioactif / éclairage terrarium » au-dessus du seuil, (2) sonde prix confirmant un mid-ticket ≥ 60 €, (3) sourcing AliExpress d'au moins un produit hero non-verre, non-marqué, sans risque sécurité (exclut chauffage/UVB en marque blanche).
 - Sans ces trois preuves, la niche bascule STOP : le cœur de la demande appartient au vivant et aux marques établies, exactement ce que le périmètre « matériel only » s'interdit.
 
+## 4. Décision projet après revue : **STOP_VERROUILLE**
+
+Les conditions de levée n'ont pas été prouvées. Le projet interdit désormais
+de lancer un sourcing pour tenter de sauver ce dossier : contenants en verre,
+marques techniques, sécurité et dépendance au vivant restent structurels.
+Terrarium sort donc de la file active. Une nouvelle piste distincte ne peut le
+rouvrir que via `/qualifie-idees`, avec mesure, SERP et nouvelle phase 2.
+
 ---
 
 *Fichier généré le 08/08/2026 — protocole Kraken phase 2. URLs et chiffres vérifiés le jour même (Brandsearch + SERP).*

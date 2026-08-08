@@ -1,36 +1,34 @@
-# Run Kraken catalogue expansion v2
+# Run Kraken catalogue expansion v2 — archive d'audit
 
-Objectif : reconstruire les cinq catalogues a partir des produits et collections
-observes chez les concurrents, puis ne retenir que des concepts distincts avec
-un equivalent AliExpress pertinent, un mot-cle business France documente et
-une validation humaine finale de chaque listing.
+Objectif historique : reconstruire cinq catalogues depuis les produits et
+collections observés chez les concurrents, puis relire chaque équivalent
+AliExpress et chaque mot-clé France.
 
-## Gate de comptage et objectifs indicatifs
+**Statut au 2026-08-08 :** les fichiers et le classeur restent des preuves
+auditables, mais le gate de comptage V2 est **supplanté** pour les futurs
+catalogues par [`GATE-V3-CATALOGUE-SOURCING.md`](../../GATE-V3-CATALOGUE-SOURCING.md).
+Les 212 produits acceptés forment une bibliothèque de départ ; les déficits V2
+ne prouvent pas un manque de profondeur du marché.
 
-Les objectifs de profondeur sont de 100 ou 200 produits selon la niche. Ils ne
-sont jamais remplis artificiellement : un deficit reste documente. Un produit
-ne compte dans le catalogue livre que si :
+## Pourquoi le gate V2 est archivé
 
-1. il est soit relié à un produit/une collection concurrente observée, soit
-   identifié comme `DECOUVERTE_FAMILLE_SEO_API` dans une famille business déjà
-   mesurée ; ces deux niveaux de preuve restent séparés ;
-2. son concept normalise est distinct d'un simple changement de couleur, taille
-   ou quantite ;
-3. une recherche AliExpress officielle read-only retourne un listing
-   semantiquement pertinent, avec un prix, un ID et une URL stables ; le statut
-   distingue les listings deja qualifies par note/commandes de ceux qui restent
-   a verifier ;
-4. son mot-cle produit est transactionnel. Le volume PDP peut etre faible, mais
-   il ne doit pas etre invente et sa page doit etre rattachee a une collection
-   mesurable ;
-5. une revue humaine exhaustive confirme la correspondance entre le mot-cle,
-   le titre du listing et la fonction du produit ;
-6. la niche atteint au moins 30 000 recherches mensuelles commerciales propres
-   en France, avec les seuils de collections Kraken documentes separement.
+V2 exigeait presque systématiquement un équivalent concurrent, un listing
+AliExpress pertinent et un volume PDP strictement positif. La Méthode Kraken
+valide d'abord les catégories, place 10–20 produits dans chaque sous-catégorie
+et laisse la data révéler les références fortes. Elle autorise aussi des mots-
+clés descriptifs à volume zéro lorsqu'ils précisent une collection mesurée.
 
-Les donnees de recherche fournisseur sont des preuves de listing, pas une
-validation automatique du SKU exact, du fret, de la conformite ou des
-economics. Ces niveaux restent distincts dans le classeur final.
+Le gate actif conserve les contrôles utiles de V2 — concept distinct, listing
+réel et revue humaine — mais :
+
+1. porte la preuve de demande au niveau de la niche et des collections ;
+2. n'exige pas de jumeau concurrent par produit ;
+3. accepte un volume PDP égal à zéro sans l'inventer ;
+4. vise 200 produits sur la boutique entière et 10–20 par sous-catégorie ;
+5. interdit tout sourcing avant un verdict favorable de l'étude concurrentielle profonde.
+
+Les données fournisseur restent des preuves de listing, pas une validation du
+SKU exact, du fret, de la conformité ou de l'économie.
 
 ## Entrees concurrentielles
 
@@ -54,7 +52,11 @@ economics. Ces niveaux restent distincts dans le classeur final.
 - `final-catalogue-gate-report.json` : contrôle déterministe du gate final ;
 - `rapport-qualification.md` et classeur final vérifié.
 
-## Reproduction
+## Reproduction historique
+
+Ces commandes reproduisent V2 ; elles ne constituent pas le pipeline actif du
+gate V3 et ne doivent pas être relancées sur une niche `STOP` ou
+`SUSPENDU_PHASE_2`.
 
 ```bash
 python3 merge_competitor_concepts.py

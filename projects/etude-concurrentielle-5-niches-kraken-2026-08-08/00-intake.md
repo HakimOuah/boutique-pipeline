@@ -54,3 +54,17 @@
 - Aquarium : vivant, plantes, électricité, étanchéité et CO₂ exclus de la première vague par défaut.
 - Aucune ressemblance d’image ne prouve un fournisseur.
 - Les métriques tierces sont des estimations ; aucune conversion ou marge concurrente n’est inférée.
+
+## Mise à jour après phase 2 et correction du gate
+
+- Les 212 listings acceptés par V2 restent une bibliothèque auditée, pas une
+  shortlist de lancement ni une preuve que les catalogues sont trop courts.
+- Le gate actif est `codex-chasse-clusters/GATE-V3-CATALOGUE-SOURCING.md` : la
+  preuve est portée par les collections, un jumeau concurrent n'est pas requis
+  par PDP et un volume produit peut être égal à zéro.
+- Mobilité chien et mercerie : `STOP_PHASE_2`.
+- Scrap/journaling, perles/bijoux et aquascaping : `SUSPENDU_PHASE_2`; aucune
+  d'elles n'autorise encore le sourcing exact.
+- Aucun site n'est sélectionné. Les actions autorisées restent lecture, mesure
+  et étude concurrentielle ; publication, import, commande et dépense restent
+  interdits.

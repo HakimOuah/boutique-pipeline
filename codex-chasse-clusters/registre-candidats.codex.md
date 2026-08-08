@@ -351,3 +351,28 @@ Ce registre est la source de vérité exclusive de l'expérience Codex. Le regis
 | Date/heure | Run | Événement | Intégrité | Objectifs catalogue | Prochaine action |
 |---|---|---|---:|---:|---|
 | 2026-08-08 15:45 CEST | 2026-08-08-kraken-catalogue-expansion-v2 | Concurrence, SEMrush FR, API AliExpress, revue humaine exhaustive, classeur rendu et contrôlé | PASS | 0/5 atteints | Prioriser les références acceptées puis valider SKU, fret, conformité et economics avant toute mutation commerciale |
+
+### Reclassification après phase 2 et gate V3 — 2026-08-08
+
+Le gate V2 est conservé comme archive d'audit mais ne pilote plus les futurs
+catalogues. Le gate actif est
+[`GATE-V3-CATALOGUE-SOURCING.md`](GATE-V3-CATALOGUE-SOURCING.md) : preuve au
+niveau collection, PDP descriptive éventuellement à volume zéro, jumeau
+concurrent facultatif, concept/listing/revue humaine maintenus.
+
+| Niche | Statut actif | Sourcing | Réouverture / prochaine action |
+|---|---|---|---|
+| Chien balade/transport | `STOP_PHASE_2` | interdit | `/qualifie-idees` uniquement |
+| Mercerie | `STOP_PHASE_2` | interdit | `/qualifie-idees` uniquement |
+| Équipement basse-cour | `STOP_PHASE_2` | interdit | `/qualifie-idees` uniquement |
+| Terrarium | `STOP_VERROUILLE` | interdit | `/qualifie-idees` uniquement |
+| Scrap/journaling | `SUSPENDU_PHASE_2` | interdit | étude profonde avant toute shortlist |
+| Perles/bijoux | `SUSPENDU_PHASE_2` | interdit | étude profonde avant toute shortlist |
+| Aquarium/aquascaping | `SUSPENDU_PHASE_2` | interdit | finaliser la phase 2 |
+| Puzzle 3D bois | `FILE_PHASE_2_1` | interdit | prochaine étude profonde |
+| Théière | `FILE_PHASE_2_3` | interdit | après aquarium |
+| Lunch box | `FILE_PHASE_2_4` | interdit | après théière |
+
+| Date/heure | Run | Événement | Site choisi | Prochaine action |
+|---|---|---|---:|---|
+| 2026-08-08 | gate-v3-reclassification | Gate produit corrigé sans rouvrir les STOP ; file de phase 2 enregistrée | 0 | Puzzle 3D bois : étude concurrentielle profonde, sans sourcing |
