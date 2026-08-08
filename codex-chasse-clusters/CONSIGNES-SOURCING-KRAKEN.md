@@ -48,8 +48,21 @@ Dans ton skill de run (le gate de comptage du README type `Run Kraken catalogue 
 
 Autre changement à intégrer : la stratégie de référence complète est désormais `drop-elite-google-os/skills/creer-boutique-niche-google/references/strategie-pas-a-pas.md` (mise à jour du 08/08 avec le cours Skool complet — 229 contenus). Ton skill doit la citer comme source de vérité méthode, et la mission coach-associé (`references/mission-coach-associe.md`) s'applique aussi à toi : après une étape, enchaîne sur la suivante de la roadmap sans attendre la demande.
 
-## Application immédiate
+## ⛔ VERDICTS PHASE 2 DU 08/08 (soir) — NE PAS SOURCER CES NICHES
 
-Sur tes 5 niches : reprends `final-catalogue-reviewed.json` et complète chaque sous-catégorie déficitaire avec l'ordre de sourcing 80/20 jusqu'à 10-20/sous-catégorie. Tes 271 rejets contiennent probablement une majorité de produits refusés au seul motif du jumeau concurrent ou du volume PDP — re-passe-les au gate v3 avant de re-sourcer du neuf. Cible réaliste avec le gate v3 : 200+ par niche sur chien/mercerie/perles, 150+ sur scrapbooking/aquario.
+Les études concurrentielles profondes (protocole phase 2, dossiers dans `competitor-profiles/kraken-2026-08-08/`) ont rendu **4 STOP sur les 4 niches GO du matin**. Le gate v3 reste la règle pour tout futur sourcing, mais **n'engage AUCUN sourcing supplémentaire sur** :
 
-Décision Hakim du 08/08 : shortlist fusionnée GO = terrarium, chien balade/transport, équipement basse-cour, mercerie (études concurrentielles profondes en cours côté Claude dans `competitor-profiles/kraken-2026-08-08/`). Coordonne-toi via le registre.
+- **Mercerie créative — STOP verrouillage** (`mercerie.md`) : historiques centenaires (Rascol 1926, Durand 1934), réseaux physiques, tickets 0,72-10 €, vente au mètre ; le volume famille 221 680 est un mirage navigationnel/local. **Arrête l'expansion catalogue mercerie ; archive tes 45 produits comme preuve, pas comme livrable.**
+- **Chien balade/transport — STOP** (`chien-balade-transport.md`) : French Bandit verrouille le lifestyle, Wanimalz tient l'angle anti-traction pédagogique, transport = généralistes ; les 3 dropship comparables plafonnent à 0,8-3,6 k visites. **Idem : archive tes 32 produits.**
+- **Équipement basse-cour — STOP** (`equipement-basse-cour.md`) : poulailler-direct.fr occupe exactement l'angle accessoires ; sandwich Leroy Merlin (238 offres) / marques (Omlet, ChickenGuard) ; aucun acteur Shopify.
+- **Terrarium — STOP mesuré** : l'interstice « équipement technique/bioactif » identifié en étude n'a pas de volume propre (brumisateur 590, tapis chauffant 590, lampe 480, bioactif 70, hygromètre 20 — mesure SEMrush du 08/08 au soir). Conditions de levée non réunies.
+
+**Scrapbooking et perles** (tes 2 niches restantes) : pas encore d'étude profonde — **suspends leur sourcing** jusqu'au verdict phase 2 ; signaux défavorables a priori (tickets faibles, même famille loisirs créatifs que la mercerie). **Aquariophilie** : 2e rideau, étude à venir, ne pas sourcer.
+
+Réouverture d'un de ces dossiers : uniquement via `/qualifie-idees` avec reprise motivée (produit précis, non standardisé, hors du champ des verrouilleurs identifiés).
+
+## Application du gate v3 (pour les prochaines niches, pas celles ci-dessus)
+
+Le gate v3 et l'ordre de sourcing 80/20 s'appliquent à toute niche **qui a passé la phase 2** (étude concurrentielle profonde avec verdict RETENU). La leçon de cette salve : **la mesure express ne suffit pas — aucun sourcing avant le verdict concurrence.** Séquence obligatoire : mesure express → SERP → étude profonde → verdict → SEULEMENT ENSUITE arborescence + sourcing. Tes 271 rejets restent une base de re-passage au gate v3 le jour où une niche similaire est RETENUE.
+
+Prochain cycle (décision à venir de Hakim) : 2e rideau = puzzle 3D bois, aquariophilie, théière, lunch box — études phase 2 à mener AVANT tout sourcing. Coordonne-toi via le registre.
