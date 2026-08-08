@@ -302,3 +302,26 @@ Ce registre est la source de vérité exclusive de l'expérience Codex. Le regis
 | Date/heure | Run | Événement | GO sourcing | STOP | Prochaine action |
 |---|---|---|---:|---:|---|
 | 2026-08-07 00:09 CEST | 20260807-000900 | Rétrospective Q4 2025, classification dropship, AliExpress lecture seule et mesures France | 0 | 10 | Nouvelle passe historique avec gates renforcés ; aucune mutation commerciale |
+
+## Run Kraken catalogue-volume France — `2026-08-08-kraken-catalogue-v1`
+
+- Nouveau mode documenté : catalogue de niche low-ticket autorisé, cible 100–150 références pour la première salve et 200 à terme.
+- Seuils appliqués : 30 k minimum propre, 40 k zone de confort ; collection cœur ≥ 1 000 ; secondaire 500–1 000 avec tolérance ±200.
+- 100 requêtes AliExpress read-only ; 632 IDs sélectionnés après dédoublonnage ; 5 probes SKU + fret France réussis.
+- Les cinq niches restent `A_CREUSER_CATALOGUE` : aucune économie rendue France complète ni conformité fournisseur généralisée.
+- Rapport : [qualification Kraken catalogue-volume](runs/2026-08-08-kraken-catalogue-v1/rapport-qualification.md).
+- Classeur : `outputs/2026-08-08-kraken-catalogue-v1/5-niches-kraken-france-2026-08-08.xlsx`.
+
+| ID | Statut durable | Niche | Volume propre FR | Catalogue API | Réserve structurante |
+|---|---|---|---:|---:|---|
+| kraken-cat-20260808-c01 | **A_CREUSER_CATALOGUE** | Balade, transport & mobilité du chien | 81 860 | 118 | Sécurité, charge et tailles |
+| kraken-cat-20260808-c02 | **A_CREUSER_CATALOGUE** | Mercerie créative & arts du fil | 221 680 | 129 | Concurrence établie et angle de marque |
+| kraken-cat-20260808-c03 | **A_CREUSER_CATALOGUE** | Scrapbooking & journaling | 64 740 | 125 | IP, bruit API et mix informationnel |
+| kraken-cat-20260808-c04 | **A_CREUSER_CATALOGUE** | Perles & création de bijoux | 35 770 | 130 | Sous 40 k ; matières et petites pièces |
+| kraken-cat-20260808-c05 | **A_CREUSER_CATALOGUE** | Aquariophilie & aquascaping | 48 320 | 130 | Électricité, étanchéité et bien-être animal |
+
+### Journal Kraken catalogue-volume
+
+| Date/heure | Run | Événement | GO conditionnels | Retenus économie | Prochaine action |
+|---|---|---|---:|---:|---|
+| 2026-08-08 03:50 CEST | 2026-08-08-kraken-catalogue-v1 | SEMrush FR, dix SERP, Trends cinq ans, 100 recherches API et classeur vérifié | 5 | 0 | Shortlist 20–30 produits par niche puis coût rendu, conformité et economics |

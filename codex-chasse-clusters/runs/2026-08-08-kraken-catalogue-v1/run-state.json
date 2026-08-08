@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "workspace": "codex-chasse-clusters",
+  "run_id": "2026-08-08-kraken-catalogue-v1",
+  "status": "COMPLETED_EXHAUSTED",
+  "created_at": "2026-08-08T03:15:00+02:00",
+  "updated_at": "2026-08-08T03:50:00+02:00",
+  "target_count": 5,
+  "retained_count": 0,
+  "radar_candidate_count": 5,
+  "retained_count_rule": "Only RETENU_NIVEAU_2_ECO or RETENU_MARCHE_A_SOURCER counts. The five catalogue niches are GO_CONDITIONNEL because landed economics and full supplier compliance are incomplete.",
+  "mode": "kraken_catalogue_volume_france_read_only_sourcing",
+  "current": {
+    "family_id": "catalogue-volume-fr",
+    "seed": "five-final-niches",
+    "cluster_id": null,
+    "candidate_id": null,
+    "stage": "completed",
+    "attempt": 1,
+    "last_valid_report": "rapport-qualification.md"
+  },
+  "next_action": "Shortlist 20-30 products per niche, then validate exact SKU, France landed cost, compliance and unit economics before any Shopify or DSers mutation.",
+  "processed_cluster_ids": [
+    "kraken-catalogue-mercerie-arts-fil",
+    "kraken-catalogue-scrapbooking-journaling",
+    "kraken-catalogue-aquariophilie-aquascaping",
+    "kraken-catalogue-balade-transport-chien",
+    "kraken-catalogue-perles-creation-bijoux"
+  ],
+  "visited_seeds": {
+    "kraken-catalogue-mercerie-arts-fil": ["mercerie", "couture", "broderie", "crochet", "tricot", "patchwork", "macramé"],
+    "kraken-catalogue-scrapbooking-journaling": ["scrapbooking", "bullet journal", "junk journal", "journaling"],
+    "kraken-catalogue-aquariophilie-aquascaping": ["aquariophilie", "aquascaping", "filtre aquarium", "pompe aquarium"],
+    "kraken-catalogue-balade-transport-chien": ["harnais chien", "laisse chien", "transport chien", "poussette chien"],
+    "kraken-catalogue-perles-creation-bijoux": ["perles", "création bijoux", "apprêts bijoux", "perles miyuki"]
+  },
+  "derived_seed_depth": {},
+  "reports": {
+    "qualification": "rapport-qualification.md",
+    "workbook": "../../outputs/2026-08-08-kraken-catalogue-v1/5-niches-kraken-france-2026-08-08.xlsx",
+    "aliexpress_search": "aliexpress-search-results.json",
+    "curated_products": "curated-products.json",
+    "exact_probes": "representative-exact-probes.json"
+  },
+  "blocking": null
+}
