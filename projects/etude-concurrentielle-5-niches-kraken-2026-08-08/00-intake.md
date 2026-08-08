@@ -24,7 +24,11 @@
 - Collection secondaire — cible : 500+ ; bande de revue : 300–499.
 - Profondeur de cette première salve : 118 à 130 IDs AliExpress uniques par niche ; candidats, pas produits publiables prouvés.
 - Minimum catalogue de lancement : 200 produits distincts réellement sourçables ; non atteint à ce stade.
-- Prix : low ticket accepté si panier, marge et CAC de rupture sont viables ; aucun plancher arbitraire.
+- Prix : low ticket accepté si panier, marge et CAC de rupture sont viables ;
+  aucun plancher arbitraire. Avant l'étude profonde, sonder 30–50 prix cœur et
+  arrêter un catalogue autour de 5–10 EUR sans mécanisme de panier crédible.
+- Concurrence : un comparable isolé valide l'existence du modèle ; il ne
+  justifie un `STOP` ni une exigence de différenciation radicale à lui seul.
 - Sources : run `codex-chasse-clusters/runs/2026-08-08-kraken-catalogue-v1/` et étude `competitor-profiles/`.
 - Déduplication : retrait des head terms ambigus et doublons exacts documenté dans le rapport de qualification.
 
@@ -66,8 +70,9 @@
   preuve est portée par les collections, un jumeau concurrent n'est pas requis
   par PDP et un volume produit peut être égal à zéro.
 - Mobilité chien, mercerie et aquascaping : `STOP_PHASE_2`.
-- Scrap/journaling : `STOP_PHASE_2` après étude profonde ; sourcing interdit et
-  réouverture uniquement par `/qualifie-idees`.
+- Scrap/journaling : `STOP_PHASE_2`, motif principal `STOP_PRIX_PANIER` après
+  correction de l'ordre des gates ; sourcing interdit et réouverture uniquement
+  par `/qualifie-idees`.
 - Perles/bijoux : `SUSPENDU_PHASE_2`; le sourcing exact reste interdit jusqu'au
   verdict profond.
 - Le second rideau a aussi été instruit : Puzzle 3D bois, théière et lunch box

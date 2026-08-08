@@ -7,8 +7,8 @@ supplanté pour les futurs catalogues.
 ## Séquence obligatoire
 
 ```text
-mesure express France
-→ SERP, prix et différenciation
+mesure express France + sonde prix/panier
+→ SERP, concurrence et différenciation
 → étude concurrentielle profonde
 → verdict
 → architecture chiffrée
@@ -16,6 +16,11 @@ mesure express France
 ```
 
 - `STOP` ou `SUSPENDU_PHASE_2` : aucun sourcing.
+- En `catalogue-volume`, échantillonner 30–50 prix cœur avant l'étude profonde.
+  Si le catalogue est ancré autour de 5–10 EUR sans panier multi-produits
+  crédible, `STOP_PRIX_PANIER` ; les 200 produits ne sauvent pas la commande.
+- Un concurrent comparable isolé valide le modèle et ne déclenche pas un
+  `STOP`. Juger ensuite la densité, les actifs défensifs et l'espace exécutable.
 - Réouverture : nouvelle qualification via `/qualifie-idees`, avec preuves
   mises à jour.
 - Un listing fournisseur intéressant ne remplace jamais un verdict marché.

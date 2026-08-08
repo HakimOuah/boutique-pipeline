@@ -16,7 +16,7 @@
 | Persona | Débutante ou acheteuse-cadeau qui veut créer un album touchant sans maîtriser tout le vocabulaire du scrap. |
 | Technologie | WordPress / WooCommerce. |
 | Catalogue public | 214 URL de fiches produit dans le sitemap ; plusieurs couleurs d'un même outil sont séparées, donc moins de 214 concepts fonctionnels. |
-| Prix observés | Majoritairement 3,99–14,99 EUR ; quelques offres jusqu'à 23,99 EUR. |
+| Prix observés | Échantillon de 48 produits : médiane 10,99 EUR ; 33/48 à 13,99 EUR ou moins. Papiers : médiane 4,99 EUR ; autocollants : 8,99 EUR ; matériel : 24,49 EUR. |
 
 ## Modèle et preuve de dropshipping
 
@@ -60,20 +60,26 @@ revenu, taux de conversion, panier moyen ou réachat n'est public.
 
 ## Ce que ce comparable apprend
 
-- L'angle « beaux souvenirs » est déjà exploité par un acteur dropship
-  comparable ; ce n'est donc pas, seul, un right to win.
-- Une largeur de 214 PDP et une identité travaillée ne produisent pas ici de
-  traction SEO observable significative.
+- Un concurrent dropship comparable isolé est d'abord une validation de
+  marché et de modèle. Sa présence ne justifie aucun `STOP` à elle seule.
+- Une largeur de 214 PDP et une identité travaillée ne produisent ici que peu
+  de traction SEO observable, mais cette estimation tierce ne prouve ni échec,
+  ni rentabilité, ni ancienneté réelle du catalogue actuel.
+- Le signal éliminatoire pour le projet est plutôt la structure de prix : le
+  cœur papiers/autocollants se situe souvent entre 4,99 et 13,99 EUR. Sans
+  panier multi-produits observé et marge de commande prouvée, cette économie
+  n'est pas assez attractive pour justifier une étude plus coûteuse.
 - L'expédition multi-fournisseurs affaiblit la promesse d'un kit cohérent :
   colis séparés, délais différents et preuve matière/couleur difficile à
   contrôler.
-- Le modèle peut servir de contre-exemple opérationnel, pas de preuve de
-  succès.
+- Le modèle reste une preuve concurrentielle utile, pas une preuve de succès
+  ni un repoussoir automatique.
 
 ## Données brutes
 
 - `competitor-profiles/raw/scraperie/2026-08-08/`
 
-**Conclusion** : concurrent comparable très pertinent, mais aucune preuve de
-succès. Sa faible traction observable et son fulfillment fragmenté invalident
-l'idée qu'un habillage souvenir-first suffise à rendre le modèle défendable.
+**Conclusion** : concurrent comparable pertinent et signal de validation, mais
+aucune preuve de ventes ou de panier. Pour Hakim, l'ancrage prix très bas est le
+premier motif d'arrêt ; la traction et la différenciation viennent seulement
+après ce filtre.

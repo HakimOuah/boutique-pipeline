@@ -366,7 +366,7 @@ concurrent facultatif, concept/listing/revue humaine maintenus.
 | Mercerie | `STOP_PHASE_2` | interdit | `/qualifie-idees` uniquement |
 | Équipement basse-cour | `STOP_PHASE_2` | interdit | `/qualifie-idees` uniquement |
 | Terrarium | `STOP_VERROUILLE` | interdit | `/qualifie-idees` uniquement |
-| Scrap/journaling | `STOP_PHASE_2` | interdit | `/qualifie-idees` uniquement ; modèle marque/stock-kitting à requalifier séparément |
+| Scrap/journaling | `STOP_PHASE_2` | interdit | `STOP_PRIX_PANIER` ; `/qualifie-idees` uniquement |
 | Perles/bijoux | `SUSPENDU_PHASE_2` | interdit | étude profonde avant toute shortlist |
 | Aquarium/aquascaping | `STOP_PHASE_2` | interdit | `/qualifie-idees` uniquement |
 | Puzzle 3D bois | `STOP_PHASE_2` | interdit | `/qualifie-idees` uniquement |
@@ -377,4 +377,5 @@ concurrent facultatif, concept/listing/revue humaine maintenus.
 |---|---|---|---:|---|
 | 2026-08-08 | gate-v3-reclassification | Gate produit corrigé sans rouvrir les STOP ; file de phase 2 enregistrée | 0 | Puzzle 3D bois : étude concurrentielle profonde, sans sourcing |
 | 2026-08-08 | second-rideau-phase2 | Puzzle 3D, aquarium, théière et lunch box tous arrêtés ; 8/8 dossiers profonds en STOP | 0 | Étudier scrap/journaling puis perles/bijoux, sans sourcing |
-| 2026-08-08 | phase2-scrapbooking | Scrap/journaling arrêté : volume propre non reproductible, spécialistes/marketplaces forts et comparable dropship sans traction prouvée | 0 | Étudier perles/bijoux, sans sourcing |
+| 2026-08-08 | phase2-scrapbooking | Scrap/journaling arrêté : cœur catalogue très low ticket ; le concurrent similaire valide le modèle et n'est pas le motif du STOP | 0 | Sonder prix/panier perles avant toute étude profonde, sans sourcing |
+| 2026-08-08 | correction-prix-concurrence | Règle Hakim : prix/panier avant concurrence profonde ; un comparable isolé est une validation, pas un STOP | 0 | Appliquer la sonde 30–50 prix au prochain dossier |

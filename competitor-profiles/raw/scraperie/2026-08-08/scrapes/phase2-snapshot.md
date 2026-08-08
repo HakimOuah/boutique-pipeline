@@ -23,6 +23,21 @@
   vaut donc pas 214 concepts fonctionnels distincts.
 - Prix vus sur l'accueil : petits papiers, cartes, autocollants et outils entre
   3,99 EUR et 14,99 EUR, avec quelques plages jusqu'à 23,99 EUR.
+- Contrôle complémentaire des trois premières pages de catégories, soit 48
+  produits visibles :
+  - papiers : 16 produits, médiane 4,99 EUR, dont 12/16 à 6,99 EUR ou moins ;
+  - autocollants : 16 produits, médiane 8,99 EUR, dont 6/16 à 5,99 EUR ;
+  - matériel : 16 produits, médiane 24,49 EUR ;
+  - ensemble de l'échantillon : médiane 10,99 EUR et 33/48 produits (68,8 %)
+    à 13,99 EUR ou moins.
+- URLs de l'échantillon :
+  - https://scraperie.fr/categorie/papiers-scrapbooking/
+  - https://scraperie.fr/categorie/autocollants-pour-scrapbooking/
+  - https://scraperie.fr/categorie/materiel-pour-scrapbooking/
+- Ce relevé porte sur les premières pages rendues, pas sur les 214 PDP ni sur
+  les ventes. Il prouve néanmoins que le cœur consommable du catalogue est
+  ancré sur un ticket unitaire très bas.
+- Liste de prix reproductible : `price-sample-48.md`.
 - La FAQ annonce 24–48 h de traitement puis 5–10 jours de livraison en moyenne.
 - La FAQ indique que les fournisseurs sont situés en Europe, aux États-Unis ou
   en Chine, expédient eux-mêmes, et que plusieurs colis peuvent composer une
@@ -49,3 +64,5 @@ séparés. L'identité du ou des fournisseurs exacts reste `MANQUANT`.
   avec cet historique.
 - Aucun chiffre de ventes, AOV, marge, conversion ou réachat n'est public.
 - Aucune ressemblance visuelle n'est utilisée comme preuve AliExpress.
+- L'existence de ce concurrent comparable valide l'existence d'un modèle à
+  étudier ; elle n'est pas, isolément, un motif d'arrêt.

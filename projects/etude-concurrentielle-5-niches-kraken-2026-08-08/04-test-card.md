@@ -1,9 +1,10 @@
 # Carte de test concept — TC-CONCEPT-01
 
 - Date/ID : 2026-08-08 / TC-CONCEPT-01
-- Statut : brouillon ; aucune diffusion ou dépense autorisée.
+- Statut : suspendu ; aucune diffusion ou dépense autorisée avant passage du
+  filtre prix/panier de la niche retenue.
 - Hypothèse : une entrée par projet/scénario avec kit compatible convertit mieux qu’une entrée par grille de produits.
-- Porte/goulot : Gate 1 — right to win et compréhension de l’offre.
+- Porte/goulot : Gate 1 — prix/panier d'abord, puis compréhension de l'offre.
 - Marché : France.
 - Variante A : landing catalogue par catégories produits.
 - Variante B : landing projet-first, diagnostic court et kit personnalisable.
@@ -19,5 +20,6 @@
 ## Résultat
 
 - Données : `MANQUANT`.
-- Décision : à exécuter après choix de la niche.
+- Décision : ne pas exécuter pour le scrap (`STOP_PRIX_PANIER`) ; réutiliser
+  seulement après choix d'une niche ayant passé la sonde prix/AOV.
 - Prochain test : kit figé versus kit modulable, puis preuve générique versus preuve niche.

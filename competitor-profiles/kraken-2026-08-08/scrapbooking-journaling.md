@@ -11,20 +11,44 @@ right to win ; aucun sourcing, import, site ou dépense.
 
 ## Verdict exécutif
 
-La demande existe, mais le dossier ne possède pas aujourd'hui de droit de
-gagner reproductible. Les stockistes historiques occupent la confiance, le
-stock, les marques, les kits, le contenu et la rapidité ; les marketplaces
-compressent les prix ; et l'acteur dropship le plus comparable reprend déjà
-l'angle « beaux souvenirs » sans démontrer de traction.
+Le premier filtre aurait dû être le prix, avant l'analyse concurrentielle
+profonde. Sur 48 produits visibles des trois catégories principales de
+Scraperie, la médiane est de 10,99 EUR et 33 produits sur 48 sont à 13,99 EUR ou
+moins. Les papiers ont une médiane de 4,99 EUR et les autocollants de 8,99 EUR.
+Sans preuve d'un panier multi-produits élevé, d'une marge contributive par
+commande et d'un CAC de rupture compatible, cette structure n'est pas
+intéressante pour le portefeuille d'Hakim.
 
-Le `STOP` ne vient pas du déficit historique de produits. Même avec 200 PDP,
-le modèle resterait pris entre des spécialistes capables de livrer une
-collection coordonnée rapidement et AliExpress/Amazon/Craftelier sur le prix.
-Le seul angle encore défendable exige du stock ou du kitting contrôlé, des
-créations originales/licenciées et une preuve réelle des matières : c'est un
-autre modèle opératoire.
+Le `STOP` vient donc d'abord de la **structure prix/panier**, puis des autres
+incertitudes : volume propre non reproductible, pression Shopping et
+fulfillment multi-fournisseurs. L'existence d'un seul concurrent qui exécute
+déjà le même modèle est au contraire un signal de validation. Elle ne devient
+un frein que si les comparables se multiplient ou si leurs actifs rendent
+l'offre impossible à défendre.
 
-## 1. Audit de la demande
+## 1. Filtre prix et panier — éliminatoire en premier
+
+### Échantillon public Scraperie
+
+| Catégorie, première page | Produits | Médiane | Lecture |
+|---|---:|---:|---|
+| Papiers | 16 | 4,99 EUR | 12/16 à 6,99 EUR ou moins |
+| Autocollants | 16 | 8,99 EUR | 6/16 à 5,99 EUR |
+| Matériel | 16 | 24,49 EUR | albums et outils remontent le ticket |
+| **Ensemble** | **48** | **10,99 EUR** | **33/48 à 13,99 EUR ou moins** |
+
+Le scrap favorise naturellement les paniers multi-lignes, mais aucune donnée
+publique ne prouve ici le nombre d'articles par commande, l'AOV, la marge ou le
+réachat. La livraison gratuite à 40 EUR demanderait, à prix médian, environ
+quatre articles ; avec des produits à 5,99 EUR, environ sept. On ne doit pas
+supposer que les clientes composent systématiquement ce panier.
+
+**Décision projet** : `STOP_PRIX_PANIER`. Une niche dont le cœur est ancré
+autour de 5–14 EUR ne poursuit pas l'étude coûteuse sans mécanisme de panier
+observé et économie plausible. Les 200 produits ou le volume Search ne
+compensent pas une faible contribution par commande.
+
+## 2. Audit de la demande
 
 Le total historique de **64 740 recherches mensuelles** ne peut pas être
 reproduit à partir du fichier de mesure conservé :
@@ -58,7 +82,7 @@ observée, mais le seuil projet de 30 000 recherches commerciales dédupliquées
 n'est plus considéré comme prouvé pour ce cluster tant que le calcul n'est pas
 reconstruit requête par requête.
 
-## 2. SERP et pression prix
+## 3. SERP et pression prix
 
 ### `matériel scrapbooking`
 
@@ -80,7 +104,7 @@ résultats organiques. Sur `scrapbooking`, Shopping expose également AliExpress
 à 12,59 EUR et Craftelier à 18,22 EUR. La différenciation ne peut donc pas être
 un simple kit générique revendu avec une marge marketing.
 
-## 3. Comparables déterminants
+## 4. Comparables déterminants
 
 | Acteur | Modèle observé | Preuve de force | Limite / signal |
 |---|---|---|---|
@@ -94,9 +118,9 @@ un simple kit générique revendu avec une marge marketing.
 Les estimations SEMrush et Brand Search ne sont pas des analytics internes.
 Elles servent à comparer la visibilité, jamais à inférer un chiffre d'affaires.
 
-## 4. Scraperie : le test réel du modèle comparable
+## 5. Scraperie : validation, pas motif d'arrêt
 
-Scraperie est le comparable le plus important parce que sa FAQ décrit une
+Scraperie est un comparable important parce que sa FAQ décrit une
 expédition directe par des fournisseurs européens, américains ou chinois,
 avec colis séparés possibles. Le site reprend précisément le territoire
 souvenir-first : émotion, matière, composition et « atelier des beaux
@@ -107,12 +131,13 @@ sur 214 PDP publiques. Le nombre de PDP surestime en plus les concepts : des
 couleurs de massicot disposent d'URL distinctes. Aucun paid, revenu, AOV,
 conversion ou réachat n'est observé.
 
-**Conclusion** : Scraperie prouve que ce positionnement est copiable dans un
-modèle drop ; il ne prouve pas qu'il fonctionne. Au contraire, son niveau de
-traction observable retire l'argument « personne n'a encore bien emballé
-l'offre ».
+**Conclusion corrigée** : Scraperie valide qu'un acteur peut construire ce
+positionnement en dropshipping. Sa présence isolée n'est pas un signal négatif
+et sa faible estimation SEMrush ne prouve pas un échec. Ce comparable sert à
+lire les prix, le catalogue et l'opération ; c'est la structure économique
+observée, pas son existence, qui déclenche le `STOP`.
 
-## 5. Personas et critères de décision
+## 6. Personas et critères de décision
 
 ### Persona A — gardienne d'un souvenir
 
@@ -134,7 +159,12 @@ de fournir rapidement la référence et ses compléments.
 - L'experte exige des marques, du stock et des références exactes qu'un
   catalogue AliExpress générique ne peut pas promettre honnêtement.
 
-## 6. Right to win et contradiction opératoire
+## 7. Différenciation et contradiction opératoire
+
+Une différenciation radicale n'est pas exigée par principe. Un meilleur choix,
+une exécution plus propre, une navigation claire ou une offre mieux construite
+peuvent suffire lorsque l'économie est bonne. Un concurrent similaire isolé ne
+ferme donc pas le marché.
 
 L'offre la plus séduisante serait :
 
@@ -155,46 +185,47 @@ ou matières hétérogènes, délais divergents et faible maîtrise du kit. Cons
 la promesse correctement reviendrait à stocker, assembler ou sous-traiter le
 kitting en Europe.
 
-## 7. Score Kraken indicatif
+## 8. Score Kraken indicatif
 
 | Dimension | Score /3 | Motif |
 |---|---:|---|
 | Demande commerciale propre | 1 | marché réel, total propre non reproductible |
 | Intensité du problème | 2 | désir émotionnel réel, urgence faible |
-| Valeur du résultat | 1 | panier low ticket sauf kit construit |
-| Concurrence accessible | 3 | concurrence abondante et validée, mais forte |
-| Différenciation défendable | 1 | angle projet/souvenir déjà occupé ; moat exige IP/kitting |
-| Marge / CAC | 1 | pression Shopping ; CPC et économie du panier `MANQUANT` |
+| Valeur du résultat | 0 | cœur catalogue autour de 5–14 EUR ; panier élevé non prouvé |
+| Concurrence accessible | 2 | marché validé ; un seul comparable drop n'est pas bloquant |
+| Différenciation défendable | 2 | amélioration d'exécution possible ; pas besoin d'être totalement inédit |
+| Marge / CAC | 0 | contribution par commande, CPC et AOV non prouvés sur un ticket très bas |
 | Logistique | 1 | panier multi-SKU et cohérence de kit défavorables au drop |
 | Conformité / IP | 2 | gérable avec exclusions, mais licences et chimie à contrôler |
 | Potentiel contenu | 2 | tutoriels et projets riches, déjà bien exploités |
 | Exécution Kraken | 1 | contradiction entre promesse et fulfillment |
-| **Total** | **15/30** | score indicatif ; le STOP vient surtout du right to win absent |
+| **Total** | **13/30** | score indicatif ; le STOP vient d'abord du prix/panier, pas du concurrent isolé |
 
-## 8. Décision et conditions de réouverture
+## 9. Décision et conditions de réouverture
 
 ### Décision active
 
-`STOP_PHASE_2` pour une boutique France catalogue dropshipping générique. Le
-sourcing, l'arborescence et la construction de site sont interdits sur ce
-dossier. Réouverture uniquement par `/qualifie-idees`.
+`STOP_PHASE_2` pour une boutique France catalogue dropshipping générique, avec
+motif principal `STOP_PRIX_PANIER`. Le sourcing, l'arborescence et la
+construction de site sont interdits sur ce dossier. Réouverture uniquement par
+`/qualifie-idees`.
 
 ### Réouverture possible sous un autre modèle
 
-Le marché pourrait être réétudié comme **marque produit / stock-kitting**, si
-les quatre conditions suivantes sont réunies :
+Le marché pourrait être réétudié si les quatre conditions suivantes sont
+réunies :
 
-1. capsules visuelles originales ou sous licence propre ;
-2. assemblage et contrôle qualité local/UE, expédition groupée ;
-3. AOV cible de 45–60 EUR ou plus, marge contributive et CAC de rupture
-   vérifiés ;
-4. cluster événementiel précis dont la demande commerciale propre est
-   remesurée et dépasse les seuils projet.
+1. mix catalogue recentré sur des produits ou bundles à ticket supérieur, sans
+   fabriquer artificiellement un pack ;
+2. panier moyen réel ou testable, coûts livrés, marge contributive et CAC de
+   rupture compatibles ;
+3. CPC et demande commerciale propre remesurés avant toute phase profonde ;
+4. fulfillment capable de livrer honnêtement un panier multi-produits.
 
-Ce scénario ne constitue pas un GO actuel et ne doit pas être déguisé en
-dropshipping catalogue.
+Un modèle marque + stock/kitting pourrait résoudre certains points, mais il
+n'est pas la seule réouverture possible et ne constitue pas un GO actuel.
 
-## 9. Preuves et limites
+## 10. Preuves et limites
 
 - SERP : `competitor-profiles/raw/serp-scrapbooking/2026-08-08/`.
 - Scraperie : `competitor-profiles/raw/scraperie/2026-08-08/`.

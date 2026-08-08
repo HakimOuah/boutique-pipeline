@@ -1,6 +1,6 @@
 # Critères canoniques de recherche produit
 
-Dernière mise à jour : 20 juillet 2026 (§2 : Brand Search devient la source d'idées principale — boutiques prouvées en Google Ads France, 0 Meta, prix ≥ 130 $ ; le balayage par familles et l'idéation libre passent en sources secondaires. §3 : « explicable-particulier » remplace « technique », signal d'exclusion persona pro. §7 : chemin A avec mesure express = voie principale)
+Dernière mise à jour : 8 août 2026 (§2 : Brand Search devient la source d'idées principale — boutiques prouvées en Google Ads France, 0 Meta, prix ≥ 130 $ ; le balayage par familles et l'idéation libre passent en sources secondaires. §3 : « explicable-particulier » remplace « technique », signal d'exclusion persona pro. §7 : chemin A avec mesure express = voie principale ; correction Hakim : prix/panier avant étude profonde et concurrent comparable isolé = validation, pas motif de STOP)
 
 Ce document est le référentiel à appliquer à toutes les nouvelles recherches produit du pipeline.
 
@@ -95,6 +95,24 @@ Utilisé pour toute idée produit, qu'elle vienne de Hakim ou d'une salve d'idé
 2. **Mesure express, avant tout travail qualitatif** : volume du cluster de l'idée (SEMrush France, niveaux hiérarchiques séparés) + sonde prix (Google Shopping). Une idée nettement sous le seuil meurt ici, en quelques minutes ; un ticket manifestement low-ticket part en vivier.
 3. Filtre qualitatif : banalité, valeur perçue, problème/usage, avec la fourchette de la sonde comme donnée de prix.
 
+#### Extension obligatoire en mode `catalogue-volume`
+
+Le low ticket est autorisé, mais il ne dispense pas du filtre économique
+immédiat. Avant l'étude concurrentielle profonde :
+
+1. relever un échantillon de 30–50 prix visibles sur les catégories cœur ;
+2. calculer médiane, part sous 10/15 EUR et nombre d'articles nécessaire pour
+   atteindre le seuil de livraison ou le panier cible ;
+3. chercher un mécanisme **observé** de panier : lots, kits, quantités,
+   réachat, accessoires ou commandes multi-lignes ;
+4. si le cœur est autour de 5–10 EUR et qu'aucun panier/marge de commande
+   crédible n'est observé, classer `STOP_PRIX_PANIER` immédiatement.
+
+Les 200 produits, le SEO ou un volume Search élevé ne sauvent pas une faible
+contribution par commande. Ne jamais inventer un bundle pour faire passer le
+gate. Un ticket légèrement supérieur reste conditionné au couple prix/CPC et à
+l'économie de commande.
+
 La mesure express existe parce que l'ancien ordre (idée → filtre → validation volume en phase 3) faisait porter tout le travail créatif avant le critère le plus éliminatoire : sur les recherches de juillet 2026, environ 30 candidats sur 50 sont morts sur le volume en phase 3, après filtrage qualitatif complet.
 
 ### Chemin B — entrée par le volume (balayage, voie secondaire)
@@ -110,7 +128,9 @@ Bilan du 20/07/2026 (7 familles balayées) : le chemin B élimine bien les morts
 ### Étapes communes aux deux chemins
 
 4. Analyse Google Search, Shopping, publicités, concurrents et prix — **le nettoyage SERP est obligatoire quel que soit le chemin.** Un volume mesuré à l'outil n'est jamais un volume adressable tant que la SERP n'a pas été lue.
-5. Vérification de la capacité à défendre une offre entre 150 et 400 €.
+5. Vérification du mode économique : capacité à défendre une offre entre 150 et
+   400 EUR en high-ticket, ou panier/marge potentiels crédibles en
+   `catalogue-volume`.
 6. Sourcing exclusivement sur AliExpress.
 7. Contrôle fournisseur, coût rendu, logistique, conformité et marge.
 8. Classement : GO, à approfondir ou rejet documenté.
@@ -122,5 +142,16 @@ Bilan du 20/07/2026 (7 familles balayées) : le chemin B élimine bien les morts
 - L'étanchéité des quatre niveaux de validation : marché → fiche AliExpress → commande test → lancement.
 - L'anti-doublon par le registre central.
 
-**Source de mesure du volume** : SEMrush France (`db=fr`). Ahrefs n'est qu'un repli documenté si SEMrush est indisponible, et un verdict rendu sur repli doit le signaler.
+### Règle de lecture de la concurrence
 
+- Un concurrent qui exécute déjà le modèle visé est une validation de demande
+  et de faisabilité apparente, pas un motif d'arrêt automatique.
+- Un concurrent comparable isolé n'impose pas une différenciation radicale :
+  une meilleure exécution, une offre plus claire ou une faiblesse exploitable
+  peuvent suffire si l'économie passe.
+- La concurrence devient éliminatoire par sa densité, ses actifs défensifs ou
+  l'absence d'espace exécutable, jamais à la découverte du premier acteur.
+- Trafic estimé faible ou absence d'Ads ne prouve ni échec ni rentabilité ; ne
+  pas transformer une estimation tierce en verdict commercial.
+
+**Source de mesure du volume** : SEMrush France (`db=fr`). Ahrefs n'est qu'un repli documenté si SEMrush est indisponible, et un verdict rendu sur repli doit le signaler.
