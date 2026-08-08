@@ -924,3 +924,25 @@ pas cherché à contourner. La fiche reste à 2 médias.
   nouveau se place en 3/3, image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 48 visuels rattachés sur 44 fiches. 2 refus.**
+
+---
+
+## Tour 32 — 09/08/2026 ~02h35
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `pince-a-barrettes` | `-g1` macro pivot + ressort | 3/3 | Pince à barrettes — macro du pivot en acier poli, du ressort de rappel hélicoïdal et du départ des mors fins — Maison Noirmont |
+
+- **Fidélité** : acier argenté, branches lisses, ressort de rappel et mors fins — conformes
+  aux deux vues en ligne. Le bracelet de mise en scène présent sur la source a été exclu du
+  cadrage, ce qui évite d'introduire un produit tiers dans la galerie de l'outil.
+- **Point de vigilance propre aux outils** : les pinces d'horloger portent très souvent une
+  **gravure de marque sur une branche**. Contrôle fait sur toute la longueur visible des deux
+  branches et sur le pivot : **aucune gravure, aucun lettrage, aucun sigle**. C'est ce même
+  motif qui a fait écarter le Remontoir Solo au tour 28 — ici il ne se présente pas.
+- Aucun avis ni badge ; 2048×2048 JPEG ; fiche à 2 médias, le nouveau se place en 3/3,
+  image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 49 visuels rattachés sur 45 fiches. 2 refus.**
