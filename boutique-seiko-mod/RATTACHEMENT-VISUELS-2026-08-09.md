@@ -1133,3 +1133,25 @@ correctement pour les Squelettes et les Éclaireurs.
   ACTIVE inchangé.
 
 **Cumul : 57 visuels rattachés sur 53 fiches. 2 refus.**
+
+---
+
+## Tour 41 — 09/08/2026 ~03h20
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `doigtiers-d-horloger-latex` | `-g1` macro d'un doigtier roulé | 3/3 | Doigtiers d'horloger — macro d'un doigtier en latex blanc cassé mat, conservé roulé sur son bourrelet, deux autres en arrière-plan — Maison Noirmont |
+
+- **Fidélité** : « Doigtiers latex », coloris **blanc** (l'un des deux vendus) → latex blanc
+  cassé mat, bourrelet elliptique roulé, membrane repliée. Conforme à l'image 1 en ligne
+  (« latex naturel »).
+- **Aucun élément inventé** — et c'était le risque sur un produit aussi simple : pas de doigt
+  ni de main ajoutés, pas de gant déroulé, **pas de sachet ni de boîte de conditionnement**
+  fabriqués de toutes pièces alors que la fiche mentionne des lots de 30/50/100. Le visuel
+  s'en tient à ce qui existe.
+- Aucun lettrage ni marque ; aucun avis ni badge ; 2048×2048 JPEG ; fiche à 2 médias,
+  le nouveau se place en 3/3, image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 58 visuels rattachés sur 54 fiches. 2 refus.**
