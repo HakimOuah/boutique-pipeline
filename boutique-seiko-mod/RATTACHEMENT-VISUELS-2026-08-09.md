@@ -353,3 +353,31 @@ Aucun logo, sigle ni lettrage ; aucun avis ni badge ; 2048×2048 JPEG ; ajout en
 galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 27 visuels rattachés sur 23 fiches. 2 refus.**
+
+---
+
+## Tour 11 — 09/08/2026 ~00h50
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `montre-squelette-automatique-carree` | `-g1` macro transition boîtier-bracelet | 5/5 | Squelette Carré — macro de la transition entre le boîtier acier brossé à flancs chanfreinés et les quatre premiers maillons du bracelet intégré à maillons centraux polis — Maison Noirmont |
+
+### Contrôles du tour 11
+
+- **Fidélité produit** : la fiche vend « 42 mm d'acier brossé, quatre vis apparentes » et,
+  sur ses quatre vues en ligne, un **bracelet intégré acier à maillons centraux polis**.
+  La macro montre exactement cette construction — boîtier carré à angles adoucis, flancs
+  chanfreinés, quatre maillons intégrés. Conforme.
+- **Cadran hors champ** : le cadran squelette et sa minuterie chiffrée ne sont pas cadrés.
+  Aucun logo, sigle ni lettrage. La fiche précise d'ailleurs que les deux versions sont
+  « sans logo ni inscription ». Macro neutre vis-à-vis des deux variantes (squelette blanc
+  et squelette noir) puisqu'aucun cadran n'apparaît.
+- **Avis / badges** : aucun.
+- **Source — corrigée côté Codex** : le manifeste cite cette fois un chemin **versionné**,
+  `boutique-seiko-mod/visuels-arabes-squelettes-2026-07-29/montre-squelette-automatique-carree-face.jpg`,
+  et le fichier existe bien (627 ko, 29/07). C'est la bonne pratique, à généraliser.
+- **Technique** : 2048×2048 JPEG. Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 28 visuels rattachés sur 24 fiches. 2 refus.**
