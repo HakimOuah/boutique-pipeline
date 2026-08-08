@@ -98,3 +98,30 @@ Le vrai configurateur (assemblage à la commande) dépend entièrement de **BL W
 - Champ CSS de section et nom de schéma > 25 caractères : **rejets silencieux**.
 - **Ne jamais utiliser `switch-shop`** : invalide la connexion Shopify pour tout le monde.
 - SEMrush en formule gratuite rend **« 0 mot clé » sans erreur** passé le quota — utiliser un mot-clé témoin.
+
+---
+
+## ⛔ ÉTAT AU 08/08/2026 SOIR — À LIRE AVANT TOUTE REPRISE
+
+**Verdict conformité : PAS PRÊT pour l'ouverture CSS/Merchant Center.** Audit complet : `AUDIT-GMC-FINAL-2026-08-08.md` (checklist fusionnée de 5 sources — Terry Ecom, Fast-Track GMC, templates policies, skill `gmc-acceptance`, porte 5 Kraken — 80+ points, 9 P0 / 15 P1 / 13 P2). Les tactiques de contournement des PDF (proxy, anti-detect, adresses-écrans, comptes de secours) sont **explicitement écartées** : on vise la conformité réelle.
+
+### Le point de fond : les correctifs ne sont pas en ligne
+Les corrections du 08/08 (avis, retours) sont dans le thème **TRAVAIL `205089014098`**, pas dans le **MAIN `204248088914`** qui est servi. Donc, en ligne, on trouve encore les avis fabriqués, le badge « 4,8/5 · 1340 avis » et l'ancien « satisfait ou remboursé ». **Rien n'est corrigé côté public tant que Hakim n'a pas publié le thème de travail.**
+⚠️ Avant de publier : vérifier `templates/collection.json` (TRAVAIL 16 088 o vs MAIN 9 080 o — écart dû au passage minifié → indenté, à confirmer comme équivalent et non comme une perte).
+
+### Les 6 trous découverts par la passe finale
+1. **Faux témoignages 5 étoiles incrustés DANS LES IMAGES** (prénom + ville inventés) sur **37 fiches dont 32 actives** — invisibles aux corrections de thème, il faut refaire les visuels.
+2. **910 des 923 variantes portent le SKU brut AliExpress**, publié dans le **JSON-LD**, dont **113 contenant « no logo »** — révèle le fournisseur et constitue un signal problématique.
+3. `contact.noirmont@gmail.com` publié dans la politique de confidentialité rendue.
+4. **Aucun consentement cookies** : pas de bandeau, pas d'API, lien « Préférences » en 404, alors que la politique promet un choix.
+5. **Aucune mesure d'achat** (ni gtag, ni GA4) — porte 5 §E en échec : interdit de dépenser en publicité dans cet état.
+6. « 904L » subsiste dans 2 URL actives et un alt d'image.
+
+### Actions qui reviennent à Hakim (bloquantes, non délégables)
+- **Publier le thème de travail** (publication bloquée côté connecteur).
+- **Coller les 3 politiques** préparées dans `backup-retours-2026-08-08/a-appliquer-par-hakim/` : le connecteur refuse `shopPolicyUpdate` (permission `write_legal_policies` absente), donc les CGV et la politique de remboursement servies sous `/policies/…` **portent encore la clause interdite**.
+- **Adhérer à un médiateur de la consommation** (obligation légale FR, toujours `[À COMPLÉTER]` en CGV art. 17).
+- **Vérifier le mapping DSers** des 2 fiches « Voyageur Or » (risque montre siglée livrée alors que le visuel est stérile).
+
+### Ordre de reprise conseillé
+① Publier + coller les politiques → ② refaire les 37 visuels à faux témoignages → ③ nettoyer les SKU AliExpress (910 variantes, faisable en API par lots) → ④ consentement cookies + tracking achat → ⑤ reste des P0/P1 de l'audit final → ⑥ seulement ensuite, ouverture CSS/MC.
