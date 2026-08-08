@@ -1040,3 +1040,23 @@ Trois déclinaisons traitées, trois couples cuir/doublure distincts — aucune 
   fiche à 2 médias, le nouveau se place en 3/3, image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 53 visuels rattachés sur 49 fiches. 2 refus.**
+
+---
+
+## Tour 37 — 09/08/2026 ~03h00
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `remontoir-collection-bois-noir` | `-g1` macro socle + bas de porte vitrée | 3/3 | Remontoir Collection Bois noir — macro du socle : bois noir mat à grain linéaire, ressaut du plinthe et bas de la porte vitrée — Maison Noirmont |
+
+- **Fidélité** : « Coffret en bois **finition noire**, façade vitrée » → bois noir mat à grain
+  linéaire visible, plinthe à ressaut, bas de porte vitrée. Conforme aux deux vues en ligne.
+- **Montres et charnière exclus du cadrage** : aucune montre tierce introduite, et aucune
+  quincaillerie ajoutée — le travers de la plaque laiton inventée (tour 29) ne se reproduit pas.
+- Bien distinct du `remontoir-bois-acajou` (tour 33) : bois noir mat contre acajou brun roux.
+- Aucun lettrage ni marque ; aucun avis ni badge ; 2048×2048 JPEG ; fiche à 2 médias, le
+  nouveau se place en 3/3, image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 54 visuels rattachés sur 50 fiches. 2 refus.**
