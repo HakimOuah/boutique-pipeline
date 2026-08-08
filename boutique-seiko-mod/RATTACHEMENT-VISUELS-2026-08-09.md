@@ -635,3 +635,36 @@ Les trois visuels sont bien distincts et chacun correspond à sa fiche. Aucune i
 - Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 38 visuels rattachés sur 34 fiches. 2 refus.**
+
+---
+
+## Tour 22 — 09/08/2026 ~01h45
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `voyageur-or-gmt-president` | `-g1` macro frontale bracelet Président | 5/5 | Voyageur Or — macro frontale du bracelet Président doré : maillons courts et arrondis à trois éléments par rangée, jonction au boîtier et crantage de lunette — Maison Noirmont |
+
+### Contrôles du tour 22 — les deux Voyageur Or ne diffèrent que par le bracelet
+
+C'est le seul critère qui sépare cette fiche de celle du tour 21 : même boîtier doré, même
+lunette bicolore, même mouvement. Une interversion de macro serait invisible au manifeste
+mais fausse en boutique. Contrôle croisé :
+
+| Fiche | Bracelet vendu | Ce que montre la macro | Tour |
+|---|---|---|---|
+| `voyageur-or-gmt-3-maillons` | trois maillons, rangs larges | rangs larges et plats | 21 |
+| `voyageur-or-gmt-president` | **Président, maillons courts et arrondis** | rangées à trois éléments **courts et bombés**, colonne centrale étroite | 22 |
+
+Les deux géométries sont nettement différentes à l'image. Aucune interversion.
+Codex signale d'ailleurs avoir **écarté une première génération** dont « le maillon central
+était trop large et trop plat » — c'est-à-dire une macro qui aurait ressemblé au 3 maillons.
+Le bon réflexe.
+
+- **Lunette** : vue en contre-plongée, seul le crantage et le bord perlé apparaissent —
+  **aucun chiffre de la graduation 24 h, aucun texte**. Cadran, date et marqueurs hors champ.
+- Aucun logo, aucun avis, aucun badge ; 2048×2048 JPEG.
+- Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 39 visuels rattachés sur 35 fiches. 2 refus.**
