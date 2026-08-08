@@ -296,3 +296,40 @@ les trois existent bien sur la boutique et sont ACTIVE.
   supprimé, aucun texte ni prix ni variante touché.
 
 **Cumul : 24 visuels rattachés sur 20 fiches. 2 refus.**
+
+---
+
+## Tour 9 — 09/08/2026 ~00h40
+
+Deux dossiers `quarante-et-un-noir-*` livrés pendant le tour 8. Handles valides, fiches ACTIVE.
+
+### Rattachés (2 visuels sur 2 fiches)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `quarante-et-un-noir-acier-sport-acier` | `-g1` profil droit + couronne + 1er maillon | 5/5 | Quarante-et-Un Noir Acier — macro du profil droit : couronne cannelée lisse, lunette polie, cadran noir à index appliqués et jonction au premier maillon du bracelet acier — Maison Noirmont |
+| `quarante-et-un-noir-cuir-sport-acier` | `-g1` profil droit + couronne + corne | 5/5 | Quarante-et-Un Noir — macro du profil droit : couronne cannelée non protégée, corne acier brossée à vis, cadran noir et amorce du bracelet cuir brun foncé — Maison Noirmont |
+
+### Contrôles du tour 9
+
+- **Fidélité produit** — les deux fiches partagent le cadran noir et ne diffèrent que par le
+  bracelet, c'est le seul point qui pouvait déraper :
+
+| Fiche | Ce que la fiche vend | Ce que la macro montre | Verdict |
+|---|---|---|---|
+| Noir Acier | « Cadran noir et bracelet acier » | cadran noir + premier maillon **acier** en bas de cadre | conforme |
+| Noir (cuir) | « Cadran noir et bracelet cuir brun foncé » | cadran noir + amorce de **cuir brun foncé** sous la corne | conforme |
+
+  Pas d'inversion entre les deux.
+- **Couronne — point de vigilance principal de cette fournée**, les deux visuels la cadrent
+  en gros plan. Couronne **cannelée à sommet plat entièrement vierge** dans les deux cas :
+  aucun logo, sigle, blason ni lettrage gravé. Aucune mention d'origine.
+- **Cadran** : fragment visible sur les deux, index appliqués et piste des minutes, **aucun
+  texte**. Cadrans stériles.
+- **Avis / badges** : aucun.
+- **Sources** : même remarque de forme qu'au tour 8 — chemin `scratchpad/…` non versionné.
+  Contrôle de substitution fait sur les planches QA.
+- **Technique** : 2/2 en 2048×2048 JPEG.
+- Ajout en fin de galerie (5/5), image 1 intacte, statuts ACTIVE inchangés.
+
+**Cumul : 26 visuels rattachés sur 22 fiches. 2 refus.**
