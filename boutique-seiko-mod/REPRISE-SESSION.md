@@ -16,13 +16,16 @@ Montres mécaniques à cadran stérile sans logo, 279-430 €, France uniquement
 
 ## Thèmes — attention, c'est le piège le plus coûteux
 
-| Thème | ID | Rôle |
-|---|---|---|
-| **Helio** | `204246548818` | **MAIN (publié)** — ne jamais y écrire |
-| **Maison Noirmont** | `204248088914` | UNPUBLISHED — **c'est celui-ci qu'on modifie** |
-| BROUILLON fix-uiux-assets | `204329288018` | fork obsolète, **à supprimer** |
+| Thème | ID | Rôle | Usage |
+|---|---|---|---|
+| **Maison Noirmont** | `204248088914` | **MAIN (publié le 08/08/2026)** | Le site live — **ne jamais y écrire** (le connecteur le refuse) |
+| **TRAVAIL Noirmont — publier apres validation** | `205089014098` | UNPUBLISHED | **C'est ici qu'on travaille.** Copie créée le 08/08 depuis le MAIN |
+| Helio | `204246548818` | UNPUBLISHED | Ancien thème, conservé en réserve |
 
-⚠️ Tout le travail est dans `204248088914`. **Il reste à le republier** — sinon rien n'est visible.
+**Workflow depuis le 08/08/2026 (décision Hakim)** : Claude modifie **uniquement** le thème TRAVAIL `205089014098` ; Hakim publie après validation (la publication de thème est bloquée par la politique du connecteur, elle reste manuelle). **Corollaire à tenir** : ne plus éditer le thème live via l'éditeur Shopify — ces réglages seraient écrasés à la publication suivante de la copie. Si une édition manuelle a lieu sur le live, prévenir : la copie de travail doit être re-dupliquée avant toute nouvelle intervention.
+
+⚠️ Piège vérifié le 08/08 : `themeFilesUpsert` peut renvoyer `upsertedThemeFiles: []` **sans erreur** alors que l'écriture a réussi. Ne jamais conclure de ce retour — vérifier par **empreinte md5 du fichier distant** (`theme.files{ checksumMd5 size }`). Pour les gros fichiers (>50 Ko), transporter le corps via `stagedUploadsCreate` + `body:{type:URL}` plutôt qu'en `TEXT`.
+
 ⚠️ Le connecteur Shopify **refuse d'écrire sur un thème MAIN**, quelle que soit l'autorisation.
 
 ## Charte retenue (direction « A+B »)
