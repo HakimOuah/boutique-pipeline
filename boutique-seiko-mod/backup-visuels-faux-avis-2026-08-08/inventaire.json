@@ -1,0 +1,943 @@
+{
+  "meta": {
+    "date": "2026-08-08",
+    "boutique": "Maison Noirmont — v42pzp-h4.myshopify.com / maisonnoirmont.fr",
+    "operation": "Détachement des visuels de faux avis des fiches produit (les fichiers restent dans les Fichiers Shopify). Voir .meta.methode.",
+    "source_audit": "AUDIT-GMC-FINAL-2026-08-08.md (N1 / C1 / C2 / C3)",
+    "criteres": "media dont le nom de fichier se termine par -6.jpg (bandeau fabrique 4,8/5 - 1340 avis) ou -7.jpg (faux temoignage 5 etoiles, prenom + ville). Verifie visuellement sur 7 fichiers telecharges.",
+    "produits_total_boutique": 105,
+    "methode": "fileUpdate(files: [{id, referencesToRemove: [productId]}]) — Admin GraphQL. Retire uniquement l'association fichier↔produit. Le fichier reste dans les Fichiers Shopify (fileStatus READY, URL toujours servie), donc l'opération est réversible.",
+    "pourquoi_pas_productDeleteMedia": "productDeleteMedia est déprécié (Shopify recommande fileUpdate) ET les MediaImage sont ici PARTAGÉES entre produits (une même media est attachée jusqu'à 13 fiches) : la mutation risquait de supprimer le fichier globalement au lieu de le détacher fiche par fiche.",
+    "reversibilite": "Pour réattacher : fileUpdate(files: [{id: <mediaId>, referencesToAdd: [<productId>]}]) avec les couples ci-dessous. Copies locales des 18 fichiers dans ./fichiers/ en cas de perte côté Shopify.",
+    "verification": "Re-lecture des 105 produits après opération : 0 média -6/-7 restant, 0 alt mentionnant avis/témoignage, aucun produit vidé de ses images."
+  },
+  "totaux": {
+    "produits_touches": 37,
+    "medias_detaches": 46,
+    "fichiers_distincts": 18
+  },
+  "produits": [
+    {
+      "productId": "gid://shopify/Product/10977444430162",
+      "titre": "Trente-Neuf — Classique cannelée",
+      "handle": "trente-neuf-classique-cannelee",
+      "statut": "ACTIVE",
+      "medias_total_avant": 14,
+      "medias_retires": [
+        {
+          "position_galerie": 6,
+          "mediaId": "gid://shopify/MediaImage/59680004243794",
+          "alt": "Trente-Neuf — 4,8/5 sur 1340 avis, garantie 12 mois — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444430162-6.jpg?v=1784939034",
+          "fichier": "10977444430162-6.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "bandeau-note-fabriquee"
+        },
+        {
+          "position_galerie": 7,
+          "mediaId": "gid://shopify/MediaImage/59680004276562",
+          "alt": "Trente-Neuf — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444430162-7.jpg?v=1784939033",
+          "fichier": "10977444430162-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 12
+    },
+    {
+      "productId": "gid://shopify/Product/10977444495698",
+      "titre": "Quarante-et-Un — Sport acier",
+      "handle": "quarante-et-un-sport-acier",
+      "statut": "ACTIVE",
+      "medias_total_avant": 17,
+      "medias_retires": [
+        {
+          "position_galerie": 9,
+          "mediaId": "gid://shopify/MediaImage/59680004440402",
+          "alt": "Quarante-et-Un — 4,8/5 sur 1340 avis, garantie 12 mois — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444495698-6.jpg?v=1784939034",
+          "fichier": "10977444495698-6.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "bandeau-note-fabriquee"
+        },
+        {
+          "position_galerie": 10,
+          "mediaId": "gid://shopify/MediaImage/59680004473170",
+          "alt": "Quarante-et-Un — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444495698-7.jpg?v=1784939033",
+          "fichier": "10977444495698-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 15
+    },
+    {
+      "productId": "gid://shopify/Product/10977444528466",
+      "titre": "Contre-la-montre — Chronographe panda",
+      "handle": "contre-la-montre-chronographe-panda",
+      "statut": "DRAFT",
+      "medias_total_avant": 27,
+      "medias_retires": [
+        {
+          "position_galerie": 6,
+          "mediaId": "gid://shopify/MediaImage/59680004637010",
+          "alt": "Contre-la-montre — 4,8/5 sur 1340 avis, garantie 12 mois — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444528466-6.jpg?v=1784939034",
+          "fichier": "10977444528466-6.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "bandeau-note-fabriquee"
+        },
+        {
+          "position_galerie": 7,
+          "mediaId": "gid://shopify/MediaImage/59680004669778",
+          "alt": "Contre-la-montre — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444528466-7.jpg?v=1784939033",
+          "fichier": "10977444528466-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 25
+    },
+    {
+      "productId": "gid://shopify/Product/10977444561234",
+      "titre": "Intégrale — Sport chic acier",
+      "handle": "integrale-sport-chic-acier",
+      "statut": "DRAFT",
+      "medias_total_avant": 14,
+      "medias_retires": [
+        {
+          "position_galerie": 6,
+          "mediaId": "gid://shopify/MediaImage/59680004833618",
+          "alt": "Intégrale — 4,8/5 sur 1340 avis, garantie 12 mois — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444561234-6.jpg?v=1784939034",
+          "fichier": "10977444561234-6.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "bandeau-note-fabriquee"
+        },
+        {
+          "position_galerie": 7,
+          "mediaId": "gid://shopify/MediaImage/59680004866386",
+          "alt": "Intégrale — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444561234-7.jpg?v=1784939033",
+          "fichier": "10977444561234-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 12
+    },
+    {
+      "productId": "gid://shopify/Product/10977444594002",
+      "titre": "Héritage — Plongeuse vintage 42",
+      "handle": "heritage-plongeuse-vintage-42",
+      "statut": "DRAFT",
+      "medias_total_avant": 10,
+      "medias_retires": [
+        {
+          "position_galerie": 6,
+          "mediaId": "gid://shopify/MediaImage/59680005030226",
+          "alt": "Héritage — 4,8/5 sur 1340 avis, garantie 12 mois — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444594002-6.jpg?v=1784939034",
+          "fichier": "10977444594002-6.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "bandeau-note-fabriquee"
+        },
+        {
+          "position_galerie": 7,
+          "mediaId": "gid://shopify/MediaImage/59680005062994",
+          "alt": "Héritage — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444594002-7.jpg?v=1784939034",
+          "fichier": "10977444594002-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 8
+    },
+    {
+      "productId": "gid://shopify/Product/10977448624466",
+      "titre": "Noirmont Deux — Plongeuse céramique",
+      "handle": "noirmont-deux-plongeuse-ceramique",
+      "statut": "DRAFT",
+      "medias_total_avant": 7,
+      "medias_retires": [
+        {
+          "position_galerie": 6,
+          "mediaId": "gid://shopify/MediaImage/59680093634898",
+          "alt": "Noirmont Deux — 4,8/5 sur 1340 avis, garantie 12 mois — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977448624466-6.jpg?v=1784939508",
+          "fichier": "10977448624466-6.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "bandeau-note-fabriquee"
+        },
+        {
+          "position_galerie": 7,
+          "mediaId": "gid://shopify/MediaImage/59680093667666",
+          "alt": "Noirmont Deux — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977448624466-7.jpg?v=1784939508",
+          "fichier": "10977448624466-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 5
+    },
+    {
+      "productId": "gid://shopify/Product/10977448657234",
+      "titre": "Voyageur — GMT automatique",
+      "handle": "voyageur-gmt-automatique",
+      "statut": "DRAFT",
+      "medias_total_avant": 13,
+      "medias_retires": [
+        {
+          "position_galerie": 6,
+          "mediaId": "gid://shopify/MediaImage/59680136036690",
+          "alt": "Voyageur — 4,8/5 sur 1340 avis, garantie 12 mois — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/gmt-6.jpg?v=1784939856",
+          "fichier": "gmt-6.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "bandeau-note-fabriquee"
+        },
+        {
+          "position_galerie": 7,
+          "mediaId": "gid://shopify/MediaImage/59680136069458",
+          "alt": "Voyageur — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/gmt-7.jpg?v=1784939856",
+          "fichier": "gmt-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 11
+    },
+    {
+      "productId": "gid://shopify/Product/10977448690002",
+      "titre": "Trente-Six — Classique jubilé",
+      "handle": "trente-six-classique-jubile",
+      "statut": "ACTIVE",
+      "medias_total_avant": 16,
+      "medias_retires": [
+        {
+          "position_galerie": 9,
+          "mediaId": "gid://shopify/MediaImage/59680093995346",
+          "alt": "Trente-Six — 4,8/5 sur 1340 avis, garantie 12 mois — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977448690002-6.jpg?v=1784939509",
+          "fichier": "10977448690002-6.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "bandeau-note-fabriquee"
+        },
+        {
+          "position_galerie": 10,
+          "mediaId": "gid://shopify/MediaImage/59680094028114",
+          "alt": "Trente-Six — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977448690002-7.jpg?v=1784939508",
+          "fichier": "10977448690002-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 14
+    },
+    {
+      "productId": "gid://shopify/Product/10977448722770",
+      "titre": "Trente-Neuf Duo — Classique bicolore",
+      "handle": "trente-neuf-duo-classique-bicolore",
+      "statut": "ACTIVE",
+      "medias_total_avant": 12,
+      "medias_retires": [
+        {
+          "position_galerie": 9,
+          "mediaId": "gid://shopify/MediaImage/59680094191954",
+          "alt": "Trente-Neuf Duo — 4,8/5 sur 1340 avis, garantie 12 mois — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977448722770-6.jpg?v=1784939509",
+          "fichier": "10977448722770-6.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "bandeau-note-fabriquee"
+        },
+        {
+          "position_galerie": 10,
+          "mediaId": "gid://shopify/MediaImage/59680094224722",
+          "alt": "Trente-Neuf Duo — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977448722770-7.jpg?v=1784939508",
+          "fichier": "10977448722770-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 10
+    },
+    {
+      "productId": "gid://shopify/Product/10980078780754",
+      "titre": "Voyageur Or — GMT bracelet 3 maillons",
+      "handle": "voyageur-or-gmt-3-maillons",
+      "statut": "ACTIVE",
+      "medias_total_avant": 5,
+      "medias_retires": [
+        {
+          "position_galerie": 5,
+          "mediaId": "gid://shopify/MediaImage/59680136069458",
+          "alt": "Voyageur — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/gmt-7.jpg?v=1784939856",
+          "fichier": "gmt-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 4
+    },
+    {
+      "productId": "gid://shopify/Product/10980078879058",
+      "titre": "Contre-la-montre Blanc — Chronographe",
+      "handle": "contre-la-montre-blanc-chronographe",
+      "statut": "ACTIVE",
+      "medias_total_avant": 7,
+      "medias_retires": [
+        {
+          "position_galerie": 7,
+          "mediaId": "gid://shopify/MediaImage/59680004669778",
+          "alt": "Contre-la-montre — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444528466-7.jpg?v=1784939033",
+          "fichier": "10977444528466-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 6
+    },
+    {
+      "productId": "gid://shopify/Product/10980078911826",
+      "titre": "Intégrale Vert — Sport chic acier",
+      "handle": "integrale-vert-sport-chic-acier",
+      "statut": "ACTIVE",
+      "medias_total_avant": 2,
+      "medias_retires": [
+        {
+          "position_galerie": 2,
+          "mediaId": "gid://shopify/MediaImage/59680004866386",
+          "alt": "Intégrale — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444561234-7.jpg?v=1784939033",
+          "fichier": "10977444561234-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 1
+    },
+    {
+      "productId": "gid://shopify/Product/10980079042898",
+      "titre": "Voyageur Or — GMT bracelet Président",
+      "handle": "voyageur-or-gmt-president",
+      "statut": "ACTIVE",
+      "medias_total_avant": 5,
+      "medias_retires": [
+        {
+          "position_galerie": 5,
+          "mediaId": "gid://shopify/MediaImage/59680136069458",
+          "alt": "Voyageur — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/gmt-7.jpg?v=1784939856",
+          "fichier": "gmt-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 4
+    },
+    {
+      "productId": "gid://shopify/Product/10980079075666",
+      "titre": "Intégrale Brun or rose — Sport chic",
+      "handle": "integrale-brun-or-rose-sport-chic",
+      "statut": "ACTIVE",
+      "medias_total_avant": 5,
+      "medias_retires": [
+        {
+          "position_galerie": 5,
+          "mediaId": "gid://shopify/MediaImage/59680004866386",
+          "alt": "Intégrale — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444561234-7.jpg?v=1784939033",
+          "fichier": "10977444561234-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 4
+    },
+    {
+      "productId": "gid://shopify/Product/10980080419154",
+      "titre": "Contre-la-montre Panda inversé — Chronographe",
+      "handle": "contre-la-montre-panda-inverse-chronographe",
+      "statut": "ACTIVE",
+      "medias_total_avant": 6,
+      "medias_retires": [
+        {
+          "position_galerie": 6,
+          "mediaId": "gid://shopify/MediaImage/59680004669778",
+          "alt": "Contre-la-montre — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444528466-7.jpg?v=1784939033",
+          "fichier": "10977444528466-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 5
+    },
+    {
+      "productId": "gid://shopify/Product/10980080714066",
+      "titre": "Intégrale Turquoise — Sport chic acier",
+      "handle": "integrale-turquoise-sport-chic-acier",
+      "statut": "ACTIVE",
+      "medias_total_avant": 5,
+      "medias_retires": [
+        {
+          "position_galerie": 5,
+          "mediaId": "gid://shopify/MediaImage/59680004866386",
+          "alt": "Intégrale — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444561234-7.jpg?v=1784939033",
+          "fichier": "10977444561234-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 4
+    },
+    {
+      "productId": "gid://shopify/Product/10980080779602",
+      "titre": "Contre-la-montre Champagne — Chronographe",
+      "handle": "contre-la-montre-champagne-chronographe",
+      "statut": "ACTIVE",
+      "medias_total_avant": 6,
+      "medias_retires": [
+        {
+          "position_galerie": 6,
+          "mediaId": "gid://shopify/MediaImage/59680004669778",
+          "alt": "Contre-la-montre — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444528466-7.jpg?v=1784939033",
+          "fichier": "10977444528466-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 5
+    },
+    {
+      "productId": "gid://shopify/Product/10980080845138",
+      "titre": "Voyageur Bicolore — GMT bracelet 3 maillons",
+      "handle": "voyageur-bicolore-gmt-3-maillons",
+      "statut": "ACTIVE",
+      "medias_total_avant": 5,
+      "medias_retires": [
+        {
+          "position_galerie": 5,
+          "mediaId": "gid://shopify/MediaImage/59680136069458",
+          "alt": "Voyageur — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/gmt-7.jpg?v=1784939856",
+          "fichier": "gmt-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 4
+    },
+    {
+      "productId": "gid://shopify/Product/10980080877906",
+      "titre": "Intégrale Noir — Sport chic acier",
+      "handle": "integrale-noir-sport-chic-acier",
+      "statut": "ACTIVE",
+      "medias_total_avant": 5,
+      "medias_retires": [
+        {
+          "position_galerie": 5,
+          "mediaId": "gid://shopify/MediaImage/59680004866386",
+          "alt": "Intégrale — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444561234-7.jpg?v=1784939033",
+          "fichier": "10977444561234-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 4
+    },
+    {
+      "productId": "gid://shopify/Product/10980080976210",
+      "titre": "Contre-la-montre Panda — Chronographe",
+      "handle": "contre-la-montre-panda-chronographe",
+      "statut": "ACTIVE",
+      "medias_total_avant": 6,
+      "medias_retires": [
+        {
+          "position_galerie": 6,
+          "mediaId": "gid://shopify/MediaImage/59680004669778",
+          "alt": "Contre-la-montre — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444528466-7.jpg?v=1784939033",
+          "fichier": "10977444528466-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 5
+    },
+    {
+      "productId": "gid://shopify/Product/10980081041746",
+      "titre": "Contre-la-montre Noir — Chronographe",
+      "handle": "contre-la-montre-noir-chronographe",
+      "statut": "ACTIVE",
+      "medias_total_avant": 6,
+      "medias_retires": [
+        {
+          "position_galerie": 6,
+          "mediaId": "gid://shopify/MediaImage/59680004669778",
+          "alt": "Contre-la-montre — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444528466-7.jpg?v=1784939033",
+          "fichier": "10977444528466-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 5
+    },
+    {
+      "productId": "gid://shopify/Product/10980081074514",
+      "titre": "Intégrale Bleu nuit — Sport chic acier",
+      "handle": "integrale-bleu-nuit-sport-chic-acier",
+      "statut": "ACTIVE",
+      "medias_total_avant": 5,
+      "medias_retires": [
+        {
+          "position_galerie": 5,
+          "mediaId": "gid://shopify/MediaImage/59680004866386",
+          "alt": "Intégrale — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444561234-7.jpg?v=1784939033",
+          "fichier": "10977444561234-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 4
+    },
+    {
+      "productId": "gid://shopify/Product/10980081107282",
+      "titre": "Voyageur Bicolore — GMT bracelet 5 maillons",
+      "handle": "voyageur-bicolore-gmt-5-maillons",
+      "statut": "ACTIVE",
+      "medias_total_avant": 5,
+      "medias_retires": [
+        {
+          "position_galerie": 5,
+          "mediaId": "gid://shopify/MediaImage/59680136069458",
+          "alt": "Voyageur — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/gmt-7.jpg?v=1784939856",
+          "fichier": "gmt-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 4
+    },
+    {
+      "productId": "gid://shopify/Product/10980081205586",
+      "titre": "Intégrale Bleu ciel — Sport chic acier",
+      "handle": "integrale-bleu-ciel-sport-chic-acier",
+      "statut": "ACTIVE",
+      "medias_total_avant": 5,
+      "medias_retires": [
+        {
+          "position_galerie": 5,
+          "mediaId": "gid://shopify/MediaImage/59680004866386",
+          "alt": "Intégrale — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444561234-7.jpg?v=1784939033",
+          "fichier": "10977444561234-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 4
+    },
+    {
+      "productId": "gid://shopify/Product/10980081336658",
+      "titre": "Intégrale Blanc argenté — Sport chic acier",
+      "handle": "integrale-blanc-argente-sport-chic-acier",
+      "statut": "ACTIVE",
+      "medias_total_avant": 5,
+      "medias_retires": [
+        {
+          "position_galerie": 5,
+          "mediaId": "gid://shopify/MediaImage/59680004866386",
+          "alt": "Intégrale — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444561234-7.jpg?v=1784939033",
+          "fichier": "10977444561234-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 4
+    },
+    {
+      "productId": "gid://shopify/Product/10980081402194",
+      "titre": "Voyageur Or rose — GMT bracelet 5 maillons",
+      "handle": "voyageur-or-rose-gmt-5-maillons",
+      "statut": "ACTIVE",
+      "medias_total_avant": 5,
+      "medias_retires": [
+        {
+          "position_galerie": 5,
+          "mediaId": "gid://shopify/MediaImage/59680136069458",
+          "alt": "Voyageur — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/gmt-7.jpg?v=1784939856",
+          "fichier": "gmt-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 4
+    },
+    {
+      "productId": "gid://shopify/Product/10980081533266",
+      "titre": "Contre-la-montre Turquoise — Chronographe",
+      "handle": "contre-la-montre-turquoise-chronographe",
+      "statut": "ACTIVE",
+      "medias_total_avant": 6,
+      "medias_retires": [
+        {
+          "position_galerie": 6,
+          "mediaId": "gid://shopify/MediaImage/59680004669778",
+          "alt": "Contre-la-montre — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444528466-7.jpg?v=1784939033",
+          "fichier": "10977444528466-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 5
+    },
+    {
+      "productId": "gid://shopify/Product/10980081631570",
+      "titre": "Contre-la-montre Vert — Chronographe",
+      "handle": "contre-la-montre-vert-chronographe",
+      "statut": "ACTIVE",
+      "medias_total_avant": 6,
+      "medias_retires": [
+        {
+          "position_galerie": 6,
+          "mediaId": "gid://shopify/MediaImage/59680004669778",
+          "alt": "Contre-la-montre — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444528466-7.jpg?v=1784939033",
+          "fichier": "10977444528466-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 5
+    },
+    {
+      "productId": "gid://shopify/Product/10980081664338",
+      "titre": "Voyageur Bicolore cadran brun — GMT automatique",
+      "handle": "voyageur-bicolore-cadran-brun-gmt",
+      "statut": "ACTIVE",
+      "medias_total_avant": 5,
+      "medias_retires": [
+        {
+          "position_galerie": 5,
+          "mediaId": "gid://shopify/MediaImage/59680136069458",
+          "alt": "Voyageur — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/gmt-7.jpg?v=1784939856",
+          "fichier": "gmt-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 4
+    },
+    {
+      "productId": "gid://shopify/Product/10980081762642",
+      "titre": "Contre-la-montre Rose poudré — Chronographe",
+      "handle": "contre-la-montre-rose-poudre-chronographe",
+      "statut": "ACTIVE",
+      "medias_total_avant": 5,
+      "medias_retires": [
+        {
+          "position_galerie": 5,
+          "mediaId": "gid://shopify/MediaImage/59680004669778",
+          "alt": "Contre-la-montre — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444528466-7.jpg?v=1784939033",
+          "fichier": "10977444528466-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 4
+    },
+    {
+      "productId": "gid://shopify/Product/10980081926482",
+      "titre": "Contre-la-montre Gris anthracite — Chronographe",
+      "handle": "contre-la-montre-gris-anthracite-chronographe",
+      "statut": "ACTIVE",
+      "medias_total_avant": 5,
+      "medias_retires": [
+        {
+          "position_galerie": 5,
+          "mediaId": "gid://shopify/MediaImage/59680004669778",
+          "alt": "Contre-la-montre — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444528466-7.jpg?v=1784939033",
+          "fichier": "10977444528466-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 4
+    },
+    {
+      "productId": "gid://shopify/Product/10980082778450",
+      "titre": "Contre-la-montre Argent — Chronographe",
+      "handle": "contre-la-montre-argent-chronographe",
+      "statut": "ACTIVE",
+      "medias_total_avant": 5,
+      "medias_retires": [
+        {
+          "position_galerie": 5,
+          "mediaId": "gid://shopify/MediaImage/59680004669778",
+          "alt": "Contre-la-montre — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444528466-7.jpg?v=1784939033",
+          "fichier": "10977444528466-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 4
+    },
+    {
+      "productId": "gid://shopify/Product/10980082843986",
+      "titre": "Héritage Bleu — Plongeuse vintage 42",
+      "handle": "heritage-bleu-plongeuse-vintage-42",
+      "statut": "ACTIVE",
+      "medias_total_avant": 5,
+      "medias_retires": [
+        {
+          "position_galerie": 5,
+          "mediaId": "gid://shopify/MediaImage/59680005062994",
+          "alt": "Héritage — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444594002-7.jpg?v=1784939034",
+          "fichier": "10977444594002-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 4
+    },
+    {
+      "productId": "gid://shopify/Product/10980083007826",
+      "titre": "Contre-la-montre Compteurs bleus — Chronographe",
+      "handle": "contre-la-montre-compteurs-bleus-chronographe",
+      "statut": "ACTIVE",
+      "medias_total_avant": 5,
+      "medias_retires": [
+        {
+          "position_galerie": 5,
+          "mediaId": "gid://shopify/MediaImage/59680004669778",
+          "alt": "Contre-la-montre — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444528466-7.jpg?v=1784939033",
+          "fichier": "10977444528466-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 4
+    },
+    {
+      "productId": "gid://shopify/Product/10980083138898",
+      "titre": "Contre-la-montre Bleu glacier — Chronographe",
+      "handle": "contre-la-montre-bleu-glacier-chronographe",
+      "statut": "ACTIVE",
+      "medias_total_avant": 5,
+      "medias_retires": [
+        {
+          "position_galerie": 5,
+          "mediaId": "gid://shopify/MediaImage/59680004669778",
+          "alt": "Contre-la-montre — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444528466-7.jpg?v=1784939033",
+          "fichier": "10977444528466-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 4
+    },
+    {
+      "productId": "gid://shopify/Product/10980084220242",
+      "titre": "Héritage Bleu nuit — Plongeuse vintage 42",
+      "handle": "heritage-bleu-nuit-plongeuse-vintage-42",
+      "statut": "ACTIVE",
+      "medias_total_avant": 5,
+      "medias_retires": [
+        {
+          "position_galerie": 5,
+          "mediaId": "gid://shopify/MediaImage/59680005062994",
+          "alt": "Héritage — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444594002-7.jpg?v=1784939034",
+          "fichier": "10977444594002-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 4
+    },
+    {
+      "productId": "gid://shopify/Product/10980084515154",
+      "titre": "Héritage Vert — Plongeuse vintage 42",
+      "handle": "heritage-vert-plongeuse-vintage-42",
+      "statut": "ACTIVE",
+      "medias_total_avant": 5,
+      "medias_retires": [
+        {
+          "position_galerie": 5,
+          "mediaId": "gid://shopify/MediaImage/59680005062994",
+          "alt": "Héritage — témoignage client — Maison Noirmont",
+          "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/10977444594002-7.jpg?v=1784939034",
+          "fichier": "10977444594002-7.jpg",
+          "largeur": 2048,
+          "hauteur": 2048,
+          "type": "faux-temoignage"
+        }
+      ],
+      "medias_restants_apres": 4
+    }
+  ],
+  "fichiers_partages": [
+    {
+      "fichier": "10977444430162-6.jpg",
+      "mediaId": "gid://shopify/MediaImage/59680004243794",
+      "nb_produits": 1
+    },
+    {
+      "fichier": "10977444430162-7.jpg",
+      "mediaId": "gid://shopify/MediaImage/59680004276562",
+      "nb_produits": 1
+    },
+    {
+      "fichier": "10977444495698-6.jpg",
+      "mediaId": "gid://shopify/MediaImage/59680004440402",
+      "nb_produits": 1
+    },
+    {
+      "fichier": "10977444495698-7.jpg",
+      "mediaId": "gid://shopify/MediaImage/59680004473170",
+      "nb_produits": 1
+    },
+    {
+      "fichier": "10977444528466-6.jpg",
+      "mediaId": "gid://shopify/MediaImage/59680004637010",
+      "nb_produits": 1
+    },
+    {
+      "fichier": "10977444528466-7.jpg",
+      "mediaId": "gid://shopify/MediaImage/59680004669778",
+      "nb_produits": 13
+    },
+    {
+      "fichier": "10977444561234-6.jpg",
+      "mediaId": "gid://shopify/MediaImage/59680004833618",
+      "nb_produits": 1
+    },
+    {
+      "fichier": "10977444561234-7.jpg",
+      "mediaId": "gid://shopify/MediaImage/59680004866386",
+      "nb_produits": 8
+    },
+    {
+      "fichier": "10977444594002-6.jpg",
+      "mediaId": "gid://shopify/MediaImage/59680005030226",
+      "nb_produits": 1
+    },
+    {
+      "fichier": "10977444594002-7.jpg",
+      "mediaId": "gid://shopify/MediaImage/59680005062994",
+      "nb_produits": 4
+    },
+    {
+      "fichier": "10977448624466-6.jpg",
+      "mediaId": "gid://shopify/MediaImage/59680093634898",
+      "nb_produits": 1
+    },
+    {
+      "fichier": "10977448624466-7.jpg",
+      "mediaId": "gid://shopify/MediaImage/59680093667666",
+      "nb_produits": 1
+    },
+    {
+      "fichier": "10977448690002-6.jpg",
+      "mediaId": "gid://shopify/MediaImage/59680093995346",
+      "nb_produits": 1
+    },
+    {
+      "fichier": "10977448690002-7.jpg",
+      "mediaId": "gid://shopify/MediaImage/59680094028114",
+      "nb_produits": 1
+    },
+    {
+      "fichier": "10977448722770-6.jpg",
+      "mediaId": "gid://shopify/MediaImage/59680094191954",
+      "nb_produits": 1
+    },
+    {
+      "fichier": "10977448722770-7.jpg",
+      "mediaId": "gid://shopify/MediaImage/59680094224722",
+      "nb_produits": 1
+    },
+    {
+      "fichier": "gmt-6.jpg",
+      "mediaId": "gid://shopify/MediaImage/59680136036690",
+      "nb_produits": 1
+    },
+    {
+      "fichier": "gmt-7.jpg",
+      "mediaId": "gid://shopify/MediaImage/59680136069458",
+      "nb_produits": 7
+    }
+  ]
+}
