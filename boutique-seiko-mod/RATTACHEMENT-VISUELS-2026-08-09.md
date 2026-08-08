@@ -509,3 +509,23 @@ Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
 - Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 33 visuels rattachés sur 29 fiches. 2 refus.**
+
+---
+
+## Tour 17 — 09/08/2026 ~01h20
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `trente-six-bleu-classique-jubile` | `-g1` macro jonction + jubilé acier | 5/5 | Trente-Six Bleu — macro de la jonction boîtier-bracelet : jubilé acier à cinq rangs, deux rangs larges brossés encadrant trois rangs centraux polis — Maison Noirmont |
+
+- **Fidélité** : la fiche décrit le jubilé au détail près — « deux rangs larges et brossés de
+  part et d'autre de trois rangs centraux polis ». La macro montre exactement ce comptage
+  et cette alternance de finitions, en acier. Conforme.
+- Cadran et date entièrement hors champ : aucun texte ni mention d'origine. Le visuel est
+  neutre vis-à-vis du coloris, donc sans risque de contradiction avec le bleu roi vendu.
+- Aucun logo, aucun avis, aucun badge ; 2048×2048 JPEG.
+- Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 34 visuels rattachés sur 30 fiches. 2 refus.**
