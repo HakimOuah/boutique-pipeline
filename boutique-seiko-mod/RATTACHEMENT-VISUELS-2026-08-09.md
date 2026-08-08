@@ -971,3 +971,24 @@ pas cherché à contourner. La fiche reste à 2 médias.
   le nouveau se place en 3/3, image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 50 visuels rattachés sur 46 fiches. 2 refus.**
+
+---
+
+## Tour 34 — 09/08/2026 ~02h45
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `rouleau-de-voyage-noir-cuir` | `-g1` macro logement intérieur | 3/3 | Rouleau de Voyage Noir — macro d'un logement intérieur : séparateurs en cuir noir mat, couture du rabat et cuir extérieur noir grainé roulé — Maison Noirmont |
+
+- **Fidélité** : « Extérieur en cuir · **un logement par montre** » → la macro montre les
+  séparateurs délimitant les logements et le cuir extérieur grainé, en noir. Conforme.
+- **Montres et cordon exclus du cadrage** : aucun produit tiers ni accessoire n'est introduit
+  dans la galerie — même précaution qu'au tour 32 sur la pince.
+- Bien distinct du `rouleau-de-voyage-vert-cuir` traité au tour 1 (cuir vert, alvéole doublée) :
+  ici cuir noir et intérieur noir mat.
+- Aucun lettrage ni marque ; aucun avis ni badge ; 2048×2048 JPEG ; fiche à 2 médias, le
+  nouveau se place en 3/3, image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 51 visuels rattachés sur 47 fiches. 2 refus.**
