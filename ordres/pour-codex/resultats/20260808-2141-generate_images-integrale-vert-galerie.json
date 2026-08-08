@@ -1,0 +1,84 @@
+{
+  "id": "claude-20260808-2141-integrale-vert-galerie",
+  "status": "failed",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "integrale-vert-sport-chic-acier",
+        "sku": "14:175#6;200007763:201336100",
+        "slot": "situation",
+        "fichier": "integrale-vert-sport-chic-acier-02-en-situation.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      },
+      {
+        "handle": "integrale-vert-sport-chic-acier",
+        "sku": "14:175#6;200007763:201336100",
+        "slot": "macro",
+        "fichier": "integrale-vert-sport-chic-acier-03-macro.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "integrale-vert-sport-chic-acier",
+        "sku": "14:175#6;200007763:201336100",
+        "slot": "details",
+        "fichier": "integrale-vert-sport-chic-acier-05-details.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 4
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/details-v1-excroissance-guichet-date.jpg",
+        "motif": "Guichet de date non conforme : excroissance verticale à gauche, absente de la face validée."
+      },
+      {
+        "fichier": "rejected/details-v2-percages-flanc-et-cadre-date.jpg",
+        "motif": "Flanc droit inventé avec deux perçages sombres et cadre du quantième trop étiré."
+      },
+      {
+        "fichier": "rejected/details-v3-percage-flanc-inferieur.jpg",
+        "motif": "Perçage sombre inventé sur le flanc inférieur droit."
+      },
+      {
+        "fichier": "rejected/situation-v1-axe-12h-diagonal.jpg",
+        "motif": "Axe 12-6 diagonal dans le carré et date inclinée ; bloc d'orientation non respecté."
+      },
+      {
+        "fichier": "rejected/poignet-v1-axe-12h-diagonal.jpg",
+        "motif": "Axe 12-6 diagonal ; bloc d'orientation non respecté malgré une anatomie acceptable."
+      },
+      {
+        "fichier": "rejected/poignet-v2-quatre-attaches-bracelet.jpg",
+        "motif": "Bracelet impossible à quatre attaches, avec extensions latérales à 9 h et 3 h."
+      },
+      {
+        "fichier": "rejected/poignet-v3-bracelet-lateral-couronne-masquee.jpg",
+        "motif": "Bracelet latéral inventé et couronne masquée."
+      },
+      {
+        "fichier": "rejected/poignet-v4-bracelet-interrompu-sur-peau.jpg",
+        "motif": "Bracelet interrompu sur la peau ; montre non réellement portée et fermée."
+      },
+      {
+        "fichier": "rejected/poignet-v5-bracelet-correct-axe-diagonal.jpg",
+        "motif": "Bracelet fermé crédible, mais axe 12-6 et date diagonaux."
+      },
+      {
+        "fichier": "rejected/poignet-v6-axe-droit-bracelet-lateral.jpg",
+        "motif": "Axe droit, mais bracelet latéral inventé à quatre attaches."
+      },
+      {
+        "fichier": "rejected/poignet-v7-axe-droit-bracelet-quatre-attaches.jpg",
+        "motif": "Septième génération non livrable : axe droit, mais quatre attaches de bracelet ; slot poignet rejeté après 7 générations."
+      }
+    ],
+    "sujets_difficiles": [
+      "integrale-vert-sport-chic-acier | details | 4 générations totales ; conforme à la 4e",
+      "integrale-vert-sport-chic-acier | poignet | 7 générations totales ; slot rejeté, orientation ou bracelet non conforme"
+    ]
+  },
+  "executed_at": "2026-08-08T20:10:19Z",
+  "executor": "codex-2026-08-08"
+}
