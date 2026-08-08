@@ -791,3 +791,25 @@ vérifier la référence réellement livrée par le fournisseur.
   inchangé.
 
 **Cumul : 43 visuels rattachés sur 39 fiches. 2 refus.**
+
+---
+
+## Tour 26 — 09/08/2026 ~02h05
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `montre-field-acier-cadran-chiffres-1-12` | `-g1` macro cornes acier + cuir | 5/5 | Éclaireur Acier — macro de la jonction entre les cornes acier brossé et le bracelet cuir brun châtaigne à surpiqûres crème — Maison Noirmont |
+
+- **Fidélité** : « boîtier acier brossé et bracelet cuir surpiqué » → cornes en acier brossé,
+  cuir brun châtaigne, surpiqûres crème apparentes. Conforme.
+- **Cadran entièrement exclu** : la fiche annonce « douze grands chiffres luminescents,
+  de 1 à 12, piste des 24 heures en couronne intérieure ». Aucun de ces chiffres n'apparaît
+  à l'image — donc aucun risque de graduation fantaisiste ni de texte. La fiche précise par
+  ailleurs retenir « les versions stériles : aucun logo, aucune inscription ».
+- **Source versionnée** et présente : `visuels-arabes-squelettes-2026-07-29/montre-field-acier-cadran-chiffres-arabes-face.jpg` (548 ko, 29/07).
+- Aucun avis ni badge ; 2048×2048 JPEG ; fin de galerie (5/5), image 1 intacte, statut ACTIVE
+  inchangé.
+
+**Cumul : 44 visuels rattachés sur 40 fiches. 2 refus.**
