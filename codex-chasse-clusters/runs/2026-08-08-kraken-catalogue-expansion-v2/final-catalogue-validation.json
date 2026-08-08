@@ -1,0 +1,72 @@
+{
+  "run_id": "2026-08-08-kraken-catalogue-expansion-v2",
+  "generated_at_utc": "2026-08-08T13:33:34+00:00",
+  "counts_by_niche": {
+    "Aquariophilie & aquascaping": 68,
+    "Balade, transport & mobilité du chien": 59,
+    "Mercerie créative & arts du fil": 97,
+    "Perles & création de bijoux": 200,
+    "Scrapbooking & journaling": 59
+  },
+  "targets_by_niche": {
+    "Aquariophilie & aquascaping": 100,
+    "Balade, transport & mobilité du chien": 100,
+    "Mercerie créative & arts du fil": 200,
+    "Perles & création de bijoux": 200,
+    "Scrapbooking & journaling": 100
+  },
+  "gate_catalogue_by_niche": {
+    "Aquariophilie & aquascaping": false,
+    "Balade, transport & mobilité du chien": false,
+    "Mercerie créative & arts du fil": false,
+    "Perles & création de bijoux": true,
+    "Scrapbooking & journaling": false
+  },
+  "pool_counts_by_niche": {
+    "Aquariophilie & aquascaping": 82,
+    "Balade, transport & mobilité du chien": 109,
+    "Mercerie créative & arts du fil": 104,
+    "Perles & création de bijoux": 246,
+    "Scrapbooking & journaling": 63
+  },
+  "competitor_qualified_match_candidates_by_niche": {
+    "Aquariophilie & aquascaping": 15,
+    "Balade, transport & mobilité du chien": 54,
+    "Mercerie créative & arts du fil": 14,
+    "Perles & création de bijoux": 30,
+    "Scrapbooking & journaling": 4
+  },
+  "mapping_missing_concepts_by_niche": {
+    "Aquariophilie & aquascaping": 83,
+    "Balade, transport & mobilité du chien": 28,
+    "Mercerie créative & arts du fil": 96,
+    "Perles & création de bijoux": 42,
+    "Scrapbooking & journaling": 40
+  },
+  "selection_rejections_by_niche": {
+    "Aquariophilie & aquascaping": {
+      "listing_id_duplique": 14
+    },
+    "Balade, transport & mobilité du chien": {
+      "listing_id_duplique": 50
+    },
+    "Mercerie créative & arts du fil": {
+      "listing_id_duplique": 7
+    },
+    "Perles & création de bijoux": {
+      "listing_id_duplique": 17
+    },
+    "Scrapbooking & journaling": {
+      "listing_id_duplique": 4
+    }
+  },
+  "unique_listing_ids": 483,
+  "unique_product_titles": 483,
+  "all_product_volumes_positive": true,
+  "all_collection_volumes_positive": true,
+  "limitations": [
+    "Un resultat de recherche API prouve un listing, pas encore le SKU exact, le fret France, la conformite ou la marge.",
+    "Les lignes DECOUVERTE_FAMILLE_SEO_API n'ont pas de correspondance PDP concurrente directe.",
+    "Les titres SEO sont des propositions de travail; la verite matiere et les allégations doivent etre confirmees avant import."
+  ]
+}

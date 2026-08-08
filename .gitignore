@@ -26,3 +26,6 @@ __pycache__/
 # Artefacts temporaires locaux de contrôle/rendu Codex
 /.tmp/
 **/verification-import/
+
+# Inspection exhaustive temporaire generee a cote d'un XLSX par artifact-tool
+*.xlsx.inspect.ndjson

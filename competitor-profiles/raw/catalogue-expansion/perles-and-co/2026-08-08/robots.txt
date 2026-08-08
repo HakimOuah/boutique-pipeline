@@ -1,0 +1,36 @@
+Source: https://www.perlesandco.com/robots.txt
+Observed: 2026-08-08
+
+User-agent: *
+
+Sitemap: https://www.perlesandco.com/sitemap.xml
+
+Disallow: /search*
+Disallow: /logoff.php
+Disallow: /*save=
+Disallow: /*fb_locale=
+Disallow: /includes/actions*
+
+Disallow: /*.html*filters*
+
+Disallow: /*datepac=*
+Disallow: /*&action=*
+Disallow: /*&sort=*
+Disallow: /*&language=*
+Disallow: /*&osCsid=*
+Disallow: /*&nbprod=*
+Disallow: /order/
+Disallow: /order/*
+Disallow: /shopping_cart.php
+Disallow: /account/
+Disallow: /*?facets=*
+Disallow: /contact_us*
+Disallow: /suggest_product*
+Disallow: /actions/currency.php
+Disallow: /actions/app.php
+
+User-agent: Seekport Crawler
+Disallow: /
+
+User-agent: Pinterestbot
+Crawl-delay: 0.5

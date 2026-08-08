@@ -1,0 +1,1653 @@
+{
+  "run_id": "2026-08-08-kraken-catalogue-expansion-v2",
+  "generated_at_utc": "2026-08-08T11:08:25+00:00",
+  "source": "SEMrush France, mesures observees le 2026-08-08 et reprises du run v1",
+  "database": "fr",
+  "measurement_note": "Valeurs reprises sans re-mesure lorsqu'elles existent deja le meme jour; les nouveaux termes seront ajoutes avec leur propre preuve.",
+  "thresholds": {
+    "boutique_minimum_clean": 30000,
+    "boutique_comfort": 40000,
+    "collection_core": 1000,
+    "collection_secondary": 500,
+    "collection_review_low": 300,
+    "product_minimum": null
+  },
+  "root_keywords": {
+    "Mercerie créative & arts du fil": {
+      "keyword": "mercerie",
+      "volume": 27100
+    },
+    "Scrapbooking & journaling": {
+      "keyword": "scrapbooking",
+      "volume": 27100
+    },
+    "Aquariophilie & aquascaping": {
+      "keyword": "filtre aquarium",
+      "volume": 3600
+    },
+    "Balade, transport & mobilité du chien": {
+      "keyword": "harnais chien",
+      "volume": 22200
+    },
+    "Perles & création de bijoux": {
+      "keyword": "perles pour bijoux",
+      "volume": 720
+    }
+  },
+  "clean_totals_by_niche": {
+    "Balade, transport & mobilité du chien": 81860,
+    "Mercerie créative & arts du fil": 221680,
+    "Scrapbooking & journaling": 64740,
+    "Perles & création de bijoux": 35770,
+    "Aquariophilie & aquascaping": 48320
+  },
+  "measured_anchor_union_by_niche": {
+    "Mercerie créative & arts du fil": 21800,
+    "Scrapbooking & journaling": 11360,
+    "Aquariophilie & aquascaping": 21490,
+    "Balade, transport & mobilité du chien": 73130,
+    "Perles & création de bijoux": 26750
+  },
+  "keywords": [
+    {
+      "keyword": "aiguille perles",
+      "volume": 170,
+      "niches": [
+        "Perles & création de bijoux"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "aiguilles machine à coudre",
+      "volume": 390,
+      "niches": [
+        "Mercerie créative & arts du fil"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": true
+    },
+    {
+      "keyword": "aiguilles à coudre",
+      "volume": 480,
+      "niches": [
+        "Mercerie créative & arts du fil"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": true
+    },
+    {
+      "keyword": "album scrapbooking",
+      "volume": 1600,
+      "niches": [
+        "Scrapbooking & journaling"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "anneau bijoux",
+      "volume": 110,
+      "niches": [
+        "Perles & création de bijoux"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "apprêts bijoux",
+      "volume": 170,
+      "niches": [
+        "Perles & création de bijoux"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "aspirateur aquarium",
+      "volume": 2400,
+      "niches": [
+        "Aquariophilie & aquascaping"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "biais couture",
+      "volume": 2400,
+      "niches": [
+        "Mercerie créative & arts du fil"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "bouton pression",
+      "volume": 3600,
+      "niches": [
+        "Mercerie créative & arts du fil"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "boutons couture",
+      "volume": 320,
+      "niches": [
+        "Mercerie créative & arts du fil"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": true
+    },
+    {
+      "keyword": "breloque",
+      "volume": 4400,
+      "niches": [
+        "Perles & création de bijoux"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "canette machine à coudre",
+      "volume": 1000,
+      "niches": [
+        "Mercerie créative & arts du fil"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "ceinture voiture chien",
+      "volume": 170,
+      "niches": [
+        "Balade, transport & mobilité du chien"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "chaine bijoux",
+      "volume": 880,
+      "niches": [
+        "Perles & création de bijoux"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "chauffage aquarium",
+      "volume": 1900,
+      "niches": [
+        "Aquariophilie & aquascaping"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "chaussures chien",
+      "volume": 590,
+      "niches": [
+        "Balade, transport & mobilité du chien"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "ciseaux couture",
+      "volume": 2400,
+      "niches": [
+        "Mercerie créative & arts du fil"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "clips couture",
+      "volume": 50,
+      "niches": [
+        "Mercerie créative & arts du fil"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "colle scrapbooking",
+      "volume": 140,
+      "niches": [
+        "Scrapbooking & journaling"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "collier chien",
+      "volume": 9900,
+      "niches": [
+        "Balade, transport & mobilité du chien"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "connecteur bijoux",
+      "volume": 70,
+      "niches": [
+        "Perles & création de bijoux"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "craie tailleur",
+      "volume": 110,
+      "niches": [
+        "Mercerie créative & arts du fil"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "dentelle couture",
+      "volume": 90,
+      "niches": [
+        "Mercerie créative & arts du fil"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "dies scrapbooking",
+      "volume": 170,
+      "niches": [
+        "Scrapbooking & journaling"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "diffuseur co2 aquarium",
+      "volume": 480,
+      "niches": [
+        "Aquariophilie & aquascaping"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": true
+    },
+    {
+      "keyword": "distributeur nourriture poisson",
+      "volume": 1600,
+      "niches": [
+        "Aquariophilie & aquascaping"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "décoration aquarium",
+      "volume": 1600,
+      "niches": [
+        "Aquariophilie & aquascaping"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "découd vite",
+      "volume": 1300,
+      "niches": [
+        "Mercerie créative & arts du fil"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "embellissement scrapbooking",
+      "volume": 90,
+      "niches": [
+        "Scrapbooking & journaling"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "encre scrapbooking",
+      "volume": 70,
+      "niches": [
+        "Scrapbooking & journaling"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "fermeture éclair",
+      "volume": 4400,
+      "niches": [
+        "Mercerie créative & arts du fil"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "fermoir bijoux",
+      "volume": 260,
+      "niches": [
+        "Perles & création de bijoux"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "fil à coudre",
+      "volume": 1300,
+      "niches": [
+        "Mercerie créative & arts du fil"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "fil élastique bracelet",
+      "volume": 210,
+      "niches": [
+        "Perles & création de bijoux"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "filtre aquarium",
+      "volume": 3600,
+      "niches": [
+        "Aquariophilie & aquascaping"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "filtre crevette aquarium",
+      "volume": 20,
+      "niches": [
+        "Aquariophilie & aquascaping"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "fleurs papier scrapbooking",
+      "volume": 0,
+      "niches": [
+        "Scrapbooking & journaling"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": false,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "gamelle pliable chien",
+      "volume": 390,
+      "niches": [
+        "Balade, transport & mobilité du chien"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": true
+    },
+    {
+      "keyword": "gilet sauvetage chien",
+      "volume": 1900,
+      "niches": [
+        "Balade, transport & mobilité du chien"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "gourde chien",
+      "volume": 2400,
+      "niches": [
+        "Balade, transport & mobilité du chien"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "harnais chien",
+      "volume": 22200,
+      "niches": [
+        "Balade, transport & mobilité du chien"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "housse voiture chien",
+      "volume": 720,
+      "niches": [
+        "Balade, transport & mobilité du chien"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "imperméable chien",
+      "volume": 1900,
+      "niches": [
+        "Balade, transport & mobilité du chien"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "kit co2 aquarium",
+      "volume": 880,
+      "niches": [
+        "Aquariophilie & aquascaping"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "kit scrapbooking",
+      "volume": 880,
+      "niches": [
+        "Scrapbooking & journaling"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "laisse chien",
+      "volume": 5400,
+      "niches": [
+        "Balade, transport & mobilité du chien"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "laisse enrouleur chien",
+      "volume": 590,
+      "niches": [
+        "Balade, transport & mobilité du chien"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "longe chien",
+      "volume": 4400,
+      "niches": [
+        "Balade, transport & mobilité du chien"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "manteau chien",
+      "volume": 4400,
+      "niches": [
+        "Balade, transport & mobilité du chien"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "massicot papier",
+      "volume": 2900,
+      "niches": [
+        "Scrapbooking & journaling"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "matrice découpe scrapbooking",
+      "volume": 40,
+      "niches": [
+        "Scrapbooking & journaling"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "muselière chien",
+      "volume": 6600,
+      "niches": [
+        "Balade, transport & mobilité du chien"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "mètre ruban couture",
+      "volume": 720,
+      "niches": [
+        "Mercerie créative & arts du fil"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "médaille chien",
+      "volume": 1900,
+      "niches": [
+        "Balade, transport & mobilité du chien"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "métier à tisser perles",
+      "volume": 720,
+      "niches": [
+        "Perles & création de bijoux"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "nettoyeur vitre aquarium",
+      "volume": 140,
+      "niches": [
+        "Aquariophilie & aquascaping"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "osmolateur aquarium",
+      "volume": 260,
+      "niches": [
+        "Aquariophilie & aquascaping"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "panier vélo chien",
+      "volume": 210,
+      "niches": [
+        "Balade, transport & mobilité du chien"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "papier scrapbooking",
+      "volume": 1300,
+      "niches": [
+        "Scrapbooking & journaling"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "passepoil couture",
+      "volume": 1600,
+      "niches": [
+        "Mercerie créative & arts du fil"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "pendentif",
+      "volume": 9900,
+      "niches": [
+        "Perles & création de bijoux"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "perforatrice scrapbooking",
+      "volume": 480,
+      "niches": [
+        "Scrapbooking & journaling"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": true
+    },
+    {
+      "keyword": "perles bois",
+      "volume": 1300,
+      "niches": [
+        "Perles & création de bijoux"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "perles heishi",
+      "volume": 1300,
+      "niches": [
+        "Perles & création de bijoux"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "perles lettres",
+      "volume": 480,
+      "niches": [
+        "Perles & création de bijoux"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": true
+    },
+    {
+      "keyword": "perles miyuki",
+      "volume": 2400,
+      "niches": [
+        "Perles & création de bijoux"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "perles naturelles",
+      "volume": 880,
+      "niches": [
+        "Perles & création de bijoux"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "perles pour bijoux",
+      "volume": 720,
+      "niches": [
+        "Perles & création de bijoux"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "perles rocailles",
+      "volume": 590,
+      "niches": [
+        "Perles & création de bijoux"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "perles verre",
+      "volume": 720,
+      "niches": [
+        "Perles & création de bijoux"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "pied presseur",
+      "volume": 260,
+      "niches": [
+        "Mercerie créative & arts du fil"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "pince bijoux",
+      "volume": 880,
+      "niches": [
+        "Perles & création de bijoux"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "pince pression",
+      "volume": 590,
+      "niches": [
+        "Mercerie créative & arts du fil"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "plante artificielle aquarium",
+      "volume": 210,
+      "niches": [
+        "Aquariophilie & aquascaping"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "plioir papier",
+      "volume": 140,
+      "niches": [
+        "Scrapbooking & journaling"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "pochette friandise chien",
+      "volume": 260,
+      "niches": [
+        "Balade, transport & mobilité du chien"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "pochoir scrapbooking",
+      "volume": 140,
+      "niches": [
+        "Scrapbooking & journaling"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "pompe aquarium",
+      "volume": 5400,
+      "niches": [
+        "Aquariophilie & aquascaping"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "pompe à air aquarium",
+      "volume": 480,
+      "niches": [
+        "Aquariophilie & aquascaping"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": true
+    },
+    {
+      "keyword": "pondoir aquarium",
+      "volume": 140,
+      "niches": [
+        "Aquariophilie & aquascaping"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "poudre embossage",
+      "volume": 50,
+      "niches": [
+        "Scrapbooking & journaling"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "poussette chien",
+      "volume": 4400,
+      "niches": [
+        "Balade, transport & mobilité du chien"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "rampe chien",
+      "volume": 2400,
+      "niches": [
+        "Balade, transport & mobilité du chien"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "ruban couture",
+      "volume": 260,
+      "niches": [
+        "Mercerie créative & arts du fil"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "ruban scrapbooking",
+      "volume": 20,
+      "niches": [
+        "Scrapbooking & journaling"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "sac transport chien",
+      "volume": 2400,
+      "niches": [
+        "Balade, transport & mobilité du chien"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "skimmer aquarium",
+      "volume": 260,
+      "niches": [
+        "Aquariophilie & aquascaping"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "stickers scrapbooking",
+      "volume": 590,
+      "niches": [
+        "Scrapbooking & journaling"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "support boucle d'oreille",
+      "volume": 590,
+      "niches": [
+        "Perles & création de bijoux"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "tampon scrapbooking",
+      "volume": 320,
+      "niches": [
+        "Scrapbooking & journaling"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": true
+    },
+    {
+      "keyword": "tampon transparent scrapbooking",
+      "volume": 30,
+      "niches": [
+        "Scrapbooking & journaling"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "tapis découpe scrapbooking",
+      "volume": 0,
+      "niches": [
+        "Scrapbooking & journaling"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": false,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "test eau aquarium",
+      "volume": 390,
+      "niches": [
+        "Aquariophilie & aquascaping"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": true
+    },
+    {
+      "keyword": "thermomètre aquarium",
+      "volume": 590,
+      "niches": [
+        "Aquariophilie & aquascaping"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "tuyau aquarium",
+      "volume": 480,
+      "niches": [
+        "Aquariophilie & aquascaping"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": true
+    },
+    {
+      "keyword": "washi tape",
+      "volume": 2400,
+      "niches": [
+        "Scrapbooking & journaling"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": true,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "éclairage aquarium",
+      "volume": 590,
+      "niches": [
+        "Aquariophilie & aquascaping"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": true,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "élastique couture",
+      "volume": 390,
+      "niches": [
+        "Mercerie créative & arts du fil"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": true
+    },
+    {
+      "keyword": "épingles couture",
+      "volume": 140,
+      "niches": [
+        "Mercerie créative & arts du fil"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    },
+    {
+      "keyword": "épuisette aquarium",
+      "volume": 70,
+      "niches": [
+        "Aquariophilie & aquascaping"
+      ],
+      "database": "fr",
+      "country": "France",
+      "observed_at": "2026-08-08",
+      "status": "OBSERVE_SEMRUSH_FR",
+      "source_run": "2026-08-08-kraken-catalogue-v1",
+      "eligible_product_anchor": true,
+      "eligible_collection_core": false,
+      "eligible_collection_secondary": false,
+      "collection_review_zone": false
+    }
+  ]
+}

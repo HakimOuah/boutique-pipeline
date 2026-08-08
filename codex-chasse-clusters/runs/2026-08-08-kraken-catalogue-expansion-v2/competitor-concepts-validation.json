@@ -1,0 +1,74 @@
+{
+  "run_id": "2026-08-08-kraken-catalogue-expansion-v2",
+  "generated_at_utc": "2026-08-08T11:35:32+00:00",
+  "input_counts": {
+    "competitor-profiles/workstreams/catalogue-expansion-chien-aquarium.json": 303,
+    "competitor-profiles/workstreams/catalogue-expansion-mercerie-scrap.json": 365,
+    "competitor-profiles/workstreams/catalogue-expansion-perles.json": 220
+  },
+  "missing_inputs": [],
+  "accepted_before_dedup": 887,
+  "accepted_after_dedup": 887,
+  "counts_by_niche": {
+    "Aquariophilie & aquascaping": 166,
+    "Balade, transport & mobilité du chien": 136,
+    "Mercerie créative & arts du fil": 188,
+    "Perles & création de bijoux": 220,
+    "Scrapbooking & journaling": 177
+  },
+  "rejected": [
+    {
+      "source": "competitor-profiles/workstreams/catalogue-expansion-chien-aquarium.json",
+      "row": 200,
+      "reasons": [
+        "hors_scope_niche_ou_non_sourceable"
+      ],
+      "data": {
+        "niche": "chien",
+        "competitor": "Boutique chien",
+        "competitor_domain": "boutiquechien.fr",
+        "competitor_collection": "Harnais",
+        "competitor_product_title": "Harnais pour laver gros chien",
+        "competitor_product_url": "https://boutiquechien.fr/products/harnais-pour-laver-gros-chien",
+        "concept_fr_normalized": "Harnais de maintien pour toilettage de chien",
+        "distinctness_basis": "Équivalent fonctionnel générique dédupliqué par clé « harnai maintien toilettage » ; marque, modèle, taille, couleur et volume neutralisés. Dérivation limitée au type, à la matière ou à l’usage explicitement visibles dans le titre/collection source.",
+        "keyword_fr_candidate": "harnais de maintien pour toilettage de chien",
+        "aliexpress_query_fr": "harnais de maintien pour toilettage de chien",
+        "aliexpress_query_en": "dog grooming restraint harness for washing",
+        "evidence_status": "EQUIVALENT_DERIVE",
+        "observed_at": "2026-08-08",
+        "source_url": "https://boutiquechien.fr/products/harnais-pour-laver-gros-chien"
+      }
+    }
+  ],
+  "duplicates": [],
+  "variant_review_alerts": [
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "variant_base": "harnais de promenade pour chien",
+      "count": 2,
+      "concepts": [
+        "Harnais de promenade pour chien",
+        "Harnais de promenade pour chien ergonomique"
+      ],
+      "review": "Verifier qu'il s'agit de modeles/matieres/usages distincts et non de couleurs, tailles ou quantites."
+    },
+    {
+      "niche": "Scrapbooking & journaling",
+      "variant_base": "poudre a embosser",
+      "count": 2,
+      "concepts": [
+        "poudre à embosser",
+        "poudre à embosser transparente"
+      ],
+      "review": "Verifier qu'il s'agit de modeles/matieres/usages distincts et non de couleurs, tailles ou quantites."
+    }
+  ],
+  "gate_200_by_niche": {
+    "Aquariophilie & aquascaping": false,
+    "Balade, transport & mobilité du chien": false,
+    "Mercerie créative & arts du fil": false,
+    "Perles & création de bijoux": true,
+    "Scrapbooking & journaling": false
+  }
+}

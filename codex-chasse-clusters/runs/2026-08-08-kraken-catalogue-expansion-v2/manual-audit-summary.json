@@ -1,0 +1,2741 @@
+{
+  "ok": true,
+  "generated_at_utc": "2026-08-08T13:45:02+00:00",
+  "machine_products": 483,
+  "accepted_products": 212,
+  "rejected_products": 271,
+  "machine_counts_by_niche": {
+    "Aquariophilie & aquascaping": 68,
+    "Balade, transport & mobilité du chien": 59,
+    "Mercerie créative & arts du fil": 97,
+    "Perles & création de bijoux": 200,
+    "Scrapbooking & journaling": 59
+  },
+  "accepted_counts_by_niche": {
+    "Mercerie créative & arts du fil": 45,
+    "Scrapbooking & journaling": 38,
+    "Aquariophilie & aquascaping": 25,
+    "Balade, transport & mobilité du chien": 32,
+    "Perles & création de bijoux": 72
+  },
+  "gate_100_by_niche": {
+    "Mercerie créative & arts du fil": false,
+    "Scrapbooking & journaling": false,
+    "Aquariophilie & aquascaping": false,
+    "Balade, transport & mobilité du chien": false,
+    "Perles & création de bijoux": false
+  },
+  "gate_200_by_niche": {
+    "Mercerie créative & arts du fil": false,
+    "Scrapbooking & journaling": false,
+    "Aquariophilie & aquascaping": false,
+    "Balade, transport & mobilité du chien": false,
+    "Perles & création de bijoux": false
+  },
+  "rejection_reasons": {
+    "Pince et support de tuyau siphon multiusage, pas un aspirateur d’aquarium complet.": 1,
+    "Sac à média filtrant en maille, pas une épuisette permettant d’attraper les animaux.": 1,
+    "Ventouse de fixation pour chauffage, pas le chauffage lui-même.": 1,
+    "Simple anneau flottant de nourrissage sans mécanisme de distribution.": 1,
+    "Anneau de nourrissage, pas un distributeur de nourriture pour poissons.": 1,
+    "Station flottante anti-déversement sans fonction de distribution automatique ou dosée.": 1,
+    "Variante d’anneau de nourrissage avec ventouse, pas un distributeur.": 1,
+    "Éclairage LED à clip ; c’est une lampe d’aquarium, pas une décoration.": 1,
+    "Simple variante fonctionnelle de plante artificielle déjà retenue.": 1,
+    "Doublon fonctionnel de la grotte-cachette pour crevettes déjà retenue.": 1,
+    "Autre variante de plantes artificielles en plastique, sans fonction distincte.": 1,
+    "Lampe LED de croissance pour aquarium, pas une décoration en elle-même.": 1,
+    "Variante thématique Halloween de petites figurines lumineuses déjà représentées.": 1,
+    "Variante de bois flotté naturel sans fonction distincte du produit déjà retenu.": 1,
+    "Variante de taille du bois flotté naturel déjà retenu.": 1,
+    "Doublon fonctionnel supplémentaire de tronc en bois flotté.": 1,
+    "Jouet de construction représentant un aquarium, pas un décor immergeable pour aquarium.": 1,
+    "Fontaine et cascade décorative de salon ; produit fini hors aquarium, identité ambiguë.": 1,
+    "Pendentif phosphorescent pour micro-jardin, sans preuve d’un décor immergeable sûr.": 1,
+    "Aquarium complet avec base en bois, pas une décoration d’aquarium.": 1,
+    "Réservoir ou boîte pour koi, pas un élément de décoration d’aquarium.": 1,
+    "Brosse de nettoyage pour filtre et tuyaux, pas le filtre lui-même.": 1,
+    "Mousse et coton filtrants de remplacement, pas un filtre complet.": 1,
+    "Pompe submersible et pompe de fontaine, pas un filtre d’aquarium.": 1,
+    "Grille séparatrice de bac, pas un appareil de filtration.": 1,
+    "Lily pipes d’admission et de rejet, accessoires d’un filtre et non filtre complet.": 1,
+    "Siphon aspirateur à gravier, produit de nettoyage et non filtre.": 1,
+    "Tube pour osmose inverse, simple consommable de raccordement du filtre.": 1,
+    "Raccord rapide coudé pour système RO, pas un filtre.": 1,
+    "Clips de tuyau pour système RO, simples accessoires de raccordement.": 1,
+    "Réducteur trois voies pour osmose inverse, pas le filtre lui-même.": 1,
+    "Sachets de charbon actif, média filtrant consommable et non filtre complet.": 1,
+    "Raccord coudé à pression rapide pour système RO, pas un filtre.": 1,
+    "Capuchon d’aération PVC pour réservoir ou piscine, pas un filtre d’aquarium.": 1,
+    "Pièces en caoutchouc pour pompe à air, pas la pompe elle-même.": 1,
+    "Tuyau en silicone pour pompe, pas une pompe à air.": 1,
+    "Variante quasi identique de bandelettes, orientée piscine et spa.": 1,
+    "Simple variante de diamètre et longueur du tuyau silicone déjà retenu.": 1,
+    "Connecteur rapide fileté, pas le tuyau lui-même.": 1,
+    "Raccord barbelé réducteur en plastique, pas un tuyau d’aquarium.": 1,
+    "Coude et raccord rapide pour tube RO, pas le tuyau.": 1,
+    "Connecteur plastique pour tuyau, simple accessoire de raccordement.": 1,
+    "Variante de taille et puissance de l’éclairage récifal WiFi déjà retenu.": 1,
+    "Chauffe-jambes et genouillères tricotés, pas des chaussures pour chien.": 1,
+    "Variante principalement destinée au chat et fonctionnellement identique au collier à clochette retenu.": 1,
+    "Pendentif fantaisie pour femmes représentant un chiot, homonyme sans rapport avec un collier pour chien.": 1,
+    "Cône médical de récupération, pas un collier de promenade et hors cœur de niche.": 1,
+    "Porte-clés et breloque d’identification à fixer au collier, pas le collier lui-même.": 1,
+    "Simple variante de portée du collier électrique de dressage déjà retenu.": 1,
+    "Collerette élisabéthaine postopératoire, pas un collier de promenade.": 1,
+    "Autre variante de cône médical anti-morsure, hors collection de promenade.": 1,
+    "Cloche en cuivre à accrocher sur un collier, pas le collier lui-même.": 1,
+    "Variante quasi identique de gamelle de voyage pliable déjà retenue.": 1,
+    "Sac générique à cordon pour chaussures, maquillage ou cadeaux, pas une pochette canine dédiée.": 1,
+    "Ceinture de sécurité et laisse pour siège arrière, pas un harnais porté complet.": 1,
+    "Variante de l’ensemble harnais en maille et laisse déjà retenu.": 1,
+    "Lot de clips adaptateurs métalliques, pas une ceinture de sécurité canine complète.": 1,
+    "Clips et bouchons de boucle vendus comme accessoires, pas la ceinture elle-même.": 1,
+    "Corde à linge et corde de camping générique mentionnant secondairement un usage comme laisse.": 1,
+    "Variante de longueur de la laisse automatique rétractable déjà retenue.": 1,
+    "Variante de la laisse-ceinture de sécurité automobile déjà retenue.": 1,
+    "Porte-sacs à déjections fixé sur une laisse, pas une laisse pour chien.": 1,
+    "Variante quasi identique de muselière réglable en maille déjà retenue.": 1,
+    "Simple variante de forme os de la médaille personnalisée déjà retenue.": 1,
+    "Bobine de badge pour personnel de bureau représentant un chien, pas une médaille canine.": 1,
+    "Camionnette et station industrielle de toilettage mobile, pas une poussette pour chien.": 1,
+    "Variante de densité et de nombre de marches de la rampe en mousse retenue.": 1,
+    "Autre variante d’escalier intérieur pour animaux, sans fonction distincte.": 1,
+    "Variante piscine de la rampe gonflable flottante pour chien déjà retenue.": 1,
+    "Variante de taille et d’usage bateau de la même rampe gonflable pour chien.": 1,
+    "Le titre et le visuel montrent un cadran/régulateur d’alimentation de machine, pas des aiguilles.": 1,
+    "Le listing vend une machine à coudre industrielle complète, pas des aiguilles de machine.": 1,
+    "Le produit est un dé à coudre, pas une aiguille à coudre.": 1,
+    "Le produit est un guide/jauge de couture à clipser, pas une aiguille.": 1,
+    "Le produit est un dé/coupe-fil porté au doigt, pas une aiguille.": 1,
+    "Le listing vend une machine à coudre complète, pas des aiguilles.": 1,
+    "Le produit est un outil qui fabrique ou pose du biais, pas du biais textile.": 1,
+    "Le produit est un appareil à fabriquer du biais, pas un ruban de biais.": 1,
+    "« Ruban » désigne ici un mètre ruban ; ce n’est pas un ruban de couture.": 1,
+    "Le produit est un mètre ruban de tailleur, pas un ruban textile de couture.": 1,
+    "Le produit est une frange à pampilles pour rideau/oreiller, pas de la dentelle de couture.": 1,
+    "Le produit est un bracelet en or avec fermoir à pression, pas un bouton-pression de mercerie.": 1,
+    "Le listing vend des pochettes à bijoux finies munies d’un bouton-pression, pas les boutons eux-mêmes.": 1,
+    "Le produit est une rallonge de ceinture à crochets pour pantalon, pas un bouton à coudre.": 1,
+    "Le listing vend une machine industrielle à attacher les boutons, pas des boutons.": 1,
+    "Le listing vend une machine automatique à boutonner/poser des œillets, pas des boutons.": 1,
+    "Le produit est un moule/matrice pour recouvrir des boutons, pas des boutons de couture.": 1,
+    "Le produit est un stabilisateur/support de bobine conique, pas une canette de machine à coudre.": 1,
+    "Le produit est une vis/adaptateur de changement rapide qui supporte le pied, pas le pied presseur lui-même.": 1,
+    "Le listing vend seulement des curseurs/têtes de remplacement, pas une fermeture éclair complète.": 1,
+    "Le listing vend des tirettes en cordon pour curseur, pas une fermeture éclair complète.": 1,
+    "Le produit est un lubrifiant pour fermeture éclair, pas la fermeture elle-même.": 1,
+    "Le listing vend un kit de tirettes/curseurs de réparation, pas une fermeture éclair complète.": 1,
+    "Le produit est un ensemble de têtes/curseurs métalliques, pas une fermeture éclair complète.": 1,
+    "Le produit est une attache de câble en nylon pour automobile ; « fermeture éclair » est un faux contexte.": 1,
+    "Le produit est une tirette/cordon de remplacement, pas une fermeture éclair complète.": 1,
+    "Le produit est une tirette de remplacement pour sac ou tente, pas une fermeture éclair complète.": 1,
+    "Le produit est une languette/étiquette de curseur, pas une fermeture éclair complète.": 1,
+    "Le produit est un kit de curseurs de réparation, pas une fermeture éclair complète.": 1,
+    "Le produit est un kit de curseurs instantanés, pas une fermeture éclair complète.": 1,
+    "Le produit est un lot de tirettes détachables, pas une fermeture éclair complète.": 1,
+    "Le produit est un lot de têtes/curseurs de réparation, pas une fermeture éclair complète.": 1,
+    "Le produit est un kit de curseurs de remplacement, pas une fermeture éclair complète.": 1,
+    "Le produit est une tête de fermeture détachable, pas une fermeture éclair complète.": 1,
+    "Le produit est un outil/curseur de réparation, pas une fermeture éclair complète.": 1,
+    "Le produit est un lot de têtes universelles de remplacement, pas une fermeture éclair complète.": 1,
+    "Le produit est une tête de verrouillage/coulisseau, pas une fermeture éclair complète.": 1,
+    "Le produit est un kit de curseurs et dents de réparation, pas une fermeture éclair complète.": 1,
+    "Le produit est un lot de têtes YKK, pas une fermeture éclair complète.": 1,
+    "Le produit est un kit de têtes de remplacement, pas une fermeture éclair complète.": 1,
+    "Le produit est une pince antivol/connecteur pour tirettes, pas une fermeture éclair complète.": 1,
+    "Le produit est un fil épais destiné au tricot/crochet, pas du fil à coudre.": 1,
+    "Le listing vend une boîte de rangement pour rouleaux, pas du fil à coudre.": 1,
+    "Le produit est un ressort de tension de machine à coudre, pas du fil.": 1,
+    "Le listing vend une machine de reliure/couture de livres, pas du fil à coudre.": 1,
+    "Le produit est un enfile-cordon, pas un passepoil textile.": 1,
+    "Le produit est un outil flexible pour enfiler un cordon, pas un passepoil.": 1,
+    "Le produit est une pince/enfileur pour bande élastique, pas l’élastique de couture lui-même.": 1,
+    "Le produit est un pied presseur destiné à poser un élastique, pas de l’élastique.": 1,
+    "Le listing vend une machine de découpe pour sangles/élastiques, pas de l’élastique de couture.": 1,
+    "Le produit est un tissu en dentelle brodée à filet extensible, pas un élastique de couture en bande.": 1,
+    "Le listing vend un pantalon fini avec ceinture élastique, pas l’élastique de couture lui-même.": 1,
+    "Le listing décrit un bracelet modulaire/une base de bracelet, pas une breloque libre identifiable.": 1,
+    "Bracelet tennis fini à porter; ce n’est pas une breloque composant.": 1,
+    "Porte-clés/breloque de sac fini, hors fourniture de fabrication de bijoux.": 1,
+    "Bracelet en argent fini à porter.": 1,
+    "Breloque de téléphone finie, hors composant de bijouterie.": 1,
+    "Lien de commande personnalisée sans fourniture standard clairement identifiable.": 1,
+    "Collier double croix fini à porter.": 1,
+    "Porte-clés/breloque de sac fini, hors fabrication de bijoux.": 1,
+    "Chaîne cubaine vendue comme collier fini, pas comme chaîne au mètre ou composant.": 1,
+    "Ajusteur de taille de bague, sans correspondance avec le mot-clé anneau bijoux.": 1,
+    "Collier à maillons cubains fini à porter.": 1,
+    "Outil de mesure de taille de bague, pas un anneau composant.": 1,
+    "Collier pendentif croix fini à porter.": 2,
+    "Dragonnes et cordons de téléphone, pas une chaîne pour bijoux.": 1,
+    "Outil d’aide à la fermeture d’un bracelet, pas un fermoir composant.": 1,
+    "Collier cordon déjà assemblé avec fermoir; pas une chaîne brute ou au mètre.": 1,
+    "Quincaillerie de porte-clés, pas un anneau de bijouterie correspondant au mot-clé.": 1,
+    "Fermoir magnétique vendu sous un mot-clé chaîne bijoux; type de produit incorrect.": 1,
+    "Ouvre-anneau, donc outil et non lot d’anneaux correspondant au mot-clé.": 1,
+    "Collier multicouche fini à porter.": 2,
+    "Cordons de lanière pour mobile et porte-clés, hors fermoir de bijouterie ciblé.": 1,
+    "Porte-clés et chaîne de téléphone finis, hors composant de bijouterie.": 1,
+    "Mousqueton porte-clés automobile avec tire-bouchon, hors fermoir de bijoux.": 1,
+    "Collier à pampilles fini à porter.": 2,
+    "Kit multi-apprêts en boîte; le listing ne correspond pas précisément au mot-clé anneau bijoux.": 1,
+    "Chaîne de pantalon/portefeuille finie, hors fabrication de bijoux.": 1,
+    "Bague de doigt finie à porter.": 1,
+    "Bague en titane finie à porter.": 1,
+    "Anneaux ressort pour sacs et porte-clés, quincaillerie hors anneaux de bijouterie ciblés.": 1,
+    "Collier de perles fini à porter.": 1,
+    "Bagues fines finies à porter.": 1,
+    "Collier chaîne déjà assemblé et fini.": 1,
+    "Chaîne et anneaux de porte-clés, hors anneaux pour fabrication de bijoux.": 1,
+    "Chaîne de corps finie à porter.": 1,
+    "Ajusteurs transparents pour bagues, pas des anneaux composants.": 1,
+    "Collier en or fini à porter.": 2,
+    "Bracelet chaîne fini à porter.": 1,
+    "Boucles de bracelet de montre, hors anneaux pour bijoux DIY.": 1,
+    "Produit anti-perte décrit de façon ambiguë; aucune chaîne de bijouterie brute identifiable.": 1,
+    "Collier croix fini à porter.": 4,
+    "Sangle-chaîne de remplacement pour sac, hors chaîne de bijouterie.": 1,
+    "Chaîne décorative pour sac à main, hors chaîne de bijouterie.": 1,
+    "Lot de perles silicone associé à des chaînes de sucette; le produit ne correspond pas au mot-clé chaîne bijoux.": 1,
+    "Fermoir de coffre/boîte à bijoux, quincaillerie de rangement et non apprêt de bijouterie.": 1,
+    "Ensemble de bagues finies à porter.": 1,
+    "Collier en or massif fini à porter.": 1,
+    "Kit générique pour enfants avec fermoirs; pas un listing de fermoirs précisément identifié.": 1,
+    "Bague ouverte en argent finie à porter.": 1,
+    "Collier cubain serti fini à porter.": 1,
+    "Chaîne en or vendue comme bijou fini, pas comme composant au mètre.": 1,
+    "Kit de pinces; ne correspond pas au mot-clé aiguille perles.": 1,
+    "Limes aiguilles pour sculpture/affûtage, pas aiguilles d’enfilage de perles.": 1,
+    "Perles bicônes en cristal; ne correspondent pas au mot-clé pendentif.": 1,
+    "Support de porte-clés lettre, hors pendentif de bijouterie.": 1,
+    "Collier pendentif fini à porter.": 1,
+    "Ensemble collier et boucles d’oreilles fini.": 1,
+    "Collier lettre-fleur fini à porter.": 1,
+    "Tatouage temporaire, sans rapport avec un pendentif matériel.": 1,
+    "Collier ras-du-cou fini à porter.": 1,
+    "Collier pendentif cheval fini à porter.": 1,
+    "Moule silicone pour pendentif; c’est un outil, pas le pendentif visé par le mot-clé.": 1,
+    "Collier avec pendentif cœur fini à porter.": 1,
+    "Collier ras-du-cou déjà assemblé.": 1,
+    "Ensemble collier, boucles et bague fini.": 1,
+    "Collier pendentif en cristal fini à porter.": 1,
+    "Collier lettre initiale fini à porter.": 1,
+    "Porte-clés/breloque de sac ou téléphone, hors pendentif de bijouterie.": 1,
+    "Chaîne de collier déjà assemblée; ne correspond pas au mot-clé pendentif.": 1,
+    "Collier pendentif Peter Pan fini à porter.": 1,
+    "Porte-clés pendentif fruit, hors fabrication de bijoux.": 1,
+    "Lien de commande personnalisée à contacter avant achat, sans produit standard vérifiable.": 1,
+    "Boîte-présentoir lumineuse pour pendentif, rangement/emballage exclu.": 1,
+    "Pendentif et lanière décorative de sac finis, hors composant de bijouterie.": 1,
+    "Collier de joaillerie fine avec pendentif, produit fini.": 2,
+    "Collier avec faux cristal, produit fini à porter.": 1,
+    "Listing ambigu de pendentif-collier fini; aucun composant libre clairement établi.": 1,
+    "Prestation de bijoux personnalisés couvrant plusieurs produits finis.": 1,
+    "Collier diamant en or fini à porter.": 1,
+    "Collier ras-du-cou Y2K fini.": 1,
+    "Suspension décorative pour la maison, pas un pendentif de bijouterie.": 1,
+    "Porte-clés réfléchissant fini, hors pendentif de bijouterie.": 1,
+    "Collier Hip-Hop fini à porter.": 1,
+    "Collier écouteurs/musique fini à porter.": 1,
+    "Collier en or pur fini à porter.": 1,
+    "Bracelets en cuir avec perles bois, produits finis.": 1,
+    "Ensemble de bracelets tressés fini à porter.": 1,
+    "Perceuse de banc pour fabriquer des perles; ne correspond pas au mot-clé perles bois.": 1,
+    "Lustre avec perles en bois, luminaire hors fabrication de bijoux.": 1,
+    "Mannequin articulé en bois, pas des perles de bijouterie.": 1,
+    "Bracelet personnalisé en perles, produit fini.": 1,
+    "Rocailles japonaises génériques sans mention de la marque Miyuki; correspondance SEO non prouvée.": 1,
+    "Rocailles génériques sans mention de la marque Miyuki.": 1,
+    "Rocailles tchèques, donc incompatibles avec le mot-clé perles Miyuki.": 1,
+    "Rocailles japonaises génériques sans preuve qu’il s’agit de Miyuki.": 1,
+    "Boîte de rangement pour matériel/nail art, pas des perles Miyuki.": 1,
+    "Boucles d’oreilles en perles finies à porter.": 1,
+    "Collier pendentif à pampilles fini, pas une chaîne perlée composant.": 1,
+    "Bracelet de pierres naturelles fini à porter.": 1,
+    "Le listing précise une ligne de pêche non élastique; incompatible avec fil élastique bracelet.": 1,
+    "Perles/capuchons pour tresses et coiffure, hors fabrication de bijoux.": 1,
+    "Microbilles de caviar destinées au nail art, pas des perles de bijouterie.": 1,
+    "Fermoirs et capuchons-connecteurs; le produit ne correspond pas au mot-clé perles pour bijoux.": 1,
+    "Chaîne de microbilles destinée au nail art, hors fourniture de bijouterie.": 1,
+    "Aiguilles d’enfilage; outil utile mais incompatible avec le mot-clé perles pour bijoux.": 1,
+    "Bagues en perles finies à porter.": 1,
+    "Ensemble de bijoux de mariage fini.": 1,
+    "Bracelet en perles de résine fini à porter.": 1,
+    "Ensemble de bijoux de mariage traditionnel fini.": 1,
+    "Ensemble de trois bracelets en perles fini à porter.": 1,
+    "Boîte de rangement pour matériel de nail art, pas un listing fiable de perles de bijouterie.": 1,
+    "Luminaires suspendus avec décoration de perles, produit hors fabrication de bijoux.": 1,
+    "Bouteilles et décorations de nail art, pas des perles verre pour bijoux.": 1,
+    "Pince-jouet en plastique pour enfants, pas un outil de bijouterie.": 1,
+    "Embouts et support de soudage de rechange, pas une pince bijoux complète correspondant au mot-clé.": 1,
+    "Présentoir et rangement à bijoux, pas un support composant de boucle d’oreille.": 1,
+    "Mousquetons et crochets de porte-clés, pas des supports de boucles d’oreilles.": 1,
+    "Porte-bijoux et organisateur de bureau, rangement exclu.": 1,
+    "Présentoir/arbre et boîte de rangement à bijoux, rangement exclu.": 1,
+    "Boucles d’oreilles serties finies à porter, pas des supports libres.": 1,
+    "Quincaillerie de boîte-cadeau en bois, hors support de boucle d’oreille.": 1,
+    "Le produit est un lot de flacons applicateurs de colle, pas un kit de scrapbooking.": 1,
+    "Le produit est une planche d’autocollants seule, pas un kit de scrapbooking.": 1,
+    "Le produit est un lot d’autocollants seul, pas un kit de scrapbooking.": 1,
+    "Le produit est un lot de matrices/pochoirs Halloween, pas un kit complet de scrapbooking.": 1,
+    "Le produit est un carnet effaçable avec stylo, pas un kit de scrapbooking.": 1,
+    "Le produit est un ensemble de stylos gel, pas un kit de scrapbooking.": 1,
+    "Le produit est un cutter circulaire de précision ; ce n’est pas un massicot ou coupe-papier à base.": 1,
+    "Le produit est une perforatrice motif timbre, pas du papier de scrapbooking.": 1,
+    "Le produit est une perforatrice à levier, pas du papier de scrapbooking.": 1,
+    "Le produit est un ruban washi décoratif pailleté, pas une colle de scrapbooking.": 1,
+    "Le titre est trompeur : le visuel montre un assortiment de feuilles de papier, pas des dies.": 1,
+    "Le visuel reproduit explicitement le produit et la marque Gina K. Designs ; risque de propriété intellectuelle/licence.": 1,
+    "Le visuel montre des tampons transparents Divinity Designs, pas des dies, avec une marque tierce explicitement visible.": 1,
+    "Le visuel montre un anneau/élément de reliure 12 mm, pas une perforatrice 6 trous ; incohérence titre-produit.": 1,
+    "Le visuel reproduit explicitement un produit CarlijnDesign et ses créations ; risque de propriété intellectuelle/licence.": 1,
+    "Le visuel reproduit explicitement un produit The Ton Couture Designs ; risque de propriété intellectuelle/licence.": 1,
+    "Le titre et le visuel utilisent les personnages Calico Critters/Sylvanian Families, une propriété sous licence.": 1,
+    "Le visuel contient des personnages de franchise de type Sanrio clairement reconnaissables ; risque de licence.": 1,
+    "Le produit est un planificateur magnétique pour réfrigérateur, pas des stickers de scrapbooking.": 1,
+    "Le produit est un massicot/coupe-papier A2 ; « tampon » désigne ici le support de coupe, pas un tampon de scrapbooking.": 1,
+    "Le listing est une « lucky bag » dont le contenu exact n’est pas vérifiable ; aucun washi tape précis n’est garanti par le visuel.": 1
+  },
+  "rejected": [
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005008341901078",
+      "keyword": "aspirateur aquarium",
+      "supplier_title": "Filtre à eau pour aquarium avec pince, support de tuyau, clip E27, tube de siphon, contrôle de débit, vin, bière, poisson",
+      "decision": "REJECT",
+      "reason": "Pince et support de tuyau siphon multiusage, pas un aspirateur d’aquarium complet.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005010494768452",
+      "keyword": "épuisette aquarium",
+      "supplier_title": "Sac filtrant pour Aquarium, 1 pièce, sac en maille pour Aquarium, filet pour étang, Bio boule, stockage d'isolation au charbon actif, nouveauté 2025",
+      "decision": "REJECT",
+      "reason": "Sac à média filtrant en maille, pas une épuisette permettant d’attraper les animaux.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005011550426686",
+      "keyword": "chauffage aquarium",
+      "supplier_title": "Support chauffage d'aquarium, ventouse pour Aquarium, ventouse à Clip 1.34 pouces W91B",
+      "decision": "REJECT",
+      "reason": "Ventouse de fixation pour chauffage, pas le chauffage lui-même.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005010398132848",
+      "keyword": "distributeur nourriture poisson",
+      "supplier_title": "Anneau d'alimentation pour Aquarium, Station d'aquarium, plateau alimentaire flottant, accessoires circulaires carrés, mangeoire pour aliments pour poissons avec ventouse",
+      "decision": "REJECT",
+      "reason": "Simple anneau flottant de nourrissage sans mécanisme de distribution.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005008787818841",
+      "keyword": "distributeur nourriture poisson",
+      "supplier_title": "Anneau d'alimentation d'aquarium antidérapant, fournitures essentielles d'alimentation pour poissons, mangeoire flottante carrée ou ronde pour aquarium",
+      "decision": "REJECT",
+      "reason": "Anneau de nourrissage, pas un distributeur de nourriture pour poissons.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005010488789725",
+      "keyword": "distributeur nourriture poisson",
+      "supplier_title": "Station d'alimentation flottante bleue pour aquarium, distributeur de nourriture anti-déversement avec ventouse pour poissons",
+      "decision": "REJECT",
+      "reason": "Station flottante anti-déversement sans fonction de distribution automatique ou dosée.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005007587791712",
+      "keyword": "distributeur nourriture poisson",
+      "supplier_title": "Ventouse d'alimentation pour Aquarium, anneau d'alimentation, Station d'aquarium, plateau alimentaire flottant, accessoire circulaire carré, mangeoire pour aliments pour poissons, noir",
+      "decision": "REJECT",
+      "reason": "Variante d’anneau de nourrissage avec ventouse, pas un distributeur.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005010194139512",
+      "keyword": "décoration aquarium",
+      "supplier_title": "Lumière à Clip pour Aquarium USB, couleur variable, lumière d'aquarium LED pour plantes aquatiques, décoration de paysages avec fonction de minuterie",
+      "decision": "REJECT",
+      "reason": "Éclairage LED à clip ; c’est une lampe d’aquarium, pas une décoration.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005001636299979",
+      "keyword": "décoration aquarium",
+      "supplier_title": "Plantes artificielles en plastique sous-marine pour aquarium, faux arbuste, visualisation d'eau verte, simulation de poisson, décoration",
+      "decision": "REJECT",
+      "reason": "Simple variante fonctionnelle de plante artificielle déjà retenue.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005010538087073",
+      "keyword": "décoration aquarium",
+      "supplier_title": "Aquarium crevettes maison grotte Mini poreux Betta maison poisson cache taches crevettes abri crevette crèche nid pour décor aquatique",
+      "decision": "REJECT",
+      "reason": "Doublon fonctionnel de la grotte-cachette pour crevettes déjà retenue.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005008222818295",
+      "keyword": "décoration aquarium",
+      "supplier_title": "Plantes Vertes Précieuses en Plastique pour Poissons, Accessoires de Décoration pour Aquarium, 10 Pièces",
+      "decision": "REJECT",
+      "reason": "Autre variante de plantes artificielles en plastique, sans fonction distincte.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005005575496005",
+      "keyword": "décoration aquarium",
+      "supplier_title": "Full LED Fish Precious Lighting, Lampe de croissance des plantes, Décoration d'aquarium, Étanche IP68, 24/7 V-100V, 30-60cm, 240",
+      "decision": "REJECT",
+      "reason": "Lampe LED de croissance pour aquarium, pas une décoration en elle-même.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005010515365349",
+      "keyword": "décoration aquarium",
+      "supplier_title": "Figurines fantômes lumineuses en résine, décor extraterrestre Miniature pour Aquarium, artisanat de Terrarium DIY, décorations extérieures d'Halloween 10 pièces",
+      "decision": "REJECT",
+      "reason": "Variante thématique Halloween de petites figurines lumineuses déjà représentées.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005008231348934",
+      "keyword": "décoration aquarium",
+      "supplier_title": "Bois naturel pour aquarium, 1 pièce, décoration en bois précieux pour poissons, avec plantes de paysage",
+      "decision": "REJECT",
+      "reason": "Variante de bois flotté naturel sans fonction distincte du produit déjà retenu.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005006340570628",
+      "keyword": "décoration aquarium",
+      "supplier_title": "Grand Aquarium en Bois Flotté Naturel, Décor de Plantes Précieuses, Arbre, Filles à Poisson, Souche d'Aquarium, Décor pour Animal de Compagnie",
+      "decision": "REJECT",
+      "reason": "Variante de taille du bois flotté naturel déjà retenu.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005005111830213",
+      "keyword": "décoration aquarium",
+      "supplier_title": "Tronc d'arbre naturel en bois flotté, plante d'aquarium, décoration en bois, ornement d'aquarium, accessoires d'aquarium",
+      "decision": "REJECT",
+      "reason": "Doublon fonctionnel supplémentaire de tronc en bois flotté.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005012618084807",
+      "keyword": "décoration aquarium",
+      "supplier_title": "1318 pièces KQ105 Blocs de construction de réservoir de poissons sous-marin, décoration de bureau d'aquarium océanique, jouet avec lumière LED, cadeau de Noël pour hommes adultes",
+      "decision": "REJECT",
+      "reason": "Jouet de construction représentant un aquarium, pas un décor immergeable pour aquarium.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005004794077001",
+      "keyword": "décoration aquarium",
+      "supplier_title": "Ornements aquatiques de style chinois, aquarium paysager, petite fontaine de salon, cascade créative, décoration de la maison",
+      "decision": "REJECT",
+      "reason": "Fontaine et cascade décorative de salon ; produit fini hors aquarium, identité ambiguë.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005011558561461",
+      "keyword": "décoration aquarium",
+      "supplier_title": "Ornement lumineux animal marin, pendentif phosphorescent, décoration artisanale pour micro-jardin et aquarium",
+      "decision": "REJECT",
+      "reason": "Pendentif phosphorescent pour micro-jardin, sans preuve d’un décor immergeable sûr.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005011634222454",
+      "keyword": "décoration aquarium",
+      "supplier_title": "Aquarium Coofull avec base en bois, réservoir aquascaping style ADA, verre ultra-transparent pour eau douce et eau salée, décoration de salon",
+      "decision": "REJECT",
+      "reason": "Aquarium complet avec base en bois, pas une décoration d’aquarium.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005009948689712",
+      "keyword": "décoration aquarium",
+      "supplier_title": "Grand poisson Koi ornemental en verre Ultra blanc, aquarium géant Koi, résistant aux collisions, grand réservoir épais, boîte en plastique Pp légère",
+      "decision": "REJECT",
+      "reason": "Réservoir ou boîte pour koi, pas un élément de décoration d’aquarium.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005005633727079",
+      "keyword": "filtre aquarium",
+      "supplier_title": "Brosse de nettoyage d'aquarium pour pompe à filtre à eau, tuyau de lys, tuyau d'air, brosse d'aquarium en acier inoxydable, accessoires de pompe à eau",
+      "decision": "REJECT",
+      "reason": "Brosse de nettoyage pour filtre et tuyaux, pas le filtre lui-même.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005004366957404",
+      "keyword": "filtre aquarium",
+      "supplier_title": "Accessoires d'aquarium, filtre biochimique en coton, filtre en mousse pour aquarium, filtre en éponge noire 15 25 35 50PPI, utilisé pour les aquariums",
+      "decision": "REJECT",
+      "reason": "Mousse et coton filtrants de remplacement, pas un filtre complet.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005005938154935",
+      "keyword": "filtre aquarium",
+      "supplier_title": "Pompe de fontaine d'eau Submersible Ultra silencieuse 3-60W, filtre pour étang à poissons, pompe à eau d'aquarium, fontaine de réservoir EU US 220V-240V",
+      "decision": "REJECT",
+      "reason": "Pompe submersible et pompe de fontaine, pas un filtre d’aquarium.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005008070492765",
+      "keyword": "filtre aquarium",
+      "supplier_title": "Tout nouveau séparateur d'aquarium diviseur d'aquarium filtre grille séparateur plateau de grille plaque de séparation grille",
+      "decision": "REJECT",
+      "reason": "Grille séparatrice de bac, pas un appareil de filtration.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005009428783389",
+      "keyword": "filtre aquarium",
+      "supplier_title": "Tuyau de refoulement et d'admission en verre pour aquarium, type Lily Pipe, 12/16mm et 16/22mm, pour filtre à cartouche de plantes aquatiques, avec ventouse et ensemble de tuyaux",
+      "decision": "REJECT",
+      "reason": "Lily pipes d’admission et de rejet, accessoires d’un filtre et non filtre complet.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005005096293585",
+      "keyword": "filtre aquarium",
+      "supplier_title": "Siphon d'aquarium pour poisson précieux, aspirateur à gravier, nettoyeur de filtre à eau, pompe à siphon, changeur manuel, aspirateur sûr",
+      "decision": "REJECT",
+      "reason": "Siphon aspirateur à gravier, produit de nettoyage et non filtre.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005004907734115",
+      "keyword": "filtre aquarium",
+      "supplier_title": "1 mètre RO eau 1/4 \"3/8\" pouces OD PE tuyau Tube blanc Flexible Tube pour système de filtre d'aquarium par osmose inverse",
+      "decision": "REJECT",
+      "reason": "Tube pour osmose inverse, simple consommable de raccordement du filtre.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005005580237019",
+      "keyword": "filtre aquarium",
+      "supplier_title": "Connecteur POM à raccord rapide pour aquarium RO, coude résistant à 90, système d'osmose des barrage, filtre à eau, convient au tube OD 1/4 \"3/8\"",
+      "decision": "REJECT",
+      "reason": "Raccord rapide coudé pour système RO, pas un filtre.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005006025849123",
+      "keyword": "filtre aquarium",
+      "supplier_title": "10 pièces 1/4 \"3/8\" 1/2 \"OD Tube PE raccord de tuyau bleu Clip c-ring tuyau connecteur rapide Aquarium RO filtre à eau système d'osmose inverse",
+      "decision": "REJECT",
+      "reason": "Clips de tuyau pour système RO, simples accessoires de raccordement.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005005247821198",
+      "keyword": "filtre aquarium",
+      "supplier_title": "Connecteur POM à raccord rapide pour système d'osmose inverse, Tube réducteur à 3 voies de qualité alimentaire, filtre à eau RO d'aquarium, 3/8 \"1/4\"",
+      "decision": "REJECT",
+      "reason": "Réducteur trois voies pour osmose inverse, pas le filtre lui-même.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005011573652824",
+      "keyword": "filtre aquarium",
+      "supplier_title": "Sacs de charbon actif pour filtre d'aquarium, 20/40 pièces, média filtrant Premium, purifie l'eau, élimine les toxines et les odeurs, longue durée",
+      "decision": "REJECT",
+      "reason": "Sachets de charbon actif, média filtrant consommable et non filtre complet.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "32729916879",
+      "keyword": "filtre aquarium",
+      "supplier_title": "Système d'osmose inverse avec raccord à pression rapide, coude 1/4 \"OD, filtre à eau RO pour Aquarium",
+      "decision": "REJECT",
+      "reason": "Raccord coudé à pression rapide pour système RO, pas un filtre.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005009801537104",
+      "keyword": "filtre aquarium",
+      "supplier_title": "Filtre à capuchon d'aération en PVC, 1 à 2 pièces, I.D 20-110mm, Joint perméable avec écran d'isolation pour réservoir d'eau/Aquarium/piscine",
+      "decision": "REJECT",
+      "reason": "Capuchon d’aération PVC pour réservoir ou piscine, pas un filtre d’aquarium.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005010299526181",
+      "keyword": "pompe aquarium",
+      "supplier_title": "Pièces de pompe à oxygène, réservoir d'aquarium de poissons, fournitures agricoles, accessoires de pompe à Air en caoutchouc",
+      "decision": "REJECT",
+      "reason": "Pièces en caoutchouc pour pompe à air, pas la pompe elle-même.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005012371132476",
+      "keyword": "pompe à air aquarium",
+      "supplier_title": "Tuyau en silicone transparent de 1 à 100 m, flexible et non toxique, pour eau et air, tube en caoutchouc de silicone de 2 à 25 mm de diamètre intérieur pour pompe d'aquarium, jardin",
+      "decision": "REJECT",
+      "reason": "Tuyau en silicone pour pompe, pas une pompe à air.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005008817760736",
+      "keyword": "test eau aquarium",
+      "supplier_title": "Bandelettes de Test de PH du chlore, SPA, piscine, Aquarium, testeur d'eau, papier, valeur du PH du chlore résiduel, dureté d'alcalinité",
+      "decision": "REJECT",
+      "reason": "Variante quasi identique de bandelettes, orientée piscine et spa.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005008700320641",
+      "keyword": "tuyau aquarium",
+      "supplier_title": "Tuyau en caoutchouc de Silicone de 1/5M, tuyau d'eau Transparent, pompe d'aquarium, tuyau 2 3 4 5 6 7 8 9 10 12 14mm, Tube Flexible non toxique en Silicone",
+      "decision": "REJECT",
+      "reason": "Simple variante de diamètre et longueur du tuyau silicone déjà retenu.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005006980121172",
+      "keyword": "tuyau aquarium",
+      "supplier_title": "YQBS RO – accessoires d'aquarium, connecteur rapide 1/8 1/4 3/8 1/2 3/4BSP, adaptateur de filetage mâle, Tube combiné coudé",
+      "decision": "REJECT",
+      "reason": "Connecteur rapide fileté, pas le tuyau lui-même.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005006366294516",
+      "keyword": "tuyau aquarium",
+      "supplier_title": "Raccord de tuyau en plastique, petite taille, pagode, couplage barbelé, réduisant l'aquarium droit, connecteur de tuyau d'insertion en PP pour la maison et le jardin, 1 pièce",
+      "decision": "REJECT",
+      "reason": "Raccord barbelé réducteur en plastique, pas un tuyau d’aquarium.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005002898793415",
+      "keyword": "tuyau aquarium",
+      "supplier_title": "Tube de tuyau OD 1/4 \"3/8\", 1/8\" 1/4 \"1/2\", raccord rapide pour Aquarium par osmose inverse, coude d'eau RO, connecteur de raccord de tuyau en plastique",
+      "decision": "REJECT",
+      "reason": "Coude et raccord rapide pour tube RO, pas le tuyau.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005001424709572",
+      "keyword": "tuyau aquarium",
+      "supplier_title": "Raccord de Tuyau en Plastique pour Poisson d'Aquarium, Connecteur Précieux, 3mm, 4mm, 6mm, 8mm, 10mm, 12mm, 14mm, 16mm, 18mm, 20mm",
+      "decision": "REJECT",
+      "reason": "Connecteur plastique pour tuyau, simple accessoire de raccordement.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Aquariophilie & aquascaping",
+      "product_id": "1005006855316475",
+      "keyword": "éclairage aquarium",
+      "supplier_title": "PopBloom-Lampe LED intelligente pour aquarium d'eau salée, éclairage pour lieux de récif, lampe précieuse pour poissons, 180-240cm, contrôle par application WiFi",
+      "decision": "REJECT",
+      "reason": "Variante de taille et puissance de l’éclairage récifal WiFi déjà retenu.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005007567801358",
+      "keyword": "chaussures chien",
+      "supplier_title": "4 pièces/ensemble chaussons pour chiots genouillère chaude chaussettes pour chien protecteur de coude pour chien couverture de jambe de chien Anti-urine genouillère chaude tricoté chauffe-jambes pour animaux de compagnie",
+      "decision": "REJECT",
+      "reason": "Chauffe-jambes et genouillères tricotés, pas des chaussures pour chien.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005006696107177",
+      "keyword": "collier chien",
+      "supplier_title": "Collier de chat avec cloche dessin animé étoile lune chien chiot chaton collier réglable cloche de sécurité anneau collier chat bijoux",
+      "decision": "REJECT",
+      "reason": "Variante principalement destinée au chat et fonctionnellement identique au collier à clochette retenu.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005009529802290",
+      "keyword": "collier chien",
+      "supplier_title": "Collier avec pendentif en forme de chiot dalmatien perlé noir et blanc, mignon, personnalisé, pour femmes et filles, joli cadeau à la mode, 2025",
+      "decision": "REJECT",
+      "reason": "Pendentif fantaisie pour femmes représentant un chiot, homonyme sans rapport avec un collier pour chien.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005004959474966",
+      "keyword": "collier chien",
+      "supplier_title": "Collier de protection pour animaux de compagnie, cône de cou pour chien, collier de cône de récupération, proporanti-morsure et lécher, guérison des plaies, santé des chats et des chiens, cercle médical",
+      "decision": "REJECT",
+      "reason": "Cône médical de récupération, pas un collier de promenade et hors cœur de niche.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005012430529647",
+      "keyword": "collier chien",
+      "supplier_title": "Porte-clés en acier inoxydable 316 pour chien militaire, breloques personnalisées pour collier d'identification d'animal, pendentif, accessoires pour animaux de compagnie",
+      "decision": "REJECT",
+      "reason": "Porte-clés et breloque d’identification à fixer au collier, pas le collier lui-même.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005005369696614",
+      "keyword": "collier chien",
+      "supplier_title": "Collier d'entraînement pour chiens, pour la chasse, Rechargeable, étanche, électrique, contrôle à 2000M, pour moyens et grands chiots",
+      "decision": "REJECT",
+      "reason": "Simple variante de portée du collier électrique de dressage déjà retenu.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005009154218805",
+      "keyword": "collier chien",
+      "supplier_title": "Collier de récupération pour animaux de compagnie, cône élisabéthain doux et Transparent pour chiens et chats après chirurgie, Protection des plaies, tailles XS à XL, 1 pièce",
+      "decision": "REJECT",
+      "reason": "Collerette élisabéthaine postopératoire, pas un collier de promenade.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005008120679450",
+      "keyword": "collier chien",
+      "supplier_title": "Elizabeth-Collier anti-morsure pour chien, cône de guérison des plaies, couverture de protection du cou, prévention des morsures, collier médical pour animaux de compagnie, accessoires pour chiots",
+      "decision": "REJECT",
+      "reason": "Autre variante de cône médical anti-morsure, hors collection de promenade.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005010466598895",
+      "keyword": "collier chien",
+      "supplier_title": "Cloches en cuivre pour collier de chien et de chat, 11mm, 14mm, 16mm, 18mm, 20mm, son fort, cloches en laiton, Mini cloches artisanales Vintage, cloches pour animaux de compagnie",
+      "decision": "REJECT",
+      "reason": "Cloche en cuivre à accrocher sur un collier, pas le collier lui-même.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005007124330588",
+      "keyword": "gamelle pliable chien",
+      "supplier_title": "Bol pliant pour chien bol de voyage pour chien Portable bol d'eau de nourriture pour chien pour la marche en plein air bol d'eau de nourriture pour chien en Silicone avec lèvre de bol",
+      "decision": "REJECT",
+      "reason": "Variante quasi identique de gamelle de voyage pliable déjà retenue.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005012121699366",
+      "keyword": "pochette friandise chien",
+      "supplier_title": "Sac de rangement en coton et lin pour jouets et friandises pour animaux de compagnie, pochette à cordon, sac de voyage mignon pour enfants, sac de rangement pour chaussures en tissu, trousse de maquillage, sac cadeau",
+      "decision": "REJECT",
+      "reason": "Sac générique à cordon pour chaussures, maquillage ou cadeaux, pas une pochette canine dédiée.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005007275329946",
+      "keyword": "harnais chien",
+      "supplier_title": "Ceinture de sécurité deux en un pour voiture, couleur unie, laisse en plomb en Nylon, ceinture de sécurité pour siège arrière, harnais réglable pour chiens, collier, accessoires pour animaux de compagnie",
+      "decision": "REJECT",
+      "reason": "Ceinture de sécurité et laisse pour siège arrière, pas un harnais porté complet.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005004588484054",
+      "keyword": "harnais chien",
+      "supplier_title": "Collier en maille respirante pour chien et chat, ensemble de harnais et laisse pour Chihuahua, chiot, carlin, bouledogue, Arnes, Perro",
+      "decision": "REJECT",
+      "reason": "Variante de l’ensemble harnais en maille et laisse déjà retenu.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005009684599446",
+      "keyword": "ceinture voiture chien",
+      "supplier_title": "Adaptateurs de ceinture de sécurité pour animaux de compagnie 2/4 – Clips métalliques pour laisses pour animaux de compagnie, compatibles avec les sièges de camion et de voiture",
+      "decision": "REJECT",
+      "reason": "Lot de clips adaptateurs métalliques, pas une ceinture de sécurité canine complète.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005010290402760",
+      "keyword": "ceinture voiture chien",
+      "supplier_title": "Adaptateurs de ceinture de sécurité épais pour animaux de compagnie, 5 pièces, Clip de ceinture de sécurité, bouchon de boucle de verrouillage, Clips métalliques de voiture pour laisses pour animaux de compagnie, accessoires de voiture",
+      "decision": "REJECT",
+      "reason": "Clips et bouchons de boucle vendus comme accessoires, pas la ceinture elle-même.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005010763059429",
+      "keyword": "laisse chien",
+      "supplier_title": "Corde à linge polyvalente en acier inoxydable, 2/5/10 mètres, pour camping en plein air, cordes de traction, laisse épaisse pour chien et animal de compagnie, 1 pièce",
+      "decision": "REJECT",
+      "reason": "Corde à linge et corde de camping générique mentionnant secondairement un usage comme laisse.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005008518491682",
+      "keyword": "laisse chien",
+      "supplier_title": "Laisse en Nylon pour chien de compagnie, 3m 5m, corde extensible rétractable automatique, pour chiot, marche, course à pied, Traction, Roulette pour petits et grands chiens, chats",
+      "decision": "REJECT",
+      "reason": "Variante de longueur de la laisse automatique rétractable déjà retenue.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005004468704652",
+      "keyword": "laisse chien",
+      "supplier_title": "Ceinture de sécurité de voiture réglable pour animal de compagnie, laisse de chien, clip de voyage de sécurité, collier de chiot, fournitures pour animaux de compagnie, accessoires pour chien, livraison directe",
+      "decision": "REJECT",
+      "reason": "Variante de la laisse-ceinture de sécurité automobile déjà retenue.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005003469797641",
+      "keyword": "laisse chien",
+      "supplier_title": "Sac de merde mains libres pour chien, porte-sac de déchets, Clip de transport pour laisse de chien facile à utiliser, porte-sac pour promener le chien facilement Y5GB",
+      "decision": "REJECT",
+      "reason": "Porte-sacs à déjections fixé sur une laisse, pas une laisse pour chien.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005012549921080",
+      "keyword": "muselière chien",
+      "supplier_title": "Muselière réglable en maille pour chien, anti-mangéries, légère et portable, pour la marche en extérieur, la randonnée, chiots et chiens adultes",
+      "decision": "REJECT",
+      "reason": "Variante quasi identique de muselière réglable en maille déjà retenue.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005012156252123",
+      "keyword": "médaille chien",
+      "supplier_title": "Plaque d'identification personnalisée pour chien en forme d'os, gravure laser, numéro, pendentif anti-perte, texte personnalisé, médailles pour animaux de compagnie",
+      "decision": "REJECT",
+      "reason": "Simple variante de forme os de la médaille personnalisée déjà retenue.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005008665421308",
+      "keyword": "médaille chien",
+      "supplier_title": "Bobine de Badge en acrylique pour chien drôle, étiquette de nom rétractable, pince crocodile, porte-carte d'identité pour infirmière, médecin, bureau, étudiant, porte-clés",
+      "decision": "REJECT",
+      "reason": "Bobine de badge pour personnel de bureau représentant un chien, pas une médaille canine.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005012003696589",
+      "keyword": "poussette chien",
+      "supplier_title": "Camionnette de toilettage mobile personnalisée pour animaux de compagnie, station de lavage pour chiens, chariot de toilettage en libre-service, remorque de toilettage pour chiens avec équipement de salon pour chiens",
+      "decision": "REJECT",
+      "reason": "Camionnette et station industrielle de toilettage mobile, pas une poussette pour chien.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005008831286839",
+      "keyword": "rampe chien",
+      "supplier_title": "Escalier/Rampe pour animaux de compagnie à 2/3 marches en mousse haute densité, antidérapant, pour chiens âgés et animaux ayant des douleurs articulaires, pour canapé et lit",
+      "decision": "REJECT",
+      "reason": "Variante de densité et de nombre de marches de la rampe en mousse retenue.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005006911792744",
+      "keyword": "rampe chien",
+      "supplier_title": "Escaliers pour animaux de compagnie pour chiens et chats de petite à moyenne taille, échelle de lit à quatre couches, accès facile, rampe durable pour chaton et chiot, meubles d'intérieur",
+      "decision": "REJECT",
+      "reason": "Autre variante d’escalier intérieur pour animaux, sans fonction distincte.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005012044221206",
+      "keyword": "rampe chien",
+      "supplier_title": "Rampe gonflable pour chien, pont flottant pour piscine, design convivial pour chien",
+      "decision": "REJECT",
+      "reason": "Variante piscine de la rampe gonflable flottante pour chien déjà retenue.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Balade, transport & mobilité du chien",
+      "product_id": "1005009257923414",
+      "keyword": "rampe chien",
+      "supplier_title": "Rampe de bateau pour chien Extra large, planche gonflable pour chiot, Mini échelle à rampe flottante",
+      "decision": "REJECT",
+      "reason": "Variante de taille et d’usage bateau de la même rampe gonflable pour chien.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-chien-aquarium.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005006454255697",
+      "keyword": "aiguilles machine à coudre",
+      "supplier_title": "Cadran d'alimentation d'aiguille numérique réglable, point noué, régulateur d'alimentation 0-5, pièces de machine à coudre industrielle",
+      "decision": "REJECT",
+      "reason": "Le titre et le visuel montrent un cadran/régulateur d’alimentation de machine, pas des aiguilles.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005010495607607",
+      "keyword": "aiguilles machine à coudre",
+      "supplier_title": "ZY4420-L100 Zoyer bras Long 100cm cuir Double aiguille robuste composé alimentation point noué Machine à coudre pied de marche",
+      "decision": "REJECT",
+      "reason": "Le listing vend une machine à coudre industrielle complète, pas des aiguilles de machine.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005006510952643",
+      "keyword": "aiguilles à coudre",
+      "supplier_title": "Dé à coudre Vintage réglable, broderie antidérapante faite à la main contre l'anneau, porte-doigt de cerceau d'aiguille de presseur d'aiguille Vintage",
+      "decision": "REJECT",
+      "reason": "Le produit est un dé à coudre, pas une aiguille à coudre.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005010106425998",
+      "keyword": "aiguilles à coudre",
+      "supplier_title": "Guide de couture à Clip sur le bord de couture, jauge à aiguille, outil de mesure Portable pour débutants, Quilting, artisanat, bord d'ourlet, bricolage",
+      "decision": "REJECT",
+      "reason": "Le produit est un guide/jauge de couture à clipser, pas une aiguille.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005010612490093",
+      "keyword": "aiguilles à coudre",
+      "supplier_title": "Dé à coudre en plastique, anneau coupe-fil, lame de doigt, aiguille, outil de coupe artisanal pour bricolage, accessoires de Machine à coudre domestique",
+      "decision": "REJECT",
+      "reason": "Le produit est un dé/coupe-fil porté au doigt, pas une aiguille.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005012731082889",
+      "keyword": "aiguilles à coudre",
+      "supplier_title": "Machine à coudre haute performance YB-8365, électrique, à aiguille simple, alimentation intégrée, base verticale allongée (personnalisable)",
+      "decision": "REJECT",
+      "reason": "Le listing vend une machine à coudre complète, pas des aiguilles.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005008678973582",
+      "keyword": "biais couture",
+      "supplier_title": "Ensemble de 4/5 pièces de ruban biais, fabricant de tissu d'épissure, outil de reliure, point de surjet, Quilting, accessoires de couture, bricolage artisanal",
+      "decision": "REJECT",
+      "reason": "Le produit est un outil qui fabrique ou pose du biais, pas du biais textile.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1000006667863",
+      "keyword": "biais couture",
+      "supplier_title": "Accessoires de couture : Appareils à biais de 5 tailles - 6mm, 9mm, 12mm, 18mm, 25mm, 50mm",
+      "decision": "REJECT",
+      "reason": "Le produit est un appareil à fabriquer du biais, pas un ruban de biais.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005010056918756",
+      "keyword": "ruban couture",
+      "supplier_title": "Ruban à mesurer à coudre, règle rétractable double face avec règle à bouton-poussoir pour la perte de poids, mesure médicale du corps, outil de tailleur",
+      "decision": "REJECT",
+      "reason": "« Ruban » désigne ici un mètre ruban ; ce n’est pas un ruban de couture.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005011802428746",
+      "keyword": "ruban couture",
+      "supplier_title": "1/5/10 pièces, ruban à mesurer souple de 150 cm/60 pouces, ruban à mesurer pour tailleur, ruban à mesurer en centimètres, ruban à mesurer pour la couture, couleurs aléatoires",
+      "decision": "REJECT",
+      "reason": "Le produit est un mètre ruban de tailleur, pas un ruban textile de couture.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005009536324379",
+      "keyword": "dentelle couture",
+      "supplier_title": "Garnitures de pampilles épaisses de 1m, rideau en Polyester de 2.5cm de large, garniture d'oreiller, boucle d'oreille/sac pour vêtements, couture de franges en dentelle décorative",
+      "decision": "REJECT",
+      "reason": "Le produit est une frange à pampilles pour rideau/oreiller, pas de la dentelle de couture.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005009042348744",
+      "keyword": "bouton pression",
+      "supplier_title": "Bracelet Snap Smooth pour femme, or 24 carats, AU999 |   Or mat avec texture verticale et bouton-pression en diamant, luxe subtil pour le travail.",
+      "decision": "REJECT",
+      "reason": "Le produit est un bracelet en or avec fermoir à pression, pas un bouton-pression de mercerie.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005012017941014",
+      "keyword": "bouton pression",
+      "supplier_title": "100 ensembles de sacs à bijoux de luxe avec bouton pression et doublure, pochette portable exquise avec logo personnalisé pour boucles d'oreilles, bracelets et emballages cadeaux",
+      "decision": "REJECT",
+      "reason": "Le listing vend des pochettes à bijoux finies munies d’un bouton-pression, pas les boutons eux-mêmes.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005009912845449",
+      "keyword": "boutons couture",
+      "supplier_title": "Ceinture d'extension de pantalon unisexe, 5 pièces, bande de taille, pantalons serrés, jupes en jean, crochets à boutons de maternité, vêtements, fournitures de couture pour bricolage",
+      "decision": "REJECT",
+      "reason": "Le produit est une rallonge de ceinture à crochets pour pantalon, pas un bouton à coudre.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005012695387321",
+      "keyword": "boutons couture",
+      "supplier_title": "Machine à attacher les boutons contrôlée par ordinateur, machine à œillets automatique, machine industrielle à œillets et à coudre les boutons (personnalisable)",
+      "decision": "REJECT",
+      "reason": "Le listing vend une machine industrielle à attacher les boutons, pas des boutons.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005012249537037",
+      "keyword": "boutons couture",
+      "supplier_title": "Machine à boutonner entièrement automatique électrique grande capacité, machine à coudre les boutons quatre-en-un, machine à boutonner les œillets et à poinçonner",
+      "decision": "REJECT",
+      "reason": "Le listing vend une machine automatique à boutonner/poser des œillets, pas des boutons.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005004370756682",
+      "keyword": "boutons couture",
+      "supplier_title": "Outil de moule de matrices de bouton auto-recouvert de tissu carré de coeur, bouton d'artisanat fait main, accessoires de bijoux",
+      "decision": "REJECT",
+      "reason": "Le produit est un moule/matrice pour recouvrir des boutons, pas des boutons de couture.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005012862619361",
+      "keyword": "canette machine à coudre",
+      "supplier_title": "Stabilisateur de bobine de fil conique pour machine à coudre, support de fil conique pour accessoires de machine à coudre domestique/industrielle",
+      "decision": "REJECT",
+      "reason": "Le produit est un stabilisateur/support de bobine conique, pas une canette de machine à coudre.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005007316312913",
+      "keyword": "pied presseur",
+      "supplier_title": "Dispositif de vis à changement rapide pour machine à coudre industrielle, pied-de-biche, point noué, pièces, ressort, support de pieds facile, accessoires, 1 pièce",
+      "decision": "REJECT",
+      "reason": "Le produit est une vis/adaptateur de changement rapide qui supporte le pied, pas le pied presseur lui-même.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005005980924727",
+      "keyword": "fermeture éclair",
+      "supplier_title": "Curseur de fermeture éclair de remplacement universel, alliage métallique, extracteur de fermeture éclair, sac à bagages, tête de fermeture éclair, bricolage, outil de couture artisanal, Kit de réparation, 5 pièces",
+      "decision": "REJECT",
+      "reason": "Le listing vend seulement des curseurs/têtes de remplacement, pas une fermeture éclair complète.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005010396973860",
+      "keyword": "fermeture éclair",
+      "supplier_title": "10/20 pièces fermeture éclair de remplacement tire l'extension de cordon pour sacs à dos vestes bagages sacs à main sacs à main",
+      "decision": "REJECT",
+      "reason": "Le listing vend des tirettes en cordon pour curseur, pas une fermeture éclair complète.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005009906777466",
+      "keyword": "fermeture éclair",
+      "supplier_title": "Lubrifiant à fermeture éclair pour bagages et vêtements, Tube lubrifiant, graisse de verrouillage, noyau de lubrification, réparation coincée, fermeture éclair multifonctionnelle",
+      "decision": "REJECT",
+      "reason": "Le produit est un lubrifiant pour fermeture éclair, pas la fermeture elle-même.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005008897674823",
+      "keyword": "fermeture éclair",
+      "supplier_title": "Kit universel de réparation instantanée de remplacement de traction de fermeture éclair en métal, porte-monnaie à bagages détachables, outils d'extraction de curseur de fermeture éclair pour vêtements 10/1 pièces",
+      "decision": "REJECT",
+      "reason": "Le listing vend un kit de tirettes/curseurs de réparation, pas une fermeture éclair complète.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005010757518776",
+      "keyword": "fermeture éclair",
+      "supplier_title": "Ensemble de têtes de fermeture éclair en métal de qualité supérieure, or, argent, bronze, noir - Durable, lisse, pour la réparation de vêtements et de bagages en DIY",
+      "decision": "REJECT",
+      "reason": "Le produit est un ensemble de têtes/curseurs métalliques, pas une fermeture éclair complète.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005010640364841",
+      "keyword": "fermeture éclair",
+      "supplier_title": "Boucle d'attache de câble en Nylon, attaches à fermeture éclair robustes avec bouton à broche, outil universel à fermeture éclair autobloquante, sangle de fixation pour réparation quotidienne de voiture",
+      "decision": "REJECT",
+      "reason": "Le produit est une attache de câble en nylon pour automobile ; « fermeture éclair » est un faux contexte.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005010586766231",
+      "keyword": "fermeture éclair",
+      "supplier_title": "Extracteur de sac de voyage à fermeture éclair, fixateur Anti-perte, cordon à fermeture éclair, valise, tente, sac à dos, onglet de remplacement, Clip de traction à fermeture éclair, 1 pièce",
+      "decision": "REJECT",
+      "reason": "Le produit est une tirette/cordon de remplacement, pas une fermeture éclair complète.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005008346676559",
+      "keyword": "fermeture éclair",
+      "supplier_title": "Extracteur de Sac de Voyage à Fermeture Éclair, Fixateur Anti-Perte, pour Valise, Tente, Sac à Dos, réinitialisation de Remplacement, 1 Pièce",
+      "decision": "REJECT",
+      "reason": "Le produit est une tirette de remplacement pour sac ou tente, pas une fermeture éclair complète.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005008228019809",
+      "keyword": "fermeture éclair",
+      "supplier_title": "Extracteur de nervure de fermeture éclair, clip de remplacement d'étiquette de UL, constructeur cassé, languette de fermeture éclair, sac de voyage, valise, tente, 10 pièces",
+      "decision": "REJECT",
+      "reason": "Le produit est une languette/étiquette de curseur, pas une fermeture éclair complète.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005006757731409",
+      "keyword": "fermeture éclair",
+      "supplier_title": "3TANUniversal-Kit de réparation de fermeture éclair instantanée, fermeture éclair de remplacement, curseur de fermeture éclair, dents de sauvetage, vêtements de couture, sac, accessoires d'outils",
+      "decision": "REJECT",
+      "reason": "Le produit est un kit de curseurs de réparation, pas une fermeture éclair complète.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005003449182081",
+      "keyword": "fermeture éclair",
+      "supplier_title": "Nouveau 6 pièces fermeture éclair instantanée universelle fixation instantanée Kit de réparation de fermeture éclair remplacement curseur de fermeture éclair sauvetage des dents nouveau Design pour bricolage couture",
+      "decision": "REJECT",
+      "reason": "Le produit est un kit de curseurs instantanés, pas une fermeture éclair complète.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005005792377152",
+      "keyword": "fermeture éclair",
+      "supplier_title": "Tiroir de fermeture éclair détachable 4/8 pièces, accessoires de fermeture éclair de remplacement multicolores pour jeans et sac à dos, outils de couture",
+      "decision": "REJECT",
+      "reason": "Le produit est un lot de tirettes détachables, pas une fermeture éclair complète.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005008542884371",
+      "keyword": "fermeture éclair",
+      "supplier_title": "Kit de réparation de fermeture éclair universel, 3 à 12 pièces, tête de fermeture éclair détachable rapide et instantanée, curseur de fermeture éclair, sacs de veste, manteau, bricolage, couture",
+      "decision": "REJECT",
+      "reason": "Le produit est un lot de têtes/curseurs de réparation, pas une fermeture éclair complète.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005007487193822",
+      "keyword": "fermeture éclair",
+      "supplier_title": "Kit de réparation de fermeture éclair universelle, 3 tailles, remplacement de curseur de fermeture éclair, sauvetage des dents, couture de vêtements, sac, fermetures éclair, accessoires d'outils",
+      "decision": "REJECT",
+      "reason": "Le produit est un kit de curseurs de remplacement, pas une fermeture éclair complète.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005009479145201",
+      "keyword": "fermeture éclair",
+      "supplier_title": "Kit de réparation de fermeture éclair universel, tête de fermeture éclair détachable instantanée rapide, traction coulissante de fermeture éclair de remplacement pour veste, sacs, manteau, couture gratuite",
+      "decision": "REJECT",
+      "reason": "Le produit est une tête de fermeture détachable, pas une fermeture éclair complète.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005007588726255",
+      "keyword": "fermeture éclair",
+      "supplier_title": "Kit de réparation de fermeture éclair durable, 3 tailles différentes, tête de fermeture éclair parfaite, outils de couture, remplacement de la mauvaise construction, extracteur de fermeture éclair instantané",
+      "decision": "REJECT",
+      "reason": "Le produit est un outil/curseur de réparation, pas une fermeture éclair complète.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005011979292123",
+      "keyword": "fermeture éclair",
+      "supplier_title": "Kit de réparation de fermetures éclair sans couture en 3 tailles – Têtes de fermeture éclair universelles instantanées pour remplacement rapide",
+      "decision": "REJECT",
+      "reason": "Le produit est un lot de têtes universelles de remplacement, pas une fermeture éclair complète.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005009077585671",
+      "keyword": "fermeture éclair",
+      "supplier_title": "Tête de verrouillage à fermeture éclair universelle, Installation rapide, tête de fermeture éclair détachable pour vestes, sacs à bagages, remplacement de réparation de verrouillage coulissant, 6/3 pièces",
+      "decision": "REJECT",
+      "reason": "Le produit est une tête de verrouillage/coulisseau, pas une fermeture éclair complète.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005007883458541",
+      "keyword": "fermeture éclair",
+      "supplier_title": "Kit de réparation de fermeture éclair universelle, réparation instantanée de fermeture éclair, fermetures éclair de remplacement, dents coulissantes, tête de fermeture éclair de sauvetage, 3 tailles différentes",
+      "decision": "REJECT",
+      "reason": "Le produit est un kit de curseurs et dents de réparation, pas une fermeture éclair complète.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005012526667097",
+      "keyword": "fermeture éclair",
+      "supplier_title": "Glissière japonaise YKK, série Excella haut de gamme, n° 5 Têtes de fermeture éclair en cuir pour vêtements et bagages 5SG DF2E",
+      "decision": "REJECT",
+      "reason": "Le produit est un lot de têtes YKK, pas une fermeture éclair complète.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005012869878141",
+      "keyword": "fermeture éclair",
+      "supplier_title": "4 pièces 3 #   5 #   8 #   10 #   Kit de réparation de fermetures éclair : Tête de fermeture éclair universelle de remplacement facile à réparer pour fermetures éclair cassées ou usées",
+      "decision": "REJECT",
+      "reason": "Le produit est un kit de têtes de remplacement, pas une fermeture éclair complète.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005010407994315",
+      "keyword": "fermeture éclair",
+      "supplier_title": "2 pièces pince à fermeture éclair dissuasion contre le vol fermetures à glissière à Double ouverture tirer remplacement connecteurs de fermeture éclair détachables mousqueton de verrouillage à fermeture éclair",
+      "decision": "REJECT",
+      "reason": "Le produit est une pince antivol/connecteur pour tirettes, pas une fermeture éclair complète.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005005905201144",
+      "keyword": "fil à coudre",
+      "supplier_title": "40-50 g/ensemble 4 plis coton au lait (80%) fil à tricoter couture Lanas teints pour Crochet artisanat pull chapeau poupées à bas prix",
+      "decision": "REJECT",
+      "reason": "Le produit est un fil épais destiné au tricot/crochet, pas du fil à coudre.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005008932166531",
+      "keyword": "fil à coudre",
+      "supplier_title": "Boîte de rangement de fil à coudre 42 rouleaux, boîte de rangement de ensemble de couture de broderie en plastique PP transparent, portable de grande capacité",
+      "decision": "REJECT",
+      "reason": "Le listing vend une boîte de rangement pour rouleaux, pas du fil à coudre.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005007709003775",
+      "keyword": "fil à coudre",
+      "supplier_title": "Ressorts de tension de fil supérieur de machine à coudre, simple, point noué, boucle de fil, accessoires pour la maison, chaud, 4 pièces",
+      "decision": "REJECT",
+      "reason": "Le produit est un ressort de tension de machine à coudre, pas du fil.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005007707214445",
+      "keyword": "fil à coudre",
+      "supplier_title": "Machine à coudre de livres de haute qualité, fil, reliure, parfaite",
+      "decision": "REJECT",
+      "reason": "Le listing vend une machine de reliure/couture de livres, pas du fil à coudre.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005009261652367",
+      "keyword": "passepoil couture",
+      "supplier_title": "Enfile-cordon à ressort pliable, Clip pour pantalons, sweat à capuche, bande élastique, cordon en dentelle, fil à cordon Flexible, accessoires de couture, bricolage",
+      "decision": "REJECT",
+      "reason": "Le produit est un enfile-cordon, pas un passepoil textile.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005010376087267",
+      "keyword": "passepoil couture",
+      "supplier_title": "iLMH Enfile-cordon à ressort flexible, cordon élastique pour pantalons et sweats à capuche, cordon de serrage flexible, accessoires de couture DIY",
+      "decision": "REJECT",
+      "reason": "Le produit est un outil flexible pour enfiler un cordon, pas un passepoil.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005005609742146",
+      "keyword": "élastique couture",
+      "supplier_title": "Pinces à vêtements en acier inoxydable, 2 pièces, outils de couture de bricolage, bande élastique, poinçon, point de croix, enfileur, corde d'usure, pince élastique",
+      "decision": "REJECT",
+      "reason": "Le produit est une pince/enfileur pour bande élastique, pas l’élastique de couture lui-même.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "32922615976",
+      "keyword": "élastique couture",
+      "supplier_title": "Bande élastique pour machine à coudre, 1 pièce, accessoires pour machine à coudre intermédiaire, presse à pied #9907-6 7YJ26-2",
+      "decision": "REJECT",
+      "reason": "Le produit est un pied presseur destiné à poser un élastique, pas de l’élastique.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005005876298802",
+      "keyword": "élastique couture",
+      "supplier_title": "Machine de découpe automatique de ceinture de gril chaud et froid, tissu non tissé, ruban d'oreille, sangle, lunettes de sécurité, coupe de ceinture élastique, 988T",
+      "decision": "REJECT",
+      "reason": "Le listing vend une machine de découpe pour sangles/élastiques, pas de l’élastique de couture.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005008929852025",
+      "keyword": "élastique couture",
+      "supplier_title": "Tissu africain noir en dentelle de perles de luxe, Tulle à paillettes françaises de haute qualité, filet élastique brodé, robe nigériane, 2025",
+      "decision": "REJECT",
+      "reason": "Le produit est un tissu en dentelle brodée à filet extensible, pas un élastique de couture en bande.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Mercerie créative & arts du fil",
+      "product_id": "1005009739521403",
+      "keyword": "élastique couture",
+      "supplier_title": "BC874 Pantalon en tricot texturé pour femme, ceinture élastique, 100% laine, collection automne",
+      "decision": "REJECT",
+      "reason": "Le listing vend un pantalon fini avec ceinture élastique, pas l’élastique de couture lui-même.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009505437278",
+      "keyword": "breloque",
+      "supplier_title": "FTCY breloque italienne Bracelets en acier inoxydable pour femmes hommes 9mm de largeur élastique bricolage Bracelet modulaire bijoux cadeau",
+      "decision": "REJECT",
+      "reason": "Le listing décrit un bracelet modulaire/une base de bracelet, pas une breloque libre identifiable.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009747225934",
+      "keyword": "breloque",
+      "supplier_title": "Bracelet de Tennis en zircone pour femmes, 4mm, breloque en cristal, chaîne fine de styliste, bijoux de mariage",
+      "decision": "REJECT",
+      "reason": "Bracelet tennis fini à porter; ce n’est pas une breloque composant.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005007336620729",
+      "keyword": "breloque",
+      "supplier_title": "Porte-clés pendentif de sac à main à breloque cerise pour femmes, exquis, célèbre sur Internet, accessoires de sac cerise en cristal, pendentif de haute qualité",
+      "decision": "REJECT",
+      "reason": "Porte-clés/breloque de sac fini, hors fourniture de fabrication de bijoux.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005006165219472",
+      "keyword": "breloque",
+      "supplier_title": "Bracelet en argent Sterling 925, breloque à la mode, belle chaîne de haute qualité pour femmes, bijoux en argent pour fête de mariage",
+      "decision": "REJECT",
+      "reason": "Bracelet en argent fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005008091010753",
+      "keyword": "breloque",
+      "supplier_title": "Charme de téléphone patte de chat, breloque de téléphone Kawaii",
+      "decision": "REJECT",
+      "reason": "Breloque de téléphone finie, hors composant de bijouterie.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005006666403249",
+      "keyword": "breloque",
+      "supplier_title": "Breloque logo lien personnalisé",
+      "decision": "REJECT",
+      "reason": "Lien de commande personnalisée sans fourniture standard clairement identifiable.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005007425083737",
+      "keyword": "breloque",
+      "supplier_title": "Collier avec pendentif Double croix en Zircon pour femmes, breloque à la mode, nouvelle personnalité, chaîne de clavicule, bijoux, accessoires, cadeau",
+      "decision": "REJECT",
+      "reason": "Collier double croix fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005012246465143",
+      "keyword": "breloque",
+      "supplier_title": "Breloque de sac animalière polyvalente, pendentif porte-clés mignon, décoration de porte-clés en résine, porte-clés dessin animé mignon Teckel pour sacs à bandoulière",
+      "decision": "REJECT",
+      "reason": "Porte-clés/breloque de sac fini, hors fabrication de bijoux.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005007424177333",
+      "keyword": "chaine bijoux",
+      "supplier_title": "Chaîne à maillons cubains en acier inoxydable, 3/5/7mm, classique, Punk, bijoux de personnalité, Simple, mode Hip-hop, collier de Couple pour hommes et femmes",
+      "decision": "REJECT",
+      "reason": "Chaîne cubaine vendue comme collier fini, pas comme chaîne au mètre ou composant.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005005978390090",
+      "keyword": "anneau bijoux",
+      "supplier_title": "Outils d'anneau à base de spirale transparente, bobine à ressort, ajusteur de taille de bague, tendeur de protection, réducteur, outil de redimensionnement pour bijoux 4 pièces/lot",
+      "decision": "REJECT",
+      "reason": "Ajusteur de taille de bague, sans correspondance avec le mot-clé anneau bijoux.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005003746714915",
+      "keyword": "chaine bijoux",
+      "supplier_title": "Colliers cubains de base Punk en acier inoxydable 3,5,7mm pour hommes et femmes, chaîne à maillons de couleur or noir, bijoux en métal solide",
+      "decision": "REJECT",
+      "reason": "Collier à maillons cubains fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005008753204285",
+      "keyword": "anneau bijoux",
+      "supplier_title": "Sizeur d'anneaux avec loupe-règle de mesure de bijoux US/UK/EU/HK pour outil de mesure de la taille des bagues",
+      "decision": "REJECT",
+      "reason": "Outil de mesure de taille de bague, pas un anneau composant.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005005997308949",
+      "keyword": "chaine bijoux",
+      "supplier_title": "Collier pendentif croix en acier inoxydable pour femmes et hommes, chaîne à maillons, collier à breloques Cool pour garçons et filles, Punk Hip Hop, bijoux cadeau",
+      "decision": "REJECT",
+      "reason": "Collier pendentif croix fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005010011213872",
+      "keyword": "chaine bijoux",
+      "supplier_title": "50pcs mélange couleur homard fermoir cordons sangle breloques lanière chaîne poignet pour téléphone portable Flash lecteurs porte-clés bijoux à bricoler soi-même accessoire",
+      "decision": "REJECT",
+      "reason": "Dragonnes et cordons de téléphone, pas une chaîne pour bijoux.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005007908794426",
+      "keyword": "fermoir bijoux",
+      "supplier_title": "Aide à porter un outil de bracelet, partenaire de bijoux, aide à la fixation rapide, équipement d'accrochage, pinces, fermoirs, attaches, fermeture éclair, artisanat",
+      "decision": "REJECT",
+      "reason": "Outil d’aide à la fermeture d’un bracelet, pas un fermoir composant.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005004090053707",
+      "keyword": "chaine bijoux",
+      "supplier_title": "Collier en corde de cuir véritable noir avec fermoir, chaîne de ligne pour pendentif, fabrication de bijoux, accessoires, fournitures pour hommes",
+      "decision": "REJECT",
+      "reason": "Collier cordon déjà assemblé avec fermoir; pas une chaîne brute ou au mètre.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005010367114526",
+      "keyword": "anneau bijoux",
+      "supplier_title": "Porte-clés à pression en forme d'étoile, fermoir à griffe de homard avec boucle suspendue, anneau de saut pour bricolage, artisanat, bijoux, accessoire cadeau, 5/15/25/50 ensembles",
+      "decision": "REJECT",
+      "reason": "Quincaillerie de porte-clés, pas un anneau de bijouterie correspondant au mot-clé.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009750442030",
+      "keyword": "chaine bijoux",
+      "supplier_title": "Fermoir de connecteur de bijoux magnétique en forme de cœur, 1 pièce, fermoir et fermeture de collier magnétique, Double chaîne, fermoir à homard",
+      "decision": "REJECT",
+      "reason": "Fermoir magnétique vendu sous un mot-clé chaîne bijoux; type de produit incorrect.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005004231470304",
+      "keyword": "anneau bijoux",
+      "supplier_title": "Outils d'ouverture d'anneau de saut, bagues de fermeture, outils de bijoux, ouvre-anneau de saut pour la fabrication de bijoux à bricoler soi-même, résultats de bijoux 17/18/19mm",
+      "decision": "REJECT",
+      "reason": "Ouvre-anneau, donc outil et non lot d’anneaux correspondant au mot-clé.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005010617021740",
+      "keyword": "chaine bijoux",
+      "supplier_title": "Collier élégant avec pendentif en chaîne à pampilles multicouches pour femmes, Vintage, créatif, pierre bleue naturelle, ras du cou, bijoux de mariage",
+      "decision": "REJECT",
+      "reason": "Collier multicouche fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005004354785171",
+      "keyword": "fermoir bijoux",
+      "supplier_title": "20/50/100 pièces lanière Lariat sangle cordons homard fermoir corde porte-clés crochets ensemble Mobile breloques porte-clés pendentif porte-clés accessoires",
+      "decision": "REJECT",
+      "reason": "Cordons de lanière pour mobile et porte-clés, hors fermoir de bijouterie ciblé.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005010113680187",
+      "keyword": "chaine bijoux",
+      "supplier_title": "Porte-clés pendentif Lotus perlé fait à la main de style chinois, chaîne de téléphone portable pour femmes et hommes, breloque ethnique, bijoux, accessoire cadeau, nouvelle collection",
+      "decision": "REJECT",
+      "reason": "Porte-clés et chaîne de téléphone finis, hors composant de bijouterie.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005005356326202",
+      "keyword": "fermoir bijoux",
+      "supplier_title": "Mousqueton Edc en titane pour hommes, porte-clés de voiture, créatif, avec tire-bouchon, pendentif, cadeau",
+      "decision": "REJECT",
+      "reason": "Mousqueton porte-clés automobile avec tire-bouchon, hors fermoir de bijoux.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005007656082595",
+      "keyword": "chaine bijoux",
+      "supplier_title": "LATS – colliers à chaîne à pampilles longues pour femmes, couleur or, Double couche, Simple, en métal, perles géométriques, ras du cou, bijoux à la mode",
+      "decision": "REJECT",
+      "reason": "Collier à pampilles fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005006020391528",
+      "keyword": "anneau bijoux",
+      "supplier_title": "210-400 pièces/boîte Kits de fabrication de bijoux fermoir à homard anneaux de saut ouverts fin sertissages perles boîte à la main Bracelet à bricoler soi-même résultats de collier",
+      "decision": "REJECT",
+      "reason": "Kit multi-apprêts en boîte; le listing ne correspond pas précisément au mot-clé anneau bijoux.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005007896217282",
+      "keyword": "chaine bijoux",
+      "supplier_title": "Chaîne de ceinture en métal HipHop Rock Punk crochet pantalon pantalon taille lien portefeuille en métal chaîne porte-clés anneau Clip porte-clés bijoux",
+      "decision": "REJECT",
+      "reason": "Chaîne de pantalon/portefeuille finie, hors fabrication de bijoux.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009078417537",
+      "keyword": "anneau bijoux",
+      "supplier_title": "Bague romantique en forme de fleur violette, nouvelle collection printemps été, anneaux élastiques en perles pour femmes, amis coréens, bijoux de doigt, accessoires, cadeau",
+      "decision": "REJECT",
+      "reason": "Bague de doigt finie à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005007201594584",
+      "keyword": "chaine bijoux",
+      "supplier_title": "Collier pendentif croix en Zircon cristal brillant pour femmes et filles, Punk, couleur argent, chaîne fine, bijoux de fête, cadeau d'anniversaire",
+      "decision": "REJECT",
+      "reason": "Collier pendentif croix fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005007064366924",
+      "keyword": "anneau bijoux",
+      "supplier_title": "Bague en titane Simple de 6mm pour femmes et hommes, prévention des allergies, anneaux de mariage hautement polis, en acier inoxydable, bijoux de doigt pour Couple, cadeaux",
+      "decision": "REJECT",
+      "reason": "Bague en titane finie à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005002600043600",
+      "keyword": "chaine bijoux",
+      "supplier_title": "Collier à pampilles couleur bonbon pour femmes, pendentif esthétique assorti avec tout, bijoux ras du cou, accessoires de cou, chaîne cadeau",
+      "decision": "REJECT",
+      "reason": "Collier à pampilles fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005010188125851",
+      "keyword": "anneau bijoux",
+      "supplier_title": "10 pièces Anneaux métalliques à ressort 16-38mm, Boucles circulaires, Anneaux porte-clés, Anneaux ouverts, Boucles de sac à dos, Accessoires de quincaillerie pour bijoux DIY",
+      "decision": "REJECT",
+      "reason": "Anneaux ressort pour sacs et porte-clés, quincaillerie hors anneaux de bijouterie ciblés.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005003809676658",
+      "keyword": "chaine bijoux",
+      "supplier_title": "Nouveaux colliers de perles coréens pour femmes, chaîne à maillons couleur or, collier ras du cou, accessoires de mode pour le cou, collier élégant, bijoux femme",
+      "decision": "REJECT",
+      "reason": "Collier de perles fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005005910946307",
+      "keyword": "anneau bijoux",
+      "supplier_title": "Bagues en Acier Inoxydable Super Fin de 2mm, Anneau en Titane de Haute Qualité, à la Mode, Sphblades Intérieurs Plats, Accessoires de Bijoux",
+      "decision": "REJECT",
+      "reason": "Bagues fines finies à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005005962441480",
+      "keyword": "chaine bijoux",
+      "supplier_title": "Skyrim mode 60 cm longue boîte chaîne collier hommes en acier inoxydable noir or couleur maillons chaînes de base Punk bijoux en gros",
+      "decision": "REJECT",
+      "reason": "Collier chaîne déjà assemblé et fini.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005006749680203",
+      "keyword": "anneau bijoux",
+      "supplier_title": "Chaîne en métal porte-clés anneaux fendus porte-clés porte-clés fermoir à homard clé pendentif porte-clés bijoux chaîne suspendue bricolage porte-clés",
+      "decision": "REJECT",
+      "reason": "Chaîne et anneaux de porte-clés, hors anneaux pour fabrication de bijoux.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009235630026",
+      "keyword": "chaine bijoux",
+      "supplier_title": "Smyoue 1.6CTTW chaîne de corps Moissanite complète pour les femmes été Sexy plage Bikini corps bijoux cadeau 100% S925 argent Sterling GRA",
+      "decision": "REJECT",
+      "reason": "Chaîne de corps finie à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009895170968",
+      "keyword": "anneau bijoux",
+      "supplier_title": "Nouveau 8/12 pièces anneau réglage Pad anneau taille ajusteur Transparent garde tendeur anneaux amples réducteur bijoux redimensionnement outils",
+      "decision": "REJECT",
+      "reason": "Ajusteurs transparents pour bagues, pas des anneaux composants.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005006140865954",
+      "keyword": "chaine bijoux",
+      "supplier_title": "Collier en or véritable 18 carats pour femmes, chaîne Chopin AU750, ras du cou, Festival, super cadeau, nouvelle mode, Style Simple, bijoux fins",
+      "decision": "REJECT",
+      "reason": "Collier en or fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009676321463",
+      "keyword": "chaine bijoux",
+      "supplier_title": "Huangchao – Bracelet en chaîne de soie pour femmes, pendentif en forme de fleur, en acier inoxydable plaqué or 18 carats, bijoux, accessoires de mode, cadeau",
+      "decision": "REJECT",
+      "reason": "Bracelet chaîne fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005005951848708",
+      "keyword": "anneau bijoux",
+      "supplier_title": "12-30mm bracelets de montre noirs sangle boucle anneau activité anneaux bracelet de montre boucle Silicone caoutchouc bracelets de montre accessoires",
+      "decision": "REJECT",
+      "reason": "Boucles de bracelet de montre, hors anneaux pour bijoux DIY.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009975374525",
+      "keyword": "chaine bijoux",
+      "supplier_title": "Chaîne de perles pendentif de haute qualité, couverture Anti-perte, chaîne de perles créative, housse de protection Anti-chute, accessoires de bricolage, 10/20/50/100 pièces",
+      "decision": "REJECT",
+      "reason": "Produit anti-perte décrit de façon ambiguë; aucune chaîne de bijouterie brute identifiable.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005005022137696",
+      "keyword": "chaine bijoux",
+      "supplier_title": "Collier croix premium pour femmes plaqué or 18 carats, chaîne tendance avec pendentif croix en or pour filles, collier crucifix pour femmes et filles",
+      "decision": "REJECT",
+      "reason": "Collier croix fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005010672519119",
+      "keyword": "chaine bijoux",
+      "supplier_title": "Collier pour homme en or 24 carats 999, chaîne tendance à sections hexagonales en bambou, cadeau best-seller pour lui",
+      "decision": "REJECT",
+      "reason": "Collier en or fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005010028332632",
+      "keyword": "chaine bijoux",
+      "supplier_title": "Y2k – sangle de chaîne en métal multicouche, poignées de bricolage, pendentif papillon, cœur, étoile, perle, chaîne d'épaule, accessoires de remplacement pour sac",
+      "decision": "REJECT",
+      "reason": "Sangle-chaîne de remplacement pour sac, hors chaîne de bijouterie.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005010115734301",
+      "keyword": "chaine bijoux",
+      "supplier_title": "Chaîne en métal à fleurs douces, pendentif de sac, mode, nœud rose, cœur, breloque, chaîne de sac, bricolage, sangle d'extension, accessoires de sac à bandoulière",
+      "decision": "REJECT",
+      "reason": "Chaîne décorative pour sac à main, hors chaîne de bijouterie.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005010336658337",
+      "keyword": "chaine bijoux",
+      "supplier_title": "1000/2000/5000/8000 pièces perles de Silicone perles de mise au point de qualité alimentaire bricolage sucette chaîne bijoux accessoires perles de Silicone en gros",
+      "decision": "REJECT",
+      "reason": "Lot de perles silicone associé à des chaînes de sucette; le produit ne correspond pas au mot-clé chaîne bijoux.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009677832966",
+      "keyword": "fermoir bijoux",
+      "supplier_title": "Protégez vos effets personnels avec un fermoir rétro pour boîtes à bijoux, étuis et coffres, plusieurs options de couleurs, différents matériaux",
+      "decision": "REJECT",
+      "reason": "Fermoir de coffre/boîte à bijoux, quincaillerie de rangement et non apprêt de bijouterie.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005007260137775",
+      "keyword": "anneau bijoux",
+      "supplier_title": "58 pièces Vintage coeur serpent papillon anneaux ensemble pour les femmes mode métal plaqué or géométrique creux bague bijoux cadeaux nouveau",
+      "decision": "REJECT",
+      "reason": "Ensemble de bagues finies à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005012692579196",
+      "keyword": "chaine bijoux",
+      "supplier_title": "Collier chaîne unisexe en or massif 24 carats 100% véritable, bijoux tendance minimalistes pour hommes et femmes, cadeau raffiné classique au quotidien",
+      "decision": "REJECT",
+      "reason": "Collier en or massif fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005011750457084",
+      "keyword": "fermoir bijoux",
+      "supplier_title": "Fournitures de perlage DIY pour la création de bijoux fantaisie pour enfants, avec fermoirs",
+      "decision": "REJECT",
+      "reason": "Kit générique pour enfants avec fermoirs; pas un listing de fermoirs précisément identifié.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005008658465836",
+      "keyword": "anneau bijoux",
+      "supplier_title": "Bagues en argent Sterling 925 pour femmes, Couple minimaliste, fait à la main, Simple, grand anneau ouvert, prévention des allergies, bijoux, cadeaux de vacances",
+      "decision": "REJECT",
+      "reason": "Bague ouverte en argent finie à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005006997735643",
+      "keyword": "chaine bijoux",
+      "supplier_title": "Hip Hop 14mm 2 rangées de diamant collier cubain avec Micro Moissanite S925 en argent Sterling hommes chaîne à maillons cubains VVS bijoux",
+      "decision": "REJECT",
+      "reason": "Collier cubain serti fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009912812715",
+      "keyword": "chaine bijoux",
+      "supplier_title": "Chaîne roulante en or 18 carats Au750, bijoux fins en or AB pour femmes",
+      "decision": "REJECT",
+      "reason": "Chaîne en or vendue comme bijou fini, pas comme composant au mètre.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009235398907",
+      "keyword": "aiguille perles",
+      "supplier_title": "Paquet de 4 pinces à bijoux, Kit d'outils pour la fabrication de bijoux avec pince à nez aiguille/pince à nez de chaîne, pince à nez rond",
+      "decision": "REJECT",
+      "reason": "Kit de pinces; ne correspond pas au mot-clé aiguille perles.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005004347075695",
+      "keyword": "aiguille perles",
+      "supplier_title": "Ensemble de limes à aiguilles en diamant de 6 pouces, pour bijoux, métal, bois, céramique, verre, pierre, artisanat, affûtage, travail, outil de sculpture à la main, 1 pièce/4 pièces",
+      "decision": "REJECT",
+      "reason": "Limes aiguilles pour sculpture/affûtage, pas aiguilles d’enfilage de perles.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005007481186680",
+      "keyword": "pendentif",
+      "supplier_title": "Perles de cristal d'Autriche à facettes brillantes, bicone, perles d'espacement pour bijoux, bracelet de bricolage, collier pendentif, 4mm, 100 pièces",
+      "decision": "REJECT",
+      "reason": "Perles bicônes en cristal; ne correspondent pas au mot-clé pendentif.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005007249737394",
+      "keyword": "pendentif",
+      "supplier_title": "Mode bricolage A-Z lettres porte-clés support en métal pendentif porte-clés femmes voiture porte-clés Simple lettre nom clé fête cadeau bijoux",
+      "decision": "REJECT",
+      "reason": "Support de porte-clés lettre, hors pendentif de bijouterie.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009924831307",
+      "keyword": "pendentif",
+      "supplier_title": "Chaîne en cristal Transparent Baroque exagérée, avec pendentif croix en Zircon Sexy, collier pour femmes, cadeau pratique de mariage",
+      "decision": "REJECT",
+      "reason": "Collier croix fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005005504407395",
+      "keyword": "pendentif",
+      "supplier_title": "ChimZunderes-Collier pendentif multicouche pour femme, tour de cou JOChoker, bijoux brillants, cadeau de fête, mode féminine",
+      "decision": "REJECT",
+      "reason": "Collier multicouche fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005010057691748",
+      "keyword": "pendentif",
+      "supplier_title": "Collier de luxe en argent Sterling 925 pour femmes, chaînes de pull, pendentif Simple et polyvalent, bijoux fins, à la mode, automne/hiver",
+      "decision": "REJECT",
+      "reason": "Collier pendentif fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005005820334724",
+      "keyword": "pendentif",
+      "supplier_title": "Ensemble de bijoux en argent Sterling 925 véritable pour femmes et filles, brillant cristal autrichien, pendentif chat mignon, collier, boucle d'oreille Huggie",
+      "decision": "REJECT",
+      "reason": "Ensemble collier et boucles d’oreilles fini.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005006779288194",
+      "keyword": "pendentif",
+      "supplier_title": "Collier pendentif fleur lettre A-Z pour femmes, couleur or jaune, bijoux de mariage, cadeau pour femmes",
+      "decision": "REJECT",
+      "reason": "Collier lettre-fleur fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005003235709582",
+      "keyword": "pendentif",
+      "supplier_title": "Pendentif fleur tatouages temporaires pour femmes adultes faux bijoux tatouage autocollant pivoine noir henné lune grande cuisse Tatoo étanche",
+      "decision": "REJECT",
+      "reason": "Tatouage temporaire, sans rapport avec un pendentif matériel.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005008188705135",
+      "keyword": "pendentif",
+      "supplier_title": "Collier à clous esthétiques Punk en acier inoxydable pour hommes et femmes, ras du cou Cool Hip Hop, pendentif à rivets, bijoux gothiques, cadeaux",
+      "decision": "REJECT",
+      "reason": "Collier ras-du-cou fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005006844227226",
+      "keyword": "pendentif",
+      "supplier_title": "Colliers avec pendentifs multicolores en or pour femmes, nouvelle mode, pendentif croix de jésus en cristal pour femmes, collier de fête, bijoux de loisirs",
+      "decision": "REJECT",
+      "reason": "Collier croix fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009962808044",
+      "keyword": "pendentif",
+      "supplier_title": "LATS – collier Long avec pendentif cheval coloré pour femmes, chaîne de pull réglable, bijoux cadeaux, accessoires",
+      "decision": "REJECT",
+      "reason": "Collier pendentif cheval fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005006124355228",
+      "keyword": "pendentif",
+      "supplier_title": "Moules à pendentif en forme de chat mignon, moules à porte-clés, moule en argile, bijoux à bricoler soi-même, outil exécutif, matériau en silicone, outils exécutifs à la main",
+      "decision": "REJECT",
+      "reason": "Moule silicone pour pendentif; c’est un outil, pas le pendentif visé par le mot-clé.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009234078401",
+      "keyword": "pendentif",
+      "supplier_title": "Collier en corde de cuir noir pour femmes, pendentif en cristal de verre, grand cœur rouge, personnalité Simple, Hip Hop Punk, chaîne, bijoux",
+      "decision": "REJECT",
+      "reason": "Collier avec pendentif cœur fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009305134236",
+      "keyword": "pendentif",
+      "supplier_title": "Collier pendentif ouvert pour femmes et filles, Simple, mode, accessoire de bricolage, nouvelle tendance, mignon, ras du cou, bijoux cadeau, 2025",
+      "decision": "REJECT",
+      "reason": "Collier ras-du-cou déjà assemblé.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005005906450787",
+      "keyword": "pendentif",
+      "supplier_title": "Pendentif collier cerceau boucles d'oreilles bague ensemble de bijoux 925 en argent Sterling couleur autrichien coloré cristal amant cadeau pour anniversaire",
+      "decision": "REJECT",
+      "reason": "Ensemble collier, boucles et bague fini.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005007100519168",
+      "keyword": "pendentif",
+      "supplier_title": "Collier pendentif en cristal rond rose pour femmes, design simple et élégant, mode coréenne, clavicule étoile, cadeaux de bijoux JOJewelry pour filles",
+      "decision": "REJECT",
+      "reason": "Collier pendentif en cristal fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009087592250",
+      "keyword": "pendentif",
+      "supplier_title": "Collier pendentif lettre initiale pour femmes, chaîne en acier inoxydable, colliers Alphabet A-Z, bijoux esthétiques à la mode, cadeau d'anniversaire",
+      "decision": "REJECT",
+      "reason": "Collier lettre initiale fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005011605999859",
+      "keyword": "pendentif",
+      "supplier_title": "Pendentif animal de dessin animé, porte-clés et breloque de sac Kawaii, motif glace et ours, mignon, pour téléphone, école et cadeau",
+      "decision": "REJECT",
+      "reason": "Porte-clés/breloque de sac ou téléphone, hors pendentif de bijouterie.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009870554211",
+      "keyword": "pendentif",
+      "supplier_title": "Chaîne de pendentif 40cm-60cm - Créez un collier personnalisé, collier en acier inoxydable hypoallergénique et imperméable pour femmes au quotidien",
+      "decision": "REJECT",
+      "reason": "Chaîne de collier déjà assemblée; ne correspond pas au mot-clé pendentif.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005007649894463",
+      "keyword": "pendentif",
+      "supplier_title": "Collier pendentif flûte magique Peter Pan pour hommes et femmes, colliers à breloques, cadeau de bijoux, mode",
+      "decision": "REJECT",
+      "reason": "Collier pendentif Peter Pan fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005010627972757",
+      "keyword": "pendentif",
+      "supplier_title": "Porte-clés pendentif fruits élégant pendentif amour porte-clés dégradé porte-clés élégant en forme de coeur pour casque",
+      "decision": "REJECT",
+      "reason": "Porte-clés pendentif fruit, hors fabrication de bijoux.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005006493208538",
+      "keyword": "pendentif",
+      "supplier_title": "Lien de pendentif personnalisé, veuillez nous contacter avant l'achat",
+      "decision": "REJECT",
+      "reason": "Lien de commande personnalisée à contacter avant achat, sans produit standard vérifiable.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005005315994038",
+      "keyword": "pendentif",
+      "supplier_title": "Premuim – boîte à pendentif pour collier, lumière Led, présentoir à bijoux, fournitures de mariage, étui d'emballage cadeau bleu, nouveauté 2023",
+      "decision": "REJECT",
+      "reason": "Boîte-présentoir lumineuse pour pendentif, rangement/emballage exclu.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009991451141",
+      "keyword": "pendentif",
+      "supplier_title": "Pendentif de sac boule de fleur de pomme de pin exquise, breloques de sac à fleurs tressées en PU, lanière tressée rétro pour sac à main, décoration corde suspendue",
+      "decision": "REJECT",
+      "reason": "Pendentif et lanière décorative de sac finis, hors composant de bijouterie.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005006057278305",
+      "keyword": "pendentif",
+      "supplier_title": "Collier populaire en or blanc pour femmes, bijoux de fiançailles avec pierres précieuses émeraude 3CT, pendentif en or véritable AU585, cadeau de promesse d'amour pour fille",
+      "decision": "REJECT",
+      "reason": "Collier de joaillerie fine avec pendentif, produit fini.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009820840736",
+      "keyword": "pendentif",
+      "supplier_title": "Collier pendentif en Faux cristal pierre métal femmes chaîne collier pour femmes hommes bijoux",
+      "decision": "REJECT",
+      "reason": "Collier avec faux cristal, produit fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009842516610",
+      "keyword": "pendentif",
+      "supplier_title": "Yhpup populaire pendentif rond en acier inoxydable collier de mode plaqué or et platine PVD accessoires de bijoux de base étanche",
+      "decision": "REJECT",
+      "reason": "Listing ambigu de pendentif-collier fini; aucun composant libre clairement établi.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005004329395800",
+      "keyword": "pendentif",
+      "supplier_title": "Bijoux Personnalisés en Or ou Argent, Pendentif, Collier, Boucles d'Oreilles, Bague de Mariage, Professionnel, Haute Qualité, Prix d'Usine",
+      "decision": "REJECT",
+      "reason": "Prestation de bijoux personnalisés couvrant plusieurs produits finis.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005006628497973",
+      "keyword": "pendentif",
+      "supplier_title": "Collier de diamants de laboratoire en or jaune 14 carats, diamant rond, diamant anneDiamond, pendentif 1,0 ct Ct",
+      "decision": "REJECT",
+      "reason": "Collier diamant en or fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005007790420639",
+      "keyword": "pendentif",
+      "supplier_title": "Collier à breloques avec pendentif Y2K, chaîne faite à main, colliers ras cou pour filles femmes,",
+      "decision": "REJECT",
+      "reason": "Collier ras-du-cou Y2K fini.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009444106436",
+      "keyword": "pendentif",
+      "supplier_title": "Lanterne à Air chaud avec ballon d'amour, décoration de saint-valentin, pendentif en acrylique, nouvelle mode, décorations simples pour la maison, tentures",
+      "decision": "REJECT",
+      "reason": "Suspension décorative pour la maison, pas un pendentif de bijouterie.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005007261097547",
+      "keyword": "pendentif",
+      "supplier_title": "Wong Rain-Collier pendentif en pierre précieuse de diamant à haute teneur en carbone, argent regardé 925 de luxe, saphir taillé nar, cadeau de joaillerie fine, Rotterdam Kling",
+      "decision": "REJECT",
+      "reason": "Collier de joaillerie fine avec pendentif, produit fini.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009233074734",
+      "keyword": "pendentif",
+      "supplier_title": "Pendentif sac porte-clés adultes enfants Auto décoration porte-clés réfléchissants bande réfléchissante voiture porte-clés pendentif réfléchissant",
+      "decision": "REJECT",
+      "reason": "Porte-clés réfléchissant fini, hors pendentif de bijouterie.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005004811099680",
+      "keyword": "pendentif",
+      "supplier_title": "Collier pendentif odorMoissanite en argent regardé 925, Cool Gun, Iced Out, Bijoux Hip Hop, Tendance Rap, Personnalité, Mode",
+      "decision": "REJECT",
+      "reason": "Collier Hip-Hop fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005008971843133",
+      "keyword": "pendentif",
+      "supplier_title": "Nouveau collier pendentif croix en acier inoxydable pour hommes femmes minimaliste couleur or bijoux mâle femme colliers ras de cou cadeaux 2025",
+      "decision": "REJECT",
+      "reason": "Collier croix fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005008613752699",
+      "keyword": "pendentif",
+      "supplier_title": "Collier pendentif pour écouteurs de musique pour hommes, Hip Hop Rock, Couple, chaîne personnalisée en acier inoxydable, bijoux de rappeur à la mode, cadeaux",
+      "decision": "REJECT",
+      "reason": "Collier écouteurs/musique fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005010683007365",
+      "keyword": "pendentif",
+      "supplier_title": "Collier de luxe avec pendentif d'amour intelligent pour femmes, chaîne de clavicule en or pur 24K 9999",
+      "decision": "REJECT",
+      "reason": "Collier en or pur fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005008035580790",
+      "keyword": "perles bois",
+      "supplier_title": "20 pièces Bracelets en cuir tressé pour hommes femmes envelopper perles de bois manchette Bracelet cordons de chanvre ethnique Tribal fait à la main Wrap Bracelet",
+      "decision": "REJECT",
+      "reason": "Bracelets en cuir avec perles bois, produits finis.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005005216686671",
+      "keyword": "perles bois",
+      "supplier_title": "bracelet homme luxe Bracelets tressés en cuir pour hommes, 4 pièces/ensemble, breloque Vintage arbre de vie, gouvernail, perles en bois, ethnique Tribal, corde",
+      "decision": "REJECT",
+      "reason": "Ensemble de bracelets tressés fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "4000135985475",
+      "keyword": "perles bois",
+      "supplier_title": "Petite perceuse de banc multifonction pour le travail du bois et la fabrication de perles de Bouddha, machine de traitement manuel de précision pour métaux et cordons",
+      "decision": "REJECT",
+      "reason": "Perceuse de banc pour fabriquer des perles; ne correspond pas au mot-clé perles bois.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005008827037638",
+      "keyword": "perles bois",
+      "supplier_title": "Perles en bois gland lustres Vintage or Suspension lustre grande frange suspendus lumières chambre principale salon Foyer",
+      "decision": "REJECT",
+      "reason": "Lustre avec perles en bois, luminaire hors fabrication de bijoux.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009564286365",
+      "keyword": "perles bois",
+      "supplier_title": "Joint d'homme en bois, perles pour les yeux peuvent être tournées, la bouche des sourcils peut être déplacée, ornement décoratif pour les taches scéniques du magasin",
+      "decision": "REJECT",
+      "reason": "Mannequin articulé en bois, pas des perles de bijouterie.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005007928318615",
+      "keyword": "perles lettres",
+      "supplier_title": "Bracelet de perles personnalisé fait à la main, 4 pièces, élastique rempli d'or 14K, bijoux avec lettres personnalisées, Bracelets Boho, bijoux Vintage",
+      "decision": "REJECT",
+      "reason": "Bracelet personnalisé en perles, produit fini.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005004900086210",
+      "keyword": "perles miyuki",
+      "supplier_title": "12 grammes/Tube 2mm perles de rocaille métalliques perles de rocaille rondes en verre japonais pour bricolage couture robe parure couture 1200 pièces",
+      "decision": "REJECT",
+      "reason": "Rocailles japonaises génériques sans mention de la marque Miyuki; correspondance SEO non prouvée.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005006588143036",
+      "keyword": "perles miyuki",
+      "supplier_title": "Ensemble de perles de rocaille en verre, lot de 2000 pièces, 12 grilles, breloques, pour Bracelet, collier, boucles d'oreilles, artisanat fait à la main, fabrication de bijoux",
+      "decision": "REJECT",
+      "reason": "Rocailles génériques sans mention de la marque Miyuki.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005010116309548",
+      "keyword": "perles miyuki",
+      "supplier_title": "1.5mm 2mm 3mm 30 couleurs Transparent Cezch argent-ligne perles de verre 15/0 12/0 10/0 perles de rocaille d'espacement pour la fabrication de bijoux bricolage couture",
+      "decision": "REJECT",
+      "reason": "Rocailles tchèques, donc incompatibles avec le mot-clé perles Miyuki.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005004757435168",
+      "keyword": "perles miyuki",
+      "supplier_title": "500 pièces/5g 2mm macaron japonais perles de verre mat 12/0 perles de rocaille d'espacement opaque givré pour la fabrication de bijoux bricolage couture à la main",
+      "decision": "REJECT",
+      "reason": "Rocailles japonaises génériques sans preuve qu’il s’agit de Miyuki.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005010642243255",
+      "keyword": "perles miyuki",
+      "supplier_title": "1 ensemble de perles de rocaille de pilule pour bricolage, boîte de rangement de matériel pour Nail Art, boîte de rangement rectangulaire transparente en plastique, accessoire de bijoux",
+      "decision": "REJECT",
+      "reason": "Boîte de rangement pour matériel/nail art, pas des perles Miyuki.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "4000734226690",
+      "keyword": "perles naturelles",
+      "supplier_title": "Boucles d'oreilles en perles d'eau douce naturelles pour femmes, en argent Sterling 925 véritable, perle blanche de culture, bijoux, vente en gros",
+      "decision": "REJECT",
+      "reason": "Boucles d’oreilles en perles finies à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005010339655180",
+      "keyword": "perles pour bijoux",
+      "supplier_title": "Collier pendentif chaîne à pampilles pour femmes, style Boho, cristal Transparent et Imitation de perles, bijoux, cadeau de saint valentin, N0538",
+      "decision": "REJECT",
+      "reason": "Collier pendentif à pampilles fini, pas une chaîne perlée composant.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005007510843875",
+      "keyword": "perles pour bijoux",
+      "supplier_title": "JD – Bracelet de perles en pierre naturelle, améthyste, œil de tigre, cristal, Quartz, Agate, pierres précieuses, pour femmes et hommes, bijoux de guérison Reiki, cadeau",
+      "decision": "REJECT",
+      "reason": "Bracelet de pierres naturelles fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005008497784580",
+      "keyword": "fil élastique bracelet",
+      "supplier_title": "100M plastique cristal bricolage perles ligne de pêche pas de cordon élastique corde pour la fabrication de bijoux fournitures fil Jeweleri chaîne fil",
+      "decision": "REJECT",
+      "reason": "Le listing précise une ligne de pêche non élastique; incompatible avec fil élastique bracelet.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009050969307",
+      "keyword": "perles pour bijoux",
+      "supplier_title": "60 pièces tresses de cheveux perles chapeaux mignon bonbons couleurs plastique été pinces à cheveux accessoires de cheveux Loc bijoux de cheveux pour tresses",
+      "decision": "REJECT",
+      "reason": "Perles/capuchons pour tresses et coiffure, hors fabrication de bijoux.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005006249828068",
+      "keyword": "perles pour bijoux",
+      "supplier_title": "Mini Caviar pour ongles, 6 grilles, 0.6-2mm, argent, perles en acier inoxydable, bijoux, petites boules en métal, accessoires de charme, décoration de manucure",
+      "decision": "REJECT",
+      "reason": "Microbilles de caviar destinées au nail art, pas des perles de bijouterie.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009514248898",
+      "keyword": "perles pour bijoux",
+      "supplier_title": "20 pièces de fermoirs de positionnement en cuivre 3x4mm avec capuchons de perles - Connecteurs pour colliers et bracelets DIY, accessoires de fermeture pour bijoux",
+      "decision": "REJECT",
+      "reason": "Fermoirs et capuchons-connecteurs; le produit ne correspond pas au mot-clé perles pour bijoux.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005006658832995",
+      "keyword": "perles pour bijoux",
+      "supplier_title": "Chaîne de perles pour ongles en or et argent, 1 m/paquet, 0.8mm, breloque en pierre Ellipse, décorations pour Nail Art, boule en métal et acier doré, accessoire de bijoux",
+      "decision": "REJECT",
+      "reason": "Chaîne de microbilles destinée au nail art, hors fourniture de bijouterie.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005008686015166",
+      "keyword": "perles pour bijoux",
+      "supplier_title": "Aiguilles à perles en acier inoxydable, 7 pièces, perles fines magiques, outils de fabrication de bijoux, artisanat, accessoires de perles, flexibles robustes et durables",
+      "decision": "REJECT",
+      "reason": "Aiguilles d’enfilage; outil utile mais incompatible avec le mot-clé perles pour bijoux.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005008343049436",
+      "keyword": "perles pour bijoux",
+      "supplier_title": "Bagues élastiques en perles de riz tissées à la main pour femmes, bijoux bohèmes vintage, fleur perlée, cristal, cadeaux de fête pour filles, 1PC",
+      "decision": "REJECT",
+      "reason": "Bagues en perles finies à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005003712175747",
+      "keyword": "perles pour bijoux",
+      "supplier_title": "Dudo-Ensemble de bijoux de mariage nigwin, perles de lieu authentiques, 5 couches, perles traditionnelles de mariage en amaran, mariée, 8-29mm, 35, 2022",
+      "decision": "REJECT",
+      "reason": "Ensemble de bijoux de mariage fini.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005011572931563",
+      "keyword": "perles pour bijoux",
+      "supplier_title": "Bracelet Unisexe de Mariage, Bijou Unisexe Fait Main, Bracelet en Perles de Résine Imitation Perle, Bracelet Polyvalent Minimaliste à Perles Rondes",
+      "decision": "REJECT",
+      "reason": "Bracelet en perles de résine fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005005676593287",
+      "keyword": "perles pour bijoux",
+      "supplier_title": "Dudo-Ensemble de bijoux de mariage pour hommes NigWin, perles africaines, 36 amarans, design traditionnel, 2023",
+      "decision": "REJECT",
+      "reason": "Ensemble de bijoux de mariage traditionnel fini.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005012867412045",
+      "keyword": "perles pour bijoux",
+      "supplier_title": "Ensemble de 3 bracelets en perles de résine irrégulières colorées pour femmes, bracelets extensibles en forme de pépites couleur or, bijoux bohèmes empilables, cadeau",
+      "decision": "REJECT",
+      "reason": "Ensemble de trois bracelets en perles fini à porter.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005010636826181",
+      "keyword": "perles pour bijoux",
+      "supplier_title": "1 ensemble de perles de rocaille de pilule pour bricolage, boîte de rangement de matériel pour Nail Art, boîte de rangement rectangulaire transparente en plastique, accessoire de bijoux",
+      "decision": "REJECT",
+      "reason": "Boîte de rangement pour matériel de nail art, pas un listing fiable de perles de bijouterie.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005011705401612",
+      "keyword": "perles verre",
+      "supplier_title": "8 pièces de luminaires suspendus sans fil à piles, modèle f30, 60-130 cm, avec perles acryliques et centres de table en cristal argenté/doré pour table de mariage",
+      "decision": "REJECT",
+      "reason": "Luminaires suspendus avec décoration de perles, produit hors fabrication de bijoux.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005010011405957",
+      "keyword": "perles verre",
+      "supplier_title": "100 ensembles 48 couleurs bouteille en verre Nail Art décor ensemble, paillettes, paillettes, flocons hexagonaux, perles de Caviar, Kit de décoration de manucure",
+      "decision": "REJECT",
+      "reason": "Bouteilles et décorations de nail art, pas des perles verre pour bijoux.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005006466442738",
+      "keyword": "pince bijoux",
+      "supplier_title": "5 pièces durables enfants enfants bricolage jouet en plastique pince perles pince à épiler jouet enfants artisanat",
+      "decision": "REJECT",
+      "reason": "Pince-jouet en plastique pour enfants, pas un outil de bijouterie.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005012614502961",
+      "keyword": "pince bijoux",
+      "supplier_title": "Pince à souder pour bijoux, accessoire de soudeuse, pointes de soudure de rechange, aiguille à souder, support de pince à broche électrique, embout",
+      "decision": "REJECT",
+      "reason": "Embouts et support de soudage de rechange, pas une pince bijoux complète correspondant au mot-clé.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005012709664077",
+      "keyword": "support boucle d'oreille",
+      "supplier_title": "Présentoir à bijoux en métal et marbre, support de rangement pour bagues, boucles d'oreilles, colliers, organisateur de bijoux, plateau de rangement",
+      "decision": "REJECT",
+      "reason": "Présentoir et rangement à bijoux, pas un support composant de boucle d’oreille.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005004512982501",
+      "keyword": "support boucle d'oreille",
+      "supplier_title": "Fermoirs à ressort à joint torique en métal, mousqueton rond ouvrable, porte-clés, clips de sac, crochet, connecteur de boucles de chien pour bijoux à bricoler soi-même, lot de 5 pièces",
+      "decision": "REJECT",
+      "reason": "Mousquetons et crochets de porte-clés, pas des supports de boucles d’oreilles.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005012701879841",
+      "keyword": "support boucle d'oreille",
+      "supplier_title": "Porte-bijoux en cuivre pur, support de rangement pour clés de porche, organisateur de bureau avec base en bois, crochet à clés, organisateur de bijoux",
+      "decision": "REJECT",
+      "reason": "Porte-bijoux et organisateur de bureau, rangement exclu.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005006802810670",
+      "keyword": "support boucle d'oreille",
+      "supplier_title": "Présentoir à bijoux, plateau, supports de rangement d'arbre, boucles d'oreilles, colliers, bagues, boîtes à bijoux, étui organisateur de bureau, support de maquillage, décor",
+      "decision": "REJECT",
+      "reason": "Présentoir/arbre et boîte de rangement à bijoux, rangement exclu.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005008325238402",
+      "keyword": "support boucle d'oreille",
+      "supplier_title": "Boucles d'oreilles crochet en or rose 14 carats pour femme, 1.8mm, chaque document DEF, diamant cultivé en laboratoire, bijoux de mariage",
+      "decision": "REJECT",
+      "reason": "Boucles d’oreilles serties finies à porter, pas des supports libres.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Perles & création de bijoux",
+      "product_id": "1005009581440117",
+      "keyword": "support boucle d'oreille",
+      "supplier_title": "1PC Antique bijoux crochet boucle boîte-cadeau boîte en bois boucle boîte boucle",
+      "decision": "REJECT",
+      "reason": "Quincaillerie de boîte-cadeau en bois, hors support de boucle d’oreille.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-perles.json"
+    },
+    {
+      "niche": "Scrapbooking & journaling",
+      "product_id": "1005009965158703",
+      "keyword": "kit scrapbooking",
+      "supplier_title": "Bouteille applicateur de colle à pointe d'aiguille, 5 pièces/ensemble 5/10/20/30/50/100ML, pour papier Quilling, bricolage, Scrapbooking, outil artisanal en papier",
+      "decision": "REJECT",
+      "reason": "Le produit est un lot de flacons applicateurs de colle, pas un kit de scrapbooking.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Scrapbooking & journaling",
+      "product_id": "1005006826654310",
+      "keyword": "kit scrapbooking",
+      "supplier_title": "Kawaii autocollants pour enfants mignon papeterie esthétique journal décoration fournitures d'art autocollants pour Scrapbooking Lot coréen papier bureau",
+      "decision": "REJECT",
+      "reason": "Le produit est une planche d’autocollants seule, pas un kit de scrapbooking.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Scrapbooking & journaling",
+      "product_id": "1005007309919224",
+      "keyword": "kit scrapbooking",
+      "supplier_title": "Autocollants Kawaii pour enfants, papeterie mignonne, décoration de journal esthétique, autocollants de fournitures d'art pour scrapbooking, lot de papier coréen, 200p",
+      "decision": "REJECT",
+      "reason": "Le produit est un lot d’autocollants seul, pas un kit de scrapbooking.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Scrapbooking & journaling",
+      "product_id": "1005012602437834",
+      "keyword": "kit scrapbooking",
+      "supplier_title": "KSCRAFT Lot de matrices de découpe en métal et pochoirs pour Halloween 2026, pour scrapbooking DIY, gaufrage décoratif et cartes en papier DIY",
+      "decision": "REJECT",
+      "reason": "Le produit est un lot de matrices/pochoirs Halloween, pas un kit complet de scrapbooking.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Scrapbooking & journaling",
+      "product_id": "1005007809608888",
+      "keyword": "kit scrapbooking",
+      "supplier_title": "Ensemble de carnet de notes A5 réutilisable avec stylo pour tableau blanc, bloc-notes en cuir et tissu effaçable, planificateur hebdomadaire, Portable et élégant pour le bureau",
+      "decision": "REJECT",
+      "reason": "Le produit est un carnet effaçable avec stylo, pas un kit de scrapbooking.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Scrapbooking & journaling",
+      "product_id": "1005006922822451",
+      "keyword": "kit scrapbooking",
+      "supplier_title": "100/5 pièces ensemble de stylos Gel 100 stylos Gel colorés pour livres de coloriage dessin Doodle artisanat Scrapbooks journal planificateur fournitures scolaires",
+      "decision": "REJECT",
+      "reason": "Le produit est un ensemble de stylos gel, pas un kit de scrapbooking.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Scrapbooking & journaling",
+      "product_id": "1005007208559731",
+      "keyword": "massicot papier",
+      "supplier_title": "360 °   Cutter circulaire réglable et lame de rechange - Outil de scrapbooking de précision pour des coupes circulaires parfaites du papier",
+      "decision": "REJECT",
+      "reason": "Le produit est un cutter circulaire de précision ; ce n’est pas un massicot ou coupe-papier à base.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Scrapbooking & journaling",
+      "product_id": "1005010193014036",
+      "keyword": "papier scrapbooking",
+      "supplier_title": "Poinçon rectangulaire pour timbres-poste, 1x0.8 pouces, levier d'action, poinçon artisanal pour l'artisanat du papier, Scrapbooking, différents matériaux, outil de poinçonnage",
+      "decision": "REJECT",
+      "reason": "Le produit est une perforatrice motif timbre, pas du papier de scrapbooking.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Scrapbooking & journaling",
+      "product_id": "1005010628126942",
+      "keyword": "papier scrapbooking",
+      "supplier_title": "Poinçons rectangulaires pour timbres-poste, perforateur à levier d'action pour l'artisanat du papier, Scrapbooking, projets de bricolage, fournitures artisanales, Scrapbo",
+      "decision": "REJECT",
+      "reason": "Le produit est une perforatrice à levier, pas du papier de scrapbooking.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Scrapbooking & journaling",
+      "product_id": "1005006619183760",
+      "keyword": "colle scrapbooking",
+      "supplier_title": "Ruban adhésif décoratif à paillettes pour scrapbooking, ensemble de ruban adhésif Washi pour album, papeterie, fournitures de journal, masquage de base, 1 rouleau",
+      "decision": "REJECT",
+      "reason": "Le produit est un ruban washi décoratif pailleté, pas une colle de scrapbooking.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Scrapbooking & journaling",
+      "product_id": "1005009680305514",
+      "keyword": "dies scrapbooking",
+      "supplier_title": "Tampons de papier artisanaux, 12 feuilles de couleurs de printemps, matrices de découpe, fond artistique, Origami, fabrication de cartes de Scrapbooking",
+      "decision": "REJECT",
+      "reason": "Le titre est trompeur : le visuel montre un assortiment de feuilles de papier, pas des dies.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Scrapbooking & journaling",
+      "product_id": "1005010783492913",
+      "keyword": "dies scrapbooking",
+      "supplier_title": "Nouvelles matrices de découpe en métal et tampons transparents motif fleur de printemps 2026 pour la création de cartes, le scrapbooking et la décoration de papier DIY",
+      "decision": "REJECT",
+      "reason": "Le visuel reproduit explicitement le produit et la marque Gina K. Designs ; risque de propriété intellectuelle/licence.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Scrapbooking & journaling",
+      "product_id": "1005012228810068",
+      "keyword": "dies scrapbooking",
+      "supplier_title": "Matrices de découpe en métal pour cadre floral de sapin de Noël, pochoir de décoration pour scrapbook et journal, modèle de gaufrage, carte de vœux DIY faite à la main",
+      "decision": "REJECT",
+      "reason": "Le visuel montre des tampons transparents Divinity Designs, pas des dies, avec une marque tierce explicitement visible.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Scrapbooking & journaling",
+      "product_id": "1005012742781255",
+      "keyword": "perforatrice scrapbooking",
+      "supplier_title": "Perforatrice manuelle 6 trous pour papier A4, A5, B5, perforation de 6 mm pour scrapbooking, agenda et loisirs créatifs",
+      "decision": "REJECT",
+      "reason": "Le visuel montre un anneau/élément de reliure 12 mm, pas une perforatrice 6 trous ; incohérence titre-produit.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Scrapbooking & journaling",
+      "product_id": "1005010177408288",
+      "keyword": "dies scrapbooking",
+      "supplier_title": "Coffret cadeau bonbons papier tortues matrices de découpe en métal timbres clairs feuille chaude pour bricolage faisant carte Scrapbook modèle artisanal en relief 2025",
+      "decision": "REJECT",
+      "reason": "Le visuel reproduit explicitement un produit CarlijnDesign et ses créations ; risque de propriété intellectuelle/licence.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Scrapbooking & journaling",
+      "product_id": "1005010478623397",
+      "keyword": "dies scrapbooking",
+      "supplier_title": "Noël 2025 Poinsettia œillet agrumes canne à sucre Santa matrices de découpe en métal timbres clairs pochoir pour bricolage Scrapbook journal",
+      "decision": "REJECT",
+      "reason": "Le visuel reproduit explicitement un produit The Ton Couture Designs ; risque de propriété intellectuelle/licence.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Scrapbooking & journaling",
+      "product_id": "1005007773636445",
+      "keyword": "stickers scrapbooking",
+      "supplier_title": "55 pièces Calico Critters autocollants ordinateur portable Scrapbook décoration Graffiti décalcomanies Skateboard ordinateur portable autocollant étanche",
+      "decision": "REJECT",
+      "reason": "Le titre et le visuel utilisent les personnages Calico Critters/Sylvanian Families, une propriété sous licence.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Scrapbooking & journaling",
+      "product_id": "1005008993316209",
+      "keyword": "stickers scrapbooking",
+      "supplier_title": "20-1000 pièces autocollants mignons Kawaii dessin animé Laser autocollant pas de répétition pour journal enfant bricolage écoliers décoration papeterie",
+      "decision": "REJECT",
+      "reason": "Le visuel contient des personnages de franchise de type Sanrio clairement reconnaissables ; risque de licence.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Scrapbooking & journaling",
+      "product_id": "1005007836517200",
+      "keyword": "stickers scrapbooking",
+      "supplier_title": "Un aimant de réfrigérateur, planificateur mensuel et hebdomadaire, autocollant de calendrier magnétique, autocollant de note magnétique souple, tableau d'affichage",
+      "decision": "REJECT",
+      "reason": "Le produit est un planificateur magnétique pour réfrigérateur, pas des stickers de scrapbooking.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Scrapbooking & journaling",
+      "product_id": "1005005857371890",
+      "keyword": "tampon scrapbooking",
+      "supplier_title": "Coupe-papier de précision A2, couteau à papier, garniture de Photo, Scrapbook, outil de coupe en alliage Portable, tampon de découpe, fournitures de bureau et de maison",
+      "decision": "REJECT",
+      "reason": "Le produit est un massicot/coupe-papier A2 ; « tampon » désigne ici le support de coupe, pas un tampon de scrapbooking.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    },
+    {
+      "niche": "Scrapbooking & journaling",
+      "product_id": "1005008415383372",
+      "keyword": "washi tape",
+      "supplier_title": "Sac porte-bonheur-Autocollants décoratifs Washi, ruban adhésif l'horloge brillant, grande remise, taille de boucle, largeur 4cm-8cm",
+      "decision": "REJECT",
+      "reason": "Le listing est une « lucky bag » dont le contenu exact n’est pas vérifiable ; aucun washi tape précis n’est garanti par le visuel.",
+      "audit_file": "competitor-profiles/workstreams/manual-audit-final-mercerie-scrap.json"
+    }
+  ]
+}

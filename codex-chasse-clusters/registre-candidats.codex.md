@@ -325,3 +325,29 @@ Ce registre est la source de vérité exclusive de l'expérience Codex. Le regis
 | Date/heure | Run | Événement | GO conditionnels | Retenus économie | Prochaine action |
 |---|---|---|---:|---:|---|
 | 2026-08-08 03:50 CEST | 2026-08-08-kraken-catalogue-v1 | SEMrush FR, dix SERP, Trends cinq ans, 100 recherches API et classeur vérifié | 5 | 0 | Shortlist 20–30 produits par niche puis coût rendu, conformité et economics |
+
+## Run Kraken arborescence + catalogue concurrentiel audité — `2026-08-08-kraken-catalogue-expansion-v2`
+
+- Périmètre : cinq arborescences, un mot-clé général par boutique, un mot-clé par collection et un mot-clé par PDP, avec le volume SEMrush France adjacent dans le classeur.
+- Corpus concurrentiel : **887 concepts** stricts après déduplication des couleurs, tailles, conditionnements, marques et modèles.
+- Demande : **100 mots-clés business** documentés dans la base France du 8 août 2026 ; **40 collections** restent représentées après le filtre fournisseur final.
+- Sourcing read-only : API AliExpress officielle, destination France ; **483 listings** candidats ont été relus manuellement, **212 acceptés** et **271 rejetés**.
+- Qualité fournisseur : **157** lignes `LISTING_QUALIFIE_NOTE_COMMANDES` et **55** `LISTING_SEMANTIQUE_A_VERIFIER` ; SKU, variante, fret France, conformité et economics restent `MANQUANT`.
+- Intégrité : 212 couples niche/ID uniques, 212 titres SEO uniques, volumes produit/collection/général positifs et décision humaine `ACCEPT` sur chaque ligne livrée.
+- Profondeur : objectifs indicatifs non atteints ; les déficits sont conservés et aucun résultat faible ou hors intention n'a été ajouté pour remplir un quota.
+- Rapport : [qualification Kraken arborescence et catalogue audité](runs/2026-08-08-kraken-catalogue-expansion-v2/rapport-qualification.md).
+- Classeur : `outputs/2026-08-08-kraken-catalogue-expansion-v2/5-niches-kraken-arborescence-catalogue-verifie-2026-08-08.xlsx`.
+
+| ID | Statut durable | Niche | Volume propre FR | Candidats relus | Acceptés | Objectif indicatif | Réserve structurante |
+|---|---|---|---:|---:|---:|---:|---|
+| kraken-tree-20260808-c01 | **A_CREUSER_CATALOGUE** | Balade, transport & mobilité du chien | 81 860 | 59 | 32 | 100 | Sécurité, charge, tailles et déficit de 68 références |
+| kraken-tree-20260808-c02 | **A_CREUSER_CATALOGUE** | Mercerie créative & arts du fil | 221 680 | 97 | 45 | 200 | Concurrence installée, vérité matière et déficit de 155 références |
+| kraken-tree-20260808-c03 | **A_CREUSER_CATALOGUE** | Scrapbooking & journaling | 64 740 | 59 | 38 | 100 | Propriété intellectuelle, produits chimiques et déficit de 62 références |
+| kraken-tree-20260808-c04 | **A_CREUSER_CATALOGUE** | Perles & création de bijoux | 35 770 | 200 | 72 | 200 | Métaux/matières, sous 40 k confort et déficit de 128 références |
+| kraken-tree-20260808-c05 | **A_CREUSER_CATALOGUE** | Aquariophilie & aquascaping | 48 320 | 68 | 25 | 100 | Électricité, CO2, bien-être animal et déficit de 75 références |
+
+### Journal Kraken arborescence + catalogue audité
+
+| Date/heure | Run | Événement | Intégrité | Objectifs catalogue | Prochaine action |
+|---|---|---|---:|---:|---|
+| 2026-08-08 15:45 CEST | 2026-08-08-kraken-catalogue-expansion-v2 | Concurrence, SEMrush FR, API AliExpress, revue humaine exhaustive, classeur rendu et contrôlé | PASS | 0/5 atteints | Prioriser les références acceptées puis valider SKU, fret, conformité et economics avant toute mutation commerciale |

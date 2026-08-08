@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "integrity_ok": true,
+  "products": 212,
+  "counts_by_niche": {
+    "Aquariophilie & aquascaping": 25,
+    "Balade, transport & mobilité du chien": 32,
+    "Mercerie créative & arts du fil": 45,
+    "Perles & création de bijoux": 72,
+    "Scrapbooking & journaling": 38
+  },
+  "reference_targets_by_niche": {
+    "Aquariophilie & aquascaping": 100,
+    "Balade, transport & mobilité du chien": 100,
+    "Mercerie créative & arts du fil": 200,
+    "Perles & création de bijoux": 200,
+    "Scrapbooking & journaling": 100
+  },
+  "quota_gaps_by_niche": {
+    "Mercerie créative & arts du fil": -155,
+    "Scrapbooking & journaling": -62,
+    "Aquariophilie & aquascaping": -75,
+    "Balade, transport & mobilité du chien": -68,
+    "Perles & création de bijoux": -128
+  },
+  "quota_reference_pass": false,
+  "unique_ids_by_niche": 212,
+  "unique_titles_by_niche": 212,
+  "errors": []
+}

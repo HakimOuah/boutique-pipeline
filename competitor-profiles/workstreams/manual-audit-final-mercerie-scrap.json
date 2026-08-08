@@ -1,0 +1,1117 @@
+{
+  "audited_at": "2026-08-08",
+  "source_file": "codex-chasse-clusters/runs/2026-08-08-kraken-catalogue-expansion-v2/final-catalogue.json",
+  "methodology": "Contrôle manuel ligne par ligne de la correspondance mot-clé SEO ↔ titre ↔ visuel principal fourni par l’API, avec rejet des homonymes, accessoires, produits finis, outils/machines hors type et propriétés intellectuelles/licences visibles.",
+  "totals": {
+    "total": 156,
+    "ACCEPT": 83,
+    "REJECT": 73
+  },
+  "by_niche": {
+    "Mercerie créative & arts du fil": {
+      "total": 97,
+      "ACCEPT": 45,
+      "REJECT": 52
+    },
+    "Scrapbooking & journaling": {
+      "total": 59,
+      "ACCEPT": 38,
+      "REJECT": 21
+    }
+  },
+  "decisions": [
+    {
+      "product_id": "1005006454255697",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "aiguilles machine à coudre",
+      "decision": "REJECT",
+      "reason": "Le titre et le visuel montrent un cadran/régulateur d’alimentation de machine, pas des aiguilles."
+    },
+    {
+      "product_id": "1005010495607607",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "aiguilles machine à coudre",
+      "decision": "REJECT",
+      "reason": "Le listing vend une machine à coudre industrielle complète, pas des aiguilles de machine."
+    },
+    {
+      "product_id": "1005005238161254",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "aiguilles à coudre",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « aiguilles à coudre » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005006510952643",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "aiguilles à coudre",
+      "decision": "REJECT",
+      "reason": "Le produit est un dé à coudre, pas une aiguille à coudre."
+    },
+    {
+      "product_id": "1005005714901410",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "aiguilles à coudre",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « aiguilles à coudre » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005008746549183",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "aiguilles à coudre",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « aiguilles à coudre » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005011886451722",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "clips couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « clips couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005010106425998",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "aiguilles à coudre",
+      "decision": "REJECT",
+      "reason": "Le produit est un guide/jauge de couture à clipser, pas une aiguille."
+    },
+    {
+      "product_id": "1005010612490093",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "aiguilles à coudre",
+      "decision": "REJECT",
+      "reason": "Le produit est un dé/coupe-fil porté au doigt, pas une aiguille."
+    },
+    {
+      "product_id": "1005012731082889",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "aiguilles à coudre",
+      "decision": "REJECT",
+      "reason": "Le listing vend une machine à coudre complète, pas des aiguilles."
+    },
+    {
+      "product_id": "1005011848541077",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "aiguilles à coudre",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « aiguilles à coudre » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005008532570670",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "clips couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « clips couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005011848515074",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "aiguilles à coudre",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « aiguilles à coudre » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005007767354679",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "biais couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « biais couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005008678973582",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "biais couture",
+      "decision": "REJECT",
+      "reason": "Le produit est un outil qui fabrique ou pose du biais, pas du biais textile."
+    },
+    {
+      "product_id": "1000006667863",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "biais couture",
+      "decision": "REJECT",
+      "reason": "Le produit est un appareil à fabriquer du biais, pas un ruban de biais."
+    },
+    {
+      "product_id": "1005007378197691",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "ruban couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « ruban couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005008195335276",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "dentelle couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dentelle couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005010056918756",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "ruban couture",
+      "decision": "REJECT",
+      "reason": "« Ruban » désigne ici un mètre ruban ; ce n’est pas un ruban de couture."
+    },
+    {
+      "product_id": "1005004364382939",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "dentelle couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dentelle couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005005821436195",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "ruban couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « ruban couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005008516516950",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "dentelle couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dentelle couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005011802428746",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "ruban couture",
+      "decision": "REJECT",
+      "reason": "Le produit est un mètre ruban de tailleur, pas un ruban textile de couture."
+    },
+    {
+      "product_id": "1005011966104649",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "dentelle couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dentelle couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005008777490858",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "dentelle couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dentelle couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005008626762127",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "biais couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « biais couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005012860509896",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "ruban couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « ruban couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005009536324379",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "dentelle couture",
+      "decision": "REJECT",
+      "reason": "Le produit est une frange à pampilles pour rideau/oreiller, pas de la dentelle de couture."
+    },
+    {
+      "product_id": "1005012862143634",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "ruban couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « ruban couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005006802165115",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "dentelle couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dentelle couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005006684438750",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "bouton pression",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « bouton pression » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005009042348744",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "bouton pression",
+      "decision": "REJECT",
+      "reason": "Le produit est un bracelet en or avec fermoir à pression, pas un bouton-pression de mercerie."
+    },
+    {
+      "product_id": "1005005791332733",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "bouton pression",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « bouton pression » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005012017941014",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "bouton pression",
+      "decision": "REJECT",
+      "reason": "Le listing vend des pochettes à bijoux finies munies d’un bouton-pression, pas les boutons eux-mêmes."
+    },
+    {
+      "product_id": "1005004992854629",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "bouton pression",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « bouton pression » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005006756009115",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "boutons couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « boutons couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005008952550478",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "boutons couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « boutons couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005009912845449",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "boutons couture",
+      "decision": "REJECT",
+      "reason": "Le produit est une rallonge de ceinture à crochets pour pantalon, pas un bouton à coudre."
+    },
+    {
+      "product_id": "1005009056520479",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "boutons couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « boutons couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005006461934287",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "boutons couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « boutons couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005012695387321",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "boutons couture",
+      "decision": "REJECT",
+      "reason": "Le listing vend une machine industrielle à attacher les boutons, pas des boutons."
+    },
+    {
+      "product_id": "1005005146013090",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "boutons couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « boutons couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005005145511411",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "boutons couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « boutons couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005012454540148",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "boutons couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « boutons couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005012249537037",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "boutons couture",
+      "decision": "REJECT",
+      "reason": "Le listing vend une machine automatique à boutonner/poser des œillets, pas des boutons."
+    },
+    {
+      "product_id": "1005012259497318",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "boutons couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « boutons couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005004370756682",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "boutons couture",
+      "decision": "REJECT",
+      "reason": "Le produit est un moule/matrice pour recouvrir des boutons, pas des boutons de couture."
+    },
+    {
+      "product_id": "1005006632260207",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "pied presseur",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « pied presseur » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "32920422003",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "pied presseur",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « pied presseur » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005006409001324",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "pied presseur",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « pied presseur » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005010612392331",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "pied presseur",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « pied presseur » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005012862619361",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "canette machine à coudre",
+      "decision": "REJECT",
+      "reason": "Le produit est un stabilisateur/support de bobine conique, pas une canette de machine à coudre."
+    },
+    {
+      "product_id": "1005012070180689",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "pied presseur",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « pied presseur » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005007316312913",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "pied presseur",
+      "decision": "REJECT",
+      "reason": "Le produit est une vis/adaptateur de changement rapide qui supporte le pied, pas le pied presseur lui-même."
+    },
+    {
+      "product_id": "32922968111",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "pied presseur",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « pied presseur » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "32950363798",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "découd vite",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « découd vite » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005005980924727",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fermeture éclair",
+      "decision": "REJECT",
+      "reason": "Le listing vend seulement des curseurs/têtes de remplacement, pas une fermeture éclair complète."
+    },
+    {
+      "product_id": "1005010396973860",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fermeture éclair",
+      "decision": "REJECT",
+      "reason": "Le listing vend des tirettes en cordon pour curseur, pas une fermeture éclair complète."
+    },
+    {
+      "product_id": "1005009906777466",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fermeture éclair",
+      "decision": "REJECT",
+      "reason": "Le produit est un lubrifiant pour fermeture éclair, pas la fermeture elle-même."
+    },
+    {
+      "product_id": "1005008897674823",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fermeture éclair",
+      "decision": "REJECT",
+      "reason": "Le listing vend un kit de tirettes/curseurs de réparation, pas une fermeture éclair complète."
+    },
+    {
+      "product_id": "1005010757518776",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fermeture éclair",
+      "decision": "REJECT",
+      "reason": "Le produit est un ensemble de têtes/curseurs métalliques, pas une fermeture éclair complète."
+    },
+    {
+      "product_id": "1005010640364841",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fermeture éclair",
+      "decision": "REJECT",
+      "reason": "Le produit est une attache de câble en nylon pour automobile ; « fermeture éclair » est un faux contexte."
+    },
+    {
+      "product_id": "1005010586766231",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fermeture éclair",
+      "decision": "REJECT",
+      "reason": "Le produit est une tirette/cordon de remplacement, pas une fermeture éclair complète."
+    },
+    {
+      "product_id": "1005008346676559",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fermeture éclair",
+      "decision": "REJECT",
+      "reason": "Le produit est une tirette de remplacement pour sac ou tente, pas une fermeture éclair complète."
+    },
+    {
+      "product_id": "1005008228019809",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fermeture éclair",
+      "decision": "REJECT",
+      "reason": "Le produit est une languette/étiquette de curseur, pas une fermeture éclair complète."
+    },
+    {
+      "product_id": "1005006757731409",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fermeture éclair",
+      "decision": "REJECT",
+      "reason": "Le produit est un kit de curseurs de réparation, pas une fermeture éclair complète."
+    },
+    {
+      "product_id": "1005003449182081",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fermeture éclair",
+      "decision": "REJECT",
+      "reason": "Le produit est un kit de curseurs instantanés, pas une fermeture éclair complète."
+    },
+    {
+      "product_id": "1005005792377152",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fermeture éclair",
+      "decision": "REJECT",
+      "reason": "Le produit est un lot de tirettes détachables, pas une fermeture éclair complète."
+    },
+    {
+      "product_id": "1005008542884371",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fermeture éclair",
+      "decision": "REJECT",
+      "reason": "Le produit est un lot de têtes/curseurs de réparation, pas une fermeture éclair complète."
+    },
+    {
+      "product_id": "1005007487193822",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fermeture éclair",
+      "decision": "REJECT",
+      "reason": "Le produit est un kit de curseurs de remplacement, pas une fermeture éclair complète."
+    },
+    {
+      "product_id": "1005009479145201",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fermeture éclair",
+      "decision": "REJECT",
+      "reason": "Le produit est une tête de fermeture détachable, pas une fermeture éclair complète."
+    },
+    {
+      "product_id": "1005007588726255",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fermeture éclair",
+      "decision": "REJECT",
+      "reason": "Le produit est un outil/curseur de réparation, pas une fermeture éclair complète."
+    },
+    {
+      "product_id": "1005011979292123",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fermeture éclair",
+      "decision": "REJECT",
+      "reason": "Le produit est un lot de têtes universelles de remplacement, pas une fermeture éclair complète."
+    },
+    {
+      "product_id": "1005009077585671",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fermeture éclair",
+      "decision": "REJECT",
+      "reason": "Le produit est une tête de verrouillage/coulisseau, pas une fermeture éclair complète."
+    },
+    {
+      "product_id": "1005007883458541",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fermeture éclair",
+      "decision": "REJECT",
+      "reason": "Le produit est un kit de curseurs et dents de réparation, pas une fermeture éclair complète."
+    },
+    {
+      "product_id": "1005012526667097",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fermeture éclair",
+      "decision": "REJECT",
+      "reason": "Le produit est un lot de têtes YKK, pas une fermeture éclair complète."
+    },
+    {
+      "product_id": "1005012869878141",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fermeture éclair",
+      "decision": "REJECT",
+      "reason": "Le produit est un kit de têtes de remplacement, pas une fermeture éclair complète."
+    },
+    {
+      "product_id": "1005010407994315",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fermeture éclair",
+      "decision": "REJECT",
+      "reason": "Le produit est une pince antivol/connecteur pour tirettes, pas une fermeture éclair complète."
+    },
+    {
+      "product_id": "1005005905201144",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fil à coudre",
+      "decision": "REJECT",
+      "reason": "Le produit est un fil épais destiné au tricot/crochet, pas du fil à coudre."
+    },
+    {
+      "product_id": "1005008932166531",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fil à coudre",
+      "decision": "REJECT",
+      "reason": "Le listing vend une boîte de rangement pour rouleaux, pas du fil à coudre."
+    },
+    {
+      "product_id": "1005007709003775",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fil à coudre",
+      "decision": "REJECT",
+      "reason": "Le produit est un ressort de tension de machine à coudre, pas du fil."
+    },
+    {
+      "product_id": "1005007707214445",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "fil à coudre",
+      "decision": "REJECT",
+      "reason": "Le listing vend une machine de reliure/couture de livres, pas du fil à coudre."
+    },
+    {
+      "product_id": "1005009758906036",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "mètre ruban couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « mètre ruban couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005006841331569",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "craie tailleur",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « craie tailleur » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005010535531894",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "craie tailleur",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « craie tailleur » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005007242914634",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "craie tailleur",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « craie tailleur » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005007039379903",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "craie tailleur",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « craie tailleur » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005006401115401",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "mètre ruban couture",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « mètre ruban couture » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005007175243355",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "craie tailleur",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « craie tailleur » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005010242507875",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "craie tailleur",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « craie tailleur » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005009261652367",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "passepoil couture",
+      "decision": "REJECT",
+      "reason": "Le produit est un enfile-cordon, pas un passepoil textile."
+    },
+    {
+      "product_id": "1005010376087267",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "passepoil couture",
+      "decision": "REJECT",
+      "reason": "Le produit est un outil flexible pour enfiler un cordon, pas un passepoil."
+    },
+    {
+      "product_id": "1005005609742146",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "élastique couture",
+      "decision": "REJECT",
+      "reason": "Le produit est une pince/enfileur pour bande élastique, pas l’élastique de couture lui-même."
+    },
+    {
+      "product_id": "32922615976",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "élastique couture",
+      "decision": "REJECT",
+      "reason": "Le produit est un pied presseur destiné à poser un élastique, pas de l’élastique."
+    },
+    {
+      "product_id": "1005005876298802",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "élastique couture",
+      "decision": "REJECT",
+      "reason": "Le listing vend une machine de découpe pour sangles/élastiques, pas de l’élastique de couture."
+    },
+    {
+      "product_id": "1005008929852025",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "élastique couture",
+      "decision": "REJECT",
+      "reason": "Le produit est un tissu en dentelle brodée à filet extensible, pas un élastique de couture en bande."
+    },
+    {
+      "product_id": "1005009739521403",
+      "niche": "Mercerie créative & arts du fil",
+      "keyword": "élastique couture",
+      "decision": "REJECT",
+      "reason": "Le listing vend un pantalon fini avec ceinture élastique, pas l’élastique de couture lui-même."
+    },
+    {
+      "product_id": "1005009965158703",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "kit scrapbooking",
+      "decision": "REJECT",
+      "reason": "Le produit est un lot de flacons applicateurs de colle, pas un kit de scrapbooking."
+    },
+    {
+      "product_id": "1005006826654310",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "kit scrapbooking",
+      "decision": "REJECT",
+      "reason": "Le produit est une planche d’autocollants seule, pas un kit de scrapbooking."
+    },
+    {
+      "product_id": "1005007309919224",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "kit scrapbooking",
+      "decision": "REJECT",
+      "reason": "Le produit est un lot d’autocollants seul, pas un kit de scrapbooking."
+    },
+    {
+      "product_id": "1005012602437834",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "kit scrapbooking",
+      "decision": "REJECT",
+      "reason": "Le produit est un lot de matrices/pochoirs Halloween, pas un kit complet de scrapbooking."
+    },
+    {
+      "product_id": "1005007809608888",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "kit scrapbooking",
+      "decision": "REJECT",
+      "reason": "Le produit est un carnet effaçable avec stylo, pas un kit de scrapbooking."
+    },
+    {
+      "product_id": "1005006922822451",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "kit scrapbooking",
+      "decision": "REJECT",
+      "reason": "Le produit est un ensemble de stylos gel, pas un kit de scrapbooking."
+    },
+    {
+      "product_id": "1005007208559731",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "massicot papier",
+      "decision": "REJECT",
+      "reason": "Le produit est un cutter circulaire de précision ; ce n’est pas un massicot ou coupe-papier à base."
+    },
+    {
+      "product_id": "1005006609516580",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "colle scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « colle scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005007875631808",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "ruban scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « ruban scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005006208586072",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "colle scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « colle scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005010193014036",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "papier scrapbooking",
+      "decision": "REJECT",
+      "reason": "Le produit est une perforatrice motif timbre, pas du papier de scrapbooking."
+    },
+    {
+      "product_id": "1005008932053606",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "colle scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « colle scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005010628126942",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "papier scrapbooking",
+      "decision": "REJECT",
+      "reason": "Le produit est une perforatrice à levier, pas du papier de scrapbooking."
+    },
+    {
+      "product_id": "1005006619183760",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "colle scrapbooking",
+      "decision": "REJECT",
+      "reason": "Le produit est un ruban washi décoratif pailleté, pas une colle de scrapbooking."
+    },
+    {
+      "product_id": "1005004107200155",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dies scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005009680305514",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "REJECT",
+      "reason": "Le titre est trompeur : le visuel montre un assortiment de feuilles de papier, pas des dies."
+    },
+    {
+      "product_id": "1005008231700056",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dies scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005010457223731",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dies scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005004114886540",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dies scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005005371277408",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dies scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005010783492913",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "REJECT",
+      "reason": "Le visuel reproduit explicitement le produit et la marque Gina K. Designs ; risque de propriété intellectuelle/licence."
+    },
+    {
+      "product_id": "1005007072232409",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dies scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005012551410867",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dies scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005006772997485",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dies scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005012228810068",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "REJECT",
+      "reason": "Le visuel montre des tampons transparents Divinity Designs, pas des dies, avec une marque tierce explicitement visible."
+    },
+    {
+      "product_id": "1005010429421306",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dies scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005001902319639",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dies scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005012742781255",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "perforatrice scrapbooking",
+      "decision": "REJECT",
+      "reason": "Le visuel montre un anneau/élément de reliure 12 mm, pas une perforatrice 6 trous ; incohérence titre-produit."
+    },
+    {
+      "product_id": "1005012831103414",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dies scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005010457189788",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dies scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005010507766121",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dies scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005012738372974",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dies scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "4000739441099",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dies scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005010177408288",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "REJECT",
+      "reason": "Le visuel reproduit explicitement un produit CarlijnDesign et ses créations ; risque de propriété intellectuelle/licence."
+    },
+    {
+      "product_id": "1005010478623397",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "REJECT",
+      "reason": "Le visuel reproduit explicitement un produit The Ton Couture Designs ; risque de propriété intellectuelle/licence."
+    },
+    {
+      "product_id": "1005009663448160",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dies scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005010712202466",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dies scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005012437362363",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dies scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005012298870407",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dies scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005012480547461",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "dies scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « dies scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005007930201254",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005007773636445",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "stickers scrapbooking",
+      "decision": "REJECT",
+      "reason": "Le titre et le visuel utilisent les personnages Calico Critters/Sylvanian Families, une propriété sous licence."
+    },
+    {
+      "product_id": "1005009580818309",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "stickers scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « stickers scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005006543445188",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "stickers scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « stickers scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005008051159091",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "stickers scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « stickers scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005008993316209",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "stickers scrapbooking",
+      "decision": "REJECT",
+      "reason": "Le visuel contient des personnages de franchise de type Sanrio clairement reconnaissables ; risque de licence."
+    },
+    {
+      "product_id": "1005007836517200",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "stickers scrapbooking",
+      "decision": "REJECT",
+      "reason": "Le produit est un planificateur magnétique pour réfrigérateur, pas des stickers de scrapbooking."
+    },
+    {
+      "product_id": "1005006800190930",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "tampon scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « tampon scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005003402292831",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "encre scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « encre scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005008497051999",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "tampon scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « tampon scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005005857371890",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "tampon scrapbooking",
+      "decision": "REJECT",
+      "reason": "Le produit est un massicot/coupe-papier A2 ; « tampon » désigne ici le support de coupe, pas un tampon de scrapbooking."
+    },
+    {
+      "product_id": "1005012801944929",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "tampon scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « tampon scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005011819389300",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "tampon scrapbooking",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « tampon scrapbooking » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005007611050217",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "washi tape",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « washi tape » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005011747087858",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "washi tape",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « washi tape » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005007987196454",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "washi tape",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « washi tape » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005008415383372",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "washi tape",
+      "decision": "REJECT",
+      "reason": "Le listing est une « lucky bag » dont le contenu exact n’est pas vérifiable ; aucun washi tape précis n’est garanti par le visuel."
+    },
+    {
+      "product_id": "1005010201676698",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "washi tape",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « washi tape » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    },
+    {
+      "product_id": "1005007492335415",
+      "niche": "Scrapbooking & journaling",
+      "keyword": "washi tape",
+      "decision": "ACCEPT",
+      "reason": "Le listing vend directement un article conforme au mot-clé « washi tape » ; aucun personnage, franchise ou motif sous licence évident n’a été relevé sur le visuel contrôlé."
+    }
+  ]
+}
+
