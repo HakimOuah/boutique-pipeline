@@ -59,7 +59,9 @@ Les études concurrentielles profondes (protocole phase 2, dossiers dans `compet
 
 **Scrapbooking et perles** (tes 2 niches restantes) : pas encore d'étude profonde — **suspends leur sourcing** jusqu'au verdict phase 2 ; signaux défavorables a priori (tickets faibles, même famille loisirs créatifs que la mercerie). **Aquariophilie** : 2e rideau, étude à venir, ne pas sourcer.
 
-Réouverture d'un de ces dossiers : uniquement via `/qualifie-idees` avec reprise motivée (produit précis, non standardisé, hors du champ des verrouilleurs identifiés).
+**Mise à jour du 08/08 soir — correction de méthode Hakim** : les visites Brand Search ne sont pas fiables ; règle = **SimilarWeb ×3** (benchmark : style-hippie.com d'Enzo « presque rentable » à ~11 k visites réelles — un petit trafic n'est PAS un signal d'échec Kraken). Après relecture ([reports/relecture-verdicts-similarweb-2026-08-08.md](../reports/relecture-verdicts-similarweb-2026-08-08.md)) : les 6 STOP structurels tiennent (mercerie, chien, basse-cour, aquario, terrarium, lunch box adouci) — ne les source toujours pas. **Deux dossiers repassent en instruction : théière et puzzle 3D bois** (GO_CONDITIONNEL possible, conditions chiffrées dans la relecture) — n'engage pas leur sourcing avant la levée des conditions, mais tiens-toi prêt sur ces deux-là. Dans tes futurs profils concurrents, source le trafic via SimilarWeb ×3, jamais Brand Search.
+
+Réouverture des autres dossiers : uniquement via `/qualifie-idees` avec reprise motivée (produit précis, non standardisé, hors du champ des verrouilleurs identifiés).
 
 ## Application du gate v3 (pour les prochaines niches, pas celles ci-dessus)
 
