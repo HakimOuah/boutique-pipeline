@@ -813,3 +813,36 @@ vérifier la référence réellement livrée par le fournisseur.
   inchangé.
 
 **Cumul : 44 visuels rattachés sur 40 fiches. 2 refus.**
+
+---
+
+## Tour 27 — 09/08/2026 ~02h10
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `montre-field-bronze-cadran-chiffres-1-12` | `-g1` macro cornes bronze + cuir caramel | 5/5 | Éclaireur Bronze — macro de la jonction entre les cornes bronze à finition vieillie mouchetée et le bracelet cuir caramel texturé à surpiqûres brunes — Maison Noirmont |
+
+### Contrôles du tour 27
+
+- **Point de vigilance soulevé par le compte-rendu** : Codex décrit une « patine sombre
+  irrégulière », alors que la fiche vend un « boîtier en acier traité **PVD bronze** — la
+  teinte chaude du bronze, **sans sa patine imprévisible** ». Contrôle fait sur les quatre
+  vues déjà en ligne : elles montrent **déjà** ce même aspect bronze vieilli moucheté, sur
+  le boîtier comme sur les cornes. La macro livrée est donc **cohérente avec le produit
+  photographié** ; la formule de la fiche porte sur le fait que la teinte **n'évoluera pas**
+  dans le temps (contrairement au bronze massif), pas sur l'absence d'aspect vieilli.
+  Aucune contradiction introduite par ce visuel. Alt rédigé en « finition vieillie »
+  plutôt qu'en « patine » pour rester aligné sur le texte de la fiche.
+- **Distinction avec l'Éclaireur Acier (tour 26)** : cornes bronze vs cornes acier brossé,
+  cuir caramel très texturé vs cuir châtaigne lisse, surpiqûres brunes vs surpiqûres crème.
+  Les deux visuels ne sont pas interchangeables. Aucune interversion.
+- **Cadran entièrement exclu** : ni les douze chiffres, ni la piste 24 h, ni les repères
+  orange n'apparaissent. Aucun texte, aucune mention d'origine.
+- Codex signale avoir écarté une première génération qui « ajoutait une surface circulaire
+  bronze ambiguë au-dessus des cornes » — élément inventé, bien rejeté.
+- Source versionnée présente ; aucun avis ni badge ; 2048×2048 JPEG ; fin de galerie (5/5),
+  image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 45 visuels rattachés sur 41 fiches. 2 refus.**
