@@ -105,3 +105,26 @@ Quatre nouveaux dossiers livrés pendant le tour 1.
 - Ajout en fin de galerie, image 1 intacte, statuts ACTIVE inchangés.
 
 **Cumul : 14 visuels rattachés sur 10 fiches. 0 refus.**
+
+---
+
+## Tour 3 — 09/08/2026 ~00h15
+
+### Rattachés (2 visuels sur 2 fiches)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `heritage-vert-plongeuse-vintage-42` | `-g1` macro bracelet acier | 5/5 | Héritage Vert — macro oblique du bracelet acier trois maillons entièrement brossé et de sa courbure — Maison Noirmont |
+| `integrale-blanc-argente-sport-chic-acier` | `-g1` macro vis de lunette | 5/5 | Intégrale Blanc argenté — macro oblique de deux vis de lunette et de l'alternance brossé/poli du boîtier octogonal — Maison Noirmont |
+
+### Contrôles du tour 3
+
+- **Fidélité produit** : la fiche Héritage Vert ne décrit pas son bracelet en texte ;
+  contrôle fait sur la source `heritage-vert-lunette-verte.jpg`, qui montre bien un
+  bracelet acier trois maillons — la macro correspond. Intégrale Blanc argenté : boîtier
+  octogonal à vis apparentes, identique à la construction de l'Intégrale, et la tranche
+  de cadran visible est bien claire (blanc argenté).
+- Aucun logo, lettrage ni mention d'origine ; aucun avis ni badge ; sources présentes ;
+  2/2 en 2048×2048 JPEG ; ajout en fin de galerie, image 1 intacte, statuts inchangés.
+
+**Cumul : 16 visuels rattachés sur 12 fiches. 0 refus.**
