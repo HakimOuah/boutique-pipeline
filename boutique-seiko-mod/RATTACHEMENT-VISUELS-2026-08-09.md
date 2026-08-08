@@ -128,3 +128,26 @@ Quatre nouveaux dossiers livrés pendant le tour 1.
   2/2 en 2048×2048 JPEG ; ajout en fin de galerie, image 1 intacte, statuts inchangés.
 
 **Cumul : 16 visuels rattachés sur 12 fiches. 0 refus.**
+
+---
+
+## Tour 4 — 09/08/2026 ~00h20
+
+### Rattachés (2 visuels sur 2 fiches)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `integrale-bleu-ciel-sport-chic-acier` | `-g1` macro bracelet intégré | 5/5 | Intégrale Bleu ciel — macro du bracelet intégré acier : larges plaques brossées, deux connecteurs par articulation et chants polis — Maison Noirmont |
+| `integrale-bleu-nuit-sport-chic-acier` | `-g1` profil couronne + flanc | 5/5 | Intégrale Bleu nuit — profil rapproché de la couronne géométrique stérile, du flanc acier brossé et du chanfrein poli — Maison Noirmont |
+
+### Contrôles du tour 4
+
+- **Fidélité produit** : les deux fiches vendent un « bracelet intégré en acier, finition
+  brossée » ; la macro Bleu ciel montre bien un bracelet intégré (plaques larges, deux
+  connecteurs par articulation), pas un trois-maillons rapporté. Le profil Bleu nuit
+  montre une tranche de cadran bleu sombre, conforme au coloris vendu.
+- Couronne géométrique **vierge** sur le Bleu nuit : aucun logo, sigle ni lettrage.
+  Aucun avis ni badge. Sources présentes. 2/2 en 2048×2048 JPEG.
+- Ajout en fin de galerie, image 1 intacte, statuts ACTIVE inchangés.
+
+**Cumul : 18 visuels rattachés sur 14 fiches. 0 refus.**
