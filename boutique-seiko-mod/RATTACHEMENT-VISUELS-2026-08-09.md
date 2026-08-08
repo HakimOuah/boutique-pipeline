@@ -252,3 +252,47 @@ Décision à prendre par Hakim : soit régénérer les galeries à partir des so
 (`visuels-aviateur-2026-07-27/generated/`), soit réécrire les fiches pour vendre la plongeuse.
 
 **Cumul inchangé : 21 visuels rattachés sur 17 fiches. 2 refus.**
+
+---
+
+## Tour 8 — 09/08/2026 ~00h35
+
+Trois dossiers `quarante-et-un-*` livrés pendant le tour 7. **Handles valides cette fois** —
+les trois existent bien sur la boutique et sont ACTIVE.
+
+### Rattachés (3 visuels sur 3 fiches)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `quarante-et-un-blanc-cuir-sport-acier` | `-g1` macro corne + cuir | 5/5 | Quarante-et-Un Blanc — macro de la jonction entre la corne acier brossée et le bracelet cuir brun foncé grainé, surpiqûre ton sur ton, tranche de cadran blanc visible — Maison Noirmont |
+| `quarante-et-un-bleu-acier-sport-acier` | `-g1` macro jonction boîte-bracelet | 5/5 | Quarante-et-Un Bleu Acier — macro de la jonction boîtier-bracelet : premiers maillons acier étagés brossés et polis, cadran bleu roi soleillé à index dorés en haut de cadre — Maison Noirmont |
+| `quarante-et-un-bleu-cuir-sport-acier` | `-g1` macro corne + cuir surpiqûres beige | 5/5 | Quarante-et-Un Bleu — macro de la jonction entre la corne acier brossée et le bracelet cuir brun foncé à surpiqûres beige, tranche de cadran bleu roi visible — Maison Noirmont |
+
+### Contrôles du tour 8
+
+- **Fidélité produit — le point sensible de cette fournée, les trois fiches partagent le
+  même boîtier et ne se distinguent que par cadran + bracelet.** Vérifié un à un :
+
+| Fiche | Ce que la fiche vend | Ce que la macro montre | Verdict |
+|---|---|---|---|
+| Blanc | « Cadran blanc et bracelet cuir brun foncé » | fragment de cadran **blanc** + cuir brun foncé, surpiqûre **ton sur ton** | conforme |
+| Bleu Acier | « Cadran bleu roi soleillé · bracelet acier brossé et poli » | cadran **bleu soleillé** à index dorés + maillons **acier** étagés | conforme |
+| Bleu (cuir) | « Cadran bleu roi et bracelet cuir brun foncé » | fragment de cadran **bleu** + cuir brun foncé, surpiqûres **beige** | conforme |
+
+  Aucune inversion cadran/bracelet entre les trois. Codex a même distingué correctement la
+  couleur des surpiqûres — brun ton sur ton sur le Blanc, beige sur le Bleu cuir — conforme
+  aux planches QA des quatre vues existantes.
+- **Cadran** : un fragment périphérique est visible sur les trois (indices appliqués, piste
+  des minutes). **Aucun logo, sigle, lettrage ni mention d'origine** — cadrans stériles,
+  guichet de date sans texte. Vigilance plongeuse sans objet : aucune de ces trois n'a de
+  lunette graduée.
+- **Avis / badges** : aucun.
+- **Sources** : le manifeste cite à nouveau `scratchpad/noirmont-galeries/entrees-faces/…`,
+  chemin qui n'existe pas dans le repo. Contrôle de substitution fait sur les planches QA,
+  qui montrent les quatre vues en ligne de chaque fiche — le sujet livré correspond.
+  *Point de forme à corriger côté Codex : citer un chemin versionné, pas un scratchpad.*
+- **Technique** : 3/3 en 2048×2048 JPEG.
+- Ajout en fin de galerie (5/5), image 1 intacte, statuts ACTIVE inchangés, aucun média
+  supprimé, aucun texte ni prix ni variante touché.
+
+**Cumul : 24 visuels rattachés sur 20 fiches. 2 refus.**
