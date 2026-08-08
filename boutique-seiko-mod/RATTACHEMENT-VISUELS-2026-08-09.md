@@ -1089,3 +1089,26 @@ chaque cas. À corriger côté Codex : citer un chemin versionné du repo, comme
 correctement pour les Squelettes et les Éclaireurs.
 
 **Cumul : 55 visuels rattachés sur 51 fiches. 2 refus.**
+
+---
+
+## Tour 39 — 09/08/2026 ~03h10
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `remontoir-collection-bois-led-rouge` | `-g1` macro chant d'étagère + halo LED | 3/3 | Remontoir Collection Bois LED rouge — macro du chant d'étagère en bois rouge profond, de l'entourage doré d'un logement et du halo ambré de l'éclairage LED dissimulé — Maison Noirmont |
+
+- **Fidélité** : « Coffret en bois à **éclairage LED**, intérieur **rouge** » → bois rouge
+  profond, entourage doré du logement, coussin fauve et **halo LED ambré** bien visible sous
+  l'étagère. L'éclairage, qui est l'argument de vente distinctif de cette déclinaison, est
+  effectivement montré. Conforme.
+- **Montre et cadran exclus** : le logement apparaît vide, seul son entourage doré est cadré.
+  Aucun cadran, donc aucun risque de logo ou de mention d'origine.
+- Troisième variante de Remontoir Collection traitée (noir, beige, LED rouge), toutes
+  distinctes à l'image.
+- Aucun lettrage ni marque ; aucun avis ni badge ; 2048×2048 JPEG ; fiche à 2 médias,
+  le nouveau se place en 3/3, image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 56 visuels rattachés sur 52 fiches. 2 refus.**
