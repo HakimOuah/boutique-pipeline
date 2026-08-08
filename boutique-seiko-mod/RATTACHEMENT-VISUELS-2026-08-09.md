@@ -485,3 +485,27 @@ Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
 - Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 32 visuels rattachés sur 28 fiches. 2 refus.**
+
+---
+
+## Tour 16 — 09/08/2026 ~01h15
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `trente-six-rouge-classique-jubile` | `-g1` profil rapproché couronne + jubilé | 5/5 | Trente-Six Rouge — profil rapproché : boîtier acier fin, couronne cannelée à sommet lisse, tranche de cadran rouge cramoisi sous le verre et première articulation du bracelet jubilé — Maison Noirmont |
+
+### Contrôles du tour 16
+
+- **Fidélité produit** : « cadran rouge cramoisi », « le boîtier et le bracelet jubilé
+  restent en **acier** ». La tranche de cadran visible sous le verre est bien **rouge sombre**
+  (pas bordeaux, pas rose), le boîtier et le bracelet sont en acier, et l'articulation
+  visible à gauche est celle d'un jubilé. Conforme.
+- **Couronne cadrée en gros plan** : cannelure fine, **sommet parfaitement lisse** — aucun
+  logo, blason ni gravure.
+- **Cadran et date hors champ** : aucun texte, aucune mention d'origine.
+- Aucun avis ni badge ; 2048×2048 JPEG.
+- Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 33 visuels rattachés sur 29 fiches. 2 refus.**
