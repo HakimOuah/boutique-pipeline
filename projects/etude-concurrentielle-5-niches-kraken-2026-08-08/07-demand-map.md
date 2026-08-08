@@ -11,11 +11,26 @@
 |---|---:|---|---|---:|---|
 | Mobilité chien | 81 860 | atteint | atteint | 118 | `GO` |
 | Mercerie créative | 221 680 | atteint | atteint | 129 | `GO` |
-| Scrap/journaling | 64 740 | atteint | atteint | 125 | `GO` |
+| Scrap/journaling | 64 740 historique non reproduit | non prouvé | non prouvé | 125 historiques | `MANQUANT_RENETTOYAGE` |
 | Perles/bijoux | 35 770 | atteint | non atteint | 130 | `GO_CONDITIONNEL` |
 | Aquascaping | 48 320 | atteint | atteint | 130 | `GO` |
 
-Nettoyage majeur : retrait de `album photo` et `sticker` pour le scrap, `perle` singulier pour les bijoux et `aquarium` générique pour l’aquascaping. Les détails collection par collection sont conservés dans le classeur de recherche.
+Nettoyage historique : retrait de `album photo` et `sticker` pour le scrap,
+`perle` singulier pour les bijoux et `aquarium` générique pour l'aquascaping.
+La mention ne suffit pas à reproduire le total scrap ; les détails restent
+conservés dans le classeur mais le gate actif utilise la preuve reconstructible.
+
+## Audit correctif scrap — phase 2
+
+- `scrapbooking` : 27 100, avec SERP mixte commerciale/informationnelle.
+- Union des ancres mesurées stockée : 11 360.
+- Total historique stocké : 64 740.
+- Formule, liste dédupliquée et classification d'intention permettant de passer
+  de ces objets à 64 740 : `MANQUANT`.
+
+Le marché n'est pas déclaré sans demande. En revanche, aucun nouveau total
+« propre » n'est extrapolé : le seuil 30 k reste non prouvé jusqu'à une nouvelle
+mesure requête par requête.
 
 ## Règles collections
 
@@ -34,6 +49,7 @@ Nettoyage majeur : retrait de `album photo` et `sticker` pour le scrap, `perle` 
 
 ## Décision
 
-- Gate demande : cinq niches passent le minimum.
+- Gate demande historique : cinq niches étaient déclarées au-dessus du minimum ;
+  cette conclusion est supplantée pour le scrap par `MANQUANT_RENETTOYAGE`.
 - Gate catalogue de lancement : `MANQUANT` pour les cinq ; la salve actuelle n’est pas un catalogue de 200 produits validés.
 - Condition de revue : shortlist, preuves SKU et économie du panier.

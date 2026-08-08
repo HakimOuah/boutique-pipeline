@@ -15,7 +15,10 @@
 ## Mode commercial et seuils
 
 - Mode : `catalogue-volume` low ticket autorisé.
-- Volumes commerciaux nettoyés France : chien 81 860 ; mercerie 221 680 ; scrap 64 740 ; perles 35 770 ; aquarium 48 320.
+- Volumes commerciaux nettoyés France historiques : chien 81 860 ; mercerie
+  221 680 ; scrap 64 740 **non reproductible depuis le fichier conservé** ;
+  perles 35 770 ; aquarium 48 320. Pour le scrap, le statut actif est
+  `MANQUANT_RENETTOYAGE`, sans total de remplacement inventé.
 - Plancher/objectif retenu : 30 000 minimum / 40 000+ confort.
 - Collection cœur — cible : 1 000+ ; bande de revue : 800–999.
 - Collection secondaire — cible : 500+ ; bande de revue : 300–499.
@@ -63,11 +66,13 @@
   preuve est portée par les collections, un jumeau concurrent n'est pas requis
   par PDP et un volume produit peut être égal à zéro.
 - Mobilité chien, mercerie et aquascaping : `STOP_PHASE_2`.
-- Scrap/journaling et perles/bijoux : `SUSPENDU_PHASE_2`; aucune n'autorise
-  encore le sourcing exact.
+- Scrap/journaling : `STOP_PHASE_2` après étude profonde ; sourcing interdit et
+  réouverture uniquement par `/qualifie-idees`.
+- Perles/bijoux : `SUSPENDU_PHASE_2`; le sourcing exact reste interdit jusqu'au
+  verdict profond.
 - Le second rideau a aussi été instruit : Puzzle 3D bois, théière et lunch box
-  sont `STOP_PHASE_2`. Avec basse-cour et terrarium, huit dossiers étudiés en
-  profondeur sur huit ont été arrêtés.
+  sont `STOP_PHASE_2`. Avec basse-cour, terrarium et scrap, neuf dossiers
+  étudiés en profondeur sur neuf ont été arrêtés.
 - Aucun site n'est sélectionné. Les actions autorisées restent lecture, mesure
   et étude concurrentielle ; publication, import, commande et dépense restent
   interdits.

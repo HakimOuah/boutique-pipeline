@@ -316,7 +316,7 @@ Ce registre est la source de vérité exclusive de l'expérience Codex. Le regis
 |---|---|---|---:|---:|---|
 | kraken-cat-20260808-c01 | **A_CREUSER_CATALOGUE** | Balade, transport & mobilité du chien | 81 860 | 118 | Sécurité, charge et tailles |
 | kraken-cat-20260808-c02 | **A_CREUSER_CATALOGUE** | Mercerie créative & arts du fil | 221 680 | 129 | Concurrence établie et angle de marque |
-| kraken-cat-20260808-c03 | **A_CREUSER_CATALOGUE** | Scrapbooking & journaling | 64 740 | 125 | IP, bruit API et mix informationnel |
+| kraken-cat-20260808-c03 | **HISTORIQUE_SUPERSEDE** | Scrapbooking & journaling | 64 740 non reproduit | 125 | Phase 2 : `STOP`; total propre à reconstruire ; sourcing interdit |
 | kraken-cat-20260808-c04 | **A_CREUSER_CATALOGUE** | Perles & création de bijoux | 35 770 | 130 | Sous 40 k ; matières et petites pièces |
 | kraken-cat-20260808-c05 | **A_CREUSER_CATALOGUE** | Aquariophilie & aquascaping | 48 320 | 130 | Électricité, étanchéité et bien-être animal |
 
@@ -342,7 +342,7 @@ Ce registre est la source de vérité exclusive de l'expérience Codex. Le regis
 |---|---|---|---:|---:|---:|---:|---|
 | kraken-tree-20260808-c01 | **A_CREUSER_CATALOGUE** | Balade, transport & mobilité du chien | 81 860 | 59 | 32 | 100 | Sécurité, charge, tailles et déficit de 68 références |
 | kraken-tree-20260808-c02 | **A_CREUSER_CATALOGUE** | Mercerie créative & arts du fil | 221 680 | 97 | 45 | 200 | Concurrence installée, vérité matière et déficit de 155 références |
-| kraken-tree-20260808-c03 | **A_CREUSER_CATALOGUE** | Scrapbooking & journaling | 64 740 | 59 | 38 | 100 | Propriété intellectuelle, produits chimiques et déficit de 62 références |
+| kraken-tree-20260808-c03 | **HISTORIQUE_SUPERSEDE** | Scrapbooking & journaling | 64 740 non reproduit | 59 | 38 | 100 | Bibliothèque historique ; Phase 2 `STOP`, sans sourcing |
 | kraken-tree-20260808-c04 | **A_CREUSER_CATALOGUE** | Perles & création de bijoux | 35 770 | 200 | 72 | 200 | Métaux/matières, sous 40 k confort et déficit de 128 références |
 | kraken-tree-20260808-c05 | **A_CREUSER_CATALOGUE** | Aquariophilie & aquascaping | 48 320 | 68 | 25 | 100 | Électricité, CO2, bien-être animal et déficit de 75 références |
 
@@ -366,7 +366,7 @@ concurrent facultatif, concept/listing/revue humaine maintenus.
 | Mercerie | `STOP_PHASE_2` | interdit | `/qualifie-idees` uniquement |
 | Équipement basse-cour | `STOP_PHASE_2` | interdit | `/qualifie-idees` uniquement |
 | Terrarium | `STOP_VERROUILLE` | interdit | `/qualifie-idees` uniquement |
-| Scrap/journaling | `SUSPENDU_PHASE_2` | interdit | étude profonde avant toute shortlist |
+| Scrap/journaling | `STOP_PHASE_2` | interdit | `/qualifie-idees` uniquement ; modèle marque/stock-kitting à requalifier séparément |
 | Perles/bijoux | `SUSPENDU_PHASE_2` | interdit | étude profonde avant toute shortlist |
 | Aquarium/aquascaping | `STOP_PHASE_2` | interdit | `/qualifie-idees` uniquement |
 | Puzzle 3D bois | `STOP_PHASE_2` | interdit | `/qualifie-idees` uniquement |
@@ -377,3 +377,4 @@ concurrent facultatif, concept/listing/revue humaine maintenus.
 |---|---|---|---:|---|
 | 2026-08-08 | gate-v3-reclassification | Gate produit corrigé sans rouvrir les STOP ; file de phase 2 enregistrée | 0 | Puzzle 3D bois : étude concurrentielle profonde, sans sourcing |
 | 2026-08-08 | second-rideau-phase2 | Puzzle 3D, aquarium, théière et lunch box tous arrêtés ; 8/8 dossiers profonds en STOP | 0 | Étudier scrap/journaling puis perles/bijoux, sans sourcing |
+| 2026-08-08 | phase2-scrapbooking | Scrap/journaling arrêté : volume propre non reproductible, spécialistes/marketplaces forts et comparable dropship sans traction prouvée | 0 | Étudier perles/bijoux, sans sourcing |

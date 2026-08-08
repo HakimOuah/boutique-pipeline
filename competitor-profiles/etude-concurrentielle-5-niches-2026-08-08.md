@@ -1,5 +1,12 @@
 # Étude concurrentielle profonde — cinq niches Kraken
 
+> **Mise à jour Phase 2 — 8 août 2026 :** l'ordre de test ci-dessous est un
+> snapshot historique désormais supplanté. L'étude profonde
+> [`scrapbooking-journaling.md`](kraken-2026-08-08/scrapbooking-journaling.md)
+> classe le scrap/journaling `STOP_PHASE_2` : le total propre de 64 740 n'est
+> pas reproductible depuis les mesures conservées, le right to win n'est pas
+> établi et aucun sourcing n'est autorisé.
+
 - **Marché** : France
 - **Date de collecte** : 8 août 2026
 - **Sources** : sites publics rendus, BrandSearch, SEMrush France, avis et communautés publiques
@@ -16,7 +23,7 @@ Un seul acteur du panel présente un faisceau suffisant pour être classé `PROB
 
 | Priorité | Niche | Demande FR nettoyée | Lecture concurrence | Right to win testable | Verdict actuel |
 |---:|---|---:|---|---|---|
-| 1 | Scrapbooking & journaling | 64 740 | Spécialistes français modestes digitalement ; NotebookTherapy prouve la force du rituel et des capsules | Boutique souvenir-first, kits modulaires, palettes et preuve couleur | `PRIORITE_TEST` |
+| 1 (historique) | Scrapbooking & journaling | 64 740 historique non reproduit | Spécialistes français, fabricants et comparable dropship désormais documentés | Hypothèse souvenir-first invalidée comme avantage suffisant | `PRIORITE_TEST` — **supplanté par `STOP_PHASE_2`** |
 | 2 | Mobilité du chien | 81 860 | Spécialistes techniques forts ; un dropshipper large mais très faible en SEO | France-first par scénario/morphologie, preuves de taille et logistique | `GO_CONDITIONNEL` — commencer non critique |
 | 3 | Mercerie créative | 221 680 | Autorités historiques et catalogues massifs ; espace débutant encore mal simplifié | Projet-first, mini-kits, quantité calculée, matière visible | `GO_CONDITIONNEL` — wedge étroit |
 | 4 | Perles & création de bijoux | 35 770 | Perles & Co possède un moat éditorial majeur ; longue traîne transactionnelle prouvée | Bijou-first, compatibilité dimensionnelle, lots et preuve métal | `GO_CONDITIONNEL` — sous le confort 40 k |

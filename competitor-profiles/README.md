@@ -5,6 +5,8 @@ Snapshot principal : **8 août 2026**.
 ## Point d'entrée
 
 - `etude-concurrentielle-5-niches-2026-08-08.md` — verdict consolidé, SEMrush, personas, positionnements et ordre de test.
+- `kraken-2026-08-08/scrapbooking-journaling.md` — audit profond Phase 2 et
+  verdict actif `STOP_PHASE_2`, qui supplante la priorité scrap historique.
 
 ## Workstreams
 
@@ -12,6 +14,13 @@ Snapshot principal : **8 août 2026**.
 - `workstreams/chien-aquarium.md` — profils, VOC et architecture chien/aquarium.
 - `workstreams/mercerie-scrapbooking.md` — profils, VOC et architecture loisirs créatifs.
 - `workstreams/perles-bijoux.md` — SEMrush, VOC et différenciation perles/bijoux.
+
+## Profils ajoutés en phase 2 scrap
+
+- `scraperie.md` — comparable `PROBABLE_DROPSHIP`, confiance élevée, sans
+  fournisseur ni succès prouvés.
+- `variations-creatives.md` — spécialiste stockiste historique et boutique
+  physique.
 
 ## Preuves brutes
 

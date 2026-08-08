@@ -46,6 +46,16 @@
 - Bundle complet, mini-bundle découverte et recharge consommable.
 - Collaborations avec créateurs/personas, tutoriels multi-niveaux et galerie client.
 
+## Raccord SEMrush France — phase 2
+
+- Authority Score 21 ; trafic organique estimé 3 216/mois ; 374 mots-clés ;
+  aucun trafic payant visible.
+- 836 domaines référents et 19 286 backlinks estimés.
+- Le réseau de revendeurs et le blog séparé ne sont pas intégralement reflétés
+  par la seule mesure du domaine boutique.
+- Lecture : sa défense repose moins sur une acquisition payante visible que sur
+  ses créations, ses collections coordonnées, ses contenus et son réseau.
+
 ## Données brutes
 
 - `competitor-profiles/raw/florileges-design/2026-08-08/`
