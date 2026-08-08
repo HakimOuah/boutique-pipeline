@@ -189,3 +189,66 @@ intégré acier, conforme. Aucun logo, avis ni badge. Source
 `integrale-turquoise.jpg` présente. 2048×2048 JPEG. Fin de galerie, image 1 intacte.
 
 **Cumul : 21 visuels rattachés sur 17 fiches. 0 refus.**
+
+---
+
+## Tour 7 — 09/08/2026 ~00h30 — **2 refus**
+
+Deux dossiers livrés : `noirmont-un-plongeuse-acier` et `noirmont-un-bronze-plongeuse`.
+**Aucun des deux n'est rattaché.** Premiers refus de la campagne.
+
+### Motif 1 — les handles du manifeste n'existent pas sur la boutique
+
+`productByHandle` renvoie `null` pour `noirmont-un-plongeuse-acier` **et** pour
+`noirmont-un-bronze-plongeuse`. Ce ne sont pas des handles produit : ce sont les **noms
+des fichiers image hérités** hébergés sur le CDN (`noirmont-un-plongeuse-acier-face.jpg`…).
+
+Les deux fiches réellement concernées sont :
+
+| Handle réel | Titre | Statut |
+|---|---|---|
+| `montre-aviateur-acier-cadran-chiffres-1-12` | Noirmont Un — Aviateur acier à chiffres 1-12 | ACTIVE |
+| `montre-aviateur-bronze-cadran-chiffres-1-12` | Noirmont Un Bronze — Aviateur bronze à chiffres 1-12 | ACTIVE |
+
+### Motif 2 — écart de fidélité produit (critère 3), rédhibitoire
+
+Les deux fiches vendent, noir sur blanc dans leur description :
+
+- « Le bracelet est en cuir brun, surpiqué clair » / « Bracelet cuir brun, surpiqûre claire »
+- « lunette **lisse, sans graduation** »
+- cadran noir à chiffres 1-12 en couronne intérieure, 5-55 en couronne extérieure
+
+Les visuels livrés sont des macros de **bracelet acier trois maillons** (et, pour le bronze,
+cornes bronze + bracelet acier). Rattacher reviendrait à afficher en galerie un bracelet que
+la fiche ne vend pas. Refus.
+
+### Motif 3 — source citée introuvable (critère 4)
+
+Le manifeste cite `scratchpad/noirmont-galeries/entrees-faces/<handle>-face.jpg`. Ce chemin
+n'existe nulle part dans le repo. L'équivalent local est
+`entrees-faces-REDONDANT-export-claude/` — et ce fichier montre **une plongeuse à lunette
+graduée sur bracelet acier**, avec des **zones de flou sur le cadran à 12 h et à 6 h**
+(emplacements typiques d'un logo et d'un lettrage masqués). Lignée de source douteuse.
+
+### L'inversion de Codex
+
+Le manifeste acier écarte `visuels-aviateur-2026-07-27/generated/noirmont-un-plongeuse-acier-face.jpg`
+au motif « nom trompeur : montre aviateur sur cuir, différente de la plongeuse acier active ».
+**C'est l'inverse.** Ce fichier écarté est le bon produit : boîtier acier, bracelet cuir brun
+surpiqué clair, lunette lisse, cadran 1-12 / 5-55 stérile — conforme mot pour mot au titre et
+à la description de la fiche ACTIVE. Codex a pris le nom de fichier hérité pour un handle et a
+généré la macro d'une montre que la boutique ne vend pas.
+
+### ⚠️ À remonter à Hakim — anomalie préexistante sur deux fiches ACTIVE
+
+Indépendamment de cette livraison : les **4 images actuellement en ligne** sur
+`montre-aviateur-acier-cadran-chiffres-1-12` et `montre-aviateur-bronze-cadran-chiffres-1-12`
+montrent une **plongeuse** (lunette graduée 10-20-30-40-50, aiguilles snowflake, bracelet acier)
+alors que le titre, la description et les options vendent un **aviateur à chiffres sur cuir brun**.
+Les deux fiches sont **ACTIVE** : ce que voit l'acheteur ne correspond pas à ce qui est décrit.
+
+Aucune correction faite ici — le mandat interdit de supprimer un média ou de toucher au texte.
+Décision à prendre par Hakim : soit régénérer les galeries à partir des sources aviateur
+(`visuels-aviateur-2026-07-27/generated/`), soit réécrire les fiches pour vendre la plongeuse.
+
+**Cumul inchangé : 21 visuels rattachés sur 17 fiches. 2 refus.**
