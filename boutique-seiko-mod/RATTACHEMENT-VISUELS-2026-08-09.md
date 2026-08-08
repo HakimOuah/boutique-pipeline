@@ -946,3 +946,28 @@ pas cherché à contourner. La fiche reste à 2 médias.
   image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 49 visuels rattachés sur 45 fiches. 2 refus.**
+
+---
+
+## Tour 33 — 09/08/2026 ~02h40
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `remontoir-bois-acajou` | `-g1` macro charnière + veinage | 3/3 | Remontoir Bois Acajou — macro de la charnière arrière en laiton, du veinage acajou brun roux satiné et de la bordure intérieure en velours noir — Maison Noirmont |
+
+- **Fidélité** : « L'acajou tire vers un **brun chaud légèrement roux**, dont la veine reste
+  lisible sous la finition **satinée** » — la macro montre exactement cette teinte et ce
+  veinage, avec la façade vitrée et le velours noir. Conforme.
+- **Le laiton est ici réel, et c'est le point intéressant** : au tour 29, Codex avait écarté
+  une génération qui **inventait** une plaque en laiton sur le Remontoir Vitrine. Ici la
+  charnière laiton existe bien sur la source et sur les vues en ligne. La distinction entre
+  élément réel et élément halluciné est faite correctement dans les deux sens.
+- **Attention handle** : ne pas confondre avec `remontoir-bois` (le produit parent, en
+  **DRAFT**, qui regroupe les quatre teintes). Le visuel est bien allé sur la déclinaison
+  Acajou ACTIVE. Aucun brouillon activé.
+- Aucun lettrage ni marque ; aucun avis ni badge ; 2048×2048 JPEG ; fiche à 2 médias,
+  le nouveau se place en 3/3, image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 50 visuels rattachés sur 46 fiches. 2 refus.**
