@@ -579,3 +579,31 @@ finalisation du dossier plutôt que traité en l'état.
 - Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 36 visuels rattachés sur 32 fiches. 2 refus.**
+
+---
+
+## Tour 20 — 09/08/2026 ~01h35
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `trente-six-or-integral-classique-jubile` | `-g1` macro jonction + jubilé or | 5/5 | Trente-Six Or intégral — macro de la jonction boîtier-bracelet : boîtier, jubilé cinq rangs et cadran dans la même teinte or jaune, relief donné par l'alternance satiné-poli des maillons — Maison Noirmont |
+
+### Les trois « dorées » de la boutique sont désormais correctement différenciées
+
+C'est le point de vigilance de cette série : trois fiches voisines, trois répartitions
+or/acier différentes, et un risque réel d'interversion. Contrôle croisé :
+
+| Fiche | Répartition vendue | Ce que montre la macro | Tour |
+|---|---|---|---|
+| `trente-six-dore-classique-jubile` | cadran doré, **boîtier et bracelet acier** | cadran champagne + acier | 19 |
+| `trente-neuf-duo-dore-classique-bicolore` | **bicolore** : lunette/couronne/maillons centraux or, maillons extérieurs acier | jubilé or au centre, acier aux bords | 15 |
+| `trente-six-or-integral-classique-jubile` | **tout or** : boîtier, bracelet et cadran | monochrome or intégral | 20 |
+
+Les trois visuels sont bien distincts et chacun correspond à sa fiche. Aucune interversion.
+
+- Cadran hors champ hormis un fragment doré sans texte ; aucun logo, aucun avis, aucun badge ;
+  2048×2048 JPEG ; fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 37 visuels rattachés sur 33 fiches. 2 refus.**
