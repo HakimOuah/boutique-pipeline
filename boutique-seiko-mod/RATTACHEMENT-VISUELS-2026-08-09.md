@@ -1155,3 +1155,53 @@ correctement pour les Squelettes et les Éclaireurs.
   le nouveau se place en 3/3, image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 58 visuels rattachés sur 54 fiches. 2 refus.**
+
+---
+
+## Tour 42 — 09/08/2026 ~03h25 — premier dossier de **variantes**
+
+`bracelet-caoutchouc-gaufre` : 6 nuanciers livrés, avec un `slot` **`variante`** et un
+`sku_fournisseur` renseigné — cas nouveau, tous les tours précédents étaient en `slot: galerie`.
+
+### Rattachés en fin de galerie (6 visuels), **sans affectation aux variantes**
+
+| Coloris | Position | Alt posé |
+|---|---|---|
+| Vert kaki | 4/9 | Bracelet caoutchouc gaufré — coloris vert kaki, motif gaufré et boucle ardillon acier argentée — Maison Noirmont |
+| Rouge | 5/9 | …coloris rouge… |
+| Bleu profond | 6/9 | …coloris bleu profond… |
+| Brun | 7/9 | …coloris brun… |
+| Noir | 8/9 | …coloris noir… |
+| Orange | 9/9 | …coloris orange… |
+
+### Pourquoi la galerie et pas les variantes
+
+Le mandat est explicite : **« Ne modifie ni prix, ni statut, ni texte, ni variante. »**
+Associer un média à une variante passe par une mutation de variante — c'est hors mandat, je
+ne l'ai pas fait. En revanche `productCreateMedia` en fin de galerie est purement additif et
+autorisé : le travail de Codex n'est pas perdu, les six visuels sont sur la fiche, et la
+fiche gagne un nuancier visible.
+
+**À faire par Hakim** : affecter chacun de ces six médias à sa variante. Les
+`sku_fournisseur` sont dans le manifeste (`200000049:3348727#Green-Silver Buckle`, etc.),
+la correspondance est immédiate.
+
+### Contrôles du tour 42
+
+- **Fidélité** : la fiche vend un « motif **gaufré** », « boucle ardillon acier, quatre
+  finitions », et met en garde : « **À ne pas confondre avec un tropical FKM** ». Les six
+  visuels montrent bien le quadrillage gaufré épais, pas le dessin tropical — la mise en
+  garde de la fiche est respectée à l'image. Boucle argentée sur les six, conforme aux
+  six variantes ciblées.
+- **Cohérence de série** : cadrage, ombre, relief, perçages et boucle strictement identiques ;
+  seule la teinte du caoutchouc change. Aucun logo, aucun texte, aucun avis ni badge.
+- **Technique** : 6/6 en 2048×2048 JPEG.
+- **Autodiscipline de Codex à souligner** : 30 combinaisons sur 36 ont été **écartées**, dont
+  27 finitions de boucle (dorée, noire, or rose) au motif que le changement de finition « ne
+  conserve pas la géométrie au niveau requis », et 3 teintes claires (blanc, jaune, bleu
+  clair) où « le masque matière laisse une sous-face noire trop visible ». Les 6 fichiers
+  rejetés sont conservés dans `rejected/`. C'est exactement le bon arbitrage : ne livrer que
+  ce qui tient, plutôt que remplir les 36 cases.
+- Image 1 intacte, statut ACTIVE inchangé, aucune variante touchée.
+
+**Cumul : 64 visuels rattachés sur 55 fiches. 2 refus.**

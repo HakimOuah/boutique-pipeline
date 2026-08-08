@@ -6,3 +6,11 @@
 - Entrées écartées : aucune.
 - Plus de 3 régénérations : non.
 - QA : les quatre vues existantes et le nouveau détail figurent ensemble dans `qa/montre-squelette-automatique-octogone-planche.jpg` à 900 px par vignette.
+
+## Variante P3
+
+- Livré : 0 visuel de variante sur le visuel noir manquant indiqué dans la mission.
+- Écarté : cadran squelette noir.
+- Motif : aucune photo fournisseur locale propre et appariée au boîtier octogonal ne prouve cette variante ; la référence noire disponible localement appartient à un autre modèle et porte une marque.
+- Régénérations : 0 ; arrêt avant génération pour éviter toute donnée inventée.
+- QA : aucune planche de variantes, puisqu'aucun fichier P3 n'est livrable.
