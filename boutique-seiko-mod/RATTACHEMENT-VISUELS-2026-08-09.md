@@ -403,3 +403,32 @@ inscription »), aucun avis ni badge. Source versionnée présente
 Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 29 visuels rattachés sur 25 fiches. 2 refus.**
+
+---
+
+## Tour 13 — 09/08/2026 ~01h00
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `trente-neuf-bleu-mer-classique-cannelee` | `-g1` macro lunette cannelée + jubilé | 5/5 | Trente-Neuf Bleu mer — macro de la jonction boîtier-bracelet : stries polies de la lunette cannelée et maillons du bracelet jubilé acier à cinq rangs — Maison Noirmont |
+
+### Contrôles du tour 13
+
+- **Fidélité produit** : la fiche vend une « lunette cannelée — ces stries taillées tout
+  autour du verre » et un « bracelet **jubilé à cinq rangs** ». La macro montre les deux :
+  les stries polies de la lunette en haut de cadre, et un jubilé cinq rangs (deux rangs
+  brossés extérieurs, trois rangs polis centraux) — pas un oyster trois maillons.
+  Identique au bracelet des quatre vues en ligne. Conforme.
+- **Cadran, date et loupe entièrement hors champ** — point important sur cette famille :
+  la fiche sœur `trente-neuf-rose-classique-cannelee` avait été écartée au tour 1 parce que
+  sa seule face disponible portait la mention d'origine **SWISS MADE** à 6 h. Ici le cadrage
+  exclut totalement le cadran, donc **aucune mention d'origine possible à l'image**. Le
+  risque de la famille est neutralisé par le cadrage, pas contourné.
+- Aucun logo, sigle ni lettrage ; aucun avis ni badge ; 2048×2048 JPEG.
+- Source : chemin `scratchpad/…` non versionné (même remarque de forme qu'aux tours 8-9) ;
+  contrôle de substitution fait sur la planche QA.
+- Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 30 visuels rattachés sur 26 fiches. 2 refus.**
