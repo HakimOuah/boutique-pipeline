@@ -460,3 +460,28 @@ Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
 - Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 31 visuels rattachés sur 27 fiches. 2 refus.**
+
+---
+
+## Tour 15 — 09/08/2026 ~01h10
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `trente-neuf-duo-dore-classique-bicolore` | `-g1` macro jubilé bicolore + lunette dorée | 5/5 | Trente-Neuf Duo Doré — macro du bracelet jubilé bicolore : maillons centraux or jaune entre deux rangs d'acier brossé, et stries dorées de la lunette cannelée — Maison Noirmont |
+
+### Contrôles du tour 15
+
+- **Fidélité produit — la bicolore est le cas le plus exigeant de la famille Trente-Neuf.**
+  La fiche décrit précisément la répartition des finitions : « La finition or jaune couvre
+  la lunette cannelée, la couronne, **les maillons centraux du jubilé** […] ; **les maillons
+  extérieurs restent en acier brossé** ». La macro montre exactement cette répartition —
+  trois rangs centraux or jaune encadrés de deux rangs d'acier brossé, et une lunette
+  cannelée **dorée**, pas acier. Conforme dans le détail.
+- **Cadran hors champ** : seul un liseré clair apparaît en haut de cadre, hors mise au point.
+  Aucun texte, aucun chiffre, aucune mention d'origine.
+- Aucun avis ni badge ; 2048×2048 JPEG.
+- Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 32 visuels rattachés sur 28 fiches. 2 refus.**
