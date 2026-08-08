@@ -903,3 +903,24 @@ pas cherché à contourner. La fiche reste à 2 médias.
 - Fiche à 2 médias : le nouveau se place en 3/3, image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 47 visuels rattachés sur 43 fiches. 2 refus.**
+
+---
+
+## Tour 31 — 09/08/2026 ~02h30
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `coffret-douze-presentation` | `-g1` macro angle noyer | 3/3 | Coffret Douze présentation — macro de l'angle extérieur : coupe d'onglet du cadre en bois teinte noyer, doublure suédine crème et coussin de logement — Maison Noirmont |
+
+- **Fidélité** : coupe d'onglet nette, bois teinte noyer, doublure suédine crème et coussin.
+  Conforme aux deux vues en ligne. Aucun couvercle, charnière ni mécanisme inventé.
+- **Distinction avec le Coffret aluminium (tour 30)** — les deux fiches portent le même nom
+  « Coffret Douze » et ne se séparent que par le matériau : aluminium brossé + insert **noir**
+  d'un côté, bois noyer + suédine **crème** de l'autre. Les deux macros sont sans ambiguïté
+  et ne sont pas interchangeables.
+- Aucun lettrage ni marque ; aucun avis ni badge ; 2048×2048 JPEG ; fiche à 2 médias, le
+  nouveau se place en 3/3, image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 48 visuels rattachés sur 44 fiches. 2 refus.**
