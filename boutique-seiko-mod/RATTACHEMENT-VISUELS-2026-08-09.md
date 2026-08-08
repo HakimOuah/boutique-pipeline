@@ -992,3 +992,31 @@ pas cherché à contourner. La fiche reste à 2 médias.
   nouveau se place en 3/3, image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 51 visuels rattachés sur 47 fiches. 2 refus.**
+
+---
+
+## Tour 35 — 09/08/2026 ~02h50
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `rouleau-de-voyage-brun-cuir` | `-g1` macro logement intérieur taupe | 3/3 | Rouleau de Voyage Brun — macro d'un logement intérieur : séparateurs et doublure en suédine taupe surpiquée, cuir extérieur cognac grainé roulé — Maison Noirmont |
+
+### La famille Rouleau de Voyage est complète et cohérente
+
+Trois déclinaisons traitées, trois couples cuir/doublure distincts — aucune interversion :
+
+| Fiche | Cuir extérieur | Intérieur | Tour |
+|---|---|---|---|
+| `rouleau-de-voyage-vert-cuir` | vert grainé | alvéole doublée | 1 |
+| `rouleau-de-voyage-noir-cuir` | noir grainé | noir mat | 34 |
+| `rouleau-de-voyage-brun-cuir` | **cognac grainé** | **suédine taupe** | 35 |
+
+- **Fidélité** : « Le cuir brun apporte une note plus chaude » → cuir cognac franc, nettement
+  différent du noir du tour 34. Doublure taupe conforme aux vues en ligne. Conforme.
+- Montres et cordon exclus du cadrage. Aucun lettrage ni marque ; aucun avis ni badge ;
+  2048×2048 JPEG ; fiche à 2 médias, le nouveau se place en 3/3, image 1 intacte, statut
+  ACTIVE inchangé.
+
+**Cumul : 52 visuels rattachés sur 48 fiches. 2 refus.**
