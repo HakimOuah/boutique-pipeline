@@ -178,6 +178,22 @@ Pour un premier test, rester sur les produits secs non électriques : hardscape,
 | Engagement | gros kit | mini-kit puis crédit vers recharge | premier achat + réachat |
 | Catalogue | 150 pages plates | 30 projets + composants reliés | pages/session + panier multi-SKU |
 
+## Arborescence SEO opérationnelle
+
+Le classeur final contient une page d'accueil par niche, 38 collections SEO alimentées et 170 candidats stricts de fiches produit. Chaque ligne affiche le mot-clé business et son volume SEMrush France juste à côté :
+
+| Niche | Mot-clé général retenu | Volume FR | Candidats PDP |
+|---|---:|---:|---:|
+| Balade, transport & mobilité du chien | `harnais chien` | 22 200 | 13 |
+| Mercerie créative & arts du fil | `mercerie` | 27 100 | 39 |
+| Scrapbooking & journaling | `scrapbooking` | 27 100 | 28 |
+| Perles & création de bijoux | `perles pour bijoux` | 720 | 76 |
+| Aquariophilie & aquascaping | `filtre aquarium` | 3 600 | 14 |
+
+Les termes `aquarium` (74 000) et `perle` (12 100) n'ont pas été retenus comme ancres commerciales, car leur intention est trop ambiguë. Une collection autonome exige au moins 300 recherches mensuelles dans cette version : les termes inférieurs restent des mots-clés PDP rattachés à une collection mesurée plus large. Le gate strict a écarté 7 annonces associées à un volume nul, 454 annonces dont le titre ne prouvait pas assez le type de produit et le contexte de niche, ainsi qu'un doublon exact. Toutes restent visibles dans `Fournisseurs candidats` pour audit.
+
+Les 170 lignes sont des candidats PDP distincts par ID/titre fournisseur exact, pas encore 170 produits finaux prouvés. Le quota de 100 à 150 produits par niche n'est pas atteint par les résultats actuels sans bruit : une nouvelle passe de sourcing ciblée est nécessaire. Avant import, il reste aussi à regrouper les quasi-doublons sémantiques et variantes réelles, puis vérifier prix rendu France, stock, conformité, délai et marge.
+
 ## Conditions avant sélection finale
 
 1. Faire une shortlist humaine de 20–30 produits par niche, en supprimant le bruit AliExpress.

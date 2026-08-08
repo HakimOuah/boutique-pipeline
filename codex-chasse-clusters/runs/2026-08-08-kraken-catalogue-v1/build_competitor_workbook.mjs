@@ -124,6 +124,77 @@ const VOLUMES = {
   "métier à tisser perles": 720,
 };
 
+const SEO_ROOTS = {
+  "Mercerie créative & arts du fil": {
+    title: "Mercerie",
+    keyword: "mercerie",
+    volume: 27100,
+    note: "Transactionnel observé en direct dans SEMrush France le 08/08/2026",
+  },
+  "Scrapbooking & journaling": {
+    title: "Scrapbooking",
+    keyword: "scrapbooking",
+    volume: 27100,
+    note: "Head term observé dans le snapshot SEMrush France du 08/08/2026; intention mixte avec Shopping",
+  },
+  "Aquariophilie & aquascaping": {
+    title: "Filtre aquarium — matériel et aquascaping",
+    keyword: "filtre aquarium",
+    volume: 3600,
+    note: "Ancre commerciale retenue à la place de « aquarium » (74k mais ambigu)",
+  },
+  "Balade, transport & mobilité du chien": {
+    title: "Harnais chien — balade, transport et mobilité",
+    keyword: "harnais chien",
+    volume: 22200,
+    note: "Ancre commerciale principale; SERP Shopping observée",
+  },
+  "Perles & création de bijoux": {
+    title: "Perles pour bijoux",
+    keyword: "perles pour bijoux",
+    volume: 720,
+    note: "Expression commerciale exacte retenue à la place de « perle » (12,1k mais ambigu)",
+  },
+};
+
+// Les expressions sous 300 recherches restent des mots-clés PDP. Elles sont
+// rattachées à une landing page plus large et mesurée afin d'éviter des
+// collections autonomes trop faibles au lancement.
+const COLLECTION_FALLBACKS = {
+  "ruban couture": "biais couture",
+  "dentelle couture": "biais couture",
+  "épingles couture": "aiguilles à coudre",
+  "clips couture": "aiguilles à coudre",
+  "craie tailleur": "mètre ruban couture",
+  "pied presseur": "canette machine à coudre",
+  "tampon transparent scrapbooking": "tampon scrapbooking",
+  "encre scrapbooking": "tampon scrapbooking",
+  "dies scrapbooking": "perforatrice scrapbooking",
+  "matrice découpe scrapbooking": "massicot papier",
+  "pochoir scrapbooking": "perforatrice scrapbooking",
+  "embellissement scrapbooking": "stickers scrapbooking",
+  "ruban scrapbooking": "papier scrapbooking",
+  "colle scrapbooking": "papier scrapbooking",
+  "plioir papier": "massicot papier",
+  "poudre embossage": "tampon scrapbooking",
+  "nettoyeur vitre aquarium": "aspirateur aquarium",
+  "plante artificielle aquarium": "décoration aquarium",
+  "épuisette aquarium": "aspirateur aquarium",
+  "pondoir aquarium": "décoration aquarium",
+  "filtre crevette aquarium": "filtre aquarium",
+  "skimmer aquarium": "filtre aquarium",
+  "osmolateur aquarium": "pompe aquarium",
+  "ceinture voiture chien": "housse voiture chien",
+  "panier vélo chien": "sac transport chien",
+  "pochette friandise chien": "gourde chien",
+  "apprêts bijoux": "chaine bijoux",
+  "fermoir bijoux": "chaine bijoux",
+  "fil élastique bracelet": "perles pour bijoux",
+  "anneau bijoux": "chaine bijoux",
+  "connecteur bijoux": "chaine bijoux",
+  "aiguille perles": "métier à tisser perles",
+};
+
 const SUMMARY = [
   {
     rank: 1,
@@ -1302,7 +1373,8 @@ const SEMRUSH_URL = "https://fr.semrush.com/analytics/keywordoverview/?db=fr";
 const workbook = Workbook.create();
 const summarySheet = workbook.worksheets.add("Synthèse");
 const collectionsSheet = workbook.worksheets.add("Arborescence");
-const productsSheet = workbook.worksheets.add("Produits");
+const productsSheet = workbook.worksheets.add("Produits SEO");
+const suppliersSheet = workbook.worksheets.add("Fournisseurs candidats");
 const qaSheet = workbook.worksheets.add("Sourcing QA");
 const evidenceSheet = workbook.worksheets.add("SERP & Trends");
 const methodSheet = workbook.worksheets.add("Méthode & limites");
@@ -1391,6 +1463,88 @@ function decodeDelivery(value) {
   return String(value || "").replaceAll("ao&ucirc;t", "août");
 }
 
+function normalizeText(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replaceAll(/\p{Diacritic}/gu, "")
+    .toLowerCase()
+    .replaceAll(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function cleanText(value) {
+  return String(value || "")
+    .replaceAll(/[\u200B-\u200D\uFEFF]/g, "")
+    .replaceAll(/\s+/g, " ")
+    .trim();
+}
+
+function sentenceCase(value) {
+  const text = cleanText(value);
+  return text ? text.charAt(0).toUpperCase() + text.slice(1) : "";
+}
+
+function truncateWords(value, maxLength = 135) {
+  const text = cleanText(value);
+  if (text.length <= maxLength) return text;
+  const shortened = text.slice(0, maxLength + 1).replace(/\s+\S*$/, "").replace(/[,:;\-–—\s]+$/, "");
+  return `${shortened}…`;
+}
+
+function slugify(value) {
+  return normalizeText(value).replaceAll(" ", "-");
+}
+
+function volumeTier(volume) {
+  if (volume >= 1000) return ["CŒUR", "GO collection cœur"];
+  if (volume >= 500) return ["SECONDAIRE", "GO collection secondaire"];
+  if (volume >= 300) return ["TOLÉRANCE ±200", "GO conditionnel; surveiller la profondeur"];
+  return ["PDP", "Ne pas ouvrir en collection autonome au lancement"];
+}
+
+const SEO_TOKEN_STOPWORDS = new Set(["a", "au", "aux", "de", "des", "du", "en", "et", "la", "le", "les", "pour", "avec", "d"]);
+
+function seoTokens(value) {
+  return normalizeText(value)
+    .split(" ")
+    .filter((token) => token.length >= 2 && !SEO_TOKEN_STOPWORDS.has(token));
+}
+
+function fuzzyTokenMatch(token, titleTokens) {
+  const stem = token.length >= 5 ? token.slice(0, 5) : token;
+  return titleTokens.some((candidate) => candidate.startsWith(stem) || stem.startsWith(candidate.slice(0, 5)));
+}
+
+function bestMeasuredKeyword(product) {
+  const titleTokens = seoTokens(product.title);
+  const titleNormalized = normalizeText(product.title);
+  const candidates = api.results.filter((row) => row.niche === product.niche && (VOLUMES[row.keyword_fr] ?? 0) > 0);
+  let best = { keyword: product.keyword_fr, score: -1 };
+  for (const candidate of candidates) {
+    const keywordTokens = seoTokens(candidate.keyword_fr);
+    const matched = keywordTokens.filter((token) => fuzzyTokenMatch(token, titleTokens)).length;
+    if (!matched) continue;
+    const coverage = matched / keywordTokens.length;
+    const exactPhrase = titleNormalized.includes(normalizeText(candidate.keyword_fr));
+    const score = (exactPhrase ? 1000 : 0) + (coverage * 100) + (matched * 20) + (keywordTokens.length * 2) + (candidate.keyword_fr === product.keyword_fr ? 0.5 : 0);
+    if (score > best.score) best = { keyword: candidate.keyword_fr, score };
+  }
+  return best.keyword;
+}
+
+function targetCollectionKeyword(product) {
+  const keyword = product.seoKeyword || product.keyword_fr;
+  const ownVolume = VOLUMES[keyword] ?? 0;
+  if (ownVolume >= 300) return keyword;
+  return COLLECTION_FALLBACKS[keyword] || "";
+}
+
+function seoProductTitle(product) {
+  const keyword = sentenceCase(product.seoKeyword || product.keyword_fr);
+  const supplierTitle = truncateWords(product.title, 120);
+  return `${keyword} — ${supplierTitle}`;
+}
+
 const probeByNiche = Object.fromEntries(probes.probes.map((row) => [row.niche, row]));
 const productsByNiche = Object.groupBy(curated.products, (row) => row.niche);
 const summaryRows = SUMMARY.map((row) => {
@@ -1457,70 +1611,6 @@ volumeSeries.categoryFormula = "'Synthèse'!$B$5:$B$9";
 volumeSeries.formula = "'Synthèse'!$E$5:$E$9";
 volumeSeries.fill = COLORS.blue;
 
-const productCountByKey = new Map();
-for (const product of curated.products) {
-  const key = `${product.niche}|||${product.keyword_fr}`;
-  productCountByKey.set(key, (productCountByKey.get(key) || 0) + 1);
-}
-const collectionRows = api.results.map((row) => {
-  const volume = VOLUMES[row.keyword_fr] ?? 0;
-  let tier = "LONGUE TRAÎNE / PDP";
-  let gate = "< 300 : ne pas ouvrir seule au lancement";
-  if (volume >= 1000) {
-    tier = "CŒUR";
-    gate = "GO collection cœur";
-  } else if (volume >= 500) {
-    tier = "SECONDAIRE";
-    gate = "GO collection secondaire";
-  } else if (volume >= 300) {
-    tier = "TOLÉRANCE ±200";
-    gate = "GO conditionnel / regrouper";
-  }
-  const key = `${row.niche}|||${row.keyword_fr}`;
-  return [
-    `${row.niche} > ${row.parent_collection} > ${row.collection}`,
-    row.niche,
-    row.parent_collection,
-    row.collection,
-    row.keyword_fr,
-    volume,
-    tier,
-    gate,
-    productCountByKey.get(key) || 0,
-    row.query_en,
-    "SEMrush FR — 2026-08-08",
-    displayUtc(row.checked_at_utc),
-  ];
-});
-titleBand(
-  collectionsSheet,
-  "Arborescence des cinq boutiques",
-  "Le volume est celui du mot-clé exact affecté à la collection. Règle Kraken mise à jour : cœur ≥ 1 000; secondaire 500–1 000; tolérance à partir de 300; les termes plus faibles servent de sous-collection/PDP et ne justifient pas seuls une collection de lancement.",
-  "L",
-);
-addTable(
-  collectionsSheet,
-  4,
-  ["Chemin", "Niche", "Collection parente", "Collection", "Mot-clé FR", "Volume mensuel FR", "Niveau", "Décision architecture", "Produits candidats", "Requête API", "Source volume", "Contrôlé UTC"],
-  collectionRows,
-  "CollectionsTable",
-);
-collectionsSheet.freezePanes.freezeRows(4);
-collectionsSheet.freezePanes.freezeColumns(2);
-collectionsSheet.getRange("A4:L104").format.wrapText = true;
-collectionsSheet.getRange("F5:F104").setNumberFormat("#,##0");
-collectionsSheet.getRange("L5:L104").setNumberFormat("@");
-collectionsSheet.getRange("F5:F104").conditionalFormats.add("colorScale", {
-  criteria: [
-    { type: "lowestValue", color: COLORS.lightRed },
-    { type: "percentile", value: 50, color: COLORS.lightAmber },
-    { type: "highestValue", color: COLORS.lightGreen },
-  ],
-});
-[52, 32, 27, 26, 30, 16, 20, 30, 18, 30, 24, 22].forEach((width, index) => {
-  collectionsSheet.getRange(`${colLetter(index + 1)}:${colLetter(index + 1)}`).format.columnWidth = width;
-});
-
 const productsSorted = [...curated.products].sort((a, b) =>
   a.niche.localeCompare(b.niche, "fr") ||
   a.parent_collection.localeCompare(b.parent_collection, "fr") ||
@@ -1528,53 +1618,247 @@ const productsSorted = [...curated.products].sort((a, b) =>
   (b.relevance_score - a.relevance_score) ||
   String(a.product_id).localeCompare(String(b.product_id)),
 );
-const productRows = productsSorted.map((row, index) => [
+
+const seenExactProductTitles = new Set();
+const seoProducts = [];
+for (const product of productsSorted) {
+  const sourceVolume = VOLUMES[product.keyword_fr] ?? 0;
+  if (sourceVolume <= 0) continue;
+  if (product.relevance !== "ÉLEVÉE") continue;
+  const seoKeyword = bestMeasuredKeyword(product);
+  const productVolume = VOLUMES[seoKeyword] ?? 0;
+  if (productVolume <= 0) throw new Error(`Mot-clé SEO sans volume: ${seoKeyword}`);
+  const exactKey = `${product.niche}|||${seoKeyword}|||${normalizeText(product.title)}`;
+  if (seenExactProductTitles.has(exactKey)) continue;
+  seenExactProductTitles.add(exactKey);
+
+  const productWithKeyword = { ...product, seoKeyword };
+  const collectionKeyword = targetCollectionKeyword(productWithKeyword);
+  const root = SEO_ROOTS[product.niche];
+  if (!root) throw new Error(`Mot-clé général manquant pour ${product.niche}`);
+  const collectionVolume = collectionKeyword === root.keyword
+    ? root.volume
+    : (VOLUMES[collectionKeyword] ?? 0);
+  if (!collectionKeyword || collectionVolume < 300) {
+    throw new Error(`Collection SEO non valide pour ${product.keyword_fr}: ${collectionKeyword || "MANQUANTE"}`);
+  }
+  seoProducts.push({ ...productWithKeyword, sourceKeyword: product.keyword_fr, productVolume, collectionKeyword, collectionVolume, root });
+}
+
+const seoProductIds = new Set(seoProducts.map((row) => String(row.product_id)));
+const zeroVolumeSupplierCount = productsSorted.filter((row) => (VOLUMES[row.keyword_fr] ?? 0) <= 0).length;
+const relevanceRejectedCount = productsSorted.filter(
+  (row) => (VOLUMES[row.keyword_fr] ?? 0) > 0 && row.relevance !== "ÉLEVÉE",
+).length;
+const exactDuplicateCount = productsSorted.filter(
+  (row) => (VOLUMES[row.keyword_fr] ?? 0) > 0 && row.relevance === "ÉLEVÉE" && !seoProductIds.has(String(row.product_id)),
+).length;
+const productCountByCollection = new Map();
+const productCountByNiche = new Map();
+for (const product of seoProducts) {
+  const collectionKey = `${product.niche}|||${product.collectionKeyword}`;
+  productCountByCollection.set(collectionKey, (productCountByCollection.get(collectionKey) || 0) + 1);
+  productCountByNiche.set(product.niche, (productCountByNiche.get(product.niche) || 0) + 1);
+}
+
+for (const product of seoProducts) {
+  if (product.productVolume <= 0) throw new Error(`Volume produit non positif: ${product.product_id}`);
+  if (product.collectionVolume < 300) throw new Error(`Volume collection sous 300: ${product.product_id}`);
+  if (!normalizeText(seoProductTitle(product)).includes(normalizeText(product.seoKeyword))) {
+    throw new Error(`Titre SEO sans mot-clé exact: ${product.product_id}`);
+  }
+}
+for (const [niche, count] of productCountByNiche) {
+  if (count <= 0) throw new Error(`Aucun produit SEO strict pour ${niche}`);
+  const root = SEO_ROOTS[niche];
+  if (!normalizeText(root.title).includes(normalizeText(root.keyword)) || root.volume <= 0) {
+    throw new Error(`Mot-clé général non aligné pour ${niche}`);
+  }
+}
+
+const collectionRows = [];
+for (const summary of [...SUMMARY].sort((a, b) => a.rank - b.rank)) {
+  const root = SEO_ROOTS[summary.niche];
+  collectionRows.push([
+    "ACCUEIL",
+    summary.niche,
+    "/",
+    root.title,
+    root.keyword,
+    root.volume,
+    "MOT-CLÉ GÉNÉRAL",
+    "Ancre commerciale de la boutique; éviter la cannibalisation avec une collection homonyme",
+    productCountByNiche.get(summary.niche) || 0,
+    root.keyword,
+    root.volume,
+    `SEMrush FR — 08/08/2026 — ${root.note}`,
+  ]);
+
+  const collectionKeywords = [...new Set(
+    seoProducts
+      .filter((product) => product.niche === summary.niche)
+      .map((product) => product.collectionKeyword)
+      .filter((keyword) => keyword !== root.keyword),
+  )].sort((a, b) => (VOLUMES[b] ?? 0) - (VOLUMES[a] ?? 0) || a.localeCompare(b, "fr"));
+
+  for (const keyword of collectionKeywords) {
+    const volume = VOLUMES[keyword] ?? 0;
+    const [tier, gate] = volumeTier(volume);
+    collectionRows.push([
+      "COLLECTION SEO",
+      summary.niche,
+      `/collections/${slugify(keyword)}`,
+      sentenceCase(keyword),
+      keyword,
+      volume,
+      tier,
+      gate,
+      productCountByCollection.get(`${summary.niche}|||${keyword}`) || 0,
+      root.keyword,
+      root.volume,
+      "SEMrush France — mot-clé exact observé le 08/08/2026",
+    ]);
+  }
+}
+titleBand(
+  collectionsSheet,
+  "Arborescence SEO — cinq boutiques",
+  "Chaque titre de page correspond à un mot-clé commercial mesuré. Cœur ≥ 1 000; secondaire 500–999; tolérance 300–499. Les expressions plus faibles restent au niveau produit et sont rattachées à une collection plus large.",
+  "L",
+);
+addTable(
+  collectionsSheet,
+  4,
+  ["Type de page", "Niche", "URL proposée", "Titre SEO", "Mot-clé business", "Volume mensuel FR", "Niveau", "Décision architecture", "Produits candidats", "Mot-clé général", "Volume général FR", "Source / note"],
+  collectionRows,
+  "CollectionsTable",
+);
+collectionsSheet.freezePanes.freezeRows(4);
+collectionsSheet.freezePanes.freezeColumns(2);
+const collectionEndRow = collectionRows.length + 4;
+collectionsSheet.getRange(`A4:L${collectionEndRow}`).format.wrapText = true;
+collectionsSheet.getRange(`F5:F${collectionEndRow}`).setNumberFormat("#,##0");
+collectionsSheet.getRange(`K5:K${collectionEndRow}`).setNumberFormat("#,##0");
+collectionsSheet.getRange(`F5:F${collectionEndRow}`).conditionalFormats.add("colorScale", {
+  criteria: [
+    { type: "lowestValue", color: COLORS.lightRed },
+    { type: "percentile", value: 50, color: COLORS.lightAmber },
+    { type: "highestValue", color: COLORS.lightGreen },
+  ],
+});
+[18, 38, 42, 42, 31, 16, 19, 52, 18, 28, 17, 76].forEach((width, index) => {
+  collectionsSheet.getRange(`${colLetter(index + 1)}:${colLetter(index + 1)}`).format.columnWidth = width;
+});
+
+const productRows = seoProducts.map((row, index) => [
   index + 1,
   row.niche,
-  row.parent_collection,
-  row.collection,
-  row.keyword_fr,
-  VOLUMES[row.keyword_fr] ?? 0,
+  seoProductTitle(row),
+  row.seoKeyword,
+  row.productVolume,
+  row.collectionKeyword === row.root.keyword ? row.root.title : sentenceCase(row.collectionKeyword),
+  row.collectionKeyword,
+  row.collectionVolume,
+  row.root.title,
+  row.root.keyword,
+  row.root.volume,
+  `ID-${row.product_id}`,
   row.title,
   Number(row.price) || null,
-  row.currency || "EUR",
-  Number(row.rating) || null,
   row.orders || "",
-  row.relevance,
-  row.decision,
-  row.risk,
+  Number(row.rating) || null,
   row.listing_url,
   row.image || "",
-  `ID-${row.product_id}`,
-  displayUtc(row.checked_at_utc),
+  "CANDIDAT PDP — déduplication sémantique à confirmer",
+  "SEMrush France — mot-clé exact observé le 08/08/2026",
+  row.sourceKeyword,
+  row.risk,
 ]);
 titleBand(
   productsSheet,
-  `${curated.products.length} produits candidats — liens AliExpress de contrôle`,
-  "Le volume correspond au mot-clé produit/collection ayant servi à trouver le listing, pas au titre AliExpress complet. API_SEARCH_MATCH = listing trouvé; seules les cinq lignes documentées dans Sourcing QA ont une variante et un fret France vérifiés.",
-  "R",
+  `${seoProducts.length} produits SEO candidats — ${Math.min(...Object.values(Object.fromEntries(productCountByNiche)))} à ${Math.max(...Object.values(Object.fromEntries(productCountByNiche)))} par niche`,
+  "Gate strict : titre fournisseur avec type de produit + contexte de niche, puis mot-clé mesuré au début du titre SEO. Déduplication sémantique, variante, fret France, conformité et economics restent à valider avant import.",
+  "V",
 );
 addTable(
   productsSheet,
   4,
-  ["#", "Niche", "Collection parente", "Collection", "Mot-clé produit FR", "Volume FR", "Titre AliExpress", "Prix API", "Devise", "Note", "Commandes", "Pertinence lexicale", "Décision", "Risque / contrôle", "Lien AliExpress", "Image", "Product ID", "Contrôlé UTC"],
+  ["#", "Niche", "Titre produit SEO", "Mot-clé produit FR", "Volume produit FR", "Collection SEO", "Mot-clé collection FR", "Volume collection FR", "Titre accueil", "Mot-clé général", "Volume général FR", "Product ID", "Titre fournisseur", "Prix API €", "Commandes", "Note", "Lien AliExpress", "Image", "Statut SEO", "Source volume", "Mot-clé source API", "Risque / contrôle"],
   productRows,
-  "ProductsTable",
+  "SeoProductsTable",
 );
 productsSheet.freezePanes.freezeRows(4);
 productsSheet.freezePanes.freezeColumns(2);
-productsSheet.getRange(`A4:R${productRows.length + 4}`).format.wrapText = true;
-productsSheet.getRange(`F5:F${productRows.length + 4}`).setNumberFormat("#,##0");
-productsSheet.getRange(`H5:H${productRows.length + 4}`).setNumberFormat("0.00");
-productsSheet.getRange(`J5:J${productRows.length + 4}`).setNumberFormat("0.0");
-productsSheet.getRange(`Q5:Q${productRows.length + 4}`).setNumberFormat("@");
-productsSheet.getRange(`R5:R${productRows.length + 4}`).setNumberFormat("@");
-productsSheet.getRange(`L5:L${productRows.length + 4}`).dataValidation = { rule: { type: "list", values: ["ÉLEVÉE", "MOYENNE", "FAIBLE"] } };
-productsSheet.getRange(`M5:M${productRows.length + 4}`).dataValidation = { rule: { type: "list", values: ["RETENIR_API_À_VÉRIFIER", "À_VÉRIFIER_PERTINENCE", "EXCLURE_IP"] } };
-productsSheet.getRange(`L5:M${productRows.length + 4}`).conditionalFormats.addCustom('=$L5="FAIBLE"', { fill: COLORS.lightAmber, font: { color: "#7F6000" } });
-productsSheet.getRange(`M5:M${productRows.length + 4}`).conditionalFormats.addCustom('=$M5="RETENIR_API_À_VÉRIFIER"', { fill: COLORS.lightGreen, font: { color: COLORS.green } });
-[6, 34, 26, 25, 28, 13, 78, 11, 9, 9, 12, 18, 26, 50, 52, 48, 20, 22].forEach((width, index) => {
+const productEndRow = productRows.length + 4;
+productsSheet.getRange(`A4:V${productEndRow}`).format.wrapText = true;
+productsSheet.getRange(`E5:E${productEndRow}`).setNumberFormat("#,##0");
+productsSheet.getRange(`H5:H${productEndRow}`).setNumberFormat("#,##0");
+productsSheet.getRange(`K5:K${productEndRow}`).setNumberFormat("#,##0");
+productsSheet.getRange(`N5:N${productEndRow}`).setNumberFormat("0.00");
+productsSheet.getRange(`P5:P${productEndRow}`).setNumberFormat("0.0");
+productsSheet.getRange(`L5:L${productEndRow}`).setNumberFormat("@");
+productsSheet.getRange(`E5:E${productEndRow}`).conditionalFormats.add("dataBar", { color: COLORS.blue, gradient: true });
+productsSheet.getRange(`S5:S${productEndRow}`).conditionalFormats.addCustom('=ISNUMBER(SEARCH("CANDIDAT PDP",$S5))', { fill: COLORS.lightGreen, font: { color: COLORS.green } });
+[6, 38, 76, 30, 16, 34, 30, 17, 38, 28, 17, 22, 76, 12, 13, 10, 52, 48, 48, 54, 30, 54].forEach((width, index) => {
   productsSheet.getRange(`${colLetter(index + 1)}:${colLetter(index + 1)}`).format.columnWidth = width;
+});
+
+const supplierRows = productsSorted.map((row, index) => {
+  const volume = VOLUMES[row.keyword_fr] ?? 0;
+  const seoStatus = volume <= 0
+    ? "EXCLU VOLUME 0"
+    : (row.relevance !== "ÉLEVÉE"
+      ? "REJETÉ PERTINENCE"
+      : (seoProductIds.has(String(row.product_id)) ? "CANDIDAT PDP" : "DOUBLON TITRE EXACT"));
+  return [
+    index + 1,
+    row.niche,
+    row.parent_collection,
+    row.collection,
+    row.keyword_fr,
+    volume,
+    row.title,
+    Number(row.price) || null,
+    row.currency || "EUR",
+    Number(row.rating) || null,
+    row.orders || "",
+    row.relevance,
+    row.decision,
+    seoStatus,
+    row.risk,
+    row.listing_url,
+    row.image || "",
+    `ID-${row.product_id}`,
+    displayUtc(row.checked_at_utc),
+  ];
+});
+titleBand(
+  suppliersSheet,
+  `${supplierRows.length} annonces fournisseurs AliExpress`,
+  "Cet onglet conserve les listings bruts et leur preuve API. Il ne faut pas les confondre avec des fiches produit finales : volume nul, doublons sémantiques, variantes, fret, conformité et economics doivent être contrôlés avant import.",
+  "S",
+);
+addTable(
+  suppliersSheet,
+  4,
+  ["#", "Niche", "Collection source", "Famille source", "Mot-clé produit FR", "Volume FR", "Titre AliExpress", "Prix API", "Devise", "Note", "Commandes", "Pertinence lexicale", "Décision sourcing", "Statut SEO", "Risque / contrôle", "Lien AliExpress", "Image", "Product ID", "Contrôlé UTC"],
+  supplierRows,
+  "SupplierCandidatesTable",
+);
+suppliersSheet.freezePanes.freezeRows(4);
+suppliersSheet.freezePanes.freezeColumns(2);
+const supplierEndRow = supplierRows.length + 4;
+suppliersSheet.getRange(`A4:S${supplierEndRow}`).format.wrapText = true;
+suppliersSheet.getRange(`F5:F${supplierEndRow}`).setNumberFormat("#,##0");
+suppliersSheet.getRange(`H5:H${supplierEndRow}`).setNumberFormat("0.00");
+suppliersSheet.getRange(`J5:J${supplierEndRow}`).setNumberFormat("0.0");
+suppliersSheet.getRange(`R5:R${supplierEndRow}`).setNumberFormat("@");
+suppliersSheet.getRange(`S5:S${supplierEndRow}`).setNumberFormat("@");
+suppliersSheet.getRange(`N5:N${supplierEndRow}`).conditionalFormats.addCustom('=$N5="EXCLU VOLUME 0"', { fill: COLORS.lightRed, font: { color: COLORS.red, bold: true } });
+suppliersSheet.getRange(`N5:N${supplierEndRow}`).conditionalFormats.addCustom('=$N5="REJETÉ PERTINENCE"', { fill: COLORS.lightAmber, font: { color: "#7F6000" } });
+suppliersSheet.getRange(`N5:N${supplierEndRow}`).conditionalFormats.addCustom('=$N5="CANDIDAT PDP"', { fill: COLORS.lightGreen, font: { color: COLORS.green } });
+[6, 38, 28, 26, 30, 13, 78, 11, 9, 9, 12, 18, 28, 22, 52, 52, 48, 22, 22].forEach((width, index) => {
+  suppliersSheet.getRange(`${colLetter(index + 1)}:${colLetter(index + 1)}`).format.columnWidth = width;
 });
 
 const qaRows = probes.probes.map((row) => {
@@ -1600,7 +1884,7 @@ const qaRows = probes.probes.map((row) => {
 titleBand(
   qaSheet,
   "Sourcing QA — un probe exact par niche",
-  "Ces cinq lignes démontrent le chemin complet API : listing → variantes → SKU exact → stock → fret France. Elles ne généralisent pas ce statut aux 627 autres candidats.",
+  `Ces cinq lignes démontrent le chemin complet API : listing → variantes → SKU exact → stock → fret France. Elles ne généralisent pas ce statut aux ${curated.products.length - probes.probes.length} autres annonces fournisseurs.`,
   "N",
 );
 addTable(
@@ -1659,9 +1943,11 @@ const methodRows = [
   ["[OBSERVÉ] Volumes", "SEMrush France, base FR, 8 août 2026. Volume moyen mensuel du mot-clé exact.", SEMRUSH_URL, "Les totaux sont des sommes d'expressions distinctes, non des utilisateurs dédupliqués."],
   ["[CALCULÉ] Volume nettoyé", "Exclusion des termes manifestement ambigus : album photo/sticker pour Scrapbooking; aquarium seul pour Aquariophilie; perle au singulier pour Bijoux.", "", "Le brut ciblé reste affiché à côté du nettoyé."],
   ["[RÈGLE] Demande boutique", "30 000 minimum; 40 000 zone de confort. Collection cœur ≥ 1 000; secondaire 500–1 000; tolérance ±200.", "Corpus privé La Méthode Kraken", "Aucun seuil universel imposé aux PDP."],
+  ["[CALCULÉ] Architecture SEO", `${collectionRows.length} pages d'accueil/collections et ${seoProducts.length} candidats PDP stricts. Chaque titre produit commence par son mot-clé mesuré; les mots-clés < 300 restent au niveau PDP.`, "Voir Arborescence et Produits SEO", "Le mot-clé général Aquarium/Chien est une ancre commerciale de tête; valider la cannibalisation au moment du mapping final."],
+  ["[CALCULÉ] Gate produit", `${curated.products.length} annonces → ${seoProducts.length} candidats PDP : ${zeroVolumeSupplierCount} volume nul, ${relevanceRejectedCount} pertinence insuffisante et ${exactDuplicateCount} doublon exact rejetés.`, "Voir Fournisseurs candidats", "Le quota 100–150 par niche n'est pas considéré atteint par du bruit; relancer le sourcing sur les familles déficitaires."],
   ["[OBSERVÉ] SERP", "Dix SERP Google France contrôlées : présence Shopping et boutiques spécialisées dans les cinq niches.", "Voir onglet SERP & Trends", "Une SERP est un instantané et doit être rafraîchie avant lancement."],
   ["[OBSERVÉ] Trends", "France, cinq ans; indices comparatifs et variation directionnelle.", TREND_URL, "Google Trends n'est pas un volume absolu."],
-  ["[OBSERVÉ] AliExpress", `100 recherches API; destination FR; tri commandes; ${curated.products.length} IDs uniques sélectionnés après dédoublonnage et exclusions IP.`, "AliExpress Open Platform / AE-Dropshipper via VPS autorisé", "Le moteur peut renvoyer du bruit : les lignes FAIBLE sont à contrôler ou supprimer."],
+  ["[OBSERVÉ] AliExpress", `100 recherches API; destination FR; tri commandes; ${curated.products.length} IDs de listings conservés après la première curation.`, "AliExpress Open Platform / AE-Dropshipper via VPS autorisé", "Un ID de listing n'est pas une preuve de produit final distinct; les lignes FAIBLE sont à contrôler ou supprimer."],
   ["[OBSERVÉ] Probe exact", "Un produit par niche validé jusqu'au SKU, stock et option de fret France.", "Voir onglet Sourcing QA", "Les autres liens restent au statut API_SEARCH_MATCH."],
   ["[MANQUANT] Economics", "Coût rendu France exact, marge, frais Shopify/Ads, retours et SAV pour chaque SKU.", "", "À calculer après shortlist humaine de 20–30 produits par niche."],
   ["[MANQUANT] Conformité", "Documents CE/REACH, contact matière, sécurité animale, étanchéité et preuves fournisseurs selon la niche.", "", "Aucune allégation ne doit être publiée sans preuve."],
@@ -1675,12 +1961,12 @@ addTable(
   "MethodTable",
 );
 methodSheet.freezePanes.freezeRows(4);
-methodSheet.getRange("A4:D14").format.wrapText = true;
+methodSheet.getRange(`A4:D${methodRows.length + 4}`).format.wrapText = true;
 [32, 92, 70, 72].forEach((width, index) => {
   methodSheet.getRange(`${colLetter(index + 1)}:${colLetter(index + 1)}`).format.columnWidth = width;
 });
-methodSheet.getRange("A5:A14").conditionalFormats.addCustom('=LEFT($A5,10)="[MANQUANT]"', { fill: COLORS.lightAmber, font: { color: "#7F6000", bold: true } });
-methodSheet.getRange("A5:A14").conditionalFormats.addCustom('=LEFT($A5,9)="[OBSERVÉ]"', { fill: COLORS.lightGreen, font: { color: COLORS.green, bold: true } });
+methodSheet.getRange(`A5:A${methodRows.length + 4}`).conditionalFormats.addCustom('=LEFT($A5,10)="[MANQUANT]"', { fill: COLORS.lightAmber, font: { color: "#7F6000", bold: true } });
+methodSheet.getRange(`A5:A${methodRows.length + 4}`).conditionalFormats.addCustom('=LEFT($A5,9)="[OBSERVÉ]"', { fill: COLORS.lightGreen, font: { color: COLORS.green, bold: true } });
 
 const semrushByDomain = Object.fromEntries(semrush.domains.map((row) => [row.domain, row]));
 const competitorRows = COMPETITOR_BASE_ROWS.map((row) => {
@@ -1873,6 +2159,26 @@ const competitionInspection = await workbook.inspect({
 });
 await fs.writeFile(path.join(outputDir, "inspection-concurrence.ndjson"), competitionInspection.ndjson, "utf8");
 
+const architectureInspection = await workbook.inspect({
+  kind: "table",
+  range: `Arborescence!A1:L${Math.min(collectionRows.length + 4, 90)}`,
+  include: "values,formulas",
+  tableMaxRows: 90,
+  tableMaxCols: 12,
+  maxChars: 40000,
+});
+await fs.writeFile(path.join(outputDir, "inspection-arborescence-seo.ndjson"), architectureInspection.ndjson, "utf8");
+
+const productInspection = await workbook.inspect({
+  kind: "table",
+  range: "Produits SEO!A1:V30",
+  include: "values,formulas",
+  tableMaxRows: 30,
+  tableMaxCols: 22,
+  maxChars: 40000,
+});
+await fs.writeFile(path.join(outputDir, "inspection-produits-seo.ndjson"), productInspection.ndjson, "utf8");
+
 const formulaErrors = await workbook.inspect({
   kind: "match",
   searchTerm: "#REF!|#DIV/0!|#VALUE!|#NAME\\?|#N/A",
@@ -1883,11 +2189,12 @@ await fs.writeFile(path.join(outputDir, "formula-error-scan.ndjson"), formulaErr
 
 const previewRanges = {
   "Synthèse": "A1:Y18",
-  "Arborescence": "A1:L32",
-  "Produits": "A1:R28",
+  "Arborescence": "A1:L34",
+  "Produits SEO": "A1:V24",
+  "Fournisseurs candidats": "A1:S22",
   "Sourcing QA": "A1:N10",
   "SERP & Trends": "A1:H23",
-  "Méthode & limites": "A1:D15",
+  "Méthode & limites": "A1:D17",
   "Priorités concurrence": "A1:G18",
   "Concurrents": "A1:P29",
   "SEMrush concurrence": "A1:K32",
@@ -1904,4 +2211,12 @@ const output = await SpreadsheetFile.exportXlsx(workbook);
 await output.save(outputPath);
 await fs.rm(`${outputPath}.inspect.ndjson`, { force: true });
 
-console.log(JSON.stringify({ outputPath, previewDir, sheets: Object.keys(previewRanges), productRows: productRows.length }, null, 2));
+console.log(JSON.stringify({
+  outputPath,
+  previewDir,
+  sheets: Object.keys(previewRanges),
+  architectureRows: collectionRows.length,
+  seoProductRows: productRows.length,
+  supplierRows: supplierRows.length,
+  productsByNiche: Object.fromEntries(productCountByNiche),
+}, null, 2));
