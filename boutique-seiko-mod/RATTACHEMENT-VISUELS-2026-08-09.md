@@ -550,3 +550,32 @@ Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
 - Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 35 visuels rattachés sur 31 fiches. 2 refus.**
+
+---
+
+## Tour 19 — 09/08/2026 ~01h30
+
+Dossier trouvé **incomplet** au premier scan (image présente, `manifeste.json` et
+`compte-rendu.md` absents — écriture en cours côté Codex). Traitement différé jusqu'à
+finalisation du dossier plutôt que traité en l'état.
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `trente-six-dore-classique-jubile` | `-g1` macro frontale jonction + jubilé | 5/5 | Trente-Six Doré — macro frontale de la jonction boîtier-bracelet : cadran champagne soleillé à index acier en haut de cadre, boîtier et jubilé cinq rangs en acier — Maison Noirmont |
+
+### Contrôles du tour 19
+
+- **Fidélité produit — le piège de cette fiche est explicite dans son texte** : « Le cadran
+  doré champagne apporte la chaleur de l'or **sans passer le boîtier à l'or : boîtier et
+  bracelet jubilé restent en acier** ». Un visuel qui aurait doré le boîtier ou les maillons
+  aurait été refusé. Le fichier livré montre bien un **cadran champagne** avec **boîtier et
+  jubilé en acier** — la répartition est juste, et bien distincte du Duo Doré bicolore
+  traité au tour 15.
+- **Cadran** : fragment étroit visible, index appliqués acier, **aucun texte**, pas de date,
+  aucune mention d'origine.
+- Aucun logo, aucun avis, aucun badge ; 2048×2048 JPEG.
+- Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
+
+**Cumul : 36 visuels rattachés sur 32 fiches. 2 refus.**
