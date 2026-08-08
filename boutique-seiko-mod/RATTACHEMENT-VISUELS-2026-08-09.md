@@ -70,3 +70,38 @@ deux fiches.
 | `trente-neuf-rose-classique-cannelee` | source locale interdite : la seule face disponible porte la mention d'origine **SWISS MADE** à 6 h |
 
 Rien à rattacher pour ces trois fiches — écarts justifiés, aucune action.
+
+---
+
+## Tour 2 — 09/08/2026 ~00h10
+
+Quatre nouveaux dossiers livrés pendant le tour 1.
+
+### Rattachés (4 visuels sur 4 fiches)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `contre-la-montre-rose-poudre-chronographe` | `-g1` macro acier 3 maillons | 5/5 | Contre-la-montre Rose poudré — macro du bracelet acier trois maillons et de son grain brossé — Maison Noirmont |
+| `heritage-bleu-plongeuse-vintage-42` | `-g1` macro lunette bleue | 5/5 | Héritage Bleu — macro oblique de la lunette bleue, de son repère triangulaire doré et de sa denture acier — Maison Noirmont |
+| `heritage-bleu-nuit-plongeuse-vintage-42` | `-g1` profil couronne + lunette noire | 5/5 | Héritage Bleu nuit — profil rapproché de la couronne stérile, du flanc acier brossé et de la lunette noire crantée — Maison Noirmont |
+| `montre-acier-chiffres-3-6-9-explorateur` | `-g1` macro bracelet acier | 5/5 | Explorateur — macro du bracelet acier trois maillons, maillons centraux polis et côtés brossés — Maison Noirmont |
+
+### Contrôles du tour 2
+
+- **Fidélité produit** : Rose poudré « sur bracelet acier » → macro acier, conforme.
+  Explorateur « bracelet acier trois maillons » → macro acier trois maillons, conforme.
+  Héritage Bleu « lunette bleue » → lunette bleue, conforme. Héritage Bleu nuit
+  « lunette noire » → lunette noire, conforme.
+- **Cadran / couronne** : aucun logo, sigle ni lettrage. Point de vigilance levé sur
+  l'Explorateur — la fiche indique que le cadran réel porte la mention « Professional
+  Automatic », mais la macro livrée ne cadre que le bracelet : aucun texte à l'image.
+  La couronne de l'Héritage Bleu nuit est bien lisse et vierge. Aucune mention
+  d'origine nulle part.
+- **Avis / badges** : aucun.
+- **Sources** : `chrono-rose-poudre.jpg`, `heritage-bleu-lunette-bleue.jpg`,
+  `heritage-bleu-nuit-lunette-noire.jpg` et
+  `visuels-arabes-squelettes-2026-07-29/…-explorateur-face.jpg` existent tous.
+- **Technique** : 4/4 en 2048×2048 JPEG.
+- Ajout en fin de galerie, image 1 intacte, statuts ACTIVE inchangés.
+
+**Cumul : 14 visuels rattachés sur 10 fiches. 0 refus.**
