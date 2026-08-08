@@ -173,3 +173,19 @@ Quatre nouveaux dossiers livrés pendant le tour 1.
   2/2 en 2048×2048 JPEG ; ajout en fin de galerie, image 1 intacte, statuts inchangés.
 
 **Cumul : 20 visuels rattachés sur 16 fiches. 0 refus.**
+
+---
+
+## Tour 6 — 09/08/2026 ~00h30
+
+### Rattaché (1 visuel)
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `integrale-turquoise-sport-chic-acier` | `-g1` vue basse bracelet intégré | 5/5 | Intégrale Turquoise — vue basse du bracelet intégré acier en courbe : épaisseur des plaques brossées, connecteurs et chants polis — Maison Noirmont |
+
+Fiche : « Boîtier et bracelet intégré en acier, finition brossée » → macro de bracelet
+intégré acier, conforme. Aucun logo, avis ni badge. Source
+`integrale-turquoise.jpg` présente. 2048×2048 JPEG. Fin de galerie, image 1 intacte.
+
+**Cumul : 21 visuels rattachés sur 17 fiches. 0 refus.**
