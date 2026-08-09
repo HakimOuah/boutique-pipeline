@@ -1,0 +1,68 @@
+{
+  "id": "claude-20260809-2315-cadran-pilote-33-5-aiguilles-lumineuses",
+  "type": "generate_images",
+  "created_at": "2026-08-09T19:30:00Z",
+  "requested_by": "claude-code",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+        "sku": "AE-1005010303631276",
+        "slot": "situation",
+        "fichier": "cadran-pilote-33-5-aiguilles-lumineuses-g3.jpg"
+      }
+    ],
+    "sources": [
+      "boutique-seiko-mod/sources-fournisseur-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/face-fournisseur-1005010303631276.jpg"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3"
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "VÉRITÉ PRODUIT = l'unique source fournie. Le produit s'y reprend TEL QUEL : forme, diamètre apparent, teinte, finition de surface, relief et police des chiffres, position et forme du guichet de date, perçage central, piste des minutes, aiguilles. Rien ne se réinvente, rien ne s'ajoute, rien ne se retire.",
+        "IDENTITÉ DU PRODUIT — cadran de montre de 33,5 mm à DEUX NIVEAUX, livré AVEC SES AIGUILLES (heures, minutes, secondes). Anneau extérieur portant une graduation des minutes très fine en blanc, avec les valeurs imprimées 60 à 12 h puis 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55 dans le sens horaire et un POINT LUMINEUX rond à chacune de ces douze positions. Plateau intérieur en creux portant les grands chiffres des heures 1 à 12 en blanc et une seconde série 13 à 24 plus petite à l'intérieur. Perçage central occupé par le canon des aiguilles. Aucun guichet de date. Aucun texte, aucun logo.",
+        "COLORIS DE RÉFÉRENCE — la source est une planche de QUATRE cadrans (vert olive en haut à gauche, bleu nuit à chiffres beige en haut à droite, blanc crème en bas à gauche, BLEU VIF en bas à droite). Ne reproduire QUE le cadran BLEU VIF, en BAS À DROITE : plateau bleu profond dégradé, chiffres et graduation blancs, aiguilles acier à garniture lumineuse claire. Ignorer les trois autres.",
+        "PIÈGE DE FILIGRANE — la source porte en HAUT À GAUCHE de l'image un logo de vendeur et le mot « Tandorio ». Ce filigrane est sur l'IMAGE, pas sur le produit : il ne doit apparaître sous aucune forme dans les livrables, ni sur le cadran, ni dans le décor, ni en marge.",
+        "PIÈGE DE COMPTAGE — DOUZE grands chiffres 1 à 12, tous présents, aucun index bâton ne les remplace ; et DOUZE petits chiffres 13 à 24 appariés : 24 sous 12, 13 sous 1, 14 sous 2, 15 sous 3, 16 sous 4, 17 sous 5, 18 sous 6, 19 sous 7, 20 sous 8, 21 sous 9, 22 sous 10, 23 sous 11.",
+        "AIGUILLES — les trois aiguilles sont présentes et posées de façon à NE MASQUER, NE TOUCHER et N'EFFLEURER AUCUN chiffre : aiguille des heures vers 10 h, aiguille des minutes vers 2 h, trotteuse vers 6 h 30, chacune dans l'espace vide entre deux chiffres.",
+        "La graduation des minutes de l'anneau extérieur est TRÈS FINE et dense (un trait par minute) : la rendre nette et régulière, sans traits fusionnés ni zone floue.",
+        "SEULE LA SITUATION DE PRÉSENTATION CHANGE d'un visuel à l'autre : fond, lumière, angle de caméra, distance, décor. Interdiction absolue de modifier la couleur, la texture, la typographie, le nombre de chiffres ou les proportions du produit.",
+        "La source est une photo AliExpress brute : elle ne doit JAMAIS être livrée telle quelle ni rester reconnaissable. Chaque visuel est une composition maison — nouveau fond minéral pierre/craie, nouvelle lumière latérale douce, une seule ombre portée diffuse. Le fond d'origine (béton, tissu, papier, main, plan de travail, tôle), les reflets d'origine et le cadrage d'origine sont à abandonner entièrement.",
+        "STÉRILITÉ ABSOLUE : aucun logo, aucun nom de marque, aucun sigle, aucun mot, aucune lettre, aucune mention d'origine ou de provenance sur le produit. Interdits nommément, y compris atténués, flous ou partiels : « SWISS MADE », « SUPERLATIVE CHRONOMETER », « AUTOMATIC », « WATER RESISTANT », « JAPAN », « NO LOGO », « Tandorio », tout nom de fournisseur. Si la source porte une annotation d'image (filigrane de vendeur, numéro de variante, flèche, cartouche de prix, cote en rouge), elle n'appartient PAS au produit : elle ne doit apparaître sous aucune forme dans le rendu.",
+        "Les chiffres constitutifs du cadran SONT le produit (doctrine §4.1) : ils se reproduisent exactement — même nombre, même ordre, même graphie, même orientation radiale, même piste des minutes. Ni chiffre ajouté, ni chiffre supprimé, ni chiffre en miroir.",
+        "PIÈGE DE FIDÉLITÉ RELEVÉ EN QA LE 09/08 — un rendu a remplacé un simple BÂTON de repère par un CHIFFRE dessiné (« 1 » avec empattement là où la source portait un bâton nu). Un repère bâton reste un bâton, un repère triangle reste un triangle, un repère point reste un point : ne jamais promouvoir un index en chiffre, ni l'inverse. Vérifier index par index contre la source.",
+        "Aucun avis, note, étoile, badge, témoignage, chiffre de satisfaction, mention promotionnelle ni légende technique incrustée. Aucun texte d'aucune sorte dans l'image.",
+        "Bloc d'orientation impératif (§4.2) dans CHAQUE prompt : 12 h en haut, cadran lisible à l'endroit, aucun chiffre tête-bêche ni en miroir. Sur une pièce détachée posée à plat, l'axe 12-6 est vertical dans le cadre.",
+        "Inpainting et gommage interdits (§4.3) : au moindre défaut, régénérer depuis la source.",
+        "AUCUN slot `poignet` et aucune main dans cette fournée : le produit est une PIÈCE DÉTACHÉE, pas une montre. Ne jamais l'insérer dans une montre complète imaginaire, ne jamais lui ajouter un boîtier, un bracelet, une lunette ou un verre qui ne sont pas dans la source.",
+        "Sortie 2048 × 2048 px, 1:1 STRICT, JPEG sRGB, viser 400-900 Ko, plafond 1,2 Mo. Ni PNG ni WebP.",
+        "Nomenclature imposée par les noms `fichier` du manifeste. Les suffixes `-6` et `-7` sont BRÛLÉS (ils désignaient les faux avis retirés le 08/08) : ne jamais les produire, sous aucune forme, dans aucun nom de fichier.",
+        "Aucun accès boutique, aucun navigateur, aucune API distante : la livraison s'arrête aux fichiers.",
+        "Ne JAMAIS composer une planche de plusieurs cadrans dans un livrable : un seul exemplaire du produit par image.",
+        "Slot `situation` — L'ÉTABLI DU MODDEUR. La pièce posée à plat sur un plan de travail d'horloger clair et sobre, vue en plongée à trois quarts, accompagnée d'un ou deux outils neutres et flous en arrière-plan (brucelles, poire soufflante, tapis d'établi) qui suggèrent le montage sans voler la vedette. Le décor reste minéral et discret, la pièce occupe le tiers central net. INTERDIT : montre complète, boîtier, bracelet, main, marque, texte.",
+        "REPRISE PARTIELLE — les slots `face` (`-g1.jpg`) et `macro` (`-g2.jpg`) sont DEJA livres dans le dossier de sortie et VALIDES par la QA d'orchestrateur du 09/08. Ne pas les regenerer, ne pas les ecraser. Seul le slot `situation` reste a produire, et il doit s'accorder avec eux : meme bleu, meme blanc des chiffres, memes batons a 1 h et 11 h, memes aiguilles. Les lire avant de generer."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Zoom chiffre par chiffre et index par index sur le cadran de CHAQUE livrable : chaque chiffre présent, dans l'ordre, correctement formé, non miroir ; aucun lettrage, logo, sigle ni mot parasite, même atténué. Un index bâton/triangle/point de la source reste un index, jamais un chiffre.",
+        "Planche de contrôle par fiche, ≥ 740 px par vignette, réunissant la source et les livrables — le plancher est payé : les planches à 380 px ont laissé passer trois fois un « SWISS MADE ».",
+        "Contrôle qu'aucun filigrane de vendeur ni annotation d'image de la source n'a survécu dans le rendu.",
+        "Contrôle d'orientation : 12 h en haut, aucun chiffre retourné.",
+        "Contrôle d'homogénéité de galerie : les visuels d'une même fiche côte à côte doivent partager coloris, matière ET la forme exacte de chaque index — et se distinguer nettement par le cadrage, pas se répéter. Une divergence d'index entre deux visuels d'une même fiche est un défaut bloquant.",
+        "Contrôle format sur chaque fichier : 2048 × 2048, 1:1, JPEG sRGB, poids dans la fourchette.",
+        "Contrôle du compte : douze grands chiffres 1-12 et douze petits 13-24, appariés radialement.",
+        "Contrôle bloquant : aucune trace du filigrane « Tandorio » ni du logo de vendeur.",
+        "Contrôle qu'aucune aiguille ne touche, ne masque ni n'effleure un chiffre."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses",
+      "manifeste": "manifeste.json"
+    }
+  },
+  "notes": "Le champ `sku` porte la référence de LISTING fournisseur (`AE-<item_id>` AliExpress), pas un SKU de variante : ces visuels sont des visuels de GALERIE. Le manifeste livré la reprend en `sku_fournisseur`. Le rattachement Shopify n'appartient pas à cette fournée : un autre agent surveille `visuels-codex-2026-08/` et s'en charge. Vague 2 du 09/08 : elle contient DEUX régénérations de slots écartés par la QA d'orchestrateur de la vague 1."
+}

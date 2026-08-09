@@ -286,3 +286,68 @@ Les 3 ordres sont **VALIDE (classe A)** au validateur. Triage de la source neuve
 (`cadran-pilote-33-5-aiguilles-blanches`) : deux cadrans et un couvercle plastique sur la même photo,
 filigrane « Tandorio » sur l'image (cas C) — le cadran de gauche (chiffres blancs, chevron blanc) est
 désigné, celui de droite (chevron rouge) et le couvercle sont interdits.
+
+#### Résultats de la vague 3 — arrêtée en cours, proprement
+
+`cadran-pilote-33-5-aiguilles-lumineuses` a livré **`face` et `macro`, tous deux retenus** en QA :
+douze grands chiffres et douze petits 13-24 correctement appariés, bâtons conservés à 1 h et 11 h (et pour
+le « 1 » de « 12 » et de « 10 »), piste 60/5/…/55 avec ses points lumineux, aucune trace du filigrane
+« Tandorio ». Contrôle au zoom des deux zones à risque : **aucune aiguille ne touche de chiffre** — quatre
+rendus avaient pourtant été écartés par Codex sur ce seul point.
+
+Le slot `situation` de cette fiche n'a pas eu le temps d'être produit. **La session s'arrête ici, et elle
+s'arrête en refusant de laisser sortir du non-contrôlé** : l'exécutant a été arrêté avant qu'il n'attaque
+les deux ordres suivants, plutôt que de laisser des visuels non passés en QA arriver dans
+`visuels-codex-2026-08/`, où un autre agent les rattacherait sans contrôle. Compte tenu du taux de défaut
+observé aujourd'hui — **2 visuels écartés sur 12 en vague 1, plus un ordre entier fautif** — livrer sans QA
+serait pire que ne pas livrer.
+
+État de la boîte à la remise : `en-cours/` **vide**, aucun verrou, **3 ordres VALIDE (classe A) en file**
+dans `inbox/`, prêts à repartir d'un simple `bash ordres/generer-images.sh` :
+
+| Ordre en file | Slots | Remarque |
+|---|---|---|
+| `20260809-2315-…-cadran-pilote-33-5-aiguilles-lumineuses` | `situation` seul | réécrit pour ne PAS régénérer les deux visuels déjà validés |
+| `20260809-2245-…-cadran-pilote-29-mod-nh35` | 3 slots | version corrigée après le refus justifié |
+| `20260809-2245-…-cadran-pilote-33-5-aiguilles-blanches` | `face`+`macro` | nouvelle fiche, source triée |
+
+---
+
+## 6. Où en est la fournée
+
+**19 visuels maison retenus après QA, sur 6 fiches**, dont **4 fiches complètes**.
+
+| Fiche | Collection | Visuels retenus | État |
+|---|---|---:|---|
+| `cadran-arabe-oriental-noir-blanc-28-5` | Cadran arabe | 3 | complète |
+| `cadran-arabe-romain-emaille-bleu-28-5` | Cadran arabe | 3 | complète (un doute résiduel consigné) |
+| `cadran-calligraphie-arabe-email-33` | Cadran arabe | 3 | complète (titre de fiche à arbitrer) |
+| `cadran-pilote-noir-33-5-nh35` | Cadrans pilote 1-12 | 2 | complète |
+| `cadran-pilote-38-aiguilles-nh35` | Cadrans pilote 1-12 | 2 | complète |
+| `cadran-pilote-29-classique-nh36` | Cadrans pilote 1-12 | 2 | complète |
+| `cadran-pilote-33-5-aiguilles-lumineuses` | Cadrans pilote 1-12 | 2 | `situation` en file |
+| `cadran-pilote-29-mod-nh35` | Cadrans pilote 1-12 | 0 | ordre corrigé en file |
+| `cadran-pilote-33-5-aiguilles-blanches` | Cadrans pilote 1-12 | 0 | ordre en file |
+
+La collection **Cadran arabe** passe de 0 à **3 fiches habillées sur 8** : c'est le maximum atteignable
+sans re-sourcing, les 5 autres restant bloquées par une marque au cadran ou un écart produit (§2).
+La collection **Cadrans pilote 1-12** compte **4 fiches habillées**. La collection **Cadrans stériles
+couleur** n'a pas été entamée : la priorité annoncée a été tenue jusqu'au bout.
+
+### Ce qu'il faut retenir pour la prochaine session
+
+1. **La QA de Codex ne suffit pas.** Sur 12 visuels rendus `done` en vague 1, **2 portaient un défaut**
+   (piste des minutes fausse, chiffre inventé à la place d'un bâton). Le contrôle indépendant au zoom
+   contre la source n'est pas une formalité, c'est là que les défauts se trouvent.
+2. **Un index n'est pas un chiffre.** Nouveau type de défaut, désormais dans le bloc de contraintes de
+   base et dans la QA : le modèle promeut spontanément un bâton en « 1 ». Ces cadrans aviateur en sont
+   pleins (1 h, 11 h, et le « 1 » de « 12 » et de « 10 »).
+3. **Écrire l'ordre après un zoom, pas après un coup d'œil.** L'ordre `cadran-pilote-29-mod-nh35` décrivait
+   faussement la piste périphérique et a coûté six générations avant que Codex ne le refuse — à raison.
+4. **Les aiguilles sont le poste le plus cher.** 9 générations pour une face sur `pilote-29-classique`,
+   4 rejets sur `pilote-33-5-lumineuses`, tous pour cause d'aiguille touchant un chiffre. Imposer la
+   position horaire des trois aiguilles aide mais ne suffit pas ; envisager de demander la face **sans
+   aiguilles** quand la source le permet.
+5. **Choisir la bonne variante désamorce le cas B.** Sur `pilote-29-mod`, seule la variante saumon portait
+   « AUTOMATIC » : désigner la variante noire a rendu la fiche productible sans arbitrage. À tenter sur les
+   autres fiches bloquées en cas B avant de les remonter à Hakim.
