@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "checked_at_utc_range": {
+    "from": "2026-08-09T21:52:16+00:00",
+    "to": "2026-08-09T21:52:20+00:00"
+  },
+  "source": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS",
+  "destination": "FR",
+  "candidate_status": "PASS_API_OFFICIEL_PARTIEL",
+  "product": {
+    "product_id": "1005009751528666",
+    "url": "https://fr.aliexpress.com/item/1005009751528666.html",
+    "title_observed": "Nouveau cadran de montre arabe bleu ciel NH35 28.5MM Sunburst, cadran de montre à chiffres arabes avec aiguilles de montre NH35 pour mouvement NH35 NH36 4R",
+    "status": "onSelling",
+    "rating": 4.6,
+    "evaluation_count": 56,
+    "sales_count": 200,
+    "store": {
+      "id": 1104278703,
+      "name": "XinXin Watch Parts Store",
+      "country": "CN",
+      "item_as_described_rating": 4.8,
+      "communication_rating": 4.8,
+      "shipping_speed_rating": 4.9
+    }
+  },
+  "visual_qa": {
+    "eastern_arabic_numerals_observed": true,
+    "physical_dial_logo_observed": false,
+    "physical_dial_trademark_phrase_observed": false,
+    "supplier_photo_watermark_observed": "XinXin Store",
+    "raw_images_publishable": false,
+    "notes": "Variant images show Eastern Arabic numerals and a date window at 3 o'clock on all 11 retained dial-only SKUs. The XinXin Store text is an image watermark, not printing on the dial. Map every SKU against its image."
+  },
+  "freight_common": {
+    "company": "AliExpress Selection Standard",
+    "code": "CAINIAO_FULFILLMENT_STD",
+    "shipping_fee": "1,99€",
+    "currency": "EUR",
+    "ship_from_country": "CN",
+    "tracking": true
+  },
+  "variants": [
+    {
+      "sku_id": "12000050049927398",
+      "sku_attr": "14:350686#Black Gold Dial",
+      "label": "Cadran noir or",
+      "offer_sale_price_eur": 5.69,
+      "stock": 495,
+      "min_delivery_days": 10,
+      "max_delivery_days": 13,
+      "delivery_date": "août 19 - 22",
+      "image_url": "https://ae01.alicdn.com/kf/S4eaccdaa442c445cbf9db4b254973f62p.jpg",
+      "local_source": "../sources-fournisseur-2026-08/cadran-arabe-oriental-soleille-28-5/01-black-gold-dial-12000050049927398.webp"
+    },
+    {
+      "sku_id": "12000050049927390",
+      "sku_attr": "14:201447598#Black Silver Dial",
+      "label": "Cadran noir argenté",
+      "offer_sale_price_eur": 5.69,
+      "stock": 484,
+      "min_delivery_days": 10,
+      "max_delivery_days": 13,
+      "delivery_date": "août 19 - 22",
+      "image_url": "https://ae01.alicdn.com/kf/S7c507db911324325be9c802464da1616F.jpg",
+      "local_source": "../sources-fournisseur-2026-08/cadran-arabe-oriental-soleille-28-5/02-black-silver-dial-12000050049927390.webp"
+    },
+    {
+      "sku_id": "12000050049927393",
+      "sku_attr": "14:202520811#Sky Blue Dial",
+      "label": "Cadran bleu ciel",
+      "offer_sale_price_eur": 5.69,
+      "stock": 3,
+      "min_delivery_days": 5,
+      "max_delivery_days": 12,
+      "delivery_date": "août 14 - 21",
+      "image_url": "https://ae01.alicdn.com/kf/Sc230dab54b8d4ba4ac02c0791365afc4y.jpg",
+      "local_source": "../sources-fournisseur-2026-08/cadran-arabe-oriental-soleille-28-5/03-sky-blue-dial-12000050049927393.webp"
+    },
+    {
+      "sku_id": "12000050049927394",
+      "sku_attr": "14:203008818#Pink Dial",
+      "label": "Cadran rose",
+      "offer_sale_price_eur": 5.69,
+      "stock": 490,
+      "min_delivery_days": 10,
+      "max_delivery_days": 13,
+      "delivery_date": "août 19 - 22",
+      "image_url": "https://ae01.alicdn.com/kf/Sc6541b70c12d4acbb47b37c5e0c5442e6.jpg",
+      "local_source": "../sources-fournisseur-2026-08/cadran-arabe-oriental-soleille-28-5/04-pink-dial-12000050049927394.webp"
+    },
+    {
+      "sku_id": "12000050049927392",
+      "sku_attr": "14:201800840#Green Dial",
+      "label": "Cadran vert",
+      "offer_sale_price_eur": 5.59,
+      "stock": 492,
+      "min_delivery_days": 10,
+      "max_delivery_days": 13,
+      "delivery_date": "août 19 - 22",
+      "image_url": "https://ae01.alicdn.com/kf/Scbb1a926a81e4f74913d2e00007e00ccQ.jpg",
+      "local_source": "../sources-fournisseur-2026-08/cadran-arabe-oriental-soleille-28-5/05-green-dial-12000050049927392.webp"
+    },
+    {
+      "sku_id": "12000050049927389",
+      "sku_attr": "14:200141872#White Silver Dial",
+      "label": "Cadran argenté blanc",
+      "offer_sale_price_eur": 5.59,
+      "stock": 488,
+      "min_delivery_days": 10,
+      "max_delivery_days": 13,
+      "delivery_date": "août 19 - 22",
+      "image_url": "https://ae01.alicdn.com/kf/Se151b353d0484e4e83a13770407117caT.jpg",
+      "local_source": "../sources-fournisseur-2026-08/cadran-arabe-oriental-soleille-28-5/06-white-silver-dial-12000050049927389.webp"
+    },
+    {
+      "sku_id": "12000050049927395",
+      "sku_attr": "14:201447303#Brown Dial",
+      "label": "Cadran marron",
+      "offer_sale_price_eur": 5.59,
+      "stock": 495,
+      "min_delivery_days": 10,
+      "max_delivery_days": 13,
+      "delivery_date": "août 19 - 22",
+      "image_url": "https://ae01.alicdn.com/kf/Se3dc8f462ac44eaa8779ed45eeb2e79bt.jpg",
+      "local_source": "../sources-fournisseur-2026-08/cadran-arabe-oriental-soleille-28-5/07-brown-dial-12000050049927395.webp"
+    },
+    {
+      "sku_id": "12000050049927397",
+      "sku_attr": "14:100005979#White Rose Dial",
+      "label": "Cadran blanc rose",
+      "offer_sale_price_eur": 5.69,
+      "stock": 499,
+      "min_delivery_days": 10,
+      "max_delivery_days": 13,
+      "delivery_date": "août 19 - 22",
+      "image_url": "https://ae01.alicdn.com/kf/Sedaea4288bb04bfb9b8a71d5b507faba6.jpg",
+      "local_source": "../sources-fournisseur-2026-08/cadran-arabe-oriental-soleille-28-5/08-white-rose-dial-12000050049927397.webp"
+    },
+    {
+      "sku_id": "12000050049927399",
+      "sku_attr": "14:350850#Black Rose Dial",
+      "label": "Cadran noir rose",
+      "offer_sale_price_eur": 5.49,
+      "stock": 494,
+      "min_delivery_days": 10,
+      "max_delivery_days": 13,
+      "delivery_date": "août 19 - 22",
+      "image_url": "https://ae01.alicdn.com/kf/See3368266c004673a71b545cfc6e6cb2n.jpg",
+      "local_source": "../sources-fournisseur-2026-08/cadran-arabe-oriental-soleille-28-5/09-black-rose-dial-12000050049927399.webp"
+    },
+    {
+      "sku_id": "12000050049927396",
+      "sku_attr": "14:200005100#White Gold Dial",
+      "label": "Cadran en or blanc",
+      "offer_sale_price_eur": 5.59,
+      "stock": 489,
+      "min_delivery_days": 10,
+      "max_delivery_days": 13,
+      "delivery_date": "août 19 - 22",
+      "image_url": "https://ae01.alicdn.com/kf/Sf053744b76a644cfa48643846bbfb536Q.jpg",
+      "local_source": "../sources-fournisseur-2026-08/cadran-arabe-oriental-soleille-28-5/10-white-gold-dial-12000050049927396.webp"
+    },
+    {
+      "sku_id": "12000050049927391",
+      "sku_attr": "14:201619813#Blue Dial",
+      "label": "Cadran bleu",
+      "offer_sale_price_eur": 5.59,
+      "stock": 492,
+      "min_delivery_days": 10,
+      "max_delivery_days": 13,
+      "delivery_date": "août 19 - 22",
+      "image_url": "https://ae01.alicdn.com/kf/Sf4160903bfda4123861ce063ca9bbba56.jpg",
+      "local_source": "../sources-fournisseur-2026-08/cadran-arabe-oriental-soleille-28-5/11-blue-dial-12000050049927391.webp"
+    }
+  ]
+}
