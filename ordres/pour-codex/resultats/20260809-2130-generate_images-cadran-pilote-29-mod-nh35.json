@@ -1,0 +1,42 @@
+{
+  "id": "claude-20260809-2130-cadran-pilote-29-mod-nh35",
+  "status": "rejected",
+  "payload": {
+    "manifeste_realise": [],
+    "rejets": [
+      {
+        "fichier": "rejected/face-v1-triangles-inventes-3h-6h-9h.jpg",
+        "motif": "Piste des minutes non conforme aux contraintes spécifiques : triangles pleins à 3 h, 6 h et 9 h ; valeur périphérique 15 absente."
+      },
+      {
+        "fichier": "rejected/face-v2-triangles-3h-6h-9h-et-valeur-15-absente.jpg",
+        "motif": "Deuxième génération face non conforme : triangles pleins à 3 h, 6 h et 9 h ; valeur périphérique 15 absente."
+      },
+      {
+        "fichier": "rejected/face-v3-valeur-30-encadree-et-valeur-15-peripherique-absente.jpg",
+        "motif": "Troisième génération face non conforme : la valeur 30 est enfermée dans un cartouche et la valeur périphérique 15 reste absente."
+      },
+      {
+        "fichier": "rejected/face-v4-triangles-3h-6h-9h-et-valeur-15-peripherique-absente.jpg",
+        "motif": "Quatrième génération face non conforme : triangles pleins à 3 h, 6 h et 9 h ; valeur périphérique 15 absente."
+      },
+      {
+        "fichier": "rejected/macro-v1-triangles-inventes-pres-des-valeurs-5-et-10.jpg",
+        "motif": "Première génération macro non conforme : triangles pleins parasites près des valeurs périphériques 5 et 10."
+      },
+      {
+        "fichier": "rejected/macro-v2-triangles-inventes-pres-des-valeurs-5-et-10.jpg",
+        "motif": "Deuxième génération macro non conforme : triangles pleins parasites près des valeurs périphériques 5 et 10."
+      },
+      {
+        "fichier": "cadran-pilote-29-mod-nh35-g3.jpg",
+        "motif": "Slot situation non généré : le conflit bloquant entre la source et les contraintes permanentes s'applique à toute vue montrant la piste du cadran."
+      }
+    ],
+    "sujets_difficiles": [
+      "cadran-pilote-29-mod-nh35 | ordre inexécutable sans falsification après 4 générations face écartées : la variante source noire/blanche montre plusieurs repères triangulaires pleins sur la piste et ne montre pas de valeur périphérique 15 à 3 h, tandis que les contraintes imposent un unique triangle à 12 h, des rectangles évidés partout ailleurs et les valeurs périphériques 5 à 55 complètes"
+    ]
+  },
+  "executed_at": "2026-08-09T20:13:23Z",
+  "executor": "codex-2026-08-09"
+}

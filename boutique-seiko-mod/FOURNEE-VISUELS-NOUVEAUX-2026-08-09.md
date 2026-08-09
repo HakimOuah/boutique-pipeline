@@ -236,3 +236,53 @@ Triage des trois sources neuves, fait avant de commander :
   `insert-ceramique-chiffres-arabes-38` (où la source montrait un **tout autre produit**, un insert GMT à
   codes de villes), ici la source montre bien **le produit vendu** : les visuels sont donc justes, c'est
   le **titre de la fiche et son appartenance à la collection `cadran-arabe`** qui sont à revoir.
+
+#### Résultats de la vague 2
+
+| Fiche | Slots | Résultat | QA d'orchestrateur |
+|---|---|---|---|
+| `cadran-arabe-oriental-noir-blanc-28-5` | `situation` | livré (2 générations) | **retenu** — piste 60/5/…/55 désormais juste, homogène avec `-g1` et `-g2`. Fiche **complète à 3 visuels**. |
+| `cadran-pilote-29-classique-nh36` | `face` | livré (**9 générations cumulées**) | **retenu** — le repère de 1 h est enfin un bâton nu, conforme à la source et au macro `-g2`. Fiche **complète à 2 visuels**. |
+| `cadran-calligraphie-arabe-email-33` | `face`+`macro`+`situation` | livré (0 régénération) | **3 retenus** — douze chiffres, un de chaque, couleurs conformes position par position ; ni boîtier, ni bracelet, ni aiguille repris du montage source. |
+| `cadran-pilote-29-mod-nh35` | 3 slots | **refusé par Codex** | refus **justifié** — voir ci-dessous. |
+| `cadran-pilote-33-5-aiguilles-lumineuses` | 3 slots | interrompu (session tuée) | 4 rejets de placement d'aiguilles déjà consignés ; ordre **remis en file** automatiquement par le script, relancé en vague 3. |
+
+`cadran-pilote-29-classique-nh36` est le sujet le plus coûteux des deux vagues : **neuf générations** pour
+une seule image. Le modèle échoue systématiquement à poser trois aiguilles sans en faire toucher un
+chiffre. Enseignement à réutiliser : sur un cadran livré avec aiguilles, **imposer dans l'ordre la position
+horaire de chacune des trois aiguilles** dans un couloir vide nommé — ce qui a été fait dès la vague 2 et
+qui a quand même demandé trois essais. À terme, il vaut peut-être mieux **demander la face sans aiguilles**
+quand la source le permet.
+
+#### Le refus de `cadran-pilote-29-mod-nh35` — l'ordre était fautif, pas la source
+
+Codex a rendu `status: rejected` après quatre faces et deux macros écartées, avec ce motif :
+la source montre des triangles pleins ailleurs qu'à 12 h, et ne porte pas de valeur périphérique « 15 ».
+**Il avait raison, et c'est exactement le comportement attendu** : refuser plutôt que falsifier le produit
+pour se conformer à un ordre erroné. Contrôle refait au zoom sur la source :
+
+- l'anneau périphérique porte **douze triangles pleins**, un à chaque position de cinq minutes — celui de
+  12 h est simplement **plus grand** que les onze autres ; entre eux, des rectangles blancs évidés ;
+- les valeurs de cinq minutes réellement imprimées sont **dix** : 5, 10, 20, 25, 30, 35, 40, 45, 50, 55.
+  **Pas de « 60 »** à 12 h (le grand triangle en tient lieu) et **pas de « 15 »** à 3 h (le guichet de date
+  occupe le secteur). Le « 15 » que l'on voit à 3 h appartient à la couronne 24 h, pas à l'anneau ;
+- trois repères d'heure sont des **bâtons** et non des chiffres : un bâton à 1 h, deux à 11 h, et le « 1 »
+  de « 12 » comme celui de « 10 » sont eux aussi des bâtons.
+
+Un ordre corrigé (`20260809-2245`) remplace le fautif. **La leçon est sur la méthode d'écriture des
+ordres** : décrire une piste de cadran « au premier coup d'œil » sur une planche de quatre variantes ne
+suffit pas — il faut un zoom sur la seule variante retenue avant d'écrire la contrainte, sinon l'ordre
+devient un piège qui coûte six générations.
+
+### Vague 3 — 3 ordres
+
+| Fiche | Slots | Nature |
+|---|---|---|
+| `cadran-pilote-33-5-aiguilles-lumineuses` | 3 slots | reprise de l'ordre interrompu |
+| `cadran-pilote-29-mod-nh35` | 3 slots | ordre corrigé après refus justifié |
+| `cadran-pilote-33-5-aiguilles-blanches` | `face`+`macro` | nouvelle fiche |
+
+Les 3 ordres sont **VALIDE (classe A)** au validateur. Triage de la source neuve
+(`cadran-pilote-33-5-aiguilles-blanches`) : deux cadrans et un couvercle plastique sur la même photo,
+filigrane « Tandorio » sur l'image (cas C) — le cadran de gauche (chiffres blancs, chevron blanc) est
+désigné, celui de droite (chevron rouge) et le couvercle sont interdits.
