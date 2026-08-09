@@ -35,14 +35,41 @@ Décision : archiver les fiches perdantes plutôt que les supprimer. Cela retire
 
 Résultat : les quatre passages à `ARCHIVED` ont réussi. Une seconde lecture MCP confirme `ARCHIVED` pour chaque GID, avec le nombre de variantes et l'inventaire inchangés.
 
+### Décision sur les cinq dossiers arabes bloqués
+
+- Correction de périmètre : ce sont cinq dossiers source excédentaires, pas cinq fiches Shopify ; la recherche par handle exact renvoie zéro produit.
+- Quatre abandons visuels nets : verbatim associé à Rolex, variantes uniquement `S Dial`, ou chiffres occidentaux au lieu des glyphes arabes orientaux.
+- `1005006492769759` possède des variantes stériles visuellement propres, mais est abandonné comme nouveau candidat : 4 ventes, 1 avis et doublon du brouillon Shopify `gid://shopify/Product/11013081366866` / AliExpress `1005010249362754`.
+- Bilan : `0/5` récupérable pour un nouvel import. Le rapport détaillé et les limites de la surface API sont consignés dans `DECISION-5-FICHES-ARABES-AGENT-2026-08-10.md`.
+
+### Affectation des six nuanciers du bracelet caoutchouc gaufré
+
+- Produit : `gid://shopify/Product/10980388536658`, handle `bracelet-caoutchouc-gaufre`, statut `ACTIVE`.
+- État initial relu via Shopify : 9 médias produit, 72 variantes, aucune association média-variante.
+- Périmètre : réutiliser les six médias déjà présents ; aucune création ou suppression de média, aucun changement de prix, stock, SKU, option, texte ou statut.
+- Chaque nuancier « boucle argentée » doit être affecté aux deux largeurs vendues du SKU fournisseur correspondant :
+
+| Nuancier | Média Shopify | Variantes 20 / 22 mm |
+|---|---|---|
+| Vert kaki | `gid://shopify/MediaImage/59894129033554` | `54098042618194`, `54098042749266` |
+| Rouge | `gid://shopify/MediaImage/59894129066322` | `54098043666770`, `54098043896146` |
+| Bleu profond | `gid://shopify/MediaImage/59894129099090` | `54098042880338`, `54098043109714` |
+| Brun | `gid://shopify/MediaImage/59894129131858` | `54098043142482`, `54098043371858` |
+| Noir | `gid://shopify/MediaImage/59894129164626` | `54098043404626`, `54098043634002` |
+| Orange | `gid://shopify/MediaImage/59894129197394` | `54098044191058`, `54098044420434` |
+
+Rollback : détacher ces six médias des douze variantes par `productVariantDetachMedia`, sans retirer les médias de la galerie.
+
+Résultat : mutation validée contre le schéma Shopify puis appliquée sans `userErrors`. Une requête indépendante après écriture confirme 6 médias distincts associés aux 12 variantes attendues, 9 médias produit et 72 variantes au total ; le produit reste `ACTIVE`.
+
 ## État des sept étapes
 
 | Étape | Statut | Preuve ou blocage |
 |---|---|---|
 | 1. File visuelle stériles et pilote | EN COURS | Exécuteur vivant constaté ; ne pas forcer le verrou. |
 | 2. Re-sourcing arabe | EN COURS | 1 produit qualifié le 09/08 ; recherche API complémentaire ouverte. |
-| 3. Cinq fiches arabes bloquées | EN COURS | Recherche de photos alternatives par API ouverte. |
+| 3. Cinq fiches arabes bloquées | TERMINÉE | 0/5 récupérable ; aucun des cinq handles n'existe dans Shopify. |
 | 4. Import, rédaction et habillage | EN ATTENTE | Dépend du lot qualifié et de la décision sur les cinq fiches. |
-| 5. Nettoyage catalogue | EN COURS | Contradiction corrigée ; trois doublons perdants et cadran à verbatim Rolex archivés puis relus. Nuanciers et doutes restent à statuer. |
+| 5. Nettoyage catalogue | EN COURS | Contradiction corrigée ; trois doublons perdants et cadran à verbatim Rolex archivés ; 6 nuanciers affectés à 12 variantes et relus. Doutes techniques restants à statuer. |
 | 6. 319 visuels des fiches actives | EN ATTENTE | Inventaire actuel à réconcilier après la file prioritaire. |
 | 7. Activation | BLOQUÉE PAR CONDITIONS | Aucune activation tant que les cinq conditions ne sont pas toutes prouvées. |
