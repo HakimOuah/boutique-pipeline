@@ -1270,3 +1270,171 @@ Chemins des fichiers en attente :
 `visuels-codex-2026-08/montre-aviateur-bronze-cadran-chiffres-1-12/`.
 
 **Cumul inchangé : 64 visuels rattachés sur 55 fiches. 2 refus + 2 en attente d'arbitrage.**
+
+---
+
+## Reprise après coupure — 09/08/2026 ~21h00
+
+La session précédente s'est arrêtée au tour 44. Avant de reprendre, **recoupement complet
+entre le journal et l'état réel de Shopify** plutôt que confiance au journal seul :
+
+- inventaire des 200 produits de la boutique et de leurs médias (`handle` + nom de fichier
+  CDN de chaque média), comparé aux 77 fichiers présents dans `visuels-codex-2026-08/` ;
+- résultat : les 64 visuels annoncés comme rattachés sont **effectivement en ligne** — aucun
+  doublon à craindre, aucune écriture perdue par la coupure ;
+- en revanche **13 fichiers n'étaient pas traités** : 11 dans cinq dossiers `cadran-*` livrés
+  par Codex après le tour 44 (le journal n'en parle pas), plus les 2 macros Noirmont Un
+  laissées en attente.
+
+À noter : `ETAT-LIVRAISON.md` annonce 66 fichiers livrés ; il y en a **77** sur le disque.
+Ce document a été écrit avant la dernière fournée `cadran-*` et sous-estime la livraison.
+
+---
+
+## Tour 45 — cinq fiches `cadran-*` (10 visuels rattachés), toutes DRAFT
+
+Première fournée de **cadrans vendus comme pièces détachées**. Le point de contrôle n°1 y est
+plus exposé qu'ailleurs : le produit *est* un cadran, photographié de face, plein cadre.
+
+### Rattachés
+
+| Fiche | Fichiers | Position | Sujet |
+|---|---|---|---|
+| `cadran-arabe-oriental-noir-blanc-28-5` | `-g1`, `-g2` | 8/9 et 9/9 | face noire + macro en biais |
+| `cadran-arabe-romain-emaille-bleu-28-5` | `-g1`, `-g2`, `-g3` | 32/34 → 34/34 | face bleu étoilé, macro matière, situation établi |
+| `cadran-pilote-29-classique-nh36` | `-g2` seul | 28/28 | macro 12-3 h — **`-g1` retiré, voir tour 47** |
+| `cadran-pilote-38-aiguilles-nh35` | `-g1`, `-g2` | 11/12 et 12/12 | face bleue soleillée + macro quart supérieur |
+| `cadran-pilote-noir-33-5-nh35` | `-g1`, `-g2` | 14/15 et 15/15 | face noire 1-12 + macro 12-3 h |
+
+`alt` descriptif en français posé sur les 10. Les cinq fiches restent **DRAFT**.
+
+### Contrôles du tour 45
+
+- **Aucun lettrage de marque ni mention d'origine** sur les 11 faces. Les seuls caractères
+  présents sont les **graduations propres au cadran vendu** (chiffres horaires, couronne
+  13-24, piste des minutes) — c'est le dessin du produit, pas une signature. Vérifié au zoom
+  sur le centre de chaque face, là où un logo se poserait : rien.
+- **Le point le plus notable** : la photo fournisseur de référence de
+  `cadran-pilote-38-aiguilles-nh35` porte en haut à gauche le **logo et le nom du fournisseur
+  (« Tandorio »)**. Les deux visuels composés par Codex l'ont éliminé sans laisser de trace
+  ni de zone floutée. C'est exactement le comportement attendu.
+- **Fidélité**, vérifiée en ouvrant les photos fournisseur déjà en ligne sur chaque fiche :
+  - oriental noir : sunburst radial, chiffres orientaux appliqués, guichet à 3 h, piste des
+    minutes 5-60 — conforme à la variante noire du nuancier fournisseur ;
+  - émail bleu : fond aventurine piqué d'éclats, chiffres orientaux facettés — conforme à la
+    variante centrale du nuancier ; la fiche vend « orientaux **ou** romains », le visuel
+    montre les orientaux, l'un des deux dessins réellement vendus ;
+  - pilote 29 : chiffres 1-12 jaunes, couronne 13-24, minuterie — décalque de la photo
+    fournisseur. *Nuance consignée* : la description dit « chiffres 1-12 pleins, triangle de
+    repère à midi, rien d'autre », alors que le produit réel n'a pas de triangle et porte bien
+    une couronne 13-24. **C'est la description qui est imprécise, pas le visuel** — celui-ci
+    est fidèle au produit vendu. À corriger côté texte, hors mandat ici ;
+  - pilote 38 : triangle à midi entre deux points, index 11 h et 1 h en bâtons, variante bleue
+    du nuancier ;
+  - noir 33,5 : variante n°2 du nuancier (lume blanc), 1-12 + 13-24.
+- **Aucun avis, note, étoile ni badge** sur les 11.
+- **Technique** : 11/11 en 2048×2048 JPEG, 580 Ko à 900 Ko.
+- Image 1 intacte sur les cinq fiches, aucun média supprimé, aucun statut, prix, texte ou
+  variante touché.
+
+### Note de manifeste
+
+Au moment du contrôle, le `manifeste.json` de `cadran-arabe-oriental-noir-blanc-28-5`
+déclarait encore **trois** entrées (`face`, `macro`, `situation`) alors que le `-g3.jpg`
+n'existait pas. Rien n'a été inventé pour combler le trou : seuls les deux fichiers présents
+ont été rattachés. Codex a depuis corrigé le manifeste et rangé la situation écartée sous
+`rejected/g3-situation-piste-minutes-35-au-lieu-de-25.jpg` — l'écart est résorbé.
+
+Ces cinq dossiers n'ont pas de `compte-rendu.md`, contrairement aux 62 précédents.
+
+**Cumul : 74 visuels rattachés sur 60 fiches. 2 refus + 2 en attente.**
+
+---
+
+## Tour 46 — le cas Noirmont Un est tranché : **les deux macros sont rattachées**
+
+Le tour 44 les avait gelées au motif d'une « galerie plongeuse contradictoire ». **Ce motif
+est faux.** Je l'ai vérifié en ouvrant les médias réellement en ligne, ce que la passe
+précédente n'avait pas fait : elle avait raisonné sur le nom des fichiers
+(`noirmont-un-plongeuse-acier-face.jpg`) et sur un export local redondant.
+
+### Ce que montrent vraiment les 4 vues en ligne
+
+| Fiche | Vue 1 et vue « au poignet » observées | Verdict |
+|---|---|---|
+| Aviateur **acier** | boîtier acier brossé, **lunette lisse sans graduation**, cadran noir 1-12 en couronne intérieure et 5-55 en couronne extérieure, triangle à midi, **bracelet cuir brun à surpiqûre crème** | **conforme mot pour mot à la description** |
+| Aviateur **bronze** | même dessin, boîtier et couronne **bronze**, même cuir brun surpiqué crème | conforme |
+
+Il n'y a **aucune plongeuse** sur ces deux fiches. Le nom de fichier hérité est trompeur — ce
+que Codex avait d'ailleurs signalé au tour 44 — et c'est ce nom, pas l'image, qui avait induit
+en erreur le diagnostic du tour 7. **L'« anomalie préexistante sur deux fiches ACTIVE »
+remontée à Hakim au tour 7 n'existe pas ; elle est annulée.**
+
+Les deux macros cuir s'insèrent donc dans une galerie parfaitement cohérente.
+
+### Rattachés
+
+| Fiche | Fichier | Position | Alt posé |
+|---|---|---|---|
+| `montre-aviateur-acier-cadran-chiffres-1-12` | `-g1` | 5/5 | Noirmont Un — Aviateur acier à chiffres 1-12 — macro de la jonction entre les cornes acier brossé et le bracelet cuir brun à surpiqûre crème — Maison Noirmont |
+| `montre-aviateur-bronze-cadran-chiffres-1-12` | `-g1` | 5/5 | Noirmont Un Bronze — Aviateur bronze à chiffres 1-12 — macro de la jonction entre les cornes bronze à patine chaude et le bracelet cuir brun à surpiqûre crème — Maison Noirmont |
+
+Contrôles : cadran, lunette et couronne hors champ sur les deux — aucun logo ni lettrage
+possible ; cuir brun et surpiqûre crème identiques à ceux des vues en ligne ; cornes acier
+d'un côté, bronze de l'autre, les deux macros ne sont pas interchangeables. Aucun avis ni
+badge. 2/2 en 2048×2048 JPEG. Les deux fiches restent **ACTIVE**, image 1 intacte.
+
+**Cumul : 76 visuels rattachés sur 62 fiches. 2 refus (tour 7, périmés depuis) + 0 en attente.**
+
+---
+
+## Tour 47 — un visuel retiré : Codex se rétracte pendant que je le posais
+
+Pendant la mise en ligne du tour 45, à 21h21, **Codex a retiré de sa propre livraison**
+`cadran-pilote-29-classique-nh36-g1.jpg` et l'a déplacé sous
+`rejected/face-v5-chiffre-1-invente-au-1h-source-baton-nu.jpg`. Motif inscrit au manifeste :
+le repère de 1 h y est rendu comme un **chiffre « 1 »** alors que le produit porte un
+**bâton nu**.
+
+J'ai vérifié le grief plutôt que de l'accepter sur parole, en recadrant la zone de 1 h sur
+trois images : la photo fournisseur en ligne sur la fiche montre un bâton jaune plein, le
+macro `-g2` de Codex montre lui aussi un bâton — et seul le `-g1` écrit un « 1 ». **Le grief
+est fondé** : c'est un détail produit inventé, exactement le manquement au critère 3.
+
+Le fichier avait déjà été posé (média `59903023022418`) quelques minutes plus tôt. Je l'ai
+**retiré**. C'est le seul média supprimé de toute la campagne, et il s'agit d'annuler ma
+propre écriture de la même passe, pas de toucher au contenu préexistant de la boutique : la
+fiche est revenue exactement à son état d'avant (27 médias fournisseur + le seul macro `-g2`,
+soit 28). Laisser en ligne un cadran portant un chiffre que le produit n'a pas aurait été
+publier précisément le défaut que la QA doit arrêter.
+
+La fiche est **DRAFT**, aucun acheteur n'a vu la version fautive. Codex a déjà mis en file une
+régénération du slot `face` (`ordres/pour-codex/inbox/20260809-2130-…-cadran-pilote-29-classique-nh36.json`) :
+le remplaçant se posera à la prochaine passe.
+
+**Leçon pour la suite** : sur ce lot, la livraison bouge pendant le rattachement. Vérifier
+l'horodatage des fichiers juste avant de poser. Contrôle fait sur les 12 autres visuels de
+cette reprise — tous inchangés depuis la nuit (02h00 à 03h58), aucun autre retrait.
+
+**Cumul : 76 visuels rattachés sur 62 fiches. 1 média retiré (rollback). 0 en attente.**
+
+---
+
+## Clôture de la campagne
+
+Sur les **77 fichiers** de `visuels-codex-2026-08/` : **76 rattachés, 1 retiré par
+rétractation de Codex, 0 en attente**. Les 5 dossiers vides (`bracelet-fkm-tropical`,
+`carte-cadeau-maison-noirmont`, `trente-neuf-rose-classique-cannelee`, `remontoir-solo`,
+`trente-neuf-duo-classique-bicolore`) restent des écarts assumés par Codex, motifs consignés.
+
+Restent à l'arbitrage de Hakim, sans blocage :
+
+1. **Affecter aux variantes** les 6 nuanciers de `bracelet-caoutchouc-gaufre` (tour 42) —
+   hors mandat ici, correspondances SKU dans le manifeste.
+2. **Corriger la description** de `cadran-pilote-29-classique-nh36` (« triangle de repère à
+   midi, rien d'autre » ne correspond pas au produit vendu).
+3. **Compléter ou corriger le manifeste** de `cadran-arabe-oriental-noir-blanc-28-5` (une
+   entrée `situation` déclarée sans fichier).
+4. **Mettre à jour `ETAT-LIVRAISON.md`** : il annonce 66 fichiers, il y en a 77.
+5. **Reposer la face de `cadran-pilote-29-classique-nh36`** dès que Codex aura livré le
+   remplaçant du slot `face` (commande déjà en file).

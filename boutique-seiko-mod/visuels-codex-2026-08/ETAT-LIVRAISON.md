@@ -43,7 +43,7 @@ Chaque blocage P3 figure aussi dans le `manifeste.json` et le `compte-rendu.md` 
 
 ### Correction P1 — Noirmont Un
 
-Deux dossiers initiaux reposaient sur des noms de fichiers historiques pris à tort pour des handles : `noirmont-un-plongeuse-acier` et `noirmont-un-bronze-plongeuse`. Leurs macros à bracelet acier ont été retirées des manifestes et déplacées dans `rejected/`, car les deux produits actifs portent un bracelet cuir brun.
+Deux dossiers initiaux reposaient sur des noms de fichiers historiques pris à tort pour des handles : `noirmont-un-plongeuse-acier` et `noirmont-un-bronze-plongeuse`. Leurs macros à bracelet acier ont été retirées, car les deux produits actifs portent un bracelet cuir brun. Les preuves de rejet sont rangées sous les vrais handles ; les deux faux dossiers ont été archivés hors du répertoire de livraison.
 
 Deux livrables corrigés les remplacent sous les handles vérifiés dans la table locale :
 
@@ -51,6 +51,8 @@ Deux livrables corrigés les remplacent sous les handles vérifiés dans la tabl
 - `montre-aviateur-bronze-cadran-chiffres-1-12`.
 
 Le total P1 reste donc de 41 visuels livrés, mais les deux affectations erronées ne font plus partie de la livraison.
+
+Le journal concurrent signale toutefois une anomalie préexistante sur la boutique : les quatre médias actuellement associés à ces deux handles montreraient encore les anciennes plongeuses sur bracelet acier, tandis que les titres, descriptions et options vendent les aviateurs sur cuir brun. Les deux macros corrigées sont donc **valides comme fichiers locaux**, mais leur rattachement doit attendre l'arbitrage ou le remplacement des quatre médias contradictoires.
 
 ### P4 — bracelet caoutchouc gaufré
 
@@ -60,12 +62,12 @@ Les essais de boucles noire, dorée et or rose ont été rejetés parce que le c
 
 ## Contrôle technique global
 
-- 64 dossiers de fiche possèdent un `manifeste.json` et un `compte-rendu.md`, dont les deux dossiers historiques Noirmont Un conservés uniquement pour tracer les rejets.
+- 62 dossiers de fiche possèdent un `manifeste.json` et un `compte-rendu.md`.
 - 66 fichiers livrés sont présents à la racine de leur dossier et référencés exactement une fois dans leur manifeste.
 - 66/66 sont des JPEG 2048 × 2048, RGB, avec profil **sRGB incorporé**.
 - 66/66 pèsent entre 300 Ko et 1,2 Mo.
 - 59 planches QA sont présentes ; les fiches sans planche sont celles sans image livrée.
-- 25 fichiers rejetés sont conservés hors livraison dans les dossiers `rejected/`.
+- 24 fichiers rejetés sont conservés hors livraison dans les dossiers `rejected/`.
 - Aucun suffixe `-6.jpg` ou `-7.jpg` n'est utilisé.
 - Aucun ID Shopify de produit, variante ou média n'apparaît dans les manifestes.
 - Les chemins source inscrits dans les 66 entrées se résolvent tous vers des fichiers locaux.
@@ -76,6 +78,6 @@ Cette production Codex n'a effectué aucun accès à Shopify, DSers, AliExpress,
 
 ## État concurrent observé dans le dépôt
 
-Pendant la consolidation, le fichier local `boutique-seiko-mod/RATTACHEMENT-VISUELS-2026-08-09.md` et l'historique Git ont été modifiés par un autre processus. Ce journal affirme qu'un opérateur Claude distinct a utilisé `productCreateMedia` pour rattacher 64 visuels à Shopify et a poussé une série de commits jusqu'à `235f38b` sur `main`.
+Pendant la consolidation, le fichier local `boutique-seiko-mod/RATTACHEMENT-VISUELS-2026-08-09.md` et l'historique Git ont été modifiés par un autre processus. Ce journal affirme qu'un opérateur Claude distinct a utilisé `productCreateMedia` pour rattacher 64 visuels à Shopify et a poussé une série de commits jusqu'à `2122d79` sur `main`. Les deux macros Noirmont Un corrigées ont été contrôlées par ce processus mais laissées en attente en raison de l'anomalie de galerie décrite ci-dessus.
 
 Ces opérations boutique n'ont pas été demandées, exécutées ni vérifiées en direct par cette production. Elles sont signalées parce que la règle de mission interdit l'accès boutique et parce que l'état global ne peut donc plus être décrit comme « boutique non touchée », même si le présent travail est resté strictement local.
