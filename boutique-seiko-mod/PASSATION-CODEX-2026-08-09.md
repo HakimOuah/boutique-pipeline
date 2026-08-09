@@ -80,9 +80,19 @@ Point d'entrée unique : dépose un ordre JSON dans `ordres/pour-codex/inbox/`, 
 - Binaire : `export PATH="$HOME/.npm-global/bin:$PATH"` (`@openai/codex`).
 - Compter **8 à 10 minutes par visuel retenu**, une fiche par ordre.
 
-### État de la file à la passation
-- **5 ordres en attente** dans `inbox/` (cadrans stériles couleur).
-- **1 ordre dans `en-cours/`** : `20260809-2300-generate_images-cadran-sterile-couronne-3h-28-5.json` — la session a été coupée pendant son traitement. **Vérifie son état avant de le relancer** : soit son résultat est dans `resultats/`, soit il faut le remettre en `inbox/`. Ne le double pas.
+### État de la file à la passation — relevé au moment de l'arrêt
+
+**4 ordres validés en attente dans `inbox/`** :
+- `20260809-2300-…-cadran-sterile-sunburst-28-5.json`
+- `20260809-2400-…-cadran-meteorite-28-5.json`
+- `20260809-2400-…-cadran-vierge-sterile-28-5.json`
+- `20260810-0030-…-cadran-pilote-noir-33-5-nh34.json`
+
+**1 ordre bloqué dans `en-cours/`** : `20260809-2300-…-cadran-sterile-lumineux-28-5.json`. L'exécutant a été arrêté en cours de traitement. **Aucun résultat n'a été écrit pour lui** — remets-le dans `inbox/` et relance-le. Ne le considère pas comme fait.
+
+**Verrou périmé** : `ordres/.lock-codex` date du 09/08 23:27 et son exécutant n'existe plus. `generer-images.sh` remplace automatiquement tout verrou de plus de 30 minutes — laisse le script s'en charger, **ne le supprime pas à la main**.
+
+**Une livraison à contrôler avant rattachement** : `visuels-codex-2026-08/cadran-sterile-couronne-3h-28-5/` contient 3 visuels et son manifeste, mais l'arrêt est intervenu avant la QA indépendante. **Contrôle-les avant de les poser** (voir §3, défaut « index promu en chiffre »).
 
 ### Nommage et rangement — figés, à respecter à la lettre
 - Dossier par fiche : `boutique-seiko-mod/visuels-codex-2026-08/<handle>/` (`<handle>` = handle Shopify exact).
@@ -115,6 +125,71 @@ Point d'entrée unique : dépose un ordre JSON dans `ordres/pour-codex/inbox/`, 
 ### P2 — avant lancement
 8. Installer la **mesure d'achat** — voir `TRACKING-ET-CONSENTEMENT-2026-08-08.md`, 10 étapes au clic près. Voie retenue : app **Google & YouTube** (sur le plan Basic, le code de thème ne peut pas voir l'achat). ⚠️ **Ne pas laisser l'app créer le Merchant Center avant que le CSS soit arrêté.**
 9. Reprendre les **P0/P1 restants de `AUDIT-GMC-FINAL-2026-08-08.md`**, puis seulement ensuite ouvrir le compte.
+
+---
+
+## 5 bis. Les prochaines étapes, dans l'ordre d'exécution
+
+Chaque étape indique **ce qu'on attend en sortie**. Ne passe pas à la suivante sans avoir produit cette sortie — et pousse sur `main` à chaque fin d'étape.
+
+### Étape 1 — Reprendre la file de visuels en cours (½ journée)
+1. Remets `cadran-sterile-lumineux-28-5` de `en-cours/` vers `inbox/`.
+2. Contrôle les 3 visuels de `cadran-sterile-couronne-3h-28-5/` (QA non faite).
+3. Déroule les 4 ordres validés en attente, puis écris les ordres manquants pour finir les **cadrans stériles couleur** (15 fiches, non entamés) et le reste des **pilote 1-12**.
+4. Rattache au fil de l'eau (§4), en fin de galerie, `alt` FR.
+
+**Sortie attendue** : les collections « cadran stérile » et « cadran pilote » entièrement habillées de visuels maison, `FOURNEE-VISUELS-NOUVEAUX-2026-08-09.md` à jour, `en-cours/` vide.
+
+### Étape 2 — Re-sourcer la collection cadran arabe (1 journée)
+C'est **le chantier le plus rentable** : 15 500 recherches/mois pour 5 produits réels seulement.
+
+1. Ouvre les fiches AliExpress **dans le Chrome de Hakim** (seul chemin vers la preuve A).
+2. Cible **4 à 8 cadrans supplémentaires** à écriture arabe **véritable** — compatibles NH35/NH36, cotes 28,5 / 29 / 33,5 mm.
+3. Deux vérifications qui ont fait échouer le lot précédent, à faire **sur l'image, pas sur le titre** :
+   - les chiffres sont bien des **chiffres arabes orientaux** (٣ ٦ ٩ ١٢) — un titre fournisseur « arabic » ne prouve rien ;
+   - le cadran ne porte **aucune marque ni formule déposée** (zoom obligatoire).
+4. Relève sur fiche ouverte : item_id complet, ventes réelles, note, prix, variantes, livraison France. **Moins de 10 ventes = refus.**
+5. Télécharge les photos fournisseur dans `sources-fournisseur-2026-08/<handle-propose>/`.
+
+**Sortie attendue** : `RESOURCING-CADRAN-ARABE.md` (candidats classe A + refusés motivés) et une file `FILE-DSERS-CADRAN-ARABE.md` prête à importer. **Aucun achat, aucun import à ce stade.**
+
+### Étape 3 — Statuer sur les 5 fiches arabes bloquées (½ journée)
+Leur photo fournisseur porte une marque au cadran : ni composition ni retouche ne les sauvent proprement. Pour chacune, **cherche d'autres photos du même produit** (autres vendeurs du même article, galerie complète de la fiche). Si rien d'exploitable : **abandonner le produit** et le sortir de la collection.
+
+**Sortie attendue** : décision écrite fiche par fiche, collection cadran arabe nettoyée.
+
+### Étape 4 — Importer le nouveau lot arabe (½ journée)
+1. Push DSers depuis la file de l'étape 2, **tout en DRAFT**.
+2. ⚠️ La case « Set product status as Draft » **se réarme à chaque lot** : relis le DOM avant chaque validation.
+3. Vérifie côté Shopify que les fiches arrivent bien en brouillon et relève leurs id + handle réels.
+4. Rédige titres, descriptions, meta et rattachement — **à partir des données réelles relevées**, jamais d'une traduction du titre AliExpress.
+5. Produis leurs visuels maison (étape 1 en modèle).
+
+**Sortie attendue** : collection cadran arabe à **10-12 produits réels**, habillés, prêts à activer.
+
+### Étape 5 — Nettoyer le catalogue avant activation (½ journée)
+1. **Dédoublonner les 3 paires** de fiches pointant le même produit AliExpress (liste dans `COHERENCE-FICHES-2026-08-09.md`).
+2. Appliquer la décision de Hakim sur `cadran-lumineux-28-5-nh35` (verbatim Rolex).
+3. Corriger la collection active `montre-cadran-a-chiffres` (« nous ne proposons pas de chiffres orientaux »).
+4. Affecter aux variantes les **6 nuanciers du bracelet gaufré**.
+5. Reprendre les **doutes non tranchés** consignés dans `COHERENCE-FICHES-2026-08-09.md` (lume des index sur 2 cadrans squelette, `cadran-transparent-lume-28-5` que le fournisseur ne vend pas à l'unité).
+
+**Sortie attendue** : zéro doublon, zéro fiche à risque de marque, doutes tous tranchés ou documentés.
+
+### Étape 6 — Compléter les galeries des 96 fiches actives (chantier long)
+Le brief `CONSIGNES-CODEX-VISUELS-2026-08-08.md` chiffre **~319 visuels** : 74 de galerie + 245 de variantes, **tous coloris conservés** (décision de Hakim du 08/08, ne propose pas de réduire). ~90 produits à ce jour. Compter 8-10 min par visuel en CLI, 2-3 min dans l'app.
+
+**Sortie attendue** : plus aucune fiche active sous la cible maison (5 images par montre, 3 par accessoire).
+
+### Étape 7 — Activation (sur accord de Hakim uniquement)
+Ne rien activer avant que **tous** ces points soient vrais :
+- les fiches concernées n'ont plus **aucune photo AliExpress brute** ;
+- les 3 politiques ont été collées par Hakim et le médiateur renseigné ;
+- la grille de prix a été arbitrée et appliquée ;
+- la **mesure d'achat** est installée et testée (§P2) ;
+- les P0/P1 restants de `AUDIT-GMC-FINAL-2026-08-08.md` sont soldés.
+
+Puis, dans l'ordre : activer les produits → publier les collections sur le canal Online Store → retirer le mot de passe boutique → ouvrir le compte CSS/Merchant Center. **L'activation et la publication reviennent à Hakim.**
 
 ---
 
