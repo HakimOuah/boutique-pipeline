@@ -4,6 +4,9 @@
 
 ## ⚠️ Niveau de preuve de la nuit — À LIRE AVANT EXÉCUTION
 
+> **MISE À JOUR 09/08 — la montée en classe A a été faite.** Voir `PUSH-DSERS-2026-08-09.md` : les PDP AliExpress se chargent normalement dans le Chrome de Hakim (le mur anti-bot était propre au navigateur intégré). 94 fiches vérifiées puis poussées en DRAFT sur Maison Noirmont, 2 candidats refusés sur ventes réelles dérisoires. **Les coûts SERP de ce registre sont parfois surévalués** face aux prix PDP : re-caler le pricing avant publication.
+
+
 **Aucune classe A cette nuit : mur anti-bot AliExpress documenté.** Les pages produit (PDP) refusent systématiquement de charger leurs données dans le navigateur intégré (squelette CSR permanent, l'API de données ne part jamais ; en émulation mobile, reCAPTCHA explicite). Conformément aux consignes, rien n'a été contourné. Les SERP (rendues côté serveur) et l'API publique d'avis fonctionnent, elles.
 
 **Chaque candidat ci-dessous est donc en niveau B+**, c'est-à-dire :
