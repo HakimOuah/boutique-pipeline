@@ -1,0 +1,36 @@
+{
+  "id": "claude-20260809-2300-cadran-sterile-couronne-3h-28-5",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-sterile-couronne-3h-28-5",
+        "sku": "AE-1005008397086684",
+        "slot": "face",
+        "fichier": "cadran-sterile-couronne-3h-28-5-g1.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-sterile-couronne-3h-28-5",
+        "sku": "AE-1005008397086684",
+        "slot": "macro",
+        "fichier": "cadran-sterile-couronne-3h-28-5-g2.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-sterile-couronne-3h-28-5",
+        "sku": "AE-1005008397086684",
+        "slot": "situation",
+        "fichier": "cadran-sterile-couronne-3h-28-5-g3.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-08-09T21:35:12Z",
+  "executor": "codex-2026-08-09"
+}

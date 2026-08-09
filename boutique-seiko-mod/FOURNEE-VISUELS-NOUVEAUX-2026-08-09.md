@@ -396,6 +396,28 @@ minutes entre le « 13 » et le bâton de 1 h, pointe de la trotteuse entre le �
 exactement le placement du `-g1` déjà validé. **Décrire le couloir par ses deux bornes plutôt que par une
 heure approximative** est la formulation à réutiliser sur tous les cadrans livrés avec aiguilles.
 
+### Vague 5 — la collection « Cadrans stériles couleur et texture » est entamée
+
+Six ordres en file : trois cadrans stériles (`sunburst`, `lumineux`, `couronne-3h`), deux stériles de
+seconde ligne (`vierge`, `météorite`) et le pilote le plus vendu non encore habillé
+(`cadran-pilote-noir-33-5-nh34`). Tous **VALIDE (classe A)** au validateur avant transmission.
+
+#### `cadran-sterile-couronne-3h-28-5` — 3 visuels retenus, fiche complète, **zéro régénération**
+
+Premier sujet de la fournée livré **du premier coup sur les trois slots**. Ce n'est pas un hasard : c'est
+un cadran **sans chiffre et sans aiguille**. Tous les postes chers de la journée — comptage de chiffres,
+double couronne de valeurs, couloir d'aiguilles — sont absents par construction.
+
+Contrôle indépendant : repère double à 12 h (deux appliques polies accolées, seul repère double de la
+couronne) ✓, dix appliques simples ✓, guichet de date à cadre poli à 3 h ✓, piste des minutes complète
+avec ses plots carrés aux quarts ✓, texture grenue franchement lisible sur le macro ✓, aucune trace du
+filigrane « Goutent Official Store » ✓, aucun des sept autres coloris de la planche ✓. 2048 × 2048 JPEG
+sRGB, 787-869 Ko. Planche de contrôle correctement déposée dans `qa/`.
+
+**Enseignement de production** : à budget de génération constant, les cadrans stériles nus rendent
+**trois visuels pour le prix d'un** face à un pilote à aiguilles (9 générations pour une seule image sur
+`pilote-29-classique`). Si la couverture des fiches prime, **attaquer les stériles avant les pilotes**.
+
 ---
 
 ## 6. Où en est la fournée
