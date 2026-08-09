@@ -1,0 +1,47 @@
+{
+  "id": "claude-20260809-2245-cadran-pilote-33-5-aiguilles-blanches",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-pilote-33-5-aiguilles-blanches",
+        "sku": "AE-1005009253533306",
+        "slot": "face",
+        "fichier": "cadran-pilote-33-5-aiguilles-blanches-g1.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 4
+      },
+      {
+        "handle": "cadran-pilote-33-5-aiguilles-blanches",
+        "sku": "AE-1005009253533306",
+        "slot": "macro",
+        "fichier": "cadran-pilote-33-5-aiguilles-blanches-g2.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/face-v1-aiguille-minute-touche-2-trotteuse-touche-piste-chevron-incorrect.jpg",
+        "motif": "Aiguille des minutes au contact du chiffre 2, trotteuse au contact de la piste périphérique et chevron incorrect."
+      },
+      {
+        "fichier": "rejected/face-v2-trotteuse-touche-chiffre-sept-chevron-surdimensionne.jpg",
+        "motif": "Trotteuse au contact du chiffre 7 et chevron surdimensionné."
+      },
+      {
+        "fichier": "rejected/face-v3-aiguille-minute-touche-2.jpg",
+        "motif": "Aiguille des minutes au contact du chiffre 2."
+      },
+      {
+        "fichier": "rejected/macro-v1-aiguille-minute-touche-2-contrepoids-invente.jpg",
+        "motif": "Aiguille des minutes au contact du chiffre 2 et contrepoids de trotteuse inventé."
+      }
+    ],
+    "sujets_difficiles": [
+      "cadran-pilote-33-5-aiguilles-blanches | AE-1005009253533306 | face | 4 générations"
+    ]
+  },
+  "executed_at": "2026-08-09T21:16:15Z",
+  "executor": "codex-2026-08-09"
+}

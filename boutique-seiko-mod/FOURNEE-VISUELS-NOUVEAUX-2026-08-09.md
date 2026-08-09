@@ -347,6 +347,36 @@ Contrôle indépendant fait au zoom contre la source, repère par repère :
 l'anneau périphérique** ; sur le `-g1` il en reste légèrement en retrait. Écart de géométrie de quelques
 dixièmes de millimètre à l'échelle réelle, sans effet sur la lecture du produit — retenu tel quel.
 
+#### `cadran-pilote-33-5-aiguilles-blanches` — 2 visuels retenus, fiche complète
+
+`face` et `macro` livrés, **les deux retenus**. Six générations pour deux images (4 pour la face, 2 pour
+le macro), **tous les rejets pour cause d'aiguille au contact d'un repère** — la constante de cette
+fournée, confirmée une fois de plus.
+
+Contrôle indépendant au zoom :
+
+- forme des repères conforme à la source — **deux bâtons à 11 h, un bâton à 1 h, bâton dans « 12 » et dans
+  « 10 »**, chiffres 2 à 9 ; chevron blanc au-dessus de 6 h, à la bonne taille ;
+- contacts vérifiés un par un au zoom : la pointe de l'aiguille des minutes **dégage nettement le « 2 »**,
+  la pointe de l'aiguille des heures dégage le « 0 » de « 10 », la trotteuse s'arrête avant la piste ;
+- aucune trace du filigrane « Tandorio », ni du second cadran (chevron rouge), ni du couvercle plastique ;
+- 2048 × 2048 JPEG sRGB, 831 et 897 Ko ; 12 h en haut sur les deux.
+
+⚠️ **Erreur d'ordre repérée à la QA — et Codex a eu raison de ne pas la suivre.** L'ordre décrivait un
+« bâton rectangulaire crème à chacune des douze positions de cinq minutes, et de petits points ronds aux
+positions intermédiaires ». Le zoom sur la source dit autre chose : **les bâtons crème ne sont qu'à 12 h,
+3 h, 6 h et 9 h**, et les **huit autres positions de cinq minutes portent un POINT rond crème**. Les deux
+livrables reproduisent la source, pas l'ordre. C'est le bon arbitrage — mais c'est la **deuxième erreur
+d'ordre de la journée sur la description d'un anneau périphérique** (après `pilote-29-mod`). La règle
+« écrire l'ordre après un zoom, pas après un coup d'œil » vaut aussi pour les **positions cardinales**,
+pas seulement pour les valeurs chiffrées.
+
+Hygiène de livraison : Codex a déposé sa planche de contrôle **à la racine** du dossier de livraison,
+alors que la convention du dépôt la place dans `qa/`. Un JPEG parasite à la racine, c'est un visuel que
+l'agent de rattachement peut prendre pour un livrable. Planche déplacée en
+`qa/cadran-pilote-33-5-aiguilles-blanches-planche.jpg` — **à ajouter aux contraintes de livraison des
+prochains ordres.**
+
 ---
 
 ## 6. Où en est la fournée
