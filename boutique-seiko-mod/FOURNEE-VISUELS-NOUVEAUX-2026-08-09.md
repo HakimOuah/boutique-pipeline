@@ -311,6 +311,42 @@ dans `inbox/`, prêts à repartir d'un simple `bash ordres/generer-images.sh` :
 | `20260809-2245-…-cadran-pilote-29-mod-nh35` | 3 slots | version corrigée après le refus justifié |
 | `20260809-2245-…-cadran-pilote-33-5-aiguilles-blanches` | `face`+`macro` | nouvelle fiche, source triée |
 
+### Vague 4 — reprise du 09/08 à 22 h 50 : les 3 ordres en file, puis les cadrans stériles
+
+_(section tenue au fil de l'eau)_
+
+Les 3 ordres laissés en file ont été revalidés (**VALIDE, classe A**) puis relancés tels quels par
+`bash ordres/generer-images.sh` — l'ordre `lumineuses` réécrit n'a pas été touché.
+
+#### `cadran-pilote-29-mod-nh35` — 3 visuels retenus, fiche complète
+
+L'ordre corrigé (`20260809-2245`) a abouti : **`face`, `macro` et `situation` livrés, les trois retenus**
+en QA d'orchestrateur. Le sujet reste cher — **7 rejets d'images** prononcés par Codex lui-même avant
+d'aboutir (quatre faces, deux macros pour triangles inventés à 3 h / 6 h / 9 h, une situation pour cadran
+dressé sur la tranche au lieu d'être posé à plat).
+
+Contrôle indépendant fait au zoom contre la source, repère par repère :
+
+- **le défaut « index promu en chiffre » est absent** : à 11 h **deux bâtons**, à 1 h **un bâton**, et le
+  « 1 » de « 12 » comme celui de « 10 » sont bien des bâtons — sur les trois visuels ;
+- couronne intérieure **13 à 24 complète** (douze petites valeurs), guichet de date à 3 h à la place du
+  repère de 3 h ;
+- anneau périphérique : rectangles blancs évidés un par minute, triangles pleins aux douze positions de
+  cinq minutes, celui de 12 h nettement plus grand ; **dix valeurs de cinq minutes** (5, 10, 20, 25, 30,
+  35, 40, 45, 50, 55), **ni « 60 » ni « 15 »** — conforme à la source, et c'est bien ce que l'ordre
+  corrigé demandait ;
+- une clarification utile pour la suite : le « 15 » que l'on voit près du guichet appartient à la
+  **couronne 24 h** (même rayon que 13, 14, 16…), pas à l'anneau périphérique. C'est exactement la
+  confusion qui avait fait écrire le premier ordre fautif, et Codex l'a refaite dans ses motifs de rejet
+  (« valeur 15 périphérique absente ») avant de converger. **À rappeler explicitement dans tout ordre
+  portant sur un cadran à deux couronnes de valeurs.**
+- aucun lettrage, aucun logo, aucun « AUTOMATIC », aucun badge ; 12 h en haut sur les trois ; 2048 × 2048
+  JPEG sRGB, 598-1040 Ko.
+
+**Doute résiduel consigné, non bloquant** : sur la source et sur le `-g3`, le guichet de date **mord sur
+l'anneau périphérique** ; sur le `-g1` il en reste légèrement en retrait. Écart de géométrie de quelques
+dixièmes de millimètre à l'échelle réelle, sans effet sur la lecture du produit — retenu tel quel.
+
 ---
 
 ## 6. Où en est la fournée

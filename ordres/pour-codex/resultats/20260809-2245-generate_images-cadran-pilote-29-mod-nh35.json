@@ -1,0 +1,41 @@
+{
+  "id": "claude-20260809-2245-cadran-pilote-29-mod-nh35",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-pilote-29-mod-nh35",
+        "sku": "AE-1005009148826972",
+        "slot": "face",
+        "fichier": "cadran-pilote-29-mod-nh35-g1.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-pilote-29-mod-nh35",
+        "sku": "AE-1005009148826972",
+        "slot": "macro",
+        "fichier": "cadran-pilote-29-mod-nh35-g2.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-pilote-29-mod-nh35",
+        "sku": "AE-1005009148826972",
+        "slot": "situation",
+        "fichier": "cadran-pilote-29-mod-nh35-g3.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/situation-v1-cadran-dresse-non-pose-a-plat.jpg",
+        "motif": "Cadran présenté dressé sur sa tranche au lieu d'être posé à plat sur l'établi ; essai rejeté avant livraison et slot régénéré intégralement depuis la source."
+      }
+    ],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-08-09T20:59:59Z",
+  "executor": "codex-2026-08-09"
+}
