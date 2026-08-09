@@ -1,0 +1,85 @@
+{
+  "id": "claude-20260810-0030-cadran-pilote-noir-33-5-nh34",
+  "type": "generate_images",
+  "created_at": "2026-08-09T21:30:00Z",
+  "requested_by": "claude-code",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "cadran-pilote-noir-33-5-nh34",
+        "sku": "AE-1005008660462030",
+        "slot": "face",
+        "fichier": "cadran-pilote-noir-33-5-nh34-g1.jpg"
+      },
+      {
+        "handle": "cadran-pilote-noir-33-5-nh34",
+        "sku": "AE-1005008660462030",
+        "slot": "macro",
+        "fichier": "cadran-pilote-noir-33-5-nh34-g2.jpg"
+      },
+      {
+        "handle": "cadran-pilote-noir-33-5-nh34",
+        "sku": "AE-1005008660462030",
+        "slot": "situation",
+        "fichier": "cadran-pilote-noir-33-5-nh34-g3.jpg"
+      }
+    ],
+    "sources": [
+      "boutique-seiko-mod/sources-fournisseur-2026-08/cadran-pilote-noir-33-5-nh34/face-fournisseur-1005008660462030.jpg"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3"
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "VÉRITÉ PRODUIT = l'unique source fournie. Le produit s'y reprend TEL QUEL : forme, diamètre apparent, teinte, finition de surface, relief et police des repères, position et forme du guichet de date, perçage central, piste des minutes. Rien ne se réinvente, rien ne s'ajoute, rien ne se retire.",
+        "IDENTITÉ DU PRODUIT — cadran de montre de 33,5 mm, pièce détachée circulaire et plate, NOIR MAT, type aviateur 24 h, livré AVEC SES TROIS AIGUILLES (heures et minutes en flèche à garniture lumineuse BEIGE/crème, trotteuse fine en acier blanc avec contrepoids). AUCUN guichet de date. Trois couronnes, du bord vers le centre : (1) PISTE DES MINUTES au bord — de fins traits blancs, un par minute, et à CHACUNE des douze positions de cinq minutes un TRIANGLE BLANC PLEIN pointant vers le centre (les douze triangles sont de MÊME taille) ; (2) REPÈRES D'HEURE en GROS caractères blancs ; (3) couronne intérieure de PETITS chiffres blancs 13 à 24, un sous chaque repère d'heure (13 sous 1, 14 sous 2, … 24 sous 12). Perçage central sous le canon des aiguilles. Aucun texte, aucun logo.",
+        "COLORIS DE RÉFÉRENCE — la source montre TROIS cadrans annotés « #1 », « #2 », « #3 » en rouge. Ne reproduire QUE le cadran « #2 », en HAUT À DROITE : impressions BLANCHES, aiguilles à lume BEIGE. Le « #1 » (triangles et repères de cinq minutes teintés beige, aiguilles à trotteuse ROUGE) et le « #3 » (tout autre dessin : gros triangle à 12 h, chevron au-dessus de 6 h, anneau en échelle) sont interdits.",
+        "⚠️ REPÈRES D'HEURE, FORME EXACTE — CONTRÔLE BLOQUANT. Les repères sont : à 12 h le nombre « 12 » dont le « 1 » est un BÂTON NU suivi du chiffre 2 ; à 1 h UN SEUL BÂTON NU (pas de chiffre « 1 ») ; à 11 h DEUX BÂTONS PARALLÈLES (pas de nombre « 11 ») ; à 10 h le nombre « 10 » dont le « 1 » est un BÂTON NU suivi du chiffre 0. Les repères écrits en chiffres sont 2, 3, 4, 5, 6, 7, 8 et 9. NE JAMAIS peindre un chiffre à la place d'un bâton : c'est le défaut n°1 constaté sur ce catalogue.",
+        "CE CADRAN PORTE BIEN UN « 3 » et n'a AUCUN guichet de date — ne pas confondre avec les autres cadrans pilote de la boutique, où le guichet remplace le 3.",
+        "LES DOUZE TRIANGLES DE LA PISTE SONT DE MÊME TAILLE : aucun n'est agrandi, pas même celui de 12 h. Ne pas ajouter de valeurs chiffrées (5, 10, 15…) sur la piste : elle n'en porte AUCUNE.",
+        "COURONNE 24 H — douze petits chiffres, 13 à 24, un et un seul par position horaire. Ne pas en oublier, ne pas en ajouter, ne pas les échanger : 13 sous le bâton de 1 h, 24 sous le « 12 ».",
+        "AIGUILLES — les trois aiguilles sont présentes et posées de façon à NE MASQUER, NE TOUCHER et N'EFFLEURER AUCUN chiffre, bâton ni triangle : aiguille des heures vers 10 h 30, aiguille des minutes vers 2 h 30, trotteuse vers 7 h, chacune dans l'espace vide entre deux repères. C'est le poste le plus coûteux de la fournée : si un placement propre est impossible, régénérer plutôt que livrer.",
+        "PIÈGE D'ANNOTATION — la source porte en haut à gauche le logo et le mot « Tandorio », et les mentions rouges « #1 », « #2 », « #3 ». Ce sont des annotations d'IMAGE, pas le produit : elles ne doivent apparaître sous aucune forme dans les livrables.",
+        "SEULE LA SITUATION DE PRÉSENTATION CHANGE d'un visuel à l'autre : fond, lumière, angle de caméra, distance, décor. Interdiction absolue de modifier la couleur, la texture, la typographie, le nombre de chiffres ou les proportions du produit.",
+        "La source est une photo AliExpress brute : elle ne doit JAMAIS être livrée telle quelle ni rester reconnaissable. Chaque visuel est une composition maison — nouveau fond minéral pierre/craie, nouvelle lumière latérale douce, une seule ombre portée diffuse. Le fond d'origine (béton, tissu, papier, main, plan de travail, tôle), les reflets d'origine et le cadrage d'origine sont à abandonner entièrement.",
+        "STÉRILITÉ ABSOLUE : aucun logo, aucun nom de marque, aucun sigle, aucun mot, aucune lettre, aucune mention d'origine ou de provenance sur le produit. Interdits nommément, y compris atténués, flous ou partiels : « SWISS MADE », « SUPERLATIVE CHRONOMETER », « OFFICIALLY CERTIFIED », « AUTOMATIC », « WATER RESISTANT », « 100m:330ft », « JAPAN », « NO LOGO », « Tandorio », « Neiton », « Goutent », « BelleTime », « Jin Ming », tout nom de fournisseur. Si la source porte une annotation d'image (filigrane de vendeur, numéro de variante, flèche, cartouche de prix, cote en rouge), elle n'appartient PAS au produit : elle ne doit apparaître sous aucune forme dans le rendu.",
+        "Les chiffres constitutifs du cadran SONT le produit (doctrine §4.1) : ils se reproduisent exactement — même nombre, même ordre, même graphie, même orientation radiale, même piste des minutes. Ni chiffre ajouté, ni chiffre supprimé, ni chiffre en miroir.",
+        "⚠️ DÉFAUT PAYÉ, CONTRÔLE BLOQUANT — NE JAMAIS PROMOUVOIR UN INDEX EN CHIFFRE. Un repère qui est un BÂTON, un TRIANGLE, un POINT ou une APPLIQUE dans la source reste exactement cette forme dans le rendu. Le modèle a déjà peint un « 1 » à la place d'un bâton nu au repère de 1 h : c'est un défaut bloquant, il coûte le visuel. Contrôle repère par repère, sur la FORME et pas seulement sur le compte.",
+        "Aucun avis, note, étoile, badge, témoignage, chiffre de satisfaction, mention promotionnelle ni légende technique incrustée. Aucun texte d'aucune sorte dans l'image.",
+        "Bloc d'orientation impératif (§4.2) dans CHAQUE prompt : 12 h en haut, cadran lisible à l'endroit, aucun chiffre tête-bêche ni en miroir. Sur une pièce détachée posée à plat, l'axe 12-6 est vertical dans le cadre.",
+        "Inpainting et gommage interdits (§4.3) : au moindre défaut, régénérer depuis la source.",
+        "AUCUN slot `poignet` et aucune main dans cette fournée : le produit est une PIÈCE DÉTACHÉE, pas une montre. Ne jamais l'insérer dans une montre complète imaginaire, ne jamais lui ajouter un boîtier, un bracelet, une lunette ou un verre qui ne sont pas dans la source.",
+        "Sortie 2048 × 2048 px, 1:1 STRICT, JPEG sRGB, viser 400-900 Ko, plafond 1,2 Mo. Ni PNG ni WebP.",
+        "Nomenclature imposée par les noms `fichier` du manifeste. Les suffixes `-6` et `-7` sont BRÛLÉS (ils désignaient les faux avis retirés le 08/08) : ne jamais les produire, sous aucune forme, dans aucun nom de fichier.",
+        "Aucun accès boutique, aucun navigateur, aucune API distante : la livraison s'arrête aux fichiers.",
+        "Ne JAMAIS composer une planche de plusieurs cadrans dans un livrable : un seul exemplaire du produit par image.",
+        "Slot `face` — LE VISUEL PRINCIPAL. La pièce seule, posée à plat, vue strictement de dessus (caméra perpendiculaire, aucune perspective), parfaitement centrée, occupant environ 80 % de la largeur du carré. Fond minéral clair uni pierre→craie, une seule ombre portée douce sous la pièce. Aucun accessoire, aucun décor, aucun autre objet.",
+        "Slot `macro` — LA MATIÈRE, PAS UNE DEUXIÈME FACE. Plan très rapproché en lumière rasante sur un SECTEUR du cadran seulement (environ le quart entre 12 h et 3 h) : on doit y voir le RELIEF des appliques et leur tranche, le grain de la finition de surface, la netteté de la piste des minutes et, s'il existe, le bord biseauté du guichet de date. La pièce déborde volontairement du cadre. INTERDIT : la pièce entière visible en totalité — ce serait une redite de la face. Le perçage central ne doit PAS être au centre du cadre.",
+        "Slot `situation` — ÉTABLI D'HORLOGER SOBRE. Vue en plongée trois quarts, la pièce posée à plat sur un plan de travail neutre (cuir gris, feutre, pierre claire), un ou deux outils d'horloger neutres et FLOUS en arrière-plan (brucelles, tapis de travail). Interdits : montre complète, boîtier, bracelet, verre, main, doigt, marque, texte, emballage. La pièce reste le sujet net et lisible, 12 h en haut."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Zoom chiffre par chiffre ET repère par repère sur le cadran de CHAQUE livrable : chaque chiffre présent, dans l'ordre, correctement formé, non miroir ; aucun lettrage, logo, sigle ni mot parasite, même atténué. Un index bâton/triangle/point/applique de la source reste cette forme exacte, JAMAIS un chiffre.",
+        "Planche de contrôle par fiche, ≥ 740 px par vignette, réunissant la source et les livrables — le plancher est payé : les planches à 380 px ont laissé passer trois fois un « SWISS MADE ».",
+        "Contrôle qu'aucun filigrane de vendeur ni annotation d'image de la source n'a survécu dans le rendu.",
+        "Contrôle d'orientation : 12 h en haut, aucun chiffre retourné.",
+        "Contrôle d'homogénéité de galerie : les visuels d'une même fiche côte à côte doivent partager coloris, matière ET la forme exacte de chaque repère — et se distinguer nettement par le cadrage, pas se répéter. Une divergence de forme de repère entre deux visuels d'une même fiche est un défaut BLOQUANT.",
+        "Contrôle format sur chaque fichier : 2048 × 2048, 1:1, JPEG sRGB, poids dans la fourchette.",
+        "Contrôle repère par repère : bâton nu à 1 h, deux bâtons à 11 h, bâton dans « 12 » et dans « 10 », chiffres 2 à 9 en toutes lettres chiffrées, un « 3 » présent, AUCUN guichet de date.",
+        "Contrôle de la couronne 24 h : 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 — douze valeurs, bien appariées à leur repère d'heure.",
+        "Contrôle de la piste : douze triangles de même taille, aucune valeur chiffrée sur la piste.",
+        "Contrôle qu'aucune aiguille ne touche, ne masque ni n'effleure un repère.",
+        "Contrôle bloquant : aucune trace du logo ni du mot « Tandorio », aucune mention « #1 » « #2 » « #3 », un seul cadran par image."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34",
+      "manifeste": "manifeste.json"
+    }
+  },
+  "notes": "Le champ `sku` porte la référence de LISTING fournisseur (`AE-<item_id>` AliExpress), pas un SKU de variante : ces visuels sont des visuels de GALERIE. Le manifeste livré la reprend en `sku_fournisseur`. Le rattachement Shopify n'appartient pas à cette fournée : un autre agent surveille `visuels-codex-2026-08/` et s'en charge. Fiche n°3 de la collection Cadrans pilote 1-12 (324 ventes SERP, niveau B) — la plus vendue des pilotes non encore habillées."
+}

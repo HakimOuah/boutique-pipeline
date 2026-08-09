@@ -1,0 +1,80 @@
+{
+  "id": "claude-20260809-2400-cadran-vierge-sterile-28-5",
+  "type": "generate_images",
+  "created_at": "2026-08-09T21:30:00Z",
+  "requested_by": "claude-code",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "cadran-vierge-sterile-28-5",
+        "sku": "AE-1005009761337861",
+        "slot": "face",
+        "fichier": "cadran-vierge-sterile-28-5-g1.jpg"
+      },
+      {
+        "handle": "cadran-vierge-sterile-28-5",
+        "sku": "AE-1005009761337861",
+        "slot": "macro",
+        "fichier": "cadran-vierge-sterile-28-5-g2.jpg"
+      },
+      {
+        "handle": "cadran-vierge-sterile-28-5",
+        "sku": "AE-1005009761337861",
+        "slot": "situation",
+        "fichier": "cadran-vierge-sterile-28-5-g3.jpg"
+      }
+    ],
+    "sources": [
+      "boutique-seiko-mod/sources-fournisseur-2026-08/cadran-vierge-sterile-28-5/face-fournisseur-1005009761337861.jpg"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3"
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "VÉRITÉ PRODUIT = l'unique source fournie. Le produit s'y reprend TEL QUEL : forme, diamètre apparent, teinte, finition de surface, relief et police des repères, position et forme du guichet de date, perçage central, piste des minutes. Rien ne se réinvente, rien ne s'ajoute, rien ne se retire.",
+        "IDENTITÉ DU PRODUIT — cadran de montre de 28,5 mm, pièce détachée circulaire et plate, NOIR MAT UNI à surface lisse et sourde (aucun reflet soleillé), NUE : pour seuls éléments un PERÇAGE CENTRAL circulaire et un GUICHET DE DATE rectangulaire découpé à 3 h (simple découpe nette, SANS cadre rapporté, laissant voir le noir dessous). AUCUN index, AUCUNE applique, AUCUN chiffre, AUCUNE piste des minutes, AUCUNE aiguille, AUCUN texte, AUCUN logo. Ne rien ajouter : ajouter un index, un chiffre ou une piste serait inventer le produit.",
+        "COLORIS DE RÉFÉRENCE — la source est un MONTAGE : une grande photo au centre-droit (le cadran NOIR MAT) entourée de sept vignettes de coloris (magenta, bleu, orange doré, argent, rouge, vert, or). Ne reproduire QUE le cadran NOIR MAT de la GRANDE photo. Les sept vignettes de coloris et leurs fonds sont hors sujet et interdits.",
+        "PIÈGE DE FILIGRANE — la source porte en BAS À GAUCHE, à cheval sur deux vignettes, le lettrage cursif « Jin Ming ». C'est une annotation d'IMAGE, pas le produit : il ne doit apparaître sous aucune forme dans les livrables.",
+        "SUJET NU, ET C'EST SON PIÈGE : le modèle a tendance à « meubler » un cadran vierge. La surface doit rester NUE. Deux ouvertures seulement : le perçage central et le guichet de date à 3 h. Rien d'autre.",
+        "Le guichet de date est à 3 h, RECTANGULAIRE, à bords nets, à mi-distance entre le centre et le bord. Il ne se déplace pas, ne se dédouble pas et ne reçoit pas de cadre poli.",
+        "SEULE LA SITUATION DE PRÉSENTATION CHANGE d'un visuel à l'autre : fond, lumière, angle de caméra, distance, décor. Interdiction absolue de modifier la couleur, la texture, la typographie, le nombre de chiffres ou les proportions du produit.",
+        "La source est une photo AliExpress brute : elle ne doit JAMAIS être livrée telle quelle ni rester reconnaissable. Chaque visuel est une composition maison — nouveau fond minéral pierre/craie, nouvelle lumière latérale douce, une seule ombre portée diffuse. Le fond d'origine (béton, tissu, papier, main, plan de travail, tôle), les reflets d'origine et le cadrage d'origine sont à abandonner entièrement.",
+        "STÉRILITÉ ABSOLUE : aucun logo, aucun nom de marque, aucun sigle, aucun mot, aucune lettre, aucune mention d'origine ou de provenance sur le produit. Interdits nommément, y compris atténués, flous ou partiels : « SWISS MADE », « SUPERLATIVE CHRONOMETER », « OFFICIALLY CERTIFIED », « AUTOMATIC », « WATER RESISTANT », « 100m:330ft », « JAPAN », « NO LOGO », « Tandorio », « Neiton », « Goutent », « BelleTime », « Jin Ming », tout nom de fournisseur. Si la source porte une annotation d'image (filigrane de vendeur, numéro de variante, flèche, cartouche de prix, cote en rouge), elle n'appartient PAS au produit : elle ne doit apparaître sous aucune forme dans le rendu.",
+        "Les chiffres constitutifs du cadran SONT le produit (doctrine §4.1) : ils se reproduisent exactement — même nombre, même ordre, même graphie, même orientation radiale, même piste des minutes. Ni chiffre ajouté, ni chiffre supprimé, ni chiffre en miroir.",
+        "⚠️ DÉFAUT PAYÉ, CONTRÔLE BLOQUANT — NE JAMAIS PROMOUVOIR UN INDEX EN CHIFFRE. Un repère qui est un BÂTON, un TRIANGLE, un POINT ou une APPLIQUE dans la source reste exactement cette forme dans le rendu. Le modèle a déjà peint un « 1 » à la place d'un bâton nu au repère de 1 h : c'est un défaut bloquant, il coûte le visuel. Contrôle repère par repère, sur la FORME et pas seulement sur le compte.",
+        "Aucun avis, note, étoile, badge, témoignage, chiffre de satisfaction, mention promotionnelle ni légende technique incrustée. Aucun texte d'aucune sorte dans l'image.",
+        "Bloc d'orientation impératif (§4.2) dans CHAQUE prompt : 12 h en haut, cadran lisible à l'endroit, aucun chiffre tête-bêche ni en miroir. Sur une pièce détachée posée à plat, l'axe 12-6 est vertical dans le cadre.",
+        "Inpainting et gommage interdits (§4.3) : au moindre défaut, régénérer depuis la source.",
+        "AUCUN slot `poignet` et aucune main dans cette fournée : le produit est une PIÈCE DÉTACHÉE, pas une montre. Ne jamais l'insérer dans une montre complète imaginaire, ne jamais lui ajouter un boîtier, un bracelet, une lunette ou un verre qui ne sont pas dans la source.",
+        "Sortie 2048 × 2048 px, 1:1 STRICT, JPEG sRGB, viser 400-900 Ko, plafond 1,2 Mo. Ni PNG ni WebP.",
+        "Nomenclature imposée par les noms `fichier` du manifeste. Les suffixes `-6` et `-7` sont BRÛLÉS (ils désignaient les faux avis retirés le 08/08) : ne jamais les produire, sous aucune forme, dans aucun nom de fichier.",
+        "Aucun accès boutique, aucun navigateur, aucune API distante : la livraison s'arrête aux fichiers.",
+        "Ne JAMAIS composer une planche de plusieurs cadrans dans un livrable : un seul exemplaire du produit par image.",
+        "Slot `face` — LE VISUEL PRINCIPAL. La pièce seule, posée à plat, vue strictement de dessus (caméra perpendiculaire, aucune perspective), parfaitement centrée, occupant environ 80 % de la largeur du carré. Fond minéral clair uni pierre→craie, une seule ombre portée douce sous la pièce. Aucun accessoire, aucun décor, aucun autre objet.",
+        "Slot `macro` — LA MATIÈRE, PAS UNE DEUXIÈME FACE. Plan très rapproché en lumière rasante sur un SECTEUR du cadran seulement (environ le quart entre 12 h et 3 h) : on doit y voir le RELIEF des appliques et leur tranche, le grain de la finition de surface, la netteté de la piste des minutes et, s'il existe, le bord biseauté du guichet de date. La pièce déborde volontairement du cadre. INTERDIT : la pièce entière visible en totalité — ce serait une redite de la face. Le perçage central ne doit PAS être au centre du cadre.",
+        "Slot `situation` — ÉTABLI D'HORLOGER SOBRE. Vue en plongée trois quarts, la pièce posée à plat sur un plan de travail neutre (cuir gris, feutre, pierre claire), un ou deux outils d'horloger neutres et FLOUS en arrière-plan (brucelles, tapis de travail). Interdits : montre complète, boîtier, bracelet, verre, main, doigt, marque, texte, emballage. La pièce reste le sujet net et lisible, 12 h en haut."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Zoom chiffre par chiffre ET repère par repère sur le cadran de CHAQUE livrable : chaque chiffre présent, dans l'ordre, correctement formé, non miroir ; aucun lettrage, logo, sigle ni mot parasite, même atténué. Un index bâton/triangle/point/applique de la source reste cette forme exacte, JAMAIS un chiffre.",
+        "Planche de contrôle par fiche, ≥ 740 px par vignette, réunissant la source et les livrables — le plancher est payé : les planches à 380 px ont laissé passer trois fois un « SWISS MADE ».",
+        "Contrôle qu'aucun filigrane de vendeur ni annotation d'image de la source n'a survécu dans le rendu.",
+        "Contrôle d'orientation : 12 h en haut, aucun chiffre retourné.",
+        "Contrôle d'homogénéité de galerie : les visuels d'une même fiche côte à côte doivent partager coloris, matière ET la forme exacte de chaque repère — et se distinguer nettement par le cadrage, pas se répéter. Une divergence de forme de repère entre deux visuels d'une même fiche est un défaut BLOQUANT.",
+        "Contrôle format sur chaque fichier : 2048 × 2048, 1:1, JPEG sRGB, poids dans la fourchette.",
+        "Contrôle bloquant : le cadran est NU — zéro index, zéro chiffre, zéro applique, zéro piste des minutes. Toute marque ajoutée est un rejet.",
+        "Contrôle que le noir est MAT et sourd, pas soleillé ni laqué brillant.",
+        "Contrôle bloquant : aucune trace du lettrage « Jin Ming », aucune vignette de coloris, un seul cadran par image."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5",
+      "manifeste": "manifeste.json"
+    }
+  },
+  "notes": "Le champ `sku` porte la référence de LISTING fournisseur (`AE-<item_id>` AliExpress), pas un SKU de variante : ces visuels sont des visuels de GALERIE. Le manifeste livré la reprend en `sku_fournisseur`. Le rattachement Shopify n'appartient pas à cette fournée : un autre agent surveille `visuels-codex-2026-08/` et s'en charge. Cas C : filigrane sur l'image, produit propre."
+}

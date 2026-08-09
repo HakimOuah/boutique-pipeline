@@ -1,0 +1,25 @@
+{
+  "id": "claude-20260809-2315-cadran-pilote-33-5-aiguilles-lumineuses",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+        "sku": "AE-1005010303631276",
+        "slot": "situation",
+        "fichier": "cadran-pilote-33-5-aiguilles-lumineuses-g3.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/situation-v1-14-manquant-aiguilles-touchent-chiffres.jpg",
+        "motif": "Le petit chiffre 14 etait absent ou illisible ; l'aiguille des minutes touchait le 2 et la zone du 14 ; la trotteuse traversait le 18 et le grand 6."
+      }
+    ],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-08-09T21:25:31Z",
+  "executor": "codex-2026-08-09"
+}

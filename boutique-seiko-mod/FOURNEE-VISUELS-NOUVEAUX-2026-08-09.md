@@ -377,6 +377,25 @@ l'agent de rattachement peut prendre pour un livrable. Planche déplacée en
 `qa/cadran-pilote-33-5-aiguilles-blanches-planche.jpg` — **à ajouter aux contraintes de livraison des
 prochains ordres.**
 
+#### `cadran-pilote-33-5-aiguilles-lumineuses` — `situation` livré puis **écarté en QA**
+
+Le slot `situation` a été livré (deux rejets préalables prononcés par Codex, `status: done`). **Écarté par
+la QA d'orchestrateur** : au zoom, **l'aiguille des heures recouvre le « 22 » de la couronne 24 h**, dont
+le second chiffre est coupé net par le biseau de l'aiguille. Un chiffre partiellement masqué par une
+aiguille est un défaut bloquant — et **c'est le troisième visuel de la journée que la QA de Codex rend
+`done` avec un défaut réel**, après les deux de la vague 1.
+
+Fichier déplacé en `rejected/situation-v3-aiguille-heures-masque-le-22-de-la-couronne-24h.jpg`, entrée
+retirée du `manifeste.json` : le dossier de livraison ne contient que les deux visuels validés, et l'agent
+de rattachement ne peut pas se tromper.
+
+Un ordre de régénération du **seul slot `situation`** est écrit (`20260810-0200`). Il tire la leçon du
+poste le plus cher de la fournée : au lieu de demander « des aiguilles qui ne touchent rien », il **impose
+les trois couloirs vides par leur contenu** — pointe des heures entre le « 22 » et le « 23 », pointe des
+minutes entre le « 13 » et le bâton de 1 h, pointe de la trotteuse entre le « 19 » et le « 7 » — c'est-à-dire
+exactement le placement du `-g1` déjà validé. **Décrire le couloir par ses deux bornes plutôt que par une
+heure approximative** est la formulation à réutiliser sur tous les cadrans livrés avec aiguilles.
+
 ---
 
 ## 6. Où en est la fournée
