@@ -86,6 +86,21 @@ Le détail des preuves AliExpress et des limites est conservé dans `DECISION-DO
 
 Rollback : remettre individuellement un produit archivé à `DRAFT`, ou restaurer les anciens titres/descriptions consignés dans l'historique Shopify. Aucun prix, SKU, stock, variante, média ou mapping DSers n'a été modifié. Les deux brouillons maintenus et le brouillon prudent restent non activables sans les libellés français, le contrôle de mapping et les autres portes globales.
 
+### Réconciliation de la campagne dite « 319 visuels »
+
+Le chiffre historique de 319 mélangeait 304 besoins de fiches actives et 15 besoins de brouillons. La réconciliation ligne par ligne du brief, du manifeste local et du rattachement Shopify donne :
+
+| Priorité active | Cible | Livré et rattaché | Reste à produire |
+|---|---:|---:|---:|
+| P0 — galeries bloquantes | 14 | 6 | 8 |
+| P1 — galeries prioritaires | 41 | 41 | 0 |
+| P2 — galeries secondaires | 14 | 13 | 1 |
+| P3 — médias de variantes montres | 33 | 0 | 33 |
+| P4 — médias de variantes accessoires | 202 | 6 | 196 |
+| **Total actif** | **304** | **66** | **238** |
+
+Les six médias P4 existants du bracelet caoutchouc gaufré sont bien rattachés au produit et, depuis cette passe, affectés aux douze variantes exactes. Les 15 besoins hors dénominateur actif sont cinq médias de galerie Aviateur et dix médias de variantes Noirmont Deux/Voyageur sur des brouillons historiques. Le rapport détaillé est `RECONCILIATION-319-VISUELS-AGENT-2026-08-10.md`.
+
 ## État des sept étapes
 
 | Étape | Statut | Preuve ou blocage |
@@ -95,5 +110,5 @@ Rollback : remettre individuellement un produit archivé à `DRAFT`, ou restaure
 | 3. Cinq fiches arabes bloquées | TERMINÉE | 0/5 récupérable ; aucun des cinq handles n'existe dans Shopify. |
 | 4. Import, rédaction et habillage | BLOQUÉ | La cible minimale de 4 produits distincts n'est pas atteinte ; aucun import partiel ou activation par défaut. |
 | 5. Nettoyage catalogue | ASSAINI / ACTIVATION ENCORE BLOQUÉE | Contradiction corrigée ; trois doublons perdants, cadran à verbatim Rolex, fiche arabe mixte et deux fiches techniquement incohérentes archivés ; 6 nuanciers affectés à 12 variantes ; trois fiches techniques réécrites. `cadran-squelette-29-noir-blanc` reste à libeller/remapper avant activation. |
-| 6. 319 visuels des fiches actives | EN ATTENTE | Inventaire actuel à réconcilier après la file prioritaire. |
+| 6. Visuels des fiches actives | EN COURS / 238 RESTANTS | Périmètre exact : 304 actifs, 66 livrés/rattachés, 238 à produire. Le total historique 319 incluait 15 besoins de brouillons. |
 | 7. Activation | BLOQUÉE PAR CONDITIONS | Aucune activation tant que les cinq conditions ne sont pas toutes prouvées. |
