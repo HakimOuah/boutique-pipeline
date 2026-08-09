@@ -1,0 +1,36 @@
+{
+  "id": "claude-20260809-2130-cadran-calligraphie-arabe-email-33",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-calligraphie-arabe-email-33",
+        "sku": "AE-1005008580932006",
+        "slot": "face",
+        "fichier": "cadran-calligraphie-arabe-email-33-g1.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-calligraphie-arabe-email-33",
+        "sku": "AE-1005008580932006",
+        "slot": "macro",
+        "fichier": "cadran-calligraphie-arabe-email-33-g2.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-calligraphie-arabe-email-33",
+        "sku": "AE-1005008580932006",
+        "slot": "situation",
+        "fichier": "cadran-calligraphie-arabe-email-33-g3.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-08-09T19:43:40Z",
+  "executor": "codex-2026-08-09"
+}
