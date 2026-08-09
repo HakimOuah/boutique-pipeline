@@ -1,0 +1,64 @@
+{
+  "id": "claude-20260809-2130-cadran-arabe-oriental-noir-blanc-28-5",
+  "type": "generate_images",
+  "created_at": "2026-08-09T19:30:00Z",
+  "requested_by": "claude-code",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "cadran-arabe-oriental-noir-blanc-28-5",
+        "sku": "AE-1005012137091344",
+        "slot": "situation",
+        "fichier": "cadran-arabe-oriental-noir-blanc-28-5-g3.jpg"
+      }
+    ],
+    "sources": [
+      "boutique-seiko-mod/sources-fournisseur-2026-08/cadran-arabe-oriental-noir-blanc-28-5/face-fournisseur-1005012137091344.jpg"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3"
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "VÉRITÉ PRODUIT = l'unique source fournie. Le produit s'y reprend TEL QUEL : forme, diamètre apparent, teinte, finition de surface, relief et police des chiffres, position et forme du guichet de date, perçage central, piste des minutes, aiguilles. Rien ne se réinvente, rien ne s'ajoute, rien ne se retire.",
+        "IDENTITÉ DU PRODUIT — cadran de montre NU de 28,5 mm, pièce détachée circulaire et plate, NOIR MAT à finition brossée soleil. Chiffres arabes ORIENTAUX appliqués en métal poli argent aux positions horaires. GUICHET DE DATE rectangulaire à cadre poli à 3 h, qui remplace le chiffre de 3 h. Piste des minutes périphérique en blanc : traits fins toutes les minutes et VALEURS IMPRIMÉES 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55 et 60, la valeur 60 étant à 12 h. Perçage central rond. Aucun texte, aucun logo : cadran nativement stérile.",
+        "COLORIS DE RÉFÉRENCE — la source est une planche de QUATRE variantes (argent en haut à gauche, bleu clair en haut à droite, vert en bas à gauche, NOIRE en bas à droite). Ne reproduire QUE la variante NOIRE (bas à droite). Ignorer totalement les trois autres.",
+        "RÉGÉNÉRATION — ce slot a été ÉCARTÉ par la QA d'orchestrateur le 09/08 : la piste des minutes du premier rendu imprimait « 35 » deux fois et omettait « 25 ». La suite exacte, dans le sens horaire depuis 12 h, est 60, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55 — aucune valeur dupliquée, aucune manquante, chacune à sa position horaire. Le fichier écarté est conservé en `rejected/g3-situation-piste-minutes-35-au-lieu-de-25.jpg` : ne pas le réutiliser, régénérer intégralement depuis la source.",
+        "HOMOGÉNÉITÉ IMPOSÉE — deux visuels de cette fiche sont DÉJÀ livrés et validés dans le dossier de sortie (`-g1.jpg` face, `-g2.jpg` macro). Le nouveau `-g3.jpg` doit s'accorder avec eux : même noir, même argent des chiffres, même graphie. Les lire avant de générer.",
+        "SEULE LA SITUATION DE PRÉSENTATION CHANGE d'un visuel à l'autre : fond, lumière, angle de caméra, distance, décor. Interdiction absolue de modifier la couleur, la texture, la typographie, le nombre de chiffres ou les proportions du produit.",
+        "La source est une photo AliExpress brute : elle ne doit JAMAIS être livrée telle quelle ni rester reconnaissable. Chaque visuel est une composition maison — nouveau fond minéral pierre/craie, nouvelle lumière latérale douce, une seule ombre portée diffuse. Le fond d'origine (béton, tissu, papier, main, plan de travail, tôle), les reflets d'origine et le cadrage d'origine sont à abandonner entièrement.",
+        "STÉRILITÉ ABSOLUE : aucun logo, aucun nom de marque, aucun sigle, aucun mot, aucune lettre, aucune mention d'origine ou de provenance sur le produit. Interdits nommément, y compris atténués, flous ou partiels : « SWISS MADE », « SUPERLATIVE CHRONOMETER », « AUTOMATIC », « WATER RESISTANT », « JAPAN », « NO LOGO », « Tandorio », tout nom de fournisseur. Si la source porte une annotation d'image (filigrane de vendeur, numéro de variante, flèche, cartouche de prix, cote en rouge), elle n'appartient PAS au produit : elle ne doit apparaître sous aucune forme dans le rendu.",
+        "Les chiffres constitutifs du cadran SONT le produit (doctrine §4.1) : ils se reproduisent exactement — même nombre, même ordre, même graphie, même orientation radiale, même piste des minutes. Ni chiffre ajouté, ni chiffre supprimé, ni chiffre en miroir.",
+        "PIÈGE DE FIDÉLITÉ RELEVÉ EN QA LE 09/08 — un rendu a remplacé un simple BÂTON de repère par un CHIFFRE dessiné (« 1 » avec empattement là où la source portait un bâton nu). Un repère bâton reste un bâton, un repère triangle reste un triangle, un repère point reste un point : ne jamais promouvoir un index en chiffre, ni l'inverse. Vérifier index par index contre la source.",
+        "Aucun avis, note, étoile, badge, témoignage, chiffre de satisfaction, mention promotionnelle ni légende technique incrustée. Aucun texte d'aucune sorte dans l'image.",
+        "Bloc d'orientation impératif (§4.2) dans CHAQUE prompt : 12 h en haut, cadran lisible à l'endroit, aucun chiffre tête-bêche ni en miroir. Sur une pièce détachée posée à plat, l'axe 12-6 est vertical dans le cadre.",
+        "Inpainting et gommage interdits (§4.3) : au moindre défaut, régénérer depuis la source.",
+        "AUCUN slot `poignet` et aucune main dans cette fournée : le produit est une PIÈCE DÉTACHÉE, pas une montre. Ne jamais l'insérer dans une montre complète imaginaire, ne jamais lui ajouter un boîtier, un bracelet, une lunette ou un verre qui ne sont pas dans la source.",
+        "Sortie 2048 × 2048 px, 1:1 STRICT, JPEG sRGB, viser 400-900 Ko, plafond 1,2 Mo. Ni PNG ni WebP.",
+        "Nomenclature imposée par les noms `fichier` du manifeste. Les suffixes `-6` et `-7` sont BRÛLÉS (ils désignaient les faux avis retirés le 08/08) : ne jamais les produire, sous aucune forme, dans aucun nom de fichier.",
+        "Aucun accès boutique, aucun navigateur, aucune API distante : la livraison s'arrête aux fichiers.",
+        "Ne JAMAIS composer une planche de plusieurs cadrans dans un livrable : un seul exemplaire du produit par image.",
+        "Slot `situation` — L'ÉTABLI DU MODDEUR. La pièce posée à plat sur un plan de travail d'horloger clair et sobre, vue en plongée à trois quarts, accompagnée d'un ou deux outils neutres et flous en arrière-plan (brucelles, poire soufflante, tapis d'établi) qui suggèrent le montage sans voler la vedette. Le décor reste minéral et discret, la pièce occupe le tiers central net. INTERDIT : montre complète, boîtier, bracelet, main, marque, texte."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Zoom chiffre par chiffre et index par index sur le cadran de CHAQUE livrable : chaque chiffre présent, dans l'ordre, correctement formé, non miroir ; aucun lettrage, logo, sigle ni mot parasite, même atténué. Un index bâton/triangle/point de la source reste un index, jamais un chiffre.",
+        "Planche de contrôle par fiche, ≥ 740 px par vignette, réunissant la source et les livrables — le plancher est payé : les planches à 380 px ont laissé passer trois fois un « SWISS MADE ».",
+        "Contrôle qu'aucun filigrane de vendeur ni annotation d'image de la source n'a survécu dans le rendu.",
+        "Contrôle d'orientation : 12 h en haut, aucun chiffre retourné.",
+        "Contrôle d'homogénéité de galerie : les visuels d'une même fiche côte à côte doivent partager coloris, matière ET la forme exacte de chaque index — et se distinguer nettement par le cadrage, pas se répéter. Une divergence d'index entre deux visuels d'une même fiche est un défaut bloquant.",
+        "Contrôle format sur chaque fichier : 2048 × 2048, 1:1, JPEG sRGB, poids dans la fourchette.",
+        "Contrôle spécifique OBLIGATOIRE de la piste des minutes, valeur par valeur, à 12 h puis dans le sens horaire : 60, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55. C'est le défaut exact qui a fait écarter le premier rendu.",
+        "Contrôle que le guichet de date est bien à 3 h et qu'aucun chiffre oriental ne le double."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/cadran-arabe-oriental-noir-blanc-28-5",
+      "manifeste": "manifeste.json"
+    }
+  },
+  "notes": "Le champ `sku` porte la référence de LISTING fournisseur (`AE-<item_id>` AliExpress), pas un SKU de variante : ces visuels sont des visuels de GALERIE. Le manifeste livré la reprend en `sku_fournisseur`. Le rattachement Shopify n'appartient pas à cette fournée : un autre agent surveille `visuels-codex-2026-08/` et s'en charge. Vague 2 du 09/08 : elle contient DEUX régénérations de slots écartés par la QA d'orchestrateur de la vague 1."
+}
