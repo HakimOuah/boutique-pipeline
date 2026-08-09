@@ -150,12 +150,89 @@ _(section tenue au fil de l'eau)_
 
 ### Vague 1 — 5 ordres, 12 visuels demandés
 
-| Fiche | Collection | Visuels demandés | État |
-|---|---|---:|---|
-| `cadran-arabe-oriental-noir-blanc-28-5` | Cadran arabe | 3 | en cours |
-| `cadran-arabe-romain-emaille-bleu-28-5` | Cadran arabe | 3 | en file |
-| `cadran-pilote-noir-33-5-nh35` | Cadrans pilote 1-12 | 2 | en file |
-| `cadran-pilote-29-classique-nh36` | Cadrans pilote 1-12 | 2 | en file |
-| `cadran-pilote-38-aiguilles-nh35` | Cadrans pilote 1-12 | 2 | en file |
+| Fiche | Collection | Visuels demandés | Livrés par Codex | Retenus après QA |
+|---|---|---:|---:|---:|
+| `cadran-arabe-oriental-noir-blanc-28-5` | Cadran arabe | 3 | 3 | **2** |
+| `cadran-arabe-romain-emaille-bleu-28-5` | Cadran arabe | 3 | 3 | **3** |
+| `cadran-pilote-noir-33-5-nh35` | Cadrans pilote 1-12 | 2 | 2 | **2** |
+| `cadran-pilote-29-classique-nh36` | Cadrans pilote 1-12 | 2 | 2 | **1** |
+| `cadran-pilote-38-aiguilles-nh35` | Cadrans pilote 1-12 | 2 | 2 | **2** |
+| **Total** | | **12** | **12** | **10** |
+
+Les 5 ordres étaient **VALIDE (classe A)** au validateur avant transmission. La session s'est interrompue
+après le cinquième résultat, avant le dépouillement : les cinq enveloppes étaient bien en `resultats/`,
+`en-cours/` était vide, aucun ordre coincé. La reprise a donc porté sur la **QA** et non sur la génération.
+
+### QA d'orchestrateur de la vague 1 — 2 visuels écartés sur 12
+
+Codex a rendu `status: done` sur les cinq ordres, avec 7 rejets d'images qu'il avait lui-même détectés
+(piste des minutes fausse, aiguilles masquant les chiffres, bâton manquant à 11 h, axe 12-6 incliné).
+**Sa QA a néanmoins laissé passer deux défauts**, tous deux relevés au zoom contre la source :
+
+| Visuel | Verdict | Motif |
+|---|---|---|
+| `cadran-arabe-oriental-noir-blanc-28-5-g3` (situation) | **écarté** | Piste des minutes : « 35 » imprimé deux fois, « 25 » absent. Défaut déjà relevé par la passe interrompue. |
+| `cadran-pilote-29-classique-nh36-g1` (face) | **écarté** | **Chiffre « 1 » inventé au repère de 1 h.** La source porte à cet endroit un **bâton jaune nu**, et le macro `-g2` de la même fiche le rend correctement en bâton. Double faute : infidélité au produit **et** contradiction interne à la galerie. Cinquième rendu perdu sur cette fiche. |
+
+Le second cas est un **type de défaut nouveau**, à ajouter aux ordres : le modèle **promeut un index en
+chiffre**. Ce n'est ni une erreur de comptage (le nombre de repères est bon) ni une erreur de couleur — le
+contrôle « chiffre par chiffre » ne l'attrape pas, il faut un contrôle **index par index sur la forme**.
+La contrainte et le point de QA correspondants sont désormais dans le bloc de base des ordres, et
+l'homogénéité de galerie devient un contrôle **bloquant** (une divergence de forme d'index entre deux
+visuels d'une même fiche suffit à écarter).
+
+Les 10 visuels retenus passent par ailleurs tous les contrôles : 2048 × 2048 JPEG sRGB, 580-880 Ko,
+12 h en haut, aucun lettrage ni logo sur le cadran, aucun badge ni avis incrusté, aucun filigrane de
+vendeur survivant (les sources `cadran-pilote-38-aiguilles-nh35` et `cadran-pilote-33-5-aiguilles-lumineuses`
+portent pourtant le filigrane « Tandorio » — cas C, correctement absorbé par la recomposition).
+
+Vérifications de fidélité les plus utiles, faites au zoom contre la source :
+
+- `cadran-pilote-noir-33-5-nh35` : les **24 chiffres** sont présents et correctement appariés (13 sous 1,
+  … 24 sous 12), piste bâtons + triangles conforme. Le piège de comptage annoncé au §4 est tenu.
+- `cadran-pilote-38-aiguilles-nh35` : triangle + deux points à 12 h, **deux bâtons** à 11 h, un bâton à 1 h —
+  la référence n'a pas de chiffre à ces trois positions et le rendu ne lui en invente pas.
+- `cadran-arabe-oriental-noir-blanc-28-5` : la variante **noire** de la planche de quatre est bien la seule
+  reproduite ; guichet de date à 3 h, piste 60/5/…/55 correcte sur `-g1` et `-g2`.
+
+**Un doute résiduel, non bloquant, est consigné** sur `cadran-arabe-romain-emaille-bleu-28-5` : la source
+(planche de neuf variantes, cadran de référence occupant ~330 px) montre **deux appliques rapprochées**
+dans le secteur 4 h - 4 h 30, là où les rendus n'en portent qu'une (le `٤`). Mesure d'angles faite sur la
+source : les douze positions horaires tombent bien à 30° d'intervalle et l'élément supplémentaire, à ~9°
+du `٤`, ne correspond à aucune d'elles. Impossible de trancher entre une treizième applique et un reflet à
+cette résolution — et **inventer un repère serait une donnée devinée**, interdite. Les trois visuels sont
+donc conservés ; à re-vérifier sur une photo fournisseur de meilleure définition à l'étape DSers.
+
+### Vague 2 — 5 ordres, 11 visuels demandés
+
+Deux régénérations des slots écartés + trois fiches neuves, priorité tenue (cadran arabe d'abord).
+
+| Fiche | Collection | Slots demandés | Nature |
+|---|---|---|---|
+| `cadran-arabe-oriental-noir-blanc-28-5` | Cadran arabe | `situation` | régénération QA |
+| `cadran-pilote-29-classique-nh36` | Cadrans pilote 1-12 | `face` | régénération QA |
+| `cadran-calligraphie-arabe-email-33` | Cadran arabe | `face` + `macro` + `situation` | nouvelle fiche |
+| `cadran-pilote-29-mod-nh35` | Cadrans pilote 1-12 | `face` + `macro` + `situation` | nouvelle fiche |
+| `cadran-pilote-33-5-aiguilles-lumineuses` | Cadrans pilote 1-12 | `face` + `macro` + `situation` | nouvelle fiche |
 
 Les 5 ordres sont **VALIDE (classe A)** au validateur avant transmission.
+
+Triage des trois sources neuves, fait avant de commander :
+
+- `cadran-pilote-29-mod-nh35` — planche de 4 + vignettes. La variante **saumon porte « AUTOMATIC »**
+  imprimé au cadran (cas B), mais la variante **noire à impressions blanches en est dépourvue** : c'est
+  elle qui est désignée comme coloris unique de référence. Cas B contourné par le choix de variante, sans
+  arbitrage nécessaire — méthode réutilisable pour les autres planches mixtes. Piège de comptage nommé :
+  le guichet de date à 3 h remplace le chiffre 3 (onze grands chiffres, douze petits).
+- `cadran-pilote-33-5-aiguilles-lumineuses` — planche de 4, filigrane « Tandorio » sur l'image (cas C),
+  produits propres. Variante **bleu vif** désignée.
+- `cadran-calligraphie-arabe-email-33` — **montage de quatre photos** dont deux hors sujet (un boîtier
+  acier et un bracelet cuir qui n'appartiennent pas à la fiche) : l'ordre désigne le seul quadrant utile
+  (cadran émail blanc à chiffres multicolores, haut à gauche) et interdit nommément les trois autres.
+
+  ⚠️ **Point à trancher par Hakim, signalé et non bloquant** : la fiche s'intitule « calligraphie arabe »
+  mais le cadran porte des **chiffres occidentaux 1 à 12** dans une graphie fantaisiste — aucune écriture
+  arabe. C'est le titre du listing fournisseur qui parle d'« arabic artistic word ». À la différence de
+  `insert-ceramique-chiffres-arabes-38` (où la source montrait un **tout autre produit**, un insert GMT à
+  codes de villes), ici la source montre bien **le produit vendu** : les visuels sont donc justes, c'est
+  le **titre de la fiche et son appartenance à la collection `cadran-arabe`** qui sont à revoir.

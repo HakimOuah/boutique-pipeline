@@ -1,0 +1,41 @@
+{
+  "id": "claude-20260809-0300-cadran-arabe-romain-emaille-bleu-28-5",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-arabe-romain-emaille-bleu-28-5",
+        "sku": "AE-1005011774911570",
+        "slot": "face",
+        "fichier": "cadran-arabe-romain-emaille-bleu-28-5-g1.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "cadran-arabe-romain-emaille-bleu-28-5",
+        "sku": "AE-1005011774911570",
+        "slot": "macro",
+        "fichier": "cadran-arabe-romain-emaille-bleu-28-5-g2.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-arabe-romain-emaille-bleu-28-5",
+        "sku": "AE-1005011774911570",
+        "slot": "situation",
+        "fichier": "cadran-arabe-romain-emaille-bleu-28-5-g3.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/face-v1-piste-minutes-inventee-index-lisses.jpg",
+        "motif": "Face v1 écartée : piste de minutes type chemin de fer inventée et relief des index trop lissé par rapport à la variante centrale de la source."
+      }
+    ],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-08-09T01:21:49Z",
+  "executor": "codex-2026-08-09"
+}

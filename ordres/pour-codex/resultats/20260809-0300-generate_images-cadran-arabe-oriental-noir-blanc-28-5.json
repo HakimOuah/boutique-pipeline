@@ -1,0 +1,36 @@
+{
+  "id": "claude-20260809-0300-cadran-arabe-oriental-noir-blanc-28-5",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-arabe-oriental-noir-blanc-28-5",
+        "sku": "AE-1005012137091344",
+        "slot": "face",
+        "fichier": "cadran-arabe-oriental-noir-blanc-28-5-g1.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "cadran-arabe-oriental-noir-blanc-28-5",
+        "sku": "AE-1005012137091344",
+        "slot": "macro",
+        "fichier": "cadran-arabe-oriental-noir-blanc-28-5-g2.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "cadran-arabe-oriental-noir-blanc-28-5",
+        "sku": "AE-1005012137091344",
+        "slot": "situation",
+        "fichier": "cadran-arabe-oriental-noir-blanc-28-5-g3.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      }
+    ],
+    "rejets": [],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-08-09T01:09:52Z",
+  "executor": "codex-2026-08-09"
+}

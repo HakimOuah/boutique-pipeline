@@ -1,0 +1,33 @@
+{
+  "id": "claude-20260809-0300-cadran-pilote-38-aiguilles-nh35",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-pilote-38-aiguilles-nh35",
+        "sku": "AE-1005009101607137",
+        "slot": "face",
+        "fichier": "cadran-pilote-38-aiguilles-nh35-g1.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      },
+      {
+        "handle": "cadran-pilote-38-aiguilles-nh35",
+        "sku": "AE-1005009101607137",
+        "slot": "macro",
+        "fichier": "cadran-pilote-38-aiguilles-nh35-g2.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/face-v1-baton-double-11h-manquant.jpg",
+        "motif": "Fidélité produit non conforme : le premier rendu face ne conservait qu'un seul bâton à 11 h au lieu des deux bâtons parallèles visibles sur le cadran bleu de référence."
+      }
+    ],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-08-09T01:47:50Z",
+  "executor": "codex-2026-08-09"
+}

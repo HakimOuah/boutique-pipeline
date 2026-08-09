@@ -1,0 +1,47 @@
+{
+  "id": "claude-20260809-0300-cadran-pilote-29-classique-nh36",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-pilote-29-classique-nh36",
+        "sku": "AE-1005007635155982",
+        "slot": "face",
+        "fichier": "cadran-pilote-29-classique-nh36-g1.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 5
+      },
+      {
+        "handle": "cadran-pilote-29-classique-nh36",
+        "sku": "AE-1005007635155982",
+        "slot": "macro",
+        "fichier": "cadran-pilote-29-classique-nh36-g2.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/face-v1-piste-minutes-valeur-sommet-erronee.jpg",
+        "motif": "Piste des minutes non conforme : 50 à 12 h au lieu de 60, valeur 50 dupliquée et 60 absente."
+      },
+      {
+        "fichier": "rejected/face-v2-aiguilles-masquent-2-et-8.jpg",
+        "motif": "Aiguilles non conformes : l'aiguille des minutes masque le chiffre 2 et le contrepoids de trotteuse recouvre le chiffre 8."
+      },
+      {
+        "fichier": "rejected/face-v3-aiguilles-masquent-2-et-8.jpg",
+        "motif": "Aiguilles non conformes : nouvelle occlusion du chiffre 2 et du chiffre 8 malgré la contrainte de dégagement."
+      },
+      {
+        "fichier": "rejected/face-v4-aiguille-minutes-touche-2.jpg",
+        "motif": "Aiguille des minutes non conforme : sa pointe touche encore le chiffre 2."
+      }
+    ],
+    "sujets_difficiles": [
+      "face : 5 générations nécessaires pour obtenir simultanément une piste des minutes exacte et des chiffres entièrement dégagés par les aiguilles"
+    ]
+  },
+  "executed_at": "2026-08-09T01:36:01Z",
+  "executor": "codex-2026-08-09"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "claude-20260809-0300-cadran-arabe-romain-emaille-bleu-28-5",
+  "type": "generate_images",
+  "created_at": "2026-08-09T01:00:00Z",
+  "requested_by": "claude-code",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "cadran-arabe-romain-emaille-bleu-28-5",
+        "sku": "AE-1005011774911570",
+        "slot": "face",
+        "fichier": "cadran-arabe-romain-emaille-bleu-28-5-g1.jpg",
+        "alt": "Cadran émaillé bleu étoilé 28,5 mm — chiffres orientaux, sans logo — Maison Noirmont"
+      },
+      {
+        "handle": "cadran-arabe-romain-emaille-bleu-28-5",
+        "sku": "AE-1005011774911570",
+        "slot": "macro",
+        "fichier": "cadran-arabe-romain-emaille-bleu-28-5-g2.jpg",
+        "alt": "Cadran émaillé bleu étoilé 28,5 mm — chiffres orientaux, sans logo — Maison Noirmont"
+      },
+      {
+        "handle": "cadran-arabe-romain-emaille-bleu-28-5",
+        "sku": "AE-1005011774911570",
+        "slot": "situation",
+        "fichier": "cadran-arabe-romain-emaille-bleu-28-5-g3.jpg",
+        "alt": "Cadran émaillé bleu étoilé 28,5 mm — chiffres orientaux, sans logo — Maison Noirmont"
+      }
+    ],
+    "sources": [
+      "boutique-seiko-mod/sources-fournisseur-2026-08/cadran-arabe-romain-emaille-bleu-28-5/face-fournisseur-1005011774911570.png"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3"
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "VÉRITÉ PRODUIT = l'unique source fournie. Le produit s'y reprend TEL QUEL : forme, diamètre apparent, teinte, finition de surface, relief et police des chiffres, position et forme du guichet de date, perçage central, piste des minutes. Rien ne se réinvente, rien ne s'ajoute, rien ne se retire.",
+        "IDENTITÉ DU PRODUIT — cadran de montre NU de 28,5 mm de diamètre, pièce détachée circulaire et plate, en pierre de nuit / aventurine bleu nuit très sombre PIQUETÉE d'innombrables paillettes bleues et argentées scintillantes façon ciel étoilé — la matière est le produit et doit être rendue avec précision (fond profond presque noir, semis de points brillants irrégulier, non répétitif). Chiffres arabes ORIENTAUX (arabo-indiens) en index APPLIQUÉS argent, en relief, aux douze positions horaires, orientés radialement. Guichet de date RECTANGULAIRE à 3 h, à cadre poli argent. Perçage central rond. Aucun texte : la fiche vend explicitement ce cadran « sans logo ».",
+        "COLORIS DE RÉFÉRENCE — la source est une planche de NEUF variantes. N'en reproduire QU'UNE SEULE, toujours la même sur les trois visuels : celle du CENTRE de la rangée du MILIEU — la seule qui porte des chiffres arabes ORIENTAUX appliqués argent. Ignorer totalement les huit autres, et en particulier NE JAMAIS reprendre les variantes à index sertis de pierres ni celles à chiffres romains : ce n'est pas le coloris de référence retenu ici.",
+        "SEULE LA SITUATION DE PRÉSENTATION CHANGE d'un visuel à l'autre : fond, lumière, angle de caméra, distance, décor. Interdiction absolue de modifier la couleur, la texture, la typographie, le nombre de chiffres ou les proportions du produit.",
+        "La source est une photo AliExpress brute : elle ne doit JAMAIS être livrée telle quelle ni rester reconnaissable. Chaque visuel est une composition maison — nouveau fond minéral pierre/craie, nouvelle lumière latérale douce, une seule ombre portée diffuse. Le fond d'origine (béton, tissu, papier, main, plan de travail), les reflets d'origine et le cadrage d'origine sont à abandonner entièrement.",
+        "STÉRILITÉ ABSOLUE : aucun logo, aucun nom de marque, aucun sigle, aucun mot, aucune lettre, aucune mention d'origine ou de provenance sur le produit. Interdits nommément, y compris atténués, flous ou partiels : « SWISS MADE », « SUPERLATIVE CHRONOMETER », « AUTOMATIC », « WATER RESISTANT », « JAPAN », « NO LOGO », tout nom de fournisseur. Si la source porte une annotation d'image (filigrane de vendeur, numéro de variante, flèche, cartouche de prix), elle n'appartient PAS au produit : elle ne doit apparaître sous aucune forme dans le rendu.",
+        "Les chiffres constitutifs du cadran SONT le produit (doctrine §4.1) : ils se reproduisent exactement — même nombre, même ordre, même graphie, même orientation radiale, même piste des minutes. Ni chiffre ajouté, ni chiffre supprimé, ni chiffre en miroir.",
+        "Aucun avis, note, étoile, badge, témoignage, chiffre de satisfaction, mention promotionnelle ni légende technique incrustée. Aucun texte d'aucune sorte dans l'image.",
+        "Bloc d'orientation impératif (§4.2) dans CHAQUE prompt : 12 h en haut, cadran lisible à l'endroit, aucun chiffre tête-bêche ni en miroir. Sur une pièce détachée posée à plat, l'axe 12-6 est vertical dans le cadre.",
+        "Inpainting et gommage interdits (§4.3) : au moindre défaut, régénérer depuis la source.",
+        "AUCUN slot `poignet` et aucune main dans cette fournée : le produit est une PIÈCE DÉTACHÉE, pas une montre. Ne jamais l'insérer dans une montre complète imaginaire, ne jamais lui ajouter un boîtier, un bracelet, une lunette ou un verre qui ne sont pas dans la source.",
+        "Sortie 2048 × 2048 px, 1:1 STRICT, JPEG sRGB, viser 400-900 Ko, plafond 1,2 Mo. Ni PNG ni WebP.",
+        "Nomenclature imposée par les noms `fichier` du manifeste. Les suffixes `-6` et `-7` sont BRÛLÉS (ils désignaient les faux avis retirés le 08/08) : ne jamais les produire, sous aucune forme, dans aucun nom de fichier.",
+        "Aucun accès boutique, aucun navigateur, aucune API distante : la livraison s'arrête aux fichiers.",
+        "La matière étoilée est le seul argument de la fiche : le slot `macro` doit la rendre lisible (paillettes nettes, profondeur du bleu, contraste avec l'index poli). Ne jamais la remplacer par un bleu uni ou un dégradé lisse.",
+        "Ne JAMAIS composer une planche de plusieurs cadrans dans un livrable : un seul exemplaire du produit par image.",
+        "Slot `face` — LE VISUEL PRINCIPAL. La pièce seule, posée à plat, vue strictement de dessus (caméra perpendiculaire, aucune perspective), parfaitement centrée, occupant environ 80 % de la largeur du carré. Fond minéral clair uni pierre→craie, une seule ombre portée douce sous la pièce. Aucun accessoire, aucun décor, aucun autre objet.",
+        "Slot `macro` — LA MATIÈRE, PAS UNE DEUXIÈME FACE. Plan très rapproché en lumière rasante sur un secteur du cadran seulement (environ le quart entre 12 h et 3 h) : on doit y voir le RELIEF des chiffres appliqués et leur tranche polie, le grain de la finition de surface, la netteté de la piste des minutes et, s'il existe, le bord biseauté du guichet de date. La pièce déborde volontairement du cadre. INTERDIT : la pièce entière visible en totalité — ce serait une redite de la face, défaut relevé sur la fournée précédente.",
+        "Slot `situation` — L'ÉTABLI DU MODDEUR. La pièce posée à plat sur un plan de travail d'horloger clair et sobre, vue en plongée à trois quarts, accompagnée d'un ou deux outils neutres et flous en arrière-plan (brucelles, poire soufflante, tapis d'établi) qui suggèrent le montage sans voler la vedette. Le décor reste minéral et discret, la pièce occupe le tiers central net. INTERDIT : montre complète, boîtier, bracelet, mouvement reconnaissable, main, visage, marque ou texte sur les outils."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Zoom chiffre par chiffre sur le cadran de CHAQUE livrable : chaque chiffre présent, dans l'ordre, correctement formé, non miroir ; aucun lettrage, logo, sigle ni mot parasite, même atténué. Contrôler aussi le pourtour de la pièce et le guichet de date.",
+        "Planche de contrôle par fiche, ≥ 740 px par vignette, réunissant la source et les livrables — le plancher est payé : les planches à 380 px ont laissé passer trois fois un « SWISS MADE ».",
+        "Contrôle qu'aucun filigrane de vendeur ni annotation d'image de la source n'a survécu dans le rendu.",
+        "Contrôle d'orientation : 12 h en haut, aucun chiffre retourné.",
+        "Contrôle d'homogénéité de galerie : les visuels d'une même fiche côte à côte doivent partager coloris, lumière et matière — et se distinguer nettement par le cadrage, pas se répéter.",
+        "Contrôle format sur chaque fichier : 2048 × 2048, 1:1, JPEG sRGB, poids dans la fourchette."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/cadran-arabe-romain-emaille-bleu-28-5",
+      "manifeste": "manifeste.json"
+    }
+  },
+  "notes": "Le champ `sku` porte la référence de LISTING fournisseur (`AE-<item_id>` AliExpress), pas un SKU de variante : ces visuels sont des visuels de GALERIE, non rattachés à un coloris précis du sélecteur, et deviner un fragment de variante serait une donnée inventée (interdit par le protocole). L'item_id AliExpress est stable et n'est ni un ID de variante, ni de média, ni de produit Shopify. Le manifeste livré reprend cette référence en `sku_fournisseur`. Le rattachement Shopify n'appartient pas à cette fournée : un autre agent surveille `visuels-codex-2026-08/` et s'en charge."
+}

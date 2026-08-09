@@ -1,0 +1,69 @@
+{
+  "id": "claude-20260809-0300-cadran-pilote-29-classique-nh36",
+  "type": "generate_images",
+  "created_at": "2026-08-09T01:00:00Z",
+  "requested_by": "claude-code",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "cadran-pilote-29-classique-nh36",
+        "sku": "AE-1005007635155982",
+        "slot": "face",
+        "fichier": "cadran-pilote-29-classique-nh36-g1.jpg",
+        "alt": "Cadran pilote classique 29 mm à chiffres 1-12 — pour NH35 et NH36 — Maison Noirmont"
+      },
+      {
+        "handle": "cadran-pilote-29-classique-nh36",
+        "sku": "AE-1005007635155982",
+        "slot": "macro",
+        "fichier": "cadran-pilote-29-classique-nh36-g2.jpg",
+        "alt": "Cadran pilote classique 29 mm à chiffres 1-12 — pour NH35 et NH36 — Maison Noirmont"
+      }
+    ],
+    "sources": [
+      "boutique-seiko-mod/sources-fournisseur-2026-08/cadran-pilote-29-classique-nh36/face-fournisseur-1005007635155982.jpg"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3"
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "VÉRITÉ PRODUIT = l'unique source fournie. Le produit s'y reprend TEL QUEL : forme, diamètre apparent, teinte, finition de surface, relief et police des chiffres, position et forme du guichet de date, perçage central, piste des minutes. Rien ne se réinvente, rien ne s'ajoute, rien ne se retire.",
+        "IDENTITÉ DU PRODUIT — cadran de montre de 29 mm de diamètre, pièce détachée circulaire et plate, NOIR MAT, de type aviateur, LIVRÉ AVEC SON JEU D'AIGUILLES MONTÉ (aiguille des heures et aiguille des minutes en forme de flèche, matière luminescente beige ; trotteuse fine argent avec petit contrepoids rond). Chiffres 1 à 12 occidentaux GRANDS, imprimés en JAUNE luminescent. Deuxième série de chiffres plus petits 13 à 24 imprimée en BLANC juste à l'intérieur. Piste des minutes périphérique blanche, graduée finement, avec les chiffres 5 à 60 de cinq en cinq et des points jaunes aux cinq minutes. Perçage central. PAS de guichet de date. Aucun texte, aucun logo.",
+        "COLORIS DE RÉFÉRENCE — un seul coloris dans la source : cadran noir mat, chiffres horaires jaunes, chiffres 24 h et piste des minutes blancs. Le reproduire à l'identique sur les deux visuels, aiguilles comprises.",
+        "SEULE LA SITUATION DE PRÉSENTATION CHANGE d'un visuel à l'autre : fond, lumière, angle de caméra, distance, décor. Interdiction absolue de modifier la couleur, la texture, la typographie, le nombre de chiffres ou les proportions du produit.",
+        "La source est une photo AliExpress brute : elle ne doit JAMAIS être livrée telle quelle ni rester reconnaissable. Chaque visuel est une composition maison — nouveau fond minéral pierre/craie, nouvelle lumière latérale douce, une seule ombre portée diffuse. Le fond d'origine (béton, tissu, papier, main, plan de travail), les reflets d'origine et le cadrage d'origine sont à abandonner entièrement.",
+        "STÉRILITÉ ABSOLUE : aucun logo, aucun nom de marque, aucun sigle, aucun mot, aucune lettre, aucune mention d'origine ou de provenance sur le produit. Interdits nommément, y compris atténués, flous ou partiels : « SWISS MADE », « SUPERLATIVE CHRONOMETER », « AUTOMATIC », « WATER RESISTANT », « JAPAN », « NO LOGO », tout nom de fournisseur. Si la source porte une annotation d'image (filigrane de vendeur, numéro de variante, flèche, cartouche de prix), elle n'appartient PAS au produit : elle ne doit apparaître sous aucune forme dans le rendu.",
+        "Les chiffres constitutifs du cadran SONT le produit (doctrine §4.1) : ils se reproduisent exactement — même nombre, même ordre, même graphie, même orientation radiale, même piste des minutes. Ni chiffre ajouté, ni chiffre supprimé, ni chiffre en miroir.",
+        "Aucun avis, note, étoile, badge, témoignage, chiffre de satisfaction, mention promotionnelle ni légende technique incrustée. Aucun texte d'aucune sorte dans l'image.",
+        "Bloc d'orientation impératif (§4.2) dans CHAQUE prompt : 12 h en haut, cadran lisible à l'endroit, aucun chiffre tête-bêche ni en miroir. Sur une pièce détachée posée à plat, l'axe 12-6 est vertical dans le cadre.",
+        "Inpainting et gommage interdits (§4.3) : au moindre défaut, régénérer depuis la source.",
+        "AUCUN slot `poignet` et aucune main dans cette fournée : le produit est une PIÈCE DÉTACHÉE, pas une montre. Ne jamais l'insérer dans une montre complète imaginaire, ne jamais lui ajouter un boîtier, un bracelet, une lunette ou un verre qui ne sont pas dans la source.",
+        "Sortie 2048 × 2048 px, 1:1 STRICT, JPEG sRGB, viser 400-900 Ko, plafond 1,2 Mo. Ni PNG ni WebP.",
+        "Nomenclature imposée par les noms `fichier` du manifeste. Les suffixes `-6` et `-7` sont BRÛLÉS (ils désignaient les faux avis retirés le 08/08) : ne jamais les produire, sous aucune forme, dans aucun nom de fichier.",
+        "Aucun accès boutique, aucun navigateur, aucune API distante : la livraison s'arrête aux fichiers.",
+        "Les aiguilles font partie du produit vendu : les conserver montées, dans la même forme et la même matière luminescente beige. Ne pas changer l'heure affichée de façon à masquer un chiffre : garder une position d'aiguilles dégageant la lecture.",
+        "La source est photographiée légèrement en perspective : sur le slot `face`, redresser en vue strictement de dessus.",
+        "Slot `face` — LE VISUEL PRINCIPAL. La pièce seule, posée à plat, vue strictement de dessus (caméra perpendiculaire, aucune perspective), parfaitement centrée, occupant environ 80 % de la largeur du carré. Fond minéral clair uni pierre→craie, une seule ombre portée douce sous la pièce. Aucun accessoire, aucun décor, aucun autre objet.",
+        "Slot `macro` — LA MATIÈRE, PAS UNE DEUXIÈME FACE. Plan très rapproché en lumière rasante sur un secteur du cadran seulement (environ le quart entre 12 h et 3 h) : on doit y voir le RELIEF des chiffres appliqués et leur tranche polie, le grain de la finition de surface, la netteté de la piste des minutes et, s'il existe, le bord biseauté du guichet de date. La pièce déborde volontairement du cadre. INTERDIT : la pièce entière visible en totalité — ce serait une redite de la face, défaut relevé sur la fournée précédente."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Zoom chiffre par chiffre sur le cadran de CHAQUE livrable : chaque chiffre présent, dans l'ordre, correctement formé, non miroir ; aucun lettrage, logo, sigle ni mot parasite, même atténué. Contrôler aussi le pourtour de la pièce et le guichet de date.",
+        "Planche de contrôle par fiche, ≥ 740 px par vignette, réunissant la source et les livrables — le plancher est payé : les planches à 380 px ont laissé passer trois fois un « SWISS MADE ».",
+        "Contrôle qu'aucun filigrane de vendeur ni annotation d'image de la source n'a survécu dans le rendu.",
+        "Contrôle d'orientation : 12 h en haut, aucun chiffre retourné.",
+        "Contrôle d'homogénéité de galerie : les visuels d'une même fiche côte à côte doivent partager coloris, lumière et matière — et se distinguer nettement par le cadrage, pas se répéter.",
+        "Contrôle format sur chaque fichier : 2048 × 2048, 1:1, JPEG sRGB, poids dans la fourchette."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-29-classique-nh36",
+      "manifeste": "manifeste.json"
+    }
+  },
+  "notes": "Le champ `sku` porte la référence de LISTING fournisseur (`AE-<item_id>` AliExpress), pas un SKU de variante : ces visuels sont des visuels de GALERIE, non rattachés à un coloris précis du sélecteur, et deviner un fragment de variante serait une donnée inventée (interdit par le protocole). L'item_id AliExpress est stable et n'est ni un ID de variante, ni de média, ni de produit Shopify. Le manifeste livré reprend cette référence en `sku_fournisseur`. Le rattachement Shopify n'appartient pas à cette fournée : un autre agent surveille `visuels-codex-2026-08/` et s'en charge."
+}

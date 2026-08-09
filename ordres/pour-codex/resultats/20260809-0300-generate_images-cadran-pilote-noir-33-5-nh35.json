@@ -1,0 +1,33 @@
+{
+  "id": "claude-20260809-0300-cadran-pilote-noir-33-5-nh35",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-pilote-noir-33-5-nh35",
+        "sku": "AE-1005003002119259",
+        "slot": "face",
+        "fichier": "cadran-pilote-noir-33-5-nh35-g1.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "cadran-pilote-noir-33-5-nh35",
+        "sku": "AE-1005003002119259",
+        "slot": "macro",
+        "fichier": "cadran-pilote-noir-33-5-nh35-g2.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/macro-v1-axe-12-6-incline.jpg",
+        "motif": "Premier candidat macro non conforme au bloc d'orientation : l'axe centre-12 h restait légèrement incliné au lieu d'être vertical. Image écartée et régénérée intégralement depuis la source propre, sans inpainting."
+      }
+    ],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-08-09T01:59:42Z",
+  "executor": "codex-2026-08-09"
+}
