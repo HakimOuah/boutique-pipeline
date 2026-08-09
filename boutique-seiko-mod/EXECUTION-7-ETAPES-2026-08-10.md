@@ -35,6 +35,8 @@ Décision : archiver les fiches perdantes plutôt que les supprimer. Cela retire
 
 Résultat : les quatre passages à `ARCHIVED` ont réussi. Une seconde lecture MCP confirme `ARCHIVED` pour chaque GID, avec le nombre de variantes et l'inventaire inchangés.
 
+Un cinquième brouillon a ensuite été archivé séparément : `montre-cadran-arabe-oriental-36-39` (`gid://shopify/Product/11013081366866`, AliExpress `1005010249362754`). La fiche mélangeait 40 variantes `blue/black/white/green` et `… sterile`, alors que la description promettait de ne commander que les variantes sans logo ; ses 15 médias étaient des images fournisseur sans alt et la photo principale montrait la famille Tandorio. État initial `DRAFT`, état final relu `ARCHIVED`, 40 variantes, stock total 11 995 et 15 médias inchangés. Rollback : revenir à `DRAFT` uniquement après élagage aux variantes stériles et remplacement complet des visuels.
+
 ### Décision sur les cinq dossiers arabes bloqués
 
 - Correction de périmètre : ce sont cinq dossiers source excédentaires, pas cinq fiches Shopify ; la recherche par handle exact renvoie zéro produit.
