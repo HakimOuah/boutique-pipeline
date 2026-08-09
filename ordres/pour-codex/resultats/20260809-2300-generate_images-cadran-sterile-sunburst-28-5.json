@@ -1,0 +1,41 @@
+{
+  "id": "claude-20260809-2300-cadran-sterile-sunburst-28-5",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-sterile-sunburst-28-5",
+        "sku": "AE-1005008380303345",
+        "slot": "face",
+        "fichier": "cadran-sterile-sunburst-28-5-g1.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "cadran-sterile-sunburst-28-5",
+        "sku": "AE-1005008380303345",
+        "slot": "macro",
+        "fichier": "cadran-sterile-sunburst-28-5-g2.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-sterile-sunburst-28-5",
+        "sku": "AE-1005008380303345",
+        "slot": "situation",
+        "fichier": "cadran-sterile-sunburst-28-5-g3.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/face-v1-cadrage-trop-lointain-coloris-trop-bleu.jpg",
+        "motif": "Cadrage trop lointain (disque a environ 69 % de la largeur au lieu d'environ 80 %) et coloris trop bleu par rapport au periwinkle de reference."
+      }
+    ],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-08-09T21:56:58Z",
+  "executor": "codex-2026-08-09"
+}

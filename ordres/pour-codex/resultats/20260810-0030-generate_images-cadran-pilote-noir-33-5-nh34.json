@@ -1,0 +1,59 @@
+{
+  "id": "claude-20260810-0030-cadran-pilote-noir-33-5-nh34",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-pilote-noir-33-5-nh34",
+        "sku": "AE-1005008660462030",
+        "slot": "face",
+        "fichier": "cadran-pilote-noir-33-5-nh34-g1.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "cadran-pilote-noir-33-5-nh34",
+        "sku": "AE-1005008660462030",
+        "slot": "macro",
+        "fichier": "cadran-pilote-noir-33-5-nh34-g2.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-pilote-noir-33-5-nh34",
+        "sku": "AE-1005008660462030",
+        "slot": "situation",
+        "fichier": "cadran-pilote-noir-33-5-nh34-g3.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 4
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/face-v1-trotteuse-sur-chiffres.jpg",
+        "motif": "La trotteuse traverse le 19 et effleure le 7."
+      },
+      {
+        "fichier": "rejected/situation-v1-aiguilles-sur-reperes.jpg",
+        "motif": "L'aiguille des minutes masque partiellement 15 et la trotteuse longe 19 et 7 sans marge suffisante."
+      },
+      {
+        "fichier": "rejected/situation-v2-aiguilles-trop-pres-de-15-et-23.jpg",
+        "motif": "Les aiguilles des minutes et des heures effleurent respectivement 15 et 23."
+      },
+      {
+        "fichier": "rejected/situation-v3-minute-sur-15-trotteuse-sur-piste.jpg",
+        "motif": "L'aiguille des minutes ne degage pas 15 et la trotteuse termine sur la piste des minutes."
+      },
+      {
+        "fichier": "rejected/situation-v4-trotteuse-sans-contrepoids-conforme.jpg",
+        "motif": "La trotteuse n'a pas le contrepoids court conforme a la source et porte un bloc parasite sur sa branche longue."
+      }
+    ],
+    "sujets_difficiles": [
+      "Slot situation : 4 regenerations necessaires pour obtenir simultanement le degagement des chiffres et une trotteuse fidele."
+    ]
+  },
+  "executed_at": "2026-08-09T22:29:25Z",
+  "executor": "codex-2026-08-10"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "claude-20260809-2400-cadran-meteorite-28-5",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-meteorite-28-5",
+        "sku": "AE-1005009479823229",
+        "slot": "face",
+        "fichier": "cadran-meteorite-28-5-g1.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-meteorite-28-5",
+        "sku": "AE-1005009479823229",
+        "slot": "macro",
+        "fichier": "cadran-meteorite-28-5-g2.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-meteorite-28-5",
+        "sku": "AE-1005009479823229",
+        "slot": "situation",
+        "fichier": "cadran-meteorite-28-5-g3.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-08-09T22:05:03Z",
+  "executor": "codex-2026-08-09"
+}

@@ -52,6 +52,15 @@ Un cinquième brouillon a ensuite été archivé séparément : `montre-cadran-a
 - Refus maintenus : `1005012130205925` est propre mais sous le plancher de 10 ventes (9 ventes, 0 évaluation) ; `1005010278946311` porte `S Logo` et `660ft-200m PROFESSIONAL AUTOMATIC`.
 - Avec le candidat déjà qualifié le 09/08 (`1005009751528666`), le lot honnête ne compte que 2 produits distincts. L'objectif de 4 à 8 n'est pas atteint ; aucun import partiel n'est lancé.
 
+### Clôture et rattachement de la file visuelle prioritaire
+
+- Les cinq derniers lots stériles/pilotes de la file existante sont `done` : stérile lumineux, sunburst, météorite, vierge stérile et pilote noir NH34.
+- Le pilote NH34 a livré 3/3 JPEG 2048 × 2048 après cinq rejets internes correctement isolés ; le contrôle source/planche confirme chiffres 1–24, index, piste, aiguilles et absence de marque.
+- L'ancien lot `cadran-pilote-33-5-aiguilles-lumineuses` déclarait à tort son g3 terminé alors que la QA l'avait reclassé en rejet. Une reprise de ce seul slot a été validée classe A, exécutée, puis relue : `done`, 1/1, zéro rejet ; g1 et g2 n'ont pas été écrasés.
+- État final de la boîte : aucun exécuteur vivant, verrou absent, `inbox` vide et `en-cours` vide hors `.gitkeep`.
+- Les 26 livrables finaux de neuf fiches cadran en brouillon ont été téléversés et ajoutés via Shopify. Aucune image fournisseur n'a été retirée, aucun statut/stock/prix/SKU/variante n'a changé. Le contrôle indépendant donne 160 médias après ajout contre 134 avant.
+- Le détail par fiche, les réserves QA et les 26 identifiants de rollback sont dans `RATTACHEMENT-VISUELS-BROUILLONS-2026-08-10.md`.
+
 ### Affectation des six nuanciers du bracelet caoutchouc gaufré
 
 - Produit : `gid://shopify/Product/10980388536658`, handle `bracelet-caoutchouc-gaufre`, statut `ACTIVE`.
@@ -105,7 +114,7 @@ Les six médias P4 existants du bracelet caoutchouc gaufré sont bien rattachés
 
 | Étape | Statut | Preuve ou blocage |
 |---|---|---|
-| 1. File visuelle stériles et pilote | EN COURS | Exécuteur vivant constaté ; ne pas forcer le verrou. |
+| 1. File visuelle stériles et pilote | TERMINÉE | File drainée, reprise g3 lumineuse terminée, 26 visuels approuvés ajoutés à 9 brouillons ; statuts et invariants relus. |
 | 2. Re-sourcing arabe | PARTIEL / BLOQUÉ | 2 produits distincts qualifiés au total ; 2 à 6 manquants malgré 811 IDs explorés. |
 | 3. Cinq fiches arabes bloquées | TERMINÉE | 0/5 récupérable ; aucun des cinq handles n'existe dans Shopify. |
 | 4. Import, rédaction et habillage | BLOQUÉ | La cible minimale de 4 produits distincts n'est pas atteinte ; aucun import partiel ou activation par défaut. |

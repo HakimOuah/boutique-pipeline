@@ -1,0 +1,36 @@
+{
+  "id": "claude-20260809-2400-cadran-vierge-sterile-28-5",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-vierge-sterile-28-5",
+        "sku": "AE-1005009761337861",
+        "slot": "face",
+        "fichier": "cadran-vierge-sterile-28-5-g1.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-vierge-sterile-28-5",
+        "sku": "AE-1005009761337861",
+        "slot": "macro",
+        "fichier": "cadran-vierge-sterile-28-5-g2.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-vierge-sterile-28-5",
+        "sku": "AE-1005009761337861",
+        "slot": "situation",
+        "fichier": "cadran-vierge-sterile-28-5-g3.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-08-09T22:11:40Z",
+  "executor": "codex-2026-08-10"
+}
