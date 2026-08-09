@@ -72,6 +72,20 @@ Rollback : détacher ces six médias des douze variantes par `productVariantDeta
 
 Résultat : mutation validée contre le schéma Shopify puis appliquée sans `userErrors`. Une requête indépendante après écriture confirme 6 médias distincts associés aux 12 variantes attendues, 9 médias produit et 72 variantes au total ; le produit reste `ACTIVE`.
 
+### Clôture des cinq doutes techniques du §4.2
+
+Le détail des preuves AliExpress et des limites est conservé dans `DECISION-DOUTES-TECHNIQUES-AGENT-2026-08-10.md`. Les décisions ont ensuite été appliquées uniquement à des fiches `DRAFT`, puis relues par le MCP Shopify.
+
+| Fiche | Action appliquée | Vérification après écriture |
+|---|---|---|
+| `cadran-squelette-nh70-3-coloris` — `gid://shopify/Product/11013068915026` | Titre et description resserrés sur l'anneau NH70/NH72 et la seule promesse prouvée : points et petits repères lumineux. Intensité et durée explicitement non mesurées. | `DRAFT`, 7 variantes, stock total 1 145, 13 médias inchangés. |
+| `cadran-squelette-29-noir-blanc` — `gid://shopify/Product/11013068816722` | Promesse lumineuse retirée. Le titre et le texte distinguent anneau seul, anneau avec aiguilles et aiguilles seules. | `DRAFT`, 5 variantes, stock total 1 573, 10 médias inchangés. Les cinq libellés d'option restent en anglais et le remapping fournisseur reste obligatoire avant activation. |
+| `cadran-transparent-lume-28-5` — `gid://shopify/Product/11013068849490` | Fiche archivée : les disques et anneaux sont des SKU séparés alors que deux pièces sont nécessaires. | `ARCHIVED`, 11 variantes, stock total 1 078, 17 médias inchangés. |
+| `support-mouvement-acrylique` — `gid://shopify/Product/11013057118546` | Titre et description clarifiés : vingt références au choix, un seul support livré, mouvement non inclus, jamais universel. | `DRAFT`, 20 variantes, stock total 748, 4 médias inchangés. |
+| `cadran-sterile-index-35` — `gid://shopify/Product/11013068620114` | Fiche archivée : seules A1–A4 sont des cadrans ; B1–B8 sont des aiguilles et C1–C2 des boîtiers. | `ARCHIVED`, 14 variantes, stock total 1 354, 16 médias inchangés. |
+
+Rollback : remettre individuellement un produit archivé à `DRAFT`, ou restaurer les anciens titres/descriptions consignés dans l'historique Shopify. Aucun prix, SKU, stock, variante, média ou mapping DSers n'a été modifié. Les deux brouillons maintenus et le brouillon prudent restent non activables sans les libellés français, le contrôle de mapping et les autres portes globales.
+
 ## État des sept étapes
 
 | Étape | Statut | Preuve ou blocage |
@@ -80,6 +94,6 @@ Résultat : mutation validée contre le schéma Shopify puis appliquée sans `us
 | 2. Re-sourcing arabe | PARTIEL / BLOQUÉ | 2 produits distincts qualifiés au total ; 2 à 6 manquants malgré 811 IDs explorés. |
 | 3. Cinq fiches arabes bloquées | TERMINÉE | 0/5 récupérable ; aucun des cinq handles n'existe dans Shopify. |
 | 4. Import, rédaction et habillage | BLOQUÉ | La cible minimale de 4 produits distincts n'est pas atteinte ; aucun import partiel ou activation par défaut. |
-| 5. Nettoyage catalogue | EN COURS | Contradiction corrigée ; trois doublons perdants et cadran à verbatim Rolex archivés ; 6 nuanciers affectés à 12 variantes et relus. Doutes techniques restants à statuer. |
+| 5. Nettoyage catalogue | ASSAINI / ACTIVATION ENCORE BLOQUÉE | Contradiction corrigée ; trois doublons perdants, cadran à verbatim Rolex, fiche arabe mixte et deux fiches techniquement incohérentes archivés ; 6 nuanciers affectés à 12 variantes ; trois fiches techniques réécrites. `cadran-squelette-29-noir-blanc` reste à libeller/remapper avant activation. |
 | 6. 319 visuels des fiches actives | EN ATTENTE | Inventaire actuel à réconcilier après la file prioritaire. |
 | 7. Activation | BLOQUÉE PAR CONDITIONS | Aucune activation tant que les cinq conditions ne sont pas toutes prouvées. |
