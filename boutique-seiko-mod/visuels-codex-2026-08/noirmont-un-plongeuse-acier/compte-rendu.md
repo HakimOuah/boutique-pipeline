@@ -1,8 +1,7 @@
-# Noirmont Un — Plongeuse acier
+# Dossier historique `noirmont-un-plongeuse-acier` — rejeté
 
-- Livré : 1 visuel de galerie (`g1`, macro du bracelet acier trois maillons entièrement brossé et de sa courbure).
-- Source produit active : `scratchpad/noirmont-galeries/entrees-faces/noirmont-un-plongeuse-acier-face.jpg` ; cadran, lunette chiffrée et scène sont entièrement hors champ.
-- Rejets : 1 (macro cuir issu d'un fichier spécialisé mal nommé, représentant une montre aviateur différente).
-- Entrées écartées : `visuels-aviateur-2026-07-27/generated/noirmont-un-plongeuse-acier-face.jpg`, motif consigné dans le manifeste.
-- Plus de 3 régénérations : non.
-- QA : les quatre vues existantes et le nouveau détail figurent ensemble dans `qa/noirmont-un-plongeuse-acier-planche.jpg` à 900 px par vignette.
+- Livré : 0 visuel.
+- Constat : `noirmont-un-plongeuse-acier` est un nom de fichier historique, pas un handle produit vérifié dans la table locale.
+- Rejet : la macro à bracelet acier ne correspond pas à la Noirmont Un active, qui est une aviateur sur cuir brun à lunette lisse. Le fichier et sa planche sont conservés dans `rejected/`.
+- Correction locale : le détail cuir correct est livré sous `montre-aviateur-acier-cadran-chiffres-1-12`.
+- Régénérations supplémentaires : aucune.

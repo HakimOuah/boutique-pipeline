@@ -1,13 +1,14 @@
 {
   "handle": "noirmont-un-bronze-plongeuse",
-  "images": [
+  "images": [],
+  "ecartes": [
     {
-      "fichier": "noirmont-un-bronze-plongeuse-g1.jpg",
-      "handle": "noirmont-un-bronze-plongeuse",
-      "slot": "galerie",
-      "sku_fournisseur": null,
-      "source": "scratchpad/noirmont-galeries/entrees-faces/noirmont-un-bronze-plongeuse-face.jpg"
+      "sujet": "dossier fondé sur un nom de fichier historique, pas sur un handle produit",
+      "motif": "La table locale et le journal de contrôle concurrent confirment que ce handle n'existe pas. Le visuel à bracelet acier correspond à une autre montre que la Noirmont Un Bronze active, vendue sur cuir brun ; il a été déplacé dans rejected/."
+    },
+    {
+      "sujet": "référence aviateur bronze sur cuir brun",
+      "motif": "La référence correcte a été réaffectée au handle local vérifié montre-aviateur-bronze-cadran-chiffres-1-12."
     }
-  ],
-  "ecartes": []
+  ]
 }

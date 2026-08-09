@@ -1221,3 +1221,52 @@ différence 36/39 mm invisible sur la source aurait été exactement le type d'i
 mission proscrit. Cette fiche est déjà pourvue de 10 médias.
 
 **Cumul inchangé : 64 visuels rattachés sur 55 fiches. 2 refus.**
+
+---
+
+## Tour 44 — 09/08/2026 ~03h35 — Codex corrige le tour 7, mais **je ne rattache pas encore**
+
+Codex relivre les deux Noirmont Un, cette fois **sur les bons handles** :
+`montre-aviateur-acier-cadran-chiffres-1-12` et `montre-aviateur-bronze-cadran-chiffres-1-12`.
+Le compte-rendu note explicitement que « le nom historique du fichier est trompeur » et que le
+handle a été vérifié dans la table SKU. L'erreur du tour 7 est comprise et corrigée.
+
+### Les deux visuels sont, cette fois, corrects sur le fond
+
+| Fiche | Ce que montre la macro | Verdict QA |
+|---|---|---|
+| Aviateur **acier** | cuir brun patiné, surpiqûre **crème**, cornes **acier brossé** | conforme au titre et à la description |
+| Aviateur **bronze** | cuir brun patiné, surpiqûre crème, cornes **bronze** (teinte chaude dorée) | conforme — le point « une version bronze doit montrer du bronze » est respecté, et les deux macros ne sont pas interchangeables |
+
+Cadran, lunette et couronne entièrement hors champ sur les deux : aucun logo, aucun lettrage,
+aucune mention d'origine possible. Aucun avis ni badge. 2/2 en 2048×2048 JPEG. Sources
+versionnées (`visuels-aviateur-2026-07-27/generated/…`) et présentes.
+
+### Pourquoi je ne les rattache pas ce soir
+
+Ces deux fiches sont celles dont l'**anomalie préexistante** a été remontée au tour 7 : leurs
+**4 vues actuellement en ligne montrent une plongeuse sur bracelet acier**, alors que le titre,
+la description et les options vendent un **aviateur sur cuir brun**.
+
+Poser aujourd'hui une macro de cuir en 5ᵉ position produirait une galerie **ouvertement
+contradictoire** pour l'acheteur : quatre photos de plongeuse acier suivies d'un gros plan de
+bracelet cuir. Et je ne peux pas résoudre la contradiction, puisque le mandat m'interdit de
+supprimer un média comme de toucher au texte.
+
+Entre laisser la fiche en l'état — incohérente entre texte et images, mais homogène à l'œil —
+et la rendre incohérente à l'image aussi, la seconde option est pire pour une fiche **ACTIVE**.
+Je m'abstiens donc, conformément à la règle « en cas d'écart, ne rattache pas et consigne ».
+
+**Les deux fichiers sont prêts et validés** : ils pourront être posés sans nouveau contrôle dès
+que Hakim aura tranché l'anomalie du tour 7 —
+
+- soit **régénérer les quatre vues** de ces deux fiches à partir des sources aviateur, et les
+  deux macros cuir s'y intègrent immédiatement ;
+- soit **réécrire les deux fiches** pour vendre la plongeuse qu'elles montrent, et ce sont
+  alors ces macros cuir qui deviennent caduques.
+
+Chemins des fichiers en attente :
+`visuels-codex-2026-08/montre-aviateur-acier-cadran-chiffres-1-12/` et
+`visuels-codex-2026-08/montre-aviateur-bronze-cadran-chiffres-1-12/`.
+
+**Cumul inchangé : 64 visuels rattachés sur 55 fiches. 2 refus + 2 en attente d'arbitrage.**
