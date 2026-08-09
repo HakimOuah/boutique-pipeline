@@ -1,0 +1,35 @@
+{
+  "id": "claude-20260809-2130-cadran-pilote-29-classique-nh36",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-pilote-29-classique-nh36",
+        "sku": "AE-1005007635155982",
+        "slot": "face",
+        "fichier": "cadran-pilote-29-classique-nh36-g1.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 9
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/face-v6-aiguilles-masquent-22-et-20-piste-30-erronee.jpg",
+        "motif": "Aiguille des heures sur 22, trotteuse sur 20 et valeur de 6 h differente de 30."
+      },
+      {
+        "fichier": "rejected/face-v7-aiguille-minutes-touche-4-trotteuse-effleure-8.jpg",
+        "motif": "Aiguille des minutes au contact du chiffre 4 et contrepoids de trotteuse effleurant le chiffre 8."
+      },
+      {
+        "fichier": "rejected/face-v8-trotteuse-masque-20-et-8.jpg",
+        "motif": "Trotteuse et contrepoids masquant respectivement les chiffres 20 et 8."
+      }
+    ],
+    "sujets_difficiles": [
+      "cadran-pilote-29-classique-nh36 | face | 9 generations cumulatives ; conforme a la 9e"
+    ]
+  },
+  "executed_at": "2026-08-09T19:59:26Z",
+  "executor": "codex-2026-08-09"
+}

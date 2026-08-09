@@ -1,9 +1,12 @@
 [
   {
-    "fichier": "cadran-pilote-29-classique-nh36-g2.jpg",
+    "fichier": "cadran-pilote-29-classique-nh36-g1.jpg",
     "handle": "cadran-pilote-29-classique-nh36",
-    "slot": "macro",
+    "slot": "face",
+    "sku": "AE-1005007635155982",
     "sku_fournisseur": "AE-1005007635155982",
+    "modele": "gpt-image-2",
+    "regenerations": 9,
     "source": "boutique-seiko-mod/sources-fournisseur-2026-08/cadran-pilote-29-classique-nh36/face-fournisseur-1005007635155982.jpg",
     "ecartes": [
       {
@@ -24,7 +27,63 @@
       },
       {
         "fichier": "rejected/face-v5-chiffre-1-invente-au-1h-source-baton-nu.jpg",
-        "motif": "Chiffre « 1 » INVENTE au repere de 1 h : la source porte un baton nu sans empattement, et le propre macro g2 de la fiche rend bien un baton. Defaut de fidelite produit + rupture d homogeneite de galerie, valide par la QA de Codex (status done). Releve par la QA d orchestrateur. Slot face a regenerer."
+        "motif": "Chiffre « 1 » invente au repere de 1 h alors que la source porte un baton nu ; rejet par la QA d orchestrateur."
+      },
+      {
+        "fichier": "rejected/face-v6-aiguilles-masquent-22-et-20-piste-30-erronee.jpg",
+        "motif": "Aiguille des heures sur 22, trotteuse sur 20 et valeur de 6 h differente de 30."
+      },
+      {
+        "fichier": "rejected/face-v7-aiguille-minutes-touche-4-trotteuse-effleure-8.jpg",
+        "motif": "Aiguille des minutes au contact du chiffre 4 et contrepoids de trotteuse effleurant le chiffre 8."
+      },
+      {
+        "fichier": "rejected/face-v8-trotteuse-masque-20-et-8.jpg",
+        "motif": "Trotteuse et contrepoids masquant respectivement les chiffres 20 et 8."
+      }
+    ]
+  },
+  {
+    "fichier": "cadran-pilote-29-classique-nh36-g2.jpg",
+    "handle": "cadran-pilote-29-classique-nh36",
+    "slot": "macro",
+    "sku": "AE-1005007635155982",
+    "sku_fournisseur": "AE-1005007635155982",
+    "modele": "gpt-image-2",
+    "regenerations": 1,
+    "source": "boutique-seiko-mod/sources-fournisseur-2026-08/cadran-pilote-29-classique-nh36/face-fournisseur-1005007635155982.jpg",
+    "ecartes": [
+      {
+        "fichier": "rejected/face-v1-piste-minutes-valeur-sommet-erronee.jpg",
+        "motif": "Piste des minutes : 50 a 12 h au lieu de 60, 50 duplique, 60 absent (rejet Codex)."
+      },
+      {
+        "fichier": "rejected/face-v2-aiguilles-masquent-2-et-8.jpg",
+        "motif": "Aiguilles occultant les chiffres 2 et 8 (rejet Codex)."
+      },
+      {
+        "fichier": "rejected/face-v3-aiguilles-masquent-2-et-8.jpg",
+        "motif": "Nouvelle occlusion des chiffres 2 et 8 (rejet Codex)."
+      },
+      {
+        "fichier": "rejected/face-v4-aiguille-minutes-touche-2.jpg",
+        "motif": "Pointe de l aiguille des minutes touchant le chiffre 2 (rejet Codex)."
+      },
+      {
+        "fichier": "rejected/face-v5-chiffre-1-invente-au-1h-source-baton-nu.jpg",
+        "motif": "Chiffre « 1 » invente au repere de 1 h alors que la source porte un baton nu ; rejet par la QA d orchestrateur."
+      },
+      {
+        "fichier": "rejected/face-v6-aiguilles-masquent-22-et-20-piste-30-erronee.jpg",
+        "motif": "Aiguille des heures sur 22, trotteuse sur 20 et valeur de 6 h differente de 30."
+      },
+      {
+        "fichier": "rejected/face-v7-aiguille-minutes-touche-4-trotteuse-effleure-8.jpg",
+        "motif": "Aiguille des minutes au contact du chiffre 4 et contrepoids de trotteuse effleurant le chiffre 8."
+      },
+      {
+        "fichier": "rejected/face-v8-trotteuse-masque-20-et-8.jpg",
+        "motif": "Trotteuse et contrepoids masquant respectivement les chiffres 20 et 8."
       }
     ]
   }
