@@ -42,6 +42,14 @@ Résultat : les quatre passages à `ARCHIVED` ont réussi. Une seconde lecture M
 - `1005006492769759` possède des variantes stériles visuellement propres, mais est abandonné comme nouveau candidat : 4 ventes, 1 avis et doublon du brouillon Shopify `gid://shopify/Product/11013081366866` / AliExpress `1005010249362754`.
 - Bilan : `0/5` récupérable pour un nouvel import. Le rapport détaillé et les limites de la surface API sont consignés dans `DECISION-5-FICHES-ARABES-AGENT-2026-08-10.md`.
 
+### Re-sourcing API des cadrans arabes orientaux
+
+- Surface explorée : 118 recherches AliExpress Open Platform réussies, 811 item IDs distincts ; 12 erreurs amont conservées sur le tri `latest`.
+- Résultat supplémentaire qualifié : `1005007348127532`, cadran 28,5 mm NH35/NH36, 58 ventes, 13 évaluations, 12 variantes visuellement propres, coût rendu France observé 11,18 à 11,78 EUR.
+- Les deux contrôles éliminatoires passent sur les 12 variantes : glyphes arabes orientaux visibles et aucun logo/verbatim sur le cadran physique. Les images restent des sources fournisseur non publiables brutes.
+- Refus maintenus : `1005012130205925` est propre mais sous le plancher de 10 ventes (9 ventes, 0 évaluation) ; `1005010278946311` porte `S Logo` et `660ft-200m PROFESSIONAL AUTOMATIC`.
+- Avec le candidat déjà qualifié le 09/08 (`1005009751528666`), le lot honnête ne compte que 2 produits distincts. L'objectif de 4 à 8 n'est pas atteint ; aucun import partiel n'est lancé.
+
 ### Affectation des six nuanciers du bracelet caoutchouc gaufré
 
 - Produit : `gid://shopify/Product/10980388536658`, handle `bracelet-caoutchouc-gaufre`, statut `ACTIVE`.
@@ -67,9 +75,9 @@ Résultat : mutation validée contre le schéma Shopify puis appliquée sans `us
 | Étape | Statut | Preuve ou blocage |
 |---|---|---|
 | 1. File visuelle stériles et pilote | EN COURS | Exécuteur vivant constaté ; ne pas forcer le verrou. |
-| 2. Re-sourcing arabe | EN COURS | 1 produit qualifié le 09/08 ; recherche API complémentaire ouverte. |
+| 2. Re-sourcing arabe | PARTIEL / BLOQUÉ | 2 produits distincts qualifiés au total ; 2 à 6 manquants malgré 811 IDs explorés. |
 | 3. Cinq fiches arabes bloquées | TERMINÉE | 0/5 récupérable ; aucun des cinq handles n'existe dans Shopify. |
-| 4. Import, rédaction et habillage | EN ATTENTE | Dépend du lot qualifié et de la décision sur les cinq fiches. |
+| 4. Import, rédaction et habillage | BLOQUÉ | La cible minimale de 4 produits distincts n'est pas atteinte ; aucun import partiel ou activation par défaut. |
 | 5. Nettoyage catalogue | EN COURS | Contradiction corrigée ; trois doublons perdants et cadran à verbatim Rolex archivés ; 6 nuanciers affectés à 12 variantes et relus. Doutes techniques restants à statuer. |
 | 6. 319 visuels des fiches actives | EN ATTENTE | Inventaire actuel à réconcilier après la file prioritaire. |
 | 7. Activation | BLOQUÉE PAR CONDITIONS | Aucune activation tant que les cinq conditions ne sont pas toutes prouvées. |
