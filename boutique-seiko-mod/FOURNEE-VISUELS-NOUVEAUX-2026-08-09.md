@@ -315,7 +315,7 @@ dans `inbox/`, prêts à repartir d'un simple `bash ordres/generer-images.sh` :
 
 ## 6. Où en est la fournée
 
-**19 visuels maison retenus après QA, sur 6 fiches**, dont **4 fiches complètes**.
+**17 visuels maison retenus après QA, sur 7 fiches**, dont **6 fiches complètes**.
 
 | Fiche | Collection | Visuels retenus | État |
 |---|---|---:|---|
