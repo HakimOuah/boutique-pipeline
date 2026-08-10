@@ -82,7 +82,7 @@ Produit : `gid://shopify/Product/10988849299794` — `montre-acier-chiffres-3-6-
 | Red1 | `gid://shopify/MediaImage/59904750453074` | 8 |
 | White1, cadran argenté et détails dorés | `gid://shopify/MediaImage/59904750485842` | 8 |
 
-Les cinq passent la vérité produit et la tolérance de gabarit mesurée. `Blue1` est exclu du rattachement : son produit est vrai, mais son échelle est supérieure de 8,1 % à la référence Green1 ; une reprise ciblée remplace ce même slot.
+Les cinq passent la vérité produit et la tolérance de gabarit mesurée. `Blue1` est définitivement **REJECTED** et exclu du rattachement après huit régénérations intégrales. La référence Green1 mesure 454 px au masque 512 avec une tolérance maximale de 2 px ; la meilleure tentative Blue1 mesure 457 px, soit 3 px d'écart. Aucun remplacement du fichier existant et aucun rattachement Shopify n'ont été effectués pour ce slot.
 
 Les 40 variantes avaient déjà toutes le même média générique `gid://shopify/MediaImage/59740542992722` affecté. Shopify interdit deux associations de média par variante. Après un premier append refusé atomiquement, l'association générique a donc été détachée des 40 variantes, sans retirer ce média de la galerie produit, puis remplacée par les cinq nouveaux médias. La relecture confirme 40/40 associations exactes, huit variantes par média et aucun rattachement résiduel ou manquant.
 
@@ -131,8 +131,151 @@ Les sept passent la comparaison source → rendu et la planche 4 × 2. Les chiff
 
 Sur les 16 variantes ciblées, la relecture confirme 14 associations nouvelles exactes et les deux associations génériques attendues de Black C. Rollback : détacher les sept nouveaux médias des 14 variantes, puis leur réaffecter `gid://shopify/MediaImage/59740542861650`.
 
-## Compteur après cette tranche
+## Bracelet acier massif — 12 à 22 mm
 
-- Nouveaux médias actifs approuvés et rattachés : 52.
-- Total opérationnel : **118 / 298**.
-- Ouverts : **180**, dont les lots encore en production et les emplacements bloqués documentés.
+Produit : `gid://shopify/Product/10980388438354` — `bracelet-acier-massif-12-22-mm` — statut relu `ACTIVE`. La photo principale `noirmont-jubile-plat-1.jpg` est restée inchangée.
+
+| Finition | Média Shopify | Variantes affectées |
+|---|---|---:|
+| Or rose | `gid://shopify/MediaImage/59905025933650` | 10 |
+| Or | `gid://shopify/MediaImage/59905025966418` | 10 |
+| Acier et or | `gid://shopify/MediaImage/59905025999186` | 10 |
+| Acier et or rose | `gid://shopify/MediaImage/59905026031954` | 10 |
+| Noir | `gid://shopify/MediaImage/59905026064722` | 10 |
+| Acier argenté | `gid://shopify/MediaImage/59905026097490` | 10 |
+
+La QA source → rendu valide les six finitions, les cinq rangées, le fermoir vierge et les deux embouts. Pour les bicolores, les deux rangées externes restent argentées et les trois centrales reprennent exactement l'or ou l'or rose de la source. Deux essais avec support acrylique résiduel sont isolés dans `rejected/`; les finales noire et argentée sont propres. Les 60 variantes étaient sans association média. La relecture Shopify confirme 60/60 associations exactes, dix largeurs par finition, et aucun média inattendu.
+
+Rollback : détacher les six nouveaux médias de leurs 60 variantes. Aucun média générique n'était affecté à restaurer ; ne pas supprimer les médias de la galerie sans autorisation distincte.
+
+## Coussins de présentation — lot de 10
+
+Produit : `gid://shopify/Product/10980388569426` — `coussins-de-presentation-lot-de-10` — statut relu `ACTIVE`. La photo principale `noirmont-coussin-1.jpg` est restée inchangée.
+
+| Coloris | Média Shopify | Variante affectée |
+|---|---|---|
+| Rouge | `gid://shopify/MediaImage/59905054933330` | `54098040914258` |
+| Bleu royal | `gid://shopify/MediaImage/59905054966098` | `54098040881490` |
+| Noir | `gid://shopify/MediaImage/59905054998866` | `54098040815954` |
+| Blanc | `gid://shopify/MediaImage/59905055031634` | `54098040848722` |
+| Brun | `gid://shopify/MediaImage/59905055064402` | `54098040947026` |
+
+La QA compte exactement dix coussins distincts par fichier, dans la disposition homogène 1 + 3 + 3 + 3. Forme, volume, creux latéraux, matière veloutée et teinte correspondent à chaque source exacte ; aucun texte, `PCS`, logo ou accessoire. Les cinq variantes étaient sans association média. La relecture Shopify confirme 5/5 associations exactes et aucun média inattendu.
+
+Rollback : détacher chacun des cinq nouveaux médias de sa variante. Aucun média générique n'était affecté à restaurer.
+
+## Étui de voyage rigide — six montres
+
+Produit : `gid://shopify/Product/10980388602194` — `etui-de-voyage-rigide` — statut relu `ACTIVE`. La photo principale `noirmont-etui-voyage-1.jpg` est restée inchangée.
+
+| Apparence | Média Shopify | Variante affectée |
+|---|---|---|
+| Extérieur noir, intérieur prune/fuchsia | `gid://shopify/MediaImage/59905075872082` | `54098045239634` |
+| Extérieur noir, intérieur vert olive | `gid://shopify/MediaImage/59905075904850` | `54098045141330` |
+
+Chaque final montre un étui ouvert et vide avec exactement six coussins complets en 2 × 3, le rabat, la poche et quatre pressions conformes à la source. Aucun objet, montre, logo ou texte. Les deux variantes étaient sans association média. La relecture Shopify confirme 2/2 associations exactes et aucun média inattendu.
+
+Rollback : détacher chaque nouveau média de sa variante. Aucun média générique n'était affecté à restaurer.
+
+## Bracelet Jubilé — embouts courbes
+
+Produit : `gid://shopify/Product/10980388405586` — `bracelet-jubile-embouts-courbes` — statut relu `ACTIVE`. La photo principale `noirmont-jubile-courbe-1.jpg` est restée inchangée.
+
+| Finition | Média Shopify | Variantes affectées |
+|---|---|---:|
+| Acier et or | `gid://shopify/MediaImage/59905115259218` | 5 |
+| Or | `gid://shopify/MediaImage/59905115291986` | 5 |
+| Acier argenté | `gid://shopify/MediaImage/59905115324754` | 5 |
+
+La QA valide cinq rangées, les deux embouts courbes, le fermoir rectangulaire vierge et sept trous de micro-ajustement. Sur le bicolore, les deux rangées externes restent acier et les trois centrales or. Les 15 variantes étaient sans association média. La relecture Shopify confirme 15/15 associations exactes, cinq largeurs par finition, et aucun média inattendu.
+
+Rollback : détacher les trois nouveaux médias de leurs 15 variantes. Aucun média générique n'était affecté à restaurer.
+
+## Bracelet milanais — maille italienne
+
+Produit : `gid://shopify/Product/10980388864338` — `bracelet-milanais-maille-italienne` — statut relu `ACTIVE`. La photo principale `noirmont-milanais-1.jpg` est restée inchangée.
+
+### Maille 0,6 mm — quatre médias maintenus
+
+| Finition | Média Shopify | Variantes affectées |
+|---|---|---:|
+| Noir | `gid://shopify/MediaImage/59905175093586` | 4 |
+| Or | `gid://shopify/MediaImage/59905175126354` | 4 |
+| Acier argenté | `gid://shopify/MediaImage/59905175159122` | 4 |
+| Or rose | `gid://shopify/MediaImage/59905175191890` | 4 |
+
+Les quatre médias 0,6 mm restent inchangés et associés à leurs seize variantes exactes.
+
+### Maille 1,0 mm — deux médias sur quatre
+
+| Finition | Média Shopify | Variantes affectées | Verdict final |
+|---|---|---:|---|
+| Acier argenté | `gid://shopify/MediaImage/59905696923986` | 4 | RATTACHÉ |
+| Or rose | `gid://shopify/MediaImage/59905696956754` | 4 | RATTACHÉ |
+| Noir | — | 0 | **NE PAS RATTACHER** |
+| Or | — | 0 | **NE PAS RATTACHER** |
+
+L'argenté et l'or rose passent la QA finale et couvrent huit variantes exactes. Le noir et l'or conservent un rail cylindrique incompatible avec la terminaison plate prouvée par la source ; leurs huit variantes restent sans média. Les médias 0,6 mm, la photo principale et le statut du produit sont préservés.
+
+Rollback des seuls médias 1,0 mm approuvés : détacher l'argenté et l'or rose de leurs huit variantes, sans toucher aux quatre médias 0,6 mm ni à la galerie historique.
+
+## Outil de mise à taille de bracelet
+
+Produit : `gid://shopify/Product/10980388766034` — `outil-de-mise-a-taille-de-bracelet` — statut relu `ACTIVE`.
+
+| Apparence | Média Shopify | Variante affectée |
+|---|---|---|
+| Noir | `gid://shopify/MediaImage/59905208713554` | `gid://shopify/ProductVariant/54098047435090` |
+| Argenté | `gid://shopify/MediaImage/59905208746322` | `gid://shopify/ProductVariant/54098047467858` |
+
+La relecture confirme les deux associations exactes. Rollback : détacher chaque média de sa variante sans supprimer les médias de la galerie.
+
+## Rouleau de voyage noir — WB13
+
+Produit : `gid://shopify/Product/10980083171666` — `rouleau-de-voyage-noir-cuir` — statut relu `ACTIVE`.
+
+Le média `gid://shopify/MediaImage/59905226637650` est associé uniquement à la variante trois montres `gid://shopify/ProductVariant/54096787276114`. L'ancien média `gid://shopify/MediaImage/59691418714450` est conservé dans la galerie et reste associé aux variantes une et deux montres ; seule son association avec la variante trois montres a été détachée.
+
+Rollback : détacher `59905226637650` de la variante trois montres, puis lui réaffecter `59691418714450`. Ne supprimer aucun des deux médias de la galerie.
+
+## Bracelet cuir daim — dégagement rapide
+
+Produit : `gid://shopify/Product/10980388897106` — `bracelet-cuir-daim-degagement-rapide` — statut relu `ACTIVE`. Le featured media `gid://shopify/MediaImage/59691949293906` est resté inchangé.
+
+### Boucles argentées — rollback complet après erreur de QA
+
+Le premier rattachement des huit médias argentés était une erreur de QA. Les **8 médias et leurs 32 associations** ont été retirés intégralement. La galerie est revenue aux trois médias originaux, le featured media `59691949293906` est inchangé et les **64 variantes étaient sans média** avant le rattachement du lot noir. Les huit apparences argentées sont donc bloquées et ne contribuent pas au compteur final.
+
+### Boucles noires — huit médias approuvés
+
+| Apparence | Média Shopify | Variantes affectées |
+|---|---|---:|
+| Black-Black | `gid://shopify/MediaImage/59905620607314` | 4 |
+| Brown-Black | `gid://shopify/MediaImage/59905620640082` | 4 |
+| Blue-Black | `gid://shopify/MediaImage/59905620672850` | 4 |
+| YellowBrown-Black | `gid://shopify/MediaImage/59905620705618` | 4 |
+| Gray-Black | `gid://shopify/MediaImage/59905620738386` | 4 |
+| Beige-Black | `gid://shopify/MediaImage/59905620771154` | 4 |
+| Light Blue-Black | `gid://shopify/MediaImage/59905620803922` | 4 |
+| Green-Black | `gid://shopify/MediaImage/59905620836690` | 4 |
+
+La relecture confirme **32/32 associations exactes** sur les variantes à boucle noire. Les 32 variantes à boucle argentée restent sans média. Le statut, le featured media et les trois médias historiques du produit sont préservés.
+
+Rollback du lot noir : détacher les huit nouveaux médias de leurs 32 variantes puis, uniquement après autorisation distincte, retirer ces huit médias de la galerie. Ne jamais toucher au featured media `59691949293906`.
+
+## Compteur final et état de la file
+
+| Périmètre opérationnel | Cible | Rattachés | Ouverts bloqués |
+|---|---:|---:|---:|
+| Galeries | 67 | 60 | 7 |
+| P3 — variantes montres | 33 | 22 | 11 |
+| P4 — variantes accessoires | 198 | 69 | 129 |
+| **Total** | **298** | **151** | **147** |
+
+Le palier P4 historique de 36 médias est complété par 6 acier massif, 5 coussins, 2 étuis, 3 Jubilé, 4 Milanais 0,6 mm, 2 outils, 1 WB13, 8 daim noir et 2 Milanais 1,0 mm, soit **69 P4 rattachés**. Les 129 P4 ouverts sont tous bloqués : 8 daim argentés, 2 Milanais 1,0 mm noir/or, 36 FKM et 83 autres P4.
+
+- Nouveaux médias actifs approuvés et rattachés depuis le point de départ : **85**.
+- Total opérationnel : **151 / 298**.
+- Ouverts : **147**, tous bloqués ; aucun lot ne reste en production.
+
+La file finale est drainée : verrou absent, **0 JSON** dans `inbox` et **0 JSON** dans `en-cours`. Tous les ordres ont un résultat individuel. Le wrapper a rendu le code global **3** uniquement parce que le processus enfant argenté a été interrompu après avoir écrit son résultat `done`, mais avant de rendre proprement la main ; le wrapper a ensuite archivé l'ordre et poursuivi la file. Le rollback argenté est complet et aucun de ses médias ne reste rattaché.

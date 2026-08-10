@@ -1,0 +1,61 @@
+{
+  "id": "claude-20260810-0205-p3-explorateur-blue1-reprise",
+  "status": "rejected",
+  "payload": {
+    "manifeste_realise": [],
+    "motif_global": "Ordre inexecutable proprement apres huit regenerations : aucune tentative n'atteint l'emprise bloquante de Green1 (454 px a 512 x 512, tolerance maximale 2 px). La meilleure tentative, g4, mesure 457 px. Livrer g4 violerait la tolerance ; corriger localement l'echelle violerait l'interdiction de retouche/redimensionnement de la reprise.",
+    "rejets": [
+      {
+        "fichier": "rejected/montre-acier-chiffres-3-6-9-explorateur-v-blue1-g1-emprise-trop-grande-466px.jpg",
+        "motif": "Generation 1 : 466 px, ecart +12 px."
+      },
+      {
+        "fichier": "rejected/montre-acier-chiffres-3-6-9-explorateur-v-blue1-g2-emprise-trop-grande-471px.jpg",
+        "motif": "Generation 2 : 471 px, ecart +17 px."
+      },
+      {
+        "fichier": "rejected/montre-acier-chiffres-3-6-9-explorateur-v-blue1-g3-emprise-trop-grande-479px.jpg",
+        "motif": "Generation 3 : 479 px, ecart +25 px."
+      },
+      {
+        "fichier": "rejected/montre-acier-chiffres-3-6-9-explorateur-v-blue1-g4-emprise-trop-grande-457px.jpg",
+        "motif": "Generation 4 : 457 px, ecart +3 px ; meilleure tentative mais hors tolerance."
+      },
+      {
+        "fichier": "rejected/montre-acier-chiffres-3-6-9-explorateur-v-blue1-g5-emprise-trop-grande-467px.jpg",
+        "motif": "Generation 5 : 467 px, ecart +13 px."
+      },
+      {
+        "fichier": "rejected/montre-acier-chiffres-3-6-9-explorateur-v-blue1-g6-emprise-trop-courte-430px.jpg",
+        "motif": "Generation 6 : 430 px, ecart -24 px."
+      },
+      {
+        "fichier": "rejected/montre-acier-chiffres-3-6-9-explorateur-v-blue1-g7-emprise-trop-grande-464px.jpg",
+        "motif": "Generation 7 : 464 px, ecart +10 px."
+      },
+      {
+        "fichier": "rejected/montre-acier-chiffres-3-6-9-explorateur-v-blue1-g8-emprise-trop-grande-483px.jpg",
+        "motif": "Generation 8 : 483 px, ecart +29 px."
+      },
+      {
+        "fichier": "rejected/planche-p3-reprise-explorateur-green1-blue1-orange1-g5-hors-tolerance.jpg",
+        "motif": "Planche QA provisoire reclassee en rejet ; g5 hors tolerance."
+      }
+    ],
+    "sujets_difficiles": [
+      "montre-acier-chiffres-3-6-9-explorateur | Blue1 | huit regenerations ; meilleure emprise 457 px pour une cible acceptee 452-456 px"
+    ],
+    "controle_sauvegarde": {
+      "ancien_blue1_sha256": "6e27de40e6bc5c672188f0a8a868af452129db1667ffa88032c3a53640bbfbd4",
+      "reserve_sha256": "6e27de40e6bc5c672188f0a8a868af452129db1667ffa88032c3a53640bbfbd4",
+      "copie_lisible_et_identique": true
+    },
+    "controle_immuabilite": {
+      "green1_sha256_avant_apres": "6855cb8da74fc1348197db922ca42de14bde74e328a0953508edb038a34f707c",
+      "orange1_sha256_avant_apres": "aa96bbb4f4675c411e7ed0962964fceaa1c7f3f36a166e19cbd689b8d1c4c06a",
+      "blue1_existant_sha256_apres": "6e27de40e6bc5c672188f0a8a868af452129db1667ffa88032c3a53640bbfbd4"
+    }
+  },
+  "executed_at": "2026-08-10T02:25:34Z",
+  "executor": "codex-2026-08-10"
+}

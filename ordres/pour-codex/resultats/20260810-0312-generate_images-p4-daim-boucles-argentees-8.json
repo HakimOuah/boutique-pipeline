@@ -1,0 +1,85 @@
+{
+  "id": "claude-20260810-0312-p4-daim-boucles-argentees-8",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "bracelet-cuir-daim-degagement-rapide",
+        "sku": "200000049:16146268#Beige",
+        "slot": "variante",
+        "fichier": "bracelet-cuir-daim-degagement-rapide-v-beige.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-cuir-daim-degagement-rapide",
+        "sku": "200000049:1714056674#YellowBrown",
+        "slot": "variante",
+        "fichier": "bracelet-cuir-daim-degagement-rapide-v-yellowbrown.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-cuir-daim-degagement-rapide",
+        "sku": "200000049:200966040#Blue",
+        "slot": "variante",
+        "fichier": "bracelet-cuir-daim-degagement-rapide-v-blue.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-cuir-daim-degagement-rapide",
+        "sku": "200000049:201449058#Green",
+        "slot": "variante",
+        "fichier": "bracelet-cuir-daim-degagement-rapide-v-green.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-cuir-daim-degagement-rapide",
+        "sku": "200000049:3348727#Black",
+        "slot": "variante",
+        "fichier": "bracelet-cuir-daim-degagement-rapide-v-black.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "bracelet-cuir-daim-degagement-rapide",
+        "sku": "200000049:5057743953#Light Blue",
+        "slot": "variante",
+        "fichier": "bracelet-cuir-daim-degagement-rapide-v-light-blue.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-cuir-daim-degagement-rapide",
+        "sku": "200000049:5057835040#Gray",
+        "slot": "variante",
+        "fichier": "bracelet-cuir-daim-degagement-rapide-v-gray.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "bracelet-cuir-daim-degagement-rapide",
+        "sku": "200000049:990994103#Brown",
+        "slot": "variante",
+        "fichier": "bracelet-cuir-daim-degagement-rapide-v-brown.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/black-v1-six-trous.jpg",
+        "motif": "Première tentative écartée : six trous visibles au lieu des sept trous prouvés par la source SKU noire."
+      },
+      {
+        "fichier": "rejected/gray-v1-six-trous.jpg",
+        "motif": "Première tentative écartée : six trous visibles au lieu des sept trous prouvés par la source SKU grise."
+      }
+    ],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-08-10T02:37:50Z",
+  "executor": "codex-2026-08-10"
+}

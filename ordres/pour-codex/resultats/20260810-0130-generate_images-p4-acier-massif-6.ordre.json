@@ -1,0 +1,95 @@
+{
+  "id": "claude-20260810-0130-p4-acier-massif-6",
+  "type": "generate_images",
+  "created_at": "2026-08-10T01:30:03+02:00",
+  "requested_by": "claude-code",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "bracelet-acier-massif-12-22-mm",
+        "sku": "200000049:16146268#Rose-Gold",
+        "slot": "variante",
+        "fichier": "bracelet-acier-massif-12-22-mm-v-rose-gold.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-acier-massif-12-22-mm/S422ad12c29be47cdb607955379ef8450O.webp"
+      },
+      {
+        "handle": "bracelet-acier-massif-12-22-mm",
+        "sku": "200000049:193#Gold",
+        "slot": "variante",
+        "fichier": "bracelet-acier-massif-12-22-mm-v-gold.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-acier-massif-12-22-mm/S7868a8b95e2b4d66b2ff95ca2b3ac403j.webp"
+      },
+      {
+        "handle": "bracelet-acier-massif-12-22-mm",
+        "sku": "200000049:3348727#Silver-Gold",
+        "slot": "variante",
+        "fichier": "bracelet-acier-massif-12-22-mm-v-silver-gold.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-acier-massif-12-22-mm/S03384815a8944c4db0cf1ba2f7bc5d23g.webp"
+      },
+      {
+        "handle": "bracelet-acier-massif-12-22-mm",
+        "sku": "200000049:350850#Silver-RoseGold",
+        "slot": "variante",
+        "fichier": "bracelet-acier-massif-12-22-mm-v-silver-rosegold.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-acier-massif-12-22-mm/S2db9e66b645f484ebb0b1fa5b8c7d0e5W.webp"
+      },
+      {
+        "handle": "bracelet-acier-massif-12-22-mm",
+        "sku": "200000049:365462#Black",
+        "slot": "variante",
+        "fichier": "bracelet-acier-massif-12-22-mm-v-black.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-acier-massif-12-22-mm/S8dd5b35818044d6fb91d7399f1754a918.webp"
+      },
+      {
+        "handle": "bracelet-acier-massif-12-22-mm",
+        "sku": "200000049:76119733#Silver",
+        "slot": "variante",
+        "fichier": "bracelet-acier-massif-12-22-mm-v-silver.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-acier-massif-12-22-mm/S3b21c39457384f0c88262b7a5c971f10J.webp"
+      }
+    ],
+    "sources": [
+      "scratchpad/backup-medias-accessoires-lot4/bracelet-acier-massif-12-22-mm/S422ad12c29be47cdb607955379ef8450O.webp",
+      "scratchpad/backup-medias-accessoires-lot4/bracelet-acier-massif-12-22-mm/S7868a8b95e2b4d66b2ff95ca2b3ac403j.webp",
+      "scratchpad/backup-medias-accessoires-lot4/bracelet-acier-massif-12-22-mm/S03384815a8944c4db0cf1ba2f7bc5d23g.webp",
+      "scratchpad/backup-medias-accessoires-lot4/bracelet-acier-massif-12-22-mm/S2db9e66b645f484ebb0b1fa5b8c7d0e5W.webp",
+      "scratchpad/backup-medias-accessoires-lot4/bracelet-acier-massif-12-22-mm/S8dd5b35818044d6fb91d7399f1754a918.webp",
+      "scratchpad/backup-medias-accessoires-lot4/bracelet-acier-massif-12-22-mm/S3b21c39457384f0c88262b7a5c971f10J.webp"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+      "surcharges": [
+        "Visuel produit de variante carré 1:1 : le bracelet complet et ses embouts physiques inclus sont entièrement visibles, centrés sur le fond minéral neutre pierre vers craie, avec lumière douce haute-gauche et une seule ombre diffuse.",
+        "Les six rendus gardent le même cadrage, la même échelle, la même orientation et la même lumière ; seule la finition métallique exacte de la source propre à l'entrée varie."
+      ]
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "VÉRITÉ PRODUIT PAR ENTRÉE : utiliser exclusivement le chemin `source` de l'entrée manifeste correspondante. Les fichiers `.webp` contiennent des images SKU officielles 800 × 800 ; ne jamais emprunter une finition à une autre entrée.",
+        "Produit exact : bracelet métallique massif à cinq rangées, avec maillons, fermoir déployant vierge et embouts physiques conformes à la source. Reproduire exactement le nombre relatif de rangées, leur géométrie, les surfaces polies/brossées visibles et la forme du fermoir.",
+        "Conserver strictement la finition de chaque source : Rose-Gold, Gold, Silver-Gold, Silver-RoseGold, Black ou Silver. Aucun recoloriage approximatif, aucune permutation et aucune finition bicolore inventée.",
+        "Le cartouche circulaire `gift`, les outils et barrettes montrés à l'intérieur de ce cartouche, le filigrane photographique fournisseur et le support acrylique sont des éléments de la photographie, pas des marquages physiques du bracelet. Ils doivent disparaître uniquement par une nouvelle composition depuis la référence ; ne jamais les gommer par inpainting et ne jamais altérer le bracelet.",
+        "Aucun logo, nom, mot, lettre, chiffre, filigrane ou verbatim sur le bracelet, le fermoir, les embouts ou le fond final. Le fermoir doit rester vierge comme contrôlé dans la source.",
+        "Aucune montre, aucun boîtier, cadran, poignet, main, personne, vêtement, bijou, outil, emballage, vignette ou cartouche. Le bracelet et ses embouts physiques inclus sont seuls.",
+        "La photo fournisseur est une référence produit, jamais un livrable brut : nouveau fond, nouvelle lumière et nouvelle ombre maison obligatoires, sans modification de la géométrie, de la finition ou du paquet physique.",
+        "Sortie 2048 × 2048 px, JPEG sRGB qualité environ 90, viser 400-900 Ko et respecter exactement le nom `fichier` du manifeste."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Contrôle source↔rendu entrée par entrée : cinq rangées, géométrie de maillons, fermoir, embouts et finition métallique exacte, y compris les répartitions bicolores.",
+        "Zoom intégral du bracelet, du fermoir et des embouts : fermoir vierge ; aucun logo, texte, filigrane ou verbatim, même flou ou partiel.",
+        "Contrôle bloquant : aucun cartouche `gift`, outil, barrette de cadeau, support acrylique ni filigrane photographique dans la composition finale ; aucune trace de gommage ou d'inpainting.",
+        "Planche des six rendus côte à côte, au moins 740 px par vignette, pour vérifier cadrage homogène et fidélité stricte des six finitions.",
+        "Contrôle fichier : nom exact du manifeste, 2048 × 2048, 1:1 strict, JPEG sRGB et poids conforme."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/bracelet-acier-massif-12-22-mm",
+      "manifeste": "manifeste-p4-acier-massif-6.json"
+    }
+  },
+  "notes": "Audit P4 corrigé : exactement 6 médias PRODUISIBLES pour cette fiche. Les annotations fournisseur sont hors produit et ne doivent pas être reproduites ; aucune image BLOQUÉE ou ABANDON n'entre dans cet ordre. Exécution, wrapper et rattachement boutique hors mission."
+}

@@ -1,0 +1,52 @@
+{
+  "id": "claude-20260810-0130-p4-rouleau-noir-wb13",
+  "type": "generate_images",
+  "created_at": "2026-08-10T01:30:03+02:00",
+  "requested_by": "claude-code",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "rouleau-de-voyage-noir-cuir",
+        "sku": "14:350686#WB13",
+        "slot": "variante",
+        "fichier": "rouleau-de-voyage-noir-cuir-v-wb13.jpg",
+        "source": "boutique-seiko-mod/preuves-audit-p4-130-2026-08-10/sources-exactes/1005008493748701/Sd10223a0487b432dad14fb20395e021aj.jpg"
+      }
+    ],
+    "sources": [
+      "boutique-seiko-mod/preuves-audit-p4-130-2026-08-10/sources-exactes/1005008493748701/Sd10223a0487b432dad14fb20395e021aj.jpg"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+      "surcharges": [
+        "Visuel produit de variante carré 1:1 : un seul rouleau de voyage noir WB13 présenté ouvert en trois-quarts pour montrer clairement sa capacité de trois montres, entièrement visible sur fond minéral neutre pierre vers craie, lumière douce haute-gauche et une seule ombre diffuse."
+      ]
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "VÉRITÉ PRODUIT : utiliser exclusivement la source locale exacte de l'entrée, téléchargée depuis l'URL SKU retournée par l'API officielle pour l'article 1005008493748701, fragment `14:350686#WB13`. Le fichier porte l'extension `.jpg` mais contient une image WebP 800 × 800 ; le lire tel quel.",
+        "Produit exact : rouleau de voyage cylindrique noir à rabat, coutures ton sur ton, boutons-pression et intérieur doux noir avec un cylindre amovible séparé par deux bagues, formant exactement trois emplacements. Conserver la forme, la texture, les coutures, le rabat et les attaches visibles.",
+        "Présenter un seul exemplaire ouvert ; exactement trois emplacements vides doivent être démontrés. Ne pas ajouter la seconde vue fermée de la photo source, ni dupliquer le rouleau.",
+        "Aucun logo, nom, mot, lettre, chiffre, filigrane, étiquette ou verbatim sur le rouleau, les boutons, l'intérieur ou le fond final.",
+        "Aucune montre, bracelet, cadran, bijou, outil, emballage, main, personne ou vêtement. Les trois emplacements restent vides.",
+        "La photo fournisseur est une référence produit, jamais un livrable brut : nouvelle composition maison obligatoire sans modifier le rouleau.",
+        "Sortie 2048 × 2048 px, JPEG sRGB qualité environ 90, viser 400-900 Ko et respecter exactement le nom `fichier` du manifeste."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Comptage manuel bloquant : exactement trois emplacements vides, deux bagues séparatrices cohérentes et un seul rouleau ouvert dans l'image.",
+        "Contrôle source↔rendu : silhouette cylindrique, rabat, coutures noires, boutons-pression, texture extérieure et intérieur doux fidèles à WB13.",
+        "Zoom intégral : aucun logo, texte, filigrane, étiquette ou verbatim, même partiel ; aucune montre ni bijou.",
+        "Contrôle fichier : nom exact du manifeste, 2048 × 2048, 1:1 strict, JPEG sRGB et poids conforme."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/rouleau-de-voyage-noir-cuir",
+      "manifeste": "manifeste-p4-rouleau-noir-wb13.json"
+    }
+  },
+  "notes": "Audit P4 corrigé : exactement 1 média PRODUISIBLE pour cette fiche, WB13 trois montres. Source exacte conservée localement depuis l'URL API officielle ; aucun média BLOQUÉ ou ABANDON n'entre dans cet ordre. Exécution, wrapper et rattachement boutique hors mission."
+}

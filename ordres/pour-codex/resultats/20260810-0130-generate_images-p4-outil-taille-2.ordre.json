@@ -1,0 +1,63 @@
+{
+  "id": "claude-20260810-0130-p4-outil-taille-2",
+  "type": "generate_images",
+  "created_at": "2026-08-10T01:30:03+02:00",
+  "requested_by": "claude-code",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "outil-de-mise-a-taille-de-bracelet",
+        "sku": "14:193",
+        "slot": "variante",
+        "fichier": "outil-de-mise-a-taille-de-bracelet-v-black.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/outil-de-mise-a-taille-de-bracelet/Se70cce7f352e439493d719fc2d2b24deI.webp"
+      },
+      {
+        "handle": "outil-de-mise-a-taille-de-bracelet",
+        "sku": "14:350853",
+        "slot": "variante",
+        "fichier": "outil-de-mise-a-taille-de-bracelet-v-silver.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/outil-de-mise-a-taille-de-bracelet/S85dd2bba33264c1fb4816474e7fb8553s.webp"
+      }
+    ],
+    "sources": [
+      "scratchpad/backup-medias-accessoires-lot4/outil-de-mise-a-taille-de-bracelet/Se70cce7f352e439493d719fc2d2b24deI.webp",
+      "scratchpad/backup-medias-accessoires-lot4/outil-de-mise-a-taille-de-bracelet/S85dd2bba33264c1fb4816474e7fb8553s.webp"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+      "surcharges": [
+        "Visuel produit de variante carré 1:1 : un seul outil de mise à taille présenté en trois-quarts, entièrement visible et centré sur fond minéral neutre pierre vers craie, lumière douce haute-gauche et une seule ombre diffuse.",
+        "Les deux rendus gardent exactement le même cadrage, la même échelle, la même orientation et la même lumière ; seule la finition exacte Black ou Silver de la source dédiée varie."
+      ]
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "VÉRITÉ PRODUIT PAR ENTRÉE : utiliser exclusivement le chemin `source` de l'entrée manifeste correspondante ; ne jamais recolorer une source ni emprunter une pièce à l'autre variante.",
+        "Produit exact : outil compact d'extraction de goupille avec socle rectangulaire, large molette filetée, vis centrale, pointe métallique fine, plateau circulaire et berceau en U à deux appuis. Conserver exactement cette géométrie fonctionnelle et les proportions de la source.",
+        "Conserver strictement la finition Black ou Silver du corps, de la molette et du mécanisme selon la source ; la pointe métallique reste cohérente. Aucun mélange bicolore inventé.",
+        "Un seul outil complet par image, sans bracelet démonstratif, sans goupille séparée et sans pièce supplémentaire. La pointe doit être droite, centrée et matériellement plausible.",
+        "Aucun logo, nom, mot, lettre, chiffre, filigrane, gravure, étiquette ou verbatim sur l'outil ou le fond final.",
+        "Aucune montre, bracelet, boîtier, bijou, emballage, main, personne, vêtement ou décor narratif.",
+        "La photo fournisseur est une référence produit, jamais un livrable brut : nouvelle composition maison obligatoire sans modifier l'outil.",
+        "Sortie 2048 × 2048 px, JPEG sRGB qualité environ 90, viser 400-900 Ko et respecter exactement le nom `fichier` du manifeste."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Contrôle source↔rendu : socle, molette, filetage, vis, pointe, plateau circulaire, berceau en U et proportions fidèles ; finition Black ou Silver exacte.",
+        "Contrôle fonctionnel visuel : pointe droite et alignée avec le berceau, aucun filetage fondu, aucune pièce doublée, manquante ou suspendue.",
+        "Zoom intégral : aucun logo, texte, filigrane, gravure ou verbatim, même partiel ; aucun bracelet ou élément de démonstration.",
+        "Planche des deux rendus côte à côte, au moins 740 px par vignette, pour vérifier que seule la finition varie et que cadrage, échelle, orientation, fond, lumière et ombre restent identiques.",
+        "Contrôle fichier : nom exact du manifeste, 2048 × 2048, 1:1 strict, JPEG sRGB et poids conforme."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/outil-de-mise-a-taille-de-bracelet",
+      "manifeste": "manifeste-p4-outil-taille-2.json"
+    }
+  },
+  "notes": "Audit P4 corrigé : exactement 2 médias PRODUISIBLES pour cette fiche. Aucun média BLOQUÉ ou ABANDON n'entre dans cet ordre. Exécution, wrapper et rattachement boutique hors mission."
+}

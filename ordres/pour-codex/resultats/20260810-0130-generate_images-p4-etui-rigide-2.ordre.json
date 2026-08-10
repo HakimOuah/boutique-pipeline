@@ -1,0 +1,63 @@
+{
+  "id": "claude-20260810-0130-p4-etui-rigide-2",
+  "type": "generate_images",
+  "created_at": "2026-08-10T01:30:03+02:00",
+  "requested_by": "claude-code",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "etui-de-voyage-rigide",
+        "sku": "14:173#Black Purple 6 Slot",
+        "slot": "variante",
+        "fichier": "etui-de-voyage-rigide-v-black-purple-6-slot.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/etui-de-voyage-rigide/S75ab7bf091104ff989386ad837182825o.webp"
+      },
+      {
+        "handle": "etui-de-voyage-rigide",
+        "sku": "14:200006153#Black Green 6 Slot",
+        "slot": "variante",
+        "fichier": "etui-de-voyage-rigide-v-black-green-6-slot.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/etui-de-voyage-rigide/Sa900b00eddfe4505a0fb2606fa231be5a.webp"
+      }
+    ],
+    "sources": [
+      "scratchpad/backup-medias-accessoires-lot4/etui-de-voyage-rigide/S75ab7bf091104ff989386ad837182825o.webp",
+      "scratchpad/backup-medias-accessoires-lot4/etui-de-voyage-rigide/Sa900b00eddfe4505a0fb2606fa231be5a.webp"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+      "surcharges": [
+        "Visuel produit de variante carré 1:1 : étui rigide ouvert, vide et seul, cadré en trois-quarts pour montrer clairement ses six emplacements, sur fond minéral neutre pierre vers craie, lumière douce haute-gauche et une seule ombre diffuse.",
+        "Les deux rendus gardent exactement le même cadrage, la même ouverture, la même échelle et la même lumière ; seule la teinte intérieure exacte Purple ou Green de la source dédiée varie, l'extérieur restant noir."
+      ]
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "VÉRITÉ PRODUIT PAR ENTRÉE : utiliser exclusivement le chemin `source` de l'entrée manifeste correspondante ; ne jamais emprunter la teinte intérieure d'une autre variante.",
+        "Produit exact : étui de voyage rigide noir ouvrant à plat, avec intérieur doux coloré, rabat à boutons-pression et exactement six emplacements/coussins répartis en deux rangées de trois. Conserver la géométrie, les séparations, les coussins et les attaches visibles.",
+        "Conserver strictement l'extérieur noir et l'intérieur Purple pour `Black Purple 6 Slot`, puis l'extérieur noir et l'intérieur Green pour `Black Green 6 Slot`. Aucun autre coloris ni matière inventé.",
+        "EXACTEMENT six emplacements et six coussins, tous vides et entièrement visibles. Aucune montre de décor, aucun emplacement manquant, doublé ou fusionné.",
+        "Aucun logo, nom, mot, lettre, chiffre, filigrane, étiquette ou verbatim sur l'étui, les coussins, les boutons ou le fond final.",
+        "Aucune montre, bracelet, bijou, outil, emballage, main, personne ou vêtement. Un seul étui ouvert par image.",
+        "La photo fournisseur est une référence produit, jamais un livrable brut : nouvelle composition maison obligatoire sans modifier le produit.",
+        "Sortie 2048 × 2048 px, JPEG sRGB qualité environ 90, viser 400-900 Ko et respecter exactement le nom `fichier` du manifeste."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Comptage manuel bloquant : exactement six emplacements/coussins en deux rangées de trois, tous vides et complets.",
+        "Contrôle source↔rendu : extérieur noir, intérieur Purple ou Green exact, forme rigide, rabat, boutons-pression, séparations et coussins fidèles.",
+        "Zoom intégral de l'étui : aucun logo, texte, filigrane ou verbatim, même partiel ; aucune montre ni bijou.",
+        "Planche des deux rendus côte à côte, au moins 740 px par vignette, pour vérifier que seule la couleur intérieure varie et que cadrage, ouverture, fond, lumière et ombre restent identiques.",
+        "Contrôle fichier : nom exact du manifeste, 2048 × 2048, 1:1 strict, JPEG sRGB et poids conforme."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/etui-de-voyage-rigide",
+      "manifeste": "manifeste-p4-etui-rigide-2.json"
+    }
+  },
+  "notes": "Audit P4 corrigé : exactement 2 médias PRODUISIBLES, les seules variantes six places montrées vides et sans marque. Aucun média BLOQUÉ ou ABANDON n'entre dans cet ordre. Exécution, wrapper et rattachement boutique hors mission."
+}

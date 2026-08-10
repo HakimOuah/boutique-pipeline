@@ -1,0 +1,37 @@
+{
+  "id": "claude-20260810-0130-p4-outil-taille-2",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "outil-de-mise-a-taille-de-bracelet",
+        "sku": "14:193",
+        "slot": "variante",
+        "fichier": "outil-de-mise-a-taille-de-bracelet-v-black.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "outil-de-mise-a-taille-de-bracelet",
+        "sku": "14:350853",
+        "slot": "variante",
+        "fichier": "outil-de-mise-a-taille-de-bracelet-v-silver.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/silver-v1-cadrage-echelle-non-homogenes.jpg",
+        "motif": "Première tentative Silver écartée : cadrage et échelle non homogènes avec la variante Black."
+      },
+      {
+        "fichier": "rejected/silver-v2-marques-circulaires-sur-socle.jpg",
+        "motif": "Deuxième tentative Silver écartée : deux marques circulaires visibles sur le socle, incompatibles avec l'interdiction de gravure et de verbatim."
+      }
+    ],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-08-10T01:53:09Z",
+  "executor": "codex-2026-08-10"
+}

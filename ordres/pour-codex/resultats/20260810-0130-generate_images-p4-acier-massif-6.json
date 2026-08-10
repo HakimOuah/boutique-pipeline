@@ -1,0 +1,69 @@
+{
+  "id": "claude-20260810-0130-p4-acier-massif-6",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "bracelet-acier-massif-12-22-mm",
+        "sku": "200000049:16146268#Rose-Gold",
+        "slot": "variante",
+        "fichier": "bracelet-acier-massif-12-22-mm-v-rose-gold.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-acier-massif-12-22-mm",
+        "sku": "200000049:193#Gold",
+        "slot": "variante",
+        "fichier": "bracelet-acier-massif-12-22-mm-v-gold.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-acier-massif-12-22-mm",
+        "sku": "200000049:3348727#Silver-Gold",
+        "slot": "variante",
+        "fichier": "bracelet-acier-massif-12-22-mm-v-silver-gold.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-acier-massif-12-22-mm",
+        "sku": "200000049:350850#Silver-RoseGold",
+        "slot": "variante",
+        "fichier": "bracelet-acier-massif-12-22-mm-v-silver-rosegold.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-acier-massif-12-22-mm",
+        "sku": "200000049:365462#Black",
+        "slot": "variante",
+        "fichier": "bracelet-acier-massif-12-22-mm-v-black.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "bracelet-acier-massif-12-22-mm",
+        "sku": "200000049:76119733#Silver",
+        "slot": "variante",
+        "fichier": "bracelet-acier-massif-12-22-mm-v-silver.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/black-v1-support-acrylique-translucide.jpg",
+        "motif": "Première tentative écartée : forme translucide assimilable au support acrylique fournisseur encore visible dans la courbe du bracelet."
+      },
+      {
+        "fichier": "rejected/silver-v1-support-acrylique-visible.jpg",
+        "motif": "Première tentative écartée : support acrylique transparent encore visible à l'intérieur de la courbe du bracelet."
+      }
+    ],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-08-10T01:06:54Z",
+  "executor": "codex-2026-08-10"
+}

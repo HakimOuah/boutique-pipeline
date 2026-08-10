@@ -1,0 +1,88 @@
+{
+  "id": "claude-20260810-0130-p4-coussins-10-5",
+  "type": "generate_images",
+  "created_at": "2026-08-10T01:30:03+02:00",
+  "requested_by": "claude-code",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "coussins-de-presentation-lot-de-10",
+        "sku": "14:10",
+        "slot": "variante",
+        "fichier": "coussins-de-presentation-lot-de-10-v-red.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/coussins-de-presentation-lot-de-10/Sdb07d664a23e4f2d88b036efe39ad842i.webp"
+      },
+      {
+        "handle": "coussins-de-presentation-lot-de-10",
+        "sku": "14:173",
+        "slot": "variante",
+        "fichier": "coussins-de-presentation-lot-de-10-v-blue.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/coussins-de-presentation-lot-de-10/Se086af4e4b3e4c0ab3711312fb4806d0T.webp"
+      },
+      {
+        "handle": "coussins-de-presentation-lot-de-10",
+        "sku": "14:193",
+        "slot": "variante",
+        "fichier": "coussins-de-presentation-lot-de-10-v-black.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/coussins-de-presentation-lot-de-10/S8a81e375c4b247348f280a721e90f5bbY.webp"
+      },
+      {
+        "handle": "coussins-de-presentation-lot-de-10",
+        "sku": "14:29",
+        "slot": "variante",
+        "fichier": "coussins-de-presentation-lot-de-10-v-white.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/coussins-de-presentation-lot-de-10/S9a988198dc054c98815415b926d61e99D.webp"
+      },
+      {
+        "handle": "coussins-de-presentation-lot-de-10",
+        "sku": "14:365458",
+        "slot": "variante",
+        "fichier": "coussins-de-presentation-lot-de-10-v-brown.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/coussins-de-presentation-lot-de-10/S0dab8b645ba1460da1471c2c5cb3f7a3x.webp"
+      }
+    ],
+    "sources": [
+      "scratchpad/backup-medias-accessoires-lot4/coussins-de-presentation-lot-de-10/Sdb07d664a23e4f2d88b036efe39ad842i.webp",
+      "scratchpad/backup-medias-accessoires-lot4/coussins-de-presentation-lot-de-10/Se086af4e4b3e4c0ab3711312fb4806d0T.webp",
+      "scratchpad/backup-medias-accessoires-lot4/coussins-de-presentation-lot-de-10/S8a81e375c4b247348f280a721e90f5bbY.webp",
+      "scratchpad/backup-medias-accessoires-lot4/coussins-de-presentation-lot-de-10/S9a988198dc054c98815415b926d61e99D.webp",
+      "scratchpad/backup-medias-accessoires-lot4/coussins-de-presentation-lot-de-10/S0dab8b645ba1460da1471c2c5cb3f7a3x.webp"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+      "surcharges": [
+        "Visuel produit de variante carré 1:1 : exactement dix coussins de présentation seuls, tous entièrement visibles dans une composition régulière et premium sur fond minéral neutre pierre vers craie, lumière douce haute-gauche et ombres diffuses cohérentes.",
+        "Les cinq rendus gardent exactement le même arrangement, le même cadrage, la même échelle et la même lumière ; seule la teinte exacte des dix coussins issue de la source dédiée varie."
+      ]
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "VÉRITÉ PRODUIT PAR ENTRÉE : utiliser exclusivement le chemin `source` de l'entrée manifeste correspondante. Chaque image SKU officielle 800 × 800 montre exactement le lot de dix dans sa teinte ; ne jamais déduire une couleur d'une autre entrée.",
+        "Produit exact : lot de dix petits coussins de présentation carrés, souples, légèrement bombés, avec creux doux sur les côtés et texture veloutée conforme à la source. Conserver leur forme, leur volume et leur matière visuelle.",
+        "EXACTEMENT DIX coussins par rendu, ni neuf ni onze : un coussin isolé en haut puis trois rangées de trois est autorisé et facilite le comptage. Chaque coussin doit être distinct, complet et non fusionné.",
+        "Les dix coussins d'une image ont tous la même teinte exacte : Red, Blue, black, WHITE ou Brown selon la source. Aucun mélange de couleurs, aucun grisage du blanc et aucune saturation approximative.",
+        "Aucun logo, nom, mot, lettre, chiffre, `PCS`, quantité, filigrane, étiquette ou verbatim sur les coussins ou le fond final.",
+        "Aucune montre, aucun bracelet, bijou, support, boîte, main, personne, vêtement ou emballage. Les dix coussins seuls constituent le paquet.",
+        "La photo fournisseur est une référence produit, jamais un livrable brut : nouvelle composition maison obligatoire sans modifier la forme, la matière, la teinte ni la quantité.",
+        "Sortie 2048 × 2048 px, JPEG sRGB qualité environ 90, viser 400-900 Ko et respecter exactement le nom `fichier` du manifeste."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Comptage manuel bloquant sur chaque rendu : exactement 10 coussins distincts, tous complets, sans fusion, duplication partielle ni onzième élément.",
+        "Contrôle source↔rendu entrée par entrée : teinte exacte, forme carrée bombée, creux latéraux et texture veloutée cohérente.",
+        "Zoom intégral : aucun logo, texte, `PCS`, quantité, filigrane ou verbatim, même flou ou partiel ; aucune montre, bracelet ou bijou.",
+        "Planche des cinq rendus côte à côte, au moins 740 px par vignette, pour vérifier que seul le coloris varie et que disposition, cadrage, échelle, fond, lumière et ombres restent homogènes.",
+        "Après trois régénérations infructueuses sur le comptage, rejeter proprement l'entrée avec motif au lieu de livrer une quantité fausse.",
+        "Contrôle fichier : nom exact du manifeste, 2048 × 2048, 1:1 strict, JPEG sRGB et poids conforme."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/coussins-de-presentation-lot-de-10",
+      "manifeste": "manifeste-p4-coussins-10-5.json"
+    }
+  },
+  "notes": "Audit P4 corrigé : exactement 5 médias PRODUISIBLES pour cette fiche, chacun prouvant un lot de 10 sans texte ni PCS. Aucun média BLOQUÉ ou ABANDON n'entre dans cet ordre. Exécution, wrapper et rattachement boutique hors mission."
+}

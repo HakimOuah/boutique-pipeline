@@ -1,0 +1,89 @@
+{
+  "id": "claude-20260810-0130-p4-milanais-8",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "bracelet-milanais-maille-italienne",
+        "sku": "200000049:193#0.6mm-black",
+        "slot": "variante",
+        "fichier": "bracelet-milanais-maille-italienne-v-0-6mm-black.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-milanais-maille-italienne",
+        "sku": "200000049:200000080#1.0mm-gold",
+        "slot": "variante",
+        "fichier": "bracelet-milanais-maille-italienne-v-1-0mm-gold.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "bracelet-milanais-maille-italienne",
+        "sku": "200000049:200013899#1.0mm-silver",
+        "slot": "variante",
+        "fichier": "bracelet-milanais-maille-italienne-v-1-0mm-silver.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "bracelet-milanais-maille-italienne",
+        "sku": "200000049:29#1.0mm-rose gold",
+        "slot": "variante",
+        "fichier": "bracelet-milanais-maille-italienne-v-1-0mm-rose-gold.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "bracelet-milanais-maille-italienne",
+        "sku": "200000049:3348727#0.6mm-rose gold",
+        "slot": "variante",
+        "fichier": "bracelet-milanais-maille-italienne-v-0-6mm-rose-gold.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-milanais-maille-italienne",
+        "sku": "200000049:350850#0.6mm-gold",
+        "slot": "variante",
+        "fichier": "bracelet-milanais-maille-italienne-v-0-6mm-gold.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-milanais-maille-italienne",
+        "sku": "200000049:350853#0.6mm-silver",
+        "slot": "variante",
+        "fichier": "bracelet-milanais-maille-italienne-v-0-6mm-silver.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-milanais-maille-italienne",
+        "sku": "200000049:366#1.0mm-black",
+        "slot": "variante",
+        "fichier": "bracelet-milanais-maille-italienne-v-1-0mm-black.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/1-0mm-gold-v1-maille-trop-fine.jpg",
+        "motif": "Première tentative écartée : maille 1,0 mm devenue trop fine et insuffisamment distincte de la maille 0,6 mm."
+      },
+      {
+        "fichier": "rejected/1-0mm-silver-v1-maille-trop-fine.jpg",
+        "motif": "Première tentative écartée : maille 1,0 mm devenue trop fine et insuffisamment distincte de la maille 0,6 mm."
+      },
+      {
+        "fichier": "rejected/1-0mm-rose-gold-v1-maille-trop-fine.jpg",
+        "motif": "Première tentative écartée : maille 1,0 mm devenue trop fine et insuffisamment distincte de la maille 0,6 mm."
+      }
+    ],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-08-10T01:42:50Z",
+  "executor": "codex-2026-08-10"
+}

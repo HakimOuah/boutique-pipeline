@@ -1,0 +1,105 @@
+{
+  "id": "claude-20260810-0312-p4-daim-boucles-noires-8",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "bracelet-cuir-daim-degagement-rapide",
+        "sku": "200000049:100013775#Black-Black",
+        "slot": "variante",
+        "fichier": "bracelet-cuir-daim-degagement-rapide-v-black-black.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "bracelet-cuir-daim-degagement-rapide",
+        "sku": "200000049:1386586452#Brown-Black",
+        "slot": "variante",
+        "fichier": "bracelet-cuir-daim-degagement-rapide-v-brown-black.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-cuir-daim-degagement-rapide",
+        "sku": "200000049:201449057#Blue-Black",
+        "slot": "variante",
+        "fichier": "bracelet-cuir-daim-degagement-rapide-v-blue-black.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-cuir-daim-degagement-rapide",
+        "sku": "200000049:2792782423#YellowBrown-Black",
+        "slot": "variante",
+        "fichier": "bracelet-cuir-daim-degagement-rapide-v-yellowbrown-black.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 3
+      },
+      {
+        "handle": "bracelet-cuir-daim-degagement-rapide",
+        "sku": "200000049:350686#Gray-Black",
+        "slot": "variante",
+        "fichier": "bracelet-cuir-daim-degagement-rapide-v-gray-black.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "bracelet-cuir-daim-degagement-rapide",
+        "sku": "200000049:350850#Beige-Black",
+        "slot": "variante",
+        "fichier": "bracelet-cuir-daim-degagement-rapide-v-beige-black.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      },
+      {
+        "handle": "bracelet-cuir-daim-degagement-rapide",
+        "sku": "200000049:5057817297#Light Blue-Black",
+        "slot": "variante",
+        "fichier": "bracelet-cuir-daim-degagement-rapide-v-light-blue-black.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-cuir-daim-degagement-rapide",
+        "sku": "200000049:506942013#Green-Black",
+        "slot": "variante",
+        "fichier": "bracelet-cuir-daim-degagement-rapide-v-green-black.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/black-black-v1-pointe-trop-effilee.jpg",
+        "motif": "Première tentative écartée : extrémité du brin long trop effilée par rapport à la forme arrondie prouvée par la source SKU noire."
+      },
+      {
+        "fichier": "rejected/yellowbrown-black-v1-pointe-trop-effilee.jpg",
+        "motif": "Première tentative écartée : extrémité du brin long trop effilée par rapport à la forme arrondie prouvée par la source SKU YellowBrown."
+      },
+      {
+        "fichier": "rejected/yellowbrown-black-v2-six-trous.jpg",
+        "motif": "Deuxième tentative écartée : six trous visibles au lieu des sept trous exigés."
+      },
+      {
+        "fichier": "rejected/yellowbrown-black-v3-huit-trous.jpg",
+        "motif": "Troisième tentative écartée : huit trous visibles au lieu des sept trous exigés."
+      },
+      {
+        "fichier": "rejected/gray-black-v1-pointe-trop-effilee.jpg",
+        "motif": "Première tentative écartée : extrémité du brin long trop effilée par rapport à la forme arrondie prouvée par la source SKU grise."
+      },
+      {
+        "fichier": "rejected/beige-black-v1-pointe-trop-effilee.jpg",
+        "motif": "Première tentative écartée : extrémité du brin long trop effilée par rapport à la forme arrondie prouvée par la source SKU beige."
+      },
+      {
+        "fichier": "rejected/beige-black-v2-pointe-trop-effilee.jpg",
+        "motif": "Deuxième tentative écartée : extrémité du brin long encore trop effilée par rapport à la forme arrondie prouvée par la source SKU beige."
+      }
+    ],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-08-10T03:27:57Z",
+  "executor": "codex-2026-08-10"
+}

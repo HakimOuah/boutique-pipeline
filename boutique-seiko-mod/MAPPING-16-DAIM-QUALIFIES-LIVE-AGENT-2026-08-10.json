@@ -1,0 +1,639 @@
+{
+  "generated_at": "2026-08-10T01:46:02.898Z",
+  "purpose": "Mapping opérationnel autonome des 16 médias P4 Bracelet cuir daim qualifiés vers les variantes Shopify live, sans mutation.",
+  "sources": {
+    "orders": [
+      "ordres/pour-codex/inbox/20260810-0312-generate_images-p4-daim-boucles-noires-8.json",
+      "ordres/pour-codex/inbox/20260810-0312-generate_images-p4-daim-boucles-argentees-8.json"
+    ],
+    "sku_snapshot": "boutique-seiko-mod/backup-sku-2026-08-08/table-correspondance.jsonl",
+    "shopify_live_query": {
+      "product_gid": "gid://shopify/Product/10980388897106",
+      "artifact_id": "daim-16-variant-media-preflight",
+      "validation_status": "VALID",
+      "operation": "DaimVariantMediaPreflight",
+      "read_only": true
+    },
+    "match_rule": "Égalité stricte sur handle + premier fragment de sku_actuel avant le premier point-virgule ; confirmation live par product GID + variant GID + titre."
+  },
+  "boundary": {
+    "shopify_accessed_read_only": true,
+    "shopify_mutated": false,
+    "dsers_accessed": false,
+    "upload_or_media_attachment_executed": false,
+    "warning": "Les SKU live ont été normalisés en NOIR-DAI-* et ne remplacent pas le fragment fournisseur. Refaire un preflight immédiatement avant tout futur rattachement."
+  },
+  "product_live": {
+    "id": "gid://shopify/Product/10980388897106",
+    "handle": "bracelet-cuir-daim-degagement-rapide",
+    "title": "Bracelet cuir daim — dégagement rapide",
+    "status": "ACTIVE",
+    "featured_media": {
+      "id": "gid://shopify/MediaImage/59691949293906",
+      "alt": "Bracelet cuir daim — daim brun — Maison Noirmont",
+      "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/noirmont-cuir-daim-1.jpg?v=1785021583",
+      "width": 2048,
+      "height": 2048,
+      "preserve": true
+    },
+    "existing_product_media": [
+      {
+        "id": "gid://shopify/MediaImage/59691949293906",
+        "alt": "Bracelet cuir daim — daim brun — Maison Noirmont",
+        "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/noirmont-cuir-daim-1.jpg?v=1785021583",
+        "width": 2048,
+        "height": 2048,
+        "featured": true,
+        "preserve": true
+      },
+      {
+        "id": "gid://shopify/MediaImage/59694061027666",
+        "alt": "Bracelet cuir daim — dégagement rapide — en situation — Maison Noirmont",
+        "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/bracelet-cuir-daim-degagement-rapide-02-situation.jpg?v=1785044194",
+        "width": 2048,
+        "height": 2048,
+        "featured": false,
+        "preserve": true
+      },
+      {
+        "id": "gid://shopify/MediaImage/59694061060434",
+        "alt": "Bracelet cuir daim — dégagement rapide — macro — Maison Noirmont",
+        "url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/bracelet-cuir-daim-degagement-rapide-03-macro.jpg?v=1785044194",
+        "width": 2048,
+        "height": 2048,
+        "featured": false,
+        "preserve": true
+      }
+    ],
+    "future_rule": "Ajouter tout nouveau média après les trois médias existants ; associer ensuite aux quatre variant_gids du mapping ; ne détacher ni supprimer aucun média actuel."
+  },
+  "reconciliation": {
+    "order_count": 2,
+    "expected_media_count": 16,
+    "mapped_media_count": 16,
+    "unique_media_key_count": 16,
+    "missing_media_count": 0,
+    "unexpected_media_count": 0,
+    "duplicate_media_key_count": 0,
+    "total_variant_gid_targets": 64,
+    "unique_variant_gid_targets": 64,
+    "expected_variant_gid_targets": 64,
+    "multi_variant_media_count": 16,
+    "single_variant_media_count": 0,
+    "live_product_variant_count": 64,
+    "missing_live_variant_gid_count": 0,
+    "title_drift_count": 0,
+    "live_sku_normalized_count": 64,
+    "existing_variant_media_association_count": 0,
+    "live_product_media_count": 3,
+    "pagination_complete": true,
+    "status": "SANS ÉCART"
+  },
+  "mappings": [
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0312-generate_images-p4-daim-boucles-noires-8.json",
+      "order_id": "claude-20260810-0312-p4-daim-boucles-noires-8",
+      "output_manifest": "manifeste-p4-daim-boucles-noires-8.json",
+      "image_file": "bracelet-cuir-daim-degagement-rapide-v-black-black.jpg",
+      "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-cuir-daim-degagement-rapide/S98c21e2e334c43a38e0d4c5f1d5303d4a.webp",
+      "handle": "bracelet-cuir-daim-degagement-rapide",
+      "product_gid": "gid://shopify/Product/10980388897106",
+      "sku_fragment": "200000049:100013775#Black-Black",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs Shopify partagent le même premier fragment fournisseur de coloris : 22mm, 20mm, 19mm, 18mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098054840658",
+        "gid://shopify/ProductVariant/54098054873426",
+        "gid://shopify/ProductVariant/54098054906194",
+        "gid://shopify/ProductVariant/54098054938962"
+      ],
+      "live_preflight": {
+        "checked": true,
+        "all_variant_gids_present": true,
+        "titles_match_snapshot": true,
+        "live_skus": [
+          "NOIR-DAI-017",
+          "NOIR-DAI-018",
+          "NOIR-DAI-019",
+          "NOIR-DAI-020"
+        ],
+        "existing_variant_media_ids": [],
+        "existing_variant_media_association_count": 0,
+        "safe_future_mode": "APPEND_MEDIA_THEN_ATTACH_TO_LISTED_VARIANTS_ONLY; NO_DETACH; NO_DELETE; PRESERVE_FEATURED_MEDIA"
+      }
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0312-generate_images-p4-daim-boucles-noires-8.json",
+      "order_id": "claude-20260810-0312-p4-daim-boucles-noires-8",
+      "output_manifest": "manifeste-p4-daim-boucles-noires-8.json",
+      "image_file": "bracelet-cuir-daim-degagement-rapide-v-brown-black.jpg",
+      "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-cuir-daim-degagement-rapide/Sa88679c6c5b74266b6809d3346715228E.webp",
+      "handle": "bracelet-cuir-daim-degagement-rapide",
+      "product_gid": "gid://shopify/Product/10980388897106",
+      "sku_fragment": "200000049:1386586452#Brown-Black",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs Shopify partagent le même premier fragment fournisseur de coloris : 22mm, 20mm, 19mm, 18mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098055496018",
+        "gid://shopify/ProductVariant/54098055528786",
+        "gid://shopify/ProductVariant/54098055561554",
+        "gid://shopify/ProductVariant/54098055594322"
+      ],
+      "live_preflight": {
+        "checked": true,
+        "all_variant_gids_present": true,
+        "titles_match_snapshot": true,
+        "live_skus": [
+          "NOIR-DAI-037",
+          "NOIR-DAI-038",
+          "NOIR-DAI-039",
+          "NOIR-DAI-040"
+        ],
+        "existing_variant_media_ids": [],
+        "existing_variant_media_association_count": 0,
+        "safe_future_mode": "APPEND_MEDIA_THEN_ATTACH_TO_LISTED_VARIANTS_ONLY; NO_DETACH; NO_DELETE; PRESERVE_FEATURED_MEDIA"
+      }
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0312-generate_images-p4-daim-boucles-noires-8.json",
+      "order_id": "claude-20260810-0312-p4-daim-boucles-noires-8",
+      "output_manifest": "manifeste-p4-daim-boucles-noires-8.json",
+      "image_file": "bracelet-cuir-daim-degagement-rapide-v-blue-black.jpg",
+      "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-cuir-daim-degagement-rapide/Sc56eee1ff4674b2ebe17cea4786ed97aK.webp",
+      "handle": "bracelet-cuir-daim-degagement-rapide",
+      "product_gid": "gid://shopify/Product/10980388897106",
+      "sku_fragment": "200000049:201449057#Blue-Black",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs Shopify partagent le même premier fragment fournisseur de coloris : 22mm, 20mm, 19mm, 18mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098054578514",
+        "gid://shopify/ProductVariant/54098054611282",
+        "gid://shopify/ProductVariant/54098054644050",
+        "gid://shopify/ProductVariant/54098054676818"
+      ],
+      "live_preflight": {
+        "checked": true,
+        "all_variant_gids_present": true,
+        "titles_match_snapshot": true,
+        "live_skus": [
+          "NOIR-DAI-009",
+          "NOIR-DAI-010",
+          "NOIR-DAI-011",
+          "NOIR-DAI-012"
+        ],
+        "existing_variant_media_ids": [],
+        "existing_variant_media_association_count": 0,
+        "safe_future_mode": "APPEND_MEDIA_THEN_ATTACH_TO_LISTED_VARIANTS_ONLY; NO_DETACH; NO_DELETE; PRESERVE_FEATURED_MEDIA"
+      }
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0312-generate_images-p4-daim-boucles-noires-8.json",
+      "order_id": "claude-20260810-0312-p4-daim-boucles-noires-8",
+      "output_manifest": "manifeste-p4-daim-boucles-noires-8.json",
+      "image_file": "bracelet-cuir-daim-degagement-rapide-v-yellowbrown-black.jpg",
+      "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-cuir-daim-degagement-rapide/Sd44c42a518d14beaba9ee1b2c379c300n.webp",
+      "handle": "bracelet-cuir-daim-degagement-rapide",
+      "product_gid": "gid://shopify/Product/10980388897106",
+      "sku_fragment": "200000049:2792782423#YellowBrown-Black",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs Shopify partagent le même premier fragment fournisseur de coloris : 22mm, 20mm, 19mm, 18mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098055364946",
+        "gid://shopify/ProductVariant/54098055397714",
+        "gid://shopify/ProductVariant/54098055430482",
+        "gid://shopify/ProductVariant/54098055463250"
+      ],
+      "live_preflight": {
+        "checked": true,
+        "all_variant_gids_present": true,
+        "titles_match_snapshot": true,
+        "live_skus": [
+          "NOIR-DAI-033",
+          "NOIR-DAI-034",
+          "NOIR-DAI-035",
+          "NOIR-DAI-036"
+        ],
+        "existing_variant_media_ids": [],
+        "existing_variant_media_association_count": 0,
+        "safe_future_mode": "APPEND_MEDIA_THEN_ATTACH_TO_LISTED_VARIANTS_ONLY; NO_DETACH; NO_DELETE; PRESERVE_FEATURED_MEDIA"
+      }
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0312-generate_images-p4-daim-boucles-noires-8.json",
+      "order_id": "claude-20260810-0312-p4-daim-boucles-noires-8",
+      "output_manifest": "manifeste-p4-daim-boucles-noires-8.json",
+      "image_file": "bracelet-cuir-daim-degagement-rapide-v-gray-black.jpg",
+      "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-cuir-daim-degagement-rapide/Sf8fb008825de424ebbe2ed589a0893c6c.webp",
+      "handle": "bracelet-cuir-daim-degagement-rapide",
+      "product_gid": "gid://shopify/Product/10980388897106",
+      "sku_fragment": "200000049:350686#Gray-Black",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs Shopify partagent le même premier fragment fournisseur de coloris : 22mm, 20mm, 19mm, 18mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098056020306",
+        "gid://shopify/ProductVariant/54098056053074",
+        "gid://shopify/ProductVariant/54098056085842",
+        "gid://shopify/ProductVariant/54098056118610"
+      ],
+      "live_preflight": {
+        "checked": true,
+        "all_variant_gids_present": true,
+        "titles_match_snapshot": true,
+        "live_skus": [
+          "NOIR-DAI-053",
+          "NOIR-DAI-054",
+          "NOIR-DAI-055",
+          "NOIR-DAI-056"
+        ],
+        "existing_variant_media_ids": [],
+        "existing_variant_media_association_count": 0,
+        "safe_future_mode": "APPEND_MEDIA_THEN_ATTACH_TO_LISTED_VARIANTS_ONLY; NO_DETACH; NO_DELETE; PRESERVE_FEATURED_MEDIA"
+      }
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0312-generate_images-p4-daim-boucles-noires-8.json",
+      "order_id": "claude-20260810-0312-p4-daim-boucles-noires-8",
+      "output_manifest": "manifeste-p4-daim-boucles-noires-8.json",
+      "image_file": "bracelet-cuir-daim-degagement-rapide-v-beige-black.jpg",
+      "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-cuir-daim-degagement-rapide/S8391ad335ef747e1b9d4c7ce89a2b4d9v.webp",
+      "handle": "bracelet-cuir-daim-degagement-rapide",
+      "product_gid": "gid://shopify/Product/10980388897106",
+      "sku_fragment": "200000049:350850#Beige-Black",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs Shopify partagent le même premier fragment fournisseur de coloris : 22mm, 20mm, 19mm, 18mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098056282450",
+        "gid://shopify/ProductVariant/54098056315218",
+        "gid://shopify/ProductVariant/54098056347986",
+        "gid://shopify/ProductVariant/54098056380754"
+      ],
+      "live_preflight": {
+        "checked": true,
+        "all_variant_gids_present": true,
+        "titles_match_snapshot": true,
+        "live_skus": [
+          "NOIR-DAI-061",
+          "NOIR-DAI-062",
+          "NOIR-DAI-063",
+          "NOIR-DAI-064"
+        ],
+        "existing_variant_media_ids": [],
+        "existing_variant_media_association_count": 0,
+        "safe_future_mode": "APPEND_MEDIA_THEN_ATTACH_TO_LISTED_VARIANTS_ONLY; NO_DETACH; NO_DELETE; PRESERVE_FEATURED_MEDIA"
+      }
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0312-generate_images-p4-daim-boucles-noires-8.json",
+      "order_id": "claude-20260810-0312-p4-daim-boucles-noires-8",
+      "output_manifest": "manifeste-p4-daim-boucles-noires-8.json",
+      "image_file": "bracelet-cuir-daim-degagement-rapide-v-light-blue-black.jpg",
+      "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-cuir-daim-degagement-rapide/Sa8ee3a744fdb403ba336a710fe933064f.webp",
+      "handle": "bracelet-cuir-daim-degagement-rapide",
+      "product_gid": "gid://shopify/Product/10980388897106",
+      "sku_fragment": "200000049:5057817297#Light Blue-Black",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs Shopify partagent le même premier fragment fournisseur de coloris : 22mm, 20mm, 19mm, 18mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098056151378",
+        "gid://shopify/ProductVariant/54098056184146",
+        "gid://shopify/ProductVariant/54098056216914",
+        "gid://shopify/ProductVariant/54098056249682"
+      ],
+      "live_preflight": {
+        "checked": true,
+        "all_variant_gids_present": true,
+        "titles_match_snapshot": true,
+        "live_skus": [
+          "NOIR-DAI-057",
+          "NOIR-DAI-058",
+          "NOIR-DAI-059",
+          "NOIR-DAI-060"
+        ],
+        "existing_variant_media_ids": [],
+        "existing_variant_media_association_count": 0,
+        "safe_future_mode": "APPEND_MEDIA_THEN_ATTACH_TO_LISTED_VARIANTS_ONLY; NO_DETACH; NO_DELETE; PRESERVE_FEATURED_MEDIA"
+      }
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0312-generate_images-p4-daim-boucles-noires-8.json",
+      "order_id": "claude-20260810-0312-p4-daim-boucles-noires-8",
+      "output_manifest": "manifeste-p4-daim-boucles-noires-8.json",
+      "image_file": "bracelet-cuir-daim-degagement-rapide-v-green-black.jpg",
+      "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-cuir-daim-degagement-rapide/S65c5cae85ef74c44bbfaef0469d00fb0u.webp",
+      "handle": "bracelet-cuir-daim-degagement-rapide",
+      "product_gid": "gid://shopify/Product/10980388897106",
+      "sku_fragment": "200000049:506942013#Green-Black",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs Shopify partagent le même premier fragment fournisseur de coloris : 22mm, 20mm, 19mm, 18mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098054709586",
+        "gid://shopify/ProductVariant/54098054742354",
+        "gid://shopify/ProductVariant/54098054775122",
+        "gid://shopify/ProductVariant/54098054807890"
+      ],
+      "live_preflight": {
+        "checked": true,
+        "all_variant_gids_present": true,
+        "titles_match_snapshot": true,
+        "live_skus": [
+          "NOIR-DAI-013",
+          "NOIR-DAI-014",
+          "NOIR-DAI-015",
+          "NOIR-DAI-016"
+        ],
+        "existing_variant_media_ids": [],
+        "existing_variant_media_association_count": 0,
+        "safe_future_mode": "APPEND_MEDIA_THEN_ATTACH_TO_LISTED_VARIANTS_ONLY; NO_DETACH; NO_DELETE; PRESERVE_FEATURED_MEDIA"
+      }
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0312-generate_images-p4-daim-boucles-argentees-8.json",
+      "order_id": "claude-20260810-0312-p4-daim-boucles-argentees-8",
+      "output_manifest": "manifeste-p4-daim-boucles-argentees-8.json",
+      "image_file": "bracelet-cuir-daim-degagement-rapide-v-beige.jpg",
+      "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-cuir-daim-degagement-rapide/S7c2e0551689e4afb828f1a327789c6e4G.webp",
+      "handle": "bracelet-cuir-daim-degagement-rapide",
+      "product_gid": "gid://shopify/Product/10980388897106",
+      "sku_fragment": "200000049:16146268#Beige",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs Shopify partagent le même premier fragment fournisseur de coloris : 22mm, 20mm, 19mm, 18mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098055102802",
+        "gid://shopify/ProductVariant/54098055135570",
+        "gid://shopify/ProductVariant/54098055168338",
+        "gid://shopify/ProductVariant/54098055201106"
+      ],
+      "live_preflight": {
+        "checked": true,
+        "all_variant_gids_present": true,
+        "titles_match_snapshot": true,
+        "live_skus": [
+          "NOIR-DAI-025",
+          "NOIR-DAI-026",
+          "NOIR-DAI-027",
+          "NOIR-DAI-028"
+        ],
+        "existing_variant_media_ids": [],
+        "existing_variant_media_association_count": 0,
+        "safe_future_mode": "APPEND_MEDIA_THEN_ATTACH_TO_LISTED_VARIANTS_ONLY; NO_DETACH; NO_DELETE; PRESERVE_FEATURED_MEDIA"
+      }
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0312-generate_images-p4-daim-boucles-argentees-8.json",
+      "order_id": "claude-20260810-0312-p4-daim-boucles-argentees-8",
+      "output_manifest": "manifeste-p4-daim-boucles-argentees-8.json",
+      "image_file": "bracelet-cuir-daim-degagement-rapide-v-yellowbrown.jpg",
+      "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-cuir-daim-degagement-rapide/S1be603d46c3643c8a5ac8f3cb18fdaded.webp",
+      "handle": "bracelet-cuir-daim-degagement-rapide",
+      "product_gid": "gid://shopify/Product/10980388897106",
+      "sku_fragment": "200000049:1714056674#YellowBrown",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs Shopify partagent le même premier fragment fournisseur de coloris : 22mm, 20mm, 19mm, 18mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098054447442",
+        "gid://shopify/ProductVariant/54098054480210",
+        "gid://shopify/ProductVariant/54098054512978",
+        "gid://shopify/ProductVariant/54098054545746"
+      ],
+      "live_preflight": {
+        "checked": true,
+        "all_variant_gids_present": true,
+        "titles_match_snapshot": true,
+        "live_skus": [
+          "NOIR-DAI-005",
+          "NOIR-DAI-006",
+          "NOIR-DAI-007",
+          "NOIR-DAI-008"
+        ],
+        "existing_variant_media_ids": [],
+        "existing_variant_media_association_count": 0,
+        "safe_future_mode": "APPEND_MEDIA_THEN_ATTACH_TO_LISTED_VARIANTS_ONLY; NO_DETACH; NO_DELETE; PRESERVE_FEATURED_MEDIA"
+      }
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0312-generate_images-p4-daim-boucles-argentees-8.json",
+      "order_id": "claude-20260810-0312-p4-daim-boucles-argentees-8",
+      "output_manifest": "manifeste-p4-daim-boucles-argentees-8.json",
+      "image_file": "bracelet-cuir-daim-degagement-rapide-v-blue.jpg",
+      "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-cuir-daim-degagement-rapide/Sd46d6d829d914c33bde451d852978361d.webp",
+      "handle": "bracelet-cuir-daim-degagement-rapide",
+      "product_gid": "gid://shopify/Product/10980388897106",
+      "sku_fragment": "200000049:200966040#Blue",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs Shopify partagent le même premier fragment fournisseur de coloris : 22mm, 20mm, 19mm, 18mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098055233874",
+        "gid://shopify/ProductVariant/54098055266642",
+        "gid://shopify/ProductVariant/54098055299410",
+        "gid://shopify/ProductVariant/54098055332178"
+      ],
+      "live_preflight": {
+        "checked": true,
+        "all_variant_gids_present": true,
+        "titles_match_snapshot": true,
+        "live_skus": [
+          "NOIR-DAI-029",
+          "NOIR-DAI-030",
+          "NOIR-DAI-031",
+          "NOIR-DAI-032"
+        ],
+        "existing_variant_media_ids": [],
+        "existing_variant_media_association_count": 0,
+        "safe_future_mode": "APPEND_MEDIA_THEN_ATTACH_TO_LISTED_VARIANTS_ONLY; NO_DETACH; NO_DELETE; PRESERVE_FEATURED_MEDIA"
+      }
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0312-generate_images-p4-daim-boucles-argentees-8.json",
+      "order_id": "claude-20260810-0312-p4-daim-boucles-argentees-8",
+      "output_manifest": "manifeste-p4-daim-boucles-argentees-8.json",
+      "image_file": "bracelet-cuir-daim-degagement-rapide-v-green.jpg",
+      "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-cuir-daim-degagement-rapide/S18b312d8c1114ebf976e381035d57a6fN.webp",
+      "handle": "bracelet-cuir-daim-degagement-rapide",
+      "product_gid": "gid://shopify/Product/10980388897106",
+      "sku_fragment": "200000049:201449058#Green",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs Shopify partagent le même premier fragment fournisseur de coloris : 22mm, 20mm, 19mm, 18mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098054971730",
+        "gid://shopify/ProductVariant/54098055004498",
+        "gid://shopify/ProductVariant/54098055037266",
+        "gid://shopify/ProductVariant/54098055070034"
+      ],
+      "live_preflight": {
+        "checked": true,
+        "all_variant_gids_present": true,
+        "titles_match_snapshot": true,
+        "live_skus": [
+          "NOIR-DAI-021",
+          "NOIR-DAI-022",
+          "NOIR-DAI-023",
+          "NOIR-DAI-024"
+        ],
+        "existing_variant_media_ids": [],
+        "existing_variant_media_association_count": 0,
+        "safe_future_mode": "APPEND_MEDIA_THEN_ATTACH_TO_LISTED_VARIANTS_ONLY; NO_DETACH; NO_DELETE; PRESERVE_FEATURED_MEDIA"
+      }
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0312-generate_images-p4-daim-boucles-argentees-8.json",
+      "order_id": "claude-20260810-0312-p4-daim-boucles-argentees-8",
+      "output_manifest": "manifeste-p4-daim-boucles-argentees-8.json",
+      "image_file": "bracelet-cuir-daim-degagement-rapide-v-black.jpg",
+      "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-cuir-daim-degagement-rapide/S2f0920aadd4d43969e8d45fae7d1c069k.webp",
+      "handle": "bracelet-cuir-daim-degagement-rapide",
+      "product_gid": "gid://shopify/Product/10980388897106",
+      "sku_fragment": "200000049:3348727#Black",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs Shopify partagent le même premier fragment fournisseur de coloris : 22mm, 20mm, 19mm, 18mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098055889234",
+        "gid://shopify/ProductVariant/54098055922002",
+        "gid://shopify/ProductVariant/54098055954770",
+        "gid://shopify/ProductVariant/54098055987538"
+      ],
+      "live_preflight": {
+        "checked": true,
+        "all_variant_gids_present": true,
+        "titles_match_snapshot": true,
+        "live_skus": [
+          "NOIR-DAI-049",
+          "NOIR-DAI-050",
+          "NOIR-DAI-051",
+          "NOIR-DAI-052"
+        ],
+        "existing_variant_media_ids": [],
+        "existing_variant_media_association_count": 0,
+        "safe_future_mode": "APPEND_MEDIA_THEN_ATTACH_TO_LISTED_VARIANTS_ONLY; NO_DETACH; NO_DELETE; PRESERVE_FEATURED_MEDIA"
+      }
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0312-generate_images-p4-daim-boucles-argentees-8.json",
+      "order_id": "claude-20260810-0312-p4-daim-boucles-argentees-8",
+      "output_manifest": "manifeste-p4-daim-boucles-argentees-8.json",
+      "image_file": "bracelet-cuir-daim-degagement-rapide-v-light-blue.jpg",
+      "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-cuir-daim-degagement-rapide/S5d97cfd4b82e4672912c81a49d7a1b65N.webp",
+      "handle": "bracelet-cuir-daim-degagement-rapide",
+      "product_gid": "gid://shopify/Product/10980388897106",
+      "sku_fragment": "200000049:5057743953#Light Blue",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs Shopify partagent le même premier fragment fournisseur de coloris : 22mm, 20mm, 19mm, 18mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098055627090",
+        "gid://shopify/ProductVariant/54098055659858",
+        "gid://shopify/ProductVariant/54098055692626",
+        "gid://shopify/ProductVariant/54098055725394"
+      ],
+      "live_preflight": {
+        "checked": true,
+        "all_variant_gids_present": true,
+        "titles_match_snapshot": true,
+        "live_skus": [
+          "NOIR-DAI-041",
+          "NOIR-DAI-042",
+          "NOIR-DAI-043",
+          "NOIR-DAI-044"
+        ],
+        "existing_variant_media_ids": [],
+        "existing_variant_media_association_count": 0,
+        "safe_future_mode": "APPEND_MEDIA_THEN_ATTACH_TO_LISTED_VARIANTS_ONLY; NO_DETACH; NO_DELETE; PRESERVE_FEATURED_MEDIA"
+      }
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0312-generate_images-p4-daim-boucles-argentees-8.json",
+      "order_id": "claude-20260810-0312-p4-daim-boucles-argentees-8",
+      "output_manifest": "manifeste-p4-daim-boucles-argentees-8.json",
+      "image_file": "bracelet-cuir-daim-degagement-rapide-v-gray.jpg",
+      "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-cuir-daim-degagement-rapide/S69cd4a751b48418abbc9c70a88ae5d0b1.webp",
+      "handle": "bracelet-cuir-daim-degagement-rapide",
+      "product_gid": "gid://shopify/Product/10980388897106",
+      "sku_fragment": "200000049:5057835040#Gray",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs Shopify partagent le même premier fragment fournisseur de coloris : 22mm, 20mm, 19mm, 18mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098055758162",
+        "gid://shopify/ProductVariant/54098055790930",
+        "gid://shopify/ProductVariant/54098055823698",
+        "gid://shopify/ProductVariant/54098055856466"
+      ],
+      "live_preflight": {
+        "checked": true,
+        "all_variant_gids_present": true,
+        "titles_match_snapshot": true,
+        "live_skus": [
+          "NOIR-DAI-045",
+          "NOIR-DAI-046",
+          "NOIR-DAI-047",
+          "NOIR-DAI-048"
+        ],
+        "existing_variant_media_ids": [],
+        "existing_variant_media_association_count": 0,
+        "safe_future_mode": "APPEND_MEDIA_THEN_ATTACH_TO_LISTED_VARIANTS_ONLY; NO_DETACH; NO_DELETE; PRESERVE_FEATURED_MEDIA"
+      }
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0312-generate_images-p4-daim-boucles-argentees-8.json",
+      "order_id": "claude-20260810-0312-p4-daim-boucles-argentees-8",
+      "output_manifest": "manifeste-p4-daim-boucles-argentees-8.json",
+      "image_file": "bracelet-cuir-daim-degagement-rapide-v-brown.jpg",
+      "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-cuir-daim-degagement-rapide/Sd4fbcbfac3664e8ba91e7be0dc9dbbe3A.webp",
+      "handle": "bracelet-cuir-daim-degagement-rapide",
+      "product_gid": "gid://shopify/Product/10980388897106",
+      "sku_fragment": "200000049:990994103#Brown",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs Shopify partagent le même premier fragment fournisseur de coloris : 22mm, 20mm, 19mm, 18mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098054316370",
+        "gid://shopify/ProductVariant/54098054349138",
+        "gid://shopify/ProductVariant/54098054381906",
+        "gid://shopify/ProductVariant/54098054414674"
+      ],
+      "live_preflight": {
+        "checked": true,
+        "all_variant_gids_present": true,
+        "titles_match_snapshot": true,
+        "live_skus": [
+          "NOIR-DAI-001",
+          "NOIR-DAI-002",
+          "NOIR-DAI-003",
+          "NOIR-DAI-004"
+        ],
+        "existing_variant_media_ids": [],
+        "existing_variant_media_association_count": 0,
+        "safe_future_mode": "APPEND_MEDIA_THEN_ATTACH_TO_LISTED_VARIANTS_ONLY; NO_DETACH; NO_DELETE; PRESERVE_FEATURED_MEDIA"
+      }
+    }
+  ],
+  "timezone": "Europe/Paris"
+}

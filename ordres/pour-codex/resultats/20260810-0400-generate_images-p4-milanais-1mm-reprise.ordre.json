@@ -1,0 +1,96 @@
+{
+  "id": "claude-20260810-0400-p4-milanais-1mm-reprise",
+  "type": "generate_images",
+  "created_at": "2026-08-10T04:00:00+02:00",
+  "requested_by": "claude-code",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "bracelet-milanais-maille-italienne",
+        "sku": "200000049:366#1.0mm-black",
+        "slot": "variante",
+        "fichier": "bracelet-milanais-maille-italienne-v-1-0mm-black.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-milanais-maille-italienne/S7df4b1b76f334bc18045f1a84f6cb306I.webp"
+      },
+      {
+        "handle": "bracelet-milanais-maille-italienne",
+        "sku": "200000049:200000080#1.0mm-gold",
+        "slot": "variante",
+        "fichier": "bracelet-milanais-maille-italienne-v-1-0mm-gold.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-milanais-maille-italienne/S96d78f4267fe4e6ab3d7e7aa60b114cd3.webp"
+      },
+      {
+        "handle": "bracelet-milanais-maille-italienne",
+        "sku": "200000049:200013899#1.0mm-silver",
+        "slot": "variante",
+        "fichier": "bracelet-milanais-maille-italienne-v-1-0mm-silver.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-milanais-maille-italienne/S30071232fbe142b9b39e2a7664e34ca5o.webp"
+      },
+      {
+        "handle": "bracelet-milanais-maille-italienne",
+        "sku": "200000049:29#1.0mm-rose gold",
+        "slot": "variante",
+        "fichier": "bracelet-milanais-maille-italienne-v-1-0mm-rose-gold.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-milanais-maille-italienne/S7d27ad5e4a644f4ba36f111c2811c8508.webp"
+      }
+    ],
+    "sources": [
+      "scratchpad/backup-medias-accessoires-lot4/bracelet-milanais-maille-italienne/S7df4b1b76f334bc18045f1a84f6cb306I.webp",
+      "scratchpad/backup-medias-accessoires-lot4/bracelet-milanais-maille-italienne/S96d78f4267fe4e6ab3d7e7aa60b114cd3.webp",
+      "scratchpad/backup-medias-accessoires-lot4/bracelet-milanais-maille-italienne/S30071232fbe142b9b39e2a7664e34ca5o.webp",
+      "scratchpad/backup-medias-accessoires-lot4/bracelet-milanais-maille-italienne/S7d27ad5e4a644f4ba36f111c2811c8508.webp",
+      "boutique-seiko-mod/visuels-codex-2026-08/bracelet-milanais-maille-italienne/bracelet-milanais-maille-italienne-v-1-0mm-black.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/bracelet-milanais-maille-italienne/bracelet-milanais-maille-italienne-v-1-0mm-gold.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/bracelet-milanais-maille-italienne/bracelet-milanais-maille-italienne-v-1-0mm-silver.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/bracelet-milanais-maille-italienne/bracelet-milanais-maille-italienne-v-1-0mm-rose-gold.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/bracelet-milanais-maille-italienne/bracelet-milanais-maille-italienne-v-0-6mm-black.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/bracelet-milanais-maille-italienne/bracelet-milanais-maille-italienne-v-0-6mm-gold.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/bracelet-milanais-maille-italienne/bracelet-milanais-maille-italienne-v-0-6mm-silver.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/bracelet-milanais-maille-italienne/bracelet-milanais-maille-italienne-v-0-6mm-rose-gold.jpg"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+      "surcharges": [
+        "REPRISE CIBLÉE DES QUATRE VARIANTES 1,0 MM UNIQUEMENT : un bracelet milanais complet seul, légèrement courbé pour montrer la maille, le fermoir et les deux extrémités libres, centré sur fond minéral neutre pierre vers craie, lumière douce haute-gauche et une seule ombre diffuse.",
+        "Les quatre variantes 0,6 mm actuellement PASS servent exclusivement de gabarits de composition par couleur. Chaque nouveau 1,0 mm doit reprendre le cadrage, l'échelle, l'orientation, l'emprise, les marges, le fond, la lumière et l'ombre de son témoin 0,6 mm, tout en conservant exclusivement la géométrie produit 1,0 mm de sa source fournisseur exacte."
+      ]
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "VÉRITÉ PRODUIT PAR ENTRÉE ET PAR SKU : Black utilise exclusivement `S7df4b1b76f334bc18045f1a84f6cb306I.webp`, Gold exclusivement `S96d78f4267fe4e6ab3d7e7aa60b114cd3.webp`, Silver exclusivement `S30071232fbe142b9b39e2a7664e34ca5o.webp`, Rose Gold exclusivement `S7d27ad5e4a644f4ba36f111c2811c8508.webp`. Ne jamais permuter les sources, les finitions ni les SKU.",
+        "CORRECTION BLOQUANTE DE CONSTRUCTION : sur chacune des deux extrémités libres de chaque bracelet 1,0 mm, la source exacte montre une plaque/barrette terminale PLATE qui traverse la largeur de la maille, avec environ cinq encoches verticales visibles sur sa face et une fine lèvre plate en saillie sous la plaque. Reproduire cette pièce et ses proportions exactement comme la source dédiée.",
+        "INTERDIT ABSOLU : aucun tube lisse, cylindre roulé, ourlet tubulaire ni barrette ronde de type 0,6 mm aux extrémités libres. Une sortie qui conserve une extrémité tubulaire, même sur un seul côté ou dans une seule finition, doit être rejetée et régénérée.",
+        "Les quatre livrables 1,0 mm actuels sont des REJETS de QA externe : leur maille épaisse est exploitable comme constat d'échec, mais leur jonction tubulaire est fausse. Ne jamais les recadrer, retoucher, recolorer, utiliser comme vérité produit ni réutiliser leurs pixels. Régénérer intégralement chaque variante depuis sa source fournisseur exacte ; aucun inpainting ni gommage.",
+        "AVANT TOUTE GÉNÉRATION ET TOUT REMPLACEMENT, vérifier les hashes SHA-256 des quatre livrables actuels : Black `31787ad71e352284ccc35a283690f4d1656890f3801136cf25a71275d3bdf27e`, Gold `afe775360718d492601a9c8635e3499f71a337795fb928899cc0d00675849f8f`, Silver `f073f9204d876d8e2fcd2984e33b166998f8f6f53d2b75411839758c7286a910`, Rose Gold `748e90336acccf7d1bae433676c8515306ac5d27f4eab6bfaa29703862cad8a4`. Si un hash diffère, arrêter proprement l'ordre sans écraser aucun des quatre fichiers.",
+        "Si les quatre hashes correspondent, copier octet pour octet les livrables actuels vers, respectivement, `rejected/bracelet-milanais-maille-italienne-v-1-0mm-black-rejet-barrette-tubulaire-20260810-0400.jpg`, `rejected/bracelet-milanais-maille-italienne-v-1-0mm-gold-rejet-barrette-tubulaire-20260810-0400.jpg`, `rejected/bracelet-milanais-maille-italienne-v-1-0mm-silver-rejet-barrette-tubulaire-20260810-0400.jpg` et `rejected/bracelet-milanais-maille-italienne-v-1-0mm-rose-gold-rejet-barrette-tubulaire-20260810-0400.jpg`. Vérifier existence, lisibilité et hash identique de chaque copie. Si une seule sauvegarde échoue, arrêter sans écraser aucun livrable actuel.",
+        "Seulement après validation des quatre sauvegardes, remplacer explicitement les quatre noms du manifeste par de nouveaux rendus PASS. Ne produire, remplacer ni réencoder aucun média 0,6 mm et aucun autre média de la fiche.",
+        "IMMUTABILITÉ DES TÉMOINS 0,6 MM : Black `69a3287c0bb97bb3cc2714414bbc25544ec6e523f436097fae7c172c856eaff4`, Gold `8c34c0ca5a06aeca2964779d5b9c0733b805a0a59517c00486aabb9eb746ccf9`, Silver `f170586f573495f8d6923c5bcf7defd150669bcca3cf47954032f444aa735cf3`, Rose Gold `3d4d16ea3961657fca29102181ae3f1a2bd22ef245c314849570741b88592088`. Ces fichiers servent uniquement de gabarits de composition et doivent conserver exactement ces hashes avant/après.",
+        "MAILLE 1,0 MM : conserver la maille métallique nettement plus grosse, plus dense et plus épaisse que le 0,6 mm de la même couleur. Une simple recoloration, une maille fine identique au 0,6 mm ou une texture générique est interdite.",
+        "Conserver le fermoir rectangulaire réglable/magnétique vierge, les pièces de jonction, la souplesse, la largeur visuelle et la finition Black, Gold, Silver ou Rose Gold exactes de la source dédiée. Aucun mélange bicolore inventé.",
+        "Aucun logo, nom, mot, lettre, chiffre, filigrane, gravure ou verbatim sur la maille, le fermoir, les plaques terminales, les jonctions ou le fond final. Le fermoir reste vierge.",
+        "Aucune montre, aucun boîtier, cadran, poignet, main, personne, vêtement, bijou, outil ou emballage. Un seul bracelet complet par image.",
+        "Sortie 2048 × 2048 px, carré 1:1, JPEG sRGB qualité environ 90, viser 400-900 Ko et rester sous 1,2 Mo ; respecter exactement les quatre noms `fichier` du manifeste."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Contrôle source fournisseur↔nouveau rendu entrée par entrée et à fort zoom : couleur, maille 1,0 mm, fermoir, jonctions et géométrie des deux extrémités libres fidèles à la source exacte du SKU ; aucun détail emprunté à une autre finition.",
+        "CONTRÔLE BLOQUANT DES DEUX EXTRÉMITÉS : chacune montre une plaque/barrette plate sur toute la largeur, environ cinq encoches verticales lisibles et une fine lèvre plate inférieure comme la source. Aucun tube lisse, cylindre roulé, ourlet tubulaire ou barrette ronde n'est toléré.",
+        "Contrôle par paire de couleur 0,6↔1,0 : le nouveau 1,0 conserve cadrage, échelle, position, orientation et lumière du témoin 0,6, mais sa maille doit être visiblement plus épaisse/dense et sa plaque terminale doit rester celle du 1,0. Une simple recoloration à densité identique est un rejet.",
+        "Contrôle du fermoir et de la maille : fermoir rectangulaire réglable/magnétique complet, vierge et assorti ; aucun maillon fusionné, aucune texture plastique, aucune pièce supplémentaire, manquante ou suspendue.",
+        "Contrôle de sauvegarde avant remplacement : consigner les quatre hashes des originaux rejetés et de leurs copies sous `rejected/`; chaque paire doit être strictement identique avant toute écriture des nouveaux livrables.",
+        "Contrôle d'immuabilité : consigner les hashes avant/après des quatre témoins 0,6 mm et confirmer qu'ils correspondent exactement aux quatre valeurs fixées dans l'ordre.",
+        "Créer `qa/planche-p4-reprise-milanais-0-6-vs-1-0.jpg` en grille exacte 4 colonnes × 2 lignes, au moins 740 px par vignette : ligne haute 0,6 mm PASS Black / Gold / Silver / Rose Gold ; ligne basse nouveaux 1,0 mm Black / Gold / Silver / Rose Gold. La planche doit permettre de contrôler simultanément homogénéité de composition, différence de densité de maille, fermoir et plaques terminales.",
+        "Zoom intégral : aucun logo, texte, lettre, chiffre, filigrane, gravure ou verbatim, même partiel ; aucune permutation de finition.",
+        "Contrôle final : seuls les quatre noms manifeste 1,0 mm sont livrés/remplacés ; noms exacts, 2048 × 2048, JPEG sRGB, poids conforme et manifeste réalisé limité à ces quatre entrées."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/bracelet-milanais-maille-italienne",
+      "manifeste": "manifeste-p4-milanais-1mm-reprise.json"
+    }
+  },
+  "notes": "Reprise classe A ciblée des quatre variantes 1,0 mm déclarées done par l'ordre 20260810-0130 mais rejetées par la QA externe : les sorties ont une maille suffisamment épaisse, toutefois leurs deux extrémités libres emploient à tort un tube roulé de construction 0,6 mm au lieu de la plaque plate à environ cinq encoches et fine lèvre prouvée par chaque source 1,0 mm. Sauvegarde hashée des quatre rejets obligatoire avant remplacement ; quatre témoins 0,6 mm PASS strictement intouchables. Aucune génération hors manifeste, aucun accès boutique, aucun rattachement Shopify/DSers et aucune publication ne relèvent de cet ordre."
+}

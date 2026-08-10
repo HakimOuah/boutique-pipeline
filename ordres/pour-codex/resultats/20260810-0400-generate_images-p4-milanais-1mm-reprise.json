@@ -1,0 +1,190 @@
+{
+  "id": "claude-20260810-0400-p4-milanais-1mm-reprise",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "bracelet-milanais-maille-italienne",
+        "sku": "200000049:366#1.0mm-black",
+        "slot": "variante",
+        "fichier": "bracelet-milanais-maille-italienne-v-1-0mm-black.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      },
+      {
+        "handle": "bracelet-milanais-maille-italienne",
+        "sku": "200000049:200000080#1.0mm-gold",
+        "slot": "variante",
+        "fichier": "bracelet-milanais-maille-italienne-v-1-0mm-gold.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      },
+      {
+        "handle": "bracelet-milanais-maille-italienne",
+        "sku": "200000049:200013899#1.0mm-silver",
+        "slot": "variante",
+        "fichier": "bracelet-milanais-maille-italienne-v-1-0mm-silver.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 3
+      },
+      {
+        "handle": "bracelet-milanais-maille-italienne",
+        "sku": "200000049:29#1.0mm-rose gold",
+        "slot": "variante",
+        "fichier": "bracelet-milanais-maille-italienne-v-1-0mm-rose-gold.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 3
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/bracelet-milanais-maille-italienne-v-1-0mm-black-rejet-barrette-tubulaire-20260810-0400.jpg",
+        "motif": "Sauvegarde octet pour octet du livrable antérieur rejeté : embouts tubulaires non conformes à la source 1,0 mm."
+      },
+      {
+        "fichier": "rejected/bracelet-milanais-maille-italienne-v-1-0mm-gold-rejet-barrette-tubulaire-20260810-0400.jpg",
+        "motif": "Sauvegarde octet pour octet du livrable antérieur rejeté : embouts tubulaires non conformes à la source 1,0 mm."
+      },
+      {
+        "fichier": "rejected/bracelet-milanais-maille-italienne-v-1-0mm-silver-rejet-barrette-tubulaire-20260810-0400.jpg",
+        "motif": "Sauvegarde octet pour octet du livrable antérieur rejeté : embouts tubulaires non conformes à la source 1,0 mm."
+      },
+      {
+        "fichier": "rejected/bracelet-milanais-maille-italienne-v-1-0mm-rose-gold-rejet-barrette-tubulaire-20260810-0400.jpg",
+        "motif": "Sauvegarde octet pour octet du livrable antérieur rejeté : embouts tubulaires non conformes à la source 1,0 mm."
+      },
+      {
+        "fichier": "rejected/black-g1-levre-inferieure-arrondie.png",
+        "motif": "Lèvre inférieure visuellement arrondie et ambiguë ; rejet fail-closed."
+      },
+      {
+        "fichier": "rejected/black-g2-double-rail-tubulaire.png",
+        "motif": "Double rail tubulaire visible aux extrémités ; rejet bloquant."
+      },
+      {
+        "fichier": "rejected/gold-g1-levre-inferieure-arrondie.png",
+        "motif": "Lèvre inférieure visuellement arrondie et ambiguë ; rejet fail-closed."
+      },
+      {
+        "fichier": "rejected/gold-g2-levre-arriere-tubulaire.png",
+        "motif": "Lèvre de la plaque arrière encore tubulaire ; rejet bloquant."
+      },
+      {
+        "fichier": "rejected/silver-g1-cadrage-source-au-lieu-temoin-0-6.png",
+        "motif": "Cadrage fournisseur repris au lieu de la composition du témoin 0,6 mm."
+      },
+      {
+        "fichier": "rejected/silver-g2-maille-trop-fine-proche-0-6.png",
+        "motif": "Maille trop fine, insuffisamment distincte du témoin 0,6 mm."
+      },
+      {
+        "fichier": "rejected/silver-g3-plaque-avant-redevenue-tubulaire.png",
+        "motif": "Plaque avant remplacée par une terminaison lisse tubulaire."
+      },
+      {
+        "fichier": "rejected/rose-gold-g1-levre-inferieure-tubulaire.png",
+        "motif": "Lèvre inférieure tubulaire sur les extrémités."
+      },
+      {
+        "fichier": "rejected/rose-gold-g2-embout-avant-ouvert-en-c.png",
+        "motif": "Embout avant ouvert en C, incompatible avec la plaque plate source."
+      },
+      {
+        "fichier": "rejected/rose-gold-g3-embout-creux-et-maille-trop-fine.png",
+        "motif": "Embout creux et maille trop fine ; deux défauts bloquants."
+      }
+    ],
+    "sujets_difficiles": [],
+    "controle_sauvegarde": {
+      "black": {
+        "sha256_original_avant_remplacement": "31787ad71e352284ccc35a283690f4d1656890f3801136cf25a71275d3bdf27e",
+        "sha256_copie_rejected": "31787ad71e352284ccc35a283690f4d1656890f3801136cf25a71275d3bdf27e",
+        "copie_lisible_et_identique": true
+      },
+      "gold": {
+        "sha256_original_avant_remplacement": "afe775360718d492601a9c8635e3499f71a337795fb928899cc0d00675849f8f",
+        "sha256_copie_rejected": "afe775360718d492601a9c8635e3499f71a337795fb928899cc0d00675849f8f",
+        "copie_lisible_et_identique": true
+      },
+      "silver": {
+        "sha256_original_avant_remplacement": "f073f9204d876d8e2fcd2984e33b166998f8f6f53d2b75411839758c7286a910",
+        "sha256_copie_rejected": "f073f9204d876d8e2fcd2984e33b166998f8f6f53d2b75411839758c7286a910",
+        "copie_lisible_et_identique": true
+      },
+      "rose_gold": {
+        "sha256_original_avant_remplacement": "748e90336acccf7d1bae433676c8515306ac5d27f4eab6bfaa29703862cad8a4",
+        "sha256_copie_rejected": "748e90336acccf7d1bae433676c8515306ac5d27f4eab6bfaa29703862cad8a4",
+        "copie_lisible_et_identique": true
+      }
+    },
+    "controle_immuabilite_temoins_0_6mm": {
+      "black_sha256_avant_apres": "69a3287c0bb97bb3cc2714414bbc25544ec6e523f436097fae7c172c856eaff4",
+      "gold_sha256_avant_apres": "8c34c0ca5a06aeca2964779d5b9c0733b805a0a59517c00486aabb9eb746ccf9",
+      "silver_sha256_avant_apres": "f170586f573495f8d6923c5bcf7defd150669bcca3cf47954032f444aa735cf3",
+      "rose_gold_sha256_avant_apres": "3d4d16ea3961657fca29102181ae3f1a2bd22ef245c314849570741b88592088",
+      "tous_inchanges": true
+    },
+    "controle_fichiers_finaux": [
+      {
+        "fichier": "bracelet-milanais-maille-italienne-v-1-0mm-black.jpg",
+        "sha256": "b16ff440c4b560706d8ffea2634e08d2b9f6823d17644aa4441adbc97c7e7ace",
+        "largeur_px": 2048,
+        "hauteur_px": 2048,
+        "format": "JPEG",
+        "profil": "sRGB IEC61966-2.1",
+        "octets": 786356
+      },
+      {
+        "fichier": "bracelet-milanais-maille-italienne-v-1-0mm-gold.jpg",
+        "sha256": "b9668584a00edae6704da41062debfe1783a9b689d30a51a08acdcdc3579212a",
+        "largeur_px": 2048,
+        "hauteur_px": 2048,
+        "format": "JPEG",
+        "profil": "sRGB IEC61966-2.1",
+        "octets": 894936
+      },
+      {
+        "fichier": "bracelet-milanais-maille-italienne-v-1-0mm-silver.jpg",
+        "sha256": "1cecf9c599b0960166029942c060644c2b8db1b1da37a40fc5edb0cbfe506a8f",
+        "largeur_px": 2048,
+        "hauteur_px": 2048,
+        "format": "JPEG",
+        "profil": "sRGB IEC61966-2.1",
+        "octets": 825046
+      },
+      {
+        "fichier": "bracelet-milanais-maille-italienne-v-1-0mm-rose-gold.jpg",
+        "sha256": "fda8321cf259c53b15f94144f3551cca235b90398b2fc0e5de818571be754b72",
+        "largeur_px": 2048,
+        "hauteur_px": 2048,
+        "format": "JPEG",
+        "profil": "sRGB IEC61966-2.1",
+        "octets": 833266
+      }
+    ],
+    "controle_planche": {
+      "fichier": "qa/planche-p4-reprise-milanais-0-6-vs-1-0.jpg",
+      "grille": "4 colonnes x 2 lignes",
+      "ordre_ligne_haute": ["0,6 mm Black", "0,6 mm Gold", "0,6 mm Silver", "0,6 mm Rose Gold"],
+      "ordre_ligne_basse": ["1,0 mm Black", "1,0 mm Gold", "1,0 mm Silver", "1,0 mm Rose Gold"],
+      "largeur_px": 4096,
+      "hauteur_px": 2048,
+      "largeur_vignette_px": 1024,
+      "hauteur_vignette_px": 1024,
+      "sha256": "7ea8b82009da1ec7a9a777ce7a7c93f9e6e475aeeb4284c9449577421cf228df"
+    },
+    "controle_visuel": {
+      "verite_produit_source_par_sku": true,
+      "maille_1_0mm_distinctement_plus_epaisse_que_0_6mm": true,
+      "deux_plaques_terminales_plates_rainurees_par_bracelet": true,
+      "absence_embout_tubulaire": true,
+      "fermoir_rectangulaire_complet_vierge": true,
+      "aucun_texte_logo_chiffre_filigrane_gravure": true,
+      "une_seule_ombre_diffuse": true,
+      "une_seule_piece_complete_par_image": true,
+      "qa_status": "pass"
+    }
+  },
+  "executed_at": "2026-08-10T03:45:25Z",
+  "executor": "codex-2026-08-10"
+}

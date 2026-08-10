@@ -1,0 +1,70 @@
+{
+  "id": "claude-20260810-0130-p4-jubile-courbes-3",
+  "type": "generate_images",
+  "created_at": "2026-08-10T01:30:03+02:00",
+  "requested_by": "claude-code",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "bracelet-jubile-embouts-courbes",
+        "sku": "200000049:100013777#steel gold-no logo",
+        "slot": "variante",
+        "fichier": "bracelet-jubile-embouts-courbes-v-steel-gold-no-logo.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-jubile-embouts-courbes/Sce54a477960e4715aabb421d0a583a549.webp"
+      },
+      {
+        "handle": "bracelet-jubile-embouts-courbes",
+        "sku": "200000049:3348727#gold-no logo",
+        "slot": "variante",
+        "fichier": "bracelet-jubile-embouts-courbes-v-gold-no-logo.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-jubile-embouts-courbes/S1ae6f72ff2534409a20cb14c8de06a99J.webp"
+      },
+      {
+        "handle": "bracelet-jubile-embouts-courbes",
+        "sku": "200000049:350853#steel-no logo",
+        "slot": "variante",
+        "fichier": "bracelet-jubile-embouts-courbes-v-steel-no-logo.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-jubile-embouts-courbes/S2ff6ba6587bb4bcfbdb8771e9c6a5b49C.webp"
+      }
+    ],
+    "sources": [
+      "scratchpad/backup-medias-accessoires-lot4/bracelet-jubile-embouts-courbes/Sce54a477960e4715aabb421d0a583a549.webp",
+      "scratchpad/backup-medias-accessoires-lot4/bracelet-jubile-embouts-courbes/S1ae6f72ff2534409a20cb14c8de06a99J.webp",
+      "scratchpad/backup-medias-accessoires-lot4/bracelet-jubile-embouts-courbes/S2ff6ba6587bb4bcfbdb8771e9c6a5b49C.webp"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+      "surcharges": [
+        "Visuel produit de variante carré 1:1 : bracelet Jubilé complet présenté seul, légèrement ouvert pour montrer le fermoir et les embouts courbes, sur fond minéral neutre pierre vers craie, lumière douce haute-gauche et une seule ombre diffuse.",
+        "Les trois rendus gardent exactement le même cadrage, la même échelle, la même orientation et la même lumière ; seule la finition métallique issue de la source dédiée varie."
+      ]
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "VÉRITÉ PRODUIT PAR ENTRÉE : utiliser exclusivement le chemin `source` de l'entrée manifeste correspondante ; ne jamais emprunter une teinte, un fermoir ou un embout à une autre entrée.",
+        "Produit exact : bracelet métallique Jubilé à cinq rangées avec petits maillons centraux, embouts courbes et fermoir déployant rectangulaire. Conserver exactement la géométrie, le rythme des maillons, les trous latéraux du fermoir et les surfaces polies/brossées visibles.",
+        "Conserver strictement les trois finitions : acier et centre doré pour `steel gold-no logo`, intégralement doré pour `gold-no logo`, intégralement acier argenté pour `steel-no logo`. Aucun mélange ni nuance inventée.",
+        "Le fermoir reste totalement vierge comme dans les variantes `no logo`. Aucun logo, nom, mot, lettre, chiffre, filigrane ou verbatim sur les maillons, le fermoir, les embouts ou le fond.",
+        "Aucune montre, aucun boîtier, cadran, poignet, main, personne, vêtement, bijou, outil, emballage ou accessoire. Un seul bracelet complet par image.",
+        "La photo fournisseur est une référence produit, jamais un livrable brut : nouvelle composition maison obligatoire, sans modifier le bracelet.",
+        "Sortie 2048 × 2048 px, JPEG sRGB qualité environ 90, viser 400-900 Ko et respecter exactement le nom `fichier` du manifeste."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Contrôle source↔rendu entrée par entrée : cinq rangées Jubilé, embouts courbes, forme et trous du fermoir, surfaces polies/brossées et répartition exacte des finitions acier/doré.",
+        "Zoom sur tout le fermoir et chaque maillon : aucun logo, texte, filigrane ou verbatim, même partiel ; la surface du fermoir doit rester vierge.",
+        "Contrôle de complétude : un seul bracelet, aucun maillon fusionné, manquant ou doublé, aucun embout droit substitué aux embouts courbes.",
+        "Planche des trois rendus côte à côte, au moins 740 px par vignette, pour vérifier que seule la finition change et que cadrage, échelle, fond, lumière et ombre restent homogènes.",
+        "Contrôle fichier : nom exact du manifeste, 2048 × 2048, 1:1 strict, JPEG sRGB et poids conforme."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/bracelet-jubile-embouts-courbes",
+      "manifeste": "manifeste-p4-jubile-courbes-3.json"
+    }
+  },
+  "notes": "Audit P4 corrigé : exactement 3 médias PRODUISIBLES pour cette fiche. Aucun média BLOQUÉ ou ABANDON n'entre dans cet ordre. Exécution, wrapper et rattachement boutique hors mission."
+}

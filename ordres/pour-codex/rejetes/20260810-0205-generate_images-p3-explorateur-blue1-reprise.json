@@ -1,0 +1,66 @@
+{
+  "id": "claude-20260810-0205-p3-explorateur-blue1-reprise",
+  "type": "generate_images",
+  "created_at": "2026-08-10T02:04:56+02:00",
+  "requested_by": "claude-code",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "montre-acier-chiffres-3-6-9-explorateur",
+        "sku": "14:100005979#Blue1",
+        "slot": "variante",
+        "fichier": "montre-acier-chiffres-3-6-9-explorateur-v-blue1.jpg",
+        "source": "boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/explorateur-02-14-100005979-blue1.jpg"
+      }
+    ],
+    "sources": [
+      "boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/explorateur-02-14-100005979-blue1.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/montre-acier-chiffres-3-6-9-explorateur-v-green1.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/montre-acier-chiffres-3-6-9-explorateur-v-blue1.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/montre-acier-chiffres-3-6-9-explorateur-v-orange1.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/qa/planche-p3-variantes.jpg"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+      "surcharges": [
+        "REPRISE CIBLÉE BLUE1 UNIQUEMENT : une montre complète, vue de face, centrée sur le fond minéral clair maison, lumière douce haute-gauche et ombre diffuse.",
+        "Le livrable PASS Green1 est le gabarit exclusif de cadrage, d'échelle et de position. Le nouveau Blue1 doit reprendre son emprise, son centre, ses marges et son orientation, tout en restant généré depuis la source fournisseur Blue1 exacte.",
+        "Contrôle quantitatif à l'échelle 512 × 512 : avec exactement le même redimensionnement et le même masque produit appliqués à Green1 et au nouveau Blue1, l'emprise produit Blue1 doit rejoindre celle de Green1, cible mesurée d'environ 454 px. La valeur Blue1 doit être égale à la mesure Green1 au pixel arrondi, ou à défaut s'en écarter d'au plus 2 px."
+      ]
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "VÉRITÉ PRODUIT UNIQUE ET BLOQUANTE : le fragment exact est `14:100005979#Blue1` et l'unique source produit est `boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/explorateur-02-14-100005979-blue1.jpg`. Elle seule définit la teinte bleue, le cadran, les index, les aiguilles, le boîtier, la couronne et le bracelet.",
+        "GREEN1 = GABARIT DE COMPOSITION SEULEMENT : utiliser `montre-acier-chiffres-3-6-9-explorateur-v-green1.jpg` uniquement pour mesurer et reproduire cadrage, échelle, position, centre, emprise et marges. Ne jamais transférer, copier, recolorer ou réutiliser ses pixels produit ni sa couleur verte.",
+        "ORANGE1 = TÉMOIN QA SEULEMENT : `montre-acier-chiffres-3-6-9-explorateur-v-orange1.jpg` sert uniquement à la planche comparative finale. Ne jamais en reprendre les pixels, la couleur ou un détail produit.",
+        "Le Blue1 actuel est RÉSERVE uniquement pour son échelle/cadrage trop grands. Ne pas le recadrer, redimensionner, retoucher, recolorer ni l'utiliser comme vérité produit. Régénérer intégralement depuis la source Blue1 exacte ; aucun inpainting ni gommage.",
+        "Avant tout remplacement, copier octet pour octet l'actuel `boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/montre-acier-chiffres-3-6-9-explorateur-v-blue1.jpg` vers `boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/rejected/montre-acier-chiffres-3-6-9-explorateur-v-blue1-reserve-echelle-cadrage-20260810-0205.jpg`, puis vérifier que la copie existe, est lisible et possède le même hash que l'ancien fichier. Si cette copie ou sa vérification échoue, arrêter sans écraser l'actuel.",
+        "Seulement après la sauvegarde vérifiée, remplacer explicitement `montre-acier-chiffres-3-6-9-explorateur-v-blue1.jpg` par le nouveau Blue1 PASS. Ne produire, remplacer ni réencoder aucun autre média de variante.",
+        "CADRAN 3-6-9 : conserver strictement les chiffres arabes 3, 6 et 9, chacun une fois, dans leur position, leur forme et leur orientation exactes. Conserver aussi tous les index, aiguilles, boîtier, couronne à droite et bracelet acier de la source Blue1.",
+        "MANDATORY ORIENTATION — the watch lies flat, dial fully readable: 12 o'clock marker at the TOP, crown on the RIGHT. Every printed numeral must READ RIGHT-SIDE UP — NOT flipped, NOT rotated. If in doubt, follow the Green1 framing without copying its product pixels.",
+        "Aucun logo, nom, mot, lettre, sigle, filigrane ou mention, même atténuée, sur le cadran, le boîtier, le bracelet ou le fond. Au moindre ajout ou défaut de chiffre, rejeter et régénérer depuis la source Blue1 exacte.",
+        "Aucune photo fournisseur brute reconnaissable, aucun autre objet, montre supplémentaire, poignet, main, personne, emballage, avis, note, étoile, badge, témoignage ou texte incrusté.",
+        "Sortie 2048 × 2048 px, carré 1:1, JPEG sRGB qualité environ 90, viser 400-900 Ko et rester sous 1,2 Mo ; respecter exactement le nom manifeste."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Contrôle source Blue1↔nouveau rendu à fort zoom : teinte bleue, cadran 3-6-9, index, aiguilles, boîtier, couronne et bracelet fidèles ; aucun détail emprunté à Green1 ou Orange1.",
+        "Contrôle stérilité bloquant : 3, 6 et 9 présents une fois, correctement formés et à l'endroit ; aucun mot, lettre, logo, sigle, filigrane ou mention atténuée.",
+        "Contrôle géométrique bloquant : même cadrage, centre, position, orientation, emprise et marges que Green1. À 512 × 512, appliquer le même masque produit aux deux images et mesurer l'emprise : Green1 vaut environ 454 px et Blue1 doit obtenir la même valeur arrondie, tolérance maximale 2 px. Consigner les deux mesures et leur écart dans le résultat ou le manifeste réalisé.",
+        "Contrôle de sauvegarde avant remplacement : la copie `rejected/montre-acier-chiffres-3-6-9-explorateur-v-blue1-reserve-echelle-cadrage-20260810-0205.jpg` existe, est lisible et son hash avant remplacement est identique à celui de l'ancien Blue1. Consigner ce contrôle.",
+        "Contrôle d'immuabilité : Green1 et Orange1 restent strictement inchangés. Consigner leurs hashes avant/après ou une preuve équivalente de non-écriture.",
+        "Créer `qa/planche-p3-reprise-explorateur-green1-blue1-orange1.jpg` avec exactement trois vignettes dans l'ordre gauche→droite Green1 PASS / nouveau Blue1 / Orange1 PASS, au moins 740 px par vignette, pour comparer échelle, emprise, centrage, marges, orientation, fond, lumière et ombre.",
+        "Sur la planche, neutraliser mentalement la couleur pour juger la géométrie ; la planche ne doit jamais être construite en recolorant ou en fusionnant les pixels produit des trois variantes.",
+        "Contrôle final : seul `montre-acier-chiffres-3-6-9-explorateur-v-blue1.jpg` est livré/remplacé ; nom exact, 2048 × 2048, JPEG sRGB, poids conforme et manifeste réalisé limité à cette unique entrée."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur",
+      "manifeste": "manifeste-p3-blue1-reprise.json"
+    }
+  },
+  "notes": "Reprise ciblée du seul Blue1 issu de l'ordre 20260810-0103. Sauvegarde hashée obligatoire avant remplacement. Green1 fixe uniquement le cadrage, l'échelle et la position ; Orange1 est un témoin de planche. Aucun autre média, aucun accès boutique et aucun rattachement ne relèvent de cet ordre."
+}

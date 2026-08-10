@@ -1,0 +1,80 @@
+{
+  "id": "claude-20260810-0205-p3-explorateur-blue1-reprise",
+  "status": "rejected",
+  "payload": {
+    "manifeste_realise": [],
+    "motif_global": "Aucune des huit regenerations integrales depuis la source Blue1 exacte n'atteint l'emprise bloquante de Green1 (454 px a 512 x 512, tolerance maximale 2 px). La tentative la plus proche, g4, mesure 457 px, soit un ecart de 3 px. Aucune retouche, aucun redimensionnement correctif et aucun inpainting n'ont ete appliques ; le Blue1 existant reste donc inchange.",
+    "rejets": [
+      {
+        "fichier": "rejected/montre-acier-chiffres-3-6-9-explorateur-v-blue1-g1-emprise-trop-grande-466px.jpg",
+        "motif": "Generation 1 rejetee : emprise 466 px, ecart +12 px par rapport a Green1."
+      },
+      {
+        "fichier": "rejected/montre-acier-chiffres-3-6-9-explorateur-v-blue1-g2-emprise-trop-grande-471px.jpg",
+        "motif": "Generation 2 rejetee : emprise 471 px, ecart +17 px par rapport a Green1."
+      },
+      {
+        "fichier": "rejected/montre-acier-chiffres-3-6-9-explorateur-v-blue1-g3-emprise-trop-grande-479px.jpg",
+        "motif": "Generation 3 rejetee : emprise 479 px, ecart +25 px par rapport a Green1."
+      },
+      {
+        "fichier": "rejected/montre-acier-chiffres-3-6-9-explorateur-v-blue1-g4-emprise-trop-grande-457px.jpg",
+        "motif": "Generation 4 rejetee : meilleure tentative, mais emprise 457 px, ecart +3 px, au-dela de la tolerance maximale de 2 px."
+      },
+      {
+        "fichier": "rejected/montre-acier-chiffres-3-6-9-explorateur-v-blue1-g5-emprise-trop-grande-467px.jpg",
+        "motif": "Generation 5 rejetee : emprise 467 px, ecart +13 px par rapport a Green1."
+      },
+      {
+        "fichier": "rejected/montre-acier-chiffres-3-6-9-explorateur-v-blue1-g6-emprise-trop-courte-430px.jpg",
+        "motif": "Generation 6 rejetee : emprise 430 px, ecart -24 px par rapport a Green1."
+      },
+      {
+        "fichier": "rejected/montre-acier-chiffres-3-6-9-explorateur-v-blue1-g7-emprise-trop-grande-464px.jpg",
+        "motif": "Generation 7 rejetee : emprise 464 px, ecart +10 px par rapport a Green1."
+      },
+      {
+        "fichier": "rejected/montre-acier-chiffres-3-6-9-explorateur-v-blue1-g8-emprise-trop-grande-483px.jpg",
+        "motif": "Generation 8 rejetee : emprise 483 px, ecart +29 px par rapport a Green1."
+      },
+      {
+        "fichier": "rejected/planche-p3-reprise-explorateur-green1-blue1-orange1-g5-hors-tolerance.jpg",
+        "motif": "Planche QA provisoire reclassee en rejet : elle compare Green1, g5 et Orange1, mais g5 reste hors tolerance."
+      }
+    ],
+    "sujets_difficiles": [
+      "montre-acier-chiffres-3-6-9-explorateur | Blue1 | huit regenerations conformes au flux sans inpainting, mais aucune emprise comprise entre 452 et 456 px ; meilleure tentative g4 = 457 px"
+    ],
+    "controle_qa": {
+      "methode_emprise": "Redimensionnement commun 512 x 512 en LANCZOS, conversion niveaux de gris, masque de lignes du produit sur la bande centrale x=216..295 selon ecart-type de ligne >= 16 % du maximum propre a l'image ; emprise = derniere ligne masquee - premiere ligne masquee + 1.",
+      "green1_px": 454,
+      "tolerance_px": 2,
+      "mesures_px": {
+        "g1": 466,
+        "g2": 471,
+        "g3": 479,
+        "g4": 457,
+        "g5": 467,
+        "g6": 430,
+        "g7": 464,
+        "g8": 483
+      },
+      "meilleure_tentative": "g4",
+      "meilleur_ecart_px": 3,
+      "blue1_final_remplace": false,
+      "manifeste_ecrit": false
+    },
+    "controle_sauvegarde": {
+      "ancien_blue1_sha256": "6e27de40e6bc5c672188f0a8a868af452129db1667ffa88032c3a53640bbfbd4",
+      "reserve_sha256": "6e27de40e6bc5c672188f0a8a868af452129db1667ffa88032c3a53640bbfbd4",
+      "copie_lisible_et_identique": true
+    },
+    "controle_immuabilite": {
+      "green1_sha256_avant_apres": "6855cb8da74fc1348197db922ca42de14bde74e328a0953508edb038a34f707c",
+      "orange1_sha256_avant_apres": "aa96bbb4f4675c411e7ed0962964fceaa1c7f3f36a166e19cbd689b8d1c4c06a",
+      "blue1_existant_sha256_apres": "6e27de40e6bc5c672188f0a8a868af452129db1667ffa88032c3a53640bbfbd4"
+    }
+  },
+  "executed_at": "2026-08-10T02:25:34Z",
+  "executor": "codex-2026-08-10"
+}
