@@ -1,0 +1,30 @@
+{
+  "id": "claude-20260810-0103-p3-squelette-octogone-1",
+  "status": "rejected",
+  "payload": {
+    "manifeste_realise": [],
+    "rejets": [
+      {
+        "fichier": "rejected/v1-mecanisme-squelette-recompose.jpg",
+        "motif": "Première génération écartée : l'architecture du mouvement squelette a été recomposée au lieu de rester identique à la source exacte."
+      },
+      {
+        "fichier": "rejected/v2-six-vis-et-mecanisme-recompose.jpg",
+        "motif": "Deuxième génération écartée : seulement six vis de lunette visibles et architecture du mouvement squelette recomposée."
+      },
+      {
+        "fichier": "rejected/v3-huit-vis-mais-mecanisme-recompose.jpg",
+        "motif": "Troisième génération écartée : huit vis visibles, mais ponts, ouvertures et engrenages du mouvement recomposés par rapport à la source exacte."
+      },
+      {
+        "fichier": "rejected/v4-huit-vis-contradictoires-avec-source-six-vis.jpg",
+        "motif": "Quatrième génération écartée : elle matérialise huit vis comme demandé par l'ordre, alors que la source unique n'en montre que six ; deux vis seraient donc inventées, et le mouvement reste recomposé."
+      }
+    ],
+    "sujets_difficiles": [
+      "montre-squelette-automatique-octogone | ordre inexécutable sans falsification après 4 générations : la source produit unique montre six vis de lunette visibles, tandis que les contraintes spécifiques imposent d'en préserver exactement huit ; livrer huit vis inventerait deux composants et livrer six vis violerait l'ordre"
+    ]
+  },
+  "executed_at": "2026-08-10T00:49:52Z",
+  "executor": "codex-2026-08-10"
+}

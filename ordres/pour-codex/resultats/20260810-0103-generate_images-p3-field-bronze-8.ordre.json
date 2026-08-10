@@ -1,0 +1,100 @@
+{
+  "id": "claude-20260810-0103-p3-field-bronze-8",
+  "type": "generate_images",
+  "created_at": "2026-08-09T23:03:00Z",
+  "requested_by": "claude-code",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "montre-field-bronze-cadran-chiffres-1-12",
+        "sku": "14:350850#blue-sterile",
+        "slot": "variante",
+        "fichier": "montre-field-bronze-cadran-chiffres-1-12-v-blue-sterile.jpg"
+      },
+      {
+        "handle": "montre-field-bronze-cadran-chiffres-1-12",
+        "sku": "14:4#black D-sterile",
+        "slot": "variante",
+        "fichier": "montre-field-bronze-cadran-chiffres-1-12-v-black-d-sterile.jpg"
+      },
+      {
+        "handle": "montre-field-bronze-cadran-chiffres-1-12",
+        "sku": "14:175#black B-sterile",
+        "slot": "variante",
+        "fichier": "montre-field-bronze-cadran-chiffres-1-12-v-black-b-sterile.jpg"
+      },
+      {
+        "handle": "montre-field-bronze-cadran-chiffres-1-12",
+        "sku": "14:94#silver sterile",
+        "slot": "variante",
+        "fichier": "montre-field-bronze-cadran-chiffres-1-12-v-silver-sterile.jpg"
+      },
+      {
+        "handle": "montre-field-bronze-cadran-chiffres-1-12",
+        "sku": "14:200000080#black A-sterile",
+        "slot": "variante",
+        "fichier": "montre-field-bronze-cadran-chiffres-1-12-v-black-a-sterile.jpg"
+      },
+      {
+        "handle": "montre-field-bronze-cadran-chiffres-1-12",
+        "sku": "14:200000914#green B sterile",
+        "slot": "variante",
+        "fichier": "montre-field-bronze-cadran-chiffres-1-12-v-green-b-sterile.jpg"
+      },
+      {
+        "handle": "montre-field-bronze-cadran-chiffres-1-12",
+        "sku": "14:201447303#black C-sterile",
+        "slot": "variante",
+        "fichier": "montre-field-bronze-cadran-chiffres-1-12-v-black-c-sterile.jpg"
+      },
+      {
+        "handle": "montre-field-bronze-cadran-chiffres-1-12",
+        "sku": "14:496#white sterile",
+        "slot": "variante",
+        "fichier": "montre-field-bronze-cadran-chiffres-1-12-v-white-sterile.jpg"
+      }
+    ],
+    "sources": [
+      "boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/field-bronze-13-14-350850-blue-sterile.jpg",
+      "boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/field-bronze-15-14-4-black-d-sterile.jpg",
+      "boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/field-bronze-05-14-175-black-b-sterile.jpg",
+      "boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/field-bronze-18-14-94-silver-sterile.jpg",
+      "boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/field-bronze-07-14-200000080-black-a-sterile.jpg",
+      "boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/field-bronze-08-14-200000914-green-b-sterile.jpg",
+      "boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/field-bronze-10-14-201447303-black-c-sterile.jpg",
+      "boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/field-bronze-16-14-496-white-sterile.jpg"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3"
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "VÉRITÉ PRODUIT STRICTE : chaque entrée utilise uniquement la source homologue, appariée par le fragment SKU exact dans le nom du fichier source : blue-sterile → field-bronze-13 ; black D-sterile → field-bronze-15 ; black B-sterile → field-bronze-05 ; silver sterile → field-bronze-18 ; black A-sterile → field-bronze-07 ; green B sterile → field-bronze-08 ; black C-sterile → field-bronze-10 ; white sterile → field-bronze-16.",
+        "Les huit sources ont été vérifiées à l'image : aucun mot, aucune lettre, aucun logo ni sigle sur le produit. Les chiffres arabes, la minuterie et le quantième éventuel sont constitutifs du cadran et doivent rester exacts.",
+        "Préserver SKU par SKU : couleur et texture du cadran, présence ou absence du guichet de date, grandes heures 1-12, petite couronne 13-24 lorsqu'elle existe, piste des minutes, couleurs des aiguilles et de la trotteuse, boîtier bronze vieilli, couronne et bracelet cuir brun. Aucun transfert de caractéristiques entre sources.",
+        "SLOT VARIANTE : une seule montre complète, centrée et lisible, présentation studio maison sur fond minéral clair. Le produit réel vient de la source exacte ; seuls le fond, la lumière et le cadrage éditorial changent.",
+        "MANDATORY ORIENTATION — the watch lies flat, dial fully readable: 12 o'clock marker at the TOP, crown on the RIGHT. Every printed numeral must READ RIGHT-SIDE UP — NOT flipped, NOT rotated. If in doubt, keep the reference framing.",
+        "Aucun inpainting, gommage, recoloriage d'un autre SKU, texte incrusté, avis, note, étoile, badge ou témoignage. Au moindre défaut, régénérer depuis la source exacte.",
+        "Aucune photo fournisseur brute ou reconnaissable ne doit être livrée.",
+        "Sortie 2048 × 2048 px, carré 1:1, JPEG sRGB qualité ~90, viser 400-900 Ko et rester sous 1,2 Mo.",
+        "Ne produire que les huit fichiers du manifeste. Aucun accès Shopify, DSers, AliExpress, navigateur ou API distante."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Contrôle chiffre par chiffre de chaque cadran, y compris les petites couronnes et guichets de date ; aucun chiffre manquant, ajouté, inversé ou transféré d'un autre SKU.",
+        "Zoom sur cadran, boîtier, couronne et bracelet : aucune marque, aucun mot, aucune lettre, aucun logo ou sigle.",
+        "Comparer chaque rendu uniquement à sa source homologue : teinte, index, aiguilles, date, patine du boîtier et bracelet fidèles.",
+        "Produire une planche des huit variantes avec au moins 740 px par vignette ; scinder si nécessaire sans descendre sous 740 px.",
+        "Vérifier orientation 12 h en haut et couronne à droite, puis 2048 × 2048, JPEG sRGB et poids sous 1,2 Mo pour les huit fichiers."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-bronze-cadran-chiffres-1-12",
+      "manifeste": "manifeste-p3-variantes.json"
+    }
+  },
+  "notes": "Ordre P3 limité aux huit variantes Field Bronze dont les sources exactes sont propres et appariées. Identité durable : handle + fragment SKU fournisseur + slot ; aucun identifiant Shopify. Le branchement final reste hors de cet ordre."
+}

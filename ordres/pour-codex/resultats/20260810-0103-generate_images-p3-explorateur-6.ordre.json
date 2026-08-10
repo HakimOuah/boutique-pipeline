@@ -1,0 +1,86 @@
+{
+  "id": "claude-20260810-0103-p3-explorateur-6",
+  "type": "generate_images",
+  "created_at": "2026-08-09T23:03:00Z",
+  "requested_by": "claude-code",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "montre-acier-chiffres-3-6-9-explorateur",
+        "sku": "14:10#Green1",
+        "slot": "variante",
+        "fichier": "montre-acier-chiffres-3-6-9-explorateur-v-green1.jpg"
+      },
+      {
+        "handle": "montre-acier-chiffres-3-6-9-explorateur",
+        "sku": "14:100005979#Blue1",
+        "slot": "variante",
+        "fichier": "montre-acier-chiffres-3-6-9-explorateur-v-blue1.jpg"
+      },
+      {
+        "handle": "montre-acier-chiffres-3-6-9-explorateur",
+        "sku": "14:175#Orange1",
+        "slot": "variante",
+        "fichier": "montre-acier-chiffres-3-6-9-explorateur-v-orange1.jpg"
+      },
+      {
+        "handle": "montre-acier-chiffres-3-6-9-explorateur",
+        "sku": "14:200000080#Black1",
+        "slot": "variante",
+        "fichier": "montre-acier-chiffres-3-6-9-explorateur-v-black1.jpg"
+      },
+      {
+        "handle": "montre-acier-chiffres-3-6-9-explorateur",
+        "sku": "14:366#Red1",
+        "slot": "variante",
+        "fichier": "montre-acier-chiffres-3-6-9-explorateur-v-red1.jpg"
+      },
+      {
+        "handle": "montre-acier-chiffres-3-6-9-explorateur",
+        "sku": "14:94#White1",
+        "slot": "variante",
+        "fichier": "montre-acier-chiffres-3-6-9-explorateur-v-white1.jpg"
+      }
+    ],
+    "sources": [
+      "boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/explorateur-01-14-10-green1.jpg",
+      "boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/explorateur-02-14-100005979-blue1.jpg",
+      "boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/explorateur-05-14-175-orange1.jpg",
+      "boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/explorateur-07-14-200000080-black1.jpg",
+      "boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/explorateur-12-14-366-red1.jpg",
+      "boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/explorateur-13-14-94-white1.jpg"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3"
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "VÉRITÉ PRODUIT STRICTE : chaque entrée du manifeste utilise uniquement sa source homologue, appariée par le fragment SKU exact dans le nom du fichier source. Green1 → explorateur-01-14-10-green1.jpg ; Blue1 → explorateur-02-14-100005979-blue1.jpg ; Orange1 → explorateur-05-14-175-orange1.jpg ; Black1 → explorateur-07-14-200000080-black1.jpg ; Red1 → explorateur-12-14-366-red1.jpg ; White1 → explorateur-13-14-94-white1.jpg. Ne jamais transférer un cadran d'une source vers un autre SKU.",
+        "Les six sources ont été vérifiées à l'image : aucun mot, aucune lettre, aucun logo ni sigle sur le cadran. Cette absence est constitutive du produit et doit rester absolue dans le rendu.",
+        "CADRAN 3-6-9 : les chiffres arabes 3, 6 et 9 sont le produit. Les conserver exactement dans leur position, leur forme et leur orientation ; conserver aussi les index, aiguilles, boîtier, couronne et bracelet acier de la source exacte.",
+        "SLOT VARIANTE : une seule montre complète, centrée et lisible, présentation studio maison sur fond minéral clair. Le produit vient de la source exacte ; seuls le fond, la lumière et le cadrage éditorial changent.",
+        "MANDATORY ORIENTATION — the watch lies flat, dial fully readable: 12 o'clock marker at the TOP, crown on the RIGHT. Every printed numeral must READ RIGHT-SIDE UP — NOT flipped, NOT rotated. If in doubt, keep the reference framing.",
+        "Aucun inpainting, gommage ou recoloriage d'un autre SKU. Au moindre texte parasite ou défaut de chiffre, régénérer depuis la source exacte de l'entrée.",
+        "Aucune photo fournisseur brute ou reconnaissable ne doit être livrée. Aucun avis, note, étoile, badge, témoignage ou texte incrusté.",
+        "Sortie 2048 × 2048 px, carré 1:1, JPEG sRGB qualité ~90, viser 400-900 Ko et rester sous 1,2 Mo.",
+        "Ne produire que les six fichiers du manifeste. Aucun accès Shopify, DSers, AliExpress, navigateur ou API distante."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Contrôle à fort zoom de chaque cadran : 3, 6 et 9 présents une fois, correctement formés, à l'endroit ; aucun mot, lettre, logo, sigle ou mention atténuée.",
+        "Comparer chaque rendu uniquement à sa source homologue : teinte de cadran, index, aiguilles, boîtier, couronne et bracelet identiques.",
+        "Produire une planche de contrôle unique des six variantes, avec au moins 740 px par vignette, et vérifier l'homogénéité de cadrage et de lumière sans confondre les suffixes SKU.",
+        "Vérifier orientation 12 h en haut et couronne à droite sur les six images.",
+        "Vérifier 2048 × 2048, JPEG sRGB et poids sous 1,2 Mo pour chacun des six fichiers."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur",
+      "manifeste": "manifeste-p3-variantes.json"
+    }
+  },
+  "notes": "Ordre P3 limité aux six variantes visuelles dont la source exacte a passé l'interdit strict de tout mot ou lettre sur cadran. Identité durable : handle + fragment SKU fournisseur + slot ; aucun identifiant Shopify. Le branchement final reste hors de cet ordre."
+}

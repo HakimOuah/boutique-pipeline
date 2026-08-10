@@ -1,0 +1,67 @@
+{
+  "id": "claude-20260810-0121-gaufre-white-reprise",
+  "type": "generate_images",
+  "created_at": "2026-08-10T01:21:03+02:00",
+  "requested_by": "claude-code",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "bracelet-caoutchouc-gaufre",
+        "sku": "200000049:200966040#White-Silver Buckle",
+        "slot": "variante",
+        "fichier": "bracelet-caoutchouc-gaufre-v-white-silver-buckle.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-caoutchouc-gaufre/S66b23525f95a4a5a8c8612c56abf8226Z.webp"
+      }
+    ],
+    "sources": [
+      "scratchpad/backup-medias-accessoires-lot4/bracelet-caoutchouc-gaufre/S66b23525f95a4a5a8c8612c56abf8226Z.webp",
+      "boutique-seiko-mod/visuels-codex-2026-08/bracelet-caoutchouc-gaufre/bracelet-caoutchouc-gaufre-v-white-silver-buckle.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/bracelet-caoutchouc-gaufre/bracelet-caoutchouc-gaufre-v-yellow-silver-buckle.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/bracelet-caoutchouc-gaufre/bracelet-caoutchouc-gaufre-v-light-blue-silver.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/bracelet-caoutchouc-gaufre/qa/planche-gaufre-claires-argentees.jpg"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+      "surcharges": [
+        "REPRISE CIBLÉE D'UN SEUL MÉDIA : générer uniquement la variante blanche à boucle argentée. La source fournisseur blanche exacte est l'unique vérité produit ; les livrables PASS jaune et bleu clair servent exclusivement de gabarits de composition.",
+        "Caler strictement le nouveau blanc sur le consensus géométrique des deux PASS : brin à boucle à gauche, brin long perforé à droite, deux brins parallèles en diagonale montante vers la droite, mêmes orientation, angle, échelle apparente, emprise, espacement inter-brins, centrage et marges sur les quatre côtés.",
+        "Conserver le fond minéral neutre pierre vers craie, la lumière douce haute-gauche et l'ombre diffuse des deux PASS. À couleur neutralisée, la composition du blanc doit être visuellement superposable à celles du jaune et du bleu clair."
+      ]
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "VÉRITÉ PRODUIT UNIQUE ET BLOQUANTE : utiliser exclusivement `scratchpad/backup-medias-accessoires-lot4/bracelet-caoutchouc-gaufre/S66b23525f95a4a5a8c8612c56abf8226Z.webp` pour la forme, la matière, la teinte et les composants du produit blanc. Le jaune et le bleu clair ne sont que des références d'orientation, d'échelle et de position ; ne jamais copier, recolorer ni transférer leurs pixels produit.",
+        "Produit exact à préserver : bracelet de montre blanc en caoutchouc souple gaufré, paire complète de deux brins, face gaufrée, bords longitudinaux, perforations, deux passants, boucle ardillon argentée et barrettes rapides conformes à la source blanche. Aucun changement de géométrie, relief, matériau, couleur, finition ou équipement.",
+        "GABARITS PASS IMMUTABLES : `bracelet-caoutchouc-gaufre-v-yellow-silver-buckle.jpg` et `bracelet-caoutchouc-gaufre-v-light-blue-silver.jpg` définissent ensemble la composition cible. Ne pas les modifier, déplacer, réencoder ni écraser.",
+        "Le fichier blanc actuel est RÉSERVE uniquement pour son échelle et sa position différentes. Ne pas reprendre son cadrage comme cible. Le régénérer depuis la source fournisseur exacte ; aucun gommage, inpainting, transformation géométrique du produit ou simple retouche du fichier RÉSERVE.",
+        "Avant tout remplacement, copier octet pour octet le fichier actuel `boutique-seiko-mod/visuels-codex-2026-08/bracelet-caoutchouc-gaufre/bracelet-caoutchouc-gaufre-v-white-silver-buckle.jpg` vers `boutique-seiko-mod/visuels-codex-2026-08/bracelet-caoutchouc-gaufre/rejected/bracelet-caoutchouc-gaufre-v-white-silver-buckle-reserve-echelle-position-20260810.jpg`, puis vérifier que cette copie existe, est lisible et possède le même hash que l'actuel. Si la copie ou sa vérification échoue, arrêter sans écraser le livrable actuel.",
+        "Seulement après la sauvegarde vérifiée, remplacer explicitement `bracelet-caoutchouc-gaufre-v-white-silver-buckle.jpg` par le nouveau rendu PASS. Ne produire ni remplacer aucun autre média manifeste.",
+        "Un seul exemplaire du produit : exactement une paire complète de deux brins, sans brin manquant, dupliqué, fusionné ou déformé. Boucle, ardillon, deux passants, perforations et barrettes rapides doivent rester cohérents et fonctionnels.",
+        "Aucun logo, nom, mot, lettre, chiffre, filigrane, étiquette ou verbatim sur le caoutchouc, la boucle, les passants ou le fond. Si un marquage apparaît, rejeter et régénérer depuis la source propre ; aucun gommage ni inpainting.",
+        "Aucune montre, aucun boîtier, cadran, verre, poignet, main, personne, vêtement, bijou, outil, emballage ou décor narratif. Le bracelet seul est le produit.",
+        "La photo fournisseur est une référence produit, jamais un livrable brut : nouveau fond, nouvelle lumière et nouvelle ombre maison obligatoires, sans altérer la vérité produit.",
+        "Sortie 2048 × 2048 px, JPEG sRGB qualité environ 90, viser 400-900 Ko et rester sous 1,2 Mo ; respecter exactement le nom `bracelet-caoutchouc-gaufre-v-white-silver-buckle.jpg`."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Contrôle source blanche↔nouveau rendu : couleur blanche exacte, caoutchouc gaufré, reliefs, bords, perforations, deux passants, boucle et ardillon argentés, barrettes rapides et paire complète fidèles ; aucune invention issue des références jaune ou bleue.",
+        "Contrôle géométrique bloquant face aux deux PASS : même orientation, même angle diagonal montant vers la droite, brin à boucle à gauche, brin perforé à droite, même échelle apparente, même emprise, même espacement inter-brins, même centrage et mêmes marges. Si le blanc ne s'aligne pas sur le consensus jaune/bleu à couleur neutralisée, le rejeter et le régénérer.",
+        "Contrôle fond et lumière : fond minéral neutre, lumière haute-gauche et ombre diffuse cohérents avec les deux PASS, sans dérive de température, de contraste ou de densité.",
+        "Zoom intégral du bracelet et de la boucle : aucun logo, texte, filigrane ou verbatim, même flou ou partiel ; aucune montre, main ou personne.",
+        "Contrôle de sauvegarde avant remplacement : la copie `rejected/bracelet-caoutchouc-gaufre-v-white-silver-buckle-reserve-echelle-position-20260810.jpg` existe, est lisible et son hash avant remplacement est identique à celui de l'ancien fichier RÉSERVE. Consigner ce contrôle dans le manifeste réalisé.",
+        "Contrôle d'immuabilité : les fichiers PASS jaune et bleu clair sont strictement inchangés. Consigner leurs hashes avant/après ou, à défaut, une preuve équivalente de non-écriture.",
+        "Créer la planche `qa/planche-gaufre-claires-argentees-reprise-white.jpg` avec exactement trois vignettes dans l'ordre gauche→droite jaune PASS / nouveau blanc / bleu clair PASS, au moins 740 px par vignette, afin de comparer directement orientation, échelle, emprise, espacement, centrage, marges, fond, lumière et ombre.",
+        "La planche existante `qa/planche-gaufre-claires-argentees.jpg` documente l'écart RÉSERVE ; elle ne remplace ni les fichiers PASS comme gabarits ni la source blanche comme vérité produit.",
+        "Contrôle fichier final : nom exact du manifeste, 2048 × 2048, 1:1 strict, JPEG sRGB, poids conforme et manifeste réalisé limité à cet unique média."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/bracelet-caoutchouc-gaufre",
+      "manifeste": "manifeste-gaufre-white-reprise.json"
+    }
+  },
+  "notes": "Reprise ciblée du seul média blanc RÉSERVE du résultat 20260810-0057. Sauvegarde vérifiée de l'actuel dans rejected/ obligatoire avant remplacement. Le jaune et le bleu clair restent des PASS intouchables et ne servent que de références de composition. Ne pas lancer d'attachement Shopify/DSers et ne produire aucun autre livrable manifeste."
+}

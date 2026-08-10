@@ -1,0 +1,114 @@
+{
+  "id": "claude-20260810-0103-p3-field-acier-10",
+  "type": "generate_images",
+  "created_at": "2026-08-09T23:03:00Z",
+  "requested_by": "claude-code",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "montre-field-acier-cadran-chiffres-1-12",
+        "sku": "14:4#black 8-sterile",
+        "slot": "variante",
+        "fichier": "montre-field-acier-cadran-chiffres-1-12-v-black-8-sterile.jpg"
+      },
+      {
+        "handle": "montre-field-acier-cadran-chiffres-1-12",
+        "sku": "14:366#black 3-sterile",
+        "slot": "variante",
+        "fichier": "montre-field-acier-cadran-chiffres-1-12-v-black-3-sterile.jpg"
+      },
+      {
+        "handle": "montre-field-acier-cadran-chiffres-1-12",
+        "sku": "14:865#black 4-sterile",
+        "slot": "variante",
+        "fichier": "montre-field-acier-cadran-chiffres-1-12-v-black-4-sterile.jpg"
+      },
+      {
+        "handle": "montre-field-acier-cadran-chiffres-1-12",
+        "sku": "14:201447598#black 7-sterile",
+        "slot": "variante",
+        "fichier": "montre-field-acier-cadran-chiffres-1-12-v-black-7-sterile.jpg"
+      },
+      {
+        "handle": "montre-field-acier-cadran-chiffres-1-12",
+        "sku": "14:200000914#black 5-sterile",
+        "slot": "variante",
+        "fichier": "montre-field-acier-cadran-chiffres-1-12-v-black-5-sterile.jpg"
+      },
+      {
+        "handle": "montre-field-acier-cadran-chiffres-1-12",
+        "sku": "14:94#green-sterile",
+        "slot": "variante",
+        "fichier": "montre-field-acier-cadran-chiffres-1-12-v-green-sterile.jpg"
+      },
+      {
+        "handle": "montre-field-acier-cadran-chiffres-1-12",
+        "sku": "14:175#black 6-sterile",
+        "slot": "variante",
+        "fichier": "montre-field-acier-cadran-chiffres-1-12-v-black-6-sterile.jpg"
+      },
+      {
+        "handle": "montre-field-acier-cadran-chiffres-1-12",
+        "sku": "14:100005979#black 2-sterile",
+        "slot": "variante",
+        "fichier": "montre-field-acier-cadran-chiffres-1-12-v-black-2-sterile.jpg"
+      },
+      {
+        "handle": "montre-field-acier-cadran-chiffres-1-12",
+        "sku": "14:350850#silver-sterile",
+        "slot": "variante",
+        "fichier": "montre-field-acier-cadran-chiffres-1-12-v-silver-sterile.jpg"
+      },
+      {
+        "handle": "montre-field-acier-cadran-chiffres-1-12",
+        "sku": "14:10#blue-sterile",
+        "slot": "variante",
+        "fichier": "montre-field-acier-cadran-chiffres-1-12-v-blue-sterile.jpg"
+      }
+    ],
+    "sources": [
+      "/Users/Hakim/Documents/Boutiques drop/scratchpad/backup-fournisseur-arabes-squelettes/montre-field-acier-cadran-chiffres-arabes/S6547c64747b3487f8760d862d7682c3eU.webp",
+      "/Users/Hakim/Documents/Boutiques drop/scratchpad/backup-fournisseur-arabes-squelettes/montre-field-acier-cadran-chiffres-arabes/S5a776b23fc594f6d8809b07afc64b54bo.webp",
+      "/Users/Hakim/Documents/Boutiques drop/scratchpad/backup-fournisseur-arabes-squelettes/montre-field-acier-cadran-chiffres-arabes/S336455785f0047f4b6caa3c317516e66b.webp",
+      "/Users/Hakim/Documents/Boutiques drop/scratchpad/backup-fournisseur-arabes-squelettes/montre-field-acier-cadran-chiffres-arabes/S903b15627096405d8f90e966a8683423j.webp",
+      "/Users/Hakim/Documents/Boutiques drop/scratchpad/backup-fournisseur-arabes-squelettes/montre-field-acier-cadran-chiffres-arabes/S97fa65745e3c4864a4ec5058fa1ccb36A.webp",
+      "/Users/Hakim/Documents/Boutiques drop/scratchpad/backup-fournisseur-arabes-squelettes/montre-field-acier-cadran-chiffres-arabes/S032af97f477f43639320165afacd44dfs.webp",
+      "/Users/Hakim/Documents/Boutiques drop/scratchpad/backup-fournisseur-arabes-squelettes/montre-field-acier-cadran-chiffres-arabes/S68c003c091704f7e946a559a608248c4q.webp",
+      "/Users/Hakim/Documents/Boutiques drop/scratchpad/backup-fournisseur-arabes-squelettes/montre-field-acier-cadran-chiffres-arabes/Sf486b7ca1a7e428a8181fdbb3cd686c4T.webp",
+      "/Users/Hakim/Documents/Boutiques drop/scratchpad/backup-fournisseur-arabes-squelettes/montre-field-acier-cadran-chiffres-arabes/Sed416220fb4d41feaf9bc7bae73955b3r.webp",
+      "/Users/Hakim/Documents/Boutiques drop/scratchpad/backup-fournisseur-arabes-squelettes/montre-field-acier-cadran-chiffres-arabes/S06686c77a51640e585b6e2d950e68565Y.webp"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3"
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "VÉRITÉ PRODUIT STRICTE : chaque entrée utilise uniquement la source homologue suivante : black 8-sterile → S6547c64747b3487f8760d862d7682c3eU.webp ; black 3-sterile → S5a776b23fc594f6d8809b07afc64b54bo.webp ; black 4-sterile → S336455785f0047f4b6caa3c317516e66b.webp ; black 7-sterile → S903b15627096405d8f90e966a8683423j.webp ; black 5-sterile → S97fa65745e3c4864a4ec5058fa1ccb36A.webp ; green-sterile → S032af97f477f43639320165afacd44dfs.webp ; black 6-sterile → S68c003c091704f7e946a559a608248c4q.webp ; black 2-sterile → Sf486b7ca1a7e428a8181fdbb3cd686c4T.webp ; silver-sterile → Sed416220fb4d41feaf9bc7bae73955b3r.webp ; blue-sterile → S06686c77a51640e585b6e2d950e68565Y.webp.",
+        "Les dix cadrans ont été contrôlés en résolution originale : aucun mot, aucune lettre, aucun logo ni sigle n'est imprimé sur le produit. Les chiffres arabes et le quantième éventuel sont constitutifs du cadran et doivent être reproduits exactement.",
+        "Le logo et le mot Tandorio visibles dans la marge blanche de chaque source sont un watermark externe au produit : ils ne doivent jamais apparaître dans le rendu final. Ne pas les gommer ni les inpeindre ; régénérer toute l'image depuis le produit réel sur un nouveau fond maison.",
+        "Préserver exactement, SKU par SKU, la couleur et la disposition des grands chiffres 1-12, de la couronne interne 13-24 lorsqu'elle existe, des index, aiguilles, trotteuse, guichet de date, boîtier acier, couronne et bracelet cuir brun.",
+        "SLOT VARIANTE : une seule montre complète, centrée et lisible, présentation studio maison sur fond minéral clair. Seuls fond, lumière et cadrage éditorial changent ; aucune permutation de cadran entre SKU.",
+        "MANDATORY ORIENTATION — the watch lies flat, dial fully readable: 12 o'clock marker at the TOP, crown on the RIGHT. Every printed numeral must READ RIGHT-SIDE UP — NOT flipped, NOT rotated. If in doubt, keep the reference framing.",
+        "Aucun inpainting, gommage, recoloriage d'un autre SKU, texte incrusté, avis, note, étoile, badge ou témoignage. Au moindre défaut, régénérer depuis la source exacte.",
+        "Sortie 2048 × 2048 px, carré 1:1, JPEG sRGB qualité ~90, viser 400-900 Ko et rester sous 1,2 Mo.",
+        "Ne produire que les dix fichiers du manifeste. Aucun accès Shopify, DSers, AliExpress, navigateur ou API distante."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Contrôle chiffre par chiffre de chaque cadran, y compris les couronnes 13-24 et les guichets de date ; aucun chiffre manquant, ajouté, inversé ou transféré d'un autre SKU.",
+        "Zoom sur le produit complet : aucune occurrence du symbole ou du mot Tandorio, aucun mot, lettre, logo ou sigle sur cadran, boîtier, couronne ou bracelet.",
+        "Comparer chaque rendu uniquement à sa source homologue : teinte, index, aiguilles, date, boîtier et bracelet fidèles.",
+        "Produire une planche des dix variantes avec au moins 740 px par vignette ; scinder en deux planches si nécessaire sans réduire une vignette sous 740 px.",
+        "Vérifier orientation 12 h en haut et couronne à droite, puis 2048 × 2048, JPEG sRGB et poids sous 1,2 Mo pour les dix fichiers."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-acier-cadran-chiffres-1-12",
+      "manifeste": "manifeste-p3-variantes.json"
+    }
+  },
+  "notes": "Ordre P3 limité aux dix variantes Field Acier dont le cadran physique est strictement stérile. Le watermark fournisseur est hors produit et sert uniquement à identifier l'image brute ; la sortie doit être une composition maison entière. Identité durable : handle + fragment SKU fournisseur + slot ; aucun identifiant Shopify."
+}

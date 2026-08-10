@@ -1,0 +1,93 @@
+{
+  "id": "claude-20260810-0103-p3-field-bronze-8",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "montre-field-bronze-cadran-chiffres-1-12",
+        "sku": "14:350850#blue-sterile",
+        "slot": "variante",
+        "fichier": "montre-field-bronze-cadran-chiffres-1-12-v-blue-sterile.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "montre-field-bronze-cadran-chiffres-1-12",
+        "sku": "14:4#black D-sterile",
+        "slot": "variante",
+        "fichier": "montre-field-bronze-cadran-chiffres-1-12-v-black-d-sterile.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      },
+      {
+        "handle": "montre-field-bronze-cadran-chiffres-1-12",
+        "sku": "14:175#black B-sterile",
+        "slot": "variante",
+        "fichier": "montre-field-bronze-cadran-chiffres-1-12-v-black-b-sterile.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "montre-field-bronze-cadran-chiffres-1-12",
+        "sku": "14:94#silver sterile",
+        "slot": "variante",
+        "fichier": "montre-field-bronze-cadran-chiffres-1-12-v-silver-sterile.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "montre-field-bronze-cadran-chiffres-1-12",
+        "sku": "14:200000080#black A-sterile",
+        "slot": "variante",
+        "fichier": "montre-field-bronze-cadran-chiffres-1-12-v-black-a-sterile.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "montre-field-bronze-cadran-chiffres-1-12",
+        "sku": "14:200000914#green B sterile",
+        "slot": "variante",
+        "fichier": "montre-field-bronze-cadran-chiffres-1-12-v-green-b-sterile.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "montre-field-bronze-cadran-chiffres-1-12",
+        "sku": "14:201447303#black C-sterile",
+        "slot": "variante",
+        "fichier": "montre-field-bronze-cadran-chiffres-1-12-v-black-c-sterile.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "montre-field-bronze-cadran-chiffres-1-12",
+        "sku": "14:496#white sterile",
+        "slot": "variante",
+        "fichier": "montre-field-bronze-cadran-chiffres-1-12-v-white-sterile.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/black-d-v1-repere-minuterie-malforme.jpg",
+        "motif": "Première tentative écartée : repère numérique de minuterie mal formé."
+      },
+      {
+        "fichier": "rejected/black-d-v2-repere-55-deforme-en-65.jpg",
+        "motif": "Deuxième tentative écartée : le repère 55 a été déformé en 65."
+      },
+      {
+        "fichier": "rejected/black-a-v1-passant-bracelet-invente.jpg",
+        "motif": "Première tentative écartée : passant de bracelet non présent dans la source inventé."
+      },
+      {
+        "fichier": "rejected/green-b-v1-reperes-minuterie-deformes.jpg",
+        "motif": "Première tentative écartée : repères numériques de minuterie déformés."
+      }
+    ],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-08-10T00:33:45Z",
+  "executor": "codex-2026-08-10"
+}

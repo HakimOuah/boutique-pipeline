@@ -1,0 +1,51 @@
+{
+  "id": "claude-20260810-0103-p3-squelette-octogone-1",
+  "type": "generate_images",
+  "created_at": "2026-08-09T23:03:00Z",
+  "requested_by": "claude-code",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "montre-squelette-automatique-octogone",
+        "sku": "14:200000080#Black Skeleton",
+        "slot": "variante",
+        "fichier": "montre-squelette-automatique-octogone-v-black-skeleton.jpg"
+      }
+    ],
+    "sources": [
+      "boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/squelette-octogone-01-14-200000080-black-skeleton.jpg"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3"
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "VÉRITÉ PRODUIT UNIQUE = la source squelette-octogone-01-14-200000080-black-skeleton.jpg, appariée exactement au fragment 14:200000080#Black Skeleton. Aucun boîtier carré ni autre squelette ne doit servir.",
+        "Préserver exactement le boîtier octogonal acier, les huit vis de lunette, la couronne à droite, le bracelet acier intégré, l'anneau noir, le mouvement squelette sombre, les index et les trois aiguilles. Aucun mécanisme ni composant inventé.",
+        "La source a été vérifiée : aucun mot, aucune lettre, aucun logo ni sigle sur le produit. Les seuls repères constitutifs du cadran doivent rester exacts.",
+        "SLOT VARIANTE : une seule montre complète, centrée et lisible, présentation studio maison sur fond minéral clair. Retirer uniquement les éléments d'emballage et de fond par régénération complète ; ne pas modifier le produit.",
+        "MANDATORY ORIENTATION — the watch lies flat, dial fully readable: 12 o'clock marker at the TOP, crown on the RIGHT. Every printed numeral must READ RIGHT-SIDE UP — NOT flipped, NOT rotated. If in doubt, keep the reference framing.",
+        "Aucun inpainting, gommage, texte incrusté, avis, note, étoile, badge ou témoignage. Au moindre défaut, régénérer depuis la source exacte.",
+        "Aucune photo fournisseur brute ou reconnaissable ne doit être livrée.",
+        "Sortie 2048 × 2048 px, carré 1:1, JPEG sRGB qualité ~90, viser 400-900 Ko et rester sous 1,2 Mo.",
+        "Ne produire que le fichier du manifeste. Aucun accès Shopify, DSers, AliExpress, navigateur ou API distante."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Comparer à fort zoom le boîtier octogonal, les huit vis, l'anneau noir, le mouvement sombre, les index et aiguilles à la source exacte.",
+        "Vérifier l'absence totale de mot, lettre, logo, sigle et watermark sur le produit et le fond.",
+        "Vérifier orientation 12 h en haut, couronne à droite et repères à l'endroit.",
+        "Produire une planche source + rendu avec au moins 740 px par vignette.",
+        "Vérifier 2048 × 2048, JPEG sRGB et poids sous 1,2 Mo."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/montre-squelette-automatique-octogone",
+      "manifeste": "manifeste-p3-variantes.json"
+    }
+  },
+  "notes": "Ordre P3 limité au squelette noir octogonal dont la source exacte a été validée visuellement. Identité durable : handle + fragment SKU fournisseur + slot ; aucun identifiant Shopify."
+}

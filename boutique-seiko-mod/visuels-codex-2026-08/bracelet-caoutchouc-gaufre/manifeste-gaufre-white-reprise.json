@@ -1,0 +1,65 @@
+[
+  {
+    "handle": "bracelet-caoutchouc-gaufre",
+    "sku": "200000049:200966040#White-Silver Buckle",
+    "slot": "variante",
+    "fichier": "bracelet-caoutchouc-gaufre-v-white-silver-buckle.jpg",
+    "modele": "gpt-image-2",
+    "regenerations": 0,
+    "qa": {
+      "status": "pass",
+      "source_produit": "scratchpad/backup-medias-accessoires-lot4/bracelet-caoutchouc-gaufre/S66b23525f95a4a5a8c8612c56abf8226Z.webp",
+      "sauvegarde_avant_remplacement": {
+        "fichier": "rejected/bracelet-caoutchouc-gaufre-v-white-silver-buckle-reserve-echelle-position-20260810.jpg",
+        "sha256_ancien_avant_remplacement": "60573e409026aae89b2657b95e9a0e05c8c907dc385a33a14415c001bb0f0185",
+        "sha256_copie": "60573e409026aae89b2657b95e9a0e05c8c907dc385a33a14415c001bb0f0185",
+        "copie_lisible": true,
+        "hash_identique": true
+      },
+      "gabarits_pass_immuables": [
+        {
+          "fichier": "bracelet-caoutchouc-gaufre-v-yellow-silver-buckle.jpg",
+          "sha256_avant": "8209882c3eeb0cf846c28770675dfe3a1bb2698a62bd7ce60afd430383b863af",
+          "sha256_apres": "8209882c3eeb0cf846c28770675dfe3a1bb2698a62bd7ce60afd430383b863af",
+          "inchange": true
+        },
+        {
+          "fichier": "bracelet-caoutchouc-gaufre-v-light-blue-silver.jpg",
+          "sha256_avant": "184da8b0104d1f2872268656acbfcb4121efdd7184ee5e871982049dd17688a3",
+          "sha256_apres": "184da8b0104d1f2872268656acbfcb4121efdd7184ee5e871982049dd17688a3",
+          "inchange": true
+        }
+      ],
+      "fichier_final": {
+        "sha256": "1fe12576f2f3c40747f7fb963b5a01a46a9b0437f9699bc71e4d4c065e065535",
+        "largeur_px": 2048,
+        "hauteur_px": 2048,
+        "format": "JPEG",
+        "profil": "sRGB IEC61966-2.1",
+        "octets": 588813
+      },
+      "planche": {
+        "fichier": "qa/planche-gaufre-claires-argentees-reprise-white.jpg",
+        "ordre": [
+          "jaune PASS",
+          "nouveau blanc",
+          "bleu clair PASS"
+        ],
+        "largeur_px": 2220,
+        "hauteur_px": 740,
+        "largeur_vignette_px": 740,
+        "sha256": "aedd014622127b136b229acf4a32e7fb68ddad88dc13e8f245f7c19884762f13"
+      },
+      "controles_visuels": {
+        "fidelite_source_blanche": true,
+        "composition_alignee_gabarits": true,
+        "paire_complete": true,
+        "deux_passants": true,
+        "boucle_ardillon_argentes": true,
+        "barrettes_rapides_presentes": true,
+        "aucun_texte_logo_filigrane": true,
+        "fond_lumiere_ombre_coherents": true
+      }
+    }
+  }
+]
