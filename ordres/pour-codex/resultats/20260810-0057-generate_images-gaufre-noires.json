@@ -1,0 +1,97 @@
+{
+  "id": "claude-20260810-0057-gaufre-noires",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "bracelet-caoutchouc-gaufre",
+        "sku": "200000049:16146268#Green-Black Buckle",
+        "slot": "variante",
+        "fichier": "bracelet-caoutchouc-gaufre-v-green-black-buckle.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-caoutchouc-gaufre",
+        "sku": "200000049:201009050#White-Black Buckle",
+        "slot": "variante",
+        "fichier": "bracelet-caoutchouc-gaufre-v-white-black-buckle.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-caoutchouc-gaufre",
+        "sku": "200000049:201449062#Orange-Black Buckle",
+        "slot": "variante",
+        "fichier": "bracelet-caoutchouc-gaufre-v-orange-black-buckle.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-caoutchouc-gaufre",
+        "sku": "200000049:1178274895#Yellow-Black Buckle",
+        "slot": "variante",
+        "fichier": "bracelet-caoutchouc-gaufre-v-yellow-black-buckle.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 3
+      },
+      {
+        "handle": "bracelet-caoutchouc-gaufre",
+        "sku": "200000049:2332437014#Light  Blue-Black",
+        "slot": "variante",
+        "fichier": "bracelet-caoutchouc-gaufre-v-light-blue-black.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-caoutchouc-gaufre",
+        "sku": "200000049:5057746941#Deep Blue-Black",
+        "slot": "variante",
+        "fichier": "bracelet-caoutchouc-gaufre-v-deep-blue-black.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-caoutchouc-gaufre",
+        "sku": "200000049:193#Brown-Black Buckle",
+        "slot": "variante",
+        "fichier": "bracelet-caoutchouc-gaufre-v-brown-black-buckle.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-caoutchouc-gaufre",
+        "sku": "200000049:691#Black-Black Buckle",
+        "slot": "variante",
+        "fichier": "bracelet-caoutchouc-gaufre-v-black-black-buckle.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-caoutchouc-gaufre",
+        "sku": "200000049:200013899#Red-Black Buckle",
+        "slot": "variante",
+        "fichier": "bracelet-caoutchouc-gaufre-v-red-black-buckle.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/v-yellow-g1-marquage-parasite-boucle.jpg",
+        "motif": "Marquage parasite visible sur la boucle noire; essai ecarte avant livraison."
+      },
+      {
+        "fichier": "rejected/v-yellow-g2-double-marquage-parasite-boucle.jpg",
+        "motif": "Deux marquages parasites visibles au zoom sur la boucle noire; essai ecarte avant livraison."
+      },
+      {
+        "fichier": "rejected/v-yellow-g3-symbole-parasite-boucle.jpg",
+        "motif": "Symbole parasite discret visible au zoom sur la boucle noire; essai ecarte avant livraison."
+      }
+    ],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-08-09T23:36:10Z",
+  "executor": "codex-2026-08-10"
+}

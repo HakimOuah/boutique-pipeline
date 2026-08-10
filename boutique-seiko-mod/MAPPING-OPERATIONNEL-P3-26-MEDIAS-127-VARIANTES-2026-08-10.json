@@ -1,0 +1,600 @@
+{
+  "schema": "maison-noirmont-p3-media-variant-mapping/v1",
+  "created_at": "2026-08-10T01:43:45+02:00",
+  "mode": "local-read-only-reconciliation",
+  "sources": {
+    "orders": [
+      "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-explorateur-6.json",
+      "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-field-acier-10.json",
+      "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-field-bronze-8.json",
+      "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-squelette-carre-1.json",
+      "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-squelette-octogone-1.json"
+    ],
+    "sku_snapshot": "boutique-seiko-mod/backup-sku-2026-08-08/table-correspondance.jsonl"
+  },
+  "match_rule": "Même product_handle et présence du sku_fragment_exact comme segment complet de sku_actuel après split sur le point-virgule.",
+  "totals": {
+    "order_count": 5,
+    "media_count": 26,
+    "variant_reference_count": 127,
+    "unique_variant_gid_count": 127,
+    "expected_media_count": 26,
+    "expected_variant_reference_count": 127,
+    "expected_unique_variant_gid_count": 127
+  },
+  "by_product": [
+    {
+      "handle": "montre-acier-chiffres-3-6-9-explorateur",
+      "product_gid": "gid://shopify/Product/10988849299794",
+      "product_status": "ACTIVE",
+      "media_count": 6,
+      "variant_reference_count": 48,
+      "per_media_variant_counts": [
+        8
+      ]
+    },
+    {
+      "handle": "montre-field-acier-cadran-chiffres-1-12",
+      "product_gid": "gid://shopify/Product/10988849234258",
+      "product_status": "ACTIVE",
+      "media_count": 10,
+      "variant_reference_count": 60,
+      "per_media_variant_counts": [
+        6
+      ]
+    },
+    {
+      "handle": "montre-field-bronze-cadran-chiffres-1-12",
+      "product_gid": "gid://shopify/Product/10988849267026",
+      "product_status": "ACTIVE",
+      "media_count": 8,
+      "variant_reference_count": 16,
+      "per_media_variant_counts": [
+        2
+      ]
+    },
+    {
+      "handle": "montre-squelette-automatique-carree",
+      "product_gid": "gid://shopify/Product/10988849135954",
+      "product_status": "ACTIVE",
+      "media_count": 1,
+      "variant_reference_count": 1,
+      "per_media_variant_counts": [
+        1
+      ]
+    },
+    {
+      "handle": "montre-squelette-automatique-octogone",
+      "product_gid": "gid://shopify/Product/10988849365330",
+      "product_status": "ACTIVE",
+      "media_count": 1,
+      "variant_reference_count": 2,
+      "per_media_variant_counts": [
+        2
+      ]
+    }
+  ],
+  "reconciliation": {
+    "verdict": "CONFORME",
+    "discrepancies": []
+  },
+  "media": [
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-explorateur-6.json",
+      "order_id": "claude-20260810-0103-p3-explorateur-6",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/manifeste-p3-variantes.json",
+      "handle": "montre-acier-chiffres-3-6-9-explorateur",
+      "product_gid": "gid://shopify/Product/10988849299794",
+      "product_status": "ACTIVE",
+      "file": "montre-acier-chiffres-3-6-9-explorateur-v-green1.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/montre-acier-chiffres-3-6-9-explorateur-v-green1.jpg",
+      "sku_fragment_exact": "14:10#Green1",
+      "expected_variant_count": 8,
+      "variant_count": 8,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130359796050",
+        "gid://shopify/ProductVariant/54130359828818",
+        "gid://shopify/ProductVariant/54130359861586",
+        "gid://shopify/ProductVariant/54130359894354",
+        "gid://shopify/ProductVariant/54130361237842",
+        "gid://shopify/ProductVariant/54130361270610",
+        "gid://shopify/ProductVariant/54130361303378",
+        "gid://shopify/ProductVariant/54130361336146"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-explorateur-6.json",
+      "order_id": "claude-20260810-0103-p3-explorateur-6",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/manifeste-p3-variantes.json",
+      "handle": "montre-acier-chiffres-3-6-9-explorateur",
+      "product_gid": "gid://shopify/Product/10988849299794",
+      "product_status": "ACTIVE",
+      "file": "montre-acier-chiffres-3-6-9-explorateur-v-blue1.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/montre-acier-chiffres-3-6-9-explorateur-v-blue1.jpg",
+      "sku_fragment_exact": "14:100005979#Blue1",
+      "expected_variant_count": 8,
+      "variant_count": 8,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130359664978",
+        "gid://shopify/ProductVariant/54130359697746",
+        "gid://shopify/ProductVariant/54130359730514",
+        "gid://shopify/ProductVariant/54130359763282",
+        "gid://shopify/ProductVariant/54130360320338",
+        "gid://shopify/ProductVariant/54130360353106",
+        "gid://shopify/ProductVariant/54130360385874",
+        "gid://shopify/ProductVariant/54130360418642"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-explorateur-6.json",
+      "order_id": "claude-20260810-0103-p3-explorateur-6",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/manifeste-p3-variantes.json",
+      "handle": "montre-acier-chiffres-3-6-9-explorateur",
+      "product_gid": "gid://shopify/Product/10988849299794",
+      "product_status": "ACTIVE",
+      "file": "montre-acier-chiffres-3-6-9-explorateur-v-orange1.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/montre-acier-chiffres-3-6-9-explorateur-v-orange1.jpg",
+      "sku_fragment_exact": "14:175#Orange1",
+      "expected_variant_count": 8,
+      "variant_count": 8,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130360844626",
+        "gid://shopify/ProductVariant/54130360877394",
+        "gid://shopify/ProductVariant/54130360910162",
+        "gid://shopify/ProductVariant/54130360942930",
+        "gid://shopify/ProductVariant/54130362155346",
+        "gid://shopify/ProductVariant/54130362188114",
+        "gid://shopify/ProductVariant/54130362220882",
+        "gid://shopify/ProductVariant/54130362253650"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-explorateur-6.json",
+      "order_id": "claude-20260810-0103-p3-explorateur-6",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/manifeste-p3-variantes.json",
+      "handle": "montre-acier-chiffres-3-6-9-explorateur",
+      "product_gid": "gid://shopify/Product/10988849299794",
+      "product_status": "ACTIVE",
+      "file": "montre-acier-chiffres-3-6-9-explorateur-v-black1.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/montre-acier-chiffres-3-6-9-explorateur-v-black1.jpg",
+      "sku_fragment_exact": "14:200000080#Black1",
+      "expected_variant_count": 8,
+      "variant_count": 8,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130359271762",
+        "gid://shopify/ProductVariant/54130359304530",
+        "gid://shopify/ProductVariant/54130359337298",
+        "gid://shopify/ProductVariant/54130359370066",
+        "gid://shopify/ProductVariant/54130360189266",
+        "gid://shopify/ProductVariant/54130360222034",
+        "gid://shopify/ProductVariant/54130360254802",
+        "gid://shopify/ProductVariant/54130360287570"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-explorateur-6.json",
+      "order_id": "claude-20260810-0103-p3-explorateur-6",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/manifeste-p3-variantes.json",
+      "handle": "montre-acier-chiffres-3-6-9-explorateur",
+      "product_gid": "gid://shopify/Product/10988849299794",
+      "product_status": "ACTIVE",
+      "file": "montre-acier-chiffres-3-6-9-explorateur-v-red1.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/montre-acier-chiffres-3-6-9-explorateur-v-red1.jpg",
+      "sku_fragment_exact": "14:366#Red1",
+      "expected_variant_count": 8,
+      "variant_count": 8,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130361762130",
+        "gid://shopify/ProductVariant/54130361794898",
+        "gid://shopify/ProductVariant/54130361827666",
+        "gid://shopify/ProductVariant/54130361860434",
+        "gid://shopify/ProductVariant/54130362286418",
+        "gid://shopify/ProductVariant/54130362319186",
+        "gid://shopify/ProductVariant/54130362351954",
+        "gid://shopify/ProductVariant/54130362384722"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-explorateur-6.json",
+      "order_id": "claude-20260810-0103-p3-explorateur-6",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/manifeste-p3-variantes.json",
+      "handle": "montre-acier-chiffres-3-6-9-explorateur",
+      "product_gid": "gid://shopify/Product/10988849299794",
+      "product_status": "ACTIVE",
+      "file": "montre-acier-chiffres-3-6-9-explorateur-v-white1.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/montre-acier-chiffres-3-6-9-explorateur-v-white1.jpg",
+      "sku_fragment_exact": "14:94#White1",
+      "expected_variant_count": 8,
+      "variant_count": 8,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130360713554",
+        "gid://shopify/ProductVariant/54130360746322",
+        "gid://shopify/ProductVariant/54130360779090",
+        "gid://shopify/ProductVariant/54130360811858",
+        "gid://shopify/ProductVariant/54130361368914",
+        "gid://shopify/ProductVariant/54130361401682",
+        "gid://shopify/ProductVariant/54130361434450",
+        "gid://shopify/ProductVariant/54130361467218"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-field-acier-10.json",
+      "order_id": "claude-20260810-0103-p3-field-acier-10",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-acier-cadran-chiffres-1-12/manifeste-p3-variantes.json",
+      "handle": "montre-field-acier-cadran-chiffres-1-12",
+      "product_gid": "gid://shopify/Product/10988849234258",
+      "product_status": "ACTIVE",
+      "file": "montre-field-acier-cadran-chiffres-1-12-v-black-8-sterile.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-acier-cadran-chiffres-1-12/montre-field-acier-cadran-chiffres-1-12-v-black-8-sterile.jpg",
+      "sku_fragment_exact": "14:4#black 8-sterile",
+      "expected_variant_count": 6,
+      "variant_count": 6,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130355044690",
+        "gid://shopify/ProductVariant/54130355077458",
+        "gid://shopify/ProductVariant/54130355241298",
+        "gid://shopify/ProductVariant/54130355274066",
+        "gid://shopify/ProductVariant/54130355306834",
+        "gid://shopify/ProductVariant/54130355339602"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-field-acier-10.json",
+      "order_id": "claude-20260810-0103-p3-field-acier-10",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-acier-cadran-chiffres-1-12/manifeste-p3-variantes.json",
+      "handle": "montre-field-acier-cadran-chiffres-1-12",
+      "product_gid": "gid://shopify/Product/10988849234258",
+      "product_status": "ACTIVE",
+      "file": "montre-field-acier-cadran-chiffres-1-12-v-black-3-sterile.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-acier-cadran-chiffres-1-12/montre-field-acier-cadran-chiffres-1-12-v-black-3-sterile.jpg",
+      "sku_fragment_exact": "14:366#black 3-sterile",
+      "expected_variant_count": 6,
+      "variant_count": 6,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130355503442",
+        "gid://shopify/ProductVariant/54130355536210",
+        "gid://shopify/ProductVariant/54130357207378",
+        "gid://shopify/ProductVariant/54130357240146",
+        "gid://shopify/ProductVariant/54130357272914",
+        "gid://shopify/ProductVariant/54130357305682"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-field-acier-10.json",
+      "order_id": "claude-20260810-0103-p3-field-acier-10",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-acier-cadran-chiffres-1-12/manifeste-p3-variantes.json",
+      "handle": "montre-field-acier-cadran-chiffres-1-12",
+      "product_gid": "gid://shopify/Product/10988849234258",
+      "product_status": "ACTIVE",
+      "file": "montre-field-acier-cadran-chiffres-1-12-v-black-4-sterile.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-acier-cadran-chiffres-1-12/montre-field-acier-cadran-chiffres-1-12-v-black-4-sterile.jpg",
+      "sku_fragment_exact": "14:865#black 4-sterile",
+      "expected_variant_count": 6,
+      "variant_count": 6,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130355634514",
+        "gid://shopify/ProductVariant/54130355667282",
+        "gid://shopify/ProductVariant/54130355765586",
+        "gid://shopify/ProductVariant/54130355798354",
+        "gid://shopify/ProductVariant/54130355831122",
+        "gid://shopify/ProductVariant/54130355863890"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-field-acier-10.json",
+      "order_id": "claude-20260810-0103-p3-field-acier-10",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-acier-cadran-chiffres-1-12/manifeste-p3-variantes.json",
+      "handle": "montre-field-acier-cadran-chiffres-1-12",
+      "product_gid": "gid://shopify/Product/10988849234258",
+      "product_status": "ACTIVE",
+      "file": "montre-field-acier-cadran-chiffres-1-12-v-black-7-sterile.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-acier-cadran-chiffres-1-12/montre-field-acier-cadran-chiffres-1-12-v-black-7-sterile.jpg",
+      "sku_fragment_exact": "14:201447598#black 7-sterile",
+      "expected_variant_count": 6,
+      "variant_count": 6,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130355896658",
+        "gid://shopify/ProductVariant/54130355929426",
+        "gid://shopify/ProductVariant/54130355962194",
+        "gid://shopify/ProductVariant/54130355994962",
+        "gid://shopify/ProductVariant/54130356289874",
+        "gid://shopify/ProductVariant/54130356322642"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-field-acier-10.json",
+      "order_id": "claude-20260810-0103-p3-field-acier-10",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-acier-cadran-chiffres-1-12/manifeste-p3-variantes.json",
+      "handle": "montre-field-acier-cadran-chiffres-1-12",
+      "product_gid": "gid://shopify/Product/10988849234258",
+      "product_status": "ACTIVE",
+      "file": "montre-field-acier-cadran-chiffres-1-12-v-black-5-sterile.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-acier-cadran-chiffres-1-12/montre-field-acier-cadran-chiffres-1-12-v-black-5-sterile.jpg",
+      "sku_fragment_exact": "14:200000914#black 5-sterile",
+      "expected_variant_count": 6,
+      "variant_count": 6,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130356158802",
+        "gid://shopify/ProductVariant/54130356191570",
+        "gid://shopify/ProductVariant/54130356224338",
+        "gid://shopify/ProductVariant/54130356257106",
+        "gid://shopify/ProductVariant/54130356355410",
+        "gid://shopify/ProductVariant/54130356388178"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-field-acier-10.json",
+      "order_id": "claude-20260810-0103-p3-field-acier-10",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-acier-cadran-chiffres-1-12/manifeste-p3-variantes.json",
+      "handle": "montre-field-acier-cadran-chiffres-1-12",
+      "product_gid": "gid://shopify/Product/10988849234258",
+      "product_status": "ACTIVE",
+      "file": "montre-field-acier-cadran-chiffres-1-12-v-green-sterile.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-acier-cadran-chiffres-1-12/montre-field-acier-cadran-chiffres-1-12-v-green-sterile.jpg",
+      "sku_fragment_exact": "14:94#green-sterile",
+      "expected_variant_count": 6,
+      "variant_count": 6,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130356420946",
+        "gid://shopify/ProductVariant/54130356453714",
+        "gid://shopify/ProductVariant/54130356486482",
+        "gid://shopify/ProductVariant/54130356519250",
+        "gid://shopify/ProductVariant/54130356814162",
+        "gid://shopify/ProductVariant/54130356846930"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-field-acier-10.json",
+      "order_id": "claude-20260810-0103-p3-field-acier-10",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-acier-cadran-chiffres-1-12/manifeste-p3-variantes.json",
+      "handle": "montre-field-acier-cadran-chiffres-1-12",
+      "product_gid": "gid://shopify/Product/10988849234258",
+      "product_status": "ACTIVE",
+      "file": "montre-field-acier-cadran-chiffres-1-12-v-black-6-sterile.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-acier-cadran-chiffres-1-12/montre-field-acier-cadran-chiffres-1-12-v-black-6-sterile.jpg",
+      "sku_fragment_exact": "14:175#black 6-sterile",
+      "expected_variant_count": 6,
+      "variant_count": 6,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130356945234",
+        "gid://shopify/ProductVariant/54130356978002",
+        "gid://shopify/ProductVariant/54130357076306",
+        "gid://shopify/ProductVariant/54130357109074",
+        "gid://shopify/ProductVariant/54130357141842",
+        "gid://shopify/ProductVariant/54130357174610"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-field-acier-10.json",
+      "order_id": "claude-20260810-0103-p3-field-acier-10",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-acier-cadran-chiffres-1-12/manifeste-p3-variantes.json",
+      "handle": "montre-field-acier-cadran-chiffres-1-12",
+      "product_gid": "gid://shopify/Product/10988849234258",
+      "product_status": "ACTIVE",
+      "file": "montre-field-acier-cadran-chiffres-1-12-v-black-2-sterile.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-acier-cadran-chiffres-1-12/montre-field-acier-cadran-chiffres-1-12-v-black-2-sterile.jpg",
+      "sku_fragment_exact": "14:100005979#black 2-sterile",
+      "expected_variant_count": 6,
+      "variant_count": 6,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130357469522",
+        "gid://shopify/ProductVariant/54130357502290",
+        "gid://shopify/ProductVariant/54130357600594",
+        "gid://shopify/ProductVariant/54130357633362",
+        "gid://shopify/ProductVariant/54130357666130",
+        "gid://shopify/ProductVariant/54130357698898"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-field-acier-10.json",
+      "order_id": "claude-20260810-0103-p3-field-acier-10",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-acier-cadran-chiffres-1-12/manifeste-p3-variantes.json",
+      "handle": "montre-field-acier-cadran-chiffres-1-12",
+      "product_gid": "gid://shopify/Product/10988849234258",
+      "product_status": "ACTIVE",
+      "file": "montre-field-acier-cadran-chiffres-1-12-v-silver-sterile.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-acier-cadran-chiffres-1-12/montre-field-acier-cadran-chiffres-1-12-v-silver-sterile.jpg",
+      "sku_fragment_exact": "14:350850#silver-sterile",
+      "expected_variant_count": 6,
+      "variant_count": 6,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130357731666",
+        "gid://shopify/ProductVariant/54130357764434",
+        "gid://shopify/ProductVariant/54130357797202",
+        "gid://shopify/ProductVariant/54130357829970",
+        "gid://shopify/ProductVariant/54130358124882",
+        "gid://shopify/ProductVariant/54130358157650"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-field-acier-10.json",
+      "order_id": "claude-20260810-0103-p3-field-acier-10",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-acier-cadran-chiffres-1-12/manifeste-p3-variantes.json",
+      "handle": "montre-field-acier-cadran-chiffres-1-12",
+      "product_gid": "gid://shopify/Product/10988849234258",
+      "product_status": "ACTIVE",
+      "file": "montre-field-acier-cadran-chiffres-1-12-v-blue-sterile.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-acier-cadran-chiffres-1-12/montre-field-acier-cadran-chiffres-1-12-v-blue-sterile.jpg",
+      "sku_fragment_exact": "14:10#blue-sterile",
+      "expected_variant_count": 6,
+      "variant_count": 6,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130358255954",
+        "gid://shopify/ProductVariant/54130358288722",
+        "gid://shopify/ProductVariant/54130358387026",
+        "gid://shopify/ProductVariant/54130358419794",
+        "gid://shopify/ProductVariant/54130358452562",
+        "gid://shopify/ProductVariant/54130358485330"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-field-bronze-8.json",
+      "order_id": "claude-20260810-0103-p3-field-bronze-8",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-bronze-cadran-chiffres-1-12/manifeste-p3-variantes.json",
+      "handle": "montre-field-bronze-cadran-chiffres-1-12",
+      "product_gid": "gid://shopify/Product/10988849267026",
+      "product_status": "ACTIVE",
+      "file": "montre-field-bronze-cadran-chiffres-1-12-v-blue-sterile.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-bronze-cadran-chiffres-1-12/montre-field-bronze-cadran-chiffres-1-12-v-blue-sterile.jpg",
+      "sku_fragment_exact": "14:350850#blue-sterile",
+      "expected_variant_count": 2,
+      "variant_count": 2,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130353701202",
+        "gid://shopify/ProductVariant/54130353766738"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-field-bronze-8.json",
+      "order_id": "claude-20260810-0103-p3-field-bronze-8",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-bronze-cadran-chiffres-1-12/manifeste-p3-variantes.json",
+      "handle": "montre-field-bronze-cadran-chiffres-1-12",
+      "product_gid": "gid://shopify/Product/10988849267026",
+      "product_status": "ACTIVE",
+      "file": "montre-field-bronze-cadran-chiffres-1-12-v-black-d-sterile.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-bronze-cadran-chiffres-1-12/montre-field-bronze-cadran-chiffres-1-12-v-black-d-sterile.jpg",
+      "sku_fragment_exact": "14:4#black D-sterile",
+      "expected_variant_count": 2,
+      "variant_count": 2,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130353799506",
+        "gid://shopify/ProductVariant/54130354389330"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-field-bronze-8.json",
+      "order_id": "claude-20260810-0103-p3-field-bronze-8",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-bronze-cadran-chiffres-1-12/manifeste-p3-variantes.json",
+      "handle": "montre-field-bronze-cadran-chiffres-1-12",
+      "product_gid": "gid://shopify/Product/10988849267026",
+      "product_status": "ACTIVE",
+      "file": "montre-field-bronze-cadran-chiffres-1-12-v-black-b-sterile.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-bronze-cadran-chiffres-1-12/montre-field-bronze-cadran-chiffres-1-12-v-black-b-sterile.jpg",
+      "sku_fragment_exact": "14:175#black B-sterile",
+      "expected_variant_count": 2,
+      "variant_count": 2,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130353897810",
+        "gid://shopify/ProductVariant/54130354815314"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-field-bronze-8.json",
+      "order_id": "claude-20260810-0103-p3-field-bronze-8",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-bronze-cadran-chiffres-1-12/manifeste-p3-variantes.json",
+      "handle": "montre-field-bronze-cadran-chiffres-1-12",
+      "product_gid": "gid://shopify/Product/10988849267026",
+      "product_status": "ACTIVE",
+      "file": "montre-field-bronze-cadran-chiffres-1-12-v-silver-sterile.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-bronze-cadran-chiffres-1-12/montre-field-bronze-cadran-chiffres-1-12-v-silver-sterile.jpg",
+      "sku_fragment_exact": "14:94#silver sterile",
+      "expected_variant_count": 2,
+      "variant_count": 2,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130353930578",
+        "gid://shopify/ProductVariant/54130354028882"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-field-bronze-8.json",
+      "order_id": "claude-20260810-0103-p3-field-bronze-8",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-bronze-cadran-chiffres-1-12/manifeste-p3-variantes.json",
+      "handle": "montre-field-bronze-cadran-chiffres-1-12",
+      "product_gid": "gid://shopify/Product/10988849267026",
+      "product_status": "ACTIVE",
+      "file": "montre-field-bronze-cadran-chiffres-1-12-v-black-a-sterile.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-bronze-cadran-chiffres-1-12/montre-field-bronze-cadran-chiffres-1-12-v-black-a-sterile.jpg",
+      "sku_fragment_exact": "14:200000080#black A-sterile",
+      "expected_variant_count": 2,
+      "variant_count": 2,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130354192722",
+        "gid://shopify/ProductVariant/54130354291026"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-field-bronze-8.json",
+      "order_id": "claude-20260810-0103-p3-field-bronze-8",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-bronze-cadran-chiffres-1-12/manifeste-p3-variantes.json",
+      "handle": "montre-field-bronze-cadran-chiffres-1-12",
+      "product_gid": "gid://shopify/Product/10988849267026",
+      "product_status": "ACTIVE",
+      "file": "montre-field-bronze-cadran-chiffres-1-12-v-green-b-sterile.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-bronze-cadran-chiffres-1-12/montre-field-bronze-cadran-chiffres-1-12-v-green-b-sterile.jpg",
+      "sku_fragment_exact": "14:200000914#green B sterile",
+      "expected_variant_count": 2,
+      "variant_count": 2,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130354422098",
+        "gid://shopify/ProductVariant/54130354520402"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-field-bronze-8.json",
+      "order_id": "claude-20260810-0103-p3-field-bronze-8",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-bronze-cadran-chiffres-1-12/manifeste-p3-variantes.json",
+      "handle": "montre-field-bronze-cadran-chiffres-1-12",
+      "product_gid": "gid://shopify/Product/10988849267026",
+      "product_status": "ACTIVE",
+      "file": "montre-field-bronze-cadran-chiffres-1-12-v-black-c-sterile.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-bronze-cadran-chiffres-1-12/montre-field-bronze-cadran-chiffres-1-12-v-black-c-sterile.jpg",
+      "sku_fragment_exact": "14:201447303#black C-sterile",
+      "expected_variant_count": 2,
+      "variant_count": 2,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130354553170",
+        "gid://shopify/ProductVariant/54130354651474"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-field-bronze-8.json",
+      "order_id": "claude-20260810-0103-p3-field-bronze-8",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-bronze-cadran-chiffres-1-12/manifeste-p3-variantes.json",
+      "handle": "montre-field-bronze-cadran-chiffres-1-12",
+      "product_gid": "gid://shopify/Product/10988849267026",
+      "product_status": "ACTIVE",
+      "file": "montre-field-bronze-cadran-chiffres-1-12-v-white-sterile.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-bronze-cadran-chiffres-1-12/montre-field-bronze-cadran-chiffres-1-12-v-white-sterile.jpg",
+      "sku_fragment_exact": "14:496#white sterile",
+      "expected_variant_count": 2,
+      "variant_count": 2,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130354684242",
+        "gid://shopify/ProductVariant/54130354782546"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-squelette-carre-1.json",
+      "order_id": "claude-20260810-0103-p3-squelette-carre-1",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-squelette-automatique-carree/manifeste-p3-variantes.json",
+      "handle": "montre-squelette-automatique-carree",
+      "product_gid": "gid://shopify/Product/10988849135954",
+      "product_status": "ACTIVE",
+      "file": "montre-squelette-automatique-carree-v-black.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-squelette-automatique-carree/montre-squelette-automatique-carree-v-black.jpg",
+      "sku_fragment_exact": "14:200000080#Black",
+      "expected_variant_count": 1,
+      "variant_count": 1,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130353373522"
+      ]
+    },
+    {
+      "order_path": "ordres/pour-codex/inbox/20260810-0103-generate_images-p3-squelette-octogone-1.json",
+      "order_id": "claude-20260810-0103-p3-squelette-octogone-1",
+      "output_manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-squelette-automatique-octogone/manifeste-p3-variantes.json",
+      "handle": "montre-squelette-automatique-octogone",
+      "product_gid": "gid://shopify/Product/10988849365330",
+      "product_status": "ACTIVE",
+      "file": "montre-squelette-automatique-octogone-v-black-skeleton.jpg",
+      "file_path": "boutique-seiko-mod/visuels-codex-2026-08/montre-squelette-automatique-octogone/montre-squelette-automatique-octogone-v-black-skeleton.jpg",
+      "sku_fragment_exact": "14:200000080#Black Skeleton",
+      "expected_variant_count": 2,
+      "variant_count": 2,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54130362646866",
+        "gid://shopify/ProductVariant/54130362679634"
+      ]
+    }
+  ]
+}

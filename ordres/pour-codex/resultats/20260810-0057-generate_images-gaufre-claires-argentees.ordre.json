@@ -1,0 +1,74 @@
+{
+  "id": "claude-20260810-0057-gaufre-claires-argentees",
+  "type": "generate_images",
+  "created_at": "2026-08-10T00:57:25+02:00",
+  "requested_by": "claude-code",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "bracelet-caoutchouc-gaufre",
+        "sku": "200000049:200966040#White-Silver Buckle",
+        "slot": "variante",
+        "fichier": "bracelet-caoutchouc-gaufre-v-white-silver-buckle.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-caoutchouc-gaufre/S66b23525f95a4a5a8c8612c56abf8226Z.webp"
+      },
+      {
+        "handle": "bracelet-caoutchouc-gaufre",
+        "sku": "200000049:990994103#Yellow-Silver Buckle",
+        "slot": "variante",
+        "fichier": "bracelet-caoutchouc-gaufre-v-yellow-silver-buckle.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-caoutchouc-gaufre/Sba4178c4b8e747bf8372f3af0d00fb1fZ.webp"
+      },
+      {
+        "handle": "bracelet-caoutchouc-gaufre",
+        "sku": "200000049:1714056674#Light Blue-Silver",
+        "slot": "variante",
+        "fichier": "bracelet-caoutchouc-gaufre-v-light-blue-silver.jpg",
+        "source": "scratchpad/backup-medias-accessoires-lot4/bracelet-caoutchouc-gaufre/Se8dccc5aba944b87ba6eae079892479bQ.webp"
+      }
+    ],
+    "sources": [
+      "scratchpad/backup-medias-accessoires-lot4/bracelet-caoutchouc-gaufre/S66b23525f95a4a5a8c8612c56abf8226Z.webp",
+      "scratchpad/backup-medias-accessoires-lot4/bracelet-caoutchouc-gaufre/Sba4178c4b8e747bf8372f3af0d00fb1fZ.webp",
+      "scratchpad/backup-medias-accessoires-lot4/bracelet-caoutchouc-gaufre/Se8dccc5aba944b87ba6eae079892479bQ.webp"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+      "surcharges": [
+        "Visuel produit de variante, carré 1:1 : la paire complète est seule, centrée sur un fond minéral neutre pierre vers craie, avec une lumière douce haute-gauche et une seule ombre diffuse.",
+        "Les trois rendus gardent exactement le même cadrage, la même échelle, la même orientation et la même lumière ; seule la couleur du caoutchouc déjà présente dans la source propre à l'entrée diffère. Préserver assez de contraste pour lire les reliefs blancs et jaune clair sans assombrir ni recolorer la matière."
+      ]
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "VÉRITÉ PRODUIT PAR ENTRÉE : utiliser exclusivement le chemin `source` de l'entrée manifeste correspondante. Ne jamais emprunter la teinte ou la boucle d'une autre entrée. Les fichiers portent l'extension `.webp` mais contiennent des données JPEG carrées issues des images SKU officielles ; les lire tels quels, sans copie ni renommage.",
+        "Produit exact : bracelet de montre en caoutchouc souple gaufré, composé de deux brins formant une paire complète. Reproduire strictement la face gaufrée, les bords longitudinaux, les perforations, les deux passants, la boucle ardillon et les barrettes rapides visibles dans la source.",
+        "LOT TEINTES CLAIRES À BOUCLE ARGENTÉE : chaque boucle reste argentée exactement comme dans sa source. Ne jamais la rendre dorée, noire, or rose, bicolore ou brillante à l'excès.",
+        "La couleur du caoutchouc reste strictement celle de la source dédiée : blanc, jaune ou bleu clair/cyan. Aucun grisage du blanc, aucun passage du jaune vers l'orange, aucun passage du bleu clair vers le vert ou le bleu profond.",
+        "Le relief gaufré, les bords et les perforations doivent rester matériellement lisibles dans les teintes claires. Ne pas simuler le relief par un masque sombre, une sous-couche noire ou une matière bicolore absente de la source.",
+        "Un seul exemplaire du produit par image : exactement une paire complète de deux brins, sans brin manquant, doublé ou fusionné. Boucle, ardillon, passants et barrettes rapides doivent tous rester cohérents et fonctionnels.",
+        "Aucun logo, nom, mot, lettre, chiffre, filigrane, étiquette ou verbatim sur le caoutchouc, la boucle, les passants ou le fond. Si un marquage apparaît, rejeter et régénérer depuis la source propre ; aucun gommage ni inpainting.",
+        "Aucune montre, aucun boîtier, cadran, verre, poignet, main, personne, vêtement, bijou, outil, emballage ou décor narratif. Le bracelet seul est le produit.",
+        "La photo fournisseur est une référence produit, jamais un livrable brut : nouveau fond, nouvelle lumière et nouvelle ombre maison obligatoires, sans altérer le produit.",
+        "Sortie 2048 × 2048 px, JPEG sRGB qualité environ 90, viser 400-900 Ko et respecter exactement le nom `fichier` du manifeste."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Contrôle source↔rendu entrée par entrée : couleur claire exacte, finition argentée de la boucle, géométrie gaufrée, perforations, deux passants, ardillon et barrettes rapides.",
+        "Zoom intégral de chaque bracelet et de chaque boucle : aucun logo, texte, filigrane ou verbatim, même flou ou partiel.",
+        "Contrôle matière bloquant : relief et bords lisibles sans masque sombre, sous-face noire ni effet bicolore inventé.",
+        "Contrôle de complétude : une seule paire, deux brins complets, une boucle, un ardillon, deux passants et les barrettes rapides cohérentes ; aucune montre, main ou personne.",
+        "Planche des trois rendus côte à côte, au moins 740 px par vignette, pour vérifier que seul le coloris varie et que cadrage, échelle, orientation, fond, lumière et ombre restent fixes.",
+        "Contrôle fichier : nom exact du manifeste, 2048 × 2048, 1:1 strict, JPEG sRGB et poids conforme."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/bracelet-caoutchouc-gaufre",
+      "manifeste": "manifeste-gaufre-claires-argentees.json"
+    }
+  },
+  "notes": "Lot 4/4 de la reprise des 30 médias audités PRODUISIBLES. Ce lot isole les trois teintes claires précédemment rejetées pour défaut de masque matière. Ne pas relancer ni écraser les six variantes argentées déjà livrées. L'exécution et tout rattachement boutique sont hors de cet ordre."
+}

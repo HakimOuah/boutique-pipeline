@@ -37,6 +37,16 @@ Résultat : les quatre passages à `ARCHIVED` ont réussi. Une seconde lecture M
 
 Un cinquième brouillon a ensuite été archivé séparément : `montre-cadran-arabe-oriental-36-39` (`gid://shopify/Product/11013081366866`, AliExpress `1005010249362754`). La fiche mélangeait 40 variantes `blue/black/white/green` et `… sterile`, alors que la description promettait de ne commander que les variantes sans logo ; ses 15 médias étaient des images fournisseur sans alt et la photo principale montrait la famille Tandorio. État initial `DRAFT`, état final relu `ARCHIVED`, 40 variantes, stock total 11 995 et 15 médias inchangés. Rollback : revenir à `DRAFT` uniquement après élagage aux variantes stériles et remplacement complet des visuels.
 
+L'audit complémentaire des treize brouillons stériles/pilote sans manifeste a ensuite prouvé trois autres retraits réversibles. Ils ont été relus `DRAFT`, archivés ensemble via Shopify, puis relus `ARCHIVED` sans changement de variantes, stock ou médias :
+
+| Fiche archivée | Motif | État relu après écriture |
+|---|---|---|
+| `cadran-sterile-bleu-lumineux-28-5` — `gid://shopify/Product/11013078810962` | Les 18/18 variantes portent physiquement `AUTOMATIC / WATER RESISTANT / 100m:330ft` ; aucune variante ne tient la promesse stérile. | 18 variantes, stock 508, 12 médias inchangés. |
+| `cadran-plongee-33-5-aiguilles` — `gid://shopify/Product/11013078581586` | Doublon trompeusement nommé : ses cinq médias API sont octet-identiques à ceux de la meilleure fiche rétro conservée. | 10 variantes, stock 1 533, 10 médias inchangés. |
+| `cadran-retro-33-5-aiguilles-nh35` — `gid://shopify/Product/11013078286674` | Même produit et mêmes compositions que la fiche rétro conservée, mais recompressés et filigranés ; similarité SSIM 0,9525 à 0,9765. | 10 variantes, stock 426, 8 médias inchangés. |
+
+La fiche canonique conservée est `cadran-retro-blanc-rose-nh35` / AliExpress `1005008468061052`, dont les sources sont les plus propres et le signal fournisseur le plus fort du trio. Rollback : remettre individuellement une fiche archivée à `DRAFT` seulement après une nouvelle preuve produit distincte et conforme.
+
 ### Décision sur les cinq dossiers arabes bloqués
 
 - Correction de périmètre : ce sont cinq dossiers source excédentaires, pas cinq fiches Shopify ; la recherche par handle exact renvoie zéro produit.
@@ -60,6 +70,8 @@ Un cinquième brouillon a ensuite été archivé séparément : `montre-cadran-a
 - État final de la boîte : aucun exécuteur vivant, verrou absent, `inbox` vide et `en-cours` vide hors `.gitkeep`.
 - Les 26 livrables finaux de neuf fiches cadran en brouillon ont été téléversés et ajoutés via Shopify. Aucune image fournisseur n'a été retirée, aucun statut/stock/prix/SKU/variante n'a changé. Le contrôle indépendant donne 160 médias après ajout contre 134 avant.
 - Le détail par fiche, les réserves QA et les 26 identifiants de rollback sont dans `RATTACHEMENT-VISUELS-BROUILLONS-2026-08-10.md`.
+
+Le rapprochement live par tags a aussi retrouvé treize autres brouillons stériles/pilote qui n'appartenaient pas à la file initiale. Leur audit API complet donne **5 PRODUISIBLE, 5 BLOQUÉ et 3 ARCHIVER**. Les cinq blocages restent hors génération : variantes mixtes avec texte physique, lettres `N/E/S/W` sur le cadran ou filigrane traversant le produit. Les trois archivages ont été appliqués comme décrit plus haut. Les cinq sources propres restantes sont des opportunités de lot futur, pas une extension implicite de la file déjà demandée. Le détail est dans `AUDIT-13-BROUILLONS-SANS-MANIFESTE-API-ALIEXPRESS-2026-08-10.md`.
 
 ### Affectation des six nuanciers du bracelet caoutchouc gaufré
 
@@ -110,14 +122,40 @@ Le chiffre historique de 319 mélangeait 304 besoins de fiches actives et 15 bes
 
 Les six médias P4 existants du bracelet caoutchouc gaufré sont bien rattachés au produit et, depuis cette passe, affectés aux douze variantes exactes. Les 15 besoins hors dénominateur actif sont cinq médias de galerie Aviateur et dix médias de variantes Noirmont Deux/Voyageur sur des brouillons historiques. Le rapport détaillé est `RECONCILIATION-319-VISUELS-AGENT-2026-08-10.md`.
 
+L'audit fournisseur des neuf emplacements de galerie encore ouverts a ensuite établi qu'aucun n'était productible honnêtement avec les preuves actuelles : sept restent bloqués faute d'article exact propre et traçable (Trente-Neuf Rose 4, bracelet FKM tropical 2, Remontoir Solo 1) ; les deux ajouts prévus pour la carte cadeau sont abandonnés, car une fiche numérique interne n'a pas à recevoir deux fausses vues fournisseur. Aucun de ces neuf emplacements n'est compté comme livré. Le détail est dans `AUDIT-9-GALERIES-RESTANTES-API-ALIEXPRESS-2026-08-10.md`.
+
+L'abandon motivé des deux fausses vues de carte cadeau et de quatre faux médias de remontoirs ramène la cible opérationnelle active de **304 à 298 fichiers**. Avant la nouvelle production, 66 sont livrés et 232 restent donc ouverts : 7 galeries bloquées, 33 P3 et 192 P4.
+
+L'audit exact des 33 P3 a ensuite isolé **26 médias productibles et 7 bloqués**. Les 26 sources autorisées couvrent 127 variantes enfant qui partagent ces apparences ; les blocages sont six cadrans Explorateur avec texte physique et le Trente-Neuf Duo, dont le cadran porte du texte et dont la dimension 36/39 mm manquante n'est pas attribuable. Cinq ordres classe A totalisant 26 livrables ont été déposés et pris dans la file. Le mapping est dans `MAPPING-P3-33-VARIANTES-AGENT-2026-08-10.md`.
+
+Sur P4, l'audit de 66 médias bracelets a qualifié **30/30** médias restants du bracelet caoutchouc gaufré à partir de l'article officiel AliExpress `1005008681374490`. Les **36/36** médias du bracelet FKM tropical restent bloqués faute d'item ID exact et de nuancier officiel traçable. Quatre ordres classe A totalisant 30 livrables gaufrés ont été déposés et pris dans la file. Le détail est dans `AUDIT-66-MEDIAS-BRACELETS-AGENT-2026-08-10.md`.
+
+Les quatre lots gaufrés ont depuis livré 30 fichiers, dont 29 ont passé la QA de lot et ont été rattachés aux 58 variantes exactes : 2 argentés, 9 dorés, 9 à boucle noire et 9 or rose. Le blanc argenté initial, conforme au produit mais réservé pour son cadrage, reste volontairement non rattaché ; sa reprise ciblée est dans la file et remplace le même slot. Les trois lots de neuf passent sans réserve. Après relecture Shopify de chaque association, le compteur opérationnel atteint **95 / 298**. Les identifiants médias et le rollback sont consignés dans `RATTACHEMENT-VISUELS-ACTIFS-2026-08-10.md`.
+
+Les 130 autres P4 ont ensuite été réconciliés ligne par ligne : **27 PRODUISIBLE, 99 BLOQUÉ et 4 ABANDON**. Les quatre abandons sont des médias `M120xx` dont les sources locales montrent des boîtes passives à un coussin, alors que les variantes vendent des remontoirs motorisés deux montres. Les 27 sources autorisées couvrent six bracelets acier massif, cinq lots de dix coussins, trois Jubilé courbes, huit milanais, deux étuis vides, deux outils de mise à taille et un rouleau noir trois montres. Les 99 blocages restent hors génération. Le détail est dans `AUDIT-130-MEDIAS-P4-RESTANTS-AGENT-2026-08-10.md`.
+
+### État des cinq portes d'activation
+
+Contrôle live effectué le 10/08/2026. Les cinq conditions de la passation doivent être vraies simultanément ; aucune ne l'est encore.
+
+| Condition obligatoire | État observé | Preuve / action restante |
+|---|---|---|
+| Plus aucune photo AliExpress brute sur les fiches concernées | **FAUX** | Les 26 nouveaux visuels ont été ajoutés en fin de galerie sans retirer les médias fournisseur. Après abandon motivé de six emplacements trompeurs, la campagne active conserve 232 emplacements ouverts avant imputation du lot en cours. |
+| Trois politiques collées par Hakim et médiateur renseigné | **FAUX** | La politique `TERMS_OF_SALE` servie par Shopify contient encore `[À COMPLÉTER]` et l'ancien lien ODR européen. |
+| Grille de prix arbitrée et appliquée | **FAUX** | Les documents locaux présentent deux stratégies ; ils indiquent qu'aucun prix n'a été écrit. L'arbitrage appartient à Hakim. |
+| Mesure d'achat installée et testée | **FAUX** | L'écran Shopify « Événements clients » ne présente aucun pixel ; Google & YouTube n'apparaît pas dans les applications installées. Aucun test d'achat n'est donc prouvé. |
+| P0/P1 de `AUDIT-GMC-FINAL-2026-08-08.md` soldés | **FAUX** | P1 visuel est soldé, mais les P0/P1 globaux ne le sont pas : sept galeries restent bloquées, les politiques/prix/mesure restent ouverts et le contrôle final n'a pas produit de clôture. |
+
+Conséquence : aucun produit n'est activé, aucune collection n'est publiée, le mot de passe reste en place et aucun compte CSS/Merchant Center n'est créé. Ces actions restent à Hakim après fermeture documentée des cinq portes.
+
 ## État des sept étapes
 
 | Étape | Statut | Preuve ou blocage |
 |---|---|---|
-| 1. File visuelle stériles et pilote | TERMINÉE | File drainée, reprise g3 lumineuse terminée, 26 visuels approuvés ajoutés à 9 brouillons ; statuts et invariants relus. |
+| 1. File visuelle stériles et pilote | FILE INITIALE TERMINÉE | File drainée, reprise g3 lumineuse terminée, 26 visuels approuvés ajoutés à 9 brouillons. Les 13 autres brouillons hors file ont été audités : 5 productibles, 5 bloqués et 3 archivés ; aucun blocage n'a été généré. |
 | 2. Re-sourcing arabe | PARTIEL / BLOQUÉ | 2 produits distincts qualifiés au total ; 2 à 6 manquants malgré 811 IDs explorés. |
 | 3. Cinq fiches arabes bloquées | TERMINÉE | 0/5 récupérable ; aucun des cinq handles n'existe dans Shopify. |
 | 4. Import, rédaction et habillage | BLOQUÉ | La cible minimale de 4 produits distincts n'est pas atteinte ; aucun import partiel ou activation par défaut. |
-| 5. Nettoyage catalogue | ASSAINI / ACTIVATION ENCORE BLOQUÉE | Contradiction corrigée ; trois doublons perdants, cadran à verbatim Rolex, fiche arabe mixte et deux fiches techniquement incohérentes archivés ; 6 nuanciers affectés à 12 variantes ; trois fiches techniques réécrites. `cadran-squelette-29-noir-blanc` reste à libeller/remapper avant activation. |
-| 6. Visuels des fiches actives | EN COURS / 238 RESTANTS | Périmètre exact : 304 actifs, 66 livrés/rattachés, 238 à produire. Le total historique 319 incluait 15 besoins de brouillons. |
-| 7. Activation | BLOQUÉE PAR CONDITIONS | Aucune activation tant que les cinq conditions ne sont pas toutes prouvées. |
+| 5. Nettoyage catalogue | ASSAINI / ACTIVATION ENCORE BLOQUÉE | Contradiction corrigée ; cinq doublons perdants, deux cadrans à texte interdit, fiche arabe mixte et deux fiches techniquement incohérentes archivés ; 6 nuanciers affectés à 12 variantes ; trois fiches techniques réécrites. `cadran-squelette-29-noir-blanc` reste à libeller/remapper avant activation. |
+| 6. Visuels des fiches actives | EN PRODUCTION / 203 OUVERTS | Cible opérationnelle révisée : 298 actifs après abandon motivé de six emplacements trompeurs ; 95 sont maintenant livrés/rattachés. Produisibles encore dans la file : 26 P3 + la reprise du blanc gaufré + 27 autres P4. Restent bloqués : 7 galeries, 7 P3, 36 FKM et 99 autres P4. |
+| 7. Activation | BLOQUÉE — 0/5 CONDITION VRAIE | Aucune activation ni publication ; le détail des cinq échecs et des actions appartenant à Hakim est consigné ci-dessus. |

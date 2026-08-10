@@ -1,0 +1,524 @@
+{
+  "generated_at": "2026-08-10T01:44:17+02:00",
+  "purpose": "Mapping local opérationnel des 27 médias P4 PRODUISIBLE vers les produits et variantes attendus du snapshot SKU du 08/08/2026.",
+  "sources": {
+    "orders_glob": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-*.json",
+    "sku_snapshot": "boutique-seiko-mod/backup-sku-2026-08-08/table-correspondance.jsonl",
+    "match_rule": "Égalité stricte sur handle + premier fragment de sku_actuel avant le premier point-virgule."
+  },
+  "boundary": {
+    "shopify_accessed": false,
+    "shopify_mutated": false,
+    "warning": "Les GID sont ceux attendus dans le snapshot local du 08/08/2026. Les relire côté Shopify avant toute association future ; ce fichier ne prouve pas leur état live."
+  },
+  "reconciliation": {
+    "order_count": 7,
+    "expected_media_count": 27,
+    "mapped_media_count": 27,
+    "unique_media_key_count": 27,
+    "missing_media_count": 0,
+    "unexpected_media_count": 0,
+    "duplicate_media_key_count": 0,
+    "total_variant_gid_targets": 117,
+    "multi_variant_media_count": 17,
+    "single_variant_media_count": 10,
+    "status": "SANS ÉCART"
+  },
+  "mappings": [
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-acier-massif-6.json",
+      "output_manifest": "manifeste-p4-acier-massif-6.json",
+      "image_file": "bracelet-acier-massif-12-22-mm-v-rose-gold.jpg",
+      "handle": "bracelet-acier-massif-12-22-mm",
+      "product_gid": "gid://shopify/Product/10980388438354",
+      "sku_fragment": "200000049:16146268#Rose-Gold",
+      "slot": "variante",
+      "variant_count": 10,
+      "multi_variant": true,
+      "multi_variant_reason": "10 largeurs partageant exactement le même fragment de finition : 12, 13, 14, 16, 17, 18, 19, 20, 21 et 22 mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098038817106",
+        "gid://shopify/ProductVariant/54098038849874",
+        "gid://shopify/ProductVariant/54098038882642",
+        "gid://shopify/ProductVariant/54098038915410",
+        "gid://shopify/ProductVariant/54098038980946",
+        "gid://shopify/ProductVariant/54098039013714",
+        "gid://shopify/ProductVariant/54098039046482",
+        "gid://shopify/ProductVariant/54098040291666",
+        "gid://shopify/ProductVariant/54098040324434",
+        "gid://shopify/ProductVariant/54098040357202"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-acier-massif-6.json",
+      "output_manifest": "manifeste-p4-acier-massif-6.json",
+      "image_file": "bracelet-acier-massif-12-22-mm-v-gold.jpg",
+      "handle": "bracelet-acier-massif-12-22-mm",
+      "product_gid": "gid://shopify/Product/10980388438354",
+      "sku_fragment": "200000049:193#Gold",
+      "slot": "variante",
+      "variant_count": 10,
+      "multi_variant": true,
+      "multi_variant_reason": "10 largeurs partageant exactement le même fragment de finition : 12, 13, 14, 16, 17, 18, 19, 20, 21 et 22 mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098039636306",
+        "gid://shopify/ProductVariant/54098039669074",
+        "gid://shopify/ProductVariant/54098039701842",
+        "gid://shopify/ProductVariant/54098039767378",
+        "gid://shopify/ProductVariant/54098039800146",
+        "gid://shopify/ProductVariant/54098039832914",
+        "gid://shopify/ProductVariant/54098039865682",
+        "gid://shopify/ProductVariant/54098039931218",
+        "gid://shopify/ProductVariant/54098039963986",
+        "gid://shopify/ProductVariant/54098039996754"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-acier-massif-6.json",
+      "output_manifest": "manifeste-p4-acier-massif-6.json",
+      "image_file": "bracelet-acier-massif-12-22-mm-v-silver-gold.jpg",
+      "handle": "bracelet-acier-massif-12-22-mm",
+      "product_gid": "gid://shopify/Product/10980388438354",
+      "sku_fragment": "200000049:3348727#Silver-Gold",
+      "slot": "variante",
+      "variant_count": 10,
+      "multi_variant": true,
+      "multi_variant_reason": "10 largeurs partageant exactement le même fragment de finition : 12, 13, 14, 16, 17, 18, 19, 20, 21 et 22 mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098039898450",
+        "gid://shopify/ProductVariant/54098040029522",
+        "gid://shopify/ProductVariant/54098040062290",
+        "gid://shopify/ProductVariant/54098040095058",
+        "gid://shopify/ProductVariant/54098040127826",
+        "gid://shopify/ProductVariant/54098040160594",
+        "gid://shopify/ProductVariant/54098040193362",
+        "gid://shopify/ProductVariant/54098040226130",
+        "gid://shopify/ProductVariant/54098040258898",
+        "gid://shopify/ProductVariant/54098040389970"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-acier-massif-6.json",
+      "output_manifest": "manifeste-p4-acier-massif-6.json",
+      "image_file": "bracelet-acier-massif-12-22-mm-v-silver-rosegold.jpg",
+      "handle": "bracelet-acier-massif-12-22-mm",
+      "product_gid": "gid://shopify/Product/10980388438354",
+      "sku_fragment": "200000049:350850#Silver-RoseGold",
+      "slot": "variante",
+      "variant_count": 10,
+      "multi_variant": true,
+      "multi_variant_reason": "10 largeurs partageant exactement le même fragment de finition : 12, 13, 14, 16, 17, 18, 19, 20, 21 et 22 mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098039374162",
+        "gid://shopify/ProductVariant/54098039406930",
+        "gid://shopify/ProductVariant/54098039439698",
+        "gid://shopify/ProductVariant/54098039472466",
+        "gid://shopify/ProductVariant/54098039505234",
+        "gid://shopify/ProductVariant/54098039538002",
+        "gid://shopify/ProductVariant/54098039570770",
+        "gid://shopify/ProductVariant/54098039603538",
+        "gid://shopify/ProductVariant/54098039734610",
+        "gid://shopify/ProductVariant/54098040652114"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-acier-massif-6.json",
+      "output_manifest": "manifeste-p4-acier-massif-6.json",
+      "image_file": "bracelet-acier-massif-12-22-mm-v-black.jpg",
+      "handle": "bracelet-acier-massif-12-22-mm",
+      "product_gid": "gid://shopify/Product/10980388438354",
+      "sku_fragment": "200000049:365462#Black",
+      "slot": "variante",
+      "variant_count": 10,
+      "multi_variant": true,
+      "multi_variant_reason": "10 largeurs partageant exactement le même fragment de finition : 12, 13, 14, 16, 17, 18, 19, 20, 21 et 22 mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098040422738",
+        "gid://shopify/ProductVariant/54098040455506",
+        "gid://shopify/ProductVariant/54098040488274",
+        "gid://shopify/ProductVariant/54098040521042",
+        "gid://shopify/ProductVariant/54098040553810",
+        "gid://shopify/ProductVariant/54098040586578",
+        "gid://shopify/ProductVariant/54098040619346",
+        "gid://shopify/ProductVariant/54098040684882",
+        "gid://shopify/ProductVariant/54098040717650",
+        "gid://shopify/ProductVariant/54098040750418"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-acier-massif-6.json",
+      "output_manifest": "manifeste-p4-acier-massif-6.json",
+      "image_file": "bracelet-acier-massif-12-22-mm-v-silver.jpg",
+      "handle": "bracelet-acier-massif-12-22-mm",
+      "product_gid": "gid://shopify/Product/10980388438354",
+      "sku_fragment": "200000049:76119733#Silver",
+      "slot": "variante",
+      "variant_count": 10,
+      "multi_variant": true,
+      "multi_variant_reason": "10 largeurs partageant exactement le même fragment de finition : 12, 13, 14, 16, 17, 18, 19, 20, 21 et 22 mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098038948178",
+        "gid://shopify/ProductVariant/54098039079250",
+        "gid://shopify/ProductVariant/54098039112018",
+        "gid://shopify/ProductVariant/54098039144786",
+        "gid://shopify/ProductVariant/54098039177554",
+        "gid://shopify/ProductVariant/54098039210322",
+        "gid://shopify/ProductVariant/54098039243090",
+        "gid://shopify/ProductVariant/54098039275858",
+        "gid://shopify/ProductVariant/54098039308626",
+        "gid://shopify/ProductVariant/54098039341394"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-coussins-10-5.json",
+      "output_manifest": "manifeste-p4-coussins-10-5.json",
+      "image_file": "coussins-de-presentation-lot-de-10-v-red.jpg",
+      "handle": "coussins-de-presentation-lot-de-10",
+      "product_gid": "gid://shopify/Product/10980388569426",
+      "sku_fragment": "14:10",
+      "slot": "variante",
+      "variant_count": 1,
+      "multi_variant": false,
+      "multi_variant_reason": null,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098040914258"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-coussins-10-5.json",
+      "output_manifest": "manifeste-p4-coussins-10-5.json",
+      "image_file": "coussins-de-presentation-lot-de-10-v-blue.jpg",
+      "handle": "coussins-de-presentation-lot-de-10",
+      "product_gid": "gid://shopify/Product/10980388569426",
+      "sku_fragment": "14:173",
+      "slot": "variante",
+      "variant_count": 1,
+      "multi_variant": false,
+      "multi_variant_reason": null,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098040881490"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-coussins-10-5.json",
+      "output_manifest": "manifeste-p4-coussins-10-5.json",
+      "image_file": "coussins-de-presentation-lot-de-10-v-black.jpg",
+      "handle": "coussins-de-presentation-lot-de-10",
+      "product_gid": "gid://shopify/Product/10980388569426",
+      "sku_fragment": "14:193",
+      "slot": "variante",
+      "variant_count": 1,
+      "multi_variant": false,
+      "multi_variant_reason": null,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098040815954"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-coussins-10-5.json",
+      "output_manifest": "manifeste-p4-coussins-10-5.json",
+      "image_file": "coussins-de-presentation-lot-de-10-v-white.jpg",
+      "handle": "coussins-de-presentation-lot-de-10",
+      "product_gid": "gid://shopify/Product/10980388569426",
+      "sku_fragment": "14:29",
+      "slot": "variante",
+      "variant_count": 1,
+      "multi_variant": false,
+      "multi_variant_reason": null,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098040848722"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-coussins-10-5.json",
+      "output_manifest": "manifeste-p4-coussins-10-5.json",
+      "image_file": "coussins-de-presentation-lot-de-10-v-brown.jpg",
+      "handle": "coussins-de-presentation-lot-de-10",
+      "product_gid": "gid://shopify/Product/10980388569426",
+      "sku_fragment": "14:365458",
+      "slot": "variante",
+      "variant_count": 1,
+      "multi_variant": false,
+      "multi_variant_reason": null,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098040947026"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-etui-rigide-2.json",
+      "output_manifest": "manifeste-p4-etui-rigide-2.json",
+      "image_file": "etui-de-voyage-rigide-v-black-purple-6-slot.jpg",
+      "handle": "etui-de-voyage-rigide",
+      "product_gid": "gid://shopify/Product/10980388602194",
+      "sku_fragment": "14:173#Black Purple 6 Slot",
+      "slot": "variante",
+      "variant_count": 1,
+      "multi_variant": false,
+      "multi_variant_reason": null,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098045239634"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-etui-rigide-2.json",
+      "output_manifest": "manifeste-p4-etui-rigide-2.json",
+      "image_file": "etui-de-voyage-rigide-v-black-green-6-slot.jpg",
+      "handle": "etui-de-voyage-rigide",
+      "product_gid": "gid://shopify/Product/10980388602194",
+      "sku_fragment": "14:200006153#Black Green 6 Slot",
+      "slot": "variante",
+      "variant_count": 1,
+      "multi_variant": false,
+      "multi_variant_reason": null,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098045141330"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-jubile-courbes-3.json",
+      "output_manifest": "manifeste-p4-jubile-courbes-3.json",
+      "image_file": "bracelet-jubile-embouts-courbes-v-steel-gold-no-logo.jpg",
+      "handle": "bracelet-jubile-embouts-courbes",
+      "product_gid": "gid://shopify/Product/10980388405586",
+      "sku_fragment": "200000049:100013777#steel gold-no logo",
+      "slot": "variante",
+      "variant_count": 5,
+      "multi_variant": true,
+      "multi_variant_reason": "5 largeurs partageant exactement le même fragment de finition : 18, 19, 20, 21 et 22 mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098038325586",
+        "gid://shopify/ProductVariant/54098038554962",
+        "gid://shopify/ProductVariant/54098038587730",
+        "gid://shopify/ProductVariant/54098038620498",
+        "gid://shopify/ProductVariant/54098038653266"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-jubile-courbes-3.json",
+      "output_manifest": "manifeste-p4-jubile-courbes-3.json",
+      "image_file": "bracelet-jubile-embouts-courbes-v-gold-no-logo.jpg",
+      "handle": "bracelet-jubile-embouts-courbes",
+      "product_gid": "gid://shopify/Product/10980388405586",
+      "sku_fragment": "200000049:3348727#gold-no logo",
+      "slot": "variante",
+      "variant_count": 5,
+      "multi_variant": true,
+      "multi_variant_reason": "5 largeurs partageant exactement le même fragment de finition : 18, 19, 20, 21 et 22 mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098038292818",
+        "gid://shopify/ProductVariant/54098038358354",
+        "gid://shopify/ProductVariant/54098038391122",
+        "gid://shopify/ProductVariant/54098038456658",
+        "gid://shopify/ProductVariant/54098038522194"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-jubile-courbes-3.json",
+      "output_manifest": "manifeste-p4-jubile-courbes-3.json",
+      "image_file": "bracelet-jubile-embouts-courbes-v-steel-no-logo.jpg",
+      "handle": "bracelet-jubile-embouts-courbes",
+      "product_gid": "gid://shopify/Product/10980388405586",
+      "sku_fragment": "200000049:350853#steel-no logo",
+      "slot": "variante",
+      "variant_count": 5,
+      "multi_variant": true,
+      "multi_variant_reason": "5 largeurs partageant exactement le même fragment de finition : 18, 19, 20, 21 et 22 mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098038227282",
+        "gid://shopify/ProductVariant/54098038260050",
+        "gid://shopify/ProductVariant/54098038423890",
+        "gid://shopify/ProductVariant/54098038489426",
+        "gid://shopify/ProductVariant/54098038686034"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-milanais-8.json",
+      "output_manifest": "manifeste-p4-milanais-8.json",
+      "image_file": "bracelet-milanais-maille-italienne-v-0-6mm-black.jpg",
+      "handle": "bracelet-milanais-maille-italienne",
+      "product_gid": "gid://shopify/Product/10980388864338",
+      "sku_fragment": "200000049:193#0.6mm-black",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs partageant exactement le même fragment maille-finition : 18, 20, 22 et 24 mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098048516434",
+        "gid://shopify/ProductVariant/54098048549202",
+        "gid://shopify/ProductVariant/54098048581970",
+        "gid://shopify/ProductVariant/54098048614738"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-milanais-8.json",
+      "output_manifest": "manifeste-p4-milanais-8.json",
+      "image_file": "bracelet-milanais-maille-italienne-v-1-0mm-gold.jpg",
+      "handle": "bracelet-milanais-maille-italienne",
+      "product_gid": "gid://shopify/Product/10980388864338",
+      "sku_fragment": "200000049:200000080#1.0mm-gold",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs partageant exactement le même fragment maille-finition : 18, 20, 22 et 24 mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098047730002",
+        "gid://shopify/ProductVariant/54098048385362",
+        "gid://shopify/ProductVariant/54098048418130",
+        "gid://shopify/ProductVariant/54098048450898"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-milanais-8.json",
+      "output_manifest": "manifeste-p4-milanais-8.json",
+      "image_file": "bracelet-milanais-maille-italienne-v-1-0mm-silver.jpg",
+      "handle": "bracelet-milanais-maille-italienne",
+      "product_gid": "gid://shopify/Product/10980388864338",
+      "sku_fragment": "200000049:200013899#1.0mm-silver",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs partageant exactement le même fragment maille-finition : 18, 20, 22 et 24 mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098048254290",
+        "gid://shopify/ProductVariant/54098048287058",
+        "gid://shopify/ProductVariant/54098048319826",
+        "gid://shopify/ProductVariant/54098048352594"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-milanais-8.json",
+      "output_manifest": "manifeste-p4-milanais-8.json",
+      "image_file": "bracelet-milanais-maille-italienne-v-1-0mm-rose-gold.jpg",
+      "handle": "bracelet-milanais-maille-italienne",
+      "product_gid": "gid://shopify/Product/10980388864338",
+      "sku_fragment": "200000049:29#1.0mm-rose gold",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs partageant exactement le même fragment maille-finition : 18, 20, 22 et 24 mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098047893842",
+        "gid://shopify/ProductVariant/54098047926610",
+        "gid://shopify/ProductVariant/54098047959378",
+        "gid://shopify/ProductVariant/54098047992146"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-milanais-8.json",
+      "output_manifest": "manifeste-p4-milanais-8.json",
+      "image_file": "bracelet-milanais-maille-italienne-v-0-6mm-rose-gold.jpg",
+      "handle": "bracelet-milanais-maille-italienne",
+      "product_gid": "gid://shopify/Product/10980388864338",
+      "sku_fragment": "200000049:3348727#0.6mm-rose gold",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs partageant exactement le même fragment maille-finition : 18, 20, 22 et 24 mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098048647506",
+        "gid://shopify/ProductVariant/54098048680274",
+        "gid://shopify/ProductVariant/54098048713042",
+        "gid://shopify/ProductVariant/54098048745810"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-milanais-8.json",
+      "output_manifest": "manifeste-p4-milanais-8.json",
+      "image_file": "bracelet-milanais-maille-italienne-v-0-6mm-gold.jpg",
+      "handle": "bracelet-milanais-maille-italienne",
+      "product_gid": "gid://shopify/Product/10980388864338",
+      "sku_fragment": "200000049:350850#0.6mm-gold",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs partageant exactement le même fragment maille-finition : 18, 20, 22 et 24 mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098048155986",
+        "gid://shopify/ProductVariant/54098048188754",
+        "gid://shopify/ProductVariant/54098048221522",
+        "gid://shopify/ProductVariant/54098048483666"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-milanais-8.json",
+      "output_manifest": "manifeste-p4-milanais-8.json",
+      "image_file": "bracelet-milanais-maille-italienne-v-0-6mm-silver.jpg",
+      "handle": "bracelet-milanais-maille-italienne",
+      "product_gid": "gid://shopify/Product/10980388864338",
+      "sku_fragment": "200000049:350853#0.6mm-silver",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs partageant exactement le même fragment maille-finition : 18, 20, 22 et 24 mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098048024914",
+        "gid://shopify/ProductVariant/54098048057682",
+        "gid://shopify/ProductVariant/54098048090450",
+        "gid://shopify/ProductVariant/54098048123218"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-milanais-8.json",
+      "output_manifest": "manifeste-p4-milanais-8.json",
+      "image_file": "bracelet-milanais-maille-italienne-v-1-0mm-black.jpg",
+      "handle": "bracelet-milanais-maille-italienne",
+      "product_gid": "gid://shopify/Product/10980388864338",
+      "sku_fragment": "200000049:366#1.0mm-black",
+      "slot": "variante",
+      "variant_count": 4,
+      "multi_variant": true,
+      "multi_variant_reason": "4 largeurs partageant exactement le même fragment maille-finition : 18, 20, 22 et 24 mm.",
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098047762770",
+        "gid://shopify/ProductVariant/54098047795538",
+        "gid://shopify/ProductVariant/54098047828306",
+        "gid://shopify/ProductVariant/54098047861074"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-outil-taille-2.json",
+      "output_manifest": "manifeste-p4-outil-taille-2.json",
+      "image_file": "outil-de-mise-a-taille-de-bracelet-v-black.jpg",
+      "handle": "outil-de-mise-a-taille-de-bracelet",
+      "product_gid": "gid://shopify/Product/10980388766034",
+      "sku_fragment": "14:193",
+      "slot": "variante",
+      "variant_count": 1,
+      "multi_variant": false,
+      "multi_variant_reason": null,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098047435090"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-outil-taille-2.json",
+      "output_manifest": "manifeste-p4-outil-taille-2.json",
+      "image_file": "outil-de-mise-a-taille-de-bracelet-v-silver.jpg",
+      "handle": "outil-de-mise-a-taille-de-bracelet",
+      "product_gid": "gid://shopify/Product/10980388766034",
+      "sku_fragment": "14:350853",
+      "slot": "variante",
+      "variant_count": 1,
+      "multi_variant": false,
+      "multi_variant_reason": null,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54098047467858"
+      ]
+    },
+    {
+      "order_file": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-rouleau-noir-wb13.json",
+      "output_manifest": "manifeste-p4-rouleau-noir-wb13.json",
+      "image_file": "rouleau-de-voyage-noir-cuir-v-wb13.jpg",
+      "handle": "rouleau-de-voyage-noir-cuir",
+      "product_gid": "gid://shopify/Product/10980083171666",
+      "sku_fragment": "14:350686#WB13",
+      "slot": "variante",
+      "variant_count": 1,
+      "multi_variant": false,
+      "multi_variant_reason": null,
+      "variant_gids": [
+        "gid://shopify/ProductVariant/54096787276114"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "action": "variants",
+  "ok": true,
+  "result": {
+    "checked_at_utc": "2026-08-09T23:09:01+00:00",
+    "product": {
+      "evaluation_count": "342",
+      "product_id": "1005005877471703",
+      "rating": "4.5",
+      "sales_count": "1000+",
+      "status": "onSelling",
+      "store": {
+        "communication_rating": "4.7",
+        "country": "CN",
+        "id": 1102938564,
+        "item_as_described_rating": "4.6",
+        "name": "Miyota Store",
+        "shipping_speed_rating": "4.7"
+      },
+      "title": "Kit d'outils de réparation et de réglage pour bracelet de montre 2068 avec 3 broches de rechange et jeu de barrettes à ressort"
+    },
+    "source": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS",
+    "variants": [
+      {
+        "currency": "EUR",
+        "offer_sale_price": "3.99",
+        "properties": [
+          {
+            "image": "https://ae01.alicdn.com/kf/Se70cce7f352e439493d719fc2d2b24deI.jpg",
+            "name": "Couleur",
+            "raw_value": "noir",
+            "value": "noir"
+          }
+        ],
+        "sku_attr": "14:193",
+        "sku_id": "12000034673487593",
+        "sku_price": "3.99",
+        "stock": 7,
+        "tax_included": true
+      },
+      {
+        "currency": "EUR",
+        "offer_sale_price": "4.09",
+        "properties": [
+          {
+            "image": "https://ae01.alicdn.com/kf/S85dd2bba33264c1fb4816474e7fb8553s.jpg",
+            "name": "Couleur",
+            "raw_value": "Argent",
+            "value": "Argent"
+          }
+        ],
+        "sku_attr": "14:350853",
+        "sku_id": "12000034673487594",
+        "sku_price": "4.09",
+        "stock": 9,
+        "tax_included": true
+      }
+    ]
+  }
+}

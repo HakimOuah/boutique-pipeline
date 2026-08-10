@@ -1,0 +1,45 @@
+{
+  "id": "claude-20260810-0057-gaufre-claires-argentees",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "bracelet-caoutchouc-gaufre",
+        "sku": "200000049:200966040#White-Silver Buckle",
+        "slot": "variante",
+        "fichier": "bracelet-caoutchouc-gaufre-v-white-silver-buckle.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      },
+      {
+        "handle": "bracelet-caoutchouc-gaufre",
+        "sku": "200000049:990994103#Yellow-Silver Buckle",
+        "slot": "variante",
+        "fichier": "bracelet-caoutchouc-gaufre-v-yellow-silver-buckle.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bracelet-caoutchouc-gaufre",
+        "sku": "200000049:1714056674#Light Blue-Silver",
+        "slot": "variante",
+        "fichier": "bracelet-caoutchouc-gaufre-v-light-blue-silver.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/v-white-g1-cadrage-non-homogene.jpg",
+        "motif": "Cadrage et echelle moins homogenes que les variantes jaune et bleu clair; essai ecarte avant livraison."
+      },
+      {
+        "fichier": "rejected/v-white-g2-orientation-miroir.jpg",
+        "motif": "Diagonale orientee a l'inverse des deux autres variantes; essai ecarte avant livraison."
+      }
+    ],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-08-09T23:13:53Z",
+  "executor": "codex-2026-08-10"
+}
