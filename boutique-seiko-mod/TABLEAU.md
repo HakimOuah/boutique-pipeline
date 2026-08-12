@@ -5,7 +5,7 @@
 
 **Mets ce fichier à jour avant de rendre la main.** C'est la seule obligation qui ne se délègue pas.
 
-Dernière mise à jour : **13/08/2026** — régressions P0 réparées ; audit des 95 brouillons soldé (T-16) ; **recherche de mots-clés faite (T-21) : l'arborescence actuelle est à refaire, 4 collections sur 10 ne portent aucun volume** ; **audit GMC repris point par point (T-11) : 2 065 SKU AliExpress découverts sur les brouillons, T-H2 rouvert**.
+Dernière mise à jour : **13/08/2026** — régressions P0 réparées ; audit des 95 brouillons soldé (T-16) ; **recherche de mots-clés faite (T-21) : l'arborescence actuelle est à refaire, 4 collections sur 10 ne portent aucun volume** ; **audit GMC repris point par point (T-11) : 2 065 SKU AliExpress découverts sur les brouillons, T-H2 rouvert** ; **pilier montres finies instruit (T-26) : dossier à trois scénarios, arbitrage de positionnement attendu de Hakim**.
 
 ---
 
@@ -239,11 +239,19 @@ Deux règles ajoutées à [`REGLES.md`](REGLES.md), section « Pièges déjà pa
 **Comment** : règle `<Organe> de montre <cote> <caractéristique> — <coloris>, pour <calibre>`, plafond **65 caractères** sur le `seo.title` (il devient le titre du flux Shopping). Les 94 titres proposés sont écrits au §7 du compte rendu, fiche par fiche, avec leur mot-clé cible et son volume.
 **Attention** : ⚠️ `aiguilles-c3-super-lume-62` — `super luminova` pèse **320**, le plus fort de la famille aiguilles ; ne l'écrire dans le titre **que si le fournisseur documente vraiment de la Super-LumiNova**, sinon rester sur « luminescence C3 ».
 
-### T-26 — Instruire le pilier « montres finies »
-**État** : À FAIRE · **Pour** : Claude · **Né de** : T-21 (13/08) · **Décision de Hakim attendue**
-**Pourquoi** : le catalogue de 91 pièces n'est pas un pilier de trafic — c'est un catalogue de panier moyen. Le volume est côté montre finie : squelette **5 780** (2 fiches actives seulement), chiffres arabes **9 500**, aviateur/pilote **2 630** (aucune collection).
-**Comment** : étoffer `montre-squelette`, créer une collection aviateur, corriger `montre-cadran-a-chiffres` (elle porte encore « nous n'en proposons pas »). Reclasser les **3 montres finies rangées dans la collection de pièces `cadran-arabe`** (§8 du compte rendu).
+### ~~T-26 — Instruire le pilier « montres finies »~~ ✅ INSTRUIT le 13/08 — **décision de Hakim attendue**
+**Compte rendu** : [`journal/2026-08-13-dossier-positionnement.md`](journal/2026-08-13-dossier-positionnement.md)
+**État** : 🔴 **BLOQUÉ — arbitrage de Hakim entre A, B et C** · **Pour** : Hakim
+**Ce qui est établi** :
+- **Le catalogue actif est déjà une boutique de montres finies** : **57 montres** en 9 familles, prix appliqués (279-429 €), galeries maison, **0 photo AliExpress brute**. Le défaut « 84 titres sur 94 sans le mot montre » ne concerne **que** les 94 brouillons de pièces.
+- **6 mesures SEMrush nouvelles, 0 crédit consommé** (compteur resté à 300/1 000) : `montre de plongée` **1 600** KD 13, **seule tête à intention commerciale de tout le corpus** (grappe 10 900) · `montre chronographe homme` **1 000** KD 14 · `montre gmt` **1 000** KD 12 · `montre chiffre arabe` **880** KD 6 · `montre field` 110 (grappe tenue par Hamilton).
+- ⚠️ **Correction du « 9 500 arabe » de T-21** : 8 100 des 9 500 étaient `seiko arabic dial`, requête de **marque interdite en flux**. Le vrai mot français est `montre chiffre arabe` **880, KD 6, sans marque**, et il désigne les chiffres **occidentaux 1-2-3** — donc les **5 montres déjà en ligne**. Ce n'est pas un trou d'offre, c'est un **trou de nommage**.
+- ⚠️ **Correction du §8 de T-21** : les 3 montres finies ne sont **plus** dans `cadran-arabe` (vérifié : rattachées à `montres`, tag `montres-mod`) et `montre-cadran-a-chiffres` ne porte **plus** « nous n'en proposons pas » (corrigé le 11/08). Reste vrai : le titre de `montre-pilote-plongee-39-chiffres-arabes` ment (chiffres 1-12).
+- **Têtes de famille montres finies 9 200/mois (KD 6-16) contre 4 070 côté pièces.** Trous : squelette (grappe 8 400 pour **2 produits**), style plongeuse (1 600 pour **3 produits**), aviateur (2 630, **aucune collection**). Surdotation : sport chic, **14 produits pour 110 recherches**.
+**Recommandation de Claude** : **scénario A** — boutique de montres finies, les 91 pièces conservées en deuxième rideau (cross-sell sur les PDP montres, +25 à 60 € de panier sans acquisition). Raisons : l'offre est prête, l'intention est commerciale, le panier absorbe le CAC, et la règle « aucune marque tierce » (≈ 17 500 recherches perdues) pèse **presque entièrement sur les pièces**. A ramène le chantier des 1 091 photos brutes de ≈ 150-180 h à **≈ 50-60 h** (périmètre P1 réduit à ≈ 30 fiches de cross-sell).
+**Si A est retenu, 6 actions** : renommer `montre-cadran-a-chiffres` → `montre-chiffre-arabe` · `chronos` → `montre-chronographe` · `gmt` → `montre-gmt` (⚠️ **3 redirections 301 obligatoires**, ces collections **sont** publiées) · créer `montre-aviateur` · sourcer **7 squelettes** et **5 boîtiers plongeuse réellement 200 m** (débloque `montre de plongée`) · réduire le périmètre P1 de T-07.
 **À dire à Hakim** : la règle « aucune marque tierce » rend inaccessibles ≈ **17 500 recherches/mois** (`seiko mod` 8 100, `seiko arabic dial` 8 100, `seiko nh35` 590, `seiko chiffre arabe` 390). La règle reste juste — mais la voie légale existe : le **contenu éditorial** peut citer Seiko factuellement là où le titre de flux ne le peut pas.
+**Angle mort à instruire avant tout sourcing** : aucun concurrent FR n'est profilé sur `montre squelette homme`, `montre de plongée` ni `montre gmt`.
 
 ### T-27 — Plan de contenu sur les intentions informationnelles
 **État** : À FAIRE · **Pour** : Claude · **Né de** : T-21 (13/08)
