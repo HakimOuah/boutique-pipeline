@@ -1,7 +1,7 @@
 # Maison Noirmont — tableau
 
 **Point d'entrée unique.** Tu commences ici, quel que soit l'agent. Format des tickets : [`../METHODE-TABLEAU.md`](../METHODE-TABLEAU.md).
-État courant chiffré : [`ETAT.md`](ETAT.md) · Règles et pièges : [`REGLES.md`](REGLES.md) · Archive : [`journal/`](journal/)
+État courant chiffré : [`ETAT.md`](ETAT.md) · Règles et pièges : [`REGLES.md`](REGLES.md) · Style : [`STYLE-REDACTION.md`](STYLE-REDACTION.md) · Archive : [`journal/`](journal/)
 
 **Mets ce fichier à jour avant de rendre la main.** C'est la seule obligation qui ne se délègue pas.
 
@@ -175,6 +175,21 @@ Deux règles ajoutées à [`REGLES.md`](REGLES.md), section « Pièges déjà pa
 **Comment** : prendre **3 à 5 sources fournisseur déjà traitées**, régénérer avec Nano Banana dans les mêmes conditions (composition depuis la photo fournisseur, seule la mise en scène change), et comparer à visuel identique : fidélité du cadran, respect des index, propreté des repères, absence de lettrage inventé.
 **Sortie attendue** : verdict comparatif chiffré (défauts par lot), et recommandation de bascule ou non.
 **Attention** : ⚠️ **ce test ne concerne PAS les 5 sources abandonnées.** Voir T-H5 — leur problème est le produit, pas la photo.
+
+### T-24 — Réécrire tout le contenu SEO du catalogue
+**État** : BLOQUÉ par T-21 (a besoin de ses chiffres) · **Pour** : Claude · **Spec dictée par Hakim le 13/08**
+**Pourquoi** : les 10 textes de collection et les 94 descriptions ont été écrits en une nuit, depuis des données fournisseur, sans mots-clés mesurés. Ils portent les marqueurs de l'écriture IA — reconnaissables par Google comme par le lecteur — et ne visent aucun mot-clé validé. C'est le chantier qui décide du référencement de la boutique.
+**Comment** :
+1. **Rangement d'abord** : chaque produit dans la bonne collection, d'après le mot-clé cible établi par T-21. Les fiches dont le mot-clé appartient à une autre collection sont déplacées.
+2. **Textes de collection** — 300 à 500 mots, structure : ce que couvre la catégorie → **comment choisir** (le passage qui fait le référencement) → les sous-familles → les erreurs fréquentes.
+3. **Descriptions produit** — 150 à 300 mots, structure : à quoi ça sert → compatibilité et dimensions → matière et finition → à savoir avant d'acheter.
+4. **Mot-clé cible** présent dans le titre, le premier paragraphe, un intertitre et la meta description. Naturellement.
+5. **Gras sur ce qui aide à décider** : calibre, cote en mm, matière, contenu de la livraison. Jamais sur un adjectif.
+6. **Purge de l'écriture IA** : voir [`STYLE-REDACTION.md`](STYLE-REDACTION.md) — tirets cadratins, « que vous soyez », « plongez dans », tricolons, superlatifs vides, conclusions qui résument. C'est une **passe de suppression**, pas seulement d'ajout.
+7. Meta title et meta description refaits pour chaque page touchée.
+**Sortie attendue** : catalogue rangé, 10 textes de collection et ~200 fiches réécrits, sauvegarde des contenus précédents avant écrasement.
+**Attention** : ⚠️ aucune spécification inventée (donnée manquante = non affirmée) · aucun avis ni chiffre de satisfaction · les brouillons restent en DRAFT · **les changements de handle passent par T-21 et ses redirections 301**, pas par ce ticket.
+**Réf.** : `STYLE-REDACTION.md`, `REGLES.md`, sortie de T-21.
 
 ### T-13 — Ranger les ~30 fichiers de données restés à la racine
 **Pour** : Codex · **Pourquoi** : les `MAPPING-*.json`, `RAPPORT-*.json`, `AUDIT-*.json`, `INVENTAIRE-*.csv` encombrent le point d'entrée. Ils n'ont pas été déplacés parce que **des scripts les lisent en chemin relatif** — les bouger à l'aveugle casserait ces scripts.
