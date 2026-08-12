@@ -271,6 +271,18 @@ Deux règles ajoutées à [`REGLES.md`](REGLES.md), section « Pièges déjà pa
 **Sortie attendue** : verdict comparatif chiffré (défauts par lot), et recommandation de bascule ou non.
 **Attention** : ⚠️ **ce test ne concerne PAS les 5 sources abandonnées.** Voir T-H5 — leur problème est le produit, pas la photo.
 
+### T-37 — Purger l'écriture IA des 96 fiches actives
+**État** : À FAIRE · **Pour** : Claude · **Révélé le 14/08 par T-25**
+**Pourquoi** : le **tiret cadratin subsiste sur les 96 fiches actives** — jamais touchées par la passe de style. Et sous le scénario A, **ces 96 fiches sont la boutique** : elles portent les 9 200 recherches/mois des montres finies. Purger le style des brouillons de pièces avant celui des fiches qui font le trafic serait l'ordre inverse du bon.
+**Comment** : appliquer [`STYLE-REDACTION.md`](STYLE-REDACTION.md) aux titres, descriptions et metas des 96 actives — tirets cadratins, « que vous soyez », « plongez dans », tricolons, superlatifs vides, conclusions qui résument. **Sauvegarder avant écrasement.** Ne pas toucher aux handles (T-24) ni aux médias.
+**Attention** : ⚠️ ces fiches sont **actives** : toute écriture est visible dès la levée du mot de passe. Contrôler chaque texte contre le produit réel avant écriture — aucune spécification inventée.
+**Sortie attendue** : plus un seul marqueur d'écriture IA sur les pages qui portent le trafic.
+
+### T-38 — Corriger le gabarit de titre de T-21
+**État** : À FAIRE · **Pour** : Claude · **Rapide**
+**Pourquoi** : le gabarit de titre produit par T-21 contient un **tiret cadratin**, interdit par `STYLE-REDACTION.md`. Il a été corrigé à la main sur les 86 fiches, mais **le gabarit lui-même est intact** : toute réutilisation réintroduira le défaut.
+**Comment** : corriger le gabarit dans `journal/2026-08-13-recherche-mots-cles.md` (virgules à la place du tiret) et signaler la règle en tête du document.
+
 ### T-31 — Réécrire tout le contenu SEO du catalogue
 **État** : BLOQUÉ — dépend de la décision de positionnement (voir T-26) · **Pour** : Claude · **Spec dictée par Hakim le 13/08**
 **⚠️ Ne pas lancer avant arbitrage** : T-21 a montré que les mots-clés visés par les textes actuels n'ont pas de volume. Réécrire 200 fiches autour d'une arborescence qui va changer serait à refaire.
