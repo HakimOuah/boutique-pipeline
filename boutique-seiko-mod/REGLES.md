@@ -30,7 +30,7 @@ Règles issues de décisions de Hakim et d'incidents réels. **Elles ne s'assoup
 
 **Lecture des SERP AliExpress.** Note et ventes sont collées sans séparateur : « 531 vendus » = **5,0 étoiles / 31 ventes**. Seule la fiche produit ouverte fait foi. Règle appliquée : **moins de 10 ventes réelles = refus**.
 
-**Les fiches AliExpress ne s'ouvrent pas dans un navigateur automatisé** (reCAPTCHA) mais **s'ouvrent normalement dans le Chrome de Hakim**. C'est le seul chemin vers la preuve classe A. Ne contourner aucun anti-bot.
+**Sourcing AliExpress : passer par l'API, pas par le navigateur** (décision Hakim, 12/08/2026). L'AliExpress Open Platform / AE-Dropshipper, via la passerelle VPS en lecture seule, coûte une fraction d'une session Chrome **et donne mieux** : ventes réelles, prix exact par variante, stock à l'unité, fret France, délais, images de variantes pour la QA — de la preuve classe A sans navigateur. Endpoints : `health`, `search`, `variants`, `exact` ; pas de catalogue vendeur ni de `related` (pour les produits frères, filtrer `search` sur l'identifiant vendeur). **Le navigateur ne sert plus que pour DSers.** Les fiches AliExpress restent bloquées par reCAPTCHA dans un navigateur automatisé et ne s'ouvrent que dans le Chrome de Hakim — ne contourner aucun anti-bot.
 
 **Quatre verbatims de marque trouvés sur des produits vendus « sans logo »** : « SWISS MADE », « SUPERLATIVE CHRONOMETER / OFFICIALLY CERTIFIED » (Rolex), logo « Tandorio », et un lettrage cursif apparu en génération le 12/08. **Zoomer le cadran systématiquement**, à la source comme au livrable.
 

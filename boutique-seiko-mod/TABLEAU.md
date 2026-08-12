@@ -70,17 +70,22 @@ Dernière mise à jour : **12/08/2026**, après audit contradictoire du travail 
 **Comment** : handle SEO français calé sur le vocabulaire de recherche, titre, description structurée, meta title et description, rattachement à `cadran-arabe`. Caractéristiques tirées des **données réelles relevées**, jamais inventées. Créer la redirection 301 si le handle change après indexation (ici sans objet, fiches en DRAFT).
 **Sortie attendue** : 2 fiches conformes au standard des 94 autres, dans la bonne collection.
 
-### T-05 — Finir le re-sourcing des cadrans arabes
-**État** : À FAIRE · **Pour** : Codex · **Le plus rentable du tableau.**
-**Pourquoi** : le mot-clé porte **15 500 recherches/mois** et la collection n'a que 5 produits réels. Le re-sourcing s'est arrêté à 3 cadrans qualifiés sur les 4 à 8 visés.
-**Comment** :
-1. Ouvrir les fiches AliExpress **dans le Chrome de Hakim** (seul chemin vers la preuve classe A).
-2. Cibler des cadrans compatibles NH35/NH36, cotes 28,5 / 29 / 33,5 mm.
-3. **Vérifier sur l'image, pas sur le titre** : les chiffres doivent être de vrais **chiffres arabes orientaux** (٣ ٦ ٩ ١٢). Un titre « arabic » ne prouve rien — trois fiches sont tombées pour ça.
-4. **Zoomer le cadran** : toute marque ou formule déposée = refus immédiat.
-5. Relever sur fiche ouverte : item_id complet, ventes réelles, note, prix, variantes, livraison France. **Moins de 10 ventes = refus.**
-6. Télécharger les photos fournisseur dans `livraisons/sources-fournisseur/<handle-propose>/`.
-**Sortie attendue** : file DSers prête, 4 à 8 candidats classe A. **Aucun achat, aucun import à ce stade.**
+### T-05 — Décider du sort du pilier « cadran arabe » ⛔ NE PAS RELANCER DE RECHERCHE
+**État** : BLOQUÉ — décision de Hakim · **Pour** : Hakim
+**Pourquoi** : **le gisement est épuisé, ce n'est pas un manque d'effort.** Trois passes par l'API officielle (09, 10 et 11/08) : 80 recherches réussies sur 80, **676 identifiants distincts**, 104 fiches relues variante par variante, en douze langues (arabe, persan, ourdou, hindi, turc, russe…), sur toutes les cotes et tous les tris. Résultat : **3 produits qualifiés, le quatrième n'existe pas** dans l'inventaire atteignable. La plupart des cadrans vendus « arabic » portent en réalité des chiffres occidentaux ; le plus vendu (458 ventes) affiche `SUPERLATIVE CHRONOMETER` sur le cadran.
+**Conséquence** : on ne peut aligner que **5 à 8 produits** derrière un mot-clé à 15 500 recherches/mois. C'est mince pour un pilier de boutique.
+**Les trois options** :
+1. **Assumer une collection courte** — 8 produits bien faits, en acceptant qu'elle ne porte pas la boutique à elle seule.
+2. **Élargir la définition** — inclure les **montres finies** à cadran arabe, pas seulement les cadrans-pièces. Change la collection et le panier moyen.
+3. **Déclasser le pilier** — garder la collection pour le SEO longue traîne et bâtir la boutique sur « cadran pilote » et « cadran stérile », où l'offre suit.
+**Attention** : ⛔ **ne pas lancer de quatrième passe de sourcing arabe.** Ce serait dépenser pour reconfirmer un mur déjà documenté trois fois.
+**Réf.** : `journal/2026-08-11-resourcing-cadrans-arabes-api-passe-finale.md`
+
+### T-05b — Utiliser l'API AliExpress par défaut pour tout sourcing
+**État** : À FAIRE · **Pour** : Claude ou Codex
+**Pourquoi** : constat de Hakim (12/08) — piloter Chrome sur AliExpress consomme énormément. L'API officielle (AliExpress Open Platform / AE-Dropshipper via passerelle VPS en lecture seule) coûte une fraction et donne **mieux** : ventes réelles, prix exact par variante, stock à l'unité, fret France, délais, images de variantes pour la QA. C'est de la preuve classe A **sans navigateur**.
+**Comment** : endpoints disponibles `health`, `search`, `variants`, `exact`. Pas de catalogue vendeur ni de `related` — pour les produits frères, filtrer les résultats de `search` sur l'identifiant vendeur. Le navigateur reste utile pour DSers uniquement.
+**Sortie attendue** : cette règle inscrite dans `REGLES.md` et appliquée à tous les sourcings suivants.
 
 ### T-06 — Importer, rédiger et habiller le lot arabe
 **État** : BLOQUÉ par T-05 · **Pour** : Codex
