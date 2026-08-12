@@ -108,6 +108,11 @@ Dernière mise à jour : **12/08/2026**, après audit contradictoire du travail 
 
 ## 🟨 À FAIRE — P2, avant lancement
 
+### T-13 — Ranger les ~30 fichiers de données restés à la racine
+**Pour** : Codex · **Pourquoi** : les `MAPPING-*.json`, `RAPPORT-*.json`, `AUDIT-*.json`, `INVENTAIRE-*.csv` encombrent le point d'entrée. Ils n'ont pas été déplacés parce que **des scripts les lisent en chemin relatif** — les bouger à l'aveugle casserait ces scripts.
+**Comment** : pour chaque fichier, `grep -rl "<nom>" scripts/ shopify/ ../ordres/` ; ceux qui ne sont lus par aucun script vont en `journal/data/`, les autres restent et sont documentés dans `journal/README.md`.
+**Sortie attendue** : à la racine du dossier boutique, uniquement `TABLEAU.md`, `ETAT.md`, `REGLES.md` et les dossiers.
+
 ### T-10 — Installer la mesure d'achat
 **Pour** : Claude + Hakim · **Pourquoi** : ni GA4 ni gtag. **Interdit de dépenser un euro en publicité sans mesure d'achat** — et le budget validé est de 30 €/jour.
 **Comment** : `journal/2026-08-08-tracking-et-consentement.md`, 10 étapes au clic près. Voie retenue : app **Google & YouTube** — sur le plan Basic, le code de thème **ne peut pas voir l'achat** (caisse hors thème, pas de `checkout.liquid`). Hakim crée la propriété GA4 ; Claude ne crée aucun compte.
