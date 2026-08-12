@@ -11,12 +11,12 @@ Dernière mise à jour : **12/08/2026**, après audit contradictoire du travail 
 
 ## 🔴 BLOQUÉ — attend Hakim
 
-### T-H1 — Coller les 7 politiques légales
+### ~~T-H1 — Coller les 7 politiques légales~~ ✅ FAIT le 12/08 (Hakim)
 **Pour** : Hakim · **Pourquoi** : les CGV et la politique de remboursement servies portent **encore la clause interdite** (« portés… ne sont pas repris »), qui contredit le « 14 jours satisfait ou remboursé même si portée » affiché ailleurs. C'est la contradiction qu'un examinateur Merchant Center voit en premier.
 **Comment** : ouvrir `livraisons/politiques-maison-noirmont-2026-08-10/`, coller chaque texte dans *Réglages → Politiques*. Le connecteur ne peut pas le faire : permission `write_legal_policies` absente.
 **Sortie attendue** : les 7 politiques à jour sur la boutique.
 
-### T-H2 — Adhérer à un médiateur de la consommation
+### ~~T-H2 — Adhérer à un médiateur de la consommation~~ ✅ FAIT le 12/08 (Hakim)
 **Pour** : Hakim · **Pourquoi** : obligation légale française ; l'article 17 des CGV porte encore `[À COMPLÉTER]`.
 **Sortie attendue** : nom et coordonnées du médiateur intégrés aux CGV.
 
