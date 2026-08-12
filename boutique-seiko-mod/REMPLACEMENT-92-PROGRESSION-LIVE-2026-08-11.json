@@ -1,0 +1,457 @@
+{
+  "schema_version": 1,
+  "shop": "v42pzp-h4.myshopify.com",
+  "objective": "Remplacer les 92 médias fournisseur restants sans modifier prix, SKU, stock, statut ni image principale.",
+  "counts": {
+    "targets_total": 92,
+    "completed": 79,
+    "remaining": 13
+  },
+  "completed_products": [
+    {
+      "handle": "cadran-meteorite-28-5",
+      "product_gid": "gid://shopify/Product/11013077664082",
+      "status": "DRAFT",
+      "featured_media_gid": "gid://shopify/MediaImage/59904314736978",
+      "gallery_media_preserved": 3,
+      "new_media_ready": 9,
+      "variant_associations_verified": 9,
+      "old_supplier_media_removed": 9,
+      "product_media_after": 12,
+      "pagination_complete": true,
+      "result": "ordres/pour-codex/resultats/20260811-1227-generate_images-remplacement92-meteorite-9.json",
+      "manifest": "boutique-seiko-mod/visuels-codex-2026-08/cadran-meteorite-28-5/manifeste-remplacement92-meteorite-9.json",
+      "qa_board": "boutique-seiko-mod/visuels-codex-2026-08/cadran-meteorite-28-5/qa/planche-remplacement92-meteorite-9-source-rendu.jpg",
+      "new_media": [
+        {"target_file": "cadran-meteorite-28-5-v-a1.jpg", "media_gid": "gid://shopify/MediaImage/59924135477586", "variant_gid": "gid://shopify/ProductVariant/54213304025426"},
+        {"target_file": "cadran-meteorite-28-5-v-a2.jpg", "media_gid": "gid://shopify/MediaImage/59924135510354", "variant_gid": "gid://shopify/ProductVariant/54213303992658"},
+        {"target_file": "cadran-meteorite-28-5-v-a3.jpg", "media_gid": "gid://shopify/MediaImage/59924135543122", "variant_gid": "gid://shopify/ProductVariant/54213303959890"},
+        {"target_file": "cadran-meteorite-28-5-v-a4-green-lume.jpg", "media_gid": "gid://shopify/MediaImage/59924135575890", "variant_gid": "gid://shopify/ProductVariant/54213303927122"},
+        {"target_file": "cadran-meteorite-28-5-v-a5-green-lume.jpg", "media_gid": "gid://shopify/MediaImage/59924135608658", "variant_gid": "gid://shopify/ProductVariant/54213303894354"},
+        {"target_file": "cadran-meteorite-28-5-v-a6-green-lume.jpg", "media_gid": "gid://shopify/MediaImage/59924135641426", "variant_gid": "gid://shopify/ProductVariant/54213304156498"},
+        {"target_file": "cadran-meteorite-28-5-v-a7-blue-lume.jpg", "media_gid": "gid://shopify/MediaImage/59924135674194", "variant_gid": "gid://shopify/ProductVariant/54213304123730"},
+        {"target_file": "cadran-meteorite-28-5-v-a8-blue-lume.jpg", "media_gid": "gid://shopify/MediaImage/59924135706962", "variant_gid": "gid://shopify/ProductVariant/54213304090962"},
+        {"target_file": "cadran-meteorite-28-5-v-a9-blue-lume.jpg", "media_gid": "gid://shopify/MediaImage/59924135739730", "variant_gid": "gid://shopify/ProductVariant/54213304058194"}
+      ]
+    },
+    {
+      "handle": "cadran-pilote-33-5-aiguilles-blanches",
+      "product_gid": "gid://shopify/Product/11013081596242",
+      "status": "DRAFT",
+      "featured_media_gid": "gid://shopify/MediaImage/59904315326802",
+      "gallery_media_preserved": 2,
+      "new_media_ready": 5,
+      "variant_associations_verified": 15,
+      "old_supplier_media_removed": 5,
+      "product_media_after": 7,
+      "pagination_complete": true,
+      "result": "ordres/pour-codex/resultats/20260811-1227-generate_images-remplacement92-pilote-blanches-5.json",
+      "manifest": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-blanches/manifeste-remplacement92-pilote-blanches-5.json",
+      "qa_board": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-blanches/qa/remplacement92-pilote-blanches-5-planche.jpg",
+      "new_media": [
+        {"target_file": "cadran-pilote-33-5-aiguilles-blanches-v-dial-1-hands.jpg", "media_gid": "gid://shopify/MediaImage/59924343718226", "variant_gids": ["gid://shopify/ProductVariant/54213330829650", "gid://shopify/ProductVariant/54213330862418", "gid://shopify/ProductVariant/54213330895186"]},
+        {"target_file": "cadran-pilote-33-5-aiguilles-blanches-v-dial-1.jpg", "media_gid": "gid://shopify/MediaImage/59924343750994", "variant_gids": ["gid://shopify/ProductVariant/54213330600274", "gid://shopify/ProductVariant/54213330633042", "gid://shopify/ProductVariant/54213330665810"]},
+        {"target_file": "cadran-pilote-33-5-aiguilles-blanches-v-dial-2-hands.jpg", "media_gid": "gid://shopify/MediaImage/59924343783762", "variant_gids": ["gid://shopify/ProductVariant/54213330764114", "gid://shopify/ProductVariant/54213330796882", "gid://shopify/ProductVariant/54213330960722"]},
+        {"target_file": "cadran-pilote-33-5-aiguilles-blanches-v-dial-2.jpg", "media_gid": "gid://shopify/MediaImage/59924343816530", "variant_gids": ["gid://shopify/ProductVariant/54213330698578", "gid://shopify/ProductVariant/54213330731346", "gid://shopify/ProductVariant/54213330927954"]},
+        {"target_file": "cadran-pilote-33-5-aiguilles-blanches-v-hands.jpg", "media_gid": "gid://shopify/MediaImage/59924343849298", "variant_gids": ["gid://shopify/ProductVariant/54213330993490", "gid://shopify/ProductVariant/54213331026258", "gid://shopify/ProductVariant/54213331059026"]}
+      ]
+    },
+    {
+      "handle": "cadran-sterile-couronne-3h-28-5",
+      "product_gid": "gid://shopify/Product/11013077533010",
+      "status": "DRAFT",
+      "featured_media_gid": "gid://shopify/MediaImage/59904315031890",
+      "gallery_media_preserved": 3,
+      "new_media_ready": 7,
+      "variant_associations_verified": 7,
+      "old_supplier_media_removed": 7,
+      "product_media_after": 10,
+      "pagination_complete": true,
+      "result": "ordres/pour-codex/resultats/20260811-1227-generate_images-remplacement92-sterile-couronne-7.json",
+      "report": "boutique-seiko-mod/RAPPORT-REMPLACEMENT92-CADRAN-STERILE-COURONNE-2026-08-11.json",
+      "new_media": [
+        {
+          "target_file": "cadran-sterile-couronne-3h-28-5-v-a1.jpg",
+          "media_gid": "gid://shopify/MediaImage/59926556246354",
+          "variant_gid": "gid://shopify/ProductVariant/54213303370066"
+        },
+        {
+          "target_file": "cadran-sterile-couronne-3h-28-5-v-a2.jpg",
+          "media_gid": "gid://shopify/MediaImage/59926556279122",
+          "variant_gid": "gid://shopify/ProductVariant/54213303337298"
+        },
+        {
+          "target_file": "cadran-sterile-couronne-3h-28-5-v-a3.jpg",
+          "media_gid": "gid://shopify/MediaImage/59926556311890",
+          "variant_gid": "gid://shopify/ProductVariant/54213303304530"
+        },
+        {
+          "target_file": "cadran-sterile-couronne-3h-28-5-v-a4.jpg",
+          "media_gid": "gid://shopify/MediaImage/59926556344658",
+          "variant_gid": "gid://shopify/ProductVariant/54213303271762"
+        },
+        {
+          "target_file": "cadran-sterile-couronne-3h-28-5-v-a5.jpg",
+          "media_gid": "gid://shopify/MediaImage/59926556377426",
+          "variant_gid": "gid://shopify/ProductVariant/54213303238994"
+        },
+        {
+          "target_file": "cadran-sterile-couronne-3h-28-5-v-a6.jpg",
+          "media_gid": "gid://shopify/MediaImage/59926556410194",
+          "variant_gid": "gid://shopify/ProductVariant/54213303206226"
+        },
+        {
+          "target_file": "cadran-sterile-couronne-3h-28-5-v-a7.jpg",
+          "media_gid": "gid://shopify/MediaImage/59926556442962",
+          "variant_gid": "gid://shopify/ProductVariant/54213303173458"
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-sunburst-28-5",
+      "product_gid": "gid://shopify/Product/11013078778194",
+      "status": "DRAFT",
+      "featured_media_gid": "gid://shopify/MediaImage/59904314933586",
+      "gallery_media_preserved": 3,
+      "new_media_ready": 12,
+      "variant_associations_verified": 12,
+      "old_supplier_media_removed": 12,
+      "product_media_after": 15,
+      "pagination_complete": true,
+      "result": "ordres/pour-codex/resultats/20260811-1227-generate_images-remplacement92-sterile-sunburst-12.json",
+      "report": "boutique-seiko-mod/RAPPORT-SHOPIFY-REMPLACEMENT92-SUNBURST-VIERGE-24-2026-08-11.json",
+      "new_media": [
+        {"variant": "Grey", "media_gid": "gid://shopify/MediaImage/59927354802514", "variant_gid": "gid://shopify/ProductVariant/54213309563218"},
+        {"variant": "Purple", "media_gid": "gid://shopify/MediaImage/59927354868050", "variant_gid": "gid://shopify/ProductVariant/54213309595986"},
+        {"variant": "Red", "media_gid": "gid://shopify/MediaImage/59927354900818", "variant_gid": "gid://shopify/ProductVariant/54213309628754"},
+        {"variant": "Silver", "media_gid": "gid://shopify/MediaImage/59927354933586", "variant_gid": "gid://shopify/ProductVariant/54213309661522"},
+        {"variant": "Green", "media_gid": "gid://shopify/MediaImage/59927354769746", "variant_gid": "gid://shopify/ProductVariant/54213309694290"},
+        {"variant": "Blue", "media_gid": "gid://shopify/MediaImage/59927354671442", "variant_gid": "gid://shopify/ProductVariant/54213309727058"},
+        {"variant": "Orange", "media_gid": "gid://shopify/MediaImage/59927354835282", "variant_gid": "gid://shopify/ProductVariant/54213309759826"},
+        {"variant": "Black", "media_gid": "gid://shopify/MediaImage/59927354638674", "variant_gid": "gid://shopify/ProductVariant/54213309792594"},
+        {"variant": "Brown", "media_gid": "gid://shopify/MediaImage/59927354704210", "variant_gid": "gid://shopify/ProductVariant/54213309825362"},
+        {"variant": "Sky Blue", "media_gid": "gid://shopify/MediaImage/59927354966354", "variant_gid": "gid://shopify/ProductVariant/54213309858130"},
+        {"variant": "Yellow", "media_gid": "gid://shopify/MediaImage/59927354999122", "variant_gid": "gid://shopify/ProductVariant/54213309890898"},
+        {"variant": "Gold", "media_gid": "gid://shopify/MediaImage/59927354736978", "variant_gid": "gid://shopify/ProductVariant/54213309923666"}
+      ]
+    },
+    {
+      "handle": "cadran-vierge-sterile-28-5",
+      "product_gid": "gid://shopify/Product/11013077598546",
+      "status": "DRAFT",
+      "featured_media_gid": "gid://shopify/MediaImage/59904315687250",
+      "gallery_media_preserved": 3,
+      "new_media_ready": 12,
+      "variant_associations_verified": 12,
+      "old_supplier_media_removed": 12,
+      "product_media_after": 15,
+      "pagination_complete": true,
+      "result": "ordres/pour-codex/resultats/20260811-1227-generate_images-remplacement92-vierge-sterile-12.json",
+      "report": "boutique-seiko-mod/RAPPORT-SHOPIFY-REMPLACEMENT92-SUNBURST-VIERGE-24-2026-08-11.json",
+      "new_media": [
+        {"variant": "Brown", "media_gid": "gid://shopify/MediaImage/59928062755154", "variant_gid": "gid://shopify/ProductVariant/54213303435602"},
+        {"variant": "Red", "media_gid": "gid://shopify/MediaImage/59928062951762", "variant_gid": "gid://shopify/ProductVariant/54213303468370"},
+        {"variant": "Green", "media_gid": "gid://shopify/MediaImage/59928062820690", "variant_gid": "gid://shopify/ProductVariant/54213303501138"},
+        {"variant": "Blue A2", "media_gid": "gid://shopify/MediaImage/59928062722386", "variant_gid": "gid://shopify/ProductVariant/54213303533906"},
+        {"variant": "Grey", "media_gid": "gid://shopify/MediaImage/59928062853458", "variant_gid": "gid://shopify/ProductVariant/54213303566674"},
+        {"variant": "Blue A1", "media_gid": "gid://shopify/MediaImage/59928062689618", "variant_gid": "gid://shopify/ProductVariant/54213303599442"},
+        {"variant": "Purple", "media_gid": "gid://shopify/MediaImage/59928062918994", "variant_gid": "gid://shopify/ProductVariant/54213303632210"},
+        {"variant": "Orange", "media_gid": "gid://shopify/MediaImage/59928062886226", "variant_gid": "gid://shopify/ProductVariant/54213303664978"},
+        {"variant": "Yellow", "media_gid": "gid://shopify/MediaImage/59928063017298", "variant_gid": "gid://shopify/ProductVariant/54213303697746"},
+        {"variant": "Gold", "media_gid": "gid://shopify/MediaImage/59928062787922", "variant_gid": "gid://shopify/ProductVariant/54213303730514"},
+        {"variant": "Black", "media_gid": "gid://shopify/MediaImage/59928062656850", "variant_gid": "gid://shopify/ProductVariant/54213303763282"},
+        {"variant": "Silver", "media_gid": "gid://shopify/MediaImage/59928062984530", "variant_gid": "gid://shopify/ProductVariant/54213303796050"}
+      ]
+    }
+  ],
+  "partial_products": [
+    {
+      "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+      "product_gid": "gid://shopify/Product/11013081399634",
+      "status": "DRAFT",
+      "featured_media_gid": "gid://shopify/MediaImage/59904326762834",
+      "gallery_media_preserved": 3,
+      "targets_total": 13,
+      "targets_completed": 8,
+      "targets_pending_reprise": 5,
+      "new_media_ready": 8,
+      "variant_associations_verified": 24,
+      "old_supplier_media_removed": 8,
+      "old_supplier_media_preserved_for_pending_reprises": 5,
+      "product_media_after": 16,
+      "pagination_complete": true,
+      "results": [
+        "ordres/pour-codex/resultats/20260811-1227-generate_images-remplacement92-pilote-lumineuses-a-7.json",
+        "ordres/pour-codex/resultats/20260811-1227-generate_images-remplacement92-pilote-lumineuses-b-6.json",
+        "ordres/pour-codex/resultats/20260811-1450-generate_images-remplacement92-pilote-lumineuses-montes-reprise-5.json",
+        "ordres/pour-codex/resultats/20260811-1451-generate_images-remplacement92-pilote-lumineuses-silver-reprise-1.json",
+        "ordres/pour-codex/resultats/20260811-1842-generate_images-remplacement92-pilote-lumineuses-montes-reprise-5b.json",
+        "ordres/pour-codex/resultats/20260811-2000-generate_images-remplacement92-pilote-lumineuses-montes-reprise-5c.json",
+        "ordres/pour-codex/resultats/20260811-2114-generate_images-remplacement92-pilote-lumineuses-montes-reprise-5d.json"
+      ],
+      "failed_mounted_orders": 2,
+      "latest_mounted_status": "failed",
+    "latest_mounted_delivered": 0,
+    "latest_mounted_attempts_per_target": 4,
+    "documented_attempts_per_target_across_5c_5d": 8,
+    "deterministic_poc_status": "FAIL_STRICT",
+    "deterministic_poc_report": "scratchpad/pilote-lumineuses-deterministe-2026-08-11/RAPPORT-POC-DETERMINISTE-FAIL.json",
+    "report": "ordres/pour-codex/resultats/20260811-1859-rapport-remplacement92-pilote-lumineuses-1450-1451-shopify.json",
+      "new_media": [
+        {"target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-1.jpg", "media_gid": "gid://shopify/MediaImage/59925560852818", "variant_gids": ["gid://shopify/ProductVariant/54213328077138", "gid://shopify/ProductVariant/54213328109906", "gid://shopify/ProductVariant/54213328142674"]},
+        {"target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-2.jpg", "media_gid": "gid://shopify/MediaImage/59925560885586", "variant_gids": ["gid://shopify/ProductVariant/54213327946066", "gid://shopify/ProductVariant/54213328404818", "gid://shopify/ProductVariant/54213328437586"]},
+        {"target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-blue-dial.jpg", "media_gid": "gid://shopify/MediaImage/59925560918354", "variant_gids": ["gid://shopify/ProductVariant/54213327520082", "gid://shopify/ProductVariant/54213327552850", "gid://shopify/ProductVariant/54213327585618"]},
+        {"target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-green-dial.jpg", "media_gid": "gid://shopify/MediaImage/59925560951122", "variant_gids": ["gid://shopify/ProductVariant/54213327192402", "gid://shopify/ProductVariant/54213327225170", "gid://shopify/ProductVariant/54213327257938"]},
+        {"target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-hands-a.jpg", "media_gid": "gid://shopify/MediaImage/59925560983890", "variant_gids": ["gid://shopify/ProductVariant/54213327389010", "gid://shopify/ProductVariant/54213327421778", "gid://shopify/ProductVariant/54213327716690"]},
+        {"target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-hands-b.jpg", "media_gid": "gid://shopify/MediaImage/59925561016658", "variant_gids": ["gid://shopify/ProductVariant/54213327749458", "gid://shopify/ProductVariant/54213327782226", "gid://shopify/ProductVariant/54213327814994"]},
+        {"target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-hands-c.jpg", "media_gid": "gid://shopify/MediaImage/59925561049426", "variant_gids": ["gid://shopify/ProductVariant/54213327847762", "gid://shopify/ProductVariant/54213327880530", "gid://shopify/ProductVariant/54213327913298"]},
+        {"target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-silver-dial.jpg", "media_gid": "gid://shopify/MediaImage/59928793219410", "variant_gids": ["gid://shopify/ProductVariant/54213328208210", "gid://shopify/ProductVariant/54213328240978", "gid://shopify/ProductVariant/54213328273746"]}
+      ],
+      "pending_reprises": [
+        "cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-1-hands.jpg",
+        "cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-2-hands.jpg",
+        "cadran-pilote-33-5-aiguilles-lumineuses-v-blue-dial-hands.jpg",
+        "cadran-pilote-33-5-aiguilles-lumineuses-v-green-dial-hands.jpg",
+        "cadran-pilote-33-5-aiguilles-lumineuses-v-silver-dial-hands.jpg"
+      ],
+      "technical_blockers": [
+        {"target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-1-hands.jpg", "attempts_5c_5d": 8, "verdict": "KEEP_SUPPLIER_MEDIA"},
+        {"target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-2-hands.jpg", "attempts_5c_5d": 8, "verdict": "KEEP_SUPPLIER_MEDIA"},
+        {"target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-blue-dial-hands.jpg", "attempts_5c_5d": 8, "verdict": "KEEP_SUPPLIER_MEDIA"},
+        {"target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-green-dial-hands.jpg", "attempts_5c_5d": 8, "verdict": "KEEP_SUPPLIER_MEDIA"},
+        {"target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-silver-dial-hands.jpg", "attempts_5c_5d": 8, "verdict": "KEEP_SUPPLIER_MEDIA"}
+      ]
+    },
+    {
+      "handle": "cadran-pilote-noir-33-5-nh34",
+      "product_gid": "gid://shopify/Product/11013081465170",
+      "status": "DRAFT",
+      "featured_media_gid": "gid://shopify/MediaImage/59904315195730",
+      "targets_total": 6,
+      "targets_completed": 3,
+      "targets_pending_reprise": 3,
+      "new_media_ready": 3,
+      "variant_associations_verified": 3,
+      "old_supplier_media_removed": 3,
+      "old_supplier_media_preserved_for_pending_reprises": 3,
+      "product_media_after": 9,
+      "pagination_complete": true,
+      "result": "ordres/pour-codex/resultats/20260811-1227-generate_images-remplacement92-pilote-nh34-6.json",
+      "latest_result": "ordres/pour-codex/resultats/20260811-1926-generate_images-remplacement92-pilote-nh34-dial3-nu-classe-a-1.json",
+      "latest_mounted_result": "ordres/pour-codex/resultats/20260811-1926-generate_images-remplacement92-pilote-nh34-montes-classe-a-3.json",
+    "latest_mounted_status": "failed",
+    "latest_mounted_delivered": 0,
+    "report": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/RAPPORT-QA-SHOPIFY-CLASSE-A-NH34-1926-2026-08-11.json",
+    "deterministic_poc_status": "FAIL_STRICT",
+    "deterministic_poc_report": "scratchpad/poc-compositing-montes-2026-08-11/EVALUATION-SIX-MONTES.json",
+    "qa_board": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/qa-planche-remplacement92-pilote-nh34-6.jpg",
+      "new_media": [
+        {"target_file": "cadran-pilote-noir-33-5-nh34-v-dial-1.jpg", "media_gid": "gid://shopify/MediaImage/59925827780946", "variant_gid": "gid://shopify/ProductVariant/54213328666962"},
+        {"target_file": "cadran-pilote-noir-33-5-nh34-v-dial-2.jpg", "media_gid": "gid://shopify/MediaImage/59925827813714", "variant_gid": "gid://shopify/ProductVariant/54213328535890"},
+        {"target_file": "cadran-pilote-noir-33-5-nh34-v-dial-3.jpg", "media_gid": "gid://shopify/MediaImage/59930029162834", "variant_gid": "gid://shopify/ProductVariant/54213328503122"}
+      ],
+      "technical_blockers": [
+        {"target_file": "cadran-pilote-noir-33-5-nh34-v-dial-1-hand.jpg", "attempts": 5, "verdict": "KEEP_SUPPLIER_MEDIA"},
+        {"target_file": "cadran-pilote-noir-33-5-nh34-v-dial-2-hand.jpg", "attempts": 4, "verdict": "KEEP_SUPPLIER_MEDIA"},
+        {"target_file": "cadran-pilote-noir-33-5-nh34-v-dial-3-hand.jpg", "attempts": 4, "verdict": "KEEP_SUPPLIER_MEDIA"}
+      ],
+      "pending_reprises": [
+        "cadran-pilote-noir-33-5-nh34-v-dial-1-hand.jpg",
+        "cadran-pilote-noir-33-5-nh34-v-dial-2-hand.jpg",
+        "cadran-pilote-noir-33-5-nh34-v-dial-3-hand.jpg"
+      ]
+    },
+    {
+      "handle": "cadran-pilote-29-mod-nh35",
+      "product_gid": "gid://shopify/Product/11013081497938",
+      "status": "DRAFT",
+      "featured_media_gid": "gid://shopify/MediaImage/59904315785554",
+      "gallery_media_preserved": 3,
+      "targets_total": 11,
+      "targets_completed": 6,
+      "targets_pending": 5,
+      "new_media_ready": 6,
+      "variant_associations_verified": 6,
+      "old_supplier_media_removed": 6,
+      "old_supplier_media_preserved_for_pending": 5,
+      "product_media_after": 14,
+      "pagination_complete": true,
+      "structural_blockers": [
+        {
+          "target_file": "cadran-pilote-29-mod-nh35-v-salmon-dial-no-lume.jpg",
+          "reason": "AUTOMATIC est physiquement imprimé sur le SKU exact et les équivalents API; le retirer falsifierait le produit et le conserver enfreindrait la règle aucun mot.",
+          "verdict": "ABANDON_CURRENT_SKU"
+        },
+        {
+          "target_file": "cadran-pilote-29-mod-nh35-v-salmon-set-no-lume.jpg",
+          "reason": "AUTOMATIC est physiquement imprimé sur le SKU exact et les équivalents API; l'ensemble alternatif emploie aussi des aiguilles différentes.",
+          "verdict": "ABANDON_CURRENT_SKU"
+        }
+      ],
+      "structural_blocker_report": "boutique-seiko-mod/RAPPORT-AUDIT-SOURCES-SALMON-PILOTE29-2026-08-11.json",
+    "technical_blocker_reports": [
+      "boutique-seiko-mod/RAPPORT-AUDIT-SOURCES-PILOTE29-SETS-2026-08-11.json",
+      "scratchpad/pilote29-direct-imagegen-2026-08-11/qa-direct-imagegen.json",
+      "scratchpad/poc-compositing-montes-2026-08-11/EVALUATION-SIX-MONTES.json"
+    ],
+    "deterministic_poc_status": "FAIL_STRICT",
+    "deterministic_poc_report": "scratchpad/poc-compositing-montes-2026-08-11/EVALUATION-SIX-MONTES.json",
+      "technical_blockers": [
+        {"target_file": "cadran-pilote-29-mod-nh35-v-black-set-1-lume.jpg", "verdict": "KEEP_SUPPLIER_MEDIA", "reason": "Repeated order and direct image_gen attempts mask digits or redraw the seconds hand; no exact alternate SKU image exists."},
+        {"target_file": "cadran-pilote-29-mod-nh35-v-black-set-2-lume.jpg", "verdict": "KEEP_SUPPLIER_MEDIA", "reason": "Repeated order and direct image_gen attempts mask digits or alter the hand pose; no exact alternate SKU image exists."},
+        {"target_file": "cadran-pilote-29-mod-nh35-v-white-set-no-lume.jpg", "verdict": "KEEP_SUPPLIER_MEDIA", "reason": "Repeated order and direct image_gen attempts mask digits or redraw the lume inserts; no exact alternate SKU image exists."}
+      ],
+      "new_media": [
+        {
+          "target_file": "cadran-pilote-29-mod-nh35-v-black-dial-1-lume.jpg",
+          "media_gid": "gid://shopify/MediaImage/59925952135506",
+          "variant_gid": "gid://shopify/ProductVariant/54213329682770"
+        },
+        {
+          "target_file": "cadran-pilote-29-mod-nh35-v-black-dial-2-lume.jpg",
+          "media_gid": "gid://shopify/MediaImage/59925952168274",
+          "variant_gid": "gid://shopify/ProductVariant/54213329617234"
+        },
+        {
+          "target_file": "cadran-pilote-29-mod-nh35-v-black-hands.jpg",
+          "media_gid": "gid://shopify/MediaImage/59925952201042",
+          "variant_gid": "gid://shopify/ProductVariant/54213329781074"
+        },
+        {
+          "target_file": "cadran-pilote-29-mod-nh35-v-blue-hands.jpg",
+          "media_gid": "gid://shopify/MediaImage/59925982052690",
+          "variant_gid": "gid://shopify/ProductVariant/54213329748306"
+        },
+        {
+          "target_file": "cadran-pilote-29-mod-nh35-v-white-dial-no-lume.jpg",
+          "media_gid": "gid://shopify/MediaImage/59925982085458",
+          "variant_gid": "gid://shopify/ProductVariant/54213329584466"
+        },
+        {
+          "target_file": "cadran-pilote-29-mod-nh35-v-silver-hands.jpg",
+          "media_gid": "gid://shopify/MediaImage/59929703678290",
+          "variant_gid": "gid://shopify/ProductVariant/54213329715538"
+        }
+      ],
+      "pending": [
+        "cadran-pilote-29-mod-nh35-v-black-set-1-lume.jpg",
+        "cadran-pilote-29-mod-nh35-v-black-set-2-lume.jpg",
+        "cadran-pilote-29-mod-nh35-v-salmon-dial-no-lume.jpg",
+        "cadran-pilote-29-mod-nh35-v-salmon-set-no-lume.jpg",
+        "cadran-pilote-29-mod-nh35-v-white-set-no-lume.jpg"
+      ]
+    },
+    {
+      "handle": "cadran-sterile-lumineux-28-5",
+      "product_gid": "gid://shopify/Product/11013078712658",
+      "status": "DRAFT",
+      "featured_media_gid": "gid://shopify/MediaImage/59904315425106",
+      "completion_state": "completed",
+      "targets_total": 17,
+      "targets_completed": 17,
+      "targets_pending": 0,
+      "new_media_ready": 17,
+      "variant_associations_verified": 18,
+      "old_supplier_media_removed": 17,
+      "old_supplier_media_preserved_for_pending": 0,
+      "product_media_after": 20,
+      "pagination_complete": true,
+      "results": [
+        "ordres/pour-codex/resultats/20260811-1227-generate_images-remplacement92-sterile-lumineux-a-9.json",
+        "ordres/pour-codex/resultats/20260811-1227-generate_images-remplacement92-sterile-lumineux-b-8.json"
+      ],
+      "report": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-lumineux-28-5/RAPPORT-SHOPIFY-REMPLACEMENT92-STERILE-LUMINEUX-17-2026-08-11.json",
+      "new_media": [
+        {
+          "target_file": "cadran-sterile-lumineux-28-5-v-1.jpg",
+          "media_gid": "gid://shopify/MediaImage/59926793847122",
+          "variant_gid": "gid://shopify/ProductVariant/54213309170002"
+        },
+        {
+          "target_file": "cadran-sterile-lumineux-28-5-v-10.jpg",
+          "media_gid": "gid://shopify/MediaImage/59926793879890",
+          "variant_gid": "gid://shopify/ProductVariant/54213309464914"
+        },
+        {
+          "target_file": "cadran-sterile-lumineux-28-5-v-11.jpg",
+          "media_gid": "gid://shopify/MediaImage/59926793912658",
+          "variant_gid": "gid://shopify/ProductVariant/54213309432146"
+        },
+        {
+          "target_file": "cadran-sterile-lumineux-28-5-v-12-silver.jpg",
+          "media_gid": "gid://shopify/MediaImage/59926793945426",
+          "variant_gid": "gid://shopify/ProductVariant/54213309038930"
+        },
+        {
+          "target_file": "cadran-sterile-lumineux-28-5-v-13.jpg",
+          "media_gid": "gid://shopify/MediaImage/59926793978194",
+          "variant_gid": "gid://shopify/ProductVariant/54213308940626"
+        },
+        {
+          "target_file": "cadran-sterile-lumineux-28-5-v-14.jpg",
+          "media_gid": "gid://shopify/MediaImage/59926794010962",
+          "variant_gid": "gid://shopify/ProductVariant/54213308907858"
+        },
+        {
+          "target_file": "cadran-sterile-lumineux-28-5-v-15.jpg",
+          "media_gid": "gid://shopify/MediaImage/59926794043730",
+          "variant_gid": "gid://shopify/ProductVariant/54213309006162"
+        },
+        {
+          "target_file": "cadran-sterile-lumineux-28-5-v-16.jpg",
+          "media_gid": "gid://shopify/MediaImage/59926794076498",
+          "variant_gid": "gid://shopify/ProductVariant/54213309104466"
+        },
+        {
+          "target_file": "cadran-sterile-lumineux-28-5-v-17.jpg",
+          "media_gid": "gid://shopify/MediaImage/59926794109266",
+          "variant_gid": "gid://shopify/ProductVariant/54213309071698"
+        },
+        {
+          "target_file": "cadran-sterile-lumineux-28-5-v-2.jpg",
+          "media_gid": "gid://shopify/MediaImage/59927046848850",
+          "variant_gid": "gid://shopify/ProductVariant/54213309202770"
+        },
+        {
+          "target_file": "cadran-sterile-lumineux-28-5-v-3.jpg",
+          "media_gid": "gid://shopify/MediaImage/59927046881618",
+          "variant_gid": "gid://shopify/ProductVariant/54213309268306"
+        },
+        {
+          "target_file": "cadran-sterile-lumineux-28-5-v-4.jpg",
+          "media_gid": "gid://shopify/MediaImage/59927046914386",
+          "variant_gid": "gid://shopify/ProductVariant/54213309235538"
+        },
+        {
+          "target_file": "cadran-sterile-lumineux-28-5-v-5-silver-5.jpg",
+          "media_gid": "gid://shopify/MediaImage/59927046947154",
+          "variant_gids": [
+            "gid://shopify/ProductVariant/54213308973394",
+            "gid://shopify/ProductVariant/54213309333842"
+          ]
+        },
+        {
+          "target_file": "cadran-sterile-lumineux-28-5-v-6.jpg",
+          "media_gid": "gid://shopify/MediaImage/59927046979922",
+          "variant_gid": "gid://shopify/ProductVariant/54213309137234"
+        },
+        {
+          "target_file": "cadran-sterile-lumineux-28-5-v-7.jpg",
+          "media_gid": "gid://shopify/MediaImage/59927047012690",
+          "variant_gid": "gid://shopify/ProductVariant/54213309301074"
+        },
+        {
+          "target_file": "cadran-sterile-lumineux-28-5-v-8.jpg",
+          "media_gid": "gid://shopify/MediaImage/59927047045458",
+          "variant_gid": "gid://shopify/ProductVariant/54213309399378"
+        },
+        {
+          "target_file": "cadran-sterile-lumineux-28-5-v-9.jpg",
+          "media_gid": "gid://shopify/MediaImage/59927047078226",
+          "variant_gid": "gid://shopify/ProductVariant/54213309366610"
+        }
+      ],
+      "pending": []
+    }
+  ]
+}

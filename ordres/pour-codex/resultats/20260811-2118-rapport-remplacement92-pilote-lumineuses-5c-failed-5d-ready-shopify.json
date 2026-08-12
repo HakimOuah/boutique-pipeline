@@ -1,0 +1,274 @@
+{
+  "rapport_id": "codex-20260811-2118-remplacement92-pilote-lumineuses-5c-failed-5d-failed-shopify-unchanged",
+  "created_at": "2026-08-11T21:18:00+02:00",
+  "updated_at": "2026-08-11T22:04:00+02:00",
+  "scope": {
+    "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+    "product_id": "gid://shopify/Product/11013081399634",
+    "exclusive_order_5c": "ordres/pour-codex/resultats/20260811-2000-generate_images-remplacement92-pilote-lumineuses-montes-reprise-5c.ordre.json",
+    "result_5c": "ordres/pour-codex/resultats/20260811-2000-generate_images-remplacement92-pilote-lumineuses-montes-reprise-5c.json",
+    "archived_order_5d": "ordres/pour-codex/resultats/20260811-2114-generate_images-remplacement92-pilote-lumineuses-montes-reprise-5d.ordre.json",
+    "result_5d": "ordres/pour-codex/resultats/20260811-2114-generate_images-remplacement92-pilote-lumineuses-montes-reprise-5d.json"
+  },
+  "order_5c": {
+    "status": "failed",
+    "executor_exit_code": 0,
+    "archived_naturally": true,
+    "requested_by_observed": "codex",
+    "protocol_mismatch": "§9.1 exige requested_by=claude-code ; le validateur actuel n'a pas bloqué la valeur codex.",
+    "passes_per_sku": 4,
+    "candidates_generated": 20,
+    "external_qa_pass": 0,
+    "external_qa_fail": 5,
+    "targets_replaced": 0,
+    "manifest_entries_delivered": 0,
+    "qa_board": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/qa/planche-remplacement92-pilote-lumineuses-montes-reprise-5c.jpg",
+    "empty_manifest": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/manifeste-remplacement92-pilote-lumineuses-montes-reprise-5c.json",
+    "external_qa": [
+      {
+        "sku_prefix": "14:365462#black dial 1 hands",
+        "candidate_v4": "rejected/black-dial-1-hands-v4-axes-et-degagements-nonconformes.png",
+        "verdict": "FAIL",
+        "blocking_evidence": [
+          "aiguille des minutes sur le secteur 4/16 au lieu de la bissectrice 15-16",
+          "trotteuse sur le secteur 7/19 et non à 195 degrés",
+          "contact visuel avec le chiffre extérieur 7"
+        ]
+      },
+      {
+        "sku_prefix": "14:100016652#black dial 2 hands",
+        "candidate_v4": "rejected/black-dial-2-hands-v4-axes-et-degagements-nonconformes.png",
+        "verdict": "FAIL",
+        "blocking_evidence": [
+          "aiguille des minutes sur 4/16",
+          "trotteuse sur 7/19 au lieu du secteur 18-19",
+          "dégagement nul avec des chiffres et repères"
+        ]
+      },
+      {
+        "sku_prefix": "14:173#blue dial hands",
+        "candidate_v4": "rejected/blue-dial-hands-v4-axes-et-degagements-nonconformes.png",
+        "verdict": "FAIL",
+        "blocking_evidence": [
+          "aiguille des minutes sur 4/16",
+          "trotteuse sur 7/19 au lieu de 195 degrés",
+          "contact visuel avec le chiffre extérieur 7"
+        ]
+      },
+      {
+        "sku_prefix": "14:865#green dial hands",
+        "candidate_v4": "rejected/green-dial-hands-v4-axes-et-degagements-nonconformes.png",
+        "verdict": "FAIL",
+        "blocking_evidence": [
+          "aiguille des minutes sur 4/16",
+          "trotteuse sur 7/19 au lieu de 195 degrés",
+          "contact visuel avec le chiffre extérieur 7"
+        ]
+      },
+      {
+        "sku_prefix": "14:29#silver dial hands",
+        "candidate_v4": "rejected/silver-dial-hands-v4-axes-et-degagements-nonconformes.png",
+        "verdict": "FAIL",
+        "blocking_evidence": [
+          "aiguille des minutes sur 4/16",
+          "trotteuse sur 7/19 au lieu du secteur 18-19",
+          "dégagement nul avec le chiffre extérieur 7"
+        ]
+      }
+    ]
+  },
+  "local_integrity": {
+    "source_hashes_sha256": {
+      "S35caf418760b4afbab4efe1602f6ec60y.webp": "1349d7ac2aaac07d2c5d49454cdc3243fae72ae3716cf44ed7d1c7d2c896afba",
+      "S07ad54a7465341efaab46c7a3f0ce9554.webp": "c81cac3b697a04fe9f16ad62bd971caa2600827859c52214e6649239c3a715f8",
+      "S19e9880fad6242bea9e75c87c8c7c83dn.webp": "d2c781c09209a11a1036dcc9d36803467e01d8292149dab511ac545d5e89e8ca",
+      "Se7d7bc37b7794b78bb3342382418571eI.webp": "fc98d9ff825e4a441d92a3a2f9dbecc1dd44b2fafa701a5c339f431afd38aacd",
+      "S07331f8c09d14e07ae7430951b2edb97M.webp": "65728a33d0f6ebf1d543ea5d5414cdb96ddcea6cad2a38ef5b88580031d960b6"
+    },
+    "target_hashes_sha256_unchanged": {
+      "black-dial-1-hands": "45f9dfb8990d5cc85fe773195a661e5aff30f4759a9ef4d08a53ab73d74575e9",
+      "black-dial-2-hands": "e08b9fb78aff658d77f6726dd081d7dc1c66426d45e2f737381741ec95988141",
+      "blue-dial-hands": "66cafe241e8c46bca93ee6b256b65de1c106384fd3cff23aecdcdc3126801408",
+      "green-dial-hands": "ac2ac8387ae9206bf917e155614b36f479aba36432e619c72a6c0f93771f8478",
+      "silver-dial-hands": "ca6236320a52396f8dfee55378cd0d700fd2e25412b40379016c7bfabcb7b23e"
+    },
+    "witness_hashes_sha256_unchanged": {
+      "black-dial-1": "dbefd60eb5e04c719c4efae2902e4cc9c858b63f27527ba5ac1edf503d200c9a",
+      "black-dial-2": "1e6c7e35c7dea7c874ca4b9cba1eb4d288ca9399860ce41af3fcff476468d088",
+      "blue-dial": "32596399074ae8bebb9cb69abb7e4fcb17dd0134ae89db7c312eea4fe6cd31d9",
+      "green-dial": "d93785cff4aa4bc4b83ec463057422a0e21fe6e1b17f54ca02a805c918150965"
+    }
+  },
+  "shopify_live_readback": {
+    "checked_at": "2026-08-11T22:04:00+02:00",
+    "shop": "Maison Noirmont",
+    "domain": "maisonnoirmont.fr",
+    "currency": "EUR",
+    "country": "France",
+    "status": "DRAFT",
+    "featured_media_id": "gid://shopify/MediaImage/59904326762834",
+    "product_media_count": 16,
+    "all_product_media_ready": true,
+    "product_media_has_next_page": false,
+    "variant_count": 39,
+    "variant_has_next_page": false,
+    "all_variants_have_exactly_one_media": true,
+    "all_nested_variant_media_has_next_page_false": true,
+    "all_prices_equal_compare_at_prices": true,
+    "target_variant_count": 15,
+    "all_target_associations_exact": true,
+    "shopify_mutations": [],
+    "reason_no_mutation": "Ordre 5d : 0/5 livrable PASS après 20 générations ; aucun upload, aucune association, aucun retrait de média fournisseur.",
+    "blocked_supplier_media_mapping": [
+      {
+        "sku_prefix": "14:865#green dial hands",
+        "old_supplier_media_id": "gid://shopify/MediaImage/59894149579090",
+        "variant_ids": [
+          "gid://shopify/ProductVariant/54213327290706",
+          "gid://shopify/ProductVariant/54213327323474",
+          "gid://shopify/ProductVariant/54213327356242"
+        ],
+        "readback_exact": true
+      },
+      {
+        "sku_prefix": "14:365462#black dial 1 hands",
+        "old_supplier_media_id": "gid://shopify/MediaImage/59894149808466",
+        "variant_ids": [
+          "gid://shopify/ProductVariant/54213327454546",
+          "gid://shopify/ProductVariant/54213327487314",
+          "gid://shopify/ProductVariant/54213328175442"
+        ],
+        "readback_exact": true
+      },
+      {
+        "sku_prefix": "14:173#blue dial hands",
+        "old_supplier_media_id": "gid://shopify/MediaImage/59894149611858",
+        "variant_ids": [
+          "gid://shopify/ProductVariant/54213327618386",
+          "gid://shopify/ProductVariant/54213327651154",
+          "gid://shopify/ProductVariant/54213327683922"
+        ],
+        "readback_exact": true
+      },
+      {
+        "sku_prefix": "14:100016652#black dial 2 hands",
+        "old_supplier_media_id": "gid://shopify/MediaImage/59894149677394",
+        "variant_ids": [
+          "gid://shopify/ProductVariant/54213327978834",
+          "gid://shopify/ProductVariant/54213328011602",
+          "gid://shopify/ProductVariant/54213328044370"
+        ],
+        "readback_exact": true
+      },
+      {
+        "sku_prefix": "14:29#silver dial hands",
+        "old_supplier_media_id": "gid://shopify/MediaImage/59894149710162",
+        "variant_ids": [
+          "gid://shopify/ProductVariant/54213328306514",
+          "gid://shopify/ProductVariant/54213328339282",
+          "gid://shopify/ProductVariant/54213328372050"
+        ],
+        "readback_exact": true
+      }
+    ]
+  },
+  "order_5d": {
+    "status": "failed",
+    "archived_order_path": "ordres/pour-codex/resultats/20260811-2114-generate_images-remplacement92-pilote-lumineuses-montes-reprise-5d.ordre.json",
+    "result_path": "ordres/pour-codex/resultats/20260811-2114-generate_images-remplacement92-pilote-lumineuses-montes-reprise-5d.json",
+    "id": "claude-20260811-2114-remplacement92-pilote-lumineuses-montes-reprise-5d",
+    "created_at": "2026-08-11T21:14:00+02:00",
+    "executed_at": "2026-08-11T20:00:52Z",
+    "requested_by": "claude-code",
+    "validator_verdict": "VALIDE",
+    "validator_class": "A",
+    "manual_protocol_9_1_check": {
+      "unique_id": true,
+      "filename_convention": true,
+      "type_generate_images": true,
+      "iso_8601_created_at": true,
+      "requested_by_exact": true,
+      "payload_object": true,
+      "required_payload_fields_present": true,
+      "manifest_handle_sku_slot_filename": true,
+      "no_variant_media_product_ids": true,
+      "all_paths_inside_repository": true,
+      "new_backup_paths": true,
+      "new_qa_board_path": true,
+      "new_manifest_path": true
+    },
+    "archived_order_sha256": "3d94263e771730d535a0d309c6894319416113ca673289ec715a53edea5ce088",
+    "result_sha256": "174bc14ecdcaa09f0955b958a7207b85fef0f53d11fd077d1c830cb8cb59519a",
+    "wrapper_launched": true,
+    "executor_exit_code": 0,
+    "archived_naturally": true,
+    "passes_per_sku": 4,
+    "candidates_generated": 20,
+    "external_qa_pass": 0,
+    "external_qa_fail": 5,
+    "targets_replaced": 0,
+    "manifest_entries_delivered": 0,
+    "rejected_files_count": 25,
+    "qa_board": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/qa/planche-remplacement92-pilote-lumineuses-montes-reprise-5d.jpg",
+    "qa_board_sha256": "d8db24df8776df5ee870721ec98f9d0ef24faf88922daf7e2b595ca71c4b3a92",
+    "qa_board_dimensions": "2300x4230",
+    "qa_board_image_tile_size_px": 740,
+    "empty_manifest": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/manifeste-remplacement92-pilote-lumineuses-montes-reprise-5d.json",
+    "empty_manifest_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "external_qa": [
+      {
+        "sku_prefix": "14:365462#black dial 1 hands",
+        "candidate_g4": "rejected/black-dial-1-hands-g4-masque-22-et-4.png",
+        "verdict": "FAIL",
+        "blocking_evidence": [
+          "heure masque 22",
+          "minute masque 4",
+          "axes et dégagements non conformes"
+        ]
+      },
+      {
+        "sku_prefix": "14:100016652#black dial 2 hands",
+        "candidate_g4": "rejected/black-dial-2-hands-g4-minute-masque-4-secondes-vers-7.png",
+        "verdict": "FAIL",
+        "blocking_evidence": [
+          "minute masque 4",
+          "trotteuse vers 7 au lieu de 195 degrés"
+        ]
+      },
+      {
+        "sku_prefix": "14:173#blue dial hands",
+        "candidate_g4": "rejected/blue-dial-hands-g4-heure-sur-22-secondes-sur-7.png",
+        "verdict": "FAIL",
+        "blocking_evidence": [
+          "heure masque 22",
+          "trotteuse vers 7 au lieu de 195 degrés"
+        ]
+      },
+      {
+        "sku_prefix": "14:865#green dial hands",
+        "candidate_g4": "rejected/green-dial-hands-g4-heure-sur-22-minute-sur-16-et-4-secondes-vers-7.png",
+        "verdict": "FAIL",
+        "blocking_evidence": [
+          "heure masque 22",
+          "minute traverse 16 et 4",
+          "trotteuse vers 7"
+        ]
+      },
+      {
+        "sku_prefix": "14:29#silver dial hands",
+        "candidate_g4": "rejected/silver-dial-hands-g4-heure-sur-22-minute-sur-16-et-4-secondes-vers-7.png",
+        "verdict": "FAIL",
+        "blocking_evidence": [
+          "heure masque 22",
+          "minute traverse 16 et 4",
+          "trotteuse vers 7"
+        ]
+      }
+    ],
+    "all_source_target_witness_hashes_unchanged": true,
+    "all_five_external_backups_byte_exact": true,
+    "lock_codex_present_after_archive": false,
+    "en_cours_non_gitkeep_files_after_archive": 0,
+    "shopify_mutations": []
+  }
+}

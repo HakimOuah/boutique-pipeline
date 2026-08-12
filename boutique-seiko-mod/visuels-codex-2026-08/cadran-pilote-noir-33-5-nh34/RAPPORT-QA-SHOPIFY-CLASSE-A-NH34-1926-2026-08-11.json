@@ -1,0 +1,215 @@
+{
+  "report_id": "codex-20260811-nh34-classe-a-1926-shopify",
+  "generated_at": "2026-08-11T18:40:41Z",
+  "scope": {
+    "handle": "cadran-pilote-noir-33-5-nh34",
+    "product_id": "gid://shopify/Product/11013081465170",
+    "target_count": 4,
+    "pass_count": 1,
+    "rejected_count": 3,
+    "shopify_mutation_count": 1,
+    "master_progress_json_modified": false
+  },
+  "orders": [
+    {
+      "order": "ordres/pour-codex/resultats/20260811-1926-generate_images-remplacement92-pilote-nh34-dial3-nu-classe-a-1.ordre.json",
+      "result": "ordres/pour-codex/resultats/20260811-1926-generate_images-remplacement92-pilote-nh34-dial3-nu-classe-a-1.json",
+      "result_sha256": "e3365d162c691c778304d1d123424ddf6515fb746b82e910bcd0fdc1c46240f6",
+      "archive_sha256": "520e93e7c512e27738d66d1f16694ad181d6a8e8fd3d0e4a2b38d71a94ab17f1",
+      "status": "done",
+      "manifest_count": 1,
+      "rejection_count": 4,
+      "qa_board": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/qa/planche-remplacement92-pilote-nh34-dial3-nu-classe-a-1.jpg",
+      "executed_at": "2026-08-11T18:14:15Z",
+      "archived_naturally": true
+    },
+    {
+      "order": "ordres/pour-codex/resultats/20260811-1926-generate_images-remplacement92-pilote-nh34-montes-classe-a-3.ordre.json",
+      "result": "ordres/pour-codex/resultats/20260811-1926-generate_images-remplacement92-pilote-nh34-montes-classe-a-3.json",
+      "result_sha256": "58795a589159a9b61a8089544fe3ebe57ff0744627a0aba589314871615785b8",
+      "archive_sha256": "8089c9121d09aa34d74035265c9e668ba7bcc242afbd509ceee00a163dda6dcf",
+      "status": "failed",
+      "manifest_count": 0,
+      "rejection_count": 16,
+      "difficult_subject_count": 3,
+      "qa_board": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/qa/planche-remplacement92-pilote-nh34-montes-classe-a-3.jpg",
+      "qa_board_sha256": "816d86c5c621424c1c45b2ad8e02e84391b065fe69506b2e9b44396fcc5f565e",
+      "executed_at": "2026-08-11T18:38:09Z",
+      "archived_naturally": true
+    }
+  ],
+  "external_qa": [
+    {
+      "sku": "14:865#Dial 3;200007763:201336100",
+      "target_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/cadran-pilote-noir-33-5-nh34-v-dial-3.jpg",
+      "source_file": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/S0ddfc7b68b0a4f5dba36efa7cbe34a90Z.webp",
+      "source_sha256": "f0e1a0d735b36e72f0908f73f6339e1f1efc6d505d2e08f6a7e2724bd8064898",
+      "final_sha256": "0f7571ace632d9bedbc75f065b82ee16aa1555b6fad526319baec9cf80ef2261",
+      "decision": "PASS",
+      "proof": {
+        "final_dimensions": "2048x2048",
+        "final_format": "JPEG sRGB",
+        "rectangle_hours": [0.912, 3.804, 7.127, 10.117],
+        "required_hours": [0.91, 3.88, 7.22, 10.04],
+        "tolerance_hours": 0.1,
+        "rectangles": 4,
+        "round_points": 8,
+        "inner_triangles": 1,
+        "numerals": "1-11 exactly once; no 12 or 13-24 ring",
+        "military_arrow": "inclined source glyph preserved",
+        "track_and_center_hole": "preserved",
+        "logo_or_brand_text": false
+      }
+    },
+    {
+      "sku": "14:200025551#Dial 1  hand;200007763:201336100",
+      "source_file": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/Sac3d6028146d4a71a60bafc1ffb0717bX.webp",
+      "source_sha256": "f9bc4b7f6b3beed66f83cbc009964aa7b502143bc9784215bed5902f36666eec",
+      "decision": "REJECTED",
+      "attempts": 5,
+      "last_rejected_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/rejected/dial-1-hand-g5-trotteuse-sur-18-6-contrepoids-12.png",
+      "reason": "The seconds hand is almost vertical through 18/6 instead of 195 degrees and its white lollipop counterweight is at 12 o'clock instead of the opposite 15-degree axis.",
+      "existing_bad_final_preserved_sha256": "024cfd42e35f83a42f1230facbd1c91390d0ada78d773e08b3bfbbfc15192243"
+    },
+    {
+      "sku": "14:100016652#Dial 2 hand;200007763:201336100",
+      "source_file": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/Sb8710c3725cb498291d3acdcf990e6edI.webp",
+      "source_sha256": "0e327d8e68ff9f4e3f2df7f747942440e97e9054c28f40de48808e40aa01f616",
+      "decision": "REJECTED",
+      "attempts": 4,
+      "last_rejected_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/rejected/dial-2-hand-g4-minute-masque-4-16.png",
+      "reason": "The minute hand touches and masks the 4/16 numeral zone, violating the blocking no-obscuration gate.",
+      "existing_bad_final_preserved_sha256": "6fa57ded68b3993cd8801254dd2ede4c7b51d3cde86ce620459172523a95b5c7"
+    },
+    {
+      "sku": "14:201659835#Dial 3 hand;200007763:201336100",
+      "source_file": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/Sf4b20fe9b3534454952eb58b10dfebb4D.webp",
+      "source_sha256": "c2bbc1a366047f7d831ab06a6fbf31bf5d42336dfeb6695af2f9ea9ef59f0328",
+      "decision": "REJECTED",
+      "attempts": 4,
+      "last_rejected_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/rejected/dial-3-hand-g4-structure-regularisee-trotteuse-sur-6.png",
+      "reason": "The source's irregular rectangle geometry was regularized toward cardinal positions, numeral 1 disappeared, and the seconds hand crosses the 6 zone.",
+      "target_final_file_absent": true,
+      "previous_bad_candidate_preserved_sha256": "8dddca80e050d1c57bf177fcb209db379b113376a664867ba0b6e32600f2191f"
+    }
+  ],
+  "shopify_mutation": {
+    "preflight": {
+      "status": "DRAFT",
+      "featured_media_id": "gid://shopify/MediaImage/59904315195730",
+      "media_count": 9,
+      "variant_count": 6,
+      "media_has_next_page": false,
+      "variants_has_next_page": false,
+      "target_variant_id": "gid://shopify/ProductVariant/54213328503122",
+      "target_old_media_id": "gid://shopify/MediaImage/59894150267218",
+      "target_price": "10.80"
+    },
+    "upload_file_id": "gid://shopify/MediaImage/59930026738002",
+    "attached_product_media_id": "gid://shopify/MediaImage/59930029162834",
+    "attached_media_status": "READY",
+    "variant_association": {
+      "variant_id": "gid://shopify/ProductVariant/54213328503122",
+      "new_media_id": "gid://shopify/MediaImage/59930029162834"
+    },
+    "old_supplier_media_removed_after_association_readback": "gid://shopify/MediaImage/59894150267218",
+    "mounted_variants_mutated": false
+  },
+  "mapping": [
+    {
+      "variant_id": "gid://shopify/ProductVariant/54213328503122",
+      "sku": "14:865#Dial 3;200007763:201336100",
+      "price": "10.80",
+      "decision": "PASS_AND_REPLACED",
+      "new_media_id": "gid://shopify/MediaImage/59930029162834",
+      "old_media_id_removed": "gid://shopify/MediaImage/59894150267218"
+    },
+    {
+      "variant_id": "gid://shopify/ProductVariant/54213328568658",
+      "sku": "14:200025551#Dial 1  hand;200007763:201336100",
+      "price": "13.94",
+      "decision": "REJECTED_UNCHANGED",
+      "retained_media_id": "gid://shopify/MediaImage/59894150332754"
+    },
+    {
+      "variant_id": "gid://shopify/ProductVariant/54213328601426",
+      "sku": "14:100016652#Dial 2 hand;200007763:201336100",
+      "price": "13.69",
+      "decision": "REJECTED_UNCHANGED",
+      "retained_media_id": "gid://shopify/MediaImage/59894150365522"
+    },
+    {
+      "variant_id": "gid://shopify/ProductVariant/54213328634194",
+      "sku": "14:201659835#Dial 3 hand;200007763:201336100",
+      "price": "13.72",
+      "decision": "REJECTED_UNCHANGED",
+      "retained_media_id": "gid://shopify/MediaImage/59894150398290"
+    }
+  ],
+  "final_shopify_readback": {
+    "status": "DRAFT",
+    "featured_media_id": "gid://shopify/MediaImage/59904315195730",
+    "media_count": 9,
+    "ready_media_count": 9,
+    "media_has_next_page": false,
+    "variant_count": 6,
+    "variants_has_next_page": false,
+    "media_ids": [
+      "gid://shopify/MediaImage/59904315195730",
+      "gid://shopify/MediaImage/59894150332754",
+      "gid://shopify/MediaImage/59894150365522",
+      "gid://shopify/MediaImage/59894150398290",
+      "gid://shopify/MediaImage/59904315228498",
+      "gid://shopify/MediaImage/59904315261266",
+      "gid://shopify/MediaImage/59925827780946",
+      "gid://shopify/MediaImage/59925827813714",
+      "gid://shopify/MediaImage/59930029162834"
+    ],
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/54213328503122",
+        "sku": "14:865#Dial 3;200007763:201336100",
+        "price": "10.80",
+        "media_id": "gid://shopify/MediaImage/59930029162834"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/54213328535890",
+        "sku": "14:201336230#Dial 2;200007763:201336100",
+        "price": "10.80",
+        "media_id": "gid://shopify/MediaImage/59925827813714"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/54213328568658",
+        "sku": "14:200025551#Dial 1  hand;200007763:201336100",
+        "price": "13.94",
+        "media_id": "gid://shopify/MediaImage/59894150332754"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/54213328601426",
+        "sku": "14:100016652#Dial 2 hand;200007763:201336100",
+        "price": "13.69",
+        "media_id": "gid://shopify/MediaImage/59894150365522"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/54213328634194",
+        "sku": "14:201659835#Dial 3 hand;200007763:201336100",
+        "price": "13.72",
+        "media_id": "gid://shopify/MediaImage/59894150398290"
+      },
+      {
+        "id": "gid://shopify/ProductVariant/54213328666962",
+        "sku": "14:29#Dial 1;200007763:201336100",
+        "price": "10.93",
+        "media_id": "gid://shopify/MediaImage/59925827780946"
+      }
+    ],
+    "preservation": {
+      "prices_unchanged": true,
+      "non_target_associations_unchanged": true,
+      "featured_media_unchanged": true,
+      "generic_gallery_preserved": true,
+      "old_supplier_media_for_rejected_variants_retained": true,
+      "old_supplier_media_for_pass_absent": true
+    }
+  }
+}

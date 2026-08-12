@@ -1,0 +1,179 @@
+{
+  "schema_version": "1.0",
+  "run": {
+    "date": "2026-08-12",
+    "mode": "efficacite-extreme",
+    "scope": "ACTIVE single-appearance watches with raw supplier featured media",
+    "report_status": "COMPLETE"
+  },
+  "counters": {
+    "products_reserved": 5,
+    "products_completed": 5,
+    "products_skipped": 0,
+    "appearances": 5,
+    "generations": 0,
+    "uploads": 0,
+    "existing_maison_media_forensically_confirmed": 15,
+    "variant_associations_added": 14,
+    "featured_switched": 5,
+    "raw_supplier_product_references_removed": 5,
+    "raw_supplier_media_remaining": 0,
+    "final_graphql_user_errors": 0
+  },
+  "classification_correction": {
+    "issue": "Filename-only audit classified situation, macro and wrist images as supplier media.",
+    "method": "Downloaded live Shopify CDN images and compared them to local PASS generated files with FFmpeg SSIM.",
+    "result": "15 live images match Maison-generated local assets after Shopify recompression; they were retained.",
+    "ssim_range": [0.984724, 0.990318],
+    "local_manifest": "scratchpad/noirmont-galeries/manifest.json",
+    "visual_board": "boutique-seiko-mod/efficacite-extreme-2026-08-12/lot4-maison-situation-board.jpg"
+  },
+  "shopify_workflow": {
+    "preflight_live": true,
+    "new_generation_required": false,
+    "exact_maison_situation_media_associated_to_all_variants": true,
+    "new_featured_proven_before_supplier_removal": true,
+    "supplier_removal_method": "fileUpdate referencesToRemove; no global file deletion",
+    "final_readback_complete": true,
+    "pagination_complete": true
+  },
+  "products": [
+    {
+      "product_gid": "gid://shopify/Product/10978721530194",
+      "handle": "quarante-et-un-noir-acier-sport-acier",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "featured_before_supplier": "gid://shopify/MediaImage/59681633993042",
+      "featured_after_maison": "gid://shopify/MediaImage/59694045069650",
+      "maison_media_retained": [
+        "gid://shopify/MediaImage/59694045069650",
+        "gid://shopify/MediaImage/59694045102418",
+        "gid://shopify/MediaImage/59694045135186",
+        "gid://shopify/MediaImage/59893404270930"
+      ],
+      "ssim_live_vs_local": {
+        "situation": 0.988483,
+        "macro": 0.987027,
+        "poignet": 0.987332
+      },
+      "supplier_reference_removed": "gid://shopify/MediaImage/59681633993042",
+      "variants": [
+        {"gid": "gid://shopify/ProductVariant/54090421371218", "option": "Miyota 8215", "sku": "NOIR-Q41-007", "price_eur": "299.00", "inventory": 0, "media_gid": "gid://shopify/MediaImage/59694045069650"},
+        {"gid": "gid://shopify/ProductVariant/54090421403986", "option": "NH35", "sku": "NOIR-Q41-008", "price_eur": "338.00", "inventory": 0, "media_gid": "gid://shopify/MediaImage/59694045069650"}
+      ]
+    },
+    {
+      "product_gid": "gid://shopify/Product/10978721988946",
+      "handle": "quarante-et-un-noir-cuir-sport-acier",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "featured_before_supplier": "gid://shopify/MediaImage/59681639170386",
+      "featured_after_maison": "gid://shopify/MediaImage/59694045167954",
+      "maison_media_retained": [
+        "gid://shopify/MediaImage/59694045167954",
+        "gid://shopify/MediaImage/59694045200722",
+        "gid://shopify/MediaImage/59694045233490",
+        "gid://shopify/MediaImage/59893404402002"
+      ],
+      "ssim_live_vs_local": {
+        "situation": 0.988839,
+        "macro": 0.987748,
+        "poignet": 0.988039
+      },
+      "supplier_reference_removed": "gid://shopify/MediaImage/59681639170386",
+      "variants": [
+        {"gid": "gid://shopify/ProductVariant/54090430775634", "option": "Miyota 8215", "sku": "NOIR-Q41-009", "price_eur": "299.00", "inventory": 0, "media_gid": "gid://shopify/MediaImage/59694045167954"},
+        {"gid": "gid://shopify/ProductVariant/54090430808402", "option": "NH35", "sku": "NOIR-Q41-010", "price_eur": "338.00", "inventory": 0, "media_gid": "gid://shopify/MediaImage/59694045167954"}
+      ]
+    },
+    {
+      "product_gid": "gid://shopify/Product/10978721431890",
+      "handle": "quarante-et-un-noir-jaune-acier-sport-acier",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "featured_before_supplier": "gid://shopify/MediaImage/59681633141074",
+      "featured_after_maison": "gid://shopify/MediaImage/59694018953554",
+      "maison_media_retained": [
+        "gid://shopify/MediaImage/59694018953554",
+        "gid://shopify/MediaImage/59694018986322",
+        "gid://shopify/MediaImage/59694019019090",
+        "gid://shopify/MediaImage/59893413708114"
+      ],
+      "ssim_live_vs_local": {
+        "situation": 0.986844,
+        "macro": 0.985586,
+        "poignet": 0.987983
+      },
+      "supplier_reference_removed": "gid://shopify/MediaImage/59681633141074",
+      "variants": [
+        {"gid": "gid://shopify/ProductVariant/54090421207378", "option": "Miyota 8215", "sku": "NOIR-Q41-011", "price_eur": "299.00", "inventory": 0, "media_gid": "gid://shopify/MediaImage/59694018953554"},
+        {"gid": "gid://shopify/ProductVariant/54090421240146", "option": "NH35", "sku": "NOIR-Q41-012", "price_eur": "338.00", "inventory": 0, "media_gid": "gid://shopify/MediaImage/59694018953554"}
+      ]
+    },
+    {
+      "product_gid": "gid://shopify/Product/10978719039826",
+      "handle": "trente-six-bleu-classique-jubile",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "featured_before_supplier": "gid://shopify/MediaImage/59681607057746",
+      "featured_after_maison": "gid://shopify/MediaImage/59693961281874",
+      "maison_media_retained": [
+        "gid://shopify/MediaImage/59693961281874",
+        "gid://shopify/MediaImage/59693961314642",
+        "gid://shopify/MediaImage/59693961347410",
+        "gid://shopify/MediaImage/59893454045522"
+      ],
+      "ssim_live_vs_local": {
+        "situation": 0.988017,
+        "macro": 0.986779,
+        "poignet": 0.986805
+      },
+      "supplier_reference_removed": "gid://shopify/MediaImage/59681607057746",
+      "variants": [
+        {"gid": "gid://shopify/ProductVariant/54090412982610", "option": "36 mm · fond acier", "sku": "NOIR-T36-001", "price_eur": "299.00", "inventory": 0, "media_gid": "gid://shopify/MediaImage/59693961281874"},
+        {"gid": "gid://shopify/ProductVariant/54090413015378", "option": "36 mm · fond verre", "sku": "NOIR-T36-002", "price_eur": "328.00", "inventory": 0, "media_gid": "gid://shopify/MediaImage/59693961281874"},
+        {"gid": "gid://shopify/ProductVariant/54090413048146", "option": "39 mm · fond acier", "sku": "NOIR-T36-003", "price_eur": "299.00", "inventory": 0, "media_gid": "gid://shopify/MediaImage/59693961281874"},
+        {"gid": "gid://shopify/ProductVariant/54090413080914", "option": "39 mm · fond verre", "sku": "NOIR-T36-004", "price_eur": "328.00", "inventory": 0, "media_gid": "gid://shopify/MediaImage/59693961281874"}
+      ]
+    },
+    {
+      "product_gid": "gid://shopify/Product/10978719367506",
+      "handle": "trente-six-dore-classique-jubile",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "featured_before_supplier": "gid://shopify/MediaImage/59681610006866",
+      "featured_after_maison": "gid://shopify/MediaImage/59693975437650",
+      "maison_media_retained": [
+        "gid://shopify/MediaImage/59693975437650",
+        "gid://shopify/MediaImage/59693975470418",
+        "gid://shopify/MediaImage/59693975503186",
+        "gid://shopify/MediaImage/59893480620370"
+      ],
+      "ssim_live_vs_local": {
+        "situation": 0.990318,
+        "macro": 0.984724,
+        "poignet": 0.987374
+      },
+      "supplier_reference_removed": "gid://shopify/MediaImage/59681610006866",
+      "variants": [
+        {"gid": "gid://shopify/ProductVariant/54090413867346", "option": "36 mm · fond acier", "sku": "NOIR-T36-009", "price_eur": "299.00", "inventory": 0, "media_gid": "gid://shopify/MediaImage/59693975437650"},
+        {"gid": "gid://shopify/ProductVariant/54090413900114", "option": "36 mm · fond verre", "sku": "NOIR-T36-010", "price_eur": "328.00", "inventory": 0, "media_gid": "gid://shopify/MediaImage/59693975437650"},
+        {"gid": "gid://shopify/ProductVariant/54090413932882", "option": "39 mm · fond acier", "sku": "NOIR-T36-011", "price_eur": "299.00", "inventory": 0, "media_gid": "gid://shopify/MediaImage/59693975437650"},
+        {"gid": "gid://shopify/ProductVariant/54090413965650", "option": "39 mm · fond verre", "sku": "NOIR-T36-012", "price_eur": "328.00", "inventory": 0, "media_gid": "gid://shopify/MediaImage/59693975437650"}
+      ]
+    }
+  ],
+  "rollback": {
+    "supplier_media_restore": "fileUpdate referencesToAdd with the product GID for each supplier_reference_removed",
+    "variant_association_restore": "productVariantDetachMedia for the Maison media if reversal is explicitly required",
+    "featured_restore": "restore supplier reference, then productReorderMedia to position 0"
+  },
+  "final_assertions": {
+    "all_products_active": true,
+    "all_variants_associated": true,
+    "all_featured_maison": true,
+    "all_raw_supplier_media_absent": true,
+    "prices_skus_options_inventory_unchanged": true,
+    "no_global_file_deletion": true
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-08-12T00:00:00+02:00",
+  "handle": "cadran-pilote-sterile-28-5-sans-logo",
+  "product_id": "gid://shopify/Product/11013078417746",
+  "mode": "one_attempt_per_appearance_no_retry",
+  "qa_policy": "80/20 strict: sterile, exact geometry/index/date/color, no word/logo",
+  "summary": {
+    "appearances": 6,
+    "attempts": 6,
+    "pass": 6,
+    "reject": 0
+  },
+  "assets": [
+    {
+      "appearance": "A1",
+      "attempt": 1,
+      "source": "source-rattrapage/a1.webp",
+      "source_sha256": "1f5125bcb3e53695853d4294aa710c0742f566684af4b61be342bdb7fcfcbfeb",
+      "output": "cadran-pilote-sterile-28-5-sans-logo-v-a1.jpg",
+      "output_sha256": "10022cce8e34d4c44eb446800ec589168e87b4f35feed325c98d2472fe293401",
+      "dimensions": "2048x2048",
+      "format": "JPEG",
+      "qa": "PASS",
+      "checks": {
+        "sterile": true,
+        "no_word_logo_or_watermark": true,
+        "no_date_added": true,
+        "geometry_and_indexes_preserved": true,
+        "color_preserved": true,
+        "hands_count_exactly_three": true
+      }
+    },
+    {
+      "appearance": "A2",
+      "attempt": 1,
+      "source": "source-rattrapage/a2.webp",
+      "source_sha256": "0c2ddd635549ee6cd1641e32bda7b691bd381a2a02de372609376ed4fe856b5c",
+      "output": "cadran-pilote-sterile-28-5-sans-logo-v-a2.jpg",
+      "output_sha256": "1621253254a15fb79faa236dfec93c7e63682fce9581028f80bcc476c2e6c582",
+      "dimensions": "2048x2048",
+      "format": "JPEG",
+      "qa": "PASS",
+      "checks": {
+        "sterile": true,
+        "no_word_logo_or_watermark": true,
+        "no_date_added": true,
+        "geometry_and_indexes_preserved": true,
+        "color_preserved": true,
+        "hands_count_exactly_three": true
+      }
+    },
+    {
+      "appearance": "A3",
+      "attempt": 1,
+      "source": "source-rattrapage/a3.webp",
+      "source_sha256": "88ddc933e0f993f9040b3e99bd795cff2b36921ded6c33fefeb83994f24c9f39",
+      "output": "cadran-pilote-sterile-28-5-sans-logo-v-a3.jpg",
+      "output_sha256": "f6b94ac3b5b66d9cfbffbdfbc9d46c63fbe4a6082e626b9c151d89d30ec7db8c",
+      "dimensions": "2048x2048",
+      "format": "JPEG",
+      "qa": "PASS",
+      "checks": {
+        "sterile": true,
+        "no_word_logo_or_watermark": true,
+        "no_date_added": true,
+        "geometry_and_indexes_preserved": true,
+        "color_preserved": true,
+        "hands_count_exactly_three": true
+      }
+    },
+    {
+      "appearance": "A4",
+      "attempt": 1,
+      "source": "source-rattrapage/a4.webp",
+      "source_sha256": "f6ddcad70b7862f91ed85606152a722510d0384a19758265f622061d487d76e9",
+      "output": "cadran-pilote-sterile-28-5-sans-logo-v-a4.jpg",
+      "output_sha256": "f97d0ee5d0d1653280d21775e111a5549d25e9320b87619237af72e87ab255e6",
+      "dimensions": "2048x2048",
+      "format": "JPEG",
+      "qa": "PASS",
+      "checks": {
+        "sterile": true,
+        "no_word_logo_or_watermark": true,
+        "no_date_added": true,
+        "geometry_and_indexes_preserved": true,
+        "color_preserved": true,
+        "hands_count_exactly_three": true
+      }
+    },
+    {
+      "appearance": "A5",
+      "attempt": 1,
+      "source": "source-rattrapage/a5.webp",
+      "source_sha256": "5066467f3ce6a994e970bb8418c9144dfce5e0f07d555c78f22ac20de6907d28",
+      "output": "cadran-pilote-sterile-28-5-sans-logo-v-a5.jpg",
+      "output_sha256": "37de9180965005907d7a9db2af105ca5c582fe80fbdd0374d9f15822fe34df3e",
+      "dimensions": "2048x2048",
+      "format": "JPEG",
+      "qa": "PASS",
+      "checks": {
+        "sterile": true,
+        "no_word_logo_or_watermark": true,
+        "no_date_added": true,
+        "geometry_and_indexes_preserved": true,
+        "color_preserved": true,
+        "hands_count_exactly_three": true
+      }
+    },
+    {
+      "appearance": "A6",
+      "attempt": 1,
+      "source": "source-rattrapage/a6.webp",
+      "source_sha256": "9572d7717b45fdeaec0559587370931cdb20d91b130e1868a1b6a9ae412ad49a",
+      "output": "cadran-pilote-sterile-28-5-sans-logo-v-a6.jpg",
+      "output_sha256": "7f978f54f81c6c6d3c92c70b702ac81e9d086a4dbc2f16e1b9b3d3feeb0cbd24",
+      "dimensions": "2048x2048",
+      "format": "JPEG",
+      "qa": "PASS",
+      "checks": {
+        "sterile": true,
+        "no_word_logo_or_watermark": true,
+        "no_date_added": true,
+        "geometry_and_indexes_preserved": true,
+        "color_preserved": true,
+        "hands_count_exactly_three": true
+      }
+    }
+  ]
+}

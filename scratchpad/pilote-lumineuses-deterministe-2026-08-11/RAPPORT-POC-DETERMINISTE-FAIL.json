@@ -1,0 +1,114 @@
+{
+  "scope": "cadran-pilote-33-5-aiguilles-lumineuses / 5 variantes montees bloquees",
+  "date": "2026-08-11",
+  "verdict": "FAIL",
+  "contractual_final_produced": false,
+  "contractual_final_modified": false,
+  "shopify_touched": false,
+  "dsers_touched": false,
+  "orders_touched": false,
+  "master_json_touched": false,
+  "summary": "La pose angulaire deterministe fonctionne, mais aucun compositing ne satisfait simultanement la fidelite de forme, l'absence de marque et la tracabilite SKU exacte.",
+  "gate_results": {
+    "deterministic_rigid_placement": "PASS",
+    "target_axes_315_105_195": "PASS",
+    "no_digit_or_track_occlusion_in_poc": "PASS",
+    "no_brand_fragment_baseline_mask": "FAIL",
+    "exact_hour_hand_shape_tight_mask": "FAIL",
+    "exact_sku_only_provenance": "FAIL",
+    "contractual_result": "FAIL"
+  },
+  "method": {
+    "script": "scratchpad/pilote-lumineuses-deterministe-2026-08-11/build_poc.py",
+    "script_sha256": "017cb8b50cd21bc616d11404adfd0fae3f943eec35a345d5036500d892b31179",
+    "description": "Segmentation par distance au fond blanc, filtrage de composantes rattachees au pivot, mesure PCA de l'axe, rotation rigide et compositing uniforme avec Pillow. Aucun modele generatif, inpainting, clonage ou redessin.",
+    "target_clock_angles_degrees": {
+      "hour": 315.0,
+      "minute": 105.0,
+      "second": 195.0
+    }
+  },
+  "exact_variant_sources_unchanged": {
+    "black_dial_1_hands": "1349d7ac2aaac07d2c5d49454cdc3243fae72ae3716cf44ed7d1c7d2c896afba",
+    "black_dial_2_hands": "c81cac3b697a04fe9f16ad62bd971caa2600827859c52214e6649239c3a715f8",
+    "blue_dial_hands": "d2c781c09209a11a1036dcc9d36803467e01d8292149dab511ac545d5e89e8ca",
+    "green_dial_hands": "fc98d9ff825e4a441d92a3a2f9dbecc1dd44b2fafa701a5c339f431afd38aacd",
+    "silver_dial_hands": "65728a33d0f6ebf1d543ea5d5414cdb96ddcea6cad2a38ef5b88580031d960b6"
+  },
+  "isolated_handset_sources": {
+    "A_white_hands_silver_seconds": {
+      "sha256": "2fa5b125b5e78763636ae2d2fdb6f91ea779830dae06d90225964beb93e89dc3",
+      "debug_crop": "scratchpad/pilote-lumineuses-deterministe-2026-08-11/handset-a-hour-tip-debug.png",
+      "debug_crop_sha256": "6402e8069c53a1f7caefe40a2e1ecc038d8742cc197dc3a4e9d6b16a761d1342",
+      "finding": "Le marquage Tandorio recouvre des pixels de l'extremite distale de l'aiguille des heures."
+    },
+    "B_white_hands_red_seconds": {
+      "sha256": "0e1e7d4895b8bfa92568a0a1ecdb358c47fc36808d8655f5e0a48e0a606cb3dc",
+      "debug_crop": "scratchpad/pilote-lumineuses-deterministe-2026-08-11/handset-b-hour-tip-debug.png",
+      "debug_crop_sha256": "d18f907811c42b701593d4caf4285c07cae8eb30f21e75ac5c39d1a07605190d",
+      "finding": "Le mot Tandorio croise directement la pointe et devient une composante rattachee au materiau physique dans le raster."
+    },
+    "C_gold_hands_silver_seconds": {
+      "sha256": "d8ced23046baacfb51208ecbd646cea4fa7af6446f3a769eab50eb6bac943702",
+      "debug_crop": "scratchpad/pilote-lumineuses-deterministe-2026-08-11/handset-c-hour-tip-debug.png",
+      "debug_crop_sha256": "759174a5006fbaf2c0c56c5d85ff423358b5e2fad6d7a52fe9994db4de1c1d29",
+      "finding": "Le marquage recouvre egalement l'extremite distale; les pixels exacts ne sont pas recuperables."
+    }
+  },
+  "baseline_poc": {
+    "input_handset": "B",
+    "input_handset_is_exact_sku_source": false,
+    "hour_projection_native_pixels": {
+      "min": 42.008,
+      "max": 329.986
+    },
+    "poc": "scratchpad/pilote-lumineuses-deterministe-2026-08-11/poc-black-dial-1-deterministic.png",
+    "poc_sha256": "4d2e9b22695a1abc18defd10d1ef2256e1a8b3cd87a1d28228976fcba9fb2d19",
+    "qa_overlay_sha256": "ef4887045bd46a6ee1f79d18ecd05cd76d7f584b113bf00f7643a12a77035389",
+    "verdict": "FAIL",
+    "reason": "Fragment/halo du marquage encore present a l'extremite de l'aiguille des heures, et provenance non exclusive a la source SKU exacte."
+  },
+  "tight_mask_last_test": {
+    "command": "python3 build_poc.py --hour-max 285 --suffix tight-mask-fail",
+    "hour_projection_native_pixels": {
+      "requested_max": 285.0,
+      "observed_max": 284.969,
+      "baseline_observed_max": 329.986,
+      "removed_length_native_pixels": 45.017
+    },
+    "poc": "scratchpad/pilote-lumineuses-deterministe-2026-08-11/poc-black-dial-1-deterministic-tight-mask-fail.png",
+    "poc_sha256": "dd1c39e66bfabf859f48df906e17316abc2206ea7b6b714deae416964f2dc001",
+    "qa_overlay_sha256": "b18d4af74be400b04ed7c2b56adfa3427517a3a0e6ae64c63b3db1a32d1d94c6",
+    "hour_mask_sha256": "2b212d6b63ae09ab81db92c2c74a97b76c062b13395d152994fe774495c7b342",
+    "verdict": "FAIL",
+    "reason": "Le fragment de marque est ecarte, mais la pointe physique devient tronquee; longueur et silhouette exactes ne sont plus conservees."
+  },
+  "per_variant_verdict": {
+    "black_dial_1_hands": "FAIL - le POC utilise l'asset isole B non exclusif au SKU; masque long marque, masque serre tronque.",
+    "black_dial_2_hands": "FAIL - l'asset isole C a la meme occultation de pointe et le transfert depuis un asset distinct est interdit.",
+    "blue_dial_hands": "FAIL - l'asset isole A a la meme occultation de pointe et le transfert depuis un asset distinct est interdit.",
+    "green_dial_hands": "FAIL - l'asset isole A a la meme occultation de pointe et le transfert depuis un asset distinct est interdit.",
+    "silver_dial_hands": "FAIL - l'asset isole B est occulte, non exclusif au SKU, et aucun temoin cadran-seul qualifie n'est disponible."
+  },
+  "verifiable_technical_cause": [
+    "Dans les trois photos d'aiguilles isolees, la marque et la pointe partagent les memes pixels visibles: il n'existe pas de couche separee ni de pixels de pointe caches a restaurer.",
+    "Un masque qui conserve la longueur garde des pixels du marquage; un masque qui supprime totalement le marquage raccourcit l'aiguille.",
+    "Les photos montees SKU exactes montrent les aiguilles sur les chiffres et ne fournissent pas une couche alpha; une extraction par transfert depuis les assets isoles violerait la contrainte d'exclusivite SKU.",
+    "La voie deterministe testee prouve le placement mais pas une finale conforme. Une source fournisseur sans marque avec aiguilles detachees, ou un detourage vectoriel/alpha officiel par SKU, est necessaire."
+  ],
+  "protected_files_unchanged": {
+    "rejected_targets": {
+      "black_1": "45f9dfb8990d5cc85fe773195a661e5aff30f4759a9ef4d08a53ab73d74575e9",
+      "black_2": "e08b9fb78aff658d77f6726dd081d7dc1c66426d45e2f737381741ec95988141",
+      "blue": "66cafe241e8c46bca93ee6b256b65de1c106384fd3cff23aecdcdc3126801408",
+      "green": "ac2ac8387ae9206bf917e155614b36f479aba36432e619c72a6c0f93771f8478",
+      "silver": "ca6236320a52396f8dfee55378cd0d700fd2e25412b40379016c7bfabcb7b23e"
+    },
+    "clean_dial_witnesses": {
+      "black_1": "dbefd60eb5e04c719c4efae2902e4cc9c858b63f27527ba5ac1edf503d200c9a",
+      "black_2": "1e6c7e35c7dea7c874ca4b9cba1eb4d288ca9399860ce41af3fcff476468d088",
+      "blue": "32596399074ae8bebb9cb69abb7e4fcb17dd0134ae89db7c312eea4fe6cd31d9",
+      "green": "d93785cff4aa4bc4b83ec463057422a0e21fe6e1b17f54ca02a805c918150965"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "codex-20260811-1227-remplacement92-sterile-lumineux-a-9",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-sterile-lumineux-28-5",
+        "sku": "14:94#1",
+        "slot": "variante",
+        "fichier": "cadran-sterile-lumineux-28-5-v-1.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-sterile-lumineux-28-5",
+        "sku": "14:350850#10",
+        "slot": "variante",
+        "fichier": "cadran-sterile-lumineux-28-5-v-10.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-sterile-lumineux-28-5",
+        "sku": "14:350853#11",
+        "slot": "variante",
+        "fichier": "cadran-sterile-lumineux-28-5-v-11.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-sterile-lumineux-28-5",
+        "sku": "14:173#12-Silver",
+        "slot": "variante",
+        "fichier": "cadran-sterile-lumineux-28-5-v-12-silver.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-sterile-lumineux-28-5",
+        "sku": "14:10#13",
+        "slot": "variante",
+        "fichier": "cadran-sterile-lumineux-28-5-v-13.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-sterile-lumineux-28-5",
+        "sku": "14:29#14",
+        "slot": "variante",
+        "fichier": "cadran-sterile-lumineux-28-5-v-14.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-sterile-lumineux-28-5",
+        "sku": "14:175#15",
+        "slot": "variante",
+        "fichier": "cadran-sterile-lumineux-28-5-v-15.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-sterile-lumineux-28-5",
+        "sku": "14:193#16",
+        "slot": "variante",
+        "fichier": "cadran-sterile-lumineux-28-5-v-16.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "cadran-sterile-lumineux-28-5",
+        "sku": "14:366#17",
+        "slot": "variante",
+        "fichier": "cadran-sterile-lumineux-28-5-v-17.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/mint-v1-encoche-bord-droit.jpg",
+        "motif": "Première tentative menthe écartée au QA : une encoche non présente sur la source avait été inventée sur le bord droit du cadran. Régénération complète depuis la source propre, sans inpainting."
+      }
+    ],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-08-11T14:46:23Z",
+  "executor": "codex-2026-08-11"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "codex-20260811-1842-remplacement92-pilote-lumineuses-montes-reprise-5b",
+  "status": "rejected",
+  "payload": {
+    "manifeste_realise": [],
+    "rejets": [
+      {
+        "fichier": "cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-2-hands.jpg",
+        "motif": "Pré-vol fail-closed non conforme : SHA-256 attendu par l'ordre e08b9fb78aff658d77d574005c5bdac97c1f0d8780ff8bb677ec95988141, SHA-256 observé e08b9fb78aff658d77f6726dd081d7dc1c66426d45e2f737381741ec95988141. L'ordre impose un rejet sans écrasement dès qu'un des cinq hashes diffère."
+      }
+    ],
+    "sujets_difficiles": []
+  },
+  "journal": [
+    "Contrôle d'idempotence effectué : aucune enveloppe de résultat ni de rejet préexistante.",
+    "Les cinq sources SKU exactes sont présentes et lisibles ; les cinq cibles existantes et les quatre témoins ont été contrôlés avant toute écriture.",
+    "Quatre hashes cibles sur cinq correspondent ; le hash de Black Dial 2 diffère de la valeur imposée par l'ordre.",
+    "Aucune sauvegarde copiée, aucune cible écrasée, aucune génération lancée, aucun manifeste ni planche QA créé."
+  ],
+  "executed_at": "2026-08-11T17:58:57Z",
+  "executor": "codex-2026-08-11"
+}

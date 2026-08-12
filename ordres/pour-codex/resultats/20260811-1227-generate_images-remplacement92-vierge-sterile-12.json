@@ -1,0 +1,136 @@
+{
+  "id": "codex-20260811-1227-remplacement92-vierge-sterile-12",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-vierge-sterile-28-5",
+        "sku": "14:201447303#Black",
+        "slot": "variante",
+        "fichier": "cadran-vierge-sterile-28-5-v-black.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "cadran-vierge-sterile-28-5",
+        "sku": "14:350686#Blue A1",
+        "slot": "variante",
+        "fichier": "cadran-vierge-sterile-28-5-v-blue-a1.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 3
+      },
+      {
+        "handle": "cadran-vierge-sterile-28-5",
+        "sku": "14:350853#Blue A2",
+        "slot": "variante",
+        "fichier": "cadran-vierge-sterile-28-5-v-blue-a2.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 5
+      },
+      {
+        "handle": "cadran-vierge-sterile-28-5",
+        "sku": "14:94#Brown",
+        "slot": "variante",
+        "fichier": "cadran-vierge-sterile-28-5-v-brown.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 3
+      },
+      {
+        "handle": "cadran-vierge-sterile-28-5",
+        "sku": "14:200005100#Gold",
+        "slot": "variante",
+        "fichier": "cadran-vierge-sterile-28-5-v-gold.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 4
+      },
+      {
+        "handle": "cadran-vierge-sterile-28-5",
+        "sku": "14:10#Green",
+        "slot": "variante",
+        "fichier": "cadran-vierge-sterile-28-5-v-green.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "cadran-vierge-sterile-28-5",
+        "sku": "14:350850#Grey",
+        "slot": "variante",
+        "fichier": "cadran-vierge-sterile-28-5-v-grey.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "cadran-vierge-sterile-28-5",
+        "sku": "14:100013777#Orange",
+        "slot": "variante",
+        "fichier": "cadran-vierge-sterile-28-5-v-orange.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "cadran-vierge-sterile-28-5",
+        "sku": "14:100005979#Purple",
+        "slot": "variante",
+        "fichier": "cadran-vierge-sterile-28-5-v-purple.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "cadran-vierge-sterile-28-5",
+        "sku": "14:29#Red",
+        "slot": "variante",
+        "fichier": "cadran-vierge-sterile-28-5-v-red.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      },
+      {
+        "handle": "cadran-vierge-sterile-28-5",
+        "sku": "14:201447598#Silver",
+        "slot": "variante",
+        "fichier": "cadran-vierge-sterile-28-5-v-silver.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "cadran-vierge-sterile-28-5",
+        "sku": "14:200000080#Yellow",
+        "slot": "variante",
+        "fichier": "cadran-vierge-sterile-28-5-v-yellow.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      }
+    ],
+    "rejets": [
+      {"fichier": "rejected/black-v1-echelle-incoherente.jpg", "motif": "échelle incohérente avec le lot final"},
+      {"fichier": "rejected/blue-a1-v1-echelle-trop-grande.jpg", "motif": "échelle trop grande"},
+      {"fichier": "rejected/blue-a1-v2-ouverture-oblique.jpg", "motif": "ouverture de date oblique"},
+      {"fichier": "rejected/blue-a1-v3-echelle-incoherente.jpg", "motif": "échelle incohérente avec le lot final"},
+      {"fichier": "rejected/blue-a2-v1-ouverture-trapezoidale.jpg", "motif": "ouverture de date trapézoïdale"},
+      {"fichier": "rejected/blue-a2-v2-ouverture-oblique.jpg", "motif": "ouverture de date oblique"},
+      {"fichier": "rejected/blue-a2-v3-ouverture-oblique.jpg", "motif": "ouverture de date oblique"},
+      {"fichier": "rejected/blue-a2-v4-ouverture-oblique-fond-texture.jpg", "motif": "ouverture oblique et fond trop texturé"},
+      {"fichier": "rejected/blue-a2-v5-echelle-incoherente.jpg", "motif": "échelle incohérente avec le lot final"},
+      {"fichier": "rejected/brown-v1-echelle-trop-grande.jpg", "motif": "échelle trop grande"},
+      {"fichier": "rejected/brown-v2-echelle-trop-petite.jpg", "motif": "échelle trop petite"},
+      {"fichier": "rejected/brown-v3-echelle-incoherente.jpg", "motif": "échelle incohérente avec le lot final"},
+      {"fichier": "rejected/gold-v1-ouverture-deformee.jpg", "motif": "ouverture de date déformée"},
+      {"fichier": "rejected/gold-v2-echelle-trop-petite.jpg", "motif": "échelle trop petite"},
+      {"fichier": "rejected/gold-v3-ouverture-deformee.jpg", "motif": "ouverture de date déformée"},
+      {"fichier": "rejected/gold-v4-echelle-incoherente.jpg", "motif": "échelle incohérente avec le lot final"},
+      {"fichier": "rejected/green-v1-echelle-incoherente.jpg", "motif": "échelle incohérente avec le lot final"},
+      {"fichier": "rejected/grey-v1-echelle-trop-petite.jpg", "motif": "échelle trop petite"},
+      {"fichier": "rejected/orange-v1-echelle-trop-petite.jpg", "motif": "échelle trop petite"},
+      {"fichier": "rejected/purple-v1-echelle-trop-petite.jpg", "motif": "échelle trop petite"},
+      {"fichier": "rejected/red-v1-echelle-trop-petite.jpg", "motif": "échelle trop petite"},
+      {"fichier": "rejected/red-v2-ouverture-trapezoidale.jpg", "motif": "ouverture de date trapézoïdale"},
+      {"fichier": "rejected/silver-v1-echelle-incoherente.jpg", "motif": "échelle incohérente avec le lot final"},
+      {"fichier": "rejected/yellow-v1-echelle-trop-petite.jpg", "motif": "échelle trop petite"}
+    ],
+    "sujets_difficiles": [
+      "14:350853#Blue A2 — 5 régénérations (géométrie de l'ouverture et homogénéité du lot)",
+      "14:200005100#Gold — 4 régénérations (géométrie de l'ouverture et homogénéité du lot)"
+    ]
+  },
+  "executed_at": "2026-08-11T16:01:38Z",
+  "executor": "codex-2026-08-11"
+}

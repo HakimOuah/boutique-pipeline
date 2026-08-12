@@ -1,0 +1,77 @@
+{
+  "id": "codex-20260811-1550-remplacement92-pilote29-reprise-4",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-pilote-29-mod-nh35",
+        "sku": "14:200200134#silver hands",
+        "slot": "variante",
+        "fichier": "cadran-pilote-29-mod-nh35-v-silver-hands.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 3
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/black-set-1-v1-angles-et-degagement-non-conformes.jpg",
+        "motif": "Premiere generation ecartee : minute trop basse touchant le secteur 4/20 et trotteuse hors du milieu du couloir 6/18-7/19."
+      },
+      {
+        "fichier": "rejected/black-set-1-v2-aiguilles-snapees-sur-10-4-6.jpg",
+        "motif": "Deuxieme generation ecartee : les trois aiguilles ont ete ramenees sur 10, 4 et 6, avec masquage des glyphes."
+      },
+      {
+        "fichier": "rejected/black-set-1-v3-angles-proches-mais-glyphes-touches.jpg",
+        "motif": "Troisieme generation ecartee et SKU non livre : angle approche mais aiguille courte sur 10/22 et contrepoids de trotteuse sur 7/19."
+      },
+      {
+        "fichier": "rejected/black-set-2-v1-glyphes-touches-et-appendice-parasite.jpg",
+        "motif": "Premiere generation ecartee : 22, 16, 4 et 19 touches, avec appendice beige parasite sur la trotteuse."
+      },
+      {
+        "fichier": "rejected/black-set-2-v2-derives-angles-et-glyphes-touches.jpg",
+        "motif": "Deuxieme generation ecartee : derive de la minute vers environ 112 degres et de la trotteuse vers environ 208 degres, causant des contacts 4/16 et 7/19."
+      },
+      {
+        "fichier": "rejected/black-set-2-v3-minute-hors-angle-et-glyphes-touches.jpg",
+        "motif": "Troisieme generation ecartee et SKU non livre : minute revenue dans le secteur 2/14 au lieu du couloir 3/15-4/16, avec contacts persistants."
+      },
+      {
+        "fichier": "rejected/silver-hands-rejet-qa-externe-trotteuse-rognee-20260811-1550.jpg",
+        "motif": "Sauvegarde octet pour octet du rendu anterieur rejete par QA externe pour extremite rouge de trotteuse rognee ; SHA-256 verifie identique avant remplacement."
+      },
+      {
+        "fichier": "rejected/silver-hands-v1-marge-inferieure-a-10-pourcent.jpg",
+        "motif": "Premiere generation ecartee : produit fidele et complet mais marge basse proche de 8 pour cent, sous le minimum impose de 10 pour cent."
+      },
+      {
+        "fichier": "rejected/silver-hands-v2-marges-haute-basse-inferieures-a-10-pourcent.jpg",
+        "motif": "Deuxieme generation ecartee : marges haute et basse encore inferieures a 10 pour cent."
+      },
+      {
+        "fichier": "rejected/silver-hands-v3-echelle-trop-reduite.jpg",
+        "motif": "Troisieme generation ecartee : marges conformes mais ensemble reduit a environ 45 pour cent du cadre, hors gabarit editorial."
+      },
+      {
+        "fichier": "rejected/white-set-v1-glyphes-touches-et-aiguille-redessinee.jpg",
+        "motif": "Premiere generation ecartee : 23, 16, 4, 19 et 35 touches, et grande aiguille redessinee avec deux inserts au lieu de la geometrie source."
+      },
+      {
+        "fichier": "rejected/white-set-v2-derives-angles-et-glyphes-touches.jpg",
+        "motif": "Deuxieme generation ecartee : derive de la minute et de la trotteuse causant des contacts 4/16 et 7/19."
+      },
+      {
+        "fichier": "rejected/white-set-v3-minute-hors-angle-et-aiguille-redessinee.jpg",
+        "motif": "Troisieme generation ecartee et SKU non livre : minute dans le secteur 2/14 au lieu du couloir 3/15-4/16 et geometrie de l'aiguille encore redessinee."
+      }
+    ],
+    "sujets_difficiles": [
+      "14:201336230#black set 1-Lume | 3 nouvelles generations ecartees dans cette reprise apres 4 generations deja ecartees dans le resultat 20260811-1227 ; angles et degagement des glyphes non obtenus simultanement",
+      "14:100016652#black set 2-Lume | 3 nouvelles generations ecartees dans cette reprise apres 2 generations deja ecartees dans le resultat 20260811-1227 ; derive systematique des angles et invention d'un appendice",
+      "14:29#white set-No lume | 3 nouvelles generations ecartees dans cette reprise apres 2 generations deja ecartees dans le resultat 20260811-1227 ; angles, degagement et geometrie source non obtenus simultanement"
+    ]
+  },
+  "executed_at": "2026-08-11T17:50:08Z",
+  "executor": "codex-2026-08-11"
+}

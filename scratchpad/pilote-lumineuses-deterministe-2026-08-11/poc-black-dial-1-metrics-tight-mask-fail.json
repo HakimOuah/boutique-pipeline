@@ -1,0 +1,89 @@
+{
+  "method": "deterministic segmentation + PCA axis measurement + rigid rotation + uniform compositing",
+  "generation_model": null,
+  "contractual_final_modified": false,
+  "hour_mask_projection_max_requested": 285.0,
+  "inputs": {
+    "exact_isolated_handset_b": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/Sf71e5e2cee0d4162a367ac9a6e5798cb3.webp",
+    "exact_isolated_handset_b_sha256": "0e1e7d4895b8bfa92568a0a1ecdb358c47fc36808d8655f5e0a48e0a606cb3dc",
+    "qa_passed_clean_dial_witness": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-1.jpg",
+    "qa_passed_clean_dial_witness_sha256": "dbefd60eb5e04c719c4efae2902e4cc9c858b63f27527ba5ac1edf503d200c9a"
+  },
+  "source_pivot": [
+    445.0,
+    372.0
+  ],
+  "dial_geometry": {
+    "bbox": [
+      188,
+      174,
+      1872,
+      1867
+    ],
+    "center": [
+      1029.5,
+      1020.0
+    ],
+    "radius": 844.25
+  },
+  "uniform_scale": 1.13019582,
+  "hands": {
+    "hour": {
+      "measured_source_angle_degrees": 309.32245,
+      "target_angle_degrees": 315.0,
+      "rigid_clockwise_rotation_degrees": 5.67755,
+      "mask_bbox": [
+        200,
+        166,
+        425,
+        375
+      ],
+      "opaque_pixel_count": 15009,
+      "source_projection_min": 42.004,
+      "source_projection_max": 284.969,
+      "pca_input_pixel_count": 13181
+    },
+    "minute": {
+      "measured_source_angle_degrees": 58.86359,
+      "target_angle_degrees": 105.0,
+      "rigid_clockwise_rotation_degrees": 46.13641,
+      "mask_bbox": [
+        463,
+        87,
+        910,
+        368
+      ],
+      "opaque_pixel_count": 24134,
+      "source_projection_min": 42.011,
+      "source_projection_max": 537.836,
+      "pca_input_pixel_count": 22937
+    },
+    "second": {
+      "measured_source_angle_degrees": 183.40317,
+      "target_angle_degrees": 195.0,
+      "rigid_clockwise_rotation_degrees": 11.59683,
+      "mask_bbox": [
+        396,
+        183,
+        473,
+        961
+      ],
+      "opaque_pixel_count": 12476,
+      "source_projection_min": -188.203,
+      "source_projection_max": 588.636,
+      "pca_input_pixel_count": 12492
+    }
+  },
+  "outputs": {
+    "poc": "scratchpad/pilote-lumineuses-deterministe-2026-08-11/poc-black-dial-1-deterministic-tight-mask-fail.png",
+    "poc_sha256": "dd1c39e66bfabf859f48df906e17316abc2206ea7b6b714deae416964f2dc001",
+    "qa_overlay": "scratchpad/pilote-lumineuses-deterministe-2026-08-11/poc-black-dial-1-qa-overlay-tight-mask-fail.png",
+    "qa_overlay_sha256": "b18d4af74be400b04ed7c2b56adfa3427517a3a0e6ae64c63b3db1a32d1d94c6",
+    "masks": {
+      "handset-b-center-cap-alpha.png": "2904b0f7000657a3a898ed386c966f27b42993a61f52fee67dfce6c7688b33f5",
+      "handset-b-hour-alpha.png": "2b212d6b63ae09ab81db92c2c74a97b76c062b13395d152994fe774495c7b342",
+      "handset-b-minute-alpha.png": "e60582e1089717237a84482b01c2220c64190606faf85caeec91b65ba3206006",
+      "handset-b-second-alpha.png": "3c2dbddad249579d87aaed89996eb7628f29ec9948a6b58f7171958ff2602e4c"
+    }
+  }
+}

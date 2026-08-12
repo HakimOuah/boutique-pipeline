@@ -1,0 +1,399 @@
+{
+  "schema": "maison-noirmont.shopify-visual-replacement-report.v1",
+  "generated_at": "2026-08-11T18:11:18+02:00",
+  "scope": "Remplacement de 24 medias fournisseur par 24 visuels Maison Noirmont, avec association exacte a 24 variantes sur deux produits DRAFT",
+  "summary": {
+    "products": 2,
+    "visuals_passed_independent_qa": 24,
+    "visuals_rejected_final": 0,
+    "variant_associations_verified": 24,
+    "old_supplier_media_removed": 24,
+    "blockers": [],
+    "reprise_order_created": false
+  },
+  "products": [
+    {
+      "handle": "cadran-sterile-sunburst-28-5",
+      "product_gid": "gid://shopify/Product/11013078778194",
+      "order": {
+        "result_path": "ordres/pour-codex/resultats/20260811-1227-generate_images-remplacement92-sterile-sunburst-12.json",
+        "archived_order_path": "ordres/pour-codex/resultats/20260811-1227-generate_images-remplacement92-sterile-sunburst-12.ordre.json",
+        "manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/manifeste-remplacement92-sterile-sunburst-12.json",
+        "status": "done",
+        "delivered_visuals": 12,
+        "final_rejections": 0
+      },
+      "qa": {
+        "independent_source_to_final": true,
+        "result": "PASS_12_OF_12",
+        "hashes_stable": true,
+        "checks": [
+          "source exacte par SKU",
+          "famille de couleur et finition soleillee conservees",
+          "trou central unique conserve",
+          "aucune ouverture de date ni index invente",
+          "aucun texte, logo, filigrane ou marque fournisseur",
+          "orientation, echelle, cadrage et lumiere homogenes",
+          "JPEG 2048 x 2048, sRGB"
+        ],
+        "difficult_cases": [],
+        "failures": []
+      },
+      "shopify_before": {
+        "status": "DRAFT",
+        "featured_media_gid": "gid://shopify/MediaImage/59904314933586",
+        "media_count": 15,
+        "variant_count": 12,
+        "media_page_has_next": false,
+        "variant_page_has_next": false
+      },
+      "replacements": [
+        {
+          "variant": "Black",
+          "sku": "14:193#Black;200007763:201336100",
+          "variant_gid": "gid://shopify/ProductVariant/54213309792594",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-black.jpg",
+          "sha256": "9e57fda37fb2ef3f86bdfbdf53d45641083a80e0248b013f333a4120510389cd",
+          "new_media_gid": "gid://shopify/MediaImage/59927354638674",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894120874322"
+        },
+        {
+          "variant": "Blue",
+          "sku": "14:173#Blue;200007763:201336100",
+          "variant_gid": "gid://shopify/ProductVariant/54213309727058",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-blue.jpg",
+          "sha256": "41457ffd143d45e27ab6c25a9d8b6ec15b5140bde1a7036ae8a1e3a4ad095279",
+          "new_media_gid": "gid://shopify/MediaImage/59927354671442",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894120808786"
+        },
+        {
+          "variant": "Brown",
+          "sku": "14:201447303#Brown;200007763:201336100",
+          "variant_gid": "gid://shopify/ProductVariant/54213309825362",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-brown.jpg",
+          "sha256": "413e0a6a55f57cddc313a8feeff27f88462cf311844186ecf9db54d19d26dfce",
+          "new_media_gid": "gid://shopify/MediaImage/59927354704210",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894120907090"
+        },
+        {
+          "variant": "Gold",
+          "sku": "14:29#Gold;200007763:201336100",
+          "variant_gid": "gid://shopify/ProductVariant/54213309923666",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-gold.jpg",
+          "sha256": "9baf88dacf8b9ffcd39cf5ecdc9662f2b45b2ba23dc837ffeef6a191ba7654db",
+          "new_media_gid": "gid://shopify/MediaImage/59927354736978",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894120710482"
+        },
+        {
+          "variant": "Green",
+          "sku": "14:175#Green;200007763:201336100",
+          "variant_gid": "gid://shopify/ProductVariant/54213309694290",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-green.jpg",
+          "sha256": "5a9c9ff95012e6be3ae6415bea66089e91152896e864a91f5bab3a5a054b7bf4",
+          "new_media_gid": "gid://shopify/MediaImage/59927354769746",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894120677714"
+        },
+        {
+          "variant": "Grey",
+          "sku": "14:350686#Grey;200007763:201336100",
+          "variant_gid": "gid://shopify/ProductVariant/54213309563218",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-grey.jpg",
+          "sha256": "746601f74b1fdb7b4fb4952847c048507def90bd4ee7a5c193b1ffc9b8cb57b1",
+          "new_media_gid": "gid://shopify/MediaImage/59927354802514",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894120612178"
+        },
+        {
+          "variant": "Orange",
+          "sku": "14:865#Orange;200007763:201336100",
+          "variant_gid": "gid://shopify/ProductVariant/54213309759826",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-orange.jpg",
+          "sha256": "9a6ae2a5a93c1812981dc37b21f36719a50829ee39057aa42d502c3b09678870",
+          "new_media_gid": "gid://shopify/MediaImage/59927354835282",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894120841554"
+        },
+        {
+          "variant": "Purple",
+          "sku": "14:100013777#Purple;200007763:201336100",
+          "variant_gid": "gid://shopify/ProductVariant/54213309595986",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-purple.jpg",
+          "sha256": "fb3da80a0bffd6ae4518a30b97af822658847e3c938250b02ad3f8eb327d74ab",
+          "new_media_gid": "gid://shopify/MediaImage/59927354868050",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894120743250"
+        },
+        {
+          "variant": "Red",
+          "sku": "14:10#Red;200007763:201336100",
+          "variant_gid": "gid://shopify/ProductVariant/54213309628754",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-red.jpg",
+          "sha256": "426f1c493c6389ed6240d20c19f0f9a63ae3fc4ab2206315fad08263ade192ae",
+          "new_media_gid": "gid://shopify/MediaImage/59927354900818",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894120776018"
+        },
+        {
+          "variant": "Silver",
+          "sku": "14:350853#Silver;200007763:201336100",
+          "variant_gid": "gid://shopify/ProductVariant/54213309661522",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-silver.jpg",
+          "sha256": "3719c0108656bb7f81aaceaa868940941948f5568fd13b0c7ae6d5ad68e533f4",
+          "new_media_gid": "gid://shopify/MediaImage/59927354933586",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894120644946"
+        },
+        {
+          "variant": "Sky Blue",
+          "sku": "14:4#Sky Blue;200007763:201336100",
+          "variant_gid": "gid://shopify/ProductVariant/54213309858130",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-sky-blue.jpg",
+          "sha256": "0c24d0381ded2af1c33e963fa74f6f47452339f5ecf61bd1c7e35f164aae0166",
+          "new_media_gid": "gid://shopify/MediaImage/59927354966354",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894120939858"
+        },
+        {
+          "variant": "Yellow",
+          "sku": "14:366#Yellow;200007763:201336100",
+          "variant_gid": "gid://shopify/ProductVariant/54213309890898",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-yellow.jpg",
+          "sha256": "8219a24e7a0b4eed7bc8f42c807648e7c5c6070a79dc64d880ce456a64ea090e",
+          "new_media_gid": "gid://shopify/MediaImage/59927354999122",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894120972626"
+        }
+      ],
+      "shopify_after": {
+        "status": "DRAFT",
+        "featured_media_gid": "gid://shopify/MediaImage/59904314933586",
+        "featured_media_unchanged": true,
+        "media_count": 15,
+        "new_media_ready": 12,
+        "old_media_present": 0,
+        "variant_count": 12,
+        "variant_associations_verified": 12,
+        "variant_associations_all_exact": true,
+        "prices_unchanged": true,
+        "compare_at_prices_unchanged": true,
+        "prices_by_sku": {
+          "14:350686#Grey;200007763:201336100": "3.40",
+          "14:100013777#Purple;200007763:201336100": "3.41",
+          "14:10#Red;200007763:201336100": "3.41",
+          "14:350853#Silver;200007763:201336100": "3.54",
+          "14:175#Green;200007763:201336100": "3.40",
+          "14:173#Blue;200007763:201336100": "3.62",
+          "14:865#Orange;200007763:201336100": "3.30",
+          "14:193#Black;200007763:201336100": "3.41",
+          "14:201447303#Brown;200007763:201336100": "3.33",
+          "14:4#Sky Blue;200007763:201336100": "3.44",
+          "14:366#Yellow;200007763:201336100": "3.29",
+          "14:29#Gold;200007763:201336100": "3.43"
+        },
+        "media_page_has_next": false,
+        "variant_page_has_next": false,
+        "variant_media_pages_have_next": false,
+        "preserved_generic_media_ids": [
+          "gid://shopify/MediaImage/59904314933586",
+          "gid://shopify/MediaImage/59904314966354",
+          "gid://shopify/MediaImage/59904314999122"
+        ]
+      }
+    },
+    {
+      "handle": "cadran-vierge-sterile-28-5",
+      "product_gid": "gid://shopify/Product/11013077598546",
+      "order": {
+        "result_path": "ordres/pour-codex/resultats/20260811-1227-generate_images-remplacement92-vierge-sterile-12.json",
+        "archived_order_path": "ordres/pour-codex/resultats/20260811-1227-generate_images-remplacement92-vierge-sterile-12.ordre.json",
+        "manifest_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/manifeste-remplacement92-vierge-sterile-12.json",
+        "status": "done",
+        "delivered_visuals": 12,
+        "final_rejections": 0,
+        "intermediate_rejections": 24
+      },
+      "qa": {
+        "independent_source_to_final": true,
+        "result": "PASS_12_OF_12",
+        "hashes_stable_before_and_after_board": true,
+        "checks": [
+          "source exacte par SKU",
+          "couleur et finition radiale conservees",
+          "Blue A1 bleu profond et Blue A2 cyan distincts",
+          "trou central, ouverture de date rectangulaire a 3 h et encoche droite conserves",
+          "aucun index, texte, logo, filigrane ou marque fournisseur",
+          "orientation, echelle, cadrage et lumiere homogenes",
+          "JPEG 2048 x 2048, sRGB"
+        ],
+        "difficult_cases": [
+          "14:350853#Blue A2 - 5 regenerations pour geometrie de l'ouverture et homogeneite du lot",
+          "14:200005100#Gold - 4 regenerations pour geometrie de l'ouverture et homogeneite du lot"
+        ],
+        "zoom_verified": [
+          "Blue A2",
+          "Gold",
+          "Red"
+        ],
+        "failures": []
+      },
+      "shopify_before": {
+        "status": "DRAFT",
+        "featured_media_gid": "gid://shopify/MediaImage/59904315687250",
+        "media_count": 15,
+        "variant_count": 12,
+        "media_page_has_next": false,
+        "variant_page_has_next": false
+      },
+      "replacements": [
+        {
+          "variant": "Black",
+          "sku": "14:201447303#Black",
+          "variant_gid": "gid://shopify/ProductVariant/54213303763282",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-black.jpg",
+          "sha256": "c719549d2515d291a96146978f0c4bc806b343b2063a681339c64f976c06ae5e",
+          "new_media_gid": "gid://shopify/MediaImage/59928062656850",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894114615634"
+        },
+        {
+          "variant": "Blue A1",
+          "sku": "14:350686#Blue A1",
+          "variant_gid": "gid://shopify/ProductVariant/54213303599442",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-blue-a1.jpg",
+          "sha256": "ffdc9fc19992f9ae79aca4ab2e105088018f636dff92b4911ebda714bb181db4",
+          "new_media_gid": "gid://shopify/MediaImage/59928062689618",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894114746706"
+        },
+        {
+          "variant": "Blue A2",
+          "sku": "14:350853#Blue A2",
+          "variant_gid": "gid://shopify/ProductVariant/54213303533906",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-blue-a2.jpg",
+          "sha256": "4f92067f1934b292af584b4532f302ec0009b4682bc27f05bbd372b6ed924b5e",
+          "new_media_gid": "gid://shopify/MediaImage/59928062722386",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894114681170"
+        },
+        {
+          "variant": "Brown",
+          "sku": "14:94#Brown",
+          "variant_gid": "gid://shopify/ProductVariant/54213303435602",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-brown.jpg",
+          "sha256": "3f2f4f091801f6ecd153686ffa29cc4c76274c05a31776fb1e1d31f2d6cf328c",
+          "new_media_gid": "gid://shopify/MediaImage/59928062755154",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894114517330"
+        },
+        {
+          "variant": "Gold",
+          "sku": "14:200005100#Gold",
+          "variant_gid": "gid://shopify/ProductVariant/54213303730514",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-gold.jpg",
+          "sha256": "649fa0c3dcad838a8dfbd786436f2dbabb0aaaad23512400c41c12f1ff7ceeed",
+          "new_media_gid": "gid://shopify/MediaImage/59928062787922",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894114845010"
+        },
+        {
+          "variant": "Green",
+          "sku": "14:10#Green",
+          "variant_gid": "gid://shopify/ProductVariant/54213303501138",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-green.jpg",
+          "sha256": "641a0ada090c679fe431452cb09146970d12d71de4e7036780c3a5f1d165357f",
+          "new_media_gid": "gid://shopify/MediaImage/59928062820690",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894114550098"
+        },
+        {
+          "variant": "Grey",
+          "sku": "14:350850#Grey",
+          "variant_gid": "gid://shopify/ProductVariant/54213303566674",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-grey.jpg",
+          "sha256": "69ef05adb99ace53f3eb2d6940881742c8a773b351d9a4bdc01b8c30382254ce",
+          "new_media_gid": "gid://shopify/MediaImage/59928062853458",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894114713938"
+        },
+        {
+          "variant": "Orange",
+          "sku": "14:100013777#Orange",
+          "variant_gid": "gid://shopify/ProductVariant/54213303664978",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-orange.jpg",
+          "sha256": "b786a87b51d1112aa998fee45f44d2a6fa1a33d07cba72a9ca44495ba758adcd",
+          "new_media_gid": "gid://shopify/MediaImage/59928062886226",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894114582866"
+        },
+        {
+          "variant": "Purple",
+          "sku": "14:100005979#Purple",
+          "variant_gid": "gid://shopify/ProductVariant/54213303632210",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-purple.jpg",
+          "sha256": "f7dda549f6da17ebe3fa2939f76cb65be49aa9ca9c7ec9e82fc48bcca965cdbb",
+          "new_media_gid": "gid://shopify/MediaImage/59928062918994",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894114779474"
+        },
+        {
+          "variant": "Red",
+          "sku": "14:29#Red",
+          "variant_gid": "gid://shopify/ProductVariant/54213303468370",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-red.jpg",
+          "sha256": "421ec8f44059004a38dcefd39faa9e3928cc3c87c8ee517ac1f8f261f7564e93",
+          "new_media_gid": "gid://shopify/MediaImage/59928062951762",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894114648402"
+        },
+        {
+          "variant": "Silver",
+          "sku": "14:201447598#Silver",
+          "variant_gid": "gid://shopify/ProductVariant/54213303796050",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-silver.jpg",
+          "sha256": "772bff6c7a2db97a4a155f295db587e8d1ea3238ce383383264811910bf2e5f6",
+          "new_media_gid": "gid://shopify/MediaImage/59928062984530",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894114877778"
+        },
+        {
+          "variant": "Yellow",
+          "sku": "14:200000080#Yellow",
+          "variant_gid": "gid://shopify/ProductVariant/54213303697746",
+          "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-yellow.jpg",
+          "sha256": "d0f7a25d841378a163292f97369c694473631d5d54ad8b77f6e863c1b5e70178",
+          "new_media_gid": "gid://shopify/MediaImage/59928063017298",
+          "old_media_gid_removed": "gid://shopify/MediaImage/59894114812242"
+        }
+      ],
+      "shopify_after": {
+        "status": "DRAFT",
+        "featured_media_gid": "gid://shopify/MediaImage/59904315687250",
+        "featured_media_unchanged": true,
+        "media_count": 15,
+        "new_media_ready": 12,
+        "old_media_present": 0,
+        "variant_count": 12,
+        "variant_associations_verified": 12,
+        "variant_associations_all_exact": true,
+        "prices_unchanged": true,
+        "compare_at_prices_unchanged": true,
+        "prices_by_sku": {
+          "14:94#Brown": "3.72",
+          "14:29#Red": "3.72",
+          "14:10#Green": "3.72",
+          "14:350853#Blue A2": "3.74",
+          "14:350850#Grey": "3.69",
+          "14:350686#Blue A1": "3.70",
+          "14:100005979#Purple": "3.67",
+          "14:100013777#Orange": "3.70",
+          "14:200000080#Yellow": "3.72",
+          "14:200005100#Gold": "3.56",
+          "14:201447303#Black": "3.56",
+          "14:201447598#Silver": "3.72"
+        },
+        "media_page_has_next": false,
+        "variant_page_has_next": false,
+        "variant_media_pages_have_next": false,
+        "preserved_generic_media_ids": [
+          "gid://shopify/MediaImage/59904315687250",
+          "gid://shopify/MediaImage/59904315720018",
+          "gid://shopify/MediaImage/59904315752786"
+        ]
+      }
+    }
+  ],
+  "mutations_excluded": [
+    "prix",
+    "compare_at_price",
+    "SKU",
+    "stock",
+    "statut produit",
+    "featured media",
+    "publication",
+    "activation"
+  ],
+  "master_progress_json_modified": false,
+  "shopify_readback_performed_live_via_mcp": true
+}

@@ -1,0 +1,207 @@
+{
+  "schema_version": "1.0",
+  "run": {
+    "date": "2026-08-12",
+    "mode": "efficacite-extreme",
+    "scope": "four exclusive ACTIVE products selected after live preflight and blocking product-truth QA",
+    "report_status": "COMPLETE"
+  },
+  "counters": {
+    "products_completed": 4,
+    "products_released_before_mutation": 2,
+    "appearances_completed": 5,
+    "generation_attempts": 4,
+    "generation_accepted": 2,
+    "generation_rejected": 2,
+    "generation_retries": 0,
+    "uploads_ready": 3,
+    "existing_false_positive_maison_media_forensically_confirmed": 5,
+    "variants_exactly_associated": 20,
+    "featured_switched": 2,
+    "historical_supplier_product_references_removed": 22,
+    "supplier_media_remaining_by_truth": 0,
+    "final_graphql_user_errors": 0
+  },
+  "qa": {
+    "accepted_board": "boutique-seiko-mod/efficacite-extreme-2026-08-12/lot7-active-accepted-board.jpg",
+    "blocking_checks": ["exact product", "dial and metal colour", "bracelet and bezel form", "date aperture position", "zero brand marking"],
+    "false_positive_proof": {
+      "method": "FFmpeg SSIM between Shopify CDN media and local Maison production files",
+      "ssim_range": [0.988997, 0.992356],
+      "card_media_confirmed": 1,
+      "skeleton_live_media_confirmed": 4
+    },
+    "rejected_without_retry": [
+      {
+        "handle": "trente-six-classique-jubile",
+        "reason": "generated black-dial view moved the date aperture away from 3 o'clock",
+        "generated_file": "/Users/Hakim/.codex/generated_images/019ff307-d93b-73a0-8502-5160a2831cdb/exec-22fa5c3d-b363-4d0e-8dc4-8b156e516a9f.png",
+        "shopify_mutation": false
+      },
+      {
+        "handle": "quarante-et-un-sport-acier",
+        "reason": "generated white-dial view moved the date aperture and displayed an impossible date 42",
+        "generated_file": "/Users/Hakim/.codex/generated_images/019ff307-d93b-73a0-8502-5160a2831cdb/exec-6eb4adf0-5e74-46cd-b6b6-9b48521dd1c1.png",
+        "shopify_mutation": false
+      }
+    ],
+    "invalid_prior_passes_detected": [
+      "trente-neuf-classique-cannelee local situation changed orange/copper dial to champagne",
+      "trente-neuf-duo-classique-bicolore local situation changed rose-gold elements to yellow gold",
+      "trente-six-classique-jubile local situation changed black dial to silver",
+      "quarante-et-un-sport-acier local situation changed white dial to black"
+    ]
+  },
+  "products": [
+    {
+      "product_gid": "gid://shopify/Product/10977444430162",
+      "handle": "trente-neuf-classique-cannelee",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "appearance": "orange/copper dial, steel fluted bezel, steel Jubilee bracelet",
+      "source_evidence": {
+        "shopify_exact_variant_media": "gid://shopify/MediaImage/59680342770002",
+        "source_filename": "c-430162-orange.jpg",
+        "ali_sku": "14:193#orange no logo;5:57085267#8215-39mm(solidback)"
+      },
+      "generation": {
+        "attempts": 1,
+        "accepted": true,
+        "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot7/generated/trente-neuf-classique-cannelee-orange.jpg",
+        "format": "JPEG 2048x2048 sRGB",
+        "bytes": 489646
+      },
+      "featured_before": "gid://shopify/MediaImage/59679286952274",
+      "featured_after": "gid://shopify/MediaImage/59935462293842",
+      "final_media": ["gid://shopify/MediaImage/59935462293842"],
+      "historical_references_removed": 12,
+      "variant_count": 8,
+      "associated_media_gid_all_variants": "gid://shopify/MediaImage/59935462293842",
+      "preserved": {
+        "skus": ["NOIR-T39-017", "NOIR-T39-018", "NOIR-T39-019", "NOIR-T39-020", "NOIR-T39-021", "NOIR-T39-022", "NOIR-T39-023", "NOIR-T39-024"],
+        "prices_eur": ["329.00", "358.00", "329.00", "358.00", "368.00", "397.00", "368.00", "397.00"],
+        "inventory": [199, 199, 199, 199, 199, 199, 199, 199],
+        "options_unchanged": true
+      }
+    },
+    {
+      "product_gid": "gid://shopify/Product/10977448722770",
+      "handle": "trente-neuf-duo-classique-bicolore",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "appearance": "blush dial, rose-gold fluted bezel and centre links, steel outer links",
+      "source_evidence": {
+        "shopify_exact_variant_media": "gid://shopify/MediaImage/59680343490898",
+        "source_filename": "c-722770-or-rose.jpg",
+        "ali_sku": "14:201447303#Rose 36mm solid back;5:57000035#Miyota8215"
+      },
+      "generation": {
+        "attempts": 1,
+        "accepted": true,
+        "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot7/generated/trente-neuf-duo-classique-bicolore-or-rose.jpg",
+        "format": "JPEG 2048x2048 sRGB",
+        "bytes": 596405
+      },
+      "featured_before": "gid://shopify/MediaImage/59679287083346",
+      "featured_after": "gid://shopify/MediaImage/59935462621522",
+      "final_media": ["gid://shopify/MediaImage/59935462621522"],
+      "historical_references_removed": 10,
+      "variant_count": 6,
+      "associated_media_gid_all_variants": "gid://shopify/MediaImage/59935462621522",
+      "preserved": {
+        "skus": ["NOIR-T39-025", "NOIR-T39-026", "NOIR-T39-027", "NOIR-T39-028", "NOIR-T39-029", "NOIR-T39-030"],
+        "prices_eur": ["319.00", "319.00", "358.00", "319.00", "319.00", "358.00"],
+        "inventory": [50, 50, 50, 50, 49, 50],
+        "options_unchanged": true
+      }
+    },
+    {
+      "product_gid": "gid://shopify/Product/10980393025874",
+      "handle": "carte-cadeau-maison-noirmont",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "appearance": "Maison Noirmont green Jura and brass gift card on pale stone",
+      "classification": "false positive supplier; this is a Maison-owned locally composed asset",
+      "local_proof": {
+        "local_file": "scratchpad/noirmont-carte-cadeau/maison-noirmont-carte-cadeau-2048.jpg",
+        "live_media_gid": "gid://shopify/MediaImage/59691795513682",
+        "ssim": 0.988997
+      },
+      "featured_before": "gid://shopify/MediaImage/59691795513682",
+      "featured_after": "gid://shopify/MediaImage/59691795513682",
+      "final_media": ["gid://shopify/MediaImage/59691795513682"],
+      "variant_count": 4,
+      "associated_media_gid_all_variants": "gid://shopify/MediaImage/59691795513682",
+      "preserved": {
+        "skus": [null, null, null, null],
+        "prices_eur": ["50.00", "100.00", "150.00", "300.00"],
+        "inventory": [0, 0, 0, 0],
+        "options_unchanged": true
+      }
+    },
+    {
+      "product_gid": "gid://shopify/Product/10988849135954",
+      "handle": "montre-squelette-automatique-carree",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "appearances": ["Squelette blanc", "Squelette noir"],
+      "source_evidence": {
+        "aliexpress_item_id": "1005009825936780",
+        "black_ali_sku": "14:200000080#Black",
+        "mapping": "boutique-seiko-mod/MAPPING-P3-33-VARIANTES-AGENT-2026-08-10.md"
+      },
+      "classification": "four live face/gallery media were false positives supplier; all hash-near-identical to local Maison production",
+      "ssim_live_vs_local": {
+        "face": 0.990878,
+        "situation": 0.990561,
+        "macro": 0.989837,
+        "poignet": 0.992356
+      },
+      "featured_before": "gid://shopify/MediaImage/59740543058258",
+      "featured_after": "gid://shopify/MediaImage/59740543058258",
+      "new_black_media": {
+        "local_file": "boutique-seiko-mod/visuels-codex-2026-08/montre-squelette-automatique-carree/montre-squelette-automatique-carree-v-black.jpg",
+        "media_gid": "gid://shopify/MediaImage/59935462981970",
+        "format": "JPEG 2048x2048 sRGB",
+        "bytes": 644056
+      },
+      "final_media": ["gid://shopify/MediaImage/59740543058258", "gid://shopify/MediaImage/59743030575442", "gid://shopify/MediaImage/59743030608210", "gid://shopify/MediaImage/59743030640978", "gid://shopify/MediaImage/59893418590546", "gid://shopify/MediaImage/59935462981970"],
+      "variant_count": 2,
+      "variant_media": {
+        "NOIR-SQL-001": "gid://shopify/MediaImage/59740543058258",
+        "NOIR-SQL-002": "gid://shopify/MediaImage/59935462981970"
+      },
+      "preserved": {
+        "skus": ["NOIR-SQL-001", "NOIR-SQL-002"],
+        "prices_eur": ["399.00", "399.00"],
+        "inventory": [996, 997],
+        "options_unchanged": true
+      }
+    }
+  ],
+  "shopify_workflow": {
+    "preflight_live": true,
+    "uploads_ready_before_association": true,
+    "variant_associations_exact": true,
+    "new_featured_proven_before_historical_media_removal": true,
+    "removal_method": "fileUpdate referencesToRemove; no global file deletion",
+    "false_positive_maison_media_preserved": true,
+    "final_readback_complete": true,
+    "pagination_complete": true
+  },
+  "rollback": {
+    "trente_neuf_media_restore": "fileUpdate referencesToAdd with each removed media and its product GID",
+    "featured_restore": "restore the former featured reference then reorder to position 0",
+    "variant_media_restore": "detach current Maison media then append the former exact variant media",
+    "global_file_deleted": false
+  },
+  "final_assertions": {
+    "all_four_products_active": true,
+    "all_20_variants_associated_exactly_once": true,
+    "all_media_ready": true,
+    "all_supplier_media_absent_or_proven_false_positive_maison": true,
+    "prices_skus_options_inventory_unchanged": true,
+    "two_rejected_candidates_never_mutated": true,
+    "no_global_file_deletion": true
+  }
+}

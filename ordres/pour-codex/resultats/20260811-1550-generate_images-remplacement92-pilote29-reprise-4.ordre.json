@@ -1,0 +1,83 @@
+{
+  "id": "codex-20260811-1550-remplacement92-pilote29-reprise-4",
+  "type": "generate_images",
+  "created_at": "2026-08-11T15:50:00+02:00",
+  "requested_by": "codex",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "cadran-pilote-29-mod-nh35",
+        "sku": "14:201336230#black set 1-Lume",
+        "slot": "variante",
+        "fichier": "cadran-pilote-29-mod-nh35-v-black-set-1-lume.jpg",
+        "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/S3a17eca59b3748f6b27e5ee11ec3d12dZ.webp"
+      },
+      {
+        "handle": "cadran-pilote-29-mod-nh35",
+        "sku": "14:100016652#black set 2-Lume",
+        "slot": "variante",
+        "fichier": "cadran-pilote-29-mod-nh35-v-black-set-2-lume.jpg",
+        "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/Sbf89477371834f4196bbbe21fb43a52as.webp"
+      },
+      {
+        "handle": "cadran-pilote-29-mod-nh35",
+        "sku": "14:200200134#silver hands",
+        "slot": "variante",
+        "fichier": "cadran-pilote-29-mod-nh35-v-silver-hands.jpg",
+        "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/Sbd91415bf0424774a85b570381b9357db.webp"
+      },
+      {
+        "handle": "cadran-pilote-29-mod-nh35",
+        "sku": "14:29#white set-No lume",
+        "slot": "variante",
+        "fichier": "cadran-pilote-29-mod-nh35-v-white-set-no-lume.jpg",
+        "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/Sf5fa27b7a9be42cdbec50ad9e1009f1eF.webp"
+      }
+    ],
+    "sources": [
+      "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/S3a17eca59b3748f6b27e5ee11ec3d12dZ.webp",
+      "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/Sbf89477371834f4196bbbe21fb43a52as.webp",
+      "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/Sbd91415bf0424774a85b570381b9357db.webp",
+      "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/Sf5fa27b7a9be42cdbec50ad9e1009f1eF.webp",
+      "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-29-mod-nh35/cadran-pilote-29-mod-nh35-v-silver-hands.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-29-mod-nh35/cadran-pilote-29-mod-nh35-v-black-dial-1-lume.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-29-mod-nh35/cadran-pilote-29-mod-nh35-v-black-dial-2-lume.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-29-mod-nh35/cadran-pilote-29-mod-nh35-v-white-dial-no-lume.jpg"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+      "surcharges": [
+        "REPRISE CIBLÉE de trois sets cadran+aiguilles et du jeu d'aiguilles argenté. Nouvelle composition complète carrée, fond minéral clair Maison Noirmont, lumière douce haute-gauche et ombre diffuse.",
+        "Les cadrans seuls déjà PASS servent uniquement de gabarits de cadrage, échelle, fond et lumière. La vérité produit de chaque entrée vient exclusivement de sa source SKU exacte."
+      ]
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "POSE BLOQUANTE DES TROIS SKU `set` : composition éditoriale avec les trois aiguilles tournées indépendamment autour de leur axe commun. Axe de l'aiguille des heures exactement au milieu du couloir 10/22–11/23, environ 315 degrés depuis 12 h dans le sens horaire ; minute exactement au milieu du couloir 3/15–4/16, environ 105 degrés ; trotteuse exactement au milieu du couloir 6/18–7/19, environ 195 degrés. Ne pas revenir à 10 h 10 ou 10 h 17. La cohérence d'une heure réelle n'est pas requise pour ce set de pièces non monté ; seule la rotation rigide de chaque aiguille est autorisée.",
+        "Chaque aiguille doit rester entièrement dans son couloir noir, avec une marge claire de tous côtés. Aucune pointe, corps, lume, queue ou contrepoids ne touche, traverse ni masque chiffre 1-24, valeur de minuterie, rectangle, triangle, repère, date ou bord du cadran.",
+        "Conserver exactement pour chaque SKU la forme, longueur, largeur, teinte, matière lumineuse, pointe, queue et contrepoids des trois aiguilles de sa source. Aucun redessin, raccourcissement, amincissement, transfert ou invention.",
+        "Préserver intégralement le cadran source exact : chiffres 1-12 et 13-24, valeurs 5-55, piste extérieure, triangles, date à 3 h, teinte et perçage. Aucun mot, lettre, logo, filigrane ou caractère parasite.",
+        "Pour `silver hands`, conserver strictement la disposition source, sans cadran ni rotation. Le rendu actuel est rejeté uniquement parce que l'extrémité rouge de la trotteuse est rognée par le bord inférieur. Le nouveau jeu entier doit être visible avec au moins 10 % de marge minérale sur les quatre côtés.",
+        "Avant toute écriture de `silver hands`, vérifier le SHA-256 actuel `25d60743c7d3f8bd9b77310805520853a3cd8455a71f199452834c4d1511975d`. S'il diffère, rejeter sans écraser. S'il correspond, copier octet pour octet ce rejet sous `rejected/silver-hands-rejet-qa-externe-trotteuse-rognee-20260811-1550.jpg`, vérifier le hash identique, puis seulement remplacer.",
+        "Les témoins cadran seuls Black 1, Black 2 et White sont strictement intouchables. Ils servent seulement au gabarit et ne peuvent être modifiés, écrasés ou déplacés.",
+        "Régénération complète image-to-image depuis la source exacte ; aucun inpainting, gommage, clonage, recadrage ni réencodage d'un rejet. Sortie 2048 × 2048, JPEG sRGB, viser 400-900 Ko et rester sous 1,2 Mo, noms exacts du manifeste."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Contrôle source exacte↔rendu en résolution originale, SKU par SKU : cadran complet, tous chiffres/repères/valeurs/date, et géométrie complète des trois aiguilles.",
+        "Contrôle bloquant des sets : axes environ 315/105/195 degrés, chaque aiguille entièrement dans son couloir avec marge claire ; aucun glyphe ni repère touché.",
+        "Contrôle bloquant du jeu argenté : disposition source exacte et quatre aiguilles intégralement visibles, notamment toute la queue rouge de trotteuse, avec au moins 10 % de marge.",
+        "Créer `qa/planche-remplacement92-pilote29-reprise-4.jpg`, au moins 740 px par vignette, comparant chaque source exacte et son nouveau rendu, plus les trois cadrans témoins.",
+        "Contrôle fichier : noms exacts, 2048 × 2048, 1:1, JPEG sRGB, poids conforme. Tout candidat ambigu ou incomplet reste dans `rejected/` et n'entre pas au manifeste réalisé."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-29-mod-nh35",
+      "manifeste": "manifeste-remplacement92-pilote29-reprise-4.json"
+    }
+  },
+  "notes": "Reprise locale fail-closed de quatre variantes refusées par QA automatique ou externe. Les deux variantes saumon physiquement imprimées AUTOMATIC restent hors ordre et bloquées. Aucune opération Shopify, DSers, prix, statut, publication ou activation ne relève de cet ordre."
+}

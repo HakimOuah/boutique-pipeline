@@ -1,0 +1,205 @@
+{
+  "schema": "maison-noirmont.source-audit.v1",
+  "audit_id": "pilote29-sets-source-recovery-2026-08-11",
+  "created_at_local": "2026-08-11T20:05:00+02:00",
+  "scope": {
+    "shopify_handle_reference_only": "cadran-pilote-29-mod-nh35",
+    "aliexpress_product_id": "1005009148826972",
+    "target_variants": [
+      "black set 1-Lume",
+      "black set 2-Lume",
+      "white set-No lume"
+    ],
+    "question": "Existe-t-il une autre image officielle du meme SKU, ou une source alternative SKU-identique, plus propre et sans marque/verbatim, prouvant exactement le cadran et les aiguilles ?"
+  },
+  "constraints_observed": {
+    "aliexpress_access": "AliExpress Open Platform / AE-Dropshipper via passerelle VPS a IP autorisee uniquement",
+    "browser_used": false,
+    "shopify_mutation": false,
+    "dsers_mutation": false,
+    "order_created": false,
+    "wrapper_or_lock_touched": false,
+    "master_progress_json_touched": false,
+    "generation_run": false
+  },
+  "api_evidence": {
+    "health_checked_at_utc": "2026-08-11T17:58:25+00:00",
+    "access_token_valid_until_utc": "2026-09-01T18:29:47+00:00",
+    "target_variants_checked_at_utc": "2026-08-11T18:02:31+00:00",
+    "target_product_status": "onSelling",
+    "target_product_variant_count": 11,
+    "exact_freight_checks": [
+      {
+        "variant": "black set 1-Lume",
+        "checked_at_utc": "2026-08-11T17:59:49+00:00",
+        "france_freight_options_returned": 1
+      },
+      {
+        "variant": "black set 2-Lume",
+        "checked_at_utc": "2026-08-11T17:59:52+00:00",
+        "france_freight_options_returned": 1
+      },
+      {
+        "variant": "white set-No lume",
+        "checked_at_utc": "2026-08-11T17:59:54+00:00",
+        "france_freight_options_returned": 1
+      }
+    ],
+    "same_sku_image_limit": "La reponse variants de l'API officielle expose une seule image de propriete par SKU exact. Aucune seconde vue officielle propre du meme SKU n'a ete retournee.",
+    "searches": {
+      "queries": [
+        "29mm NH35 pilot watch dial 24 13 date window hands",
+        "29mm flieger dial date window NH35 hands",
+        "29mm pilot dial 1-24 date hands NH35",
+        "cadran pilote 29mm date aiguilles NH35"
+      ],
+      "rows_reviewed": 80,
+      "strict_sku_identical_candidates": 0,
+      "limitation": "La recherche textuelle officielle est bruitee et ne permet pas de prouver une absence globale. Une recherche par la chaine numerique 1005009148826972 a aussi retourne des produits electroniques sans rapport, donc elle n'est pas un lookup d'identifiant produit."
+    }
+  },
+  "exact_targets": [
+    {
+      "variant": "black set 1-Lume",
+      "sku_attr": "14:201336230#black set 1-Lume",
+      "sku_id": "12000048093748190",
+      "stock_observed": 522,
+      "api_image_url": "https://ae01.alicdn.com/kf/S3a17eca59b3748f6b27e5ee11ec3d12dZ.jpg",
+      "local_source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/S3a17eca59b3748f6b27e5ee11ec3d12dZ.webp",
+      "sha256": "78491d8d52a4248fb94f04265178a4a1a98027fb81ac93d39ae174bacc28104a",
+      "pixels": "1000x1000",
+      "visual_truth": "Cadran noir, chiffres 1-24 blancs, fenetre de date a 3 h; aiguilles heure/minute a cadre bronze-dore et lume blanc; longue trotteuse avec contrepoids circulaire et queue rouge.",
+      "physical_brand_or_forbidden_verbatim": false,
+      "source_quality": "Exacte et propre, mais composition montee imposant de repositionner les aiguilles sans modifier leur geometrie."
+    },
+    {
+      "variant": "black set 2-Lume",
+      "sku_attr": "14:100016652#black set 2-Lume",
+      "sku_id": "12000048093748191",
+      "stock_observed": 538,
+      "api_image_url": "https://ae01.alicdn.com/kf/Sbf89477371834f4196bbbe21fb43a52as.jpg",
+      "local_source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/Sbf89477371834f4196bbbe21fb43a52as.webp",
+      "sha256": "aeb37d936d2f4f55a365d5171a66c8d73f736d67301ebfe91d8197a5b3b05447",
+      "pixels": "1000x1000",
+      "visual_truth": "Cadran noir, chiffres 1-24 creme chaud, fenetre de date a 3 h; aiguilles heure/minute bleues a lume blanc; trotteuse bleue avec contrepoids circulaire.",
+      "physical_brand_or_forbidden_verbatim": false,
+      "source_quality": "Exacte et propre, mais composition montee imposant de repositionner les aiguilles sans modifier leur geometrie."
+    },
+    {
+      "variant": "white set-No lume",
+      "sku_attr": "14:29#white set-No lume",
+      "sku_id": "12000048093748189",
+      "stock_observed": 523,
+      "api_image_url": "https://ae01.alicdn.com/kf/Sf5fa27b7a9be42cdbec50ad9e1009f1eF.jpg",
+      "local_source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/Sf5fa27b7a9be42cdbec50ad9e1009f1eF.webp",
+      "sha256": "a1e8fce98672fff00193d6a9c3f761ff6b9cb2d54d2c9096740f06e467876e91",
+      "pixels": "1000x1000",
+      "visual_truth": "Cadran blanc, chiffres 1-24 noirs, triangles orange, fenetre de date a 3 h; aiguilles heure/minute noires a insert beige; trotteuse noire avec contrepoids circulaire beige et queue rouge.",
+      "physical_brand_or_forbidden_verbatim": false,
+      "source_quality": "Exacte et propre, mais composition montee imposant de repositionner les aiguilles sans modifier leur geometrie."
+    }
+  ],
+  "same_product_board": {
+    "local_source": "boutique-seiko-mod/sources-fournisseur-2026-08/cadran-pilote-29-mod-nh35/face-fournisseur-1005009148826972.jpg",
+    "sha256": "670b506ccf3d38328c7d562f04aca64ba397e5d878cfb90d1b291f04a9b7cf53",
+    "pixels": "1000x1000",
+    "assessment": "Vue officielle du meme produit utile pour la famille de cadrans. Les sets montes ne sont visibles qu'en miniatures en bas de l'image : resolution insuffisante pour prouver proprement la geometrie et la couleur exactes de chaque jeu d'aiguilles. Ce n'est pas une meilleure source SKU."
+  },
+  "alternate_product_audit": {
+    "product_id": "1005010122462262",
+    "title": "Cadran de montre sterile 29MM avec aiguilles, chiffres arabes, NH35 NH36",
+    "status": "onSelling",
+    "checked_at_utc": "2026-08-11T18:02:24+00:00",
+    "assessment": "Famille de cadrans tres proche et sans texte/logo sur les trois candidats montes, mais les aiguilles ne sont pas SKU-identiques aux trois cibles.",
+    "candidates": [
+      {
+        "api_variant": "black dial Hand",
+        "sku_id": "12000051219513113",
+        "local_source": "scratchpad/audit-pilote29-sources-api-2026-08-11/1005010122462262-black-dial-Hand.webp",
+        "sha256": "9a70cb65f121616795c7292d9517d622fbde763840240f3b58634a32f5cadcf2",
+        "pixels": "1000x1000",
+        "closest_target": "black set 1-Lume",
+        "verdict": "REJETE_NON_SKU_IDENTIQUE",
+        "reason": "Aiguilles argent/blanc et trotteuse rouge simple, au lieu des aiguilles bronze-dore et de la trotteuse a contrepoids circulaire de la cible."
+      },
+      {
+        "api_variant": "B dial Hand",
+        "sku_id": "12000051219513114",
+        "local_source": "scratchpad/audit-pilote29-sources-api-2026-08-11/1005010122462262-B-dial-Hand.webp",
+        "sha256": "102dd1af92141031336ddc151e20b951924d186a53099e758f1257c50a215533",
+        "pixels": "1000x1000",
+        "closest_target": "black set 2-Lume",
+        "verdict": "REJETE_NON_SKU_IDENTIQUE",
+        "reason": "Aiguilles argent/beige et trotteuse rouge simple, au lieu des aiguilles bleues et de la trotteuse bleue a contrepoids circulaire de la cible."
+      },
+      {
+        "api_variant": "White dial Hand",
+        "sku_id": "12000051219513116",
+        "local_source": "scratchpad/audit-pilote29-sources-api-2026-08-11/1005010122462262-White-dial-Hand.webp",
+        "sha256": "319d8e670d307b3febfb8c4787325425d88b9a9253768a490e4923bdbd225c17",
+        "pixels": "1000x1000",
+        "closest_target": "white set-No lume",
+        "verdict": "REJETE_NON_SKU_IDENTIQUE",
+        "reason": "Aiguilles argent/beige et trotteuse rouge simple, au lieu des aiguilles noires et de la trotteuse noire a contrepoids circulaire beige et queue rouge de la cible."
+      }
+    ]
+  },
+  "other_official_candidates_excluded": {
+    "product_ids": [
+      "1005006012512581",
+      "1005007635155982"
+    ],
+    "assessment": "Les deux matrices API inspectees presentent d'autres cadrans pilote classiques, pas le cadran 1-24 avec fenetre de date des cibles. Les visuels comportent en plus un filigrane photographique TimeWatchCode. Ils ne peuvent pas servir de preuve SKU-identique.",
+    "downloaded_evidence": [
+      {
+        "path": "scratchpad/audit-pilote29-sources-api-2026-08-11/1005006012512581-dial-hands-A.webp",
+        "sha256": "b839cb107a29fd51b024ee46ef333e41702aa29d9fa2b761949671a3de17295b"
+      },
+      {
+        "path": "scratchpad/audit-pilote29-sources-api-2026-08-11/1005006012512581-dial-hands-B.webp",
+        "sha256": "94eb5926613aa5d24550be00615bc719d2cbbf54f015494f8ab92e28539ebba0"
+      },
+      {
+        "path": "scratchpad/audit-pilote29-sources-api-2026-08-11/1005006012512581-dial-hands-C.webp",
+        "sha256": "ed11361e22b5863fae582455d66aa6d91422fb9b4df1370e6452ed327d673658"
+      },
+      {
+        "path": "scratchpad/audit-pilote29-sources-api-2026-08-11/1005006012512581-dial-hands-D.webp",
+        "sha256": "d236ac45660847fa2ba991df7f6eafdb37ffaa5226c79d05275dd34afc487c2f"
+      }
+    ]
+  },
+  "verdicts": [
+    {
+      "variant": "black set 1-Lume",
+      "verdict": "NON_RECUPERABLE_PAR_CHANGEMENT_DE_SOURCE",
+      "reason": "La source SKU exacte est deja propre et sans texte/logo. Aucune seconde vue du meme SKU ni alternative avec le meme jeu d'aiguilles bronze-dore et la meme trotteuse n'a ete retournee ou confirmee."
+    },
+    {
+      "variant": "black set 2-Lume",
+      "verdict": "NON_RECUPERABLE_PAR_CHANGEMENT_DE_SOURCE",
+      "reason": "La source SKU exacte est deja propre et sans texte/logo. Aucune seconde vue du meme SKU ni alternative avec les memes aiguilles bleues et la meme trotteuse a contrepoids n'a ete retournee ou confirmee."
+    },
+    {
+      "variant": "white set-No lume",
+      "verdict": "NON_RECUPERABLE_PAR_CHANGEMENT_DE_SOURCE",
+      "reason": "La source SKU exacte est deja propre et sans texte/logo. Aucune seconde vue du meme SKU ni alternative avec les memes aiguilles noires, inserts beiges et trotteuse a contrepoids n'a ete retournee ou confirmee."
+    }
+  ],
+  "overall_verdict": {
+    "recoverable_by_new_official_source": false,
+    "classification": "BLOCAGE_TECHNIQUE_DE_COMPOSITION, PAS_BLOCAGE_DE_SOURCE_NI_DE_MARQUE",
+    "explanation": "Les trois sources exactes prouvent deja correctement le produit et ne portent aucun verbatim de marque. Les echecs viennent de la contrainte de repositionnement des aiguilles sans toucher les glyphes, tout en conservant strictement formes, couleurs, inserts et contrepoids. Les alternatives officielles inspectees changent physiquement les aiguilles et ne sont donc pas rattachables aux SKU cibles.",
+    "safe_next_path_outside_scope": "Une recuperation eventuelle demanderait un traitement technique deterministe par calques/masques rigides des pieces exactes, avec QA source-vers-final. Aucun ordre ni traitement n'a ete cree dans cet audit."
+  },
+  "files_created_or_downloaded_by_this_audit": [
+    "scratchpad/audit-pilote29-sources-api-2026-08-11/1005010122462262-black-dial-Hand.webp",
+    "scratchpad/audit-pilote29-sources-api-2026-08-11/1005010122462262-B-dial-Hand.webp",
+    "scratchpad/audit-pilote29-sources-api-2026-08-11/1005010122462262-White-dial-Hand.webp",
+    "scratchpad/audit-pilote29-sources-api-2026-08-11/1005006012512581-dial-hands-A.webp",
+    "scratchpad/audit-pilote29-sources-api-2026-08-11/1005006012512581-dial-hands-B.webp",
+    "scratchpad/audit-pilote29-sources-api-2026-08-11/1005006012512581-dial-hands-C.webp",
+    "scratchpad/audit-pilote29-sources-api-2026-08-11/1005006012512581-dial-hands-D.webp",
+    "boutique-seiko-mod/RAPPORT-AUDIT-SOURCES-PILOTE29-SETS-2026-08-11.json"
+  ]
+}

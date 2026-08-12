@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.0",
+  "executed_at": "2026-08-12",
+  "handle": "montre-sterile-40-nh35-saphir",
+  "product_gid": "gid://shopify/Product/11013081334098",
+  "result": "PASS_COMPLETE",
+  "summary": {
+    "appearance_groups": 6,
+    "generation_attempts": 6,
+    "generation_retries": 0,
+    "appearances_passed": 6,
+    "appearances_failed": 0,
+    "new_maison_media_ready": 6,
+    "variants_associated_exactly": 6,
+    "supplier_media_removed": 12,
+    "supplier_media_remaining": 0,
+    "featured_maison": true,
+    "status_preserved_draft": true,
+    "commercial_fields_preserved": true
+  },
+  "source": {
+    "provider": "AliExpress Open Platform / AE-Dropshipper via whitelisted read-only VPS",
+    "item_id": "1005005673324130",
+    "product_status": "onSelling",
+    "checked_at_utc": "2026-08-12T00:47:39+00:00",
+    "api_evidence": "execution-sterile40/api/1005005673324130.json",
+    "source_image_count": 6
+  },
+  "qa": {
+    "decision": "PASS",
+    "policy": "one imagegen attempt per exact appearance, no retry",
+    "checks": [
+      "black dial completely sterile with no word, logo or invented symbol",
+      "exact bezel colour and bezel family",
+      "40 mm stainless-steel diver-style case",
+      "three-link Oyster-style steel bracelet",
+      "date window and cyclops at 3 o'clock",
+      "Mercedes hour hand, baton minute hand and coherent seconds hand",
+      "coherent luminous plots and no invented component",
+      "no supplier watermark, protective film, sticker or overlay text",
+      "JPEG 2048x2048 sRGB under 1.2 MB"
+    ]
+  },
+  "commercial_snapshot": {
+    "before": {
+      "status": "DRAFT",
+      "variant_count": 6,
+      "inventory_total": 772,
+      "prices": ["119.40", "119.57", "110.77", "119.48", "119.46", "118.62"],
+      "compare_at_prices": ["119.40", "119.57", "110.77", "119.48", "119.46", "118.62"],
+      "skus": [
+        "14:350853#blue-red bezel;5:56964930#steel watch back",
+        "14:10#green-black bezel;5:56964930#steel watch back",
+        "14:350686#black-white bezel;5:56964930#steel watch back",
+        "14:350850#black-red bezel;5:56964930#steel watch back",
+        "14:100005979#black matte bezel;5:56964930#steel watch back",
+        "14:193#black-blue bezel;5:56964930#steel watch back"
+      ],
+      "inventory_quantities": [188, 189, 12, 192, 186, 5]
+    },
+    "after": {
+      "status": "DRAFT",
+      "variant_count": 6,
+      "inventory_total": 772,
+      "prices": ["119.40", "119.57", "110.77", "119.48", "119.46", "118.62"],
+      "compare_at_prices": ["119.40", "119.57", "110.77", "119.48", "119.46", "118.62"],
+      "skus": [
+        "14:350853#blue-red bezel;5:56964930#steel watch back",
+        "14:10#green-black bezel;5:56964930#steel watch back",
+        "14:350686#black-white bezel;5:56964930#steel watch back",
+        "14:350850#black-red bezel;5:56964930#steel watch back",
+        "14:100005979#black matte bezel;5:56964930#steel watch back",
+        "14:193#black-blue bezel;5:56964930#steel watch back"
+      ],
+      "inventory_quantities": [188, 189, 12, 192, 186, 5]
+    }
+  },
+  "featured": {
+    "before": "gid://shopify/MediaImage/59894148497746",
+    "after": "gid://shopify/MediaImage/59935565840722"
+  },
+  "appearances": [
+    {
+      "appearance": "blue-red-bezel",
+      "source_url": "https://ae01.alicdn.com/kf/Se81ac36193094297977296a2e154432a0.png",
+      "source_file": "execution-sterile40/source/blue-red-bezel.png",
+      "generated_file": "execution-sterile40/generated/blue-red-bezel.jpg",
+      "upload_file_gid": "gid://shopify/MediaImage/59935563153746",
+      "product_media_gid": "gid://shopify/MediaImage/59935565840722",
+      "variant_gid": "gid://shopify/ProductVariant/54213325652306",
+      "old_variant_media_gid": "gid://shopify/MediaImage/59894148825426",
+      "technical_options_mutualized": ["Size: steel watch back"],
+      "readback": "READY_AND_EXACT"
+    },
+    {
+      "appearance": "green-black-bezel",
+      "source_url": "https://ae01.alicdn.com/kf/Sc3552c2b6ae04bd0b9842aeb087df615P.png",
+      "source_file": "execution-sterile40/source/green-black-bezel.png",
+      "generated_file": "execution-sterile40/generated/green-black-bezel.jpg",
+      "upload_file_gid": "gid://shopify/MediaImage/59935562826066",
+      "product_media_gid": "gid://shopify/MediaImage/59935565873490",
+      "variant_gid": "gid://shopify/ProductVariant/54213325685074",
+      "old_variant_media_gid": "gid://shopify/MediaImage/59894148858194",
+      "technical_options_mutualized": ["Size: steel watch back"],
+      "readback": "READY_AND_EXACT"
+    },
+    {
+      "appearance": "black-white-bezel",
+      "source_url": "https://ae01.alicdn.com/kf/S5e5ad80140bb48ef841a362e9e132585N.png",
+      "source_file": "execution-sterile40/source/black-white-bezel.png",
+      "generated_file": "execution-sterile40/generated/black-white-bezel.jpg",
+      "upload_file_gid": "gid://shopify/MediaImage/59935564169554",
+      "product_media_gid": "gid://shopify/MediaImage/59935565906258",
+      "variant_gid": "gid://shopify/ProductVariant/54213325717842",
+      "old_variant_media_gid": "gid://shopify/MediaImage/59894148694354",
+      "technical_options_mutualized": ["Size: steel watch back"],
+      "readback": "READY_AND_EXACT"
+    },
+    {
+      "appearance": "black-red-bezel",
+      "source_url": "https://ae01.alicdn.com/kf/Sccf783407c664f5f9a0441617a89f3cd7.png",
+      "source_file": "execution-sterile40/source/black-red-bezel.png",
+      "generated_file": "execution-sterile40/generated/black-red-bezel.jpg",
+      "upload_file_gid": "gid://shopify/MediaImage/59935563546962",
+      "product_media_gid": "gid://shopify/MediaImage/59935565939026",
+      "variant_gid": "gid://shopify/ProductVariant/54213325750610",
+      "old_variant_media_gid": "gid://shopify/MediaImage/59894148727122",
+      "technical_options_mutualized": ["Size: steel watch back"],
+      "readback": "READY_AND_EXACT"
+    },
+    {
+      "appearance": "black-matte-bezel",
+      "source_url": "https://ae01.alicdn.com/kf/S89e3d8f283b241299966d69b11cf6d64z.png",
+      "source_file": "execution-sterile40/source/black-matte-bezel.png",
+      "generated_file": "execution-sterile40/generated/black-matte-bezel.jpg",
+      "upload_file_gid": "gid://shopify/MediaImage/59935564628306",
+      "product_media_gid": "gid://shopify/MediaImage/59935565971794",
+      "variant_gid": "gid://shopify/ProductVariant/54213325783378",
+      "old_variant_media_gid": "gid://shopify/MediaImage/59894148759890",
+      "technical_options_mutualized": ["Size: steel watch back"],
+      "readback": "READY_AND_EXACT"
+    },
+    {
+      "appearance": "black-blue-bezel",
+      "source_url": "https://ae01.alicdn.com/kf/Sd9bce65666da4407ba79f398ee96feade.png",
+      "source_file": "execution-sterile40/source/black-blue-bezel.png",
+      "generated_file": "execution-sterile40/generated/black-blue-bezel.jpg",
+      "upload_file_gid": "gid://shopify/MediaImage/59935565283666",
+      "product_media_gid": "gid://shopify/MediaImage/59935566004562",
+      "variant_gid": "gid://shopify/ProductVariant/54213325816146",
+      "old_variant_media_gid": "gid://shopify/MediaImage/59894148792658",
+      "technical_options_mutualized": ["Size: steel watch back"],
+      "readback": "READY_AND_EXACT"
+    }
+  ],
+  "supplier_media_removed": [
+    "gid://shopify/MediaImage/59894148497746",
+    "gid://shopify/MediaImage/59894148530514",
+    "gid://shopify/MediaImage/59894148563282",
+    "gid://shopify/MediaImage/59894148596050",
+    "gid://shopify/MediaImage/59894148628818",
+    "gid://shopify/MediaImage/59894148661586",
+    "gid://shopify/MediaImage/59894148694354",
+    "gid://shopify/MediaImage/59894148727122",
+    "gid://shopify/MediaImage/59894148759890",
+    "gid://shopify/MediaImage/59894148792658",
+    "gid://shopify/MediaImage/59894148825426",
+    "gid://shopify/MediaImage/59894148858194"
+  ],
+  "final_readback": {
+    "status": "PASS",
+    "media_count": 6,
+    "all_media_ready": true,
+    "supplier_media_remaining": 0,
+    "featured_media_gid": "gid://shopify/MediaImage/59935565840722",
+    "variant_associations_exact": true,
+    "media_has_next_page": false,
+    "variants_has_next_page": false,
+    "variant_media_has_next_page": false,
+    "mutation_user_errors": 0
+  },
+  "scope_note": {
+    "description_unchanged": true,
+    "description_visual_wording_mismatch": "The unchanged product copy says the physical dial carries generic Automatic Water Resistant text, while this explicitly requested visual set is fully text-free."
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "run": {
+    "date": "2026-08-12",
+    "mode": "efficacite-extreme",
+    "scope": "ACTIVE products with supplier featured and usable Maison assets",
+    "report_status": "COMPLETE"
+  },
+  "counters": {
+    "products_reserved": 4,
+    "products_completed": 4,
+    "products_skipped": 0,
+    "appearances": 4,
+    "generations": 0,
+    "uploads": 1,
+    "uploaded_files_ready": 1,
+    "existing_maison_media_forensically_confirmed": 10,
+    "variant_associations_added": 23,
+    "featured_switched": 4,
+    "raw_supplier_product_references_removed": 4,
+    "raw_supplier_media_remaining": 0,
+    "final_graphql_user_errors": 0
+  },
+  "classification_correction": {
+    "method": "Shopify CDN images compared to local PASS generated files using FFmpeg SSIM",
+    "ssim_range": [0.986439, 0.989410],
+    "confirmed_maison_images": 10,
+    "local_manifest": "scratchpad/noirmont-galeries/manifest.json",
+    "visual_board": "boutique-seiko-mod/efficacite-extreme-2026-08-12/lot5-maison-situation-board.jpg"
+  },
+  "products": [
+    {
+      "product_gid": "gid://shopify/Product/10978720186706",
+      "handle": "trente-neuf-bleu-mer-classique-cannelee",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "appearance": "bleu mer, lunette cannelée, bracelet jubilé",
+      "appearance_note": "movement, back and diameter options do not change the front appearance",
+      "featured_before_supplier": "gid://shopify/MediaImage/59681618428242",
+      "featured_after_maison": "gid://shopify/MediaImage/59693992968530",
+      "supplier_reference_removed": "gid://shopify/MediaImage/59681618428242",
+      "maison_media_retained": ["gid://shopify/MediaImage/59693992968530", "gid://shopify/MediaImage/59693993001298", "gid://shopify/MediaImage/59693993034066", "gid://shopify/MediaImage/59893428912466"],
+      "ssim_live_vs_local": {"situation": 0.989002, "macro": 0.986439, "poignet": 0.987157},
+      "variant_count": 8,
+      "variant_gids": ["gid://shopify/ProductVariant/54090416161106", "gid://shopify/ProductVariant/54090416193874", "gid://shopify/ProductVariant/54090416226642", "gid://shopify/ProductVariant/54090416259410", "gid://shopify/ProductVariant/54090416292178", "gid://shopify/ProductVariant/54090416324946", "gid://shopify/ProductVariant/54090416357714", "gid://shopify/ProductVariant/54090416390482"],
+      "associated_media_gid_all_variants": "gid://shopify/MediaImage/59693992968530",
+      "preserved": {
+        "skus": ["NOIR-T39-009", "NOIR-T39-010", "NOIR-T39-011", "NOIR-T39-012", "NOIR-T39-013", "NOIR-T39-014", "NOIR-T39-015", "NOIR-T39-016"],
+        "prices_eur": ["329.00", "358.00", "329.00", "358.00", "368.00", "397.00", "368.00", "397.00"],
+        "inventory": [0, 0, 0, 0, 0, 0, 0, 0],
+        "options_unchanged": true
+      }
+    },
+    {
+      "product_gid": "gid://shopify/Product/10978722251090",
+      "handle": "trente-neuf-duo-dore-classique-bicolore",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "appearance": "champagne gold dial, two-tone fluted bezel and jubilee bracelet",
+      "appearance_note": "movement and diameter options do not change the front appearance",
+      "featured_before_supplier": "gid://shopify/MediaImage/59681642545490",
+      "featured_after_maison": "gid://shopify/MediaImage/59694045364562",
+      "supplier_reference_removed": "gid://shopify/MediaImage/59681642545490",
+      "maison_media_retained": ["gid://shopify/MediaImage/59694045364562", "gid://shopify/MediaImage/59694045397330", "gid://shopify/MediaImage/59694045430098", "gid://shopify/MediaImage/59893442642258"],
+      "ssim_live_vs_local": {"situation": 0.988223, "macro": 0.986804, "poignet": 0.986473},
+      "variant_count": 6,
+      "variant_gids": ["gid://shopify/ProductVariant/54090432020818", "gid://shopify/ProductVariant/54090432053586", "gid://shopify/ProductVariant/54090432086354", "gid://shopify/ProductVariant/54090432119122", "gid://shopify/ProductVariant/54090432151890", "gid://shopify/ProductVariant/54090432184658"],
+      "associated_media_gid_all_variants": "gid://shopify/MediaImage/59694045364562",
+      "preserved": {
+        "skus": ["NOIR-T39-031", "NOIR-T39-032", "NOIR-T39-033", "NOIR-T39-034", "NOIR-T39-035", "NOIR-T39-036"],
+        "prices_eur": ["348.00", "348.00", "387.00", "348.00", "348.00", "387.00"],
+        "inventory": [0, 0, 0, 0, 0, 0],
+        "options_unchanged": true
+      }
+    },
+    {
+      "product_gid": "gid://shopify/Product/10978720842066",
+      "handle": "trente-neuf-noir-classique-cannelee",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "appearance": "black dial, fluted bezel, steel jubilee bracelet",
+      "appearance_note": "movement, back and diameter options do not change the front appearance",
+      "featured_before_supplier": "gid://shopify/MediaImage/59681626849618",
+      "featured_after_maison": "gid://shopify/MediaImage/59693993165138",
+      "supplier_reference_removed": "gid://shopify/MediaImage/59681626849618",
+      "maison_media_retained": ["gid://shopify/MediaImage/59693993165138", "gid://shopify/MediaImage/59693993197906", "gid://shopify/MediaImage/59693993230674", "gid://shopify/MediaImage/59893436580178"],
+      "ssim_live_vs_local": {"situation": 0.989410, "macro": 0.988584, "poignet": 0.987738},
+      "variant_count": 8,
+      "variant_gids": ["gid://shopify/ProductVariant/54090419372370", "gid://shopify/ProductVariant/54090419405138", "gid://shopify/ProductVariant/54090419437906", "gid://shopify/ProductVariant/54090419470674", "gid://shopify/ProductVariant/54090419503442", "gid://shopify/ProductVariant/54090419536210", "gid://shopify/ProductVariant/54090419568978", "gid://shopify/ProductVariant/54090419601746"],
+      "associated_media_gid_all_variants": "gid://shopify/MediaImage/59693993165138",
+      "preserved": {
+        "skus": ["NOIR-T39-037", "NOIR-T39-038", "NOIR-T39-039", "NOIR-T39-040", "NOIR-T39-041", "NOIR-T39-042", "NOIR-T39-043", "NOIR-T39-044"],
+        "prices_eur": ["329.00", "358.00", "329.00", "358.00", "368.00", "397.00", "368.00", "397.00"],
+        "inventory": [0, 0, 0, 0, 0, 0, 0, 0],
+        "options_unchanged": true
+      }
+    },
+    {
+      "product_gid": "gid://shopify/Product/10977444790610",
+      "handle": "remontoir-vitrine",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "appearance": "brown glass display case with 4 winding bays and 2 display cushions",
+      "featured_before_supplier": "gid://shopify/MediaImage/59679287804242",
+      "featured_after_maison": "gid://shopify/MediaImage/59935342133586",
+      "supplier_reference_removed": "gid://shopify/MediaImage/59679287804242",
+      "new_maison_media": {
+        "local_file": "scratchpad/noirmont-galeries/generated/remontoir-vitrine-situation.jpg",
+        "bytes": 794454,
+        "format": "JPEG 2048x2048 sRGB",
+        "media_gid": "gid://shopify/MediaImage/59935342133586",
+        "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/remontoir-vitrine-vue-complete-maison-noirmont.jpg?v=1786493429"
+      },
+      "maison_media_retained": ["gid://shopify/MediaImage/59694598619474", "gid://shopify/MediaImage/59893695218002", "gid://shopify/MediaImage/59935342133586"],
+      "ssim_live_macro_vs_local": 0.986497,
+      "variant_count": 1,
+      "variant_gids": ["gid://shopify/ProductVariant/54087121764690"],
+      "associated_media_gid_all_variants": "gid://shopify/MediaImage/59935342133586",
+      "preserved": {
+        "skus": ["NOIR-REM-028"],
+        "prices_eur": ["129.90"],
+        "inventory": [0],
+        "options_unchanged": true
+      }
+    }
+  ],
+  "shopify_workflow": {
+    "preflight_live": true,
+    "new_generation_required": false,
+    "exact_maison_media_associated_to_all_variants": true,
+    "new_featured_proven_before_supplier_removal": true,
+    "supplier_removal_method": "fileUpdate referencesToRemove; no global file deletion",
+    "final_readback_complete": true,
+    "pagination_complete": true
+  },
+  "rollback": {
+    "supplier_media_restore": "fileUpdate referencesToAdd with each product GID",
+    "featured_restore": "restore the supplier reference then reorder to position 0",
+    "variant_media_restore": "detach Maison media only if explicitly requested"
+  },
+  "final_assertions": {
+    "all_products_active": true,
+    "all_23_variants_associated": true,
+    "all_featured_maison": true,
+    "all_raw_supplier_media_absent": true,
+    "prices_skus_options_inventory_unchanged": true,
+    "no_global_file_deletion": true
+  }
+}

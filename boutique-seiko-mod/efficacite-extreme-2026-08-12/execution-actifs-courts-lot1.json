@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-12",
+  "mode": "execution_bornee",
+  "status": "complete",
+  "selected_handles": [
+    "bracelet-presidentiel-acier-inoxydable"
+  ],
+  "summary": {
+    "products_completed": 1,
+    "appearances_completed": 4,
+    "generations": 4,
+    "retakes": 0,
+    "shopify_uploads_ready": 4,
+    "exact_variant_associations": 4,
+    "supplier_media_removed_from_product": 1,
+    "remaining_aliexpress_media_on_product": 0
+  },
+  "product": {
+    "product_gid": "gid://shopify/Product/10977445052754",
+    "handle": "bracelet-presidentiel-acier-inoxydable",
+    "status_before": "ACTIVE",
+    "status_after": "ACTIVE",
+    "source": {
+      "provider": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS",
+      "item_id": "1005006496083816",
+      "proof_file": "boutique-seiko-mod/preuves-audit-p4-130-2026-08-10/1005006496083816.json",
+      "mapping_status": "exact",
+      "source_images_downloaded_to": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot1/sources"
+    },
+    "appearances": [
+      {
+        "appearance": "Centre poli",
+        "supplier_fragment": "200000049:201449057#NO.3 Polished Center;200000051:100016950",
+        "source_basename": "S777fe4e01d5f49e0aa8bfc6a5b344166i.jpg",
+        "variant_gid": "gid://shopify/ProductVariant/54087123566930",
+        "variant_sku": "NOIR-PRE-001",
+        "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot1/finals/bracelet-presidentiel-acier-inoxydable-v-centre-poli.jpg",
+        "sha256": "9b0ff0842cc772b0b6ed7a42e88c9104b031cd1f590a52ffabb285705d456438",
+        "bytes": 217362,
+        "width": 2048,
+        "height": 2048,
+        "color_profile": "sRGB IEC61966-2.1",
+        "qa": "PASS",
+        "shopify_media_gid": "gid://shopify/MediaImage/59935012061522",
+        "association_readback": "PASS"
+      },
+      {
+        "appearance": "Centre brossé",
+        "supplier_fragment": "200000049:201449058#NO.4 Brushed Center;200000051:100016950",
+        "source_basename": "Sea6fd5eaac0a4a86b95cec2046c8f143c.jpg",
+        "variant_gid": "gid://shopify/ProductVariant/54087123599698",
+        "variant_sku": "NOIR-PRE-002",
+        "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot1/finals/bracelet-presidentiel-acier-inoxydable-v-centre-brosse.jpg",
+        "sha256": "59f37daec41d5753b9b65da757eab8c0dc90ee06667dea4f483c1165c19feb6d",
+        "bytes": 250662,
+        "width": 2048,
+        "height": 2048,
+        "color_profile": "sRGB IEC61966-2.1",
+        "qa": "PASS",
+        "shopify_media_gid": "gid://shopify/MediaImage/59935010750802",
+        "association_readback": "PASS"
+      },
+      {
+        "appearance": "Jubilé",
+        "supplier_fragment": "200000049:201102690#NO.2 Jubilee;200000051:100016950",
+        "source_basename": "Sb2beab33fc0a4aedb2e8b60bec597230Y.jpg",
+        "variant_gid": "gid://shopify/ProductVariant/54087123632466",
+        "variant_sku": "NOIR-PRE-003",
+        "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot1/finals/bracelet-presidentiel-acier-inoxydable-v-jubile.jpg",
+        "sha256": "0332aa57ead476e86afea6d81cda5c79ed0df6363f75db4e6f53713117bc90c2",
+        "bytes": 274071,
+        "width": 2048,
+        "height": 2048,
+        "color_profile": "sRGB IEC61966-2.1",
+        "qa": "PASS",
+        "shopify_media_gid": "gid://shopify/MediaImage/59935011209554",
+        "association_readback": "PASS"
+      },
+      {
+        "appearance": "Président",
+        "supplier_fragment": "200000049:201009050#NO.1 President;200000051:100016950",
+        "source_basename": "S5ae8db338ff943e9b3949b7cfff428b6a.jpg",
+        "variant_gid": "gid://shopify/ProductVariant/54087123665234",
+        "variant_sku": "NOIR-PRE-004",
+        "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot1/finals/bracelet-presidentiel-acier-inoxydable-v-president.jpg",
+        "sha256": "0ff0980b77736d4859e8a93d267bccd4c2289788349204fcab33f5fa9cf97b48",
+        "bytes": 248421,
+        "width": 2048,
+        "height": 2048,
+        "color_profile": "sRGB IEC61966-2.1",
+        "qa": "PASS",
+        "shopify_media_gid": "gid://shopify/MediaImage/59935011701074",
+        "association_readback": "PASS"
+      }
+    ],
+    "qa_gate": {
+      "exact_product_geometry": "PASS",
+      "correct_finish_or_link_pattern": "PASS",
+      "no_logo_or_brand": "PASS",
+      "no_text_or_watermark": "PASS",
+      "homogeneous_framing": "PASS",
+      "format_2048_srgb_under_1_2mb": "PASS"
+    },
+    "featured_media": {
+      "old_supplier_media_gid": "gid://shopify/MediaImage/59679287902546",
+      "old_filename": "10977445052754-1.jpg",
+      "new_maison_media_gid": "gid://shopify/MediaImage/59935012061522",
+      "new_filename": "bracelet-presidentiel-acier-inoxydable-v-centre-poli.jpg",
+      "supplier_reference_removed_from_product": true,
+      "supplier_file_retained_in_shopify_files_for_rollback": true
+    },
+    "preserved_fields": {
+      "status_active": true,
+      "title": true,
+      "prices": true,
+      "skus": true,
+      "options": true,
+      "inventory": true,
+      "existing_maison_situation_media": true,
+      "existing_maison_macro_media": true
+    },
+    "final_readback": {
+      "status": "ACTIVE",
+      "featured_media_gid": "gid://shopify/MediaImage/59935012061522",
+      "gallery_media_count": 6,
+      "all_new_media_ready": true,
+      "all_variant_associations_exact": true,
+      "old_supplier_media_absent_from_product": true,
+      "remaining_aliexpress_media": []
+    },
+    "rollback": {
+      "step_1": "fileUpdate old_supplier_media_gid with referencesToAdd product_gid",
+      "step_2": "productReorderMedia old_supplier_media_gid to position 0",
+      "step_3": "productVariantDetachMedia for each new variant/media pair",
+      "note": "Do not delete the four new Shopify files unless separately authorized."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "codex-20260811-1451-remplacement92-pilote-lumineuses-silver-reprise-1",
+  "type": "generate_images",
+  "created_at": "2026-08-11T14:51:00+02:00",
+  "requested_by": "codex",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+        "sku": "14:200025551#silver dial",
+        "slot": "variante",
+        "fichier": "cadran-pilote-33-5-aiguilles-lumineuses-v-silver-dial.jpg",
+        "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/S2faf9df0196d4188895526b1766448c6W.webp"
+      }
+    ],
+    "sources": [
+      "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/S2faf9df0196d4188895526b1766448c6W.webp",
+      "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-silver-dial.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-1.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-2.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-blue-dial.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-green-dial.jpg"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+      "surcharges": [
+        "REPRISE CIBLÉE du cadran argent seul. Nouvelle composition carrée, cadran parfaitement de face, centré sur fond minéral clair Maison Noirmont, lumière douce haute-gauche et ombre diffuse.",
+        "Les quatre cadrans seuls déjà PASS servent exclusivement de gabarits de cadrage, échelle, orientation, fond et lumière ; toute vérité produit argent provient exclusivement de S2faf9df0196d4188895526b1766448c6W.webp."
+      ]
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "CORRECTION BLOQUANTE : la source exacte du cadran argent ne possède AUCUN point lumineux rond sur la piste extérieure. Le rendu actuel en a inventé une couronne complète. Le nouveau rendu doit conserver une piste extérieure sans aucun point rond ajouté.",
+        "Préserver exactement le fond argent, les chiffres 1-12 et 13-24, la minuterie et ses valeurs, le triangle de 12 h, les traits/index, le perçage central et tous les autres détails réellement visibles dans la source. Ne rien ajouter, retirer, déplacer, corriger ou transférer.",
+        "Le livrable actuel est un REJET et ne sert jamais de vérité produit. Avant toute écriture, vérifier son SHA-256 `557242a761f0b33b13dce6dbd6539ed3889d8d08c081be1ff83a93da448a230f`. Si le hash diffère, rejeter sans écraser.",
+        "Si le hash correspond, copier le rejet octet pour octet sous `rejected/silver-dial-rejet-points-lumineux-inventes-20260811-1451.jpg`, puis vérifier existence, lisibilité et hash identique avant remplacement. Une sauvegarde défaillante arrête l'ordre sans écraser.",
+        "Les quatre témoins cadran seul sont strictement intouchables et servent uniquement au gabarit : Black 1 `dbefd60eb5e04c719c4efae2902e4cc9c858b63f27527ba5ac1edf503d200c9a`, Black 2 `1e6c7e35c7dea7c874ca4b9cba1eb4d288ca9399860ce41af3fcff476468d088`, Blue `32596399074ae8bebb9cb69abb7e4fcb17dd0134ae89db7c312eea4fe6cd31d9`, Green `d93785cff4aa4bc4b83ec463057422a0e21fe6e1b17f54ca02a805c918150965`. Vérifier les hashes avant/après.",
+        "Aucun jeu d'aiguilles, logo Tandorio, nom de marque, mot, lettre, filigrane, texte promotionnel, emballage, outil, main, montre ni composant extérieur.",
+        "Régénération complète image-to-image depuis la source exacte ; aucun inpainting, gommage, clonage, recadrage ou réencodage du rejet. Sortie 2048 × 2048, JPEG sRGB, viser 400-900 Ko et rester sous 1,2 Mo, nom exact du manifeste."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Contrôle source exacte↔rendu en résolution originale : aucun point lumineux rond sur la piste extérieure, aucun détail physique inventé ou omis, teinte et géométrie fidèles.",
+        "Contrôle bloquant à fort zoom des 360 degrés de la piste extérieure : zéro point rond blanc ou lumineux ; les traits/index et valeurs réellement prouvés restent présents.",
+        "Contrôle de sauvegarde : hash rejet↔copie strictement identique avant remplacement ; quatre témoins cadran seul inchangés avant/après.",
+        "Créer `qa/planche-remplacement92-pilote-lumineuses-silver-reprise-1.jpg`, au moins 740 px par vignette, avec source exacte, rejet sauvegardé et nouveau rendu.",
+        "Contrôle fichier : nom exact, 2048 × 2048, 1:1 strict, JPEG sRGB et poids conforme. En cas de doute, rejeter au lieu de livrer."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses",
+      "manifeste": "manifeste-remplacement92-pilote-lumineuses-silver-reprise-1.json"
+    }
+  },
+  "notes": "Reprise locale fail-closed du cadran argent refusé par QA externe pour points lumineux inventés. Aucune opération Shopify, DSers, prix, statut, publication ou activation ne relève de cet ordre."
+}

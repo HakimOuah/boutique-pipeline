@@ -1,0 +1,271 @@
+{
+  "schema_version": "1.0",
+  "created_at_utc": "2026-08-11T23:10:51Z",
+  "scope": {
+    "mode": "upload_local_pass_only",
+    "maximum_products": 10,
+    "products_considered": 1,
+    "generation_performed": false,
+    "shopify_preflight_required": true,
+    "exact_handle_and_appearance_match_required": true,
+    "supplier_media_removal_policy": "Retirer uniquement un média fournisseur remplacé sans ambiguïté; préserver le featured et les génériques sans remplacement."
+  },
+  "sources": {
+    "inventory_relative": "boutique-seiko-mod/efficacite-extreme-2026-08-12/inventaire-assets.json",
+    "inventory_absolute": "/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/boutique-seiko-mod/efficacite-extreme-2026-08-12/inventaire-assets.json",
+    "qa_manifest_relative": "boutique-seiko-mod/visuels-codex-2026-08/bracelet-cuir-daim-degagement-rapide/manifeste-p4-daim-boucles-argentees-8.json",
+    "qa_manifest_absolute": "/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/boutique-seiko-mod/visuels-codex-2026-08/bracelet-cuir-daim-degagement-rapide/manifeste-p4-daim-boucles-argentees-8.json"
+  },
+  "counts": {
+    "products_preflighted": 1,
+    "products_completed": 1,
+    "products_skipped": 0,
+    "appearances_uploaded": 8,
+    "local_files_uploaded": 8,
+    "variant_media_associations_created": 32,
+    "supplier_media_removed": 0,
+    "other_media_removed": 0
+  },
+  "products": [
+    {
+      "handle": "bracelet-cuir-daim-degagement-rapide",
+      "product_id": "gid://shopify/Product/10980388897106",
+      "title": "Bracelet cuir daim — dégagement rapide",
+      "result": "PASS",
+      "preflight": {
+        "status": "ACTIVE",
+        "featured_media_id": "gid://shopify/MediaImage/59691949293906",
+        "total_inventory": 663,
+        "variant_count": 64,
+        "variant_pagination_exhausted": true,
+        "product_media_count": 11,
+        "product_media_pagination_exhausted": true,
+        "existing_appearances_with_exact_media": 8,
+        "missing_appearances": [
+          "Brown",
+          "YellowBrown",
+          "Green",
+          "Beige",
+          "Blue",
+          "Light Blue",
+          "Gray",
+          "Black"
+        ],
+        "all_missing_appearances_covered_by_upload_candidates": true
+      },
+      "uploaded_appearances": [
+        {
+          "appearance": "Brown",
+          "local_relative_path": "boutique-seiko-mod/visuels-codex-2026-08/bracelet-cuir-daim-degagement-rapide/bracelet-cuir-daim-degagement-rapide-v-brown.jpg",
+          "local_absolute_path": "/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/boutique-seiko-mod/visuels-codex-2026-08/bracelet-cuir-daim-degagement-rapide/bracelet-cuir-daim-degagement-rapide-v-brown.jpg",
+          "sha256": "c8808214bfbbf19d8c2c043b5dffdc3f913b7ff648f8dc838c9aa4bdc213f310",
+          "qa": "PASS",
+          "format": "JPEG",
+          "width": 2048,
+          "height": 2048,
+          "media_id": "gid://shopify/MediaImage/59935004066130",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/bracelet-cuir-daim-degagement-rapide-v-brown_a36887c8-72d9-457d-8ab3-4495034fffd5.jpg?v=1786489674",
+          "alt": "Bracelet cuir daim brun, boucle argentée — Maison Noirmont",
+          "variant_ids": [
+            "gid://shopify/ProductVariant/54098054316370",
+            "gid://shopify/ProductVariant/54098054349138",
+            "gid://shopify/ProductVariant/54098054381906",
+            "gid://shopify/ProductVariant/54098054414674"
+          ],
+          "skus": ["NOIR-DAI-001", "NOIR-DAI-002", "NOIR-DAI-003", "NOIR-DAI-004"]
+        },
+        {
+          "appearance": "YellowBrown",
+          "local_relative_path": "boutique-seiko-mod/visuels-codex-2026-08/bracelet-cuir-daim-degagement-rapide/bracelet-cuir-daim-degagement-rapide-v-yellowbrown.jpg",
+          "local_absolute_path": "/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/boutique-seiko-mod/visuels-codex-2026-08/bracelet-cuir-daim-degagement-rapide/bracelet-cuir-daim-degagement-rapide-v-yellowbrown.jpg",
+          "sha256": "59516cdd255247383da0581d6388afe964c9f205cb6e0bcddcee6651361e8e45",
+          "qa": "PASS",
+          "format": "JPEG",
+          "width": 2048,
+          "height": 2048,
+          "media_id": "gid://shopify/MediaImage/59935005180242",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/bracelet-cuir-daim-degagement-rapide-v-yellowbrown_fc5bc26f-42a7-495e-b94d-8449ef9fce07.jpg?v=1786489687",
+          "alt": "Bracelet cuir daim jaune-brun, boucle argentée — Maison Noirmont",
+          "variant_ids": [
+            "gid://shopify/ProductVariant/54098054447442",
+            "gid://shopify/ProductVariant/54098054480210",
+            "gid://shopify/ProductVariant/54098054512978",
+            "gid://shopify/ProductVariant/54098054545746"
+          ],
+          "skus": ["NOIR-DAI-005", "NOIR-DAI-006", "NOIR-DAI-007", "NOIR-DAI-008"]
+        },
+        {
+          "appearance": "Green",
+          "local_relative_path": "boutique-seiko-mod/visuels-codex-2026-08/bracelet-cuir-daim-degagement-rapide/bracelet-cuir-daim-degagement-rapide-v-green.jpg",
+          "local_absolute_path": "/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/boutique-seiko-mod/visuels-codex-2026-08/bracelet-cuir-daim-degagement-rapide/bracelet-cuir-daim-degagement-rapide-v-green.jpg",
+          "sha256": "db247eef34842cca3419426bab8b2b42bbc3b4e34be45ff75bd198abe9ac8d1e",
+          "qa": "PASS",
+          "format": "JPEG",
+          "width": 2048,
+          "height": 2048,
+          "media_id": "gid://shopify/MediaImage/59935004590418",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/bracelet-cuir-daim-degagement-rapide-v-green_921970d8-0c29-46f2-a4b6-afff54a56bee.jpg?v=1786489681",
+          "alt": "Bracelet cuir daim vert, boucle argentée — Maison Noirmont",
+          "variant_ids": [
+            "gid://shopify/ProductVariant/54098054971730",
+            "gid://shopify/ProductVariant/54098055004498",
+            "gid://shopify/ProductVariant/54098055037266",
+            "gid://shopify/ProductVariant/54098055070034"
+          ],
+          "skus": ["NOIR-DAI-021", "NOIR-DAI-022", "NOIR-DAI-023", "NOIR-DAI-024"]
+        },
+        {
+          "appearance": "Beige",
+          "local_relative_path": "boutique-seiko-mod/visuels-codex-2026-08/bracelet-cuir-daim-degagement-rapide/bracelet-cuir-daim-degagement-rapide-v-beige.jpg",
+          "local_absolute_path": "/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/boutique-seiko-mod/visuels-codex-2026-08/bracelet-cuir-daim-degagement-rapide/bracelet-cuir-daim-degagement-rapide-v-beige.jpg",
+          "sha256": "a05780d72cb2b90d260313925252fd8ed4002a31878d9d488a964a7ef405c5b0",
+          "qa": "PASS",
+          "format": "JPEG",
+          "width": 2048,
+          "height": 2048,
+          "media_id": "gid://shopify/MediaImage/59935005868370",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/bracelet-cuir-daim-degagement-rapide-v-beige_bf4bdb24-1ca3-4880-b4e4-f468269d702f.jpg?v=1786489694",
+          "alt": "Bracelet cuir daim beige, boucle argentée — Maison Noirmont",
+          "variant_ids": [
+            "gid://shopify/ProductVariant/54098055102802",
+            "gid://shopify/ProductVariant/54098055135570",
+            "gid://shopify/ProductVariant/54098055168338",
+            "gid://shopify/ProductVariant/54098055201106"
+          ],
+          "skus": ["NOIR-DAI-025", "NOIR-DAI-026", "NOIR-DAI-027", "NOIR-DAI-028"]
+        },
+        {
+          "appearance": "Blue",
+          "local_relative_path": "boutique-seiko-mod/visuels-codex-2026-08/bracelet-cuir-daim-degagement-rapide/bracelet-cuir-daim-degagement-rapide-v-blue.jpg",
+          "local_absolute_path": "/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/boutique-seiko-mod/visuels-codex-2026-08/bracelet-cuir-daim-degagement-rapide/bracelet-cuir-daim-degagement-rapide-v-blue.jpg",
+          "sha256": "32f00f6ab44c69aaddb08f8cfc1e174cf1e60e05a33c7c245258f0c4e707cd63",
+          "qa": "PASS",
+          "format": "JPEG",
+          "width": 2048,
+          "height": 2048,
+          "media_id": "gid://shopify/MediaImage/59935002394962",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/bracelet-cuir-daim-degagement-rapide-v-blue_ac551983-b5ac-4a67-adc9-1d3536e4ebd1.jpg?v=1786489658",
+          "alt": "Bracelet cuir daim bleu, boucle argentée — Maison Noirmont",
+          "variant_ids": [
+            "gid://shopify/ProductVariant/54098055233874",
+            "gid://shopify/ProductVariant/54098055266642",
+            "gid://shopify/ProductVariant/54098055299410",
+            "gid://shopify/ProductVariant/54098055332178"
+          ],
+          "skus": ["NOIR-DAI-029", "NOIR-DAI-030", "NOIR-DAI-031", "NOIR-DAI-032"]
+        },
+        {
+          "appearance": "Light Blue",
+          "local_relative_path": "boutique-seiko-mod/visuels-codex-2026-08/bracelet-cuir-daim-degagement-rapide/bracelet-cuir-daim-degagement-rapide-v-light-blue.jpg",
+          "local_absolute_path": "/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/boutique-seiko-mod/visuels-codex-2026-08/bracelet-cuir-daim-degagement-rapide/bracelet-cuir-daim-degagement-rapide-v-light-blue.jpg",
+          "sha256": "908bc684c609226e70ec270bcf184a1698bb4c6b4e8c184433e50fab4cfaca75",
+          "qa": "PASS",
+          "format": "JPEG",
+          "width": 2048,
+          "height": 2048,
+          "media_id": "gid://shopify/MediaImage/59935006097746",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/bracelet-cuir-daim-degagement-rapide-v-light-blue_eb7e38b4-6770-4039-be5e-2f3b1b136e0d.jpg?v=1786489700",
+          "alt": "Bracelet cuir daim bleu clair, boucle argentée — Maison Noirmont",
+          "variant_ids": [
+            "gid://shopify/ProductVariant/54098055627090",
+            "gid://shopify/ProductVariant/54098055659858",
+            "gid://shopify/ProductVariant/54098055692626",
+            "gid://shopify/ProductVariant/54098055725394"
+          ],
+          "skus": ["NOIR-DAI-041", "NOIR-DAI-042", "NOIR-DAI-043", "NOIR-DAI-044"]
+        },
+        {
+          "appearance": "Gray",
+          "local_relative_path": "boutique-seiko-mod/visuels-codex-2026-08/bracelet-cuir-daim-degagement-rapide/bracelet-cuir-daim-degagement-rapide-v-gray.jpg",
+          "local_absolute_path": "/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/boutique-seiko-mod/visuels-codex-2026-08/bracelet-cuir-daim-degagement-rapide/bracelet-cuir-daim-degagement-rapide-v-gray.jpg",
+          "sha256": "26e8ab5d9d6bf3d000ee907a5edfb0b74b032d7bf129fa77507fe4afe19293b6",
+          "qa": "PASS",
+          "format": "JPEG",
+          "width": 2048,
+          "height": 2048,
+          "media_id": "gid://shopify/MediaImage/59935003574610",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/bracelet-cuir-daim-degagement-rapide-v-gray_f299c2aa-b583-4489-9c14-9cdf14ee3607.jpg?v=1786489669",
+          "alt": "Bracelet cuir daim gris, boucle argentée — Maison Noirmont",
+          "variant_ids": [
+            "gid://shopify/ProductVariant/54098055758162",
+            "gid://shopify/ProductVariant/54098055790930",
+            "gid://shopify/ProductVariant/54098055823698",
+            "gid://shopify/ProductVariant/54098055856466"
+          ],
+          "skus": ["NOIR-DAI-045", "NOIR-DAI-046", "NOIR-DAI-047", "NOIR-DAI-048"]
+        },
+        {
+          "appearance": "Black",
+          "local_relative_path": "boutique-seiko-mod/visuels-codex-2026-08/bracelet-cuir-daim-degagement-rapide/bracelet-cuir-daim-degagement-rapide-v-black.jpg",
+          "local_absolute_path": "/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/boutique-seiko-mod/visuels-codex-2026-08/bracelet-cuir-daim-degagement-rapide/bracelet-cuir-daim-degagement-rapide-v-black.jpg",
+          "sha256": "de865a939de04d66381b21f16197c26087d44704f1a01761fc9c43ca5dc990af",
+          "qa": "PASS",
+          "format": "JPEG",
+          "width": 2048,
+          "height": 2048,
+          "media_id": "gid://shopify/MediaImage/59935002952018",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/bracelet-cuir-daim-degagement-rapide-v-black_87925678-a151-4ed9-9f4d-bcec2e274145.jpg?v=1786489663",
+          "alt": "Bracelet cuir daim noir, boucle argentée — Maison Noirmont",
+          "variant_ids": [
+            "gid://shopify/ProductVariant/54098055889234",
+            "gid://shopify/ProductVariant/54098055922002",
+            "gid://shopify/ProductVariant/54098055954770",
+            "gid://shopify/ProductVariant/54098055987538"
+          ],
+          "skus": ["NOIR-DAI-049", "NOIR-DAI-050", "NOIR-DAI-051", "NOIR-DAI-052"]
+        }
+      ],
+      "shopify_mutations": {
+        "file_uploads": {
+          "requested": 8,
+          "succeeded": 8,
+          "failed": 0
+        },
+        "fileUpdate_referencesToAdd": {
+          "files": 8,
+          "all_file_statuses": "READY",
+          "user_errors": []
+        },
+        "productVariantAppendMedia": {
+          "variants": 32,
+          "user_errors": []
+        }
+      },
+      "readback": {
+        "result": "PASS",
+        "status_before": "ACTIVE",
+        "status_after": "ACTIVE",
+        "status_unchanged": true,
+        "featured_media_before": "gid://shopify/MediaImage/59691949293906",
+        "featured_media_after": "gid://shopify/MediaImage/59691949293906",
+        "featured_media_unchanged": true,
+        "total_inventory_before": 663,
+        "total_inventory_after": 663,
+        "total_inventory_unchanged": true,
+        "options_unchanged": true,
+        "prices_unchanged": true,
+        "compare_at_prices_unchanged": true,
+        "skus_unchanged": true,
+        "variant_inventories_unchanged": true,
+        "variant_count_before": 64,
+        "variant_count_after": 64,
+        "variant_pagination_exhausted": true,
+        "variant_media_pagination_exhausted": true,
+        "product_media_count_before": 11,
+        "product_media_count_after": 19,
+        "product_media_pagination_exhausted": true,
+        "new_media_ready_2048_square": 8,
+        "exact_variant_media_matches": 64,
+        "variant_media_mismatches": 0
+      },
+      "media_removal": {
+        "supplier_media_identified_after_replacement": 0,
+        "removed_media_ids": [],
+        "featured_media_preserved": true,
+        "generic_gallery_media_preserved": true,
+        "reason": "Les 11 médias présents au préflight étaient déjà des médias Maison Noirmont : featured, deux génériques et huit visuels exacts à boucle noire. Aucun média fournisseur ne restait à retirer."
+      }
+    }
+  ],
+  "final_result": "PASS"
+}

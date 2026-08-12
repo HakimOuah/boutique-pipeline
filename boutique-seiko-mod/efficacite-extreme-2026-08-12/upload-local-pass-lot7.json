@@ -1,0 +1,171 @@
+{
+  "schema": "maison-noirmont.upload-local-pass.v1",
+  "generated_at": "2026-08-12T02:19:13+02:00",
+  "result": "PASS",
+  "summary": {
+    "products_completed": 5,
+    "products_active": 5,
+    "local_pass_assets_uploaded": 3,
+    "local_assets_reused_from_shopify": 16,
+    "variant_associations_created_or_replaced": 33,
+    "variant_associations_verified": 33,
+    "supplier_media_deleted": 5,
+    "supplier_featured_media_deleted": 2,
+    "remaining_supplier_media_on_products": 0,
+    "final_media_ready": 19,
+    "pagination_complete": true,
+    "commercial_fields_preserved": true,
+    "generation_performed": false
+  },
+  "method": {
+    "inventory": "boutique-seiko-mod/efficacite-extreme-2026-08-12/inventaire-assets.json",
+    "asset_gate": "handle exact, qa.status=PASS, upload_candidate=true; already uploaded Maison assets reused when live handle/slot provenance was exact",
+    "deletion_gate": "all replacements READY 2048x2048 and all exact variant associations verified before fileDelete",
+    "readback": "product media first:250, variants first:250, variant media first:20; every pageInfo.hasNextPage=false",
+    "preserved_fields": ["status", "price", "compareAtPrice", "sku", "options", "inventoryQuantity", "totalInventory"]
+  },
+  "products": [
+    {
+      "handle": "integrale-vert-sport-chic-acier",
+      "product_id": "gid://shopify/Product/10980078911826",
+      "status": "ACTIVE",
+      "source_assets": [
+        {"relative_path":"boutique-seiko-mod/visuels-codex-2026-08/integrale-vert-sport-chic-acier/integrale-vert-sport-chic-acier-g1.jpg","sha256":"c55705499e712af7d342027866604fbcf06c89896f429fc848d25e59090f699e","qa":"PASS","upload_candidate":true,"shopify_media_id":"gid://shopify/MediaImage/59893210480978"},
+        {"relative_path":"boutique-seiko-mod/visuels-codex-2026-08/integrale-vert-sport-chic-acier/integrale-vert-sport-chic-acier-g2.jpg","sha256":"d779ba0025e69a79d43cf795e85ca6e449050ce9627cff74756126b78f5ac807","qa":"PASS","upload_candidate":true,"shopify_media_id":"gid://shopify/MediaImage/59893210513746"},
+        {"relative_path":"boutique-seiko-mod/visuels-codex-2026-08/integrale-vert-sport-chic-acier/integrale-vert-sport-chic-acier-g3.jpg","sha256":"2dc20dda88783d30d70059d7e64c9297472725d586758d9dc5c762187533ca4d","qa":"PASS","upload_candidate":true,"shopify_media_id":"gid://shopify/MediaImage/59893210546514"},
+        {"relative_path":"boutique-seiko-mod/visuels-codex-2026-08/integrale-vert-sport-chic-acier/integrale-vert-sport-chic-acier-g4.jpg","sha256":"193cd7ee14d6bee1de529b452a317d27f875d5fd16559739c482dcafd5143d4e","qa":"PASS","upload_candidate":true,"shopify_media_id":"gid://shopify/MediaImage/59893210579282"}
+      ],
+      "variant_media_id": "gid://shopify/MediaImage/59893210480978",
+      "supplier_media_deleted": ["gid://shopify/MediaImage/59691400102226"],
+      "featured_before": "gid://shopify/MediaImage/59691400102226",
+      "featured_after": "gid://shopify/MediaImage/59893210480978",
+      "final_media_count": 4,
+      "all_media_ready": true,
+      "commercial_snapshot": {
+        "status": "ACTIVE",
+        "total_inventory": 0,
+        "skus": ["NOIR-INT-008"],
+        "prices": ["379.00"],
+        "compare_at_prices": [null],
+        "variant_inventories": [0],
+        "option_values": ["Vert"],
+        "pre_equals_post": true
+      }
+    },
+    {
+      "handle": "trente-neuf-bleu-classique-cannelee",
+      "product_id": "gid://shopify/Product/10978720678226",
+      "status": "ACTIVE",
+      "source_assets": [
+        {"relative_path":"scratchpad/noirmont-galeries/generated/trente-neuf-bleu-classique-cannelee-situation.jpg","sha256":"d363a5388f1130475862a20bad1e95d56b953da2702785a07098be93b3a65e80","qa":"PASS","upload_candidate":true,"slot":"situation","shopify_media_id":"gid://shopify/MediaImage/59693993066834"},
+        {"relative_path":"scratchpad/noirmont-galeries/generated/trente-neuf-bleu-classique-cannelee-macro.jpg","sha256":"2c65172c12f5d3b54fd39fa794f325ed75ed7c23a3eca8b1ece5388d0e2816c9","qa":"PASS","upload_candidate":true,"slot":"macro","shopify_media_id":"gid://shopify/MediaImage/59693993099602"},
+        {"relative_path":"scratchpad/noirmont-galeries/generated/trente-neuf-bleu-classique-cannelee-poignet.jpg","sha256":"07bff904f2aa42461f74bc52c1e1b3626f5e92466ca7e86b199ecd319b0bcd94","qa":"PASS","upload_candidate":true,"slot":"poignet","shopify_media_id":"gid://shopify/MediaImage/59693993132370"}
+      ],
+      "variant_media_id": "gid://shopify/MediaImage/59693993066834",
+      "supplier_media_deleted": ["gid://shopify/MediaImage/59681625276754"],
+      "featured_before": "gid://shopify/MediaImage/59694431535442",
+      "featured_after": "gid://shopify/MediaImage/59694431535442",
+      "final_media_count": 4,
+      "all_media_ready": true,
+      "commercial_snapshot": {
+        "status": "ACTIVE",
+        "total_inventory": 0,
+        "skus": ["NOIR-T39-001","NOIR-T39-002","NOIR-T39-003","NOIR-T39-004","NOIR-T39-005","NOIR-T39-006","NOIR-T39-007","NOIR-T39-008"],
+        "prices": ["329.00","358.00","329.00","358.00","368.00","397.00","368.00","397.00"],
+        "compare_at_prices": [null,null,null,null,null,null,null,null],
+        "variant_inventories": [0,0,0,0,0,0,0,0],
+        "pre_equals_post": true
+      }
+    },
+    {
+      "handle": "trente-neuf-rose-classique-cannelee",
+      "product_id": "gid://shopify/Product/10978720317778",
+      "status": "ACTIVE",
+      "source_assets": [
+        {"relative_path":"scratchpad/noirmont-galeries/generated/trente-neuf-rose-classique-cannelee-situation.jpg","sha256":"de0d5da35ca0a8f2885e45e87551c9eb9dbcbfaf2d9387dd383b7c16715906e9","qa":"PASS","upload_candidate":true,"slot":"situation","shopify_media_id":"gid://shopify/MediaImage/59935406391634","uploaded_in_lot":true},
+        {"relative_path":"scratchpad/noirmont-galeries/generated/trente-neuf-rose-classique-cannelee-macro.jpg","sha256":"c307c173f213e9cc16cf49fb8d8820fbfdfef730bc5d4a80d52fcb55d9a26dd8","qa":"PASS","upload_candidate":true,"slot":"macro","shopify_media_id":"gid://shopify/MediaImage/59935405801810","uploaded_in_lot":true},
+        {"relative_path":"scratchpad/noirmont-galeries/generated/trente-neuf-rose-classique-cannelee-poignet.jpg","sha256":"fd44be4373f2965742e5ca4ac81e06e725a9c937b9bb289b60844a890f4dbf4b","qa":"PASS","upload_candidate":true,"slot":"poignet","shopify_media_id":"gid://shopify/MediaImage/59935405932882","uploaded_in_lot":true}
+      ],
+      "variant_media_id": "gid://shopify/MediaImage/59935406391634",
+      "supplier_media_deleted": ["gid://shopify/MediaImage/59681620001106"],
+      "featured_before": "gid://shopify/MediaImage/59681620001106",
+      "featured_after": "gid://shopify/MediaImage/59935406391634",
+      "final_media_count": 3,
+      "all_media_ready": true,
+      "commercial_snapshot": {
+        "status": "ACTIVE",
+        "total_inventory": 0,
+        "skus": ["NOIR-T39-045","NOIR-T39-046","NOIR-T39-047","NOIR-T39-048","NOIR-T39-049","NOIR-T39-050","NOIR-T39-051","NOIR-T39-052"],
+        "prices": ["329.00","358.00","329.00","358.00","368.00","397.00","368.00","397.00"],
+        "compare_at_prices": [null,null,null,null,null,null,null,null],
+        "variant_inventories": [0,0,0,0,0,0,0,0],
+        "pre_equals_post": true
+      }
+    },
+    {
+      "handle": "trente-neuf-rouge-classique-cannelee",
+      "product_id": "gid://shopify/Product/10978720055634",
+      "status": "ACTIVE",
+      "source_assets": [
+        {"relative_path":"scratchpad/noirmont-galeries/generated/trente-neuf-rouge-classique-cannelee-situation.jpg","sha256":"05cdfd1d1579a0854f337d1d13d4d966f5643c447b188d30f4f412d1882195ef","qa":"PASS","upload_candidate":true,"slot":"situation","shopify_media_id":"gid://shopify/MediaImage/59693993263442"},
+        {"relative_path":"scratchpad/noirmont-galeries/generated/trente-neuf-rouge-classique-cannelee-macro.jpg","sha256":"cfdfcfd9bac4971b09d1013566ca89e97809f2d7f8f4183c9ce5b40398397524","qa":"PASS","upload_candidate":true,"slot":"macro","shopify_media_id":"gid://shopify/MediaImage/59693993296210"},
+        {"relative_path":"scratchpad/noirmont-galeries/generated/trente-neuf-rouge-classique-cannelee-poignet.jpg","sha256":"6bd262e752b817f3489121131ff45959b732be7c0391b00e7ab2fd8674a07c3d","qa":"PASS","upload_candidate":true,"slot":"poignet","shopify_media_id":"gid://shopify/MediaImage/59693993328978"}
+      ],
+      "variant_media_id": "gid://shopify/MediaImage/59693993263442",
+      "supplier_media_deleted": ["gid://shopify/MediaImage/59681616757074"],
+      "featured_before": "gid://shopify/MediaImage/59694431895890",
+      "featured_after": "gid://shopify/MediaImage/59694431895890",
+      "final_media_count": 4,
+      "all_media_ready": true,
+      "commercial_snapshot": {
+        "status": "ACTIVE",
+        "total_inventory": 0,
+        "skus": ["NOIR-T39-053","NOIR-T39-054","NOIR-T39-055","NOIR-T39-056","NOIR-T39-057","NOIR-T39-058","NOIR-T39-059","NOIR-T39-060"],
+        "prices": ["329.00","358.00","329.00","358.00","368.00","397.00","368.00","397.00"],
+        "compare_at_prices": [null,null,null,null,null,null,null,null],
+        "variant_inventories": [0,0,0,0,0,0,0,0],
+        "pre_equals_post": true
+      }
+    },
+    {
+      "handle": "trente-neuf-vert-classique-cannelee",
+      "product_id": "gid://shopify/Product/10978720547154",
+      "status": "ACTIVE",
+      "source_assets": [
+        {"relative_path":"scratchpad/noirmont-galeries/generated/trente-neuf-vert-classique-cannelee-situation.jpg","sha256":"dc56db2eb4ff4d98e79be4bd66eef845e1a2d5a79ac971e20c3748f22fb8dbe6","qa":"PASS","upload_candidate":true,"slot":"situation","shopify_media_id":"gid://shopify/MediaImage/59694018462034"},
+        {"relative_path":"scratchpad/noirmont-galeries/generated/trente-neuf-vert-classique-cannelee-macro.jpg","sha256":"2cda7ad43407a8f0c95e9c04ec2156547c77433d4584bdac987e8376deb80d77","qa":"PASS","upload_candidate":true,"slot":"macro","shopify_media_id":"gid://shopify/MediaImage/59694018494802"},
+        {"relative_path":"scratchpad/noirmont-galeries/generated/trente-neuf-vert-classique-cannelee-poignet.jpg","sha256":"68c37eacbe7c6c26ff42c842a130862fe17956733d3a110c717f77f83a8e295f","qa":"PASS","upload_candidate":true,"slot":"poignet","shopify_media_id":"gid://shopify/MediaImage/59694018527570"}
+      ],
+      "variant_media_id": "gid://shopify/MediaImage/59694018462034",
+      "supplier_media_deleted": ["gid://shopify/MediaImage/59681623441746"],
+      "featured_before": "gid://shopify/MediaImage/59694431928658",
+      "featured_after": "gid://shopify/MediaImage/59694431928658",
+      "final_media_count": 4,
+      "all_media_ready": true,
+      "commercial_snapshot": {
+        "status": "ACTIVE",
+        "total_inventory": 0,
+        "skus": ["NOIR-T39-061","NOIR-T39-062","NOIR-T39-063","NOIR-T39-064","NOIR-T39-065","NOIR-T39-066","NOIR-T39-067","NOIR-T39-068"],
+        "prices": ["329.00","358.00","329.00","358.00","368.00","397.00","368.00","397.00"],
+        "compare_at_prices": [null,null,null,null,null,null,null,null],
+        "variant_inventories": [0,0,0,0,0,0,0,0],
+        "pre_equals_post": true
+      }
+    }
+  ],
+  "verification": {
+    "uploaded_file_status": "READY for 3/3",
+    "uploaded_dimensions": "2048x2048 for 3/3",
+    "attach_user_errors": [],
+    "association_user_errors_after_retry": [],
+    "detach_then_append_integrale_verified": true,
+    "delete_user_errors": [],
+    "deleted_ids_match_requested": true,
+    "supplier_ids_absent_after_delete": true,
+    "featured_media_ready_and_local_after_delete": true,
+    "all_variant_media_exact": true,
+    "all_product_media_pages_complete": true,
+    "all_variant_pages_complete": true,
+    "all_variant_media_pages_complete": true
+  }
+}

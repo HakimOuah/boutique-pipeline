@@ -1,0 +1,143 @@
+{
+  "schema": "maison-noirmont.dsers-preflight.v1",
+  "created_at_utc": "2026-08-11T20:14:04+00:00",
+  "source": {
+    "channel": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS",
+    "browser_aliexpress_used": false,
+    "gateway_health_ok": true,
+    "product_id": "1005007347658552",
+    "status": "onSelling",
+    "sales_count": 164,
+    "seller": "Watch DlY Factory Store",
+    "diameter_mm": 28.5,
+    "movements": [
+      "NH35",
+      "NH36"
+    ]
+  },
+  "visual_gate": {
+    "eastern_arabic_glyphs_confirmed": [
+      "١٢",
+      "٣",
+      "٦",
+      "٩"
+    ],
+    "brand_or_logo_on_dial": false,
+    "words_or_letters_on_dial": false,
+    "date_window": "3 o'clock",
+    "evidence": "preuves-sourcing-api-2026-08-11-agent/1005007347658552.json"
+  },
+  "dsers_action": {
+    "route": "AliExpress API qualification -> DSers import list -> push to Shopify",
+    "target_shopify_status": "DRAFT",
+    "activation_or_publication_authorized": false,
+    "retain_only_sku_ids": [
+      "12000040362692622",
+      "12000040362692623",
+      "12000040362692624",
+      "12000040362692625",
+      "12000040362692629",
+      "12000040362692631"
+    ],
+    "exclude_sku_ids": [
+      "12000040362692626",
+      "12000040362692627",
+      "12000040362692628",
+      "12000040362692630",
+      "12000040362692632",
+      "12000040362692633"
+    ],
+    "preflight_status": "READY_AFTER_CHROME_REMOTE_DEBUGGING_PERMISSION"
+  },
+  "qualified_skus": [
+    {
+      "sku_id": "12000040362692622",
+      "sku_attr": "14:201447598#rose - Coffee",
+      "price_eur": 8.59,
+      "stock": 945,
+      "shipping_eur": 1.99,
+      "delivery_days_fr": [9, 13]
+    },
+    {
+      "sku_id": "12000040362692623",
+      "sku_attr": "14:201447303#Rose Black",
+      "price_eur": 8.69,
+      "stock": 942,
+      "shipping_eur": 1.99,
+      "delivery_days_fr": [9, 13]
+    },
+    {
+      "sku_id": "12000040362692624",
+      "sku_attr": "14:200005100#Gold Black",
+      "price_eur": 8.69,
+      "stock": 976,
+      "shipping_eur": 1.99,
+      "delivery_days_fr": [9, 13]
+    },
+    {
+      "sku_id": "12000040362692625",
+      "sku_attr": "14:200000080#Rose White",
+      "price_eur": 8.59,
+      "stock": 979,
+      "shipping_eur": 1.99,
+      "delivery_days_fr": [9, 13]
+    },
+    {
+      "sku_id": "12000040362692629",
+      "sku_attr": "14:350850#Silver Green",
+      "price_eur": 8.89,
+      "stock": 7,
+      "shipping_eur": 1.99,
+      "delivery_days_fr": [8, 12],
+      "warning": "LOW_STOCK_RECHECK_BEFORE_ACTIVATION"
+    },
+    {
+      "sku_id": "12000040362692631",
+      "sku_attr": "14:10#Silver Pink",
+      "price_eur": 8.59,
+      "stock": 932,
+      "shipping_eur": 1.99,
+      "delivery_days_fr": [9, 13]
+    }
+  ],
+  "excluded_skus": [
+    {
+      "sku_id": "12000040362692626",
+      "reason": "exact_resolution_ambiguous"
+    },
+    {
+      "sku_id": "12000040362692627",
+      "reason": "stock_zero"
+    },
+    {
+      "sku_id": "12000040362692628",
+      "reason": "stock_zero"
+    },
+    {
+      "sku_id": "12000040362692630",
+      "reason": "stock_zero"
+    },
+    {
+      "sku_id": "12000040362692632",
+      "reason": "stock_zero"
+    },
+    {
+      "sku_id": "12000040362692633",
+      "reason": "stock_zero"
+    }
+  ],
+  "shopify_preflight": {
+    "matching_product_found_before_push": false,
+    "search_basis": "Exact supplier title fragment search returned no Shopify product",
+    "two_previous_qualified_products": [
+      {
+        "product_gid": "gid://shopify/Product/11017842360658",
+        "status": "DRAFT"
+      },
+      {
+        "product_gid": "gid://shopify/Product/11017842458962",
+        "status": "DRAFT"
+      }
+    ]
+  }
+}

@@ -1,0 +1,3235 @@
+{
+  "schema_version": 1,
+  "shop": "maisonnoirmont.fr",
+  "created_on": "2026-08-11",
+  "purpose": "Remplacer les 92 medias fournisseur encore associes aux variantes des neuf brouillons, sans modifier prix, stock, statut ni featured media.",
+  "rules": {
+    "source_truth": "Chaque rendu utilise uniquement source_path et remplace old_media_gid apres QA.",
+    "identity": "Association Shopify par relecture live du SKU complet et des GID variantes; les ordres de generation restent indexes par handle + sku_keys + slot.",
+    "publication": "Interdite; tous les produits doivent rester DRAFT.",
+    "rollback": "Conserver old_media_gid jusqu'a upload, association et relecture du nouveau media."
+  },
+  "counts": {
+    "products": 9,
+    "old_media_unique": 92,
+    "variant_associations": 129
+  },
+  "targets": [
+    {
+      "handle": "cadran-meteorite-28-5",
+      "product_gid": "gid://shopify/Product/11013077664082",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894115238226",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sa28563ea18bf4c8ba7cf07dc99766ac3D.webp?v=1786233162",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-meteorite-28-5/Sa28563ea18bf4c8ba7cf07dc99766ac3D.webp",
+      "sku_keys": [
+        "14:200025551#A1"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-meteorite-28-5-v-a1.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-meteorite-28-5/cadran-meteorite-28-5-v-a1.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213304025426",
+          "title": "A1 / NO LOGO",
+          "sku": "14:200025551#A1;200000046:201720836#NO LOGO",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "A1"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "NO LOGO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-meteorite-28-5",
+      "product_gid": "gid://shopify/Product/11013077664082",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894115369298",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sba10a7458f014bc3b1b8cea09e1cb687q.webp?v=1786233162",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-meteorite-28-5/Sba10a7458f014bc3b1b8cea09e1cb687q.webp",
+      "sku_keys": [
+        "14:29#A2"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-meteorite-28-5-v-a2.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-meteorite-28-5/cadran-meteorite-28-5-v-a2.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213303992658",
+          "title": "A2 / NO LOGO",
+          "sku": "14:29#A2;200000046:201720836#NO LOGO",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "A2"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "NO LOGO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-meteorite-28-5",
+      "product_gid": "gid://shopify/Product/11013077664082",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894115336530",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S145f3ff7705c43fba058e33714cbc1e3k.webp?v=1786233161",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-meteorite-28-5/S145f3ff7705c43fba058e33714cbc1e3k.webp",
+      "sku_keys": [
+        "14:201336230#A3"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-meteorite-28-5-v-a3.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-meteorite-28-5/cadran-meteorite-28-5-v-a3.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213303959890",
+          "title": "A3 / NO LOGO",
+          "sku": "14:201336230#A3;200000046:201720836#NO LOGO",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "A3"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "NO LOGO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-meteorite-28-5",
+      "product_gid": "gid://shopify/Product/11013077664082",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894115205458",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S54737ddd2c284d3d81a0133da0817a04A.webp?v=1786233161",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-meteorite-28-5/S54737ddd2c284d3d81a0133da0817a04A.webp",
+      "sku_keys": [
+        "14:100016652#A4 Green lume"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-meteorite-28-5-v-a4-green-lume.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-meteorite-28-5/cadran-meteorite-28-5-v-a4-green-lume.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213303927122",
+          "title": "A4 Green lume / NO LOGO",
+          "sku": "14:100016652#A4 Green lume;200000046:201720836#NO LOGO",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "A4 Green lume"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "NO LOGO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-meteorite-28-5",
+      "product_gid": "gid://shopify/Product/11013077664082",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894115467602",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S07cdf5fc3d684687953e24efe0d6b079t.webp?v=1786233162",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-meteorite-28-5/S07cdf5fc3d684687953e24efe0d6b079t.webp",
+      "sku_keys": [
+        "14:347#A5 Green lume"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-meteorite-28-5-v-a5-green-lume.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-meteorite-28-5/cadran-meteorite-28-5-v-a5-green-lume.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213303894354",
+          "title": "A5 Green lume / NO LOGO",
+          "sku": "14:347#A5 Green lume;200000046:201720836#NO LOGO",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "A5 Green lume"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "NO LOGO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-meteorite-28-5",
+      "product_gid": "gid://shopify/Product/11013077664082",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894115434834",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S5085d3f75509469d8036f952f4d06ae8s.webp?v=1786233162",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-meteorite-28-5/S5085d3f75509469d8036f952f4d06ae8s.webp",
+      "sku_keys": [
+        "14:365462#A6 Green lume"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-meteorite-28-5-v-a6-green-lume.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-meteorite-28-5/cadran-meteorite-28-5-v-a6-green-lume.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213304156498",
+          "title": "A6 Green lume / NO LOGO",
+          "sku": "14:365462#A6 Green lume;200000046:201720836#NO LOGO",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "A6 Green lume"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "NO LOGO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-meteorite-28-5",
+      "product_gid": "gid://shopify/Product/11013077664082",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894115303762",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S18d67741663648ef927ec38fda0a9b26e.webp?v=1786233161",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-meteorite-28-5/S18d67741663648ef927ec38fda0a9b26e.webp",
+      "sku_keys": [
+        "14:193#A7 Blue lume"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-meteorite-28-5-v-a7-blue-lume.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-meteorite-28-5/cadran-meteorite-28-5-v-a7-blue-lume.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213304123730",
+          "title": "A7 Blue lume / NO LOGO",
+          "sku": "14:193#A7 Blue lume;200000046:201720836#NO LOGO",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "A7 Blue lume"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "NO LOGO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-meteorite-28-5",
+      "product_gid": "gid://shopify/Product/11013077664082",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894115270994",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sc6c9ed7e2dda4cb8b0a29a5babf4897c4.webp?v=1786233161",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-meteorite-28-5/Sc6c9ed7e2dda4cb8b0a29a5babf4897c4.webp",
+      "sku_keys": [
+        "14:173#A8 Blue lume"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-meteorite-28-5-v-a8-blue-lume.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-meteorite-28-5/cadran-meteorite-28-5-v-a8-blue-lume.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213304090962",
+          "title": "A8 Blue lume / NO LOGO",
+          "sku": "14:173#A8 Blue lume;200000046:201720836#NO LOGO",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "A8 Blue lume"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "NO LOGO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-meteorite-28-5",
+      "product_gid": "gid://shopify/Product/11013077664082",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894115402066",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S6f6a7176b7944626b9a82c12e212f803l.webp?v=1786233162",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-meteorite-28-5/S6f6a7176b7944626b9a82c12e212f803l.webp",
+      "sku_keys": [
+        "14:865#A9 Blue lume"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-meteorite-28-5-v-a9-blue-lume.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-meteorite-28-5/cadran-meteorite-28-5-v-a9-blue-lume.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213304058194",
+          "title": "A9 Blue lume / NO LOGO",
+          "sku": "14:865#A9 Blue lume;200000046:201720836#NO LOGO",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "A9 Blue lume"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "NO LOGO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-29-mod-nh35",
+      "product_gid": "gid://shopify/Product/11013081497938",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894151545170",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S0b2003dd5d2b4e22917cd33ee0a32195e.webp?v=1786233513",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/S0b2003dd5d2b4e22917cd33ee0a32195e.webp",
+      "sku_keys": [
+        "14:365462#black dial 1-Lume"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-29-mod-nh35-v-black-dial-1-lume.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-29-mod-nh35/cadran-pilote-29-mod-nh35-v-black-dial-1-lume.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213329682770",
+          "title": "black dial 1-Lume",
+          "sku": "14:365462#black dial 1-Lume",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "black dial 1-Lume"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-29-mod-nh35",
+      "product_gid": "gid://shopify/Product/11013081497938",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894151807314",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sc33995d16bbd4954b29a266885d35af7F.webp?v=1786233513",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/Sc33995d16bbd4954b29a266885d35af7F.webp",
+      "sku_keys": [
+        "14:173#black dial 2-Lume"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-29-mod-nh35-v-black-dial-2-lume.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-29-mod-nh35/cadran-pilote-29-mod-nh35-v-black-dial-2-lume.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213329617234",
+          "title": "black dial 2-Lume",
+          "sku": "14:173#black dial 2-Lume",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "black dial 2-Lume"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-29-mod-nh35",
+      "product_gid": "gid://shopify/Product/11013081497938",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894151643474",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S6588284a3dcf447d80dbc49ba24b8a7dI.webp?v=1786233512",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/S6588284a3dcf447d80dbc49ba24b8a7dI.webp",
+      "sku_keys": [
+        "14:203085833#black hands"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-29-mod-nh35-v-black-hands.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-29-mod-nh35/cadran-pilote-29-mod-nh35-v-black-hands.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213329781074",
+          "title": "black hands",
+          "sku": "14:203085833#black hands",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "black hands"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-29-mod-nh35",
+      "product_gid": "gid://shopify/Product/11013081497938",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894151840082",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S3a17eca59b3748f6b27e5ee11ec3d12dZ.webp?v=1786233513",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/S3a17eca59b3748f6b27e5ee11ec3d12dZ.webp",
+      "sku_keys": [
+        "14:201336230#black set 1-Lume"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-29-mod-nh35-v-black-set-1-lume.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-29-mod-nh35/cadran-pilote-29-mod-nh35-v-black-set-1-lume.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213329453394",
+          "title": "black set 1-Lume",
+          "sku": "14:201336230#black set 1-Lume",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "black set 1-Lume"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-29-mod-nh35",
+      "product_gid": "gid://shopify/Product/11013081497938",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894151676242",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sbf89477371834f4196bbbe21fb43a52as.webp?v=1786233513",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/Sbf89477371834f4196bbbe21fb43a52as.webp",
+      "sku_keys": [
+        "14:100016652#black set 2-Lume"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-29-mod-nh35-v-black-set-2-lume.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-29-mod-nh35/cadran-pilote-29-mod-nh35-v-black-set-2-lume.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213329486162",
+          "title": "black set 2-Lume",
+          "sku": "14:100016652#black set 2-Lume",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "black set 2-Lume"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-29-mod-nh35",
+      "product_gid": "gid://shopify/Product/11013081497938",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894151610706",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Scbccec9184ea42ff80dd913f9c329628F.webp?v=1786233513",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/Scbccec9184ea42ff80dd913f9c329628F.webp",
+      "sku_keys": [
+        "14:175#blue hands"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-29-mod-nh35-v-blue-hands.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-29-mod-nh35/cadran-pilote-29-mod-nh35-v-blue-hands.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213329748306",
+          "title": "blue hands",
+          "sku": "14:175#blue hands",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "blue hands"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-29-mod-nh35",
+      "product_gid": "gid://shopify/Product/11013081497938",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894151512402",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sec960ce161274d3db0b0854a5807b552s.webp?v=1786233513",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/Sec960ce161274d3db0b0854a5807b552s.webp",
+      "sku_keys": [
+        "14:347#salmon dial-No lume"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-29-mod-nh35-v-salmon-dial-no-lume.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-29-mod-nh35/cadran-pilote-29-mod-nh35-v-salmon-dial-no-lume.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213329650002",
+          "title": "salmon dial-No lume",
+          "sku": "14:347#salmon dial-No lume",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "salmon dial-No lume"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-29-mod-nh35",
+      "product_gid": "gid://shopify/Product/11013081497938",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894151709010",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sdea81705cf054f4ca1ce66e125f100053.webp?v=1786233513",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/Sdea81705cf054f4ca1ce66e125f100053.webp",
+      "sku_keys": [
+        "14:200025551#salmon set-No lume"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-29-mod-nh35-v-salmon-set-no-lume.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-29-mod-nh35/cadran-pilote-29-mod-nh35-v-salmon-set-no-lume.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213329518930",
+          "title": "salmon set-No lume",
+          "sku": "14:200025551#salmon set-No lume",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "salmon set-No lume"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-29-mod-nh35",
+      "product_gid": "gid://shopify/Product/11013081497938",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894151577938",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sbd91415bf0424774a85b570381b9357db.webp?v=1786233512",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/Sbd91415bf0424774a85b570381b9357db.webp",
+      "sku_keys": [
+        "14:200200134#silver hands"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-29-mod-nh35-v-silver-hands.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-29-mod-nh35/cadran-pilote-29-mod-nh35-v-silver-hands.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213329715538",
+          "title": "silver hands",
+          "sku": "14:200200134#silver hands",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "silver hands"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-29-mod-nh35",
+      "product_gid": "gid://shopify/Product/11013081497938",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894151774546",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S1e1234be302d4542b8e2de73036b199fs.webp?v=1786233513",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/S1e1234be302d4542b8e2de73036b199fs.webp",
+      "sku_keys": [
+        "14:193#white dial-No lume"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-29-mod-nh35-v-white-dial-no-lume.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-29-mod-nh35/cadran-pilote-29-mod-nh35-v-white-dial-no-lume.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213329584466",
+          "title": "white dial-No lume",
+          "sku": "14:193#white dial-No lume",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "white dial-No lume"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-29-mod-nh35",
+      "product_gid": "gid://shopify/Product/11013081497938",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894151741778",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sf5fa27b7a9be42cdbec50ad9e1009f1eF.webp?v=1786233513",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/Sf5fa27b7a9be42cdbec50ad9e1009f1eF.webp",
+      "sku_keys": [
+        "14:29#white set-No lume"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-29-mod-nh35-v-white-set-no-lume.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-29-mod-nh35/cadran-pilote-29-mod-nh35-v-white-set-no-lume.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213329551698",
+          "title": "white set-No lume",
+          "sku": "14:29#white set-No lume",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "white set-No lume"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-33-5-aiguilles-blanches",
+      "product_gid": "gid://shopify/Product/11013081596242",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894152986962",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sb166dd8ca288483f93f03a163ad548a9t.webp?v=1786233514",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-blanches/Sb166dd8ca288483f93f03a163ad548a9t.webp",
+      "sku_keys": [
+        "14:29#dial 1 hands"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-33-5-aiguilles-blanches-v-dial-1-hands.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-blanches/cadran-pilote-33-5-aiguilles-blanches-v-dial-1-hands.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213330829650",
+          "title": "dial 1 hands / for NH35 NH36",
+          "sku": "14:29#dial 1 hands;200000046:201720836#for NH35 NH36",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "dial 1 hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for NH35 NH36"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213330862418",
+          "title": "dial 1 hands / for Miyota82 DG2813",
+          "sku": "14:29#dial 1 hands;200000046:201718821#for Miyota82 DG2813",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "dial 1 hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for Miyota82 DG2813"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213330895186",
+          "title": "dial 1 hands / for ETA2824 PT5000",
+          "sku": "14:29#dial 1 hands;200000046:201720837#for ETA2824 PT5000",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "dial 1 hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for ETA2824 PT5000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-33-5-aiguilles-blanches",
+      "product_gid": "gid://shopify/Product/11013081596242",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894152888658",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S3c3ed1ca117c45c3a2c273175ff51d75G.webp?v=1786233514",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-blanches/S3c3ed1ca117c45c3a2c273175ff51d75G.webp",
+      "sku_keys": [
+        "14:200025551#dial 1"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-33-5-aiguilles-blanches-v-dial-1.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-blanches/cadran-pilote-33-5-aiguilles-blanches-v-dial-1.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213330600274",
+          "title": "dial 1 / for NH35 NH36",
+          "sku": "14:200025551#dial 1;200000046:201720836#for NH35 NH36",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "dial 1"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for NH35 NH36"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213330633042",
+          "title": "dial 1 / for Miyota82 DG2813",
+          "sku": "14:200025551#dial 1;200000046:201718821#for Miyota82 DG2813",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "dial 1"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for Miyota82 DG2813"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213330665810",
+          "title": "dial 1 / for ETA2824 PT5000",
+          "sku": "14:200025551#dial 1;200000046:201720837#for ETA2824 PT5000",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "dial 1"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for ETA2824 PT5000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-33-5-aiguilles-blanches",
+      "product_gid": "gid://shopify/Product/11013081596242",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894152954194",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S4e7fa5915b4e4afeb7a2054c1682f258a.webp?v=1786233514",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-blanches/S4e7fa5915b4e4afeb7a2054c1682f258a.webp",
+      "sku_keys": [
+        "14:100016652#dial 2 hands"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-33-5-aiguilles-blanches-v-dial-2-hands.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-blanches/cadran-pilote-33-5-aiguilles-blanches-v-dial-2-hands.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213330764114",
+          "title": "dial 2 hands / for NH35 NH36",
+          "sku": "14:100016652#dial 2 hands;200000046:201720836#for NH35 NH36",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "dial 2 hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for NH35 NH36"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213330796882",
+          "title": "dial 2 hands / for Miyota82 DG2813",
+          "sku": "14:100016652#dial 2 hands;200000046:201718821#for Miyota82 DG2813",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "dial 2 hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for Miyota82 DG2813"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213330960722",
+          "title": "dial 2 hands / for ETA2824 PT5000",
+          "sku": "14:100016652#dial 2 hands;200000046:201720837#for ETA2824 PT5000",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "dial 2 hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for ETA2824 PT5000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-33-5-aiguilles-blanches",
+      "product_gid": "gid://shopify/Product/11013081596242",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894152921426",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S51c6b3b32e4d4355875f5cb9549e6b8b6.webp?v=1786233514",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-blanches/S51c6b3b32e4d4355875f5cb9549e6b8b6.webp",
+      "sku_keys": [
+        "14:201336230#dial 2"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-33-5-aiguilles-blanches-v-dial-2.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-blanches/cadran-pilote-33-5-aiguilles-blanches-v-dial-2.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213330698578",
+          "title": "dial 2 / for Miyota82 DG2813",
+          "sku": "14:201336230#dial 2;200000046:201718821#for Miyota82 DG2813",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "dial 2"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for Miyota82 DG2813"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213330731346",
+          "title": "dial 2 / for ETA2824 PT5000",
+          "sku": "14:201336230#dial 2;200000046:201720837#for ETA2824 PT5000",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "dial 2"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for ETA2824 PT5000"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213330927954",
+          "title": "dial 2 / for NH35 NH36",
+          "sku": "14:201336230#dial 2;200000046:201720836#for NH35 NH36",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "dial 2"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for NH35 NH36"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-33-5-aiguilles-blanches",
+      "product_gid": "gid://shopify/Product/11013081596242",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894153019730",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S86fa20a8f18b406aa1800eca1cf1e07fn.webp?v=1786233514",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-blanches/S86fa20a8f18b406aa1800eca1cf1e07fn.webp",
+      "sku_keys": [
+        "14:347#hands"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-33-5-aiguilles-blanches-v-hands.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-blanches/cadran-pilote-33-5-aiguilles-blanches-v-hands.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213330993490",
+          "title": "hands / for NH35 NH36",
+          "sku": "14:347#hands;200000046:201720836#for NH35 NH36",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for NH35 NH36"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213331026258",
+          "title": "hands / for Miyota82 DG2813",
+          "sku": "14:347#hands;200000046:201718821#for Miyota82 DG2813",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for Miyota82 DG2813"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213331059026",
+          "title": "hands / for ETA2824 PT5000",
+          "sku": "14:347#hands;200000046:201720837#for ETA2824 PT5000",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for ETA2824 PT5000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+      "product_gid": "gid://shopify/Product/11013081399634",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894149808466",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S35caf418760b4afbab4efe1602f6ec60y.webp?v=1786233512",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/S35caf418760b4afbab4efe1602f6ec60y.webp",
+      "sku_keys": [
+        "14:365462#black dial 1 hands"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-1-hands.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-1-hands.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213327454546",
+          "title": "black dial 1 hands / for ETA2824 PT5000",
+          "sku": "14:365462#black dial 1 hands;200000046:201718821#for ETA2824 PT5000",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "black dial 1 hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for ETA2824 PT5000"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213327487314",
+          "title": "black dial 1 hands / for Miyota8215 821A",
+          "sku": "14:365462#black dial 1 hands;200000046:201720837#for Miyota8215 821A",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "black dial 1 hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for Miyota8215 821A"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213328175442",
+          "title": "black dial 1 hands / for NH35 NH36 NH38",
+          "sku": "14:365462#black dial 1 hands;200000046:201720836#for NH35 NH36 NH38",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "black dial 1 hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for NH35 NH36 NH38"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+      "product_gid": "gid://shopify/Product/11013081399634",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894149513554",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S9954817d193441e38189dd028a59618ff.webp?v=1786233512",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/S9954817d193441e38189dd028a59618ff.webp",
+      "sku_keys": [
+        "14:347#black dial 1"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-1.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-1.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213328077138",
+          "title": "black dial 1 / for NH35 NH36 NH38",
+          "sku": "14:347#black dial 1;200000046:201720836#for NH35 NH36 NH38",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "black dial 1"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for NH35 NH36 NH38"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213328109906",
+          "title": "black dial 1 / for ETA2824 PT5000",
+          "sku": "14:347#black dial 1;200000046:201718821#for ETA2824 PT5000",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "black dial 1"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for ETA2824 PT5000"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213328142674",
+          "title": "black dial 1 / for Miyota8215 821A",
+          "sku": "14:347#black dial 1;200000046:201720837#for Miyota8215 821A",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "black dial 1"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for Miyota8215 821A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+      "product_gid": "gid://shopify/Product/11013081399634",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894149677394",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S07ad54a7465341efaab46c7a3f0ce9554.webp?v=1786233512",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/S07ad54a7465341efaab46c7a3f0ce9554.webp",
+      "sku_keys": [
+        "14:100016652#black dial 2 hands"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-2-hands.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-2-hands.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213327978834",
+          "title": "black dial 2 hands / for NH35 NH36 NH38",
+          "sku": "14:100016652#black dial 2 hands;200000046:201720836#for NH35 NH36 NH38",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "black dial 2 hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for NH35 NH36 NH38"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213328011602",
+          "title": "black dial 2 hands / for ETA2824 PT5000",
+          "sku": "14:100016652#black dial 2 hands;200000046:201718821#for ETA2824 PT5000",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "black dial 2 hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for ETA2824 PT5000"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213328044370",
+          "title": "black dial 2 hands / for Miyota8215 821A",
+          "sku": "14:100016652#black dial 2 hands;200000046:201720837#for Miyota8215 821A",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "black dial 2 hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for Miyota8215 821A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+      "product_gid": "gid://shopify/Product/11013081399634",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894149480786",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S7782a05cd41144a5abde305f0d1caa4fy.webp?v=1786233512",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/S7782a05cd41144a5abde305f0d1caa4fy.webp",
+      "sku_keys": [
+        "14:201336230#black dial 2"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-2.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-2.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213327946066",
+          "title": "black dial 2 / for Miyota8215 821A",
+          "sku": "14:201336230#black dial 2;200000046:201720837#for Miyota8215 821A",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "black dial 2"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for Miyota8215 821A"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213328404818",
+          "title": "black dial 2 / for NH35 NH36 NH38",
+          "sku": "14:201336230#black dial 2;200000046:201720836#for NH35 NH36 NH38",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "black dial 2"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for NH35 NH36 NH38"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213328437586",
+          "title": "black dial 2 / for ETA2824 PT5000",
+          "sku": "14:201336230#black dial 2;200000046:201718821#for ETA2824 PT5000",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "black dial 2"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for ETA2824 PT5000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+      "product_gid": "gid://shopify/Product/11013081399634",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894149611858",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S19e9880fad6242bea9e75c87c8c7c83dn.webp?v=1786233512",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/S19e9880fad6242bea9e75c87c8c7c83dn.webp",
+      "sku_keys": [
+        "14:173#blue dial hands"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-blue-dial-hands.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-blue-dial-hands.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213327618386",
+          "title": "blue dial hands / for NH35 NH36 NH38",
+          "sku": "14:173#blue dial hands;200000046:201720836#for NH35 NH36 NH38",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "blue dial hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for NH35 NH36 NH38"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213327651154",
+          "title": "blue dial hands / for ETA2824 PT5000",
+          "sku": "14:173#blue dial hands;200000046:201718821#for ETA2824 PT5000",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "blue dial hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for ETA2824 PT5000"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213327683922",
+          "title": "blue dial hands / for Miyota8215 821A",
+          "sku": "14:173#blue dial hands;200000046:201720837#for Miyota8215 821A",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "blue dial hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for Miyota8215 821A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+      "product_gid": "gid://shopify/Product/11013081399634",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894149841234",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sa4e3471cb19148b1ae5517689bfbe8896.webp?v=1786233512",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/Sa4e3471cb19148b1ae5517689bfbe8896.webp",
+      "sku_keys": [
+        "14:193#blue dial"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-blue-dial.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-blue-dial.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213327520082",
+          "title": "blue dial / for NH35 NH36 NH38",
+          "sku": "14:193#blue dial;200000046:201720836#for NH35 NH36 NH38",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "blue dial"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for NH35 NH36 NH38"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213327552850",
+          "title": "blue dial / for ETA2824 PT5000",
+          "sku": "14:193#blue dial;200000046:201718821#for ETA2824 PT5000",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "blue dial"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for ETA2824 PT5000"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213327585618",
+          "title": "blue dial / for Miyota8215 821A",
+          "sku": "14:193#blue dial;200000046:201720837#for Miyota8215 821A",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "blue dial"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for Miyota8215 821A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+      "product_gid": "gid://shopify/Product/11013081399634",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894149579090",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Se7d7bc37b7794b78bb3342382418571eI.webp?v=1786233512",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/Se7d7bc37b7794b78bb3342382418571eI.webp",
+      "sku_keys": [
+        "14:865#green dial hands"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-green-dial-hands.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-green-dial-hands.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213327290706",
+          "title": "green dial hands / for NH35 NH36 NH38",
+          "sku": "14:865#green dial hands;200000046:201720836#for NH35 NH36 NH38",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "green dial hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for NH35 NH36 NH38"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213327323474",
+          "title": "green dial hands / for ETA2824 PT5000",
+          "sku": "14:865#green dial hands;200000046:201718821#for ETA2824 PT5000",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "green dial hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for ETA2824 PT5000"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213327356242",
+          "title": "green dial hands / for Miyota8215 821A",
+          "sku": "14:865#green dial hands;200000046:201720837#for Miyota8215 821A",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "green dial hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for Miyota8215 821A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+      "product_gid": "gid://shopify/Product/11013081399634",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894149742930",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sdb1507011ecb4322844a233972c55712e.webp?v=1786233512",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/Sdb1507011ecb4322844a233972c55712e.webp",
+      "sku_keys": [
+        "14:175#green dial"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-green-dial.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-green-dial.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213327192402",
+          "title": "green dial / for NH35 NH36 NH38",
+          "sku": "14:175#green dial;200000046:201720836#for NH35 NH36 NH38",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "green dial"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for NH35 NH36 NH38"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213327225170",
+          "title": "green dial / for ETA2824 PT5000",
+          "sku": "14:175#green dial;200000046:201718821#for ETA2824 PT5000",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "green dial"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for ETA2824 PT5000"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213327257938",
+          "title": "green dial / for Miyota8215 821A",
+          "sku": "14:175#green dial;200000046:201720837#for Miyota8215 821A",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "green dial"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for Miyota8215 821A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+      "product_gid": "gid://shopify/Product/11013081399634",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894149775698",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sdc3aab4eed1c44a8a8946e82c6157f9aL.webp?v=1786233511",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/Sdc3aab4eed1c44a8a8946e82c6157f9aL.webp",
+      "sku_keys": [
+        "14:201659835#hands A"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-hands-a.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-hands-a.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213327389010",
+          "title": "hands A / for NH35 NH36 NH38",
+          "sku": "14:201659835#hands A;200000046:201720836#for NH35 NH36 NH38",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "hands A"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for NH35 NH36 NH38"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213327421778",
+          "title": "hands A / for ETA2824 PT5000",
+          "sku": "14:201659835#hands A;200000046:201718821#for ETA2824 PT5000",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "hands A"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for ETA2824 PT5000"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213327716690",
+          "title": "hands A / for Miyota8215 821A",
+          "sku": "14:201659835#hands A;200000046:201720837#for Miyota8215 821A",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "hands A"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for Miyota8215 821A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+      "product_gid": "gid://shopify/Product/11013081399634",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894149644626",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sf71e5e2cee0d4162a367ac9a6e5798cb3.webp?v=1786233512",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/Sf71e5e2cee0d4162a367ac9a6e5798cb3.webp",
+      "sku_keys": [
+        "14:200744745#hands B"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-hands-b.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-hands-b.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213327749458",
+          "title": "hands B / for NH35 NH36 NH38",
+          "sku": "14:200744745#hands B;200000046:201720836#for NH35 NH36 NH38",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "hands B"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for NH35 NH36 NH38"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213327782226",
+          "title": "hands B / for ETA2824 PT5000",
+          "sku": "14:200744745#hands B;200000046:201718821#for ETA2824 PT5000",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "hands B"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for ETA2824 PT5000"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213327814994",
+          "title": "hands B / for Miyota8215 821A",
+          "sku": "14:200744745#hands B;200000046:201720837#for Miyota8215 821A",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "hands B"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for Miyota8215 821A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+      "product_gid": "gid://shopify/Product/11013081399634",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894149874002",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S265f9f671f7d489bb5439c40f89ffa505.webp?v=1786233511",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/S265f9f671f7d489bb5439c40f89ffa505.webp",
+      "sku_keys": [
+        "14:1089#hands C"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-hands-c.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-hands-c.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213327847762",
+          "title": "hands C / for NH35 NH36 NH38",
+          "sku": "14:1089#hands C;200000046:201720836#for NH35 NH36 NH38",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "hands C"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for NH35 NH36 NH38"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213327880530",
+          "title": "hands C / for ETA2824 PT5000",
+          "sku": "14:1089#hands C;200000046:201718821#for ETA2824 PT5000",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "hands C"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for ETA2824 PT5000"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213327913298",
+          "title": "hands C / for Miyota8215 821A",
+          "sku": "14:1089#hands C;200000046:201720837#for Miyota8215 821A",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "hands C"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for Miyota8215 821A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+      "product_gid": "gid://shopify/Product/11013081399634",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894149710162",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S07331f8c09d14e07ae7430951b2edb97M.webp?v=1786233512",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/S07331f8c09d14e07ae7430951b2edb97M.webp",
+      "sku_keys": [
+        "14:29#silver dial hands"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-silver-dial-hands.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-silver-dial-hands.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213328306514",
+          "title": "silver dial hands / for NH35 NH36 NH38",
+          "sku": "14:29#silver dial hands;200000046:201720836#for NH35 NH36 NH38",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "silver dial hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for NH35 NH36 NH38"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213328339282",
+          "title": "silver dial hands / for ETA2824 PT5000",
+          "sku": "14:29#silver dial hands;200000046:201718821#for ETA2824 PT5000",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "silver dial hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for ETA2824 PT5000"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213328372050",
+          "title": "silver dial hands / for Miyota8215 821A",
+          "sku": "14:29#silver dial hands;200000046:201720837#for Miyota8215 821A",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "silver dial hands"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for Miyota8215 821A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+      "product_gid": "gid://shopify/Product/11013081399634",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894149546322",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S2faf9df0196d4188895526b1766448c6W.webp?v=1786233512",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/S2faf9df0196d4188895526b1766448c6W.webp",
+      "sku_keys": [
+        "14:200025551#silver dial"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-33-5-aiguilles-lumineuses-v-silver-dial.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-silver-dial.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213328208210",
+          "title": "silver dial / for NH35 NH36 NH38",
+          "sku": "14:200025551#silver dial;200000046:201720836#for NH35 NH36 NH38",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "silver dial"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for NH35 NH36 NH38"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213328240978",
+          "title": "silver dial / for ETA2824 PT5000",
+          "sku": "14:200025551#silver dial;200000046:201718821#for ETA2824 PT5000",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "silver dial"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for ETA2824 PT5000"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213328273746",
+          "title": "silver dial / for Miyota8215 821A",
+          "sku": "14:200025551#silver dial;200000046:201720837#for Miyota8215 821A",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "silver dial"
+            },
+            {
+              "name": "Dial Diameter",
+              "value": "for Miyota8215 821A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-noir-33-5-nh34",
+      "product_gid": "gid://shopify/Product/11013081465170",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894150332754",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sac3d6028146d4a71a60bafc1ffb0717bX.webp?v=1786233512",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/Sac3d6028146d4a71a60bafc1ffb0717bX.webp",
+      "sku_keys": [
+        "14:200025551#Dial 1  hand"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-noir-33-5-nh34-v-dial-1-hand.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/cadran-pilote-noir-33-5-nh34-v-dial-1-hand.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213328568658",
+          "title": "Dial 1  hand / China Mainland",
+          "sku": "14:200025551#Dial 1  hand;200007763:201336100",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Dial 1  hand"
+            },
+            {
+              "name": "Ships From",
+              "value": "China Mainland"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-noir-33-5-nh34",
+      "product_gid": "gid://shopify/Product/11013081465170",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894150234450",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S2beb2880f30d4495877344babd6f1c15n.webp?v=1786233512",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/S2beb2880f30d4495877344babd6f1c15n.webp",
+      "sku_keys": [
+        "14:29#Dial 1"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-noir-33-5-nh34-v-dial-1.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/cadran-pilote-noir-33-5-nh34-v-dial-1.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213328666962",
+          "title": "Dial 1 / China Mainland",
+          "sku": "14:29#Dial 1;200007763:201336100",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Dial 1"
+            },
+            {
+              "name": "Ships From",
+              "value": "China Mainland"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-noir-33-5-nh34",
+      "product_gid": "gid://shopify/Product/11013081465170",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894150365522",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sb8710c3725cb498291d3acdcf990e6edI.webp?v=1786233513",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/Sb8710c3725cb498291d3acdcf990e6edI.webp",
+      "sku_keys": [
+        "14:100016652#Dial 2 hand"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-noir-33-5-nh34-v-dial-2-hand.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/cadran-pilote-noir-33-5-nh34-v-dial-2-hand.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213328601426",
+          "title": "Dial 2 hand / China Mainland",
+          "sku": "14:100016652#Dial 2 hand;200007763:201336100",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Dial 2 hand"
+            },
+            {
+              "name": "Ships From",
+              "value": "China Mainland"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-noir-33-5-nh34",
+      "product_gid": "gid://shopify/Product/11013081465170",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894150299986",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Saff779d7200e432f921a9567892649fdy.webp?v=1786233512",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/Saff779d7200e432f921a9567892649fdy.webp",
+      "sku_keys": [
+        "14:201336230#Dial 2"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-noir-33-5-nh34-v-dial-2.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/cadran-pilote-noir-33-5-nh34-v-dial-2.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213328535890",
+          "title": "Dial 2 / China Mainland",
+          "sku": "14:201336230#Dial 2;200007763:201336100",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Dial 2"
+            },
+            {
+              "name": "Ships From",
+              "value": "China Mainland"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-noir-33-5-nh34",
+      "product_gid": "gid://shopify/Product/11013081465170",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894150398290",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sf4b20fe9b3534454952eb58b10dfebb4D.webp?v=1786233512",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/Sf4b20fe9b3534454952eb58b10dfebb4D.webp",
+      "sku_keys": [
+        "14:201659835#Dial 3 hand"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-noir-33-5-nh34-v-dial-3-hand.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/cadran-pilote-noir-33-5-nh34-v-dial-3-hand.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213328634194",
+          "title": "Dial 3 hand / China Mainland",
+          "sku": "14:201659835#Dial 3 hand;200007763:201336100",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Dial 3 hand"
+            },
+            {
+              "name": "Ships From",
+              "value": "China Mainland"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-pilote-noir-33-5-nh34",
+      "product_gid": "gid://shopify/Product/11013081465170",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894150267218",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S0ddfc7b68b0a4f5dba36efa7cbe34a90Z.webp?v=1786233512",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/S0ddfc7b68b0a4f5dba36efa7cbe34a90Z.webp",
+      "sku_keys": [
+        "14:865#Dial 3"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-pilote-noir-33-5-nh34-v-dial-3.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/cadran-pilote-noir-33-5-nh34-v-dial-3.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213328503122",
+          "title": "Dial 3 / China Mainland",
+          "sku": "14:865#Dial 3;200007763:201336100",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Dial 3"
+            },
+            {
+              "name": "Ships From",
+              "value": "China Mainland"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-couronne-3h-28-5",
+      "product_gid": "gid://shopify/Product/11013077533010",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894114287954",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S841c7a64845449e3b309db6e0c738c2fR.webp?v=1786233161",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-couronne-3h-28-5/S841c7a64845449e3b309db6e0c738c2fR.webp",
+      "sku_keys": [
+        "14:201447598#A1"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-couronne-3h-28-5-v-a1.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-couronne-3h-28-5/cadran-sterile-couronne-3h-28-5-v-a1.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213303370066",
+          "title": "A1",
+          "sku": "14:201447598#A1",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "A1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-couronne-3h-28-5",
+      "product_gid": "gid://shopify/Product/11013077533010",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894114255186",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S1fa625c465ad4110bc433da0d8a68705H.webp?v=1786233161",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-couronne-3h-28-5/S1fa625c465ad4110bc433da0d8a68705H.webp",
+      "sku_keys": [
+        "14:201447303#A2"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-couronne-3h-28-5-v-a2.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-couronne-3h-28-5/cadran-sterile-couronne-3h-28-5-v-a2.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213303337298",
+          "title": "A2",
+          "sku": "14:201447303#A2",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "A2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-couronne-3h-28-5",
+      "product_gid": "gid://shopify/Product/11013077533010",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894114222418",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S9be6414532514d64a2c711b8585db5e53.webp?v=1786233162",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-couronne-3h-28-5/S9be6414532514d64a2c711b8585db5e53.webp",
+      "sku_keys": [
+        "14:200005100#A3"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-couronne-3h-28-5-v-a3.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-couronne-3h-28-5/cadran-sterile-couronne-3h-28-5-v-a3.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213303304530",
+          "title": "A3",
+          "sku": "14:200005100#A3",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "A3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-couronne-3h-28-5",
+      "product_gid": "gid://shopify/Product/11013077533010",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894114189650",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S84ea42084a064a71807170179f0cf559z.webp?v=1786233160",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-couronne-3h-28-5/S84ea42084a064a71807170179f0cf559z.webp",
+      "sku_keys": [
+        "14:200000080#A4"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-couronne-3h-28-5-v-a4.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-couronne-3h-28-5/cadran-sterile-couronne-3h-28-5-v-a4.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213303271762",
+          "title": "A4",
+          "sku": "14:200000080#A4",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "A4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-couronne-3h-28-5",
+      "product_gid": "gid://shopify/Product/11013077533010",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894114156882",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S3a4b770697c6401bb8ca771609ffcebeh.webp?v=1786233161",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-couronne-3h-28-5/S3a4b770697c6401bb8ca771609ffcebeh.webp",
+      "sku_keys": [
+        "14:100013777#A5"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-couronne-3h-28-5-v-a5.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-couronne-3h-28-5/cadran-sterile-couronne-3h-28-5-v-a5.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213303238994",
+          "title": "A5",
+          "sku": "14:100013777#A5",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "A5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-couronne-3h-28-5",
+      "product_gid": "gid://shopify/Product/11013077533010",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894114124114",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S15be9b925e224c4dbac586a46a903366n.webp?v=1786233161",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-couronne-3h-28-5/S15be9b925e224c4dbac586a46a903366n.webp",
+      "sku_keys": [
+        "14:100005979#A6"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-couronne-3h-28-5-v-a6.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-couronne-3h-28-5/cadran-sterile-couronne-3h-28-5-v-a6.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213303206226",
+          "title": "A6",
+          "sku": "14:100005979#A6",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "A6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-couronne-3h-28-5",
+      "product_gid": "gid://shopify/Product/11013077533010",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894114091346",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S5a600b9919bb42ec9572eae1121704c2o.webp?v=1786233160",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-couronne-3h-28-5/S5a600b9919bb42ec9572eae1121704c2o.webp",
+      "sku_keys": [
+        "14:350686#A7"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-couronne-3h-28-5-v-a7.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-couronne-3h-28-5/cadran-sterile-couronne-3h-28-5-v-a7.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213303173458",
+          "title": "A7",
+          "sku": "14:350686#A7",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "A7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-lumineux-28-5",
+      "product_gid": "gid://shopify/Product/11013078712658",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894120120658",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Saee015d3899d4d959fa8d5d8728e733f1.webp?v=1786233172",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-lumineux-28-5/Saee015d3899d4d959fa8d5d8728e733f1.webp",
+      "sku_keys": [
+        "14:94#1"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-lumineux-28-5-v-1.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-lumineux-28-5/cadran-sterile-lumineux-28-5-v-1.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309170002",
+          "title": "1",
+          "sku": "14:94#1",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-lumineux-28-5",
+      "product_gid": "gid://shopify/Product/11013078712658",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894120186194",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S359bc4ab1c974e1f91c6ffc481e3dadcz.webp?v=1786233172",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-lumineux-28-5/S359bc4ab1c974e1f91c6ffc481e3dadcz.webp",
+      "sku_keys": [
+        "14:350850#10"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-lumineux-28-5-v-10.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-lumineux-28-5/cadran-sterile-lumineux-28-5-v-10.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309464914",
+          "title": "10",
+          "sku": "14:350850#10",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-lumineux-28-5",
+      "product_gid": "gid://shopify/Product/11013078712658",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894120153426",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S850d9827149a4bd281be7ea5f6cd59606.webp?v=1786233172",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-lumineux-28-5/S850d9827149a4bd281be7ea5f6cd59606.webp",
+      "sku_keys": [
+        "14:350853#11"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-lumineux-28-5-v-11.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-lumineux-28-5/cadran-sterile-lumineux-28-5-v-11.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309432146",
+          "title": "11",
+          "sku": "14:350853#11",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-lumineux-28-5",
+      "product_gid": "gid://shopify/Product/11013078712658",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894120087890",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sa1d664552f454684b0c1954ee9afdc23s.webp?v=1786233172",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-lumineux-28-5/Sa1d664552f454684b0c1954ee9afdc23s.webp",
+      "sku_keys": [
+        "14:173#12-Silver"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-lumineux-28-5-v-12-silver.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-lumineux-28-5/cadran-sterile-lumineux-28-5-v-12-silver.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309038930",
+          "title": "12-Silver",
+          "sku": "14:173#12-Silver",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "12-Silver"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-lumineux-28-5",
+      "product_gid": "gid://shopify/Product/11013078712658",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894120218962",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sfec671ab57f4410fb9cb18014b9e6d62F.webp?v=1786233172",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-lumineux-28-5/Sfec671ab57f4410fb9cb18014b9e6d62F.webp",
+      "sku_keys": [
+        "14:10#13"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-lumineux-28-5-v-13.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-lumineux-28-5/cadran-sterile-lumineux-28-5-v-13.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213308940626",
+          "title": "13",
+          "sku": "14:10#13",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-lumineux-28-5",
+      "product_gid": "gid://shopify/Product/11013078712658",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894119956818",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S463e915e907144cfb27e116f71edcbbcG.webp?v=1786233172",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-lumineux-28-5/S463e915e907144cfb27e116f71edcbbcG.webp",
+      "sku_keys": [
+        "14:29#14"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-lumineux-28-5-v-14.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-lumineux-28-5/cadran-sterile-lumineux-28-5-v-14.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213308907858",
+          "title": "14",
+          "sku": "14:29#14",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-lumineux-28-5",
+      "product_gid": "gid://shopify/Product/11013078712658",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894120251730",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S005b10af4c994e4c8da5ae1ebe97433cN.webp?v=1786233172",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-lumineux-28-5/S005b10af4c994e4c8da5ae1ebe97433cN.webp",
+      "sku_keys": [
+        "14:175#15"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-lumineux-28-5-v-15.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-lumineux-28-5/cadran-sterile-lumineux-28-5-v-15.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309006162",
+          "title": "15",
+          "sku": "14:175#15",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-lumineux-28-5",
+      "product_gid": "gid://shopify/Product/11013078712658",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894119891282",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S06ce3f4e117c49e3b41513dc716883baz.webp?v=1786233172",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-lumineux-28-5/S06ce3f4e117c49e3b41513dc716883baz.webp",
+      "sku_keys": [
+        "14:193#16"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-lumineux-28-5-v-16.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-lumineux-28-5/cadran-sterile-lumineux-28-5-v-16.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309104466",
+          "title": "16",
+          "sku": "14:193#16",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-lumineux-28-5",
+      "product_gid": "gid://shopify/Product/11013078712658",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894119858514",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Se906fd1c2c704d80a693e2744fcb2743p.webp?v=1786233172",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-lumineux-28-5/Se906fd1c2c704d80a693e2744fcb2743p.webp",
+      "sku_keys": [
+        "14:366#17"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-lumineux-28-5-v-17.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-lumineux-28-5/cadran-sterile-lumineux-28-5-v-17.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309071698",
+          "title": "17",
+          "sku": "14:366#17",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-lumineux-28-5",
+      "product_gid": "gid://shopify/Product/11013078712658",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894119989586",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sa8256e96f92e4989b352f97d31665e3er.webp?v=1786233173",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-lumineux-28-5/Sa8256e96f92e4989b352f97d31665e3er.webp",
+      "sku_keys": [
+        "14:201447598#2"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-lumineux-28-5-v-2.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-lumineux-28-5/cadran-sterile-lumineux-28-5-v-2.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309202770",
+          "title": "2",
+          "sku": "14:201447598#2",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-lumineux-28-5",
+      "product_gid": "gid://shopify/Product/11013078712658",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894120317266",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S74874b95dc144f938d2937a0b2d86bf04.webp?v=1786233172",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-lumineux-28-5/S74874b95dc144f938d2937a0b2d86bf04.webp",
+      "sku_keys": [
+        "14:201447303#3"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-lumineux-28-5-v-3.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-lumineux-28-5/cadran-sterile-lumineux-28-5-v-3.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309268306",
+          "title": "3",
+          "sku": "14:201447303#3",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-lumineux-28-5",
+      "product_gid": "gid://shopify/Product/11013078712658",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894119924050",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S8745f2d56920458c832a6c882878b9dcL.webp?v=1786233172",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-lumineux-28-5/S8745f2d56920458c832a6c882878b9dcL.webp",
+      "sku_keys": [
+        "14:200005100#4"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-lumineux-28-5-v-4.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-lumineux-28-5/cadran-sterile-lumineux-28-5-v-4.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309235538",
+          "title": "4",
+          "sku": "14:200005100#4",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-lumineux-28-5",
+      "product_gid": "gid://shopify/Product/11013078712658",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894119825746",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S16a99beb7ab94cbd94a0956653acf8ffP.webp?v=1786233172",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-lumineux-28-5/S16a99beb7ab94cbd94a0956653acf8ffP.webp",
+      "sku_keys": [
+        "14:496#5-Silver",
+        "14:200000080#5"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-lumineux-28-5-v-5-silver-5.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-lumineux-28-5/cadran-sterile-lumineux-28-5-v-5-silver-5.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213308973394",
+          "title": "5-Silver",
+          "sku": "14:496#5-Silver",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "5-Silver"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213309333842",
+          "title": "5",
+          "sku": "14:200000080#5",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-lumineux-28-5",
+      "product_gid": "gid://shopify/Product/11013078712658",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894120284498",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S6cbde8bce23940c2b349aa23a0ecff07i.webp?v=1786233172",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-lumineux-28-5/S6cbde8bce23940c2b349aa23a0ecff07i.webp",
+      "sku_keys": [
+        "14:4#6"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-lumineux-28-5-v-6.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-lumineux-28-5/cadran-sterile-lumineux-28-5-v-6.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309137234",
+          "title": "6",
+          "sku": "14:4#6",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-lumineux-28-5",
+      "product_gid": "gid://shopify/Product/11013078712658",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894120350034",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S358fccf78bff4a3c89424d134025d304q.webp?v=1786233172",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-lumineux-28-5/S358fccf78bff4a3c89424d134025d304q.webp",
+      "sku_keys": [
+        "14:100013777#7"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-lumineux-28-5-v-7.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-lumineux-28-5/cadran-sterile-lumineux-28-5-v-7.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309301074",
+          "title": "7",
+          "sku": "14:100013777#7",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-lumineux-28-5",
+      "product_gid": "gid://shopify/Product/11013078712658",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894120055122",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S18da62802e6a4d2493cab499a1b84a2bh.webp?v=1786233172",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-lumineux-28-5/S18da62802e6a4d2493cab499a1b84a2bh.webp",
+      "sku_keys": [
+        "14:100005979#8"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-lumineux-28-5-v-8.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-lumineux-28-5/cadran-sterile-lumineux-28-5-v-8.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309399378",
+          "title": "8",
+          "sku": "14:100005979#8",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-lumineux-28-5",
+      "product_gid": "gid://shopify/Product/11013078712658",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894120022354",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Se062a75b19cd440dba551b94e2976ec78.webp?v=1786233172",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-lumineux-28-5/Se062a75b19cd440dba551b94e2976ec78.webp",
+      "sku_keys": [
+        "14:350686#9"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-lumineux-28-5-v-9.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-lumineux-28-5/cadran-sterile-lumineux-28-5-v-9.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309366610",
+          "title": "9",
+          "sku": "14:350686#9",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-sunburst-28-5",
+      "product_gid": "gid://shopify/Product/11013078778194",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894120874322",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S65463f96f60149099295a415751c7193X.webp?v=1786233172",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-sunburst-28-5/S65463f96f60149099295a415751c7193X.webp",
+      "sku_keys": [
+        "14:193#Black"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-sunburst-28-5-v-black.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-black.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309792594",
+          "title": "Black / China Mainland",
+          "sku": "14:193#Black;200007763:201336100",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Ships From",
+              "value": "China Mainland"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-sunburst-28-5",
+      "product_gid": "gid://shopify/Product/11013078778194",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894120808786",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S09ca29ab071c47dea698a6710762155f6.webp?v=1786233172",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-sunburst-28-5/S09ca29ab071c47dea698a6710762155f6.webp",
+      "sku_keys": [
+        "14:173#Blue"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-sunburst-28-5-v-blue.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-blue.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309727058",
+          "title": "Blue / China Mainland",
+          "sku": "14:173#Blue;200007763:201336100",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Blue"
+            },
+            {
+              "name": "Ships From",
+              "value": "China Mainland"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-sunburst-28-5",
+      "product_gid": "gid://shopify/Product/11013078778194",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894120907090",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sae7a8b620f204736aeefba17ed3665abX.webp?v=1786233173",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-sunburst-28-5/Sae7a8b620f204736aeefba17ed3665abX.webp",
+      "sku_keys": [
+        "14:201447303#Brown"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-sunburst-28-5-v-brown.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-brown.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309825362",
+          "title": "Brown / China Mainland",
+          "sku": "14:201447303#Brown;200007763:201336100",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Brown"
+            },
+            {
+              "name": "Ships From",
+              "value": "China Mainland"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-sunburst-28-5",
+      "product_gid": "gid://shopify/Product/11013078778194",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894120710482",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S01bdd351492940a287f1bdb33a6d12ec3.webp?v=1786233173",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-sunburst-28-5/S01bdd351492940a287f1bdb33a6d12ec3.webp",
+      "sku_keys": [
+        "14:29#Gold"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-sunburst-28-5-v-gold.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-gold.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309923666",
+          "title": "Gold / China Mainland",
+          "sku": "14:29#Gold;200007763:201336100",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Gold"
+            },
+            {
+              "name": "Ships From",
+              "value": "China Mainland"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-sunburst-28-5",
+      "product_gid": "gid://shopify/Product/11013078778194",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894120677714",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S7626755844c84e2380a8410f14e52b33L.webp?v=1786233172",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-sunburst-28-5/S7626755844c84e2380a8410f14e52b33L.webp",
+      "sku_keys": [
+        "14:175#Green"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-sunburst-28-5-v-green.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-green.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309694290",
+          "title": "Green / China Mainland",
+          "sku": "14:175#Green;200007763:201336100",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Green"
+            },
+            {
+              "name": "Ships From",
+              "value": "China Mainland"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-sunburst-28-5",
+      "product_gid": "gid://shopify/Product/11013078778194",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894120612178",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S75f69dcc729743a586186a62681ac6fch.webp?v=1786233173",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-sunburst-28-5/S75f69dcc729743a586186a62681ac6fch.webp",
+      "sku_keys": [
+        "14:350686#Grey"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-sunburst-28-5-v-grey.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-grey.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309563218",
+          "title": "Grey / China Mainland",
+          "sku": "14:350686#Grey;200007763:201336100",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Grey"
+            },
+            {
+              "name": "Ships From",
+              "value": "China Mainland"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-sunburst-28-5",
+      "product_gid": "gid://shopify/Product/11013078778194",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894120841554",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S197e4ccbc2fb4375b9aeae15f1b5aae6F.webp?v=1786233173",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-sunburst-28-5/S197e4ccbc2fb4375b9aeae15f1b5aae6F.webp",
+      "sku_keys": [
+        "14:865#Orange"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-sunburst-28-5-v-orange.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-orange.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309759826",
+          "title": "Orange / China Mainland",
+          "sku": "14:865#Orange;200007763:201336100",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Orange"
+            },
+            {
+              "name": "Ships From",
+              "value": "China Mainland"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-sunburst-28-5",
+      "product_gid": "gid://shopify/Product/11013078778194",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894120743250",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Saf24082a780249b8b95790351a1929356.webp?v=1786233173",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-sunburst-28-5/Saf24082a780249b8b95790351a1929356.webp",
+      "sku_keys": [
+        "14:100013777#Purple"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-sunburst-28-5-v-purple.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-purple.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309595986",
+          "title": "Purple / China Mainland",
+          "sku": "14:100013777#Purple;200007763:201336100",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Purple"
+            },
+            {
+              "name": "Ships From",
+              "value": "China Mainland"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-sunburst-28-5",
+      "product_gid": "gid://shopify/Product/11013078778194",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894120776018",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S40320c9c62bc40d2ba12868b5f26c56cc.webp?v=1786233173",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-sunburst-28-5/S40320c9c62bc40d2ba12868b5f26c56cc.webp",
+      "sku_keys": [
+        "14:10#Red"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-sunburst-28-5-v-red.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-red.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309628754",
+          "title": "Red / China Mainland",
+          "sku": "14:10#Red;200007763:201336100",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Red"
+            },
+            {
+              "name": "Ships From",
+              "value": "China Mainland"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-sunburst-28-5",
+      "product_gid": "gid://shopify/Product/11013078778194",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894120644946",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sad2e75c3501445ca83574cab81272a25n.webp?v=1786233172",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-sunburst-28-5/Sad2e75c3501445ca83574cab81272a25n.webp",
+      "sku_keys": [
+        "14:350853#Silver"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-sunburst-28-5-v-silver.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-silver.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309661522",
+          "title": "Silver / China Mainland",
+          "sku": "14:350853#Silver;200007763:201336100",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Silver"
+            },
+            {
+              "name": "Ships From",
+              "value": "China Mainland"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-sunburst-28-5",
+      "product_gid": "gid://shopify/Product/11013078778194",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894120939858",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S7d225ea5eb134d28bb5cd968897bc0f0i.webp?v=1786233173",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-sunburst-28-5/S7d225ea5eb134d28bb5cd968897bc0f0i.webp",
+      "sku_keys": [
+        "14:4#Sky Blue"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-sunburst-28-5-v-sky-blue.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-sky-blue.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309858130",
+          "title": "Sky Blue / China Mainland",
+          "sku": "14:4#Sky Blue;200007763:201336100",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Sky Blue"
+            },
+            {
+              "name": "Ships From",
+              "value": "China Mainland"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-sterile-sunburst-28-5",
+      "product_gid": "gid://shopify/Product/11013078778194",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894120972626",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S66efca25d84a4f82bc0aaeae3e0c1322F.webp?v=1786233173",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-sunburst-28-5/S66efca25d84a4f82bc0aaeae3e0c1322F.webp",
+      "sku_keys": [
+        "14:366#Yellow"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-sterile-sunburst-28-5-v-yellow.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-sunburst-28-5/cadran-sterile-sunburst-28-5-v-yellow.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213309890898",
+          "title": "Yellow / China Mainland",
+          "sku": "14:366#Yellow;200007763:201336100",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Yellow"
+            },
+            {
+              "name": "Ships From",
+              "value": "China Mainland"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-vierge-sterile-28-5",
+      "product_gid": "gid://shopify/Product/11013077598546",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894114615634",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S425d4d0244af468ca6a4f569ff0157922.webp?v=1786233161",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-vierge-sterile-28-5/S425d4d0244af468ca6a4f569ff0157922.webp",
+      "sku_keys": [
+        "14:201447303#Black"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-vierge-sterile-28-5-v-black.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-black.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213303763282",
+          "title": "Black",
+          "sku": "14:201447303#Black",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Black"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-vierge-sterile-28-5",
+      "product_gid": "gid://shopify/Product/11013077598546",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894114746706",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sbf59c682e27f46ff8a59984b0428b8c24.webp?v=1786233161",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-vierge-sterile-28-5/Sbf59c682e27f46ff8a59984b0428b8c24.webp",
+      "sku_keys": [
+        "14:350686#Blue A1"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-vierge-sterile-28-5-v-blue-a1.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-blue-a1.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213303599442",
+          "title": "Blue A1",
+          "sku": "14:350686#Blue A1",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Blue A1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-vierge-sterile-28-5",
+      "product_gid": "gid://shopify/Product/11013077598546",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894114681170",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sc366cc3c8ee24e53bad904f641ede5a8t.webp?v=1786233161",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-vierge-sterile-28-5/Sc366cc3c8ee24e53bad904f641ede5a8t.webp",
+      "sku_keys": [
+        "14:350853#Blue A2"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-vierge-sterile-28-5-v-blue-a2.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-blue-a2.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213303533906",
+          "title": "Blue A2",
+          "sku": "14:350853#Blue A2",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Blue A2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-vierge-sterile-28-5",
+      "product_gid": "gid://shopify/Product/11013077598546",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894114517330",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S2840eec8fdbe47b58e21765cce362f16J.webp?v=1786233160",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-vierge-sterile-28-5/S2840eec8fdbe47b58e21765cce362f16J.webp",
+      "sku_keys": [
+        "14:94#Brown"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-vierge-sterile-28-5-v-brown.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-brown.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213303435602",
+          "title": "Brown",
+          "sku": "14:94#Brown",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Brown"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-vierge-sterile-28-5",
+      "product_gid": "gid://shopify/Product/11013077598546",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894114845010",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S71c40eb7b2fa4d8cb0a79ed0bc663346L.webp?v=1786233161",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-vierge-sterile-28-5/S71c40eb7b2fa4d8cb0a79ed0bc663346L.webp",
+      "sku_keys": [
+        "14:200005100#Gold"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-vierge-sterile-28-5-v-gold.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-gold.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213303730514",
+          "title": "Gold",
+          "sku": "14:200005100#Gold",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Gold"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-vierge-sterile-28-5",
+      "product_gid": "gid://shopify/Product/11013077598546",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894114550098",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S2701a0394c6840b692850cf89af7efaeW.webp?v=1786233161",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-vierge-sterile-28-5/S2701a0394c6840b692850cf89af7efaeW.webp",
+      "sku_keys": [
+        "14:10#Green"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-vierge-sterile-28-5-v-green.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-green.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213303501138",
+          "title": "Green",
+          "sku": "14:10#Green",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Green"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-vierge-sterile-28-5",
+      "product_gid": "gid://shopify/Product/11013077598546",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894114713938",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sc01ee971ad43434aa73ddc343392632ac.webp?v=1786233161",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-vierge-sterile-28-5/Sc01ee971ad43434aa73ddc343392632ac.webp",
+      "sku_keys": [
+        "14:350850#Grey"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-vierge-sterile-28-5-v-grey.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-grey.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213303566674",
+          "title": "Grey",
+          "sku": "14:350850#Grey",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Grey"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-vierge-sterile-28-5",
+      "product_gid": "gid://shopify/Product/11013077598546",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894114582866",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sc3a1c74039134b71a14e29d31a2b4e6ch.webp?v=1786233160",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-vierge-sterile-28-5/Sc3a1c74039134b71a14e29d31a2b4e6ch.webp",
+      "sku_keys": [
+        "14:100013777#Orange"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-vierge-sterile-28-5-v-orange.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-orange.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213303664978",
+          "title": "Orange",
+          "sku": "14:100013777#Orange",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Orange"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-vierge-sterile-28-5",
+      "product_gid": "gid://shopify/Product/11013077598546",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894114779474",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sa23c32d39b53480184576640f85e900fX.webp?v=1786233161",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-vierge-sterile-28-5/Sa23c32d39b53480184576640f85e900fX.webp",
+      "sku_keys": [
+        "14:100005979#Purple"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-vierge-sterile-28-5-v-purple.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-purple.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213303632210",
+          "title": "Purple",
+          "sku": "14:100005979#Purple",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Purple"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-vierge-sterile-28-5",
+      "product_gid": "gid://shopify/Product/11013077598546",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894114648402",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sc89277f0c07c4bb9b5401c57ce8e0645C.webp?v=1786233160",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-vierge-sterile-28-5/Sc89277f0c07c4bb9b5401c57ce8e0645C.webp",
+      "sku_keys": [
+        "14:29#Red"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-vierge-sterile-28-5-v-red.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-red.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213303468370",
+          "title": "Red",
+          "sku": "14:29#Red",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Red"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-vierge-sterile-28-5",
+      "product_gid": "gid://shopify/Product/11013077598546",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894114877778",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/S3aec91d6969746429b61514a87fb8d7ch.webp?v=1786233160",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-vierge-sterile-28-5/S3aec91d6969746429b61514a87fb8d7ch.webp",
+      "sku_keys": [
+        "14:201447598#Silver"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-vierge-sterile-28-5-v-silver.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-silver.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213303796050",
+          "title": "Silver",
+          "sku": "14:201447598#Silver",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Silver"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cadran-vierge-sterile-28-5",
+      "product_gid": "gid://shopify/Product/11013077598546",
+      "product_status": "DRAFT",
+      "old_media_gid": "gid://shopify/MediaImage/59894114812242",
+      "source_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/Sf3294822d01e49008422f74c860b25b8x.webp?v=1786233161",
+      "source_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-vierge-sterile-28-5/Sf3294822d01e49008422f74c860b25b8x.webp",
+      "sku_keys": [
+        "14:200000080#Yellow"
+      ],
+      "slot": "variante",
+      "target_file": "cadran-vierge-sterile-28-5-v-yellow.jpg",
+      "target_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-vierge-sterile-28-5/cadran-vierge-sterile-28-5-v-yellow.jpg",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213303697746",
+          "title": "Yellow",
+          "sku": "14:200000080#Yellow",
+          "selected_options": [
+            {
+              "name": "Color",
+              "value": "Yellow"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "schema": "maison-noirmont.shopify-visual-replacement-report.v1",
+  "generated_at": "2026-08-11T19:26:49+02:00",
+  "handle": "cadran-pilote-noir-33-5-nh34",
+  "product": {
+    "id": "gid://shopify/Product/11013081465170",
+    "status": "DRAFT",
+    "featured_media_id": "gid://shopify/MediaImage/59904315195730"
+  },
+  "generation_order": {
+    "id": "codex-20260811-1525-remplacement92-pilote-nh34-reprise-4",
+    "result_path": "ordres/pour-codex/resultats/20260811-1525-generate_images-remplacement92-pilote-nh34-reprise-4.json",
+    "archived_order_path": "ordres/pour-codex/resultats/20260811-1525-generate_images-remplacement92-pilote-nh34-reprise-4.ordre.json",
+    "status": "done",
+    "manifested_by_executor": 1,
+    "executor_rejection_entries": 14,
+    "difficult_subjects": 3
+  },
+  "external_qa": {
+    "final_pass_count": 0,
+    "final_reject_count": 4,
+    "decision": "ZERO_SHOPIFY_MUTATION",
+    "dial_1_hand": {
+      "status": "REJECTED_NOT_DELIVERED",
+      "reason": "Four candidates failed to keep the three hands and counterweight clear of all glyphs and markers."
+    },
+    "dial_2_hand": {
+      "status": "REJECTED_NOT_DELIVERED",
+      "reason": "Four candidates failed to preserve counterweight and clear 10/22 and other glyphs simultaneously."
+    },
+    "dial_3_hand": {
+      "status": "REJECTED_NOT_DELIVERED",
+      "reason": "Four candidates failed to preserve four asymmetric rectangles, exact hands, counterweight and clear glyphs simultaneously."
+    },
+    "dial_3_naked": {
+      "status": "REJECTED_BY_EXTERNAL_QA",
+      "file": "cadran-pilote-noir-33-5-nh34-v-dial-3.jpg",
+      "sha256": "9a1a09f225a04705928a7cbcb4024d3cea962942db1e3b905b76a7a0a2d57684",
+      "source_rectangle_hours": [0.91, 3.88, 7.22, 10.04],
+      "final_rectangle_hours_measured": [0.60, 3.48, 6.54, 9.64],
+      "blocking_defects": [
+        "All four large gold rectangles were shifted counterclockwise.",
+        "The lower rectangle was regularized toward 6.54 h instead of the source position 7.22 h.",
+        "The military arrow was straightened and symmetrized instead of preserving the inclined source glyph."
+      ]
+    },
+    "qa_board": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/qa/planche-remplacement92-pilote-nh34-reprise-4.jpg"
+  },
+  "shopify_targets_retained": [
+    {
+      "sku": "14:865#Dial 3;200007763:201336100",
+      "variant_id": "gid://shopify/ProductVariant/54213328503122",
+      "price": "10.80",
+      "old_supplier_media_id_retained": "gid://shopify/MediaImage/59894150267218",
+      "new_media_id": null
+    },
+    {
+      "sku": "14:200025551#Dial 1  hand;200007763:201336100",
+      "variant_id": "gid://shopify/ProductVariant/54213328568658",
+      "price": "13.94",
+      "old_supplier_media_id_retained": "gid://shopify/MediaImage/59894150332754",
+      "new_media_id": null
+    },
+    {
+      "sku": "14:100016652#Dial 2 hand;200007763:201336100",
+      "variant_id": "gid://shopify/ProductVariant/54213328601426",
+      "price": "13.69",
+      "old_supplier_media_id_retained": "gid://shopify/MediaImage/59894150365522",
+      "new_media_id": null
+    },
+    {
+      "sku": "14:201659835#Dial 3 hand;200007763:201336100",
+      "variant_id": "gid://shopify/ProductVariant/54213328634194",
+      "price": "13.72",
+      "old_supplier_media_id_retained": "gid://shopify/MediaImage/59894150398290",
+      "new_media_id": null
+    }
+  ],
+  "shopify_readback": {
+    "performed_live_via_shopify_mcp": true,
+    "mutation_performed": false,
+    "status": "DRAFT",
+    "featured_media_id": "gid://shopify/MediaImage/59904315195730",
+    "media_count": 9,
+    "variant_count": 6,
+    "media_all_ready": true,
+    "media_page_info_has_next_page": false,
+    "variant_page_info_has_next_page": false,
+    "prices_unchanged": true,
+    "preserved_non_target_associations": [
+      {
+        "sku": "14:201336230#Dial 2;200007763:201336100",
+        "variant_id": "gid://shopify/ProductVariant/54213328535890",
+        "price": "10.80",
+        "media_id": "gid://shopify/MediaImage/59925827813714"
+      },
+      {
+        "sku": "14:29#Dial 1;200007763:201336100",
+        "variant_id": "gid://shopify/ProductVariant/54213328666962",
+        "price": "10.93",
+        "media_id": "gid://shopify/MediaImage/59925827780946"
+      }
+    ]
+  },
+  "prepared_class_a_orders": [
+    {
+      "scope": "dial_3_naked",
+      "path": "ordres/pour-codex/inbox/20260811-1926-generate_images-remplacement92-pilote-nh34-dial3-nu-classe-a-1.json",
+      "manifest_count": 1,
+      "validated": true,
+      "launched": false
+    },
+    {
+      "scope": "three_mounted_dials",
+      "path": "ordres/pour-codex/inbox/20260811-1926-generate_images-remplacement92-pilote-nh34-montes-classe-a-3.json",
+      "manifest_count": 3,
+      "validated": true,
+      "launched": false
+    }
+  ],
+  "master_progress_json_modified": false,
+  "blockers": [
+    "No source-faithful final passed external QA for any of the four targeted variants."
+  ]
+}

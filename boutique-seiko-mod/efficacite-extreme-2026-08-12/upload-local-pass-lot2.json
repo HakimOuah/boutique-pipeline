@@ -1,0 +1,313 @@
+{
+  "schema_version": "1.0",
+  "created_at_utc": "2026-08-11T23:26:47Z",
+  "result": "PASS",
+  "scope": {
+    "products_limit": 6,
+    "generation_performed": false,
+    "assets_source": "boutique-seiko-mod/efficacite-extreme-2026-08-12/inventaire-assets.json",
+    "live_source": "Shopify Admin GraphQL",
+    "selection_rule": "Produits ACTIVE entièrement finissables avec des assets locaux QA PASS, hors handles réservés ou exclus.",
+    "deletion_rule": "Suppression uniquement des IDs fournisseur constatés au préflight, après upload READY, association exacte et readback intermédiaire PASS."
+  },
+  "counts": {
+    "products_preflighted": 6,
+    "products_completed": 6,
+    "products_skipped": 0,
+    "local_files_uploaded": 17,
+    "gallery_slots_replaced": 17,
+    "variant_associations_created": 1,
+    "variant_associations_verified": 6,
+    "supplier_media_deleted": 17,
+    "failed_shopify_mutations": 0
+  },
+  "mutation_evidence": {
+    "uploads": {
+      "requested": 17,
+      "succeeded": 17,
+      "all_ready_2048_square": true
+    },
+    "file_update": {
+      "files_attached_to_products": 17,
+      "user_errors": []
+    },
+    "variant_append": {
+      "product_handle": "coffret-douze-presentation",
+      "variant_id": "gid://shopify/ProductVariant/54087123009874",
+      "media_id": "gid://shopify/MediaImage/59893755248978",
+      "user_errors": []
+    },
+    "file_delete": {
+      "requested": 17,
+      "deleted": 17,
+      "user_errors": []
+    }
+  },
+  "products": [
+    {
+      "handle": "coffret-douze-presentation",
+      "product_id": "gid://shopify/Product/10977444888914",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "featured_before": "gid://shopify/MediaImage/59679728107858",
+      "featured_after": "gid://shopify/MediaImage/59893755248978",
+      "featured_after_is_exact_local_replacement": true,
+      "variant_id": "gid://shopify/ProductVariant/54087123009874",
+      "sku": "NOIR-COF-005",
+      "variant_media_after": ["gid://shopify/MediaImage/59893755248978"],
+      "uploads": [
+        {
+          "slot": "situation",
+          "relative_path": "scratchpad/noirmont-galeries/generated/coffret-douze-presentation-situation.jpg",
+          "sha256": "c324ad1ba946ccdf7ff39791c1c2608f1527670a05e666b64512f73ff489ba5e",
+          "media_id": "gid://shopify/MediaImage/59935086281042"
+        },
+        {
+          "slot": "macro",
+          "relative_path": "scratchpad/noirmont-galeries/generated/coffret-douze-presentation-macro.jpg",
+          "sha256": "22279fa117e83634746d09565525ccd0907ad3345b404eff00a9d5ab08b56d34",
+          "media_id": "gid://shopify/MediaImage/59935086674258"
+        }
+      ],
+      "supplier_media_deleted": [
+        "gid://shopify/MediaImage/59679728107858",
+        "gid://shopify/MediaImage/59694428291410"
+      ],
+      "media_count_before": 3,
+      "media_count_after": 3,
+      "total_inventory_before": 644,
+      "total_inventory_after": 644,
+      "immutable_fields_verified": true,
+      "pagination_exhausted": true,
+      "readback": "PASS"
+    },
+    {
+      "handle": "contre-la-montre-argent-chronographe",
+      "product_id": "gid://shopify/Product/10980082778450",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "featured_before": "gid://shopify/MediaImage/59691366711634",
+      "featured_after": "gid://shopify/MediaImage/59691366711634",
+      "variant_id": "gid://shopify/ProductVariant/54096786555218",
+      "sku": "NOIR-CHR-001",
+      "variant_media_after": ["gid://shopify/MediaImage/59691366711634"],
+      "uploads": [
+        {
+          "slot": "situation",
+          "relative_path": "scratchpad/noirmont-galeries/generated/contre-la-montre-argent-chronographe-situation.jpg",
+          "sha256": "ce4758ae3ba007db456124042a7ad623567fde58ff34ea4393ccd94f96a238ca",
+          "media_id": "gid://shopify/MediaImage/59935088607570"
+        },
+        {
+          "slot": "macro",
+          "relative_path": "scratchpad/noirmont-galeries/generated/contre-la-montre-argent-chronographe-macro.jpg",
+          "sha256": "8933cdd428d2fde566854321b13ebb9d34f14fc04b7d4e4767dcab138f1e2d9e",
+          "media_id": "gid://shopify/MediaImage/59935089361234"
+        },
+        {
+          "slot": "poignet",
+          "relative_path": "scratchpad/noirmont-galeries/generated/contre-la-montre-argent-chronographe-poignet.jpg",
+          "sha256": "a5f2c549f100b1f4525b9db353751b470b0c6bf78dc11aa89a432ca5787548fb",
+          "media_id": "gid://shopify/MediaImage/59935089787218"
+        }
+      ],
+      "supplier_media_deleted": [
+        "gid://shopify/MediaImage/59693859995986",
+        "gid://shopify/MediaImage/59693860028754",
+        "gid://shopify/MediaImage/59693860061522"
+      ],
+      "media_count_before": 5,
+      "media_count_after": 5,
+      "total_inventory_before": 0,
+      "total_inventory_after": 0,
+      "immutable_fields_verified": true,
+      "pagination_exhausted": true,
+      "readback": "PASS"
+    },
+    {
+      "handle": "contre-la-montre-bleu-glacier-chronographe",
+      "product_id": "gid://shopify/Product/10980083138898",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "featured_before": "gid://shopify/MediaImage/59691393941842",
+      "featured_after": "gid://shopify/MediaImage/59691393941842",
+      "variant_id": "gid://shopify/ProductVariant/54096787112274",
+      "sku": "NOIR-CHR-005",
+      "variant_media_after": ["gid://shopify/MediaImage/59691393941842"],
+      "uploads": [
+        {
+          "slot": "situation",
+          "relative_path": "scratchpad/noirmont-galeries/generated/contre-la-montre-bleu-glacier-chronographe-situation.jpg",
+          "sha256": "02efb027f84bd3338a2a9e8f76355c230b1e4e82d0cf077be1c5829b1e8f0e0a",
+          "media_id": "gid://shopify/MediaImage/59935090442578"
+        },
+        {
+          "slot": "macro",
+          "relative_path": "scratchpad/noirmont-galeries/generated/contre-la-montre-bleu-glacier-chronographe-macro.jpg",
+          "sha256": "03a9dcefc822a76113804ee5b77c09e78554006b48547dcc91f21f5645d29dac",
+          "media_id": "gid://shopify/MediaImage/59935091065170"
+        },
+        {
+          "slot": "poignet",
+          "relative_path": "scratchpad/noirmont-galeries/generated/contre-la-montre-bleu-glacier-chronographe-poignet.jpg",
+          "sha256": "707c445e783b01d152441a88ff5ad3b8b5512aee12093d96866580adda579469",
+          "media_id": "gid://shopify/MediaImage/59935091687762"
+        }
+      ],
+      "supplier_media_deleted": [
+        "gid://shopify/MediaImage/59693876511058",
+        "gid://shopify/MediaImage/59693876543826",
+        "gid://shopify/MediaImage/59693876576594"
+      ],
+      "media_count_before": 5,
+      "media_count_after": 5,
+      "total_inventory_before": 0,
+      "total_inventory_after": 0,
+      "immutable_fields_verified": true,
+      "pagination_exhausted": true,
+      "readback": "PASS"
+    },
+    {
+      "handle": "heritage-bleu-nuit-plongeuse-vintage-42",
+      "product_id": "gid://shopify/Product/10980084220242",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "featured_before": "gid://shopify/MediaImage/59691409244498",
+      "featured_after": "gid://shopify/MediaImage/59691409244498",
+      "variant_id": "gid://shopify/ProductVariant/54096789635410",
+      "sku": "NOIR-PLG-001",
+      "variant_media_after": ["gid://shopify/MediaImage/59691409244498"],
+      "uploads": [
+        {
+          "slot": "situation",
+          "relative_path": "scratchpad/noirmont-galeries/generated/heritage-bleu-nuit-plongeuse-vintage-42-situation.jpg",
+          "sha256": "b1a95db9d1737af5a37744b21f3618cb323d3412ce42d584c5764caf194e79d1",
+          "media_id": "gid://shopify/MediaImage/59935092375890"
+        },
+        {
+          "slot": "macro",
+          "relative_path": "scratchpad/noirmont-galeries/generated/heritage-bleu-nuit-plongeuse-vintage-42-macro.jpg",
+          "sha256": "a83650cd6050d095b95476f289827b06eb5a0fcea03ae024ac0fabd1f69d78b5",
+          "media_id": "gid://shopify/MediaImage/59935092834642"
+        },
+        {
+          "slot": "poignet",
+          "relative_path": "scratchpad/noirmont-galeries/generated/heritage-bleu-nuit-plongeuse-vintage-42-poignet.jpg",
+          "sha256": "7eabc964745d9960b39e32b356b33d55dba2024ad801ed36b6148ac6a5daf54d",
+          "media_id": "gid://shopify/MediaImage/59935093457234"
+        }
+      ],
+      "supplier_media_deleted": [
+        "gid://shopify/MediaImage/59693908263250",
+        "gid://shopify/MediaImage/59693908296018",
+        "gid://shopify/MediaImage/59693908328786"
+      ],
+      "media_count_before": 5,
+      "media_count_after": 5,
+      "total_inventory_before": 0,
+      "total_inventory_after": 0,
+      "immutable_fields_verified": true,
+      "pagination_exhausted": true,
+      "readback": "PASS"
+    },
+    {
+      "handle": "heritage-bleu-plongeuse-vintage-42",
+      "product_id": "gid://shopify/Product/10980082843986",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "featured_before": "gid://shopify/MediaImage/59691409211730",
+      "featured_after": "gid://shopify/MediaImage/59691409211730",
+      "variant_id": "gid://shopify/ProductVariant/54096786653522",
+      "sku": "NOIR-PLG-002",
+      "variant_media_after": ["gid://shopify/MediaImage/59691409211730"],
+      "uploads": [
+        {
+          "slot": "situation",
+          "relative_path": "scratchpad/noirmont-galeries/generated/heritage-bleu-plongeuse-vintage-42-situation.jpg",
+          "sha256": "5e3bd499bce4ce9b56be9789387071cdf9083d06d6c41e2b666208a5b690d4ad",
+          "media_id": "gid://shopify/MediaImage/59935093850450"
+        },
+        {
+          "slot": "macro",
+          "relative_path": "scratchpad/noirmont-galeries/generated/heritage-bleu-plongeuse-vintage-42-macro.jpg",
+          "sha256": "2346e27dc8218b2a19996e1a0e5bfa2cd2dcf21d020d032aeedb871b16e93d67",
+          "media_id": "gid://shopify/MediaImage/59935094571346"
+        },
+        {
+          "slot": "poignet",
+          "relative_path": "scratchpad/noirmont-galeries/generated/heritage-bleu-plongeuse-vintage-42-poignet.jpg",
+          "sha256": "c5302a24d82bc4c69a33b6040f8784c077898f871a9f01582900f0f405e607b4",
+          "media_id": "gid://shopify/MediaImage/59935095750994"
+        }
+      ],
+      "supplier_media_deleted": [
+        "gid://shopify/MediaImage/59693908361554",
+        "gid://shopify/MediaImage/59693908394322",
+        "gid://shopify/MediaImage/59693908427090"
+      ],
+      "media_count_before": 5,
+      "media_count_after": 5,
+      "total_inventory_before": 0,
+      "total_inventory_after": 0,
+      "immutable_fields_verified": true,
+      "pagination_exhausted": true,
+      "readback": "PASS"
+    },
+    {
+      "handle": "heritage-vert-plongeuse-vintage-42",
+      "product_id": "gid://shopify/Product/10980084515154",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "featured_before": "gid://shopify/MediaImage/59691409310034",
+      "featured_after": "gid://shopify/MediaImage/59691409310034",
+      "variant_id": "gid://shopify/ProductVariant/54096789995858",
+      "sku": "NOIR-PLG-004",
+      "variant_media_after": ["gid://shopify/MediaImage/59691409310034"],
+      "uploads": [
+        {
+          "slot": "situation",
+          "relative_path": "scratchpad/noirmont-galeries/generated/heritage-vert-plongeuse-vintage-42-situation.jpg",
+          "sha256": "8ee1bb0063f1c22f5e40253c772668394c8475ee9bed5d91841a3c94a421a203",
+          "media_id": "gid://shopify/MediaImage/59935096209746"
+        },
+        {
+          "slot": "macro",
+          "relative_path": "scratchpad/noirmont-galeries/generated/heritage-vert-plongeuse-vintage-42-macro.jpg",
+          "sha256": "0f9aad315c7b9e65d2c743e70633a662d2c759b933701502797837cf98a9e87a",
+          "media_id": "gid://shopify/MediaImage/59935096668498"
+        },
+        {
+          "slot": "poignet",
+          "relative_path": "scratchpad/noirmont-galeries/generated/heritage-vert-plongeuse-vintage-42-poignet.jpg",
+          "sha256": "e18b081de9e5c14a2bc4c5757920c9fd84de3275775a7b5d228d3982f0686b13",
+          "media_id": "gid://shopify/MediaImage/59935097192786"
+        }
+      ],
+      "supplier_media_deleted": [
+        "gid://shopify/MediaImage/59693908459858",
+        "gid://shopify/MediaImage/59693908492626",
+        "gid://shopify/MediaImage/59693908525394"
+      ],
+      "media_count_before": 5,
+      "media_count_after": 5,
+      "total_inventory_before": 0,
+      "total_inventory_after": 0,
+      "immutable_fields_verified": true,
+      "pagination_exhausted": true,
+      "readback": "PASS"
+    }
+  ],
+  "final_readback": {
+    "products_pass": 6,
+    "products_fail": 0,
+    "supplier_ids_still_present": 0,
+    "new_media_not_ready": 0,
+    "variant_media_mismatches": 0,
+    "status_changes": 0,
+    "price_changes": 0,
+    "compare_at_price_changes": 0,
+    "sku_changes": 0,
+    "option_changes": 0,
+    "inventory_changes": 0
+  }
+}

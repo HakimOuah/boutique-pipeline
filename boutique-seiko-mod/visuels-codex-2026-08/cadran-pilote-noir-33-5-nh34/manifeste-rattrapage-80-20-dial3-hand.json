@@ -1,0 +1,26 @@
+{
+  "schema": "maison-noirmont.visual-qa.v1",
+  "generated_at": "2026-08-12T02:33:00+02:00",
+  "handle": "cadran-pilote-noir-33-5-nh34",
+  "appearance": "dial-3-hand",
+  "attempts": 1,
+  "source": {
+    "relative_path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/Sf4b20fe9b3534454952eb58b10dfebb4D.webp",
+    "sha256": "c2bbc1a366047f7d831ab06a6fbf31bf5d42336dfeb6695af2f9ea9ef59f0328"
+  },
+  "output": {
+    "fichier": "cadran-pilote-noir-33-5-nh34-v-dial-3-hand.jpg",
+    "sha256": "e7a263b34c189dc5c6e058ca88b3a8586d1417ad02faa71e746908bad26a943b",
+    "width": 2048,
+    "height": 2048,
+    "format": "JPEG",
+    "qa": "PASS"
+  },
+  "qa_80_20": {
+    "truth_product": "PASS — cadran noir pilote, chiffres 1-11, piste minutes et symbole flèche conservés",
+    "color": "PASS — blanc, noir et doré conformes à la source",
+    "count": "PASS — quatre rectangles dorés, triangle, points et exactement trois aiguilles",
+    "brand": "PASS — aucun logo, marque ou watermark",
+    "clean_background": "PASS — fond blanc cassé studio"
+  }
+}

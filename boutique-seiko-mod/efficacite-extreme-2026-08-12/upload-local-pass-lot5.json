@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "created_at_utc": "2026-08-12T00:01:27Z",
+  "result": "PASS",
+  "scope": {
+    "products_limit": 6,
+    "generation_performed": false,
+    "assets_source": "boutique-seiko-mod/efficacite-extreme-2026-08-12/inventaire-assets.json",
+    "deletion_gate": "Upload READY, attachement produit, associations exactes et readback exhaustif avant suppression."
+  },
+  "counts": {
+    "products_preflighted": 6,
+    "products_completed": 6,
+    "products_skipped": 0,
+    "local_files_uploaded": 18,
+    "variant_associations_created": 6,
+    "variant_associations_verified": 9,
+    "supplier_media_deleted": 21,
+    "supplier_featured_deleted": 3,
+    "failed_shopify_mutations": 0
+  },
+  "products": [
+    {
+      "handle": "integrale-brun-or-rose-sport-chic",
+      "product_id": "gid://shopify/Product/10980079075666",
+      "featured_before_after": ["gid://shopify/MediaImage/59691400134994", "gid://shopify/MediaImage/59691400134994"],
+      "variant_associations": [["gid://shopify/ProductVariant/54096769188178", "NOIR-INT-004", "gid://shopify/MediaImage/59691400134994"]],
+      "local_replacements": [
+        ["situation", "scratchpad/noirmont-galeries/generated/integrale-brun-or-rose-sport-chic-situation.jpg", "546ac5578ea4aa63138105c612eadf9d73384a08d4df18fe1de506e6f25960a2", "gid://shopify/MediaImage/59935286460754"],
+        ["macro", "scratchpad/noirmont-galeries/generated/integrale-brun-or-rose-sport-chic-macro.jpg", "0f4fb33f785b4c50027a42b5343aac928b8ec9f139c57eeab3dd901a4ddb4506", "gid://shopify/MediaImage/59935286231378"],
+        ["poignet", "scratchpad/noirmont-galeries/generated/integrale-brun-or-rose-sport-chic-poignet.jpg", "0403e7246d8a240779987a2c01a6e2fca73daaa337dd372894400b3bb0ec393f", "gid://shopify/MediaImage/59935285543250"]
+      ],
+      "supplier_media_deleted": ["gid://shopify/MediaImage/59693925630290", "gid://shopify/MediaImage/59693925663058", "gid://shopify/MediaImage/59693925695826"],
+      "status_before_after": ["ACTIVE", "ACTIVE"],
+      "inventory_before_after": [0, 0],
+      "media_count_before_after": [5, 5],
+      "immutable_fields_verified": true,
+      "readback": "PASS"
+    },
+    {
+      "handle": "integrale-noir-sport-chic-acier",
+      "product_id": "gid://shopify/Product/10980080877906",
+      "featured_before_after": ["gid://shopify/MediaImage/59691409080658", "gid://shopify/MediaImage/59691409080658"],
+      "variant_associations": [["gid://shopify/ProductVariant/54096769876306", "NOIR-INT-005", "gid://shopify/MediaImage/59691409080658"]],
+      "local_replacements": [
+        ["situation", "scratchpad/noirmont-galeries/generated/integrale-noir-sport-chic-acier-situation.jpg", "9dd4076ccc61a0f6b9bf9ac474fefc529316f997715e4fc8c7cde95253961787", "gid://shopify/MediaImage/59935285936466"],
+        ["macro", "scratchpad/noirmont-galeries/generated/integrale-noir-sport-chic-acier-macro.jpg", "ec44712c2f39e1f25e4160975367df62ab500611bc068d1742b150d754cfafc6", "gid://shopify/MediaImage/59935286886738"],
+        ["poignet", "scratchpad/noirmont-galeries/generated/integrale-noir-sport-chic-acier-poignet.jpg", "9032aec91862b7382a6be4c6496bd1c1053b8f519197754c90af8e1304cafda8", "gid://shopify/MediaImage/59935287181650"]
+      ],
+      "supplier_media_deleted": ["gid://shopify/MediaImage/59693925728594", "gid://shopify/MediaImage/59693925761362", "gid://shopify/MediaImage/59693925794130"],
+      "status_before_after": ["ACTIVE", "ACTIVE"],
+      "inventory_before_after": [0, 0],
+      "media_count_before_after": [5, 5],
+      "immutable_fields_verified": true,
+      "readback": "PASS"
+    },
+    {
+      "handle": "integrale-turquoise-sport-chic-acier",
+      "product_id": "gid://shopify/Product/10980080714066",
+      "featured_before_after": ["gid://shopify/MediaImage/59691400167762", "gid://shopify/MediaImage/59691400167762"],
+      "variant_associations": [["gid://shopify/ProductVariant/54096769515858", "NOIR-INT-007", "gid://shopify/MediaImage/59691400167762"]],
+      "local_replacements": [
+        ["situation", "scratchpad/noirmont-galeries/generated/integrale-turquoise-sport-chic-acier-situation.jpg", "a43c7eb0801028330f63aaf9117e9219c34af5a0b7abb5431dfe25fc5d10ed18", "gid://shopify/MediaImage/59935287509330"],
+        ["macro", "scratchpad/noirmont-galeries/generated/integrale-turquoise-sport-chic-acier-macro.jpg", "1e22e7090ed2d57fc3d54be1a536ab7059b7876684839393041c90ede01693d6", "gid://shopify/MediaImage/59935287738706"],
+        ["poignet", "scratchpad/noirmont-galeries/generated/integrale-turquoise-sport-chic-acier-poignet.jpg", "93ef3ca65c67ee9c37d471750d0de847e05404ab73441f1283c06ecf154d82fd", "gid://shopify/MediaImage/59935288197458"]
+      ],
+      "supplier_media_deleted": ["gid://shopify/MediaImage/59693940867410", "gid://shopify/MediaImage/59693940900178", "gid://shopify/MediaImage/59693940932946"],
+      "status_before_after": ["ACTIVE", "ACTIVE"],
+      "inventory_before_after": [0, 0],
+      "media_count_before_after": [5, 5],
+      "immutable_fields_verified": true,
+      "readback": "PASS"
+    },
+    {
+      "handle": "quarante-et-un-blanc-cuir-sport-acier",
+      "product_id": "gid://shopify/Product/10978721726802",
+      "featured_before_after": ["gid://shopify/MediaImage/59681636909394", "gid://shopify/MediaImage/59893395194194"],
+      "variant_associations": [
+        ["gid://shopify/ProductVariant/54090430251346", "NOIR-Q41-001", "gid://shopify/MediaImage/59893395194194"],
+        ["gid://shopify/ProductVariant/54090430284114", "NOIR-Q41-002", "gid://shopify/MediaImage/59893395194194"]
+      ],
+      "local_replacements": [
+        ["situation", "scratchpad/noirmont-galeries/generated/quarante-et-un-blanc-cuir-sport-acier-situation.jpg", "d23b6e3a96811a6b358345f89d135620b9c0b0be1051b3a123a85f3ad7027df8", "gid://shopify/MediaImage/59935288623442"],
+        ["macro", "scratchpad/noirmont-galeries/generated/quarante-et-un-blanc-cuir-sport-acier-macro.jpg", "ee8e7ea413e47d19bf17f514e5fa9a1521ebc39acdffa01c994766bfad719aae", "gid://shopify/MediaImage/59935289016658"],
+        ["poignet", "scratchpad/noirmont-galeries/generated/quarante-et-un-blanc-cuir-sport-acier-poignet.jpg", "0e5a916b50cb866cdaf31e76fdd3be49cb8758fd44d2dcdd604aea89f2cf1b2c", "gid://shopify/MediaImage/59935289311570"]
+      ],
+      "supplier_media_deleted": ["gid://shopify/MediaImage/59681636909394", "gid://shopify/MediaImage/59694018560338", "gid://shopify/MediaImage/59694018593106", "gid://shopify/MediaImage/59694018625874"],
+      "status_before_after": ["ACTIVE", "ACTIVE"],
+      "inventory_before_after": [0, 0],
+      "media_count_before_after": [5, 4],
+      "immutable_fields_verified": true,
+      "readback": "PASS"
+    },
+    {
+      "handle": "quarante-et-un-bleu-acier-sport-acier",
+      "product_id": "gid://shopify/Product/10978721235282",
+      "featured_before_after": ["gid://shopify/MediaImage/59681631994194", "gid://shopify/MediaImage/59893395226962"],
+      "variant_associations": [
+        ["gid://shopify/ProductVariant/54090420978002", "NOIR-Q41-003", "gid://shopify/MediaImage/59893395226962"],
+        ["gid://shopify/ProductVariant/54090421010770", "NOIR-Q41-004", "gid://shopify/MediaImage/59893395226962"]
+      ],
+      "local_replacements": [
+        ["situation", "scratchpad/noirmont-galeries/generated/quarante-et-un-bleu-acier-sport-acier-situation.jpg", "8f9488e41c97015f9d509bc6cefd9aa239a5ae3f802a42cda820dd32eb537a13", "gid://shopify/MediaImage/59935289573714"],
+        ["macro", "scratchpad/noirmont-galeries/generated/quarante-et-un-bleu-acier-sport-acier-macro.jpg", "b6409c77bd10d1aac1664341561cc6a18353d3d555423f679040f51a813cf03b", "gid://shopify/MediaImage/59935289835858"],
+        ["poignet", "scratchpad/noirmont-galeries/generated/quarante-et-un-bleu-acier-sport-acier-poignet.jpg", "5a8754e6f2c527e8e8d8537ed74349b84c1509565dccd859277589b0de66b288", "gid://shopify/MediaImage/59935290229074"]
+      ],
+      "supplier_media_deleted": ["gid://shopify/MediaImage/59681631994194", "gid://shopify/MediaImage/59694018724178", "gid://shopify/MediaImage/59694018756946", "gid://shopify/MediaImage/59694018789714"],
+      "status_before_after": ["ACTIVE", "ACTIVE"],
+      "inventory_before_after": [0, 0],
+      "media_count_before_after": [5, 4],
+      "immutable_fields_verified": true,
+      "readback": "PASS"
+    },
+    {
+      "handle": "quarante-et-un-bleu-cuir-sport-acier",
+      "product_id": "gid://shopify/Product/10978721857874",
+      "featured_before_after": ["gid://shopify/MediaImage/59681637925202", "gid://shopify/MediaImage/59893395259730"],
+      "variant_associations": [
+        ["gid://shopify/ProductVariant/54090430611794", "NOIR-Q41-005", "gid://shopify/MediaImage/59893395259730"],
+        ["gid://shopify/ProductVariant/54090430644562", "NOIR-Q41-006", "gid://shopify/MediaImage/59893395259730"]
+      ],
+      "local_replacements": [
+        ["situation", "scratchpad/noirmont-galeries/generated/quarante-et-un-bleu-cuir-sport-acier-situation.jpg", "beecbd263e1af632a596fa0111b51378d7ec015884a2af7e966e37d8f56decce", "gid://shopify/MediaImage/59935290458450"],
+        ["macro", "scratchpad/noirmont-galeries/generated/quarante-et-un-bleu-cuir-sport-acier-macro.jpg", "3a3d5992f4bc651b4d6cf5a4e823277e5505888c6c7ba5be46bda4168180dbd1", "gid://shopify/MediaImage/59935290753362"],
+        ["poignet", "scratchpad/noirmont-galeries/generated/quarante-et-un-bleu-cuir-sport-acier-poignet.jpg", "772f8555521fdfca0a6df98aa1977055ae5609af0f4760b14f08bc6ba9052565", "gid://shopify/MediaImage/59935291212114"]
+      ],
+      "supplier_media_deleted": ["gid://shopify/MediaImage/59681637925202", "gid://shopify/MediaImage/59694018855250", "gid://shopify/MediaImage/59694018888018", "gid://shopify/MediaImage/59694018920786"],
+      "status_before_after": ["ACTIVE", "ACTIVE"],
+      "inventory_before_after": [0, 0],
+      "media_count_before_after": [5, 4],
+      "immutable_fields_verified": true,
+      "readback": "PASS"
+    }
+  ],
+  "final_readback": {
+    "products_pass": 6,
+    "products_fail": 0,
+    "supplier_ids_still_present": 0,
+    "new_media_not_ready": 0,
+    "variant_media_mismatches": 0,
+    "status_changes": 0,
+    "price_changes": 0,
+    "compare_at_price_changes": 0,
+    "sku_changes": 0,
+    "option_changes": 0,
+    "inventory_changes": 0,
+    "pagination_exhausted_all": true
+  }
+}

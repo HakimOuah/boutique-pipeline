@@ -1,0 +1,93 @@
+{
+  "id": "codex-20260811-1227-remplacement92-pilote-nh34-6",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-pilote-noir-33-5-nh34",
+        "sku": "14:200025551#Dial 1  hand",
+        "slot": "variante",
+        "fichier": "cadran-pilote-noir-33-5-nh34-v-dial-1-hand.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      },
+      {
+        "handle": "cadran-pilote-noir-33-5-nh34",
+        "sku": "14:29#Dial 1",
+        "slot": "variante",
+        "fichier": "cadran-pilote-noir-33-5-nh34-v-dial-1.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-pilote-noir-33-5-nh34",
+        "sku": "14:100016652#Dial 2 hand",
+        "slot": "variante",
+        "fichier": "cadran-pilote-noir-33-5-nh34-v-dial-2-hand.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      },
+      {
+        "handle": "cadran-pilote-noir-33-5-nh34",
+        "sku": "14:201336230#Dial 2",
+        "slot": "variante",
+        "fichier": "cadran-pilote-noir-33-5-nh34-v-dial-2.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/dial-1-hand-v1-aiguilles-sur-chiffre-4-et-minuterie.jpg",
+        "motif": "Candidat écarté au QA : l'aiguille des minutes recouvre le chiffre 4 et sa minuterie, et la trotteuse termine sur la minuterie."
+      },
+      {
+        "fichier": "rejected/dial-1-hand-v2-trotteuse-sur-19-7-et-triangle.jpg",
+        "motif": "Candidat écarté au QA : la trotteuse traverse 19 et 7 puis touche le triangle de lume."
+      },
+      {
+        "fichier": "rejected/dial-2-hand-v1-minute-hors-couloir-et-trotteuse-sur-minuterie.jpg",
+        "motif": "Candidat écarté au QA : l'aiguille des minutes reste hors du couloir 15-16 et la trotteuse termine sur la minuterie."
+      },
+      {
+        "fichier": "rejected/dial-2-hand-v2-minute-sur-3-et-trotteuse-sur-6.jpg",
+        "motif": "Candidat écarté au QA : l'aiguille des minutes touche 3 et la trotteuse recouvre 6."
+      },
+      {
+        "fichier": "rejected/dial-3-hand-v1-reperes-deplaces-minute-sur-3-trotteuse-sur-6.jpg",
+        "motif": "Candidat écarté au QA : repères rectangulaires déplacés, aiguille des minutes sur 3 et trotteuse sur 6."
+      },
+      {
+        "fichier": "rejected/dial-3-hand-v2-hour-sur-10.jpg",
+        "motif": "Candidat écarté au QA : l'aiguille des heures recouvre le chiffre 10 malgré une carte de repères autrement proche de la source."
+      },
+      {
+        "fichier": "rejected/dial-3-hand-v3-repere-extra-et-trotteuse-hors-couloir.jpg",
+        "motif": "Candidat écarté au QA : repère rectangulaire supplémentaire et trotteuse hors du couloir 6-7."
+      },
+      {
+        "fichier": "rejected/dial-3-hand-v4-rectangle-1-manquante-et-trotteuse-hors-couloir.jpg",
+        "motif": "Candidat écarté au QA : le rectangle de 1 h manque et la trotteuse reste hors du couloir 6-7."
+      },
+      {
+        "fichier": "rejected/dial-3-v1-reperes-colores-deplaces.jpg",
+        "motif": "Candidat écarté au QA : les repères colorés asymétriques de la source ont été régularisés et déplacés."
+      },
+      {
+        "fichier": "rejected/dial-3-v2-rectangles-revenus-aux-cardinaux.jpg",
+        "motif": "Candidat écarté au QA : les rectangles sont revenus vers les axes cardinaux au lieu des positions 1, 4, 7 et 10 h."
+      },
+      {
+        "fichier": "rejected/dial-3-v3-rectangles-decalees-vers-cardinaux.jpg",
+        "motif": "Candidat écarté au QA : les rectangles restent décalés vers 12, 3, 6 et 9 h et ne reproduisent pas la source exacte."
+      },
+      {
+        "fichier": "rejected/dial-3-v4-rectangles-3-6-9-au-lieu-4-7-10.jpg",
+        "motif": "Candidat écarté au QA : les rectangles sont placés à 3, 6 et 9 h au lieu de 4, 7 et 10 h."
+      }
+    ],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-08-11T13:17:03Z",
+  "executor": "codex-2026-08-11"
+}

@@ -1,0 +1,216 @@
+{
+  "schema_version": "1.0",
+  "executed_at": "2026-08-12T01:34:00+02:00",
+  "scope": "ACTIVE Shopify, lot court 2",
+  "summary": {
+    "products_completed": 3,
+    "appearances_completed": 4,
+    "generation_attempts": 4,
+    "retries": 0,
+    "qa_pass": 4,
+    "qa_fail": 0,
+    "new_media_ready": 4,
+    "supplier_product_references_removed": 4,
+    "global_files_deleted": 0
+  },
+  "normalization": {
+    "format": "JPEG",
+    "width": 2048,
+    "height": 2048,
+    "profile": "sRGB IEC61966-2.1",
+    "max_bytes": 1200000
+  },
+  "products": [
+    {
+      "product_gid": "gid://shopify/Product/10980388831570",
+      "handle": "doigtiers-d-horloger-latex",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "source": {
+        "type": "aliexpress_official_api_local_backup",
+        "item_id": "1005008806614490",
+        "proof": "boutique-seiko-mod/preuves-audit-p4-130-2026-08-10/1005008806614490.json",
+        "white_image": "scratchpad/backup-medias-accessoires-lot4/doigtiers-d-horloger-latex/Sa204a9bb577b419dba391c76b275e47el.webp",
+        "black_image": "scratchpad/backup-medias-accessoires-lot4/doigtiers-d-horloger-latex/S29b8c98951664b14ba40eec45948c21bP.webp"
+      },
+      "generation": {
+        "attempts": 2,
+        "retries": 0,
+        "qa": "PASS",
+        "checks": ["latex finger-cot geometry", "white and black colors", "no quantity claim", "no text", "no brand"]
+      },
+      "new_media": [
+        {
+          "appearance": "white",
+          "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot2/finals/doigtiers-d-horloger-latex-white.jpg",
+          "bytes": 306450,
+          "media_gid": "gid://shopify/MediaImage/59935125832018",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/doigtiers-d-horloger-latex-v-white.jpg?v=1786490965",
+          "variant_gids": [
+            "gid://shopify/ProductVariant/54098047500626",
+            "gid://shopify/ProductVariant/54098047566162",
+            "gid://shopify/ProductVariant/54098047598930"
+          ]
+        },
+        {
+          "appearance": "black",
+          "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot2/finals/doigtiers-d-horloger-latex-black.jpg",
+          "bytes": 320323,
+          "media_gid": "gid://shopify/MediaImage/59935126618450",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/doigtiers-d-horloger-latex-v-black.jpg?v=1786490971",
+          "variant_gids": [
+            "gid://shopify/ProductVariant/54098047533394",
+            "gid://shopify/ProductVariant/54098047631698",
+            "gid://shopify/ProductVariant/54098047664466"
+          ]
+        }
+      ],
+      "featured": {
+        "before": "gid://shopify/MediaImage/59691949228370",
+        "after": "gid://shopify/MediaImage/59935125832018"
+      },
+      "supplier_references_removed": [
+        {
+          "media_gid": "gid://shopify/MediaImage/59691949228370",
+          "filename": "noirmont-doigtiers-1.jpg",
+          "rollback": "fileUpdate referencesToAdd product_gid"
+        }
+      ],
+      "retained_maison_media_gids": [
+        "gid://shopify/MediaImage/59694428324178",
+        "gid://shopify/MediaImage/59893950873938"
+      ],
+      "readback": {
+        "all_new_media_ready": true,
+        "all_6_variants_exactly_associated": true,
+        "supplier_media_absent_from_product": true,
+        "pagination_complete": true,
+        "preserved": {
+          "sku": ["NOIR-DOI-001", "NOIR-DOI-002", "NOIR-DOI-003", "NOIR-DOI-004", "NOIR-DOI-005", "NOIR-DOI-006"],
+          "price": "12.90 EUR all variants",
+          "inventory": [26, 13, 8, 8, 3, 12],
+          "options": "unchanged"
+        }
+      }
+    },
+    {
+      "product_gid": "gid://shopify/Product/10980388733266",
+      "handle": "kit-d-entretien-13-pieces",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "source": {
+        "type": "exact_local_supplier_backup",
+        "image": "scratchpad/backup-medias-accessoires-lot4/kit-d-entretien-13-pieces/Safe7df9cfcd648dbb4ca6edbdf232dd1l.webp",
+        "mapping": "live Shopify variant 13pc Kits"
+      },
+      "generation": {
+        "attempts": 1,
+        "retries": 0,
+        "qa": "PASS",
+        "checks": ["exactly 13 sale components", "component shapes and colors", "blank dial protector", "no text", "no brand"]
+      },
+      "new_media": [
+        {
+          "appearance": "13pc Kits",
+          "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot2/finals/kit-d-entretien-13-pieces.jpg",
+          "bytes": 365725,
+          "media_gid": "gid://shopify/MediaImage/59935127470418",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/kit-d-entretien-13-pieces-maison-noirmont.jpg?v=1786490978",
+          "variant_gids": ["gid://shopify/ProductVariant/54098045370706"]
+        }
+      ],
+      "featured": {
+        "before": "gid://shopify/MediaImage/59691847778642",
+        "after": "gid://shopify/MediaImage/59935127470418"
+      },
+      "supplier_references_removed": [
+        {
+          "media_gid": "gid://shopify/MediaImage/59691847778642",
+          "filename": "noirmont-kit-entretien-1.jpg",
+          "rollback": "fileUpdate referencesToAdd product_gid"
+        }
+      ],
+      "retained_maison_media_gids": [
+        "gid://shopify/MediaImage/59694409187666",
+        "gid://shopify/MediaImage/59694409220434"
+      ],
+      "readback": {
+        "all_new_media_ready": true,
+        "variant_exactly_associated": true,
+        "supplier_media_absent_from_product": true,
+        "pagination_complete": true,
+        "preserved": {
+          "sku": "NOIR-KIT-001",
+          "price": "29.90 EUR",
+          "inventory": 3,
+          "options": "unchanged"
+        }
+      }
+    },
+    {
+      "product_gid": "gid://shopify/Product/10980388667730",
+      "handle": "coffret-6-montres-couvercle-verre",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "source": {
+        "type": "exact_local_product_face",
+        "image": "scratchpad/noirmont-galeries/entrees-faces/coffret-6-montres-couvercle-verre-face.jpg",
+        "mapping": "live Shopify variant 6 slot"
+      },
+      "generation": {
+        "attempts": 1,
+        "retries": 0,
+        "qa": "PASS",
+        "checks": ["exactly 6 compartments and cushions", "3 by 2 layout", "brown glass-lid box geometry", "no text", "no brand"]
+      },
+      "new_media": [
+        {
+          "appearance": "6 slot",
+          "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot2/finals/coffret-6-montres-couvercle-verre.jpg",
+          "bytes": 331353,
+          "media_gid": "gid://shopify/MediaImage/59935125143890",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/coffret-6-montres-couvercle-verre-maison-noirmont.jpg?v=1786490959",
+          "variant_gids": ["gid://shopify/ProductVariant/54098045501778"]
+        }
+      ],
+      "featured": {
+        "before": "gid://shopify/MediaImage/59691847680338",
+        "after": "gid://shopify/MediaImage/59935125143890"
+      },
+      "supplier_references_removed": [
+        {
+          "media_gid": "gid://shopify/MediaImage/59691847680338",
+          "filename": "noirmont-coffret-six-1.jpg",
+          "rollback": "fileUpdate referencesToAdd product_gid"
+        },
+        {
+          "media_gid": "gid://shopify/MediaImage/59691847713106",
+          "filename": "noirmont-coffret-six-2.jpg",
+          "rollback": "fileUpdate referencesToAdd product_gid"
+        }
+      ],
+      "retained_maison_media_gids": ["gid://shopify/MediaImage/59694428127570"],
+      "readback": {
+        "all_new_media_ready": true,
+        "variant_exactly_associated": true,
+        "supplier_media_absent_from_product": true,
+        "pagination_complete": true,
+        "preserved": {
+          "sku": "NOIR-COF-001",
+          "price": "54.90 EUR",
+          "inventory": 10,
+          "options": "unchanged"
+        }
+      }
+    }
+  ],
+  "released_without_mutation_due_to_live_drift": [
+    "trente-neuf-bleu-classique-cannelee",
+    "trente-neuf-rose-classique-cannelee",
+    "trente-neuf-rouge-classique-cannelee",
+    "trente-neuf-vert-classique-cannelee",
+    "bracelet-jubile-embouts-courbes",
+    "outil-de-mise-a-taille-de-bracelet",
+    "bracelet-milanais-maille-italienne"
+  ]
+}

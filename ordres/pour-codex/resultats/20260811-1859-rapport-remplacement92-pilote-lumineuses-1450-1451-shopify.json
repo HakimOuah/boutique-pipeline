@@ -1,0 +1,261 @@
+{
+  "schema_version": "1.0",
+  "report_id": "rapport-remplacement92-pilote-lumineuses-1450-1451-shopify-20260811-1859",
+  "generated_at": "2026-08-11T18:59:08+02:00",
+  "scope": {
+    "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+    "product_id": "gid://shopify/Product/11013081399634",
+    "orders": [
+      "codex-20260811-1450-remplacement92-pilote-lumineuses-montes-reprise-5",
+      "codex-20260811-1451-remplacement92-pilote-lumineuses-silver-reprise-1"
+    ]
+  },
+  "summary": {
+    "targets_total": 6,
+    "external_qa_pass": 1,
+    "shopify_integrated": 1,
+    "external_qa_fail": 5,
+    "shopify_mutations_for_failed_targets": 0,
+    "followup_order_prepared": true,
+    "followup_order_launched": false,
+    "master_progress_json_modified": false
+  },
+  "order_1450": {
+    "order_file": "ordres/pour-codex/resultats/20260811-1450-generate_images-remplacement92-pilote-lumineuses-montes-reprise-5.ordre.json",
+    "executor_result_file": "ordres/pour-codex/resultats/20260811-1450-generate_images-remplacement92-pilote-lumineuses-montes-reprise-5.json",
+    "executor_status": "done",
+    "executor_executed_at": "2026-08-11T16:39:09Z",
+    "executor_manifest_realized_count": 3,
+    "external_qa_overrides_executor_manifest": true,
+    "external_qa_decision": "FAIL_ALL",
+    "targets": [
+      {
+        "sku": "14:365462#black dial 1 hands",
+        "file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-1-hands.jpg",
+        "sha256": "45f9dfb8990d5cc85fe773195a661e5aff30f4759a9ef4d08a53ab73d74575e9",
+        "executor_manifest_realized": true,
+        "external_qa": "FAIL",
+        "external_qa_reason": "L'aiguille des heures recouvre visiblement le nombre interieur 22.",
+        "shopify_uploaded": false,
+        "shopify_associated": false
+      },
+      {
+        "sku": "14:100016652#black dial 2 hands",
+        "file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-2-hands.jpg",
+        "sha256": "e08b9fb78aff658d77f6726dd081d7dc1c66426d45e2f737381741ec95988141",
+        "executor_manifest_realized": false,
+        "external_qa": "FAIL",
+        "external_qa_reason": "Aucun candidat PASS livre par l'executor; le fichier courant reste le rejet avec masquage de chiffres par les aiguilles.",
+        "shopify_uploaded": false,
+        "shopify_associated": false
+      },
+      {
+        "sku": "14:173#blue dial hands",
+        "file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-blue-dial-hands.jpg",
+        "sha256": "66cafe241e8c46bca93ee6b256b65de1c106384fd3cff23aecdcdc3126801408",
+        "executor_manifest_realized": true,
+        "external_qa": "FAIL",
+        "external_qa_reason": "L'aiguille des heures recouvre 22 et la trotteuse est hors du couloir vide exige.",
+        "shopify_uploaded": false,
+        "shopify_associated": false
+      },
+      {
+        "sku": "14:865#green dial hands",
+        "file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-green-dial-hands.jpg",
+        "sha256": "ac2ac8387ae9206bf917e155614b36f479aba36432e619c72a6c0f93771f8478",
+        "executor_manifest_realized": false,
+        "external_qa": "FAIL",
+        "external_qa_reason": "Aucun candidat PASS livre par l'executor; le fichier courant reste le rejet avec contact ou masquage du nombre interieur 22.",
+        "shopify_uploaded": false,
+        "shopify_associated": false
+      },
+      {
+        "sku": "14:29#silver dial hands",
+        "file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-silver-dial-hands.jpg",
+        "sha256": "ca6236320a52396f8dfee55378cd0d700fd2e25412b40379016c7bfabcb7b23e",
+        "executor_manifest_realized": true,
+        "external_qa": "FAIL",
+        "external_qa_reason": "L'aiguille des heures recouvre visiblement le nombre interieur 22.",
+        "shopify_uploaded": false,
+        "shopify_associated": false
+      }
+    ],
+    "shopify_effect": "NONE",
+    "followup": {
+      "order_file": "ordres/pour-codex/inbox/20260811-1842-generate_images-remplacement92-pilote-lumineuses-montes-reprise-5b.json",
+      "validator": "ordres/valider_ordre.py",
+      "validation_verdict": "VALIDE",
+      "validation_class": "A",
+      "launched": false,
+      "target_count": 5,
+      "blocking_axes": {
+        "hour_hand_degrees": 315,
+        "minute_hand_degrees": 105,
+        "second_hand_degrees": 195,
+        "tolerance_degrees": 2
+      }
+    }
+  },
+  "order_1451": {
+    "order_file": "ordres/pour-codex/resultats/20260811-1451-generate_images-remplacement92-pilote-lumineuses-silver-reprise-1.ordre.json",
+    "executor_result_file": "ordres/pour-codex/resultats/20260811-1451-generate_images-remplacement92-pilote-lumineuses-silver-reprise-1.json",
+    "executor_status": "done",
+    "executor_executed_at": "2026-08-11T16:51:23Z",
+    "target": {
+      "sku": "14:200025551#silver dial",
+      "source_file": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/S2faf9df0196d4188895526b1766448c6W.webp",
+      "source_sha256": "335159a0def1f211258fe37c68c5aab9b818112bbc8127defac071d4eae0dccb",
+      "final_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-silver-dial.jpg",
+      "final_local_sha256": "91b07cdbdae4806e8fa44b2440a17ea4efd10e4a1265ce28f269ee6747e977da",
+      "final_width": 2048,
+      "final_height": 2048,
+      "final_format": "JPEG",
+      "final_color_space": "RGB",
+      "final_size_bytes": 890269,
+      "external_qa": "PASS",
+      "external_qa_checks": {
+        "outer_round_luminous_dots": 0,
+        "digits_1_to_12_present": true,
+        "digits_13_to_24_present": true,
+        "minute_track_and_values_preserved": true,
+        "central_hole_preserved": true,
+        "hands_present": false,
+        "brand_or_logo_present": false,
+        "parasite_text_present": false
+      },
+      "qa_board": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/qa/planche-remplacement92-pilote-lumineuses-silver-reprise-1.jpg",
+      "saved_prior_reject": {
+        "file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/rejected/silver-dial-rejet-points-lumineux-inventes-20260811-1451.jpg",
+        "sha256": "557242a761f0b33b13dce6dbd6539ed3889d8d08c081be1ff83a93da448a230f"
+      },
+      "witness_hashes_unchanged": {
+        "black_dial_1": "dbefd60eb5e04c719c4efae2902e4cc9c858b63f27527ba5ac1edf503d200c9a",
+        "black_dial_2": "1e6c7e35c7dea7c874ca4b9cba1eb4d288ca9399860ce41af3fcff476468d088",
+        "blue_dial": "32596399074ae8bebb9cb69abb7e4fcb17dd0134ae89db7c312eea4fe6cd31d9",
+        "green_dial": "d93785cff4aa4bc4b83ec463057422a0e21fe6e1b17f54ca02a805c918150965"
+      }
+    },
+    "shopify_integration": {
+      "integrated": true,
+      "upload_file_id": "gid://shopify/MediaImage/59928790532434",
+      "product_media_id": "gid://shopify/MediaImage/59928793219410",
+      "product_media_status": "READY",
+      "product_media_alt": "Cadran pilote argent 33,5 mm sans aiguilles — Maison Noirmont",
+      "product_media_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/cadran-pilote-33-5-aiguilles-lumineuses-v-silver-dial_24e91df5-bd71-424f-8953-d717e0eaaa80.jpg?v=1786467161",
+      "cdn_sha256": "39d545c23acdcdac778bf3b3b17559d0c420adb7c63dc10d8047d7fcf47115f6",
+      "cdn_width": 2048,
+      "cdn_height": 2048,
+      "cdn_color_space": "RGB",
+      "associated_variants": [
+        {
+          "id": "gid://shopify/ProductVariant/54213328208210",
+          "price": "15.00",
+          "compare_at_price": "15.00",
+          "media_ids": [
+            "gid://shopify/MediaImage/59928793219410"
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213328240978",
+          "price": "14.96",
+          "compare_at_price": "14.96",
+          "media_ids": [
+            "gid://shopify/MediaImage/59928793219410"
+          ]
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54213328273746",
+          "price": "14.98",
+          "compare_at_price": "14.98",
+          "media_ids": [
+            "gid://shopify/MediaImage/59928793219410"
+          ]
+        }
+      ],
+      "removed_supplier_media_id": "gid://shopify/MediaImage/59894149546322",
+      "removed_only_after_new_associations_readback": true
+    }
+  },
+  "shopify_final_readback": {
+    "readback_complete": true,
+    "product_id": "gid://shopify/Product/11013081399634",
+    "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+    "status": "DRAFT",
+    "featured_media_id": "gid://shopify/MediaImage/59904326762834",
+    "featured_media_preserved": true,
+    "media_count": 16,
+    "media_pagination_complete": true,
+    "variant_count": 39,
+    "variant_pagination_complete": true,
+    "all_nested_media_pagination_complete": true,
+    "variants_with_exactly_one_media": 39,
+    "all_prices_present": true,
+    "all_compare_at_prices_present": true,
+    "all_prices_equal_compare_at_prices": true,
+    "old_silver_supplier_media_present": false,
+    "new_silver_media_ready": true,
+    "new_silver_media_association_count": 3,
+    "failed_targets_supplier_media_preserved": [
+      {
+        "sku_family": "14:865#green dial hands",
+        "media_id": "gid://shopify/MediaImage/59894149579090",
+        "present": true,
+        "variant_ids": [
+          "gid://shopify/ProductVariant/54213327290706",
+          "gid://shopify/ProductVariant/54213327323474",
+          "gid://shopify/ProductVariant/54213327356242"
+        ]
+      },
+      {
+        "sku_family": "14:173#blue dial hands",
+        "media_id": "gid://shopify/MediaImage/59894149611858",
+        "present": true,
+        "variant_ids": [
+          "gid://shopify/ProductVariant/54213327618386",
+          "gid://shopify/ProductVariant/54213327651154",
+          "gid://shopify/ProductVariant/54213327683922"
+        ]
+      },
+      {
+        "sku_family": "14:100016652#black dial 2 hands",
+        "media_id": "gid://shopify/MediaImage/59894149677394",
+        "present": true,
+        "variant_ids": [
+          "gid://shopify/ProductVariant/54213327978834",
+          "gid://shopify/ProductVariant/54213328011602",
+          "gid://shopify/ProductVariant/54213328044370"
+        ]
+      },
+      {
+        "sku_family": "14:29#silver dial hands",
+        "media_id": "gid://shopify/MediaImage/59894149710162",
+        "present": true,
+        "variant_ids": [
+          "gid://shopify/ProductVariant/54213328306514",
+          "gid://shopify/ProductVariant/54213328339282",
+          "gid://shopify/ProductVariant/54213328372050"
+        ]
+      },
+      {
+        "sku_family": "14:365462#black dial 1 hands",
+        "media_id": "gid://shopify/MediaImage/59894149808466",
+        "present": true,
+        "variant_ids": [
+          "gid://shopify/ProductVariant/54213327454546",
+          "gid://shopify/ProductVariant/54213327487314",
+          "gid://shopify/ProductVariant/54213328175442"
+        ]
+      }
+    ],
+    "publication_or_activation_performed": false
+  },
+  "boundaries": {
+    "master_progress_json_modified": false,
+    "failed_render_files_uploaded_to_shopify": false,
+    "failed_supplier_media_removed": false,
+    "product_status_changed": false,
+    "featured_media_changed": false,
+    "prices_changed": false,
+    "other_variant_associations_changed": false
+  }
+}

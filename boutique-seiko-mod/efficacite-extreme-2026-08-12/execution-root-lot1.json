@@ -1,0 +1,151 @@
+{
+  "date": "2026-08-12",
+  "scope": "root execution lot 1",
+  "summary": {
+    "products_completed": 12,
+    "new_images_generated": 16,
+    "new_images_qa_passed": 15,
+    "new_images_qa_rejected": 1,
+    "validated_local_assets_reused": 10,
+    "media_uploaded": 16,
+    "variant_associations_verified": 58,
+    "supplier_media_removed": 37,
+    "shopify_readback_complete": true
+  },
+  "products": [
+    {
+      "handle": "cadran-ciel-etoile-28-5",
+      "product_gid": "gid://shopify/Product/11013068652882",
+      "status": "DRAFT",
+      "result": "clean",
+      "generated_attempts": 2,
+      "qa_pass": 1,
+      "variant_associations": 1,
+      "supplier_media_removed": 7,
+      "featured_media": "gid://shopify/MediaImage/59934985093458",
+      "local_file": "boutique-seiko-mod/visuels-codex-2026-08/cadran-ciel-etoile-28-5/final/cadran-ciel-etoile-28-5-v-dial.jpg",
+      "sha256": "4935e7d5dd7d35c6634bc3c69989a9a95c3f8af08b9b67b04258d15b56077b9b",
+      "description_corrected": true
+    },
+    {
+      "handle": "aviateur-acier-cadran-a-chiffres-arabes",
+      "product_gid": "gid://shopify/Product/10981883150674",
+      "status": "DRAFT",
+      "result": "clean",
+      "validated_local_assets_reused": 1,
+      "variant_associations": 6,
+      "featured_media": "gid://shopify/MediaImage/59935005376850"
+    },
+    {
+      "handle": "contre-la-montre",
+      "product_gid": "gid://shopify/Product/10977444528466",
+      "status": "DRAFT",
+      "result": "clean",
+      "validated_local_assets_reused": 1,
+      "variant_associations": 1
+    },
+    {
+      "handle": "integrale",
+      "product_gid": "gid://shopify/Product/10977444561234",
+      "status": "DRAFT",
+      "result": "clean",
+      "validated_local_assets_reused": 1,
+      "variant_associations": 1
+    },
+    {
+      "handle": "heritage",
+      "product_gid": "gid://shopify/Product/10977444594002",
+      "status": "DRAFT",
+      "result": "clean",
+      "validated_local_assets_reused": 1,
+      "variant_associations": 1
+    },
+    {
+      "handle": "remontoir-bois",
+      "product_gid": "gid://shopify/Product/10977444659538",
+      "status": "DRAFT",
+      "result": "clean",
+      "validated_local_assets_reused": 1,
+      "variant_associations": 1
+    },
+    {
+      "handle": "remontoir-collection",
+      "product_gid": "gid://shopify/Product/10977444757842",
+      "status": "DRAFT",
+      "result": "clean",
+      "validated_local_assets_reused": 1,
+      "variant_associations": 1
+    },
+    {
+      "handle": "rouleau-de-voyage-cuir",
+      "product_gid": "gid://shopify/Product/10977444823378",
+      "status": "DRAFT",
+      "result": "clean",
+      "validated_local_assets_reused": 1,
+      "variant_associations": 1
+    },
+    {
+      "handle": "voyageur-gmt",
+      "product_gid": "gid://shopify/Product/10977448657234",
+      "status": "DRAFT",
+      "result": "clean",
+      "validated_local_assets_reused": 3,
+      "variant_associations": 12
+    },
+    {
+      "handle": "cadran-retro-blanc-rose-nh35",
+      "product_gid": "gid://shopify/Product/11013078221138",
+      "status": "DRAFT",
+      "result": "clean",
+      "generated_attempts": 5,
+      "qa_pass": 5,
+      "media_uploaded": 5,
+      "variant_associations": 10,
+      "supplier_media_removed": 11,
+      "featured_media": "gid://shopify/MediaImage/59935060033874",
+      "shopify_media_count": 5,
+      "all_media_ready": true,
+      "pagination_complete": true
+    },
+    {
+      "handle": "cadran-argente-sterile-29",
+      "product_gid": "gid://shopify/Product/11013077205330",
+      "status": "DRAFT",
+      "result": "clean",
+      "supplier_item_id": "1005006987515689",
+      "generated_attempts": 5,
+      "qa_pass": 5,
+      "media_uploaded": 5,
+      "variant_associations": 15,
+      "supplier_media_removed": 9,
+      "featured_media": "gid://shopify/MediaImage/59935124291922",
+      "shopify_media_count": 5,
+      "all_media_ready": true,
+      "pagination_complete": true
+    },
+    {
+      "handle": "boitier-argente-36-39-biseaute",
+      "product_gid": "gid://shopify/Product/11013057708370",
+      "status": "DRAFT",
+      "result": "clean",
+      "supplier_item_id": "1005006489170451",
+      "generated_attempts": 4,
+      "qa_pass": 4,
+      "media_uploaded": 4,
+      "variant_associations": 8,
+      "supplier_media_removed": 10,
+      "featured_media": "gid://shopify/MediaImage/59935160205650",
+      "shopify_media_count": 4,
+      "all_media_ready": true,
+      "pagination_complete": true
+    }
+  ],
+  "preserved": [
+    "product status",
+    "variant price",
+    "compare-at price",
+    "SKU",
+    "inventory",
+    "options"
+  ]
+}

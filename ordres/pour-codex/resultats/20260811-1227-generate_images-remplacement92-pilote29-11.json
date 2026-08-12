@@ -1,0 +1,103 @@
+{
+  "id": "codex-20260811-1227-remplacement92-pilote29-11",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-pilote-29-mod-nh35",
+        "sku": "14:365462#black dial 1-Lume",
+        "slot": "variante",
+        "fichier": "cadran-pilote-29-mod-nh35-v-black-dial-1-lume.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-pilote-29-mod-nh35",
+        "sku": "14:173#black dial 2-Lume",
+        "slot": "variante",
+        "fichier": "cadran-pilote-29-mod-nh35-v-black-dial-2-lume.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-pilote-29-mod-nh35",
+        "sku": "14:203085833#black hands",
+        "slot": "variante",
+        "fichier": "cadran-pilote-29-mod-nh35-v-black-hands.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-pilote-29-mod-nh35",
+        "sku": "14:175#blue hands",
+        "slot": "variante",
+        "fichier": "cadran-pilote-29-mod-nh35-v-blue-hands.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-pilote-29-mod-nh35",
+        "sku": "14:200200134#silver hands",
+        "slot": "variante",
+        "fichier": "cadran-pilote-29-mod-nh35-v-silver-hands.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-pilote-29-mod-nh35",
+        "sku": "14:193#white dial-No lume",
+        "slot": "variante",
+        "fichier": "cadran-pilote-29-mod-nh35-v-white-dial-no-lume.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/black-set-1-v1-hour-hand-masks-10.jpg",
+        "motif": "Candidat écarté au QA : l'aiguille des heures masque le grand chiffre 10."
+      },
+      {
+        "fichier": "rejected/black-set-1-v2-hour-hand-touches-10.jpg",
+        "motif": "Deuxième génération écartée : la pointe de l'aiguille des heures touche encore le grand chiffre 10."
+      },
+      {
+        "fichier": "rejected/black-set-1-v3-hands-mask-10-16.jpg",
+        "motif": "Troisième génération écartée : l'aiguille des heures masque le 10 et l'aiguille des minutes masque le 16."
+      },
+      {
+        "fichier": "rejected/black-set-1-v4-minute-hand-masks-16.jpg",
+        "motif": "Quatrième génération écartée : l'aiguille des minutes masque encore le 16 malgré le placement imposé au milieu du couloir 3-4."
+      },
+      {
+        "fichier": "rejected/black-set-2-v1-hands-mask-10-22-16-7.jpg",
+        "motif": "Candidat écarté au QA : les aiguilles recouvrent 10/22, 16 et 7."
+      },
+      {
+        "fichier": "rejected/black-set-2-v2-hands-mask-10-22-16-4-18.jpg",
+        "motif": "Deuxième génération écartée : recouvrement persistant de 10/22, 16/4 et 18 malgré les axes explicites."
+      },
+      {
+        "fichier": "cadran-pilote-29-mod-nh35-v-salmon-dial-no-lume.jpg",
+        "motif": "Entrée non générée : la source porte le mot AUTOMATIC. Le conserver violerait la règle permanente §4.1 ; le retirer violerait la fidélité produit et l'interdiction d'inpainting."
+      },
+      {
+        "fichier": "cadran-pilote-29-mod-nh35-v-salmon-set-no-lume.jpg",
+        "motif": "Entrée non générée : la source porte le mot AUTOMATIC. Le conserver violerait la règle permanente §4.1 ; le retirer violerait la fidélité produit et l'interdiction d'inpainting."
+      },
+      {
+        "fichier": "rejected/white-set-v1-hands-mask-22-7-track.jpg",
+        "motif": "Candidat écarté au QA : l'aiguille des heures masque 22, la trotteuse masque 7 et l'aiguille des minutes touche la minuterie."
+      },
+      {
+        "fichier": "rejected/white-set-v2-hands-mask-22-16-4-19-7.jpg",
+        "motif": "Deuxième génération écartée : recouvrement persistant de 22, 16/4 et 19/7 malgré les axes explicites."
+      }
+    ],
+    "sujets_difficiles": [
+      "14:201336230#black set 1-Lume | 4 générations écartées : le modèle n'a pas conservé les trois aiguilles dans les couloirs 10-11, 3-4 et 6-7 sans masquer un chiffre"
+    ]
+  },
+  "executed_at": "2026-08-11T13:52:51Z",
+  "executor": "codex-2026-08-11"
+}

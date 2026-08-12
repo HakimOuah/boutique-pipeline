@@ -1,0 +1,81 @@
+{
+  "id": "codex-20260811-1525-remplacement92-pilote-nh34-reprise-4",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-pilote-noir-33-5-nh34",
+        "sku": "14:865#Dial 3",
+        "slot": "variante",
+        "fichier": "cadran-pilote-noir-33-5-nh34-v-dial-3.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/dial-1-hand-rejet-qa-externe-20260811-1525.jpg",
+        "motif": "Sauvegarde octet pour octet du rendu antérieur rejeté par QA externe : contrepoids blanc de trotteuse absent."
+      },
+      {
+        "fichier": "rejected/dial-2-hand-rejet-qa-externe-20260811-1525.jpg",
+        "motif": "Sauvegarde octet pour octet du rendu antérieur rejeté par QA externe : aiguilles recouvrant 10 et 22."
+      },
+      {
+        "fichier": "rejected/dial-1-hand-g1-trotteuse-vers-7-traverse-19-7.png",
+        "motif": "Première tentative écartée : trotteuse orientée vers 7 h et traversant 19 et 7 au lieu du couloir 5-6."
+      },
+      {
+        "fichier": "rejected/dial-1-hand-g2-heure-masque-22-minute-effleure-2.png",
+        "motif": "Deuxième tentative écartée : aiguille des heures masquant 22 et aiguille des minutes effleurant 2 et la minuterie."
+      },
+      {
+        "fichier": "rejected/dial-1-hand-g3-heure-reste-sur-22.png",
+        "motif": "Troisième tentative écartée : aiguille des heures encore superposée à 22 malgré les deux autres couloirs corrigés."
+      },
+      {
+        "fichier": "rejected/dial-1-hand-g4-trotteuse-traverse-17-5-contrepoids-sur-23.png",
+        "motif": "Quatrième tentative écartée : trotteuse traversant 17 et 5, avec contrepoids superposé à la zone 23."
+      },
+      {
+        "fichier": "rejected/dial-2-hand-g1-heure-masque-22-minute-effleure-2.png",
+        "motif": "Première tentative écartée : aiguille des heures masquant 22 et minute trop proche de 2 et de la minuterie."
+      },
+      {
+        "fichier": "rejected/dial-2-hand-g2-contrepoids-absent-heure-sur-22.png",
+        "motif": "Deuxième tentative écartée : contrepoids blanc de trotteuse absent et aiguille des heures encore sur 22."
+      },
+      {
+        "fichier": "rejected/dial-2-hand-g3-pose-minute-15h-heure-sur-10-22.png",
+        "motif": "Troisième tentative écartée : minute revenue presque à 15 minutes et aiguille des heures recouvrant la zone 10-22."
+      },
+      {
+        "fichier": "rejected/dial-2-hand-g4-heure-sur-22-trotteuse-sur-18-6.png",
+        "motif": "Quatrième tentative écartée : aiguille des heures sur 22 et trotteuse sur 18 et 6 au lieu du couloir 5-6."
+      },
+      {
+        "fichier": "rejected/dial-3-hand-g1-rectangle-inferieur-regularise-6h.png",
+        "motif": "Première tentative écartée : rectangle inférieur régularisé vers 6 h au lieu de 7,22 h et contrepoids hors couloir."
+      },
+      {
+        "fichier": "rejected/dial-3-hand-g2-trotteuse-traverse-5-contrepoids-deforme.png",
+        "motif": "Deuxième tentative écartée : trotteuse traversant 5 et contrepoids déformé ou fusionné près de l'aiguille des heures."
+      },
+      {
+        "fichier": "rejected/dial-3-hand-g3-cinq-rectangles-trotteuse-sur-5.png",
+        "motif": "Troisième tentative écartée : cinq rectangles au lieu de quatre, dont un parasite à 6 h, et trotteuse sur 5."
+      },
+      {
+        "fichier": "rejected/dial-3-hand-g4-trotteuse-sur-5-contrepoids-a-9h-minute-sur-2.png",
+        "motif": "Quatrième tentative écartée : trotteuse sur 5, contrepoids à 9 h et aiguille des minutes effleurant 2."
+      }
+    ],
+    "sujets_difficiles": [
+      "cadran-pilote-noir-33-5-nh34 | 14:200025551#Dial 1  hand | variante | 4 générations totales ; entrée rejetée, pose 10:13:28 et dégagement des glyphes incompatibles dans les candidats obtenus",
+      "cadran-pilote-noir-33-5-nh34 | 14:100016652#Dial 2 hand | variante | 4 générations totales ; entrée rejetée, pose 10:13:28, contrepoids et dégagement des glyphes non obtenus simultanément",
+      "cadran-pilote-noir-33-5-nh34 | 14:201659835#Dial 3 hand | variante | 4 générations totales ; entrée rejetée, géométrie des quatre rectangles et pose complète des aiguilles non obtenues simultanément"
+    ]
+  },
+  "executed_at": "2026-08-11T17:22:48Z",
+  "executor": "codex-2026-08-11"
+}

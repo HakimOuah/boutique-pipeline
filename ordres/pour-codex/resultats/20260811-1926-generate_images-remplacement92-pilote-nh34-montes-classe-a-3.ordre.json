@@ -1,0 +1,84 @@
+{
+  "id": "codex-20260811-1926-remplacement92-pilote-nh34-montes-classe-a-3",
+  "type": "generate_images",
+  "created_at": "2026-08-11T19:26:00+02:00",
+  "requested_by": "codex",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "cadran-pilote-noir-33-5-nh34",
+        "sku": "14:200025551#Dial 1  hand",
+        "slot": "variante",
+        "fichier": "cadran-pilote-noir-33-5-nh34-v-dial-1-hand.jpg",
+        "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/Sac3d6028146d4a71a60bafc1ffb0717bX.webp"
+      },
+      {
+        "handle": "cadran-pilote-noir-33-5-nh34",
+        "sku": "14:100016652#Dial 2 hand",
+        "slot": "variante",
+        "fichier": "cadran-pilote-noir-33-5-nh34-v-dial-2-hand.jpg",
+        "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/Sb8710c3725cb498291d3acdcf990e6edI.webp"
+      },
+      {
+        "handle": "cadran-pilote-noir-33-5-nh34",
+        "sku": "14:201659835#Dial 3 hand",
+        "slot": "variante",
+        "fichier": "cadran-pilote-noir-33-5-nh34-v-dial-3-hand.jpg",
+        "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/Sf4b20fe9b3534454952eb58b10dfebb4D.webp"
+      }
+    ],
+    "sources": [
+      "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/Sac3d6028146d4a71a60bafc1ffb0717bX.webp",
+      "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/Sb8710c3725cb498291d3acdcf990e6edI.webp",
+      "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/Sf4b20fe9b3534454952eb58b10dfebb4D.webp",
+      "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/S0ddfc7b68b0a4f5dba36efa7cbe34a90Z.webp",
+      "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/cadran-pilote-noir-33-5-nh34-v-dial-1-hand.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/cadran-pilote-noir-33-5-nh34-v-dial-2-hand.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/rejected/dial-3-hand-g4-trotteuse-sur-5-contrepoids-a-9h-minute-sur-2.png",
+      "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/cadran-pilote-noir-33-5-nh34-v-dial-1.jpg",
+      "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/cadran-pilote-noir-33-5-nh34-v-dial-2.jpg"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+      "surcharges": [
+        "REPRISE CLASSE A FAIL-CLOSED des trois variantes NH34 avec aiguilles. Nouvelle composition complète carrée, cadran parfaitement de face, fond minéral clair Maison Noirmont, lumière douce haute-gauche et ombre diffuse.",
+        "Les cadrans seuls Dial 1 et Dial 2 déjà PASS servent uniquement de témoins de cadrage, échelle, fond et lumière. La source nue Dial 3 sert de vérité structurelle additionnelle pour les rectangles/points. Toute vérité des aiguilles vient exclusivement de la source SKU hand exacte."
+      ]
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "CORRECTION BLOQUANTE : ne demander ni représenter une heure civile synchronisée. L'ancienne consigne 10 h 13 / 306,5° était contradictoire, car 306,5° pointe sur la zone 10/22. Placer désormais trois axes radiaux indépendants dans des secteurs vides, selon le cadran.",
+        "POSE DIAL 1 HAND ET DIAL 2 HAND : aiguille des heures à 315° exactement, bissectrice entre 10/22 et 11/23 ; aiguille des minutes à 105° exactement, bissectrice entre 3/15 et 4/16 ; trotteuse à 195° exactement, bissectrice entre 6/18 et 7/19. Tolérance maximale ±2° sur chaque axe.",
+        "POSE DIAL 3 HAND : aiguille des heures à 315° exactement entre 10 et 11 ; aiguille des minutes à 75° exactement entre 2 et 3, en restant nettement avant le rectangle source de 3,88 h ; trotteuse à 195° exactement entre 6 et 7, en restant avant le rectangle source de 7,22 h. Tolérance maximale ±2°.",
+        "Aucune partie des aiguilles — corps, lume, contour, pointe, queue ou contrepoids — ne touche, traverse ni masque chiffre, repère, triangle, rectangle, point, piste ou symbole. Un espace de fond noir visible doit séparer chaque aiguille des deux éléments bordant son secteur.",
+        "Conserver EXACTEMENT les trois aiguilles de chaque source : forme, longueur, largeur, couleur, lume, pointe et contrepoids. Le petit contrepoids blanc en goutte/lollipop de la trotteuse est obligatoire sur les trois SKU. Seule la rotation rigide autour de l'axe central est autorisée ; aucun redessin, raccourcissement, amincissement, transfert ni invention.",
+        "VÉRITÉ PRODUIT PAR SKU : Dial 1 hand utilise exclusivement Sac3d6028146d4a71a60bafc1ffb0717bX.webp ; Dial 2 hand exclusivement Sb8710c3725cb498291d3acdcf990e6edI.webp ; Dial 3 hand exclusivement Sf4b20fe9b3534454952eb58b10dfebb4D.webp. Aucune permutation de cadran, lume ou aiguilles.",
+        "DIAL 1 ET 2 : conserver exactement chiffres 1-12 et 13-24, triangles périphériques jaune-or ou blancs respectifs, minuterie et perçage. Aucun chiffre, triangle ou trait ne peut être déplacé, ajouté ou retiré.",
+        "DIAL 3 : conserver exactement quatre rectangles jaune-or aux positions 0,91/3,88/7,22/10,04 h, huit points ronds, triangle intérieur, chiffres 1-11 sans 12 ni 13-24, piste rectangulaire, flèche militaire inclinée et perçage. Aucune régularisation vers les cardinaux.",
+        "Les mauvais finals Dial 1 hand et Dial 2 hand doivent avoir avant écriture les SHA-256 `024cfd42e35f83a42f1230facbd1c91390d0ada78d773e08b3bfbbfc15192243` et `6fa57ded68b3993cd8801254dd2ede4c7b51d3cde86ce620459172523a95b5c7`. Le dernier mauvais candidat Dial 3 hand doit avoir le SHA-256 `8dddca80e050d1c57bf177fcb209db379b113376a664867ba0b6e32600f2191f`. Tout écart arrête l'ordre sans écraser.",
+        "Si les hashes correspondent, copier octet pour octet les trois rejets sous `rejected/dial-1-hand-rejet-externe-classe-a-20260811-1926.jpg`, `rejected/dial-2-hand-rejet-externe-classe-a-20260811-1926.jpg` et `rejected/dial-3-hand-rejet-externe-classe-a-20260811-1926.png`, puis revérifier les hashes avant génération.",
+        "Les témoins nus Dial 1 `c0ed33dd2a4f606a89ae6bc50962fef4d15b8d20a8f93df2de68c4b82bef7ac7` et Dial 2 `38aef4f29f0710e028214ee02a1ee29dc86a75adf5e092feeaf9e4d96b8815ee`, ainsi que la source nue Dial 3 `f0e1a0d735b36e72f0908f73f6339e1f1efc6d505d2e08f6a7e2724bd8064898`, sont strictement intouchables. Vérifier avant et après.",
+        "Aucun logo, nom de marque, mot, lettre parasite, filigrane, texte promotionnel, emballage, outil, main, boîtier ni montre complète. Les chiffres et symboles physiques exacts restent obligatoires.",
+        "Régénération complète image-to-image depuis la source exacte ; aucun inpainting, gommage, clonage, recadrage ni réencodage d'un rejet. Sortie 2048 × 2048, JPEG sRGB, viser 400-900 Ko et rester sous 1,2 Mo, noms exacts du manifeste."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Contrôle source exacte↔rendu en résolution originale pour chaque SKU : chiffres, triangles, rectangles, points, minuterie, symbole, teinte, perçage et géométrie complète des trois aiguilles.",
+        "Mesurer les axes depuis le pivot. Dial 1/2 : 315°/105°/195° ±2°. Dial 3 : 315°/75°/195° ±2°. Toute pose proche de l'ancienne 306,5° ou tout axe sur 10/22, 5, 6/18, 2, 3/15 est un rejet.",
+        "Contrôle bloquant : zéro chiffre, repère, triangle, rectangle, point, piste ou symbole touché ou masqué ; contrepoids blanc en goutte/lollipop présent, non déformé et fidèle sur les trois SKU.",
+        "Contrôle Dial 3 : quatre rectangles seulement aux positions 0,91/3,88/7,22/10,04 h, huit points, aucun rectangle parasite, flèche inclinée exacte et aucun second cercle 13-24.",
+        "Contrôle des sauvegardes : trois hashes rejet↔copie strictement identiques avant remplacement ; deux témoins nus et source nue Dial 3 inchangés avant/après.",
+        "Créer `qa/planche-remplacement92-pilote-nh34-montes-classe-a-3.jpg`, au moins 900 px par vignette, avec pour chaque variante source exacte, nouveau rendu et témoin nu disponible.",
+        "Livrer uniquement les nouveaux fichiers réellement PASS. Tout candidat ambigu ou incomplet reste dans rejected et n'entre pas au manifeste réalisé."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34",
+      "manifeste": "manifeste-remplacement92-pilote-nh34-montes-classe-a-3.json"
+    }
+  },
+  "notes": "Reprise classe A fail-closed des trois variantes montées rejetées après quatre essais par l'ordre 1525. La pose précédente était géométriquement contradictoire ; cette reprise emploie des axes indépendants dans des secteurs vides. Aucune opération Shopify, DSers, prix, statut, publication ou activation ne relève de cet ordre."
+}

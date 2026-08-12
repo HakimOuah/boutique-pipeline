@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-08-12T03:00:53+02:00",
+  "scope": "Selection fail-closed d'un produit non traite avec 1 a 4 apparences fournisseur et sources exactes",
+  "result": "BLOCKED_NO_ELIGIBLE_PRODUCT",
+  "reservation": null,
+  "shopify_mutations": 0,
+  "imagegen_attempts": 0,
+  "uploads": 0,
+  "variant_associations": 0,
+  "supplier_media_deleted": 0,
+  "activation": false,
+  "constraints_applied": [
+    "Exclusion de tous les handles deja presents dans les rapports efficacite-extreme",
+    "Exclusion des reservations root, audit_actifs et audit_brouillons",
+    "Preflight Shopify live avant toute generation",
+    "Source exacte et distinctive par apparence obligatoire",
+    "Aucune association deduite ou inventee"
+  ],
+  "live_checks": [
+    {
+      "handle": "loupe-de-date-saphir",
+      "product_id": "gid://shopify/Product/10977445216594",
+      "status": "ACTIVE",
+      "variants": 8,
+      "media": 3,
+      "supplier_media_remaining_proven": 0,
+      "eligible": false,
+      "reason": "Les trois medias live sont deja des fichiers locaux 2048 px. L'ancienne source utilise la meme image non distinctive pour Minéral/Saphir et toutes les tailles; aucune association de variante live n'existe."
+    },
+    {
+      "handle": "montre-field-bronze-cadran-chiffres-1-12",
+      "product_id": "gid://shopify/Product/10988849267026",
+      "status": "ACTIVE",
+      "variants": 18,
+      "media": 12,
+      "supplier_media_remaining_proven": 0,
+      "eligible": false,
+      "reason": "Le produit est deja couvert par des medias Maison et les variantes sont associees; aucun media fournisseur reel ne reste a remplacer."
+    },
+    {
+      "handle": "remontoir-solo",
+      "product_id": "gid://shopify/Product/10977444626770",
+      "status": "ACTIVE",
+      "variants": 2,
+      "media": 2,
+      "supplier_media_remaining_proven": 0,
+      "eligible": false,
+      "reason": "Les medias live sont deja Maison. La source historique ne prouve pas distinctement les variantes Vert/Blanc et montre la marque FLOTOWI."
+    }
+  ],
+  "other_rejected_candidates": [
+    {
+      "handle": "montre-squelette-automatique-octogone",
+      "reason": "Source exacte incomplete: bracelet coupe et seulement cinq vis de lunette visibles; historique de generations rejetees."
+    },
+    {
+      "handle": "barrettes-de-rechange-270",
+      "reason": "La source montre des barrettes libres mais ne prouve pas les quatre quantites de lot."
+    },
+    {
+      "handle": "coffret-douze-aluminium",
+      "reason": "Deja laisse en attente faute de couverture exacte de toutes les apparences."
+    },
+    {
+      "handle": "pince-a-barrettes",
+      "reason": "Deja laisse en attente faute de couverture exacte de toutes les apparences."
+    },
+    {
+      "handle": "rouleau-de-voyage-bleu-marine-cuir",
+      "reason": "Deja laisse en attente faute de couverture exacte de toutes les apparences."
+    }
+  ],
+  "evidence_files": [
+    "boutique-seiko-mod/AUDIT-130-MEDIAS-P4-RESTANTS-AGENT-2026-08-10.md",
+    "boutique-seiko-mod/AUDIT-9-GALERIES-RESTANTES-API-ALIEXPRESS-2026-08-10.md",
+    "boutique-seiko-mod/visuels-codex-2026-08/montre-squelette-automatique-octogone/compte-rendu.md",
+    "boutique-seiko-mod/visuels-codex-2026-08/remontoir-solo/compte-rendu.md"
+  ],
+  "next_action_required": "Assigner un handle precis avec une source exacte nouvelle, ou autoriser explicitement une couverture generique pour une famille de variantes non distinctive visuellement."
+}

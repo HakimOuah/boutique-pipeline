@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "completed_at": "2026-08-12T03:11:41+02:00",
+  "result": "PASS_COMPLETE",
+  "handle": "cadran-evide-vert-nh70",
+  "product_id": "gid://shopify/Product/11013068882258",
+  "status_before": "DRAFT",
+  "status_after": "DRAFT",
+  "activation": false,
+  "variants": 7,
+  "imagegen_attempts": 7,
+  "imagegen_retries": 0,
+  "qa_pass": 7,
+  "qa_reject": 0,
+  "uploads": 7,
+  "variant_associations_verified": 7,
+  "supplier_media_before": 11,
+  "supplier_media_deleted": 11,
+  "supplier_media_after": 0,
+  "maison_media_after": 7,
+  "featured_media_after": "gid://shopify/MediaImage/59935618138450",
+  "pagination_verified": {
+    "product_media_has_next_page": false,
+    "variants_has_next_page": false,
+    "variant_media_has_next_page": false
+  },
+  "commercial_integrity": {
+    "status_preserved": true,
+    "prices_preserved": true,
+    "compare_at_prices_preserved": true,
+    "skus_preserved": true,
+    "options_preserved": true,
+    "inventory_quantities_preserved": true,
+    "total_inventory_before": 4948,
+    "total_inventory_after": 4948
+  },
+  "variant_mapping": [
+    {"appearance":"white","variant_id":"gid://shopify/ProductVariant/54213256347986","new_media_id":"gid://shopify/MediaImage/59935618138450"},
+    {"appearance":"Military Green","variant_id":"gid://shopify/ProductVariant/54213256380754","new_media_id":"gid://shopify/MediaImage/59935618302290"},
+    {"appearance":"rose gold","variant_id":"gid://shopify/ProductVariant/54213256413522","new_media_id":"gid://shopify/MediaImage/59935618007378"},
+    {"appearance":"blue","variant_id":"gid://shopify/ProductVariant/54213256446290","new_media_id":"gid://shopify/MediaImage/59935618761042"},
+    {"appearance":"golden","variant_id":"gid://shopify/ProductVariant/54213256479058","new_media_id":"gid://shopify/MediaImage/59935618924882"},
+    {"appearance":"black","variant_id":"gid://shopify/ProductVariant/54213256511826","new_media_id":"gid://shopify/MediaImage/59935619154258"},
+    {"appearance":"dark grey","variant_id":"gid://shopify/ProductVariant/54213256544594","new_media_id":"gid://shopify/MediaImage/59935619383634"}
+  ],
+  "source_media_deleted_ids": [
+    "gid://shopify/MediaImage/59894067659090",
+    "gid://shopify/MediaImage/59894067691858",
+    "gid://shopify/MediaImage/59894067724626",
+    "gid://shopify/MediaImage/59894067757394",
+    "gid://shopify/MediaImage/59894067790162",
+    "gid://shopify/MediaImage/59894067822930",
+    "gid://shopify/MediaImage/59894067855698",
+    "gid://shopify/MediaImage/59894067888466",
+    "gid://shopify/MediaImage/59894067921234",
+    "gid://shopify/MediaImage/59894067954002",
+    "gid://shopify/MediaImage/59894067986770"
+  ],
+  "manifest": "boutique-seiko-mod/efficacite-extreme-2026-08-12/cadran-evide-vert-nh70/manifeste-qa.json",
+  "notes": "Couverture complete obtenue avant suppression. Readback final: sept medias Maison READY en 2048x2048, sept associations exactes, aucun media fournisseur."
+}

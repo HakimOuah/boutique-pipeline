@@ -1,0 +1,218 @@
+{
+  "schema": "maison-noirmont.shopify-visual-replacement-report.v1",
+  "generated_at": "2026-08-11T17:21:17+02:00",
+  "handle": "cadran-sterile-lumineux-28-5",
+  "product": {
+    "id": "gid://shopify/Product/11013078712658",
+    "status": "DRAFT",
+    "featured_media_id": "gid://shopify/MediaImage/59904315425106"
+  },
+  "orders": [
+    {
+      "order": "20260811-1227-generate_images-remplacement92-sterile-lumineux-a-9",
+      "result_path": "ordres/pour-codex/resultats/20260811-1227-generate_images-remplacement92-sterile-lumineux-a-9.json",
+      "archived_order_path": "ordres/pour-codex/resultats/20260811-1227-generate_images-remplacement92-sterile-lumineux-a-9.ordre.json",
+      "status": "done",
+      "delivered_visuals": 9,
+      "final_rejections": 0,
+      "intermediate_rejections": [
+        {
+          "file": "rejected/mint-v1-encoche-bord-droit.jpg",
+          "reason": "Encoche absente de la source inventee sur le bord droit; tentative rejetee puis regeneration complete conforme."
+        }
+      ]
+    },
+    {
+      "order": "20260811-1227-generate_images-remplacement92-sterile-lumineux-b-8",
+      "result_path": "ordres/pour-codex/resultats/20260811-1227-generate_images-remplacement92-sterile-lumineux-b-8.json",
+      "archived_order_path": "ordres/pour-codex/resultats/20260811-1227-generate_images-remplacement92-sterile-lumineux-b-8.ordre.json",
+      "status": "done",
+      "delivered_visuals": 8,
+      "final_rejections": 0,
+      "intermediate_rejections": []
+    }
+  ],
+  "qa": {
+    "independent_source_to_final": true,
+    "visuals_passed": 17,
+    "visuals_rejected_final": 0,
+    "checks": [
+      "exact_geometry",
+      "exact_color",
+      "date_window_presence_and_position",
+      "hour_and_minute_indices",
+      "no_brand_or_logo",
+      "no_supplier_text",
+      "homogeneous_scale_and_orientation"
+    ],
+    "board_a": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-lumineux-28-5/planche-qa-remplacement92-sterile-lumineux-a-9.jpg",
+    "board_b": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-lumineux-28-5/qa-planche-remplacement92-sterile-lumineux-b-8.jpg"
+  },
+  "replacements": [
+    {
+      "file": "cadran-sterile-lumineux-28-5-v-1.jpg",
+      "skus": ["14:94#1"],
+      "variant_ids": ["gid://shopify/ProductVariant/54213309170002"],
+      "new_media_id": "gid://shopify/MediaImage/59926793847122",
+      "old_media_id_removed": "gid://shopify/MediaImage/59894120120658"
+    },
+    {
+      "file": "cadran-sterile-lumineux-28-5-v-2.jpg",
+      "skus": ["14:201447598#2"],
+      "variant_ids": ["gid://shopify/ProductVariant/54213309202770"],
+      "new_media_id": "gid://shopify/MediaImage/59927046848850",
+      "old_media_id_removed": "gid://shopify/MediaImage/59894119989586"
+    },
+    {
+      "file": "cadran-sterile-lumineux-28-5-v-3.jpg",
+      "skus": ["14:201447303#3"],
+      "variant_ids": ["gid://shopify/ProductVariant/54213309268306"],
+      "new_media_id": "gid://shopify/MediaImage/59927046881618",
+      "old_media_id_removed": "gid://shopify/MediaImage/59894120317266"
+    },
+    {
+      "file": "cadran-sterile-lumineux-28-5-v-4.jpg",
+      "skus": ["14:200005100#4"],
+      "variant_ids": ["gid://shopify/ProductVariant/54213309235538"],
+      "new_media_id": "gid://shopify/MediaImage/59927046914386",
+      "old_media_id_removed": "gid://shopify/MediaImage/59894119924050"
+    },
+    {
+      "file": "cadran-sterile-lumineux-28-5-v-5-silver-5.jpg",
+      "skus": ["14:496#5-Silver", "14:200000080#5"],
+      "variant_ids": [
+        "gid://shopify/ProductVariant/54213308973394",
+        "gid://shopify/ProductVariant/54213309333842"
+      ],
+      "new_media_id": "gid://shopify/MediaImage/59927046947154",
+      "old_media_id_removed": "gid://shopify/MediaImage/59894119825746"
+    },
+    {
+      "file": "cadran-sterile-lumineux-28-5-v-6.jpg",
+      "skus": ["14:4#6"],
+      "variant_ids": ["gid://shopify/ProductVariant/54213309137234"],
+      "new_media_id": "gid://shopify/MediaImage/59927046979922",
+      "old_media_id_removed": "gid://shopify/MediaImage/59894120284498"
+    },
+    {
+      "file": "cadran-sterile-lumineux-28-5-v-7.jpg",
+      "skus": ["14:100013777#7"],
+      "variant_ids": ["gid://shopify/ProductVariant/54213309301074"],
+      "new_media_id": "gid://shopify/MediaImage/59927047012690",
+      "old_media_id_removed": "gid://shopify/MediaImage/59894120350034"
+    },
+    {
+      "file": "cadran-sterile-lumineux-28-5-v-8.jpg",
+      "skus": ["14:100005979#8"],
+      "variant_ids": ["gid://shopify/ProductVariant/54213309399378"],
+      "new_media_id": "gid://shopify/MediaImage/59927047045458",
+      "old_media_id_removed": "gid://shopify/MediaImage/59894120055122"
+    },
+    {
+      "file": "cadran-sterile-lumineux-28-5-v-9.jpg",
+      "skus": ["14:350686#9"],
+      "variant_ids": ["gid://shopify/ProductVariant/54213309366610"],
+      "new_media_id": "gid://shopify/MediaImage/59927047078226",
+      "old_media_id_removed": "gid://shopify/MediaImage/59894120022354"
+    },
+    {
+      "file": "cadran-sterile-lumineux-28-5-v-10.jpg",
+      "skus": ["14:350850#10"],
+      "variant_ids": ["gid://shopify/ProductVariant/54213309464914"],
+      "new_media_id": "gid://shopify/MediaImage/59926793879890",
+      "old_media_id_removed": "gid://shopify/MediaImage/59894120186194"
+    },
+    {
+      "file": "cadran-sterile-lumineux-28-5-v-11.jpg",
+      "skus": ["14:350853#11"],
+      "variant_ids": ["gid://shopify/ProductVariant/54213309432146"],
+      "new_media_id": "gid://shopify/MediaImage/59926793912658",
+      "old_media_id_removed": "gid://shopify/MediaImage/59894120153426"
+    },
+    {
+      "file": "cadran-sterile-lumineux-28-5-v-12-silver.jpg",
+      "skus": ["14:173#12-Silver"],
+      "variant_ids": ["gid://shopify/ProductVariant/54213309038930"],
+      "new_media_id": "gid://shopify/MediaImage/59926793945426",
+      "old_media_id_removed": "gid://shopify/MediaImage/59894120087890"
+    },
+    {
+      "file": "cadran-sterile-lumineux-28-5-v-13.jpg",
+      "skus": ["14:10#13"],
+      "variant_ids": ["gid://shopify/ProductVariant/54213308940626"],
+      "new_media_id": "gid://shopify/MediaImage/59926793978194",
+      "old_media_id_removed": "gid://shopify/MediaImage/59894120218962"
+    },
+    {
+      "file": "cadran-sterile-lumineux-28-5-v-14.jpg",
+      "skus": ["14:29#14"],
+      "variant_ids": ["gid://shopify/ProductVariant/54213308907858"],
+      "new_media_id": "gid://shopify/MediaImage/59926794010962",
+      "old_media_id_removed": "gid://shopify/MediaImage/59894119956818"
+    },
+    {
+      "file": "cadran-sterile-lumineux-28-5-v-15.jpg",
+      "skus": ["14:175#15"],
+      "variant_ids": ["gid://shopify/ProductVariant/54213309006162"],
+      "new_media_id": "gid://shopify/MediaImage/59926794043730",
+      "old_media_id_removed": "gid://shopify/MediaImage/59894120251730"
+    },
+    {
+      "file": "cadran-sterile-lumineux-28-5-v-16.jpg",
+      "skus": ["14:193#16"],
+      "variant_ids": ["gid://shopify/ProductVariant/54213309104466"],
+      "new_media_id": "gid://shopify/MediaImage/59926794076498",
+      "old_media_id_removed": "gid://shopify/MediaImage/59894119891282"
+    },
+    {
+      "file": "cadran-sterile-lumineux-28-5-v-17.jpg",
+      "skus": ["14:366#17"],
+      "variant_ids": ["gid://shopify/ProductVariant/54213309071698"],
+      "new_media_id": "gid://shopify/MediaImage/59926794109266",
+      "old_media_id_removed": "gid://shopify/MediaImage/59894119858514"
+    }
+  ],
+  "readback": {
+    "performed_live_via_shopify_mcp": true,
+    "status": "DRAFT",
+    "featured_media_id": "gid://shopify/MediaImage/59904315425106",
+    "media_count": 20,
+    "variant_count": 18,
+    "media_all_ready": true,
+    "media_page_info_has_next_page": false,
+    "variant_page_info_has_next_page": false,
+    "expected_media_missing": [],
+    "unexpected_media": [],
+    "removed_old_media_still_present": [],
+    "variant_associations_all_exact": true,
+    "prices_unchanged": true,
+    "prices_by_sku": {
+      "14:29#14": "6.59",
+      "14:10#13": "6.52",
+      "14:496#5-Silver": "6.81",
+      "14:175#15": "6.81",
+      "14:173#12-Silver": "6.84",
+      "14:366#17": "6.84",
+      "14:193#16": "6.83",
+      "14:4#6": "6.77",
+      "14:94#1": "6.83",
+      "14:201447598#2": "6.60",
+      "14:200005100#4": "6.64",
+      "14:201447303#3": "6.59",
+      "14:100013777#7": "6.45",
+      "14:200000080#5": "6.58",
+      "14:350686#9": "6.68",
+      "14:100005979#8": "6.59",
+      "14:350853#11": "6.61",
+      "14:350850#10": "6.57"
+    },
+    "preserved_generic_media_ids": [
+      "gid://shopify/MediaImage/59904315425106",
+      "gid://shopify/MediaImage/59904315457874",
+      "gid://shopify/MediaImage/59904315490642"
+    ]
+  },
+  "master_progress_json_modified": false,
+  "blockers": [],
+  "reprise_order_created": false
+}

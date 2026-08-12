@@ -1,0 +1,116 @@
+{
+  "id": "codex-20260811-1450-remplacement92-pilote-lumineuses-montes-reprise-5",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+        "sku": "14:365462#black dial 1 hands",
+        "slot": "variante",
+        "fichier": "cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-1-hands.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 5
+      },
+      {
+        "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+        "sku": "14:173#blue dial hands",
+        "slot": "variante",
+        "fichier": "cadran-pilote-33-5-aiguilles-lumineuses-v-blue-dial-hands.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      },
+      {
+        "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+        "sku": "14:29#silver dial hands",
+        "slot": "variante",
+        "fichier": "cadran-pilote-33-5-aiguilles-lumineuses-v-silver-dial-hands.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 4
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/black-dial-1-hands-rejet-aiguilles-masquent-chiffres-20260811-1450.jpg",
+        "motif": "Rejet QA externe initial sauvegarde octet pour octet avant remplacement : pose proche de 10 h 10 masquant des chiffres."
+      },
+      {
+        "fichier": "rejected/black-dial-2-hands-rejet-aiguilles-masquent-chiffres-20260811-1450.jpg",
+        "motif": "Rejet QA externe initial sauvegarde octet pour octet : pose proche de 10 h 10 masquant des chiffres; aucun remplacement PASS obtenu."
+      },
+      {
+        "fichier": "rejected/blue-dial-hands-rejet-aiguilles-masquent-chiffres-20260811-1450.jpg",
+        "motif": "Rejet QA externe initial sauvegarde octet pour octet avant remplacement : pose proche de 10 h 10 masquant des chiffres."
+      },
+      {
+        "fichier": "rejected/green-dial-hands-rejet-aiguilles-masquent-chiffres-20260811-1450.jpg",
+        "motif": "Rejet QA externe initial sauvegarde octet pour octet : pose proche de 10 h 10 masquant des chiffres; aucun remplacement PASS obtenu."
+      },
+      {
+        "fichier": "rejected/silver-dial-hands-rejet-aiguilles-masquent-chiffres-20260811-1450.jpg",
+        "motif": "Rejet QA externe initial sauvegarde octet pour octet avant remplacement : pose proche de 10 h 10 masquant des chiffres."
+      },
+      {
+        "fichier": "rejected/black-dial-1-hands-v1-22-masque-trotteuse-hors-couloir.png",
+        "motif": "Generation 1 ecartee : aiguille des heures masquant 22 et trotteuse hors du couloir 18-19 / 6-7."
+      },
+      {
+        "fichier": "rejected/black-dial-1-hands-v2-22-masque.png",
+        "motif": "Generation 2 ecartee : aiguille des heures masquant encore 22."
+      },
+      {
+        "fichier": "rejected/black-dial-1-hands-v3-22-masque.png",
+        "motif": "Generation 3 ecartee : aiguille des heures masquant encore 22."
+      },
+      {
+        "fichier": "rejected/black-dial-1-hands-v4-heure-trop-proche-11.png",
+        "motif": "Generation 4 ecartee : 22 libere mais aiguille des heures trop avancee vers 11, pose incoherente avec 10 h 17."
+      },
+      {
+        "fichier": "rejected/black-dial-2-hands-v1-angle-heure-faux.png",
+        "motif": "Generation 1 ecartee : angle de l'aiguille des heures nettement hors du couloir 22-23."
+      },
+      {
+        "fichier": "rejected/black-dial-2-hands-v2-trotteuse-proche-7.png",
+        "motif": "Generation 2 ecartee : trotteuse trop avancee vers 7/19, incoherente avec 32 secondes."
+      },
+      {
+        "fichier": "rejected/black-dial-2-hands-v3-trotteuse-sur-18-et-6.png",
+        "motif": "Generation 3 ecartee et SKU non livre : trotteuse retombee sur l'axe de 18 et 6, masquage bloquant."
+      },
+      {
+        "fichier": "rejected/blue-dial-hands-v1-separation-22-et-secondes-insuffisante.png",
+        "motif": "Generation 1 ecartee : separation insuffisamment sure avec 22 et trotteuse trop avancee."
+      },
+      {
+        "fichier": "rejected/green-dial-hands-v1-22-touche.png",
+        "motif": "Generation 1 ecartee : aiguille des heures touchant 22."
+      },
+      {
+        "fichier": "rejected/green-dial-hands-v2-trotteuse-proche-7.png",
+        "motif": "Generation 2 ecartee : trotteuse trop avancee vers 7/19, incoherente avec 32 secondes."
+      },
+      {
+        "fichier": "rejected/green-dial-hands-v3-trotteuse-sur-18-et-6.png",
+        "motif": "Generation 3 ecartee et SKU non livre : trotteuse sur l'axe de 18 et 6, masquage bloquant."
+      },
+      {
+        "fichier": "rejected/silver-dial-hands-v1-angle-heure-et-secondes-faux.png",
+        "motif": "Generation 1 ecartee : angles de l'heure et de la trotteuse hors cible."
+      },
+      {
+        "fichier": "rejected/silver-dial-hands-v2-22-masque.png",
+        "motif": "Generation 2 ecartee : aiguille des heures masquant 22."
+      },
+      {
+        "fichier": "rejected/silver-dial-hands-v3-heure-trop-proche-11.png",
+        "motif": "Generation 3 ecartee : 22 libere mais aiguille des heures trop avancee vers 11."
+      }
+    ],
+    "sujets_difficiles": [
+      "14:365462#black dial 1 hands - PASS apres 5 generations",
+      "14:29#silver dial hands - PASS apres 4 generations"
+    ]
+  },
+  "executed_at": "2026-08-11T16:39:09Z",
+  "executor": "codex-2026-08-11"
+}

@@ -1,0 +1,184 @@
+{
+  "schema_version": "1.0",
+  "created_at_utc": "2026-08-11T23:36:10Z",
+  "result": "PASS",
+  "scope": {
+    "products_limit": 6,
+    "generation_performed": false,
+    "assets_source": "boutique-seiko-mod/efficacite-extreme-2026-08-12/inventaire-assets.json",
+    "selection": "Six produits ACTIVE à une apparence, entièrement finissables par trois remplacements locaux QA PASS.",
+    "deletion_gate": "Upload READY 2048x2048, attachement produit, association variante exacte et readback intermédiaire PASS."
+  },
+  "counts": {
+    "products_preflighted": 6,
+    "products_completed": 6,
+    "products_skipped": 0,
+    "local_files_uploaded": 18,
+    "gallery_slots_replaced": 18,
+    "variant_associations_verified": 6,
+    "supplier_media_deleted": 18,
+    "failed_shopify_mutations": 0
+  },
+  "mutation_evidence": {
+    "uploads_succeeded": 18,
+    "file_update_ready": 18,
+    "file_update_user_errors": [],
+    "file_delete_requested": 18,
+    "file_delete_confirmed": 18,
+    "file_delete_user_errors": []
+  },
+  "products": [
+    {
+      "handle": "contre-la-montre-compteurs-bleus-chronographe",
+      "product_id": "gid://shopify/Product/10980083007826",
+      "variant_id": "gid://shopify/ProductVariant/54096786948434",
+      "sku": "NOIR-CHR-009",
+      "featured_media": "gid://shopify/MediaImage/59691394040146",
+      "variant_media": ["gid://shopify/MediaImage/59691394040146"],
+      "local_replacements": [
+        ["situation", "scratchpad/noirmont-galeries/generated/contre-la-montre-compteurs-bleus-chronographe-situation.jpg", "9628bca385ac3f9f20b672b2d61f69ecbfcd41d724bfe61110c8cceac1729658", "gid://shopify/MediaImage/59935143428434"],
+        ["macro", "scratchpad/noirmont-galeries/generated/contre-la-montre-compteurs-bleus-chronographe-macro.jpg", "8a25491f305019bda649dbfd3b3faf6a914059a99528b8e0b54d85b359bd82a1", "gid://shopify/MediaImage/59935142642002"],
+        ["poignet", "scratchpad/noirmont-galeries/generated/contre-la-montre-compteurs-bleus-chronographe-poignet.jpg", "ecdf49fa67f5cd9acf4c27b895736cc07a2e76dbed10d04b9d234b568dd14a70", "gid://shopify/MediaImage/59935143657810"]
+      ],
+      "supplier_media_deleted": [
+        "gid://shopify/MediaImage/59693885227346",
+        "gid://shopify/MediaImage/59693885260114",
+        "gid://shopify/MediaImage/59693885292882"
+      ],
+      "status_before_after": ["ACTIVE", "ACTIVE"],
+      "inventory_before_after": [0, 0],
+      "media_count_before_after": [5, 5],
+      "immutable_fields_verified": true,
+      "readback": "PASS"
+    },
+    {
+      "handle": "contre-la-montre-gris-anthracite-chronographe",
+      "product_id": "gid://shopify/Product/10980081926482",
+      "variant_id": "gid://shopify/ProductVariant/54096773349714",
+      "sku": "NOIR-CHR-010",
+      "featured_media": "gid://shopify/MediaImage/59691394105682",
+      "variant_media": ["gid://shopify/MediaImage/59691394105682"],
+      "local_replacements": [
+        ["situation", "scratchpad/noirmont-galeries/generated/contre-la-montre-gris-anthracite-chronographe-situation.jpg", "ab7f67918327fa8f5df1eadfa3fcdb82c4e9f0634ace9dc7b8aca6e73edbd0e4", "gid://shopify/MediaImage/59935144313170"],
+        ["macro", "scratchpad/noirmont-galeries/generated/contre-la-montre-gris-anthracite-chronographe-macro.jpg", "68789a452af2df860314072840542c06e1d51bc6442ef1f2b4da069c3382018c", "gid://shopify/MediaImage/59935145722194"],
+        ["poignet", "scratchpad/noirmont-galeries/generated/contre-la-montre-gris-anthracite-chronographe-poignet.jpg", "10db10047bcb0abe8cafa80034696b512d89c71a007e449b20d25d11c967a1b1", "gid://shopify/MediaImage/59935143887186"]
+      ],
+      "supplier_media_deleted": [
+        "gid://shopify/MediaImage/59693885325650",
+        "gid://shopify/MediaImage/59693885358418",
+        "gid://shopify/MediaImage/59693885391186"
+      ],
+      "status_before_after": ["ACTIVE", "ACTIVE"],
+      "inventory_before_after": [0, 0],
+      "media_count_before_after": [5, 5],
+      "immutable_fields_verified": true,
+      "readback": "PASS"
+    },
+    {
+      "handle": "contre-la-montre-rose-poudre-chronographe",
+      "product_id": "gid://shopify/Product/10980081762642",
+      "variant_id": "gid://shopify/ProductVariant/54096771580242",
+      "sku": "NOIR-CHR-017",
+      "featured_media": "gid://shopify/MediaImage/59691394400594",
+      "variant_media": ["gid://shopify/MediaImage/59691394400594"],
+      "local_replacements": [
+        ["situation", "scratchpad/noirmont-galeries/generated/contre-la-montre-rose-poudre-chronographe-situation.jpg", "bbf3e7a97049a0c56a07331534c0cde339b9417cd5df69d6054a55af562e1309", "gid://shopify/MediaImage/59935145296210"],
+        ["macro", "scratchpad/noirmont-galeries/generated/contre-la-montre-rose-poudre-chronographe-macro.jpg", "7a7d77e3eeaa0feffd3530bce28e3062f4e8b4425d80f4c2448b9772af2658a5", "gid://shopify/MediaImage/59935144837458"],
+        ["poignet", "scratchpad/noirmont-galeries/generated/contre-la-montre-rose-poudre-chronographe-poignet.jpg", "d6137b69dd70747081a6d106a06e3e2efae0bbf24e40a439494d6f985a75f629", "gid://shopify/MediaImage/59935148736850"]
+      ],
+      "supplier_media_deleted": [
+        "gid://shopify/MediaImage/59693893910866",
+        "gid://shopify/MediaImage/59693893943634",
+        "gid://shopify/MediaImage/59693893976402"
+      ],
+      "status_before_after": ["ACTIVE", "ACTIVE"],
+      "inventory_before_after": [0, 0],
+      "media_count_before_after": [5, 5],
+      "immutable_fields_verified": true,
+      "readback": "PASS"
+    },
+    {
+      "handle": "integrale-blanc-argente-sport-chic-acier",
+      "product_id": "gid://shopify/Product/10980081336658",
+      "variant_id": "gid://shopify/ProductVariant/54096770597202",
+      "sku": "NOIR-INT-001",
+      "featured_media": "gid://shopify/MediaImage/59691409178962",
+      "variant_media": ["gid://shopify/MediaImage/59691409178962"],
+      "local_replacements": [
+        ["situation", "scratchpad/noirmont-galeries/generated/integrale-blanc-argente-sport-chic-acier-situation.jpg", "cf80a8a40dee98320677fd4d9730476df3668b84779d4e5a6d5766fa3492fa23", "gid://shopify/MediaImage/59935147622738"],
+        ["macro", "scratchpad/noirmont-galeries/generated/integrale-blanc-argente-sport-chic-acier-macro.jpg", "dfdc643be0ec27102346f2eb5dcb895c67cf23515f9a8950c9dccd422e8da68d", "gid://shopify/MediaImage/59935146213714"],
+        ["poignet", "scratchpad/noirmont-galeries/generated/integrale-blanc-argente-sport-chic-acier-poignet.jpg", "ee89c02f4c60d09014eba7b6199fee0eb5cd612473ac42d05525706135878460", "gid://shopify/MediaImage/59935148310866"]
+      ],
+      "supplier_media_deleted": [
+        "gid://shopify/MediaImage/59693908558162",
+        "gid://shopify/MediaImage/59693908590930",
+        "gid://shopify/MediaImage/59693908623698"
+      ],
+      "status_before_after": ["ACTIVE", "ACTIVE"],
+      "inventory_before_after": [0, 0],
+      "media_count_before_after": [5, 5],
+      "immutable_fields_verified": true,
+      "readback": "PASS"
+    },
+    {
+      "handle": "integrale-bleu-ciel-sport-chic-acier",
+      "product_id": "gid://shopify/Product/10980081205586",
+      "variant_id": "gid://shopify/ProductVariant/54096770466130",
+      "sku": "NOIR-INT-002",
+      "featured_media": "gid://shopify/MediaImage/59691409146194",
+      "variant_media": ["gid://shopify/MediaImage/59691409146194"],
+      "local_replacements": [
+        ["situation", "scratchpad/noirmont-galeries/generated/integrale-bleu-ciel-sport-chic-acier-situation.jpg", "f9f4708a6244979892e196ca9b2f6cd989e76b73ddbc3683c976214f15e2990b", "gid://shopify/MediaImage/59935149097298"],
+        ["macro", "scratchpad/noirmont-galeries/generated/integrale-bleu-ciel-sport-chic-acier-macro.jpg", "908faaa55046382deceb150f5af6808a65908be96d92215d2b7d1b93aea85ae2", "gid://shopify/MediaImage/59935147983186"],
+        ["poignet", "scratchpad/noirmont-galeries/generated/integrale-bleu-ciel-sport-chic-acier-poignet.jpg", "a333500bb0562ceee169471ca4a2cae9ae0ad824c63224d8934625c0465dd071", "gid://shopify/MediaImage/59935149752658"]
+      ],
+      "supplier_media_deleted": [
+        "gid://shopify/MediaImage/59693925433682",
+        "gid://shopify/MediaImage/59693925466450",
+        "gid://shopify/MediaImage/59693925499218"
+      ],
+      "status_before_after": ["ACTIVE", "ACTIVE"],
+      "inventory_before_after": [0, 0],
+      "media_count_before_after": [5, 5],
+      "immutable_fields_verified": true,
+      "readback": "PASS"
+    },
+    {
+      "handle": "integrale-bleu-nuit-sport-chic-acier",
+      "product_id": "gid://shopify/Product/10980081074514",
+      "variant_id": "gid://shopify/ProductVariant/54096770138450",
+      "sku": "NOIR-INT-003",
+      "featured_media": "gid://shopify/MediaImage/59691409113426",
+      "variant_media": ["gid://shopify/MediaImage/59691409113426"],
+      "local_replacements": [
+        ["situation", "scratchpad/noirmont-galeries/generated/integrale-bleu-nuit-sport-chic-acier-situation.jpg", "4e4f9832984997e5a6ab9f5973082021cba08e11d28986b665b23b8dbcb38c47", "gid://shopify/MediaImage/59935150145874"],
+        ["macro", "scratchpad/noirmont-galeries/generated/integrale-bleu-nuit-sport-chic-acier-macro.jpg", "2081352511935d5f00fed99982666df7490e1693d54edf0c64f2ebb4d40822aa", "gid://shopify/MediaImage/59935150997842"],
+        ["poignet", "scratchpad/noirmont-galeries/generated/integrale-bleu-nuit-sport-chic-acier-poignet.jpg", "e8eabdd0904900968ecad4cafb320069e76d5312f44d8dfe539a9fd3f3c818f8", "gid://shopify/MediaImage/59935151653202"]
+      ],
+      "supplier_media_deleted": [
+        "gid://shopify/MediaImage/59693925531986",
+        "gid://shopify/MediaImage/59693925564754",
+        "gid://shopify/MediaImage/59693925597522"
+      ],
+      "status_before_after": ["ACTIVE", "ACTIVE"],
+      "inventory_before_after": [0, 0],
+      "media_count_before_after": [5, 5],
+      "immutable_fields_verified": true,
+      "readback": "PASS"
+    }
+  ],
+  "final_readback": {
+    "products_pass": 6,
+    "products_fail": 0,
+    "supplier_ids_still_present": 0,
+    "new_media_not_ready": 0,
+    "variant_media_mismatches": 0,
+    "status_changes": 0,
+    "price_changes": 0,
+    "compare_at_price_changes": 0,
+    "sku_changes": 0,
+    "option_changes": 0,
+    "inventory_changes": 0,
+    "pagination_exhausted_all": true
+  }
+}

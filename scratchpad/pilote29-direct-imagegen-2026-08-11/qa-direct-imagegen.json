@@ -1,0 +1,123 @@
+{
+  "schema": "maison-noirmont.direct-imagegen-qa.v1",
+  "created_at": "2026-08-11T20:33:42+02:00",
+  "scope": {
+    "product_handle_reference_only": "cadran-pilote-29-mod-nh35",
+    "variants": [
+      "black set 1-Lume",
+      "black set 2-Lume",
+      "white set-No lume"
+    ],
+    "method": "Generation image-to-image directe, variante par variante, depuis chaque source SKU exacte, hors wrapper et hors systeme d'ordres."
+  },
+  "forbidden_mutations": {
+    "wrapper": false,
+    "orders_or_inbox": false,
+    "lock": false,
+    "shopify": false,
+    "dsers": false,
+    "master_progress_json": false
+  },
+  "qa_gate": [
+    "Fidelite exacte du cadran, de tous les glyphes et ouvertures",
+    "Fidelite exacte des formes, longueurs, couleurs, inserts et contrepoids des aiguilles",
+    "Aucun chiffre, petit nombre, fenetre de date, triangle ou trait de piste masque ou touche",
+    "Aucun texte, logo, marque, filigrane ou accessoire ajoute",
+    "Produit complet, cadrage regulier et fichier exploitable"
+  ],
+  "results": [
+    {
+      "variant": "black set 1-Lume",
+      "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/S3a17eca59b3748f6b27e5ee11ec3d12dZ.webp",
+      "final_verdict": "FAIL",
+      "attempts": [
+        {
+          "path": "scratchpad/pilote29-direct-imagegen-2026-08-11/black-set-1/black-set-1-attempt-1.png",
+          "sha256": "912ec6765f6e0a5e814b6dcbca6fc97aaee1287e3fe23dc7c408418d6c5c3db1",
+          "bytes": 1958452,
+          "pixels": "1254x1254",
+          "has_alpha": false,
+          "embedded_color_profile": false,
+          "verdict": "FAIL",
+          "blocking_defects": [
+            "La trotteuse source monobranche est redessinee en axe traversant le centre vers le bas-droite, donc geometrie produit fausse.",
+            "L'aiguille des heures touche le secteur 20.",
+            "L'aiguille des minutes recouvre 14 et mord sur le grand 2.",
+            "La trotteuse traverse le secteur 16 puis la zone 4/20 et atteint la piste.",
+            "Aucun texte ou logo ajoute, mais cela ne compense pas les defauts produit bloquants."
+          ]
+        },
+        {
+          "path": "scratchpad/pilote29-direct-imagegen-2026-08-11/black-set-1/black-set-1-attempt-2.png",
+          "sha256": "747df6daacbdce89f8d61b2b00dba70e8969d0d8928d5e035b14a6eec678fd1c",
+          "bytes": 1836666,
+          "pixels": "1254x1254",
+          "has_alpha": false,
+          "embedded_color_profile": false,
+          "verdict": "FAIL",
+          "blocking_defects": [
+            "La consigne monobranche est mieux suivie, mais la trotteuse est placee verticalement sur 6/30 au lieu du couloir 5 h 30 et recouvre la piste.",
+            "Un petit appendice gris est invente a cote du contrepoids.",
+            "L'aiguille des heures masque 20 et touche le grand 8.",
+            "L'aiguille des minutes passe sur 13.",
+            "Aucun texte ou logo ajoute."
+          ]
+        }
+      ]
+    },
+    {
+      "variant": "black set 2-Lume",
+      "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/Sbf89477371834f4196bbbe21fb43a52as.webp",
+      "final_verdict": "FAIL",
+      "attempts": [
+        {
+          "path": "scratchpad/pilote29-direct-imagegen-2026-08-11/black-set-2/black-set-2-attempt-1.png",
+          "sha256": "711be67ac98a5ea06353211387d8665478a9fec39aa65177b32547809e5490e9",
+          "bytes": 2097860,
+          "pixels": "1254x1254",
+          "has_alpha": false,
+          "embedded_color_profile": false,
+          "verdict": "FAIL",
+          "blocking_defects": [
+            "L'aiguille des heures recouvre 19 et touche le grand 7.",
+            "L'aiguille des minutes recouvre 14 et le grand 2.",
+            "La trotteuse et son contrepoids recouvrent le grand 4 et la zone 20, puis touchent la piste.",
+            "La composition ne laisse donc aucun des trois couloirs libre avec marge.",
+            "Aucun texte ou logo ajoute."
+          ]
+        }
+      ]
+    },
+    {
+      "variant": "white set-No lume",
+      "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/Sf5fa27b7a9be42cdbec50ad9e1009f1eF.webp",
+      "final_verdict": "FAIL",
+      "attempts": [
+        {
+          "path": "scratchpad/pilote29-direct-imagegen-2026-08-11/white-set/white-set-attempt-1.png",
+          "sha256": "1e59f56bf56f2abadc0e4a5a4b46a6ed4849ff68739f34efcd2aa6f61120b3a8",
+          "bytes": 1589566,
+          "pixels": "1254x1254",
+          "has_alpha": false,
+          "embedded_color_profile": false,
+          "verdict": "FAIL",
+          "blocking_defects": [
+            "L'aiguille des heures recouvre 19 et le secteur 20.",
+            "L'aiguille des minutes recouvre 14 et le grand 2.",
+            "La trotteuse et son contrepoids recouvrent le grand 4 et la zone 20, puis la queue rouge touche la piste.",
+            "Les inserts beiges restent uniques, mais la pose ne respecte pas le degagement exige.",
+            "Aucun texte ou logo ajoute."
+          ]
+        }
+      ]
+    }
+  ],
+  "overall": {
+    "pass_count": 0,
+    "fail_count": 3,
+    "attempt_count": 4,
+    "verdict": "FAIL_ALL",
+    "conclusion": "La generation directe recompose correctement l'ambiance produit, mais ne maintient pas simultanement la geometrie exacte des aiguilles et les couloirs libres. Aucune sortie n'est suffisamment fiable pour une association variante.",
+    "shopify_association_authorized": false
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-12T00:48:06Z",
+  "task": "complete_missing_1_0mm_appearances_and_remove_supplier_media",
+  "result": "PASS",
+  "product": {
+    "id": "gid://shopify/Product/10980388864338",
+    "handle": "bracelet-milanais-maille-italienne",
+    "title": "Bracelet milanais — maille italienne",
+    "status_before": "ACTIVE",
+    "status_after": "ACTIVE"
+  },
+  "source": {
+    "provider": "AliExpress official API evidence cached locally",
+    "item_id": "1005007722911159",
+    "proof_file": "boutique-seiko-mod/preuves-audit-p4-130-2026-08-10/1005007722911159.json",
+    "appearances": [
+      {
+        "key": "1.0mm-black",
+        "sku_property": "200000049:366#1.0mm-black",
+        "source_file": "scratchpad/backup-medias-accessoires-lot4/bracelet-milanais-maille-italienne/S7df4b1b76f334bc18045f1a84f6cb306I.webp",
+        "generation_attempts": 1,
+        "generation_output": "/Users/Hakim/.codex/generated_images/019ff307-d93b-73a0-8502-5160a2831cdb/exec-b7fe806d-2436-4924-9d10-084015f140c4.png",
+        "normalized_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-milanais/generated/bracelet-milanais-1-0mm-black.jpg",
+        "normalized": {"width": 2048, "height": 2048, "profile": "sRGB IEC61966-2.1", "bytes": 438509},
+        "qa": {"decision": "PASS", "color_exact": true, "dense_1_0mm_mesh": true, "flat_notched_terminal_plate": true, "tube_0_6_absent": true, "brand_or_text_absent": true},
+        "shopify_media_id": "gid://shopify/MediaImage/59935523668306",
+        "shopify_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/bracelet-milanais-maille-italienne-1-0mm-black-maison-noirmont.jpg?v=1786495606",
+        "variant_ids": [
+          "gid://shopify/ProductVariant/54098047762770",
+          "gid://shopify/ProductVariant/54098047795538",
+          "gid://shopify/ProductVariant/54098047828306",
+          "gid://shopify/ProductVariant/54098047861074"
+        ]
+      },
+      {
+        "key": "1.0mm-gold",
+        "sku_property": "200000049:200000080#1.0mm-gold",
+        "source_file": "scratchpad/backup-medias-accessoires-lot4/bracelet-milanais-maille-italienne/S96d78f4267fe4e6ab3d7e7aa60b114cd3.webp",
+        "generation_attempts": 1,
+        "generation_output": "/Users/Hakim/.codex/generated_images/019ff307-d93b-73a0-8502-5160a2831cdb/exec-f835901f-a1bf-4098-8731-f1a2575d1c7e.png",
+        "normalized_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-milanais/generated/bracelet-milanais-1-0mm-gold.jpg",
+        "normalized": {"width": 2048, "height": 2048, "profile": "sRGB IEC61966-2.1", "bytes": 684455},
+        "qa": {"decision": "PASS", "color_exact": true, "dense_1_0mm_mesh": true, "flat_notched_terminal_plate": true, "tube_0_6_absent": true, "brand_or_text_absent": true},
+        "shopify_media_id": "gid://shopify/MediaImage/59935523864914",
+        "shopify_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/bracelet-milanais-maille-italienne-1-0mm-gold-maison-noirmont.jpg?v=1786495613",
+        "variant_ids": [
+          "gid://shopify/ProductVariant/54098047730002",
+          "gid://shopify/ProductVariant/54098048385362",
+          "gid://shopify/ProductVariant/54098048418130",
+          "gid://shopify/ProductVariant/54098048450898"
+        ]
+      }
+    ],
+    "qa_board": "boutique-seiko-mod/efficacite-extreme-2026-08-12/milanais-1mm-source-generation-board.jpg"
+  },
+  "media_state": {
+    "old_featured_media_id": "gid://shopify/MediaImage/59691949261138",
+    "new_featured_media_id": "gid://shopify/MediaImage/59905696923986",
+    "new_featured_appearance": "1.0mm-silver",
+    "supplier_references_removed": [
+      "gid://shopify/MediaImage/59691949261138",
+      "gid://shopify/MediaImage/59694061388114",
+      "gid://shopify/MediaImage/59694061420882"
+    ],
+    "final_appearance_media": {
+      "1.0mm-black": "gid://shopify/MediaImage/59935523668306",
+      "1.0mm-gold": "gid://shopify/MediaImage/59935523864914",
+      "1.0mm-silver": "gid://shopify/MediaImage/59905696923986",
+      "1.0mm-rose gold": "gid://shopify/MediaImage/59905696956754",
+      "0.6mm-black": "gid://shopify/MediaImage/59905175093586",
+      "0.6mm-gold": "gid://shopify/MediaImage/59905175126354",
+      "0.6mm-silver": "gid://shopify/MediaImage/59905175159122",
+      "0.6mm-rose gold": "gid://shopify/MediaImage/59905175191890"
+    }
+  },
+  "readback": {
+    "product_found": true,
+    "status": "ACTIVE",
+    "media_count": 8,
+    "all_media_ready": true,
+    "supplier_media_remaining": 0,
+    "variant_count": 32,
+    "variant_pagination_complete": true,
+    "media_pagination_complete": true,
+    "variants_with_exactly_one_appearance_media": 32,
+    "missing_variant_media": 0,
+    "wrong_variant_media": 0,
+    "commercial_fields_mutated": false,
+    "preserved_fields": ["status", "price", "sku", "options", "inventoryQuantity"]
+  },
+  "counters": {
+    "products_processed": 1,
+    "missing_appearances_before": 2,
+    "missing_appearances_after": 0,
+    "generation_attempts": 2,
+    "generation_retries": 0,
+    "generations_accepted": 2,
+    "uploads_ready": 2,
+    "new_variant_associations": 8,
+    "final_exact_variant_associations": 32,
+    "supplier_references_removed": 3,
+    "supplier_references_remaining": 0,
+    "errors": 0
+  },
+  "rollback": {
+    "product_id": "gid://shopify/Product/10980388864338",
+    "restore_featured_media_id": "gid://shopify/MediaImage/59691949261138",
+    "references_to_restore": [
+      "gid://shopify/MediaImage/59691949261138",
+      "gid://shopify/MediaImage/59694061388114",
+      "gid://shopify/MediaImage/59694061420882"
+    ],
+    "new_variant_media_to_detach": {
+      "gid://shopify/MediaImage/59935523668306": [
+        "gid://shopify/ProductVariant/54098047762770",
+        "gid://shopify/ProductVariant/54098047795538",
+        "gid://shopify/ProductVariant/54098047828306",
+        "gid://shopify/ProductVariant/54098047861074"
+      ],
+      "gid://shopify/MediaImage/59935523864914": [
+        "gid://shopify/ProductVariant/54098047730002",
+        "gid://shopify/ProductVariant/54098048385362",
+        "gid://shopify/ProductVariant/54098048418130",
+        "gid://shopify/ProductVariant/54098048450898"
+      ]
+    },
+    "new_product_references_to_remove": [
+      "gid://shopify/MediaImage/59935523668306",
+      "gid://shopify/MediaImage/59935523864914"
+    ]
+  }
+}

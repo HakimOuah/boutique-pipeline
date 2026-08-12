@@ -1,0 +1,104 @@
+{
+  "id": "codex-20260811-1227-remplacement92-sterile-couronne-7",
+  "type": "generate_images",
+  "created_at": "2026-08-11T12:27:00+02:00",
+  "requested_by": "codex",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "cadran-sterile-couronne-3h-28-5",
+        "sku": "14:201447598#A1",
+        "slot": "variante",
+        "fichier": "cadran-sterile-couronne-3h-28-5-v-a1.jpg",
+        "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-couronne-3h-28-5/S841c7a64845449e3b309db6e0c738c2fR.webp"
+      },
+      {
+        "handle": "cadran-sterile-couronne-3h-28-5",
+        "sku": "14:201447303#A2",
+        "slot": "variante",
+        "fichier": "cadran-sterile-couronne-3h-28-5-v-a2.jpg",
+        "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-couronne-3h-28-5/S1fa625c465ad4110bc433da0d8a68705H.webp"
+      },
+      {
+        "handle": "cadran-sterile-couronne-3h-28-5",
+        "sku": "14:200005100#A3",
+        "slot": "variante",
+        "fichier": "cadran-sterile-couronne-3h-28-5-v-a3.jpg",
+        "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-couronne-3h-28-5/S9be6414532514d64a2c711b8585db5e53.webp"
+      },
+      {
+        "handle": "cadran-sterile-couronne-3h-28-5",
+        "sku": "14:200000080#A4",
+        "slot": "variante",
+        "fichier": "cadran-sterile-couronne-3h-28-5-v-a4.jpg",
+        "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-couronne-3h-28-5/S84ea42084a064a71807170179f0cf559z.webp"
+      },
+      {
+        "handle": "cadran-sterile-couronne-3h-28-5",
+        "sku": "14:100013777#A5",
+        "slot": "variante",
+        "fichier": "cadran-sterile-couronne-3h-28-5-v-a5.jpg",
+        "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-couronne-3h-28-5/S3a4b770697c6401bb8ca771609ffcebeh.webp"
+      },
+      {
+        "handle": "cadran-sterile-couronne-3h-28-5",
+        "sku": "14:100005979#A6",
+        "slot": "variante",
+        "fichier": "cadran-sterile-couronne-3h-28-5-v-a6.jpg",
+        "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-couronne-3h-28-5/S15be9b925e224c4dbac586a46a903366n.webp"
+      },
+      {
+        "handle": "cadran-sterile-couronne-3h-28-5",
+        "sku": "14:350686#A7",
+        "slot": "variante",
+        "fichier": "cadran-sterile-couronne-3h-28-5-v-a7.jpg",
+        "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-couronne-3h-28-5/S5a600b9919bb42ec9572eae1121704c2o.webp"
+      }
+    ],
+    "sources": [
+      "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-couronne-3h-28-5/S841c7a64845449e3b309db6e0c738c2fR.webp",
+      "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-couronne-3h-28-5/S1fa625c465ad4110bc433da0d8a68705H.webp",
+      "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-couronne-3h-28-5/S9be6414532514d64a2c711b8585db5e53.webp",
+      "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-couronne-3h-28-5/S84ea42084a064a71807170179f0cf559z.webp",
+      "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-couronne-3h-28-5/S3a4b770697c6401bb8ca771609ffcebeh.webp",
+      "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-couronne-3h-28-5/S15be9b925e224c4dbac586a46a903366n.webp",
+      "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-sterile-couronne-3h-28-5/S5a600b9919bb42ec9572eae1121704c2o.webp"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+      "surcharges": [
+        "Visuel de variante carré 1:1, source exacte par entrée, produit isolé sur le fond minéral clair Maison Noirmont, lumière douce haute-gauche et ombre diffuse.",
+        "Toutes les images d'un même lot gardent cadrage, échelle, orientation, fond et lumière identiques ; seuls les attributs physiques prouvés par la source SKU varient."
+      ]
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "Cadran seul vu de face. Préserver exactement la teinte, la finition, le trou central, l'ouverture de date à 3 h et tous les index ou repères physiques de chaque source SKU.",
+        "Le filigrane `Goutent Official Store` appartient à la photo fournisseur et doit disparaître uniquement grâce à une nouvelle composition complète, jamais par gommage ou inpainting.",
+        "VÉRITÉ PRODUIT PAR ENTRÉE : utiliser exclusivement le chemin `source` de l'entrée manifeste correspondante. Une source ne peut servir qu'à son fichier cible et à ses variantes explicitement mappées.",
+        "La photographie fournisseur sert uniquement de référence produit. Produire une nouvelle composition Maison Noirmont complète : fond minéral clair pierre-vers-craie, lumière douce haute-gauche, ombre diffuse, produit centré et intégralement visible.",
+        "Supprimer de la nouvelle composition uniquement les éléments photographiques extérieurs au produit : filigranes, logos de boutique, textes promotionnels, encarts, vignettes, outils, emballages et arrière-plan fournisseur. Aucun gommage, clonage ni inpainting de la source n'est admis.",
+        "Préserver tout élément constitutif physiquement présent sur le produit source exact, y compris chiffres, repères, minuterie, texture, ouvertures, symboles et inscriptions génériques. Ne jamais inventer, corriger, déplacer, masquer ou transférer un élément physique.",
+        "Aucun nom de marque, logo fournisseur, filigrane, texte promotionnel ou caractère parasite ajouté sur le produit ou le fond final. Les chiffres et symboles constitutifs prouvés par la source restent autorisés et obligatoires.",
+        "Conserver un cadrage, une orientation, une échelle et une lumière identiques dans le lot. Les cadrans sont parfaitement de face et les jeux d'aiguilles seuls sont disposés proprement sans cadran ni composant inventé.",
+        "Sortie 2048 × 2048 px, JPEG sRGB qualité environ 90, viser 400-900 Ko et respecter exactement le nom `fichier` du manifeste."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Contrôle source↔rendu entrée par entrée, en résolution originale : type exact (cadran, aiguilles ou ensemble), teinte, texture, géométrie, chiffres, index, minuterie, ouvertures, symboles, inscriptions constitutives et composants.",
+        "Contrôle bloquant : aucun filigrane, logo de boutique/fournisseur, texte promotionnel, vignette, encart, outil, emballage, trace de gommage ou caractère parasite.",
+        "Contrôle bloquant : aucune permutation entre SKU ; aucun index, chiffre, trou, ouverture, aiguille, date, symbole ou inscription physique ajouté, retiré, déplacé ou masqué.",
+        "Planche de contrôle du lot, au moins 740 px par vignette, avec noms de fichiers lisibles, afin de comparer fidélité et homogénéité de cadrage/échelle.",
+        "Contrôle fichier : nom exact du manifeste, 2048 × 2048, 1:1 strict, JPEG sRGB et poids conforme. Tout candidat ambigu ou non prouvable est rejeté et n'entre pas dans le manifeste réalisé."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/cadran-sterile-couronne-3h-28-5",
+      "manifeste": "manifeste-remplacement92-sterile-couronne-7.json"
+    }
+  },
+  "notes": "Remplacement des 92 médias fournisseur retenus : génération locale uniquement. Ne toucher ni Shopify, ni DSers, ni prix, ni statut. Le rattachement Shopify sera réalisé séparément après QA indépendante."
+}

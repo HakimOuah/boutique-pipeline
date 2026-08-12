@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-12T00:54:43Z",
+  "task": "remove_remaining_supplier_media_from_fully_covered_active_products",
+  "result": "PASS",
+  "selection": {
+    "source": "audit-actifs.json plus exhaustive live Shopify preflight",
+    "exclusive_handles": [
+      "outil-de-mise-a-taille-de-bracelet",
+      "bracelet-jubile-embouts-courbes"
+    ],
+    "reason": "all appearances already represented by exact READY Maison media; no generation or upload required"
+  },
+  "products": [
+    {
+      "id": "gid://shopify/Product/10980388766034",
+      "handle": "outil-de-mise-a-taille-de-bracelet",
+      "title": "Outil de mise à taille de bracelet",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "source": {
+        "provider": "AliExpress official API evidence cached locally",
+        "item_id": "1005005877471703",
+        "appearances": [
+          {
+            "key": "black",
+            "sku_property": "14:193",
+            "source_file": "scratchpad/backup-medias-accessoires-lot4/outil-de-mise-a-taille-de-bracelet/Se70cce7f352e439493d719fc2d2b24deI.webp",
+            "maison_file": "boutique-seiko-mod/visuels-codex-2026-08/outil-de-mise-a-taille-de-bracelet/outil-de-mise-a-taille-de-bracelet-v-black.jpg",
+            "media_id": "gid://shopify/MediaImage/59905208713554",
+            "qa": {"decision": "PASS", "color_exact": true, "shape_exact": true, "component_count_exact": true, "brand_or_text_absent": true},
+            "variants": [
+              {"id": "gid://shopify/ProductVariant/54098047435090", "sku": "NOIR-OUT-001", "price": "19.90", "inventoryQuantity": 10}
+            ]
+          },
+          {
+            "key": "Silver",
+            "sku_property": "14:350853",
+            "source_file": "scratchpad/backup-medias-accessoires-lot4/outil-de-mise-a-taille-de-bracelet/S85dd2bba33264c1fb4816474e7fb8553s.webp",
+            "maison_file": "boutique-seiko-mod/visuels-codex-2026-08/outil-de-mise-a-taille-de-bracelet/outil-de-mise-a-taille-de-bracelet-v-silver.jpg",
+            "media_id": "gid://shopify/MediaImage/59905208746322",
+            "qa": {"decision": "PASS", "color_exact": true, "shape_exact": true, "component_count_exact": true, "brand_or_text_absent": true},
+            "variants": [
+              {"id": "gid://shopify/ProductVariant/54098047467858", "sku": "NOIR-OUT-002", "price": "19.90", "inventoryQuantity": 14}
+            ]
+          }
+        ],
+        "qa_board": "boutique-seiko-mod/efficacite-extreme-2026-08-12/active-short-lot-after-milanais/qa-source-maison-outil.jpg"
+      },
+      "media_change": {
+        "old_featured_media_id": "gid://shopify/MediaImage/59691847811410",
+        "new_featured_media_id": "gid://shopify/MediaImage/59905208746322",
+        "supplier_references_removed": [
+          "gid://shopify/MediaImage/59691847811410",
+          "gid://shopify/MediaImage/59694408630610",
+          "gid://shopify/MediaImage/59694408663378"
+        ]
+      },
+      "readback": {
+        "status": "ACTIVE",
+        "media_count": 2,
+        "all_media_ready": true,
+        "supplier_media_remaining": 0,
+        "variant_count": 2,
+        "variants_with_exactly_one_correct_media": 2,
+        "media_pagination_complete": true,
+        "variant_pagination_complete": true,
+        "commercial_fields_mutated": false
+      }
+    },
+    {
+      "id": "gid://shopify/Product/10980388405586",
+      "handle": "bracelet-jubile-embouts-courbes",
+      "title": "Bracelet Jubilé — embouts courbes",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "source": {
+        "provider": "AliExpress official API evidence cached locally",
+        "item_id": "1005007791535629",
+        "appearances": [
+          {
+            "key": "steel-no logo",
+            "sku_property": "200000049:350853#steel-no logo",
+            "source_file": "scratchpad/backup-medias-accessoires-lot4/bracelet-jubile-embouts-courbes/S2ff6ba6587bb4bcfbdb8771e9c6a5b49C.webp",
+            "maison_file": "boutique-seiko-mod/visuels-codex-2026-08/bracelet-jubile-embouts-courbes/bracelet-jubile-embouts-courbes-v-steel-no-logo.jpg",
+            "media_id": "gid://shopify/MediaImage/59905115324754",
+            "qa": {"decision": "PASS", "color_exact": true, "five_row_shape_exact": true, "curved_end_links_exact": true, "clasp_unbranded": true, "brand_or_text_absent": true},
+            "variants": [
+              {"id": "gid://shopify/ProductVariant/54098038227282", "sku": "NOIR-JUB-002", "price": "29.90", "inventoryQuantity": 2049},
+              {"id": "gid://shopify/ProductVariant/54098038260050", "sku": "NOIR-JUB-003", "price": "29.90", "inventoryQuantity": 2025},
+              {"id": "gid://shopify/ProductVariant/54098038423890", "sku": "NOIR-JUB-008", "price": "29.90", "inventoryQuantity": 1967},
+              {"id": "gid://shopify/ProductVariant/54098038489426", "sku": "NOIR-JUB-010", "price": "29.90", "inventoryQuantity": 995},
+              {"id": "gid://shopify/ProductVariant/54098038686034", "sku": "NOIR-JUB-016", "price": "29.90", "inventoryQuantity": 993}
+            ]
+          },
+          {
+            "key": "gold-no logo",
+            "sku_property": "200000049:3348727#gold-no logo",
+            "source_file": "scratchpad/backup-medias-accessoires-lot4/bracelet-jubile-embouts-courbes/S1ae6f72ff2534409a20cb14c8de06a99J.webp",
+            "maison_file": "boutique-seiko-mod/visuels-codex-2026-08/bracelet-jubile-embouts-courbes/bracelet-jubile-embouts-courbes-v-gold-no-logo.jpg",
+            "media_id": "gid://shopify/MediaImage/59905115291986",
+            "qa": {"decision": "PASS", "color_exact": true, "five_row_shape_exact": true, "curved_end_links_exact": true, "clasp_unbranded": true, "brand_or_text_absent": true},
+            "variants": [
+              {"id": "gid://shopify/ProductVariant/54098038292818", "sku": "NOIR-JUB-004", "price": "39.90", "inventoryQuantity": 997},
+              {"id": "gid://shopify/ProductVariant/54098038358354", "sku": "NOIR-JUB-006", "price": "39.90", "inventoryQuantity": 1},
+              {"id": "gid://shopify/ProductVariant/54098038391122", "sku": "NOIR-JUB-007", "price": "39.90", "inventoryQuantity": 995},
+              {"id": "gid://shopify/ProductVariant/54098038456658", "sku": "NOIR-JUB-009", "price": "39.90", "inventoryQuantity": 994},
+              {"id": "gid://shopify/ProductVariant/54098038522194", "sku": "NOIR-JUB-011", "price": "39.90", "inventoryQuantity": 993}
+            ]
+          },
+          {
+            "key": "steel gold-no logo",
+            "sku_property": "200000049:100013777#steel gold-no logo",
+            "source_file": "scratchpad/backup-medias-accessoires-lot4/bracelet-jubile-embouts-courbes/Sce54a477960e4715aabb421d0a583a549.webp",
+            "maison_file": "boutique-seiko-mod/visuels-codex-2026-08/bracelet-jubile-embouts-courbes/bracelet-jubile-embouts-courbes-v-steel-gold-no-logo.jpg",
+            "media_id": "gid://shopify/MediaImage/59905115259218",
+            "qa": {"decision": "PASS", "color_exact": true, "five_row_shape_exact": true, "curved_end_links_exact": true, "clasp_unbranded": true, "brand_or_text_absent": true},
+            "variants": [
+              {"id": "gid://shopify/ProductVariant/54098038325586", "sku": "NOIR-JUB-005", "price": "34.90", "inventoryQuantity": 1},
+              {"id": "gid://shopify/ProductVariant/54098038554962", "sku": "NOIR-JUB-012", "price": "34.90", "inventoryQuantity": 2},
+              {"id": "gid://shopify/ProductVariant/54098038587730", "sku": "NOIR-JUB-013", "price": "34.90", "inventoryQuantity": 1},
+              {"id": "gid://shopify/ProductVariant/54098038620498", "sku": "NOIR-JUB-014", "price": "34.90", "inventoryQuantity": 2047},
+              {"id": "gid://shopify/ProductVariant/54098038653266", "sku": "NOIR-JUB-015", "price": "34.90", "inventoryQuantity": 1}
+            ]
+          }
+        ],
+        "qa_board": "boutique-seiko-mod/efficacite-extreme-2026-08-12/active-short-lot-after-milanais/qa-source-maison-jubile.jpg"
+      },
+      "media_change": {
+        "old_featured_media_id": "gid://shopify/MediaImage/59691847450962",
+        "new_featured_media_id": "gid://shopify/MediaImage/59905115324754",
+        "supplier_references_removed": [
+          "gid://shopify/MediaImage/59691847450962",
+          "gid://shopify/MediaImage/59694061224274",
+          "gid://shopify/MediaImage/59694061257042"
+        ]
+      },
+      "readback": {
+        "status": "ACTIVE",
+        "media_count": 3,
+        "all_media_ready": true,
+        "supplier_media_remaining": 0,
+        "variant_count": 15,
+        "variants_with_exactly_one_correct_media": 15,
+        "media_pagination_complete": true,
+        "variant_pagination_complete": true,
+        "commercial_fields_mutated": false
+      }
+    }
+  ],
+  "counters": {
+    "products_processed": 2,
+    "appearances_verified": 5,
+    "variants_verified": 17,
+    "generation_attempts": 0,
+    "generation_retries": 0,
+    "uploads": 0,
+    "new_variant_associations": 0,
+    "exact_variant_associations_final": 17,
+    "supplier_references_removed": 6,
+    "supplier_references_remaining": 0,
+    "errors": 0
+  },
+  "preservation": {
+    "products_remain_active": true,
+    "publication_or_activation_performed": false,
+    "preserved_fields": ["status", "price", "sku", "options", "inventoryQuantity"]
+  },
+  "rollback": [
+    {
+      "product_id": "gid://shopify/Product/10980388766034",
+      "restore_featured_media_id": "gid://shopify/MediaImage/59691847811410",
+      "references_to_restore": [
+        "gid://shopify/MediaImage/59691847811410",
+        "gid://shopify/MediaImage/59694408630610",
+        "gid://shopify/MediaImage/59694408663378"
+      ]
+    },
+    {
+      "product_id": "gid://shopify/Product/10980388405586",
+      "restore_featured_media_id": "gid://shopify/MediaImage/59691847450962",
+      "references_to_restore": [
+        "gid://shopify/MediaImage/59691847450962",
+        "gid://shopify/MediaImage/59694061224274",
+        "gid://shopify/MediaImage/59694061257042"
+      ]
+    }
+  ]
+}

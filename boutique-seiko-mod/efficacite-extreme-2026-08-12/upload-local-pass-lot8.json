@@ -1,0 +1,216 @@
+{
+  "schema": "maison-noirmont.upload-local-pass.v1",
+  "generated_at": "2026-08-12T02:30:53+02:00",
+  "result": "PASS",
+  "summary": {
+    "products_completed": 1,
+    "products_active": 0,
+    "products_draft": 1,
+    "local_pass_assets_uploaded": 5,
+    "variant_associations_replaced": 15,
+    "variant_associations_verified": 39,
+    "supplier_media_deleted": 5,
+    "supplier_featured_media_deleted": 0,
+    "remaining_supplier_media_on_products": 0,
+    "final_media_ready": 16,
+    "pagination_complete": true,
+    "commercial_fields_preserved": true,
+    "generation_performed": false
+  },
+  "scope_note": {
+    "requested_products": "4-6",
+    "executed_products": 1,
+    "reason": "Après exclusion des lots finis et réservés, un seul nouveau produit disposait d'une couverture locale PASS exacte pour 100 % de ses apparences. Le lot n'a pas été élargi avec des correspondances ambiguës.",
+    "rejected_candidates": [
+      {
+        "handle": "cadran-pilote-noir-33-5-nh34",
+        "reason": "apparence Dial 3 + Hand absente des assets locaux PASS"
+      },
+      {
+        "handle": "cadran-pilote-29-mod-nh35",
+        "reason": "couverture locale incomplète des apparences"
+      },
+      {
+        "handle": "montre-squelette-automatique-carree",
+        "reason": "asset blanc exact absent; produit ensuite réservé par le lot ACTIVE7"
+      },
+      {
+        "handle": "remontoir-bois-ebene / remontoir-bois-noir-laque / remontoir-bois-noyer",
+        "reason": "les assets locaux montrent des boîtes passives à coussin et non des remontoirs motorisés"
+      },
+      {
+        "handle": "rouleau-de-voyage-brun-cuir / rouleau-de-voyage-bleu-marine-cuir",
+        "reason": "apparences exactes incomplètes par capacité"
+      }
+    ]
+  },
+  "method": {
+    "inventory": "boutique-seiko-mod/efficacite-extreme-2026-08-12/inventaire-assets.json",
+    "asset_gate": "handle exact, qa.status=PASS, upload_candidate=true, apparence prouvée par le nom de fichier et le SKU live",
+    "replacement_sequence": "upload READY -> attach produit -> detach média fournisseur de chaque variante -> append média Maison exact -> readback intermédiaire -> fileDelete fournisseur -> readback final",
+    "deletion_gate": "les cinq remplacements étaient READY en 2048x2048 et leurs quinze associations exactes étaient vérifiées avant fileDelete",
+    "readback": "product media first:250, variants first:250, variant media first:20; chaque pageInfo.hasNextPage=false",
+    "preserved_fields": [
+      "status",
+      "price",
+      "compareAtPrice",
+      "sku",
+      "options",
+      "inventoryQuantity",
+      "totalInventory"
+    ]
+  },
+  "products": [
+    {
+      "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+      "product_id": "gid://shopify/Product/11013081399634",
+      "title": "Cadran pilote 33,5 mm avec aiguilles luminescentes — noir, bleu, argent ou vert, pour NH35",
+      "status_before": "DRAFT",
+      "status_after": "DRAFT",
+      "featured_before": "gid://shopify/MediaImage/59904326762834",
+      "featured_after": "gid://shopify/MediaImage/59904326762834",
+      "media_count_before": 16,
+      "media_count_after": 16,
+      "supplier_media_before": 5,
+      "supplier_media_after": 0,
+      "source_assets": [
+        {
+          "appearance": "green dial hands",
+          "relative_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-green-dial-hands.jpg",
+          "sha256": "ac2ac8387ae9206bf917e155614b36f479aba36432e619c72a6c0f93771f8478",
+          "qa": "PASS",
+          "upload_candidate": true,
+          "dimensions": "2048x2048",
+          "shopify_media_id": "gid://shopify/MediaImage/59935449317714"
+        },
+        {
+          "appearance": "black dial 1 hands",
+          "relative_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-1-hands.jpg",
+          "sha256": "45f9dfb8990d5cc85fe773195a661e5aff30f4759a9ef4d08a53ab73d74575e9",
+          "qa": "PASS",
+          "upload_candidate": true,
+          "dimensions": "2048x2048",
+          "shopify_media_id": "gid://shopify/MediaImage/59935449842002"
+        },
+        {
+          "appearance": "blue dial hands",
+          "relative_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-blue-dial-hands.jpg",
+          "sha256": "66cafe241e8c46bca93ee6b256b65de1c106384fd3cff23aecdcdc3126801408",
+          "qa": "PASS",
+          "upload_candidate": true,
+          "dimensions": "2048x2048",
+          "shopify_media_id": "gid://shopify/MediaImage/59935450464594"
+        },
+        {
+          "appearance": "black dial 2 hands",
+          "relative_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-2-hands.jpg",
+          "sha256": "e08b9fb78aff658d77f6726dd081d7dc1c66426d45e2f737381741ec95988141",
+          "qa": "PASS",
+          "upload_candidate": true,
+          "dimensions": "2048x2048",
+          "shopify_media_id": "gid://shopify/MediaImage/59935450726738"
+        },
+        {
+          "appearance": "silver dial hands",
+          "relative_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses/cadran-pilote-33-5-aiguilles-lumineuses-v-silver-dial-hands.jpg",
+          "sha256": "ca6236320a52396f8dfee55378cd0d700fd2e25412b40379016c7bfabcb7b23e",
+          "qa": "PASS",
+          "upload_candidate": true,
+          "dimensions": "2048x2048",
+          "shopify_media_id": "gid://shopify/MediaImage/59935451054418"
+        }
+      ],
+      "association_groups": [
+        {
+          "appearance": "green dial hands",
+          "media_id": "gid://shopify/MediaImage/59935449317714",
+          "variant_ids": [
+            "gid://shopify/ProductVariant/54213327290706",
+            "gid://shopify/ProductVariant/54213327323474",
+            "gid://shopify/ProductVariant/54213327356242"
+          ]
+        },
+        {
+          "appearance": "black dial 1 hands",
+          "media_id": "gid://shopify/MediaImage/59935449842002",
+          "variant_ids": [
+            "gid://shopify/ProductVariant/54213327454546",
+            "gid://shopify/ProductVariant/54213327487314",
+            "gid://shopify/ProductVariant/54213328175442"
+          ]
+        },
+        {
+          "appearance": "blue dial hands",
+          "media_id": "gid://shopify/MediaImage/59935450464594",
+          "variant_ids": [
+            "gid://shopify/ProductVariant/54213327618386",
+            "gid://shopify/ProductVariant/54213327651154",
+            "gid://shopify/ProductVariant/54213327683922"
+          ]
+        },
+        {
+          "appearance": "black dial 2 hands",
+          "media_id": "gid://shopify/MediaImage/59935450726738",
+          "variant_ids": [
+            "gid://shopify/ProductVariant/54213327978834",
+            "gid://shopify/ProductVariant/54213328011602",
+            "gid://shopify/ProductVariant/54213328044370"
+          ]
+        },
+        {
+          "appearance": "silver dial hands",
+          "media_id": "gid://shopify/MediaImage/59935451054418",
+          "variant_ids": [
+            "gid://shopify/ProductVariant/54213328306514",
+            "gid://shopify/ProductVariant/54213328339282",
+            "gid://shopify/ProductVariant/54213328372050"
+          ]
+        }
+      ],
+      "supplier_media_deleted": [
+        "gid://shopify/MediaImage/59894149579090",
+        "gid://shopify/MediaImage/59894149611858",
+        "gid://shopify/MediaImage/59894149677394",
+        "gid://shopify/MediaImage/59894149710162",
+        "gid://shopify/MediaImage/59894149808466"
+      ],
+      "commercial_snapshot": {
+        "variant_count": 39,
+        "total_inventory_before": 6691,
+        "total_inventory_after": 6691,
+        "option_names": [
+          "Color",
+          "Dial Diameter"
+        ],
+        "appearance_values_count": 13,
+        "technical_values_count": 3,
+        "sku_count": 39,
+        "price_range_eur": [
+          "8.83",
+          "20.64"
+        ],
+        "all_compare_at_prices_equal_live_prices": true,
+        "pre_equals_post": true,
+        "commercial_mutations_performed": 0
+      }
+    }
+  ],
+  "verification": {
+    "uploaded_file_status": "READY for 5/5",
+    "uploaded_dimensions": "2048x2048 for 5/5",
+    "attach_user_errors": [],
+    "association_user_errors_final": [],
+    "delete_user_errors": [],
+    "deleted_ids_match_requested": true,
+    "supplier_ids_absent_after_delete": true,
+    "featured_media_ready_and_local_after_delete": true,
+    "all_39_variants_have_exact_maison_media": true,
+    "all_product_media_pages_complete": true,
+    "all_variant_pages_complete": true,
+    "all_variant_media_pages_complete": true,
+    "non_mutating_retry_notes": [
+      "Une première tentative d'append a été rejetée avant mutation à cause d'une forme de variables incorrecte.",
+      "Une seconde tentative d'append a retourné uniquement des userErrors car Shopify n'accepte qu'un média par variante; aucun changement n'a été appliqué. La séquence correcte detach puis append a ensuite réussi sur 15/15 variantes."
+    ]
+  }
+}

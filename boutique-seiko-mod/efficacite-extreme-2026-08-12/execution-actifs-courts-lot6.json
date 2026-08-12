@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.0",
+  "run": {
+    "date": "2026-08-12",
+    "mode": "efficacite-extreme",
+    "scope": "six ACTIVE Voyageur GMT products with supplier featured and verified Maison media",
+    "report_status": "COMPLETE"
+  },
+  "counters": {
+    "products_reserved": 6,
+    "products_completed": 6,
+    "products_skipped": 0,
+    "appearances": 6,
+    "generations": 0,
+    "uploads": 0,
+    "existing_maison_media_forensically_confirmed": 18,
+    "variant_old_associations_detached": 24,
+    "variant_maison_associations_added": 24,
+    "featured_switched": 6,
+    "raw_supplier_product_references_removed": 6,
+    "raw_supplier_media_remaining": 0,
+    "guarded_append_attempt_user_errors_before_safe_rewrite": 24,
+    "final_graphql_user_errors": 0
+  },
+  "classification_correction": {
+    "method": "Shopify CDN images compared to local generated files using FFmpeg SSIM, then six front views reviewed together",
+    "ssim_range": [0.984607, 0.990493],
+    "confirmed_maison_images": 18,
+    "local_asset_directory": "scratchpad/noirmont-galeries/generated",
+    "visual_board": "boutique-seiko-mod/efficacite-extreme-2026-08-12/lot6-voyageur-situation-board.jpg",
+    "qa_blockers_checked": ["product identity", "case and bracelet form", "dial and metal colour", "zero brand marking"]
+  },
+  "products": [
+    {
+      "product_gid": "gid://shopify/Product/10980081664338",
+      "handle": "voyageur-bicolore-cadran-brun-gmt",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "appearance": "brown dial, two-tone five-link bracelet, gold-tone GMT bezel",
+      "appearance_note": "movement and case-back options do not change the front appearance",
+      "featured_before_supplier": "gid://shopify/MediaImage/59691400069458",
+      "featured_after_maison": "gid://shopify/MediaImage/59693940965714",
+      "supplier_reference_removed": "gid://shopify/MediaImage/59691400069458",
+      "maison_media_retained": ["gid://shopify/MediaImage/59693940965714", "gid://shopify/MediaImage/59693940998482", "gid://shopify/MediaImage/59693941031250", "gid://shopify/MediaImage/59893569028434"],
+      "ssim_live_vs_local": {"situation": 0.990425, "macro": 0.988195, "poignet": 0.985730},
+      "variant_count": 4,
+      "variant_gids": ["gid://shopify/ProductVariant/54096771285330", "gid://shopify/ProductVariant/54096771318098", "gid://shopify/ProductVariant/54096771350866", "gid://shopify/ProductVariant/54096771383634"],
+      "associated_media_gid_all_variants": "gid://shopify/MediaImage/59693940965714",
+      "preserved": {
+        "skus": ["NOIR-GMT-001", "NOIR-GMT-002", "NOIR-GMT-003", "NOIR-GMT-004"],
+        "prices_eur": ["378.00", "349.00", "417.00", "388.00"],
+        "inventory": [0, 0, 0, 0],
+        "options_unchanged": true
+      }
+    },
+    {
+      "product_gid": "gid://shopify/Product/10980080845138",
+      "handle": "voyageur-bicolore-gmt-3-maillons",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "appearance": "black dial, two-tone three-link bracelet, gold-tone GMT bezel",
+      "appearance_note": "movement and case-back options do not change the front appearance",
+      "featured_before_supplier": "gid://shopify/MediaImage/59691399971154",
+      "featured_after_maison": "gid://shopify/MediaImage/59693941064018",
+      "supplier_reference_removed": "gid://shopify/MediaImage/59691399971154",
+      "maison_media_retained": ["gid://shopify/MediaImage/59693941064018", "gid://shopify/MediaImage/59693941096786", "gid://shopify/MediaImage/59693941129554", "gid://shopify/MediaImage/59893539275090"],
+      "ssim_live_vs_local": {"situation": 0.987652, "macro": 0.990493, "poignet": 0.985984},
+      "variant_count": 4,
+      "variant_gids": ["gid://shopify/ProductVariant/54096769745234", "gid://shopify/ProductVariant/54096769778002", "gid://shopify/ProductVariant/54096769810770", "gid://shopify/ProductVariant/54096769843538"],
+      "associated_media_gid_all_variants": "gid://shopify/MediaImage/59693941064018",
+      "preserved": {
+        "skus": ["NOIR-GMT-005", "NOIR-GMT-006", "NOIR-GMT-007", "NOIR-GMT-008"],
+        "prices_eur": ["378.00", "349.00", "417.00", "388.00"],
+        "inventory": [0, 0, 0, 0],
+        "options_unchanged": true
+      }
+    },
+    {
+      "product_gid": "gid://shopify/Product/10980081107282",
+      "handle": "voyageur-bicolore-gmt-5-maillons",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "appearance": "black dial, two-tone five-link bracelet, gold-tone GMT bezel",
+      "appearance_note": "movement and case-back options do not change the front appearance",
+      "featured_before_supplier": "gid://shopify/MediaImage/59691400003922",
+      "featured_after_maison": "gid://shopify/MediaImage/59693941260626",
+      "supplier_reference_removed": "gid://shopify/MediaImage/59691400003922",
+      "maison_media_retained": ["gid://shopify/MediaImage/59693941260626", "gid://shopify/MediaImage/59693941293394", "gid://shopify/MediaImage/59693941326162", "gid://shopify/MediaImage/59893553660242"],
+      "ssim_live_vs_local": {"situation": 0.988397, "macro": 0.988990, "poignet": 0.989462},
+      "variant_count": 4,
+      "variant_gids": ["gid://shopify/ProductVariant/54096770171218", "gid://shopify/ProductVariant/54096770203986", "gid://shopify/ProductVariant/54096770236754", "gid://shopify/ProductVariant/54096770269522"],
+      "associated_media_gid_all_variants": "gid://shopify/MediaImage/59693941260626",
+      "preserved": {
+        "skus": ["NOIR-GMT-009", "NOIR-GMT-010", "NOIR-GMT-011", "NOIR-GMT-012"],
+        "prices_eur": ["378.00", "349.00", "417.00", "388.00"],
+        "inventory": [0, 0, 0, 0],
+        "options_unchanged": true
+      }
+    },
+    {
+      "product_gid": "gid://shopify/Product/10980078780754",
+      "handle": "voyageur-or-gmt-3-maillons",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "appearance": "black dial, full gold-tone three-link bracelet and GMT bezel",
+      "appearance_note": "movement and case-back options do not change the front appearance",
+      "featured_before_supplier": "gid://shopify/MediaImage/59691399774546",
+      "featured_after_maison": "gid://shopify/MediaImage/59693961085266",
+      "supplier_reference_removed": "gid://shopify/MediaImage/59691399774546",
+      "maison_media_retained": ["gid://shopify/MediaImage/59693961085266", "gid://shopify/MediaImage/59693961118034", "gid://shopify/MediaImage/59693961150802", "gid://shopify/MediaImage/59893518336338"],
+      "ssim_live_vs_local": {"situation": 0.987112, "macro": 0.988695, "poignet": 0.988758},
+      "variant_count": 4,
+      "variant_gids": ["gid://shopify/ProductVariant/54096768598354", "gid://shopify/ProductVariant/54096768631122", "gid://shopify/ProductVariant/54096768663890", "gid://shopify/ProductVariant/54096768696658"],
+      "associated_media_gid_all_variants": "gid://shopify/MediaImage/59693961085266",
+      "preserved": {
+        "skus": ["NOIR-GMT-025", "NOIR-GMT-026", "NOIR-GMT-027", "NOIR-GMT-028"],
+        "prices_eur": ["378.00", "349.00", "417.00", "388.00"],
+        "inventory": [0, 0, 0, 0],
+        "options_unchanged": true
+      }
+    },
+    {
+      "product_gid": "gid://shopify/Product/10980079042898",
+      "handle": "voyageur-or-gmt-president",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "appearance": "black dial, full gold-tone President bracelet and GMT bezel",
+      "appearance_note": "movement and case-back options do not change the front appearance",
+      "featured_before_supplier": "gid://shopify/MediaImage/59691399905618",
+      "featured_after_maison": "gid://shopify/MediaImage/59693961183570",
+      "supplier_reference_removed": "gid://shopify/MediaImage/59691399905618",
+      "maison_media_retained": ["gid://shopify/MediaImage/59693961183570", "gid://shopify/MediaImage/59693961216338", "gid://shopify/MediaImage/59693961249106", "gid://shopify/MediaImage/59893528559954"],
+      "ssim_live_vs_local": {"situation": 0.984607, "macro": 0.988378, "poignet": 0.988203},
+      "variant_count": 4,
+      "variant_gids": ["gid://shopify/ProductVariant/54096769057106", "gid://shopify/ProductVariant/54096769089874", "gid://shopify/ProductVariant/54096769122642", "gid://shopify/ProductVariant/54096769155410"],
+      "associated_media_gid_all_variants": "gid://shopify/MediaImage/59693961183570",
+      "preserved": {
+        "skus": ["NOIR-GMT-029", "NOIR-GMT-030", "NOIR-GMT-031", "NOIR-GMT-032"],
+        "prices_eur": ["378.00", "349.00", "417.00", "388.00"],
+        "inventory": [0, 0, 0, 0],
+        "options_unchanged": true
+      }
+    },
+    {
+      "product_gid": "gid://shopify/Product/10980081402194",
+      "handle": "voyageur-or-rose-gmt-5-maillons",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "appearance": "light dial, full rose-gold-tone five-link bracelet and GMT bezel",
+      "appearance_note": "movement and case-back options do not change the front appearance",
+      "featured_before_supplier": "gid://shopify/MediaImage/59691400036690",
+      "featured_after_maison": "gid://shopify/MediaImage/59693960560978",
+      "supplier_reference_removed": "gid://shopify/MediaImage/59691400036690",
+      "maison_media_retained": ["gid://shopify/MediaImage/59693960560978", "gid://shopify/MediaImage/59693960593746", "gid://shopify/MediaImage/59693960626514", "gid://shopify/MediaImage/59893553693010"],
+      "ssim_live_vs_local": {"situation": 0.988049, "macro": 0.987016, "poignet": 0.988620},
+      "variant_count": 4,
+      "variant_gids": ["gid://shopify/ProductVariant/54096770662738", "gid://shopify/ProductVariant/54096770695506", "gid://shopify/ProductVariant/54096770728274", "gid://shopify/ProductVariant/54096770761042"],
+      "associated_media_gid_all_variants": "gid://shopify/MediaImage/59693960560978",
+      "preserved": {
+        "skus": ["NOIR-GMT-033", "NOIR-GMT-034", "NOIR-GMT-035", "NOIR-GMT-036"],
+        "prices_eur": ["378.00", "349.00", "417.00", "388.00"],
+        "inventory": [0, 0, 0, 0],
+        "options_unchanged": true
+      }
+    }
+  ],
+  "shopify_workflow": {
+    "preflight_live": true,
+    "new_generation_required": false,
+    "upload_required": false,
+    "append_guard_result": "Shopify rejects adding a second media to a variant; no mutation occurred on the guarded attempts",
+    "safe_variant_rewrite": "detach old supplier media from each variant while retaining it in the product gallery, then append the Maison front view",
+    "exact_maison_media_associated_to_all_variants": true,
+    "new_featured_proven_before_supplier_removal": true,
+    "supplier_removal_method": "fileUpdate referencesToRemove; no global file deletion",
+    "final_readback_complete": true,
+    "pagination_complete": true
+  },
+  "rollback": {
+    "supplier_media_restore": "fileUpdate referencesToAdd with each product GID",
+    "featured_restore": "restore the supplier reference then reorder it to position 0",
+    "variant_media_restore": "detach the Maison media, then append the restored supplier media to the four variants",
+    "global_file_deleted": false
+  },
+  "final_assertions": {
+    "all_products_active": true,
+    "all_24_variants_associated_exactly_once": true,
+    "all_featured_maison": true,
+    "all_product_media_ready": true,
+    "all_six_raw_supplier_media_absent": true,
+    "prices_skus_options_inventory_unchanged": true,
+    "each_product_has_four_maison_media": true,
+    "no_global_file_deletion": true
+  }
+}

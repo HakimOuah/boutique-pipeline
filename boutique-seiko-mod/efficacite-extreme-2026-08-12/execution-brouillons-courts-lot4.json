@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-12T00:18:08Z",
+  "scope": "Maison Noirmont — lot DRAFT court exclusif 4",
+  "source_policy": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS; exact API-resolved variant source or exact local source when the API variant has no property image",
+  "generation_policy": {
+    "attempts_per_appearance": 1,
+    "retries": 0,
+    "qa": "80/20 blocking: product truth, finish/color, component count, no supplier logo, watermark or promotional text",
+    "delivery_format": "JPEG 2048x2048 sRGB under 1.2 MB"
+  },
+  "shopify_policy": {
+    "access": "Shopify MCP",
+    "remove_supplier_media_after_ready_and_association_readback_only": true,
+    "mutation_scope": "media only",
+    "preserve": ["DRAFT", "price", "SKU", "options", "inventory"]
+  },
+  "summary": {
+    "products_completed": 4,
+    "appearances_generated": 19,
+    "generation_retries": 0,
+    "variants_associated": 25,
+    "new_maison_media_ready": 19,
+    "supplier_media_removed": 34,
+    "supplier_media_remaining": 0,
+    "products_still_draft": 4,
+    "featured_maison_exact": true,
+    "variant_association_readback_exact": true,
+    "commercial_readback_exact": true
+  },
+  "products": [
+    {
+      "product_gid": "gid://shopify/Product/11013057544530",
+      "handle": "mouvement-nh36-jour-date",
+      "aliexpress_item_id": "1005007995556187",
+      "source_status": "onSelling",
+      "status_before": "DRAFT",
+      "status_after": "DRAFT",
+      "featured_before": "gid://shopify/MediaImage/59893960278354",
+      "featured_after": "gid://shopify/MediaImage/59935353700690",
+      "appearances": [
+        {"id":"black-crown-3-8-date","source":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/mouvement-nh36-jour-date/source/black-3-8-a.jpg","local_jpeg":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/mouvement-nh36-jour-date/generated/nh36-black-3-8-a.jpg","shopify_file_gid":"gid://shopify/MediaImage/59935343411538","product_media_gid":"gid://shopify/MediaImage/59935353700690","variant_gids":["gid://shopify/ProductVariant/54213196644690"],"qa":"pass"},
+        {"id":"white-crown-3-8-date","source":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/mouvement-nh36-jour-date/source/white-3-8-a.jpg","local_jpeg":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/mouvement-nh36-jour-date/generated/nh36-white-3-8-a.jpg","shopify_file_gid":"gid://shopify/MediaImage/59935342723410","product_media_gid":"gid://shopify/MediaImage/59935353733458","variant_gids":["gid://shopify/ProductVariant/54213196677458"],"qa":"pass"},
+        {"id":"black-crown-3-date","source":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/mouvement-nh36-jour-date/source/black-3-a.jpg","local_jpeg":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/mouvement-nh36-jour-date/generated/nh36-black-3-a.jpg","shopify_file_gid":"gid://shopify/MediaImage/59935343116626","product_media_gid":"gid://shopify/MediaImage/59935353766226","variant_gids":["gid://shopify/ProductVariant/54213196710226"],"qa":"pass"},
+        {"id":"white-crown-3-date","source":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/mouvement-nh36-jour-date/source/white-3-a.jpg","local_jpeg":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/mouvement-nh36-jour-date/generated/nh36-white-3-a.jpg","shopify_file_gid":"gid://shopify/MediaImage/59935343640914","product_media_gid":"gid://shopify/MediaImage/59935353798994","variant_gids":["gid://shopify/ProductVariant/54213196742994"],"qa":"pass"},
+        {"id":"black-crown-3-8-day-date","source":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/mouvement-nh36-jour-date/source/black-3-8-b.jpg","local_jpeg":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/mouvement-nh36-jour-date/generated/nh36-black-3-8-b.jpg","shopify_file_gid":"gid://shopify/MediaImage/59935343837522","product_media_gid":"gid://shopify/MediaImage/59935353831762","variant_gids":["gid://shopify/ProductVariant/54213196775762"],"qa":"pass"},
+        {"id":"white-crown-3-8-day-date","source":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/mouvement-nh36-jour-date/source/white-3-8-b.jpg","local_jpeg":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/mouvement-nh36-jour-date/generated/nh36-white-3-8-b.jpg","shopify_file_gid":"gid://shopify/MediaImage/59935344066898","product_media_gid":"gid://shopify/MediaImage/59935353864530","variant_gids":["gid://shopify/ProductVariant/54213196808530"],"qa":"pass"},
+        {"id":"black-crown-3-day-date","source":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/mouvement-nh36-jour-date/source/black-3-b.jpg","local_jpeg":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/mouvement-nh36-jour-date/generated/nh36-black-3-b.jpg","shopify_file_gid":"gid://shopify/MediaImage/59935344820562","product_media_gid":"gid://shopify/MediaImage/59935353897298","variant_gids":["gid://shopify/ProductVariant/54213196841298"],"qa":"pass"},
+        {"id":"white-crown-3-day-date","source":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/mouvement-nh36-jour-date/source/white-3-b.jpg","local_jpeg":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/mouvement-nh36-jour-date/generated/nh36-white-3-b.jpg","shopify_file_gid":"gid://shopify/MediaImage/59935345836370","product_media_gid":"gid://shopify/MediaImage/59935353930066","variant_gids":["gid://shopify/ProductVariant/54213196874066"],"qa":"pass"}
+      ],
+      "supplier_media_removed": [
+        "gid://shopify/MediaImage/59893960278354", "gid://shopify/MediaImage/59893960311122", "gid://shopify/MediaImage/59893960343890", "gid://shopify/MediaImage/59893960376658", "gid://shopify/MediaImage/59893960409426", "gid://shopify/MediaImage/59893960442194", "gid://shopify/MediaImage/59893960474962", "gid://shopify/MediaImage/59893960507730", "gid://shopify/MediaImage/59893960540498", "gid://shopify/MediaImage/59893960573266", "gid://shopify/MediaImage/59893960606034", "gid://shopify/MediaImage/59893960638802", "gid://shopify/MediaImage/59893960671570"
+      ],
+      "readback": {"media_count":8,"variant_count":8,"total_inventory":3084,"all_ready":true,"supplier_remaining":0,"associations_exact":true,"commercial_exact":true}
+    },
+    {
+      "product_gid": "gid://shopify/Product/11013057184082",
+      "handle": "presse-aiguilles-base",
+      "aliexpress_item_id": "1005008635496479",
+      "source_status": "onSelling",
+      "status_before": "DRAFT",
+      "status_after": "DRAFT",
+      "featured_before": "gid://shopify/MediaImage/59893957853522",
+      "featured_after": "gid://shopify/MediaImage/59935353143634",
+      "appearances": [
+        {
+          "id": "common-all-calibres",
+          "source": "boutique-seiko-mod/sources-fournisseur-2026-08/presse-aiguilles-base/face-fournisseur-1005008635496479.jpg",
+          "source_note": "API offer has seven technical calibre variants without property images; one shared physical appearance",
+          "local_jpeg": "boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/presse-aiguilles-base/generated/presse-aiguilles-base-common.jpg",
+          "shopify_file_gid": "gid://shopify/MediaImage/59935346295122",
+          "product_media_gid": "gid://shopify/MediaImage/59935353143634",
+          "variant_gids": ["gid://shopify/ProductVariant/54213191106898","gid://shopify/ProductVariant/54213191139666","gid://shopify/ProductVariant/54213191172434","gid://shopify/ProductVariant/54213191205202","gid://shopify/ProductVariant/54213191237970","gid://shopify/ProductVariant/54213191270738","gid://shopify/ProductVariant/54213191303506"],
+          "qa": "pass"
+        }
+      ],
+      "supplier_media_removed": ["gid://shopify/MediaImage/59893957853522","gid://shopify/MediaImage/59893957886290"],
+      "readback": {"media_count":1,"variant_count":7,"total_inventory":120728,"all_ready":true,"supplier_remaining":0,"associations_exact":true,"commercial_exact":true}
+    },
+    {
+      "product_gid": "gid://shopify/Product/11013057151314",
+      "handle": "support-mouvement-aluminium",
+      "aliexpress_item_id": "1005010551172634",
+      "source_status": "onSelling",
+      "status_before": "DRAFT",
+      "status_after": "DRAFT",
+      "featured_before": "gid://shopify/MediaImage/59893957198162",
+      "featured_after": "gid://shopify/MediaImage/59935353274706",
+      "appearances": [
+        {"id":"2d-aluminium","source":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/support-mouvement-aluminium/source/2d-aluminium.png","local_jpeg":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/support-mouvement-aluminium/generated/support-2d-aluminium.jpg","shopify_file_gid":"gid://shopify/MediaImage/59935346786642","product_media_gid":"gid://shopify/MediaImage/59935353274706","variant_gids":["gid://shopify/ProductVariant/54213190254930"],"qa":"pass"},
+        {"id":"3d-stainless-steel","source":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/support-mouvement-aluminium/source/3d-stainless.png","local_jpeg":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/support-mouvement-aluminium/generated/support-3d-stainless.jpg","shopify_file_gid":"gid://shopify/MediaImage/59935347212626","product_media_gid":"gid://shopify/MediaImage/59935353307474","variant_gids":["gid://shopify/ProductVariant/54213190287698"],"qa":"pass"},
+        {"id":"1d-stainless-steel","source":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/support-mouvement-aluminium/source/1d-stainless.png","local_jpeg":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/support-mouvement-aluminium/generated/support-1d-stainless.jpg","shopify_file_gid":"gid://shopify/MediaImage/59935347736914","product_media_gid":"gid://shopify/MediaImage/59935353340242","variant_gids":["gid://shopify/ProductVariant/54213190320466"],"qa":"pass"},
+        {"id":"2d-gold","source":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/support-mouvement-aluminium/source/2d-gold.png","local_jpeg":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/support-mouvement-aluminium/generated/support-2d-gold.jpg","shopify_file_gid":"gid://shopify/MediaImage/59935347933522","product_media_gid":"gid://shopify/MediaImage/59935353373010","variant_gids":["gid://shopify/ProductVariant/54213190353234"],"qa":"pass"}
+      ],
+      "supplier_media_removed": ["gid://shopify/MediaImage/59893957198162","gid://shopify/MediaImage/59893957230930","gid://shopify/MediaImage/59893957263698","gid://shopify/MediaImage/59893957296466","gid://shopify/MediaImage/59893957329234","gid://shopify/MediaImage/59893957362002","gid://shopify/MediaImage/59893957394770"],
+      "readback": {"media_count":4,"variant_count":4,"total_inventory":118,"all_ready":true,"supplier_remaining":0,"associations_exact":true,"commercial_exact":true}
+    },
+    {
+      "product_gid": "gid://shopify/Product/11013069111634",
+      "handle": "aiguilles-dauphine-polies-nh35",
+      "aliexpress_item_id": "1005007896534058",
+      "source_status": "onSelling",
+      "status_before": "DRAFT",
+      "status_after": "DRAFT",
+      "featured_before": "gid://shopify/MediaImage/59894070313298",
+      "featured_after": "gid://shopify/MediaImage/59935353438546",
+      "appearances": [
+        {"id":"silver","source":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/aiguilles-dauphine-polies-nh35/source/silver.jpg","local_jpeg":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/aiguilles-dauphine-polies-nh35/generated/dauphine-silver.jpg","shopify_file_gid":"gid://shopify/MediaImage/59935348261202","product_media_gid":"gid://shopify/MediaImage/59935353438546","variant_gids":["gid://shopify/ProductVariant/54213259034962"],"qa":"pass"},
+        {"id":"silver-blue","source":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/aiguilles-dauphine-polies-nh35/source/silver-blue.jpg","local_jpeg":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/aiguilles-dauphine-polies-nh35/generated/dauphine-silver-blue.jpg","shopify_file_gid":"gid://shopify/MediaImage/59935348621650","product_media_gid":"gid://shopify/MediaImage/59935353471314","variant_gids":["gid://shopify/ProductVariant/54213259067730"],"qa":"pass"},
+        {"id":"black","source":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/aiguilles-dauphine-polies-nh35/source/black.jpg","local_jpeg":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/aiguilles-dauphine-polies-nh35/generated/dauphine-black.jpg","shopify_file_gid":"gid://shopify/MediaImage/59935348949330","product_media_gid":"gid://shopify/MediaImage/59935353504082","variant_gids":["gid://shopify/ProductVariant/54213259100498"],"qa":"pass"},
+        {"id":"gold","source":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/aiguilles-dauphine-polies-nh35/source/gold.jpg","local_jpeg":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/aiguilles-dauphine-polies-nh35/generated/dauphine-gold.jpg","shopify_file_gid":"gid://shopify/MediaImage/59935349440850","product_media_gid":"gid://shopify/MediaImage/59935353536850","variant_gids":["gid://shopify/ProductVariant/54213259133266"],"qa":"pass"},
+        {"id":"rose","source":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/aiguilles-dauphine-polies-nh35/source/rose.jpg","local_jpeg":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/aiguilles-dauphine-polies-nh35/generated/dauphine-rose.jpg","shopify_file_gid":"gid://shopify/MediaImage/59935350751570","product_media_gid":"gid://shopify/MediaImage/59935353569618","variant_gids":["gid://shopify/ProductVariant/54213259166034"],"qa":"pass"},
+        {"id":"silver-yellow","source":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/aiguilles-dauphine-polies-nh35/source/silver-yellow.jpg","local_jpeg":"boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot4/aiguilles-dauphine-polies-nh35/generated/dauphine-silver-yellow.jpg","shopify_file_gid":"gid://shopify/MediaImage/59935351243090","product_media_gid":"gid://shopify/MediaImage/59935353602386","variant_gids":["gid://shopify/ProductVariant/54213259198802"],"qa":"pass"}
+      ],
+      "supplier_media_removed": ["gid://shopify/MediaImage/59894070313298","gid://shopify/MediaImage/59894070346066","gid://shopify/MediaImage/59894070378834","gid://shopify/MediaImage/59894070411602","gid://shopify/MediaImage/59894070444370","gid://shopify/MediaImage/59894070477138","gid://shopify/MediaImage/59894070509906","gid://shopify/MediaImage/59894070542674","gid://shopify/MediaImage/59894070575442","gid://shopify/MediaImage/59894070608210","gid://shopify/MediaImage/59894070640978","gid://shopify/MediaImage/59894070673746"],
+      "readback": {"media_count":6,"variant_count":6,"total_inventory":45,"all_ready":true,"supplier_remaining":0,"associations_exact":true,"commercial_exact":true}
+    }
+  ]
+}

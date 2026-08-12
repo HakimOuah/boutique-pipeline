@@ -1,0 +1,118 @@
+{
+  "id": "claude-20260811-2114-remplacement92-pilote-lumineuses-montes-reprise-5d",
+  "status": "failed",
+  "payload": {
+    "manifeste_realise": [],
+    "rejets": [
+      {
+        "fichier": "rejected/black-dial-1-hands-rejet-externe-22-20260811-2114.jpg",
+        "motif": "Sauvegarde octet pour octet du rejet externe initial : aiguille sur 22."
+      },
+      {
+        "fichier": "rejected/black-dial-2-hands-rejet-externe-angle-20260811-2114.jpg",
+        "motif": "Sauvegarde octet pour octet du rejet externe initial : axes non conformes."
+      },
+      {
+        "fichier": "rejected/blue-dial-hands-rejet-externe-22-20260811-2114.jpg",
+        "motif": "Sauvegarde octet pour octet du rejet externe initial : aiguille sur 22."
+      },
+      {
+        "fichier": "rejected/green-dial-hands-rejet-externe-angle-20260811-2114.jpg",
+        "motif": "Sauvegarde octet pour octet du rejet externe initial : axes non conformes."
+      },
+      {
+        "fichier": "rejected/silver-dial-hands-rejet-externe-22-20260811-2114.jpg",
+        "motif": "Sauvegarde octet pour octet du rejet externe initial : aiguille sur 22."
+      },
+      {
+        "fichier": "rejected/black-dial-1-hands-g1-masque-22-16-4-angle-secondes.png",
+        "motif": "Génération 1 rejetée : heure sur 22, minute sur 16/4 et trotteuse hors axe 195 degrés."
+      },
+      {
+        "fichier": "rejected/black-dial-1-hands-g2-minute-108-secondes-198.png",
+        "motif": "Génération 2 rejetée après mesure : heure 315,85 degrés PASS, minute 108,20 degrés et trotteuse 198,06 degrés hors tolérance."
+      },
+      {
+        "fichier": "rejected/black-dial-1-hands-g3-angles-306-110-189-masque-22.png",
+        "motif": "Génération 3 rejetée après mesure : axes 306,25 / 110,10 / 188,74 degrés et heure sur 22."
+      },
+      {
+        "fichier": "rejected/black-dial-1-hands-g4-masque-22-et-4.png",
+        "motif": "Génération 4 rejetée : heure sur 22 et minute sur 4."
+      },
+      {
+        "fichier": "rejected/black-dial-2-hands-g1-minute-orientation-source-heure-sur-22.png",
+        "motif": "Génération 1 rejetée : heure sur 22, minute restée vers 2 et trotteuse trop verticale."
+      },
+      {
+        "fichier": "rejected/black-dial-2-hands-g2-masque-22-et-4-secondes-vers-7.png",
+        "motif": "Génération 2 rejetée : heure sur 22, minute sur 4 et trotteuse vers 7."
+      },
+      {
+        "fichier": "rejected/black-dial-2-hands-g3-heure-sur-22-minute-vers-2-secondes-sur-18-et-6.png",
+        "motif": "Génération 3 rejetée : heure sur 22, minute vers 2 et trotteuse sur 18/6."
+      },
+      {
+        "fichier": "rejected/black-dial-2-hands-g4-minute-masque-4-secondes-vers-7.png",
+        "motif": "Génération 4 rejetée : minute sur 4 et trotteuse vers 7."
+      },
+      {
+        "fichier": "rejected/blue-dial-hands-g1-heure-sur-22-secondes-vers-7.png",
+        "motif": "Génération 1 rejetée : heure sur 22 et trotteuse vers 7."
+      },
+      {
+        "fichier": "rejected/blue-dial-hands-g2-heure-sur-22-secondes-sur-18-et-6.png",
+        "motif": "Génération 2 rejetée : heure sur 22 et trotteuse verticale sur 18/6."
+      },
+      {
+        "fichier": "rejected/blue-dial-hands-g3-heure-sur-22-minute-vers-2-secondes-sur-7.png",
+        "motif": "Génération 3 rejetée : heure sur 22, minute vers 2 et trotteuse sur 7."
+      },
+      {
+        "fichier": "rejected/blue-dial-hands-g4-heure-sur-22-secondes-sur-7.png",
+        "motif": "Génération 4 rejetée : heure sur 22 et trotteuse sur 7."
+      },
+      {
+        "fichier": "rejected/green-dial-hands-g1-masque-22-et-4-secondes-vers-7.png",
+        "motif": "Génération 1 rejetée : heure sur 22, minute sur 4 et trotteuse vers 7."
+      },
+      {
+        "fichier": "rejected/green-dial-hands-g2-heure-sur-22-minute-vers-2-secondes-sur-18-et-6.png",
+        "motif": "Génération 2 rejetée : heure sur 22, minute vers 2 et trotteuse sur 18/6."
+      },
+      {
+        "fichier": "rejected/green-dial-hands-g3-heure-sur-22-minute-vers-2-secondes-vers-7.png",
+        "motif": "Génération 3 rejetée : heure sur 22, minute vers 2 et trotteuse vers 7."
+      },
+      {
+        "fichier": "rejected/green-dial-hands-g4-heure-sur-22-minute-sur-16-et-4-secondes-vers-7.png",
+        "motif": "Génération 4 rejetée : heure sur 22, minute sur 16/4 et trotteuse vers 7."
+      },
+      {
+        "fichier": "rejected/silver-dial-hands-g1-heure-masque-22.png",
+        "motif": "Génération 1 rejetée : heure sur 22 malgré minute et trotteuse proches de leurs couloirs."
+      },
+      {
+        "fichier": "rejected/silver-dial-hands-g2-heure-sur-22-minute-vers-2-secondes-sur-18-et-6.png",
+        "motif": "Génération 2 rejetée : heure sur 22, minute vers 2 et trotteuse sur 18/6."
+      },
+      {
+        "fichier": "rejected/silver-dial-hands-g3-heure-sur-22-minute-vers-2-secondes-proche-18-et-6.png",
+        "motif": "Génération 3 rejetée : heure sur 22, minute vers 2 et trotteuse trop proche de 18/6."
+      },
+      {
+        "fichier": "rejected/silver-dial-hands-g4-heure-sur-22-minute-sur-16-et-4-secondes-vers-7.png",
+        "motif": "Génération 4 rejetée : heure sur 22, minute sur 16/4 et trotteuse vers 7."
+      }
+    ],
+    "sujets_difficiles": [
+      "cadran-pilote-33-5-aiguilles-lumineuses | 14:365462#black dial 1 hands | 4 générations sans PASS",
+      "cadran-pilote-33-5-aiguilles-lumineuses | 14:100016652#black dial 2 hands | 4 générations sans PASS",
+      "cadran-pilote-33-5-aiguilles-lumineuses | 14:173#blue dial hands | 4 générations sans PASS",
+      "cadran-pilote-33-5-aiguilles-lumineuses | 14:865#green dial hands | 4 générations sans PASS",
+      "cadran-pilote-33-5-aiguilles-lumineuses | 14:29#silver dial hands | 4 générations sans PASS"
+    ]
+  },
+  "executed_at": "2026-08-11T20:00:52Z",
+  "executor": "codex-2026-08-11"
+}

@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0",
+  "report_id": "rapport-remplacement92-pilote-lumineuses-5b-rejet-5c-prete-shopify-20260811-2001",
+  "generated_at": "2026-08-11T20:01:48+02:00",
+  "scope": {
+    "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+    "product_id": "gid://shopify/Product/11013081399634",
+    "failed_order_id": "codex-20260811-1842-remplacement92-pilote-lumineuses-montes-reprise-5b",
+    "corrected_order_id": "codex-20260811-2000-remplacement92-pilote-lumineuses-montes-reprise-5c"
+  },
+  "order_5b": {
+    "order_file": "ordres/pour-codex/rejetes/20260811-1842-generate_images-remplacement92-pilote-lumineuses-montes-reprise-5b.json",
+    "result_file": "ordres/pour-codex/resultats/20260811-1842-generate_images-remplacement92-pilote-lumineuses-montes-reprise-5b.json",
+    "rejection_file": "ordres/pour-codex/rejetes/20260811-1842-generate_images-remplacement92-pilote-lumineuses-montes-reprise-5b.motif.json",
+    "status": "rejected",
+    "executed_at": "2026-08-11T17:58:57Z",
+    "failure_stage": "preflight_hash_check",
+    "failure_target": "14:100016652#black dial 2 hands",
+    "expected_hash_in_order": "e08b9fb78aff658d77d574005c5bdac97c1f0d8780ff8bb677ec95988141",
+    "observed_hash": "e08b9fb78aff658d77f6726dd081d7dc1c66426d45e2f737381741ec95988141",
+    "manifest_realized_count": 0,
+    "backups_created_count": 0,
+    "generations_started_count": 0,
+    "targets_overwritten_count": 0,
+    "qa_board_created": false,
+    "shopify_uploads_count": 0,
+    "shopify_mutations_count": 0,
+    "fail_closed_confirmed": true
+  },
+  "post_rejection_hash_readback": {
+    "targets": [
+      {
+        "sku": "14:365462#black dial 1 hands",
+        "sha256": "45f9dfb8990d5cc85fe773195a661e5aff30f4759a9ef4d08a53ab73d74575e9"
+      },
+      {
+        "sku": "14:100016652#black dial 2 hands",
+        "sha256": "e08b9fb78aff658d77f6726dd081d7dc1c66426d45e2f737381741ec95988141"
+      },
+      {
+        "sku": "14:173#blue dial hands",
+        "sha256": "66cafe241e8c46bca93ee6b256b65de1c106384fd3cff23aecdcdc3126801408"
+      },
+      {
+        "sku": "14:865#green dial hands",
+        "sha256": "ac2ac8387ae9206bf917e155614b36f479aba36432e619c72a6c0f93771f8478"
+      },
+      {
+        "sku": "14:29#silver dial hands",
+        "sha256": "ca6236320a52396f8dfee55378cd0d700fd2e25412b40379016c7bfabcb7b23e"
+      }
+    ],
+    "witnesses": [
+      {
+        "name": "black_dial_1",
+        "sha256": "dbefd60eb5e04c719c4efae2902e4cc9c858b63f27527ba5ac1edf503d200c9a"
+      },
+      {
+        "name": "black_dial_2",
+        "sha256": "1e6c7e35c7dea7c874ca4b9cba1eb4d288ca9399860ce41af3fcff476468d088"
+      },
+      {
+        "name": "blue_dial",
+        "sha256": "32596399074ae8bebb9cb69abb7e4fcb17dd0134ae89db7c312eea4fe6cd31d9"
+      },
+      {
+        "name": "green_dial",
+        "sha256": "d93785cff4aa4bc4b83ec463057422a0e21fe6e1b17f54ca02a805c918150965"
+      }
+    ],
+    "all_unchanged": true
+  },
+  "corrected_order_5c": {
+    "order_file": "ordres/pour-codex/inbox/20260811-2000-generate_images-remplacement92-pilote-lumineuses-montes-reprise-5c.json",
+    "json_valid": true,
+    "official_validator_verdict": "VALIDE",
+    "official_validator_class": "A",
+    "black_dial_2_hash_corrected": true,
+    "all_target_hashes_reread_before_creation": true,
+    "all_witness_hashes_reread_before_creation": true,
+    "target_count": 5,
+    "launched": false,
+    "wrapper_or_lock_touched": false
+  },
+  "shopify_live_readback": {
+    "read_only": true,
+    "mutation_performed": false,
+    "status": "DRAFT",
+    "featured_media_id": "gid://shopify/MediaImage/59904326762834",
+    "media_count": 16,
+    "media_pagination_complete": true,
+    "variant_count": 39,
+    "variant_pagination_complete": true,
+    "all_nested_media_pagination_complete": true,
+    "variants_with_exactly_one_media": 39,
+    "all_prices_present": true,
+    "all_compare_at_prices_present": true,
+    "all_prices_equal_compare_at_prices": true,
+    "previously_integrated_silver_dial": {
+      "media_id": "gid://shopify/MediaImage/59928793219410",
+      "status": "READY",
+      "old_supplier_media_present": false
+    },
+    "blocked_supplier_media_mapping": [
+      {
+        "sku": "14:865#green dial hands",
+        "media_id": "gid://shopify/MediaImage/59894149579090",
+        "status": "READY",
+        "variant_ids": [
+          "gid://shopify/ProductVariant/54213327290706",
+          "gid://shopify/ProductVariant/54213327323474",
+          "gid://shopify/ProductVariant/54213327356242"
+        ]
+      },
+      {
+        "sku": "14:173#blue dial hands",
+        "media_id": "gid://shopify/MediaImage/59894149611858",
+        "status": "READY",
+        "variant_ids": [
+          "gid://shopify/ProductVariant/54213327618386",
+          "gid://shopify/ProductVariant/54213327651154",
+          "gid://shopify/ProductVariant/54213327683922"
+        ]
+      },
+      {
+        "sku": "14:100016652#black dial 2 hands",
+        "media_id": "gid://shopify/MediaImage/59894149677394",
+        "status": "READY",
+        "variant_ids": [
+          "gid://shopify/ProductVariant/54213327978834",
+          "gid://shopify/ProductVariant/54213328011602",
+          "gid://shopify/ProductVariant/54213328044370"
+        ]
+      },
+      {
+        "sku": "14:29#silver dial hands",
+        "media_id": "gid://shopify/MediaImage/59894149710162",
+        "status": "READY",
+        "variant_ids": [
+          "gid://shopify/ProductVariant/54213328306514",
+          "gid://shopify/ProductVariant/54213328339282",
+          "gid://shopify/ProductVariant/54213328372050"
+        ]
+      },
+      {
+        "sku": "14:365462#black dial 1 hands",
+        "media_id": "gid://shopify/MediaImage/59894149808466",
+        "status": "READY",
+        "variant_ids": [
+          "gid://shopify/ProductVariant/54213327454546",
+          "gid://shopify/ProductVariant/54213327487314",
+          "gid://shopify/ProductVariant/54213328175442"
+        ]
+      }
+    ]
+  },
+  "boundaries": {
+    "master_progress_json_modified": false,
+    "failed_supplier_media_removed": false,
+    "publication_or_activation_performed": false,
+    "product_status_changed": false,
+    "featured_media_changed": false,
+    "prices_changed": false
+  }
+}

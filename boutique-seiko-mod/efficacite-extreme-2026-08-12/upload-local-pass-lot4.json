@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0",
+  "created_at_utc": "2026-08-11T23:44:11Z",
+  "result": "PASS",
+  "scope": {
+    "products_limit": 6,
+    "generation_performed": false,
+    "assets_source": "boutique-seiko-mod/efficacite-extreme-2026-08-12/inventaire-assets.json",
+    "selection": "Six chronographes ACTIVE à deux apparences, entièrement couverts par des médias de variante exacts et trois remplacements de galerie QA PASS.",
+    "deletion_gate": "Les médias fournisseur n'ont été supprimés qu'après upload READY, attachement produit et readback exhaustif PASS."
+  },
+  "counts": {
+    "products_preflighted": 6,
+    "products_completed": 6,
+    "products_skipped": 0,
+    "appearances_verified": 12,
+    "local_files_uploaded": 18,
+    "gallery_slots_replaced": 18,
+    "supplier_media_deleted": 18,
+    "failed_shopify_mutations": 0
+  },
+  "mutation_evidence": {
+    "uploads_succeeded": 18,
+    "file_update_ready": 18,
+    "file_update_user_errors": [],
+    "file_delete_requested": 18,
+    "file_delete_confirmed": 18,
+    "file_delete_user_errors": []
+  },
+  "products": [
+    {
+      "handle": "contre-la-montre-champagne-chronographe",
+      "product_id": "gid://shopify/Product/10980080779602",
+      "featured_media": "gid://shopify/MediaImage/59691393974610",
+      "variant_associations": [
+        ["gid://shopify/ProductVariant/54096769646930", "NOIR-CHR-006", "gid://shopify/MediaImage/59691393974610"],
+        ["gid://shopify/ProductVariant/54096769679698", "NOIR-CHR-007", "gid://shopify/MediaImage/59691394007378"]
+      ],
+      "local_replacements": [
+        ["situation", "scratchpad/noirmont-galeries/generated/contre-la-montre-champagne-chronographe-situation.jpg", "35736d9d4ece003da86a43a44860cca345675a366d6f862e815e787e9365eca4", "gid://shopify/MediaImage/59935177867602"],
+        ["macro", "scratchpad/noirmont-galeries/generated/contre-la-montre-champagne-chronographe-macro.jpg", "aff0eaacc960790faa0e74e81875f2eb0610b0d129459ba0f755a031eaf464a4", "gid://shopify/MediaImage/59935178260818"],
+        ["poignet", "scratchpad/noirmont-galeries/generated/contre-la-montre-champagne-chronographe-poignet.jpg", "746d0be78c4db6b5658999b2e4f480d743cc539e64b91ec75d95484f178ee8a2", "gid://shopify/MediaImage/59935179538770"]
+      ],
+      "supplier_media_deleted": ["gid://shopify/MediaImage/59693877100882", "gid://shopify/MediaImage/59693877133650", "gid://shopify/MediaImage/59693877166418"],
+      "status_before_after": ["ACTIVE", "ACTIVE"],
+      "inventory_before_after": [0, 0],
+      "media_count_before_after": [5, 5],
+      "immutable_fields_verified": true,
+      "readback": "PASS"
+    },
+    {
+      "handle": "contre-la-montre-noir-chronographe",
+      "product_id": "gid://shopify/Product/10980081041746",
+      "featured_media": "gid://shopify/MediaImage/59691394171218",
+      "variant_associations": [
+        ["gid://shopify/ProductVariant/54096770072914", "NOIR-CHR-011", "gid://shopify/MediaImage/59691394171218"],
+        ["gid://shopify/ProductVariant/54096770105682", "NOIR-CHR-012", "gid://shopify/MediaImage/59691394203986"]
+      ],
+      "local_replacements": [
+        ["situation", "scratchpad/noirmont-galeries/generated/contre-la-montre-noir-chronographe-situation.jpg", "59cd8a084451b751cc4a950214045d69b56fae52c3bc2c01ebe16cef3cea6502", "gid://shopify/MediaImage/59935180259666"],
+        ["macro", "scratchpad/noirmont-galeries/generated/contre-la-montre-noir-chronographe-macro.jpg", "ec371b4b7f9ab3a5d1024bed9167bc16e83de123ddca5ebbaa3548078c862de2", "gid://shopify/MediaImage/59935180030290"],
+        ["poignet", "scratchpad/noirmont-galeries/generated/contre-la-montre-noir-chronographe-poignet.jpg", "3a5388b7d1c7c280db88bca26ba0a5e27621c91783ee569eea821a4478ec4180", "gid://shopify/MediaImage/59935180685650"]
+      ],
+      "supplier_media_deleted": ["gid://shopify/MediaImage/59693885423954", "gid://shopify/MediaImage/59693885456722", "gid://shopify/MediaImage/59693885489490"],
+      "status_before_after": ["ACTIVE", "ACTIVE"],
+      "inventory_before_after": [0, 0],
+      "media_count_before_after": [5, 5],
+      "immutable_fields_verified": true,
+      "readback": "PASS"
+    },
+    {
+      "handle": "contre-la-montre-panda-chronographe",
+      "product_id": "gid://shopify/Product/10980080976210",
+      "featured_media": "gid://shopify/MediaImage/59691394335058",
+      "variant_associations": [
+        ["gid://shopify/ProductVariant/54096769974610", "NOIR-CHR-013", "gid://shopify/MediaImage/59691394335058"],
+        ["gid://shopify/ProductVariant/54096770007378", "NOIR-CHR-014", "gid://shopify/MediaImage/59691394367826"]
+      ],
+      "local_replacements": [
+        ["situation", "scratchpad/noirmont-galeries/generated/contre-la-montre-panda-chronographe-situation.jpg", "311857db7ca5bfe5df80b62ea30e55e34ec7f846b19986cc8b11c5ff3423bc6d", "gid://shopify/MediaImage/59935181832530"],
+        ["macro", "scratchpad/noirmont-galeries/generated/contre-la-montre-panda-chronographe-macro.jpg", "3f0d8536cc8468ecb2da698e242ba0da121d6ece456a521d8b4830273b8fcb33", "gid://shopify/MediaImage/59935185142098"],
+        ["poignet", "scratchpad/noirmont-galeries/generated/contre-la-montre-panda-chronographe-poignet.jpg", "283322995d3557658c67c11523c3dcb15b6b05074fda9fb2a218c4f5e9ab91af", "gid://shopify/MediaImage/59935183667538"]
+      ],
+      "supplier_media_deleted": ["gid://shopify/MediaImage/59693893812562", "gid://shopify/MediaImage/59693893845330", "gid://shopify/MediaImage/59693893878098"],
+      "status_before_after": ["ACTIVE", "ACTIVE"],
+      "inventory_before_after": [0, 0],
+      "media_count_before_after": [5, 5],
+      "immutable_fields_verified": true,
+      "readback": "PASS"
+    },
+    {
+      "handle": "contre-la-montre-panda-inverse-chronographe",
+      "product_id": "gid://shopify/Product/10980080419154",
+      "featured_media": "gid://shopify/MediaImage/59691394269522",
+      "variant_associations": [
+        ["gid://shopify/ProductVariant/54096769384786", "NOIR-CHR-015", "gid://shopify/MediaImage/59691394269522"],
+        ["gid://shopify/ProductVariant/54096769417554", "NOIR-CHR-016", "gid://shopify/MediaImage/59691394302290"]
+      ],
+      "local_replacements": [
+        ["situation", "scratchpad/noirmont-galeries/generated/contre-la-montre-panda-inverse-chronographe-situation.jpg", "e0e2c6a5b139c259a5fb1d463158cb1ce11322af6e0bce1bdbfaf7ec3d10dedd", "gid://shopify/MediaImage/59935182946642"],
+        ["macro", "scratchpad/noirmont-galeries/generated/contre-la-montre-panda-inverse-chronographe-macro.jpg", "b99ed58008bdc368660bf0460400380f00949d9be3b365f280641fcffeee32e7", "gid://shopify/MediaImage/59935184290130"],
+        ["poignet", "scratchpad/noirmont-galeries/generated/contre-la-montre-panda-inverse-chronographe-poignet.jpg", "bfb303f21469199c0b9ec90fef1886279176643bc2ff2e164e50a250a9cf9a94", "gid://shopify/MediaImage/59935186256210"]
+      ],
+      "supplier_media_deleted": ["gid://shopify/MediaImage/59693885522258", "gid://shopify/MediaImage/59693885555026", "gid://shopify/MediaImage/59693885587794"],
+      "status_before_after": ["ACTIVE", "ACTIVE"],
+      "inventory_before_after": [0, 0],
+      "media_count_before_after": [5, 5],
+      "immutable_fields_verified": true,
+      "readback": "PASS"
+    },
+    {
+      "handle": "contre-la-montre-turquoise-chronographe",
+      "product_id": "gid://shopify/Product/10980081533266",
+      "featured_media": "gid://shopify/MediaImage/59691394433362",
+      "variant_associations": [
+        ["gid://shopify/ProductVariant/54096770892114", "NOIR-CHR-018", "gid://shopify/MediaImage/59691394433362"],
+        ["gid://shopify/ProductVariant/54096770924882", "NOIR-CHR-019", "gid://shopify/MediaImage/59691394466130"]
+      ],
+      "local_replacements": [
+        ["situation", "scratchpad/noirmont-galeries/generated/contre-la-montre-turquoise-chronographe-situation.jpg", "0a1a26c239c0dc667ff5f108522913f62f1f27235a9d6fb31b7a2503bece6cc4", "gid://shopify/MediaImage/59935187566930"],
+        ["macro", "scratchpad/noirmont-galeries/generated/contre-la-montre-turquoise-chronographe-macro.jpg", "a96cdc01723def566ca147af9bcab0e4333b4b1faa4098d08ad5ed5e2c45b26f", "gid://shopify/MediaImage/59935190155602"],
+        ["poignet", "scratchpad/noirmont-galeries/generated/contre-la-montre-turquoise-chronographe-poignet.jpg", "990230cd4f127cd64af44f991d1e74129336f8023711bad1a7ef8cb4c51c5ab0", "gid://shopify/MediaImage/59935191859538"]
+      ],
+      "supplier_media_deleted": ["gid://shopify/MediaImage/59693894009170", "gid://shopify/MediaImage/59693894041938", "gid://shopify/MediaImage/59693894074706"],
+      "status_before_after": ["ACTIVE", "ACTIVE"],
+      "inventory_before_after": [0, 0],
+      "media_count_before_after": [5, 5],
+      "immutable_fields_verified": true,
+      "readback": "PASS"
+    },
+    {
+      "handle": "contre-la-montre-vert-chronographe",
+      "product_id": "gid://shopify/Product/10980081631570",
+      "featured_media": "gid://shopify/MediaImage/59691399709010",
+      "variant_associations": [
+        ["gid://shopify/ProductVariant/54096771219794", "NOIR-CHR-020", "gid://shopify/MediaImage/59691399709010"],
+        ["gid://shopify/ProductVariant/54096771252562", "NOIR-CHR-021", "gid://shopify/MediaImage/59691399741778"]
+      ],
+      "local_replacements": [
+        ["situation", "scratchpad/noirmont-galeries/generated/contre-la-montre-vert-chronographe-situation.jpg", "703cf6b69934bfe3e1d59c8eec76abd68d55bb714d698d03bcad0baf10c04aee", "gid://shopify/MediaImage/59935188222290"],
+        ["macro", "scratchpad/noirmont-galeries/generated/contre-la-montre-vert-chronographe-macro.jpg", "a3099f2cbe849931f0273cceb57d7a00798903da948aae58224e98e7a02bb398", "gid://shopify/MediaImage/59935189238098"],
+        ["poignet", "scratchpad/noirmont-galeries/generated/contre-la-montre-vert-chronographe-poignet.jpg", "16f4b136d71efa8fb6b61ee3f5329cffd1d334ee14160149a224c61ea7ce2db1", "gid://shopify/MediaImage/59935192678738"]
+      ],
+      "supplier_media_deleted": ["gid://shopify/MediaImage/59693894107474", "gid://shopify/MediaImage/59693894140242", "gid://shopify/MediaImage/59693894173010"],
+      "status_before_after": ["ACTIVE", "ACTIVE"],
+      "inventory_before_after": [0, 0],
+      "media_count_before_after": [5, 5],
+      "immutable_fields_verified": true,
+      "readback": "PASS"
+    }
+  ],
+  "final_readback": {
+    "products_pass": 6,
+    "products_fail": 0,
+    "appearances_exact": 12,
+    "supplier_ids_still_present": 0,
+    "new_media_not_ready": 0,
+    "variant_media_mismatches": 0,
+    "status_changes": 0,
+    "featured_changes": 0,
+    "price_changes": 0,
+    "compare_at_price_changes": 0,
+    "sku_changes": 0,
+    "option_changes": 0,
+    "inventory_changes": 0,
+    "pagination_exhausted_all": true
+  }
+}

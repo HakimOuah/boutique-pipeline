@@ -1,0 +1,39 @@
+{
+  "id": "codex-20260811-1926-remplacement92-pilote-nh34-dial3-nu-classe-a-1",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-pilote-noir-33-5-nh34",
+        "sku": "14:865#Dial 3",
+        "slot": "variante",
+        "fichier": "cadran-pilote-noir-33-5-nh34-v-dial-3.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 4
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/dial-3-nu-rejet-qa-externe-geometrie-polaire-20260811-1926.jpg",
+        "motif": "Sauvegarde octet pour octet du rendu antérieur rejeté par QA externe : quatre rectangles décalés vers 0,60/3,48/6,54/9,64 h et flèche militaire redressée."
+      },
+      {
+        "fichier": "rejected/dial-3-nu-v1-rectangle-7h-hors-tolerance-et-perspective.png",
+        "motif": "Première génération écartée : rectangle inférieur mesuré hors tolérance vers 7,10 h et légère perspective."
+      },
+      {
+        "fichier": "rejected/dial-3-nu-v2-chiffre-10-duplique.png",
+        "motif": "Deuxième génération écartée : chiffre 10 dupliqué, en violation du compte exact 1 à 11."
+      },
+      {
+        "fichier": "rejected/dial-3-nu-v3-rectangle-inferieur-regularise-vers-6h80.png",
+        "motif": "Troisième génération écartée : rectangle inférieur régularisé vers 6,80 h au lieu de 7,22 h."
+      }
+    ],
+    "sujets_difficiles": [
+      "cadran-pilote-noir-33-5-nh34 | 14:865#Dial 3 | variante | 4 générations totales ; conforme à la 4e"
+    ]
+  },
+  "executed_at": "2026-08-11T18:14:15Z",
+  "executor": "codex-2026-08-11"
+}

@@ -1,0 +1,180 @@
+{
+  "schema": "maison-noirmont.upload-local-pass.v1",
+  "generated_at": "2026-08-12T02:10:46+02:00",
+  "shopify_scope": "connected Maison Noirmont shop",
+  "result": "PASS",
+  "summary": {
+    "products_completed": 6,
+    "local_pass_assets_uploaded": 16,
+    "new_variant_associations": 12,
+    "variant_associations_verified": 23,
+    "supplier_media_deleted": 19,
+    "supplier_featured_media_deleted": 4,
+    "remaining_supplier_media_on_products": 0,
+    "media_ready": 30,
+    "pagination_complete": true,
+    "commercial_fields_preserved": true,
+    "generation_performed": false
+  },
+  "method": {
+    "inventory": "boutique-seiko-mod/efficacite-extreme-2026-08-12/inventaire-assets.json",
+    "asset_gate": "qa.status=PASS and upload_candidate=true and exact handle",
+    "deletion_gate": "new media READY at 2048x2048 and exact variant associations proven by intermediate Shopify readback",
+    "readback": "product media first:250, variants first:250, variant media first:20; all pageInfo.hasNextPage=false",
+    "preserved_fields": ["status", "price", "compareAtPrice", "sku", "options", "inventoryQuantity", "totalInventory"]
+  },
+  "products": [
+    {
+      "handle": "contre-la-montre-blanc-chronographe",
+      "product_id": "gid://shopify/Product/10980078879058",
+      "status": "ACTIVE",
+      "assets": [
+        {"slot":"situation","relative_path":"scratchpad/noirmont-galeries/generated/contre-la-montre-blanc-chronographe-situation.jpg","sha256":"41a94d7b7e81e9299af722406b17f0c7f61216325e7d9ed6ab5ad2c8b7b6e76f","qa":"PASS","upload_candidate":true,"shopify_media_id":"gid://shopify/MediaImage/59935328665938"},
+        {"slot":"macro","relative_path":"scratchpad/noirmont-galeries/generated/contre-la-montre-blanc-chronographe-macro.jpg","sha256":"e709de8aa65a2747534ae7734966946bb140d82dc3ff08faeaafa28eb7d14633","qa":"PASS","upload_candidate":true,"shopify_media_id":"gid://shopify/MediaImage/59935329321298"},
+        {"slot":"poignet","relative_path":"scratchpad/noirmont-galeries/generated/contre-la-montre-blanc-chronographe-poignet.jpg","sha256":"6be129afd682a4d01f25c635755ceeee6294c9722822051af9474f57f074bfc6","qa":"PASS","upload_candidate":true,"shopify_media_id":"gid://shopify/MediaImage/59935327813970"}
+      ],
+      "supplier_media_deleted": ["gid://shopify/MediaImage/59693873824082","gid://shopify/MediaImage/59693873856850","gid://shopify/MediaImage/59693873889618"],
+      "featured_before": "gid://shopify/MediaImage/59691393778002",
+      "featured_after": "gid://shopify/MediaImage/59691393778002",
+      "final_media_count": 6,
+      "all_media_ready": true,
+      "variants": [
+        {"id":"gid://shopify/ProductVariant/54096768794962","sku":"NOIR-CHR-002","price":"299.00","compare_at":null,"inventory":0,"media_id":"gid://shopify/MediaImage/59691393778002"},
+        {"id":"gid://shopify/ProductVariant/54096768827730","sku":"NOIR-CHR-003","price":"299.00","compare_at":null,"inventory":0,"media_id":"gid://shopify/MediaImage/59691393810770"},
+        {"id":"gid://shopify/ProductVariant/54096768860498","sku":"NOIR-CHR-004","price":"299.00","compare_at":null,"inventory":0,"media_id":"gid://shopify/MediaImage/59691393843538"}
+      ],
+      "total_inventory": 0,
+      "commercial_readback": "unchanged"
+    },
+    {
+      "handle": "coussins-de-presentation-lot-de-10",
+      "product_id": "gid://shopify/Product/10980388569426",
+      "status": "ACTIVE",
+      "assets": [
+        {"slot":"situation","relative_path":"scratchpad/noirmont-galeries/generated/coussins-de-presentation-lot-de-10-situation.jpg","sha256":"bfdd505fce54606cd78dbcb5a1225303d5f6c9c5f6223634aa22ba13b325a8e8","qa":"PASS","upload_candidate":true,"shopify_media_id":"gid://shopify/MediaImage/59935329583442"},
+        {"slot":"macro","relative_path":"scratchpad/noirmont-galeries/generated/coussins-de-presentation-lot-de-10-macro.jpg","sha256":"ef85a802d45cbc93dd97da242914b181224d95a719eee217f10da80771ad376f","qa":"PASS","upload_candidate":true,"shopify_media_id":"gid://shopify/MediaImage/59935328371026"}
+      ],
+      "supplier_media_deleted": ["gid://shopify/MediaImage/59691847549266","gid://shopify/MediaImage/59694409122130","gid://shopify/MediaImage/59694409154898"],
+      "featured_before": "gid://shopify/MediaImage/59691847549266",
+      "featured_after": "gid://shopify/MediaImage/59905054933330",
+      "final_media_count": 7,
+      "all_media_ready": true,
+      "variants": [
+        {"id":"gid://shopify/ProductVariant/54098040815954","sku":"NOIR-COU-001","option":"black","price":"19.90","compare_at":null,"inventory":12,"media_id":"gid://shopify/MediaImage/59905054998866"},
+        {"id":"gid://shopify/ProductVariant/54098040848722","sku":"NOIR-COU-002","option":"WHITE","price":"19.90","compare_at":null,"inventory":0,"media_id":"gid://shopify/MediaImage/59905055031634"},
+        {"id":"gid://shopify/ProductVariant/54098040881490","sku":"NOIR-COU-003","option":"Blue","price":"19.90","compare_at":null,"inventory":6,"media_id":"gid://shopify/MediaImage/59905054966098"},
+        {"id":"gid://shopify/ProductVariant/54098040914258","sku":"NOIR-COU-004","option":"Red","price":"19.90","compare_at":null,"inventory":6,"media_id":"gid://shopify/MediaImage/59905054933330"},
+        {"id":"gid://shopify/ProductVariant/54098040947026","sku":"NOIR-COU-005","option":"Brown","price":"19.90","compare_at":null,"inventory":12,"media_id":"gid://shopify/MediaImage/59905055064402"}
+      ],
+      "total_inventory": 36,
+      "commercial_readback": "unchanged"
+    },
+    {
+      "handle": "rouleau-de-voyage-noir-cuir",
+      "product_id": "gid://shopify/Product/10980083171666",
+      "status": "ACTIVE",
+      "assets": [
+        {"slot":"situation","relative_path":"scratchpad/noirmont-galeries/generated/rouleau-de-voyage-noir-cuir-situation.jpg","sha256":"a9255c6b5b6f5cd5c31a3c91608b9e10c86a4a2f407fd586f62b5d247b49c937","qa":"PASS","upload_candidate":true,"shopify_media_id":"gid://shopify/MediaImage/59935331483986"},
+        {"slot":"macro","relative_path":"scratchpad/noirmont-galeries/generated/rouleau-de-voyage-noir-cuir-macro.jpg","sha256":"8a83f26f4b7099602d6643ce413fad9034c1ce45f72cdb24380c965105987148","qa":"PASS","upload_candidate":true,"shopify_media_id":"gid://shopify/MediaImage/59935330238802"}
+      ],
+      "supplier_media_deleted": ["gid://shopify/MediaImage/59694431437138"],
+      "featured_before": "gid://shopify/MediaImage/59691418714450",
+      "featured_after": "gid://shopify/MediaImage/59691418714450",
+      "final_media_count": 5,
+      "all_media_ready": true,
+      "variants": [
+        {"id":"gid://shopify/ProductVariant/54096787210578","sku":"NOIR-ROU-008","option":"1 montre","price":"34.90","compare_at":null,"inventory":0,"media_id":"gid://shopify/MediaImage/59691418714450"},
+        {"id":"gid://shopify/ProductVariant/54096787243346","sku":"NOIR-ROU-009","option":"2 montres","price":"44.90","compare_at":null,"inventory":0,"media_id":"gid://shopify/MediaImage/59691418714450"},
+        {"id":"gid://shopify/ProductVariant/54096787276114","sku":"NOIR-ROU-010","option":"3 montres","price":"49.90","compare_at":null,"inventory":0,"media_id":"gid://shopify/MediaImage/59905226637650"}
+      ],
+      "total_inventory": 0,
+      "commercial_readback": "unchanged"
+    },
+    {
+      "handle": "trente-six-or-integral-classique-jubile",
+      "product_id": "gid://shopify/Product/10978719433042",
+      "status": "ACTIVE",
+      "assets": [
+        {"slot":"situation","relative_path":"scratchpad/noirmont-galeries/generated/trente-six-or-integral-classique-jubile-situation.jpg","sha256":"404a1da10fac89440595a52b45194df4cb49f07f00d16b0697014bb681d3a368","qa":"PASS","upload_candidate":true,"shopify_media_id":"gid://shopify/MediaImage/59935330632018"},
+        {"slot":"macro","relative_path":"scratchpad/noirmont-galeries/generated/trente-six-or-integral-classique-jubile-macro.jpg","sha256":"9ee7f954424fab33d8d69f20cc98ba5c21ddb639ccb3bc3bce1c526ae033830d","qa":"PASS","upload_candidate":true,"shopify_media_id":"gid://shopify/MediaImage/59935331025234"},
+        {"slot":"poignet","relative_path":"scratchpad/noirmont-galeries/generated/trente-six-or-integral-classique-jubile-poignet.jpg","sha256":"f8c3e7d75f97b9abdc2ff95c67d99e7e8c6236675499f1d785a7b5d94d71c1f9","qa":"PASS","upload_candidate":true,"shopify_media_id":"gid://shopify/MediaImage/59935334793554"}
+      ],
+      "supplier_media_deleted": ["gid://shopify/MediaImage/59681611055442","gid://shopify/MediaImage/59693975535954","gid://shopify/MediaImage/59693975568722","gid://shopify/MediaImage/59693975601490"],
+      "featured_before": "gid://shopify/MediaImage/59681611055442",
+      "featured_after": "gid://shopify/MediaImage/59893499003218",
+      "variant_media_id": "gid://shopify/MediaImage/59893499003218",
+      "final_media_count": 4,
+      "all_media_ready": true,
+      "variants": [
+        {"id":"gid://shopify/ProductVariant/54090414031186","sku":"NOIR-T36-013","option":"36 mm · fond acier","price":"299.00","compare_at":null,"inventory":0},
+        {"id":"gid://shopify/ProductVariant/54090414063954","sku":"NOIR-T36-014","option":"36 mm · fond verre","price":"328.00","compare_at":null,"inventory":0},
+        {"id":"gid://shopify/ProductVariant/54090414096722","sku":"NOIR-T36-015","option":"39 mm · fond acier","price":"299.00","compare_at":null,"inventory":0},
+        {"id":"gid://shopify/ProductVariant/54090414129490","sku":"NOIR-T36-016","option":"39 mm · fond verre","price":"328.00","compare_at":null,"inventory":0}
+      ],
+      "total_inventory": 0,
+      "commercial_readback": "unchanged"
+    },
+    {
+      "handle": "trente-six-rose-classique-jubile",
+      "product_id": "gid://shopify/Product/10978719236434",
+      "status": "ACTIVE",
+      "assets": [
+        {"slot":"situation","relative_path":"scratchpad/noirmont-galeries/generated/trente-six-rose-classique-jubile-situation.jpg","sha256":"a0ebd6cfefd315f1abc09dad75075ecc0a96905b5e13788d9a993c4bf0b55c5e","qa":"PASS","upload_candidate":true,"shopify_media_id":"gid://shopify/MediaImage/59935335809362"},
+        {"slot":"macro","relative_path":"scratchpad/noirmont-galeries/generated/trente-six-rose-classique-jubile-macro.jpg","sha256":"1ce03cba748bf6752d0460f0c92e8d69b7e9da40e22cb2e9abd748a9e242b152","qa":"PASS","upload_candidate":true,"shopify_media_id":"gid://shopify/MediaImage/59935335317842"},
+        {"slot":"poignet","relative_path":"scratchpad/noirmont-galeries/generated/trente-six-rose-classique-jubile-poignet.jpg","sha256":"fb70545c7b0c60021da842f6d351233c300657ff4346f015a78cdf0b9bdc897b","qa":"PASS","upload_candidate":true,"shopify_media_id":"gid://shopify/MediaImage/59935332925778"}
+      ],
+      "supplier_media_deleted": ["gid://shopify/MediaImage/59681608171858","gid://shopify/MediaImage/59693975634258","gid://shopify/MediaImage/59693975667026","gid://shopify/MediaImage/59693975699794"],
+      "featured_before": "gid://shopify/MediaImage/59681608171858",
+      "featured_after": "gid://shopify/MediaImage/59893466792274",
+      "variant_media_id": "gid://shopify/MediaImage/59893466792274",
+      "final_media_count": 4,
+      "all_media_ready": true,
+      "variants": [
+        {"id":"gid://shopify/ProductVariant/54090413637970","sku":"NOIR-T36-017","option":"36 mm · fond acier","price":"299.00","compare_at":null,"inventory":0},
+        {"id":"gid://shopify/ProductVariant/54090413670738","sku":"NOIR-T36-018","option":"36 mm · fond verre","price":"328.00","compare_at":null,"inventory":0},
+        {"id":"gid://shopify/ProductVariant/54090413703506","sku":"NOIR-T36-019","option":"39 mm · fond acier","price":"299.00","compare_at":null,"inventory":0},
+        {"id":"gid://shopify/ProductVariant/54090413736274","sku":"NOIR-T36-020","option":"39 mm · fond verre","price":"328.00","compare_at":null,"inventory":0}
+      ],
+      "total_inventory": 0,
+      "commercial_readback": "unchanged"
+    },
+    {
+      "handle": "trente-six-rouge-classique-jubile",
+      "product_id": "gid://shopify/Product/10978718744914",
+      "status": "ACTIVE",
+      "assets": [
+        {"slot":"situation","relative_path":"scratchpad/noirmont-galeries/generated/trente-six-rouge-classique-jubile-situation.jpg","sha256":"f1307c431789802c492873e89feb46d18a9af74200639a8f24a43c4e187fa85e","qa":"PASS","upload_candidate":true,"shopify_media_id":"gid://shopify/MediaImage/59935334138194"},
+        {"slot":"macro","relative_path":"scratchpad/noirmont-galeries/generated/trente-six-rouge-classique-jubile-macro.jpg","sha256":"2fff9bd5e0fe2126aed8c16b01b6fe46738d3bd5ce39a808643a9b0a66f1ea9e","qa":"PASS","upload_candidate":true,"shopify_media_id":"gid://shopify/MediaImage/59935332467026"},
+        {"slot":"poignet","relative_path":"scratchpad/noirmont-galeries/generated/trente-six-rouge-classique-jubile-poignet.jpg","sha256":"d847873b4974a712189cc274275950048984aec335c9a60dff5382bdf37e41bd","qa":"PASS","upload_candidate":true,"shopify_media_id":"gid://shopify/MediaImage/59935333646674"}
+      ],
+      "supplier_media_deleted": ["gid://shopify/MediaImage/59681604469074","gid://shopify/MediaImage/59693975732562","gid://shopify/MediaImage/59693975765330","gid://shopify/MediaImage/59693975798098"],
+      "featured_before": "gid://shopify/MediaImage/59681604469074",
+      "featured_after": "gid://shopify/MediaImage/59893448704338",
+      "variant_media_id": "gid://shopify/MediaImage/59893448704338",
+      "final_media_count": 4,
+      "all_media_ready": true,
+      "variants": [
+        {"id":"gid://shopify/ProductVariant/54090412523858","sku":"NOIR-T36-021","option":"36 mm · fond acier","price":"299.00","compare_at":null,"inventory":0},
+        {"id":"gid://shopify/ProductVariant/54090412556626","sku":"NOIR-T36-022","option":"36 mm · fond verre","price":"328.00","compare_at":null,"inventory":0},
+        {"id":"gid://shopify/ProductVariant/54090412589394","sku":"NOIR-T36-023","option":"39 mm · fond acier","price":"299.00","compare_at":null,"inventory":0},
+        {"id":"gid://shopify/ProductVariant/54090412622162","sku":"NOIR-T36-024","option":"39 mm · fond verre","price":"328.00","compare_at":null,"inventory":0}
+      ],
+      "total_inventory": 0,
+      "commercial_readback": "unchanged"
+    }
+  ],
+  "verification": {
+    "upload_file_status": "READY for 16/16",
+    "upload_dimensions": "2048x2048 for 16/16",
+    "attach_user_errors": [],
+    "association_user_errors": [],
+    "delete_user_errors": [],
+    "deleted_ids_match_requested": true,
+    "supplier_ids_absent_after_delete": true,
+    "featured_media_ready_and_local_after_delete": true,
+    "all_variant_media_exact": true,
+    "all_product_media_pages_complete": true,
+    "all_variant_pages_complete": true,
+    "all_variant_media_pages_complete": true
+  }
+}

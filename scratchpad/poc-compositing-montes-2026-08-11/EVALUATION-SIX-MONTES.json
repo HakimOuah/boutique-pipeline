@@ -1,0 +1,103 @@
+{
+  "audit_id": "codex-local-deterministic-compositing-six-mounted-20260811",
+  "scope": "Local scratchpad only. No Shopify, DSers, existing order, existing final, or master-progress mutation.",
+  "overall_verdict": "FAIL_STRICT_AS_PRODUCTION_METHOD",
+  "observations": {
+    "mounted_variants_inspected": 6,
+    "exact_raw_naked_witnesses_found": 6,
+    "pairs_are_1000x1000_rgb_jpeg_in_webp_container": true,
+    "proof_of_concept_attempted": "NH34 Dial 3 hand",
+    "proof_of_concept_verdict": "FAIL_STRICT_NON_LIVRABLE"
+  },
+  "pairs": [
+    {
+      "family": "NH34",
+      "sku": "14:200025551#Dial 1  hand",
+      "mounted_source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/Sac3d6028146d4a71a60bafc1ffb0717bX.webp",
+      "mounted_sha256": "f9bc4b7f6b3beed66f83cbc009964aa7b502143bc9784215bed5902f36666eec",
+      "naked_source_exact_dial": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/S2beb2880f30d4495877344babd6f1c15n.webp",
+      "naked_sha256": "3530c425903f1794ec540fbdd37a4d62318d10f0e48c22b8eda453aa07fa68f9",
+      "deterministic_suitability": "CONDITIONAL",
+      "reason": "Exact raw naked dial exists and photographic geometry is close, but overlapped hand pixels are absent from both inputs."
+    },
+    {
+      "family": "NH34",
+      "sku": "14:100016652#Dial 2 hand",
+      "mounted_source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/Sb8710c3725cb498291d3acdcf990e6edI.webp",
+      "mounted_sha256": "0e327d8e68ff9f4e3f2df7f747942440e97e9054c28f40de48808e40aa01f616",
+      "naked_source_exact_dial": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/Saff779d7200e432f921a9567892649fdy.webp",
+      "naked_sha256": "5c137104604e1e2309577cfb493bb7eafd5a0656f1f6f82ef39504570ee31dfa",
+      "deterministic_suitability": "CONDITIONAL",
+      "reason": "Exact raw naked dial exists and photographic geometry is close, but overlapped hand pixels are absent from both inputs."
+    },
+    {
+      "family": "NH34",
+      "sku": "14:201659835#Dial 3 hand",
+      "mounted_source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/Sf4b20fe9b3534454952eb58b10dfebb4D.webp",
+      "mounted_sha256": "c2bbc1a366047f7d831ab06a6fbf31bf5d42336dfeb6695af2f9ea9ef59f0328",
+      "naked_source_exact_dial": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-noir-33-5-nh34/S0ddfc7b68b0a4f5dba36efa7cbe34a90Z.webp",
+      "naked_sha256": "f0e1a0d735b36e72f0908f73f6339e1f1efc6d505d2e08f6a7e2724bd8064898",
+      "deterministic_suitability": "POC_ATTEMPTED_FAIL_STRICT",
+      "reason": "Best exact pair. Background reconstruction and rigid rotations work, but final QA fails angle, contact, fragmentation, registration, and occlusion gates."
+    },
+    {
+      "family": "Pilote29",
+      "sku": "14:201336230#black set 1-Lume",
+      "mounted_source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/S3a17eca59b3748f6b27e5ee11ec3d12dZ.webp",
+      "mounted_sha256": "78491d8d52a4248fb94f04265178a4a1a98027fb81ac93d39ae174bacc28104a",
+      "naked_source_exact_dial": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/S0b2003dd5d2b4e22917cd33ee0a32195e.webp",
+      "naked_sha256": "472da153cd414a9d4e71c32ade38ee043aa61403dc751554947d97de4e48e66d",
+      "deterministic_suitability": "CONDITIONAL",
+      "reason": "Exact raw naked dial exists; the date aperture and overlapping multi-piece hand stack increase registration and separation risk."
+    },
+    {
+      "family": "Pilote29",
+      "sku": "14:100016652#black set 2-Lume",
+      "mounted_source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/Sbf89477371834f4196bbbe21fb43a52as.webp",
+      "mounted_sha256": "aeb37d936d2f4f55a365d5171a66c8d73f736d67301ebfe91d8197a5b3b05447",
+      "naked_source_exact_dial": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/Sc33995d16bbd4954b29a266885d35af7F.webp",
+      "naked_sha256": "caa352964d8f767c7c728b93fba573c2017b88c953508f94cca3db6bc25d6354",
+      "deterministic_suitability": "CONDITIONAL",
+      "reason": "Exact raw naked dial exists; the date aperture and overlapping multi-piece hand stack increase registration and separation risk."
+    },
+    {
+      "family": "Pilote29",
+      "sku": "14:29#white set-No lume",
+      "mounted_source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/Sf5fa27b7a9be42cdbec50ad9e1009f1eF.webp",
+      "mounted_sha256": "a1e8fce98672fff00193d6a9c3f761ff6b9cb2d54d2c9096740f06e467876e91",
+      "naked_source_exact_dial": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/S1e1234be302d4542b8e2de73036b199fs.webp",
+      "naked_sha256": "73288dab05649a259d27bbd6ce4c3a86872b066455e4de73aa2b34b226cd3f96",
+      "deterministic_suitability": "CONDITIONAL",
+      "reason": "Exact raw naked dial exists, but black-on-white hand isolation still cannot reconstruct pixels hidden at the central stack."
+    }
+  ],
+  "poc_evidence": {
+    "script": "scratchpad/poc-compositing-montes-2026-08-11/poc_dial3.py",
+    "report": "scratchpad/poc-compositing-montes-2026-08-11/dial3-07-rapport-poc.json",
+    "qa_board": "scratchpad/poc-compositing-montes-2026-08-11/dial3-06-planche-qa.jpg",
+    "composite": "scratchpad/poc-compositing-montes-2026-08-11/dial3-05-poc-composite.png",
+    "measured_angles_clockwise_from_12": {
+      "hour": 316.651,
+      "minute": 72.186,
+      "second": 196.042
+    },
+    "absolute_target_errors_degrees": {
+      "hour": 1.651,
+      "minute": 2.814,
+      "second": 1.042
+    },
+    "bright_witness_overlap_pixels_excluding_center": {
+      "hour": 0,
+      "minute": 0,
+      "second": 79
+    },
+    "outer_annulus_mean_absolute_difference_after_registration": 61.784,
+    "inputs_unchanged": true
+  },
+  "blocking_conclusion": [
+    "A naked witness solves background restoration, not the missing pixels of hands hidden under other hands.",
+    "Raw difference is too sensitive to separate-photo perspective, exposure, and JPEG variation; it creates ghosts.",
+    "Conservative masks remove most ghosts but fragment thin pieces and can exceed the angle/contact tolerances.",
+    "A strict PASS would require an exact standalone source for every hand or a separately photographed layered stack; inferred reconstruction would no longer be exact source-only compositing."
+  ]
+}

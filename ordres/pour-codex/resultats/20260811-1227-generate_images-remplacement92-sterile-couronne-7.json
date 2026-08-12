@@ -1,0 +1,120 @@
+{
+  "id": "codex-20260811-1227-remplacement92-sterile-couronne-7",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-sterile-couronne-3h-28-5",
+        "sku": "14:201447598#A1",
+        "slot": "variante",
+        "fichier": "cadran-sterile-couronne-3h-28-5-v-a1.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-sterile-couronne-3h-28-5",
+        "sku": "14:201447303#A2",
+        "slot": "variante",
+        "fichier": "cadran-sterile-couronne-3h-28-5-v-a2.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 4
+      },
+      {
+        "handle": "cadran-sterile-couronne-3h-28-5",
+        "sku": "14:200005100#A3",
+        "slot": "variante",
+        "fichier": "cadran-sterile-couronne-3h-28-5-v-a3.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 4
+      },
+      {
+        "handle": "cadran-sterile-couronne-3h-28-5",
+        "sku": "14:200000080#A4",
+        "slot": "variante",
+        "fichier": "cadran-sterile-couronne-3h-28-5-v-a4.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "cadran-sterile-couronne-3h-28-5",
+        "sku": "14:100013777#A5",
+        "slot": "variante",
+        "fichier": "cadran-sterile-couronne-3h-28-5-v-a5.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-sterile-couronne-3h-28-5",
+        "sku": "14:100005979#A6",
+        "slot": "variante",
+        "fichier": "cadran-sterile-couronne-3h-28-5-v-a6.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "cadran-sterile-couronne-3h-28-5",
+        "sku": "14:350686#A7",
+        "slot": "variante",
+        "fichier": "cadran-sterile-couronne-3h-28-5-v-a7.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/a2-v1-echelle-88pct.jpg",
+        "motif": "Cadrage trop serre, echelle approximative 88 %, homogeneite du lot non conforme."
+      },
+      {
+        "fichier": "rejected/a2-v2-echelle-88pct.jpg",
+        "motif": "Premiere regeneration encore trop serree, echelle approximative 88 %."
+      },
+      {
+        "fichier": "rejected/a2-v3-echelle-72pct.jpg",
+        "motif": "Deuxieme regeneration trop eloignee, echelle approximative 72 %."
+      },
+      {
+        "fichier": "rejected/a2-v5-echelle-90pct.jpg",
+        "motif": "Quatrieme regeneration trop serree, echelle approximative 90 %."
+      },
+      {
+        "fichier": "rejected/a3-v1-echelle-76pct.jpg",
+        "motif": "Cadrage trop eloigne par rapport au lot, echelle approximative 76 %."
+      },
+      {
+        "fichier": "rejected/a3-v2-echelle-88pct.jpg",
+        "motif": "Premiere regeneration trop serree, echelle approximative 88 %."
+      },
+      {
+        "fichier": "rejected/a3-v3-echelle-70pct.jpg",
+        "motif": "Deuxieme regeneration trop eloignee, echelle approximative 70 %."
+      },
+      {
+        "fichier": "rejected/a3-v4-echelle-76pct.jpg",
+        "motif": "Troisieme regeneration trop eloignee avant normalisation de cadrage."
+      },
+      {
+        "fichier": "rejected/a3-v5-trace-courbe-parasite-texture.jpg",
+        "motif": "Trace courbe parasite visible dans la texture a droite du trou central."
+      },
+      {
+        "fichier": "rejected/a4-v1-echelle-91pct.jpg",
+        "motif": "Cadrage trop serre, echelle approximative 91 %, homogeneite du lot non conforme."
+      },
+      {
+        "fichier": "rejected/a6-v1-echelle-90pct.jpg",
+        "motif": "Cadrage trop serre, echelle approximative 90 %, homogeneite du lot non conforme."
+      },
+      {
+        "fichier": "rejected/a7-v1-echelle-90pct.jpg",
+        "motif": "Cadrage trop serre, echelle approximative 90 %, homogeneite du lot non conforme."
+      }
+    ],
+    "sujets_difficiles": [
+      "cadran-sterile-couronne-3h-28-5 | 14:201447303#A2 | homogeneite d'echelle, 4 regenerations",
+      "cadran-sterile-couronne-3h-28-5 | 14:200005100#A3 | homogeneite d'echelle et trace parasite, 4 regenerations"
+    ]
+  },
+  "executed_at": "2026-08-11T14:26:58Z",
+  "executor": "codex-2026-08-11"
+}

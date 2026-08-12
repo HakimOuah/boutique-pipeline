@@ -1,0 +1,127 @@
+{
+  "schema": "maison-noirmont.rattrapage-80-20.v1",
+  "generated_at": "2026-08-12T02:36:58+02:00",
+  "result": "PASS",
+  "summary": {
+    "products_reserved": 2,
+    "products_released_without_mutation": 1,
+    "products_completed": 1,
+    "products_draft": 1,
+    "imagegen_attempts": 1,
+    "imagegen_pass": 1,
+    "imagegen_rejected": 0,
+    "existing_local_pass_assets_reused": 2,
+    "assets_uploaded": 3,
+    "variant_associations_replaced": 3,
+    "variant_associations_verified": 6,
+    "supplier_media_deleted": 3,
+    "supplier_media_remaining": 0,
+    "final_media_ready": 9,
+    "commercial_fields_preserved": true,
+    "activation_performed": false
+  },
+  "released": [
+    {
+      "handle": "bracelet-jubile-acier-20mm",
+      "reason": "root avait déjà associé la variante au featured Maison et confirmé zéro fournisseur",
+      "mutations_by_this_agent": 0
+    }
+  ],
+  "product": {
+    "handle": "cadran-pilote-noir-33-5-nh34",
+    "product_id": "gid://shopify/Product/11013081465170",
+    "title": "Cadran noir 33,5 mm à chiffres 1-12 — pour NH34, NH35 et NH36",
+    "status_before": "DRAFT",
+    "status_after": "DRAFT",
+    "featured_before": "gid://shopify/MediaImage/59904315195730",
+    "featured_after": "gid://shopify/MediaImage/59904315195730",
+    "total_inventory_before": 409,
+    "total_inventory_after": 409,
+    "variant_count": 6,
+    "media_before": 9,
+    "media_after": 9,
+    "assets": [
+      {
+        "appearance": "Dial 1 hand",
+        "origin": "local_pass_existing",
+        "relative_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/cadran-pilote-noir-33-5-nh34-v-dial-1-hand.jpg",
+        "sha256": "024cfd42e35f83a42f1230facbd1c91390d0ada78d773e08b3bfbbfc15192243",
+        "shopify_media_id": "gid://shopify/MediaImage/59935484182866",
+        "variant_id": "gid://shopify/ProductVariant/54213328568658",
+        "replaced_supplier_media_id": "gid://shopify/MediaImage/59894150332754"
+      },
+      {
+        "appearance": "Dial 2 hand",
+        "origin": "local_pass_existing",
+        "relative_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/cadran-pilote-noir-33-5-nh34-v-dial-2-hand.jpg",
+        "sha256": "6fa57ded68b3993cd8801254dd2ede4c7b51d3cde86ce620459172523a95b5c7",
+        "shopify_media_id": "gid://shopify/MediaImage/59935483724114",
+        "variant_id": "gid://shopify/ProductVariant/54213328601426",
+        "replaced_supplier_media_id": "gid://shopify/MediaImage/59894150365522"
+      },
+      {
+        "appearance": "Dial 3 hand",
+        "origin": "imagegen_single_attempt_pass",
+        "relative_path": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/cadran-pilote-noir-33-5-nh34-v-dial-3-hand.jpg",
+        "sha256": "e7a263b34c189dc5c6e058ca88b3a8586d1417ad02faa71e746908bad26a943b",
+        "shopify_media_id": "gid://shopify/MediaImage/59935484805458",
+        "variant_id": "gid://shopify/ProductVariant/54213328634194",
+        "replaced_supplier_media_id": "gid://shopify/MediaImage/59894150398290",
+        "qa_manifest": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh34/manifeste-rattrapage-80-20-dial3-hand.json"
+      }
+    ],
+    "qa_80_20": {
+      "truth_product": "PASS",
+      "color": "PASS",
+      "count": "PASS",
+      "brand": "PASS",
+      "all_outputs_ready_2048x2048": true
+    },
+    "commercial_snapshot": {
+      "prices_eur": [
+        "10.80",
+        "10.80",
+        "13.94",
+        "13.69",
+        "13.72",
+        "10.93"
+      ],
+      "compare_at_prices_eur": [
+        "10.80",
+        "10.80",
+        "13.94",
+        "13.69",
+        "13.72",
+        "10.93"
+      ],
+      "inventories": [
+        5,
+        118,
+        85,
+        106,
+        89,
+        6
+      ],
+      "sku_count": 6,
+      "option_names": [
+        "Color",
+        "Ships From"
+      ],
+      "pre_equals_post": true,
+      "commercial_mutations_performed": 0
+    }
+  },
+  "verification": {
+    "upload_status": "READY 3/3",
+    "attachment_user_errors": [],
+    "detach_user_errors": [],
+    "append_user_errors": [],
+    "delete_user_errors": [],
+    "deleted_ids_match_requested": true,
+    "supplier_ids_absent_final": true,
+    "all_six_variants_have_exact_maison_media": true,
+    "product_media_page_complete": true,
+    "variant_page_complete": true,
+    "variant_media_pages_complete": true
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-12T01:04:00Z",
+  "task": "live_truth_cleanup_and_complete_missing_appearance_association",
+  "result": "PASS",
+  "product": {
+    "id": "gid://shopify/Product/10988849267026",
+    "handle": "montre-field-bronze-cadran-chiffres-1-12",
+    "title": "Éclaireur Bronze — Field militaire à chiffres 1-12",
+    "status_before": "ACTIVE",
+    "status_after": "ACTIVE"
+  },
+  "classification_correction": {
+    "audit_stale_supplier_media_count": 4,
+    "raw_aliexpress_media_live_count": 0,
+    "historical_maison_media_count": 4,
+    "evidence": {
+      "production_log": "boutique-seiko-mod/sourcing-arabes-squelettes.md",
+      "production_log_claim": "five faces plus fifteen gallery views generated in-house on 2026-07-29; supplier purge 80 of 80 before activation",
+      "local_folder": "boutique-seiko-mod/visuels-arabes-squelettes-2026-07-29",
+      "live_to_local_ssim": {
+        "face": 0.990891,
+        "situation": 0.994819,
+        "macro": 0.988470,
+        "poignet": 0.992531
+      },
+      "conclusion": "the four media were Maison Noirmont renders and were preserved; no supplier reference removal was needed"
+    }
+  },
+  "appearance_completion": {
+    "appearance": "Noir · chiffres crème · date",
+    "sku_fragment": "14:201447303#black C-sterile",
+    "source_provider": "AliExpress official API evidence cached locally",
+    "source_item_id": "1005009879577159",
+    "source_file": "boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/field-bronze-10-14-201447303-black-c-sterile.jpg",
+    "maison_file": "boutique-seiko-mod/visuels-codex-2026-08/montre-field-bronze-cadran-chiffres-1-12/montre-field-bronze-cadran-chiffres-1-12-v-black-c-sterile.jpg",
+    "qa_board": "boutique-seiko-mod/efficacite-extreme-2026-08-12/active-field-bronze-cleanup/qa-source-maison-black-c.jpg",
+    "qa": {
+      "decision": "PASS",
+      "dial_black_textured": true,
+      "numerals_1_12_cream_exact": true,
+      "inner_13_24_track_exact": true,
+      "minute_track_exact": true,
+      "date_at_4_30_exact": true,
+      "red_seconds_hand_exact": true,
+      "bronze_case_exact": true,
+      "brown_leather_strap_exact": true,
+      "brand_or_text_absent": true
+    },
+    "normalized": {
+      "width": 2048,
+      "height": 2048,
+      "profile": "sRGB IEC61966-2.1",
+      "bytes": 627808
+    },
+    "generation_attempts_this_run": 0,
+    "generation_retries_this_run": 0,
+    "uploaded_media_id": "gid://shopify/MediaImage/59935595626834",
+    "uploaded_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/montre-field-bronze-cadran-chiffres-1-12-v-black-c-sterile-maison-noirmont.jpg?v=1786496551",
+    "variant_replacements": [
+      {
+        "variant_id": "gid://shopify/ProductVariant/54130354553170",
+        "sku": "NOIR-FLD-080",
+        "price": "328.00",
+        "inventoryQuantity": 229,
+        "old_generic_media_id": "gid://shopify/MediaImage/59740542861650",
+        "new_exact_media_id": "gid://shopify/MediaImage/59935595626834"
+      },
+      {
+        "variant_id": "gid://shopify/ProductVariant/54130354651474",
+        "sku": "NOIR-FLD-081",
+        "price": "357.00",
+        "inventoryQuantity": 228,
+        "old_generic_media_id": "gid://shopify/MediaImage/59740542861650",
+        "new_exact_media_id": "gid://shopify/MediaImage/59935595626834"
+      }
+    ]
+  },
+  "final_appearance_media": {
+    "Bleu": "gid://shopify/MediaImage/59904867696978",
+    "Noir · chiffres blancs · date": "gid://shopify/MediaImage/59904867729746",
+    "Noir · chiffres blancs": "gid://shopify/MediaImage/59904867762514",
+    "Argenté": "gid://shopify/MediaImage/59904867795282",
+    "Vert olive": "gid://shopify/MediaImage/59740542861650",
+    "Noir · chiffres jaunes": "gid://shopify/MediaImage/59904867828050",
+    "Vert sapin": "gid://shopify/MediaImage/59904867860818",
+    "Noir · chiffres crème · date": "gid://shopify/MediaImage/59935595626834",
+    "Blanc · chiffres rouges": "gid://shopify/MediaImage/59904867893586"
+  },
+  "readback": {
+    "status": "ACTIVE",
+    "featured_media_id": "gid://shopify/MediaImage/59740542861650",
+    "media_count": 13,
+    "all_media_ready": true,
+    "raw_aliexpress_media_remaining": 0,
+    "appearance_count": 9,
+    "variant_count": 18,
+    "variants_with_exactly_one_correct_appearance_media": 18,
+    "missing_appearance_associations": 0,
+    "wrong_appearance_associations": 0,
+    "media_pagination_complete": true,
+    "variant_pagination_complete": true,
+    "commercial_fields_mutated": false
+  },
+  "counters": {
+    "products_completed": 1,
+    "appearances_total": 9,
+    "appearances_completed_before_truth_correction": 7,
+    "historical_maison_appearance_reclassified": 1,
+    "appearance_associations_added": 1,
+    "generation_attempts": 0,
+    "generation_retries": 0,
+    "uploads_ready": 1,
+    "variant_old_generic_associations_detached": 2,
+    "variant_new_exact_associations_added": 2,
+    "exact_variant_associations_final": 18,
+    "historical_maison_media_preserved": 4,
+    "supplier_references_removed": 0,
+    "raw_aliexpress_media_remaining": 0,
+    "graphql_user_errors": 0,
+    "errors": 0
+  },
+  "preservation": {
+    "status_preserved": true,
+    "publication_or_activation_performed": false,
+    "preserved_fields": ["status", "price", "sku", "options", "inventoryQuantity"]
+  },
+  "rollback": {
+    "product_id": "gid://shopify/Product/10988849267026",
+    "detach_new_media_from_variants": [
+      "gid://shopify/ProductVariant/54130354553170",
+      "gid://shopify/ProductVariant/54130354651474"
+    ],
+    "reattach_generic_media_id": "gid://shopify/MediaImage/59740542861650",
+    "remove_new_product_reference_media_id": "gid://shopify/MediaImage/59935595626834"
+  }
+}

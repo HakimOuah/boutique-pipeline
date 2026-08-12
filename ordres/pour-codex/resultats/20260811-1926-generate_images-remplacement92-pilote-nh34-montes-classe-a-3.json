@@ -1,0 +1,80 @@
+{
+  "id": "codex-20260811-1926-remplacement92-pilote-nh34-montes-classe-a-3",
+  "status": "failed",
+  "payload": {
+    "manifeste_realise": [],
+    "rejets": [
+      {
+        "fichier": "rejected/dial-1-hand-rejet-externe-classe-a-20260811-1926.jpg",
+        "motif": "Sauvegarde octet pour octet du mauvais final Dial 1 existant avant génération ; SHA-256 conforme à l'ordre. Ce fichier reste rejeté et n'est pas un livrable produit."
+      },
+      {
+        "fichier": "rejected/dial-2-hand-rejet-externe-classe-a-20260811-1926.jpg",
+        "motif": "Sauvegarde octet pour octet du mauvais final Dial 2 existant avant génération ; SHA-256 conforme à l'ordre. Ce fichier reste rejeté et n'est pas un livrable produit."
+      },
+      {
+        "fichier": "rejected/dial-3-hand-rejet-externe-classe-a-20260811-1926.png",
+        "motif": "Sauvegarde octet pour octet du dernier mauvais candidat Dial 3 avant génération ; SHA-256 conforme à l'ordre. Ce fichier reste rejeté et n'est pas un livrable produit."
+      },
+      {
+        "fichier": "rejected/dial-1-hand-g1-trotteuse-225-et-double-goutte.png",
+        "motif": "Dial 1 g1 : trotteuse vers environ 225 degrés au lieu de 195 degrés et seconde forme en goutte sur le côté long."
+      },
+      {
+        "fichier": "rejected/dial-1-hand-g2-minute-75-au-lieu-105.png",
+        "motif": "Dial 1 g2 : aiguille des minutes vers environ 75 degrés au lieu de 105 degrés ; pose hors tolérance."
+      },
+      {
+        "fichier": "rejected/dial-1-hand-g3-trotteuse-215-sur-19-7.png",
+        "motif": "Dial 1 g3 : trotteuse vers environ 215 degrés, traversant la zone 19/7 ; contrepoids hors axe."
+      },
+      {
+        "fichier": "rejected/dial-1-hand-g4-heure-321-hors-tolerance.png",
+        "motif": "Dial 1 g4 : aiguille des heures vers environ 321 degrés au lieu de 315 degrés, hors tolérance maximale de 2 degrés."
+      },
+      {
+        "fichier": "rejected/dial-1-hand-g5-trotteuse-sur-18-6-contrepoids-12.png",
+        "motif": "Dial 1 g5 : trotteuse presque verticale sur 18/6 et contrepoids à 12 heures au lieu des axes 195/15 degrés."
+      },
+      {
+        "fichier": "rejected/dial-2-hand-g1-minute-111-trotteuse-199.png",
+        "motif": "Dial 2 g1 : minute vers environ 111 degrés et trotteuse vers environ 199 degrés ; deux axes hors tolérance."
+      },
+      {
+        "fichier": "rejected/dial-2-hand-g2-minute-sur-3.png",
+        "motif": "Dial 2 g2 : minute proche de 3 heures au lieu de la bissectrice 105 degrés ; dégagement insuffisant."
+      },
+      {
+        "fichier": "rejected/dial-2-hand-g3-heure-318-hors-tolerance.png",
+        "motif": "Dial 2 g3 : heure vers environ 318 degrés au lieu de 315 degrés ; axe hors tolérance."
+      },
+      {
+        "fichier": "rejected/dial-2-hand-g4-minute-masque-4-16.png",
+        "motif": "Dial 2 g4 : aiguille des minutes touche ou masque la zone 4/16 ; contrôle de dégagement bloquant non conforme."
+      },
+      {
+        "fichier": "rejected/dial-3-hand-g1-trotteuse-sur-6.png",
+        "motif": "Dial 3 g1 : trotteuse sur la zone du 6 et du rectangle au lieu du secteur libre à 195 degrés."
+      },
+      {
+        "fichier": "rejected/dial-3-hand-g2-axes-hors-tolerance.png",
+        "motif": "Dial 3 g2 : axes minute et trotteuse non démontrables dans la tolérance de 2 degrés ; candidat ambigu donc rejeté."
+      },
+      {
+        "fichier": "rejected/dial-3-hand-g3-structure-et-trotteuse-non-conformes.png",
+        "motif": "Dial 3 g3 : chiffre 1 manquant, géométrie irrégulière altérée et trotteuse sur 6 ; fidélité structurelle non conforme."
+      },
+      {
+        "fichier": "rejected/dial-3-hand-g4-structure-regularisee-trotteuse-sur-6.png",
+        "motif": "Dial 3 g4 : rectangles régularisés vers les cardinaux, structure source altérée et trotteuse traversant 6 ; non livrable."
+      }
+    ],
+    "sujets_difficiles": [
+      "cadran-pilote-noir-33-5-nh34 | 14:200025551#Dial 1  hand | variante | 5 générations totales ; aucune conforme simultanément aux axes 315/105/195 degrés, aux dégagements et à la géométrie exacte des aiguilles",
+      "cadran-pilote-noir-33-5-nh34 | 14:100016652#Dial 2 hand | variante | 4 générations totales ; aucune conforme simultanément aux axes 315/105/195 degrés et au dégagement de tous les repères",
+      "cadran-pilote-noir-33-5-nh34 | 14:201659835#Dial 3 hand | variante | 4 générations totales ; aucune conforme simultanément aux axes 315/75/195 degrés et à la structure irrégulière exacte du cadran"
+    ]
+  },
+  "executed_at": "2026-08-11T18:38:09Z",
+  "executor": "codex-2026-08-11"
+}

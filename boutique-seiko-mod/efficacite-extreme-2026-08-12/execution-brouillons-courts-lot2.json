@@ -1,0 +1,252 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-11T23:34:27Z",
+  "scope": "Maison Noirmont — lot DRAFT court exclusif 2",
+  "policy": {
+    "shopify_access": "Shopify MCP",
+    "supplier_access": "AliExpress Open Platform / AE-Dropshipper via official whitelisted VPS gateway and exact local source files",
+    "generation_policy": "one imagegen attempt per true visual appearance; no retry used",
+    "qa_policy": "80/20 blocking QA: exact appearance class, correct finish/color, no supplier branding or text, clean Maison Noirmont presentation",
+    "supplier_media_policy": "all supplier/AliExpress product media removed only after new media READY and exact variant association readback",
+    "commercial_mutation_scope": "media only; product status, prices, SKUs, options and inventory were not submitted in mutation payloads"
+  },
+  "summary": {
+    "products_completed": 4,
+    "appearances_generated": 7,
+    "generation_retries": 0,
+    "variants_associated": 30,
+    "new_maison_media_ready": 7,
+    "supplier_media_removed": 28,
+    "supplier_media_remaining": 0,
+    "products_still_draft": 4,
+    "exact_association_readback": true,
+    "commercial_readback_preserved": true
+  },
+  "products": [
+    {
+      "product_gid": "gid://shopify/Product/11013069144402",
+      "handle": "aiguilles-baton-argent-nh35",
+      "status_before": "DRAFT",
+      "status_after": "DRAFT",
+      "aliexpress_item_id": "1005007884473587",
+      "supplier_source": {
+        "gold": "https://ae01.alicdn.com/kf/S82ed884030ed4a5c931d81e2fcbeb36e2.jpg",
+        "rose": "https://ae01.alicdn.com/kf/S9ecdf1bb4da04130bd47e34326719374v.jpg",
+        "silver": "https://ae01.alicdn.com/kf/S55dcc2ae86134d60a719254392748d7eg.jpg"
+      },
+      "generations": [
+        {
+          "appearance": "gold",
+          "attempts": 1,
+          "qa": "pass",
+          "local_jpeg": "boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot2/aiguilles-baton-argent-nh35/generated/aiguilles-baton-argent-nh35-v-gold.jpg",
+          "shopify_file_gid": "gid://shopify/MediaImage/59935134908754",
+          "product_media_gid": "gid://shopify/MediaImage/59935138414930",
+          "variant_gids": ["gid://shopify/ProductVariant/54213261492562"]
+        },
+        {
+          "appearance": "rose",
+          "attempts": 1,
+          "qa": "pass",
+          "local_jpeg": "boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot2/aiguilles-baton-argent-nh35/generated/aiguilles-baton-argent-nh35-v-rose.jpg",
+          "shopify_file_gid": "gid://shopify/MediaImage/59935135236434",
+          "product_media_gid": "gid://shopify/MediaImage/59935138447698",
+          "variant_gids": ["gid://shopify/ProductVariant/54213261525330"]
+        },
+        {
+          "appearance": "silver",
+          "attempts": 1,
+          "qa": "pass",
+          "local_jpeg": "boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot2/aiguilles-baton-argent-nh35/generated/aiguilles-baton-argent-nh35-v-silver.jpg",
+          "shopify_file_gid": "gid://shopify/MediaImage/59935135465810",
+          "product_media_gid": "gid://shopify/MediaImage/59935138480466",
+          "variant_gids": ["gid://shopify/ProductVariant/54213261558098"]
+        }
+      ],
+      "supplier_media_removed": [
+        "gid://shopify/MediaImage/59894072934738",
+        "gid://shopify/MediaImage/59894072967506",
+        "gid://shopify/MediaImage/59894073000274",
+        "gid://shopify/MediaImage/59894073033042",
+        "gid://shopify/MediaImage/59894073065810",
+        "gid://shopify/MediaImage/59894073098578",
+        "gid://shopify/MediaImage/59894073131346",
+        "gid://shopify/MediaImage/59894073164114",
+        "gid://shopify/MediaImage/59894073196882"
+      ],
+      "featured_before": "gid://shopify/MediaImage/59894072934738",
+      "featured_after": "gid://shopify/MediaImage/59935138414930",
+      "final_media_count": 3,
+      "final_variant_count": 3,
+      "final_total_inventory": 30,
+      "readback": {
+        "all_media_ready": true,
+        "all_variant_associations_exact": true,
+        "supplier_media_remaining": 0,
+        "prices_skus_options_inventory_preserved": true
+      }
+    },
+    {
+      "product_gid": "gid://shopify/Product/11013059674450",
+      "handle": "aiguilles-c3-super-lume-62",
+      "status_before": "DRAFT",
+      "status_after": "DRAFT",
+      "aliexpress_item_id": "1005010529978866",
+      "supplier_source": {
+        "gray": "https://ae01.alicdn.com/kf/S19d01d4fb47f43ac86cc5113f3160302z.jpg",
+        "silver": "https://ae01.alicdn.com/kf/Sa1ca43512a3a4d24b34937e843641decJ.jpg"
+      },
+      "generations": [
+        {
+          "appearance": "gray",
+          "attempts": 1,
+          "qa": "pass",
+          "local_jpeg": "boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot2/aiguilles-c3-super-lume-62/generated/aiguilles-c3-super-lume-62-v-gray.jpg",
+          "shopify_file_gid": "gid://shopify/MediaImage/59935135859026",
+          "product_media_gid": "gid://shopify/MediaImage/59935138349394",
+          "variant_gids": [
+            "gid://shopify/ProductVariant/54213229969746",
+            "gid://shopify/ProductVariant/54213230068050"
+          ]
+        },
+        {
+          "appearance": "silver",
+          "attempts": 1,
+          "qa": "pass",
+          "local_jpeg": "boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot2/aiguilles-c3-super-lume-62/generated/aiguilles-c3-super-lume-62-v-silver.jpg",
+          "shopify_file_gid": "gid://shopify/MediaImage/59935136317778",
+          "product_media_gid": "gid://shopify/MediaImage/59935138382162",
+          "variant_gids": [
+            "gid://shopify/ProductVariant/54213230002514",
+            "gid://shopify/ProductVariant/54213230035282"
+          ]
+        }
+      ],
+      "supplier_media_removed": [
+        "gid://shopify/MediaImage/59894000386386",
+        "gid://shopify/MediaImage/59894000419154",
+        "gid://shopify/MediaImage/59894000451922",
+        "gid://shopify/MediaImage/59894000484690",
+        "gid://shopify/MediaImage/59894000517458",
+        "gid://shopify/MediaImage/59894000550226",
+        "gid://shopify/MediaImage/59894000582994"
+      ],
+      "featured_before": "gid://shopify/MediaImage/59894000386386",
+      "featured_after": "gid://shopify/MediaImage/59935138349394",
+      "final_media_count": 2,
+      "final_variant_count": 4,
+      "final_total_inventory": 610,
+      "readback": {
+        "all_media_ready": true,
+        "all_variant_associations_exact": true,
+        "supplier_media_remaining": 0,
+        "prices_skus_options_inventory_preserved": true
+      }
+    },
+    {
+      "product_gid": "gid://shopify/Product/11013059543378",
+      "handle": "boitier-octogonal-42-fond-saphir",
+      "status_before": "DRAFT",
+      "status_after": "DRAFT",
+      "aliexpress_item_id": "1005008639164026",
+      "supplier_source": {
+        "local_exact_source": "boutique-seiko-mod/sources-fournisseur-2026-08/boitier-octogonal-42-fond-saphir/face-fournisseur-1005008639164026.jpg"
+      },
+      "generations": [
+        {
+          "appearance": "steel-octagonal-case",
+          "attempts": 1,
+          "qa": "pass",
+          "local_jpeg": "boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot2/boitier-octogonal-42-fond-saphir/generated/boitier-octogonal-42-fond-saphir.jpg",
+          "shopify_file_gid": "gid://shopify/MediaImage/59935136645458",
+          "product_media_gid": "gid://shopify/MediaImage/59935138709842",
+          "variant_gids": ["gid://shopify/ProductVariant/54213212275026"]
+        }
+      ],
+      "supplier_media_removed": [
+        "gid://shopify/MediaImage/59893987213650",
+        "gid://shopify/MediaImage/59893987246418",
+        "gid://shopify/MediaImage/59893987279186",
+        "gid://shopify/MediaImage/59893987311954",
+        "gid://shopify/MediaImage/59893987344722"
+      ],
+      "featured_before": "gid://shopify/MediaImage/59893987213650",
+      "featured_after": "gid://shopify/MediaImage/59935138709842",
+      "final_media_count": 1,
+      "final_variant_count": 1,
+      "final_total_inventory": 3,
+      "readback": {
+        "all_media_ready": true,
+        "all_variant_associations_exact": true,
+        "supplier_media_remaining": 0,
+        "prices_skus_options_inventory_preserved": true
+      }
+    },
+    {
+      "product_gid": "gid://shopify/Product/11013057315154",
+      "handle": "verre-saphir-dome-ar-bleu",
+      "status_before": "DRAFT",
+      "status_after": "DRAFT",
+      "aliexpress_item_id": "1005010361616521",
+      "supplier_source": {
+        "property_image": "https://ae01.alicdn.com/kf/Sfd5f5c0d7f1642c580d5953f65130bdfv.jpg",
+        "local_exact_source": "boutique-seiko-mod/sources-fournisseur-2026-08/verre-saphir-dome-ar-bleu/face-fournisseur-1005010361616521.jpg",
+        "appearance_note": "all 22 diameter variants return the same official AliExpress property image"
+      },
+      "generations": [
+        {
+          "appearance": "double-dome-blue-ar",
+          "attempts": 1,
+          "qa": "pass",
+          "local_jpeg": "boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot2/verre-saphir-dome-ar-bleu/generated/verre-saphir-dome-ar-bleu.jpg",
+          "shopify_file_gid": "gid://shopify/MediaImage/59935137071442",
+          "product_media_gid": "gid://shopify/MediaImage/59935138775378",
+          "variant_gids": [
+            "gid://shopify/ProductVariant/54213192745298",
+            "gid://shopify/ProductVariant/54213192778066",
+            "gid://shopify/ProductVariant/54213192810834",
+            "gid://shopify/ProductVariant/54213192843602",
+            "gid://shopify/ProductVariant/54213192876370",
+            "gid://shopify/ProductVariant/54213192909138",
+            "gid://shopify/ProductVariant/54213192941906",
+            "gid://shopify/ProductVariant/54213192974674",
+            "gid://shopify/ProductVariant/54213193007442",
+            "gid://shopify/ProductVariant/54213193040210",
+            "gid://shopify/ProductVariant/54213193072978",
+            "gid://shopify/ProductVariant/54213193105746",
+            "gid://shopify/ProductVariant/54213193138514",
+            "gid://shopify/ProductVariant/54213193171282",
+            "gid://shopify/ProductVariant/54213193204050",
+            "gid://shopify/ProductVariant/54213193236818",
+            "gid://shopify/ProductVariant/54213193269586",
+            "gid://shopify/ProductVariant/54213193302354",
+            "gid://shopify/ProductVariant/54213193335122",
+            "gid://shopify/ProductVariant/54213193367890",
+            "gid://shopify/ProductVariant/54213193400658",
+            "gid://shopify/ProductVariant/54213193433426"
+          ]
+        }
+      ],
+      "supplier_media_removed": [
+        "gid://shopify/MediaImage/59893958607186",
+        "gid://shopify/MediaImage/59893958639954",
+        "gid://shopify/MediaImage/59893958672722",
+        "gid://shopify/MediaImage/59893958705490",
+        "gid://shopify/MediaImage/59893958738258",
+        "gid://shopify/MediaImage/59893958771026",
+        "gid://shopify/MediaImage/59893958803794"
+      ],
+      "featured_before": "gid://shopify/MediaImage/59893958607186",
+      "featured_after": "gid://shopify/MediaImage/59935138775378",
+      "final_media_count": 1,
+      "final_variant_count": 22,
+      "final_total_inventory": 10167,
+      "readback": {
+        "all_media_ready": true,
+        "all_variant_associations_exact": true,
+        "supplier_media_remaining": 0,
+        "prices_skus_options_inventory_preserved": true
+      }
+    }
+  ]
+}

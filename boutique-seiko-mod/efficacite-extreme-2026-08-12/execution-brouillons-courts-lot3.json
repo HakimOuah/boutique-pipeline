@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-11T23:52:14Z",
+  "scope": "Maison Noirmont — lot DRAFT court exclusif 3",
+  "source_policy": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS; exact local source only when the API variant has no property image",
+  "generation_policy": {
+    "attempts_per_appearance": 1,
+    "retries": 0,
+    "qa": "80/20 blocking: product truth, finish/color, component count, no supplier logo, watermark or promotional text",
+    "delivery_format": "JPEG 2048x2048 sRGB under 1.2 MB"
+  },
+  "shopify_policy": {
+    "access": "Shopify MCP",
+    "remove_supplier_media_after_ready_and_association_readback_only": true,
+    "mutation_scope": "media only",
+    "preserve": ["DRAFT", "price", "SKU", "options", "inventory"]
+  },
+  "summary": {
+    "products_completed": 4,
+    "appearances_generated": 13,
+    "generation_retries": 0,
+    "variants_associated": 17,
+    "new_maison_media_ready": 13,
+    "supplier_media_removed": 35,
+    "supplier_media_remaining": 0,
+    "products_still_draft": 4,
+    "featured_maison_exact": true,
+    "variant_association_readback_exact": true,
+    "commercial_readback_exact": true
+  },
+  "products": [
+    {
+      "product_gid": "gid://shopify/Product/11013057511762",
+      "handle": "mouvement-nh35-date-blanche",
+      "aliexpress_item_id": "1005008494235697",
+      "source_status": "onSelling",
+      "status_before": "DRAFT",
+      "status_after": "DRAFT",
+      "featured_before": "gid://shopify/MediaImage/59893960048978",
+      "featured_after": "gid://shopify/MediaImage/59935247270226",
+      "appearances": [
+        {
+          "id": "default-title",
+          "source": "boutique-seiko-mod/sources-fournisseur-2026-08/mouvement-nh35-date-blanche/face-fournisseur-1005008494235697.jpg",
+          "source_note": "API offer has one SKU without property image",
+          "local_jpeg": "boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot3/mouvement-nh35-date-blanche/generated/mouvement-nh35-date-blanche.jpg",
+          "shopify_file_gid": "gid://shopify/MediaImage/59935240683858",
+          "product_media_gid": "gid://shopify/MediaImage/59935247270226",
+          "variant_gids": ["gid://shopify/ProductVariant/54213196546386"],
+          "qa": "pass"
+        }
+      ],
+      "supplier_media_removed": [
+        "gid://shopify/MediaImage/59893960048978",
+        "gid://shopify/MediaImage/59893960081746",
+        "gid://shopify/MediaImage/59893960114514",
+        "gid://shopify/MediaImage/59893960147282",
+        "gid://shopify/MediaImage/59893960180050",
+        "gid://shopify/MediaImage/59893960212818"
+      ],
+      "readback": {"media_count": 1, "variant_count": 1, "total_inventory": 9667, "all_ready": true, "supplier_remaining": 0, "associations_exact": true, "commercial_exact": true}
+    },
+    {
+      "product_gid": "gid://shopify/Product/11013068587346",
+      "handle": "set-aiguilles-lumineuses-nh35",
+      "aliexpress_item_id": "1005007733703969",
+      "source_status": "onSelling",
+      "status_before": "DRAFT",
+      "status_after": "DRAFT",
+      "featured_before": "gid://shopify/MediaImage/59894063726930",
+      "featured_after": "gid://shopify/MediaImage/59935247466834",
+      "appearances": [
+        {"id": "black", "source": "https://ae01.alicdn.com/kf/S2fa8b9e6acf04938a1729ef91e57d43c9.jpg", "local_jpeg": "boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot3/set-aiguilles-lumineuses-nh35/generated/set-aiguilles-lumineuses-nh35-black.jpg", "shopify_file_gid": "gid://shopify/MediaImage/59935241535826", "product_media_gid": "gid://shopify/MediaImage/59935247466834", "variant_gids": ["gid://shopify/ProductVariant/54213253955922"], "qa": "pass"},
+        {"id": "gold", "source": "https://ae01.alicdn.com/kf/S0b3982899dc74aa8b2b3156cf6949b95g.jpg", "local_jpeg": "boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot3/set-aiguilles-lumineuses-nh35/generated/set-aiguilles-lumineuses-nh35-gold.jpg", "shopify_file_gid": "gid://shopify/MediaImage/59935241142610", "product_media_gid": "gid://shopify/MediaImage/59935247499602", "variant_gids": ["gid://shopify/ProductVariant/54213253988690"], "qa": "pass"},
+        {"id": "silver", "source": "https://ae01.alicdn.com/kf/S96b27edb90ad4084844621e72a3c5d78P.jpg", "local_jpeg": "boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot3/set-aiguilles-lumineuses-nh35/generated/set-aiguilles-lumineuses-nh35-silver.jpg", "shopify_file_gid": "gid://shopify/MediaImage/59935242060114", "product_media_gid": "gid://shopify/MediaImage/59935247532370", "variant_gids": ["gid://shopify/ProductVariant/54213254021458"], "qa": "pass"},
+        {"id": "rose", "source": "https://ae01.alicdn.com/kf/S509c171e5730478aa2b68cc62c79bdb8B.jpg", "local_jpeg": "boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot3/set-aiguilles-lumineuses-nh35/generated/set-aiguilles-lumineuses-nh35-rose.jpg", "shopify_file_gid": "gid://shopify/MediaImage/59935242289490", "product_media_gid": "gid://shopify/MediaImage/59935247565138", "variant_gids": ["gid://shopify/ProductVariant/54213254054226"], "qa": "pass"}
+      ],
+      "supplier_media_removed": [
+        "gid://shopify/MediaImage/59894063726930", "gid://shopify/MediaImage/59894063759698", "gid://shopify/MediaImage/59894063792466", "gid://shopify/MediaImage/59894063825234", "gid://shopify/MediaImage/59894063858002", "gid://shopify/MediaImage/59894063890770", "gid://shopify/MediaImage/59894063923538", "gid://shopify/MediaImage/59894063956306", "gid://shopify/MediaImage/59894063989074"
+      ],
+      "readback": {"media_count": 4, "variant_count": 4, "total_inventory": 44, "all_ready": true, "supplier_remaining": 0, "associations_exact": true, "commercial_exact": true}
+    },
+    {
+      "product_gid": "gid://shopify/Product/11013059346770",
+      "handle": "boitier-saphir-36-40-nh35",
+      "aliexpress_item_id": "1005006783022622",
+      "source_status": "onSelling",
+      "status_before": "DRAFT",
+      "status_after": "DRAFT",
+      "featured_before": "gid://shopify/MediaImage/59893983838546",
+      "featured_after": "gid://shopify/MediaImage/59935247728978",
+      "appearances": [
+        {"id": "1", "source": "https://ae01.alicdn.com/kf/Sb3e227aab15946b5b076f4c3f04b3778A.jpg", "local_jpeg": "boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot3/boitier-saphir-36-40-nh35/generated/boitier-saphir-36-40-nh35-1.jpg", "shopify_file_gid": "gid://shopify/MediaImage/59935243043154", "product_media_gid": "gid://shopify/MediaImage/59935247728978", "variant_gids": ["gid://shopify/ProductVariant/54213207982418", "gid://shopify/ProductVariant/54213208015186"], "qa": "pass"},
+        {"id": "3", "source": "https://ae01.alicdn.com/kf/S1e1b57f3412043fb9dcd92078e19d5b5o.jpg", "local_jpeg": "boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot3/boitier-saphir-36-40-nh35/generated/boitier-saphir-36-40-nh35-3.jpg", "shopify_file_gid": "gid://shopify/MediaImage/59935243403602", "product_media_gid": "gid://shopify/MediaImage/59935247761746", "variant_gids": ["gid://shopify/ProductVariant/54213207785810", "gid://shopify/ProductVariant/54213207818578"], "qa": "pass"},
+        {"id": "3-1", "source": "https://ae01.alicdn.com/kf/S46cec791b73b45c485f4e8bab7f2d00bO.jpg", "local_jpeg": "boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot3/boitier-saphir-36-40-nh35/generated/boitier-saphir-36-40-nh35-3-1.jpg", "shopify_file_gid": "gid://shopify/MediaImage/59935243665746", "product_media_gid": "gid://shopify/MediaImage/59935247794514", "variant_gids": ["gid://shopify/ProductVariant/54213207851346", "gid://shopify/ProductVariant/54213207884114"], "qa": "pass"},
+        {"id": "4", "source": "https://ae01.alicdn.com/kf/Sa963892d6b364be9976cfd71e064bef6N.jpg", "local_jpeg": "boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot3/boitier-saphir-36-40-nh35/generated/boitier-saphir-36-40-nh35-4.jpg", "shopify_file_gid": "gid://shopify/MediaImage/59935243731282", "product_media_gid": "gid://shopify/MediaImage/59935247827282", "variant_gids": ["gid://shopify/ProductVariant/54213207916882", "gid://shopify/ProductVariant/54213207949650"], "qa": "pass"}
+      ],
+      "supplier_media_removed": [
+        "gid://shopify/MediaImage/59893983838546", "gid://shopify/MediaImage/59893983871314", "gid://shopify/MediaImage/59893983904082", "gid://shopify/MediaImage/59893983936850", "gid://shopify/MediaImage/59893983969618", "gid://shopify/MediaImage/59893984002386", "gid://shopify/MediaImage/59893984035154", "gid://shopify/MediaImage/59893984067922", "gid://shopify/MediaImage/59893984100690", "gid://shopify/MediaImage/59893984133458"
+      ],
+      "readback": {"media_count": 4, "variant_count": 8, "total_inventory": 192, "all_ready": true, "supplier_remaining": 0, "associations_exact": true, "commercial_exact": true}
+    },
+    {
+      "product_gid": "gid://shopify/Product/11013057249618",
+      "handle": "mouvement-miyota-8215-nh34-gmt",
+      "aliexpress_item_id": "1005012175538270",
+      "source_status": "onSelling",
+      "status_before": "DRAFT",
+      "status_after": "DRAFT",
+      "featured_before": "gid://shopify/MediaImage/59893958115666",
+      "featured_after": "gid://shopify/MediaImage/59935247302994",
+      "appearances": [
+        {"id": "g-double-calendar", "source": "https://ae01.alicdn.com/kf/S90d1f009116b4bd497fcc190fe7a2333w.jpg", "local_jpeg": "boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot3/mouvement-miyota-8215-nh34-gmt/generated/mouvement-miyota-g-double-calendar.jpg", "shopify_file_gid": "gid://shopify/MediaImage/59935244616018", "product_media_gid": "gid://shopify/MediaImage/59935247302994", "variant_gids": ["gid://shopify/ProductVariant/54213191532882"], "qa": "pass"},
+        {"id": "w-double-calendar", "source": "https://ae01.alicdn.com/kf/S3265d6e739424f6a89ebc487cc830567v.jpg", "local_jpeg": "boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot3/mouvement-miyota-8215-nh34-gmt/generated/mouvement-miyota-w-double-calendar.jpg", "shopify_file_gid": "gid://shopify/MediaImage/59935245140306", "product_media_gid": "gid://shopify/MediaImage/59935247335762", "variant_gids": ["gid://shopify/ProductVariant/54213191565650"], "qa": "pass"},
+        {"id": "g-single-calendar", "source": "https://ae01.alicdn.com/kf/S427f8616e72b4e42955b4e2790635edcJ.jpg", "local_jpeg": "boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot3/mouvement-miyota-8215-nh34-gmt/generated/mouvement-miyota-g-single-calendar.jpg", "shopify_file_gid": "gid://shopify/MediaImage/59935245402450", "product_media_gid": "gid://shopify/MediaImage/59935247368530", "variant_gids": ["gid://shopify/ProductVariant/54213191598418"], "qa": "pass"},
+        {"id": "w-single-calendar", "source": "https://ae01.alicdn.com/kf/S9e7708abe4734c1a9559b491e50c0630E.jpg", "local_jpeg": "boutique-seiko-mod/efficacite-extreme-2026-08-12/execution-courts-lot3/mouvement-miyota-8215-nh34-gmt/generated/mouvement-miyota-w-single-calendar.jpg", "shopify_file_gid": "gid://shopify/MediaImage/59935245861202", "product_media_gid": "gid://shopify/MediaImage/59935247401298", "variant_gids": ["gid://shopify/ProductVariant/54213191631186"], "qa": "pass"}
+      ],
+      "supplier_media_removed": [
+        "gid://shopify/MediaImage/59893958115666", "gid://shopify/MediaImage/59893958148434", "gid://shopify/MediaImage/59893958181202", "gid://shopify/MediaImage/59893958213970", "gid://shopify/MediaImage/59893958246738", "gid://shopify/MediaImage/59893958279506", "gid://shopify/MediaImage/59893958312274", "gid://shopify/MediaImage/59893958345042", "gid://shopify/MediaImage/59893958377810", "gid://shopify/MediaImage/59893958410578"
+      ],
+      "readback": {"media_count": 4, "variant_count": 4, "total_inventory": 107, "all_ready": true, "supplier_remaining": 0, "associations_exact": true, "commercial_exact": true}
+    }
+  ]
+}

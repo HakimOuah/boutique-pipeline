@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-12T03:12:00+02:00",
+  "result": "PASS",
+  "product": {
+    "id": "gid://shopify/Product/11013057675602",
+    "handle": "boitier-pilote-pvd-noir-36-39",
+    "status_before": "DRAFT",
+    "status_after": "DRAFT",
+    "inventory_total": 379,
+    "variant_count": 24
+  },
+  "execution": {
+    "appearance_count": 6,
+    "generation_attempts": 6,
+    "generation_retries": 0,
+    "qa_pass": 6,
+    "qa_rejected": 0,
+    "media_uploaded_ready": 6,
+    "variant_associations_verified": 24,
+    "supplier_media_removed": 10,
+    "supplier_media_remaining": 0
+  },
+  "appearances": [
+    {
+      "key": "black-glass",
+      "file": "root-boitier-pilote/final/boitier-pilote-pvd-noir-36-39-v-black-glass.jpg",
+      "sha256": "6288aaa1190f16cebb7f97fe04fd78f25831968f33599eee65e2adddfab39a66",
+      "bytes": 526118,
+      "media_id": "gid://shopify/MediaImage/59935534711122",
+      "variant_ids": ["gid://shopify/ProductVariant/54213198250322", "gid://shopify/ProductVariant/54213198283090", "gid://shopify/ProductVariant/54213198315858", "gid://shopify/ProductVariant/54213198348626"]
+    },
+    {
+      "key": "black-solid",
+      "file": "root-boitier-pilote/final/boitier-pilote-pvd-noir-36-39-v-black-solid.jpg",
+      "sha256": "8cb8931ab2d746c52d7bc67d54bdbc1cc382a8b125132b5648ac646ba33817c7",
+      "bytes": 471356,
+      "media_id": "gid://shopify/MediaImage/59935534743890",
+      "variant_ids": ["gid://shopify/ProductVariant/54213198119250", "gid://shopify/ProductVariant/54213198152018", "gid://shopify/ProductVariant/54213198184786", "gid://shopify/ProductVariant/54213198217554"]
+    },
+    {
+      "key": "bronze-glass",
+      "file": "root-boitier-pilote/final/boitier-pilote-pvd-noir-36-39-v-bronze-glass.jpg",
+      "sha256": "c08e123054ae9b106475e3c9bcd79c702e1fb80f5dbdd9a8a4227f6cda362362",
+      "bytes": 428086,
+      "media_id": "gid://shopify/MediaImage/59935534776658",
+      "variant_ids": ["gid://shopify/ProductVariant/54213197988178", "gid://shopify/ProductVariant/54213198020946", "gid://shopify/ProductVariant/54213198053714", "gid://shopify/ProductVariant/54213198086482"]
+    },
+    {
+      "key": "bronze-solid",
+      "file": "root-boitier-pilote/final/boitier-pilote-pvd-noir-36-39-v-bronze-solid.jpg",
+      "sha256": "4a06ae53da0c2541d9bff718dd6ae5c7c089785db7410039fec264eda1e66c89",
+      "bytes": 490482,
+      "media_id": "gid://shopify/MediaImage/59935534809426",
+      "variant_ids": ["gid://shopify/ProductVariant/54213198512466", "gid://shopify/ProductVariant/54213198545234", "gid://shopify/ProductVariant/54213198578002", "gid://shopify/ProductVariant/54213198610770"]
+    },
+    {
+      "key": "silver-glass",
+      "file": "root-boitier-pilote/final/boitier-pilote-pvd-noir-36-39-v-silver-glass.jpg",
+      "sha256": "371895240c1ad0f99e94e7431222988a9d98de27d43392e839b68db2d3aa318f",
+      "bytes": 539570,
+      "media_id": "gid://shopify/MediaImage/59935534842194",
+      "variant_ids": ["gid://shopify/ProductVariant/54213197857106", "gid://shopify/ProductVariant/54213197889874", "gid://shopify/ProductVariant/54213197922642", "gid://shopify/ProductVariant/54213197955410"]
+    },
+    {
+      "key": "silver-solid",
+      "file": "root-boitier-pilote/final/boitier-pilote-pvd-noir-36-39-v-silver-solid.jpg",
+      "sha256": "6f5adad339ceb99951fc6f1927e78192ba6163c65ff56f1090a4c8d37ab81085",
+      "bytes": 557887,
+      "media_id": "gid://shopify/MediaImage/59935534874962",
+      "variant_ids": ["gid://shopify/ProductVariant/54213198381394", "gid://shopify/ProductVariant/54213198414162", "gid://shopify/ProductVariant/54213198446930", "gid://shopify/ProductVariant/54213198479698"]
+    }
+  ],
+  "supplier_media_removed": [
+    "gid://shopify/MediaImage/59893962080594",
+    "gid://shopify/MediaImage/59893962113362",
+    "gid://shopify/MediaImage/59893962146130",
+    "gid://shopify/MediaImage/59893962178898",
+    "gid://shopify/MediaImage/59893962211666",
+    "gid://shopify/MediaImage/59893962244434",
+    "gid://shopify/MediaImage/59893962277202",
+    "gid://shopify/MediaImage/59893962309970",
+    "gid://shopify/MediaImage/59893962342738",
+    "gid://shopify/MediaImage/59893962375506"
+  ],
+  "readback": {
+    "media_count": 6,
+    "all_media_ready": true,
+    "all_media_2048_square": true,
+    "featured_media_id": "gid://shopify/MediaImage/59935534711122",
+    "variants_with_exact_media": 24,
+    "variant_count": 24,
+    "supplier_media_remaining": 0,
+    "pagination_complete": true,
+    "prices_and_compare_at_preserved": true,
+    "commercial_fields_mutated": false,
+    "activation_or_publication_performed": false
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-08-12T03:11:41+02:00",
+  "handle": "cadran-evide-vert-nh70",
+  "product_id": "gid://shopify/Product/11013068882258",
+  "qa_policy": "80/20 stricte, une tentative par variante, aucun retry",
+  "attempts": 7,
+  "retry_count": 0,
+  "pass_count": 7,
+  "reject_count": 0,
+  "criteria": [
+    "anneau circulaire entièrement ajouré",
+    "index et minuterie conformes à la source",
+    "couleur et finition de variante exactes",
+    "aucun texte, logo ou filigrane",
+    "aucun mécanisme, aiguille, boîtier ou élément inventé"
+  ],
+  "variants": [
+    {
+      "appearance": "white",
+      "variant_id": "gid://shopify/ProductVariant/54213256347986",
+      "sku": "14:201447598#white",
+      "source_media_id": "gid://shopify/MediaImage/59894067986770",
+      "source_file": "sources/white.webp",
+      "output_file": "final/white.jpg",
+      "output_sha256": "6543af638dce4463f8dbbbdf55d0af7020c7b4869ed4b5c5bcc3413ee58d8822",
+      "shopify_media_id": "gid://shopify/MediaImage/59935618138450",
+      "qa": "PASS"
+    },
+    {
+      "appearance": "Military Green",
+      "variant_id": "gid://shopify/ProductVariant/54213256380754",
+      "sku": "14:201447303#Military Green",
+      "source_media_id": "gid://shopify/MediaImage/59894067790162",
+      "source_file": "sources/military-green.webp",
+      "output_file": "final/military-green.jpg",
+      "output_sha256": "0edfe721bbca467130538d8ce02e5b1547035925bb0ca9545c0aea6f7e81a985",
+      "shopify_media_id": "gid://shopify/MediaImage/59935618302290",
+      "qa": "PASS"
+    },
+    {
+      "appearance": "rose gold",
+      "variant_id": "gid://shopify/ProductVariant/54213256413522",
+      "sku": "14:200005100#rose gold",
+      "source_media_id": "gid://shopify/MediaImage/59894067822930",
+      "source_file": "sources/rose-gold.webp",
+      "output_file": "final/rose-gold.jpg",
+      "output_sha256": "a1e363b0cc63c9869332629897a4be30291cc1b2d044c4c8f5ead8f4f3cb9916",
+      "shopify_media_id": "gid://shopify/MediaImage/59935618007378",
+      "qa": "PASS"
+    },
+    {
+      "appearance": "blue",
+      "variant_id": "gid://shopify/ProductVariant/54213256446290",
+      "sku": "14:200000080#blue",
+      "source_media_id": "gid://shopify/MediaImage/59894067855698",
+      "source_file": "sources/blue.webp",
+      "output_file": "final/blue.jpg",
+      "output_sha256": "5950338ca7c1e68f23e2a5ca04938ef85d0c67bc0ca0c543e02352b3d3731ba4",
+      "shopify_media_id": "gid://shopify/MediaImage/59935618761042",
+      "qa": "PASS"
+    },
+    {
+      "appearance": "golden",
+      "variant_id": "gid://shopify/ProductVariant/54213256479058",
+      "sku": "14:100013777#golden",
+      "source_media_id": "gid://shopify/MediaImage/59894067888466",
+      "source_file": "sources/golden.webp",
+      "output_file": "final/golden.jpg",
+      "output_sha256": "3d91fb551b2cb5c3a00be1e0cd50207db473a9e97173db129a4939d2f43f94e2",
+      "shopify_media_id": "gid://shopify/MediaImage/59935618924882",
+      "qa": "PASS"
+    },
+    {
+      "appearance": "black",
+      "variant_id": "gid://shopify/ProductVariant/54213256511826",
+      "sku": "14:100005979#black",
+      "source_media_id": "gid://shopify/MediaImage/59894067921234",
+      "source_file": "sources/black.webp",
+      "output_file": "final/black.jpg",
+      "output_sha256": "56934ccc2b97b0d493a9d8abe623da63904ee1f8dee970bb00581090a7d80b3d",
+      "shopify_media_id": "gid://shopify/MediaImage/59935619154258",
+      "qa": "PASS"
+    },
+    {
+      "appearance": "dark grey",
+      "variant_id": "gid://shopify/ProductVariant/54213256544594",
+      "sku": "14:350686#dark grey",
+      "source_media_id": "gid://shopify/MediaImage/59894067954002",
+      "source_file": "sources/dark-grey.webp",
+      "output_file": "final/dark-grey.jpg",
+      "output_sha256": "80d1eecd4b6870382f1309ddd01799ae12c97e81fd6fd0b0f5783ac299174c22",
+      "shopify_media_id": "gid://shopify/MediaImage/59935619383634",
+      "qa": "PASS"
+    }
+  ]
+}

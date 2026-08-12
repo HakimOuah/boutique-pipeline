@@ -1,0 +1,314 @@
+{
+  "schema_version": "1.0",
+  "run": {
+    "date": "2026-08-12",
+    "mode": "efficacite-extreme",
+    "scope": "ACTIVE remontoirs, exact appearance replacement",
+    "shopify_mutation_authorized": true,
+    "source_policy": "AliExpress official API proof only; no raw supplier media retained",
+    "generation_policy": "one attempt per appearance, zero retry",
+    "report_status": "COMPLETE"
+  },
+  "counters": {
+    "products_reserved": 5,
+    "products_completed": 5,
+    "products_skipped": 0,
+    "appearances_total": 15,
+    "official_api_sources_verified": 15,
+    "generation_attempts": 15,
+    "generation_retries": 0,
+    "qa_pass": 15,
+    "qa_fail": 0,
+    "jpeg_2048_srgb_under_1_2mb": 15,
+    "shopify_uploads": 15,
+    "shopify_files_ready": 15,
+    "variant_associations_exact": 15,
+    "featured_switched": 5,
+    "supplier_product_references_removed": 6,
+    "supplier_media_remaining_on_products": 0,
+    "initial_append_conflicts": 15,
+    "initial_append_conflicts_resolved": 15,
+    "final_graphql_user_errors": 0
+  },
+  "shared_source": {
+    "provider": "AliExpress Open Platform official API",
+    "item_id": "1005006938556690",
+    "proof_file": "boutique-seiko-mod/preuves-audit-p4-130-2026-08-10/1005006938556690.json",
+    "retrieval": "official API variant image URLs, downloaded from ae01.alicdn.com",
+    "source_board": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot3/source-board.jpg",
+    "qa_board": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot3/qa-board.jpg"
+  },
+  "qa_gate": {
+    "checks": [
+      "exact winding-bay count",
+      "exact vertical or grid layout",
+      "material and color family",
+      "lockable door where applicable",
+      "LED glow where applicable",
+      "no supplier brand",
+      "no readable text or watermark"
+    ],
+    "result": "PASS"
+  },
+  "shopify_workflow": {
+    "files_attached_before_association": true,
+    "all_files_ready_before_association": true,
+    "association_note": "Shopify allows one media association on these variants. Direct append returned existing-media conflicts without changing state; the prior generic association was detached, then the exact media was appended.",
+    "readback_before_supplier_removal": true,
+    "featured_reorder_jobs_done": 5,
+    "supplier_removal_method": "fileUpdate referencesToRemove; no global file deletion",
+    "final_readback_complete": true,
+    "pagination_complete": true
+  },
+  "products": [
+    {
+      "product_gid": "gid://shopify/Product/10980083728722",
+      "handle": "remontoir-collection-bois-beige",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "featured_before": "gid://shopify/MediaImage/59691418812754",
+      "featured_after": "gid://shopify/MediaImage/59935256183122",
+      "appearances": [
+        {
+          "appearance": "1 montre",
+          "api_sku_attr": "14:173#IB-white-01A",
+          "source_url": "https://ae01.alicdn.com/kf/S7d840715d13c4ed0b645f1d29858d63dP.jpg",
+          "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot3/finals/beige-1.jpg",
+          "bytes": 359933,
+          "media_gid": "gid://shopify/MediaImage/59935256183122",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/remontoir-collection-bois-beige-capacite-1.jpg?v=1786492315",
+          "variant_gid": "gid://shopify/ProductVariant/54096788848978"
+        },
+        {
+          "appearance": "2 montres",
+          "api_sku_attr": "14:350850#IB-white-02A",
+          "source_url": "https://ae01.alicdn.com/kf/S49758bedf4314b0b82386efbea0a5919y.jpg",
+          "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot3/finals/beige-2.jpg",
+          "bytes": 376166,
+          "media_gid": "gid://shopify/MediaImage/59935256576338",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/remontoir-collection-bois-beige-capacite-2.jpg?v=1786492322",
+          "variant_gid": "gid://shopify/ProductVariant/54096788881746"
+        },
+        {
+          "appearance": "4 montres",
+          "api_sku_attr": "14:94#IB-white-04A",
+          "source_url": "https://ae01.alicdn.com/kf/S63c0d1dd69e040a19e0703ea67c1ded0Y.jpg",
+          "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot3/finals/beige-4.jpg",
+          "bytes": 495135,
+          "media_gid": "gid://shopify/MediaImage/59935257362770",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/remontoir-collection-bois-beige-capacite-4.jpg?v=1786492329",
+          "variant_gid": "gid://shopify/ProductVariant/54096788914514"
+        },
+        {
+          "appearance": "6 montres",
+          "api_sku_attr": "14:100013777#IB-white-06A",
+          "source_url": "https://ae01.alicdn.com/kf/S6ad5f4a9faf94c88885b275f03120424S.jpg",
+          "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot3/finals/beige-6.jpg",
+          "bytes": 350495,
+          "media_gid": "gid://shopify/MediaImage/59935258247506",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/remontoir-collection-bois-beige-capacite-6.jpg?v=1786492336",
+          "variant_gid": "gid://shopify/ProductVariant/54096788947282"
+        }
+      ],
+      "supplier_references_removed": ["gid://shopify/MediaImage/59694597538130"],
+      "retained_maison_media": ["gid://shopify/MediaImage/59691418812754", "gid://shopify/MediaImage/59893911945554"],
+      "preserved": {
+        "skus": ["NOIR-REM-011", "NOIR-REM-012", "NOIR-REM-013", "NOIR-REM-014"],
+        "prices_eur": ["104.90", "219.90", "249.90", "299.90"],
+        "inventory": [0, 0, 0, 0],
+        "options": ["1 montre", "2 montres", "4 montres", "6 montres"]
+      }
+    },
+    {
+      "product_gid": "gid://shopify/Product/10980083466578",
+      "handle": "remontoir-collection-bois-noir",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "featured_before": "gid://shopify/MediaImage/59691419468114",
+      "featured_after": "gid://shopify/MediaImage/59935258804562",
+      "appearances": [
+        {
+          "appearance": "1 montre",
+          "api_sku_attr": "14:193#IB-black-01A",
+          "source_url": "https://ae01.alicdn.com/kf/Sa999a667caa74ba496f2adc6c5a6419b5.jpg",
+          "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot3/finals/noir-1.jpg",
+          "bytes": 383773,
+          "media_gid": "gid://shopify/MediaImage/59935258804562",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/remontoir-collection-bois-noir-capacite-1.jpg?v=1786492340",
+          "variant_gid": "gid://shopify/ProductVariant/54096787669330"
+        },
+        {
+          "appearance": "2 montres",
+          "api_sku_attr": "14:350686#IB-black-02A",
+          "source_url": "https://ae01.alicdn.com/kf/S8e79a10b6500492eae8b090a98e2d5b4o.jpg",
+          "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot3/finals/noir-2.jpg",
+          "bytes": 355809,
+          "media_gid": "gid://shopify/MediaImage/59935259722066",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/remontoir-collection-bois-noir-capacite-2.jpg?v=1786492347",
+          "variant_gid": "gid://shopify/ProductVariant/54096787702098"
+        },
+        {
+          "appearance": "4 montres",
+          "api_sku_attr": "14:175#IB-black-04A",
+          "source_url": "https://ae01.alicdn.com/kf/Se0cf06c264d04e7c95f3048f78557518J.jpg",
+          "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot3/finals/noir-4.jpg",
+          "bytes": 380932,
+          "media_gid": "gid://shopify/MediaImage/59935260410194",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/remontoir-collection-bois-noir-capacite-4.jpg?v=1786492352",
+          "variant_gid": "gid://shopify/ProductVariant/54096787734866"
+        },
+        {
+          "appearance": "6 montres",
+          "api_sku_attr": "14:865#IB-black-06A",
+          "source_url": "https://ae01.alicdn.com/kf/Sd016edb263ca46c988f1bc44dd33897fJ.jpg",
+          "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot3/finals/noir-6.jpg",
+          "bytes": 385340,
+          "media_gid": "gid://shopify/MediaImage/59935260606802",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/remontoir-collection-bois-noir-capacite-6.jpg?v=1786492357",
+          "variant_gid": "gid://shopify/ProductVariant/54096787767634"
+        }
+      ],
+      "supplier_references_removed": ["gid://shopify/MediaImage/59694431502674"],
+      "retained_maison_media": ["gid://shopify/MediaImage/59691419468114", "gid://shopify/MediaImage/59893869576530"],
+      "preserved": {
+        "skus": ["NOIR-REM-019", "NOIR-REM-020", "NOIR-REM-021", "NOIR-REM-022"],
+        "prices_eur": ["104.90", "224.90", "249.90", "289.90"],
+        "inventory": [0, 0, 0, 0],
+        "options": ["1 montre", "2 montres", "4 montres", "6 montres"]
+      }
+    },
+    {
+      "product_gid": "gid://shopify/Product/10980084056402",
+      "handle": "remontoir-collection-bois-led-noir",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "featured_before": "gid://shopify/MediaImage/59691419074898",
+      "featured_after": "gid://shopify/MediaImage/59935260967250",
+      "appearances": [
+        {
+          "appearance": "2 montres",
+          "api_sku_attr": "14:29#IB-black-02C",
+          "source_url": "https://ae01.alicdn.com/kf/S7703164287d248bba2b38f806be11d052.jpg",
+          "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot3/finals/led-noir-2.jpg",
+          "bytes": 443365,
+          "media_gid": "gid://shopify/MediaImage/59935260967250",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/remontoir-collection-bois-led-noir-capacite-2.jpg?v=1786492364",
+          "variant_gid": "gid://shopify/ProductVariant/54096789307730"
+        },
+        {
+          "appearance": "4 montres",
+          "api_sku_attr": "14:100005979#IB-black-04C",
+          "source_url": "https://ae01.alicdn.com/kf/Sdd13775b5837483b9ea80f7e36b49595y.jpg",
+          "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot3/finals/led-noir-4.jpg",
+          "bytes": 480020,
+          "media_gid": "gid://shopify/MediaImage/59935261163858",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/remontoir-collection-bois-led-noir-capacite-4.jpg?v=1786492369",
+          "variant_gid": "gid://shopify/ProductVariant/54096789340498"
+        }
+      ],
+      "supplier_references_removed": ["gid://shopify/MediaImage/59694486126930", "gid://shopify/MediaImage/59694597505362"],
+      "retained_maison_media": ["gid://shopify/MediaImage/59691419074898"],
+      "preserved": {
+        "skus": ["NOIR-REM-015", "NOIR-REM-016"],
+        "prices_eur": ["184.90", "219.90"],
+        "inventory": [0, 0],
+        "options": ["2 montres", "4 montres"]
+      }
+    },
+    {
+      "product_gid": "gid://shopify/Product/10980084121938",
+      "handle": "remontoir-collection-bois-led-rouge",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "featured_before": "gid://shopify/MediaImage/59691419304274",
+      "featured_after": "gid://shopify/MediaImage/59935261622610",
+      "appearances": [
+        {
+          "appearance": "2 montres",
+          "api_sku_attr": "14:366#IB-red-02C",
+          "source_url": "https://ae01.alicdn.com/kf/S64b685ce7db946b599c7ecb2f1a71edcQ.jpg",
+          "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot3/finals/led-rouge-2.jpg",
+          "bytes": 517428,
+          "media_gid": "gid://shopify/MediaImage/59935261622610",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/remontoir-collection-bois-led-rouge-capacite-2.jpg?v=1786492375",
+          "variant_gid": "gid://shopify/ProductVariant/54096789504338"
+        },
+        {
+          "appearance": "4 montres",
+          "api_sku_attr": "14:200000080#IB-red-04C",
+          "source_url": "https://ae01.alicdn.com/kf/S8f82a5a05d1b4a6294826c3362f3abe0u.jpg",
+          "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot3/finals/led-rouge-4.jpg",
+          "bytes": 560378,
+          "media_gid": "gid://shopify/MediaImage/59935261917522",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/remontoir-collection-bois-led-rouge-capacite-4.jpg?v=1786492381",
+          "variant_gid": "gid://shopify/ProductVariant/54096789537106"
+        }
+      ],
+      "supplier_references_removed": ["gid://shopify/MediaImage/59694597570898"],
+      "retained_maison_media": ["gid://shopify/MediaImage/59691419304274", "gid://shopify/MediaImage/59893930983762"],
+      "preserved": {
+        "skus": ["NOIR-REM-017", "NOIR-REM-018"],
+        "prices_eur": ["184.90", "219.90"],
+        "inventory": [0, 0],
+        "options": ["2 montres", "4 montres"]
+      }
+    },
+    {
+      "product_gid": "gid://shopify/Product/10980084449618",
+      "handle": "remontoir-collection-cuir-pu",
+      "status_before": "ACTIVE",
+      "status_after": "ACTIVE",
+      "featured_before": "gid://shopify/MediaImage/59691419500882",
+      "featured_after": "gid://shopify/MediaImage/59935262441810",
+      "appearances": [
+        {
+          "appearance": "2 montres",
+          "api_sku_attr": "14:496#IB-PU leather-02B",
+          "source_url": "https://ae01.alicdn.com/kf/S811ac7a3c8294926be282c24e24751f6D.jpg",
+          "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot3/finals/pu-2.jpg",
+          "bytes": 596540,
+          "media_gid": "gid://shopify/MediaImage/59935262441810",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/remontoir-collection-cuir-pu-capacite-2.jpg?v=1786492389",
+          "variant_gid": "gid://shopify/ProductVariant/54096789864786"
+        },
+        {
+          "appearance": "4 montres",
+          "api_sku_attr": "14:10#IB-PU leather-04B",
+          "source_url": "https://ae01.alicdn.com/kf/Sd34a1a3637854170b4016d869bb5efe4M.jpg",
+          "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot3/finals/pu-4.jpg",
+          "bytes": 626156,
+          "media_gid": "gid://shopify/MediaImage/59935263064402",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/remontoir-collection-cuir-pu-capacite-4.jpg?v=1786492395",
+          "variant_gid": "gid://shopify/ProductVariant/54096789897554"
+        },
+        {
+          "appearance": "6 montres",
+          "api_sku_attr": "14:350853#IB-PU leather-06B",
+          "source_url": "https://ae01.alicdn.com/kf/S0d104dc2d7af4929bcf47b000800eaecX.jpg",
+          "local_file": "boutique-seiko-mod/efficacite-extreme-2026-08-12/actifs-courts-lot3/finals/pu-6.jpg",
+          "bytes": 532178,
+          "media_gid": "gid://shopify/MediaImage/59935263293778",
+          "cdn_url": "https://cdn.shopify.com/s/files/1/1094/1893/8706/files/remontoir-collection-cuir-pu-capacite-6.jpg?v=1786492400",
+          "variant_gid": "gid://shopify/ProductVariant/54096789930322"
+        }
+      ],
+      "supplier_references_removed": ["gid://shopify/MediaImage/59694431469906"],
+      "retained_maison_media": ["gid://shopify/MediaImage/59691419500882", "gid://shopify/MediaImage/59893940715858"],
+      "preserved": {
+        "skus": ["NOIR-REM-023", "NOIR-REM-024", "NOIR-REM-025"],
+        "prices_eur": ["254.90", "274.90", "324.90"],
+        "inventory": [0, 0, 0],
+        "options": ["2 montres", "4 montres", "6 montres"]
+      }
+    }
+  ],
+  "final_assertions": {
+    "all_products_active": true,
+    "all_new_media_ready": true,
+    "all_variants_exactly_associated": true,
+    "all_new_featured_confirmed": true,
+    "all_supplier_media_absent_from_products": true,
+    "prices_skus_options_inventory_unchanged": true,
+    "no_global_file_deletion": true
+  }
+}

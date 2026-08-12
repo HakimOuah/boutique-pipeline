@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0",
+  "completed_at": "2026-08-12T00:53:15Z",
+  "status": "COMPLETE",
+  "scope": {
+    "products": 1,
+    "handle": "cadran-pilote-sterile-28-5-sans-logo",
+    "product_id": "gid://shopify/Product/11013078417746",
+    "generation_policy": "one attempt per appearance, no retry",
+    "activation_authorized": false
+  },
+  "counters": {
+    "products_completed": 1,
+    "appearances_expected": 6,
+    "imagegen_attempts": 6,
+    "qa_pass": 6,
+    "qa_reject": 0,
+    "files_uploaded": 6,
+    "product_media_attached": 6,
+    "variant_associations_verified": 6,
+    "supplier_variant_associations_detached": 6,
+    "supplier_files_deleted": 8,
+    "supplier_featured_files_deleted": 1,
+    "final_ready_media": 6,
+    "final_supplier_media": 0
+  },
+  "qa_manifest": "../visuels-codex-2026-08/cadran-pilote-sterile-28-5-sans-logo/manifeste-rattrapage-80-20-a1-a6.json",
+  "preflight": {
+    "status": "DRAFT",
+    "total_inventory": 116,
+    "media_count": 8,
+    "media_pagination_complete": true,
+    "variants_count": 6,
+    "variants_pagination_complete": true,
+    "featured_media_id": "gid://shopify/MediaImage/59894117597522",
+    "options": [
+      {"name": "Color", "values": ["A1", "A3", "A2", "A5", "A4", "A6"]},
+      {"name": "Dial Diameter", "values": ["NO LOGO"]}
+    ]
+  },
+  "variants": [
+    {
+      "appearance": "A1",
+      "variant_id": "gid://shopify/ProductVariant/54213307007314",
+      "sku": "14:29#A1;200000046:201720836#NO LOGO",
+      "price": "11.83",
+      "compare_at_price": "11.83",
+      "inventory_quantity": 22,
+      "local_file": "../visuels-codex-2026-08/cadran-pilote-sterile-28-5-sans-logo/cadran-pilote-sterile-28-5-sans-logo-v-a1.jpg",
+      "sha256": "10022cce8e34d4c44eb446800ec589168e87b4f35feed325c98d2472fe293401",
+      "final_media_id": "gid://shopify/MediaImage/59935548440914",
+      "supplier_media_id_deleted": "gid://shopify/MediaImage/59894117826898",
+      "association_readback": "PASS"
+    },
+    {
+      "appearance": "A2",
+      "variant_id": "gid://shopify/ProductVariant/54213307072850",
+      "sku": "14:201336230#A2;200000046:201720836#NO LOGO",
+      "price": "11.83",
+      "compare_at_price": "11.83",
+      "inventory_quantity": 1,
+      "local_file": "../visuels-codex-2026-08/cadran-pilote-sterile-28-5-sans-logo/cadran-pilote-sterile-28-5-sans-logo-v-a2.jpg",
+      "sha256": "1621253254a15fb79faa236dfec93c7e63682fce9581028f80bcc476c2e6c582",
+      "final_media_id": "gid://shopify/MediaImage/59935548834130",
+      "supplier_media_id_deleted": "gid://shopify/MediaImage/59894117695826",
+      "association_readback": "PASS"
+    },
+    {
+      "appearance": "A3",
+      "variant_id": "gid://shopify/ProductVariant/54213307040082",
+      "sku": "14:100016652#A3;200000046:201720836#NO LOGO",
+      "price": "11.83",
+      "compare_at_price": "11.83",
+      "inventory_quantity": 25,
+      "local_file": "../visuels-codex-2026-08/cadran-pilote-sterile-28-5-sans-logo/cadran-pilote-sterile-28-5-sans-logo-v-a3.jpg",
+      "sha256": "f6b94ac3b5b66d9cfbffbdfbc9d46c63fbe4a6082e626b9c151d89d30ec7db8c",
+      "final_media_id": "gid://shopify/MediaImage/59935547916626",
+      "supplier_media_id_deleted": "gid://shopify/MediaImage/59894117663058",
+      "association_readback": "PASS"
+    },
+    {
+      "appearance": "A4",
+      "variant_id": "gid://shopify/ProductVariant/54213307138386",
+      "sku": "14:365462#A4;200000046:201720836#NO LOGO",
+      "price": "11.83",
+      "compare_at_price": "11.83",
+      "inventory_quantity": 26,
+      "local_file": "../visuels-codex-2026-08/cadran-pilote-sterile-28-5-sans-logo/cadran-pilote-sterile-28-5-sans-logo-v-a4.jpg",
+      "sha256": "f97d0ee5d0d1653280d21775e111a5549d25e9320b87619237af72e87ab255e6",
+      "final_media_id": "gid://shopify/MediaImage/59935549325650",
+      "supplier_media_id_deleted": "gid://shopify/MediaImage/59894117761362",
+      "association_readback": "PASS"
+    },
+    {
+      "appearance": "A5",
+      "variant_id": "gid://shopify/ProductVariant/54213307105618",
+      "sku": "14:865#A5;200000046:201720836#NO LOGO",
+      "price": "11.83",
+      "compare_at_price": "11.83",
+      "inventory_quantity": 20,
+      "local_file": "../visuels-codex-2026-08/cadran-pilote-sterile-28-5-sans-logo/cadran-pilote-sterile-28-5-sans-logo-v-a5.jpg",
+      "sha256": "37de9180965005907d7a9db2af105ca5c582fe80fbdd0374d9f15822fe34df3e",
+      "final_media_id": "gid://shopify/MediaImage/59935550079314",
+      "supplier_media_id_deleted": "gid://shopify/MediaImage/59894117728594",
+      "association_readback": "PASS"
+    },
+    {
+      "appearance": "A6",
+      "variant_id": "gid://shopify/ProductVariant/54213307171154",
+      "sku": "14:201659835#A6;200000046:201720836#NO LOGO",
+      "price": "11.83",
+      "compare_at_price": "11.83",
+      "inventory_quantity": 22,
+      "local_file": "../visuels-codex-2026-08/cadran-pilote-sterile-28-5-sans-logo/cadran-pilote-sterile-28-5-sans-logo-v-a6.jpg",
+      "sha256": "7f978f54f81c6c6d3c92c70b702ac81e9d086a4dbc2f16e1b9b3d3feeb0cbd24",
+      "final_media_id": "gid://shopify/MediaImage/59935550275922",
+      "supplier_media_id_deleted": "gid://shopify/MediaImage/59894117794130",
+      "association_readback": "PASS"
+    }
+  ],
+  "additional_supplier_files_deleted": [
+    "gid://shopify/MediaImage/59894117597522",
+    "gid://shopify/MediaImage/59894117630290"
+  ],
+  "final_readback": {
+    "status": "DRAFT",
+    "total_inventory": 116,
+    "media_count": 6,
+    "all_media_ready": true,
+    "all_media_dimensions": "2048x2048",
+    "media_pagination_complete": true,
+    "variants_count": 6,
+    "variant_media_pagination_complete": true,
+    "featured_media_id": "gid://shopify/MediaImage/59935548440914",
+    "supplier_media_count": 0,
+    "commercial_fields_preserved": {
+      "status": true,
+      "prices": true,
+      "compare_at_prices": true,
+      "skus": true,
+      "options": true,
+      "inventory": true
+    },
+    "activated": false
+  },
+  "operation_notes": [
+    "An initial append-before-detach attempt was rejected by Shopify because each variant already had media; it made no change.",
+    "The six supplier variant associations were then detached and immediately replaced by the six exact Maison media.",
+    "All eight supplier files were permanently deleted only after an intermediate readback proved complete variant coverage."
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "schema_version": "1.0",
+  "lot": "draft-short-lot5",
+  "executed_at": "2026-08-12",
+  "scope": {
+    "shopify_status": "DRAFT",
+    "source": "AliExpress Open Platform API exact SKU images",
+    "generation_policy": "one attempt per exact appearance, no retry",
+    "supplier_media_policy": "remove all supplier media only after new media READY and exact variant association readback"
+  },
+  "summary": {
+    "products_completed": 4,
+    "appearances_generated": 19,
+    "generation_retries": 0,
+    "variants_associated": 19,
+    "new_maison_media_ready": 19,
+    "supplier_media_removed": 42,
+    "supplier_media_remaining": 0,
+    "products_still_draft": 4,
+    "featured_maison_exact": true,
+    "variant_association_readback_exact": true,
+    "commercial_readback_exact": true,
+    "pagination_complete": true
+  },
+  "qa": {
+    "decision": "PASS",
+    "checks": [
+      "exact product and appearance truth",
+      "colour truth",
+      "component count truth",
+      "no supplier logo, watermark or annotation",
+      "JPEG 2048x2048 sRGB under 1.2 MB",
+      "Shopify media READY",
+      "one exact Maison media per variant",
+      "zero supplier media after replacement"
+    ],
+    "local_jpeg_count": 19,
+    "retry_count": 0
+  },
+  "products": [
+    {
+      "product_gid": "gid://shopify/Product/11013057053010",
+      "handle": "porte-mouvement-nh35",
+      "status_before": "DRAFT",
+      "status_after": "DRAFT",
+      "aliexpress_item_id": "1005008518115553",
+      "aliexpress_status": "onSelling",
+      "api_evidence": "execution-courts-lot5/api/lot5-1005008518115553.json",
+      "featured_before": "gid://shopify/MediaImage/59893956542802",
+      "featured_after": "gid://shopify/MediaImage/59935505973586",
+      "commercial_snapshot": {
+        "variant_count": 1,
+        "inventory_total": 202,
+        "prices": ["4.59"],
+        "skus": ["14:193#Aluminum"]
+      },
+      "appearances": [
+        {
+          "appearance": "aluminum",
+          "source_file": "execution-courts-lot5/porte-mouvement-nh35/source/aluminum.webp",
+          "generated_file": "execution-courts-lot5/porte-mouvement-nh35/generated/porte-mouvement-aluminum.jpg",
+          "upload_file_gid": "gid://shopify/MediaImage/59935495684434",
+          "product_media_gid": "gid://shopify/MediaImage/59935505973586",
+          "variant_gid": "gid://shopify/ProductVariant/54213189992786",
+          "old_variant_media_gid": "gid://shopify/MediaImage/59893956739410",
+          "readback": "READY_AND_EXACT"
+        }
+      ],
+      "supplier_media_removed": [
+        "gid://shopify/MediaImage/59893956542802",
+        "gid://shopify/MediaImage/59893956575570",
+        "gid://shopify/MediaImage/59893956608338",
+        "gid://shopify/MediaImage/59893956641106",
+        "gid://shopify/MediaImage/59893956673874",
+        "gid://shopify/MediaImage/59893956706642",
+        "gid://shopify/MediaImage/59893956739410"
+      ],
+      "final_media_count": 1,
+      "supplier_media_remaining": 0
+    },
+    {
+      "product_gid": "gid://shopify/Product/11013068816722",
+      "handle": "cadran-squelette-29-noir-blanc",
+      "status_before": "DRAFT",
+      "status_after": "DRAFT",
+      "aliexpress_item_id": "1005009288581598",
+      "aliexpress_status": "onSelling",
+      "api_evidence": "execution-courts-lot5/api/lot5-1005009288581598.json",
+      "featured_before": "gid://shopify/MediaImage/59894066512210",
+      "featured_after": "gid://shopify/MediaImage/59935505809746",
+      "commercial_snapshot": {
+        "variant_count": 5,
+        "inventory_total": 1573,
+        "prices": ["13.17", "12.88", "20.44", "8.55", "20.46"],
+        "skus": ["14:193#black dial", "14:350686#white dial", "14:173#black dial hand", "14:175#hand only", "14:350850#white dial hand"]
+      },
+      "appearances": [
+        {"appearance":"black-dial","source_file":"execution-courts-lot5/cadran-squelette-29-noir-blanc/source/black-dial.webp","generated_file":"execution-courts-lot5/cadran-squelette-29-noir-blanc/generated/squelette-black-dial.jpg","upload_file_gid":"gid://shopify/MediaImage/59935497290066","product_media_gid":"gid://shopify/MediaImage/59935505809746","variant_gid":"gid://shopify/ProductVariant/54213255725394","old_variant_media_gid":"gid://shopify/MediaImage/59894066741586","readback":"READY_AND_EXACT"},
+        {"appearance":"white-dial","source_file":"execution-courts-lot5/cadran-squelette-29-noir-blanc/source/white-dial.webp","generated_file":"execution-courts-lot5/cadran-squelette-29-noir-blanc/generated/squelette-white-dial.jpg","upload_file_gid":"gid://shopify/MediaImage/59935496339794","product_media_gid":"gid://shopify/MediaImage/59935505842514","variant_gid":"gid://shopify/ProductVariant/54213255758162","old_variant_media_gid":"gid://shopify/MediaImage/59894066774354","readback":"READY_AND_EXACT"},
+        {"appearance":"black-dial-hand","source_file":"execution-courts-lot5/cadran-squelette-29-noir-blanc/source/black-dial-hand.webp","generated_file":"execution-courts-lot5/cadran-squelette-29-noir-blanc/generated/squelette-black-dial-hand.jpg","upload_file_gid":"gid://shopify/MediaImage/59935497453906","product_media_gid":"gid://shopify/MediaImage/59935505875282","variant_gid":"gid://shopify/ProductVariant/54213255790930","old_variant_media_gid":"gid://shopify/MediaImage/59894066807122","readback":"READY_AND_EXACT"},
+        {"appearance":"hand-only","source_file":"execution-courts-lot5/cadran-squelette-29-noir-blanc/source/hand-only.webp","generated_file":"execution-courts-lot5/cadran-squelette-29-noir-blanc/generated/squelette-hand-only.jpg","upload_file_gid":"gid://shopify/MediaImage/59935497879890","product_media_gid":"gid://shopify/MediaImage/59935505908050","variant_gid":"gid://shopify/ProductVariant/54213255823698","old_variant_media_gid":"gid://shopify/MediaImage/59894066676050","readback":"READY_AND_EXACT"},
+        {"appearance":"white-dial-hand","source_file":"execution-courts-lot5/cadran-squelette-29-noir-blanc/source/white-dial-hand.webp","generated_file":"execution-courts-lot5/cadran-squelette-29-noir-blanc/generated/squelette-white-dial-hand.jpg","upload_file_gid":"gid://shopify/MediaImage/59935498076498","product_media_gid":"gid://shopify/MediaImage/59935505940818","variant_gid":"gid://shopify/ProductVariant/54213255856466","old_variant_media_gid":"gid://shopify/MediaImage/59894066708818","readback":"READY_AND_EXACT"}
+      ],
+      "supplier_media_removed": [
+        "gid://shopify/MediaImage/59894066512210","gid://shopify/MediaImage/59894066544978","gid://shopify/MediaImage/59894066577746","gid://shopify/MediaImage/59894066610514","gid://shopify/MediaImage/59894066643282","gid://shopify/MediaImage/59894066676050","gid://shopify/MediaImage/59894066708818","gid://shopify/MediaImage/59894066741586","gid://shopify/MediaImage/59894066774354","gid://shopify/MediaImage/59894066807122"
+      ],
+      "final_media_count": 5,
+      "supplier_media_remaining": 0
+    },
+    {
+      "product_gid": "gid://shopify/Product/11013068915026",
+      "handle": "cadran-squelette-nh70-3-coloris",
+      "status_before": "DRAFT",
+      "status_after": "DRAFT",
+      "aliexpress_item_id": "1005008395512841",
+      "aliexpress_status": "onSelling",
+      "api_evidence": "execution-courts-lot5/api/lot5-1005008395512841.json",
+      "featured_before": "gid://shopify/MediaImage/59894068019538",
+      "featured_after": "gid://shopify/MediaImage/59935506006354",
+      "commercial_snapshot": {
+        "variant_count": 7,
+        "inventory_total": 1145,
+        "prices": ["12.67", "12.67", "12.69", "12.70", "12.67", "12.63", "12.69"],
+        "skus": ["14:201447303#blue", "14:496", "14:175", "14:94", "14:173", "14:29", "14:193"]
+      },
+      "appearances": [
+        {"appearance":"blue-lowercase-turquoise","source_file":"execution-courts-lot5/cadran-squelette-nh70-3-coloris/source/blue-lowercase.webp","generated_file":"execution-courts-lot5/cadran-squelette-nh70-3-coloris/generated/nh70-blue-lowercase.jpg","upload_file_gid":"gid://shopify/MediaImage/59935498600786","product_media_gid":"gid://shopify/MediaImage/59935506006354","variant_gid":"gid://shopify/ProductVariant/54213257363794","old_variant_media_gid":"gid://shopify/MediaImage/59894068412754","readback":"READY_AND_EXACT"},
+        {"appearance":"purple","source_file":"execution-courts-lot5/cadran-squelette-nh70-3-coloris/source/purple.webp","generated_file":"execution-courts-lot5/cadran-squelette-nh70-3-coloris/generated/nh70-purple.jpg","upload_file_gid":"gid://shopify/MediaImage/59935498895698","product_media_gid":"gid://shopify/MediaImage/59935506039122","variant_gid":"gid://shopify/ProductVariant/54213257396562","old_variant_media_gid":"gid://shopify/MediaImage/59894068216146","readback":"READY_AND_EXACT"},
+        {"appearance":"green","source_file":"execution-courts-lot5/cadran-squelette-nh70-3-coloris/source/green.webp","generated_file":"execution-courts-lot5/cadran-squelette-nh70-3-coloris/generated/nh70-green.jpg","upload_file_gid":"gid://shopify/MediaImage/59935499157842","product_media_gid":"gid://shopify/MediaImage/59935506071890","variant_gid":"gid://shopify/ProductVariant/54213257429330","old_variant_media_gid":"gid://shopify/MediaImage/59894068248914","readback":"READY_AND_EXACT"},
+        {"appearance":"grey","source_file":"execution-courts-lot5/cadran-squelette-nh70-3-coloris/source/grey.webp","generated_file":"execution-courts-lot5/cadran-squelette-nh70-3-coloris/generated/nh70-grey.jpg","upload_file_gid":"gid://shopify/MediaImage/59935499714898","product_media_gid":"gid://shopify/MediaImage/59935506104658","variant_gid":"gid://shopify/ProductVariant/54213257462098","old_variant_media_gid":"gid://shopify/MediaImage/59894068281682","readback":"READY_AND_EXACT"},
+        {"appearance":"blue-uppercase-deep","source_file":"execution-courts-lot5/cadran-squelette-nh70-3-coloris/source/blue-uppercase.webp","generated_file":"execution-courts-lot5/cadran-squelette-nh70-3-coloris/generated/nh70-blue-uppercase.jpg","upload_file_gid":"gid://shopify/MediaImage/59935500108114","product_media_gid":"gid://shopify/MediaImage/59935506137426","variant_gid":"gid://shopify/ProductVariant/54213257494866","old_variant_media_gid":"gid://shopify/MediaImage/59894068314450","readback":"READY_AND_EXACT"},
+        {"appearance":"white","source_file":"execution-courts-lot5/cadran-squelette-nh70-3-coloris/source/white.webp","generated_file":"execution-courts-lot5/cadran-squelette-nh70-3-coloris/generated/nh70-white.jpg","upload_file_gid":"gid://shopify/MediaImage/59935500796242","product_media_gid":"gid://shopify/MediaImage/59935506170194","variant_gid":"gid://shopify/ProductVariant/54213257527634","old_variant_media_gid":"gid://shopify/MediaImage/59894068347218","readback":"READY_AND_EXACT"},
+        {"appearance":"black","source_file":"execution-courts-lot5/cadran-squelette-nh70-3-coloris/source/black.webp","generated_file":"execution-courts-lot5/cadran-squelette-nh70-3-coloris/generated/nh70-black.jpg","upload_file_gid":"gid://shopify/MediaImage/59935501123922","product_media_gid":"gid://shopify/MediaImage/59935506202962","variant_gid":"gid://shopify/ProductVariant/54213257560402","old_variant_media_gid":"gid://shopify/MediaImage/59894068379986","readback":"READY_AND_EXACT"}
+      ],
+      "supplier_media_removed": [
+        "gid://shopify/MediaImage/59894068019538","gid://shopify/MediaImage/59894068052306","gid://shopify/MediaImage/59894068085074","gid://shopify/MediaImage/59894068117842","gid://shopify/MediaImage/59894068150610","gid://shopify/MediaImage/59894068183378","gid://shopify/MediaImage/59894068216146","gid://shopify/MediaImage/59894068248914","gid://shopify/MediaImage/59894068281682","gid://shopify/MediaImage/59894068314450","gid://shopify/MediaImage/59894068347218","gid://shopify/MediaImage/59894068379986","gid://shopify/MediaImage/59894068412754"
+      ],
+      "final_media_count": 7,
+      "supplier_media_remaining": 0
+    },
+    {
+      "product_gid": "gid://shopify/Product/11013057610066",
+      "handle": "mouvement-nh35-date-rouge",
+      "status_before": "DRAFT",
+      "status_after": "DRAFT",
+      "aliexpress_item_id": "1005009853779041",
+      "aliexpress_status": "onSelling",
+      "api_evidence": "execution-courts-lot5/api/lot5-1005009853779041.json",
+      "featured_before": "gid://shopify/MediaImage/59893960704338",
+      "featured_after": "gid://shopify/MediaImage/59935506399570",
+      "commercial_snapshot": {
+        "variant_count": 6,
+        "inventory_total": 813,
+        "prices": ["66.11", "66.11", "66.11", "66.11", "66.11", "66.11"],
+        "skus": ["14:29#NH35 Blue 3.0;200007763:201441035", "14:173#NH35 Black-Red 3.0;200007763:201441035", "14:10#NH35 Red 3.0;200007763:201441035", "14:366#NH35 White-Red 3.0;200007763:201441035", "14:175#NH35 VT-Silver 3.0;200007763:201441035", "14:193#NH35 White-Blue 3.0;200007763:201441035"]
+      },
+      "appearances": [
+        {"appearance":"blue-3","source_file":"execution-courts-lot5/mouvement-nh35-date-rouge/source/blue-3.webp","generated_file":"execution-courts-lot5/mouvement-nh35-date-rouge/generated/movement-blue-3.jpg","upload_file_gid":"gid://shopify/MediaImage/59935501615442","product_media_gid":"gid://shopify/MediaImage/59935506399570","variant_gid":"gid://shopify/ProductVariant/54213196939602","old_variant_media_gid":"gid://shopify/MediaImage/59893960900946","readback":"READY_AND_EXACT"},
+        {"appearance":"black-red-3","source_file":"execution-courts-lot5/mouvement-nh35-date-rouge/source/black-red-3.webp","generated_file":"execution-courts-lot5/mouvement-nh35-date-rouge/generated/movement-black-red-3.jpg","upload_file_gid":"gid://shopify/MediaImage/59935501844818","product_media_gid":"gid://shopify/MediaImage/59935506432338","variant_gid":"gid://shopify/ProductVariant/54213196972370","old_variant_media_gid":"gid://shopify/MediaImage/59893960933714","readback":"READY_AND_EXACT"},
+        {"appearance":"red-3","source_file":"execution-courts-lot5/mouvement-nh35-date-rouge/source/red-3.webp","generated_file":"execution-courts-lot5/mouvement-nh35-date-rouge/generated/movement-red-3.jpg","upload_file_gid":"gid://shopify/MediaImage/59935502074194","product_media_gid":"gid://shopify/MediaImage/59935506465106","variant_gid":"gid://shopify/ProductVariant/54213197005138","old_variant_media_gid":"gid://shopify/MediaImage/59893960966482","readback":"READY_AND_EXACT"},
+        {"appearance":"white-red-3","source_file":"execution-courts-lot5/mouvement-nh35-date-rouge/source/white-red-3.webp","generated_file":"execution-courts-lot5/mouvement-nh35-date-rouge/generated/movement-white-red-3.jpg","upload_file_gid":"gid://shopify/MediaImage/59935502795090","product_media_gid":"gid://shopify/MediaImage/59935506497874","variant_gid":"gid://shopify/ProductVariant/54213197037906","old_variant_media_gid":"gid://shopify/MediaImage/59893960999250","readback":"READY_AND_EXACT"},
+        {"appearance":"vt-silver-3","source_file":"execution-courts-lot5/mouvement-nh35-date-rouge/source/vt-silver-3.webp","generated_file":"execution-courts-lot5/mouvement-nh35-date-rouge/generated/movement-vt-silver-3.jpg","upload_file_gid":"gid://shopify/MediaImage/59935504236882","product_media_gid":"gid://shopify/MediaImage/59935506530642","variant_gid":"gid://shopify/ProductVariant/54213197070674","old_variant_media_gid":"gid://shopify/MediaImage/59893961032018","readback":"READY_AND_EXACT"},
+        {"appearance":"white-blue-3","source_file":"execution-courts-lot5/mouvement-nh35-date-rouge/source/white-blue-3.webp","generated_file":"execution-courts-lot5/mouvement-nh35-date-rouge/generated/movement-white-blue-3.jpg","upload_file_gid":"gid://shopify/MediaImage/59935504957778","product_media_gid":"gid://shopify/MediaImage/59935506563410","variant_gid":"gid://shopify/ProductVariant/54213197103442","old_variant_media_gid":"gid://shopify/MediaImage/59893961064786","readback":"READY_AND_EXACT"}
+      ],
+      "supplier_media_removed": [
+        "gid://shopify/MediaImage/59893960704338","gid://shopify/MediaImage/59893960737106","gid://shopify/MediaImage/59893960769874","gid://shopify/MediaImage/59893960802642","gid://shopify/MediaImage/59893960835410","gid://shopify/MediaImage/59893960868178","gid://shopify/MediaImage/59893960900946","gid://shopify/MediaImage/59893960933714","gid://shopify/MediaImage/59893960966482","gid://shopify/MediaImage/59893960999250","gid://shopify/MediaImage/59893961032018","gid://shopify/MediaImage/59893961064786"
+      ],
+      "final_media_count": 6,
+      "supplier_media_remaining": 0
+    }
+  ],
+  "final_readback": {
+    "status": "PASS",
+    "product_media_counts": [1, 5, 7, 6],
+    "all_media_ready": true,
+    "all_featured_media_maison": true,
+    "all_variants_exactly_one_media": true,
+    "all_product_and_variant_connections_fully_paginated": true,
+    "shopify_mutation_user_errors": 0
+  }
+}

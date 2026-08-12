@@ -1,0 +1,179 @@
+{
+  "schema": "maison-noirmont.visual-batch.v1",
+  "created_at_local": "2026-08-11T22:50:00+02:00",
+  "item_id": "1005007347658552",
+  "scope": "Six visualisations locales de variantes qualifiees; aucune mutation Shopify ou DSers",
+  "status": "PASS_6_OF_6",
+  "generation": {
+    "mode": "built-in imagegen",
+    "use_case": "precise-object-edit",
+    "attempts_per_sku": 1,
+    "retry_count": 0,
+    "source_policy": "Une source exacte locale distincte par SKU",
+    "shared_prompt": {
+      "primary_request": "Nouvelle composition studio premium Maison Noirmont du cadran exact sur fond mineral clair pierre-vers-craie; supprimer pince et decor fournisseur; cadran seul, centre, integralement visible et de face.",
+      "lighting": "Lumiere douce haute-gauche et une ombre diffuse unique.",
+      "critical_invariants": [
+        "Conserver exactement les glyphes arabes orientaux ١٢, ٣, ٦ et ٩ et tous les autres chiffres",
+        "Conserver la fenetre de date rectangulaire vide exactement a 3 h",
+        "Conserver geometrie, couleur, texture, finition metallique, trou central et piste des minutes",
+        "Aucun mot, lettre, marque, logo, signature ou filigrane"
+      ],
+      "avoid": [
+        "Chiffre duplique, absent ou altere",
+        "Pince fournisseur ou accessoire",
+        "Aiguilles, boitier ou couronne",
+        "Texte ou marque dans le decor",
+        "Badge, avis, HDR, reflet violent ou ombres multiples"
+      ]
+    }
+  },
+  "output_spec": {
+    "width": 2048,
+    "height": 2048,
+    "ratio": "1:1",
+    "format": "JPEG",
+    "profile": "sRGB IEC61966-2.1",
+    "target_weight_bytes": {
+      "min": 300000,
+      "max": 1258291
+    }
+  },
+  "qa": {
+    "method": "Inspection visuelle individuelle des sources, inspection des six rendus et planche source/rendu/zoom, fail-closed",
+    "board": {
+      "path": "planche-qa-source-rendu-1005007347658552.jpg",
+      "sha256": "9bba45db9f66dab71956e4636c083f2a85ca4ba62e704c96083d227f78fc048a"
+    },
+    "batch_checks": {
+      "six_distinct_output_hashes": true,
+      "exact_eastern_arabic_glyphs_12_3_6_9": true,
+      "date_window_at_3_oclock": true,
+      "no_brand_word_letter_logo_or_watermark": true,
+      "variant_color_texture_and_metal_preserved": true,
+      "supplier_tweezers_removed": true,
+      "square_jpeg_2048_srgb_and_weight_pass": true
+    }
+  },
+  "variants": [
+    {
+      "sku_id": "12000040362692622",
+      "property": "rose - Coffee",
+      "status": "PASS",
+      "variant_truth": "Cadran brun cafe soleille, chiffres appliques or rose",
+      "source": {
+        "path": "../../preuves-sourcing-api-2026-08-11-agent/1005007347658552-sources/rose---Coffee-12000040362692622.webp",
+        "sha256": "81759de70008e275a9a42afa91834eff4a7517d87573b8c03da33e0e31d87a3d"
+      },
+      "raw_generated": {
+        "path": "raw-generated/12000040362692622-rose-coffee.png",
+        "sha256": "ac0577793316f1cd55c50289b44d737a72960ab07e6f1f4738c50bdd9a805b06"
+      },
+      "final": {
+        "path": "cadran-arabe-oriental-date-28-5-v-12000040362692622-rose-coffee.jpg",
+        "sha256": "57133e2fa9c966cbcb2f0ad8f21eadbb86d878ec6678ab32824256c04d1018c1",
+        "bytes": 989236
+      }
+    },
+    {
+      "sku_id": "12000040362692623",
+      "property": "Rose Black",
+      "status": "PASS",
+      "variant_truth": "Cadran noir soleille, chiffres appliques or rose",
+      "source": {
+        "path": "../../preuves-sourcing-api-2026-08-11-agent/1005007347658552-sources/Rose-Black-12000040362692623.webp",
+        "sha256": "501ea326d9d640649c7cafd0b9f63009fc16c237a044ab59b1e82cc7603d30e1"
+      },
+      "raw_generated": {
+        "path": "raw-generated/12000040362692623-rose-black.png",
+        "sha256": "b2c8b539a7d5a27439f1d1e78574d260416516802084b8480d322796fed85280"
+      },
+      "final": {
+        "path": "cadran-arabe-oriental-date-28-5-v-12000040362692623-rose-black.jpg",
+        "sha256": "33edcf234ba1a06adab67d0753ed5cd157aa2deea238960fd68274ac9dfdd0a4",
+        "bytes": 852354
+      }
+    },
+    {
+      "sku_id": "12000040362692624",
+      "property": "Gold Black",
+      "status": "PASS",
+      "variant_truth": "Cadran noir soleille, chiffres appliques or jaune",
+      "source": {
+        "path": "../../preuves-sourcing-api-2026-08-11-agent/1005007347658552-sources/Gold-Black-12000040362692624.webp",
+        "sha256": "621a41a4cf1a935851e70f27f8a1c79f53acd8f0703c3b627bc891af2d97fd7c"
+      },
+      "raw_generated": {
+        "path": "raw-generated/12000040362692624-gold-black.png",
+        "sha256": "886f59bf25d1339e5a1c94032ae6634e864478ff964594f0ea07f49804b19443"
+      },
+      "final": {
+        "path": "cadran-arabe-oriental-date-28-5-v-12000040362692624-gold-black.jpg",
+        "sha256": "8e40712a1c3a3e57b7d96ab90fdc0725d456b0a76465709c34c36ce877727857",
+        "bytes": 918263
+      }
+    },
+    {
+      "sku_id": "12000040362692625",
+      "property": "Rose White",
+      "status": "PASS",
+      "variant_truth": "Cadran blanc argente soleille, chiffres appliques or rose",
+      "source": {
+        "path": "../../preuves-sourcing-api-2026-08-11-agent/1005007347658552-sources/Rose-White-12000040362692625.webp",
+        "sha256": "721b9f7b704173ceb7f8f5db4c3336c5a745dea7278df120b71a48608c71ef64"
+      },
+      "raw_generated": {
+        "path": "raw-generated/12000040362692625-rose-white.png",
+        "sha256": "514311f0c99560d0400468f44db06b9c354a67d33c558ccab4e9a5adf150183f"
+      },
+      "final": {
+        "path": "cadran-arabe-oriental-date-28-5-v-12000040362692625-rose-white.jpg",
+        "sha256": "635554b0485a9c13d53df511646d6a12c39fc2ed380d0df87579ab2c9fb2eec9",
+        "bytes": 1051615
+      }
+    },
+    {
+      "sku_id": "12000040362692629",
+      "property": "Silver Green",
+      "status": "PASS",
+      "variant_truth": "Cadran vert olive soleille, chiffres appliques argent",
+      "source": {
+        "path": "../../preuves-sourcing-api-2026-08-11-agent/1005007347658552-sources/Silver-Green-12000040362692629.webp",
+        "sha256": "51d73a32f6cd07b5cdf918a66ba2e2e7a502f6273d2f0acaf919c59274f6b232"
+      },
+      "raw_generated": {
+        "path": "raw-generated/12000040362692629-silver-green.png",
+        "sha256": "29ad06744c93e6a3fc9d06e3cb1e07f2cb02f9512a443878ba42ef7171aa4fc4"
+      },
+      "final": {
+        "path": "cadran-arabe-oriental-date-28-5-v-12000040362692629-silver-green.jpg",
+        "sha256": "e2987d56d04ee31a1182e82958fd9c190cb75ee97e2f3157fd113bc8822a2a28",
+        "bytes": 887219
+      }
+    },
+    {
+      "sku_id": "12000040362692631",
+      "property": "Silver Pink",
+      "status": "PASS",
+      "variant_truth": "Cadran rose metallique soleille, chiffres appliques sombres a aretes metalliques",
+      "source": {
+        "path": "../../preuves-sourcing-api-2026-08-11-agent/1005007347658552-sources/Silver-Pink-12000040362692631.webp",
+        "sha256": "b8d14b938a393b59290c7f7e11311012b54bf1f15c05266ea8a15bcf4a0b069d"
+      },
+      "raw_generated": {
+        "path": "raw-generated/12000040362692631-silver-pink.png",
+        "sha256": "7b8d44644beffd0ccba7d1a7a0611b6f48172d41dd5b179ed276650465c1fefa"
+      },
+      "final": {
+        "path": "cadran-arabe-oriental-date-28-5-v-12000040362692631-silver-pink.jpg",
+        "sha256": "8d4905123fd747a313a617adcc30380b0f02f4431320f9bc840b51be0d54a5bc",
+        "bytes": 1233900
+      }
+    }
+  ],
+  "mutations": {
+    "shopify": false,
+    "dsers": false,
+    "existing_order_or_master_json": false
+  }
+}

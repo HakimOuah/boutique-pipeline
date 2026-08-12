@@ -1,0 +1,104 @@
+{
+  "id": "codex-20260811-1227-remplacement92-pilote-lumineuses-a-7",
+  "type": "generate_images",
+  "created_at": "2026-08-11T12:27:00+02:00",
+  "requested_by": "codex",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+        "sku": "14:365462#black dial 1 hands",
+        "slot": "variante",
+        "fichier": "cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-1-hands.jpg",
+        "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/S35caf418760b4afbab4efe1602f6ec60y.webp"
+      },
+      {
+        "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+        "sku": "14:347#black dial 1",
+        "slot": "variante",
+        "fichier": "cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-1.jpg",
+        "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/S9954817d193441e38189dd028a59618ff.webp"
+      },
+      {
+        "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+        "sku": "14:100016652#black dial 2 hands",
+        "slot": "variante",
+        "fichier": "cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-2-hands.jpg",
+        "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/S07ad54a7465341efaab46c7a3f0ce9554.webp"
+      },
+      {
+        "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+        "sku": "14:201336230#black dial 2",
+        "slot": "variante",
+        "fichier": "cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-2.jpg",
+        "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/S7782a05cd41144a5abde305f0d1caa4fy.webp"
+      },
+      {
+        "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+        "sku": "14:173#blue dial hands",
+        "slot": "variante",
+        "fichier": "cadran-pilote-33-5-aiguilles-lumineuses-v-blue-dial-hands.jpg",
+        "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/S19e9880fad6242bea9e75c87c8c7c83dn.webp"
+      },
+      {
+        "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+        "sku": "14:193#blue dial",
+        "slot": "variante",
+        "fichier": "cadran-pilote-33-5-aiguilles-lumineuses-v-blue-dial.jpg",
+        "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/Sa4e3471cb19148b1ae5517689bfbe8896.webp"
+      },
+      {
+        "handle": "cadran-pilote-33-5-aiguilles-lumineuses",
+        "sku": "14:865#green dial hands",
+        "slot": "variante",
+        "fichier": "cadran-pilote-33-5-aiguilles-lumineuses-v-green-dial-hands.jpg",
+        "source": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/Se7d7bc37b7794b78bb3342382418571eI.webp"
+      }
+    ],
+    "sources": [
+      "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/S35caf418760b4afbab4efe1602f6ec60y.webp",
+      "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/S9954817d193441e38189dd028a59618ff.webp",
+      "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/S07ad54a7465341efaab46c7a3f0ce9554.webp",
+      "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/S7782a05cd41144a5abde305f0d1caa4fy.webp",
+      "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/S19e9880fad6242bea9e75c87c8c7c83dn.webp",
+      "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/Sa4e3471cb19148b1ae5517689bfbe8896.webp",
+      "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-33-5-aiguilles-lumineuses/Se7d7bc37b7794b78bb3342382418571eI.webp"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+      "surcharges": [
+        "Visuel de variante carré 1:1, source exacte par entrée, produit isolé sur le fond minéral clair Maison Noirmont, lumière douce haute-gauche et ombre diffuse.",
+        "Toutes les images d'un même lot gardent cadrage, échelle, orientation, fond et lumière identiques ; seuls les attributs physiques prouvés par la source SKU varient."
+      ]
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "Respecter le type indiqué par le SKU : cadran seul, aiguilles seules ou cadran avec aiguilles. Préserver chiffres 1-12 et 13-24, minuterie 5-60, teinte du cadran, points de lume, couleur et géométrie exactes des aiguilles.",
+        "Le logo et le mot Tandorio situés hors produit sont un filigrane photographique fournisseur : ils doivent disparaître dans la nouvelle composition. Aucun jeu d'aiguilles ne doit être transféré vers une autre variante.",
+        "VÉRITÉ PRODUIT PAR ENTRÉE : utiliser exclusivement le chemin `source` de l'entrée manifeste correspondante. Une source ne peut servir qu'à son fichier cible et à ses variantes explicitement mappées.",
+        "La photographie fournisseur sert uniquement de référence produit. Produire une nouvelle composition Maison Noirmont complète : fond minéral clair pierre-vers-craie, lumière douce haute-gauche, ombre diffuse, produit centré et intégralement visible.",
+        "Supprimer de la nouvelle composition uniquement les éléments photographiques extérieurs au produit : filigranes, logos de boutique, textes promotionnels, encarts, vignettes, outils, emballages et arrière-plan fournisseur. Aucun gommage, clonage ni inpainting de la source n'est admis.",
+        "Préserver tout élément constitutif physiquement présent sur le produit source exact, y compris chiffres, repères, minuterie, texture, ouvertures, symboles et inscriptions génériques. Ne jamais inventer, corriger, déplacer, masquer ou transférer un élément physique.",
+        "Aucun nom de marque, logo fournisseur, filigrane, texte promotionnel ou caractère parasite ajouté sur le produit ou le fond final. Les chiffres et symboles constitutifs prouvés par la source restent autorisés et obligatoires.",
+        "Conserver un cadrage, une orientation, une échelle et une lumière identiques dans le lot. Les cadrans sont parfaitement de face et les jeux d'aiguilles seuls sont disposés proprement sans cadran ni composant inventé.",
+        "Sortie 2048 × 2048 px, JPEG sRGB qualité environ 90, viser 400-900 Ko et respecter exactement le nom `fichier` du manifeste."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Contrôle source↔rendu entrée par entrée, en résolution originale : type exact (cadran, aiguilles ou ensemble), teinte, texture, géométrie, chiffres, index, minuterie, ouvertures, symboles, inscriptions constitutives et composants.",
+        "Contrôle bloquant : aucun filigrane, logo de boutique/fournisseur, texte promotionnel, vignette, encart, outil, emballage, trace de gommage ou caractère parasite.",
+        "Contrôle bloquant : aucune permutation entre SKU ; aucun index, chiffre, trou, ouverture, aiguille, date, symbole ou inscription physique ajouté, retiré, déplacé ou masqué.",
+        "Planche de contrôle du lot, au moins 740 px par vignette, avec noms de fichiers lisibles, afin de comparer fidélité et homogénéité de cadrage/échelle.",
+        "Contrôle fichier : nom exact du manifeste, 2048 × 2048, 1:1 strict, JPEG sRGB et poids conforme. Tout candidat ambigu ou non prouvable est rejeté et n'entre pas dans le manifeste réalisé."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-lumineuses",
+      "manifeste": "manifeste-remplacement92-pilote-lumineuses-a-7.json"
+    }
+  },
+  "notes": "Remplacement des 92 médias fournisseur retenus : génération locale uniquement. Ne toucher ni Shopify, ni DSers, ni prix, ni statut. Le rattachement Shopify sera réalisé séparément après QA indépendante."
+}

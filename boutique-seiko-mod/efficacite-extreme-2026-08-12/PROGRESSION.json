@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "shop": "Maison Noirmont",
+  "started_at": "2026-08-12T00:00:00+02:00",
+  "scope": {
+    "rule": "all ACTIVE and DRAFT products; ARCHIVED excluded",
+    "products_total_live": 201,
+    "products_active": 96,
+    "products_draft": 95,
+    "products_archived_excluded": 10,
+    "products_in_scope": 191
+  },
+  "visual_standard": "STANDARD-EXECUTION.md",
+  "audit": {
+    "status": "complete",
+    "products_audited": 191,
+    "products_remaining_to_audit": 0,
+    "products_with_zero_aliexpress_media": null,
+    "products_requiring_work": null,
+    "draft_descriptions_ready": 93,
+    "draft_descriptions_raw_or_missing": 2,
+    "appearance_groups_required_observed": 1466,
+    "appearance_groups_already_covered_at_audit": 285,
+    "appearance_groups_missing_at_audit": 1181,
+    "appearance_groups_known_local_ready_not_uploaded_at_audit": 27,
+    "appearance_groups_new_generation_estimate_before_full_local_reconciliation": 1154,
+    "notes": "Counts cover all 96 ACTIVE and 95 DRAFT products. The appearance total for the nine older drafts applies the shared-size/caliber rule and is conservative for multi-reference watches."
+  },
+  "production": {
+    "validated_local_assets_reused": 215,
+    "new_files_generated": 139,
+    "new_files_qa_pass": 134,
+    "new_files_qa_rejected": 5
+  },
+  "shopify": {
+    "products_fully_cleaned_this_run": 116,
+    "products_partially_cleaned_this_run": 0,
+    "media_uploaded": 263,
+    "variant_associations_verified": 849,
+    "supplier_media_removed": 463,
+    "mutations_started": true
+  },
+  "updated_at": "2026-08-12T03:15:00+02:00"
+}

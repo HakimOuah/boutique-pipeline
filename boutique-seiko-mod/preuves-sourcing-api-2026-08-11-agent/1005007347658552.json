@@ -1,0 +1,257 @@
+{
+  "schema": "maison-noirmont.aliexpress-arabic-dial-proof.v1",
+  "created_at_utc": "2026-08-11T19:10:00+00:00",
+  "source": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS",
+  "browser_used": false,
+  "product": {
+    "evaluation_count": "0",
+    "product_id": "1005007347658552",
+    "rating": "0.0",
+    "sales_count": "164",
+    "status": "onSelling",
+    "store": {
+      "communication_rating": "4.8",
+      "country": "CN",
+      "id": 1103516380,
+      "item_as_described_rating": "4.8",
+      "name": "Watch DlY Factory Store",
+      "shipping_speed_rating": "4.8"
+    },
+    "title": "Cadran de montre 28.5mm, Surface à motifs solaires, Alphabet arabe avec Date, cadrans de montre, accessoires de remplacement pour mouvement NH35/NH36"
+  },
+  "compatibility_proof": {
+    "diameter_mm": 28.5,
+    "movements": [
+      "NH35",
+      "NH36"
+    ],
+    "basis": "official API product title; not physically tested"
+  },
+  "image_qa": {
+    "decision": "PASS at product level; only exact-qualified SKUs are operationally retained",
+    "exact_eastern_arabic_glyphs_confirmed": [
+      "١٢",
+      "٣",
+      "٦",
+      "٩"
+    ],
+    "physical_dial_brand_or_logo": false,
+    "physical_dial_words_or_letters": false,
+    "date_window": "3 o'clock",
+    "numeric_minute_track": "Western numeric graduations only; allowed because they are numbers, not words or letters",
+    "board_path": "preuves-sourcing-api-2026-08-11-agent/1005007347658552-variantes.jpg",
+    "board_sha256": "5d0f4c77336128183d67c5a4d6d43f137524860f13a9093e43269795523a4ba2",
+    "sources_path": "preuves-sourcing-api-2026-08-11-agent/1005007347658552-sources/"
+  },
+  "exact_qualified_skus": [
+    {
+      "sku_id": "12000040362692622",
+      "property": "rose - Coffee",
+      "sku_attr": "14:201447598#rose - Coffee",
+      "image": "https://ae01.alicdn.com/kf/S34ab71b2b6c648b995567c3a81dde2ech.jpg",
+      "local_sha256": "81759de70008e275a9a42afa91834eff4a7517d87573b8c03da33e0e31d87a3d",
+      "price_eur": 8.59,
+      "stock": 945,
+      "freight": {
+        "company": "AliExpress Selection Standard",
+        "code": "CAINIAO_FULFILLMENT_STD",
+        "fee_eur": 1.99,
+        "tracked": true,
+        "ship_from": "CN",
+        "min_days": 8,
+        "max_days": 13,
+        "available_stock": 945
+      },
+      "landed_cost_eur": 10.58,
+      "checked_at_utc": "2026-08-11T18:53:41+00:00"
+    },
+    {
+      "sku_id": "12000040362692623",
+      "property": "Rose Black",
+      "sku_attr": "14:201447303#Rose Black",
+      "image": "https://ae01.alicdn.com/kf/S30c24b9459c441ee947475c25ddad357P.jpg",
+      "local_sha256": "501ea326d9d640649c7cafd0b9f63009fc16c237a044ab59b1e82cc7603d30e1",
+      "price_eur": 8.69,
+      "stock": 942,
+      "freight": {
+        "company": "AliExpress Selection Standard",
+        "code": "CAINIAO_FULFILLMENT_STD",
+        "fee_eur": 1.99,
+        "tracked": true,
+        "ship_from": "CN",
+        "min_days": 9,
+        "max_days": 13,
+        "available_stock": 942
+      },
+      "landed_cost_eur": 10.68,
+      "checked_at_utc": "2026-08-11T18:53:41+00:00"
+    },
+    {
+      "sku_id": "12000040362692624",
+      "property": "Gold Black",
+      "sku_attr": "14:200005100#Gold Black",
+      "image": "https://ae01.alicdn.com/kf/S670fec2464804627a36cb934c0302a18E.jpg",
+      "local_sha256": "621a41a4cf1a935851e70f27f8a1c79f53acd8f0703c3b627bc891af2d97fd7c",
+      "price_eur": 8.69,
+      "stock": 976,
+      "freight": {
+        "company": "AliExpress Selection Standard",
+        "code": "CAINIAO_FULFILLMENT_STD",
+        "fee_eur": 1.99,
+        "tracked": true,
+        "ship_from": "CN",
+        "min_days": 9,
+        "max_days": 13,
+        "available_stock": 976
+      },
+      "landed_cost_eur": 10.68,
+      "checked_at_utc": "2026-08-11T18:53:41+00:00"
+    },
+    {
+      "sku_id": "12000040362692625",
+      "property": "Rose White",
+      "sku_attr": "14:200000080#Rose White",
+      "image": "https://ae01.alicdn.com/kf/S2a46a1c89a3b422ba0479fb5c49646e1y.jpg",
+      "local_sha256": "721b9f7b704173ceb7f8f5db4c3336c5a745dea7278df120b71a48608c71ef64",
+      "price_eur": 8.59,
+      "stock": 979,
+      "freight": {
+        "company": "AliExpress Selection Standard",
+        "code": "CAINIAO_FULFILLMENT_STD",
+        "fee_eur": 1.99,
+        "tracked": true,
+        "ship_from": "CN",
+        "min_days": 8,
+        "max_days": 13,
+        "available_stock": 979
+      },
+      "landed_cost_eur": 10.58,
+      "checked_at_utc": "2026-08-11T18:53:41+00:00"
+    },
+    {
+      "sku_id": "12000040362692629",
+      "property": "Silver Green",
+      "sku_attr": "14:350850#Silver Green",
+      "image": "https://ae01.alicdn.com/kf/S72d688c9234e45ab84d14909cf15595bd.jpg",
+      "local_sha256": "51d73a32f6cd07b5cdf918a66ba2e2e7a502f6273d2f0acaf919c59274f6b232",
+      "price_eur": 8.89,
+      "stock": 7,
+      "freight": {
+        "company": "AliExpress Selection Standard",
+        "code": "CAINIAO_FULFILLMENT_STD",
+        "fee_eur": 1.99,
+        "tracked": true,
+        "ship_from": "CN",
+        "min_days": 8,
+        "max_days": 12,
+        "available_stock": 7
+      },
+      "landed_cost_eur": 10.88,
+      "checked_at_utc": "2026-08-11T18:53:41+00:00"
+    },
+    {
+      "sku_id": "12000040362692631",
+      "property": "Silver Pink",
+      "sku_attr": "14:10#Silver Pink",
+      "image": "https://ae01.alicdn.com/kf/Sa0e30f0d718945d08d4d31d606a7c2daG.jpg",
+      "local_sha256": "b8d14b938a393b59290c7f7e11311012b54bf1f15c05266ea8a15bcf4a0b069d",
+      "price_eur": 8.59,
+      "stock": 932,
+      "freight": {
+        "company": "AliExpress Selection Standard",
+        "code": "CAINIAO_FULFILLMENT_STD",
+        "fee_eur": 1.99,
+        "tracked": true,
+        "ship_from": "CN",
+        "min_days": 9,
+        "max_days": 13,
+        "available_stock": 932
+      },
+      "landed_cost_eur": 10.58,
+      "checked_at_utc": "2026-08-11T18:53:41+00:00"
+    }
+  ],
+  "excluded_skus": [
+    {
+      "sku_id": "12000040362692632",
+      "property": "Silver White",
+      "sku_attr": "14:29#Silver White",
+      "image": "https://ae01.alicdn.com/kf/S0266cada409a49bb84c415765c94aafaU.jpg",
+      "local_sha256": "06e5caaa0e759c933dd4626ba1c9b15fec963568b9c702967c344721725908ef",
+      "price_eur": 8.69,
+      "stock": 0,
+      "reason": "stock_zero"
+    },
+    {
+      "sku_id": "12000040362692633",
+      "property": "Silver Blue",
+      "sku_attr": "14:94#Silver Blue",
+      "image": "https://ae01.alicdn.com/kf/S0f460683eec94e0084187ca70dc99e43S.jpg",
+      "local_sha256": "6966cc1f4519b61f6ad5ca9a51638829ae20b6e9e1feaed8d21f99df990cf6f6",
+      "price_eur": 8.59,
+      "stock": 0,
+      "reason": "stock_zero"
+    },
+    {
+      "sku_id": "12000040362692626",
+      "property": "gold",
+      "sku_attr": "14:100013777#gold",
+      "image": "https://ae01.alicdn.com/kf/Sa061ea41de364b798e5cf66e32301933M.jpg",
+      "local_sha256": "3a2670b663e69063d1dcc7cdd96c6d9cc6fab36b59efb7e2ba4795641d2de2ef",
+      "price_eur": 8.59,
+      "stock": 953,
+      "reason": "exact_resolution_ambiguous"
+    },
+    {
+      "sku_id": "12000040362692627",
+      "property": "Silver Black",
+      "sku_attr": "14:100005979#Silver Black",
+      "image": "https://ae01.alicdn.com/kf/S920a5776a78c43f592d36e4d7e85b0b9G.jpg",
+      "local_sha256": "3dff406a15218ec9c390b517224d79325919a781af0e85707a4010453c325cbf",
+      "price_eur": 8.69,
+      "stock": 0,
+      "reason": "stock_zero"
+    },
+    {
+      "sku_id": "12000040362692628",
+      "property": "Gold White",
+      "sku_attr": "14:350686#Gold White",
+      "image": "https://ae01.alicdn.com/kf/S0ff042d8ea4a4c77bff3ab202e0022a4v.jpg",
+      "local_sha256": "cee4d822fb7be62b0e5c65fc782f7227876f9b169baa64003fe192565badb3ba",
+      "price_eur": 8.99,
+      "stock": 0,
+      "reason": "stock_zero"
+    },
+    {
+      "sku_id": "12000040362692630",
+      "property": "Silver - Light Blue",
+      "sku_attr": "14:350853#Silver - Light Blue",
+      "image": "https://ae01.alicdn.com/kf/S1e53d76ea9324d2a9aef6f9f740dfc85h.jpg",
+      "local_sha256": "cc56990119d9a522fdcf09964ec3d9e2fa0a9d272e00218f80107add788f06df",
+      "price_eur": 8.49,
+      "stock": 0,
+      "reason": "stock_zero"
+    }
+  ],
+  "near_miss_recheck": {
+    "product_id": "1005012130205925",
+    "checked_at_utc": "2026-08-11T18:45:03+00:00",
+    "sales_count": 9,
+    "status": "onSelling",
+    "decision": "FAIL: below hard minimum of 10 sales"
+  },
+  "latest_surface_recheck": {
+    "requests": 12,
+    "successful": 0,
+    "upstream_errors": 12,
+    "error": "IOPUpstreamError",
+    "decision": "coverage limitation, not negative product proof"
+  },
+  "limits": [
+    "No physical fit test",
+    "Rating/evaluation count returned by variants/exact was 0.0/0 despite search grid showing 4.9; qualification does not rely on search rating",
+    "SKU 12000040362692626 excluded because the gateway could not resolve the exact variant uniquely",
+    "All evidence is time-sensitive and must be refreshed before import"
+  ]
+}
+

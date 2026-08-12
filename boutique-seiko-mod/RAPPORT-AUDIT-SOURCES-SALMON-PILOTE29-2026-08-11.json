@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "audit_id": "audit-sources-salmon-pilote29-20260811",
+  "created_at": "2026-08-11T18:20:00+02:00",
+  "scope": {
+    "handle": "cadran-pilote-29-mod-nh35",
+    "supplier_item_id": "1005009148826972",
+    "variants": [
+      {
+        "sku": "14:347#salmon dial-No lume",
+        "shopify_variant_gid_from_local_mapping": "gid://shopify/ProductVariant/54213329650002",
+        "target_file": "cadran-pilote-29-mod-nh35-v-salmon-dial-no-lume.jpg"
+      },
+      {
+        "sku": "14:200025551#salmon set-No lume",
+        "shopify_variant_gid_from_local_mapping": "gid://shopify/ProductVariant/54213329518930",
+        "target_file": "cadran-pilote-29-mod-nh35-v-salmon-set-no-lume.jpg"
+      }
+    ],
+    "authorized_surfaces": [
+      "official AliExpress Open Platform API through the read-only whitelisted VPS gateway",
+      "local supplier sources and mappings"
+    ],
+    "prohibited_surfaces_respected": [
+      "AliExpress browser",
+      "Shopify",
+      "DSers",
+      "image generation",
+      "master progress JSON mutation",
+      "wrapper execution"
+    ]
+  },
+  "governing_rules": {
+    "permanent_image_rule": {
+      "path": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md",
+      "section": "4.1 Stérilité — et la doctrine des chiffres",
+      "rule": "No logo, brand name, word or letter may appear on a dial; constitutive Arabic digits, bezel scales and date windows remain mandatory.",
+      "application": "AUTOMATIC is a physical generic functional inscription, not a brand and not a photographic watermark, but it is still a forbidden word under this permanent image rule."
+    },
+    "prior_api_audit": {
+      "path": "boutique-seiko-mod/AUDIT-13-BROUILLONS-SANS-MANIFESTE-API-ALIEXPRESS-2026-08-10.md",
+      "lines": "17-19, 81-88",
+      "application": "The earlier official-API audit already classified both salmon variants of item 1005010122462262 as physically printed AUTOMATIC and therefore blocked under the sterile-dial promise."
+    },
+    "documentation_reconciliation": {
+      "generic_text_classification": "AUTOMATIC describes a function and is not a third-party brand verbatim.",
+      "visual_pipeline_eligibility": "FORBIDDEN",
+      "reason": "The permanent image executor rule is stricter than the broader catalogue usage of sterile meaning no brand. For generation and source QA, any word or letter on a dial is disqualifying.",
+      "order_conflict_detected": "The archived order also said to preserve generic physical inscriptions. That clause conflicted with permanent section 4.1 for dial assets. The executor's fail-closed rejection was correct; retaining AUTOMATIC or digitally removing it would both be noncompliant."
+    }
+  },
+  "official_api_evidence": {
+    "gateway": {
+      "client": "codex-chasse-clusters/tools/aliexpress_vps_gateway.py",
+      "upstream_method": "aliexpress.ds.product.get",
+      "source": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS",
+      "health_checked_at_utc": "2026-08-11T16:16:32+00:00",
+      "health_ok": true,
+      "access_token_expires_at_utc": "2026-09-01T18:29:47+00:00",
+      "refresh_token_expires_at_utc": "2026-10-01T18:09:12+00:00"
+    },
+    "target_product": {
+      "product_id": "1005009148826972",
+      "status": "onSelling",
+      "checked_at_utc": "2026-08-11T16:16:35+00:00",
+      "variant_count": 11,
+      "store_name": "Tandorio Watch Factory Store",
+      "all_variant_values": [
+        "black set 1-Lume",
+        "black set 2-Lume",
+        "salmon set-No lume",
+        "white set-No lume",
+        "white dial-No lume",
+        "black dial 2-Lume",
+        "salmon dial-No lume",
+        "black dial 1-Lume",
+        "silver hands",
+        "blue hands",
+        "black hands"
+      ],
+      "within_product_equivalence_result": "The only salmon choices are the two audited SKUs. Other dials differ in physical colour and/or lume; hands-only SKUs do not prove a dial. There is no second salmon SKU image without AUTOMATIC in this product."
+    },
+    "exact_target_skus": [
+      {
+        "variant_value": "salmon dial-No lume",
+        "sku_attr": "14:347#salmon dial-No lume",
+        "sku_id": "12000048093748192",
+        "stock": 534,
+        "checked_at_utc": "2026-08-11T16:18:28+00:00",
+        "image_url": "https://ae01.alicdn.com/kf/Sec960ce161274d3db0b0854a5807b552s.jpg",
+        "visual_observation": "Exact 1000 x 1000 SKU image shows the salmon dial alone, with blue AUTOMATIC physically printed below the centre pinion.",
+        "exact_api_qualification": "PASS for unique SKU, positive stock and one France freight option; FAIL for sterile visual eligibility."
+      },
+      {
+        "variant_value": "salmon set-No lume",
+        "sku_attr": "14:200025551#salmon set-No lume",
+        "sku_id": "12000048093748188",
+        "stock": 537,
+        "checked_at_utc": "2026-08-11T16:18:30+00:00",
+        "image_url": "https://ae01.alicdn.com/kf/Sdea81705cf054f4ca1ce66e125f100053.jpg",
+        "visual_observation": "Exact 1000 x 1000 SKU image shows the salmon dial with the blue hand set, and blue AUTOMATIC physically printed below the centre pinion.",
+        "exact_api_qualification": "PASS for unique SKU, positive stock and one France freight option; FAIL for sterile visual eligibility."
+      }
+    ],
+    "known_equivalent_product": {
+      "product_id": "1005010122462262",
+      "status": "onSelling",
+      "checked_at_utc": "2026-08-11T16:16:37+00:00",
+      "variant_count": 10,
+      "store_name": "TD-Mywatchcode Store",
+      "salmon_variants": [
+        {
+          "variant_value": "Only Salmon Dial",
+          "sku_id": "12000051219513104",
+          "stock": 82,
+          "image_url": "https://ae01.alicdn.com/kf/Sae5718a23b054aaeb18486e061de2f04E.jpg",
+          "visual_observation": "Same salmon pilot/date dial geometry, but AUTOMATIC is physically printed. It is not a clean alternative source.",
+          "exact_checked_at_utc": "2026-08-11T16:18:32+00:00"
+        },
+        {
+          "variant_value": "Salmon Dial Hand",
+          "sku_id": "12000051219513111",
+          "stock": 87,
+          "image_url": "https://ae01.alicdn.com/kf/S547e8d89726647bcb19c8c71bd59c049H.jpg",
+          "visual_observation": "AUTOMATIC is physically printed. Its white/red hand set also differs materially from the target blue hand set, so it is not an exact set source even apart from the word.",
+          "exact_checked_at_utc": "2026-08-11T16:18:35+00:00"
+        }
+      ],
+      "other_variants_result": "Black, white and B dials are word-free but not colour-equivalent to salmon; two hands-only choices do not prove a dial or set."
+    },
+    "official_text_search": {
+      "successful_queries": 8,
+      "returned_rows": 159,
+      "unique_product_ids": 109,
+      "strict_title_candidates_matching_dial_or_cadran_plus_29mm_plus_NH35_or_NH36": 0,
+      "queries": [
+        "29mm pilot salmon dial NH35 date",
+        "29mm sterile salmon watch dial NH35 NH36",
+        "29mm pink pilot dial NH35 24 hour",
+        "29mm peach dial NH35 pilot date window",
+        "salmon watch dial",
+        "29mm watch dial",
+        "pilot watch dial NH35",
+        "salmon NH35 dial"
+      ],
+      "failed_latest_sort_queries": {
+        "count": 4,
+        "error": "IOPUpstreamError / EXCEPTION_TEXT_SEARCH_FOR_DS",
+        "request_ids": [
+          "0b83fe6a17864650451893291",
+          "212a715417864650470246546",
+          "0b83fe6a17864650489384204",
+          "212a73a517864650506407945"
+        ]
+      },
+      "limitation": "AliExpress text search was very noisy and even omitted the two known product IDs, so it is not treated as proof of global marketplace absence. The structural verdict rests on exact SKU truth: the current supplier SKU itself physically contains AUTOMATIC, and a word-free image would misrepresent that SKU."
+    }
+  },
+  "local_evidence": {
+    "exact_sources": [
+      {
+        "sku": "14:347#salmon dial-No lume",
+        "path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/Sec960ce161274d3db0b0854a5807b552s.webp",
+        "sha256": "015d4ce6f131b93a1c3981ce4f5e8f788a37c8ff64847743004eceb63b93abbf",
+        "dimensions": "1000x1000",
+        "observation": "Physical blue AUTOMATIC present."
+      },
+      {
+        "sku": "14:200025551#salmon set-No lume",
+        "path": "scratchpad/remplacement-photos-aliexpress-92-2026-08-11/cadran-pilote-29-mod-nh35/Sdea81705cf054f4ca1ce66e125f100053.webp",
+        "sha256": "fe3b5c03b85082f8ba046a7257466d46f7fc5b7b6c04998d8b6fa07982157cc8",
+        "dimensions": "1000x1000",
+        "observation": "Physical blue AUTOMATIC present; exact blue hand set visible."
+      }
+    ],
+    "same_product_other_view": {
+      "path": "boutique-seiko-mod/sources-fournisseur-2026-08/cadran-pilote-29-mod-nh35/face-fournisseur-1005009148826972.jpg",
+      "sha256": "670b506ccf3d38328c7d562f04aca64ba397e5d878cfb90d1b291f04a9b7cf53",
+      "dimensions": "1000x1000",
+      "observation": "The four-dial supplier board independently shows AUTOMATIC on the salmon dial while the black and white dials are word-free. Several bottom thumbnails repeat the salmon word."
+    },
+    "known_equivalent_other_view": {
+      "path": "boutique-seiko-mod/sources-fournisseur-2026-08/cadran-sterile-saumon-29-aiguilles/face-fournisseur-1005010122462262.jpg",
+      "sha256": "c974b397044a821a236fe116160461ad41158f024925990cec31813a46118fa2",
+      "dimensions": "1000x1000",
+      "observation": "The alternative supplier board independently shows AUTOMATIC on its salmon set; black, B and white sets are word-free but are not salmon equivalents."
+    },
+    "archived_executor_rejection": {
+      "path": "ordres/pour-codex/resultats/20260811-1227-generate_images-remplacement92-pilote29-11.json",
+      "status": "done",
+      "salmon_delivered_count": 0,
+      "salmon_rejected_count": 2,
+      "reason": "Keeping AUTOMATIC violates permanent section 4.1; removing it violates product fidelity and the no-inpainting rule."
+    }
+  },
+  "source_qa": [
+    {
+      "sku": "14:347#salmon dial-No lume",
+      "exact_source_proven": true,
+      "source_without_automatic_found": false,
+      "compliant_for_class_A_order": false,
+      "reason": "The exact live SKU image and independent same-product board both prove AUTOMATIC is physically part of the salmon dial."
+    },
+    {
+      "sku": "14:200025551#salmon set-No lume",
+      "exact_source_proven": true,
+      "source_without_automatic_found": false,
+      "compliant_for_class_A_order": false,
+      "reason": "The exact live SKU image and independent same-product board both prove AUTOMATIC is physically part of the salmon dial; the known alternative set also has the word and different hands."
+    }
+  ],
+  "verdict": {
+    "status": "BLOCKAGE_STRUCTUREL_ABANDONNER_LES_2_REMPLACEMENTS_SUR_LES_SKU_ACTUELS",
+    "class_A_order_created": false,
+    "reason": "There is no truthful exact source without AUTOMATIC for either current SKU. A generated word-free rendering would depict a product different from the supplier SKU; digital removal or omission is prohibited.",
+    "safe_next_path": "Re-source and remap to a genuinely different AliExpress article/SKU that explicitly sells the same 29 mm salmon pilot/date dial, and for the set the exact same hand geometry and colour, without any physical word. Only after the supplier SKU itself changes and is reverified should a new class A image order be prepared.",
+    "mutations_performed": []
+  }
+}
