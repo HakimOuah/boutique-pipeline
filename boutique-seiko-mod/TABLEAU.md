@@ -41,7 +41,7 @@ Dernière mise à jour : **12/08/2026**, après audit contradictoire du travail 
 **État** : À FAIRE · **Pour** : Claude ou Codex
 **Pourquoi** : la session du 12/08 a retiré des médias sur **14 fiches ACTIVES** jusqu'à n'en laisser qu'une. `trente-neuf-classique-cannelee` 12 → 1, `trente-neuf-duo-classique-bicolore` 10 → 1, les deux aviateurs 5 → 1. Une fiche à une seule image ne passe pas l'examen Merchant Center et convertit mal.
 **Comment** :
-1. Lire `journal/` → dossier `efficacite-extreme-2026-08-12` : les suppressions y sont tracées, avec les URLs des médias retirés.
+1. Lire `preuves/2026-08-12-efficacite-extreme/` : les suppressions y sont tracées, avec les URLs des médias retirés.
 2. Établir la liste exacte des 14 fiches et, pour chacune, l'état avant/après.
 3. Ré-attacher les médias **conformes** retirés à tort (`productCreateMedia`, en fin de galerie, `alt` FR).
 4. Ne PAS ré-attacher ce qui a été retiré à juste titre (photos fournisseur brutes, doublons) — distinguer les deux.

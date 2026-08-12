@@ -24,7 +24,7 @@ Ce fichier dit ce qui **est**, pas ce qu'il faut faire. Pour agir : [`TABLEAU.md
 
 ## Ce qui ne va pas — par ordre de gravité
 
-1. **Régression sur 14 fiches ACTIVES** (session du 12/08, `journal/` → `efficacite-extreme-2026-08-12`) : des médias ont été retirés jusqu'à ne laisser **qu'une seule image**. `trente-neuf-classique-cannelee` est passée de 12 à 1, `trente-neuf-duo-classique-bicolore` de 10 à 1, les deux aviateurs de 5 à 1. → **T-01**
+1. **Régression sur 14 fiches ACTIVES** (session du 12/08, traces dans `preuves/2026-08-12-efficacite-extreme/`) : des médias ont été retirés jusqu'à ne laisser **qu'une seule image**. `trente-neuf-classique-cannelee` est passée de 12 à 1, `trente-neuf-duo-classique-bicolore` de 10 à 1, les deux aviateurs de 5 à 1. → **T-01**
 2. **Une image non conforme est en ligne** : l'image unique de `trente-neuf-classique-cannelee`, datée du 12/08, **porte un lettrage cursif sur le cadran**. C'est l'infraction que toute la méthode vise à empêcher. → **T-02**
 3. **Deux fiches importées avec des handles AliExpress bruts**, non rattachées à la collection `cadran-arabe`. → **T-04**
 4. **La collection cadran arabe reste sous-peuplée** : le mot-clé porte 15 500 recherches/mois et le re-sourcing s'est arrêté à 3 cadrans sur les 4 à 8 visés. → **T-05**
