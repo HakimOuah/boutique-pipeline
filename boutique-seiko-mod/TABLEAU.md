@@ -30,8 +30,12 @@ Dernière mise à jour : **12/08/2026**, après audit contradictoire du travail 
 **Attention** : ⚠️ deux champs distincts dans *Réglages → Général*, dont l'**adresse expéditeur** des e-mails de commande. **Vérifier que la boîte `.fr` reçoit avant de basculer celui-là**, sinon les confirmations de commande partent dans le vide.
 
 ### T-H5 — Trancher le sort des 5 fiches arabes bloquées
-**Pour** : Hakim · **Pourquoi** : leur photo fournisseur porte une marque au cadran ; ni composition ni retouche ne les sauvent proprement.
-**Comment** : soit on trouve d'autres photos du même article (autre vendeur, galerie complète), soit on abandonne le produit.
+**Pour** : Hakim · **Pourquoi** : leur photo fournisseur porte une marque au cadran.
+**⚠️ Distinction décisive à faire fiche par fiche avant toute décision** :
+- **Filigrane sur la photo** (ex. « XinXin Store » incrusté par le vendeur) → le produit livré est propre. **Retouche légitime**, la composition maison le règle déjà.
+- **Marquage sur le cadran physique** (ex. `SUPERLATIVE CHRONOMETER / OFFICIALLY CERTIFIED`) → **le produit lui-même est contrefaisant**. Le retirer de l'image ne corrige rien : le client recevrait une montre marquée avec une photo propre — misrepresentation **et** contrefaçon. **Aucun traitement d'image n'est une solution ici. Le seul geste correct est d'abandonner le produit.**
+**Comment** : classer les 5 fiches dans l'une des deux catégories (les preuves API listent le marquage comme « texte physique » quand il l'est), retoucher les premières, abandonner les secondes.
+**Recommandation de Claude** : abandonner les fiches à marquage physique sans hésiter — un signalement de contrefaçon sur un compte Merchant Center neuf coûte infiniment plus que ces produits ne rapportent.
 
 ---
 
@@ -70,8 +74,13 @@ Dernière mise à jour : **12/08/2026**, après audit contradictoire du travail 
 **Comment** : handle SEO français calé sur le vocabulaire de recherche, titre, description structurée, meta title et description, rattachement à `cadran-arabe`. Caractéristiques tirées des **données réelles relevées**, jamais inventées. Créer la redirection 301 si le handle change après indexation (ici sans objet, fiches en DRAFT).
 **Sortie attendue** : 2 fiches conformes au standard des 94 autres, dans la bonne collection.
 
-### T-05 — Décider du sort du pilier « cadran arabe » ⛔ NE PAS RELANCER DE RECHERCHE
-**État** : BLOQUÉ — décision de Hakim · **Pour** : Hakim
+### ~~T-05 — Décider du sort du pilier « cadran arabe »~~ ✅ TRANCHÉ le 12/08 (Hakim)
+**Décision** : **option 3 — le pilier arabe est déclassé.** La boutique se construit sur **cadran pilote** et **cadran stérile**, où l'offre suit. On **garde** les produits arabes déjà qualifiés (le volume de recherche le justifie) mais **on ne s'entête pas** : plus aucune passe de sourcing arabe.
+**Suite** : une **recherche de mots-clés sérieuse par collection et par produit** sera menée plus tard — les volumes actuels sont des repères, pas une arborescence validée. → **T-14**
+**Historique de la décision ci-dessous.**
+
+⛔ NE PAS RELANCER DE RECHERCHE
+**État** : ~~BLOQUÉ~~ TRANCHÉ · **Pour** : Hakim
 **Pourquoi** : **le gisement est épuisé, ce n'est pas un manque d'effort.** Trois passes par l'API officielle (09, 10 et 11/08) : 80 recherches réussies sur 80, **676 identifiants distincts**, 104 fiches relues variante par variante, en douze langues (arabe, persan, ourdou, hindi, turc, russe…), sur toutes les cotes et tous les tris. Résultat : **3 produits qualifiés, le quatrième n'existe pas** dans l'inventaire atteignable. La plupart des cadrans vendus « arabic » portent en réalité des chiffres occidentaux ; le plus vendu (458 ventes) affiche `SUPERLATIVE CHRONOMETER` sur le cadran.
 **Conséquence** : on ne peut aligner que **5 à 8 produits** derrière un mot-clé à 15 500 recherches/mois. C'est mince pour un pilier de boutique.
 **Les trois options** :
@@ -112,6 +121,20 @@ Dernière mise à jour : **12/08/2026**, après audit contradictoire du travail 
 ---
 
 ## 🟨 À FAIRE — P2, avant lancement
+
+### T-14 — Recherche de mots-clés sérieuse par collection et par produit
+**État** : À FAIRE · **Pour** : Claude · **Décidé par Hakim le 12/08**
+**Pourquoi** : les volumes utilisés jusqu'ici (15 500 pour « cadran arabe », 38 690 pour « seiko mod ») sont des **repères de sourcing**, pas une arborescence validée. Or l'arborescence décide des collections, des handles et des titres — la refaire après coup coûte des redirections et de l'autorité perdue.
+**Comment** : SEMrush France par lots de 100 mots-clés + KMT par URL ; volume, KD et CPC par intention ; distinguer tête et longue traîne. Cibles Kraken : collection cœur ≥ 1000, secondaire ≥ 500, KD 0-2. Confronter aux collections existantes et proposer les fusions, scissions et renommages.
+**Sortie attendue** : arborescence chiffrée définitive, liste des handles à changer **avec leurs redirections 301**, et priorisation des collections par potentiel réel.
+**Attention** : à faire **avant** l'activation — changer un handle après indexation coûte cher.
+
+### T-15 — Tester Nano Banana sur les visuels (test cadré)
+**État** : À FAIRE · **Pour** : Claude · **Idée de Hakim, 12/08**
+**Pourquoi** : évaluer si un autre modèle d'image donne de meilleurs résultats que l'exécutant actuel, dont la QA laisse passer des défauts (index promu en chiffre, repères de minuterie déformés, lettrage inventé).
+**Comment** : prendre **3 à 5 sources fournisseur déjà traitées**, régénérer avec Nano Banana dans les mêmes conditions (composition depuis la photo fournisseur, seule la mise en scène change), et comparer à visuel identique : fidélité du cadran, respect des index, propreté des repères, absence de lettrage inventé.
+**Sortie attendue** : verdict comparatif chiffré (défauts par lot), et recommandation de bascule ou non.
+**Attention** : ⚠️ **ce test ne concerne PAS les 5 fiches bloquées.** Voir T-H5 — leur problème est le produit, pas la photo.
 
 ### T-13 — Ranger les ~30 fichiers de données restés à la racine
 **Pour** : Codex · **Pourquoi** : les `MAPPING-*.json`, `RAPPORT-*.json`, `AUDIT-*.json`, `INVENTAIRE-*.csv` encombrent le point d'entrée. Ils n'ont pas été déplacés parce que **des scripts les lisent en chemin relatif** — les bouger à l'aveugle casserait ces scripts.
