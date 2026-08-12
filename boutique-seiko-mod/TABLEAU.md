@@ -5,7 +5,7 @@
 
 **Mets ce fichier à jour avant de rendre la main.** C'est la seule obligation qui ne se délègue pas.
 
-Dernière mise à jour : **13/08/2026** — régressions P0 réparées ; audit des 95 brouillons soldé (T-16) ; **recherche de mots-clés faite (T-21) : l'arborescence actuelle est à refaire, 4 collections sur 10 ne portent aucun volume** ; **audit GMC repris point par point (T-11) : 2 065 SKU AliExpress découverts sur les brouillons, T-H2 rouvert** ; **pilier montres finies instruit (T-26) : dossier à trois scénarios, arbitrage de positionnement attendu de Hakim**.
+Dernière mise à jour : **13/08/2026** — régressions P0 réparées ; audit des 95 brouillons soldé (T-16) ; **recherche de mots-clés faite (T-21) : l'arborescence actuelle est à refaire, 4 collections sur 10 ne portent aucun volume** ; **audit GMC repris point par point (T-11) : 2 065 SKU AliExpress découverts sur les brouillons, T-H2 rouvert** ; **pilier montres finies instruit (T-26) : dossier à trois scénarios, arbitrage de positionnement attendu de Hakim** ; **titres et metas du lot de pièces réécrits (T-25) : 86 fiches, le mot « montre » est passé de 9 à 86 titres sur 86**.
 
 ---
 
@@ -233,11 +233,18 @@ Deux règles ajoutées à [`REGLES.md`](REGLES.md), section « Pièges déjà pa
 **Comment** : 3 fusions (les 4 collections de cadran deviennent **une** collection `cadran-de-montre` à 44 produits + 4 sous-collections), 5 renommages de handle (`pieces-mod-nh35` → `pieces-detachees-montre`, `boitier-nh35` → `boitier-de-montre`, `aiguilles-nh35` → `aiguilles-de-montre`, `insert-lunette-38mm` → `lunette-de-montre`), **8 redirections 301** listées au §6 du compte rendu. `mouvement-nh35`, `verre-saphir-montre` et `outils-d-horloger` ne bougent pas.
 **Attention** : ⚠️ **ne pas renommer les 94 handles produit** — les manifestes, mappings DSers et scripts de visuels les référencent. Seules 3 fiches ont un handle qui contredit le produit (liste au §6).
 
-### T-25 — Réécrire les 94 titres et meta titles
-**État** : À FAIRE · **Pour** : Codex · **Né de** : T-21 (13/08)
-**Pourquoi** : 84 titres sur 94 ratent le mot « montre ». « Cadran pilote 33,5 mm » cible une expression mesurée à **zéro** et rate `cadran de montre` (480).
-**Comment** : règle `<Organe> de montre <cote> <caractéristique> — <coloris>, pour <calibre>`, plafond **65 caractères** sur le `seo.title` (il devient le titre du flux Shopping). Les 94 titres proposés sont écrits au §7 du compte rendu, fiche par fiche, avec leur mot-clé cible et son volume.
-**Attention** : ⚠️ `aiguilles-c3-super-lume-62` — `super luminova` pèse **320**, le plus fort de la famille aiguilles ; ne l'écrire dans le titre **que si le fournisseur documente vraiment de la Super-LumiNova**, sinon rester sur « luminescence C3 ».
+### ~~T-25 — Réécrire les titres et meta titles du lot de pièces~~ ✅ FAIT le 13/08
+**Fait par** : Claude · **Né de** : T-21 (13/08) · **Compte rendu** : [`journal/2026-08-13-application-titres.md`](journal/2026-08-13-application-titres.md)
+**Ce qui a été écrit** : `title`, `seo.title` et `seo.description` sur **86 fiches en brouillon** — et non 94 : T-21 a compté avant le ménage de catalogue, **10 de ses 94 fiches sont archivées** et **2 arabes importés le 11/08** manquaient à ses tableaux (86 = 94 − 10 + 2). Résultat : **86/86 portent « montre »** dans les trois champs, contre 9, 5 et 15 avant ; `seo.title` ≤ 65 caractères partout ; meta descriptions calibrées 150-160.
+**Sauvegarde** : `backups/2026-08-13-titres/avant.json` (état d'avant) et `apres.json` (état visé, contrôlé avant écriture). Vérification après coup par relecture des 95 brouillons.
+**Écarts assumés, à connaître** :
+- ⚠️ **Le gabarit de T-21 contenait un tiret cadratin**, que `STYLE-REDACTION.md` interdit (décision de Hakim du même jour). Les tirets ont été remplacés par des virgules ou des deux-points. **Corriger le gabarit avant de le réutiliser.**
+- **2 titres proposés écartés** parce qu'ils décrivaient un produit qui n'existe plus : `insert-ceramique-chiffres-arabes-38` (c'est une lunette **heure mondiale** à codes de villes, pas des chiffres arabes) et `cadran-squelette-nh70-noir-argent` (anneau **lisse**, sans index).
+- **7 titres corrigés sur le fond**, dont `cadran-texture-paon-29-sans-logo` où T-21 reproposait « effet plume » — la caractéristique inventée déjà corrigée le 09/08 — et trois cadrans où « vert lumineux » aurait fait croire à une face verte alors que seule la **luminescence** est verte.
+- ✅ **Alerte Super-LumiNova respectée** : aucune source ne la documente sur `aiguilles-c3-super-lume-62`, le titre reste sur « luminescence C3 ». Les 320 recherches/mois restent inaccessibles jusqu'à confirmation fournisseur.
+- Au passage : « SKX » retiré d'un meta title (référence de modèle tiers, audit GMC du 08/08) et « pierre véritable » remplacé par « lapis-lazuli naturel » (superlatif interdit).
+**Non touché** : aucun handle, aucune description longue, aucune collection, aucun prix, aucun statut, aucun média. Les 96 fiches actives et les 9 brouillons antérieurs au lot n'ont pas été approchés.
+**Ce que ça ouvre** : 3 handles contredisent désormais plus nettement leur fiche → **T-24** · les descriptions longues parlent encore la langue « stérile/pilote » → **T-31** · **le tiret cadratin subsiste sur les 96 fiches actives et les 9 brouillons anciens** : si `STYLE-REDACTION.md` vaut pour toute la boutique, c'est un chantier à ouvrir.
 
 ### ~~T-26 — Instruire le pilier « montres finies »~~ ✅ INSTRUIT le 13/08 — **décision de Hakim attendue**
 **Compte rendu** : [`journal/2026-08-13-dossier-positionnement.md`](journal/2026-08-13-dossier-positionnement.md)
