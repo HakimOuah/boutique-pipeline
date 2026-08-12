@@ -1,6 +1,6 @@
 # Maison Noirmont — état courant
 
-**Dernière vérification : 12/08/2026 au soir** (après réparation des régressions P0 — `journal/2026-08-12-reparation-regressions-p0.md`).
+**Dernière vérification : 13/08/2026** (après l'audit des 95 brouillons — `journal/2026-08-13-audit-reparation-brouillons.md`).
 Ce fichier dit ce qui **est**, pas ce qu'il faut faire. Pour agir : [`TABLEAU.md`](TABLEAU.md).
 
 ## Chiffres
@@ -14,6 +14,7 @@ Ce fichier dit ce qui **est**, pas ce qu'il faut faire. Pour agir : [`TABLEAU.md
 | Collections | 10 créées le 09/08, **aucune publiée** sur le canal Online Store |
 | Merchant Center | **non créé** — volontaire, tant que le CSS n'est pas arrêté |
 | Mesure d'achat | **absente** (ni GA4 ni gtag) — bloquant avant toute dépense publicitaire |
+| Visuels des 95 brouillons | 1 420 médias — **329 maison / 1 091 photos AliExpress brutes** · 43 fiches 100 % maison, 13 mixtes, 39 encore entièrement brutes |
 
 ## Ce qui va bien
 
@@ -24,7 +25,7 @@ Ce fichier dit ce qui **est**, pas ce qu'il faut faire. Pour agir : [`TABLEAU.md
 
 ## Ce qui ne va pas — par ordre de gravité
 
-1. **Les brouillons n'ont pas été audités** après la session du 12/08 : la même règle de classification défaillante y a été appliquée, avec `fileDelete` beaucoup plus largement (une centaine de suppressions définitives dans les lots `upload-local-pass-*`). Plusieurs brouillons sont à 1 seule image. → **T-16**
+1. **60 brouillons sur 95 portent encore 1 091 photos AliExpress brutes** (39 n'ont que ça, 13 sont mixtes) : aucun d'eux ne peut être activé. Ce n'est pas une régression, c'est l'état d'origine — mais c'est désormais chiffré fiche par fiche. → **T-07**
 2. **12 fiches actives restent sous la cible** : dix montres à 4/5 (les six `quarante-et-un` de coloris et `trente-neuf-{rouge, vert, bleu, rose}`) et deux accessoires à 2/3 (`coffret-douze-presentation`, `remontoir-vitrine`, dont le visuel de situation a été détaché). Il faut produire, aucun visuel maison conforme ne comble l'écart. → **T-14**
 3. **Le guichet de date affiche « 42 »** sur toute la famille Quarante-et-Un — les composites `c-495698-*` de la fiche mère (25/07) et les visuels des fiches enfants (12/08). Défaut de fidélité, pas un interdit ; laissé en ligne pour ne pas recréer la régression. → **T-15**
 4. **207 doublons morts** dans la médiathèque, issus du lot des 11-12/08. → **T-18**
@@ -46,6 +47,20 @@ seule image), 9 composites de coloris rattachés aux fiches enfants, chaque visu
 avant rattachement. L'image à **lettrage cursif** de `trente-neuf-classique-cannelee` est détachée ;
 la fiche porte 7 visuels conformes. Aucune photo AliExpress brute n'a été rendue. Détail :
 `journal/2026-08-12-reparation-regressions-p0.md`.
+
+### Côté brouillons — audité le 13/08, aucun dégât de contenu
+
+La même session a retiré **311 médias sur 35 brouillons**, mais ici la règle défaillante est tombée
+sur des galeries **entièrement** composées de photos DSers : **les 311 retraits sont des photos
+AliExpress brutes, 0 visuel maison**. En échange, **146 visuels maison** ont été posés et les 35
+fiches couvrent toutes leurs apparences sans photo brute. **Rien n'a eu à être réparé.**
+
+Le dégât est de **méthode** : les **311 retraits sont passés par `fileDelete`** — les 311 GID
+interrogés répondent `null`, aucun n'est ré-attachable. Ces sources fournisseur ne manquent à aucune
+galerie, mais elles servaient de matière première de composition ; il n'en reste qu'**une photo de
+face par fiche** dans `sources-fournisseur-2026-08/` (33 fiches sur 35). → **T-23**.
+Les 9 brouillons antérieurs au 08/08 n'ont **rien perdu**. Détail :
+`journal/2026-08-13-audit-reparation-brouillons.md`.
 
 ## Écarts de méthode constatés (corrigés depuis, à ne pas répéter)
 

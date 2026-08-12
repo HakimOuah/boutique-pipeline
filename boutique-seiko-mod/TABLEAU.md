@@ -5,7 +5,7 @@
 
 **Mets ce fichier à jour avant de rendre la main.** C'est la seule obligation qui ne se délègue pas.
 
-Dernière mise à jour : **13/08/2026** — régressions P0 réparées, numérotation des tickets dédoublonnée.
+Dernière mise à jour : **13/08/2026** — régressions P0 réparées ; **audit des 95 brouillons soldé (T-16) : aucun visuel maison perdu, rien à réparer**.
 
 ---
 
@@ -99,8 +99,9 @@ Lettrage cursif confirmé au zoom à 6 h sur le cadran. Média `59935462293842` 
 **Sortie attendue** : collection cadran arabe à **10-12 produits réels**, habillés, prêts à activer.
 
 ### T-07 — Terminer les visuels des brouillons restants
-**État** : À FAIRE · **Pour** : Codex
-**Pourquoi** : les 95 brouillons ne peuvent pas être activés tant qu'ils portent des photos AliExpress brutes.
+**État** : À FAIRE · **Pour** : Codex · **Chiffré le 13/08 par T-16**
+**Pourquoi** : les brouillons ne peuvent pas être activés tant qu'ils portent des photos AliExpress brutes.
+**Périmètre exact** : sur les 95 brouillons, **43 sont déjà 100 % maison** (activables sur le seul critère visuel), **13 sont mixtes** et **39 n'ont que des photos brutes** — soit **60 fiches à traiter et 1 091 photos fournisseur à remplacer**. Le détail fiche par fiche est dans `preuves/2026-08-13-audit-brouillons/INVENTAIRE-95-BROUILLONS-2026-08-13.csv`.
 **Comment** : pont d'ordres (`../ordres/`), ordre validé par `valider_ordre.py`, `generer-images.sh` (**code 2 = verrou : attendre, ne jamais forcer**). Priorité : cadrans stériles couleur, puis le reste des pilote 1-12. Compter 8-10 min par visuel en CLI, 2-3 min dans l'app.
 **Sortie attendue** : plus aucun brouillon avec photo fournisseur brute.
 
@@ -133,10 +134,20 @@ Pour `trente-neuf-{rouge, vert, bleu}`, le composite de coloris existe mais c'es
 **Pourquoi ils sont restés en ligne** : les retirer ferait retomber six fiches actives à une ou deux images — la régression que T-01 vient de réparer. On corrige, on ne détache pas.
 **Comment** : régénérer ou retoucher les vues concernées avec une date plausible, remplacer sur la fiche mère et sur les six fiches enfants, puis servir T-14 avec les versions corrigées.
 
-### T-16 — Auditer les galeries des 95 brouillons après la session du 12/08
-**État** : À FAIRE · **Pour** : Codex · **Né de** : T-01 (12/08)
-**Pourquoi** : T-01 ne portait que sur les fiches **actives**. La même session a traité les 95 brouillons avec la même règle de classification défaillante, et y a utilisé `fileDelete` beaucoup plus largement (les lots `upload-local-pass-*` totalisent une centaine de suppressions définitives). Plusieurs brouillons sont aujourd'hui à 1 seule image.
-**Comment** : reprendre la méthode de T-01 — diff `preuves/2026-08-12-efficacite-extreme/audit-brouillons.json` contre l'état Shopify, trier fournisseur / maison par nom de fichier, contrôler au zoom, ré-attacher (`fileUpdate referencesToAdd`) ou ré-uploader depuis `livraisons/`.
+### ~~T-16 — Auditer les galeries des 95 brouillons après la session du 12/08~~ ✅ FAIT le 13/08 — **rien à réparer**
+**Compte rendu** : [`journal/2026-08-13-audit-reparation-brouillons.md`](journal/2026-08-13-audit-reparation-brouillons.md)
+**Le ticket partait d'une hypothèse fausse.** Sur les brouillons, la règle de classification défaillante est tombée sur des galeries **entièrement** composées de photos DSers : elle ne pouvait pas se tromper. **35 fiches touchées, 311 médias retirés — 311 photos AliExpress brutes, 0 visuel maison.** En échange, **146 visuels maison** ont été posés, et **chacune des 35 fiches couvre aujourd'hui toutes ses apparences** sans porter la moindre photo brute.
+**Le dégât est de méthode, pas de contenu** : les **311 retraits sont passés par `fileDelete`** — les 311 GID interrogés répondent tous `null`, aucun n'est ré-attachable. C'est exactement ce que T-17 a interdit.
+**Aucune mutation exécutée** : rien à restaurer (cas 1 : 0 occurrence), aucune apparence laissée orpheline (cas 2 : 0 occurrence — les 3 écarts apparents sont des groupes **techniques**, calibres et diamètres). Les 146 visuels ont été ré-ouverts un par un, planches + zooms cadran/couronne/lunette : aucun logo, aucun lettrage inventé, `alt` FR partout.
+**Les 9 brouillons antérieurs au 08/08 n'ont rien perdu** (comptes identiques à `INVENTAIRE-VISUEL-2026-08-08.csv`) ; `aviateur-acier-cadran-chiffres-arabes` est même passé de 0 à 1 image.
+**Reste** : les 311 sources fournisseur détruites → **T-23**. Chiffrage de T-07 mis à jour ci-dessous.
+
+### T-23 — Reconstituer les sources fournisseur détruites, à la demande
+**État** : À FAIRE · **Pour** : Codex · **Né de** : T-16 (13/08) · **Priorité basse, pas bloquant**
+**Pourquoi** : les 311 photos AliExpress supprimées définitivement le 12/08 ne sont récupérables ni depuis Shopify ni depuis `livraisons/`. Elles ne manquent à aucune galerie — mais elles servaient de **matière première de composition**. Si l'un de ces 35 produits demande plus tard un visuel supplémentaire (autre angle, macro, mise en situation), la photo de base n'existe plus en local.
+**Ce qui reste** : `sources-fournisseur-2026-08/` conserve **une** photo de face pour **33 des 35 fiches** — environ **10 %** du matériau détruit. **21 des 35 fiches** ont leur identifiant AliExpress tracé dans les lots d'exécution ; pour les **14 autres**, il faut d'abord le retrouver.
+**Comment** : ne rien re-télécharger en masse. Au moment où un visuel supplémentaire est demandé sur l'une de ces 35 fiches, récupérer les photos d'origine **par l'API AliExpress** (règle T-05b), pas par le navigateur.
+**Réf.** : `preuves/2026-08-13-audit-brouillons/311-medias-supprimes-definitivement.json` (fiche, nom de fichier, URL d'origine).
 
 ### T-18 — Purger les 207 doublons morts de la médiathèque
 **État** : À FAIRE · **Pour** : Codex · **Né de** : T-03 (12/08)
