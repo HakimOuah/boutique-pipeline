@@ -5,7 +5,7 @@
 
 **Mets ce fichier à jour avant de rendre la main.** C'est la seule obligation qui ne se délègue pas.
 
-Dernière mise à jour : **12/08/2026**, après audit contradictoire du travail des 10-12/08.
+Dernière mise à jour : **13/08/2026** — régressions P0 réparées, numérotation des tickets dédoublonnée.
 
 ---
 
@@ -34,19 +34,11 @@ Dernière mise à jour : **12/08/2026**, après audit contradictoire du travail 
 **Classement après contrôle au zoom** : **3 abandons fermes** (`cadran-arabe-oriental-rose-28-5`, `cadran-arabe-oriental-sunburst-relief-28-5`, `cadran-nh35-chiffres-arabes-orientaux-28-5` — `SUPERLATIVE CHRONOMETER / OFFICIALLY CERTIFIED` imprimé dans la peinture du cadran) · **2 à trancher** (montres Tandorio : logo présent uniquement sur les variantes par défaut, variantes `sterile` propres prouvées — déjà écartées par ailleurs pour ventes/glyphes) · **1 conservée** (`cadran-arabe-oriental-sunburst-29`, filigrane vendeur `MATELION` sur la photo seulement, produit propre).
 **Réf.** : `journal/2026-08-12-abandon-fiches-marquage-physique.md`
 
-### T-16 — Arbitrer le mot « Automatic » gravé sur deux cadrans
+### T-20 — Arbitrer le mot « Automatic » gravé sur deux cadrans
 **État** : À FAIRE · **Pour** : Hakim (arbitrage) puis Claude
 **Pourquoi** : `cadran-arabe-oriental-sunburst-29` et `cadran-arabe-oriental-argent-28-5` portent **`Automatic` réellement gravé** au cadran. Ce n'est ni une marque ni une allégation d'origine — c'est une indication technique générique. Mais nos deux règles s'y contredisaient : « aucun lettrage sur les cadrans » d'un côté, « ne jamais modifier le produit » de l'autre.
 **Position retenue et inscrite dans `REGLES.md`** : **on garde.** Effacer une mention physiquement présente produirait une image qui ne correspond pas à ce que le client reçoit — exactement la faute qu'on cherche à éviter. La règle « aucun lettrage » vise les marques et les allégations, pas tout caractère imprimé.
 **Sortie attendue** : accord de Hakim sur cette lecture, puis production des visuels de ces deux fiches sans retouche du mot.
-
-### ~~T-H5 (détail d'origine)~~
-**Pour** : Hakim · **Pourquoi** : leur photo fournisseur porte une marque au cadran.
-**⚠️ Distinction décisive à faire fiche par fiche avant toute décision** :
-- **Filigrane sur la photo** (ex. « XinXin Store » incrusté par le vendeur) → le produit livré est propre. **Retouche légitime**, la composition maison le règle déjà.
-- **Marquage sur le cadran physique** (ex. `SUPERLATIVE CHRONOMETER / OFFICIALLY CERTIFIED`) → **le produit lui-même est contrefaisant**. Le retirer de l'image ne corrige rien : le client recevrait une montre marquée avec une photo propre — misrepresentation **et** contrefaçon. **Aucun traitement d'image n'est une solution ici. Le seul geste correct est d'abandonner le produit.**
-**Comment** : classer les 5 fiches dans l'une des deux catégories (les preuves API listent le marquage comme « texte physique » quand il l'est), retoucher les premières, abandonner les secondes.
-**Recommandation de Claude** : abandonner les fiches à marquage physique sans hésiter — un signalement de contrefaçon sur un compte Merchant Center neuf coûte infiniment plus que ces produits ne rapportent.
 
 ---
 
@@ -81,7 +73,7 @@ Lettrage cursif confirmé au zoom à 6 h sur le cadran. Média `59935462293842` 
 
 ### ~~T-05 — Décider du sort du pilier « cadran arabe »~~ ✅ TRANCHÉ le 12/08 (Hakim)
 **Décision** : **option 3 — le pilier arabe est déclassé.** La boutique se construit sur **cadran pilote** et **cadran stérile**, où l'offre suit. On **garde** les produits arabes déjà qualifiés (le volume de recherche le justifie) mais **on ne s'entête pas** : plus aucune passe de sourcing arabe.
-**Suite** : une **recherche de mots-clés sérieuse par collection et par produit** sera menée plus tard — les volumes actuels sont des repères, pas une arborescence validée. → **T-14**
+**Suite** : une **recherche de mots-clés sérieuse par collection et par produit** sera menée plus tard — les volumes actuels sont des repères, pas une arborescence validée. → **T-21**
 **Historique de la décision ci-dessous.**
 
 ⛔ NE PAS RELANCER DE RECHERCHE
@@ -159,19 +151,19 @@ Deux règles ajoutées à [`REGLES.md`](REGLES.md), section « Pièges déjà pa
 
 ## 🟨 À FAIRE — P2, avant lancement
 
-### T-14 — Recherche de mots-clés sérieuse par collection et par produit
+### T-21 — Recherche de mots-clés sérieuse par collection et par produit
 **État** : À FAIRE · **Pour** : Claude · **Décidé par Hakim le 12/08**
 **Pourquoi** : les volumes utilisés jusqu'ici (15 500 pour « cadran arabe », 38 690 pour « seiko mod ») sont des **repères de sourcing**, pas une arborescence validée. Or l'arborescence décide des collections, des handles et des titres — la refaire après coup coûte des redirections et de l'autorité perdue.
 **Comment** : SEMrush France par lots de 100 mots-clés + KMT par URL ; volume, KD et CPC par intention ; distinguer tête et longue traîne. Cibles Kraken : collection cœur ≥ 1000, secondaire ≥ 500, KD 0-2. Confronter aux collections existantes et proposer les fusions, scissions et renommages.
 **Sortie attendue** : arborescence chiffrée définitive, liste des handles à changer **avec leurs redirections 301**, et priorisation des collections par potentiel réel.
 **Attention** : à faire **avant** l'activation — changer un handle après indexation coûte cher.
 
-### T-15 — Tester Nano Banana sur les visuels (test cadré)
+### T-22 — Tester Nano Banana sur les visuels (test cadré)
 **État** : À FAIRE · **Pour** : Claude · **Idée de Hakim, 12/08**
 **Pourquoi** : évaluer si un autre modèle d'image donne de meilleurs résultats que l'exécutant actuel, dont la QA laisse passer des défauts (index promu en chiffre, repères de minuterie déformés, lettrage inventé).
 **Comment** : prendre **3 à 5 sources fournisseur déjà traitées**, régénérer avec Nano Banana dans les mêmes conditions (composition depuis la photo fournisseur, seule la mise en scène change), et comparer à visuel identique : fidélité du cadran, respect des index, propreté des repères, absence de lettrage inventé.
 **Sortie attendue** : verdict comparatif chiffré (défauts par lot), et recommandation de bascule ou non.
-**Attention** : ⚠️ **ce test ne concerne PAS les 5 fiches bloquées.** Voir T-H5 — leur problème est le produit, pas la photo.
+**Attention** : ⚠️ **ce test ne concerne PAS les 5 sources abandonnées.** Voir T-H5 — leur problème est le produit, pas la photo.
 
 ### T-13 — Ranger les ~30 fichiers de données restés à la racine
 **Pour** : Codex · **Pourquoi** : les `MAPPING-*.json`, `RAPPORT-*.json`, `AUDIT-*.json`, `INVENTAIRE-*.csv` encombrent le point d'entrée. Ils n'ont pas été déplacés parce que **des scripts les lisent en chemin relatif** — les bouger à l'aveugle casserait ces scripts.
