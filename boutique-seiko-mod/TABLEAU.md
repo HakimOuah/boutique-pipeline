@@ -20,6 +20,13 @@ Dernière mise à jour : **13/08/2026** — régressions P0 réparées ; **audit
 **Pour** : Hakim · **Pourquoi** : obligation légale française ; l'article 17 des CGV porte encore `[À COMPLÉTER]`.
 **Sortie attendue** : nom et coordonnées du médiateur intégrés aux CGV.
 
+### T-25 — Arbitrer le « 904L » gravé sur un bracelet
+**État** : À FAIRE · **Pour** : Hakim · **Trouvé le 13/08 pendant la récupération des sources**
+**Pourquoi** : `montre-sterile-40-nh35-saphir` porte **`904L` imprimé sur le bracelet du produit physique**. Or on a purgé « 904L » de toute la boutique le 08/08 — c'est une allégation d'acier invérifiable, et improbable à ce prix. Le texte ne la revendique donc plus, mais **le visuel la montrera** dès qu'on produira une macro de bracelet.
+**La tension** : notre règle dit qu'un mot générique physiquement gravé se garde (on ne modifie pas le produit), mais `904L` n'est pas générique — c'est une **allégation de matière**, de la même famille qu'une mention d'origine.
+**Les options** : ① ne jamais cadrer le bracelet sur cette fiche (contournement fragile) · ② abandonner le produit comme les cadrans à verbatim · ③ l'assumer en le décrivant honnêtement, ce que je déconseille : on afficherait une allégation qu'on a nous-mêmes jugée invérifiable.
+**Recommandation de Claude** : option 2. C'est une seule fiche, et c'est exactement le type de détail qu'un examinateur relève.
+
 ### T-H3 — Arbitrer la grille de prix
 **Pour** : Hakim · **Pourquoi** : plusieurs coûts réels sont **inférieurs** aux estimations (9,19 € contre 18,49 € sur un exemple) — le pricing prévu est à re-caler, probablement en ta faveur. Aucun prix n'a été écrit.
 **Comment** : lire la partie 3 de `journal/2026-08-09-textes-et-collections.md` — deux stratégies chiffrées (encaisser la marge / baisser le ticket d'entrée) avec recommandation.
