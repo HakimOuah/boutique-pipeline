@@ -52,27 +52,20 @@ Dernière mise à jour : **12/08/2026**, après audit contradictoire du travail 
 
 ## 🟥 À FAIRE — P0, régressions à réparer
 
-### T-01 — Restaurer les galeries des 14 fiches actives amputées
-**État** : À FAIRE · **Pour** : Claude ou Codex
-**Pourquoi** : la session du 12/08 a retiré des médias sur **14 fiches ACTIVES** jusqu'à n'en laisser qu'une. `trente-neuf-classique-cannelee` 12 → 1, `trente-neuf-duo-classique-bicolore` 10 → 1, les deux aviateurs 5 → 1. Une fiche à une seule image ne passe pas l'examen Merchant Center et convertit mal.
-**Comment** :
-1. Lire `preuves/2026-08-12-efficacite-extreme/` : les suppressions y sont tracées, avec les URLs des médias retirés.
-2. Établir la liste exacte des 14 fiches et, pour chacune, l'état avant/après.
-3. Ré-attacher les médias **conformes** retirés à tort (`productCreateMedia`, en fin de galerie, `alt` FR).
-4. Ne PAS ré-attacher ce qui a été retiré à juste titre (photos fournisseur brutes, doublons) — distinguer les deux.
-**Sortie attendue** : aucune fiche active en dessous de la cible maison (5 images par montre, 3 par accessoire), compte rendu dans `journal/`.
-**Attention** : la boutique est sous mot de passe, donc pas d'urgence publique — mais ne pas activer, ne pas publier.
+### ~~T-01 — Restaurer les galeries des fiches actives amputées~~ ✅ FAIT le 12/08
+**Compte rendu** : [`journal/2026-08-12-reparation-regressions-p0.md`](journal/2026-08-12-reparation-regressions-p0.md)
+**Ce qui a été trouvé** : ce n'était pas 14 fiches mais **37 fiches actives** qui ont perdu des médias, pour **97 retraits** — dont **36 photos fournisseur (légitimes)** et **61 visuels maison (à tort)**. Cause racine : l'audit du 12/08 classait « fournisseur » tout média dont le fichier local n'était pas retrouvé, et une partie des retraits est passée par `fileDelete` (définitif) au lieu de `referencesToRemove`.
+**Ce qui a été fait** : 34 médias maison ré-attachés ou ré-uploadés sur 15 fiches (dont les 4 tombées à 1 image), + 9 composites de coloris rattachés aux fiches enfants. Chaque visuel a été ouvert et zoomé avant rattachement ; aucune photo AliExpress brute n'a été rendue.
+**Reste** : 10 fiches actives encore à 4/5 → **T-14**. Deux manques antérieurs au 12/08 (`remontoir-solo` 2/3, `bracelet-fkm-tropical` 1/3) → T-09.
 
-### T-02 — Retirer l'image à lettrage cursif de `trente-neuf-classique-cannelee`
-**État** : À FAIRE · **Pour** : Claude ou Codex
-**Pourquoi** : cette image, datée du 12/08, **porte un lettrage cursif sur le cadran** et c'est actuellement **l'image unique** de la fiche. C'est exactement l'infraction que toute la méthode vise à empêcher, sur une boutique de mods où le sujet est la contrefaçon.
-**Comment** : la détacher, régénérer un visuel conforme depuis la source fournisseur, contrôler au zoom, rattacher. Se coordonner avec T-01 : ne pas laisser la fiche sans image entre-temps.
-**Sortie attendue** : plus aucun lettrage sur le cadran, fiche pourvue d'une galerie complète.
+### ~~T-02 — Retirer l'image à lettrage cursif de `trente-neuf-classique-cannelee`~~ ✅ FAIT le 12/08
+**Compte rendu** : [`journal/2026-08-12-reparation-regressions-p0.md`](journal/2026-08-12-reparation-regressions-p0.md)
+Lettrage cursif confirmé au zoom à 6 h sur le cadran. Média `59935462293842` **détaché** (pas supprimé : réversible), `alt` réécrit en avertissement. Preuves dans `preuves/2026-08-12-reparation-p0/`. La fiche n'est jamais restée sans image : les 7 composites de coloris ont été rattachés avant le détachement, elle porte aujourd'hui **7 visuels maison conformes** — aucun visuel de remplacement n'a eu à être généré.
 
-### T-03 — Passer en revue les visuels produits les 11 et 12/08
-**État** : À FAIRE · **Pour** : Claude ou Codex
-**Pourquoi** : l'audit n'a contrôlé qu'un **échantillon de 12 images** et y a trouvé un défaut. Le lot des 11-12/08 est bien plus large et n'a pas eu de contrôle indépendant complet.
-**Comment** : lister les médias ajoutés sur ces deux jours, les ouvrir, contrôler cadran/couronne/lunette (logo, lettrage, mention d'origine), badge, fidélité à la source. Détacher et consigner tout défaut.
+### T-03 — Contrôler tous les visuels produits les 11 et 12/08
+**État** : EN COURS · **Pour** : Claude ou Codex
+**Pourquoi** : l'audit n'a contrôlé qu'un **échantillon de 12 images** et y a trouvé un défaut. Le lot des 11-12/08 est bien plus large — le recensement en cours dépasse déjà **550 médias**.
+**Comment** : lister les médias ajoutés sur ces deux jours, les ouvrir, contrôler cadran/couronne/lunette (logo, lettrage, mention d'origine), badge, fidélité à la source, et le défaut « index promu en chiffre ». Détacher et consigner tout défaut.
 **Sortie attendue** : verdict par image, liste des retraits, compte rendu dans `journal/`.
 
 ---
@@ -128,6 +121,30 @@ Dernière mise à jour : **12/08/2026**, après audit contradictoire du travail 
 **Pourquoi** : cible maison de 5 images par montre et 3 par accessoire, non atteinte sur une partie du catalogue.
 **Comment** : le brief chiffré est `journal/2026-08-08-consignes-codex-visuels.md` — **~319 visuels** (74 de galerie + 245 de variantes), **tous coloris conservés** (décision de Hakim du 08/08 : ne pas proposer de réduire).
 **Sortie attendue** : aucune fiche active sous la cible.
+
+---
+
+### T-14 — Produire la 5ᵉ vue des 10 fiches montres restées à 4/5
+**État** : À FAIRE · **Pour** : Codex · **Né de** : T-01 (12/08)
+**Pourquoi** : après restauration, dix fiches actives restent à 4 images sur 5. Aucun visuel maison conforme n'existe pour combler l'écart — il faut produire.
+**Les dix** : `quarante-et-un-{bleu-acier, noir-jaune-acier, noir-acier, blanc-cuir, bleu-cuir, noir-cuir}` · `trente-neuf-{rouge, vert, bleu, rose}`.
+**Attention** : ⚠️ pour les six `quarante-et-un`, **ne pas réutiliser les composites `c-495698-*` de la fiche mère** — voir T-15.
+Pour `trente-neuf-{rouge, vert, bleu}`, le composite de coloris existe mais c'est un quasi-doublon du `01-face-sterile` déjà en galerie : produire une vue différente (situation, macro, détail de bracelet).
+**Sortie attendue** : 10 visuels maison, `alt` FR, rattachés en fin de galerie.
+
+### T-15 — Corriger les 6 composites `c-495698-*` : guichet de date impossible
+**État** : À FAIRE · **Pour** : Codex · **Né de** : T-01 (12/08)
+**Pourquoi** : les six composites de coloris de `quarante-et-un-sport-acier` (en ligne depuis le 25/07) affichent **« 42 » dans le guichet de date** — une date qui n'existe pas. Ce n'est pas un interdit au sens strict (ni logo, ni mention d'origine), mais c'est un défaut de fidélité visible au zoom, sur la fiche mère d'une famille de six produits.
+**Preuve** : `preuves/2026-08-12-reparation-p0/defaut-guichet-date-42-c-495698.jpg`
+**Comment** : régénérer les six vues depuis la source fournisseur avec une date plausible, ou les retoucher ; puis remplacer sur la fiche mère et servir T-14 avec les versions corrigées.
+
+### T-16 — Auditer les galeries des 95 brouillons après la session du 12/08
+**État** : À FAIRE · **Pour** : Codex · **Né de** : T-01 (12/08)
+**Pourquoi** : T-01 ne portait que sur les fiches **actives**. La même session a traité les 95 brouillons avec la même règle de classification défaillante, et y a utilisé `fileDelete` beaucoup plus largement (les lots `upload-local-pass-*` totalisent une centaine de suppressions définitives). Plusieurs brouillons sont aujourd'hui à 1 seule image.
+**Comment** : reprendre la méthode de T-01 — diff `preuves/2026-08-12-efficacite-extreme/audit-brouillons.json` contre l'état Shopify, trier fournisseur / maison par nom de fichier, contrôler au zoom, ré-attacher (`fileUpdate referencesToAdd`) ou ré-uploader depuis `livraisons/`.
+
+### ~~T-17 — Interdire `fileDelete` sur les médias produit~~ ✅ FAIT le 12/08
+Deux règles ajoutées à [`REGLES.md`](REGLES.md), section « Pièges déjà payés » : le retrait d'un média passe **toujours** par `fileUpdate` + `referencesToRemove`, jamais par `fileDelete` ; et une classification « fournisseur par défaut faute de fichier local » ne peut jamais déclencher un retrait.
 
 ---
 

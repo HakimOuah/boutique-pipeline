@@ -1,6 +1,6 @@
 # Maison Noirmont — état courant
 
-**Dernière vérification : 12/08/2026** (audit Shopify contradictoire — `journal/2026-08-11-audit-travail-codex.md`).
+**Dernière vérification : 12/08/2026 au soir** (après réparation des régressions P0 — `journal/2026-08-12-reparation-regressions-p0.md`).
 Ce fichier dit ce qui **est**, pas ce qu'il faut faire. Pour agir : [`TABLEAU.md`](TABLEAU.md).
 
 ## Chiffres
@@ -24,11 +24,27 @@ Ce fichier dit ce qui **est**, pas ce qu'il faut faire. Pour agir : [`TABLEAU.md
 
 ## Ce qui ne va pas — par ordre de gravité
 
-1. **Régression sur 14 fiches ACTIVES** (session du 12/08, traces dans `preuves/2026-08-12-efficacite-extreme/`) : des médias ont été retirés jusqu'à ne laisser **qu'une seule image**. `trente-neuf-classique-cannelee` est passée de 12 à 1, `trente-neuf-duo-classique-bicolore` de 10 à 1, les deux aviateurs de 5 à 1. → **T-01**
-2. **Une image non conforme est en ligne** : l'image unique de `trente-neuf-classique-cannelee`, datée du 12/08, **porte un lettrage cursif sur le cadran**. C'est l'infraction que toute la méthode vise à empêcher. → **T-02**
-3. **Deux fiches importées avec des handles AliExpress bruts**, non rattachées à la collection `cadran-arabe`. → **T-04**
-4. **La collection cadran arabe reste sous-peuplée** : le mot-clé porte 15 500 recherches/mois et le re-sourcing s'est arrêté à 3 cadrans sur les 4 à 8 visés. → **T-05**
-5. `alt` génériques sur `cadran-sterile-lumineux-28-5`. → **T-08**
+1. **Les brouillons n'ont pas été audités** après la session du 12/08 : la même règle de classification défaillante y a été appliquée, avec `fileDelete` beaucoup plus largement (une centaine de suppressions définitives dans les lots `upload-local-pass-*`). Plusieurs brouillons sont à 1 seule image. → **T-16**
+2. **10 fiches actives restent à 4 images sur 5** après restauration : les six `quarante-et-un` de coloris et `trente-neuf-{rouge, vert, bleu, rose}`. Il faut produire, aucun visuel maison conforme ne comble l'écart. → **T-14**
+3. **Six composites de coloris en ligne affichent « 42 » dans le guichet de date** (`c-495698-*`, fiche mère `quarante-et-un-sport-acier`, en ligne depuis le 25/07). Défaut de fidélité, pas un interdit — mais il bloque leur réutilisation. → **T-15**
+4. **Deux fiches importées avec des handles AliExpress bruts**, non rattachées à la collection `cadran-arabe`. → **T-04**
+5. **La collection cadran arabe reste sous-peuplée** : le mot-clé porte 15 500 recherches/mois et le re-sourcing s'est arrêté à 3 cadrans sur les 4 à 8 visés. → **T-05**
+6. `alt` génériques sur `cadran-sterile-lumineux-28-5`. → **T-08**
+7. Manques antérieurs au 12/08 : `remontoir-solo` 2/3, `bracelet-fkm-tropical` 1/3. → **T-09**
+
+## Régressions du 12/08 — réparées le soir même
+
+La session « efficacité extrême » du 12/08 a retiré des médias sur **37 fiches actives** (et non 14
+comme estimé au premier examen) : **97 retraits**, dont **36 photos fournisseur légitimes** et
+**61 visuels maison retirés à tort**. Cause racine : l'audit classait « fournisseur » tout média dont
+le fichier local n'était pas retrouvé, puis supprimait sur cette base — parfois par `fileDelete`,
+donc sans retour en arrière possible côté Shopify.
+
+**Réparé** : 34 médias maison ré-attachés ou ré-uploadés sur 15 fiches (dont les 4 tombées à une
+seule image), 9 composites de coloris rattachés aux fiches enfants, chaque visuel ouvert et zoomé
+avant rattachement. L'image à **lettrage cursif** de `trente-neuf-classique-cannelee` est détachée ;
+la fiche porte 7 visuels conformes. Aucune photo AliExpress brute n'a été rendue. Détail :
+`journal/2026-08-12-reparation-regressions-p0.md`.
 
 ## Écarts de méthode constatés (corrigés depuis, à ne pas répéter)
 
