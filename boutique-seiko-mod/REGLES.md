@@ -6,7 +6,13 @@ Règles issues de décisions de Hakim et d'incidents réels. **Elles ne s'assoup
 
 1. **Toujours partir de la photo produit du fournisseur.** Cadran, index, aiguilles, bracelet, boîtier, coloris sont repris tels quels et **jamais réinventés**. **Seule la situation de présentation change** — fond, décor, lumière, contexte de port. C'est de la composition / image-to-image, pas de la génération à partir de rien.
 2. **Ne jamais publier une photo AliExpress brute.** Google rapproche ces images, identiques sur des dizaines de boutiques ; le client les reconnaît. C'est un matériau de départ, pas un livrable. **Conséquence : une fiche qui porte encore des photos brutes ne peut pas être activée.**
-3. **Aucun logo, sigle, lettrage ni mention d'origine sur les cadrans.** Contrôle zoomé, cadran par cadran, avant tout rattachement.
+3. **Aucun logo, sigle, marque, formule de certification ni mention d'origine sur les cadrans.** Contrôle zoomé, cadran par cadran, avant tout rattachement.
+
+   **Précision ajoutée le 12/08** — cette règle vise les **marques et les allégations**, pas tout caractère imprimé. Deux cas à ne pas confondre :
+   - **Lettrage inventé par le modèle** (un mot cursif apparu à la génération, un chiffre peint là où la source porte un bâton nu) → **défaut, à corriger**. C'est de la fabrication.
+   - **Mot générique réellement gravé sur le produit** (`Automatic`, une cote, une indication technique) → **on le garde**. Le retirer violerait la règle n°1 : le produit est repris tel quel, jamais modifié. Effacer une mention physique produirait une image qui ne correspond pas à ce que le client reçoit.
+
+   La ligne de partage : **est-ce sur le produit réel, et est-ce une marque ou une allégation ?** Sur le produit + générique = on garde. Absent du produit = fabrication, on corrige. Marque, origine ou certification, même physique = le produit est disqualifié (voir ci-dessous).
 4. **Aucun avis, note, étoile ou badge incrusté** dans une image.
 5. Format : **2048×2048, 1:1, JPEG sRGB**. Suffixes de fichier **`-6` et `-7` interdits** (c'étaient ceux des faux avis).
 6. **Rattachement en fin de galerie, jamais en position 1** : l'image principale est la vignette des pages de collection. `alt` descriptif **en français** obligatoire, jamais générique.

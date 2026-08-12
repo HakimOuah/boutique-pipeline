@@ -29,7 +29,18 @@ Dernière mise à jour : **12/08/2026**, après audit contradictoire du travail 
 **Pour** : Hakim · **Pourquoi** : `contact.noirmont@gmail.com` est publié dans la politique de confidentialité, alors que `contact@maisonnoirmont.fr` est déjà l'adresse utilisée partout ailleurs.
 **Attention** : ⚠️ deux champs distincts dans *Réglages → Général*, dont l'**adresse expéditeur** des e-mails de commande. **Vérifier que la boîte `.fr` reçoit avant de basculer celui-là**, sinon les confirmations de commande partent dans le vide.
 
-### T-H5 — Trancher le sort des 5 fiches arabes bloquées
+### ~~T-H5 — Trancher le sort des 5 sources arabes bloquées~~ ✅ SOLDÉ le 12/08
+**Résultat** : **ce n'étaient pas des fiches Shopify** mais 5 **dossiers sources locaux** — vérifié à trois sources, aucune n'existe au catalogue. Rien à archiver, et rien n'a été archivé. Le seul produit réellement porteur du défaut (montre Tandorio `montre-cadran-arabe-oriental-36-39`) était déjà ARCHIVED depuis le 11/08.
+**Classement après contrôle au zoom** : **3 abandons fermes** (`cadran-arabe-oriental-rose-28-5`, `cadran-arabe-oriental-sunburst-relief-28-5`, `cadran-nh35-chiffres-arabes-orientaux-28-5` — `SUPERLATIVE CHRONOMETER / OFFICIALLY CERTIFIED` imprimé dans la peinture du cadran) · **2 à trancher** (montres Tandorio : logo présent uniquement sur les variantes par défaut, variantes `sterile` propres prouvées — déjà écartées par ailleurs pour ventes/glyphes) · **1 conservée** (`cadran-arabe-oriental-sunburst-29`, filigrane vendeur `MATELION` sur la photo seulement, produit propre).
+**Réf.** : `journal/2026-08-12-abandon-fiches-marquage-physique.md`
+
+### T-16 — Arbitrer le mot « Automatic » gravé sur deux cadrans
+**État** : À FAIRE · **Pour** : Hakim (arbitrage) puis Claude
+**Pourquoi** : `cadran-arabe-oriental-sunburst-29` et `cadran-arabe-oriental-argent-28-5` portent **`Automatic` réellement gravé** au cadran. Ce n'est ni une marque ni une allégation d'origine — c'est une indication technique générique. Mais nos deux règles s'y contredisaient : « aucun lettrage sur les cadrans » d'un côté, « ne jamais modifier le produit » de l'autre.
+**Position retenue et inscrite dans `REGLES.md`** : **on garde.** Effacer une mention physiquement présente produirait une image qui ne correspond pas à ce que le client reçoit — exactement la faute qu'on cherche à éviter. La règle « aucun lettrage » vise les marques et les allégations, pas tout caractère imprimé.
+**Sortie attendue** : accord de Hakim sur cette lecture, puis production des visuels de ces deux fiches sans retouche du mot.
+
+### ~~T-H5 (détail d'origine)~~
 **Pour** : Hakim · **Pourquoi** : leur photo fournisseur porte une marque au cadran.
 **⚠️ Distinction décisive à faire fiche par fiche avant toute décision** :
 - **Filigrane sur la photo** (ex. « XinXin Store » incrusté par le vendeur) → le produit livré est propre. **Retouche légitime**, la composition maison le règle déjà.
