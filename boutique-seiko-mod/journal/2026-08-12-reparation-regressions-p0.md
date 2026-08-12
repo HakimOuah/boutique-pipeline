@@ -150,7 +150,76 @@ de fidélité visible au zoom. **Ils n'ont donc pas été propagés** aux six fi
 
 ## 5. T-03 — Contrôle des visuels des 11 et 12/08
 
-_(section complétée plus bas)_
+### Périmètre réel
+
+L'audit précédent avait ouvert **12 images**. Le lot complet en compte **572** :
+**396 le 11/08** et **176 le 12/08**. Après déduplication par empreinte md5, **422 images
+distinctes** — les 150 restantes sont des ré-uploads du même fichier sous un nom suffixé d'un UUID.
+
+### Méthode
+
+Recensement par `files(query: "created_at:>='2026-08-11' AND created_at:<'2026-08-13'")`, paginé
+jusqu'au bout, puis téléchargement des 572 fichiers (192 Mo, tous en 2048×2048, aucun vide ni
+corrompu), déduplication, et **36 planches de contrôle de 12 vignettes en cadre complet**. Toutes
+ont été ouvertes. Les cas douteux ont été re-découpés à la résolution native et agrandis :
+cadran, couronne, lunette, guichet de date, et cadrans des montres servant de mise en scène dans
+les visuels d'accessoires.
+
+### Verdict — 3 images non conformes, détachées
+
+Toutes trois datent du 11/08 et relèvent du **même défaut** : les montres qui servent de mise en
+scène dans les visuels d'accessoires portent **un lettrage inventé sur le cadran** (un mot imprimé
+sous l'index de midi, parfois une seconde ligne à 6 h). Invisible à l'échelle d'une vignette,
+lisible dès qu'on agrandit.
+
+| Fiche | Média détaché | Effet sur la galerie |
+|---|---|---|
+| `coffret-douze-presentation` | `coffret-douze-presentation-situation.jpg` — 12 cadrans, plusieurs lettrés | 3 → 2 |
+| `rouleau-de-voyage-noir-cuir` | `rouleau-de-voyage-noir-cuir-situation.jpg` — 2 cadrans sur 3 lettrés | 5 → 4 |
+| `remontoir-vitrine` | `remontoir-vitrine-vue-complete-maison-noirmont.jpg` — 4 cadrans lettrés | 3 → 2, **image 1 remplacée** par le macro existant |
+
+Détachement par `fileUpdate` + `referencesToRemove` : les fichiers restent dans Shopify,
+l'opération est réversible. Leur `alt` porte désormais l'avertissement
+« NON CONFORME — lettrage inventé sur les cadrans des montres de mise en scène, détaché le
+12/08/2026 (T-03) ». Images et zooms de preuve dans `preuves/2026-08-12-reparation-p0/`.
+
+Les scènes voisines ont été contrôlées au même grossissement et sont **propres** :
+`coussins-de-presentation-lot-de-10-situation`, `remontoir-collection-*` (13 visuels),
+`remontoir-bois-*`, `coffret-6-montres-couvercle-verre`, `coffret-douze-presentation-macro`.
+
+### Défaut consigné sans retrait — le guichet de date « 42 »
+
+Les visuels de la famille **Quarante-et-Un** produits le 12/08
+(`quarante-et-un-{blanc-cuir, bleu-acier, bleu-cuir}-sport-acier-{macro, situation, poignet}`)
+affichent **« 42 » dans le guichet de date**. Même défaut que les composites `c-495698-*` de la
+fiche mère, en ligne depuis le 25/07. Ce n'est aucun des interdits listés dans `REGLES.md` — ni
+logo, ni sigle, ni mention d'origine, ni certification, ni badge — mais c'est une invraisemblance
+visible au zoom, répétée sur toute une famille de produits.
+
+**Choix : ne pas détacher.** Les retirer ferait retomber six fiches actives à une ou deux images,
+c'est-à-dire recréer exactement la régression que T-01 vient de réparer. Le défaut est consigné et
+part en **T-15**, qui traite la régénération.
+
+### Ce qui a été contrôlé et jugé conforme
+
+- **Cadrans-pièces** (environ 220 visuels : stériles, sunburst, météorite, pilote, arabes orientaux,
+  squelettes, rétro) : aucun logo, aucun lettrage, aucune mention d'origine, aucun index promu en
+  chiffre. Les cadrans pilote portent une flèche militaire — motif générique présent sur la pièce
+  source, pas une marque.
+- **Mouvements** : les disques de calendrier portent des chiffres et des jours en plusieurs langues,
+  ce qui est le disque réel ; la gravure de platine lue au zoom est une référence de pièce
+  (`0160254H`), pas un nom de marque.
+- **Boîtiers, lunettes, inserts, aiguilles, verres, bracelets, outils** : aucun marquage, fermoirs
+  et boucles vierges.
+- **Montres finies** (Intégrale, Contre-la-montre, Héritage, Voyageur, Trente-Six, Trente-Neuf,
+  Aviateur, stérile 40) : cadrans stériles. Les compositions de type GMT bicolore imitent une
+  silhouette connue mais ne portent aucun texte.
+
+### Sous-produit à traiter — 207 doublons morts dans la médiathèque
+
+Le recensement montre que **207 des 572 médias du lot ne sont rattachés à aucun produit** : ce sont
+des seconds exemplaires du même fichier, uploadés deux fois, dont une seule copie a été posée sur la
+fiche. Ce n'est pas un visuel manquant, c'est du poids mort dans la médiathèque Shopify. → **T-18**
 
 ---
 

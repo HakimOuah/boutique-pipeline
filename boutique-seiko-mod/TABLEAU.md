@@ -62,11 +62,12 @@ Dernière mise à jour : **12/08/2026**, après audit contradictoire du travail 
 **Compte rendu** : [`journal/2026-08-12-reparation-regressions-p0.md`](journal/2026-08-12-reparation-regressions-p0.md)
 Lettrage cursif confirmé au zoom à 6 h sur le cadran. Média `59935462293842` **détaché** (pas supprimé : réversible), `alt` réécrit en avertissement. Preuves dans `preuves/2026-08-12-reparation-p0/`. La fiche n'est jamais restée sans image : les 7 composites de coloris ont été rattachés avant le détachement, elle porte aujourd'hui **7 visuels maison conformes** — aucun visuel de remplacement n'a eu à être généré.
 
-### T-03 — Contrôler tous les visuels produits les 11 et 12/08
-**État** : EN COURS · **Pour** : Claude ou Codex
-**Pourquoi** : l'audit n'a contrôlé qu'un **échantillon de 12 images** et y a trouvé un défaut. Le lot des 11-12/08 est bien plus large — le recensement en cours dépasse déjà **550 médias**.
-**Comment** : lister les médias ajoutés sur ces deux jours, les ouvrir, contrôler cadran/couronne/lunette (logo, lettrage, mention d'origine), badge, fidélité à la source, et le défaut « index promu en chiffre ». Détacher et consigner tout défaut.
-**Sortie attendue** : verdict par image, liste des retraits, compte rendu dans `journal/`.
+### ~~T-03 — Contrôler tous les visuels produits les 11 et 12/08~~ ✅ FAIT le 12/08
+**Compte rendu** : [`journal/2026-08-12-reparation-regressions-p0.md`](journal/2026-08-12-reparation-regressions-p0.md)
+**Périmètre réel** : pas 12 images mais **572** (396 le 11/08, 176 le 12/08), soit **422 uniques** après déduplication. Toutes ouvertes, en cadre complet puis re-découpées à la résolution native sur les cas douteux.
+**Trouvé** : **3 images non conformes, détachées** — même défaut sur les trois, les montres de mise en scène des visuels d'accessoires portent un **lettrage inventé sur le cadran** : `coffret-douze-presentation-situation`, `rouleau-de-voyage-noir-cuir-situation`, `remontoir-vitrine-vue-complete`. Détachement réversible, preuves et zooms dans `preuves/2026-08-12-reparation-p0/`.
+**Consigné sans retrait** : le guichet de date « 42 » sur la famille Quarante-et-Un → **T-15**. Les retirer recréerait la régression que T-01 vient de réparer.
+**Révélé** : 207 doublons morts dans la médiathèque → **T-18**. Deux fiches accessoires tombées à 2/3 → **T-14**.
 
 ---
 
@@ -124,24 +125,32 @@ Lettrage cursif confirmé au zoom à 6 h sur le cadran. Média `59935462293842` 
 
 ---
 
-### T-14 — Produire la 5ᵉ vue des 10 fiches montres restées à 4/5
-**État** : À FAIRE · **Pour** : Codex · **Né de** : T-01 (12/08)
-**Pourquoi** : après restauration, dix fiches actives restent à 4 images sur 5. Aucun visuel maison conforme n'existe pour combler l'écart — il faut produire.
-**Les dix** : `quarante-et-un-{bleu-acier, noir-jaune-acier, noir-acier, blanc-cuir, bleu-cuir, noir-cuir}` · `trente-neuf-{rouge, vert, bleu, rose}`.
+### T-14 — Produire les vues manquantes des 12 fiches actives encore sous la cible
+**État** : À FAIRE · **Pour** : Codex · **Né de** : T-01 et T-03 (12/08)
+**Pourquoi** : après restauration et après retrait des trois visuels lettrés, douze fiches actives restent sous la cible. Aucun visuel maison conforme n'existe pour combler l'écart — il faut produire.
+**Les dix montres à 4/5** : `quarante-et-un-{bleu-acier, noir-jaune-acier, noir-acier, blanc-cuir, bleu-cuir, noir-cuir}` · `trente-neuf-{rouge, vert, bleu, rose}`.
+**Les deux accessoires à 2/3** : `coffret-douze-presentation` et `remontoir-vitrine` — leur visuel de situation a été détaché par T-03. Le remplacement doit montrer le produit **sans montre de mise en scène**, ou avec des cadrans strictement vierges.
 **Attention** : ⚠️ pour les six `quarante-et-un`, **ne pas réutiliser les composites `c-495698-*` de la fiche mère** — voir T-15.
 Pour `trente-neuf-{rouge, vert, bleu}`, le composite de coloris existe mais c'est un quasi-doublon du `01-face-sterile` déjà en galerie : produire une vue différente (situation, macro, détail de bracelet).
 **Sortie attendue** : 10 visuels maison, `alt` FR, rattachés en fin de galerie.
 
-### T-15 — Corriger les 6 composites `c-495698-*` : guichet de date impossible
-**État** : À FAIRE · **Pour** : Codex · **Né de** : T-01 (12/08)
-**Pourquoi** : les six composites de coloris de `quarante-et-un-sport-acier` (en ligne depuis le 25/07) affichent **« 42 » dans le guichet de date** — une date qui n'existe pas. Ce n'est pas un interdit au sens strict (ni logo, ni mention d'origine), mais c'est un défaut de fidélité visible au zoom, sur la fiche mère d'une famille de six produits.
+### T-15 — Corriger le guichet de date « 42 » de la famille Quarante-et-Un
+**État** : À FAIRE · **Pour** : Codex · **Né de** : T-01 et T-03 (12/08)
+**Pourquoi** : **« 42 » dans le guichet de date** — une date qui n'existe pas. Le défaut touche deux générations de visuels : les six composites `c-495698-*` de la fiche mère `quarante-et-un-sport-acier` (en ligne depuis le 25/07) **et** les visuels produits le 12/08 pour les fiches enfants (`quarante-et-un-*-{macro, situation, poignet}`). Ce n'est aucun des interdits de `REGLES.md`, mais c'est une invraisemblance visible au zoom, répétée sur toute une famille.
 **Preuve** : `preuves/2026-08-12-reparation-p0/defaut-guichet-date-42-c-495698.jpg`
-**Comment** : régénérer les six vues depuis la source fournisseur avec une date plausible, ou les retoucher ; puis remplacer sur la fiche mère et servir T-14 avec les versions corrigées.
+**Pourquoi ils sont restés en ligne** : les retirer ferait retomber six fiches actives à une ou deux images — la régression que T-01 vient de réparer. On corrige, on ne détache pas.
+**Comment** : régénérer ou retoucher les vues concernées avec une date plausible, remplacer sur la fiche mère et sur les six fiches enfants, puis servir T-14 avec les versions corrigées.
 
 ### T-16 — Auditer les galeries des 95 brouillons après la session du 12/08
 **État** : À FAIRE · **Pour** : Codex · **Né de** : T-01 (12/08)
 **Pourquoi** : T-01 ne portait que sur les fiches **actives**. La même session a traité les 95 brouillons avec la même règle de classification défaillante, et y a utilisé `fileDelete` beaucoup plus largement (les lots `upload-local-pass-*` totalisent une centaine de suppressions définitives). Plusieurs brouillons sont aujourd'hui à 1 seule image.
 **Comment** : reprendre la méthode de T-01 — diff `preuves/2026-08-12-efficacite-extreme/audit-brouillons.json` contre l'état Shopify, trier fournisseur / maison par nom de fichier, contrôler au zoom, ré-attacher (`fileUpdate referencesToAdd`) ou ré-uploader depuis `livraisons/`.
+
+### T-18 — Purger les 207 doublons morts de la médiathèque
+**État** : À FAIRE · **Pour** : Codex · **Né de** : T-03 (12/08)
+**Pourquoi** : sur les 572 médias ajoutés les 11-12/08, **207 ne sont rattachés à aucun produit** : le même fichier a été uploadé deux fois, la seconde copie porte un suffixe UUID et n'a jamais été posée. Ce n'est pas un visuel manquant, c'est de l'encombrement.
+**Attention** : ⚠️ vérifier fiche par fiche qu'aucune des deux copies n'est référencée avant d'agir, et **ne pas utiliser `fileDelete`** — voir la règle inscrite dans `REGLES.md` le 12/08.
+**Comment** : croiser `files(query: created_at)` et les galeries produit ; la liste de travail est reconstructible par la méthode décrite dans `journal/2026-08-12-reparation-regressions-p0.md`.
 
 ### ~~T-17 — Interdire `fileDelete` sur les médias produit~~ ✅ FAIT le 12/08
 Deux règles ajoutées à [`REGLES.md`](REGLES.md), section « Pièges déjà payés » : le retrait d'un média passe **toujours** par `fileUpdate` + `referencesToRemove`, jamais par `fileDelete` ; et une classification « fournisseur par défaut faute de fichier local » ne peut jamais déclencher un retrait.

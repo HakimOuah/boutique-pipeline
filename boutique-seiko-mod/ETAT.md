@@ -25,12 +25,13 @@ Ce fichier dit ce qui **est**, pas ce qu'il faut faire. Pour agir : [`TABLEAU.md
 ## Ce qui ne va pas — par ordre de gravité
 
 1. **Les brouillons n'ont pas été audités** après la session du 12/08 : la même règle de classification défaillante y a été appliquée, avec `fileDelete` beaucoup plus largement (une centaine de suppressions définitives dans les lots `upload-local-pass-*`). Plusieurs brouillons sont à 1 seule image. → **T-16**
-2. **10 fiches actives restent à 4 images sur 5** après restauration : les six `quarante-et-un` de coloris et `trente-neuf-{rouge, vert, bleu, rose}`. Il faut produire, aucun visuel maison conforme ne comble l'écart. → **T-14**
-3. **Six composites de coloris en ligne affichent « 42 » dans le guichet de date** (`c-495698-*`, fiche mère `quarante-et-un-sport-acier`, en ligne depuis le 25/07). Défaut de fidélité, pas un interdit — mais il bloque leur réutilisation. → **T-15**
-4. **Deux fiches importées avec des handles AliExpress bruts**, non rattachées à la collection `cadran-arabe`. → **T-04**
-5. **La collection cadran arabe reste sous-peuplée** : le mot-clé porte 15 500 recherches/mois et le re-sourcing s'est arrêté à 3 cadrans sur les 4 à 8 visés. → **T-05**
-6. `alt` génériques sur `cadran-sterile-lumineux-28-5`. → **T-08**
-7. Manques antérieurs au 12/08 : `remontoir-solo` 2/3, `bracelet-fkm-tropical` 1/3. → **T-09**
+2. **12 fiches actives restent sous la cible** : dix montres à 4/5 (les six `quarante-et-un` de coloris et `trente-neuf-{rouge, vert, bleu, rose}`) et deux accessoires à 2/3 (`coffret-douze-presentation`, `remontoir-vitrine`, dont le visuel de situation a été détaché). Il faut produire, aucun visuel maison conforme ne comble l'écart. → **T-14**
+3. **Le guichet de date affiche « 42 »** sur toute la famille Quarante-et-Un — les composites `c-495698-*` de la fiche mère (25/07) et les visuels des fiches enfants (12/08). Défaut de fidélité, pas un interdit ; laissé en ligne pour ne pas recréer la régression. → **T-15**
+4. **207 doublons morts** dans la médiathèque, issus du lot des 11-12/08. → **T-18**
+5. **Deux fiches importées avec des handles AliExpress bruts**, non rattachées à la collection `cadran-arabe`. → **T-04**
+6. **La collection cadran arabe reste sous-peuplée** : le mot-clé porte 15 500 recherches/mois et le re-sourcing s'est arrêté à 3 cadrans sur les 4 à 8 visés. → **T-05**
+7. `alt` génériques sur `cadran-sterile-lumineux-28-5`. → **T-08**
+8. Manques antérieurs au 12/08 : `remontoir-solo` 2/3, `bracelet-fkm-tropical` 1/3. → **T-09**
 
 ## Régressions du 12/08 — réparées le soir même
 
