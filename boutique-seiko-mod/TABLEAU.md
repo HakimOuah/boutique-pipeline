@@ -20,7 +20,7 @@ Dernière mise à jour : **13/08/2026** — régressions P0 réparées ; audit d
 **Pour** : Hakim · **Pourquoi** : obligation légale française ; l'article 17 des CGV porte encore `[À COMPLÉTER]`.
 **Sortie attendue** : nom et coordonnées du médiateur intégrés aux CGV.
 
-### T-25 — Arbitrer le « 904L » gravé sur un bracelet
+### T-30 — Arbitrer le « 904L » gravé sur un bracelet
 **État** : À FAIRE · **Pour** : Hakim · **Trouvé le 13/08 pendant la récupération des sources**
 **Pourquoi** : `montre-sterile-40-nh35-saphir` porte **`904L` imprimé sur le bracelet du produit physique**. Or on a purgé « 904L » de toute la boutique le 08/08 — c'est une allégation d'acier invérifiable, et improbable à ce prix. Le texte ne la revendique donc plus, mais **le visuel la montrera** dès qu'on produira une macro de bracelet.
 **La tension** : notre règle dit qu'un mot générique physiquement gravé se garde (on ne modifie pas le produit), mais `904L` n'est pas générique — c'est une **allégation de matière**, de la même famille qu'une mention d'origine.
@@ -212,8 +212,9 @@ Deux règles ajoutées à [`REGLES.md`](REGLES.md), section « Pièges déjà pa
 **Sortie attendue** : verdict comparatif chiffré (défauts par lot), et recommandation de bascule ou non.
 **Attention** : ⚠️ **ce test ne concerne PAS les 5 sources abandonnées.** Voir T-H5 — leur problème est le produit, pas la photo.
 
-### T-24 — Réécrire tout le contenu SEO du catalogue
-**État** : BLOQUÉ par T-21 (a besoin de ses chiffres) · **Pour** : Claude · **Spec dictée par Hakim le 13/08**
+### T-31 — Réécrire tout le contenu SEO du catalogue
+**État** : BLOQUÉ — dépend de la décision de positionnement (voir T-26) · **Pour** : Claude · **Spec dictée par Hakim le 13/08**
+**⚠️ Ne pas lancer avant arbitrage** : T-21 a montré que les mots-clés visés par les textes actuels n'ont pas de volume. Réécrire 200 fiches autour d'une arborescence qui va changer serait à refaire.
 **Pourquoi** : les 10 textes de collection et les 94 descriptions ont été écrits en une nuit, depuis des données fournisseur, sans mots-clés mesurés. Ils portent les marqueurs de l'écriture IA — reconnaissables par Google comme par le lecteur — et ne visent aucun mot-clé validé. C'est le chantier qui décide du référencement de la boutique.
 **Comment** :
 1. **Rangement d'abord** : chaque produit dans la bonne collection, d'après le mot-clé cible établi par T-21. Les fiches dont le mot-clé appartient à une autre collection sont déplacées.
