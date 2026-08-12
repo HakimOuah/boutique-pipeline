@@ -5,7 +5,7 @@
 
 **Mets ce fichier à jour avant de rendre la main.** C'est la seule obligation qui ne se délègue pas.
 
-Dernière mise à jour : **13/08/2026** — régressions P0 réparées ; audit des 95 brouillons soldé (T-16) ; **recherche de mots-clés faite (T-21) : l'arborescence actuelle est à refaire, 4 collections sur 10 ne portent aucun volume**.
+Dernière mise à jour : **13/08/2026** — régressions P0 réparées ; audit des 95 brouillons soldé (T-16) ; **recherche de mots-clés faite (T-21) : l'arborescence actuelle est à refaire, 4 collections sur 10 ne portent aucun volume** ; **audit GMC repris point par point (T-11) : 2 065 SKU AliExpress découverts sur les brouillons, T-H2 rouvert**.
 
 ---
 
@@ -16,9 +16,12 @@ Dernière mise à jour : **13/08/2026** — régressions P0 réparées ; audit d
 **Comment** : ouvrir `livraisons/politiques-maison-noirmont-2026-08-10/`, coller chaque texte dans *Réglages → Politiques*. Le connecteur ne peut pas le faire : permission `write_legal_policies` absente.
 **Sortie attendue** : les 7 politiques à jour sur la boutique.
 
-### ~~T-H2 — Adhérer à un médiateur de la consommation~~ ✅ FAIT le 12/08 (Hakim)
-**Pour** : Hakim · **Pourquoi** : obligation légale française ; l'article 17 des CGV porte encore `[À COMPLÉTER]`.
-**Sortie attendue** : nom et coordonnées du médiateur intégrés aux CGV.
+### T-H2 — Adhérer à un médiateur de la consommation
+**État** : ⚠️ **ROUVERT le 13/08** — le ticket avait été coché « fait le 12/08 », **à tort**. · **Pour** : Hakim
+**Pourquoi** : obligation légale française. **Vérification du 13/08 sur la boutique** : l'**article 15** des CGV servies (elles ont été renumérotées le 10/08, ce n'est plus l'article 17) porte toujours les marqueurs bruts `[[MEDIATEUR_NOM]]`, `[[MEDIATEUR_ADRESSE]]` et `[[MEDIATEUR_SITE]]`. Un examinateur qui ouvre les CGV voit un site inachevé.
+**Comment** : adhérer à un médiateur **pour ce site** (l'adhésion est souscrite par site, ne pas recopier celle de Tuftéo), puis remplacer les trois marqueurs dans *Réglages → Politiques → Conditions générales de vente*.
+**Sortie attendue** : nom, adresse et site du médiateur dans l'article 15 des CGV.
+**Réf.** : `journal/2026-08-13-conformite-et-textes.md`
 
 ### T-30 — Arbitrer le « 904L » gravé sur un bracelet
 **État** : À FAIRE · **Pour** : Hakim · **Trouvé le 13/08 pendant la récupération des sources**
@@ -73,11 +76,11 @@ Lettrage cursif confirmé au zoom à 6 h sur le cadran. Média `59935462293842` 
 
 ## 🟧 À FAIRE — P1, le chantier principal
 
-### T-04 — Réparer les 2 fiches arabes importées le 11/08
-**État** : À FAIRE · **Pour** : Codex
-**Pourquoi** : elles portent des **handles AliExpress bruts** et ne sont **rattachées à aucune collection** — donc invisibles pour le SEO et hors de la collection qui porte le mot-clé.
-**Comment** : handle SEO français calé sur le vocabulaire de recherche, titre, description structurée, meta title et description, rattachement à `cadran-arabe`. Caractéristiques tirées des **données réelles relevées**, jamais inventées. Créer la redirection 301 si le handle change après indexation (ici sans objet, fiches en DRAFT).
-**Sortie attendue** : 2 fiches conformes au standard des 94 autres, dans la bonne collection.
+### ~~T-04 — Réparer les 2 fiches arabes importées le 11/08~~ ✅ FAIT le 13/08
+**Compte rendu** : [`journal/2026-08-13-conformite-et-textes.md`](journal/2026-08-13-conformite-et-textes.md)
+Handles refaits — `cadran-arabe-oriental-soleille-28-5` (11 coloris, guichet de date à 3 h) et `cadran-arabe-oriental-radial-28-5` (12 finitions, sans date) — les deux étaient libres. Titre, description structurée, meta title, meta description, tags et `productType` écrits ; les deux fiches rattachées à `cadran-arabe`, qui passe de 5 à 7 produits. **Elles restent en DRAFT**, aucun prix touché, aucun handle existant renommé.
+**Chaque caractéristique est sourcée** : diamètre et compatibilité NH35/NH36/4R depuis les titres fournisseur relevés par l'API (formulés « annoncée par le fournisseur »), présence ou absence du guichet de date confirmée par **deux sources** (relevé API + ouverture des 23 visuels), coloris recalés sur ce que montre l'image — la variante fournisseur « Brown » est en réalité un cuivre orangé. Aucun délai promis.
+**Reste sur ces deux fiches** : leurs 23 variantes portent encore un SKU AliExpress brut → **T-32** ; prix = coût fournisseur → T-H3.
 
 ### ~~T-05 — Décider du sort du pilier « cadran arabe »~~ ✅ TRANCHÉ le 12/08 (Hakim)
 **Décision** : **option 3 — le pilier arabe est déclassé.** La boutique se construit sur **cadran pilote** et **cadran stérile**, où l'offre suit. On **garde** les produits arabes déjà qualifiés (le volume de recherche le justifie) mais **on ne s'entête pas** : plus aucune passe de sourcing arabe.
@@ -113,10 +116,11 @@ Lettrage cursif confirmé au zoom à 6 h sur le cadran. Média `59935462293842` 
 **Comment** : pont d'ordres (`../ordres/`), ordre validé par `valider_ordre.py`, `generer-images.sh` (**code 2 = verrou : attendre, ne jamais forcer**). Priorité : cadrans stériles couleur, puis le reste des pilote 1-12. Compter 8-10 min par visuel en CLI, 2-3 min dans l'app.
 **Sortie attendue** : plus aucun brouillon avec photo fournisseur brute.
 
-### T-08 — Réécrire les `alt` génériques
-**État** : À FAIRE · **Pour** : Codex
-**Pourquoi** : `cadran-sterile-lumineux-28-5` porte des `alt` génériques — perte SEO et accessibilité.
-**Comment** : `alt` descriptif en français, décrivant ce que l'image montre réellement. Balayer les autres fiches pour le même défaut.
+### ~~T-08 — Réécrire les `alt` génériques~~ ✅ FAIT le 13/08
+**Compte rendu** : [`journal/2026-08-13-conformite-et-textes.md`](journal/2026-08-13-conformite-et-textes.md)
+**Le défaut dépassait la fiche signalée** : balayage des 2 080 médias, **87 `alt` réécrits sur 8 fiches** — `cadran-sterile-lumineux-28-5` (17), `cadran-sterile-couronne-3h-28-5` (7), `cadran-vierge-sterile-28-5` et `cadran-sterile-sunburst-28-5` (24), les 2 fiches pilote à code fournisseur non traduit (4), les 2 fiches arabes de T-04 (23), plus 12 `alt` de plan qui décrivaient le cadrage et pas le produit.
+**Les 51 visuels concernés ont été ouverts**, et c'était nécessaire : plusieurs `alt` n'étaient pas génériques mais **faux** — la variante « Brun » est un orange cuivré, la « Violet » un magenta, l'« Orange » un ambre doré. Ils disent maintenant la couleur réelle, la finition, le type d'index et **la présence ou l'absence de guichet de date**.
+**Volontairement non traités** : les **1 220 `alt` vides** du catalogue. Ce sont, sans exception, des photos AliExpress brutes sur des brouillons (noms de fichiers CDN `S…`/`H…`), que T-07 doit remplacer — leur écrire un `alt` serait du travail jeté. **Zéro visuel maison sans `alt`**, zéro `alt` répété dans une même fiche.
 
 ### T-09 — Compléter les galeries des 96 fiches actives
 **État** : À FAIRE · **Pour** : Codex · **Chantier long**
@@ -158,6 +162,46 @@ Pour `trente-neuf-{rouge, vert, bleu}`, le composite de coloris existe mais c'es
 **QA** : 322 images relues en 35 planches, agrandissement cadran par cadran. **Aucune écartée** : aucun logo, marque, certification ni mention d'origine sur un cadran. ⚠️ Deux vigilances pour l'exécutant d'images : le filigrane **`Tandorio`** sur `cadran-pilote-33-5-aiguilles-lumineuses` et **`alpha dial`** sur `cadran-pilote-sterile-28-5-sans-logo` sont sur la photo, pas sur le produit — ne jamais les laisser passer dans une composition ; et **`904L` imprimé sur le bracelet** de `montre-sterile-40-nh35-saphir` ne doit apparaître dans aucun livrable (purgé de la boutique le 08/08).
 **Table de correspondance** : `journal/data/table-correspondance-handle-aliexpress.csv`, **96 lignes**, versionnée — les 94 fiches du lot du 09/08 plus les 2 imports du 11/08. ⚠️ **à reprendre quand T-04 renommera les deux handles bruts** : la clé est le `handle`.
 **Aucune écriture Shopify, aucune commande, aucun navigateur.** Les sources restent dans `sources-fournisseur-2026-08/`, gitignoré, avec `MANIFESTE-RECUPERATION-2026-08-13.json` (tailles et SHA-256).
+
+### T-32 — Réécrire les 2 065 SKU AliExpress bruts des brouillons
+**État** : À FAIRE · **Pour** : Codex · **Né de** : T-11 (13/08) · **🟥 P0 GMC — bloque l'activation**
+**Pourquoi** : le SKU part au flux Shopping (souvent mappé en `mpn`) **et** il est déjà publié dans le JSON-LD de chaque fiche. La purge du 08/08 avait réécrit les 910 SKU d'alors en `NOIR-<trigramme>-<n°>` — mais **les 94 fiches importées depuis DSers le 09/08 sont arrivées avec les SKU bruts et n'ont jamais été renommées**. Le défaut que l'audit GMC classait P0 est donc revenu, en plus gros.
+**Chiffres du 13/08** : **2 065 variantes sur 3 009** portent un SKU au format AliExpress (`14:201447598#Black Silver Dial`), réparties sur **84 brouillons et 9 archivés**, dont **95 contiennent littéralement « no logo »**. Les **96 fiches actives sont propres**.
+**Comment** : reprendre la convention `NOIR-<trigramme>-<n°>` et la table `backups/sku-2026-08-08/table-correspondance.jsonl`. Attention (`REGLES.md`) : `sku` **n'est pas filtrable** sur `productVariants`, un `query:` est ignoré silencieusement — passer par un **scan paginé** ou un `bulkOperationRunQuery`, puis `productVariantsBulkUpdate` produit par produit.
+**Attention** : ⚠️ le lien coloris↔photo fournisseur ne vit plus que dans les `manifeste.json` et cette table ; en cas d'appariement ambigu, **écarter avec motif, ne jamais deviner**.
+**Sortie attendue** : plus aucun `#` ni `14:` dans un SKU du catalogue.
+
+### T-33 — Installer le consentement cookies **avant** toute balise Google
+**État** : À FAIRE · **Pour** : Hakim (activation) puis Claude (vérification) · **Né de** : T-11 (13/08) · **🟥 P0**
+**Pourquoi** : contrairement à ce qu'on croyait, **le consentement n'a jamais été mis en place**. Requête anonyme du 13/08 : pas de `#shopify-pc__banner`, pas de `Shopify.customerPrivacy`, pas de cookie `_tracking_consent`. Le lien « Préférences en matière de cookies » a même disparu du pied de page.
+**Ce qui a été fait en attendant** : la page « Politique de cookies » **affirmait** qu'un bandeau accepter/refuser existait et qu'un lien de retrait figurait en bas de chaque page — deux affirmations fausses dans un document légal servi. Le texte a été corrigé le 13/08 pour dire l'état réel : aucun outil de mesure ni de publicité n'est actif, les seuls cookies déposés sont strictement nécessaires, donc dispensés de consentement. **C'est conforme aujourd'hui.**
+**Attention** : ⚠️ **ce texte redevient faux le jour où la balise Google est posée.** T-33 doit donc être fait **avant** T-10, pas après.
+**Comment** : *Réglages → Confidentialité des clients* → activer la bannière de consentement Shopify, région UE, boutons « Tout accepter » et « Tout refuser » **de même niveau** (exigence CNIL), Consent Mode v2. Puis remettre le lien de retrait au pied de page et réécrire la politique cookies en conséquence.
+
+### T-34 — Correctifs sur le thème publié
+**État** : À FAIRE · **Pour** : Hakim (le connecteur refuse d'écrire sur le thème MAIN) · **Né de** : T-11 (13/08)
+**Pourquoi** : quatre points de l'audit GMC vivent dans `TRAVAIL Noirmont — publier apres validation` (`205089014098`), qui est le thème **publié** depuis le 09/08.
+- **compte à rebours de `/password`** : `countdown_aJCPJc` n'a pas de `disabled` dans `templates/password.json` — il est **servi aujourd'hui à qui tape le domaine** (20 occurrences dans la page réellement rendue) ;
+- **téléphone cliquable au pied de page** : aucun `tel:` dans `sections/footer.liquid` ni dans `footer-group.json` ;
+- **mention « TTC »** : zéro occurrence dans `templates/product.json`, `templates/cart.json` et le pied de page ;
+- **pictos de paiement** : `show_maestro: false` est bon, mais Google Pay / Amex / Klarna ne sont pilotés par aucun réglage de `settings_data.json` — à recontrôler **au rendu**, une fois le mot de passe retiré.
+**Méthode** (`REGLES.md`) : travailler sur une **copie non publiée**, vérifier par **empreinte md5** (`themeFilesUpsert` renvoie parfois `upsertedThemeFiles: []` sans erreur alors que l'écriture a réussi), puis c'est Hakim qui publie.
+
+### T-35 — Réglages boutique et propretés de catalogue
+**État** : À FAIRE · **Pour** : Hakim (réglages) + Claude (catalogue) · **Né de** : T-11 (13/08) · **P1/P2**
+- **Réglages → Général** : `billingAddress.phone` et `company` sont **vides** ; les renseigner (`+33 7 56 82 80 94`, `OH Ventures`) ;
+- **collection `montre-squelette`** : **2 produits** et **publiée** sur Boutique en ligne — la porter à 5 ou la dépublier ;
+- **collection `frontpage`** : **1 produit**, publiée — à vider ;
+- **carte cadeau** `carte-cadeau-maison-noirmont` : ACTIVE, à **exclure du flux Shopping** au moment du branchement ;
+- **menus brouillons** `noirmont-desktop` et `noirmont-mobile` : toujours présents, à supprimer ;
+- **compteurs des descriptions de collection** : celui de `cadran-arabe` a été corrigé le 13/08 (il annonçait 4 cadrans, un insert absent de la collection et des montres montées archivées) — **les neuf autres collections restent à recompter**.
+
+### T-36 — Trancher les 9 fichiers image partagés entre deux fiches actives
+**État** : À FAIRE · **Pour** : Claude · **Né de** : T-11 (13/08) · **Priorité basse, mais à trancher avant le flux**
+**Pourquoi** : la checklist GMC interdit les **images dupliquées entre produits**. Le scan du 13/08 en trouve **95 fichiers présents sur plusieurs fiches**, dont **9 sur deux fiches actives à la fois** : les composites de coloris `c-430162-*` et `c-690002-*`, posés à la fois sur la fiche mère (`trente-neuf-classique-cannelee`, `trente-six-classique-jubile`) et sur la fiche enfant du coloris correspondant.
+**Ce n'est pas un accident** : c'est le résultat voulu de T-01, qui a rattaché les composites aux fiches enfants pour les remonter au-dessus de la cible. Le retrait recréerait la régression qu'on vient de réparer.
+**Les options** : ① laisser en l'état et l'assumer (le rapprochement d'images se fait surtout **entre boutiques**, pas au sein d'une même) · ② retirer le composite de la fiche **mère** seulement, qui porte déjà 7 visuels · ③ produire une vue distincte pour chaque enfant (coûteux, dépend de l'exécutant d'images).
+**Recommandation de Claude** : option 2 après T-14, quand les enfants ne seront plus sous la cible.
 
 ### T-18 — Purger les 207 doublons morts de la médiathèque
 **État** : À FAIRE · **Pour** : Codex · **Né de** : T-03 (12/08)
@@ -238,8 +282,12 @@ Deux règles ajoutées à [`REGLES.md`](REGLES.md), section « Pièges déjà pa
 **Comment** : `journal/2026-08-08-tracking-et-consentement.md`, 10 étapes au clic près. Voie retenue : app **Google & YouTube** — sur le plan Basic, le code de thème **ne peut pas voir l'achat** (caisse hors thème, pas de `checkout.liquid`). Hakim crée la propriété GA4 ; Claude ne crée aucun compte.
 **Attention** : ⚠️ **ne pas laisser l'app créer le Merchant Center avant que le CSS soit arrêté.**
 
-### T-11 — Solder les P0/P1 restants de l'audit GMC
-**Pour** : Claude · **Comment** : reprendre `journal/2026-08-08-audit-gmc-final.md` point par point, vérifier ce qui a été corrigé depuis, traiter le reste.
+### ~~T-11 — Solder les P0/P1 restants de l'audit GMC~~ ✅ FAIT le 13/08 — **audit refait, 5 tickets nés**
+**Compte rendu** : [`journal/2026-08-13-conformite-et-textes.md`](journal/2026-08-13-conformite-et-textes.md) — les 9 P0, 15 P1 et P2 repris un par un, **vérifiés sur la boutique** (export en masse du catalogue, lecture des 7 politiques et du thème publié par l'API, requêtes anonymes sur le domaine).
+**Soldés** : faux témoignages (aucun média suffixé `-6`/`-7`, aucun `alt` « témoignage ») · sections d'avis et badge « 4,8/5 · 1340 avis » (`disabled: true` dans le thème **publié**, qui est désormais `TRAVAIL Noirmont 205089014098`) · politiques de retour cohérentes entre CGV, remboursement, fiche et panier · dédoublonnage du pied de page légal · CNIL · ODR · Maestro · `aviateur` à 1 média.
+**Corrigés aujourd'hui** : dernier « 904L » (dans un `alt`) · `/pages/mentions-legales`, qui portait encore le texte générique du 26/07 sans RCS ni SIREN **et une clause de juridiction exclusive contredisant l'article 16 des CGV** · `/pages/contact`, qui était **entièrement vide** · `/pages/politique-de-cookies`, qui **affirmait faussement** qu'un bandeau accepter/refuser et un lien « Préférences » existaient · compteurs faux de la description `cadran-arabe` · **16 meta descriptions et 12 meta titles** manquants sur des fiches actives.
+**Ce qui reste** → **T-32** (SKU), **T-33** (consentement cookies), **T-34** (correctifs thème publié), **T-35** (réglages boutique et catalogue), **T-36** (images partagées entre fiches), plus T-H2 rouvert, T-H4 et T-10.
+**Deux constats** : quatre points donnés pour ouverts étaient soldés, **mais deux points donnés pour clos ne l'étaient pas** (T-H2 et le consentement cookies) — et la régression des SKU, absente de tous les rapports, est aujourd'hui le plus gros bloquant à l'activation.
 
 ### T-12 — Activation
 **État** : BLOQUÉ · **Pour** : Hakim
@@ -248,7 +296,7 @@ Deux règles ajoutées à [`REGLES.md`](REGLES.md), section « Pièges déjà pa
 - les politiques sont collées et le médiateur renseigné (T-H1, T-H2) ;
 - la grille de prix est arbitrée et appliquée (T-H3) ;
 - la mesure d'achat est installée et testée (T-10) ;
-- les P0/P1 de l'audit GMC sont soldés (T-11).
+- les P0/P1 de l'audit GMC sont soldés (T-11 fait, mais **T-32, T-33, T-34, T-35 et T-H2 en découlent et restent ouverts**).
 **Puis, dans l'ordre** : activer les produits → publier les collections sur le canal Online Store → retirer le mot de passe → ouvrir le compte CSS/Merchant Center.
 
 ---
