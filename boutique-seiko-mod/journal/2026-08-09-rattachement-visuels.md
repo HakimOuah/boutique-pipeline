@@ -1,7 +1,7 @@
 # Rattachement des visuels Codex — Maison Noirmont — 09/08/2026
 
 Contrôle QA puis rattachement Shopify des visuels livrés par Codex dans
-`visuels-codex-2026-08/`. Journal tenu au fil de l'eau.
+`boutique-seiko-mod/livraisons/visuels-codex-2026-08/`. Journal tenu au fil de l'eau.
 
 ## Règles appliquées
 
@@ -55,7 +55,7 @@ deux fiches.
   **stérile** — aucun logo, sigle, lettrage ni mention d'origine. Les 4 macros
   chronographe ne cadrent pas le cadran.
 - Aucun avis, note, étoile, badge ni chiffre de satisfaction incrusté.
-- Sources manifeste : les 6 fichiers `visuels-2026-07-25/generated/*.jpg` cités existent
+- Sources manifeste : les 6 fichiers `boutique-seiko-mod/livraisons/visuels-2026-07-25/generated/*.jpg` cités existent
   tous et sont cohérents avec le sujet livré.
 - Technique : 10/10 en 2048×2048 JPEG.
 - Ordre de galerie vérifié après coup : l'image 1 d'origine est restée en place sur les
@@ -100,7 +100,7 @@ Quatre nouveaux dossiers livrés pendant le tour 1.
 - **Avis / badges** : aucun.
 - **Sources** : `chrono-rose-poudre.jpg`, `heritage-bleu-lunette-bleue.jpg`,
   `heritage-bleu-nuit-lunette-noire.jpg` et
-  `visuels-arabes-squelettes-2026-07-29/…-explorateur-face.jpg` existent tous.
+  `boutique-seiko-mod/livraisons/visuels-arabes-squelettes-2026-07-29/…-explorateur-face.jpg` existent tous.
 - **Technique** : 4/4 en 2048×2048 JPEG.
 - Ajout en fin de galerie, image 1 intacte, statuts ACTIVE inchangés.
 
@@ -226,13 +226,13 @@ la fiche ne vend pas. Refus.
 
 Le manifeste cite `scratchpad/noirmont-galeries/entrees-faces/<handle>-face.jpg`. Ce chemin
 n'existe nulle part dans le repo. L'équivalent local est
-`entrees-faces-REDONDANT-export-claude/` — et ce fichier montre **une plongeuse à lunette
+`boutique-seiko-mod/livraisons/entrees-faces-REDONDANT-export-claude/` — et ce fichier montre **une plongeuse à lunette
 graduée sur bracelet acier**, avec des **zones de flou sur le cadran à 12 h et à 6 h**
 (emplacements typiques d'un logo et d'un lettrage masqués). Lignée de source douteuse.
 
 ### L'inversion de Codex
 
-Le manifeste acier écarte `visuels-aviateur-2026-07-27/generated/noirmont-un-plongeuse-acier-face.jpg`
+Le manifeste acier écarte `boutique-seiko-mod/livraisons/visuels-aviateur-2026-07-27/generated/noirmont-un-plongeuse-acier-face.jpg`
 au motif « nom trompeur : montre aviateur sur cuir, différente de la plongeuse acier active ».
 **C'est l'inverse.** Ce fichier écarté est le bon produit : boîtier acier, bracelet cuir brun
 surpiqué clair, lunette lisse, cadran 1-12 / 5-55 stérile — conforme mot pour mot au titre et
@@ -249,7 +249,7 @@ Les deux fiches sont **ACTIVE** : ce que voit l'acheteur ne correspond pas à ce
 
 Aucune correction faite ici — le mandat interdit de supprimer un média ou de toucher au texte.
 Décision à prendre par Hakim : soit régénérer les galeries à partir des sources aviateur
-(`visuels-aviateur-2026-07-27/generated/`), soit réécrire les fiches pour vendre la plongeuse.
+(`boutique-seiko-mod/livraisons/visuels-aviateur-2026-07-27/generated/`), soit réécrire les fiches pour vendre la plongeuse.
 
 **Cumul inchangé : 21 visuels rattachés sur 17 fiches. 2 refus.**
 
@@ -376,7 +376,7 @@ galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
   et squelette noir) puisqu'aucun cadran n'apparaît.
 - **Avis / badges** : aucun.
 - **Source — corrigée côté Codex** : le manifeste cite cette fois un chemin **versionné**,
-  `boutique-seiko-mod/visuels-arabes-squelettes-2026-07-29/montre-squelette-automatique-carree-face.jpg`,
+  `boutique-seiko-mod/livraisons/visuels-arabes-squelettes-2026-07-29/montre-squelette-automatique-carree-face.jpg`,
   et le fichier existe bien (627 ko, 29/07). C'est la bonne pratique, à généraliser.
 - **Technique** : 2048×2048 JPEG. Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
 
@@ -399,7 +399,7 @@ Squelette Carré du tour 11 — les deux constructions de maillons diffèrent.
 
 Cadran et couronne hors champ, aucun logo ni lettrage (la fiche précise « sans logo ni
 inscription »), aucun avis ni badge. Source versionnée présente
-(`visuels-arabes-squelettes-2026-07-29/…-octogone-face.jpg`). 2048×2048 JPEG.
+(`boutique-seiko-mod/livraisons/visuels-arabes-squelettes-2026-07-29/…-octogone-face.jpg`). 2048×2048 JPEG.
 Fin de galerie (5/5), image 1 intacte, statut ACTIVE inchangé.
 
 **Cumul : 29 visuels rattachés sur 25 fiches. 2 refus.**
@@ -808,7 +808,7 @@ vérifier la référence réellement livrée par le fournisseur.
   de 1 à 12, piste des 24 heures en couronne intérieure ». Aucun de ces chiffres n'apparaît
   à l'image — donc aucun risque de graduation fantaisiste ni de texte. La fiche précise par
   ailleurs retenir « les versions stériles : aucun logo, aucune inscription ».
-- **Source versionnée** et présente : `visuels-arabes-squelettes-2026-07-29/montre-field-acier-cadran-chiffres-arabes-face.jpg` (548 ko, 29/07).
+- **Source versionnée** et présente : `boutique-seiko-mod/livraisons/visuels-arabes-squelettes-2026-07-29/montre-field-acier-cadran-chiffres-arabes-face.jpg` (548 ko, 29/07).
 - Aucun avis ni badge ; 2048×2048 JPEG ; fin de galerie (5/5), image 1 intacte, statut ACTIVE
   inchangé.
 
@@ -1240,7 +1240,7 @@ handle a été vérifié dans la table SKU. L'erreur du tour 7 est comprise et c
 
 Cadran, lunette et couronne entièrement hors champ sur les deux : aucun logo, aucun lettrage,
 aucune mention d'origine possible. Aucun avis ni badge. 2/2 en 2048×2048 JPEG. Sources
-versionnées (`visuels-aviateur-2026-07-27/generated/…`) et présentes.
+versionnées (`boutique-seiko-mod/livraisons/visuels-aviateur-2026-07-27/generated/…`) et présentes.
 
 ### Pourquoi je ne les rattache pas ce soir
 
@@ -1266,8 +1266,8 @@ que Hakim aura tranché l'anomalie du tour 7 —
   alors ces macros cuir qui deviennent caduques.
 
 Chemins des fichiers en attente :
-`visuels-codex-2026-08/montre-aviateur-acier-cadran-chiffres-1-12/` et
-`visuels-codex-2026-08/montre-aviateur-bronze-cadran-chiffres-1-12/`.
+`boutique-seiko-mod/livraisons/visuels-codex-2026-08/montre-aviateur-acier-cadran-chiffres-1-12/` et
+`boutique-seiko-mod/livraisons/visuels-codex-2026-08/montre-aviateur-bronze-cadran-chiffres-1-12/`.
 
 **Cumul inchangé : 64 visuels rattachés sur 55 fiches. 2 refus + 2 en attente d'arbitrage.**
 
@@ -1279,7 +1279,7 @@ La session précédente s'est arrêtée au tour 44. Avant de reprendre, **recoup
 entre le journal et l'état réel de Shopify** plutôt que confiance au journal seul :
 
 - inventaire des 200 produits de la boutique et de leurs médias (`handle` + nom de fichier
-  CDN de chaque média), comparé aux 77 fichiers présents dans `visuels-codex-2026-08/` ;
+  CDN de chaque média), comparé aux 77 fichiers présents dans `boutique-seiko-mod/livraisons/visuels-codex-2026-08/` ;
 - résultat : les 64 visuels annoncés comme rattachés sont **effectivement en ligne** — aucun
   doublon à craindre, aucune écriture perdue par la coupure ;
 - en revanche **13 fichiers n'étaient pas traités** : 11 dans cinq dossiers `cadran-*` livrés
@@ -1422,7 +1422,7 @@ cette reprise — tous inchangés depuis la nuit (02h00 à 03h58), aucun autre r
 
 ## Clôture de la campagne
 
-Sur les **77 fichiers** de `visuels-codex-2026-08/` : **76 rattachés, 1 retiré par
+Sur les **77 fichiers** de `boutique-seiko-mod/livraisons/visuels-codex-2026-08/` : **76 rattachés, 1 retiré par
 rétractation de Codex, 0 en attente**. Les 5 dossiers vides (`bracelet-fkm-tropical`,
 `carte-cadeau-maison-noirmont`, `trente-neuf-rose-classique-cannelee`, `remontoir-solo`,
 `trente-neuf-duo-classique-bicolore`) restent des écarts assumés par Codex, motifs consignés.

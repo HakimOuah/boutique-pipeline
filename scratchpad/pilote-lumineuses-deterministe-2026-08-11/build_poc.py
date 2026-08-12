@@ -32,7 +32,7 @@ HANDSET_B = REPO / (
     "Sf71e5e2cee0d4162a367ac9a6e5798cb3.webp"
 )
 CLEAN_DIAL = REPO / (
-    "boutique-seiko-mod/visuels-codex-2026-08/"
+    "boutique-seiko-mod/livraisons/visuels-codex-2026-08/"
     "cadran-pilote-33-5-aiguilles-lumineuses/"
     "cadran-pilote-33-5-aiguilles-lumineuses-v-black-dial-1.jpg"
 )

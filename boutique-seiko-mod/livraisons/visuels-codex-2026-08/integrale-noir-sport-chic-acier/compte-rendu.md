@@ -1,7 +1,7 @@
 # Intégrale Noir — Sport chic acier
 
 - Livré : 1 visuel de galerie (`g1`, macro de la jonction boîtier–bracelet : une vis de lunette, chanfrein poli et deux connecteurs intégrés).
-- Source produit : `visuels-2026-07-25/generated/integrale-noir.jpg`.
+- Source produit : `livraisons/visuels-2026-07-25/generated/integrale-noir.jpg`.
 - Rejets : aucun.
 - Entrées écartées : aucune.
 - Plus de 3 régénérations : non.

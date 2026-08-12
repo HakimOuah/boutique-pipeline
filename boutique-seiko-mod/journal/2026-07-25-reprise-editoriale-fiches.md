@@ -276,5 +276,5 @@ périmètre** (y toucher casserait le mapping DSers).
 
 Aucun champ structurel n'a été touché : seuls `descriptionHtml` et `seo` de 60 produits ont changé.
 Les descriptions d'origine sont reconstituables depuis les deux fiches de découpage
-(`decoupage-coloris-lot1-2026-07-25.md`, `decoupage-elagage-lot2.md`) et le bloc hérité des 7 mères,
+(`2026-07-25-decoupage-coloris-lot1.md`, `2026-07-31-decoupage-elagage-lot2.md`) et le bloc hérité des 7 mères,
 qui n'a pas été modifié et reste lisible sur chacune d'elles.

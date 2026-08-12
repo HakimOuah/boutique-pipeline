@@ -2,7 +2,7 @@
 
 > **08/08/2026.** Exécution de la décision de Hakim : « dépublie les photos contenant des avis ».
 > Boutique `v42pzp-h4.myshopify.com` / `maisonnoirmont.fr`. Suite du point **N1 / C1 · C2 · C3** de
-> `AUDIT-GMC-FINAL-2026-08-08.md`.
+> `2026-08-08-audit-gmc-final.md`.
 >
 > **Périmètre strictement respecté** : seuls des médias produit ont été détachés. Aucun prix, aucun statut produit,
 > aucun thème, aucune politique, aucun texte de fiche n'a été touché.
@@ -88,7 +88,7 @@ la galerie (14 → 13 médias) **et** le fichier est resté `fileStatus: READY` 
 
 ## 4. Réversibilité
 
-Sauvegarde complète dans **`backup-visuels-faux-avis-2026-08-08/`** :
+Sauvegarde complète dans **`boutique-seiko-mod/backups/backup-visuels-faux-avis-2026-08-08/`** :
 
 - **`inventaire.json`** — pour chaque fiche : product id, titre, handle, statut, nombre de médias avant/après, et
   pour chaque média retiré : `mediaId`, `alt`, **URL complète**, nom de fichier, dimensions, **position dans la

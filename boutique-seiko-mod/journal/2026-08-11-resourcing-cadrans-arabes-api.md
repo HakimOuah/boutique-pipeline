@@ -82,9 +82,9 @@ Les 12 requêtes Unicode et multilingues ont été retentées avec la limite API
 
 ## Preuves autonomes
 
-- `preuves-sourcing-api-2026-08-11-agent/1005007347658552.json` — produit, QA, exact-SKU, stock, fret France et exclusions ;
-- `preuves-sourcing-api-2026-08-11-agent/1005007347658552-variantes.jpg` — planche des 12 sources SKU officielles, SHA-256 `5d0f4c77336128183d67c5a4d6d43f137524860f13a9093e43269795523a4ba2` ;
-- `preuves-sourcing-api-2026-08-11-agent/1005007347658552-sources/` — douze images SKU officielles avec hashes individuels dans le JSON.
+- `boutique-seiko-mod/preuves/preuves-sourcing-api-2026-08-11-agent/1005007347658552.json` — produit, QA, exact-SKU, stock, fret France et exclusions ;
+- `boutique-seiko-mod/preuves/preuves-sourcing-api-2026-08-11-agent/1005007347658552-variantes.jpg` — planche des 12 sources SKU officielles, SHA-256 `5d0f4c77336128183d67c5a4d6d43f137524860f13a9093e43269795523a4ba2` ;
+- `boutique-seiko-mod/preuves/preuves-sourcing-api-2026-08-11-agent/1005007347658552-sources/` — douze images SKU officielles avec hashes individuels dans le JSON.
 
 ## Décision opérationnelle
 

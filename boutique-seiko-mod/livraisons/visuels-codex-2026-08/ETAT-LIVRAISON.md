@@ -78,6 +78,6 @@ Cette production Codex n'a effectué aucun accès à Shopify, DSers, AliExpress,
 
 ## État concurrent observé dans le dépôt
 
-Pendant la consolidation, le fichier local `boutique-seiko-mod/RATTACHEMENT-VISUELS-2026-08-09.md` et l'historique Git ont été modifiés par un autre processus. Ce journal affirme qu'un opérateur Claude distinct a utilisé `productCreateMedia` pour rattacher 64 visuels à Shopify et a poussé une série de commits jusqu'à `2122d79` sur `main`. Les deux macros Noirmont Un corrigées ont été contrôlées par ce processus mais laissées en attente en raison de l'anomalie de galerie décrite ci-dessus.
+Pendant la consolidation, le fichier local `boutique-seiko-mod/journal/2026-08-09-rattachement-visuels.md` et l'historique Git ont été modifiés par un autre processus. Ce journal affirme qu'un opérateur Claude distinct a utilisé `productCreateMedia` pour rattacher 64 visuels à Shopify et a poussé une série de commits jusqu'à `2122d79` sur `main`. Les deux macros Noirmont Un corrigées ont été contrôlées par ce processus mais laissées en attente en raison de l'anomalie de galerie décrite ci-dessus.
 
 Ces opérations boutique n'ont pas été demandées, exécutées ni vérifiées en direct par cette production. Elles sont signalées parce que la règle de mission interdit l'accès boutique et parce que l'état global ne peut donc plus être décrit comme « boutique non touchée », même si le présent travail est resté strictement local.

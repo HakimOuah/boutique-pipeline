@@ -2,7 +2,7 @@
 
 - Livré : 1 visuel de galerie (`g1`, macro du cuir brun patiné, de la surpiqûre crème et des cornes acier brossé).
 - Handle vérifié dans la table SKU locale : `montre-aviateur-acier-cadran-chiffres-1-12`, statut local `ACTIVE`.
-- Source produit : `boutique-seiko-mod/visuels-aviateur-2026-07-27/generated/noirmont-un-plongeuse-acier-face.jpg` ; le nom historique du fichier est trompeur, mais son produit visible correspond à l'aviateur acier sur cuir brun.
+- Source produit : `boutique-seiko-mod/livraisons/visuels-aviateur-2026-07-27/generated/noirmont-un-plongeuse-acier-face.jpg` ; le nom historique du fichier est trompeur, mais son produit visible correspond à l'aviateur acier sur cuir brun.
 - Fidélité : lunette, cadran et couronne entièrement hors champ ; cuir brun, surpiqûre claire et cornes acier conservés.
 - Rejets : la macro à bracelet acier et sa planche sont conservées dans `rejected/` comme preuve de la première affectation au mauvais produit.
 - Plus de 3 régénérations : non.

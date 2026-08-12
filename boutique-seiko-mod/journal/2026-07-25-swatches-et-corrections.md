@@ -86,7 +86,7 @@ Le vrai mécanisme, vérifié bout en bout :
 **Intégrale :** Vert `#1F6B45` · Brun · boîtier or rose `#6B4A32` · Turquoise `#35AEA8` · Noir `#17181A` · Bleu nuit `#1C2B45` · Bleu ciel `#7FB3D9` · Blanc argenté `#E4E4E0`
 
 ### Swatches image posés
-29 PNG de **156 × 156, ~1 Ko** générés puis téléversés (`stagedUploadsCreate` → POST → `fileCreate`). Sources et planche de contact : `swatches-2026-07-25/` (script `gen_swatches.py`, table `specs-swatches.json`).
+29 PNG de **156 × 156, ~1 Ko** générés puis téléversés (`stagedUploadsCreate` → POST → `fileCreate`). Sources et planche de contact : `boutique-seiko-mod/livraisons/swatches-2026-07-25/` (script `gen_swatches.py`, table `specs-swatches.json`).
 
 - **Chronographe (20)** : fond = bracelet, disque = cadran, 3 pastilles = compteurs, trait rouge = aiguille chrono rouge (M18/M19).
 - **GMT (9)** : fond = métal du bracelet (moitié/moitié pour les bicolores), rainures = 3 ou 5 maillons (arcs pour le bracelet Président), disque = cadran (noir ou brun).
@@ -95,7 +95,7 @@ Le vrai mécanisme, vérifié bout en bout :
 `https://v42pzp-h4.myshopify.com/products/contre-la-montre-chronographe-panda?preview_theme_id=204248088914`
 Le thème rend `<label class="swatch"><span style="--swatch-background: url(...noirmont-swatch-chrono-14.png)">` — **20 pastilles illustrées** au lieu de 20 boutons texte. Sur Héritage, `--swatch-background: rgb(47 111 168)`, soit exactement `#2F6FA8`.
 
-Capture d'écran de la fiche GMT (pastilles + siglées barrées) et de la fiche Héritage : **dans le fil de la session**. Elles n'ont pas pu être écrites sur disque — la capture passe par le navigateur intégré, qui n'expose pas d'export fichier, et rejouer la page en headless aurait exigé de saisir le mot de passe boutique (interdit). Planche de contact des 29 pastilles : `swatches-2026-07-25/00-planche-contact-swatches.png`.
+Capture d'écran de la fiche GMT (pastilles + siglées barrées) et de la fiche Héritage : **dans le fil de la session**. Elles n'ont pas pu être écrites sur disque — la capture passe par le navigateur intégré, qui n'expose pas d'export fichier, et rejouer la page en headless aurait exigé de saisir le mot de passe boutique (interdit). Planche de contact des 29 pastilles : `boutique-seiko-mod/livraisons/swatches-2026-07-25/00-planche-contact-swatches.png`.
 
 ---
 

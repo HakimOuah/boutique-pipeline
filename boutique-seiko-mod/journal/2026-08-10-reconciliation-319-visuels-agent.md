@@ -102,10 +102,10 @@ Conséquences :
 
 | Ressource | Présence observée | Portée réelle |
 |---|---:|---|
-| `visuels-2026-07-25/generated/` | 77 fichiers | Faces déjà générées ; utiles seulement si la référence exacte et l'absence de marque sont prouvées. |
-| `visuels-2026-07-25/reference/` | 10 fichiers | Références nettoyées, couverture partielle. |
-| `preuves-fournisseur-2026-07-27/` | 2 fichiers | Preuves fournisseur locales très partielles. |
-| `backup-sku-2026-08-08/table-correspondance.jsonl` | 935 lignes | Pont local handle/variante/fragment SKU ; ne prouve pas l'apparence du coloris. |
+| `boutique-seiko-mod/livraisons/visuels-2026-07-25/generated/` | 77 fichiers | Faces déjà générées ; utiles seulement si la référence exacte et l'absence de marque sont prouvées. |
+| `boutique-seiko-mod/livraisons/visuels-2026-07-25/reference/` | 10 fichiers | Références nettoyées, couverture partielle. |
+| `boutique-seiko-mod/preuves/preuves-fournisseur-2026-07-27/` | 2 fichiers | Preuves fournisseur locales très partielles. |
+| `boutique-seiko-mod/backups/backup-sku-2026-08-08/table-correspondance.jsonl` | 935 lignes | Pont local handle/variante/fragment SKU ; ne prouve pas l'apparence du coloris. |
 | Sauvegarde fournisseur du bracelet gaufré | 42 fichiers | A permis les six variantes argentées retenues ; ne suffit pas à valider les autres rendus. |
 
 La présence d'un fichier ou d'un fragment SKU n'est pas une preuve d'appariement visuel. Le
@@ -140,11 +140,11 @@ doit suivre le choix de variante du client.
 
 ## 6. Sources du calcul
 
-- `BRIEF-VISUELS-CODEX-2026-08-08.md` : inventaire agrégé, cibles 74/245/319 et tableaux P0-P5.
-- `CONSIGNES-CODEX-VISUELS-2026-08-08.md` : règles galerie/variante, manifests et périmètre de tous les coloris.
+- `2026-08-08-brief-visuels-codex.md` : inventaire agrégé, cibles 74/245/319 et tableaux P0-P5.
+- `2026-08-08-consignes-codex-visuels.md` : règles galerie/variante, manifests et périmètre de tous les coloris.
 - `INVENTAIRE-VISUEL-2026-08-08.csv` : recalcul actif/brouillon ligne par ligne.
-- `visuels-codex-2026-08/ETAT-LIVRAISON.md` : 60 galeries, 6 variantes, 24 rejets et blocages source.
-- `RATTACHEMENT-VISUELS-2026-08-09.md` : 64 rattachements initiaux, deux macros actives ajoutées,
+- `boutique-seiko-mod/livraisons/visuels-codex-2026-08/ETAT-LIVRAISON.md` : 60 galeries, 6 variantes, 24 rejets et blocages source.
+- `2026-08-09-rattachement-visuels.md` : 64 rattachements initiaux, deux macros actives ajoutées,
   dix médias cadran brouillons et état historique avant affectation des six variantes.
 - Mise à jour live du coordinateur, 10/08/2026 : six médias P4 affectés à 12 variantes et contrôle
   indépendant 6 médias/12 variantes. Cette sous-tâche locale ne l'a pas vérifiée dans Shopify.

@@ -1,7 +1,7 @@
 # Prompt à envoyer à Codex — galeries complètes NOIRMONT
 
 > Copier-coller le bloc ci-dessous tel quel. Il est autoportant.
-> Pré-requis avant envoi : avoir peuplé `entrees-faces/` (voir §5 de `audit-visuel-catalogue.md`).
+> Pré-requis avant envoi : avoir peuplé `entrees-faces/` (voir §5 de `2026-07-31-audit-visuel-catalogue.md`).
 
 ---
 
@@ -55,7 +55,7 @@ Les polices sont sur le disque :
 - `boutique-pipeline/scratchpad/noirmont-carte-cadeau/fonts/BodoniModa.ttf`
 - `boutique-pipeline/scratchpad/noirmont-carte-cadeau/fonts/Inter.ttf`
 
-**Trente et une cartes déjà validées sont dans `boutique-seiko-mod/backup-medias-partages-2026-07-26/`** (nommées `<mediaId>_<gamme>-<slot>-<rôle>.jpg`). **Ouvre-les avant d'écrire une ligne de code** et recopie la mise en page au pixel près. Ce sont elles la spécification, pas ma description ci-dessous — ma description est là pour t'aider à les lire.
+**Trente et une cartes déjà validées sont dans `boutique-seiko-mod/backups/backup-medias-partages-2026-07-26/`** (nommées `<mediaId>_<gamme>-<slot>-<rôle>.jpg`). **Ouvre-les avant d'écrire une ligne de code** et recopie la mise en page au pixel près. Ce sont elles la spécification, pas ma description ci-dessous — ma description est là pour t'aider à les lire.
 
 ---
 
@@ -107,7 +107,7 @@ Pour chaque slot généré, **tu pars de la face déjà validée de cette fiche 
 
 C'est cette contrainte qui garantit qu'une galerie ne « saute » pas d'une image à l'autre, et que le client reçoit ce qu'il a vu. Une galerie où le coloris change entre l'image 1 et l'image 5 est un défaut bloquant.
 
-**Références de cadrage.** Les quatre familles Chronographe, GMT, Intégrale et Héritage ont déjà leurs `02`, `04` et `05` produits et validés (sur un autre coloris) dans `backup-medias-partages-2026-07-26/`. Regarde-les avant de lancer la série : ce sont elles qui définissent l'angle, la distance, la lumière et la composition à reproduire.
+**Références de cadrage.** Les quatre familles Chronographe, GMT, Intégrale et Héritage ont déjà leurs `02`, `04` et `05` produits et validés (sur un autre coloris) dans `boutique-seiko-mod/backups/backup-medias-partages-2026-07-26/`. Regarde-les avant de lancer la série : ce sont elles qui définissent l'angle, la distance, la lumière et la composition à reproduire.
 
 ---
 
@@ -232,7 +232,7 @@ Les quatre familles Chronographe, GMT, Intégrale et Héritage ont **déjà** le
 
 - **Noirmont Deux — Plongeuse céramique** (`noirmont-deux-plongeuse-ceramique`) : sa galerie de 7 est complète. Ses 7 références n'ont jamais pu être identifiées (la fiche fournisseur montre la même photo pour toutes). **Ne produis rien pour elle, ne devine aucune couleur.**
 - **Les 3 déclinaisons GMT « siglé »** : elles portent un logo de marque tierce et ont été rendues invendables. Elles ne correspondent à aucune fiche de ta liste, donc tu n'as rien à faire — c'est un rappel de sécurité.
-- **Les 7 fiches mères en brouillon** (`contre-la-montre-chronographe-panda`, `voyageur-gmt-automatique`, `integrale-sport-chic-acier`, `heritage-plongeuse-vintage-42`, `remontoir-bois`, `remontoir-collection`, `rouleau-de-voyage-cuir`) : hors périmètre. Tu peux **lire** leurs images de référence dans `backup-medias-partages-2026-07-26/`, mais tu ne produis rien pour elles.
+- **Les 7 fiches mères en brouillon** (`contre-la-montre-chronographe-panda`, `voyageur-gmt-automatique`, `integrale-sport-chic-acier`, `heritage-plongeuse-vintage-42`, `remontoir-bois`, `remontoir-collection`, `rouleau-de-voyage-cuir`) : hors périmètre. Tu peux **lire** leurs images de référence dans `boutique-seiko-mod/backups/backup-medias-partages-2026-07-26/`, mais tu ne produis rien pour elles.
 - **`carte-cadeau-maison-noirmont`** : produit numérique, visuel unique déjà conforme.
 - **Les 7 fiches déjà complètes** listées au §11 sous « rien à produire ».
 

@@ -1,7 +1,7 @@
 # Visuels de l'aviateur à cadran arabe et consolidation des fiches — Maison Noirmont
 
 > **27/07/2026** — boutique `v42pzp-h4` / maisonnoirmont.fr.
-> Suite de `fiches-contradictoires-et-cadran-arabe.md` §4. Produit **8 visuels** et **réécrit les deux fiches
+> Suite de `2026-07-31-fiches-contradictoires-et-cadran-arabe.md` §4. Produit **8 visuels** et **réécrit les deux fiches
 > Noirmont Un en aviateurs**.
 > **Écritures : 4 `productUpdate` (titre, description, SEO, étiquettes, 2 métachamps, handle), 8 médias ajoutés,
 > 16 médias de plongeuse supprimés, 12 images de variante réaffectées, 2 réordonnancements, 2 mouvements de
@@ -9,8 +9,8 @@
 > Aucun SKU, prix, variante, option ni mapping DSers touché. Aucune publication : les trois fiches restent en
 > **`DRAFT`**. Aucun thème ouvert. Aucune commande, aucun achat.
 > Sauvegardes avant écriture : `backup-avant-reecriture-aviateurs-2026-07-27.json` (état des fiches) et
-> `backup-medias-plongeuse-supprimes-2026-07-27/` (les 16 fichiers image + `MANIFESTE.json`).
-> Livrables images : `visuels-aviateur-2026-07-27/`.
+> `boutique-seiko-mod/backups/backup-medias-plongeuse-supprimes-2026-07-27/` (les 16 fichiers image + `MANIFESTE.json`).
+> Livrables images : `boutique-seiko-mod/livraisons/visuels-aviateur-2026-07-27/`.
 >
 > **Second passage (autorisations de Hakim) :** les 16 médias de plongeuse ont été **supprimés** après
 > sauvegarde et contrôle de partage, les **3 visuels bronze manquants** ont été produits, et les **handles** ont
@@ -38,7 +38,7 @@ Ce qui a été rendu, sur chaque visuel, d'après la photo fournisseur `steel ca
 Le filigrane « Tandorio » de la photo fournisseur a été **effacé par interpolation verticale + flou local** avant
 de servir de référence, pour éviter que le modèle ne le recopie. Il ne touchait pas le cadran : la couronne, la
 lunette et les deux couronnes de chiffres sont intactes.
-Référence conservée : `visuels-aviateur-2026-07-27/reference/TANDORIO-steel-nologo-recadre-filigrane-efface.jpg`.
+Référence conservée : `boutique-seiko-mod/livraisons/visuels-aviateur-2026-07-27/reference/TANDORIO-steel-nologo-recadre-filigrane-efface.jpg`.
 
 ---
 
@@ -61,7 +61,7 @@ en juillet). Solde **269,46 → 229,46**. **Plafond de 60 crédits respecté**, 
 ### Direction artistique
 Fond minéral clair, dégradé pierre `#E7E4DE` → craie `#FAFAF7`, lumière douce latérale haute-gauche, une seule
 ombre portée diffuse. La `situation` ajoute une dalle de travertin pâle et un éclat de craie brute floue au coin
-— décor introduit, palette minérale respectée, conformément à `audit-visuel-catalogue.md` §2.
+— décor introduit, palette minérale respectée, conformément à `2026-07-31-audit-visuel-catalogue.md` §2.
 
 ### Contrôle des chiffres — fait en zoom fort, cadran par cadran
 Chaque cadran a été recadré et agrandi (jusqu'à ×8 sur le 4K) puis relu chiffre par chiffre, avec vérification de
@@ -134,7 +134,7 @@ matériau du bracelet : Cuir »), sans logo (valeur d'option `-no logo`), fond a
 Miyota 8215 · Seiko NH35 · PT5000 (valeurs d'option — seules marques tierces autorisées, ce sont des fabricants
 de calibre).
 
-Formulations à hedge reprises **mot pour mot** de `veracite-produit-cloture.md` :
+Formulations à hedge reprises **mot pour mot** de `2026-07-31-veracite-produit-cloture.md` :
 « Verre saphir **annoncé** » · « Étanchéité **annoncée** 200 m : baignade, nage et plongée libre ; la plongée en
 bouteille reste déconseillée » · plus la réserve cuir : « le bracelet cuir, lui, n'aime pas l'eau — prévoyez un
 bracelet de rechange si vous nagez avec ».
@@ -213,10 +213,10 @@ même produit, avec les **mêmes 6 SKU**, et porte en plus le mapping DSers et l
 La condition posée était la **réversibilité**, pas la nature de l'appel d'API. Trois contrôles avant d'écrire.
 
 **a. Aucune sauvegarde locale n'existait.** Recherche par motif (`558930`, `c-558930`, `noirmont-un`) sur tout
-le dossier : les 16 fichiers CDN étaient **absents** de `backup-medias-partages-2026-07-26/` et d'ailleurs. Les
-deux fichiers de `entrees-faces-REDONDANT-export-claude/` portent des noms voisins mais ne sont pas les mêmes
+le dossier : les 16 fichiers CDN étaient **absents** de `boutique-seiko-mod/backups/backup-medias-partages-2026-07-26/` et d'ailleurs. Les
+deux fichiers de `boutique-seiko-mod/livraisons/entrees-faces-REDONDANT-export-claude/` portent des noms voisins mais ne sont pas les mêmes
 fichiers. **Les 16 ont donc été téléchargés d'abord**, dans
-`backup-medias-plongeuse-supprimes-2026-07-27/`, nommés `<mediaId>_<nom CDN>.jpg`, avec un `MANIFESTE.json`.
+`boutique-seiko-mod/backups/backup-medias-plongeuse-supprimes-2026-07-27/`, nommés `<mediaId>_<nom CDN>.jpg`, avec un `MANIFESTE.json`.
 **16/16 se rouvrent en 2048 × 2048 RGB** — vérifié fichier par fichier, aucun tronqué.
 
 **b. Aucun n'était partagé.** Deux passes indépendantes :

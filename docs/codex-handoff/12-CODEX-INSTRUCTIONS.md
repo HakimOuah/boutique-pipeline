@@ -12,7 +12,7 @@
 - Ordre de lecture en début de session :
   1. Ce dossier (`00` → ordre du §5).
   2. Pour le pipeline produit : `PRODUCT-RESEARCH-CRITERIA.md` (seuils canoniques — **jamais recopiés ailleurs**), puis `registre-candidats.md`.
-  3. Pour Noirmont : `boutique-seiko-mod/REPRISE-SESSION.md` **d'abord**, puis les livrables datés cités.
+  3. Pour Noirmont : `boutique-seiko-mod/journal/2026-08-08-reprise-session.md` **d'abord**, puis les livrables datés cités.
   4. Pour Tuftéo : `boutique-tufting/project-state.md`.
   5. Notion seulement ensuite, comme dashboard (et jamais les instructions périmées qu'il contient : `switch-shop`, vérif `updatedAt/size`, ancienne charte — voir `06` §4).
 - Pour tout travail impliquant des sous-agents (briefs, parallélisation, reprise, escalade) : appliquer le mode opératoire de `16-MULTI-AGENT-ORCHESTRATION.md` (check-list du brief §9.1).
@@ -128,4 +128,4 @@ Mécanique complète : `14-PROTOCOLE-ORDRES.md`.
   - Purger le mot de passe storefront des 3 fichiers (`07` §4) et le faire tourner dans l'admin Shopify — toujours d'actualité, et d'autant plus depuis que le dépôt est poussé.
   - **Une branche par chantier** (`feat/…`, `boutique/…`), **commits en français descriptifs** (le style existant : `docs(chasse): tableau Codex multi-marches…`), petits et fréquents, poussés vers `origin`.
   - **Jamais de secret committé** ; les `.env` restent hors git (`.gitignore` les couvre déjà).
-- **Journalisation de session** : chaque session significative (a) produit ses **livrables datés** dans le dossier boutique/`reports/` concerné, (b) met à jour le document de reprise de la boutique (`REPRISE-SESSION.md` pour Noirmont, `project-state.md` pour Tuftéo), (c) **met à jour ce dossier de passation** (`11-OPEN-TASKS.md` au minimum, `10-FAILURES` pour tout nouveau piège payé, `13-HANDOFF-SUMMARY.json` si l'état change), (d) réplique vers Notion en dernier (panne Notion non bloquante — `notion-sync-pending.md`).
+- **Journalisation de session** : chaque session significative (a) produit ses **livrables datés** dans le dossier boutique/`reports/` concerné, (b) met à jour le document de reprise de la boutique (`boutique-seiko-mod/journal/2026-08-08-reprise-session.md` pour Noirmont, `project-state.md` pour Tuftéo), (c) **met à jour ce dossier de passation** (`11-OPEN-TASKS.md` au minimum, `10-FAILURES` pour tout nouveau piège payé, `13-HANDOFF-SUMMARY.json` si l'état change), (d) réplique vers Notion en dernier (panne Notion non bloquante — `notion-sync-pending.md`).

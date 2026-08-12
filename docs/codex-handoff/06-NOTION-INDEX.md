@@ -31,8 +31,8 @@
 - **URL** : https://app.notion.com/p/3a71f38c315481b88b28d745e54efc05 — dernière édition 26/07/2026 [NOTION]
 - **Résumé** : LE modèle réutilisable de lancement de boutique. À dupliquer à chaque « lance une boutique sur X ». Contient : règles transverses (source de vérité locale, jamais `switch-shop`, jamais toucher aux SKU, `first:250` + pagination, promesses vérifiables/numériques, persona bloquant, QA mobile-first, placeholders = chasse gardée Hakim, mapping skills globaux par ticket), l'en-tête à adapter, le Kanban de tickets, et **deux générations de « ⚠️ Pièges vérifiés »** (passe des 25-26/07 puis passe du 26/07 avec corrections datées).
 - **Importance** : **critique**. **Fraîcheur** : bonne (26/07).
-- **Relation dépôt** : **unique — ce modèle n'existe pas en local.** [MANQUANT dans le dépôt : grep « Campement » ne rend que des références (REPRISE-SESSION.md, BILAN, runbooks), aucune copie des briefs]. Les pièges recoupent partiellement `boutique-seiko-mod/REPRISE-SESSION.md` (§ « Pièges vérifiés ») et des runbooks épars, mais la compilation consolidée boutique-agnostique n'est que dans Notion. → Synthèse rapatriée §2.
-- **Note interne [CONTRADICTOIRE résolu dans la page]** : la génération 1 des pièges dit de « re-interroger `updatedAt`/`size` » pour confirmer une écriture ; la génération 2 (26/07) **corrige** : seule la relecture du contenu ou l'empreinte MD5 prouve l'écriture, et `upsertedThemeFiles: []` sans erreur est une écriture asynchrone normale, pas un échec. La génération 2 concorde avec [FAIT — repo:boutique-seiko-mod/REPRISE-SESSION.md]. En reprenant le modèle, lire la gen 2 comme correctif de la gen 1.
+- **Relation dépôt** : **unique — ce modèle n'existe pas en local.** [MANQUANT dans le dépôt : grep « Campement » ne rend que des références (boutique-seiko-mod/journal/2026-08-08-reprise-session.md, BILAN, runbooks), aucune copie des briefs]. Les pièges recoupent partiellement `boutique-seiko-mod/journal/2026-08-08-reprise-session.md` (§ « Pièges vérifiés ») et des runbooks épars, mais la compilation consolidée boutique-agnostique n'est que dans Notion. → Synthèse rapatriée §2.
+- **Note interne [CONTRADICTOIRE résolu dans la page]** : la génération 1 des pièges dit de « re-interroger `updatedAt`/`size` » pour confirmer une écriture ; la génération 2 (26/07) **corrige** : seule la relecture du contenu ou l'empreinte MD5 prouve l'écriture, et `upsertedThemeFiles: []` sans erreur est une écriture asynchrone normale, pas un échec. La génération 2 concorde avec [FAIT — repo:boutique-seiko-mod/journal/2026-08-08-reprise-session.md]. En reprenant le modèle, lire la gen 2 comme correctif de la gen 1.
 
 ### 1.5 Base « Tickets — Lancement boutique (modèle) » (20 tickets)
 - **URL** : https://app.notion.com/p/da8b39cc1a4248f2aec7494df5ef247b (data source `collection://139e0897-e0dd-4645-a1d6-681e54a919b2`) [NOTION]
@@ -41,18 +41,18 @@
 - **Corrections en cours de route — vérifiées présentes** (demandé par la mission) :
   - **CAPTCHA AliExpress** : ✅ présente dans le ticket 01 (https://app.notion.com/p/3a71f38c315481ebb68df10667c126bf, édité 25/07) : « ⚠️ CORRECTION du 25/07 — le CAPTCHA n'est pas une protection du site mais la conséquence d'un navigateur sans session » + « listings morts » = artefact d'identifiants tronqués (préfixes réels jusqu'à `1005012`). Aussi reprise dans la section Organisation du campement.
   - **Auto-matching DSers** : ✅ présente dans le ticket 04 (https://app.notion.com/p/3a71f38c31548116a321dc7e9b6f6af1, édité 25/07) : « ⚠️ CORRECTION du 25/07/2026 — l'auto-matching par SKU N'EXISTE PAS » (vérifié sur 19 fiches ; appariement à la main, SKU = source de vérité de l'appariement, pas un automatisme). Aussi reprise dans la section DSers du campement.
-- **Divergence ticket ↔ dépôt** : le ticket **12b** (édité 26/07 13:31) prescrit encore « re-query `updatedAt`/`size` des fichiers pour confirmer la prise » — consigne **invalidée le même jour** par la passe gen 2 des pièges (relecture/MD5 uniquement) et par [FAIT — repo:boutique-seiko-mod/REPRISE-SESSION.md]. [CONTRADICTOIRE] — appliquer la règle MD5/relecture. Les autres tickets vérifiés (01, 04, 00, 09, 12) sont cohérents avec le dépôt.
+- **Divergence ticket ↔ dépôt** : le ticket **12b** (édité 26/07 13:31) prescrit encore « re-query `updatedAt`/`size` des fichiers pour confirmer la prise » — consigne **invalidée le même jour** par la passe gen 2 des pièges (relecture/MD5 uniquement) et par [FAIT — repo:boutique-seiko-mod/journal/2026-08-08-reprise-session.md]. [CONTRADICTOIRE] — appliquer la règle MD5/relecture. Les autres tickets vérifiés (01, 04, 00, 09, 12) sont cohérents avec le dépôt.
 
 ### 1.6 « ⌚ Montres Seiko Mod (Q4) » — fiche boutique NOIRMONT
 - **URL** : https://app.notion.com/p/3a71f38c315481979cbfc1556049a1d9 — contenu arrêté au 25/07 [NOTION]
 - **Résumé** : dashboard complet de la boutique NOIRMONT : décisions 24/07, catalogue v1 (fiches AliExpress + coûts), configurateur, fournisseurs (Corgeut Factory, BL Watches), branding, liste d'import DSers 26 fiches, log du build autonome 24-25/07.
-- **Importance** : utile (historique) mais **[OBSOLÈTE POSSIBLE] — en retard de 3 jours sur le dépôt**, qui fait foi : [FAIT — repo:boutique-seiko-mod/REPRISE-SESSION.md (27-28/07)].
+- **Importance** : utile (historique) mais **[OBSOLÈTE POSSIBLE] — en retard de 3 jours sur le dépôt**, qui fait foi : [FAIT — repo:boutique-seiko-mod/journal/2026-08-08-reprise-session.md (27-28/07)].
 - **Contradictions précises (le dépôt fait foi)** :
   - **Charte** : Notion décrit la « Charte v2 » palette encre/craie/pierre + **vert Jura + laiton**, typo Bodoni Moda/Inter/Space Grotesk. Le dépôt (direction « A+B ») : accent **cyan #22D3EE** (instrument uniquement), **vert forêt et laiton purgés à la source — ne pas réintroduire**, Oswald affichage + Inter. [CONTRADICTOIRE]
   - **Configurateur** : Notion = « codé maison, prix unique envisagé 349 € ». Dépôt = pivot en **« guide de choix »** (filtrage progressif du catalogue, aucune prime de prix possible, V2 « grammaire des pièces » livrée le 28/07 sur `/pages/configurateur`). [CONTRADICTOIRE]
   - **`switch-shop`** : la case à cocher Notion dit « me connecter au MCP (**switch-shop**) pour le build » — instruction devenue **interdite** (le campement et le dépôt : `switch-shop` invalide la connexion pour tout le monde). Ne jamais l'exécuter. [CONTRADICTOIRE]
   - Livraison : Notion mentionne « généralement 2 à 3 semaines » dans les accordéons ; le dépôt a normalisé **J+14/J+21**. [OBSOLÈTE POSSIBLE]
-- **Info présente uniquement dans Notion** : le tableau consolidé « Liste d'import DSers — 26 fiches » avec liens + coûts au 24/07 (le dépôt a les rapports de phase 4 par famille, pas ce tableau unique) ; les tableaux concurrents (montreapapy, goteia) sous forme synthétique — détails toutefois dans `boutique-seiko-mod/analyse-concurrent-montreapapy-2026-07-24.md` et `analyse-configurateur-goteia-2026-07-24.md`.
+- **Info présente uniquement dans Notion** : le tableau consolidé « Liste d'import DSers — 26 fiches » avec liens + coûts au 24/07 (le dépôt a les rapports de phase 4 par famille, pas ce tableau unique) ; les tableaux concurrents (montreapapy, goteia) sous forme synthétique — détails toutefois dans `boutique-seiko-mod/journal/2026-07-24-analyse-concurrent-montreapapy.md` et `boutique-seiko-mod/journal/2026-07-24-analyse-configurateur-goteia.md`.
 
 ### 1.7 « 🧶 Boutique Tufting — Arborescence & sourcing » + 3 sous-pages
 - **URL** : https://app.notion.com/p/3a21f38c315481f7b452e27b7acdd84b — contenu arrêté au 21/07 (Porte 2) [NOTION]
@@ -82,7 +82,7 @@
 
 ## 2. Informations critiques rapatriées (présentes uniquement — ou seulement consolidées — dans Notion)
 
-> Source : page Campement type (https://app.notion.com/p/3a71f38c315481b88b28d745e54efc05) et tickets 01/04, sauf mention. Le dépôt en couvre des fragments épars (REPRISE-SESSION.md, runbooks boutique-seiko-mod/) mais **la compilation boutique-agnostique n'existe que dans Notion**. Synthèse — pour le détail, lire la page source.
+> Source : page Campement type (https://app.notion.com/p/3a71f38c315481b88b28d745e54efc05) et tickets 01/04, sauf mention. Le dépôt en couvre des fragments épars (boutique-seiko-mod/journal/2026-08-08-reprise-session.md, runbooks boutique-seiko-mod/) mais **la compilation boutique-agnostique n'existe que dans Notion**. Synthèse — pour le détail, lire la page source.
 
 ### 2.1 Le modèle de lancement lui-même [NOTION uniquement]
 Les 20 tickets-briefs (§1.5) et les règles transverses du campement n'ont **aucune copie locale**. Si Notion devenait inaccessible, le modèle de lancement serait perdu. Règles transverses clés : local d'abord puis synchro Notion ; **jamais `switch-shop`** ; **jamais toucher aux SKU** ; résultats MCP > ~25k tokens → fichier `/tool-results/*.txt` ; variantes `first:250` + curseur (la « limite 100 » est obsolète, Shopify accepte 2048) ; promesses vérifiables, bonus livrés en numérique ; copywriting bloqué sans persona ; QA mobile-first ; placeholders avis = Hakim seul ; skills globaux à invoquer par ticket (02, 03, 07, 08, 09, 10, 12b, 15, 16) et post-lancement `ads`+`ad-creative` avec `google-ads-launcher`/`meta-ads-creator`.
@@ -126,7 +126,7 @@ DSers → My Products → sélectionner la fiche → Mapping → coller l'URL Al
 4. Modèle Page Produit Horizon (+panier, +homepage) ↔ `docs/horizon-product-page-reference/`.
 5. Sous-pages tufting (persona, notice AK, page produit) ↔ fichiers locaux qu'elles citent.
 6. « MODÈLE Boutique — dupliquer » ↔ « Campement type » : **deux modèles de lancement concurrents**, le premier est une archive.
-7. Pièges vérifiés du campement ↔ § « Pièges vérifiés » de `boutique-seiko-mod/REPRISE-SESSION.md` : recouvrement partiel — Notion est plus complet (médias partagés/alt, swatches-métaobjets, découpage, marques tierces, conformité, dates de livraison estimées) ; le dépôt a 3 items absents de Notion (menus partagés entre thèmes, contraste mesuré sur le rendu, quota SEMrush gratuit « 0 mot clé »).
+7. Pièges vérifiés du campement ↔ § « Pièges vérifiés » de `boutique-seiko-mod/journal/2026-08-08-reprise-session.md` : recouvrement partiel — Notion est plus complet (médias partagés/alt, swatches-métaobjets, découpage, marques tierces, conformité, dates de livraison estimées) ; le dépôt a 3 items absents de Notion (menus partagés entre thèmes, contraste mesuré sur le rendu, quota SEMrush gratuit « 0 mot clé »).
 
 **Divergences (le dépôt fait foi)**
 1. Statut Tufting « Ads lancées » (base Boutiques) vs dépôt « rien publié, brouillon uniquement » (21/07). [CONTRADICTOIRE]
@@ -142,6 +142,6 @@ DSers → My Products → sélectionner la fiche → Mapping → coller l'URL Al
 ## 4. Priorités pour Codex
 
 1. **Sauvegarder localement le Campement type + ses 20 tickets** (seul actif critique sans copie dans le dépôt) — §1.4, §1.5, §2.
-2. Traiter les bases Notion comme des dashboards périmables : toujours lire `registre-candidats.md`, `project-state.md`, `REPRISE-SESSION.md` d'abord.
+2. Traiter les bases Notion comme des dashboards périmables : toujours lire `registre-candidats.md`, `project-state.md`, `boutique-seiko-mod/journal/2026-08-08-reprise-session.md` d'abord.
 3. Ne jamais exécuter les instructions périmées des pages Notion (`switch-shop`, vérif `updatedAt/size`, charte laiton/vert-Jura, configurateur 349 €).
-4. En reprenant NOIRMONT : `boutique-seiko-mod/REPRISE-SESSION.md` est le document de reprise, la page Notion Seiko Mod n'est qu'un historique au 25/07.
+4. En reprenant NOIRMONT : `boutique-seiko-mod/journal/2026-08-08-reprise-session.md` est le document de reprise, la page Notion Seiko Mod n'est qu'un historique au 25/07.

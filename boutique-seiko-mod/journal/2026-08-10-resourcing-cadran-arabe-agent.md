@@ -15,7 +15,7 @@ La passe respecte les frontières fixées :
 
 Le gateway était sain au lancement. La découverte a produit 128 réponses sauvegardées : 116 recherches réussies et 12 erreurs amont sur le tri `latest`. Deux recherches Unicode directes supplémentaires ont réussi. Les résultats sauvegardés couvrent 811 `item_id` distincts, dont 20 seulement avaient un titre réunissant cadran et termes arabes. Après dédoublonnage, seuil de ventes et QA image, une seule nouvelle fiche passe.
 
-Les produits déjà présents ou déjà traités n'ont pas été recomptés : `1005007976392353`, `1005012137091344`, `1005009056835202`, `1005011774911570`, le candidat du 09/08 `1005009751528666`, ainsi que les refus déjà motivés dans `RESOURCING-CADRAN-ARABE.md`.
+Les produits déjà présents ou déjà traités n'ont pas été recomptés : `1005007976392353`, `1005012137091344`, `1005009056835202`, `1005011774911570`, le candidat du 09/08 `1005009751528666`, ainsi que les refus déjà motivés dans `2026-08-09-resourcing-cadran-arabe.md`.
 
 ## Produit qualifié
 
@@ -85,9 +85,9 @@ Aucune file DSers n'est créée ici : l'objectif demandé à cet agent est la pr
 
 ## Preuves
 
-- `preuves-sourcing-api-2026-08-10-agent/1005007348127532.json` — inventaire API et douze qualifications SKU/fret exactes ;
-- `preuves-sourcing-api-2026-08-10-agent/1005007348127532-variantes.jpg` — planche QA des douze variantes ;
-- `preuves-sourcing-api-2026-08-10-agent/1005007348127532-sources/` — douze images de variantes renvoyées par l'API ;
-- `preuves-sourcing-api-2026-08-10-agent/refus-et-near-miss.json` — preuves structurées des deux décisions négatives ;
-- `preuves-sourcing-api-2026-08-10-agent/1005012130205925-near-miss.jpg` — planche du quasi-candidat à 9 ventes ;
-- `preuves-sourcing-api-2026-08-10-agent/1005010278946311-refus.webp` — zoom du verbatim éliminatoire.
+- `boutique-seiko-mod/preuves/preuves-sourcing-api-2026-08-10-agent/1005007348127532.json` — inventaire API et douze qualifications SKU/fret exactes ;
+- `boutique-seiko-mod/preuves/preuves-sourcing-api-2026-08-10-agent/1005007348127532-variantes.jpg` — planche QA des douze variantes ;
+- `boutique-seiko-mod/preuves/preuves-sourcing-api-2026-08-10-agent/1005007348127532-sources/` — douze images de variantes renvoyées par l'API ;
+- `boutique-seiko-mod/preuves/preuves-sourcing-api-2026-08-10-agent/refus-et-near-miss.json` — preuves structurées des deux décisions négatives ;
+- `boutique-seiko-mod/preuves/preuves-sourcing-api-2026-08-10-agent/1005012130205925-near-miss.jpg` — planche du quasi-candidat à 9 ventes ;
+- `boutique-seiko-mod/preuves/preuves-sourcing-api-2026-08-10-agent/1005010278946311-refus.webp` — zoom du verbatim éliminatoire.

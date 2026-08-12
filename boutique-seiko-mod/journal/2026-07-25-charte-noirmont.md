@@ -1,6 +1,6 @@
 # Charte NOIRMONT — v1 du 25/07/2026
 
-Fondée sur : persona « Julien, 34 ans » + positionnement « Sans logo, sans mensonge » ([objections-positionnement-2026-07-25.md](objections-positionnement-2026-07-25.md)). Direction validée Hakim : épuré, propre, moderne, ciblé homme. Vouvoiement.
+Fondée sur : persona « Julien, 34 ans » + positionnement « Sans logo, sans mensonge » ([2026-07-25-objections-positionnement.md](2026-07-25-objections-positionnement.md)). Direction validée Hakim : épuré, propre, moderne, ciblé homme. Vouvoiement.
 
 ## 1. Plateforme de marque — v2 (arbitrage Hakim 25/07)
 

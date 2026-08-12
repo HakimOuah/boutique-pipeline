@@ -11,7 +11,7 @@ Aucune modification Shopify ou DSers, aucun achat et aucun message fournisseur n
 
 ## Correction de périmètre
 
-L'expression « cinq fiches bloquées » de la passation ne désigne pas cinq produits Shopify. Le journal `FOURNEE-VISUELS-NOUVEAUX-2026-08-09.md` établit qu'il y avait **99 dossiers source pour 94 fiches importées** ; les cinq dossiers excédentaires sont précisément les deux refus du push, le candidat conditionnel jamais mis en file et deux cadrans non importés.
+L'expression « cinq fiches bloquées » de la passation ne désigne pas cinq produits Shopify. Le journal `2026-08-09-fournee-visuels-nouveaux.md` établit qu'il y avait **99 dossiers source pour 94 fiches importées** ; les cinq dossiers excédentaires sont précisément les deux refus du push, le candidat conditionnel jamais mis en file et deux cadrans non importés.
 
 Recherche Shopify MCP du 10/08/2026, par handle exact : **0 résultat pour les cinq handles**. Ils n'ont donc ni Shopify ID, ni statut, ni publication à nettoyer.
 

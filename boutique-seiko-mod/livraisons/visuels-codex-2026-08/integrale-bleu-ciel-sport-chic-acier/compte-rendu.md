@@ -1,7 +1,7 @@
 # Intégrale Bleu ciel — Sport chic acier
 
 - Livré : 1 visuel de galerie (`g1`, macro du bracelet intégré : larges plaques brossées, deux connecteurs par articulation et chants polis).
-- Source produit : `visuels-2026-07-25/generated/integrale-bleu-ciel.jpg`.
+- Source produit : `livraisons/visuels-2026-07-25/generated/integrale-bleu-ciel.jpg`.
 - Rejets : aucun.
 - Entrées écartées : aucune.
 - Plus de 3 régénérations : non.

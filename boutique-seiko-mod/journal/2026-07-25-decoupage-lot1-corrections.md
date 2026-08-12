@@ -1,6 +1,6 @@
 # Découpage lot 1 — corrections et points à trancher (25/07/2026)
 
-Complément au livrable de l'agent `decoupage-coloris-lot1-2026-07-25.md`.
+Complément au livrable de l'agent `2026-07-25-decoupage-coloris-lot1.md`.
 
 ## ✅ Résultat : 19 fiches créées, catalogue à 44 produits
 

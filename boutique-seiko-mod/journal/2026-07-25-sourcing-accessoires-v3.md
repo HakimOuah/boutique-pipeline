@@ -2,7 +2,7 @@
 
 Date : 2026-07-25 · Boutique : montres Seiko mod premium FR (289–429 €)
 Portée : recherche et rapport uniquement. Aucune commande passée, aucun accès Shopify.
-Suite de `sourcing-accessoires-v2-2026-07-25.md` (9 lignes fermées sur 15).
+Suite de `2026-07-25-sourcing-accessoires-v2.md` (9 lignes fermées sur 15).
 
 > **Note d'accès** : le fichier v2 n'a **pas pu être lu** durant cette passe — macOS TCC
 > refuse l'ouverture des fichiers pré-existants de `~/Documents` à ce processus (je peux en

@@ -203,7 +203,7 @@ de mon côté ; les vérifications ci-dessous ont été faites au niveau de la d
 
 ## 6. Refonte des pages collection — **faite**
 
-Voir le document dédié : **`pages-collection-refonte.md`**.
+Voir le document dédié : **`2026-07-31-pages-collection-refonte.md`**.
 
 La reconnaissance qui a servi de base :
 

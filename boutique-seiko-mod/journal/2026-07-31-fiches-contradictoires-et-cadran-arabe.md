@@ -1,13 +1,13 @@
 # Fiches contradictoires et ouverture du cadran arabe — Maison Noirmont
 
 > **27/07/2026** — boutique `v42pzp-h4` / maisonnoirmont.fr.
-> Traite le §5 de `verification-catalogue-strategie.md` (3 fiches actives dont les visuels contredisent le
+> Traite le §5 de `2026-07-31-verification-catalogue-strategie.md` (3 fiches actives dont les visuels contredisent le
 > fournisseur mappé) puis ouvre la grappe « cadran chiffres arabes ».
 > **Écritures : 3 passages en `DRAFT` + 1 fiche créée en `DRAFT`.** Aucun SKU, prix, variante, option, titre,
 > description, média, métachamp existant ni mapping DSers modifié. Aucune suppression. Aucun thème, aucune
 > publication, aucune commande, aucun achat.
 > Sauvegarde d'état : `backup-avant-draft-noirmont-2026-07-27.json`.
-> Preuves visuelles fournisseur : `preuves-fournisseur-2026-07-27/`.
+> Preuves visuelles fournisseur : `boutique-seiko-mod/preuves/preuves-fournisseur-2026-07-27/`.
 
 ---
 
@@ -33,8 +33,8 @@ listings ; le mapping enregistre fidèlement leur origine.**
 ### Preuve 2 — les visuels de la boutique ne sont pas des photos fournisseur
 
 Ce point ferme l'hypothèse « mapping faux » définitivement. Les visuels de ces fiches sont des **images
-produites par la boutique** (`audit-visuel-catalogue.md`, `branchement-galeries-codex.md`,
-`backup-medias-partages-2026-07-26/` où les fichiers sont nommés par **famille** — `gmt-1-face.jpg`,
+produites par la boutique** (`2026-07-31-audit-visuel-catalogue.md`, `2026-07-31-branchement-galeries-codex.md`,
+`boutique-seiko-mod/backups/backup-medias-partages-2026-07-26/` où les fichiers sont nommés par **famille** — `gmt-1-face.jpg`,
 `chrono-1-face.jpg` — et non par référence fournisseur). Ils ont été générés d'après ce que la **fiche**
 prétendait vendre. Ils ne constituent donc à aucun moment une preuve de ce que le fournisseur livre : ils sont
 la conséquence de l'erreur, pas sa source.
@@ -43,7 +43,7 @@ la conséquence de l'erreur, pas sa source.
 
 **`1005004626900765` — Tandorio** → `noirmont-un-plongeuse-acier`, `noirmont-un-bronze-plongeuse`
 
-Attributs **structurés du vendeur** (pas l'« Aperçu IA », écarté comme dans `veracite-produit-cloture.md`) :
+Attributs **structurés du vendeur** (pas l'« Aperçu IA », écarté comme dans `2026-07-31-veracite-produit-cloture.md`) :
 
 | Attribut vendeur | Valeur |
 |---|---|
@@ -54,7 +54,7 @@ Attributs **structurés du vendeur** (pas l'« Aperçu IA », écarté comme dan
 | Origine du mouvement | JP |
 | Profondeur de résistance à l'eau | 20 bars *(relevé du 26/07, inchangé)* |
 
-Photos de variante du vendeur (`preuves-fournisseur-2026-07-27/TANDORIO-…jpg`) : **montre type flieger**,
+Photos de variante du vendeur (`boutique-seiko-mod/preuves/preuves-fournisseur-2026-07-27/TANDORIO-…jpg`) : **montre type flieger**,
 cadran noir, **chiffres arabes 1-12 en couronne intérieure et 5-55 en couronne extérieure**, **lunette lisse
 non tournante**, **bracelet cuir brun surpiqué**. Les deux références `-no logo` ont un cadran **stérile** ; les
 `-logo` portent la marque à 12 h. Un avis acheteur vérifié parle spontanément de « montres de **pilote** ».
@@ -67,13 +67,13 @@ plongeuse ne sont ce que le fournisseur expédie.** Le cadran noir, lui, est jus
 **`1005005629655849` — BLIGER** → `noirmont-deux-plongeuse-ceramique`
 
 Les 7 vignettes de variante téléchargées et mises en planche
-(`preuves-fournisseur-2026-07-27/BLIGER-…jpg`) : **les 7 références partagent le même cadran bleu ciel semé de
+(`boutique-seiko-mod/preuves/preuves-fournisseur-2026-07-27/BLIGER-…jpg`) : **les 7 références partagent le même cadran bleu ciel semé de
 pastilles multicolores** (rouge, jaune, rose, vert foncé, blanc), sur **bracelet acier jubilé**, avec un **insert
 de lunette bleu ciel**. Elles ne diffèrent que par le marquage de l'insert : plongée graduée (réf. 1, 3, 4),
 marquages noirs (réf. 5), **chiffres arabes orientaux** (réf. 2), **GMT 24 h** (réf. 6), **12 h occidental**
 (réf. 7). Le H1 vendeur confirme la teinte : « …Insert Noir Bleu Vert, 40mm, **Bleu Ciel** ».
 
-**L'hypothèse « photo de lume » est écartée.** `renommage-variantes-2026-07-25.md` §3 lisait ces pastilles comme
+**L'hypothèse « photo de lume » est écartée.** `2026-07-25-renommage-variantes.md` §3 lisait ces pastilles comme
 une démonstration de matière luminescente. Ce sont bien les **photos de jour**, en lumière naturelle sur fond
 clair ; chacune porte **en incrustation séparée** un petit disque noir qui est, lui, la vraie photo de lume
 (aiguilles et index verts). Les pastilles sont donc le **motif du cadran**, pas un artefact d'éclairage.
@@ -167,7 +167,7 @@ aucune nouvelle position tarifaire inventée.
 | Fond acier ou fond verre | valeurs d'option `-steel back` / `-glass back` |
 | Miyota 8215 · Seiko NH35 · PT5000 | valeurs d'option ; **fabricants de calibre, seule marque tierce autorisée** |
 | « Verre saphir **annoncé** » | titre vendeur « verre saphir AR », avec le hedge maison |
-| « Étanchéité **annoncée** 200 m ; la plongée en bouteille reste déconseillée » | attribut structuré 20 bars ; **formulation reprise mot pour mot** de `veracite-produit-cloture.md` pour ce listing |
+| « Étanchéité **annoncée** 200 m ; la plongée en bouteille reste déconseillée » | attribut structuré 20 bars ; **formulation reprise mot pour mot** de `2026-07-31-veracite-produit-cloture.md` pour ce listing |
 
 **Aucune marque de design n'apparaît** — le mot « Tandorio » n'est nulle part dans la fiche.
 **Aucun diamètre n'est écrit** : le listing ne donne qu'un « diamètre du cadran 30 à 34 mm », qui est une
@@ -192,7 +192,7 @@ publication.
 1. **Produire les visuels de `aviateur-acier-cadran-chiffres-arabes`** — face, situation, macro, poignet, au
    format des autres fiches. Le brief est précis et vérifiable : cadran noir stérile, **chiffres arabes 1-12 en
    couronne intérieure, 5-55 en couronne extérieure**, boîtier acier, **lunette lisse non tournante**, bracelet
-   cuir brun surpiqué clair. Les photos de référence sont dans `preuves-fournisseur-2026-07-27/`. **Puis
+   cuir brun surpiqué clair. Les photos de référence sont dans `boutique-seiko-mod/preuves/preuves-fournisseur-2026-07-27/`. **Puis
    publier** — la fiche est prête par ailleurs.
 2. **Trancher le sort des 3 fiches en brouillon.** Le mapping étant bon, la voie la moins coûteuse n'est pas de
    les jeter mais de les **réécrire sur le produit réel** : `noirmont-un-plongeuse-acier` et

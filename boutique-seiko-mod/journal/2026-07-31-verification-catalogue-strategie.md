@@ -110,7 +110,7 @@ déjà en place. La palette reste à 14 valeurs — aucune entrée en double dan
 Définition créée à l'identique des quatre autres : `list.single_line_text_field`, accès vitrine `PUBLIC_READ`,
 filtrable en admin. ID `gid://shopify/MetafieldDefinition/507132772690`.
 
-Les valeurs viennent de `axes-guide-de-choix.md`, **non redérivées**. Le report est validé par réconciliation :
+Les valeurs viennent de `2026-07-31-axes-guide-de-choix.md`, **non redérivées**. Le report est validé par réconciliation :
 mes 53 affectations sur 48 fiches retombent **exactement** sur les sept comptes du livrable.
 
 | Valeur canonique | Attendu | Écrit |
@@ -162,7 +162,7 @@ Miyota 8215**. La description dit maintenant les deux versions réellement vendu
 ## 5. Noirmont Deux — débloqué, et le blocage n'était pas celui qu'on croyait
 
 **Les 7 références sont identifiées.** Le mapping n'a pas eu besoin de DSers : l'URL fournisseur était déjà relevée
-dans `renommage-variantes-2026-07-25.md` → `1005005629655849` (BLIGER).
+dans `2026-07-25-renommage-variantes.md` → `1005005629655849` (BLIGER).
 
 **Mapping vérifié en direct, et il est exact.** Les 7 identifiants de propriété de la fiche AliExpress correspondent
 un pour un aux SKU Shopify (`color 1` → `14-200005100` = `14:200005100#color 1`, etc.), et les 4 identifiants de
@@ -257,7 +257,7 @@ nombre d'écrans**, au lieu de deux familles qui sautaient aux résultats.
 donnée : c'est le blocage produit du §5. Elle sortira de l'ombre par une décision, pas par une écriture.
 
 ⚠️ **Rappel** : ces facettes ne s'afficheront en vitrine que lorsque les filtres seront ajoutés à la main dans
-**Search & Discovery** (cf. `metachamps-montres.md` §1 — l'application est dans une iframe d'une autre origine et
+**Search & Discovery** (cf. `2026-07-31-metachamps-montres.md` §1 — l'application est dans une iframe d'une autre origine et
 n'est pas pilotable par l'outillage). Un filtre **Bracelet** est désormais à ajouter, en plus des quatre prévus.
 
 ---

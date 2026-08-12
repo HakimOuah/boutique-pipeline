@@ -1,7 +1,7 @@
 # Audit visuel du catalogue — Maison Noirmont
 
 Date : 26 juillet 2026 · Boutique `v42pzp-h4` / maisonnoirmont.fr
-**Version 3** — standard arbitré par Hakim le 26/07 : galeries **100 % photographiques**, aucune carte typographique, ajout du **porté-poignet**. Conventions de nommage et exclusions alignées sur `PROMPT-CODEX-galeries.md`.
+**Version 3** — standard arbitré par Hakim le 26/07 : galeries **100 % photographiques**, aucune carte typographique, ajout du **porté-poignet**. Conventions de nommage et exclusions alignées sur `2026-07-31-prompt-codex-galeries.md`.
 
 > **Ce document est la feuille de route de Codex.** Le prompt l'y renvoie explicitement : Codex ne produit que ce qui figure ici.
 >
@@ -87,7 +87,7 @@ Les mises en situation des **5 mères actives à traiter** sont déjà sur leur 
 
 ## 2. Le standard
 
-Conforme à `PROMPT-CODEX-galeries.md`.
+Conforme à `2026-07-31-prompt-codex-galeries.md`.
 
 ### Montres — 4 images, toutes photographiques
 
@@ -227,7 +227,7 @@ Codex n'a pas le droit de se connecter à Shopify. Les **90 faces sources** doiv
 
 | Origine | Fiches | État |
 |---|---:|---|
-| `visuels-2026-07-25/generated/` | 41 | ✅ disponible |
+| `boutique-seiko-mod/livraisons/visuels-2026-07-25/generated/` | 41 | ✅ disponible |
 | `boutique-pipeline/scratchpad/noirmont-accessoires-img/` | 13 | ✅ disponible |
 | **À exporter depuis le CDN** | **36** | ❌ **bloquant** |
 
@@ -313,6 +313,6 @@ Préfixe CDN : `https://cdn.shopify.com/s/files/1/1094/1893/8706/files/`
 
 ## 8. Livrable associé
 
-Le prompt à envoyer à Codex est **`PROMPT-CODEX-galeries.md`** (même dossier).
+Le prompt à envoyer à Codex est **`2026-07-31-prompt-codex-galeries.md`** (même dossier).
 
 > ⚠️ **`PROMPT-CODEX-galeries-completes.md` est obsolète.** Il porte la version 1 du standard — 7 emplacements, 390 fichiers, 175 cartes typographiques — qui **contredit** l'arbitrage du 26/07. Il n'a volontairement pas été mis à jour, pour éviter deux prompts concurrents. **À supprimer ou archiver avant toute exécution** : s'il tombe entre les mains de Codex, il produira 175 cartes qui ne doivent plus exister et manquera les 52 portés-poignet.

@@ -1,6 +1,6 @@
 # Nettoyage des données produit — Maison Noirmont (08/08/2026)
 
-> Suite de l'audit `AUDIT-GMC-FINAL-2026-08-08.md`. Trois chantiers **données** :
+> Suite de l'audit `2026-08-08-audit-gmc-final.md`. Trois chantiers **données** :
 > N2 (SKU AliExpress), N6 (résidu « 904L » dans les URL), N3 (adresse Gmail).
 > Boutique `v42pzp-h4.myshopify.com` / `maisonnoirmont.fr`, **toujours sous mot de passe** — rien n'est public.
 >
@@ -28,7 +28,7 @@ Exemple de SKU trouvé (publié dans le JSON-LD de la fiche) :
 
 ### Garde-fou : sauvegarde avant écriture
 
-Dossier `backup-sku-2026-08-08/` :
+Dossier `boutique-seiko-mod/backups/backup-sku-2026-08-08/` :
 
 | Fichier | Rôle |
 |---|---|
@@ -229,12 +229,12 @@ Pour restaurer un SKU fournisseur sur une variante :
 
 ```bash
 jq -r 'select(.variant_id=="gid://shopify/ProductVariant/<ID>") | .sku_actuel' \
-  backup-sku-2026-08-08/table-correspondance.jsonl
+  boutique-seiko-mod/backups/backup-sku-2026-08-08/table-correspondance.jsonl
 ```
 
 Pour retrouver le SKU AliExpress derrière une référence maison :
 
 ```bash
 jq -r 'select(.sku_nouveau=="NOIR-GMT-001") | "\(.product_handle) · \(.variant_title) · \(.sku_actuel)"' \
-  backup-sku-2026-08-08/correspondance-ancien-nouveau.jsonl
+  boutique-seiko-mod/backups/backup-sku-2026-08-08/correspondance-ancien-nouveau.jsonl
 ```

@@ -5,7 +5,7 @@ Boutique **NOIRMONT** / Maison Noirmont (`v42pzp-h4.myshopify.com`, maisonnoirmo
 **181 médias détachés sur 41 fiches filles · 175 variantes supprimées sur 12 fiches mères · 0 média supprimé · 0 produit supprimé · 0 erreur API.**
 
 Sauvegarde préalable : `backup-avant-reduction-meres.json` (12 mères, 221 variantes, écrite **avant** la première suppression).
-Sauvegarde des fichiers image : `backup-medias-partages-2026-07-26/` (31 JPEG, 12 Mo, téléchargés **avant** le pilote).
+Sauvegarde des fichiers image : `boutique-seiko-mod/backups/backup-medias-partages-2026-07-26/` (31 JPEG, 12 Mo, téléchargés **avant** le pilote).
 
 ---
 
@@ -110,7 +110,7 @@ Les 175 SKU candidats à la suppression ont été confrontés un à un à l'**en
 | Remontoir Collection | `10977444757842` | 15 | **1** | 14 | ⚠️ Bois LED · rouge · 4 montres (1er) |
 | | | **221** | **46** | **175** | |
 
-Les 5 premières lignes appliquent à la lettre les coloris nommés dans le brief. Les 7 suivantes viennent de `decoupage-elagage-lot2.md` et sont **signalées** ci-dessous.
+Les 5 premières lignes appliquent à la lettre les coloris nommés dans le brief. Les 7 suivantes viennent de `2026-07-31-decoupage-elagage-lot2.md` et sont **signalées** ci-dessous.
 
 Les **valeurs d'option devenues vides ont été retirées automatiquement par Shopify** : `Cadran` ne vaut plus que « Noir » sur Trente-Six, « Orange » sur Trente-Neuf, etc. Aucune intervention supplémentaire n'a été nécessaire.
 
@@ -305,5 +305,5 @@ Thème brouillon `204248088914` (bandeau « Maison Noirmont — Draft — Passwo
 
 ## Annulation
 
-- **Volet 1** : rejouable en rattachant les médias listés plus haut aux fiches filles (`productCreateMedia` par `id`). Les 31 fichiers sont aussi sur disque dans `backup-medias-partages-2026-07-26/`.
+- **Volet 1** : rejouable en rattachant les médias listés plus haut aux fiches filles (`productCreateMedia` par `id`). Les 31 fichiers sont aussi sur disque dans `boutique-seiko-mod/backups/backup-medias-partages-2026-07-26/`.
 - **Volet 2** : les 175 variantes se recréent à l'identique depuis `backup-avant-reduction-meres.json`, qui porte pour chacune `id`, `sku`, `price`, `compareAtPrice`, `inventoryPolicy`, `inventoryQuantity` et les valeurs d'option. ⚠️ Une recréation produira de **nouveaux identifiants de variante** ; les SKU, eux, sont restitués à l'octet près.

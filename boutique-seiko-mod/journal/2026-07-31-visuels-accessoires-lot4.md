@@ -1,7 +1,7 @@
 # Visuels accessoires — lot 4 (NOIRMONT)
 
 Date : 2026-07-26 · Boutique : Maison Noirmont (`v42pzp-h4`, maisonnoirmont.fr) · Compte DSers : `contact.noirmont`
-Suite de `import-accessoires-lot4.md`. Objet : doter les 13 fiches accessoires d'un visuel NOIRMONT et retirer les photos fournisseur.
+Suite de `2026-07-31-import-accessoires-lot4.md`. Objet : doter les 13 fiches accessoires d'un visuel NOIRMONT et retirer les photos fournisseur.
 
 **Les 13 fiches restent en DRAFT, sur aucun canal.** Aucun SKU, prix, titre, option, statut ni mapping DSers n'a été touché. Aucune commande, aucun achat, aucun identifiant saisi.
 

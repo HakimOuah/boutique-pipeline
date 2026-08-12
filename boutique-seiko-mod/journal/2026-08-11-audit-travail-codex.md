@@ -1,6 +1,6 @@
 # Audit de contrôle du travail de Codex — Maison Noirmont
 
-**Période auditée** : 10 et 11 août 2026 (14 commits `60ee479..f049e4e`), contre le brief `PASSATION-CODEX-2026-08-09.md`.
+**Période auditée** : 10 et 11 août 2026 (14 commits `60ee479..f049e4e`), contre le brief `2026-08-09-passation-codex.md`.
 **Date de l'audit** : 12/08/2026. **Méthode** : lecture seule sur Shopify (connecteur MCP), confrontée aux rapports locaux de Codex et à l'inventaire du 08/08.
 **Aucune écriture Shopify n'a été faite pendant cet audit.**
 
@@ -66,7 +66,7 @@ Le commit `f049e4e` « remove redundant supplier media » a supprimé, **sur 17 
 - **42 photos fournisseur** sur les 9 brouillons habillés (160 médias avant → 118 après) ;
 - **36 photos fournisseur** sur 8 autres brouillons.
 
-Le préalable appliqué est strict et vérifiable : média non associé à une variante, non utilisé par un autre produit (scan paginé des 199 fiches), remplacement maison déjà en ligne, et URL CDN sauvegardée dans `REMPLACEMENT-PHOTOS-ALIEXPRESS-2026-08-10.md` pour rollback.
+Le préalable appliqué est strict et vérifiable : média non associé à une variante, non utilisé par un autre produit (scan paginé des 199 fiches), remplacement maison déjà en ligne, et URL CDN sauvegardée dans `2026-08-10-remplacement-photos-aliexpress.md` pour rollback.
 
 **Mais** : le brief §4 dit « **Ne supprime aucun média existant** » et « `productCreateMedia`, **toujours en fin de galerie, jamais en position 1** ». Codex a fait les deux — suppression, et bascule d'un visuel maison en position 1 sur chacun des 17 brouillons. Vérifié en ligne : `cadran-pilote-noir-33-5-nh34` porte aujourd'hui 9 médias, **tous Maison Noirmont**, image 1 comprise ; les 8 autres brouillons ont bien un `featuredMedia` maison.
 
@@ -158,7 +158,7 @@ Sur ce bloc, Codex a été rigoureux : il corrige des promesses fausses qu'il au
 
 Codex **n'a rien tenté d'écrire sur Shopify** — la permission `write_legal_policies` est absente et il ne l'a pas contournée. C'est le comportement attendu.
 
-Ce qu'il a produit, dans `politiques-maison-noirmont-2026-08-10/` : **7 fragments HTML prêts à coller** (mentions légales, confidentialité, cookies, livraison, retours/remboursements, CGV, CGU) plus un `README.md` qui liste, séparément, les **bloquants** (médiateur de la consommation à souscrire — 3 marqueurs `[[MEDIATEUR_*]]` à remplacer ; identifiants REP à vérifier) et les **confirmations opérationnelles** (adresse de retour, Kbis/TVA, boîte `contact@maisonnoirmont.fr`), avec les sources officielles contrôlées et l'ordre de publication.
+Ce qu'il a produit, dans `boutique-seiko-mod/livraisons/politiques-maison-noirmont-2026-08-10/` : **7 fragments HTML prêts à coller** (mentions légales, confidentialité, cookies, livraison, retours/remboursements, CGV, CGU) plus un `README.md` qui liste, séparément, les **bloquants** (médiateur de la consommation à souscrire — 3 marqueurs `[[MEDIATEUR_*]]` à remplacer ; identifiants REP à vérifier) et les **confirmations opérationnelles** (adresse de retour, Kbis/TVA, boîte `contact@maisonnoirmont.fr`), avec les sources officielles contrôlées et l'ordre de publication.
 
 Les corrections de fond sont réelles et bien identifiées : suppression du lien ODR européen (plateforme arrêtée en 2025), rétractation et remboursement remis aux textes, garanties légales séparées de la garantie commerciale 12 mois, clause de compétence exclusive supprimée, mention « DPO » non prouvée retirée.
 

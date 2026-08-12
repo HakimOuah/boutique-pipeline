@@ -24,8 +24,8 @@ OUTPUT = Path(__file__).resolve().with_name("inventaire-assets.json")
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}
 
 ROOTS = [
-    WORKSPACE / "boutique-seiko-mod/visuels-codex-2026-08",
-    WORKSPACE / "boutique-seiko-mod/entrees-faces-REDONDANT-export-claude",
+    WORKSPACE / "boutique-seiko-mod/livraisons/visuels-codex-2026-08",
+    WORKSPACE / "boutique-seiko-mod/livraisons/entrees-faces-REDONDANT-export-claude",
     WORKSPACE / "scratchpad/noirmont-galeries",
     WORKSPACE / "scratchpad/noirmont-accessoires-img",
     WORKSPACE / "scratchpad/lot4-qa",
@@ -36,7 +36,7 @@ ROOTS = [
 ]
 
 REPORT_ROOTS = [
-    WORKSPACE / "boutique-seiko-mod/visuels-codex-2026-08",
+    WORKSPACE / "boutique-seiko-mod/livraisons/visuels-codex-2026-08",
     WORKSPACE / "scratchpad/noirmont-galeries",
     WORKSPACE / "scratchpad/pilote29-direct-imagegen-2026-08-11",
     WORKSPACE / "scratchpad/pilote-lumineuses-deterministe-2026-08-11",
@@ -187,7 +187,7 @@ def resolve_reference(value: str, document: Path, handle: str | None) -> Path | 
     else:
         attempts.extend((WORKSPACE / candidate, document.parent / candidate))
         if handle:
-            attempts.append(WORKSPACE / "boutique-seiko-mod/visuels-codex-2026-08" / handle / candidate)
+            attempts.append(WORKSPACE / "boutique-seiko-mod/livraisons/visuels-codex-2026-08" / handle / candidate)
     for attempt in attempts:
         if attempt.exists() and attempt.is_file():
             return attempt.resolve()
@@ -195,7 +195,7 @@ def resolve_reference(value: str, document: Path, handle: str | None) -> Path | 
     # one level deeper under a product handle. Resolve only an unambiguous
     # suffix match; never guess between several products.
     if not candidate.is_absolute():
-        visual_root = WORKSPACE / "boutique-seiko-mod/visuels-codex-2026-08"
+        visual_root = WORKSPACE / "boutique-seiko-mod/livraisons/visuels-codex-2026-08"
         suffix = candidate.as_posix()
         matches = [
             path.resolve()
@@ -258,7 +258,7 @@ def infer_slot(path: Path, explicit: str | None = None) -> str | None:
 
 def infer_handle(path: Path) -> str | None:
     relative = rel(path)
-    prefix = "boutique-seiko-mod/visuels-codex-2026-08/"
+    prefix = "boutique-seiko-mod/livraisons/visuels-codex-2026-08/"
     if relative.startswith(prefix):
         return relative[len(prefix) :].split("/", 1)[0]
     if path.name in HANDLE_BY_ACCESSORY_FILE:
@@ -404,7 +404,7 @@ def manual_evidence(path: Path) -> list[dict[str, Any]]:
     if relative.startswith("scratchpad/noirmont-accessoires-img/") and path.name in HANDLE_BY_ACCESSORY_FILE:
         evidence.append(
             {
-                "document": "boutique-seiko-mod/visuels-accessoires-lot4.md",
+                "document": "boutique-seiko-mod/journal/2026-07-31-visuels-accessoires-lot4.md",
                 "pointer": "lot4.finales_noirmont",
                 "reference_key": "fichier",
                 "qa_status": "PASS",
@@ -420,7 +420,7 @@ def manual_evidence(path: Path) -> list[dict[str, Any]]:
     if relative.startswith("scratchpad/lot4-qa/") and path.name in HANDLE_BY_LOT4_MASTER:
         evidence.append(
             {
-                "document": "boutique-seiko-mod/visuels-accessoires-lot4.md",
+                "document": "boutique-seiko-mod/journal/2026-07-31-visuels-accessoires-lot4.md",
                 "pointer": "lot4.generations_4k",
                 "reference_key": "master_4k",
                 "qa_status": "PASS",

@@ -1,7 +1,7 @@
 # Minage montre-avenue — ce qui est portable sur NOIRMONT
 
 > **25/07/2026** — recherche seule, aucune modification faite ni chez eux ni chez nous.
-> Complète `PLAN-lisibilite-variantes-2026-07-25.md` (§3, ligne « Minage montre-avenue »).
+> Complète `2026-07-25-plan-lisibilite-variantes.md` (§3, ligne « Minage montre-avenue »).
 
 ## 0. Correction préalable — le domaine
 

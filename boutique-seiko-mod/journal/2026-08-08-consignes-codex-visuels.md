@@ -234,7 +234,7 @@ perdre plus de temps que la production elle-même.
 **Un dossier de livraison par fiche produit :**
 
 ```
-boutique-pipeline/boutique-seiko-mod/visuels-codex-2026-08/<handle>/
+boutique-pipeline/boutique-seiko-mod/livraisons/visuels-codex-2026-08/<handle>/
 ```
 
 `<handle>` = le **handle Shopify exact** de la fiche, repris tel quel, sans modification, sans accent
@@ -309,14 +309,14 @@ Dans chaque dossier `<handle>/`, un fichier `manifeste.json`. Structure :
       "handle": "montre-acier-chiffres-3-6-9-explorateur",
       "slot": "galerie",
       "sku_fournisseur": null,
-      "source": "visuels-2026-07-25/generated/explorateur.jpg"
+      "source": "boutique-seiko-mod/livraisons/visuels-2026-07-25/generated/explorateur.jpg"
     },
     {
       "fichier": "montre-acier-chiffres-3-6-9-explorateur-v-black1.jpg",
       "handle": "montre-acier-chiffres-3-6-9-explorateur",
       "slot": "variante",
       "sku_fournisseur": "14:200000080#Black1",
-      "source": "visuels-2026-07-25/generated/explorateur.jpg"
+      "source": "boutique-seiko-mod/livraisons/visuels-2026-07-25/generated/explorateur.jpg"
     }
   ],
   "ecartes": [
@@ -350,7 +350,7 @@ plus aucune trace du coloris fournisseur**.
 
 Conséquence : **depuis la boutique, le lien « ce coloris ↔ cette photo » n'est plus lisible.** Le seul
 pont qui subsiste est l'ancien fragment fournisseur (`#Black1`, `#FKM-Blue Gold`…), conservé dans
-`backup-sku-2026-08-08/table-correspondance.jsonl` (935 lignes, une par variante, champs
+`boutique-seiko-mod/backups/backup-sku-2026-08-08/table-correspondance.jsonl` (935 lignes, une par variante, champs
 `product_handle`, `variant_title`, `sku_actuel`).
 
 **Ton manifeste est donc le seul document qui rattachera une image à un coloris.** S'il est faux, la
@@ -421,10 +421,10 @@ Pour chaque fiche :
 
 1. **Identifier le handle exact** et le titre de la fiche.
 2. **Rassembler les sources.** Emplacements dans le dépôt :
-   - `visuels-2026-07-25/generated/` — faces maison déjà validées (77 fichiers) ;
-   - `visuels-2026-07-25/reference/` — photos fournisseur nettoyées ;
-   - `preuves-fournisseur-2026-07-27/` — captures de fiches fournisseur ;
-   - `backup-sku-2026-08-08/table-correspondance.jsonl` — l'appariement handle ↔ variante ↔ fragment SKU
+   - `boutique-seiko-mod/livraisons/visuels-2026-07-25/generated/` — faces maison déjà validées (77 fichiers) ;
+   - `boutique-seiko-mod/livraisons/visuels-2026-07-25/reference/` — photos fournisseur nettoyées ;
+   - `boutique-seiko-mod/preuves/preuves-fournisseur-2026-07-27/` — captures de fiches fournisseur ;
+   - `boutique-seiko-mod/backups/backup-sku-2026-08-08/table-correspondance.jsonl` — l'appariement handle ↔ variante ↔ fragment SKU
      fournisseur.
 
    **Contrôler la source avant de s'en servir** : si elle porte une marque, un logo ou une mention

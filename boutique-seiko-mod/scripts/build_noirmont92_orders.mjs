@@ -126,7 +126,7 @@ for (const [handle, slug, start, end] of batchPlan) {
         specifiques: universalQa,
       },
       sortie: {
-        dossier: `boutique-seiko-mod/visuels-codex-2026-08/${handle}`,
+        dossier: `boutique-seiko-mod/livraisons/visuels-codex-2026-08/${handle}`,
         manifeste: `manifeste-remplacement92-${slug}.json`,
       },
     },

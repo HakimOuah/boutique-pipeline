@@ -3,7 +3,7 @@
   "purpose": "Mapping local opérationnel des 27 médias P4 PRODUISIBLE vers les produits et variantes attendus du snapshot SKU du 08/08/2026.",
   "sources": {
     "orders_glob": "ordres/pour-codex/inbox/20260810-0130-generate_images-p4-*.json",
-    "sku_snapshot": "boutique-seiko-mod/backup-sku-2026-08-08/table-correspondance.jsonl",
+    "sku_snapshot": "boutique-seiko-mod/backups/backup-sku-2026-08-08/table-correspondance.jsonl",
     "match_rule": "Égalité stricte sur handle + premier fragment de sku_actuel avant le premier point-virgule."
   },
   "boundary": {

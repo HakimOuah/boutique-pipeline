@@ -17,7 +17,7 @@
 
 ## 1. Principe
 
-Codex ne peut pas atteindre AliExpress depuis son environnement : blocage `Browser Use rejected this action due to browser security policy` constaté le 20/07 **[FAIT — repo:codex-chasse-clusters/reports/validation-multimarche-brandsearch-20260720-200609-a1.md]**. Le Chrome connecté de Hakim, piloté par une session Claude Code, passe sans CAPTCHA **[FAIT — repo:boutique-seiko-mod/sourcing-accessoires-v3-2026-07-25.md]**.
+Codex ne peut pas atteindre AliExpress depuis son environnement : blocage `Browser Use rejected this action due to browser security policy` constaté le 20/07 **[FAIT — repo:codex-chasse-clusters/reports/validation-multimarche-brandsearch-20260720-200609-a1.md]**. Le Chrome connecté de Hakim, piloté par une session Claude Code, passe sans CAPTCHA **[FAIT — repo:boutique-seiko-mod/journal/2026-07-25-sourcing-accessoires-v3.md]**.
 
 Le pont entre les deux est une **boîte aux lettres de fichiers JSON** dans le dépôt :
 
@@ -94,7 +94,7 @@ La classe est **calculée par l'exécutant**, jamais déclarée par l'ordre.
 
 | Type | Garde-fous non négociables |
 |---|---|
-| `import_product_to_dsers` | « Set product status as Draft » **coché**, « Publier dans la Boutique » **décoché**, toujours ; compteurs DSers avant/après avec arithmétique **[FAIT — repo:boutique-seiko-mod/import-accessoires-lot4.md]** |
+| `import_product_to_dsers` | « Set product status as Draft » **coché**, « Publier dans la Boutique » **décoché**, toujours ; compteurs DSers avant/après avec arithmétique **[FAIT — repo:boutique-seiko-mod/journal/2026-07-31-import-accessoires-lot4.md]** |
 | `configure_dsers_variants` | **Uniquement sur un produit importé par un ordre du même lot** (id d'import référencé dans `notes` ou présent dans le même dépouillement) — **jamais sur un mapping existant** ; sinon → classe C |
 | `push_dsers_product_to_shopify` | Résultat en **DRAFT, 0 canal** ; si l'ordre demande autre chose (`set_product_status_as_draft` ≠ true ou `publier_dans_boutique` ≠ false) → classe C |
 | `update_shopify_product` | **Uniquement sur une fiche DRAFT** — l'exécutant vérifie le statut réel (via `verify_shopify_product` / API) **avant** d'écrire ; `sauvegarde_prealable` obligatoire |
@@ -122,7 +122,7 @@ Un ordre classé C est déplacé en `attente-hakim/` et un résultat `status: "a
 > motif, classe C conforme → `attente-hakim/`, inbox vidée dans les deux cas.
 
 1. **Dépôt** — Codex écrit `inbox/<nom>.json`. Codex n'écrit **jamais** ailleurs.
-2. **Verrou d'exécutant** — avant tout traitement, l'exécutant vérifie que `en-cours/` est **vide**. Sinon : arrêt immédiat — soit une autre session travaille, soit une session a crashé (dans ce cas, contrôle humain avant reprise). **Jamais deux exécutants en parallèle sur la boîte** : le navigateur est une ressource unique, deux consommateurs simultanés = onglets qui se re-naviguent **[FAIT — repo:boutique-seiko-mod/journal-nuit-2026-07-25.md]**.
+2. **Verrou d'exécutant** — avant tout traitement, l'exécutant vérifie que `en-cours/` est **vide**. Sinon : arrêt immédiat — soit une autre session travaille, soit une session a crashé (dans ce cas, contrôle humain avant reprise). **Jamais deux exécutants en parallèle sur la boîte** : le navigateur est une ressource unique, deux consommateurs simultanés = onglets qui se re-naviguent **[FAIT — repo:boutique-seiko-mod/journal/2026-07-25-journal-nuit.md]**.
 3. **Idempotence** (§6) — un `id` ou nom de fichier déjà présent dans `resultats/`, `rejetes/`, `attente-hakim/` ou `en-cours/` ne se ré-exécute **jamais** : l'ordre entrant est déplacé en `rejetes/` avec motif `doublon`.
 4. **Validation** — `/usr/bin/python3 ordres/valider_ordre.py inbox/<nom>.json` + relecture humaine du payload par l'exécutant (le validateur vérifie les champs, pas l'intention).
    - `INVALIDE` ou `REFUS` → déplacer l'ordre en `rejetes/<nom>.json` + écrire `rejetes/<nom>.motif.json` (enveloppe de résultat, `status: "rejected"`, motif dans `journal`).
@@ -334,7 +334,7 @@ Validation : `/usr/bin/python3 ordres/valider_ordre.py pour-codex/inbox/<fichier
 qu'au §4 ; champs requis du payload, refus des chemins hors dépôt/projet, refus des IDs périssables).
 Exemple réaliste : `pour-codex/inbox/exemples/20260731-1200-generate_images-explorateur-variantes.json`
 (les 6 visuels de variante de l'Explorateur — couples `Black`/`Black1` indépartageables,
-`publication-grappes.md` §6.4).
+`boutique-seiko-mod/journal/2026-07-31-publication-grappes.md` §6.4).
 
 ### 9.3 Enveloppe de résultat (écrite par Codex dans `pour-codex/resultats/`)
 

@@ -122,7 +122,7 @@ atteignables via « Peu importe » et la rangée « Votre cadran, précisément 
   `work-configurateur/header-group.json`). Helio : rien reçu.
 - Menu **`noirmont-mobile`** (`334077362514`) : « Montres squelette » et « Cadrans chiffres
   arabes » insérés entre GMT et « Toutes les montres » (ids existants conservés). Les **trois
-  endroits** exigés par `megamenu-illustre.md` §7.4 sont servis.
+  endroits** exigés par `2026-07-31-megamenu-illustre.md` §7.4 sont servis.
 - Contrôle visuel desktop : le panneau « Montres » rend **7 vignettes illustrées sur 2 rangées**
   (5+2), les 2 nouvelles avec leurs images, + « Toutes les montres ».
 
@@ -133,7 +133,7 @@ atteignables via « Peu importe » et la rangée « Votre cadran, précisément 
 2. **Options en anglais sur les 5 nouvelles fiches** (« Color / Size », valeurs `white`,
    `Black Skeleton`, `black 8-sterile`…) — visibles à l'écran 3 du configurateur et sur les
    fiches. Interdit d'y toucher dans cette mission (variantes/mapping gelés) ; à renommer comme
-   au décodage du 25/07 (`renommage-variantes-2026-07-25.md`), DSers survit au renommage d'option.
+   au décodage du 25/07 (`2026-07-25-renommage-variantes.md`), DSers survit au renommage d'option.
 3. `couleur_cadran` absent des 5 nouvelles fiches : elles ne sortent que par « Peu importe ».
    Si Hakim veut les servir par couleur en Q2, poser le métachamp (fiches multi-coloris : décision
    éditoriale à trancher).

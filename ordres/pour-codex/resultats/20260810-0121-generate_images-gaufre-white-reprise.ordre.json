@@ -15,10 +15,10 @@
     ],
     "sources": [
       "scratchpad/backup-medias-accessoires-lot4/bracelet-caoutchouc-gaufre/S66b23525f95a4a5a8c8612c56abf8226Z.webp",
-      "boutique-seiko-mod/visuels-codex-2026-08/bracelet-caoutchouc-gaufre/bracelet-caoutchouc-gaufre-v-white-silver-buckle.jpg",
-      "boutique-seiko-mod/visuels-codex-2026-08/bracelet-caoutchouc-gaufre/bracelet-caoutchouc-gaufre-v-yellow-silver-buckle.jpg",
-      "boutique-seiko-mod/visuels-codex-2026-08/bracelet-caoutchouc-gaufre/bracelet-caoutchouc-gaufre-v-light-blue-silver.jpg",
-      "boutique-seiko-mod/visuels-codex-2026-08/bracelet-caoutchouc-gaufre/qa/planche-gaufre-claires-argentees.jpg"
+      "boutique-seiko-mod/livraisons/visuels-codex-2026-08/bracelet-caoutchouc-gaufre/bracelet-caoutchouc-gaufre-v-white-silver-buckle.jpg",
+      "boutique-seiko-mod/livraisons/visuels-codex-2026-08/bracelet-caoutchouc-gaufre/bracelet-caoutchouc-gaufre-v-yellow-silver-buckle.jpg",
+      "boutique-seiko-mod/livraisons/visuels-codex-2026-08/bracelet-caoutchouc-gaufre/bracelet-caoutchouc-gaufre-v-light-blue-silver.jpg",
+      "boutique-seiko-mod/livraisons/visuels-codex-2026-08/bracelet-caoutchouc-gaufre/qa/planche-gaufre-claires-argentees.jpg"
     ],
     "da": {
       "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
@@ -35,7 +35,7 @@
         "Produit exact à préserver : bracelet de montre blanc en caoutchouc souple gaufré, paire complète de deux brins, face gaufrée, bords longitudinaux, perforations, deux passants, boucle ardillon argentée et barrettes rapides conformes à la source blanche. Aucun changement de géométrie, relief, matériau, couleur, finition ou équipement.",
         "GABARITS PASS IMMUTABLES : `bracelet-caoutchouc-gaufre-v-yellow-silver-buckle.jpg` et `bracelet-caoutchouc-gaufre-v-light-blue-silver.jpg` définissent ensemble la composition cible. Ne pas les modifier, déplacer, réencoder ni écraser.",
         "Le fichier blanc actuel est RÉSERVE uniquement pour son échelle et sa position différentes. Ne pas reprendre son cadrage comme cible. Le régénérer depuis la source fournisseur exacte ; aucun gommage, inpainting, transformation géométrique du produit ou simple retouche du fichier RÉSERVE.",
-        "Avant tout remplacement, copier octet pour octet le fichier actuel `boutique-seiko-mod/visuels-codex-2026-08/bracelet-caoutchouc-gaufre/bracelet-caoutchouc-gaufre-v-white-silver-buckle.jpg` vers `boutique-seiko-mod/visuels-codex-2026-08/bracelet-caoutchouc-gaufre/rejected/bracelet-caoutchouc-gaufre-v-white-silver-buckle-reserve-echelle-position-20260810.jpg`, puis vérifier que cette copie existe, est lisible et possède le même hash que l'actuel. Si la copie ou sa vérification échoue, arrêter sans écraser le livrable actuel.",
+        "Avant tout remplacement, copier octet pour octet le fichier actuel `boutique-seiko-mod/livraisons/visuels-codex-2026-08/bracelet-caoutchouc-gaufre/bracelet-caoutchouc-gaufre-v-white-silver-buckle.jpg` vers `boutique-seiko-mod/livraisons/visuels-codex-2026-08/bracelet-caoutchouc-gaufre/rejected/bracelet-caoutchouc-gaufre-v-white-silver-buckle-reserve-echelle-position-20260810.jpg`, puis vérifier que cette copie existe, est lisible et possède le même hash que l'actuel. Si la copie ou sa vérification échoue, arrêter sans écraser le livrable actuel.",
         "Seulement après la sauvegarde vérifiée, remplacer explicitement `bracelet-caoutchouc-gaufre-v-white-silver-buckle.jpg` par le nouveau rendu PASS. Ne produire ni remplacer aucun autre média manifeste.",
         "Un seul exemplaire du produit : exactement une paire complète de deux brins, sans brin manquant, dupliqué, fusionné ou déformé. Boucle, ardillon, deux passants, perforations et barrettes rapides doivent rester cohérents et fonctionnels.",
         "Aucun logo, nom, mot, lettre, chiffre, filigrane, étiquette ou verbatim sur le caoutchouc, la boucle, les passants ou le fond. Si un marquage apparaît, rejeter et régénérer depuis la source propre ; aucun gommage ni inpainting.",
@@ -59,7 +59,7 @@
       ]
     },
     "sortie": {
-      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/bracelet-caoutchouc-gaufre",
+      "dossier": "boutique-seiko-mod/livraisons/visuels-codex-2026-08/bracelet-caoutchouc-gaufre",
       "manifeste": "manifeste-gaufre-white-reprise.json"
     }
   },

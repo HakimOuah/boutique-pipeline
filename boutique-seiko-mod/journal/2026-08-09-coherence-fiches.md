@@ -167,7 +167,7 @@ Les 3 montres finies du lot portent le tag `montres-mod`, **qui n'alimente aucun
 - **Aucun prix, aucune variante, aucun statut.** Les 94 fiches sont toujours en DRAFT, aucun canal de vente activé.
 - **Aucun des 96 produits actifs** n'a été lu en écriture.
 - Les **handles** n'ont pas été modifiés, y compris quand ils sont devenus trompeurs (`montre-pilote-plongee-39-chiffres-arabes`, `insert-ceramique-chiffres-arabes-38`, `cadran-calligraphie-arabe-email-33`, `cadran-plongee-33-5-aiguilles`). Les fiches étant en brouillon et sans historique SEO, **ils peuvent être renommés sans coût** — à faire avant publication, en même temps que le remplacement des visuels.
-- `textes-fiches-2026-08-09.json` et `TEXTES-ET-COLLECTIONS-2026-08-09.md` **reflètent l'état d'avant cette passe** ; le présent document fait foi pour les 16 fiches corrigées.
+- `textes-fiches-2026-08-09.json` et `2026-08-09-textes-et-collections.md` **reflètent l'état d'avant cette passe** ; le présent document fait foi pour les 16 fiches corrigées.
 
 ---
 

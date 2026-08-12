@@ -74,7 +74,7 @@ Pipeline : 2 candidats qualifiés en attente de décision Hakim (fontaine à gra
 
 L'ancien « P0 de passation » (committer + créer un remote privé) est **fait au 31/07** ; reste la purge du mot de passe storefront des 3 fichiers + rotation dans l'admin Shopify (`07` §4).
 
-Ordre conseillé pour Noirmont (Phase 0 de `plan-nommage-seo.md` §5) : médiateur → republication → paiement/commande test → mot de passe → purge des affirmations invérifiables. Ensuite, P1 : voir la vue d'ensemble en fin de `11`.
+Ordre conseillé pour Noirmont (Phase 0 de `boutique-seiko-mod/journal/2026-07-31-plan-nommage-seo.md` §5) : médiateur → republication → paiement/commande test → mot de passe → purge des affirmations invérifiables. Ensuite, P1 : voir la vue d'ensemble en fin de `11`.
 
 ## 5. Ordre de lecture recommandé des autres fichiers
 

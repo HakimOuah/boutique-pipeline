@@ -169,7 +169,7 @@ Par ordre d'urgence.
 
    Les chiffres viennent du fournisseur et ne sont pas certifiés ; surtout, une montre **remontée** (boîtier
    rouvert) perd toute garantie d'étanchéité d'origine. Nos propres règles disent deux choses opposées :
-   `pages-collection-refonte.md` interdit toute promesse d'étanchéité, `reprise-editoriale-fiches-2026-07-25.md`
+   `2026-07-31-pages-collection-refonte.md` interdit toute promesse d'étanchéité, `2026-07-25-reprise-editoriale-fiches.md`
    a au contraire traduit les chiffres en usages. **Il faut choisir une doctrine et l'appliquer aux 15 fiches.**
    Mon avis : conserver le chiffre, supprimer l'autorisation d'usage.
 

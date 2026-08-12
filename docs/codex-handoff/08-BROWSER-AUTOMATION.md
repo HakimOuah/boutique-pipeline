@@ -19,30 +19,30 @@ Deux outillages navigateur coexistent :
 
 **Le « CAPTCHA AliExpress » historique était un artefact du navigateur sans session, pas une protection du site.** Constat daté et documenté en deux temps :
 
-- La passe v2 concluait que les URL de recherche `/w/wholesale-*.html` déclenchaient un CAPTCHA systématique (non contourné, par principe) **[FAIT — repo:boutique-pipeline/boutique-seiko-mod/sourcing-accessoires-v2-2026-07-25.md]**.
-- La passe v3 a corrigé : dans le Chrome réel de Hakim, session AliExpress connectée, **zéro CAPTCHA** sur la recherche globale `/w/wholesale-<mots>.html` et sur la recherche in-store `/store/<id>/pages/all-items.html?SearchText=<mots>` (40 fiches, filtrable). Le navigateur isolé, lui, se fait servir `fr.aliexpress.com/wp.html` (challenge anti-bot) : la page charge ses images mais **n'hydrate jamais son texte** — d'où l'illusion de « listings morts ». Conclusion écrite : *« toujours utiliser le Chrome de l'utilisateur pour AliExpress »* **[FAIT — repo:boutique-pipeline/boutique-seiko-mod/sourcing-accessoires-v3-2026-07-25.md §Notes de méthode]**.
-- Leçon versée au bilan : le CAPTCHA « corrigé, la fausse limite aurait handicapé toutes les boutiques suivantes » **[FAIT — repo:boutique-pipeline/boutique-seiko-mod/BILAN-2026-07-25.md]**.
+- La passe v2 concluait que les URL de recherche `/w/wholesale-*.html` déclenchaient un CAPTCHA systématique (non contourné, par principe) **[FAIT — repo:boutique-pipeline/boutique-seiko-mod/journal/2026-07-25-sourcing-accessoires-v2.md]**.
+- La passe v3 a corrigé : dans le Chrome réel de Hakim, session AliExpress connectée, **zéro CAPTCHA** sur la recherche globale `/w/wholesale-<mots>.html` et sur la recherche in-store `/store/<id>/pages/all-items.html?SearchText=<mots>` (40 fiches, filtrable). Le navigateur isolé, lui, se fait servir `fr.aliexpress.com/wp.html` (challenge anti-bot) : la page charge ses images mais **n'hydrate jamais son texte** — d'où l'illusion de « listings morts ». Conclusion écrite : *« toujours utiliser le Chrome de l'utilisateur pour AliExpress »* **[FAIT — repo:boutique-pipeline/boutique-seiko-mod/journal/2026-07-25-sourcing-accessoires-v3.md §Notes de méthode]**.
+- Leçon versée au bilan : le CAPTCHA « corrigé, la fausse limite aurait handicapé toutes les boutiques suivantes » **[FAIT — repo:boutique-pipeline/boutique-seiko-mod/journal/2026-07-25-bilan.md]**.
 
-Nuance importante : même en navigateur sans session, les **URL directes `/item/<id>.html` passent** la plupart du temps — le sourcing configurateur du 27/07 a été fait « AliExpress FR/EUR via navigateur intégré, sans session — aucun CAPTCHA rencontré » **[FAIT — repo:boutique-pipeline/boutique-seiko-mod/sourcing-configurateur.md]**. Ce sont les **URL de recherche** qui déclenchent le challenge hors session.
+Nuance importante : même en navigateur sans session, les **URL directes `/item/<id>.html` passent** la plupart du temps — le sourcing configurateur du 27/07 a été fait « AliExpress FR/EUR via navigateur intégré, sans session — aucun CAPTCHA rencontré » **[FAIT — repo:boutique-pipeline/boutique-seiko-mod/journal/2026-07-31-sourcing-configurateur.md]**. Ce sont les **URL de recherche** qui déclenchent le challenge hors session.
 
 **Règle absolue, jamais enfreinte : un CAPTCHA ne se résout pas.** Blocage = arrêt propre et déclaré, jamais de données inventées **[FAIT — repo:boutique-pipeline/specs/2026-07-17-pipeline-agents-phases-1-5-design.md ; plans/2026-07-20-boucle-chasse-clusters.md]**.
 
 ### 1.1 La règle « le navigateur est une ressource unique »
 
-- *« Le navigateur est une ressource unique partagée entre l'orchestrateur et tous les agents. Deux consommateurs simultanés = onglets qui se re-naviguent. Sérialiser tout usage du navigateur. »* **[FAIT — repo:boutique-pipeline/boutique-seiko-mod/journal-nuit-2026-07-25.md]**
-- Formulation du bilan : *« sérialiser, ou utiliser deux navigateurs distincts »* (répartir : app intégrée/Chrome réel vs navigateur d'aperçu) **[FAIT — repo:boutique-pipeline/boutique-seiko-mod/BILAN-2026-07-25.md]**.
-- Conséquence opérationnelle vécue : la création des fiches accessoires a été **bloquée une nuit entière** parce que DSers exigeait le navigateur, occupé par un autre chantier **[FAIT — repo:journal-nuit-2026-07-25.md §BLOQUÉ]**.
-- Piège associé : un onglet en arrière-plan (`document.hidden === true`) voit ses `setTimeout` bridés par Chrome à ~1 déclenchement/minute — toute automatisation temporisée paraît plantée. Parade : temporiser via `MessageChannel` **[FAIT — repo:boutique-pipeline/boutique-seiko-mod/dsers-mapping-lot2.md §pièges]**.
+- *« Le navigateur est une ressource unique partagée entre l'orchestrateur et tous les agents. Deux consommateurs simultanés = onglets qui se re-naviguent. Sérialiser tout usage du navigateur. »* **[FAIT — repo:boutique-pipeline/boutique-seiko-mod/journal/2026-07-25-journal-nuit.md]**
+- Formulation du bilan : *« sérialiser, ou utiliser deux navigateurs distincts »* (répartir : app intégrée/Chrome réel vs navigateur d'aperçu) **[FAIT — repo:boutique-pipeline/boutique-seiko-mod/journal/2026-07-25-bilan.md]**.
+- Conséquence opérationnelle vécue : la création des fiches accessoires a été **bloquée une nuit entière** parce que DSers exigeait le navigateur, occupé par un autre chantier **[FAIT — repo:boutique-seiko-mod/journal/2026-07-25-journal-nuit.md §BLOQUÉ]**.
+- Piège associé : un onglet en arrière-plan (`document.hidden === true`) voit ses `setTimeout` bridés par Chrome à ~1 déclenchement/minute — toute automatisation temporisée paraît plantée. Parade : temporiser via `MessageChannel` **[FAIT — repo:boutique-pipeline/boutique-seiko-mod/journal/2026-07-31-dsers-mapping-lot2.md §pièges]**.
 
 ### 1.2 AliExpress — recherche, fiches, variantes
 
 Ce que les agents font réellement, tel que documenté dans les rapports de sourcing (phases 4, accessoires v2/v3, arabes/squelettes, configurateur) :
 
 **Découverte**
-- Recherche globale et in-store dans le Chrome connecté (cf. 1.0) ; carrousels « Vous aimerez aussi » des fiches vivantes comme voie de repli **[FAIT — repo:sourcing-accessoires-v2-2026-07-25.md]**.
-- Google comme index d'ID d'items — avec le piège documenté : **toujours extraire les 16 chiffres complets de l'ID, ne jamais reconstruire un préfixe** (les préfixes réels montent à `1005012…` ; des préfixes devinés ont fabriqué de faux 404) **[FAIT — repo:sourcing-accessoires-v3-2026-07-25.md]**.
+- Recherche globale et in-store dans le Chrome connecté (cf. 1.0) ; carrousels « Vous aimerez aussi » des fiches vivantes comme voie de repli **[FAIT — repo:boutique-seiko-mod/journal/2026-07-25-sourcing-accessoires-v2.md]**.
+- Google comme index d'ID d'items — avec le piège documenté : **toujours extraire les 16 chiffres complets de l'ID, ne jamais reconstruire un préfixe** (les préfixes réels montent à `1005012…` ; des préfixes devinés ont fabriqué de faux 404) **[FAIT — repo:boutique-seiko-mod/journal/2026-07-25-sourcing-accessoires-v3.md]**.
 
-**Extraction d'une fiche `/item/<id>.html`** — `window.runParams.data` renvoie désormais `{}` ; tout passe par le DOM **[FAIT — repo:sourcing-accessoires-v3-2026-07-25.md]** :
+**Extraction d'une fiche `/item/<id>.html`** — `window.runParams.data` renvoie désormais `{}` ; tout passe par le DOM **[FAIT — repo:boutique-seiko-mod/journal/2026-07-25-sourcing-accessoires-v3.md]** :
 - titre : `document.querySelector('h1').innerText` ;
 - note / avis / ventes / prix : ~250 premiers caractères de `document.body.innerText` à partir de la position du `h1` ;
 - **matrice de variantes** : `document.querySelectorAll('[class*="sku"] img, [class*="Sku"] img')` puis attributs `alt` dédoublonnés — « la recette la plus rentable de cette passe », elle révèle les variantes « no logo » / « sterile » ;
@@ -57,43 +57,43 @@ Ce que les agents font réellement, tel que documenté dans les rapports de sour
 
 ### 1.3 DSers — import, poussée, mapping
 
-Compte : `contact.noirmont`, boutique `v42pzp-h4` liée. Tout ce qui suit est documenté dans quatre livrables : `dsers-mapping-decoupage-2026-07-25.md`, `dsers-mapping-lot2.md`, `import-accessoires-lot4.md`, `sourcing-arabes-squelettes.md` + `publication-grappes.md` (tous sous `boutique-pipeline/boutique-seiko-mod/`).
+Compte : `contact.noirmont`, boutique `v42pzp-h4` liée. Tout ce qui suit est documenté dans quatre livrables : `boutique-seiko-mod/journal/2026-07-25-dsers-mapping-decoupage.md`, `boutique-seiko-mod/journal/2026-07-31-dsers-mapping-lot2.md`, `boutique-seiko-mod/journal/2026-07-31-import-accessoires-lot4.md`, `boutique-seiko-mod/journal/2026-07-31-sourcing-arabes-squelettes.md` + `boutique-seiko-mod/journal/2026-07-31-publication-grappes.md` (tous sous `boutique-pipeline/boutique-seiko-mod/`).
 
 **Deux flux d'entrée, dans les deux sens**
-1. **AliExpress → Shopify** : import **URL par URL** dans la « Liste d'import » (champ « entrer le lien du produit »), puis sélection des cartes et **PUSH TO STORE** avec, dans la modale : « **Set product status as Draft** » **coché**, « Publier dans la Boutique également » **décoché** → les fiches arrivent en DRAFT, sur aucun canal. L'API Shopify réécrit ensuite titre/handle/description/SEO/prix/visuels **[FAIT — repo:import-accessoires-lot4.md]**.
-2. **Shopify → DSers** (fiches créées par l'API, que DSers n'a jamais vues) : bouton « **IMPORT PRODUCTS FROM SHOPIFY** », filtre « À être importé », **par lots de 10 maximum** — additif, produit par produit, ne réécrit rien côté Shopify **[FAIT — repo:dsers-mapping-decoupage-2026-07-25.md ; dsers-mapping-lot2.md]**.
+1. **AliExpress → Shopify** : import **URL par URL** dans la « Liste d'import » (champ « entrer le lien du produit »), puis sélection des cartes et **PUSH TO STORE** avec, dans la modale : « **Set product status as Draft** » **coché**, « Publier dans la Boutique également » **décoché** → les fiches arrivent en DRAFT, sur aucun canal. L'API Shopify réécrit ensuite titre/handle/description/SEO/prix/visuels **[FAIT — repo:boutique-seiko-mod/journal/2026-07-31-import-accessoires-lot4.md]**.
+2. **Shopify → DSers** (fiches créées par l'API, que DSers n'a jamais vues) : bouton « **IMPORT PRODUCTS FROM SHOPIFY** », filtre « À être importé », **par lots de 10 maximum** — additif, produit par produit, ne réécrit rien côté Shopify **[FAIT — repo:boutique-seiko-mod/journal/2026-07-25-dsers-mapping-decoupage.md ; boutique-seiko-mod/journal/2026-07-31-dsers-mapping-lot2.md]**.
 
-**Pourquoi l'import DSers d'abord** : *« Créer un produit dropshippé à la main est un faux gain de temps »* — un produit créé par l'API n'a pas les SKU porteurs de la chaîne d'attributs AliExpress, et le mapping devient manuel variante par variante. L'import DSers donne les bons SKU **et** le rattachement fournisseur d'un coup **[FAIT — repo:journal-nuit-2026-07-25.md ; import-accessoires-lot4.md]**.
+**Pourquoi l'import DSers d'abord** : *« Créer un produit dropshippé à la main est un faux gain de temps »* — un produit créé par l'API n'a pas les SKU porteurs de la chaîne d'attributs AliExpress, et le mapping devient manuel variante par variante. L'import DSers donne les bons SKU **et** le rattachement fournisseur d'un coup **[FAIT — repo:boutique-seiko-mod/journal/2026-07-25-journal-nuit.md ; boutique-seiko-mod/journal/2026-07-31-import-accessoires-lot4.md]**.
 
-**⚠️ L'auto-matching par SKU n'existe pas.** En collant l'URL fournisseur sur une fiche venue de Shopify, DSers rattache le bon produit fournisseur mais laisse **toutes les variantes vides**. Le rapprochement se fait à la main, option par option, en **Mapping basique**, avec les SKU utilisés comme **table de correspondance en lecture seule** (extraits via l'API Admin `products { variants { title sku } }`, jamais écrits) **[FAIT — repo:dsers-mapping-decoupage-2026-07-25.md ; BILAN-2026-07-25.md]**. Seule exception : quelques libellés strictement identiques des deux côtés (`Miyota 8215`, `NH35`…) appariés seuls.
+**⚠️ L'auto-matching par SKU n'existe pas.** En collant l'URL fournisseur sur une fiche venue de Shopify, DSers rattache le bon produit fournisseur mais laisse **toutes les variantes vides**. Le rapprochement se fait à la main, option par option, en **Mapping basique**, avec les SKU utilisés comme **table de correspondance en lecture seule** (extraits via l'API Admin `products { variants { title sku } }`, jamais écrits) **[FAIT — repo:boutique-seiko-mod/journal/2026-07-25-dsers-mapping-decoupage.md ; boutique-seiko-mod/journal/2026-07-25-bilan.md]**. Seule exception : quelques libellés strictement identiques des deux côtés (`Miyota 8215`, `NH35`…) appariés seuls.
 
 **Pièges d'interface vérifiés** (à connaître avant toute reprise) :
-- **Listes virtualisées** : le menu ne rend que ~9 options sur 20 ; il faut faire défiler **et émettre un événement `scroll`** après avoir modifié `scrollTop`, sinon rien ne re-rend. Aucune saisie ne filtre ces sélecteurs **[FAIT — repo:dsers-mapping-lot2.md]**.
-- **Boîte « Appliquer le mapping »** : le bouton `Enregistrer` ne suffit pas ; il ouvre une boîte à confirmer (`CONFIRMER`). L'enregistrement n'est réputé fait que lorsque `Enregistrer` repasse désactivé, recontrôlé par les compteurs d'onglets **[FAIT — repo:dsers-mapping-lot2.md]**.
-- **Sélection déterministe uniquement** : jamais de clic aux coordonnées (les listes se repositionnent — deux erreurs produites puis corrigées ainsi) ; option localisée par texte **strictement égal** (`===`, jamais `includes`), refus si correspondances ≠ 1, libellé relu après sélection. Confusions réelles neutralisées : `M-1` ≠ `M11`, `IB-black-02A` ≠ `IB-black-02C` **[FAIT — repo:dsers-mapping-decoupage-2026-07-25.md ; dsers-mapping-lot2.md]**.
-- Grille `Unmapped` **non rafraîchie** après enregistrement (recliquer l'onglet) ; dialogue « Unsaved changes » → toujours **IGNORER** ; coller une URL dans la mauvaise fiche ajoute un **fournisseur favori surnuméraire** (vécu, refusé comme défaut) **[FAIT — repo:dsers-mapping-decoupage-2026-07-25.md §Incidents]**.
-- `supplyProductId` lisible en **observation passive** de l'API interne `dsers-product-bff/my-product/v2/search` (aucune requête forgée) **[FAIT — repo:dsers-mapping-lot2.md]**.
+- **Listes virtualisées** : le menu ne rend que ~9 options sur 20 ; il faut faire défiler **et émettre un événement `scroll`** après avoir modifié `scrollTop`, sinon rien ne re-rend. Aucune saisie ne filtre ces sélecteurs **[FAIT — repo:boutique-seiko-mod/journal/2026-07-31-dsers-mapping-lot2.md]**.
+- **Boîte « Appliquer le mapping »** : le bouton `Enregistrer` ne suffit pas ; il ouvre une boîte à confirmer (`CONFIRMER`). L'enregistrement n'est réputé fait que lorsque `Enregistrer` repasse désactivé, recontrôlé par les compteurs d'onglets **[FAIT — repo:boutique-seiko-mod/journal/2026-07-31-dsers-mapping-lot2.md]**.
+- **Sélection déterministe uniquement** : jamais de clic aux coordonnées (les listes se repositionnent — deux erreurs produites puis corrigées ainsi) ; option localisée par texte **strictement égal** (`===`, jamais `includes`), refus si correspondances ≠ 1, libellé relu après sélection. Confusions réelles neutralisées : `M-1` ≠ `M11`, `IB-black-02A` ≠ `IB-black-02C` **[FAIT — repo:boutique-seiko-mod/journal/2026-07-25-dsers-mapping-decoupage.md ; boutique-seiko-mod/journal/2026-07-31-dsers-mapping-lot2.md]**.
+- Grille `Unmapped` **non rafraîchie** après enregistrement (recliquer l'onglet) ; dialogue « Unsaved changes » → toujours **IGNORER** ; coller une URL dans la mauvaise fiche ajoute un **fournisseur favori surnuméraire** (vécu, refusé comme défaut) **[FAIT — repo:boutique-seiko-mod/journal/2026-07-25-dsers-mapping-decoupage.md §Incidents]**.
+- `supplyProductId` lisible en **observation passive** de l'API interne `dsers-product-bff/my-product/v2/search` (aucune requête forgée) **[FAIT — repo:boutique-seiko-mod/journal/2026-07-31-dsers-mapping-lot2.md]**.
 
-**Contrôle par compteurs** — l'invariant de toutes les passes : `Mes Produits (Tous) / AliExpress / Unmapped / 1688 / Alibaba / Liste d'import`, relevés avant/après, avec l'arithmétique attendue (ex. 85 → 98 = +13, Unmapped reste 0, donc aucune fiche historique démappée) **[FAIT — repo:import-accessoires-lot4.md ; publication-grappes.md]**.
+**Contrôle par compteurs** — l'invariant de toutes les passes : `Mes Produits (Tous) / AliExpress / Unmapped / 1688 / Alibaba / Liste d'import`, relevés avant/après, avec l'arithmétique attendue (ex. 85 → 98 = +13, Unmapped reste 0, donc aucune fiche historique démappée) **[FAIT — repo:boutique-seiko-mod/journal/2026-07-31-import-accessoires-lot4.md ; boutique-seiko-mod/journal/2026-07-31-publication-grappes.md]**.
 
-**Session** : la **session DSers autonome expire** en cours d'opération. Repli vérifié : l'**app intégrée Shopify** (admin → DSers, redirection `auth_check`) rouvre l'accès **sans saisir d'identifiant** **[FAIT — repo:sourcing-arabes-squelettes.md ; publication-grappes.md ; visuels-accessoires-lot4.md]**. Interdits constants : aucun identifiant saisi, aucune commande/paiement, aucun « × » de suppression de fournisseur, aucune préférence persistante cochée **[FAIT — repo:dsers-mapping-decoupage-2026-07-25.md §Règles respectées]**.
+**Session** : la **session DSers autonome expire** en cours d'opération. Repli vérifié : l'**app intégrée Shopify** (admin → DSers, redirection `auth_check`) rouvre l'accès **sans saisir d'identifiant** **[FAIT — repo:boutique-seiko-mod/journal/2026-07-31-sourcing-arabes-squelettes.md ; boutique-seiko-mod/journal/2026-07-31-publication-grappes.md ; boutique-seiko-mod/journal/2026-07-31-visuels-accessoires-lot4.md]**. Interdits constants : aucun identifiant saisi, aucune commande/paiement, aucun « × » de suppression de fournisseur, aucune préférence persistante cochée **[FAIT — repo:boutique-seiko-mod/journal/2026-07-25-dsers-mapping-decoupage.md §Règles respectées]**.
 
 ### 1.4 SEMrush — mesures de volume au navigateur
 
 - Source de mesure canonique : **SEMrush France (`db=fr`)**, via navigateur ; Ahrefs = repli documenté **[FAIT — repo:PRODUCT-RESEARCH-CRITERIA.md]**.
-- Le marché Noirmont a été mesuré « sur SEMrush (compte payant) » — détail dans `marche-complet-semrush.md` (ex. Seiko mod 38 690/mois, KD 10, CPC 0,22 €) **[FAIT — repo:boutique-seiko-mod/REPRISE-SESSION.md ; marche-complet-semrush.md]**.
-- **⚠️ Quota gratuit silencieux** : « SEMrush en formule gratuite rend “0 mot clé” sans erreur passé le quota — utiliser un mot-clé témoin » (re-mesurer un mot-clé au volume connu pour distinguer « 0 réel » de « quota épuisé ») **[FAIT — repo:REPRISE-SESSION.md §Pièges vérifiés]**. Historiquement, Hakim prend des essais ponctuels plutôt qu'un abonnement permanent — ne pas présumer d'un compte actif **[FAIT — repo:CONTEXTE-MEMOIRE-pour-Codex.md §2.1, daté 06/2026]**.
+- Le marché Noirmont a été mesuré « sur SEMrush (compte payant) » — détail dans `boutique-seiko-mod/journal/2026-07-31-marche-complet-semrush.md` (ex. Seiko mod 38 690/mois, KD 10, CPC 0,22 €) **[FAIT — repo:boutique-seiko-mod/journal/2026-08-08-reprise-session.md ; boutique-seiko-mod/journal/2026-07-31-marche-complet-semrush.md]**.
+- **⚠️ Quota gratuit silencieux** : « SEMrush en formule gratuite rend “0 mot clé” sans erreur passé le quota — utiliser un mot-clé témoin » (re-mesurer un mot-clé au volume connu pour distinguer « 0 réel » de « quota épuisé ») **[FAIT — repo:boutique-seiko-mod/journal/2026-08-08-reprise-session.md §Pièges vérifiés]**. Historiquement, Hakim prend des essais ponctuels plutôt qu'un abonnement permanent — ne pas présumer d'un compte actif **[FAIT — repo:CONTEXTE-MEMOIRE-pour-Codex.md §2.1, daté 06/2026]**.
 - Fail-closed : SEMrush déconnecté / CAPTCHA / page qui ne charge pas → **arrêt déclaré, aucun volume estimé de mémoire** **[FAIT — repo:plans/2026-07-20-boucle-chasse-clusters.md]**.
 
 ### 1.5 Shopify admin au navigateur — ce qui reste hors API
 
 L'essentiel du travail Shopify passe par l'API Admin (connecteur MCP + GraphQL). Le navigateur ne sert que pour ce que l'API n'expose pas :
 
-- **Réglages → Expédition et livraison → Dates de livraison estimées** : passé de `Automatisé` à `Désactivé` au navigateur (Shopify calculait ses propres dates à la caisse, contredisant la promesse J+14/J+21) **[FAIT — repo:boutique-seiko-mod/pages-legales-et-delais.md §4]**.
-- **Réglages → Politiques** (liens du checkout) : recopie des pages légales, faite au navigateur le 26/07 **[FAIT — repo:pages-legales-et-delais.md §5]**.
-- **Search & Discovery : NON automatisable.** L'app est servie dans une **iframe cross-origin** (`search-and-discovery.shopifyapps.com`, `sameOrigin: false`). Constats tous vérifiés : l'arbre d'accessibilité s'arrête au bord de l'iframe ; les clics synthétiques ne la franchissent pas (coordonnées justes, page immobile, 3 essais) ; l'URL directe `/filters/new` rend une page vide ; le contrôle bureau (événements système) est refusé sur les navigateurs ; **il n'existe pas de chemin API** pour la configuration des facettes, et une définition de métachamp filtrable ne suffit pas — l'app doit ajouter la facette explicitement. Les « cinq gestes » (supprimer Disponibilité, ajouter 4 facettes métachamps) restent **à faire par un humain** **[FAIT — repo:boutique-seiko-mod/metachamps-montres.md §1]**.
-- **QA mobile impossible dans cet outillage** : `resize_window` répond succès mais `innerWidth` reste 1920, media queries fausses ; pas d'émulation d'appareil → validation « sur un vrai téléphone » **[FAIT — repo:metachamps-montres.md §6 ; REPRISE-SESSION.md]**. Le QA mobile est prioritaire dans la doctrine du projet **[MÉMOIRE — mobile-first-et-placeholders-demo.md]**.
-- Actions marchand pures (jamais tentées par agent) : activer les cartes cadeaux, republier le thème, adhésion médiateur de la consommation **[FAIT — repo:journal-nuit-2026-07-25.md ; REPRISE-SESSION.md]**.
+- **Réglages → Expédition et livraison → Dates de livraison estimées** : passé de `Automatisé` à `Désactivé` au navigateur (Shopify calculait ses propres dates à la caisse, contredisant la promesse J+14/J+21) **[FAIT — repo:boutique-seiko-mod/journal/2026-07-31-pages-legales-et-delais.md §4]**.
+- **Réglages → Politiques** (liens du checkout) : recopie des pages légales, faite au navigateur le 26/07 **[FAIT — repo:boutique-seiko-mod/journal/2026-07-31-pages-legales-et-delais.md §5]**.
+- **Search & Discovery : NON automatisable.** L'app est servie dans une **iframe cross-origin** (`search-and-discovery.shopifyapps.com`, `sameOrigin: false`). Constats tous vérifiés : l'arbre d'accessibilité s'arrête au bord de l'iframe ; les clics synthétiques ne la franchissent pas (coordonnées justes, page immobile, 3 essais) ; l'URL directe `/filters/new` rend une page vide ; le contrôle bureau (événements système) est refusé sur les navigateurs ; **il n'existe pas de chemin API** pour la configuration des facettes, et une définition de métachamp filtrable ne suffit pas — l'app doit ajouter la facette explicitement. Les « cinq gestes » (supprimer Disponibilité, ajouter 4 facettes métachamps) restent **à faire par un humain** **[FAIT — repo:boutique-seiko-mod/journal/2026-07-31-metachamps-montres.md §1]**.
+- **QA mobile impossible dans cet outillage** : `resize_window` répond succès mais `innerWidth` reste 1920, media queries fausses ; pas d'émulation d'appareil → validation « sur un vrai téléphone » **[FAIT — repo:boutique-seiko-mod/journal/2026-07-31-metachamps-montres.md §6 ; boutique-seiko-mod/journal/2026-08-08-reprise-session.md]**. Le QA mobile est prioritaire dans la doctrine du projet **[MÉMOIRE — mobile-first-et-placeholders-demo.md]**.
+- Actions marchand pures (jamais tentées par agent) : activer les cartes cadeaux, republier le thème, adhésion médiateur de la consommation **[FAIT — repo:boutique-seiko-mod/journal/2026-07-25-journal-nuit.md ; boutique-seiko-mod/journal/2026-08-08-reprise-session.md]**.
 
 ### 1.6 Codex et le navigateur — état transmis
 
@@ -106,26 +106,26 @@ L'essentiel du travail Shopify passe par l'API Admin (connecteur MCP + GraphQL).
 | Étape | Session connectée indispensable ? | Alternative |
 |---|---|---|
 | Recherche AliExpress par mot-clé (`/w/…`, in-store) | **Oui** (hors session → challenge `wp.html`) [FAIT — sourcing-accessoires-v3] | Candidate à une extraction déléguée (voir note Apify) |
-| Lecture fiche AliExpress `/item/<id>.html` (variantes, prix, délai, avis) | Non constatée comme indispensable (relevés faits sans session le 27/07) [FAIT — sourcing-configurateur.md] ; **mais** le délai/prix « rendu France » fiable suppose une adresse de référence, donc une session [HYPOTHÈSE fondée sur la mention « adresse de référence Eaubonne/FR, compte connecté » des phases 4 — FAIT — reports/phase4-sourcing-fontaine-gravite-2026-07-20.md] | Extraction déléguée possible pour le volet catalogue ; contrôle au panier = session |
-| DSers (import, push, mapping, compteurs) | **Oui** — et quand la session autonome expire, repli app intégrée Shopify [FAIT — publication-grappes.md] | **Aucune API publique utilisée dans le projet** ; seule l'API interne `dsers-product-bff` a été observée passivement [FAIT — dsers-mapping-lot2.md] |
-| SEMrush | **Oui** (compte, quotas) [FAIT — REPRISE-SESSION.md] | Repli Ahrefs documenté ; API SEMrush jamais utilisée dans le projet [FAIT — PRODUCT-RESEARCH-CRITERIA.md] |
-| Shopify produits/collections/thème brouillon/métachamps/publication canaux | **Non** — API Admin GraphQL couvre tout, y compris médias (staged uploads) et `publishablePublish` [FAIT — branchement-galeries-codex.md ; metachamps-montres.md ; publication-grappes.md] | C'est déjà la voie nominale |
-| Search & Discovery, dates de livraison estimées, politiques, cartes cadeaux, republication de thème | Session admin **humaine** (iframe cross-origin ou réglages marchand) [FAIT — metachamps-montres.md ; pages-legales-et-delais.md] | Aucune — contrôle humain |
+| Lecture fiche AliExpress `/item/<id>.html` (variantes, prix, délai, avis) | Non constatée comme indispensable (relevés faits sans session le 27/07) [FAIT — boutique-seiko-mod/journal/2026-07-31-sourcing-configurateur.md] ; **mais** le délai/prix « rendu France » fiable suppose une adresse de référence, donc une session [HYPOTHÈSE fondée sur la mention « adresse de référence Eaubonne/FR, compte connecté » des phases 4 — FAIT — reports/phase4-sourcing-fontaine-gravite-2026-07-20.md] | Extraction déléguée possible pour le volet catalogue ; contrôle au panier = session |
+| DSers (import, push, mapping, compteurs) | **Oui** — et quand la session autonome expire, repli app intégrée Shopify [FAIT — boutique-seiko-mod/journal/2026-07-31-publication-grappes.md] | **Aucune API publique utilisée dans le projet** ; seule l'API interne `dsers-product-bff` a été observée passivement [FAIT — boutique-seiko-mod/journal/2026-07-31-dsers-mapping-lot2.md] |
+| SEMrush | **Oui** (compte, quotas) [FAIT — boutique-seiko-mod/journal/2026-08-08-reprise-session.md] | Repli Ahrefs documenté ; API SEMrush jamais utilisée dans le projet [FAIT — PRODUCT-RESEARCH-CRITERIA.md] |
+| Shopify produits/collections/thème brouillon/métachamps/publication canaux | **Non** — API Admin GraphQL couvre tout, y compris médias (staged uploads) et `publishablePublish` [FAIT — boutique-seiko-mod/journal/2026-07-31-branchement-galeries-codex.md ; boutique-seiko-mod/journal/2026-07-31-metachamps-montres.md ; boutique-seiko-mod/journal/2026-07-31-publication-grappes.md] | C'est déjà la voie nominale |
+| Search & Discovery, dates de livraison estimées, politiques, cartes cadeaux, republication de thème | Session admin **humaine** (iframe cross-origin ou réglages marchand) [FAIT — boutique-seiko-mod/journal/2026-07-31-metachamps-montres.md ; boutique-seiko-mod/journal/2026-07-31-pages-legales-et-delais.md] | Aucune — contrôle humain |
 
 **Note Apify** : l'orientation « Apify pour l'extraction massive » est exprimée par Hakim **[INFO HAKIM — brief de passation]**. Vérification faite dans le repo : **aucune trace d'Apify** (grep insensible à la casse sur tout le dossier, y compris mémoire : zéro occurrence hors ce dossier de passation) **[FAIT — absence vérifiée le 2026-07-30]**. Tout ce qui concerne Apify en partie 2 est donc de l'architecture cible, pas de l'existant.
 
 ### 1.8 Fragilités connues et contrôles humains obligatoires
 
 **Fragilités techniques**
-- Interfaces mouvantes : DSers (listes virtualisées, grilles non rafraîchies, panneaux à animation décalée), AliExpress (variantes renommées en cours de vie de fiche, `runParams` vidé, listings 2021-2023 encore indexés) **[FAIT — dsers-mapping-lot2.md ; sourcing-accessoires-v2/v3]**.
+- Interfaces mouvantes : DSers (listes virtualisées, grilles non rafraîchies, panneaux à animation décalée), AliExpress (variantes renommées en cours de vie de fiche, `runParams` vidé, listings 2021-2023 encore indexés) **[FAIT — boutique-seiko-mod/journal/2026-07-31-dsers-mapping-lot2.md ; sourcing-accessoires-v2/v3]**.
 - Sessions périssables : DSers autonome, SEMrush (quotas), AliExpress (géoblocage de fiches hommage) **[FAIT — cités supra]**.
 - Navigateur = ressource unique ; onglets d'arrière-plan bridés **[FAIT — 1.1]**.
-- Le SKU ne prouve pas l'identité **visuelle** d'une image après découpage de coloris **[FAIT — REPRISE-SESSION.md §Pièges]**.
+- Le SKU ne prouve pas l'identité **visuelle** d'une image après découpage de coloris **[FAIT — boutique-seiko-mod/journal/2026-08-08-reprise-session.md §Pièges]**.
 
 **Contrôles humains (chasse gardée de Hakim — jamais délégués)**
-- Saisie d'identifiants, résolution de CAPTCHA, toute commande/achat/« Place order », clic « × » fournisseur DSers **[FAIT — dsers-mapping-decoupage-2026-07-25.md]**.
+- Saisie d'identifiants, résolution de CAPTCHA, toute commande/achat/« Place order », clic « × » fournisseur DSers **[FAIT — boutique-seiko-mod/journal/2026-07-25-dsers-mapping-decoupage.md]**.
 - Commande test fournisseur (le passage niveau 2 → 3 du registre) et GO lancement **[FAIT — registre-candidats.md]**.
-- Slider et avis de démonstration (placeholders) **[MÉMOIRE — mobile-first-et-placeholders-demo.md]** ; affirmations chiffrées de preuve sociale **[FAIT — REPRISE-SESSION.md §Ce qui attend Hakim]**.
+- Slider et avis de démonstration (placeholders) **[MÉMOIRE — mobile-first-et-placeholders-demo.md]** ; affirmations chiffrées de preuve sociale **[FAIT — boutique-seiko-mod/journal/2026-08-08-reprise-session.md §Ce qui attend Hakim]**.
 - Photos d'avis AliExpress et messages vendeurs **[FAIT — registre-candidats.md, phase 4b]**.
 - Republication de thème, activation cartes cadeaux, médiateur, Search & Discovery **[FAIT — 1.5]**.
 
@@ -142,7 +142,7 @@ L'essentiel du travail Shopify passe par l'API Admin (connecteur MCP + GraphQL).
 | **Codex / Sol** | Raisonnement, orchestration, code. Tient le registre, applique les critères canoniques, décide quoi appeler, écrit les rapports, ne touche jamais un site directement. | Rôle tenu aujourd'hui par Claude Code + sous-agents [FAIT — specs/2026-07-17-pipeline-agents-phases-1-5-design.md] |
 | **Browser Use** | AliExpress et DSers — tout ce qui exige une **session connectée** et une interface web vivante ; gestion des sessions. | Réplique le rôle de `claude-in-chrome` (partie 1.2-1.3). ⚠️ Blocage AliExpress rapporté dans certains environnements [INFO HAKIM] + `Browser Use rejected…` constaté [FAIT — codex-chasse-clusters/reports/validation-…-a1.md] : à requalifier avant de s'y engager |
 | **Apify** | Extraction massive (recherche AliExpress à grande échelle, pages de résultats, lectures de fiches en lot). | **Aucun existant** — orientation exprimée, zéro trace dans le projet [FAIT — absence vérifiée, §1.7] |
-| **Shopify API** | Produits, variantes, métachamps, SEO, médias, publication canaux, thème brouillon. | Déjà la voie nominale [FAIT — branchement-galeries-codex.md ; metachamps-montres.md ; publication-grappes.md] |
+| **Shopify API** | Produits, variantes, métachamps, SEO, médias, publication canaux, thème brouillon. | Déjà la voie nominale [FAIT — boutique-seiko-mod/journal/2026-07-31-branchement-galeries-codex.md ; boutique-seiko-mod/journal/2026-07-31-metachamps-montres.md ; boutique-seiko-mod/journal/2026-07-31-publication-grappes.md] |
 | **DSers** | Vérité fournisseur : import, mapping variante↔fournisseur, coûts par variante, (à terme) commandes. | Partie 1.3 ; pas d'API publique utilisée — DSers reste piloté par Browser Use ou par l'app intégrée Shopify [FAIT] |
 
 Règles transverses à conserver telles quelles : fail-closed sur toute donnée invérifiable ; sérialisation du navigateur ; DRAFT + aucun canal par défaut à l'import ; contrôles par compteurs avant/après ; jamais d'identifiants, de CAPTCHA ni de commande sans Hakim **[FAIT — partie 1]**.
@@ -151,8 +151,8 @@ Règles transverses à conserver telles quelles : fail-closed sur toute donnée 
 
 Conventions communes, fondées sur les données réellement manipulées :
 - `item_id` : chaîne de chiffres **complète** (jusqu'à 16 caractères, préfixes réels jusqu'à `1005012…`) — jamais tronquée ni reconstruite **[FAIT — sourcing-accessoires-v3]**.
-- `sku_chaine` : chaîne d'attributs AliExpress portée par les SKU DSers, ex. `14:200000914#M14`, `200000049:350853#steel-no logo;200000051:100016950`, `14:865#13pc Kits` **[FAIT — import-accessoires-lot4.md ; scratchpad/noirmont-galeries/worklist.json]**.
-- Les produits Shopify sont identifiés par `handle` + `sku_chaine` dans tout manifeste inter-outils — **jamais** par ID de variante/média (ils périment) **[FAIT — PROMPT-CODEX-galeries.md]**. Les GID (`gid://shopify/Product/…`) ne servent qu'en interne d'un appel API.
+- `sku_chaine` : chaîne d'attributs AliExpress portée par les SKU DSers, ex. `14:200000914#M14`, `200000049:350853#steel-no logo;200000051:100016950`, `14:865#13pc Kits` **[FAIT — boutique-seiko-mod/journal/2026-07-31-import-accessoires-lot4.md ; scratchpad/noirmont-galeries/worklist.json]**.
+- Les produits Shopify sont identifiés par `handle` + `sku_chaine` dans tout manifeste inter-outils — **jamais** par ID de variante/média (ils périment) **[FAIT — boutique-seiko-mod/journal/2026-07-31-prompt-codex-galeries.md]**. Les GID (`gid://shopify/Product/…`) ne servent qu'en interne d'un appel API.
 - Toute sortie porte `releve_le` (ISO 8601) et `source` ; toute donnée vendeur est `annonce_par_vendeur: true` tant qu'elle n'est pas contrôlée sur échantillon **[FAIT — reports/phase4-*]**.
 - Toute fonction peut rendre `{"statut": "BLOQUE", "erreur": {…}}` (voir modèle `erreur` du doc 09) au lieu de son résultat — jamais de résultat partiel silencieux **[FAIT — règle fail-closed]**.
 
@@ -261,7 +261,7 @@ Cible : Codex/Sol (raisonnement) sur sorties d'`extract_aliexpress_product()`. E
 ```
 
 #### `import_product_to_dsers()`
-Cible : Browser Use. Existant répliqué : Liste d'import URL par URL, ou IMPORT PRODUCTS FROM SHOPIFY par lots de 10 [FAIT — import-accessoires-lot4.md ; dsers-mapping-lot2.md].
+Cible : Browser Use. Existant répliqué : Liste d'import URL par URL, ou IMPORT PRODUCTS FROM SHOPIFY par lots de 10 [FAIT — boutique-seiko-mod/journal/2026-07-31-import-accessoires-lot4.md ; boutique-seiko-mod/journal/2026-07-31-dsers-mapping-lot2.md].
 
 ```json
 {
@@ -282,7 +282,7 @@ Cible : Browser Use. Existant répliqué : Liste d'import URL par URL, ou IMPORT
 ```
 
 #### `configure_dsers_variants()`
-Cible : Browser Use. Existant répliqué : Mapping basique manuel, sélection déterministe, boîte « Appliquer le mapping » [FAIT — dsers-mapping-decoupage-2026-07-25.md ; dsers-mapping-lot2.md].
+Cible : Browser Use. Existant répliqué : Mapping basique manuel, sélection déterministe, boîte « Appliquer le mapping » [FAIT — boutique-seiko-mod/journal/2026-07-25-dsers-mapping-decoupage.md ; boutique-seiko-mod/journal/2026-07-31-dsers-mapping-lot2.md].
 
 ```json
 {
@@ -311,7 +311,7 @@ Cible : Browser Use. Existant répliqué : Mapping basique manuel, sélection d�
 ```
 
 #### `push_dsers_product_to_shopify()`
-Cible : Browser Use. Existant répliqué : PUSH TO STORE, Draft coché, publication décochée [FAIT — import-accessoires-lot4.md ; sourcing-arabes-squelettes.md].
+Cible : Browser Use. Existant répliqué : PUSH TO STORE, Draft coché, publication décochée [FAIT — boutique-seiko-mod/journal/2026-07-31-import-accessoires-lot4.md ; boutique-seiko-mod/journal/2026-07-31-sourcing-arabes-squelettes.md].
 
 ```json
 {
@@ -343,7 +343,7 @@ Cible : Browser Use. Existant répliqué : PUSH TO STORE, Draft coché, publicat
 ```
 
 #### `update_shopify_product()`
-Cible : Shopify API (GraphQL Admin). Existant répliqué : réécriture post-push (titre/handle/description/SEO/prix), métachamps `custom.*`, publication canaux, médias par staged uploads [FAIT — import-accessoires-lot4.md ; metachamps-montres.md ; publication-grappes.md ; branchement-galeries-codex.md].
+Cible : Shopify API (GraphQL Admin). Existant répliqué : réécriture post-push (titre/handle/description/SEO/prix), métachamps `custom.*`, publication canaux, médias par staged uploads [FAIT — boutique-seiko-mod/journal/2026-07-31-import-accessoires-lot4.md ; boutique-seiko-mod/journal/2026-07-31-metachamps-montres.md ; boutique-seiko-mod/journal/2026-07-31-publication-grappes.md ; boutique-seiko-mod/journal/2026-07-31-branchement-galeries-codex.md].
 
 ```json
 {
@@ -372,7 +372,7 @@ Cible : Shopify API (GraphQL Admin). Existant répliqué : réécriture post-pus
 ```
 
 #### `verify_supplier_mapping()`
-Cible : Browser Use (lecture DSers). Existant répliqué : contrôle par compteurs + relecture `supplyProductId` fiche par fiche [FAIT — dsers-mapping-lot2.md ; publication-grappes.md].
+Cible : Browser Use (lecture DSers). Existant répliqué : contrôle par compteurs + relecture `supplyProductId` fiche par fiche [FAIT — boutique-seiko-mod/journal/2026-07-31-dsers-mapping-lot2.md ; boutique-seiko-mod/journal/2026-07-31-publication-grappes.md].
 
 ```json
 {
@@ -389,7 +389,7 @@ Cible : Browser Use (lecture DSers). Existant répliqué : contrôle par compteu
 ```
 
 #### `verify_shopify_product()`
-Cible : Shopify API. Existant répliqué : contrôles post-écriture systématiques (statut + canaux + SKU intacts + médias) [FAIT — publication-grappes.md ; branchement-galeries-codex.md ; REPRISE-SESSION.md §Pièges].
+Cible : Shopify API. Existant répliqué : contrôles post-écriture systématiques (statut + canaux + SKU intacts + médias) [FAIT — boutique-seiko-mod/journal/2026-07-31-publication-grappes.md ; boutique-seiko-mod/journal/2026-07-31-branchement-galeries-codex.md ; boutique-seiko-mod/journal/2026-08-08-reprise-session.md §Pièges].
 
 ```json
 {
@@ -415,7 +415,7 @@ Cible : Shopify API. Existant répliqué : contrôles post-écriture systématiq
 1. **Fail-closed partout** : une fonction qui ne peut pas prouver son résultat rend `BLOQUE`, jamais un chiffre estimé **[FAIT — specs pipeline]**.
 2. **Contrôles avant/après par compteurs et relectures** — c'est ce qui a détecté chaque incident DSers avant enregistrement **[FAIT — dsers-mapping-*]**.
 3. **Sauvegarde préalable avant toute mutation Shopify** (`backup-avant-*.json`) **[FAIT — boutique-seiko-mod/, nombreux fichiers]**.
-4. **Manifestes indexés handle+SKU** entre briques **[FAIT — PROMPT-CODEX-galeries.md]**.
+4. **Manifestes indexés handle+SKU** entre briques **[FAIT — boutique-seiko-mod/journal/2026-07-31-prompt-codex-galeries.md]**.
 5. **Frontière humaine** (identifiants, CAPTCHA, commandes, preuve sociale, republication) **[FAIT — §1.8]**.
 
 ### 2.4 Mise en œuvre : voir `14-PROTOCOLE-ORDRES.md`

@@ -10,11 +10,11 @@
 
 | Actif | État | Source |
 |---|---|---|
-| **Marché validé niveau 2** | seiko mod 38 690/mois KD 10 CPC 0,22 ; arabic dial ~15 500 sans occupant fort ; montre squelette ~8 400 ; **enchère quasi vide** (seul montreapapy, 212 $/mois) | `marche-complet-semrush.md`, phase 3-4 registre |
-| **Catalogue propre** | 92 fiches actives (53 montres + 38 accessoires), DSers 98 mappés 0 Unmapped, découpage coloris fait (92 variantes, SKU vérifiés), 117 libellés renommés, échelle de prix par mouvement | `BILAN-2026-07-25.md` |
-| **Véracité produit** | 351 images fournisseur supprimées ; loupe saphir corrigée ; VK63 documenté méca-quartz ; 12 variantes siglées neutralisées (DENY réversible) | `veracite-produit-cloture.md` |
-| **Charte & design** | Direction A+B (encre/craie/cyan instrument), collections modernisées, PDP à galeries 7 images | `charte-noirmont-2026-07-25.md` |
-| **Configurateur V2** | « Votre Noirmont en trois étapes » — découverte guidée, 34/34 chemins vers vraies variantes, vocabulaire vérifiable | `configurateur-implementation.md` |
+| **Marché validé niveau 2** | seiko mod 38 690/mois KD 10 CPC 0,22 ; arabic dial ~15 500 sans occupant fort ; montre squelette ~8 400 ; **enchère quasi vide** (seul montreapapy, 212 $/mois) | `2026-07-31-marche-complet-semrush.md`, phase 3-4 registre |
+| **Catalogue propre** | 92 fiches actives (53 montres + 38 accessoires), DSers 98 mappés 0 Unmapped, découpage coloris fait (92 variantes, SKU vérifiés), 117 libellés renommés, échelle de prix par mouvement | `2026-07-25-bilan.md` |
+| **Véracité produit** | 351 images fournisseur supprimées ; loupe saphir corrigée ; VK63 documenté méca-quartz ; 12 variantes siglées neutralisées (DENY réversible) | `2026-07-31-veracite-produit-cloture.md` |
+| **Charte & design** | Direction A+B (encre/craie/cyan instrument), collections modernisées, PDP à galeries 7 images | `2026-07-25-charte-noirmont.md` |
+| **Configurateur V2** | « Votre Noirmont en trois étapes » — découverte guidée, 34/34 chemins vers vraies variantes, vocabulaire vérifiable | `2026-07-31-configurateur-implementation.md` |
 | ~~Site en ligne~~ **CORRIGÉ 08/08 soir** | La boutique est **toujours sous mot de passe** (302 vers `/password` en requête anonyme) ; le live vu au navigateur venait de la session preview de Hakim. Le thème MAIN reste `Helio` — le thème travaillé n'est pas publié. | vérification anonyme 08/08 |
 | **Positionnement** | « Cadran vierge de tout logo emprunté » — différenciant honnête vs mods contrefaits | live |
 
@@ -31,16 +31,16 @@
 
 ### Phase 3-4 — Catalogue & arborescence d'acquisition (le chantier n°1)
 
-Le site vend des **montres finies** ; or le gisement mesuré est le **vocabulaire du mod** (38 690/mois) et des **cadrans arabes** (15 500, personne au-dessus de la P4). C'est la stratégie tranchée dans `marche-complet-semrush.md` — elle n'est pas encore traduite en catalogue/arborescence.
+Le site vend des **montres finies** ; or le gisement mesuré est le **vocabulaire du mod** (38 690/mois) et des **cadrans arabes** (15 500, personne au-dessus de la P4). C'est la stratégie tranchée dans `2026-07-31-marche-complet-semrush.md` — elle n'est pas encore traduite en catalogue/arborescence.
 
 - **4.A — Ouvrir la gamme « Pièces & Mod »** (c'est le passage 92 → 200 produits à la Kraken) : cadrans (arabes, stériles, squelette), lunettes/inserts, aiguilles, verres, bracelets par type, outils de modding, kits débutant. La phase 4d (`phase4d-accessoires-skx-2026-07-24.md`) a déjà exploré accessoires + base SKX : la réactiver comme plan de sourcing. Règle gate v3 : 10-20 produits/sous-catégorie, best-sellers AliExpress d'abord.
 - **4.B — Collections d'acquisition** à créer/recaler : `Cadran arabe` (15 500 — opportunité n°1 non exploitée), `Montre squelette` (8 400), `Seiko mod` (pièces + montres moddées, 38 690), en plus des familles existantes (Plongeuses, GMT, Chronos…). Étiquettes par mouvement/taille/couleur, jamais de catégories dupliquées.
-- **4.C — Fiches** : mot-clé de sous-catégorie dans le titre (plan `seo-titles-produits.md` à étendre aux nouvelles gammes), ≥ 250 mots, meta complets.
+- **4.C — Fiches** : mot-clé de sous-catégorie dans le titre (plan `2026-07-31-seo-titles-produits.md` à étendre aux nouvelles gammes), ≥ 250 mots, meta complets.
 - Sortie attendue : arborescence chiffrée complète (KMT export sur seiko mod / cadran arabe / squelette / pièces) + catalogue ≥ 200 à horizon 60 jours.
 
 ### Phase 5 — Conformité, GMC, tracking (P0, avant tout euro de pub)
 
-- **Audit anti-misrepresentation complet** (checklist `239965951`/`262936735`) : avis (point 1 ci-dessus), promos (point 2), cohérence délais J+14/21 partout (site = CGV = FAQ = fiches = checkout — `pages-legales-et-delais.md` à re-vérifier après les évolutions), footer tél + email, pictos paiement = moyens réels du checkout, pages légales du **checkout** Shopify (distinctes du footer), zéro claim « swiss made » non prouvé (PT5000 ≠ swiss made), mention explicite méca-quartz sur VK63.
+- **Audit anti-misrepresentation complet** (checklist `239965951`/`262936735`) : avis (point 1 ci-dessus), promos (point 2), cohérence délais J+14/21 partout (site = CGV = FAQ = fiches = checkout — `2026-07-31-pages-legales-et-delais.md` à re-vérifier après les évolutions), footer tél + email, pictos paiement = moyens réels du checkout, pages légales du **checkout** Shopify (distinctes du footer), zéro claim « swiss made » non prouvé (PT5000 ≠ swiss made), mention explicite méca-quartz sur VK63.
 - **État `GMC_READY`** : version sobre publiée pour l'examen (retrait couche promo/marketing), puis transition documentée vers `GROWTH_MARKETING`.
 - **Compte Ads mode expert** (devise/fuseau irréversibles, promo 400 €, 2FA) + **Merchant Center via CSS tiers** — ⚠️ correction du 08/08 : « Deshops » est introuvable dans l'annuaire officiel Google (domaine parqué) ; 90 CSS partenaires FR existent, dont des offres 0-30 €/mois en self-service. Voir `drop-elite-google-os/docs/css-shopping-france.md`. Un CSS n'accorde **aucune immunité** aux politiques GMC — n'ouvrir le compte CSS que site 100 % propre ; **gel du site ~8 jours** après soumission.
 - **Flux Simprosys** (plan payant, ID produit = ID Shopify, variantes incluses, GTIN `identifier exists = false`) + custom labels par collection et par ROAS break-even (Rentability ou tags CSV).
@@ -56,7 +56,7 @@ Le site vend des **montres finies** ; or le gisement mesuré est le **vocabulair
 
 ### Phase 8 — SEO continu (le pont vers la marge long-terme)
 
-- **Playbook Goteia** : 66 % de son trafic vient d'UN article premier sur `seiko modifications` (6 600/mois). Créer l'article pilier équivalent + grappe (mod ou hommage — `article-mod-ou-hommage.md` existe déjà en brouillon !), guides par mouvement (NH35 vs Miyota vs PT5000), guides cadrans arabes.
+- **Playbook Goteia** : 66 % de son trafic vient d'UN article premier sur `seiko modifications` (6 600/mois). Créer l'article pilier équivalent + grappe (mod ou hommage — `2026-07-31-article-mod-ou-hommage.md` existe déjà en brouillon !), guides par mouvement (NH35 vs Miyota vs PT5000), guides cadrans arabes.
 - Ratios contenu : niche type de produit → 4 intentionnistes / 1 informatif ; ~3 contenus/mois minimum ; indexation GSC immédiate à chaque publication.
 - **Netlinking** : domaine neuf → 4 premiers mois de liens vers l'accueil, puis cycles de 4 mois sur 2 collections (cadran arabe + seiko mod en premiers), montée en qualité progressive.
 - Pilotage GSC à M+2 : booster les pages pré-rankées (~position 30).
@@ -94,7 +94,7 @@ Le site vend des **montres finies** ; or le gisement mesuré est le **vocabulair
 
 **Critère de succès à M+3** (calibré sur les benchmarks Enzo) : boutique rentable ou break-even sur Shopping avec tROAS actif, 200+ produits, 1er trafic SEO naissant — trajectoire Style Hippie (~11 k visites réelles = zone de rentabilité), pas besoin de plus pour gagner.
 
-## 4. Décisions de Hakim — TRANCHÉES le 08/08 (voir [APPLICATION-DECISIONS-2026-08-08.md](APPLICATION-DECISIONS-2026-08-08.md))
+## 4. Décisions de Hakim — TRANCHÉES le 08/08 (voir [2026-08-08-application-decisions.md](2026-08-08-application-decisions.md))
 
 Les 6 décisions ont été prises et appliquées : avis retirés, prix barrés supprimés (931 variantes), commande test reçue et conforme (chemin critique levé), sigles déjà masqués (produit en brouillon + DENY), budget 30 €/j, GO sourcing. Restent : publication du thème et vérification DSers des 2 fiches « Voyageur Or ».
 

@@ -10,7 +10,7 @@ Tu produis les **photos de galerie** des fiches produit de la boutique Shopify *
 
 **Tu ne te connectes pas à Shopify. Tu ne modifies rien sur la boutique.** Tu produis des fichiers sur le disque et un manifeste. Le branchement sera fait ensuite, par quelqu'un d'autre. Toute tentative d'écriture sur la boutique est hors mission.
 
-**La liste exacte des images manquantes, fiche par fiche, est dans `boutique-pipeline/boutique-seiko-mod/audit-visuel-catalogue.md`.** C'est ta feuille de route : ne produis que ce qui y figure, et rien d'autre.
+**La liste exacte des images manquantes, fiche par fiche, est dans `boutique-pipeline/boutique-seiko-mod/journal/2026-07-31-audit-visuel-catalogue.md`.** C'est ta feuille de route : ne produis que ce qui y figure, et rien d'autre.
 
 ## Le standard
 

@@ -33,7 +33,7 @@ Ce qui existe et fonctionne sur le Mac de Hakim :
 | Accès en écriture | Via connecteur MCP Shopify de Claude (OAuth géré par le connecteur — **aucun token API en clair trouvé dans le dépôt**, ce qui est bien). Pour Codex : créer une app custom Admin API par boutique et stocker le token hors git | **[FAIT — repo : recherche `shpat_`/tokens = 0 résultat]** |
 | Permissions constatées | Lecture/écriture produits, collections, publications, metafields, Files, thèmes **non publiés uniquement** | **[FAIT — repo:boutique-seiko-mod/*]** |
 
-**Pièges Shopify vérifiés** (détail dans `boutique-seiko-mod/REPRISE-SESSION.md` §Pièges) **[FAIT — repo]** :
+**Pièges Shopify vérifiés** (détail dans `boutique-seiko-mod/journal/2026-08-08-reprise-session.md` §Pièges) **[FAIT — repo]** :
 - ⛔ **Ne jamais utiliser `switch-shop`** : invalide la connexion Shopify **pour tout le monde**.
 - Le connecteur refuse d'écrire un thème MAIN ; tout passe par le thème brouillon (`204248088914` chez Noirmont), qu'il **reste à republier**.
 - `upsertedThemeFiles: []` sans `userErrors` = écriture asynchrone, pas un échec ; valider par taille/MD5.
@@ -42,7 +42,7 @@ Ce qui existe et fonctionne sur le Mac de Hakim :
 
 ### 3.2 DSers (mapping AliExpress → Shopify)
 
-- Compte Noirmont : session Chrome `contact.noirmont` (98 produits mappés, 0 Unmapped). **[FAIT — repo:boutique-seiko-mod/dsers-mapping-*.md, REPRISE-SESSION.md]**
+- Compte Noirmont : session Chrome `contact.noirmont` (98 produits mappés, 0 Unmapped). **[FAIT — repo:boutique-seiko-mod/dsers-mapping-*.md, boutique-seiko-mod/journal/2026-08-08-reprise-session.md]**
 - Compte Tuftéo : `contact@bonumvitae.fr` est mentionné dans le brief de mission de Hakim, mais **aucune trace dans le dépôt ni dans la mémoire** → [MANQUANT — à confirmer par Hakim, avec le gestionnaire de mots de passe].
 - Accès : uniquement par **session Chrome déjà ouverte** ; aucune API, aucun identifiant stocké. Les opérations DSers documentées se font par navigation pilotée. **[FAIT — repo]**
 
@@ -55,9 +55,9 @@ Ce qui existe et fonctionne sur le Mac de Hakim :
 
 ### 3.4 SEMrush
 
-- Compte **payant** (récent), utilisé pour toutes les mesures de volume FR (`marche-complet-semrush.md`, phase 0/3). Accès **par session Chrome connectée**, jamais par API. **[FAIT — repo:boutique-seiko-mod/REPRISE-SESSION.md ; .claude/skills/chasse-clusters/SKILL.md]**
+- Compte **payant** (récent), utilisé pour toutes les mesures de volume FR (`boutique-seiko-mod/journal/2026-07-31-marche-complet-semrush.md`, phase 0/3). Accès **par session Chrome connectée**, jamais par API. **[FAIT — repo:boutique-seiko-mod/journal/2026-08-08-reprise-session.md ; .claude/skills/chasse-clusters/SKILL.md]**
 - ⚠️ [CONTRADICTOIRE — `../CONTEXTE-MEMOIRE-pour-Codex.md` (06/2026) : « pas de compte permanent, Semrush OFF par défaut » et PLAYBOOK.md phase 1b « Semrush désactivé par défaut » vs usages intensifs de juillet sur compte payant]. Résolution probable : abonnement pris en juillet ; PLAYBOOK à mettre à jour. **À valider par Hakim.**
-- Piège : en formule gratuite, SEMrush rend « 0 mot-clé » **sans erreur** au-delà du quota → toujours utiliser un mot-clé témoin. **[FAIT — repo:REPRISE-SESSION.md]**
+- Piège : en formule gratuite, SEMrush rend « 0 mot-clé » **sans erreur** au-delà du quota → toujours utiliser un mot-clé témoin. **[FAIT — repo:boutique-seiko-mod/journal/2026-08-08-reprise-session.md]**
 
 ### 3.5 Brand Search
 
@@ -73,7 +73,7 @@ Ce qui existe et fonctionne sur le Mac de Hakim :
 ### 3.7 Chrome et sessions (le vrai trousseau)
 
 L'accès réel à SEMrush, DSers, AliExpress, Brand Search web, Trustoo et à l'admin Shopify passe par **les sessions déjà ouvertes du Chrome de Hakim**, pilotées via le MCP claude-in-chrome. **[FAIT — repo : dizaines de rapports « session déjà ouverte, aucun identifiant saisi »]**
-- Règle absolue observée par les agents : **ne jamais saisir un identifiant ou un mot de passe**, même fourni. **[FAIT — repo:megamenu-illustre.md]**
+- Règle absolue observée par les agents : **ne jamais saisir un identifiant ou un mot de passe**, même fourni. **[FAIT — repo:boutique-seiko-mod/journal/2026-07-31-megamenu-illustre.md]**
 - Profil(s) Chrome : un seul profil est attesté par les rapports (celui portant `contact.noirmont` + SEMrush + AliExpress). Détail des profils par boutique : [MANQUANT].
 - Trustoo (avis) : page bookmarklet `https://appadmin.trustoo.io/bookmark_import` + une `api_key` Trustoo passée en `postMessage` — la clé n'est **pas** stockée dans le dépôt ; elle se récupère dans l'app Trustoo de la boutique. **[MÉMOIRE — import-avis-trustoo-bookmark.md]**
 
@@ -91,8 +91,8 @@ L'accès réel à SEMrush, DSers, AliExpress, Brand Search web, Trustoo et à l'
 Recherche effectuée sur tout le dépôt (`shpat_`, `api_key=`, `Bearer`, `password`, etc.). Résultats :
 
 1. ⚠️ **Mot de passe storefront Noirmont écrit en clair** dans au moins 3 fichiers de livrables/mémoire :
-   - `boutique-pipeline/boutique-seiko-mod/build-site-2026-07-24.md` (ligne 4) ;
-   - `boutique-pipeline/boutique-seiko-mod/branchement-galeries-codex.md` (ligne 218) ;
+   - `boutique-pipeline/boutique-seiko-mod/journal/2026-07-24-build-site.md` (ligne 4) ;
+   - `boutique-pipeline/boutique-seiko-mod/journal/2026-07-31-branchement-galeries-codex.md` (ligne 218) ;
    - la fiche mémoire `~/.claude/projects/-Users-Hakim-Documents-Boutiques-drop/memory/shopify-canal-et-visuels-ia.md`.
    **La valeur n'est pas recopiée ici.** Gravité modérée (mot de passe de vitrine « ouverture prochaine », pas un accès admin), mais c'est un **stockage non sécurisé** : à purger des fichiers et à faire tourner dans l'admin Shopify (Préférences) après purge — d'autant plus urgent que le dépôt a été poussé le 31/07 vers le remote privé (voir §2). **[FAIT — repo]**
 2. ✅ Aucun token API (Shopify, Notion, BigBuy, Trustoo, Higgsfield) en clair dans le dépôt. **[FAIT — repo]**

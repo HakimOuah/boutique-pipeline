@@ -2,8 +2,8 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).parent
-GENERATED = ROOT / "visuels-2026-07-25" / "generated"
-QA = ROOT / "visuels-2026-07-25" / "qa"
+GENERATED = ROOT / "livraisons/visuels-2026-07-25" / "generated"
+QA = ROOT / "livraisons/visuels-2026-07-25" / "qa"
 QA.mkdir(parents=True, exist_ok=True)
 
 GROUPS = {

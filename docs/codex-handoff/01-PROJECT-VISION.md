@@ -21,7 +21,7 @@ Lancer et opérer des **boutiques Shopify de dropshipping mono-niche pour le mar
 - Fournisseur **AliExpress uniquement**, 4 niveaux de validation étanches (marché → fiche AliExpress → commande test → GO lancement), fail-closed partout. [FAIT — repo:specs/2026-07-17-pipeline-agents-phases-1-5-design.md]
 
 ### 1.3 Les garde-fous transversaux (toutes boutiques)
-- **Promesses vérifiables uniquement** : jamais de fausse preuve sociale (règle née de la suspension GMC Bien Brûlé pour misrepresentation) ; en dropshipping rien n'est « inclus dans le colis » — tout bonus est produit soi-même et livré **en numérique** (« offert / accès inclus ») ; toute caractéristique fournisseur est « annoncée », pas garantie. [MÉMOIRE — promesses-verifiables-guide-numerique] [FAIT — repo:boutique-seiko-mod/audit-promesses.md]
+- **Promesses vérifiables uniquement** : jamais de fausse preuve sociale (règle née de la suspension GMC Bien Brûlé pour misrepresentation) ; en dropshipping rien n'est « inclus dans le colis » — tout bonus est produit soi-même et livré **en numérique** (« offert / accès inclus ») ; toute caractéristique fournisseur est « annoncée », pas garantie. [MÉMOIRE — promesses-verifiables-guide-numerique] [FAIT — repo:boutique-seiko-mod/journal/2026-07-31-audit-promesses.md]
 - **Validation humaine avant publication** : portes du PLAYBOOK, statut « Bloqué Hakim » du campement, et domaines réservés de Hakim (publication, preuve sociale, prix/remises, commandes/achats, réglages de compte, contact fournisseur). Un agent ne publie rien, n'achète rien, ne contacte personne. [FAIT — repo:PLAYBOOK.md ; registre-candidats.md] [MÉMOIRE — mobile-first-et-placeholders-demo]
 - **Persona validé par Hakim = étape bloquante avant tout copywriting.** [MÉMOIRE — persona-obligatoire-copywriting] [FAIT — repo:PLAYBOOK.md 1d]
 - **Mobile-first** (« la version mobile, au final, c'est la plus importante ») ; **fichiers locaux = source de vérité, Notion = tableau de bord**. [MÉMOIRE]
@@ -30,7 +30,7 @@ Lancer et opérer des **boutiques Shopify de dropshipping mono-niche pour le mar
 ### 1.4 Objectifs chiffrés existant en source
 - **20 candidats produit qualifiés** (plancher 15) — objectif de la boucle, compteur à **2/20** au 24/07. [FAIT — repo:registre-candidats.md ; specs/2026-07-20]
 - Budgets de test publicitaire : règles maison **15-20 €/jour, Shopping Standard d'abord** (couche règles des skills ads) ; Bonum Vitae tourne à 30 €/jour. [MÉMOIRE — skills-sh-ecommerce-installes] [FAIT — repo:registre-candidats.md §Produits lancés]
-- Règle de prix : **prix de vente ≈ coût rendu ×3-4, prix barré = prix ×1,3** (arrondi à 9/,90). [FAIT — repo:import-accessoires-lot4.md ; PLAYBOOK.md]
+- Règle de prix : **prix de vente ≈ coût rendu ×3-4, prix barré = prix ×1,3** (arrondi à 9/,90). [FAIT — repo:boutique-seiko-mod/journal/2026-07-31-import-accessoires-lot4.md ; PLAYBOOK.md]
 - **Tout autre objectif business chiffré (CA cible, nombre de boutiques, ROAS cible, horizon de rentabilité) : [MANQUANT] — aucun chiffre dans le dépôt, la mémoire ni Notion.** Ne pas en inventer.
 
 ## 2. Vision cible exprimée dans le brief de passation — [INFO HAKIM], non actée
@@ -48,7 +48,7 @@ Lancer et opérer des **boutiques Shopify de dropshipping mono-niche pour le mar
 
 ## 3. La charte NOIRMONT retenue — définition écrite
 
-> ⚠️ **Ce paragraphe comble un trou documentaire identifié par les lots 03/05** : la définition de la direction retenue n'existait nulle part par écrit (les propositions A et B ont été présentées en conversation ; « A+B » n'était reconstituable que par ses effets). Source : **[MÉMOIRE session 30/07 + effets constatés au repo : `boutique-seiko-mod/charte-ab-application.md`, purges des couleurs interdites]**.
+> ⚠️ **Ce paragraphe comble un trou documentaire identifié par les lots 03/05** : la définition de la direction retenue n'existait nulle part par écrit (les propositions A et B ont été présentées en conversation ; « A+B » n'était reconstituable que par ses effets). Source : **[MÉMOIRE session 30/07 + effets constatés au repo : `boutique-seiko-mod/journal/2026-07-31-charte-ab-application.md`, purges des couleurs interdites]**.
 
 La direction **« A+B »** est née de la **fusion de deux propositions** :
 - **A « Le Cadran Nu »** — monochrome encre/craie ; symbole = **anneau au secteur évidé à midi**, le vide comme signature d'une maison sans logo.
@@ -58,7 +58,7 @@ La direction **« A+B »** est née de la **fusion de deux propositions** :
 - **Palette** : encre `#0B0B0C` / craie `#FAFAF7` / acier / cyan `#22D3EE`. Le cyan est **la couleur de l'instrument** (spécifications, cotes, focus) — **jamais un bouton ni un badge commercial** ; à 1,72:1 sur fond clair, il **ne porte jamais une information seul**.
 - **Typographie** : **Oswald pour l'affichage seul, Inter pour le fonctionnel** ; **chiffres tabulaires partout**.
 - **Marque** : le **wordmark didone** reste l'identification principale ; l'**anneau** sert de favicon/marque secondaire.
-- **Étoiles d'avis** : **vert Trustpilot `#05b67a`** (décision Hakim — un audit UI ne doit pas « corriger » ce vert). [FAIT — repo:REPRISE-SESSION.md]
+- **Étoiles d'avis** : **vert Trustpilot `#05b67a`** (décision Hakim — un audit UI ne doit pas « corriger » ce vert). [FAIT — repo:boutique-seiko-mod/journal/2026-08-08-reprise-session.md]
 - **Voix** : pédagogie au particulier, **casse normale des titres**, promesses vérifiables uniquement.
 - **Interdits** : vert forêt `#1E3A2F` et laiton `#A98E5F` (**purgés à la source — ne pas réintroduire**) ; « unique / composez / sur mesure » sur le guide de choix (ils impliquent un assemblage qu'on ne fait pas).
 

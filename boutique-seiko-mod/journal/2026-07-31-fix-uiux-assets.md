@@ -3,7 +3,7 @@
 Thème **`204248088914` « Maison Noirmont »**, rôle **UNPUBLISHED** au moment des écritures
 (Hakim l'a dépublié en cours de mission ; `Helio` / `204246548818` est repassé MAIN et n'a **pas** été touché).
 Périmètre tenu : **`assets/` uniquement** — 1 CSS + 6 JS. Aucun `.json`, aucun `.liquid`, aucun `snippets/`.
-Sources : `audit-uiux-home.md`, `audit-uiux-panier.md`. Contrôle en rendu : navigateur intégré, **375 × 812**,
+Sources : `2026-07-31-audit-uiux-home.md`, `2026-07-31-audit-uiux-panier.md`. Contrôle en rendu : navigateur intégré, **375 × 812**,
 prévisualisation de `204248088914` (bandeau « Maison Noirmont · Draft » visible, **aucun mot de passe saisi**).
 
 ## Preuve d'écriture

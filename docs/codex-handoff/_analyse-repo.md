@@ -23,28 +23,28 @@
 | `broyeur/` + `tmp/*.json` + `tmp/pdfs/` | Anciennes niches (scanner, thermique, microscope… juillet 15-16) supplantées par le registre **[FAIT]** | Archiver |
 | `tmp/venv/` | Un venv Python **dans le dépôt** (non ignoré par `.gitignore` qui ne couvre que `.venv/`) **[FAIT]** | Supprimer + ajouter `tmp/` au .gitignore |
 | `../CONTEXTE-MEMOIRE-pour-Codex.md` | Précédent handoff Codex du **23/06** : chemins périmés (`/Users/Hakim/boutique-pipeline`), règle SEMrush contredite par juillet **[FAIT — repo parent]** [OBSOLÈTE POSSIBLE] | Marquer obsolète ; le remplacer par ce dossier `codex-handoff/` |
-| `../drop/boutique-pipeline/boutique-seiko-mod/backup-faces-swissmade-2026-07-26/` | Arborescence **vide** créée le 26/07 — vraisemblablement un `mkdir -p` lancé depuis un mauvais cwd **[FAIT — repo parent:drop/]** | Supprimer `../drop/` |
-| `boutique-seiko-mod/ARCHIVE-prompt-reprise-visuels-2026-07-25.md.bak`, `OBSOLETE-NE-PAS-UTILISER-prompt-galeries-v1.md.bak` | Prompts Codex archivés en `.bak`, déjà auto-étiquetés obsolètes **[FAIT]** | Déplacer dans un dossier `archive/` de la boutique ; ne pas committer |
-| `boutique-seiko-mod/entrees-faces-REDONDANT-export-claude/` | Auto-étiqueté redondant (doublon d'images) **[FAIT]** | Supprimer après vérification |
-| Thème Shopify `204329288018` (BROUILLON fix-uiux) | Fork obsolète **côté Shopify**, marqué « à supprimer » **[FAIT — repo:REPRISE-SESSION.md]** | Action Shopify réservée à Hakim |
+| `../drop/boutique-pipeline/boutique-seiko-mod/backups/backup-faces-swissmade-2026-07-26/` | Arborescence **vide** créée le 26/07 — vraisemblablement un `mkdir -p` lancé depuis un mauvais cwd **[FAIT — repo parent:drop/]** | Supprimer `../drop/` |
+| `boutique-seiko-mod/journal/2026-07-25-archive-prompt-reprise-visuels.md.bak`, `boutique-seiko-mod/journal/2026-07-31-obsolete-ne-pas-utiliser-prompt-galeries-v1.md.bak` | Prompts Codex archivés en `.bak`, déjà auto-étiquetés obsolètes **[FAIT]** | Déplacer dans un dossier `archive/` de la boutique ; ne pas committer |
+| `boutique-seiko-mod/livraisons/entrees-faces-REDONDANT-export-claude/` | Auto-étiqueté redondant (doublon d'images) **[FAIT]** | Supprimer après vérification |
+| Thème Shopify `204329288018` (BROUILLON fix-uiux) | Fork obsolète **côté Shopify**, marqué « à supprimer » **[FAIT — repo:boutique-seiko-mod/journal/2026-08-08-reprise-session.md]** | Action Shopify réservée à Hakim |
 
 ## 3. Doublons et masse binaire
 
 - **Kit Liquid portable en double** : `shopify-portable/` et `boutique-tufting/shopify/portable-kit/` (copie d'intégration). **[FAIT]** Reco : garder `shopify-portable/` comme canonique, noter la copie comme instanciée.
 - **Playbooks qui se recouvrent** : `PRODUCT-RESEARCH-PLAYBOOK.md` (36 Ko, méthode) vs `PRODUCT-RESEARCH-CRITERIA.md` (seuils canoniques, MAJ 20/07). Les agents citent les deux ; le risque de divergence est documenté comme la raison d'être de CRITERIA. **[FAIT]** Reco : garder les deux mais faire de CRITERIA l'unique porteur de chiffres (déjà la règle), et purger les seuils chiffrés résiduels du PLAYBOOK.
-- **Masse d'images et de backups** dans le dépôt : `boutique-seiko-mod/` (~110 fichiers dont dizaines de JPG/PNG de backup), `boutique-tufting/assets/source/aliexpress/` (des centaines de webp), `scratchpad/`, `swatches-2026-07-25/`, `visuels-2026-07-25/`. **[FAIT]** Reco : ne **pas** committer les binaires ; stockage à part (Drive/S3) + manifestes markdown (les MANIFESTE.json/urls.txt existent déjà).
+- **Masse d'images et de backups** dans le dépôt : `boutique-seiko-mod/` (~110 fichiers dont dizaines de JPG/PNG de backup), `boutique-tufting/assets/source/aliexpress/` (des centaines de webp), `scratchpad/`, `boutique-seiko-mod/livraisons/swatches-2026-07-25/`, `boutique-seiko-mod/livraisons/visuels-2026-07-25/`. **[FAIT]** Reco : ne **pas** committer les binaires ; stockage à part (Drive/S3) + manifestes markdown (les MANIFESTE.json/urls.txt existent déjà).
 - `PLAYBOOK.md` (racine, boutique) vs `../New project/PLAYBOOK.md` et `../New project/PRODUCT-RESEARCH-PLAYBOOK.md` — anciens exemplaires hors dépôt. **[FAIT — repo parent]** [OBSOLÈTE POSSIBLE] Reco : marquer `New project/` comme archive.
 
 ## 4. Prompts et documents dispersés
 
-- Les livrables de sessions Noirmont sont ~80 markdown à plat dans `boutique-seiko-mod/` (audits, plans, journaux de nuit, prompts Codex `PROMPT-CODEX-galeries.md`, bilans datés). La convention « lire `REPRISE-SESSION.md` d'abord » compense, mais rien n'indique quels fichiers sont encore faisant-foi. **[FAIT]**
-- Reco : sous-dossiers `sessions/` (journaux datés), `prompts/`, `audits/`, et un index dans `REPRISE-SESSION.md`. À faire **après** le premier commit (pour garder l'historique lisible).
+- Les livrables de sessions Noirmont sont ~80 markdown à plat dans `boutique-seiko-mod/` (audits, plans, journaux de nuit, prompts Codex `boutique-seiko-mod/journal/2026-07-31-prompt-codex-galeries.md`, bilans datés). La convention « lire `boutique-seiko-mod/journal/2026-08-08-reprise-session.md` d'abord » compense, mais rien n'indique quels fichiers sont encore faisant-foi. **[FAIT]**
+- Reco : sous-dossiers `sessions/` (journaux datés), `prompts/`, `audits/`, et un index dans `boutique-seiko-mod/journal/2026-08-08-reprise-session.md`. À faire **après** le premier commit (pour garder l'historique lisible).
 - Prompts Codex historiques : `recherche-prod-extracted/PROMPT_CLAUDE_CODE.md` (x2 via doublon interne), `.bak` de `boutique-seiko-mod/`, `boutique-tufting/prompt-codex-images-2026-07-21.md`, espace `codex-chasse-clusters/`. Aucun n'est le « prompt d'entrée » actuel — c'est précisément ce que ce dossier de passation doit remplacer. **[FAIT]**
 
 ## 5. Configurations incohérentes / périmées
 
 1. **README.md ment par omission** : il décrit le starter-kit + dropilot, pas le vrai centre de gravité (agents Claude, registre, boutiques). **[FAIT]** Reco : réécrire le README comme carte du dépôt.
-2. **PLAYBOOK phase 1b « Semrush désactivé par défaut »** vs compte payant utilisé partout en juillet. [CONTRADICTOIRE — PLAYBOOK.md vs REPRISE-SESSION.md/marche-complet-semrush.md] Résolution probable : la règle date de l'ère « essais ponctuels » (juin) ; à réécrire. **À valider par Hakim.**
+2. **PLAYBOOK phase 1b « Semrush désactivé par défaut »** vs compte payant utilisé partout en juillet. [CONTRADICTOIRE — PLAYBOOK.md vs boutique-seiko-mod/journal/2026-08-08-reprise-session.md + boutique-seiko-mod/journal/2026-07-31-marche-complet-semrush.md] Résolution probable : la règle date de l'ère « essais ponctuels » (juin) ; à réécrire. **À valider par Hakim.**
 3. **`.env.example` racine vs réalité** : il pointe des chemins VPS `/opt/dropilot/...` jamais déployés. **[FAIT]** Reco : le garder comme doc dropilot mais renvoyer vers `docs/codex-handoff/.env.example` pour l'installation réelle.
 4. **`.gitignore` incomplet** : n'exclut ni `tmp/`, ni les dossiers de backups images, ni `*.bak`, ni `.DS_Store` partout (règle présente mais des .DS_Store sont déjà suivis ailleurs). **[FAIT]**
 5. **`boutique-tufting/project-state.md` bloc « Accès & Shopify » vide** (store, domaine, thème live, IDs) alors que le build est fait sur le thème `188623847809`. [MANQUANT] Reco : remplir — c'est l'équivalent Tuftéo du REPRISE-SESSION Noirmont, indispensable à une reprise.
@@ -75,7 +75,7 @@
 1. Purger le mot de passe storefront des 3 fichiers identifiés (07-SETUP §4) puis le faire tourner dans l'admin.
 2. Committer l'existant sur une branche propre ; exclure binaires/backups via `.gitignore` renforcé (`tmp/`, `*.bak`, dossiers backup-*, assets sources) ; créer un remote privé. [CORRIGÉ 31/07 : commits sur `main` + remote privé poussé — fait ; le renforcement du `.gitignore` reste à vérifier.]
 3. Rapatrier dans le dépôt les éléments hors-git faisant foi : `../.claude/skills` + `agents` (ou leur réécriture agnostique), export des 14 fiches mémoire → `docs/decisions/`.
-4. Compléter `boutique-tufting/project-state.md` (bloc Accès & Shopify) et créer l'équivalent pour Noirmont si `REPRISE-SESSION.md` ne suffit pas.
+4. Compléter `boutique-tufting/project-state.md` (bloc Accès & Shopify) et créer l'équivalent pour Noirmont si `boutique-seiko-mod/journal/2026-08-08-reprise-session.md` ne suffit pas.
 5. Réécrire `README.md` en carte du dépôt réelle (starter-kit + agents + boutiques + dropilot-prototype + handoff).
 6. Trancher le sort de dropilot : l'activer (installer, alimenter l'inbox) ou le déclasser explicitement en « prototype conservé » — aujourd'hui il occupe le README sans servir. **[FAIT — aucune trace d'exécution]**
 7. Archiver : `recherche-prod-extracted/`, `Recherche prod.zip`, `broyeur/`, `tmp/`, `../drop/`, `.bak`, `entrees-faces-REDONDANT-…`.

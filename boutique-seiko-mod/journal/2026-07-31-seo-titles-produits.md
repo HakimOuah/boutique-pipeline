@@ -1,7 +1,7 @@
 # `seo.title` des fiches montres — Maison Noirmont (`v42pzp-h4`)
 
-> **Exécution du 30/07/2026**, application de [`plan-nommage-seo.md`](plan-nommage-seo.md) §3.1
-> (Phase 1, étapes 6-7-8). Volumes : [`marche-complet-semrush.md`](marche-complet-semrush.md).
+> **Exécution du 30/07/2026**, application de [`2026-07-31-plan-nommage-seo.md`](2026-07-31-plan-nommage-seo.md) §3.1
+> (Phase 1, étapes 6-7-8). Volumes : [`2026-07-31-marche-complet-semrush.md`](2026-07-31-marche-complet-semrush.md).
 > **57 fiches ACTIVE** relues, **39 `seo.title` écrits**, **18 laissés intacts**.
 > **Aucun titre produit, handle, description produit, SKU, prix, variante, média, métachamp,
 > statut, collection ni mapping DSers n'a été touché.** Les 6 fiches DRAFT sont hors périmètre.
@@ -38,7 +38,7 @@ pas pour un volume.
 ### Le point d'arbitrage : « homme »
 
 Le plan §3.1 prescrit « homme » **seulement là où la fiche l'assume**. Aucune des 4 fiches mères
-ne porte le mot dans son corps de texte, mais `charte-noirmont-2026-07-25.md` acte une direction
+ne porte le mot dans son corps de texte, mais `2026-07-25-charte-noirmont.md` acte une direction
 **« ciblé homme »** validée par Hakim (persona « Julien, 34 ans »). « homme » n'est donc **pas**
 une affirmation invérifiable ici. Il n'a été posé que sur les **4 fiches mères**, là où le budget
 de caractères le permettait sans sacrifier le diamètre ; il n'a pas été ajouté aux 53 autres pour

@@ -22,8 +22,8 @@
 > Créé le 2026-07-31 — décision **D-0731-A** (`05-DECISION-LOG.md`) : **Claude Code conserve l'orchestration
 > du projet et toute l'exécution navigateur ; Codex est exécutant de génération d'images, uniquement.**
 > Ce document est **autoportant** : c'est lui que Hakim transmet à Codex comme instructions permanentes.
-> Il fusionne les prompts qui ont fait leurs preuves (`PROMPT-CODEX-galeries.md`, chantier aviateur
-> `visuels-aviateur-consolidation.md`) et les leçons payées de `10-FAILURES-AND-LESSONS.md` §C.
+> Il fusionne les prompts qui ont fait leurs preuves (`boutique-seiko-mod/journal/2026-07-31-prompt-codex-galeries.md`, chantier aviateur
+> `boutique-seiko-mod/journal/2026-07-31-visuels-aviateur-consolidation.md`) et les leçons payées de `10-FAILURES-AND-LESSONS.md` §C.
 
 ---
 

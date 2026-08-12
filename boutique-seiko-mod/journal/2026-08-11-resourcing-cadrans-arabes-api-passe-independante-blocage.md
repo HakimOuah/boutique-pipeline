@@ -45,7 +45,7 @@ Axes de requête :
 - Variante exacte : SKU `12000046818743268`, propriété `2PCS`, sans image SKU dédiée.
 - L'image officielle produit montre uniquement un disque métallique vierge marqué dans l'image promotionnelle « 28.5mm VH31 » : **aucun chiffre arabe oriental**.
 - Verdict : refus au critère visuel, avant fret.
-- Preuve : `preuves-sourcing-api-2026-08-11-agent/passe-independante/1005008821717771-cover.jpg`
+- Preuve : `boutique-seiko-mod/preuves/preuves-sourcing-api-2026-08-11-agent/passe-independante/1005008821717771-cover.jpg`
 - SHA-256 : `edf35705cb7763537681be5fdda8dd9c8478cf7935d0431c9ed2ec07a22626fc`.
 
 ### 1005010301578787 — LRZ WATCH Store
@@ -58,7 +58,7 @@ Axes de requête :
   - A5/A6/A7/A8/A9/A10 : disques/entretoises colorés sans index.
 - **Aucune des dix images ne porte de chiffres arabes orientaux.**
 - Verdict : refus au critère visuel, avant fret.
-- Preuves : `preuves-sourcing-api-2026-08-11-agent/passe-independante/1005010301578787-A1.png` à `A10.png`.
+- Preuves : `boutique-seiko-mod/preuves/preuves-sourcing-api-2026-08-11-agent/passe-independante/1005010301578787-A1.png` à `A10.png`.
 
 ### Hors catégorie
 

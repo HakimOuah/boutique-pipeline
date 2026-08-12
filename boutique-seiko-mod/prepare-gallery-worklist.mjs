@@ -15,7 +15,7 @@ for (const directory of [outputRoot, inputRoot, rawRoot, generatedRoot, qaRoot])
 }
 
 const oldPrompt = fs.readFileSync(
-  path.join(noirmontRoot, "OBSOLETE-NE-PAS-UTILISER-prompt-galeries-v1.md.bak"),
+  path.join(noirmontRoot, "journal/2026-07-31-obsolete-ne-pas-utiliser-prompt-galeries-v1.md.bak"),
   "utf8",
 );
 const skuByHandle = new Map();

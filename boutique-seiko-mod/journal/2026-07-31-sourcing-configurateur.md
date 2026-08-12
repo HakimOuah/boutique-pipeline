@@ -15,7 +15,7 @@ prouvé par aucune commande. Ce n'est pas encore un chemin, c'est une piste avec
 Ce qui est établi, dans l'ordre de solidité décroissante :
 
 1. **BL Watches Parts Store (AliExpress) l'a écrit à Hakim** les 24-25/07 (verbatim archivé dans
-   `fournisseurs-reponses-2026-07-24.md`) : « can assemble watch according to your combination », « no seiko,
+   `2026-07-24-fournisseurs-reponses.md`) : « can assemble watch according to your combination », « no seiko,
    no Rolex, no any famous brand logo », « we can assemble more than 100 watches everyday », « bulk order or
    drop shipping all ok ». C'est **la voie 1 du brief, déclarée par écrit** : assemblage libre + stérile garanti
    + dropship à l'unité. Manquent les trois chiffres qui la rendraient exploitable : **prix d'un build

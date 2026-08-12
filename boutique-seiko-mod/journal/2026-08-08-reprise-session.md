@@ -39,7 +39,7 @@ Montres mécaniques à cadran stérile sans logo, 279-430 €, France uniquement
 
 ## Stratégie — ce que la donnée a tranché
 
-Mesuré sur SEMrush (compte payant) — détail dans `marche-complet-semrush.md` :
+Mesuré sur SEMrush (compte payant) — détail dans `2026-07-31-marche-complet-semrush.md` :
 
 - **Personnalisation : 10 190/mois, mais 70 % est un autre marché** (photo, bois, gousset, gravure). Adressable ≈ **3 100**. Déjà tenu en position 3-4 par `watchmodcustom.com`.
 - **Seiko mod : 38 690/mois** (jusqu'à 51 000 étendu), KD 10, **CPC 0,22 €**. **16× plus de demande utile à difficulté égale.**
@@ -59,7 +59,7 @@ Décision de Hakim : un « configurateur » qui n'en est pas un — **filtrage p
 - Pas de prime de prix possible (contrairement à Goteia : 349 € configuré contre 249-259 € fixe).
 
 ### ✅ Construit — refonte « grammaire des pièces » du 28/07
-Le configurateur est **livré et refondu** sur `/pages/configurateur` (V1 à carrousel rejetée par Hakim : elle montrait les produits voisins et leurs noms — un présentoir, pas un configurateur). La V2 suit la grammaire de la maquette validée (`scratchpad/proto-configurateur-noirmont.html`) : une seule montre en scène, « Choisissez votre boîtier » en recadrages macro, « Choisissez votre cadran » en pastilles, récap « Votre composition », **aucun nom de catalogue avant la révélation** (balayé contre les 100 noms), différences résiduelles exprimées en réglages de variante, 34/34 chemins vers une vraie variante `/cart/add`. Détail : `configurateur-implementation.md` § Refonte du 28/07.
+Le configurateur est **livré et refondu** sur `/pages/configurateur` (V1 à carrousel rejetée par Hakim : elle montrait les produits voisins et leurs noms — un présentoir, pas un configurateur). La V2 suit la grammaire de la maquette validée (`scratchpad/proto-configurateur-noirmont.html`) : une seule montre en scène, « Choisissez votre boîtier » en recadrages macro, « Choisissez votre cadran » en pastilles, récap « Votre composition », **aucun nom de catalogue avant la révélation** (balayé contre les 100 noms), différences résiduelles exprimées en réglages de variante, 34/34 chemins vers une vraie variante `/cart/add`. Détail : `2026-07-31-configurateur-implementation.md` § Refonte du 28/07.
 
 ### ⚠️ Exigence d'interface — insistance explicite de Hakim
 **Ça doit avoir l'aspect d'un configurateur, pas d'une page de filtres**, sinon l'exercice perd tout son sens : une page de filtres dit « réduisez notre stock », un configurateur dit « vous fabriquez cette montre ». Les facettes Search & Discovery restent le **moteur** (robustesse, URL partageables et indexables), mais l'interface doit respecter :
@@ -69,9 +69,9 @@ Le configurateur est **livré et refondu** sur `/pages/configurateur` (V1 à car
 3. **une progression visible** (« étape 2 sur 3 ») ;
 4. **la montre s'affiche et se met à jour à chaque choix** — c'est l'élément décisif ; possible uniquement grâce aux visuels par coloris branchés le 26/07 ;
 5. **l'aboutissement est « Voici votre Trente-Neuf »** avec la montre en grand et ses spécifications — pas « 3 résultats ».
-- **En cours de mesure** : combien de questions le catalogue supporte → `axes-guide-de-choix.md`.
+- **En cours de mesure** : combien de questions le catalogue supporte → `2026-07-31-axes-guide-de-choix.md`.
 
-Le vrai configurateur (assemblage à la commande) dépend entièrement de **BL Watches Parts Store**, qui a déclaré par messagerie pouvoir assembler mais **n'a fourni ni prix, ni délai, ni catalogue**. Voir `sourcing-configurateur.md` : ≈ 1 428 combinaisons ouvrables, l'axe **aiguilles reste fermé** faute d'alésages publiés.
+Le vrai configurateur (assemblage à la commande) dépend entièrement de **BL Watches Parts Store**, qui a déclaré par messagerie pouvoir assembler mais **n'a fourni ni prix, ni délai, ni catalogue**. Voir `2026-07-31-sourcing-configurateur.md` : ≈ 1 428 combinaisons ouvrables, l'axe **aiguilles reste fermé** faute d'alésages publiés.
 
 ## Ce qui attend Hakim
 
@@ -103,7 +103,7 @@ Le vrai configurateur (assemblage à la commande) dépend entièrement de **BL W
 
 ## ⛔ ÉTAT AU 08/08/2026 SOIR — À LIRE AVANT TOUTE REPRISE
 
-**Verdict conformité : PAS PRÊT pour l'ouverture CSS/Merchant Center.** Audit complet : `AUDIT-GMC-FINAL-2026-08-08.md` (checklist fusionnée de 5 sources — Terry Ecom, Fast-Track GMC, templates policies, skill `gmc-acceptance`, porte 5 Kraken — 80+ points, 9 P0 / 15 P1 / 13 P2). Les tactiques de contournement des PDF (proxy, anti-detect, adresses-écrans, comptes de secours) sont **explicitement écartées** : on vise la conformité réelle.
+**Verdict conformité : PAS PRÊT pour l'ouverture CSS/Merchant Center.** Audit complet : `2026-08-08-audit-gmc-final.md` (checklist fusionnée de 5 sources — Terry Ecom, Fast-Track GMC, templates policies, skill `gmc-acceptance`, porte 5 Kraken — 80+ points, 9 P0 / 15 P1 / 13 P2). Les tactiques de contournement des PDF (proxy, anti-detect, adresses-écrans, comptes de secours) sont **explicitement écartées** : on vise la conformité réelle.
 
 ### Le point de fond : les correctifs ne sont pas en ligne
 Les corrections du 08/08 (avis, retours) sont dans le thème **TRAVAIL `205089014098`**, pas dans le **MAIN `204248088914`** qui est servi. Donc, en ligne, on trouve encore les avis fabriqués, le badge « 4,8/5 · 1340 avis » et l'ancien « satisfait ou remboursé ». **Rien n'est corrigé côté public tant que Hakim n'a pas publié le thème de travail.**
@@ -119,7 +119,7 @@ Les corrections du 08/08 (avis, retours) sont dans le thème **TRAVAIL `20508901
 
 ### Actions qui reviennent à Hakim (bloquantes, non délégables)
 - **Publier le thème de travail** (publication bloquée côté connecteur).
-- **Coller les 3 politiques** préparées dans `backup-retours-2026-08-08/a-appliquer-par-hakim/` : le connecteur refuse `shopPolicyUpdate` (permission `write_legal_policies` absente), donc les CGV et la politique de remboursement servies sous `/policies/…` **portent encore la clause interdite**.
+- **Coller les 3 politiques** préparées dans `boutique-seiko-mod/backups/backup-retours-2026-08-08/a-appliquer-par-hakim/` : le connecteur refuse `shopPolicyUpdate` (permission `write_legal_policies` absente), donc les CGV et la politique de remboursement servies sous `/policies/…` **portent encore la clause interdite**.
 - **Adhérer à un médiateur de la consommation** (obligation légale FR, toujours `[À COMPLÉTER]` en CGV art. 17).
 - **Vérifier le mapping DSers** des 2 fiches « Voyageur Or » (risque montre siglée livrée alors que le visuel est stérile).
 

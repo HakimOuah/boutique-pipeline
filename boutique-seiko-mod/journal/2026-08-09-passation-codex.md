@@ -92,20 +92,20 @@ Point d'entrée unique : dépose un ordre JSON dans `ordres/pour-codex/inbox/`, 
 
 **Verrou périmé** : `ordres/.lock-codex` date du 09/08 23:27 et son exécutant n'existe plus. `generer-images.sh` remplace automatiquement tout verrou de plus de 30 minutes — laisse le script s'en charger, **ne le supprime pas à la main**.
 
-**Une livraison à contrôler avant rattachement** : `visuels-codex-2026-08/cadran-sterile-couronne-3h-28-5/` contient 3 visuels et son manifeste, mais l'arrêt est intervenu avant la QA indépendante. **Contrôle-les avant de les poser** (voir §3, défaut « index promu en chiffre »).
+**Une livraison à contrôler avant rattachement** : `boutique-seiko-mod/livraisons/visuels-codex-2026-08/cadran-sterile-couronne-3h-28-5/` contient 3 visuels et son manifeste, mais l'arrêt est intervenu avant la QA indépendante. **Contrôle-les avant de les poser** (voir §3, défaut « index promu en chiffre »).
 
 ### Nommage et rangement — figés, à respecter à la lettre
-- Dossier par fiche : `boutique-seiko-mod/visuels-codex-2026-08/<handle>/` (`<handle>` = handle Shopify exact).
+- Dossier par fiche : `boutique-seiko-mod/livraisons/visuels-codex-2026-08/<handle>/` (`<handle>` = handle Shopify exact).
 - Galerie : `<handle>-g1.jpg`, `-g2.jpg`… — numérotation interne à la livraison, **pas une position d'affichage**.
 - Variante : `<handle>-v-<code>.jpg`, `<code>` = fragment couleur du SKU fournisseur en minuscules (`#Black1` → `black1`).
 - Un `manifeste.json` par dossier : `{handle, images[{fichier, handle, slot, sku_fournisseur, source}], ecartes[]}`.
-- ⚠️ **Le `sku_fournisseur` est indispensable** : les SKU Shopify ont été réécrits en `NOIR-*`, le lien coloris↔photo n'existe plus que dans ce manifeste et dans `backup-sku-2026-08-08/table-correspondance.jsonl`. Si un appariement est ambigu, mets l'entrée dans `ecartes` avec un motif — **ne devine pas**.
+- ⚠️ **Le `sku_fournisseur` est indispensable** : les SKU Shopify ont été réécrits en `NOIR-*`, le lien coloris↔photo n'existe plus que dans ce manifeste et dans `boutique-seiko-mod/backups/backup-sku-2026-08-08/table-correspondance.jsonl`. Si un appariement est ambigu, mets l'entrée dans `ecartes` avec un motif — **ne devine pas**.
 - Les visuels **sont versionnés dans git** (convention du dépôt).
 
 ### Rattachement sur Shopify
 - `productCreateMedia`, **toujours en fin de galerie, jamais en position 1** : l'image principale est la vignette des pages de collection.
 - `alt` descriptif **en français** obligatoire sur chaque média.
-- Ne supprime aucun média existant. Journal : `RATTACHEMENT-VISUELS-2026-08-09.md`.
+- Ne supprime aucun média existant. Journal : `2026-08-09-rattachement-visuels.md`.
 
 ---
 
@@ -113,18 +113,18 @@ Point d'entrée unique : dépose un ordre JSON dans `ordres/pour-codex/inbox/`, 
 
 ### P0 — ce qui bloque l'ouverture Merchant Center
 1. **Trancher le sort de `cadran-lumineux-28-5-nh35`** : vendu « stérile », porte « SUPERLATIVE CHRONOMETER / OFFICIALLY CERTIFIED » (Rolex). Recommandation de Claude : **abandonner le produit**. Décision de Hakim.
-2. **Dédoublonner 3 paires de fiches** (même produit AliExpress référencé deux fois) — sinon deux pages se cannibalisent sur le même mot-clé. Liste dans `COHERENCE-FICHES-2026-08-09.md`.
+2. **Dédoublonner 3 paires de fiches** (même produit AliExpress référencé deux fois) — sinon deux pages se cannibalisent sur le même mot-clé. Liste dans `2026-08-09-coherence-fiches.md`.
 3. **Corriger la collection active `montre-cadran-a-chiffres`**, qui affirme « nous ne proposons pas de chiffres orientaux » — vrai aujourd'hui, faux dès l'activation des cadrans arabes.
 
 ### P1 — le chantier principal
 4. **Re-sourcer la collection cadran arabe.** C'est le mot-clé porteur (15 500 recherches/mois) et il ne reste que **5 produits réels** (4 cadrans + 1 montre finie) : 2 refusés au push pour ventes insuffisantes, 3 écartés le 09/08 car sans écriture arabe véritable. Il en faut **4 à 8 de plus**, en classe A, avec écriture arabe orientale vérifiée à l'image et aucun verbatim de marque. Un travail était en cours à la coupure — vérifie `RESOURCING-CADRAN-ARABE-2026-08-09.md` s'il existe.
 5. **Débloquer ou abandonner les 5 fiches cadran arabe bloquées** : leur photo fournisseur porte une marque au cadran. Il faut d'autres photos fournisseur, ou renoncer.
 6. **Produire les visuels maison des fiches restantes.** Sans eux, les 94 brouillons ne peuvent pas être activés. Priorité : cadrans stériles couleur (non entamés), puis le reste des pilote 1-12.
-7. **Compléter les galeries des 96 fiches actives** : le brief `CONSIGNES-CODEX-VISUELS-2026-08-08.md` chiffre ~319 visuels (74 de galerie + 245 de variantes, tous coloris conservés sur décision de Hakim du 08/08). ~90 produits à ce jour.
+7. **Compléter les galeries des 96 fiches actives** : le brief `2026-08-08-consignes-codex-visuels.md` chiffre ~319 visuels (74 de galerie + 245 de variantes, tous coloris conservés sur décision de Hakim du 08/08). ~90 produits à ce jour.
 
 ### P2 — avant lancement
-8. Installer la **mesure d'achat** — voir `TRACKING-ET-CONSENTEMENT-2026-08-08.md`, 10 étapes au clic près. Voie retenue : app **Google & YouTube** (sur le plan Basic, le code de thème ne peut pas voir l'achat). ⚠️ **Ne pas laisser l'app créer le Merchant Center avant que le CSS soit arrêté.**
-9. Reprendre les **P0/P1 restants de `AUDIT-GMC-FINAL-2026-08-08.md`**, puis seulement ensuite ouvrir le compte.
+8. Installer la **mesure d'achat** — voir `2026-08-08-tracking-et-consentement.md`, 10 étapes au clic près. Voie retenue : app **Google & YouTube** (sur le plan Basic, le code de thème ne peut pas voir l'achat). ⚠️ **Ne pas laisser l'app créer le Merchant Center avant que le CSS soit arrêté.**
+9. Reprendre les **P0/P1 restants de `2026-08-08-audit-gmc-final.md`**, puis seulement ensuite ouvrir le compte.
 
 ---
 
@@ -138,7 +138,7 @@ Chaque étape indique **ce qu'on attend en sortie**. Ne passe pas à la suivante
 3. Déroule les 4 ordres validés en attente, puis écris les ordres manquants pour finir les **cadrans stériles couleur** (15 fiches, non entamés) et le reste des **pilote 1-12**.
 4. Rattache au fil de l'eau (§4), en fin de galerie, `alt` FR.
 
-**Sortie attendue** : les collections « cadran stérile » et « cadran pilote » entièrement habillées de visuels maison, `FOURNEE-VISUELS-NOUVEAUX-2026-08-09.md` à jour, `en-cours/` vide.
+**Sortie attendue** : les collections « cadran stérile » et « cadran pilote » entièrement habillées de visuels maison, `2026-08-09-fournee-visuels-nouveaux.md` à jour, `en-cours/` vide.
 
 ### Étape 2 — Re-sourcer la collection cadran arabe (1 journée)
 C'est **le chantier le plus rentable** : 15 500 recherches/mois pour 5 produits réels seulement.
@@ -151,7 +151,7 @@ C'est **le chantier le plus rentable** : 15 500 recherches/mois pour 5 produits 
 4. Relève sur fiche ouverte : item_id complet, ventes réelles, note, prix, variantes, livraison France. **Moins de 10 ventes = refus.**
 5. Télécharge les photos fournisseur dans `sources-fournisseur-2026-08/<handle-propose>/`.
 
-**Sortie attendue** : `RESOURCING-CADRAN-ARABE.md` (candidats classe A + refusés motivés) et une file `FILE-DSERS-CADRAN-ARABE.md` prête à importer. **Aucun achat, aucun import à ce stade.**
+**Sortie attendue** : `2026-08-09-resourcing-cadran-arabe.md` (candidats classe A + refusés motivés) et une file `2026-08-09-file-dsers-cadran-arabe.md` prête à importer. **Aucun achat, aucun import à ce stade.**
 
 ### Étape 3 — Statuer sur les 5 fiches arabes bloquées (½ journée)
 Leur photo fournisseur porte une marque au cadran : ni composition ni retouche ne les sauvent proprement. Pour chacune, **cherche d'autres photos du même produit** (autres vendeurs du même article, galerie complète de la fiche). Si rien d'exploitable : **abandonner le produit** et le sortir de la collection.
@@ -168,16 +168,16 @@ Leur photo fournisseur porte une marque au cadran : ni composition ni retouche n
 **Sortie attendue** : collection cadran arabe à **10-12 produits réels**, habillés, prêts à activer.
 
 ### Étape 5 — Nettoyer le catalogue avant activation (½ journée)
-1. **Dédoublonner les 3 paires** de fiches pointant le même produit AliExpress (liste dans `COHERENCE-FICHES-2026-08-09.md`).
+1. **Dédoublonner les 3 paires** de fiches pointant le même produit AliExpress (liste dans `2026-08-09-coherence-fiches.md`).
 2. Appliquer la décision de Hakim sur `cadran-lumineux-28-5-nh35` (verbatim Rolex).
 3. Corriger la collection active `montre-cadran-a-chiffres` (« nous ne proposons pas de chiffres orientaux »).
 4. Affecter aux variantes les **6 nuanciers du bracelet gaufré**.
-5. Reprendre les **doutes non tranchés** consignés dans `COHERENCE-FICHES-2026-08-09.md` (lume des index sur 2 cadrans squelette, `cadran-transparent-lume-28-5` que le fournisseur ne vend pas à l'unité).
+5. Reprendre les **doutes non tranchés** consignés dans `2026-08-09-coherence-fiches.md` (lume des index sur 2 cadrans squelette, `cadran-transparent-lume-28-5` que le fournisseur ne vend pas à l'unité).
 
 **Sortie attendue** : zéro doublon, zéro fiche à risque de marque, doutes tous tranchés ou documentés.
 
 ### Étape 6 — Compléter les galeries des 96 fiches actives (chantier long)
-Le brief `CONSIGNES-CODEX-VISUELS-2026-08-08.md` chiffre **~319 visuels** : 74 de galerie + 245 de variantes, **tous coloris conservés** (décision de Hakim du 08/08, ne propose pas de réduire). ~90 produits à ce jour. Compter 8-10 min par visuel en CLI, 2-3 min dans l'app.
+Le brief `2026-08-08-consignes-codex-visuels.md` chiffre **~319 visuels** : 74 de galerie + 245 de variantes, **tous coloris conservés** (décision de Hakim du 08/08, ne propose pas de réduire). ~90 produits à ce jour. Compter 8-10 min par visuel en CLI, 2-3 min dans l'app.
 
 **Sortie attendue** : plus aucune fiche active sous la cible maison (5 images par montre, 3 par accessoire).
 
@@ -187,7 +187,7 @@ Ne rien activer avant que **tous** ces points soient vrais :
 - les 3 politiques ont été collées par Hakim et le médiateur renseigné ;
 - la grille de prix a été arbitrée et appliquée ;
 - la **mesure d'achat** est installée et testée (§P2) ;
-- les P0/P1 restants de `AUDIT-GMC-FINAL-2026-08-08.md` sont soldés.
+- les P0/P1 restants de `2026-08-08-audit-gmc-final.md` sont soldés.
 
 Puis, dans l'ordre : activer les produits → publier les collections sur le canal Online Store → retirer le mot de passe boutique → ouvrir le compte CSS/Merchant Center. **L'activation et la publication reviennent à Hakim.**
 
@@ -195,9 +195,9 @@ Puis, dans l'ordre : activer les produits → publier les collections sur le can
 
 ## 6. Ce qui appartient à Hakim — ne pas faire à sa place
 
-- **Coller les 3 textes de politiques** préparés dans `backup-retours-2026-08-08/a-appliquer-par-hakim/` : le connecteur n'a pas la permission `write_legal_policies`, donc les CGV et la politique de remboursement servies portent **encore la clause interdite**.
+- **Coller les 3 textes de politiques** préparés dans `boutique-seiko-mod/backups/backup-retours-2026-08-08/a-appliquer-par-hakim/` : le connecteur n'a pas la permission `write_legal_policies`, donc les CGV et la politique de remboursement servies portent **encore la clause interdite**.
 - **Adhérer à un médiateur de la consommation** (obligation légale FR, toujours `[À COMPLÉTER]` en CGV art. 17).
-- **Arbitrer la grille de prix** : plusieurs coûts réels sont inférieurs aux estimations (9,19 € contre 18,49 € sur un exemple). Deux stratégies chiffrées dans `TEXTES-ET-COLLECTIONS-2026-08-09.md`, aucun prix n'a été écrit.
+- **Arbitrer la grille de prix** : plusieurs coûts réels sont inférieurs aux estimations (9,19 € contre 18,49 € sur un exemple). Deux stratégies chiffrées dans `2026-08-09-textes-et-collections.md`, aucun prix n'a été écrit.
 - **Basculer l'e-mail boutique** de `contact.noirmont@gmail.com` vers `contact@maisonnoirmont.fr` (déjà utilisée partout ailleurs) — ⚠️ vérifier d'abord que la boîte `.fr` reçoit, sinon les e-mails de commande partent dans le vide.
 - **Vérifier le mapping DSers** des 2 fiches « Voyageur Or ».
 - Toute installation d'app, création de compte, publication de thème ou activation de produit.
@@ -208,15 +208,15 @@ Puis, dans l'ordre : activer les produits → publier les collections sur le can
 
 | Sujet | Fichier |
 |---|---|
-| Audit de conformité complet (80+ points) | `AUDIT-GMC-FINAL-2026-08-08.md` |
-| Les 94 produits importés, données réelles | `PUSH-DSERS-2026-08-09.md` |
-| Collections, textes, grille de prix | `TEXTES-ET-COLLECTIONS-2026-08-09.md` |
-| Les 16 écarts corrigés, comptes par collection | `COHERENCE-FICHES-2026-08-09.md` |
-| Brief visuels complet (~319, règles, slots) | `CONSIGNES-CODEX-VISUELS-2026-08-08.md` |
-| Production de visuels en cours | `FOURNEE-VISUELS-NOUVEAUX-2026-08-09.md` |
-| Rattachements faits | `RATTACHEMENT-VISUELS-2026-08-09.md` |
-| Tracking et consentement, 10 étapes | `TRACKING-ET-CONSENTEMENT-2026-08-08.md` |
-| Registre de sourcing | `SOURCING-COLLECTIONS-2026-08-09.md` |
-| État général et thèmes | `REPRISE-SESSION.md` |
+| Audit de conformité complet (80+ points) | `2026-08-08-audit-gmc-final.md` |
+| Les 94 produits importés, données réelles | `2026-08-09-push-dsers.md` |
+| Collections, textes, grille de prix | `2026-08-09-textes-et-collections.md` |
+| Les 16 écarts corrigés, comptes par collection | `2026-08-09-coherence-fiches.md` |
+| Brief visuels complet (~319, règles, slots) | `2026-08-08-consignes-codex-visuels.md` |
+| Production de visuels en cours | `2026-08-09-fournee-visuels-nouveaux.md` |
+| Rattachements faits | `2026-08-09-rattachement-visuels.md` |
+| Tracking et consentement, 10 étapes | `2026-08-08-tracking-et-consentement.md` |
+| Registre de sourcing | `2026-08-09-sourcing-collections.md` |
+| État général et thèmes | `2026-08-08-reprise-session.md` |
 
 **Deux travaux étaient en cours à la coupure** — production de visuels (cadrans stériles) et re-sourcing cadran arabe. Vérifie l'état réel des fichiers et de `ordres/pour-codex/` avant de relancer : ne double aucun travail déjà fait.

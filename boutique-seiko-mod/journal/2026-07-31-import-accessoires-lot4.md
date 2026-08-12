@@ -1,7 +1,7 @@
 # Import accessoires — lot 4 (NOIRMONT)
 
 Date : 2026-07-26 · Boutique : Maison Noirmont (`v42pzp-h4`, maisonnoirmont.fr) · Compte DSers : `contact.noirmont`
-Sources : `scratchpad/noirmont-fiches-accessoires.md` (v2, 10 fiches) + `sourcing-accessoires-v3-2026-07-25.md` (3 fiches retenues sur 6).
+Sources : `scratchpad/noirmont-fiches-accessoires.md` (v2, 10 fiches) + `2026-07-25-sourcing-accessoires-v3.md` (3 fiches retenues sur 6).
 
 **13 fiches créées, toutes en DRAFT, toutes mappées.** Aucune commande passée, aucun achat, aucun identifiant saisi.
 

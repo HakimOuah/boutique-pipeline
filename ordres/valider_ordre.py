@@ -59,7 +59,7 @@ PROJET_ROOT = os.path.dirname(REPO_ROOT)
 
 # Identifiants périssables interdits dans un manifeste d'images : l'identité
 # est handle + sku + slot, jamais un ID de variante/média (ils périment —
-# 118 correspondances refaites à la main une fois, PROMPT-CODEX-galeries.md).
+# 118 correspondances refaites à la main une fois, boutique-seiko-mod/journal/2026-07-31-prompt-codex-galeries.md).
 CLES_ID_PERIMES = (
     "variant_id", "variante_id", "id_variante",
     "media_id", "id_media", "product_id", "id_produit",

@@ -4,7 +4,7 @@
 
 ## ⚠️ Niveau de preuve de la nuit — À LIRE AVANT EXÉCUTION
 
-> **MISE À JOUR 09/08 — la montée en classe A a été faite.** Voir `PUSH-DSERS-2026-08-09.md` : les PDP AliExpress se chargent normalement dans le Chrome de Hakim (le mur anti-bot était propre au navigateur intégré). 94 fiches vérifiées puis poussées en DRAFT sur Maison Noirmont, 2 candidats refusés sur ventes réelles dérisoires. **Les coûts SERP de ce registre sont parfois surévalués** face aux prix PDP : re-caler le pricing avant publication.
+> **MISE À JOUR 09/08 — la montée en classe A a été faite.** Voir `2026-08-09-push-dsers.md` : les PDP AliExpress se chargent normalement dans le Chrome de Hakim (le mur anti-bot était propre au navigateur intégré). 94 fiches vérifiées puis poussées en DRAFT sur Maison Noirmont, 2 candidats refusés sur ventes réelles dérisoires. **Les coûts SERP de ce registre sont parfois surévalués** face aux prix PDP : re-caler le pricing avant publication.
 
 
 **Aucune classe A cette nuit : mur anti-bot AliExpress documenté.** Les pages produit (PDP) refusent systématiquement de charger leurs données dans le navigateur intégré (squelette CSR permanent, l'API de données ne part jamais ; en émulation mobile, reCAPTCHA explicite). Conformément aux consignes, rien n'a été contourné. Les SERP (rendues côté serveur) et l'API publique d'avis fonctionnent, elles.
@@ -23,7 +23,7 @@
 
 ## Cadrans arabes orientaux (pièces) — 4 produits retenus
 
-**Mot-clé / volume** : `seiko arabic dial` 8 100/mois — grappe arabic dial ≈ 15 500/mois (marche-complet-semrush.md §2.1/§10)
+**Mot-clé / volume** : `seiko arabic dial` 8 100/mois — grappe arabic dial ≈ 15 500/mois (2026-07-31-marche-complet-semrush.md §2.1/§10)
 
 *Offre usine orientale stérile toujours rare (constat du 30/07 confirmé) : 4 cadrans pièces seulement au niveau d'exigence maison. La collection d'acquisition « Cadran arabe » atteint 10 produits en y rattachant les 5 montres finies ci-dessous et l'insert céramique arabe (collection lunettes).*
 
@@ -217,7 +217,7 @@
 - Outils du moddeur (complément Outillage) : **6**
 - **Total retenus : 96** (+1 conditionnel, 2 écartés) — objectif 60-110 atteint ; 92 fiches actuelles + 96 = ~188 fiches à terme.
 
-1. **Étape DSers (Chrome Hakim)** : suivre `FILE-DSERS-2026-08-09.md` dans l'ordre (best-sellers d'abord), monter chaque ligne en classe A à l'ouverture de la fiche, importer en DRAFT/0 canal, mapper uniquement les variantes stériles/sans logo.
+1. **Étape DSers (Chrome Hakim)** : suivre `2026-08-09-file-dsers.md` dans l'ordre (best-sellers d'abord), monter chaque ligne en classe A à l'ouverture de la fiche, importer en DRAFT/0 canal, mapper uniquement les variantes stériles/sans logo.
 2. **Rédaction** : mot-clé de collection dans le titre, ≥ 250 mots, hedges « annoncé », jamais le titre fournisseur.
 3. **Images** : partir des faces `sources-fournisseur-2026-08/` + galeries récupérées à l'import ; purge fournisseur après branchement (procédure du 29/07).
 

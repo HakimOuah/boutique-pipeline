@@ -33,12 +33,12 @@ aussi des mots. Ils ne doivent pas être produits par gommage ni par déduction.
 
 Sources locales faisant foi :
 
-- `BRIEF-VISUELS-CODEX-2026-08-08.md` et `CONSIGNES-CODEX-VISUELS-2026-08-08.md` pour le comptage par
+- `2026-08-08-brief-visuels-codex.md` et `2026-08-08-consignes-codex-visuels.md` pour le comptage par
   valeur d'option visuelle et les règles de production ;
 - `INVENTAIRE-VISUEL-2026-08-08.csv` pour les 6 produits actifs et leur couverture 1/N ;
-- `backup-sku-2026-08-08/table-correspondance.jsonl` pour les handles, titres Shopify, variantes enfant
+- `boutique-seiko-mod/backups/backup-sku-2026-08-08/table-correspondance.jsonl` pour les handles, titres Shopify, variantes enfant
   et SKU fournisseur enregistrés ;
-- `sourcing-arabes-squelettes.md` et `dsers-mapping-decoupage-2026-07-25.md` pour les IDs produits
+- `2026-07-31-sourcing-arabes-squelettes.md` et `2026-07-25-dsers-mapping-decoupage.md` pour les IDs produits
   AliExpress d'origine.
 
 Contrôle live de l'API officielle :
@@ -64,7 +64,7 @@ Produits AliExpress contrôlés :
 Les miniatures de propriétés renvoyées par l'API ont été téléchargées temporairement et examinées à
 la résolution originale. Seules les **16 sources exactes conformes à l'interdit strict de tout
 mot/lettre sur cadran** ont été conservées sous
-`preuves-p3-variantes-api-2026-08-10-agent/sources-propres/`. Les 6 sources Explorateur bloquées ont
+`boutique-seiko-mod/preuves/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/`. Les 6 sources Explorateur bloquées ont
 été isolées sous `sources-bloquees-texte-cadran/` comme preuves de refus. Les 10 sources Éclaireur Acier, dont le
 cadran est stérile mais dont la marge porte un watermark fournisseur Tandorio, restent volontairement
 URL-only. Les deux candidates du Duo, fortement filigranées `BL Watches Parts Store`, ne sont pas
@@ -112,7 +112,7 @@ médias manquants, mais **elle n'est pas validée comme source conforme** à la 
 | E12 | Argenté · index dorés (réf. 1), 8 enfants | `14:94#White1` | https://ae01.alicdn.com/kf/Se5328f6e615c4125bfc88257659882d1q.jpg · `sources-propres/explorateur-13-14-94-white1.jpg` | Aucun mot/lettre/logo sur cadran | **PRODUISIBLE** |
 
 Planche de contrôle des 12 candidates :
-`preuves-p3-variantes-api-2026-08-10-agent/QA-explorateur-audit-complet.jpg`. Les six refus y restent
+`boutique-seiko-mod/preuves/preuves-p3-variantes-api-2026-08-10-agent/QA-explorateur-audit-complet.jpg`. Les six refus y restent
 visibles ; la planche n'est pas une planche de sources toutes conformes.
 
 Pour E03, E04, E06, E08, E09 et E10, l'opération API `variants` ne fournit qu'une seule image de
@@ -160,7 +160,7 @@ La valeur déjà couverte est **Vert olive** / `14:10#green A-sterile` ; elle es
 | B07 | Noir · chiffres crème · date, 2 enfants | `14:201447303#black C-sterile` | https://ae01.alicdn.com/kf/S71b42ec4014e4c43a9137d894e609871d.jpg · `sources-propres/field-bronze-10-14-201447303-black-c-sterile.jpg` | Produit et cadran sans marque/logo | **PRODUISIBLE** |
 | B08 | Blanc · chiffres rouges, 2 enfants | `14:496#white sterile` | https://ae01.alicdn.com/kf/S8cc32b24da0f4825b04353e2e676b209r.jpg · `sources-propres/field-bronze-16-14-496-white-sterile.jpg` | Produit et cadran sans marque/logo | **PRODUISIBLE** |
 
-Planche de contrôle : `preuves-p3-variantes-api-2026-08-10-agent/QA-field-bronze-sources-propres.jpg`.
+Planche de contrôle : `boutique-seiko-mod/preuves/preuves-p3-variantes-api-2026-08-10-agent/QA-field-bronze-sources-propres.jpg`.
 
 ### 3.4 Squelettes — 2 médias / 3 variantes Shopify enfant
 
@@ -171,7 +171,7 @@ Les variantes blanches sont les valeurs déjà couvertes ; seuls les deux cadran
 | S01 | `montre-squelette-automatique-carree` — Squelette noir, 1 enfant | `14:200000080#Black` | item `1005009825936780` · https://ae01.alicdn.com/kf/Sc63c29a32a0c4c329d308188738f58efP.jpg · `sources-propres/squelette-carre-01-14-200000080-black.jpg` | Boîtier/cadran exacts, sans marque/logo | **PRODUISIBLE** |
 | S02 | `montre-squelette-automatique-octogone` — Squelette noir, 2 enfants | `14:200000080#Black Skeleton` | item `1005009354912699` · https://ae01.alicdn.com/kf/S6329b301e2be4c959a8abfd5cac697f75.jpg · `sources-propres/squelette-octogone-01-14-200000080-black-skeleton.jpg` | Boîtier/cadran exacts, sans marque/logo | **PRODUISIBLE** |
 
-Planche de contrôle : `preuves-p3-variantes-api-2026-08-10-agent/QA-squelette-sources-propres.jpg`.
+Planche de contrôle : `boutique-seiko-mod/preuves/preuves-p3-variantes-api-2026-08-10-agent/QA-squelette-sources-propres.jpg`.
 
 ### 3.5 Trente-Neuf Duo — 1 média / dimension cible non démontrable
 
@@ -212,7 +212,7 @@ des miniatures AliExpress brutes.
 
 ## 5. Preuves locales livrées
 
-Répertoire : `preuves-p3-variantes-api-2026-08-10-agent/`
+Répertoire : `boutique-seiko-mod/preuves/preuves-p3-variantes-api-2026-08-10-agent/`
 
 - **16** miniatures exactes conformes : 6 Explorateur, 8 Éclaireur Bronze, 1 Carré, 1 Octogone ;
 - **6** miniatures Explorateur isolées comme preuves de refus pour texte sur cadran ;

@@ -39,7 +39,7 @@ Les fiches du résultat relues par l'API n'ont exposé que :
 
 `1005006625587280` contient 11 variantes 28,5 mm NH35/NH36. Les onze images officielles montrent des index bâtons occidentaux, aucun chiffre arabe oriental, et le texte physique `SUPERLATIVE CHRONOMETER / OFFICIALLY CERTIFIED`. Il échoue donc simultanément aux portes glyphes et verbatim.
 
-Preuve : `preuves-sourcing-api-2026-08-11-agent/1005006625587280-refus-watch-diy.jpg`, SHA-256 `c1adfc0f553e5f078a0282c170819539ef543d8f7d370c8781261580cedf2d1b`.
+Preuve : `boutique-seiko-mod/preuves/preuves-sourcing-api-2026-08-11-agent/1005006625587280-refus-watch-diy.jpg`, SHA-256 `c1adfc0f553e5f078a0282c170819539ef543d8f7d370c8781261580cedf2d1b`.
 
 ### XinXin Watch Parts Store — `1104278703`
 
@@ -60,7 +60,7 @@ Le filtre vendeur n'a remonté que `1005009751528666`, déjà qualifié. Les req
 | `1005009756751859` | 16 | montre NH35 carrée complète, pas un cadran compatible sourcé | REFUS catégorie |
 | `1005012130205925` | **9** | glyphes et absence de texte compatibles, mais seuil ferme non atteint | REFUS ventes |
 
-Preuve de `1005009745831804` : `preuves-sourcing-api-2026-08-11-agent/1005009745831804-refus-lucky.jpg`, SHA-256 `711afecec6000608b64be074580c3363d93c1e70975a9f99b55a626cb8663acd`.
+Preuve de `1005009745831804` : `boutique-seiko-mod/preuves/preuves-sourcing-api-2026-08-11-agent/1005009745831804-refus-lucky.jpg`, SHA-256 `711afecec6000608b64be074580c3363d93c1e70975a9f99b55a626cb8663acd`.
 
 ## Quasi-candidat recontrôlé une dernière fois
 

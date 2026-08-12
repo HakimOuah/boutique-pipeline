@@ -486,7 +486,7 @@ la **présentation visuelle des options et la mise à jour du prix en continu**.
 ### 8.1 La décision de fond : ne pas copier le compositeur
 
 Nos visuels sont **une photo finie par coloris** (67 coloris produits en `nano_banana_pro` 4K,
-cf. `images-modeles-et-coloris-2026-07-25.md`). Un empilement de calques exigerait :
+cf. `2026-07-25-images-modeles-et-coloris.md`). Un empilement de calques exigerait :
 une production **par pièce** en PNG détouré, un **calage sub-pixel commun** entre toutes les pièces, et un
 recalage manuel `layerScale/offsetX/offsetY` par groupe (Goteia est à `1.02` partout — ce n'est pas un hasard,
 c'est une correction). Ce n'est ni le pipeline ni le budget de production actuel, et un modèle génératif ne
@@ -498,7 +498,7 @@ photos entières.
 
 **La contrainte que ça impose, énoncée franchement.** Le nombre de photos = le nombre de combinaisons
 atteignables. Le sourcing établit **528 combinaisons plateforme A + 900 plateforme B**
-(`sourcing-configurateur.md` §5). **On ne photographiera pas 1 428 montres.** L'architecture doit donc
+(`2026-07-31-sourcing-configurateur.md` §5). **On ne photographiera pas 1 428 montres.** L'architecture doit donc
 séparer deux natures d'axes :
 
 - **axes visuels** (ils changent la photo) : leur **produit cartésien doit rester ≤ au nombre de photos

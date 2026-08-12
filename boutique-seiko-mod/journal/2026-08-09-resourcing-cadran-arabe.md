@@ -55,8 +55,8 @@ Le filigrane rend les photos brutes impropres à la publication. Elles peuvent s
 
 Preuves locales :
 
-- planche versionnée : `preuves-sourcing-api-2026-08-09/1005009751528666-variantes-cadran.jpg` ;
-- relevé machine : `preuves-sourcing-api-2026-08-09/1005009751528666.json` ;
+- planche versionnée : `boutique-seiko-mod/preuves/preuves-sourcing-api-2026-08-09/1005009751528666-variantes-cadran.jpg` ;
+- relevé machine : `boutique-seiko-mod/preuves/preuves-sourcing-api-2026-08-09/1005009751528666.json` ;
 - sources ignorées par Git : `sources-fournisseur-2026-08/cadran-arabe-oriental-soleille-28-5/`.
 
 ### Lecture commerciale
@@ -86,7 +86,7 @@ Le tri AliExpress par ventes remonte massivement des mouvements, boîtiers, aigu
 
 ## Suite sûre
 
-1. Conserver la ligne qualifiée dans `FILE-DSERS-CADRAN-ARABE.md`, sans l'importer tant que Hakim n'a pas donné son accord.
+1. Conserver la ligne qualifiée dans `2026-08-09-file-dsers-cadran-arabe.md`, sans l'importer tant que Hakim n'a pas donné son accord.
 2. Continuer la recherche API sur de nouvelles fiches et vendeurs alternatifs ; garder le seuil de 10 ventes et la QA image stricte.
 3. Au moment d'un éventuel import, recontrôler stock, prix et fret de chaque SKU retenu, puis pousser uniquement en DRAFT.
 4. Produire les visuels maison avant toute activation ; ne jamais publier les images fournisseur filigranées.

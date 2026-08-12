@@ -1,7 +1,7 @@
 # Refonte des pages collection — Maison Noirmont
 
 > **26/07/2026** — thème **brouillon `204248088914`** uniquement. Thème publié `Helio` (`204246548818`) non touché.
-> Suite de `megamenu-illustre.md`. Un seul template pilote **toutes** les pages collection : `templates/collection.json`.
+> Suite de `2026-07-31-megamenu-illustre.md`. Un seul template pilote **toutes** les pages collection : `templates/collection.json`.
 
 ---
 

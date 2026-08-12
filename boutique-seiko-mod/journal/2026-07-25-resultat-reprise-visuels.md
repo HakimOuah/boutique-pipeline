@@ -13,15 +13,15 @@ Date : 25 juillet 2026
 
 Les JPEG destinés à la livraison se trouvent dans :
 
-`visuels-2026-07-25/generated/`
+`boutique-seiko-mod/livraisons/visuels-2026-07-25/generated/`
 
 Les sources PNG se trouvent dans :
 
-`visuels-2026-07-25/source-png/`
+`boutique-seiko-mod/livraisons/visuels-2026-07-25/source-png/`
 
 Les contrôles visuels se trouvent dans :
 
-`visuels-2026-07-25/qa/`
+`boutique-seiko-mod/livraisons/visuels-2026-07-25/qa/`
 
 ## Répartition
 

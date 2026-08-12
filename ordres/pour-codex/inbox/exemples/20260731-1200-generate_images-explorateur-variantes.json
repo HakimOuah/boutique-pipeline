@@ -43,7 +43,7 @@
       }
     ],
     "sources": [
-      "boutique-seiko-mod/visuels-arabes-squelettes-2026-07-29/montre-acier-chiffres-3-6-9-explorateur-face.jpg",
+      "boutique-seiko-mod/livraisons/visuels-arabes-squelettes-2026-07-29/montre-acier-chiffres-3-6-9-explorateur-face.jpg",
       "/Users/Hakim/Documents/Boutiques drop/scratchpad/backup-fournisseur-arabes-squelettes/montre-acier-chiffres-3-6-9-explorateur"
     ],
     "da": {
@@ -65,9 +65,9 @@
       ]
     },
     "sortie": {
-      "dossier": "boutique-seiko-mod/visuels-explorateur-variantes-2026-07-31",
+      "dossier": "boutique-seiko-mod/livraisons/visuels-explorateur-variantes-2026-07-31",
       "manifeste": "manifeste-realise.json"
     }
   },
-  "notes": "Exemple VALIDE classe A — le besoin réel documenté (publication-grappes.md §6.4) : 6 visuels de variante pour lever les 6 couples indépartageables Black/Black1, Green/Green1, Blue/Blue1, Orange/Orange1, Red/Red1, White/White1 de l'Explorateur 3-6-9. Les `sku` sont les fragments discriminants du SKU fournisseur (ex. `14:200000080#Black1`) : le manifeste réalisé les reprend tels quels, l'appariement final au SKU complet se fait côté Claude Code par égalité stricte. Jamais d'ID de variante ni de média dans ce manifeste."
+  "notes": "Exemple VALIDE classe A — le besoin réel documenté (boutique-seiko-mod/journal/2026-07-31-publication-grappes.md §6.4) : 6 visuels de variante pour lever les 6 couples indépartageables Black/Black1, Green/Green1, Blue/Blue1, Orange/Orange1, Red/Red1, White/White1 de l'Explorateur 3-6-9. Les `sku` sont les fragments discriminants du SKU fournisseur (ex. `14:200000080#Black1`) : le manifeste réalisé les reprend tels quels, l'appariement final au SKU complet se fait côté Claude Code par égalité stricte. Jamais d'ID de variante ni de média dans ce manifeste."
 }

@@ -7,8 +7,8 @@
 
 ## Conventions transverses (issues des leçons du projet)
 
-1. **Identité produit inter-outils = `handle` + `sku_chaine`, jamais un ID de variante/média.** Leçon écrite noir sur blanc : un manifeste indexé sur des identifiants de variante « devenus périmés avant même d'être lus » a forcé la reprise à la main de 118 correspondances par SKU **[FAIT — repo:boutique-pipeline/boutique-seiko-mod/PROMPT-CODEX-galeries.md §Nommage et manifeste]**. Les manifestes actuels sont indexés `["handle","sku"]` **[FAIT — repo:boutique-pipeline/scratchpad/noirmont-galeries/manifest.json]**.
-2. **`item_id` AliExpress complet** (jamais tronqué/reconstruit ; préfixes réels jusqu'à `1005012…`) **[FAIT — repo:boutique-seiko-mod/sourcing-accessoires-v3-2026-07-25.md]**.
+1. **Identité produit inter-outils = `handle` + `sku_chaine`, jamais un ID de variante/média.** Leçon écrite noir sur blanc : un manifeste indexé sur des identifiants de variante « devenus périmés avant même d'être lus » a forcé la reprise à la main de 118 correspondances par SKU **[FAIT — repo:boutique-pipeline/boutique-seiko-mod/journal/2026-07-31-prompt-codex-galeries.md §Nommage et manifeste]**. Les manifestes actuels sont indexés `["handle","sku"]` **[FAIT — repo:boutique-pipeline/scratchpad/noirmont-galeries/manifest.json]**.
+2. **`item_id` AliExpress complet** (jamais tronqué/reconstruit ; préfixes réels jusqu'à `1005012…`) **[FAIT — repo:boutique-seiko-mod/journal/2026-07-25-sourcing-accessoires-v3.md]**.
 3. **Toute donnée est datée** (`releve_le`/`date`) et **sourcée** (lien rapport) — règle du registre : « le registre pointe vers les rapports ; il ne remplace jamais leur détail » **[FAIT — repo:boutique-pipeline/registre-candidats.md]**.
 4. **Données vendeur = annoncées, pas prouvées**, tant qu'aucune commande test ne les a contrôlées **[FAIT — repo:reports/phase4-sourcing-fontaine-gravite-2026-07-20.md]**.
 5. Fichiers locaux = **source de vérité** ; Notion = tableau de bord répliqué **[MÉMOIRE — notion-pipeline-boutiques.md]**.
@@ -49,7 +49,7 @@ Existant : `families.json` du workspace Codex (champs `id`, `order`, `name`, `se
 
 ## 2. `mot_cle`
 
-Existant : mesures SEMrush des rapports (volume, KD, CPC, hiérarchie parent/segment) **[FAIT — repo:boutique-seiko-mod/REPRISE-SESSION.md §Stratégie ; marche-complet-semrush.md ; mots-cles-semrush.md]**.
+Existant : mesures SEMrush des rapports (volume, KD, CPC, hiérarchie parent/segment) **[FAIT — repo:boutique-seiko-mod/journal/2026-08-08-reprise-session.md §Stratégie ; boutique-seiko-mod/journal/2026-07-31-marche-complet-semrush.md ; boutique-seiko-mod/journal/2026-07-31-mots-cles-semrush.md]**.
 
 ```json
 {
@@ -62,15 +62,15 @@ Existant : mesures SEMrush des rapports (volume, KD, CPC, hiérarchie parent/seg
   "parent": null,
   "notes_serp": "enchère quasi vide : seul montreapapy.fr annonce (212 $/mois)",
   "mesure": { "outil": "SEMrush", "compte": "payant", "date": "2026-07-24", "mot_cle_temoin_verifie": true },
-  "source": "boutique-seiko-mod/marche-complet-semrush.md"
+  "source": "boutique-seiko-mod/journal/2026-07-31-marche-complet-semrush.md"
 }
 ```
 
-`mot_cle_temoin_verifie` **(nouveau)** encode la règle « SEMrush gratuit rend “0” sans erreur passé le quota — mot-clé témoin obligatoire » **[FAIT — repo:REPRISE-SESSION.md §Pièges]**.
+`mot_cle_temoin_verifie` **(nouveau)** encode la règle « SEMrush gratuit rend “0” sans erreur passé le quota — mot-clé témoin obligatoire » **[FAIT — repo:boutique-seiko-mod/journal/2026-08-08-reprise-session.md §Pièges]**.
 
 ## 3. `concurrent`
 
-Existant : colonnes concurrence du registre (« institutionnels / dropship », prix, nombre d'ads) **[FAIT — repo:registre-candidats.md]** + dossiers d'analyse dédiés (`analyse-concurrent-montreapapy-2026-07-24.md`, `catalogue-v2-analyse-concurrents-2026-07-25.md`) **[FAIT — repo:boutique-seiko-mod/]**.
+Existant : colonnes concurrence du registre (« institutionnels / dropship », prix, nombre d'ads) **[FAIT — repo:registre-candidats.md]** + dossiers d'analyse dédiés (`boutique-seiko-mod/journal/2026-07-24-analyse-concurrent-montreapapy.md`, `boutique-seiko-mod/journal/2026-07-25-catalogue-v2-analyse-concurrents.md`) **[FAIT — repo:boutique-seiko-mod/]**.
 
 ```json
 {
@@ -84,7 +84,7 @@ Existant : colonnes concurrence du registre (« institutionnels / dropship », p
   ],
   "ads": { "google": true, "meta": false, "budget_estime_usd_mois": null },
   "avis_publics": null,
-  "source": "boutique-seiko-mod/REPRISE-SESSION.md + marche-complet-semrush.md",
+  "source": "boutique-seiko-mod/journal/2026-08-08-reprise-session.md + boutique-seiko-mod/journal/2026-07-31-marche-complet-semrush.md",
   "date": "2026-07-27"
 }
 ```
@@ -119,7 +119,7 @@ Enum `verdict` observée dans le registre : `RETENU` · `A_APPROFONDIR` · `CAS_
 
 ## 5. `fournisseur` (vendeur AliExpress)
 
-Existant : blocs vendeur des rapports de phase 4 **[FAIT — repo:reports/phase4-sourcing-fontaine-gravite-2026-07-20.md ; dsers-mapping-lot2.md]**.
+Existant : blocs vendeur des rapports de phase 4 **[FAIT — repo:reports/phase4-sourcing-fontaine-gravite-2026-07-20.md ; boutique-seiko-mod/journal/2026-07-31-dsers-mapping-lot2.md]**.
 
 ```json
 {
@@ -164,7 +164,7 @@ Existant : structure constante des relevés de sourcing (voir doc 08 §1.2 pour 
 
 ## 7. `variante` (Shopify ↔ DSers ↔ AliExpress)
 
-**Le pivot du système.** Existant : SKU Shopify porteurs de la **chaîne d'attributs AliExpress**, format `<attr_id>:<valeur_id>#<label>` joints par `;` **[FAIT — repo:import-accessoires-lot4.md ; dsers-mapping-lot2.md §Structure des SKU par famille]** ; libellés d'options composées côté Shopify **[FAIT — repo:shopify-target-products-2026-07-25.json]** ; correspondance Color/Size côté DSers **[FAIT — repo:dsers-mapping-decoupage-2026-07-25.md]**.
+**Le pivot du système.** Existant : SKU Shopify porteurs de la **chaîne d'attributs AliExpress**, format `<attr_id>:<valeur_id>#<label>` joints par `;` **[FAIT — repo:boutique-seiko-mod/journal/2026-07-31-import-accessoires-lot4.md ; boutique-seiko-mod/journal/2026-07-31-dsers-mapping-lot2.md §Structure des SKU par famille]** ; libellés d'options composées côté Shopify **[FAIT — repo:shopify-target-products-2026-07-25.json]** ; correspondance Color/Size côté DSers **[FAIT — repo:boutique-seiko-mod/journal/2026-07-25-dsers-mapping-decoupage.md]**.
 
 ```json
 {
@@ -181,12 +181,12 @@ Existant : structure constante des relevés de sourcing (voir doc 08 §1.2 pour 
 ```
 
 Notes ancrées :
-- Le `sku_chaine` de cet exemple est **reconstitué dans son format** (les attributs `14:`=Color, `5:`=Size et les labels sont réels ; les ID numériques exacts de cette variante précise n'ont pas été recopiés dans les livrables — **anonymisé/plausible**). Exemples de SKU intégralement réels : `14:200000914#M14`, `14:865#13pc Kits`, `200000049:350853#steel-no logo;200000051:100016950`, `14:10#10X-with circle` **[FAIT — repo:scratchpad/noirmont-galeries/worklist.json ; import-accessoires-lot4.md]**.
-- Familles à 3 attributs vues : `14:<id>#<n>` + `200007763:201336100` (Ships From `China Mainland`) **[FAIT — dsers-mapping-lot2.md]**.
-- `inventory_policy: CONTINUE` existe (aviateur bronze publié à stock 0, vente en rupture) **[FAIT — publication-grappes.md]** ; `DENY` + stock 0 = variantes rendues invendables (12 GMT siglées) **[FAIT — BILAN-2026-07-25.md]**.
-- **Le SKU ne prouve pas l'identité visuelle d'une image** après découpage de coloris **[FAIT — REPRISE-SESSION.md §Pièges]**.
+- Le `sku_chaine` de cet exemple est **reconstitué dans son format** (les attributs `14:`=Color, `5:`=Size et les labels sont réels ; les ID numériques exacts de cette variante précise n'ont pas été recopiés dans les livrables — **anonymisé/plausible**). Exemples de SKU intégralement réels : `14:200000914#M14`, `14:865#13pc Kits`, `200000049:350853#steel-no logo;200000051:100016950`, `14:10#10X-with circle` **[FAIT — repo:scratchpad/noirmont-galeries/worklist.json ; boutique-seiko-mod/journal/2026-07-31-import-accessoires-lot4.md]**.
+- Familles à 3 attributs vues : `14:<id>#<n>` + `200007763:201336100` (Ships From `China Mainland`) **[FAIT — boutique-seiko-mod/journal/2026-07-31-dsers-mapping-lot2.md]**.
+- `inventory_policy: CONTINUE` existe (aviateur bronze publié à stock 0, vente en rupture) **[FAIT — boutique-seiko-mod/journal/2026-07-31-publication-grappes.md]** ; `DENY` + stock 0 = variantes rendues invendables (12 GMT siglées) **[FAIT — boutique-seiko-mod/journal/2026-07-25-bilan.md]**.
+- **Le SKU ne prouve pas l'identité visuelle d'une image** après découpage de coloris **[FAIT — boutique-seiko-mod/journal/2026-08-08-reprise-session.md §Pièges]**.
 
-**⚠️ `noirmont-coloris-variant-map.json` : [MANQUANT].** Ce fichier, cité dans le brief de passation, **n'existe nulle part dans le repo** (recherche insensible à la casse sur tout `/Users/Hakim/Documents/Boutiques drop`, 2026-07-30). Les artefacts réels les plus proches : `backup-variantes-avant-decoupage.json` (sauvegarde pré-découpage, utilisée comme recoupement de la table SKU **[FAIT — dsers-mapping-lot2.md]**), les tableaux de mapping des deux livrables DSers, et le trio `worklist.json`/`sources.json`/`manifest.json` des galeries. Si une « carte des coloris » doit exister en JSON, c'est un **(nouveau)** à construire depuis ces sources.
+**⚠️ `noirmont-coloris-variant-map.json` : [MANQUANT].** Ce fichier, cité dans le brief de passation, **n'existe nulle part dans le repo** (recherche insensible à la casse sur tout `/Users/Hakim/Documents/Boutiques drop`, 2026-07-30). Les artefacts réels les plus proches : `boutique-seiko-mod/backups/backup-variantes-avant-decoupage.json` (sauvegarde pré-découpage, utilisée comme recoupement de la table SKU **[FAIT — boutique-seiko-mod/journal/2026-07-31-dsers-mapping-lot2.md]**), les tableaux de mapping des deux livrables DSers, et le trio `worklist.json`/`sources.json`/`manifest.json` des galeries. Si une « carte des coloris » doit exister en JSON, c'est un **(nouveau)** à construire depuis ces sources.
 
 ## 8. `score_produit`
 
@@ -232,7 +232,7 @@ Existant : la **grille de confiance A/B/C**, décision de Hakim du 20/07/2026 �
 
 ## 10. `offre` (pricing d'une fiche boutique)
 
-Existant : règle appliquée aux 13 accessoires — « prix ≈ coût rendu × 3 à 4, arrondi au ,90 ; prix barré = prix × 1,3 arrondi au ,90 supérieur », avec **tiérisation** quand la matrice de coûts par variante l'impose (plancher ×2,5) **[FAIT — repo:import-accessoires-lot4.md §Règle de prix]** ; échelle de prix par mouvement sur les montres (Seiko +39 €, PT5000 +89 €, fond verre +29 €) **[FAIT — repo:BILAN-2026-07-25.md]**.
+Existant : règle appliquée aux 13 accessoires — « prix ≈ coût rendu × 3 à 4, arrondi au ,90 ; prix barré = prix × 1,3 arrondi au ,90 supérieur », avec **tiérisation** quand la matrice de coûts par variante l'impose (plancher ×2,5) **[FAIT — repo:boutique-seiko-mod/journal/2026-07-31-import-accessoires-lot4.md §Règle de prix]** ; échelle de prix par mouvement sur les montres (Seiko +39 €, PT5000 +89 €, fond verre +29 €) **[FAIT — repo:boutique-seiko-mod/journal/2026-07-25-bilan.md]**.
 
 ```json
 {
@@ -250,11 +250,11 @@ Existant : règle appliquée aux 13 accessoires — « prix ≈ coût rendu × 3
 }
 ```
 
-`conformite` ancré dans **[FAIT — repo:REPRISE-SESSION.md §Ce qui attend Hakim, pt 7]**. Les coûts intermédiaires par segment autres que 6,30/11,10 € sont **anonymisés/plausibles** (le livrable donne la fourchette 6,30 → 11,10 €).
+`conformite` ancré dans **[FAIT — repo:boutique-seiko-mod/journal/2026-08-08-reprise-session.md §Ce qui attend Hakim, pt 7]**. Les coûts intermédiaires par segment autres que 6,30/11,10 € sont **anonymisés/plausibles** (le livrable donne la fourchette 6,30 → 11,10 €).
 
 ## 11. `marque`
 
-Existant : `brand-tokens-noirmont.json` (v2.0 — positioning, tone, colors + color-rules, fonts display/ui/data, type-scale, logo avec generation-brief, ui) **[FAIT — repo:boutique-seiko-mod/brand-tokens-noirmont.json]**, validé par le schéma `boutique-pipeline/schema/brand-tokens.schema.json` **[FAIT]**. ⚠️ La **charte vivante a divergé du fichier** : direction « A+B » avec accent cyan `#22D3EE`, vert-jura et laiton **purgés à la source** **[FAIT — repo:REPRISE-SESSION.md §Charte]** — le JSON v2.0 porte encore vert-jura/laiton. Migration : régénérer les tokens depuis la charte du moment, le fichier n'est pas auto-porteur.
+Existant : `brand-tokens-noirmont.json` (v2.0 — positioning, tone, colors + color-rules, fonts display/ui/data, type-scale, logo avec generation-brief, ui) **[FAIT — repo:boutique-seiko-mod/brand-tokens-noirmont.json]**, validé par le schéma `boutique-pipeline/schema/brand-tokens.schema.json` **[FAIT]**. ⚠️ La **charte vivante a divergé du fichier** : direction « A+B » avec accent cyan `#22D3EE`, vert-jura et laiton **purgés à la source** **[FAIT — repo:boutique-seiko-mod/journal/2026-08-08-reprise-session.md §Charte]** — le JSON v2.0 porte encore vert-jura/laiton. Migration : régénérer les tokens depuis la charte du moment, le fichier n'est pas auto-porteur.
 
 ```json
 {
@@ -275,7 +275,7 @@ Existant : `brand-tokens-noirmont.json` (v2.0 — positioning, tone, colors + co
 
 ## 12. `boutique`
 
-Existant : en-têtes de tous les livrables Noirmont + REPRISE **[FAIT — repo:REPRISE-SESSION.md ; publication-grappes.md]**.
+Existant : en-têtes de tous les livrables Noirmont + REPRISE **[FAIT — repo:boutique-seiko-mod/journal/2026-08-08-reprise-session.md ; boutique-seiko-mod/journal/2026-07-31-publication-grappes.md]**.
 
 ```json
 {
@@ -299,11 +299,11 @@ Existant : en-têtes de tous les livrables Noirmont + REPRISE **[FAIT — repo:R
 }
 ```
 
-(Compteur DSers 103 = état du 29/07 **[FAIT — publication-grappes.md]** ; REPRISE du 27/07 disait 98 — prendre le plus récent.)
+(Compteur DSers 103 = état du 29/07 **[FAIT — boutique-seiko-mod/journal/2026-07-31-publication-grappes.md]** ; REPRISE du 27/07 disait 98 — prendre le plus récent.)
 
 ## 13. `fiche_produit_shopify`
 
-Existant : `shopify-target-products-2026-07-25.json` (nodes avec `id` GID, `title`, `handle`, `options[].optionValues[]`) **[FAIT]**, métachamps réels `custom.*` **[FAIT — repo:metachamps-montres.md]**, statuts et canaux **[FAIT — publication-grappes.md ; import-accessoires-lot4.md]**.
+Existant : `shopify-target-products-2026-07-25.json` (nodes avec `id` GID, `title`, `handle`, `options[].optionValues[]`) **[FAIT]**, métachamps réels `custom.*` **[FAIT — repo:boutique-seiko-mod/journal/2026-07-31-metachamps-montres.md]**, statuts et canaux **[FAIT — boutique-seiko-mod/journal/2026-07-31-publication-grappes.md ; boutique-seiko-mod/journal/2026-07-31-import-accessoires-lot4.md]**.
 
 ```json
 {
@@ -330,11 +330,11 @@ Existant : `shopify-target-products-2026-07-25.json` (nodes avec `id` GID, `titl
 }
 ```
 
-Contraintes ancrées : les 4 métachamps sont des `list.single_line_text_field` en `PUBLIC_READ` ; normalisations fermées (diamètre `"NN mm"`, 6 calibres canoniques + VK63, palette couleurs fermée, familles canoniques) ; **valeur non établie = champ vide, jamais deviné** **[FAIT — metachamps-montres.md]**. Piège statut : `ACTIVE` sans publication canal = invisible (`resourcePublications` vide) → `publishablePublish` obligatoire **[MÉMOIRE — shopify-canal-et-visuels-ia.md]**, vérifié par `resourcePublicationsV2` **[FAIT — publication-grappes.md]**.
+Contraintes ancrées : les 4 métachamps sont des `list.single_line_text_field` en `PUBLIC_READ` ; normalisations fermées (diamètre `"NN mm"`, 6 calibres canoniques + VK63, palette couleurs fermée, familles canoniques) ; **valeur non établie = champ vide, jamais deviné** **[FAIT — boutique-seiko-mod/journal/2026-07-31-metachamps-montres.md]**. Piège statut : `ACTIVE` sans publication canal = invisible (`resourcePublications` vide) → `publishablePublish` obligatoire **[MÉMOIRE — shopify-canal-et-visuels-ia.md]**, vérifié par `resourcePublicationsV2` **[FAIT — boutique-seiko-mod/journal/2026-07-31-publication-grappes.md]**.
 
 ## 14. `media`
 
-Existant : chaîne de branchement des galeries (staged upload → `productCreateMedia` → `productReorderMedia`), alt text normé, slots, contrôle 740 px **[FAIT — repo:branchement-galeries-codex.md]** + entrées du manifeste **[FAIT — scratchpad/noirmont-galeries/manifest.json]**.
+Existant : chaîne de branchement des galeries (staged upload → `productCreateMedia` → `productReorderMedia`), alt text normé, slots, contrôle 740 px **[FAIT — repo:boutique-seiko-mod/journal/2026-07-31-branchement-galeries-codex.md]** + entrées du manifeste **[FAIT — scratchpad/noirmont-galeries/manifest.json]**.
 
 ```json
 {
@@ -356,11 +356,11 @@ Existant : chaîne de branchement des galeries (staged upload → `productCreate
 }
 ```
 
-Les champs `handle/sku/slot/fichier/modele/nombre_regenerations` sont **exactement** ceux du manifeste réel ; `controles` **(nouveau)** encode les règles de QA écrites (planches ≥ 740 px/vignette, recadrage 5h–7h ×5, « atténué compte comme présent ») **[FAIT — branchement-galeries-codex.md §Règle de méthode]**. Slots canoniques : montres `face·situation·macro·poignet` (4), accessoires `face·situation·macro` (3) **[FAIT — PROMPT-CODEX-galeries.md]**. Requêtes média **plafonnées à 30 — paginer** **[FAIT — REPRISE-SESSION.md]**.
+Les champs `handle/sku/slot/fichier/modele/nombre_regenerations` sont **exactement** ceux du manifeste réel ; `controles` **(nouveau)** encode les règles de QA écrites (planches ≥ 740 px/vignette, recadrage 5h–7h ×5, « atténué compte comme présent ») **[FAIT — boutique-seiko-mod/journal/2026-07-31-branchement-galeries-codex.md §Règle de méthode]**. Slots canoniques : montres `face·situation·macro·poignet` (4), accessoires `face·situation·macro` (3) **[FAIT — boutique-seiko-mod/journal/2026-07-31-prompt-codex-galeries.md]**. Requêtes média **plafonnées à 30 — paginer** **[FAIT — boutique-seiko-mod/journal/2026-08-08-reprise-session.md]**.
 
 ## 15. `tache_agent`
 
-Existant : tickets du campement type Notion (19 tickets 00→17, statuts `À faire / En cours / Bloqué Hakim / Fait`, chaque ticket = brief autoportant avec procédure + garde-fous + critères de fin, dépendances notées) **[MÉMOIRE — campement-type-lancement-boutique.md]** + prompts autoportants type `PROMPT-CODEX-galeries.md` **[FAIT]**.
+Existant : tickets du campement type Notion (19 tickets 00→17, statuts `À faire / En cours / Bloqué Hakim / Fait`, chaque ticket = brief autoportant avec procédure + garde-fous + critères de fin, dépendances notées) **[MÉMOIRE — campement-type-lancement-boutique.md]** + prompts autoportants type `boutique-seiko-mod/journal/2026-07-31-prompt-codex-galeries.md` **[FAIT]**.
 
 ```json
 {
@@ -375,7 +375,7 @@ Existant : tickets du campement type Notion (19 tickets 00→17, statuts `À fai
     "criteres_de_fin": ["compteurs DSers conformes à l'arithmétique attendue", "SKU chaîne d'attributs présents"]
   },
   "entrees": ["scratchpad/noirmont-fiches-accessoires.md"],
-  "livrable": "boutique-seiko-mod/import-accessoires-lot4.md",
+  "livrable": "boutique-seiko-mod/journal/2026-07-31-import-accessoires-lot4.md",
   "validation_humaine_requise": false
 }
 ```
@@ -423,11 +423,11 @@ Existant : taxonomie fail-closed des specs — « SEMrush déconnecté, CAPTCHA 
 }
 ```
 
-`rejet_silencieux_api` couvre les cas Shopify documentés : `upsertedThemeFiles: []` sans `userErrors` (écriture asynchrone), champ CSS/nom de schéma > 25 caractères, caractère invisible dans une chaîne « introuvable » **[FAIT — REPRISE-SESSION.md §Pièges]**. `quota_silencieux` = SEMrush « 0 » **[FAIT — idem]**.
+`rejet_silencieux_api` couvre les cas Shopify documentés : `upsertedThemeFiles: []` sans `userErrors` (écriture asynchrone), champ CSS/nom de schéma > 25 caractères, caractère invisible dans une chaîne « introuvable » **[FAIT — boutique-seiko-mod/journal/2026-08-08-reprise-session.md §Pièges]**. `quota_silencieux` = SEMrush « 0 » **[FAIT — idem]**.
 
 ## 18. `validation_humaine`
 
-Existant : portes du PLAYBOOK (PORTE 1 nom/palette, PORTE 2 arbo, PORTE 3 build) **[FAIT — repo:CONTEXTE-MEMOIRE-pour-Codex.md §2.2]**, statut « Bloqué Hakim » du campement **[MÉMOIRE — campement-type-lancement-boutique.md]**, et les décisions réservées récurrentes (commande test, publication de preuve sociale, republication thème, cinq gestes Search & Discovery, arbitrages de gamme) **[FAIT — registre-candidats.md ; REPRISE-SESSION.md ; metachamps-montres.md]**.
+Existant : portes du PLAYBOOK (PORTE 1 nom/palette, PORTE 2 arbo, PORTE 3 build) **[FAIT — repo:CONTEXTE-MEMOIRE-pour-Codex.md §2.2]**, statut « Bloqué Hakim » du campement **[MÉMOIRE — campement-type-lancement-boutique.md]**, et les décisions réservées récurrentes (commande test, publication de preuve sociale, republication thème, cinq gestes Search & Discovery, arbitrages de gamme) **[FAIT — registre-candidats.md ; boutique-seiko-mod/journal/2026-08-08-reprise-session.md ; boutique-seiko-mod/journal/2026-07-31-metachamps-montres.md]**.
 
 ```json
 {
@@ -458,6 +458,6 @@ Types observés dans les livrables : `porte_playbook` · `commande_test` · `go_
 |---|---|
 | `noirmont-coloris-variant-map.json` | **[MANQUANT]** — cité dans le brief, absent du repo ; équivalents réels listés au §7 |
 | Score numérique produit/fournisseur | N'existe pas dans le projet — verdicts qualitatifs et grille A/B/C uniquement ; toute pondération serait **(nouveau)** |
-| API DSers | Aucune API publique utilisée ; `dsers-product-bff` observée en lecture passive seulement **[FAIT — dsers-mapping-lot2.md]** |
+| API DSers | Aucune API publique utilisée ; `dsers-product-bff` observée en lecture passive seulement **[FAIT — boutique-seiko-mod/journal/2026-07-31-dsers-mapping-lot2.md]** |
 | Coûts fournisseur par variante | Visibles dans DSers (fourchettes affichées) mais non exportés en JSON — champ `cout_fournisseur_eur` à alimenter par Browser Use **(nouveau)** |
 | Tokens de marque | `brand-tokens-noirmont.json` v2.0 **divergent de la charte vivante** — à régénérer avant tout usage (§11) |

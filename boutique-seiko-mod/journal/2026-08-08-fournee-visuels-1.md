@@ -2,12 +2,12 @@
 
 > **08/08/2026, 21 h 41 → 22 h 10.** Objectif : prouver la chaîne `Claude Code → ordre JSON → CLI Codex →
 > fichiers livrés` de bout en bout, avant d'ouvrir le chantier des 319 visuels
-> (`BRIEF-VISUELS-CODEX-2026-08-08.md`). **Rien n'a été branché sur Shopify** : la livraison s'arrête aux
+> (`2026-08-08-brief-visuels-codex.md`). **Rien n'a été branché sur Shopify** : la livraison s'arrête aux
 > fichiers, le rattachement reste une décision de Hakim.
 
 - Ordre : `ordres/pour-codex/resultats/20260808-2141-generate_images-integrale-vert-galerie.ordre.json`
 - Résultat Codex : `ordres/pour-codex/resultats/20260808-2141-generate_images-integrale-vert-galerie.json`
-- Livraison : `boutique-seiko-mod/visuels-fournee-1-2026-08-08/`
+- Livraison : `boutique-seiko-mod/livraisons/visuels-fournee-1-2026-08-08/`
 - Exécutant : CLI Codex `0.146.0`, génération native GPT Image 2, ~28 min pour l'ordre complet.
 
 ---
@@ -23,7 +23,7 @@ motif vérifié — pas par manque de temps :
 
 | Fiche | Motif d'exclusion |
 |---|---|
-| **Trente-Neuf Rose — Classique cannelée** | Aucune source propre sur le disque. La seule face locale (`entrees-faces-REDONDANT-export-claude/trente-neuf-rose-classique-cannelee-face.jpg`) **porte encore la mention « SWISS MADE » à 6 h** — la donner en source, c'est risquer de réimprimer le défaut qu'on a purgé le 26/07. Aucune photo fournisseur de cette famille n'est conservée localement. |
+| **Trente-Neuf Rose — Classique cannelée** | Aucune source propre sur le disque. La seule face locale (`boutique-seiko-mod/livraisons/entrees-faces-REDONDANT-export-claude/trente-neuf-rose-classique-cannelee-face.jpg`) **porte encore la mention « SWISS MADE » à 6 h** — la donner en source, c'est risquer de réimprimer le défaut qu'on a purgé le 26/07. Aucune photo fournisseur de cette famille n'est conservée localement. |
 | **Bracelet FKM — tropical** | 108 variantes / 36 coloris : le SKU fournisseur d'un visuel de **galerie** (non lié à un coloris) est indéterminable. Règle du protocole : rejeter plutôt que deviner. Relève par ailleurs des 202 visuels de bracelets en attente d'arbitrage. |
 | **Carte cadeau Maison Noirmont** | Les 4 variantes n'ont **aucun SKU fournisseur** (`null`) : le champ `sku`, obligatoire au contrat, ne peut pas être renseigné honnêtement. Arbitrage §6.4 du brief encore ouvert. |
 
@@ -33,7 +33,7 @@ sont une option **visuelle**, donc un visuel de galerie n'est rattachable à auc
 ### Appariement des SKU — vérification faite
 
 Les 931 SKU ayant été réécrits en `NOIR-<trigramme>-<n°>` le soir même, le fragment fournisseur a été relu
-dans `backup-sku-2026-08-08/`. Contrôle de fiabilité avant usage :
+dans `boutique-seiko-mod/backups/backup-sku-2026-08-08/`. Contrôle de fiabilité avant usage :
 
 - `table-correspondance.jsonl` = 935 lignes, 935 `variant_id` distincts ;
 - `correspondance-ancien-nouveau.jsonl` = 931 lignes, 931 `sku_nouveau` distincts (les 4 manquantes sont
@@ -48,8 +48,8 @@ fiche en priorité pour la fournée test.
 
 | Rôle | Fichier |
 |---|---|
-| Vérité produit (face validée, en ligne sur la fiche) | `visuels-2026-07-25/generated/integrale-vert.jpg` |
-| Photo **fournisseur** de la famille (contrôle boîtier / lunette / couronne / bracelet) | `visuels-2026-07-25/reference/10977444561234-integrale-sport-chic-acier.jpg` |
+| Vérité produit (face validée, en ligne sur la fiche) | `boutique-seiko-mod/livraisons/visuels-2026-07-25/generated/integrale-vert.jpg` |
+| Photo **fournisseur** de la famille (contrôle boîtier / lunette / couronne / bracelet) | `boutique-seiko-mod/livraisons/visuels-2026-07-25/reference/10977444561234-integrale-sport-chic-acier.jpg` |
 
 La photo fournisseur porte un cadran **bleu gaufré** qui n'est pas le produit vendu : l'ordre l'a
 explicitement cantonnée au contrôle de la boîte, avec interdiction d'en reprendre le cadran, le fond ou le

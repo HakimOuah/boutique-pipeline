@@ -59,5 +59,5 @@ Destination : `rejetes/` avec motif — jamais d'exécution « en corrigeant soi
 ## Exemple du sens inverse
 
 `pour-codex/inbox/exemples/20260731-1200-generate_images-explorateur-variantes.json` : les 6 visuels de
-variante de l'Explorateur 3-6-9 (couples `Black`/`Black1` indépartageables — `publication-grappes.md` §6.4).
+variante de l'Explorateur 3-6-9 (couples `Black`/`Black1` indépartageables — `boutique-seiko-mod/journal/2026-07-31-publication-grappes.md` §6.4).
 Verdict : `VALIDE (classe A)`.

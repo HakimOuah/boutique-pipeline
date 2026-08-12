@@ -87,7 +87,7 @@ Un **parcours piloté écran par écran** (clic réel sur chaque option, 34 chem
 même verdict : **34 chemins, 0 mort, 50 montres atteintes**, chaque écran final portant bien un
 titre « Voici votre … », un prix et un bouton.
 
-> **⚠️ Écart avec les 26 chemins de `axes-guide-de-choix.md`, et pourquoi.** L'étude comptait 26
+> **⚠️ Écart avec les 26 chemins de `2026-07-31-axes-guide-de-choix.md`, et pourquoi.** L'étude comptait 26
 > chemins avec une Q2 **conditionnelle** (posée aux 3 grandes familles seulement) sur **53 montres**.
 > Ici la Q2 est posée aux **5** familles — comme demandé — d'où 29 chemins de couleur, **plus 5
 > échappatoires = 34**. Le catalogue **réellement servi par la vitrine est de 50 montres, pas 53** :

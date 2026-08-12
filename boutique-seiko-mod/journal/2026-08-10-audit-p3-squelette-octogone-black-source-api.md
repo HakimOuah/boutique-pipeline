@@ -25,7 +25,7 @@ Aucun ordre n'est créé. Aucune nouvelle image n'est qualifiée ou conservée c
 - Image SKU exacte commune :
   `https://ae01.alicdn.com/kf/S6329b301e2be4c959a8abfd5cac697f75.jpg`.
 - Preuve locale préexistante :
-  `boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/squelette-octogone-01-14-200000080-black-skeleton.jpg`.
+  `boutique-seiko-mod/preuves/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/squelette-octogone-01-14-200000080-black-skeleton.jpg`.
 
 Les deux SKU exacts sont :
 

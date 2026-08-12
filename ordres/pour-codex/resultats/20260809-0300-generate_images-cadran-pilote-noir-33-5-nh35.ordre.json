@@ -61,9 +61,9 @@
       ]
     },
     "sortie": {
-      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh35",
+      "dossier": "boutique-seiko-mod/livraisons/visuels-codex-2026-08/cadran-pilote-noir-33-5-nh35",
       "manifeste": "manifeste.json"
     }
   },
-  "notes": "Le champ `sku` porte la référence de LISTING fournisseur (`AE-<item_id>` AliExpress), pas un SKU de variante : ces visuels sont des visuels de GALERIE, non rattachés à un coloris précis du sélecteur, et deviner un fragment de variante serait une donnée inventée (interdit par le protocole). L'item_id AliExpress est stable et n'est ni un ID de variante, ni de média, ni de produit Shopify. Le manifeste livré reprend cette référence en `sku_fournisseur`. Le rattachement Shopify n'appartient pas à cette fournée : un autre agent surveille `visuels-codex-2026-08/` et s'en charge."
+  "notes": "Le champ `sku` porte la référence de LISTING fournisseur (`AE-<item_id>` AliExpress), pas un SKU de variante : ces visuels sont des visuels de GALERIE, non rattachés à un coloris précis du sélecteur, et deviner un fragment de variante serait une donnée inventée (interdit par le protocole). L'item_id AliExpress est stable et n'est ni un ID de variante, ni de média, ni de produit Shopify. Le manifeste livré reprend cette référence en `sku_fournisseur`. Le rattachement Shopify n'appartient pas à cette fournée : un autre agent surveille `boutique-seiko-mod/livraisons/visuels-codex-2026-08/` et s'en charge."
 }

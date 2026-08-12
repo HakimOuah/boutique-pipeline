@@ -1,7 +1,7 @@
 # Rapport de livraison — galeries Maison Noirmont
 
 Date : 26 juillet 2026  
-Feuille de route : `audit-visuel-catalogue.md`, version 3.
+Feuille de route : `boutique-seiko-mod/journal/2026-07-31-audit-visuel-catalogue.md`, version 3.
 
 ## Produit
 
@@ -14,7 +14,7 @@ Feuille de route : `audit-visuel-catalogue.md`, version 3.
 
 ## Sources
 
-- 41 faces déjà validées dans `visuels-2026-07-25/generated/`.
+- 41 faces déjà validées dans `boutique-seiko-mod/livraisons/visuels-2026-07-25/generated/`.
 - 36 faces exportées depuis les URLs CDN publiques listées dans l'audit.
 - 13 faces d'accessoires déjà disponibles localement.
 

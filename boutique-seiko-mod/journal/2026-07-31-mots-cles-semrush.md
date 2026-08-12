@@ -385,7 +385,7 @@ montre sport femme, montre à gousset, **montre enfant 3 ans**, montre solaire h
 ses URL produit disent `quartz` en clair. C'est une boutique de **montres mode et cadeau,
 majoritairement quartz, fortement féminine et enfant**. Noirmont vend de l'automatique
 hommage à cadran stérile pour adulte. **Ce ne sont pas les mêmes clients.**
-Il reste un voisin utile à observer (même thème FullStack 2.2, cf. `mining-montre-avenue-2026-07-25.md`),
+Il reste un voisin utile à observer (même thème FullStack 2.2, cf. `2026-07-25-mining-montre-avenue.md`),
 mais **le traiter comme concurrent de référence sur les mots clés est une erreur de cadrage.**
 
 **Correction 2 — ils ne sont pas « installés ».**

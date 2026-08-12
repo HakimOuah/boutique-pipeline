@@ -2,7 +2,7 @@
 
 > **30/07/2026** — boutique `v42pzp-h4`. Mission : servir la grappe `seiko arabic dial` **au sens strict**
 > (chiffres arabes orientaux, la collection de montreapapy), laissée non servie par le sourcing du 29/07
-> (voir `sourcing-arabes-squelettes.md` § Écartés).
+> (voir `2026-07-31-sourcing-arabes-squelettes.md` § Écartés).
 >
 > ## ⛔ VERDICT : NON. Aucun candidat publiable selon nos règles en l'état.
 > Un seul modèle au monde coche la stérilité **et** les chiffres orientaux **et** un fournisseur éprouvé :
@@ -52,7 +52,7 @@ l'usine ne la produit qu'en très petite série.**
 ### 2.2 Preuve de stérilité — photos haute résolution, 1000 × 1000
 
 Les quatre visuels de variante `-sterile` ont été **téléchargés et relus en pleine résolution**, copiés dans
-`preuves-chiffres-orientaux-2026-07-30/` :
+`boutique-seiko-mod/preuves/preuves-chiffres-orientaux-2026-07-30/` :
 
 | Fichier | Variante | Ce que la photo prouve |
 |---|---|---|
@@ -66,7 +66,7 @@ aucun emblème. Pour comparaison, les variantes non stériles (`green`, `black`�
 mot « Tandorio » à 12 h** — vérifié photo par photo, elles sont donc à exclure de tout mapping.
 
 > **Précédent maison** : l'**Explorateur** (`1005010759311949`) a été retenu le 29/07 avec le texte
-> générique « Professional Automatic » sur le cadran (`sourcing-arabes-squelettes.md`, ligne 20).
+> générique « Professional Automatic » sur le cadran (`2026-07-31-sourcing-arabes-squelettes.md`, ligne 20).
 > « Automatic » seul est donc **moins bavard** que ce qui est déjà publié. C'est néanmoins un **mot imprimé**,
 > et le brief le proscrit : **arbitrage réservé à Hakim.**
 
@@ -159,9 +159,9 @@ IA est possible en i2i propre, sans logo à effacer sur les variantes `-sterile`
 ## 7. Contrôles de fin de mission
 
 - **Aucun import DSers** — la liste d'import n'a pas été ouverte, aucun produit ajouté. *(Le contrôle
-  « Unmapped (0) » demandé au § 5 de `sourcing-arabes-squelettes.md` reste dû à Hakim : il porte sur les
+  « Unmapped (0) » demandé au § 5 de `2026-07-31-sourcing-arabes-squelettes.md` reste dû à Hakim : il porte sur les
   5 fiches du 29/07, pas sur cette mission.)*
 - **Aucune fiche Shopify créée ni modifiée**, aucun thème, aucun slider, aucun avis touchés.
 - **Aucune commande, aucun achat, aucun message fournisseur.**
 - Session Chrome : compte AliExpress de Hakim actif, **aucun identifiant saisi**, aucun CAPTCHA rencontré.
-- Preuves conservées : `preuves-chiffres-orientaux-2026-07-30/` (4 JPEG 1000 × 1000).
+- Preuves conservées : `boutique-seiko-mod/preuves/preuves-chiffres-orientaux-2026-07-30/` (4 JPEG 1000 × 1000).

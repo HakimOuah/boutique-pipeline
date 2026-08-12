@@ -2,7 +2,7 @@
 
 > **25/07/2026** — analyse puis application sur le **thème brouillon 204248088914** (`Maison Noirmont`, FullStack **2.3.0**).
 > Boutique de référence : `montre-avenue.com` (FullStack **2.2.0**) — même thème, une version majeure derrière nous.
-> Complète `mining-montre-avenue-2026-07-25.md`, qui traitait le **fonctionnel** (pastilles, vente croisée, badges d'attributs). Ce document-ci traite le **visuel**.
+> Complète `2026-07-25-mining-montre-avenue.md`, qui traitait le **fonctionnel** (pastilles, vente croisée, badges d'attributs). Ce document-ci traite le **visuel**.
 > Aucun produit, aucune collection, aucun prix n'a été touché.
 
 ---
@@ -144,7 +144,7 @@ Contenu de la feuille, et ce que chaque bloc corrige :
 
 ## 5. Captures avant / après
 
-Dossier : `captures-design-2026-07-25/` — PNG 2×, viewport 1280 × 720 (desktop) et 390 × 844 (mobile).
+Dossier : `boutique-seiko-mod/preuves/captures-design-2026-07-25/` — PNG 2×, viewport 1280 × 720 (desktop) et 390 × 844 (mobile).
 
 | Fichier | Contenu |
 |---|---|

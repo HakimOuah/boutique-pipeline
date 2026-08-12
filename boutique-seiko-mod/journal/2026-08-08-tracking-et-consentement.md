@@ -1,6 +1,6 @@
 # Mesure d'achat et consentement cookies — Maison Noirmont
 
-> **08/08/2026.** Traitement des deux P0 restés ouverts après `AUDIT-GMC-FINAL-2026-08-08.md` :
+> **08/08/2026.** Traitement des deux P0 restés ouverts après `2026-08-08-audit-gmc-final.md` :
 > **N5 — aucune mesure d'achat** et **N4 — aucun consentement cookies**.
 >
 > Boutique : `v42pzp-h4.myshopify.com` / `maisonnoirmont.fr` — plan **Basic**, marché unique **France**,
@@ -183,7 +183,7 @@ tout moment via « Préférences en matière de cookies » en pied de page. L'in
 `_tracking_consent` et précise, section « Balises internet » comprise, qu'**aucun outil de mesure ou de
 publicité n'est actif à ce jour** — ce qui est vrai (§2.1) et devra être mis à jour au §4, étape 7.
 
-- Sauvegarde du texte d'origine : **`backup-consentement-2026-08-08/AVANT-politique-de-cookies.html`**
+- Sauvegarde du texte d'origine : **`boutique-seiko-mod/backups/backup-consentement-2026-08-08/AVANT-politique-de-cookies.html`**
   (retour arrière : `pageUpdate` avec ce corps exact).
 - Écriture vérifiée par relecture du corps distant : `updatedAt` passé de `2026-07-26T02:07:08Z` à
   `2026-08-08T21:39:50Z`, `userErrors: []`, contenu relu et conforme.

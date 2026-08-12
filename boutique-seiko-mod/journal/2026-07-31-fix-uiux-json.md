@@ -140,7 +140,7 @@ Deux constats vérifiés qui déterminent la correction :
 > sont, elles, du JSON — donc corrigeables. Elles l'ont été.
 
 **Aucun compte Noirmont réel n'existe.** Recherche menée sur tout le projet
-(`*.md`, `*.json`, `*.txt`), dont `charte-noirmont-2026-07-25.md` et
+(`*.md`, `*.json`, `*.txt`), dont `2026-07-25-charte-noirmont.md` et
 `brand-tokens-noirmont.json` : zéro handle Facebook, Instagram, TikTok, YouTube ou LinkedIn de
 la marque. Rien n'a été inventé. → **le bloc est masqué en entier**, conformément à la consigne.
 

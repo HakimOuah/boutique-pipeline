@@ -21,7 +21,7 @@ Aucun ordre de génération n'est créé. Aucune nouvelle image n'est conservée
 - Image de propriété exacte :
   `https://ae01.alicdn.com/kf/S71b42ec4014e4c43a9137d894e609871d.jpg`.
 - Preuve locale préexistante :
-  `boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/field-bronze-10-14-201447303-black-c-sterile.jpg`.
+  `boutique-seiko-mod/preuves/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/field-bronze-10-14-201447303-black-c-sterile.jpg`.
 
 Deux SKU officiels utilisent exactement cette même image de propriété :
 

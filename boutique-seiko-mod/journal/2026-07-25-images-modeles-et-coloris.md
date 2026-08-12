@@ -1,6 +1,6 @@
 # Modèles d'image & production des coloris — 25/07/2026
 
-> Complément au `runbook-pdp-variantes-images-2026-07-24.md`, devenu non inscriptible en fin de session (lecture OK, écriture refusée au niveau système alors que le dossier reste inscriptible — à débloquer côté macOS, aucune donnée perdue).
+> Complément au `2026-07-24-runbook-pdp-variantes-images.md`, devenu non inscriptible en fin de session (lecture OK, écriture refusée au niveau système alors que le dossier reste inscriptible — à débloquer côté macOS, aucune donnée perdue).
 
 ## 1. Leçon de fond : le mauvais modèle était la cause racine
 

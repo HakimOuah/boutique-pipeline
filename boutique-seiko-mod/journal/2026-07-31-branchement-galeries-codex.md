@@ -8,7 +8,7 @@ Boutique **Maison Noirmont** (`v42pzp-h4.myshopify.com`, maisonnoirmont.fr) — 
 **Première passe : 57 fiches branchées · 163 médias créés · 0 média supprimé · 4 fiches écartées · 29 fiches encore en génération chez Codex.**
 
 Sauvegarde préalable : `backup-avant-branchement-galeries-codex.json` (état des médias de chaque fiche cible **avant** toute mutation).
-Sauvegarde des fichiers condamnés : `backup-details-texte-incruste-2026-07-26/`.
+Sauvegarde des fichiers condamnés : `boutique-seiko-mod/backups/backup-details-texte-incruste-2026-07-26/`.
 
 ---
 
@@ -115,7 +115,7 @@ L'audit condamne 6 images « détails et finitions » à texte incrusté sur les
 
 **Pourquoi je ne les ai pas supprimés.** Le partage a été vérifié : ces 6 médias n'apparaissent **que** sur leur propre mère dans tout le catalogue (85 fiches relevées en direct). `productDeleteMedia` ne les détacherait donc pas, il les **supprimerait définitivement**. Je ne fais pas de suppression définitive de données sans ton accord direct — la consigne d'un agent ne vaut pas ton accord. Tout est prêt pour que tu le fasses en une commande :
 
-- la copie de `trente-six` est déjà sur disque (`backup-details-texte-incruste-2026-07-26/`, 2048 × 2048, 458 Ko) ;
+- la copie de `trente-six` est déjà sur disque (`boutique-seiko-mod/backups/backup-details-texte-incruste-2026-07-26/`, 2048 × 2048, 458 Ko) ;
 - les 3 autres URL CDN sont dans `backup-avant-branchement-galeries-codex.json`, section `meresActivesPorteusesDuTexteIncruste` ;
 - les 4 remplaçantes sont en ligne et en bonne position, donc le retrait ne laissera aucun trou dans les galeries.
 
@@ -240,7 +240,7 @@ Identité de boutique revérifiée par `get-shop-info` avant la première écrit
 
 **28 fiches accessoires branchées sur 29 · 3 faces stériles mises en position 1 · 43 médias créés · 0 média supprimé · 0 crédit Higgsfield dépensé.**
 
-Sauvegarde des anciennes faces avant substitution : `backup-faces-swissmade-2026-07-26/` (5 fichiers 2048 × 2048, les 3 substituées + les 2 en attente). Les anciennes faces **restent aussi en ligne**, reléguées en dernière position de leur galerie — rien n'a été supprimé.
+Sauvegarde des anciennes faces avant substitution : `boutique-seiko-mod/backups/backup-faces-swissmade-2026-07-26/` (5 fichiers 2048 × 2048, les 3 substituées + les 2 en attente). Les anciennes faces **restent aussi en ligne**, reléguées en dernière position de leur galerie — rien n'a été supprimé.
 
 ---
 
@@ -440,7 +440,7 @@ Aucun SKU, prix, titre, option, variante, statut ni mapping DSers touché. Aucun
 **Décisions irréversibles, que je refuse de prendre à ta place**
 
 1. **Supprimer ou non les 4 images « détails et finitions » à texte incrusté** sur les mères actives (`trente-six-classique-jubile` 59680093962578, `quarante-et-un-sport-acier` 59680004407634, `trente-neuf-duo-classique-bicolore` 59680094159186, `noirmont-un-plongeuse-acier` 59680093405522). Ces médias ne sont partagés avec aucune autre fiche : `productDeleteMedia` les détruirait définitivement. Remplaçantes déjà en ligne et bien placées, sauvegardes en place. Une commande.
-2. **Supprimer ou non les 3 anciennes faces « SWISS MADE »** désormais en dernière position de `trente-neuf-bleu`, `trente-neuf-rouge`, `trente-neuf-vert`. Copies locales dans `backup-faces-swissmade-2026-07-26/`. Une commande.
+2. **Supprimer ou non les 3 anciennes faces « SWISS MADE »** désormais en dernière position de `trente-neuf-bleu`, `trente-neuf-rouge`, `trente-neuf-vert`. Copies locales dans `boutique-seiko-mod/backups/backup-faces-swissmade-2026-07-26/`. Une commande.
 
 **Un mot de toi et c'est fait dans la minute**
 

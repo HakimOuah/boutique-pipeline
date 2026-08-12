@@ -1,7 +1,7 @@
 # Maison Noirmont — retours et rétractation : application des deux décisions de Hakim (08/08/2026)
 
 Lève les bloquants **B3** (droit de rétractation illégalement restreint) et **B4** (politique de retour
-contradictoire) de `AUDIT-GMC-2026-08-08.md`.
+contradictoire) de `2026-08-08-audit-gmc.md`.
 
 ## Les deux décisions
 
@@ -97,7 +97,7 @@ Nouvelle réponse FAQ :
 Les **politiques de boutique** (celles réellement servies sous `/policies/…`, et affichées en caisse) portent encore
 la clause interdite. Elles doivent être collées à la main dans **Admin → Paramètres → Politiques**.
 
-Corps complets prêts à coller, dans `backup-retours-2026-08-08/a-appliquer-par-hakim/` :
+Corps complets prêts à coller, dans `boutique-seiko-mod/backups/backup-retours-2026-08-08/a-appliquer-par-hakim/` :
 
 | Fichier | Destination |
 |---|---|
@@ -136,7 +136,7 @@ politique CGV faisant foi doit de toute façon être éditée à la main. Le cor
 - **Non touché** : prix, produits, autres politiques (livraison, confidentialité, mentions légales, CGU),
   bandeau défilant « Retour sous 14 jours » (exact tel quel), thème MAIN.
 
-## Sauvegardes — `backup-retours-2026-08-08/`
+## Sauvegardes — `boutique-seiko-mod/backups/backup-retours-2026-08-08/`
 
 - `shopPolicies-AVANT.json` — les 7 politiques de boutique (état inchangé à ce jour)
 - `pages-AVANT.json` / `pages-APRES.json` — les 11 pages, avant et après

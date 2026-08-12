@@ -52,7 +52,7 @@ Un filigrane rose répétitif `V4` est aussi superposé à l’ensemble de la ph
 
 ## Traçabilité
 
-- Preuve API officielle : `boutique-seiko-mod/preuves-audit-p4-130-2026-08-10/1005008944176821.json`.
+- Preuve API officielle : `boutique-seiko-mod/preuves/preuves-audit-p4-130-2026-08-10/1005008944176821.json`.
 - Dossier des 22 sources contrôlées : `scratchpad/backup-medias-accessoires-lot4/bracelet-cuir-daim-degagement-rapide/`.
 - Appariement mécanique : 16/16 fragments, 16/16 basenames API et 16/16 fichiers locaux concordent.
 - Empreintes SHA-256 des 16 sources cibles :

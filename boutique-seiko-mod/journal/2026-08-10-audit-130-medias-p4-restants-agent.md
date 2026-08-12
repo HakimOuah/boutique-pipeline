@@ -24,13 +24,13 @@ Les **27 médias PRODUISIBLES** sont limités à :
 
 ## 1. Périmètre reconstitué
 
-La table P4 de `boutique-seiko-mod/BRIEF-VISUELS-CODEX-2026-08-08.md` contient 196 médias de variantes. Après retrait des 30 gaufrés et des 36 FKM tropical déjà tranchés, il reste exactement :
+La table P4 de `boutique-seiko-mod/journal/2026-08-08-brief-visuels-codex.md` contient 196 médias de variantes. Après retrait des 30 gaufrés et des 36 FKM tropical déjà tranchés, il reste exactement :
 
 ```text
 196 - 30 - 36 = 130
 ```
 
-La reconstruction part de `boutique-seiko-mod/backup-sku-2026-08-08/table-correspondance.jsonl`. Le média demandé correspond au premier fragment de `sku_actuel`, avant le premier point-virgule. Les treize variantes déjà couvertes par les visuels de référence ont été exclues seulement pour les familles où le brief demande moins de médias que de valeurs actuelles : Bois beige/noir, Cuir PU, quatre Rouleaux, quatre Remontoirs bois et deux Collection bois LED.
+La reconstruction part de `boutique-seiko-mod/backups/backup-sku-2026-08-08/table-correspondance.jsonl`. Le média demandé correspond au premier fragment de `sku_actuel`, avant le premier point-virgule. Les treize variantes déjà couvertes par les visuels de référence ont été exclues seulement pour les familles où le brief demande moins de médias que de valeurs actuelles : Bois beige/noir, Cuir PU, quatre Rouleaux, quatre Remontoirs bois et deux Collection bois LED.
 
 Contrôle mécanique final : **130 lignes**, sans doublon `handle + fragment`.
 
@@ -40,7 +40,7 @@ Contrôle mécanique final : **130 lignes**, sans doublon `handle + fragment`.
 
 Les appels ont utilisé la route AliExpress Open Platform / AE-Dropshipper par le VPS autorisé, en lecture seule. Les réponses brutes sont conservées sous :
 
-`boutique-seiko-mod/preuves-audit-p4-130-2026-08-10/`
+`boutique-seiko-mod/preuves/preuves-audit-p4-130-2026-08-10/`
 
 Articles exacts retrouvés et interrogés :
 
@@ -60,7 +60,7 @@ Articles exacts retrouvés et interrogés :
 | Rouleau de voyage | `1005008493748701` |
 | Bracelet Présidentiel, fournisseur correspondant aux quatre fragments actuels | `1005006496083816` |
 
-Pour le Présidentiel, `boutique-seiko-mod/backup-veracite-2026-07-26/mapping-dsers.txt` conserve deux fournisseurs historiques. Le fournisseur 2 ci-dessus est celui dont la réponse officielle retourne exactement les quatre fragments actuels `NO.1 President`, `NO.2 Jubilee`, `NO.3 Polished Center` et `NO.4 Brushed Center`.
+Pour le Présidentiel, `boutique-seiko-mod/backups/backup-veracite-2026-07-26/mapping-dsers.txt` conserve deux fournisseurs historiques. Le fournisseur 2 ci-dessus est celui dont la réponse officielle retourne exactement les quatre fragments actuels `NO.1 President`, `NO.2 Jubilee`, `NO.3 Polished Center` et `NO.4 Brushed Center`.
 
 ### Preuves visuelles locales
 
@@ -72,8 +72,8 @@ Les sources locales problématiques contrôlées sont :
 - `scratchpad/noirmont-galeries/entrees-faces/barrettes-de-rechange-270-face.jpg` : barrettes en vrac, sans preuve des quatre conditionnements ;
 - `scratchpad/noirmont-galeries/entrees-faces/pince-a-barrettes-face.jpg` : une seule pince argentée, sans preuve des trois finitions ;
 - `scratchpad/noirmont-galeries/entrees-faces/coffret-douze-aluminium-face.jpg` : une vue 12 places seulement, impropre à prouver 6/12/24 ;
-- `boutique-seiko-mod/entrees-faces-REDONDANT-export-claude/remontoir-solo-face.jpg` : inscription gravée en façade, couleur non probante pour Vert/Blanc ;
-- les quatre fichiers `boutique-seiko-mod/visuels-2026-07-25/generated/remontoir-bois-*.jpg` : boîtes passives à un coussin, pas des remontoirs motorisés à deux montres.
+- `boutique-seiko-mod/livraisons/entrees-faces-REDONDANT-export-claude/remontoir-solo-face.jpg` : inscription gravée en façade, couleur non probante pour Vert/Blanc ;
+- les quatre fichiers `boutique-seiko-mod/livraisons/visuels-2026-07-25/generated/remontoir-bois-*.jpg` : boîtes passives à un coussin, pas des remontoirs motorisés à deux montres.
 
 ### Grille de décision
 
@@ -289,7 +289,7 @@ Uniquement les 27 lignes `P1` à `P7`. Chaque ordre devra reprendre le fragment 
 - Les 71 lignes disposant d'un item exact mais dont le blocage touche le produit ou empêche la fidélité restent BLOQUÉES. Ne pas effacer, flouter ou retoucher un marquage physique, une marque ou un verbatim du produit. Une annotation photographique hors produit ne peut être écartée que par nouvelle composition fidèle, jamais par altération du produit.
 - Les 28 lignes `U1` restent BLOQUÉES tant que l'item exact n'est pas retrouvé et que sa matrice officielle ne prouve pas chaque valeur.
 - Le candidat API `1005006468722763` pour la pince ne retourne qu'une seule variante noire `14:193`; il ne prouve ni qu'il s'agit de l'article d'origine, ni les finitions Argenté et Noir & argenté. Il est donc rejeté comme preuve.
-- Pour le Remontoir Solo, le constat antérieur de `boutique-seiko-mod/AUDIT-9-GALERIES-RESTANTES-API-ALIEXPRESS-2026-08-10.md` reste applicable aux deux valeurs Vert/Blanc : source gravée et item exact absent.
+- Pour le Remontoir Solo, le constat antérieur de `boutique-seiko-mod/journal/2026-08-10-audit-9-galeries-restantes-api-aliexpress.md` reste applicable aux deux valeurs Vert/Blanc : source gravée et item exact absent.
 
 ### À abandonner dans cette file
 

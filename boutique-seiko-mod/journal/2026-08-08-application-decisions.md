@@ -1,6 +1,6 @@
 # NOIRMONT — application des 6 décisions de Hakim (08/08/2026)
 
-Décisions prises par Hakim en session, appliquées le soir même. Sauvegardes dans `backup-prix-barres-2026-08-08/` et `backup-avis-2026-08-08/`.
+Décisions prises par Hakim en session, appliquées le soir même. Sauvegardes dans `boutique-seiko-mod/backups/backup-prix-barres-2026-08-08/` et `boutique-seiko-mod/backups/backup-avis-2026-08-08/`.
 
 ## ⚠️ Deux corrections d'audit importantes
 
@@ -10,13 +10,13 @@ Décisions prises par Hakim en session, appliquées le soir même. Sauvegardes d
 ## Décision 1 — Retirer les avis ✅
 
 Badge de démonstration identifié : bloc `reviews_badge_efW9wU` (style Trustpilot, « Excellent · 4,5 · 1340 avis ») dans la section `image_banner_VXNP89` du template `templates/index.json` du thème Maison Noirmont. **Ce n'était pas une app d'avis** mais un bloc de thème.
-Action : ajout de `"disabled": true` sur le bloc (même convention que le groupe « Avis client » déjà désactivé) — réversible en retirant une ligne. Sauvegarde avant/après dans `backup-avis-2026-08-08/`.
+Action : ajout de `"disabled": true` sur le bloc (même convention que le groupe « Avis client » déjà désactivé) — réversible en retirant une ligne. Sauvegarde avant/après dans `boutique-seiko-mod/backups/backup-avis-2026-08-08/`.
 
 ## Décision 2 — Retirer les prix barrés ✅
 
 Constat : **104 produits / 931 variantes** portaient un `compareAtPrice` (100 % du catalogue) — conséquence de l'échelle de prix appliquée le 25/07, et tueur GMC n°1 (prix de référence non justifiable sur une boutique à 0 vente).
 Action : `compareAtPrice` mis à `null` sur les 931 variantes. Les prix de vente sont **inchangés**.
-Sauvegarde complète des valeurs d'origine : `backup-prix-barres-2026-08-08/export-variants.jsonl` (export bulk Shopify horodaté) — restauration possible à l'identique.
+Sauvegarde complète des valeurs d'origine : `boutique-seiko-mod/backups/backup-prix-barres-2026-08-08/export-variants.jsonl` (export bulk Shopify horodaté) — restauration possible à l'identique.
 Effet attendu : disparition des badges « En promotion » qui découlaient des prix barrés (le bilan du 25/07 les signalait sur presque toutes les cartes).
 
 ## Décision 3 — Commande test ✅ (reçue et conforme)

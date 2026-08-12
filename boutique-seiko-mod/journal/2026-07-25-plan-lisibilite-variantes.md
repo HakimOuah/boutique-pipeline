@@ -34,14 +34,14 @@ La francisation de juillet a traduit les **noms** d'options mais laissé les **v
 
 | Agent | Objet | Navigateur | Livrable |
 |---|---|---|---|
-| Minage montre-avenue | sélecteur de variantes, bloc de vente croisée, badges d'attributs, anatomie de fiche, navigation | navigateur intégré | `mining-montre-avenue-2026-07-25.md` |
-| Identification + renommage | relever les URL fournisseur manquantes dans DSers, identifier chaque code, renommer via `productOptionUpdate` | Chrome (session Hakim) | `renommage-variantes-2026-07-25.md` + liste des visuels à produire |
+| Minage montre-avenue | sélecteur de variantes, bloc de vente croisée, badges d'attributs, anatomie de fiche, navigation | navigateur intégré | `2026-07-25-mining-montre-avenue.md` |
+| Identification + renommage | relever les URL fournisseur manquantes dans DSers, identifier chaque code, renommer via `productOptionUpdate` | Chrome (session Hakim) | `2026-07-25-renommage-variantes.md` + liste des visuels à produire |
 
 **Sérialisation du navigateur** : les deux agents utilisent des navigateurs *différents* (intégré vs Chrome) — c'est ce qui autorise le parallélisme. Ne jamais faire naviguer deux agents dans le **même** navigateur.
 
 ## 3 bis. ✅ RÉSOLU — comment obtenir les pastilles et le changement d'image
 
-Résultat du minage (`mining-montre-avenue-2026-07-25.md`). ⚠️ Le domaine réel est **montre-avenue.com** — le `.fr` n'existe pas (NXDOMAIN). Site confirmé sous **FullStack 2.2**, donc portabilité acquise.
+Résultat du minage (`2026-07-25-mining-montre-avenue.md`). ⚠️ Le domaine réel est **montre-avenue.com** — le `.fr` n'existe pas (NXDOMAIN). Site confirmé sous **FullStack 2.2**, donc portabilité acquise.
 
 **Verdict : ni développement, ni réglage de thème — c'est de la donnée Shopify.** Le thème choisit seul son rendu :
 

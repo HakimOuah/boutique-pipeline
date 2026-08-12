@@ -35,8 +35,8 @@
       }
     ],
     "sources": [
-      "boutique-seiko-mod/visuels-2026-07-25/generated/integrale-vert.jpg",
-      "boutique-seiko-mod/visuels-2026-07-25/reference/10977444561234-integrale-sport-chic-acier.jpg"
+      "boutique-seiko-mod/livraisons/visuels-2026-07-25/generated/integrale-vert.jpg",
+      "boutique-seiko-mod/livraisons/visuels-2026-07-25/reference/10977444561234-integrale-sport-chic-acier.jpg"
     ],
     "da": {
       "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3"
@@ -44,9 +44,9 @@
     "contraintes": {
       "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
       "specifiques": [
-        "VÉRITÉ PRODUIT = la première source, `visuels-2026-07-25/generated/integrale-vert.jpg` (face validée, actuellement en ligne sur la fiche). Le produit s'y reprend TEL QUEL : cadran vert à fines rayures horizontales, index bâtons appliqués acier, aiguilles bâtons acier, trotteuse fine, guichet de date à 3 h, lunette octogonale à 8 vis apparentes, boîtier acier brossé/poli, bracelet acier intégré 3 maillons. Rien de tout cela ne se réinvente.",
+        "VÉRITÉ PRODUIT = la première source, `boutique-seiko-mod/livraisons/visuels-2026-07-25/generated/integrale-vert.jpg` (face validée, actuellement en ligne sur la fiche). Le produit s'y reprend TEL QUEL : cadran vert à fines rayures horizontales, index bâtons appliqués acier, aiguilles bâtons acier, trotteuse fine, guichet de date à 3 h, lunette octogonale à 8 vis apparentes, boîtier acier brossé/poli, bracelet acier intégré 3 maillons. Rien de tout cela ne se réinvente.",
         "SEULE LA SITUATION DE PRÉSENTATION CHANGE d'un visuel à l'autre : fond, décor, lumière, contexte de port, distance de caméra. Interdiction de modifier la couleur, la texture, la forme ou les proportions du produit.",
-        "La seconde source, `visuels-2026-07-25/reference/10977444561234-integrale-sport-chic-acier.jpg`, est la photo FOURNISSEUR de la famille : elle sert UNIQUEMENT au contrôle du boîtier, de la lunette, de la couronne et du bracelet. Son cadran est BLEU à motif gaufré tapisserie et NE correspond PAS au produit vendu — ne jamais en reprendre le cadran, ni le fond beige, ni le cadrage.",
+        "La seconde source, `boutique-seiko-mod/livraisons/visuels-2026-07-25/reference/10977444561234-integrale-sport-chic-acier.jpg`, est la photo FOURNISSEUR de la famille : elle sert UNIQUEMENT au contrôle du boîtier, de la lunette, de la couronne et du bracelet. Son cadran est BLEU à motif gaufré tapisserie et NE correspond PAS au produit vendu — ne jamais en reprendre le cadran, ni le fond beige, ni le cadrage.",
         "Aucune photo fournisseur ne doit être livrée telle quelle ni rester reconnaissable : chaque visuel est une composition maison (nouveau fond, nouvelle scène, nouvelle lumière).",
         "STÉRILITÉ ÉTENDUE : aucun logo, nom, mot, lettre, sigle ni chiffre romain — sur le cadran, mais aussi sur la lunette, la couronne, le fermoir et le fond de boîte. Ce cadran n'a AUCUN chiffre ni texte : la seule inscription tolérée est le quantième du guichet de date.",
         "Aucun avis, note, étoile, badge, témoignage, chiffre de satisfaction ni mention promotionnelle incrustée. Aucune légende technique incrustée non plus (non arbitré par Hakim).",
@@ -70,9 +70,9 @@
       ]
     },
     "sortie": {
-      "dossier": "boutique-seiko-mod/visuels-fournee-1-2026-08-08",
+      "dossier": "boutique-seiko-mod/livraisons/visuels-fournee-1-2026-08-08",
       "manifeste": "manifeste-realise.json"
     }
   },
-  "notes": "Première fournée réelle du pont d'ordres — périmètre volontairement restreint à UNE fiche pour éprouver la chaîne de bout en bout. `Intégrale Vert — Sport chic acier` est active et tombée à 1 seule image après le retrait des faux avis du 08/08 ; la cible maison est 5 (face · en situation · macro · au poignet · détails et finitions), la face existe déjà, il manque les 4 visuels demandés ici. La fiche n'a qu'UNE seule variante : l'appariement handle ↔ SKU fournisseur est donc sans ambiguïté. Le fragment SKU a été relu dans `boutique-seiko-mod/backup-sku-2026-08-08/table-correspondance.jsonl` (export antérieur à la réécriture des SKU en NOIR-<trigramme>-<n°>), recoupé sans divergence avec `correspondance-ancien-nouveau.jsonl`. Le champ `alt` de chaque entrée est le texte alternatif maison à reprendre au moment du rattachement — rattachement qui reste côté Claude Code, sur décision de Hakim. Trois autres fiches critiques ont été SORTIES du périmètre faute de source propre ou d'appariement fiable : Trente-Neuf Rose (seule face locale disponible porte encore la mention SWISS MADE), Bracelet FKM tropical (108 variantes, SKU de galerie ambigu), Carte cadeau (aucun SKU fournisseur, arbitrage en attente)."
+  "notes": "Première fournée réelle du pont d'ordres — périmètre volontairement restreint à UNE fiche pour éprouver la chaîne de bout en bout. `Intégrale Vert — Sport chic acier` est active et tombée à 1 seule image après le retrait des faux avis du 08/08 ; la cible maison est 5 (face · en situation · macro · au poignet · détails et finitions), la face existe déjà, il manque les 4 visuels demandés ici. La fiche n'a qu'UNE seule variante : l'appariement handle ↔ SKU fournisseur est donc sans ambiguïté. Le fragment SKU a été relu dans `boutique-seiko-mod/backups/backup-sku-2026-08-08/table-correspondance.jsonl` (export antérieur à la réécriture des SKU en NOIR-<trigramme>-<n°>), recoupé sans divergence avec `correspondance-ancien-nouveau.jsonl`. Le champ `alt` de chaque entrée est le texte alternatif maison à reprendre au moment du rattachement — rattachement qui reste côté Claude Code, sur décision de Hakim. Trois autres fiches critiques ont été SORTIES du périmètre faute de source propre ou d'appariement fiable : Trente-Neuf Rose (seule face locale disponible porte encore la mention SWISS MADE), Bracelet FKM tropical (108 variantes, SKU de galerie ambigu), Carte cadeau (aucun SKU fournisseur, arbitrage en attente)."
 }

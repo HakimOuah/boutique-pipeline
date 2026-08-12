@@ -2,7 +2,7 @@
 
 Date de contrôle : 10 août 2026 (requêtes API observées le 9 août 2026 entre 22:41 et 22:46 UTC)
 
-Périmètre : les 9 emplacements de galerie encore manquants, P0 = 8 et P2 = 1, recensés dans `RECONCILIATION-319-VISUELS-AGENT-2026-08-10.md`.
+Périmètre : les 9 emplacements de galerie encore manquants, P0 = 8 et P2 = 1, recensés dans `2026-08-10-reconciliation-319-visuels-agent.md`.
 Interdits respectés : aucun navigateur AliExpress, aucune génération d'image, aucune mutation Shopify ou DSers, aucune intervention dans la file d'ordres, aucun commit ni push.
 
 ## Verdict exécutable
@@ -36,20 +36,20 @@ Les quatre JPEG ont été ouverts au niveau de détail original. Ils mesurent to
 
 | Produit | Chemin de preuve | SHA-256 | Observation |
 |---|---|---|---|
-| Trente-Neuf Rose | `boutique-seiko-mod/entrees-faces-REDONDANT-export-claude/trente-neuf-rose-classique-cannelee-face.jpg` | `374e705ddab182e4349f103543af3d8d7692fd299777cf879432c0cfcf318484` | Montre rose, lunette cannelée, cyclope ; « SWISS MADE » lisible à 6 h. Rejet. |
-| Trente-Neuf Rose, sauvegarde | `boutique-seiko-mod/backup-faces-swissmade-2026-07-26/trente-neuf-rose-classique-cannelee-ANCIENNE-FACE-swiss-made.jpg` | `9a9b9aee520933467817b5d916a98e1ac3b8675c3e680c0d8c1ff71bfcbfd968` | Même composition et même verbatim « SWISS MADE ». Rejet. |
-| Bracelet FKM tropical | `boutique-seiko-mod/entrees-faces-REDONDANT-export-claude/bracelet-fkm-tropical-face.jpg` | `c5d4499684402016f1ddcd9e593038585d8ec3a8a6e31c40f8eececa9c4d8158` | Macro partielle noire ; zone/lettrage central masqué ou flouté ; produit complet non observable. Rejet. |
-| Remontoir Solo | `boutique-seiko-mod/entrees-faces-REDONDANT-export-claude/remontoir-solo-face.jpg` | `2d7d703e422b45c9874a0cbafebd42deb2951b951136c89470b08ab4d79a0ff7` | Remontoir arqué sombre avec inscription gravée sur la façade ; teinte non probante pour Vert/Blanc. Rejet. |
+| Trente-Neuf Rose | `boutique-seiko-mod/livraisons/entrees-faces-REDONDANT-export-claude/trente-neuf-rose-classique-cannelee-face.jpg` | `374e705ddab182e4349f103543af3d8d7692fd299777cf879432c0cfcf318484` | Montre rose, lunette cannelée, cyclope ; « SWISS MADE » lisible à 6 h. Rejet. |
+| Trente-Neuf Rose, sauvegarde | `boutique-seiko-mod/backups/backup-faces-swissmade-2026-07-26/trente-neuf-rose-classique-cannelee-ANCIENNE-FACE-swiss-made.jpg` | `9a9b9aee520933467817b5d916a98e1ac3b8675c3e680c0d8c1ff71bfcbfd968` | Même composition et même verbatim « SWISS MADE ». Rejet. |
+| Bracelet FKM tropical | `boutique-seiko-mod/livraisons/entrees-faces-REDONDANT-export-claude/bracelet-fkm-tropical-face.jpg` | `c5d4499684402016f1ddcd9e593038585d8ec3a8a6e31c40f8eececa9c4d8158` | Macro partielle noire ; zone/lettrage central masqué ou flouté ; produit complet non observable. Rejet. |
+| Remontoir Solo | `boutique-seiko-mod/livraisons/entrees-faces-REDONDANT-export-claude/remontoir-solo-face.jpg` | `2d7d703e422b45c9874a0cbafebd42deb2951b951136c89470b08ab4d79a0ff7` | Remontoir arqué sombre avec inscription gravée sur la façade ; teinte non probante pour Vert/Blanc. Rejet. |
 
 La recherche locale ciblée sur `carte cadeau` / `gift card` ne trouve aucun fichier image alternatif sous `boutique-seiko-mod/`.
 
 ## Vérité produit conservée localement
 
 - `boutique-seiko-mod/INVENTAIRE-VISUEL-2026-08-08.csv` confirme les quatre produits actifs et les comptes 1/5, 1/3, 1/3 et 2/3 ayant produit les neuf emplacements.
-- `boutique-seiko-mod/backup-avant-reduction-meres.json` conserve pour la Trente-Neuf Rose huit variantes `pink no logo`, avec 36/39 mm, fond plein/verre et mouvements Miyota 8215/NH35, mais aucun identifiant d'article AliExpress.
-- `boutique-seiko-mod/backup-variantes-avant-decoupage.json` conserve la matrice historique du bracelet FKM, dont des propriétés telles que `FKM-Orange Black`, tailles et boucles, mais aucun identifiant d'article permettant une requête exacte.
-- `boutique-seiko-mod/backup-sku-2026-08-08/table-correspondance.jsonl` confirme les deux variantes du Remontoir Solo, Vert (`14:193#Green`) et Blanc (`14:173#White`), ainsi que les quatre variantes de carte cadeau avec `sku_actuel: null`.
-- `boutique-seiko-mod/FOURNEE-VISUELS-1-2026-08-08.md` et `boutique-seiko-mod/RATTACHEMENT-VISUELS-2026-08-09.md` documentaient déjà les mêmes ruptures de preuve : « SWISS MADE », SKU de galerie FKM indéterminable, carte cadeau sans SKU, et gravure du Remontoir Solo.
+- `boutique-seiko-mod/backups/backup-avant-reduction-meres.json` conserve pour la Trente-Neuf Rose huit variantes `pink no logo`, avec 36/39 mm, fond plein/verre et mouvements Miyota 8215/NH35, mais aucun identifiant d'article AliExpress.
+- `boutique-seiko-mod/backups/backup-variantes-avant-decoupage.json` conserve la matrice historique du bracelet FKM, dont des propriétés telles que `FKM-Orange Black`, tailles et boucles, mais aucun identifiant d'article permettant une requête exacte.
+- `boutique-seiko-mod/backups/backup-sku-2026-08-08/table-correspondance.jsonl` confirme les deux variantes du Remontoir Solo, Vert (`14:193#Green`) et Blanc (`14:173#White`), ainsi que les quatre variantes de carte cadeau avec `sku_actuel: null`.
+- `boutique-seiko-mod/journal/2026-08-08-fournee-visuels-1.md` et `boutique-seiko-mod/journal/2026-08-09-rattachement-visuels.md` documentaient déjà les mêmes ruptures de preuve : « SWISS MADE », SKU de galerie FKM indéterminable, carte cadeau sans SKU, et gravure du Remontoir Solo.
 
 Ces propriétés sont des fragments de variante, pas des identifiants AliExpress `product_id`. Elles ne suffisent donc pas pour appeler honnêtement les routes API de détail ou de variante sur l'article d'origine.
 

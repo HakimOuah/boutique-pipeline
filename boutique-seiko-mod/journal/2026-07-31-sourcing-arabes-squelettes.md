@@ -96,7 +96,7 @@ bloc « MANDATORY ORIENTATION » renforcé. 4K natifs + refs dans `scratchpad/�
    (orientation, chiffre par chiffre en zoom, texte Explorateur lettre à lettre, même mécanisme face/situation/
    macro/poignet sur les 2 squelettes, anatomie poignets). Retenus : situations v2 ×5, macros v1 ×5,
    poignets acier v1 / octogone v1 / carré v1 / bronze **v3** / explorateur **v2**. 8 rejets documentés dans
-   `visuels-arabes-squelettes-2026-07-29/rejected/` (5 situations v1 orientation, poignet bronze v1 cadran
+   `boutique-seiko-mod/livraisons/visuels-arabes-squelettes-2026-07-29/rejected/` (5 situations v1 orientation, poignet bronze v1 cadran
    infidèle, v2 pivoté ~35°, poignet explo v1 penché ~30°). Livrés en 2048×2048 JPEG q90 + 4K webp dans `4k/`.
 2. **Branchés** par `stagedUploadsCreate` → PUT → `productCreateMedia` (resourceUrl non signé), alt
    « <Produit> — <sujet> — Maison Noirmont », ordre face → situation → macro → poignet. **4 médias READY
@@ -132,7 +132,7 @@ plafond de 110). Tout est resté **DRAFT, 0 canal** (fiches et collection `montr
    configurateur (3 lignes, voir `work-configurateur/q1-famille-squelette.md`).
 4. Passer les 5 fiches en ACTIVE + canaux, une fois 1–3 validés.
 5. Le cadran **arabe oriental** (sens strict de `seiko arabic dial`, chiffres ١٢٣) a été re-sourcé le
-   **30/07/2026** → `sourcing-chiffres-orientaux.md`. **Verdict : aucun candidat publiable selon nos règles.**
+   **30/07/2026** → `2026-07-31-sourcing-chiffres-orientaux.md`. **Verdict : aucun candidat publiable selon nos règles.**
    Le seul modèle stérile + oriental + fournisseur éprouvé (Tandorio `1005010249362754`, 4 coloris `-sterile`,
    102 € rendu) plafonne à **4,7 / 3 avis / 10 ventes** et garde le mot « Automatic » sur le cadran.
    Rien n'a été importé — arbitrage laissé à Hakim (3 options chiffrées dans le livrable).

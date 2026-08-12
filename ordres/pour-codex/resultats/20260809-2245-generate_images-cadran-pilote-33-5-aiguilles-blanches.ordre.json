@@ -66,9 +66,9 @@
       ]
     },
     "sortie": {
-      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-blanches",
+      "dossier": "boutique-seiko-mod/livraisons/visuels-codex-2026-08/cadran-pilote-33-5-aiguilles-blanches",
       "manifeste": "manifeste.json"
     }
   },
-  "notes": "Le champ `sku` porte la référence de LISTING fournisseur (`AE-<item_id>` AliExpress), pas un SKU de variante : ces visuels sont des visuels de GALERIE. Le manifeste livré la reprend en `sku_fournisseur`. Le rattachement Shopify n'appartient pas à cette fournée : un autre agent surveille `visuels-codex-2026-08/` et s'en charge. Vague 2 du 09/08 : elle contient DEUX régénérations de slots écartés par la QA d'orchestrateur de la vague 1. "
+  "notes": "Le champ `sku` porte la référence de LISTING fournisseur (`AE-<item_id>` AliExpress), pas un SKU de variante : ces visuels sont des visuels de GALERIE. Le manifeste livré la reprend en `sku_fournisseur`. Le rattachement Shopify n'appartient pas à cette fournée : un autre agent surveille `boutique-seiko-mod/livraisons/visuels-codex-2026-08/` et s'en charge. Vague 2 du 09/08 : elle contient DEUX régénérations de slots écartés par la QA d'orchestrateur de la vague 1. "
 }

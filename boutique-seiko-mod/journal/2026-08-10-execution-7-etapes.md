@@ -52,7 +52,7 @@ La fiche canonique conservée est `cadran-retro-blanc-rose-nh35` / AliExpress `1
 - Correction de périmètre : ce sont cinq dossiers source excédentaires, pas cinq fiches Shopify ; la recherche par handle exact renvoie zéro produit.
 - Quatre abandons visuels nets : verbatim associé à Rolex, variantes uniquement `S Dial`, ou chiffres occidentaux au lieu des glyphes arabes orientaux.
 - `1005006492769759` possède des variantes stériles visuellement propres, mais est abandonné comme nouveau candidat : 4 ventes, 1 avis et doublon du brouillon Shopify `gid://shopify/Product/11013081366866` / AliExpress `1005010249362754`.
-- Bilan : `0/5` récupérable pour un nouvel import. Le rapport détaillé et les limites de la surface API sont consignés dans `DECISION-5-FICHES-ARABES-AGENT-2026-08-10.md`.
+- Bilan : `0/5` récupérable pour un nouvel import. Le rapport détaillé et les limites de la surface API sont consignés dans `2026-08-10-decision-5-fiches-arabes-agent.md`.
 
 ### Re-sourcing API des cadrans arabes orientaux
 
@@ -69,9 +69,9 @@ La fiche canonique conservée est `cadran-retro-blanc-rose-nh35` / AliExpress `1
 - L'ancien lot `cadran-pilote-33-5-aiguilles-lumineuses` déclarait à tort son g3 terminé alors que la QA l'avait reclassé en rejet. Une reprise de ce seul slot a été validée classe A, exécutée, puis relue : `done`, 1/1, zéro rejet ; g1 et g2 n'ont pas été écrasés.
 - État final de la boîte, après toutes les vagues : aucun exécuteur vivant, verrou absent, `inbox` et `en-cours` contiennent **0 fichier JSON**.
 - Les 26 livrables finaux de neuf fiches cadran en brouillon ont été téléversés et ajoutés via Shopify. Aucune image fournisseur n'a été retirée, aucun statut/stock/prix/SKU/variante n'a changé. Le contrôle indépendant donne 160 médias après ajout contre 134 avant.
-- Le détail par fiche, les réserves QA et les 26 identifiants de rollback sont dans `RATTACHEMENT-VISUELS-BROUILLONS-2026-08-10.md`.
+- Le détail par fiche, les réserves QA et les 26 identifiants de rollback sont dans `2026-08-10-rattachement-visuels-brouillons.md`.
 
-Le rapprochement live par tags a aussi retrouvé treize autres brouillons stériles/pilote qui n'appartenaient pas à la file initiale. Leur audit API complet donne **5 PRODUISIBLE, 5 BLOQUÉ et 3 ARCHIVER**. Les cinq blocages restent hors génération : variantes mixtes avec texte physique, lettres `N/E/S/W` sur le cadran ou filigrane traversant le produit. Les trois archivages ont été appliqués comme décrit plus haut. Les cinq sources propres restantes sont des opportunités de lot futur, pas une extension implicite de la file déjà demandée. Le détail est dans `AUDIT-13-BROUILLONS-SANS-MANIFESTE-API-ALIEXPRESS-2026-08-10.md`.
+Le rapprochement live par tags a aussi retrouvé treize autres brouillons stériles/pilote qui n'appartenaient pas à la file initiale. Leur audit API complet donne **5 PRODUISIBLE, 5 BLOQUÉ et 3 ARCHIVER**. Les cinq blocages restent hors génération : variantes mixtes avec texte physique, lettres `N/E/S/W` sur le cadran ou filigrane traversant le produit. Les trois archivages ont été appliqués comme décrit plus haut. Les cinq sources propres restantes sont des opportunités de lot futur, pas une extension implicite de la file déjà demandée. Le détail est dans `2026-08-10-audit-13-brouillons-sans-manifeste-api-aliexpress.md`.
 
 ### Affectation des six nuanciers du bracelet caoutchouc gaufré
 
@@ -95,7 +95,7 @@ Résultat : mutation validée contre le schéma Shopify puis appliquée sans `us
 
 ### Clôture des cinq doutes techniques du §4.2
 
-Le détail des preuves AliExpress et des limites est conservé dans `DECISION-DOUTES-TECHNIQUES-AGENT-2026-08-10.md`. Les décisions ont ensuite été appliquées uniquement à des fiches `DRAFT`, puis relues par le MCP Shopify.
+Le détail des preuves AliExpress et des limites est conservé dans `2026-08-10-decision-doutes-techniques-agent.md`. Les décisions ont ensuite été appliquées uniquement à des fiches `DRAFT`, puis relues par le MCP Shopify.
 
 | Fiche | Action appliquée | Vérification après écriture |
 |---|---|---|
@@ -122,19 +122,19 @@ Le chiffre historique de 319 mélangeait 304 besoins de fiches actives et 15 bes
 | P4 — médias de variantes accessoires | 202 | 6 | 196 |
 | **Total actif** | **304** | **66** | **238** |
 
-Les six médias P4 existants du bracelet caoutchouc gaufré sont bien rattachés au produit et, depuis cette passe, affectés aux douze variantes exactes. Les 15 besoins hors dénominateur actif sont cinq médias de galerie Aviateur et dix médias de variantes Noirmont Deux/Voyageur sur des brouillons historiques. Le rapport détaillé est `RECONCILIATION-319-VISUELS-AGENT-2026-08-10.md`.
+Les six médias P4 existants du bracelet caoutchouc gaufré sont bien rattachés au produit et, depuis cette passe, affectés aux douze variantes exactes. Les 15 besoins hors dénominateur actif sont cinq médias de galerie Aviateur et dix médias de variantes Noirmont Deux/Voyageur sur des brouillons historiques. Le rapport détaillé est `2026-08-10-reconciliation-319-visuels-agent.md`.
 
-L'audit fournisseur des neuf emplacements de galerie encore ouverts a ensuite établi qu'aucun n'était productible honnêtement avec les preuves actuelles : sept restent bloqués faute d'article exact propre et traçable (Trente-Neuf Rose 4, bracelet FKM tropical 2, Remontoir Solo 1) ; les deux ajouts prévus pour la carte cadeau sont abandonnés, car une fiche numérique interne n'a pas à recevoir deux fausses vues fournisseur. Aucun de ces neuf emplacements n'est compté comme livré. Le détail est dans `AUDIT-9-GALERIES-RESTANTES-API-ALIEXPRESS-2026-08-10.md`.
+L'audit fournisseur des neuf emplacements de galerie encore ouverts a ensuite établi qu'aucun n'était productible honnêtement avec les preuves actuelles : sept restent bloqués faute d'article exact propre et traçable (Trente-Neuf Rose 4, bracelet FKM tropical 2, Remontoir Solo 1) ; les deux ajouts prévus pour la carte cadeau sont abandonnés, car une fiche numérique interne n'a pas à recevoir deux fausses vues fournisseur. Aucun de ces neuf emplacements n'est compté comme livré. Le détail est dans `2026-08-10-audit-9-galeries-restantes-api-aliexpress.md`.
 
 L'abandon motivé des deux fausses vues de carte cadeau et de quatre faux médias de remontoirs ramène la cible opérationnelle active de **304 à 298 fichiers**. Avant la nouvelle production, 66 sont livrés et 232 restent donc ouverts : 7 galeries bloquées, 33 P3 et 192 P4.
 
-Le premier audit des 33 P3 avait isolé **26 candidats productibles et 7 bloqués**. Ces 26 candidats couvraient 127 variantes enfant ; cinq ordres classe A totalisant 26 livrables avaient été déposés et pris dans la file. Les contrôles approfondis décrits ci-dessous ont ensuite reclassé `Black C sterile`, les deux squelettes noirs et enfin `Blue1`. Le mapping initial est dans `MAPPING-P3-33-VARIANTES-AGENT-2026-08-10.md`.
+Le premier audit des 33 P3 avait isolé **26 candidats productibles et 7 bloqués**. Ces 26 candidats couvraient 127 variantes enfant ; cinq ordres classe A totalisant 26 livrables avaient été déposés et pris dans la file. Les contrôles approfondis décrits ci-dessous ont ensuite reclassé `Black C sterile`, les deux squelettes noirs et enfin `Blue1`. Le mapping initial est dans `2026-08-10-mapping-p3-33-variantes-agent.md`.
 
-Sur P4, l'audit de 66 médias bracelets a qualifié **30/30** médias restants du bracelet caoutchouc gaufré à partir de l'article officiel AliExpress `1005008681374490`. Les **36/36** médias du bracelet FKM tropical restent bloqués faute d'item ID exact et de nuancier officiel traçable. Quatre ordres classe A totalisant 30 livrables gaufrés ont été déposés et pris dans la file. Le détail est dans `AUDIT-66-MEDIAS-BRACELETS-AGENT-2026-08-10.md`.
+Sur P4, l'audit de 66 médias bracelets a qualifié **30/30** médias restants du bracelet caoutchouc gaufré à partir de l'article officiel AliExpress `1005008681374490`. Les **36/36** médias du bracelet FKM tropical restent bloqués faute d'item ID exact et de nuancier officiel traçable. Quatre ordres classe A totalisant 30 livrables gaufrés ont été déposés et pris dans la file. Le détail est dans `2026-08-10-audit-66-medias-bracelets-agent.md`.
 
 Les compteurs 96, 101, 111, 118, 124, 129, 131, 134, 138, 141 et 149 présentés ci-dessous sont des **jalons chronologiques**, pas l'état courant. Seul le bilan final **151 / 298** fait foi.
 
-Les quatre lots gaufrés ont livré 30 fichiers. Les 29 premiers ont passé la QA de lot ; le blanc argenté, d'abord réservé pour son cadrage, a ensuite été régénéré depuis sa source exacte et validé contre les gabarits jaune et bleu clair. Les **30/30** médias sont désormais rattachés aux 60 variantes exactes : 3 argentés, 9 dorés, 9 à boucle noire et 9 or rose. Après relecture Shopify de chaque association, le compteur opérationnel atteint **96 / 298**. Les identifiants médias et le rollback sont consignés dans `RATTACHEMENT-VISUELS-ACTIFS-2026-08-10.md`.
+Les quatre lots gaufrés ont livré 30 fichiers. Les 29 premiers ont passé la QA de lot ; le blanc argenté, d'abord réservé pour son cadrage, a ensuite été régénéré depuis sa source exacte et validé contre les gabarits jaune et bleu clair. Les **30/30** médias sont désormais rattachés aux 60 variantes exactes : 3 argentés, 9 dorés, 9 à boucle noire et 9 or rose. Après relecture Shopify de chaque association, le compteur opérationnel atteint **96 / 298**. Les identifiants médias et le rollback sont consignés dans `2026-08-10-rattachement-visuels-actifs.md`.
 
 Le premier lot P3 Explorateur a livré six produits visuellement vrais. Cinq passent aussi le gabarit et sont rattachés à 40 variantes exactes, après remplacement réversible de leur association au média générique ; ce dernier reste dans la galerie produit. À ce stade historique, `Blue1` est retenu hors Shopify pour un écart d'échelle mesuré à +8,1 % et envoyé en reprise ciblée. Le compteur atteint alors **101 / 298** ; le verdict définitif de cette reprise est consigné plus bas.
 
@@ -146,7 +146,7 @@ Les deux squelettes noirs sont ensuite exclus. Pour le carré, l'unique source e
 
 La reprise `Blue1` est finalement **REJECTED** après huit régénérations intégrales. La référence Green1 mesure 454 px au masque 512 avec une tolérance maximale de 2 px ; la meilleure tentative Blue1 mesure 457 px, soit 3 px d'écart. Aucun redimensionnement correctif, inpainting ou remplacement du fichier existant n'a été appliqué, et aucun média Blue1 n'a été rattaché à Shopify. Le bilan P3 final est donc **22 / 33 rattachés et 11 bloqués**.
 
-Le premier audit des 130 autres P4 avait donné l'instantané suivant : **27 PRODUISIBLE, 99 BLOQUÉ et 4 ABANDON**. Les quatre abandons sont des médias `M120xx` dont les sources locales montrent des boîtes passives à un coussin, alors que les variantes vendent des remontoirs motorisés deux montres. Les 27 candidats initiaux couvraient six bracelets acier massif, cinq lots de dix coussins, trois Jubilé courbes, huit milanais, deux étuis vides, deux outils de mise à taille et un rouleau noir trois montres. Le détail est dans `AUDIT-130-MEDIAS-P4-RESTANTS-AGENT-2026-08-10.md`.
+Le premier audit des 130 autres P4 avait donné l'instantané suivant : **27 PRODUISIBLE, 99 BLOQUÉ et 4 ABANDON**. Les quatre abandons sont des médias `M120xx` dont les sources locales montrent des boîtes passives à un coussin, alors que les variantes vendent des remontoirs motorisés deux montres. Les 27 candidats initiaux couvraient six bracelets acier massif, cinq lots de dix coussins, trois Jubilé courbes, huit milanais, deux étuis vides, deux outils de mise à taille et un rouleau noir trois montres. Le détail est dans `2026-08-10-audit-130-medias-p4-restants-agent.md`.
 
 Le premier de ces sept ordres P4 livre les six finitions du bracelet acier massif. Les six passent la QA source → rendu et remplacent le vide média sur 60 variantes, dix largeurs par finition. La relecture Shopify confirme 60/60 associations exactes et la photo principale inchangée. Le compteur atteint **124 / 298**.
 
@@ -178,7 +178,7 @@ Contrôle live effectué le 10/08/2026. Les cinq conditions de la passation doiv
 | Trois politiques collées par Hakim et médiateur renseigné | **FAUX** | La politique `TERMS_OF_SALE` servie par Shopify contient encore `[À COMPLÉTER]` et l'ancien lien ODR européen. |
 | Grille de prix arbitrée et appliquée | **FAUX** | Les documents locaux présentent deux stratégies ; ils indiquent qu'aucun prix n'a été écrit. L'arbitrage appartient à Hakim. |
 | Mesure d'achat installée et testée | **FAUX** | L'écran Shopify « Événements clients » ne présente aucun pixel ; Google & YouTube n'apparaît pas dans les applications installées. Aucun test d'achat n'est donc prouvé. |
-| P0/P1 de `AUDIT-GMC-FINAL-2026-08-08.md` soldés | **FAUX** | P1 visuel est soldé, mais les P0/P1 globaux ne le sont pas : sept galeries restent bloquées, les politiques/prix/mesure restent ouverts et le contrôle final n'a pas produit de clôture. |
+| P0/P1 de `2026-08-08-audit-gmc-final.md` soldés | **FAUX** | P1 visuel est soldé, mais les P0/P1 globaux ne le sont pas : sept galeries restent bloquées, les politiques/prix/mesure restent ouverts et le contrôle final n'a pas produit de clôture. |
 
 Conséquence : aucune activation ni publication n'est effectuée dans cette exécution, le mot de passe reste en place et aucun compte CSS/Merchant Center n'est créé. Ces actions restent à Hakim après fermeture documentée des cinq portes.
 

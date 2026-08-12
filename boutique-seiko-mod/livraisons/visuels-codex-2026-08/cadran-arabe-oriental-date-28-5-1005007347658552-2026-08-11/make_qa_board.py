@@ -6,7 +6,7 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = Path(__file__).resolve().parent
 SOURCE_ROOT = Path(
     "/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/"
-    "boutique-seiko-mod/preuves-sourcing-api-2026-08-11-agent/"
+    "boutique-seiko-mod/preuves/preuves-sourcing-api-2026-08-11-agent/"
     "1005007347658552-sources"
 )
 

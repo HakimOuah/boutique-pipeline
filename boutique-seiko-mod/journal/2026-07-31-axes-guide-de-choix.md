@@ -4,7 +4,7 @@
 > Aucun produit, aucun métachamp, aucun média, aucun fichier de thème modifié. Aucune valeur inventée.
 > Périmètre : **53 fiches montres actives**. Les 38 accessoires (remontoirs, écrins, bracelets vendus seuls,
 > outils) et la carte cadeau sont hors sujet.
-> Source des métachamps : `metachamps-montres.md`. Source du modèle de conception : `sourcing-configurateur.md` §2 et §8.
+> Source des métachamps : `2026-07-31-metachamps-montres.md`. Source du modèle de conception : `2026-07-31-sourcing-configurateur.md` §2 et §8.
 
 ---
 
@@ -30,7 +30,7 @@ invisible. Le catalogue ne supporte pas quatre axes.
 | **Diamètre** | `custom.diametre` | **44/53 — 83 %** | 5 : 36, 39, 40, 41, 42 mm |
 | **Prix** | prix mini de la fiche | **53/53 — 100 %** | 3 tranches : < 300 €, 300-349 €, 350 € et + |
 
-> **Correction de comptage à noter.** `metachamps-montres.md` annonçait « diamètre 43/53 » et « 10 fiches sans
+> **Correction de comptage à noter.** `2026-07-31-metachamps-montres.md` annonçait « diamètre 43/53 » et « 10 fiches sans
 > diamètre ». Le relevé du jour donne **44/53 et 9 fiches sans diamètre** : `Noirmont Deux — Plongeuse céramique`
 > porte désormais `["40 mm"]`. Le brief de mission (« 9 sans diamètre ») est le chiffre juste.
 
@@ -124,7 +124,7 @@ et « bracelet acier » (Chronos, Noirmont Bronze) **ne donnent aucun nombre de 
 **Lecture des quatre matrices** : 60 à 72 % des cases sont vides. Le catalogue n'est pas un produit cartésien,
 c'est un assemblage de cinq gammes disjointes. Chaque famille impose déjà son diamètre, son calibre et sa
 matière de bracelet — **exactement le patron que Goteia applique avec ses 5 configurateurs séparés**
-(`sourcing-configurateur.md` §2). Le constat concurrent est vérifié sur nos données.
+(`2026-07-31-sourcing-configurateur.md` §2). Le constat concurrent est vérifié sur nos données.
 
 ---
 
@@ -318,7 +318,7 @@ Trois écritures de données, par ordre de rendement :
 | # | Action | Coût | Gain mesuré |
 |---|---|---|---|
 | **1** | **Créer le métachamp `custom.bracelet`** (liste de texte, comme les quatre autres) et le renseigner sur les 53 montres. **48 valeurs sont déjà établies par cette étude** — il reste à trancher les 5 Plongeuses. | 1 définition + 53 écritures, dont **5 seulement demandent une source** (photos fournisseur DSers ou fiche AliExpress d'origine pour `Noirmont Un`, `Noirmont Deux`, les 3 `Héritage`) | Le bracelet passe de 91 % à 100 % : `Famille → Bracelet → Couleur` cesse de cacher 11 montres. Débloque une **Q3 honnête sur 4 familles au lieu de 2**, et une **facette « Bracelet » en vitrine** — aujourd'hui impossible. |
-| **2** | **Renseigner `couleur_cadran` sur les 8 fiches vides.** Les 5 `Voyageur` et `Noirmont Un/Deux` n'annoncent leur cadran nulle part ; `Trente-Neuf Duo` dit « bicolore » du boîtier. **Il faut une source** : visuels produit ou fiche fournisseur. Ne pas déduire — la note de `metachamps-montres.md` sur le cadran brun du `Voyageur Bicolore` reste une supposition, pas une donnée. | 8 contrôles visuels | **C'est le gain le plus direct sur le design retenu** : les cachées passent de 1 à 0, et GMT + Plongeuses deviennent éligibles à la Q2 couleur — donc à un vrai entonnoir à 2 questions sur 5 familles au lieu de 3. |
+| **2** | **Renseigner `couleur_cadran` sur les 8 fiches vides.** Les 5 `Voyageur` et `Noirmont Un/Deux` n'annoncent leur cadran nulle part ; `Trente-Neuf Duo` dit « bicolore » du boîtier. **Il faut une source** : visuels produit ou fiche fournisseur. Ne pas déduire — la note de `2026-07-31-metachamps-montres.md` sur le cadran brun du `Voyageur Bicolore` reste une supposition, pas une donnée. | 8 contrôles visuels | **C'est le gain le plus direct sur le design retenu** : les cachées passent de 1 à 0, et GMT + Plongeuses deviennent éligibles à la Q2 couleur — donc à un vrai entonnoir à 2 questions sur 5 familles au lieu de 3. |
 | **3** | **Renseigner `diametre` sur les 9 fiches vides** — surtout les **7 Intégrale**, qui sont une gamme complète invisible dès qu'on touche à l'axe diamètre. Cote à demander au fournisseur via DSers. | 9 valeurs, 1 demande fournisseur | Ne débloque **pas** une question (le branchement resterait 1,4), mais rend la **facette de collection** honnête et supprime 9 des 16-19 montres cachées des entonnoirs profonds. |
 
 **Ce qui ne se débloquera pas par de la donnée** : aucun métachamp ne rendra le diamètre ou le prix
@@ -346,5 +346,5 @@ sert la vitrine et les pastilles ; ça ne crée pas de question.
 ---
 
 *Étude du 27/07/2026. Lecture seule. Aucune fiche, aucun métachamp, aucun média, aucun fichier de thème
-touché. Les 141 valeurs de métachamps relevées sont celles écrites le 26/07 par `metachamps-montres.md`,
+touché. Les 141 valeurs de métachamps relevées sont celles écrites le 26/07 par `2026-07-31-metachamps-montres.md`,
 à la correction près du diamètre de `Noirmont Deux` (44/53, et non 43).*

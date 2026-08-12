@@ -1,12 +1,12 @@
 # Fournée visuels — les 94 fiches importées dans la nuit du 08 au 09/08
 
 > **09/08/2026, à partir de 03 h 00.** Habillage maison des fiches poussées par DSers
-> (`PUSH-DSERS-2026-08-09.md`, `TEXTES-ET-COLLECTIONS-2026-08-09.md`). Les 94 fiches sont en brouillon
+> (`2026-08-09-push-dsers.md`, `2026-08-09-textes-et-collections.md`). Les 94 fiches sont en brouillon
 > **avec les photos AliExpress brutes** : elles ne peuvent pas être activées tant qu'elles ne portent pas
 > de visuels maison. Règle absolue de Hakim : on ne publie jamais une photo fournisseur brute.
 >
 > **Rien n'est rattaché sur Shopify par cette fournée.** Les livrables sont déposés dans
-> `visuels-codex-2026-08/<handle>/` avec leur `manifeste.json` ; un autre agent surveille ce répertoire
+> `boutique-seiko-mod/livraisons/visuels-codex-2026-08/<handle>/` avec leur `manifeste.json` ; un autre agent surveille ce répertoire
 > et fait le rattachement.
 
 Ordre de priorité appliqué : **cadran arabe** → **cadrans pilote 1-12** → **cadrans stériles couleur**.
@@ -49,7 +49,7 @@ répartissent en quatre cas très différents, qui n'appellent pas la même déc
 | **D — source propre** | **UTILISÉ** | — |
 
 Le cas B est le seul point de doctrine que je ne tranche pas seul. Il concerne des fiches dont le texte
-assume déjà la mention (`TEXTES-ET-COLLECTIONS-2026-08-09.md` : « les 3 fiches dont la face porte une
+assume déjà la mention (`2026-08-09-textes-et-collections.md` : « les 3 fiches dont la face porte une
 mention générique le disent dans "Avant de commander" »). Deux issues possibles, à choisir par Hakim :
 sourcer la **variante stérile** du même listing (elle existe chez plusieurs de ces fournisseurs), ou
 autoriser explicitement la mention générique dans le rendu.
@@ -98,7 +98,7 @@ rosé », « rétro 33,5 mm », « brun, blanc ou bleu »). **À vérifier au ma
 
 ## 4. Ce qui a été demandé à Codex — et les trois correctifs de la fournée n°1
 
-Les trois enseignements de `FOURNEE-VISUELS-1-2026-08-08.md` sont appliqués :
+Les trois enseignements de `2026-08-08-fournee-visuels-1.md` sont appliqués :
 
 1. **Chaque slot décrit son cadrage explicitement**, pas seulement son nom. Le slot `macro` interdit
    nommément la vue de la pièce entière (le défaut exact du `-05-details.jpg` de la fournée 1) et impose le
@@ -298,7 +298,7 @@ rendus avaient pourtant été écartés par Codex sur ce seul point.
 Le slot `situation` de cette fiche n'a pas eu le temps d'être produit. **La session s'arrête ici, et elle
 s'arrête en refusant de laisser sortir du non-contrôlé** : l'exécutant a été arrêté avant qu'il n'attaque
 les deux ordres suivants, plutôt que de laisser des visuels non passés en QA arriver dans
-`visuels-codex-2026-08/`, où un autre agent les rattacherait sans contrôle. Compte tenu du taux de défaut
+`boutique-seiko-mod/livraisons/visuels-codex-2026-08/`, où un autre agent les rattacherait sans contrôle. Compte tenu du taux de défaut
 observé aujourd'hui — **2 visuels écartés sur 12 en vague 1, plus un ordre entier fautif** — livrer sans QA
 serait pire que ne pas livrer.
 

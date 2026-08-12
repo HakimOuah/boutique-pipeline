@@ -1,7 +1,7 @@
 # Brief de production visuelle — Maison Noirmont
 
 > **08/08/2026.** Destinataire : **Codex**. Boutique `v42pzp-h4.myshopify.com` / `maisonnoirmont.fr`.
-> Fait suite au retrait des 46 visuels de faux avis (`RETRAIT-VISUELS-FAUX-AVIS-2026-08-08.md`) qui a laissé
+> Fait suite au retrait des 46 visuels de faux avis (`2026-08-08-retrait-visuels-faux-avis.md`) qui a laissé
 > plusieurs galeries trop maigres. Décision de Hakim : **tout régénérer d'un coup** plutôt qu'au cas par cas.
 >
 > **Audit d'origine : lecture seule.** Les 105 fiches ont été relues via l'API Admin, aucune écriture.
@@ -110,11 +110,11 @@ est le **point de départ** de la production, jamais le livrable. La passe du 25
 Ce qui est disponible, c'est le **matériau source**, à retélécharger depuis les fiches fournisseur. Les URL
 AliExpress par fiche sont déjà consignées dans le repo :
 
-- `sourcing-familles-v2-2026-07-25.md` — familles montres
-- `sourcing-accessoires-v2-2026-07-25.md` et `sourcing-accessoires-v3-2026-07-25.md` — accessoires et bracelets
-- `sourcing-arabes-squelettes.md` · `sourcing-chiffres-orientaux.md` · `sourcing-configurateur.md`
-- `dsers-mapping-decoupage-2026-07-25.md` · `dsers-mapping-lot2.md` — correspondance fiche ↔ variante ↔ SKU
-- `preuves-fournisseur-2026-07-27/` — captures de fiches fournisseur
+- `2026-07-25-sourcing-familles-v2.md` — familles montres
+- `2026-07-25-sourcing-accessoires-v2.md` et `2026-07-25-sourcing-accessoires-v3.md` — accessoires et bracelets
+- `2026-07-31-sourcing-arabes-squelettes.md` · `2026-07-31-sourcing-chiffres-orientaux.md` · `2026-07-31-sourcing-configurateur.md`
+- `2026-07-25-dsers-mapping-decoupage.md` · `2026-07-31-dsers-mapping-lot2.md` — correspondance fiche ↔ variante ↔ SKU
+- `boutique-seiko-mod/preuves/preuves-fournisseur-2026-07-27/` — captures de fiches fournisseur
 
 C'est là que se trouvent les **nuanciers de coloris** dont on a besoin pour les 202 visuels de variantes
 accessoires/bracelets (36 coloris de FKM tropical, 36 de caoutchouc gaufré, 16 de cuir daim, etc.).
@@ -355,8 +355,8 @@ les fiches « mères » d'avant découpage, elles n'ont pas besoin de production
 - **`INVENTAIRE-VISUEL-2026-08-08.csv`** — les 105 fiches, ligne à ligne : id, titre, statut, famille, type,
   nombre d'images, nombre de variantes, variantes avec image, visuels de variantes distincts, option visuelle
   et nombre de valeurs, classement, verdict vs cible.
-- `RETRAIT-VISUELS-FAUX-AVIS-2026-08-08.md` + `backup-visuels-faux-avis-2026-08-08/` — ce qui a été retiré et
+- `2026-08-08-retrait-visuels-faux-avis.md` + `boutique-seiko-mod/backups/backup-visuels-faux-avis-2026-08-08/` — ce qui a été retiré et
   pourquoi, avec copie locale des 18 fichiers interdits (à consulter pour savoir quoi **ne pas** refaire).
-- `AUDIT-GMC-FINAL-2026-08-08.md` — points C1/C2/C3 (images) et D1/D2/D4 (avis restant dans le thème).
-- `BILAN-2026-07-25.md` — origine du chiffre de 88 visuels de variantes et leçons de la passe précédente.
+- `2026-08-08-audit-gmc-final.md` — points C1/C2/C3 (images) et D1/D2/D4 (avis restant dans le thème).
+- `2026-07-25-bilan.md` — origine du chiffre de 88 visuels de variantes et leçons de la passe précédente.
 - Docs de sourcing fournisseur : voir §2.2.

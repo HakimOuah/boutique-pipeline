@@ -1,6 +1,6 @@
 # Plan de découpage des coloris — une fiche par modèle (25/07/2026)
 
-Décisions Hakim du 25/07 : **ampleur maximale** (tous les coloris exploitables), **naming communautaire**, **remapping DSers fait par l'agent** depuis le navigateur. Contexte et chiffres : `catalogue-v2-analyse-concurrents-2026-07-25.md`.
+Décisions Hakim du 25/07 : **ampleur maximale** (tous les coloris exploitables), **naming communautaire**, **remapping DSers fait par l'agent** depuis le navigateur. Contexte et chiffres : `2026-07-25-catalogue-v2-analyse-concurrents.md`.
 
 ## Principe
 
@@ -94,7 +94,7 @@ Mise en œuvre : `productVariantsBulkUpdate` accepte un `mediaId` par variante. 
 
 ## Séquence d'exécution
 
-1. **Identification des coloris** (agent, navigateur) — rouvrir les fiches AliExpress d'origine, photographier la correspondance `référence fournisseur → coloris réel`, proposer un surnom par coloris. URL candidates dans `arborescence-site-2026-07-24.md` ; à confirmer par le nombre de variantes. Livrable : `mapping-coloris.json`.
+1. **Identification des coloris** (agent, navigateur) — rouvrir les fiches AliExpress d'origine, photographier la correspondance `référence fournisseur → coloris réel`, proposer un surnom par coloris. URL candidates dans `2026-07-24-arborescence-site.md` ; à confirmer par le nombre de variantes. Livrable : `mapping-coloris.json`.
 2. **Validation du plan de nommage par Hakim** (une passe rapide sur la liste des 67 noms).
 3. **Création des fiches** (API Shopify) : `productCreate` + `productVariantsBulkCreate` avec SKU identiques, prix du palier, collections, description reprise de la fiche mère et adaptée au coloris.
 4. **Visuels** : 2 par fiche (face + porté), générés au coloris exact, avec la boucle anti-faux-logos habituelle. ~114 images — c'est le poste de coût principal.

@@ -3,7 +3,7 @@
 > **Étude de faisabilité, 30/07/2026. Rien n'a été modifié** : aucun produit, aucune collection,
 > aucun thème, aucun métachamp, aucune application installée, aucune commande, aucun identifiant
 > saisi. Tout ce qui est chiffré ci-dessous a été **relevé par l'API Admin** ce jour, ou provient
-> de `marche-complet-semrush.md` (mesures SEMrush payantes du 25-27/07).
+> de `2026-07-31-marche-complet-semrush.md` (mesures SEMrush payantes du 25-27/07).
 > Les volumes non mesurés sont **signalés comme tels et jamais estimés**.
 
 ---
@@ -159,7 +159,7 @@ Règles :
 - « homme » **seulement là où la fiche l'assume** — les 36 mm sont vendus comme unisexes, un
   « homme » systématique serait une *Misrepresentation* pour Merchant Center ;
 - **aucune marque tierce** (Seiko, Rolex, Daytona, Nautilus…) : interdit dans le texte d'annonce
-  **et** sur la page d'arrivée (rappel juridique, `marche-complet-semrush.md` §7). Les calibres
+  **et** sur la page d'arrivée (rappel juridique, `2026-07-31-marche-complet-semrush.md` §7). Les calibres
   `NH35` / `Miyota 8215` restent licites — ce sont des références de composant, déjà citées en fiche.
 - **pas de « Livraison offerte »**, pas de prix, pas de superlatif.
 
@@ -189,7 +189,7 @@ il n'apporte presque rien face au titre et au `seo.title`).
 | `chronos` (13) | Chronos | **Montres chronographe 39 mm** | **Chronos** | Montre chronographe 39 mm, méca-quartz — Maison Noirmont *(56 c.)* | `chronographe` **3 600** (KD 31, CPC 0,32 €) · `montre chronographe panda` **10**. ⚠️ intention ambiguë signalée §4.2 du livrable SEMrush : attire aussi l'acheteur de vraie montre à 2 000 €+ |
 | `sport-chic` (16) | Sport chic | **Montres automatiques à bracelet intégré** | **Sport chic** | Montre automatique à bracelet intégré, acier 41 mm — Noirmont *(61 c.)* | `montre bracelet intégré` **110** (KD 11, CPC 0,00 €). ⚠️ appartient à la grappe « style français » **classée à abandonner** (560/mois cumulés) : gain SEO quasi nul, le renommage se justifie par la clarté, pas par le volume |
 | `gmt` (7) | GMT | **Montres GMT automatiques, deux fuseaux** | **GMT** | Montre GMT automatique, deux fuseaux horaires — Maison Noirmont *(63 c.)* | `montre gmt automatique` **320** (KD 13, CPC 0,23 €). `seiko gmt` **1 900** est mesuré mais **inutilisable** : marque tierce interdite sur la page d'arrivée |
-| `plongeuses` (5) | Plongeuses | **Montres style plongeuse automatiques** | **Plongeuses** | Montre style plongeuse automatique 42 mm — Maison Noirmont *(58 c.)* | ⚠️ **« montre de plongée » n'a jamais été mesuré** dans `marche-complet-semrush.md` — je ne l'invente pas. Seul mesuré : `montre plongeuse vintage` **50** (KD 7, CPC 0,71 €). **Et le mot « plongée » est à proscrire** : 3 Héritage sont données à 5 bar, nage exclue (point 5 de `REPRISE-SESSION.md`). D'où « **style** plongeuse » — c'est une correction de véracité autant qu'un nommage |
+| `plongeuses` (5) | Plongeuses | **Montres style plongeuse automatiques** | **Plongeuses** | Montre style plongeuse automatique 42 mm — Maison Noirmont *(58 c.)* | ⚠️ **« montre de plongée » n'a jamais été mesuré** dans `2026-07-31-marche-complet-semrush.md` — je ne l'invente pas. Seul mesuré : `montre plongeuse vintage` **50** (KD 7, CPC 0,71 €). **Et le mot « plongée » est à proscrire** : 3 Héritage sont données à 5 bar, nage exclue (point 5 de `2026-08-08-reprise-session.md`). D'où « **style** plongeuse » — c'est une correction de véracité autant qu'un nommage |
 | `montre-squelette` (2) | Montres squelette | **inchangé — déjà conforme** | Montres squelette | *en place depuis le 29/07, rien à faire* | `montre squelette homme` **2 900** · `montre squelette` **2 400** · `montre squelette femme` **1 000** · `montre squelette automatique` **480** · `montre automatique squelette` **390** ≈ **8 400/mois**. ⚠️ **la meilleure grappe française du plan n'a que 2 fiches** : c'est un sujet de sourcing, pas de nommage |
 | `montre-cadran-a-chiffres` (5) | Cadrans à chiffres | **inchangé — déjà conforme** | Cadrans à chiffres | *en place depuis le 30/07* | ⚠️ La grappe qui pèse (`seiko arabic dial` 8 100 · `arabic dial seiko` 3 600 · `seiko arabic` 2 400 · `seiko arabe` 1 300 · `seiko chiffre arabe` 390 ≈ **15 500**) contient **« seiko » dans chacun de ses termes** → inutilisable sur la page d'arrivée. **Aucun équivalent français n'a été mesuré.** Ce volume se capte en contenu, pas en nommage de collection |
 | `montres` (63, parente) | Les Montres | **Montres automatiques homme sans logo** | **Montres** | Montres automatiques homme, cadran sans logo — Maison Noirmont *(62 c.)* | `montre automatique homme` **9 900** · `montre mécanique` **2 400** |

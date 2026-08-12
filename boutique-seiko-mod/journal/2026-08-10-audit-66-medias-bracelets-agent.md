@@ -16,10 +16,10 @@
 
 ### Sources locales
 
-- Réconciliation : `boutique-seiko-mod/RECONCILIATION-319-VISUELS-AGENT-2026-08-10.md`.
-- État gaufré : `boutique-seiko-mod/visuels-codex-2026-08/bracelet-caoutchouc-gaufre/compte-rendu.md`.
-- État FKM : `boutique-seiko-mod/visuels-codex-2026-08/bracelet-fkm-tropical/compte-rendu.md`.
-- Table SKU actuelle : `boutique-seiko-mod/backup-sku-2026-08-08/table-correspondance.jsonl`.
+- Réconciliation : `boutique-seiko-mod/journal/2026-08-10-reconciliation-319-visuels-agent.md`.
+- État gaufré : `boutique-seiko-mod/livraisons/visuels-codex-2026-08/bracelet-caoutchouc-gaufre/compte-rendu.md`.
+- État FKM : `boutique-seiko-mod/livraisons/visuels-codex-2026-08/bracelet-fkm-tropical/compte-rendu.md`.
+- Table SKU actuelle : `boutique-seiko-mod/backups/backup-sku-2026-08-08/table-correspondance.jsonl`.
 - Copies locales des images SKU gaufrées : `scratchpad/backup-medias-accessoires-lot4/bracelet-caoutchouc-gaufre/`.
 - Seule face FKM locale : `scratchpad/noirmont-galeries/entrees-faces/bracelet-fkm-tropical-face.jpg`.
 

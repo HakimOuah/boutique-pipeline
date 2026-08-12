@@ -3,7 +3,7 @@
     "date": "2026-08-08",
     "boutique": "Maison Noirmont — v42pzp-h4.myshopify.com / maisonnoirmont.fr",
     "operation": "Détachement des visuels de faux avis des fiches produit (les fichiers restent dans les Fichiers Shopify). Voir .meta.methode.",
-    "source_audit": "AUDIT-GMC-FINAL-2026-08-08.md (N1 / C1 / C2 / C3)",
+    "source_audit": "journal/2026-08-08-audit-gmc-final.md (N1 / C1 / C2 / C3)",
     "criteres": "media dont le nom de fichier se termine par -6.jpg (bandeau fabrique 4,8/5 - 1340 avis) ou -7.jpg (faux temoignage 5 etoiles, prenom + ville). Verifie visuellement sur 7 fichiers telecharges.",
     "produits_total_boutique": 105,
     "methode": "fileUpdate(files: [{id, referencesToRemove: [productId]}]) — Admin GraphQL. Retire uniquement l'association fichier↔produit. Le fichier reste dans les Fichiers Shopify (fileStatus READY, URL toujours servie), donc l'opération est réversible.",

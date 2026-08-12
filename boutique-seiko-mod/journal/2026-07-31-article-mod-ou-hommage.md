@@ -25,7 +25,7 @@
 
 ## 1. Pourquoi cet angle, et pas un autre
 
-Mesuré dans `marche-complet-semrush.md` : la grappe mod pèse **38 690 recherches/mois** en requête large
+Mesuré dans `2026-07-31-marche-complet-semrush.md` : la grappe mod pèse **38 690 recherches/mois** en requête large
 (≈ 51 000 étendue), KD **10**, CPC **0,22 €**, intention **100 % informationnelle**. Et `goteia.fr`, le
 concurrent direct, tire **66 % de tout son trafic organique d'un seul article de blog** positionné **premier**
 sur `seiko modifications` (6 600/mois, KD 14). Pas d'une fiche produit, pas d'un configurateur : d'un guide.
@@ -62,7 +62,7 @@ pourquoi. C'est la même discipline que le reste du site.
 
 ### Volontairement NON visés — les hybrides marque + mod
 
-`marche-complet-semrush.md` classe les hybrides au **rang 2 du marché** (≈ 12 000/mois, KD 5-10, CPC 0,08-0,29 €) :
+`2026-07-31-marche-complet-semrush.md` classe les hybrides au **rang 2 du marché** (≈ 12 000/mois, KD 5-10, CPC 0,08-0,29 €) :
 `seiko mod nautilus` (880), `seiko mod arabic dial` (720), `seiko mod royal oak` (480), `seiko mod santos` (480),
 `seiko mod datejust` (390), `seiko mod daytona` (390), `seiko datejust` (1 300), `daytona seiko` (590),
 `seiko submariner`, `seiko gmt`.
@@ -144,7 +144,7 @@ H2  Questions fréquentes
   arabes ? » annonce donc le modèle **au futur** (« Nous préparons… »), formulation qui reste vraie dans les deux
   cas, et pointe vers la collection `classiques` où il atterrira. **Quand les fiches passeront en `ACTIVE`,
   repointer ce lien** vers `/products/montre-aviateur-acier-cadran-chiffres-arabes`.
-- **`/pages/configurateur`** : non lié. `REPRISE-SESSION.md` acte que le vrai configurateur (assemblage à la
+- **`/pages/configurateur`** : non lié. `2026-08-08-reprise-session.md` acte que le vrai configurateur (assemblage à la
   commande) dépend de **BL Watches Parts Store**, qui n'a fourni ni prix, ni délai, ni catalogue, et que la page
   est en cours de refonte en « guide de choix ». Lier une promesse en instance depuis un article dont l'argument
   central est l'honnêteté aurait été contradictoire.
@@ -410,13 +410,13 @@ une vraie réponse.*
 
 | Affirmation | Source vérifiée |
 |---|---|
-| Livraison « généralement 2 à 3 semaines » | FAQ en ligne + `pages-legales-et-delais.md` (J+14/J+21, formulation reprise mot pour mot) |
-| Garantie commerciale 12 mois sur le mouvement, **en sus** des 2 ans légaux | FAQ en ligne + CGV art. 11 (`pages-legales-et-delais.md`) |
-| « Nos chronographes ne sont pas automatiques » (méca-quartz Seiko VK63, à pile) | FAQ en ligne + `REPRISE-SESSION.md` |
+| Livraison « généralement 2 à 3 semaines » | FAQ en ligne + `2026-07-31-pages-legales-et-delais.md` (J+14/J+21, formulation reprise mot pour mot) |
+| Garantie commerciale 12 mois sur le mouvement, **en sus** des 2 ans légaux | FAQ en ligne + CGV art. 11 (`2026-07-31-pages-legales-et-delais.md`) |
+| « Nos chronographes ne sont pas automatiques » (méca-quartz Seiko VK63, à pile) | FAQ en ligne + `2026-08-08-reprise-session.md` |
 | Les 7 calibres nommés | FAQ en ligne + page `La Maison` |
 | Prix « entre 279 et 417 € » | **relevé en direct le 27/07** sur les 50 fiches montres actives (min `heritage-*` 279 €, max `voyageur-*` 417 €) |
 | Cadrans sans logo | règle produit `-no logo` + FAQ en ligne |
-| Aviateur cadran arabe « en préparation » | 3 fiches réellement créées/réécrites, en `DRAFT` (`fiches-contradictoires-et-cadran-arabe.md`, `visuels-aviateur-consolidation.md`) |
+| Aviateur cadran arabe « en préparation » | 3 fiches réellement créées/réécrites, en `DRAFT` (`2026-07-31-fiches-contradictoires-et-cadran-arabe.md`, `2026-07-31-visuels-aviateur-consolidation.md`) |
 | Avertissement Seiko fin 2025 sur les contrefaçons et montres modifiées | `persona-noirmont-2026-07-25.md` (fil WatchUSeek d'oct. 2025) |
 
 **Aucune promesse d'étanchéité** n'est faite dans l'article : la phrase Plongeuses renvoie à la fiche
@@ -453,7 +453,7 @@ rareté, aucun compte à rebours, aucun chiffre de clientèle.
 9. **Arbitrage ouvert : les hybrides marque + mod** (≈ 12 000 recherches/mois) sont volontairement hors périmètre.
    Voir §2. C'est la seule décision d'ampleur que j'ai prise seul, et elle est réversible.
 10. **Un second article reste le prolongement naturel** : `montre squelette` (≈ 8 400/mois) est un mirage
-    catalogue (0 fiche sur 53, cf. `verification-catalogue-strategie.md`) — donc à écrire seulement après
+    catalogue (0 fiche sur 53, cf. `2026-07-31-verification-catalogue-strategie.md`) — donc à écrire seulement après
     sourcing. `arabic dial` (≈ 15 500/mois, personne au-dessus de la 4ᵉ position) est en revanche mûr dès que les
     fiches aviateur sont publiées.
 

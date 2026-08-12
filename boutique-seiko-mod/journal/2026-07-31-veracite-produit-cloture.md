@@ -1,11 +1,11 @@
 # Clôture des points de véracité produit — Maison Noirmont
 
 > **26/07/2026** — boutique `v42pzp-h4` / maisonnoirmont.fr.
-> Clôt les points 3, 4 et 5 de « ce que je n'ai pas tranché » de `audit-promesses.md`, et le trou de
-> couverture du diamètre de `metachamps-montres.md`.
+> Clôt les points 3, 4 et 5 de « ce que je n'ai pas tranché » de `2026-07-31-audit-promesses.md`, et le trou de
+> couverture du diamètre de `2026-07-31-metachamps-montres.md`.
 > Périmètre : **textes de fiches + métachamp `custom.diametre`**. Aucun SKU, prix, variante, option, statut
 > ni mapping DSers touché. Thème publié « Helio » **non ouvert**. Aucune commande, aucun achat.
-> Sauvegardes intégrales avant/après : `backup-veracite-2026-07-26/`.
+> Sauvegardes intégrales avant/après : `boutique-seiko-mod/backups/backup-veracite-2026-07-26/`.
 
 ---
 
@@ -14,7 +14,7 @@
 DSers **n'expose l'URL AliExpress nulle part dans son interface** : ni lien, ni info-bulle, ni page de mapping.
 L'identifiant du produit fournisseur ne vit que dans l'état React de l'application. Il a fallu le lire là, ce qui
 a permis de sortir **les 98 mappings d'un coup** plutôt que d'ouvrir 98 fiches. Le relevé est dans
-`backup-veracite-2026-07-26/mapping-dsers.txt`.
+`boutique-seiko-mod/backups/backup-veracite-2026-07-26/mapping-dsers.txt`.
 
 Sur chaque fiche AliExpress, la source retenue est **l'attribut vendeur structuré** (« Profondeur de Résistance
 à L'eau », titre H1 du vendeur). L'« Aperçu IA de l'article » d'AliExpress a été **écarté** : c'est du texte

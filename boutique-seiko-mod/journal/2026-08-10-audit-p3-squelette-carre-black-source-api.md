@@ -27,7 +27,7 @@ Aucun ordre n'est créé. Aucune nouvelle image n'est qualifiée ou conservée c
 - Image SKU exacte :
   `https://ae01.alicdn.com/kf/Sc63c29a32a0c4c329d308188738f58efP.jpg`.
 - Preuve locale préexistante :
-  `boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/squelette-carre-01-14-200000080-black.jpg`.
+  `boutique-seiko-mod/preuves/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/squelette-carre-01-14-200000080-black.jpg`.
 
 Ces valeurs proviennent de l'appel officiel `variants` observé à `2026-08-10T00:42:15Z`. Elles
 établissent l'identité du SKU, pas une décision commerciale.

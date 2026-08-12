@@ -10,15 +10,15 @@
         "sku": "14:100005979#Blue1",
         "slot": "variante",
         "fichier": "montre-acier-chiffres-3-6-9-explorateur-v-blue1.jpg",
-        "source": "boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/explorateur-02-14-100005979-blue1.jpg"
+        "source": "boutique-seiko-mod/preuves/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/explorateur-02-14-100005979-blue1.jpg"
       }
     ],
     "sources": [
-      "boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/explorateur-02-14-100005979-blue1.jpg",
-      "boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/montre-acier-chiffres-3-6-9-explorateur-v-green1.jpg",
-      "boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/montre-acier-chiffres-3-6-9-explorateur-v-blue1.jpg",
-      "boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/montre-acier-chiffres-3-6-9-explorateur-v-orange1.jpg",
-      "boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/qa/planche-p3-variantes.jpg"
+      "boutique-seiko-mod/preuves/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/explorateur-02-14-100005979-blue1.jpg",
+      "boutique-seiko-mod/livraisons/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/montre-acier-chiffres-3-6-9-explorateur-v-green1.jpg",
+      "boutique-seiko-mod/livraisons/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/montre-acier-chiffres-3-6-9-explorateur-v-blue1.jpg",
+      "boutique-seiko-mod/livraisons/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/montre-acier-chiffres-3-6-9-explorateur-v-orange1.jpg",
+      "boutique-seiko-mod/livraisons/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/qa/planche-p3-variantes.jpg"
     ],
     "da": {
       "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
@@ -31,11 +31,11 @@
     "contraintes": {
       "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
       "specifiques": [
-        "VÉRITÉ PRODUIT UNIQUE ET BLOQUANTE : le fragment exact est `14:100005979#Blue1` et l'unique source produit est `boutique-seiko-mod/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/explorateur-02-14-100005979-blue1.jpg`. Elle seule définit la teinte bleue, le cadran, les index, les aiguilles, le boîtier, la couronne et le bracelet.",
+        "VÉRITÉ PRODUIT UNIQUE ET BLOQUANTE : le fragment exact est `14:100005979#Blue1` et l'unique source produit est `boutique-seiko-mod/preuves/preuves-p3-variantes-api-2026-08-10-agent/sources-propres/explorateur-02-14-100005979-blue1.jpg`. Elle seule définit la teinte bleue, le cadran, les index, les aiguilles, le boîtier, la couronne et le bracelet.",
         "GREEN1 = GABARIT DE COMPOSITION SEULEMENT : utiliser `montre-acier-chiffres-3-6-9-explorateur-v-green1.jpg` uniquement pour mesurer et reproduire cadrage, échelle, position, centre, emprise et marges. Ne jamais transférer, copier, recolorer ou réutiliser ses pixels produit ni sa couleur verte.",
         "ORANGE1 = TÉMOIN QA SEULEMENT : `montre-acier-chiffres-3-6-9-explorateur-v-orange1.jpg` sert uniquement à la planche comparative finale. Ne jamais en reprendre les pixels, la couleur ou un détail produit.",
         "Le Blue1 actuel est RÉSERVE uniquement pour son échelle/cadrage trop grands. Ne pas le recadrer, redimensionner, retoucher, recolorer ni l'utiliser comme vérité produit. Régénérer intégralement depuis la source Blue1 exacte ; aucun inpainting ni gommage.",
-        "Avant tout remplacement, copier octet pour octet l'actuel `boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/montre-acier-chiffres-3-6-9-explorateur-v-blue1.jpg` vers `boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/rejected/montre-acier-chiffres-3-6-9-explorateur-v-blue1-reserve-echelle-cadrage-20260810-0205.jpg`, puis vérifier que la copie existe, est lisible et possède le même hash que l'ancien fichier. Si cette copie ou sa vérification échoue, arrêter sans écraser l'actuel.",
+        "Avant tout remplacement, copier octet pour octet l'actuel `boutique-seiko-mod/livraisons/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/montre-acier-chiffres-3-6-9-explorateur-v-blue1.jpg` vers `boutique-seiko-mod/livraisons/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur/rejected/montre-acier-chiffres-3-6-9-explorateur-v-blue1-reserve-echelle-cadrage-20260810-0205.jpg`, puis vérifier que la copie existe, est lisible et possède le même hash que l'ancien fichier. Si cette copie ou sa vérification échoue, arrêter sans écraser l'actuel.",
         "Seulement après la sauvegarde vérifiée, remplacer explicitement `montre-acier-chiffres-3-6-9-explorateur-v-blue1.jpg` par le nouveau Blue1 PASS. Ne produire, remplacer ni réencoder aucun autre média de variante.",
         "CADRAN 3-6-9 : conserver strictement les chiffres arabes 3, 6 et 9, chacun une fois, dans leur position, leur forme et leur orientation exactes. Conserver aussi tous les index, aiguilles, boîtier, couronne à droite et bracelet acier de la source Blue1.",
         "MANDATORY ORIENTATION — the watch lies flat, dial fully readable: 12 o'clock marker at the TOP, crown on the RIGHT. Every printed numeral must READ RIGHT-SIDE UP — NOT flipped, NOT rotated. If in doubt, follow the Green1 framing without copying its product pixels.",
@@ -58,7 +58,7 @@
       ]
     },
     "sortie": {
-      "dossier": "boutique-seiko-mod/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur",
+      "dossier": "boutique-seiko-mod/livraisons/visuels-codex-2026-08/montre-acier-chiffres-3-6-9-explorateur",
       "manifeste": "manifeste-p3-blue1-reprise.json"
     }
   },

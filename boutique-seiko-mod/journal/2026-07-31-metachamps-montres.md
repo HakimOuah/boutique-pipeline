@@ -2,7 +2,7 @@
 
 > **26/07/2026** — données de boutique (métachamps, étiquettes) + thème **brouillon `204248088914`**.
 > Thème publié « Helio » non touché. Aucun SKU, prix, titre, option ni mapping DSers modifié.
-> Suite de `pages-collection-refonte.md`.
+> Suite de `2026-07-31-pages-collection-refonte.md`.
 
 ---
 

@@ -1,6 +1,6 @@
 # Journal de nuit — suite et clôture (25/07/2026, ~4 h)
 
-Suite de `journal-nuit-2026-07-25.md`.
+Suite de `2026-07-25-journal-nuit.md`.
 
 ## ✅ QA du thème : CONCLUANTE — aucun correctif nécessaire
 
@@ -15,7 +15,7 @@ Les images de coloris sont donc pleinement opérationnelles côté client. C'ét
 
 ## ✅ Sourcing accessoires : 6 lignes sur 6 fermées
 
-Rapport : `sourcing-accessoires-v3-2026-07-25.md`. Délai France homogène 5-11 j, vérifié sur les dates affichées et non estimé.
+Rapport : `2026-07-25-sourcing-accessoires-v3.md`. Délai France homogène 5-11 j, vérifié sur les dates affichées et non estimé.
 
 | Ligne | Produit | Coût rendu | Prix / barré | Réserve |
 |---|---|---:|---|---|

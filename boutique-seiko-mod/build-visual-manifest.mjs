@@ -6,7 +6,7 @@ const root = path.dirname(fileURLToPath(import.meta.url));
 const snapshot = JSON.parse(
   fs.readFileSync(path.join(root, "shopify-target-products-2026-07-25.json"), "utf8"),
 );
-const imageDir = path.join(root, "visuels-2026-07-25", "generated");
+const imageDir = path.join(root, "livraisons/visuels-2026-07-25", "generated");
 
 const explicit = {
   "Contre-la-montre — Chronographe panda": {

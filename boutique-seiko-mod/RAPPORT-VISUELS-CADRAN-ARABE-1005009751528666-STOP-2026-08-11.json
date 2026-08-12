@@ -27,7 +27,7 @@
     "product_status": "onSelling",
     "sales": 201,
     "exact_dial_skus_confirmed": 11,
-    "local_evidence": "preuves-sourcing-api-2026-08-09/1005009751528666.json",
+    "local_evidence": "preuves/preuves-sourcing-api-2026-08-09/1005009751528666.json",
     "source_directory": "sources-fournisseur-2026-08/cadran-arabe-oriental-soleille-28-5",
     "source_watermark": "XinXin Store (supplier overlay only, not physical dial marking)",
     "physical_brand_or_verbatim": false
@@ -36,10 +36,10 @@
     "mode": "edit from exact local SKU source, one call and one source image per variant",
     "prompt_profile": "Create a square Maison Noirmont product visual of this exact 28.5 mm dial on a clean warm-white background. Preserve exactly the SKU's color, sunburst texture, metal numeral finish, twelve Eastern Arabic hour glyphs, Western five-minute labels 60/5/10/15/20/25/30/35/40/45/50/55, all minute ticks, central hole, date aperture and right-edge notch. Remove only the supplier overlay and scene. Do not add, translate or alter any numeral, word, logo, date, hand or component.",
     "attempt_limit": 1,
-    "raw_directory": "visuels-codex-2026-08/cadran-arabe-oriental-soleille-28-5/raw",
-    "final_directory": "visuels-codex-2026-08/cadran-arabe-oriental-soleille-28-5/final",
-    "rejected_directory": "visuels-codex-2026-08/cadran-arabe-oriental-soleille-28-5/rejected",
-    "qa_pair_directory": "visuels-codex-2026-08/cadran-arabe-oriental-soleille-28-5/qa-pairs"
+    "raw_directory": "livraisons/visuels-codex-2026-08/cadran-arabe-oriental-soleille-28-5/raw",
+    "final_directory": "livraisons/visuels-codex-2026-08/cadran-arabe-oriental-soleille-28-5/final",
+    "rejected_directory": "livraisons/visuels-codex-2026-08/cadran-arabe-oriental-soleille-28-5/rejected",
+    "qa_pair_directory": "livraisons/visuels-codex-2026-08/cadran-arabe-oriental-soleille-28-5/qa-pairs"
   },
   "shopify_preflight": {
     "read_only": true,
