@@ -5,7 +5,7 @@
 
 **Mets ce fichier à jour avant de rendre la main.** C'est la seule obligation qui ne se délègue pas.
 
-Dernière mise à jour : **13/08/2026** — régressions P0 réparées ; **audit des 95 brouillons soldé (T-16) : aucun visuel maison perdu, rien à réparer**.
+Dernière mise à jour : **13/08/2026** — régressions P0 réparées ; audit des 95 brouillons soldé (T-16) ; **recherche de mots-clés faite (T-21) : l'arborescence actuelle est à refaire, 4 collections sur 10 ne portent aucun volume**.
 
 ---
 
@@ -30,6 +30,7 @@ Dernière mise à jour : **13/08/2026** — régressions P0 réparées ; **audit
 ### T-H3 — Arbitrer la grille de prix
 **Pour** : Hakim · **Pourquoi** : plusieurs coûts réels sont **inférieurs** aux estimations (9,19 € contre 18,49 € sur un exemple) — le pricing prévu est à re-caler, probablement en ta faveur. Aucun prix n'a été écrit.
 **Comment** : lire la partie 3 de `journal/2026-08-09-textes-et-collections.md` — deux stratégies chiffrées (encaisser la marge / baisser le ticket d'entrée) avec recommandation.
+**Contrainte ajoutée le 13/08 par T-21** : les CPC réels par collection sont mesurés (aiguilles 0,10 € · cadran 0,17 € · outils 0,20 € · mouvement 0,21 € · verre 0,30 € · **boîtier 0,64 €**). Le ratio prix ÷ CPC ≥ 100 impose donc : **outils ≥ 19,90 €**, **verres saphir ≥ 29,90 €** et **tout boîtier ≥ 64 €**. En dessous, la règle Kraken est cassée.
 **Sortie attendue** : stratégie choisie, prix appliqués aux 95 brouillons.
 
 ### T-H4 — Basculer l'e-mail de la boutique
@@ -171,12 +172,38 @@ Deux règles ajoutées à [`REGLES.md`](REGLES.md), section « Pièges déjà pa
 
 ## 🟨 À FAIRE — P2, avant lancement
 
-### T-21 — Recherche de mots-clés sérieuse par collection et par produit
-**État** : À FAIRE · **Pour** : Claude · **Décidé par Hakim le 12/08**
-**Pourquoi** : les volumes utilisés jusqu'ici (15 500 pour « cadran arabe », 38 690 pour « seiko mod ») sont des **repères de sourcing**, pas une arborescence validée. Or l'arborescence décide des collections, des handles et des titres — la refaire après coup coûte des redirections et de l'autorité perdue.
-**Comment** : SEMrush France par lots de 100 mots-clés + KMT par URL ; volume, KD et CPC par intention ; distinguer tête et longue traîne. Cibles Kraken : collection cœur ≥ 1000, secondaire ≥ 500, KD 0-2. Confronter aux collections existantes et proposer les fusions, scissions et renommages.
-**Sortie attendue** : arborescence chiffrée définitive, liste des handles à changer **avec leurs redirections 301**, et priorisation des collections par potentiel réel.
-**Attention** : à faire **avant** l'activation — changer un handle après indexation coûte cher.
+### ~~T-21 — Recherche de mots-clés sérieuse par collection et par produit~~ ✅ FAIT le 13/08
+**Compte rendu** : [`journal/2026-08-13-recherche-mots-cles.md`](journal/2026-08-13-recherche-mots-cles.md)
+**Mesure** : 300 mots-clés SEMrush France en 3 lots de 100, 300 crédits sur 1 000, + 8 familles au Keyword Magic Tool. Liste dérivée du catalogue, fiche par fiche.
+**Ce qui est établi** :
+- **Les trois piliers de cadran n'existent pas comme requêtes françaises.** `cadran pilote` **n/a**, `cadran stérile` **n/a**, `cadran arabe` **20**, `cadran squelette` **20**. La décision du 12/08 (déclasser l'arabe au profit de pilote et stérile) **n'améliore rien** : on échange un zéro contre deux zéros.
+- **Ce qui existe, c'est l'organe en français simple** : `cadran de montre` 480 (famille 4 400) · `boitier montre` 1 600 (2 650) · `mouvement nh35` 590 (5 540) · `verre saphir montre` 480 (2 770) · `outil horloger` 390 (2 980) · `lunette montre` 390 (600) · `aiguilles montre` 140 (770).
+- **Le pilier qu'on n'avait pas vu est la montre finie** : `montre squelette homme` **2 900** contre `cadran squelette` 20 ; `montre aviateur` **1 600** contre `cadran pilote` 0 ; grappe chiffres arabes côté montre ≈ **9 500**.
+- **Défaut systémique** : **84 titres sur 94** et **88 meta titles sur 94** ne contiennent pas le mot « montre » — le mot pivot de toutes les requêtes mesurées à volume non nul.
+- **Zéro autorité à perdre** : boutique sous mot de passe, collections non publiées, fiches en brouillon → aucune URL indexée, les renommages sont gratuits aujourd'hui. C'est la fenêtre que ce ticket devait saisir.
+**Suites créées** : **T-24** (arborescence), **T-25** (titres), **T-26** (pilier montres finies), **T-27** (contenu). Contrainte nouvelle transmise à **T-H3** (ratio prix ÷ CPC).
+
+### T-24 — Appliquer la nouvelle arborescence
+**État** : À FAIRE · **Pour** : Claude ou Codex · **Né de** : T-21 (13/08) · **Avant l'activation**
+**Pourquoi** : 4 collections de premier niveau sur 10 ne portent aucun volume mesurable (arabe, pilote, stérile, squelette). Les têtes réelles sont les organes en français simple.
+**Comment** : 3 fusions (les 4 collections de cadran deviennent **une** collection `cadran-de-montre` à 44 produits + 4 sous-collections), 5 renommages de handle (`pieces-mod-nh35` → `pieces-detachees-montre`, `boitier-nh35` → `boitier-de-montre`, `aiguilles-nh35` → `aiguilles-de-montre`, `insert-lunette-38mm` → `lunette-de-montre`), **8 redirections 301** listées au §6 du compte rendu. `mouvement-nh35`, `verre-saphir-montre` et `outils-d-horloger` ne bougent pas.
+**Attention** : ⚠️ **ne pas renommer les 94 handles produit** — les manifestes, mappings DSers et scripts de visuels les référencent. Seules 3 fiches ont un handle qui contredit le produit (liste au §6).
+
+### T-25 — Réécrire les 94 titres et meta titles
+**État** : À FAIRE · **Pour** : Codex · **Né de** : T-21 (13/08)
+**Pourquoi** : 84 titres sur 94 ratent le mot « montre ». « Cadran pilote 33,5 mm » cible une expression mesurée à **zéro** et rate `cadran de montre` (480).
+**Comment** : règle `<Organe> de montre <cote> <caractéristique> — <coloris>, pour <calibre>`, plafond **65 caractères** sur le `seo.title` (il devient le titre du flux Shopping). Les 94 titres proposés sont écrits au §7 du compte rendu, fiche par fiche, avec leur mot-clé cible et son volume.
+**Attention** : ⚠️ `aiguilles-c3-super-lume-62` — `super luminova` pèse **320**, le plus fort de la famille aiguilles ; ne l'écrire dans le titre **que si le fournisseur documente vraiment de la Super-LumiNova**, sinon rester sur « luminescence C3 ».
+
+### T-26 — Instruire le pilier « montres finies »
+**État** : À FAIRE · **Pour** : Claude · **Né de** : T-21 (13/08) · **Décision de Hakim attendue**
+**Pourquoi** : le catalogue de 91 pièces n'est pas un pilier de trafic — c'est un catalogue de panier moyen. Le volume est côté montre finie : squelette **5 780** (2 fiches actives seulement), chiffres arabes **9 500**, aviateur/pilote **2 630** (aucune collection).
+**Comment** : étoffer `montre-squelette`, créer une collection aviateur, corriger `montre-cadran-a-chiffres` (elle porte encore « nous n'en proposons pas »). Reclasser les **3 montres finies rangées dans la collection de pièces `cadran-arabe`** (§8 du compte rendu).
+**À dire à Hakim** : la règle « aucune marque tierce » rend inaccessibles ≈ **17 500 recherches/mois** (`seiko mod` 8 100, `seiko arabic dial` 8 100, `seiko nh35` 590, `seiko chiffre arabe` 390). La règle reste juste — mais la voie légale existe : le **contenu éditorial** peut citer Seiko factuellement là où le titre de flux ne le peut pas.
+
+### T-27 — Plan de contenu sur les intentions informationnelles
+**État** : À FAIRE · **Pour** : Claude · **Né de** : T-21 (13/08)
+**Pourquoi** : sur cette niche, l'article de fond bat la page de collection — un seul guide fait **66 %** du trafic de `goteia.fr`. Les trois familles mesurées où l'intention est informationnelle et le volume réel : `changer le verre d'une montre` (famille 5 070, modificateur `changer` 180), `comment ouvrir un boîtier de montre` (famille 9 480, `ouvrir` 223), `dans quel sens tournent les aiguilles` (famille 24 440, `sens` 498).
 
 ### T-22 — Tester Nano Banana sur les visuels (test cadré)
 **État** : À FAIRE · **Pour** : Claude · **Idée de Hakim, 12/08**

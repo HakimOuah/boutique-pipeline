@@ -1,6 +1,6 @@
 # Maison Noirmont — état courant
 
-**Dernière vérification : 13/08/2026** (après l'audit des 95 brouillons — `journal/2026-08-13-audit-reparation-brouillons.md`).
+**Dernière vérification : 13/08/2026** (après l'audit des 95 brouillons — `journal/2026-08-13-audit-reparation-brouillons.md` — et la recherche de mots-clés — `journal/2026-08-13-recherche-mots-cles.md`).
 Ce fichier dit ce qui **est**, pas ce qu'il faut faire. Pour agir : [`TABLEAU.md`](TABLEAU.md).
 
 ## Chiffres
@@ -11,7 +11,7 @@ Ce fichier dit ce qui **est**, pas ce qu'il faut faire. Pour agir : [`TABLEAU.md
 | Évolution depuis le 09/08 | 199 → 201 : 10 archivages (3 doublons, le cadran Rolex, une montre arabe mixte, 3 brouillons stériles, 2 fiches incohérentes) et +2 cadrans arabes importés le 11/08 |
 | Thème | publié le 09/08 par Hakim — les correctifs du 08/08 sont en ligne |
 | Statut public | **boutique sous mot de passe** — rien n'est visible, aucun risque public actif |
-| Collections | 10 créées le 09/08, **aucune publiée** sur le canal Online Store |
+| Collections | 10 créées le 09/08, **aucune publiée** sur le canal Online Store — **arborescence invalidée le 13/08 par T-21**, 4 des 10 ne portent aucun volume mesurable |
 | Merchant Center | **non créé** — volontaire, tant que le CSS n'est pas arrêté |
 | Mesure d'achat | **absente** (ni GA4 ni gtag) — bloquant avant toute dépense publicitaire |
 | Visuels des 95 brouillons | 1 420 médias — **329 maison / 1 091 photos AliExpress brutes** · 43 fiches 100 % maison, 13 mixtes, 39 encore entièrement brutes |
@@ -30,7 +30,8 @@ Ce fichier dit ce qui **est**, pas ce qu'il faut faire. Pour agir : [`TABLEAU.md
 3. **Le guichet de date affiche « 42 »** sur toute la famille Quarante-et-Un — les composites `c-495698-*` de la fiche mère (25/07) et les visuels des fiches enfants (12/08). Défaut de fidélité, pas un interdit ; laissé en ligne pour ne pas recréer la régression. → **T-15**
 4. **207 doublons morts** dans la médiathèque, issus du lot des 11-12/08. → **T-18**
 5. **Deux fiches importées avec des handles AliExpress bruts**, non rattachées à la collection `cadran-arabe`. → **T-04**
-6. **La collection cadran arabe reste sous-peuplée** : le mot-clé porte 15 500 recherches/mois et le re-sourcing s'est arrêté à 3 cadrans sur les 4 à 8 visés. → **T-05**
+6. **L'arborescence des collections ne repose sur rien de mesuré** (établi le 13/08, T-21). `cadran pilote` et `cadran stérile` : **volume non restitué par SEMrush**. `cadran arabe` : **20/mois**. `cadran squelette` : **20/mois**. Les têtes réelles sont les organes en français simple — `cadran de montre` 480, `boitier montre` 1 600, `mouvement nh35` 590, `verre saphir montre` 480, `outil horloger` 390. Et **84 titres produit sur 94 ne contiennent pas le mot « montre »**. → **T-24**, **T-25**
+   *Corrige un chiffre faux qui circulait ici : le « 15 500 pour cadran arabe » n'a jamais été le volume de cette expression en France. La grappe arabe existe, mais côté **montre finie** (`seiko arabic dial` 8 100, `seiko chiffre arabe` 390, `montre arabe` 320), pas côté cadran-pièce.*
 7. `alt` génériques sur `cadran-sterile-lumineux-28-5`. → **T-08**
 8. Manques antérieurs au 12/08 : `remontoir-solo` 2/3, `bracelet-fkm-tropical` 1/3. → **T-09**
 
