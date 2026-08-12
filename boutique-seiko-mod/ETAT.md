@@ -56,9 +56,12 @@ AliExpress brutes, 0 visuel maison**. En échange, **146 visuels maison** ont é
 fiches couvrent toutes leurs apparences sans photo brute. **Rien n'a eu à être réparé.**
 
 Le dégât est de **méthode** : les **311 retraits sont passés par `fileDelete`** — les 311 GID
-interrogés répondent `null`, aucun n'est ré-attachable. Ces sources fournisseur ne manquent à aucune
-galerie, mais elles servaient de matière première de composition ; il n'en reste qu'**une photo de
-face par fiche** dans `sources-fournisseur-2026-08/` (33 fiches sur 35). → **T-23**.
+interrogés répondent `null`, aucun n'est ré-attachable. Ces sources fournisseur ne manquaient à aucune
+galerie, mais elles servaient de matière première de composition. **T-23 les a toutes re-téléchargées
+le 13/08 par l'API AliExpress** : **311 sur 311**, plus 11 images de variantes, sur les 35 fiches, et
+les 35 identifiants fournisseur sont désormais confirmés et consignés dans
+`journal/data/table-correspondance-handle-aliexpress.csv`. Détail :
+`journal/2026-08-13-recuperation-sources-api.md`.
 Les 9 brouillons antérieurs au 08/08 n'ont **rien perdu**. Détail :
 `journal/2026-08-13-audit-reparation-brouillons.md`.
 
