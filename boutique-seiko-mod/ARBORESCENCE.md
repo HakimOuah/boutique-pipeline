@@ -1,19 +1,19 @@
 # Maison Noirmont — arborescence proposée
 
-Mesures SEMrush France des 13 et **14/08/2026**. Sources : `journal/2026-08-13-recherche-mots-cles.md`, `journal/2026-08-13-dossier-positionnement.md`, `journal/2026-08-14-mots-cles-accessoires.md`, **`journal/2026-08-14-volumes-consolides.md`**, **`journal/2026-08-14-verification-serp.md`** et
-**`journal/2026-08-14-verification-serp-pieces.md`**.
+Mesures SEMrush France des 13 et **14/08/2026**. Sources : `journal/2026-08-13-recherche-mots-cles.md`, `journal/2026-08-13-dossier-positionnement.md`, `journal/2026-08-14-mots-cles-accessoires.md`, **`journal/2026-08-14-volumes-consolides.md`**, **`journal/2026-08-14-verification-serp.md`**,
+**`journal/2026-08-14-verification-serp-pieces.md`** et **`journal/2026-08-14-verification-serp-montres.md`**.
 **Statut : proposition, en attente de la décision de positionnement (T-26).**
 
 > 🔎 **Deux niveaux de preuve dans tout ce document, à ne jamais confondre.**
-> **`V` = vérifié en SERP Google France le 14/08** — **39 pages 1 ouvertes** en deux passes
-> (**T-43**, 20 têtes accessoires et montres · **T-46**, 19 têtes pièces détachées), intention testée
-> contre ce que Google sert réellement. **Sans marque = déclaratif** : le volume vient de SEMrush,
-> l'intention est supposée. **39 têtes testées, 7 retournements, 4 déplacements de rang majeurs** —
-> le taux d'erreur des chiffres déclaratifs est de **18 %**.
-> **Familles vérifiées** : rangement, bracelets, remontoirs, outillage, NATO, aviateur, plongeuse,
-> **mouvements, verres, boîtiers, cadrans, lunettes, aiguilles, hub pièces**.
-> **Familles encore déclaratives** : les montres finies hors aviateur et plongeuse — squelette,
-> chronographes, GMT, chiffres arabes, field, sport chic, soit **35 070 recherches**.
+> **`V` = vérifié en SERP Google France le 14/08** — **55 pages 1 ouvertes** en trois passes
+> (**T-43**, 20 têtes accessoires et montres · **T-46**, 19 têtes pièces détachées ·
+> **T-47**, 16 têtes montres finies), intention testée contre ce que Google sert réellement.
+> **Sans marque = déclaratif** : le volume vient de SEMrush, l'intention est supposée.
+> **55 têtes testées, 8 retournements, 5 déplacements de rang majeurs** — le taux d'erreur des
+> chiffres déclaratifs est de **15 %**.
+> ✅ **Le dossier n'a plus d'angle mort.** Toutes les familles sont vérifiées, à une exception :
+> **`montre field` (≈ 300)**, non testée, déjà démontée par T-44 comme une grappe **Anna Field**
+> (Zalando) et **Khaki Field** (Hamilton).
 
 > ⚠️ **Tous les volumes de ce document ont été refaits le 14/08 au soir.** On y lisait une **tête**
 > par famille ; on y lit maintenant le **total des formulations qu'une même page sert** (variantes
@@ -43,18 +43,18 @@ Volumes **consolidés** : somme des formulations qu'une seule page de collection
 
 | # | Collection | Mot-clé cœur | Brut | **Net** | KD | Produits | Rech./fiche | Verdict |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| 1 | **Montres squelette** | `montre squelette homme` 2 900 | 23 340 | **17 120** | 16 | **2** | **8 560** | 🔴 **Trou n°2 de la boutique.** Cible 8-10 fiches. Marque retirée : 6 220 (Fossil, Tissot, Festina). |
+| 1 | **Montres squelette** `V` | `montre squelette homme` 2 900 | 23 340 | ✅ **17 120** | 16 | **2** | **8 560** | 🔴 **Trou n°2 de la boutique, et la famille la plus saine du dossier.** ✅ **Vérifiée en SERP le 14/08 (T-47) sans un seul retrait** : `montre squelette`, `montre squelette homme` et `montre squelette automatique` servent **exactement le produit**, zéro parasite, zéro rabattement, **Amazon à 0 position organique sur les trois**. ✅ **`maisondutemps.com` est dans les trois premiers sur les trois têtes, et premier organique sur `montre squelette automatique`** — une boutique indépendante sans marque tient la page 1, la porte est ouverte et quelqu'un l'a déjà poussée. ⚠️ **3 organiques sur 10 sont éditoriaux** (INERCY « les 5 erreurs à éviter », LeCalibre « à moins de 1500 € », Trendhim « 4 questions à poser ») : il faut **la collection ET le guide**. ⛔ **Bande de prix bimodale** : socle dense **25-300 €** (maisondutemps à **285-295 €**), puis un **palier français unique à 445 €** tenu par **Charlie Paris seul, avec « Assemblée en France » dans le titre de ses dix fiches**. **Entre 300 et 440 €, la page 1 est vide — et nos 399-429 € sont dans ce vide.** Cible 8-10 fiches à **190-300 €**. Marque retirée : 6 220 (Fossil, Tissot, Festina). |
 | 2 | **Montres style plongeuse** `V` | `montre plongeuse` **1 000** | 16 920 | ⛔ **≈ 1 910** | 13 | **3** | 637 | ⛔ **Effondrement du 14/08 (T-43).** Google affiche en tête de SERP : « **Résultats, y compris pour montre plongée. Essayez avec l'orthographe montre plongeuse uniquement.** » **Il rabat `plongeuse` sur `de plongée` et sert la même page 1.** La racine n'est donc **pas** libre : impossible de se classer sur l'une sans l'autre, et l'allégation 200 m revient par la SERP. Page 1 = Tudor, Seiko officiel, Lepage, Rigal (400-3000 €) + 6 tops éditoriaux. **11 630 retirés. Passe du 5ᵉ au 16ᵉ rang. Ne plus étoffer les 3 fiches.** |
-| 3 | **Chronographes** | `montre chronographe` **2 400** | 16 100 | **11 150** | 14 | 12 | 929 | ✅ **Monte devant aviateur.** Famille prête, 12 fiches en rayon. |
+| 3 | **Chronographes** `V` | `montre chronographe` **2 400** | 16 100 | ⚠️ **≈ 8 360** | 14 | 12 | 697 | ⚠️ **−25 % en SERP (T-47) : c'est un deuxième `montre aviateur`.** L'intention est bonne — c'est bien notre produit — mais **la page 1 n'est pas un marché, c'est une vitrine**. Sur `montre chronographe homme`, **les neuf positions organiques sont tenues par des bijouteries multimarques, des marques en propre et des magazines : zéro indépendant** (Lassaussois avec Tudor 5 400 € et IWC, Bijouterie Rigal, Louis Pion, **seikoboutique officiel**, Le Petit Poussoir, **TAG Heuer 2 100-46 000 €**, The Watch Observer/Ouest-France, **Tissot**). Les six recherches associées sont **toutes** des marques ou le mot « luxe ». ⚠️ Sur `montre chronographe`, **4 « Autres questions » définitionnelles** + **Wikipédia**, **Chrono24 magazine**, **SYE journal** : 4 organiques sur 10 expliquent. ✅ **Le signal utile** : **GT Watches vend un chrono 40 mm, acier 316L, saphir, méca-quartz VK63, à 249 €** — notre produit, à notre portée, et c'est le prix. ⛔ **Collection oui, acquisition payante non** : à 399-429 € on serait au-dessus de Charlie Paris (395 €) et au niveau des Seiko et Tissot officiels (430-475 €). |
 | 4 | **Montres aviateur** `V` | `montre aviateur` 1 600 | 8 590 | **7 510** | — | **2** | 3 755 | ⛔ **Volume réel, porte fermée — vérifié en SERP.** La peur « aviateur = lunettes de soleil » ne se vérifie pas : c'est bien notre produit. Mais la page 1 est un **mur de marques et d'institutions** — Ministère des Armées (position 1), IWC, Lepage (Longines/Oris/Zenith/Breitling/Hamilton), Casio, Laco, Tudor, Patrouille de France — plus 2 tops éditoriaux. C'est un **mot de patrimoine, pas un mot de produit**. **Ne pas créer la collection.** ⚠️ `radio pilotée` (3 230) exclu : autre produit. |
-| 5 | **Montres GMT** | `montre gmt` 1 000 | 4 850 | **3 710** | 12 | 6 | 618 | ✅ Dotée. Une part de la grappe est pédagogique. |
-| 6 | **Montres à chiffres arabes** | `montre chiffre arabe` 880 | 3 300 | **2 590** | **6** | 5 | 518 | ✅ **Trou de nommage, pas d'offre.** Vaut 3× plus qu'annoncé. Le gain le moins cher du dossier. |
+| 5 | **Montres GMT** `V` | `montre gmt` 1 000 | 4 850 | ⚠️ **≈ 2 410** | 12 | 6 | 402 | ⚠️ **−35 % en SERP (T-47) : la famille la plus pédagogique du dossier, du 9ᵉ au 12ᵉ rang.** Sur `montre gmt`, les **4 « Autres questions » demandent ce qu'est un GMT** et **5-6 organiques sur 9 expliquent** (Bucherer « Qu'est-ce qu'une montre GMT ? », SYE, LeCalibre, MyWatch, danielgerard, Chrono24 magazine). Sur `montre gmt homme`, **mur de marques et d'occasion de luxe** : Frojo, seikoboutique officiel, Watchfinder, CHRONEXT, **Rolex officiel**. Recherches associées : « moins de 500 € », « pas cher », « Seiko », « Tudor ». ✅ **MAIS c'est la seule famille du dossier où notre prix est le prix du marché** : le Shopping est tenu par **sept marques françaises de mod entre 216 et 599 €** — Prime Wrist & Style 216 €, **cdmontres 319 €**, **Time2Seiko 360 €**, **Watchmodcustom 432,90 €**, **N.A Timekeeping 519 et 599 €**, **Chrono Mod 599 €**. **Nos 399-429 € y sont au centre.** ⚠️ Collection de **panier moyen, pas de trafic** — et **guide obligatoire**, la moitié de la page 1 explique. |
+| 6 | **Montres à chiffres arabes** `V` | `montre chiffre arabe` 880 | 3 300 | ⛔ **0 (2 590 retirés)** | **6** | 5 | **0** | ⛔ **Retournement de T-47, et il est total : le dossier lisait ce mot à l'envers.** Il était écrit ici que `montre chiffre arabe` **« désigne des chiffres occidentaux »**. **La page 1 dit exactement l'inverse** : les cinq premiers organiques sont titrés **« Arabic Dial »** ou **« chiffres Arabes, Urdu, Indiens »** — PSB Watches, **Tempus Shop**, **MaisonDuTemps**, **Alif Watch (Paris)**, Emir Watches. « Autres questions » : **« Comment dit-on 1, 2, 3… en arabe ? »**. Le Shopping se partage entre **la mode modeste à 12-75 €** (Qalam Dress « Tendance Hijab », Mimoza Hijab, AlWakt, Waqt1437, Shilaya, Emirnes) et **la Seiko Arabic Dial à 164-600 €** — **marque tierce, interdite au flux**, exactement le piège que la décision du 14/08 vient de fuir. ⛔ **La demande est réelle ; c'est notre offre qui n'existe pas** : trois passes API (676 identifiants, 3 produits qualifiés) ont établi que le cadran en écriture arabe est introuvable. **Volume retiré du servable. Ne pas créer la collection ; les 5 fiches rejoignent les surdotations.** Le verdict « trou de nommage, le gain le moins cher du dossier » de T-44 est **annulé**. |
 | 7 | **Montres field** | `montre field` 110 | 1 310 | **≈ 300** | 11 | 4 | 75 | ⛔ **Pas une collection.** La grappe est faite d'**Anna Field** (Zalando) et **Khaki Field** (Hamilton). |
-| 8 | **Sport chic / bracelet intégré** | `montre bracelet intégré` 110 | ≈ 300 | **≈ 200** | 11 | **14** | **14** | ⛔ **Surdotation n°1 du catalogue.** Le reste de la grappe est de la montre **connectée**. Plus aucun sourcing. |
-| — | **Classiques (chapeau)** | `montre automatique homme` 9 900 | *90 690* | *41 020* | **29** | 15 | — | ⚠️ **Ne s'additionne pas aux familles** : les formulations de famille en ont été retirées. Page d'accueil + Classiques. |
-| — | **Total familles, hors chapeau** | | **74 710** | **44 490** | | **48** | ⚠️ −11 630 après SERP (plongeuse). Sur ce total, **9 420 sont sur des portes vérifiées fermées** (aviateur 7 510, plongeuse 1 910). | |
+| 8 | **Sport chic / bracelet intégré** `V` | `montre bracelet intégré` 110 | ≈ 300 | ⛔ **≈ 100** | 11 | **14** | **7** | ⛔ **Surdotation n°1 du catalogue, aggravée par la SERP (T-47, −50 %).** **7 organiques sur 10 sont éditoriaux** : LeCalibre « les alternatives à **moins de 2000 €** », Le Petit Poussoir, **Verygoodlord « Qu'est-ce qu'une montre à bracelet intégré »**, Gnomon, We Love Watches « **à moins de 10 000 €** », forumamontres, YouTube. Marchands : Rotary, **Raymond Weil 1 995 €**, Brillaxis (Seiko 313 €, épuisé). ⛔ **Les recherches associées disent l'intention réelle : « Montre qui ressemble à Hublot », « Vacheron Constantin », « Montre ressemble Audemars Piguet ».** C'est une **requête d'hommage de luxe**, pas du sport chic à 200 €. **14 fiches pour 7 recherches chacune. Plus aucun sourcing, premières candidates au dépeuplement.** |
+| — | **Classiques (chapeau)** `V` | `montre automatique homme` 9 900 | *90 690* | *41 020* | **29** | 15 | — | ⚠️ **Ne s'additionne pas aux familles** : les formulations de famille en ont été retirées. Page d'accueil + Classiques. ✅ **Vérifié en SERP (T-47) — et `maisondutemps.com` est DEUXIÈME ORGANIQUE sur `montre automatique homme` (9 900, KD 29), devant Tissot, Seiko et TAG Heuer.** C'est la preuve la plus forte du dossier qu'un indépendant sans marque peut prendre le chapeau : objectif de fond, mais **atteignable**. ⚠️ `montre automatique` est **informationnel à ~35 %** (4 « Autres questions », Louis Pion « Qu'est-ce qu'une montre automatique ? », guide Ocarat, Montre.com ; recherches associées « fonctionnement », « **def** »). ⛔ **`montre mecanique homme` n'est PAS une porte distincte** : Google sert **la même page 1 que `montre automatique homme`**, titre par titre (Ocarat « Montres **Automatique** Homme », Montres and Co, Fossil, Tissot, Montre.com), et **5 des 6 recherches associées emploient « automatique »**. Rabattement **sémantique**, sans bannière. ⛔ **Et c'est ici que se lit notre erreur de prix : seize prix relevés sur une seule page 1 entre 190 et 340 €, puis RIEN entre 340 et 390 €**, puis Seiko Presage 419 € et Charlie Paris 445 €. ⚠️ **AliExpress achète le Shopping en tête de `montre automatique`** : « 50 brasses **NH35A** montre automatique » **119,39 €**, Pagani Design **73,35 €**. |
+| — | **Total familles, hors chapeau** | | **74 710** | **37 710** | | **48** | ⚠️ **−6 780 après la passe SERP montres (T-47)**, après les −11 630 de T-43. Sur ce total, **9 420 sont sur des portes vérifiées fermées** (aviateur 7 510, plongeuse 1 910), et **2 590 de plus ont été retirés** faute d'offre (chiffres arabes). | |
 
-⚠️ **Piège** : côté montres à chiffres arabes **orientaux**, le seul volume est `seiko arabic dial` **8 100** — marque tierce, **inutilisable**. Le mot exploitable est `montre chiffre arabe` 880 (famille 2 590), et il désigne des chiffres **occidentaux**. Les 3 980 recherches de la racine orientale (`montre arabic dial`, `montre ecriture arabe`) sont exclues du total : gisement fournisseur épuisé, documenté trois fois.
+⛔ **Piège des chiffres arabes — corrigé le 14/08 au soir par T-47, et il était inversé.** Il était écrit ici que `montre chiffre arabe` **« désigne des chiffres occidentaux »** et que seule la racine orientale (`seiko arabic dial` 8 100, marque tierce) était inexploitable. **La page 1 dit le contraire : les deux têtes servent exclusivement des cadrans en écriture arabe, ourdou ou persane.** Cinq organiques titrés « Arabic Dial » ou « chiffres Arabes, Urdu, Indiens » (PSB Watches, Tempus Shop, MaisonDuTemps, **Alif Watch Paris**, Emir Watches), « Autres questions » = « **Comment dit-on 1, 2, 3… en arabe ?** », Shopping partagé entre la **mode modeste à 12-75 €** et la **Seiko Arabic Dial à 164-600 €**. **Il n'y a donc pas 2 590 recherches occidentales à prendre : il y a 2 590 recherches orientales que le gisement fournisseur, épuisé et documenté trois fois, ne permet pas de servir. Volume retiré du total.**
 
 ⚠️ **Marché femme, hors total : ≈ 8 900 recherches nettes, 0 produit** (squelette 3 300, bracelets 3 360, coffrets 1 170, plongée 650, arabe 540, chronographes 260). Sorti de chaque famille : une collection femme est une décision d'offre, pas une variante d'écriture.
 
@@ -265,27 +265,37 @@ Détail : `journal/2026-08-14-verification-serp.md`.
 | Bloc | Ancien compte (têtes) | Net consolidé | **Net après SERP** | Têtes à intention **commerciale** | Offre prête | Panier |
 |---|---:|---:|---:|---:|---:|---|
 | **Accessoires** | ≈ 17 200 | ≥ 155 510 | **≥ 142 640** | **4** | **39 fiches publiées** | 12,90-324,90 € |
-| Montres finies | 9 200 | 56 120 | **44 490** | 1 | 57 fiches | 279-429 € |
+| Montres finies | 9 200 | 56 120 | ⚠️ **37 710** *(16 têtes testées, −15 %)* | 1 | 57 fiches | 279-429 € |
 | Pièces détachées | 4 070 | 29 490 | ⛔ **≈ 17 180** *(19 têtes testées, −42 %)* | 2 | 0 (86 brouillons) | 12,90-89,90 € |
-| **Total boutique** | ≈ 30 500 | ≥ 241 120 | **≥ 204 310** | **7** | **96 fiches actives** | |
+| **Total boutique** | ≈ 30 500 | ≥ 241 120 | **≥ 197 530** | **7** | **96 fiches actives** | |
 | *+ chapeau `montre automatique`, hors total* | *9 900* | *41 020* | *41 020* | 0 | 15 | |
 
 **Classement final des familles, net de marque et corrigé en SERP**
 `V` = tête vérifiée en SERP France le 14/08 · sans marque = **déclaratif, intention supposée**.
 
-| # | Famille | Bloc | **Net** | Fiches | Rech./fiche | # | Famille | Bloc | **Net** | Fiches | Rech./fiche |
-|---:|---|---|---:|---:|---:|---:|---|---|---:|---:|---:|
-| 1 | **Rangement** `V` | Acc. | **59 410** | **3** | **19 803** | 12 | **Outillage** `V` ⛔ | Acc. | **≈ 3 100** | 8 | 388 |
-| 2 | **Bracelets** `V` | Acc. | **≥ 40 450** | 10 | 4 045 | 13 | Chiffres arabes | Mtr. | 2 590 | 5 | 518 |
-| 3 | **Remontoirs** `V` | Acc. | **33 670** | 11 | 3 061 | 14 | **Style plongeuse** `V` ⛔ | Mtr. | **≈ 1 910** | **3** | 637 |
-| 4 | **Montres squelette** | Mtr. | **17 120** | **2** | **8 560** | 15 | **Lunettes** `V` ✅ | Piè. | **≈ 1 770** | 10 | 177 |
-| 5 | **Chronographes** | Mtr. | **11 150** | 12 | 929 | 16 | **Boîtiers** `V` ⛔ | Piè. | **≈ 1 330** | 10 | 133 |
-| 6 | **Aviateur** `V` ⛔ | Mtr. | **7 510** | **2** | 3 755 | 17 | **Aiguilles** `V` ⚠️ | Piè. | **≈ 1 040** | 10 | 104 |
-| 7 | **NATO** `V` | Acc. | **≈ 6 000** | **0** | **∞** | 18 | **Hub pièces** `V` ⛔ | Piè. | **≈ 350** | — | — |
-| 8 | **Mouvements** `V` ⚠️ | Piè. | **≈ 5 800** | 6 | 967 | 19 | Field | Mtr. | ≈ 300 | 4 | 75 |
-| 9 | GMT | Mtr. | 3 710 | 6 | 618 | 20 | Sport chic | Mtr. | ≈ 200 | **14** | **14** |
-| 10 | **Verres saphir** `V` ⛔ | Piè. | **≈ 3 700** | 6 | 617 | 21 | Carte cadeau | Acc. | 20 | 1 | 20 |
-| 11 | **Cadrans** `V` ⚠️ | Piè. | **≈ 3 190** | **44** | **72** | | | | | | |
+| # | Famille | Bloc | **Net** | Fiches | Rech./fiche |
+|---:|---|---|---:|---:|---:|
+| 1 | **Rangement** `V` | Acc. | **59 410** | **3** | **19 803** |
+| 2 | **Bracelets** `V` | Acc. | **≥ 40 450** | 10 | 4 045 |
+| 3 | **Remontoirs** `V` | Acc. | **33 670** | 11 | 3 061 |
+| 4 | **Montres squelette** `V` ✅ | Mtr. | **17 120** | **2** | **8 560** |
+| 5 | **Chronographes** `V` ⚠️ | Mtr. | **≈ 8 360** | 12 | 697 |
+| 6 | **Aviateur** `V` ⛔ | Mtr. | **7 510** | **2** | 3 755 |
+| 7 | **NATO** `V` | Acc. | **≈ 6 000** | **0** | **∞** |
+| 8 | **Mouvements** `V` ⚠️ | Piè. | **≈ 5 800** | 6 | 967 |
+| 9 | **Verres saphir** `V` ⛔ | Piè. | **≈ 3 700** | 6 | 617 |
+| 10 | **Cadrans** `V` ⚠️ | Piè. | **≈ 3 190** | **44** | **72** |
+| 11 | **Outillage** `V` ⛔ | Acc. | **≈ 3 100** | 8 | 388 |
+| 12 | **GMT** `V` ⚠️ | Mtr. | **≈ 2 410** | 6 | 402 |
+| 13 | **Style plongeuse** `V` ⛔ | Mtr. | **≈ 1 910** | **3** | 637 |
+| 14 | **Lunettes et inserts** `V` ✅ | Piè. | **≈ 1 770** | 10 | 177 |
+| 15 | **Boîtiers** `V` ⛔ | Piè. | **≈ 1 330** | 10 | 133 |
+| 16 | **Aiguilles** `V` ⚠️ | Piè. | **≈ 1 040** | 10 | 104 |
+| 17 | **Hub pièces** `V` ⛔ | Piè. | **≈ 350** | — | — |
+| 18 | Field ⚠️ *(seule ligne déclarative)* | Mtr. | ≈ 300 | 4 | 75 |
+| 19 | **Sport chic** `V` ⛔ | Mtr. | **≈ 100** | **14** | **7** |
+| 20 | **Chiffres arabes** `V` ⛔ | Mtr. | **0** *(2 590 retirés — offre inexistante)* | **5** | **0** |
+| 21 | Carte cadeau | Acc. | 20 | 1 | 20 |
 
 **Le podium ne bouge pas — et il est désormais le seul bloc du dossier vérifié en SERP réelle.**
 Rangement, bracelets, remontoirs : trois portes ouvertes en organique, Amazon à 0 ou 1 position
@@ -324,9 +334,31 @@ ouvrent sur **douze marques françaises de Seiko Mod avec configurateur, 100-562
 ✅ **Trois têtes ressortent propres, et ce sont les plus petites** : `cadran nh35`,
 `insert lunette montre`, `lunette montre`.
 
-⚠️ **Le nouvel angle mort, ce sont les montres finies encore déclaratives** — squelette,
-chronographes, GMT, chiffres arabes, field, sport chic : **35 070 recherches jamais confrontées à
-une SERP**, alors que le taux de retournement cumulé des deux passes est de **7 sur 39**.
+✅ **Le dernier angle mort est levé — et il coûte 6 780 recherches (T-47, 16 SERP).**
+Les six familles de montres finies encore déclaratives (**35 070 recherches**) sont passées au même
+crible. Le bloc tombe de **44 490 à 37 710**, soit **−15 %** : c'est **le retrait le plus léger des
+trois passes**, et c'est la bonne nouvelle du dossier — **le cœur du catalogue tient**.
+✅ **Le squelette sort intact** : trois têtes, trois pages 1 commerciales, zéro parasite, **Amazon à
+0 position organique sur les trois**, et **`maisondutemps.com` dans les trois premiers partout**,
+**premier organique sur `montre squelette automatique`**.
+⛔ **Un seul retournement, mais total : `montre chiffre arabe` désigne l'écriture arabe**, pas les
+chiffres occidentaux — **la demande est réelle, c'est notre offre qui n'existe pas** (3 passes de
+sourcing). **−2 590, la famille sort du servable.**
+⚠️ **Deux érosions** : les **chronographes −25 %** (couche définitionnelle + **mur de bijouteries,
+zéro indépendant en organique** — un deuxième `montre aviateur`) et le **GMT −35 %** (5-6 organiques
+sur 9 expliquent ce qu'est un GMT) — **mais le GMT est la seule famille où notre prix est celui du
+marché**, tenu par **sept marques françaises de mod entre 216 et 599 €**.
+⛔ **Le sport chic est aggravé** : requête d'**hommage Royal Oak / Nautilus** (« montre qui ressemble
+à Hublot », « Vacheron Constantin », « ressemble Audemars Piguet »), page 1 éditoriale à 7 sur 10.
+**14 fiches pour 7 recherches chacune.**
+⛔ **`montre mecanique homme` n'est pas une porte** : Google sert la page 1 de `montre automatique
+homme`, titre par titre. Rabattement **sémantique**, sans bannière.
+✅ **L'axe morphologique est la trouvaille de la passe** : sur `montre homme petit poignet`,
+**8 organiques sur 10 sont du conseil et `maisondutemps.com` est en position 1** avec sa collection
+« 35 à 40 mm, à partir de 155 € ». **Notre catalogue y répond sans un euro de sourcing.**
+⛔ **Mais pas de collection `montre-39mm`** : la cote nue est la grappe **Tudor Black Bay 39** et
+**Tissot Ballade 39** — 4 des 6 recherches associées nomment la Ballade.
+**Taux de retournement cumulé : 8 sur 55 têtes.** Détail : `journal/2026-08-14-verification-serp-montres.md`.
 
 **Ce que ça déplace, et ce que ça ne déplace pas.** Le scénario A de T-26 tient : les accessoires ont
 les **KD les plus hauts du corpus** (35, 35, 31) parce qu'en face il y a Amazon et les grandes

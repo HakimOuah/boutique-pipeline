@@ -32,13 +32,101 @@ Ces bandes viennent des SERP et du Shopping français, pas d'une estimation.
 
 | Famille | Bande de marché | Notre position | Lecture |
 |---|---|---|---|
-| **Montres squelette** | **79 à 239 €** | **399 à 429 €** | ⚠️ **C'est notre prix qui ferme la porte, pas la concurrence.** La tête `montre squelette homme` (2 900) est accessible, mais pas à ce tarif. |
+| **Montres squelette** | ⚠️ **bimodale — voir §2 bis** | **399 à 429 €** | ⚠️ **C'est notre prix qui ferme la porte, pas la concurrence.** La tête `montre squelette homme` (2 900) est accessible, mais pas à ce tarif. **Relevé du 14/08 au soir (T-47) : la bande n'est pas « 79-239 € », elle est en deux blocs séparés par un vide, et nous sommes dans le vide.** |
 | **Boîtes et coffrets** | Shopping **verrouillé 19 à 48 €** par SONGMICS et consorts | 3 fiches | Vendable seulement **au-dessus de 69 €** — sortir de la bande basse plutôt que s'y battre. Un coffret à 49,90 € est le pire endroit. |
 | **Coffrets à sourcer** | 69 à 149 € | — | Cible de sourcing (5-7 fiches, 8-12 emplacements). |
 | **Porte-montres et présentoirs** | 35 à 90 € | **0 fiche** | Trou d'offre, collection dédiée chez les 3 spécialistes. |
 | **Marmottes de voyage** | 39 à 99 € | — | Cible 2-3 fiches. |
 | **Bracelets NATO** | **10 à 22 €** | 0 fiche | Trop bas à l'unité pour le ratio → **lot de 3 à 29-39 €**, ou organique seul sans publicité. |
 | **Montres (référence `maisondutemps`)** | **155 à 385 €** sur 162 montres | 279 à 429 € | Le concurrent modèle vit **sous** notre plancher. |
+
+---
+
+## 2 bis. Relevé de prix des montres finies — 16 SERP du 14/08 au soir (T-47)
+
+> Source : `journal/2026-08-14-verification-serp-montres.md`. Prix relevés en Shopping et en page 1
+> organique, pas estimés. **Aucun prix n'a été modifié sur la boutique.**
+
+### ⛔ Squelette — la bande est bimodale, et nous sommes dans le trou
+
+| Palier | Prix relevés | Qui |
+|---|---|---|
+| Bas de gamme | 24,99 · 40,99 · 49,99 · 51,99 · 69,90 · 79,90 · 79,99 · 80,10 · 89,90 · 92,90 · 99,90 € | Amazon, Steampunk Store, La Boutique des Hommes, L'Homme Moderne, HelloIce |
+| Milieu dense | 112,90 · 130,99 · 159 · 183,92 · 197 · 199 · 219 · 231,97 · 239 € | Kron Watches, Trendhim (Seizmont, Arkai), Pierre Lannier, Leroy Merlin |
+| **Palier indépendant haut** | **285 · 295 €** | **`maisondutemps.com` — MTBeta Skeleton.** Le concurrent modèle. |
+| **Palier français** | **445 € × ~10 fiches Shopping** | **Charlie Paris seul**, toutes titrées « Verre saphir · **Assemblée en France** » |
+| Luxe | 455 · 479 · 920 · 1 769 · 2 095 · 2 199 · 2 700 € | Artynov, Lip, The Watch Gallery, Done Watches, Tissot, CIGA, Maison Morfin |
+
+⛔ **Entre 300 et 440 €, la page 1 est vide. Nos 399-429 € sont exactement dans ce vide.**
+⚠️ **Ce n'est pas un problème de niveau de prix, c'est un problème d'argument** : le seul acteur à
+445 € paye ce prix avec « Assemblée en France » écrit dans le titre de chacune de ses dix fiches.
+**À 445 € on vend un pays, pas une montre.** Cible recommandée : **190-300 €**.
+
+### ⛔ Chapeau `montre automatique homme` — l'exclusion la plus nette du dossier
+
+**Seize prix relevés sur une seule page 1, entre 190 et 340 €** : Citizen 148,85 · Lotus 204,56 ·
+**Pierre Lannier 190,47 / 219 / 228,98 / 229 / 239 / 249 / 279** · Seiko 5 **259 / 295 / 310** ·
+**Orient Bambino 278 / 295** · **MaisonDuTemps MTBeta 295** · **Montignac 289 / 299 / 339** ·
+Fossil Townsman 289 €.
+**Puis rien entre 340 et 390 €.** Puis Seiko Presage **419 €**, Charlie Paris **445 €**,
+Tissot Le Locle **675 €**, Charlie Paris Alliance **895 €**.
+
+✅ **Nos 279-339 € sont au cœur du marché.**
+⛔ **Nos 399-429 € nous font affronter Seiko et Charlie Paris sur leur propre terrain**, sur une
+page 1 qu'ils tiennent en organique.
+
+### ✅ GMT — la seule famille où notre prix est le bon
+
+| Marque | Produit | Prix |
+|---|---|---|
+| Pagani Design | GMT automatique 40 mm saphir | 106-135 € |
+| Prime Wrist & Style | La Sovereign GMT | 216,02 € |
+| MWC | GMT militaire 200 m | 237,71 € |
+| **cdmontres** | MOD — Hommage GMT master Orange | **319,00 €** |
+| **Time2Seiko** | SEIKO GMT or zombie — Seiko Mod | **360,00 €** |
+| **Watchmodcustom** | Wayne GMT — Seiko Mod | **432,90 €** |
+| **N.A Timekeeping** | Seiko MOD GMT Céramique / cadran noir V2 type BB | **519 / 599 €** |
+| **Chrono Mod** | GMT Dual Time, fabrication artisanale | **599,00 €** |
+| Tissot / Seiko 5 GMT | — | 460-525 € |
+| Tudor Black Bay 58 GMT | — | 4 820 € |
+
+✅ **Le segment 319-599 € est intégralement tenu par des ateliers français de mod. Nos 399-429 € y
+sont au centre.** C'est **la seule famille du dossier dont le prix actuel n'a pas besoin d'être
+corrigé**. ⚠️ Contrepartie : ≈ 2 410 recherches seulement — **collection de panier moyen, pas de
+trafic**.
+
+### ⚠️ Chronographes — vendable, pas achetable
+
+Bande : **24,99-134 €** (Benyar, Lige, Sekonda, Amazon) · **179-249 €** — dont
+**GT Watches GT1 Chrono : 40 mm, acier 316L, verre saphir, méca-quartz VK63, 249 €**, exactement
+notre produit · **275-395 €** (Charlie Paris) · **430-475 €** (Seiko, Tissot officiels) ·
+**2 400-46 000 €** (Depancel, TAG Heuer).
+⛔ **À 399-429 € on serait au-dessus de Charlie Paris (395 €) et au niveau des marques officielles.**
+Collection oui, **acquisition payante non**.
+
+### ⚠️ Petit poignet / diamètre — notre entrée est déjà trop haute
+
+`maisondutemps.com` annonce **« à partir de 155 € »** dans le titre même de sa collection en
+**position 1 organique**. Le reste de la page 1 marchande : 9,99-45 € (Amazon, Lige) · **99-135 €**
+(Trendhim) · 119 € (Casio, Pierre Lannier) · **195 €** (Charlie Paris) · **285 €** (MaisonDuTemps).
+⚠️ **Notre entrée à 279 € est déjà au-dessus du haut de bande.**
+
+### ⛔ Chiffres arabes — deux marchés, aucun pour nous
+
+**12-75 €** (mode modeste : Qalam Dress, Mimoza Hijab, AlWakt, Waqt1437, Shilaya, Emirnes) —
+incompatible avec tout ratio Kraken. **164-600 €** (Seiko Arabic Dial) — **marque tierce, interdite
+au flux Merchant Center**. Un seul point intermédiaire : **VVS Jewelry, « Seiko Mod cadran arabe »,
+262,95 €** — et il emploie la marque. **Rien à prendre.**
+
+### ⚠️ Deux menaces de prix, hors famille
+
+- **AliExpress achète le Shopping Google France sur notre produit exact.** Fiches sponsorisées en
+  tête de `montre automatique` : **« 50 brasses NH35A montre automatique » 119,39 €** et
+  **Pagani Design DD36 automatique 73,35 €**. Et **AliExpress se classe en organique** sur
+  `montre 36mm homme` : *« Montre homme personnalisée 36MM/39MM saphir cristal brossé boîtier NH35 »*.
+- **`faussesmontres.com` occupe six fiches Shopping sur `montre 36mm homme`** avec des « Rolex
+  Datejust 36 » à **153-166 €**. ⛔ **Ne jamais écrire « Datejust », « Oyster » ni aucun nom de
+  modèle dans un titre** : on se retrouverait dans ce voisinage.
 
 ---
 
@@ -67,7 +155,9 @@ Le relevé concurrentiel du 14/08 penche vers la seconde sur les **montres squel
 
 ## 5. Points à trancher lors de la passe marges
 
-1. **Les squelettes** : reprixer à 199-279 € comme le recommande l'étude concurrentielle, ou assumer le positionnement haut et renoncer à la tête à 2 900 ?
+1. **Les squelettes** : reprixer dans la bande **190-300 €** — le relevé T-47 la confirme et montre que **le seul palier au-dessus (445 €) est tenu par « Assemblée en France »**, argument que nous n'avons pas. Assumer 399-429 €, c'est rester dans un trou de marché.
+1 bis. **Le chapeau `montre automatique homme`** : **notre 279-339 € est au cœur des seize prix relevés** ; **notre 399-429 € est dans le vide entre 340 et 390 €**, puis face à Seiko Presage (419 €) et Charlie Paris (445 €). **Faut-il ramener tout le haut de gamme sous 340 € ?**
+1 ter. **Le GMT est la seule exception** : 319-599 € tenus par sept ateliers français de mod, **nos 399-429 € y sont au centre. Ne rien y toucher.**
 2. **Les trois familles sous le seuil de ratio** (outils, verres, bracelets) : remonter les prix, ou les exclure de toute campagne payante et les garder en organique ?
 3. **Les coffrets** : viser 69-149 € confirme-t-il une marge suffisante au coût fournisseur réel ?
 4. **Les NATO** : lot de 3 à 29-39 € — la marge tient-elle après fret ?
