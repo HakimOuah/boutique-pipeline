@@ -1,7 +1,7 @@
 # Maison Noirmont — tableau
 
 **Point d'entrée unique.** Tu commences ici, quel que soit l'agent. Format des tickets : [`../METHODE-TABLEAU.md`](../METHODE-TABLEAU.md).
-État courant chiffré : [`ETAT.md`](ETAT.md) · Règles et pièges : [`REGLES.md`](REGLES.md) · Style : [`STYLE-REDACTION.md`](STYLE-REDACTION.md) · Archive : [`journal/`](journal/)
+État courant chiffré : [`ETAT.md`](ETAT.md) · Règles et pièges : [`REGLES.md`](REGLES.md) · Style : [`STYLE-REDACTION.md`](STYLE-REDACTION.md) · Arborescence : [`ARBORESCENCE.md`](ARBORESCENCE.md) · Archive : [`journal/`](journal/)
 
 **Mets ce fichier à jour avant de rendre la main.** C'est la seule obligation qui ne se délègue pas.
 
