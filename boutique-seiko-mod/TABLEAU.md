@@ -5,7 +5,7 @@
 
 **Mets ce fichier à jour avant de rendre la main.** C'est la seule obligation qui ne se délègue pas.
 
-Dernière mise à jour : **13/08/2026** — régressions P0 réparées ; audit des 95 brouillons soldé (T-16) ; **recherche de mots-clés faite (T-21) : l'arborescence actuelle est à refaire, 4 collections sur 10 ne portent aucun volume** ; **audit GMC repris point par point (T-11) : 2 065 SKU AliExpress découverts sur les brouillons, T-H2 rouvert** ; **pilier montres finies instruit (T-26) : dossier à trois scénarios, arbitrage de positionnement attendu de Hakim** ; **titres et metas du lot de pièces réécrits (T-25) : 86 fiches, le mot « montre » est passé de 9 à 86 titres sur 86**.
+Dernière mise à jour : **14/08/2026** — **famille « accessoires » enfin mesurée (T-39) : ≈ 17 200 recherches/mois sur les têtes, soit plus que les montres finies et les pièces réunies ; trou d'offre n°1 de la boutique = le rangement, ≈ 11 000 pour 3 coffrets ; `bracelet montre` pollué au tiers par des marques tierces** ; régressions P0 réparées ; audit des 95 brouillons soldé (T-16) ; **recherche de mots-clés faite (T-21) : l'arborescence actuelle est à refaire, 4 collections sur 10 ne portent aucun volume** ; **audit GMC repris point par point (T-11) : 2 065 SKU AliExpress découverts sur les brouillons, T-H2 rouvert** ; **pilier montres finies instruit (T-26) : dossier à trois scénarios, arbitrage de positionnement attendu de Hakim** ; **titres et metas du lot de pièces réécrits (T-25) : 86 fiches, le mot « montre » est passé de 9 à 86 titres sur 86**.
 
 ---
 
@@ -232,6 +232,7 @@ Deux règles ajoutées à [`REGLES.md`](REGLES.md), section « Pièges déjà pa
 **Pourquoi** : 4 collections de premier niveau sur 10 ne portent aucun volume mesurable (arabe, pilote, stérile, squelette). Les têtes réelles sont les organes en français simple.
 **Comment** : 3 fusions (les 4 collections de cadran deviennent **une** collection `cadran-de-montre` à 44 produits + 4 sous-collections), 5 renommages de handle (`pieces-mod-nh35` → `pieces-detachees-montre`, `boitier-nh35` → `boitier-de-montre`, `aiguilles-nh35` → `aiguilles-de-montre`, `insert-lunette-38mm` → `lunette-de-montre`), **8 redirections 301** listées au §6 du compte rendu. `mouvement-nh35`, `verre-saphir-montre` et `outils-d-horloger` ne bougent pas.
 **Attention** : ⚠️ **ne pas renommer les 94 handles produit** — les manifestes, mappings DSers et scripts de visuels les référencent. Seules 3 fiches ont un handle qui contredit le produit (liste au §6).
+**Ajouté le 14/08 (T-39) — le Niveau 2 ter, côté accessoires** : créer `boite-a-montre` (le trou n°1, ≈ 11 000 recherches pour 3 fiches) · renommer `remontoirs` → `remontoir-montre-automatique`, `bracelets` → `bracelet-montre`, `ecrins-et-rouleaux` → `ecrin-montre`. ⚠️ **Ces quatre collections sont publiées** (2 à 3 publications) : les **redirections 301 sont obligatoires**, pas facultatives comme sur les collections de pièces. `outils-d-horloger` et `accessoires` ne bougent pas.
 
 ### ~~T-25 — Réécrire les titres et meta titles du lot de pièces~~ ✅ FAIT le 13/08
 **Fait par** : Claude · **Né de** : T-21 (13/08) · **Compte rendu** : [`journal/2026-08-13-application-titres.md`](journal/2026-08-13-application-titres.md)
@@ -259,6 +260,30 @@ Deux règles ajoutées à [`REGLES.md`](REGLES.md), section « Pièges déjà pa
 **Si A est retenu, 6 actions** : renommer `montre-cadran-a-chiffres` → `montre-chiffre-arabe` · `chronos` → `montre-chronographe` · `gmt` → `montre-gmt` (⚠️ **3 redirections 301 obligatoires**, ces collections **sont** publiées) · créer `montre-aviateur` · sourcer **7 squelettes** et **5 boîtiers plongeuse réellement 200 m** (débloque `montre de plongée`) · réduire le périmètre P1 de T-07.
 **À dire à Hakim** : la règle « aucune marque tierce » rend inaccessibles ≈ **17 500 recherches/mois** (`seiko mod` 8 100, `seiko arabic dial` 8 100, `seiko nh35` 590, `seiko chiffre arabe` 390). La règle reste juste — mais la voie légale existe : le **contenu éditorial** peut citer Seiko factuellement là où le titre de flux ne le peut pas.
 **Angle mort à instruire avant tout sourcing** : aucun concurrent FR n'est profilé sur `montre squelette homme`, `montre de plongée` ni `montre gmt`.
+
+### ~~T-39 — Mesurer la famille « accessoires », oubliée de T-21 et T-26~~ ✅ FAIT le 14/08
+**Compte rendu** : [`journal/2026-08-14-mots-cles-accessoires.md`](journal/2026-08-14-mots-cles-accessoires.md)
+**Mesure** : **26 mots-clés** SEMrush France un par un + **3 familles** au Keyword Magic Tool. **0 crédit consommé** (compteur figé à 300/1 000). Catalogue lu en lecture seule (3 requêtes GraphQL, 0 mutation).
+**Ce qui est établi** :
+- **La famille accessoires est la première demande de la boutique** : **≈ 17 200** sur les têtes (≈ 14 000 net de marque), contre **9 200** côté montres et **4 070** côté pièces. Le total boutique passe à **≈ 30 500**.
+- **Elle apporte 3 têtes à intention commerciale** — `remontoir montre automatique` **4 400** KD 18, `bracelet montre homme` **1 900** KD 20, `bracelet montre 20mm` **390** KD 10 — contre **une seule** dans tout le reste du corpus.
+- **Trou d'offre n°1 de toute la boutique : le rangement.** `boite a montre` **5 400** KD 35 + `boite a montre homme` 2 400 + `coffret montre` 1 300 + `coffret montre homme` 1 300 **KD 15** + `boite a montre automatique` 590 ≈ **11 000** face à **3 coffrets** au catalogue. Plus large que le trou « squelette » de T-26 (8 400 pour 2 produits).
+- **Trou n°2, propre et sans marque : le NATO.** `bracelet nato` **1 900** KD 11 + `bracelet montre nato` 720 KD 9 = **2 620**, **0 produit** parmi les 10 bracelets.
+- ⚠️ **`remontoir montre` 1 300 est le `boitier montre` des accessoires** : en français, « remontoir » désigne aussi la **couronne** (`démonter` 74, `enlever` 48, `couronne` 37, `gousset` 152). **Ne jamais titrer `remontoir montre` seul** — c'est `remontoir montre automatique` qui vend, et il pèse plus que le mot nu.
+- ⚠️ **`bracelet montre` 6 600 est pollué au tiers** : ≈ **38 000 recherches/mois** de marque ou de montre connectée sur le haut de grappe (Apple Watch, Garmin, Fossil, Swatch, Ice Watch, Hermès, Cluse, Casio, Samsung, Huawei, Xiaomi, TomTom, Decathlon, **et `seiko` sur 960 mots-clés**). **Inutilisable en flux Merchant Center**, comme `seiko arabic dial`. Deux mots génériques à grappe captée : `bracelet milanais` (Apple) et `bracelet jubile` (Rolex, CPC 0,00 $).
+- ⚠️ **`bracelet montre cuir` 1 900 ne désigne pas un bracelet** : `montre femme bracelet cuir` 2 400, `montre bracelet cuir` 1 900 — ce sont des **montres finies**. Même retournement que `cadran montre`.
+- ⛔ **`rouleau de voyage montre` non restitué, 2ᵉ mesure** (27/07 et 14/08) pour **4 fiches** au catalogue. Surdotation, à rattacher à `etui a montre` 260.
+- **Prix ÷ CPC** : remontoirs ✅ (≥ 55 €, tenu) · coffrets ⚠️ (≥ 46 €, premier prix à 24,90 €) · rouleaux ⚠️ (≥ 36 €) · bracelets ⚠️ (≥ 27 € sur la cote mm, ≥ 41 € sur la tête — **6 sur 10 tombent**) · outils ⚠️ (5 sur 8 sous le plancher de 19,90 €).
+- **État du catalogue** : 39 fiches actives, **publiées**, prix posés, 34/39 à la cible de 3 médias. Manquent **4 `seo.title`/`seo.description` de collection** (`accessoires`, `remontoirs`, `ecrins-et-rouleaux`, `bracelets`) et **11 descriptions d'une seule phrase**.
+**Ce que ça déplace** : le **scénario A de T-26 tient** — les accessoires ont les KD les plus hauts du corpus (35, 35, 31, en face d'Amazon) et un panier 3 à 7 fois plus faible, **ils ne peuvent pas être la marque**. Mais ils sont la seule famille **prête, à intention commerciale et déjà au bon prix** : **la porte d'entrée la moins chère de la boutique est un remontoir, pas une montre**. Recommandation ajoutée : ouvrir le premier test payant sur `remontoir montre automatique` et `coffret montre homme`.
+**Suites** : **T-24** (Niveau 2 ter de `ARBORESCENCE.md`, 3 renommages + 1 création, 301 obligatoires car publiées) · **T-31** (4 metas de collection + 11 textes) · **T-H3** (planchers de prix par sous-famille) · sourcing rangement et NATO (ci-dessous).
+**Angle mort le plus lourd** : aucun concurrent FR profilé sur `boite a montre`, `coffret montre homme` ni `remontoir montre automatique`. Un KD 35 tenu par Amazon est une porte **fermée**, pas difficile — à instruire **avant** tout sourcing.
+
+### T-40 — Sourcer le rangement et le NATO (les deux trous des accessoires)
+**État** : À FAIRE · **Pour** : Claude ou Codex · **Né de** : T-39 (14/08) · **Après l'instruction concurrentielle**
+**Pourquoi** : ≈ 11 000 recherches/mois de rangement pour **3 coffrets**, et 2 620 de NATO pour **0 produit**. Ce sont les deux plus gros écarts demande/offre de la boutique, montres comprises.
+**Comment** : ① **5 à 7 coffrets** supplémentaires, dont **3 positionnés « homme »** (`coffret montre homme` 1 300 est à **KD 15** quand la tête nue est à 35), **prix ≥ 49,90 €** pour tenir le ratio · ② **2 à 3 fiches NATO**, vendues **en lot de 3 bandes** pour atteindre le plancher de 27 € — un NATO à l'unité ne tient pas le ratio prix ÷ CPC.
+**À ne pas faire** : aucun sourcing de rouleau de voyage (mot non restitué, 4 fiches déjà) ni de remontoir (11 fiches pour 4 400, famille saturée).
 
 ### T-27 — Plan de contenu sur les intentions informationnelles
 **État** : À FAIRE · **Pour** : Claude · **Né de** : T-21 (13/08)
