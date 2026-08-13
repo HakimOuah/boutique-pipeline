@@ -1,16 +1,19 @@
 # Maison Noirmont — arborescence proposée
 
-Mesures SEMrush France des 13 et **14/08/2026**. Sources : `journal/2026-08-13-recherche-mots-cles.md`, `journal/2026-08-13-dossier-positionnement.md`, `journal/2026-08-14-mots-cles-accessoires.md`, **`journal/2026-08-14-volumes-consolides.md`** et **`journal/2026-08-14-verification-serp.md`**.
+Mesures SEMrush France des 13 et **14/08/2026**. Sources : `journal/2026-08-13-recherche-mots-cles.md`, `journal/2026-08-13-dossier-positionnement.md`, `journal/2026-08-14-mots-cles-accessoires.md`, **`journal/2026-08-14-volumes-consolides.md`**, **`journal/2026-08-14-verification-serp.md`** et
+**`journal/2026-08-14-verification-serp-pieces.md`**.
 **Statut : proposition, en attente de la décision de positionnement (T-26).**
 
 > 🔎 **Deux niveaux de preuve dans tout ce document, à ne jamais confondre.**
-> **`V` = vérifié en SERP Google France le 14/08 (T-43)** — 20 pages 1 ouvertes, intention testée
+> **`V` = vérifié en SERP Google France le 14/08** — **39 pages 1 ouvertes** en deux passes
+> (**T-43**, 20 têtes accessoires et montres · **T-46**, 19 têtes pièces détachées), intention testée
 > contre ce que Google sert réellement. **Sans marque = déclaratif** : le volume vient de SEMrush,
-> l'intention est supposée. **20 têtes testées, 3 retournements, 2 déplacements de rang majeurs** —
-> le taux d'erreur des chiffres déclaratifs est donc loin d'être nul.
-> **Familles vérifiées** : rangement, bracelets, remontoirs, outillage, NATO, aviateur, plongeuse.
-> **Familles encore déclaratives** : toutes les pièces détachées (29 490) et les montres finies
-> hors aviateur et plongeuse.
+> l'intention est supposée. **39 têtes testées, 7 retournements, 4 déplacements de rang majeurs** —
+> le taux d'erreur des chiffres déclaratifs est de **18 %**.
+> **Familles vérifiées** : rangement, bracelets, remontoirs, outillage, NATO, aviateur, plongeuse,
+> **mouvements, verres, boîtiers, cadrans, lunettes, aiguilles, hub pièces**.
+> **Familles encore déclaratives** : les montres finies hors aviateur et plongeuse — squelette,
+> chronographes, GMT, chiffres arabes, field, sport chic, soit **35 070 recherches**.
 
 > ⚠️ **Tous les volumes de ce document ont été refaits le 14/08 au soir.** On y lisait une **tête**
 > par famille ; on y lit maintenant le **total des formulations qu'une même page sert** (variantes
@@ -61,14 +64,32 @@ Volumes **consolidés** : somme des formulations qu'une seule page de collection
 
 | # | Collection | Handle proposé | Mot-clé cœur | Brut | **Net** | KD | Produits | Intention réelle |
 |---|---|---|---|---:|---:|---:|---:|---|
-| 1 | **Mouvements de montre** | `mouvement-nh35` | `mouvement nh35` 590 | 10 660 | **8 980** | 11 | 6 | ✅ **1ᵉʳᵉ famille de pièces (× 15).** ⚠️ 5 250 retirés : `montre à mouvement automatique` = **acheteurs de montres finies**. À étoffer à 10-12. |
-| 2 | **Verres saphir de montre** | `verre-saphir-montre` | `verre de montre` 880 | 8 660 | **8 160** | 13 | 6 | ✅ **Meilleure intention du catalogue** — « changer », « remplacer », « polir », « cassé ». Monte de la 4ᵉ à la 2ᵉ place (× 17). |
-| 3 | **Boîtiers de montre** | `boitier-de-montre` | `boitier montre` **1 600** | 4 580 | **4 420** | 12 | 10 | ↘ **Perd la 1ᵉʳᵉ place.** `boitier pour montres` **2 900** (intention **C**, **KD 34**, pluriel) est une **boîte de rangement** : parti au Niveau 2 ter. Réparation (830) partie à l'outillage. |
-| 4 | **Cadrans de montre** | `cadran-de-montre` | `cadran montre` 2 400 | 4 960 | **3 990** | 13 | **44** | ⛔ **Surdotation n°2 : 91 recherches par fiche.** 16 060 retirés : `montre cadran bleu` (montres finies) et cadrans de montre **connectée** (fichiers). Fusion de 4 collections actuelles. |
-| 5 | **Lunettes et inserts** | `lunette-de-montre` | `lunette montre` 390 | 2 090 | **1 970** | 14 | 10 | Secondaire. ⚠️ Fourchette 1 300-1 970 : `montre lunette` (640) peut désigner un coffret « montre **et** lunettes ». |
-| 6 | **Aiguilles de montre** | `aiguilles-de-montre` | `aiguille montre` 320 | 1 710 | **≈ 1 390** | 9 | 10 | ⚠️ **Retournement le plus violent du corpus : 13 980 retirés.** `montres à aiguilles` 1 000, `montre aiguille` 880 = des **montres analogiques**, pas des jeux d'aiguilles. |
-| — | Hub | `pieces-detachees-montre` | `pièces détachées montre` 90 | 1 050 | **580** | 12 | — | Page chapeau. |
-| — | **Total pièces** | | | **33 710** | **29 490** | | **86** | |
+| 1 | **Mouvements de montre** `V` | `mouvement-nh35` | `mouvement nh35` 590 | 10 660 | ⚠️ **≈ 5 800** | 11 | 6 | ⚠️ **−35 % en SERP (T-46).** Reste 1ᵉʳᵉ des pièces mais tombe au **8ᵉ rang boutique**. ⛔ `mouvement montre automatique` = **« quel mouvement doit avoir ma montre »** : Longines, Casio, Wikipédia, seikoboutique, 8 organiques sur 10 informationnels. ⚠️ `seiko nh35` : le Shopping vend surtout des **Seiko Mod montées** (Edelman 325 €, Beiko 239 €). ⚠️ `mouvement de montre` : 6 organiques éditoriaux, **Leroy Merlin ×3 au Shopping**, Laval Europe « réparation horlogère ». ✅ Seul point ouvert : `mouvement nh35`, page 1 aux spécialistes du mod, Amazon 1 organique. **Ne plus étoffer.** |
+| 2 | **Verres saphir de montre** `V` | `verre-saphir-montre` | `verre de montre` 880 | 8 660 | ⛔ **≈ 3 700** | 13 | 6 | ⛔ **Retournement n°1 (T-46) : −55 %, de la 7ᵉ à la 10ᵉ place.** ① **`verre de montre` est d'abord un ustensile de laboratoire** — Wikipédia « équipement de laboratoire, de forme concave », Fisher Scientific, Jeulin, Equascience, Pierron ; **4 recherches associées sur 6 sont scolaires** (« laboratoire », « **svt** », « dessin », « définition »). ② `verre saphir montre` = **spec vérifiée par l'acheteur d'une montre finie** (Longines en position 1, CASIO « montres verre saphir dès 99 € »), 7 organiques sur 10 expliquent. ③ `changer verre montre` = **devis de réparation**, zéro Shopping, 4 tutos YouTube, « prix changement verre montre **Histoire d'Or / Daniel Wellington / Festina / Hugo Boss** ». **La « meilleure intention du catalogue » était une intention de réparation et de cours de chimie.** |
+| 3 | **Boîtiers de montre** `V` | `boitier-de-montre` | `boitier montre` **1 600** | 4 580 | ⛔ **≈ 1 330** | 12 | 10 | ⛔ **Retournement n°2 (T-46) : −70 %, du 10ᵉ au 16ᵉ rang.** Le soupçon « réparation » est **infirmé** — la vraie contamination est le **rangement**, comme pour `boitier pour montres`. Sur les deux têtes, le Shopping est du **SONGMICS 19-30 €**, ROTHWELL, Trendhim, Arpiem, **Leroy Merlin ×4** ; l'organique est Le Tanneur, Le Remontoir, Horopedia, Wristler, plus deux fabricants B2B (FTM, Sollier Lemarchand). **4 recherches associées sur 6 disent « boîte à montres homme / femme / luxe ».** ⛔ **Ce volume est déjà compté dans le Rangement : le garder ici serait un double comptage.** Reste réel mais minuscule : `boîtier de montre vide`, `boîtier montre NH35`. |
+| 4 | **Cadrans de montre** `V` | `cadran-de-montre` | `cadran montre` 2 400 | 4 960 | ⚠️ **≈ 3 190** | 13 | **44** | ✅ **La famille la moins abîmée du bloc (−20 %).** `cadran nh35` est **pur et commercial** : cadrans 28,5-35 mm compatibles NH35/36 à 7-45 €, namokiMODS, Nomods, **creerunemontre.com**. ⚠️ Parasites sur les deux autres têtes : **loisir créatif** (Amazon « cadran de montre **pour création** » en position 1, Un Grand Marché « créations bijoux » 5-6 €) et résidu **montre connectée** (« télécharger un cadran de montre connectée gratuit »). ⛔ **Surdotation n°1 du catalogue : 44 fiches pour ≈ 3 190, soit 72 recherches par fiche.** |
+| 5 | **Lunettes et inserts** `V` | `lunette-de-montre` | `lunette montre` 390 | 2 090 | ✅ **≈ 1 770** | 14 | 10 | ✅ **La ligne la plus propre du bloc pièces (−10 %).** `insert lunette montre` = **produit exact, commercial pur**, page 1 aux spécialistes (**My-Montre en position 1**, Alpha Europe, Steel Reef, Timed-horlogerie, Masar, **AtelierNet Paris**). ✅ **La peur de T-42 tombe : zéro résultat d'optique sur `lunette montre`.** ⚠️ Parasites mineurs : le Shopping confond « lunette » et « verre », et une fiche ramène le verre de laboratoire. ⛔ Ticket 4-36 €. |
+| 6 | **Aiguilles de montre** `V` | `aiguilles-de-montre` | `aiguille montre` 320 | 1 710 | ⚠️ **≈ 1 040** | 9 | 10 | ⚠️ **−25 % en SERP (T-46)**, après les 13 980 déjà retirés par T-42 (`montres à aiguilles` = montres analogiques). Le Shopping sert bien des jeux d'aiguilles, mais **4 organiques sur 10 enseignent la lecture de l'heure** (« quel est l'**ordre** des aiguilles », Charlie Paris « **sens des aiguilles** », Millow Paris, Ocarat). ⛔ **Le prix tue la ligne : 2,20-12 €, et My-Montre occupe dix fiches Shopping à lui seul.** |
+| — | Hub `V` | `pieces-detachees-montre` | `pièces détachées montre` 90 | 1 050 | ⛔ **≈ 350** | 12 | — | ⛔ **`seiko mod` et `mod montre` ne sont pas des requêtes de pièces : ce sont des montres finies**, et elles ouvrent sur **douze marques françaises de Seiko Mod avec configurateur, de 100 à 562 €** (Goteia, WatchModCustom, Montre à Papy, Modus Horlogerie, Genius Modding, GSCustom, Atelier Betel, Time2Seiko, Beiko, N.A Timekeeping, Chrono Mod, Yan Smode). ⚠️ `pièces détachées montre` est commercial et sans éditorial, mais l'intention est la **réparation d'une montre de marque** (Fossil, Festina, Guess) et **8 positions organiques sur 10 sont tenues par des spécialistes français** (My-Montre, Passion Chrono, Masar, outils-horloger.eu, Web-Horloger, WatchesULike, watchparts24, Philippe MAS). **Amazon : 0 organique.** |
+| — | **Total pièces** | | | **33 710** | ⛔ **≈ 17 180** | | **86** | ⛔ **−12 310 après SERP (T-46), soit −42 %.** Le bloc passe de **14 % à 8 %** de la demande de la boutique, pour **47 % du catalogue**. |
+
+⛔ **Verdict de la passe SERP pièces (T-46, `journal/2026-08-14-verification-serp-pieces.md`).**
+**Six familles sur sept perdent du volume ; quatre retournements sur 19 têtes.** Surtout, la question
+qui décidait de l'**axe A** — *« y a-t-il un vendeur français de pièces détachées horlogères ? »* —
+a une réponse : **oui, au moins onze**, et ils tiennent les pages 1. **My-Montre apparaît sur 12 des
+19 têtes testées** ; **Passion Chrono vend des pièces depuis 2003 avec 20 000 références en stock**.
+S'y ajoutent outils-horloger.eu, Web-Horloger, Masar, WatchesULike, AtelierNet, Timed-horlogerie,
+creerunemontre.com, et les grossistes Selfor Paris, Laval Europe, Kalyane Diffusion, Philippe MAS.
+
+✅ **L'axe A survit — comme preuve d'expertise, pas comme source de trafic.** Le bloc « ce qu'il y a
+dedans » sur les fiches montres reste gratuit et utile. ⛔ **Mais : aucune collection de pièces pour
+le SEO, rien au flux Merchant Center, et arrêt de tout sourcing de pièces.** Le seul mot qui
+mériterait une page dédiée est **`cadran nh35`** — page 1 commerciale, produit exact, SERP faiblement
+défendue (des domaines piratés s'y classent) — et il vaut quelques centaines de recherches.
+⚠️ **Une phrase de `AXES-MARKETING.md` est à corriger** : « aucun de nos concurrents ne vend le
+cadran, l'aiguille, le verre et le mouvement » est vrai des cinq boutiques du dossier de
+positionnement, **faux du marché français**. À réécrire en « aucune **marque de montres** ne vend
+ses propres organes ».
 
 ⛔ **« Outils d'horloger » ne figure plus ici.** Un mot-clé ne peut appartenir qu'à une famille : l'outillage est attribué au **Niveau 2 ter** (accessoires), où vivent ses 8 fiches actives. Les 6 fiches pièces (porte-mouvements, presse à aiguilles) restent rattachées à la même collection.
 
@@ -245,8 +266,8 @@ Détail : `journal/2026-08-14-verification-serp.md`.
 |---|---:|---:|---:|---:|---:|---|
 | **Accessoires** | ≈ 17 200 | ≥ 155 510 | **≥ 142 640** | **4** | **39 fiches publiées** | 12,90-324,90 € |
 | Montres finies | 9 200 | 56 120 | **44 490** | 1 | 57 fiches | 279-429 € |
-| Pièces détachées | 4 070 | 29 490 | **29 490** *(aucune tête testée)* | 0 | 0 (86 brouillons) | 12,90-89,90 € |
-| **Total boutique** | ≈ 30 500 | ≥ 241 120 | **≥ 216 620** | **5** | **96 fiches actives** | |
+| Pièces détachées | 4 070 | 29 490 | ⛔ **≈ 17 180** *(19 têtes testées, −42 %)* | 2 | 0 (86 brouillons) | 12,90-89,90 € |
+| **Total boutique** | ≈ 30 500 | ≥ 241 120 | **≥ 204 310** | **7** | **96 fiches actives** | |
 | *+ chapeau `montre automatique`, hors total* | *9 900* | *41 020* | *41 020* | 0 | 15 | |
 
 **Classement final des familles, net de marque et corrigé en SERP**
@@ -254,41 +275,58 @@ Détail : `journal/2026-08-14-verification-serp.md`.
 
 | # | Famille | Bloc | **Net** | Fiches | Rech./fiche | # | Famille | Bloc | **Net** | Fiches | Rech./fiche |
 |---:|---|---|---:|---:|---:|---:|---|---|---:|---:|---:|
-| 1 | **Rangement** `V` | Acc. | **59 410** | **3** | **19 803** | 12 | GMT | Mtr. | 3 710 | 6 | 618 |
-| 2 | **Bracelets** `V` | Acc. | **≥ 40 450** | 10 | 4 045 | 13 | **Outillage** `V` ⛔ | Acc. | **≈ 3 100** | 8 | 388 |
-| 3 | **Remontoirs** `V` | Acc. | **33 670** | 11 | 3 061 | 14 | Chiffres arabes | Mtr. | 2 590 | 5 | 518 |
-| 4 | **Montres squelette** | Mtr. | **17 120** | **2** | **8 560** | 15 | Lunettes | Piè. | 1 970 | 10 | 197 |
-| 5 | **Chronographes** | Mtr. | **11 150** | 12 | 929 | 16 | **Style plongeuse** `V` ⛔ | Mtr. | **≈ 1 910** | **3** | 637 |
-| 6 | **Mouvements** | Piè. | **8 980** | 6 | 1 497 | 17 | Aiguilles | Piè. | ≈ 1 390 | 10 | 139 |
-| 7 | **Verres saphir** | Piè. | **8 160** | 6 | 1 360 | 18 | Hub pièces | Piè. | 580 | — | — |
-| 8 | **Aviateur** `V` ⛔ | Mtr. | **7 510** | **2** | 3 755 | 19 | Field | Mtr. | ≈ 300 | 4 | 75 |
-| 9 | **NATO** `V` | Acc. | **≈ 6 000** | **0** | **∞** | 20 | Sport chic | Mtr. | ≈ 200 | **14** | **14** |
-| 10 | Boîtiers | Piè. | 4 420 | 10 | 442 | 21 | Carte cadeau | Acc. | 20 | 1 | 20 |
-| 11 | Cadrans | Piè. | 3 990 | **44** | **91** | | | | | | |
+| 1 | **Rangement** `V` | Acc. | **59 410** | **3** | **19 803** | 12 | **Outillage** `V` ⛔ | Acc. | **≈ 3 100** | 8 | 388 |
+| 2 | **Bracelets** `V` | Acc. | **≥ 40 450** | 10 | 4 045 | 13 | Chiffres arabes | Mtr. | 2 590 | 5 | 518 |
+| 3 | **Remontoirs** `V` | Acc. | **33 670** | 11 | 3 061 | 14 | **Style plongeuse** `V` ⛔ | Mtr. | **≈ 1 910** | **3** | 637 |
+| 4 | **Montres squelette** | Mtr. | **17 120** | **2** | **8 560** | 15 | **Lunettes** `V` ✅ | Piè. | **≈ 1 770** | 10 | 177 |
+| 5 | **Chronographes** | Mtr. | **11 150** | 12 | 929 | 16 | **Boîtiers** `V` ⛔ | Piè. | **≈ 1 330** | 10 | 133 |
+| 6 | **Aviateur** `V` ⛔ | Mtr. | **7 510** | **2** | 3 755 | 17 | **Aiguilles** `V` ⚠️ | Piè. | **≈ 1 040** | 10 | 104 |
+| 7 | **NATO** `V` | Acc. | **≈ 6 000** | **0** | **∞** | 18 | **Hub pièces** `V` ⛔ | Piè. | **≈ 350** | — | — |
+| 8 | **Mouvements** `V` ⚠️ | Piè. | **≈ 5 800** | 6 | 967 | 19 | Field | Mtr. | ≈ 300 | 4 | 75 |
+| 9 | GMT | Mtr. | 3 710 | 6 | 618 | 20 | Sport chic | Mtr. | ≈ 200 | **14** | **14** |
+| 10 | **Verres saphir** `V` ⛔ | Piè. | **≈ 3 700** | 6 | 617 | 21 | Carte cadeau | Acc. | 20 | 1 | 20 |
+| 11 | **Cadrans** `V` ⚠️ | Piè. | **≈ 3 190** | **44** | **72** | | | | | | |
 
 **Le podium ne bouge pas — et il est désormais le seul bloc du dossier vérifié en SERP réelle.**
 Rangement, bracelets, remontoirs : trois portes ouvertes en organique, Amazon à 0 ou 1 position
 sur 10, page 1 aux boutiques indépendantes. C'est la seule certitude solide du dossier.
 
-**Ce qui descend en SERP** — ⛔ **l'outillage passe du 7ᵉ au 13ᵉ rang** (mots croisés + fournisseur
-B2B + réparation bricolage tenue par Leroy Merlin) · ⛔ **la plongeuse du 5ᵉ au 16ᵉ** (Google rabat
-`plongeuse` sur `de plongée`, la racine n'était pas libre) · ⛔ **l'aviateur reste 8ᵉ en demande
-mais sa porte est confirmée fermée** (mur de marques et d'institutions).
-**Ces trois familles occupent 13 fiches du catalogue pour ≈ 12 500 recherches inaccessibles.**
+**Ce qui descend en SERP** — ⛔ **les verres passent du 7ᵉ au 10ᵉ rang** (coupelle de laboratoire +
+spec de montre finie + devis de réparation) · ⛔ **les boîtiers du 10ᵉ au 16ᵉ** (c'est du rangement,
+déjà compté ailleurs) · ⛔ **l'outillage du 7ᵉ au 12ᵉ** (mots croisés + fournisseur B2B + réparation
+bricolage tenue par Leroy Merlin) · ⛔ **la plongeuse du 5ᵉ au 14ᵉ** (Google rabat `plongeuse` sur
+`de plongée`, la racine n'était pas libre) · ⛔ **l'aviateur remonte au 6ᵉ rang en demande mais sa
+porte est confirmée fermée** (mur de marques et d'institutions).
+**Ces cinq familles occupent 29 fiches du catalogue pour ≈ 22 000 recherches inaccessibles.**
 
-**Ce qui monte** : verres **× 17**, mouvements **× 15**, remontoirs **× 7,6**, rangement **× 6**.
-Les **chronographes passent devant l'aviateur** (et ils ont déjà 12 fiches). Les **remontoirs
-passent devant les montres squelette**.
+**Ce qui monte** : remontoirs **× 7,6**, rangement **× 6**, bracelets **× 6**. Les **chronographes
+passent devant l'aviateur** (et ils ont déjà 12 fiches). Les **remontoirs passent devant les montres
+squelette**. ⚠️ Les hausses spectaculaires annoncées le 14/08 au matin sur les verres (× 17) et les
+mouvements (× 15) **ne survivent pas à la SERP** : × 7,7 et × 9,5 une fois l'intention testée.
 
-**Ce qui descendait déjà avant la SERP** : les **boîtiers perdent la première place des pièces** —
-`boitier pour montres` 2 900 est une boîte de rangement, pas une pièce, **et la SERP le confirme
-à 100 %**. Le **field** tombe au 19ᵉ rang (Anna Field, Khaki Field), le **sport chic** au 20ᵉ avec
-**14 recherches par fiche**, le pire rapport du catalogue. Les **cadrans** montent en absolu mais
-restent la surdotation n°2 : **44 fiches pour 3 990**.
+**Ce que la SERP a définitivement tranché sur les boîtiers** : `boitier pour montres` 2 900 **et**
+`boitier montre` 1 600 **et** `boitier de montre` sont **tous les trois** des boîtes de rangement.
+La famille « Boîtiers » ne garde que `boîtier de montre vide` et `boîtier montre NH35`. Le **field**
+tombe au 19ᵉ rang (Anna Field, Khaki Field), le **sport chic** au 20ᵉ avec **14 recherches par
+fiche**, le pire rapport du catalogue. Les **cadrans** restent la **surdotation n°1** :
+**44 fiches pour ≈ 3 190**, soit 72 recherches par fiche.
 
-⚠️ **Les six familles de pièces détachées — 29 490 recherches, soit 14 % du total — n'ont jamais
-été confrontées à une SERP.** Sur 20 têtes testées, 3 se sont retournées et 2 familles ont changé
-de tranche. **C'est le prochain angle mort, et il faut le lever avant tout sourcing de pièces.**
+⛔ **L'angle mort des pièces est levé — et il coûte 12 310 recherches (T-46, 19 SERP).**
+Le bloc tombe de **29 490 à ≈ 17 180**, de **14 % à 8 %** de la demande, pour **86 fiches sur 182**.
+**Quatre retournements** : ① **`verre de montre` désigne d'abord une coupelle de laboratoire**
+(Wikipédia, Fisher Scientific, Jeulin ; 4 recherches associées sur 6 sont scolaires) et
+`changer verre montre` est un **devis de réparation**, pas un achat — la famille chute du 7ᵉ au 10ᵉ
+rang · ② **`boitier montre` est une boîte de rangement**, pas une pièce : le soupçon « réparation »
+était faux, le volume est **déjà compté dans le Rangement** — du 10ᵉ au 16ᵉ rang · ③ **`mouvement
+montre automatique` parle à l'acheteur d'une montre finie** qui compare une spec (8 organiques sur
+10 informationnels) · ④ **`seiko mod` et `mod montre` sont des requêtes de montres finies**, et elles
+ouvrent sur **douze marques françaises de Seiko Mod avec configurateur, 100-562 €**.
+✅ **Trois têtes ressortent propres, et ce sont les plus petites** : `cadran nh35`,
+`insert lunette montre`, `lunette montre`.
+
+⚠️ **Le nouvel angle mort, ce sont les montres finies encore déclaratives** — squelette,
+chronographes, GMT, chiffres arabes, field, sport chic : **35 070 recherches jamais confrontées à
+une SERP**, alors que le taux de retournement cumulé des deux passes est de **7 sur 39**.
 
 **Ce que ça déplace, et ce que ça ne déplace pas.** Le scénario A de T-26 tient : les accessoires ont
 les **KD les plus hauts du corpus** (35, 35, 31) parce qu'en face il y a Amazon et les grandes
@@ -332,7 +370,7 @@ qui justifiait de le garder en cross-sell prioritaire.
 
 ✅ **Levé le 14/08 par T-41** (`journal/2026-08-14-concurrents-fr.md`) : **8 SERP Google France ouvertes, 17 concurrents profilés.** Verdicts à appliquer avant tout sourcing — **`boite a montre` porte OUVERTE** (Amazon n'a qu'une position organique sur 20 ; mais le Shopping est verrouillé de 19 à 48 €, donc **premier prix à 69 €**, pas 49,90 €) · **`remontoir montre automatique` porte OUVERTE**, la plus ouverte du dossier · **`bracelet nato` SEO ouvert, prix fermé** (marché à 10-22 €, vendre en lot de 3) · **`montre squelette homme` ouvert mais nos 399-429 € sont hors de la bande de marché 79-239 €** · ⛔ **`montre de plongée` porte FERMÉE**, le sourcing 200 m ne l'ouvre pas · ⛔ **`montre aviateur` tête fermée** (mot de marque déguisé). ⚠️ **Trou non vu jusqu'ici : porte-montres et présentoirs, 0 fiche chez nous, une collection dédiée chez les trois spécialistes.** ⚠️ **Le trafic SimilarWeb n'a pas pu être obtenu** (403 + mur d'authentification + connecteur MCP non autorisé) : la règle « SimilarWeb × 3 » n'a pas pu être appliquée, aucun verdict ne repose sur des visites.
 
-Reste non mesuré : marché féminin non instruit alors que `montre squelette femme` pèse ≈ 2 070 et que le catalogue est 100 % homme · marges non recalculées sur les nouveaux prix planchers · **les six familles de pièces détachées (29 490) n'ont vu aucune SERP.**
+Reste non mesuré : marché féminin non instruit alors que `montre squelette femme` pèse ≈ 2 070 et que le catalogue est 100 % homme · marges non recalculées sur les nouveaux prix planchers · **les six familles de montres finies encore déclaratives (35 070 recherches : squelette, chronographes, GMT, chiffres arabes, field, sport chic) n'ont vu aucune SERP** · **les douze marques françaises de Seiko Mod découvertes par T-46 n'ont pas été profilées** (le dossier de positionnement n'en connaît que cinq).
 
 **Ajouté le 14/08 en fin de journée par T-43, sur la vérification SERP** (`journal/2026-08-14-verification-serp.md`) :
 

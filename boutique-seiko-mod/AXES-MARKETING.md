@@ -281,6 +281,24 @@ jamais ouvert une montre. Le catalogue de pièces est la **preuve** du discours,
   tiers. Elles peuvent vivre dans le texte de la page, **jamais dans un titre de flux Shopping**.
   C'est le même piège que `seiko mod`, déjà identifié.
 
+> ✅ **Vérifié en SERP le 14/08 (T-46, `journal/2026-08-14-verification-serp-pieces.md`), et une
+> phrase est à corriger.** Les 7 lignes de pièces ont été confrontées à 19 pages 1 françaises.
+> **L'axe tient — comme preuve d'expertise, pas comme source de trafic**, ce que la dernière puce
+> ci-dessus disait déjà. Trois constats le confirment et l'encadrent.
+> ① **Le volume n'est pas là** : le bloc pièces tombe de 29 490 à **≈ 17 180**, soit **8 % de la
+> demande de la boutique pour 47 % du catalogue**.
+> ② ⛔ **La phrase « aucun ne vend le cadran, l'aiguille, le verre et le mouvement » est vraie des
+> cinq concurrents du dossier de positionnement, et fausse du marché français.** **Onze maisons
+> vendent exactement ça et tiennent les pages 1** : My-Montre (présent sur 12 des 19 têtes testées),
+> Passion Chrono (20 000 références en stock depuis 2003), outils-horloger.eu, Web-Horloger, Masar,
+> WatchesULike, AtelierNet, Timed-horlogerie, creerunemontre.com, plus les grossistes Selfor Paris,
+> Laval Europe, Kalyane Diffusion. **À réécrire en « aucune marque de montres ne vend ses propres
+> organes »** — c'est ce qui reste vrai, et c'est suffisant.
+> ③ ⛔ **Le prix interdit d'aller chercher ce trafic** : aiguilles 2-12 €, verres 4-12 €, inserts
+> 4-36 €, cadrans 10-43 €. **Aucune collection de pièces pour le SEO, rien au flux Merchant Center,
+> aucun sourcing de pièces supplémentaire.** Seule exception envisageable : une page `cadran nh35`,
+> produit exact et SERP faiblement défendue, pour quelques centaines de recherches.
+
 ### Axe B — Tout est écrit, y compris ce que nous ne sommes pas
 
 **La phrase de travail** : nous n'avons pas d'histoire à raconter, alors nous écrivons tout ce qui se
