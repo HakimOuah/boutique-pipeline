@@ -113,12 +113,86 @@ le FKM peut le porter, à trancher) · ④ `bracelet montre femme` 1 300 pour 0 
 
 Les quatre collections actuelles deviennent des sous-collections : leurs mots-clés ne portent aucun trafic propre.
 
+> ⚠️ **Preuve extérieure, 14/08 (T-42).** `maisondutemps.com` exploite exactement cet axe — cinq collections
+> par couleur de cadran (`montre-automatique-cadran-noir` 18 produits, `-cadran-bleu`, `montre-cadran-vert`,
+> `montre-cadran-meteorite`, `montre-quartz-cadran-noir`). **Elles totalisent 5 visites organiques par mois
+> à elles cinq.** La couleur **de cadran** ne se cherche pas ; la couleur **de la montre**, si (1 943 chez lui).
+> Le déclassement de ces quatre collections n'est donc pas une hypothèse : il est vérifié chez un concurrent
+> qui a deux ans d'avance. Détail : `journal/2026-08-14-etude-maisondutemps.md`.
+
 | Sous-collection | Mot-clé | Volume |
 |---|---|---:|
 | Cadrans à chiffres arabes | `cadran arabe` | 20 |
 | Cadrans squelette | `cadran squelette` | 20 |
 | Cadrans pilote 1-12 | `cadran pilote` | **non restitué** |
 | Cadrans stériles | `cadran stérile` | **non restitué** — le mot n'est pas tapé par un particulier |
+
+---
+
+## Niveau 4 — Collections SEO orphelines (ajouté le 14/08 par T-42)
+
+Source : `journal/2026-08-14-etude-maisondutemps.md` — étude complète de `maisondutemps.com`,
+154 collections classées, trafic organique SEMrush réparti URL par URL.
+
+**Le point de méthode, d'abord.** Chez lui, **112 collections sur 154 sont orphelines** : absentes du
+menu et de la page « toutes nos collections », atteignables uniquement par le sitemap. **Elles pèsent
+tout de même ≈ 3 900 visites/mois.** Une collection SEO **n'a pas besoin d'être dans la navigation** —
+donc on peut en créer une vingtaine sans alourdir le menu ni diluer le maillage.
+
+**La condition, en revanche, est stricte.** Chez lui, deux collections quasi identiques font
+**4 500 visites** et **0** : `montres-skeleton-homme` a un H1 et une meta-description propres,
+`montre-squelette-automatique-homme` n'a qu'un `<title>`. **Une collection publiée sans H1 ni
+meta-description ne rapporte rien, quel que soit son mot-clé.**
+
+### Ce qu'on ouvre avec le catalogue actuel — aucun sourcing
+
+| # | Collection | Handle proposé | Preuve chez lui | Volume / KD | Notre offre prête |
+|---:|---|---|---:|---|---|
+| 1 | **Montres pour petit poignet (36-40 mm)** | `montre-homme-petit-poignet` | **520 visites/mois** | grappe ≈ 1 050, KD 11-17 | **15 fiches** Trente-Six + Trente-Neuf |
+| 2 | **Montres à aiguilles** | `montre-aiguille` | **423 visites**, 42 mots-clés | grappe ≈ 2 000, KD 13-18 | **les 63 montres** |
+| 3 | **Bracelets de montre en acier** | `bracelet-montre-acier` | **442 visites**, 54 mots-clés | 480, **KD 6** | **5 fiches** (Présidentiel ×2, acier massif, Jubilé, milanais) |
+| 4 | **Montres octogonales** | `montre-octogonale` | **222 visites**, position 1 | 320 **KD 10** + hexagonale 170 | **Squelette Octogone** |
+| 5 | **Par couleur** : noire · rose · bleue · verte · dorée · blanche | `montre-homme-noir`, `-rose`… | **1 943 sur l'axe** | 260-1 600 par couleur, KD 13-19 | nos coloris couvrent les 6 |
+| 6 | **Montres fines / plates** | `montre-homme-plate` | **207 visites** | `montre homme fine` 320 KD 17 | ⚠️ épaisseurs réelles à vérifier d'abord |
+
+**Ce bloc vaut ≈ 3 400 visites/mois chez lui, pour 0 € de sourcing et ~11 pages.**
+
+### Deux axes qui demandent du sourcing, par rendement
+
+| Axe | Preuve | Volume / KD | Notre offre | Ce qu'il faut |
+|---|---:|---:|---|---|
+| **Montres carrées** | 461 visites | `montres carrées pour homme` **2 400 KD 13** | Squelette Carré (1) | 4-6 boîtiers carrés |
+| **Montres squelette** | **4 500 visites**, 23 requêtes sur **une seule URL** | voir Niveau 2 n°1 | 2 fiches contre **44** chez lui | 8-10 fiches, **dans la bande 155-295 €** |
+
+### ⛔ Ce qu'on ne crée pas — vérifié mort chez lui
+
+| Axe | Son trafic | Note |
+|---|---:|---|
+| Diamètre en mm (`montre-42mm` 72 produits, `-40mm`, `-38mm`) | **66** | Filtre, pas requête. Remplacé par « petit poignet ». |
+| Étanchéité en ATM (5 pages) | **94** | Idem. |
+| Couleur de cadran isolée (5 pages) | **5** | Voir l'encadré du Niveau 3. |
+| Disponibilité — `montres-en-stock` / `montres-en-precommande` | **0** | Filtre marchand, jamais un mot-clé. |
+| Opérations datées (soldes, French Days, Fête des pères, Black Friday) | **0** | Utile en campagne, jamais en SEO. |
+| Registre — `classique`, `élégante`, `sport chic`, `vintage` | **0** | ⚠️ **Confirme la surdotation n°1** : nos 14 fiches sport chic / bracelet intégré ne trouveront pas de trafic. |
+| Cote de bracelet en mm — `bracelets-14mm`, `bracelets-20mm` | **0** | ⚠️ **Contredit `bracelet montre 20mm` 390 KD 10** retenu au Niveau 2 ter. À re-trancher. |
+| `montres-de-plongee-homme` (3 pages) · `montres-aviateur-homme` | **0** | **Confirmation indépendante des deux portes fermées de T-41.** |
+| Un article de blog par famille | 253 au total, **0,8 % du site** | Chez lui, ce sont les collections qui gagnent, pas le blog. |
+
+### Deux mots à ne pas prendre malgré leur volume
+
+⚠️ **`montre argent` / `montre-argent-homme`** (878 visites chez lui) : « argent » y désigne **la
+couleur de l'acier**, pas le métal. Volume réel (`montre en argent` 2 400 KD 15), mais la page devrait
+dire « acier couleur argent » dès le H1, et **jamais « montre en argent » dans un titre de flux**.
+
+⚠️ **`montre-automatique-francaise`** (196 visites) : allégation d'origine. Même famille que le
+« 904L » et les « cadrans stériles » purgés le 08/08. **On ne prend pas ce mot.**
+
+### Le nommage à reprendre
+
+Le titre affiché porte la marque, le **meta title** porte le SEO :
+`Montre {Genre} {Mouvement} {Modèle} {Diamètre} Bracelet {Matière} | MAISON NOIRMONT`,
+et pour les collections `{Mot-clé} : dès {prix}€ - MAISON NOIRMONT`.
+⚠️ **Sans nom de calibre tiers** dans le champ qui part au flux Merchant Center — lui met « Miyota ».
 
 ---
 
@@ -215,6 +289,26 @@ inaccessible (champ `contenteditable` non pilotable), d'où 26 mots-clés mesur�
 contraintes d'acquisition, pas de marge · 7 expressions écartées d'office (`presentoir montre`,
 `coussin montre`, `boite a montre bois`, `remontoir silencieux`, `bracelet montre 19mm` et `21mm`,
 `bracelet cuir vintage`), aucune ne change le classement des trous.
+
+**Ajouté le 14/08 par T-42, sur l'étude de `maisondutemps.com`** (`journal/2026-08-14-etude-maisondutemps.md`) :
+
+- ✅ **Le §3.1 du dossier concurrents est corrigé.** Il recommandait de reprendre ses axes
+  « diamètre, étanchéité, couleur de cadran, disponibilité » et chiffrait « 40 collections
+  gratuites ». **Ces quatre axes pèsent 165 visites sur 30 600 chez lui, soit 0,5 %.** Ils sont
+  remplacés au Niveau 4 par couleur / forme / poignet / épaisseur (**3 693 visites**).
+- ⚠️ **Ses 30 600 visites contiennent ≈ 10 500 de marque** (« maison du temps » et variantes).
+  Son trafic générique réel est de l'ordre de **20 000**. Tout chiffre de comparaison tiré du dossier
+  du 14/08 au matin est à relire avec cette décote.
+- ⚠️ **71 % de son trafic tient sur 4 pages** (home, `montres-homme`, `montres-skeleton-homme`,
+  `montres-automatiques-homme`). « 154 collections de longue traîne » est exact en nombre et faux en
+  effet.
+- **Il ne fait pas de Google Ads** : 4 mots-clés payants au 12/08, rapport publicitaire vide depuis.
+  30 600 visites sur un ticket 155-385 €, à l'organique pur. Contre-modèle du Kraken payant.
+- **Non mesuré, et bloquant pour deux actions du Niveau 4** : l'épaisseur réelle de nos Trente-Six et
+  Trente-Neuf (page `montre-homme-plate`) et la nature du mouvement de nos 12 chronographes — quartz
+  ou automatique (page `montres-quartz-homme`, 385 visites chez lui).
+- **SimilarWeb toujours inaccessible** : aucun verdict de T-42 ne repose sur des visites totales,
+  tout est du trafic organique estimé SEMrush du 12/08/2026.
 
 **Ajouté le 14/08 au soir, sur la consolidation des volumes** (`journal/2026-08-14-volumes-consolides.md`) :
 
