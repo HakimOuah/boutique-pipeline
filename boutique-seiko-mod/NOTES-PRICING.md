@@ -1,6 +1,11 @@
 # Maison Noirmont — notes de pricing
 
-Toutes les remarques de prix relevées au fil des études, rassemblées ici en attendant **la passe dédiée de calcul des marges réelles** (décision de Hakim, 14/08/2026).
+> ✅ **La passe de marges a été faite le 14/08/2026. Le livrable est [`GRILLE-PRIX.md`](GRILLE-PRIX.md)** —
+> prix cible et marge réelle pour les **96 fiches actives**, comparable identifié fiche par fiche.
+> **Ce document reste la matière première** (bandes de marché relevées, CPC, contraintes) ;
+> la grille arbitrée, elle, est dans `GRILLE-PRIX.md`.
+
+Toutes les remarques de prix relevées au fil des études, rassemblées ici.
 **Aucun prix n'a été écrit sur la boutique** depuis le 09/08. Prix actuels : montres **279 à 429 €**.
 
 ---
@@ -153,7 +158,28 @@ Le relevé concurrentiel du 14/08 penche vers la seconde sur les **montres squel
 
 ---
 
-## 5. Points à trancher lors de la passe marges
+## 5. Points à trancher lors de la passe marges — ✅ **traités le 14/08, réponses dans `GRILLE-PRIX.md`**
+
+**Réponses en une ligne chacune, avant le détail historique conservé ci-dessous :**
+
+| Question | Réponse du 14/08 |
+|---|---|
+| 1. Les squelettes | **279 €**, juste sous `maisondutemps` (285-295 €). Marge **50,1 % / 46,3 %**. |
+| 1 bis. Le haut de gamme sous 340 € ? | **Oui.** Plafond de gamme fixé à **329 €**, juste sous le dernier prix de la bande dense (Montignac 339 €). |
+| 1 ter. Le GMT | **Ne rien toucher** — confirmé. 349 → 419 €, **173,75 € de marge, la meilleure du catalogue en euros**. |
+| 2. Outils, verres, bracelets sous le seuil | **Prix inchangés, sortie de la publicité.** 9 fiches cassent encore le ratio (3 bracelets, 5 outils, 1 lot de coussins) : organique et cross-sell seulement. |
+| 3. Les coffrets à 69-149 € | **Oui, largement.** Premier prix à **69,90 €** au lieu de 24,90 € : la marge passe de **33,8 % à 75,3 %**. |
+| 4. Les NATO en lot de 3 | **Non chiffré** — aucune fiche NATO n'existe encore au catalogue. |
+| 5. Le plancher boîtiers à 64 € | Sans objet : **plus aucun sourcing de pièces** depuis la décision du 14/08. |
+| 6. Recalculer sur les coûts API | **Fait pour 68 fiches** (classe A). **28 fiches restent sur le registre du 24/07** (classe B) et sont à reconfirmer ; **4 remontoirs bois n'ont aucun coût** et n'ont pas été chiffrés. |
+
+⛔ **La trouvaille de la passe** : l'`integrale-*-sport-chic-acier` coûte **147,76 € rendu** contre un
+comparable de marché à **175-210 €** (SILA Paris). À 199 €, la marge tombe à **15,04 €, soit 9,1 %**.
+**Le comparable de cette famille est sous notre prix de revient** — les 7 fiches descendent à 329 €,
+sortent de la publicité, et deviennent les premières candidates au dépeuplement.
+
+### Les questions d'origine
+
 
 1. **Les squelettes** : reprixer dans la bande **190-300 €** — le relevé T-47 la confirme et montre que **le seul palier au-dessus (445 €) est tenu par « Assemblée en France »**, argument que nous n'avons pas. Assumer 399-429 €, c'est rester dans un trou de marché.
 1 bis. **Le chapeau `montre automatique homme`** : **notre 279-339 € est au cœur des seize prix relevés** ; **notre 399-429 € est dans le vide entre 340 et 390 €**, puis face à Seiko Presage (419 €) et Charlie Paris (445 €). **Faut-il ramener tout le haut de gamme sous 340 € ?**
