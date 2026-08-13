@@ -1,7 +1,16 @@
 # Maison Noirmont — arborescence proposée
 
-Mesures SEMrush France des 13 et **14/08/2026**. Sources : `journal/2026-08-13-recherche-mots-cles.md`, `journal/2026-08-13-dossier-positionnement.md`, `journal/2026-08-14-mots-cles-accessoires.md` et **`journal/2026-08-14-volumes-consolides.md`**.
+Mesures SEMrush France des 13 et **14/08/2026**. Sources : `journal/2026-08-13-recherche-mots-cles.md`, `journal/2026-08-13-dossier-positionnement.md`, `journal/2026-08-14-mots-cles-accessoires.md`, **`journal/2026-08-14-volumes-consolides.md`** et **`journal/2026-08-14-verification-serp.md`**.
 **Statut : proposition, en attente de la décision de positionnement (T-26).**
+
+> 🔎 **Deux niveaux de preuve dans tout ce document, à ne jamais confondre.**
+> **`V` = vérifié en SERP Google France le 14/08 (T-43)** — 20 pages 1 ouvertes, intention testée
+> contre ce que Google sert réellement. **Sans marque = déclaratif** : le volume vient de SEMrush,
+> l'intention est supposée. **20 têtes testées, 3 retournements, 2 déplacements de rang majeurs** —
+> le taux d'erreur des chiffres déclaratifs est donc loin d'être nul.
+> **Familles vérifiées** : rangement, bracelets, remontoirs, outillage, NATO, aviateur, plongeuse.
+> **Familles encore déclaratives** : toutes les pièces détachées (29 490) et les montres finies
+> hors aviateur et plongeuse.
 
 > ⚠️ **Tous les volumes de ce document ont été refaits le 14/08 au soir.** On y lisait une **tête**
 > par famille ; on y lit maintenant le **total des formulations qu'une même page sert** (variantes
@@ -32,15 +41,15 @@ Volumes **consolidés** : somme des formulations qu'une seule page de collection
 | # | Collection | Mot-clé cœur | Brut | **Net** | KD | Produits | Rech./fiche | Verdict |
 |---|---|---|---:|---:|---:|---:|---:|---|
 | 1 | **Montres squelette** | `montre squelette homme` 2 900 | 23 340 | **17 120** | 16 | **2** | **8 560** | 🔴 **Trou n°2 de la boutique.** Cible 8-10 fiches. Marque retirée : 6 220 (Fossil, Tissot, Festina). |
-| 2 | **Montres style plongeuse** | `montre plongeuse` **1 000** | 16 920 | **13 540** | 13 | **3** | 4 513 | 🔴 **Trou n°3.** ⚠️ `montre de plongée` (11 630) reste **interdit d'écriture** à 5 bar — mais la racine **`plongeuse` 1 910 est libre et déjà le nom de la collection.** |
+| 2 | **Montres style plongeuse** `V` | `montre plongeuse` **1 000** | 16 920 | ⛔ **≈ 1 910** | 13 | **3** | 637 | ⛔ **Effondrement du 14/08 (T-43).** Google affiche en tête de SERP : « **Résultats, y compris pour montre plongée. Essayez avec l'orthographe montre plongeuse uniquement.** » **Il rabat `plongeuse` sur `de plongée` et sert la même page 1.** La racine n'est donc **pas** libre : impossible de se classer sur l'une sans l'autre, et l'allégation 200 m revient par la SERP. Page 1 = Tudor, Seiko officiel, Lepage, Rigal (400-3000 €) + 6 tops éditoriaux. **11 630 retirés. Passe du 5ᵉ au 16ᵉ rang. Ne plus étoffer les 3 fiches.** |
 | 3 | **Chronographes** | `montre chronographe` **2 400** | 16 100 | **11 150** | 14 | 12 | 929 | ✅ **Monte devant aviateur.** Famille prête, 12 fiches en rayon. |
-| 4 | **Montres aviateur** | `montre aviateur` 1 600 | 8 590 | **7 510** | — | **2** | 3 755 | 🔴 **Aucune collection n'existe.** À créer + 4 fiches. ⚠️ `radio pilotée` (3 230) exclu : autre produit. |
+| 4 | **Montres aviateur** `V` | `montre aviateur` 1 600 | 8 590 | **7 510** | — | **2** | 3 755 | ⛔ **Volume réel, porte fermée — vérifié en SERP.** La peur « aviateur = lunettes de soleil » ne se vérifie pas : c'est bien notre produit. Mais la page 1 est un **mur de marques et d'institutions** — Ministère des Armées (position 1), IWC, Lepage (Longines/Oris/Zenith/Breitling/Hamilton), Casio, Laco, Tudor, Patrouille de France — plus 2 tops éditoriaux. C'est un **mot de patrimoine, pas un mot de produit**. **Ne pas créer la collection.** ⚠️ `radio pilotée` (3 230) exclu : autre produit. |
 | 5 | **Montres GMT** | `montre gmt` 1 000 | 4 850 | **3 710** | 12 | 6 | 618 | ✅ Dotée. Une part de la grappe est pédagogique. |
 | 6 | **Montres à chiffres arabes** | `montre chiffre arabe` 880 | 3 300 | **2 590** | **6** | 5 | 518 | ✅ **Trou de nommage, pas d'offre.** Vaut 3× plus qu'annoncé. Le gain le moins cher du dossier. |
 | 7 | **Montres field** | `montre field` 110 | 1 310 | **≈ 300** | 11 | 4 | 75 | ⛔ **Pas une collection.** La grappe est faite d'**Anna Field** (Zalando) et **Khaki Field** (Hamilton). |
 | 8 | **Sport chic / bracelet intégré** | `montre bracelet intégré` 110 | ≈ 300 | **≈ 200** | 11 | **14** | **14** | ⛔ **Surdotation n°1 du catalogue.** Le reste de la grappe est de la montre **connectée**. Plus aucun sourcing. |
 | — | **Classiques (chapeau)** | `montre automatique homme` 9 900 | *90 690* | *41 020* | **29** | 15 | — | ⚠️ **Ne s'additionne pas aux familles** : les formulations de famille en ont été retirées. Page d'accueil + Classiques. |
-| — | **Total familles, hors chapeau** | | **74 710** | **56 120** | | **48** | | |
+| — | **Total familles, hors chapeau** | | **74 710** | **44 490** | | **48** | ⚠️ −11 630 après SERP (plongeuse). Sur ce total, **9 420 sont sur des portes vérifiées fermées** (aviateur 7 510, plongeuse 1 910). | |
 
 ⚠️ **Piège** : côté montres à chiffres arabes **orientaux**, le seul volume est `seiko arabic dial` **8 100** — marque tierce, **inutilisable**. Le mot exploitable est `montre chiffre arabe` 880 (famille 2 590), et il désigne des chiffres **occidentaux**. Les 3 980 recherches de la racine orientale (`montre arabic dial`, `montre ecriture arabe`) sont exclues du total : gisement fournisseur épuisé, documenté trois fois.
 
@@ -72,14 +81,14 @@ Mesures du 14/08/2026, source `journal/2026-08-14-mots-cles-accessoires.md`.
 
 | # | Collection | Handle proposé | Mot-clé cœur | Brut | **Net** | KD | CPC | Produits | Verdict |
 |---|---|---|---|---:|---:|---:|---:|---:|---|
-| 1 | **Rangement : boîtes, coffrets, étuis, écrins** | `boite-a-montre` **(à créer)** | `boite a montre` **5 400** | 67 580 | **65 570** | 35 | 0,38 $ | **3 utiles / 9** | 🔴 **Trou n°1 de toute la boutique, × 6.** **21 856 recherches par fiche existante.** Une seule page : boîte 40 240 + coffret 15 730 + **étui 5 110** + écrin 1 440 + `boitier pour montres` **2 900** rapatrié des pièces. Recoupement mesuré entre les 4 racines : **60**. Cible 8-10 fiches, dont 3 « homme ». |
-| 2 | **Bracelets de montre** | `bracelets` → `bracelet-montre` | `bracelet montre` **6 600** | ≥ 67 560 | **≥ 40 650** | **31** | 0,41 $ | **10** | ⚠️ **Plancher, pas un total** : lecture arrêtée à 590 sur une grappe de 465 650. Marque retirée : **26 910**. 44 970 autres retirés (connectées, montres finies, réparation). Zone la moins sûre du corpus. |
-| 3 | **Remontoirs** | `remontoirs` → `remontoir-montre-automatique` | `remontoir montre automatique` **4 400** | 34 250 | **33 670** | 18 | 0,55 $ | **11** | ✅ **Meilleure intention du catalogue, et × 7,6.** Correctement dotée — ne plus étoffer. ⚠️ **Le piège « remontoir = réparation » est faux en volume : 440 sur 34 250, soit 1,3 %.** La règle de titrage reste bonne, le mot nu n'est pas empoisonné. |
-| 4 | **Outils d'horloger** | `outils-d-horloger` *(inchangé)* | `outil horloger` 390 | 10 860 | **9 600** | **8** | 0,20 $ | 8 (+6 pièces) | ✅ **× 25.** Deux racines : `outil horloger` 2 110 + `outil montre` 7 490 (`outil pour ouvrir une montre` 390 × 3 formes). ⚠️ **Incomplet d'environ 1 200** : `tournevis horloger`, `loupe horloger`, `kit horlogerie` échappent aux deux requêtes. |
-| 5 | **Bracelets NATO** | `bracelet-nato` **(à créer)** | `bracelet nato` **1 900** | 8 430 | **≈ 6 000** net de recoupement | 9-11 | 0,38 $ | **0** | 🔴 **Le trou le plus propre du dossier, × 2,8.** Aucune marque dans le vocabulaire. ⚠️ `bracelet nato james bond` 110 : licence, à ne pas écrire. |
+| 1 | **Rangement : boîtes, coffrets, étuis** `V` | `boite-a-montre` **(à créer)** | `boite a montre` **5 400** | 67 580 | **59 410** | 35 | 0,38 $ | **3 utiles / 9** | 🔴 **Trou n°1 de toute la boutique.** **19 803 recherches par fiche existante.** Une seule page : boîte 40 240 + coffret **11 010** + **étui 5 110** + `boitier pour montres` **2 900**. ✅ **SERP : les 3 têtes principales servent exactement la boîte de rangement, Amazon n'a qu'1 position organique sur 10, la page 1 est aux boutiques indépendantes.** ⛔ **−1 440 : `ecrin montre` retiré** (emballage B2B bijoutier à 1-3 €, + la boîte d'origine du fabricant, + « écrin montre c'est quoi »). ⚠️ **−4 720 : `coffret montre` / `coffret montre homme` ambigus à ~30 %** (coffret **cadeau contenant une montre** : Histoire d'Or, Marc Orian, Pierre Lannier). Cible 8-10 fiches, dont 3 « homme ». |
+| 2 | **Bracelets de montre** `V` | `bracelets` → `bracelet-montre` | `bracelet montre` **6 600** | ≥ 67 560 | **≥ 40 450** | **31** | 0,41 $ | **10** | ✅ **N'est plus la zone la moins sûre : c'est la mieux vérifiée.** SERP sur `bracelet montre`, `bracelet montre homme`, `bracelet montre 20mm` : **aucune bijouterie fantaisie, Amazon 0 position organique sur les 3**, page 1 aux spécialistes (bracelet-montre.eu, montre.com, Camille Fournet, Charlie Paris…). ⚠️ **−200 : `bracelet milanais` capté au tiers par Apple Watch** (Apple.com ×2 en organique). Reste un **plancher** : lecture arrêtée à 590 sur une grappe de 465 650. |
+| 3 | **Remontoirs** `V` | `remontoirs` → `remontoir-montre-automatique` | `remontoir montre automatique` **4 400** | 34 250 | **33 670** | 18 | 0,55 $ | **11** | ✅ **Meilleure intention du catalogue, et la porte la plus ouverte — vérifiée, sans retrait.** Les deux têtes servent le même produit ; **zéro résultat « couronne », zéro réparation sur deux pages 1.** Le piège du §4.1 de T-39 est définitivement mort. Bande de prix 40-400 € : **le plancher Kraken de 55 € est le milieu du marché, pas une contrainte.** ⚠️ **4 positions organiques sur 10 sont éditoriales** (forum, YouTube, 2 guides) — il faut la collection **et** le guide « faut-il un remontoir ? ». Ne plus étoffer. |
+| 4 | **Outils d'horloger** `V` | `outils-d-horloger` *(inchangé)* | `outil horloger` 390 | 10 860 | ⛔ **≈ 3 100** | **8** | 0,20 $ | 8 (+6 pièces) | ⛔ **Effondrement du 14/08 (T-43) : −6 500, du 7ᵉ au 13ᵉ rang.** Trois intentions étrangères se partagent la famille. ① **Mots croisés** — recherches associées « **outil horloger 7 lettres** » et « **outil d'horloger 6 lettres** ». ② **Fournisseur B2B d'atelier + guides** : page 1 = Passion Horlogerie « outillage professionnel », Selfor Paris, Laval Europe, Mon Petit Horloger, La Carafe, Leboncoin occasion ; « Fournisseur d'outillage », « professionnel », « Paris » en recherches associées. ③ **`outil montre` (7 490) = réparation domestique** — kit changement de pile, ouvre-boîtier, 4-36 €, page 1 tenue par **Leroy Merlin › Outillage, Conrad › Outils spéciaux**, recherches associées « **Outil montre Action** », « **Kit réparation montre LEROY MERLIN** ». **L'intuition « outillage = bricolage » est confirmée.** ⛔ **AliExpress se positionne en organique sur `kit horlogerie` : aucune marge défendable. Cross-sell seulement, plus aucun sourcing.** |
+| 5 | **Bracelets NATO** `V` | `bracelet-nato` **(à créer)** | `bracelet nato` **1 900** | 8 430 | **≈ 6 000** net de recoupement | 9-11 | 0,38 $ | **0** | 🔴 **Le trou le plus propre du dossier, × 2,8.** ✅ **SERP : zéro résultat sur l'OTAN.** 100 % bracelet nylon de montre, Amazon 0 position organique. ⚠️ Parasite mineur (~5 %) : « **Nato Cuff** », bracelet bijou coton/paracorde à 9-15 € sur Amazon. ⚠️ **Moitié de la page 1 est éditoriale** (Wikipédia, LeCalibre, Les Rhabilleurs). ⛔ **Prix fermé confirmé : la page 1 marchande vit à 10-22 €** — vendre en lot de 3, ou pas en payant. `bracelet nato james bond` 110 : licence, à ne pas écrire. |
 | — | Hub | `accessoires` *(inchangé)* | — | — | — | — | — | 42 | Page chapeau, 3 publications. |
 | — | Carte cadeau | *aucune page* | `carte cadeau montre` | 20 | **20** | n/a | 1,97 $ | 1 | ⛔ Outil de conversion, pas de trafic. |
-| — | **Total accessoires** | | | **≥ 188 700** | **≥ 155 510** | | | **39** | |
+| — | **Total accessoires** | | | **≥ 188 700** | **≥ 142 640** | | | **39** | ⚠️ −12 870 après SERP. |
 
 ⛔ **La collection « Écrins, rouleaux et étuis » disparaît comme page autonome** : ses mots sont ceux du rangement, une seule page les sert. Ses 9 fiches rejoignent `boite-a-montre`.
 
@@ -88,6 +97,19 @@ Mesures du 14/08/2026, source `journal/2026-08-14-mots-cles-accessoires.md`.
 **Trois têtes à intention commerciale** : `remontoir montre automatique`, `bracelet montre homme`
 1 900 KD 20, `bracelet montre 20mm` 390 KD 10 — contre **une seule** dans tout le reste du corpus.
 S'y ajoute désormais **`boitier pour montres` 2 900, intention commerciale, KD 34**.
+✅ **Les quatre sont vérifiées en SERP le 14/08 : les quatre pages 1 vendent, aucune n'explique.**
+
+✅ **`bracelet montre 20mm` : la contradiction du Niveau 4 est tranchée.** Il était écrit que ses
+390 recherches KD 10 étaient contredites par les collections `bracelets-20mm` de `maisondutemps.com`
+à **0 visite**. La SERP dit le contraire : **cinq marchands tiennent la page 1 avec une page 20 mm
+dédiée** (bracelet-montre.eu, Maison Fèvre, Montre.com, Charlie Paris, Esprit Nato). **C'est la cote
+de la montre (`montre-42mm`) qui est morte, pas la cote du bracelet.** On garde le mot.
+
+⛔ **`ecrin montre` sort du vocabulaire de la boutique.** Ce n'est pas un synonyme de « boîte » : en
+SERP française, c'est **l'emballage que le bijoutier achète en gros** (Selfor Paris, Laval Europe
+« pour professionnels », Swisspack, Ecrins-Bijoux) à **1,00-5,40 €**, ou **la boîte d'origine d'une
+montre neuve** (TAG Heuer, Fauré Le Page). Le mot ne doit apparaître ni en titre de collection,
+ni en titre produit, ni au flux Merchant Center.
 
 ⚠️ **Les pièges, mis à jour.**
 - ~~**`remontoir montre` 1 300 = réparation**~~ — **corrigé le 14/08 au soir** : le sens « couronne »
@@ -100,6 +122,9 @@ S'y ajoute désormais **`boitier pour montres` 2 900, intention commerciale, KD 
   **et `seiko` 960 mots-clés**. **Inutilisable en flux Merchant Center.**
 - **Deux mots génériques à grappe captée** : `bracelet milanais` 590 (grappe **Apple Watch**) et
   `bracelet jubile` 390 (grappe **Rolex** 1 000, CPC 0,00 $). Mots gardables, grappes inaccessibles.
+  ✅ **Vérifié en SERP pour le milanais** : environ un tiers de la page 1 est de l'Apple Watch
+  (Apple.com ×2 en organique, Band-Band, trois comparateurs « Apple bracelet milanais »). **−200.**
+  Les deux tiers restants sont bien de la maille acier générique — le mot se garde.
 - **`bracelet montre cuir` 1 900 ne désigne pas un bracelet** — `montre femme bracelet cuir` 2 400,
   `montre bracelet cuir` 1 900 : ce sont des **montres finies**. Même retournement que `cadran montre`.
 
@@ -211,38 +236,59 @@ accessoires actifs n'avaient jamais été mesurés.
 On comptait une **tête** par famille ; il fallait compter la **somme des formulations qu'une même
 page sert**. Toutes les familles remontent, d'un facteur 3 à 12.
 
-| Bloc | Ancien compte (têtes) | **Net consolidé** | Facteur | Têtes à intention **commerciale** | Offre prête | Panier |
-|---|---:|---:|---:|---:|---:|---|
-| **Accessoires** | ≈ 17 200 | **≥ 155 510** | **× 9,0** | **4** | **39 fiches publiées** | 12,90-324,90 € |
-| Montres finies | 9 200 | **56 120** | × 6,1 | 1 | 57 fiches | 279-429 € |
-| Pièces détachées | 4 070 | **29 490** | × 7,2 | 0 | 0 (86 brouillons) | 12,90-89,90 € |
-| **Total boutique** | ≈ 30 500 | **≥ 241 120** | **× 7,9** | **5** | **96 fiches actives** | |
-| *+ chapeau `montre automatique`, hors total* | *9 900* | *41 020* | — | 0 | 15 | |
+**Correction du 14/08 en fin de journée — 24 500 recherches n'existaient pas pour nous.** Les volumes
+consolidés n'avaient jamais été confrontés à une SERP. Vingt pages 1 françaises ont été ouvertes :
+**trois retournements d'intention de plus, et deux familles qui quittent le haut du tableau.**
+Détail : `journal/2026-08-14-verification-serp.md`.
 
-**Classement final des familles, par volume net de marque**
+| Bloc | Ancien compte (têtes) | Net consolidé | **Net après SERP** | Têtes à intention **commerciale** | Offre prête | Panier |
+|---|---:|---:|---:|---:|---:|---|
+| **Accessoires** | ≈ 17 200 | ≥ 155 510 | **≥ 142 640** | **4** | **39 fiches publiées** | 12,90-324,90 € |
+| Montres finies | 9 200 | 56 120 | **44 490** | 1 | 57 fiches | 279-429 € |
+| Pièces détachées | 4 070 | 29 490 | **29 490** *(aucune tête testée)* | 0 | 0 (86 brouillons) | 12,90-89,90 € |
+| **Total boutique** | ≈ 30 500 | ≥ 241 120 | **≥ 216 620** | **5** | **96 fiches actives** | |
+| *+ chapeau `montre automatique`, hors total* | *9 900* | *41 020* | *41 020* | 0 | 15 | |
+
+**Classement final des familles, net de marque et corrigé en SERP**
+`V` = tête vérifiée en SERP France le 14/08 · sans marque = **déclaratif, intention supposée**.
 
 | # | Famille | Bloc | **Net** | Fiches | Rech./fiche | # | Famille | Bloc | **Net** | Fiches | Rech./fiche |
 |---:|---|---|---:|---:|---:|---:|---|---|---:|---:|---:|
-| 1 | **Rangement** | Acc. | **65 570** | **3** | **21 856** | 12 | Boîtiers | Piè. | 4 420 | 10 | 442 |
-| 2 | **Bracelets** | Acc. | **≥ 40 650** | 10 | 4 065 | 13 | Cadrans | Piè. | 3 990 | **44** | **91** |
-| 3 | **Remontoirs** | Acc. | **33 670** | 11 | 3 061 | 14 | GMT | Mtr. | 3 710 | 6 | 618 |
-| 4 | **Montres squelette** | Mtr. | **17 120** | **2** | **8 560** | 15 | Chiffres arabes | Mtr. | 2 590 | 5 | 518 |
-| 5 | **Style plongeuse** | Mtr. | **13 540** | **3** | 4 513 | 16 | Lunettes | Piè. | 1 970 | 10 | 197 |
-| 6 | **Chronographes** | Mtr. | **11 150** | 12 | 929 | 17 | Aiguilles | Piè. | ≈ 1 390 | 10 | 139 |
-| 7 | **Outillage** | Acc. | **9 600** | 8 | 1 200 | 18 | Hub pièces | Piè. | 580 | — | — |
-| 8 | **Mouvements** | Piè. | **8 980** | 6 | 1 497 | 19 | Field | Mtr. | ≈ 300 | 4 | 75 |
-| 9 | **Verres saphir** | Piè. | **8 160** | 6 | 1 360 | 20 | Sport chic | Mtr. | ≈ 200 | **14** | **14** |
-| 10 | **Aviateur / pilote** | Mtr. | **7 510** | **2** | 3 755 | 21 | Carte cadeau | Acc. | 20 | 1 | 20 |
-| 11 | **NATO** | Acc. | **≈ 6 000** | **0** | **∞** | | | | | | |
+| 1 | **Rangement** `V` | Acc. | **59 410** | **3** | **19 803** | 12 | GMT | Mtr. | 3 710 | 6 | 618 |
+| 2 | **Bracelets** `V` | Acc. | **≥ 40 450** | 10 | 4 045 | 13 | **Outillage** `V` ⛔ | Acc. | **≈ 3 100** | 8 | 388 |
+| 3 | **Remontoirs** `V` | Acc. | **33 670** | 11 | 3 061 | 14 | Chiffres arabes | Mtr. | 2 590 | 5 | 518 |
+| 4 | **Montres squelette** | Mtr. | **17 120** | **2** | **8 560** | 15 | Lunettes | Piè. | 1 970 | 10 | 197 |
+| 5 | **Chronographes** | Mtr. | **11 150** | 12 | 929 | 16 | **Style plongeuse** `V` ⛔ | Mtr. | **≈ 1 910** | **3** | 637 |
+| 6 | **Mouvements** | Piè. | **8 980** | 6 | 1 497 | 17 | Aiguilles | Piè. | ≈ 1 390 | 10 | 139 |
+| 7 | **Verres saphir** | Piè. | **8 160** | 6 | 1 360 | 18 | Hub pièces | Piè. | 580 | — | — |
+| 8 | **Aviateur** `V` ⛔ | Mtr. | **7 510** | **2** | 3 755 | 19 | Field | Mtr. | ≈ 300 | 4 | 75 |
+| 9 | **NATO** `V` | Acc. | **≈ 6 000** | **0** | **∞** | 20 | Sport chic | Mtr. | ≈ 200 | **14** | **14** |
+| 10 | Boîtiers | Piè. | 4 420 | 10 | 442 | 21 | Carte cadeau | Acc. | 20 | 1 | 20 |
+| 11 | Cadrans | Piè. | 3 990 | **44** | **91** | | | | | | |
 
-**Ce qui monte** : outillage **× 25**, verres **× 17**, mouvements **× 15**, remontoirs **× 7,6**,
-rangement **× 6**. Les **chronographes passent devant l'aviateur** (et ils ont déjà 12 fiches).
-Les **remontoirs passent devant les montres squelette**.
+**Le podium ne bouge pas — et il est désormais le seul bloc du dossier vérifié en SERP réelle.**
+Rangement, bracelets, remontoirs : trois portes ouvertes en organique, Amazon à 0 ou 1 position
+sur 10, page 1 aux boutiques indépendantes. C'est la seule certitude solide du dossier.
 
-**Ce qui descend** : les **boîtiers perdent la première place des pièces** — `boitier pour montres`
-2 900 est une boîte de rangement, pas une pièce. Le **field** tombe au 19ᵉ rang (Anna Field, Khaki
-Field), le **sport chic** au 20ᵉ avec **14 recherches par fiche**, le pire rapport du catalogue.
-Les **cadrans** montent en absolu mais restent la surdotation n°2 : **44 fiches pour 3 990**.
+**Ce qui descend en SERP** — ⛔ **l'outillage passe du 7ᵉ au 13ᵉ rang** (mots croisés + fournisseur
+B2B + réparation bricolage tenue par Leroy Merlin) · ⛔ **la plongeuse du 5ᵉ au 16ᵉ** (Google rabat
+`plongeuse` sur `de plongée`, la racine n'était pas libre) · ⛔ **l'aviateur reste 8ᵉ en demande
+mais sa porte est confirmée fermée** (mur de marques et d'institutions).
+**Ces trois familles occupent 13 fiches du catalogue pour ≈ 12 500 recherches inaccessibles.**
+
+**Ce qui monte** : verres **× 17**, mouvements **× 15**, remontoirs **× 7,6**, rangement **× 6**.
+Les **chronographes passent devant l'aviateur** (et ils ont déjà 12 fiches). Les **remontoirs
+passent devant les montres squelette**.
+
+**Ce qui descendait déjà avant la SERP** : les **boîtiers perdent la première place des pièces** —
+`boitier pour montres` 2 900 est une boîte de rangement, pas une pièce, **et la SERP le confirme
+à 100 %**. Le **field** tombe au 19ᵉ rang (Anna Field, Khaki Field), le **sport chic** au 20ᵉ avec
+**14 recherches par fiche**, le pire rapport du catalogue. Les **cadrans** montent en absolu mais
+restent la surdotation n°2 : **44 fiches pour 3 990**.
+
+⚠️ **Les six familles de pièces détachées — 29 490 recherches, soit 14 % du total — n'ont jamais
+été confrontées à une SERP.** Sur 20 têtes testées, 3 se sont retournées et 2 familles ont changé
+de tranche. **C'est le prochain angle mort, et il faut le lever avant tout sourcing de pièces.**
 
 **Ce que ça déplace, et ce que ça ne déplace pas.** Le scénario A de T-26 tient : les accessoires ont
 les **KD les plus hauts du corpus** (35, 35, 31) parce qu'en face il y a Amazon et les grandes
@@ -273,13 +319,40 @@ la moins chère de la boutique est un **remontoir**, pas une montre. Voir §7 du
 rangement — sont **les seules dont les prix tiennent déjà le ratio**. Bracelets et outils sont
 structurellement trop bon marché pour une acquisition payante : **cross-sell et organique seulement**.
 
+✅ **Confirmé en SERP le 14/08 (T-43), avec les bandes de prix réelles de la page 1** :
+**remontoirs 40-400 €** — le plancher de 55 € est le milieu du marché, pas une contrainte ·
+**rangement 19-99 € en Shopping mais 55-380 € chez les indépendants qui gagnent l'organique** ·
+⛔ **bracelets NATO 10-22 €** et ⛔ **outillage 4-36 €, avec AliExpress positionné en organique** :
+ces deux-là sont hors de portée d'une acquisition payante, et l'outillage n'a même plus le volume
+qui justifiait de le garder en cross-sell prioritaire.
+
 ---
 
 ## Ce qui n'a pas été mesuré
 
 ✅ **Levé le 14/08 par T-41** (`journal/2026-08-14-concurrents-fr.md`) : **8 SERP Google France ouvertes, 17 concurrents profilés.** Verdicts à appliquer avant tout sourcing — **`boite a montre` porte OUVERTE** (Amazon n'a qu'une position organique sur 20 ; mais le Shopping est verrouillé de 19 à 48 €, donc **premier prix à 69 €**, pas 49,90 €) · **`remontoir montre automatique` porte OUVERTE**, la plus ouverte du dossier · **`bracelet nato` SEO ouvert, prix fermé** (marché à 10-22 €, vendre en lot de 3) · **`montre squelette homme` ouvert mais nos 399-429 € sont hors de la bande de marché 79-239 €** · ⛔ **`montre de plongée` porte FERMÉE**, le sourcing 200 m ne l'ouvre pas · ⛔ **`montre aviateur` tête fermée** (mot de marque déguisé). ⚠️ **Trou non vu jusqu'ici : porte-montres et présentoirs, 0 fiche chez nous, une collection dédiée chez les trois spécialistes.** ⚠️ **Le trafic SimilarWeb n'a pas pu être obtenu** (403 + mur d'authentification + connecteur MCP non autorisé) : la règle « SimilarWeb × 3 » n'a pas pu être appliquée, aucun verdict ne repose sur des visites.
 
-Reste non mesuré : marché féminin non instruit alors que `montre squelette femme` pèse ≈ 2 070 et que le catalogue est 100 % homme · marges non recalculées sur les nouveaux prix planchers.
+Reste non mesuré : marché féminin non instruit alors que `montre squelette femme` pèse ≈ 2 070 et que le catalogue est 100 % homme · marges non recalculées sur les nouveaux prix planchers · **les six familles de pièces détachées (29 490) n'ont vu aucune SERP.**
+
+**Ajouté le 14/08 en fin de journée par T-43, sur la vérification SERP** (`journal/2026-08-14-verification-serp.md`) :
+
+- **20 SERP France, 3 retournements, −24 500 recherches.** Le podium accessoires tient et devient
+  le seul bloc vérifié ; l'outillage et la plongeuse quittent le haut du tableau.
+- ✅ **Trois peurs de Hakim tombent** : `bracelet` ne ramène **aucune** bijouterie fantaisie,
+  `NATO` **aucune** géopolitique, `aviateur` **aucune** lunette de soleil.
+  ⛔ **Une se vérifie** : `outillage` ramène bien du **bricolage** (Leroy Merlin, Conrad, Action),
+  et même des **mots croisés**.
+- ⚠️ **Le mur de prix du rangement est visible en SERP** : le Shopping est verrouillé par **Songmics
+  à 18,99-26,99 €** (8 fiches sur 10), les indépendants qui gagnent l'organique vendent **55-99 €**,
+  et **il n'y a personne entre les deux**. Le premier prix à 69 € de T-41 tient — mais **il faudra
+  le gagner en organique, pas en Shopping.**
+- ⚠️ **Les portes ouvertes sont mi-éditoriales.** Remontoirs : 4 positions organiques sur 10 sont un
+  forum, une vidéo et deux guides. NATO : Wikipédia et trois magazines. **Une page de collection
+  seule ne prendra pas ces SERP — il faut le guide qui va avec.**
+- **Méthode et limite** : les retraits sont des **pourcentages estimés à la composition de la page 1**
+  (part des positions organiques et des fiches Shopping servant une autre intention), appliqués aux
+  mesures SEMrush de T-42. **Aucun volume n'a été remesuré, aucun KD ni CPC nouveau, aucune page 2
+  lue.** SimilarWeb reste inaccessible : aucun verdict ne repose sur des visites.
 
 **Ajouté le 14/08, côté accessoires** : aucun concurrent profilé sur `boite a montre`, `coffret
 montre homme` ni `remontoir montre automatique` — **et c'est plus grave ici**, un KD 35 tenu par
@@ -315,14 +388,18 @@ contraintes d'acquisition, pas de marge · 7 expressions écartées d'office (`p
 - **Trois familles ne sont lues qu'à la page 1** — bracelets (arrêt à 590 sur une grappe de 465 650),
   rangement-boîte (arrêt à 90), chapeau `montre automatique` (arrêt à 480). **Leurs nets sont des
   planchers, pas des totaux.** Les autres familles sont couvertes en entier ou presque.
-- **Aucune SERP n'a été ouverte dans cette passe.** Or elle fait apparaître **quatre mots nouveaux
-  non instruits par T-41**, pesant ensemble ≈ 12 000 : `boitier pour montres` 2 900,
-  `etui montre` 5 110, `outil pour ouvrir une montre` (3 formes, 1 170) et `montre plongeuse` 1 910.
-  **À profiler avant tout sourcing** — les verdicts « porte ouverte / fermée » de T-41 ne les couvrent pas.
+- ~~**Aucune SERP n'a été ouverte dans cette passe.**~~ — **levé le 14/08 en fin de journée par T-43**
+  (`journal/2026-08-14-verification-serp.md`) : **20 SERP France ouvertes.** Les quatre mots nouveaux
+  y sont tous passés. **`boitier pour montres` 2 900 confirmé à 100 %** (boîte de rangement) ·
+  **`etui montre` 5 110 confirmé** (étui de voyage) · ⛔ **`outil pour ouvrir une montre` retourné**
+  (réparation domestique, rayon bricolage Leroy Merlin / Action) · ⛔ **`montre plongeuse` 1 910
+  retourné** (Google le rabat sur `montre de plongée`, porte déjà fermée par T-41).
 - **Le classement par volume ne dit rien de l'accessibilité.** T-41 a fermé `montre de plongée` et la
-  tête `montre aviateur` sur SERP réelle : ces familles restent 5ᵉ et 10ᵉ **en demande**, ce qui ne les
+  tête `montre aviateur` sur SERP réelle : ces familles restent **en demande**, ce qui ne les
   rouvre pas. Les deux lectures se complètent, aucune ne prime — **le volume dit ce qu'il y a à
-  prendre, la SERP dit si on peut le prendre.**
+  prendre, la SERP dit si on peut le prendre.** ⚠️ **T-43 va plus loin** : sur la plongeuse, la SERP
+  ne dit pas seulement que la porte est fermée, elle dit que **la demande elle-même était mal
+  comptée** — `plongeuse` et `de plongée` sont une seule requête pour Google.
 - **Zone la moins sûre** : ≈ 8 000 recherches du total bracelets (`bracelets cuir montres` 1 900,
   `cuir bracelet montre` 1 000 et voisines) peuvent encore être des **acheteurs de montres finies**.
   Plancher prudent : ≈ 36 000 au lieu de 40 650.
