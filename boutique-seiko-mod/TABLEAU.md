@@ -9,6 +9,20 @@ Dernière mise à jour : **14/08/2026 (soir)** — **dernier angle mort du dossi
 
 ---
 
+## ✅ DÉCISION DE POSITIONNEMENT — 14/08/2026
+
+**La boutique n'est plus une boutique « Seiko mod ».** Décision de Hakim.
+
+**Pourquoi** : le mot qui définit la catégorie est une **marque tierce**, interdite dans le flux Merchant Center, dans un titre produit et en publicité. Construire sur `seiko mod` (8 100) reviendrait à bâtir sur un mot inutilisable là où il compte. S'y ajoutent une question de légalité que Google remonte lui-même en recherche associée, **douze marques françaises déjà installées avec configurateur** entre 100 et 562 € quand nous sommes à 279-429 € et sans configurateur, et surtout le fait que la demande vérifiée est ailleurs : rangement 59 410, bracelets 40 450, remontoirs 33 670, soit ≈ 133 000 recherches sans aucun rapport avec le mod.
+
+**Ce qu'on garde** : la substance. Des montres mécaniques assemblées à mouvement japonais NH35, dont on connaît et dont on vend les organes, avec une transparence complète sur ce qu'il y a dedans. « Mod » est une **technique**, « Seiko » est une **marque** : on garde la première, on abandonne la seconde.
+
+**Ce qu'on abandonne** : le mot Seiko comme positionnement, le sourcing de pièces, les collections de pièces référencées et leur présence au flux. Le catalogue de pièces reste comme **preuve d'expertise** sur les fiches montres et matière d'éditorial. La cartographie des douze marques de mod devient une veille, pas une étude concurrentielle.
+
+**Conséquences ouvertes** : `AXES-MARKETING.md` à relire à cette lumière · les titres et textes qui mentionnent « seiko mod » ou « mod » à revoir · l'effort de sourcing va au **rangement** (3 fiches pour 59 410 recherches).
+
+---
+
 ## 🔴 BLOQUÉ — attend Hakim
 
 ### ~~T-H1 — Coller les 7 politiques légales~~ ✅ FAIT le 12/08 (Hakim)
