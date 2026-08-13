@@ -155,7 +155,9 @@ structurellement trop bon marché pour une acquisition payante : **cross-sell et
 
 ## Ce qui n'a pas été mesuré
 
-Aucune SERP ouverte · aucun concurrent français profilé sur les têtes « montres » (**à instruire avant tout sourcing**) · marché féminin non instruit alors que `montre squelette femme` pèse ≈ 2 070 et que le catalogue est 100 % homme · marges non recalculées sur les nouveaux prix planchers.
+✅ **Levé le 14/08 par T-41** (`journal/2026-08-14-concurrents-fr.md`) : **8 SERP Google France ouvertes, 17 concurrents profilés.** Verdicts à appliquer avant tout sourcing — **`boite a montre` porte OUVERTE** (Amazon n'a qu'une position organique sur 20 ; mais le Shopping est verrouillé de 19 à 48 €, donc **premier prix à 69 €**, pas 49,90 €) · **`remontoir montre automatique` porte OUVERTE**, la plus ouverte du dossier · **`bracelet nato` SEO ouvert, prix fermé** (marché à 10-22 €, vendre en lot de 3) · **`montre squelette homme` ouvert mais nos 399-429 € sont hors de la bande de marché 79-239 €** · ⛔ **`montre de plongée` porte FERMÉE**, le sourcing 200 m ne l'ouvre pas · ⛔ **`montre aviateur` tête fermée** (mot de marque déguisé). ⚠️ **Trou non vu jusqu'ici : porte-montres et présentoirs, 0 fiche chez nous, une collection dédiée chez les trois spécialistes.** ⚠️ **Le trafic SimilarWeb n'a pas pu être obtenu** (403 + mur d'authentification + connecteur MCP non autorisé) : la règle « SimilarWeb × 3 » n'a pas pu être appliquée, aucun verdict ne repose sur des visites.
+
+Reste non mesuré : marché féminin non instruit alors que `montre squelette femme` pèse ≈ 2 070 et que le catalogue est 100 % homme · marges non recalculées sur les nouveaux prix planchers.
 
 **Ajouté le 14/08, côté accessoires** : aucun concurrent profilé sur `boite a montre`, `coffret
 montre homme` ni `remontoir montre automatique` — **et c'est plus grave ici**, un KD 35 tenu par
