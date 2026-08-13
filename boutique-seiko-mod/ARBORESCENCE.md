@@ -1,7 +1,14 @@
 # Maison Noirmont — arborescence proposée
 
-Mesures SEMrush France des 13 et **14/08/2026**. Sources : `journal/2026-08-13-recherche-mots-cles.md`, `journal/2026-08-13-dossier-positionnement.md` et **`journal/2026-08-14-mots-cles-accessoires.md`**.
+Mesures SEMrush France des 13 et **14/08/2026**. Sources : `journal/2026-08-13-recherche-mots-cles.md`, `journal/2026-08-13-dossier-positionnement.md`, `journal/2026-08-14-mots-cles-accessoires.md` et **`journal/2026-08-14-volumes-consolides.md`**.
 **Statut : proposition, en attente de la décision de positionnement (T-26).**
+
+> ⚠️ **Tous les volumes de ce document ont été refaits le 14/08 au soir.** On y lisait une **tête**
+> par famille ; on y lit maintenant le **total des formulations qu'une même page sert** (variantes
+> d'écriture, d'ordre, de nombre, d'accent, synonymes), en **deux chiffres : brut et net de marque**.
+> Toutes les familles étaient sous-comptées d'un facteur **3 à 12**. Méthode, règles de sommation et
+> limites : `journal/2026-08-14-volumes-consolides.md`.
+> **Les KD et les CPC n'ont pas été re-mesurés** : ceux des tableaux ci-dessous restent en vigueur.
 
 ---
 
@@ -19,34 +26,42 @@ L'acquisition réelle ne se joue pas ici mais au niveau des familles, où les KD
 
 ## Niveau 2 — Collections montres finies (les piliers de trafic)
 
-| # | Collection | Mot-clé cœur | Volume | KD | Grappe | Produits | Verdict |
-|---|---|---|---:|---:|---:|---:|---|
-| 1 | **Montres squelette** | `montre squelette homme` | **2 900** | 16 | **8 400** | **2** | 🔴 **Meilleur rapport volume/offre de la boutique.** Cible 8-10 fiches. |
-| 2 | **Montres de plongée (style)** | `montre de plongée` | **1 600** | 13 | **10 900** | **3** | 🔴 **Seule tête à intention commerciale du corpus.** Cible 8 fiches. |
-| 3 | **Montres aviateur** | `montre aviateur` | **1 600** | — | 2 630 | **2** | 🔴 **Aucune collection n'existe.** À créer + 4 fiches. |
-| 4 | **Chronographes** | `montre chronographe homme` | 1 000 | 14 | 7 300 | 12 | ✅ Offre suffisante. |
-| 5 | **Montres GMT** | `montre gmt` | 1 000 | 12 | 5 700 | 6 | ✅ Intention partiellement transactionnelle. |
-| 6 | **Montres à chiffres arabes** | `montre chiffre arabe` | **880** | **6** | 3 100 | 5 | ✅ **Trou de nommage, pas d'offre.** Le gain le moins cher du dossier — les fiches existent et sont habillées. |
-| 7 | **Montres field** | `montre field` | 110 | 11 | 1 300 | 4 | ⚠️ Grappe dominée par Hamilton. |
-| 8 | **Classiques** | `montre automatique homme` | 9 900 | 29 | — | 15 | Collection chapeau. |
-| 9 | **Sport chic / bracelet intégré** | `montre bracelet intégré` | **110** | 11 | 560 | **14** | ⛔ **Seule surdotation du catalogue. Plus aucun sourcing de ce côté.** |
+Volumes **consolidés** : somme des formulations qu'une seule page de collection sert.
+**Brut** = marque comprise · **Net** = hors marque tierce, seul chiffre utilisable en flux Merchant Center.
 
-⚠️ **Piège** : côté montres à chiffres arabes **orientaux**, le seul volume est `seiko arabic dial` **8 100** — marque tierce, **inutilisable**. Le mot exploitable est `montre chiffre arabe` 880, et il désigne des chiffres **occidentaux**.
+| # | Collection | Mot-clé cœur | Brut | **Net** | KD | Produits | Rech./fiche | Verdict |
+|---|---|---|---:|---:|---:|---:|---:|---|
+| 1 | **Montres squelette** | `montre squelette homme` 2 900 | 23 340 | **17 120** | 16 | **2** | **8 560** | 🔴 **Trou n°2 de la boutique.** Cible 8-10 fiches. Marque retirée : 6 220 (Fossil, Tissot, Festina). |
+| 2 | **Montres style plongeuse** | `montre plongeuse` **1 000** | 16 920 | **13 540** | 13 | **3** | 4 513 | 🔴 **Trou n°3.** ⚠️ `montre de plongée` (11 630) reste **interdit d'écriture** à 5 bar — mais la racine **`plongeuse` 1 910 est libre et déjà le nom de la collection.** |
+| 3 | **Chronographes** | `montre chronographe` **2 400** | 16 100 | **11 150** | 14 | 12 | 929 | ✅ **Monte devant aviateur.** Famille prête, 12 fiches en rayon. |
+| 4 | **Montres aviateur** | `montre aviateur` 1 600 | 8 590 | **7 510** | — | **2** | 3 755 | 🔴 **Aucune collection n'existe.** À créer + 4 fiches. ⚠️ `radio pilotée` (3 230) exclu : autre produit. |
+| 5 | **Montres GMT** | `montre gmt` 1 000 | 4 850 | **3 710** | 12 | 6 | 618 | ✅ Dotée. Une part de la grappe est pédagogique. |
+| 6 | **Montres à chiffres arabes** | `montre chiffre arabe` 880 | 3 300 | **2 590** | **6** | 5 | 518 | ✅ **Trou de nommage, pas d'offre.** Vaut 3× plus qu'annoncé. Le gain le moins cher du dossier. |
+| 7 | **Montres field** | `montre field` 110 | 1 310 | **≈ 300** | 11 | 4 | 75 | ⛔ **Pas une collection.** La grappe est faite d'**Anna Field** (Zalando) et **Khaki Field** (Hamilton). |
+| 8 | **Sport chic / bracelet intégré** | `montre bracelet intégré` 110 | ≈ 300 | **≈ 200** | 11 | **14** | **14** | ⛔ **Surdotation n°1 du catalogue.** Le reste de la grappe est de la montre **connectée**. Plus aucun sourcing. |
+| — | **Classiques (chapeau)** | `montre automatique homme` 9 900 | *90 690* | *41 020* | **29** | 15 | — | ⚠️ **Ne s'additionne pas aux familles** : les formulations de famille en ont été retirées. Page d'accueil + Classiques. |
+| — | **Total familles, hors chapeau** | | **74 710** | **56 120** | | **48** | | |
+
+⚠️ **Piège** : côté montres à chiffres arabes **orientaux**, le seul volume est `seiko arabic dial` **8 100** — marque tierce, **inutilisable**. Le mot exploitable est `montre chiffre arabe` 880 (famille 2 590), et il désigne des chiffres **occidentaux**. Les 3 980 recherches de la racine orientale (`montre arabic dial`, `montre ecriture arabe`) sont exclues du total : gisement fournisseur épuisé, documenté trois fois.
+
+⚠️ **Marché femme, hors total : ≈ 8 900 recherches nettes, 0 produit** (squelette 3 300, bracelets 3 360, coffrets 1 170, plongée 650, arabe 540, chronographes 260). Sorti de chaque famille : une collection femme est une décision d'offre, pas une variante d'écriture.
 
 ---
 
 ## Niveau 2 bis — Collections pièces (panier moyen, pas trafic)
 
-| # | Collection | Handle proposé | Mot-clé cœur | Volume | KD | Grappe | Produits | Intention réelle |
+| # | Collection | Handle proposé | Mot-clé cœur | Brut | **Net** | KD | Produits | Intention réelle |
 |---|---|---|---|---:|---:|---:|---:|---|
-| 1 | **Boîtiers de montre** | `boitier-de-montre` | `boitier montre` | **1 600** | 12 | 2 650 | 10 | ⚠️ **Réparation** (« ouvrir », « comment », « démonter »). « Boîtier vide » ne pèse que 27. |
-| 2 | **Mouvements de montre** | `mouvement-nh35` | `mouvement nh35` | **590** | 11 | **5 540** | 6 | Achat de pièce. À étoffer à 10-12. |
-| 3 | **Cadrans de montre** | `cadran-de-montre` | `cadran de montre` | 480 | 13 | 4 400 | **44** | Fusion de 4 collections actuelles. |
-| 4 | **Verres saphir de montre** | `verre-saphir-montre` | `verre saphir montre` | 480 | 13 | 2 770 | 6 | ✅ **Meilleure intention du catalogue** — « changer », « remplacer », « cassé ». |
-| 5 | **Outils d'horloger** | `outils-d-horloger` | `outil horloger` | 390 | **8** | **2 980** | 14 | ✅ Grappe largement sous-estimée. |
-| 6 | **Lunettes et inserts** | `lunette-de-montre` | `lunette montre` | 390 | 14 | 600 | 10 | Secondaire. |
-| 7 | **Aiguilles de montre** | `aiguilles-de-montre` | `aiguilles montre` | 140 | 9 | 770 | 10 | ⚠️ Grappe polluée : « dans quel sens tournent les aiguilles ». |
-| — | Hub | `pieces-detachees-montre` | `pièces détachées montre` | 90 | 12 | 690 | — | Page chapeau. |
+| 1 | **Mouvements de montre** | `mouvement-nh35` | `mouvement nh35` 590 | 10 660 | **8 980** | 11 | 6 | ✅ **1ᵉʳᵉ famille de pièces (× 15).** ⚠️ 5 250 retirés : `montre à mouvement automatique` = **acheteurs de montres finies**. À étoffer à 10-12. |
+| 2 | **Verres saphir de montre** | `verre-saphir-montre` | `verre de montre` 880 | 8 660 | **8 160** | 13 | 6 | ✅ **Meilleure intention du catalogue** — « changer », « remplacer », « polir », « cassé ». Monte de la 4ᵉ à la 2ᵉ place (× 17). |
+| 3 | **Boîtiers de montre** | `boitier-de-montre` | `boitier montre` **1 600** | 4 580 | **4 420** | 12 | 10 | ↘ **Perd la 1ᵉʳᵉ place.** `boitier pour montres` **2 900** (intention **C**, **KD 34**, pluriel) est une **boîte de rangement** : parti au Niveau 2 ter. Réparation (830) partie à l'outillage. |
+| 4 | **Cadrans de montre** | `cadran-de-montre` | `cadran montre` 2 400 | 4 960 | **3 990** | 13 | **44** | ⛔ **Surdotation n°2 : 91 recherches par fiche.** 16 060 retirés : `montre cadran bleu` (montres finies) et cadrans de montre **connectée** (fichiers). Fusion de 4 collections actuelles. |
+| 5 | **Lunettes et inserts** | `lunette-de-montre` | `lunette montre` 390 | 2 090 | **1 970** | 14 | 10 | Secondaire. ⚠️ Fourchette 1 300-1 970 : `montre lunette` (640) peut désigner un coffret « montre **et** lunettes ». |
+| 6 | **Aiguilles de montre** | `aiguilles-de-montre` | `aiguille montre` 320 | 1 710 | **≈ 1 390** | 9 | 10 | ⚠️ **Retournement le plus violent du corpus : 13 980 retirés.** `montres à aiguilles` 1 000, `montre aiguille` 880 = des **montres analogiques**, pas des jeux d'aiguilles. |
+| — | Hub | `pieces-detachees-montre` | `pièces détachées montre` 90 | 1 050 | **580** | 12 | — | Page chapeau. |
+| — | **Total pièces** | | | **33 710** | **29 490** | | **86** | |
+
+⛔ **« Outils d'horloger » ne figure plus ici.** Un mot-clé ne peut appartenir qu'à une famille : l'outillage est attribué au **Niveau 2 ter** (accessoires), où vivent ses 8 fiches actives. Les 6 fiches pièces (porte-mouvements, presse à aiguilles) restent rattachées à la même collection.
 
 ---
 
@@ -55,24 +70,30 @@ L'acquisition réelle ne se joue pas ici mais au niveau des familles, où les KD
 Mesures du 14/08/2026, source `journal/2026-08-14-mots-cles-accessoires.md`.
 **Les 39 accessoires sont actifs, prix posés, collections publiées** — contrairement aux pièces.
 
-| # | Collection | Handle proposé | Mot-clé cœur | Volume | KD | CPC | Grappe | Produits | Verdict |
+| # | Collection | Handle proposé | Mot-clé cœur | Brut | **Net** | KD | CPC | Produits | Verdict |
 |---|---|---|---|---:|---:|---:|---:|---:|---|
-| 1 | **Boîtes et coffrets à montres** | `boite-a-montre` **(à créer)** | `boite a montre` | **5 400** | 35 | 0,38 $ | **18 650** | **3** | 🔴 **Trou d'offre n°1 de toute la boutique.** Têtes cumulées ≈ 11 000. Cible 8-10 fiches, dont 3 « homme » (`boite a montre homme` 2 400 KD 22, `coffret montre homme` 1 300 **KD 15**). |
-| 2 | **Remontoirs** | `remontoirs` → `remontoir-montre-automatique` | `remontoir montre automatique` | **4 400** | 18 | 0,55 $ | **25 600** | **11** | ✅ **Meilleure tête commerciale du catalogue.** Correctement dotée — ne plus étoffer. ⚠️ ne **jamais** titrer `remontoir montre` seul (§4.1). |
-| 3 | **Bracelets de montre** | `bracelets` → `bracelet-montre` | `bracelet montre` | **6 600** | **31** | 0,41 $ | 465 650 | **10** | ⚠️ **Cœur sous réserve** — un tiers du haut de grappe est marque ou montre connectée. Part nette ≈ 4 400. Trou : **NATO 2 620, 0 produit**. |
-| 4 | **Écrins, rouleaux et étuis** | `ecrins-et-rouleaux` → `ecrin-montre` | `ecrin montre` | **390** | **11** | 0,36 $ | 1 600 | **9** | Revue 300-499. ⛔ `rouleau de voyage montre` **non restitué** — 2 mesures. 4 rouleaux à rattacher à `etui a montre` 260. **Surdotation.** |
-| 5 | **Outils d'horloger** | `outils-d-horloger` *(inchangé)* | `outil horloger` | 390 | **8** | 0,20 $ | **2 980** | 8 (+6 pièces) | ✅ Rappel T-21, non re-mesuré. Contrainte de prix, pas d'offre. |
+| 1 | **Rangement : boîtes, coffrets, étuis, écrins** | `boite-a-montre` **(à créer)** | `boite a montre` **5 400** | 67 580 | **65 570** | 35 | 0,38 $ | **3 utiles / 9** | 🔴 **Trou n°1 de toute la boutique, × 6.** **21 856 recherches par fiche existante.** Une seule page : boîte 40 240 + coffret 15 730 + **étui 5 110** + écrin 1 440 + `boitier pour montres` **2 900** rapatrié des pièces. Recoupement mesuré entre les 4 racines : **60**. Cible 8-10 fiches, dont 3 « homme ». |
+| 2 | **Bracelets de montre** | `bracelets` → `bracelet-montre` | `bracelet montre` **6 600** | ≥ 67 560 | **≥ 40 650** | **31** | 0,41 $ | **10** | ⚠️ **Plancher, pas un total** : lecture arrêtée à 590 sur une grappe de 465 650. Marque retirée : **26 910**. 44 970 autres retirés (connectées, montres finies, réparation). Zone la moins sûre du corpus. |
+| 3 | **Remontoirs** | `remontoirs` → `remontoir-montre-automatique` | `remontoir montre automatique` **4 400** | 34 250 | **33 670** | 18 | 0,55 $ | **11** | ✅ **Meilleure intention du catalogue, et × 7,6.** Correctement dotée — ne plus étoffer. ⚠️ **Le piège « remontoir = réparation » est faux en volume : 440 sur 34 250, soit 1,3 %.** La règle de titrage reste bonne, le mot nu n'est pas empoisonné. |
+| 4 | **Outils d'horloger** | `outils-d-horloger` *(inchangé)* | `outil horloger` 390 | 10 860 | **9 600** | **8** | 0,20 $ | 8 (+6 pièces) | ✅ **× 25.** Deux racines : `outil horloger` 2 110 + `outil montre` 7 490 (`outil pour ouvrir une montre` 390 × 3 formes). ⚠️ **Incomplet d'environ 1 200** : `tournevis horloger`, `loupe horloger`, `kit horlogerie` échappent aux deux requêtes. |
+| 5 | **Bracelets NATO** | `bracelet-nato` **(à créer)** | `bracelet nato` **1 900** | 8 430 | **≈ 6 000** net de recoupement | 9-11 | 0,38 $ | **0** | 🔴 **Le trou le plus propre du dossier, × 2,8.** Aucune marque dans le vocabulaire. ⚠️ `bracelet nato james bond` 110 : licence, à ne pas écrire. |
 | — | Hub | `accessoires` *(inchangé)* | — | — | — | — | — | 42 | Page chapeau, 3 publications. |
-| — | Carte cadeau | *aucune page* | `carte cadeau montre` | **20** | n/a | 1,97 $ | 20 | 1 | ⛔ Outil de conversion, pas de trafic. |
+| — | Carte cadeau | *aucune page* | `carte cadeau montre` | 20 | **20** | n/a | 1,97 $ | 1 | ⛔ Outil de conversion, pas de trafic. |
+| — | **Total accessoires** | | | **≥ 188 700** | **≥ 155 510** | | | **39** | |
 
-**Volume cumulé des têtes de niveau 2 ter : ≈ 17 200** (≈ 14 000 net de marque).
+⛔ **La collection « Écrins, rouleaux et étuis » disparaît comme page autonome** : ses mots sont ceux du rangement, une seule page les sert. Ses 9 fiches rejoignent `boite-a-montre`.
+
+✅ **`etui montre` 5 110 annule la condamnation du 14/08 au matin.** Il était écrit que « le rouleau de voyage n'existe pas comme requête » et qu'il ne fallait plus étoffer la sous-famille. **C'était vrai du mot, faux de la chose** : le Français ne dit pas « rouleau de voyage », il dit **« étui »**, et le voyage y pèse ≈ 1 000 (`etui montre voyage` 320, `etui voyage montre` 260, `etui de voyage pour montre` 140). **Les 4 rouleaux ne sont pas une surdotation : ils sont mal nommés.** Coût de la correction : 4 titres.
+
 **Trois têtes à intention commerciale** : `remontoir montre automatique`, `bracelet montre homme`
 1 900 KD 20, `bracelet montre 20mm` 390 KD 10 — contre **une seule** dans tout le reste du corpus.
+S'y ajoute désormais **`boitier pour montres` 2 900, intention commerciale, KD 34**.
 
-⚠️ **Quatre pièges, détaillés au §4 du compte rendu.**
-- **`remontoir montre` 1 300 = réparation** — en français, « remontoir » désigne aussi la **couronne**
-  (`démonter` 74, `enlever` 48, `couronne` 37, `gousset` 152). C'est le `boitier montre` des
-  accessoires. Le qualificatif « automatique » sépare les deux sens, et pèse **plus** que le mot nu.
+⚠️ **Les pièges, mis à jour.**
+- ~~**`remontoir montre` 1 300 = réparation**~~ — **corrigé le 14/08 au soir** : le sens « couronne »
+  (`gousset`, `démonter`, `couronne`, `cylindre`) pèse **440 sur 34 250**. Il était majoritaire en
+  **nombre d'expressions**, jamais en **demande**. La collection se titre toujours
+  `remontoir montre automatique`, mais `remontoir montre` et `remontoir pour montre` sont des acheteurs.
 - **Marques tierces dans les bracelets** : ≈ **38 000 recherches/mois** sur le haut de grappe —
   Apple Watch 4 320, Garmin 7 600, Fossil 3 190, Swatch 3 630, Ice Watch 1 720, Scarlett 1 880,
   Hermès 2 030, Cluse 1 310, Casio 1 470, Samsung/Huawei/Xiaomi/TomTom/Decathlon ≈ 3 080,
@@ -82,9 +103,9 @@ Mesures du 14/08/2026, source `journal/2026-08-14-mots-cles-accessoires.md`.
 - **`bracelet montre cuir` 1 900 ne désigne pas un bracelet** — `montre femme bracelet cuir` 2 400,
   `montre bracelet cuir` 1 900 : ce sont des **montres finies**. Même retournement que `cadran montre`.
 
-**Trous d'offre** — ① rangement ≈ 11 000 pour 3 fiches · ② NATO 2 620 KD 9-11 pour **0** fiche ·
-③ silicone 590 KD 11 pour 0 fiche (trou de vocabulaire : le FKM peut le porter, à trancher) ·
-④ `bracelet montre femme` 1 300 pour 0 fiche.
+**Trous d'offre, reclassés le 14/08 au soir** — ① rangement **65 570** pour 3 fiches utiles ·
+② NATO **≈ 6 000** KD 9-11 pour **0** fiche · ③ silicone 590 KD 11 pour 0 fiche (trou de vocabulaire :
+le FKM peut le porter, à trancher) · ④ `bracelet montre femme` 1 300 pour 0 fiche.
 
 ---
 
@@ -109,18 +130,45 @@ Les quatre collections actuelles deviennent des sous-collections : leurs mots-cl
 | Collection « Cadrans pilote 1-12 », 15 fiches | **0** | Montres aviateur, aucune collection | **2 630** |
 | Collection « Cadran arabe », 5 fiches | **40** | Montres à chiffres arabes, 5 fiches actives | **3 100** |
 
-**Têtes de famille : 9 200/mois côté montres finies contre 4 070 côté pièces.** Grappes ≈ 33 000 contre 20 400.
+**Correction du 14/08 au matin — le total de la boutique était faux d'une famille entière.** Les 39
+accessoires actifs n'avaient jamais été mesurés.
 
-**Correction du 14/08 — le total de la boutique était faux d'une famille entière.** Les 39
-accessoires actifs n'avaient jamais été mesurés. Ils pèsent **≈ 17 200** sur les têtes, soit **plus
-que les montres finies et les pièces réunies**.
+**Correction du 14/08 au soir — il était aussi faux d'un facteur 8 sur toutes les familles.**
+On comptait une **tête** par famille ; il fallait compter la **somme des formulations qu'une même
+page sert**. Toutes les familles remontent, d'un facteur 3 à 12.
 
-| Famille | Têtes | Têtes à intention **commerciale** | Offre prête | Panier |
-|---|---:|---:|---:|---|
-| **Accessoires** | **≈ 17 200** (≈ 14 000 net de marque) | **3** | **39 fiches publiées** | 12,90-324,90 € |
-| Montres finies | 9 200 | 1 | 57 fiches | 279-429 € |
-| Pièces détachées | 4 070 | 0 | 0 (95 brouillons) | 12,90-89,90 € |
-| **Total boutique** | **≈ 30 500** | **4** | **96 fiches actives** | |
+| Bloc | Ancien compte (têtes) | **Net consolidé** | Facteur | Têtes à intention **commerciale** | Offre prête | Panier |
+|---|---:|---:|---:|---:|---:|---|
+| **Accessoires** | ≈ 17 200 | **≥ 155 510** | **× 9,0** | **4** | **39 fiches publiées** | 12,90-324,90 € |
+| Montres finies | 9 200 | **56 120** | × 6,1 | 1 | 57 fiches | 279-429 € |
+| Pièces détachées | 4 070 | **29 490** | × 7,2 | 0 | 0 (86 brouillons) | 12,90-89,90 € |
+| **Total boutique** | ≈ 30 500 | **≥ 241 120** | **× 7,9** | **5** | **96 fiches actives** | |
+| *+ chapeau `montre automatique`, hors total* | *9 900* | *41 020* | — | 0 | 15 | |
+
+**Classement final des familles, par volume net de marque**
+
+| # | Famille | Bloc | **Net** | Fiches | Rech./fiche | # | Famille | Bloc | **Net** | Fiches | Rech./fiche |
+|---:|---|---|---:|---:|---:|---:|---|---|---:|---:|---:|
+| 1 | **Rangement** | Acc. | **65 570** | **3** | **21 856** | 12 | Boîtiers | Piè. | 4 420 | 10 | 442 |
+| 2 | **Bracelets** | Acc. | **≥ 40 650** | 10 | 4 065 | 13 | Cadrans | Piè. | 3 990 | **44** | **91** |
+| 3 | **Remontoirs** | Acc. | **33 670** | 11 | 3 061 | 14 | GMT | Mtr. | 3 710 | 6 | 618 |
+| 4 | **Montres squelette** | Mtr. | **17 120** | **2** | **8 560** | 15 | Chiffres arabes | Mtr. | 2 590 | 5 | 518 |
+| 5 | **Style plongeuse** | Mtr. | **13 540** | **3** | 4 513 | 16 | Lunettes | Piè. | 1 970 | 10 | 197 |
+| 6 | **Chronographes** | Mtr. | **11 150** | 12 | 929 | 17 | Aiguilles | Piè. | ≈ 1 390 | 10 | 139 |
+| 7 | **Outillage** | Acc. | **9 600** | 8 | 1 200 | 18 | Hub pièces | Piè. | 580 | — | — |
+| 8 | **Mouvements** | Piè. | **8 980** | 6 | 1 497 | 19 | Field | Mtr. | ≈ 300 | 4 | 75 |
+| 9 | **Verres saphir** | Piè. | **8 160** | 6 | 1 360 | 20 | Sport chic | Mtr. | ≈ 200 | **14** | **14** |
+| 10 | **Aviateur / pilote** | Mtr. | **7 510** | **2** | 3 755 | 21 | Carte cadeau | Acc. | 20 | 1 | 20 |
+| 11 | **NATO** | Acc. | **≈ 6 000** | **0** | **∞** | | | | | | |
+
+**Ce qui monte** : outillage **× 25**, verres **× 17**, mouvements **× 15**, remontoirs **× 7,6**,
+rangement **× 6**. Les **chronographes passent devant l'aviateur** (et ils ont déjà 12 fiches).
+Les **remontoirs passent devant les montres squelette**.
+
+**Ce qui descend** : les **boîtiers perdent la première place des pièces** — `boitier pour montres`
+2 900 est une boîte de rangement, pas une pièce. Le **field** tombe au 19ᵉ rang (Anna Field, Khaki
+Field), le **sport chic** au 20ᵉ avec **14 recherches par fiche**, le pire rapport du catalogue.
+Les **cadrans** montent en absolu mais restent la surdotation n°2 : **44 fiches pour 3 990**.
 
 **Ce que ça déplace, et ce que ça ne déplace pas.** Le scénario A de T-26 tient : les accessoires ont
 les **KD les plus hauts du corpus** (35, 35, 31) parce qu'en face il y a Amazon et les grandes
@@ -167,3 +215,27 @@ inaccessible (champ `contenteditable` non pilotable), d'où 26 mots-clés mesur�
 contraintes d'acquisition, pas de marge · 7 expressions écartées d'office (`presentoir montre`,
 `coussin montre`, `boite a montre bois`, `remontoir silencieux`, `bracelet montre 19mm` et `21mm`,
 `bracelet cuir vintage`), aucune ne change le classement des trous.
+
+**Ajouté le 14/08 au soir, sur la consolidation des volumes** (`journal/2026-08-14-volumes-consolides.md`) :
+
+- **Trois familles ne sont lues qu'à la page 1** — bracelets (arrêt à 590 sur une grappe de 465 650),
+  rangement-boîte (arrêt à 90), chapeau `montre automatique` (arrêt à 480). **Leurs nets sont des
+  planchers, pas des totaux.** Les autres familles sont couvertes en entier ou presque.
+- **Aucune SERP n'a été ouverte dans cette passe.** Or elle fait apparaître **quatre mots nouveaux
+  non instruits par T-41**, pesant ensemble ≈ 12 000 : `boitier pour montres` 2 900,
+  `etui montre` 5 110, `outil pour ouvrir une montre` (3 formes, 1 170) et `montre plongeuse` 1 910.
+  **À profiler avant tout sourcing** — les verdicts « porte ouverte / fermée » de T-41 ne les couvrent pas.
+- **Le classement par volume ne dit rien de l'accessibilité.** T-41 a fermé `montre de plongée` et la
+  tête `montre aviateur` sur SERP réelle : ces familles restent 5ᵉ et 10ᵉ **en demande**, ce qui ne les
+  rouvre pas. Les deux lectures se complètent, aucune ne prime — **le volume dit ce qu'il y a à
+  prendre, la SERP dit si on peut le prendre.**
+- **Zone la moins sûre** : ≈ 8 000 recherches du total bracelets (`bracelets cuir montres` 1 900,
+  `cuir bracelet montre` 1 000 et voisines) peuvent encore être des **acheteurs de montres finies**.
+  Plancher prudent : ≈ 36 000 au lieu de 40 650.
+- **`montre lunette` / `montres lunettes` (640) non tranchés** — peuvent désigner un coffret
+  « montre **et** lunettes ». Fourchette Lunettes : 1 300 à 1 970.
+- **Outillage incomplet d'environ 1 200** : `tournevis horloger`, `loupe horloger`, `kit horlogerie`,
+  `pince horloger` ne contiennent ni « outil » ni « montre ». La requête `horlogerie` est
+  inexploitable — SEMrush y rabat `horloge` (horloge parlante, horloge murale, bijouteries locales).
+- **Aucun KD ni CPC nouveau** dans cette passe : le mandat portait sur les volumes. Les contraintes
+  de prix ci-dessus sont inchangées.
