@@ -1,6 +1,6 @@
 # Maison Noirmont — état courant
 
-**Dernière vérification : 13/08/2026, soir** (après l'audit des 95 brouillons — `journal/2026-08-13-audit-reparation-brouillons.md` —, la recherche de mots-clés — `journal/2026-08-13-recherche-mots-cles.md` — et l'audit GMC — `journal/2026-08-13-conformite-et-textes.md`).
+**Dernière vérification : 14/08/2026, nuit** (après l'application de la grille de prix — `journal/2026-08-14-application-grille-prix.md`, scan complet des 3 009 variantes de la boutique). Vérifications antérieures du 13/08 : audit des 95 brouillons, recherche de mots-clés, audit GMC.
 Ce fichier dit ce qui **est**, pas ce qu'il faut faire. Pour agir : [`TABLEAU.md`](TABLEAU.md).
 
 ## Chiffres
@@ -12,6 +12,8 @@ Ce fichier dit ce qui **est**, pas ce qu'il faut faire. Pour agir : [`TABLEAU.md
 | Thème | **`TRAVAIL Noirmont — publier apres validation` (`205089014098`) est le thème publié** depuis le 09/08 ; `Maison Noirmont` et `Helio` sont dépubliés. Les correctifs du 08/08 sont donc bien en ligne — sections d'avis et badge « 4,8/5 » vérifiés `disabled: true` le 13/08 |
 | Statut public | **boutique sous mot de passe** — rien n'est visible, aucun risque public actif |
 | Collections | 10 créées le 09/08, **aucune publiée** sur le canal Online Store — **arborescence invalidée le 13/08 par T-21**, 4 des 10 ne portent aucun volume mesurable |
+| **Prix** | ✅ **la grille de prix est appliquée depuis le 14/08 au soir** — 585 variantes réécrites sur 65 des 96 fiches actives, 0 écart au contrôle. Montres : **239 à 419 €** (contre 279-429 € avant). Squelette 279 €, chronographes 239 €, Trente-six 239-259 €, Trente-neuf 279-329 €, Sport chic 279-299 €, Intégrale 329 €, **GMT inchangé à 349-417 €**. Accessoires recalés sur leurs bandes. Sauvegarde : `backups/2026-08-14-prix/avant.jsonl` |
+| **Prix barrés** | **0 sur les 96 fiches actives** ✅ (purge du 08/08 tenue, vérifiée le 14/08) — mais ⛔ **1 926 sur 86 brouillons et 148 sur les 10 archivées** : la purge n'a jamais couvert les fiches non actives. → **T-50** |
 | Merchant Center | **non créé** — volontaire, tant que le CSS n'est pas arrêté |
 | SKU | **2 065 variantes sur 3 009 portent encore un SKU AliExpress brut** — 84 brouillons et 9 archivés, dont 95 contenant « no logo ». Les 96 fiches actives sont propres (`NOIR-<trigramme>-<n°>`) |
 | Consentement cookies | **absent** — ni bandeau `#shopify-pc__banner`, ni `Shopify.customerPrivacy`, ni cookie `_tracking_consent` (requête anonyme du 13/08) |
@@ -23,7 +25,8 @@ Ce fichier dit ce qui **est**, pas ce qu'il faut faire. Pour agir : [`TABLEAU.md
 
 ## Ce qui va bien
 
-- Les **interdits structurants ont tenu** sur la période 10-11/08 : aucun brouillon activé, aucune collection publiée, aucun prix ni `compare_at` modifié.
+- **La grille de prix arbitrée par Hakim est appliquée** (14/08) : 585 variantes, 0 `userErrors`, 0 écart entre le prix attendu et le prix relu, contrôlé par un scan complet des 3 009 variantes plus une contre-vérification paginée par curseur. Les trois cas sensibles ont tenu : **GMT non touché**, **Intégrale à 329 € et pas à leur comparable** (qui est sous notre coût), **remontoirs bois laissés en l'état** faute de coût connu.
+- Les **interdits structurants ont tenu** sur la période 10-14/08 : aucun brouillon activé, aucune collection publiée, aucun statut modifié, aucun `compareAtPrice` réintroduit sur les fiches actives.
 - **~85 visuels maison rattachés** le 10/08, tous en fin de galerie sur les fiches actives, `alt` FR, 2048×2048. Sur 12 images contrôlées en ligne, 11 sont conformes.
 - Le catalogue a été **assaini** : doublons, cadran à verbatim Rolex et fiches incohérentes archivés ; la promesse fausse « tous les cadrans sont stériles » a été corrigée sans qu'on le demande.
 - Un **pack de 7 politiques légales** est prêt à coller (le brief n'en demandait que 3), avec ses bloquants listés. Rien n'a été écrit sur Shopify : la permission manquante a été respectée.
@@ -42,6 +45,7 @@ Ce fichier dit ce qui **est**, pas ce qu'il faut faire. Pour agir : [`TABLEAU.md
 9. **Compte à rebours actif sur `/password`**, aucun `tel:` au pied de page, aucune mention « TTC » : tout est dans le thème **publié**, que le connecteur ne peut pas écrire. → **T-34**
 10. **9 fichiers image partagés entre deux fiches actives** (composites mère/enfant), interdits par la checklist GMC — mais les retirer recréerait la régression que T-01 vient de réparer. → **T-36**
 11. Manques antérieurs au 12/08 : `remontoir-solo` 2/3, `bracelet-fkm-tropical` 1/3. → **T-09**
+12. **2 074 prix barrés dorment sur les fiches non actives** (1 926 sur 86 brouillons, 148 sur les 10 archivées) — découvert le 14/08 au scan de contrôle de la grille de prix. La purge du 08/08 n'avait couvert que les 96 actives. C'est le **motif de refus n°1 de Merchant Center**, et il s'activera avec le premier brouillon publié. Bloque l'activation au même titre que les photos brutes et les SKU AliExpress. → **T-50**
 
 ## Régressions du 12/08 — réparées le soir même
 
