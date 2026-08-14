@@ -1,0 +1,15 @@
+# Preuves de vérification — 15/08/2026
+
+## /pages/mentions-legales (6 essais, cache CDN en cours de purge)
+essai 1 : 200 -> 
+essai 2 : 200 -> 
+essai 3 : 200 -> 
+essai 4 : 200 -> 
+essai 5 : 301 -> https://maisonnoirmont.fr/policies/legal-notice?v=14632
+essai 6 : 301 -> https://maisonnoirmont.fr/policies/legal-notice?v=4605
+
+## /policies/legal-notice
+code 200
+
+## Liens légaux rendus sur une fiche produit (pied de page)
+   2 href="/policies/legal-notice"
