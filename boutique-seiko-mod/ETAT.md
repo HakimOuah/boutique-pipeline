@@ -6,13 +6,15 @@
 **Purge du 15/08** (`journal/2026-08-15-purge-prix-barres.md`) : **T-50 soldé — 2 074 prix barrés dormants remis à `null` sur 86 brouillons et 10 archivées**, prouvé par un scan paginé des 3 009 variantes.
 **Corrections du connecteur le 15/08 à midi** : description de `carte-cadeau-maison-noirmont` (« 24 h ouvrées » → « 48 h ouvrées », le seul texte **produit** qui portait encore l'ancien délai) et **tag `skx` retiré** des 3 fiches Héritage (référence de modèle Seiko, publique, destinée au flux Shopping). Sauvegardes : `backups/2026-08-15-repasse-2/`.
 
+**Repeuplement du 15/08 au soir** (`journal/2026-08-15-push-dsers-repeuplement.md`) : **20 fiches importées par DSers, toutes `DRAFT`**, SKU maison `NOIR-*`, prix de la file, `compareAtPrice` à `null`, collection rattachée — 4 coffrets bois, 1 malette, 1 porte-montre, 4 plongeuses 36, 2 plongeuses 42 titane, 6 squelettes 40, 2 squelettes à pont. ⛔ **Les 2 coffrets aluminium n'ont pas été créés** : leur article fournisseur est **déjà celui de la fiche active `coffret-douze-aluminium`** (mapping DSers en preuve) → arbitrage T-60. ⛔ **4 de ces fiches sont `Unmapped` dans DSers** et l'interface refuse de persister le mapping → T-59. **Les 20 fiches portent les photos AliExpress brutes et leurs descriptions fournisseur en anglais** : deux verrous d'activation, les visuels d'abord (T-61, brief écrit) puis les textes.
+
 Ce fichier dit ce qui **est**, pas ce qu'il faut faire. Pour agir : [`TABLEAU.md`](TABLEAU.md), et pour Hakim : [`A-FAIRE-HAKIM.md`](A-FAIRE-HAKIM.md).
 
 ## Chiffres
 
 | | |
 |---|---|
-| Catalogue | **201 produits** — 96 actifs · 95 brouillons · 10 archivés |
+| Catalogue | **221 produits** — 96 actifs · **115 brouillons** · 10 archivés (les 20 fiches de repeuplement importées le 15/08 au soir sont toutes en brouillon) |
 | Évolution depuis le 09/08 | 199 → 201 : 10 archivages (3 doublons, le cadran Rolex, une montre arabe mixte, 3 brouillons stériles, 2 fiches incohérentes) et +2 cadrans arabes importés le 11/08 |
 | Thème | **`TRAVAIL Noirmont — publier apres validation` (`205089014098`) est le thème publié** depuis le 09/08 ; `Maison Noirmont` et `Helio` sont dépubliés. Les correctifs du 08/08 sont donc bien en ligne — sections d'avis et badge « 4,8/5 » vérifiés `disabled: true` le 13/08 |
 | Statut public | ✅ **BOUTIQUE PUBLIQUE depuis le 15/08** — `maisonnoirmont.fr` répond 200, plus de `/password`. **Tout défaut est désormais réel et observable.** 96 produits publics, 14 collections publiques ; les 95 brouillons et 10 archivées **ne sont pas servis** (vérifié : les 10 collections de pièces répondent 404) |

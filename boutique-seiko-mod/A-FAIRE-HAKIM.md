@@ -61,6 +61,33 @@ entrées de menu et les redirections dans la foulée.
 
 ---
 
+# Un arbitrage neuf, et il rapporte de l'argent
+
+## Z. Le coffret aluminium : j'ai arrêté un import, et j'ai trouvé un prix trop bas ⭐
+
+**Ce qui s'est passé.** La file de repeuplement demandait deux fiches de coffret aluminium de plus, à
+**89 €** et **149 €**. Je ne les ai pas créées : leur article fournisseur est **déjà celui de ta fiche
+active `Coffret Douze — aluminium`**. Preuve relevée dans DSers, panneau « Gérer les fournisseurs » :
+`24 montres` → `24 Slots`, `12 montres` → `12 Slots`, `6 montres` → `6 Slots`, et le même coût
+`$12.76 ~ 34.97` des deux côtés. Les créer aurait mis en ligne **deux offres du même objet à deux
+prix** — 84,90 € contre 89 €, et **99,90 € contre 149 €**.
+
+**Ce que ça révèle, et c'est le vrai sujet.** Le calcul de marge du 15/08 place le **24 emplacements
+à 149 €** pour **71,6 % de marge**. Tu le vends **99,90 €**. La grille de prix a un angle mort sur
+cette fiche : **environ 49 € de marge laissés sur la table à chaque vente.**
+
+**Trois issues, à toi de trancher :**
+
+| Issue | Effet |
+|---|---|
+| **Reprixer la fiche existante** (ma recommandation) | Le 24 emplacements passe de 99,90 € à ~149 €. Rien à créer, rien à importer. |
+| Ne rien faire | Le catalogue reste servi, la marge reste basse. |
+| Découper la fiche en trois (6 / 12 / 24) | Trois fiches au lieu d'une variante à trois choix — mieux pour le SEO, mais c'est une refonte de fiche **active**. |
+
+⛔ **Aucune des trois n'est un import.** Dis-moi laquelle et je l'exécute.
+
+---
+
 # Trois arbitrages qui ne bloquent pas
 
 ## A. « Bracelet Présidentiel » / « bracelet Président » — ton appel
@@ -91,3 +118,10 @@ vérifie tout en anonyme et je rends le verdict PRÊT / PAS PRÊT.
 **Ne crée pas le compte Merchant Center avant ce verdict.** Et **ne touche à aucun brouillon** :
 2 065 SKU AliExpress et 1 091 photos brutes dorment sur les fiches non actives ; le premier
 brouillon activé les met en ligne d'un coup.
+
+⚠️ **Ça vaut d'abord pour les 20 fiches importées le 15/08 au soir** (coffrets, malette,
+porte-montre, plongeuses, squelettes). Elles sont propres côté prix et SKU, mais elles portent
+encore **les photos AliExpress brutes** et **leurs descriptions fournisseur en anglais**. Le brief
+images est écrit et prêt à partir chez Codex
+([`BRIEF-VISUELS-CODEX-2026-08-15.md`](BRIEF-VISUELS-CODEX-2026-08-15.md), 20 fiches, 86 visuels) ;
+les textes viennent ensuite. **N'en active aucune avant.**
