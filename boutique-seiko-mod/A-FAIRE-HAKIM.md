@@ -4,6 +4,12 @@
 
 Fais-les dans l'ordre. Compte 25 minutes.
 
+> **Mise à jour du 15/08 au matin**, après contrôle du site live en anonyme (`journal/2026-08-15-purge-prix-barres.md` §5) :
+> - ✅ **Point 3 fait aux deux tiers** — « Klarna » a disparu de tout le site. ⛔ Mais **« Paiement en 4 fois » subsiste dans le bandeau défilant des fiches**, un bloc que l'audit d'hier n'avait pas isolé. 1 minute.
+> - ✅ **Point 5a fait** — « Prix TTC » est en place sous le prix des fiches. ⛔ **5b reste** : 0 occurrence sur l'accueil, le panier et les collections.
+> - 🔄 **Point 4 réécrit** : tu demandais s'il valait mieux **activer** Google Pay. **Oui** — c'est une case à cocher dans Shopify Payments, effet immédiat, et ça ajoute un moyen de paiement au lieu d'en retirer un. Voir le **point 3 bis** pour la réponse complète, Klarna comprise (**non, pas maintenant** : candidature, instruction, acceptation non acquise à 0 vente).
+> - ✅ **Hors de cette liste** : les 2 074 prix barrés qui dormaient sur les brouillons et les archivées sont **purgés** (T-50). Rien à faire de ton côté.
+
 Liens directs :
 - Personnalisateur : https://admin.shopify.com/store/v42pzp-h4/themes/205089014098/editor
 - Réglages généraux : https://admin.shopify.com/store/v42pzp-h4/settings/general
@@ -45,7 +51,31 @@ Ce que ça rajoute par rapport à la version en ligne : le **délégué à la pr
 
 ---
 
-## 3. Masquer le bloc « Paiement fractionné » des 96 fiches (1 min)
+## 3. ✅ FAIT aux deux tiers — mais une promesse de 4× a survécu ailleurs (1 min)
+
+> **Relevé le 15/08 au matin, en anonyme.** ✅ **Le bloc « Paiement fractionné » est bien masqué** :
+> « Klarna » ne figure plus **nulle part** sur le site (0 occurrence sur 6 fiches, l'accueil, le panier,
+> `/collections/all` et la FAQ), et le bloc n'existe plus dans `templates/product.json`. Merci.
+>
+> ⛔ **Mais il restait une seconde promesse de 4×, que l'audit d'hier n'avait pas isolée.** Le
+> **bandeau défilant des fiches** — celui qui fait défiler « Livraison offerte en France » et
+> « Garantie 12 mois » — affiche aussi **« Paiement en 4 fois »**, avec une icône de carte bancaire.
+> C'est la même faute, dans un autre bloc, et elle est **publique**.
+>
+> **Où** : Personnalisateur → gabarit **Produit** → section **bandeau défilant** (`marquee_pdp`) →
+> **3e élément, « Paiement en 4 fois »** → les trois points → **Masquer le bloc**. Puis **Enregistrer**.
+>
+> **Si tu veux garder trois éléments dans le bandeau**, remplace-le par une promesse **vraie
+> aujourd'hui** : « Paiement sécurisé » ou « Retours sous 14 jours ».
+>
+> **Vérifier** : `curl -s https://maisonnoirmont.fr/products/voyageur-or-gmt-president | grep -c '4 fois'`
+> doit renvoyer `0`.
+>
+> **Preuve que le 4× n'existe pas** : `/payments/config` donne **`offsiteConfigs: null`** — ce n'est pas
+> un Klarna mal réglé, **aucun prestataire de paiement fractionné n'est installé**. Le 4× PayPal, lui,
+> dépend de PayPal seul et ne se vérifie qu'en allant au bout d'une vraie caisse.
+
+<details><summary>La consigne d'origine (15/08, avant ta correction)</summary>
 
 **Décision de Hakim, 15/08 : on retire la mention Klarna ET le 4×.** Donc on masque le bloc entier, on ne se contente pas de vider un champ.
 
@@ -59,29 +89,88 @@ Ce que ça rajoute par rapport à la version en ligne : le **délégué à la pr
 
 **Le jour où tu veux le remettre** : il faut d'abord que le 4× soit **réellement actif** (4X PayPal validé sur ton compte, ou Klarna après candidature et acceptation). Alors seulement on réaffiche le bloc, en nommant le seul prestataire réellement actif.
 
+</details>
+
+---
+
+## 3 bis. Tu demandais : vaut-il mieux activer Klarna et Google Pay que retirer la mention ?
+
+**Réponse courte : oui pour Google Pay, non pour Klarna.** Et c'est le **délai** qui fait la différence,
+pas le principe.
+
+**Google Pay s'active en une case, tout de suite** — c'est le point 4 ci-dessous, réécrit dans ce sens.
+Pas de dossier, pas de tiers : c'est un portefeuille de **Shopify Payments**, qui est déjà actif chez
+toi. Activer coûte le même temps que retirer le picto, et **ajoute** un moyen de paiement au lieu d'en
+supprimer un.
+
+**Klarna, non — pas maintenant.** Ce n'est pas une case à cocher : Klarna **instruit un dossier
+marchand** (identité de la société, SIREN, coordonnées bancaires, modèle de vente, volumes attendus),
+parce que c'est Klarna qui porte le risque de crédit à ta place. Compte des **jours à des semaines**, et
+**l'acceptation n'est pas acquise** : une boutique à 0 vente, sans historique et en dropshipping, est
+exactement le profil qui se fait examiner de près. Même logique pour Alma, Oney, Scalapay — et pour le
+**4× PayPal**, que PayPal ouvre ou n'ouvre pas sur ton compte, sans que Shopify y puisse quoi que ce soit.
+
+**Et pendant l'instruction du dossier ? On retire le texte d'abord.** C'est le point important, parce
+que le texte est **public** tout du long :
+
+- **Une candidature n'est pas une activation.** Entre le dépôt et la réponse, le site continue de
+  promettre un service qui n'existe pas — à de vrais visiteurs, et à un examinateur Merchant Center qui
+  peut passer n'importe quand.
+- **Si Klarna refuse**, la fausse promesse reste en ligne indéfiniment, et personne ne se souvient
+  d'aller la retirer.
+- **Le coût est asymétrique** : la promesse se découvre **à la caisse**, au moment le plus cher du
+  parcours. Un client venu pour le 4× qui ne le trouve pas ne revient pas.
+- Annoncer un moyen de paiement inexistant relève de la **pratique commerciale trompeuse**
+  (art. L. 121-2 du Code de la consommation), et c'est un motif de refus documenté côté Merchant Center.
+
+**Donc l'ordre est : retirer le texte maintenant → candidater plus tard, après l'ouverture Merchant
+Center, quand tu auras un historique à montrer → ne remettre le texte que le jour où tu auras vu le 4×
+fonctionner dans une vraie caisse**, en nommant alors le prestataire réellement actif. Pas sur la foi
+d'un e-mail d'accord : sur une caisse observée.
+
+*Détail et relevés : `journal/2026-08-15-purge-prix-barres.md` §5.*
+
 **Vérifier** : `curl -s https://maisonnoirmont.fr/products/montre-squelette-automatique-carree | grep -ciE "klarna|4 ×|4x"` doit renvoyer `0`.
 
 ---
 
-## 4. Retirer le picto Google Pay du pied de page (1 min)
+## 4. Activer Google Pay — plutôt que retirer son picto (2 min)
 
-**Où** : Personnalisateur → icône **engrenage « Paramètres du thème »** dans la colonne de gauche → faire défiler jusqu'à l'onglet **« Icônes de paiement »** (19e sur 21, juste après « Liste de souhaits », juste avant « Réseaux sociaux »).
+**Réécrit le 15/08.** La consigne d'hier était de retirer le picto. **Activer est meilleur, et ne coûte
+pas plus cher** : Google Pay est un **portefeuille de Shopify Payments**, et Shopify Payments est déjà
+actif sur la boutique (`shopifyPaymentsEnabled: true`). C'est une case à cocher, **effet immédiat, aucun
+tiers à convaincre** — exactement le même mécanisme qu'Apple Pay et Shop Pay, déjà cochés chez toi.
+Le picto déjà affiché partout cesse d'être un mensonge, et tu gagnes un moyen de paiement.
 
-**Retirer** : la coche de la case **« Afficher manuellement les icônes »** (elle est cochée aujourd'hui, c'est elle qui force les pictos en dur).
+**4a — Activer (le geste utile).**
+**Où** : Réglages → **Paiements** → **Shopify Payments** → **Gérer** → section **Portefeuilles**.
+**Quoi** : cocher **Google Pay**. Enregistrer.
+**Vérifier** : `curl -s https://maisonnoirmont.fr/payments/config | grep -o '"googlePayConfig":[^,]*'` ne
+doit plus renvoyer `null`.
 
-**Mettre** : rien. Une fois la case décochée, le thème affiche automatiquement les moyens de paiement réellement configurés sur la boutique. Google Pay disparaît seul, et ça ne se redégradera plus jamais quand tu ajouteras ou retireras un moyen de paiement.
+**4b — Puis fiabiliser l'affichage des icônes (le geste durable).**
+**Où** : Personnalisateur → icône **engrenage « Paramètres du thème »** → onglet **« Icônes de paiement »**
+(19e sur 21, juste après « Liste de souhaits », juste avant « Réseaux sociaux »).
+**Retirer** : la coche de **« Afficher manuellement les icônes »** (cochée aujourd'hui, c'est elle qui
+force les pictos en dur).
+**Pourquoi quand même** : une fois décochée, le thème affiche **les moyens de paiement réellement
+configurés**. L'affichage suivra tout seul chaque ajout ou retrait, et **ça ne se redégradera plus
+jamais**. Ça corrige aussi un écart en sens inverse relevé le 15/08 : **Amex et Maestro sont acceptés
+sans être affichés**.
 
-**Pourquoi** : `googlePayConfig` vaut `null`, Google Pay n'est pas disponible à la caisse. Le pied de page en affiche pourtant le picto sur toutes les pages. Même règle que le point 3.
-
-**Vérifier** : `curl -s https://maisonnoirmont.fr/ | grep -c 'pi-google_pay'` doit renvoyer `0`.
+⚠️ **Si tu ne fais pas 4a**, alors fais 4b seul : ne laisse pas le picto d'un moyen de paiement
+indisponible. Mais 4a est le bon choix.
 
 ---
 
-## 5. Ajouter la mention « TTC » (4 min)
+## 5. Ajouter la mention « TTC » — ✅ 5a est fait, il reste 5b (2 min)
 
-Deux endroits, deux gestes.
+> **Relevé le 15/08 au matin.** ✅ **5a est fait** : « Prix TTC. Livraison offerte en France
+> métropolitaine. » est bien en place sous le prix des fiches (`sections.main` → bloc `text_BY7DbP`).
+> ⛔ **5b reste à faire** : « TTC » a **0 occurrence** sur l'accueil, le panier et `/collections/all`,
+> qui affichent tous des prix. C'est le pied de page qui les couvrirait tous d'un coup.
 
-### 5a. Sur la fiche produit
+### 5a. Sur la fiche produit — ✅ FAIT
 
 **Où** : Personnalisateur → **Produits → Produit par défaut** → section **« Informations sur le produit »** → **Ajouter un bloc** → **Texte**, puis le glisser **juste sous le bloc « Prix »** (5e position), au-dessus de « Paiement fractionné ».
 
@@ -103,9 +192,9 @@ Prix TTC. Livraison offerte en France métropolitaine.
 Tous nos prix sont affichés en euros, toutes taxes comprises.
 ```
 
-**Pourquoi** : art. L. 112-1 du Code de la consommation, le prix de vente doit être annoncé toutes taxes comprises. Les prix **sont** TTC (`shop.taxesIncluded = true`), c'est uniquement la mention qui manquait : `TTC` a zéro occurrence sur l'ensemble du site.
+**Pourquoi** : art. L. 112-1 du Code de la consommation, le prix de vente doit être annoncé toutes taxes comprises. Les prix **sont** TTC (`shop.taxesIncluded = true`), c'est uniquement la mention qui manque. Le pied de page est le seul endroit qui couvre **l'accueil, les collections et le panier** d'un seul geste — aujourd'hui ils affichent des prix sans aucune mention de taxe.
 
-**Vérifier** : `curl -s https://maisonnoirmont.fr/products/montre-squelette-automatique-carree | grep -c TTC` doit renvoyer au moins `2`.
+**Vérifier** : `curl -s https://maisonnoirmont.fr/ | grep -c TTC` doit renvoyer au moins `1` (il renvoie `0` aujourd'hui), et la fiche produit au moins `2`.
 
 ---
 
