@@ -19,6 +19,31 @@ Décisions de Hakim du 15/08 (postérieures au plan, elles priment) :
 - **U5 gothique** : inclure le textile (vêtements), avec la réserve retours. Site drop de référence :
   `https://antregothique.com/`.
 
+## Écris ton rapport au fil de l'eau — règle ajoutée le 15/08 à 21h30
+
+La première tentative (six agents lancés à 17h50) a été **coupée net par la limite de session**, et
+**aucun des six n'avait écrit une ligne** : plusieurs heures de mesures perdues parce que tout
+attendait la fin. Donc :
+
+1. **Crée ton fichier de rapport dès ta première mesure**, avec ses sections vides et l'en-tête daté.
+2. **Réécris-le après chaque graine mesurée** (ou chaque groupe de 3 requêtes SERP) : les tableaux
+   se remplissent au fur et à mesure, avec les chiffres bruts tels que lus.
+3. Un rapport partiel mais écrit vaut infiniment mieux qu'un rapport complet jamais rendu. Si tu es
+   interrompu, ce qui est sur le disque doit suffire à reprendre sans remesurer.
+4. Garde une section « État d'avancement » en tête du fichier : graines faites / restantes, requêtes
+   SERP faites / restantes. Mets-la à jour à chaque écriture.
+
+## Budget de mesure (resserré le 15/08 à 21h30)
+
+La première tentative a épuisé la session en balayant trop large. Reste dans ces bornes :
+
+- **10 à 14 requêtes Keyword Magic Tool** par niche, pas 25. Choisis les graines qui portent le
+  volume, et sers-toi des sous-groupes affichés plutôt que de multiplier les requêtes.
+- **8 à 12 requêtes Google SERP**, sur les têtes de collections cœur uniquement.
+- **3 à 5 sondes Google Shopping**.
+- Extraction **compacte** en JavaScript (slices ciblés, jamais `get_page_text` sur toute la page) :
+  une lecture SEMrush ne doit pas dépasser ~4 000 caractères rendus.
+
 ## Seuils (mode Kraken `catalogue-volume`, DECISION_PROJET 08/08/2026)
 
 - Total boutique **commercial nettoyé et dédupliqué** France : plancher **30 000/mois**, confort
