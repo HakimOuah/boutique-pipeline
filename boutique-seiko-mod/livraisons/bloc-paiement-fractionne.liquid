@@ -1,0 +1,70 @@
+{%- comment -%}
+  Maison Noirmont — bloc « Paiement en plusieurs fois »
+  À coller dans un bloc « Liquid personnalisé » du gabarit Produit, sous le prix.
+
+  Deux garde-fous :
+  1. Les logos viennent de shop.enabled_payment_types : seuls les moyens RÉELLEMENT
+     activés s'affichent. Si Klarna est désactivé un jour, son logo disparaît seul.
+     C'est ce qui manquait au picto Google Pay, affiché en dur alors qu'il
+     n'était pas disponible.
+  2. Le bloc ne s'affiche pas sous un montant plancher : les services de paiement
+     fractionné ont un minimum, et la promesse serait fausse sur un bracelet à 19,90 €.
+
+  Vérifié le 15/08/2026 en caisse réelle : PayPal (4 × sans frais) et Klarna sont actifs.
+{%- endcomment -%}
+
+{%- assign montant_plancher = 3000 -%}{%- comment -%} en centimes : 3000 = 30,00 € {%- endcomment -%}
+{%- assign prix = product.selected_or_first_available_variant.price | default: product.price_min -%}
+
+{%- if prix >= montant_plancher -%}
+  {%- assign fractionne = '' -%}
+  {%- for type in shop.enabled_payment_types -%}
+    {%- if type == 'paypal' or type == 'klarna' -%}
+      {%- assign fractionne = fractionne | append: type | append: ',' -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign fractionne = fractionne | split: ',' -%}
+
+  {%- if fractionne.size > 0 -%}
+    <div class="mn-fractionne">
+      <span class="mn-fractionne__texte">Paiement en plusieurs fois avec</span>
+      <span class="mn-fractionne__logos">
+        {%- for type in fractionne -%}
+          {{ type | payment_type_svg_tag: class: 'mn-fractionne__logo' }}
+          {%- unless forloop.last -%}
+            <span class="mn-fractionne__et">et</span>
+          {%- endunless -%}
+        {%- endfor -%}
+      </span>
+    </div>
+
+    <style>
+      .mn-fractionne {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: .5rem;
+        margin: .75rem 0 0;
+        font-size: .875rem;
+        line-height: 1.4;
+      }
+      .mn-fractionne__logos {
+        display: inline-flex;
+        align-items: center;
+        gap: .4rem;
+      }
+      .mn-fractionne__logo {
+        height: 22px;
+        width: auto;
+        display: block;
+      }
+      .mn-fractionne__et {
+        font-size: .875rem;
+      }
+      @media (max-width: 480px) {
+        .mn-fractionne { gap: .35rem; }
+        .mn-fractionne__logo { height: 20px; }
+      }
+    </style>
+  {%- endif -%}
+{%- endif -%}
