@@ -274,3 +274,168 @@ qui apparaîtra dans l'admin.
   restants dans `AUDIT-GMC-2026-08-16.md`.
 - **Origine réelle d'expédition des produits déjà en vente** (toile primaire confirmée UE, gun/kit
   non documentés) : non repris dans cette session, réserve déjà notée dans l'audit du 16/08.
+
+---
+
+## Exécution du 16/08 — écritures
+
+Session distincte, sur validation explicite de Hakim des trois chantiers ci-dessous (dépublication,
+option C du découpage fils, images de variantes). Boutique connectée vérifiée avant écriture :
+`get-shop-info` → Tuftéo, tufteo.com. Sauvegardes dans
+`shopify/backups/2026-08-16-decoupage-fils/` avant toute modification.
+
+### Chantier 1 — Dépublication de deux fiches (FAIT, vérifié)
+
+Avant dépublication : vérifié qu'aucun menu (`main-menu`, `footer`, `legal`) ne référence les deux
+handles, et que les mentions croisées « Va bien avec » dans les 23 fiches actives sont du texte brut
+sans lien `<a href>` — donc rien à casser côté navigation. `tissu-de-finition` était listée dans la
+collection « Toiles & tissus » (`gid://shopify/Collection/690476843393`, générée automatiquement à
+partir du statut) ; `pieces-detachees-tufting-gun` n'était dans aucune collection.
+
+- `tissu-de-finition` (`gid://shopify/Product/15466411131265`) → **DRAFT**, mutation confirmée.
+- `pieces-detachees-tufting-gun` (`gid://shopify/Product/15466415292801`) → **DRAFT**, mutation confirmée.
+
+**Vérifié à l'écran** (16/08, `curl` espacés de 2-3 s) :
+- `https://tufteo.com/products/tissu-de-finition` → **404**
+- `https://tufteo.com/products/pieces-detachees-tufting-gun` → **404**
+- `https://tufteo.com/collections/tissus` → grep sur `tissu-de-finition` : **aucune occurrence**, la fiche a bien disparu de la collection publique.
+
+Sauvegardes : `tissu-de-finition.avant.json`, `pieces-detachees-tufting-gun.avant.json`.
+
+### Chantier 2 — Découpage curaté du fil acrylique, option C (FAIT, vérifié)
+
+**Sauvegarde d'abord** : les 87 variantes de la fiche mère (`fil-acrylique-tufting`,
+`gid://shopify/Product/15466411229569`) exportées dans
+`fil-acrylique-tufting.87-variantes.avant.json`. La fiche mère n'a été touchée à aucun moment
+(toujours ACTIVE, toujours 87 variantes, prix et stock inchangés — reconfirmé par la relecture de la
+collection en fin de chantier).
+
+**Sélection.** Sur les 68 variantes à nom français (19 sont des codes numériques sans nom, écartées
+d'office comme prévu), j'ai retenu les coloris de base et les couleurs franches en excluant les
+nuances trop proches d'un même nom (ex. deux variantes nommées « Vert foncé », deux nommées
+« Orange », deux nommées « Violet », deux nommées « Jaune poussin », deux nommées « Bleu denim », deux
+nommées « Blanc » vs « Blanc pur » — une seule retenue par nom, l'autre reste dans la fiche mère).
+
+**Contrôle visuel avant création** (règle n° 2 de mon mode d'emploi — un swatch non vérifié est à
+jeter comme un chiffre non confirmé) : les 18 swatches candidats téléchargés et inspectés un par un.
+Résultat :
+- 17 correspondent bien à leur nom.
+- **1 écarté : « 60 Multicolore »** (SKU source `flower basket`). Le swatch affiché est un fil bleu-violet **uni**, sans aucune mèche ni effet mélangé visible — en contradiction directe avec le nom « Multicolore ». Je n'ai pas créé cette fiche : un swatch qui contredit son nom est pire qu'une fiche manquante.
+- Deux notes de nuance à connaître (pas des erreurs, juste des écarts de perception) : le swatch « 52 Jaune » est un jaune assez doré/moutarde, pas un jaune citron franc ; le swatch « 84 Vert foncé » est plus proche d'un vert olive/kaki que d'un vert sapin profond. Gardés tels quels car le nom vient de la donnée source et le swatch reste cohérent avec ce nom, juste avec une nuance à connaître si un client compare à l'écran.
+
+**17 fiches créées, toutes vérifiées vivantes à l'écran** (titre — handle) :
+
+| Couleur | Handle | Variante source (code) |
+|---|---|---|
+| Noir | fil-acrylique-tufting-noir | 22 Noir |
+| Blanc | fil-acrylique-tufting-blanc | 01 Blanc |
+| Gris | fil-acrylique-tufting-gris | 28 Gris |
+| Rouge | fil-acrylique-tufting-rouge | 35 Rouge |
+| Bordeaux | fil-acrylique-tufting-bordeaux | 80 Bordeaux |
+| Rose | fil-acrylique-tufting-rose | 71 Rose |
+| Rose poudré | fil-acrylique-tufting-rose-poudre | 54 Rose poudré |
+| Orange | fil-acrylique-tufting-orange | 65 Orange |
+| Jaune | fil-acrylique-tufting-jaune | 52 Jaune |
+| Vert foncé | fil-acrylique-tufting-vert-fonce | 84 Vert foncé |
+| Kaki | fil-acrylique-tufting-kaki | 26 Kaki |
+| Bleu clair | fil-acrylique-tufting-bleu-clair | 31 Bleu clair |
+| Bleu marine | fil-acrylique-tufting-bleu-marine | 14 Bleu marine |
+| Violet | fil-acrylique-tufting-violet | 57 Violet |
+| Camel | fil-acrylique-tufting-camel | 76 Camel |
+| Indigo | fil-acrylique-tufting-indigo | 16 Indigo |
+| Caramel | fil-acrylique-tufting-caramel | 59 Caramel |
+
+Pour chaque fiche : titre `Fil acrylique tufting — <Couleur>`, une seule variante (option
+« Couleur »), même prix (12,90 €), même stock que la variante d'origine (repris tel quel — c'est la
+valeur de remplissage DSers déjà signalée en section 3, pas un stock réel, mais fidèle à la source),
+swatch existant en image, description adaptée par coloris, rattachées à la collection « Fils ».
+
+**Piège rencontré et corrigé : les fiches créées via l'API ne sont publiées sur aucun canal par
+défaut** (`resourcePublicationsV2` vide à la création — le même piège que documenté dans la mémoire
+« Canal Online Store & visuels IA »). Premier test `curl` sur 3 fiches → **404** malgré un statut
+ACTIVE. Corrigé par `publishablePublish` sur les canaux « Boutique en ligne » et « Google & YouTube »
+(les deux canaux où la fiche mère est elle-même publiée). Après correction, les 17 URLs retestées
+une par une (`curl` espacés de 2 s) → **200** partout.
+
+**Vérifications finales, toutes faites en conditions réelles :**
+- Requête API sur la collection « Fils » : **18 fiches** (17 nouvelles + la mère), toutes `status: ACTIVE`, handles propres.
+- Page publique `https://tufteo.com/collections/fils` ouverte au navigateur (cookies refusés) : les 17 fiches s'affichent avec leur nom et prix, plus la fiche mère listée séparément en promotion — capture confirmée par lecture du texte de page rendu.
+- Fiche individuelle `https://tufteo.com/products/fil-acrylique-tufting-caramel` ouverte et capturée à l'écran : titre, prix, sélecteur « Couleur : Caramel », image correspondant à un fil caramel — conforme.
+
+**Décision qui attend Hakim :** le SKU de chaque nouvelle fiche est repris à l'identique du SKU de la
+variante d'origine (pour la traçabilité). Je ne sais pas si DSers route un fulfillment automatique
+par SKU seul ou par le couple produit/variante qu'il a lui-même importé — **à vérifier côté DSers
+avant la première commande sur une des 17 nouvelles fiches**, sous peine de non-fulfillment
+automatique.
+
+Sauvegarde complète des 87 variantes avant découpage :
+`fil-acrylique-tufting.87-variantes.avant.json`.
+
+### Chantier 3 — Images de variantes manquantes (constat, aucune image assignée)
+
+Pour les trois fiches, j'ai vérifié dans l'ordre demandé : (1) médias du produit déjà sur Shopify non
+affectés à une variante, (2) dossier local `images/` (miroir du CDN), (3) archive
+`assets/source/aliexpress/<produit>/` — les photos fournisseur brutes conservées avant le passage
+Codex du 22/07 (« purge images fournisseur », `shopify/upload-images-codex-2026-07-21.md`), (4)
+`assets/generated/` et `assets/final/` pour un visuel composé qui n'aurait pas été uploadé.
+
+**Résultat : aucune image exploitable à assigner directement, sur aucune des trois fiches.** Détail :
+
+**Brosse de finition** (Bleu/Rouge/Vert). Les 6 images Shopify montrent exclusivement le bleu (mises
+en scène différentes, mais toujours le même bleu) — confirmé en ouvrant les 6 une par une. Aucune
+image de rouge ni de vert dans les médias du produit. Dans l'archive fournisseur brute (9 photos),
+**des photos existent** : `img-09.webp` (rouge/fuchsia solo sur fond blanc) et `img-07.webp` (vert
+solo, mise en scène étagère). Mais ce sont des **photos AliExpress brutes**, exactement ce que la
+règle maison « visuels composés, jamais la photo fournisseur » interdit de publier telles quelles —
+elles n'ont pas subi le même traitement Codex que les 6 images déjà en ligne. Je ne les ai pas
+uploadées. **Ce qui manque réellement : 2 visuels composés (Rouge, Vert) à générer par le même
+pipeline Codex que le reste du catalogue**, à partir de `assets/source/aliexpress/cleaning-brush-.../img-09.webp` et `img-07.webp` comme référence couleur.
+
+**Enfile-laine pour tufting gun (lot de 5)** (Jaune/Rouge/Noir). Les 6 images Shopify montrent toutes
+le même assortiment de 5 couleurs mélangées (rouge/bleu/rose/jaune/noir) — aucune ne montre un lot de
+5 unités **de la même couleur**, alors que c'est ce que vend chaque variante. Dans l'archive
+fournisseur (9 photos), il existe des fiches techniques unitaires par couleur (`img-04` Jaune,
+`img-05` Noir, `img-06` Bleu — non vendu, `img-08` Rouge) mais ce sont des **schémas techniques à 1
+seule unité, avec cotes et texte anglais/chinois incrusté** (« Yellow », « ≈20,5 cm », « 单支≈2,3g ») —
+inutilisables tels quels, et n'importe comment pas au format « lot de 5 » vendu. **Ce qui manque :
+3 visuels composés (Jaune, Rouge, Noir, chacun montrant 5 unités de la même couleur) à générer par
+Codex**, en utilisant les fiches techniques comme référence de teinte uniquement.
+
+**Miroir acrylique pour tufting** (Doré foncé/Argenté/Rouge/Doré clair × 8 tailles). Les 6 images
+Shopify sont toutes des mises en scène avec plusieurs coloris ensemble (pile de plaques, gros plan
+sur 2-3 couleurs) — aucune n'isole une seule couleur. Dans l'archive fournisseur (10 photos),
+aucune n'est directement exploitable : la pile multi-couleurs (`img-01`, `img-03`) mélange les tons
+sans étiquette (impossible de distinguer « doré clair » de « doré foncé » avec confiance) ; `img-09`
+(rouge) a **du texte chinois gravé directement sur la plaque photographiée** ; `img-08` a un décor
+d'usine chinoise en arrière-plan (enseignes en chinois visibles). Aucune de ces images ne peut servir
+de source propre. **Ce qui manque : au minimum 4 visuels composés (un par couleur, ré-utilisable sur
+les 8 tailles de chaque couleur)**, à confier à Codex — je n'ai pas identifié de source fournisseur
+assez propre pour guider la teinte exacte de « doré clair » vs « doré foncé », donc Hakim devra
+probablement trancher au nuancier fournisseur ou redemander une photo au vendeur.
+
+**Aucune image n'a été fabriquée ni assignée dans ce chantier** — conformément à la consigne, une
+fiche sans son visuel correct reste sans image plutôt que de recevoir une image approximative ou une
+photo fournisseur brute non conforme à la charte du site.
+
+### Décisions qui attendent Hakim (session du 16/08 — écritures)
+
+1. **Fils** : la fiche « 60 Multicolore » n'a pas été découpée (swatch uni, contredit son nom) — à
+   vérifier auprès du fournisseur si Hakim veut ce coloris quand même (nouvelle photo nécessaire).
+2. **Fils / DSers** : confirmer que le fulfillment automatique fonctionne sur les 17 nouvelles fiches
+   (SKU repris à l'identique de la fiche mère, mais DSers route peut-être par identifiant produit/variante importé, pas par SKU seul).
+3. **Images manquantes** : 2 visuels à composer pour la Brosse de finition (Rouge, Vert), 3 pour
+   l'Enfile-laine (Jaune/Rouge/Noir en lot de 5), au moins 4 pour le Miroir acrylique (un par
+   couleur) — sources brutes identifiées fichier par fichier ci-dessus pour alimenter Codex, aucune
+   n'est publiable telle quelle.
+4. **Tissu de finition / Pièces détachées** : statuts DRAFT posés sur simple exécution du chantier 1
+   validé — pas de nouvelle décision requise, sauf si Hakim veut resourcer l'un des deux plus tard.
+
+### Ce que je n'ai pas pu vérifier (session du 16/08 — écritures)
+
+- **Le rendu du sélecteur de variante sur mobile** pour les 17 nouvelles fiches (une seule variante
+  chacune, donc sélecteur à un seul bouton) — vérifié uniquement en desktop via le navigateur intégré.
+- **L'impact SEO réel** des 17 nouvelles fiches (indexation Google, cannibalisation éventuelle avec la
+  fiche mère qui liste aussi ces mêmes coloris) — hors de portée d'une vérification en session, à
+  suivre dans le temps par Hakim.
+- **La teinte exacte à donner à « doré clair » vs « doré foncé »** pour le miroir acrylique : aucune
+  source fournisseur assez propre trouvée pour trancher avec confiance (voir chantier 3).
