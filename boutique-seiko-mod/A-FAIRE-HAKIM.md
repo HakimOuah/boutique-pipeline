@@ -7,6 +7,12 @@ anonyme sur le site public. Détail et preuves :
 
 **Six actions bloquantes, environ 20 minutes.** Puis deux arbitrages qui ne bloquent pas.
 
+**Mise à jour du 15/08 à 14 h 45 — commence par le point 0, il est neuf.** Le téléphone que tu as
+rempli **est bien passé** (point 2, soldé) : le diagnostic qui l'accompagnait était faux, et la vraie
+cause du schéma `Organization` cassé a été trouvée dans le gabarit du thème. **Deux lignes à changer,
+deux minutes**, et c'est toute la carte d'identité de l'entreprise qui redevient lisible par Google.
+Détail : [`journal/2026-08-15-json-ld-organization.md`](journal/2026-08-15-json-ld-organization.md).
+
 Trois d'entre elles réparent la même faute : **le site se contredit avec lui-même**. C'est le motif
 de refus n°1 de Merchant Center, et le seul qui ne se plaide pas — un examinateur qui lit deux
 phrases opposées sur la même page en conclut que rien n'est tenu.
@@ -17,6 +23,98 @@ Liens directs :
 - Réglages généraux : https://admin.shopify.com/store/v42pzp-h4/settings/general
 - Politiques : https://admin.shopify.com/store/v42pzp-h4/settings/legal
 - Collections : https://admin.shopify.com/store/v42pzp-h4/collections
+
+---
+
+## 0. Ajouter une virgule et une ligne au schéma `Organization` (2 min) ⭐
+
+**C'est l'action la plus rentable de cette liste** : deux lignes de code pour récupérer **toute la
+carte d'identité du marchand** aux yeux de Google — raison sociale, adresse postale, téléphone,
+e-mail, logo. Aujourd'hui il n'en lit **rien**.
+
+### Pourquoi ça n'a pas marché la dernière fois
+
+L'audit de ce matin avait dit : *« remplis le téléphone, la virgule orpheline disparaîtra »*.
+**C'était faux, et je m'en excuse.** Tu as bien rempli le champ, et **ça a marché** — la ligne
+`"telephone": "+33 7 56 82 80 94"` est bien dans le bloc aujourd'hui. Mais le téléphone n'était pas
+le dernier champ du bloc, donc ce n'est pas lui qui portait la virgule fautive. C'est **le logo**.
+
+Le fichier écrit une virgule après **chaque** champ. Le seul champ sans virgule, celui qui est censé
+fermer proprement l'accolade, c'est `sameAs` — la liste des réseaux sociaux. Et comme la boutique
+n'a **aucun compte social renseigné**, `sameAs` ne s'écrit jamais. Résultat : le bloc se termine sur
+`"logo": "…",` puis `}`. **Du JSON invalide, ignoré en entier par Google, depuis toujours.**
+
+Ne remplis surtout pas une URL de réseau social pour contourner : ça marcherait, mais ça recasserait
+au premier vidage du champ, et déclarer un compte qui n'existe pas est exactement le genre de
+contradiction que Merchant Center sanctionne.
+
+### Où
+
+**Éditeur de code** → dossier **`snippets`** → fichier **`organization-schema.liquid`**.
+Il fait 50 lignes. **Va tout en bas**, les 8 dernières lignes avant `</script>`.
+
+### Quoi changer
+
+Tu cherches la ligne qui contient **`]{% endif %}`** — c'est la **ligne 48**, l'avant-avant-dernière
+du fichier. Elle est juste sous `{% endfor -%}`.
+
+**Voilà le bas du fichier aujourd'hui** :
+
+```liquid
+    {%- if social_urls != blank %}
+    "sameAs": [
+      {% assign social_urls_array = social_urls | split: ',' -%}
+      {% for url in social_urls_array -%}
+        {{ url | json }}{% unless forloop.last %},{% endunless %}
+      {% endfor -%}
+    ]{% endif %}
+  }
+</script>
+```
+
+**Remplace-le par ceci** (sélectionne les 9 lignes ci-dessus, colle les 10 ci-dessous) :
+
+```liquid
+    {%- if social_urls != blank %}
+    "sameAs": [
+      {% assign social_urls_array = social_urls | split: ',' -%}
+      {% for url in social_urls_array -%}
+        {{ url | json }}{% unless forloop.last %},{% endunless %}
+      {% endfor -%}
+    ],{% endif %}
+    "@id": {{ request.origin | append: '/#organization' | json }}
+  }
+</script>
+```
+
+**Il n'y a que deux différences**, si tu préfères les faire à la main :
+1. sur la ligne `]{% endif %}` → ajouter une **virgule après le crochet** : `],{% endif %}` ;
+2. **insérer une ligne neuve** juste en dessous : `    "@id": {{ request.origin | append: '/#organization' | json }}`
+
+Puis **Enregistrer**.
+
+**Ce que ça fait** : `"@id"` est un champ qui s'écrit **toujours**, quels que soient les réglages.
+C'est lui qui ferme désormais l'accolade, donc la virgule du logo devient légale. Et le fichier ne
+pourra plus jamais casser si un autre champ se vide.
+
+### Vérifier
+
+Compte jusqu'à 15 minutes de cache, puis :
+
+```bash
+curl -s "https://maisonnoirmont.fr/?v=$RANDOM" | python3 -c 'import sys,re,json
+n=0
+for b in re.findall(r"application/ld\+json[^>]*>(.*?)</script>",sys.stdin.read(),re.S):
+    n+=1
+    try: print("OK  ", json.loads(b)["@type"])
+    except Exception as e: print("KO  ", e)
+print(n,"bloc(s)")'
+```
+
+- **Aujourd'hui** ça répond : `KO   Illegal trailing comma before end of object: line 12 column 113`
+- **Après ta correction** ça doit répondre : `OK   Organization` puis `1 bloc(s)`
+
+Détail complet : [`journal/2026-08-15-json-ld-organization.md`](journal/2026-08-15-json-ld-organization.md)
 
 ---
 
@@ -58,34 +156,18 @@ mention TTC ne bougent pas.
 
 ---
 
-## 2. Remplir le téléphone dans la fiche adresse de la boutique (1 min)
+## ~~2. Remplir le téléphone dans la fiche adresse de la boutique~~ ✅ FAIT — rien à refaire
 
-Petit champ, gros effet : il répare **la carte d'identité que Google lit en premier**.
+**Tu l'as fait, et ça a marché.** Vérifié le 15/08 à 14 h 40, cache contourné : le bloc de l'accueil
+publie bien `"telephone": "+33 7 56 82 80 94"`.
 
-**Où** : Réglages → **Général** → bloc **Adresse de la boutique** (ou Profil de l'entreprise) → champ
-**Téléphone**, aujourd'hui **vide**.
+L'audit du matin avait ajouté que ça réparerait aussi la virgule orpheline. **C'était une erreur de
+diagnostic** : le téléphone n'était pas le dernier champ du bloc, donc il ne pouvait pas porter cette
+virgule. Le vrai coupable est le logo, et la réparation est au **point 0** ci-dessus.
 
-**Mettre** :
-
-```
-+33 7 56 82 80 94
-```
-
-Pendant que tu y es, vérifie que l'adresse y est écrite **exactement** :
-`47 rue Vivienne` / `75002` / `Paris` / `France`.
-
-**Pourquoi** : la donnée structurée `Organization` de l'accueil est générée depuis ces champs, et
-elle est aujourd'hui **du JSON invalide** — une virgule orpheline après le logo, parce que le
-téléphone est vide et qu'aucun réseau social n'est renseigné. Un bloc JSON-LD invalide est **ignoré
-en entier** par Google : l'adresse, l'e-mail et le nom de la société ne sont pas lus, alors qu'ils
-y sont et qu'ils sont justes. Remplir ce champ ajoute la ligne `"telephone"` et supprime la virgule
-orpheline du même geste.
-
-**Vérifier** :
-```
-curl -s https://maisonnoirmont.fr/ | grep -A2 '"telephone"'
-```
-doit renvoyer le numéro. Compte jusqu'à 15 minutes de cache.
+Pendant que tu es dans Réglages → Général, un dernier contrôle sans urgence : l'adresse doit y être
+écrite **exactement** `47 rue Vivienne` / `75002` / `Paris` / `France` — c'est ce que le schéma
+publie, et ça devra correspondre au caractère près à ce que tu déclareras dans Merchant Center.
 
 ---
 
