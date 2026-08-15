@@ -45,21 +45,21 @@ Ce que ça rajoute par rapport à la version en ligne : le **délégué à la pr
 
 ---
 
-## 3. Retirer « ou Klarna » des 96 fiches (3 min)
+## 3. Masquer le bloc « Paiement fractionné » des 96 fiches (1 min)
 
-**D'abord la vérité du terrain** : `https://maisonnoirmont.fr/payments/config` dit exactement ce qui est actif à la caisse. Aujourd'hui : **Shop Pay, PayPal, Apple Pay** et les cartes **Visa / Mastercard / Amex / Maestro**. **Klarna : zéro occurrence. Google Pay : `null`. Aucun paiement fractionné natif Shopify.**
+**Décision de Hakim, 15/08 : on retire la mention Klarna ET le 4×.** Donc on masque le bloc entier, on ne se contente pas de vider un champ.
+
+**La vérité du terrain** : `https://maisonnoirmont.fr/payments/config` liste ce qui est réellement actif à la caisse. Aujourd'hui : **Shop Pay, PayPal, Apple Pay**, cartes Visa / Mastercard / Amex / Maestro. **Klarna : zéro occurrence. Google Pay : `null`. Aucun paiement fractionné natif.**
 
 **Où** : Personnalisateur → sélecteur de gabarit en haut → **Produits → Produit par défaut** → section **« Informations sur le produit »** → **6e bloc, « Paiement fractionné »**, juste sous le prix.
 
-**Retirer** : dans le champ **« Prestataire 2 »**, la valeur `Klarna`.
+**Quoi** : les trois points du bloc → **Masquer le bloc**. Puis **Enregistrer**.
 
-**Mettre** : rien. Laisser le champ **vide**. La ligne deviendra `Ou 4 × 69,75 € avec PayPal`.
+**Pourquoi** : annoncer un moyen de paiement qui n'existe pas est une pratique commerciale trompeuse (art. L. 121-2 du Code de la consommation) et le motif de refus n°1 de Merchant Center. Le bloc annonce un 4× dont aucun prestataire actif n'assure le service.
 
-⚠️ **Et vérifie que « Paiement en 4X » est bien actif dans ton compte PayPal.** PayPal est actif comme moyen de paiement, mais le 4× est un produit PayPal à part que `/payments/config` ne peut pas prouver. **S'il n'est pas actif : masque le bloc entier** (les trois points du bloc → **Masquer le bloc**) plutôt que de laisser une promesse invérifiable.
+**Le jour où tu veux le remettre** : il faut d'abord que le 4× soit **réellement actif** (4X PayPal validé sur ton compte, ou Klarna après candidature et acceptation). Alors seulement on réaffiche le bloc, en nommant le seul prestataire réellement actif.
 
-**Pourquoi** : annoncer un moyen de paiement qui n'existe pas est une pratique commerciale trompeuse (art. L. 121-2 du Code de la consommation), et c'est le motif de refus n°1 de Merchant Center.
-
-**Vérifier** : `curl -s https://maisonnoirmont.fr/products/montre-squelette-automatique-carree | grep -c Klarna` doit renvoyer `0`.
+**Vérifier** : `curl -s https://maisonnoirmont.fr/products/montre-squelette-automatique-carree | grep -ciE "klarna|4 ×|4x"` doit renvoyer `0`.
 
 ---
 
