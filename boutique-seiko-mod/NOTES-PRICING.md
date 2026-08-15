@@ -219,3 +219,20 @@ sortent de la publicité, et deviennent les premières candidates au dépeupleme
 - `montre-squelette-automatique-octogone` : **299 €**
 
 La collection aurait donc trois prix pour des produits équivalents : 279, 289 et 299 €. **À aligner sur 289 € avant publication de la collection**, sauf différence de produit qui le justifie (l'octogone est peut-être une pièce distincte — à vérifier avant de toucher au prix).
+
+---
+
+## 7. Coffret aluminium 24 emplacements — 15/08/2026
+
+**Décision de Hakim : 99,90 € → 149 €.**
+
+Angle mort découvert au push DSers : les 2 coffrets aluminium de la file de repeuplement étaient **déjà** au catalogue sous `coffret-douze-aluminium` (même article fournisseur, mapping DSers en preuve, coût identique). Les créer aurait mis en ligne deux offres du même objet à deux prix. Mais le recoupement a montré que **la fiche existante était sous-vendue** : le calcul de marge du 15/08 place le 24 emplacements à 149 €, il était à 99,90 €.
+
+| Prix | Base HT | Coût rendu | Marge | Taux |
+|---:|---:|---:|---:|---:|
+| 99,90 € | 83,25 € | 30,57 € | 51,03 € | 61,3 % |
+| **149,00 €** | 124,17 € | 30,57 € | **91,26 €** | **73,5 %** |
+
+**+40 € de marge par vente.** Les variantes 12 et 6 emplacements restent à 84,90 € et 69,90 € : leurs coûts (14,98 € et 11,15 €) donnent déjà des taux supérieurs, et elles tiennent la bande de marché des 69-149 €.
+
+**Leçon de méthode** : un article fournisseur déjà mappé à une fiche active doit être repéré **avant** le sourcing. Le contrôle qui a évité le doublon est le panneau de mapping DSers, pas le registre. Voir `journal/2026-08-15-push-dsers-repeuplement.md`.
