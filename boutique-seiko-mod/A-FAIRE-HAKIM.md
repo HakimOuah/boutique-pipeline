@@ -151,7 +151,10 @@ fichier écrit pour la boutique : aucune mise à jour de thème ne l'écrasera.
 *(L'éditeur de code garde les versions précédentes : `⋯ → Anciennes versions` permet de revenir en
 arrière si besoin.)*
 
-### 4a. La garantie, ligne 30 environ
+Les deux lignes sont dans les 40 premières du fichier, dans les 3e et 4e cartes. Le plus simple est
+de les chercher avec Ctrl+F sur `couronne` puis sur `24 h`.
+
+### 4a. La garantie, 3e carte
 
 **Retirer** :
 ```html
@@ -163,7 +166,7 @@ arrière si besoin.)*
       <p>Sur le mouvement, pendant 12 mois : on répare ou on remplace.</p>
 ```
 
-### 4b. Le délai, ligne 38 environ
+### 4b. Le délai, 4e carte
 
 **Retirer** :
 ```html
