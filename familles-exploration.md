@@ -53,6 +53,19 @@ Réordonnées le 20 juillet 2026 (décision Hakim) : priorité aux familles **ex
 | 36 | Nettoyage technique | nettoyage professionnel, nettoyeur, décapage, entretien surface | à faire | — | — |
 | 39 | Événementiel & réception | matériel réception, tente événement, mobilier événementiel | à faire | — | — |
 
+### Salve Hakim du 15/08/2026 — niches univers (mode Kraken catalogue-volume)
+
+Six univers apportés par Hakim, à balayer **avant** les familles ci-dessus si la boucle est relancée. Seuils du mode catalogue-volume (pas ceux de la boucle high-ticket) — voir `plans/2026-08-15-plan-analyse-niches-univers.md`. Le n° 30 « Astronomie & optique » reste la famille de référence pour U4 : ses graines sont complétées ici, ne pas créer de doublon.
+
+| # | Famille | Graines de départ | Statut | Dernier balayage | Candidats retenus |
+|---|---|---|---|---|---|
+| U1 | Literie : parure de lit / housse de couette | housse de couette, parure de lit, linge de lit, drap housse, taie d'oreiller, couvre-lit, plaid lit, percale, satin de coton, gaze de coton | à faire | — | — |
+| U2 | Chaleur cocooning : bouillottes | bouillotte, bouillotte peluche, bouillotte sèche, bouillotte électrique, chaufferette, coussin chauffant, plaid chauffant, chauffe-pieds | à faire | — | — |
+| U3 | Globe terrestre & cartographie déco | globe terrestre, mappemonde, planisphère, carte du monde déco, carte du monde bois, carte à gratter, globe lumineux, globe lévitation, carte du ciel | à faire (reprise vivier 07/08) | — | — |
+| U4 (= 30) | Astronomie : observation + déco astro | télescope, lunette astronomique, jumelles astronomie, planétarium, lampe lune, veilleuse galaxie, projecteur étoiles, carte du ciel personnalisée, décoration espace | à faire | — | — |
+| U5 | Emo / gothique / démon | gothique, déco gothique, bijoux gothiques, vêtement gothique, emo, occulte déco, crâne déco, chauve-souris déco, pentagramme, dark academia | à faire | — | — |
+| U6 | Ésotérisme | ésotérisme, boutique ésotérique, tarot, oracle cartes, pendule divinatoire, encens, bougie rituel, autel, talisman, runes, sauge, pierre naturelle bijou | à faire | — | — |
+
 ### Priorité basse — technique-pro / machines de marque (balayer seulement si les précédentes sont épuisées)
 
 | # | Famille | Graines de départ | Statut | Dernier balayage | Candidats retenus |
