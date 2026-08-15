@@ -1,8 +1,10 @@
 # Maison Noirmont — état courant
 
-**Dernière vérification : 15/08/2026** — **premier audit du site LIVE, en visiteur anonyme**, après le retrait du mot de passe (`journal/2026-08-15-audit-conformite-site-live.md`). Vérifications antérieures : grille de prix et consentement cookies le 14/08, audit des 95 brouillons et audit GMC le 13/08.
+**Dernière vérification : 15/08/2026 (midi)** — **repasse de conformité n°2** après la série de corrections de Hakim, en visiteur anonyme (`journal/2026-08-15-repasse-conformite-2.md`). **Verdict : toujours PAS PRÊT pour Merchant Center, mais il ne reste que 20 minutes de travail.** 7 des 8 actions de Hakim sont faites et vérifiées, **5 des 6 bloquants publics du matin sont soldés**. Il reste **6 défauts**, dont **3 contradictions du site avec lui-même** : ① délai de réponse **24 h contre 48 h** dans le même pied de page, sur toutes les pages, et deux fois de plus sur chaque fiche ② garantie **« mouvement, couronne, aiguilles »** contre le contrat, trois fois par fiche ③ **« Paiement en 4 fois »** dans le bandeau contre « en plusieurs fois » du bloc, y compris sur les fiches à 12,90 €. Plus : ④ **le pied de page n'a ni adresse postale ni raison sociale** ⑤ **le JSON-LD `Organization` est du JSON invalide**, donc ignoré par Google ⑥ 3 collections publiques sous 5 produits. **Un seul de ces défauts demande de toucher au code** (`blocks/noirmont-confiance.liquid`).
+**Vérifications antérieures** : premier audit du site LIVE le 15/08 au matin (`journal/2026-08-15-audit-conformite-site-live.md`), grille de prix et consentement cookies le 14/08, audit des 95 brouillons et audit GMC le 13/08.
 **Corrections du 15/08 au soir** (`journal/2026-08-15-corrections-post-ouverture.md`) : doublon de mentions légales soldé côté connecteur, moyens de paiement réels établis sur `/payments/config`, et les 6 défauts de thème localisés au réglage près.
-**Purge du 15/08** (`journal/2026-08-15-purge-prix-barres.md`) : **T-50 soldé — 2 074 prix barrés dormants remis à `null` sur 86 brouillons et 10 archivées**, prouvé par un scan paginé des 3 009 variantes. Au passage, l'instruction des moyens de paiement corrige trois lignes de cet état : « Klarna » a disparu du site, « Prix TTC » est apparu sur les fiches, et une **seconde promesse de 4×** subsiste dans le bandeau des fiches (**T-52**) tandis que Google Pay s'active en une case (**T-53**).
+**Purge du 15/08** (`journal/2026-08-15-purge-prix-barres.md`) : **T-50 soldé — 2 074 prix barrés dormants remis à `null` sur 86 brouillons et 10 archivées**, prouvé par un scan paginé des 3 009 variantes.
+**Corrections du connecteur le 15/08 à midi** : description de `carte-cadeau-maison-noirmont` (« 24 h ouvrées » → « 48 h ouvrées », le seul texte **produit** qui portait encore l'ancien délai) et **tag `skx` retiré** des 3 fiches Héritage (référence de modèle Seiko, publique, destinée au flux Shopping). Sauvegardes : `backups/2026-08-15-repasse-2/`.
 
 Ce fichier dit ce qui **est**, pas ce qu'il faut faire. Pour agir : [`TABLEAU.md`](TABLEAU.md), et pour Hakim : [`A-FAIRE-HAKIM.md`](A-FAIRE-HAKIM.md).
 
@@ -42,6 +44,24 @@ Ce fichier dit ce qui **est**, pas ce qu'il faut faire. Pour agir : [`TABLEAU.md
   Superlative, Omega, Tudor…) · prix identique en fiche, en JSON-LD et au panier sur 8/8 fiches.
 - **Le consentement cookies est réglé** — le dossier qui valait trois verdicts contradictoires est clos,
   et il est bon (voir le tableau ci-dessus). C'était le dernier bloquant technique supposé.
+  **Remesuré le 15/08 à midi** : bandeau présent, « Accepter » et « Refuser » **196 × 37 px l'un et
+  l'autre**, mêmes fond, couleur, taille et graisse, aucun soulignement ni sur l'un ni sur l'autre ;
+  **2 cookies seulement** avant tout choix (`localization`, `cart_currency`) ; `gtag`, `dataLayer`,
+  `fbq`, `ttq` tous absents ; **un seul script tiers**, `shop.app/checkouts/internal/preloads.js`,
+  qui est de l'infrastructure Shopify et non un traceur.
+- **Aucune trace de facturation en dollars** (15/08) : `/payments/config` → `"currency":"EUR"`,
+  `Shopify.currency = {"active":"EUR"}`, `priceCurrency: "EUR"` dans tous les JSON-LD produit,
+  et **0 occurrence de `USD`, de `$` ou de « dollar »** sur l'accueil, le panier et les fiches.
+- **Le bloc de paiement fractionné dynamique fonctionne comme prévu** (15/08) : « Paiement en plusieurs
+  fois avec **Klarna et PayPal** », logos tirés de `shop.enabled_payment_types` donc auto-correctifs, et
+  **le seuil de 30 € est mesuré et opérant** — 0 occurrence sur `barrettes-de-rechange-270` à 12,90 €,
+  bloc présent et visible à 279 € et 378 €.
+- **Performance** : TTFB 50 à 130 ms, page complète en 0,31 à 0,60 s sur l'accueil, une fiche et une
+  collection. **0 lien mort** sur les 48 liens internes de l'accueil, **13 collections du méga-menu en
+  200**, sitemap complet, HSTS, CSP, `X-Frame-Options: DENY`, aucun `noindex` sur les politiques,
+  aucun code de vérification Google résiduel.
+- **Les `alt` sont bons** : 50 fiches contrôlées une par une le 15/08, tous descriptifs, en français,
+  nommant le modèle, la vue et le détail. Aucun générique, aucun vide.
 - **Les mentions obligatoires sont complètes** : raison sociale, forme, capital, SIREN, SIRET, RCS, TVA,
   adresse, téléphone, directeur de publication, hébergeur, rétractation 14 jours, garanties légales FR,
   CNIL. La **politique de confidentialité** porte désormais bases légales, durées de conservation et CNIL.
@@ -55,49 +75,64 @@ Ce fichier dit ce qui **est**, pas ce qu'il faut faire. Pour agir : [`TABLEAU.md
 ## Ce qui ne va pas — par ordre de gravité
 
 > **Depuis le 15/08, la ligne de partage a changé** : ce qui est **public** est réel et vu par
-> n'importe qui ; ce qui dort sur les brouillons ne l'est pas encore. Les six points ci-dessous sont
-> **publics**. Détail et corrections exactes : `journal/2026-08-15-audit-conformite-site-live.md`.
+> n'importe qui ; ce qui dort sur les brouillons ne l'est pas encore. Les points ci-dessous sont
+> **publics**, relevés à midi en visiteur anonyme.
+> Détail et corrections exactes : `journal/2026-08-15-repasse-conformite-2.md`.
 
-0. **Les 6 bloquants publics de l'audit du 15/08** — aucun n'est à ma main :
-   1. ⛔ **Un second e-mail publié sur chaque page** : `contact.noirmont@gmail.com` dans le JSON-LD
-      `Organization`. → **T-H4** (Hakim, réglages).
-   2. 🟢 **Moyen de paiement inexistant annoncé : AUX DEUX TIERS SOLDÉ le 15/08.** ✅ La mention
-      « ou Klarna » a **disparu de tout le site** — 0 occurrence sur 6 fiches, l'accueil, le panier,
-      `/collections/all` et la FAQ ; le bloc « Paiement fractionné » n'existe plus dans
-      `templates/product.json`. ⛔ **Mais une seconde promesse de 4× a survécu ailleurs**, que l'audit
-      du matin n'avait pas isolée : le **bandeau défilant des fiches** affiche **« Paiement en 4 fois »**
-      (`marquee_pdp` → `marquee_main` → **`iwt_pdp5`**), alors que **`offsiteConfigs: null`** — aucun
-      prestataire de paiement fractionné n'est installé. → **T-52**.
-   3. ⛔ **Picto Google Pay sur toutes les pages** alors que `googlePayConfig: null`. **Mais ici on
-      active plutôt qu'on retire** : c'est un portefeuille de Shopify Payments (déjà actif), donc une
-      case à cocher à effet immédiat, sans tiers à convaincre. → **T-53**.
-   4. 🟠 **Mention « TTC » : partiellement posée le 15/08.** ✅ « Prix TTC. Livraison offerte en France
-      métropolitaine. » est apparu **sous le prix des fiches** (`sections.main` → `text_BY7DbP`).
-      ⛔ Mais **0 occurrence sur l'accueil, le panier et les collections** (art. L. 112-1). → **T-34**.
-   5. ⛔ **Art. 15 des CGV : médiateur sans URL de site** (art. R. 616-1). → **T-H2**.
-   6. 🟢 **Deux « Mentions légales » servies en parallèle : AUX DEUX TIERS SOLDÉ le 15/08 au soir.**
-      La page CMS est dépubliée (corps intact, sauvegardé), une **301** la renvoie vers
-      `/policies/legal-notice`, et les deux menus de pied de page sont repointés en type `SHOP_POLICY`.
-      Une fiche produit rendue à neuf sert **2 × `/policies/legal-notice`, 0 × `/pages/mentions-legales`**.
-      ⛔ Reste à coller le texte complet du 13/08 dans la politique conservée. → **T-H2**, point 1 de
-      `A-FAIRE-HAKIM.md`.
+0. **Les 6 défauts publics restants au 15/08 midi** — aucun n'est à ma main :
+   1. ⛔ **Le pied de page se contredit sur le délai de réponse.** Bloc « Une question ? » :
+      *« généralement sous **24 h** ouvrées »*. Bloc du logo, deux lignes plus bas :
+      *« Nous répondons sous **48h** »*. Sur **toutes** les pages.
+      (`sections/footer-group.json` → `custom_section_k6mNHc` → 4e groupe `group_x7TjnR` →
+      `text_wDwwwK`). → **T-34**.
+   2. ⛔ **Le même écart deux fois de plus sur chacune des 96 fiches** : cartes de confiance sous le
+      prix (`blocks/noirmont-confiance.liquid`, **codé en dur**) et accordéon « Contactez-nous »
+      (`templates/product.json` → `accordions_KKUaHK/accordion_contact`). Le bloc « Besoin d'aide ? »
+      de la même page dit bien 48 h. → **T-34**.
+   3. ⛔ **Le pied de page n'a ni adresse postale ni raison sociale** : **0 occurrence** de
+      `OH Ventures`, `47 rue Vivienne` ou `75002`, alors que la checklist Terry impose
+      *« Footer = GMC exactement (email, téléphone, adresse) »*. Le téléphone y est en texte brut
+      non cliquable (`0756828094`), soit une **troisième** écriture du même numéro. → **T-35**.
+   4. ⛔ **La garantie promise dépasse toujours le contrat sur les fiches** : « mouvement, **couronne,
+      aiguilles** » **trois fois par fiche** (une en dur dans `noirmont-confiance.liquid`, deux dans
+      des accordéons), contre la politique de remboursement §7 et l'art. 10 des CGV limités au
+      **mouvement interne**. Le pied de page, lui, a bien été corrigé. → **T-34**.
+   5. ⛔ **« Paiement en 4 fois »** dans le bandeau des fiches (`marquee_pdp` → **`iwt_pdp5`**, 5e
+      élément), **y compris sur les fiches à 12,90 €** où le nouveau bloc dynamique se masque tout
+      seul, et alors que ce bloc dit prudemment « en plusieurs fois ». → **T-52**.
+   6. ⛔ **Le JSON-LD `Organization` de l'accueil est du JSON invalide** — virgule orpheline après
+      `"logo"`, parce que `shop.phone` est vide et qu'aucun réseau social n'est renseigné. **Google
+      ignore le bloc entier**, donc l'adresse et l'e-mail qu'il porte, alors qu'ils sont justes depuis
+      ce matin. **Remplir le champ téléphone de la fiche adresse règle les deux problèmes.** → **T-35**.
 
-0bis. **Quatre contradictions promesse ↔ réalité** — plus dangereuses qu'une absence :
-   - **Garantie** : le pied de page promet « Mouvement, **couronne, aiguilles** » alors que la politique
-     §7 se limite au « mouvement interne » et exclut bracelet, verre et boîtier. → **T-34**.
-   - **Configurateur** : l'accueil annonce « une **pièce unique, à votre image** » quand la FAQ dit
-     correctement que rien n'est fabriqué sur mesure. → **T-34**.
-   - ✅ **Collection Plongeuses** : quatre affirmations fausses (« six modèles », céramique, bronze,
-     « Miyota 8215 ou PT5000 », « d'autres montent bien plus haut ») pour 3 produits acier NH35 5 ATM —
-     **corrigé le 15/08**.
-   - ✅ **Politique de cookies** : bandeau décrit au conditionnel et `storefront_digest` présenté comme
-     déposé « tant que la boutique est protégée par un mot de passe » — **corrigé le 15/08**.
+   *Et deux écarts mineurs* : ⚠️ cinq politiques annoncent « Version en vigueur au 10 août 2026 »
+   alors qu'au moins les CGV ont été modifiées le 15 (**T-H2**) · ⚠️ trois collections publiques sous
+   le seuil de 5 produits, dont deux dans le méga-menu : `frontpage` **1**, `montre-squelette` **2**,
+   `plongeuses` **3** (**T-35**).
 
-0ter. **Vocabulaire de marque tierce dans les titres, désormais public** : `Bracelet Présidentiel — doré`,
-   `Bracelet Présidentiel — acier inoxydable`, `Voyageur Or — GMT bracelet Président`, `Bracelet Jubilé
-   acier — 20 mm`, `Bracelet Jubilé — embouts courbes`, « jubilé » dans 15 descriptions, et le **tag
-   `skx`** sur les 3 `heritage-*`. « Président / Présidentiel » est un nom de bracelet Rolex, `skx` une
-   référence Seiko — les deux partent au flux Shopping. → **C15 / T-35**.
+0bis. **Les 6 bloquants du 15/08 au matin : 5 soldés, vérifiés en anonyme.**
+   ✅ **E-mail** : `shop.email` = `shop.contactEmail` = `contact@maisonnoirmont.fr`, **0 `gmail`**
+   nulle part · ✅ **Klarna** : la mention fausse a disparu, **et Klarna est maintenant réellement
+   actif en caisse** (`shop.enabled_payment_types` le contient ; `/payments/config` ne le montre pas
+   parce que cet endpoint n'expose que les portefeuilles accélérés) · ✅ **Google Pay** : le picto a
+   disparu, les 7 icônes rendues sont exactement les moyens acceptés, **Amex apparaît enfin** ·
+   ✅ **TTC** : sous le prix **et** au pied de page, donc accueil, panier et collections couverts ·
+   ✅ **Médiateur** : `https://www.cm2c.net/` à l'art. 15 des CGV, et `<meta charset>` retiré ·
+   ✅ **Mentions légales** : une seule version, 6 sections, datée du 15/08, 301 confirmée 3 fois sur 3.
+   ✅ **Devise** : **0 occurrence de `USD`, de `$` ou de « dollar »** sur tout le parcours, `EUR`
+   partout — la facturation en dollars est réparée.
+   ✅ **Contradictions promesse ↔ réalité** : « pièce unique, à votre image » a disparu de l'accueil au
+   profit du texte de la FAQ ; la collection Plongeuses et la politique de cookies avaient été
+   corrigées la veille.
+
+0ter. **Vocabulaire de marque tierce — moitié soldée le 15/08.** ✅ Le **tag `skx`** est retiré des
+   3 fiches `heritage-*`. ⛔ Restent `Bracelet Présidentiel — doré`, `Bracelet Présidentiel — acier
+   inoxydable`, `Voyageur Or — GMT bracelet Président`, plus une quinzaine de descriptions et des
+   `alt` : « Président / Présidentiel » est un nom de bracelet déposé par Rolex, et le catalogue part
+   au flux Shopping. **Non exécuté volontairement** : renommer touche des titres SEO arbitrés le 13/08,
+   c'est un arbitrage de positionnement, pas une correction. Proposition « bracelet à maillons
+   arrondis » posée dans `A-FAIRE-HAKIM.md`. « Jubilé » et « panda » se défendent comme descripteurs
+   de forme. → **C15 / T-35**.
 
 1. **60 brouillons sur 95 portent encore 1 091 photos AliExpress brutes** (39 n'ont que ça, 13 sont mixtes) : aucun d'eux ne peut être activé. Ce n'est pas une régression, c'est l'état d'origine — mais c'est désormais chiffré fiche par fiche. → **T-07**
 2. **12 fiches actives restent sous la cible** : dix montres à 4/5 (les six `quarante-et-un` de coloris et `trente-neuf-{rouge, vert, bleu, rose}`) et deux accessoires à 2/3 (`coffret-douze-presentation`, `remontoir-vitrine`, dont le visuel de situation a été détaché). Il faut produire, aucun visuel maison conforme ne comble l'écart. → **T-14**
@@ -107,8 +142,8 @@ Ce fichier dit ce qui **est**, pas ce qu'il faut faire. Pour agir : [`TABLEAU.md
    *Corrige un chiffre faux qui circulait ici : le « 15 500 pour cadran arabe » n'a jamais été le volume de cette expression en France. La grappe arabe existe, mais côté **montre finie** (`seiko arabic dial` 8 100, `seiko chiffre arabe` 390, `montre arabe` 320), pas côté cadran-pièce.*
 6. **2 065 SKU AliExpress bruts** sur 84 brouillons et 9 archivés : le défaut P0 de l'audit GMC est revenu par les 94 fiches importées le 09/08, qui n'ont jamais été renommées. Le SKU part au flux Shopping et sort déjà dans le JSON-LD. Bloque l'activation. → **T-32**
 7. **Consentement cookies — SOLDÉ sur le mécanisme le 15/08** (bandeau affiché, boutons de même niveau prouvés au pixel, aucun traceur avant choix, refus fonctionnel, lien de retrait fonctionnel). **Ne reste que la région d'application** : seule la France est en « consentement requis », les 250+ autres pays sont à `false`, et **c'est invérifiable de l'extérieur** (la région vient de l'IP ; `privacySettings` refusé faute de `read_privacy_settings`, re-testé le 15/08). Le jour où la balise Google sera posée, **un visiteur belge ou allemand serait mesuré sans consentement** — `shipsToCountries = ["FR"]` limite les acheteurs, pas les visiteurs. Rien n'est activable par API. → **T-33 §2**, à faire **avant T-10**, pas avant l'ouverture GMC
-8. **Médiateur : les marqueurs sont partis, mais son site manque.** Reconfirmé le 15/08 sur les CGV **publiquement servies** : ✅ plus aucun `[[…]]` nulle part (7 politiques + 6 pages CMS balayées), ⛔ **le `<meta charset>` parasite n'a PAS disparu** : il est toujours dans le corps de l'article 15, relevé le 15/08 au soir sur `shopPolicies.body` via l'API (le contrôle du matin portait sur le HTML rendu, où le navigateur l'absorbe : faux négatif à retirer de la grille). L'article 15 nomme **CM2C, 14 rue Saint Jean, 75017 Paris, Tél : 01 89 47 00 14**. ⛔ Mais **aucune adresse de site internet**, alors que l'**article R. 616-1** l'impose, et la date de version reste « 10 août » pour un document modifié le 14. → **T-H2**, 2 corrections dans le même paragraphe
-9. **Correctifs du thème publié** — le connecteur ne peut pas les écrire. Le compte à rebours de `/password` est **sans objet** (la page n'existe plus). Restent : aucun `tel:` au pied de page (il n'existe que sur `/pages/contact`), aucune mention « TTC », le picto **Google Pay** fantôme, le « **ou Klarna** » fantôme, la promesse de garantie trop large, le « pièce unique, à votre image » du bloc configurateur, et les valeurs dormantes `rating: 4.5` / `review_count: 123` que le bloc `disabled` conserve intactes. → **T-34**
+8. ✅ **Médiateur : SOLDÉ sur le fond le 15/08.** L'article 15 des CGV publiquement servies nomme désormais **CM2C, 14 rue Saint Jean, 75017 Paris, Tél : 01 89 47 00 14, site internet : https://www.cm2c.net/** (art. R. 616-1 satisfait), et le **`<meta charset>` parasite a disparu** : passe complète sur les 7 politiques et les 5 pages CMS publiées, **0 `<meta charset>` dans un corps de document**. ⛔ Reste **la date de version**, toujours « 10 août 2026 » sur les CGV, les CGU, l'expédition, le remboursement et la confidentialité, alors qu'au moins les CGV ont été modifiées le 15. → **T-H2**
+9. **Correctifs du thème publié** — le connecteur ne peut pas les écrire. ✅ Cinq des cinq points d'origine sont faits (Klarna, Google Pay, TTC, garantie du pied de page, pièce unique) et le compte à rebours de `/password` est sans objet. ⛔ Restent : **« sous 24 h ouvrées »** au pied de page et sur les fiches (deux fois), **« mouvement, couronne, aiguilles »** sur les fiches (trois fois), et **le téléphone au pied de page qui n'est toujours pas un lien `tel:`** — il n'existe qu'en texte brut, et le format national plutôt qu'international. **Deux de ces textes sont codés en dur dans `blocks/noirmont-confiance.liquid`** : c'est le seul point du dossier qui demande d'ouvrir l'éditeur de code. **Dormants**, tous `disabled: true` et non servis, tous à vider un jour : badge **« 4,8/5 · 1340 avis »** (2 emplacements), `rating: 4.5` / `review_count: 123` (4 emplacements), **12 témoignages écrits** (2 sections), et **du `Lorem ipsum`** dans la fenêtre « Guide des tailles ». → **T-34**
 10. **9 fichiers image partagés entre deux fiches actives** (composites mère/enfant), interdits par la checklist GMC — mais les retirer recréerait la régression que T-01 vient de réparer. → **T-36**
 11. Manques antérieurs au 12/08 : `remontoir-solo` 2/3, `bracelet-fkm-tropical` 1/3. → **T-09**
 12. ✅ ~~**2 074 prix barrés dorment sur les fiches non actives**~~ — **SOLDÉ le 15/08 (T-50)**. Les 1 926 des 86 brouillons et les 148 des 10 archivées sont à `null`, prouvé par un scan paginé des 3 009 variantes. Reste des deux verrous d'activation : **T-32** (SKU) et **T-07** (photos brutes). Détail : `journal/2026-08-15-purge-prix-barres.md`
