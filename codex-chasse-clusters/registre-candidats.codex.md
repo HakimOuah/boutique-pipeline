@@ -379,3 +379,23 @@ concurrent facultatif, concept/listing/revue humaine maintenus.
 | 2026-08-08 | second-rideau-phase2 | Puzzle 3D, aquarium, théière et lunch box tous arrêtés ; 8/8 dossiers profonds en STOP | 0 | Étudier scrap/journaling puis perles/bijoux, sans sourcing |
 | 2026-08-08 | phase2-scrapbooking | Scrap/journaling arrêté : cœur catalogue très low ticket ; le concurrent similaire valide le modèle et n'est pas le motif du STOP | 0 | Sonder prix/panier perles avant toute étude profonde, sans sourcing |
 | 2026-08-08 | correction-prix-concurrence | Règle Hakim : prix/panier avant concurrence profonde ; un comparable isolé est une validation, pas un STOP | 0 | Appliquer la sonde 30–50 prix au prochain dossier |
+
+## Run six univers catalogue-volume — `20260815-181328`
+
+- Phase 0 SEMrush France partielle, reconnaissance SERP et sondes prix/panier publiques réalisées le 15/08/2026.
+- Aucun sourcing, aucune arborescence de production et aucune mutation commerciale.
+- Rapport : [qualification six univers](reports/rapport-qualification-univers-20260815-181328.md).
+
+| ID | Univers | Volume observé | Prix/panier | Statut actif | Prochaine preuve |
+|---|---|---:|---|---|---|
+| univers-20260815-u1 | Literie / parures | >=93 600 sur deux têtes | médiane 70,91 EUR ; panier naturel | `A_COMPLETER_SERP_EXACTE` | page 1 exacte, prix par taille/matière, concurrence |
+| univers-20260815-u2 | Bouillottes | minimum prudent 42 600 | médiane 17,63 EUR ; 40 % <15 | `ALERTE_STOP_PRIX_PANIER` | AOV/panier comparable et économie de commande |
+| univers-20260815-u3 | Globe / cartographie | globe cœur ≈25 000 | bandes visibles, sonde homogène manquante | `CAS_LIMITE_A_MESURER` | mappemonde/planisphère/cartes, net dédupliqué |
+| univers-20260815-u4a | Télescope high-ticket | 27 100 historique 20/07 | ticket valide | `STOP_REPRISE_SANS_THESE_NOUVELLE` | aucune sans nouvelle thèse |
+| univers-20260815-u4b | Déco astro | manquant | low-ticket probable, laser/électrique | `BLOQUE_PREUVE_VOLUME` | volumes par intention + panier + conformité |
+| univers-20260815-u5 | Gothique / emo | manquant, graine nue polluée | médiane 59,45 EUR segmentée | `A_APPROFONDIR_VOLUME` | bijoux/déco/sacs/accessoires mesurés |
+| univers-20260815-u6 | Ésotérisme | manquant, oracle pollué | médiane 20 EUR, bimodale | `A_APPROFONDIR_SOUS_CONDITIONS` | net hors marques/services + zéro claim |
+
+| Date/heure | Run | Événement | Survivantes provisoires | GO sourcing | Prochaine action |
+|---|---|---|---:|---:|---|
+| 2026-08-15 18:13 CEST | 20260815-181328 | Six univers cadrés, volumes partiels et 180 prix relevés | 5 à compléter + 1 STOP historique | 0 | Réparer les graines SEMrush/Google exactes, puis étude profonde de trois survivantes max |
