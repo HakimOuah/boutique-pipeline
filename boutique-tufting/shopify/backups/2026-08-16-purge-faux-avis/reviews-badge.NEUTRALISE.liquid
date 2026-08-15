@@ -1,0 +1,37 @@
+{% comment %}
+  Tufteo — Bloc « badge d'avis » (style Trustpilot).
+
+  RENDU NEUTRALISE LE 16/08/2026 — conformite Google Merchant Center.
+
+  Motif : ce bloc affichait « Excellent — 4,5 etoiles — 789 avis » sur la banniere d'accueil et
+  « 4,8/5 base sur 789 avis » sur la fiche produit, dans un habillage imitant Trustpilot.
+  Le chiffre de 789 avis n'est etaye par rien : le catalogue reel compte 169 avis Trustoo.
+  Note inventee + imitation d'un organisme de confiance = motif de refus « misrepresentation ».
+
+  Le balisage d'origine est conserve dans le theme publie « Tufteo theme » (188623847809).
+
+  Pour reactiver : repasser tufteo_badge_actif a true — et n'afficher qu'une note reellement
+  mesuree, avec le nombre d'avis reel et la source nommee.
+{% endcomment %}
+
+{%- assign tufteo_badge_actif = false -%}
+{%- if tufteo_badge_actif -%}{%- endif -%}
+
+{% schema %}
+{
+  "name": "Badge d'avis",
+  "settings": [
+    { "type": "select", "id": "review_badge_style", "label": "Style", "options": [ { "value": "trustpilot", "label": "Trustpilot" }, { "value": "default", "label": "Par defaut" } ], "default": "default" },
+    { "type": "checkbox", "id": "wrap_in_a_badge", "label": "Encadrer", "default": false },
+    { "type": "color_scheme", "id": "color_scheme", "label": "Jeu de couleurs" },
+    { "type": "checkbox", "id": "show_badge_border", "label": "Bordure", "default": false },
+    { "type": "text", "id": "text_1", "label": "Texte 1" },
+    { "type": "text", "id": "stars", "label": "Etoiles" },
+    { "type": "text", "id": "text_2", "label": "Texte 2" },
+    { "type": "url", "id": "link", "label": "Lien" },
+    { "type": "range", "id": "margin_top", "label": "Marge haut", "min": 0, "max": 100, "step": 1, "unit": "px", "default": 0 },
+    { "type": "range", "id": "margin_bottom", "label": "Marge bas", "min": 0, "max": 100, "step": 1, "unit": "px", "default": 0 },
+    { "type": "text", "id": "additional_class", "label": "Classe CSS" }
+  ]
+}
+{% endschema %}
