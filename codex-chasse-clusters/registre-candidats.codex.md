@@ -382,20 +382,21 @@ concurrent facultatif, concept/listing/revue humaine maintenus.
 
 ## Run six univers catalogue-volume — `20260815-181328`
 
-- Phase 0 SEMrush France partielle, reconnaissance SERP et sondes prix/panier publiques réalisées le 15/08/2026.
-- Aucun sourcing, aucune arborescence de production et aucune mutation commerciale.
-- Rapport : [qualification six univers](reports/rapport-qualification-univers-20260815-181328.md).
+- Analyse terminale consolidée le 15/08/2026 : cinq STOP, un `REPARER_AVANT`, zéro retenu.
+- Sourcing officiel U2 limité et read-only : 30 résultats hors intention, aucun SKU/fret/économie.
+- Final : [six univers](final-20260815-181328.md). Audit : [consolidation](reports/audit-consolidation-six-univers-20260815.md).
 
-| ID | Univers | Volume observé | Prix/panier | Statut actif | Prochaine preuve |
+| ID | Univers | Volume final audité | Prix/panier | Statut actif | Réouverture |
 |---|---|---:|---|---|---|
-| univers-20260815-u1 | Literie / parures | >=93 600 sur deux têtes | médiane 70,91 EUR ; panier naturel | `A_COMPLETER_SERP_EXACTE` | page 1 exacte, prix par taille/matière, concurrence |
-| univers-20260815-u2 | Bouillottes | minimum prudent 42 600 | médiane 17,63 EUR ; 40 % <15 | `ALERTE_STOP_PRIX_PANIER` | AOV/panier comparable et économie de commande |
-| univers-20260815-u3 | Globe / cartographie | globe cœur ≈25 000 | bandes visibles, sonde homogène manquante | `CAS_LIMITE_A_MESURER` | mappemonde/planisphère/cartes, net dédupliqué |
-| univers-20260815-u4a | Télescope high-ticket | 27 100 historique 20/07 | ticket valide | `STOP_REPRISE_SANS_THESE_NOUVELLE` | aucune sans nouvelle thèse |
-| univers-20260815-u4b | Déco astro | manquant | low-ticket probable, laser/électrique | `BLOQUE_PREUVE_VOLUME` | volumes par intention + panier + conformité |
-| univers-20260815-u5 | Gothique / emo | manquant, graine nue polluée | médiane 59,45 EUR segmentée | `A_APPROFONDIR_VOLUME` | bijoux/déco/sacs/accessoires mesurés |
-| univers-20260815-u6 | Ésotérisme | manquant, oracle pollué | médiane 20 EUR, bimodale | `A_APPROFONDIR_SOUS_CONDITIONS` | net hors marques/services + zéro claim |
+| univers-20260815-u1 | Literie / parures | PASS sur 60,5 k seul ; 93,6 k brut bi-head | médiane 70,91 EUR ; panier naturel | `STOP_PHASE_2_DROIT_DE_GAGNER` | thèse propriétaire/sous-intention nouvelle |
+| univers-20260815-u2 | Bouillottes | 42,6 k prudent, mapping SERP provisoire | médiane 17,63 EUR ; panier 50–60 EUR plausible, économie absente | `REPARER_AVANT_SOURCE_EXACTE` | ID produit exact + variante/fret FR/sécurité, puis économie |
+| univers-20260815-u3 | Globe / cartographie | 22,87 k prudents | globe standard médiane 81,38 EUR | `STOP_VOLUME_CATALOGUE` | ≥7,13 k commerciaux nets nouveaux |
+| univers-20260815-u4a | Télescope high-ticket | 27,1 k historique | ticket valide | `STOP_REPRISE_SANS_THESE_NOUVELLE` | thèse nouvelle technique/SAV/distribution |
+| univers-20260815-u4b | Déco astro | ≤12 k bruts mesurés | non décisionnel | `STOP_VOLUME_CATALOGUE` | nouveau cluster distinct franchissant le gate |
+| univers-20260815-u5 | Gothique / emo / démon | gothique ≤4,12 k ; emo produit 60 ; déco démon sans ligne | médiane 59,45 EUR segmentée | `STOP_VOLUME_CATALOGUE` | micro-cluster autonome non licencié et mesuré |
+| univers-20260815-u6 | Ésotérisme | 31,6 k prudent, concentré encens | médiane 20 EUR, bimodale | `STOP_PHASE_3_DROIT_DE_GAGNER` | distribution/création/canal propriétaire |
 
 | Date/heure | Run | Événement | Survivantes provisoires | GO sourcing | Prochaine action |
 |---|---|---|---:|---:|---|
 | 2026-08-15 18:13 CEST | 20260815-181328 | Six univers cadrés, volumes partiels et 180 prix relevés | 5 à compléter + 1 STOP historique | 0 | Réparer les graines SEMrush/Google exactes, puis étude profonde de trois survivantes max |
+| 2026-08-15 19:13 CEST | 20260815-181328 | Consolidation terminale des six univers | 5 STOP + 1 REPARER_AVANT ; 0 retenu | 0 | Run clos ; U2 seulement sur preuve fournisseur exacte |

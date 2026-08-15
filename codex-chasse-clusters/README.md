@@ -4,12 +4,12 @@ Cet espace contient l'adaptation Codex de la boucle volume-first. Il est volonta
 
 ## Résultat du run actif
 
-Le run `20260720-124517` est terminé par épuisement des 40 familles : **17 thématiques marché qualifiées**, toutes à sourcer manuellement sur AliExpress. Les seuils n'ont pas été abaissés pour atteindre artificiellement 20.
+Le run `20260815-181328` a déroulé six univers catalogue-volume apportés par Hakim jusqu'à leur gate terminal : **cinq STOP, un `REPARER_AVANT_SOURCE_EXACTE`, zéro candidat retenu**. Les seuils n'ont pas été abaissés.
 
-- [Livrable final](final-20260720-124517.md)
+- [Livrable final](final-20260815-181328.md)
+- [Audit de consolidation](reports/audit-consolidation-six-univers-20260815.md)
 - [Registre des candidats](registre-candidats.codex.md)
 - [État terminal](run-state.json)
-- [Checkpoint d'épuisement](checkpoints/familles-epuisees-20260720-124517.md)
 
 ## Périmètre
 

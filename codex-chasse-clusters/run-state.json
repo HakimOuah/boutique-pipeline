@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "workspace": "codex-chasse-clusters",
-  "status": "BLOCKED",
+  "status": "COMPLETE_NO_GO",
   "run_id": "20260815-181328",
   "created_at": "2026-08-15T18:13:28+02:00",
-  "updated_at": "2026-08-15T18:20:00+02:00",
+  "updated_at": "2026-08-15T19:13:35+02:00",
   "target_count": 6,
   "minimum_delivery_count": 1,
   "retained_count": 0,
-  "radar_candidate_count": 6,
+  "radar_candidate_count": 0,
   "retained_count_rule": "count only current-run unique candidates with verdict RETENU_NIVEAU_2_ECO or RETENU_MARCHE_A_SOURCER; radar and a-creuser rows are reported separately",
   "mode": "catalogue_volume_six_user_univers",
   "previous_run": {
@@ -20,23 +20,15 @@
   },
   "current": {
     "family_id": "univers-20260815",
-    "seed": "cartographie-deco-astro-gothique-esoterisme",
-    "cluster_id": "univers-20260815-u3-u6-missing-seeds",
+    "seed": "six-univers-user-provided",
+    "cluster_id": "univers-20260815-terminal",
     "candidate_id": null,
-    "stage": "phase0-decouverte",
+    "stage": "terminal-consolidation-complete",
     "attempt": 3,
-    "last_valid_report": "reports/rapport-qualification-univers-20260815-181328.md"
+    "last_valid_report": "final-20260815-181328.md"
   },
-  "next_action": "Reconnect the authenticated SEMrush France session and measure the missing U3/U4b/U5/U6 seeds sequentially; then certify Google.fr SERPs before any deep competitor study or sourcing",
-  "blocked": {
-    "reason": "Authenticated Chrome SEMrush control repeatedly timed out on new seed navigation and filter interaction; existing loaded results remained readable.",
-    "attempts": [
-      "Expression-exact interaction on the existing housse de couette tab timed out.",
-      "A fresh authenticated Chrome tab with sequential seed navigation timed out.",
-      "A single fresh telescope query after reinitialization timed out during row extraction; public SERP and price work continued without fabricating SEMrush data."
-    ],
-    "safe_progress_completed": "U1/U2 head-volume evidence, U3 globe core, U4 lunette partial plus telescope history correction, U5/U6 polluted-seed evidence, three SERP/price reports and a consolidated decision report."
-  },
+  "next_action": "No active continuation. Reopen U2 only with an exact supplier product ID or authorized supplier proof, then qualify variant, stock, France freight, safety and economics; reopen any STOP universe only under its terminal new-evidence condition.",
+  "blocked": null,
   "historical_previous_run_processed_cluster_ids": [
     "f01-atelier-outillage-c01-servante-atelier",
     "f01-atelier-outillage-c02-etabli",
@@ -442,21 +434,21 @@
   "historical_previous_run_completion_reason": "all_40_families_exhausted_before_target_without_lowering_criteria",
   "blocker": null,
   "supplier_access": {
-    "status": "BLOCKED_BY_BROWSER_SECURITY_POLICY",
-    "observed_at": "2026-07-20T20:52:00+02:00",
-    "scope": "AliExpress navigation for current multi-market candidates",
-    "checkpoint": "Browser Use rejected this action due to browser security policy",
-    "fallback_active": true
+    "status": "HEALTHY_READ_ONLY_GATEWAY_WITH_NO_U2_MATCH",
+    "observed_at": "2026-08-15",
+    "scope": "AliExpress Open Platform via allowlisted VPS; health/search only for U2",
+    "checkpoint": "reports/prevol-aliexpress-univers-20260815.md and reports/phase4-sourcing-u2-bouillottes-20260815.md",
+    "fallback_active": false
   },
   "completion": {
-    "reason": "target_radar_delivered_with_evidence_gates_unchanged",
-    "brandsearch_companies_deduplicated": 216,
-    "validated_market_to_source": 8,
-    "to_investigate": 16,
-    "excluded": 6,
-    "report": "reports/validation-multimarche-brandsearch-20260720-200609-a1.md",
-    "workbook": "outputs/20260720-200609/tableau-produits-multimarches-20260720-200609.xlsx",
-    "raw_brandsearch": "runs/20260720-200609/brandsearch-entreprises-filtrees.json"
+    "reason": "six_univers_consolidated_no_go",
+    "universes_reviewed": 6,
+    "stopped_universes": 5,
+    "repair_before_exact_source": 1,
+    "retained_count": 0,
+    "go_launch_count": 0,
+    "report": "reports/audit-consolidation-six-univers-20260815.md",
+    "final": "final-20260815-181328.md"
   },
   "policies": {
     "markets": ["FR", "DE", "GB", "ES", "IT", "NL", "BE"],
