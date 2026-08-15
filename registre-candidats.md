@@ -25,7 +25,28 @@ Six univers apportés par Hakim le 15/08/2026, à traiter en **mode Kraken `cata
 | U5 | Emo / gothique / démon | Aucun passage ; textile à tailles = risque structurel documenté (déguisements écartés 08/08) → prioriser déco-bijoux-accessoires | catalogue-volume | à mesurer |
 | U6 | Ésotérisme | Lithothérapie recalée 08/08 (KD 53, claims) → cristaux en angle bijou-déco seulement ; reste de l'univers non mesuré | catalogue-volume, panier composé | à mesurer |
 
-Prochaine étape : étapes 1-2 du plan (mesure express KMT `db=fr` + SERP + sonde prix) sur les six en une session, puis étapes 3-6 sur trois survivantes au plus.
+### Résultats du 15/08/2026 (soir) — analyse complète, deux moteurs
+
+Analyse menée par **Codex** (lot complet, run `20260815-181328`) puis **reprise ciblée par Claude** sur la consolidation par famille que la mesure Codex n'avait pas faite. Synthèse : [analyses/2026-08-15-niches-univers/SYNTHESE.md](analyses/2026-08-15-niches-univers/SYNTHESE.md). Réconciliation des deux lots : [00-RECONCILIATION-CODEX.md](analyses/2026-08-15-niches-univers/00-RECONCILIATION-CODEX.md).
+
+| # | Univers | Volume net | Verdict | Rapports |
+|---|---|---|---|---|
+| U1 | Parure de lit | passe (`housse de couette` 60 500 seule) | **STOP droit de gagner** — 10 acteurs couvrent les angles génériques | `codex-chasse-clusters/reports/niches-univers-terminal-u1-literie-20260815.md` |
+| U2 | Bouillottes | ~42 600 provisoire | **En suspens** — sourcing bloqué par une **limite d'API** (requêtes en mots fréquents), pas par le marché ; à reprendre par noms de magasins ou via DSers | idem `...-u2-bouillottes-...` |
+| U3 | Globe & cartographie | **66 550 vérifiés en SERP** (2,2× le plancher) | **GO marché, SOURCING INSUFFISANT** — 59 concepts sur 200 ; `GO_CONDITIONNEL` économique sur le globe seul (marge 26,35 € / 58,7 %, ROAS BE 1,70, ratio prix/CPC 249) | [U3](analyses/2026-08-15-niches-univers/U3-globe-cartographie/) (4 rapports) |
+| U4a | Télescopes | — | **STOP** — marques, confiance technique, SAV | `...-u4-astronomie-...` |
+| U4b | Déco astro | 24 830 (− 5 170) | **STOP volume** — 94 % du périmètre est de la lumière ; base Codex corrigée de 12 000 à 6 090 (`planétarium` = lieu à 55 %) | [U4](analyses/2026-08-15-niches-univers/U4-astronomie/) |
+| U5 | Gothique / emo | 26 453 après SERP (− 3 547) | **STOP volume, dossier vivant** — SERP ouverte : antregothique/castle-gothic/vetement-gothique **absents des pages 1**, Shein et Temu 0/10, Amazon 3/10 jamais en tête. `emo` ne contribue rien (CPC 0,00 $) | [U5](analyses/2026-08-15-niches-univers/U5-gothique/) (3 rapports) |
+| U6 | Ésotérisme | 31 600 prudents | **STOP droit de gagner** — 10 acteurs couvrent catalogue, édition, curation | `...-u6-esoterisme-...` |
+
+**Aucun GO lancement.** U3 est le seul à franchir toutes les portes marché et échoue sur la profondeur fournisseur.
+
+**Enseignement transverse — la consolidation par famille change les ordres de grandeur** : U3 22 870 → 80 960 (×2,9), U5 4 120 → 22 120 (×6,4), U4b 12 000 → 24 830 (×2,1). Sur U3, les 7 130 manquants sont comblés 11 fois **sans une seule graine nouvelle**. Mesurer une tête par famille sous-évalue systématiquement — c'est le phénomène Noirmont, reproduit à l'identique.
+
+**Candidat neuf né de l'analyse** : « bijoux pierres naturelles et symboles » (révélé par momentici.com — 2 344 produits, médiane 39 €, 0,4 % sous 15 €). Ne s'ajoute pas à U6, jamais mesuré. À traiter comme une entrée autonome.
+
+
+~~Prochaine étape : étapes 1-2 du plan sur les six en une session.~~ **Fait le 15/08 — voir les résultats ci-dessous.**
 
 ## Salve Kraken — niches à catalogue profond (08/08/2026, niveau 0)
 
