@@ -25,7 +25,7 @@ L'ordre suit la **valeur du trou comblé × la solidité du dossier**, pas la pr
 2. **Style plongeuse ensuite** — dossiers propres, cadrans stériles revendiqués par le fournisseur,
    marges 48 à 54 %.
 3. **Squelette en dernier** — la plus grosse valeur SEO (17 120 recherches), mais **le lot 1 attend un
-   arbitrage de prix** (marge 39,8 % à 279 €, voir §8.1 du journal).
+   arbitrage de prix — **tranché le 15/08 : 289 €**, marge 41,8 % (voir §8.1 du journal).
 
 ---
 
@@ -77,16 +77,16 @@ voir §5.2 du journal, le trou se comble par le nom du magasin, pas par la descr
 
 ## Lot 4 — Montres squelette · 8 fiches · collection `montre-squelette` (existante, non publiée)
 
-### 4a — Squelette de catalogue ⚠️ **prix en attente d'arbitrage (T-H3)**
+### 4a — Squelette de catalogue ✅ **prix arbitré par Hakim le 15/08 : 289 €**
 
 | # | URL AliExpress | Variante à sélectionner | Handle proposé | Prix | Coût rendu | Marge HT |
 |---:|---|---|---|---:|---:|---:|
-| 15 | `https://www.aliexpress.com/item/1005006771109294.html` | `black chapter ring A` + `glass back` — SKU `12000038242398895` | `montre-squelette-automatique-40-anneau-noir` | **279 €** | 135,78 € | 92,56 € (39,8 %) |
-| 16 | idem | `blue hand A` + `glass back` | `montre-squelette-automatique-40-aiguilles-bleues` | **279 €** | 135,78 € | 92,56 € (39,8 %) |
-| 17 | idem | `red hand A` + `glass back` | `montre-squelette-automatique-40-aiguilles-rouges` | **279 €** | 135,78 € | 92,56 € (39,8 %) |
-| 18 | idem | `Green Chapter Ring A` + `glass back` | `montre-squelette-automatique-40-anneau-vert` | **279 €** | 135,78 € | 92,56 € (39,8 %) |
-| 19 | idem | `blue ring A` + `glass back` | `montre-squelette-automatique-40-lunette-bleue` | **279 €** | 135,78 € | 92,56 € (39,8 %) |
-| 20 | idem | `white ring A` + `glass back` | `montre-squelette-automatique-40-anneau-blanc` | **279 €** | 135,78 € | 92,56 € (39,8 %) |
+| 15 | `https://www.aliexpress.com/item/1005006771109294.html` | `black chapter ring A` + `glass back` — SKU `12000038242398895` | `montre-squelette-automatique-40-anneau-noir` | **289 €** | 135,78 € | 100,75 € (41,8 %) |
+| 16 | idem | `blue hand A` + `glass back` | `montre-squelette-automatique-40-aiguilles-bleues` | **289 €** | 135,78 € | 100,75 € (41,8 %) |
+| 17 | idem | `red hand A` + `glass back` | `montre-squelette-automatique-40-aiguilles-rouges` | **289 €** | 135,78 € | 100,75 € (41,8 %) |
+| 18 | idem | `Green Chapter Ring A` + `glass back` | `montre-squelette-automatique-40-anneau-vert` | **289 €** | 135,78 € | 100,75 € (41,8 %) |
+| 19 | idem | `blue ring A` + `glass back` | `montre-squelette-automatique-40-lunette-bleue` | **289 €** | 135,78 € | 100,75 € (41,8 %) |
+| 20 | idem | `white ring A` + `glass back` | `montre-squelette-automatique-40-anneau-blanc` | **289 €** | 135,78 € | 100,75 € (41,8 %) |
 
 ⚠️ **Fret 5,79 €, délai 10-22 jours** (25 août → 6 septembre) — **hors promesse J+21**.
 ⚠️ **`904L` imprimé en rouge sur le bracelet** : le cadran est nu, la source est valide, mais **aucun

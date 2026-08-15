@@ -197,3 +197,25 @@ sortent de la publicité, et deviennent les premières candidates au dépeupleme
 - **Aucun prix barré** : les 931 `compareAtPrice` ont été purgés le 08/08. Sur une boutique à 0 vente, un prix de référence est injustifiable et c'est le tueur Merchant Center n°1. **Ne pas les réintroduire.**
 - Le budget publicitaire validé est de **30 €/jour**, ce qui suppose un CPC entre 0,16 et 0,25 € pour rester cohérent.
 - Objectif de la phase de lancement : **15 conversions** pour débloquer le tROAS, sans chercher la rentabilité.
+
+---
+
+## 6. Arbitrage squelette — 15/08/2026
+
+**Décision de Hakim : 289 € pour les 6 squelettes de catalogue à sourcer** (NH70, saphir, acier 40 mm).
+
+| Prix | Marge HT | Position face au comparable |
+|---:|---:|---|
+| 279 € | 39,8 % | sous `maisondutemps` (285-295 €) |
+| **289 €** | **41,8 %** | **juste sous son point haut** ✅ retenu |
+| 299 € | 43,7 % | au-dessus de lui |
+
+**Pourquoi 289 et pas 299** : à 299 € on passe au-dessus du seul indépendant comparable, qui tient la première page avec 44 fiches quand on en aura 8. Le gain de marge entre les deux est de 2 points ; la différence de position est qualitative. Et **on n'a pas encore les visuels** : décider un prix premium avant d'avoir vu les photos, c'est parier sur un travail qui n'existe pas. À 289 €, une montée à 299 € reste possible plus tard ; l'inverse est douloureux.
+
+**Le mur de marge est structurel, pas un défaut de sourcing.** Le seul NH70 + saphir + acier **sans marque au cadran** et à ≥ 10 ventes coûte **135,78 € rendu**. Tous les squelettes sous 70 € impriment leur marque (WINNER, OLEVS, LIGE, FORSINING) ; les stériles NH70 plafonnent à 4-29 ventes. Constat du 31/07, **reconfirmé le 15/08 par une méthode entièrement différente**.
+
+### ⚠️ Incohérence à trancher sur les 2 squelettes déjà en ligne
+- `montre-squelette-automatique-carree` : **279 €**
+- `montre-squelette-automatique-octogone` : **299 €**
+
+La collection aurait donc trois prix pour des produits équivalents : 279, 289 et 299 €. **À aligner sur 289 € avant publication de la collection**, sauf différence de produit qui le justifie (l'octogone est peut-être une pièce distincte — à vérifier avant de toucher au prix).
