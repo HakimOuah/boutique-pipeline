@@ -142,3 +142,170 @@ radialement comme sur la source** — ce ne sont pas des glyphes inversés. Les 
 fait sérieusement sur cette famille.
 
 **Bilan plongeuses (36 visuels) : 29 conformes, 7 à refaire** (les 6 du vert + le `g3` du noir).
+
+### 2.7 Les 6 `montre-squelette-automatique-40-*` — 36 visuels — conformes
+
+C'était la deuxième zone à risque : les sources portent **trois** saletés à effacer, toutes
+vérifiées comme **disparues** dans les livrables :
+
+1. le filigrane `BLIGER Official Store` en haut à gauche des 26 photos ;
+2. le **`904L` rouge** imprimé sur le film de protection du bracelet — contrôlé au zoom ×2,6
+   sur le bracelet de `anneau-noir-g1` : maillons Oyster brossés, **aucune inscription rouge,
+   aucun film plastique** ;
+3. sur `06.jpg` (source du `g5`), la gravure `NH70A · TWENTY-FOUR JEWELS` sur le mouvement
+   et le `904L` rouge partout sur le film : le `g5` livré montre un fond transparent avec
+   masse oscillante **lisse et vierge**, sans aucun texte.
+
+Appariement coloris → source, vérifié un par un, **6/6 justes** :
+`aiguilles-rouges` = 21 (lunette acier, anneau blanc, aiguilles rouges) ·
+`anneau-vert` = 22 (anneau turquoise — la source est bien turquoise, pas vert : c'est le
+libellé de la fiche qui est approximatif, pas le visuel) · `lunette-bleue` = 23 (lunette
+bleue, aiguilles dorées) · `anneau-blanc` = 24 (lunette noire, anneau blanc) ·
+`aiguilles-bleues` = 25 (lunette GMT bicolore noir/bleu, aiguille GMT bleue) ·
+`anneau-noir` = 26 (lunette acier, anneau noir).
+
+Contrôle de lunette au plein format sur `aiguilles-bleues-g3` : la lunette 24 h affiche
+`2 · 4 · 6 · 8 · 10 · 12 · 14 · 16 · 18 · 20 · 22` avec le triangle à 24 h, séquence
+complète, dans l'ordre, correctement pivotée. Aucun chiffre manquant ni inventé.
+Aucun cadran ne porte de texte : le mouvement squelette est nu.
+
+Deux réserves de livraison (pas de conformité) : le `g5` est **un seul fichier recyclé sur
+les 6 fiches**, et les 6 visuels de variante sont des doublons binaires des `g1`.
+
+### 2.8 `montre-squelette-automatique-pont-cuir` et `-pont-cuir-noir` — 12 visuels — conformes
+
+C'était la fiche la plus exposée au « lettrage cursif inventé » : Codex y a écarté **5 rendus**
+pour ce motif (`pseudo-inscriptions-sur-pont`, `glyphe-invente-sur-pont`,
+`graduation-minute-malformee`, `graduation-et-glyphes-inventes`).
+
+Contrôle au zoom ×2 sur `pont-cuir-g3`, secteur haut puis secteur bas :
+
+- Chiffres romains de la lunette dorée : `XII · I · II · III · IV · V · VI · VII · VIII · IX · X · XI`,
+  les 12 présents, dans l'ordre, **pivotés radialement exactement comme la source** (au bas du
+  cadran ils se lisent donc à l'envers, ce qui est le comportement de la source et non un défaut).
+- Minuterie intérieure : `60 · 05 · 10 · 15 · 20 · 25 · 30 · 35 · 40 · 45 · 50 · 55`,
+  les 12 présents, aucun trou, traits intermédiaires réguliers.
+- Une micro-anomalie observée : une rangée de marques minuscules sur l'arête supérieure du pont
+  horizontal, à gauche de l'aiguille des minutes. À ×6 elle ne forme **aucun mot lisible** et
+  correspond à la densité mécanique réelle de la source (dentures, rubis, vis). Je ne la
+  compte pas comme inscription inventée, mais c'est le point à re-regarder si Hakim veut être
+  maximaliste.
+
+La version noire (`pont-cuir-noir`, source `08.jpg`) est le même travail en boîtier PVD noir
+et cuir noir : même contrôle, même résultat.
+
+### 2.9 Les 4 coffrets bois laqué — 16 visuels — **2 à refaire**
+
+**Le nombre de logements est juste sur les 4 fiches** — c'était le contrôle attendu :
+douze noir = 6 + 6 = **12** · douze acajou = 6 + 6 = **12** · dix acajou = 5 + 5 = **10** ·
+six acajou = une rangée de **6**. Les cotes en centimètres incrustées sur les sources
+(`3CM`, `4.5CM`, `8.5CM`, `5CM`, `20CM`, `31.3CM`) ont toutes disparu. Intérieur brun pour le
+coffret noir, crème pour les acajou : conforme aux sources.
+
+**Mais les deux `g2` des coffrets 12 places sont à refaire.**
+
+`coffret-douze-montres-bois-laque-noir-g2.jpg` et
+`coffret-douze-montres-bois-laque-acajou-g2.jpg` montrent le coffret **rempli de 12 montres
+générées**, et au zoom ×6 **chaque cadran porte un logotype inventé** : un mot en cursive ou
+en romain fin imprimé sous le 12, et sur plusieurs cadrans **une deuxième ligne de texte au
+niveau du 6**. C'est le « lettrage cursif inventé » du brief, et c'est une infraction directe
+à l'interdit « aucun logo, sigle ni marque sur les cadrans ». Ces deux fichiers ne peuvent pas
+être rattachés.
+
+Les `g2` des coffrets **10 et 6** places contiennent aussi des montres générées, mais leurs
+cadrans sont **stériles** (chiffres arabes seuls, aucune inscription) : ils passent.
+
+Point à trancher par Hakim, au-delà de la QA : les coffrets sont vendus **vides**. Les montrer
+garnis de 10 à 12 montres est un risque de misrepresentation GMC indépendamment du lettrage.
+
+### 2.10 `malette-quinze-montres-etanche` — 4 visuels — **1 à écarter**
+
+| Fichier | Verdict | Motif |
+|---|---|---|
+| `-g1` | conforme | Plateau mousse **5 colonnes × 3 rangées = 15 logements**, exactement la capacité vendue. Aucun texte. |
+| `-g2` | conforme | Même malette garnie de 15 montres à cadrans stériles. |
+| `-g3` | **à écarter** | Le plateau rendu **ne correspond pas à celui de `g1`** : logements nettement plus étroits et **au moins 4 rangées** au lieu de 3. Il vient de la source `04.jpg`, qui montre le plateau mousse sorti de la malette dans une découpe plus dense que la variante 15. Deux photos de la même fiche annonceraient donc deux capacités différentes. Le JSON avait déjà écarté `05.jpg` et `07.jpg` pour « plateau 8 logements, ce n'est pas la variante 15 vendue » : le piège de variante n'a été évité qu'à moitié. |
+| `-v-15-slots` | conforme | Malette fermée, coque noire, poignée, loquets. Le texte `15 slots` + cotes intérieures de la source `08.jpg` a bien été retiré. Seule variante du lot qui **n'est pas** un doublon de son `g1`. |
+
+### 2.11 `porte-montre-bois-massif-cuir` — 4 visuels — conformes
+
+La galerie source mélangeait deux produits et contenait une bouteille de cognac de marque et
+une photo de pesée sur balance. **Aucune trace de l'un ou de l'autre dans les livrables.**
+
+Source retenue `06.jpg` = la **variante A** effectivement vendue. Le support livré est un C
+en chêne clair massif avec **coussinet de cuir grainé bordeaux** : c'est exactement la
+variante A, pas la variante B à plateau violet (stock 0) qui était `ecarte` sur les photos 2 à 5.
+Les cotes `7cm/2.76in`, `5cm/1.97in`, `6cm/2.36in` incrustées sur la source ont disparu.
+Le `g2` pose une montre sur le support : son cadran est **stérile**, aucun logo.
+Aucun objet tiers, aucun décor rapporté, aucune main.
+
+---
+
+## 3. Synthèse
+
+### Décompte final sur 108 visuels
+
+| Verdict | Nombre |
+|---|---:|
+| **conforme — rattachable tel quel** | **98** |
+| **à refaire** | **9** |
+| **à écarter** | **1** |
+
+Détail des 10 non rattachables :
+
+- `montre-style-plongeuse-36-cadran-vert` : **les 6** (`g1` à `g5` + variante) — aplat cyan
+  peint sur le cadran vert, arêtes droites traversant le guichet de date, identique sur les
+  cinq vues.
+- `montre-style-plongeuse-36-cadran-noir-g3` — `10` de la minuterie cassé en `1` + `O`
+  détachés, traits de minuterie irréguliers dans le secteur 5–15.
+- `coffret-douze-montres-bois-laque-noir-g2` et `coffret-douze-montres-bois-laque-acajou-g2`
+  — logotypes inventés sur les cadrans des 12 montres présentes dans le coffret.
+- `malette-quinze-montres-etanche-g3` — **à écarter** : plateau d'une autre capacité que le `g1`.
+
+### Réserves qui ne bloquent pas le rattachement
+
+1. **19 des 20 « visuels de variante » sont des copies octet pour octet de leur `g1`** et les
+   6 squelettes 40 partagent un `g5` unique : 108 fichiers pour **87 images distinctes**.
+   Si Shopify doit porter un média de variante réellement distinct, il en manque 19.
+2. Les coffrets et la malette sont vendus vides mais montrés garnis — décision merchandising
+   et GMC à prendre par Hakim, hors périmètre QA.
+3. La mission annonçait 104 visuels, le lot en contient 108. Écart à acter.
+
+### Consigne exacte à redonner à Codex
+
+> Reprends **10 fichiers**, sans retoucher les 98 autres, et sans changer de source :
+>
+> 1. **`montre-style-plongeuse-36-cadran-vert`, les 6 fichiers.** La source `12.jpg` porte un
+>    reflet de ciel bleu sur le verre bombé, dans le quart inférieur droit. Ce n'est **pas**
+>    une finition de cadran : c'est un reflet. Supprime-le et rends le cadran **vert uniforme
+>    en soleillé sur 360°**, exactement comme tu l'as déjà fait pour `bordeaux` (source
+>    `13.jpg`) et `bleu` (source `14.jpg`), qui portaient le même reflet. Aucune arête droite,
+>    aucun aplat de couleur, aucune zone bicolore. Le reste de la fiche est bon : garde
+>    l'aiguille flèche orange, la date `3`, le triangle 12 h, les rectangles 6 h et 9 h.
+> 2. **`montre-style-plongeuse-36-cadran-noir-g3`.** Refais la minuterie périphérique : le `10`
+>    doit être un nombre d'un seul tenant comme les autres (`60`, `55`, `50`…), pas un `1` et un
+>    `O` séparés à des rayons différents ; et les traits intermédiaires doivent avoir une
+>    longueur et un pas constants sur les 360°, en chemin de fer, comme dans la source.
+> 3. **`coffret-douze-montres-bois-laque-noir-g2`** et
+>    **`coffret-douze-montres-bois-laque-acajou-g2`.** Les 12 montres que tu as placées dans le
+>    coffret portent un logotype inventé sous le 12 et une deuxième ligne de texte vers le 6.
+>    **Aucune surface de cadran ne doit porter le moindre caractère.** Refais-les avec des
+>    cadrans strictement stériles — chiffres arabes ou index seuls — comme tu l'as fait pour les
+>    coffrets 10 et 6 places, qui sont corrects.
+> 4. **`malette-quinze-montres-etanche-g3`.** Le plateau que tu as rendu n'a pas la découpe du
+>    `g1` : logements plus étroits, au moins 4 rangées au lieu de 3. La fiche vend **15
+>    logements en 5 colonnes × 3 rangées**. Refais le `g3` en macro **du plateau de `g1`**,
+>    et non de celui de la source `04.jpg` qui montre une découpe d'une autre variante.
+>
+> Deux règles générales pour cette reprise :
+>
+> - **Ne peins jamais sur le produit ce qui est un reflet, une ombre ou un film de protection
+>   sur la photo source.** Reflet de verre, halo de lampe, plastique d'emballage : ça se
+>   supprime, ça ne se transforme pas en finition.
+> - **Aucun caractère nulle part sur un produit** : ni sur un cadran, ni sur un fond de boîte,
+>   ni sur un pont de mouvement, y compris sur les objets d'accompagnement que tu génères
+>   toi-même dans la scène.
+>
+> Et une question à trancher avant la prochaine passe : les 19 « visuels de variante » sont
+> aujourd'hui des copies exactes de leur `g1`. Soit ils doivent devenir des vues réellement
+> distinctes, soit il faut cesser de les compter comme des visuels séparés.
