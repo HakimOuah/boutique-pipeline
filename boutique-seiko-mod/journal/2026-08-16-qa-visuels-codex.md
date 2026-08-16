@@ -309,3 +309,28 @@ Détail des 10 non rattachables :
 > Et une question à trancher avant la prochaine passe : les 19 « visuels de variante » sont
 > aujourd'hui des copies exactes de leur `g1`. Soit ils doivent devenir des vues réellement
 > distinctes, soit il faut cesser de les compter comme des visuels séparés.
+
+---
+
+## 4. Contrôle de la reprise — 16/08, 12h30
+
+Les **10 fichiers** demandés ont été réécrits (tous datés du 16/08 12:06, tous en 2048×2048). Contrôle sur les trois planches de `workbench/reprise-10-2026-08-16/qa/` **et sur les fichiers livrés**.
+
+| Reprise | Verdict |
+|---|---|
+| `plongeuse-36-vert`, les 6 vues | ✅ **corrigé** — vert soleillé uniforme sur 360°, plus aucun aplat cyan ni arête droite, guichet de date propre. Aiguille flèche orange, triangle 12 h, rectangles 6 h et 9 h conservés |
+| `plongeuse-36-noir-g3` | ✅ **corrigé** — minuterie régulière, cohérente avec le `g1` |
+| `coffret-douze-noir-g2` et `coffret-douze-acajou-g2` | ✅ **corrigé** — les 12 cadrans de garnissage ne portent plus aucun caractère, seulement des chiffres |
+| `malette-quinze-g3` | ✅ **corrigé** — plateau 15 logements en 5 × 3, conforme au `g1` et à la fiche |
+
+**Décompte final : 108 visuels conformes sur 108.**
+
+### ⚠️ Correction d'un faux positif de notre propre QA
+
+Le rapport initial signalait sur `plongeuse-36-noir` un « `10` cassé en `1` + `O` ». **Vérification faite contre la source `face-fournisseur-1005010218960866.jpg` : c'est la police du cadran d'origine.** Ce modèle rend le `1` comme une barre nue, donc `10` ressemble à `IO` et `11` à `II`. **Les visuels étaient fidèles ; le défaut n'existait pas.**
+
+**Leçon** : avant de qualifier un défaut de typographie sur un cadran, ouvrir la source et comparer glyphe par glyphe. Une police inhabituelle se lit comme une malformation.
+
+### Ce que la source apprend au passage
+
+La face fournisseur de cette fiche porte le **logo `Tandorio`**, le mot `Tandorio` sous 12 h, ainsi que **`660ft=200m`** et **`AUTOMATIC`** en bas de cadran. **Codex a tout supprimé** : le cadran livré est réellement stérile. C'est aussi bien pour l'étanchéité — nous ne pouvons pas revendiquer 200 m, et la mention n'apparaît nulle part dans nos visuels.
