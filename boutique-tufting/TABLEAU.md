@@ -164,6 +164,9 @@ changement d'e-mail ; T-01 ajoutera une publication de thème. Le volume peut d�
 avertissements. Aucune modification en réponse sans arbitrage.
 **Sortie attendue** : un relevé daté par jour pendant 30 jours, et une alerte immédiate au moindre
 changement de statut.
+**Relevé 17/08** : graphe 28 j — ~196 Limités du 25/07 au 14/08, bascule Approuvés le 14–15/08,
+~175–180 Approuvés le 17/08, 0 Limités / Non approuvés / En examen. Hakim gèle le lancement
+ads quelques jours. Voir `ETAT.md`.
 
 ---
 

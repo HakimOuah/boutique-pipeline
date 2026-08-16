@@ -1,8 +1,9 @@
 # Tuftéo — état courant
 
-**Dernière mise à jour : 17/08/2026 (nuit)** — P0 écrits sur copie `189437772161`,
-CGV France déjà live. [`journal/2026-08-17-p0-gmc.md`](journal/2026-08-17-p0-gmc.md).
-Ce qu'il reste à faire : [`TABLEAU.md`](TABLEAU.md) — **Hakim publie la copie**.
+**Dernière mise à jour : 17/08/2026 (nuit)** — GMC relu (T-18) : vert depuis le 14–15/08,
+pas avant. P0 sur copie `189437772161`. CGV France live.
+[`journal/2026-08-17-t18-gmc.md`](journal/2026-08-17-t18-gmc.md).
+[`TABLEAU.md`](TABLEAU.md) — Hakim publie quand il veut ; **pas de lancement ads**.
 
 ---
 
@@ -27,20 +28,20 @@ chaque boutique du parc doit être irréprochable, parce qu'une suspension peut 
 
 ## Merchant Center — le fait qui change tout
 
-**Le compte GMC existe déjà et il est APPROUVÉ.** Constaté par Hakim le 16/08/2026 :
+**Le compte GMC existe déjà et les produits sont APPROUVÉS — depuis ~48–72 h seulement.**
+Relevé Hakim 17/08 nuit, graphe 28 jours (Tous les produits / boutique en ligne) :
 
 | | |
 |---|---|
-| État du compte | **ACTIF** |
-| Produits | **173**, dont **173 approuvés** |
-| Limités / non approuvés / en examen | 0 / 0 / 0 |
-| Origine | créé automatiquement par l'application Google & YouTube de Shopify |
+| 21–24/07 | 0 produit dans le graphe |
+| ~25/07 → 14/08 | ~196 produits, **tous Limités** |
+| 14–15/08 | bascule nette Limités → Approuvés |
+| 17/08 | ~175–180 Approuvés · 0 Limités · 0 Non approuvés · 0 En examen |
+| Origine | app Google & YouTube Shopify |
 | Google Ads | actif, > 100 € dépensés |
 
-**L'objectif n'est donc pas d'obtenir une approbation : c'est d'en protéger une.** Le compte a été
-exposé pendant des semaines à la version fautive du site — faux avis, prix barrés fabriqués, policies
-dupliquées — sans qu'aucun produit ne soit désapprouvé. Les contrôles automatiques ne les ont pas
-attrapés, ou pas encore.
+Ce n'est pas « toujours vert ». Trois semaines en Limités, puis le vert. L'approbation
+produit est **jeune**. On protège ça, on ne lance pas.
 
 Le risque se déplace vers l'après : la checklist est explicite, **la plupart des suspensions arrivent
 après l'approbation**, et les 30 premiers jours qui suivent un changement sont les plus sensibles.
