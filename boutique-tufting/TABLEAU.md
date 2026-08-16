@@ -13,81 +13,59 @@ désormais dans `journal/`.
 
 ## Le cadre, en trois phrases
 
-1. **Le Merchant Center est déjà approuvé** — 173 produits, 173 approuvés. On ne cherche pas une
-   approbation, on protège un actif. Les suspensions arrivent après.
-2. **Le site sert encore publiquement six faux avis.** La correction existe, sur un thème brouillon
-   non publié. C'est T-01, et rien ne passe avant.
-3. **L'identité est partagée avec trois boutiques sœurs.** Le crible de ces boutiques est un chantier
-   séparé — [`../CHANTIER-CRIBLE-ENTITE.md`](../CHANTIER-CRIBLE-ENTITE.md) — mais il **bloque** la
-   montée en budget, pas le travail sur Tuftéo.
+1. **Le Merchant Center est déjà approuvé** — 173 produits, 173 approuvés (Hakim, 16/08, non
+   remesuré le 17/08 soir). On protège un actif. Les suspensions arrivent après.
+2. **T-01 est soldé.** Le thème MAIN est `189429678465` « Tuftéo — correctifs thème 16-08 ».
+   Les six faux avis ne sont plus sur l'accueil ni sur la fiche kit. Prochaine priorité :
+   les chiffres et allégations encore publics (T-05, T-06, T-08, T-19, T-20).
+3. **L'identité est partagée avec les boutiques sœurs.** Le crible
+   [`../CHANTIER-CRIBLE-ENTITE.md`](../CHANTIER-CRIBLE-ENTITE.md) **bloque** la montée en budget.
+   T-18 (surveillance 30 jours) **a commencé** le jour de la publication du thème.
 
-**Pourquoi publier le thème est un gain net, malgré ses défauts.** L'audit du 16/08 a trouvé des
-échecs sur le thème brouillon : bandeau cookies absent, liens sociaux placeholder, H1 dupliqué,
-bandeau d'annonce superposé. Ces défauts existent **aussi sur le thème publié** — ils sont antérieurs
-à la copie. Publier ne les aggrave donc pas, et retire la seule misrepresentation active. On publie
-d'abord, on corrige ensuite.
+Audit GMC relancé le 17/08 soir : [`journal/2026-08-17-audit-gmc.md`](journal/2026-08-17-audit-gmc.md).
 
 ---
 
 ## À FAIRE
 
-### T-01 — Publier la copie de thème « purge faux avis 16-08 »
-**État** : À FAIRE · **Pour** : Hakim · **Gravité** : P0
-**Pourquoi** : le site sert publiquement six faux avis avec badge « Vérifié » et un compteur
-« 4,8/5 — 789 avis » imitant Trustpilot, sur un compte Merchant Center approuvé. C'est le premier
-motif de refus GMC, et c'est ce qui a suspendu l'entité en juin.
+### T-02 — Lien cookies en 404, et scripts tiers avant tout choix
+**État** : À FAIRE · **Pour** : Claude puis Hakim · **Gravité** : P1
+**Pourquoi** : le bandeau est maintenant affiché (Accepter / Refuser / Gérer). Restent : le lien
+« Préférences en matière de cookies » → `https://tufteo.com/policies/#…` (**404**), et les scripts
+Trustoo + pixel Shopify qui se chargent avant tout clic. `document.cookie` avant choix =
+`localization` + `cart_currency` seulement.
 **Comment** :
-1. Prévisualiser le thème `189410738561` (« Tuftéo — purge faux avis 16-08 »).
-2. Contrôler l'accueil et la fiche `kit-tufting-complet` : aucun des six noms (Camille R., Léa M.,
-   Sarah D., Manon T., Julie B., Chloé P.), aucun « 789 », le compteur de la fiche affiche « 20 avis ».
-3. Publier.
-4. **Recharger tufteo.com en navigation privée** et refaire le même contrôle sur le site public.
-**Sortie attendue** : capture des deux pages publiques sans aucun des six noms ni « 789 ».
-**Attention** : tant que ce n'est pas publié, tout le reste est cosmétique. Et « publié » ne se
-constate que sur le site public, pas en preview.
-**Réf.** : `journal/2026-08-16-audit-gmc.md` §1, `journal/2026-07-30-audit-avis-demo-publics.md`
+1. Pointer le lien de rappel vers une URL 200 (souvent `/` + ancre), pas `/policies/`.
+2. Bloquer Trustoo / pixels avant consentement si Shopify le permet.
+3. Recontrôler en navigation privée.
+**Sortie attendue** : lien de rappel en 200, bandeau intact, 0 script avis/pub avant choix.
+**Réf.** : `journal/2026-08-17-audit-gmc.md`
 
-### T-02 — Bandeau de consentement cookies absent, traceurs posés sans consentement
-**État** : À FAIRE · **Pour** : Claude puis Hakim · **Gravité** : P0
-**Pourquoi** : aucun bandeau ne s'affiche au premier chargement, y compris en simulant une première
-visite, et des scripts et cookies tiers traçants se posent avant tout consentement. C'est une
-infraction RGPD/CNIL directe, indépendamment de Google. Et le lien « Préférences en matière de
-cookies » du footer **mène à une page 404** — la checklist sanctionne aussi les 404.
-**Comment** :
-1. Vérifier dans Shopify → Boutique en ligne → Préférences si la bannière de consentement est
-   activée, et pour quelles régions.
-2. L'activer pour la France/UE, en mode blocage avant consentement.
-3. Réparer ou retirer le lien de rappel du footer.
-4. Recontrôler en navigation privée : bandeau affiché, refus possible, aucun traceur avant choix.
-**Sortie attendue** : bandeau visible au premier chargement, refus fonctionnel, 0 cookie tiers avant
-consentement, lien de rappel en 200.
-**Réf.** : `journal/2026-08-16-audit-final-c-technique.md` C6
-
-### T-03 — Les liens réseaux sociaux du footer pointent vers le thème de démonstration
+### T-19 — Réparer le JSON-LD Organization de l'accueil
 **État** : À FAIRE · **Pour** : Claude · **Gravité** : P0
-**Pourquoi** : les trois liens (Facebook, YouTube, LinkedIn) pointent vers les comptes du thème
-démo — `facebook.com/themefullstack` et équivalents. Ils sont dans le footer **et** dans le JSON-LD
-`sameAs`, donc lus par Google comme l'identité déclarée de la marque. Un lien social qui mène hors
-site vers un thème commercial est un signal de setup non légitime, et la checklist classe les
-« trust assets » comme scorés.
-**Comment** : retirer les trois liens des réglages du thème (ne rien lier de neuf ou de faible —
-mieux vaut aucun réseau qu'un réseau emprunté), puis vérifier que `sameAs` disparaît du JSON-LD.
-**Sortie attendue** : 0 occurrence de `themefullstack` sur le site, `sameAs` absent ou vide.
-**Attention** : ne pas y mettre des comptes Tuftéo tout neufs — la checklist l'interdit explicitement.
-**Réf.** : `journal/2026-08-16-audit-final-c-technique.md` C1 et C5
+**Pourquoi** : virgule orpheline après `logo` — `JSON.parse` échoue, Google ignore adresse,
+téléphone et e-mail structurés. C'est le même piège que Noirmont.
+**Comment** : sur une copie de thème, fermer l'objet sans virgule finale (ou ajouter `legalName`
+inconditionnel). Vérifier `JSON.parse` sur tufteo.com rechargé, pas sur la réponse API.
+**Sortie attendue** : un seul bloc `Organization` valide, avec `legalName: OH Ventures` si Hakim
+l'accepte.
+**Réf.** : `journal/2026-08-17-audit-gmc.md`
+
+### T-20 — Aligner le prix du kit : 229 € (accueil) vs 269 € (fiche)
+**État** : À FAIRE · **Pour** : Hakim tranche, Claude applique · **Gravité** : P1
+**Pourquoi** : le « Guide de choix » de l'accueil affiche le Kit complet 2-en-1 à **229 €** ;
+la fiche et le JSON-LD Product sont à **269 €**. Deux prix publics pour le même objet.
+**Comment** : trancher le prix réel, puis corriger le bloc d'accueil (ou la fiche), jamais les deux
+dans des sens différents.
+**Sortie attendue** : un seul prix, constaté accueil + fiche + schema.
+**Réf.** : `journal/2026-08-17-audit-gmc.md`
 
 ### T-04 — Trois délais de livraison contradictoires dans trois documents
-**État** : À FAIRE · **Pour** : Hakim tranche, Claude applique · **Gravité** : P0
-**Pourquoi** : la policy d'expédition dit **6-10 jours ouvrés**, les CGV disent **8-13**, les CGU
-donnent une troisième valeur. Google compare les policies ligne à ligne et la cohérence des chiffres
-est le contrôle central de la checklist. Aggravant : c'est la policy d'expédition, normalement la
-source de référence, qui est l'exception face à deux documents concordants — signe qu'elle a été
-retouchée le 16/08 sans mise à jour en miroir.
-**Comment** : Hakim tranche le délai réel, puis on aligne les trois documents **mot pour mot**, plus
-la FAQ et le bandeau. Vérifier au passage l'heure limite de commande et son fuseau, le délai de
-préparation, la fenêtre de rétractation et le délai de remboursement.
-**Sortie attendue** : un seul jeu de chiffres, cité identiquement dans les 3 documents + FAQ.
-**Réf.** : `journal/2026-08-16-audit-final-a-contenu.md` A1
+**État** : QUASI SOLDÉ · **Pour** : — · **Gravité** : P2
+**Pourquoi** : relus le 17/08 soir. Expédition, CGV et CGU citent **6 à 10 jours ouvrés**
+(CGU : « entre 6 et 10 »). Le 8-13 a disparu. Reste un écart de formulation, pas de chiffre.
+**Comment** : rien d'urgent. Harmoniser « à » / « et » si on retouche les CGU pour T-05.
+**Réf.** : `journal/2026-08-17-audit-gmc.md`
 
 ### T-05 — Périmètre géographique contradictoire : France ou international ?
 **État** : À FAIRE · **Pour** : Hakim tranche · **Gravité** : P1
@@ -113,14 +91,7 @@ non documentée.
 **Réf.** : `journal/2026-08-16-audit-final-a-contenu.md` A2, `REGLES.md`
 
 ### T-07 — Aligner l'e-mail de la boutique dans Shopify
-**État** : À FAIRE · **Pour** : Hakim (action manuelle) · **Gravité** : P1
-**Pourquoi** : `shop.email` et `shop.contactEmail` valent toujours `contact.tufteo@gmail.com`, alors
-que le footer et les policies affichent `contact@tufteo.com`. **C'est le Gmail que Shopify transmet à
-Google.** Une tentative a déjà été faite le 16/08 sans être enregistrée.
-**Comment** : Réglages → Coordonnées de la boutique, **les deux champs**, puis revérifier par l'API
-que la modification a bien été prise.
-**Sortie attendue** : l'API renvoie `contact@tufteo.com` pour les deux champs.
-**Réf.** : `journal/2026-08-16-audit-gmc.md`, section « État des corrections de Hakim »
+**État** : FAIT le 17/08 (constaté API) — voir section FAIT.
 
 ### T-08 — La FAQ promet une date de livraison qui ne s'affiche nulle part
 **État** : À FAIRE · **Pour** : Claude · **Gravité** : P1
@@ -140,9 +111,9 @@ en compte 4, Toiles 4 dont un brouillon (donc 3 actifs). Et la collection techni
 **Comment** :
 1. Dépublier `frontpage` de Google & YouTube et de la Boutique en ligne — c'est une collection
    technique, elle n'a rien à faire dans un flux.
-2. Pour Machines et Toiles : compléter le catalogue (le sourcing existe déjà,
-   `journal/2026-07-21-sourcing-toile-primaire.md`) ou fusionner. Compléter est préférable avant le
-   Q4 — 23 produits reste mince pour du Shopping.
+2. **Ne pas compléter le catalogue maintenant** — compte GMC approuvé, volume du 16/08 déjà
+   encaissé. Fusionner ou attendre. Seul geste utile tout de suite : **dépublier `frontpage`**
+   (1 produit, SEO null, URL publique 200).
 3. Vérifier que chaque collection conservée a un H1 et une meta-description propres : une collection
    sans H1 ni meta ne rapporte rien, c'est le constat fait sur `maisondutemps.com`.
 **Sortie attendue** : aucune collection publiée sous 5 produits, `frontpage` hors des canaux.
@@ -191,12 +162,8 @@ titre ↔ URL ↔ option ↔ description ↔ texte alternatif est un item de la 
 **Réf.** : `journal/2026-08-16-audit-final-b-catalogue.md` B2
 
 ### T-16 — Écrire la consolidation de l'audit final
-**État** : À FAIRE · **Pour** : Claude · **Gravité** : P2
-**Pourquoi** : les trois agents A, B et C ont rendu leurs rapports le 16/08, mais la consolidation
-prévue — tableau pass/fail complet, bloquants classés, **verdict unique soumissible ou non** — n'a
-jamais été écrite. Sans elle, personne ne sait dire si la boutique est prête autrement qu'en relisant
-trois rapports.
-**Sortie attendue** : `journal/2026-08-XX-audit-final-consolide.md`, et ce tableau mis à jour.
+**État** : FAIT le 17/08 — `journal/2026-08-17-audit-gmc.md` (checklist Terry, verdict de protection
+d'actif, pas « soumissible / non »).
 
 ### T-17 — Contrôles jamais faits, à faire avant toute montée de budget
 **État** : À FAIRE · **Pour** : Claude · **Gravité** : P2
@@ -207,7 +174,7 @@ Apple Pay).
 **Réf.** : `ETAT.md`, section « Ce qui n'a jamais été vérifié »
 
 ### T-18 — Surveiller le Merchant Center pendant 30 jours après publication
-**État** : À FAIRE · **Pour** : Hakim + bot AUDIT PUBLIC · **Gravité** : P1
+**État** : EN COURS depuis le 16/08 18:39 UTC (publication du thème) · **Pour** : Hakim + bot AUDIT PUBLIC · **Gravité** : P1
 **Pourquoi** : le compte est approuvé et les suspensions arrivent **après** l'approbation. Le 16/08 a
 cumulé 17 nouveaux produits, deux renommages, 215 variantes reprises, une refonte des policies et un
 changement d'e-mail ; T-01 ajoutera une publication de thème. Le volume peut déclencher une revue.
@@ -220,10 +187,22 @@ changement de statut.
 
 ## FAIT
 
-*(rien encore — les corrections du 16/08 sont sur un thème non publié, donc elles ne comptent pas)*
+### T-01 — Publier le thème de purge des faux avis
+**FAIT** — constaté le 17/08 soir. MAIN = `189429678465` « Tuftéo — correctifs thème 16-08 ».
+Accueil et fiche kit : 0 des six noms, pas de badge 789, fiche « 20 avis ».
+**Réf.** : `journal/2026-08-17-audit-gmc.md`
 
-Ce que le 16/08 a produit et qui attend T-01 pour exister publiquement : purge des six faux avis et
-du badge 789 · footer complété (adresse, téléphone cliquable, e-mail) · retrait du possessif « nos
-entrepôts » · déduplication des policies avec six redirections 301 · URL du médiateur CM2C ajoutée
-aux CGV · téléphone renseigné dans les réglages Shopify · collection Fils portée à 18 produits ·
-purge des `compareAtPrice`. Détail : `journal/2026-08-16-execution.md`.
+### T-03 — Liens sociaux themefullstack
+**FAIT** sur le site public (17/08) : 0 lien social dans le footer, pas de `sameAs` dans le JSON-LD
+(le bloc Organization est d'ailleurs invalide — T-19). Résidu : une chaîne de traduction
+`consoleLogFullstackUrl`, non cliquable.
+
+### T-07 — E-mail boutique
+**FAIT** le 17/08. API : `shop.email` = `shop.contactEmail` = `contact@tufteo.com`.
+
+### T-16 — Consolidation audit
+**FAIT** le 17/08 : `journal/2026-08-17-audit-gmc.md`.
+
+Ce que le 16/08 a aussi rendu public avec T-01 : footer (adresse, téléphone, e-mail) · 301 des
+anciennes `/pages/*` · Fils à 18 · 0 `compareAtPrice` · mentions légales complétées (SASU, RCS,
+SIRET, TVA — lu sur `/policies/legal-notice` le 17/08).

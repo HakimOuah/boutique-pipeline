@@ -1,7 +1,8 @@
 # Tuftéo — état courant
 
-**Dernière mise à jour : 17/08/2026.** Une page, chiffrée. Le détail des interventions est dans
-`journal/`, jamais ici. Ce qu'il reste à faire est dans [`TABLEAU.md`](TABLEAU.md).
+**Dernière mise à jour : 17/08/2026 (soir)** — audit GMC Terry relancé, site public + API.
+Compte rendu : [`journal/2026-08-17-audit-gmc.md`](journal/2026-08-17-audit-gmc.md).
+Ce qu'il reste à faire : [`TABLEAU.md`](TABLEAU.md).
 
 ---
 
@@ -14,7 +15,7 @@
 | Entité | OH Ventures (SASU), 47 rue Vivienne, 75002 Paris |
 | Téléphone | `+33 7 56 82 80 94` — **testé en vocal par Hakim le 16/08, il répond** |
 | E-mail de façade | `contact@tufteo.com` — **testé par Hakim le 16/08, il reçoit** |
-| E-mail dans Shopify | ⛔ `contact.tufteo@gmail.com` — **incohérent**, c'est celui que Shopify transmet à Google ([T-06](TABLEAU.md)) |
+| E-mail dans Shopify | ✅ `contact@tufteo.com` — les deux champs, constaté API le 17/08 ([T-07](TABLEAU.md) soldé) |
 | Compte Google | Gmail dédié, Workspace sur `tufteo.com`, réchauffé par > 100 € de dépense Ads |
 | Persona | ✅ validé — `../personas/persona-tufting-2026-07-19.md` |
 
@@ -50,15 +51,12 @@ après l'approbation**, et les 30 premiers jours qui suivent un changement sont 
 
 | Thème | Rôle | Contenu |
 |---|---|---|
-| Thème publié (MAIN) | **en ligne** | ⛔ sert encore **les 6 faux avis et le badge « 4,8/5 — 789 avis »** |
-| `189410738561` — « Tuftéo — purge faux avis 16-08 » | **brouillon** | ✅ faux avis purgés, footer complété, « nos entrepôts » retiré |
+| `189429678465` — « Tuftéo — correctifs thème 16-08 » | **MAIN** depuis le 16/08 18:39 UTC | ✅ six faux avis absents (contrôlé 17/08 soir, accueil + fiche kit) |
+| `188623847809` — « Tuftéo thème » | UNPUBLISHED | ancien MAIN |
+| `189410738561` — « purge faux avis 16-08 » | **absent** de la liste des thèmes | probablement renommé / remplacé par le MAIN actuel |
 
-**Tant que la copie n'est pas publiée, le site sert publiquement de la preuve sociale fabriquée** —
-sur un compte Merchant Center approuvé. C'est [T-01](TABLEAU.md), et rien d'autre ne passe avant.
-
-Les autres défauts relevés par l'audit du 16/08 (bandeau cookies absent, liens sociaux placeholder,
-H1 dupliqué) existent sur **les deux** thèmes : ils sont antérieurs. Publier ne les aggrave pas et
-retire le pire. Voir le raisonnement en tête de `TABLEAU.md`.
+**T-01 soldé.** Restent publics : FAQ « nos entrepôts » + date fantôme, CGV internationale,
+« depuis l'Europe » au footer, JSON-LD Organization invalide, kit 229 € vs 269 €.
 
 ---
 
