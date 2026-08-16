@@ -844,3 +844,146 @@ exploitable, selon le contexte de départ de cette tâche).
 - **Tout ce qui était déjà listé comme non vérifié en §7** (rapport de vitesse natif Shopify, revue
   exhaustive des ~140 images, icônes de paiement, appel du numéro de téléphone) reste non vérifié,
   hors périmètre de ce chantier.
+
+---
+
+## Visuels machines — affectation des 12 images livrées par Codex (16/08/2026)
+
+Session distincte, exécution du `BRIEF-VISUELS-CODEX-2026-08-16-machines.md`. Périmètre strict :
+affecter les 12 visuels déjà livrés dans
+`images/visuels-2026-08-16-machines/` aux deux fiches machines, retirer les anciens visuels une fois
+les nouveaux confirmés à l'écran. **Aucun autre champ touché** (prix, statut, titre, description,
+stock — tous relus avant et après, identiques).
+
+Boutique connectée vérifiée avant toute écriture : `get-shop-info` → Tuftéo, tufteo.com (16/08/2026).
+
+### Contrôle préalable (sans refaire le QC déjà fait)
+
+Le QC de fond (cadrage, absence de texte/logo, fond crème) était donné comme déjà fait. J'ai seulement
+revérifié un point objectif et rapide, non contradictoire avec la consigne : la résolution des 12
+fichiers via `sips`. **Les 12 sont bien en 1600 × 1600 px**, confirmé.
+
+### Sauvegarde avant écriture
+
+`boutique-tufting/shopify/backups/2026-08-16-visuels-machines/` :
+- `tondeuse-professionnelle-tapis.avant.json` — état complet (description, 6 images d'origine avec
+  leurs `mediaId`, variante, prix 89,90 €) avant remplacement.
+- `ciseaux-electriques-sculpture.avant.json` — état complet (description, 6 images d'origine avec
+  leurs `mediaId`, 2 variantes, prix 140,00 € sans `compareAtPrice`) avant remplacement.
+
+(Un autre jeu de sauvegardes plus ancien, `2026-08-16-machines/*-avant.json`, existait déjà dans le
+dossier `backups/` — antérieur à cette session, pas le mien, laissé intact.)
+
+### Exécution
+
+**Upload.** `stagedUploadsCreate` (resource `IMAGE`) pour les 12 fichiers en un seul appel → 12 URLs
+de staging Google Storage, aucune erreur. Upload de chaque fichier local par `curl -F` multipart vers
+son URL de staging, un par un, espacés de 0,5 s → **12/12 réponses HTTP 201**.
+
+**Rattachement produit.** `productCreateMedia` (2 appels, un par produit, 6 images chacun, dans l'ordre
+01→06, avec `alt` descriptif par image) → 12 nouveaux médias créés, tous passés en statut `READY`
+après re-vérification (~10 s d'attente). Note technique : `productCreateMedia` et les mutations
+associées sont signalées dépréciées par le validateur schema (`productUpdate`/`productSet`/
+`fileUpdate` recommandés) mais fonctionnent toujours sans erreur — utilisées telles quelles.
+
+**Ordre — image 01 en tête.** `productReorderMedia` (job asynchrone) pour placer les 6 nouveaux médias
+aux positions 0-5 sur chaque produit. Revérifié après le job : `featuredImage` de chaque produit =
+bien le fichier `-01.png` de sa série.
+
+**Suppression des anciens visuels — faite après confirmation à l'écran, pas avant.** Conformément à la
+consigne, je n'ai retiré les 6 anciennes images de chaque fiche qu'après avoir constaté les nouvelles
+en ligne (voir vérifications ci-dessous), via `productDeleteMedia` (12 `mediaId` au total, aucune
+erreur retournée).
+
+### Vérifications faites en conditions réelles (pas seulement la réponse API)
+
+Contrainte rencontrée : le thème brouillon `189410738561` (« Tuftéo — purge faux avis 16-08 », rôle
+`UNPUBLISHED`, confirmé par `themes(first:10)`) est actuellement utilisé **en parallèle par l'agent
+vitesse** dans le même onglet de navigateur partagé — plusieurs captures d'écran ont été interrompues
+par des navigations concurrentes vers `/collections/fils` ou une fiche fil pendant que je vérifiais.
+J'ai donc croisé deux méthodes indépendantes plutôt que de m'appuyer sur une seule capture d'écran :
+
+1. **Lecture directe du DOM juste après navigation** (`document.querySelectorAll('img')`), avant toute
+   collision de navigation :
+   - Tondeuse : liste exacte des 6 `tondeuse-electrique-tapis-01..06.png`, aucune trace de l'ancien
+     nom de fichier fournisseur (`200w-electric-scissors-...`).
+   - Ciseaux : liste exacte des 6 `ciseaux-electriques-sans-fil-sculpture-01..06.png`, aucune trace de
+     l'ancien nom de fichier fournisseur (`multifunction-electric-tufting-...`).
+   - Refait une seconde fois après la suppression des anciens médias → confirmé : **12 images au total
+     sur le site (6 + 6), zéro ancienne image résiduelle sur aucune des deux fiches.**
+2. **Requête GraphQL de contrôle finale** sur `media` et `featuredImage` des deux produits (après le
+   `productDeleteMedia`) : chaque produit ne renvoie plus que ses 6 nouveaux médias, dans l'ordre, et
+   `featuredImage` = l'image `01` de sa série.
+3. **Capture d'écran directe** de la fiche ciseaux (avant que la collision de navigation ne démarre) :
+   le produit affiché est un outil **teal/noir, sans câble visible, avec un bloc batterie inséré dans
+   la crosse** — cohérent avec le texte « Sans fil, batteries incluses » déjà en ligne. Plus aucune
+   trace de l'ancien outil filaire à cordon/prise DC.
+4. **Inspection du fichier local `ciseaux-electriques-sans-fil-sculpture-04.png`** (image « kit
+   complet », même fichier que celui maintenant en ligne, même URL/version confirmée par le DOM) :
+   montre l'outil + **2 batteries noires** + chargeur secteur EU à cordon + boîte carton — exactement
+   la composition attendue par le brief, aucun logo ONEVAN, aucun marquage CE, aucune mention Makita
+   visibles.
+5. **Ajout au panier testé par appel direct à l'API storefront** (`POST /cart/add.js`, panier vidé
+   ensuite via `/cart/clear.js`) plutôt que par clic UI, à cause des collisions de navigation sur
+   l'onglet partagé :
+   - Ciseaux (variante Noir, `55953033560449`) : ajout réussi, `price: 14000` (140,00 €),
+     `discounts: []` — **aucune trace de prix barré**, image de ligne = `ciseaux-electriques-sans-fil-
+     sculpture-01.png`.
+   - Tondeuse (`55953033462145`) : ajout réussi, image de ligne = `tondeuse-electrique-tapis-01.png`.
+   - Aucune des deux réponses ni le corps de page ne contient la chaîne « Liquid error ».
+6. **Prix et statut relus par GraphQL après toutes les écritures** : `ciseaux-electriques-sculpture`
+   toujours `ACTIVE`, 140,00 € sur les deux variantes, `compareAtPrice: null` (pas de barré) —
+   inchangé par cette session. `tondeuse-professionnelle-tapis` toujours `ACTIVE`, 89,90 € /
+   `compareAtPrice` 119,00 € — inchangé par cette session (ce prix barré préexistait, hors périmètre).
+
+**Résultat : les deux fiches affichent exclusivement les 12 nouveaux visuels, image 01 en image
+principale, prix et statut intacts, panier fonctionnel, aucune erreur Liquid détectée.** La
+contradiction texte/image sur les ciseaux (« sans fil, batteries incluses » à côté d'un outil filaire)
+qui était le point le plus visible du site est corrigée et vérifiée.
+
+### Anciennes URL retirées (pour rollback si besoin)
+
+Les `mediaId` et URL ci-dessous ont été supprimés de Shopify ; les fichiers sources restent dans les
+sauvegardes JSON listées plus haut si Hakim veut revenir en arrière (il faudrait les re-uploader, la
+suppression via `productDeleteMedia` n'est pas un simple dépublier — cet outil ne supprime jamais de
+produit ni de page, mais un média product **peut** être définitivement retiré ; c'est pourquoi la
+sauvegarde JSON avant écriture inclut les URLs CDN encore actives au moment du relevé, à récupérer
+depuis le CDN si besoin avant qu'elles n'expirent) :
+
+**Tondeuse électrique pour tapis** (`gid://shopify/Product/15466411426177`) :
+1. `gid://shopify/MediaImage/70095462859137` — `.../200w-electric-scissors-tufted-carpet-trimmer-adjustable-speed-electric-shearing-machine-for-dogs-and-cats-carpet-weaving-01.png`
+2. `gid://shopify/MediaImage/70095462891905` — `...-02.png`
+3. `gid://shopify/MediaImage/70095462924673` — `...-03.png`
+4. `gid://shopify/MediaImage/70095462957441` — `...-04.png`
+5. `gid://shopify/MediaImage/70095462990209` — `...-05.png`
+6. `gid://shopify/MediaImage/70095463022977` — `...-06.png`
+
+**Ciseaux électriques sans fil de sculpture** (`gid://shopify/Product/15466411458945`) :
+1. `gid://shopify/MediaImage/70095525282177` — `.../multifunction-electric-tufting-electric-scissor-carpet-rug-carving-scissors-tufting-rug-engraving-trimming-modeling-scissors-01.png`
+2. `gid://shopify/MediaImage/70095525314945` — `...-02.png`
+3. `gid://shopify/MediaImage/70095525347713` — `...-03.png`
+4. `gid://shopify/MediaImage/70095525380481` — `...-04.png`
+5. `gid://shopify/MediaImage/70095525413249` — `...-05.png`
+6. `gid://shopify/MediaImage/70095525446017` — `...-06.png`
+
+URLs CDN complètes (base `https://cdn.shopify.com/s/files/1/0953/2774/8481/files/`) et `mediaId`
+conservés en clair dans les deux fichiers `*.avant.json` de sauvegarde.
+
+### Ce que je n'ai pas pu vérifier (chantier visuels machines)
+
+- **Capture d'écran stable de la page finale** : l'onglet de navigateur est partagé avec l'agent
+  vitesse qui navigue en parallèle (constaté à plusieurs reprises : la page bascule vers
+  `/collections/fils` ou une fiche fil pendant mes vérifications). J'ai contourné en croisant DOM +
+  GraphQL + API panier plutôt qu'en m'appuyant sur une seule capture — mais je n'ai pas de capture
+  écran unique et propre montrant la galerie complète des 6 nouvelles images l'une après l'autre sur
+  la fiche tondeuse (je l'ai eue sur la fiche ciseaux avant la première collision).
+- **Le fond de traitement Codex des 12 images (texte/logo/CE effectivement absents à l'œil)** :
+  périmètre exclu par la consigne (« le contrôle qualité est déjà fait par Claude, ne le refais pas »).
+  Je n'ai donc pas rouvert les 12 fichiers un par un pour re-chercher un texte résiduel — seule
+  l'image 04 des ciseaux (kit complet) a été ouverte, pour vérifier spécifiquement la présence des 2
+  batteries demandée par la consigne de vérification.
+- **Comportement du flux Google Shopping / Merchant Center après ce changement** : hors périmètre,
+  aucune modification Google Ads ni Merchant Center faite ni vérifiée.
+- **Régénération d'un éventuel cache CDN/Fastly côté storefront public** au-delà de ce qui a été
+  observé en session : les vérifications ci-dessus datent du 16/08/2026, session en cours ; un
+  contrôle à froid (nouvelle session, cache vidé) n'a pas été refait après coup.
