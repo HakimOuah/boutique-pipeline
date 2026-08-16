@@ -77,3 +77,68 @@ annoncé (« repères de minuterie déformés »), sur la vue où il se voit le 
 
 Rejets `rejected/` de la fiche (6) : cadrage, axe, fond non homogène, et surtout
 `g1-index-promu-en-chiffre.jpg` — Codex sait donc détecter ce défaut, il l'a écarté sur g1.
+
+### 2.2 `montre-style-plongeuse-36-cadran-vert` — 6 visuels — **TOUS À REFAIRE**
+
+C'est le défaut le plus grave du lot, et il touche les 6 fichiers de la fiche.
+
+La source `12.jpg` est une photo au poignet où le verre bombé renvoie **un reflet de ciel
+bleu** sur le quart inférieur droit du cadran : bords flous, il suit la courbure du dôme,
+il éclaircit les points de lume qu'il traverse. C'est un reflet, pas une finition.
+
+Codex l'a transformé en **aplat cyan peint sur le cadran** : dans `g5` (vue de détail 3/4,
+la plus lisible) le bleu est un **polygone à arêtes droites et nettes**, d'une couleur plate,
+qui coupe le cadran en diagonale, **passe par-dessus le cadre du guichet de date** et
+**sous le repère rectangulaire de 6 h**. Aucune finition de cadran ne se comporte ainsi.
+Pire, la même découpe apparaît **au même angle** dans `g1`, `g2`, `g3`, `g4` et la variante,
+y compris sur la vue portée : un reflet ne peut pas être identique sous cinq éclairages
+et cinq angles différents. Le client verrait un cadran bicolore vert/bleu qui n'existe pas.
+
+C'est exactement « la texture inventée » du brief. La preuve que Codex savait faire :
+sur `bordeaux` (source `13.jpg`) et sur `bleu` (source `14.jpg`), qui portent **le même
+reflet bleu** au même endroit, il l'a proprement supprimé.
+
+| Fichier | Verdict |
+|---|---|
+| `-g1` `-g2` `-g3` `-g4` `-g5` `-v-green-sterile-dial` | **à refaire** (les 6) |
+
+Le reste de la fiche est bon : cadran stérile, aiguille flèche orange fidèle, date `3`
+conforme à la source, triangle 12 h, rectangles 6 h et 9 h, points ronds ailleurs.
+Seule la couleur du cadran est à reprendre.
+
+### 2.3 `montre-style-plongeuse-36-cadran-bordeaux` — 6 visuels — conformes
+
+Source `13.jpg` (`ok`). Reflet bleu de la source **correctement retiré** : le cadran rendu
+est un dégradé rouge uniforme sur les 5 vues. Aiguille flèche à liseré rouge, aiguille des
+heures losange, trotteuse fine : fidèles. Date `4` conforme à la source. Triangle 12 h,
+rectangles 6 h et 9 h, 8 points ronds : compte exact. Aucun texte, aucun logo, aucune
+étoile ni badge. Couronne cannelée fidèle. Filigrane `Tandorio` disparu.
+Les 4 rejets `aiguille-noire-incomplete` montrent que le contrôle des aiguilles a été fait.
+`-v-red-sterile-dial` = **doublon binaire** de `g1`.
+
+### 2.4 `montre-style-plongeuse-36-cadran-bleu` — 6 visuels — conformes
+
+Source `14.jpg` (`ok`). Reflet bleu absorbé en soleillé homogène, sans arête. Aiguille
+flèche à liseré rouge fidèle, date `2` conforme, index et compte corrects, cadran stérile.
+`g5` propre et net. 1 rejet `g5-graduation-inventee` : le défaut de graduation a donc bien
+été chassé sur cette fiche-là. `-v-blue-sterile-dial` = doublon binaire de `g1`.
+
+### 2.5 `montre-style-plongeuse-42-titane-noir` — 6 visuels — conformes
+
+Source `18.jpg` (`ok`, cadran strictement nu). Cadran noir stérile, aiguilles type MilSub,
+repères carrés + triangle 12 h + rectangles 3/6/9 : fidèles. Lunette : pastille de lume à
+12 h et **10 / 20 / 30 / 40 / 50 dans le sens antihoraire**, exactement la disposition de
+la source. Aucun chiffre inventé, aucun chiffre inversé. Bracelet NATO noir à bande grise
+fidèle. `g5` (détail couronne/corne) : boîtier titane brossé, couronne cannelée, trou de
+corne, **aucune gravure, aucune mention d'étanchéité**. 2 rejets sur la trotteuse.
+
+### 2.6 `montre-style-plongeuse-42-titane-bleu` — 6 visuels — conformes
+
+Source `17.jpg` (`ok`). Idem en bleu : lunette bleue, aiguille des secondes bleue fidèle
+à la source, cadran bleu stérile. Contrôle rapproché des chiffres de lunette au zoom ×3 :
+le `20` en bas à gauche et le `40` en bas à droite sont **bien formés et orientés
+radialement comme sur la source** — ce ne sont pas des glyphes inversés. Les 2 rejets
+(`chiffres-lunette-inverses`, `nombre-lunette-invente`) confirment que ce contrôle a été
+fait sérieusement sur cette famille.
+
+**Bilan plongeuses (36 visuels) : 29 conformes, 7 à refaire** (les 6 du vert + le `g3` du noir).
