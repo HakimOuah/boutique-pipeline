@@ -123,7 +123,20 @@ vidéo). **Ne pas annoncer de score PageSpeed** : l'outil ne sait pas tester un 
   réellement les appels vocaux »).
 - ✅ **E-mail testé par Hakim le 16/08 : `contact@tufteo.com` reçoit bien.** Item PASS, preuve = test
   direct de Hakim.
-- Vérifier que le **Gmail dédié** au GMC est distinct et « réchauffé ».
+- ✅ **Gmail dédié : confirmé par Hakim le 16/08, et au-delà de l'exigence.** Adresse dédiée à Tuftéo,
+  active depuis plusieurs semaines avec du courrier réellement reçu, **plus de 100 € déjà dépensés en
+  Google Ads** avec ce compte, et rattachement à un **Google Workspace sur `tufteo.com`**. La checklist
+  demande un compte « réchauffé » par de l'usage ; un historique de dépense publicitaire payante est
+  le signal de confiance le plus fort de cette catégorie. Item PASS.
+
+- ⚠️ **POINT NOUVEAU À INSTRUIRE — un compte Merchant Center semble déjà exister.** La boîte de
+  réception de Hakim contient un message de **Google Merchant Center daté du 6 août** : « More than 12
+  of your products aren't on Google — Add them now or get an automatic update on September 6, 2026 ».
+  Le plan d'audit partait de l'hypothèse « le compte n'est pas encore créé ». **Si un GMC existe déjà
+  et voit le catalogue, il a été exposé à la version fautive du site** — faux avis, prix barrés
+  fabriqués, policies dupliquées — pendant des semaines. À vérifier avant toute soumission :
+  état du compte, éventuels avertissements ou désapprobations déjà émis, et date de la dernière revue.
+  Le passage à l'état « approuvé » ne se juge pas sur un formulaire vierge si un historique existe.
 - **Adresse et téléphone partagés avec Bien Brûlé et Maison Noirmont** : décision assumée (voir
   échange du 16/08). Le risque n'est pas la mutualisation en soi mais la **propagation** d'une
   suspension entre boutiques liées — d'où l'exigence que chacune soit irréprochable.
