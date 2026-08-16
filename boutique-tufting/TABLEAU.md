@@ -15,9 +15,9 @@ désormais dans `journal/`.
 
 1. **Le Merchant Center est déjà approuvé** — 173 produits, 173 approuvés (Hakim, 16/08, non
    remesuré le 17/08 soir). On protège un actif. Les suspensions arrivent après.
-2. **T-01 est soldé.** Le thème MAIN est `189429678465` « Tuftéo — correctifs thème 16-08 ».
-   Les six faux avis ne sont plus sur l'accueil ni sur la fiche kit. Prochaine priorité :
-   les chiffres et allégations encore publics (T-05, T-06, T-08, T-19, T-20).
+2. **T-01 est soldé.** Le thème MAIN est encore `189429678465`. La copie
+   `189437772161` « Tuftéo — P0 GMC 17-08 » porte T-06, T-08, T-19, T-20 — **Hakim publie**.
+   T-05 (CGV France) est déjà live. Détail : `journal/2026-08-17-p0-gmc.md`.
 3. **L'identité est partagée avec les boutiques sœurs.** Le crible
    [`../CHANTIER-CRIBLE-ENTITE.md`](../CHANTIER-CRIBLE-ENTITE.md) **bloque** la montée en budget.
    T-18 (surveillance 30 jours) **a commencé** le jour de la publication du thème.
@@ -42,23 +42,19 @@ Trustoo + pixel Shopify qui se chargent avant tout clic. `document.cookie` avant
 **Réf.** : `journal/2026-08-17-audit-gmc.md`
 
 ### T-19 — Réparer le JSON-LD Organization de l'accueil
-**État** : À FAIRE · **Pour** : Claude · **Gravité** : P0
-**Pourquoi** : virgule orpheline après `logo` — `JSON.parse` échoue, Google ignore adresse,
-téléphone et e-mail structurés. C'est le même piège que Noirmont.
-**Comment** : sur une copie de thème, fermer l'objet sans virgule finale (ou ajouter `legalName`
-inconditionnel). Vérifier `JSON.parse` sur tufteo.com rechargé, pas sur la réponse API.
-**Sortie attendue** : un seul bloc `Organization` valide, avec `legalName: OH Ventures` si Hakim
-l'accepte.
-**Réf.** : `journal/2026-08-17-audit-gmc.md`
+**État** : ÉCRIT SUR LA COPIE — attend publication · **Pour** : Hakim publie · **Gravité** : P0
+**Pourquoi** : virgule orpheline après `logo` — `JSON.parse` échoue sur le MAIN.
+**Comment** : déjà écrit sur `189437772161` (`legalName: OH Ventures` absorbe la virgule).
+Preview : parse OK. MAIN encore cassé.
+**Sortie attendue** : un seul bloc `Organization` valide sur tufteo.com public.
+**Réf.** : `journal/2026-08-17-p0-gmc.md`
 
 ### T-20 — Aligner le prix du kit : 229 € (accueil) vs 269 € (fiche)
-**État** : À FAIRE · **Pour** : Hakim tranche, Claude applique · **Gravité** : P1
-**Pourquoi** : le « Guide de choix » de l'accueil affiche le Kit complet 2-en-1 à **229 €** ;
-la fiche et le JSON-LD Product sont à **269 €**. Deux prix publics pour le même objet.
-**Comment** : trancher le prix réel, puis corriger le bloc d'accueil (ou la fiche), jamais les deux
-dans des sens différents.
-**Sortie attendue** : un seul prix, constaté accueil + fiche + schema.
-**Réf.** : `journal/2026-08-17-audit-gmc.md`
+**État** : ÉCRIT SUR LA COPIE — attend publication · **Pour** : Hakim publie · **Gravité** : P1
+**Pourquoi** : Hakim a tranché **269 €**. Le MAIN sert encore 229 € dans le Guide de choix.
+**Comment** : déjà remplacé (2 occurrences) sur `189437772161`. Preview : 269 €, 0 « 229 € ».
+**Sortie attendue** : un seul prix 269 €, constaté accueil + fiche + schema sur le public.
+**Réf.** : `journal/2026-08-17-p0-gmc.md`
 
 ### T-04 — Trois délais de livraison contradictoires dans trois documents
 **État** : QUASI SOLDÉ · **Pour** : — · **Gravité** : P2
@@ -68,40 +64,26 @@ dans des sens différents.
 **Réf.** : `journal/2026-08-17-audit-gmc.md`
 
 ### T-05 — Périmètre géographique contradictoire : France ou international ?
-**État** : À FAIRE · **Pour** : Hakim tranche · **Gravité** : P1
-**Pourquoi** : la policy d'expédition limite la livraison à la France, les CGV promettent
-l'international. Une promesse de livraison non tenable est une misrepresentation.
-**Comment** : trancher, puis aligner. Rappel : Bien Brûlé avait résolu sa suspension en passant à
-« France uniquement, une seule livraison, offerte ».
-**Sortie attendue** : un périmètre unique dans les deux documents et dans les réglages d'expédition.
-**Réf.** : `journal/2026-08-16-audit-final-a-contenu.md` A1
+**État** : FAIT le 17/08 (live) — voir section FAIT.
 
 ### T-06 — « Expédition depuis nos entrepôts en Europe » subsiste sur deux pages publiées
-**État** : À FAIRE · **Pour** : Claude · **Gravité** : P0
-**Pourquoi** : la correction du 16/08 a retiré le possessif du footer et des fiches, mais deux pages
-publiées le portent encore. Tuftéo n'a aucun entrepôt : le catalogue vient d'AliExpress par DSers.
-Et la mention « depuis l'Europe » elle-même n'est vraie que pour les toiles (Allemagne, Pologne) et
-les deux articles électriques (Allemagne) — **pas pour le gun ni le kit**, qui sont les produits
-phares.
-**Comment** : remplacer partout par le fait vérifiable et déjà tenu — « Livraison offerte en France
-en 6 à 10 jours ouvrés, suivi par e-mail » — sans mention d'origine. Option coûteuse écartée :
-vérifier l'entrepôt fiche par fiche dans DSers.
-**Sortie attendue** : 0 occurrence de « nos entrepôts », et aucune allégation d'origine sur une fiche
-non documentée.
-**Réf.** : `journal/2026-08-16-audit-final-a-contenu.md` A2, `REGLES.md`
+**État** : ÉCRIT SUR LA COPIE — attend publication · **Pour** : Hakim publie · **Gravité** : P0
+**Pourquoi** : encore public sur le MAIN (FAQ, footer, fiches). La copie a la formule tenue :
+« Livraison offerte en France en 6 à 10 jours ouvrés, avec suivi par e-mail. »
+**Comment** : publier `189437772161`, puis grep privé sur tufteo.com : 0 « entrepôts », 0 « depuis
+l'Europe ».
+**Sortie attendue** : 0 occurrence publique de « nos entrepôts » / origine non documentée.
+**Réf.** : `journal/2026-08-17-p0-gmc.md`
 
 ### T-07 — Aligner l'e-mail de la boutique dans Shopify
 **État** : FAIT le 17/08 (constaté API) — voir section FAIT.
 
 ### T-08 — La FAQ promet une date de livraison qui ne s'affiche nulle part
-**État** : À FAIRE · **Pour** : Claude · **Gravité** : P1
-**Pourquoi** : la FAQ affirme que « la date de livraison estimée s'affiche directement sur chaque
-fiche produit ». Les 40 descriptions ont été lues : aucune ne contient de date ni de délai. Le bloc
-`delivery-estimation.liquid` existe dans la bibliothèque du thème mais on ne sait pas s'il est posé.
-**Comment** : soit poser le bloc sur le template produit et vérifier son rendu, soit retirer la
-phrase de la FAQ. La seconde est plus sûre tant que T-04 n'est pas tranché.
-**Sortie attendue** : la promesse et l'affichage concordent, constaté sur une fiche réelle.
-**Réf.** : `journal/2026-08-16-audit-final-a-contenu.md` A2
+**État** : ÉCRIT SUR LA COPIE — attend publication · **Pour** : Hakim publie · **Gravité** : P1
+**Pourquoi** : la phrase fantôme a été retirée avec T-06 (même bloc FAQ). MAIN la sert encore.
+**Comment** : même publication que T-06.
+**Sortie attendue** : 0 promesse de date estimée sur fiche, constaté sur l'accueil public.
+**Réf.** : `journal/2026-08-17-p0-gmc.md`
 
 ### T-09 — Collections sous le seuil de 5 produits, et `frontpage` publiée sans SEO
 **État** : À FAIRE · **Pour** : Claude, arbitrage Hakim · **Gravité** : P1
@@ -199,6 +181,11 @@ Accueil et fiche kit : 0 des six noms, pas de badge 789, fiche « 20 avis ».
 
 ### T-07 — E-mail boutique
 **FAIT** le 17/08. API : `shop.email` = `shop.contactEmail` = `contact@tufteo.com`.
+
+### T-05 — Périmètre France uniquement
+**FAIT** le 17/08, **live**. CGV TERMS_OF_SALE : « France métropolitaine uniquement ».
+Constaté sur `/policies/terms-of-sale` sans cookie de preview.
+**Réf.** : `journal/2026-08-17-p0-gmc.md`
 
 ### T-16 — Consolidation audit
 **FAIT** le 17/08 : `journal/2026-08-17-audit-gmc.md`.

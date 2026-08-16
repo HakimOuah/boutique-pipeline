@@ -1,0 +1,3195 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_slider": {
+      "type": "image-banner",
+      "blocks": {
+        "image_banner_dBEabG": {
+          "type": "_image-banner",
+          "name": "t:image_banner",
+          "settings": {
+            "media_type": "video",
+            "image": "shopify://shop_images/tufteo-home-hero.png",
+            "source": "uploaded",
+            "video": "shopify://files/videos/hero-tufteo-ambiance.mp4",
+            "video_url": "",
+            "color_scheme": "scheme-3",
+            "banner_height": "medium",
+            "layout_justify": "center",
+            "layout_align_items": "flex-start",
+            "same_as_desktop": true,
+            "banner_height_mobile": "medium",
+            "layout_justify_mobile": "center",
+            "layout_align_items_mobile": "flex-start",
+            "image_filter_opacity": 15,
+            "image_filter_color": "#000000",
+            "padding_horizontal": 0,
+            "padding_vertical": 40
+          },
+          "blocks": {
+            "group_nypGzr": {
+              "type": "group",
+              "name": "t:group",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "wrap_in_card": false,
+                "card_link": "",
+                "color_scheme": "",
+                "show_card_border": false,
+                "layout_type": "flex",
+                "width_desktop": 50,
+                "layout_direction_desktop": "column",
+                "layout_grid_columns_desktop": 3,
+                "layout_gap_desktop": 10,
+                "layout_wrap_desktop": "nowrap",
+                "layout_justify_desktop": "flex-start",
+                "layout_align_items_desktop": "flex-start",
+                "same_as_desktop": false,
+                "width_mobile": 100,
+                "layout_direction_mobile": "column",
+                "layout_grid_columns_mobile": 1,
+                "layout_gap_mobile": 10,
+                "layout_wrap_mobile": "nowrap",
+                "layout_justify_mobile": "flex-start",
+                "layout_align_items_mobile": "flex-start",
+                "use_global_container_padding": true,
+                "padding_horizontal": 30,
+                "padding_vertical": 30,
+                "margin_top": 10,
+                "margin_bottom": 10,
+                "additional_class": ""
+              },
+              "blocks": {
+                "sticker": {
+                  "type": "text",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "text": "<p>Le kit complet 2-en-1</p>",
+                    "text_style": "paragraph",
+                    "paragraph_font_size": "normal",
+                    "font_weight": 400,
+                    "alignment": "left",
+                    "alignment_mobile": "left",
+                    "show_read_more": false,
+                    "read_more_length": 50,
+                    "read_more_text": "Voir plus",
+                    "read_less_text": "Voir moins",
+                    "truncate": false,
+                    "truncate_length": 2,
+                    "margin_top": 0,
+                    "margin_bottom": 0,
+                    "additional_class": "tuf-stickerize"
+                  },
+                  "blocks": {}
+                },
+                "reviews_badge_efW9wU": {
+                  "type": "reviews-badge",
+                  "name": "t:reviews_badge_trustpilot",
+                  "settings": {
+                    "review_badge_style": "trustpilot",
+                    "wrap_in_a_badge": false,
+                    "color_scheme": "scheme-1",
+                    "show_badge_border": true,
+                    "text_1": "Excellent",
+                    "stars": "4,5",
+                    "text_2": "789 avis sur",
+                    "link": "",
+                    "margin_top": 0,
+                    "margin_bottom": 0,
+                    "additional_class": ""
+                  },
+                  "blocks": {}
+                },
+                "group_wibFDH": {
+                  "type": "group",
+                  "name": "Avis client (Groupe)",
+                  "disabled": true,
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "wrap_in_card": false,
+                    "card_link": "",
+                    "color_scheme": "",
+                    "show_card_border": false,
+                    "layout_type": "flex",
+                    "width_desktop": 100,
+                    "layout_direction_desktop": "row",
+                    "layout_grid_columns_desktop": 3,
+                    "layout_gap_desktop": 3,
+                    "layout_wrap_desktop": "nowrap",
+                    "layout_justify_desktop": "flex-start",
+                    "layout_align_items_desktop": "center",
+                    "same_as_desktop": true,
+                    "width_mobile": 100,
+                    "layout_direction_mobile": "column",
+                    "layout_grid_columns_mobile": 1,
+                    "layout_gap_mobile": 10,
+                    "layout_wrap_mobile": "nowrap",
+                    "layout_justify_mobile": "flex-start",
+                    "layout_align_items_mobile": "flex-start",
+                    "use_global_container_padding": true,
+                    "padding_horizontal": 30,
+                    "padding_vertical": 30,
+                    "margin_top": 0,
+                    "margin_bottom": 0,
+                    "additional_class": ""
+                  },
+                  "blocks": {
+                    "rating_stars_z9LL3m": {
+                      "type": "rating-stars",
+                      "name": "t:rating_stars",
+                      "settings": {
+                        "show_on_display": "desktop_and_mobile",
+                        "product": "",
+                        "hide_rating_when_no_reviews": true,
+                        "rating": 4.5,
+                        "show_note": true,
+                        "show_review_count": true,
+                        "review_count": 123,
+                        "link": "",
+                        "margin_top": 0,
+                        "margin_bottom": 0,
+                        "additional_class": ""
+                      },
+                      "blocks": {}
+                    },
+                    "text_mLtNpU": {
+                      "type": "text",
+                      "name": "t:text",
+                      "settings": {
+                        "show_on_display": "desktop_only",
+                        "text": "<p>- 2 000 clients satisfaits</p>",
+                        "text_style": "paragraph",
+                        "paragraph_font_size": "normal",
+                        "font_weight": 400,
+                        "alignment": "left",
+                        "alignment_mobile": "left",
+                        "show_read_more": false,
+                        "read_more_length": 50,
+                        "read_more_text": "Voir plus",
+                        "read_less_text": "Voir moins",
+                        "truncate": false,
+                        "truncate_length": 2,
+                        "margin_top": 0,
+                        "margin_bottom": 0,
+                        "additional_class": ""
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "rating_stars_z9LL3m",
+                    "text_mLtNpU"
+                  ]
+                },
+                "text_VJtMDF": {
+                  "type": "text",
+                  "name": "Proposition de valeur",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "text": "<h1>Ton premier tapis, <em>guidé pas à pas</em></h1>",
+                    "text_style": "h2",
+                    "paragraph_font_size": "normal",
+                    "font_weight": 400,
+                    "alignment": "left",
+                    "alignment_mobile": "left",
+                    "show_read_more": false,
+                    "read_more_length": 200,
+                    "read_more_text": "Voir plus",
+                    "read_less_text": "Voir moins",
+                    "truncate": false,
+                    "truncate_length": 2,
+                    "margin_top": 0,
+                    "margin_bottom": 0,
+                    "additional_class": ""
+                  },
+                  "blocks": {}
+                },
+                "text_8GW6GA": {
+                  "type": "text",
+                  "name": "Sous titre",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "text": "<p>Kits de tufting complets + guides en français — tout ce qu'il faut pour te lancer, sans te tromper de matériel.</p>",
+                    "text_style": "paragraph",
+                    "paragraph_font_size": "large",
+                    "font_weight": 400,
+                    "alignment": "left",
+                    "alignment_mobile": "left",
+                    "show_read_more": false,
+                    "read_more_length": 50,
+                    "read_more_text": "Voir plus",
+                    "read_less_text": "Voir moins",
+                    "truncate": false,
+                    "truncate_length": 2,
+                    "margin_top": 0,
+                    "margin_bottom": 0,
+                    "additional_class": ""
+                  },
+                  "blocks": {}
+                },
+                "group_rFrEU8": {
+                  "type": "group",
+                  "name": "Appel(s) à l'action (Groupe)",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "wrap_in_card": false,
+                    "card_link": "",
+                    "color_scheme": "",
+                    "show_card_border": false,
+                    "layout_type": "flex",
+                    "width_desktop": 100,
+                    "layout_direction_desktop": "row",
+                    "layout_grid_columns_desktop": 3,
+                    "layout_gap_desktop": 10,
+                    "layout_wrap_desktop": "nowrap",
+                    "layout_justify_desktop": "flex-start",
+                    "layout_align_items_desktop": "flex-start",
+                    "same_as_desktop": true,
+                    "width_mobile": 100,
+                    "layout_direction_mobile": "column",
+                    "layout_grid_columns_mobile": 1,
+                    "layout_gap_mobile": 10,
+                    "layout_wrap_mobile": "nowrap",
+                    "layout_justify_mobile": "flex-start",
+                    "layout_align_items_mobile": "flex-start",
+                    "use_global_container_padding": true,
+                    "padding_horizontal": 30,
+                    "padding_vertical": 30,
+                    "margin_top": 10,
+                    "margin_bottom": 0,
+                    "additional_class": ""
+                  },
+                  "blocks": {
+                    "button_JteLrC": {
+                      "type": "button",
+                      "name": "t:button",
+                      "settings": {
+                        "show_on_display": "desktop_and_mobile",
+                        "link": "/products/electric-2-in-1-tufting-gun-set-with-fabric-carpet-trimmer-carpettapis-knitting-tufting-pistol-weaving-flocking-rug-machine",
+                        "open_in_new_tab": false,
+                        "label": "Découvrir le kit débutant",
+                        "button_style": "primary",
+                        "button_shape": "default",
+                        "icon": "none",
+                        "icon_custom": "",
+                        "icon_position": "end",
+                        "margin_top": 0,
+                        "margin_bottom": 0,
+                        "additional_class": ""
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "button_JteLrC"
+                  ]
+                },
+                "group_3Pie6V": {
+                  "type": "group",
+                  "name": "Badges de confiance (Groupe)",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "wrap_in_card": false,
+                    "card_link": "",
+                    "color_scheme": "",
+                    "show_card_border": false,
+                    "layout_type": "flex",
+                    "width_desktop": 100,
+                    "layout_direction_desktop": "row",
+                    "layout_grid_columns_desktop": 3,
+                    "layout_gap_desktop": 20,
+                    "layout_wrap_desktop": "nowrap",
+                    "layout_justify_desktop": "flex-start",
+                    "layout_align_items_desktop": "flex-start",
+                    "same_as_desktop": false,
+                    "width_mobile": 100,
+                    "layout_direction_mobile": "column",
+                    "layout_grid_columns_mobile": 1,
+                    "layout_gap_mobile": 10,
+                    "layout_wrap_mobile": "nowrap",
+                    "layout_justify_mobile": "flex-start",
+                    "layout_align_items_mobile": "flex-start",
+                    "use_global_container_padding": true,
+                    "padding_horizontal": 30,
+                    "padding_vertical": 30,
+                    "margin_top": 5,
+                    "margin_bottom": 0,
+                    "additional_class": ""
+                  },
+                  "blocks": {
+                    "icon_with_text_MPKKCD": {
+                      "type": "icon-with-text",
+                      "name": "t:icon_with_text",
+                      "settings": {
+                        "show_on_display": "desktop_and_mobile",
+                        "layout_direction_desktop": "row",
+                        "layout_gap_desktop": 5,
+                        "same_as_desktop": true,
+                        "layout_direction_mobile": "column",
+                        "layout_gap_mobile": 10,
+                        "icon_type": "icon",
+                        "icon": "priority",
+                        "icon_custom": "",
+                        "icon_size": 22,
+                        "icon_position": "start",
+                        "text": "<p>Paiement 100% sécurisé</p>",
+                        "text_style": "paragraph",
+                        "font_weight": 400,
+                        "margin_top": 0,
+                        "margin_bottom": 0,
+                        "additional_class": ""
+                      },
+                      "blocks": {}
+                    },
+                    "icon_with_text_AdYCCm": {
+                      "type": "icon-with-text",
+                      "name": "t:icon_with_text",
+                      "settings": {
+                        "show_on_display": "desktop_and_mobile",
+                        "layout_direction_desktop": "row",
+                        "layout_gap_desktop": 5,
+                        "same_as_desktop": true,
+                        "layout_direction_mobile": "column",
+                        "layout_gap_mobile": 10,
+                        "icon_type": "icon",
+                        "icon": "priority",
+                        "icon_custom": "",
+                        "icon_size": 22,
+                        "icon_position": "start",
+                        "text": "<p>Service client réactif 5j/7</p>",
+                        "text_style": "paragraph",
+                        "font_weight": 400,
+                        "margin_top": 0,
+                        "margin_bottom": 0,
+                        "additional_class": ""
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "icon_with_text_MPKKCD",
+                    "icon_with_text_AdYCCm"
+                  ]
+                }
+              },
+              "block_order": [
+                "sticker",
+                "reviews_badge_efW9wU",
+                "group_wibFDH",
+                "text_VJtMDF",
+                "text_8GW6GA",
+                "group_rFrEU8",
+                "group_3Pie6V"
+              ]
+            }
+          },
+          "block_order": [
+            "group_nypGzr"
+          ]
+        }
+      },
+      "block_order": [
+        "image_banner_dBEabG"
+      ],
+      "name": "t:image_banner_full_width",
+      "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "full_width": true,
+        "color_scheme": "scheme-1",
+        "show_arrows": false,
+        "show_pagination": true,
+        "autoplay": false,
+        "rewind": true,
+        "autoplay_speed": 4,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "anchor_id": "",
+        "additional_class": ""
+      }
+    },
+    "ticker_pop": {
+      "type": "marquee",
+      "blocks": {
+        "band": {
+          "type": "marquee",
+          "settings": {
+            "movement_direction": "normal",
+            "speed_factor": "normal",
+            "gap": 48,
+            "color_scheme": "scheme-2",
+            "padding_top": 14,
+            "padding_bottom": 14,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {
+            "t1": {
+              "type": "icon-with-text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "layout_direction_desktop": "row",
+                "layout_gap_desktop": 10,
+                "same_as_desktop": true,
+                "layout_direction_mobile": "row",
+                "layout_gap_mobile": 10,
+                "icon_type": "icon",
+                "icon": "auto_awesome",
+                "icon_custom": "",
+                "icon_size": 20,
+                "icon_position": "start",
+                "text": "<p>Ton premier tapis, guidé pas à pas</p>",
+                "text_style": "paragraph",
+                "font_weight": 600,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "t2": {
+              "type": "icon-with-text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "layout_direction_desktop": "row",
+                "layout_gap_desktop": 10,
+                "same_as_desktop": true,
+                "layout_direction_mobile": "row",
+                "layout_gap_mobile": 10,
+                "icon_type": "icon",
+                "icon": "menu_book",
+                "icon_custom": "",
+                "icon_size": 20,
+                "icon_position": "start",
+                "text": "<p>Guide de démarrage français offert</p>",
+                "text_style": "paragraph",
+                "font_weight": 600,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "t3": {
+              "type": "icon-with-text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "layout_direction_desktop": "row",
+                "layout_gap_desktop": 10,
+                "same_as_desktop": true,
+                "layout_direction_mobile": "row",
+                "layout_gap_mobile": 10,
+                "icon_type": "icon",
+                "icon": "school",
+                "icon_custom": "",
+                "icon_size": 20,
+                "icon_position": "start",
+                "text": "<p>Tuftéo Academy gratuite</p>",
+                "text_style": "paragraph",
+                "font_weight": 600,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "t4": {
+              "type": "icon-with-text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "layout_direction_desktop": "row",
+                "layout_gap_desktop": 10,
+                "same_as_desktop": true,
+                "layout_direction_mobile": "row",
+                "layout_gap_mobile": 10,
+                "icon_type": "icon",
+                "icon": "local_shipping",
+                "icon_custom": "",
+                "icon_size": 20,
+                "icon_position": "start",
+                "text": "<p>Livraison offerte en France</p>",
+                "text_style": "paragraph",
+                "font_weight": 600,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "t5": {
+              "type": "icon-with-text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "layout_direction_desktop": "row",
+                "layout_gap_desktop": 10,
+                "same_as_desktop": true,
+                "layout_direction_mobile": "row",
+                "layout_gap_mobile": 10,
+                "icon_type": "icon",
+                "icon": "verified_user",
+                "icon_custom": "",
+                "icon_size": 20,
+                "icon_position": "start",
+                "text": "<p>Garantie légale 2 ans</p>",
+                "text_style": "paragraph",
+                "font_weight": 600,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5"
+          ]
+        }
+      },
+      "block_order": [
+        "band"
+      ],
+      "settings": {
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "anchor_id": "",
+        "additional_class": ""
+      }
+    },
+    "kits": {
+      "type": "collection-featured",
+      "blocks": {
+        "header": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": false,
+            "card_link": "",
+            "color_scheme": "",
+            "show_card_border": false,
+            "layout_type": "flex",
+            "width_desktop": 100,
+            "layout_direction_desktop": "row",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 10,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "space-between",
+            "layout_align_items_desktop": "center",
+            "same_as_desktop": false,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 10,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": true,
+            "padding_horizontal": 30,
+            "padding_vertical": 30,
+            "margin_top": 0,
+            "margin_bottom": 20,
+            "additional_class": ""
+          },
+          "blocks": {
+            "titles": {
+              "type": "group",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "wrap_in_card": false,
+                "card_link": "",
+                "color_scheme": "",
+                "show_card_border": false,
+                "layout_type": "flex",
+                "width_desktop": 70,
+                "layout_direction_desktop": "column",
+                "layout_grid_columns_desktop": 3,
+                "layout_gap_desktop": 8,
+                "layout_wrap_desktop": "nowrap",
+                "layout_justify_desktop": "flex-start",
+                "layout_align_items_desktop": "flex-start",
+                "same_as_desktop": false,
+                "width_mobile": 100,
+                "layout_direction_mobile": "column",
+                "layout_grid_columns_mobile": 1,
+                "layout_gap_mobile": 8,
+                "layout_wrap_mobile": "nowrap",
+                "layout_justify_mobile": "flex-start",
+                "layout_align_items_mobile": "flex-start",
+                "use_global_container_padding": true,
+                "padding_horizontal": 30,
+                "padding_vertical": 30,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {
+                "h2": {
+                  "type": "text",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "text": "<h2>Nos machines pour débuter</h2>",
+                    "text_style": "h3",
+                    "paragraph_font_size": "normal",
+                    "font_weight": 400,
+                    "alignment": "left",
+                    "alignment_mobile": "left",
+                    "show_read_more": false,
+                    "read_more_length": 50,
+                    "read_more_text": "Voir plus",
+                    "read_less_text": "Voir moins",
+                    "truncate": false,
+                    "truncate_length": 2,
+                    "margin_top": 0,
+                    "margin_bottom": 0,
+                    "additional_class": ""
+                  },
+                  "blocks": {}
+                },
+                "sub": {
+                  "type": "text",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "text": "<p>Le kit complet avec tondeuse, ou le gun seul si tu es déjà équipée. 🎁 Le cadeau créatif idéal.</p>",
+                    "text_style": "paragraph",
+                    "paragraph_font_size": "normal",
+                    "font_weight": 400,
+                    "alignment": "left",
+                    "alignment_mobile": "left",
+                    "show_read_more": false,
+                    "read_more_length": 50,
+                    "read_more_text": "Voir plus",
+                    "read_less_text": "Voir moins",
+                    "truncate": false,
+                    "truncate_length": 2,
+                    "margin_top": 0,
+                    "margin_bottom": 0,
+                    "additional_class": ""
+                  },
+                  "blocks": {}
+                },
+                "sticker": {
+                  "type": "text",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "text": "<p>⭐ Le plus choisi : le Kit 2-en-1</p>",
+                    "text_style": "paragraph",
+                    "paragraph_font_size": "normal",
+                    "font_weight": 400,
+                    "alignment": "left",
+                    "alignment_mobile": "left",
+                    "show_read_more": false,
+                    "read_more_length": 50,
+                    "read_more_text": "Voir plus",
+                    "read_less_text": "Voir moins",
+                    "truncate": false,
+                    "truncate_length": 2,
+                    "margin_top": 6,
+                    "margin_bottom": 0,
+                    "additional_class": "tuf-stickerize"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "h2",
+                "sub",
+                "sticker"
+              ]
+            },
+            "cta": {
+              "type": "button",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "link": "/collections/machines",
+                "open_in_new_tab": false,
+                "label": "Tout voir",
+                "button_style": "secondary",
+                "button_shape": "default",
+                "icon": "none",
+                "icon_custom": "",
+                "icon_position": "end",
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "titles",
+            "cta"
+          ]
+        },
+        "product-card": {
+          "type": "_product-card",
+          "static": true,
+          "settings": {
+            "wrap_in_card": false,
+            "color_scheme": "",
+            "layout_gap": 10
+          },
+          "blocks": {
+            "g": {
+              "type": "_product-card-media-gallery",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "show_slider": true,
+                "media_rounded": true,
+                "show_badges": true,
+                "media_ratio": "1 / 1",
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "grp": {
+              "type": "_product-card-group",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "wrap_in_card": false,
+                "color_scheme": "",
+                "layout_direction_desktop": "column",
+                "layout_gap_desktop": 5,
+                "layout_wrap_desktop": "nowrap",
+                "layout_justify_desktop": "flex-start",
+                "layout_align_items_desktop": "flex-start",
+                "same_as_desktop": true,
+                "layout_direction_mobile": "column",
+                "layout_gap_mobile": 10,
+                "layout_wrap_mobile": "nowrap",
+                "layout_justify_mobile": "flex-start",
+                "layout_align_items_mobile": "flex-start",
+                "margin_top": 10,
+                "margin_bottom": 10,
+                "additional_class": ""
+              },
+              "blocks": {
+                "t": {
+                  "type": "text",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "text": "<h2>{{ closest.product.title }}</h2>",
+                    "text_style": "paragraph",
+                    "paragraph_font_size": "normal",
+                    "font_weight": 500,
+                    "alignment": "left",
+                    "alignment_mobile": "left",
+                    "show_read_more": false,
+                    "read_more_length": 50,
+                    "read_more_text": "Voir plus",
+                    "read_less_text": "Voir moins",
+                    "truncate": false,
+                    "truncate_length": 2,
+                    "margin_top": 0,
+                    "margin_bottom": 0,
+                    "additional_class": ""
+                  },
+                  "blocks": {}
+                },
+                "p": {
+                  "type": "product-price",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "product": "{{ closest.product }}",
+                    "sales_badge": "amount",
+                    "show_sales_badge_text": false,
+                    "show_unit_price": false,
+                    "text_style": "paragraph",
+                    "additional_class": ""
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "t",
+                "p"
+              ]
+            }
+          },
+          "block_order": [
+            "g",
+            "grp"
+          ]
+        }
+      },
+      "block_order": [
+        "header"
+      ],
+      "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "color_scheme": "",
+        "collection": "machines",
+        "max_products": 4,
+        "layout_type": "slider",
+        "grid_columns": 4,
+        "grid_columns_mobile": "2",
+        "slider_items": 4,
+        "slider_items_mobile": "1.8",
+        "show_arrows": true,
+        "show_pagination": false,
+        "rewind": false,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "anchor_id": "",
+        "additional_class": ""
+      }
+    },
+    "video_materiel": {
+      "type": "custom-section",
+      "blocks": {
+        "group": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": false,
+            "card_link": "",
+            "color_scheme": "",
+            "show_card_border": false,
+            "layout_type": "flex",
+            "width_desktop": 100,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 15,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "flex-start",
+            "same_as_desktop": true,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 10,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": true,
+            "padding_horizontal": 30,
+            "padding_vertical": 10,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {
+            "kicker": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<p>En vidéo</p>",
+                "text_style": "paragraph",
+                "paragraph_font_size": "normal",
+                "font_weight": 500,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "h2": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<h2>Le matériel essentiel pour bien débuter</h2>",
+                "text_style": "h3",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "para": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<p>Tu veux te lancer dans le tufting, mais tu ne sais pas par où commencer ? Dans cette courte vidéo, on te montre les indispensables pour créer ton premier tapis — le gun, la bonne toile, les fils, la tondeuse — et comment éviter les erreurs de départ qui découragent.</p>",
+                "text_style": "paragraph",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "cta": {
+              "type": "button",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "link": "/collections/machines",
+                "open_in_new_tab": false,
+                "label": "Voir les kits de démarrage",
+                "button_style": "primary",
+                "button_shape": "default",
+                "icon": "none",
+                "icon_custom": "",
+                "icon_position": "end",
+                "margin_top": 10,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "kicker",
+            "h2",
+            "para",
+            "cta"
+          ]
+        },
+        "video": {
+          "type": "video",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "source": "url",
+            "video_url": "https://www.youtube.com/watch?v=PZRlS5f028M",
+            "video_autoplay": false,
+            "enable_video_controls": true,
+            "video_loop": false,
+            "alt": "Quels outils pour le tufting ? — le matériel essentiel en vidéo",
+            "custom_width": 100,
+            "custom_width_mobile": 100,
+            "aspect_ratio": "16/9",
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "group",
+        "video"
+      ],
+      "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "color_scheme": "scheme-1",
+        "wrap_in_card": false,
+        "color_scheme_card": "",
+        "section_width": "normal",
+        "layout_type": "flex",
+        "layout_flex_direction_desktop": "row",
+        "layout_grid_columns_desktop": 3,
+        "layout_gap_desktop": 30,
+        "layout_wrap_desktop": "nowrap",
+        "layout_flex_justify_desktop": "flex-start",
+        "layout_flex_align_items_desktop": "center",
+        "same_as_desktop": false,
+        "layout_flex_direction_mobile": "column",
+        "layout_gap_mobile": 10,
+        "layout_wrap_mobile": "nowrap",
+        "layout_flex_justify_mobile": "flex-start",
+        "layout_flex_align_items_mobile": "flex-start",
+        "layout_grid_columns_mobile": 1,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "anchor_id": "",
+        "additional_class": ""
+      }
+    },
+    "etapes_3": {
+      "type": "custom-section",
+      "blocks": {
+        "header": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": false,
+            "card_link": "",
+            "color_scheme": "",
+            "show_card_border": false,
+            "layout_type": "flex",
+            "width_desktop": 100,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 10,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "flex-start",
+            "same_as_desktop": true,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 10,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": true,
+            "padding_horizontal": 30,
+            "padding_vertical": 10,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {
+            "h2": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<h2>Comment débuter, <em>en 3 étapes</em></h2>",
+                "text_style": "h3",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "hand": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<p>ta première pièce, pas à pas ↓</p>",
+                "text_style": "paragraph",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": "tuf-handnote"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "h2",
+            "hand"
+          ]
+        },
+        "etape_1": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": true,
+            "card_link": "",
+            "color_scheme": "scheme-1",
+            "show_card_border": true,
+            "layout_type": "flex",
+            "width_desktop": 33,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 10,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "flex-start",
+            "same_as_desktop": false,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 10,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": false,
+            "padding_horizontal": 20,
+            "padding_vertical": 20,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {
+            "ico": {
+              "type": "icon-with-text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "layout_direction_desktop": "row",
+                "layout_gap_desktop": 10,
+                "same_as_desktop": true,
+                "layout_direction_mobile": "row",
+                "layout_gap_mobile": 10,
+                "icon_type": "icon",
+                "icon": "counter_1",
+                "icon_custom": "",
+                "icon_size": 32,
+                "icon_position": "start",
+                "text": "<p><em>1.</em> <strong>Choisis ton matériel</strong></p>",
+                "text_style": "paragraph",
+                "font_weight": 500,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": "tuf-step tuf-step-1"
+              },
+              "blocks": {}
+            },
+            "txt": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<p>Débutante ou déjà curieuse, le kit réunit tout ce qu'il faut pour commencer sans rien racheter.</p>",
+                "text_style": "paragraph",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "ico",
+            "txt"
+          ]
+        },
+        "etape_2": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": true,
+            "card_link": "",
+            "color_scheme": "scheme-1",
+            "show_card_border": true,
+            "layout_type": "flex",
+            "width_desktop": 33,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 10,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "flex-start",
+            "same_as_desktop": false,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 10,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": false,
+            "padding_horizontal": 20,
+            "padding_vertical": 20,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {
+            "ico": {
+              "type": "icon-with-text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "layout_direction_desktop": "row",
+                "layout_gap_desktop": 10,
+                "same_as_desktop": true,
+                "layout_direction_mobile": "row",
+                "layout_gap_mobile": 10,
+                "icon_type": "icon",
+                "icon": "counter_2",
+                "icon_custom": "",
+                "icon_size": 32,
+                "icon_position": "start",
+                "text": "<p><em>2.</em> <strong>Prépare ton design</strong></p>",
+                "text_style": "paragraph",
+                "font_weight": 500,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": "tuf-step tuf-step-2"
+              },
+              "blocks": {}
+            },
+            "txt": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<p>Dessine ton motif ou pars d'un modèle, puis reporte-le sur ta toile — on t'explique comment, miroir compris.</p>",
+                "text_style": "paragraph",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "ico",
+            "txt"
+          ]
+        },
+        "etape_3": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": true,
+            "card_link": "",
+            "color_scheme": "scheme-1",
+            "show_card_border": true,
+            "layout_type": "flex",
+            "width_desktop": 33,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 10,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "flex-start",
+            "same_as_desktop": false,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 10,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": false,
+            "padding_horizontal": 20,
+            "padding_vertical": 20,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {
+            "ico": {
+              "type": "icon-with-text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "layout_direction_desktop": "row",
+                "layout_gap_desktop": 10,
+                "same_as_desktop": true,
+                "layout_direction_mobile": "row",
+                "layout_gap_mobile": 10,
+                "icon_type": "icon",
+                "icon": "counter_3",
+                "icon_custom": "",
+                "icon_size": 32,
+                "icon_position": "start",
+                "text": "<p><em>3.</em> <strong>Tufte !</strong></p>",
+                "text_style": "paragraph",
+                "font_weight": 500,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": "tuf-step tuf-step-3"
+              },
+              "blocks": {}
+            },
+            "txt": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<p>Suis nos guides pas à pas — direction, pression, vitesse — et regarde ton tapis prendre vie ligne après ligne.</p>",
+                "text_style": "paragraph",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "ico",
+            "txt"
+          ]
+        }
+      },
+      "block_order": [
+        "header",
+        "etape_1",
+        "etape_2",
+        "etape_3"
+      ],
+      "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "color_scheme": "scheme-1",
+        "wrap_in_card": false,
+        "color_scheme_card": "",
+        "section_width": "normal",
+        "layout_type": "flex",
+        "layout_flex_direction_desktop": "row",
+        "layout_grid_columns_desktop": 3,
+        "layout_gap_desktop": 20,
+        "layout_wrap_desktop": "nowrap",
+        "layout_flex_justify_desktop": "flex-start",
+        "layout_flex_align_items_desktop": "stretch",
+        "same_as_desktop": false,
+        "layout_flex_direction_mobile": "column",
+        "layout_gap_mobile": 15,
+        "layout_wrap_mobile": "nowrap",
+        "layout_flex_justify_mobile": "flex-start",
+        "layout_flex_align_items_mobile": "flex-start",
+        "layout_grid_columns_mobile": 1,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "anchor_id": "",
+        "additional_class": ""
+      }
+    },
+    "avis_clients": {
+      "type": "bv-avis-clients",
+      "blocks": {
+        "r1": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "verified": true,
+            "title": "Mon premier tapis, enfin accroché !",
+            "text": "Kit reçu en quatre jours. Le guide de démarrage français change tout : j'ai suivi les vidéos pas à pas et mon premier tapis — un soleil pour la chambre de ma fille — est au mur. Très fière de moi.",
+            "author": "Camille R.",
+            "date_text": "Il y a 3 jours"
+          }
+        },
+        "r2": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "verified": true,
+            "title": "Parfait pour débuter sans se tromper",
+            "text": "J'avais peur d'acheter du matériel incompatible. Là, tout fonctionne ensemble : gun, toile, fils. La prise en main est plus simple que je pensais, et le service client m'a répondu en français dans la journée.",
+            "author": "Léa M.",
+            "date_text": "Il y a 1 semaine"
+          }
+        },
+        "r3": {
+          "type": "review",
+          "settings": {
+            "rating": 4,
+            "verified": true,
+            "title": "Très bon kit, prévois ton cadre",
+            "text": "Rien à redire sur la machine et la tondeuse. Pense juste à préparer ton cadre avant la livraison — le guide explique comment le fabriquer. Il ne manque qu'un choix de coloris de fils plus large dans le kit.",
+            "author": "Sarah D.",
+            "date_text": "Il y a 2 semaines"
+          }
+        }
+      },
+      "block_order": [
+        "r1",
+        "r2",
+        "r3"
+      ],
+      "settings": {
+        "heading": "Ils se sont lancés avec Tuftéo",
+        "heading_alignment": "left",
+        "cards": 3,
+        "card_background": "#ffffff",
+        "card_border": "#eae0d3",
+        "title_color": "#1c1410",
+        "text_color": "#5a4a40",
+        "stars_color": "#05B67A",
+        "background": "#E8542F",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "collections_grid": {
+      "type": "custom-section",
+      "blocks": {
+        "header": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": false,
+            "card_link": "",
+            "color_scheme": "",
+            "show_card_border": false,
+            "layout_type": "flex",
+            "width_desktop": 100,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 8,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "flex-start",
+            "same_as_desktop": true,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 8,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": true,
+            "padding_horizontal": 30,
+            "padding_vertical": 10,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {
+            "kicker": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<p>Par besoin</p>",
+                "text_style": "paragraph",
+                "paragraph_font_size": "normal",
+                "font_weight": 500,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "h2": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<h2>Explore nos collections</h2>",
+                "text_style": "h3",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "kicker",
+            "h2"
+          ]
+        },
+        "card_machines": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": true,
+            "card_link": "/collections/machines",
+            "color_scheme": "scheme-1",
+            "show_card_border": true,
+            "layout_type": "flex",
+            "width_desktop": 24,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 10,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "flex-start",
+            "same_as_desktop": false,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 10,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": false,
+            "padding_horizontal": 15,
+            "padding_vertical": 15,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {
+            "img": {
+              "type": "image",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "image": "shopify://shop_images/tufteo-home-carte-machines.png",
+                "show_placeholder": true,
+                "link": "/collections/machines",
+                "image_ratio": "1/1",
+                "image_width_desktop": 100,
+                "image_width_mobile": 100,
+                "enable_rounded_corners": true,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "t": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<h3>Machines</h3>",
+                "text_style": "h6",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "img",
+            "t"
+          ]
+        },
+        "card_tissus": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": true,
+            "card_link": "/collections/tissus",
+            "color_scheme": "scheme-1",
+            "show_card_border": true,
+            "layout_type": "flex",
+            "width_desktop": 24,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 10,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "flex-start",
+            "same_as_desktop": false,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 10,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": false,
+            "padding_horizontal": 15,
+            "padding_vertical": 15,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {
+            "img": {
+              "type": "image",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "image": "shopify://shop_images/tufteo-home-carte-tissus.png",
+                "show_placeholder": true,
+                "link": "/collections/tissus",
+                "image_ratio": "1/1",
+                "image_width_desktop": 100,
+                "image_width_mobile": 100,
+                "enable_rounded_corners": true,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "t": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<h3>Toiles & tissus</h3>",
+                "text_style": "h6",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "img",
+            "t"
+          ]
+        },
+        "card_fils": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": true,
+            "card_link": "/collections/fils",
+            "color_scheme": "scheme-1",
+            "show_card_border": true,
+            "layout_type": "flex",
+            "width_desktop": 24,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 10,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "flex-start",
+            "same_as_desktop": false,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 10,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": false,
+            "padding_horizontal": 15,
+            "padding_vertical": 15,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {
+            "img": {
+              "type": "image",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "image": "shopify://shop_images/tufteo-home-carte-fils.png",
+                "show_placeholder": true,
+                "link": "/collections/fils",
+                "image_ratio": "1/1",
+                "image_width_desktop": 100,
+                "image_width_mobile": 100,
+                "enable_rounded_corners": true,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "t": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<h3>Fils</h3>",
+                "text_style": "h6",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "img",
+            "t"
+          ]
+        },
+        "card_accessoires": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": true,
+            "card_link": "/collections/accessoires",
+            "color_scheme": "scheme-1",
+            "show_card_border": true,
+            "layout_type": "flex",
+            "width_desktop": 24,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 10,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "flex-start",
+            "same_as_desktop": false,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 10,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": false,
+            "padding_horizontal": 15,
+            "padding_vertical": 15,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {
+            "img": {
+              "type": "image",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "image": "shopify://shop_images/tufteo-home-carte-accessoires.png",
+                "show_placeholder": true,
+                "link": "/collections/accessoires",
+                "image_ratio": "1/1",
+                "image_width_desktop": 100,
+                "image_width_mobile": 100,
+                "enable_rounded_corners": true,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "t": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<h3>Accessoires & finitions</h3>",
+                "text_style": "h6",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "img",
+            "t"
+          ]
+        }
+      },
+      "block_order": [
+        "header",
+        "card_machines",
+        "card_tissus",
+        "card_fils",
+        "card_accessoires"
+      ],
+      "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "color_scheme": "scheme-1",
+        "wrap_in_card": false,
+        "color_scheme_card": "",
+        "section_width": "normal",
+        "layout_type": "flex",
+        "layout_flex_direction_desktop": "row",
+        "layout_grid_columns_desktop": 3,
+        "layout_gap_desktop": 15,
+        "layout_wrap_desktop": "nowrap",
+        "layout_flex_justify_desktop": "flex-start",
+        "layout_flex_align_items_desktop": "stretch",
+        "same_as_desktop": false,
+        "layout_flex_direction_mobile": "column",
+        "layout_gap_mobile": 15,
+        "layout_wrap_mobile": "nowrap",
+        "layout_flex_justify_mobile": "flex-start",
+        "layout_flex_align_items_mobile": "flex-start",
+        "layout_grid_columns_mobile": 1,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "anchor_id": "",
+        "additional_class": ""
+      }
+    },
+    "incontournables": {
+      "type": "collection-featured",
+      "blocks": {
+        "header": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": false,
+            "card_link": "",
+            "color_scheme": "",
+            "show_card_border": false,
+            "layout_type": "flex",
+            "width_desktop": 100,
+            "layout_direction_desktop": "row",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 10,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "space-between",
+            "layout_align_items_desktop": "center",
+            "same_as_desktop": false,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 10,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": true,
+            "padding_horizontal": 30,
+            "padding_vertical": 30,
+            "margin_top": 0,
+            "margin_bottom": 20,
+            "additional_class": ""
+          },
+          "blocks": {
+            "h2": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<h2>Les incontournables</h2>",
+                "text_style": "h3",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "cta": {
+              "type": "button",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "link": "/collections/accessoires",
+                "open_in_new_tab": false,
+                "label": "Tout voir",
+                "button_style": "secondary",
+                "button_shape": "default",
+                "icon": "none",
+                "icon_custom": "",
+                "icon_position": "end",
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "h2",
+            "cta"
+          ]
+        },
+        "product-card": {
+          "type": "_product-card",
+          "static": true,
+          "settings": {
+            "wrap_in_card": false,
+            "color_scheme": "",
+            "layout_gap": 10
+          },
+          "blocks": {
+            "g": {
+              "type": "_product-card-media-gallery",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "show_slider": true,
+                "media_rounded": true,
+                "show_badges": true,
+                "media_ratio": "1 / 1",
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "grp": {
+              "type": "_product-card-group",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "wrap_in_card": false,
+                "color_scheme": "",
+                "layout_direction_desktop": "column",
+                "layout_gap_desktop": 5,
+                "layout_wrap_desktop": "nowrap",
+                "layout_justify_desktop": "flex-start",
+                "layout_align_items_desktop": "flex-start",
+                "same_as_desktop": true,
+                "layout_direction_mobile": "column",
+                "layout_gap_mobile": 10,
+                "layout_wrap_mobile": "nowrap",
+                "layout_justify_mobile": "flex-start",
+                "layout_align_items_mobile": "flex-start",
+                "margin_top": 10,
+                "margin_bottom": 10,
+                "additional_class": ""
+              },
+              "blocks": {
+                "t": {
+                  "type": "text",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "text": "<h2>{{ closest.product.title }}</h2>",
+                    "text_style": "paragraph",
+                    "paragraph_font_size": "normal",
+                    "font_weight": 500,
+                    "alignment": "left",
+                    "alignment_mobile": "left",
+                    "show_read_more": false,
+                    "read_more_length": 50,
+                    "read_more_text": "Voir plus",
+                    "read_less_text": "Voir moins",
+                    "truncate": false,
+                    "truncate_length": 2,
+                    "margin_top": 0,
+                    "margin_bottom": 0,
+                    "additional_class": ""
+                  },
+                  "blocks": {}
+                },
+                "p": {
+                  "type": "product-price",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "product": "{{ closest.product }}",
+                    "sales_badge": "amount",
+                    "show_sales_badge_text": false,
+                    "show_unit_price": false,
+                    "text_style": "paragraph",
+                    "additional_class": ""
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "t",
+                "p"
+              ]
+            }
+          },
+          "block_order": [
+            "g",
+            "grp"
+          ]
+        }
+      },
+      "block_order": [
+        "header"
+      ],
+      "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "color_scheme": "",
+        "collection": "accessoires",
+        "max_products": 8,
+        "layout_type": "slider",
+        "grid_columns": 4,
+        "grid_columns_mobile": "2",
+        "slider_items": 4,
+        "slider_items_mobile": "1.8",
+        "show_arrows": true,
+        "show_pagination": false,
+        "rewind": false,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "anchor_id": "",
+        "additional_class": ""
+      }
+    },
+    "academy": {
+      "type": "custom-section",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "image": "shopify://shop_images/tufteo-home-academy.png",
+            "show_placeholder": true,
+            "link": "/pages/apprendre",
+            "image_ratio": "adapt",
+            "image_width_desktop": 100,
+            "image_width_mobile": 100,
+            "enable_rounded_corners": true,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {}
+        },
+        "group": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": false,
+            "card_link": "",
+            "color_scheme": "",
+            "show_card_border": false,
+            "layout_type": "flex",
+            "width_desktop": 100,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 15,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "flex-start",
+            "same_as_desktop": true,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 10,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": true,
+            "padding_horizontal": 30,
+            "padding_vertical": 10,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {
+            "sticker": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<p>Inclus avec ta commande</p>",
+                "text_style": "paragraph",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": "tuf-stickerize"
+              },
+              "blocks": {}
+            },
+            "kicker": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<p>Tuftéo Academy</p>",
+                "text_style": "paragraph",
+                "paragraph_font_size": "normal",
+                "font_weight": 500,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "h2": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<h2>L'école de tufting à domicile</h2>",
+                "text_style": "h3",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "para": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<p>On a créé des guides français illustrés, pensés pour celles et ceux qui débutent seuls chez eux : tendre sa toile, réussir sa première pièce, passer du Cut au Loop, entretenir sa machine. Gratuits, clairs, pas à pas — parce que réussir ton premier tapis ne devrait pas dépendre d'un atelier à l'autre bout de la France.</p>",
+                "text_style": "paragraph",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "cta": {
+              "type": "button",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "link": "/pages/apprendre",
+                "open_in_new_tab": false,
+                "label": "Découvrir les guides",
+                "button_style": "primary",
+                "button_shape": "default",
+                "icon": "none",
+                "icon_custom": "",
+                "icon_position": "end",
+                "margin_top": 10,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "sticker",
+            "kicker",
+            "h2",
+            "para",
+            "cta"
+          ]
+        }
+      },
+      "block_order": [
+        "image",
+        "group"
+      ],
+      "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "color_scheme": "scheme-2",
+        "wrap_in_card": false,
+        "color_scheme_card": "",
+        "section_width": "normal",
+        "layout_type": "flex",
+        "layout_flex_direction_desktop": "row",
+        "layout_grid_columns_desktop": 3,
+        "layout_gap_desktop": 30,
+        "layout_wrap_desktop": "nowrap",
+        "layout_flex_justify_desktop": "flex-start",
+        "layout_flex_align_items_desktop": "center",
+        "same_as_desktop": false,
+        "layout_flex_direction_mobile": "column",
+        "layout_gap_mobile": 10,
+        "layout_wrap_mobile": "nowrap",
+        "layout_flex_justify_mobile": "flex-start",
+        "layout_flex_align_items_mobile": "flex-start",
+        "layout_grid_columns_mobile": 1,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "anchor_id": "",
+        "additional_class": ""
+      }
+    },
+    "comparatif": {
+      "type": "custom-section",
+      "blocks": {
+        "table_liquid": {
+          "type": "custom-code",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "custom_liquid": "<style>.tuf-gc-table{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;}.tuf-gc-cards{display:none;}@media (max-width:749px){.tuf-gc-table{display:none;}.tuf-gc-cards{display:flex;flex-direction:column;gap:14px;}}.tuf-gc-card{background:#FFFFFF;border:1px solid #EAE0D3;border-radius:12px;padding:16px;}.tuf-gc-card-title{font-family:var(--font-heading--family,serif);font-weight:600;font-size:1.15rem;color:#1C1410;margin:0 0 10px;}.tuf-gc-row{font-size:.9rem;color:#5A4A40;margin:0 0 10px;line-height:1.45;}.tuf-gc-row strong{color:#1C1410;}</style><div style=\"width:100%;max-width:1100px;margin:0 auto;box-sizing:border-box;min-width:0;\"><p style=\"font-family:var(--font-subheading--family,sans-serif);font-weight:600;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:#E8542F;margin:0 0 .5rem;\">Guide de choix</p><h2 style=\"font-family:var(--font-heading--family,serif);font-weight:600;font-size:2rem;line-height:1.1;color:#1C1410;margin:0 0 1rem;\">Par où commencer ?</h2><p style=\"font-family:var(--font-body--family,sans-serif);color:#5A4A40;max-width:640px;margin:0 0 2rem;\">Trois façons de te lancer dans le tufting, de la plus complète à la plus légère. Un doute ? Écris-nous, on te répond avant l'achat.</p><div class=\"tuf-gc-table\"><table style=\"width:100%;min-width:640px;border-collapse:separate;border-spacing:0;border:1px solid #EAE0D3;border-radius:12px;overflow:hidden;\"><thead><tr><th style=\"background:#1C1410;color:#FDF8EF;text-align:left;padding:14px 16px;font-weight:600;font-size:.95rem;\">Critère</th><th style=\"background:#1C1410;color:#FDF8EF;text-align:left;padding:14px 16px;font-weight:600;font-size:.95rem;\">Kit complet 2-en-1</th><th style=\"background:#1C1410;color:#FDF8EF;text-align:left;padding:14px 16px;font-weight:600;font-size:.95rem;\">Gun 2-en-1 seul</th><th style=\"background:#1C1410;color:#FDF8EF;text-align:left;padding:14px 16px;font-weight:600;font-size:.95rem;\">À l'unité</th></tr></thead><tbody><tr><th scope=\"row\" style=\"background:#FDF8EF;color:#1C1410;text-align:left;padding:12px 16px;font-weight:600;border-top:1px solid #EAE0D3;\">Pour qui</th><td style=\"padding:12px 16px;color:#5A4A40;border-top:1px solid #EAE0D3;\">Tu débutes et tu veux tout, sans te tromper</td><td style=\"padding:12px 16px;color:#5A4A40;border-top:1px solid #EAE0D3;\">Tu as déjà toile, fils et tondeuse</td><td style=\"padding:12px 16px;color:#5A4A40;border-top:1px solid #EAE0D3;\">Tu complètes ou recharges ton atelier</td></tr><tr><th scope=\"row\" style=\"background:#FDF8EF;color:#1C1410;text-align:left;padding:12px 16px;font-weight:600;border-top:1px solid #EAE0D3;\">Ce que tu reçois</th><td style=\"padding:12px 16px;color:#5A4A40;border-top:1px solid #EAE0D3;\">Gun 2-en-1, tondeuse et son guide de tonte, toile, fils, outillage</td><td style=\"padding:12px 16px;color:#5A4A40;border-top:1px solid #EAE0D3;\">Le pistolet Cut & Loop et ses accessoires de base</td><td style=\"padding:12px 16px;color:#5A4A40;border-top:1px solid #EAE0D3;\">Toiles, fils, rubans et petit outillage au détail</td></tr><tr><th scope=\"row\" style=\"background:#FDF8EF;color:#1C1410;text-align:left;padding:12px 16px;font-weight:600;border-top:1px solid #EAE0D3;\">Accompagnement</th><td style=\"padding:12px 16px;color:#5A4A40;border-top:1px solid #EAE0D3;\">Guide français + vidéos + Academy</td><td style=\"padding:12px 16px;color:#5A4A40;border-top:1px solid #EAE0D3;\">Guide français + Academy</td><td style=\"padding:12px 16px;color:#5A4A40;border-top:1px solid #EAE0D3;\">Les guides gratuits de l'Academy</td></tr><tr><th scope=\"row\" style=\"background:#FDF8EF;color:#1C1410;text-align:left;padding:12px 16px;font-weight:600;border-top:1px solid #EAE0D3;\">Budget</th><td style=\"padding:12px 16px;color:#5A4A40;border-top:1px solid #EAE0D3;\">269 €</td><td style=\"padding:12px 16px;color:#5A4A40;border-top:1px solid #EAE0D3;\">149 €</td><td style=\"padding:12px 16px;color:#5A4A40;border-top:1px solid #EAE0D3;\">dès 4,90 €</td></tr><tr><th scope=\"row\" style=\"background:#FDF8EF;color:#1C1410;text-align:left;padding:12px 16px;font-weight:600;border-top:1px solid #EAE0D3;\">Notre conseil</th><td style=\"padding:12px 16px;color:#5A4A40;border-top:1px solid #EAE0D3;\">Le choix n°1 pour une première pièce réussie</td><td style=\"padding:12px 16px;color:#5A4A40;border-top:1px solid #EAE0D3;\">Pour progresser avec ta configuration actuelle</td><td style=\"padding:12px 16px;color:#5A4A40;border-top:1px solid #EAE0D3;\">Pour recharger fils et toiles au fil des pièces</td></tr></tbody></table></div><div class=\"tuf-gc-cards\"><div class=\"tuf-gc-card\"><p class=\"tuf-gc-card-title\">Kit complet 2-en-1</p><p class=\"tuf-gc-row\"><strong>Pour qui</strong><br>Tu débutes et tu veux tout, sans te tromper</p><p class=\"tuf-gc-row\"><strong>Ce que tu reçois</strong><br>Gun 2-en-1, tondeuse et son guide de tonte, toile, fils, outillage</p><p class=\"tuf-gc-row\"><strong>Accompagnement</strong><br>Guide français + vidéos + Academy</p><p class=\"tuf-gc-row\"><strong>Budget</strong><br>269 €</p><p class=\"tuf-gc-row\"><strong>Notre conseil</strong><br>Le choix n°1 pour une première pièce réussie</p></div><div class=\"tuf-gc-card\"><p class=\"tuf-gc-card-title\">Gun 2-en-1 seul</p><p class=\"tuf-gc-row\"><strong>Pour qui</strong><br>Tu as déjà toile, fils et tondeuse</p><p class=\"tuf-gc-row\"><strong>Ce que tu reçois</strong><br>Le pistolet Cut & Loop et ses accessoires de base</p><p class=\"tuf-gc-row\"><strong>Accompagnement</strong><br>Guide français + Academy</p><p class=\"tuf-gc-row\"><strong>Budget</strong><br>149 €</p><p class=\"tuf-gc-row\"><strong>Notre conseil</strong><br>Pour progresser avec ta configuration actuelle</p></div><div class=\"tuf-gc-card\"><p class=\"tuf-gc-card-title\">À l'unité</p><p class=\"tuf-gc-row\"><strong>Pour qui</strong><br>Tu complètes ou recharges ton atelier</p><p class=\"tuf-gc-row\"><strong>Ce que tu reçois</strong><br>Toiles, fils, rubans et petit outillage au détail</p><p class=\"tuf-gc-row\"><strong>Accompagnement</strong><br>Les guides gratuits de l'Academy</p><p class=\"tuf-gc-row\"><strong>Budget</strong><br>dès 4,90 €</p><p class=\"tuf-gc-row\"><strong>Notre conseil</strong><br>Pour recharger fils et toiles au fil des pièces</p></div></div></div>",
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "table_liquid"
+      ],
+      "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "color_scheme": "scheme-1",
+        "wrap_in_card": false,
+        "color_scheme_card": "",
+        "section_width": "normal",
+        "layout_type": "flex",
+        "layout_flex_direction_desktop": "column",
+        "layout_grid_columns_desktop": 3,
+        "layout_gap_desktop": 10,
+        "layout_wrap_desktop": "nowrap",
+        "layout_flex_justify_desktop": "flex-start",
+        "layout_flex_align_items_desktop": "flex-start",
+        "same_as_desktop": true,
+        "layout_flex_direction_mobile": "column",
+        "layout_gap_mobile": 10,
+        "layout_wrap_mobile": "nowrap",
+        "layout_flex_justify_mobile": "flex-start",
+        "layout_flex_align_items_mobile": "flex-start",
+        "layout_grid_columns_mobile": 1,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "anchor_id": "",
+        "additional_class": ""
+      }
+    },
+    "faq": {
+      "type": "custom-section",
+      "blocks": {
+        "faq_group": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": false,
+            "card_link": "",
+            "color_scheme": "",
+            "show_card_border": false,
+            "layout_type": "flex",
+            "width_desktop": 100,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 15,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "flex-start",
+            "same_as_desktop": true,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 10,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": true,
+            "padding_horizontal": 30,
+            "padding_vertical": 10,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {
+            "h2": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<h2>Tes questions, nos réponses</h2>",
+                "text_style": "h3",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "sub": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<p>Les réponses aux questions qu'on nous pose le plus avant une première commande. Il en manque une ? Écris-nous, on répond avant l'achat.</p>",
+                "text_style": "paragraph",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 10,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "acc": {
+              "type": "accordions",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "icon": "caret",
+                "dividers": true,
+                "additional_class": ""
+              },
+              "blocks": {
+                "q1": {
+                  "type": "_accordion",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "heading": "C'est difficile d'apprendre le tufting ?",
+                    "heading_tag": "p",
+                    "heading_style": "paragraph",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "icon_custom": "",
+                    "additional_class": ""
+                  },
+                  "blocks": {
+                    "t": {
+                      "type": "text",
+                      "settings": {
+                        "show_on_display": "desktop_and_mobile",
+                        "text": "<p>Ça s'apprend — et c'est exactement pour ça qu'on existe. Avec le bon matériel et nos guides pas à pas, ta première pièce est à ta portée : la communauté compte une demi-journée à une journée pour un premier tapis simple.</p>",
+                        "text_style": "paragraph",
+                        "paragraph_font_size": "normal",
+                        "font_weight": 400,
+                        "alignment": "left",
+                        "alignment_mobile": "left",
+                        "show_read_more": false,
+                        "read_more_length": 50,
+                        "read_more_text": "Voir plus",
+                        "read_less_text": "Voir moins",
+                        "truncate": false,
+                        "truncate_length": 2,
+                        "margin_top": 0,
+                        "margin_bottom": 0,
+                        "additional_class": ""
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "t"
+                  ]
+                },
+                "q2": {
+                  "type": "_accordion",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "heading": "Qu'est-ce qu'il y a dans le kit ?",
+                    "heading_tag": "p",
+                    "heading_style": "paragraph",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "icon_custom": "",
+                    "additional_class": ""
+                  },
+                  "blocks": {
+                    "t": {
+                      "type": "text",
+                      "settings": {
+                        "show_on_display": "desktop_and_mobile",
+                        "text": "<p>Tout ce qu'il faut pour ta première pièce, tondeuse comprise : gun 2-en-1, tondeuse avec guide de tonte, toile, pelotes de fil et petit outillage. Le détail exact est affiché sur la fiche du kit.</p>",
+                        "text_style": "paragraph",
+                        "paragraph_font_size": "normal",
+                        "font_weight": 400,
+                        "alignment": "left",
+                        "alignment_mobile": "left",
+                        "show_read_more": false,
+                        "read_more_length": 50,
+                        "read_more_text": "Voir plus",
+                        "read_less_text": "Voir moins",
+                        "truncate": false,
+                        "truncate_length": 2,
+                        "margin_top": 0,
+                        "margin_bottom": 0,
+                        "additional_class": ""
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "t"
+                  ]
+                },
+                "q3": {
+                  "type": "_accordion",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "heading": "Il me faut quoi en plus ?",
+                    "heading_tag": "p",
+                    "heading_style": "paragraph",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "icon_custom": "",
+                    "additional_class": ""
+                  },
+                  "blocks": {
+                    "t": {
+                      "type": "text",
+                      "settings": {
+                        "show_on_display": "desktop_and_mobile",
+                        "text": "<p>Un cadre pour tendre ta toile — notre guide t'explique comment le fabriquer ou où l'acheter près de chez toi — et de la colle de finition pour le dos.</p>",
+                        "text_style": "paragraph",
+                        "paragraph_font_size": "normal",
+                        "font_weight": 400,
+                        "alignment": "left",
+                        "alignment_mobile": "left",
+                        "show_read_more": false,
+                        "read_more_length": 50,
+                        "read_more_text": "Voir plus",
+                        "read_less_text": "Voir moins",
+                        "truncate": false,
+                        "truncate_length": 2,
+                        "margin_top": 0,
+                        "margin_bottom": 0,
+                        "additional_class": ""
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "t"
+                  ]
+                },
+                "q4": {
+                  "type": "_accordion",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "heading": "Vous livrez en combien de temps ?",
+                    "heading_tag": "p",
+                    "heading_style": "paragraph",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "icon_custom": "",
+                    "additional_class": ""
+                  },
+                  "blocks": {
+                    "t": {
+                      "type": "text",
+                      "settings": {
+                        "show_on_display": "desktop_and_mobile",
+                        "text": "<p>Livraison offerte en France en 6 à 10 jours ouvrés, avec suivi par e-mail.</p>",
+                        "text_style": "paragraph",
+                        "paragraph_font_size": "normal",
+                        "font_weight": 400,
+                        "alignment": "left",
+                        "alignment_mobile": "left",
+                        "show_read_more": false,
+                        "read_more_length": 50,
+                        "read_more_text": "Voir plus",
+                        "read_less_text": "Voir moins",
+                        "truncate": false,
+                        "truncate_length": 2,
+                        "margin_top": 0,
+                        "margin_bottom": 0,
+                        "additional_class": ""
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "t"
+                  ]
+                },
+                "q5": {
+                  "type": "_accordion",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "heading": "Et si ça ne me convient pas ?",
+                    "heading_tag": "p",
+                    "heading_style": "paragraph",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "icon_custom": "",
+                    "additional_class": ""
+                  },
+                  "blocks": {
+                    "t": {
+                      "type": "text",
+                      "settings": {
+                        "show_on_display": "desktop_and_mobile",
+                        "text": "<p>Tu disposes de ton droit de rétractation de 14 jours après réception, et ta machine est couverte par la garantie légale de conformité de 2 ans.</p>",
+                        "text_style": "paragraph",
+                        "paragraph_font_size": "normal",
+                        "font_weight": 400,
+                        "alignment": "left",
+                        "alignment_mobile": "left",
+                        "show_read_more": false,
+                        "read_more_length": 50,
+                        "read_more_text": "Voir plus",
+                        "read_less_text": "Voir moins",
+                        "truncate": false,
+                        "truncate_length": 2,
+                        "margin_top": 0,
+                        "margin_bottom": 0,
+                        "additional_class": ""
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "t"
+                  ]
+                }
+              },
+              "block_order": [
+                "q1",
+                "q2",
+                "q3",
+                "q4",
+                "q5"
+              ]
+            }
+          },
+          "block_order": [
+            "h2",
+            "sub",
+            "acc"
+          ]
+        }
+      },
+      "block_order": [
+        "faq_group"
+      ],
+      "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "color_scheme": "scheme-1",
+        "wrap_in_card": false,
+        "color_scheme_card": "",
+        "section_width": "normal",
+        "layout_type": "flex",
+        "layout_flex_direction_desktop": "column",
+        "layout_grid_columns_desktop": 3,
+        "layout_gap_desktop": 10,
+        "layout_wrap_desktop": "nowrap",
+        "layout_flex_justify_desktop": "flex-start",
+        "layout_flex_align_items_desktop": "flex-start",
+        "same_as_desktop": true,
+        "layout_flex_direction_mobile": "column",
+        "layout_gap_mobile": 10,
+        "layout_wrap_mobile": "nowrap",
+        "layout_flex_justify_mobile": "flex-start",
+        "layout_flex_align_items_mobile": "flex-start",
+        "layout_grid_columns_mobile": 1,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "anchor_id": "",
+        "additional_class": ""
+      }
+    },
+    "reassurance": {
+      "type": "custom-section",
+      "blocks": {
+        "col1": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": false,
+            "card_link": "",
+            "color_scheme": "",
+            "show_card_border": false,
+            "layout_type": "flex",
+            "width_desktop": 33,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 8,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "flex-start",
+            "same_as_desktop": false,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 8,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": false,
+            "padding_horizontal": 15,
+            "padding_vertical": 15,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {
+            "h5": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<h5>Tout pour débuter, sans te tromper</h5>",
+                "text_style": "h6",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "p": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<p>Gun, tondeuse, toile et fils choisis pour fonctionner ensemble — le matériel du kit est assorti, pas empilé.</p>",
+                "text_style": "paragraph",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "h5",
+            "p"
+          ]
+        },
+        "col2": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": false,
+            "card_link": "",
+            "color_scheme": "",
+            "show_card_border": false,
+            "layout_type": "flex",
+            "width_desktop": 33,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 8,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "flex-start",
+            "same_as_desktop": false,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 8,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": false,
+            "padding_horizontal": 15,
+            "padding_vertical": 15,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {
+            "h5": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<h5>Guidée en français, pas à pas</h5>",
+                "text_style": "h6",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "p": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<p>Guide de démarrage français et Tuftéo Academy : tu sais toujours quoi faire ensuite, de la toile tendue au tapis fini.</p>",
+                "text_style": "paragraph",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "h5",
+            "p"
+          ]
+        },
+        "col3": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": false,
+            "card_link": "",
+            "color_scheme": "",
+            "show_card_border": false,
+            "layout_type": "flex",
+            "width_desktop": 33,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 8,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "flex-start",
+            "same_as_desktop": false,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 8,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": false,
+            "padding_horizontal": 15,
+            "padding_vertical": 15,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {
+            "h5": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<h5>Achète l'esprit tranquille</h5>",
+                "text_style": "h6",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "p": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<p>Retours 14 jours, garantie légale 2 ans, paiement sécurisé et conseil en français avant l'achat.</p>",
+                "text_style": "paragraph",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "left",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "h5",
+            "p"
+          ]
+        }
+      },
+      "block_order": [
+        "col1",
+        "col2",
+        "col3"
+      ],
+      "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "color_scheme": "scheme-2",
+        "wrap_in_card": false,
+        "color_scheme_card": "",
+        "section_width": "normal",
+        "layout_type": "flex",
+        "layout_flex_direction_desktop": "row",
+        "layout_grid_columns_desktop": 3,
+        "layout_gap_desktop": 20,
+        "layout_wrap_desktop": "nowrap",
+        "layout_flex_justify_desktop": "flex-start",
+        "layout_flex_align_items_desktop": "stretch",
+        "same_as_desktop": false,
+        "layout_flex_direction_mobile": "column",
+        "layout_gap_mobile": 15,
+        "layout_wrap_mobile": "nowrap",
+        "layout_flex_justify_mobile": "flex-start",
+        "layout_flex_align_items_mobile": "flex-start",
+        "layout_grid_columns_mobile": 1,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "anchor_id": "",
+        "additional_class": ""
+      }
+    },
+    "pourquoi": {
+      "type": "custom-section",
+      "blocks": {
+        "h2": {
+          "type": "text",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "text": "<h2>Pourquoi Tuftéo ?</h2>",
+            "text_style": "h3",
+            "paragraph_font_size": "normal",
+            "font_weight": 400,
+            "alignment": "left",
+            "alignment_mobile": "left",
+            "show_read_more": false,
+            "read_more_length": 50,
+            "read_more_text": "Voir plus",
+            "read_less_text": "Voir moins",
+            "truncate": false,
+            "truncate_length": 2,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {}
+        },
+        "para": {
+          "type": "text",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "text": "<p>Tuftéo réunit des kits de tufting complets, des toiles, des fils et des accessoires de finition, avec un même principe : te permettre de réussir ta première pièce sans te tromper de matériel. Chaque produit est documenté en français, accompagné par les guides gratuits de la Tuftéo Academy, livré en France et couvert par la garantie légale de 2 ans. Pas de fausses promos, pas de specs inventées — juste ce qu'il faut pour tufter.</p>",
+            "text_style": "paragraph",
+            "paragraph_font_size": "normal",
+            "font_weight": 400,
+            "alignment": "left",
+            "alignment_mobile": "left",
+            "show_read_more": false,
+            "read_more_length": 50,
+            "read_more_text": "Voir plus",
+            "read_less_text": "Voir moins",
+            "truncate": false,
+            "truncate_length": 2,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "h2",
+        "para"
+      ],
+      "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "color_scheme": "scheme-1",
+        "wrap_in_card": false,
+        "color_scheme_card": "",
+        "section_width": "normal",
+        "layout_type": "flex",
+        "layout_flex_direction_desktop": "column",
+        "layout_grid_columns_desktop": 3,
+        "layout_gap_desktop": 15,
+        "layout_wrap_desktop": "nowrap",
+        "layout_flex_justify_desktop": "flex-start",
+        "layout_flex_align_items_desktop": "flex-start",
+        "same_as_desktop": true,
+        "layout_flex_direction_mobile": "column",
+        "layout_gap_mobile": 10,
+        "layout_wrap_mobile": "nowrap",
+        "layout_flex_justify_mobile": "flex-start",
+        "layout_flex_align_items_mobile": "flex-start",
+        "layout_grid_columns_mobile": 1,
+        "padding_top": 50,
+        "padding_bottom": 30,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "anchor_id": "",
+        "additional_class": ""
+      }
+    },
+    "newsletter": {
+      "type": "custom-section",
+      "blocks": {
+        "nl_group": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": true,
+            "card_link": "",
+            "color_scheme": "scheme-2",
+            "show_card_border": false,
+            "layout_type": "flex",
+            "width_desktop": 100,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 10,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "center",
+            "same_as_desktop": false,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 10,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": true,
+            "padding_horizontal": 30,
+            "padding_vertical": 40,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {
+            "h3": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<h3>Les guides de l'Academy en avant-première</h3>",
+                "text_style": "h4",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "center",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "p": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<p>Reçois nos guides pour bien débuter et progresser, et nos nouveautés en avant-première.</p>",
+                "text_style": "paragraph",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "center",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "signup": {
+              "type": "newsletter-signup",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "newsletter_label": "Adresse email",
+                "tag": "newsletter",
+                "margin_top": 10,
+                "margin_bottom": 10,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "note": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<p>Un email utile de temps en temps, rien de plus.</p>",
+                "text_style": "paragraph",
+                "paragraph_font_size": "small",
+                "font_weight": 400,
+                "alignment": "center",
+                "alignment_mobile": "left",
+                "show_read_more": false,
+                "read_more_length": 50,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "h3",
+            "p",
+            "signup",
+            "note"
+          ]
+        }
+      },
+      "block_order": [
+        "nl_group"
+      ],
+      "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "color_scheme": "scheme-1",
+        "wrap_in_card": false,
+        "color_scheme_card": "",
+        "section_width": "normal",
+        "layout_type": "flex",
+        "layout_flex_direction_desktop": "column",
+        "layout_grid_columns_desktop": 3,
+        "layout_gap_desktop": 10,
+        "layout_wrap_desktop": "nowrap",
+        "layout_flex_justify_desktop": "flex-start",
+        "layout_flex_align_items_desktop": "flex-start",
+        "same_as_desktop": true,
+        "layout_flex_direction_mobile": "column",
+        "layout_gap_mobile": 10,
+        "layout_wrap_mobile": "nowrap",
+        "layout_flex_justify_mobile": "flex-start",
+        "layout_flex_align_items_mobile": "flex-start",
+        "layout_grid_columns_mobile": 1,
+        "padding_top": 30,
+        "padding_bottom": 60,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "anchor_id": "",
+        "additional_class": ""
+      }
+    }
+  },
+  "order": [
+    "hero_slider",
+    "ticker_pop",
+    "kits",
+    "video_materiel",
+    "etapes_3",
+    "avis_clients",
+    "collections_grid",
+    "incontournables",
+    "academy",
+    "comparatif",
+    "faq",
+    "reassurance",
+    "pourquoi",
+    "newsletter"
+  ]
+}

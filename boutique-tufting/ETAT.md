@@ -1,8 +1,8 @@
 # Tuftéo — état courant
 
-**Dernière mise à jour : 17/08/2026 (soir)** — audit GMC Terry relancé, site public + API.
-Compte rendu : [`journal/2026-08-17-audit-gmc.md`](journal/2026-08-17-audit-gmc.md).
-Ce qu'il reste à faire : [`TABLEAU.md`](TABLEAU.md).
+**Dernière mise à jour : 17/08/2026 (nuit)** — P0 écrits sur copie `189437772161`,
+CGV France déjà live. [`journal/2026-08-17-p0-gmc.md`](journal/2026-08-17-p0-gmc.md).
+Ce qu'il reste à faire : [`TABLEAU.md`](TABLEAU.md) — **Hakim publie la copie**.
 
 ---
 
@@ -51,12 +51,11 @@ après l'approbation**, et les 30 premiers jours qui suivent un changement sont 
 
 | Thème | Rôle | Contenu |
 |---|---|---|
-| `189429678465` — « Tuftéo — correctifs thème 16-08 » | **MAIN** depuis le 16/08 18:39 UTC | ✅ six faux avis absents (contrôlé 17/08 soir, accueil + fiche kit) |
+| `189429678465` — « Tuftéo — correctifs thème 16-08 » | **MAIN** | encore les textes P0 (229 €, entrepôts, JSON-LD cassé) |
+| `189437772161` — « Tuftéo — P0 GMC 17-08 » | UNPUBLISHED | P0/P1 écrits, **vérifiés en preview** — Hakim publie |
 | `188623847809` — « Tuftéo thème » | UNPUBLISHED | ancien MAIN |
-| `189410738561` — « purge faux avis 16-08 » | **absent** de la liste des thèmes | probablement renommé / remplacé par le MAIN actuel |
 
-**T-01 soldé.** Restent publics : FAQ « nos entrepôts » + date fantôme, CGV internationale,
-« depuis l'Europe » au footer, JSON-LD Organization invalide, kit 229 € vs 269 €.
+**T-05 live** (CGV France). T-06, T-08, T-19, T-20 n'existent que sur la copie jusqu'à publication.
 
 ---
 

@@ -42,11 +42,11 @@ entre deux boutiques du parc.
 
 ## Les pièges techniques déjà payés ici
 
-**`templates/index.json` ne peut pas être réécrit par l'API.** 124 999 octets : deux
-`themeFilesUpsert` ont retourné un succès **sans appliquer**. `product.json` à 109 ko passe. La
-limite dure est autour de 125 ko. Au-delà, passer par les fichiers Liquid (sections, blocs), qui sont
-petits — c'est pour ça que la purge de l'accueil est passée par `bv-avis-clients.liquid` et
-`reviews-badge.liquid` plutôt que par le template.
+**`templates/index.json` ne peut pas être réécrit par `themeFilesUpsert`.** 124 999 octets : deux
+upserts ont retourné un succès **sans appliquer**. `product.json` à 109 ko passe. La limite dure
+GraphQL est autour de 125 ko. **Le 17/08, `shopify theme push --nodelete` a écrit `index.json`
+à 124 922 octets sur une copie** — relire le contenu, ne pas se fier à `size`. Au-delà, passer
+par les fichiers Liquid (sections, blocs).
 
 **Le champ `size` renvoyé par l'API ne prouve rien.** Il annonçait 74 268 pour `index.json` dont le
 contenu réel fait 124 999 octets. Ne jamais vérifier une écriture avec : relire le contenu, puis
@@ -84,9 +84,9 @@ sont. **Le gun et le kit — les produits phares — ne le sont pas.**
 L'issue sans risque, déjà validée : écrire le fait vérifiable et tenu, **« Livraison offerte en
 France en 6 à 10 jours ouvrés, suivi par e-mail »**, sans mention d'origine.
 
-**Les chiffres de délai doivent être identiques partout.** Google compare ligne à ligne. Trois
-valeurs cohabitent aujourd'hui — 6-10 jours dans la policy d'expédition, 8-13 dans les CGV, une
-troisième dans les CGU. Voir [T-04](TABLEAU.md).
+**Les chiffres de délai doivent être identiques partout.** Google compare ligne à ligne.
+Alignés le 17/08 à **6 à 10 jours ouvrés** (expédition, CGV, FAQ copie). Périmètre : **France
+métropolitaine uniquement** (décision Hakim 17/08, CGV live). Voir [T-04](TABLEAU.md), [T-05](TABLEAU.md).
 
 **Une seule entité doit apparaître.** Shopify porte « Tuftéo » comme nom et « OH Ventures » comme
 adresse ; le footer dit « OH VENTURES ». C'est celle du registre qui fait foi, partout.

@@ -1,0 +1,1183 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+ "sections": {
+  "main": {
+   "type": "main-product",
+   "blocks": {
+    "rating_stars": {
+     "type": "rating-stars",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "product": "{{ closest.product }}",
+      "hide_rating_when_no_reviews": true,
+      "rating": 4.5,
+      "show_note": true,
+      "show_review_count": true,
+      "review_count": 123,
+      "link": "#reviews",
+      "margin_top": 10,
+      "margin_bottom": 0
+     },
+     "blocks": {}
+    },
+    "title": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<p>{{ product.title }}</p>",
+      "text_style": "h3",
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "margin_top": 0,
+      "margin_bottom": 0
+     },
+     "blocks": {}
+    },
+    "subtitle": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<p>Ta première pièce tuftée, guidée pas à pas.</p>",
+      "text_style": "paragraph",
+      "paragraph_font_size": "large",
+      "font_weight": 500,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "margin_top": 0,
+      "margin_bottom": 0
+     },
+     "blocks": {}
+    },
+    "price": {
+     "type": "product-price",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "product": "{{ closest.product }}",
+      "sales_badge": "percentage",
+      "show_sales_badge_text": false,
+      "text_style": "paragraph"
+     },
+     "blocks": {}
+    },
+    "benefits": {
+     "type": "group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "color_scheme": "",
+      "layout_type": "flex",
+      "width_desktop": 100,
+      "layout_direction_desktop": "column",
+      "layout_gap_desktop": 8,
+      "same_as_desktop": true,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_gap_mobile": 8,
+      "use_global_container_padding": false,
+      "padding_horizontal": 10,
+      "padding_vertical": 10,
+      "margin_top": 10,
+      "margin_bottom": 5
+     },
+     "blocks": {
+      "benefit_1": {
+       "type": "icon-with-text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "layout_direction_desktop": "row",
+        "layout_gap_desktop": 10,
+        "same_as_desktop": true,
+        "layout_direction_mobile": "row",
+        "layout_gap_mobile": 10,
+        "icon_type": "icon",
+        "icon": "inventory_2",
+        "icon_size": 24,
+        "icon_position": "start",
+        "text": "<p><strong>Kit vraiment complet</strong> — tondeuse incluse</p>",
+        "text_style": "paragraph",
+        "font_weight": 400
+       },
+       "blocks": {}
+      },
+      "benefit_2": {
+       "type": "icon-with-text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "layout_direction_desktop": "row",
+        "layout_gap_desktop": 10,
+        "same_as_desktop": true,
+        "layout_direction_mobile": "row",
+        "layout_gap_mobile": 10,
+        "icon_type": "icon",
+        "icon": "menu_book",
+        "icon_size": 24,
+        "icon_position": "start",
+        "text": "<p><strong>Notice française + vidéos</strong> pas à pas</p>",
+        "text_style": "paragraph",
+        "font_weight": 400
+       },
+       "blocks": {}
+      },
+      "benefit_3": {
+       "type": "icon-with-text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "layout_direction_desktop": "row",
+        "layout_gap_desktop": 10,
+        "same_as_desktop": true,
+        "layout_direction_mobile": "row",
+        "layout_gap_mobile": 10,
+        "icon_type": "icon",
+        "icon": "local_shipping",
+        "icon_size": 24,
+        "icon_position": "start",
+        "text": "<p><strong>Expédié depuis l'Europe</strong></p>",
+        "text_style": "paragraph",
+        "font_weight": 400
+       },
+       "blocks": {}
+      },
+      "benefit_4": {
+       "type": "icon-with-text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "layout_direction_desktop": "row",
+        "layout_gap_desktop": 10,
+        "same_as_desktop": true,
+        "layout_direction_mobile": "row",
+        "layout_gap_mobile": 10,
+        "icon_type": "icon",
+        "icon": "verified_user",
+        "icon_size": 24,
+        "icon_position": "start",
+        "text": "<p><strong>Garantie légale 2 ans</strong></p>",
+        "text_style": "paragraph",
+        "font_weight": 400
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": ["benefit_1", "benefit_2", "benefit_3", "benefit_4"]
+    },
+    "product_form": {
+     "type": "_product-form",
+     "settings": {},
+     "blocks": {
+      "variant_picker": {
+       "type": "_product-variant-picker",
+       "settings": {
+        "show_option_name": true,
+        "variant_picker_type": "buttons",
+        "show_swatches": true,
+        "swatches_size": "normal",
+        "swatches_rounded": true,
+        "margin_top": 0,
+        "margin_bottom": 15
+       },
+       "blocks": {}
+      },
+      "product-add-to-cart-button": {
+       "type": "_product-add-to-cart-button",
+       "static": true,
+       "settings": {
+        "enable_sticky_add_to_cart": true,
+        "button_style": "primary",
+        "show_price": true,
+        "icon": "none",
+        "icon_position": "end"
+       },
+       "blocks": {
+        "product-quantity-selector": {
+         "type": "_product-quantity-selector",
+         "static": true,
+         "settings": {
+          "show_on_display": "desktop_and_mobile"
+         },
+         "blocks": {}
+        },
+        "add-to-wishlist-button": {
+         "type": "_add-to-wishlist-button",
+         "static": true,
+         "settings": {},
+         "blocks": {}
+        }
+       },
+       "block_order": []
+      },
+      "accelerated-checkout": {
+       "type": "_accelerated-checkout",
+       "static": true,
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "full_width": true,
+        "button_style": "primary"
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": ["variant_picker"]
+    },
+    "payment_methods": {
+     "type": "payment-methods",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "alignment_desktop": "center",
+      "alignment_mobile": "flex-start",
+      "icon_size": 35,
+      "margin_top": 10,
+      "margin_bottom": 10
+     },
+     "blocks": {}
+    },
+    "description": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "{{ closest.product.description }}",
+      "text_style": "paragraph",
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": true,
+      "read_more_text": "Voir plus",
+      "read_less_text": "Voir moins",
+      "truncate": true,
+      "truncate_length": 4,
+      "margin_top": 10,
+      "margin_bottom": 0
+     },
+     "blocks": {}
+    },
+    "accordions": {
+     "type": "accordions",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "icon": "caret",
+      "dividers": true
+     },
+     "blocks": {
+      "accordion_entretien": {
+       "type": "_accordion",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "heading": "Entretien de ta machine",
+        "open_by_default": false,
+        "icon": "none"
+       },
+       "blocks": {
+        "text_entretien": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Le geste que presque personne ne connaît : une goutte d'huile toutes les 2 heures d'utilisation. C'est la différence entre une machine qui lâche et une machine qui t'accompagne des années. On te montre comment faire dans ta notice et en vidéo.</p>",
+          "text_style": "paragraph"
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": ["text_entretien"]
+      },
+      "accordion_apprendre": {
+       "type": "_accordion",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "heading": "Apprendre : par où commencer ?",
+        "open_by_default": false,
+        "icon": "none"
+       },
+       "blocks": {
+        "text_apprendre": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Tu n'es pas seule : la Tuftéo Academy t'accompagne du déballage au tapis fini — tendre ta toile, enfiler ton fil, tufter zone par zone, tondre et finir. Nos guides sont en français, gratuits, et pensés pour ta première pièce.</p>",
+          "text_style": "paragraph"
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": ["text_apprendre"]
+      },
+      "accordion_livraison": {
+       "type": "_accordion",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "heading": "Livraison",
+        "open_by_default": false,
+        "icon": "none"
+       },
+       "blocks": {
+        "text_livraison": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Ton kit est expédié depuis nos entrepôts en Europe. Dès l'expédition, tu reçois un email avec ton numéro de suivi.</p>",
+          "text_style": "paragraph"
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": ["text_livraison"]
+      },
+      "accordion_retours": {
+       "type": "_accordion",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "heading": "Retours",
+        "open_by_default": false,
+        "icon": "none"
+       },
+       "blocks": {
+        "text_retours": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Notre objectif est que chaque cliente soit totalement satisfaite de son achat. Si ce n'est pas le cas, écris-nous et nous trouverons une solution ensemble, dans le cadre de ton droit de rétractation de 14 jours.</p>",
+          "text_style": "paragraph"
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": ["text_retours"]
+      }
+     },
+     "block_order": ["accordion_entretien", "accordion_apprendre", "accordion_livraison", "accordion_retours"]
+    },
+    "reassurance": {
+     "type": "group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": true,
+      "color_scheme": "scheme-2",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 100,
+      "layout_direction_desktop": "row",
+      "layout_gap_desktop": 10,
+      "layout_justify_desktop": "space-around",
+      "layout_align_items_desktop": "center",
+      "same_as_desktop": true,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_gap_mobile": 10,
+      "use_global_container_padding": true,
+      "padding_horizontal": 30,
+      "padding_vertical": 30
+     },
+     "blocks": {
+      "reassurance_1": {
+       "type": "icon-with-text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "layout_direction_desktop": "column",
+        "layout_gap_desktop": 5,
+        "same_as_desktop": true,
+        "layout_direction_mobile": "column",
+        "layout_gap_mobile": 10,
+        "icon_type": "icon",
+        "icon": "encrypted",
+        "icon_size": 32,
+        "icon_position": "start",
+        "text": "<p>Paiement sécurisé</p>",
+        "text_style": "paragraph",
+        "font_weight": 500
+       },
+       "blocks": {}
+      },
+      "reassurance_2": {
+       "type": "icon-with-text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "layout_direction_desktop": "column",
+        "layout_gap_desktop": 5,
+        "same_as_desktop": true,
+        "layout_direction_mobile": "column",
+        "layout_gap_mobile": 10,
+        "icon_type": "icon",
+        "icon": "verified_user",
+        "icon_size": 32,
+        "icon_position": "start",
+        "text": "<p>Garantie légale 2 ans</p>",
+        "text_style": "paragraph",
+        "font_weight": 500
+       },
+       "blocks": {}
+      },
+      "reassurance_3": {
+       "type": "icon-with-text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "layout_direction_desktop": "column",
+        "layout_gap_desktop": 5,
+        "same_as_desktop": true,
+        "layout_direction_mobile": "column",
+        "layout_gap_mobile": 10,
+        "icon_type": "icon",
+        "icon": "support_agent",
+        "icon_size": 32,
+        "icon_position": "start",
+        "text": "<p>Support en français</p>",
+        "text_style": "paragraph",
+        "font_weight": 500
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": ["reassurance_1", "reassurance_2", "reassurance_3"]
+    },
+    "product_media_gallery": {
+     "type": "_product-media-gallery",
+     "static": true,
+     "settings": {
+      "hide_variants": false,
+      "media_display": "carrousel",
+      "media_ratio": "1 / 1",
+      "media_rounded": true,
+      "main_image_full_width": true,
+      "show_arrows": false,
+      "show_pagination": false,
+      "show_thumbnails": true,
+      "show_thumbnails_on_display": "desktop_and_mobile",
+      "video_loop": true,
+      "enable_video_controls": false,
+      "show_badges": true
+     },
+     "blocks": {}
+    }
+   },
+   "block_order": ["rating_stars", "title", "subtitle", "price", "benefits", "product_form", "payment_methods", "description", "accordions", "reassurance"],
+   "settings": {
+    "color_scheme": "scheme-1",
+    "show_product_info_card": false,
+    "image_position": "row",
+    "product_info_width": 50,
+    "gap": 60,
+    "carrousel_sticky": false,
+    "product_info_sticky": false,
+    "carrousel_full_width": true,
+    "padding_top": 30,
+    "padding_bottom": 50
+   }
+  },
+  "etapes_5": {
+   "type": "custom-section",
+   "blocks": {
+    "etapes_group": {
+     "type": "group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "layout_type": "flex",
+      "width_desktop": 100,
+      "layout_direction_desktop": "column",
+      "layout_gap_desktop": 18,
+      "same_as_desktop": true,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_gap_mobile": 15,
+      "use_global_container_padding": true,
+      "padding_horizontal": 30,
+      "padding_vertical": 10
+     },
+     "blocks": {
+      "etapes_titre": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<h2>Ta première pièce en 5 étapes</h2>",
+        "text_style": "h3",
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "margin_bottom": 10
+       },
+       "blocks": {}
+      },
+      "etape_1": {
+       "type": "icon-with-text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "layout_direction_desktop": "row",
+        "layout_gap_desktop": 15,
+        "same_as_desktop": true,
+        "layout_direction_mobile": "row",
+        "layout_gap_mobile": 12,
+        "icon_type": "icon",
+        "icon": "counter_1",
+        "icon_size": 32,
+        "icon_position": "start",
+        "text": "<p><strong>Tends ta toile</strong> — une toile bien tendue, c'est 80 % d'une pièce réussie. Notre guide te montre la méthode.</p>",
+        "text_style": "paragraph"
+       },
+       "blocks": {}
+      },
+      "etape_2": {
+       "type": "icon-with-text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "layout_direction_desktop": "row",
+        "layout_gap_desktop": 15,
+        "same_as_desktop": true,
+        "layout_direction_mobile": "row",
+        "layout_gap_mobile": 12,
+        "icon_type": "icon",
+        "icon": "counter_2",
+        "icon_size": 32,
+        "icon_position": "start",
+        "text": "<p><strong>Trace ton motif</strong> — en miroir, on t'explique pourquoi et comment.</p>",
+        "text_style": "paragraph"
+       },
+       "blocks": {}
+      },
+      "etape_3": {
+       "type": "icon-with-text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "layout_direction_desktop": "row",
+        "layout_gap_desktop": 15,
+        "same_as_desktop": true,
+        "layout_direction_mobile": "row",
+        "layout_gap_mobile": 12,
+        "icon_type": "icon",
+        "icon": "counter_3",
+        "icon_size": 32,
+        "icon_position": "start",
+        "text": "<p><strong>Enfile ton fil</strong> — le geste qui bloque tout le monde au début, réglé en une vidéo.</p>",
+        "text_style": "paragraph"
+       },
+       "blocks": {}
+      },
+      "etape_4": {
+       "type": "icon-with-text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "layout_direction_desktop": "row",
+        "layout_gap_desktop": 15,
+        "same_as_desktop": true,
+        "layout_direction_mobile": "row",
+        "layout_gap_mobile": 12,
+        "icon_type": "icon",
+        "icon": "counter_4",
+        "icon_size": 32,
+        "icon_position": "start",
+        "text": "<p><strong>Tufte zone par zone</strong> — direction et pression : les 2 secrets d'une surface régulière.</p>",
+        "text_style": "paragraph"
+       },
+       "blocks": {}
+      },
+      "etape_5": {
+       "type": "icon-with-text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "layout_direction_desktop": "row",
+        "layout_gap_desktop": 15,
+        "same_as_desktop": true,
+        "layout_direction_mobile": "row",
+        "layout_gap_mobile": 12,
+        "icon_type": "icon",
+        "icon": "counter_5",
+        "icon_size": 32,
+        "icon_position": "start",
+        "text": "<p><strong>Tonds et finis</strong> — la tondeuse incluse égalise les poils et révèle ton motif.</p>",
+        "text_style": "paragraph"
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": ["etapes_titre", "etape_1", "etape_2", "etape_3", "etape_4", "etape_5"]
+    },
+    "etapes_image": {
+     "type": "image",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "show_placeholder": true,
+      "link": "",
+      "image_ratio": "adapt",
+      "image_width_desktop": 100,
+      "image_width_mobile": 100
+     },
+     "blocks": {}
+    }
+   },
+   "block_order": ["etapes_group", "etapes_image"],
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-1",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "row",
+    "layout_gap_desktop": 30,
+    "layout_flex_align_items_desktop": "center",
+    "same_as_desktop": false,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "padding_top": 50,
+    "padding_bottom": 50
+   }
+  },
+  "boite": {
+   "type": "custom-section",
+   "blocks": {
+    "boite_image": {
+     "type": "image",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "show_placeholder": true,
+      "link": "",
+      "image_ratio": "adapt",
+      "image_width_desktop": 100,
+      "image_width_mobile": 100
+     },
+     "blocks": {}
+    },
+    "boite_group": {
+     "type": "group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "layout_type": "flex",
+      "width_desktop": 100,
+      "layout_direction_desktop": "column",
+      "layout_gap_desktop": 15,
+      "same_as_desktop": true,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_gap_mobile": 10,
+      "use_global_container_padding": true,
+      "padding_horizontal": 30,
+      "padding_vertical": 10
+     },
+     "blocks": {
+      "boite_titre": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<h2>Ce qu'il y a dans la boîte</h2>",
+        "text_style": "h3",
+        "alignment": "left",
+        "alignment_mobile": "left"
+       },
+       "blocks": {}
+      },
+      "boite_liste": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<ul><li>Ton gun de tufting 2-en-1 (Cut &amp; Loop)</li><li>Ta tondeuse de finition</li><li>Ta toile primaire pour démarrer</li><li>Tes fils acryliques</li><li>Les accessoires de démarrage</li><li>La notice française Tuftéo</li></ul><p>Photo réelle du contenu à venir — chaque kit est vérifié avant sa mise en ligne.</p>",
+        "text_style": "paragraph"
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": ["boite_titre", "boite_liste"]
+    }
+   },
+   "block_order": ["boite_image", "boite_group"],
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-1",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "row",
+    "layout_gap_desktop": 30,
+    "layout_flex_align_items_desktop": "center",
+    "same_as_desktop": false,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "padding_top": 50,
+    "padding_bottom": 50
+   }
+  },
+  "comparatif": {
+   "type": "custom-section",
+   "blocks": {
+    "comparatif_gauche": {
+     "type": "group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": true,
+      "color_scheme": "scheme-1",
+      "show_card_border": true,
+      "layout_type": "flex",
+      "width_desktop": 50,
+      "layout_direction_desktop": "column",
+      "layout_gap_desktop": 10,
+      "same_as_desktop": false,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_gap_mobile": 10,
+      "use_global_container_padding": false,
+      "padding_horizontal": 25,
+      "padding_vertical": 25
+     },
+     "blocks": {
+      "comparatif_titre_gauche": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<h3>Un gun nu de marketplace</h3>",
+        "text_style": "h5",
+        "alignment": "left",
+        "alignment_mobile": "left"
+       },
+       "blocks": {}
+      },
+      "comparatif_texte_gauche": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<ul><li>Pas de notice en français</li><li>Pas de tondeuse pour les finitions</li><li>Toile et fils à trouver toi-même — au risque de te tromper</li><li>Personne à qui poser tes questions</li></ul>",
+        "text_style": "paragraph"
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": ["comparatif_titre_gauche", "comparatif_texte_gauche"]
+    },
+    "comparatif_droite": {
+     "type": "group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": true,
+      "color_scheme": "scheme-2",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 50,
+      "layout_direction_desktop": "column",
+      "layout_gap_desktop": 10,
+      "same_as_desktop": false,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_gap_mobile": 10,
+      "use_global_container_padding": false,
+      "padding_horizontal": 25,
+      "padding_vertical": 25
+     },
+     "blocks": {
+      "comparatif_titre_droite": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<h3>Ton kit Tuftéo accompagné</h3>",
+        "text_style": "h5",
+        "alignment": "left",
+        "alignment_mobile": "left"
+       },
+       "blocks": {}
+      },
+      "comparatif_texte_droite": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<ul><li>Kit complet : gun, tondeuse, toile et fils assortis</li><li>Notice française + vidéos pas à pas</li><li>Tuftéo Academy : tu sais toujours quoi faire ensuite</li><li>Garantie légale 2 ans et interlocuteur en français</li></ul>",
+        "text_style": "paragraph"
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": ["comparatif_titre_droite", "comparatif_texte_droite"]
+    }
+   },
+   "block_order": ["comparatif_gauche", "comparatif_droite"],
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-1",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "row",
+    "layout_gap_desktop": 30,
+    "layout_flex_align_items_desktop": "stretch",
+    "same_as_desktop": false,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 15,
+    "padding_top": 50,
+    "padding_bottom": 50
+   }
+  },
+  "faq": {
+   "type": "custom-section",
+   "blocks": {
+    "faq_aide": {
+     "type": "group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": true,
+      "color_scheme": "scheme-1",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 55,
+      "layout_direction_desktop": "column",
+      "layout_gap_desktop": 10,
+      "layout_justify_desktop": "center",
+      "layout_align_items_desktop": "center",
+      "same_as_desktop": false,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_gap_mobile": 10,
+      "use_global_container_padding": false,
+      "padding_horizontal": 20,
+      "padding_vertical": 30
+     },
+     "blocks": {
+      "faq_aide_titre": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<h4>Une question avant de te lancer ?</h4>",
+        "text_style": "h5",
+        "alignment": "center",
+        "alignment_mobile": "left"
+       },
+       "blocks": {}
+      },
+      "faq_aide_texte": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<p>On te répond en français, avec de vraies réponses de tufteurs.</p>",
+        "text_style": "paragraph",
+        "alignment": "center",
+        "alignment_mobile": "left",
+        "margin_bottom": 20
+       },
+       "blocks": {}
+      },
+      "faq_aide_bouton": {
+       "type": "button",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "link": "/pages/contact",
+        "open_in_new_tab": false,
+        "label": "Écris-nous",
+        "button_style": "primary",
+        "button_shape": "full-width",
+        "icon": "none"
+       },
+       "blocks": {}
+      },
+      "faq_aide_bouton_academy": {
+       "type": "button",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "link": "/pages/apprendre",
+        "open_in_new_tab": false,
+        "label": "Découvre la Tuftéo Academy",
+        "button_style": "secondary",
+        "button_shape": "full-width",
+        "icon": "none"
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": ["faq_aide_titre", "faq_aide_texte", "faq_aide_bouton", "faq_aide_bouton_academy"]
+    },
+    "faq_questions": {
+     "type": "group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "layout_type": "flex",
+      "width_desktop": 100,
+      "layout_direction_desktop": "column",
+      "layout_gap_desktop": 10,
+      "same_as_desktop": true,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_gap_mobile": 10,
+      "use_global_container_padding": true,
+      "padding_horizontal": 30,
+      "padding_vertical": 30
+     },
+     "blocks": {
+      "faq_titre": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<h3>Questions fréquentes</h3>",
+        "text_style": "h3",
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "margin_bottom": 10
+       },
+       "blocks": {}
+      },
+      "faq_accordions": {
+       "type": "accordions",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "icon": "caret",
+        "dividers": true
+       },
+       "blocks": {
+        "faq_q1": {
+         "type": "_accordion",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "heading": "C'est difficile ?",
+          "open_by_default": false,
+          "icon": "none"
+         },
+         "blocks": {
+          "faq_r1": {
+           "type": "text",
+           "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "text": "<p>Non, mais ça s'apprend. Les trois gestes qui font réussir ou rater une première pièce — tendre la toile, enfiler le fil, tenir la machine — sont expliqués pas à pas dans nos vidéos. Tu n'es jamais laissée seule devant ta toile.</p>",
+            "text_style": "paragraph"
+           },
+           "blocks": {}
+          }
+         },
+         "block_order": ["faq_r1"]
+        },
+        "faq_q2": {
+         "type": "_accordion",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "heading": "Il me faut quoi en plus du kit ?",
+          "open_by_default": false,
+          "icon": "none"
+         },
+         "blocks": {
+          "faq_r2": {
+           "type": "text",
+           "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "text": "<p>Un cadre pour tendre ta toile — notre guide t'explique comment le fabriquer simplement ou où l'acheter près de chez toi — et de la colle pour la finition du dos.</p>",
+            "text_style": "paragraph"
+           },
+           "blocks": {}
+          }
+         },
+         "block_order": ["faq_r2"]
+        },
+        "faq_q3": {
+         "type": "_accordion",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "heading": "Cut et Loop, c'est quoi la différence ?",
+          "open_by_default": false,
+          "icon": "none"
+         },
+         "blocks": {
+          "faq_r3": {
+           "type": "text",
+           "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "text": "<p>Cut = poils coupés, rendu velours. Loop = poils bouclés, rendu texturé. Ton gun 2-en-1 fait les deux, et notre tutoriel dédié te montre comment passer de l'un à l'autre.</p>",
+            "text_style": "paragraph"
+           },
+           "blocks": {}
+          }
+         },
+         "block_order": ["faq_r3"]
+        },
+        "faq_q4": {
+         "type": "_accordion",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "heading": "La machine s'entretient ?",
+          "open_by_default": false,
+          "icon": "none"
+         },
+         "blocks": {
+          "faq_r4": {
+           "type": "text",
+           "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "text": "<p>Oui, et c'est simple : une goutte d'huile toutes les 2 heures d'utilisation. C'est dans ta notice et en vidéo — et ça change la durée de vie de ta machine.</p>",
+            "text_style": "paragraph"
+           },
+           "blocks": {}
+          }
+         },
+         "block_order": ["faq_r4"]
+        },
+        "faq_q5": {
+         "type": "_accordion",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "heading": "Et si ça ne me plaît pas ?",
+          "open_by_default": false,
+          "icon": "none"
+         },
+         "blocks": {
+          "faq_r5": {
+           "type": "text",
+           "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "text": "<p>Tu disposes de ton droit de rétractation de 14 jours. Écris-nous et nous trouverons une solution ensemble.</p>",
+            "text_style": "paragraph"
+           },
+           "blocks": {}
+          }
+         },
+         "block_order": ["faq_r5"]
+        }
+       },
+       "block_order": ["faq_q1", "faq_q2", "faq_q3", "faq_q4", "faq_q5"]
+      }
+     },
+     "block_order": ["faq_titre", "faq_accordions"]
+    }
+   },
+   "block_order": ["faq_aide", "faq_questions"],
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-2",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "row",
+    "layout_gap_desktop": 50,
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": false,
+    "layout_flex_direction_mobile": "column-reverse",
+    "layout_gap_mobile": 20,
+    "padding_top": 50,
+    "padding_bottom": 50
+   }
+  },
+  "avis": {
+   "type": "reviews",
+   "blocks": {
+    "title": {
+     "type": "text",
+     "static": true,
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<h3>Vos avis</h3>",
+      "text_style": "h3",
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "margin_bottom": 30
+     },
+     "blocks": {}
+    },
+    "avis_placeholder_1": {
+     "type": "_review-slide",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "display_type": "1",
+      "wrap_in_card": true,
+      "color_scheme": "scheme-1",
+      "show_card_border": true,
+      "rating": 5,
+      "image_ratio": "landscape",
+      "source": "uploaded",
+      "title": "[PLACEHOLDER — à remplacer par un avis vérifié]",
+      "content": "<p>Section posée dans le squelette (amendement PORTE 2) : à alimenter uniquement avec des avis clients vérifiés. Supprimer ce bloc tant qu'aucun avis réel n'existe.</p>",
+      "author": "—",
+      "date": ""
+     },
+     "blocks": {}
+    }
+   },
+   "block_order": ["avis_placeholder_1"],
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "anchor": "reviews",
+    "color_scheme": "scheme-1",
+    "layout_type": "grid",
+    "grid_columns": 3,
+    "grid_columns_mobile": "1",
+    "padding_top": 50,
+    "padding_bottom": 50
+   }
+  },
+  "cross_sell": {
+   "type": "product-recommendations",
+   "blocks": {
+    "title": {
+     "type": "text",
+     "static": true,
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<p>Va bien avec</p>",
+      "text_style": "h3",
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "margin_bottom": 30
+     },
+     "blocks": {}
+    },
+    "product-card": {
+     "type": "_product-card",
+     "static": true,
+     "settings": {
+      "wrap_in_card": false,
+      "layout_gap": 10
+     },
+     "blocks": {
+      "cross_gallery": {
+       "type": "_product-card-media-gallery",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "show_slider": true,
+        "media_rounded": true,
+        "show_badges": true,
+        "media_ratio": "1 / 1"
+       },
+       "blocks": {}
+      },
+      "cross_group": {
+       "type": "_product-card-group",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "wrap_in_card": false,
+        "layout_direction_desktop": "column",
+        "layout_gap_desktop": 5,
+        "same_as_desktop": true,
+        "layout_direction_mobile": "column",
+        "layout_gap_mobile": 10,
+        "margin_top": 10,
+        "margin_bottom": 10
+       },
+       "blocks": {
+        "cross_titre": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<h2>{{ closest.product.title }}</h2>",
+          "text_style": "paragraph",
+          "font_weight": 500,
+          "alignment": "left",
+          "alignment_mobile": "left"
+         },
+         "blocks": {}
+        },
+        "cross_prix": {
+         "type": "product-price",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "product": "{{ closest.product }}",
+          "sales_badge": "amount",
+          "show_sales_badge_text": false,
+          "text_style": "paragraph"
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": ["cross_titre", "cross_prix"]
+      }
+     },
+     "block_order": ["cross_gallery", "cross_group"]
+    }
+   },
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "max_products": 4,
+    "grid_columns": 4,
+    "grid_columns_mobile": "2",
+    "padding_top": 50,
+    "padding_bottom": 50
+   }
+  }
+ },
+ "order": ["main", "etapes_5", "boite", "comparatif", "faq", "avis", "cross_sell"]
+}
