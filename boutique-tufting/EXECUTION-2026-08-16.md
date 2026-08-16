@@ -611,3 +611,236 @@ exploitable (voir étape 6) — contourné par une lecture DOM directe, qui cons
   effectivement soumises — hors périmètre de ce chantier (pas de connexion GMC dans cette session).
 - **Le rendu mobile** des sélecteurs de variante (brosse, enfile-laine, miroir) — testé uniquement en
   desktop (viewport 1280×720) via le navigateur intégré.
+
+---
+
+## Fiches machines — nouveaux fournisseurs (16/08/2026, session distincte)
+
+Suite du choix de Hakim (voir §2b/§2c plus haut) : `tondeuse-professionnelle-tapis` bascule sur
+`1005007430527466`, `ciseaux-electriques-sculpture` sur `1005011898820067`. Sauvegarde de l'état
+d'origine des deux fiches dans
+`boutique-tufting/shopify/backups/2026-08-16-machines/*-avant.json` avant toute écriture.
+
+### Vérification à la source (confiance B — SERP JSON + API, mur anti-bot toujours actif sur les PDP)
+
+**Découverte utile pour la recette maison** : la commande `exact` du gateway, documentée comme
+bloquée en §7 (« qualification_refused » sur tous les formats essayés), fonctionne en fait quand
+`--property` reçoit la **valeur lisible** de la propriété (`"EU"`, `"Allemagne"`, `"2 Battery Set"`)
+plutôt que la chaîne technique `pid:vid` du champ `sku_attr`. À reporter dans la recette de l'agent.
+
+**Tondeuse — `1005007430527466`** (boutique « Crafters Daily Tools Store », CN, note item-as-described
+4,5, communication 4,6) :
+- Titre fournisseur : « Ciseaux électriques pour touffetage de tapis à domicile, outils de coupe de
+  bricolage, 200 V-100V, tondeuses pour chiens à faible bruit, 240 W ». Un seul SKU (pas de choix de
+  couleur) : prise EU, expédié d'Allemagne.
+- **Prix réel confirmé (`offer_sale_price`) : 43,59 €.** Stock : 12. Ventes confirmées (`variants`,
+  déjà relevé en §2b) : 23 — pas de note ni d'avis (`rating`/`evaluation_count` à 0, produit récent).
+- **Fret France confirmé via `exact`** (nouveau, pas dans le relevé du 16/08 matin) : livraison
+  gratuite, transporteur DHL DE Pan-European (ou Deutsche Post/DPD/GLS/YM DE selon dispo), délai
+  annoncé 4 à 10 jours (fenêtre « 20-26 août » au moment du contrôle, soit 16/08), suivi activé,
+  expédition confirmée depuis l'Allemagne (`ship_from_country: DE`).
+- **Contenu de la boîte** (image SERP principale récupérée et regardée, `tondeuse-serp-main-conv.png`
+  dans le scratchpad de session) : la tondeuse elle-même (manche bicolore rouge/or/bleu), un **boîtier
+  d'alimentation externe avec molette de réglage de vitesse**, 2 lames de rechange, 2 sabots-guides,
+  une brosse de nettoyage, et un support/pied de rangement. Tension d'alimentation exacte non
+  confirmée avec certitude — le titre fournisseur écrit « 200 V-100V » (probable coquille pour une
+  plage 100-240V double tension, standard sur ce type de bloc secteur, mais je ne l'affirme pas comme
+  vérifié).
+- **Marque visible sur le produit** : logo « EASYCLIP » (ou proche, texte partiellement lisible)
+  gravé dans le grip en caoutchouc du manche, visible sur les photos fournisseur. **Signalé à Hakim** —
+  aucune mention de cette marque dans le texte écrit sur la fiche Shopify, et le logo devra être
+  effacé dans tout visuel composé (règle maison).
+- Aucune mention CE/GS/RoHS trouvée dans le titre ni dans les propriétés de SKU (déjà noté en §2d,
+  confirmé à nouveau ici).
+
+**Ciseaux — `1005011898820067`** (boutique « ONEVAN EU Store », CN, note item-as-described 4,6,
+communication 4,7) :
+- Titre fournisseur : « Ciseaux électriques sans fil ONEVAN 800W multifonctions pour tapis, cuir et
+  tissu, compatibles avec batterie Makita 18V ». **Deux configurations** (relevé `variants` complet,
+  au-delà du résumé du §2c) :
+  - **« 2 Battery Set » (JAUNE/NOIR)** : 51,69 € réel, **stock 5**, expédié d'Allemagne.
+  - **« Without Battery » (Orange/noir)** : 41,39 € réel, **stock 0** — indisponible à la vente en
+    l'état.
+  - **Seule la configuration avec 2 batteries est achetable aujourd'hui** (l'autre est en rupture).
+- **Fret France confirmé via `exact`** sur la configuration « 2 Battery Set » : livraison gratuite,
+  DHL DE Pan-European, délai 4 à 10 jours (même fenêtre que la tondeuse), suivi activé, expédition
+  confirmée depuis l'Allemagne.
+- **Contenu de la boîte confirmé par les deux photos de variante** (récupérées et regardées,
+  `onevan-2battery-swatch.jpg` et `onevan-nobattery-swatch.jpg`) : la configuration « 2 Battery Set »
+  contient 1 ciseaux électriques + **2 batteries rechargeables de marque ONEVAN** (« 88VF MAX
+  LITHIUM », pas des batteries Makita) + 1 chargeur secteur EU + 1 boîte. La configuration « Without
+  Battery » ne contient que l'outil + la boîte, sans aucune batterie ni chargeur — et elle est de toute
+  façon à stock 0.
+- Caractéristiques déclarées par le fournisseur (image marketing, non vérifiées indépendamment) :
+  800 W, capacité de coupe annoncée 1-6 mm, vitesse annoncée ~900 tr/min. **Je n'ai pas retenu la
+  mention « 88VF MAX » imprimée sur les batteries** dans la fiche Shopify : ce type de « voltage »
+  gonflé (88 V annoncé sur un outil à main alimenté par une batterie 18V-type) est un procédé
+  marketing courant chez les fabricants chinois d'outillage sans fil bas de gamme (multiplicateur
+  d'affichage, pas une tension réelle mesurable) — je le signale plutôt que de le recopier comme un
+  fait.
+- **Marque visible sur le produit** : logo « ONEVAN » imprimé sur l'outil, sur les batteries et sur la
+  boîte carton, plus un marquage « CE » visible sur le corps de l'outil dans la photo fournisseur
+  (déclaration du vendeur, pas une preuve — je ne la valide pas). **Signalé à Hakim.**
+- **Mention Makita** : le titre fournisseur annonce l'outil « compatible avec batterie Makita 18V ».
+  Je n'ai pas pu ouvrir la page produit (mur anti-bot) pour vérifier cette compatibilité au-delà de la
+  déclaration du vendeur — donc je l'ai reformulée au conditionnel/attribué dans la fiche Shopify
+  (« le fournisseur annonce... non vérifié indépendamment »), et je n'ai utilisé ni le mot « Makita »
+  en tant que marque du produit, ni aucun logo Makita (aucun logo Makita visible sur les photos
+  consultées, seulement le texte).
+
+### Écriture Shopify — ce qui a été changé et comment c'est vérifié
+
+**Prix et statut non touchés** (89,90 € / 299,00 € ACTIVE inchangés sur les deux fiches, conforme à la
+consigne).
+
+**`tondeuse-professionnelle-tapis`** (`gid://shopify/Product/15466411426177`) :
+- Titre changé de « Tondeuse professionnelle pour tapis » → **« Tondeuse électrique pour tapis »**
+  (retrait de « professionnelle », rien ne l'atteste sur ce fournisseur). Le handle/URL SEO n'a pas
+  changé.
+- Description réécrite : bénéfice d'abord, puis boîtier d'alimentation à molette + accessoires
+  (2 lames, 2 guides, brosse), 240 W, prise EU, expédié d'Allemagne. Aucune mention de tension précise
+  (non confirmée), aucune mention CE, aucune mention de marque tierce.
+- Mutation `graphql_mutation` (`productUpdate`) exécutée à HH:MM (voir horodatage ci-dessous) ;
+  réponse sans erreur utilisateur.
+
+**`ciseaux-electriques-sculpture`** (`gid://shopify/Product/15466411458945`) :
+- Titre changé de « Ciseaux électriques de sculpture » → **« Ciseaux électriques sans fil de
+  sculpture »** (le passage au sans-fil est un vrai changement fonctionnel vérifié, ça mérite d'être
+  dans le titre).
+- Description réécrite : bénéfice d'abord, **batterie explicitement annoncée dès les premières
+  lignes** (« sans fil, livré avec 2 batteries rechargeables et son chargeur secteur »), 800 W,
+  compatibilité Makita 18V reformulée en déclaration fournisseur non vérifiée, expédié d'Allemagne.
+  Correction de la ligne croisée « Va bien avec » (« la tondeuse professionnelle » → « la tondeuse
+  électrique », cohérence avec le nouveau titre de l'autre fiche).
+
+**Vérification indépendante (rechargement réel, pas la simple réponse de mutation)** :
+- Re-lecture via un second appel `get-product` (séparé de la mutation, ~5 s plus tard) : titre et
+  description identiques à ce qui a été écrit, prix et statut inchangés sur les deux fiches.
+- **Rechargement de la page live** `https://tufteo.com/products/tondeuse-professionnelle-tapis` et
+  `https://tufteo.com/products/ciseaux-electriques-sculpture` (thème MAIN publié — la fiche produit
+  est servie immédiatement, ce n'est pas un fichier de thème et il n'y a donc pas de restriction
+  d'écriture ici) : `get_page_text` confirme le nouveau titre dans le `<title>` de la page et dans le
+  H1, le nouveau texte affiché mot pour mot, le prix inchangé (89,90 € / 299,00 €), le statut ACTIF
+  (page accessible, ajout au panier proposé). Capture d'écran prise sur la fiche ciseaux comme
+  contrôle visuel.
+
+**Un problème visible et volontairement non corrigé ici** : sur la fiche ciseaux, le texte affiché dit
+maintenant « Sans fil, batteries incluses » juste au-dessus d'une photo montrant un outil **avec un
+cordon et une prise DC** — contradiction visible immédiatement à l'écran (capturée). C'est le texte
+qui est vrai et la photo qui ne l'est plus ; je n'ai touché à aucune image (consigne « ne bricole
+rien »), voir le brief visuels ci-dessous qui porte cette urgence en premier.
+
+### Images — mismatch confirmé à l'écran, brief Codex écrit
+
+Comparaison faite en ouvrant directement les fichiers CDN actuels (`sips`/lecture d'image, pas une
+simple comparaison de nom de fichier) :
+- **Ciseaux** : l'image actuelle (`multifunction-electric-tufting-electric-scissor-...-01.png`, déjà
+  un visuel composé fond crème + badge « Garantie 2 ans », donc déjà passé par le pipeline Codex à un
+  moment) montre un outil **filaire**, corps cylindrique noir/bleu, alimenté par un bloc secteur
+  externe avec prise DC. Le nouveau fournisseur ONEVAN est un outil **sans fil sur batterie**, forme
+  pistolet. **Mismatch total, aucun doute possible.**
+- **Tondeuse** : l'image actuelle (`200w-electric-scissors-tufted-carpet-trimmer-...-01.png`) provient
+  d'un fichier nommé d'après un **autre candidat** sourcé le 16/08 matin (celui à 200 W, non retenu
+  par Hakim), pas celui à 240 W retenu (`1005007430527466`). Visuellement, le design du manche
+  (bicolore rouge/or/bleu, grip texturé) est proche de celui trouvé sur la SERP du candidat retenu —
+  ce sont probablement des variantes du même moule vendues sous plusieurs fiches AliExpress — mais
+  **je n'ai aucune confirmation qu'il s'agit exactement du même article** (page produit bloquée), et
+  la photo actuelle ne montre ni le boîtier d'alimentation à molette ni les accessoires (2 lames,
+  2 guides, brosse, support) qui font partie du kit réellement vendu par le nouveau fournisseur.
+  **Traité comme mismatch par prudence.**
+
+Les deux fournisseurs précédents ne sont plus exploitables (comme indiqué dans la consigne de
+départ) — impossible de confirmer davantage sans rouvrir une page produit AliExpress, bloquée par
+le mur anti-bot du navigateur intégré.
+
+**Aucune image n'a été retirée ni ajoutée** : les 12 photos actuelles restent en ligne, provisoires et
+trompeuses, en attendant le brief. Brief écrit dans
+`boutique-tufting/BRIEF-VISUELS-CODEX-2026-08-16-machines.md` : logos tiers à effacer (« EASYCLIP »
+sur la tondeuse, « ONEVAN » + marquage « CE » sur les ciseaux et les batteries), contenu exact de
+chaque kit, 1600×1600 min, fond crème `#F7F1E8`, aucun texte/logo/collage. Images de base sauvegardées
+dans `boutique-tufting/images/240w-carpet-trimmer-tufting-easyclip-eu-plug-shipped-from-germany-1005007430527466/`
+et `boutique-tufting/images/onevan-800w-cordless-electric-scissors-tapis-cuir-tissu-makita-18v-compatible-1005011898820067/`.
+
+### Mapping DSers — pas d'accès API, marche à suivre pour Hakim
+
+**Vérifié (API Shopify)** : aucune trace de mapping DSers dans les métadonnées produit. Les seuls
+metafields présents sur les deux fiches sont ceux de l'app d'avis (`vstar`, `reviews`) — namespace
+`dsers` absent. Le SKU de variante contient déjà l'ancien code fournisseur au format AliExpress
+(ex. `14:201441319;200007763:201336342`), mais **ce champ SKU est un texte libre côté Shopify : le
+modifier ne modifie pas forcément le lien réel que DSers utilise pour router une commande**, qui vit
+dans la base de DSers elle-même, hors de portée de l'API Shopify que j'utilise. Je n'ai donc **rien
+changé** sur les SKU des variantes — les modifier à l'aveugle aurait pu donner l'illusion d'un
+remapping réussi sans toucher au routage réel, exactement le genre d'erreur silencieuse à éviter ici.
+
+**Je n'ai pas de session DSers** (pas d'identifiants saisis, conforme à la consigne). Voici la marche
+à suivre reconstituée à partir du fonctionnement standard de DSers — **non vérifiée pas à pas par moi
+dans l'interface réelle**, les libellés exacts des boutons peuvent avoir légèrement changé :
+
+1. Ouvrir DSers (app installée sur Tuftéo, ou directement sur dsers.com après connexion à ton compte).
+2. Aller dans **« Mes produits »** (My Products) → onglet **« Mappé »/« Mapped »** ou barre de
+   recherche : chercher `Tondeuse` puis `Ciseaux` (ou par le handle Shopify).
+3. Ouvrir la fiche **Tondeuse électrique pour tapis**. Cliquer sur **« Gérer »/« Manage »** ou l'icône
+   de mapping (généralement une icône de lien/chaîne à côté du produit).
+4. Dans le panneau de sourcing, remplacer l'URL/l'ID du fournisseur actuel par la nouvelle fiche
+   AliExpress : **`https://www.aliexpress.com/item/1005007430527466.html`**. Un seul SKU à relier
+   (pas de choix de couleur côté fournisseur) : vérifier que le prix affiché par DSers pour ce SKU est
+   proche de **43,59 €** (le prix que j'ai confirmé à la source) — si DSers affiche un prix très
+   différent, c'est le signe qu'il a mappé le mauvais SKU.
+5. Ouvrir la fiche **Ciseaux électriques sans fil de sculpture**. Même geste, nouvelle URL
+   fournisseur : **`https://www.aliexpress.com/item/1005011898820067.html`**.
+6. **Point d'attention le plus important de ce remapping** : côté Shopify, cette fiche a deux
+   variantes de couleur (**Noir**, **Bleu**). Côté nouveau fournisseur, il n'y a **pas de vrai choix
+   de couleur** — l'axe « couleur » de sa fiche encode en réalité **la présence ou non de la
+   batterie** (« 2 Battery Set » vs « Without Battery »), et seule la config **« 2 Battery Set »** a
+   du stock (5 unités, réf. SKU fournisseur `12000056929753717`, ~51,69 €). **Il faut mapper les DEUX
+   variantes Shopify (Noir ET Bleu) sur cette unique config « 2 Battery Set »** — ne pas essayer de
+   faire correspondre « Noir »/« Bleu » à une couleur du fournisseur (il n'y en a pas d'équivalente),
+   et surtout ne pas mapper sur « Without Battery » (stock 0, et sans batterie ni chargeur).
+7. Sauvegarder chaque mapping. Vérifier que DSers affiche un statut « mappé »/coche verte sur les deux
+   produits, sans variante orpheline.
+
+**Décision qui attend Hakim** : exécuter ce remapping avant toute commande cliente sur ces deux
+fiches — tant que ce n'est pas fait, une commande partirait chez l'ancien fournisseur (non
+exploitable, selon le contexte de départ de cette tâche).
+
+### Décisions qui attendent Hakim (chantier machines)
+
+1. **Mapping DSers** — à faire manuellement dans l'interface DSers, marche à suivre ci-dessus. Aucune
+   commande ne doit être acceptée sur ces deux fiches avant que ce soit fait.
+2. **Écart de prix ciseaux, déjà signalé en §2c, confirmé ici** : coût réel du nouveau fournisseur
+   51,69 € pour la config vendable, prix affiché 299,00 €. Marge large si le produit livré tient le
+   positionnement — c'est un arbitrage de Hakim, prix non touché.
+3. **CE / conformité électrique** : toujours aucune mention CE/GS/RoHS vérifiable indépendamment sur
+   les deux fournisseurs (rappel §2d). Un marquage « CE » est visible sur la photo fournisseur des
+   ciseaux ONEVAN — c'est une déclaration du vendeur affichée sur son propre visuel marketing, pas une
+   preuve, et le brief visuels demande justement de ne pas le reproduire dans nos propres images tant
+   que ce n'est pas confirmé. Le message de Hakim en tête de ce rapport indique qu'il traite la
+   question CE directement avec le fournisseur — je n'ai pas de nouvel élément à ajouter au-delà de ce
+   qui est déjà visible sur les photos.
+4. **Titres changés** : « Tondeuse professionnelle pour tapis » → « Tondeuse électrique pour tapis »
+   et « Ciseaux électriques de sculpture » → « Ciseaux électriques sans fil de sculpture ». Les
+   handles/URL n'ont pas bougé, seul le texte affiché change. À confirmer que ça convient pour le SEO
+   et la cohérence de la collection « Machines ».
+5. **Visuels** : brief Codex écrit (`BRIEF-VISUELS-CODEX-2026-08-16-machines.md`), production non
+   lancée. Les deux fiches ne doivent pas entrer dans un flux Shopping tant que les 12 nouvelles
+   images ne sont pas en place — la contradiction texte/image sur les ciseaux (« sans fil » + photo
+   filaire) est visible dès aujourd'hui sur le site public.
+
+### Ce que je n'ai pas pu vérifier (chantier machines)
+
+- **Les pages produit AliExpress des deux fournisseurs retenus** : mur anti-bot du navigateur intégré,
+  confiance plafonnée à B (SERP JSON + API `variants`/`exact`). Aucune mention CE/GS/RoHS trouvée dans
+  ce qui est accessible, mais je n'ai pas pu ouvrir la description complète ni la galerie complète.
+- **Que le visuel SERP de la tondeuse (`1005007430527466`) montre bien le produit exact retenu** et
+  pas un article visuellement proche d'une fiche voisine du même fabricant — traité comme non confirmé
+  par prudence (voir section images ci-dessus), d'où le brief qui part de cette image en la présentant
+  comme référence de forme, pas comme vérité absolue.
+- **La compatibilité réelle des batteries ONEVAN avec les stations Makita 18V** : reprise comme
+  déclaration du fournisseur, non vérifiée indépendamment (pas d'accès à la description produit ni à
+  un test physique).
+- **Le mapping DSers réel** : aucun accès à l'interface DSers dans cette session (pas d'identifiants
+  saisis). La marche à suivre donnée à Hakim est reconstituée du fonctionnement standard de DSers, pas
+  vérifiée clic par clic dans l'interface actuelle.
+- **Tout ce qui était déjà listé comme non vérifié en §7** (rapport de vitesse natif Shopify, revue
+  exhaustive des ~140 images, icônes de paiement, appel du numéro de téléphone) reste non vérifié,
+  hors périmètre de ce chantier.
