@@ -129,7 +129,30 @@ vidéo). **Ne pas annoncer de score PageSpeed** : l'outil ne sait pas tester un 
   demande un compte « réchauffé » par de l'usage ; un historique de dépense publicitaire payante est
   le signal de confiance le plus fort de cette catégorie. Item PASS.
 
-- ⚠️ **POINT NOUVEAU À INSTRUIRE — un compte Merchant Center semble déjà exister.** La boîte de
+- 🟢 **ÉTAT RÉEL DU MERCHANT CENTER, constaté par Hakim le 16/08 : compte ACTIF, 173 produits,
+  173 approuvés, 0 limité, 0 non approuvé, 0 en cours d'examen.** Créé automatiquement lors de la
+  mise en place de Google Ads via l'application Google & YouTube de Shopify. Google Ads est également
+  actif.
+
+  **Ce que ça change, et c'est majeur : l'objectif n'est plus d'obtenir une approbation, c'est de
+  protéger une approbation existante.** Le compte a été exposé pendant des semaines à la version
+  fautive du site — faux avis, prix barrés fabriqués, policies dupliquées — **sans qu'aucun produit
+  ne soit désapprouvé**. Les contrôles automatiques ne les ont pas attrapés, ou pas encore.
+
+  **Le risque se déplace donc vers l'après.** La checklist est explicite : « la plupart des
+  suspensions arrivent APRÈS l'approbation », et les 30 premiers jours sont critiques, notamment
+  quand la dépense monte. Un compte à 173 produits approuvés est un actif qu'une suspension
+  détruirait — et les motifs qui l'auraient déclenchée sont précisément ceux corrigés aujourd'hui.
+
+  **Réserve à assumer** : la même checklist déconseille « tout changement brutal (thème, policies,
+  coordonnées, gros volumes de produits) » sur un compte établi. Or le 16/08 a cumulé 17 nouveaux
+  produits, deux renommages, 215 variantes reprises, une refonte des policies, un changement d'e-mail
+  de boutique et une réécriture de thème. **Chaque changement va dans le sens de la conformité** —
+  c'est la bonne direction — mais le volume peut déclencher une nouvelle revue. Ce n'est pas un
+  regret : servir de faux avis était pire. C'est une raison de publier proprement, une seule fois,
+  puis de surveiller.
+
+- ~~POINT À INSTRUIRE — un compte Merchant Center semble déjà exister.~~ **Tranché ci-dessus.** La boîte de
   réception de Hakim contient un message de **Google Merchant Center daté du 6 août** : « More than 12
   of your products aren't on Google — Add them now or get an automatic update on September 6, 2026 ».
   Le plan d'audit partait de l'hypothèse « le compte n'est pas encore créé ». **Si un GMC existe déjà
