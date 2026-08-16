@@ -118,8 +118,11 @@ vidéo). **Ne pas annoncer de score PageSpeed** : l'outil ne sait pas tester un 
 
 ## Ce qui reste hors de portée d'un agent — pour Hakim
 
-- **Appeler le +33 7 56 82 80 94** et confirmer qu'il répond en vocal.
-- **Envoyer un e-mail à `contact@tufteo.com`** et confirmer la réception.
+- ✅ **Téléphone testé par Hakim le 16/08 : le +33 7 56 82 80 94 répond en vocal.** Item PASS,
+  preuve = test direct de Hakim. La checklist l'exige explicitement (« numéro testé : accepte
+  réellement les appels vocaux »).
+- ✅ **E-mail testé par Hakim le 16/08 : `contact@tufteo.com` reçoit bien.** Item PASS, preuve = test
+  direct de Hakim.
 - Vérifier que le **Gmail dédié** au GMC est distinct et « réchauffé ».
 - **Adresse et téléphone partagés avec Bien Brûlé et Maison Noirmont** : décision assumée (voir
   échange du 16/08). Le risque n'est pas la mutualisation en soi mais la **propagation** d'une
