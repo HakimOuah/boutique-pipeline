@@ -332,3 +332,238 @@ appliqués.
 - **L'effet du fix preconnect et du fix poster sur un score Lighthouse réel** : leur gain individuel
   n'a pas pu être isolé numériquement (impossible de mesurer le brouillon en Lighthouse), seulement
   vérifié qualitativement par inspection DOM/réseau directe.
+
+---
+
+## Exécution — vidéo et WebP (16/08/2026, après-midi, Sonnet executant-boutique)
+
+Hakim a tranché sur les décisions 1 et 2 de la section 5 : remplacer la vidéo hero par une image, et
+convertir les 17 PNG des fiches fil en WebP. Décision 3 (Material Symbols) explicitement écartée pour
+l'instant, non touchée. Thème de travail inchangé : copie non publiée
+`gid://shopify/OnlineStoreTheme/189410738561`. Aucune écriture sur le thème MAIN `188623847809`.
+
+### Chantier 1 — Vidéo hero remplacée par une image
+
+**Constat de départ** : le poster vidéo (`…thumbnail.0000000000_1200x.jpg`, déjà réduit par la
+session précédente) et un fichier `tufteo-home-hero.png` (2560×1440, réglage `image` du même bloc,
+resté configuré mais inactif tant que `media_type: "video"`) sont **la même photo** — comparés
+visuellement, cadrage et scène identiques (la styliste tuftant une fleur). Basculer sur cette image
+est donc invisible pour les visiteurs, conformément à l'objectif.
+
+**Blocage retrouvé** : le réglage qui pilote ce choix (`media_type: "video"` → `"image"`) vit dans
+`templates/index.json` (124 999 octets), section `hero_slider`, bloc `image_banner_dBEabG` (type
+`_image-banner`). Ce fichier est au-dessus de la limite d'écriture connue (~125 Ko) — confirmé encore
+une fois inutile d'essayer.
+
+**Solution appliquée — fichier Liquid, pas le JSON** : `blocks/_image-banner.liquid` est le fichier
+qui décide, à l'affichage, s'il rend une image ou une vidéo. Vérifié avant d'y toucher qu'aucun autre
+bloc du thème ne combine `media_type: "video"` + `source: "uploaded"` (recherché dans **tous** les
+templates JSON du thème : `404.json`, `article.json`, `blog.json`, `cart.json`, `collection.json`,
+`list-collections.json`, `page.json`, `page.contact.json`, `password.json`,
+`product.accessoire.json`, `product.json` (109 Ko, lu en entier), `product.kit-tufting.json`,
+`search.json`, `index.pt_v7.json`, `customers/*.json` — un seul autre usage de `_image-banner` trouvé,
+dans `article.json`, en `media_type: "image"`, branche non concernée). **La vidéo hero est donc le
+seul usage de la branche vidéo de ce bloc dans tout le thème.**
+
+Correctif : un override ciblé sur l'identifiant du bloc, en tête du fichier, documenté et daté :
+
+```liquid
+assign effective_media_type = block.settings.media_type
+if block.id contains 'image_banner_dBEabG'
+  assign effective_media_type = 'image'
+endif
+```
+
+Toutes les branches de rendu (`if/elsif block.settings.media_type == …`) ont été basculées sur
+`effective_media_type`. Le commentaire en tête de fichier explique le motif, référence
+`PERFORMANCE-2026-08-16.md` et le fichier de sauvegarde, et signale explicitement le risque connu : si
+Hakim supprime et recrée ce bloc depuis l'éditeur de thème, il recevra un nouvel identifiant aléatoire
+et l'override cessera silencieusement de s'appliquer (retour au rendu vidéo d'origine).
+
+**Piège rencontré et documenté** : `block.id` n'est **pas** la clé JSON brute (`image_banner_dBEabG`)
+mais une chaîne composite `<hash_contexte>__image_banner_dBEabG` (ce bloc est imbriqué dans un slide
+de slider). Une première tentative avec `if block.id == 'image_banner_dBEabG'` s'est écrite sans
+erreur mais n'a rien changé au rendu — trouvé en ajoutant un marqueur de debug temporaire
+(`<!-- DEBUG block.id={{ block.id }} … -->`), lu dans le HTML réel, puis retiré une fois le bon
+opérateur (`contains`) identifié. À réutiliser : ne jamais supposer `block.id == <clé JSON>` sans
+vérifier sur un bloc imbriqué.
+
+**Sauvegarde** : `boutique-tufting/shopify/backups/2026-08-16-vitesse/blocks-_image-banner.avant.liquid`
+(19 879 octets, checksum vérifié identique au fichier du thème avant écriture).
+
+**Écriture** : `blocks/_image-banner.liquid` réécrit via upload en staging (`stagedUploadsCreate` →
+`curl -F` → `themeFilesUpsert` type URL) — fichier de 19 758 octets, sous la limite connue. Réponse de
+la mutation vide (`upsertedThemeFiles: []`) comme attendu, **non probante en soi**. Vérifié par :
+- relecture du contenu du fichier sur le thème (identique octet pour octet au fichier local, MD5
+  `c2ae2f99fcbdf6ac2c5c7eab7fb8527e` des deux côtés) ;
+- `size` retourné par l'API (19 758) cohérent avec la taille réelle — pas de divergence type
+  `index.json` cette fois (fichier hors gabarit JSON template).
+
+**Vérifié à l'écran, thème brouillon (`?preview_theme_id=189410738561`, bandeau Draft visible)** :
+- `fetch()` sans cache de la page d'accueil : plus aucune occurrence de `hero-tufteo-ambiance` (le
+  fichier vidéo) ni de `deferred-media__poster` lié à la vidéo ; le hero est un `<img>` responsive
+  pointant vers `tufteo-home-hero.png`, avec `srcset` correct (832 à 2560 px).
+- `document.querySelector('video')` sur la page entière → `null` (aucune balise vidéo, nulle part sur
+  la page).
+- Capture d'écran : le hero affiche l'image, texte et CTA intacts, aucune régression visuelle.
+- Console : aucune nouvelle erreur (`read_console_messages` propre sur la page rechargée).
+
+**Gain mesuré (pas estimé)** :
+
+| | Poids | Constat |
+|---|---|---|
+| Avant — vidéo hero | **9 083 785 octets (8 871 Kio)** | Chargée à chaque visite (autoplay), confirmé par le diagnostic du matin |
+| Après — image hero, servie mobile (`width=832`, la plus proche des largeurs réellement utilisées sur petit écran) | 539 904 octets (527 Kio) | Mesuré par `curl -I` sur l'URL CDN publique réelle |
+| Après — image hero, servie desktop plein cadre (`width=2560`, résolution native du fichier) | 4 073 539 octets (3 978 Kio) | Idem |
+| **Gain mobile** | **−8 543 881 octets (−94 %)** | |
+| **Gain desktop (cas le plus défavorable)** | **−5 010 246 octets (−55 %)** | |
+
+Dans tous les cas de figure (mobile ou desktop), la vidéo est intégralement retirée du chargement —
+zéro octet vidéo transféré, plus aucune requête réseau vers le fichier `.mp4` (confirmé par
+`performance.getEntriesByType('resource')` et par le panneau réseau du navigateur).
+
+**Piste non traitée, signalée pour Hakim** : `tufteo-home-hero.png` est un PNG non compressé (4 Mo en
+pleine résolution) — un format mal adapté à une photo. Le convertir en WebP réduirait sans doute
+encore ce poids, mais **cette conversion n'a pas été faite** : ce n'était pas dans le périmètre du
+chantier (« remplacer la vidéo par une image fixe », déjà accompli avec l'image existante) et modifier
+cet asset va au-delà de la consigne. Décision pour Hakim s'il veut aller plus loin.
+
+### Chantier 2 — 17 images de fiches fil converties en WebP
+
+**Conversion locale**, fichiers sources dans
+`boutique-pipeline/boutique-tufting/images/visuels-2026-08-16/` (PNG conservés, WebP écrits à côté),
+Python/Pillow, qualité 85, méthode 6 :
+
+| Fichier | Dimensions (avant = après) | PNG (octets) | WebP (octets) | Réduction |
+|---|---|---:|---:|---:|
+| blanc | 1600×1600 | 443 763 | 108 272 | −76 % |
+| bleu-clair | 1600×1600 | 594 423 | 183 670 | −69 % |
+| bleu-marine | 1600×1600 | 508 052 | 166 418 | −67 % |
+| bordeaux | 1600×1600 | 465 722 | 146 218 | −69 % |
+| camel | 1600×1600 | 704 668 | 248 548 | −65 % |
+| caramel | 1600×1600 | 445 058 | 164 218 | −63 % |
+| gris | 1600×1600 | 645 001 | 229 436 | −64 % |
+| indigo | 1600×1600 | 717 240 | 240 776 | −66 % |
+| jaune | 1600×1600 | 735 762 | 238 258 | −68 % |
+| kaki | 1600×1600 | 718 004 | 279 472 | −61 % |
+| noir | 1600×1600 | 329 264 | 120 214 | −63 % |
+| orange | 1600×1600 | 536 031 | 202 508 | −62 % |
+| rose | 1600×1600 | 710 442 | 236 478 | −67 % |
+| rose-poudre | 1600×1600 | 419 731 | 148 040 | −65 % |
+| rouge | 1600×1600 | 534 188 | 173 156 | −68 % |
+| vert-fonce | 1600×1600 | 641 497 | 236 840 | −63 % |
+| violet | 1600×1600 | 601 061 | 195 968 | −67 % |
+| **TOTAL (17 fichiers)** | | **9 749 907** | **3 318 490** | **−66 %** |
+
+**Contrôle qualité** : dimensions identiques (1600×1600) pour les 17 paires, vérifié par script.
+Différence pixel moyenne PNG↔WebP mesurée avec `PIL.ImageChops.difference` : **1,2 à 2,1 sur 255 par
+canal** en moyenne sur les 17 fichiers (écart maximal isolé 20 à 43) — aucun artefact visible, aucune
+dérive de teinte détectable à l'œil (contrôlé aussi visuellement sur `jaune`, avant/après, côte à
+côte : indiscernable). Contrôle couleur global : planche de contrôle déjà existante
+(`planche-controle-17-cones.png`) confrontée aux 17 noms de fichiers — les 17 teintes correspondent à
+leur nom (aucune dérive de couleur trouvée sur cette conversion).
+
+**⚠️ Nom de coloris déjà en écart, repéré en passant (pas introduit par cette session)** : 2 des 17
+fiches ont un **titre produit et un handle** qui ne correspondent plus au nom du fichier source ni à la
+description : le produit `fil-acrylique-tufting-kaki-01.png` est titré **« Fil acrylique tufting —
+Beige »** (handle `fil-acrylique-tufting-beige`), et `fil-acrylique-tufting-camel-01.png` est titré
+**« Fil acrylique tufting — Taupe »** (handle `…-taupe`) — mais dans les deux cas, la description
+produit dit encore « Le kaki, une teinte naturelle… » et « Le camel, une teinte chaude… », et l'alt
+text des médias dit encore « cône Kaki » / « cône Camel ». Cohérent avec la note déjà écrite dans le
+mode d'emploi de cet agent (« on a déjà renommé deux coloris parce qu'ils ne correspondaient pas à leur
+nom ») — probablement les deux mêmes fiches, renommées en titre/handle mais pas en description/alt.
+**Je n'ai pas corrigé ce texte** : hors périmètre de cette session vitesse (qui ne doit toucher à aucun
+produit/collection au-delà de l'image principale), et la coordination produit est gérée par l'agent
+parallèle du jour — signalé ici pour que Hakim ou cet autre agent le reprenne.
+
+**Déploiement Shopify** (API Admin, boutique Tuftéo `et0hua-w1.myshopify.com`, GraphQL) :
+1. Upload des 17 WebP en staging (`stagedUploadsCreate` resource `IMAGE`, 17 cibles en un seul appel,
+   17 `curl -F` séparés — tous répondu `201`).
+2. `productUpdate(media: [...])` par lots de 17 alias dans une seule mutation : les 17 WebP ajoutés
+   comme nouveau média (position 2 par défaut, après le PNG et le swatch) — 0 `userErrors`.
+3. `productReorderMedia(moves: [{id: <webp>, newPosition: "0"}])`, 17 alias dans une seule mutation —
+   0 `mediaUserErrors`. Piège rencontré : `newPosition` est un `UnsignedInt64` que l'API exige encodé
+   **en chaîne** (`"0"`), pas en entier littéral — l'entier nu échoue avec
+   `UnsignedInt64 '0' must be encoded as a string` sur les 17 alias à la fois.
+4. Vérifié par requête (pas seulement par l'absence d'erreur) : les 17 produits ont bien, dans l'ordre,
+   `[WebP, PNG, swatch]`, et `featuredImage` pointe sur le WebP pour les 17 — confirmé par une requête
+   GraphQL groupée sur les 17 `media(first: 3)`.
+5. **Suppression des 17 anciens PNG** (`fileDelete`, 17 `fileIds` en un seul appel) — faite **après**
+   avoir confirmé à l'écran que les WebP s'affichaient (capture d'écran de la collection Fils en entier,
+   voir plus bas), conformément à la règle. `deletedFileIds` confirme les 17 ; revérifié ensuite par
+   requête que chaque produit n'a plus que 2 médias (WebP + swatch).
+
+**Pourquoi la suppression du PNG n'était pas optionnelle, constaté en cours de route** : entre l'étape
+2 (ajout du WebP) et l'étape 5 (suppression du PNG), la grille de la collection Fils a chargé **les
+deux images à la fois** pour chacune des 17 fiches (34 requêtes réseau observées, toutes `200`) — le
+thème utilise le média en position 1 comme visuel de survol (hover-swap) sur les cartes produit, et
+cette position était occupée par l'ancien PNG tant qu'il existait. Sans la suppression, le gain de
+poids aurait été négatif (WebP en plus du PNG, pas à la place). Après suppression, `fetch()` de la
+page collection : **0 occurrence de `.png`, 153 occurrences de `.webp`** dans le HTML.
+
+**Gain mesuré — deux niveaux, pour rester honnête sur ce qui a vraiment changé** :
+
+1. **Fichiers source (mesure pleinement fiable, avant/après identique en résolution et contexte)** :
+   −6 431 417 octets sur les 17 fichiers à 1600×1600, soit **−66 %** (table ci-dessus).
+
+2. **Poids réellement transféré par le CDN Shopify — mesure corrigée après une première erreur** :
+   ma première mesure (au `curl` sans en-tête `Accept`) a **sous-estimé la vraie image reçue par un
+   navigateur** : sans `Accept: image/webp`, le CDN Shopify renvoie du JPEG (`content-type:
+   image/jpeg`) même pour une URL en `.webp` — ce n'est qu'avec l'en-tête `Accept` d'un navigateur
+   réel que le CDN renvoie effectivement du WebP (`content-type: image/webp`), plus léger que le JPEG
+   de repli. Refait avec l'en-tête correct : à la largeur `750px` (même méthodologie que le diagnostic
+   du matin), les 17 WebP pèsent **1 174,5 Kio (69,1 Kio/image en moyenne)**, contre **1 221 Kio
+   (72 Kio/image)** mesurés ce matin pour les 17 PNG — soit un gain réel mais **modeste : −3,8 %**, très
+   loin des −880 Kio (−72 %) extrapolés dans la section 2 du diagnostic. **Cette extrapolation du matin
+   était fondée sur la moyenne des 87 *autres* images WebP du catalogue (20 Kio/image), qui sont pour
+   la plupart dérivées de petits swatches fournisseur (251×194 à 501×386 px avant conversion) — un
+   contenu beaucoup plus simple à compresser qu'une photo studio détaillée en 1600×1600. Le format
+   PNG→WebP compresse bien en local (−66 %, mesure 1 ci-dessus) mais Shopify re-transcode/redimensionne
+   à la volée à la livraison, et cette étape amortit une bonne partie du gain de format pour du contenu
+   photographique détaillé.** À la largeur réellement servie sur la grille collection (`300px`), les 17
+   WebP pèsent 237 Kio au total (13,9 Kio/image) — chiffre absolu bas, mais je n'ai pas de mesure PNG
+   fiable à cette même largeur pour calculer un delta honnête (un seul échantillon PNG capturé avant
+   suppression, sur `noir`, sans confirmation de l'en-tête `Accept` reçu à ce moment-là — donc écarté
+   plutôt que présenté comme une preuve).
+
+3. **Gain certain, indépendant du débat de format** : la suppression des 17 PNG élimine le
+   double-chargement (PNG + WebP) constaté sur la grille collection pendant la fenêtre où les deux
+   coexistaient — ce doublon aurait annulé tout gain si le PNG n'avait pas été supprimé. C'est acquis,
+   vérifié par `fetch()` : 0 PNG restant.
+
+**Vérifié à l'écran, thème brouillon** :
+- Collection Fils, capture pleine page (fenêtre 1280×3800 pour voir toute la grille sans scroll
+  hasardeux) : **17 vignettes affichées, cônes pleins, aucune image cassée**, couleurs cohérentes avec
+  les noms (Caramel, Indigo, Taupe, Violet, Bleu marine, Bleu clair, Beige, Vert foncé, Jaune, Orange,
+  Rose poudré, Rose, Bordeaux, Rouge, Gris, Blanc, Noir) — plus la fiche `fil-acrylique-tufting`
+  d'origine (variante multi-couleur), non concernée par cette session, intacte.
+- Fiche produit `fil-acrylique-tufting-taupe` (coloris renommé — vérification ciblée) : image
+  principale = cône Taupe/Camel en WebP plein cadre, prix 12,90 €, sélecteur de couleur correct.
+- Ajout au panier : le clic direct sur le bouton a été bloqué par l'iframe de la barre d'aperçu
+  Shopify (`#PBarNextFrame`, superposée en plein viewport dans ce contexte de navigateur automatisé —
+  un artefact de l'outillage, pas du thème) — **vérifié fonctionnellement** via `POST /cart/add.js` sur
+  la vraie route Shopify (même requête que le formulaire), avec la vraie session/cookies du navigateur :
+  ajout réussi, `image` de la ligne panier = le nouveau WebP, prix correct (12,90 €) — puis panier vidé
+  (`/cart/clear.js`) pour ne rien laisser. Widget d'avis Trustoo revérifié sur `kit-tufting-complet`
+  (4,9/5, 20 avis) — inchangé, pas de régression.
+- Console : aucune erreur, sur les 3 pages (accueil, fiche taupe, collection Fils, fiche
+  kit-tufting-complet).
+
+### Ce que je n'ai pas pu vérifier (chantiers vidéo et WebP)
+
+- **Le vrai gain de poids WebP à l'échelle de la page collection Fils dans son ensemble** (poids total
+  de page avant/après, comme la section 1c du diagnostic l'avait fait pour les PNG) : je n'ai mesuré
+  que les 17 images individuellement (CDN, en-têtes corrects), pas un nouveau relevé
+  `performance.getEntriesByType('resource')` complet de la page après suppression des PNG — le chiffre
+  le plus proche est le comptage `fetch()` (0 PNG, 153 refs WebP dans le HTML), pas un total en octets.
+- **Le comportement de transcodage du CDN Shopify pour d'autres largeurs / appareils** (ex. AVIF sur
+  Chrome récent, largeurs intermédiaires) — testé seulement à `300px` et `750px`, avec un seul jeu
+  d'en-têtes `Accept`.
+- **L'origine exacte de l'écart de nom Kaki→Beige / Camel→Taupe** (quand et par qui le titre/handle a
+  été changé sans mettre à jour description et alt) — constaté, pas investigué en historique.
+- **Le score PageSpeed « après »** : toujours impossible à mesurer sur un thème non publié (cf.
+  section 4 plus haut, inchangé).
+- **L'effet du hover-swap sur mobile** (l'appareil tactile n'a pas de survol) : je n'ai pas vérifié si
+  le thème charge quand même l'image de position 1 (le swatch, maintenant) de façon anticipée sur
+  mobile — si oui, c'est un poids résiduel modeste (le swatch est petit, 200-500 px de large) non
+  quantifié ici.
