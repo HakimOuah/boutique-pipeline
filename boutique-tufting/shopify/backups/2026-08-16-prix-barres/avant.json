@@ -1,0 +1,1681 @@
+{
+  "captured_at": "2026-08-16",
+  "source": "Shopify Admin GraphQL API, requête products(first:50) avec variants(first:100), hasNextPage=false sur produits et sur chaque liste de variantes",
+  "products": [
+    {
+      "id": "gid://shopify/Product/15466410213761",
+      "title": "Tufting gun 2-en-1 Cut & Loop",
+      "handle": "tufting-gun-2-en-1",
+      "status": "ACTIVE",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/55954211635585",
+          "title": "Rose",
+          "price": "149.00",
+          "compareAtPrice": "189.00"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55954212225409",
+          "title": "Bleu",
+          "price": "149.00",
+          "compareAtPrice": "189.00"
+        }
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "gid://shopify/Product/15466411131265",
+      "title": "Tissu de finition",
+      "handle": "tissu-de-finition",
+      "status": "DRAFT",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/55953029693825",
+          "title": "5 × 1 m",
+          "price": "22.90",
+          "compareAtPrice": "29.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953029759361",
+          "title": "4,2 × 1 m",
+          "price": "19.90",
+          "compareAtPrice": "25.90"
+        }
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "gid://shopify/Product/15466411196801",
+      "title": "Tissu de finition antidérapant",
+      "handle": "tissu-finition-antiderapant",
+      "status": "ACTIVE",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/55953029890433",
+          "title": "1,8 × 2 m",
+          "price": "18.90",
+          "compareAtPrice": "24.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953029923201",
+          "title": "1,8 × 1 m",
+          "price": "16.90",
+          "compareAtPrice": "22.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953029955969",
+          "title": "1,8 × 4 m",
+          "price": "39.90",
+          "compareAtPrice": "51.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953029988737",
+          "title": "1,8 × 3 m",
+          "price": "34.90",
+          "compareAtPrice": "45.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030021505",
+          "title": "1 × 1 m",
+          "price": "8.90",
+          "compareAtPrice": "11.90"
+        }
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "gid://shopify/Product/15466411229569",
+      "title": "Fil acrylique en cône pour tufting",
+      "handle": "fil-acrylique-tufting",
+      "status": "ACTIVE",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/55953030152577",
+          "title": "02 Rose clair",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030185345",
+          "title": "01 Blanc",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030218113",
+          "title": "98",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030250881",
+          "title": "97",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030283649",
+          "title": "100",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030316417",
+          "title": "99",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030349185",
+          "title": "101",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030381953",
+          "title": "81 Rose pêche",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030414721",
+          "title": "80 Bordeaux",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030447489",
+          "title": "84 Vert foncé",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030480257",
+          "title": "82 Café",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030513025",
+          "title": "86 Nude",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030545793",
+          "title": "85",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030578561",
+          "title": "88",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030611329",
+          "title": "87 Vert fluo",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030644097",
+          "title": "90",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030676865",
+          "title": "89",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030709633",
+          "title": "92",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030742401",
+          "title": "91",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030775169",
+          "title": "94",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030807937",
+          "title": "93",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030840705",
+          "title": "96",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030873473",
+          "title": "95",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030906241",
+          "title": "63 Vert citron",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030939009",
+          "title": "62 Rose abricot",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030971777",
+          "title": "65 Orange",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031004545",
+          "title": "64 Rose pailleté",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031037313",
+          "title": "67 Jaune poussin",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031070081",
+          "title": "66 Bleu denim",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031102849",
+          "title": "69 Vert pois",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031135617",
+          "title": "68 Rose lotus",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031168385",
+          "title": "71 Rose",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031201153",
+          "title": "70 Gris vert",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031233921",
+          "title": "73 Vert matcha",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031266689",
+          "title": "72 Rose bonbon",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031299457",
+          "title": "75 Carmin",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031332225",
+          "title": "74 Vert élégant",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031364993",
+          "title": "79 Gris élégant",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031397761",
+          "title": "76 Camel",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031430529",
+          "title": "36",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031463297",
+          "title": "35 Rouge",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031496065",
+          "title": "38 Café foncé",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031528833",
+          "title": "37 Rouge violacé",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031561601",
+          "title": "45 Vert foncé",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031594369",
+          "title": "43 Jaune pâle",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031627137",
+          "title": "53 Bleu lac",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031659905",
+          "title": "52 Jaune",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031692673",
+          "title": "55",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031725441",
+          "title": "54 Rose poudré",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031758209",
+          "title": "57 Violet",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031790977",
+          "title": "56 Orange",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031823745",
+          "title": "59 Caramel",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031856513",
+          "title": "58 Bleu rosé",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031889281",
+          "title": "61 Vert pomme clair",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031922049",
+          "title": "60 Multicolore",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031954817",
+          "title": "20 Gris foncé",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953031987585",
+          "title": "19",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032020353",
+          "title": "22 Noir",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032053121",
+          "title": "21 Café clair",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032085889",
+          "title": "24 Curcuma",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032118657",
+          "title": "23 Rouge vif",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032151425",
+          "title": "26 Kaki",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032184193",
+          "title": "25 Rouge rosé",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032216961",
+          "title": "28 Gris",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032249729",
+          "title": "27 Violet",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032282497",
+          "title": "30 Camel clair",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032315265",
+          "title": "29 Gris fumé",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032348033",
+          "title": "32 Camel foncé",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032380801",
+          "title": "31 Bleu clair",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032413569",
+          "title": "34 Bleu saphir",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032446337",
+          "title": "33 Blanc pur",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032479105",
+          "title": "04 Rose chair",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032511873",
+          "title": "03 Jaune poussin",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032544641",
+          "title": "06 Rouge pastèque",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032577409",
+          "title": "05 Violet clair",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032610177",
+          "title": "08 Rouge rouille",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032642945",
+          "title": "07 Gris moyen",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032675713",
+          "title": "10",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032708481",
+          "title": "09 Bleu denim",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032741249",
+          "title": "12 Gris clair",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032774017",
+          "title": "11 Blanc gris",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032806785",
+          "title": "14 Bleu marine",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032839553",
+          "title": "13 Rouge foncé",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032872321",
+          "title": "16 Indigo",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032905089",
+          "title": "15 Gris camel",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032937857",
+          "title": "18 Bleu lagon clair",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953032970625",
+          "title": "17 Blanc kaki",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        }
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "gid://shopify/Product/15466411262337",
+      "title": "Grippers — bandes de fixation (lot de 8)",
+      "handle": "grippers-tufting",
+      "status": "ACTIVE",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/55953030087041",
+          "title": "B",
+          "price": "29.90",
+          "compareAtPrice": "38.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953030119809",
+          "title": "A",
+          "price": "26.84",
+          "compareAtPrice": "34.90"
+        }
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "gid://shopify/Product/15466411295105",
+      "title": "Bobineuse à laine",
+      "handle": "bobineuse-a-laine",
+      "status": "ACTIVE",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/55953033068929",
+          "title": "Default Title",
+          "price": "19.90",
+          "compareAtPrice": "25.90"
+        }
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "gid://shopify/Product/15466411327873",
+      "title": "Ciseaux pélican pour tufting",
+      "handle": "ciseaux-pelican-tufting",
+      "status": "ACTIVE",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/55953033265537",
+          "title": "Default Title",
+          "price": "11.90",
+          "compareAtPrice": "15.90"
+        }
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "gid://shopify/Product/15466411360641",
+      "title": "Enfile-laine pour tufting gun (lot de 5)",
+      "handle": "enfile-laine-tufting-gun",
+      "status": "ACTIVE",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/55953033331073",
+          "title": "Jaune (lot de 5)",
+          "price": "4.90",
+          "compareAtPrice": "6.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953033363841",
+          "title": "Rouge (lot de 5)",
+          "price": "4.90",
+          "compareAtPrice": "6.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953033396609",
+          "title": "Noir (lot de 5)",
+          "price": "4.90",
+          "compareAtPrice": "6.90"
+        }
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "gid://shopify/Product/15466411426177",
+      "title": "Tondeuse électrique pour tapis",
+      "handle": "tondeuse-professionnelle-tapis",
+      "status": "ACTIVE",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/55953033462145",
+          "title": "Orange/Noir",
+          "price": "89.90",
+          "compareAtPrice": "119.00"
+        }
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "gid://shopify/Product/15466411458945",
+      "title": "Ciseaux électriques sans fil de sculpture",
+      "handle": "ciseaux-electriques-sculpture",
+      "status": "ACTIVE",
+      "note": "déjà propre (fait par Claude) — hors périmètre, ne pas retoucher",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/55953033560449",
+          "title": "Noir",
+          "price": "140.00",
+          "compareAtPrice": null
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953033593217",
+          "title": "Bleu",
+          "price": "140.00",
+          "compareAtPrice": null
+        }
+      ],
+      "in_scope": false
+    },
+    {
+      "id": "gid://shopify/Product/15466411491713",
+      "title": "Lames de remplacement pour tondeuse (lot de 12)",
+      "handle": "lames-tondeuse-lot-12",
+      "status": "ACTIVE",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/55953033691521",
+          "title": "Default Title",
+          "price": "49.90",
+          "compareAtPrice": "64.90"
+        }
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "gid://shopify/Product/15466411524481",
+      "title": "Kit tondeuse + guide de tonte",
+      "handle": "kit-tondeuse-guide-tonte",
+      "status": "DRAFT",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/55953033920897",
+          "title": "Lot 5 pièces",
+          "price": "18.39",
+          "compareAtPrice": "24.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953034051969",
+          "title": "Sans guide",
+          "price": "22.97",
+          "compareAtPrice": "29.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953034183041",
+          "title": "Avec guide",
+          "price": "79.90",
+          "compareAtPrice": "103.90"
+        }
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "gid://shopify/Product/15466411557249",
+      "title": "Toile primaire de tufting (lignes repères)",
+      "handle": "toile-primaire-tufting",
+      "status": "ACTIVE",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/55953034379649",
+          "title": "1,5 × 1,5 m",
+          "price": "19.90",
+          "compareAtPrice": "25.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953034477953",
+          "title": "0,5 × 1,05 m",
+          "price": "7.49",
+          "compareAtPrice": "9.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953034510721",
+          "title": "0,5 × 0,5 m",
+          "price": "6.90",
+          "compareAtPrice": "9.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953034576257",
+          "title": "1 × 1 m",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55954611208577",
+          "title": "1 × 5 m",
+          "price": "39.90",
+          "compareAtPrice": "51.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55954611241345",
+          "title": "1,5 × 4 m",
+          "price": "44.90",
+          "compareAtPrice": "58.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55954611274113",
+          "title": "3 × 5 m",
+          "price": "89.90",
+          "compareAtPrice": "116.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55954611306881",
+          "title": "1,5 × 10 m",
+          "price": "89.90",
+          "compareAtPrice": "116.90"
+        }
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "gid://shopify/Product/15466411590017",
+      "title": "Toile premium polyester",
+      "handle": "toile-premium-polyester",
+      "status": "ACTIVE",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/55953034609025",
+          "title": "1,5 × 10 m",
+          "price": "109.90",
+          "compareAtPrice": "142.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953034641793",
+          "title": "1,5 × 4 m",
+          "price": "69.90",
+          "compareAtPrice": "90.90"
+        }
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "gid://shopify/Product/15466411655553",
+      "title": "Guide de tondeuse",
+      "handle": "guide-de-tondeuse",
+      "status": "ACTIVE",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/55953034707329",
+          "title": "Default Title",
+          "price": "11.90",
+          "compareAtPrice": "15.90"
+        }
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "gid://shopify/Product/15466411688321",
+      "title": "Kit Tufting Complet",
+      "handle": "kit-tufting-complet",
+      "status": "ACTIVE",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/55953035297153",
+          "title": "Default Title",
+          "price": "269.00",
+          "compareAtPrice": "359.00"
+        }
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "gid://shopify/Product/15466412835201",
+      "title": "Brosse de finition",
+      "handle": "brosse-de-finition",
+      "status": "ACTIVE",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/55953045913985",
+          "title": "Bleu",
+          "price": "6.49",
+          "compareAtPrice": "8.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953045946753",
+          "title": "Rouge",
+          "price": "6.49",
+          "compareAtPrice": "8.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953045979521",
+          "title": "Vert",
+          "price": "6.49",
+          "compareAtPrice": "8.90"
+        }
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "gid://shopify/Product/15466412900737",
+      "title": "Spatule à colle pour tufting",
+      "handle": "spatule-a-colle-tufting",
+      "status": "ACTIVE",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/55953046143361",
+          "title": "Lot de 10 (couleurs aléatoires)",
+          "price": "7.49",
+          "compareAtPrice": "9.90"
+        }
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "gid://shopify/Product/15466412933505",
+      "title": "Équilibreur de ressort (spring balancer)",
+      "handle": "equilibreur-de-ressort",
+      "status": "ACTIVE",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/55953046274433",
+          "title": "3–5 kg",
+          "price": "18.90",
+          "compareAtPrice": "24.90"
+        }
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "gid://shopify/Product/15466413752705",
+      "title": "Ruban de finition tissé pour bordures (10 m)",
+      "handle": "ruban-finition-tisse-10m",
+      "status": "ACTIVE",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/55953056956801",
+          "title": "10 m",
+          "price": "23.90",
+          "compareAtPrice": "31.90"
+        }
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "gid://shopify/Product/15466413785473",
+      "title": "Ruban adhésif de finition",
+      "handle": "ruban-adhesif-finition",
+      "status": "ACTIVE",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/55953056989569",
+          "title": "5 cm × 10 m",
+          "price": "27.90",
+          "compareAtPrice": "36.90"
+        }
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "gid://shopify/Product/15466414408065",
+      "title": "Miroir acrylique pour tufting",
+      "handle": "miroir-acrylique-tufting",
+      "status": "ACTIVE",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/55953064296833",
+          "title": "Doré foncé / Ø 10 cm",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953064329601",
+          "title": "Doré foncé / Ø 20 cm",
+          "price": "18.90",
+          "compareAtPrice": "24.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953064362369",
+          "title": "Doré foncé / 30 × 40 cm",
+          "price": "42.90",
+          "compareAtPrice": "55.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953064395137",
+          "title": "Doré foncé / 40 × 40 cm",
+          "price": "54.90",
+          "compareAtPrice": "71.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953064427905",
+          "title": "Argenté / 30 × 30 cm",
+          "price": "37.90",
+          "compareAtPrice": "49.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953064460673",
+          "title": "Argenté / 20 × 40 cm",
+          "price": "33.90",
+          "compareAtPrice": "44.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953064493441",
+          "title": "Argenté / 20 × 20 cm",
+          "price": "21.90",
+          "compareAtPrice": "28.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953064526209",
+          "title": "Argenté / 20 × 30 cm",
+          "price": "30.90",
+          "compareAtPrice": "40.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953064558977",
+          "title": "Argenté / Ø 10 cm",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953064591745",
+          "title": "Argenté / Ø 20 cm",
+          "price": "18.90",
+          "compareAtPrice": "24.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953064624513",
+          "title": "Argenté / 30 × 40 cm",
+          "price": "42.90",
+          "compareAtPrice": "55.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953064657281",
+          "title": "Argenté / 40 × 40 cm",
+          "price": "54.90",
+          "compareAtPrice": "71.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953064690049",
+          "title": "Rouge / 30 × 30 cm",
+          "price": "37.90",
+          "compareAtPrice": "49.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953064722817",
+          "title": "Rouge / 20 × 40 cm",
+          "price": "33.90",
+          "compareAtPrice": "44.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953064755585",
+          "title": "Rouge / 20 × 20 cm",
+          "price": "21.90",
+          "compareAtPrice": "28.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953064788353",
+          "title": "Rouge / 20 × 30 cm",
+          "price": "30.90",
+          "compareAtPrice": "40.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953064821121",
+          "title": "Doré clair / 30 × 30 cm",
+          "price": "37.90",
+          "compareAtPrice": "49.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953064853889",
+          "title": "Doré clair / 20 × 40 cm",
+          "price": "33.90",
+          "compareAtPrice": "44.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953064886657",
+          "title": "Doré clair / 20 × 20 cm",
+          "price": "21.90",
+          "compareAtPrice": "28.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953064919425",
+          "title": "Doré clair / 20 × 30 cm",
+          "price": "30.90",
+          "compareAtPrice": "40.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953064952193",
+          "title": "Doré clair / Ø 10 cm",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953064984961",
+          "title": "Doré clair / Ø 20 cm",
+          "price": "18.90",
+          "compareAtPrice": "24.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953065017729",
+          "title": "Doré clair / 30 × 40 cm",
+          "price": "42.90",
+          "compareAtPrice": "55.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953065050497",
+          "title": "Doré clair / 40 × 40 cm",
+          "price": "54.90",
+          "compareAtPrice": "71.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953065083265",
+          "title": "Doré foncé / 30 × 30 cm",
+          "price": "37.90",
+          "compareAtPrice": "49.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953065116033",
+          "title": "Doré foncé / 20 × 40 cm",
+          "price": "33.90",
+          "compareAtPrice": "44.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953065148801",
+          "title": "Doré foncé / 20 × 20 cm",
+          "price": "21.90",
+          "compareAtPrice": "28.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953065181569",
+          "title": "Doré foncé / 20 × 30 cm",
+          "price": "30.90",
+          "compareAtPrice": "40.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953065214337",
+          "title": "Rouge / Ø 10 cm",
+          "price": "12.90",
+          "compareAtPrice": "16.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953065247105",
+          "title": "Rouge / Ø 20 cm",
+          "price": "18.90",
+          "compareAtPrice": "24.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953065279873",
+          "title": "Rouge / 30 × 40 cm",
+          "price": "42.90",
+          "compareAtPrice": "55.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953065312641",
+          "title": "Rouge / 40 × 40 cm",
+          "price": "54.90",
+          "compareAtPrice": "71.90"
+        }
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "gid://shopify/Product/15466415292801",
+      "title": "Pièces détachées pour tufting gun",
+      "handle": "pieces-detachees-tufting-gun",
+      "status": "DRAFT",
+      "note": "compareAtPrice == price sur les 37 variantes (remise affichée à 0%) — même traitement : null",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/55953069146497",
+          "title": "Motor fixing plate / China Mainland",
+          "price": "28.67",
+          "compareAtPrice": "28.67"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069179265",
+          "title": "Labor-saving hanging / China Mainland",
+          "price": "29.74",
+          "compareAtPrice": "29.74"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069212033",
+          "title": "Upper and lower sets / China Mainland",
+          "price": "29.06",
+          "compareAtPrice": "29.06"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069244801",
+          "title": "Cut fleece needle e / China Mainland",
+          "price": "28.70",
+          "compareAtPrice": "28.70"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069277569",
+          "title": "Labor-saving balance / China Mainland",
+          "price": "51.89",
+          "compareAtPrice": "51.89"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069310337",
+          "title": "Cut velvet upper sle / China Mainland",
+          "price": "49.62",
+          "compareAtPrice": "49.62"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069343105",
+          "title": "Cut down jacket / China Mainland",
+          "price": "48.35",
+          "compareAtPrice": "48.35"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069375873",
+          "title": "Power cord / China Mainland",
+          "price": "35.92",
+          "compareAtPrice": "35.92"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069408641",
+          "title": "Hardening cutter / China Mainland",
+          "price": "33.57",
+          "compareAtPrice": "33.57"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069441409",
+          "title": "Lower set / China Mainland",
+          "price": "29.43",
+          "compareAtPrice": "29.43"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069474177",
+          "title": "A set of rigid rods / China Mainland",
+          "price": "46.32",
+          "compareAtPrice": "46.32"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069506945",
+          "title": "shell / China Mainland",
+          "price": "68.00",
+          "compareAtPrice": "68.00"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069539713",
+          "title": "Velvet cutting gear / China Mainland",
+          "price": "34.83",
+          "compareAtPrice": "34.83"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069572481",
+          "title": "Upper and lower slid / China Mainland",
+          "price": "35.33",
+          "compareAtPrice": "35.33"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069605249",
+          "title": "Hardened needle / China Mainland",
+          "price": "29.79",
+          "compareAtPrice": "29.79"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069638017",
+          "title": "Large black gear / China Mainland",
+          "price": "34.83",
+          "compareAtPrice": "34.83"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069670785",
+          "title": "New board machine / China Mainland",
+          "price": "28.92",
+          "compareAtPrice": "28.92"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069703553",
+          "title": "Main switch / China Mainland",
+          "price": "31.48",
+          "compareAtPrice": "31.48"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069736321",
+          "title": "handle / China Mainland",
+          "price": "51.82",
+          "compareAtPrice": "51.82"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069769089",
+          "title": "tools / China Mainland",
+          "price": "29.72",
+          "compareAtPrice": "29.72"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069801857",
+          "title": "Loop-pile needle / China Mainland",
+          "price": "29.51",
+          "compareAtPrice": "29.51"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069834625",
+          "title": "Spring shear / China Mainland",
+          "price": "33.96",
+          "compareAtPrice": "33.96"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069867393",
+          "title": "Large circuit board / China Mainland",
+          "price": "58.90",
+          "compareAtPrice": "58.90"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069900161",
+          "title": "Spindle with bearing / China Mainland",
+          "price": "46.73",
+          "compareAtPrice": "46.73"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069932929",
+          "title": "line and governor / China Mainland",
+          "price": "40.36",
+          "compareAtPrice": "40.36"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069965697",
+          "title": "Motor plus gear / China Mainland",
+          "price": "86.26",
+          "compareAtPrice": "86.26"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953069998465",
+          "title": "Flat needle belt / China Mainland",
+          "price": "37.37",
+          "compareAtPrice": "37.37"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953070031233",
+          "title": "Triangular aluminum / China Mainland",
+          "price": "28.89",
+          "compareAtPrice": "28.89"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953070064001",
+          "title": "Upper and lower / China Mainland",
+          "price": "45.03",
+          "compareAtPrice": "45.03"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953070096769",
+          "title": "Rotating gold-plated / China Mainland",
+          "price": "45.03",
+          "compareAtPrice": "45.03"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953070129537",
+          "title": "High-grade aluminum / China Mainland",
+          "price": "47.45",
+          "compareAtPrice": "47.45"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953070162305",
+          "title": "lock dial / China Mainland",
+          "price": "31.48",
+          "compareAtPrice": "31.48"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953070195073",
+          "title": "Cutter / China Mainland",
+          "price": "29.87",
+          "compareAtPrice": "29.87"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953070227841",
+          "title": "scissors / China Mainland",
+          "price": "29.55",
+          "compareAtPrice": "29.55"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953070260609",
+          "title": "Loop pile ejector / China Mainland",
+          "price": "29.28",
+          "compareAtPrice": "29.28"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953070293377",
+          "title": "Cut the fleece crimp / China Mainland",
+          "price": "28.89",
+          "compareAtPrice": "28.89"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/55953070326145",
+          "title": "coil / China Mainland",
+          "price": "28.89",
+          "compareAtPrice": "28.89"
+        }
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "gid://shopify/Product/15500842566017",
+      "title": "Fil acrylique tufting — Noir",
+      "handle": "fil-acrylique-tufting-noir",
+      "status": "ACTIVE",
+      "note": "déjà propre — hors périmètre",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/56110382776705",
+          "title": "Noir",
+          "price": "12.90",
+          "compareAtPrice": null
+        }
+      ],
+      "in_scope": false
+    },
+    {
+      "id": "gid://shopify/Product/15500842631553",
+      "title": "Fil acrylique tufting — Blanc",
+      "handle": "fil-acrylique-tufting-blanc",
+      "status": "ACTIVE",
+      "note": "déjà propre — hors périmètre",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/56110382875009",
+          "title": "Blanc",
+          "price": "12.90",
+          "compareAtPrice": null
+        }
+      ],
+      "in_scope": false
+    },
+    {
+      "id": "gid://shopify/Product/15500842697089",
+      "title": "Fil acrylique tufting — Gris",
+      "handle": "fil-acrylique-tufting-gris",
+      "status": "ACTIVE",
+      "note": "déjà propre — hors périmètre",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/56110383006081",
+          "title": "Gris",
+          "price": "12.90",
+          "compareAtPrice": null
+        }
+      ],
+      "in_scope": false
+    },
+    {
+      "id": "gid://shopify/Product/15500842795393",
+      "title": "Fil acrylique tufting — Rouge",
+      "handle": "fil-acrylique-tufting-rouge",
+      "status": "ACTIVE",
+      "note": "déjà propre — hors périmètre",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/56110383104385",
+          "title": "Rouge",
+          "price": "12.90",
+          "compareAtPrice": null
+        }
+      ],
+      "in_scope": false
+    },
+    {
+      "id": "gid://shopify/Product/15500842926465",
+      "title": "Fil acrylique tufting — Bordeaux",
+      "handle": "fil-acrylique-tufting-bordeaux",
+      "status": "ACTIVE",
+      "note": "déjà propre — hors périmètre",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/56110383366529",
+          "title": "Bordeaux",
+          "price": "12.90",
+          "compareAtPrice": null
+        }
+      ],
+      "in_scope": false
+    },
+    {
+      "id": "gid://shopify/Product/15500842992001",
+      "title": "Fil acrylique tufting — Rose",
+      "handle": "fil-acrylique-tufting-rose",
+      "status": "ACTIVE",
+      "note": "déjà propre — hors périmètre",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/56110383464833",
+          "title": "Rose",
+          "price": "12.90",
+          "compareAtPrice": null
+        }
+      ],
+      "in_scope": false
+    },
+    {
+      "id": "gid://shopify/Product/15500843057537",
+      "title": "Fil acrylique tufting — Rose poudré",
+      "handle": "fil-acrylique-tufting-rose-poudre",
+      "status": "ACTIVE",
+      "note": "déjà propre — hors périmètre",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/56110383595905",
+          "title": "Rose poudré",
+          "price": "12.90",
+          "compareAtPrice": null
+        }
+      ],
+      "in_scope": false
+    },
+    {
+      "id": "gid://shopify/Product/15500843123073",
+      "title": "Fil acrylique tufting — Orange",
+      "handle": "fil-acrylique-tufting-orange",
+      "status": "ACTIVE",
+      "note": "déjà propre — hors périmètre",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/56110383694209",
+          "title": "Orange",
+          "price": "12.90",
+          "compareAtPrice": null
+        }
+      ],
+      "in_scope": false
+    },
+    {
+      "id": "gid://shopify/Product/15500843254145",
+      "title": "Fil acrylique tufting — Jaune",
+      "handle": "fil-acrylique-tufting-jaune",
+      "status": "ACTIVE",
+      "note": "déjà propre — hors périmètre",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/56110383890817",
+          "title": "Jaune",
+          "price": "12.90",
+          "compareAtPrice": null
+        }
+      ],
+      "in_scope": false
+    },
+    {
+      "id": "gid://shopify/Product/15500843319681",
+      "title": "Fil acrylique tufting — Vert foncé",
+      "handle": "fil-acrylique-tufting-vert-fonce",
+      "status": "ACTIVE",
+      "note": "déjà propre — hors périmètre",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/56110384021889",
+          "title": "Vert foncé",
+          "price": "12.90",
+          "compareAtPrice": null
+        }
+      ],
+      "in_scope": false
+    },
+    {
+      "id": "gid://shopify/Product/15500843385217",
+      "title": "Fil acrylique tufting — Beige",
+      "handle": "fil-acrylique-tufting-beige",
+      "status": "ACTIVE",
+      "note": "déjà propre — hors périmètre",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/56110384120193",
+          "title": "Beige",
+          "price": "12.90",
+          "compareAtPrice": null
+        }
+      ],
+      "in_scope": false
+    },
+    {
+      "id": "gid://shopify/Product/15500843450753",
+      "title": "Fil acrylique tufting — Bleu clair",
+      "handle": "fil-acrylique-tufting-bleu-clair",
+      "status": "ACTIVE",
+      "note": "déjà propre — hors périmètre",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/56110384218497",
+          "title": "Bleu clair",
+          "price": "12.90",
+          "compareAtPrice": null
+        }
+      ],
+      "in_scope": false
+    },
+    {
+      "id": "gid://shopify/Product/15500843581825",
+      "title": "Fil acrylique tufting — Bleu marine",
+      "handle": "fil-acrylique-tufting-bleu-marine",
+      "status": "ACTIVE",
+      "note": "déjà propre — hors périmètre",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/56110384415105",
+          "title": "Bleu marine",
+          "price": "12.90",
+          "compareAtPrice": null
+        }
+      ],
+      "in_scope": false
+    },
+    {
+      "id": "gid://shopify/Product/15500843647361",
+      "title": "Fil acrylique tufting — Violet",
+      "handle": "fil-acrylique-tufting-violet",
+      "status": "ACTIVE",
+      "note": "déjà propre — hors périmètre",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/56110384513409",
+          "title": "Violet",
+          "price": "12.90",
+          "compareAtPrice": null
+        }
+      ],
+      "in_scope": false
+    },
+    {
+      "id": "gid://shopify/Product/15500843712897",
+      "title": "Fil acrylique tufting — Taupe",
+      "handle": "fil-acrylique-tufting-taupe",
+      "status": "ACTIVE",
+      "note": "déjà propre — hors périmètre",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/56110384644481",
+          "title": "Taupe",
+          "price": "12.90",
+          "compareAtPrice": null
+        }
+      ],
+      "in_scope": false
+    },
+    {
+      "id": "gid://shopify/Product/15500843778433",
+      "title": "Fil acrylique tufting — Indigo",
+      "handle": "fil-acrylique-tufting-indigo",
+      "status": "ACTIVE",
+      "note": "déjà propre — hors périmètre",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/56110384742785",
+          "title": "Indigo",
+          "price": "12.90",
+          "compareAtPrice": null
+        }
+      ],
+      "in_scope": false
+    },
+    {
+      "id": "gid://shopify/Product/15500843843969",
+      "title": "Fil acrylique tufting — Caramel",
+      "handle": "fil-acrylique-tufting-caramel",
+      "status": "ACTIVE",
+      "note": "déjà propre — hors périmètre",
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/56110384841089",
+          "title": "Caramel",
+          "price": "12.90",
+          "compareAtPrice": null
+        }
+      ],
+      "in_scope": false
+    }
+  ],
+  "scope_note": "22 produits en périmètre (in_scope=true), 196 variantes. Hors périmètre : ciseaux-electriques-sculpture (déjà propre) et les 17 fiches fil-acrylique-tufting-<couleur> (déjà propres). Note produit dérivée du fichier source pour pieces-detachees-tufting-gun conservée.",
+  "variantsCount_verifie": {
+    "fil-acrylique-tufting": 87,
+    "miroir-acrylique-tufting": 32,
+    "pieces-detachees-tufting-gun": 37
+  }
+}
