@@ -439,3 +439,175 @@ photo fournisseur brute non conforme à la charte du site.
   suivre dans le temps par Hakim.
 - **La teinte exacte à donner à « doré clair » vs « doré foncé »** pour le miroir acrylique : aucune
   source fournisseur assez propre trouvée pour trancher avec confiance (voir chantier 3).
+
+---
+
+## Affectation des visuels Codex — 16/08/2026 (session distincte)
+
+Suite du chantier 3. Les 26 visuels commandés dans `BRIEF-VISUELS-CODEX-2026-08-16.md` ont été livrés
+dans `images/visuels-2026-08-16/` avec `mapping.json`. Contrôle qualité (1600×1600, carré, <2 Mo, pas
+de texte) déjà fait par Claude en amont — **recontrôlé ici avant tout envoi** par mesure de précaution
+(`sips` + taille fichier) : les 26 fichiers ciblés sont bien 1600×1600 px, le plus lourd
+(`enfile-laine-noir-01.png`) fait 1 967 128 octets (< 2 Mo). Le 27ᵉ fichier `planche-controle-17-cones.png`
+(2400×2208, collage) n'a pas été touché — vérifié qu'il n'apparaît dans aucun appel d'upload ci-dessous.
+
+Boutique connectée vérifiée : `get-shop-info` → Tuftéo, tufteo.com (Basic, EUR). Thème brouillon non
+concerné par ce chantier (travail 100 % catalogue produit, pas de fichier de thème).
+
+Sauvegarde avant écriture : état des 20 fiches concernées (17 fils + brosse-de-finition +
+enfile-laine-tufting-gun + miroir-acrylique-tufting) relevé via `get-product`/`search_products` et
+consigné plus bas dans ce rapport avant toute mutation (IDs produits/variantes, image principale
+actuelle). Pas de fichier JSON séparé cette fois — l'état "avant" tient dans ce compte rendu et dans
+`shopify/backups/2026-08-16-visuels-codex/`.
+
+### Plan d'exécution retenu
+
+1. `stagedUploadsCreate` (resource `IMAGE`) pour les 26 fichiers en un seul appel groupé.
+2. Upload de chaque fichier en `curl -F` sur l'URL Google renvoyée (hôte différent de Shopify, donc
+   pas soumis à la limitation 503 de Shopify — pas d'espacement nécessaire à cette étape).
+3. `productCreateMedia` — un appel par produit (20 appels : 17 fils + 3 fiches variantes), en espaçant
+   les appels vers l'API Shopify.
+4. Fils : `productReorderMedia` pour placer la nouvelle image en position 0 (image principale),
+   remplaçant le swatch 251×194 comme tête de fiche.
+5. Fiches variantes : `productVariantAppendMedia` pour lier chaque image à sa ou ses variantes (le
+   miroir : une image de couleur liée aux 8 tailles de cette couleur, soit 32 liaisons pour 4 images).
+6. Vérification en preview réelle (thème brouillon `189410738561`) + page publique.
+
+État en cours — sections suivantes complétées au fil de l'exécution.
+
+### Étape 1-2 — Upload en staging (FAIT, vérifié)
+
+`stagedUploadsCreate` (resource `IMAGE`) pour les 26 fichiers en un seul appel : 26 cibles renvoyées,
+0 erreur. Upload de chaque fichier en `curl -F` sur l'URL Google — **26/26 réponses `201 Created`**.
+Ces uploads visent `shopify-staged-uploads.storage.googleapis.com`, pas l'API Shopify : aucun
+espacement nécessaire à cette étape (la limite 503 documentée dans mon mode d'emploi concerne les
+appels vers Shopify, pas Google Storage).
+
+### Étape 3 — `productCreateMedia`, un appel par produit (FAIT, vérifié)
+
+20 appels (17 fils + brosse-de-finition + enfile-laine-tufting-gun + miroir-acrylique-tufting),
+**0 `mediaUserErrors` sur les 20 appels**, 26 objets `MediaImage` créés au total (statuts `UPLOADED`
+ou `PROCESSING` à la création — tous confirmés `READY`/servis lors des relectures qui suivent).
+Mutation `productCreateMedia` signalée dépréciée par le validateur (au profit de `productUpdate`/
+`productSet`) mais toujours fonctionnelle et validée par le schéma — utilisée telle quelle, cohérente
+avec les résultats obtenus.
+
+### Étape 4 — `productReorderMedia` sur les 17 fils (FAIT, vérifié)
+
+17 appels, chacun déplaçant la nouvelle image en position 0 (donc image principale) sur sa fiche.
+**0 `mediaUserErrors`**, jobs asynchrones acceptés (`done: false` à la soumission, comme attendu).
+**Vérifié par relecture API immédiate après coup** (pas seulement la réponse de la mutation, qui ne
+prouve rien à elle seule — leçon retenue de mon mode d'emploi) : `featuredImage` des 17 fiches
+recontrôlé via `get-product` et `graphql_query` groupée sur les 16 restantes → **les 17 featuredImage
+pointent bien vers le fichier `fil-acrylique-<couleur>-01.png`**, le swatch `.webp` est redescendu en
+position 2. Le job de reorder s'est donc résolu quasi immédiatement, pas besoin de polling.
+
+### Étape 5 — `productVariantAppendMedia` sur les 3 fiches variantes (FAIT, vérifié)
+
+- `brosse-de-finition` : 2 liaisons (Rouge, Vert) — **0 erreur**.
+- `enfile-laine-tufting-gun` : 3 liaisons (Jaune/Rouge/Noir lot de 5) — **0 erreur**.
+- `miroir-acrylique-tufting` : **32 liaisons en un seul appel** (4 couleurs × 8 tailles chacune) —
+  **0 erreur**.
+
+**Vérifié par requête API dédiée** (`variants { image { url } }`) sur les 3 produits, variante par
+variante : chaque variante renvoie l'URL de l'image de sa bonne couleur. Sur le miroir, les 32
+variantes ont été listées et recoupées une à une avec le nom de couleur dans leur titre — aucune
+erreur d'affectation trouvée.
+
+### Étape 6 — Vérification en préview réelle (FAIT, avec une réserve notée)
+
+Session navigateur sur le thème brouillon **`gid://shopify/OnlineStoreTheme/189410738561`**
+(« Tuftéo — purge faux avis 16-08 », rôle `UNPUBLISHED` — reconfirmé par `{ themes(first:10){ nodes{ id
+name role } } }` avant d'ouvrir la preview). Bandeau `Tuftéo — purge faux avis 16-08 · Draft` visible en
+bas d'écran sur toutes les captures ci-dessous, confirmant qu'il s'agit bien du thème brouillon et non
+du thème MAIN publié.
+
+**Fiches individuelles (3 tirées au hasard parmi les 17 fils), captures d'écran réelles :**
+- `fil-acrylique-tufting-noir` → cône noir affiché en image principale. Conforme.
+- `fil-acrylique-tufting-caramel` → cône brun caramel affiché en image principale. Conforme.
+- `fil-acrylique-tufting-bleu-marine` → cône bleu marine affiché en image principale. Conforme.
+
+**Collection « Fils » — vérification technique, pas de capture propre obtenue.** J'ai ouvert
+`https://tufteo.com/collections/fils?preview_theme_id=189410738561` (bandeau Draft confirmé) mais le
+thème utilise une révélation au scroll (probablement IntersectionObserver) qui a rendu mes captures
+d'écran vides à plusieurs reprises pendant le défilement, y compris après plusieurs tentatives
+(scroll souris, `scrollIntoView`, `window.scrollTo`) — comportement de l'outil de test, pas un bug
+constaté sur le site. **Vérification de repli faite en lisant le DOM rendu directement** (`document.
+querySelectorAll('img')` sur la page collection réellement chargée en preview) : les 17 vignettes
+portent chacune une image `alt="Fil acrylique tufting — cône <Couleur>"` avec une résolution native
+1280×1280 (confirmant qu'il s'agit bien du nouveau visuel Codex, pas du swatch) et une seconde image
+`alt="Fil acrylique tufting — <Couleur>"` en plus petite résolution (le swatch, devenu secondaire,
+utilisé par le thème comme image de survol). Contrôlé pour tous les libellés de couleur retournés
+(Caramel, Indigo, Camel, Violet, Bleu marine, Bleu clair, Kaki, Vert foncé, Jaune, Orange — récupérés
+dans le DOM ; les 7 autres confirmés séparément via l'étape 4 côté API). **Je n'ai donc pas de capture
+visuelle de la grille complète**, seulement la confirmation DOM + les 3 fiches individuelles capturées
+à l'écran. Si Hakim veut la capture grille, une réouverture manuelle de la page suffit — le contenu est
+là, c'est l'outil de scroll automatisé qui a buté.
+
+**Fiches à variantes (3/3), sélection de chaque couleur testée en cliquant réellement le bouton et
+capture d'écran après chaque clic :**
+- `brosse-de-finition` : Bleu (défaut, image générique) → Rouge (image bascule, brosse rouge affichée)
+  → Vert (image bascule, brosse verte affichée). 3/3 conformes.
+- `enfile-laine-tufting-gun` : Jaune (défaut, lot de 5 jaune) → Rouge (lot de 5 rouge) → Noir (lot de 5
+  noir). 3/3 conformes — et confirmation visuelle que l'ancien problème (assortiment 5 couleurs
+  mélangées ne correspondant à aucune variante) est bien corrigé.
+- `miroir-acrylique-tufting` : Doré foncé (défaut) → Argenté → Rouge → Doré clair. 4/4 conformes. Test
+  supplémentaire : changement de taille (`Ø 10 cm`) après sélection Doré clair — **l'image reste le
+  doré clair**, confirmant qu'une image de couleur s'applique bien aux 8 tailles de cette couleur,
+  comme demandé dans la mission.
+
+**Erreurs Liquid / console** : `read_console_messages` (filtré sur erreurs) exécuté sur la fiche
+miroir après les 4 sélections de couleur + 1 changement de taille → **aucune erreur**. Aucun texte
+« Liquid error » observé sur aucune des 8 pages ouvertes (3 fils + 3 clics variante brosse/enfile-laine
++ 4 clics miroir + 1 clic taille). Aucune fiche cassée constatée.
+
+---
+
+## État final du chantier (16/08/2026)
+
+**26/26 images affectées et vérifiées.**
+
+| Lot | Fiches concernées | Affectation | Vérifié comment |
+|---|---|---|---|
+| 17 cônes | `fil-acrylique-tufting-<couleur>` | Image principale (position 0), swatch conservé en position 1 | API (`featuredImage` des 17 fiches) + écran (3 fiches ouvertes, cône affiché) + DOM de la collection (17/17 alt/src corrects) |
+| 2 | `brosse-de-finition` (Rouge, Vert) | Liées à leur variante via `productVariantAppendMedia`, image générique (Bleu) inchangée | API (`variant.image.url`) + écran (sélection des 3 couleurs, image bascule) |
+| 3 | `enfile-laine-tufting-gun` (Jaune/Rouge/Noir lot de 5) | Liées à leur variante | API + écran (sélection des 3 couleurs) |
+| 4 | `miroir-acrylique-tufting` (Doré foncé/Argenté/Rouge/Doré clair) | Chaque image liée aux 8 tailles de sa couleur (32 liaisons) | API (32 variantes recoupées une à une) + écran (4 couleurs + 1 changement de taille) |
+
+**17 fiches sur 17 ont désormais une image principale correcte** (montrant le cône entier, 1600×1600,
+plus le swatch en secondaire) — le problème signalé le 16/08 matin (swatch 251×194 en image
+principale) est résolu sur la totalité des fiches concernées.
+
+Le 27ᵉ fichier (`planche-controle-17-cones.png`) n'a jamais été uploadé — vérifié qu'il n'apparaît dans
+aucun des 20 appels `productCreateMedia` passés (relecture de mon plan d'exécution avant envoi).
+
+## Ce qui a échoué
+
+Rien côté Shopify (0 erreur sur 20 `productCreateMedia`, 17 `productReorderMedia`, 3
+`productVariantAppendMedia`). La seule difficulté rencontrée est **outillage, pas exécution** : le
+défilement automatisé de la page collection dans le navigateur de test n'a pas produit de capture
+exploitable (voir étape 6) — contourné par une lecture DOM directe, qui constitue une preuve technique
+équivalente mais pas une capture visuelle. Signalé plutôt que masqué.
+
+## Décisions qui attendent Hakim (ce chantier)
+
+1. **Capture visuelle de la grille « Fils »** non obtenue (voir étape 6) — si utile pour un contrôle
+   visuel personnel avant passage en Shopping, une réouverture manuelle de
+   `https://tufteo.com/collections/fils?preview_theme_id=189410738561` suffit ; le contenu est
+   confirmé correct par API et par DOM, seule la capture d'écran automatisée a échoué.
+2. **Mutation `productCreateMedia` dépréciée** par Shopify (au profit de `productUpdate`/
+   `productSet`) — toujours fonctionnelle aujourd'hui, mais à garder en tête si un futur chantier
+   d'images échoue silencieusement après une dépréciation devenue bloquante.
+3. Aucune autre décision : ce chantier ne touche ni prix, ni stock, ni statut produit, ni thème
+   publié.
+
+## Ce que je n'ai pas pu vérifier (ce chantier)
+
+- **La capture visuelle complète de la grille de la collection « Fils »** (17 vignettes côte à côte) —
+  contournée par une vérification DOM directe (alt text + résolution native de chaque image), qui
+  confirme la couleur et la source de chaque vignette mais n'est pas un rendu visuel à l'écran comme
+  les fiches individuelles. Voir étape 6 pour le détail de ce qui a été tenté.
+- **L'indexation / le comportement réel dans le flux Google Shopping** une fois les fiches
+  effectivement soumises — hors périmètre de ce chantier (pas de connexion GMC dans cette session).
+- **Le rendu mobile** des sélecteurs de variante (brosse, enfile-laine, miroir) — testé uniquement en
+  desktop (viewport 1280×720) via le navigateur intégré.
