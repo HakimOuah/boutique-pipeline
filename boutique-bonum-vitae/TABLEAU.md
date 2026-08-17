@@ -13,9 +13,9 @@ pour un test ads en septembre. Prompt de relance :
 
 > 👉 **Hakim, maintenant :** ① T-H7 — prix restants · ② T-11 — QA FullStack **live**.
 
-Dernière mise à jour : **18/08/2026 ~1h50** — 4 paragraphes USP du gabarit produit
-réécrits (argumentaire Claire : packs, pose, transparence, bon usage). Constaté live
-sur `/products/kit-entretien-osmoseur-600-gpd`.
+Dernière mise à jour : **18/08/2026 ~1h55** — USP Transparence recalé sur l'objection
+« ça marche vraiment / je vais me tromper » (plus de disclaimer GMC).
+— Plus tôt (~1h50) : 4 paragraphes USP du gabarit produit réécrits.
 [`journal/2026-08-18-usp-gabarit-produit.md`](journal/2026-08-18-usp-gabarit-produit.md).
 — Plus tôt (~1h35) : ✅ **Kit 600 GPD publié**
 https://bonumvitae.fr/products/kit-entretien-osmoseur-600-gpd (200, 129 €, 0 barré).

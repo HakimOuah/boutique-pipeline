@@ -15,7 +15,7 @@ inchangés. Backup : `backups/2026-08-18-usp-pdp/product-avant.json`.
 |---|---|---|
 | Notre sélection | « équipements fiables et rechargeables… pièce par pièce » | Verre sans goût de chlore, douche sans traces, plus de packs — on commence par ce qui agace |
 | En quelques minutes | Inventaire pose (filtre / carafe / osmoseur) | Vous le posez vous-même. Pas de devis. Si ça demande plus, c'est sur la fiche |
-| Transparence | Specs vs non vérifié (ton conformité) | On dit ce qui est prouvé et ce qui ne l'est pas |
+| Transparence | Specs vs non vérifié, puis « prouvé / taux inventé » (disclaimer) | Objection Claire : « ça marche vraiment ? / je vais me tromper ». La fiche dit ce que ça fait et ce que ça ne fait pas ; on répond avant le paiement |
 | Du filtre à l'osmoseur | Catalogue qui « couvre tout le parcours » | Le bon outil, pas le plus cher. Coût d'entretien avant le panier |
 
 Source : persona Claire + axe « transparence radicale » + hero home (packs, chlore,
