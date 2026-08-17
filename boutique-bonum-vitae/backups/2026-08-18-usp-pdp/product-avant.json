@@ -97,8 +97,7 @@
                 "margin_bottom": 15,
                 "additional_class": ""
               },
-              "blocks": {},
-              "block_order": []
+              "blocks": {}
             },
             "product-add-to-cart-button": {
               "type": "_product-add-to-cart-button",
@@ -654,33 +653,6 @@
     },
     "usp1": {
       "type": "custom-section",
-      "settings": {
-        "show_on_display": "desktop_and_mobile",
-        "color_scheme": "scheme-1",
-        "wrap_in_card": false,
-        "color_scheme_card": "",
-        "section_width": "normal",
-        "layout_type": "flex",
-        "layout_flex_direction_desktop": "row",
-        "layout_grid_columns_desktop": 3,
-        "layout_gap_desktop": 40,
-        "layout_wrap_desktop": "nowrap",
-        "layout_flex_justify_desktop": "flex-start",
-        "layout_flex_align_items_desktop": "center",
-        "same_as_desktop": true,
-        "layout_flex_direction_mobile": "column",
-        "layout_gap_mobile": 10,
-        "layout_wrap_mobile": "nowrap",
-        "layout_flex_justify_mobile": "flex-start",
-        "layout_flex_align_items_mobile": "flex-start",
-        "layout_grid_columns_mobile": 1,
-        "padding_top": 50,
-        "padding_bottom": 30,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "anchor_id": "",
-        "additional_class": ""
-      },
       "blocks": {
         "img": {
           "type": "image",
@@ -779,7 +751,7 @@
               "type": "text",
               "settings": {
                 "show_on_display": "desktop_and_mobile",
-                "text": "<p>Un verre sans goût de chlore, une douche sans traces, plus de packs dans le coffre : chaque pièce a son équipement. Vous commencez par ce qui vous agace.</p>",
+                "text": "<p>Douche, robinet, cuisine, eau de boisson : nous sélectionnons des équipements de filtration fiables et rechargeables pour améliorer l’eau du quotidien, pièce par pièce.</p>",
                 "text_style": "paragraph",
                 "paragraph_font_size": "normal",
                 "font_weight": 400,
@@ -827,10 +799,7 @@
       "block_order": [
         "img",
         "group"
-      ]
-    },
-    "usp2": {
-      "type": "custom-section",
+      ],
       "settings": {
         "show_on_display": "desktop_and_mobile",
         "color_scheme": "scheme-1",
@@ -857,7 +826,10 @@
         "margin_bottom": 0,
         "anchor_id": "",
         "additional_class": ""
-      },
+      }
+    },
+    "usp2": {
+      "type": "custom-section",
       "blocks": {
         "img": {
           "type": "image",
@@ -956,7 +928,7 @@
               "type": "text",
               "settings": {
                 "show_on_display": "desktop_and_mobile",
-                "text": "<p>Vous le posez vous-même : un filtre se visse, une carafe se remplit. Pas de devis, pas de journée sans eau. Si un modèle demande plus, c’est écrit sur la fiche.</p>",
+                "text": "<p>Un filtre qui se visse, une carafe que l’on remplit, un osmoseur qui se raccorde sous l’évier : la plupart de nos produits se posent en quelques minutes, notice à l’appui. Quand une installation demande plus, nous le disons sur la fiche.</p>",
                 "text_style": "paragraph",
                 "paragraph_font_size": "normal",
                 "font_weight": 400,
@@ -985,10 +957,7 @@
       "block_order": [
         "group",
         "img"
-      ]
-    },
-    "usp3": {
-      "type": "custom-section",
+      ],
       "settings": {
         "show_on_display": "desktop_and_mobile",
         "color_scheme": "scheme-1",
@@ -1015,7 +984,10 @@
         "margin_bottom": 0,
         "anchor_id": "",
         "additional_class": ""
-      },
+      }
+    },
+    "usp3": {
+      "type": "custom-section",
       "blocks": {
         "img": {
           "type": "image",
@@ -1114,7 +1086,7 @@
               "type": "text",
               "settings": {
                 "show_on_display": "desktop_and_mobile",
-                "text": "<p>On vous dit ce qui est prouvé et ce qui ne l’est pas. Specs d’un côté, limites de l’autre — pas de taux inventé, pas d’allégation santé.</p>",
+                "text": "<p>Chaque fiche sépare les specs fournies de ce qui n’est pas vérifié. Pas de taux inventé, pas d’allégation santé.</p>",
                 "text_style": "paragraph",
                 "paragraph_font_size": "normal",
                 "font_weight": 400,
@@ -1143,10 +1115,7 @@
       "block_order": [
         "img",
         "group"
-      ]
-    },
-    "usp4": {
-      "type": "custom-section",
+      ],
       "settings": {
         "show_on_display": "desktop_and_mobile",
         "color_scheme": "scheme-1",
@@ -1173,7 +1142,10 @@
         "margin_bottom": 0,
         "anchor_id": "",
         "additional_class": ""
-      },
+      }
+    },
+    "usp4": {
+      "type": "custom-section",
       "blocks": {
         "img": {
           "type": "image",
@@ -1272,7 +1244,7 @@
               "type": "text",
               "settings": {
                 "show_on_display": "desktop_and_mobile",
-                "text": "<p>Carafe, filtre robinet, pommeau ou osmoseur : le bon outil pour le bon usage, pas le plus cher par défaut. Le coût d’entretien est sur la fiche, avant le panier.</p>",
+                "text": "<p>Du filtre pour robinet à l’osmoseur sous évier, en passant par les carafes et les pommeaux de douche, notre gamme couvre tout le parcours de l’eau dans la maison.</p>",
                 "text_style": "paragraph",
                 "paragraph_font_size": "normal",
                 "font_weight": 400,
@@ -1320,10 +1292,7 @@
       "block_order": [
         "group",
         "img"
-      ]
-    },
-    "faq": {
-      "type": "custom-section",
+      ],
       "settings": {
         "show_on_display": "desktop_and_mobile",
         "color_scheme": "scheme-1",
@@ -1331,12 +1300,12 @@
         "color_scheme_card": "",
         "section_width": "normal",
         "layout_type": "flex",
-        "layout_flex_direction_desktop": "column",
+        "layout_flex_direction_desktop": "row",
         "layout_grid_columns_desktop": 3,
-        "layout_gap_desktop": 15,
+        "layout_gap_desktop": 40,
         "layout_wrap_desktop": "nowrap",
         "layout_flex_justify_desktop": "flex-start",
-        "layout_flex_align_items_desktop": "flex-start",
+        "layout_flex_align_items_desktop": "center",
         "same_as_desktop": true,
         "layout_flex_direction_mobile": "column",
         "layout_gap_mobile": 10,
@@ -1350,7 +1319,10 @@
         "margin_bottom": 0,
         "anchor_id": "",
         "additional_class": ""
-      },
+      }
+    },
+    "faq": {
+      "type": "custom-section",
       "blocks": {
         "h2": {
           "type": "text",
@@ -1637,7 +1609,34 @@
       "block_order": [
         "h2",
         "acc"
-      ]
+      ],
+      "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "color_scheme": "scheme-1",
+        "wrap_in_card": false,
+        "color_scheme_card": "",
+        "section_width": "normal",
+        "layout_type": "flex",
+        "layout_flex_direction_desktop": "column",
+        "layout_grid_columns_desktop": 3,
+        "layout_gap_desktop": 15,
+        "layout_wrap_desktop": "nowrap",
+        "layout_flex_justify_desktop": "flex-start",
+        "layout_flex_align_items_desktop": "flex-start",
+        "same_as_desktop": true,
+        "layout_flex_direction_mobile": "column",
+        "layout_gap_mobile": 10,
+        "layout_wrap_mobile": "nowrap",
+        "layout_flex_justify_mobile": "flex-start",
+        "layout_flex_align_items_mobile": "flex-start",
+        "layout_grid_columns_mobile": 1,
+        "padding_top": 50,
+        "padding_bottom": 30,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "anchor_id": "",
+        "additional_class": ""
+      }
     },
     "recommendations": {
       "type": "product-recommendations",

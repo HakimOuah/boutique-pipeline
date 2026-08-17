@@ -16,9 +16,9 @@ Karim / Bernard « Vérifié » et les 312 avis sont publics, cet actif est expo
 
 **2. Rail A sur le live, rail B sur une copie. Hakim publie.**
 
-Le MAIN actuel est Horizon (`203569004882`). On n'y touche **que** pour le crible (faux avis, notes,
-barrés, bandeau, claims). FullStack se travaille sur une copie **UNPUBLISHED**. **Ne jamais publier
-un thème. Ne jamais écrire le redesign sur le MAIN.**
+Le MAIN actuel est FullStack `copie-de-fullstack-2-3` (`205568147794`) — Hakim a publié.
+On n'y touche que sur demande explicite (copy, crible). **Ne jamais republier / switcher
+un thème.** Horizon (`203569004882`) est UNPUBLISHED.
 
 **3. FullStack natif d'abord. On ne redécouvre pas le thème.**
 

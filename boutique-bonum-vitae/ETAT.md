@@ -1,9 +1,8 @@
 # Bonum Vitae — état courant
 
-**Dernière mise à jour : 18/08/2026 ~1h35** — kit entretien 600 GPD **publié**
-(`kit-entretien-osmoseur-600-gpd`, 129 €). Membrane 50 GPD **dépubliée** (404).
-`osmoseurs` public = 3. [`TABLEAU.md`](TABLEAU.md) ·
-[`journal/2026-08-18-publication-kit.md`](journal/2026-08-18-publication-kit.md).
+**Dernière mise à jour : 18/08/2026 ~1h50** — USP gabarit produit réécrits. FullStack
+`205568147794` est **MAIN**. Kit 600 GPD publié. [`TABLEAU.md`](TABLEAU.md) ·
+[`journal/2026-08-18-usp-gabarit-produit.md`](journal/2026-08-18-usp-gabarit-produit.md).
 
 ---
 
@@ -31,8 +30,8 @@
 
 | Thème | Id | Rôle | Note |
 |---|---|---|---|
-| Horizon | `203569004882` | **MAIN** | rail A appliqué le 17/08 (3 templates + header-group) |
-| `copie-de-fullstack-2-3` | **`205568147794`** | UNPUBLISHED | **cible rail B** — zip vendeur brut du 17/08 15h35, démo à purger (`powered-by-fullstack.svg`, placeholders, `logo-fullstack.png`) |
+| `copie-de-fullstack-2-3` | **`205568147794`** | **MAIN** | publié par Hakim (constaté API 18/08 ~1h45). USP produit réécrits le 18/08. |
+| Horizon | `203569004882` | UNPUBLISHED | ancien live, rail A du 17/08 |
 | theme-impact-tristan-version-1 | `203578376530` | UNPUBLISHED | juillet, hors périmètre |
 | Copie de theme-impact-tristan-version-1 | `203601510738` | UNPUBLISHED | juillet, hors périmètre |
 

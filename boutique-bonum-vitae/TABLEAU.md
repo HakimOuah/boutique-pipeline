@@ -11,9 +11,13 @@ pour un test ads en septembre. Prompt de relance :
 
 **Mets ce fichier à jour avant de rendre la main.**
 
-> 👉 **Hakim, maintenant :** ① T-H7 — prix restants · ② T-11 — QA préview FullStack.
+> 👉 **Hakim, maintenant :** ① T-H7 — prix restants · ② T-11 — QA FullStack **live**.
 
-Dernière mise à jour : **18/08/2026 ~1h35** — ✅ **Kit 600 GPD publié**
+Dernière mise à jour : **18/08/2026 ~1h50** — 4 paragraphes USP du gabarit produit
+réécrits (argumentaire Claire : packs, pose, transparence, bon usage). Constaté live
+sur `/products/kit-entretien-osmoseur-600-gpd`.
+[`journal/2026-08-18-usp-gabarit-produit.md`](journal/2026-08-18-usp-gabarit-produit.md).
+— Plus tôt (~1h35) : ✅ **Kit 600 GPD publié**
 https://bonumvitae.fr/products/kit-entretien-osmoseur-600-gpd (200, 129 €, 0 barré).
 `osmoseurs` public = **3**. [`journal/2026-08-18-publication-kit.md`](journal/2026-08-18-publication-kit.md).
 — Plus tôt (~1h10) : ✅ **Kit entretien importé en brouillon**
@@ -137,12 +141,12 @@ Persona sourcé SERP/forums/avis concurrents, format template maison :
 [`../personas/persona-bonum-vitae-2026-08-17.md`](../personas/persona-bonum-vitae-2026-08-17.md).
 Validation Hakim = T-H3. Volumes SEMrush non mesurés dans cette passe (limite notée au fichier).
 
-### T-11 — QA préview FullStack v1 (mobile 375 px d'abord)
-**État** : À FAIRE · **Pour** : Hakim (préview) puis Claude (correctifs) · **Gravité** : P1
-**Pourquoi** : la v1 est écrite et vérifiée par API, mais `preview_theme_id` exige une session
-navigateur — le rendu réel n'a pas été vu.
+### T-11 — QA FullStack live (mobile 375 px d'abord)
+**État** : À FAIRE · **Pour** : Hakim puis Claude (correctifs) · **Gravité** : P1
+**Pourquoi** : FullStack `205568147794` est **MAIN** (Hakim a publié). Le rendu réel
+n'a pas encore été QAé ligne à ligne.
 **Comment** :
-1. Ouvrir `https://kw7vak-g0.myshopify.com?preview_theme_id=205568147794` (mobile d'abord).
+1. Ouvrir `https://bonumvitae.fr` et une fiche (mobile d'abord).
 2. Contrôler : hero (lisibilité sur image), icônes Material (`water_drop`, `balance`, `lock`…),
    tableau comparatif en mobile, accordéons, sticky ATC, date `delivery-estimation` en français,
    icônes de paiement du footer vs checkout réel.
