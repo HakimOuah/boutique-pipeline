@@ -1,9 +1,8 @@
 # Bonum Vitae — état courant
 
-**Dernière mise à jour : 17/08/2026 ~22h25** — visuels LPS **voie C** (Hakim) : overlays assumés,
-brief relancé, robe inox nue autorisée. Raccord fiche **G3/4" femelle**. Plus tôt : STOP Codex,
-persona, OSWNKW 449 €, FullStack v1, rail A P0.
-[`TABLEAU.md`](TABLEAU.md) · [`journal/2026-08-17-stop-visuels-anti-tartre.md`](journal/2026-08-17-stop-visuels-anti-tartre.md).
+**Dernière mise à jour : 17/08/2026 ~22h40** — visuels LPS livrés, QA faite : 1-4 et 6 OK,
+image 5 en réserve (topologie chauffe-eau). Shopify non touché. Raccord **G3/4" femelle**.
+[`TABLEAU.md`](TABLEAU.md) · [`journal/2026-08-17-qa-visuels-anti-tartre.md`](journal/2026-08-17-qa-visuels-anti-tartre.md).
 
 ---
 

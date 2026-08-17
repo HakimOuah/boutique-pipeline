@@ -1,61 +1,66 @@
 {
   "produit": "anti-tartre-galvanique-toute-la-maison",
-  "date_controle": "2026-08-17",
-  "statut": "STOP_MARQUAGE_PHYSIQUE_A_VERIFIER",
-  "generation_lancee": false,
+  "date_production": "2026-08-17",
+  "statut": "LIVRAISON_LOCALE_A_CONTROLER",
+  "decision_utilisateur": "Voie C : le drapeau allemand et l'etiquette bleue des sources 1-2 sont traites comme des incrustations vendeur a retirer. Raccord corrige en G3/4 femelle, 20x27.",
   "shopify_modifie": false,
-  "livrables_images": [],
-  "motif": "Les sources 1 et 2 montrent un drapeau allemand et une etiquette bleue avec allegations et symboles de certification directement apposes sur le corps du produit. Le brief interdit leur suppression sans preuve que le produit reellement expedie est vierge.",
-  "outil": {
-    "inspection": "Codex view_image",
-    "generation": null,
-    "prompt": null
-  },
-  "sources": [
+  "outil_generation": "OpenAI built-in image_gen",
+  "outil_normalisation": "macOS sips, JPEG qualite 92, profil sRGB IEC61966-2.1",
+  "format_final": {"largeur": 2048, "hauteur": 2048, "ratio": "1:1", "format": "JPEG", "profil": "sRGB IEC61966-2.1"},
+  "sources_communes": [
+    {"fichier": "sources/source-1.webp", "url": "https://cdn.shopify.com/s/files/1/1090/7251/5410/files/S66e3e9d42b4c41c1a7ae6904fad07b04R.webp", "role": "reference stricte de geometrie externe"},
+    {"fichier": "sources/source-2.webp", "url": "https://cdn.shopify.com/s/files/1/1090/7251/5410/files/S30dea3752ff84efc99f8a33fdb904047l.webp", "role": "reference stricte de proportions et de silhouette"}
+  ],
+  "prompt_base": "Composition fidele du long corps cylindrique inox des sources 1-2 : memes proportions, deux collerettes et raccords hexagonaux G3/4 femelles, robe continue en inox brosse nu. Retirer tous les overlays vendeur. Direction Bonum Vitae : interieur francais credible, lumiere naturelle douce, Lin #F7F4EE, bois clair, touche Bleu Abysse #0E3A5A. Aucun texte, lettre, chiffre, logo, drapeau, etiquette, certification, filigrane ou badge. Aucun ajout de vanne, cable, cartouche, aimant ou gravure ; aucun raccord produit modifie.",
+  "livrables": [
     {
-      "fichier": "sources/source-1.webp",
-      "url": "https://cdn.shopify.com/s/files/1/1090/7251/5410/files/S66e3e9d42b4c41c1a7ae6904fad07b04R.webp",
-      "sha256": "4bb83220c9331a531f5b701b940579a09124521aa321850f0151b41588911196",
-      "controle": "Bloquant : drapeau et etiquette bleue apposes sur le cylindre."
+      "fichier": "anti-tartre-galvanique-1.jpg",
+      "sha256": "4506b962248e15193e7c407d7cb0fe17153b476ed1c0ff49c6f28f31c7b10907",
+      "image_source_utilisee": ["sources/source-1.webp", "sources/source-2.webp"],
+      "prompt_specifique": "Packshot heros centre en trois-quarts sur fond lin et bois clair, objet entier, ombre douce, ouverture femelle visible.",
+      "alt": "Anti-tartre galvanique cylindrique en inox brosse sur fond clair, raccord femelle visible",
+      "qa": {"proportions_et_silhouette_controlees": true, "raccord_g3_4_femelle_visible": true, "robe_inox_nue": true, "aucun_texte_ou_logo": true, "aucun_element_produit_invente": true, "direction_artistique_coherente": true}
     },
     {
-      "fichier": "sources/source-2.webp",
-      "url": "https://cdn.shopify.com/s/files/1/1090/7251/5410/files/S30dea3752ff84efc99f8a33fdb904047l.webp",
-      "sha256": "ce99cb3cbb78834bafe6220609b02c703cad500be389376c477ff7d24ec74bd7",
-      "controle": "Bloquant : drapeau et etiquette bleue apposes sur le cylindre ; filigrane AliExpress."
+      "fichier": "anti-tartre-galvanique-2.jpg",
+      "sha256": "adb12da12bade34ef58b03a44ddb24666acd80fa5780e1905a4a19749f481e68",
+      "image_source_utilisee": ["sources/source-1.webp", "sources/source-2.webp"],
+      "prompt_specifique": "Dispositif installe horizontalement sur une canalisation propre dans une buanderie lumineuse, avec adaptateurs males plausibles dans les extremites femelles.",
+      "alt": "Anti-tartre galvanique en inox installe sur une canalisation dans une buanderie claire",
+      "qa": {"proportions_et_silhouette_controlees": true, "raccordement_contextuel_plausible": true, "robe_inox_nue": true, "aucun_texte_ou_logo": true, "aucun_element_ajoute_au_corps": true, "direction_artistique_coherente": true}
     },
     {
-      "fichier": "sources/source-3.webp",
-      "url": "https://cdn.shopify.com/s/files/1/1090/7251/5410/files/S75c4207d474744679a747e9f97a416f63.webp",
-      "sha256": "aa4c52a6cd9470b259aa8cdaf07c4da3f4746db2a6ea26949fbbf92356253163",
-      "controle": "Schema marketing avec textes et filigrane ; ne prouve pas l'apparence externe livree."
+      "fichier": "anti-tartre-galvanique-3.jpg",
+      "sha256": "f651d30d9fd2fe439289a41c57f9ed12624e41734eccd8f37ef81cc47f98c03f",
+      "image_source_utilisee": ["sources/source-1.webp", "sources/source-2.webp"],
+      "prompt_specifique": "Deux mains adultes vissent le corps sur un adaptateur male compatible ; cle plate posee a cote, geste naturel et raccord visible.",
+      "alt": "Mains installant un anti-tartre galvanique en inox sur un raccord de canalisation",
+      "qa": {"proportions_et_silhouette_controlees": true, "mains_anatomiquement_coherentes": true, "raccordement_contextuel_plausible": true, "robe_inox_nue": true, "aucun_texte_ou_logo": true, "direction_artistique_coherente": true}
     },
     {
-      "fichier": "sources/source-4.webp",
-      "url": "https://cdn.shopify.com/s/files/1/1090/7251/5410/files/S51846c37c3a243b48a0967507bd2181be.webp",
-      "sha256": "cfc0d92d3bd92959648203b4cd90ea73570c68d81fc71af3409bd3103cfd0412",
-      "controle": "Ecorche marketing avec textes, chiffres et filigrane ; non exploitable comme preuve externe."
+      "fichier": "anti-tartre-galvanique-4.jpg",
+      "sha256": "49519919fb46d4a41f8c2765baf6665d2b66940f251426fa498e011b176bbccf",
+      "image_source_utilisee": ["sources/source-1.webp", "sources/source-2.webp"],
+      "prompt_specifique": "Macro trois-quarts du filetage interne G3/4 femelle, du raccord hexagonal, de la collerette et de la finition inox brossee.",
+      "alt": "Gros plan du filetage femelle et de la finition en inox brosse de l'anti-tartre",
+      "qa": {"filetage_interne_visible": true, "raccord_hexagonal_visible": true, "robe_inox_nue": true, "aucun_texte_ou_logo": true, "aucune_dimension_inventee": true, "direction_artistique_coherente": true}
     },
     {
-      "fichier": "sources/source-5.webp",
-      "url": "https://cdn.shopify.com/s/files/1/1090/7251/5410/files/S66fa99ebb6aa4aa98070e202aaaefe9bG.webp",
-      "sha256": "a5615688bbfa4aa7b3284a924c0ddad2e318cc28f1754d55f9c4757f60855ac3",
-      "controle": "Graphique et avant/apres marketing avec filigrane ; mention G3/4 female a reconcilier avec DN32."
+      "fichier": "anti-tartre-galvanique-5.jpg",
+      "sha256": "4e6ad7c866064fffc4902241b151ccc357c77b909e36cf68f3d5318a365d05e2",
+      "image_source_utilisee": ["sources/source-1.webp", "sources/source-2.webp"],
+      "prompt_specifique": "Vue large d'une buanderie francaise rangee avec chauffe-eau neutre en arriere-plan et produit discret sur la ligne d'eau.",
+      "alt": "Anti-tartre galvanique installe sur la ligne d'eau sous un chauffe-eau dans une buanderie",
+      "qa": {"echelle_contextuelle_controlee": true, "chauffe_eau_sans_marque": true, "robe_inox_nue": true, "aucun_texte_ou_logo": true, "aucune_allegation_visuelle": true, "direction_artistique_coherente": true}
     },
     {
-      "fichier": "sources/source-6.webp",
-      "url": "https://cdn.shopify.com/s/files/1/1090/7251/5410/files/S936064795cf44562b9253b90f96dbd40X.webp",
-      "sha256": "495879f30993bb99d7837ec7a363915b639c780002abece4a6f30df7d10b101a",
-      "controle": "Montage pedagogique avec textes et filigrane ; aucun produit externe exploitable."
+      "fichier": "anti-tartre-galvanique-6.jpg",
+      "sha256": "484a53e2e862309f74dfe22b6954a2c1527e4bda807630aad9f0c875c5358cd7",
+      "image_source_utilisee": ["sources/source-1.webp", "sources/source-2.webp"],
+      "prompt_specifique": "Second packshot depuis un angle plus haut, profil complet et ouverture femelle visible ; remplacement autorise de l'ecorche non prouvable.",
+      "alt": "Vue de profil en hauteur de l'anti-tartre galvanique en inox avec raccord femelle",
+      "qa": {"angle_distinct_du_heros": true, "raccord_g3_4_femelle_visible": true, "robe_inox_nue": true, "aucun_texte_ou_logo": true, "aucun_interieur_invente": true, "direction_artistique_coherente": true}
     }
   ],
-  "qa": {
-    "proportions_identiques_source": null,
-    "filetages_identiques_source": null,
-    "aucun_lettrage_genere": null,
-    "aucun_logo_tiers": false,
-    "aucun_texte": false,
-    "coherence_direction_artistique": null
-  },
-  "alts_fr": []
+  "controle_global": {"six_fichiers_presents": true, "noms_conformes": true, "dimensions_conformes": true, "jpeg_srgb": true, "aucun_texte_incruste": true, "aucun_logo_tiers": true, "aucune_preuve_sociale": true, "aucune_imagerie_sante": true, "shopify_non_modifie": true}
 }
