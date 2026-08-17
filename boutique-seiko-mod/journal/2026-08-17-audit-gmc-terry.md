@@ -29,6 +29,12 @@ Deux raisons distinctes, à ne pas mélanger :
 **Ce n'est plus « 20 minutes de thème ».** Le storefront tient. Ce qui bloque une soumission,
 c'est l'ordre d'ouverture, l'âge du domaine, et trois écarts de catalogue déjà connus.
 
+**Addendum Hakim 17/08 ~11h15.** Âge du domaine : **accepté** (pas éliminatoire). Présidentiel :
+**on laisse**. Collections < 5 : **on garde**, on n'invente pas de produits. Recoupe politiques
+(hors dates) + délais : **OK** — une seule fenêtre de livraison, deux formulations équivalentes
+(14–21 j calendaires dans les contrats = 2 à 3 semaines en FAQ / fiches / pied de page / tarif
+panier). Détail dans la checklist §3.
+
 ---
 
 # À PART LES POLITIQUES, IL RESTE QUOI ?
