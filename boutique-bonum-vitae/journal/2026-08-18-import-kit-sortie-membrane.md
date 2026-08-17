@@ -50,5 +50,6 @@ Hakim : « Envoie-moi le brief, c'est aussi pour un souci de cohérence aux yeux
 - Visuels composés : **faits le 18/08 ~1h25** — voir
   [`2026-08-18-rattachement-visuels-kit.md`](2026-08-18-rattachement-visuels-kit.md).
 - Commande test de compatibilité 299 € / 449 €.
-- Activation / publication.
+- Activation / publication : **fait le 18/08 ~1h35** — voir
+  [`2026-08-18-publication-kit.md`](2026-08-18-publication-kit.md).
 - Comptoir : reporté, comme demandé.

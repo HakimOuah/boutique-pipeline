@@ -12,11 +12,10 @@ pour un test ads en septembre. Prompt de relance :
 **Mets ce fichier à jour avant de rendre la main.**
 
 > 👉 **Hakim, maintenant :** ① T-H7 — prix restants · ② T-11 — QA préview FullStack.
-> Kit 600 GPD = brouillon (visuels rattachés ; commande test avant activation).
 
-Dernière mise à jour : **18/08/2026 ~1h25** — ✅ **6 visuels kit rattachés** au brouillon
-(`kit-entretien-osmoseur-600-gpd`, image 1 = Shopping, brutes DSers détachées).
-[`journal/2026-08-18-rattachement-visuels-kit.md`](journal/2026-08-18-rattachement-visuels-kit.md).
+Dernière mise à jour : **18/08/2026 ~1h35** — ✅ **Kit 600 GPD publié**
+https://bonumvitae.fr/products/kit-entretien-osmoseur-600-gpd (200, 129 €, 0 barré).
+`osmoseurs` public = **3**. [`journal/2026-08-18-publication-kit.md`](journal/2026-08-18-publication-kit.md).
 — Plus tôt (~1h10) : ✅ **Kit entretien importé en brouillon**
 (`kit-entretien-osmoseur-600-gpd`, 129 €, 0 barré). ✅ **Membrane 50 GPD dépubliée**
 (404 public — incompatible 600 GPD). Comptoir plus tard. Journal :
@@ -104,14 +103,14 @@ FullStack : hero, H2, lorem collection. Constaté anonyme : nouveau H1, plus de 
 ## À FAIRE
 
 ### ~~T-15 — Sourcing catalogue osmoseur : import du kit~~ ✅ importé le 18/08 (brouillon)
-**État** : FAIT — activation encore ouverte · **Pour** : Hakim (test + feu vert) · **Gravité** : P2
-**Fait** : kit `1005005705096746` poussé DSers → `kit-entretien-osmoseur-600-gpd`
-(`11039467503954`), **DRAFT**, 129 €, 0 barré, copy FR, SKU mapping intact. Membrane 50 GPD
-passée en DRAFT, 404 public. Collection `osmoseurs` publique = **2** (T-07 toujours ouvert).
-6 JPEG Codex 2048² rattachés le 18/08 (image 1 featured), 6 brutes DSers détachées
-(`fileUpdate` + `referencesToRemove`, 0 `fileDelete`).
+**État** : FAIT — publié le 18/08 · **Pour** : Hakim (commande test) · **Gravité** : P2
+**Fait** : kit `1005005705096746` → `kit-entretien-osmoseur-600-gpd` (`11039467503954`),
+**ACTIVE**, 129 €, 0 barré, copy FR, visuels composés. Variantes entrepôt DSers retirées
+(sélecteur Ships From) ; SKU Chine conservé `14:366#set;200007763:201336100`. Canal
+**Boutique en ligne** seulement (pas Shop, pas Google). Constaté anonyme : 200.
+Collection `osmoseurs` publique = **3** (T-07 toujours ouvert).
 **Reste** : commande test compatibilité 299 € / 449 € ; reconfirmer le coût rendu
-(DSers 39–44 € vs API FR 63,46 €) ; activation = Hakim.
+(DSers 39–44 € vs API FR 63,46 €). Si DSers re-sync, il peut recréer Ships From.
 **Réf.** : [`journal/2026-08-18-rattachement-visuels-kit.md`](journal/2026-08-18-rattachement-visuels-kit.md) ·
 [`livraisons/brief-codex-images-kit-entretien-600-gpd-2026-08-18.md`](livraisons/brief-codex-images-kit-entretien-600-gpd-2026-08-18.md)
 
@@ -126,9 +125,8 @@ identique mot pour mot à Tuftéo/Noirmont/Bien Brûlé. Collage policies = Haki
 
 ### T-07 — Collections sous le seuil de 5
 **État** : À FAIRE · **Pour** : Claude · **Gravité** : P1 · **Dépend de** : T-H1
-**Pourquoi** : red flag Terry. Public : `purificateurs-nomades` = 1 fiche ; `osmoseurs` = **2**
-fiches (membrane 50 GPD sortie le 18/08). `frontpage` = 1. Le kit 600 GPD est en brouillon :
-il ne compte qu'une fois activé.
+**Pourquoi** : red flag Terry. Public : `purificateurs-nomades` = 1 fiche ; `osmoseurs` = **3**
+fiches (RO 600G + 449 € + kit entretien, membrane 50 GPD hors live). `frontpage` = 1.
 **Comment** : admin pour lever l'écart 3 vs 5. Décision Hakim : repeupler, fusionner, ou dépublier
 la collection. Ne pas inventer des fiches.
 **Sortie attendue** : chaque collection **publiée** a ≥ 5 produits actifs, ou elle n'est plus

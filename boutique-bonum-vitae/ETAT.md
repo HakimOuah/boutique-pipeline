@@ -1,9 +1,9 @@
 # Bonum Vitae — état courant
 
-**Dernière mise à jour : 18/08/2026 ~1h25** — kit entretien 600 GPD en **DRAFT**,
-visuels composés rattachés (`kit-entretien-osmoseur-600-gpd`, 129 €). Membrane 50 GPD
-**dépubliée** (404). `osmoseurs` public = 2. [`TABLEAU.md`](TABLEAU.md) ·
-[`journal/2026-08-18-rattachement-visuels-kit.md`](journal/2026-08-18-rattachement-visuels-kit.md).
+**Dernière mise à jour : 18/08/2026 ~1h35** — kit entretien 600 GPD **publié**
+(`kit-entretien-osmoseur-600-gpd`, 129 €). Membrane 50 GPD **dépubliée** (404).
+`osmoseurs` public = 3. [`TABLEAU.md`](TABLEAU.md) ·
+[`journal/2026-08-18-publication-kit.md`](journal/2026-08-18-publication-kit.md).
 
 ---
 
@@ -92,5 +92,5 @@ checklist complète, feu vert Hakim. Ne pas créer, ne pas soumettre.
 - Apps installées / GMC (scope) — T-H6
 - Moyens de paiement réellement actifs (`shop.enabled_payment_types` = Liquid ; le footer affiche
   Amex, Apple Pay, CB, Klarna, Mastercard, PayPal, Visa — à recouper au rail B)
-- Filigranes / photos AliExpress brutes (pas d'audit visuel)
+- Filigranes / photos AliExpress brutes : kit 600 GPD et LPS traités ; reste du catalogue pas audité visuellement
 - Contenu mot à mot des policies vs boutiques sœurs
