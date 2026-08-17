@@ -11,23 +11,25 @@ pour un test ads en septembre. Prompt de relance :
 
 **Mets ce fichier à jour avant de rendre la main.**
 
-> 👉 **Hakim, maintenant :** T-H1 (auth CLI Bonum Vitae). Sans ça, aucun écriture admin, aucun
-> snapshot thèmes/paiements/GMC, aucun correctif P0. Ne pas `switch-shop`. Ne pas publier de thème.
+> 👉 **Hakim, maintenant :** dire si un **GMC / app Google & YouTube** existe (Admin → Canaux de
+> vente) — le scope `read_apps` manque au CLI. Puis valider le persona quand T-08 sera livré.
 
-Dernière mise à jour : **17/08/2026 ~18h** — ouverture. Store confirmé `kw7vak-g0` = Bonum Vitae.
-P0 encore publics. Live = Horizon MAIN, pas FullStack. CLI encore sur Tuftéo + Noirmont.
-[`journal/2026-08-17-ouverture-crible.md`](journal/2026-08-17-ouverture-crible.md).
+Dernière mise à jour : **17/08/2026 ~19h30** — ✅ **rail A P0 soldé et constaté en anonyme** :
+faux avis retirés des 3 templates (dont `product.osmoseur.json`), « 4.8/5 · 312 avis » supprimé,
+**8 `compareAtPrice` purgés** (dont 2 dormants sur un brouillon), bandeau -20 % retiré. Auth CLI
+Bonum Vitae OK (`contact@bonumvitae.fr`). FullStack **déjà importé** : `copie-de-fullstack-2-3`
+id `205568147794`, UNPUBLISHED, zip vendeur brut (démo à purger).
+[`journal/2026-08-17-rail-a-p0.md`](journal/2026-08-17-rail-a-p0.md).
 
 ---
 
 ## Le cadre, en trois phrases
 
-1. **Les faux avis de juillet sont encore en ligne** — Claire M. / Karim B. / Bernard L. « Vérifié »,
-   plus « 4.8/5 basé sur 312 avis vérifiés » sur les fiches. Motif exact de la suspension GMC de
-   juin. 0 commande client sur le parc.
-2. **On ne touche ni Tuftéo ni Noirmont.** On lit leurs builds FullStack. On écrit seulement sur
-   `kw7vak-g0.myshopify.com`. MAIN Horizon : rail A uniquement. FullStack : copie UNPUBLISHED,
-   Hakim publie.
+1. **Les P0 de juin sont retirés du live depuis le 17/08 au soir** — plus de faux avis, plus de
+   compteur, plus de barrés, plus de -20 %. La boutique n'expose plus l'entité sur ces
+   déclencheurs ; restent les P1 (T-06, T-07) et l'inconnu GMC.
+2. **On ne touche ni Tuftéo ni Noirmont.** On écrit seulement sur `kw7vak-g0.myshopify.com`.
+   MAIN Horizon : rail A uniquement. FullStack (`205568147794`) : copie UNPUBLISHED, Hakim publie.
 3. **Persona puis DA puis thème.** Pas de copy, pas de direction artistique, pas de montage
    FullStack avant persona validé par Hakim.
 
@@ -35,30 +37,14 @@ P0 encore publics. Live = Horizon MAIN, pas FullStack. CLI encore sur Tuftéo + 
 
 ## 🔴 BLOQUÉ — attend Hakim
 
-### T-H1 — Auth CLI device-code sur le compte Bonum Vitae
-**État** : BLOQUÉ · **Pour** : Hakim · **Gravité** : P0 (bloque tout le rail A)
-**Pourquoi** : le CLI de cette machine connaît `et0hua-w1` (Tuftéo) et `v42pzp-h4` (Noirmont).
-`shopify store info --store kw7vak-g0.myshopify.com` refuse : *Couldn't find a store with domain
-kw7vak-g0… for the current account.* Sans auth, impossible de lister les thèmes non publiés, les
-paiements réels, un GMC éventuel, ni d'écrire le crible sur Horizon.
-**Comment** :
-1. Auth **device-code** sur le compte Shopify de Bonum Vitae — pas le compte Noirmont
-   (`contact.noirmont@gmail.com`), pas Tuftéo.
-2. **Ne jamais `switch-shop`** sur le connecteur Shopify MCP (ça révoque le token).
-3. Cibler ensuite uniquement `--store kw7vak-g0.myshopify.com`.
-**Sortie attendue** : `shopify store info --store kw7vak-g0.myshopify.com` rend Bonum Vitae.
-**Attention** : ne pas improviser un switch depuis la session Tuftéo/Noirmont.
-**Réf.** : `PROMPT-NOUVELLE-CONVERSATION.md`
-
-### T-H2 — Dire si FullStack 2.3 est déjà sur `kw7vak-g0`, sinon l'installer
-**État** : BLOQUÉ · **Pour** : Hakim · **Gravité** : P1 (rail B)
-**Pourquoi** : le live est Horizon 4.1.1 (`theme id 203569004882`, rôle `main`). Sans admin, on ne
-voit pas les copies UNPUBLISHED. Le parc a déjà FullStack sur Tuftéo et Noirmont — licence à
-confirmer avant copie/zip.
-**Comment** : dans Admin → Thèmes, vérifier la présence de `copie-de-fullstack-2-3` (ou équivalent).
-Si absent : Hakim installe (zip vendeur / copie depuis une boutique déjà licenciée). Ne pas publier.
-**Sortie attendue** : un thème FullStack 2.3 **unpublished** sur `kw7vak-g0`, id noté dans `ETAT.md`.
-**Attention** : ne pas publier, ne pas travailler le MAIN.
+### T-H6 — Dire si un GMC / app Google & YouTube existe
+**État** : BLOQUÉ · **Pour** : Hakim · **Gravité** : P1
+**Pourquoi** : `appInstallations` refuse au CLI (scope `read_apps` absent). Tuftéo a montré qu'un
+GMC se crée tout seul via l'app Google & YouTube. S'il en existe un ici, tout changement de thème
+est un changement brutal sur compte établi.
+**Comment** : Admin → Paramètres → Applications et canaux de vente — dire si « Google & YouTube »
+y est, et si un Merchant Center est rattaché.
+**Sortie attendue** : réponse notée dans `ETAT.md`. **Ne pas créer, ne pas soumettre.**
 
 ### T-H3 — Valider le persona avant tout copy et toute DA
 **État** : BLOQUÉ · **Pour** : Hakim · **Dépend de** : T-08
@@ -83,71 +69,6 @@ une publication est un changement brutal — une seule, propre, puis calme.
 ---
 
 ## À FAIRE
-
-### T-01 — Retirer les trois faux témoignages « Vérifié » encore publics
-**État** : À FAIRE · **Pour** : Claude · **Gravité** : P0 · **Dépend de** : T-H1
-**Pourquoi** : motif exact de la suspension GMC de juin. Personas de juillet présentés comme clients
-vérifiés, datés « il y a 3 jours / 1 semaine / 2 semaines ». Servis sur l'accueil **et** les fiches
-(section `bv-avis-section` / `bv_avis_clients`). Karim = claim santé déguisé (« Ma peau la remercie »,
-« moins de tiraillement »).
-**Comment** :
-1. Backup du fichier thème (section + `index.json` / groupe) dans `backups/2026-08-17-p0-avis/`.
-2. Retirer ou vider la section sur **tous** les templates qui la rendent — pas seulement l'accueil.
-3. Recharger en navigation privée : 0 « Vérifié », 0 Claire / Karim / Bernard.
-**Sortie attendue** : URL rechargée, citation absente. Ticket FAIT seulement sur preuve publique.
-**Attention** : « FAIT » écrit n'a pas retiré les faux avis Tuftéo pendant 17 jours. Constater.
-**Réf.** : `journal/2026-08-17-ouverture-crible.md` · live `https://bonumvitae.fr`
-
-### T-02 — Retirer la ligne « 4.8/5 basé sur 312 avis vérifiés »
-**État** : À FAIRE · **Pour** : Claude · **Gravité** : P0 · **Dépend de** : T-H1
-**Pourquoi** : 0 commande client. Compteur codé en dur (référence Horizon `rating-row.liquid`).
-Constaté visible sur fiche osmoseur RO 600G ; à grep sur tout le thème.
-**Comment** :
-1. Localiser le snippet / bloc (probablement `rating-row.liquid` ou équivalent Horizon).
-2. Le retirer du template produit, pas le masquer en CSS.
-3. Vérifier au moins 3 fiches en anonyme.
-**Sortie attendue** : 0 « 312 avis », 0 « 4.8/5 » public.
-**Réf.** : `https://bonumvitae.fr/products/osmoseur-ro-600g`
-
-### T-03 — Purger les 6 prix barrés publics
-**État** : À FAIRE · **Pour** : Claude · **Gravité** : P0 · **Dépend de** : T-H1
-**Pourquoi** : loi Omnibus. Un barré n'est légal que s'il a été réellement pratiqué. Aucune preuve
-au dossier. Même bombe que Noirmont T-50 (les brouillons aussi, pas seulement l'actif).
-**Comment** :
-1. Scan paginé admin de **toutes** les variantes (actifs + brouillons + archivés) — `compare_at_price`
-   n'est pas filtrable, un `query:` est ignoré.
-2. Backup des valeurs dans `backups/`.
-3. Remettre `compareAtPrice` à `null` partout, sauf ticket Hakim qui prouve un prix réellement
-   pratiqué.
-4. Recharger accueil + 2 fiches en anonyme.
-**Sortie attendue** : 0 `compare_at_price` non nul au catalogue ; 0 « Prix régulier » barré public.
-**Attention** : 6 barrés **déjà publics** (liste dans `ETAT.md`). Les dormants éventuels sont la
-vraie bombe.
-**Réf.** : `journal/2026-08-17-ouverture-crible.md`
-
-### T-04 — Retirer le bandeau « Offre d'été : -20% sur les osmoseurs »
-**État** : À FAIRE · **Pour** : Claude · **Gravité** : P1 · **Dépend de** : T-H1
-**Pourquoi** : promotion publique sans preuve depuis au moins le 18/07. Fausse urgence / fausse
-réduction si le -20 % n'a jamais été tenu.
-**Comment** : vider l'announcement bar du thème MAIN (rail A). Vérifier en anonyme sur accueil et
-fiche.
-**Sortie attendue** : 0 « -20% » / « Offre d'été » public.
-**Réf.** : bandeau de `https://bonumvitae.fr`
-
-### T-05 — Snapshot admin (thèmes, paiements, apps, GMC, policies)
-**État** : À FAIRE · **Pour** : Claude · **Gravité** : P0 · **Dépend de** : T-H1
-**Pourquoi** : le live ne dit pas si FullStack est déjà installé, si un GMC existe via Google &
-YouTube, ni si Klarna/PayPal 4× sont réellement actifs (le footer les affiche).
-**Comment** :
-1. `themes { nodes { id name role } }` — noter MAIN vs unpublished. **Ne pas écrire le MAIN** hors
-   tickets T-01 à T-04.
-2. `shop.enabled_payment_types` + checkout réel. Footer live : Amex, Apple Pay, CB, Klarna,
-   Mastercard, PayPal, Visa — recouper.
-3. Apps d'avis. Produits : statuts, collections < 5, `compareAtPrice` dormants.
-4. GMC : signaler tout de suite s'il existe. **Ne pas créer, ne pas soumettre.**
-5. Écrire le résultat dans `ETAT.md`.
-**Sortie attendue** : `ETAT.md` à jour côté admin, plus seulement le public.
-**Attention** : `themeFilesUpsert` vide ≠ échec. `switch-shop` interdit.
 
 ### T-06 — Recouper policies live vs pages CMS (doublon mentions légales)
 **État** : À FAIRE · **Pour** : Claude · **Gravité** : P1 · **Dépend de** : T-H1
@@ -199,4 +120,31 @@ Implémentation = FullStack, pas Horizon (ignorer la phrase « implémenter sur 
 
 ## FAIT
 
-_Aucun ticket soldé. Ouverture le 17/08/2026._
+### ~~T-H1 — Auth CLI device-code Bonum Vitae~~ ✅ 17/08 (Hakim)
+`contact@bonumvitae.fr` sur `kw7vak-g0`. Scopes : products, files, themes, content, pages,
+legal_policies (pas `read_apps`). Sessions Tuftéo / Noirmont intactes.
+
+### ~~T-H2 — FullStack sur la boutique~~ ✅ 17/08 — déjà importé
+`copie-de-fullstack-2-3`, id `205568147794`, UNPUBLISHED, créé 17/08 15h35. **Zip vendeur brut** :
+purge démo obligatoire avant toute préview publique (T-09).
+
+### ~~T-01 — Retirer les trois faux témoignages « Vérifié »~~ ✅ 17/08 soir
+Section `bv_avis_clients` retirée de `index.json`, `product.json` **et `product.osmoseur.json`**
+(seul `osmoseur-ro-600g` porte ce suffixe). Constaté absent en anonyme sur accueil + 2 fiches.
+[`journal/2026-08-17-rail-a-p0.md`](journal/2026-08-17-rail-a-p0.md)
+
+### ~~T-02 — Retirer « 4.8/5 basé sur 312 avis vérifiés »~~ ✅ 17/08 soir
+Bloc `custom_liquid_bhBnde` (imbriqué dans `product-details`) supprimé des deux templates produit.
+0 occurrence publique constatée.
+
+### ~~T-03 — Purger les prix barrés~~ ✅ 17/08 soir
+**8 variantes** (6 actives + **2 dormantes** sur le brouillon osmoseur Shuangli) remises à `null`,
+0 `userErrors`, valeurs d'origine dans `backups/2026-08-17-rail-a/compare-at-avant-purge.json`.
+Re-scan : 0 `compareAtPrice` non nul sur les 26 produits.
+
+### ~~T-04 — Retirer le bandeau « -20% sur les osmoseurs »~~ ✅ 17/08 soir
+Bloc `announcement_2` supprimé de `header-group.json`. « Livraison offerte » conservé.
+
+### ~~T-05 — Snapshot admin~~ ✅ 17/08 soir (partiel)
+Thèmes, catalogue, compareAt, templates : faits (voir `ETAT.md`). Restent : apps/GMC (T-H6,
+scope manquant), paiements réels (au rail B).
