@@ -11,10 +11,14 @@ pour un test ads en septembre. Prompt de relance :
 
 **Mets ce fichier à jour avant de rendre la main.**
 
-> 👉 **Hakim, maintenant :** ① **T-15 — kit entretien 600 GPD en DSers brouillon ?**
-> (`1005005705096746`, 63,46 € rendu) · ② T-H7 — prix restants · ③ T-11 — QA préview FullStack.
+> 👉 **Hakim, maintenant :** ① T-H7 — prix restants · ② T-11 — QA préview FullStack.
+> Kit 600 GPD = brouillon (visuels + commande test avant activation).
 
-Dernière mise à jour : **18/08/2026 ~1h** — ✅ **Sourcing catalogue osmoseur** (lecture seule) :
+Dernière mise à jour : **18/08/2026 ~1h10** — ✅ **Kit entretien importé en brouillon**
+(`kit-entretien-osmoseur-600-gpd`, 129 €, 0 barré). ✅ **Membrane 50 GPD dépubliée**
+(404 public — incompatible 600 GPD). Comptoir plus tard. Journal :
+[`journal/2026-08-18-import-kit-sortie-membrane.md`](journal/2026-08-18-import-kit-sortie-membrane.md).
+— Plus tôt (~1h) : ✅ **Sourcing catalogue osmoseur** (lecture seule) :
 kit OSWNKW 600 GPD + remin = `FOURNISSEUR À TESTER` ; comptoir et 800 GPD livrable FR =
 `AUCUNE OFFRE` cette passe. Aucun import. Rapport :
 [`reports/phase4-sourcing-osmoseur-catalogue-2026-08-18.md`](reports/phase4-sourcing-osmoseur-catalogue-2026-08-18.md).
@@ -96,17 +100,14 @@ FullStack : hero, H2, lorem collection. Constaté anonyme : nouveau H1, plus de 
 
 ## À FAIRE
 
-### T-15 — Sourcing catalogue osmoseur : trancher l'import du kit
-**État** : À FAIRE — sourcing fait, import bloqué · **Pour** : Hakim · **Gravité** : P1
-**Pourquoi** : deux 600 GPD publics sans conso compatible, plus une membrane **50 GPD** dans
-`osmoseurs` — ça ne tient pas comme un spécialiste. Le kit officiel OSWNKW
-(`1005005705096746`) annonce PP + PPC + membrane **3013-600** + reminéralisation, **63,46 €**
-rendu Chine (Pologne en rupture). Compatibilité du RO 600G à 299 € **non prouvée**.
-**Comment** : si oui — DSers brouillon seulement (Draft coché, `solinvictuss` décoché, barré
-à purger). Si non — on laisse le 299 € partir en septembre sans coût annuel documenté.
-**Sortie attendue** : oui/non + sort de la membrane 50 GPD (sortir / débaptiser / laisser).
-**Réf.** : [`reports/phase4-sourcing-osmoseur-catalogue-2026-08-18.md`](reports/phase4-sourcing-osmoseur-catalogue-2026-08-18.md) ·
-[`journal/2026-08-18-sourcing-catalogue-osmoseur.md`](journal/2026-08-18-sourcing-catalogue-osmoseur.md)
+### ~~T-15 — Sourcing catalogue osmoseur : import du kit~~ ✅ importé le 18/08 (brouillon)
+**État** : FAIT — activation encore ouverte · **Pour** : Hakim (visuels + test) · **Gravité** : P2
+**Fait** : kit `1005005705096746` poussé DSers → `kit-entretien-osmoseur-600-gpd`
+(`11039467503954`), **DRAFT**, 129 €, 0 barré, copy FR, SKU mapping intact. Membrane 50 GPD
+passée en DRAFT, 404 public. Collection `osmoseurs` publique = **2** (T-07 toujours ouvert).
+**Reste** : visuels composés (brutes fournisseur), commande test compatibilité 299 € / 449 €,
+reconfirmer le coût rendu (DSers 39–44 € vs API FR 63,46 €).
+**Réf.** : [`journal/2026-08-18-import-kit-sortie-membrane.md`](journal/2026-08-18-import-kit-sortie-membrane.md)
 
 ### T-06 — Recouper policies live vs pages CMS (doublon mentions légales)
 **État** : À FAIRE · **Pour** : Claude · **Gravité** : P1 · **Dépend de** : T-H1
@@ -119,8 +120,9 @@ identique mot pour mot à Tuftéo/Noirmont/Bien Brûlé. Collage policies = Haki
 
 ### T-07 — Collections sous le seuil de 5
 **État** : À FAIRE · **Pour** : Claude · **Gravité** : P1 · **Dépend de** : T-H1
-**Pourquoi** : red flag Terry. Public : `purificateurs-nomades` = 1 fiche ; `osmoseurs` = 3 fiches
-visibles dont 1 consommable (écart : `collections.json` annonce 5). `frontpage` = 1.
+**Pourquoi** : red flag Terry. Public : `purificateurs-nomades` = 1 fiche ; `osmoseurs` = **2**
+fiches (membrane 50 GPD sortie le 18/08). `frontpage` = 1. Le kit 600 GPD est en brouillon :
+il ne compte qu'une fois activé.
 **Comment** : admin pour lever l'écart 3 vs 5. Décision Hakim : repeupler, fusionner, ou dépublier
 la collection. Ne pas inventer des fiches.
 **Sortie attendue** : chaque collection **publiée** a ≥ 5 produits actifs, ou elle n'est plus

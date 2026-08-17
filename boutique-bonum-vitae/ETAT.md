@@ -1,9 +1,9 @@
 # Bonum Vitae — état courant
 
-**Dernière mise à jour : 18/08/2026 ~1h** — sourcing catalogue osmoseur (API, pas d'import) :
-kit OSWNKW `1005005705096746` à tester (63,46 € rendu). Membrane 50 GPD toujours publique
-dans `osmoseurs` = trou de cohérence. [`TABLEAU.md`](TABLEAU.md) ·
-[`reports/phase4-sourcing-osmoseur-catalogue-2026-08-18.md`](reports/phase4-sourcing-osmoseur-catalogue-2026-08-18.md).
+**Dernière mise à jour : 18/08/2026 ~1h10** — kit entretien 600 GPD en **DRAFT**
+(`kit-entretien-osmoseur-600-gpd`, 129 €). Membrane 50 GPD **dépubliée** (404).
+`osmoseurs` public = 2. [`TABLEAU.md`](TABLEAU.md) ·
+[`journal/2026-08-18-import-kit-sortie-membrane.md`](journal/2026-08-18-import-kit-sortie-membrane.md).
 
 ---
 
@@ -43,9 +43,8 @@ Templates produit Horizon : `product.json` (25 fiches) + `product.osmoseur.json`
 
 ## Catalogue (constaté API 17/08)
 
-**27 produits** : 24 ACTIVE (les 24 publics), **3 DRAFT** dont `anti-tartre-galvanique-toute-la-maison`
-(LPS, import 17/08 — raccord G3/4" femelle, visuels STOP) + `osmoseur-de-cuisine-shuangli-600g-osmose-inverse`
-+ `membrane-drinkpod-a-osmose-inverse-ro`.
+**28 produits** (18/08) : **23 ACTIVE** publics, **5 DRAFT** — LPS, SHUANGLI, OSWNKW compact,
+membrane 50 GPD (sortie du live le 18/08), **kit entretien 600 GPD** (`kit-entretien-osmoseur-600-gpd`).
 
 - **0 `compareAtPrice` non nul** sur tout le catalogue depuis le 17/08 ~19h15 (8 purgés, backup
   dans `backups/2026-08-17-rail-a/`).
