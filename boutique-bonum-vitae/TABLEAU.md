@@ -49,11 +49,29 @@ y est, et si un Merchant Center est rattaché.
 **Sortie attendue** : réponse notée dans `ETAT.md`. **Ne pas créer, ne pas soumettre.**
 
 ### T-H3 — Valider le persona avant tout copy et toute DA
-**État** : BLOQUÉ · **Pour** : Hakim · **Dépend de** : T-08
-**Pourquoi** : les Claire/Karim/Bernard de juillet sont un brief de marque, pas un persona maison.
-Aucun fichier dans `boutique-pipeline/personas/` pour cette boutique.
-**Comment** : lire le livrable T-08, dire oui / amender / non.
-**Sortie attendue** : persona daté coché validé dans `ETAT.md`.
+**État** : BLOQUÉ — **livrable prêt** · **Pour** : Hakim
+**Pourquoi** : le persona sourcé est écrit
+([`../personas/persona-bonum-vitae-2026-08-17.md`](../personas/persona-bonum-vitae-2026-08-17.md)) :
+Claire 38 ans mère vigilante (principal), Karim locataire peau sensible (secondaire), preuves
+`[O]`/`[D]`, axe différenciant « le marchand qui dit ce qui est prouvé ».
+**Comment** : lire, dire oui / amender / non. Valider aussi le vouvoiement.
+**Sortie attendue** : persona coché validé dans `ETAT.md`.
+
+### T-H7 — Arbitrer les prix avant campagnes (sonde du 17/08)
+**État** : BLOQUÉ · **Pour** : Hakim · **Gravité** : P1 (bloque le lancement ads)
+**Pourquoi** : sonde SERP France du 17/08
+([`journal/2026-08-17-prix-concurrence.md`](journal/2026-08-17-prix-concurrence.md)) :
+- ✅ **RO 600G 299 €** : aligné sur le leader (Waterdrop G2P600 à 299,99 €) — produit de campagne.
+- ⛔ **OSWNKW 576,90 €** : plus cher que le G3P600 certifié NSF (420-432 €) → 449-479 € ou hors pub.
+- ⛔ **IPSE magnétique 152,90-153,90 €** : haut d'une bande 20-150 € **publiquement contestée**
+  (Anses, 60M) → ≤ 99 € ou hors acquisition, jamais en Shopping.
+- ⛔ **Carafes ALTHY 129,90-173,90 €** : référence mentale Brita = 16-30 € → niche assumée sans pub
+  ou repositionnement.
+- ⚠ **ALTHY douche 111,90-149,90 €** : marché à 30-60 € → ≤ 79 € ou justification forte.
+- ✅ Filtres douche cœur 13,90-46,90 € : dans la bande, 2e famille de campagne possible.
+**Comment** : trancher ligne par ligne le tableau §6 du journal ; Claude applique ensuite (prix
+sans réintroduire de `compareAtPrice`).
+**Sortie attendue** : grille de prix validée, appliquée, constatée en anonyme.
 
 ### T-H4 — Choisir une DA parmi 2 ou 3 directions
 **État** : BLOQUÉ · **Pour** : Hakim · **Dépend de** : T-H3
@@ -90,26 +108,32 @@ la collection. Ne pas inventer des fiches.
 **Sortie attendue** : chaque collection **publiée** a ≥ 5 produits actifs, ou elle n'est plus
 publique.
 
-### T-08 — Produire le persona maison
-**État** : À FAIRE · **Pour** : Claude · **Dépend de** : — (lecture seule, peut commencer)
-**Pourquoi** : PLAYBOOK 1d. Particulier qui découvre, pas un pro de l'eau. Preuves `[O]`/`[D]`.
-**Comment** :
-1. Lire `../templates/persona.template.md` + skill `customer-research`.
-2. Sources : `New project/outputs/bonumvitae-branding-2026-07-11/positionnement-marketing-bonumvitae.md`
-   (brief, pas preuve), SERP/forums, pas les faux avis live.
-3. Écrire `../personas/persona-bonum-vitae-2026-08-17.md`.
-4. **Stop** — Hakim valide (T-H3) avant copy et DA.
-**Sortie attendue** : fichier persona + ticket T-H3 prêt.
-**Attention** : ne pas recycler Claire/Karim/Bernard comme s'ils étaient des clients.
+### ~~T-08 — Produire le persona maison~~ ✅ FAIT le 17/08
+Persona sourcé SERP/forums/avis concurrents, format template maison :
+[`../personas/persona-bonum-vitae-2026-08-17.md`](../personas/persona-bonum-vitae-2026-08-17.md).
+Validation Hakim = T-H3. Volumes SEMrush non mesurés dans cette passe (limite notée au fichier).
 
-### T-09 — Inventaire FullStack natif vs custom pour Bonum Vitae
-**État** : À FAIRE · **Pour** : Claude · **Dépend de** : T-H2 (thème présent) ; lecture possible avant
-**Pourquoi** : on ne redécouvre pas le thème. Coder en dur seulement si le natif ne fait pas le rendu.
-**Comment** : lire dans l'ordre du prompt (reco Tuftéo → portable-kit → journaux Noirmont → pièges
-campement). Lister pour **cette** boutique : hero, comparatif, FAQ, réassurance, panier, mégamenu,
-templates produit. Sortie : `journal/YYYY-MM-DD-inventaire-fullstack.md`.
-**Sortie attendue** : tableau natif vs custom. **Aucun custom-code** tant que ce tableau n'existe pas.
-**Réf.** : `../boutique-tufting/shopify/reco-theme-brouillon-2026-07-21.md`
+### T-11 — QA préview FullStack v1 (mobile 375 px d'abord)
+**État** : À FAIRE · **Pour** : Hakim (préview) puis Claude (correctifs) · **Gravité** : P1
+**Pourquoi** : la v1 est écrite et vérifiée par API, mais `preview_theme_id` exige une session
+navigateur — le rendu réel n'a pas été vu.
+**Comment** :
+1. Ouvrir `https://kw7vak-g0.myshopify.com?preview_theme_id=205568147794` (mobile d'abord).
+2. Contrôler : hero (lisibilité sur image), icônes Material (`water_drop`, `balance`, `lock`…),
+   tableau comparatif en mobile, accordéons, sticky ATC, date `delivery-estimation` en français,
+   icônes de paiement du footer vs checkout réel.
+3. Renvoyer la liste des défauts — Claude corrige sur la copie.
+**Sortie attendue** : liste de retours, puis v2.
+**Réf.** : `journal/2026-08-17-fullstack-build-v1.md`
+
+### T-12 — Panier tiroir FullStack (recette Tuftéo 12b)
+**État** : À FAIRE · **Pour** : Claude · **Dépend de** : T-11
+**Pourquoi** : le drawer FullStack est encore en config démo (seuil de progression incohérent avec
+« livraison offerte partout »).
+**Comment** : bannière « Livraison offerte en France » + upsell consommables (handles réels :
+membranes, cartouches), pattern `campement/12b-panier-banniere-upsells.md`. Un `custom-code` ne
+peut pas vivre dans `_product-form`.
+**Sortie attendue** : drawer propre en préview.
 
 ### T-10 — Directions DA (2 ou 3), puis stop
 **État** : À FAIRE · **Pour** : Claude · **Dépend de** : T-H3
