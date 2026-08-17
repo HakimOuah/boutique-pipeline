@@ -11,9 +11,10 @@ pour un test ads en septembre. Prompt de relance :
 
 **Mets ce fichier à jour avant de rendre la main.**
 
-> 👉 **Hakim, maintenant :** ① valider le persona (T-H3, prêt) · ② arbitrer les prix avant
-> campagnes (T-H7 — OSWNKW, anti-calcaire, carafes ALTHY) · ③ QA préview FullStack (T-11) ·
-> ④ dire si un GMC existe (T-H6, scope `read_apps` manquant au CLI).
+> 👉 **Hakim, maintenant :** ① T-H7 — les prix restants (carafes ALTHY 129-174 €, douche ALTHY
+> 111-149 €, magnétiques 153 € — coûts réels découverts : 28-40 €) · ② T-H8 — choisir un
+> anti-calcaire électronique sourcé (ou refuser) · ③ T-11 — QA préview FullStack · ④ T-H6 — GMC
+> existant ? — ✅ Persona validé (17/08), OSWNKW à 449 € et 11 fiches débaptisées, site adapté.
 
 Dernière mise à jour : **18/08/2026 ~0h** — ✅ **FullStack v1 monté sur la copie `205568147794`** :
 démo vendeur purgée (Klaviyo, socials, rating-stars, Powered by), DA appliquée (charte BV,
@@ -49,26 +50,18 @@ est un changement brutal sur compte établi.
 y est, et si un Merchant Center est rattaché.
 **Sortie attendue** : réponse notée dans `ETAT.md`. **Ne pas créer, ne pas soumettre.**
 
-### T-H3 — Valider le persona avant tout copy et toute DA
-**État** : BLOQUÉ — **livrable prêt** · **Pour** : Hakim
-**Pourquoi** : le persona sourcé est écrit
-([`../personas/persona-bonum-vitae-2026-08-17.md`](../personas/persona-bonum-vitae-2026-08-17.md)) :
-Claire 38 ans mère vigilante (principal), Karim locataire peau sensible (secondaire), preuves
-`[O]`/`[D]`, axe différenciant « le marchand qui dit ce qui est prouvé ».
-**Comment** : lire, dire oui / amender / non. Valider aussi le vouvoiement.
-**Sortie attendue** : persona coché validé dans `ETAT.md`.
-
-### T-H8 — Trancher la place de l'« adoucisseur » dans la boutique
-**État** : BLOQUÉ · **Pour** : Hakim · **Gravité** : P1 (structure la boutique)
-**Pourquoi** : analyse approfondie osmoseur du 17/08
-([`journal/2026-08-17-analyse-marche-osmoseur.md`](journal/2026-08-17-analyse-marche-osmoseur.md)) :
-« adoucisseur d'eau » (40 500/mois) est un **marché de la pose** (800-3 500 € installé, Culligan/BWT/
-installateurs) — inaccessible en dropshipping frontal. La porte latérale « adoucisseur sans sel /
-compact / appartement » fait ≈ 8 160/mois à **KD 8-19**, mais exige un produit crédible (électronique
-type Calmat 408-544 €), pas nos aimants à 153 €.
-**Comment** : choisir (a) sourcer un anti-calcaire électronique sérieux (phase 4 à lancer) ou
-(b) boutique « point d'usage » pure (osmoseur + douche + robinet), adoucisseur en éditorial seulement.
-**Sortie attendue** : décision notée, sourcing lancé ou périmètre figé.
+### T-H8 — Choisir (ou refuser) un anti-calcaire électronique parmi les candidats sourcés
+**État** : BLOQUÉ — **sourcing livré** · **Pour** : Hakim · **Gravité** : P1
+**Pourquoi** : sourcing du 17/08
+([`journal/2026-08-17-prix-renommage-sourcing-persona.md`](journal/2026-08-17-prix-renommage-sourcing-persona.md)) :
+2 candidats crédibles — électronique à impulsions `1005008632801588` (**309 ventes, 4,7★,
+29,79 €** coût, prise EU) vendable 129-179 € ; LPS toute-maison `1005006005109143` (**500+ ventes,
+4,9★, 61,69 €**) vendable 179-229 €. Fenêtre marché : « adoucisseur sans sel » 8 160/mois, KD 8-19.
+**Attention** : le verrou est la **promesse** (Anses : efficacité non démontrée) — vente possible en
+« dispositif d'appoint » honnête, pub Shopping déconseillée sur ces produits. Découverte annexe :
+nos ALTHY/IPSE actuels coûtent 28-40 € (marge ×3-4), ce qui rend T-H7 encore plus urgent.
+**Comment** : dire quel candidat passe à l'étape DSers (fret FR + photos = classe A), ou refuser.
+**Sortie attendue** : décision ; si oui, import DSers par Hakim puis fiche montée par Claude.
 
 ### T-H7 — Arbitrer les prix avant campagnes (sonde du 17/08)
 **État** : BLOQUÉ · **Pour** : Hakim · **Gravité** : P1 (bloque le lancement ads)

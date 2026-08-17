@@ -1,7 +1,8 @@
 # Bonum Vitae — état courant
 
-**Dernière mise à jour : 17/08/2026 ~19h30** — rail A P0 soldé (faux avis, compteur, barrés,
-bandeau -20 %), constaté en visiteur anonyme. Admin ouvert par auth CLI.
+**Dernière mise à jour : 17/08/2026 ~21h15** — persona validé, OSWNKW à **449 €**, **11 fiches
+débaptisées** (marques fournisseur retirées des titres), FullStack v1.1 adapté au persona,
+sourcing anti-calcaire électronique livré (T-H8). Plus tôt : rail A P0 soldé, FullStack v1.
 [`TABLEAU.md`](TABLEAU.md) · [`journal/2026-08-17-rail-a-p0.md`](journal/2026-08-17-rail-a-p0.md).
 
 ---
@@ -18,7 +19,7 @@ bandeau -20 %), constaté en visiteur anonyme. Admin ouvert par auth CLI.
 | Téléphone | `+33 7 56 82 80 94` — au footer, constaté live |
 | Raison sociale au footer | ⛔ absente (ni OH Ventures, ni SIREN) — T-06 |
 | Devise | EUR seul, livraison FR seule |
-| Persona | ⛔ aucun — T-08 à produire, T-H3 à valider |
+| Persona | ✅ validé par Hakim le 17/08 — `../personas/persona-bonum-vitae-2026-08-17.md` |
 | Auth CLI | ✅ `contact@bonumvitae.fr` (17/08). Scopes : products, files, themes, content, pages, legal_policies. **Pas `read_apps`** |
 
 **Adresse et téléphone partagés avec Bien Brûlé, Tuftéo et Maison Noirmont** (linkage assumé,
