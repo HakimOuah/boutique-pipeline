@@ -56,7 +56,7 @@ membrane 50 GPD (sortie du live le 18/08), **kit entretien 600 GPD** (`kit-entre
 | Collection | Produits | Seuil de 5 |
 |---|---|---|
 | `filtres-de-douche` / `carafes-filtrantes` / `filtres-robinet` / `anti-calcaire-sans-sel` | 5 | ✅ |
-| `osmoseurs` | 3 visibles (écart vs `collections.json` = 5 à lever) | ⛔ T-07 |
+| `osmoseurs` | **2** visibles (membrane 50 GPD sortie le 18/08 ; kit en brouillon) | ⛔ T-07 |
 | `purificateurs-nomades` | 1 | ⛔ T-07 |
 | `frontpage` | 1 | ⛔ (système) |
 
