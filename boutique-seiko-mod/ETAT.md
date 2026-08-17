@@ -1,6 +1,6 @@
 # Maison Noirmont — état courant
 
-**Dernière vérification : 17/08/2026 ~11h00** — Boutique **Maison Noirmont** uniquement. ✅ **T-61 audit GMC Terry** : storefront soldé sur les 6 contradictions du 15/08, **PAS PRÊT à créer le GMC**. ✅ T-60 : 24 aluminium **109 €**. ✅ Collections gardées. T-07 **entamé**. ✅ T-32 / T-63 / T-62 soldés. Thème publié = `205451100498`. **GMC : ne pas créer.** **N'activer aucun des 20.**
+**Dernière vérification : 17/08/2026 ~12h45** — Boutique **Maison Noirmont** uniquement. ✅ **T-64** : 5 tours à 8 montres détachées des `remontoir-collection-*`. ✅ **T-61 audit GMC Terry** : storefront soldé sur les 6 contradictions du 15/08, **PAS PRÊT à créer le GMC**. ✅ T-60 : 24 aluminium **109 €**. ✅ Collections gardées. T-07 **entamé**. ✅ T-32 / T-63 / T-62 / T-H2 soldés. Thème publié = `205451100498`. **GMC : ne pas créer.** **N'activer aucun des 20.**
 
 **Vérifications antérieures** : audit GMC Terry 17/08 (`journal/2026-08-17-audit-gmc-terry.md`) ; repasse conformité n°2 le 15/08 midi ; audit live 15/08 matin ; grille de prix et cookies 14/08 ; audit brouillons et GMC 13/08.
 **Repeuplement 15/08** : 20 fiches DSers en DRAFT. Visuels + textes faits le 17/08. ⛔ 2 coffrets aluminium non créés → T-60. ⛔ 4 fiches Unmapped DSers → T-59.
@@ -82,8 +82,8 @@ Ce fichier dit ce qui **est**, pas ce qu'il faut faire. Pour agir : [`TABLEAU.md
    partout · footer **OH Ventures + 47 rue Vivienne + `tel:+33756828094`** · garantie limitée au
    **mouvement** · bandeau **« Paiement sécurisé »** (0 « 4 fois ») · JSON-LD `Organization`
    **valide** avec `legalName`. Détail : `journal/2026-08-17-audit-gmc-terry.md`.
-   ⚠️ Restent, hors ces 6 : dates de politiques au **10/08** (T-H2) · 3 collections < 5 **gardées**
-   · Présidentiel (arbitrage A) · T-36 images partagées · « Qualité Premium » (arbitrage C).
+   ⚠️ Restent, hors ces 6 : 3 collections < 5 **gardées** · Présidentiel (arbitrage A) · T-36
+   images partagées · « Qualité Premium » (arbitrage C). ✅ Dates de politiques : **15/08** (T-H2).
 
 0bis. **Les 6 bloquants du 15/08 au matin : 5 soldés, vérifiés en anonyme.**
    ✅ **E-mail** : `shop.email` = `shop.contactEmail` = `contact@maisonnoirmont.fr`, **0 `gmail`**

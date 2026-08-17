@@ -1,0 +1,22 @@
+{
+  p1: product(id: "gid://shopify/Product/10980084121938") {
+    id handle status
+    media(first: 20) { nodes { ... on MediaImage { id alt image { url } } } }
+  }
+  p2: product(id: "gid://shopify/Product/10980084449618") {
+    id handle status
+    media(first: 20) { nodes { ... on MediaImage { id alt image { url } } } }
+  }
+  p3: product(id: "gid://shopify/Product/10980083466578") {
+    id handle status
+    media(first: 20) { nodes { ... on MediaImage { id alt image { url } } } }
+  }
+  p4: product(id: "gid://shopify/Product/10980083728722") {
+    id handle status
+    media(first: 20) { nodes { ... on MediaImage { id alt image { url } } } }
+  }
+  p5: product(id: "gid://shopify/Product/10980084056402") {
+    id handle status
+    media(first: 20) { nodes { ... on MediaImage { id alt image { url } } } }
+  }
+}
