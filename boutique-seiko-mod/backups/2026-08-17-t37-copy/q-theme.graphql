@@ -1,0 +1,20 @@
+query {
+  theme(id: "gid://shopify/OnlineStoreTheme/205451100498") {
+    id name role
+    files(filenames: [
+      "templates/index.json",
+      "templates/product.json",
+      "templates/cart.json",
+      "templates/page.configurateur.json",
+      "sections/footer-group.json",
+      "sections/header-group.json",
+      "sections/cart-drawer-group.json",
+      "config/settings_data.json"
+    ]) {
+      nodes {
+        filename
+        body { ... on OnlineStoreThemeFileBodyText { content } }
+      }
+    }
+  }
+}

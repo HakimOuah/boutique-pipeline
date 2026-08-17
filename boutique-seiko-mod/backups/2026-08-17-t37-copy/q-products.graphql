@@ -1,0 +1,10 @@
+query($c: String) {
+  products(first: 50, after: $c, query: "status:active") {
+    pageInfo { hasNextPage endCursor }
+    nodes {
+      id handle title
+      descriptionHtml
+      seo { title description }
+    }
+  }
+}
