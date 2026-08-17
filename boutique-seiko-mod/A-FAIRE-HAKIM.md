@@ -7,7 +7,9 @@
 **Ne pas activer les 20 brouillons.**
 
 ✅ **Les 6 contradictions du 15/08 sont soldées en live** (24 h / footer / garantie / 4 fois / JSON-LD).
-✅ **Collections : on garde** `frontpage`, `montre-squelette` et `plongeuses`.
+✅ **Collections : on garde** `frontpage`, `montre-squelette` et `plongeuses` — Hakim 17/08 : on n'invente pas de produits pour le seuil de 5.
+✅ **Présidentiel : on laisse** (arbitrage A, 17/08 après-midi).
+✅ **Âge du domaine (24 j) : accepté**, pas éliminatoire.
 ✅ **T-60 : 24 aluminium à 109 €.**
 
 Il te reste un geste, ce n'est pas du code :
@@ -32,13 +34,9 @@ confidentialité. **Mettre** : `Version en vigueur au 15 août 2026`.
 
 # Trois arbitrages qui ne bloquent pas l'ouverture (mais le n°A compte pour le flux)
 
-## A. « Bracelet Présidentiel » / « bracelet Président » — ton appel
+## ~~A. « Bracelet Présidentiel » / « bracelet Président »~~ ✅ ON LAISSE — Hakim 17/08
 
-« President »/« Presidential » est un nom de bracelet déposé par Rolex, et le catalogue part au flux
-Merchant Center. Ma proposition : « Bracelet à maillons arrondis » (titres, descriptions, `alt`,
-handles inchangés). **À traiter en même temps** : les titres produit portent des tirets cadratins
-(« Voyageur Or — GMT… »), bannis du style maison — une seule passe de réécriture couvrirait les deux.
-Dis oui et je passe tout en une fois.
+Titres, descriptions et `alt` inchangés. Pas de passe « maillons arrondis ».
 
 ## B. Activer Google Pay (2 min, gain net)
 
