@@ -9,7 +9,7 @@
 Il te reste deux gestes, aucun n'est du code :
 
 1. **Redater 5 politiques** (2 min) — en-tête encore « 10 août 2026 ».
-2. **T-60** — le coffret aluminium 24 emplacements à 99,90 € au lieu de 149 €.
+2. **T-60** — le 24 aluminium : le 149 € n'est pas un prix de marché. Live il est déjà à 149 €. Recommandation révisée : **99,90 €**.
 
 Liens directs :
 - Thèmes : https://admin.shopify.com/store/v42pzp-h4/themes
@@ -49,19 +49,26 @@ active `Coffret Douze — aluminium`**. Preuve relevée dans DSers, panneau « G
 `$12.76 ~ 34.97` des deux côtés. Les créer aurait mis en ligne **deux offres du même objet à deux
 prix** — 84,90 € contre 89 €, et **99,90 € contre 149 €**.
 
-**Ce que ça révèle, et c'est le vrai sujet.** Le calcul de marge du 15/08 place le **24 emplacements
-à 149 €** pour **71,6 % de marge**. Tu le vends **99,90 €**. La grille de prix a un angle mort sur
-cette fiche : **environ 49 € de marge laissés sur la table à chaque vente.**
+**Ce que le marché dit, 17/08.** Le 149 € n'était pas un prix de concurrence. C'était un calcul de
+marge collé sur la bande **bois/cuir** 69-149 €. Le même objet physique (malette alu, couvercle
+transparent, 24 places) se vend **15,99 €** chez Yudu (Allemagne). Royaume et Le Coffret à Montres
+**n'ont pas** d'aluminium 24. Les 149 € tombent à côté des listings dropship Voghion (168-194 €).
+Détail : [`journal/2026-08-17-serp-prix-coffret-aluminium-24.md`](journal/2026-08-17-serp-prix-coffret-aluminium-24.md).
 
-**Trois issues, à toi de trancher :**
+**Constats live.** Le 24 affiche **déjà 149 €** sur la fiche (la variante 24 est en premier, c'est
+le prix d'arrivée). 6 = 69,90 € · 12 = 84,90 €. Je n'ai pas écrit ce 149.
 
-| Issue | Effet |
+**À trancher :**
+
+| Issue | Lecture marché |
 |---|---|
-| **Reprixer la fiche existante** (ma recommandation) | Le 24 emplacements passe de 99,90 € à ~149 €. Rien à créer, rien à importer. |
-| Ne rien faire | Le catalogue reste servi, la marge reste basse. |
-| Découper la fiche en trois (6 / 12 / 24) | Trois fiches au lieu d'une variante à trois choix — mieux pour le SEO, mais c'est une refonte de fiche **active**. |
+| **Revenir à 99,90 €** (recommandation révisée) | Prix de boutique, déjà 6 × le commodity allemand, hors SONGMICS. |
+| 109-119 € | Maximum si tu veux faire payer le saut de coût (14,98 → 30,57 €). |
+| Laisser 149 € | Non sourcé. |
+| Découper en trois fiches | Question SEO, ça ne change pas la bande de prix. |
 
-⛔ **Aucune des trois n'est un import.** Dis-moi laquelle et je l'exécute.
+⛔ **Aucune n'est un import.** Dis-moi laquelle et je l'exécute. Google.fr page 1 n'a pas pu
+s'ouvrir aujourd'hui (CAPTCHA) — les prix ci-dessus sont des fiches datées, pas une SERP écran.
 
 ---
 

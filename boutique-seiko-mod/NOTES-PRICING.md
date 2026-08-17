@@ -222,17 +222,20 @@ La collection aurait donc trois prix pour des produits équivalents : 279, 289 e
 
 ---
 
-## 7. Coffret aluminium 24 emplacements — 15/08/2026
+## 7. Coffret aluminium 24 emplacements — 15/08/2026, **corrigé le 17/08**
 
-**Recommandation : 99,90 € → 149 €.** ⚠️ **Pas encore tranché par Hakim** (T-60, relancé le 17/08).
+**Recommandation révisée le 17/08, après lecture marché : 99,90 €, pas 149 €.** ⚠️ **Hakim n'a pas tranché.** Live : le 24 affiche **déjà 149 €** (constat storefront 17/08) — à reconsidérer, pas à confirmer.
 
-Angle mort découvert au push DSers : les 2 coffrets aluminium de la file de repeuplement étaient **déjà** au catalogue sous `coffret-douze-aluminium` (même article fournisseur, mapping DSers en preuve, coût identique). Les créer aurait mis en ligne deux offres du même objet à deux prix. Mais le recoupement a montré que **la fiche existante était sous-vendue** : le calcul de marge du 15/08 place le 24 emplacements à 149 €, il était à 99,90 €.
+Le 149 € du 15/08 était un **calcul de marge** collé sur la bande bois/cuir 69-149 €. Le comparable physique (malette alu + couvercle transparent + 24) se vend **15,99 €** chez Yudu DE. Royaume et Le Coffret à Montres n'ont **pas** cet objet. Détail : `journal/2026-08-17-serp-prix-coffret-aluminium-24.md`.
 
-| Prix | Base HT | Coût rendu | Marge | Taux |
-|---:|---:|---:|---:|---:|
-| 99,90 € | 83,25 € | 30,57 € | 51,03 € | 61,3 % |
-| **149,00 €** | 124,17 € | 30,57 € | **91,26 €** | **73,5 %** |
+Angle mort découvert au push DSers : les 2 coffrets aluminium de la file de repeuplement étaient **déjà** au catalogue sous `coffret-douze-aluminium` (même article fournisseur, mapping DSers en preuve, coût identique). Les créer aurait mis en ligne deux offres du même objet à deux prix. Le recoupement a ensuite **mal lu le marché** : coller 149 € sur cette variante n'était pas sourcé.
 
-**+40 € de marge par vente.** Les variantes 12 et 6 emplacements restent à 84,90 € et 69,90 € : leurs coûts (14,98 € et 11,15 €) donnent déjà des taux supérieurs, et elles tiennent la bande de marché des 69-149 €.
+| Prix | Base HT | Coût rendu | Marge | Taux | Lecture marché 17/08 |
+|---:|---:|---:|---:|---:|---|
+| **99,90 €** | 83,25 € | 30,57 € | 51,03 € | 61,3 % | **Retenu comme recommandation** — déjà 6 × Yudu 15,99 € |
+| 109–119 € | — | 30,57 € | — | — | Maximum si on facture le saut de coût vs le 12 |
+| 149,00 € | 124,17 € | 30,57 € | 91,26 € | 73,5 % | ⛔ Non sourcé — bande bois/cuir + listings Voghion |
+
+Les variantes 12 et 6 restent à 84,90 € et 69,90 €. La bande 69-149 € décrit des coffrets **bois/cuir**, pas cette malette alu.
 
 **Leçon de méthode** : un article fournisseur déjà mappé à une fiche active doit être repéré **avant** le sourcing. Le contrôle qui a évité le doublon est le panneau de mapping DSers, pas le registre. Voir `journal/2026-08-15-push-dsers-repeuplement.md`.
