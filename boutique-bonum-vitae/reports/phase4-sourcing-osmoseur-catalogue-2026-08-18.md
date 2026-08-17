@@ -12,7 +12,7 @@ Preuve : **classe B+** (API `search` + `variants` + `exact` fret FR). Aucune PDP
 ## 1. Entrée
 
 Pas un GO marché neuf : le cluster osmoseur est déjà instruit
-([`boutique-bonum-vitae/journal/2026-08-17-analyse-marche-osmoseur.md`](../boutique-bonum-vitae/journal/2026-08-17-analyse-marche-osmoseur.md)).
+([`../journal/2026-08-17-analyse-marche-osmoseur.md`](../journal/2026-08-17-analyse-marche-osmoseur.md)).
 Cette passe complète le **catalogue déjà en vente**, pour qu'il tienne comme celui d'un spécialiste.
 
 **Trou constaté avant sourcing (catalogue public, API Shopify 18/08)** :
