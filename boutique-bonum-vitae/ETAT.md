@@ -1,8 +1,9 @@
 # Bonum Vitae — état courant
 
-**Dernière mise à jour : 17/08/2026 ~22h40** — visuels LPS livrés, QA faite : 1-4 et 6 OK,
-image 5 en réserve (topologie chauffe-eau). Shopify non touché. Raccord **G3/4" femelle**.
-[`TABLEAU.md`](TABLEAU.md) · [`journal/2026-08-17-qa-visuels-anti-tartre.md`](journal/2026-08-17-qa-visuels-anti-tartre.md).
+**Dernière mise à jour : 17/08/2026 ~23h10** — 6 visuels LPS rattachés au brouillon
+(`anti-tartre-galvanique-1.jpg` en featured), brutes DSers détachées, statut DRAFT.
+Raccord **G3/4" femelle**. [`TABLEAU.md`](TABLEAU.md) ·
+[`journal/2026-08-17-rattachement-visuels-lps.md`](journal/2026-08-17-rattachement-visuels-lps.md).
 
 ---
 

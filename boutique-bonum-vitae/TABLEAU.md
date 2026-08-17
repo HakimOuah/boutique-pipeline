@@ -11,9 +11,8 @@ pour un test ads en septembre. Prompt de relance :
 
 **Mets ce fichier à jour avant de rendre la main.**
 
-> 👉 **Hakim, maintenant :** ① T-13 — image 5 (topologie chauffe-eau) : garder / refaire /
-> jeter, puis rattacher le reste au brouillon · ② T-H7 — prix restants + prix LPS ·
-> ③ T-11 — QA préview FullStack.
+> 👉 **Hakim, maintenant :** ① T-H7 — prix restants + prix de vente LPS (reco 179-229 €) ·
+> ② T-11 — QA préview FullStack. — LPS : 6 visuels rattachés au brouillon, image 1 en tête.
 
 Dernière mise à jour : **18/08/2026 ~0h** — ✅ **FullStack v1 monté sur la copie `205568147794`** :
 démo vendeur purgée (Klaviyo, socials, rating-stars, Powered by), DA appliquée (charte BV,
@@ -44,15 +43,14 @@ bandeau -20 %). [`journal/2026-08-17-rail-a-p0.md`](journal/2026-08-17-rail-a-p0
 **A priori aucun compte GMC** pour Bonum Vitae (déclaratif). Le passage FullStack ne brutalise
 donc aucun compte établi. GMC à créer plus tard, checklist complète, sur feu vert Hakim.
 
-### T-13 — Finaliser la fiche anti-tartre galvanique (LPS)
-**État** : QA faite — rattachement bloqué sur l'image 5 · **Pour** : Hakim · **Gravité** : P2
-**Fait** : 6 JPEG livrés (2048², sRGB, sha OK), Shopify non touché. Contrôle indépendant :
-1-4 et 6 **OK** (robe nue, zéro texte, femelle visible, écorché écarté). Image 5 **réserve** :
-tubes qui semblent sortir du dessus du corps vers le chauffe-eau — un LPS est traversant
-aux extrémités, pas un collecteur.
-**Reste** : Hakim tranche l'image 5 (garder / refaire / jeter) → rattachement brouillon
-(1 = Shopping) → prix T-H7 → activation sur feu vert.
-**Réf.** : [`journal/2026-08-17-qa-visuels-anti-tartre.md`](journal/2026-08-17-qa-visuels-anti-tartre.md)
+### ~~T-13 — Finaliser la fiche anti-tartre galvanique (LPS)~~ ✅ visuels rattachés
+**État** : FAIT (brouillon) — activation et prix encore ouverts · **Pour** : Hakim (T-H7) · **Gravité** : P2
+**Fait le 17/08** : Hakim a tranché **garder l'image 5**. 6 JPEG rattachés au brouillon
+`anti-tartre-galvanique-toute-la-maison` (`11036961964370`) : image 1 = featured / Shopping,
+alts FR, 2048² READY. 6 brutes DSers **détachées** (`fileUpdate` + `referencesToRemove`,
+0 `fileDelete`, fichiers encore READY). Statut produit **DRAFT** inchangé. Variante liée à l'image 1.
+**Reste** : prix de vente (T-H7) puis activation sur feu vert Hakim.
+**Réf.** : [`journal/2026-08-17-rattachement-visuels-lps.md`](journal/2026-08-17-rattachement-visuels-lps.md)
 
 ### T-H7 — Arbitrer les prix restants (sonde du 17/08 + coûts réels découverts)
 **État** : BLOQUÉ — partiellement appliqué · **Pour** : Hakim · **Gravité** : P1 (bloque les ads)
