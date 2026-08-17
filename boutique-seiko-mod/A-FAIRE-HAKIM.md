@@ -1,8 +1,10 @@
 # À faire, Hakim
 
-**17/08/2026, ~12h30.** Thème MAIN déjà en ligne (`205451100498`).
+**17/08/2026, ~15h25.** Décision Hakim : **le site public dort.** Pas de GMC, pas de correctif live, pas d'activation. On reprend après les **30 jours Tuftéo**.
 
-**GMC Noirmont : ne pas créer** (Tuftéo 30 jours d'abord). **Ne pas activer les 20 brouillons.**
+Thème MAIN déjà en ligne (`205451100498`).
+
+**GMC Noirmont : ne pas créer** (Tuftéo 30 jours d'abord). **Ne pas activer les 20 brouillons.** **Ne pas retoucher le catalogue ni le thème publiés** tant que le gel tient.
 
 ✅ Dates de politiques : **15 août 2026** partout (T-H2).
 ✅ Les 6 contradictions du 15/08 sont soldées.

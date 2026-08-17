@@ -1,6 +1,6 @@
 # Maison Noirmont — état courant
 
-**Dernière vérification : 17/08/2026 ~13h00** — Boutique **Maison Noirmont** uniquement. ✅ **T-37** : 0 cadratin sur titres / descriptions / metas des 96 actifs + collections + pages publiées. ✅ **T-64** tours 8 places. ✅ **T-61 audit GMC Terry** : **PAS PRÊT à créer le GMC**. ✅ T-60 : 24 aluminium **109 €**. ✅ T-32 / T-63 / T-62 / T-H2 soldés. Thème publié = `205451100498`. **GMC : ne pas créer.** **N'activer aucun des 20.**
+**Dernière vérification : 17/08/2026 ~15h25** — Boutique **Maison Noirmont** uniquement. 🧊 **Storefront gelé** (décision Hakim) : pas de GMC, pas d'écriture live, pas d'activation, jusqu'après les 30 jours Tuftéo. ✅ T-37 / T-64 / T-H2 / T-61 (storefront propre, **PAS PRÊT à créer le GMC**). Thème publié = `205451100498`. **N'activer aucun des 20.**
 
 **Vérifications antérieures** : audit GMC Terry 17/08 (`journal/2026-08-17-audit-gmc-terry.md`) ; repasse conformité n°2 le 15/08 midi ; audit live 15/08 matin ; grille de prix et cookies 14/08 ; audit brouillons et GMC 13/08.
 **Repeuplement 15/08** : 20 fiches DSers en DRAFT. Visuels + textes faits le 17/08. ⛔ 2 coffrets aluminium non créés → T-60. ⛔ 4 fiches Unmapped DSers → T-59.
