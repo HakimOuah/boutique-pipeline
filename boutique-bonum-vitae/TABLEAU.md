@@ -14,12 +14,14 @@ pour un test ads en septembre. Prompt de relance :
 > 👉 **Hakim, maintenant :** dire si un **GMC / app Google & YouTube** existe (Admin → Canaux de
 > vente) — le scope `read_apps` manque au CLI. Puis valider le persona quand T-08 sera livré.
 
-Dernière mise à jour : **17/08/2026 ~19h30** — ✅ **rail A P0 soldé et constaté en anonyme** :
-faux avis retirés des 3 templates (dont `product.osmoseur.json`), « 4.8/5 · 312 avis » supprimé,
-**8 `compareAtPrice` purgés** (dont 2 dormants sur un brouillon), bandeau -20 % retiré. Auth CLI
-Bonum Vitae OK (`contact@bonumvitae.fr`). FullStack **déjà importé** : `copie-de-fullstack-2-3`
-id `205568147794`, UNPUBLISHED, zip vendeur brut (démo à purger).
-[`journal/2026-08-17-rail-a-p0.md`](journal/2026-08-17-rail-a-p0.md).
+Dernière mise à jour : **18/08/2026 ~0h** — ✅ **FullStack v1 monté sur la copie `205568147794`** :
+démo vendeur purgée (Klaviyo, socials, rating-stars, Powered by), DA appliquée (charte BV,
+Fraunces/Inter, 3 schemes), home + template produit reconstruits avec les contenus Horizon
+harmonisés policy, footer avec OH Ventures + SIREN. **QA préview à faire par Hakim** :
+`https://kw7vak-g0.myshopify.com?preview_theme_id=205568147794`.
+[`journal/2026-08-17-fullstack-build-v1.md`](journal/2026-08-17-fullstack-build-v1.md).
+— Plus tôt (~19h30) : ✅ rail A P0 soldé et constaté en anonyme (faux avis, 4.8/5, 8 barrés,
+bandeau -20 %). [`journal/2026-08-17-rail-a-p0.md`](journal/2026-08-17-rail-a-p0.md).
 
 ---
 
