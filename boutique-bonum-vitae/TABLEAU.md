@@ -45,18 +45,18 @@ bandeau -20 %). [`journal/2026-08-17-rail-a-p0.md`](journal/2026-08-17-rail-a-p0
 **A priori aucun compte GMC** pour Bonum Vitae (déclaratif). Le passage FullStack ne brutalise
 donc aucun compte établi. GMC à créer plus tard, checklist complète, sur feu vert Hakim.
 
-### T-13 — Monter la fiche LPS (brouillon créé le 17/08)
-**État** : À FAIRE · **Pour** : Claude (copy) + Hakim (prix, visuels à valider) · **Gravité** : P2
-**Pourquoi** : le LPS toute-maison est sur Shopify en **DRAFT** (import DSers du 17/08, mapping en
-place, **fret France 0 € — coût rendu 65,10 €**, classe A). Le candidat électronique sourcé s'est
-révélé être le fournisseur d'une fiche déjà en boutique (anti-tartre USB).
-**Comment** :
-1. Réécrire titre + description en français (persona, « dispositif d'appoint », zéro claim
-   d'efficacité — Anses).
-2. Visuels composés (photos brutes avec logo « GERMAN Filters Technology » sur l'image 1 —
-   contrôle marque tierce obligatoire).
-3. Prix de vente : reco 179-229 € (marge 64-72 %) — Hakim tranche.
-4. Ne pas activer, ne pas publier sur les canaux sans feu vert.
+### T-13 — Finaliser la fiche anti-tartre galvanique (LPS)
+**État** : EN COURS — copy ✅ fait le 17/08 · **Pour** : Codex (images) + Hakim (prix) · **Gravité** : P2
+**Fait** : fiche réécrite en français sur le brouillon (`anti-tartre-galvanique-toute-la-maison`,
+produit `11036961964370`) — titre, description transparence (« ce que nous ne vous promettons
+pas »), specs fabricant attribuées, SEO title+description envoyés ensemble, handle propre (jamais
+publié, pas de 301 nécessaire). Aucun claim 76-86 % ni E. Coli repris.
+**Reste** :
+1. Images : brief prêt pour Codex →
+   [`livraisons/brief-codex-images-anti-tartre-galvanique-2026-08-17.md`](livraisons/brief-codex-images-anti-tartre-galvanique-2026-08-17.md)
+   (6 visuels composés, DA lin/bois clair, zéro texte incrusté, contrôle marque tierce).
+2. Prix de vente : reco 179-229 € (coût rendu 65,10 €, fret FR 0 €) — Hakim tranche (T-H7).
+3. Contrôle des visuels livrés, rattachement, puis activation sur feu vert Hakim uniquement.
 **Réf.** : [`journal/2026-08-17-dsers-import-anticalcaire.md`](journal/2026-08-17-dsers-import-anticalcaire.md)
 
 ### T-H7 — Arbitrer les prix restants (sonde du 17/08 + coûts réels découverts)
