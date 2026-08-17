@@ -11,8 +11,8 @@ pour un test ads en septembre. Prompt de relance :
 
 **Mets ce fichier à jour avant de rendre la main.**
 
-> 👉 **Hakim, maintenant :** ① T-H7 — prix restants + prix de vente LPS (reco 179-229 €) ·
-> ② T-11 — QA préview FullStack. — LPS : 6 visuels rattachés au brouillon, image 1 en tête.
+> 👉 **Hakim, maintenant :** ① T-H7 — prix restants (magnétiques, USB, carafes ALTHY,
+> douche vitamine C) · ② T-11 — QA préview FullStack. — LPS : **149 €**, 6 visuels, brouillon.
 
 Dernière mise à jour : **18/08/2026 ~0h** — ✅ **FullStack v1 monté sur la copie `205568147794`** :
 démo vendeur purgée (Klaviyo, socials, rating-stars, Powered by), DA appliquée (charte BV,
@@ -49,13 +49,14 @@ donc aucun compte établi. GMC à créer plus tard, checklist complète, sur feu
 `anti-tartre-galvanique-toute-la-maison` (`11036961964370`) : image 1 = featured / Shopping,
 alts FR, 2048² READY. 6 brutes DSers **détachées** (`fileUpdate` + `referencesToRemove`,
 0 `fileDelete`, fichiers encore READY). Statut produit **DRAFT** inchangé. Variante liée à l'image 1.
-**Reste** : prix de vente (T-H7) puis activation sur feu vert Hakim.
-**Réf.** : [`journal/2026-08-17-rattachement-visuels-lps.md`](journal/2026-08-17-rattachement-visuels-lps.md)
+**Prix** : **149,00 €** (17/08, aligné cluster G3/4 inox toute-maison). Coût rendu 65,10 €,
+marge brute 56 %. 0 barré. Activation toujours sur feu vert Hakim.
+**Réf.** : [`journal/2026-08-17-prix-lps-concurrence.md`](journal/2026-08-17-prix-lps-concurrence.md)
 
 ### T-H7 — Arbitrer les prix restants (sonde du 17/08 + coûts réels découverts)
 **État** : BLOQUÉ — partiellement appliqué · **Pour** : Hakim · **Gravité** : P1 (bloque les ads)
-**Fait le 17/08** : ✅ RO 600G confirmé 299 € · ✅ **OSWNKW baissé à 449 €** (appliqué, constaté
-public, 0 barré réintroduit).
+**Fait le 17/08** : ✅ RO 600G confirmé 299 € · ✅ **OSWNKW baissé à 449 €** · ✅ **LPS à 149 €**
+(aligné cluster G3/4 inox 121-150 €, pas la reco cost-plus 179-229). 0 barré.
 **Reste à trancher** (coûts fournisseur découverts au sourcing : marge actuelle ×3-4) :
 - ⛔ **Magnétiques DN20/DN25 à 152,90-153,90 €** (coût ~40 €) : bande marché 20-150 €, efficacité
   publiquement contestée → ≤ 99 € ou hors acquisition, jamais en Shopping.

@@ -1,9 +1,8 @@
 # Bonum Vitae — état courant
 
-**Dernière mise à jour : 17/08/2026 ~23h10** — 6 visuels LPS rattachés au brouillon
-(`anti-tartre-galvanique-1.jpg` en featured), brutes DSers détachées, statut DRAFT.
-Raccord **G3/4" femelle**. [`TABLEAU.md`](TABLEAU.md) ·
-[`journal/2026-08-17-rattachement-visuels-lps.md`](journal/2026-08-17-rattachement-visuels-lps.md).
+**Dernière mise à jour : 17/08/2026 ~23h25** — LPS brouillon à **149,00 €** (aligné Kalyxx
+BlueLine / Diproclean 121-150 €), 6 visuels, 0 barré, DRAFT. Raccord G3/4" femelle.
+[`TABLEAU.md`](TABLEAU.md) · [`journal/2026-08-17-prix-lps-concurrence.md`](journal/2026-08-17-prix-lps-concurrence.md).
 
 ---
 
