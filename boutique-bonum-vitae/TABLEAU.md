@@ -11,8 +11,9 @@ pour un test ads en septembre. Prompt de relance :
 
 **Mets ce fichier à jour avant de rendre la main.**
 
-> 👉 **Hakim, maintenant :** dire si un **GMC / app Google & YouTube** existe (Admin → Canaux de
-> vente) — le scope `read_apps` manque au CLI. Puis valider le persona quand T-08 sera livré.
+> 👉 **Hakim, maintenant :** ① valider le persona (T-H3, prêt) · ② arbitrer les prix avant
+> campagnes (T-H7 — OSWNKW, anti-calcaire, carafes ALTHY) · ③ QA préview FullStack (T-11) ·
+> ④ dire si un GMC existe (T-H6, scope `read_apps` manquant au CLI).
 
 Dernière mise à jour : **18/08/2026 ~0h** — ✅ **FullStack v1 monté sur la copie `205568147794`** :
 démo vendeur purgée (Klaviyo, socials, rating-stars, Powered by), DA appliquée (charte BV,
@@ -56,6 +57,18 @@ Claire 38 ans mère vigilante (principal), Karim locataire peau sensible (second
 `[O]`/`[D]`, axe différenciant « le marchand qui dit ce qui est prouvé ».
 **Comment** : lire, dire oui / amender / non. Valider aussi le vouvoiement.
 **Sortie attendue** : persona coché validé dans `ETAT.md`.
+
+### T-H8 — Trancher la place de l'« adoucisseur » dans la boutique
+**État** : BLOQUÉ · **Pour** : Hakim · **Gravité** : P1 (structure la boutique)
+**Pourquoi** : analyse approfondie osmoseur du 17/08
+([`journal/2026-08-17-analyse-marche-osmoseur.md`](journal/2026-08-17-analyse-marche-osmoseur.md)) :
+« adoucisseur d'eau » (40 500/mois) est un **marché de la pose** (800-3 500 € installé, Culligan/BWT/
+installateurs) — inaccessible en dropshipping frontal. La porte latérale « adoucisseur sans sel /
+compact / appartement » fait ≈ 8 160/mois à **KD 8-19**, mais exige un produit crédible (électronique
+type Calmat 408-544 €), pas nos aimants à 153 €.
+**Comment** : choisir (a) sourcer un anti-calcaire électronique sérieux (phase 4 à lancer) ou
+(b) boutique « point d'usage » pure (osmoseur + douche + robinet), adoucisseur en éditorial seulement.
+**Sortie attendue** : décision notée, sourcing lancé ou périmètre figé.
 
 ### T-H7 — Arbitrer les prix avant campagnes (sonde du 17/08)
 **État** : BLOQUÉ · **Pour** : Hakim · **Gravité** : P1 (bloque le lancement ads)
