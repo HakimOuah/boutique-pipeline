@@ -43,8 +43,8 @@ Templates produit Horizon : `product.json` (25 fiches) + `product.osmoseur.json`
 
 ## Catalogue (constaté API 17/08)
 
-**28 produits** (18/08) : **23 ACTIVE** publics, **5 DRAFT** — LPS, SHUANGLI, OSWNKW compact,
-membrane 50 GPD (sortie du live le 18/08), **kit entretien 600 GPD** (`kit-entretien-osmoseur-600-gpd`).
+**28 produits** (18/08) : **24 ACTIVE** publics, **4 DRAFT** — LPS, SHUANGLI, OSWNKW compact,
+membrane 50 GPD (sortie du live le 18/08). Kit entretien 600 GPD **publié**.
 
 - **0 `compareAtPrice` non nul** sur tout le catalogue depuis le 17/08 ~19h15 (8 purgés, backup
   dans `backups/2026-08-17-rail-a/`).
@@ -56,7 +56,7 @@ membrane 50 GPD (sortie du live le 18/08), **kit entretien 600 GPD** (`kit-entre
 | Collection | Produits | Seuil de 5 |
 |---|---|---|
 | `filtres-de-douche` / `carafes-filtrantes` / `filtres-robinet` / `anti-calcaire-sans-sel` | 5 | ✅ |
-| `osmoseurs` | **2** visibles (membrane 50 GPD sortie le 18/08 ; kit en brouillon) | ⛔ T-07 |
+| `osmoseurs` | **3** visibles (RO 600G + 449 € + kit ; membrane 50 GPD hors live) | ⛔ T-07 |
 | `purificateurs-nomades` | 1 | ⛔ T-07 |
 | `frontpage` | 1 | ⛔ (système) |
 
