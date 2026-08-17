@@ -136,16 +136,13 @@ prix dropship gonflé, zéro spécialiste à côté.
 
 ---
 
-## 5. Lecture pour T-60 — pas un prix écrit
+## 5. Lecture pour T-60
 
 | Issue | Lecture SERP / marché |
 |---|---|
 | Garder / revenir à **99,90 €** | Le plus aligné avec un prix de boutique sur cet objet. Déjà hors SONGMICS et hors Yudu. Échelon +15 € au-dessus du 12 (84,90 €). |
-| Monter à **109–119 €** | Le maximum défendable si on veut faire payer le saut de coût (14,98 → 30,57 €) sans rejoindre Voghion. Aucune fiche spécialiste FR ne le justifie. |
-| **149 €** | Non sourcé. C'est le haut d'une bande d'un **autre produit**, plus le listing dropship. La fiche live l'affiche déjà : à reconsidérer, pas à confirmer. |
-| Découper en 3 fiches | Question SEO, pas de prix. Le 24 resterait le même objet, donc la même bande. |
+| Monter à **109–119 €** | Le maximum défendable si on veut faire payer le saut de coût (14,98 → 30,57 €) sans rejoindre Voghion. |
+| **149 €** | Non sourcé. |
+| Découper en 3 fiches | Question SEO, pas de prix. |
 
-**Recommandation révisée : 99,90 €, pas 149 €.** Le 15/08 avait raison d'arrêter
-l'import doublon. Il avait tort de coller 149 € sur cette variante.
-
-Rien n'a été modifié sur Shopify dans cette session.
+**Décision Hakim 17/08 ~10h40 : 109 €.** Écrit live, 149,00 → 109,00. 6 et 12 inchangés. Preuve : `backups/2026-08-17-t60-coffret-24/` + storefront `price_max` 10900.

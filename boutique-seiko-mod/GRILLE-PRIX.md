@@ -210,7 +210,7 @@ La formule est au §3.
 | Fiche | Comparable | Prix relevé | Prix actuel | **Prix cible** | Écart | Coût rendu | Marge HT | Marge % | Coef. |
 |---|---|---|---|---|---|---|---|---|---|
 | `coffret-6-montres-couvercle-verre` | Royaume de la Boite 55-99 | 55-99 € | 54,90 € | **69,90 €** | +15 € | 16,34 € | 40,68 € | 69,8 % | 4,28 |
-| `coffret-douze-aluminium` | Royaume de la Boite 55-99 | 55-99 € | 24,90-69,90 € | **69,90 € → 99,90 €** | +45 € | 13,14 € | 43,88 € | 75,3 % | 5,32 |
+| `coffret-douze-aluminium` | Royaume de la Boite 55-99 | 55-99 € | 24,90-69,90 € | **69,90 / 84,90 / 109,00 €** | 24 à 109 (T-60, 17/08) | 30,57 € (24) | 60,26 € | 66,3 % | 3,57 |
 | `coffret-douze-presentation` | Royaume de la Boite 99 | 55-99 € | 94,90 € | **94,90 €** | = | 44,38 € | 33,12 € | 41,9 % | 2,14 |
 | `etui-de-voyage-rigide` | etui montre 11-150 | 11-150 € | 69,90-189,90 € | **69,90 € → 149,90 €** | = | 19,78 € | 37,24 € | 63,9 % | 3,53 |
 | `coussins-de-presentation-lot-de-10` | aucun comparable releve | - € | 19,90 € | **19,90 €** | = | 5,70 € | 10,35 € | 62,4 % | 3,49 |

@@ -1,0 +1,38 @@
+{
+  "shop": {
+    "name": "Maison Noirmont",
+    "myshopifyDomain": "v42pzp-h4.myshopify.com",
+    "email": "contact@maisonnoirmont.fr"
+  },
+  "productByHandle": {
+    "id": "gid://shopify/Product/10977444856146",
+    "handle": "coffret-douze-aluminium",
+    "status": "ACTIVE",
+    "title": "Coffret Douze — aluminium",
+    "variants": {
+      "nodes": [
+        {
+          "id": "gid://shopify/ProductVariant/54087122714962",
+          "title": "24 montres",
+          "sku": "NOIR-COF-002",
+          "price": "149.00",
+          "compareAtPrice": null
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54087122747730",
+          "title": "12 montres",
+          "sku": "NOIR-COF-003",
+          "price": "84.90",
+          "compareAtPrice": null
+        },
+        {
+          "id": "gid://shopify/ProductVariant/54087122780498",
+          "title": "6 montres",
+          "sku": "NOIR-COF-004",
+          "price": "69.90",
+          "compareAtPrice": null
+        }
+      ]
+    }
+  }
+}
