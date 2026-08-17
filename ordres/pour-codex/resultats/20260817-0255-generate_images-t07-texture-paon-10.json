@@ -1,0 +1,111 @@
+{
+  "id": "claude-20260817-0255-t07-texture-paon-10",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "cadran-texture-paon-29-sans-logo",
+        "sku": "14:365458#Only Peacock blue",
+        "slot": "variante",
+        "fichier": "cadran-texture-paon-29-sans-logo-v-only-peacock-blue.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-texture-paon-29-sans-logo",
+        "sku": "14:350852#Only black dial",
+        "slot": "variante",
+        "fichier": "cadran-texture-paon-29-sans-logo-v-only-black-dial.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-texture-paon-29-sans-logo",
+        "sku": "14:200001951#Only B dial",
+        "slot": "variante",
+        "fichier": "cadran-texture-paon-29-sans-logo-v-only-b-dial.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-texture-paon-29-sans-logo",
+        "sku": "14:100018786#Only white dial",
+        "slot": "variante",
+        "fichier": "cadran-texture-paon-29-sans-logo-v-only-white-dial.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-texture-paon-29-sans-logo",
+        "sku": "14:200002130#Peacock blue hand",
+        "slot": "variante",
+        "fichier": "cadran-texture-paon-29-sans-logo-v-peacock-blue-hand.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-texture-paon-29-sans-logo",
+        "sku": "14:200002984#black dial hand",
+        "slot": "variante",
+        "fichier": "cadran-texture-paon-29-sans-logo-v-black-dial-hand.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-texture-paon-29-sans-logo",
+        "sku": "14:200003699#B dial hand",
+        "slot": "variante",
+        "fichier": "cadran-texture-paon-29-sans-logo-v-b-dial-hand.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "cadran-texture-paon-29-sans-logo",
+        "sku": "14:200004889#white dial hand",
+        "slot": "variante",
+        "fichier": "cadran-texture-paon-29-sans-logo-v-white-dial-hand.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "cadran-texture-paon-29-sans-logo",
+        "sku": "14:1052#Only Beige hand",
+        "slot": "variante",
+        "fichier": "cadran-texture-paon-29-sans-logo-v-only-beige-hand.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/b-dial-hand-v1-date-aperture-too-dark.jpg",
+        "motif": "Premier essai ecarte : guichet de date trop sombre pour prouver visuellement qu'il est vide. Deuxieme generation livree."
+      },
+      {
+        "fichier": "rejected/only-white-hand-v1-minute-edge-artifacts.jpg",
+        "motif": "Essai 1 ecarte : irregularites et fragments sur le bord de l'aiguille minute."
+      },
+      {
+        "fichier": "rejected/only-white-hand-v2-minute-edge-artifacts.jpg",
+        "motif": "Essai 2 ecarte : bord et insert lumineux de l'aiguille minute encore irreguliers."
+      },
+      {
+        "fichier": "rejected/only-white-hand-v3-minute-edge-dot.jpg",
+        "motif": "Essai 3 ecarte : point parasite et discontinuite visibles sur l'aiguille minute."
+      },
+      {
+        "fichier": "rejected/only-white-hand-v4-minute-edge-dot.jpg",
+        "motif": "Essai 4 ecarte : point et protuberance persistants sur l'aiguille minute."
+      },
+      {
+        "fichier": "rejected/only-white-hand-v5-minute-edge-dot-and-background-drift.jpg",
+        "motif": "Essai 5 ecarte : point et protuberances persistants sur l'aiguille minute, metal assombri et fond trop texture ; aucune image douteuse livree pour le SKU 14:691#Only white hand."
+      }
+    ],
+    "sujets_difficiles": [
+      "14:691#Only white hand — 4 regenerations apres l'essai initial, artefact de bord persistant sur l'aiguille minute ; entree rejetee."
+    ]
+  },
+  "executed_at": "2026-08-17T01:20:49Z",
+  "executor": "codex-2026-08-17"
+}

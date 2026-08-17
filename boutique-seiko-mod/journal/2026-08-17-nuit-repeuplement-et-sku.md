@@ -27,8 +27,18 @@ Correspondance : `backups/2026-08-17-sku-t32/correspondance-ancien-nouveau.jsonl
 ## Ce qui n'a pas bougé
 
 - Les 20 restent DRAFT.
-- T-07 (photos brutes des autres brouillons).
+- T-07 (photos brutes des autres brouillons) : **entamé**, voir ci-dessous.
 - T-60 (coffret aluminium 99,90 vs 149 €) : attend Hakim.
 - T-59 (4 Unmapped DSers) : l'interface ne persiste pas.
 - Politiques encore datées du 10/08 : `write_legal_policies` absent.
 - GMC Noirmont : ne pas créer.
+
+## T-07 — premier incrément
+
+Inventaire live : 115 brouillons, 69 house_only / 5 mixed / 41 ali_only, 1 086 photos AliExpress. CSV du 13/08 périmé.
+
+Détaché (mixed, assez de maison, DRAFT) : `heritage-plongeuse-vintage-42`, `cadran-pilote-29-mod-nh35`. Aucun `fileDelete`.
+
+`cadran-sterile-vert-lumineux-28-5` écarté : N/E/S/W physiques (audit 10/08 BLOQUÉ).
+
+Premier lot produisible : `cadran-texture-paon-29-sans-logo`. Ordre `20260817-0255-generate_images-t07-texture-paon-10`, 9/10 livrés, `Only white hand` rejeté après 5 essais. 9 visuels rattachés, 14 brutes détachées, première image = bleu paon, `NOIR-DIA-389` garde sa photo AliExpress. Statut **DRAFT**.
