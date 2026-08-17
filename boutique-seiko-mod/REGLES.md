@@ -58,4 +58,6 @@ Règles issues de décisions de Hakim et d'incidents réels. **Elles ne s'assoup
 
 ## Ce qui appartient à Hakim
 
-Coller les politiques légales (permission `write_legal_policies` absente du connecteur) · adhérer à un médiateur de la consommation · arbitrer les prix · installer une app ou créer un compte · publier le thème · activer un produit ou une collection · retirer le mot de passe boutique.
+Coller les politiques légales · adhérer à un médiateur de la consommation · arbitrer les prix · installer une app ou créer un compte · publier le thème · activer un produit ou une collection · retirer le mot de passe boutique.
+
+**Note 17/08** : le scope `write_legal_policies` est maintenant accordé sur Noirmont (`shopify store auth`, compte `contact.noirmont@gmail.com`). Les dates T-H2 ont été écrites par l'agent. Le collage initial des 7 textes reste un geste Hakim s'il faut tout réécrire.

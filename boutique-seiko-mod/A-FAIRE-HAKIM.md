@@ -1,34 +1,18 @@
 # À faire, Hakim
 
-**17/08/2026, ~11h00.** Thème MAIN déjà en ligne (`205451100498`). Audit GMC Terry :
-[`journal/2026-08-17-audit-gmc-terry.md`](journal/2026-08-17-audit-gmc-terry.md).
+**17/08/2026, ~12h30.** Thème MAIN déjà en ligne (`205451100498`).
 
-**GMC Noirmont : ne pas créer** (Tuftéo 30 jours d'abord ; le domaine Noirmont n'a que 24 jours).
-**Ne pas activer les 20 brouillons.**
+**GMC Noirmont : ne pas créer** (Tuftéo 30 jours d'abord). **Ne pas activer les 20 brouillons.**
 
-✅ **Les 6 contradictions du 15/08 sont soldées en live** (24 h / footer / garantie / 4 fois / JSON-LD).
-✅ **Collections : on garde** `frontpage`, `montre-squelette` et `plongeuses` — Hakim 17/08 : on n'invente pas de produits pour le seuil de 5.
-✅ **Présidentiel : on laisse** (arbitrage A, 17/08 après-midi).
-✅ **Âge du domaine (24 j) : accepté**, pas éliminatoire.
-✅ **T-60 : 24 aluminium à 109 €.**
+✅ Dates de politiques : **15 août 2026** partout (T-H2).
+✅ Les 6 contradictions du 15/08 sont soldées.
+✅ Collections gardées · Présidentiel laissé · T-60 à 109 €.
 
-Il te reste un geste, ce n'est pas du code :
+Plus aucun geste obligatoire de ton côté. Optionnel : Google Pay (B) et « Qualité Premium » (C).
 
-1. **Redater 5 politiques** (2 min) — en-tête encore « 10 août 2026 ».
-
-Liens directs :
+Liens :
+- Paiements (Google Pay) : https://admin.shopify.com/store/v42pzp-h4/settings/payments
 - Politiques : https://admin.shopify.com/store/v42pzp-h4/settings/legal
-- Paiements (Google Pay, optionnel) : https://admin.shopify.com/store/v42pzp-h4/settings/payments
-
----
-
-## 1. Redater les politiques modifiées (2 min)
-
-Cinq politiques annoncent « Version en vigueur au 10 août 2026 » alors que les CGV ont été
-modifiées le 15 (URL du médiateur). Seules les mentions légales portent la bonne date.
-
-**Où** : Réglages → Politiques → corriger l'en-tête de : CGV, CGU, expédition, remboursement,
-confidentialité. **Mettre** : `Version en vigueur au 15 août 2026`.
 
 ---
 
