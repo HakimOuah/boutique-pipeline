@@ -1,8 +1,8 @@
 # Bonum Vitae — état courant
 
-**Dernière mise à jour : 17/08/2026 ~22h20** — visuels LPS **STOP Codex** (drapeau DE + étiquette
-FDA/NSF/86 % sur le corps ; aucune image générée). Raccord fiche corrigé **DN32 → G3/4" femelle**.
-Plus tôt : persona, OSWNKW 449 €, 11 fiches débaptisées, FullStack v1, rail A P0.
+**Dernière mise à jour : 17/08/2026 ~22h25** — visuels LPS **voie C** (Hakim) : overlays assumés,
+brief relancé, robe inox nue autorisée. Raccord fiche **G3/4" femelle**. Plus tôt : STOP Codex,
+persona, OSWNKW 449 €, FullStack v1, rail A P0.
 [`TABLEAU.md`](TABLEAU.md) · [`journal/2026-08-17-stop-visuels-anti-tartre.md`](journal/2026-08-17-stop-visuels-anti-tartre.md).
 
 ---

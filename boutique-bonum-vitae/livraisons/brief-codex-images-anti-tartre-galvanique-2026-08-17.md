@@ -6,6 +6,20 @@
 > avec un `manifeste.json`. **Ne rien rattacher à Shopify** — le rattachement se fait après
 > contrôle indépendant.
 
+## Reprise 17/08 — voie C (Hakim)
+
+Le STOP du premier passage est **levé**. Hakim assume que le drapeau allemand et l'étiquette
+bleue (FDA / NSF / 86 % / « 10+ ») des sources 1-2 sont des **incrustations photo vendeur**,
+pas des marquages livrés. **Ne pas re-STOPPER pour ce motif.**
+
+À faire sur le cylindre : reprendre corps, filetages hexagonaux, proportions et finition inox
+**tels quels**, et **rendre la robe nue** — inox brossé continu, sans drapeau, sans étiquette,
+sans lettrage, sans logo. Les bandeaux « GERMAN Filters Technology », blocs noir-rouge-jaune,
+filigrane AliExpress et logos de certification hors produit restent interdits dans les livrables.
+
+Raccord à montrer : **G3/4" femelle (20×27)**, pas DN32. Si l'image 6 (écorché) ne peut pas
+être nettoyée sans inventer l'intérieur, livrer un second packshot (dessus / profil) à la place.
+
 ## Le produit (pour comprendre ce que tu mets en scène)
 
 Corps anti-tartre **en acier inoxydable**, cylindrique, qui se visse **en ligne sur la canalisation
@@ -32,11 +46,11 @@ Sur le CDN Bonum Vitae (galerie du produit brouillon) :
    proportions, finition inox sont repris **tels quels**. Seule la mise en scène change (fond,
    décor, lumière). Ne jamais réinventer l'objet — pas de vanne ajoutée, pas de gravure inventée,
    pas de raccord modifié.
-2. **Marques tierces.** Certaines photos sources portent un bandeau « GERMAN Filters Technology »
-   (marketing du vendeur) : **aucun texte ou logo de ce type dans les livrables**. ⚠ Zoomer le
-   corps du produit sur chaque source : si un marquage de marque est **physiquement gravé/imprimé
-   sur l'objet**, STOP — le signaler dans le rapport au lieu de le gommer (on ne vend pas un
-   produit différent de ce que le client reçoit).
+2. **Marques tierces.** Bandeaux « GERMAN Filters Technology », drapeaux, étiquettes FDA/NSF/86 %,
+   filigranes AliExpress : **aucun dans les livrables**. Sur **ce** SKU, Hakim a tranché voie C
+   (17/08) : drapeau + étiquette bleue des sources 1-2 = incrustations à retirer, robe inox nue.
+   Le STOP « marquage physique à vérifier » ne s'applique plus ici. Tout *autre* marquage gravé
+   ou embouti qui n'est pas ces overlays reste à signaler dans le rapport, sans le gommer.
 3. **Aucun texte incrusté** sur les images (contrainte flux Google Shopping). Pas de badge, pas de
    pourcentage, pas de « -86 % », pas d'étoile, pas d'avis, pas de compteur, pas de logo de
    certification. Les images parlent par la scène, le texte vit dans la fiche.

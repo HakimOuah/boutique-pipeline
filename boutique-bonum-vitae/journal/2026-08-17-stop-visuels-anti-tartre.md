@@ -32,3 +32,10 @@ Livraison de contrôle : `livraisons/visuels-anti-tartre-galvanique/RAPPORT.md` 
 Même en voie A/B : les images Shopping **ne montreront jamais** FDA, NSF ni 86 % — contrainte GMC,
 indépendante de ce qui est collé sur l'objet. Si l'étiquette est permanente et non amovible, on
 photographie l'objet **après retrait** (si possible) ou on n'utilise pas ce SKU en acquisition.
+
+## Décision Hakim — voie C (17/08 ~22h20)
+
+Hakim assume que drapeau + étiquette sont des incrustations photo. Brief relancé : robe inox nue
+autorisée, STOP « marquage physique » levé **pour ce SKU seulement**. Raccord G3/4" inchangé.
+Risque accepté : si le lot réel porte ces marquages, le client reçoit un objet différent des
+visuels. À recouper à la première commande (photo colis).
