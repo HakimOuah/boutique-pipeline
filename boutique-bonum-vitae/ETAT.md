@@ -1,9 +1,9 @@
 # Bonum Vitae — état courant
 
-**Dernière mise à jour : 17/08/2026 ~23h35** — passe copy/SEO : 27 fiches réécrites, faux avis
-fournisseur retirés, hero live = « Filtres, carafes et osmoseurs pour l'eau du robinet ».
-LPS 149 €, DRAFT. [`TABLEAU.md`](TABLEAU.md) ·
-[`journal/2026-08-17-passe-seo-copy.md`](journal/2026-08-17-passe-seo-copy.md).
+**Dernière mise à jour : 18/08/2026 ~1h** — sourcing catalogue osmoseur (API, pas d'import) :
+kit OSWNKW `1005005705096746` à tester (63,46 € rendu). Membrane 50 GPD toujours publique
+dans `osmoseurs` = trou de cohérence. [`TABLEAU.md`](TABLEAU.md) ·
+[`reports/phase4-sourcing-osmoseur-catalogue-2026-08-18.md`](reports/phase4-sourcing-osmoseur-catalogue-2026-08-18.md).
 
 ---
 

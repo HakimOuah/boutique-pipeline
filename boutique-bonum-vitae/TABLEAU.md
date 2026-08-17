@@ -11,11 +11,14 @@ pour un test ads en septembre. Prompt de relance :
 
 **Mets ce fichier à jour avant de rendre la main.**
 
-> 👉 **Hakim, maintenant :** ① T-H7 — prix restants (magnétiques, USB, carafes, douche
-> vitamine C) · ② T-11 — QA préview FullStack. — ✅ 17/08 : 27 fiches réécrites (Shopping +
-> purge IA / faux avis fournisseur), hero live sans « eau pure » ni « sans plombier ».
+> 👉 **Hakim, maintenant :** ① **T-15 — kit entretien 600 GPD en DSers brouillon ?**
+> (`1005005705096746`, 63,46 € rendu) · ② T-H7 — prix restants · ③ T-11 — QA préview FullStack.
 
-Dernière mise à jour : **18/08/2026 ~0h** — ✅ **FullStack v1 monté sur la copie `205568147794`** :
+Dernière mise à jour : **18/08/2026 ~1h** — ✅ **Sourcing catalogue osmoseur** (lecture seule) :
+kit OSWNKW 600 GPD + remin = `FOURNISSEUR À TESTER` ; comptoir et 800 GPD livrable FR =
+`AUCUNE OFFRE` cette passe. Aucun import. Rapport :
+[`reports/phase4-sourcing-osmoseur-catalogue-2026-08-18.md`](reports/phase4-sourcing-osmoseur-catalogue-2026-08-18.md).
+— Plus tôt (~0h) : ✅ **FullStack v1 monté sur la copie `205568147794`** :
 démo vendeur purgée (Klaviyo, socials, rating-stars, Powered by), DA appliquée (charte BV,
 Fraunces/Inter, 3 schemes), home + template produit reconstruits avec les contenus Horizon
 harmonisés policy, footer avec OH Ventures + SIREN. **QA préview à faire par Hakim** :
@@ -92,6 +95,18 @@ FullStack : hero, H2, lorem collection. Constaté anonyme : nouveau H1, plus de 
 **Réf.** : [`journal/2026-08-17-passe-seo-copy.md`](journal/2026-08-17-passe-seo-copy.md)
 
 ## À FAIRE
+
+### T-15 — Sourcing catalogue osmoseur : trancher l'import du kit
+**État** : À FAIRE — sourcing fait, import bloqué · **Pour** : Hakim · **Gravité** : P1
+**Pourquoi** : deux 600 GPD publics sans conso compatible, plus une membrane **50 GPD** dans
+`osmoseurs` — ça ne tient pas comme un spécialiste. Le kit officiel OSWNKW
+(`1005005705096746`) annonce PP + PPC + membrane **3013-600** + reminéralisation, **63,46 €**
+rendu Chine (Pologne en rupture). Compatibilité du RO 600G à 299 € **non prouvée**.
+**Comment** : si oui — DSers brouillon seulement (Draft coché, `solinvictuss` décoché, barré
+à purger). Si non — on laisse le 299 € partir en septembre sans coût annuel documenté.
+**Sortie attendue** : oui/non + sort de la membrane 50 GPD (sortir / débaptiser / laisser).
+**Réf.** : [`reports/phase4-sourcing-osmoseur-catalogue-2026-08-18.md`](reports/phase4-sourcing-osmoseur-catalogue-2026-08-18.md) ·
+[`journal/2026-08-18-sourcing-catalogue-osmoseur.md`](journal/2026-08-18-sourcing-catalogue-osmoseur.md)
 
 ### T-06 — Recouper policies live vs pages CMS (doublon mentions légales)
 **État** : À FAIRE · **Pour** : Claude · **Gravité** : P1 · **Dépend de** : T-H1
