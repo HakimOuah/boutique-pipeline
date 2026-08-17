@@ -1,8 +1,9 @@
 # Bonum Vitae — état courant
 
-**Dernière mise à jour : 17/08/2026 ~23h25** — LPS brouillon à **149,00 €** (aligné Kalyxx
-BlueLine / Diproclean 121-150 €), 6 visuels, 0 barré, DRAFT. Raccord G3/4" femelle.
-[`TABLEAU.md`](TABLEAU.md) · [`journal/2026-08-17-prix-lps-concurrence.md`](journal/2026-08-17-prix-lps-concurrence.md).
+**Dernière mise à jour : 17/08/2026 ~23h35** — passe copy/SEO : 27 fiches réécrites, faux avis
+fournisseur retirés, hero live = « Filtres, carafes et osmoseurs pour l'eau du robinet ».
+LPS 149 €, DRAFT. [`TABLEAU.md`](TABLEAU.md) ·
+[`journal/2026-08-17-passe-seo-copy.md`](journal/2026-08-17-passe-seo-copy.md).
 
 ---
 

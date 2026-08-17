@@ -53,7 +53,10 @@ pop DIY, ni luxe montres.
 - **Specs de raccord : la fiche fabricant prime sur le brief.** DN32 écrit par erreur le 17/08 ;
   la source LPS10 dit G3/4" femelle. Ne jamais inventer un DN.
 - **Aucune preuve sociale fabriquée.** 0 commande client au 17/08 (parc). Pas d'avis, pas de note,
-  pas de « Vérifié », pas de compteur.
+  pas de « Vérifié », pas de compteur. **Y compris les notes AliExpress collées dans une
+  description** (payé le 17/08 : 4,9/5 et « 1 450 avis » sur 5 fiches).
+- **Copy produit :** pas de formule unique sur tout le catalogue (« Ce que ça change au
+  quotidien », scène → triple, closer d'urgence). Titre Shopping = type + spec, mot-clé d'abord.
 - **Anti-calcaire magnétique / électronique :** jamais « adoucit l'eau / élimine le calcaire /
   réduit la dureté ». Le positionnement de juillet le dit déjà ; le faux avis Karim le viole.
 - **Pas d'allégation santé** : prévient, détoxifie, soigne, peau, tiraillement, imagerie médicale,

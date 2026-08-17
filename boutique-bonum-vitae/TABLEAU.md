@@ -11,8 +11,9 @@ pour un test ads en septembre. Prompt de relance :
 
 **Mets ce fichier à jour avant de rendre la main.**
 
-> 👉 **Hakim, maintenant :** ① T-H7 — prix restants (magnétiques, USB, carafes ALTHY,
-> douche vitamine C) · ② T-11 — QA préview FullStack. — LPS : **149 €**, 6 visuels, brouillon.
+> 👉 **Hakim, maintenant :** ① T-H7 — prix restants (magnétiques, USB, carafes, douche
+> vitamine C) · ② T-11 — QA préview FullStack. — ✅ 17/08 : 27 fiches réécrites (Shopping +
+> purge IA / faux avis fournisseur), hero live sans « eau pure » ni « sans plombier ».
 
 Dernière mise à jour : **18/08/2026 ~0h** — ✅ **FullStack v1 monté sur la copie `205568147794`** :
 démo vendeur purgée (Klaviyo, socials, rating-stars, Powered by), DA appliquée (charte BV,
@@ -80,6 +81,15 @@ une publication est un changement brutal — une seule, propre, puis calme.
 **Sortie attendue** : Hakim publie. L'agent vérifie en visiteur anonyme après.
 
 ---
+
+### ~~T-14 — Passe copy IA + SEO Shopping~~ ✅ FAIT le 17/08
+**27/27 fiches** : titres front-load requête (osmoseur sous évier, filtre douche inox…),
+metas uniques, descriptions sans formule « Ce que ça change au quotidien ». **P0 collatéral** :
+notes 4,9/5 et « 1 450 avis » fournisseur retirées (rotatif, aérateur, camping, carafe 3 filtres,
+filtre cuisine). Marques ALTHY/IPSE/alloet/widesea/GLQ11 sorties des SEO. Horizon live +
+FullStack : hero, H2, lorem collection. Constaté anonyme : nouveau H1, plus de faux avis sur
+`/products/osmoseur-ro-600g`.
+**Réf.** : [`journal/2026-08-17-passe-seo-copy.md`](journal/2026-08-17-passe-seo-copy.md)
 
 ## À FAIRE
 
