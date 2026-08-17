@@ -11,10 +11,13 @@ pour un test ads en septembre. Prompt de relance :
 
 **Mets ce fichier à jour avant de rendre la main.**
 
-> 👉 **Hakim, maintenant :** ① T-H7 — prix restants · ② T-11 — QA préview FullStack.
-> Kit 600 GPD = brouillon (visuels + commande test avant activation).
+> 👉 **Hakim, maintenant :** ① coller le brief kit à Codex · ② T-H7 — prix restants · ③ T-11 — QA préview FullStack.
+> Kit 600 GPD = brouillon (visuels Codex + commande test avant activation).
 
-Dernière mise à jour : **18/08/2026 ~1h10** — ✅ **Kit entretien importé en brouillon**
+Dernière mise à jour : **18/08/2026 ~1h15** — brief Codex visuels kit écrit
+([`livraisons/brief-codex-images-kit-entretien-600-gpd-2026-08-18.md`](livraisons/brief-codex-images-kit-entretien-600-gpd-2026-08-18.md)).
+Voie C (étiquettes vendeur hors, pièces nues) pour cohérence GMC avec le catalogue composé.
+— Plus tôt (~1h10) : ✅ **Kit entretien importé en brouillon**
 (`kit-entretien-osmoseur-600-gpd`, 129 €, 0 barré). ✅ **Membrane 50 GPD dépubliée**
 (404 public — incompatible 600 GPD). Comptoir plus tard. Journal :
 [`journal/2026-08-18-import-kit-sortie-membrane.md`](journal/2026-08-18-import-kit-sortie-membrane.md).
@@ -105,9 +108,10 @@ FullStack : hero, H2, lorem collection. Constaté anonyme : nouveau H1, plus de 
 **Fait** : kit `1005005705096746` poussé DSers → `kit-entretien-osmoseur-600-gpd`
 (`11039467503954`), **DRAFT**, 129 €, 0 barré, copy FR, SKU mapping intact. Membrane 50 GPD
 passée en DRAFT, 404 public. Collection `osmoseurs` publique = **2** (T-07 toujours ouvert).
-**Reste** : visuels composés (brutes fournisseur), commande test compatibilité 299 € / 449 €,
-reconfirmer le coût rendu (DSers 39–44 € vs API FR 63,46 €).
-**Réf.** : [`journal/2026-08-18-import-kit-sortie-membrane.md`](journal/2026-08-18-import-kit-sortie-membrane.md)
+**Reste** : Codex livre les 6 JPEG (brief prêt) → contrôle → rattachement ; commande test
+compatibilité 299 € / 449 € ; reconfirmer le coût rendu (DSers 39–44 € vs API FR 63,46 €).
+**Réf.** : [`livraisons/brief-codex-images-kit-entretien-600-gpd-2026-08-18.md`](livraisons/brief-codex-images-kit-entretien-600-gpd-2026-08-18.md) ·
+[`journal/2026-08-18-import-kit-sortie-membrane.md`](journal/2026-08-18-import-kit-sortie-membrane.md)
 
 ### T-06 — Recouper policies live vs pages CMS (doublon mentions légales)
 **État** : À FAIRE · **Pour** : Claude · **Gravité** : P1 · **Dépend de** : T-H1

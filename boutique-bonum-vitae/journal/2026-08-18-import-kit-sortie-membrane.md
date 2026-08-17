@@ -32,9 +32,22 @@ reçoit une pièce qui ne rentre pas, SAV + risque flux.
 modale de sync — le sélecteur France était hors écran). API FR du matin : **63,46 €**
 Chine. **Reconfirmer au panier avant commande test.** Ne pas fonder la marge sur 39 €.
 
+## Brief visuels Codex (18/08 ~1h15)
+
+Hakim : « Envoie-moi le brief, c'est aussi pour un souci de cohérence aux yeux de Google. »
+
+- Brief :
+  [`../livraisons/brief-codex-images-kit-entretien-600-gpd-2026-08-18.md`](../livraisons/brief-codex-images-kit-entretien-600-gpd-2026-08-18.md).
+- Voie C tranchée par la demande du brief : overlays + étiquettes vendeur (OSWNKW, PP/PPC/RTL,
+  alcalin / pH, 4000 L, 0,0001 µm) = hors cadre. Pièces nues. Même DA que le catalogue composé
+  (RO 600G, 449 €, LPS) — pas une carte AliExpress à côté de packshots foyer.
+- 6 URLs CDN déjà dans le brief. Rien à envoyer à Codex à part le markdown.
+- Livraison attendue : `livraisons/visuels-kit-entretien-600-gpd/` — **pas de rattachement
+  Shopify** tant que le pack n'est pas contrôlé.
+
 ## Pas fait
 
-- Visuels composés (brutes fournisseur encore sur la fiche, comme le LPS avant voie C).
+- Visuels composés (brief écrit, production Codex ouverte).
 - Commande test de compatibilité 299 € / 449 €.
 - Activation / publication.
 - Comptoir : reporté, comme demandé.
