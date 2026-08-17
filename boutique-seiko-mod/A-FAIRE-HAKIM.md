@@ -1,14 +1,15 @@
 # À faire, Hakim
 
-**17/08/2026, nuit.** Le thème de travail **est déjà le MAIN** (`205451100498` « TRAVAIL 15-08 — correctifs ») — plus rien à publier de ce côté. JSON-LD `Organization` valide en live. Les 20 brouillons de repeuplement ont visuels + textes FR, **toujours DRAFT**. Tous les SKU AliExpress du catalogue sont passés en `NOIR-*`.
+**17/08/2026, matin.** Le thème de travail **est déjà le MAIN** (`205451100498` « TRAVAIL 15-08 — correctifs ») — plus rien à publier de ce côté. JSON-LD `Organization` valide en live. Les 20 brouillons de repeuplement ont visuels + textes FR, **toujours DRAFT**. Tous les SKU AliExpress du catalogue sont passés en `NOIR-*`.
 
 **GMC Noirmont : ne pas créer** (Tuftéo 30 jours d'abord). **Ne pas activer les 20 brouillons.**
 
-Il te reste trois gestes, aucun n'est du code :
+✅ **Collections : on garde `frontpage`, `montre-squelette` et `plongeuses`.** Décision du 17/08. Rien à retirer du menu, rien à dépublier.
+
+Il te reste deux gestes, aucun n'est du code :
 
 1. **Redater 5 politiques** (2 min) — en-tête encore « 10 août 2026 ».
-2. **Trancher les 3 collections sous 5 produits** (frontpage 1, squelette 2, plongeuses 3).
-3. **T-60** — le coffret aluminium 24 emplacements à 99,90 € au lieu de 149 €.
+2. **T-60** — le coffret aluminium 24 emplacements à 99,90 € au lieu de 149 €.
 
 Liens directs :
 - Thèmes : https://admin.shopify.com/store/v42pzp-h4/themes
@@ -31,16 +32,9 @@ le 15 (URL du médiateur). Seules les mentions légales portent la bonne date.
 **Où** : Réglages → Politiques → corriger l'en-tête de : CGV, CGU, expédition, remboursement,
 confidentialité. **Mettre** : `Version en vigueur au 15 août 2026`.
 
-## 2. Les trois collections sous 5 produits (5 min)
+## ~~2. Les trois collections sous 5 produits~~ ✅ GARDÉES le 17/08
 
-| Collection | Produits | Recommandation |
-|---|---:|---|
-| `frontpage` | **1** | La vider (collection par défaut, liée nulle part mais dans le sitemap). |
-| `montre-squelette` | **2** | Dans le méga-menu « Montres » : la retirer du menu et la dépublier. |
-| `plongeuses` | **3** | Dans le méga-menu **et** l'accueil : même choix. |
-
-⚠️ Peupler supposerait d'activer des brouillons — bloqué tant que **T-07** (photos brutes des fiches hors des 20 habillées) n'est pas soldé. T-32 (SKU) est fait. **Dis-moi ce que tu décides**, je fais le retrait des
-entrées de menu et les redirections dans la foulée.
+Décision de Hakim : **on garde** `frontpage` (1 produit public), `montre-squelette` (2) et `plongeuses` (3). Menu et accueil inchangés. Peuplement toujours bloqué tant que T-07 n'est pas soldé — ce n'est plus un arbitrage, c'est un état accepté.
 
 ---
 

@@ -1,6 +1,6 @@
 # Maison Noirmont — état courant
 
-**Dernière vérification : 17/08/2026 ~03h25** — nuit ops, Boutique **Maison Noirmont** uniquement. T-07 **entamé** : `cadran-texture-paon-29-sans-logo` a 9 visuels maison, 1 brute AliExpress restante (aiguilles blanches), **DRAFT**. ✅ T-32 / T-63 / T-62 soldés. Thème publié = `205451100498`. **GMC : ne pas créer.** **N'activer aucun des 20.**
+**Dernière vérification : 17/08/2026 ~09h40** — Boutique **Maison Noirmont** uniquement. ✅ Collections `frontpage` / `montre-squelette` / `plongeuses` **gardées** (décision Hakim). T-07 **entamé** : `cadran-texture-paon-29-sans-logo` a 9 visuels maison, 1 brute AliExpress restante (aiguilles blanches), **DRAFT**. ✅ T-32 / T-63 / T-62 soldés. Thème publié = `205451100498`. **GMC : ne pas créer.** **N'activer aucun des 20.**
 
 **Vérifications antérieures** : repasse conformité n°2 le 15/08 midi (`journal/2026-08-15-repasse-conformite-2.md`) ; audit live 15/08 matin ; grille de prix et cookies 14/08 ; audit brouillons et GMC 13/08.
 **Repeuplement 15/08** : 20 fiches DSers en DRAFT. Visuels + textes faits le 17/08. ⛔ 2 coffrets aluminium non créés → T-60. ⛔ 4 fiches Unmapped DSers → T-59.
@@ -15,7 +15,7 @@ Ce fichier dit ce qui **est**, pas ce qu'il faut faire. Pour agir : [`TABLEAU.md
 | Évolution depuis le 09/08 | 199 → 201 : 10 archivages (3 doublons, le cadran Rolex, une montre arabe mixte, 3 brouillons stériles, 2 fiches incohérentes) et +2 cadrans arabes importés le 11/08 |
 | Thème | **`TRAVAIL 15-08 — correctifs` (`205451100498`) est le thème publié** (MAIN). L'ancien `205089014098` « Noirmont » est dépublié. Vérifié live le 17/08 : `Shopify.theme.id = 205451100498`. |
 | Statut public | ✅ **BOUTIQUE PUBLIQUE depuis le 15/08** — `maisonnoirmont.fr` répond 200, plus de `/password`. **Tout défaut est désormais réel et observable.** 96 produits publics, 14 collections publiques ; les 95 brouillons et 10 archivées **ne sont pas servis** (vérifié : les 10 collections de pièces répondent 404) |
-| Collections | **14 publiques** + 10 de pièces non publiées (404). ⚠️ **3 publiques sont sous le seuil de 5 produits** et liées au menu : `frontpage` **1**, `montre-squelette` **2**, `plongeuses` **3** *(les compteurs Admin — 5/2/5 — incluent les brouillons ; seul `/collections/<h>/products.json` dit ce qu'un visiteur voit)*. **Arborescence toujours invalidée par T-21** |
+| Collections | **14 publiques** + 10 de pièces non publiées (404). ⚠️ **3 publiques sont sous le seuil de 5 produits** et liées au menu : `frontpage` **1**, `montre-squelette` **2**, `plongeuses` **3** *(les compteurs Admin — 5/2/5 — incluent les brouillons ; seul `/collections/<h>/products.json` dit ce qu'un visiteur voit)*. ✅ **Décision Hakim 17/08 : on les garde** (menu et publication inchangés). **Arborescence toujours invalidée par T-21** |
 | Moyens de paiement | Réellement actifs (`/payments/config`, source publique, relevé le 15/08) : **Shop Pay, PayPal, Apple Pay**, cartes Visa / Mastercard / Amex / Maestro. **Shopify Payments est actif** (`shopifyPaymentsEnabled: true`). ⛔ **`googlePayConfig: null`** alors que le picto Google Pay est rendu sur **toutes** les pages → mais c'est **une case à cocher dans Shopify Payments, effet immédiat** : on active, on ne retire pas (**T-53**). ⛔ **`offsiteConfigs: null` — aucun prestataire de paiement fractionné n'est installé**. ✅ « Klarna » a **disparu de tout le site** (0 occurrence sur 6 fiches + accueil + panier + collections + FAQ), ⛔ mais le **bandeau défilant des fiches promet toujours « Paiement en 4 fois »** (`marquee_pdp` → `iwt_pdp5`) → **T-52**. Klarna et le 4× PayPal demandent une **candidature et la validation d'un fournisseur** — délai non maîtrisé, acceptation non acquise à 0 vente |
 | Frais de livraison | ✅ **une seule offre, gratuite** — `/cart/shipping_rates.json` avec panier réel + adresse 75002 : « Livraison offerte — suivie », `0.00 €`, « comptez 2 à 3 semaines ». Cohérent avec la politique d'expédition, la FAQ et le bandeau d'accueil. Rien n'est découvert à la caisse |
 | **Prix** | ✅ **la grille de prix est appliquée depuis le 14/08 au soir** — 585 variantes réécrites sur 65 des 96 fiches actives, 0 écart au contrôle. Montres : **239 à 419 €** (contre 279-429 € avant). Squelette 279 €, chronographes 239 €, Trente-six 239-259 €, Trente-neuf 279-329 €, Sport chic 279-299 €, Intégrale 329 €, **GMT inchangé à 349-417 €**. Accessoires recalés sur leurs bandes. Sauvegarde : `backups/2026-08-14-prix/avant.jsonl` |
@@ -107,7 +107,7 @@ Ce fichier dit ce qui **est**, pas ce qu'il faut faire. Pour agir : [`TABLEAU.md
    *Et deux écarts mineurs* : ⚠️ cinq politiques annoncent « Version en vigueur au 10 août 2026 »
    alors qu'au moins les CGV ont été modifiées le 15 (**T-H2**) · ⚠️ trois collections publiques sous
    le seuil de 5 produits, dont deux dans le méga-menu : `frontpage` **1**, `montre-squelette` **2**,
-   `plongeuses` **3** (**T-35**).
+   `plongeuses` **3** — ✅ **Hakim 17/08 : on les garde.**
 
 0bis. **Les 6 bloquants du 15/08 au matin : 5 soldés, vérifiés en anonyme.**
    ✅ **E-mail** : `shop.email` = `shop.contactEmail` = `contact@maisonnoirmont.fr`, **0 `gmail`**

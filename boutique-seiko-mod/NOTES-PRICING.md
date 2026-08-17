@@ -224,7 +224,7 @@ La collection aurait donc trois prix pour des produits équivalents : 279, 289 e
 
 ## 7. Coffret aluminium 24 emplacements — 15/08/2026
 
-**Décision de Hakim : 99,90 € → 149 €.**
+**Recommandation : 99,90 € → 149 €.** ⚠️ **Pas encore tranché par Hakim** (T-60, relancé le 17/08).
 
 Angle mort découvert au push DSers : les 2 coffrets aluminium de la file de repeuplement étaient **déjà** au catalogue sous `coffret-douze-aluminium` (même article fournisseur, mapping DSers en preuve, coût identique). Les créer aurait mis en ligne deux offres du même objet à deux prix. Mais le recoupement a montré que **la fiche existante était sous-vendue** : le calcul de marge du 15/08 place le 24 emplacements à 149 €, il était à 99,90 €.
 

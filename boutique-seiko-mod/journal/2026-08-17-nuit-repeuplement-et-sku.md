@@ -28,7 +28,8 @@ Correspondance : `backups/2026-08-17-sku-t32/correspondance-ancien-nouveau.jsonl
 
 - Les 20 restent DRAFT.
 - T-07 (photos brutes des autres brouillons) : **entamé**, voir ci-dessous.
-- T-60 (coffret aluminium 99,90 vs 149 €) : attend Hakim.
+- T-60 (coffret aluminium 99,90 vs 149 €) : attend encore Hakim (explication relancée le 17/08 matin).
+- Collections sous 5 : **gardées** le 17/08 (`frontpage`, `montre-squelette`, `plongeuses`).
 - T-59 (4 Unmapped DSers) : l'interface ne persiste pas.
 - Politiques encore datées du 10/08 : `write_legal_policies` absent.
 - GMC Noirmont : ne pas créer.
