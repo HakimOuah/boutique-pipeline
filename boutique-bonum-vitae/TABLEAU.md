@@ -11,12 +11,12 @@ pour un test ads en septembre. Prompt de relance :
 
 **Mets ce fichier à jour avant de rendre la main.**
 
-> 👉 **Hakim, maintenant :** ① coller le brief kit à Codex · ② T-H7 — prix restants · ③ T-11 — QA préview FullStack.
-> Kit 600 GPD = brouillon (visuels Codex + commande test avant activation).
+> 👉 **Hakim, maintenant :** ① T-H7 — prix restants · ② T-11 — QA préview FullStack.
+> Kit 600 GPD = brouillon (visuels rattachés ; commande test avant activation).
 
-Dernière mise à jour : **18/08/2026 ~1h15** — brief Codex visuels kit écrit
-([`livraisons/brief-codex-images-kit-entretien-600-gpd-2026-08-18.md`](livraisons/brief-codex-images-kit-entretien-600-gpd-2026-08-18.md)).
-Voie C (étiquettes vendeur hors, pièces nues) pour cohérence GMC avec le catalogue composé.
+Dernière mise à jour : **18/08/2026 ~1h25** — ✅ **6 visuels kit rattachés** au brouillon
+(`kit-entretien-osmoseur-600-gpd`, image 1 = Shopping, brutes DSers détachées).
+[`journal/2026-08-18-rattachement-visuels-kit.md`](journal/2026-08-18-rattachement-visuels-kit.md).
 — Plus tôt (~1h10) : ✅ **Kit entretien importé en brouillon**
 (`kit-entretien-osmoseur-600-gpd`, 129 €, 0 barré). ✅ **Membrane 50 GPD dépubliée**
 (404 public — incompatible 600 GPD). Comptoir plus tard. Journal :
@@ -104,14 +104,16 @@ FullStack : hero, H2, lorem collection. Constaté anonyme : nouveau H1, plus de 
 ## À FAIRE
 
 ### ~~T-15 — Sourcing catalogue osmoseur : import du kit~~ ✅ importé le 18/08 (brouillon)
-**État** : FAIT — activation encore ouverte · **Pour** : Hakim (visuels + test) · **Gravité** : P2
+**État** : FAIT — activation encore ouverte · **Pour** : Hakim (test + feu vert) · **Gravité** : P2
 **Fait** : kit `1005005705096746` poussé DSers → `kit-entretien-osmoseur-600-gpd`
 (`11039467503954`), **DRAFT**, 129 €, 0 barré, copy FR, SKU mapping intact. Membrane 50 GPD
 passée en DRAFT, 404 public. Collection `osmoseurs` publique = **2** (T-07 toujours ouvert).
-**Reste** : Codex livre les 6 JPEG (brief prêt) → contrôle → rattachement ; commande test
-compatibilité 299 € / 449 € ; reconfirmer le coût rendu (DSers 39–44 € vs API FR 63,46 €).
-**Réf.** : [`livraisons/brief-codex-images-kit-entretien-600-gpd-2026-08-18.md`](livraisons/brief-codex-images-kit-entretien-600-gpd-2026-08-18.md) ·
-[`journal/2026-08-18-import-kit-sortie-membrane.md`](journal/2026-08-18-import-kit-sortie-membrane.md)
+6 JPEG Codex 2048² rattachés le 18/08 (image 1 featured), 6 brutes DSers détachées
+(`fileUpdate` + `referencesToRemove`, 0 `fileDelete`).
+**Reste** : commande test compatibilité 299 € / 449 € ; reconfirmer le coût rendu
+(DSers 39–44 € vs API FR 63,46 €) ; activation = Hakim.
+**Réf.** : [`journal/2026-08-18-rattachement-visuels-kit.md`](journal/2026-08-18-rattachement-visuels-kit.md) ·
+[`livraisons/brief-codex-images-kit-entretien-600-gpd-2026-08-18.md`](livraisons/brief-codex-images-kit-entretien-600-gpd-2026-08-18.md)
 
 ### T-06 — Recouper policies live vs pages CMS (doublon mentions légales)
 **État** : À FAIRE · **Pour** : Claude · **Gravité** : P1 · **Dépend de** : T-H1

@@ -1,0 +1,67 @@
+{
+  "produit": "kit-entretien-osmoseur-600-gpd",
+  "date_production": "2026-08-18",
+  "statut": "LIVRAISON_LOCALE_A_CONTROLER",
+  "decision_utilisateur": "Voie C : OSWNKW, PP, PPC, RTL, USA, les codes modele, claims, cotes et etiquettes des sources sont traites comme des habillages vendeur a retirer.",
+  "shopify_modifie": false,
+  "outil_generation": "OpenAI built-in image_gen",
+  "outil_normalisation": "macOS sips, JPEG qualite 85, profil sRGB IEC61966-2.1",
+  "format_final": {"largeur": 2048, "hauteur": 2048, "ratio": "1:1", "format": "JPEG", "profil": "sRGB IEC61966-2.1"},
+  "sources": [
+    {"fichier": "sources/source-1.webp", "sha256": "4f6a52a575dc12f8b08785dc6ed08dc5851939a0e6b1aab441c5a2128bf7b12e", "role": "reference principale des quatre silhouettes et proportions"},
+    {"fichier": "sources/source-5.webp", "sha256": "77f624656c774f3705925e0aeca024ce07a109663dc9533f5d62c1060d46db82", "role": "reference de la membrane bleue, de la bague noire et des embouts"},
+    {"fichier": "sources/source-6.webp", "sha256": "1bec1c9a1a74ba60bbb82215ba32ab6b7cf1aec457ab4e9485455944f5dd7ad3", "role": "reference de comptage 2 PP, 2 PPC, 1 membrane, 2 inline pour l'image 6"}
+  ],
+  "prompt_base": "Composition fidele des quatre types fournisseur : PP blanc fibreux nu sans bouchon, PPC gris maille avec bouchons gris fonce, membrane 3013 plus haute avec gaine bleu vif, tube blanc, bague noire, collier blanc et embout bas etroit, cartouche inline blanche lisse avec extremites effilees. Lumiere naturelle douce, Lin #F7F4EE, bois clair, touche Bleu Abysse #0E3A5A. Aucun texte, code, logo, etiquette, barcode, claim, cote, picto ou marque. Aucune machine catalogue, eau mise en scene, laboratoire ou cinquieme type invente.",
+  "livrables": [
+    {
+      "fichier": "kit-entretien-osmoseur-600-gpd-1.jpg",
+      "sha256": "6798b9c8eef5a8025bb822d39148268445120593d9c6c2b1ddf08376ae65def8",
+      "image_source_utilisee": ["sources/source-1.webp", "sources/source-5.webp"],
+      "prompt_specifique": "Packshot heros de quatre pieces nues, une de chaque type, sur lin et bois clair, membrane bleue en avant et plus haute.",
+      "alt": "Quatre filtres d'entretien pour osmoseur, dont une membrane bleue, sur un fond clair",
+      "qa": {"quatre_types_reconnaissables": true, "membrane_bleue_plus_haute": true, "bague_noire_visible": true, "aucun_texte_ou_logo": true, "aucun_type_invente": true, "direction_artistique_coherente": true}
+    },
+    {
+      "fichier": "kit-entretien-osmoseur-600-gpd-2.jpg",
+      "sha256": "06b6ead8b992483b2866f4014c17c955d64f3592e6e3bd097af474a055f41750",
+      "image_source_utilisee": ["sources/source-1.webp", "sources/source-5.webp"],
+      "prompt_specifique": "Les quatre pieces nues rangees sur un plateau devant un placard sous evier ouvert, sans machine identifiable.",
+      "alt": "Kit de filtres d'entretien posé sur un plateau devant un placard de cuisine ouvert",
+      "qa": {"quatre_types_reconnaissables": true, "aucune_machine_catalogue": true, "aucun_texte_ou_logo": true, "aucune_preuve_emboitement": true, "direction_artistique_coherente": true}
+    },
+    {
+      "fichier": "kit-entretien-osmoseur-600-gpd-3.jpg",
+      "sha256": "a700c4c54e6df5e3fda373582d951676effcf5407e472961f6ccfe3110ba888b",
+      "image_source_utilisee": ["sources/source-1.webp", "sources/source-5.webp"],
+      "prompt_specifique": "Deux mains adultes tiennent la membrane bleue nue au-dessus d'un plan de travail, PP et PPC en arriere-plan.",
+      "alt": "Mains tenant une membrane bleue de remplacement au-dessus d'un plan de travail",
+      "qa": {"membrane_complete_et_fidele": true, "mains_anatomiquement_coherentes": true, "bague_noire_visible": true, "aucune_machine_catalogue": true, "aucun_texte_ou_logo": true, "direction_artistique_coherente": true}
+    },
+    {
+      "fichier": "kit-entretien-osmoseur-600-gpd-4.jpg",
+      "sha256": "98d6bdee4cdaf823012a50758c4e9be5bff910eb7c6acda52229f822bd2df50e",
+      "image_source_utilisee": ["sources/source-1.webp", "sources/source-5.webp"],
+      "prompt_specifique": "Macro de la gaine bleue, du tube blanc, de la bague noire et du collier blanc de la membrane, sans montrer l'interieur.",
+      "alt": "Gros plan de la gaine bleue et du joint noir d'une membrane d'osmoseur",
+      "qa": {"gaine_bleue_visible": true, "bague_noire_visible": true, "tube_blanc_visible": true, "aucun_interieur_invente": true, "aucun_texte_ou_logo": true, "direction_artistique_coherente": true}
+    },
+    {
+      "fichier": "kit-entretien-osmoseur-600-gpd-5.jpg",
+      "sha256": "52a8388e553fbf8bcfe2a71b088777d7e952230ffa55bb26b34ba6a8c44c8e71",
+      "image_source_utilisee": ["sources/source-1.webp", "sources/source-5.webp"],
+      "prompt_specifique": "Vue large d'un coin cuisine ou cellier, quatre pieces rangees verticalement dans un bac ouvert, sans machine.",
+      "alt": "Quatre filtres de remplacement rangés dans un bac sur un meuble de cuisine clair",
+      "qa": {"quatre_types_reconnaissables": true, "echelle_contextuelle_coherente": true, "aucune_machine_catalogue": true, "aucun_texte_ou_logo": true, "aucune_imagerie_sante": true, "direction_artistique_coherente": true}
+    },
+    {
+      "fichier": "kit-entretien-osmoseur-600-gpd-6.jpg",
+      "sha256": "01d58d6444dd66e95fdfee3be591f4c2620ff3a6d28bbc92017dd1a3e7875109",
+      "image_source_utilisee": ["sources/source-1.webp", "sources/source-5.webp", "sources/source-6.webp"],
+      "prompt_specifique": "Contenu complet sans texte, exactement sept objets : deux PP, deux PPC, une membrane bleue et deux cartouches inline.",
+      "alt": "Sept pièces du kit d'entretien alignées : deux préfiltres blancs, deux filtres gris, une membrane bleue et deux cartouches blanches",
+      "qa": {"nombre_total_objets": 7, "quantite_pp": 2, "quantite_ppc": 2, "quantite_membrane": 1, "quantite_inline": 2, "aucun_texte_ou_logo": true, "aucun_type_invente": true, "direction_artistique_coherente": true}
+    }
+  ],
+  "controle_global": {"six_fichiers_presents": true, "noms_conformes": true, "dimensions_conformes": true, "jpeg_srgb": true, "aucun_texte_incruste": true, "aucun_logo_tiers": true, "aucune_preuve_sociale": true, "aucune_imagerie_sante": true, "aucune_machine_catalogue_reutilisee": true, "shopify_non_modifie": true}
+}

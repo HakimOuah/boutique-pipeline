@@ -1,9 +1,9 @@
 # Bonum Vitae — état courant
 
-**Dernière mise à jour : 18/08/2026 ~1h10** — kit entretien 600 GPD en **DRAFT**
-(`kit-entretien-osmoseur-600-gpd`, 129 €). Membrane 50 GPD **dépubliée** (404).
-`osmoseurs` public = 2. [`TABLEAU.md`](TABLEAU.md) ·
-[`journal/2026-08-18-import-kit-sortie-membrane.md`](journal/2026-08-18-import-kit-sortie-membrane.md).
+**Dernière mise à jour : 18/08/2026 ~1h25** — kit entretien 600 GPD en **DRAFT**,
+visuels composés rattachés (`kit-entretien-osmoseur-600-gpd`, 129 €). Membrane 50 GPD
+**dépubliée** (404). `osmoseurs` public = 2. [`TABLEAU.md`](TABLEAU.md) ·
+[`journal/2026-08-18-rattachement-visuels-kit.md`](journal/2026-08-18-rattachement-visuels-kit.md).
 
 ---
 
