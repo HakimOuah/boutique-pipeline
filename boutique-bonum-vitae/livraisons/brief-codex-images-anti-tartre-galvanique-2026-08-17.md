@@ -9,10 +9,11 @@
 ## Le produit (pour comprendre ce que tu mets en scène)
 
 Corps anti-tartre **en acier inoxydable**, cylindrique, qui se visse **en ligne sur la canalisation
-d'arrivée d'eau froide** d'une maison (raccord DN32, deux extrémités filetées). À l'intérieur :
-un circuit en vortex sur alliages métalliques (traitement physique galvanique). Pas d'aimant, pas
-d'électricité, pas de cartouche. Usage : buanderie, cave, local technique, sous compteur —
-l'objet est de la plomberie propre, pas un gadget de salle de bain.
+d'arrivée d'eau froide** d'une maison (raccord **G3/4" femelle / 20×27**, deux extrémités filetées —
+pas DN32 : c'était une erreur du brief initial, corrigée le 17/08 après lecture de la source 5).
+À l'intérieur : un circuit en vortex sur alliages métalliques (traitement physique galvanique).
+Pas d'aimant, pas d'électricité, pas de cartouche. Usage : buanderie, cave, local technique, sous
+compteur — l'objet est de la plomberie propre, pas un gadget de salle de bain.
 
 ## Sources — les 6 photos fournisseur (SEULE matière première autorisée)
 
@@ -62,7 +63,7 @@ Sur le CDN Bonum Vitae (galerie du produit brouillon) :
 | 1 | **Packshot héros** (= image du flux Shopping) | le corps inox seul, posé sur fond neutre chaud (lin/bois clair), ombre douce, cadrage 3/4 — AUCUN texte |
 | 2 | **En situation** | le dispositif installé en ligne sur une canalisation propre (cuivre ou PER) dans une buanderie/cave lumineuse et rangée — le client se projette |
 | 3 | **Geste d'installation** | des mains (adultes, réalistes) vissant le corps sur le raccord, clé plate posée à côté — répond à « c'est posable chez moi ? » |
-| 4 | **Détail matière** | macro sur le filetage DN32 et la robe inox — qualité perçue, rien d'inventé |
+| 4 | **Détail matière** | macro sur le filetage G3/4" femelle et la robe inox — qualité perçue, rien d'inventé |
 | 5 | **Contexte foyer** | plan plus large : le local technique/buanderie avec chauffe-eau en arrière-plan, le produit discret sur la ligne d'eau — l'échelle réelle de l'objet |
 | 6 | **Le principe, sans texte** | reprise mise en scène de l'écorché/schéma fournisseur (source 3-6) si exploitable proprement SANS texte incrusté ; sinon, second angle packshot (dessus/profil) |
 

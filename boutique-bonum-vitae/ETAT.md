@@ -1,9 +1,9 @@
 # Bonum Vitae — état courant
 
-**Dernière mise à jour : 17/08/2026 ~21h15** — persona validé, OSWNKW à **449 €**, **11 fiches
-débaptisées** (marques fournisseur retirées des titres), FullStack v1.1 adapté au persona,
-sourcing anti-calcaire électronique livré (T-H8). Plus tôt : rail A P0 soldé, FullStack v1.
-[`TABLEAU.md`](TABLEAU.md) · [`journal/2026-08-17-rail-a-p0.md`](journal/2026-08-17-rail-a-p0.md).
+**Dernière mise à jour : 17/08/2026 ~22h20** — visuels LPS **STOP Codex** (drapeau DE + étiquette
+FDA/NSF/86 % sur le corps ; aucune image générée). Raccord fiche corrigé **DN32 → G3/4" femelle**.
+Plus tôt : persona, OSWNKW 449 €, 11 fiches débaptisées, FullStack v1, rail A P0.
+[`TABLEAU.md`](TABLEAU.md) · [`journal/2026-08-17-stop-visuels-anti-tartre.md`](journal/2026-08-17-stop-visuels-anti-tartre.md).
 
 ---
 
@@ -43,8 +43,9 @@ Templates produit Horizon : `product.json` (25 fiches) + `product.osmoseur.json`
 
 ## Catalogue (constaté API 17/08)
 
-**26 produits** : 24 ACTIVE (les 24 publics), **2 DRAFT** (`osmoseur-de-cuisine-shuangli-600g-osmose-inverse`,
-`membrane-drinkpod-a-osmose-inverse-ro` non publiée — à confirmer au prochain scan).
+**27 produits** : 24 ACTIVE (les 24 publics), **3 DRAFT** dont `anti-tartre-galvanique-toute-la-maison`
+(LPS, import 17/08 — raccord G3/4" femelle, visuels STOP) + `osmoseur-de-cuisine-shuangli-600g-osmose-inverse`
++ `membrane-drinkpod-a-osmose-inverse-ro`.
 
 - **0 `compareAtPrice` non nul** sur tout le catalogue depuis le 17/08 ~19h15 (8 purgés, backup
   dans `backups/2026-08-17-rail-a/`).

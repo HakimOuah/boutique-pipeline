@@ -45,6 +45,12 @@ pop DIY, ni luxe montres.
 
 ## Contenu — eau, DGCCRF, GMC
 
+- **Photos fournisseur : zoom sur le corps avant toute génération.** Si un drapeau, une étiquette
+  ou une certification est **sur l'objet** (pas un bandeau hors produit), STOP — ne pas gommer.
+  Payé le 17/08 sur le LPS : Codex a correctement stoppé (drapeau DE + étiquette FDA/NSF/86 %).
+  Les images Shopping ne peuvent jamais montrer ces logos, même s'ils sont physiques.
+- **Specs de raccord : la fiche fabricant prime sur le brief.** DN32 écrit par erreur le 17/08 ;
+  la source LPS10 dit G3/4" femelle. Ne jamais inventer un DN.
 - **Aucune preuve sociale fabriquée.** 0 commande client au 17/08 (parc). Pas d'avis, pas de note,
   pas de « Vérifié », pas de compteur.
 - **Anti-calcaire magnétique / électronique :** jamais « adoucit l'eau / élimine le calcaire /

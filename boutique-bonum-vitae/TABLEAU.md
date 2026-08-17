@@ -11,10 +11,10 @@ pour un test ads en septembre. Prompt de relance :
 
 **Mets ce fichier à jour avant de rendre la main.**
 
-> 👉 **Hakim, maintenant :** ① T-H7 — les prix restants (magnétiques 153 €/coût 40 €, anti-tartre
-> USB 86,90-98,90 €/coût ~30 €, carafes ALTHY, douche vitamine C) + le prix de vente du LPS
-> (reco 179-229 €) · ② T-11 — QA préview FullStack. — ✅ Faits le 17/08 : persona validé, OSWNKW
-> 449 €, 11 fiches débaptisées, LPS importé en brouillon (fret FR 0 €), pas de GMC existant.
+> 👉 **Hakim, maintenant :** ① T-13 — débloquer les visuels LPS (voie A commander 1 unité /
+> B unboxing fournisseur / C assumer overlay) · ② T-H7 — prix restants + prix de vente LPS
+> · ③ T-11 — QA préview FullStack. — ✅ Faits le 17/08 : persona, OSWNKW 449 €, 11 fiches
+> débaptisées, LPS importé brouillon, fiche FR + raccord corrigé G3/4", pas de GMC existant.
 
 Dernière mise à jour : **18/08/2026 ~0h** — ✅ **FullStack v1 monté sur la copie `205568147794`** :
 démo vendeur purgée (Klaviyo, socials, rating-stars, Powered by), DA appliquée (charte BV,
@@ -46,18 +46,21 @@ bandeau -20 %). [`journal/2026-08-17-rail-a-p0.md`](journal/2026-08-17-rail-a-p0
 donc aucun compte établi. GMC à créer plus tard, checklist complète, sur feu vert Hakim.
 
 ### T-13 — Finaliser la fiche anti-tartre galvanique (LPS)
-**État** : EN COURS — copy ✅ fait le 17/08 · **Pour** : Codex (images) + Hakim (prix) · **Gravité** : P2
-**Fait** : fiche réécrite en français sur le brouillon (`anti-tartre-galvanique-toute-la-maison`,
-produit `11036961964370`) — titre, description transparence (« ce que nous ne vous promettons
-pas »), specs fabricant attribuées, SEO title+description envoyés ensemble, handle propre (jamais
-publié, pas de 301 nécessaire). Aucun claim 76-86 % ni E. Coli repris.
-**Reste** :
-1. Images : brief prêt pour Codex →
-   [`livraisons/brief-codex-images-anti-tartre-galvanique-2026-08-17.md`](livraisons/brief-codex-images-anti-tartre-galvanique-2026-08-17.md)
-   (6 visuels composés, DA lin/bois clair, zéro texte incrusté, contrôle marque tierce).
-2. Prix de vente : reco 179-229 € (coût rendu 65,10 €, fret FR 0 €) — Hakim tranche (T-H7).
-3. Contrôle des visuels livrés, rattachement, puis activation sur feu vert Hakim uniquement.
-**Réf.** : [`journal/2026-08-17-dsers-import-anticalcaire.md`](journal/2026-08-17-dsers-import-anticalcaire.md)
+**État** : BLOQUÉ images — copy corrigé · **Pour** : Hakim (preuve SKU) + Codex (images) · **Gravité** : P2
+**Fait** : fiche FR sur le brouillon (`anti-tartre-galvanique-toute-la-maison`, `11036961964370`).
+**17/08 soir** : Codex a STOP la génération — drapeau DE + étiquette bleue (FDA / NSF / 86 %)
+apposés sur le cylindre des sources 1-2 ; gommer = présenter un produit potentiellement différent.
+**Corrigé dans la foulée** : raccord **DN32 → G3/4" femelle (20×27)** sur la fiche Shopify et le
+brief (la source 5 fabricant dit `G3/4 female` ; DN32 était une erreur du brief).
+**Reste — Hakim tranche une des 3 voies** :
+1. Commander 1 unité et photographier le SKU réel (voie propre).
+2. Demander au fournisseur des photos unboxing du lot actuel, sans overlay marketing.
+3. Autoriser une composition cylindre nu **seulement** si Hakim assume que drapeau + étiquette
+   sont des incrustations photo (probable, non prouvé).
+Les images Shopping ne peuvent de toute façon **pas** montrer FDA / NSF / 86 % — même si l'étiquette
+est physique. Prix de vente toujours à trancher (T-H7, reco 179-229 €).
+**Réf.** : [`livraisons/visuels-anti-tartre-galvanique/RAPPORT.md`](livraisons/visuels-anti-tartre-galvanique/RAPPORT.md) ·
+[`journal/2026-08-17-stop-visuels-anti-tartre.md`](journal/2026-08-17-stop-visuels-anti-tartre.md)
 
 ### T-H7 — Arbitrer les prix restants (sonde du 17/08 + coûts réels découverts)
 **État** : BLOQUÉ — partiellement appliqué · **Pour** : Hakim · **Gravité** : P1 (bloque les ads)

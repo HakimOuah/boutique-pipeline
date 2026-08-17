@@ -1,0 +1,61 @@
+{
+  "produit": "anti-tartre-galvanique-toute-la-maison",
+  "date_controle": "2026-08-17",
+  "statut": "STOP_MARQUAGE_PHYSIQUE_A_VERIFIER",
+  "generation_lancee": false,
+  "shopify_modifie": false,
+  "livrables_images": [],
+  "motif": "Les sources 1 et 2 montrent un drapeau allemand et une etiquette bleue avec allegations et symboles de certification directement apposes sur le corps du produit. Le brief interdit leur suppression sans preuve que le produit reellement expedie est vierge.",
+  "outil": {
+    "inspection": "Codex view_image",
+    "generation": null,
+    "prompt": null
+  },
+  "sources": [
+    {
+      "fichier": "sources/source-1.webp",
+      "url": "https://cdn.shopify.com/s/files/1/1090/7251/5410/files/S66e3e9d42b4c41c1a7ae6904fad07b04R.webp",
+      "sha256": "4bb83220c9331a531f5b701b940579a09124521aa321850f0151b41588911196",
+      "controle": "Bloquant : drapeau et etiquette bleue apposes sur le cylindre."
+    },
+    {
+      "fichier": "sources/source-2.webp",
+      "url": "https://cdn.shopify.com/s/files/1/1090/7251/5410/files/S30dea3752ff84efc99f8a33fdb904047l.webp",
+      "sha256": "ce99cb3cbb78834bafe6220609b02c703cad500be389376c477ff7d24ec74bd7",
+      "controle": "Bloquant : drapeau et etiquette bleue apposes sur le cylindre ; filigrane AliExpress."
+    },
+    {
+      "fichier": "sources/source-3.webp",
+      "url": "https://cdn.shopify.com/s/files/1/1090/7251/5410/files/S75c4207d474744679a747e9f97a416f63.webp",
+      "sha256": "aa4c52a6cd9470b259aa8cdaf07c4da3f4746db2a6ea26949fbbf92356253163",
+      "controle": "Schema marketing avec textes et filigrane ; ne prouve pas l'apparence externe livree."
+    },
+    {
+      "fichier": "sources/source-4.webp",
+      "url": "https://cdn.shopify.com/s/files/1/1090/7251/5410/files/S51846c37c3a243b48a0967507bd2181be.webp",
+      "sha256": "cfc0d92d3bd92959648203b4cd90ea73570c68d81fc71af3409bd3103cfd0412",
+      "controle": "Ecorche marketing avec textes, chiffres et filigrane ; non exploitable comme preuve externe."
+    },
+    {
+      "fichier": "sources/source-5.webp",
+      "url": "https://cdn.shopify.com/s/files/1/1090/7251/5410/files/S66fa99ebb6aa4aa98070e202aaaefe9bG.webp",
+      "sha256": "a5615688bbfa4aa7b3284a924c0ddad2e318cc28f1754d55f9c4757f60855ac3",
+      "controle": "Graphique et avant/apres marketing avec filigrane ; mention G3/4 female a reconcilier avec DN32."
+    },
+    {
+      "fichier": "sources/source-6.webp",
+      "url": "https://cdn.shopify.com/s/files/1/1090/7251/5410/files/S936064795cf44562b9253b90f96dbd40X.webp",
+      "sha256": "495879f30993bb99d7837ec7a363915b639c780002abece4a6f30df7d10b101a",
+      "controle": "Montage pedagogique avec textes et filigrane ; aucun produit externe exploitable."
+    }
+  ],
+  "qa": {
+    "proportions_identiques_source": null,
+    "filetages_identiques_source": null,
+    "aucun_lettrage_genere": null,
+    "aucun_logo_tiers": false,
+    "aucun_texte": false,
+    "coherence_direction_artistique": null
+  },
+  "alts_fr": []
+}
