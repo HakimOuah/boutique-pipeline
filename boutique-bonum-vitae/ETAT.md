@@ -82,8 +82,8 @@ Templates produit Horizon : `product.json` (25 fiches) + `product.osmoseur.json`
 
 ## Merchant Center
 
-**Toujours inconnu** — `appInstallations` refusé (scope `read_apps` absent). **T-H6 : Hakim
-regarde Admin → Canaux de vente.** Ne pas créer, ne pas soumettre.
+**A priori aucun compte** (Hakim, 17/08, déclaratif). Le GMC se créera après boutique propre,
+checklist complète, feu vert Hakim. Ne pas créer, ne pas soumettre.
 
 ---
 

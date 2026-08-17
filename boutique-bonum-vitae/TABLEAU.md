@@ -11,10 +11,10 @@ pour un test ads en septembre. Prompt de relance :
 
 **Mets ce fichier à jour avant de rendre la main.**
 
-> 👉 **Hakim, maintenant :** ① T-H7 — les prix restants (carafes ALTHY 129-174 €, douche ALTHY
-> 111-149 €, magnétiques 153 € — coûts réels découverts : 28-40 €) · ② T-H8 — choisir un
-> anti-calcaire électronique sourcé (ou refuser) · ③ T-11 — QA préview FullStack · ④ T-H6 — GMC
-> existant ? — ✅ Persona validé (17/08), OSWNKW à 449 € et 11 fiches débaptisées, site adapté.
+> 👉 **Hakim, maintenant :** ① T-H7 — les prix restants (magnétiques 153 €/coût 40 €, anti-tartre
+> USB 86,90-98,90 €/coût ~30 €, carafes ALTHY, douche vitamine C) + le prix de vente du LPS
+> (reco 179-229 €) · ② T-11 — QA préview FullStack. — ✅ Faits le 17/08 : persona validé, OSWNKW
+> 449 €, 11 fiches débaptisées, LPS importé en brouillon (fret FR 0 €), pas de GMC existant.
 
 Dernière mise à jour : **18/08/2026 ~0h** — ✅ **FullStack v1 monté sur la copie `205568147794`** :
 démo vendeur purgée (Klaviyo, socials, rating-stars, Powered by), DA appliquée (charte BV,
@@ -41,43 +41,36 @@ bandeau -20 %). [`journal/2026-08-17-rail-a-p0.md`](journal/2026-08-17-rail-a-p0
 
 ## 🔴 BLOQUÉ — attend Hakim
 
-### T-H6 — Dire si un GMC / app Google & YouTube existe
-**État** : BLOQUÉ · **Pour** : Hakim · **Gravité** : P1
-**Pourquoi** : `appInstallations` refuse au CLI (scope `read_apps` absent). Tuftéo a montré qu'un
-GMC se crée tout seul via l'app Google & YouTube. S'il en existe un ici, tout changement de thème
-est un changement brutal sur compte établi.
-**Comment** : Admin → Paramètres → Applications et canaux de vente — dire si « Google & YouTube »
-y est, et si un Merchant Center est rattaché.
-**Sortie attendue** : réponse notée dans `ETAT.md`. **Ne pas créer, ne pas soumettre.**
+### ~~T-H6 — Dire si un GMC existe~~ ✅ répondu le 17/08 (Hakim)
+**A priori aucun compte GMC** pour Bonum Vitae (déclaratif). Le passage FullStack ne brutalise
+donc aucun compte établi. GMC à créer plus tard, checklist complète, sur feu vert Hakim.
 
-### T-H8 — Choisir (ou refuser) un anti-calcaire électronique parmi les candidats sourcés
-**État** : BLOQUÉ — **sourcing livré** · **Pour** : Hakim · **Gravité** : P1
-**Pourquoi** : sourcing du 17/08
-([`journal/2026-08-17-prix-renommage-sourcing-persona.md`](journal/2026-08-17-prix-renommage-sourcing-persona.md)) :
-2 candidats crédibles — électronique à impulsions `1005008632801588` (**309 ventes, 4,7★,
-29,79 €** coût, prise EU) vendable 129-179 € ; LPS toute-maison `1005006005109143` (**500+ ventes,
-4,9★, 61,69 €**) vendable 179-229 €. Fenêtre marché : « adoucisseur sans sel » 8 160/mois, KD 8-19.
-**Attention** : le verrou est la **promesse** (Anses : efficacité non démontrée) — vente possible en
-« dispositif d'appoint » honnête, pub Shopping déconseillée sur ces produits. Découverte annexe :
-nos ALTHY/IPSE actuels coûtent 28-40 € (marge ×3-4), ce qui rend T-H7 encore plus urgent.
-**Comment** : dire quel candidat passe à l'étape DSers (fret FR + photos = classe A), ou refuser.
-**Sortie attendue** : décision ; si oui, import DSers par Hakim puis fiche montée par Claude.
+### T-13 — Monter la fiche LPS (brouillon créé le 17/08)
+**État** : À FAIRE · **Pour** : Claude (copy) + Hakim (prix, visuels à valider) · **Gravité** : P2
+**Pourquoi** : le LPS toute-maison est sur Shopify en **DRAFT** (import DSers du 17/08, mapping en
+place, **fret France 0 € — coût rendu 65,10 €**, classe A). Le candidat électronique sourcé s'est
+révélé être le fournisseur d'une fiche déjà en boutique (anti-tartre USB).
+**Comment** :
+1. Réécrire titre + description en français (persona, « dispositif d'appoint », zéro claim
+   d'efficacité — Anses).
+2. Visuels composés (photos brutes avec logo « GERMAN Filters Technology » sur l'image 1 —
+   contrôle marque tierce obligatoire).
+3. Prix de vente : reco 179-229 € (marge 64-72 %) — Hakim tranche.
+4. Ne pas activer, ne pas publier sur les canaux sans feu vert.
+**Réf.** : [`journal/2026-08-17-dsers-import-anticalcaire.md`](journal/2026-08-17-dsers-import-anticalcaire.md)
 
-### T-H7 — Arbitrer les prix avant campagnes (sonde du 17/08)
-**État** : BLOQUÉ · **Pour** : Hakim · **Gravité** : P1 (bloque le lancement ads)
-**Pourquoi** : sonde SERP France du 17/08
-([`journal/2026-08-17-prix-concurrence.md`](journal/2026-08-17-prix-concurrence.md)) :
-- ✅ **RO 600G 299 €** : aligné sur le leader (Waterdrop G2P600 à 299,99 €) — produit de campagne.
-- ⛔ **OSWNKW 576,90 €** : plus cher que le G3P600 certifié NSF (420-432 €) → 449-479 € ou hors pub.
-- ⛔ **IPSE magnétique 152,90-153,90 €** : haut d'une bande 20-150 € **publiquement contestée**
-  (Anses, 60M) → ≤ 99 € ou hors acquisition, jamais en Shopping.
-- ⛔ **Carafes ALTHY 129,90-173,90 €** : référence mentale Brita = 16-30 € → niche assumée sans pub
-  ou repositionnement.
-- ⚠ **ALTHY douche 111,90-149,90 €** : marché à 30-60 € → ≤ 79 € ou justification forte.
-- ✅ Filtres douche cœur 13,90-46,90 € : dans la bande, 2e famille de campagne possible.
-**Comment** : trancher ligne par ligne le tableau §6 du journal ; Claude applique ensuite (prix
-sans réintroduire de `compareAtPrice`).
-**Sortie attendue** : grille de prix validée, appliquée, constatée en anonyme.
+### T-H7 — Arbitrer les prix restants (sonde du 17/08 + coûts réels découverts)
+**État** : BLOQUÉ — partiellement appliqué · **Pour** : Hakim · **Gravité** : P1 (bloque les ads)
+**Fait le 17/08** : ✅ RO 600G confirmé 299 € · ✅ **OSWNKW baissé à 449 €** (appliqué, constaté
+public, 0 barré réintroduit).
+**Reste à trancher** (coûts fournisseur découverts au sourcing : marge actuelle ×3-4) :
+- ⛔ **Magnétiques DN20/DN25 à 152,90-153,90 €** (coût ~40 €) : bande marché 20-150 €, efficacité
+  publiquement contestée → ≤ 99 € ou hors acquisition, jamais en Shopping.
+- ⛔ **Anti-tartre DN8 à 86,90 €** (coût 28-31 €) : idem.
+- ⛔ **Carafes ALTHY 129,90-173,90 €** : référence mentale Brita 16-30 € → niche sans pub ou baisse.
+- ⚠ **Douche vitamine C 111,90-149,90 €** : marché 30-60 € → ≤ 79 € ou justification forte.
+- ✅ Filtres douche cœur 13,90-46,90 € : dans la bande.
+**Sortie attendue** : grille validée, appliquée, constatée en anonyme.
 
 ### T-H4 — Choisir une DA parmi 2 ou 3 directions
 **État** : BLOQUÉ · **Pour** : Hakim · **Dépend de** : T-H3
