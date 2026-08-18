@@ -12,8 +12,14 @@ Constaté ensuite sur `https://bonumvitae.fr/products/osmoseur-ro-600g` :
 plus de `vtlsAebData`. Metafields `reviews` / `vstar` toujours vides.
 0 `aggregateRating` / 4,83 dans le HTML.
 
-L'app reste installée (scope `read_apps` absent — pas de désinstall CLI).
-Si les notes reviennent, désinstaller Vitals dans l'admin.
+**Désinstallée** le 18/08 ~12h15 via admin Bonum Vitae
+(`contact@bonumvitae.fr` / `bonum-vitae-2`). Motif Shopify : plus utilisée.
+Onglet Désinstallées : Vitals (avec Upcart, AutoDS). Storefront : 0 script
+Vitals / appsolve. Metafields RO 600G : seulement SEO `global.title_tag` /
+`description_tag`. Bloc embed retiré de `settings_data.json`.
+
+Apps encore installées : DSers, CLI Connector, CWILL Parcel Panel,
+**CWILL(Trustoo) Reviews**, ChatGPT MCP, Claude Connector, Messaging.
 
 ## Paiements — checkout réel (panier test, pas de commande)
 

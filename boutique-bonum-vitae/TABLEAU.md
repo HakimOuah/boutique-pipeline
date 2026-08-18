@@ -14,8 +14,8 @@ pour un test ads en septembre. Prompt de relance :
 > 👉 **Hakim, maintenant :** ① QA mobile 375 px (yeux) · ② **puis** feu vert GMC.
 > Canal Shopify « Google & YouTube » déjà installé — ne pas soumettre sans feu vert.
 
-Dernière mise à jour : **18/08/2026 ~12h00** — embed Vitals coupé, icônes paiement
-alignées sur le checkout. [`journal/2026-08-18-vitals-paiements.md`](journal/2026-08-18-vitals-paiements.md).
+Dernière mise à jour : **18/08/2026 ~12h15** — **Vitals désinstallée**. Storefront
+sans script Vitals. [`journal/2026-08-18-vitals-paiements.md`](journal/2026-08-18-vitals-paiements.md).
 
 ---
 
@@ -93,10 +93,10 @@ Validation Hakim = T-H3. Volumes SEMrush non mesurés dans cette passe (limite n
 
 ### ~~T-11 — QA FullStack live~~ ✅ technique 18/08 — yeux Hakim encore ouverts
 Correctifs faits (notes Vitals 4,83/6, section osmoseurs fantôme, footer doublon).
-**18/08 midi :** embed Vitals **désactivé** (plus d'injection storefront) ; icônes
-footer = Visa, Mastercard, Amex, Apple Pay, Google Pay, PayPal, Shop Pay, **Klarna**
-— constaté au checkout réel (panier test, pas de commande).
+**18/08 midi :** Vitals **désinstallée** (admin + bloc thème retiré). Icônes
+footer = Visa, Mastercard, Amex, Apple Pay, Google Pay, PayPal, Shop Pay, **Klarna**.
 Reste : passage mobile 375 px par Hakim (sticky ATC, date `delivery-estimation`).
+**Note :** `CWILL(Trustoo) Reviews` est encore installée — autre app d'avis.
 
 ### ~~T-12 — Panier tiroir FullStack~~ ✅ 18/08
 Bannière franco + upsell consommables + accordéons 14 j / 6–10 j. Plus de barre à 30 €.

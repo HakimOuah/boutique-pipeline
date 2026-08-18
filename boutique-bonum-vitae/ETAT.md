@@ -1,6 +1,6 @@
 # Bonum Vitae — état courant
 
-**Dernière mise à jour : 18/08/2026 ~12h00** — Vitals embed off, icônes checkout.
+**Dernière mise à jour : 18/08/2026 ~12h15** — Vitals désinstallée.
 [`TABLEAU.md`](TABLEAU.md) ·
 [`journal/2026-08-18-vitals-paiements.md`](journal/2026-08-18-vitals-paiements.md).
 
@@ -46,8 +46,9 @@ OSWNKW compact, membrane 50 GPD). Kit + LPS : Boutique en ligne seulement.
 - Tag `hors-acquisition` + **hors Google** : magnétiques DN8/DN20/DN25, carafe 3,5 L, douche vitamine C
 - Handles claims retirés : pommeau / carafe — 301 auto
 - Metafields faux avis `reviews` / `vstar` 4,83/6 sur RO 600G **supprimés** (toujours absents)
-- Embed Vitals **disabled** dans `settings_data.json` (constaté : plus de `vtlsAebData` sur le live)
+- **Vitals désinstallée** le 18/08 (~12h15). Plus de `vtlsAebData` / `appsolve` sur accueil et RO 600G.
 - Icônes paiement live = Visa / Mastercard / Amex / Apple Pay / Google Pay / PayPal / Shop Pay / Klarna (Klarna + Amex **actifs au checkout**)
+- Apps encore installées (constaté admin) : DSers, CLI Connector, CWILL Parcel Panel, **CWILL(Trustoo) Reviews**, ChatGPT MCP, Claude Connector, Messaging
 
 ### Collections publiques
 
@@ -67,7 +68,7 @@ OSWNKW compact, membrane 50 GPD). Kit + LPS : Boutique en ligne seulement.
 |---|---|---|
 | P0 | 3 faux avis « Vérifié » | ✅ retirés |
 | P0 | « 4.8/5 · 312 avis vérifiés » | ✅ retiré |
-| P0 | Metafields 4,83/6 (Vitals) sur RO 600G | ✅ purgés · embed app **coupé** |
+| P0 | Metafields 4,83/6 (Vitals) sur RO 600G | ✅ purgés · app **désinstallée** |
 | P0 | Prix barrés | ✅ 0 au catalogue |
 | P1 | Bandeau « -20% osmoseurs » | ✅ retiré |
 | P1 | Hero « sans travaux ni plombier » | ✅ absent du FullStack live |
@@ -87,8 +88,8 @@ OSWNKW compact, membrane 50 GPD). Kit + LPS : Boutique en ligne seulement.
 déjà poussées. 5 SKU hors-acquisition en ont été retirés le 18/08. Ne pas créer / soumettre
 un GMC sans feu vert Hakim.
 
-Avant soumission : QA 375 px (yeux). Vitals : embed coupé ; l'app reste installée
-(peut encore écrire des metafields — à désinstaller si les notes reviennent).
+Avant soumission : QA 375 px (yeux). Vitals désinstallée. Reste
+`CWILL(Trustoo) Reviews` — même famille de risque (avis).
 
 ---
 
