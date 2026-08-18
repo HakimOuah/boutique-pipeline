@@ -83,14 +83,15 @@ Le parc a déjà monté FullStack deux fois. **Tu ne redécouvres pas le thème.
 - **Ne jamais `switch-shop`** sur le connecteur Shopify MCP (ça révoque le token). Toujours `--store kw7vak-g0.myshopify.com`.
 - **Ne jamais écrire sur le thème MAIN / publié.** Sur Bonum Vitae le MAIN est encore Horizon : on n'y fait que le rail A (crible). FullStack se travaille sur une copie **UNPUBLISHED** → **Hakim publie**. Ne pas publier un thème.
 - **Jamais `fileDelete`** sur un média produit. Détacher via `fileUpdate` + `referencesToRemove`.
-- Aucune commande, aucun achat, aucun paiement. Ne pas modifier Google Ads ni Merchant Center sauf ticket explicite.
+- Aucune commande, aucun achat, aucun paiement.
+- **Ne pas toucher au Merchant Center ni à Google Ads de Bonum Vitae.** Le compte existe déjà (app Shopify Google & YouTube). Le flux a été soumis, les produits ont d'abord été limités puis validés, et ils tiennent depuis des semaines. **On le laisse vivre** : pas de nouveau GMC, pas de resoumission, pas de campagne. Décision Hakim 18/08.
 - **Policies jamais identiques mot pour mot** avec Tuftéo, Noirmont ou Bien Brûlé. Google compare entre domaines.
 - GitHub = source de vérité. Fin de tâche : `git add` + commit FR + `git push` dans `boutique-pipeline/`. Si la mémoire Claude a bougé : `bash scripts/sync-memoire.sh` dans le hub, puis commit hub.
 - Secrets, `.env`, `node_modules/`, `scratchpad/`, `settings.local.json` : hors git.
 
 ### Pourquoi ce chantier est plus dangereux que Noirmont
 
-Les quatre boutiques publient **la même adresse et le même téléphone**. Hakim a **assumé le linkage** le 16/08. Une misrepresentation sur Bonum Vitae dégrade **l'entité OH Ventures**, donc le GMC Tuftéo. Précédent : compte GMC **5806019978** suspendu le 15/06 pour faux avis, puis réintégré.
+Les quatre boutiques publient **la même adresse et le même téléphone**. Hakim a **assumé le linkage** le 16/08. Une misrepresentation sur Bonum Vitae dégrade **l'entité OH Ventures**, donc le GMC Tuftéo **et** le GMC Bonum Vitae (flux déjà validé, à laisser vivre). Précédent : compte GMC **5806019978** suspendu le 15/06 pour faux avis, puis réintégré.
 
 Le crible entité (`CHANTIER-CRIBLE-ENTITE.md`) classait Bonum Vitae **« jamais auditée »**. Le live du 17/08 montre que ce n'est plus une hypothèse.
 
@@ -126,18 +127,18 @@ Pas de persona validé au format maison (`boutique-pipeline/personas/` n'a que T
 
 **Rail B — redesign FullStack (le gros du travail).**
 
-1. **Snapshot.** `get-shop-info`, thèmes (id + role — vérifier si FullStack est déjà installé sur `kw7vak-g0` ou s'il faut que Hakim l'ajoute), catalogue (statuts, compare-at, collections < 5), policies, apps d'avis, paiements réels (`shop.enabled_payment_types`), GMC existant ou non. Écrire `ETAT.md`.
+1. **Snapshot.** `get-shop-info`, thèmes (id + role — vérifier si FullStack est déjà installé sur `kw7vak-g0` ou s'il faut que Hakim l'ajoute), catalogue (statuts, compare-at, collections < 5), policies, apps d'avis, paiements réels (`shop.enabled_payment_types`). **GMC : il existe déjà** (app Google & YouTube, flux validé) — le constater, ne pas y toucher. Écrire `ETAT.md`.
 2. **Persona.** Produire `boutique-pipeline/personas/persona-bonum-vitae-YYYY-MM-DD.md` depuis `templates/persona.template.md`. Preuves `[O]`/`[D]`. **Hakim valide avant tout copy et avant toute DA.** Persona = particulier qui découvre, pas un pro de l'eau.
 3. **DA — 2 ou 3 directions, puis stop.** Skill `webdesign-boutiques` + `python3 ~/.claude/skills/ui-ux-pro-max/scripts/search.py`. Palette + typos + 3 références + anti-patterns. **Attendre le choix de Hakim.** Eau / bien-être / foyer : pédagogie, clarté, confiance. Ni « premium fade » froid, ni pop DIY type Tuftéo, ni luxe montres. La charte Abysse/Source de juillet est un **point de départ**, pas un verrou.
 4. **FullStack.** Si le thème n'est pas sur la boutique : Hakim l'installe (zip / copie depuis une autre boutique — licence à confirmer). Dupliquer. Travailler **uniquement** la copie UNPUBLISHED. **Première tâche thème = lire l'inventaire reco Tuftéo + lister, pour Bonum Vitae, ce qui sera natif vs custom.** Purger la démo vendeur. Appliquer la DA validée via `settings_data.json` (schemes, polices). Reconstruire `index.json`, `product.json`, header/footer/panier avec les patterns Tuftéo/Noirmont. Logos paiement ré-uploadés sur le CDN Bonum Vitae (jamais d'URL `cdn` Tuftéo/Noirmont/ancien Horizon).
 5. **QA mobile-first** (375 px d'abord, breakpoint FullStack 750 px) sur l'aperçu `preview_theme_id` (session navigateur — `curl` perd le paramètre). Hakim publie.
-6. **GMC.** Skill `gmc-acceptance` en pass/fail **après** le thème publié et les policies recoupées. **Ne pas créer / soumettre un GMC** sans verdict PRÊT et sans feu vert Hakim. Si un GMC Bonum Vitae existe déjà (comme Tuftéo via l'app Google & YouTube), le signaler tout de suite : un changement de thème sur un compte établi est un **changement brutal** — une seule publication propre, puis calme.
+6. **GMC — actif déjà en production, on le protège.** Bonum Vitae a le même montage que Tuftéo : app Google & YouTube, flux soumis, produits validés après une phase limitée. **Ne pas créer, lier, resoumettre, ni lancer d'ads.** Le skill `gmc-acceptance` sert à auditer le storefront (rail A + cohérence après publication FullStack), pas à ouvrir un compte. Un changement de thème sur un GMC établi est un **changement brutal** : une seule publication propre, puis calme. Workspace / e-mail pro : Hakim s'en occupe ; ne pas changer l'e-mail du GMC d'un coup.
 
 `themeFilesUpsert` peut renvoyer `upsertedThemeFiles: []` sans erreur alors que ça a marché (ou l'inverse). Vérifier par **empreinte md5** + relecture du contenu. Templates JSON ~125 ko : staged upload, pas TEXT. Nom de schéma de bloc > 25 caractères = rejet silencieux.
 
 ### Skills à invoquer
 
-- `gmc-acceptance` dès l'audit et avant tout GMC
+- `gmc-acceptance` pour auditer le storefront (pas pour créer/soumettre un GMC)
 - `webdesign-boutiques` + `ui-ux-pro-max` dès la DA
 - `shopify-liquid` dès le thème
 - `copywriting` / `cro` / `ecommerce-copywriting` **après** persona validé
