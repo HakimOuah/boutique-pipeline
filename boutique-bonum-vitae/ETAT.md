@@ -1,6 +1,6 @@
 # Bonum Vitae — état courant
 
-**Dernière mise à jour : 18/08/2026 ~12h30** — GMC `5825588636` constaté.
+**Dernière mise à jour : 18/08/2026 ~12h35** — boutique prête (Hakim).
 [`TABLEAU.md`](TABLEAU.md) ·
 [`journal/2026-08-18-gmc-existant.md`](journal/2026-08-18-gmc-existant.md).
 
@@ -85,8 +85,8 @@ OSWNKW compact, membrane 50 GPD). Kit + LPS : Boutique en ligne seulement.
 
 **Compte existant :** Bonum Vitae **`5825588636`** (Hakim, capture 18/08).
 Pas le compte suspendu de juin (`5806019978`). Produits **acceptés depuis ~7/08**
-(courbe 28 j : limités → approuvés). 9 notifications non lues au moment de la
-capture. **Ne pas créer / soumettre un autre GMC.**
+(courbe 28 j : limités → approuvés). **9 notifs lues par Hakim le 18/08 :**
+rien d'important. **Ne pas créer / soumettre un autre GMC.**
 
 Feed Shopify = canal **Google & YouTube** (`Publication/357118574930`).
 Constaté API 18/08 : **18 ACTIVE** dessus, **10 hors** (5 hors-acquisition + LPS

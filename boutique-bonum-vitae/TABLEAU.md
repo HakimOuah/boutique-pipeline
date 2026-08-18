@@ -11,12 +11,12 @@ pour un test ads en septembre. Prompt de relance :
 
 **Mets ce fichier à jour avant de rendre la main.**
 
-> 👉 **Hakim, maintenant :** ① QA mobile 375 px (yeux) · ② ouvrir les **9 notifs GMC**
-> et ne **pas** créer un second compte. GMC **5825588636** existe, produits
-> acceptés depuis ~7/08. [`journal/2026-08-18-gmc-existant.md`](journal/2026-08-18-gmc-existant.md).
+> 👉 **Hakim, maintenant :** boutique **prête**. Pas de second GMC, pas d'ads
+> tant qu'il n'a pas tranché le test septembre. Reliquats non bloquants :
+> Trustoo encore installée, commande test kit.
 
-Dernière mise à jour : **18/08/2026 ~12h30** — GMC Bonum Vitae constaté
-(`5825588636`). Vitals déjà désinstallée.
+Dernière mise à jour : **18/08/2026 ~12h35** — Hakim : notifs GMC lues, rien
+d'important. On clôt le chantier boutique.
 
 ---
 
@@ -41,8 +41,8 @@ produits **approuvés depuis ~7/08** (avant : ~85 limités / 10 approuvés, pic
 95 items le 6/08). Canal Shopify Google & YouTube = le feed. **Ne pas créer
 un second GMC. Ne pas redemander de review.**
 Shopify pousse aujourd'hui **18 ACTIVE** vers ce canal (hors-acquisition, LPS
-et kit volontairement hors Google). L'écart 95 vs 18 = vieux items / variantes
-à recouper dans GMC, pas à réuploader.
+et kit volontairement hors Google). **18/08 ~12h35 — Hakim :** les 9 notifs
+sont lues, rien d'important. Verdict : on est bon.
 
 ### ~~T-13 — Finaliser la fiche anti-tartre galvanique (LPS)~~ ✅ publié le 18/08
 **ACTIVE**, 149 €, 0 barré. Canal **Boutique en ligne seulement** (pas Google, pas Shop).

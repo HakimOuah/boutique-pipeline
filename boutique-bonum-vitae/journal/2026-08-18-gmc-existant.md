@@ -20,7 +20,8 @@ déjà le signal ; le compte GMC le confirme.
 
 - Jusqu'au **6/08 17h16** : 95 items, 10 approuvés, 85 limités, 0 refus.
 - À partir du **7/08** : bascule — quasi tout passe Approuvé, Limités ≈ 0.
-- Jusqu'au 18/08 : plateau vert. 9 notifications non lues.
+- Jusqu'au 18/08 : plateau vert. 9 notifications — **Hakim les a lues (~12h35),
+  rien d'important.** Verdict : boutique bonne. Ne pas créer un second compte.
 
 ## Shopify aujourd'hui (API 18/08)
 
