@@ -1,6 +1,6 @@
 # Critères canoniques de recherche produit
 
-Dernière mise à jour : 8 août 2026 (§2 : Brand Search devient la source d'idées principale — boutiques prouvées en Google Ads France, 0 Meta, prix ≥ 130 $ ; le balayage par familles et l'idéation libre passent en sources secondaires. §3 : « explicable-particulier » remplace « technique », signal d'exclusion persona pro. §7 : chemin A avec mesure express = voie principale ; correction Hakim : prix/panier avant étude profonde et concurrent comparable isolé = validation, pas motif de STOP)
+Dernière mise à jour : 18 août 2026 (§2 : TrendTrack 5 modules = source principale 1 ; Amazon/VEVOR/Flippa/Europages/balayage = source principale 2 ; Brand Search reste une méthode valide, plus la source unique. Skill `recherche-produit-dossier`. 8 août 2026 : §3 « explicable-particulier », §7 chemin A mesure express.)
 
 Ce document est le référentiel à appliquer à toutes les nouvelles recherches produit du pipeline.
 
@@ -15,16 +15,15 @@ Ce document est le référentiel à appliquer à toutes les nouvelles recherches
 
 ## 2. Sources d'idées
 
-**Source principale depuis le 20 juillet 2026 : Brand Search** (connecté en MCP). Recette de filtres établie par Hakim : boutiques d'origine France, 0 publicité Meta active, au moins 1 publicité Google, prix moyen ≥ ~130 $, triées par volume d'annonces Google. Chaque idée extraite est adossée à une boutique preuve — un marché où une boutique de niche vit déjà en 100 % Google Ads dans la tranche de prix. L'agent `mineur-brandsearch` applique cette recette et le §3 dès l'extraction.
+**Source principale 1 depuis le 18 août 2026 : TrendTrack**, 5 modules d'idéation et d'arbitrage (Early Market, Marketproof & Pivot, Temps Réel / Pages, Saisonnalité, Rétro-ingénierie des Angles). Recette et filtres : skill `recherche-produit-dossier`. Objectif : capter une intention déjà payée ailleurs et l'importer sur le marché FR en Google Ads Search.
+
+**Source principale 2 :** Amazon, VEVOR, Flippa, Europages, balayage familles.
+
+**Brand Search reste une méthode valide** (connecté en MCP) : boutiques d'origine France, 0 publicité Meta active, au moins 1 publicité Google, prix moyen ≥ ~130 $, triées par volume d'annonces Google. Chaque idée extraite est adossée à une boutique preuve. L'agent `mineur-brandsearch` applique cette recette et le §3 dès l'extraction. Ce n'est plus la source unique. Les visites Brand Search ne sont pas fiables et ne fondent jamais un verdict.
 
 L'exploration s'élargit ensuite par **SEMrush lui-même** : les sous-groupes du Keyword Magic Tool révèlent les sous-niches autour de chaque idée mesurée, et les associations d'idées (une boutique d'étanchéité → béton ciré → rénovation décorative) alimentent des idées latérales qui suivent la même chaîne complète.
 
-Sources secondaires (sur demande explicite de Hakim uniquement) :
-
-- le balayage par familles de marché (`familles-exploration.md`, boucle `/chasse-clusters`) ;
-- l'idéation libre : Amazon, VEVOR, Flippa/DotMarket, Europages, Google.
-
-Ces sources servent uniquement à trouver et valider des idées. **Le fournisseur doit exclusivement être trouvé sur AliExpress.**
+Ces sources servent uniquement à trouver et valider des idées. **Le fournisseur doit exclusivement être trouvé sur AliExpress, uniquement après verdict marché écrit.**
 
 ## 3. Profils de produits recherchés
 
