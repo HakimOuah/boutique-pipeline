@@ -1,10 +1,12 @@
 # À faire, Hakim
 
-**17/08/2026, ~15h25.** Décision Hakim : **le site public dort.** Pas de GMC, pas de correctif live, pas d'activation. On reprend après les **30 jours Tuftéo**.
+**18/08/2026, ~19h50.** Hakim a posé le lien Google : Workspace + app **Google & YouTube** sur Noirmont, **sans lancer d'ads**. Même chemin que Tuftéo et Bonum Vitae. Le flux se laisse vivre (limité → validé, on ne recrée pas).
+
+Le **catalogue et le thème publiés restent gelés** : pas de correctif live, pas d'activation des 20 brouillons. Google crawle maintenant le site tel quel.
 
 Thème MAIN déjà en ligne (`205451100498`).
 
-**GMC Noirmont : ne pas créer** (Tuftéo 30 jours d'abord). **Ne pas activer les 20 brouillons.** **Ne pas retoucher le catalogue ni le thème publiés** tant que le gel tient.
+**Ne pas recréer le GMC. Ne pas lancer de campagne. Ne pas activer les 20 brouillons.** **Ne pas retoucher le catalogue ni le thème publiés.**
 
 ✅ Dates de politiques : **15 août 2026** partout (T-H2).
 ✅ Les 6 contradictions du 15/08 sont soldées.
