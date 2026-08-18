@@ -1,0 +1,229 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "cart",
+      "blocks": {
+        "cart_header_blocks": {
+          "type": "_cart-header-blocks",
+          "static": true,
+          "settings": {
+            "wrap_in_card": true,
+            "color_scheme": "scheme-2",
+            "margin_top": 15,
+            "margin_bottom": 0
+          },
+          "blocks": {
+            "banner_franco": {
+              "type": "custom-code",
+              "name": "Bannière livraison",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "custom_liquid": "<div class=\"bv-cart-banner\">\n  <span>Livraison offerte en France — suivie, 6 à 10 jours ouvrés</span>\n</div>\n<style>\n  .bv-cart-banner{display:flex;align-items:center;justify-content:center;gap:.5rem;margin:0 0 12px;padding:.7rem 1rem;border-radius:12px;background:linear-gradient(90deg,#0E3A5A,#35B6AA);color:#fff;font-size:.85rem;font-weight:500;text-align:center}\n</style>",
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "banner_franco"
+          ]
+        },
+        "cart_footer_resume_blocks": {
+          "type": "_cart-footer-resume-blocks",
+          "static": true,
+          "settings": {
+            "wrap_in_card": false,
+            "color_scheme": "",
+            "margin_top": 0,
+            "margin_bottom": 0
+          },
+          "blocks": {
+            "discount_code_3WJdxK": {
+              "type": "_discount-code",
+              "name": "t:discount_code",
+              "settings": {
+                "style": "normal",
+                "accordion_heading": "Ajouter un code de réduction",
+                "button_text": "Appliquer",
+                "placeholder": "Code de réduction",
+                "margin_top": 0,
+                "margin_bottom": 10,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "upsell_conso": {
+              "type": "custom-code",
+              "name": "Upsell consommables",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "custom_liquid": "<div class=\"bv-cart-upsell\">\n{%- liquid\n  assign bv_upsell = 'kit-entretien-osmoseur-600-gpd,elements-filtrants-de-robinet-anti-chlore-lot-alloet,aerateur-de-robinet-economie-d-eau-buse-remplacable,filtre-de-douche-parfume-anti-calcaire-corps-abs' | split: ','\n  assign bv_count = 0\n-%}\n  <p class=\"bv-cart-upsell__title\">Pour l’entretien, ensuite</p>\n  <div class=\"bv-cart-upsell__list\">\n{%- for h in bv_upsell -%}\n  {%- if bv_count >= 2 -%}{%- break -%}{%- endif -%}\n  {%- assign p = all_products[h] -%}\n  {%- if p != empty and p.available -%}\n    {%- assign in_cart = false -%}\n    {%- for item in cart.items -%}\n      {%- if item.product.handle == h -%}{%- assign in_cart = true -%}{%- endif -%}\n    {%- endfor -%}\n    {%- unless in_cart -%}\n      {%- assign v = p.selected_or_first_available_variant -%}\n      <div class=\"bv-cart-upsell__item\">\n        <a href=\"{{ p.url }}\" class=\"bv-cart-upsell__media\">\n          <img src=\"{{ p.featured_image | image_url: width: 160 }}\" alt=\"{{ p.title | escape }}\" width=\"56\" height=\"56\" loading=\"lazy\">\n        </a>\n        <div class=\"bv-cart-upsell__info\">\n          <a href=\"{{ p.url }}\" class=\"bv-cart-upsell__name\">{{ p.title }}</a>\n          <div class=\"bv-cart-upsell__row\">\n            <span class=\"bv-cart-upsell__price\">{{ v.price | money }}</span>\n            <button type=\"button\" class=\"bv-upsell-add\" data-variant-id=\"{{ v.id }}\">Ajouter</button>\n          </div>\n        </div>\n      </div>\n      {%- assign bv_count = bv_count | plus: 1 -%}\n    {%- endunless -%}\n  {%- endif -%}\n{%- endfor -%}\n  </div>\n</div>\n<style>\n  .bv-cart-upsell{margin:0 0 12px}\n  .bv-cart-upsell__title{font-family:var(--font-heading--family,serif);color:#0E3A5A;font-size:1.05rem;margin:0 0 .8rem}\n  .bv-cart-upsell__list{display:flex;flex-direction:column;gap:.9rem}\n  .bv-cart-upsell__item{display:grid;grid-template-columns:56px 1fr;align-items:center;gap:.75rem}\n  .bv-cart-upsell__media{display:block}\n  .bv-cart-upsell__item img{width:56px;height:56px;object-fit:cover;border-radius:10px;background:#f2f2f2;display:block}\n  .bv-cart-upsell__info{display:flex;flex-direction:column;gap:.35rem;min-width:0}\n  .bv-cart-upsell__name{font-size:.85rem;line-height:1.25;color:#1C2830;text-decoration:none}\n  .bv-cart-upsell__row{display:flex;align-items:center;justify-content:space-between;gap:.5rem}\n  .bv-cart-upsell__price{font-size:.9rem;font-weight:600;color:#0E3A5A;white-space:nowrap}\n  .bv-upsell-add{border:0;cursor:pointer;background:#0E3A5A;color:#fff;font-size:.78rem;font-weight:600;padding:.4rem .85rem;border-radius:999px;white-space:nowrap}\n  .bv-upsell-add:hover{background:#35B6AA}\n</style>\n<script>\n(function(){\n  document.addEventListener('click', function(e){\n    var btn = e.target.closest('.bv-upsell-add');\n    if(!btn) return;\n    e.preventDefault();\n    var id = parseInt(btn.getAttribute('data-variant-id'), 10);\n    if(!id) return;\n    btn.disabled = true;\n    fetch('/cart/add.js', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({id:id, quantity:1})})\n      .then(function(r){ if(!r.ok) throw r; location.reload(); })\n      .catch(function(){ btn.disabled = false; });\n  });\n})();\n</script>",
+                "margin_top": 0,
+                "margin_bottom": 10,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "upsell_conso",
+            "discount_code_3WJdxK"
+          ]
+        },
+        "cart_footer_blocks": {
+          "type": "_cart-footer-blocks",
+          "static": true,
+          "settings": {
+            "wrap_in_card": false,
+            "color_scheme": "",
+            "margin_top": 0,
+            "margin_bottom": 0
+          },
+          "blocks": {
+            "cart_accelerated_checkout_pCRFtz": {
+              "type": "_cart-accelerated-checkout",
+              "name": "t:accelerated_checkout_button",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "button_style": "primary",
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "payment_methods_TfmeJy": {
+              "type": "payment-methods",
+              "name": "t:payment_methods",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "alignment_desktop": "flex-start",
+                "alignment_mobile": "center",
+                "icon_size": 35,
+                "margin_top": 10,
+                "margin_bottom": 20,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "accordions_UBXTAD": {
+              "type": "accordions",
+              "name": "t:accordions",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "icon": "caret",
+                "dividers": true,
+                "additional_class": ""
+              },
+              "blocks": {
+                "accordion_eYqGh9": {
+                  "type": "_accordion",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "heading": "Retours — 14 jours",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "icon_custom": "",
+                    "additional_class": ""
+                  },
+                  "blocks": {
+                    "text_9gnHYi": {
+                      "type": "text",
+                      "settings": {
+                        "show_on_display": "desktop_and_mobile",
+                        "text": "<p>Vous disposez de 14 jours après réception pour changer d’avis, sans justification. Écrivez à contact@bonumvitae.fr : on vous indique comment renvoyer le colis. Les frais de renvoi restent à votre charge ; le remboursement part après réception et contrôle.</p>",
+                        "text_style": "paragraph",
+                        "paragraph_font_size": "normal",
+                        "font_weight": 400,
+                        "alignment": "left",
+                        "alignment_mobile": "left",
+                        "show_read_more": false,
+                        "read_more_length": 200,
+                        "read_more_text": "Voir plus",
+                        "read_less_text": "Voir moins",
+                        "margin_top": 0,
+                        "margin_bottom": 0,
+                        "additional_class": ""
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_9gnHYi"
+                  ]
+                },
+                "accordion_dYtf9Y": {
+                  "type": "_accordion",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "heading": "Livraison offerte en France",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "icon_custom": "",
+                    "additional_class": ""
+                  },
+                  "blocks": {
+                    "text_jGApxp": {
+                      "type": "text",
+                      "settings": {
+                        "show_on_display": "desktop_and_mobile",
+                        "text": "<p>Livraison offerte en France, sans minimum. Préparation 24 à 48 h ouvrées, délai total estimé 6 à 10 jours ouvrés, avec suivi par e-mail. Heure limite de préparation : 15h00, heure de Paris.</p>",
+                        "text_style": "paragraph",
+                        "paragraph_font_size": "normal",
+                        "font_weight": 400,
+                        "alignment": "left",
+                        "alignment_mobile": "left",
+                        "show_read_more": false,
+                        "read_more_length": 200,
+                        "read_more_text": "Voir plus",
+                        "read_less_text": "Voir moins",
+                        "margin_top": 0,
+                        "margin_bottom": 0,
+                        "additional_class": ""
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_jGApxp"
+                  ]
+                }
+              },
+              "block_order": [
+                "accordion_eYqGh9",
+                "accordion_dYtf9Y"
+              ]
+            }
+          },
+          "block_order": [
+            "cart_accelerated_checkout_pCRFtz",
+            "payment_methods_TfmeJy",
+            "accordions_UBXTAD"
+          ]
+        }
+      },
+      "settings": {
+        "color_scheme": "scheme-1",
+        "show_variant_options_labels": false,
+        "show_remove_button": true,
+        "show_cart_count": true,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

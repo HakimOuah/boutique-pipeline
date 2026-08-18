@@ -1,8 +1,8 @@
 # Bonum Vitae — état courant
 
-**Dernière mise à jour : 18/08/2026 ~1h50** — USP gabarit produit réécrits. FullStack
-`205568147794` est **MAIN**. Kit 600 GPD publié. [`TABLEAU.md`](TABLEAU.md) ·
-[`journal/2026-08-18-usp-gabarit-produit.md`](journal/2026-08-18-usp-gabarit-produit.md).
+**Dernière mise à jour : 18/08/2026 ~11h30** — run autonome tickets. FullStack
+`205568147794` est **MAIN**. [`TABLEAU.md`](TABLEAU.md) ·
+[`journal/2026-08-18-run-autonome.md`](journal/2026-08-18-run-autonome.md).
 
 ---
 
@@ -13,69 +13,67 @@
 | Marque | Bonum Vitae |
 | Domaine public | `https://bonumvitae.fr` (200, pas de mot de passe) |
 | Store Shopify | **`kw7vak-g0.myshopify.com`** — `gid://shopify/Shop/109072515410` |
-| E-mails | `shop.email` = `shop.contactEmail` = `contact@bonumvitae.fr` ✅ (constaté API 17/08) |
+| E-mails | `shop.email` = `shop.contactEmail` = `contact@bonumvitae.fr` ✅ |
 | Entité | OH Ventures (SASU), 47 rue Vivienne, 75002 Paris, SIREN 103157251 |
 | Téléphone | `+33 7 56 82 80 94` — au footer, constaté live |
-| Raison sociale au footer | ⛔ absente (ni OH Ventures, ni SIREN) — T-06 |
+| Raison sociale au footer | ✅ OH VENTURES (SASU) — SIREN 103157251 |
 | Devise | EUR seul, livraison FR seule |
 | Persona | ✅ validé par Hakim le 17/08 — `../personas/persona-bonum-vitae-2026-08-17.md` |
-| Auth CLI | ✅ `contact@bonumvitae.fr` (17/08). Scopes : products, files, themes, content, pages, legal_policies. **Pas `read_apps`** |
+| Auth CLI | ✅ `contact@bonumvitae.fr`. Scopes : products, files, themes, content, pages, legal_policies. **Pas `read_publications` / navigation / redirects** |
 
 **Adresse et téléphone partagés avec Bien Brûlé, Tuftéo et Maison Noirmont** (linkage assumé,
-16/08). Depuis le 17/08 au soir, plus aucun déclencheur P0 connu n'est public ici.
+16/08).
 
 ---
 
-## Thèmes (constaté API 17/08)
+## Thèmes (constaté 18/08)
 
 | Thème | Id | Rôle | Note |
 |---|---|---|---|
-| `copie-de-fullstack-2-3` | **`205568147794`** | **MAIN** | publié par Hakim (constaté API 18/08 ~1h45). USP produit réécrits le 18/08. |
-| Horizon | `203569004882` | UNPUBLISHED | ancien live, rail A du 17/08 |
-| theme-impact-tristan-version-1 | `203578376530` | UNPUBLISHED | juillet, hors périmètre |
-| Copie de theme-impact-tristan-version-1 | `203601510738` | UNPUBLISHED | juillet, hors périmètre |
-
-Templates produit Horizon : `product.json` (25 fiches) + `product.osmoseur.json`
-(`osmoseur-ro-600g` uniquement).
+| `copie-de-fullstack-2-3` | **`205568147794`** | **MAIN** | publié par Hakim. Run autonome 18/08. |
+| Horizon | `203569004882` | UNPUBLISHED | ancien live |
+| theme-impact-tristan-version-1 | `203578376530` | UNPUBLISHED | hors périmètre |
+| Copie de theme-impact-tristan-version-1 | `203601510738` | UNPUBLISHED | hors périmètre |
 
 ---
 
-## Catalogue (constaté API 17/08)
+## Catalogue (constaté API 18/08)
 
-**28 produits** (18/08) : **24 ACTIVE** publics, **4 DRAFT** — LPS, SHUANGLI, OSWNKW compact,
-membrane 50 GPD (sortie du live le 18/08). Kit entretien 600 GPD **publié**.
+**28 produits** : **24 ACTIVE** publics, **4 DRAFT** (LPS, SHUANGLI, OSWNKW compact,
+membrane 50 GPD). Kit entretien 600 GPD **publié**.
 
-- **0 `compareAtPrice` non nul** sur tout le catalogue depuis le 17/08 ~19h15 (8 purgés, backup
-  dans `backups/2026-08-17-rail-a/`).
-- App d'avis **Trustoo** (`cwilltrustoo-reviews`) : bloc `review-widget` présent dans les deux
-  templates produit. 0 commande → ne devrait rien rendre. À trancher au rail B.
+- **0 `compareAtPrice` non nul**
+- Tag `hors-acquisition` : magnétiques DN8/DN20/DN25 + carafe 3,5 L
+- Handles claims retirés : pommeau (plus `eau-adoucie`), carafe (plus `alcaline`) — 301 auto
+- Metafields faux avis `reviews` / `vstar` 4,83/6 sur RO 600G **supprimés** (18/08 ~11h25)
 
-### Collections
+### Collections publiques
 
 | Collection | Produits | Seuil de 5 |
 |---|---|---|
 | `filtres-de-douche` / `carafes-filtrantes` / `filtres-robinet` / `anti-calcaire-sans-sel` | 5 | ✅ |
-| `osmoseurs` | **3** visibles (RO 600G + 449 € + kit ; membrane 50 GPD hors live) | ⛔ T-07 |
-| `purificateurs-nomades` | 1 | ⛔ T-07 |
-| `frontpage` | 1 | ⛔ (système) |
+| `osmoseurs` | **supprimée** (18/08) | ✅ 404 |
+| `purificateurs-nomades` | **supprimée** (18/08) | ✅ 404 |
+| `frontpage` | 1 | système, hors nav |
 
 ---
 
-## Crible — état après rail A (17/08 soir)
+## Crible — état après run autonome (18/08 matin)
 
 | Gravité | Déclencheur | État |
 |---|---|---|
-| P0 | 3 faux avis « Vérifié » | ✅ **retirés** — constaté anonyme accueil + fiches |
-| P0 | « 4.8/5 · 312 avis vérifiés » | ✅ **retiré** |
-| P0 | Prix barrés | ✅ **0 au catalogue** (actifs + brouillons) |
-| P1 | Bandeau « -20% osmoseurs » | ✅ **retiré** (« Livraison offerte » conservé) |
-| P1 | Hero « sans travaux ni plombier » | ⛔ encore public — après persona |
-| P1 | Newsletter « -10 % première commande » | ⛔ à recouper (code réel ?) |
-| P1 | FAQ 24-48 h / 6-10 j vs policies | ⛔ à recouper — T-06 |
-| P1 | Doublon mentions légales (2 URLs en 200) | ⛔ — T-06 |
-| P1 | Footer sans raison sociale | ⛔ — T-06 |
-| P1 | Collections < 5 | ⛔ — T-07 |
-| P1 | Handle `…eau-adoucie` (claim) | ⛔ — à traiter au rail B (301) |
+| P0 | 3 faux avis « Vérifié » | ✅ retirés |
+| P0 | « 4.8/5 · 312 avis vérifiés » | ✅ retiré |
+| P0 | Metafields 4,83/6 (Vitals) sur RO 600G | ✅ purgés — surveiller réécriture app |
+| P0 | Prix barrés | ✅ 0 au catalogue |
+| P1 | Bandeau « -20% osmoseurs » | ✅ retiré |
+| P1 | Hero « sans travaux ni plombier » | ✅ absent du FullStack live |
+| P1 | Newsletter « -10 % » | ✅ absente |
+| P1 | FAQ 24-48 h / 6-10 j vs policies | ✅ aligné (plus de « 5 et 9 ») |
+| P1 | Doublon mentions légales | ✅ CMS 404 / policy 200 |
+| P1 | Footer sans raison sociale | ✅ SIREN live |
+| P1 | Collections < 5 | ✅ les deux petites supprimées |
+| P1 | Handle `…eau-adoucie` | ✅ renommé + 301 |
 
 ---
 
@@ -84,12 +82,13 @@ membrane 50 GPD (sortie du live le 18/08). Kit entretien 600 GPD **publié**.
 **A priori aucun compte** (Hakim, 17/08, déclaratif). Le GMC se créera après boutique propre,
 checklist complète, feu vert Hakim. Ne pas créer, ne pas soumettre.
 
+Avant création, encore Hakim : 301 CMS/collections, Vitals, T-H7 restant, QA 375 px.
+
 ---
 
 ## Ce que je n'ai pas pu vérifier
 
-- Apps installées / GMC (scope) — T-H6
-- Moyens de paiement réellement actifs (`shop.enabled_payment_types` = Liquid ; le footer affiche
-  Amex, Apple Pay, CB, Klarna, Mastercard, PayPal, Visa — à recouper au rail B)
-- Filigranes / photos AliExpress brutes : kit 600 GPD et LPS traités ; reste du catalogue pas audité visuellement
-- Contenu mot à mot des policies vs boutiques sœurs
+- Apps installées / GMC (scope)
+- Moyens de paiement réellement actifs vs icônes footer
+- 301 (scope redirects) — pages CMS et collections mortes sont en **404**
+- Zoom image par image de **tout** le catalogue (échantillon 12+ featured : 0 texte incrusté)

@@ -11,31 +11,12 @@ pour un test ads en septembre. Prompt de relance :
 
 **Mets ce fichier à jour avant de rendre la main.**
 
-> 👉 **Hakim, maintenant :** ① T-H7 — prix restants · ② T-11 — QA FullStack **live**.
+> 👉 **Hakim, maintenant :** ① 301 admin (pages CMS + collections effacées) ·
+> ② T-H7 restant + LPS · ③ QA mobile 375 px (yeux) · ④ **puis** feu vert GMC.
 
-Dernière mise à jour : **18/08/2026 ~1h55** — USP Transparence recalé sur l'objection
-« ça marche vraiment / je vais me tromper » (plus de disclaimer GMC).
-— Plus tôt (~1h50) : 4 paragraphes USP du gabarit produit réécrits.
-[`journal/2026-08-18-usp-gabarit-produit.md`](journal/2026-08-18-usp-gabarit-produit.md).
-— Plus tôt (~1h35) : ✅ **Kit 600 GPD publié**
-https://bonumvitae.fr/products/kit-entretien-osmoseur-600-gpd (200, 129 €, 0 barré).
-`osmoseurs` public = **3**. [`journal/2026-08-18-publication-kit.md`](journal/2026-08-18-publication-kit.md).
-— Plus tôt (~1h10) : ✅ **Kit entretien importé en brouillon**
-(`kit-entretien-osmoseur-600-gpd`, 129 €, 0 barré). ✅ **Membrane 50 GPD dépubliée**
-(404 public — incompatible 600 GPD). Comptoir plus tard. Journal :
-[`journal/2026-08-18-import-kit-sortie-membrane.md`](journal/2026-08-18-import-kit-sortie-membrane.md).
-— Plus tôt (~1h) : ✅ **Sourcing catalogue osmoseur** (lecture seule) :
-kit OSWNKW 600 GPD + remin = `FOURNISSEUR À TESTER` ; comptoir et 800 GPD livrable FR =
-`AUCUNE OFFRE` cette passe. Aucun import. Rapport :
-[`reports/phase4-sourcing-osmoseur-catalogue-2026-08-18.md`](reports/phase4-sourcing-osmoseur-catalogue-2026-08-18.md).
-— Plus tôt (~0h) : ✅ **FullStack v1 monté sur la copie `205568147794`** :
-démo vendeur purgée (Klaviyo, socials, rating-stars, Powered by), DA appliquée (charte BV,
-Fraunces/Inter, 3 schemes), home + template produit reconstruits avec les contenus Horizon
-harmonisés policy, footer avec OH Ventures + SIREN. **QA préview à faire par Hakim** :
-`https://kw7vak-g0.myshopify.com?preview_theme_id=205568147794`.
-[`journal/2026-08-17-fullstack-build-v1.md`](journal/2026-08-17-fullstack-build-v1.md).
-— Plus tôt (~19h30) : ✅ rail A P0 soldé et constaté en anonyme (faux avis, 4.8/5, 8 barrés,
-bandeau -20 %). [`journal/2026-08-17-rail-a-p0.md`](journal/2026-08-17-rail-a-p0.md).
+Dernière mise à jour : **18/08/2026 ~11h30** — run autonome : T-06, T-07, T-12,
+handles, hors-acquisition, metafields 4,83/6. Boutique **au maximum** avant GMC.
+[`journal/2026-08-18-run-autonome.md`](journal/2026-08-18-run-autonome.md).
 
 ---
 
@@ -71,27 +52,22 @@ marge brute 56 %. 0 barré. Activation toujours sur feu vert Hakim.
 **État** : BLOQUÉ — partiellement appliqué · **Pour** : Hakim · **Gravité** : P1 (bloque les ads)
 **Fait le 17/08** : ✅ RO 600G confirmé 299 € · ✅ **OSWNKW baissé à 449 €** · ✅ **LPS à 149 €**
 (aligné cluster G3/4 inox 121-150 €, pas la reco cost-plus 179-229). 0 barré.
+**Fait le 18/08** : tag `hors-acquisition` sur magnétiques DN8/DN20/DN25 et carafe 3,5 L
+(prix non touchés). Canal Google : Hakim (pas de scope publications).
 **Reste à trancher** (coûts fournisseur découverts au sourcing : marge actuelle ×3-4) :
-- ⛔ **Magnétiques DN20/DN25 à 152,90-153,90 €** (coût ~40 €) : bande marché 20-150 €, efficacité
-  publiquement contestée → ≤ 99 € ou hors acquisition, jamais en Shopping.
-- ⛔ **Anti-tartre DN8 à 86,90 €** (coût 28-31 €) : idem.
-- ⛔ **Carafes ALTHY 129,90-173,90 €** : référence mentale Brita 16-30 € → niche sans pub ou baisse.
+- ⛔ **Magnétiques DN20/DN25 à 152,90-153,90 €** — taggés `hors-acquisition` le 18/08.
+  Prix inchangés. À sortir du canal Google (Hakim).
+- ⛔ **Anti-tartre DN8 à 86,90 €** — idem, taggé.
+- ⛔ **Carafe 3,5 L 129,90-173,90 €** — taggée. Handle plus « alcaline ».
 - ⚠ **Douche vitamine C 111,90-149,90 €** : marché 30-60 € → ≤ 79 € ou justification forte.
 - ✅ Filtres douche cœur 13,90-46,90 € : dans la bande.
 **Sortie attendue** : grille validée, appliquée, constatée en anonyme.
 
-### T-H4 — Choisir une DA parmi 2 ou 3 directions
-**État** : BLOQUÉ · **Pour** : Hakim · **Dépend de** : T-H3
-**Pourquoi** : la charte Abysse/Source de juillet est un point de départ, pas un verrou. Eau / foyer
-/ pédagogie — ni pop Tuftéo, ni luxe Noirmont.
-**Sortie attendue** : une direction choisie, notée dans `ETAT.md`. Ensuite seulement : settings
-FullStack.
+### ~~T-H4 — Choisir une DA parmi 2 ou 3 directions~~ ✅ de facto (Abysse/Source live)
+DA juillet appliquée sur FullStack MAIN. Pas de restyle.
 
-### T-H5 — Publier (thème, jamais par l'agent)
-**État** : BLOQUÉ · **Pour** : Hakim · **Dépend de** : rail A soldé + FullStack QA
-**Pourquoi** : l'agent ne publie jamais un thème. Sur un GMC éventuel déjà créé via Google & YouTube,
-une publication est un changement brutal — une seule, propre, puis calme.
-**Sortie attendue** : Hakim publie. L'agent vérifie en visiteur anonyme après.
+### ~~T-H5 — Publier (thème, jamais par l'agent)~~ ✅ 18/08 — Hakim a publié
+MAIN = FullStack `205568147794`. Horizon UNPUBLISHED. Ne jamais switcher.
 
 ---
 
@@ -112,63 +88,36 @@ FullStack : hero, H2, lorem collection. Constaté anonyme : nouveau H1, plus de 
 **ACTIVE**, 129 €, 0 barré, copy FR, visuels composés. Variantes entrepôt DSers retirées
 (sélecteur Ships From) ; SKU Chine conservé `14:366#set;200007763:201336100`. Canal
 **Boutique en ligne** seulement (pas Shop, pas Google). Constaté anonyme : 200.
-Collection `osmoseurs` publique = **3** (T-07 toujours ouvert).
+Collection `osmoseurs` **supprimée** le 18/08 (T-07). Les 3 fiches restent au catalogue.
 **Reste** : commande test compatibilité 299 € / 449 € ; reconfirmer le coût rendu
 (DSers 39–44 € vs API FR 63,46 €). Si DSers re-sync, il peut recréer Ships From.
 **Réf.** : [`journal/2026-08-18-rattachement-visuels-kit.md`](journal/2026-08-18-rattachement-visuels-kit.md) ·
 [`livraisons/brief-codex-images-kit-entretien-600-gpd-2026-08-18.md`](livraisons/brief-codex-images-kit-entretien-600-gpd-2026-08-18.md)
 
-### T-06 — Recouper policies live vs pages CMS (doublon mentions légales)
-**État** : À FAIRE · **Pour** : Claude · **Gravité** : P1 · **Dépend de** : T-H1
-**Pourquoi** : `/policies/legal-notice` **et** `/pages/mentions-legales` répondent toutes les deux
-200. Google compare. Footer sans raison sociale ni SIREN (P1 GMC « footer d'abord »).
-**Comment** : même recette Noirmont — une seule URL servie, l'autre dépubliée + 301, texte **pas**
-identique mot pour mot à Tuftéo/Noirmont/Bien Brûlé. Collage policies = Hakim si scope absent.
-**Sortie attendue** : une mentions légales, footer = policies = (plus tard) GMC.
-**Réf.** : skill `gmc-acceptance` · `New project/outputs/bonumvitae-pages-legales-2026-07-12/`
+### ~~T-06 — Recouper policies live vs pages CMS~~ ✅ 18/08
+6 pages CMS légales **404**. Une mentions : `/policies/legal-notice` 200. Footer = shop
+policies + SIREN. Expédition alignée 24–48 h / 6–10 j / 15h Paris. 301 CMS encore à
+Hakim (scope redirects absent).
 
-### T-07 — Collections sous le seuil de 5
-**État** : À FAIRE · **Pour** : Claude · **Gravité** : P1 · **Dépend de** : T-H1
-**Pourquoi** : red flag Terry. Public : `purificateurs-nomades` = 1 fiche ; `osmoseurs` = **3**
-fiches (RO 600G + 449 € + kit entretien, membrane 50 GPD hors live). `frontpage` = 1.
-**Comment** : admin pour lever l'écart 3 vs 5. Décision Hakim : repeupler, fusionner, ou dépublier
-la collection. Ne pas inventer des fiches.
-**Sortie attendue** : chaque collection **publiée** a ≥ 5 produits actifs, ou elle n'est plus
-publique.
+### ~~T-07 — Collections sous le seuil de 5~~ ✅ 18/08
+`osmoseurs` et `purificateurs-nomades` **supprimées** (produits conservés, URL 404).
+Collections encore publiques : 4 × 5 fiches. `frontpage` système. Pas de SKU inventé.
 
 ### ~~T-08 — Produire le persona maison~~ ✅ FAIT le 17/08
 Persona sourcé SERP/forums/avis concurrents, format template maison :
 [`../personas/persona-bonum-vitae-2026-08-17.md`](../personas/persona-bonum-vitae-2026-08-17.md).
 Validation Hakim = T-H3. Volumes SEMrush non mesurés dans cette passe (limite notée au fichier).
 
-### T-11 — QA FullStack live (mobile 375 px d'abord)
-**État** : À FAIRE · **Pour** : Hakim puis Claude (correctifs) · **Gravité** : P1
-**Pourquoi** : FullStack `205568147794` est **MAIN** (Hakim a publié). Le rendu réel
-n'a pas encore été QAé ligne à ligne.
-**Comment** :
-1. Ouvrir `https://bonumvitae.fr` et une fiche (mobile d'abord).
-2. Contrôler : hero (lisibilité sur image), icônes Material (`water_drop`, `balance`, `lock`…),
-   tableau comparatif en mobile, accordéons, sticky ATC, date `delivery-estimation` en français,
-   icônes de paiement du footer vs checkout réel.
-3. Renvoyer la liste des défauts — Claude corrige sur la copie.
-**Sortie attendue** : liste de retours, puis v2.
-**Réf.** : `journal/2026-08-17-fullstack-build-v1.md`
+### ~~T-11 — QA FullStack live~~ ✅ technique 18/08 — yeux Hakim encore ouverts
+Correctifs faits (notes Vitals 4,83/6, section osmoseurs fantôme, footer doublon).
+Reste : passage mobile 375 px par Hakim (sticky ATC, paiement footer vs checkout,
+`delivery-estimation`).
 
-### T-12 — Panier tiroir FullStack (recette Tuftéo 12b)
-**État** : À FAIRE · **Pour** : Claude · **Dépend de** : T-11
-**Pourquoi** : le drawer FullStack est encore en config démo (seuil de progression incohérent avec
-« livraison offerte partout »).
-**Comment** : bannière « Livraison offerte en France » + upsell consommables (handles réels :
-membranes, cartouches), pattern `campement/12b-panier-banniere-upsells.md`. Un `custom-code` ne
-peut pas vivre dans `_product-form`.
-**Sortie attendue** : drawer propre en préview.
+### ~~T-12 — Panier tiroir FullStack~~ ✅ 18/08
+Bannière franco + upsell consommables + accordéons 14 j / 6–10 j. Plus de barre à 30 €.
 
-### T-10 — Directions DA (2 ou 3), puis stop
-**État** : À FAIRE · **Pour** : Claude · **Dépend de** : T-H3
-**Pourquoi** : skill `webdesign-boutiques` + `ui-ux-pro-max`. Palette juillet = point de départ.
-**Comment** : 2 ou 3 directions (palette + typos + 3 références + anti-patterns). Attendre T-H4.
-Implémentation = FullStack, pas Horizon (ignorer la phrase « implémenter sur Horizon » du skill).
-**Sortie attendue** : note DA dans `journal/`, choix Hakim.
+### ~~T-10 — Directions DA~~ ✅ de facto
+Abysse/Source déjà sur le live. Pas de restyle.
 
 ---
 
