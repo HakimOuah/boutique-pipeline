@@ -227,7 +227,7 @@ Anti-doublon : ces produits ne sont PAS des candidats du registre tant qu'ils n'
 
 ### Viviers — volume réel, ticket incompatible
 
-Marchés dont la demande est mesurée et réelle, mais dont le prix pratiqué est nettement sous la tranche 150–400 €. **Ce ne sont pas des rejets** : ils sont mis de côté pour une éventuelle boutique mêlant low et high ticket, et l'anti-doublon ne doit pas les traiter comme des STOP.
+Marchés dont la demande est mesurée et réelle, mais dont le prix pratiqué était nettement sous l'ancien plancher 150 €. **Ce ne sont pas des rejets** : ils sont mis de côté, et l'anti-doublon ne doit pas les traiter comme des STOP. **Décision Hakim 18/08/2026** : plancher de vente **50 €** (tranche 50–400 €). Les lignes dont le cœur observé entre dans 50–400 € (ex. globe terrestre 50–120 €) redeviennent mesurables **sur demande explicite**, pas automatiquement. Un cœur 30–90 € (detective box) reste majoritairement sous plancher.
 
 Écartés par `sonde-prix` avant la phase 3, pour ne pas payer un audit SERP complet sur un ticket qu'une lecture de Google Shopping suffit à disqualifier.
 
@@ -269,6 +269,7 @@ Marchés dont la demande est mesurée et réelle, mais dont le prix pratiqué es
 |---|---|---|---|
 | Machine à café portable | cafetière portable, machine expresso portable, mini machine café voyage | Test non concluant — clos | Ne pas re-proposer sans thèse réellement nouvelle |
 | Pilates Reformer | reformer pilates, machine pilates, banc pilates | Test non concluant — clos | Ne pas re-proposer sans thèse réellement nouvelle |
+| Robot lave-vitres (RoboLaVite) | robot lave vitre, laveur de vitres, robot vitre, WINBOT, Liectroux, ZenVitre, V3CLEAN, monrobotlavevitre | Testé longtemps + sourcé dropshipping — **ne pas re-proposer** (décision Hakim 18/08/2026) | Distinct de `perche télescopique vitres` (STOP 01/08). Preuves vues : monrobotlavevitre.fr, zenvitre.fr, v3clean.fr |
 
 ## Candidats V2 — validés SEMrush le 17 juillet 2026
 

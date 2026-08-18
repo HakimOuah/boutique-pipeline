@@ -1,13 +1,13 @@
 # Critères canoniques de recherche produit
 
-Dernière mise à jour : 18 août 2026 (§2 : TrendTrack 5 modules = source principale 1 ; skills séparés `ideation-produit` / `recherche-mots-cles` / `sourcing-aliexpress`. 8 août 2026 : §3 « explicable-particulier », §7 chemin A mesure express.)
+Dernière mise à jour : 18 août 2026 (décision Hakim : prix de vente cible **50 à 400 € TTC**, plus de plancher high-ticket à 150 € ; TrendTrack Ads Google ≥ 30–60 j + fenêtre Q4. Skills séparés `ideation-produit` / `recherche-mots-cles` / `sourcing-aliexpress`. 8 août 2026 : §3 « explicable-particulier », §7 chemin A mesure express.)
 
 Ce document est le référentiel à appliquer à toutes les nouvelles recherches produit du pipeline.
 
 ## 1. Périmètre commercial
 
 - Marché prioritaire : France. Royaume-Uni et Allemagne dans un second temps.
-- Prix de vente cible : 150 à 400 € TTC.
+- Prix de vente cible : 50 à 400 € TTC (plancher relevé de 150 € à 50 € le 18/08/2026 — on ne se limite plus au high-ticket).
 - Acquisition initiale : Google Ads Search. Shopping/Merchant Center seulement après validation.
 - Boutique de niche avec un produit phare et des produits complémentaires.
 - Seuil éliminatoire : au moins 10 000 recherches mensuelles pertinentes en France pour le cluster réellement adressable.
@@ -15,11 +15,11 @@ Ce document est le référentiel à appliquer à toutes les nouvelles recherches
 
 ## 2. Sources d'idées
 
-**Source principale 1 depuis le 18 août 2026 : TrendTrack**, 5 modules d'idéation et d'arbitrage (Early Market, Marketproof & Pivot, Temps Réel / Pages, Saisonnalité, Rétro-ingénierie des Angles). Recette et filtres : skill `ideation-produit`. Objectif : capter une intention déjà payée ailleurs et l'importer sur le marché FR en Google Ads Search. Mesure = skill `recherche-mots-cles`. Fournisseur = skill `sourcing-aliexpress`, uniquement après verdict marché écrit.
+**Source principale 1 depuis le 18 août 2026 : TrendTrack**, 5 modules d'idéation et d'arbitrage (Early Market, Marketproof & Pivot, Temps Réel / Pages, Saisonnalité, Rétro-ingénierie des Angles) **plus la bibliothèque Google Ads** (Ads → direction Google, pubs actives depuis au moins 30–60 jours, et fenêtre de dates type dernier Q4). Recette et filtres : skill `ideation-produit`. Objectif : capter une intention déjà payée ailleurs et l'importer sur le marché FR en Google Ads Search. Mesure = skill `recherche-mots-cles`. Fournisseur = skill `sourcing-aliexpress`, uniquement après verdict marché écrit.
 
 **Source principale 2 :** Amazon, VEVOR, Flippa, Europages, balayage familles.
 
-**Brand Search reste une méthode valide** (connecté en MCP) : boutiques d'origine France, 0 publicité Meta active, au moins 1 publicité Google, prix moyen ≥ ~130 $, triées par volume d'annonces Google. Chaque idée extraite est adossée à une boutique preuve. L'agent `mineur-brandsearch` applique cette recette et le §3 dès l'extraction. Ce n'est plus la source unique. Les visites Brand Search ne sont pas fiables et ne fondent jamais un verdict.
+**Brand Search reste une méthode valide** (connecté en MCP) : boutiques d'origine France, 0 publicité Meta active, au moins 1 publicité Google, prix moyen ≥ ~50 $ (proxy de la tranche 50–400 €), triées par volume d'annonces Google. Chaque idée extraite est adossée à une boutique preuve. L'agent `mineur-brandsearch` applique cette recette et le §3 dès l'extraction. Ce n'est plus la source unique. Les visites Brand Search ne sont pas fiables et ne fondent jamais un verdict.
 
 L'exploration s'élargit ensuite par **SEMrush lui-même** : les sous-groupes du Keyword Magic Tool révèlent les sous-niches autour de chaque idée mesurée, et les associations d'idées (une boutique d'étanchéité → béton ciré → rénovation décorative) alimentent des idées latérales qui suivent la même chaîne complète.
 
@@ -127,8 +127,8 @@ Bilan du 20/07/2026 (7 familles balayées) : le chemin B élimine bien les morts
 ### Étapes communes aux deux chemins
 
 4. Analyse Google Search, Shopping, publicités, concurrents et prix — **le nettoyage SERP est obligatoire quel que soit le chemin.** Un volume mesuré à l'outil n'est jamais un volume adressable tant que la SERP n'a pas été lue.
-5. Vérification du mode économique : capacité à défendre une offre entre 150 et
-   400 EUR en high-ticket, ou panier/marge potentiels crédibles en
+5. Vérification du mode économique : capacité à défendre une offre entre 50 et
+   400 EUR, ou panier/marge potentiels crédibles en
    `catalogue-volume`.
 6. Sourcing exclusivement sur AliExpress.
 7. Contrôle fournisseur, coût rendu, logistique, conformité et marge.
