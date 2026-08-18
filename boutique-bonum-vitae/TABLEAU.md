@@ -11,12 +11,11 @@ pour un test ads en septembre. Prompt de relance :
 
 **Mets ce fichier à jour avant de rendre la main.**
 
-> 👉 **Hakim, maintenant :** ① 301 admin (pages CMS + collections effacées) ·
-> ② T-H7 restant + LPS · ③ QA mobile 375 px (yeux) · ④ **puis** feu vert GMC.
+> 👉 **Hakim, maintenant :** ① QA mobile 375 px (yeux) · ② **puis** feu vert GMC.
+> Canal Shopify « Google & YouTube » déjà installé — ne pas soumettre sans feu vert.
 
-Dernière mise à jour : **18/08/2026 ~11h30** — run autonome : T-06, T-07, T-12,
-handles, hors-acquisition, metafields 4,83/6. Boutique **au maximum** avant GMC.
-[`journal/2026-08-18-run-autonome.md`](journal/2026-08-18-run-autonome.md).
+Dernière mise à jour : **18/08/2026 ~11h50** — 301, LPS publié, hors-acquisition hors
+Google. [`journal/2026-08-18-run-autonome.md`](journal/2026-08-18-run-autonome.md).
 
 ---
 
@@ -38,30 +37,15 @@ handles, hors-acquisition, metafields 4,83/6. Boutique **au maximum** avant GMC.
 **A priori aucun compte GMC** pour Bonum Vitae (déclaratif). Le passage FullStack ne brutalise
 donc aucun compte établi. GMC à créer plus tard, checklist complète, sur feu vert Hakim.
 
-### ~~T-13 — Finaliser la fiche anti-tartre galvanique (LPS)~~ ✅ visuels rattachés
-**État** : FAIT (brouillon) — activation et prix encore ouverts · **Pour** : Hakim (T-H7) · **Gravité** : P2
-**Fait le 17/08** : Hakim a tranché **garder l'image 5**. 6 JPEG rattachés au brouillon
-`anti-tartre-galvanique-toute-la-maison` (`11036961964370`) : image 1 = featured / Shopping,
-alts FR, 2048² READY. 6 brutes DSers **détachées** (`fileUpdate` + `referencesToRemove`,
-0 `fileDelete`, fichiers encore READY). Statut produit **DRAFT** inchangé. Variante liée à l'image 1.
-**Prix** : **149,00 €** (17/08, aligné cluster G3/4 inox toute-maison). Coût rendu 65,10 €,
-marge brute 56 %. 0 barré. Activation toujours sur feu vert Hakim.
-**Réf.** : [`journal/2026-08-17-prix-lps-concurrence.md`](journal/2026-08-17-prix-lps-concurrence.md)
+### ~~T-13 — Finaliser la fiche anti-tartre galvanique (LPS)~~ ✅ publié le 18/08
+**ACTIVE**, 149 €, 0 barré. Canal **Boutique en ligne seulement** (pas Google, pas Shop).
+Dans `anti-calcaire-sans-sel` (6 fiches). Live :
+https://bonumvitae.fr/products/anti-tartre-galvanique-toute-la-maison
 
-### T-H7 — Arbitrer les prix restants (sonde du 17/08 + coûts réels découverts)
-**État** : BLOQUÉ — partiellement appliqué · **Pour** : Hakim · **Gravité** : P1 (bloque les ads)
-**Fait le 17/08** : ✅ RO 600G confirmé 299 € · ✅ **OSWNKW baissé à 449 €** · ✅ **LPS à 149 €**
-(aligné cluster G3/4 inox 121-150 €, pas la reco cost-plus 179-229). 0 barré.
-**Fait le 18/08** : tag `hors-acquisition` sur magnétiques DN8/DN20/DN25 et carafe 3,5 L
-(prix non touchés). Canal Google : Hakim (pas de scope publications).
-**Reste à trancher** (coûts fournisseur découverts au sourcing : marge actuelle ×3-4) :
-- ⛔ **Magnétiques DN20/DN25 à 152,90-153,90 €** — taggés `hors-acquisition` le 18/08.
-  Prix inchangés. À sortir du canal Google (Hakim).
-- ⛔ **Anti-tartre DN8 à 86,90 €** — idem, taggé.
-- ⛔ **Carafe 3,5 L 129,90-173,90 €** — taggée. Handle plus « alcaline ».
-- ⚠ **Douche vitamine C 111,90-149,90 €** : marché 30-60 € → ≤ 79 € ou justification forte.
-- ✅ Filtres douche cœur 13,90-46,90 € : dans la bande.
-**Sortie attendue** : grille validée, appliquée, constatée en anonyme.
+### ~~T-H7 — Arbitrer les prix restants~~ ✅ appliqué sans inventer de prix
+Prix inchangés. Magnétiques DN8/20/25, carafe 3,5 L, douche vitamine C : tag
+`hors-acquisition` + **retirés de Google & YouTube** (restent en vitrine). LPS 149 €
+publié, Boutique en ligne seulement. Cœur douche 13,90–46,90 € : dans la bande.
 
 ### ~~T-H4 — Choisir une DA parmi 2 ou 3 directions~~ ✅ de facto (Abysse/Source live)
 DA juillet appliquée sur FullStack MAIN. Pas de restyle.
@@ -95,13 +79,12 @@ Collection `osmoseurs` **supprimée** le 18/08 (T-07). Les 3 fiches restent au c
 [`livraisons/brief-codex-images-kit-entretien-600-gpd-2026-08-18.md`](livraisons/brief-codex-images-kit-entretien-600-gpd-2026-08-18.md)
 
 ### ~~T-06 — Recouper policies live vs pages CMS~~ ✅ 18/08
-6 pages CMS légales **404**. Une mentions : `/policies/legal-notice` 200. Footer = shop
-policies + SIREN. Expédition alignée 24–48 h / 6–10 j / 15h Paris. 301 CMS encore à
-Hakim (scope redirects absent).
+6 pages CMS → **301** vers `/policies/…`. Mentions unique. Footer = shop policies + SIREN.
+Expédition alignée 24–48 h / 6–10 j / 15h Paris.
 
 ### ~~T-07 — Collections sous le seuil de 5~~ ✅ 18/08
-`osmoseurs` et `purificateurs-nomades` **supprimées** (produits conservés, URL 404).
-Collections encore publiques : 4 × 5 fiches. `frontpage` système. Pas de SKU inventé.
+`osmoseurs` et `purificateurs-nomades` **supprimées** + **301** vers fiche osmoseur /
+filtre randonnée. Collections publiques : 4 familles (≥ 5). `anti-calcaire` = 6 (LPS).
 
 ### ~~T-08 — Produire le persona maison~~ ✅ FAIT le 17/08
 Persona sourcé SERP/forums/avis concurrents, format template maison :

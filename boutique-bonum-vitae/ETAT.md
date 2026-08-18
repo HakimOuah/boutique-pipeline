@@ -1,8 +1,8 @@
 # Bonum Vitae — état courant
 
-**Dernière mise à jour : 18/08/2026 ~11h30** — run autonome tickets. FullStack
-`205568147794` est **MAIN**. [`TABLEAU.md`](TABLEAU.md) ·
-[`journal/2026-08-18-run-autonome.md`](journal/2026-08-18-run-autonome.md).
+**Dernière mise à jour : 18/08/2026 ~11h50** — 301 posés, LPS publié, hors-acquisition
+hors Google. [`TABLEAU.md`](TABLEAU.md) ·
+[`journal/2026-08-18-cli-redirects-lps.md`](journal/2026-08-18-cli-redirects-lps.md).
 
 ---
 
@@ -19,7 +19,7 @@
 | Raison sociale au footer | ✅ OH VENTURES (SASU) — SIREN 103157251 |
 | Devise | EUR seul, livraison FR seule |
 | Persona | ✅ validé par Hakim le 17/08 — `../personas/persona-bonum-vitae-2026-08-17.md` |
-| Auth CLI | ✅ `contact@bonumvitae.fr`. Scopes : products, files, themes, content, pages, legal_policies. **Pas `read_publications` / navigation / redirects** |
+| Auth CLI | ✅ `contact@bonumvitae.fr`. Scopes 18/08 ~11h45 : products, files, themes, content, pages, legal_policies, **navigation, publications** |
 
 **Adresse et téléphone partagés avec Bien Brûlé, Tuftéo et Maison Noirmont** (linkage assumé,
 16/08).
@@ -39,21 +39,22 @@
 
 ## Catalogue (constaté API 18/08)
 
-**28 produits** : **24 ACTIVE** publics, **4 DRAFT** (LPS, SHUANGLI, OSWNKW compact,
-membrane 50 GPD). Kit entretien 600 GPD **publié**.
+**28 produits** : **25 ACTIVE** publics (LPS publié le 18/08), **3 DRAFT** (SHUANGLI,
+OSWNKW compact, membrane 50 GPD). Kit + LPS : Boutique en ligne seulement.
 
 - **0 `compareAtPrice` non nul**
-- Tag `hors-acquisition` : magnétiques DN8/DN20/DN25 + carafe 3,5 L
-- Handles claims retirés : pommeau (plus `eau-adoucie`), carafe (plus `alcaline`) — 301 auto
-- Metafields faux avis `reviews` / `vstar` 4,83/6 sur RO 600G **supprimés** (18/08 ~11h25)
+- Tag `hors-acquisition` + **hors Google** : magnétiques DN8/DN20/DN25, carafe 3,5 L, douche vitamine C
+- Handles claims retirés : pommeau / carafe — 301 auto
+- Metafields faux avis `reviews` / `vstar` 4,83/6 sur RO 600G **supprimés** (toujours absents)
 
 ### Collections publiques
 
 | Collection | Produits | Seuil de 5 |
 |---|---|---|
-| `filtres-de-douche` / `carafes-filtrantes` / `filtres-robinet` / `anti-calcaire-sans-sel` | 5 | ✅ |
-| `osmoseurs` | **supprimée** (18/08) | ✅ 404 |
-| `purificateurs-nomades` | **supprimée** (18/08) | ✅ 404 |
+| `filtres-de-douche` / `carafes-filtrantes` / `filtres-robinet` | 5 | ✅ |
+| `anti-calcaire-sans-sel` | **6** (LPS ajouté) | ✅ |
+| `osmoseurs` | **supprimée** + 301 → RO 600G | ✅ |
+| `purificateurs-nomades` | **supprimée** + 301 → filtre randonnée | ✅ |
 | `frontpage` | 1 | système, hors nav |
 
 ---
@@ -70,7 +71,7 @@ membrane 50 GPD). Kit entretien 600 GPD **publié**.
 | P1 | Hero « sans travaux ni plombier » | ✅ absent du FullStack live |
 | P1 | Newsletter « -10 % » | ✅ absente |
 | P1 | FAQ 24-48 h / 6-10 j vs policies | ✅ aligné (plus de « 5 et 9 ») |
-| P1 | Doublon mentions légales | ✅ CMS 404 / policy 200 |
+| P1 | Doublon mentions légales | ✅ CMS **301** → `/policies/legal-notice` |
 | P1 | Footer sans raison sociale | ✅ SIREN live |
 | P1 | Collections < 5 | ✅ les deux petites supprimées |
 | P1 | Handle `…eau-adoucie` | ✅ renommé + 301 |
@@ -79,10 +80,12 @@ membrane 50 GPD). Kit entretien 600 GPD **publié**.
 
 ## Merchant Center
 
-**A priori aucun compte** (Hakim, 17/08, déclaratif). Le GMC se créera après boutique propre,
-checklist complète, feu vert Hakim. Ne pas créer, ne pas soumettre.
+**A priori aucun compte GMC** (Hakim, 17/08, déclaratif). En revanche le canal Shopify
+**Google & YouTube** (`Publication/357118574930`) est **installé** — des fiches y étaient
+déjà poussées. 5 SKU hors-acquisition en ont été retirés le 18/08. Ne pas créer / soumettre
+un GMC sans feu vert Hakim.
 
-Avant création, encore Hakim : 301 CMS/collections, Vitals, T-H7 restant, QA 375 px.
+Avant soumission : QA 375 px (yeux) + vérifier que Vitals ne réécrit pas de notes.
 
 ---
 
@@ -90,5 +93,5 @@ Avant création, encore Hakim : 301 CMS/collections, Vitals, T-H7 restant, QA 37
 
 - Apps installées / GMC (scope)
 - Moyens de paiement réellement actifs vs icônes footer
-- 301 (scope redirects) — pages CMS et collections mortes sont en **404**
+- 301 : **faits** (constatés, follow → policy / fiche)
 - Zoom image par image de **tout** le catalogue (échantillon 12+ featured : 0 texte incrusté)

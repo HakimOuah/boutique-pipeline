@@ -96,8 +96,9 @@ pop DIY, ni luxe montres.
 4. Ticket FAIT = URL publique (rail A) ou preview navigateur (rail B) constatée. Pas un accusé API.
 
 Auth CLI : `export PATH="/Users/Hakim/.npm-global/bin:$PATH"`. Mutations :
-`shopify store execute --allow-mutations`. Si l'auth est encore sur Noirmont / Tuftéo : device-code
-sur le compte Bonum Vitae — ne pas improviser.
+`shopify store execute --allow-mutations`. Scopes 18/08 : products, files, themes,
+content, pages, legal_policies, **navigation, publications**. Si l'auth est encore
+sur Noirmont / Tuftéo : device-code sur le compte Bonum Vitae — ne pas improviser.
 
 ---
 
