@@ -1,6 +1,6 @@
 # Critères canoniques de recherche produit
 
-Dernière mise à jour : 18 août 2026 (§2 : TrendTrack 5 modules = source principale 1 ; Amazon/VEVOR/Flippa/Europages/balayage = source principale 2 ; Brand Search reste une méthode valide, plus la source unique. Skill `recherche-produit-dossier`. 8 août 2026 : §3 « explicable-particulier », §7 chemin A mesure express.)
+Dernière mise à jour : 18 août 2026 (§2 : TrendTrack 5 modules = source principale 1 ; skills séparés `ideation-produit` / `recherche-mots-cles` / `sourcing-aliexpress`. 8 août 2026 : §3 « explicable-particulier », §7 chemin A mesure express.)
 
 Ce document est le référentiel à appliquer à toutes les nouvelles recherches produit du pipeline.
 
@@ -15,7 +15,7 @@ Ce document est le référentiel à appliquer à toutes les nouvelles recherches
 
 ## 2. Sources d'idées
 
-**Source principale 1 depuis le 18 août 2026 : TrendTrack**, 5 modules d'idéation et d'arbitrage (Early Market, Marketproof & Pivot, Temps Réel / Pages, Saisonnalité, Rétro-ingénierie des Angles). Recette et filtres : skill `recherche-produit-dossier`. Objectif : capter une intention déjà payée ailleurs et l'importer sur le marché FR en Google Ads Search.
+**Source principale 1 depuis le 18 août 2026 : TrendTrack**, 5 modules d'idéation et d'arbitrage (Early Market, Marketproof & Pivot, Temps Réel / Pages, Saisonnalité, Rétro-ingénierie des Angles). Recette et filtres : skill `ideation-produit`. Objectif : capter une intention déjà payée ailleurs et l'importer sur le marché FR en Google Ads Search. Mesure = skill `recherche-mots-cles`. Fournisseur = skill `sourcing-aliexpress`, uniquement après verdict marché écrit.
 
 **Source principale 2 :** Amazon, VEVOR, Flippa, Europages, balayage familles.
 
