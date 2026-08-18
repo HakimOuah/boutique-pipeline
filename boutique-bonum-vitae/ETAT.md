@@ -1,8 +1,8 @@
 # Bonum Vitae — état courant
 
-**Dernière mise à jour : 18/08/2026 ~11h50** — 301 posés, LPS publié, hors-acquisition
-hors Google. [`TABLEAU.md`](TABLEAU.md) ·
-[`journal/2026-08-18-cli-redirects-lps.md`](journal/2026-08-18-cli-redirects-lps.md).
+**Dernière mise à jour : 18/08/2026 ~12h00** — Vitals embed off, icônes checkout.
+[`TABLEAU.md`](TABLEAU.md) ·
+[`journal/2026-08-18-vitals-paiements.md`](journal/2026-08-18-vitals-paiements.md).
 
 ---
 
@@ -46,6 +46,8 @@ OSWNKW compact, membrane 50 GPD). Kit + LPS : Boutique en ligne seulement.
 - Tag `hors-acquisition` + **hors Google** : magnétiques DN8/DN20/DN25, carafe 3,5 L, douche vitamine C
 - Handles claims retirés : pommeau / carafe — 301 auto
 - Metafields faux avis `reviews` / `vstar` 4,83/6 sur RO 600G **supprimés** (toujours absents)
+- Embed Vitals **disabled** dans `settings_data.json` (constaté : plus de `vtlsAebData` sur le live)
+- Icônes paiement live = Visa / Mastercard / Amex / Apple Pay / Google Pay / PayPal / Shop Pay / Klarna (Klarna + Amex **actifs au checkout**)
 
 ### Collections publiques
 
@@ -65,7 +67,7 @@ OSWNKW compact, membrane 50 GPD). Kit + LPS : Boutique en ligne seulement.
 |---|---|---|
 | P0 | 3 faux avis « Vérifié » | ✅ retirés |
 | P0 | « 4.8/5 · 312 avis vérifiés » | ✅ retiré |
-| P0 | Metafields 4,83/6 (Vitals) sur RO 600G | ✅ purgés — surveiller réécriture app |
+| P0 | Metafields 4,83/6 (Vitals) sur RO 600G | ✅ purgés · embed app **coupé** |
 | P0 | Prix barrés | ✅ 0 au catalogue |
 | P1 | Bandeau « -20% osmoseurs » | ✅ retiré |
 | P1 | Hero « sans travaux ni plombier » | ✅ absent du FullStack live |
@@ -85,13 +87,17 @@ OSWNKW compact, membrane 50 GPD). Kit + LPS : Boutique en ligne seulement.
 déjà poussées. 5 SKU hors-acquisition en ont été retirés le 18/08. Ne pas créer / soumettre
 un GMC sans feu vert Hakim.
 
-Avant soumission : QA 375 px (yeux) + vérifier que Vitals ne réécrit pas de notes.
+Avant soumission : QA 375 px (yeux). Vitals : embed coupé ; l'app reste installée
+(peut encore écrire des metafields — à désinstaller si les notes reviennent).
 
 ---
 
 ## Ce que je n'ai pas pu vérifier
 
-- Apps installées / GMC (scope)
-- Moyens de paiement réellement actifs vs icônes footer
+- Apps installées / désinstall (scope `read_apps` toujours absent)
+- Checkout : **lu** (panier test, pas de commande) — Shopify Payments
+  (Visa, MC, Amex, CB, Maestro) + Apple Pay + PayPal + Klarna. Pas d'icône CB
+  dans FullStack. Maestro laissé masqué au footer.
 - 301 : **faits** (constatés, follow → policy / fiche)
 - Zoom image par image de **tout** le catalogue (échantillon 12+ featured : 0 texte incrusté)
+- QA visuelle 375 px (yeux) — sticky ATC présent dans le HTML, date JS 6–10 j / 15 h

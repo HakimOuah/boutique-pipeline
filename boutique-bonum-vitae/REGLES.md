@@ -56,6 +56,7 @@ pop DIY, ni luxe montres.
   pas de « Vérifié », pas de compteur. **Y compris les notes AliExpress collées dans une
   description** (payé le 17/08 : 4,9/5 et « 1 450 avis » sur 5 fiches) **et les metafields
   `reviews` / `vstar` d'une app** (payé le 18/08 : 4,83/6 sur le RO 600G via Vitals).
+  Embed Vitals **désactivé** le 18/08 midi (`settings_data` blocks). L'app reste installée.
 - **Copy produit :** pas de formule unique sur tout le catalogue (« Ce que ça change au
   quotidien », scène → triple, closer d'urgence). Titre Shopping = type + spec, mot-clé d'abord.
 - **Anti-calcaire magnétique / électronique :** jamais « adoucit l'eau / élimine le calcaire /
