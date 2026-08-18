@@ -129,6 +129,7 @@ Les 6 politiques datées servent **15 août 2026** en live. 0 « 10 août 2026 �
 ### ~~T-61 — Audit GMC Terry (live, 17/08)~~ ✅ FAIT
 **État** : FAIT · **Pour** : Claude · **Demandé par Hakim le 17/08**
 **Verdict** : ⛔ **PAS PRÊT à créer ni à soumettre un GMC.** Storefront : les 6 contradictions du 15/08 sont soldées. Restent le red flag collections < 5 (accepté), Présidentiel (arbitrage A), T-36, domaine 24 jours, et l'ordre Tuftéo 30 jours d'abord.
+**18/08** : Hakim pose quand même l'app Google & YouTube (Workspace, zéro ad). Le verdict Terry reste vrai comme photographie du 17/08 ; le compte existe désormais. On protège, on ne recrée pas. [`journal/2026-08-18-gmc-app.md`](journal/2026-08-18-gmc-app.md).
 **Réf.** : [`journal/2026-08-17-audit-gmc-terry.md`](journal/2026-08-17-audit-gmc-terry.md)
 
 ### ~~T-52 — Régler « Paiement en 4 fois » dans le bandeau des fiches~~ ✅ FAIT le 17/08 (relevé live)
