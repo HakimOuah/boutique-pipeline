@@ -1,8 +1,8 @@
 # Bonum Vitae — état courant
 
-**Dernière mise à jour : 18/08/2026 ~12h15** — Vitals désinstallée.
+**Dernière mise à jour : 18/08/2026 ~12h30** — GMC `5825588636` constaté.
 [`TABLEAU.md`](TABLEAU.md) ·
-[`journal/2026-08-18-vitals-paiements.md`](journal/2026-08-18-vitals-paiements.md).
+[`journal/2026-08-18-gmc-existant.md`](journal/2026-08-18-gmc-existant.md).
 
 ---
 
@@ -83,13 +83,18 @@ OSWNKW compact, membrane 50 GPD). Kit + LPS : Boutique en ligne seulement.
 
 ## Merchant Center
 
-**A priori aucun compte GMC** (Hakim, 17/08, déclaratif). En revanche le canal Shopify
-**Google & YouTube** (`Publication/357118574930`) est **installé** — des fiches y étaient
-déjà poussées. 5 SKU hors-acquisition en ont été retirés le 18/08. Ne pas créer / soumettre
-un GMC sans feu vert Hakim.
+**Compte existant :** Bonum Vitae **`5825588636`** (Hakim, capture 18/08).
+Pas le compte suspendu de juin (`5806019978`). Produits **acceptés depuis ~7/08**
+(courbe 28 j : limités → approuvés). 9 notifications non lues au moment de la
+capture. **Ne pas créer / soumettre un autre GMC.**
 
-Avant soumission : QA 375 px (yeux). Vitals désinstallée. Reste
-`CWILL(Trustoo) Reviews` — même famille de risque (avis).
+Feed Shopify = canal **Google & YouTube** (`Publication/357118574930`).
+Constaté API 18/08 : **18 ACTIVE** dessus, **10 hors** (5 hors-acquisition + LPS
++ kit + 3 brouillons). Le 6/08 GMC affichait **95** items — écart à recouper
+dans le compte (variantes / reliquats), pas depuis Shopify.
+
+Thème FullStack publié le 18/08 = changement brutal sur un GMC déjà en
+fenêtre 30 j. Calme côté feed / policies GMC sauf mismatch.
 
 ---
 

@@ -36,7 +36,9 @@ pop DIY, ni luxe montres.
 - **Ne jamais `switch-shop`** sur le connecteur Shopify MCP.
 - Toujours `--store kw7vak-g0.myshopify.com`.
 - **Jamais `fileDelete`** sur un média produit. Détacher via `fileUpdate` + `referencesToRemove`.
-- Aucune commande, aucun achat, aucun paiement. Pas de Google Ads / GMC sauf ticket explicite.
+- Aucune commande, aucun achat, aucun paiement. Pas de Google Ads. **GMC Bonum
+  Vitae `5825588636` existe** (approuvé ~7/08) — ne pas en créer un second, ne
+  pas redemander de review, ne pas y écrire sans ticket.
 - **Policies jamais identiques mot pour mot** avec Tuftéo, Noirmont ou Bien Brûlé.
 - Secrets, `.env`, `node_modules/`, `scratchpad/`, `settings.local.json` : hors git.
 - Slider et avis de démo FullStack : chasse gardée de Hakim — proposer, ne jamais publier.

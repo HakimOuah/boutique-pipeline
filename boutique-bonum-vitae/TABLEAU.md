@@ -11,11 +11,12 @@ pour un test ads en septembre. Prompt de relance :
 
 **Mets ce fichier à jour avant de rendre la main.**
 
-> 👉 **Hakim, maintenant :** ① QA mobile 375 px (yeux) · ② **puis** feu vert GMC.
-> Canal Shopify « Google & YouTube » déjà installé — ne pas soumettre sans feu vert.
+> 👉 **Hakim, maintenant :** ① QA mobile 375 px (yeux) · ② ouvrir les **9 notifs GMC**
+> et ne **pas** créer un second compte. GMC **5825588636** existe, produits
+> acceptés depuis ~7/08. [`journal/2026-08-18-gmc-existant.md`](journal/2026-08-18-gmc-existant.md).
 
-Dernière mise à jour : **18/08/2026 ~12h15** — **Vitals désinstallée**. Storefront
-sans script Vitals. [`journal/2026-08-18-vitals-paiements.md`](journal/2026-08-18-vitals-paiements.md).
+Dernière mise à jour : **18/08/2026 ~12h30** — GMC Bonum Vitae constaté
+(`5825588636`). Vitals déjà désinstallée.
 
 ---
 
@@ -23,7 +24,7 @@ sans script Vitals. [`journal/2026-08-18-vitals-paiements.md`](journal/2026-08-1
 
 1. **Les P0 de juin sont retirés du live depuis le 17/08 au soir** — plus de faux avis, plus de
    compteur, plus de barrés, plus de -20 %. La boutique n'expose plus l'entité sur ces
-   déclencheurs ; restent les P1 (T-06, T-07) et l'inconnu GMC.
+   déclencheurs. GMC **5825588636** existe et approuve depuis ~7/08 — ne pas en créer un autre.
 2. **On ne touche ni Tuftéo ni Noirmont.** On écrit seulement sur `kw7vak-g0.myshopify.com`.
    MAIN Horizon : rail A uniquement. FullStack (`205568147794`) : copie UNPUBLISHED, Hakim publie.
 3. **Persona puis DA puis thème.** Pas de copy, pas de direction artistique, pas de montage
@@ -33,9 +34,15 @@ sans script Vitals. [`journal/2026-08-18-vitals-paiements.md`](journal/2026-08-1
 
 ## 🔴 BLOQUÉ — attend Hakim
 
-### ~~T-H6 — Dire si un GMC existe~~ ✅ répondu le 17/08 (Hakim)
-**A priori aucun compte GMC** pour Bonum Vitae (déclaratif). Le passage FullStack ne brutalise
-donc aucun compte établi. GMC à créer plus tard, checklist complète, sur feu vert Hakim.
+### ~~T-H6 — Dire si un GMC existe~~ ✅ corrigé le 18/08 (Hakim + capture)
+Le 17/08 : « a priori aucun » (déclaratif). **Faux.** Compte **Bonum Vitae
+`5825588636`**, distinct du GMC suspendu juin (`5806019978`). Capture 18/08 :
+produits **approuvés depuis ~7/08** (avant : ~85 limités / 10 approuvés, pic
+95 items le 6/08). Canal Shopify Google & YouTube = le feed. **Ne pas créer
+un second GMC. Ne pas redemander de review.**
+Shopify pousse aujourd'hui **18 ACTIVE** vers ce canal (hors-acquisition, LPS
+et kit volontairement hors Google). L'écart 95 vs 18 = vieux items / variantes
+à recouper dans GMC, pas à réuploader.
 
 ### ~~T-13 — Finaliser la fiche anti-tartre galvanique (LPS)~~ ✅ publié le 18/08
 **ACTIVE**, 149 €, 0 barré. Canal **Boutique en ligne seulement** (pas Google, pas Shop).
