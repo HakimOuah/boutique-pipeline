@@ -1,25 +1,25 @@
 # Critères canoniques de recherche produit
 
-Dernière mise à jour : 18 août 2026 (décision Hakim : prix de vente cible **50 à 400 € TTC**, plus de plancher high-ticket à 150 € ; TrendTrack Ads Google ≥ 30–60 j + fenêtre Q4. Skills séparés `ideation-produit` / `recherche-mots-cles` / `sourcing-aliexpress`. 8 août 2026 : §3 « explicable-particulier », §7 chemin A mesure express.)
+Dernière mise à jour : 19 août 2026 (deux modes **PRODUIT PUR** / **UNIVERS** ; Brand Search remplacé par TrendTrack ; Search ≠ Shopping. 18/08 : plancher 50–400 €. Skills `ideation-produit` / `recherche-mots-cles` / `sourcing-aliexpress`.)
 
 Ce document est le référentiel à appliquer à toutes les nouvelles recherches produit du pipeline.
 
 ## 1. Périmètre commercial
 
 - Marché prioritaire : France. Royaume-Uni et Allemagne dans un second temps.
-- Prix de vente cible : 50 à 400 € TTC (plancher relevé de 150 € à 50 € le 18/08/2026 — on ne se limite plus au high-ticket).
-- Acquisition initiale : Google Ads Search. Shopping/Merchant Center seulement après validation.
-- Boutique de niche avec un produit phare et des produits complémentaires.
-- Seuil éliminatoire : au moins 10 000 recherches mensuelles pertinentes en France pour le cluster réellement adressable.
-- Ne jamais gonfler le volume avec des requêtes informationnelles hors produit, des prestations, des accessoires incompatibles, des marques concurrentes ou du low-ticket non comparable.
+- Prix de vente cible : 50 à 400 € TTC. Un gadget drop 15–20 € n'est pas un candidat.
+- **Deux modes, choisis en phase 0, jamais mélangés :**
+  - **PRODUIT PUR** (ex. osmoseur) : un phare + complémentaires, Search pédagogique. Seuil : cluster adressable de l'ordre de **10 000**/mois ; un 9 900 passe (cas d'école Bonum Vitae). Shopping après validation.
+  - **UNIVERS** (ex. gothique, montres, sacs) : dizaines de collections, Shopping visuel. Seuil : volume **consolidé par familles** qu'une même boutique servirait — plancher Kraken **30 000** boutique (confort 40 000). Une tête seule ne mesure pas un univers (leçon 08/08, ×2 à ×6).
+- Ne jamais gonfler le volume avec des requêtes informationnelles hors produit, des prestations, des accessoires incompatibles, des marques concurrentes ou du low-ticket non comparable. En UNIVERS, additionner des collections d'un même catalogue n'est pas du gonflage.
 
 ## 2. Sources d'idées
 
-**Source principale 1 depuis le 18 août 2026 : TrendTrack**, 5 modules d'idéation et d'arbitrage (Early Market, Marketproof & Pivot, Temps Réel / Pages, Saisonnalité, Rétro-ingénierie des Angles) **plus la bibliothèque Google Ads** (Ads → direction Google, pubs actives depuis au moins 30–60 jours, et fenêtre de dates type dernier Q4). Recette et filtres : skill `ideation-produit`. Objectif : capter une intention déjà payée ailleurs et l'importer sur le marché FR en Google Ads Search. Mesure = skill `recherche-mots-cles`. Fournisseur = skill `sourcing-aliexpress`, uniquement après verdict marché écrit.
+**Source principale depuis le 19 août 2026 : TrendTrack seulement** (Google Ads Search ou Shopping selon le mode, shops, Meta/TikTok comme signal d'univers). Recette : skill `ideation-produit` et agent `mineur-brandsearch` (mineur TrendTrack, identifiant conservé). Mesure = `recherche-mots-cles` (y compris Google Trends). Fournisseur = `sourcing-aliexpress`, uniquement après verdict marché écrit.
 
-**Source principale 2 :** Amazon, VEVOR, Flippa, Europages, balayage familles.
+**Source secondaire :** Amazon, VEVOR, Flippa, Europages, balayage familles — sur demande.
 
-**Brand Search reste une méthode valide** (connecté en MCP) : boutiques d'origine France, 0 publicité Meta active, au moins 1 publicité Google, prix moyen ≥ ~50 $ (proxy de la tranche 50–400 €), triées par volume d'annonces Google. Chaque idée extraite est adossée à une boutique preuve. L'agent `mineur-brandsearch` applique cette recette et le §3 dès l'extraction. Ce n'est plus la source unique. Les visites Brand Search ne sont pas fiables et ne fondent jamais un verdict.
+**Brand Search n'est plus une source** (décision Hakim 19/08/2026 : TrendTrack fait le même travail). Les rapports historiques « vague Brand Search » restent de l'anti-doublon. Les visites Brand Search n'ont jamais fondé un verdict.
 
 L'exploration s'élargit ensuite par **SEMrush lui-même** : les sous-groupes du Keyword Magic Tool révèlent les sous-niches autour de chaque idée mesurée, et les associations d'idées (une boutique d'étanchéité → béton ciré → rénovation décorative) alimentent des idées latérales qui suivent la même chaîne complète.
 
@@ -27,7 +27,7 @@ Ces sources servent uniquement à trouver et valider des idées. **Le fournisseu
 
 ## 3. Profils de produits recherchés
 
-**Cible : le particulier, toujours.** Précision du 20 juillet 2026, tirée du bilan des balayages 1-4 : le levier gagnant n'est pas « produit technique » mais **« produit explicable au particulier »** — un particulier face à un choix qu'il ne maîtrise pas (osmoseur, fontaine à gravité, tufting), ce qui justifie une boutique spécialisée pédagogique. Ne pas confondre avec le technique-pro (poste à souder, plieuse, presse), où l'acheteur est expert, fidèle aux marques prescriptrices, et où le parcours d'achat (comparaison, devis, facture pro) ne correspond pas au modèle Search → fiche produit.
+**Cible : le particulier, toujours.** Le levier n'est pas « anti-technique » : un produit **technique-particulier** (osmoseur) se vend en Search. Le STOP, c'est le **technique-pro** (poste à souder, plieuse, presse) — acheteur expert, devis, facture pro. Cas d'école : plieuse zinc.
 
 **Signal d'exclusion — persona professionnel** : un vocabulaire de métier dans le cluster (nom de profession, chantier, devis, location, occasion massive, formation) indique un acheteur pro. C'est un motif d'exclusion ou de vivier, pas de poursuite. Cas d'école documenté : la plieuse zinc (vocabulaire de couvreur — chantier, location, « parisienne ») a coûté une chaîne complète avant que ce signal soit lu.
 
@@ -50,7 +50,7 @@ Pour le sommeil et le bien-être, parler de confort et d'environnement. Écarter
 - Le produit ne doit pas être un produit banal que le client peut acheter facilement en grande surface.
 - Rejeter les produits dominés par IKEA, BUT, Conforama, JYSK, Maisons du Monde, Leroy Merlin, Darty, Decathlon, Lidl ou des équivalents généralistes.
 - Rejeter les marchés où l'offre est immédiatement comparable uniquement sur le prix.
-- Rejeter les catégories dominées par quelques marques incontournables si une offre générique ne peut pas être défendue.
+- **PRODUIT PUR :** rejeter les catégories dominées par quelques marques si une offre générique n'est pas défendable. **UNIVERS :** s'inspirer d'une marque / d'un spécialiste déjà en place est une preuve, pas un STOP. Occupation = densité + GSB + absence d'espace, pas le premier concurrent.
 - Une matière comme le rotin ne suffit pas : forme, usage, modularité ou positionnement doivent être distinctifs.
 
 Exclusions explicites : bureaux assis-debout, chaises gaming, tables basses génériques, canapés standards et meubles courants sans usage différencié.
@@ -84,14 +84,14 @@ Un produit isolé peut rester candidat s'il surperforme clairement sur tous les 
 
 ## 7. Ordre obligatoire du pipeline
 
-Deux chemins d'entrée sont légitimes. Ils diffèrent uniquement par **ce qui déclenche l'étude** ; les portes à franchir sont les mêmes et aucune n'est jamais sautée.
+Deux chemins d'entrée (A idée / B balayage) et **deux modes** (PRODUIT PUR / UNIVERS). Les chemins disent d'où vient l'idée. Les **portes de volume et de canal dépendent du mode** (§1). On ne tue pas un univers avec le seuil d'un cluster, ni un osmoseur avec le plancher 30 000. Google Trends avant tout GO : platitude ~5 ans en PRODUIT PUR, socle ≥ 8 mois en UNIVERS.
 
 ### Chemin A — entrée par l'idée, avec mesure express (voie principale depuis le 20/07/2026)
 
 Utilisé pour toute idée produit, qu'elle vienne de Hakim ou d'une salve d'idéation (`/qualifie-idees`, ou `/recherche-produit` pour une recherche cadrée).
 
 1. Idée trouvée sur les sources d'inspiration ou apportée par Hakim.
-2. **Mesure express, avant tout travail qualitatif** : volume du cluster de l'idée (SEMrush France, niveaux hiérarchiques séparés) + sonde prix (Google Shopping). Une idée nettement sous le seuil meurt ici, en quelques minutes ; un ticket manifestement low-ticket part en vivier.
+2. **Mesure express, avant tout travail qualitatif.** PRODUIT PUR : volume du cluster (niveaux séparés) + sonde prix. UNIVERS : familles / collections à consolider, **pas une tête seule**, + sonde sur les catégories cœur. Une idée nettement sous le seuil **de son mode** meurt ici ; un ticket 15–20 € part en vivier. Google Trends dans la même passe ou juste après, avant le GO.
 3. Filtre qualitatif : banalité, valeur perçue, problème/usage, avec la fourchette de la sonde comme donnée de prix.
 
 #### Extension obligatoire en mode `catalogue-volume`
@@ -134,17 +134,17 @@ Bilan du 20/07/2026 (7 familles balayées) : le chemin B élimine bien les morts
 7. Contrôle fournisseur, coût rendu, logistique, conformité et marge.
 8. Classement : GO, à approfondir ou rejet documenté.
 
-### Ce qui ne change pas selon le chemin
+### Ce qui ne change pas
 
-- Le seuil de volume pertinent (§1) et tous les filtres de différenciation (§4).
-- L'interdiction de gonfler un cluster en additionnant des familles de mots-clés distinctes.
-- L'étanchéité des quatre niveaux de validation : marché → fiche AliExpress → commande test → lancement.
-- L'anti-doublon par le registre central.
+- Les filtres de différenciation GSB / banalité (§4) et le persona pro (§3).
+- L'étanchéité : marché → fiche AliExpress → commande test → lancement.
+- L'anti-doublon par le registre.
+- En PRODUIT PUR : ne pas additionner des familles distinctes (anti-exemple catio).
+- En UNIVERS : additionner les collections d'un même catalogue ; ne pas additionner un autre univers.
 
 ### Règle de lecture de la concurrence
 
-- Un concurrent qui exécute déjà le modèle visé est une validation de demande
-  et de faisabilité apparente, pas un motif d'arrêt automatique.
+- **PRODUIT PUR :** un concurrent qui tient le cluster = occupation. **UNIVERS :** un concurrent qui exécute = validation de demande.
 - Un concurrent comparable isolé n'impose pas une différenciation radicale :
   une meilleure exécution, une offre plus claire ou une faiblesse exploitable
   peuvent suffire si l'économie passe.

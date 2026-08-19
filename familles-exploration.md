@@ -1,6 +1,6 @@
 # Familles d'exploration — chasse aux clusters
 
-> **MIS DE CÔTÉ le 20 juillet 2026 (décision Hakim).** L'idéation par familles est remplacée par le **minage Brand Search** (`mineur-brandsearch`, via `/qualifie-idees`) : les idées viennent désormais de boutiques prouvées en Google Ads France, pas d'un balayage d'univers a priori. Ce fichier est conservé pour référence et pour la voie secondaire `/chasse-clusters`, qui ne s'utilise plus que sur demande explicite de Hakim.
+> **MIS DE CÔTÉ le 20 juillet 2026 (décision Hakim).** L'idéation par familles n'est plus la voie principale. Depuis le **19/08/2026** les idées viennent du **minage TrendTrack** (agent `mineur-brandsearch`, skill `ideation-produit`) : pubs / boutiques déjà en Google Ads France, mode PRODUIT PUR ou UNIVERS. Brand Search n'est plus une source. Ce fichier reste pour la voie secondaire `/chasse-clusters` (PRODUIT PUR seulement), sur demande explicite de Hakim.
 
 Ce fichier alimente l'agent `phase0-decouverte` quand le balayage par familles est demandé. C'est le **seul fichier à éditer** pour orienter la boucle : ajouter une famille, en retirer une, ou changer l'ordre de priorité.
 

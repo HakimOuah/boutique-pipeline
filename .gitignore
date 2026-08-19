@@ -35,3 +35,6 @@ __pycache__/
 
 # Brouillons de travail des agents — jamais dans git
 /boutique-seiko-mod/scratchpad/
+
+# Bruts TrendTrack (crédits API, parfois clés dans le contexte) — jamais dans git
+analyses/_tt_raw_*.json
