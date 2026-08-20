@@ -1,8 +1,6 @@
 # Catalogue Orysbain — DSers étendu — 2026-08-20
 
-**32 produits** (objectif ≥ 30). Couverture : techno (classique, smart, tactile), couleurs (blanc, chrome, noir, or, standard), formats.
-
-Prix : **189 / 199 / 229 / 249 €** selon techno/coût. Budget ads héros = prix produit.
+**32 produits** (objectif ≥ 30).
 
 | SKU | Titre | Prix | Coût AE* | Techno | Couleur | Lien |
 |---|---|---:|---:|---|---|---|
@@ -30,15 +28,13 @@ Prix : **189 / 199 / 229 / 249 €** selon techno/coût. Budget ads héros = pri
 | `ORYS-022-TAC-NOI` | Sèche-serviette électrique tactile — noir (noir) | 199 € | 52.39 | tactile | noir | [1005008985069036](https://fr.aliexpress.com/item/1005008985069036.html) |
 | `ORYS-023-TAC-OR` | Sèche-serviette électrique tactile — doré | 199 € | 48.79 | tactile | or | [1005009818576697](https://fr.aliexpress.com/item/1005009818576697.html) |
 | `ORYS-024-TAC-OR` | Sèche-serviette électrique tactile — doré (slim) | 199 € | 39.19 | tactile | or | [1005009234159087](https://fr.aliexpress.com/item/1005009234159087.html) |
-| `ORYS-025-TAC-NOI` | Sèche-serviette électrique tactile — noir (noir) | 199 € | 50.39 | tactile | noir | [1005008669057975](https://fr.aliexpress.com/item/1005008669057975.html) |
-| `ORYS-026-TAC-NOI` | Sèche-serviette électrique tactile — noir (noir) | 199 € | 50.39 | tactile | noir | [1005008704282859](https://fr.aliexpress.com/item/1005008704282859.html) |
-| `ORYS-027-TAC-NOI` | Sèche-serviette électrique tactile — noir (noir) | 199 € | 48.59 | tactile | noir | [1005009242185538](https://fr.aliexpress.com/item/1005009242185538.html) |
+| `ORYS-025-TAC-NOI` | Sèche-serviette électrique tactile — noir (noir) · 7975 | 199 € | 50.39 | tactile | noir | [1005008669057975](https://fr.aliexpress.com/item/1005008669057975.html) |
+| `ORYS-026-TAC-NOI` | Sèche-serviette électrique tactile — noir (noir) · 2859 | 199 € | 50.39 | tactile | noir | [1005008704282859](https://fr.aliexpress.com/item/1005008704282859.html) |
+| `ORYS-027-TAC-NOI` | Sèche-serviette électrique tactile — noir (noir) · 5538 | 199 € | 48.59 | tactile | noir | [1005009242185538](https://fr.aliexpress.com/item/1005009242185538.html) |
 | `ORYS-028-TAC-NOI` | Sèche-serviette électrique tactile — noir (slim) | 199 € | 47.99 | tactile | noir | [1005005453133538](https://fr.aliexpress.com/item/1005005453133538.html) |
-| `ORYS-029-TAC-NOI` | Sèche-serviette électrique tactile — noir (noir) | 199 € | 47.79 | tactile | noir | [1005009183134278](https://fr.aliexpress.com/item/1005009183134278.html) |
-| `ORYS-030-TAC-NOI` | Sèche-serviette électrique tactile — noir (noir) | 199 € | 47.19 | tactile | noir | [1005009252824844](https://fr.aliexpress.com/item/1005009252824844.html) |
-| `ORYS-031-TAC-NOI` | Sèche-serviette électrique tactile — noir (noir) | 199 € | 47.19 | tactile | noir | [1005009174278960](https://fr.aliexpress.com/item/1005009174278960.html) |
-| `ORYS-032-TAC-NOI` | Sèche-serviette électrique tactile — noir (noir) | 199 € | 58.69 | tactile | noir | [1005008107710988](https://fr.aliexpress.com/item/1005008107710988.html) |
+| `ORYS-029-TAC-NOI` | Sèche-serviette électrique tactile — noir (noir) · 4278 | 199 € | 47.79 | tactile | noir | [1005009183134278](https://fr.aliexpress.com/item/1005009183134278.html) |
+| `ORYS-030-TAC-NOI` | Sèche-serviette électrique tactile — noir (noir) · 4844 | 199 € | 47.19 | tactile | noir | [1005009252824844](https://fr.aliexpress.com/item/1005009252824844.html) |
+| `ORYS-031-TAC-NOI` | Sèche-serviette électrique tactile — noir (noir) · 8960 | 199 € | 47.19 | tactile | noir | [1005009174278960](https://fr.aliexpress.com/item/1005009174278960.html) |
+| `ORYS-032-TAC-NOI` | Sèche-serviette électrique tactile — noir (noir) · 0988 | 199 € | 58.69 | tactile | noir | [1005008107710988](https://fr.aliexpress.com/item/1005008107710988.html) |
 
-\*Prix affiché SERP (proxy), pas un `exact` panier. Reconfirmer.
-
-Descriptions HTML dans `descriptions/`. CSV : `catalogue-dsers.csv`.
+\*Proxy SERP. Descriptions dans `descriptions/`.
