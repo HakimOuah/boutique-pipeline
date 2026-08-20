@@ -22,4 +22,19 @@ Guidelines fiches : vouvoiement, bénéfice avant feature, pas de délai chiffr�
 | Orysbain | `orysbain/pages/` (INDEX + 7 fichiers) |
 | Lumière Matière | `lumierematiere/pages/` (INDEX + 7 fichiers) |
 
-Textes **distincts** entre les deux domaines. Remplacer les placeholders adresse / téléphone / SIRET / médiateur avant collage Shopify + GMC. Aligner les délais fiches produit / feed sur les chiffres de chaque `INDEX.md`.
+Textes **distincts** entre les deux domaines. Identité OH Ventures + médiateur CM2C. Aligner les délais fiches produit / feed sur les chiffres de chaque `INDEX.md`.
+
+## Visuels Codex
+
+| Fichier | Contenu |
+|---|---|
+| `BRIEF-VISUELS-CODEX-ORYSBAIN.md` | Mission Codex Orysbain (logo, home, 5 slots × 32) |
+| `BRIEF-VISUELS-CODEX-LUMIERE-MATIERE.md` | Mission Codex LM (logo, home, collections, 5 × 121) |
+| `download_ae_sources.py` | Télécharge les galeries AE → `sources-fournisseur/` |
+
+Sources locales (gitignorées, déjà téléchargées 20/08) :
+- Orysbain : **32/32**, ~195 images → `orysbain/sources-par-handle/<handle>/`
+- Lumière Matière : **121/121** → `lumierematiere/sources-par-handle/<handle>/`
+
+Livraisons Codex (gitignorées) : `<marque>/livraisons-visuels-codex/` — convention de nommage **dans les BRIEF-VISUELS-CODEX-*.md** (§6).
+
