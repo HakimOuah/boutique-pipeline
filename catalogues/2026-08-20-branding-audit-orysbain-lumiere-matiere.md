@@ -102,10 +102,7 @@ Les HTML contiennent des phrases du type :
 **Preuves :** specs (W, barres, IP), montage clair, SAV français.  
 **Non-négociables :** pas de faux avis, pas de « premium » sans matière visible, pas de fuite AliExpress.
 
-**Personas (propositions) :**
-
-1. **Léa, 34** — rénove SDB, veut du beau sans 450 €, compare Aéraly vs Amazon.  
-2. **Marc, 42** — remplace un vieux sèche, cherche W + tactile + dispo.
+**Personas :** ancrés VOC 20/08 → `2026-08-20-voc-personas-objections-orysbain-lm.md` (Léa rénovation / Marc remplacement).
 
 ### 3.2 Lumière Matière — UNIVERS
 
@@ -117,10 +114,7 @@ Les HTML contiennent des phrases du type :
 **Preuves :** photo matière + Ø + finition ; collections = matières, pas « tendances ».  
 **Non-négociables :** pas « artisanal » sans atelier ; « cristal » seulement si vrai (sinon « effet cristal ») ; pas de template unique.
 
-**Personas (propositions) :**
-
-1. **Camille, 38** — table à manger, veut une présence matière, pas un spot froid.  
-2. **Nina, 29** — premier appart, budget ~199 €, cherche un style assumé.
+**Personas :** ancrés VOC 20/08 → même fichier (Camille table / Nina premier appart).
 
 **Arbo cible (matière-first) :** Cristal & verre · Rotin & naturel · Laiton & métal · Nordique & lin · Contemporain · Appliques.
 
