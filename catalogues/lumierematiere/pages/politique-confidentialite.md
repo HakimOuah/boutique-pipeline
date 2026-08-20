@@ -4,6 +4,8 @@ Dernière mise à jour : 20 août 2026
 
 **Lumière Matière** décrit ici comment vos informations sont traitées sur [lumierematiere.fr](https://lumierematiere.fr) et lors de nos échanges. Cadre : **RGPD** et loi Informatique et Libertés.
 
+**Responsable de traitement :** OH Ventures, SASU au capital de 1 000 €, dont Lumière Matière est le nom commercial — 47 rue Vivienne, 75002 Paris, France, SIRET 10315725100010.
+
 ## Évolution du texte
 
 Cette page peut être mise à jour ; la date « Dernière mise à jour » reflète la version applicable.
@@ -14,7 +16,7 @@ Cette page peut être mise à jour ; la date « Dernière mise à jour » reflè
 
 **Automatiques :** logs techniques, IP, appareil, parcours de navigation, cookies selon consentement.
 
-**Via partenaires :** prestataire de paiement, hébergeur e-commerce, transporteur, outil d’e-mails transactionnels.
+**Via partenaires :** prestataire de paiement, hébergeur e-commerce, transporteur, outil d'e-mails transactionnels.
 
 ## Pourquoi nous les utilisons
 
@@ -47,8 +49,9 @@ Transferts éventuels vers des outils situés hors UE encadrés par des garantie
 
 ## Nous joindre
 
-- **Lumière Matière**
-- `[ADRESSE_POSTALE_LUMIERE_MATIERE]`
+- **Lumière Matière** — marque d'**OH Ventures** (SASU)
+- 47 rue Vivienne, 75002 Paris, France
+- SIRET 10315725100010 · TVA FR55103157251
 - [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr)
-- `[TELEPHONE_LUMIERE_MATIERE]`
+- +33 7 56 82 80 94
 - Lun–ven 10h00–18h00 (heure de Paris) · réponse 1–2 jours ouvrés

@@ -4,21 +4,21 @@ Dernière mise à jour : 20 août 2026
 
 ## Introduction
 
-Le site **lumierematiere.fr** est édité par `[RAISON_SOCIALE_LUMIERE_MATIERE]` (« Lumière Matière », « nous »). L’accès au site et la passation de commande impliquent l’acceptation des présentes conditions et des politiques associées (livraison, retours, confidentialité, paiement).
+Le site **lumierematiere.fr** est édité par **OH Ventures**, SASU au capital de 1 000 €, siège social 47 rue Vivienne, 75002 Paris, France — SIRET 10315725100010, TVA intracommunautaire FR55103157251. « Lumière Matière » désigne la marque et le nom commercial sous lesquels OH Ventures exploite cette boutique (« Lumière Matière », « nous »). L'accès au site et la passation de commande impliquent l'acceptation des présentes conditions et des politiques associées (livraison, retours, confidentialité, paiement).
 
-Refus des conditions = pas d’utilisation du Service.
+Refus des conditions = pas d'utilisation du Service.
 
-## 1. Conditions d’accès boutique
+## 1. Conditions d'accès boutique
 
-Majorité légale (ou autorisation parentale). Usage conforme au droit français. Manquement = possible fermeture d’accès.
+Majorité légale (ou autorisation parentale). Usage conforme au droit français. Manquement = possible fermeture d'accès.
 
 ## 2. Fonctionnement du service
 
-Nous pouvons refuser une commande pour cause légitime (stock, fraude, erreur de prix). Hors données carte, certains transferts réseau ne sont pas chiffrés de bout en bout ; le paiement carte l’est via la passerelle.
+Nous pouvons refuser une commande pour cause légitime (stock, fraude, erreur de prix). Hors données carte, certains transferts réseau ne sont pas chiffrés de bout en bout ; le paiement carte l'est via la passerelle.
 
 ## 3. Exactitude des contenus
 
-Descriptions, dimensions et visuels sont préparés avec soin mais peuvent différer légèrement (matière naturelle, éclairage de pièce, ampoule choisie). Ils ne dispensent pas de vérifier l’adéquation à votre plafond et à votre installation.
+Descriptions, dimensions et visuels sont préparés avec soin mais peuvent différer légèrement (matière naturelle, éclairage de pièce, ampoule choisie). Ils ne dispensent pas de vérifier l'adéquation à votre plafond et à votre installation.
 
 ## 4. Prix
 
@@ -30,7 +30,7 @@ Suspensions, lustres et plafonniers pour usage intérieur. Retours : [politique 
 
 ## 6. Exactitude du compte
 
-Informations de facturation et de livraison exactes obligatoires. Annulation possible en cas d’anomalie.
+Informations de facturation et de livraison exactes obligatoires. Annulation possible en cas d'anomalie.
 
 ## 7. Modules optionnels
 
@@ -42,7 +42,7 @@ Contenu et politiques hors de notre contrôle.
 
 ## 9. Contributions
 
-Avis et messages : droit d’usage raisonnable pour le service ; contenus illicites interdits.
+Avis et messages : droit d'usage raisonnable pour le service ; contenus illicites interdits.
 
 ## 10. Vie privée
 
@@ -62,23 +62,23 @@ Service non garanti sans interruption. Droits légaux du consommateur préservé
 
 ## 14. Indemnité
 
-Vous couvrez Lumière Matière contre les réclamations liées à une utilisation non conforme.
+Vous couvrez OH Ventures contre les réclamations liées à une utilisation non conforme.
 
 ## 15. Clause indépendante
 
 Invalidité partielle sans effet sur le reste.
 
-## 16. Résiliation d’accès
+## 16. Résiliation d'accès
 
 Possible en cas de violation grave.
 
 ## 17. Ensemble contractuel
 
-CGV + politiques du site = accord complet sur l’usage du Service.
+CGV + politiques du site = accord complet sur l'usage du Service.
 
 ## 18. Loi et médiation
 
-Droit français. Médiateur de la consommation : `[MEDIATEUR_CONSOMMATION]`. RLL européen : https://ec.europa.eu/consumers/odr
+Droit français. Médiateur de la consommation : `[MEDIATEUR_CONSOMMATION — adhésion par site, à compléter]`. RLL européen : https://ec.europa.eu/consumers/odr
 
 ## 19. Changements
 
@@ -86,7 +86,8 @@ Publication sur le site avec date actualisée.
 
 ## 20. Coordonnées
 
-- **Lumière Matière** — `[RAISON_SOCIALE_LUMIERE_MATIERE]` — SIRET `[SIRET_LUMIERE_MATIERE]`
-- `[ADRESSE_POSTALE_LUMIERE_MATIERE]`
-- [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr) · `[TELEPHONE_LUMIERE_MATIERE]`
+- **Lumière Matière** — marque d'**OH Ventures**, SASU au capital de 1 000 €
+- SIRET 10315725100010 · TVA intracommunautaire FR55103157251
+- 47 rue Vivienne, 75002 Paris, France
+- [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr) · +33 7 56 82 80 94
 - Lun–ven 10h00–18h00 (heure de Paris) · réponse sous 1 à 2 jours ouvrés
