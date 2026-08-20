@@ -60,11 +60,11 @@ Ne pas merger les deux sur une seule boutique.
 
 ## Bloquants à lever avec Hakim
 
-- [ ] Comptes Shopify : 2 nouveaux vs 1 existant recyclé  
-- [ ] Noms / domaines (ou brief naming)  
-- [ ] Budget test Ads A (plafond € + durée)  
-- [ ] OK électrique CE sèche-serviette (copy sobre, pas de claims médicaux)  
-- [ ] Prix de vente A choisi dans 179–249 € (ou autre bande)  
+- [ ] Comptes Shopify : 2 nouveaux vs 1 existant recyclé (ce soir / demain)  
+- [x] Noms / domaines + dispo → `2026-08-20-noms-prix-budgets-seche-lustres.md` (reco : orysbain / lumierematiere)  
+- [x] Budget test Ads = prix produit (199 € héros chaque piste)  
+- [ ] OK électrique CE sèche-serviette (copy sober, pas de claims médicaux)  
+- [x] Prix A/B fixés (sèche 199/249 · lustres 149/199/249/299)  
 
 ---
 
