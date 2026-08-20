@@ -21,6 +21,14 @@ Excel : `2026-08-20-analyse-complete-salve-trendtrack.xlsx` — feuille **Synthe
 | Guitare folk / acoustique | UNIVERS | plat_continu | 102 | 4% | **GO CONDITIONNEL** | Bande 50–400 € + enseignes non dominantes + au moins 1 preuve e-com/drop |
 | Fronts / façades cuisine | UNIVERS | plat_continu | 44 | 12% | **À APPROFONDIR** | Pas de STOP mécanique — valider dropship Shopify/PDP en revue manuelle |
 
+---
+
+## Suite UNIVERS (20/08/2026) — arborescences + volumes catalogue
+
+Hors NON Hakim (LED, dalle, cuir, serre) : dépôt Mission B dans
+`analyses/2026-08-20-univers-salve/` (`00-SCOPE`, `01-ARBORESCENCES`, `02-MESURES-SEMRUSH`,
+xlsx + `data/2026-08-20-univers-kmt-raw.json`). Sourcing UNIVERS non lancé.
+
 ## Limites assumées
 - Google Ads Search texte : extraction souvent vide (SERP CSS / session) — **preuves TrendTrack** ajoutées en tête de chaque feuille.
 - Prix Shopping filtrés 3–2500 € (outliers absurdes écartés).
