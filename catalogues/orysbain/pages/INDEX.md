@@ -46,7 +46,11 @@
 
 > **Source des délais** : preuve sourcing AliExpress du 20/08/2026 + vérification live le 20/08/2026 — item AE 1005009174278960 expédié depuis entrepôt Allemagne (fret DPD DE), fenêtre affichée « Livraison : août 24–30 » soit ~4–10 jours depuis la commande. D'où transit **4–10 j ouvrés** + traitement boutique **1–2 j ouvrés** = total **5–12 j ouvrés**. À réviser si le sourcing change d'entrepôt.
 
-## Placeholders restants avant mise en ligne
+## Médiateur
 
-- `[MEDIATEUR_CONSOMMATION — adhésion par site, à compléter]` — seul placeholder restant ; ne pas inventer de médiateur, adhésion à faire par site.
+**CM2C** (comme Maison Noirmont) — 14 rue Saint Jean, 75017 Paris — 01 89 47 00 14 — https://www.cm2c.net/  
+Vérifier que l’adhésion CM2C couvre bien orysbain.fr (ajout de site si besoin).
+
+## Avant mise en ligne
+
 - URLs : remplacer `https://orysbain.fr/...` si le domaine final diffère.

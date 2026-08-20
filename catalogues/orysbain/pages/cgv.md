@@ -78,7 +78,7 @@ Les présentes CGV et les politiques du site forment l'intégralité de l'accord
 
 ## 18. Droit français et médiation
 
-Droit français. En cas de litige de consommation, vous pouvez recourir gratuitement au médiateur : `[MEDIATEUR_CONSOMMATION — adhésion par site, à compléter]`. Plateforme européenne RLL : https://ec.europa.eu/consumers/odr
+Droit français. En cas de litige de consommation, vous pouvez recourir gratuitement au médiateur dont relève OH Ventures : **CM2C**, 14 rue Saint Jean, 75017 Paris, tél. 01 89 47 00 14, site internet : [https://www.cm2c.net/](https://www.cm2c.net/). Plateforme européenne RLL : https://ec.europa.eu/consumers/odr
 
 ## 19. Modifications
 

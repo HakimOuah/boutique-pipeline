@@ -78,7 +78,7 @@ CGV + politiques du site = accord complet sur l'usage du Service.
 
 ## 18. Loi et médiation
 
-Droit français. Médiateur de la consommation : `[MEDIATEUR_CONSOMMATION — adhésion par site, à compléter]`. RLL européen : https://ec.europa.eu/consumers/odr
+Droit français. Médiateur de la consommation (identique à Maison Noirmont / parc OH Ventures) : **CM2C** — 14 rue Saint Jean, 75017 Paris — 01 89 47 00 14 — [www.cm2c.net](https://www.cm2c.net/). RLL européen : https://ec.europa.eu/consumers/odr
 
 ## 19. Changements
 
