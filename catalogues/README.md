@@ -1,12 +1,10 @@
-# Catalogues DSers — Orysbain + Lumière Matière — 2026-08-20
+# Catalogues DSers — 2026-08-20 (étendu)
 
-| Boutique | Fichier | Produits |
-|---|---|---|
-| Orysbain (sèche-serviette) | `orysbain/CATALOGUE-DSERS.md` + `catalogue-dsers.csv` | 5 |
-| Lumière Matière (lustres) | `lumierematiere/CATALOGUE-DSERS.md` + `catalogue-dsers.csv` | 14 |
+| Boutique | Produits | Fichiers |
+|---|---:|---|
+| **Orysbain** | **32** | `orysbain/CATALOGUE-DSERS.md` + `catalogue-dsers.csv` + `descriptions/` |
+| **Lumière Matière** | **121** | `lumierematiere/CATALOGUE-DSERS.md` + `catalogue-dsers.csv` + `descriptions/` |
 
-Descriptions HTML : sous-dossiers `descriptions/`.
+Pool AE brut : 100 sèche-serviettes · 426 luminaires (`analyses/data/2026-08-20-catalogue-ae-serp-expand.json`).
 
-Sources coûts : `analyses/data/2026-08-20-catalogue-variants.json` + SERP `...-catalogue-ae-serp.json`.
-
-Guidelines appliquées : PASSATION (pas de promesses non tenables) · francisation Tuftéo/Noirmont (bénéfice avant feature, pas d’avis inventés, pas de délai chiffré) · électrique CE à trancher par Hakim.
+Guidelines : vouvoiement, bénéfice avant feature, pas de délai chiffré, pas d'avis inventés, électrique CE à valider Hakim.

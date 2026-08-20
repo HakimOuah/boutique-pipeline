@@ -1,32 +1,44 @@
-# Catalogue Orysbain (sèche-serviette) — DSers — 2026-08-20
-Marque provisoire : **Orysbain** · Domaine reco : orysbain.fr
-Règles copy : vouvoiement · bénéfice avant feature · pas de délai chiffré · pas d’avis inventés · électrique = notice + pro si besoin · CE = annonce fournisseur, Hakim tranche.
-Prix héros **199 €** · smart **249 €** · budget ads = prix produit.
+# Catalogue Orysbain — DSers étendu — 2026-08-20
 
-| SKU | Titre boutique | Prix | Coût rendu* | Ship | Lien fournisseur | Confiance |
+**32 produits** (objectif ≥ 30). Couverture : techno (classique, smart, tactile), couleurs (blanc, chrome, noir, or, standard), formats.
+
+Prix : **189 / 199 / 229 / 249 €** selon techno/coût. Budget ads héros = prix produit.
+
+| SKU | Titre | Prix | Coût AE* | Techno | Couleur | Lien |
 |---|---|---:|---:|---|---|---|
-| `ORYS-MURAL-TACTILE` | Sèche-serviette électrique mural tactile — inox | 199 € | ~47.19 € | Allemagne (UE) | [1005009174278960](https://fr.aliexpress.com/item/1005009174278960.html) | A/B |
-| `ORYS-MURAL-ECRAN` | Sèche-serviette électrique mural — écran digital | 199 € | ~36.39 € | Allemagne (UE) | [1005008858377822](https://fr.aliexpress.com/item/1005008858377822.html) | A/B |
-| `ORYS-RAIL-CLASSIQUE` | Sèche-serviette électrique — rail mural classique | 199 € | ~40.99 € | Allemagne (UE) | [1005005854172109](https://fr.aliexpress.com/item/1005005854172109.html) | B |
-| `ORYS-SLIM` | Sèche-serviette électrique slim — salle de bain compacte | 199 € | ~31.59 € | Allemagne (UE) | [1005008666213903](https://fr.aliexpress.com/item/1005008666213903.html) | B |
-| `ORYS-SMART` | Sèche-serviette électrique intelligent — mural | 249 € | ~126.39 € | Chine (à confirmer délai) | [1005007694125488](https://fr.aliexpress.com/item/1005007694125488.html) | B |
+| `ORYS-001-CLA-CHR` | Sèche-serviette électrique mural — chrome | 199 € | 66.54 | classique | chrome | [1005007931491840](https://fr.aliexpress.com/item/1005007931491840.html) |
+| `ORYS-002-CLA-CHR` | Sèche-serviette électrique mural — chrome (chrome) | 249 € | 162.69 | classique | chrome | [1005011880097721](https://fr.aliexpress.com/item/1005011880097721.html) |
+| `ORYS-003-CLA-NOI` | Sèche-serviette électrique mural — noir | 199 € | 47.59 | classique | noir | [1005008997678904](https://fr.aliexpress.com/item/1005008997678904.html) |
+| `ORYS-004-CLA-NOI` | Sèche-serviette électrique mural — noir (slim) | 199 € | 41.28 | classique | noir | [1005012492132888](https://fr.aliexpress.com/item/1005012492132888.html) |
+| `ORYS-005-CLA-OR` | Sèche-serviette électrique mural — doré | 199 € | 52.71 | classique | or | [1005010401171160](https://fr.aliexpress.com/item/1005010401171160.html) |
+| `ORYS-006-CLA-OR` | Sèche-serviette électrique mural — doré (or) | 199 € | 67.39 | classique | or | [1005010536756203](https://fr.aliexpress.com/item/1005010536756203.html) |
+| `ORYS-007-CLA-STA` | Sèche-serviette électrique mural — slim | 199 € | 61.02 | classique | standard | [1005009940907517](https://fr.aliexpress.com/item/1005009940907517.html) |
+| `ORYS-008-CLA-STA` | Sèche-serviette électrique mural | 199 € | 48.25 | classique | standard | [1005010589490689](https://fr.aliexpress.com/item/1005010589490689.html) |
+| `ORYS-009-SMA-BLA` | Sèche-serviette électrique intelligent — blanc | 249 € | 50.99 | smart | blanc | [1005007761506551](https://fr.aliexpress.com/item/1005007761506551.html) |
+| `ORYS-010-SMA-BLA` | Sèche-serviette électrique intelligent — blanc (blanc) | 249 € | 67.05 | smart | blanc | [1005007500281561](https://fr.aliexpress.com/item/1005007500281561.html) |
+| `ORYS-011-SMA-CHR` | Sèche-serviette électrique intelligent — chrome | 249 € | 84.54 | smart | chrome | [1005012331928775](https://fr.aliexpress.com/item/1005012331928775.html) |
+| `ORYS-012-SMA-NOI` | Sèche-serviette électrique intelligent — noir | 249 € | 50.99 | smart | noir | [1005005448725210](https://fr.aliexpress.com/item/1005005448725210.html) |
+| `ORYS-013-SMA-NOI` | Sèche-serviette électrique intelligent — noir (noir) | 249 € | 119.24 | smart | noir | [1005007713736850](https://fr.aliexpress.com/item/1005007713736850.html) |
+| `ORYS-014-SMA-OR` | Sèche-serviette électrique intelligent — doré | 249 € | 46.0 | smart | or | [1005009242321873](https://fr.aliexpress.com/item/1005009242321873.html) |
+| `ORYS-015-SMA-OR` | Sèche-serviette électrique intelligent — doré (grande capacité) | 249 € | 41.16 | smart | or | [1005012497705256](https://fr.aliexpress.com/item/1005012497705256.html) |
+| `ORYS-016-SMA-STA` | Sèche-serviette électrique intelligent — slim | 249 € | 64.56 | smart | standard | [1005012274371307](https://fr.aliexpress.com/item/1005012274371307.html) |
+| `ORYS-017-SMA-STA` | Sèche-serviette électrique intelligent | 249 € | 132.82 | smart | standard | [1005008702168946](https://fr.aliexpress.com/item/1005008702168946.html) |
+| `ORYS-018-TAC-BLA` | Sèche-serviette électrique tactile — blanc | 199 € | 37.99 | tactile | blanc | [1005008781180093](https://fr.aliexpress.com/item/1005008781180093.html) |
+| `ORYS-019-TAC-CHR` | Sèche-serviette électrique tactile — chrome | 199 € | 82.0 | tactile | chrome | [1005012439259571](https://fr.aliexpress.com/item/1005012439259571.html) |
+| `ORYS-020-TAC-CHR` | Sèche-serviette électrique tactile — chrome (chrome) | 249 € | 147.39 | tactile | chrome | [1005008408542695](https://fr.aliexpress.com/item/1005008408542695.html) |
+| `ORYS-021-TAC-NOI` | Sèche-serviette électrique tactile — noir | 199 € | 56.39 | tactile | noir | [1005005855174351](https://fr.aliexpress.com/item/1005005855174351.html) |
+| `ORYS-022-TAC-NOI` | Sèche-serviette électrique tactile — noir (noir) | 199 € | 52.39 | tactile | noir | [1005008985069036](https://fr.aliexpress.com/item/1005008985069036.html) |
+| `ORYS-023-TAC-OR` | Sèche-serviette électrique tactile — doré | 199 € | 48.79 | tactile | or | [1005009818576697](https://fr.aliexpress.com/item/1005009818576697.html) |
+| `ORYS-024-TAC-OR` | Sèche-serviette électrique tactile — doré (slim) | 199 € | 39.19 | tactile | or | [1005009234159087](https://fr.aliexpress.com/item/1005009234159087.html) |
+| `ORYS-025-TAC-NOI` | Sèche-serviette électrique tactile — noir (noir) | 199 € | 50.39 | tactile | noir | [1005008669057975](https://fr.aliexpress.com/item/1005008669057975.html) |
+| `ORYS-026-TAC-NOI` | Sèche-serviette électrique tactile — noir (noir) | 199 € | 50.39 | tactile | noir | [1005008704282859](https://fr.aliexpress.com/item/1005008704282859.html) |
+| `ORYS-027-TAC-NOI` | Sèche-serviette électrique tactile — noir (noir) | 199 € | 48.59 | tactile | noir | [1005009242185538](https://fr.aliexpress.com/item/1005009242185538.html) |
+| `ORYS-028-TAC-NOI` | Sèche-serviette électrique tactile — noir (slim) | 199 € | 47.99 | tactile | noir | [1005005453133538](https://fr.aliexpress.com/item/1005005453133538.html) |
+| `ORYS-029-TAC-NOI` | Sèche-serviette électrique tactile — noir (noir) | 199 € | 47.79 | tactile | noir | [1005009183134278](https://fr.aliexpress.com/item/1005009183134278.html) |
+| `ORYS-030-TAC-NOI` | Sèche-serviette électrique tactile — noir (noir) | 199 € | 47.19 | tactile | noir | [1005009252824844](https://fr.aliexpress.com/item/1005009252824844.html) |
+| `ORYS-031-TAC-NOI` | Sèche-serviette électrique tactile — noir (noir) | 199 € | 47.19 | tactile | noir | [1005009174278960](https://fr.aliexpress.com/item/1005009174278960.html) |
+| `ORYS-032-TAC-NOI` | Sèche-serviette électrique tactile — noir (noir) | 199 € | 58.69 | tactile | noir | [1005008107710988](https://fr.aliexpress.com/item/1005008107710988.html) |
 
-\*Coût = `offer_sale_price` variante préférée (stock>0, UE si possible), relevé gateway 20/08/2026. Reconfirmer au panier.
+\*Prix affiché SERP (proxy), pas un `exact` panier. Reconfirmer.
 
-## Titres SEO & meta
-
-| Handle | seo.title | seo.description |
-|---|---|---|
-| `seche-serviette-electrique-mural-tactile-inox` | Sèche-serviette électrique mural — chaleur douce | Orysbain (59 c.) | Sèche-serviette électrique mural en inox, commande tactile. Serviettes sèches et… (135 c.) |
-| `seche-serviette-electrique-mural-ecran` | Sèche-serviette électrique avec écran — mural | Orysbain (56 c.) | Sèche-serviette électrique mural avec écran. Réglage simple, finition noir ou bl… (134 c.) |
-| `seche-serviette-electrique-rail-classique` | Sèche-serviette électrique rail mural classique | Orysbain (58 c.) | Rail sèche-serviette électrique mural classique. Format simple pour salle de bai… (123 c.) |
-| `seche-serviette-electrique-slim` | Sèche-serviette électrique slim petit espace | Orysbain (55 c.) | Sèche-serviette électrique compact pour petite salle de bain. Format slim mural,… (123 c.) |
-| `seche-serviette-electrique-intelligent` | Sèche-serviette électrique intelligent mural | Orysbain (55 c.) | Sèche-serviette électrique intelligent mural. Plus d’options de contrôle pour un… (122 c.) |
-
-## Import DSers
-
-1. Coller chaque `supplier_url` dans DSers → pousser Shopify.
-2. Ne pas modifier les SKU générés.
-3. Remplacer titre + descriptionHtml + seo par les champs de ce catalogue (après import).
-4. Franciser les options de variantes ensuite (ticket séparé).
-5. Publier Online Store (publishablePublish).
+Descriptions HTML dans `descriptions/`. CSV : `catalogue-dsers.csv`.
