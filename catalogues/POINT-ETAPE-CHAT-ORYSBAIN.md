@@ -58,9 +58,10 @@ Racine marque : `boutique-pipeline/catalogues/orysbain/`
 | `sources-par-handle/<handle>/` | Symlinks vers sources (gitignoré) — utiliser ça pour lire |
 | `sources-fournisseur/MANIFESTE.json` | Manifeste téléchargement |
 
-## Visuels Codex (EN COURS)
+## Visuels Codex
 
-Brief mission : `catalogues/BRIEF-VISUELS-CODEX-ORYSBAIN.md`
+Brief mission : `catalogues/BRIEF-VISUELS-CODEX-ORYSBAIN.md`  
+Inventaire disque (21/08 ~12h30) : `catalogues/orysbain/ETAT-VISUELS-2026-08-21.md`
 
 Sortie attendue (gitignorée) :
 ```
@@ -73,15 +74,11 @@ catalogues/orysbain/livraisons-visuels-codex/
 Slots PDP : g1 hero packshot · g2 3/4 · g3 détail commande · g4 lifestyle SDB · g5 usage serviettes.
 Format : JPEG sRGB 2048×2048 (sauf logos PNG).
 
-Déjà présents au 21/08 (brand partiel, PDP pas finis) :
-- `livraisons-visuels-codex/brand/orysbain-logo-primary-ardoise.png`
-- `…/orysbain-logo-inverse-blanc.png`
-- `…/orysbain-logo-mono-cuivre.png`
-- `…/orysbain-favicon-512.png`
-- `…/orysbain-home-hero.jpg`
-(encore manquants brand : home-benefit, home-detail, collection — + les 32×5 PDP)
+**Brand 8/8 livré** (21/08 00:48–00:56) : 4 logos/favicon PNG + hero + benefit + detail + collection JPEG 2048². Ne pas régénérer.
 
-Ne pas relancer une génération en doublon : d’abord inventaire `livraisons-visuels-codex/`, croiser avec le BRIEF.
+**PDP 0/32** (0/160 JPEG). Quatre SKU hors univers — pas de galerie à inventer : `ORYS-005`, `007`, `008`, `009` (armoires UV / tapis sol). Restant productible : 28 × 5 = 140 JPEG, ou 160 si ressourcés.
+
+Ne pas relancer une génération en doublon : d’abord inventaire `livraisons-visuels-codex/`, croiser avec le BRIEF et `ETAT-VISUELS-2026-08-21.md`.
 
 ## État d’avancement
 
@@ -90,9 +87,11 @@ FAIT :
 - Pages légales / FAQ / histoire
 - Branding + VOC
 - Sources AE locales 32/32
-- Brief Codex + début livraisons brand
+- Brief Codex + **lot brand 8/8** (logos, homepage, collection)
+- Inventaire visuels 21/08 (`ETAT-VISUELS-2026-08-21.md`)
 
 PAS FAIT :
+- Galeries PDP Codex (0/32) — 4 SKU à ressourcer avant image
 - Achat domaines
 - Création Shopify + thème
 - Coller pages policies

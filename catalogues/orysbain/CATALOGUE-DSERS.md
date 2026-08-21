@@ -2,6 +2,15 @@
 
 **32 produits.** Descriptions purgées (plus de fuites ops) + arguments VOC.
 
+**Alerte sourcing (21/08/2026)** — 4 SKU ne sont **pas** des sèche-serviettes muraux. Pas de visuels Codex à produire tant que l’URL AE n’est pas remplacée. Détail : `ETAT-VISUELS-2026-08-21.md`.
+
+| SKU | Produit AE réel |
+|---|---|
+| `ORYS-005-CLA-OR` | Armoire chauffe-serviettes UV 10 L (Podofo) |
+| `ORYS-007-CLA-STA` | Armoire UV 5 L |
+| `ORYS-008-CLA-STA` | Stérilisateur UV ozone 5 L |
+| `ORYS-009-SMA-BLA` | Kit tapis chauffant sol + thermostat Tuya |
+
 | SKU | Titre | Prix | Techno | Couleur | Lien |
 |---|---|---:|---|---|---|
 | `ORYS-001-CLA-CHR` | Orysbain Ligne Chrome — sèche-serviettes électrique classique, finition chrome | 199 € | classique | chrome | [1005007931491840](https://fr.aliexpress.com/item/1005007931491840.html) |
