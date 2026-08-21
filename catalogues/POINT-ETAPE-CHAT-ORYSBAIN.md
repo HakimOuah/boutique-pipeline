@@ -58,27 +58,15 @@ Racine marque : `boutique-pipeline/catalogues/orysbain/`
 | `sources-par-handle/<handle>/` | Symlinks vers sources (gitignoré) — utiliser ça pour lire |
 | `sources-fournisseur/MANIFESTE.json` | Manifeste téléchargement |
 
-## Visuels Codex
+## Visuels Codex — LIVRÉ (périmètre exploitable)
 
-Brief mission : `catalogues/BRIEF-VISUELS-CODEX-ORYSBAIN.md`  
-Inventaire disque (21/08 ~12h30) : `catalogues/orysbain/ETAT-VISUELS-2026-08-21.md`
+Brief : `catalogues/BRIEF-VISUELS-CODEX-ORYSBAIN.md`  
+Inventaire : `catalogues/orysbain/ETAT-VISUELS-2026-08-21.md` (vérif 21/08 ~14h45)
 
-Sortie attendue (gitignorée) :
-```
-catalogues/orysbain/livraisons-visuels-codex/
-  brand/          # logos, home, collection
-  produits/<handle>/<handle>-g1.jpg … -g5.jpg + manifeste.json
-  INDEX-LIVRAISON.md
-```
-
-Slots PDP : g1 hero packshot · g2 3/4 · g3 détail commande · g4 lifestyle SDB · g5 usage serviettes.
-Format : JPEG sRGB 2048×2048 (sauf logos PNG).
-
-**Brand 8/8 livré** (21/08 00:48–00:56) : 4 logos/favicon PNG + hero + benefit + detail + collection JPEG 2048². Ne pas régénérer.
-
-**PDP 0/32** (0/160 JPEG). Quatre SKU hors univers — pas de galerie à inventer : `ORYS-005`, `007`, `008`, `009` (armoires UV / tapis sol). Restant productible : 28 × 5 = 140 JPEG, ou 160 si ressourcés.
-
-Ne pas relancer une génération en doublon : d’abord inventaire `livraisons-visuels-codex/`, croiser avec le BRIEF et `ETAT-VISUELS-2026-08-21.md`.
+- Brand **8/8** — ne pas régénérer.
+- PDP **28/28** productibles = **140 JPEG** 2048² + 32 manifestes + 32 comptes-rendus.
+- 4 SKU hors univers **sans image** : `ORYS-005`, `007`, `008`, `009`.
+- Ne pas relancer en doublon.
 
 ## État d’avancement
 
@@ -87,24 +75,23 @@ FAIT :
 - Pages légales / FAQ / histoire
 - Branding + VOC
 - Sources AE locales 32/32
-- Brief Codex + **lot brand 8/8** (logos, homepage, collection)
-- Inventaire visuels 21/08 (`ETAT-VISUELS-2026-08-21.md`)
+- Visuels Codex brand 8/8 + PDP 140 JPEG (28 handles)
 
 PAS FAIT :
-- Galeries PDP Codex (0/32) — 4 SKU à ressourcer avant image
+- Ressourcer 4 SKU hors univers (armoires UV / tapis sol) + recetter couleurs CSV vs photos AE
 - Achat domaines
 - Création Shopify + thème
 - Coller pages policies
 - Import DSers / mapping variantes
-- Upload images générées (quand Codex termine)
+- Upload images générées
 - GMC / Google Ads
 - Vérifier adhésion CM2C pour orysbain.fr
 
 ## Ta mission dans ce chat
 
-1. Relire `catalogues/orysbain/ETAT-VISUELS-2026-08-21.md` — inventaire déjà fait (brand 8/8, PDP 0, 4 SKU hors univers).
+1. Relire `catalogues/orysbain/ETAT-VISUELS-2026-08-21.md` — visuels livrés (brand 8/8, PDP 28/28, 4 SKU écartés).
 2. Ne travailler QUE Orysbain.
-3. Demande-moi la priorité : ressourcer les 4 SKU · lancer les 28 galeries PDP Codex · QA brand · thème Shopify (domaines pas encore achetés) · import DSers · GMC.
+3. Demande-moi la priorité : ressourcer les 4 SKU · recetter couleurs CSV · thème Shopify (domaines pas encore achetés) · import DSers · GMC.
 4. Toute modif durable → commit + push dans `boutique-pipeline` (jamais committer les JPEG sources/livraisons gitignorés, sauf si on change explicitement la politique).
 
 Réponds d’abord par un point d’étape court : prêt / en cours / bloqué, puis propose la prochaine action concrète.
