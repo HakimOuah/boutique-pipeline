@@ -9,6 +9,7 @@
 |---|---|
 | `notre-histoire.md` | Page « Notre histoire » |
 | `faq.md` | Page FAQ |
+| `contact.md` | Page « Contact » (la FAQ y pointe déjà) |
 | `politique-retours.md` | Refund policy |
 | `politique-livraison.md` | Shipping policy |
 | `politique-confidentialite.md` | Privacy policy |

@@ -96,3 +96,5 @@ Toujours bloqué côté boutique :
 7. Vérifier adhésion CM2C pour `lumierematiere.fr`.
 
 Élargissement catalogue type Mille et une Nuisette (~profondeur) : plus tard, pas maintenant.
+
+Suite 21/08 : QA `catalogues/2026-08-21-qa-visuels-lumiere-matiere.md` · spec homepage `catalogues/2026-08-21-spec-homepage-univers-lumiere-matiere.md`.

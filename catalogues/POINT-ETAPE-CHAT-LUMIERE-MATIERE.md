@@ -82,36 +82,36 @@ Livraison (gitignorée) : `catalogues/lumierematiere/livraisons-visuels-codex/`
 | PDP | **121/121** handles, **605/605** JPEG g1–g5, 2048×2048 RGB |
 | Manifestes | 121 `manifeste.json` + `manifeste-brand.json` |
 
-**Ne pas relancer de génération en doublon.** QA visuelle catalogue encore à faire sur échantillon (covers + lot ads 199 €). Homepage : les 3 JPEG viennent de la même source bambou LM-009. Deux collections à 1 SKU (statement, modernes) : trop minces pour un bloc homepage du même poids que bambou/rotin.
+**Ne pas relancer de génération en doublon.** QA 21/08 : `catalogues/2026-08-21-qa-visuels-lumiere-matiere.md` (53 KEEP / 9 RETOUCH / 5 REJECT = LM-086 entier). Spec homepage UNIVERS : `catalogues/2026-08-21-spec-homepage-univers-lumiere-matiere.md`.
 
 ## État d’avancement
 
 FAIT :
 - Catalogue 121 SKU + URLs AE uniques + HTML VOC matière-first
-- Pages légales / FAQ / histoire (texte distinct Orysbain)
+- Pages légales / FAQ / histoire / contact (texte distinct Orysbain)
 - Branding + VOC
 - Sources AE locales 121/121
-- Brief Codex + **livraison visuels complète** (brand + 13 covers + 605 PDP) — inventaire 21/08
+- Brief Codex + **livraison visuels complète** (brand + 13 covers + 605 PDP)
+- Inventaire visuels 21/08 + **QA échantillon** (covers, homepage, 21 SKU)
+- **Spec homepage UNIVERS** Horizon (6 tuiles matières + 3 pièce/forme, copy collable)
 - Ref UNIVERS Mille et une Nuisette notée pour structure homepage / profondeur
 
 PAS FAIT :
-- QA visuelle échantillon (covers + ~20 SKU ads 199 € ; homepage trop mono-bambou)
-- Achat domaines
-- Création Shopify + thème UNIVERS (blocs catégories / matières, pas one-product)
-- Coller pages policies
-- Import DSers / mapping variantes (privilégier UE)
-- Upload images
+- Achat domaines + création Shopify (Hakim)
+- Coller pages policies + monter le thème selon la spec
+- Import DSers / mapping variantes (privilégier UE) — **exclure les 5 JPEG LM-086**
+- Upload images KEEP (+ RETOUCH day one)
+- Retouches visuelles ciblées (covers salon/plafonniers/bois/verre/métal, home-table, LM-034) — pas de regen 605
 - GMC / Google Ads
 - Vérifier adhésion CM2C pour lumierematiere.fr
-- Arbitrage collections 1 SKU (statement, modernes) pour la homepage UNIVERS
 - Élargissement catalogue type ref (~profondeur) — plus tard
 
 ## Ta mission dans ce chat
 
 1. Ne travailler QUE Lumière Matière.
-2. Visuels Codex = livrés ; ne pas régénérer en masse. QA ou retouches ciblées seulement si Hakim le demande.
-3. Garder l’esprit UNIVERS (collections matières, homepage en blocs) — inspiré Mille et une Nuisette, DA propre LM.
-4. Demande-moi la priorité : QA visuels · spec homepage UNIVERS · attente domaines/Shopify (Hakim) · import DSers · GMC.
+2. Visuels Codex = livrés ; QA faite. Ne pas régénérer en masse. Retouches ciblées seulement si Hakim le demande (voir QA : LM-086 REJECT, 9 RETOUCH).
+3. Spec homepage UNIVERS écrite : coller sur Horizon **après** création boutique. Ne pas improviser une landing one-product.
+4. Prochaine balle dans le camp Hakim : domaines + boutique Shopify. Ensuite : import DSers (hors LM-086 images) + montage spec.
 5. Toute modif durable → commit + push dans `boutique-pipeline` (ne pas committer les JPEG sources/livraisons gitignorés sauf changement explicite de politique).
 
 Réponds d’abord par un point d’étape court : prêt / en cours / bloqué, puis propose la prochaine action concrète.
