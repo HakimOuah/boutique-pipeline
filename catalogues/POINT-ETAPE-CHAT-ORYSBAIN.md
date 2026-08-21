@@ -58,41 +58,42 @@ Racine marque : `boutique-pipeline/catalogues/orysbain/`
 | `sources-par-handle/<handle>/` | Symlinks vers sources (gitignoré) — utiliser ça pour lire |
 | `sources-fournisseur/MANIFESTE.json` | Manifeste téléchargement |
 
-## Visuels Codex — LIVRÉ (périmètre exploitable)
+## Visuels Codex
 
 Brief : `catalogues/BRIEF-VISUELS-CODEX-ORYSBAIN.md`  
-Inventaire : `catalogues/orysbain/ETAT-VISUELS-2026-08-21.md` (vérif 21/08 ~14h45)
+Inventaire 21/08 14h45 : `catalogues/orysbain/ETAT-VISUELS-2026-08-21.md`  
+Recette + 4 remplacements : `catalogues/orysbain/RECETTE-FINITIONS-2026-08-21.md`
 
 - Brand **8/8** — ne pas régénérer.
-- PDP **28/28** productibles = **140 JPEG** 2048² + 32 manifestes + 32 comptes-rendus.
-- 4 SKU hors univers **sans image** : `ORYS-005`, `007`, `008`, `009`.
-- Ne pas relancer en doublon.
+- PDP **28/28** sur les handles **inchangés** (140 JPEG). Joindre par handle, pas par le mot couleur du handle.
+- **4 nouveaux handles sans galerie Codex** (sources AE OK) :  
+  `seche-serviette-classique-or-standard-827902` · `…-standard-slim-960550` · `…-tactile-or-standard-712285` · `…-smart-blanc-standard-763887`.
 
 ## État d’avancement
 
 FAIT :
-- Catalogue 32 SKU + URLs AE uniques + HTML VOC
+- Catalogue 32 SKU + HTML VOC
+- Recette couleurs 21/08 (titres = photo ; handles 28 stables)
+- 4 SKU UV/tapis remplacés par des muraux (sources AE 6 imgs chacune)
 - Pages légales / FAQ / histoire
 - Branding + VOC
-- Sources AE locales 32/32
 - Visuels Codex brand 8/8 + PDP 140 JPEG (28 handles)
 
 PAS FAIT :
-- Ressourcer 4 SKU hors univers (armoires UV / tapis sol) + recetter couleurs CSV vs photos AE
-- Achat domaines
-- Création Shopify + thème
+- Galeries Codex des **4 nouveaux** handles
+- Achat domaines / création Shopify (Hakim en cours)
 - Coller pages policies
-- Import DSers / mapping variantes
-- Upload images générées
+- Import DSers / mapping variantes (handles ≠ mot couleur sur ~15 SKU)
+- Upload images
 - GMC / Google Ads
 - Vérifier adhésion CM2C pour orysbain.fr
 
 ## Ta mission dans ce chat
 
-1. Relire `catalogues/orysbain/ETAT-VISUELS-2026-08-21.md` — visuels livrés (brand 8/8, PDP 28/28, 4 SKU écartés).
+1. Relire `RECETTE-FINITIONS-2026-08-21.md` et `ETAT-VISUELS-2026-08-21.md`.
 2. Ne travailler QUE Orysbain.
-3. Demande-moi la priorité : ressourcer les 4 SKU · recetter couleurs CSV · thème Shopify (domaines pas encore achetés) · import DSers · GMC.
-4. Toute modif durable → commit + push dans `boutique-pipeline` (jamais committer les JPEG sources/livraisons gitignorés, sauf si on change explicitement la politique).
+3. Si Shopify existe : thème + coller policies + préparer mapping DSers (joindre visuels par **handle**). Sinon : lancer Codex sur les 4 nouveaux handles.
+4. Toute modif durable → commit + push `boutique-pipeline` (pas les JPEG gitignorés).
 
 Réponds d’abord par un point d’étape court : prêt / en cours / bloqué, puis propose la prochaine action concrète.
 ```

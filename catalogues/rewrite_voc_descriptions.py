@@ -300,9 +300,11 @@ def rewrite_brand(brand: str) -> None:
     if brand == "orysbain":
         md = ROOT / brand / "CATALOGUE-DSERS.md"
         lines = [
-            "# Catalogue Orysbain — DSers — 2026-08-20 (copy VOC)",
+            "# Catalogue Orysbain — DSers — 2026-08-21 (copy VOC + recette)",
             "",
             f"**{len(rows)} produits.** Descriptions purgées (plus de fuites ops) + arguments VOC.",
+            "",
+            "Recette couleurs : `RECETTE-FINITIONS-2026-08-21.md`. Quatre SKU UV/tapis remplacés (005, 007, 008, 009).",
             "",
             "| SKU | Titre | Prix | Techno | Couleur | Lien |",
             "|---|---|---:|---|---|---|",

@@ -25,14 +25,14 @@ Aucun slot partiel. Aucun dossier en trop. Aucun JPEG hors convention `-g1`…`-
 
 Tous les JPEG : **RGB 2048 × 2048**, 301–1054 Ko. 140 chemins `source` des manifestes existent en local. 0 dossier `rejected/`.
 
-Les 4 écartés ont `images: []` + motif dans `ecartes` — **aucune image inventée**.
+Les 4 écartés du 21/08 matin ont été **ressourcés** (voir `RECETTE-FINITIONS-2026-08-21.md`). Nouveaux handles **sans** JPEG Codex :
 
-| SKU | Motif |
-|---|---|
-| `ORYS-005-CLA-OR` | Armoire UV 10 L (Podofo) |
-| `ORYS-007-CLA-STA` | Armoire UV 5 L |
-| `ORYS-008-CLA-STA` | Stérilisateur UV ozone 5 L |
-| `ORYS-009-SMA-BLA` | Kit tapis chauffant sol + Tuya |
+- `seche-serviette-classique-or-standard-827902`
+- `seche-serviette-classique-standard-slim-960550`
+- `seche-serviette-tactile-or-standard-712285`
+- `seche-serviette-smart-blanc-standard-763887`
+
+Ne pas réutiliser les dossiers visuels des anciens handles UV/tapis.
 
 ## QA visuelle (échantillon, pas une revue 140 images)
 
@@ -51,6 +51,6 @@ Léger : quelques g1 portent encore une serviette (plutôt slot g5). Non bloquan
 
 ## Ne pas faire
 
-- Relancer brand ou les 28 galeries.
-- Inventer des PDP pour les 4 SKU hors univers.
+- Relancer brand ou les 28 galeries déjà livrées.
+- Inventer des PDP à partir des anciennes sources UV/tapis.
 - Committer `livraisons-visuels-codex/` (`.gitignore` inchangé).
