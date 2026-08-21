@@ -102,9 +102,9 @@ PAS FAIT :
 
 ## Ta mission dans ce chat
 
-1. Faire un inventaire à jour de `orysbain/livraisons-visuels-codex/` (ce que Codex a déjà livré vs BRIEF).
+1. Relire `catalogues/orysbain/ETAT-VISUELS-2026-08-21.md` — inventaire déjà fait (brand 8/8, PDP 0, 4 SKU hors univers).
 2. Ne travailler QUE Orysbain.
-3. Demande-moi la priorité si ambigu (thème Shopify, QA visuels, import, GMC…).
+3. Demande-moi la priorité : ressourcer les 4 SKU · lancer les 28 galeries PDP Codex · QA brand · thème Shopify (domaines pas encore achetés) · import DSers · GMC.
 4. Toute modif durable → commit + push dans `boutique-pipeline` (jamais committer les JPEG sources/livraisons gitignorés, sauf si on change explicitement la politique).
 
 Réponds d’abord par un point d’étape court : prêt / en cours / bloqué, puis propose la prochaine action concrète.
