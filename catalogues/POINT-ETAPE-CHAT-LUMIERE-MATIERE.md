@@ -50,9 +50,9 @@ Préférer variantes entrepôt UE au mapping DSers quand dispo.
 - Doc : `catalogues/2026-08-20-branding-audit-orysbain-lumiere-matiere.md` (section Lumière Matière)
 - VOC / personas Camille & Nina + objections : `catalogues/2026-08-20-voc-personas-objections-orysbain-lm.md`
 
-## Collections (CSV)
+## Collections (CSV — 13, pas 12)
 
-Lustres cristal · Lustres anneau · Lustres salon · Lustres statement · Suspensions rotin · Suspensions bambou · Suspensions bois · Suspensions pierre · Suspensions verre · Suspensions métal · Suspensions déco · Plafonniers
+Lustres cristal (7) · Lustres anneau (12) · Lustres salon (12) · Lustres statement (**1**) · Suspensions rotin (14) · Suspensions bambou (16) · Suspensions bois (12) · Suspensions pierre (10) · Suspensions verre (10) · Suspensions métal (8) · Suspensions déco (8) · Plafonniers (10) · **Suspensions modernes (1)** — hors tableau du brief visuels, présente dans le CSV + cover Codex.
 
 ## Fichiers catalogue (prêts)
 
@@ -68,30 +68,21 @@ Racine marque : `boutique-pipeline/catalogues/lumierematiere/`
 | `sources-par-handle/<handle>/` | Symlinks vers sources (gitignoré) — utiliser ça pour lire |
 | `sources-fournisseur/MANIFESTE.json` | Manifeste téléchargement |
 
-## Visuels Codex (EN COURS)
+## Visuels Codex (COMPLET le 21/08/2026)
 
-Brief mission : `catalogues/BRIEF-VISUELS-CODEX-LUMIERE-MATIERE.md`
+Brief : `catalogues/BRIEF-VISUELS-CODEX-LUMIERE-MATIERE.md`  
+Inventaire versionné : `catalogues/2026-08-21-inventaire-visuels-lumiere-matiere.md`  
+Livraison (gitignorée) : `catalogues/lumierematiere/livraisons-visuels-codex/`
 
-Sortie attendue (gitignorée) :
-```
-catalogues/lumierematiere/livraisons-visuels-codex/
-  brand/          # logos, home, 12 covers collections
-  produits/<handle>/<handle>-g1.jpg … -g5.jpg + manifeste.json
-  INDEX-LIVRAISON.md
-```
+| Bloc | Disque |
+|---|---|
+| Logos / favicon | 4 PNG |
+| Homepage | 3 JPEG (hero, matière, table) |
+| Covers | **13** (12 slugs brief + `suspensions-modernes`) |
+| PDP | **121/121** handles, **605/605** JPEG g1–g5, 2048×2048 RGB |
+| Manifestes | 121 `manifeste.json` + `manifeste-brand.json` |
 
-Slots PDP : g1 hero allumé · g2 silhouette matière · g3 macro · g4 lifestyle · g5 qualité de lumière.
-Format : JPEG sRGB 2048×2048 (sauf logos PNG). Volume ordre de grandeur ~624 fichiers.
-
-Déjà présents au 21/08 (brand partiel, PDP / covers pas finis) :
-- `livraisons-visuels-codex/brand/lumierematiere-logo-primary-charbon.png`
-- `…/lumierematiere-logo-inverse-blanc.png`
-- `…/lumierematiere-logo-mono-ambre.png`
-- `…/lumierematiere-favicon-512.png`
-- `…/lumierematiere-home-hero.jpg`
-(encore manquants brand : home-matiere, home-table, 12 collection covers — + les 121×5 PDP)
-
-Ne pas relancer une génération en doublon : d’abord inventaire `livraisons-visuels-codex/`, croiser avec le BRIEF.
+**Ne pas relancer de génération en doublon.** QA visuelle catalogue encore à faire sur échantillon (covers + lot ads 199 €). Homepage : les 3 JPEG viennent de la même source bambou LM-009. Deux collections à 1 SKU (statement, modernes) : trop minces pour un bloc homepage du même poids que bambou/rotin.
 
 ## État d’avancement
 
@@ -100,25 +91,27 @@ FAIT :
 - Pages légales / FAQ / histoire (texte distinct Orysbain)
 - Branding + VOC
 - Sources AE locales 121/121
-- Brief Codex + début livraisons brand
+- Brief Codex + **livraison visuels complète** (brand + 13 covers + 605 PDP) — inventaire 21/08
 - Ref UNIVERS Mille et une Nuisette notée pour structure homepage / profondeur
 
 PAS FAIT :
+- QA visuelle échantillon (covers + ~20 SKU ads 199 € ; homepage trop mono-bambou)
 - Achat domaines
 - Création Shopify + thème UNIVERS (blocs catégories / matières, pas one-product)
 - Coller pages policies
 - Import DSers / mapping variantes (privilégier UE)
-- Upload images (quand Codex termine)
+- Upload images
 - GMC / Google Ads
 - Vérifier adhésion CM2C pour lumierematiere.fr
+- Arbitrage collections 1 SKU (statement, modernes) pour la homepage UNIVERS
 - Élargissement catalogue type ref (~profondeur) — plus tard
 
 ## Ta mission dans ce chat
 
-1. Faire un inventaire à jour de `lumierematiere/livraisons-visuels-codex/` (Codex déjà livré vs BRIEF).
-2. Ne travailler QUE Lumière Matière.
+1. Ne travailler QUE Lumière Matière.
+2. Visuels Codex = livrés ; ne pas régénérer en masse. QA ou retouches ciblées seulement si Hakim le demande.
 3. Garder l’esprit UNIVERS (collections matières, homepage en blocs) — inspiré Mille et une Nuisette, DA propre LM.
-4. Demande-moi la priorité si ambigu (thème, QA visuels, import, GMC…).
+4. Demande-moi la priorité : QA visuels · spec homepage UNIVERS · attente domaines/Shopify (Hakim) · import DSers · GMC.
 5. Toute modif durable → commit + push dans `boutique-pipeline` (ne pas committer les JPEG sources/livraisons gitignorés sauf changement explicite de politique).
 
 Réponds d’abord par un point d’étape court : prêt / en cours / bloqué, puis propose la prochaine action concrète.
