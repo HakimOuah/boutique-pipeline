@@ -170,7 +170,7 @@ Titre (H2) : `Bien choisir, sans mauvaise surprise` — icônes SVG 40 px charbo
 
 ### 5.6 Autour de 199 € — `product-list`
 
-- Titre (H2) : `Nos suspensions autour de 199 €`
+- Titre (H2) : `Autour de 199 €`
 - Sous-texte : `Une sélection du catalogue à 199 €, livraison offerte.`
 - Collection : `selection-199` (**manuelle, à créer**) — 6 SKU KEEP à 199 €, 6 familles, **hors LM-034** (RETOUCH orange) et **hors LM-086** (REJECT) :
   1. `LM-003` suspension-bambou-942503 — bambou
