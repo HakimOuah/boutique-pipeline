@@ -116,3 +116,4 @@ PAS FAIT :
 
 Réponds d’abord par un point d’étape court : prêt / en cours / bloqué, puis propose la prochaine action concrète.
 ```
+```
