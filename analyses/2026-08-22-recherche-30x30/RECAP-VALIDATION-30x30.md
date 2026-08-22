@@ -11,7 +11,7 @@
 | Verdicts consolidés 60 | `verdicts-volume-30x30.md` | ✅ volume/sonde · sourcing vide |
 | Sondes UNIVERS (échantillon) | `sonde-prix-univers-lot1.md` | ✅ 8 niches |
 | Mission B (SERP, net marque, Trends) | `mission-b-pilote.md` | ✅ pilote 6 candidats · reste après GO |
-| Sourcing AliExpress | `sourcing-lot1-pilote.md` | ✅ lot pilote 5 GO · 55 restants |
+| Sourcing AliExpress | `sourcing-lot1-pilote.md` · `sourcing-lot2-pilote.md` | ✅ 13 GO sourcés (lots 1–2) · 47 restants |
 
 ---
 

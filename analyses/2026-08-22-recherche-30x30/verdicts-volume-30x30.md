@@ -1,6 +1,6 @@
 # Verdicts volume — shortlists 30×30 — 2026-08-22
 
-Tableau consolidé pour validation. **Sourcing AliExpress :** lot pilote 1 sur 5 GO (`sourcing-lot1-pilote.md`) — 55 candidats restants après GO.
+Tableau consolidé pour validation. **Sourcing AliExpress :** lots pilotes 1–2 sur 13 GO (`sourcing-lot1-pilote.md`) — 55 candidats restants après GO.
 
 Légende volume PUR : `SURVIT` express (~≥10K cluster). UNIVERS : somme indicative familles (Mission B à trancher).
 
@@ -20,12 +20,12 @@ Légende volume PUR : `SURVIT` express (~≥10K cluster). UNIVERS : somme indica
 | 8 | Machine sous vide | 14,8K | OK | ✅ pilote | **FOURNISSEUR À TESTER** ~58–68 € | Cloche pro |
 | 9 | Parc bébé | 18,1K | OK | ⏳ après GO | — | GMC enfants |
 | 10 | Tarière | 12,1K | OK | ⏳ après GO | — | Persona pro |
-| 11 | Humidificateur d'air | 33,1K | OK | ⏳ après GO | — | Diffuseurs |
-| 12 | Enrouleur tuyau arrosage | 18,1K | OK | ⏳ après GO | — | GSB |
+| 11 | Humidificateur d'air | 33,1K | OK | ⏳ | **FOURNISSEUR À TESTER** ~42 € | Diffuseurs |
+| 12 | Enrouleur tuyau arrosage | 18,1K | OK | ⏳ | **FOURNISSEUR À TESTER** ~50 € | GSB |
 | 13 | Cave à vin | 60,5K | OK | ⏳ après GO | — | Affiner « service » (880) |
 | 14 | Machine à glace | 14,8K | OK | ⏳ | **FOURNISSEUR À TESTER** ~60 € | — |
-| 15 | Cuiseur à riz | 22,2K | OK | ⏳ après GO | — | Marques |
-| 16 | Tireuse à bière | 22,2K | OK | ✅ pilote Trends+SERP | — | — |
+| 15 | Cuiseur à riz | 22,2K | OK | ⏳ | **FOURNISSEUR À TESTER** ~59 € | Marques |
+| 16 | Tireuse à bière | 22,2K | OK | ✅ pilote | **FOURNISSEUR À TESTER** ~67 € | — |
 | 17 | Coffre-fort | 33,1K | OK | ⏳ après GO | — | KD 62 |
 | 18 | Ponceuse girafe | 14,8K | OK | ⏳ après GO | — | DIY/pro |
 | 19 | Nettoyeur haute pression | 49,5K | OK | ⏳ après GO | — | Kärcher |
@@ -55,19 +55,19 @@ Légende volume PUR : `SURVIT` express (~≥10K cluster). UNIVERS : somme indica
 | 8 | Cuisine extérieure / camping-car | 105K | — | ⏳ après GO | — | GSB plancha ; Berger Camping |
 | 9 | Traitement jardin (outil léger) | 99K | — | ⏳ après GO | — | Persona pro (motoculteur) à cadrer particulier |
 | 10 | Tapis design par pièce | 96K | — | ⏳ après GO | — | Saint Maclou / GSB |
-| 11 | Diffusion olfactive intérieure | 87K | OK ~65 € | ⏳ après GO | — | Claims ; low-ticket accessoires |
+| 11 | Diffusion olfactive intérieure | 87K | OK ~65 € | ⏳ | **FOURNISSEUR À TESTER** ~44 € | Claims ; low-ticket accessoires |
 | 12 | Aquariophilie / aquascaping | 86K | OK ~74 € | ✅ pilote | **FOURNISSEUR À TESTER** (filtre) | Profil catalogue type Nuisette |
 | 13 | Sports nautiques légers (paddle) | 81K | — | ⏳ après GO | — | Decathlon ; saison |
 | 14 | Bivouac outdoor compact | 81K | — | ⏳ après GO | — | Decathlon ; saison |
 | 15 | Jardin d’agrément (bassin/serre) | 78K | — | ⏳ après GO | — | ≠ fontaine gravité RETENUE |
 | 16 | Vin & cave / accessoires | 78K | — | ⏳ après GO | — | Séparer appareil vs accessoire |
-| 17 | Rideaux occultation matière×intention | 74K | — | ✅ pilote Trends+SERP | — | Qualifié volume 01/08 — pivot UNIVERS |
+| 17 | Rideaux occultation matière×intention | 74K | — | ✅ pilote | **FOURNISSEUR À TESTER** ~32 € | Qualifié volume 01/08 — pivot UNIVERS |
 | 18 | Vinyle / audio salon | 65K | — | ⏳ après GO | — | Marques ; GSB |
-| 19 | Déco Noël | 64K | OK ~155 € | ⏳ après GO | — | Trends socle ≥8 mois avant GO |
+| 19 | Déco Noël | 64K | OK ~155 € | ⏳ | **AUCUNE OFFRE** (lot2) | Trends socle ≥8 mois avant GO |
 | 20 | Irrigation / potager autonomie | 61K | — | ⏳ après GO | — | Saison ; GSB |
 | 21 | Rangement chaussures / entrée | 59K | — | ⏳ après GO | — | Fusion possible avec dressing #1 |
 | 22 | Portage bébé physiologique | 54K | OK ~73 € | ✅ pilote | **OFFRE TROUVÉE** (GMC) | Marques installées ; GMC enfants |
-| 23 | Arts de la table bois | 48K | OK ~72 € | ⏳ après GO | — | Panier OK sur planche apéro |
+| 23 | Arts de la table bois | 48K | OK ~72 € | ⏳ | **FOURNISSEUR À TESTER** ~36–51 € | Panier OK sur planche apéro |
 | 24 | Sauna / bien-être thermique | 47K | *à sonder* | ⏳ après GO | — | Cabine souvent >400 € ; ≠ couverture sauna STOP |
 | 25 | Aire de jeux jardin | 47K | — | ⏳ après GO | — | GMC enfants + CE |
 | 26 | Jeux plein air premium | 43K | LOW-TICKET | ⏳ après GO | — | Pack premium obligatoire (mölkky ~7 €) |
