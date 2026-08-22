@@ -36,6 +36,12 @@ Idéation multi-sources faite (52 PUR indexées + ~37 UNIVERS brutes) — dossie
 Synonymes STOP lot 1 : escalier/marchepied/rampe chien ; cheminée électrique / effet flamme ; réveil lumière / simulateur d'aube ; moniteur/détecteur/capteur CO2 intérieur.
 
 
+
+**Lots 2–3 (suite)** — cumul : [`survivants-pur-cumul.md`](analyses/2026-08-22-recherche-30x30/survivants-pur-cumul.md). Survivants volume ajoutés : tente gonflable (12,1K), machine sous vide (14,8K), parc bébé (18,1K), tarière (12,1K), kettlebell (27,1K), humidificateur d'air (33,1K). Cas limite : récupérateur d'eau de pluie (8,1K). STOP supplémentaires (échantillon) : pulvérisateur dos, convertisseur sinus, berceau cododo, serre tunnel, extracteur miel, top case moto, remorque vélo, auvent, airless, taille-haie perche, pompe filtration, niche chat, kit toilettage, panneau japonais, lombricomposteur.
+
+**Limite SEMrush** : quota horaire de rapports atteint le 22/08 ~nuit — reprise mesures UNIVERS / reste PUR après reset (~42 min au moment du blocage). Dressing petit espace : têtes Overview déjà lues (dressing 135K, penderie 33K…) — consolidation / net marque / SERP **non faites**.
+
+
 ## Salve Hakim — niches univers à catalogue profond (15/08/2026, niveau 0)
 
 Six univers apportés par Hakim le 15/08/2026, à traiter en **mode Kraken `catalogue-volume`** (seuils DECISION_PROJET 08/08 : total boutique nettoyé ≥ 30 000, confort 40 000+, collection cœur ≥ 1 000, secondaire ≥ 500, 200 concepts produits, ratio prix/CPC ≥ 100). **Niveau 0** : aucune mesure SEMrush, aucune SERP nettoyée, aucune fiche AliExpress vérifiée. Plan d'analyse complet (7 étapes, graines, décisions attendues) : [plans/2026-08-15-plan-analyse-niches-univers.md](plans/2026-08-15-plan-analyse-niches-univers.md). Graines versées dans `familles-exploration.md` (salve du 15/08).
