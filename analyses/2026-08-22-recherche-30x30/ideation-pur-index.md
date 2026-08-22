@@ -1,8 +1,8 @@
 # INDEX — Toutes les idées PRODUIT PUR du 22/08/2026 (recherche 30×30)
 
-Index de consolidation, sans nouveau contenu ni nouvelle recherche. Fusionne les quatre salves PRODUIT PUR produites aujourd'hui pour la recherche « 30 PUR + 30 UNIVERS » ([plan](../plans/2026-08-22-plan-recherche-30x30-pur-univers.md)). Aucun scoring, aucun volume, aucun GO/STOP ici — cet index sert uniquement de table de passage vers la phase `recherche-mots-cles`.
+Index de consolidation, sans nouveau contenu ni nouvelle recherche. Fusionne les cinq salves PRODUIT PUR produites aujourd'hui pour la recherche « 30 PUR + 30 UNIVERS » ([plan](../plans/2026-08-22-plan-recherche-30x30-pur-univers.md)). Aucun scoring, aucun volume, aucun GO/STOP ici — cet index sert uniquement de table de passage vers la phase `recherche-mots-cles`.
 
-**Total : 82 idées PRODUIT PUR** (12 + 25 + 15 + 30), zéro doublon connu entre les quatre salves à la date de rédaction (chacune a fait son propre anti-doublon contre le registre et les salves précédentes du jour — voir les sections « Doublons registre évités » de chaque rapport source pour le détail des vérifications). Rappel : seulement **12 survivants volume** confirmés sur les 52 premières idées après mesure express SEMrush ([survivants-pur-cumul.md](survivants-pur-cumul.md)) — la 4ᵉ salve (complément 2) a été produite en urgence pour combler cet écart, mais reste elle aussi **non mesurée**.
+**Total : 107 idées PRODUIT PUR** (12 + 25 + 15 + 30 + 25), zéro doublon connu entre les cinq salves à la date de rédaction (chacune a fait son propre anti-doublon contre le registre et les salves précédentes du jour — voir les sections « Doublons registre évités » de chaque rapport source pour le détail des vérifications). Rappel : seulement **12 survivants volume** confirmés sur les 52 premières idées après mesure express SEMrush ([survivants-pur-cumul.md](survivants-pur-cumul.md)), et **21 survivants** au total après mesure des salves suivantes ([shortlist-partielle-pur.md](shortlist-partielle-pur.md)) — la 5ᵉ salve (complément 3) a été produite en urgence pour combler l'écart restant vers 30, mais reste elle aussi **non mesurée**.
 
 | Rapport source | Idées PUR | Fenêtre horaire | Méthode |
 |---|---|---|---|
@@ -10,6 +10,7 @@ Index de consolidation, sans nouveau contenu ni nouvelle recherche. Fusionne les
 | [ideation-amazon-vevor-flippa.md](ideation-amazon-vevor-flippa.md) | 25 | 04:00–06:10 | Amazon FR Best Sellers, VEVOR.fr, Flippa |
 | [ideation-trendtrack-pur-complement.md](ideation-trendtrack-pur-complement.md) | 15 | matin (complément) | WebSearch (budget TrendTrack épuisé en amont) |
 | [ideation-pur-complement2.md](ideation-pur-complement2.md) | 30 | matin (complément 2, urgence) | WebSearch (budget TrendTrack non consommé) |
+| [ideation-pur-complement3.md](ideation-pur-complement3.md) | 25 | matin (complément 3, urgence 21→30) | TrendTrack `google-ads/query` par catégories (360 crédits) + WebSearch |
 
 ## Table consolidée
 
@@ -97,15 +98,41 @@ Index de consolidation, sans nouveau contenu ni nouvelle recherche. Fusionne les
 | 80 | Panneau acoustique mural design | Complément 2 #28 | AcoustiWave, Perfect Acoustic, Kollori | 100-500 € (cœur 100-350 €) | Design vs mousse acoustique studio brute <50 € |
 | 81 | Tente/cabine studio isolation acoustique portable | Complément 2 #29 | Centre Chopin, Soundstagenetwork | 45-545 € (cœur 210-545 €) | `SIGNAL_PRIX_PANIER` partiel — entrée <100 € incomplète |
 | 82 | Humidor électrique cave à cigares climatisée | Complément 2 #30 | Cigare Gentleman, Humidor Discount, Cigarestore | 300-800 € (cœur 300-400 €) | Public de niche, distinct de l'humidor passif en bois <150 € |
+| 83 | Stabilisateur gimbal pour smartphone (3 axes motorisé) | Complément 3 #1 | TT cat. Photo/Video 22/08/2026 ; DJI Osmo Mobile, Zhiyun, Hohem | 159-219 € | Suivi de sujet auto/poids supporté, distinct du trépied simple |
+| 84 | Kit d'éclairage studio photo pliable (softbox multi-lampes) | Complément 3 #2 | TT cat. Photo/Video ; Neewer, Godox FR | 90-250 € en kit (unité seule <50 €) | `SIGNAL_PRIX_PANIER` — ne retenir qu'en kit multi-lampes |
+| 85 | Téléprompteur portable pour smartphone | Complément 3 #3 | TT cat. Photo/Video ; Elgato, Padcaster, Glide Gear FR | 60-450 € (cœur 100-250 €) | Compatibilité smartphone/tablette, app associée |
+| 86 | Fond de studio photo escamotable sur enrouleur | Complément 3 #4 | TT cat. Photo/Video ; Westcott, Lastolite FR | 90-280 € | Mécanisme rétractable, distinct du fond en tissu à accrocher |
+| 87 | Kit de micro cravate sans fil double canal | Complément 3 #5 | TT cat. Photo/Video ; DJI Mic, Hollyland, Rode Wireless FR | 77-484 € (cœur 229-299 €) | Portée/autonomie/canaux, distinct du micro filaire |
+| 88 | Cajon (instrument de percussion en caisse de bois) | Complément 3 #6 | TT cat. Musique 22/08/2026 ; Meinl, Schlagwerk, Thomann FR | 50-300 € (cœur 110-200 €) | Essence de bois/timbre, distinct du djembé low-ticket |
+| 89 | Étui rigide pour instrument à cordes (violon/violoncelle) | Complément 3 #7 | TT cat. Musique ; Bam Cases, Gewa, Thomann FR | Violon 150-270 € ; violoncelle 200-665 €+ | Niveau de protection selon taille instrument |
+| 90 | Contrôleur DJ pour débutant | Complément 3 #8 | TT cat. Musique ; Pioneer DDJ, Numark, Hercules FR | 80-350 € (cœur 150-300 €) | Nombre de pads/canaux, distinct de la platine vinyle pro |
+| 91 | Gilet airbag moto électronique | Complément 3 #9 | TT cat. Moto 22/08/2026 ; In&Motion, Helite, Alpinestars Tech-Air FR | 400-1000 € (entrée 350-400 €) | **Cas limite prix** — cœur souvent >400 €, à sonder en priorité |
+| 92 | Intercom Bluetooth pour casque moto | Complément 3 #10 | TT cat. Moto ; Sena, Cardo, Midland FR | 80-400 € (cœur 120-250 €) | Portée/utilisateurs connectés, distinct du kit mains libres téléphone |
+| 93 | Sacoche de réservoir moto magnétique étanche | Complément 3 #11 | TT cat. Moto ; Givi, Kappa, Oxford FR | 90-225 € (entrée non étanche <30 € écartée) | `SIGNAL_PRIX_PANIER` — segment étanche/magnétique uniquement |
+| 94 | Filtre à eau portable à gravité (randonnée/camping) | Complément 3 #12 | TT cat. Camping 22/08/2026 ; LifeStraw, Katadyn, Sawyer, Platypus FR | 60-120 € (paille seule <30 € écartée) | `SIGNAL_PRIX_PANIER` — système gravité complet uniquement |
+| 95 | Réservoir d'eau souple renforcé pour van/camping | Complément 3 #13 | TT cat. Camping ; Reimo, Vango, Coleman FR | 70-130 € (jerrican basique <15 € écarté) | Litrage/matériau alimentaire, distinct du bidon GSB |
+| 96 | Réchaud multicombustible de camping | Complément 3 #14 | TT cat. Camping ; MSR, Primus, Coleman FR | 170-220 € | Compatibilité carburants, distinct du réchaud gaz simple GSB |
+| 97 | Chaise haute bébé évolutive | Complément 3 #15 | TT cat. Parentalité 22/08/2026 ; Stokke, Ikea, Badabulle FR | 80-300 € | Réglages évolutifs naissance-enfant |
+| 98 | Transat/balancelle électrique bébé | Complément 3 #16 | TT cat. Parentalité ; 4moms, BabyBjörn, Ingenuity FR | 80-260 € | Bercement automatique programmable |
+| 99 | Table à langer murale pliante | Complément 3 #17 | TT cat. Parentalité ; Vertbaudet, Aubert, IKEA FR | 100-500 €+ (cœur 100-250 €) | Charge max/repli, usage petit espace |
+| 100 | Distributeur automatique de croquettes connecté | Complément 3 #18 | TT cat. Aquariophilie/animalerie ; PetSafe, Petkit, Catit FR | 70-130 € (modèles simples <30 € écartés) | `SIGNAL_PRIX_PANIER` — segment connecté/programmable uniquement |
+| 101 | Sac à dos de transport premium pour chat/petit chien | Complément 3 #19 | TT cat. Aquariophilie/animalerie ; Petsfit, Henkelion, U-pet FR | 30-120 € (cœur 60-100 €) | Fenêtre panoramique/ventilation, distinct de la cage rigide |
+| 102 | Chaise ergonomique assis-genoux | Complément 3 #20 | TT cat. gestion douleur/confort ; Varier, Kneeling Chair FR, Topstar | 50-600 €+ (cœur 150-250 €) | Posture par répartition du poids ; vigilance vs exclusion « chaise gaming/bureau » |
+| 103 | Coussin de positionnement corps en U (grande taille) | Complément 3 #21 | TT cat. gestion douleur/confort ; Podlarox, Cocoonababy adulte FR | 50-120 € (coussins basiques <30 € écartés) | `SIGNAL_PRIX_PANIER` — segment grande taille/fibre haute densité |
+| 104 | Sommier électrique relevable | Complément 3 #22 | TT cat. Literie 22/08/2026 ; Bultex, Epeda, Tediber FR | 330-590 € | Moteur/mémoire de position, distinct du sommier fixe GSB |
+| 105 | Armoire à chaussures rotative électrique | Complément 3 #23 | TT cat. Rangement 22/08/2026 ; HOMCOM, iSmart Shoe FR | 100-200 € | `SIGNAL_PRIX_PANIER` partiel — distinct du meuble statique GSB |
+| 106 | Support mural/plafond pour skis et snowboards | Complément 3 #24 | TT cat. Rangement ; Suspenz, StoreYourBoard FR | 50-100 € (cœur 60-90 €) | **Cas limite prix bas** — kit multi-paires à privilégier |
+| 107 | Armoire à bijoux avec miroir et éclairage LED rotatif | Complément 3 #25 | TT cat. Rangement ; SONGMICS, HOMCOM FR | 85-350 € (cœur 85-130 €) | Compartiments/fixation/éclairage LED, distinct de la boîte simple |
 
 ## Signaux à surveiller en phase `recherche-mots-cles`
 
-- **`SIGNAL_PRIX_PANIER`** (ticket unitaire sous 50 €, à valider en logique panier avant de retenir en hero) : #36 (baby float, non lu FR), #37 (film vitrage, pack/m² à confirmer), #43 partiel (masque de sommeil — seule la version connectée qualifie), #51 (bruit blanc, cœur de marché sous 50 €), #61 (miroir grossissant, entrée <50 € dense), #64 (boule anti-incendie, unité seule <50 €, à retenir en pack), #81 partiel (tente studio acoustique, entrée <100 € incomplète).
-- **Risque de brand lock signalé explicitement** : #44 (kit toilettage aspirant — Neakasa domine les résultats FR identifiés), #9 (climatiseur collier — confiance C, signal non vérifié en page), #58 (tireuse à bière — Krups/Philips présents sur le compact), #67 (serrure connectée — Nuki leader identifié).
-- **Risque GSB partiel signalé** : #64 (boule anti-incendie, Castorama vend l'unité), #68 (kit alarme, Somfy vendu chez Bricomarché — Ajax non-GSB identifié).
-- **Cas limite prix (majorité des modèles hors tranche haute)** : #75 (tente bulle transparente), #76 (tente sauna portable outdoor) — à sonder en priorité avant toute mesure de volume.
+- **`SIGNAL_PRIX_PANIER`** (ticket unitaire sous 50 €, à valider en logique panier avant de retenir en hero) : #36 (baby float, non lu FR), #37 (film vitrage, pack/m² à confirmer), #43 partiel (masque de sommeil — seule la version connectée qualifie), #51 (bruit blanc, cœur de marché sous 50 €), #61 (miroir grossissant, entrée <50 € dense), #64 (boule anti-incendie, unité seule <50 €, à retenir en pack), #81 partiel (tente studio acoustique, entrée <100 € incomplète), #84 (softbox, unité seule <50 €, kit multi-lampes uniquement), #93 (sacoche réservoir moto, entrée non étanche <30 € écartée), #94 (filtre à eau gravité, paille seule <30 € écartée), #100 (distributeur croquettes, modèles simples <30 € écartés), #103 (coussin en U, coussins basiques <30 € écartés), #105 partiel (armoire à chaussures, distinct du meuble statique GSB).
+- **Risque de brand lock signalé explicitement** : #44 (kit toilettage aspirant — Neakasa domine les résultats FR identifiés), #9 (climatiseur collier — confiance C, signal non vérifié en page), #58 (tireuse à bière — Krups/Philips présents sur le compact), #67 (serrure connectée — Nuki leader identifié), #83 (gimbal — DJI/Zhiyun/Hohem), #87 (micro cravate — DJI Mic en tête), #90 (contrôleur DJ — Pioneer DDJ leader), #92 (intercom moto — Sena/Cardo leaders), #98 (transat électrique bébé — 4moms premium).
+- **Risque GSB partiel signalé** : #64 (boule anti-incendie, Castorama vend l'unité), #68 (kit alarme, Somfy vendu chez Bricomarché — Ajax non-GSB identifié), #97 (chaise haute évolutive, Ikea présent en entrée), #102 (chaise ergonomique assis-genoux, vigilance vs exclusion critères « chaise gaming/bureau »).
+- **Cas limite prix (majorité des modèles hors tranche haute)** : #75 (tente bulle transparente), #76 (tente sauna portable outdoor), #91 (gilet airbag moto, cœur souvent >400 €) — à sonder en priorité avant toute mesure de volume.
+- **Cas limite prix bas** : #106 (support mural skis, cœur souvent proche du plancher 50 €, privilégier le kit multi-paires).
 - **Confiance C (signal faible, non vérifié en page)** : #9, #36.
-- Aucune mesure de volume (SEMrush), aucun Google Trends, aucune sonde Google Shopping formalisée n'a été faite pour aucune des 82 idées — c'est l'objet de la phase suivante, pas de celle-ci. Rappel du taux de survie observé sur les 52 premières : **12/52 (≈23 %)** — à garder en tête pour dimensionner l'effort de mesure sur les 30 nouvelles.
+- Aucune mesure de volume (SEMrush), aucun Google Trends, aucune sonde Google Shopping formalisée n'a été faite pour aucune des 107 idées — c'est l'objet de la phase suivante, pas de celle-ci. Rappel du taux de survie observé sur les 52 premières : **12/52 (≈23 %)** — à garder en tête pour dimensionner l'effort de mesure sur les 25 nouvelles.
 
 ## Limites de cet index
 
