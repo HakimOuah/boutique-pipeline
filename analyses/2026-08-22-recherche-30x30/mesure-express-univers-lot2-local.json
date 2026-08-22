@@ -1,0 +1,610 @@
+[
+  {
+    "id": "U1",
+    "name": "Dressing petit espace",
+    "families": [
+      {
+        "volume": "135,0K",
+        "kd": "41",
+        "cpc": "0,25 $",
+        "limit": false,
+        "q": "dressing",
+        "volume_n": 135000
+      },
+      {
+        "volume": "14,8K",
+        "kd": "31",
+        "cpc": "1,03 $",
+        "limit": false,
+        "q": "dressing sur mesure",
+        "volume_n": 14800
+      },
+      {
+        "volume": "33,1K",
+        "kd": "39",
+        "cpc": "0,21 $",
+        "limit": false,
+        "q": "penderie",
+        "volume_n": 33100
+      },
+      {
+        "volume": "12,1K",
+        "kd": "27",
+        "cpc": "0,18 $",
+        "limit": false,
+        "q": "meuble chaussures",
+        "volume_n": 12100
+      },
+      {
+        "volume": "2,9K",
+        "kd": "27",
+        "cpc": "0,35 $",
+        "limit": false,
+        "q": "rangement dressing",
+        "volume_n": 2900
+      },
+      {
+        "volume": "4,4K",
+        "kd": "27",
+        "cpc": "1,48 $",
+        "limit": false,
+        "q": "placard sur mesure",
+        "volume_n": 4400
+      }
+    ],
+    "sum_brut_indicatif": 202300,
+    "n_over_1k": 6,
+    "max": 135000,
+    "verdict": "SURVIT_EXPRESS"
+  },
+  {
+    "id": "U2",
+    "name": "Lits chien design",
+    "families": [
+      {
+        "volume": "14,8K",
+        "kd": "19",
+        "cpc": "0,40 $",
+        "limit": false,
+        "q": "panier chien",
+        "volume_n": 14800
+      },
+      {
+        "volume": "6,6K",
+        "kd": "17",
+        "cpc": "0,38 $",
+        "limit": false,
+        "q": "lit pour chien",
+        "volume_n": 6600
+      },
+      {
+        "volume": "5,4K",
+        "kd": "25",
+        "cpc": "0,45 $",
+        "limit": false,
+        "q": "coussin chien",
+        "volume_n": 5400
+      },
+      {
+        "volume": "390",
+        "kd": "21",
+        "cpc": "0,34 $",
+        "limit": false,
+        "q": "panier chien xl",
+        "volume_n": 390
+      },
+      {
+        "volume": "260",
+        "kd": "16",
+        "cpc": "0,18 $",
+        "limit": false,
+        "q": "niche interieure chien",
+        "volume_n": 260
+      }
+    ],
+    "sum_brut_indicatif": 27450,
+    "n_over_1k": 3,
+    "max": 14800,
+    "verdict": "CAS_LIMITE_UNIVERS"
+  },
+  {
+    "id": "U3",
+    "name": "Rideaux occultation",
+    "families": [
+      {
+        "volume": "33,1K",
+        "kd": "35",
+        "cpc": "0,47 $",
+        "limit": false,
+        "q": "rideau occultant",
+        "volume_n": 33100
+      },
+      {
+        "volume": "33,1K",
+        "kd": "29",
+        "cpc": "0,28 $",
+        "limit": false,
+        "q": "rideau thermique",
+        "volume_n": 33100
+      },
+      {
+        "volume": "4,4K",
+        "kd": "32",
+        "cpc": "0,77 $",
+        "limit": false,
+        "q": "rideau phonique",
+        "volume_n": 4400
+      },
+      {
+        "volume": "1,9K",
+        "kd": "17",
+        "cpc": "0,45 $",
+        "limit": false,
+        "q": "rideau velours",
+        "volume_n": 1900
+      },
+      {
+        "volume": "1,6K",
+        "kd": "29",
+        "cpc": "0,25 $",
+        "limit": false,
+        "q": "rideau isolant",
+        "volume_n": 1600
+      }
+    ],
+    "sum_brut_indicatif": 74100,
+    "n_over_1k": 5,
+    "max": 33100,
+    "verdict": "SURVIT_EXPRESS"
+  },
+  {
+    "id": "U4",
+    "name": "Chambre enfant deco",
+    "families": [
+      {
+        "volume": "9,9K",
+        "kd": "31",
+        "cpc": "0 $",
+        "limit": false,
+        "q": "veilleuse enfant",
+        "volume_n": 9900
+      },
+      {
+        "volume": "6,6K",
+        "kd": "23",
+        "cpc": "0 $",
+        "limit": false,
+        "q": "tapis chambre enfant",
+        "volume_n": 6600
+      },
+      {
+        "volume": "1,0K",
+        "kd": "16",
+        "cpc": "0 $",
+        "limit": false,
+        "q": "stickers muraux enfant",
+        "volume_n": 1000
+      },
+      {
+        "volume": "1,9K",
+        "kd": "26",
+        "cpc": "0 $",
+        "limit": false,
+        "q": "deco chambre enfant",
+        "volume_n": 1900
+      },
+      {
+        "volume": "3,6K",
+        "kd": "24",
+        "cpc": "0,18 $",
+        "limit": false,
+        "q": "mobile bebe",
+        "volume_n": 3600
+      }
+    ],
+    "sum_brut_indicatif": 23000,
+    "n_over_1k": 5,
+    "max": 9900,
+    "verdict": "CAS_LIMITE_UNIVERS"
+  },
+  {
+    "id": "U5",
+    "name": "Home gym",
+    "families": [
+      {
+        "volume": "320",
+        "kd": "28",
+        "cpc": "0,53 $",
+        "limit": false,
+        "q": "musculation maison",
+        "volume_n": 320
+      },
+      {
+        "volume": "2,4K",
+        "kd": "20",
+        "cpc": "0,41 $",
+        "limit": false,
+        "q": "home gym",
+        "volume_n": 2400
+      },
+      {
+        "volume": "14,8K",
+        "kd": "26",
+        "cpc": "0,20 $",
+        "limit": false,
+        "q": "banc de musculation",
+        "volume_n": 14800
+      },
+      {
+        "volume": "1,6K",
+        "kd": "15",
+        "cpc": "0,42 $",
+        "limit": false,
+        "q": "rack musculation",
+        "volume_n": 1600
+      },
+      {
+        "volume": "2,9K",
+        "kd": "22",
+        "cpc": "0,17 $",
+        "limit": false,
+        "q": "halteres",
+        "volume_n": 2900
+      }
+    ],
+    "sum_brut_indicatif": 22020,
+    "n_over_1k": 4,
+    "max": 14800,
+    "verdict": "CAS_LIMITE_UNIVERS"
+  },
+  {
+    "id": "U6",
+    "name": "Bar mixologie",
+    "families": [
+      {
+        "volume": "5,4K",
+        "kd": "19",
+        "cpc": "0,28 $",
+        "limit": false,
+        "q": "cocktail shaker",
+        "volume_n": 5400
+      },
+      {
+        "volume": "20",
+        "kd": null,
+        "cpc": "0,48 $",
+        "limit": false,
+        "q": "barman debutant",
+        "volume_n": 20
+      },
+      {
+        "volume": "5,4K",
+        "kd": "18",
+        "cpc": "0,42 $",
+        "limit": false,
+        "q": "verre cocktail",
+        "volume_n": 5400
+      },
+      {
+        "volume": "170",
+        "kd": "12",
+        "cpc": "0,27 $",
+        "limit": false,
+        "q": "ustensile cocktail",
+        "volume_n": 170
+      },
+      {
+        "volume": "30",
+        "kd": null,
+        "cpc": "1,20 $",
+        "limit": false,
+        "q": "bar a domicile",
+        "volume_n": 30
+      }
+    ],
+    "sum_brut_indicatif": 11020,
+    "n_over_1k": 2,
+    "max": 5400,
+    "verdict": "SOUS_PLANCHER_EXPRESS"
+  },
+  {
+    "id": "U7",
+    "name": "Vin oenologie",
+    "families": [
+      {
+        "volume": "4,4K",
+        "kd": "16",
+        "cpc": "0,29 $",
+        "limit": false,
+        "q": "tire bouchon electrique",
+        "volume_n": 4400
+      },
+      {
+        "volume": "60,5K",
+        "kd": "27",
+        "cpc": "0,30 $",
+        "limit": false,
+        "q": "cave a vin",
+        "volume_n": 60500
+      },
+      {
+        "volume": "20",
+        "kd": null,
+        "cpc": "0 $",
+        "limit": false,
+        "q": "aerator vin",
+        "volume_n": 20
+      },
+      {
+        "volume": "12,1K",
+        "kd": "25",
+        "cpc": "0,32 $",
+        "limit": false,
+        "q": "verre a vin",
+        "volume_n": 12100
+      },
+      {
+        "volume": "720",
+        "kd": "21",
+        "cpc": "0,29 $",
+        "limit": false,
+        "q": "accessoire vin",
+        "volume_n": 720
+      }
+    ],
+    "sum_brut_indicatif": 77740,
+    "n_over_1k": 3,
+    "max": 60500,
+    "verdict": "SURVIT_EXPRESS"
+  },
+  {
+    "id": "U8",
+    "name": "Detailing auto",
+    "families": [
+      {
+        "volume": "8,1K",
+        "kd": "32",
+        "cpc": "0,32 $",
+        "limit": false,
+        "q": "polish voiture",
+        "volume_n": 8100
+      },
+      {
+        "volume": "70",
+        "kd": "24",
+        "cpc": "0,25 $",
+        "limit": false,
+        "q": "lustreuse auto",
+        "volume_n": 70
+      },
+      {
+        "volume": "210",
+        "kd": "15",
+        "cpc": "0,37 $",
+        "limit": false,
+        "q": "kit detailing",
+        "volume_n": 210
+      },
+      {
+        "volume": "0",
+        "kd": null,
+        "cpc": "0 $",
+        "limit": false,
+        "q": "mousse lance",
+        "volume_n": 0
+      },
+      {
+        "volume": "12,1K",
+        "kd": "31",
+        "cpc": "0,21 $",
+        "limit": false,
+        "q": "aspirateur voiture",
+        "volume_n": 12100
+      }
+    ],
+    "sum_brut_indicatif": 20480,
+    "n_over_1k": 2,
+    "max": 12100,
+    "verdict": "CAS_LIMITE_UNIVERS"
+  },
+  {
+    "id": "U9",
+    "name": "Jardinage interieur",
+    "families": [
+      {
+        "volume": "590",
+        "kd": "23",
+        "cpc": "0,28 $",
+        "limit": false,
+        "q": "potager interieur",
+        "volume_n": 590
+      },
+      {
+        "volume": "2,4K",
+        "kd": "15",
+        "cpc": "0,19 $",
+        "limit": false,
+        "q": "lampe horticole",
+        "volume_n": 2400
+      },
+      {
+        "volume": "170",
+        "kd": "13",
+        "cpc": "0,14 $",
+        "limit": false,
+        "q": "jardin hydroponique",
+        "volume_n": 170
+      },
+      {
+        "volume": "260",
+        "kd": "12",
+        "cpc": "0,19 $",
+        "limit": false,
+        "q": "serre interieure",
+        "volume_n": 260
+      },
+      {
+        "volume": "8,1K",
+        "kd": "26",
+        "cpc": "0,49 $",
+        "limit": false,
+        "q": "culture indoor",
+        "volume_n": 8100
+      }
+    ],
+    "sum_brut_indicatif": 11520,
+    "n_over_1k": 2,
+    "max": 8100,
+    "verdict": "SOUS_PLANCHER_EXPRESS"
+  },
+  {
+    "id": "U10",
+    "name": "Entretien velo",
+    "families": [
+      {
+        "volume": "880",
+        "kd": "23",
+        "cpc": "0,12 $",
+        "limit": false,
+        "q": "support velo atelier",
+        "volume_n": 880
+      },
+      {
+        "volume": "390",
+        "kd": "13",
+        "cpc": "0,19 $",
+        "limit": false,
+        "q": "outil velo",
+        "volume_n": 390
+      },
+      {
+        "volume": "880",
+        "kd": "17",
+        "cpc": "0,16 $",
+        "limit": false,
+        "q": "kit reparation velo",
+        "volume_n": 880
+      },
+      {
+        "volume": "110",
+        "kd": "16",
+        "cpc": "0,29 $",
+        "limit": false,
+        "q": "nettoyeur velo",
+        "volume_n": 110
+      },
+      {
+        "volume": "18,1K",
+        "kd": "39",
+        "cpc": "0,15 $",
+        "limit": false,
+        "q": "porte velo",
+        "volume_n": 18100
+      }
+    ],
+    "sum_brut_indicatif": 20360,
+    "n_over_1k": 1,
+    "max": 18100,
+    "verdict": "SOUS_PLANCHER_EXPRESS"
+  },
+  {
+    "id": "U11",
+    "name": "Cafe specialite",
+    "families": [
+      {
+        "volume": "3,6K",
+        "kd": "39",
+        "cpc": "0,20 $",
+        "limit": false,
+        "q": "moulin a cafe",
+        "volume_n": 3600
+      },
+      {
+        "volume": "2,9K",
+        "kd": "39",
+        "cpc": "0,41 $",
+        "limit": false,
+        "q": "machine espresso",
+        "volume_n": 2900
+      },
+      {
+        "volume": "1,6K",
+        "kd": "31",
+        "cpc": "0,20 $",
+        "limit": false,
+        "q": "filtre a cafe",
+        "volume_n": 1600
+      },
+      {
+        "volume": "170",
+        "kd": "8",
+        "cpc": "0,30 $",
+        "limit": false,
+        "q": "accessoire barista",
+        "volume_n": 170
+      },
+      {
+        "volume": "2,4K",
+        "kd": "15",
+        "cpc": "0,35 $",
+        "limit": false,
+        "q": "chemex",
+        "volume_n": 2400
+      }
+    ],
+    "sum_brut_indicatif": 10670,
+    "n_over_1k": 4,
+    "max": 3600,
+    "verdict": "SOUS_PLANCHER_EXPRESS"
+  },
+  {
+    "id": "U12",
+    "name": "Randonnee legere",
+    "families": [
+      {
+        "volume": "8,1K",
+        "kd": "17",
+        "cpc": "0,15 $",
+        "limit": false,
+        "q": "baton de marche",
+        "volume_n": 8100
+      },
+      {
+        "volume": "1,9K",
+        "kd": "31",
+        "cpc": "0,16 $",
+        "limit": false,
+        "q": "sac a dos randonnee",
+        "volume_n": 1900
+      },
+      {
+        "volume": "2,4K",
+        "kd": "30",
+        "cpc": "0,12 $",
+        "limit": false,
+        "q": "rechaud camping",
+        "volume_n": 2400
+      },
+      {
+        "volume": "110",
+        "kd": "16",
+        "cpc": "0,17 $",
+        "limit": false,
+        "q": "filtre eau randonnee",
+        "volume_n": 110
+      },
+      {
+        "volume": "590",
+        "kd": "19",
+        "cpc": "0,12 $",
+        "limit": false,
+        "q": "tente ultra legere",
+        "volume_n": 590
+      }
+    ],
+    "sum_brut_indicatif": 13100,
+    "n_over_1k": 3,
+    "max": 8100,
+    "verdict": "SOUS_PLANCHER_EXPRESS"
+  }
+]

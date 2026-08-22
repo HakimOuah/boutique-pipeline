@@ -1,0 +1,410 @@
+[
+  {
+    "id": "P35",
+    "name": "Cheminée bioéthanol",
+    "keywords": [
+      {
+        "volume": "2,9K",
+        "kd": "15",
+        "cpc": "0,66 $",
+        "limit": false,
+        "q": "cheminee bioethanol",
+        "volume_n": 2900
+      },
+      {
+        "volume": "9,9K",
+        "kd": "17",
+        "cpc": "0,59 $",
+        "limit": false,
+        "q": "cheminee ethanol",
+        "volume_n": 9900
+      },
+      {
+        "volume": "1,9K",
+        "kd": "24",
+        "cpc": "0,54 $",
+        "limit": false,
+        "q": "poele bioethanol",
+        "volume_n": 1900
+      }
+    ],
+    "best": "cheminee ethanol",
+    "best_vol": 9900,
+    "max_volume": 9900,
+    "verdict": "CAS_LIMITE"
+  },
+  {
+    "id": "P36",
+    "name": "Range-buches",
+    "keywords": [
+      {
+        "volume": "1,6K",
+        "kd": "24",
+        "cpc": "0,22 $",
+        "limit": false,
+        "q": "range buches",
+        "volume_n": 1600
+      },
+      {
+        "volume": "480",
+        "kd": "24",
+        "cpc": "0,34 $",
+        "limit": false,
+        "q": "porte buches",
+        "volume_n": 480
+      },
+      {
+        "volume": "10",
+        "kd": null,
+        "cpc": "0,27 $",
+        "limit": false,
+        "q": "range-buches",
+        "volume_n": 10
+      }
+    ],
+    "best": "range buches",
+    "best_vol": 1600,
+    "max_volume": 1600,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P37",
+    "name": "Table rempotage",
+    "keywords": [
+      {
+        "volume": "1,6K",
+        "kd": "25",
+        "cpc": "0,25 $",
+        "limit": false,
+        "q": "table de rempotage",
+        "volume_n": 1600
+      },
+      {
+        "volume": "20",
+        "kd": null,
+        "cpc": "0 $",
+        "limit": false,
+        "q": "table rempotage jardin",
+        "volume_n": 20
+      },
+      {
+        "volume": "90",
+        "kd": "23",
+        "cpc": "0,27 $",
+        "limit": false,
+        "q": "etabli jardin",
+        "volume_n": 90
+      }
+    ],
+    "best": "table de rempotage",
+    "best_vol": 1600,
+    "max_volume": 1600,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P38",
+    "name": "Fauteuil zero G",
+    "keywords": [
+      {
+        "volume": "30",
+        "kd": null,
+        "cpc": "0,84 $",
+        "limit": false,
+        "q": "fauteuil zero gravite",
+        "volume_n": 30
+      },
+      {
+        "volume": "20",
+        "kd": null,
+        "cpc": "0,30 $",
+        "limit": false,
+        "q": "transat zero gravite",
+        "volume_n": 20
+      },
+      {
+        "volume": "20",
+        "kd": null,
+        "cpc": "0,26 $",
+        "limit": false,
+        "q": "chaise zero gravite",
+        "volume_n": 20
+      }
+    ],
+    "best": "fauteuil zero gravite",
+    "best_vol": 30,
+    "max_volume": 30,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P39",
+    "name": "Bouee tractee",
+    "keywords": [
+      {
+        "volume": "2,4K",
+        "kd": "25",
+        "cpc": "0,45 $",
+        "limit": false,
+        "q": "bouee tractee",
+        "volume_n": 2400
+      },
+      {
+        "volume": "50",
+        "kd": "12",
+        "cpc": "0,33 $",
+        "limit": false,
+        "q": "bouee tractable",
+        "volume_n": 50
+      },
+      {
+        "volume": null,
+        "kd": null,
+        "cpc": "n/a",
+        "limit": false,
+        "q": "bouee ski nautique",
+        "volume_n": null
+      }
+    ],
+    "best": "bouee tractee",
+    "best_vol": 2400,
+    "max_volume": 2400,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P40",
+    "name": "Tyrolienne jardin",
+    "keywords": [
+      {
+        "volume": "320",
+        "kd": "9",
+        "cpc": "0,30 $",
+        "limit": false,
+        "q": "tyrolienne jardin",
+        "volume_n": 320
+      },
+      {
+        "volume": "720",
+        "kd": "13",
+        "cpc": "0 $",
+        "limit": false,
+        "q": "tyrolienne enfant",
+        "volume_n": 720
+      },
+      {
+        "volume": "260",
+        "kd": "10",
+        "cpc": "0,37 $",
+        "limit": false,
+        "q": "kit tyrolienne",
+        "volume_n": 260
+      }
+    ],
+    "best": "tyrolienne enfant",
+    "best_vol": 720,
+    "max_volume": 720,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P41",
+    "name": "Devidoir retractable",
+    "keywords": [
+      {
+        "volume": "210",
+        "kd": "19",
+        "cpc": "0,26 $",
+        "limit": false,
+        "q": "devidoir tuyau",
+        "volume_n": 210
+      },
+      {
+        "volume": "18,1K",
+        "kd": "26",
+        "cpc": "0,14 $",
+        "limit": false,
+        "q": "enrouleur tuyau arrosage",
+        "volume_n": 18100
+      },
+      {
+        "volume": "20",
+        "kd": null,
+        "cpc": "0 $",
+        "limit": false,
+        "q": "devidoir retractable",
+        "volume_n": 20
+      }
+    ],
+    "best": "enrouleur tuyau arrosage",
+    "best_vol": 18100,
+    "max_volume": 18100,
+    "verdict": "SURVIT"
+  },
+  {
+    "id": "P42",
+    "name": "Chariot jardin",
+    "keywords": [
+      {
+        "volume": "3,6K",
+        "kd": "19",
+        "cpc": "0,24 $",
+        "limit": false,
+        "q": "chariot de jardin",
+        "volume_n": 3600
+      },
+      {
+        "volume": "720",
+        "kd": "21",
+        "cpc": "0,13 $",
+        "limit": false,
+        "q": "brouette jardin",
+        "volume_n": 720
+      },
+      {
+        "volume": "20",
+        "kd": null,
+        "cpc": "0,16 $",
+        "limit": false,
+        "q": "chariot transport jardin",
+        "volume_n": 20
+      }
+    ],
+    "best": "chariot de jardin",
+    "best_vol": 3600,
+    "max_volume": 3600,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P43",
+    "name": "Galerie toit",
+    "keywords": [
+      {
+        "volume": "1,6K",
+        "kd": "29",
+        "cpc": "0,74 $",
+        "limit": false,
+        "q": "galerie de toit",
+        "volume_n": 1600
+      },
+      {
+        "volume": "30",
+        "kd": null,
+        "cpc": "0,29 $",
+        "limit": false,
+        "q": "panier de toit voiture",
+        "volume_n": 30
+      },
+      {
+        "volume": "2,9K",
+        "kd": "38",
+        "cpc": "0 $",
+        "limit": false,
+        "q": "barres de toit",
+        "volume_n": 2900
+      }
+    ],
+    "best": "barres de toit",
+    "best_vol": 2900,
+    "max_volume": 2900,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P44",
+    "name": "Masque sommeil connecte",
+    "keywords": [
+      {
+        "volume": "2,4K",
+        "kd": "24",
+        "cpc": "0,42 $",
+        "limit": false,
+        "q": "masque de sommeil",
+        "volume_n": 2400
+      },
+      {
+        "volume": "0",
+        "kd": null,
+        "cpc": "0 $",
+        "limit": false,
+        "q": "masque sommeil connecte",
+        "volume_n": 0
+      },
+      {
+        "volume": "40",
+        "kd": null,
+        "cpc": "0,17 $",
+        "limit": false,
+        "q": "masque anti bruit sommeil",
+        "volume_n": 40
+      }
+    ],
+    "best": "masque de sommeil",
+    "best_vol": 2400,
+    "max_volume": 2400,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P45",
+    "name": "Reveil lumiere philips type",
+    "keywords": [
+      {
+        "volume": "0",
+        "kd": null,
+        "cpc": "0 $",
+        "limit": false,
+        "q": "lampe simulateur aube",
+        "volume_n": 0
+      },
+      {
+        "volume": "110",
+        "kd": "26",
+        "cpc": "0,31 $",
+        "limit": false,
+        "q": "philips hf3520",
+        "volume_n": 110
+      },
+      {
+        "volume": "260",
+        "kd": "20",
+        "cpc": "0,21 $",
+        "limit": false,
+        "q": "lumie bodyclock",
+        "volume_n": 260
+      }
+    ],
+    "best": "lumie bodyclock",
+    "best_vol": 260,
+    "max_volume": 260,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P46",
+    "name": "Film vitrage",
+    "keywords": [
+      {
+        "volume": "1,3K",
+        "kd": "28",
+        "cpc": "0,43 $",
+        "limit": false,
+        "q": "film miroir sans tain",
+        "volume_n": 1300
+      },
+      {
+        "volume": "1,6K",
+        "kd": "30",
+        "cpc": "0,36 $",
+        "limit": false,
+        "q": "film anti chaleur vitre",
+        "volume_n": 1600
+      },
+      {
+        "volume": "5,4K",
+        "kd": "58",
+        "cpc": "0,31 $",
+        "limit": false,
+        "q": "film occultant fenetre",
+        "volume_n": 5400
+      }
+    ],
+    "best": "film occultant fenetre",
+    "best_vol": 5400,
+    "max_volume": 5400,
+    "verdict": "STOP"
+  }
+]

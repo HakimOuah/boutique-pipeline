@@ -1,0 +1,609 @@
+[
+  {
+    "id": "U13",
+    "name": "Sports nautiques legers",
+    "families": [
+      {
+        "volume": "74,0K",
+        "kd": "38",
+        "limit": false,
+        "q": "paddle",
+        "volume_n": 74000
+      },
+      {
+        "volume": null,
+        "kd": null,
+        "limit": false,
+        "q": "paddle gonflable",
+        "volume_n": null
+      },
+      {
+        "volume": "5,4K",
+        "kd": "17",
+        "limit": false,
+        "q": "kayak gonflable",
+        "volume_n": 5400
+      },
+      {
+        "volume": "1,0K",
+        "kd": "27",
+        "limit": false,
+        "q": "gilet sauvetage",
+        "volume_n": 1000
+      },
+      {
+        "volume": "880",
+        "kd": "16",
+        "limit": false,
+        "q": "pompe paddle",
+        "volume_n": 880
+      }
+    ],
+    "sum_brut_indicatif": 81280,
+    "n_over_1k": 3,
+    "max": 74000,
+    "verdict": "SURVIT_EXPRESS"
+  },
+  {
+    "id": "U14",
+    "name": "Padel pickleball",
+    "families": [
+      {
+        "volume": "135,0K",
+        "kd": "55",
+        "limit": false,
+        "q": "padel",
+        "volume_n": 135000
+      },
+      {
+        "volume": null,
+        "kd": null,
+        "limit": false,
+        "q": "raquette padel",
+        "volume_n": null
+      },
+      {
+        "volume": "49,5K",
+        "kd": "35",
+        "limit": false,
+        "q": "pickleball",
+        "volume_n": 49500
+      },
+      {
+        "volume": "1,3K",
+        "kd": "21",
+        "limit": false,
+        "q": "balle padel",
+        "volume_n": 1300
+      },
+      {
+        "volume": "2,9K",
+        "kd": "19",
+        "limit": false,
+        "q": "sac padel",
+        "volume_n": 2900
+      }
+    ],
+    "sum_brut_indicatif": 188700,
+    "n_over_1k": 4,
+    "max": 135000,
+    "verdict": "SURVIT_EXPRESS"
+  },
+  {
+    "id": "U15",
+    "name": "Bagagerie voyage",
+    "families": [
+      {
+        "volume": null,
+        "kd": null,
+        "limit": false,
+        "q": "valise cabine",
+        "volume_n": null
+      },
+      {
+        "volume": "320",
+        "kd": "19",
+        "limit": false,
+        "q": "organiseur valise",
+        "volume_n": 320
+      },
+      {
+        "volume": "260",
+        "kd": "22",
+        "limit": false,
+        "q": "trousse toilette voyage",
+        "volume_n": 260
+      },
+      {
+        "volume": "8,1K",
+        "kd": "28",
+        "limit": false,
+        "q": "sac voyage",
+        "volume_n": 8100
+      },
+      {
+        "volume": "18,1K",
+        "kd": "37",
+        "limit": false,
+        "q": "bagage cabine",
+        "volume_n": 18100
+      }
+    ],
+    "sum_brut_indicatif": 26780,
+    "n_over_1k": 2,
+    "max": 18100,
+    "verdict": "CAS_LIMITE_UNIVERS"
+  },
+  {
+    "id": "U16",
+    "name": "Jeux plein air bois",
+    "families": [
+      {
+        "volume": null,
+        "kd": null,
+        "limit": false,
+        "q": "molkky",
+        "volume_n": null
+      },
+      {
+        "q": "kubb",
+        "error": true
+      },
+      {
+        "q": "jeu de palets",
+        "error": true
+      },
+      {
+        "volume": null,
+        "kd": null,
+        "limit": false,
+        "q": "city flipper",
+        "volume_n": null
+      },
+      {
+        "volume": "27,1K",
+        "kd": "53",
+        "limit": false,
+        "q": "petanque",
+        "volume_n": 27100
+      }
+    ],
+    "sum_brut_indicatif": 27100,
+    "n_over_1k": 1,
+    "max": 27100,
+    "verdict": "SOUS_PLANCHER_EXPRESS"
+  },
+  {
+    "id": "U17",
+    "name": "Deco Noel",
+    "families": [
+      {
+        "volume": "18,1K",
+        "kd": "32",
+        "limit": false,
+        "q": "decoration noel",
+        "volume_n": 18100
+      },
+      {
+        "volume": "22,2K",
+        "kd": "24",
+        "limit": false,
+        "q": "sapin artificiel",
+        "volume_n": 22200
+      },
+      {
+        "volume": "880",
+        "kd": "16",
+        "limit": false,
+        "q": "guirlande lumineuse noel",
+        "volume_n": 880
+      },
+      {
+        "volume": "14,8K",
+        "kd": "21",
+        "limit": false,
+        "q": "boule de noel",
+        "volume_n": 14800
+      },
+      {
+        "volume": "8,1K",
+        "kd": "22",
+        "limit": false,
+        "q": "couronne de noel",
+        "volume_n": 8100
+      }
+    ],
+    "sum_brut_indicatif": 64080,
+    "n_over_1k": 4,
+    "max": 22200,
+    "verdict": "SURVIT_EXPRESS"
+  },
+  {
+    "id": "U18",
+    "name": "Fleurs sechees",
+    "families": [
+      {
+        "volume": "4,4K",
+        "kd": "34",
+        "limit": false,
+        "q": "fleurs sechees",
+        "volume_n": 4400
+      },
+      {
+        "volume": "1,3K",
+        "kd": "35",
+        "limit": false,
+        "q": "bouquet fleurs sechees",
+        "volume_n": 1300
+      },
+      {
+        "volume": "2,9K",
+        "kd": "27",
+        "limit": false,
+        "q": "herbe de pampa",
+        "volume_n": 2900
+      },
+      {
+        "volume": "1,0K",
+        "kd": "12",
+        "limit": false,
+        "q": "couronne fleurs sechees",
+        "volume_n": 1000
+      },
+      {
+        "volume": "390",
+        "kd": "26",
+        "limit": false,
+        "q": "vase pampa",
+        "volume_n": 390
+      }
+    ],
+    "sum_brut_indicatif": 9990,
+    "n_over_1k": 4,
+    "max": 4400,
+    "verdict": "SOUS_PLANCHER_EXPRESS"
+  },
+  {
+    "id": "U19",
+    "name": "Rasage traditionnel",
+    "families": [
+      {
+        "volume": "2,9K",
+        "kd": "18",
+        "limit": false,
+        "q": "blaireau rasage",
+        "volume_n": 2900
+      },
+      {
+        "volume": "1,6K",
+        "kd": "12",
+        "limit": false,
+        "q": "rasoir de surete",
+        "volume_n": 1600
+      },
+      {
+        "volume": "30",
+        "kd": null,
+        "limit": false,
+        "q": "bol a barbe",
+        "volume_n": 30
+      },
+      {
+        "volume": "390",
+        "kd": "13",
+        "limit": false,
+        "q": "creme a raser",
+        "volume_n": 390
+      },
+      {
+        "volume": "480",
+        "kd": "13",
+        "limit": false,
+        "q": "kit rasage",
+        "volume_n": 480
+      }
+    ],
+    "sum_brut_indicatif": 5400,
+    "n_over_1k": 2,
+    "max": 2900,
+    "verdict": "SOUS_PLANCHER_EXPRESS"
+  },
+  {
+    "id": "U20",
+    "name": "Vinyle audio",
+    "families": [
+      {
+        "volume": "40,5K",
+        "kd": "35",
+        "limit": false,
+        "q": "platine vinyle",
+        "volume_n": 40500
+      },
+      {
+        "volume": null,
+        "kd": null,
+        "limit": false,
+        "q": "enceinte bluetooth",
+        "volume_n": null
+      },
+      {
+        "volume": "6,6K",
+        "kd": "23",
+        "limit": false,
+        "q": "platine vinyle bluetooth",
+        "volume_n": 6600
+      },
+      {
+        "volume": "40",
+        "kd": null,
+        "limit": false,
+        "q": "vinyle rangement",
+        "volume_n": 40
+      },
+      {
+        "volume": "18,1K",
+        "kd": "44",
+        "limit": false,
+        "q": "casque audio",
+        "volume_n": 18100
+      }
+    ],
+    "sum_brut_indicatif": 65240,
+    "n_over_1k": 3,
+    "max": 40500,
+    "verdict": "SURVIT_EXPRESS"
+  },
+  {
+    "id": "U21",
+    "name": "Peche a la mouche",
+    "families": [
+      {
+        "volume": "2,4K",
+        "kd": "31",
+        "limit": false,
+        "q": "peche a la mouche",
+        "volume_n": 2400
+      },
+      {
+        "volume": "390",
+        "kd": "9",
+        "limit": false,
+        "q": "canne mouche",
+        "volume_n": 390
+      },
+      {
+        "volume": "140",
+        "kd": "14",
+        "limit": false,
+        "q": "mouche artificielle",
+        "volume_n": 140
+      },
+      {
+        "volume": "6,6K",
+        "kd": "19",
+        "limit": false,
+        "q": "waders",
+        "volume_n": 6600
+      },
+      {
+        "volume": "480",
+        "kd": "7",
+        "limit": false,
+        "q": "moulinet mouche",
+        "volume_n": 480
+      }
+    ],
+    "sum_brut_indicatif": 10010,
+    "n_over_1k": 2,
+    "max": 6600,
+    "verdict": "SOUS_PLANCHER_EXPRESS"
+  },
+  {
+    "id": "U22",
+    "name": "Escalade bloc",
+    "families": [
+      {
+        "volume": "1,0K",
+        "kd": "22",
+        "limit": false,
+        "q": "prise d escalade",
+        "volume_n": 1000
+      },
+      {
+        "volume": "20",
+        "kd": null,
+        "limit": false,
+        "q": "pan mur escalade",
+        "volume_n": 20
+      },
+      {
+        "volume": "720",
+        "kd": "16",
+        "limit": false,
+        "q": "crash pad escalade",
+        "volume_n": 720
+      },
+      {
+        "volume": "6,6K",
+        "kd": "29",
+        "limit": false,
+        "q": "chausson escalade",
+        "volume_n": 6600
+      },
+      {
+        "volume": "3,6K",
+        "kd": "16",
+        "limit": false,
+        "q": "mur d escalade",
+        "volume_n": 3600
+      }
+    ],
+    "sum_brut_indicatif": 11940,
+    "n_over_1k": 3,
+    "max": 6600,
+    "verdict": "SOUS_PLANCHER_EXPRESS"
+  },
+  {
+    "id": "U23",
+    "name": "Brassage biere",
+    "families": [
+      {
+        "volume": "880",
+        "kd": "22",
+        "limit": false,
+        "q": "kit brassage biere",
+        "volume_n": 880
+      },
+      {
+        "volume": "480",
+        "kd": "13",
+        "limit": false,
+        "q": "fermenteur",
+        "volume_n": 480
+      },
+      {
+        "volume": "20",
+        "kd": null,
+        "limit": false,
+        "q": "mout biere",
+        "volume_n": 20
+      },
+      {
+        "volume": "30",
+        "kd": null,
+        "limit": false,
+        "q": "brassage maison",
+        "volume_n": 30
+      },
+      {
+        "volume": "18,1K",
+        "kd": "24",
+        "limit": false,
+        "q": "houblon",
+        "volume_n": 18100
+      }
+    ],
+    "sum_brut_indicatif": 19510,
+    "n_over_1k": 1,
+    "max": 18100,
+    "verdict": "SOUS_PLANCHER_EXPRESS"
+  },
+  {
+    "id": "U24",
+    "name": "Poterie loisir",
+    "families": [
+      {
+        "volume": "3,6K",
+        "kd": "19",
+        "limit": false,
+        "q": "tour de potier",
+        "volume_n": 3600
+      },
+      {
+        "volume": "1,0K",
+        "kd": "41",
+        "limit": false,
+        "q": "argile poterie",
+        "volume_n": 1000
+      },
+      {
+        "volume": "3,6K",
+        "kd": "18",
+        "limit": false,
+        "q": "four ceramique",
+        "volume_n": 3600
+      },
+      {
+        "volume": "1,0K",
+        "kd": "28",
+        "limit": false,
+        "q": "kit poterie",
+        "volume_n": 1000
+      },
+      {
+        "volume": "90",
+        "kd": "13",
+        "limit": false,
+        "q": "email ceramique",
+        "volume_n": 90
+      }
+    ],
+    "sum_brut_indicatif": 9290,
+    "n_over_1k": 4,
+    "max": 3600,
+    "verdict": "SOUS_PLANCHER_EXPRESS"
+  },
+  {
+    "id": "U25",
+    "name": "Hamac cocooning",
+    "families": [
+      {
+        "volume": "27,1K",
+        "kd": "45",
+        "limit": false,
+        "q": "hamac",
+        "volume_n": 27100
+      },
+      {
+        "volume": "1,3K",
+        "kd": "22",
+        "limit": false,
+        "q": "hamac avec support",
+        "volume_n": 1300
+      },
+      {
+        "volume": "1,3K",
+        "kd": "19",
+        "limit": false,
+        "q": "chaise hamac",
+        "volume_n": 1300
+      },
+      {
+        "volume": "0",
+        "kd": null,
+        "limit": false,
+        "q": "stand hamac",
+        "volume_n": 0
+      },
+      {
+        "volume": "880",
+        "kd": "15",
+        "limit": false,
+        "q": "toile hamac",
+        "volume_n": 880
+      }
+    ],
+    "sum_brut_indicatif": 30580,
+    "n_over_1k": 3,
+    "max": 27100,
+    "verdict": "SURVIT_EXPRESS"
+  },
+  {
+    "id": "U26",
+    "name": "Sauna portable",
+    "families": [
+      {
+        "volume": "720",
+        "kd": "26",
+        "limit": false,
+        "q": "sauna portable",
+        "volume_n": 720
+      },
+      {
+        "volume": "590",
+        "kd": "11",
+        "limit": false,
+        "q": "cabine sauna",
+        "volume_n": 590
+      },
+      {
+        "volume": "3,6K",
+        "kd": "16",
+        "limit": false,
+        "q": "sauna infrarouge",
+        "volume_n": 3600
+      }
+    ],
+    "verdict": "PARTIAL_LIMIT"
+  }
+]
