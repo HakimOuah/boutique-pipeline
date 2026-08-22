@@ -1,0 +1,619 @@
+[
+  {
+    "id": "P80",
+    "name": "Gimbal smartphone",
+    "keywords": [
+      {
+        "volume": "30",
+        "kd": null,
+        "limit": false,
+        "q": "gimbal smartphone",
+        "volume_n": 30
+      },
+      {
+        "volume": "3,6K",
+        "kd": "28",
+        "limit": false,
+        "q": "stabilisateur smartphone",
+        "volume_n": 3600
+      },
+      {
+        "volume": "20",
+        "kd": null,
+        "limit": false,
+        "q": "stabilisation smartphone",
+        "volume_n": 20
+      }
+    ],
+    "best": "stabilisateur smartphone",
+    "best_vol": 3600,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P81",
+    "name": "Kit softbox",
+    "keywords": [
+      {
+        "volume": "2,9K",
+        "kd": "19",
+        "limit": false,
+        "q": "softbox",
+        "volume_n": 2900
+      },
+      {
+        "volume": "20",
+        "kd": null,
+        "limit": false,
+        "q": "kit softbox",
+        "volume_n": 20
+      },
+      {
+        "volume": "20",
+        "kd": null,
+        "limit": false,
+        "q": "eclairage softbox",
+        "volume_n": 20
+      }
+    ],
+    "best": "softbox",
+    "best_vol": 2900,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P82",
+    "name": "Teleprompter",
+    "keywords": [
+      {
+        "volume": "1,3K",
+        "kd": "28",
+        "limit": false,
+        "q": "teleprompter",
+        "volume_n": 1300
+      },
+      {
+        "volume": "880",
+        "kd": "21",
+        "limit": false,
+        "q": "teleprompteur",
+        "volume_n": 880
+      },
+      {
+        "volume": "20",
+        "kd": null,
+        "limit": false,
+        "q": "prompteur portable",
+        "volume_n": 20
+      }
+    ],
+    "best": "teleprompter",
+    "best_vol": 1300,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P83",
+    "name": "Fond studio",
+    "keywords": [
+      {
+        "volume": "720",
+        "kd": "16",
+        "limit": false,
+        "q": "fond studio photo",
+        "volume_n": 720
+      },
+      {
+        "volume": "20",
+        "kd": null,
+        "limit": false,
+        "q": "fond vert chroma",
+        "volume_n": 20
+      },
+      {
+        "volume": "90",
+        "kd": "16",
+        "limit": false,
+        "q": "fond photographie",
+        "volume_n": 90
+      }
+    ],
+    "best": "fond studio photo",
+    "best_vol": 720,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P84",
+    "name": "Micro cravate",
+    "keywords": [
+      {
+        "volume": "8,1K",
+        "kd": "29",
+        "limit": false,
+        "q": "micro cravate",
+        "volume_n": 8100
+      },
+      {
+        "volume": "3,6K",
+        "kd": "27",
+        "limit": false,
+        "q": "micro cravate sans fil",
+        "volume_n": 3600
+      },
+      {
+        "volume": "1,6K",
+        "kd": "19",
+        "limit": false,
+        "q": "lavalier",
+        "volume_n": 1600
+      }
+    ],
+    "best": "micro cravate",
+    "best_vol": 8100,
+    "verdict": "CAS_LIMITE"
+  },
+  {
+    "id": "P85",
+    "name": "Cajon",
+    "keywords": [
+      {
+        "volume": "6,6K",
+        "kd": "33",
+        "limit": false,
+        "q": "cajon",
+        "volume_n": 6600
+      },
+      {
+        "volume": "390",
+        "kd": "28",
+        "limit": false,
+        "q": "cajon percussion",
+        "volume_n": 390
+      }
+    ],
+    "best": "cajon",
+    "best_vol": 6600,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P86",
+    "name": "Etui violon",
+    "keywords": [
+      {
+        "volume": "480",
+        "kd": "16",
+        "limit": false,
+        "q": "etui violon",
+        "volume_n": 480
+      },
+      {
+        "volume": "170",
+        "kd": "11",
+        "limit": false,
+        "q": "etui violoncelle",
+        "volume_n": 170
+      }
+    ],
+    "best": "etui violon",
+    "best_vol": 480,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P87",
+    "name": "Controleur DJ",
+    "keywords": [
+      {
+        "volume": "2,9K",
+        "kd": "25",
+        "limit": false,
+        "q": "controleur dj",
+        "volume_n": 2900
+      },
+      {
+        "volume": "140",
+        "kd": "15",
+        "limit": false,
+        "q": "controleur dj debutant",
+        "volume_n": 140
+      }
+    ],
+    "best": "controleur dj",
+    "best_vol": 2900,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P88",
+    "name": "Gilet airbag moto",
+    "keywords": [
+      {
+        "volume": "4,4K",
+        "kd": "20",
+        "limit": false,
+        "q": "gilet airbag moto",
+        "volume_n": 4400
+      },
+      {
+        "volume": "5,4K",
+        "kd": "27",
+        "limit": false,
+        "q": "airbag moto",
+        "volume_n": 5400
+      }
+    ],
+    "best": "airbag moto",
+    "best_vol": 5400,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P89",
+    "name": "Intercom moto",
+    "keywords": [
+      {
+        "volume": "14,8K",
+        "kd": "28",
+        "limit": false,
+        "q": "intercom moto",
+        "volume_n": 14800
+      },
+      {
+        "volume": "1,3K",
+        "kd": "27",
+        "limit": false,
+        "q": "intercom casque moto",
+        "volume_n": 1300
+      }
+    ],
+    "best": "intercom moto",
+    "best_vol": 14800,
+    "verdict": "SURVIT"
+  },
+  {
+    "id": "P90",
+    "name": "Sacoche reservoir moto",
+    "keywords": [
+      {
+        "volume": "1,3K",
+        "kd": "19",
+        "limit": false,
+        "q": "sacoche reservoir moto",
+        "volume_n": 1300
+      },
+      {
+        "volume": null,
+        "kd": null,
+        "limit": false,
+        "q": "sacoche magnetique moto",
+        "volume_n": null
+      }
+    ],
+    "best": "sacoche reservoir moto",
+    "best_vol": 1300,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P91",
+    "name": "Filtre eau gravite",
+    "keywords": [
+      {
+        "volume": "70",
+        "kd": "17",
+        "limit": false,
+        "q": "filtre a eau randonnee",
+        "volume_n": 70
+      },
+      {
+        "volume": "10",
+        "kd": null,
+        "limit": false,
+        "q": "filtre gravite eau",
+        "volume_n": 10
+      },
+      {
+        "volume": "2,4K",
+        "kd": "23",
+        "limit": false,
+        "q": "lifestraw",
+        "volume_n": 2400
+      }
+    ],
+    "best": "lifestraw",
+    "best_vol": 2400,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P92",
+    "name": "Reservoir eau souple",
+    "keywords": [
+      {
+        "volume": "260",
+        "kd": "21",
+        "limit": false,
+        "q": "reservoir eau souple",
+        "volume_n": 260
+      },
+      {
+        "volume": "20",
+        "kd": null,
+        "limit": false,
+        "q": "poche a eau camping",
+        "volume_n": 20
+      }
+    ],
+    "best": "reservoir eau souple",
+    "best_vol": 260,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P93",
+    "name": "Rechaud multicombustible",
+    "keywords": [
+      {
+        "volume": "20",
+        "kd": null,
+        "limit": false,
+        "q": "rechaud multicombustible",
+        "volume_n": 20
+      },
+      {
+        "volume": "20",
+        "kd": null,
+        "limit": false,
+        "q": "rechaud camping essence",
+        "volume_n": 20
+      }
+    ],
+    "best": "rechaud multicombustible",
+    "best_vol": 20,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P94",
+    "name": "Chaise haute evolutive",
+    "keywords": [
+      {
+        "volume": "6,6K",
+        "kd": "19",
+        "limit": false,
+        "q": "chaise haute bebe",
+        "volume_n": 6600
+      },
+      {
+        "volume": "2,4K",
+        "kd": "19",
+        "limit": false,
+        "q": "chaise haute evolutive",
+        "volume_n": 2400
+      }
+    ],
+    "best": "chaise haute bebe",
+    "best_vol": 6600,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P95",
+    "name": "Transat electrique bebe",
+    "keywords": [
+      {
+        "volume": "170",
+        "kd": "19",
+        "limit": false,
+        "q": "transat bebe electrique",
+        "volume_n": 170
+      },
+      {
+        "volume": "4,4K",
+        "kd": "19",
+        "limit": false,
+        "q": "balancelle bebe",
+        "volume_n": 4400
+      }
+    ],
+    "best": "balancelle bebe",
+    "best_vol": 4400,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P96",
+    "name": "Table a langer murale",
+    "keywords": [
+      {
+        "volume": "1,6K",
+        "kd": "14",
+        "limit": false,
+        "q": "table a langer murale",
+        "volume_n": 1600
+      },
+      {
+        "volume": "880",
+        "kd": "19",
+        "limit": false,
+        "q": "table a langer pliante",
+        "volume_n": 880
+      }
+    ],
+    "best": "table a langer murale",
+    "best_vol": 1600,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P97",
+    "name": "Distributeur croquettes",
+    "keywords": [
+      {
+        "volume": "1,0K",
+        "kd": "19",
+        "limit": false,
+        "q": "distributeur croquettes",
+        "volume_n": 1000
+      },
+      {
+        "volume": "720",
+        "kd": "21",
+        "limit": false,
+        "q": "distributeur croquettes automatique",
+        "volume_n": 720
+      }
+    ],
+    "best": "distributeur croquettes",
+    "best_vol": 1000,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P98",
+    "name": "Sac a dos chat",
+    "keywords": [
+      {
+        "volume": "3,6K",
+        "kd": "25",
+        "limit": false,
+        "q": "sac a dos chat",
+        "volume_n": 3600
+      },
+      {
+        "volume": "4,4K",
+        "kd": "19",
+        "limit": false,
+        "q": "sac transport chat",
+        "volume_n": 4400
+      }
+    ],
+    "best": "sac transport chat",
+    "best_vol": 4400,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P99",
+    "name": "Chaise assis genoux",
+    "keywords": [
+      {
+        "volume": "260",
+        "kd": "9",
+        "limit": false,
+        "q": "chaise assis genoux",
+        "volume_n": 260
+      },
+      {
+        "volume": "260",
+        "kd": "13",
+        "limit": false,
+        "q": "chaise ergonomique genoux",
+        "volume_n": 260
+      }
+    ],
+    "best": "chaise assis genoux",
+    "best_vol": 260,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P100",
+    "name": "Coussin U",
+    "keywords": [
+      {
+        "volume": "4,4K",
+        "kd": "19",
+        "limit": false,
+        "q": "coussin grossesse",
+        "volume_n": 4400
+      },
+      {
+        "volume": "390",
+        "kd": "11",
+        "limit": false,
+        "q": "coussin positionnement",
+        "volume_n": 390
+      }
+    ],
+    "best": "coussin grossesse",
+    "best_vol": 4400,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P101",
+    "name": "Sommier electrique",
+    "keywords": [
+      {
+        "volume": "1,6K",
+        "kd": "18",
+        "limit": false,
+        "q": "sommier electrique",
+        "volume_n": 1600
+      },
+      {
+        "volume": "260",
+        "kd": "13",
+        "limit": false,
+        "q": "sommier relevable",
+        "volume_n": 260
+      }
+    ],
+    "best": "sommier electrique",
+    "best_vol": 1600,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P102",
+    "name": "Armoire chaussures rotative",
+    "keywords": [
+      {
+        "volume": "1,3K",
+        "kd": "27",
+        "limit": false,
+        "q": "armoire a chaussures",
+        "volume_n": 1300
+      },
+      {
+        "volume": "170",
+        "kd": "22",
+        "limit": false,
+        "q": "meuble chaussures rotatif",
+        "volume_n": 170
+      }
+    ],
+    "best": "armoire a chaussures",
+    "best_vol": 1300,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P103",
+    "name": "Support skis mural",
+    "keywords": [
+      {
+        "volume": "140",
+        "kd": "3",
+        "limit": false,
+        "q": "support ski mural",
+        "volume_n": 140
+      },
+      {
+        "volume": "90",
+        "kd": "17",
+        "limit": false,
+        "q": "range ski",
+        "volume_n": 90
+      }
+    ],
+    "best": "support ski mural",
+    "best_vol": 140,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P104",
+    "name": "Armoire bijoux LED",
+    "keywords": [
+      {
+        "volume": "1,0K",
+        "kd": "23",
+        "limit": false,
+        "q": "armoire a bijoux",
+        "volume_n": 1000
+      },
+      {
+        "volume": null,
+        "kd": null,
+        "limit": false,
+        "q": "boite a bijoux led",
+        "volume_n": null
+      }
+    ],
+    "best": "armoire a bijoux",
+    "best_vol": 1000,
+    "verdict": "STOP"
+  }
+]
