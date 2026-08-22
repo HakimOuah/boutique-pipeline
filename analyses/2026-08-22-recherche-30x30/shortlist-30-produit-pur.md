@@ -37,12 +37,12 @@ Sources d’idées : TrendTrack / Amazon / VEVOR / Flippa **et** reprises de dos
 | 27 | Porte placard coulissante | 18,1K | *à sonder* | Registre 01/08 | Pose |
 | 28 | PAC piscine | 12,1K | *à sonder* | Registre 01/08 | Élec/saison |
 | 29 | Billard | 27,1K | *à sonder* | Registre Q4 | Fret/marques |
-| 30 | Cocotte fonte / Rameur / Sac de frappe / Rocking chair | 33K / 22K / 15K / 18K | *à sonder* | Registre Q4 | **4 surnuméraires** — Hakim tranche lesquels garder hors top 30 strict |
+| 30 | Sac de frappe | 14,8K | *à sonder* | Registre Q4 | Decathlon possible — angle premium/home gym |
 
-> Pour un top 30 strict sans surnombre : retirer de #30 les moins différenciables (§4 Decathlon/Le Creuset) — recommandation provisoire : garder **sac de frappe** + **rocking chair** en file d’attente, écarter rameur/cocotte en premier filtre §4.
+> Top 30 **strict** : rameur, cocotte fonte et rocking chair sortis du #30 → file cas limites (recommandation §4 : Decathlon / Le Creuset / banalité fauteuil).
 
 ## Cas limites (hors 30, décision Hakim)
-Baignoire îlot 8,1K · Tapis berbère 9,9K · Fauteuil club 9,9K · Plaque funéraire 9,9K · Micro cravate 8,1K · Carré potager 9,9K · Récupérateur eau 8,1K · Cheminée éthanol 9,9K
+Rocking chair 18,1K · Rameur 22,2K · Cocotte fonte 33,1K · Baignoire îlot 8,1K · Tapis berbère 9,9K · Fauteuil club 9,9K · Plaque funéraire 9,9K · Micro cravate 8,1K · Carré potager 9,9K · Récupérateur eau 8,1K · Cheminée éthanol 9,9K
 
 ## Prochaine porte
 1. Hakim sélectionne / valide le top 30 (et les cas limites).  
