@@ -1,6 +1,6 @@
 # Verdicts volume — shortlists 30×30 — 2026-08-22
 
-Tableau consolidé pour validation. **Sourcing AliExpress :** lots pilotes 1–2 sur 13 GO (`sourcing-lot1-pilote.md`) — 55 candidats restants après GO.
+Tableau consolidé pour validation. **Sourcing AliExpress :** lots pilotes 1–3 sur 21 GO (`sourcing-lot1-pilote.md`) — 55 candidats restants après GO.
 
 Légende volume PUR : `SURVIT` express (~≥10K cluster). UNIVERS : somme indicative familles (Mission B à trancher).
 
@@ -15,7 +15,7 @@ Légende volume PUR : `SURVIT` express (~≥10K cluster). UNIVERS : somme indica
 | 3 | Ventilateur colonne | 12,1K | OK | ⏳ après GO | — | Saison |
 | 4 | Shampouineuse | 74K / 12,1K canapé | OK | ⏳ après GO | — | Kärcher/Bissell |
 | 5 | Tapis de marche | 60,5K | OK | ⏳ après GO | — | Decathlon |
-| 6 | Glacière électrique | 12,1K | OK | ⏳ après GO | — | Compression |
+| 6 | Glacière électrique | 12,1K | OK | ⏳ | **FOURNISSEUR À TESTER** ~70–108 € | Compression |
 | 7 | Tente gonflable | 12,1K | OK | ✅ pilote | **FOURNISSEUR À TESTER** ~133 € | — |
 | 8 | Machine sous vide | 14,8K | OK | ✅ pilote | **FOURNISSEUR À TESTER** ~58–68 € | Cloche pro |
 | 9 | Parc bébé | 18,1K | OK | ⏳ après GO | — | GMC enfants |
@@ -30,16 +30,16 @@ Légende volume PUR : `SURVIT` express (~≥10K cluster). UNIVERS : somme indica
 | 18 | Ponceuse girafe | 14,8K | OK | ⏳ après GO | — | DIY/pro |
 | 19 | Nettoyeur haute pression | 49,5K | OK | ⏳ après GO | — | Kärcher |
 | 20 | Robot piscine | 33,1K | OK | ⏳ après GO | — | Saison/GSB |
-| 21 | Groupe électrogène | 27,1K | OK | ⏳ après GO | — | CE/poids |
+| 21 | Groupe électrogène | 27,1K | OK | ⏳ | **OFFRE TROUVÉE** (station 204 €, pas essence) | CE/poids |
 | 22 | Intercom moto | 14,8K | OK | ⏳ après GO | — | Sena/Cardo |
 | 23 | Baby-foot | 18,1K | OK | ⏳ après GO | — | Fret |
 | 24 | Douche solaire | 14,8K | OK | ⏳ après GO | — | Saison |
 | 25 | Hamac sur pied | 12,1K | OK | ⏳ après GO | — | GSB |
-| 26 | Barnum / tente réception | 40,5K | OK | ⏳ après GO | — | Saison/fret |
+| 26 | Barnum / tente réception | 40,5K | OK | ⏳ | **FOURNISSEUR À TESTER** ~54–69 € | Saison/fret |
 | 27 | Porte placard coulissante | 18,1K | OK | ⏳ après GO | — | Pose |
 | 28 | PAC piscine | 12,1K | OK | ⏳ après GO | — | Élec/saison |
 | 29 | Billard | 27,1K | OK | ⏳ après GO | — | Fret/marques |
-| 30 | Sac de frappe | 14,8K | OK | ⏳ après GO | — | Decathlon possible — angle premium/home gym |
+| 30 | Sac de frappe | 14,8K | OK | ⏳ | **FOURNISSEUR À TESTER** ~57–149 € | Decathlon possible — angle premium/home gym |
 
 ## UNIVERS (30)
 
@@ -58,8 +58,8 @@ Légende volume PUR : `SURVIT` express (~≥10K cluster). UNIVERS : somme indica
 | 11 | Diffusion olfactive intérieure | 87K | OK ~65 € | ⏳ | **FOURNISSEUR À TESTER** ~44 € | Claims ; low-ticket accessoires |
 | 12 | Aquariophilie / aquascaping | 86K | OK ~74 € | ✅ pilote | **FOURNISSEUR À TESTER** (filtre) | Profil catalogue type Nuisette |
 | 13 | Sports nautiques légers (paddle) | 81K | — | ⏳ après GO | — | Decathlon ; saison |
-| 14 | Bivouac outdoor compact | 81K | — | ⏳ après GO | — | Decathlon ; saison |
-| 15 | Jardin d’agrément (bassin/serre) | 78K | — | ⏳ après GO | — | ≠ fontaine gravité RETENUE |
+| 14 | Bivouac outdoor compact | 81K | — | ⏳ | **FOURNISSEUR À TESTER** (matelas ~37–51 €) | Decathlon ; saison |
+| 15 | Jardin d’agrément (bassin/serre) | 78K | — | ⏳ | **FOURNISSEUR À TESTER** (serre ~54–76 €) | ≠ fontaine gravité RETENUE |
 | 16 | Vin & cave / accessoires | 78K | — | ⏳ après GO | — | Séparer appareil vs accessoire |
 | 17 | Rideaux occultation matière×intention | 74K | — | ✅ pilote | **FOURNISSEUR À TESTER** ~32 € | Qualifié volume 01/08 — pivot UNIVERS |
 | 18 | Vinyle / audio salon | 65K | — | ⏳ après GO | — | Marques ; GSB |
@@ -71,8 +71,8 @@ Légende volume PUR : `SURVIT` express (~≥10K cluster). UNIVERS : somme indica
 | 24 | Sauna / bien-être thermique | 47K | *à sonder* | ⏳ après GO | — | Cabine souvent >400 € ; ≠ couverture sauna STOP |
 | 25 | Aire de jeux jardin | 47K | — | ⏳ après GO | — | GMC enfants + CE |
 | 26 | Jeux plein air premium | 43K | LOW-TICKET | ⏳ après GO | — | Pack premium obligatoire (mölkky ~7 €) |
-| 27 | Studio créateur de contenu | 34K | OK ~84 € | ⏳ après GO | — | Cœur accessoire parfois <50 € |
-| 28 | Pétanque compétition & loisir | 34K | — | ⏳ après GO | — | Enseignes sport |
+| 27 | Studio créateur de contenu | 34K | OK ~84 € | ⏳ | **FOURNISSEUR À TESTER** ~32 € | Cœur accessoire parfois <50 € |
+| 28 | Pétanque compétition & loisir | 34K | — | ⏳ | **AUCUNE OFFRE** (lot3) | Enseignes sport |
 | 29 | Bagagerie 2-roues & toit | 31K | — | ⏳ après GO | — | Norauto/GSB |
 | 30 | Hamac & cocooning suspendu | 31K | — | ⏳ après GO | — | Preuve TT ; n≥1K borderline |
 
