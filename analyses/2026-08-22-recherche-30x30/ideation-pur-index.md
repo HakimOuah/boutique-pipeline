@@ -1,14 +1,15 @@
 # INDEX — Toutes les idées PRODUIT PUR du 22/08/2026 (recherche 30×30)
 
-Index de consolidation, sans nouveau contenu ni nouvelle recherche. Fusionne les trois salves PRODUIT PUR produites aujourd'hui pour la recherche « 30 PUR + 30 UNIVERS » ([plan](../plans/2026-08-22-plan-recherche-30x30-pur-univers.md)). Aucun scoring, aucun volume, aucun GO/STOP ici — cet index sert uniquement de table de passage vers la phase `recherche-mots-cles`.
+Index de consolidation, sans nouveau contenu ni nouvelle recherche. Fusionne les quatre salves PRODUIT PUR produites aujourd'hui pour la recherche « 30 PUR + 30 UNIVERS » ([plan](../plans/2026-08-22-plan-recherche-30x30-pur-univers.md)). Aucun scoring, aucun volume, aucun GO/STOP ici — cet index sert uniquement de table de passage vers la phase `recherche-mots-cles`.
 
-**Total : 52 idées PRODUIT PUR** (12 + 25 + 15), zéro doublon connu entre les trois salves à la date de rédaction (chacune a fait son propre anti-doublon contre le registre et les salves précédentes du jour — voir les sections « Doublons registre évités » de chaque rapport source pour le détail des vérifications).
+**Total : 82 idées PRODUIT PUR** (12 + 25 + 15 + 30), zéro doublon connu entre les quatre salves à la date de rédaction (chacune a fait son propre anti-doublon contre le registre et les salves précédentes du jour — voir les sections « Doublons registre évités » de chaque rapport source pour le détail des vérifications). Rappel : seulement **12 survivants volume** confirmés sur les 52 premières idées après mesure express SEMrush ([survivants-pur-cumul.md](survivants-pur-cumul.md)) — la 4ᵉ salve (complément 2) a été produite en urgence pour combler cet écart, mais reste elle aussi **non mesurée**.
 
 | Rapport source | Idées PUR | Fenêtre horaire | Méthode |
 |---|---|---|---|
 | [ideation-trendtrack-pur.md](ideation-trendtrack-pur.md) | 12 | 03:00–04:15 | TrendTrack (`shops/query`, `google-ads/query`) |
 | [ideation-amazon-vevor-flippa.md](ideation-amazon-vevor-flippa.md) | 25 | 04:00–06:10 | Amazon FR Best Sellers, VEVOR.fr, Flippa |
 | [ideation-trendtrack-pur-complement.md](ideation-trendtrack-pur-complement.md) | 15 | matin (complément) | WebSearch (budget TrendTrack épuisé en amont) |
+| [ideation-pur-complement2.md](ideation-pur-complement2.md) | 30 | matin (complément 2, urgence) | WebSearch (budget TrendTrack non consommé) |
 
 ## Table consolidée
 
@@ -66,16 +67,48 @@ Index de consolidation, sans nouveau contenu ni nouvelle recherche. Fusionne les
 | 50 | Niche extérieure isolée pour chat | Complément #13 | patteachat.com, pattesdor.com, laguildedeschats.com | 40-200 € | Isolation multicouche, distinct niche chien (STOP) |
 | 51 | Générateur de bruit blanc / machine de sommeil (bébé et adulte) | Complément #14 | amazon.fr (Dreamegg), momsereine.com, doudou-qui-respire.fr | 25-60 € — sous plancher, logique panier uniquement | Bundle veilleuse + diffuseur + sons multiples |
 | 52 | Oreiller cervical ergonomique haut de gamme | Complément #15 | matelas-expert.fr, garnier-thiebaut.fr, lamaisondeloreiller.com | 30-150 € (cœur 52-90 €) | Sélection par profil dormeur, distinct mousse générique <30 € |
+| 53 | Cave à vin de service électrique (petite capacité) | Complément 2 #1 | Boulanger, BUT, lescavesavin.fr, Bransch Magasin | 140-400 € (cœur 150-350 €) | Pédagogie capacité/nombre de bouteilles/double zone |
+| 54 | Fumoir électrique domestique | Complément 2 #2 | Raviday Barbecue, Esprit Barbecue, Masterbuilt FR | 130-700 € (cœur 130-400 €) | Distinct du barbecue/fumoir combiné haut de gamme (Ninja) |
+| 55 | Déshydrateur alimentaire multi-plateaux | Complément 2 #3 | Nature et Vitalité, Materiel-CHR-Pro, Apicius-Shop | 150-700 € (cœur foyer 150-400 €) | Pédagogie nombre de plateaux/surface/thermostat |
+| 56 | Machine à glace pilée / nugget ice maker | Complément 2 #4 | Machine-a-glacon.net, Vanden Borre, Klarstein | 150-500 € | Distinct du simple bac à glaçons |
+| 57 | Cuiseur à riz japonais à induction | Complément 2 #5 | Wok-Asiatique, Cuisine-Japon.fr, Yomi-Home | 150-750 € (cœur premium 250-400 €) | Induction vs résistance, distinct du cuiseur généraliste GSB |
+| 58 | Tireuse à bière domestique | Complément 2 #6 | PicoMousse, Fabriqueabiere.com | 130-350 € | Risque brand lock Krups/Philips signalé, à vérifier en SERP |
+| 59 | Trancheuse à jambon de table | Complément 2 #7 | Pizzeria Pepino, Fourniresto, Expondo | 200-800 € (cœur 200-400 €) | Diamètre lame/épaisseur réglable, distinct couteau électrique |
+| 60 | Machine à pâtes fraîches électrique | Complément 2 #8 | Marcato Pasta, Natarianni, AgriEuro | 130-500 € | Formats de pâtes/puissance moteur, pas de verrou GSB |
+| 61 | Miroir cosmétique lumineux grossissant professionnel | Complément 2 #9 | Miroir France, Ledenicheur, Rueducommerce | 30-225 € (cœur 70-160 €) | `SIGNAL_PRIX_PANIER` — entrée <50 € dense, viser grossissant réglable |
+| 62 | Sauna facial vapeur ozone professionnel | Complément 2 #10 | GoldBeaute, Expondo, Thera Esthétique | 60-350 € | Distinct de l'humidificateur facial de voyage <30 € |
+| 63 | Détecteur de fuite d'eau connecté + vanne d'arrêt auto | Complément 2 #11 | Neokasa, Banyo, PNI.fr | 95-530 € (cœur kit entrée 95-220 €) | Coupure auto vs simple alarme sonore |
+| 64 | Boule/extincteur automatique anti-incendie (multi-pack) | Complément 2 #12 | FJ Fire, Elide Fire, Blockfire.fr | 69-170 € en pack (unité seule <50 €) | `SIGNAL_PRIX_PANIER` — retenir en pack uniquement ; GSB Castorama vend l'unité |
+| 65 | Coffre-fort ignifuge anti-intrusion biométrique | Complément 2 #13 | Coffre-fort Xpert, Coffrefortplus, Safepro24 | 185-500 € (cœur 185-400 €) | Distinct du « coffre-fort camouflé » (STOP registre, autre thèse) |
+| 66 | Clôture anti-fugue sans fil pour chien | Complément 2 #14 | PetSafe.com, Naturedog.fr, Companimo | 290-510 € (revendeurs FR) | Surface couverte/collier récepteur, distinct collier anti-aboiement |
+| 67 | Serrure connectée intelligente (verrou électronique) | Complément 2 #15 | Nuki (lesnumeriques.com, igen.fr, frandroid.com), Boulanger | 250-350 € | Compatibilité cylindre/porte, marché fragmenté Nuki/Yale/Ttlock |
+| 68 | Kit alarme maison sans fil autonome (sans abonnement) | Complément 2 #16 | ladebarque.fr, degrouptest.com (Ajax vs Somfy) | 235-450 € (cœur Ajax) | Risque GSB partiel signalé (Somfy chez Bricomarché) |
+| 69 | Ponceuse girafe longue portée | Complément 2 #17 | Racetools, Outils-reno-brico, Achatmat | 90-250 € | Longueur de bras/aspiration intégrée |
+| 70 | Nettoyeur haute pression sans fil (batterie) | Complément 2 #18 | Ledenicheur, Le Bricoleur, Einhell, Bosch | 140-480 € | Distinct du filaire GSB classique <70 € |
+| 71 | Aiguiseur électrique professionnel | Complément 2 #19 | Le Couteau, La Boutique des Chefs, Arcos | 130-320 € | Nombre d'étages/angle réglable, distinct pierre à aiguiser |
+| 72 | Graveuse laser de bureau (diode, hobbyiste) | Complément 2 #20 | Sculpfun, Ortur, AtomStack | 189-419 € | Distinct de la CNC bureau, xTool haut de gamme exclu |
+| 73 | Groupe électrogène portable inverter essence | Complément 2 #21 | Ojardinvert, Toupour, Generateur-electrique.fr | 300-900 € (cœur 300-500 €) | Puissance continue/autonomie/niveau sonore |
+| 74 | Poêle à bois portable pour tente | Complément 2 #22 | Pyrene Bushcraft, Aventure Nordique, Toitdecoton.fr | 35-240 € (cœur 90-240 €) | Distinct du chauffage catalytique gaz (déjà écarté, risque CO) |
+| 75 | Tente bulle transparente | Complément 2 #23 | Mes-tentes-gonflables.fr, Tente Aventure | 399-680 € | **Cas limite prix** — majorité des modèles >400 €, à sonder en priorité |
+| 76 | Tente sauna portable outdoor | Complément 2 #24 | Aqua-jardin.fr, Norliva, Spasuedois.fr | 200-900 € (cœur électrique 200-650 €) | **Cas limite prix** — configurations complètes dépassent souvent 400 € |
+| 77 | Panneau solaire portable pliable | Complément 2 #25 | Creabest, Batterie-nomade.fr, Bluetti | 100-500 € | Distinct de la station électrique Jackery/EcoFlow (verrou marque) |
+| 78 | Robot nettoyeur de piscine autonome (fond/parois, hors-sol) | Complément 2 #26 | Piscinewebstore, Piscine-zyke.com | 150-400 € | Distinct explicitement du robot skimmer solaire de surface (STOP registre) |
+| 79 | Moniteur de respiration bébé (capteur mouvement) | Complément 2 #27 | Owletcare.fr, Aubert, Monkey Mum | 150-300 € | Distinct du babyphone caméra (écarté même salve, saturation) |
+| 80 | Panneau acoustique mural design | Complément 2 #28 | AcoustiWave, Perfect Acoustic, Kollori | 100-500 € (cœur 100-350 €) | Design vs mousse acoustique studio brute <50 € |
+| 81 | Tente/cabine studio isolation acoustique portable | Complément 2 #29 | Centre Chopin, Soundstagenetwork | 45-545 € (cœur 210-545 €) | `SIGNAL_PRIX_PANIER` partiel — entrée <100 € incomplète |
+| 82 | Humidor électrique cave à cigares climatisée | Complément 2 #30 | Cigare Gentleman, Humidor Discount, Cigarestore | 300-800 € (cœur 300-400 €) | Public de niche, distinct de l'humidor passif en bois <150 € |
 
 ## Signaux à surveiller en phase `recherche-mots-cles`
 
-- **`SIGNAL_PRIX_PANIER`** (ticket unitaire sous 50 €, à valider en logique panier avant de retenir en hero) : #36 (baby float, non lu FR), #37 (film vitrage, pack/m² à confirmer), #43 partiel (masque de sommeil — seule la version connectée qualifie), #51 (bruit blanc, cœur de marché sous 50 €).
-- **Risque de brand lock signalé explicitement** : #44 (kit toilettage aspirant — Neakasa domine les résultats FR identifiés), #9 (climatiseur collier — confiance C, signal non vérifié en page).
+- **`SIGNAL_PRIX_PANIER`** (ticket unitaire sous 50 €, à valider en logique panier avant de retenir en hero) : #36 (baby float, non lu FR), #37 (film vitrage, pack/m² à confirmer), #43 partiel (masque de sommeil — seule la version connectée qualifie), #51 (bruit blanc, cœur de marché sous 50 €), #61 (miroir grossissant, entrée <50 € dense), #64 (boule anti-incendie, unité seule <50 €, à retenir en pack), #81 partiel (tente studio acoustique, entrée <100 € incomplète).
+- **Risque de brand lock signalé explicitement** : #44 (kit toilettage aspirant — Neakasa domine les résultats FR identifiés), #9 (climatiseur collier — confiance C, signal non vérifié en page), #58 (tireuse à bière — Krups/Philips présents sur le compact), #67 (serrure connectée — Nuki leader identifié).
+- **Risque GSB partiel signalé** : #64 (boule anti-incendie, Castorama vend l'unité), #68 (kit alarme, Somfy vendu chez Bricomarché — Ajax non-GSB identifié).
+- **Cas limite prix (majorité des modèles hors tranche haute)** : #75 (tente bulle transparente), #76 (tente sauna portable outdoor) — à sonder en priorité avant toute mesure de volume.
 - **Confiance C (signal faible, non vérifié en page)** : #9, #36.
-- Aucune mesure de volume (SEMrush), aucun Google Trends, aucune sonde Google Shopping formalisée n'a été faite pour aucune des 52 idées — c'est l'objet de la phase suivante, pas de celle-ci.
+- Aucune mesure de volume (SEMrush), aucun Google Trends, aucune sonde Google Shopping formalisée n'a été faite pour aucune des 82 idées — c'est l'objet de la phase suivante, pas de celle-ci. Rappel du taux de survie observé sur les 52 premières : **12/52 (≈23 %)** — à garder en tête pour dimensionner l'effort de mesure sur les 30 nouvelles.
 
 ## Limites de cet index
 
-- Cet index ne fait qu'agréger les tableaux déjà produits par les trois rapports sources ; aucune nouvelle vérification de prix, de source ou de disponibilité n'a été effectuée pour le construire.
+- Cet index ne fait qu'agréger les tableaux déjà produits par les quatre rapports sources ; aucune nouvelle vérification de prix, de source ou de disponibilité n'a été effectuée pour le construire.
 - Les motifs de rejet détaillés (idées écartées, doublons évités) restent dans chaque rapport source respectif et ne sont pas dupliqués ici pour éviter la dérive entre versions.
 - Si une future salve ajoute des idées PUR, la mettre à jour par fusion (ajout de lignes, incrément du total), jamais par ré-écriture qui perdrait la traçabilité vers les rapports sources.
