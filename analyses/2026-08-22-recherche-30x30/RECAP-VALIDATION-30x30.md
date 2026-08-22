@@ -8,8 +8,9 @@
 | Idéation (~107 PUR + ~60 UNIVERS) | `analyses/2026-08-22-recherche-30x30/` | ✅ |
 | Shortlist 30 PUR | `shortlist-30-produit-pur.md` | ✅ volume + sondes |
 | Shortlist 30 UNIVERS | `shortlist-30-univers.md` | ✅ volume express (sommes indicatives) |
+| Verdicts consolidés 60 | `verdicts-volume-30x30.md` | ✅ volume/sonde · sourcing vide |
 | Sondes UNIVERS (échantillon) | `sonde-prix-univers-lot1.md` | ✅ 8 niches |
-| Mission B (SERP, net marque, Trends) | — | ⏳ après GO |
+| Mission B (SERP, net marque, Trends) | `mission-b-pilote.md` | ✅ pilote 6 candidats · reste après GO |
 | Sourcing AliExpress | — | ⏳ après **GO marché écrit** |
 
 ---
