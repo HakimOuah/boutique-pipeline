@@ -1,0 +1,761 @@
+[
+  {
+    "id": "P50",
+    "name": "Cave à vin service",
+    "keywords": [
+      {
+        "volume": "60,5K",
+        "kd": "27",
+        "cpc": "0,30 $",
+        "limit": false,
+        "q": "cave a vin",
+        "volume_n": 60500
+      },
+      {
+        "volume": "880",
+        "kd": "22",
+        "cpc": "0,25 $",
+        "limit": false,
+        "q": "cave a vin electrique",
+        "volume_n": 880
+      }
+    ],
+    "best": "cave a vin",
+    "best_vol": 60500,
+    "verdict": "SURVIT"
+  },
+  {
+    "id": "P51",
+    "name": "Fumoir électrique",
+    "keywords": [
+      {
+        "volume": null,
+        "kd": null,
+        "cpc": "Densité de la concurrence",
+        "limit": false,
+        "q": "fumoir electrique",
+        "volume_n": null
+      },
+      {
+        "volume": "50",
+        "kd": "16",
+        "cpc": "0,18 $",
+        "limit": false,
+        "q": "fumoir alimentaire",
+        "volume_n": 50
+      }
+    ],
+    "best": "fumoir alimentaire",
+    "best_vol": 50,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P52",
+    "name": "Déshydrateur",
+    "keywords": [
+      {
+        "volume": "2,9K",
+        "kd": "28",
+        "cpc": "0,21 $",
+        "limit": false,
+        "q": "deshydrateur alimentaire",
+        "volume_n": 2900
+      },
+      {
+        "volume": "2,9K",
+        "kd": "29",
+        "cpc": "0,18 $",
+        "limit": false,
+        "q": "deshydrateur",
+        "volume_n": 2900
+      }
+    ],
+    "best": "deshydrateur alimentaire",
+    "best_vol": 2900,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P53",
+    "name": "Machine glace",
+    "keywords": [
+      {
+        "volume": "14,8K",
+        "kd": "32",
+        "cpc": "0,11 $",
+        "limit": false,
+        "q": "machine a glace",
+        "volume_n": 14800
+      },
+      {
+        "volume": "3,6K",
+        "kd": "26",
+        "cpc": "0,21 $",
+        "limit": false,
+        "q": "machine a glacons",
+        "volume_n": 3600
+      }
+    ],
+    "best": "machine a glace",
+    "best_vol": 14800,
+    "verdict": "SURVIT"
+  },
+  {
+    "id": "P54",
+    "name": "Cuiseur riz",
+    "keywords": [
+      {
+        "volume": "22,2K",
+        "kd": "31",
+        "cpc": "0,13 $",
+        "limit": false,
+        "q": "cuiseur a riz",
+        "volume_n": 22200
+      },
+      {
+        "volume": "14,8K",
+        "kd": "34",
+        "cpc": "0,14 $",
+        "limit": false,
+        "q": "rice cooker",
+        "volume_n": 14800
+      }
+    ],
+    "best": "cuiseur a riz",
+    "best_vol": 22200,
+    "verdict": "SURVIT"
+  },
+  {
+    "id": "P55",
+    "name": "Tireuse bière",
+    "keywords": [
+      {
+        "volume": "22,2K",
+        "kd": "32",
+        "cpc": "0,21 $",
+        "limit": false,
+        "q": "tireuse a biere",
+        "volume_n": 22200
+      },
+      {
+        "volume": "3,6K",
+        "kd": "31",
+        "cpc": "0,38 $",
+        "limit": false,
+        "q": "tireuse biere",
+        "volume_n": 3600
+      }
+    ],
+    "best": "tireuse a biere",
+    "best_vol": 22200,
+    "verdict": "SURVIT"
+  },
+  {
+    "id": "P56",
+    "name": "Trancheuse",
+    "keywords": [
+      {
+        "volume": "6,6K",
+        "kd": "15",
+        "cpc": "0,35 $",
+        "limit": false,
+        "q": "trancheuse a jambon",
+        "volume_n": 6600
+      },
+      {
+        "volume": "4,4K",
+        "kd": "27",
+        "cpc": "0,26 $",
+        "limit": false,
+        "q": "trancheuse electrique",
+        "volume_n": 4400
+      }
+    ],
+    "best": "trancheuse a jambon",
+    "best_vol": 6600,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P57",
+    "name": "Machine pâtes",
+    "keywords": [
+      {
+        "volume": "3,6K",
+        "kd": "26",
+        "cpc": "0,13 $",
+        "limit": false,
+        "q": "machine a pates",
+        "volume_n": 3600
+      },
+      {
+        "volume": "590",
+        "kd": "22",
+        "cpc": "0,16 $",
+        "limit": false,
+        "q": "machine a pates electrique",
+        "volume_n": 590
+      }
+    ],
+    "best": "machine a pates",
+    "best_vol": 3600,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P58",
+    "name": "Miroir cosmétique",
+    "keywords": [
+      {
+        "volume": "2,9K",
+        "kd": "17",
+        "cpc": "0,16 $",
+        "limit": false,
+        "q": "miroir grossissant lumineux",
+        "volume_n": 2900
+      },
+      {
+        "volume": "70",
+        "kd": "22",
+        "cpc": "0,55 $",
+        "limit": false,
+        "q": "miroir cosmetique",
+        "volume_n": 70
+      }
+    ],
+    "best": "miroir grossissant lumineux",
+    "best_vol": 2900,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P59",
+    "name": "Sauna facial",
+    "keywords": [
+      {
+        "volume": "1,3K",
+        "kd": "16",
+        "cpc": "0,14 $",
+        "limit": false,
+        "q": "sauna facial",
+        "volume_n": 1300
+      },
+      {
+        "volume": "110",
+        "kd": "24",
+        "cpc": "0 $",
+        "limit": false,
+        "q": "vaporisateur visage",
+        "volume_n": 110
+      }
+    ],
+    "best": "sauna facial",
+    "best_vol": 1300,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P60",
+    "name": "Extincteur auto",
+    "keywords": [
+      {
+        "volume": "480",
+        "kd": "11",
+        "cpc": "0,50 $",
+        "limit": false,
+        "q": "extincteur automatique",
+        "volume_n": 480
+      },
+      {
+        "volume": "210",
+        "kd": "33",
+        "cpc": "0,54 $",
+        "limit": false,
+        "q": "boule anti incendie",
+        "volume_n": 210
+      }
+    ],
+    "best": "extincteur automatique",
+    "best_vol": 480,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P61",
+    "name": "Coffre-fort",
+    "keywords": [
+      {
+        "volume": "33,1K",
+        "kd": "62",
+        "cpc": "0,61 $",
+        "limit": false,
+        "q": "coffre fort",
+        "volume_n": 33100
+      },
+      {
+        "volume": "880",
+        "kd": "11",
+        "cpc": "0,53 $",
+        "limit": false,
+        "q": "coffre fort ignifuge",
+        "volume_n": 880
+      }
+    ],
+    "best": "coffre fort",
+    "best_vol": 33100,
+    "verdict": "SURVIT"
+  },
+  {
+    "id": "P62",
+    "name": "Clôture anti-fugue",
+    "keywords": [
+      {
+        "volume": "1,3K",
+        "kd": "15",
+        "cpc": "0,32 $",
+        "limit": false,
+        "q": "cloture anti fugue chien",
+        "volume_n": 1300
+      },
+      {
+        "volume": "1,6K",
+        "kd": "14",
+        "cpc": "0,40 $",
+        "limit": false,
+        "q": "collier anti fugue",
+        "volume_n": 1600
+      }
+    ],
+    "best": "collier anti fugue",
+    "best_vol": 1600,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P63",
+    "name": "Serrure connectée",
+    "keywords": [
+      {
+        "volume": "1,3K",
+        "kd": "22",
+        "cpc": "1,10 $",
+        "limit": false,
+        "q": "serrure connectee",
+        "volume_n": 1300
+      },
+      {
+        "volume": null,
+        "kd": null,
+        "cpc": "Densité de la concurrence",
+        "limit": false,
+        "q": "serrure intelligente",
+        "volume_n": null
+      }
+    ],
+    "best": "serrure connectee",
+    "best_vol": 1300,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P64",
+    "name": "Alarme maison",
+    "keywords": [
+      {
+        "volume": "4,4K",
+        "kd": "27",
+        "cpc": "3,62 $",
+        "limit": false,
+        "q": "alarme maison sans fil",
+        "volume_n": 4400
+      },
+      {
+        "volume": "1,9K",
+        "kd": "24",
+        "cpc": "5,59 $",
+        "limit": false,
+        "q": "kit alarme maison",
+        "volume_n": 1900
+      }
+    ],
+    "best": "alarme maison sans fil",
+    "best_vol": 4400,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P65",
+    "name": "Ponceuse girafe",
+    "keywords": [
+      {
+        "volume": "14,8K",
+        "kd": "30",
+        "cpc": "0,21 $",
+        "limit": false,
+        "q": "ponceuse girafe",
+        "volume_n": 14800
+      },
+      {
+        "volume": "1,3K",
+        "kd": "24",
+        "cpc": "0,20 $",
+        "limit": false,
+        "q": "ponceuse platre",
+        "volume_n": 1300
+      }
+    ],
+    "best": "ponceuse girafe",
+    "best_vol": 14800,
+    "verdict": "SURVIT"
+  },
+  {
+    "id": "P66",
+    "name": "Nettoyeur HP",
+    "keywords": [
+      {
+        "volume": "49,5K",
+        "kd": "37",
+        "cpc": "0,28 $",
+        "limit": false,
+        "q": "nettoyeur haute pression",
+        "volume_n": 49500
+      },
+      {
+        "volume": "2,9K",
+        "kd": "36",
+        "cpc": "0,19 $",
+        "limit": false,
+        "q": "karcher haute pression",
+        "volume_n": 2900
+      }
+    ],
+    "best": "nettoyeur haute pression",
+    "best_vol": 49500,
+    "verdict": "SURVIT"
+  },
+  {
+    "id": "P67",
+    "name": "Aiguiseur électrique",
+    "keywords": [
+      {
+        "volume": null,
+        "kd": null,
+        "cpc": "Densité de la concurrence",
+        "limit": false,
+        "q": "aiguiseur electrique",
+        "volume_n": null
+      },
+      {
+        "volume": "1,6K",
+        "kd": "23",
+        "cpc": "0,26 $",
+        "limit": false,
+        "q": "aiguiseur de couteaux",
+        "volume_n": 1600
+      }
+    ],
+    "best": "aiguiseur de couteaux",
+    "best_vol": 1600,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P68",
+    "name": "Graveuse laser",
+    "keywords": [
+      {
+        "volume": "1,0K",
+        "kd": "22",
+        "cpc": "1,13 $",
+        "limit": false,
+        "q": "graveuse laser",
+        "volume_n": 1000
+      },
+      {
+        "volume": "5,4K",
+        "kd": "24",
+        "cpc": "0,68 $",
+        "limit": false,
+        "q": "graveur laser",
+        "volume_n": 5400
+      }
+    ],
+    "best": "graveur laser",
+    "best_vol": 5400,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P69",
+    "name": "Poêle bois tente",
+    "keywords": [
+      {
+        "volume": "110",
+        "kd": "11",
+        "cpc": "0,21 $",
+        "limit": false,
+        "q": "poele a bois tente",
+        "volume_n": 110
+      },
+      {
+        "volume": "210",
+        "kd": "13",
+        "cpc": "0,19 $",
+        "limit": false,
+        "q": "poele camping",
+        "volume_n": 210
+      }
+    ],
+    "best": "poele camping",
+    "best_vol": 210,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P70",
+    "name": "Tente bulle",
+    "keywords": [
+      {
+        "volume": "390",
+        "kd": "7",
+        "cpc": "0,31 $",
+        "limit": false,
+        "q": "tente bulle",
+        "volume_n": 390
+      },
+      {
+        "volume": "260",
+        "kd": "12",
+        "cpc": "0,20 $",
+        "limit": false,
+        "q": "bulle de jardin",
+        "volume_n": 260
+      }
+    ],
+    "best": "tente bulle",
+    "best_vol": 390,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P71",
+    "name": "Tente sauna",
+    "keywords": [
+      {
+        "volume": "50",
+        "kd": null,
+        "cpc": "0,33 $",
+        "limit": false,
+        "q": "tente sauna",
+        "volume_n": 50
+      },
+      {
+        "volume": "40",
+        "kd": null,
+        "cpc": "0,69 $",
+        "limit": false,
+        "q": "sauna tente",
+        "volume_n": 40
+      }
+    ],
+    "best": "tente sauna",
+    "best_vol": 50,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P72",
+    "name": "Panneau solaire portable",
+    "keywords": [
+      {
+        "volume": "3,6K",
+        "kd": "37",
+        "cpc": "0,33 $",
+        "limit": false,
+        "q": "panneau solaire portable",
+        "volume_n": 3600
+      },
+      {
+        "volume": null,
+        "kd": null,
+        "cpc": "Densité de la concurrence",
+        "limit": false,
+        "q": "panneau solaire pliable",
+        "volume_n": null
+      }
+    ],
+    "best": "panneau solaire portable",
+    "best_vol": 3600,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P73",
+    "name": "Robot piscine",
+    "keywords": [
+      {
+        "volume": "33,1K",
+        "kd": "31",
+        "cpc": "0,54 $",
+        "limit": false,
+        "q": "robot piscine",
+        "volume_n": 33100
+      },
+      {
+        "volume": "1,9K",
+        "kd": "36",
+        "cpc": "0,41 $",
+        "limit": false,
+        "q": "robot nettoyeur piscine",
+        "volume_n": 1900
+      }
+    ],
+    "best": "robot piscine",
+    "best_vol": 33100,
+    "verdict": "SURVIT"
+  },
+  {
+    "id": "P74",
+    "name": "Moniteur respiration bébé",
+    "keywords": [
+      {
+        "volume": null,
+        "kd": null,
+        "cpc": "Densité de la concurrence",
+        "limit": false,
+        "q": "moniteur respiration bebe",
+        "volume_n": null
+      },
+      {
+        "volume": null,
+        "kd": null,
+        "cpc": "Densité de la concurrence",
+        "limit": false,
+        "q": "babyphone",
+        "volume_n": null
+      }
+    ],
+    "best": "moniteur respiration bebe",
+    "best_vol": 0,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P75",
+    "name": "Panneau acoustique",
+    "keywords": [
+      {
+        "q": "panneau acoustique",
+        "error": true
+      },
+      {
+        "q": "panneau phonique",
+        "error": true
+      }
+    ],
+    "best": "panneau acoustique",
+    "best_vol": 0,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P76",
+    "name": "Cabine acoustique",
+    "keywords": [
+      {
+        "volume": "2,9K",
+        "kd": "17",
+        "cpc": "8,17 $",
+        "limit": false,
+        "q": "cabine acoustique",
+        "volume_n": 2900
+      },
+      {
+        "volume": "50",
+        "kd": null,
+        "cpc": "3,37 $",
+        "limit": false,
+        "q": "cabine insonorisee",
+        "volume_n": 50
+      }
+    ],
+    "best": "cabine acoustique",
+    "best_vol": 2900,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P77",
+    "name": "Humidor",
+    "keywords": [
+      {
+        "volume": "480",
+        "kd": "14",
+        "cpc": "0 $",
+        "limit": false,
+        "q": "humidor",
+        "volume_n": 480
+      },
+      {
+        "volume": "390",
+        "kd": "16",
+        "cpc": "0 $",
+        "limit": false,
+        "q": "cave a cigares",
+        "volume_n": 390
+      }
+    ],
+    "best": "humidor",
+    "best_vol": 480,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P78",
+    "name": "Détecteur fuite eau",
+    "keywords": [
+      {
+        "volume": "880",
+        "kd": "20",
+        "cpc": "1,63 $",
+        "limit": false,
+        "q": "detecteur fuite eau",
+        "volume_n": 880
+      },
+      {
+        "volume": "1,6K",
+        "kd": "18",
+        "cpc": "1,22 $",
+        "limit": false,
+        "q": "detecteur de fuite d eau",
+        "volume_n": 1600
+      }
+    ],
+    "best": "detecteur de fuite d eau",
+    "best_vol": 1600,
+    "verdict": "STOP"
+  },
+  {
+    "id": "P79",
+    "name": "Groupe électrogène",
+    "keywords": [
+      {
+        "volume": "27,1K",
+        "kd": "22",
+        "cpc": "0,43 $",
+        "limit": false,
+        "q": "groupe electrogene",
+        "volume_n": 27100
+      },
+      {
+        "volume": "2,4K",
+        "kd": "17",
+        "cpc": "0,34 $",
+        "limit": false,
+        "q": "groupe electrogene inverter",
+        "volume_n": 2400
+      }
+    ],
+    "best": "groupe electrogene",
+    "best_vol": 27100,
+    "verdict": "SURVIT"
+  },
+  {
+    "id": "P41s",
+    "name": "Enrouleur tuyau (sonde later)",
+    "keywords": [
+      {
+        "volume": "18,1K",
+        "kd": "26",
+        "cpc": "0,14 $",
+        "limit": false,
+        "q": "enrouleur tuyau arrosage",
+        "volume_n": 18100
+      }
+    ],
+    "best": "enrouleur tuyau arrosage",
+    "best_vol": 18100,
+    "verdict": "SURVIT"
+  }
+]
