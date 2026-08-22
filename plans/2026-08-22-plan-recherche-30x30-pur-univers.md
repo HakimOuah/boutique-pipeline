@@ -1,6 +1,6 @@
 # Plan de structure — Recherche produit 30 PUR + 30 UNIVERS
 
-Date : 2026-08-22 · Statut : **EN ATTENTE DE VALIDATION HAKIM** — aucune exécution lancée.
+Date : 2026-08-22 · Statut : **SHORTLISTS 30+30 DÉPOSÉES** — en attente validation GO Hakim → Mission B → sourcing AE.
 Référentiels qui font foi : `PRODUCT-RESEARCH-CRITERIA.md` (seuils, modes, exclusions), skills `ideation-produit` / `recherche-mots-cles` / `sourcing-aliexpress`, `METHODE-ANALYSE-MARCHE.md` (pièges), `registre-candidats.md` (anti-doublon).
 
 ---

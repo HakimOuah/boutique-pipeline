@@ -1,6 +1,6 @@
 # Shortlist 30 PRODUIT PUR — salve 30×30 — 2026-08-22
 
-**Verdict volume express SEMrush Overview FR + sondes Shopping (où faites).**  
+**Verdict volume express SEMrush Overview FR + sondes Shopping (lots 1–7, 30/30 OK tranche).**  
 Pas de Trends complets, pas de SERP phase 3 profonde, **pas de GO Hakim**, **pas de sourcing**.  
 Sources d’idées : TrendTrack / Amazon / VEVOR / Flippa **et** reprises de dossiers « qualifiés volume niveau 0 » du registre (01–02/08) jamais STOP/rejetés.
 
@@ -29,15 +29,15 @@ Sources d’idées : TrendTrack / Amazon / VEVOR / Flippa **et** reprises de dos
 | 19 | Nettoyeur haute pression | 49,5K | OK | Compl.2 | Kärcher |
 | 20 | Robot piscine | 33,1K | OK | Compl.2 | Saison/GSB |
 | 21 | Groupe électrogène | 27,1K | OK | Compl.2 | CE/poids |
-| 22 | Intercom moto | 14,8K | *à sonder* | Compl.3 | Sena/Cardo |
-| 23 | Baby-foot | 18,1K | *à sonder* | Registre 01/08 | Fret |
-| 24 | Douche solaire | 14,8K | *à sonder* | Registre 01/08 | Saison |
-| 25 | Hamac sur pied | 12,1K | *à sonder* | Registre 01/08 | GSB |
-| 26 | Barnum / tente réception | 40,5K | *à sonder* | Registre 01/08 | Saison/fret |
-| 27 | Porte placard coulissante | 18,1K | *à sonder* | Registre 01/08 | Pose |
-| 28 | PAC piscine | 12,1K | *à sonder* | Registre 01/08 | Élec/saison |
-| 29 | Billard | 27,1K | *à sonder* | Registre Q4 | Fret/marques |
-| 30 | Sac de frappe | 14,8K | *à sonder* | Registre Q4 | Decathlon possible — angle premium/home gym |
+| 22 | Intercom moto | 14,8K | OK | Compl.3 | Sena/Cardo |
+| 23 | Baby-foot | 18,1K | OK | Registre 01/08 | Fret |
+| 24 | Douche solaire | 14,8K | OK | Registre 01/08 | Saison |
+| 25 | Hamac sur pied | 12,1K | OK | Registre 01/08 | GSB |
+| 26 | Barnum / tente réception | 40,5K | OK | Registre 01/08 | Saison/fret |
+| 27 | Porte placard coulissante | 18,1K | OK | Registre 01/08 | Pose |
+| 28 | PAC piscine | 12,1K | OK | Registre 01/08 | Élec/saison |
+| 29 | Billard | 27,1K | OK | Registre Q4 | Fret/marques |
+| 30 | Sac de frappe | 14,8K | OK | Registre Q4 | Decathlon possible — angle premium/home gym |
 
 > Top 30 **strict** : rameur, cocotte fonte et rocking chair sortis du #30 → file cas limites (recommandation §4 : Decathlon / Le Creuset / banalité fauteuil).
 
