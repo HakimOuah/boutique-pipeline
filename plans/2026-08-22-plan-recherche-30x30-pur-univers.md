@@ -1,6 +1,6 @@
 # Plan de structure — Recherche produit 30 PUR + 30 UNIVERS
 
-Date : 2026-08-22 · Statut : **SHORTLISTS 30+30 DÉPOSÉES** — en attente validation GO Hakim → Mission B → sourcing AE.
+Date : 2026-08-22 · Statut : **TERMINÉ** — shortlists 30+30 · GO global (`GO-GLOBAL-30x30.md`) · sourcing AE 60/60 (`sourcing-complet-30x30.json`) · bilan `BILAN-FINAL-30x30.md`. Mission B complète reste sur les retenus.
 Référentiels qui font foi : `PRODUCT-RESEARCH-CRITERIA.md` (seuils, modes, exclusions), skills `ideation-produit` / `recherche-mots-cles` / `sourcing-aliexpress`, `METHODE-ANALYSE-MARCHE.md` (pièges), `registre-candidats.md` (anti-doublon).
 
 ---
