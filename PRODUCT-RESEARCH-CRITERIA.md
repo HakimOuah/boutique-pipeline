@@ -15,7 +15,7 @@ Ce document est le référentiel à appliquer à toutes les nouvelles recherches
 
 ## 2. Sources d'idées
 
-**Source principale depuis le 19 août 2026 : TrendTrack seulement** (Google Ads Search ou Shopping selon le mode, shops, Meta/TikTok comme signal d'univers). Recette : skill `ideation-produit` et agent `mineur-brandsearch` (mineur TrendTrack, identifiant conservé). Mesure = `recherche-mots-cles` (y compris Google Trends). Fournisseur = `sourcing-aliexpress`, uniquement après verdict marché écrit.
+**Source principale depuis le 19 août 2026 : TrendTrack seulement** (Google Ads Search ou Shopping selon le mode, shops, Meta/TikTok comme signal d'univers). Recette : skill `ideation-produit` et agent `mineur-brandsearch` (mineur TrendTrack, identifiant conservé). Mesure = `recherche-mots-cles` (y compris Google Trends). Fournisseur = `sourcing-aliexpress`, uniquement après `PASS_PREQUALIFICATION` écrit.
 
 **Source secondaire :** Amazon, VEVOR, Flippa, Europages, balayage familles — sur demande.
 
@@ -23,7 +23,7 @@ Ce document est le référentiel à appliquer à toutes les nouvelles recherches
 
 L'exploration s'élargit ensuite par **SEMrush lui-même** : les sous-groupes du Keyword Magic Tool révèlent les sous-niches autour de chaque idée mesurée, et les associations d'idées (une boutique d'étanchéité → béton ciré → rénovation décorative) alimentent des idées latérales qui suivent la même chaîne complète.
 
-Ces sources servent uniquement à trouver et valider des idées. **Le fournisseur doit exclusivement être trouvé sur AliExpress, uniquement après verdict marché écrit.**
+Ces sources servent uniquement à trouver et préqualifier des idées. **Le fournisseur doit exclusivement être trouvé sur AliExpress, uniquement après `PASS_PREQUALIFICATION` écrit.** Ce pass autorise la due diligence ; il ne constitue jamais le `GO_FINAL`.
 
 ## 3. Profils de produits recherchés
 
@@ -130,14 +130,15 @@ Bilan du 20/07/2026 (7 familles balayées) : le chemin B élimine bien les morts
 5. Vérification du mode économique : capacité à défendre une offre entre 50 et
    400 EUR, ou panier/marge potentiels crédibles en
    `catalogue-volume`.
-6. Sourcing exclusivement sur AliExpress.
-7. Contrôle fournisseur, coût rendu, logistique, conformité et marge.
-8. Classement : GO, à approfondir ou rejet documenté.
+6. Porte intermédiaire : `PASS_PREQUALIFICATION`, `STOP_PREQUALIFICATION` ou `REVIEW_PREQUALIFICATION`. Le pass autorise uniquement la due diligence concurrence + sourcing ; aucun GO commercial n'est encore prononcé.
+7. En parallèle lorsque possible : sourcing exclusivement sur AliExpress et analyse concurrentielle approfondie après vérification SERP.
+8. Contrôle exact : SKU, coût rendu, logistique, conformité documentée, marge contributive, densité concurrentielle et droit de gagner.
+9. Décision humaine finale : `GO_FINAL`, `WATCH_FINAL` ou `NO_GO_FINAL`. Aucun bot ne prononce cette décision à la place de Hakim.
 
 ### Ce qui ne change pas
 
 - Les filtres de différenciation GSB / banalité (§4) et le persona pro (§3).
-- L'étanchéité : marché → fiche AliExpress → commande test → lancement.
+- L'étanchéité : préqualification → concurrence + fiche AliExpress → décision finale → commande test → lancement.
 - L'anti-doublon par le registre.
 - En PRODUIT PUR : ne pas additionner des familles distinctes (anti-exemple catio).
 - En UNIVERS : additionner les collections d'un même catalogue ; ne pas additionner un autre univers.

@@ -7,7 +7,7 @@ Référentiels qui font foi : `PRODUCT-RESEARCH-CRITERIA.md` (seuils, modes, exc
 
 ## 1. Cadre
 
-Objectif : constituer **deux shortlists de 30 candidats chacune** — 30 en mode PRODUIT PUR, 30 en mode UNIVERS — via idéation multi-sources (TrendTrack en tête, plus Vevor, Amazon Movers & Shakers, Flippa et sources bonus), qualification express de volume France (SEMrush + SERP + sonde prix), puis présentation à Hakim pour GO/STOP. Le sourcing AliExpress n'intervient **que sur les GO écrits**. Les trois skills restent étanches : l'idéation ne mesure rien, la mesure ne conclut rien, le sourcing ne commence jamais avant le verdict marché.
+Objectif : constituer **deux shortlists de 30 candidats chacune** — 30 en mode PRODUIT PUR, 30 en mode UNIVERS — via idéation multi-sources (TrendTrack en tête, plus Vevor, Amazon Movers & Shakers, Flippa et sources bonus), qualification express de volume France (SEMrush + SERP + sonde prix), puis présentation à Hakim pour `PASS_PREQUALIFICATION` / arrêt. Le sourcing AliExpress et l'analyse concurrentielle approfondie n'interviennent **que sur les pass écrits**. Le `GO_FINAL` arrive ensuite, après consolidation sourcing + concurrence + économie exacte.
 
 ### Définitions et test de classification binaire
 
@@ -84,8 +84,9 @@ TrendTrack : commencer chaque salve par `GET /v1/usage` (crédits), API `https:/
 | **P2 — Dédoublonnage & classification** | Anti-doublon contre **tout** le registre (synonymes : singulier/pluriel, accents, FR/EN, même usage) ; test binaire §1 ; filtres d'amont (§4 critères : GSB, persona pro, exclusions explicites, licences, banalité) | `registre-candidats.md` + `PRODUCT-RESEARCH-CRITERIA.md` §3–4 | Pool tagué : chaque idée a un mode, un motif de poursuite, zéro doublon ; STOP/rejeté antérieur = mort sauf `reprise motivée` de Hakim |
 | **P3 — Qualification express volume** | **PUR** : Mission A — cluster en niveaux séparés (jamais additionnés), brut **et** net de marque, sonde prix, Trends platitude ~5 ans. **UNIVERS** : Mission B express — 3–6 familles cœur + head terms, consolidation **préparée sans être tranchée**, net de marque, SERP des têtes de famille, Trends socle ≥ 8 mois | Skill `recherche-mots-cles` (SEMrush `db=fr`, KMT `mt=phrase`, les 5 contrôles, les 6 contrôles SERP) | Seuils du mode (§1 des critères — ~10 000 PUR / ≥ 30 000 consolidé UNIVERS) ; bande ±20 % = `CAS LIMITE — décision Hakim` ; sonde `LOW-TICKET` → vivier ; nettement sous le seuil → mort inscrite au registre |
 | **P4 — Scoring & shortlists** | Grilles §6 sur les seuls survivants de P3 ; classement ; coupure à 30 par mode | Ce plan (grilles) | Deux fichiers shortlist déposés ; **aucun repêchage** : moins de 30 survivants = compte réel rendu tel quel (interdit d'assouplir un critère pour atteindre un chiffre) |
-| **P5 — GO / STOP** | Présentation à Hakim : shortlists + réserves complètes + cas limites. **Hakim seul prononce le GO** | Décision Hakim | GO **écrit** par candidat ; STOP et cas limites inscrits au registre |
-| **P6 — Sourcing AliExpress** | Sur GO écrits uniquement. PUR : fiche hero + backups (idéalement 3+), coût rendu, confiance A/B/C. UNIVERS : **sourçabilité par famille cœur** (2–3 fiches PDP par famille), pas 100 SKU | Skill `sourcing-aliexpress` | Statuts autorisés du skill seulement ; `GO fournisseur` n'existe pas ; délai cible < 10 j idéal, < 15 j |
+| **P5 — Préqualification** | Présentation à Hakim : shortlists + réserves complètes + cas limites. | Décision Hakim | `PASS_PREQUALIFICATION`, `STOP_PREQUALIFICATION` ou `REVIEW_PREQUALIFICATION` ; le pass autorise la due diligence, pas le lancement |
+| **P6 — Due diligence sourcing + concurrence** | Sur pass écrits uniquement. Sourcing : PUR = hero + backups ; UNIVERS = 2–3 PDP par famille cœur. Concurrence : densité, acteurs défensifs, prix, différenciation et droit de gagner. | Skills `sourcing-aliexpress` + cartographie concurrence | SKU/fret/coût rendu et concurrence documentés ; `GO fournisseur` n'existe pas |
+| **P7 — Économie et décision finale** | Réconcilier demande, concurrence, prix défendable, SKU exact, coût rendu, logistique, risques et marge contributive. | Product Factory + revue Hakim | `GO_FINAL`, `WATCH_FINAL` ou `NO_GO_FINAL` ; Hakim seul prononce la décision finale |
 
 Écriture au fil de l'eau à chaque phase : registre local d'abord, sync Notion ensuite (panne Notion → `notion-sync-pending.md`, jamais bloquant). Règles d'arrêt fail-closed inchangées : SEMrush inaccessible, témoin à 0, CAPTCHA, fichier canonique manquant → arrêt propre, jamais de donnée inventée.
 
@@ -213,5 +214,6 @@ Tous sous `boutique-pipeline/`, datés, commités au fil de l'eau (réflexe GitH
 8. P3 PUR : mesure express par lots de 8–10 (Mission A + sonde + Trends), registre au fil de l'eau.
 9. P3 UNIVERS : Mission B express par lots de 4–5, registre au fil de l'eau.
 10. P4 : scoring + dépôt des deux shortlists 30+30.
-11. P5 : présentation GO/STOP à Hakim (cas limites listés, réserves complètes).
-12. P6 : sourcing AliExpress sur les GO écrits uniquement.
+11. P5 : présentation pour `PASS_PREQUALIFICATION` / arrêt (cas limites listés, réserves complètes).
+12. P6 : sourcing AliExpress et concurrence approfondie sur les pass écrits uniquement.
+13. P7 : synthèse économie + concurrence + sourcing, puis décision `GO_FINAL` / `WATCH_FINAL` / `NO_GO_FINAL` par Hakim.
