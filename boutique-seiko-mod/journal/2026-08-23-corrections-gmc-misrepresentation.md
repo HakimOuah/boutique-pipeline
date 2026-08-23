@@ -70,8 +70,21 @@ Prix barrés : gabarit dormant vide (`compare_at_price = null`) — pas un vrai 
   suppression de `president` / `presidentiel` / `904l` des noms de fichiers sur les 3 fiches bracelets/GMT
 - Post-check : **0** nom de fichier contenant `president` sur le catalogue actif
 
+### Redirections 301 (23/08 soir)
+- **3 redirections** créées dans l'admin Shopify (CLI sans scope navigation)
+- Vérification live : anciennes URLs → **301**, nouvelles → **200**
+
+### Rapport OneClickBrand (23/08 soir) — corrections
+| Point | Action |
+|---|---|
+| `assistance@shopify.com` dans mentions légales | Bloc « Contact technique Shopify Inc. » **supprimé** (`shopPolicyUpdate`) |
+| Délais livraison incohérents (2–3 sem. vs 14–21 j) | Harmonisé en **14 à 21 jours calendaires** (`product.json`, `cart.json`, `footer-group.json`) |
+| Contact sans adresse postale | Adresse **47 rue Vivienne** ajoutée sur `/pages/contact` |
+| Page suivi colis absente | Page **`/pages/suivre-mon-colis`** créée |
+| Liens header « À propos » + « Suivre mon colis » | **À faire** — menu admin bloqué (dialogue modifications non enregistrées) ; « La Maison » couvre déjà l'À-propos |
+
 ## Non traité
-- **Redirections 301** (3) — action Hakim dans l’admin Shopify
+- **Menu header** : ajouter « Suivre mon colis » + renommer « La Maison » → « À propos » (2 min dans Contenu → Menus → Main menu)
 
 ## Conduite post-correction (Terry)
 - **Ne pas** demander d’examen GMC avant **7–10 jours**

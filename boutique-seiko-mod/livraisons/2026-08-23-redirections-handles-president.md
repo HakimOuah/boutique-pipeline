@@ -9,6 +9,6 @@ Le CLI n’a pas le scope `write_online_store_navigation`. À poser dans **Bouti
 | `/products/voyageur-or-gmt-president` | `/products/voyageur-or-gmt-maillons-arrondis` |
 
 Statut au 23/08 (soir) :
-- Nouvelles URLs → **200** (`bracelet-maillons-arrondis-dore`, `bracelet-maillons-arrondis-acier`, `voyageur-or-gmt-maillons-arrondis`)
-- Anciennes URLs → **404** (redirections pas encore posées)
-- API `urlRedirectCreate` : **refusée** (scope `write_online_store_navigation` manquant sur l’app CLI)
+- Nouvelles URLs → **200**
+- Anciennes URLs → **301** vers les nouvelles (créées via admin Shopify)
+- API `urlRedirectCreate` : scope manquant sur le CLI — contourné via navigateur
