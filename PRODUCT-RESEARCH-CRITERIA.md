@@ -28,7 +28,9 @@ Ce document est le référentiel à appliquer à toutes les nouvelles recherches
 
 **Source principale depuis le 19 août 2026 : TrendTrack seulement** (Google Ads Search ou Shopping selon le mode, shops, Meta/TikTok comme signal d'univers). Recette : skill `ideation-produit` et agent `mineur-brandsearch` (mineur TrendTrack, identifiant conservé). Mesure = `recherche-mots-cles` (y compris Google Trends). Fournisseur = `sourcing-aliexpress`, uniquement après `PASS_PREQUALIFICATION` écrit.
 
-**Source secondaire :** Amazon, VEVOR, Flippa, Europages, balayage familles — sur demande.
+**Modalité d'accès TrendTrack (décision Hakim 23/08/2026)** : les bots Grok utilisent TrendTrack **dans leur navigateur** (app web, mêmes modules et filtres via l'interface) — jamais l'API, dont la clé ne doit pas vivre sur la machine cloud partagée. Les recettes API `/v1/...` restent réservées à Claude Code en local.
+
+**Source secondaire :** Amazon, VEVOR, Flippa, Europages, balayage familles. Depuis le 23/08/2026 (veille continue), ces sources tournent **en rotation autonome** dans la veille — plus besoin d'une demande explicite — avec la même discipline : anti-doublon registre d'abord, mesure avant filtre qualitatif.
 
 **Brand Search n'est plus une source** (décision Hakim 19/08/2026 : TrendTrack fait le même travail). Les rapports historiques « vague Brand Search » restent de l'anti-doublon. Les visites Brand Search n'ont jamais fondé un verdict.
 

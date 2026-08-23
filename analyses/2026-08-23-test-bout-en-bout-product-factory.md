@@ -41,3 +41,25 @@ Prochaines actions possibles (à toi) : `WATCH_FINAL`, ou approfondir (revue SKU
 - Opportunité `opp-ac535029c87f42c0b034d05d9f7e405f` : `SUPPLIER_VALIDATION` / `TECHNICAL_WATCH`, rév. 4 (artefact concurrence inclus), sur le volume VPS.
 - `.env` VPS : ajout `DATAFORSEO_TIMEOUT_SECONDS=120` (conteneurs recréés, les deux healthy).
 - Aucun `GO_FINAL` enregistré (la tentative adverse a été bloquée, rien persisté). Aucune mutation Shopify/GMC/Ads. Aucune dépense hors 0,024 $ DataForSEO.
+
+## Addendum — correctifs livrés et re-validation live (23/08, après-midi)
+
+Les 3 retours ont été corrigés par Fable 5 (pas Codex) dans la [PR #45](https://github.com/HakimOuah/aliexpress-mcp-server/pull/45), mergée et déployée sur le VPS (`main` @ `9afa920`, 416 tests exécutés et passés) :
+
+1. **Pertinence** : les modificateurs d'attribut (`gonflable`, `portable`, `électrique`…) ne qualifient plus un titre à eux seuls — un token substantif du produit est exigé (régression testée sur le cas réel de la chaise piscine).
+2. **Timeout DataForSEO** : défaut 30 s → 120 s dans le code (`config.py` + `.env.example`).
+3. **Contrôle croisé sonde prix** : `analyze_product_opportunity` retourne `price_probe_cross_check` (médiane SERP vs sonde Shopping persistée). La sonde canonique reste l'arbitre.
+
+**Re-validation live sur le même candidat** (préqualification ré-enregistrée rév. 5, nouvelle analyse 0,016 $) :
+
+- la chaise piscine a **disparu** (0 fournisseur en catégorie demandée, 20 accessoires camping correctement `NOT_COMPARABLE`) ;
+- verdict corrigé : **`TECHNICAL_FAIL`** (aucun fournisseur PRODUCT qualifié) — persisté rév. 6 ;
+- le contrôle croisé tire : `ABOVE_PROBED_BAND` (386,50 € SERP vs socle sondé 100-220 €), avec la consigne de revoir la composition du bucket avant de croire la médiane SERP.
+
+Note de recall pour plus tard : `ds.text.search` ne remonte que des accessoires camping sur cette requête ; le repli découverte Google ne se déclenche que si zéro item pertinent. Si le candidat est repris un jour, prévoir un repli déclenchable quand la catégorie demandée reste vide (pas seulement quand tout est vide).
+
+## Exposition de la surface scout (pour les bots Grok)
+
+- **URL publique** : `https://srv1575867.hstgr.cloud/mcp` (TLS Let's Encrypt via Traefik, override compose local au VPS — jamais versionné).
+- Auth Bearer par `SCOUT_MCP_TOKEN` : 401 vérifié sans token et avec mauvais token ; handshake MCP validé depuis l'extérieur (serveur : `product-factory-scout`).
+- Seule la surface scout est exposée ; la surface contrôle reste sur `127.0.0.1` et son token ne quitte pas le local.
