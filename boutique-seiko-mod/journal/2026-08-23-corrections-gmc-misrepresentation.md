@@ -48,9 +48,30 @@ Prix barrés : gabarit dormant vide (`compare_at_price = null`) — pas un vrai 
 - **0** « Qualité Premium » sur fiche test
 - JSON-LD produit test : **sans Seiko**
 
-## Non traité (P2 — à planifier)
-- **9 groupes d’images partagées** mère/enfant (`c-430162-*`, `c-690002-*`, etc.)
-- Handles URL inchangés (`bracelet-presidentiel-*`, `voyageur-or-gmt-president`)
+### Images dupliquées T-36 (option 2)
+- **9 composites** retirés des fiches **mères** via `productDeleteMedia` :
+  `trente-neuf-classique-cannelee` (3), `trente-six-classique-jubile` (5),
+  `trente-neuf-duo-classique-bicolore` (1)
+- Post-check : **0** fichier CDN partagé entre deux fiches actives
+
+### Handles URL renommés
+| Ancien | Nouveau |
+|---|---|
+| `bracelet-presidentiel-dore` | `bracelet-maillons-arrondis-dore` |
+| `bracelet-presidentiel-acier-inoxydable` | `bracelet-maillons-arrondis-acier` |
+| `voyageur-or-gmt-president` | `voyageur-or-gmt-maillons-arrondis` |
+
+- **18 alts** mis à jour sur ces 3 fiches
+- Anciennes URLs → **404**, nouvelles → **200**
+- **Redirections 301** : scope API manquant → à poser à la main (voir `livraisons/2026-08-23-redirections-handles-president.md`)
+
+### Noms de fichiers CDN (13 visuels)
+- **13 fichiers** renommés via `fileUpdate` (pas de `fileDelete`, pas de re-génération Codex) :
+  suppression de `president` / `presidentiel` / `904l` des noms de fichiers sur les 3 fiches bracelets/GMT
+- Post-check : **0** nom de fichier contenant `president` sur le catalogue actif
+
+## Non traité
+- **Redirections 301** (3) — action Hakim dans l’admin Shopify
 
 ## Conduite post-correction (Terry)
 - **Ne pas** demander d’examen GMC avant **7–10 jours**

@@ -1,0 +1,28 @@
+{
+  "date": "2026-08-23",
+  "operation": "fileUpdate filename rename — purge president/presidentiel des noms CDN",
+  "method": "fileUpdate (pas de fileDelete, pas de re-génération Codex)",
+  "renames": [
+    {"old": "bracelet-president-or-jaune.jpg", "new": "bracelet-maillons-arrondis-or-jaune.jpg", "handle": "bracelet-maillons-arrondis-dore"},
+    {"old": "bracelet-president-acier-or-rose.jpg", "new": "bracelet-maillons-arrondis-acier-or-rose.jpg", "handle": "bracelet-maillons-arrondis-dore"},
+    {"old": "bracelet-presidentiel-acier-inoxydable-v-centre-poli.jpg", "new": "bracelet-maillons-arrondis-acier-v-centre-poli.jpg", "handle": "bracelet-maillons-arrondis-acier"},
+    {"old": "bracelet-presidentiel-904l-02-situation.jpg", "new": "bracelet-maillons-arrondis-02-situation.jpg", "handle": "bracelet-maillons-arrondis-acier"},
+    {"old": "bracelet-presidentiel-904l-03-macro.jpg", "new": "bracelet-maillons-arrondis-03-macro.jpg", "handle": "bracelet-maillons-arrondis-acier"},
+    {"old": "bracelet-presidentiel-acier-inoxydable-v-centre-brosse.jpg", "new": "bracelet-maillons-arrondis-acier-v-centre-brosse.jpg", "handle": "bracelet-maillons-arrondis-acier"},
+    {"old": "bracelet-presidentiel-acier-inoxydable-v-jubile.jpg", "new": "bracelet-maillons-arrondis-acier-v-jubile.jpg", "handle": "bracelet-maillons-arrondis-acier"},
+    {"old": "bracelet-presidentiel-acier-inoxydable-v-president.jpg", "new": "bracelet-maillons-arrondis-acier-v-maillons.jpg", "handle": "bracelet-maillons-arrondis-acier"},
+    {"old": "voyageur-or-gmt-president-02-situation.jpg", "new": "voyageur-or-gmt-maillons-arrondis-02-situation.jpg", "handle": "voyageur-or-gmt-maillons-arrondis"},
+    {"old": "voyageur-or-gmt-president-03-macro.jpg", "new": "voyageur-or-gmt-maillons-arrondis-03-macro.jpg", "handle": "voyageur-or-gmt-maillons-arrondis"},
+    {"old": "voyageur-or-gmt-president-04-poignet.jpg", "new": "voyageur-or-gmt-maillons-arrondis-04-poignet.jpg", "handle": "voyageur-or-gmt-maillons-arrondis"},
+    {"old": "voyageur-or-gmt-president-g1.jpg", "new": "voyageur-or-gmt-maillons-arrondis-g1.jpg", "handle": "voyageur-or-gmt-maillons-arrondis"},
+    {"old": "gmt-or-bracelet-president_feda497c-1e0e-439a-881d-61030466789e.jpg", "new": "gmt-or-bracelet-maillons-arrondis.jpg", "handle": "voyageur-or-gmt-maillons-arrondis"}
+  ],
+  "post_check": {
+    "images_with_president_in_filename": 0,
+    "duplicate_images_across_active_products": 0
+  },
+  "redirects": {
+    "status": "blocked — scope write_online_store_navigation manquant",
+    "manual_required": true
+  }
+}
