@@ -1,6 +1,17 @@
 # Critères canoniques de recherche produit
 
-Dernière mise à jour : 19 août 2026 (deux modes **PRODUIT PUR** / **UNIVERS** ; Brand Search remplacé par TrendTrack ; Search ≠ Shopping. 18/08 : plancher 50–400 €. Skills `ideation-produit` / `recherche-mots-cles` / `sourcing-aliexpress`.)
+Dernière mise à jour : 23 août 2026 (décisions Hakim post-revues Fable 5 + ChatGPT Pro : émetteur du pass, vocabulaire `TECHNICAL_*`, plancher de sourçabilité UNIVERS, commande test, recherche continue — voir §0. Historique : 19/08 deux modes **PRODUIT PUR** / **UNIVERS**, Brand Search remplacé par TrendTrack, Search ≠ Shopping ; 18/08 plancher 50–400 €. Skills `ideation-produit` / `recherche-mots-cles` / `sourcing-aliexpress`.)
+
+## 0. Décisions du 23/08/2026 (Hakim, après revue croisée Fable 5 + ChatGPT Pro)
+
+1. **Émetteur des verdicts.** `PASS_PREQUALIFICATION` / `REVIEW` / `STOP` = conformité technique (volume, critères) → **émis par l'agent**. Les `REVIEW` et cas limites remontent à Hakim. La recommandation technique de phase 5 est également côté agent. La seule porte humaine de sélection produit est `GO_FINAL` / `WATCH_FINAL` / `NO_GO_FINAL`.
+2. **Vocabulaire.** Les recommandations techniques s'écrivent `TECHNICAL_PASS`, `TECHNICAL_WATCH`, `TECHNICAL_FAIL`, `TECHNICAL_INCONCLUSIVE`. Le mot **GO** est réservé à la décision de Hakim. (Motif : la confusion s'est déjà produite — des lots de sourcing de la salve 30×30 ont été titrés « GO » alors qu'ils signifiaient « fiche trouvée, à tester ».)
+3. **Sources de mesure.** SEMrush France (`db=fr`) reste **la loi**. DataForSEO et Ahrefs sont des replis documentés si SEMrush est indisponible ; tout chiffre rendu sur repli le signale, et un pass rendu sur repli le signale aussi. DataForSEO garde un rôle légitime de **filtre d'expansion peu coûteux** en amont (Product Factory), jamais de source de gate.
+4. **Registre = référence.** `registre-candidats.md` (GitHub) est le système de référence des candidats. Tout état d'opportunité créé ailleurs (dont le state store de la Product Factory) doit référencer son entrée de registre ; l'anti-doublon se joue à l'entrée, systématiquement — d'autant plus que la recherche devient continue (point 7).
+5. **Commande test.** Elle est passée par **Hakim lui-même**, immédiatement après `GO_FINAL` (latence livraison 1–3 semaines). Le build avance en parallèle sur les étapes gratuites et réversibles (persona, offre, DA) ; le contrôle de l'échantillon reçu (`SAMPLE_OK`) est **bloquant avant GMC/Ads**. `WATCH_FINAL` n'autorise rien : ni build, ni commande test automatique.
+6. **UNIVERS.** Décision : construire le pipeline UNIVERS complet (option B) — consolidation par familles, économie de panier, sourcing par famille, boutique multi-collections. **Plancher de sourçabilité** : les 3–5 familles pesant ≥ 70 % du volume consolidé doivent avoir chacune ≥ 2 fournisseurs plausibles avant décision finale. Règle transitoire tant que ce pipeline n'existe pas : **aucun `GO_FINAL` sur un dossier UNIVERS** dont la consolidation par familles et la sourçabilité par famille ne sont pas documentées.
+7. **Recherche continue.** La recherche produit fonctionne en veille de marché permanente, en parallèle de la production — avec anti-doublon systématique (point 4) et coût plafonné par candidat (pas de due diligence profonde sans pass).
+8. **Autonomie des bots.** Les bots peuvent cliquer un CAPTCHA affiché, accepter CGU et cookies quand une page le demande. Jamais d'outil anti-détection, de proxy tournant ni de contournement technique ; blocage persistant = arrêt déclaré.
 
 Ce document est le référentiel à appliquer à toutes les nouvelles recherches produit du pipeline.
 
@@ -132,8 +143,9 @@ Bilan du 20/07/2026 (7 familles balayées) : le chemin B élimine bien les morts
    `catalogue-volume`.
 6. Porte intermédiaire : `PASS_PREQUALIFICATION`, `STOP_PREQUALIFICATION` ou `REVIEW_PREQUALIFICATION`. Le pass autorise uniquement la due diligence concurrence + sourcing ; aucun GO commercial n'est encore prononcé.
 7. En parallèle lorsque possible : sourcing exclusivement sur AliExpress et analyse concurrentielle approfondie après vérification SERP.
-8. Contrôle exact : SKU, coût rendu, logistique, conformité documentée, marge contributive, densité concurrentielle et droit de gagner.
+8. Contrôle exact : SKU, coût rendu, logistique, conformité documentée, marge contributive, densité concurrentielle et droit de gagner. Sortie : recommandation `TECHNICAL_PASS` / `TECHNICAL_WATCH` / `TECHNICAL_FAIL` / `TECHNICAL_INCONCLUSIVE`.
 9. Décision humaine finale : `GO_FINAL`, `WATCH_FINAL` ou `NO_GO_FINAL`. Aucun bot ne prononce cette décision à la place de Hakim.
+10. Après `GO_FINAL` : commande test passée par Hakim immédiatement ; build en parallèle sur les étapes réversibles ; contrôle échantillon (`SAMPLE_OK`) bloquant avant GMC/Ads (§0.5).
 
 ### Ce qui ne change pas
 
@@ -154,4 +166,4 @@ Bilan du 20/07/2026 (7 familles balayées) : le chemin B élimine bien les morts
 - Trafic estimé faible ou absence d'Ads ne prouve ni échec ni rentabilité ; ne
   pas transformer une estimation tierce en verdict commercial.
 
-**Source de mesure du volume** : SEMrush France (`db=fr`). Ahrefs n'est qu'un repli documenté si SEMrush est indisponible, et un verdict rendu sur repli doit le signaler.
+**Source de mesure du volume** : SEMrush France (`db=fr`). Ahrefs et DataForSEO ne sont que des replis documentés si SEMrush est indisponible, et un verdict rendu sur repli doit le signaler (décision Hakim 23/08/2026 — DataForSEO reste autorisé comme filtre d'expansion peu coûteux en amont, jamais comme source de gate).
