@@ -3,7 +3,7 @@
 **Date :** 2026-08-25
 **Verdict agent :** `TECHNICAL_WATCH`
 **Décision humaine :** `PENDING_HAKIM`
-**Complétude :** concurrence et fournisseurs approfondis ; longue traîne SEMrush par poids/taille `MANQUANT` à cause de la limite de sessions.
+**Complétude :** concurrence et fournisseurs approfondis ; SEMrush France repris sur les 100 premières variantes parmi 918 résultats, avec poids, principaux formats, matières, publics, marques et objections nettoyés.
 
 ## Conclusion exécutive
 
@@ -68,20 +68,25 @@ Base prudente : variante 8 kg à 59,75 EUR TTC, paiement 2 %, provision retours/
 | 109 EUR | 38,35 EUR | 2,84 |
 | 129 EUR | 56,35 EUR | 2,29 |
 
-À 129 EUR, l'économie publicitaire est plausible. Elle n'est pas validée sans CPC commerciaux par poids/taille, TVA correctement modélisée, taux de retour réel et coût de retour du colis.
+À 129 EUR, l'économie publicitaire est plausible. Les CPC visibles par poids sont généralement de 0,23 à 0,37 USD et les grands formats atteignent 0,52 USD : ils ne contredisent pas l'économie, mais ne valident ni CPA, ni taux de conversion. TVA correctement modélisée, taux de retour réel et coût de retour du colis restent manquants.
 
 ## SEMrush et SEO
 
-Les seuls volumes qualifiés restent :
+Le contrôle live affiche 918 variantes, 61 080 recherches brutes et un KD moyen de 21 %. Ce total est pollué par marques, fautes, informations santé/sécurité et reformulations ; il n'est pas un marché adressable.
+
+Repères qualifiés :
 
 - `couverture lestée` 27 100 ;
 - `plaid lesté` 720 ;
 - `couverture pondérée` 590 ;
 - enfant 2 400 séparé ;
 - danger 1 000 informationnel ;
-- Action 4 400 et IKEA 1 300 exclus du générique.
+- Action 4 400 et IKEA 1 300 exclus du générique ; Decathlon 720, Emma 720 et Gifi 390 le sont aussi ;
+- poids 3–10 kg : 2 190 recherches brutes sur les formes espacées/non espacées visibles, non additionnables à la tête ; 5 kg 530, 7 kg 430 et 6 kg 400 dominent ce sous-ensemble ;
+- formats : 220x240 170, 240x260 90, 200x200 70, 160x200 50 ;
+- adulte 590 ; été 140 ; premium 110 ; coton 70 ; lavable 50.
 
-La carte complète à mesurer couvre poids 3–12 kg, dimensions, matière, saisons, adulte/enfant, accessoires, entretien et objections. Aucun total n'est produit tant que les volumes live, l'intention et le chevauchement ne sont pas contrôlés.
+La longue traîne confirme une architecture de collection plus étroite que celle du concurrent. Les poids sont des portes utiles ; la demande par dimension est faible et orientée grands formats, sans correspondance parfaite avec les trois dimensions du fournisseur Good Nite. Les requêtes 11–12 kg et la plupart des dimensions préparées ne figurent pas dans le top 100 : elles restent non observées, pas nulles.
 
 ## Conformité et claims
 
@@ -102,12 +107,11 @@ Sources réglementaires :
 
 Conditions cumulatives pour passer :
 
-1. longue traîne SEMrush France mesurée et nettoyée ;
-2. backup 6–8 kg exact, idéalement expédié d'Europe ;
-3. composition/remplissage, coutures, poids, lavage et conformité documentés ;
-4. adresse et coût de retour, garantie et SAV vérifiés ;
-5. échantillon physique approuvé après autorisation humaine ;
-6. claims et avertissements validés avant toute mise en vente.
+1. backup 6–8 kg exact, idéalement expédié d'Europe, avec priorité 5/7 kg si extension ;
+2. composition/remplissage, coutures, poids, lavage et conformité documentés ;
+3. adresse et coût de retour, garantie et SAV vérifiés ;
+4. échantillon physique approuvé après autorisation humaine ;
+5. claims et avertissements validés avant toute mise en vente.
 
 ## Preuves locales
 

@@ -4,7 +4,7 @@ Cet espace contient l'adaptation Codex de la boucle volume-first. Il est volonta
 
 ## Deep dive couverture lestée — reprise du 25 août
 
-Le catalogue concurrent, la carte complète des clusters à mesurer et quatre fiches AliExpress exactes ont été audités. Le verdict reste **`TECHNICAL_WATCH`** : une gamme adulte 4/6/8 kg est économiquement plausible, mais un seul fournisseur viable est prouvé. La longue traîne SEMrush par poids/taille reste `MANQUANT` car la session affiche trop de connexions actives et trois tentatives de reprise n'ont pas pu poursuivre l'interface.
+Le catalogue concurrent, quatre fiches AliExpress exactes et les 100 premières variantes SEMrush France sur 918 résultats ont été audités. Le verdict reste **`TECHNICAL_WATCH`** : une gamme adulte 4/6/8 kg est économiquement plausible et les CPC poids/taille ne la contredisent pas, mais un seul fournisseur viable est prouvé. La demande longue traîne est surtout portée par 5/6/7 kg ; les tailles visibles sont faibles et orientées grands formats.
 
 - [Rapport deep dive](runs/20260824-232503-q4-validation/deep-dive-couverture-lestee/final-couverture-lestee-deep-dive-20260825.md)
 - [État de reprise](runs/20260824-232503-q4-validation/deep-dive-couverture-lestee/run-state.json)

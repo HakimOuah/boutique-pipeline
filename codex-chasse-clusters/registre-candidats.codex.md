@@ -412,7 +412,7 @@ concurrent facultatif, concept/listing/revue humaine maintenus.
 | Piste | Demande | Preuve fournisseur décisive | Verdict agent | Condition de reprise |
 |---|---|---|---|---|
 | Déshumidificateur | 27,1 k FR sur la tête | 12 L rendu 116,52 EUR depuis France, mais 1 vente et boutique 4,0–4,3 | `TECHNICAL_WATCH` | fournisseur de remplacement, conformité/specs/SAV et backup exact |
-| Couverture lestée | 27,1 k FR sur la tête | Good Nite 8 kg rendu 59,75 EUR depuis Allemagne ; 6 kg 48,26 EUR ; ancien fournisseur écarté | `TECHNICAL_WATCH` | matière/conformité, retours, contrôle qualité, backup européen et CPC par poids/taille |
+| Couverture lestée | 27,1 k FR sur la tête ; poids 3–10 kg 2,19 k bruts non additionnables, CPC 0,23–0,37 USD | Good Nite 8 kg rendu 59,75 EUR depuis Allemagne ; 6 kg 48,26 EUR ; ancien fournisseur écarté | `TECHNICAL_WATCH` | matière/conformité, retours, contrôle qualité et backup européen exact |
 | Studio créateur | 34,11 k bruts hétérogènes | ring light non livrable ; un micro low-ticket isolé | `TECHNICAL_FAIL` | univers 200 produits, 3–5 familles et deux fournisseurs chacune |
 | Arts de la table bois | 48,46 k bruts pollués | planche générique rendue 41,38 EUR, stock 3 | `TECHNICAL_FAIL` | sous-univers propre, valeur ajoutée et profondeur fournisseur |
 
@@ -420,6 +420,6 @@ concurrent facultatif, concept/listing/revue humaine maintenus.
 
 - Concurrent de référence : 48 fiches produit, 11 collections thématiques plus `frontpage`, et une matrice 3–12 kg observées via les sitemaps/endpoints publics.
 - Fournisseurs : 4 fiches exactes contrôlées ; 2 produits réellement lestés, 1 seul économiquement plausible, 0 backup européen exact.
-- SEMrush : tête et synonymes conservés ; longue traîne par poids/taille `MANQUANT` après trois échecs liés à la limite de sessions.
+- SEMrush réactivé : base France confirmée, 918 variantes / 61 080 recherches brutes ; top 100 nettoyé. Poids 5 kg 530, 7 kg 430, 6 kg 400 ; principaux formats 220x240 170, 240x260 90, 200x200 70, 160x200 50. Marques, enfant, santé et information séparés.
 - Verdict inchangé : `TECHNICAL_WATCH`, décision humaine `PENDING_HAKIM`.
 - Rapport : [deep dive couverture lestée](runs/20260824-232503-q4-validation/deep-dive-couverture-lestee/final-couverture-lestee-deep-dive-20260825.md).
