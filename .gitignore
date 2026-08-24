@@ -32,6 +32,8 @@ __pycache__/
 
 # Dump Shopify brut (régénérable via dump_products.py)
 /catalogues/*/shopify/shopify-products-dump.jsonl
+/catalogues/*/shopify/variants-fix-state.json
+/catalogues/*/shopify/variants-fix-rapport.json
 
 # Photos fournisseur AliExpress (lourdes) — jamais dans git
 /boutique-seiko-mod/sources-fournisseur-2026-08/

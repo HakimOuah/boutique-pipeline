@@ -16,7 +16,7 @@ La commande devient ferme après acceptation des CGV et encaissement. Un e-mail 
 
 ## 4. Paiement
 
-Le règlement s’effectue en ligne, via une connexion chiffrée SSL, par **carte bancaire (Visa, Mastercard)**. Seuls les moyens réellement proposés à la caisse sont acceptés. Le débit a lieu à la validation. Aucune donnée de carte complète n’est conservée sur nos serveurs.
+Le règlement s’effectue en ligne, via une connexion chiffrée SSL, par **carte bancaire (Visa, Mastercard, American Express), Apple Pay, Shop Pay et PayPal**. Seuls les moyens réellement proposés à la caisse sont acceptés. Le débit a lieu à la validation. Aucune donnée de carte complète n’est conservée sur nos serveurs.
 
 ## 5. Livraison
 
