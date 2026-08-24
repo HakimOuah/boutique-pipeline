@@ -579,7 +579,7 @@ def clean_variants(products: list[dict]) -> list[dict]:
             attach_variant_images(p["id"], missing, media_id)
         colors = []
         for opt in opts:
-            if opt["name"] in {"Couleur", "Finition"}:
+            if opt["name"] in {"Couleur", "Finition", "Câble", "Verre", "Abat-jour", "Émail"}:
                 colors = [v["name"] for v in opt["optionValues"]]
         real_colors = [c for c in colors if not re.fullmatch(r"[A-Z0-9_-]{3,}", c)]
         if len(set(c.lower() for c in real_colors)) >= 2:

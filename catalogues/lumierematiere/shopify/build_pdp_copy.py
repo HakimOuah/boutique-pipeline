@@ -212,6 +212,23 @@ FAMILIES = {
 }
 
 
+APPEARANCE_AXES = ("Câble", "Verre", "Abat-jour", "Émail", "Finition", "Couleur")
+LETTER_VAL_RE = re.compile(r"^[A-G]\d*$")
+SPEC_LABELS = {
+    "Câble": "Câble et rosace",
+    "Verre": "Verre",
+    "Abat-jour": "Abat-jour",
+    "Émail": "Émail",
+    "Finition": "Finition",
+    "Couleur": "Couleur",
+    "Modèle": "Modèle",
+    "Forme": "Forme",
+    "Puissance": "Puissance",
+    "Lumières": "Lumières",
+    "Ampoule": "Ampoule",
+}
+
+
 def et_join(items: list[str]) -> str:
     items = [x for x in items if x]
     if not items:
@@ -219,6 +236,15 @@ def et_join(items: list[str]) -> str:
     if len(items) == 1:
         return items[0]
     return f"{', '.join(items[:-1])} et {items[-1]}"
+
+
+def ou_join(items: list[str]) -> str:
+    items = [x for x in items if x]
+    if not items:
+        return ""
+    if len(items) == 1:
+        return items[0]
+    return f"{', '.join(items[:-1])} ou {items[-1]}"
 
 
 def option_map(options: list[dict]) -> dict[str, list[str]]:
@@ -236,24 +262,82 @@ def diameters_cm(options: list[dict]) -> list[int]:
     return sorted(set(found))
 
 
+def is_blind_code(val: str) -> bool:
+    return bool(LETTER_VAL_RE.fullmatch(val or ""))
+
+
+def appearance_of(options: list[dict]) -> tuple[str | None, list[str]]:
+    """Premier axe d’apparence (câble, verre, finition…). Pas les codes A/B/C."""
+    by_name = {o["name"]: list(o["values"]) for o in options}
+    for name in APPEARANCE_AXES:
+        vals = by_name.get(name)
+        if not vals:
+            continue
+        if all(is_blind_code(v) for v in vals):
+            continue
+        return name, vals
+    return None, []
+
+
+def title_appearance_bit(axis: str | None, values: list[str], family: dict) -> str:
+    if not axis or not values:
+        return ""
+    if all(is_blind_code(v) for v in values):
+        return ""
+    if axis == "Émail":
+        return ""
+    shown = values[:3]
+    if axis == "Câble":
+        return f"câble {ou_join([v.lower() for v in shown])}"
+    if axis == "Abat-jour":
+        return f"abat-jour {ou_join(shown)}"
+    if axis == "Verre" and "verre" not in (family.get("matter") or "").lower() and "verre" not in (family.get("title_base") or "").lower():
+        return f"verre {ou_join([v.lower() for v in shown])}"
+    return ou_join([v.lower() for v in shown])
+
+
+def appearance_sentence(axis: str | None, values: list[str]) -> str:
+    if not axis or not values or all(is_blind_code(v) for v in values):
+        return ""
+    low = [v.lower() for v in values]
+    if axis == "Câble":
+        return (
+            f" Câble et rosace : {ou_join(low)} — "
+            "l’abat-jour reste dans la matière indiquée."
+        )
+    if axis == "Verre":
+        return f" Verre : {ou_join(low)}."
+    if axis == "Abat-jour":
+        return f" Abat-jour : {ou_join(low)}."
+    if axis == "Émail":
+        return f" Émail : {et_join(values)}."
+    if axis in {"Finition", "Couleur"}:
+        return f" Finition : {ou_join(low)}."
+    return ""
+
+
+def appearance_benefit(axis: str | None, values: list[str]) -> str:
+    if not axis or not values or all(is_blind_code(v) for v in values):
+        return "La finition que vous voyez sur les photos est celle que vous recevez."
+    low = [v.lower() for v in values]
+    if axis == "Câble":
+        return (
+            f"Le câble et la rosace se choisissent en {ou_join(low)} ; "
+            "la matière du luminaire reste celle des photos."
+        )
+    if axis == "Verre":
+        return f"Le verre se propose en {ou_join(low)}."
+    if axis == "Abat-jour":
+        return f"L’abat-jour se choisit en {ou_join(low)}."
+    if axis == "Émail":
+        return "L’émail varie un peu à la cuisson ; la teinte des photos fait foi."
+    if axis in {"Finition", "Couleur"}:
+        return f"Les finitions {et_join(low)} changent le dialogue avec le mur et le meuble."
+    return "La finition que vous voyez sur les photos est celle que vous recevez."
+
+
 def colors_of(options: list[dict]) -> list[str]:
-    out: list[str] = []
-    for opt in options:
-        if opt["name"] not in {"Couleur", "Finition"} and not (
-            opt["name"] == "Taille" and any(any(w in v.lower() for w, _ in COLOR_WORDS) for v in opt["values"])
-        ):
-            if opt["name"] not in {"Couleur", "Finition"}:
-                continue
-        for val in opt["values"]:
-            low = val.lower()
-            matched = None
-            for needle, label in COLOR_WORDS:
-                if needle in low:
-                    matched = label
-                    break
-            if matched and matched not in out:
-                out.append(matched)
-    return out
+    return appearance_of(options)[1]
 
 
 def detect_source(handle: str, title: str, options: list[dict]) -> str:
@@ -291,7 +375,7 @@ def diam_phrase(cms: list[int]) -> str:
     return f"Ø {cms[0]}–{cms[-1]} cm"
 
 
-def build_title(family: dict, source: str, cms: list[int], colors: list[str], handle: str, options: list[dict]) -> str:
+def build_title(family: dict, source: str, cms: list[int], axis: str | None, colors: list[str], handle: str, options: list[dict]) -> str:
     base = family["title_base"]
     bits: list[str] = []
     if source == "led" and "LED" not in base:
@@ -316,23 +400,32 @@ def build_title(family: dict, source: str, cms: list[int], colors: list[str], ha
         bits.append("Ø 45 cm")
     elif "30cm" in handle:
         bits.append("Ø 30 cm")
-    if "dore" in handle and "Doré" not in colors:
-        colors = ["Doré"] + colors
-    if "noir" in handle and "Noir" not in colors:
-        colors = ["Noir"] + colors
-    if "blanc" in handle and "Blanc" not in colors:
-        colors = ["Blanc"] + colors
-    if len(colors) == 1:
-        bits.append(colors[0].lower())
-    elif 1 < len(colors) <= 3 and not lights:
-        bits.append(et_join([c.lower() for c in colors]))
+    inject_ok = axis not in {"Câble", "Verre", "Abat-jour", "Émail"}
+    colors = list(colors)
+    if inject_ok:
+        if "dore" in handle and "Doré" not in colors:
+            colors = ["Doré"] + colors
+        if "noir" in handle and "Noir" not in colors:
+            colors = ["Noir"] + colors
+        if "blanc" in handle and "Blanc" not in colors:
+            colors = ["Blanc"] + colors
+        if inject_ok and axis is None and colors:
+            axis = "Finition"
+    bit = title_appearance_bit(axis, colors, family)
+    if bit and not lights:
+        bits.append(bit)
+    elif bit and axis == "Câble":
+        bits.append(bit)
     if family["kind"] == "plafonnier" and "intérieur" not in base.lower():
         bits.append("intérieur")
     if not bits:
         return base
     title = f"{base}, {', '.join(bits)}"
-    if len(title) > 78 and len(bits) > 2:
-        title = f"{base}, {', '.join(bits[:2])}"
+    if len(title) > 88 and "LED" in bits:
+        bits = [b for b in bits if b != "LED"]
+        title = f"{base}, {', '.join(bits)}"
+    if len(title) > 88 and len(bits) > 3:
+        title = f"{base}, {', '.join(bits[:3])}"
     return title
 
 
@@ -346,9 +439,9 @@ def seo_title(title: str) -> str:
     return chunk + suffix
 
 
-def seo_description(family: dict, title: str, source: str, cms: list[int], colors: list[str]) -> str:
+def seo_description(family: dict, title: str, source: str, cms: list[int], axis: str | None, colors: list[str]) -> str:
     dp = diam_phrase(cms)
-    col = f" Finitions {et_join([c.lower() for c in colors])}." if colors else ""
+    col = appearance_sentence(axis, colors).replace(" — l’abat-jour reste dans la matière indiquée.", ".")
     src = source_label(source)
     size = f" {dp}." if dp else ""
     text = (
@@ -358,7 +451,7 @@ def seo_description(family: dict, title: str, source: str, cms: list[int], color
     return text[:320]
 
 
-def usps(family: dict, source: str, cms: list[int], colors: list[str], options: list[dict]) -> list[str]:
+def usps(family: dict, source: str, cms: list[int], axis: str | None, colors: list[str], options: list[dict]) -> list[str]:
     pills = [family["usp_matter"], source_label(source)]
     dp = diam_phrase(cms)
     if dp:
@@ -368,11 +461,19 @@ def usps(family: dict, source: str, cms: list[int], colors: list[str], options: 
         pills.append("Variable (télécommande)")
     elif "3 teintes" in blob:
         pills.append("3 teintes")
-    if family["kind"] == "plafonnier":
+    if family["kind"] == "plafonnier" and "Plafond bas" not in pills:
         pills.append("Plafond bas")
-    elif len(pills) < 4 and colors:
-        pills.append(colors[0])
-    # max 4, unique
+    if len(pills) < 4:
+        if axis == "Câble":
+            pills.append("Câble au choix")
+        elif axis == "Verre" and len(colors) > 1:
+            pills.append("Verre au choix")
+        elif axis == "Abat-jour" and len(colors) > 1:
+            pills.append("Abat-jour au choix")
+        elif axis == "Finition" and len(colors) > 1:
+            pills.append("Finition au choix")
+        elif axis in {"Finition", "Couleur", "Verre", "Abat-jour"} and colors:
+            pills.append(colors[0])
     seen = []
     for p in pills:
         if p not in seen:
@@ -380,10 +481,10 @@ def usps(family: dict, source: str, cms: list[int], colors: list[str], options: 
     return seen[:4]
 
 
-def description_html(family: dict, title: str, source: str, cms: list[int], colors: list[str]) -> str:
+def description_html(family: dict, title: str, source: str, cms: list[int], axis: str | None, colors: list[str]) -> str:
     dp = diam_phrase(cms)
     size = f" Les diamètres proposés vont de {cms[0]} à {cms[-1]} cm." if len(cms) > 1 else (f" Diamètre {dp}." if dp else "")
-    col = f" Finitions : {et_join([c.lower() for c in colors])}." if colors else ""
+    col = appearance_sentence(axis, colors)
     src = {
         "led": "La LED est intégrée : pas d’ampoule à ajouter.",
         "e27": "Douille E27 : prévoyez une LED blanc chaud, l’ampoule n’est pas fournie.",
@@ -399,23 +500,31 @@ def description_html(family: dict, title: str, source: str, cms: list[int], colo
     return p1 + p2
 
 
-def specs_html(family: dict, source: str, cms: list[int], colors: list[str], options: list[dict], price: str | None) -> str:
+def specs_html(family: dict, source: str, cms: list[int], axis: str | None, colors: list[str], options: list[dict], price: str | None) -> str:
     rows = [
         f"<li><strong>Type :</strong> {family['title_base']}</li>",
         f"<li><strong>Matière :</strong> {family['matter']}</li>",
         f"<li><strong>Usage :</strong> intérieur, hors volumes d’eau</li>",
         f"<li><strong>Source :</strong> {source_label(source).lower()}</li>",
     ]
+    listed: set[str] = set()
     if cms:
         rows.append(f"<li><strong>Diamètre :</strong> {et_join([str(c) + ' cm' for c in cms])}</li>")
-    if colors:
-        rows.append(f"<li><strong>Finitions :</strong> {et_join(colors)}</li>")
-    temps = []
+        listed.update({"Diamètre", "Taille"})
     for opt in options:
-        if "empérature" in opt["name"] or opt["name"] == "Éclairage":
-            temps = [v for v in opt["values"] if "entrepôt" not in v.lower() and "chine" not in v.lower()]
-    if temps:
-        rows.append(f"<li><strong>Lumière :</strong> {et_join(temps[:6])}</li>")
+        name = opt["name"]
+        vals = [v for v in opt["values"] if "entrepôt" not in v.lower() and "chine" not in v.lower()]
+        if not vals or name in listed:
+            continue
+        if name in {"Température", "Éclairage"}:
+            rows.append(f"<li><strong>Lumière :</strong> {et_join(vals[:6])}</li>")
+            listed.add(name)
+            continue
+        label = SPEC_LABELS.get(name)
+        if not label:
+            continue
+        rows.append(f"<li><strong>{label} :</strong> {et_join(vals[:8])}</li>")
+        listed.add(name)
     if price:
         rows.append(f"<li><strong>Prix :</strong> à partir de {price.replace('.00', '')} € TTC selon variante</li>")
     rows.append("<li><strong>Installation :</strong> plafond — courant coupé, hors salle de bain</li>")
@@ -445,7 +554,7 @@ def installation_html(family: dict, source: str) -> str:
     return f"<p>{pose}</p><p>{src}</p><p>{sav}</p>"
 
 
-def benefits(family: dict, source: str, cms: list[int], colors: list[str], title: str) -> list[dict]:
+def benefits(family: dict, source: str, cms: list[int], axis: str | None, colors: list[str], title: str) -> list[dict]:
     dp = diam_phrase(cms)
     size_txt = (
         f"Les diamètres {et_join([str(c) + ' cm' for c in cms])} sont ceux de cette fiche : "
@@ -453,11 +562,7 @@ def benefits(family: dict, source: str, cms: list[int], colors: list[str], title
         if cms
         else "Mesurez la table ou la pièce avant de commander : les photos compressent souvent l’échelle."
     )
-    col_txt = (
-        f"Les finitions {et_join([c.lower() for c in colors])} changent le dialogue avec le mur et le meuble."
-        if colors
-        else "La finition que vous voyez sur les photos est celle que vous recevez."
-    )
+    col_txt = appearance_benefit(axis, colors)
     src_txt = {
         "led": "La LED est déjà dans la pièce : température selon la variante, parfois réglable.",
         "e27": "Vous choisissez l’ampoule : une LED blanc chaud suffit pour une pièce à vivre.",
@@ -539,7 +644,7 @@ def benefits(family: dict, source: str, cms: list[int], colors: list[str], title
     ]
 
 
-def faq(family: dict, source: str, cms: list[int]) -> list[dict]:
+def faq(family: dict, source: str, cms: list[int], options: list[dict] | None = None) -> list[dict]:
     if cms:
         q1 = f"Le diamètre ({diam_phrase(cms)}) conviendra-t-il à ma table ?"
         a1 = (
@@ -567,12 +672,25 @@ def faq(family: dict, source: str, cms: list[int]) -> list[dict]:
         "Livraison offerte en France métropolitaine. Préparation 1 à 2 jours ouvrés, "
         "acheminement 6 à 15 jours ouvrés, total 7 à 17 jours ouvrés. Heure limite 16h00, heure de Paris."
     )
-    return [
+    items = [
         {"q": q1, "a": a1},
         {"q": "L’ampoule est-elle fournie ?", "a": a2},
         {"q": "Quelle est la matière exactement ?", "a": family["material_faq"]},
         {"q": q4, "a": a4},
     ]
+    cable_opt = next((o for o in (options or []) if o["name"] == "Câble"), None)
+    if cable_opt and cable_opt.get("values"):
+        items.insert(
+            2,
+            {
+                "q": f"{ou_join(cable_opt['values'])} : c’est la couleur de quoi ?",
+                "a": (
+                    "Du câble et de la rosace, pas de l’abat-jour. "
+                    "La matière du luminaire est celle des photos et de la fiche."
+                ),
+            },
+        )
+    return items
 
 
 def handle_hint(handle: str) -> str:
@@ -618,21 +736,21 @@ def build_one(row: dict) -> dict:
     family = FAMILIES.get(ptype) or FAMILIES["Suspensions bambou"]
     options = row["options"]
     cms = diameters_cm(options)
-    colors = colors_of(options)
+    axis, colors = appearance_of(options)
     source = detect_source(row["handle"], row.get("title") or "", options)
-    title = build_title(family, source, cms, colors, row["handle"], options)
+    title = build_title(family, source, cms, axis, colors, row["handle"], options)
     # strip leftover reference numbers from becoming titles
     title = re.sub(r"\s*·\s*\d{4,}$", "", title)
     return {
         "title": title,
         "seo_title": seo_title(title),
-        "seo_description": seo_description(family, title, source, cms, colors),
-        "usps": usps(family, source, cms, colors, options),
-        "description_html": description_html(family, title, source, cms, colors),
-        "specs_html": specs_html(family, source, cms, colors, options, row.get("price")),
+        "seo_description": seo_description(family, title, source, cms, axis, colors),
+        "usps": usps(family, source, cms, axis, colors, options),
+        "description_html": description_html(family, title, source, cms, axis, colors),
+        "specs_html": specs_html(family, source, cms, axis, colors, options, row.get("price")),
         "installation_html": installation_html(family, source),
-        "benefits": benefits(family, source, cms, colors, title),
-        "faq": faq(family, source, cms),
+        "benefits": benefits(family, source, cms, axis, colors, title),
+        "faq": faq(family, source, cms, options),
         "_cms": cms,
         "_hint": handle_hint(row["handle"]),
     }

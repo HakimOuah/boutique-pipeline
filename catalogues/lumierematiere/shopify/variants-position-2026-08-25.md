@@ -114,3 +114,26 @@ Les candidats au split (lustres anneau 418494/024410/641905/799451/784897 en 1�
 | `lustre-cristal-led-noir-347688` | 3 | 1 | réduction | trois entrepôts pour la même teinte : seul l’envoi Espagne (UE, sku 201336106) conservé ; « 5 » → « 5 lumières » |
 
 Contrôle final (dump live 25/08) : **629 variantes**, 0 « Damaged », 0 « line », 0 « heads », 0 code usine résiduel, 0 prix hors grille, 0 fiche > 24 variantes, 0 variante sans image. SKU DSers inchangés sur toutes les variantes conservées.
+
+## Noms d’axes (25/08 soir)
+
+Le libellé `X line` → **Couleur** Blanc/Noir/Doré faisait lire « couleur de l’abat-jour ». En réalité `#White line` / `Black line` / `Golden line` = kit câble + rosace ; le bambou reste naturel.
+
+Règle : **le nom d’option nomme le composant** ; les valeurs restent courtes. Script : `shopify/rename_option_axes.py` (SKU inchangés).
+
+| Axe | Quand | Exemple |
+|---|---|---|
+| **Câble** | SKU `White/Black/Golden line` | bambou 583180, 033589, 280004 |
+| **Verre** | teinte de globe | transparent / ambre / gris fumé |
+| **Finition** | corps, cadre, platine | Noir, Café, Doré, Chrome |
+| **Abat-jour** | matière d’abat-jour | Papier DuPont, Soie unie |
+| **Émail** | céladon nommé | deco 837156 |
+| **Modèle** | codes A/B/C, combos mashés | |
+| **Diamètre** | uniquement des `Ø N cm` | |
+| **Taille** | mixte (Ø + anneaux, Ø + couleur, plafonnier vs suspension) | inchangé |
+| **Lumières** | uniquement un nombre de lumières | |
+| **Puissance** | watts | |
+| **Ampoule** | fournie / E27 / LED | ex-Éclairage, ex-Température « Ampoule non fournie » |
+| **Température** | blanc chaud / 3 teintes / variable | inchangé |
+
+Titres / USP / specs / FAQ régénérés : plus de « blanc, noir et doré » collé à la matière quand c’est le câble (`câble blanc, noir ou doré` ; pill « Câble au choix » ; specs « Câble et rosace »). `suspension-effet-pierre-092465` (Blanc chaud + Brun mashés) reste **Couleur**.

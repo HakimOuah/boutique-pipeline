@@ -2,13 +2,14 @@
 
 Boutique : **Lumière Matière** (`lumierematiere.fr`). Fond papier `#F6F3EC`, lumière chaude, packshot objet.
 Les fiches ont déjà 5 vues Codex (g1–g5) du modèle, **sans distinguo de couleur**. Les sélecteurs de variante n’ont donc rien de fidèle à afficher.
-Liste régénérée le 25/08/2026 après le repositionnement des variantes (réduction + libellés FR) : les couleurs ci-dessous sont les libellés définitifs (plus de « Blanc line », codes usine ni doublons).
+Liste régénérée le 25/08/2026 après le repositionnement des variantes, puis les noms d’axes (Câble / Verre / Finition…). Les libellés ci-dessous sont les valeurs ; l’axe dit *quel composant* change.
 
 ## Demande
 
-Pour chaque SKU ci-dessous : **une image packshot par couleur / finition listée**, même cadrage que le g1 existant (objet centré, fond papier, allumé si le modèle est une source LED visible).
+Pour chaque SKU ci-dessous : **une image packshot par valeur listée**, même cadrage que le g1 existant (objet centré, fond papier, allumé si le modèle est une source LED visible).
 Nom de fichier : `{handle}-{slug-couleur}-g1.jpg` (ex. `lustre-anneau-led-led-dore-418494-noir-g1.jpg`).
 Ne pas inventer une matière absente du modèle. Ne pas ajouter de texte incrusté.
+Sur les fiches **Câble** (bambou `583180`, `033589`, `280004`) : le tressage reste naturel — seule la couleur du **câble et de la rosace** change. Ne pas teindre le bambou.
 
 ## Liste
 
@@ -50,8 +51,8 @@ Ne pas inventer une matière absente du modèle. Ne pas ajouter de texte incrust
 - `suspension-bois-led-334133` — Suspension bois, LED — couleurs : Bois brut, Noyer — médias actuels : 5
 - `suspension-bois-832012` — Suspension bois, 3 lumières — couleurs : Gris fumé, Ambre, Transparent — médias actuels : 5
 - `suspension-effet-pierre-343987` — Suspension effet pierre — couleurs : A, B — médias actuels : 5
-- `suspension-bambou-280004` — Suspension bambou tissée, Ø 15–60 cm — couleurs : Blanc, Noir — médias actuels : 5
-- `suspension-bambou-led-583180` — Suspension bambou tissée, LED, Ø 40–100 cm, blanc, noir et doré — couleurs : Blanc, Noir, Doré — médias actuels : 5
-- `suspension-bambou-led-033589` — Suspension bambou tissée, LED, Ø 40–100 cm, blanc, noir et doré — couleurs : Blanc, Noir, Doré — médias actuels : 5
+- `suspension-bambou-280004` — Suspension bambou tissée, Ø 15–60 cm — **câble** : Blanc, Noir — médias actuels : 5
+- `suspension-bambou-led-583180` — Suspension bambou tissée, LED, Ø 40–100 cm — **câble** : Blanc, Noir, Doré — médias actuels : 5
+- `suspension-bambou-led-033589` — Suspension bambou tissée, LED, Ø 40–100 cm — **câble** : Blanc, Noir, Doré — médias actuels : 5
 
 41 fiches. Une fois les JPEG livrés, les rattacher à la variante Shopify correspondante (SKU DSers inchangé).
