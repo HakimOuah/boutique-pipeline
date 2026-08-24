@@ -1,30 +1,32 @@
-# Shopify Lumière Matière — état 24/08/2026
+# Shopify Lumière Matière — état 24/08/2026 (soir)
 
 **Store :** `nzefxg-gg.myshopify.com`  
 **Admin :** https://admin.shopify.com/store/nzefxg-gg  
 **Compte API :** `contact@lumierematiere.fr` (auth CLI `shopify store auth`)  
-**Thème travail (non publié) :** `Lumière Matière — UNIVERS` · `gid://shopify/OnlineStoreTheme/186708066640`  
-**Thème live :** Horizon (rôle MAIN) — **ne pas écrire dessus** ; Hakim publie la copie.
+**Thème de travail (non publié) :** `copie-de-fullstack-2-3` · `gid://shopify/OnlineStoreTheme/186708001104`  
+**Prévisualisation :** https://nzefxg-gg.myshopify.com/?preview_theme_id=186708001104  
+**Ne pas écrire** sur Horizon (rôle MAIN) ni publier. Hakim publie.
 
-## Fait (API)
+## Fait
 
-- Pages : Notre histoire, FAQ, Contact, Paiement
-- Policies : CGV, retours, livraison, mentions légales
-- 14 collections (13 matières/formes + `selection-199`), covers Codex (échange salon ↔ plafonniers)
-- Menus : `main-menu` (matière-first), `footer`, `footer-legal`
-- Tokens DA + logos + bandeau + hero + grilles collections + bande 199 € sur le thème **non publié**
-- Import catalogue **121/121** (LM-086 DRAFT, 0 image — REJECT QA)
-- Tokens DA + logos + bandeau + hero + grilles collections + bande 199 € sur le thème **non publié**
+- **Policies** collées depuis le pack FR `gmc-acceptance/templates-fr/` (24/08), reformulées pour LM (texte distinct d’Orysbain). Chiffres ops : cut-off **16h Paris**, préparation **1–2 j**, acheminement **6–15 j**, total **7–17 j**, retours **30 j**, annulation **tant que non expédiée**, SAV **10h–18h**, réponse **24 h ouvrées**. Confidentialité OK (gestion auto désactivée).
+- **121 fiches API supprimées** (0 produit Shopify). Elles n’étaient liées à aucun compte DSers.
+- **Thème Full Stack** (`copie-de-fullstack-2-3`) : tokens papier `#F6F3EC` / charbon `#24211B` / ambre `#C08A2D`, Young Serif + Instrument Sans, logos, homepage UNIVERS (6 matières + 3 pièces + sélection 199 €), bandeau vérifiable, footer OH Ventures. Démos avis / Trustpilot / « 96 % » / « 3x cadeau » retirées. Icônes de paiement **auto** (Shop Pay non forcé). PDP : faux 4,5/123, lorem, horaires 8h30–19h et « livraison rapide » corrigés.
+- **DSers Import List : 120 / 121** URLs AliExpress importées sur le store `nzefxg-gg` (langue EN : le FR déclenche un upgrade payant). **LM-045** (`1005012474741970`, suspension effet pierre) : listing AliExpress mort (`product status error`). Fichier : `shopify/dsers-urls.txt`.
 
-## À faire Hakim (admin, 5 min)
+## DSers — bloqué sur le plan (Hakim)
 
-1. **Renommer la boutique** « Ma boutique » → **Lumière Matière** (Réglages → Général — l’API refuse le rename).
-2. **Adresse** : passer 13 Allée Georges Brassens (Saint-Prix) → **47 rue Vivienne, 75002 Paris** + tél `+33 7 56 82 80 94`.
-3. **Politique confidentialité** : désactiver la gestion automatique Shopify, puis relancer `python3 catalogues/lumierematiere/shopify/bootstrap_pages.py` (ou coller `pages/politique-confidentialite.md`).
-4. **Prévisualiser** le thème « Lumière Matière — UNIVERS » **avant de publier**.
-5. Brancher **lumierematiere.fr** (identité boutique).
-6. DSers : installer + mapper les variantes **UE en priorité** une fois les 121 fiches là.
+L’essai affiche encore **14 j / 5 SKU à 1,99 $ / 20 SKU à 6,99 $**. **Ne pas souscrire sans Hakim.**  
+**Ne pas PUSH TO STORE** tant que le quota n’autorise pas 120 fiches — sinon le mapping s’arrête à 5 ou 20.
 
-## Scripts (repo)
+Après upgrade : PUSH en brouillon (`backend_only`, aucun canal), overlay titres/prix/descriptions/images Codex (hors LM-086 REJECT), collections UNIVERS, `publishablePublish` Online Store. Préférer les variantes **entrepôt UE**. 5 fiches « Unmapped » dans My Products = fantômes des fiches API, à supprimer.
 
-`catalogues/lumierematiere/shopify/` — token lu dans l’auth CLI, jamais stocké.
+## À faire Hakim
+
+1. Adresse boutique : 47 rue Vivienne, 75002 Paris (encore Saint-Prix).
+2. Choisir / activer le **plan DSers** pour 120+ SKU, puis PUSH.
+3. Brancher **lumierematiere.fr**.
+4. Activer la caisse (checkout encore disabled — policy paiement = Visa / Mastercard seulement).
+5. Prévisualiser `copie-de-fullstack-2-3` **avant de publier**.
+6. CM2C : ajouter lumierematiere.fr si le contrat est par site.
+7. Décider du sort de **LM-045** (listing AE mort) : retirer du catalogue ou sourcer un remplaçant.

@@ -1,7 +1,7 @@
 # Pages Shopify — Lumière Matière
 
-**Date :** 20/08/2026 · **Domaine retenu 24/08 :** `lumierematiere.fr` (le `.com` existe, identité = `.fr`)  
-**Base :** templates Terry Ecom FR — **texte distinct** d'Orysbain et de toute autre boutique du parc (règle GMC / PASSATION).
+**Date :** 24/08/2026 · **Domaine retenu 24/08 :** `lumierematiere.fr` (le `.com` existe, identité = `.fr`)  
+**Base :** pack FR du skill `gmc-acceptance` (`templates-fr/`, 24/08/2026) — **texte distinct** d'Orysbain et de toute autre boutique du parc (règle GMC / PASSATION). Structure du pack, chiffres = ops Lumière Matière.
 
 ## Fichiers → Shopify
 
@@ -42,8 +42,8 @@
 | Livraison | Gratuite, sans seuil |
 | Retours | **30 jours** (+ rétractation 14 j) |
 | Remboursement après contrôle | jusqu'à **7 jours ouvrés** |
-| Annulation | **24 h** |
-| SAV | lun–ven **10h00–18h00** (Paris), réponse **1–2 j ouvrés** |
+| Annulation | **tant que la commande n'est pas expédiée** |
+| SAV | lun–ven **10h00–18h00** (Paris), réponse sous **24 heures ouvrées** |
 
 > **Source des délais** : check live AliExpress FR du 20/08/2026 sur des IDs du catalogue luminaires. Exemples : warehouse DE « Livraison : août 24–30 » (~4–10 j) ; China Mainland « août 28 – sep. 08 », « août 29 – sep. 08 », « sep. 11–19 » (parfois « expédié sous 14 jours »), outlier jusqu’à « août 23 – oct. 01 ». Fourchette boutique retenue = transit **6–15 j ouvrés**, total **7–17 j ouvrés** (traitement 1–2 inclus) pour couvrir le mix CN/UE sans sous-promettre. Préférer les variantes UE au mapping DSers quand dispo. Aligner feed GMC + fiches sur **ces** chiffres.
 

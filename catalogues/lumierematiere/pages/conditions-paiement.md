@@ -1,49 +1,32 @@
-# Paiement et facturation — Lumière Matière
+# Moyens de paiement
 
-Dernière mise à jour : 20 août 2026
+Chez Lumière Matière, votre paiement est 100 % sécurisé.
 
-Modalités de règlement sur **lumierematiere.fr**.
+## Moyens de paiement acceptés
 
-## Modes de paiement
+- Carte bancaire : Visa, Mastercard
 
-Uniquement ceux **réellement** proposés au checkout (et affichés en pied de page) :
+Seuls les moyens réellement disponibles à la caisse sont acceptés. Les pictogrammes du pied de page, cette page et le checkout doivent correspondre. Apple Pay, Google Pay, Shop Pay ou PayPal ne sont mentionnés que s’ils sont activés en caisse.
 
-- Cartes bancaires (Visa, Mastercard, Amex si activés)
-- Wallets (Apple Pay, Google Pay si activés)
-- PayPal si activé
-- Tout autre moyen visible au paiement seulement s'il est opérationnel
+## Devise
 
-Devise : **EUR**.
-
-## Encaissement
-
-Paiement intégral à la commande. Pas d'expédition sans validation du paiement. Échec bancaire = commande non confirmée.
-
-## Affichage des prix
-
-Prix TTC en euros. Port offert en France métropolitaine ([expédition](https://lumierematiere.fr/policies/shipping-policy)). Le détail taxes / totaux apparaît avant validation.
-
-## Entité de facturation
-
-Vos achats sont encaissés et facturés par **OH Ventures** (SASU au capital de 1 000 €), 47 rue Vivienne, 75002 Paris — SIRET 10315725100010, TVA intracommunautaire FR55103157251. Ce libellé peut figurer sur votre relevé.
+Tous les montants sont affichés et débités en euros (EUR), toutes taxes comprises.
 
 ## Sécurité
 
-HTTPS + passerelle de paiement sécurisée. Aucun stockage de numéro de carte complet chez Lumière Matière.
+- Paiement traité via une connexion chiffrée (SSL).
+- Nous ne stockons aucune donnée bancaire complète sur nos serveurs.
+- Le débit n’intervient qu’à la validation de votre commande.
 
-## Remboursements / contestations
+Les achats sont encaissés par **OH Ventures** (SASU au capital de 1 000 €), 47 rue Vivienne, 75002 Paris — SIRET 10315725100010, TVA FR55103157251. Ce libellé peut figurer sur votre relevé.
 
-Selon la [politique de retours](https://lumierematiere.fr/policies/refund-policy). Passez d'abord par [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr) avant d'engager une procédure auprès de votre banque ; les litiges de paiement abusifs pourront être contestés.
+## Service client
 
-## Fraude
+Une question avant ou après votre commande ? Notre équipe, basée en France, vous répond :
 
-Droit de bloquer ou d'annuler une commande douteuse ; vérification d'identité possible sur montants élevés.
+- E-mail : [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr)
+- Téléphone : +33 7 56 82 80 94
+- Horaires : du lundi au vendredi, de 10h00 à 18h00 (heure de Paris). Fermé les week-ends et jours fériés.
+- Adresse : 47 rue Vivienne, 75002 Paris, France
 
-## Contact
-
-- **Lumière Matière** — marque d'**OH Ventures** (SASU)
-- 47 rue Vivienne, 75002 Paris, France
-- SIRET 10315725100010 · TVA FR55103157251
-- [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr)
-- +33 7 56 82 80 94
-- Lun–ven 10h00–18h00 (heure de Paris) · réponse 1–2 jours ouvrés
+Nous nous efforçons de répondre à toutes les demandes sous 24 heures ouvrées.

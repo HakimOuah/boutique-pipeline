@@ -1,93 +1,58 @@
-# Conditions générales — Lumière Matière
+# Conditions générales de vente
 
-Dernière mise à jour : 20 août 2026
+Les présentes conditions générales de vente encadrent les achats conclus sur lumierematiere.fr, boutique de suspensions et de lustres exploitée sous la marque **Lumière Matière** par **OH Ventures**, SASU au capital de 1 000 €, 47 rue Vivienne, 75002 Paris, SIREN 103157251. Valider une commande vaut acceptation de ces CGV.
 
-## Introduction
+## 1. Produits
 
-Le site **lumierematiere.fr** est édité par **OH Ventures**, SASU au capital de 1 000 €, siège social 47 rue Vivienne, 75002 Paris, France — SIRET 10315725100010, TVA intracommunautaire FR55103157251. « Lumière Matière » désigne la marque et le nom commercial sous lesquels OH Ventures exploite cette boutique (« Lumière Matière », « nous »). L'accès au site et la passation de commande impliquent l'acceptation des présentes conditions et des politiques associées (livraison, retours, confidentialité, paiement).
+Le catalogue présente des luminaires d’intérieur (suspensions, lustres, plafonniers). Descriptions, dimensions et photographies visent l’exactitude ; une légère variation de teinte ou de fibre naturelle reste possible et n’engage pas la responsabilité du vendeur. Vérifiez le diamètre et le type d’ampoule sur la fiche avant de commander.
 
-Refus des conditions = pas d'utilisation du Service.
+## 2. Prix
 
-## 1. Conditions d'accès boutique
+Les prix s’affichent en euros (EUR), toutes taxes comprises. La livraison est offerte en France métropolitaine. Lumière Matière peut actualiser ses tarifs à tout moment ; le montant dû est celui indiqué au moment du paiement.
 
-Majorité légale (ou autorisation parentale). Usage conforme au droit français. Manquement = possible fermeture d'accès.
+## 3. Commande
 
-## 2. Fonctionnement du service
+La commande devient ferme après acceptation des CGV et encaissement. Un e-mail récapitulatif vous est envoyé. Lumière Matière peut refuser ou annuler une commande en cas de fraude suspectée, de litige antérieur ou d’indisponibilité.
 
-Nous pouvons refuser une commande pour cause légitime (stock, fraude, erreur de prix). Hors données carte, certains transferts réseau ne sont pas chiffrés de bout en bout ; le paiement carte l'est via la passerelle.
+## 4. Paiement
 
-## 3. Exactitude des contenus
+Le règlement s’effectue en ligne, via une connexion chiffrée SSL, par **carte bancaire (Visa, Mastercard)**. Seuls les moyens réellement proposés à la caisse sont acceptés. Le débit a lieu à la validation. Aucune donnée de carte complète n’est conservée sur nos serveurs.
 
-Descriptions, dimensions et visuels sont préparés avec soin mais peuvent différer légèrement (matière naturelle, éclairage de pièce, ampoule choisie). Ils ne dispensent pas de vérifier l'adéquation à votre plafond et à votre installation.
+## 5. Livraison
 
-## 4. Prix
+Livraison gratuite en France métropolitaine (Corse incluse). Préparation **1 à 2 jours ouvrés**, acheminement **6 à 15 jours ouvrés**, total estimé **7 à 17 jours ouvrés**. Heure limite : **16h00, heure de Paris**. Ces chiffres sont les mêmes que ceux de la politique d’expédition, de la FAQ et du Merchant Center.
 
-Montants en EUR TTC modifiables. La confirmation de commande fixe le prix payé.
+## 6. Droit de rétractation et retours
 
-## 5. Catalogue
+Vous disposez d’un droit de rétractation légal de 14 jours, étendu à 30 jours à titre commercial. Les frais de retour sont à la charge du client en cas de simple changement d’avis ; aucun frais de réapprovisionnement n’est appliqué. Le détail figure dans la politique de remboursement.
 
-Suspensions, lustres et plafonniers pour usage intérieur. Retours : [politique dédiée](https://lumierematiere.fr/policies/refund-policy).
+## 7. Garanties légales
 
-## 6. Exactitude du compte
+Tous les luminaires bénéficient de la garantie légale de conformité (art. L217-3 et suivants du Code de la consommation) et de la garantie des vices cachés (art. 1641 et suivants du Code civil), indépendamment de toute garantie commerciale.
 
-Informations de facturation et de livraison exactes obligatoires. Annulation possible en cas d'anomalie.
+## 8. Responsabilité
 
-## 7. Modules optionnels
+Les produits doivent être installés conformément à leur destination et à la réglementation électrique. Lumière Matière n’est pas responsable d’une mauvaise pose ou d’un usage non conforme. Sa responsabilité est limitée au montant de la commande.
 
-Outils tiers proposés sans garantie spécifique.
+## 9. Propriété intellectuelle
 
-## 8. Sites tiers
+Textes, visuels, logo et marque Lumière Matière restent la propriété d’OH Ventures. Toute reproduction non autorisée est interdite.
 
-Contenu et politiques hors de notre contrôle.
+## 10. Données personnelles
 
-## 9. Contributions
+Le traitement de vos données est décrit dans la politique de confidentialité, conforme au RGPD.
 
-Avis et messages : droit d'usage raisonnable pour le service ; contenus illicites interdits.
+## 11. Droit applicable et litiges
 
-## 10. Vie privée
+Les présentes CGV sont soumises au droit français. Une solution amiable est recherchée en priorité. Le consommateur peut saisir gratuitement un médiateur de la consommation : **CM2C**, 14 rue Saint Jean, 75017 Paris — 01 89 47 00 14 — [www.cm2c.net](https://www.cm2c.net/). À défaut d’accord, les tribunaux français sont compétents.
 
-Voir [confidentialité](https://lumierematiere.fr/policies/privacy-policy).
+## Service client
 
-## 11. Erreurs
+Une question avant ou après votre commande ? Notre équipe, basée en France, vous répond :
 
-Correction possible des erreurs affichées (prix, stock, texte).
+- E-mail : [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr)
+- Téléphone : +33 7 56 82 80 94
+- Horaires : du lundi au vendredi, de 10h00 à 18h00 (heure de Paris). Fermé les week-ends et jours fériés.
+- Adresse : 47 rue Vivienne, 75002 Paris, France
 
-## 12. Usages interdits
-
-Atteinte au site, extraction abusive, usurpation, activités illégales.
-
-## 13. Garanties et limites
-
-Service non garanti sans interruption. Droits légaux du consommateur préservés.
-
-## 14. Indemnité
-
-Vous couvrez OH Ventures contre les réclamations liées à une utilisation non conforme.
-
-## 15. Clause indépendante
-
-Invalidité partielle sans effet sur le reste.
-
-## 16. Résiliation d'accès
-
-Possible en cas de violation grave.
-
-## 17. Ensemble contractuel
-
-CGV + politiques du site = accord complet sur l'usage du Service.
-
-## 18. Loi et médiation
-
-Droit français. Médiateur de la consommation (identique à Maison Noirmont / parc OH Ventures) : **CM2C** — 14 rue Saint Jean, 75017 Paris — 01 89 47 00 14 — [www.cm2c.net](https://www.cm2c.net/). RLL européen : https://ec.europa.eu/consumers/odr
-
-## 19. Changements
-
-Publication sur le site avec date actualisée.
-
-## 20. Coordonnées
-
-- **Lumière Matière** — marque d'**OH Ventures**, SASU au capital de 1 000 €
-- SIRET 10315725100010 · TVA intracommunautaire FR55103157251
-- 47 rue Vivienne, 75002 Paris, France
-- [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr) · +33 7 56 82 80 94
-- Lun–ven 10h00–18h00 (heure de Paris) · réponse sous 1 à 2 jours ouvrés
+Nous nous efforçons de répondre à toutes les demandes sous 24 heures ouvrées.

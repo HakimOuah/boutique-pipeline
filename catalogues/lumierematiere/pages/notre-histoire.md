@@ -21,4 +21,4 @@ Lumière Matière est éditée par **OH Ventures**, une société parisienne (SA
 ## Nous écrire
 
 [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr) · +33 7 56 82 80 94  
-Du lundi au vendredi, **10h00 – 18h00** (heure de Paris). Nous répondons en général sous **1 à 2 jours ouvrés**.
+Du lundi au vendredi, **10h00 – 18h00** (heure de Paris). Nous nous efforçons de répondre sous **24 heures ouvrées**.

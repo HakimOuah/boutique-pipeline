@@ -1,58 +1,62 @@
-# Retours et remboursements — Lumière Matière
+# Politique de remboursement
 
-Dernière mise à jour : 20 août 2026
+Chez Lumière Matière, si un luminaire ne trouve pas sa place chez vous, les règles de retour sont écrites ci-dessous — sans frais de réapprovisionnement.
 
-Votre suspension ou lustre doit trouver sa place chez vous. Si ce n'est pas le cas, Lumière Matière applique une procédure de retour lisible — **sans frais de restockage**.
+## 1. Droit de rétractation légal (14 jours)
 
-## Fenêtre de 30 jours
+Conformément aux articles L221-18 et suivants du Code de la consommation, vous disposez d’un délai légal de rétractation de 14 jours à compter de la réception, sans avoir à justifier de motif ni à payer de pénalité.
 
-À compter de la **réception**, vous avez **30 jours** pour initier un retour. Le luminaire doit être en bon état, non installé de façon définitive au-delà d'un essai raisonnable, avec emballage, rosace/ visserie et notice lorsque fournis.
+## 2. Délai commercial étendu (30 jours)
 
-Le droit légal de **rétractation (14 jours)** s'applique en parallèle ; les 30 jours boutique vous laissent davantage de marge.
+Au-delà du droit légal, nous offrons un délai commercial de 30 jours à compter de la réception pour changer d’avis et demander un retour.
 
-**Restockage : aucun (0 €).**
+## 3. État des articles retournés
 
-## Synthèse
+Pour être repris, les luminaires doivent être retournés neufs et non installés de façon définitive, dans leur emballage d’origine complet, avec rosace, visserie, câbles, notices et étiquettes. Un produit visiblement utilisé, endommagé, incomplet ou sans son carton d’origine ne pourra être ni repris ni remboursé.
 
-- Délai boutique : 30 jours après réception  
-- État : revente possible, accessoires complets  
-- Défaut, erreur d'envoi, casse transporteur : **retour pris en charge**  
-- Simple changement d'avis : **frais de renvoi à votre charge** ; port aller non remboursé  
+## 4. Méthode de retour
 
-## Prise en charge des frais
+Les retours s’effectuent par voie postale, via le transporteur de votre choix. Nous recommandons un envoi suivi (recommandé), seule preuve d’expédition en cas de litige. Aucun retour en main propre n’est possible.
 
-**Nous payons le retour** lorsque l'article est défectueux, incomplet, endommagé à l'arrivée ou différent de la commande.
+## 5. Frais de retour
 
-**Vous payez le retour** en cas de rétractation / changement d'avis (mauvais diamètre choisi, style qui ne va pas, etc.).
+Les frais de retour sont à la charge du client. Aucune étiquette prépayée n’est fournie : vous affranchissez le colis vous-même.
 
-## Démarche
+## 6. Frais de réapprovisionnement
 
-1. Mail à [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr) : n° de commande, motif, photos si casse ou défaut.  
-2. Remise en carton d'origine (protégez verre, rotin, métal).  
-3. Envoi selon l'autorisation reçue par e-mail.
+Aucun frais de réapprovisionnement (restocking fee) n’est appliqué. Vous n’avez à payer que les frais de réexpédition du colis.
 
-## Remboursement
+## 7. Comment effectuer un retour, étape par étape
 
-Contrôle à l'arrivée du retour, puis remboursement sur le moyen initial. Délai d'apparition : jusqu'à **7 jours ouvrés** selon l'émetteur du paiement.
+- Écrivez à [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr) en indiquant votre numéro de commande et le luminaire concerné.
+- Nous vous communiquons l’adresse de retour et la marche à suivre.
+- Emballez soigneusement l’article dans son carton d’origine (protégez verre, rotin, métal) et expédiez-le en envoi suivi.
+- Transmettez-nous le numéro de suivi du retour.
+- Dès réception et contrôle, nous procédons au remboursement.
 
-## Échanges
+## 8. Délai et modalités de remboursement
 
-Autre matière, autre diamètre, autre finition : demandez un échange à [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr) sous réserve de disponibilité.
+Une fois le retour reçu et contrôlé, le remboursement est effectué sous 7 jours. Il est réalisé sur le moyen de paiement utilisé lors de la commande. Le délai d’apparition sur votre compte dépend ensuite de votre banque.
 
-## Exclusions
+## 9. Articles défectueux ou non conformes
 
-Produits signalés non retournables sur la fiche (hygiène / sécurité) : hors défaut ou non-conformité uniquement.
+Si vous recevez un luminaire défectueux, abîmé ou différent de la commande, contactez-nous sous 48 heures avec photos. Dans ce cas, le retour et le remboursement (ou le remplacement) sont entièrement pris en charge. Vous bénéficiez par ailleurs de la garantie légale de conformité (art. L217-3 et suivants du Code de la consommation) et de la garantie contre les vices cachés (art. 1641 du Code civil).
 
-## Aide
+## 10. Échanges
 
-[FAQ](https://lumierematiere.fr/pages/faq) · [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr)
+Vous souhaitez un autre diamètre ou une autre matière ? Le plus simple est de retourner l’article pour remboursement et de passer une nouvelle commande, afin de garantir la disponibilité du modèle souhaité.
 
-## Coordonnées
+## 11. Annulation avant expédition
 
-- **Lumière Matière**, marque exploitée par **OH Ventures** (SASU au capital de 1 000 €)
-- 47 rue Vivienne, 75002 Paris, France
-- SIRET 10315725100010 · TVA FR55103157251
-- [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr)
-- +33 7 56 82 80 94
-- Lun–ven, 10h00–18h00 (heure de Paris)
-- Réponse sous 1 à 2 jours ouvrés
+Tant que votre commande n’a pas été expédiée, vous pouvez demander son annulation par e-mail. Si elle est déjà partie, il faudra suivre la procédure de retour ci-dessus.
+
+## Service client
+
+Une question avant ou après votre commande ? Notre équipe, basée en France, vous répond :
+
+- E-mail : [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr)
+- Téléphone : +33 7 56 82 80 94
+- Horaires : du lundi au vendredi, de 10h00 à 18h00 (heure de Paris). Fermé les week-ends et jours fériés.
+- Adresse : 47 rue Vivienne, 75002 Paris, France
+
+Nous nous efforçons de répondre à toutes les demandes sous 24 heures ouvrées.
