@@ -47,5 +47,5 @@ Coût DSers (unité) + **2 € de fret** (quotes FR : 1,99 € / 0 €). Concurr
 3. CM2C : ajouter lumierematiere.fr si le contrat est par site.
 4. Décider du sort de **LM-045** (listing AE mort).
 5. 5 fiches « Unmapped » DSers (fantômes API) : à supprimer dans l’app si elles sont encore là.
-6. Codex : packshots **une image par couleur** — brief `catalogues/lumierematiere/briefs/2026-08-24-codex-variantes-couleur.md` (41 fiches après le repositionnement du 25/08).
+6. Codex : packshots **une image par teinte** — brief `catalogues/lumierematiere/briefs/2026-08-24-codex-variantes-couleur.md` (**49 fiches, 124 JPEG**). Hors brief : 13 fiches A/B/C aveugles.
 7. Vérifier `suspension-bois-led-453740` et `suspension-verre-noir-201424` (réduites à 1 variante sur des codes aveugles) : la variante conservée doit correspondre à la photo g1 face au listing AE, sinon re-mapper côté DSers.
