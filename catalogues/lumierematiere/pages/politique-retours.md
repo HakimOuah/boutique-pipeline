@@ -27,7 +27,7 @@ Le droit légal de **rétractation (14 jours)** s'applique en parallèle ; les 3
 
 ## Démarche
 
-1. Mail à [contact@lumierematiere.com](mailto:contact@lumierematiere.com) : n° de commande, motif, photos si casse ou défaut.  
+1. Mail à [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr) : n° de commande, motif, photos si casse ou défaut.  
 2. Remise en carton d'origine (protégez verre, rotin, métal).  
 3. Envoi selon l'autorisation reçue par e-mail.
 
@@ -37,7 +37,7 @@ Contrôle à l'arrivée du retour, puis remboursement sur le moyen initial. Dél
 
 ## Échanges
 
-Autre matière, autre diamètre, autre finition : demandez un échange à [contact@lumierematiere.com](mailto:contact@lumierematiere.com) sous réserve de disponibilité.
+Autre matière, autre diamètre, autre finition : demandez un échange à [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr) sous réserve de disponibilité.
 
 ## Exclusions
 
@@ -45,14 +45,14 @@ Produits signalés non retournables sur la fiche (hygiène / sécurité) : hors 
 
 ## Aide
 
-[FAQ](https://lumierematiere.com/pages/faq) · [contact@lumierematiere.com](mailto:contact@lumierematiere.com)
+[FAQ](https://lumierematiere.fr/pages/faq) · [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr)
 
 ## Coordonnées
 
 - **Lumière Matière**, marque exploitée par **OH Ventures** (SASU au capital de 1 000 €)
 - 47 rue Vivienne, 75002 Paris, France
 - SIRET 10315725100010 · TVA FR55103157251
-- [contact@lumierematiere.com](mailto:contact@lumierematiere.com)
+- [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr)
 - +33 7 56 82 80 94
 - Lun–ven, 10h00–18h00 (heure de Paris)
 - Réponse sous 1 à 2 jours ouvrés

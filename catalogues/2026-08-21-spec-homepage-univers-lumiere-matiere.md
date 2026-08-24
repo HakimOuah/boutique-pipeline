@@ -202,7 +202,7 @@ Titre (H2) : `Bien choisir, sans mauvaise surprise` — icônes SVG 40 px charbo
 
 Titre (H2) : `Vos questions avant d'acheter` — intro : `Les réponses complètes sont dans la FAQ et les pages Politiques ; en cas d'écart, ces pages prévalent.`
 
-1. **Comment choisir le bon diamètre ?** — `Chaque fiche donne le diamètre et la hauteur. Au-dessus d'une table, restez nettement plus étroit que le plateau. Un doute ? Écrivez-nous : contact@lumierematiere.com.`
+1. **Comment choisir le bon diamètre ?** — `Chaque fiche donne le diamètre et la hauteur. Au-dessus d'une table, restez nettement plus étroit que le plateau. Un doute ? Écrivez-nous : contact@lumierematiere.fr.`
 2. **L'ampoule est-elle fournie ?** — `Selon le modèle : LED intégrée (rien à ajouter) ou douille E27/E14 — c'est précisé sur chaque fiche. Si douille, prévoyez une LED blanc chaud.`
 3. **Le câble est très long, c'est normal ?** — `Souvent oui : beaucoup de suspensions se règlent à la rosace. On ajuste le câble à votre hauteur sous plafond à la pose.`
 4. **Faut-il un électricien ?** — `Le raccordement se fait au circuit plafond. Si vous n'êtes pas à l'aise avec l'électricité, faites appel à un professionnel — courant coupé avant toute intervention.`
@@ -238,7 +238,7 @@ Titre (H2) : `Vos questions avant d'acheter` — intro : `Les réponses complèt
 
 Fond charbon `#24211B`, logo `lumierematiere-logo-inverse-blanc.png`, texte papier.
 
-- **Colonne coordonnées** : `Lumière Matière — une marque OH Ventures` · contact@lumierematiere.com · +33 7 56 82 80 94 · 47 rue Vivienne, 75002 Paris · `SAV : lun–ven, 10h–18h (Paris)`
+- **Colonne coordonnées** : `Lumière Matière — une marque OH Ventures` · contact@lumierematiere.fr · +33 7 56 82 80 94 · 47 rue Vivienne, 75002 Paris · `SAV : lun–ven, 10h–18h (Paris)`
 - **Menu Informations** : Notre histoire · FAQ · Contact · Livraison · Retours & remboursements
 - **Menu Légal** : CGV (sert de mentions légales : l'éditeur est au §1, pas de fichier `mentions-legales.md` séparé) · Politique de confidentialité · Conditions de paiement
 - **Newsletter** : même formulaire/mécanique que §5.12 (mêmes règles, pas de remise fantôme)
@@ -315,7 +315,7 @@ Ordre des modules, aligné charte §5 et VOC : **1. Matière → lumière** (pho
 
 Dans l'ordre :
 
-1. **Réglages généraux** : nom `Lumière Matière`, e-mail `contact@lumierematiere.com`, adresse OH Ventures, devise EUR, fuseau Paris. Brancher le domaine `lumierematiere.com` (acheté 24/08).
+1. **Réglages généraux** : nom `Lumière Matière`, e-mail `contact@lumierematiere.fr`, adresse OH Ventures, devise EUR, fuseau Paris. Brancher le domaine `lumierematiere.fr` (racheté 24/08 ; identité boutique).
 2. **Thème Horizon** : installer, puis appliquer les tokens §6 (couleurs, boutons, largeur `narrow`). Typos : chercher Young Serif / Instrument Sans dans le sélecteur ; si absentes, uploader les woff2 en polices personnalisées.
 3. **Logos** : header primary charbon, footer inverse blanc, favicon 512.
 4. **Import catalogue** : CSV DSers (121 SKU), privilégier les variantes UE au mapping. Vérifier que les 13 collections se créent avec les bons handles. **Ne pas uploader** les 5 JPEG de `plafonnier-led-led-728204` (LM-086, REJECT QA). Les 120 autres handles : g1→g5 dans l'ordre.
@@ -329,7 +329,7 @@ Dans l'ordre :
 8. **Homepage** : monter les 13 sections §5 dans l'ordre, coller la copy telle quelle, brancher images et collections.
 9. **Bandeau + footer confiance** : messages §5.1 ; ligne SIRET/TVA §5.13 ; n'afficher que les icônes des moyens de paiement réellement activés (Shopify Payments, PayPal…).
 10. **Newsletter** : au choix — laisser la version sans remise (rien à faire), ou créer le code -10 % + automatisation e-mail de bienvenue **avant** de changer le titre.
-11. **Divers conformité** : masquer sélecteurs pays/langue, vérifier l'adhésion CM2C pour `lumierematiere.com` (contrat par site ?), « Powered by Shopify » masqué.
+11. **Divers conformité** : masquer sélecteurs pays/langue, vérifier l'adhésion CM2C pour `lumierematiere.fr` (contrat par site ?), « Powered by Shopify » masqué.
 12. **Option phase 2** (pas bloquant) : tags `table` pour une collection automatique « Au-dessus de la table » ; rangées produits par matière quand les bestsellers existent.
 
 *(GMC/Ads : rien ici volontairement, hors signaux de confiance footer déjà couverts — le skill `gmc-acceptance` prendra le relais.)*

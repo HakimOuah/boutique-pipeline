@@ -98,7 +98,7 @@ Ne pas partir sous 120 € : guerre de prix vs Sklum/Glance, marge et image mort
 **Écarter :** `lustre-design.fr` (pris) ; `atelierlustre.fr` / `atelierlumiere.fr` / `lumiereatelier.fr` (pris) ; `ma-suspension.fr` libre mais **copie trop proche** du concurrent.
 
 **Reco B :** acheter **lumierematiere.fr** + **lumierematiere.com**.  
-**Retenu 24/08 :** **lumierematiere.com** seulement (Workspace + e-mail `contact@lumierematiere.com`).
+**Retenu 24/08 :** **lumierematiere.fr** (Workspace + e-mail `contact@lumierematiere.fr`). Le `.com` est aussi acheté ; ce n’est pas l’identité.
 
 ---
 

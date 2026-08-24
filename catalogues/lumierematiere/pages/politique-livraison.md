@@ -31,22 +31,22 @@ Port **gratuit** en zone couverte. Aucune autre zone n'est proposée au paiement
 
 ## Suivi
 
-Un e-mail part à l'expédition avec le numéro de suivi. Consultation aussi via [votre compte](https://lumierematiere.com/account).
+Un e-mail part à l'expédition avec le numéro de suivi. Consultation aussi via [votre compte](https://lumierematiere.fr/account).
 
 ## Problème d'acheminement
 
-Retard inhabituel, perte, emballage ouvert à l'arrivée : contactez [contact@lumierematiere.com](mailto:contact@lumierematiere.com) avec le n° de commande. Nous suivons avec le transporteur et proposons remplacement, renvoi ou remboursement selon le dossier.
+Retard inhabituel, perte, emballage ouvert à l'arrivée : contactez [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr) avec le n° de commande. Nous suivons avec le transporteur et proposons remplacement, renvoi ou remboursement selon le dossier.
 
 ## En savoir plus
 
-[FAQ](https://lumierematiere.com/pages/faq)
+[FAQ](https://lumierematiere.fr/pages/faq)
 
 ## Coordonnées
 
 - **Lumière Matière**, marque exploitée par **OH Ventures** (SASU au capital de 1 000 €)
 - 47 rue Vivienne, 75002 Paris, France
 - SIRET 10315725100010 · TVA FR55103157251
-- [contact@lumierematiere.com](mailto:contact@lumierematiere.com)
+- [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr)
 - +33 7 56 82 80 94
 - Lun–ven 10h00–18h00 (heure de Paris)
 - Réponse sous 1 à 2 jours ouvrés

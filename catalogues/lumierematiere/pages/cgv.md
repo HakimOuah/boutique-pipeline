@@ -4,7 +4,7 @@ Dernière mise à jour : 20 août 2026
 
 ## Introduction
 
-Le site **lumierematiere.com** est édité par **OH Ventures**, SASU au capital de 1 000 €, siège social 47 rue Vivienne, 75002 Paris, France — SIRET 10315725100010, TVA intracommunautaire FR55103157251. « Lumière Matière » désigne la marque et le nom commercial sous lesquels OH Ventures exploite cette boutique (« Lumière Matière », « nous »). L'accès au site et la passation de commande impliquent l'acceptation des présentes conditions et des politiques associées (livraison, retours, confidentialité, paiement).
+Le site **lumierematiere.fr** est édité par **OH Ventures**, SASU au capital de 1 000 €, siège social 47 rue Vivienne, 75002 Paris, France — SIRET 10315725100010, TVA intracommunautaire FR55103157251. « Lumière Matière » désigne la marque et le nom commercial sous lesquels OH Ventures exploite cette boutique (« Lumière Matière », « nous »). L'accès au site et la passation de commande impliquent l'acceptation des présentes conditions et des politiques associées (livraison, retours, confidentialité, paiement).
 
 Refus des conditions = pas d'utilisation du Service.
 
@@ -26,7 +26,7 @@ Montants en EUR TTC modifiables. La confirmation de commande fixe le prix payé.
 
 ## 5. Catalogue
 
-Suspensions, lustres et plafonniers pour usage intérieur. Retours : [politique dédiée](https://lumierematiere.com/policies/refund-policy).
+Suspensions, lustres et plafonniers pour usage intérieur. Retours : [politique dédiée](https://lumierematiere.fr/policies/refund-policy).
 
 ## 6. Exactitude du compte
 
@@ -46,7 +46,7 @@ Avis et messages : droit d'usage raisonnable pour le service ; contenus illicite
 
 ## 10. Vie privée
 
-Voir [confidentialité](https://lumierematiere.com/policies/privacy-policy).
+Voir [confidentialité](https://lumierematiere.fr/policies/privacy-policy).
 
 ## 11. Erreurs
 
@@ -89,5 +89,5 @@ Publication sur le site avec date actualisée.
 - **Lumière Matière** — marque d'**OH Ventures**, SASU au capital de 1 000 €
 - SIRET 10315725100010 · TVA intracommunautaire FR55103157251
 - 47 rue Vivienne, 75002 Paris, France
-- [contact@lumierematiere.com](mailto:contact@lumierematiere.com) · +33 7 56 82 80 94
+- [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr) · +33 7 56 82 80 94
 - Lun–ven 10h00–18h00 (heure de Paris) · réponse sous 1 à 2 jours ouvrés
