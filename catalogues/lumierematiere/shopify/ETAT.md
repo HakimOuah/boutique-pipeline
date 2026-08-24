@@ -1,4 +1,4 @@
-# Shopify Lumière Matière — état 24/08/2026 (soir, overlay + variantes + policies)
+# Shopify Lumière Matière — état 25/08/2026 (positionnement variantes)
 
 **Store :** `nzefxg-gg.myshopify.com`  
 **Admin :** https://admin.shopify.com/store/nzefxg-gg  
@@ -9,6 +9,7 @@
 
 ## Fait
 
+- **Variantes repositionnées 25/08 (Fable)** : 76 fiches modifiées, **2 868 → 629 variantes** (rapport : `shopify/variants-position-2026-08-25.md`, script : `shopify/position_variants.py`). « Damaged replacement » supprimé (2 fiches bambou), `X line` → couleur seule, `heads` → lumières, codes usine (Type A–E, sku1–22, Ceramic 1–23, 4040…) réduits ou dépliés, une seule température quand le prix n'en dépend pas, 3 couleurs max, tailles en paliers commerciaux triés. Prix hors grille (résidus de coûts AE 31–231 €) purgés en supprimant les variantes concernées — plus aucun prix hors 149–499. **0 split** : `productDuplicate` créerait des fiches non mappées DSers (un listing AE = une fiche) → réduction sur place pour les 7 fiches 100+ (anneaux 1–2 vs 3–5, cristal rond vs allongé, bambou plafonnier vs suspension). SKU/`sku_attr` DSers **inchangés** sur toutes les variantes conservées. Restent volontairement >12 : 489156, 091815, 583180, 033589 (15 var = tailles × couleurs réelles). À vérifier : 453740 et 201424 réduites à 1 variante aveugle (contrôler la correspondance photo/listing AE) ; codes 607504 interprétés en dimensions. Brief Codex couleurs régénéré (41 fiches).
 - **Policies** réimportées 24/08 soir (pack FR `gmc-acceptance/templates-fr/`, texte LM distinct). Chiffres ops inchangés : cut-off **16h Paris**, préparation **1–2 j**, acheminement **6–15 j**, total **7–17 j**, retours **30 j**, annulation **tant que non expédiée**, SAV **10h–18h**, réponse **24 h ouvrées**.
 - **Paiement** aligné sur `/payments/config` : Visa, Mastercard, American Express, Apple Pay, Shop Pay, PayPal. **Pas de Google Pay.** CGV + page Paiement mises à jour.
 - **121 fiches API supprimées**, puis **PUSH DSers** (Hakim). Overlay 24/08 soir :
@@ -45,4 +46,5 @@ Coût DSers (unité) + **2 € de fret** (quotes FR : 1,99 € / 0 €). Concurr
 3. CM2C : ajouter lumierematiere.fr si le contrat est par site.
 4. Décider du sort de **LM-045** (listing AE mort).
 5. 5 fiches « Unmapped » DSers (fantômes API) : à supprimer dans l’app si elles sont encore là.
-6. Codex : packshots **une image par couleur** — brief `catalogues/lumierematiere/briefs/2026-08-24-codex-variantes-couleur.md` (67 fiches).
+6. Codex : packshots **une image par couleur** — brief `catalogues/lumierematiere/briefs/2026-08-24-codex-variantes-couleur.md` (41 fiches après le repositionnement du 25/08).
+7. Vérifier `suspension-bois-led-453740` et `suspension-verre-noir-201424` (réduites à 1 variante sur des codes aveugles) : la variante conservée doit correspondre à la photo g1 face au listing AE, sinon re-mapper côté DSers.

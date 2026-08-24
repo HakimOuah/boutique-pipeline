@@ -1,0 +1,1639 @@
+[
+ {
+  "handle": "lustre-salon-led-341706",
+  "before": 75,
+  "after": 3,
+  "actions": [
+   "reduce -72",
+   "rename Taille ×3",
+   "drop option Température"
+  ],
+  "note": "réduction 75→3 : Type A–E = codes usine au même prix, un seul conservé",
+  "options": [
+   {
+    "Taille": [
+     "Ø 60 cm",
+     "Ø 50 cm",
+     "Ø 40 cm"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-verre-led-489156",
+  "before": 45,
+  "after": 15,
+  "actions": [
+   "reduce -30",
+   "drop option Température"
+  ],
+  "note": "réduction 45→15 : reste 5 tailles × 3 couleurs réelles, assumé >12",
+  "options": [
+   {
+    "Taille": [
+     "Ø 20 cm",
+     "Ø 30 cm",
+     "Ø 35 cm",
+     "Ø 25 cm",
+     "Ø 40 cm"
+    ]
+   },
+   {
+    "Couleur": [
+     "Transparent",
+     "Ambre",
+     "Gris fumé"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "lustre-anneau-led-led-noir-dore-024410",
+  "before": 99,
+  "after": 12,
+  "actions": [
+   "reduce -87",
+   "rename Taille ×4",
+   "drop option Température"
+  ],
+  "note": "réduction 99→12 : échelle honnête 1→4 anneaux avec paliers 199→399",
+  "options": [
+   {
+    "Taille": [
+     "Ø 60 cm · 2 anneaux",
+     "Ø 80 cm · 3 anneaux",
+     "Ø 100 cm · 4 anneaux",
+     "Ø 40 cm · 1 anneau"
+    ]
+   },
+   {
+    "Couleur": [
+     "Noir",
+     "Café",
+     "Doré"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "lustre-anneau-led-led-597704",
+  "before": 54,
+  "after": 9,
+  "actions": [
+   "reduce -45",
+   "rename Couleur ×9",
+   "option Couleur→Modèle",
+   "drop option Température"
+  ],
+  "note": "réduction 54→9 : 3 couleurs × 3 diamètres, codes usine dépliés en libellés FR",
+  "options": [
+   {
+    "Modèle": [
+     "Doré · Ø 40 cm",
+     "Doré · Ø 80 cm",
+     "Doré · Ø 100 cm",
+     "Blanc · Ø 80 cm",
+     "Blanc · Ø 40 cm",
+     "Blanc · Ø 100 cm",
+     "Noir · Ø 40 cm",
+     "Noir · Ø 100 cm",
+     "Noir · Ø 80 cm"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "lustre-anneau-led-led-dore-418494",
+  "before": 108,
+  "after": 12,
+  "actions": [
+   "temp=Variable (télécommande)",
+   "reduce -96",
+   "rename Taille ×1",
+   "drop option Température"
+  ],
+  "note": "réduction 108→12 : paliers Ø 40/60/80/100, 3 couleurs, une température ; split 1-2/3-5 anneaux écarté (mapping DSers)",
+  "options": [
+   {
+    "Taille": [
+     "Ø 40 cm",
+     "Ø 100 cm",
+     "Ø 60 cm",
+     "Ø 80 cm"
+    ]
+   },
+   {
+    "Couleur": [
+     "Noir",
+     "Café",
+     "Doré"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "lustre-anneau-led-led-784897",
+  "before": 132,
+  "after": 11,
+  "actions": [
+   "temp=Blanc froid",
+   "reduce -120",
+   "hors-grille -1",
+   "drop option Température"
+  ],
+  "note": "réduction 132→≤12 : libellés DIA jumeaux supprimés, prix hors grille purgés",
+  "options": [
+   {
+    "Taille": [
+     "Ø 60 cm",
+     "Ø 80 cm",
+     "Ø 100 cm",
+     "Ø 40 cm"
+    ]
+   },
+   {
+    "Couleur": [
+     "Doré",
+     "Blanc",
+     "Noir"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "lustre-anneau-led-led-795468",
+  "before": 18,
+  "after": 4,
+  "actions": [
+   "reduce -14",
+   "rename Taille ×2",
+   "drop option Température"
+  ],
+  "note": "réduction 18→4 : valeurs ambiguës (couleur inconnue) supprimées",
+  "options": [
+   {
+    "Taille": [
+     "Ø 30 cm · Blanc",
+     "Ø 30 cm · Noir",
+     "Ø 20 cm · Blanc",
+     "Ø 20 cm · Noir"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "lustre-anneau-led-led-dore-641905",
+  "before": 81,
+  "after": 12,
+  "actions": [
+   "reduce -69",
+   "rename Taille ×1",
+   "drop option Température"
+  ],
+  "note": "réduction 81→12 : Blanc chaud = prix uniforme 299 (Variable portait un 499 incohérent sur Ø 40)",
+  "options": [
+   {
+    "Taille": [
+     "Ø 60 cm",
+     "Ø 80 cm",
+     "Ø 40 cm",
+     "Ø 80 cm · 5 anneaux"
+    ]
+   },
+   {
+    "Couleur": [
+     "Noir",
+     "Doré",
+     "Blanc"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "lustre-cristal-led-led-141724",
+  "before": 4,
+  "after": 2,
+  "actions": [
+   "reduce -2",
+   "rename Taille ×1",
+   "drop option Température"
+  ],
+  "note": "doublon Variable/Télécommande réduit, libellé D40xD30xD20 déplié",
+  "options": [
+   {
+    "Taille": [
+     "3 anneaux · Ø 40/30/20 cm",
+     "Ø 20 cm"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "lustre-cristal-led-677865",
+  "before": 220,
+  "after": 8,
+  "actions": [
+   "reduce -212",
+   "drop option Température"
+  ],
+  "note": "réduction 220→8 : 22 tailles-combos → 4 paliers propres (249/299/399/399)",
+  "options": [
+   {
+    "Taille": [
+     "Ø 60 cm",
+     "Ø 100 cm",
+     "Ø 80 cm",
+     "Ø 40 cm"
+    ]
+   },
+   {
+    "Couleur": [
+     "Doré",
+     "Chrome"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "lustre-cristal-led-led-dore-264869",
+  "before": 8,
+  "after": 2,
+  "actions": [
+   "reduce -6",
+   "rename Couleur ×1",
+   "option Couleur→Lumières",
+   "drop option Température"
+  ],
+  "note": "réduction 8→2 : une température",
+  "options": [
+   {
+    "Lumières": [
+     "2 lumières",
+     "1 lumière"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "lustre-cristal-led-led-560904",
+  "before": 3,
+  "after": 3,
+  "actions": [
+   "rename Couleur ×3",
+   "option Couleur→Lumières"
+  ],
+  "note": "traduction heads → lumières",
+  "options": [
+   {
+    "Lumières": [
+     "10 lumières",
+     "14 lumières",
+     "12 lumières"
+    ]
+   },
+   {
+    "Température": [
+     "3 teintes"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "lustre-cristal-led-led-dore-841671",
+  "before": 80,
+  "after": 12,
+  "actions": [
+   "reduce -68",
+   "drop option Température"
+  ],
+  "note": "réduction 80→12 : Applique (autre objet) supprimée, 4 ronds + 2 allongés",
+  "options": [
+   {
+    "Taille": [
+     "Ø 60 cm · rond",
+     "Ø 80 cm · rond",
+     "Ø 100 cm · rond",
+     "Ø 120 cm · allongé",
+     "Ø 160 cm · allongé",
+     "Ø 45 cm · rond"
+    ]
+   },
+   {
+    "Couleur": [
+     "Argenté",
+     "Doré"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "lustre-cristal-led-dore-202521",
+  "before": 102,
+  "after": 12,
+  "actions": [
+   "reduce -90",
+   "drop option Température"
+  ],
+  "note": "réduction 102→12 : 4 ronds + 2 allongés, split écarté (mapping DSers)",
+  "options": [
+   {
+    "Taille": [
+     "Ø 60 cm · rond",
+     "Ø 100 cm · rond",
+     "Ø 76 cm · rond",
+     "Ø 120 cm · allongé",
+     "Ø 46 cm · rond",
+     "Ø 180 cm · allongé"
+    ]
+   },
+   {
+    "Couleur": [
+     "Doré",
+     "Argenté"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-verre-led-dore-436718",
+  "before": 18,
+  "after": 4,
+  "actions": [
+   "reduce -14",
+   "rename Couleur ×4",
+   "option Couleur→Modèle",
+   "drop option Température"
+  ],
+  "note": "réduction 18→4 : forme A conservée, small/large traduits",
+  "options": [
+   {
+    "Modèle": [
+     "Doré · petit",
+     "Doré · grand",
+     "Noir · petit",
+     "Noir · grand"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-verre-394147",
+  "before": 24,
+  "after": 6,
+  "actions": [
+   "reduce -18",
+   "rename Couleur ×6",
+   "option Couleur→Modèle",
+   "drop option Température"
+  ],
+  "note": "réduction 24→6 : doublons supprimés, 1/3 lumières × 3 verres",
+  "options": [
+   {
+    "Modèle": [
+     "1 lumière · Transparent",
+     "3 lumières · Transparent",
+     "3 lumières · Gris fumé",
+     "1 lumière · Gris fumé",
+     "1 lumière · Ambre",
+     "3 lumières · Ambre"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-verre-091815",
+  "before": 15,
+  "after": 15,
+  "actions": [
+   "rename Couleur ×3"
+  ],
+  "note": "15 var conservées : 5 tailles × 3 couleurs réelles, assumé >12",
+  "options": [
+   {
+    "Taille": [
+     "Ø 40 cm",
+     "Ø 20 cm",
+     "Ø 25 cm",
+     "Ø 30 cm",
+     "Ø 35 cm"
+    ]
+   },
+   {
+    "Couleur": [
+     "Transparent",
+     "Ambre",
+     "Gris fumé"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "lustre-salon-led-366435",
+  "before": 14,
+  "after": 4,
+  "actions": [
+   "reduce -10",
+   "rename Format ×2",
+   "option Format→Modèle",
+   "drop option Température",
+   "drop option Taille"
+  ],
+  "note": "réduction 14→4 : valeur 110–220 V retirée, couleurs explicites seulement",
+  "options": [
+   {
+    "Modèle": [
+     "Ø 92 cm · Blanc",
+     "Ø 92 cm · Noir",
+     "Ø 75 cm · Doré",
+     "Ø 75 cm · Blanc"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "lustre-salon-led-147017",
+  "before": 108,
+  "after": 9,
+  "actions": [
+   "reduce -99",
+   "option Éclairage→Couleur",
+   "drop option Température"
+  ],
+  "note": "réduction 108→9 : doublons (N anneaux) supprimés, Éclairage=couleurs renommé Couleur",
+  "options": [
+   {
+    "Taille": [
+     "Ø 40 cm",
+     "Ø 60 cm",
+     "Ø 80 cm"
+    ]
+   },
+   {
+    "Couleur": [
+     "Blanc",
+     "Doré",
+     "Noir"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "lustre-salon-233314",
+  "before": 19,
+  "after": 4,
+  "actions": [
+   "reduce -15",
+   "rename Taille ×4",
+   "option Taille→Modèle",
+   "drop option Température"
+  ],
+  "note": "réduction 19→4 : formes A/B/C au même prix, forme A conservée",
+  "options": [
+   {
+    "Modèle": [
+     "7 lumières · Noir",
+     "13 lumières · Noir",
+     "7 lumières · Doré",
+     "13 lumières · Doré"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "lustre-salon-907106",
+  "before": 48,
+  "after": 8,
+  "actions": [
+   "reduce -40",
+   "rename Couleur ×4",
+   "rename Finition ×2",
+   "option Couleur→Lumières",
+   "drop option Température"
+  ],
+  "note": "réduction 48→8 : 24 formes codées → échelle 1/3/5/8 lumières (199→499)",
+  "options": [
+   {
+    "Lumières": [
+     "1 lumière",
+     "3 lumières",
+     "8 lumières",
+     "5 lumières"
+    ]
+   },
+   {
+    "Finition": [
+     "Doré",
+     "Noir"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "lustre-salon-led-254609",
+  "before": 15,
+  "after": 9,
+  "actions": [
+   "reduce -6",
+   "rename Couleur ×3",
+   "rename Finition ×3",
+   "option Couleur→Lumières"
+  ],
+  "note": "réduction 15→9 : 4/8/12 lumières × 3 finitions (ampoule E27 non fournie → specs)",
+  "options": [
+   {
+    "Lumières": [
+     "12 lumières",
+     "8 lumières",
+     "4 lumières"
+    ]
+   },
+   {
+    "Finition": [
+     "Doré",
+     "Noir",
+     "Noir et doré"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "lustre-salon-led-784326",
+  "before": 38,
+  "after": 6,
+  "actions": [
+   "reduce -32",
+   "rename Couleur ×6",
+   "option Couleur→Modèle",
+   "drop option Température"
+  ],
+  "note": "réduction 38→6 : 3 couleurs × 4/6 lumières, valeurs sans couleur supprimées",
+  "options": [
+   {
+    "Modèle": [
+     "Blanc · 4 lumières",
+     "Noir · 6 lumières",
+     "Blanc · 6 lumières",
+     "Doré · 6 lumières",
+     "Noir · 4 lumières",
+     "Doré · 4 lumières"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-moderne-led-noir-330664",
+  "before": 24,
+  "after": 3,
+  "actions": [
+   "reduce -21",
+   "rename Taille ×2",
+   "drop option Température"
+  ],
+  "note": "réduction 24→3 : versions noires explicites conservées (fiche = noir)",
+  "options": [
+   {
+    "Taille": [
+     "Ø 120 cm",
+     "Ø 100 cm",
+     "Ø 150 cm"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-bois-led-453740",
+  "before": 22,
+  "after": 1,
+  "actions": [
+   "reduce -21"
+  ],
+  "note": "réduction 22→1 : 22 codes sku aveugles sans photo — à re-vérifier face au listing AE",
+  "options": [
+   {
+    "Couleur": [
+     "sku3"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-effet-pierre-led-dore-960013",
+  "before": 192,
+  "after": 10,
+  "actions": [
+   "temp=3 teintes",
+   "reduce -180",
+   "hors-grille -2",
+   "rename Couleur ×3",
+   "drop option Température"
+  ],
+  "note": "réduction 192→≤12 : 8 couleurs → 3, Ø 30/80 (prix cassés) supprimés",
+  "options": [
+   {
+    "Taille": [
+     "Ø 70 cm",
+     "Ø 40 cm",
+     "Ø 50 cm",
+     "Ø 60 cm"
+    ]
+   },
+   {
+    "Couleur": [
+     "Blanc cassé",
+     "Gris",
+     "Noir mat"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-metal-dore-502141",
+  "before": 18,
+  "after": 6,
+  "actions": [
+   "reduce -12",
+   "drop option Température"
+  ],
+  "note": "réduction 18→6 : une température",
+  "options": [
+   {
+    "Taille": [
+     "Ø 55 cm",
+     "Ø 45 cm",
+     "Ø 35 cm"
+    ]
+   },
+   {
+    "Couleur": [
+     "Noir",
+     "Doré"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-metal-led-dore-081498",
+  "before": 36,
+  "after": 3,
+  "actions": [
+   "reduce -33",
+   "rename Couleur ×3",
+   "drop option Température"
+  ],
+  "note": "réduction 36→3 : formes A/B/C au même prix, forme A conservée",
+  "options": [
+   {
+    "Couleur": [
+     "Argenté",
+     "Doré",
+     "Noir et doré"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-deco-led-blanc-805304",
+  "before": 24,
+  "after": 1,
+  "actions": [
+   "reduce -23",
+   "drop option Couleur"
+  ],
+  "note": "réduction 24→1 : Ceramic 1–23 = jumeaux aveugles",
+  "options": [
+   {
+    "Taille": [
+     "4W(Max 60W)"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-deco-led-077631",
+  "before": 12,
+  "after": 3,
+  "actions": [
+   "reduce -9",
+   "rename Couleur ×3",
+   "option Couleur→Modèle",
+   "drop option Taille"
+  ],
+  "note": "réduction 12→3 : branchement plafond standard, formes A–F → 3 modèles",
+  "options": [
+   {
+    "Modèle": [
+     "Modèle C",
+     "Modèle B",
+     "Modèle A"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-deco-led-689455",
+  "before": 6,
+  "after": 3,
+  "actions": [
+   "reduce -3",
+   "rename Couleur ×3",
+   "option Couleur→Modèle"
+  ],
+  "note": "réduction 6→3 : combinations 1–3 supprimées",
+  "options": [
+   {
+    "Modèle": [
+     "Modèle A",
+     "Modèle C",
+     "Modèle B"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "lustre-statement-led-noir-950316",
+  "before": 3,
+  "after": 3,
+  "actions": [
+   "rename Couleur ×3",
+   "option Couleur→Lumières",
+   "drop option Taille"
+  ],
+  "note": "heads → lumières, option Taille=Ampoule non fournie retirée (info en specs)",
+  "options": [
+   {
+    "Lumières": [
+     "6 lumières",
+     "8 lumières",
+     "4 lumières"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-metal-led-dore-701414",
+  "before": 40,
+  "after": 10,
+  "actions": [
+   "reduce -30",
+   "rename Couleur ×2",
+   "drop option Température"
+  ],
+  "note": "réduction 40→10 : une température, matières traduites",
+  "options": [
+   {
+    "Taille": [
+     "Ø 40 cm",
+     "Ø 50 cm",
+     "Ø 100 cm",
+     "Ø 60 cm",
+     "Ø 80 cm"
+    ]
+   },
+   {
+    "Couleur": [
+     "Papier DuPont",
+     "Soie unie"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-metal-led-dore-952116",
+  "before": 24,
+  "after": 1,
+  "actions": [
+   "reduce -23",
+   "drop option Couleur"
+  ],
+  "note": "réduction 24→1 : Ceramic 1–20 + canopy = jumeaux aveugles",
+  "options": [
+   {
+    "Taille": [
+     "4W(Max 60W)"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-metal-led-dore-843772",
+  "before": 33,
+  "after": 4,
+  "actions": [
+   "reduce -29",
+   "drop option Température",
+   "drop option Couleur"
+  ],
+  "note": "réduction 33→4 : doublons anneaux supprimés, Couleur=Doré unique retirée",
+  "options": [
+   {
+    "Taille": [
+     "Ø 50 cm",
+     "Ø 40 cm",
+     "Ø 60 cm",
+     "Ø 80 cm"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-metal-noir-dore-361680",
+  "before": 6,
+  "after": 6,
+  "actions": [
+   "rename Couleur ×6",
+   "option Couleur→Modèle",
+   "drop option Température"
+  ],
+  "note": "codes 4T/6T/8T → lumières, option Not with Bulb retirée (info specs)",
+  "options": [
+   {
+    "Modèle": [
+     "Doré · 4 lumières",
+     "Noir · 6 lumières",
+     "Doré · 6 lumières",
+     "Noir · 8 lumières",
+     "Doré · 8 lumières",
+     "Noir · 4 lumières"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "plafonnier-led-565566",
+  "before": 2,
+  "after": 2,
+  "actions": [
+   "rename Ampoule ×1"
+  ],
+  "note": "",
+  "options": [
+   {
+    "Couleur": [
+     "Cuivre",
+     "Chrome"
+    ]
+   },
+   {
+    "Ampoule": [
+     "Ampoule non fournie"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "lustre-anneau-led-led-799451",
+  "before": 81,
+  "after": 9,
+  "actions": [
+   "reduce -72",
+   "drop option Température"
+  ],
+  "note": "réduction 81→9 : prix unique 199, doublons (N anneaux) supprimés",
+  "options": [
+   {
+    "Taille": [
+     "Ø 40 cm",
+     "Ø 60 cm",
+     "Ø 80 cm"
+    ]
+   },
+   {
+    "Couleur": [
+     "Blanc",
+     "Doré",
+     "Noir"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-effet-pierre-led-445794",
+  "before": 12,
+  "after": 4,
+  "actions": [
+   "reduce -8",
+   "rename Couleur ×4",
+   "drop option Température"
+  ],
+  "note": "réduction 12→4 : une température, libellés FR",
+  "options": [
+   {
+    "Couleur": [
+     "Bois foncé · forme B",
+     "Bois · forme B",
+     "Bois · forme A",
+     "Bois foncé · forme A"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-effet-pierre-led-147607",
+  "before": 40,
+  "after": 3,
+  "actions": [
+   "reduce -37",
+   "rename Couleur ×3",
+   "option Couleur→Forme",
+   "drop option Température"
+  ],
+  "note": "réduction 40→3 : 20 formes codées → 3",
+  "options": [
+   {
+    "Forme": [
+     "Forme C",
+     "Forme B",
+     "Forme A"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-verre-446435",
+  "before": 6,
+  "after": 3,
+  "actions": [
+   "reduce -3",
+   "drop option Format"
+  ],
+  "note": "110V supprimé (France = 220V)",
+  "options": [
+   {
+    "Taille": [
+     "Ø 20 cm · Transparent",
+     "Ø 20 cm · Ambre",
+     "Ø 20 cm · Gris fumé"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-verre-noir-201424",
+  "before": 13,
+  "after": 1,
+  "actions": [
+   "reduce -12",
+   "drop option Couleur"
+  ],
+  "note": "réduction 13→1 : 13 noms fantaisie sans photo — à re-vérifier face au listing AE",
+  "options": [
+   {
+    "Température": [
+     "Blanc chaud"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-verre-651675",
+  "before": 20,
+  "after": 9,
+  "actions": [
+   "reduce -11",
+   "option Couleur→Modèle"
+  ],
+  "note": "réduction 20→9 : paires A/B (249) et plains ambigus supprimés",
+  "options": [
+   {
+    "Modèle": [
+     "Ø 20 cm · Argenté",
+     "Ø 25 cm · Argenté",
+     "Ø 30 cm · Argenté",
+     "Ø 20 cm · Gris fumé",
+     "Ø 25 cm · Gris fumé",
+     "Ø 30 cm · Gris fumé",
+     "Ø 20 cm · Cognac",
+     "Ø 25 cm · Cognac",
+     "Ø 30 cm · Cognac"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-verre-814554",
+  "before": 15,
+  "after": 3,
+  "actions": [
+   "reduce -12",
+   "rename Couleur ×3",
+   "drop option Température"
+  ],
+  "note": "réduction 15→3 : jumeaux numérotés supprimés",
+  "options": [
+   {
+    "Couleur": [
+     "Vert",
+     "Brun",
+     "Blanc"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "plafonnier-led-led-442025",
+  "before": 2,
+  "after": 1,
+  "actions": [
+   "reduce -1"
+  ],
+  "note": "code 9TPGY-JS indéchiffrable supprimé",
+  "options": [
+   {
+    "Couleur": [
+     "Ø 65 cm"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "plafonnier-led-led-922186",
+  "before": 15,
+  "after": 4,
+  "actions": [
+   "reduce -11",
+   "rename Couleur ×4",
+   "option Couleur→Modèle",
+   "drop option Température"
+  ],
+  "note": "réduction 15→4 : valeur inquiry supprimée, Balls → globes",
+  "options": [
+   {
+    "Modèle": [
+     "10 globes",
+     "5 globes",
+     "15 globes",
+     "20 globes"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "plafonnier-led-led-728204",
+  "before": 96,
+  "after": 8,
+  "actions": [
+   "reduce -88",
+   "rename Taille ×8",
+   "drop option Température"
+  ],
+  "note": "réduction 96→8 : Blanc + Noyer × 4 longueurs, valeurs ambiguës supprimées",
+  "options": [
+   {
+    "Taille": [
+     "Ø 60 cm · Blanc",
+     "Ø 150 cm · Blanc",
+     "Ø 100 cm · Blanc",
+     "Ø 60 cm · Noyer",
+     "Ø 200 cm · Noyer",
+     "Ø 100 cm · Noyer",
+     "Ø 150 cm · Noyer",
+     "Ø 200 cm · Blanc"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "plafonnier-led-led-465027",
+  "before": 8,
+  "after": 2,
+  "actions": [
+   "reduce -6",
+   "drop option Température"
+  ],
+  "note": "réduction 8→2 : une température (warm led / Dimmable by Remote supprimés)",
+  "options": [
+   {
+    "Couleur": [
+     "Blanc",
+     "Noir"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "plafonnier-led-992600",
+  "before": 9,
+  "after": 9,
+  "actions": [
+   "rename Couleur ×9",
+   "option Couleur→Modèle"
+  ],
+  "note": "heads → lumières (9 var conservées)",
+  "options": [
+   {
+    "Modèle": [
+     "Noir · 8 lumières",
+     "Noir · 6 lumières",
+     "Noir · 4 lumières",
+     "Doré · 4 lumières",
+     "Blanc · 8 lumières",
+     "Blanc · 6 lumières",
+     "Blanc · 4 lumières",
+     "Doré · 8 lumières",
+     "Doré · 6 lumières"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-bois-led-245113",
+  "before": 1,
+  "after": 1,
+  "actions": [
+   "drop option Température"
+  ],
+  "note": "option 3000 K single retirée",
+  "options": [
+   {
+    "Taille": [
+     "Ø 17 cm · Noyer"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-rotin-dore-435189",
+  "before": 2,
+  "after": 2,
+  "actions": [
+   "rename Température ×2",
+   "option Température→Éclairage"
+  ],
+  "note": "deux versions réelles (LED intégrée vs E27) clarifiées",
+  "options": [
+   {
+    "Éclairage": [
+     "LED 3000 K (blanc chaud)",
+     "Ampoule non fournie (E27)"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-rotin-469688",
+  "before": 18,
+  "after": 3,
+  "actions": [
+   "reduce -15",
+   "rename Couleur ×3",
+   "option Couleur→Modèle",
+   "drop option Température"
+  ],
+  "note": "réduction 18→3 : codes A1–C2 → 3 modèles",
+  "options": [
+   {
+    "Modèle": [
+     "Modèle A",
+     "Modèle B",
+     "Modèle C"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-rotin-607504",
+  "before": 4,
+  "after": 4,
+  "actions": [
+   "rename Couleur ×4",
+   "option Couleur→Taille",
+   "drop option Température"
+  ],
+  "note": "codes 4040/4040BK → dimensions FR (BK = noir), ampoule E27 → specs",
+  "options": [
+   {
+    "Taille": [
+     "40 × 40 cm",
+     "40 × 19 cm",
+     "25 × 50 cm",
+     "40 × 40 cm · Noir"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-rotin-272937",
+  "before": 15,
+  "after": 3,
+  "actions": [
+   "reduce -12",
+   "rename Couleur ×3",
+   "option Couleur→Modèle"
+  ],
+  "note": "réduction 15→3 : codes A1–C5 → 3 modèles",
+  "options": [
+   {
+    "Modèle": [
+     "Modèle A",
+     "Modèle B",
+     "Modèle C"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-rotin-led-535545",
+  "before": 152,
+  "after": 5,
+  "actions": [
+   "reduce -147",
+   "drop option Température",
+   "drop option Éclairage"
+  ],
+  "note": "réduction 152→5 : Lampadaire + versions Tissu (autres objets) et doublons supprimés",
+  "options": [
+   {
+    "Taille": [
+     "Ø 60 cm",
+     "Ø 80 cm",
+     "Ø 100 cm",
+     "Ø 150 cm",
+     "Ø 120 cm"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-rotin-477244",
+  "before": 24,
+  "after": 6,
+  "actions": [
+   "reduce -18",
+   "rename Taille ×6",
+   "drop option Température"
+  ],
+  "note": "réduction 24→6 : une température, suffixes D/DXXcm nettoyés",
+  "options": [
+   {
+    "Taille": [
+     "Ø 40 cm · Beige",
+     "Ø 60 cm · Chanvre",
+     "Ø 50 cm · Beige",
+     "Ø 60 cm · Beige",
+     "Ø 40 cm · Chanvre",
+     "Ø 50 cm · Chanvre"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-bois-led-934110",
+  "before": 3,
+  "after": 3,
+  "actions": [
+   "rename Couleur ×3",
+   "option Couleur→Modèle",
+   "drop option Température"
+  ],
+  "note": "libellés FR, option Température single retirée",
+  "options": [
+   {
+    "Modèle": [
+     "Blanc froid 6000 K",
+     "Travertin",
+     "Blanc chaud 3000 K"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-bois-led-334133",
+  "before": 2,
+  "after": 2,
+  "actions": [
+   "rename Éclairage ×1",
+   "option Éclairage→Finition",
+   "drop option Température"
+  ],
+  "note": "log Bois → Bois brut",
+  "options": [
+   {
+    "Finition": [
+     "Bois brut",
+     "Noyer"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-bois-led-30cm-886635",
+  "before": 23,
+  "after": 1,
+  "actions": [
+   "reduce -22",
+   "drop option Couleur"
+  ],
+  "note": "réduction 23→1 : Blanc1–21 = jumeaux aveugles",
+  "options": [
+   {
+    "Taille": [
+     "4W(Max100W)"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-bois-led-989306",
+  "before": 15,
+  "after": 3,
+  "actions": [
+   "reduce -12",
+   "drop option Température"
+  ],
+  "note": "réduction 15→3 : une température",
+  "options": [
+   {
+    "Taille": [
+     "Ø 60 cm",
+     "Ø 80 cm",
+     "Ø 40 cm"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-bois-led-582321",
+  "before": 15,
+  "after": 3,
+  "actions": [
+   "reduce -12",
+   "drop option Température"
+  ],
+  "note": "réduction 15→3 : une température",
+  "options": [
+   {
+    "Taille": [
+     "Ø 80 cm",
+     "Ø 60 cm",
+     "Ø 40 cm"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-bois-832012",
+  "before": 64,
+  "after": 3,
+  "actions": [
+   "reduce -61",
+   "rename Couleur ×3",
+   "drop option Taille",
+   "drop option Température et entrepôt"
+  ],
+  "note": "réduction 64→3 : 110V supprimé (France = 220V), bases nues retirées, 3 teintes conservé",
+  "options": [
+   {
+    "Couleur": [
+     "Gris fumé",
+     "Ambre",
+     "Transparent"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-rotin-443915",
+  "before": 14,
+  "after": 7,
+  "actions": [
+   "reduce -7",
+   "rename Taille ×7",
+   "drop option Température"
+  ],
+  "note": "réduction 14→7 : deux couleurs réelles, formes codées dépliées",
+  "options": [
+   {
+    "Taille": [
+     "Ø 30 cm · Kaki",
+     "Ø 40 cm · Kaki",
+     "Ø 50 cm · Noir",
+     "Ø 60 cm · Noir",
+     "Ø 40 cm · Noir",
+     "Ø 50 cm · Kaki",
+     "Ø 60 cm · Kaki"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-bambou-led-136557",
+  "before": 14,
+  "after": 7,
+  "actions": [
+   "reduce -7",
+   "drop option Couleur",
+   "drop option Température"
+  ],
+  "note": "réduction 14→7 : version plafonnier retirée (la fiche vend une suspension)",
+  "options": [
+   {
+    "Taille": [
+     "Ø 75 cm",
+     "Ø 65 cm",
+     "Ø 100 cm",
+     "Ø 85 cm",
+     "Ø 55 cm",
+     "Ø 40 cm",
+     "Ø 45 cm"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-bambou-280004",
+  "before": 18,
+  "after": 10,
+  "actions": [
+   "reduce -8",
+   "rename Éclairage ×2",
+   "option Éclairage→Couleur",
+   "drop option Température"
+  ],
+  "note": "réduction 18→10 : line → couleur du câble, doublons (20 cm A/D) supprimés",
+  "options": [
+   {
+    "Taille": [
+     "Ø 20 cm",
+     "Ø 30 cm",
+     "Ø 60 cm",
+     "Ø 50 cm",
+     "Ø 38 cm"
+    ]
+   },
+   {
+    "Couleur": [
+     "Blanc",
+     "Noir"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-rotin-led-420069",
+  "before": 21,
+  "after": 4,
+  "actions": [
+   "reduce -17"
+  ],
+  "note": "réduction 21→4 : paliers de prix réels 199/249/299/399",
+  "options": [
+   {
+    "Taille": [
+     "Ø 35 cm",
+     "Ø 50 cm",
+     "Ø 65 cm",
+     "Ø 40 cm"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-bois-led-121862",
+  "before": 2,
+  "after": 1,
+  "actions": [
+   "reduce -1",
+   "drop option Taille"
+  ],
+  "note": "doublon Blanc/Blanc 1 réduit, option 4w(max60w) retirée",
+  "options": [
+   {
+    "Couleur": [
+     "Blanc"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-bambou-942503",
+  "before": 38,
+  "after": 5,
+  "actions": [
+   "reduce -33",
+   "drop option Température"
+  ],
+  "note": "réduction 38→5 : Lampadaire + Tissu supprimés, paliers 199→399",
+  "options": [
+   {
+    "Taille": [
+     "Ø 60 cm",
+     "Ø 80 cm",
+     "Ø 120 cm",
+     "Ø 150 cm",
+     "Ø 100 cm"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-rotin-605780",
+  "before": 46,
+  "after": 5,
+  "actions": [
+   "reduce -41",
+   "drop option Température"
+  ],
+  "note": "réduction 46→5 : 23 combos forme/couleur → 5 diamètres propres",
+  "options": [
+   {
+    "Taille": [
+     "Ø 60 cm",
+     "Ø 65 cm",
+     "Ø 35 cm",
+     "Ø 40 cm",
+     "Ø 50 cm"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ },
+ {
+  "handle": "suspension-rotin-led-761433",
+  "before": 28,
+  "after": 4,
+  "actions": [
+   "reduce -24",
+   "drop option Température"
+  ],
+  "note": "réduction 28→4 : doublons (NN CM 1) supprimés",
+  "options": [
+   {
+    "Taille": [
+     "Ø 30 cm",
+     "Ø 50 cm",
+     "Ø 40 cm",
+     "Ø 60 cm"
+    ]
+   }
+  ],
+  "nongrid_prices": []
+ }
+]
