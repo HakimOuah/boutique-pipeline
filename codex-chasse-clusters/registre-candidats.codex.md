@@ -2,9 +2,9 @@
 
 Ce registre est la source de vérité exclusive de l'expérience Codex. Le registre historique `../registre-candidats.md` est lu pour l'anti-doublon, jamais modifié.
 
-**Objectif initial : 20 dossiers marché qualifiés (`RETENU_NIVEAU_2_ECO` ou `RETENU_MARCHE_A_SOURCER`)**  
-**Compteur dérivé cumulé : 25 dossiers distincts (17 run familles + 8 run multi-marchés)**  
-**Sous-totaux : 0 complet · 25 à sourcer manuellement**  
+**Objectif initial : 20 dossiers marché qualifiés (`RETENU_NIVEAU_2_ECO` ou `RETENU_MARCHE_A_SOURCER`)**
+**Compteur dérivé cumulé : 25 dossiers distincts (17 run familles + 8 run multi-marchés)**
+**Sous-totaux : 0 complet · 25 à sourcer manuellement**
 **Statut : run `20260720-200609` terminé avec un radar de 30 lignes (8 retenues · 16 à creuser · 6 exclues)**
 
 ## Candidats retenus
@@ -400,3 +400,18 @@ concurrent facultatif, concept/listing/revue humaine maintenus.
 |---|---|---|---:|---:|---|
 | 2026-08-15 18:13 CEST | 20260815-181328 | Six univers cadrés, volumes partiels et 180 prix relevés | 5 à compléter + 1 STOP historique | 0 | Réparer les graines SEMrush/Google exactes, puis étude profonde de trois survivantes max |
 | 2026-08-15 19:13 CEST | 20260815-181328 | Consolidation terminale des six univers | 5 STOP + 1 REPARER_AVANT ; 0 retenu | 0 | Run clos ; U2 seulement sur preuve fournisseur exacte |
+
+## Requalification ciblée Q4 — `20260824-232503`
+
+- Périmètre explicitement rouvert par Hakim : déshumidificateur, couverture lestée, studio créateur de contenu, arts de la table bois.
+- Preuves : SEMrush France, concurrence publique datée et AliExpress Open Platform en lecture seule.
+- Résultat agent : **0 `TECHNICAL_PASS`, 1 `TECHNICAL_WATCH`, 3 `TECHNICAL_FAIL`**.
+- Décision humaine : `PENDING_HAKIM` ; aucun `GO_FINAL`, `WATCH_FINAL` ou `NO_GO_FINAL` attribué.
+- Rapport : [évaluation finale Q4](runs/20260824-232503-q4-validation/final-20260824-232503.md).
+
+| Piste | Demande | Preuve fournisseur décisive | Verdict agent | Condition de reprise |
+|---|---|---|---|---|
+| Déshumidificateur | 27,1 k FR sur la tête | 12 L rendu 116,52 EUR depuis France, mais 1 vente et boutique 4,0–4,3 | `TECHNICAL_WATCH` | fournisseur de remplacement, conformité/specs/SAV et backup exact |
+| Couverture lestée | 27,1 k FR sur la tête | adulte 7 kg rendu 355,60 EUR ; l'ancien 82,99 EUR était 3,2 kg | `TECHNICAL_FAIL` | SKU adulte exact radicalement moins cher et conforme |
+| Studio créateur | 34,11 k bruts hétérogènes | ring light non livrable ; un micro low-ticket isolé | `TECHNICAL_FAIL` | univers 200 produits, 3–5 familles et deux fournisseurs chacune |
+| Arts de la table bois | 48,46 k bruts pollués | planche générique rendue 41,38 EUR, stock 3 | `TECHNICAL_FAIL` | sous-univers propre, valeur ajoutée et profondeur fournisseur |

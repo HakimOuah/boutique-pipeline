@@ -2,7 +2,17 @@
 
 Cet espace contient l'adaptation Codex de la boucle volume-first. Il est volontairement séparé du dispositif Claude afin de permettre une comparaison honnête des résultats.
 
-## Résultat du run actif
+## Dernière requalification ciblée
+
+Le run `20260824-232503` a repris les quatre pistes Q4 explicitement validées par Hakim : **un `TECHNICAL_WATCH`, trois `TECHNICAL_FAIL`, zéro décision humaine attribuée**. Le seul travail recommandé est une recherche fournisseur de remplacement bornée sur le déshumidificateur 12–20 L.
+
+- [Évaluation finale Q4](runs/20260824-232503-q4-validation/final-20260824-232503.md)
+- [État isolé du run](runs/20260824-232503-q4-validation/run-state.json)
+- [Dossiers et preuves](runs/20260824-232503-q4-validation/)
+
+Le `run-state.json` racine conserve volontairement l'état terminal détaillé du run catalogue-volume précédent ; la requalification Q4 possède son état isolé afin de ne pas écraser cet historique.
+
+## Run catalogue-volume précédent
 
 Le run `20260815-181328` a déroulé six univers catalogue-volume apportés par Hakim jusqu'à leur gate terminal : **cinq STOP, un `REPARER_AVANT_SOURCE_EXACTE`, zéro candidat retenu**. Les seuils n'ont pas été abaissés.
 
