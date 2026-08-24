@@ -6,6 +6,8 @@
 
 **Révision :** 2026-08-25, après apport d'une fiche AliExpress moins chère par Hakim.
 
+**Deep dive :** [catalogue, clusters et fournisseurs approfondis](../deep-dive-couverture-lestee/final-couverture-lestee-deep-dive-20260825.md). La mesure live des longues traînes SEMrush par poids/taille reste bloquée par la limite de sessions.
+
 ## 1. Correction du diagnostic
 
 Le précédent `TECHNICAL_FAIL` généralisait à tort le coût d'un seul mauvais fournisseur : un 7 kg expédié de Chine à 355,60 EUR rendu. La nouvelle fiche prouve qu'une couverture lestée adulte comparable peut partir d'Allemagne, fret France gratuit, à un coût très inférieur.

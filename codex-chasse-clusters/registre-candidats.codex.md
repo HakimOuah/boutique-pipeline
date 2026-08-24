@@ -415,3 +415,11 @@ concurrent facultatif, concept/listing/revue humaine maintenus.
 | Couverture lestée | 27,1 k FR sur la tête | Good Nite 8 kg rendu 59,75 EUR depuis Allemagne ; 6 kg 48,26 EUR ; ancien fournisseur écarté | `TECHNICAL_WATCH` | matière/conformité, retours, contrôle qualité, backup européen et CPC par poids/taille |
 | Studio créateur | 34,11 k bruts hétérogènes | ring light non livrable ; un micro low-ticket isolé | `TECHNICAL_FAIL` | univers 200 produits, 3–5 familles et deux fournisseurs chacune |
 | Arts de la table bois | 48,46 k bruts pollués | planche générique rendue 41,38 EUR, stock 3 | `TECHNICAL_FAIL` | sous-univers propre, valeur ajoutée et profondeur fournisseur |
+
+### Reprise deep dive couverture lestée — 2026-08-25
+
+- Concurrent de référence : 48 fiches produit, 11 collections thématiques plus `frontpage`, et une matrice 3–12 kg observées via les sitemaps/endpoints publics.
+- Fournisseurs : 4 fiches exactes contrôlées ; 2 produits réellement lestés, 1 seul économiquement plausible, 0 backup européen exact.
+- SEMrush : tête et synonymes conservés ; longue traîne par poids/taille `MANQUANT` après trois échecs liés à la limite de sessions.
+- Verdict inchangé : `TECHNICAL_WATCH`, décision humaine `PENDING_HAKIM`.
+- Rapport : [deep dive couverture lestée](runs/20260824-232503-q4-validation/deep-dive-couverture-lestee/final-couverture-lestee-deep-dive-20260825.md).

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "parent_run_id": "20260824-232503",
+  "scope": "deep-dive-couverture-lestee",
+  "status": "BLOCKED",
+  "updated_at": "2026-08-25T01:24:00+02:00",
+  "completed": [
+    "competitor_catalog_map",
+    "supplier_exact_audit",
+    "keyword_collection_map",
+    "product_safety_and_compliance_review",
+    "economics_sensitivity"
+  ],
+  "blocked_stage": "semrush_long_tail_live_measurement",
+  "blocker": "SEMrush reports too many active sessions; three browser interaction attempts could not continue the session, and local snapshots do not contain weight/size long tails.",
+  "next_action": "When the SEMrush session is available, measure and export the prepared weight, size, material, use and accessory clusters in db=fr; clean overlap and update the final verdict. In parallel, continue only with exact AliExpress product IDs for a European 6-8kg backup.",
+  "mutations_performed": ["local_research_artifacts"],
+  "mutations_not_performed": ["Shopify", "DSers", "AliExpress cart/order/message", "Google Ads", "Merchant Center", "publication"]
+}

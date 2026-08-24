@@ -2,6 +2,13 @@
 
 Cet espace contient l'adaptation Codex de la boucle volume-first. Il est volontairement séparé du dispositif Claude afin de permettre une comparaison honnête des résultats.
 
+## Deep dive couverture lestée — reprise du 25 août
+
+Le catalogue concurrent, la carte complète des clusters à mesurer et quatre fiches AliExpress exactes ont été audités. Le verdict reste **`TECHNICAL_WATCH`** : une gamme adulte 4/6/8 kg est économiquement plausible, mais un seul fournisseur viable est prouvé. La longue traîne SEMrush par poids/taille reste `MANQUANT` car la session affiche trop de connexions actives et trois tentatives de reprise n'ont pas pu poursuivre l'interface.
+
+- [Rapport deep dive](runs/20260824-232503-q4-validation/deep-dive-couverture-lestee/final-couverture-lestee-deep-dive-20260825.md)
+- [État de reprise](runs/20260824-232503-q4-validation/deep-dive-couverture-lestee/run-state.json)
+
 ## Dernière requalification ciblée
 
 Le run `20260824-232503`, révisé le 2026-08-25 après un nouvel apport fournisseur de Hakim, a repris les quatre pistes Q4 : **deux `TECHNICAL_WATCH`, deux `TECHNICAL_FAIL`, zéro décision humaine attribuée**. La couverture lestée devient la priorité de requalification : un 8 kg rendu à 59,75 EUR depuis l'Allemagne rend l'économie plausible, sans encore prouver conformité, qualité, retours ni backup. Le déshumidificateur reste la seconde piste.
