@@ -21,6 +21,7 @@
 - **Copy Fable (24/08 soir)** : tournures défensives retirées (Notre histoire, FAQ, paiement, CGV, livraison, 120 fiches). Plus de « ce que nous ne sommes pas », « usine artisanale fictive », AliExpress, Google Pay en négatif.
 - **OH Ventures** : uniquement dans les policies (CGV, confidentialité, mentions légales). Footer + pages CMS au nom de la marque (adresse / e-mail / tél conservés).
 - **Thème Full Stack** (`copie-de-fullstack-2-3`) : tokens papier `#F6F3EC` / charbon `#24211B` / ambre `#C08A2D`, Young Serif + Instrument Sans, logos, homepage UNIVERS. Démos avis / Trustpilot retirées. Gabarit `templates/page.faq.json` ajouté ; page FAQ en suffixe `faq`.
+- **SEO collections (24/08 soir)** : 14 collections (description HTML + `seo.title` / `seo.description`) — mots-clés FR par matière (`suspension bambou`, `lustre salon`, `plafonnier`, `lustre cristal` en « effet cristal », etc.). Template Full Stack `templates/collection.json` : Lorem Ipsum remplacé par `{{ closest.collection.description }}`. Helio / UNIVERS non touchés. Source : `shopify/collections-seo.json`.
 
 ## Prix (règle maison)
 
