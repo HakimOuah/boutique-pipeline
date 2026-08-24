@@ -10,7 +10,7 @@ Tu travailles sur LUMIÈRE MATIÈRE uniquement (pas Orysbain).
 ## Contexte
 
 Boutique France dropshipping OH Ventures — mode **UNIVERS** : lustres & suspensions, organisée par **matière**.
-Domaine retenu (24/08) : **lumierematiere.fr** (racheté, Workspace en cours). Le `.com` existe aussi, identité boutique = `.fr`. Shopify pas encore créé.
+Domaines : **lumierematiere.fr** (identité) / `.com` aussi acheté. Shopify créé le 24/08 : `nzefxg-gg.myshopify.com` (admin https://admin.shopify.com/store/nzefxg-gg). Toujours nommé « Ma boutique » dans l’admin — à renommer.
 Repo de vérité : `/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/` (commit + push sur ce repo).
 Hub parent : `/Users/Hakim/Documents/Boutiques drop/` (règles dans CLAUDE.md).
 
@@ -88,30 +88,27 @@ Livraison (gitignorée) : `catalogues/lumierematiere/livraisons-visuels-codex/`
 
 FAIT :
 - Catalogue 121 SKU + URLs AE uniques + HTML VOC matière-first
-- Pages légales / FAQ / histoire / contact (texte distinct Orysbain)
-- Branding + VOC
-- Sources AE locales 121/121
-- Brief Codex + **livraison visuels complète** (brand + 13 covers + 605 PDP)
-- Inventaire visuels 21/08 + **QA échantillon** (covers, homepage, 21 SKU)
-- **Spec homepage UNIVERS** Horizon (6 tuiles matières + 3 pièce/forme, copy collable)
-- Ref UNIVERS Mille et une Nuisette notée pour structure homepage / profondeur
+- Pages légales / FAQ / histoire / contact collées dans Shopify
+- Policies CGV / retours / livraison / mentions (confidentialité = gestion auto Shopify, à désactiver)
+- Branding + VOC + visuels Codex + QA
+- Spec homepage UNIVERS
+- Shopify `nzefxg-gg` : 121 produits, 14 collections, menus, thème UNIVERS **non publié**
+- LM-086 DRAFT sans images
 
 PAS FAIT :
-- Domaine `.fr` + Workspace : en cours. Création Shopify (Hakim)
-- Coller pages policies + monter le thème selon la spec
-- Import DSers / mapping variantes (privilégier UE) — **exclure les 5 JPEG LM-086**
-- Upload images KEEP (+ RETOUCH day one)
-- Retouches visuelles ciblées (covers salon/plafonniers/bois/verre/métal, home-table, LM-034) — pas de regen 605
+- Hakim : renommer boutique, adresse 47 rue Vivienne, désactiver confidentialité auto, **prévisualiser puis publier** le thème UNIVERS
+- Brancher lumierematiere.fr
+- DSers mapping variantes UE
 - GMC / Google Ads
-- Vérifier adhésion CM2C pour lumierematiere.fr
-- Élargissement catalogue type ref (~profondeur) — plus tard
+- CM2C pour lumierematiere.fr
+- Élargissement catalogue — plus tard
 
 ## Ta mission dans ce chat
 
 1. Ne travailler QUE Lumière Matière.
 2. Visuels Codex = livrés ; QA faite. Ne pas régénérer en masse. Retouches ciblées seulement si Hakim le demande (voir QA : LM-086 REJECT, 9 RETOUCH).
 3. Spec homepage UNIVERS écrite : coller sur Horizon **après** création boutique. Ne pas improviser une landing one-product.
-4. Prochaine balle dans le camp Hakim : domaines + boutique Shopify. Ensuite : import DSers (hors LM-086 images) + montage spec.
+4. Prochaine balle : Hakim prévisualise le thème UNIVERS (`?preview_theme_id=186708066640`) puis publie s’il valide. DSers ensuite.
 5. Toute modif durable → commit + push dans `boutique-pipeline` (ne pas committer les JPEG sources/livraisons gitignorés sauf changement explicite de politique).
 
 Réponds d’abord par un point d’étape court : prêt / en cours / bloqué, puis propose la prochaine action concrète.
