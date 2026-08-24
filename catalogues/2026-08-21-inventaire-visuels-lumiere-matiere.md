@@ -87,13 +87,13 @@ Débloqué : plus d’attente génération visuels pour uploader (quand Shopify 
 
 Toujours bloqué côté boutique :
 
-1. Achat domaines `lumierematiere.fr` / `.com` (Hakim).
+1. Domaine retenu : `lumierematiere.com` (acheté 24/08). Pas le `.fr`.
 2. Création Shopify + thème UNIVERS (blocs collections matières, pas one-product).
 3. Coller pages `catalogues/lumierematiere/pages/`.
 4. Import DSers + mapping variantes (privilégier UE).
 5. Upload images (script ou glisser g1→g5).
 6. GMC / Ads.
-7. Vérifier adhésion CM2C pour `lumierematiere.fr`.
+7. Vérifier adhésion CM2C pour `lumierematiere.com`.
 
 Élargissement catalogue type Mille et une Nuisette (~profondeur) : plus tard, pas maintenant.
 

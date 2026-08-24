@@ -15,12 +15,12 @@ En jours ouvrés (lundi–vendredi) :
 - **Ensemble : 7 à 17 jours**
 
 Heure limite pour un départ de traitement le jour ouvré en cours : **16h00, heure de Paris**.  
-Plus d'infos : [Livraison](https://lumierematiere.fr/policies/shipping-policy).
+Plus d'infos : [Livraison](https://lumierematiere.com/policies/shipping-policy).
 
 ### Offrez-vous les frais de port ?
 
 Oui — **port offert** en France métropolitaine, quel que soit le montant du panier.  
-[Politique de livraison](https://lumierematiere.fr/policies/shipping-policy).
+[Politique de livraison](https://lumierematiere.com/policies/shipping-policy).
 
 ### Où se trouve Lumière Matière ?
 
@@ -48,16 +48,16 @@ Nous nommons la matière visible sans sur-promettre. « Effet cristal », rotin,
 
 ### Colis abîmé ou pièce cassée à l'ouverture ?
 
-Ouvrez dès réception, photographiez, écrivez à [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr). Nous traitons casse transport et défaut sans frais de retour pour vous, dans le cadre de la [politique de retours](https://lumierematiere.fr/policies/refund-policy).
+Ouvrez dès réception, photographiez, écrivez à [contact@lumierematiere.com](mailto:contact@lumierematiere.com). Nous traitons casse transport et défaut sans frais de retour pour vous, dans le cadre de la [politique de retours](https://lumierematiere.com/policies/refund-policy).
 
 ### Puis-je annuler après paiement ?
 
-Oui pendant **24 heures**, si la préparation n'a pas démarré. Mail : [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr).
+Oui pendant **24 heures**, si la préparation n'a pas démarré. Mail : [contact@lumierematiere.com](mailto:contact@lumierematiere.com).
 
 ### Comment fonctionnent les retours ?
 
 **30 jours** après réception pour un retour sous conditions (au-delà des **14 jours** légaux de rétractation).  
-Détail : [Retours & remboursements](https://lumierematiere.fr/policies/refund-policy).
+Détail : [Retours & remboursements](https://lumierematiere.com/policies/refund-policy).
 
 ### Délai pour revoir l'argent sur mon compte ?
 
@@ -77,21 +77,21 @@ Non — vente **exclusivement en ligne**.
 
 ### Achats pour un projet pro (café, agence) ?
 
-Possible : décrivez le besoin à [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr).
+Possible : décrivez le besoin à [contact@lumierematiere.com](mailto:contact@lumierematiere.com).
 
 ### Échanger contre un autre modèle / une autre matière ?
 
-Oui via le SAV, selon stocks — voir [retours](https://lumierematiere.fr/policies/refund-policy).
+Oui via le SAV, selon stocks — voir [retours](https://lumierematiere.com/policies/refund-policy).
 
 ### Suivi du colis ?
 
-E-mail de tracking à l'expédition + suivi depuis le [compte](https://lumierematiere.fr/account) si créé.
+E-mail de tracking à l'expédition + suivi depuis le [compte](https://lumierematiere.com/account) si créé.
 
 ### Contacter l'équipe ?
 
-- [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr)
+- [contact@lumierematiere.com](mailto:contact@lumierematiere.com)
 - +33 7 56 82 80 94
-- [Page contact](https://lumierematiere.fr/pages/contact)
+- [Page contact](https://lumierematiere.com/pages/contact)
 - Lun–ven **10h00–18h00** (heure de Paris)
 - Réponse sous **1 à 2 jours ouvrés**
 

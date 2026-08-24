@@ -2,7 +2,7 @@
 
 Dernière mise à jour : 20 août 2026
 
-Modalités de règlement sur **lumierematiere.fr**.
+Modalités de règlement sur **lumierematiere.com**.
 
 ## Modes de paiement
 
@@ -21,7 +21,7 @@ Paiement intégral à la commande. Pas d'expédition sans validation du paiement
 
 ## Affichage des prix
 
-Prix TTC en euros. Port offert en France métropolitaine ([expédition](https://lumierematiere.fr/policies/shipping-policy)). Le détail taxes / totaux apparaît avant validation.
+Prix TTC en euros. Port offert en France métropolitaine ([expédition](https://lumierematiere.com/policies/shipping-policy)). Le détail taxes / totaux apparaît avant validation.
 
 ## Entité de facturation
 
@@ -33,7 +33,7 @@ HTTPS + passerelle de paiement sécurisée. Aucun stockage de numéro de carte c
 
 ## Remboursements / contestations
 
-Selon la [politique de retours](https://lumierematiere.fr/policies/refund-policy). Passez d'abord par [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr) avant d'engager une procédure auprès de votre banque ; les litiges de paiement abusifs pourront être contestés.
+Selon la [politique de retours](https://lumierematiere.com/policies/refund-policy). Passez d'abord par [contact@lumierematiere.com](mailto:contact@lumierematiere.com) avant d'engager une procédure auprès de votre banque ; les litiges de paiement abusifs pourront être contestés.
 
 ## Fraude
 
@@ -44,6 +44,6 @@ Droit de bloquer ou d'annuler une commande douteuse ; vérification d'identité 
 - **Lumière Matière** — marque d'**OH Ventures** (SASU)
 - 47 rue Vivienne, 75002 Paris, France
 - SIRET 10315725100010 · TVA FR55103157251
-- [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr)
+- [contact@lumierematiere.com](mailto:contact@lumierematiere.com)
 - +33 7 56 82 80 94
 - Lun–ven 10h00–18h00 (heure de Paris) · réponse 1–2 jours ouvrés

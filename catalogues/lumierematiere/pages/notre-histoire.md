@@ -8,7 +8,7 @@ Rotin, verre, métal, bois, bambou, effet cristal… chaque collection du catalo
 
 - **Matière visible, promesse honnête.** Nous décrivons ce que l'on voit sur les photos. Pas d'« artisanal » inventé, pas de cristal garanti si la pièce est un effet verre travaillé.
 - **L'échelle avant le clic.** Le diamètre et la hauteur de câble font autant la réussite qu'un beau rendu Instagram — nous le rappelons dans les fiches et la FAQ.
-- **Une boutique en ligne, un SAV humain.** Sur lumierematiere.fr uniquement : sélection, conseils de pose, retours clairs.
+- **Une boutique en ligne, un SAV humain.** Sur lumierematiere.com uniquement : sélection, conseils de pose, retours clairs.
 
 ## Ce que nous ne sommes pas
 
@@ -20,5 +20,5 @@ Lumière Matière est éditée par **OH Ventures**, une société parisienne (SA
 
 ## Nous écrire
 
-[contact@lumierematiere.fr](mailto:contact@lumierematiere.fr) · +33 7 56 82 80 94  
+[contact@lumierematiere.com](mailto:contact@lumierematiere.com) · +33 7 56 82 80 94  
 Du lundi au vendredi, **10h00 – 18h00** (heure de Paris). Nous répondons en général sous **1 à 2 jours ouvrés**.

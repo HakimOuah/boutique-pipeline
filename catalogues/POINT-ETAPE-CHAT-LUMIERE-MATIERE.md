@@ -10,7 +10,7 @@ Tu travailles sur LUMIÈRE MATIÈRE uniquement (pas Orysbain).
 ## Contexte
 
 Boutique France dropshipping OH Ventures — mode **UNIVERS** : lustres & suspensions, organisée par **matière**.
-Domaines prévus : lumierematiere.fr / lumierematiere.com (pas encore achetés / Shopify pas encore créé au 21/08/2026).
+Domaine retenu (24/08) : **lumierematiere.com** (acheté, Workspace ouvert). Pas le `.fr`. Shopify pas encore créé.
 Repo de vérité : `/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/` (commit + push sur ce repo).
 Hub parent : `/Users/Hakim/Documents/Boutiques drop/` (règles dans CLAUDE.md).
 
@@ -23,8 +23,8 @@ Notre catalogue actuel = **121 SKU** (plus léger) : même logique d’univers (
 - Éditeur : OH Ventures SASU, capital 1 000 € (même entité qu’Orysbain)
 - Siège : 47 rue Vivienne, 75002 Paris
 - SIRET : 10315725100010 | TVA : FR55103157251
-- Email : contact@lumierematiere.fr | Tél : +33 7 56 82 80 94
-- Médiateur : CM2C, 14 rue Saint Jean 75017 Paris, 01 89 47 00 14, https://www.cm2c.net/ (vérifier couverture lumierematiere.fr)
+- Email : contact@lumierematiere.com | Tél : +33 7 56 82 80 94
+- Médiateur : CM2C, 14 rue Saint Jean 75017 Paris, 01 89 47 00 14, https://www.cm2c.net/ (vérifier couverture lumierematiere.com)
 - **Formulation** des pages légales = distincte d’Orysbain (faits légaux communs, texte différent — règle GMC)
 
 ## Chiffres opérationnels (ne pas contredire)
@@ -97,13 +97,13 @@ FAIT :
 - Ref UNIVERS Mille et une Nuisette notée pour structure homepage / profondeur
 
 PAS FAIT :
-- Achat domaines + création Shopify (Hakim)
+- Domaine + Workspace : faits (`.com`). Création Shopify (Hakim)
 - Coller pages policies + monter le thème selon la spec
 - Import DSers / mapping variantes (privilégier UE) — **exclure les 5 JPEG LM-086**
 - Upload images KEEP (+ RETOUCH day one)
 - Retouches visuelles ciblées (covers salon/plafonniers/bois/verre/métal, home-table, LM-034) — pas de regen 605
 - GMC / Google Ads
-- Vérifier adhésion CM2C pour lumierematiere.fr
+- Vérifier adhésion CM2C pour lumierematiere.com
 - Élargissement catalogue type ref (~profondeur) — plus tard
 
 ## Ta mission dans ce chat

@@ -2,7 +2,7 @@
 
 Une question de diamètre, d'ampoule ou de pose ? Écrivez-nous — une personne lit, pas un robot.
 
-**E-mail :** [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr)  
+**E-mail :** [contact@lumierematiere.com](mailto:contact@lumierematiere.com)  
 **Téléphone :** +33 7 56 82 80 94  
 **SAV :** lundi–vendredi, 10h00–18h00 (heure de Paris)  
 Réponse sous **1 à 2 jours ouvrés**.

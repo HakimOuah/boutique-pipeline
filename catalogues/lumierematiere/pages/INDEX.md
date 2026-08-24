@@ -1,6 +1,6 @@
 # Pages Shopify — Lumière Matière
 
-**Date :** 20/08/2026  
+**Date :** 20/08/2026 · **Domaine retenu 24/08 :** `lumierematiere.com` (pas le `.fr`)  
 **Base :** templates Terry Ecom FR — **texte distinct** d'Orysbain et de toute autre boutique du parc (règle GMC / PASSATION).
 
 ## Fichiers → Shopify
@@ -24,7 +24,7 @@
 | Siège | 47 rue Vivienne, 75002 Paris, France |
 | SIRET | 10315725100010 |
 | TVA intracommunautaire | FR55103157251 |
-| E-mail boutique | contact@lumierematiere.fr |
+| E-mail boutique | contact@lumierematiere.com |
 | Téléphone | +33 7 56 82 80 94 |
 | Marque | Lumière Matière = nom commercial d'OH Ventures |
 
@@ -50,7 +50,7 @@
 ## Médiateur
 
 **CM2C** (même que Maison Noirmont) — 14 rue Saint Jean, 75017 Paris — 01 89 47 00 14 — https://www.cm2c.net/  
-Vérifier l’ajout de lumierematiere.fr sur l’adhésion CM2C si le contrat est par site.
+Vérifier l’ajout de lumierematiere.com sur l’adhésion CM2C si le contrat est par site.
 
 ## Avant mise en ligne
 
