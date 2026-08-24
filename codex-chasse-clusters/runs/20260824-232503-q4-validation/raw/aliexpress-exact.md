@@ -20,22 +20,29 @@
 
 Conclusion fournisseur : logistique attractive, confiance **C / forte réserve**. La recherche accessible `12L dehumidifier EU plug` n'a pas livré de second équivalent exact dans les premiers résultats triés ; cela décrit cette passe, pas l'ensemble d'AliExpress.
 
-## Couverture lestée adulte 7 kg
+## Couverture lestée adulte — preuve révisée le 2026-08-25
 
-- `product_id` : `1005011748184966`
+### Fiche Good Nite apportée par Hakim
+
+- [Fiche canonique](https://fr.aliexpress.com/item/1005010144250762.html), `product_id` : `1005010144250762`.
+- Titre API : couverture Good Nite 8 kg pour adulte.
+- Boutique HT Direct Store : communication 4,7 ; description 4,7 ; expédition 4,8.
+- `sku_id` encodé dans l'URL apportée : `12000051329035763`, **125 × 180 cm, 6 kg**, Allemagne, stock 9, 48,26 EUR TTC.
+- `sku_id` sélectionné dans la capture : `12000051329035765`, **150 × 200 cm, 8 kg**, Allemagne, stock 25, 59,75 EUR TTC dans l'API.
+- Fret France 8 kg : DHL gratuit, 3–8 jours ; DPD gratuit, 3–9 jours.
+- Capture consommateur 8 kg : 49,23 EUR TTC promotionnel, 4,9/5, 28 avis, 122 vendus, expédié d'Allemagne, livraison gratuite.
+- Open Platform : 22 ventes, note 0, 0 évaluation exposée.
+
+Le prix écran est conservé comme snapshot promotionnel ; le coût API de **59,75 EUR rendu** sert de base prudente. Le conflit de compteurs entre les deux surfaces est explicite. Cette fiche prouve l'économie d'un assortiment adulte 6/8 kg, pas un 7 kg exact.
+
+### Premier fournisseur, désormais écarté
+
+- `product_id` : `1005011748184966`.
 - L'ancien prix de 82,99 EUR correspondait à une petite variante **80 × 100 cm, 3,2 kg**, pas au produit adulte 7 kg.
-- `sku_id` adulte : `12000056423247539`
-- Variante : `Ivoire 120x150cm 7kg`
-- Origine : Chine
-- Stock observé : 9
-- Prix TTC observé : 142,99 EUR
-- Fret minimum France : FedEx 212,61 EUR, 3–12 jours
-- Alternative : DHL 348,68 EUR
-- Coût rendu minimum observé : **355,60 EUR**
-- Produit : 2 ventes, note 0, 0 évaluation exposée
-- Boutique : OneTool Warehouse Store, note affichée 4,8
+- `sku_id` adulte : `12000056423247539`, ivoire 120 × 150 cm, 7 kg.
+- Origine Chine, stock 9, produit 142,99 EUR TTC, fret FedEx 212,61 EUR, coût rendu **355,60 EUR**.
 
-Conclusion fournisseur : **échec économique exact**. Les résultats supérieurs de `weighted blanket 7kg` étaient majoritairement hors intention ; aucun backup adulte exact n'a été prouvé.
+Conclusion révisée : cette première fiche est un **mauvais fournisseur à exclure**, pas une preuve d'impossibilité de la catégorie. Les recherches API bornées n'ont pas encore prouvé de deuxième fournisseur exact comparable ; les vignettes de recherche affichant un petit prix ne suffisent pas sans SKU, poids, origine et fret.
 
 ## Studio créateur
 

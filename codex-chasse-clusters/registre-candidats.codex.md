@@ -405,13 +405,13 @@ concurrent facultatif, concept/listing/revue humaine maintenus.
 
 - Périmètre explicitement rouvert par Hakim : déshumidificateur, couverture lestée, studio créateur de contenu, arts de la table bois.
 - Preuves : SEMrush France, concurrence publique datée et AliExpress Open Platform en lecture seule.
-- Résultat agent : **0 `TECHNICAL_PASS`, 1 `TECHNICAL_WATCH`, 3 `TECHNICAL_FAIL`**.
+- Résultat agent révisé le 2026-08-25 : **0 `TECHNICAL_PASS`, 2 `TECHNICAL_WATCH`, 2 `TECHNICAL_FAIL`**.
 - Décision humaine : `PENDING_HAKIM` ; aucun `GO_FINAL`, `WATCH_FINAL` ou `NO_GO_FINAL` attribué.
 - Rapport : [évaluation finale Q4](runs/20260824-232503-q4-validation/final-20260824-232503.md).
 
 | Piste | Demande | Preuve fournisseur décisive | Verdict agent | Condition de reprise |
 |---|---|---|---|---|
 | Déshumidificateur | 27,1 k FR sur la tête | 12 L rendu 116,52 EUR depuis France, mais 1 vente et boutique 4,0–4,3 | `TECHNICAL_WATCH` | fournisseur de remplacement, conformité/specs/SAV et backup exact |
-| Couverture lestée | 27,1 k FR sur la tête | adulte 7 kg rendu 355,60 EUR ; l'ancien 82,99 EUR était 3,2 kg | `TECHNICAL_FAIL` | SKU adulte exact radicalement moins cher et conforme |
+| Couverture lestée | 27,1 k FR sur la tête | Good Nite 8 kg rendu 59,75 EUR depuis Allemagne ; 6 kg 48,26 EUR ; ancien fournisseur écarté | `TECHNICAL_WATCH` | matière/conformité, retours, contrôle qualité, backup européen et CPC par poids/taille |
 | Studio créateur | 34,11 k bruts hétérogènes | ring light non livrable ; un micro low-ticket isolé | `TECHNICAL_FAIL` | univers 200 produits, 3–5 familles et deux fournisseurs chacune |
 | Arts de la table bois | 48,46 k bruts pollués | planche générique rendue 41,38 EUR, stock 3 | `TECHNICAL_FAIL` | sous-univers propre, valeur ajoutée et profondeur fournisseur |

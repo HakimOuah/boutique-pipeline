@@ -4,11 +4,12 @@ Cet espace contient l'adaptation Codex de la boucle volume-first. Il est volonta
 
 ## Dernière requalification ciblée
 
-Le run `20260824-232503` a repris les quatre pistes Q4 explicitement validées par Hakim : **un `TECHNICAL_WATCH`, trois `TECHNICAL_FAIL`, zéro décision humaine attribuée**. Le seul travail recommandé est une recherche fournisseur de remplacement bornée sur le déshumidificateur 12–20 L.
+Le run `20260824-232503`, révisé le 2026-08-25 après un nouvel apport fournisseur de Hakim, a repris les quatre pistes Q4 : **deux `TECHNICAL_WATCH`, deux `TECHNICAL_FAIL`, zéro décision humaine attribuée**. La couverture lestée devient la priorité de requalification : un 8 kg rendu à 59,75 EUR depuis l'Allemagne rend l'économie plausible, sans encore prouver conformité, qualité, retours ni backup. Le déshumidificateur reste la seconde piste.
 
 - [Évaluation finale Q4](runs/20260824-232503-q4-validation/final-20260824-232503.md)
 - [État isolé du run](runs/20260824-232503-q4-validation/run-state.json)
 - [Dossiers et preuves](runs/20260824-232503-q4-validation/)
+- [Amendement couverture lestée](runs/20260824-232503-q4-validation/amendment-couverture-lestee-20260825.md)
 
 Le `run-state.json` racine conserve volontairement l'état terminal détaillé du run catalogue-volume précédent ; la requalification Q4 possède son état isolé afin de ne pas écraser cet historique.
 
