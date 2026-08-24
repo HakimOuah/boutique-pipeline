@@ -16,11 +16,11 @@ La commande devient ferme après acceptation des CGV et encaissement. Un e-mail 
 
 ## 4. Paiement
 
-Le règlement s’effectue en ligne, via une connexion chiffrée SSL, par **carte bancaire (Visa, Mastercard, American Express), Apple Pay, Shop Pay et PayPal**. Seuls les moyens réellement proposés à la caisse sont acceptés. Le débit a lieu à la validation. Aucune donnée de carte complète n’est conservée sur nos serveurs.
+Le règlement s’effectue en ligne, via une connexion chiffrée SSL, par **carte bancaire (Visa, Mastercard, American Express), Apple Pay, Shop Pay et PayPal**. Le débit a lieu à la validation de la commande. Aucune donnée de carte complète n’est conservée sur nos serveurs.
 
 ## 5. Livraison
 
-Livraison gratuite en France métropolitaine (Corse incluse). Préparation **1 à 2 jours ouvrés**, acheminement **6 à 15 jours ouvrés**, total estimé **7 à 17 jours ouvrés**. Heure limite : **16h00, heure de Paris**. Ces chiffres sont les mêmes que ceux de la politique d’expédition, de la FAQ et du Merchant Center.
+Livraison gratuite en France métropolitaine (Corse incluse). Préparation **1 à 2 jours ouvrés**, acheminement **6 à 15 jours ouvrés**, total estimé **7 à 17 jours ouvrés**. Heure limite : **16h00, heure de Paris**. Le détail figure dans la politique d’expédition et la FAQ.
 
 ## 6. Droit de rétractation et retours
 
@@ -32,7 +32,7 @@ Tous les luminaires bénéficient de la garantie légale de conformité (art. L2
 
 ## 8. Responsabilité
 
-Les produits doivent être installés conformément à leur destination et à la réglementation électrique. Lumière Matière n’est pas responsable d’une mauvaise pose ou d’un usage non conforme. Sa responsabilité est limitée au montant de la commande.
+Les luminaires doivent être installés conformément à leur destination et à la réglementation électrique en vigueur, courant coupé et, si le raccordement l’exige, par une personne compétente. La responsabilité du vendeur, limitée au montant de la commande, exclut les dommages résultant d’une pose ou d’un usage non conformes.
 
 ## 9. Propriété intellectuelle
 

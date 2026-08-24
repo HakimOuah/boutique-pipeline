@@ -1,24 +1,22 @@
 # Notre histoire — Lumière Matière
 
-Lumière Matière part d'une idée simple : au-dessus d'une table ou dans un salon, ce n'est pas « une lampe de plus » qui compte — c'est la **matière** qui transforme la lumière.
+Au-dessus d’une table, dans une entrée, au centre d’un salon : c’est la matière du luminaire qui fait la lumière. Le rotin la tamise en rayures chaudes, le verre travaillé la fragmente en éclats, le métal la dessine au cordeau, le bois la réchauffe.
 
-Rotin, verre, métal, bois, bambou, effet cristal… chaque collection du catalogue est rangée par matière, pour que vous choisissiez d'abord l'ambiance, ensuite le modèle.
+Lumière Matière est née de cette conviction. Le catalogue est construit par matière : vous choisissez d’abord une ambiance lumineuse — fibres naturelles, effet cristal, métal, bois — puis le modèle qui la porte, au bon diamètre.
 
 ## Notre parti pris
 
-- **Matière visible, promesse honnête.** Nous décrivons ce que l'on voit sur les photos. Pas d'« artisanal » inventé, pas de cristal garanti si la pièce est un effet verre travaillé.
-- **L'échelle avant le clic.** Le diamètre et la hauteur de câble font autant la réussite qu'un beau rendu Instagram — nous le rappelons dans les fiches et la FAQ.
-- **Une boutique en ligne, un SAV humain.** Sur lumierematiere.fr uniquement : sélection, conseils de pose, retours clairs.
-
-## Ce que nous ne sommes pas
-
-Ni une usine d'abat-jour en France, ni un grand magasin généraliste. Nous curons des suspensions et lustres pour des intérieurs français, à des prix accessibles (souvent autour de 149 à 299 €), et nous restons joignables après l'achat.
+- **La matière d’abord.** Chaque fiche nomme la matière visible sur les photos et décrit ce qu’elle fait à la lumière une fois la pièce allumée.
+- **L’échelle avant le clic.** Un beau modèle au mauvais diamètre est un achat manqué. Diamètre, envergure, hauteur de câble : tout figure sur la fiche, et la FAQ vous aide à mesurer avant de commander.
+- **Un accompagnement qui dure.** Livraison suivie et offerte en France métropolitaine, retour possible sous 30 jours, équipe joignable du lundi au vendredi : nous restons là après l’achat.
 
 ## Derrière la marque
 
-Lumière Matière est éditée par **OH Ventures**, une société parisienne (SASU) basée rue Vivienne, dans le 2e arrondissement — la même équipe du choix des modèles jusqu'au SAV.
+Lumière Matière est éditée par **OH Ventures**, société parisienne (SASU) installée au 47 rue Vivienne, dans le 2e arrondissement — la même équipe assure la sélection des modèles et le service client.
 
-## Nous écrire
+## Explorer, ou nous écrire
+
+Parcourez [les collections par matière](/collections) et trouvez la lumière qui correspond à votre pièce. Une hésitation sur un diamètre, une ampoule, une hauteur de câble ? Écrivez-nous avant de commander : c’est exactement le genre de question que nous aimons.
 
 [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr) · +33 7 56 82 80 94  
 Du lundi au vendredi, **10h00 – 18h00** (heure de Paris). Nous nous efforçons de répondre sous **24 heures ouvrées**.

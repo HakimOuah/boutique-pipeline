@@ -26,7 +26,7 @@ Nous collectons les informations que vous nous transmettez et celles nécessaire
 
 ## 4. Destinataires et sous-traitants
 
-Vos données ne sont partagées qu’avec les prestataires strictement nécessaires : hébergeur de la boutique, transporteurs, prestataires de paiement, outils d’e-mailing. Nous ne vendons jamais vos données à des tiers.
+Vos données sont partagées uniquement avec les prestataires nécessaires au service : hébergeur de la boutique, transporteurs, prestataires de paiement, outils d’e-mailing. Nous ne vendons jamais vos données à des tiers.
 
 ## 5. Durée de conservation
 

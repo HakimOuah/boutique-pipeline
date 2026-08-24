@@ -1,6 +1,6 @@
 # Politique de remboursement
 
-Chez Lumière Matière, si un luminaire ne trouve pas sa place chez vous, les règles de retour sont écrites ci-dessous — sans frais de réapprovisionnement.
+Chez Lumière Matière, si un luminaire ne trouve pas sa place chez vous, le retour est simple : 30 jours pour changer d’avis, sans frais de réapprovisionnement. Les règles détaillées figurent ci-dessous.
 
 ## 1. Droit de rétractation légal (14 jours)
 
@@ -16,11 +16,11 @@ Pour être repris, les luminaires doivent être retournés neufs et non install�
 
 ## 4. Méthode de retour
 
-Les retours s’effectuent par voie postale, via le transporteur de votre choix. Nous recommandons un envoi suivi (recommandé), seule preuve d’expédition en cas de litige. Aucun retour en main propre n’est possible.
+Les retours s’effectuent par voie postale, via le transporteur de votre choix. Nous recommandons un envoi suivi (recommandé), seule preuve d’expédition en cas de litige.
 
 ## 5. Frais de retour
 
-Les frais de retour sont à la charge du client. Aucune étiquette prépayée n’est fournie : vous affranchissez le colis vous-même.
+Les frais de retour sont à la charge du client : vous affranchissez le colis vous-même, auprès du transporteur de votre choix.
 
 ## 6. Frais de réapprovisionnement
 

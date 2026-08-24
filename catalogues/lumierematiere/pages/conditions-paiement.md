@@ -7,8 +7,6 @@ Chez Lumière Matière, votre paiement est 100 % sécurisé.
 - Carte bancaire : Visa, Mastercard, American Express
 - Portefeuilles : Apple Pay, Shop Pay, PayPal
 
-Seuls les moyens réellement disponibles à la caisse sont listés ici. Les pictogrammes du pied de page, cette page et le checkout doivent correspondre. Google Pay n’est pas proposé.
-
 ## Devise
 
 Tous les montants sont affichés et débités en euros (EUR), toutes taxes comprises.

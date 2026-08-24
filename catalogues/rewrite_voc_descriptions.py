@@ -51,8 +51,8 @@ COLOR_LINE = {
 LM_COLLECTION_ANGLE = {
     "Lustres cristal": (
         "effet cristal",
-        "Le verre découpe la lumière en reflets sur la table — présence sans look showroom inaccessible.",
-        "Parlez d’effet cristal / verre travaillé : la magie vient du jeu de lumière, pas d’une promesse minérale.",
+        "Le verre découpe la lumière en reflets sur la table — présence lumineuse, éclats nets une fois allumé.",
+        "Verre travaillé à effet cristal : les facettes accrochent la lumière et la renvoient en éclats nets dans la pièce.",
     ),
     "Lustres anneau": (
         "anneau",
@@ -82,12 +82,12 @@ LM_COLLECTION_ANGLE = {
     "Suspensions bois": (
         "bois",
         "Le bois réchauffe le faisceau : idéal pour une salle à manger ou un îlot.",
-        "Le grain et la teinte varient légèrement d’une pièce à l’autre — signe de matière, pas défaut.",
+        "Le grain et la teinte varient légèrement d’une pièce à l’autre : chaque exemplaire a son caractère.",
     ),
     "Suspensions pierre": (
         "pierre / effet pierre",
         "Une matière minérale qui ancre la lumière — contraste avec les murs clairs.",
-        "Sauf preuve contraire, on parle d’effet pierre / composite : honnêteté sur la matière.",
+        "Le rendu minéral vient d’un matériau composite à effet pierre — le grain et la lumière font le caractère de la pièce.",
     ),
     "Suspensions verre": (
         "verre",
@@ -101,7 +101,7 @@ LM_COLLECTION_ANGLE = {
     ),
     "Suspensions déco": (
         "décorative",
-        "Une suspension choisie pour le caractère de la pièce, pas pour un catalogue anonyme.",
+        "Une suspension choisie pour le caractère de la pièce.",
         "Matière + silhouette : vérifiez diamètre et hauteur de câble sur la variante.",
     ),
     "Plafonniers": (
@@ -234,7 +234,7 @@ def lm_html(row: dict) -> str:
     return f"""<div class="product-desc">
 <p><strong>{esc(angle)}</strong></p>
 <p>Chez Lumière Matière, on choisit d’abord une <strong>matière</strong> — ici : <strong>{esc(matter)}</strong>.
-C’est elle qui change la qualité de lumière dans la pièce — pas un catalogue de styles anonymes.</p>
+C’est elle qui change la qualité de lumière dans la pièce — et c’est elle qui guide toute notre sélection.</p>
 <h3>Ce modèle</h3>
 <p><strong>{esc(title)}</strong> — collection <strong>{esc(collection)}</strong>.</p>
 <p>{esc(matter_note)}</p>
@@ -242,7 +242,7 @@ C’est elle qui change la qualité de lumière dans la pièce — pas un catalo
 <ul>
 <li><strong>Échelle :</strong> notez le diamètre / l’envergure (les photos compressent souvent la taille réelle).</li>
 <li><strong>Source :</strong> LED intégrée ou douille (E27/E14 selon variante) — ampoule parfois non fournie.</li>
-<li><strong>Câble :</strong> longueur souvent réglable à la rosace ; trop long = à ajuster, pas un défaut.</li>
+<li><strong>Câble :</strong> longueur souvent réglable à la rosace ; si le câble est trop long, on l’ajuste à la rosace.</li>
 <li><strong>Pose :</strong> {esc(install)} ; faites appel à un professionnel si vous n’êtes pas à l’aise avec le raccordement.</li>
 </ul>
 <h3>Caractéristiques</h3>
@@ -259,9 +259,9 @@ et une hauteur qui laisse circuler sans heurter les têtes. En doute, mesurez av
 <details><summary>Ampoule incluse ?</summary>
 <p>Selon variante. Si douille : prévoyez une LED blanc chaud pour une ambiance accueillante.
 Si LED intégrée : pas d’ampoule à ajouter.</p></details>
-<details><summary>Est-ce du cristal / rotin « artisanal » ?</summary>
-<p>Nous décrivons la matière visible sans sur-promettre. « Effet cristal », rotin, bambou, métal :
-ce que vous voyez sur les photos produit — pas une usine artisanale fictive.</p></details>
+<details><summary>Quelle est la matière exactement ?</summary>
+<p>Celle que vous voyez sur les photos produit. « Effet cristal » désigne un verre travaillé qui fait
+jouer la lumière ; pour les fibres naturelles, la fiche précise s’il s’agit de bambou, de rotin ou de bois.</p></details>
 <details><summary>Fragile au transport ?</summary>
 <p>Ouvrez le colis dès réception et contrôlez l’abat-jour / le verre. En cas de casse, contactez le SAV avec photos.</p></details>
 <p><strong>Livraison suivie en France métropolitaine. Droit de rétractation légal. SAV joignable.</strong></p>

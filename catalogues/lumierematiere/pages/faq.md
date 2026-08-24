@@ -1,6 +1,6 @@
 # FAQ — Foire aux questions
 
-Bienvenue sur la FAQ de **Lumière Matière**. Les délais, fenêtres de retour et coordonnées ci-dessous sont identiques à ceux des politiques de livraison et de retours. Pour le choix d’un diamètre ou d’une ampoule, quelques précisions figurent en fin de page.
+Bienvenue sur la FAQ de **Lumière Matière**. Vous trouverez ici l’essentiel sur la livraison, les retours et le contact, ainsi que quelques repères en fin de page pour bien choisir votre luminaire.
 
 ## Question 1 : Combien de temps faut-il pour recevoir ma commande ?
 
@@ -22,7 +22,7 @@ Pour plus d’informations : [politique d’expédition](https://lumierematiere.
 
 ## Question 3 : Où se situe Lumière Matière ?
 
-Lumière Matière est une marque basée en **France**, qui propose une sélection de suspensions et de lustres, avec une livraison disponible en France métropolitaine.
+Lumière Matière est une marque **française**, installée à Paris. Notre sélection de suspensions et de lustres est livrée en France métropolitaine.
 
 ## Question 4 : Que se passe-t-il si je reçois un produit défectueux ?
 
@@ -36,7 +36,7 @@ Oui, tant que votre commande n’a pas été expédiée, vous pouvez demander so
 
 ## Question 6 : Quelle est votre politique de retour ?
 
-Nous avons mis en place une procédure de retour simple. Pour tous les détails : [politique de remboursement](https://lumierematiere.fr/policies/refund-policy).
+Vous disposez de 30 jours après réception pour retourner un article, selon une procédure simple. Pour tous les détails : [politique de remboursement](https://lumierematiere.fr/policies/refund-policy).
 
 ## Question 7 : Quand recevrai-je mon remboursement après avoir retourné un produit ?
 
@@ -58,11 +58,11 @@ Vous pouvez joindre l’équipe via la [page Contact](https://lumierematiere.fr/
 
 ## Question 10 : Livrez-vous à l’international ?
 
-Non, nous livrons actuellement exclusivement en France métropolitaine (Corse incluse).
+Pour le moment, nous livrons en France métropolitaine (Corse incluse).
 
 ## Question 11 : Avez-vous un magasin physique que je peux visiter ?
 
-Nous sommes une boutique exclusivement en ligne, ce qui nous permet de proposer une sélection plus large à des prix accessibles.
+Lumière Matière est une boutique en ligne : l’ensemble du catalogue se trouve sur lumierematiere.fr, et notre équipe vous conseille par e-mail ou par téléphone pour choisir votre modèle.
 
 ## Question 12 : Puis-je passer une commande en grande quantité pour mon entreprise ou mon organisation ?
 
@@ -80,15 +80,15 @@ Vous pouvez suivre votre commande via la [page de suivi](https://lumierematiere.
 
 ### Comment choisir le bon diamètre au-dessus de ma table ?
 
-Le diamètre doit rester nettement plus étroit que la largeur du plateau, avec une hauteur de câble qui laisse passer sans heurter les têtes. Les photos compressent souvent l’échelle : vérifiez les dimensions sur la fiche.
+Visez un diamètre nettement plus étroit que la largeur du plateau, avec une hauteur de câble qui laisse circuler sans heurter les têtes. Les photos compressent souvent l’échelle : mesurez votre table, puis vérifiez les dimensions sur la fiche.
 
 ### L’ampoule est-elle fournie ?
 
-Cela dépend de la variante : LED intégrée, ou douille E27 / E14. La fiche précise le cas. Si douille, prévoyez une LED blanc chaud.
+Cela dépend de la variante : LED intégrée, ou douille E27 / E14. La fiche précise le cas. Si douille, prévoyez une LED blanc chaud pour une lumière accueillante.
 
 ### Faut-il un électricien ?
 
-Raccordement au circuit plafond : si vous n’êtes pas à l’aise avec l’électricité, faites appel à un professionnel. Coupure du courant obligatoire avant toute intervention.
+Le raccordement au circuit plafond doit être réalisé courant coupé. Si vous n’êtes pas à l’aise avec l’électricité, confiez la pose à un professionnel : c’est rapide, et le luminaire est installé dans les règles.
 
 ## Informations de contact
 

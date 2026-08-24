@@ -8,7 +8,7 @@ La livraison est entièrement gratuite pour toutes les commandes, sans montant m
 
 ## 2. Zone de livraison
 
-Nous expédions en **France métropolitaine (Corse incluse)**. Les livraisons vers les DOM-TOM et l’international ne sont pas proposées pour le moment.
+Nous livrons en **France métropolitaine (Corse incluse)**.
 
 ## 3. Heure limite de commande (cut-off)
 
@@ -23,7 +23,7 @@ Le délai de préparation de votre colis est de **1 à 2 jours ouvrés** (du lun
 
 ## 5. Délai d’acheminement (transport)
 
-Une fois le colis remis au transporteur, le délai d’acheminement est de **6 à 15 jours ouvrés** (du lundi au vendredi), pour toutes les destinations en France métropolitaine. Cette fourchette couvre les départs depuis un entrepôt européen ou asiatique, selon le modèle.
+Une fois le colis remis au transporteur, le délai d’acheminement est de **6 à 15 jours ouvrés** (du lundi au vendredi), pour toutes les destinations en France métropolitaine. Le délai précis dépend du modèle commandé ; votre numéro de suivi vous informe à chaque étape.
 
 ## 6. Délai de livraison total estimé
 
@@ -42,7 +42,7 @@ Les commandes ne sont ni préparées ni expédiées les samedis, dimanches et jo
 
 ## 8. Transporteurs et mode de livraison
 
-Vos colis sont confiés à **Colissimo, DPD** et, selon l’entrepôt de départ, aux partenaires du réseau **AliExpress Standard Shipping**. Le nom du transporteur figure dans l’e-mail de suivi. Selon l’adresse et le format du luminaire, la livraison peut s’effectuer à domicile.
+Vos colis sont confiés à **Colissimo, DPD** et à des partenaires de livraison internationale avec suivi. Le nom du transporteur figure dans l’e-mail de suivi. Selon l’adresse et le format du luminaire, la livraison peut s’effectuer à domicile.
 
 ## 9. Confirmation et suivi de commande
 

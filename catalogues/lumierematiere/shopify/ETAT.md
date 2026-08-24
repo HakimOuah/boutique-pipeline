@@ -18,6 +18,7 @@
   - **LM-045** absent (listing AliExpress mort).
 - **Prix barrés retirés** (compareAt = null sur toutes les variantes actives).
 - **Variantes traduites / réordonnées** : Taille → Couleur → Température → Ampoule / Entrepôt. Entrepôt Chine-only supprimé (11 fiches). SKU DSers (`sku_attr`) **non modifiés**.
+- **Copy Fable (24/08 soir)** : tournures défensives retirées (Notre histoire, FAQ, paiement, CGV, livraison, 120 fiches). Plus de « ce que nous ne sommes pas », « usine artisanale fictive », AliExpress, Google Pay en négatif.
 - **Thème Full Stack** (`copie-de-fullstack-2-3`) : tokens papier `#F6F3EC` / charbon `#24211B` / ambre `#C08A2D`, Young Serif + Instrument Sans, logos, homepage UNIVERS. Démos avis / Trustpilot retirées. Gabarit `templates/page.faq.json` ajouté ; page FAQ en suffixe `faq`.
 
 ## Prix (règle maison)
