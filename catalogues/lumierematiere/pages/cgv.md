@@ -16,7 +16,7 @@ La commande devient ferme après acceptation des CGV et encaissement. Un e-mail 
 
 ## 4. Paiement
 
-Le règlement s’effectue en ligne, via une connexion chiffrée SSL, par **carte bancaire (Visa, Mastercard, American Express), Apple Pay, Shop Pay et PayPal**. Le débit a lieu à la validation de la commande. Aucune donnée de carte complète n’est conservée sur nos serveurs.
+Le règlement s’effectue en ligne, via une connexion chiffrée SSL, par **carte bancaire (Visa, Mastercard, American Express), Apple Pay, Shop Pay et PayPal**. Le débit a lieu à la validation de la commande. Aucune donnée de carte complète n’est conservée sur nos serveurs. Les achats sont encaissés par **OH Ventures** ; ce libellé peut figurer sur votre relevé.
 
 ## 5. Livraison
 

@@ -280,11 +280,10 @@ def patch_footer() -> None:
     footer = data["sections"]["footer"]
     footer["settings"]["color_scheme"] = "scheme-3"
     footer["blocks"]["group_y4aNMX"]["blocks"]["text_hzJHEn"]["settings"]["text"] = (
-        "<p>Lumière Matière — une marque OH Ventures<br>"
+        "<p>Lumière Matière<br>"
         "contact@lumierematiere.fr · +33 7 56 82 80 94<br>"
         "47 rue Vivienne, 75002 Paris<br>"
-        "SAV lun–ven 10h–18h (heure de Paris)<br>"
-        "OH Ventures, SASU au capital de 1 000 € — SIRET 10315725100010 — TVA FR55103157251</p>"
+        "SAV lun–ven 10h–18h (heure de Paris)</p>"
     )
     footer["blocks"]["menu_K3tacq"]["settings"]["title"] = "<h3>Collections</h3>"
     footer["blocks"]["menu_K3tacq"]["settings"]["menu"] = "main-menu"

@@ -17,8 +17,6 @@ Tous les montants sont affichés et débités en euros (EUR), toutes taxes compr
 - Nous ne stockons aucune donnée bancaire complète sur nos serveurs.
 - Le débit n’intervient qu’à la validation de votre commande.
 
-Les achats sont encaissés par **OH Ventures** (SASU au capital de 1 000 €), 47 rue Vivienne, 75002 Paris — SIRET 10315725100010, TVA FR55103157251. Ce libellé peut figurer sur votre relevé.
-
 ## Service client
 
 Une question avant ou après votre commande ? Notre équipe, basée en France, vous répond :

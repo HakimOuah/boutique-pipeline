@@ -176,9 +176,8 @@ def patch_footer() -> None:
     )
     footer["blocks"]["group_H6VpwJ"]["blocks"]["text_f9CFLH"]["settings"]["text"] = (
         "<p>Un e-mail de temps en temps : nouvelles pièces, conseils de diamètre et d'ampoule. Rien de plus.</p>"
-        "<p>Lumière Matière — une marque OH Ventures · contact@lumierematiere.fr · +33 7 56 82 80 94<br>"
-        "47 rue Vivienne, 75002 Paris · SAV lun–ven 10h–18h (Paris)<br>"
-        "OH Ventures, SASU au capital de 1 000 € — SIRET 10315725100010 — TVA FR55103157251</p>"
+        "<p>Lumière Matière · contact@lumierematiere.fr · +33 7 56 82 80 94<br>"
+        "47 rue Vivienne, 75002 Paris · SAV lun–ven 10h–18h (Paris)</p>"
     )
     footer["settings"]["background_color"] = "#24211B"
     util = data["sections"]["footer_utilities_jLGE8U"]

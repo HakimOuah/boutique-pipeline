@@ -12,7 +12,7 @@ Lumière Matière est née de cette conviction. Le catalogue est construit par m
 
 ## Derrière la marque
 
-Lumière Matière est éditée par **OH Ventures**, société parisienne (SASU) installée au 47 rue Vivienne, dans le 2e arrondissement — la même équipe assure la sélection des modèles et le service client.
+Lumière Matière est une boutique parisienne, au 47 rue Vivienne dans le 2e arrondissement. La même équipe choisit les modèles et répond au SAV.
 
 ## Explorer, ou nous écrire
 
