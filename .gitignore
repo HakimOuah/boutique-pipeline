@@ -30,6 +30,9 @@ __pycache__/
 # Inspection exhaustive temporaire generee a cote d'un XLSX par artifact-tool
 *.xlsx.inspect.ndjson
 
+# Dump Shopify brut (régénérable via dump_products.py)
+/catalogues/*/shopify/shopify-products-dump.jsonl
+
 # Photos fournisseur AliExpress (lourdes) — jamais dans git
 /boutique-seiko-mod/sources-fournisseur-2026-08/
 /catalogues/*/sources-fournisseur/
