@@ -1,0 +1,40 @@
+{{ 'lm-pdp.css' | asset_url | stylesheet_tag }}
+{% assign faqs = product.metafields.custom.faq.value %}
+<section class="lm-faq">
+  <div class="page-width">
+    <div class="lm-faq__grid">
+      <div class="lm-faq__card">
+        <h2>Besoin d'aide ?</h2>
+        <p>Notre équipe répond du lundi au vendredi, de 10h00 à 18h00 (heure de Paris), sous 24 heures ouvrées.</p>
+        <a href="/pages/contact">Contactez notre support</a>
+      </div>
+      <div class="lm-faq__list">
+        <h2>Questions fréquentes</h2>
+        {% if faqs != blank %}
+          {% for item in faqs %}
+            <details class="lm-faq__item">
+              <summary>
+                <span>{{ item.q | escape }}</span>
+                <span class="lm-faq__chevron" aria-hidden="true"></span>
+              </summary>
+              <p>{{ item.a | escape }}</p>
+            </details>
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "LM FAQ produit",
+  "enabled_on": { "templates": ["product"] },
+  "settings": [
+    {
+      "type": "header",
+      "content": "Questions du métachamp custom.faq"
+    }
+  ],
+  "presets": [{ "name": "LM FAQ produit" }]
+}
+{% endschema %}

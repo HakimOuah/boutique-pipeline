@@ -1,0 +1,46 @@
+{{ 'lm-pdp.css' | asset_url | stylesheet_tag }}
+{% assign benefits = product.metafields.custom.benefits.value %}
+{% if benefits != blank %}
+  <div class="page-width">
+  <div class="lm-benefits">
+    {% for benefit in benefits %}
+      {% assign media_index = forloop.index %}
+      {% assign media = product.media[media_index] %}
+      {% if media == blank %}
+        {% assign media = product.featured_media %}
+      {% endif %}
+      <article class="lm-benefit">
+        <div class="lm-benefit__media">
+          {% if media %}
+            {{
+              media
+              | image_url: width: 1600
+              | image_tag:
+                loading: 'lazy',
+                widths: '400, 800, 1200, 1600',
+                alt: benefit.title
+            }}
+          {% endif %}
+        </div>
+        <div class="lm-benefit__copy">
+          <h2 class="lm-benefit__title">{{ benefit.title | escape }}</h2>
+          <p class="lm-benefit__body">{{ benefit.body | escape }}</p>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+  </div>
+{% endif %}
+{% schema %}
+{
+  "name": "LM bénéfices produit",
+  "enabled_on": { "templates": ["product"] },
+  "settings": [
+    {
+      "type": "header",
+      "content": "Textes du métachamp custom.benefits"
+    }
+  ],
+  "presets": [{ "name": "LM bénéfices produit" }]
+}
+{% endschema %}

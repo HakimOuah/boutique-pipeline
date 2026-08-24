@@ -1,0 +1,30 @@
+{% doc %}
+  Pills USP sous le titre produit (métachamp custom.usps).
+{% enddoc %}
+{{ 'lm-pdp.css' | asset_url | stylesheet_tag }}
+{% assign usps = product.metafields.custom.usps.value %}
+{% if usps != blank %}
+  <ul class="lm-usp" role="list">
+    {% for pill in usps %}
+      <li class="lm-usp__pill">{{ pill | escape }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+{% schema %}
+{
+  "name": "USP produit",
+  "settings": [
+    {
+      "type": "select",
+      "id": "show_on_display",
+      "label": "Affichage",
+      "default": "desktop_and_mobile",
+      "options": [
+        { "value": "desktop_and_mobile", "label": "Ordinateur et mobile" },
+        { "value": "desktop_only", "label": "Ordinateur" },
+        { "value": "mobile_only", "label": "Mobile" }
+      ]
+    }
+  ]
+}
+{% endschema %}

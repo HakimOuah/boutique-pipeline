@@ -22,6 +22,7 @@
 - **OH Ventures** : uniquement dans les policies (CGV, confidentialité, mentions légales). Footer + pages CMS au nom de la marque (adresse / e-mail / tél conservés).
 - **Thème Full Stack** (`copie-de-fullstack-2-3`) : tokens papier `#F6F3EC` / charbon `#24211B` / ambre `#C08A2D`, Young Serif + Instrument Sans, logos, homepage UNIVERS. Démos avis / Trustpilot retirées. Gabarit `templates/page.faq.json` ajouté ; page FAQ en suffixe `faq`.
 - **SEO collections (24/08 soir)** : 14 collections (description HTML + `seo.title` / `seo.description`) — mots-clés FR par matière (`suspension bambou`, `lustre salon`, `plafonnier`, `lustre cristal` en « effet cristal », etc.). Template Full Stack `templates/collection.json` : Lorem Ipsum remplacé par `{{ closest.collection.description }}`. Helio / UNIVERS non touchés. Source : `shopify/collections-seo.json`.
+- **PDP Full Stack (24/08 soir, gabarit type Montre Avenue)** : titres descriptifs (plus de références type `· 83180`) ; pills USP sous le titre ; 4 accordéons (Description, Caractéristiques, Livraison et retour, Installation) ; 3 blocs image/texte + FAQ produit (métachamps `custom.usps|specs|installation|benefits|faq`) ; produits liés en dernier. Option Entrepôt retirée (entrepôt UE conservé). Image g1 attachée à chaque variante en attendant les packshots couleur. SKU DSers inchangés. Brief Codex : `catalogues/lumierematiere/briefs/2026-08-24-codex-variantes-couleur.md` (67 fiches multi-couleurs). Helio non touché.
 
 ## Prix (règle maison)
 
@@ -39,8 +40,9 @@ Coût DSers (unité) + **2 € de fret** (quotes FR : 1,99 € / 0 €). Concurr
 
 ## À faire Hakim
 
-1. Prévisualiser `copie-de-fullstack-2-3` **avant de publier** (Helio est actuellement MAIN).
+1. Prévisualiser la fiche Full Stack (titre, USP, 4 accordéons, 3 bénéfices, FAQ, liés) : `?preview_theme_id=186708001104` **avant de publier** (Helio est actuellement MAIN).
 2. Recette paiement footer Helio vs checkout vs `/payments/config` (wallets : Apple Pay, Shop Pay, PayPal — pas Google Pay).
 3. CM2C : ajouter lumierematiere.fr si le contrat est par site.
 4. Décider du sort de **LM-045** (listing AE mort).
 5. 5 fiches « Unmapped » DSers (fantômes API) : à supprimer dans l’app si elles sont encore là.
+6. Codex : packshots **une image par couleur** — brief `catalogues/lumierematiere/briefs/2026-08-24-codex-variantes-couleur.md` (67 fiches).

@@ -1,0 +1,144 @@
+/* Lumière Matière — PDP Full Stack (USP, bénéfices, FAQ) */
+.lm-usp {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 4px 0 12px;
+}
+.lm-usp__pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: #efe8dc;
+  color: #24211b;
+  font-size: 13px;
+  line-height: 1.3;
+  letter-spacing: 0.01em;
+}
+.lm-benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.lm-benefit {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+  padding: 56px 0;
+}
+.lm-benefit:nth-child(even) .lm-benefit__media {
+  order: 2;
+}
+.lm-benefit__media img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+.lm-benefit__title {
+  font-family: var(--font-heading--family, serif);
+  font-size: clamp(1.5rem, 2.4vw, 2.1rem);
+  line-height: 1.2;
+  margin: 0 0 16px;
+  color: #24211b;
+}
+.lm-benefit__body {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #24211b;
+}
+.lm-faq {
+  background: #24211b;
+  color: #f6f3ec;
+  padding: 64px 0;
+}
+.lm-faq__grid {
+  display: grid;
+  grid-template-columns: minmax(240px, 0.9fr) 1.4fr;
+  gap: 48px;
+  align-items: start;
+}
+.lm-faq__card {
+  background: #f6f3ec;
+  color: #24211b;
+  border-radius: 16px;
+  padding: 36px 28px;
+  text-align: center;
+}
+.lm-faq__card h2 {
+  font-family: var(--font-heading--family, serif);
+  font-size: 1.8rem;
+  margin: 0 0 12px;
+}
+.lm-faq__card p {
+  margin: 0 0 24px;
+  line-height: 1.55;
+}
+.lm-faq__card a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 28px;
+  border-radius: 999px;
+  background: #24211b;
+  color: #f6f3ec;
+  text-decoration: none;
+  font-weight: 500;
+}
+.lm-faq__list h2 {
+  font-family: var(--font-heading--family, serif);
+  font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+  margin: 0 0 20px;
+  color: #f6f3ec;
+}
+.lm-faq__item {
+  border-bottom: 1px solid rgba(246, 243, 236, 0.2);
+}
+.lm-faq__item summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+  padding: 18px 0;
+  font-size: 1.05rem;
+}
+.lm-faq__item summary::-webkit-details-marker {
+  display: none;
+}
+.lm-faq__chevron {
+  width: 10px;
+  height: 10px;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg);
+  flex-shrink: 0;
+}
+.lm-faq__item[open] .lm-faq__chevron {
+  transform: rotate(-135deg);
+}
+.lm-faq__item p {
+  margin: 0 0 18px;
+  line-height: 1.6;
+  color: rgba(246, 243, 236, 0.88);
+}
+@media (max-width: 749px) {
+  .lm-benefit {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 36px 0;
+  }
+  .lm-benefit:nth-child(even) .lm-benefit__media {
+    order: 0;
+  }
+  .lm-faq__grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}

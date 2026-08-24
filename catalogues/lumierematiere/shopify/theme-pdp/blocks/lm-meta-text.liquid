@@ -1,0 +1,46 @@
+{% doc %}
+  Corps d’accordéon PDP : description, specs, installation ou livraison.
+{% enddoc %}
+{% assign src = block.settings.source %}
+{% if src == "description" %}
+  <div class="lm-acc-body">{{ product.description }}</div>
+{% elsif src == "specs" %}
+  <div class="lm-acc-body">{{ product.metafields.custom.specs.value }}</div>
+{% elsif src == "installation" %}
+  <div class="lm-acc-body">{{ product.metafields.custom.installation.value }}</div>
+{% elsif src == "shipping" %}
+  <div class="lm-acc-body">
+    <p>Livraison offerte en France métropolitaine. Préparation <strong>1 à 2 jours ouvrés</strong>, acheminement <strong>6 à 15 jours ouvrés</strong>, total <strong>7 à 17 jours ouvrés</strong>. Heure limite : 16h00, heure de Paris.</p>
+    <p><strong>Retour :</strong> rétractation légale 14 jours, étendue à 30 jours à compter de la réception. En cas de simple changement d’avis, les frais de retour sont à votre charge. Aucun frais de réapprovisionnement.</p>
+  </div>
+{% endif %}
+{% schema %}
+{
+  "name": "Texte PDP",
+  "settings": [
+    {
+      "type": "select",
+      "id": "show_on_display",
+      "label": "Affichage",
+      "default": "desktop_and_mobile",
+      "options": [
+        { "value": "desktop_and_mobile", "label": "Ordinateur et mobile" },
+        { "value": "desktop_only", "label": "Ordinateur" },
+        { "value": "mobile_only", "label": "Mobile" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "source",
+      "label": "Contenu",
+      "default": "description",
+      "options": [
+        { "value": "description", "label": "Description" },
+        { "value": "specs", "label": "Caractéristiques" },
+        { "value": "shipping", "label": "Livraison et retour" },
+        { "value": "installation", "label": "Installation" }
+      ]
+    }
+  ]
+}
+{% endschema %}
