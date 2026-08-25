@@ -36,7 +36,7 @@ LEGAL_NOTICE_HTML = """
 <li>E-mail : <a href="mailto:contact@lumierematiere.fr">contact@lumierematiere.fr</a> · Tél. +33 7 56 82 80 94</li>
 <li>Directeur de la publication : le président d'OH Ventures</li>
 <li>Hébergement de la boutique : Shopify Inc.</li>
-<li>Médiateur de la consommation : CM2C, 14 rue Saint Jean, 75017 Paris — 01 89 47 00 14 — <a href="https://www.cm2c.net/">https://www.cm2c.net/</a></li>
+<li>Médiateur de la consommation : CM2C, 14 rue Saint Jean, 75017 Paris. Téléphone 01 89 47 00 14, <a href="https://www.cm2c.net/">https://www.cm2c.net/</a></li>
 </ul>
 <p>Les conditions générales et les politiques (livraison, retours, confidentialité, paiement) complètent ces mentions.</p>
 """

@@ -1,94 +1,94 @@
-# FAQ — Foire aux questions
+# Questions fréquentes
 
-Bienvenue sur la FAQ de **Lumière Matière**. Vous trouverez ici l’essentiel sur la livraison, les retours et le contact, ainsi que quelques repères en fin de page pour bien choisir votre luminaire.
+Voici les réponses aux questions qu’on nous pose le plus souvent, sur les délais, les retours et la façon de nous joindre. En bas de page, quelques repères concrets avant de choisir un modèle.
 
-## Question 1 : Combien de temps faut-il pour recevoir ma commande ?
+## Combien de temps pour recevoir ma commande ?
 
-Voici nos délais estimés, en jours ouvrés :
+Comptez, en jours ouvrés :
 
-- Délai de traitement : **1 à 2 jours ouvrés**
-- Délai de transport : **6 à 15 jours ouvrés**
-- Délai de livraison estimé : **7 à 17 jours ouvrés**
+- Préparation : **1 à 2 jours ouvrés**
+- Transport : **6 à 15 jours ouvrés**
+- Total estimé : **7 à 17 jours ouvrés**
 
-Heure limite : **16h00, heure de Paris**.
+L’heure limite pour la journée est fixée à **16h00, heure de Paris**.
 
-Pour plus de détails : [politique d’expédition](https://lumierematiere.fr/policies/shipping-policy).
+Le détail se trouve dans la [politique d’expédition](https://lumierematiere.fr/policies/shipping-policy).
 
-## Question 2 : Proposez-vous la livraison gratuite ?
+## La livraison est-elle gratuite ?
 
-Oui, la livraison est offerte pour toutes les commandes à destination de la France métropolitaine (Corse incluse), sans minimum d’achat.
+Oui. Elle est offerte pour toutes les commandes livrées en France métropolitaine (Corse incluse), sans minimum d’achat.
 
-Pour plus d’informations : [politique d’expédition](https://lumierematiere.fr/policies/shipping-policy).
+Plus d’informations : [politique d’expédition](https://lumierematiere.fr/policies/shipping-policy).
 
-## Question 3 : Où se situe Lumière Matière ?
+## Où se situe Lumière Matière ?
 
-Lumière Matière est une marque **française**, installée à Paris. Notre sélection de suspensions et de lustres est livrée en France métropolitaine.
+Nous sommes une marque française, installée à Paris. Nos suspensions et nos lustres sont livrés en France métropolitaine.
 
-## Question 4 : Que se passe-t-il si je reçois un produit défectueux ?
+## Et si je reçois un luminaire défectueux ?
 
-Si vous recevez un luminaire défectueux, nous le remplaçons. Contactez-nous et renvoyez l’article dans un délai de 30 jours.
+On vous le remplace. Écrivez-nous et renvoyez l’article dans les 30 jours.
 
-Pour plus d’informations : [politique de remboursement](https://lumierematiere.fr/policies/refund-policy).
+Plus d’informations : [politique de remboursement](https://lumierematiere.fr/policies/refund-policy).
 
-## Question 5 : Puis-je annuler ma commande après l’avoir passée ?
+## Puis-je annuler une commande déjà passée ?
 
-Oui, tant que votre commande n’a pas été expédiée, vous pouvez demander son annulation par e-mail. Une fois expédiée, il faudra suivre la procédure de retour.
+Oui, tant qu’elle n’est pas partie. Un e-mail suffit. Une fois le colis expédié, il faut passer par la procédure de retour.
 
-## Question 6 : Quelle est votre politique de retour ?
+## Quelle est votre politique de retour ?
 
-Vous disposez de 30 jours après réception pour retourner un article, selon une procédure simple. Pour tous les détails : [politique de remboursement](https://lumierematiere.fr/policies/refund-policy).
+Vous avez 30 jours après réception pour renvoyer un article. La marche à suivre est détaillée dans la [politique de remboursement](https://lumierematiere.fr/policies/refund-policy).
 
-## Question 7 : Quand recevrai-je mon remboursement après avoir retourné un produit ?
+## Quand suis-je remboursé après un retour ?
 
-Dès que nous recevons et inspectons votre article, le remboursement est traité.
+Dès que le colis nous revient, nous le contrôlons et lançons le remboursement.
 
-Les remboursements apparaissent généralement sur votre moyen de paiement d’origine sous **7 jours**.
+Le montant réapparaît sur votre moyen de paiement d’origine sous **7 jours** en général. Le délai exact dépend ensuite de votre banque.
 
-Pour plus de détails : [politique de remboursement](https://lumierematiere.fr/policies/refund-policy).
+Plus de détails : [politique de remboursement](https://lumierematiere.fr/policies/refund-policy).
 
-## Question 8 : Proposez-vous des garanties sur vos produits ?
+## Y a-t-il une garantie sur les produits ?
 
-Oui, nous offrons une garantie de 30 jours sur tous les achats, sans préjudice des garanties légales de conformité et des vices cachés.
+Oui, une garantie de 30 jours sur tous les achats. Elle s’ajoute aux garanties légales de conformité et des vices cachés, qui restent acquises dans tous les cas.
 
-Pour plus d’informations : [politique de remboursement](https://lumierematiere.fr/policies/refund-policy).
+Plus d’informations : [politique de remboursement](https://lumierematiere.fr/policies/refund-policy).
 
-## Question 9 : Comment contacter le service client ?
+## Comment joindre le service client ?
 
-Vous pouvez joindre l’équipe via la [page Contact](https://lumierematiere.fr/pages/contact) ou par e-mail à [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr).
+Par la [page Contact](https://lumierematiere.fr/pages/contact) ou directement par e-mail à [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr).
 
-## Question 10 : Livrez-vous à l’international ?
+## Livrez-vous à l’étranger ?
 
-Pour le moment, nous livrons en France métropolitaine (Corse incluse).
+Pas encore. Pour l’instant nous livrons uniquement en France métropolitaine, Corse incluse.
 
-## Question 11 : Avez-vous un magasin physique que je peux visiter ?
+## Avez-vous une boutique où passer voir les modèles ?
 
-Lumière Matière est une boutique en ligne : l’ensemble du catalogue se trouve sur lumierematiere.fr, et notre équipe vous conseille par e-mail ou par téléphone pour choisir votre modèle.
+Non, nous vendons seulement en ligne. Tout le catalogue est sur lumierematiere.fr. Si vous voulez un avis avant de commander, écrivez-nous ou appelez-nous, on regarde ça avec vous.
 
-## Question 12 : Puis-je passer une commande en grande quantité pour mon entreprise ou mon organisation ?
+## Puis-je commander en quantité pour un local professionnel ?
 
-Oui, nous acceptons les commandes en volume (café, agence, projet d’aménagement). Contactez le service client pour en parler.
+Oui, nous acceptons les commandes en volume, que ce soit pour un café, un bureau ou un projet d’aménagement. Contactez le service client, on établit ça au cas par cas.
 
-## Question 13 : Quelle est la procédure pour échanger un produit ?
+## Comment échanger un produit ?
 
-Pour un autre diamètre ou une autre matière, voir la [politique de remboursement](https://lumierematiere.fr/policies/refund-policy) : retour pour remboursement, puis nouvelle commande.
+Pour un autre diamètre ou une autre matière, le plus rapide est de renvoyer l’article pour remboursement et de repasser commande sur le modèle voulu. La procédure est décrite dans la [politique de remboursement](https://lumierematiere.fr/policies/refund-policy).
 
-## Question 14 : Comment suivre ma commande ?
+## Comment suivre ma commande ?
 
-Dès l’expédition, un e-mail vous envoie le numéro de suivi. Vous pouvez aussi ouvrir la [page de suivi](https://lumierematiere.fr/apps/parcelpanel) (menu « Suivre votre commande ») ou votre [compte](https://lumierematiere.fr/account) s’il a été créé.
+Dès que le colis part, vous recevez un e-mail avec le numéro de suivi. Vous pouvez aussi ouvrir la [page de suivi](https://lumierematiere.fr/apps/parcelpanel) (menu « Suivre votre commande »), ou votre [compte](https://lumierematiere.fr/account) si vous en avez créé un.
 
 ## Choisir un luminaire
 
-### Comment choisir le bon diamètre au-dessus de ma table ?
+### Quel diamètre au-dessus d’une table ?
 
-Visez un diamètre nettement plus étroit que la largeur du plateau, avec une hauteur de câble qui laisse circuler sans heurter les têtes. Les photos compressent souvent l’échelle : mesurez votre table, puis vérifiez les dimensions sur la fiche.
+Prenez un diamètre franchement plus petit que la largeur du plateau, de façon à garder de la marge de chaque côté. Pour la hauteur, laissez assez de dégagement pour qu’on ne se cogne pas en se levant de table. Le piège, c’est la photo : elle écrase toujours les proportions. Sortez le mètre, notez la largeur de votre table, puis comparez avec les dimensions indiquées sur la fiche.
 
 ### L’ampoule est-elle fournie ?
 
-Cela dépend de la variante : LED intégrée, ou douille E27 / E14. La fiche précise le cas. Si douille, prévoyez une LED blanc chaud pour une lumière accueillante.
+Ça dépend du modèle. Certains ont une LED intégrée, d’autres une douille E27 ou E14 à équiper. C’est précisé sur la fiche produit. Avec une douille, prenez une LED blanc chaud plutôt qu’un blanc froid : la différence est nette le soir.
 
-### Faut-il un électricien ?
+### Faut-il faire appel à un électricien ?
 
-Le raccordement au circuit plafond doit être réalisé courant coupé. Si vous n’êtes pas à l’aise avec l’électricité, confiez la pose à un professionnel : c’est rapide, et le luminaire est installé dans les règles.
+Le raccordement au plafond se fait courant coupé au disjoncteur, sans exception. Si l’électricité n’est pas votre domaine, faites poser par un professionnel : la pose est rapide et vous êtes tranquille sur la conformité.
 
 ## Informations de contact
 
@@ -96,5 +96,5 @@ Le raccordement au circuit plafond doit être réalisé courant coupé. Si vous 
 - Adresse : 47 rue Vivienne, 75002 Paris, France
 - E-mail : [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr)
 - Téléphone : +33 7 56 82 80 94
-- Horaires du service client : du lundi au vendredi, de 10h00 à 18h00 (heure de Paris). Fermé les week-ends et jours fériés.
-- Délai de réponse : nous nous efforçons de répondre à toutes les demandes sous 24 heures ouvrées.
+- Horaires du service client : du lundi au vendredi, de 10h00 à 18h00 (heure de Paris). Fermé le week-end et les jours fériés.
+- Délai de réponse : nous visons une réponse sous 24 heures ouvrées.
