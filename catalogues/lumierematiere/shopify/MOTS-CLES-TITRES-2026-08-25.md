@@ -10,6 +10,57 @@ Débloqué par Hakim via `chrome://inspect/#remote-debugging`.
 
 ---
 
+## 0. Correction — le volume de tête sous-estime, et pas uniformément
+
+**Première lecture erronée.** Je n'avais relevé que le volume de l'expression exacte. Or une même page
+sert toutes ses variantes d'écriture : `suspension papier`, `suspension en papier`,
+`suspensions en papier` sont trois chaînes distinctes pour SEMrush, une seule page pour nous.
+La méthode maison le dit (`METHODE-ANALYSE-MARCHE.md`, étape 3) : on additionne ce qu'**une même
+page servirait**. Recalculé ci-dessous.
+
+Le multiplicateur va de **1,1× à 4,0×**. C'est ce qui rend l'erreur grave : elle ne décale pas
+les volumes d'un facteur constant, elle **change le classement**.
+
+| Expression | Tête seule | Variantes d'écriture | × |
+|---|---:|---:|---:|
+| `lustre pampilles` | 1 600 | **6 340** | **4,0×** |
+| `lustre led` | 1 600 | 4 740 | 3,0× |
+| `suspension papier` | 1 600 | 4 760 | 3,0× |
+| `suspension led` | 1 000 | 2 760 | 2,8× |
+| `suspension verre` | 2 400 | **6 200** | 2,6× |
+| `suspension design` | 1 900 | 4 980 | 2,6× |
+| `suspension boule` | 1 000 | 2 300 | 2,3× |
+| `suspension osier` | 1 600 | 3 180 | 2,0× |
+| `suspension bois` | 2 900 | 5 440 | 1,9× |
+| `suspension corde` | 720 | 1 260 | 1,8× |
+| `suspension bambou` | 1 900 | 3 220 | 1,7× |
+| `lustre bois` / `lustre moderne` | 2 900 / 2 400 | 4 510 / 3 880 | 1,6× |
+| `lustre cristal` | 1 600 | 2 610 | 1,6× |
+| `suspension céramique` | 880 | 1 340 | 1,5× |
+| `plafonnier led` | 14 800 | **21 090** | 1,4× |
+| `suspension rotin` | 8 100 | **10 790** | 1,3× |
+| `lustre salon` | 22 200 | **24 490** | 1,1× |
+| `lustre chambre` | 9 900 | 10 810 | 1,1× |
+| `plafonnier salon` | 8 100 | 8 970 | 1,1× |
+| `suspension cuisine` | 4 400 | 4 800 | 1,1× |
+
+Détail ligne à ligne dans `semrush-variantes.json`. Exemples :
+`lustre pampilles` 1 600 + `lustre à pampilles` 1 300 + `lustre a pampille` 590 + `lustre en pampilles` 590 …
+`plafonnier led` 14 800 + `plafonniers led` 4 400 + `plafonnier à led` 1 300 + `led plafonnier` 590.
+
+**Deux conséquences directes :**
+
+1. **`lustre pampilles` (6 340) écrase `lustre cristal` (2 610).** Le mot honnête est aussi le mot
+   le plus cherché, par un facteur 2,4. La décision d'écarter « cristal » n'est plus seulement
+   une précaution Merchant Center, c'est le meilleur choix SEO.
+2. **`suspension papier` (4 760) et `suspension osier` (3 180)** sortent du bruit. Deux mots que
+   le catalogue n'utilise nulle part, pour des produits que nous avons (abat-jour voile, vannerie claire).
+
+**Réserve de méthode.** Google agrège parfois des variantes proches sous une même demande ; SEMrush
+les restitue en chaînes séparées. La somme est donc un **plafond**, pas une mesure du nombre de
+personnes. Le recoupement exact n'est pas mesurable depuis l'outil. Ce qui reste solide, et qui
+suffit à décider d'un titre : le **classement relatif** entre formulations.
+
 ## 1. Les 13 têtes de famille
 
 | Famille du catalogue | Expression | Volume | KD | CPC $ |
@@ -169,7 +220,33 @@ second mot du rotin quand la fiche s'y prête.
 
 ---
 
-## 8. Ce que je n'ai pas mesuré
+## 8. Les mots de forme ne portent aucun volume
+
+Mesuré le 25/08, tête seule :
+
+| Expression | Volume |
+|---|---:|
+| `suspension grappe` | 210 |
+| `suspension cloche` | 140 |
+| `suspension tressée` | 90 |
+| `suspension cascade` | 40 |
+| `suspension voile` | 30 |
+| `suspension dôme` | **20** |
+| `suspension vannerie` | 20 |
+| `lustre 3 lumières` | 30 |
+
+À comparer à `suspension boule` (2 300 consolidé) et `suspension cuisine` (4 800).
+
+**Règle qui en découle :** un mot de forme sert à **distinguer deux fiches voisines**, jamais à
+capter de la recherche. Il ne doit donc jamais prendre la place d'un mot de pièce, d'une matière
+ou d'une couleur. Quand la place manque, c'est la forme qui saute.
+
+Seule exception : `boule` (2 300), qui est à la fois une forme et une requête.
+
+Trois autres mesures utiles au passage :
+`plafonnier design` **2 400** · `suspension fibre naturelle` 320 · `suspension abat-jour tissu` 140.
+
+## 9. Ce que je n'ai pas mesuré
 
 - Les 45 expressions couvrent les têtes, les modificateurs décisifs et les familles faibles.
   Les axes forme (`dôme`, `cloche`, `cascade`, `sputnik`, `corolle`) et technique
