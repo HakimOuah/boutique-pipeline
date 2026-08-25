@@ -12,7 +12,7 @@
 - **Catalogue sain** : 120 fiches actives / 629 variantes, toutes avec packshot variante ; axes lisibles (Câble, Verre, Finition, Diamètre…) ; bambou 583180/033589/280004 bien en « Câble » avec titres alignés ; 5 metafields PDP présents sur 120/120 ; prix tous dans la grille 149–499 ; « Autour de 199 € » honnête (63 fiches à 199 €, collection à 64 produits, prix d'appel 149–199).
 - **Marketing aligné** : promesse « galerie de matières » portée par le hero, la nav par matière, l'édito, le SEO collections et les PDP (matière nommée honnêtement : « composite à grain minéral », « effet cristal » en verre). Aucun mot interdit (premium, atelier, AliExpress, avis inventés) sur les surfaces client.
 
-**Ce qui cloche encore :** libellés d’options variantes et alt des médias (texte fournisseur brut, cadratins). Le P1 livraison, ParcelPanel, blocs démo hero et **titres dupliqués (P2)** sont soldés.
+**Ce qui cloche encore :** rien de bloquant côté copy. Libellés d’options et alt soldés (25/08 soir). Le P1 livraison, ParcelPanel, blocs démo hero et **titres dupliqués (P2)** sont soldés. Restent les points Hakim (publier Full Stack, GMC à 30 j, LM-045, Unmapped DSers, 453740 / 201424).
 
 ---
 
