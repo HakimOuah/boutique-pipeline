@@ -203,14 +203,10 @@ COLORS = (
     "noir", "noire", "noires", "blanc", "blancs", "blanche", "blanches", "doré", "dorés",
     "dorée", "dorées",
     "doré", "laiton", "chrome", "chromée", "chromé", "naturel", "naturels", "naturelle",
-    "naturelles",
-    "beige", "beiges", "noyer", "fumé", "fumée", "opalin", "opalins", "opaline", "opalines",
-    "ambre", "céladon",
-    "gris", "grise", "grises", "argenté", "argentée", "argentés", "argentées", "rouge",
-    "vert", "verte", "verts", "kaki", "cognac",
-    "brun", "brune", "bruns", "café", "bleu", "bleue", "bleus", "bleues", "cuivre",
-    "coloré", "colorée", "colorés", "transparent",
-    "chanvre", "miroir", "clair", "claire", "clairs", "claires",
+    "beige", "noyer", "fumé", "fumée", "opalin", "opalins", "opaline", "ambre", "céladon",
+    "gris", "grise", "argenté", "argentée", "rouge", "vert", "verte", "kaki", "cognac",
+    "brun", "brune", "café", "bleu", "bleue", "bleues", "cuivre", "transparent",
+    "chanvre", "miroir", "clair", "claire",
 )
 
 SHAPES = (

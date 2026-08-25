@@ -2,6 +2,12 @@
 
 Store `nzefxg-gg.myshopify.com` · 25/08/2026 · application de `CONVENTION-TITRES-2026-08-25.md`.
 
+> **Dépassé sur 71 fiches — voir `RETITRAGE-SEO-V2-2026-08-25.md`.** Les volumes SEMrush, mesurés
+> après cette passe, ont contredit une partie de ces titres : `lustre anneau` vaut 20 recherches
+> par mois, `lustre effet cristal` 20, `naturel` n'ajoute rien, et les mots de pièce valent bien
+> plus que les matières. 71 titres ont été corrigés le 25/08 au soir. Les 49 autres, et tout le
+> travail photo décrit ci-dessous, restent en vigueur.
+
 Les titres éditoriaux (« Suspension nuages en verre soufflé LED, Ø 20 à 40 cm ») sont remplacés
 par des titres composés de requêtes, lisibles par Google Shopping. Aucune convention nouvelle
 n'a été inventée : la grille, les listes de valeurs et le contrôle automatique viennent de la
