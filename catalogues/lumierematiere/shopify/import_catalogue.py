@@ -38,14 +38,24 @@ COLLECTIONS = {
     "Suspensions bois": ("Suspensions bois", "suspensions-bois", "lumierematiere-collection-suspensions-bois.jpg"),
     "Suspensions pierre": ("Suspensions pierre", "suspensions-pierre", "lumierematiere-collection-suspensions-pierre.jpg"),
     "Suspensions verre": ("Suspensions verre", "suspensions-verre", "lumierematiere-collection-suspensions-verre.jpg"),
-    "Lustres cristal": ("Lustres effet cristal", "lustres-effet-cristal", "lumierematiere-collection-lustres-cristal.jpg"),
+    "Lustres cristal": ("Lustres pampilles", "lustres-pampilles", "lumierematiere-collection-lustres-cristal.jpg"),
     "Lustres anneau": ("Lustres anneau", "lustres-anneau", "lumierematiere-collection-lustres-anneau.jpg"),
     "Lustres salon": ("Lustres salon", "lustres-salon", "lumierematiere-collection-plafonniers.jpg"),
-    "Plafonniers": ("Plafonniers", "plafonniers", "lumierematiere-collection-lustres-salon.jpg"),
+    "Plafonniers": ("Plafonniers LED", "plafonniers-led", "lumierematiere-collection-lustres-salon.jpg"),
     "Suspensions métal": ("Suspensions métal", "suspensions-metal", "lumierematiere-collection-suspensions-metal.jpg"),
     "Suspensions déco": ("Suspensions déco", "suspensions-deco", "lumierematiere-collection-suspensions-deco.jpg"),
     "Lustres statement": ("Lustres statement", "lustres-statement", "lumierematiere-collection-lustres-statement.jpg"),
     "Suspensions modernes": ("Suspensions modernes", "suspensions-modernes", "lumierematiere-collection-suspensions-modernes.jpg"),
+    # collections de pièce et d'opportunité ajoutées le 26/08/2026 (§ A du dossier Lustria).
+    # Aucune ligne du catalogue CSV ne pointe dessus : elles sont peuplées par collections_piece.py.
+    "Lustres chambre": ("Lustres chambre", "lustres-chambre", None),
+    "Plafonniers salon": ("Plafonniers salon", "plafonniers-salon", None),
+    "Suspensions cuisine": ("Suspensions cuisine", "suspensions-cuisine", None),
+    "Plafonniers cuisine": ("Plafonniers cuisine", "plafonniers-cuisine", None),
+    "Suspensions salon": ("Suspensions salon", "suspensions-salon", None),
+    "Suspensions papier": ("Suspensions papier", "suspensions-papier", None),
+    "Grandes suspensions XXL": ("Grandes suspensions XXL", "suspensions-xxl", None),
+    "Suspensions osier": ("Suspensions osier", "suspensions-osier", None),
 }
 
 EXTRA_COLLECTIONS = {

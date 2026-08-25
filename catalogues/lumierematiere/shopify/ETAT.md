@@ -7,6 +7,13 @@
 
 ## Fait
 
+- **Collections par pièce 26/08** : **8 créées, 2 renommées, 110 rattachements**. Les 8 nouvelles adressent **44 140 recherches/mois** cumulées, les 2 renommages 27 430 de plus. Boutique passée de 14 à 23 collections, dont **19 publiées avec SEO complet** (`seo_title` + `seo_description` + `description_html` ≥ 700 c.).
+  - Renommages : `Lustres effet cristal` → **`lustres-pampilles`** (6 340 vs 2 610) · `Plafonniers` → **`plafonniers-led`** (21 090, notre plus gros mot-clé).
+  - Créations : `lustres-chambre` 10 · `plafonniers-salon` 9 · `suspensions-cuisine` 31 · `plafonniers-cuisine` 4 · `suspensions-salon` 29 · `suspensions-papier` 1 · `suspensions-xxl` 15 · `suspensions-osier` 5.
+  - **Shopify ne crée aucune redirection automatique** sur un changement de handle : les 2 ont été posées à la main (`urlRedirectCreate`), testées 301 → 200. `templates/list-collections.json` citait les anciens handles en dur, corrigé (11 → 19 vignettes).
+  - Menu `main-menu` réorganisé : **« Par pièce » avant « Par matière »** (chez Lustria la pièce porte 38,8 % du trafic de collection contre 13,8 % pour la matière).
+  - Deux corrections de rangement au passage : LM-082 et LM-085 (suspensions E27) sorties de `plafonniers-led` où elles rendaient le H1 faux ; 6 plafonniers LED encastrés récupérés depuis `lustres-anneau` et `suspensions-metal`.
+  - **59 fiches sur 120 ne publient aucune dimension** (ni variante, ni `specs_html`, ni fournisseur) : leur rangement par pièce repose sur la photo seule. Rapport : `COLLECTIONS-PIECE-2026-08-26.md`.
 - **Prix alignés sur Lustria 26/08** : **38 fiches baissées**, −46,58 € en moyenne (−19,9 %), 166 variantes écrites. Cible = médiane des comparables Lustria × 0,90, grille resserrée au pas de 10 € en terminaison 9 (129/139/149/159…). Médiane d'entrée **199 € inchangée**, moyenne 224,42 → 209,67 €, p75 249 → 239 €. **Plus aucune des 117 fiches appariées n'est au-dessus du prix médian de son comparable** (31 l'étaient). Script rejouable `align_prices.py` (`--restore` pour revenir), backup `backups/2026-08-26-prix/`. Rapport : `PRIX-ALIGNEMENT-LUSTRIA-2026-08-26.md`.
   - **Correction d'analyse** : les « 169,90 € de Lustria » du rapport concurrence sont la médiane de leurs 5 928 fiches, appliques et veilleuses comprises. **Restreint à ce que nous vendons (suspendu + plafonnier, 3 242 fiches), leur médiane est 249,90 €.** Nous étions déjà 20 % sous eux globalement ; la violation de l'étape 9 était **par famille** (céramique, bambou, rotin, tissu, plafonnier bois).
   - Contrôlé en live : 629 variantes, 602 SKU inchangés, **0 `compareAtPrice`**, tous les prix en terminaison 9, écarts entre paliers conservés.

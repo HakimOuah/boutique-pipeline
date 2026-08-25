@@ -1,0 +1,374 @@
+[
+  {
+    "id": "gid://shopify/Menu/306471534928",
+    "handle": "main-menu",
+    "title": "Menu principal",
+    "items": [
+      {
+        "id": "gid://shopify/MenuItem/772158751056",
+        "title": "Accueil",
+        "type": "FRONTPAGE",
+        "url": "/",
+        "resourceId": null,
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/772158783824",
+        "title": "Par matière",
+        "type": "COLLECTIONS",
+        "url": "/collections",
+        "resourceId": null,
+        "items": [
+          {
+            "id": "gid://shopify/MenuItem/772158816592",
+            "title": "Bambou",
+            "type": "COLLECTION",
+            "url": "/collections/suspensions-bambou",
+            "resourceId": "gid://shopify/Collection/651938758992",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/772158849360",
+            "title": "Rotin",
+            "type": "COLLECTION",
+            "url": "/collections/suspensions-rotin",
+            "resourceId": "gid://shopify/Collection/651938791760",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/772158882128",
+            "title": "Bois",
+            "type": "COLLECTION",
+            "url": "/collections/suspensions-bois",
+            "resourceId": "gid://shopify/Collection/651938824528",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/772158914896",
+            "title": "Pierre",
+            "type": "COLLECTION",
+            "url": "/collections/suspensions-pierre",
+            "resourceId": "gid://shopify/Collection/651938857296",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/772158947664",
+            "title": "Verre",
+            "type": "COLLECTION",
+            "url": "/collections/suspensions-verre",
+            "resourceId": "gid://shopify/Collection/651938890064",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/772158980432",
+            "title": "Métal",
+            "type": "COLLECTION",
+            "url": "/collections/suspensions-metal",
+            "resourceId": "gid://shopify/Collection/651939053904",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/772159013200",
+            "title": "Déco colorée",
+            "type": "COLLECTION",
+            "url": "/collections/suspensions-deco",
+            "resourceId": "gid://shopify/Collection/651939086672",
+            "items": []
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/MenuItem/772159045968",
+        "title": "Lustres",
+        "type": "COLLECTION",
+        "url": "/collections/lustres-salon",
+        "resourceId": "gid://shopify/Collection/651938988368",
+        "items": [
+          {
+            "id": "gid://shopify/MenuItem/772159078736",
+            "title": "Lustres anneau",
+            "type": "COLLECTION",
+            "url": "/collections/lustres-anneau",
+            "resourceId": "gid://shopify/Collection/651938955600",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/772159111504",
+            "title": "Lustres salon",
+            "type": "COLLECTION",
+            "url": "/collections/lustres-salon",
+            "resourceId": "gid://shopify/Collection/651938988368",
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/772159144272",
+            "title": "Effet cristal",
+            "type": "COLLECTION",
+            "url": "/collections/lustres-effet-cristal",
+            "resourceId": "gid://shopify/Collection/651938922832",
+            "items": []
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/MenuItem/772159177040",
+        "title": "Plafonniers",
+        "type": "COLLECTION",
+        "url": "/collections/plafonniers",
+        "resourceId": "gid://shopify/Collection/651939021136",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/772159209808",
+        "title": "Notre histoire",
+        "type": "PAGE",
+        "url": "/pages/notre-histoire",
+        "resourceId": "gid://shopify/Page/160675103056",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/772159242576",
+        "title": "FAQ",
+        "type": "PAGE",
+        "url": "/pages/faq",
+        "resourceId": "gid://shopify/Page/160675135824",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/772159275344",
+        "title": "Contact",
+        "type": "PAGE",
+        "url": "/pages/contact",
+        "resourceId": "gid://shopify/Page/160674742608",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/772166615376",
+        "title": "Suivre votre commande",
+        "type": "HTTP",
+        "url": "/apps/parcelpanel",
+        "resourceId": null,
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Menu/306471567696",
+    "handle": "footer",
+    "title": "Menu du pied de page",
+    "items": [
+      {
+        "id": "gid://shopify/MenuItem/772159308112",
+        "title": "Notre histoire",
+        "type": "PAGE",
+        "url": "/pages/notre-histoire",
+        "resourceId": "gid://shopify/Page/160675103056",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/772159340880",
+        "title": "FAQ",
+        "type": "PAGE",
+        "url": "/pages/faq",
+        "resourceId": "gid://shopify/Page/160675135824",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/772159373648",
+        "title": "Contact",
+        "type": "PAGE",
+        "url": "/pages/contact",
+        "resourceId": "gid://shopify/Page/160674742608",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/772159406416",
+        "title": "Livraison",
+        "type": "SHOP_POLICY",
+        "url": "/policies/shipping-policy",
+        "resourceId": "gid://shopify/ShopPolicy/50191073616",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/772159439184",
+        "title": "Retours & remboursements",
+        "type": "SHOP_POLICY",
+        "url": "/policies/refund-policy",
+        "resourceId": "gid://shopify/ShopPolicy/50191040848",
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Menu/306471600464",
+    "handle": "customer-account-main-menu",
+    "title": "Menu principal du compte client",
+    "items": [
+      {
+        "id": "gid://shopify/MenuItem/772156817744",
+        "title": "Commandes",
+        "type": "CUSTOMER_ACCOUNT_PAGE",
+        "url": "https://shopify.com/94699356496/account/orders",
+        "resourceId": "gid://shopify/CustomerAccountPage/233251602768",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/772156850512",
+        "title": "Profil",
+        "type": "CUSTOMER_ACCOUNT_PAGE",
+        "url": "https://shopify.com/94699356496/account/profile",
+        "resourceId": "gid://shopify/CustomerAccountPage/233251635536",
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Menu/306472321360",
+    "handle": "footer-legal",
+    "title": "Menu légal",
+    "items": [
+      {
+        "id": "gid://shopify/MenuItem/772159471952",
+        "title": "Mentions légales",
+        "type": "SHOP_POLICY",
+        "url": "/policies/legal-notice",
+        "resourceId": "gid://shopify/ShopPolicy/50191106384",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/772159504720",
+        "title": "CGV",
+        "type": "SHOP_POLICY",
+        "url": "/policies/terms-of-service",
+        "resourceId": "gid://shopify/ShopPolicy/50190975312",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/772159537488",
+        "title": "Confidentialité",
+        "type": "SHOP_POLICY",
+        "url": "/policies/privacy-policy",
+        "resourceId": "gid://shopify/ShopPolicy/50190877008",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/772159570256",
+        "title": "Paiement",
+        "type": "PAGE",
+        "url": "/pages/conditions-paiement",
+        "resourceId": "gid://shopify/Page/160675168592",
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Menu/306503254352",
+    "handle": "footer-principal",
+    "title": "Pied de page — Menu principal",
+    "items": [
+      {
+        "id": "gid://shopify/MenuItem/772260299088",
+        "title": "Accueil",
+        "type": "FRONTPAGE",
+        "url": "/",
+        "resourceId": null,
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/772260331856",
+        "title": "Par matière",
+        "type": "COLLECTIONS",
+        "url": "/collections",
+        "resourceId": null,
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/772260364624",
+        "title": "Lustres",
+        "type": "COLLECTION",
+        "url": "/collections/lustres-salon",
+        "resourceId": "gid://shopify/Collection/651938988368",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/772260397392",
+        "title": "Plafonniers",
+        "type": "COLLECTION",
+        "url": "/collections/plafonniers",
+        "resourceId": "gid://shopify/Collection/651939021136",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/772260430160",
+        "title": "Notre histoire",
+        "type": "PAGE",
+        "url": "/pages/notre-histoire",
+        "resourceId": "gid://shopify/Page/160675103056",
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Menu/306503287120",
+    "handle": "footer-informations",
+    "title": "Pied de page — Informations",
+    "items": [
+      {
+        "id": "gid://shopify/MenuItem/772260462928",
+        "title": "Contact",
+        "type": "PAGE",
+        "url": "/pages/contact",
+        "resourceId": "gid://shopify/Page/160674742608",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/772260495696",
+        "title": "FAQ",
+        "type": "PAGE",
+        "url": "/pages/faq",
+        "resourceId": "gid://shopify/Page/160675135824",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/772260528464",
+        "title": "Mentions légales",
+        "type": "SHOP_POLICY",
+        "url": "/policies/legal-notice",
+        "resourceId": "gid://shopify/ShopPolicy/50191106384",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/772260561232",
+        "title": "Confidentialité",
+        "type": "SHOP_POLICY",
+        "url": "/policies/privacy-policy",
+        "resourceId": "gid://shopify/ShopPolicy/50190877008",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/772260594000",
+        "title": "Politique de remboursement",
+        "type": "SHOP_POLICY",
+        "url": "/policies/refund-policy",
+        "resourceId": "gid://shopify/ShopPolicy/50191040848",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/772260626768",
+        "title": "Politique de livraison",
+        "type": "SHOP_POLICY",
+        "url": "/policies/shipping-policy",
+        "resourceId": "gid://shopify/ShopPolicy/50191073616",
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/772260659536",
+        "title": "Conditions générales de vente",
+        "type": "SHOP_POLICY",
+        "url": "/policies/terms-of-service",
+        "resourceId": "gid://shopify/ShopPolicy/50190975312",
+        "items": []
+      }
+    ]
+  }
+]
