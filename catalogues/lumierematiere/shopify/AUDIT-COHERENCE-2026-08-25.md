@@ -12,18 +12,17 @@
 - **Catalogue sain** : 120 fiches actives / 629 variantes, toutes avec packshot variante ; axes lisibles (Câble, Verre, Finition, Diamètre…) ; bambou 583180/033589/280004 bien en « Câble » avec titres alignés ; 5 metafields PDP présents sur 120/120 ; prix tous dans la grille 149–499 ; « Autour de 199 € » honnête (63 fiches à 199 €, collection à 64 produits, prix d'appel 149–199).
 - **Marketing aligné** : promesse « galerie de matières » portée par le hero, la nav par matière, l'édito, le SEO collections et les PDP (matière nommée honnêtement : « composite à grain minéral », « effet cristal » en verre). Aucun mot interdit (premium, atelier, AliExpress, avis inventés) sur les surfaces client.
 
-**Ce qui cloche :** le réglage Expéditions Shopify contredit la promesse commerciale du site (P1), 31 fiches partagent des titres strictement identiques (P2, feed Shopping), et deux petits trous de nav/menu restent à recetter après publication du thème.
+**Ce qui cloche :** 31 fiches partagent des titres strictement identiques (P2, feed Shopping), et deux petits trous de nav/menu restent à recetter après publication du thème. Le P1 livraison (zones payantes / étranger) a été corrigé le 25/08 : une zone France, une méthode 0 €.
 
 ---
 
 ## P1 — bloquant avant lancement Ads
 
-### 1. Profil de livraison ≠ promesse « livraison offerte, France métropolitaine »
+### 1. Profil de livraison ≠ promesse « livraison offerte, France métropolitaine » — **corrigé 25/08**
 
-**Constat :** le profil général contient, zone France : `Standard 7,99 €` (sans condition), `Standard 0 €` (condition panier ≥ 65 €), `Express 10,99 €` — plus deux zones actives **UE (22 €)** et **International 14 pays (29 €)**.
-**Preuve :** GraphQL `deliveryProfiles` (25/08). Or FAQ Q2/Q10 (« livraison offerte… France métropolitaine », « nous livrons en France métropolitaine ») et politique d'expédition ne connaissent ni Express, ni étranger, ni 7,99 €.
-**Impact :** au checkout un client FR voit trois tarifs dont deux payants ; un client belge peut commander à 22 € alors que les CGV ne couvrent pas ce cas ; mismatch policies/checkout = déclencheur GMC n°1.
-**Reco (Hakim, réglages Expéditions, ~10 min) :** garder un seul `Standard 0 €` sans condition sur la zone France ; supprimer Express et les zones UE/International (ou, si l'international est assumé, réécrire policies + FAQ — déconseillé avant GMC).
+**Constat (avant) :** le profil général contenait, zone France : `Standard 7,99 €` (sans condition), `Standard 0 €` (condition panier ≥ 65 €), `Express 10,99 €` — plus deux zones actives **UE (22 €)** et **International 14 pays (29 €)**.
+**Correction :** `shopify/configure_shipping.py` — une seule zone **France** (pays FR), une seule méthode **Livraison offerte 0,00 €** sans condition. Standard, Express, UE et International supprimés. Relecture GraphQL `deliveryProfiles` : 1 zone / 1 méthode / 0 €.
+**Reste Hakim :** Réglages → Marchés (scope `read_markets` absent du token CLI) — désactiver tout marché hors France.
 
 ### 2. Recette impossible tant que Full Stack n'est pas publié
 
