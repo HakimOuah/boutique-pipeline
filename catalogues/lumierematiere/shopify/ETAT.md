@@ -7,6 +7,7 @@
 
 ## Fait
 
+- **Sourcing appliques 26/08** : 5 candidats quotés (pierre / travertin), pas 30. Rendu 36–60 €, PV 109–119 €, marges 39–58 € HT. Confiance B+ (PDP navigateur bloquée = 0 A). Première vague : `1005010526588683` galet, `1005010525311650` liseuse noyer, `1005009931474088` duo travertin ; n°4 (`1005009658358794`) seulement si 22–38 j passe. Formes Lustria (oiseau, verre, laiton, rotin, extérieur 220 V) : 0 fiche quotable. **Rien sur Shopify, aucun GO fournisseur.** Rapport `SOURCING-APPLIQUES-2026-08-26.md`.
 - **« Autour de 199 € » remplacée 26/08** : grille home, CTA final et reco `/cart` pointent vers **`suspensions-salon`** (« Pour le salon »). `selection-199` dépubliée, 301 `/collections/selection-199` → `/collections/suspensions-salon`. Vérifié en ligne. Script `replace_selection_199.py`, rapport `SELECTION-SALON-2026-08-26.md`.
 - **LM-071 26/08** : le proxy 222,99 € était la médiane des SKU, pas l’entrée. Entrée Ø 46 cm = **151,69 € rendu** (quote A). Pas de copie moins chère trouvée sur AliExpress. 6 variantes XXL remontées au plancher : 100 cm 499→**639 €**, 120 cm 399→**429 €**, 180 cm 499→**889 €** (le 180 cm à 499 € était une perte). 46/60/76 cm inchangés. Script `raise_lm071.py`, rapport `SOURCING-LM071-2026-08-26.md`.
 - **Collections par pièce 26/08** : **8 créées, 2 renommées, 110 rattachements**. Les 8 nouvelles adressent **44 140 recherches/mois** cumulées, les 2 renommages 27 430 de plus. Boutique passée de 14 à 23 collections, dont **19 publiées avec SEO complet** (`seo_title` + `seo_description` + `description_html` ≥ 700 c.).
@@ -89,3 +90,4 @@ Coût DSers (unité) + **2 € de fret** (quotes FR : 1,99 € / 0 €). Concurr
 4. Décider du sort de **LM-045** (listing AE mort).
 5. 5 fiches « Unmapped » DSers (fantômes API) : à supprimer dans l’app si elles sont encore là.
 6. Vérifier `suspension-bois-led-453740` et `suspension-verre-noir-201424` (réduites à 1 variante sur des codes aveugles) face au listing AE.
+7. **Appliques** : commander 1–3 (galet, liseuse, duo travertin, même marque `pumous`). Le n°4 (22–38 j) seulement si le délai passe. Pas de publication Shopify sans feu vert.
