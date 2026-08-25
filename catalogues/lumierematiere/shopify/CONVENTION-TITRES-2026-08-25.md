@@ -9,11 +9,12 @@ Règle unique pour les 120 fiches. Vaut pour le titre Shopify, donc pour le flux
 | Titres Shopping concurrents France | 1 094 titres, 9 requêtes | `TITRES-SHOPPING-CONCURRENCE-2026-08-25.md` |
 | Montre Avenue + Mille et une Nuisette (catalogues complets) | 364 + 777 titres | `GABARITS-BOUTIQUES-REFERENCE-2026-08-25.md` |
 | Recherches associées et questions Google | 8 requêtes de tête | `serp-recherches-associees.json` |
-| Volumes SEMrush France | **non mesurés** — Chrome bloque le pilotage, autorisation manuelle requise | `MOTS-CLES-TITRES-2026-08-25.md` |
+| Volumes SEMrush France | **45 expressions mesurées** le 25/08 | `MOTS-CLES-TITRES-2026-08-25.md` |
 
-> Le classement par volume manque. Les règles ci-dessous reposent sur l'offre (titres réellement
-> publiés) et sur les formulations que Google lui-même propose en recherches associées, pas sur des
-> volumes mesurés. À revalider quand SEMrush sera accessible.
+> **Mesuré le 25/08 au soir.** Les volumes confirment la forme nue sans « en » (1 900 contre 1 300)
+> et le retrait de la dimension (`suspension 40 cm` = 20/mois). Ils corrigent en revanche trois
+> décisions : les mots de pièce valent bien plus que prévu, deux familles sont nommées sur des mots
+> morts, et deux mots de vocabulaire sont à remplacer. Voir § « Corrections imposées par les volumes ».
 
 ---
 
@@ -113,6 +114,52 @@ Autres modificateurs attestés en recherches associées, utilisables tels quels 
 
 `XXL` est une trouvaille utile : sur `suspension rotin XXL`, c'est la façon dont un acheteur nomme
 une grande pièce. Pour nos diamètres de 100 à 150 cm, `XXL` vaut mieux qu'une dimension chiffrée.
+
+## Corrections imposées par les volumes mesurés
+
+### 1. Le mot de pièce prime sur la matière quand l'usage est réel
+
+| Expression | Volume | vs matière |
+|---|---:|---|
+| `lustre chambre` | 9 900 | > toutes nos familles matière sauf rotin |
+| `plafonnier salon` | 8 100 | = `suspension rotin` |
+| `plafonnier cuisine` | 5 400 | ×2 `suspension verre` |
+| `suspension cuisine` | 4 400 | ×2,3 `suspension bambou` |
+| `plafonnier chambre` | 4 400 | ×2,3 `suspension bambou` |
+| `suspension salon` | 3 600 | > `suspension bois` |
+
+Le marché ne met un mot de pièce que dans 18,3 % des titres : **c'est une place vide**.
+À utiliser dès que l'usage est vrai, jamais en liste.
+`salle à manger` est faible en suspension (590) mais bon en lustre (1 300).
+
+### 2. Deux familles portent un mot mort
+
+| Mot du catalogue | Volume | À remplacer par |
+|---|---:|---|
+| `lustre anneau` | **20** | `lustre led` (1 600) · `plafonnier led` (14 800) · `lustre salon` (22 200) · `lustre moderne` (2 400) |
+| `lustre effet cristal` | **20** | **`lustre pampilles` (1 600)** — n'affirme aucune matière, donc reste honnête |
+| `suspension pierre` | 170 | `suspension travertin` (480) **là où la photo le justifie** |
+
+`suspension anneau` ne sauve rien : 50/mois.
+`lustre cristal` vaut 1 600 mais revendique une matière que nos produits n'ont pas : **interdit**
+(risque `misrepresentation` Merchant Center). `pampilles` dit la forme, pas la matière.
+
+### 3. Deux mots de vocabulaire à remplacer
+
+| Écrire | Plutôt que | Volumes |
+|---|---|---|
+| `boule` | `globe` | 1 000 contre 320 |
+| `osier` (en second mot du rotin) | — | 1 600, jamais utilisé chez nous |
+
+### 4. « Naturel » ne sert à rien
+
+`suspension bambou naturel` = **20**/mois. `suspension rotin naturel` = 140.
+Le mot occupe 8 caractères pour rien : le remplacer par une forme ou une pièce.
+
+### 5. Couleurs, par ordre d'utilité
+
+`blanche` 1 300 · `noire` 590 · `dorée` 170.
+Le doré reste un critère d'arbitrage visuel, pas un mot-clé de tête.
 
 ## Ce qui est légitime et ne doit pas être confondu avec du remplissage
 

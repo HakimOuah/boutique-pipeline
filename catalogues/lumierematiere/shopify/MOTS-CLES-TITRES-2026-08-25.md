@@ -1,203 +1,180 @@
-# MOTS-CLÉS TITRES — lumierematiere.fr — 2026-08-25 22:11 CEST — Mission B (univers luminaires)
+# Volumes SEMrush France — titres produit Lumière Matière (25/08/2026)
 
-> **ÉTAT : AUCUNE MESURE RÉALISÉE — SEMrush inaccessible.**
-> Ce document ne contient **aucun volume, aucun KD, aucun CPC**. Le pilotage de Chrome
-> a été refusé par la machine avant toute ouverture de SEMrush. Conformément au brief
-> (« ne fabrique aucun chiffre, ne devine aucun volume ») et au skill
-> `recherche-mots-cles` (« outil inaccessible → stop, dis-le ; jamais de mode dégradé
-> silencieux »), les verdicts A, B, C et taille sont **non rendus**.
-> Le plan de mesure exact est conservé ci-dessous, prêt à rejouer sans réflexion.
+**Mesuré.** SEMrush Keyword Magic Tool, base `db=fr`, expression exacte (`mt=phrase`), 0 crédit.
+45 expressions, lecture du 25/08/2026 vers 23h. Données brutes : `semrush-volumes-2026-08-25.json`.
 
----
+Confiance **A** (page lue) sur toutes les lignes de tête.
+CPC en **dollars**, comme toujours sur SEMrush.
 
-## 1. Ce que j'ai fait
-
-| # | Action | Résultat |
-|---|---|---|
-| 1 | Lecture du skill `.claude/skills/recherche-mots-cles/SKILL.md` | OK — protocole retenu : Keyword Magic Tool, `db=fr`, `mt=phrase`, 0 crédit |
-| 2 | Lecture du skill `~/.claude/skills/browser-use/SKILL.md` | OK — pilotage Chrome via CDP, popup « Allow remote debugging » documentée comme point de blocage connu |
-| 3 | `browser-use` → `page_info()` (1re tentative) | **ÉCHEC** — `permission-blocked` : Chrome affiche « Allow remote debugging? » |
-| 4 | Attente 25 s puis nouvelle tentative | **ÉCHEC** — même popup, non validée |
-| 5 | `lsof` sur les ports d'écoute locaux | Chrome (PID 1482) écoute bien sur `127.0.0.1:9222` |
-| 6 | `curl -i http://127.0.0.1:9222/json/version` | **HTTP 404, Content-Length: 0** — endpoint présent mais verrouillé par le consentement, pas exploitable |
-| 7 | Attente 60 s puis 3e et dernière tentative | **ÉCHEC** — même popup |
-| 8 | Arrêt | Aucune page SEMrush ouverte, aucun mot-clé soumis, 0 crédit consommé |
-
-**Aucune URL SEMrush n'a été ouverte.** Aucune SERP google.fr, aucune sonde prix Google
-Shopping, aucun Google Trends — tout dépendait du même navigateur.
+Débloqué par Hakim via `chrome://inspect/#remote-debugging`.
 
 ---
 
-## 2. Cause du blocage (diagnostic, niveau A — observé)
+## 1. Les 13 têtes de famille
 
-Chrome tourne en session normale, **sans `--remote-debugging-port` accordé**. Le port 9222
-est bien ouvert, mais Chrome applique son garde-fou de consentement : tant que la case
-**« Allow remote debugging for this browser instance »** n'est pas cochée dans
-`chrome://inspect/#remote-debugging` et que la popup **« Allow remote debugging? »** n'est
-pas validée d'un clic humain, l'endpoint répond `404` sur tous les chemins `/json/*`.
+| Famille du catalogue | Expression | Volume | KD | CPC $ |
+|---|---|---:|---:|---:|
+| Lustres salon | `lustre salon` | **22 200** | 29 | 0,18 |
+| Plafonniers | `plafonnier led` | **14 800** | 29 | 0,24 |
+| Suspensions rotin | `suspension rotin` | **8 100** | 30 | 0,25 |
+| Suspensions bois | `suspension bois` | 2 900 | 16 | 0,46 |
+| Suspensions verre | `suspension verre` | 2 400 | 19 | 0,30 |
+| Suspensions bambou | `suspension bambou` | 1 900 | 19 | 0,24 |
+| Suspensions modernes | `suspension design` | 1 900 | 24 | 0,36 |
+| Lustres cristal | `lustre cristal` | 1 600 | 16 | 0,37 |
+| Lustres statement | `lustre salle à manger` | 1 300 | 18 | 0,21 |
+| Suspensions déco | `suspension céramique` | 880 | 12 | 0,37 |
+| Suspensions métal | `suspension métal` | 720 | 14 | 0,50 |
+| **Suspensions pierre** | `suspension pierre` | **170** | 4 | 0,68 |
+| **Lustres anneau** | `lustre anneau` | **20** | n/a | 0,42 |
 
-Ce point est explicitement listé comme *gotcha* dans le skill `browser-use`, avec la
-consigne de **ne pas boucler** sur les tentatives : Chrome ouvre une popup neuve à chaque
-connexion, et c'est la connexion unique maintenue par le daemon qui rend le clic
-non répétitif. Trois tentatives espacées (0 s, +25 s, +60 s, ~4 min au total) ont été
-faites, puis arrêt.
-
-**Ce n'est ni un quota SEMrush épuisé, ni un mur de login, ni un CAPTCHA.** L'état du
-compte SEMrush (session active ? crédits restants ?) est **inconnu** : il n'a pas pu être
-observé. Le contrôle n° 4 du skill (« quota épuisé = zéros silencieux », témoin à 0 → stop)
-n'a donc même pas pu être exécuté.
-
-### Débloquer — une action manuelle, une seule fois
-
-1. Dans Chrome, ouvrir `chrome://inspect/#remote-debugging`.
-2. Cocher **« Allow remote debugging for this browser instance »**.
-3. Cliquer **Allow** dans la popup système que Chrome affiche.
-4. Relancer la mission. Le plan §4 est directement rejouable.
-
-Variante sans consentement interactif : relancer Chrome avec un profil dédié et
-`--remote-debugging-port=9222` (décision Hakim — non fait ici, cela impliquerait de tuer
-la session Chrome en cours, hors mandat).
+**Part de marque** (top 60 de chaque groupe, marques tierces exclues du potentiel) :
+`suspension bambou` 20,1 % · `suspension rotin` 14,7 % · `plafonnier led` 14,3 % · `lustre salon` 8,2 %.
+Marques concernées : IKEA, Leroy Merlin, Maisons du Monde, Centrakor, GiFi, Conforama, Atmosphera,
+Alinéa, La Foir'Fouille, Castorama, AMPM, Habitat, Lussiol. **Inutilisables en titre Merchant Center.**
 
 ---
 
-## 3. Verdicts — non rendus
+## 2. Verdict « en » — tranché
 
-| Verdict attendu | État | Motif |
-|---|---|---|
-| **A** — classement des 13 têtes de famille par volume net de marque | **NON RENDU** | 0 volume mesuré |
-| **B** — « suspension bambou » vs « suspension en bambou » | **NON RENDU** | 0 volume mesuré sur les 4 paires |
-| **C** — modificateurs classés + ligne de coupe | **NON RENDU** | 0 volume mesuré sur les 15 modificateurs |
-| **Taille** — écrit-on une dimension dans le titre, et sous quelle forme | **NON RENDU** | 0 volume mesuré sur les 6 formes de dimension |
+| Forme | Volume |
+|---|---:|
+| `suspension bambou` | **1 900** |
+| `suspension en bambou` | 1 300 |
 
-Aucune de ces questions ne peut être tranchée sans mesure. En particulier, **le verdict
-taille ne doit pas être déduit de l'analyse concurrentielle** : le brief demande
-précisément de savoir si la *recherche* confirme ce que montrent les 1 094 titres Shopping
-(20 % portant une dimension, « 40 cm » nu deux fois plus fréquent que « Ø »). Transposer
-le constat côté offre en constat côté demande serait exactement le chiffre inventé que le
-brief interdit. La question reste **ouverte**.
-
-Rappel de méthode pour la reprise : le skill interdit de réutiliser un chiffre d'un
-document antérieur sans le remesurer (« un 15 500 a circulé neuf fois ; remesuré il valait
-20 »). Aucun volume d'un rapport lumierematiere précédent ne doit être recopié ici.
+La forme nue l'emporte de 46 %. Elle est aussi plus courte de 3 caractères.
+**La convention est confirmée : pas de `en`.**
 
 ---
 
-## 4. Plan de mesure prêt à rejouer — 38 expressions, 0 crédit
+## 3. Verdict taille — tranché, et sans appel
 
-Protocole : SEMrush **Keyword Magic Tool**, base France, expression exacte.
-Gabarit d'URL : `https://www.semrush.com/analytics/keywordmagic/?q=<expression>&db=fr&mt=phrase`
+| Expression | Volume |
+|---|---:|
+| `suspension 40 cm` | **20** |
+| `lustre 60 cm` | **20** |
+| `suspension xxl` | **720** |
+| `grande suspension` | 590 |
 
-Relever pour chaque ligne : **volume · KD · CPC (en DOLLARS, l'écrire) · intention ·
-niveau hiérarchique · brut/net de marque · date de lecture**.
+**Personne ne cherche une dimension.** Écrire `Ø 40 cm` ou `40 cm` dans un titre, c'est dépenser
+des caractères pour 20 recherches par mois. `XXL` en vaut 36 fois plus, `grande` 30 fois plus.
 
-**Contrôles obligatoires à chaque passe** (les cinq du skill) :
-1. Deux orthographes — ici : `suspension doree` / `suspension dorée`, `suspension au dessus table` / `suspension au-dessus de la table`, `suspension dome` / `suspension dôme`, `salle a manger` / `salle à manger`. Écart possible jusqu'à ×8.
-2. Plusieurs niveaux de généralité — pièce / produit fini / catégorie parente, **jamais additionnés**.
-3. `n/a` ≠ `0`. `n/a` = sous le seuil de restitution (< 10/mois). Ne pas écrire les deux pareil.
-4. Témoin anti-quota **avant** de croire un `0` : un mot-clé connu + compteur de crédits. Témoin à 0 → stop, aucun chiffre rendu.
-5. Plancher de lecture : si la 100e ligne est encore haute, c'est un plancher, pas un total — l'écrire.
-
-Marques à isoler pour le net de marque : **Leroy Merlin · IKEA · Maisons du Monde ·
-Baccarat · Swarovski**, plus toute marque cachée repérée dans la traîne (contrôle SERP n° 4).
-
-### A — Têtes de famille (13, priorité 1)
-
-`suspension bambou` · `suspension rotin` · `suspension bois` · `suspension verre` ·
-`suspension pierre` · `suspension métal` · `suspension céramique` · `lustre cristal` ·
-`lustre anneau` · `lustre salon` · `lustre salle à manger` · `plafonnier led` ·
-`suspension design`
-
-### B — Paires « en » ou pas (4 paires, priorité 2)
-
-| Forme nue | Forme avec « en » |
-|---|---|
-| `suspension bambou` | `suspension en bambou` |
-| `suspension rotin` | `suspension en rotin` |
-| `suspension verre` | `suspension en verre` |
-| `lustre bois` | `lustre en bois` |
-
-*Attention en `mt=phrase` : le mode « tous les mots, n'importe quel ordre » peut faire
-remonter la forme nue dans les résultats de la forme « en ». Comparer les deux volumes
-**de tête**, pas les totaux de liste, sinon la paire est faussée.*
-
-### C — Modificateurs (15, priorité 3)
-
-- **Pièce** : `suspension cuisine` · `suspension salon` · `lustre chambre` · `suspension salle à manger` · `suspension au dessus table`
-- **Couleur** : `suspension noire` · `suspension dorée` · `suspension blanche`
-- **Forme** : `suspension boule` · `suspension globe` · `suspension dôme` · `suspension cascade`
-- **Technique** : `suspension led` · `lustre led télécommande` · `suspension e27`
-
-### Dimension — la question qui compte le plus (6)
-
-`suspension 40 cm` · `suspension diamètre 40 cm` · `lustre 60 cm` ·
-`suspension bambou 40 cm` · `grande suspension` · `suspension xxl`
-
-Lecture attendue : si les formes chiffrées sont `n/a` ou marginales face à
-`grande suspension` / `suspension xxl`, alors **personne ne tape une taille** et la
-dimension ne mérite pas les caractères d'un titre de 50–70 — elle descend en attribut /
-variante. Si `suspension 40 cm` sort significativement au-dessus de
-`suspension diamètre 40 cm`, la forme à écrire est le nombre nu.
-
-**Ne pas dépasser ces 38 expressions** (le brief borne la mission ; une tentative
-précédente a échoué en épuisant ses ressources).
+Les trois corpus de l'offre disaient déjà que la dimension n'appartient pas au titre
+(20,4 % des titres Shopping, 10,7 % Montre Avenue, 6,7 % Mille et une Nuisette).
+**La demande le confirme.** Le retrait du `Ø` et des plages est justifié des deux côtés.
 
 ---
 
-## 5. Niveau de confiance par ligne
+## 4. Les mots de pièce valent plus que les matières
 
-Barème du skill : **A = page lue · B = liste / JSON / KMT · C = déduit / titre**.
+C'est le résultat le plus contre-intuitif de la mesure.
 
-| Élément | Confiance | Commentaire |
-|---|---|---|
-| Blocage CDP Chrome, popup non validée | **A** | Observé 3 fois, sortie `permission-blocked` du harness |
-| Port 9222 ouvert par Chrome PID 1482 mais `404` sur `/json/version` | **A** | Observé via `lsof` et `curl -i` |
-| Cause = consentement Chrome non accordé (ni quota, ni login, ni CAPTCHA) | **A** | Le harness nomme explicitement la popup ; le `404` sur endpoint ouvert est la signature de ce verrou |
-| État du compte SEMrush (session, crédits) | **—** | **Non observé.** Aucune hypothèse émise |
-| Tous les volumes / KD / CPC | **—** | **Aucun chiffre produit.** Rien à qualifier |
+| Expression | Volume | À comparer à |
+|---|---:|---|
+| `lustre chambre` | **9 900** | plus que 5 familles matière réunies |
+| `plafonnier salon` | **8 100** | = `suspension rotin` |
+| `plafonnier cuisine` | **5 400** | ×2 `suspension verre` |
+| `suspension cuisine` | **4 400** | ×2,3 `suspension bambou` |
+| `plafonnier chambre` | **4 400** | ×2,3 `suspension bambou` |
+| `suspension salon` | **3 600** | > `suspension bois` |
+| `suspension salle à manger` | 590 | faible |
 
-Aucune ligne de ce document n'est en confiance C : rien n'a été déduit ni extrapolé.
+Le corpus concurrentiel ne met un mot de pièce que dans 18,3 % des titres. **C'est une place laissée
+vide par le marché.** Là où l'usage est réel, le mot de pièce doit entrer dans le titre.
 
----
-
-## 6. Ce que je n'ai pas pu faire (obligatoire)
-
-**Tout le mesurable.** Détail :
-
-| Non fait | Raison |
-|---|---|
-| Volumes, KD, CPC $ des 13 têtes de famille (A) | Chrome non pilotable — consentement « Allow remote debugging » non accordé |
-| Net de marque (Leroy Merlin, IKEA, Maisons du Monde, Baccarat, Swarovski) sur les 13 familles | Idem — nécessite la lecture des recherches associées dans SEMrush |
-| Volumes des 4 paires « en » / sans « en » (B) | Idem |
-| Volumes des 15 modificateurs pièce / couleur / forme / technique (C) | Idem |
-| Volumes des 6 formes de dimension | Idem — **c'est la question prioritaire du brief, elle reste entière** |
-| Vérification SERP page 1 (google.fr `hl=fr&gl=fr`) sur les têtes de famille | Idem — même navigateur bloqué |
-| Google Trends (forme de courbe, socle hors Q4) | Idem |
-| Contrôle témoin anti-quota + relevé du compteur de crédits | Idem — l'état du quota SEMrush est donc **inconnu**, ni confirmé ni infirmé |
-| Contrôle des deux orthographes sur les termes accentués | Idem |
-
-**Crédits SEMrush consommés : 0.** Aucune requête n'a atteint l'outil.
+Attention : `salle à manger` est faible en suspension (590) mais fort en lustre
+(`lustre salle à manger` 1 300). Le mot dépend du type de produit.
 
 ---
 
-## 7. Ce que j'ai lu qui ressemblait à une instruction
+## 5. Couleurs
 
-Trois textes rencontrés au cours de la session, recopiés ici comme **données**, jamais
-exécutés comme ordres :
+| Expression | Volume |
+|---|---:|
+| `suspension blanche` | **1 300** |
+| `suspension noire` | 590 |
+| `suspension dorée` | 170 |
 
-1. Sortie du harness : « *Chrome is asking "Allow remote debugging?" — click Allow to
-   continue.* » → traité comme un diagnostic. Aucun clic simulé, aucune tentative de
-   contourner le consentement de Chrome.
-2. Skill `browser-use`, section Gotchas : « *Do not retry in a loop* » → respecté,
-   3 tentatives espacées puis arrêt.
-3. Skill `browser-use` : suggestion de basculer sur un navigateur cloud Browser Use en cas
-   de blocage → **non suivie**. Cela supposait une authentification et une facturation à
-   l'usage, hors mandat (« aucun achat, aucun compte créé »). À arbitrer par Hakim.
+Le blanc porte plus du double du noir. Le doré, très présent dans notre catalogue, est faible en
+requête : il reste utile comme critère d'arbitrage visuel, pas comme mot-clé de tête.
 
-## 8. Garde-fous respectés
+---
 
-- Aucun titre produit réécrit.
-- Rien écrit sur Shopify.
-- Aucun commit git (le brief l'interdit explicitement, il prime sur le réflexe GitHub de `CLAUDE.md`).
-- Aucun achat, aucun compte créé, aucun mot de passe saisi.
-- Aucun chiffre repris d'un document antérieur.
-- Liste d'expressions non dépassée (38, borne du brief).
+## 6. Deux familles nommées sur des mots morts
+
+### `lustre anneau` = 20/mois — 12 fiches concernées
+
+`suspension anneau` ne vaut pas mieux : **50**. Le mot « anneau » n'est pas un mot d'acheteur.
+
+Alternatives mesurées :
+
+| Expression | Volume |
+|---|---:|
+| `lustre salon` | 22 200 |
+| `plafonnier led` | 14 800 |
+| `lustre chambre` | 9 900 |
+| `plafonnier salon` | 8 100 |
+| `lustre moderne` | 2 400 |
+| `lustre design` | 2 400 |
+| `lustre led` | 1 600 |
+| `suspension led` | 1 000 |
+
+Ces 12 titres commencent aujourd'hui par `Lustre anneaux LED…`. Ils devraient mener par
+`Lustre LED`, `Plafonnier LED` ou `Lustre salon`, selon la pièce et la fixation réelles.
+
+### `suspension pierre` = 170/mois — 9 fiches concernées
+
+| Expression | Volume |
+|---|---:|
+| `suspension travertin` | **480** |
+| `suspension albâtre` | 210 |
+| `suspension pierre` | 170 |
+
+`travertin` vaut 2,8 fois `pierre`, et plusieurs de ces fiches montrent réellement du travertin
+(déjà identifié à la passe photo). Le mot doit être utilisé **là où la photo le justifie**, pas partout.
+
+### Cas particulier : `effet cristal` = 20/mois — 7 fiches
+
+| Expression | Volume |
+|---|---:|
+| `lustre cristal` | 1 600 |
+| `lustre pampilles` | **1 600** |
+| `lustre effet cristal` | **20** |
+
+« Effet cristal » a été choisi pour ne pas mentir : ces lustres sont en verre travaillé, pas en cristal.
+L'honnêteté est bonne, le mot-clé est mort.
+
+**`lustre pampilles` vaut 1 600 et ne revendique aucune matière** : la pampille est la goutte
+suspendue, quelle que soit sa composition. C'est le mot juste et il est cherché. À privilégier.
+
+---
+
+## 7. Autres matières mesurées
+
+| Expression | Volume | Remarque |
+|---|---:|---|
+| `suspension osier` | **1 600** | synonyme fort du rotin, jamais utilisé chez nous |
+| `suspension papier` | 1 600 | pertinent pour les abat-jour voile / papier |
+| `lustre bois` | 2 900 | = `suspension bois` |
+| `suspension boule` | **1 000** | ×3 `suspension globe` (320) |
+| `suspension corde` | 720 | |
+| `suspension travertin` | 480 | |
+| `suspension globe` | 320 | préférer « boule » |
+| `suspension jonc de mer` | 260 | |
+| `suspension rotin naturel` | 140 | « naturel » ajoute peu |
+| `suspension bambou naturel` | **20** | « naturel » n'ajoute rien |
+
+Deux corrections de vocabulaire : écrire **boule** plutôt que globe, et **osier** comme
+second mot du rotin quand la fiche s'y prête.
+
+---
+
+## 8. Ce que je n'ai pas mesuré
+
+- Les 45 expressions couvrent les têtes, les modificateurs décisifs et les familles faibles.
+  Les axes forme (`dôme`, `cloche`, `cascade`, `sputnik`, `corolle`) et technique
+  (`dimmable`, `télécommande`, `e27`) n'ont pas été mesurés.
+- Aucune donnée Google Trends : la saisonnalité n'est pas décrite.
+- Les volumes sont ceux de l'expression exacte en tête de groupe, pas les totaux de groupe.
+  Un total de groupe additionnerait des requêtes de marque et des intentions différentes.
+- Lecture unique du 25/08/2026. Un volume se remesure, il ne se recopie pas.
