@@ -15,7 +15,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
-from apply_fullstack import theme_file, upsert_theme_file  # noqa: E402
+from apply_fullstack import theme_file, upsert_theme_file, swap_editorial_video  # noqa: E402
 
 BACKUP = ROOT / "backups" / "2026-08-25-home-enrichie"
 
@@ -340,6 +340,7 @@ def main() -> None:
         "<p><strong>Matière visible</strong><br/>Bambou tissé, rotin, bois, pierre ou verre : "
         "la texture de la photo est celle qui joue avec la lumière chez vous.</p>"
     )
+    swap_editorial_video(data["sections"]["custom_section_k9aPjP"])
 
     # 3. La sélection 199 € passe en scheme-1 (le bénéfice pièce prend le fond chaud).
     data["sections"]["collection_featured_JXRpw3"]["settings"]["color_scheme"] = "scheme-1"

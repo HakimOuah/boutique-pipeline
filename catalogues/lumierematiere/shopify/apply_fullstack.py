@@ -360,6 +360,45 @@ def collections_featured(
     return section
 
 
+EDITORIAL_LIFESTYLE = "shopify://shop_images/lumierematiere-home-table.jpg"
+
+
+def swap_editorial_video(editorial: dict, image_ref: str = EDITORIAL_LIFESTYLE) -> None:
+    """Remplace le placeholder vidéo de « La matière fait la lumière » par une photo lifestyle."""
+    blocks = editorial.setdefault("blocks", {})
+    order = editorial.setdefault("block_order", [])
+    image_block = {
+        "type": "image",
+        "name": "t:image",
+        "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "image": image_ref,
+            "show_placeholder": False,
+            "link": "",
+            "image_ratio": "adapt",
+            "image_width_desktop": 100,
+            "image_width_mobile": 100,
+            "enable_rounded_corners": True,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": "",
+        },
+        "blocks": {},
+    }
+    blocks["image_lifestyle"] = image_block
+    if "video_7eB4wN" in blocks:
+        del blocks["video_7eB4wN"]
+    new_order: list[str] = []
+    for bid in order:
+        if bid == "video_7eB4wN":
+            bid = "image_lifestyle"
+        if bid not in new_order and bid in blocks:
+            new_order.append(bid)
+    if "image_lifestyle" not in new_order:
+        new_order.append("image_lifestyle")
+    editorial["block_order"] = new_order
+
+
 def patch_index(hero_image: str) -> None:
     data = theme_file("templates/index.json")
     hero_block = data["sections"]["image_banner_VXNP89"]["blocks"]["image_banner_dBEabG"]
@@ -408,6 +447,7 @@ def patch_index(hero_image: str) -> None:
     )
     ed_blocks["button_gNYHT8"]["settings"]["label"] = "Notre histoire"
     ed_blocks["button_gNYHT8"]["settings"]["link"] = "shopify://pages/notre-histoire"
+    swap_editorial_video(editorial)
 
     news = data["sections"]["custom_section_qetdex"]
     news["settings"]["color_scheme"] = "scheme-2"
