@@ -5,10 +5,11 @@
 **Compte API :** `contact@lumierematiere.fr` (auth CLI `shopify store auth`)  
 **Thème de travail (non publié) :** `copie-de-fullstack-2-3` · `gid://shopify/OnlineStoreTheme/186708001104`  
 **Prévisualisation Full Stack :** https://nzefxg-gg.myshopify.com/?preview_theme_id=186708001104  
-**Thème publié (MAIN) :** Helio · `gid://shopify/OnlineStoreTheme/186709180752` — ne pas y coller de DA ; Hakim publie. `page.faq.json` y a été cloné (identique à `page.json`) pour que le suffixe FAQ vive aussi en live.
+**Thème publié (MAIN) :** Full Stack `copie-de-fullstack-2-3` · `gid://shopify/OnlineStoreTheme/186708001104` — publié par Hakim le 25/08 soir, mot de passe retiré. Helio et UNIVERS restent en brouillon.
 
 ## Fait
 
+- **Panier 25/08 soir (recette 12b)** : bannière franco (plus de barre « plus que 30 € »), upsell « À regarder aussi » (4 handles, max 2, AJAX), accordéons retours 30 j + livraison offerte, grille « Autour de 199 € » sous `/cart`. Tiroir + page. Script : `shopify/patch_cart.py`. Helio / UNIVERS non écrits.
 - **SEO accueil 25/08 soir** : titre `Suspensions et lustres par matière | Lumière Matière` (52/70), méta 148/320, image de partage 1200×628 (logo charbon sur papier `#F6F3EC`). Script : `shopify/set_homepage_seo.py`. Metafields `global.title_tag` / `description_tag` / `social_sharing_image`. 0 tiret cadratin / demi-cadratin dans le texte client (pages, policies, home, header, footer, 14 collections, 120 fiches, 536 valeurs d’option, 747 alt). Cadence machine cassée (anaphores « matière / lumière », tricolons, ouvertures identiques). Rapports : `HUMANISATION-PAGES-2026-08-25.md`, `HUMANISATION-THEME-2026-08-25.md`, `HUMANISATION-PDP-2026-08-25.md`, `HUMANISATION-OPTIONS-2026-08-25.md`. Helio / UNIVERS non écrits.
 - **Libellés de variantes + alt 25/08 soir** : 60 valeurs renommées (15 fiches), 747 alt réécrits, 0 cadratin, 0 alt vide. Trois sélecteurs qui mentaient au SKU corrigés (lot de 2 vs unité sur 709819 et 104055 ; noir non annoncé sur 957153 ; températures doublonnées sur 343987). SKU 602/629 inchangés (`variantStrategy: LEAVE_AS_IS`). Script : `shopify/humanise_options.py`. 9 `specs_html` réalignés via `push_copy` seulement.
 - **120 fiches 25/08 soir** : `copy OK 120/120`, titres uniques 120/120 (13 groupes de doublons / 32 fiches). 56 titres réécrits parce que la photo contredisait le nom ; 31 sources lumineuses retypées (plus de « LED ou E27 » sur des fiches sans cet axe). Option `suspension-effet-pierre-092465` : « Blanc chaud » → **Pierre claire** (SKU inchangés). Script : `shopify/humanise_pdp.py` + `apply_pdp.push_copy` seulement — **ne pas lancer `apply_pdp.py` en entier**.
@@ -57,7 +58,7 @@ Coût DSers (unité) + **2 € de fret** (quotes FR : 1,99 € / 0 €). Concurr
 
 ## À faire Hakim
 
-1. Prévisualiser Full Stack puis **publier** (Helio est encore MAIN) : https://nzefxg-gg.myshopify.com/?preview_theme_id=186708001104. QA mobile 375. Recette checkout (wallets : Apple Pay, Shop Pay, PayPal — pas Google Pay).
+1. Recette checkout (wallets : Apple Pay, Shop Pay, PayPal). QA mobile 375 du panier (tiroir + `/cart`).
 2. **GMC : ne pas créer maintenant.** Workspace créé. Faire vivre le domaine ≥ 30 jours + le compte Google, Search Console branchée (Hakim). Soumission Merchant Center seulement après.
 3. CM2C : ajouter lumierematiere.fr si le contrat est par site.
 4. Décider du sort de **LM-045** (listing AE mort).
