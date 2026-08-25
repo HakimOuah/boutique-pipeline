@@ -421,5 +421,6 @@ concurrent facultatif, concept/listing/revue humaine maintenus.
 - Concurrent de référence : 48 fiches produit, 11 collections thématiques plus `frontpage`, et une matrice 3–12 kg observées via les sitemaps/endpoints publics.
 - Fournisseurs : 4 fiches exactes contrôlées ; 2 produits réellement lestés, 1 seul économiquement plausible, 0 backup européen exact.
 - SEMrush réactivé : base France confirmée, 918 variantes / 61 080 recherches brutes ; top 100 nettoyé. Poids 5 kg 530, 7 kg 430, 6 kg 400 ; principaux formats 220x240 170, 240x260 90, 200x200 70, 160x200 50. Marques, enfant, santé et information séparés.
+- Google Trends France cinq ans : demande installée et automne-hiver 2,86 fois plus fort que mai-août ; 2026 à période comparable -15,1 % vs 2025, mais +10,4 % vs 2024. Saison 2025-2026 deuxième plus forte de la série.
 - Verdict inchangé : `TECHNICAL_WATCH`, décision humaine `PENDING_HAKIM`.
 - Rapport : [deep dive couverture lestée](runs/20260824-232503-q4-validation/deep-dive-couverture-lestee/final-couverture-lestee-deep-dive-20260825.md).

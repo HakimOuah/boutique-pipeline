@@ -88,6 +88,14 @@ Repères qualifiés :
 
 La longue traîne confirme une architecture de collection plus étroite que celle du concurrent. Les poids sont des portes utiles ; la demande par dimension est faible et orientée grands formats, sans correspondance parfaite avec les trois dimensions du fournisseur Good Nite. Les requêtes 11–12 kg et la plupart des dimensions préparées ne figurent pas dans le top 100 : elles restent non observées, pas nulles.
 
+## Google Trends
+
+France, cinq dernières années, Recherche sur le Web : la demande est installée mais très saisonnière. L'indice moyen octobre–février atteint 37,9 contre 13,3 de mai à août, soit un rapport de 2,86. Les années complètes progressent de 24,3 en 2022 à 30,9 en 2025.
+
+Le signal 2026 est plus prudent : sur les 33 premières semaines comparables, l'indice moyen est 19,6 contre 23,1 en 2025 (-15,1 %), mais il reste au niveau de 2023 et 10,4 % au-dessus de 2024. La saison septembre 2025–février 2026 est la deuxième plus forte des cinq années observées. Lecture : retour sous une année 2025 forte, pas effondrement de la catégorie.
+
+Les progressions associées sont dominées par Action, Emma et Nature et Découvertes. Cela confirme qu'une part du bruit de croissance appartient aux marques/enseignes et ne doit pas gonfler la demande générique.
+
 ## Conformité et claims
 
 - Le GPSR s'applique aux produits de consommation vendus en ligne depuis le 13 décembre 2024 et exige sécurité, traçabilité, analyse de risques, avertissements et opérateur économique responsable dans l'UE.
@@ -117,5 +125,6 @@ Conditions cumulatives pour passer :
 
 - [Catalogue concurrent](raw/competitor-catalog-20260825.md)
 - [Carte de mots-clés](raw/semrush-keyword-map-20260825.md)
+- [Google Trends cinq ans](raw/google-trends-couverture-lestee-20260825.md)
 - [Audit fournisseurs](raw/aliexpress-supplier-audit-20260825.md)
 - [État de reprise](run-state.json)
