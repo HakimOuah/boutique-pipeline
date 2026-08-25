@@ -298,8 +298,10 @@ def patch_footer() -> None:
     upsert_theme_file("sections/footer-group.json", data)
 
 
-def collections_featured(section_id: str, title: str, handles: list[str], columns: int) -> dict:
-    return {
+def collections_featured(
+    section_id: str, title: str, handles: list[str], columns: int, subtitle: str = ""
+) -> dict:
+    section = {
         "type": "collections-featured",
         "blocks": {
             "title": {
@@ -369,6 +371,27 @@ def collections_featured(section_id: str, title: str, handles: list[str], column
             "additional_class": "",
         },
     }
+    if subtitle:
+        section["blocks"]["subtitle"] = {
+            "type": "text",
+            "name": "Sous-titre",
+            "settings": {
+                "text": f"<p>{subtitle}</p>",
+                "text_style": "paragraph",
+                "font_weight": 400,
+                "alignment": "left",
+                "margin_top": 0,
+                "margin_bottom": 20,
+                "show_on_display": "desktop_and_mobile",
+                "paragraph_font_size": "normal",
+                "alignment_mobile": "left",
+                "show_read_more": False,
+                "truncate": False,
+            },
+            "blocks": {},
+        }
+        section["block_order"] = ["title", "subtitle"]
+    return section
 
 
 def patch_index(hero_image: str) -> None:
@@ -408,7 +431,8 @@ def patch_index(hero_image: str) -> None:
     ed_blocks["text_34dYXd"]["settings"]["text"] = "<h2>La matière fait la lumière</h2>"
     benefits = ed_blocks["group_6DLfAU"]["blocks"]["group_BhcLrP"]["blocks"]
     benefits["icon_with_text_DCkFpJ"]["settings"]["text"] = (
-        "<p><strong>Matière visible</strong><br/>Ce que montrent les photos, sans cristal inventé ni atelier fictif.</p>"
+        "<p><strong>Matière visible</strong><br/>Bambou tissé, rotin, bois, pierre ou verre : "
+        "la texture de la photo est celle qui joue avec la lumière chez vous.</p>"
     )
     benefits["icon_with_text_bFDMHJ"]["settings"]["text"] = (
         "<p><strong>L’échelle d’abord</strong><br/>Diamètre et hauteur de câble : les deux chiffres qui font tenir la pièce.</p>"
@@ -438,6 +462,10 @@ def patch_index(hero_image: str) -> None:
             "lustres-effet-cristal",
         ],
         3,
+        subtitle=(
+            "Bambou, rotin, bois, pierre, verre ou effet cristal : six matières, "
+            "six manières d’habiter la même pièce."
+        ),
     )
     data["sections"]["collections_piece"] = collections_featured(
         "collections_piece",
@@ -445,14 +473,21 @@ def patch_index(hero_image: str) -> None:
         ["lustres-anneau", "lustres-salon", "plafonniers"],
         3,
     )
-    data["order"] = [
+    # Ordre de référence = celui de la home enrichie (patch_home.py, 25/08/2026).
+    # Les sections lm_* n'existent que dans le index.json live : on les préserve
+    # si elles y sont, sans les exiger sur un thème vierge.
+    order = [
         "image_banner_VXNP89",
         "collections_matieres",
+        "lm_benefices_piece",
         "collection_featured_JXRpw3",
+        "lm_guide_choix",
         "collections_piece",
         "custom_section_k9aPjP",
+        "lm_cta_final",
         "custom_section_qetdex",
     ]
+    data["order"] = [sid for sid in order if sid in data["sections"]]
     for leftover in list(data["sections"]):
         if leftover not in data["order"]:
             del data["sections"][leftover]
