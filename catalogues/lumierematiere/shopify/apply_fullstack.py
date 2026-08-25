@@ -259,43 +259,9 @@ def patch_header() -> None:
 
 
 def patch_footer() -> None:
-    data = theme_file("sections/footer-group.json")
-    trust = data["sections"]["custom_section_k6mNHc"]
-    trust["settings"]["color_scheme"] = "scheme-2"
-    texts = {
-        "text_6KXXtE": "<p>Livraison offerte</p>",
-        "text_QCNw3n": "<p>France métropolitaine, sans minimum. Préparation 1 à 2 jours, acheminement 6 à 15 jours.</p>",
-        "text_EqDALK": "<p>Paiement sécurisé</p>",
-        "text_GxU484": "<p>Connexion chiffrée SSL. Aucune donnée de carte n’est stockée chez nous.</p>",
-        "text_7DApic": "<p>Retours 30 jours</p>",
-        "text_ew3NP8": "<p>14 jours légaux, étendus à 30 jours. Aucun frais de réapprovisionnement.</p>",
-        "text_V6AhLH": "<p>SAV humain</p>",
-        "text_wDwwwK": "<p>contact@lumierematiere.fr · lun–ven 10h–18h (Paris) · réponse sous 24 h ouvrées.</p>",
-    }
-    for group in trust["blocks"].values():
-        for bid, block in (group.get("blocks") or {}).items():
-            if bid in texts:
-                block["settings"]["text"] = texts[bid]
+    from patch_footer import main as patch_footer_main
 
-    footer = data["sections"]["footer"]
-    footer["settings"]["color_scheme"] = "scheme-3"
-    footer["blocks"]["group_y4aNMX"]["blocks"]["text_hzJHEn"]["settings"]["text"] = (
-        "<p>Lumière Matière<br>"
-        "contact@lumierematiere.fr · +33 7 56 82 80 94<br>"
-        "47 rue Vivienne, 75002 Paris<br>"
-        "SAV lun–ven 10h–18h (heure de Paris)</p>"
-    )
-    footer["blocks"]["menu_K3tacq"]["settings"]["title"] = "<h3>Collections</h3>"
-    footer["blocks"]["menu_K3tacq"]["settings"]["menu"] = "main-menu"
-    footer["blocks"]["menu_rnCAbX"]["settings"]["title"] = "<h3>Infos</h3>"
-    footer["blocks"]["menu_rnCAbX"]["settings"]["menu"] = "footer"
-    footer["blocks"]["group_BxVQwU"]["blocks"]["text_RtFCiT"]["settings"]["text"] = (
-        "<p>Nouvelles pièces, conseils de diamètre</p>"
-    )
-    bottom = footer["blocks"]["footer-bottom-bar"]
-    if "powered_by_fullstack_xErXcJ" in bottom.get("blocks", {}):
-        bottom["blocks"]["powered_by_fullstack_xErXcJ"]["disabled"] = True
-    upsert_theme_file("sections/footer-group.json", data)
+    patch_footer_main()
 
 
 def collections_featured(
