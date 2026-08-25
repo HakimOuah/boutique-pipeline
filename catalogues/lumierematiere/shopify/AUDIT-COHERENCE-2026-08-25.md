@@ -12,7 +12,7 @@
 - **Catalogue sain** : 120 fiches actives / 629 variantes, toutes avec packshot variante ; axes lisibles (Câble, Verre, Finition, Diamètre…) ; bambou 583180/033589/280004 bien en « Câble » avec titres alignés ; 5 metafields PDP présents sur 120/120 ; prix tous dans la grille 149–499 ; « Autour de 199 € » honnête (63 fiches à 199 €, collection à 64 produits, prix d'appel 149–199).
 - **Marketing aligné** : promesse « galerie de matières » portée par le hero, la nav par matière, l'édito, le SEO collections et les PDP (matière nommée honnêtement : « composite à grain minéral », « effet cristal » en verre). Aucun mot interdit (premium, atelier, AliExpress, avis inventés) sur les surfaces client.
 
-**Ce qui cloche :** 31 fiches partagent des titres strictement identiques (P2, feed Shopping), et deux petits trous de nav/menu restent à recetter après publication du thème. Le P1 livraison (zones payantes / étranger) a été corrigé le 25/08 : une zone France, une méthode 0 €.
+**Ce qui cloche :** 31 fiches partagent des titres strictement identiques (P2, feed Shopping) — humanisation + titres uniques en cours (agents Opus 5, 25/08 soir). Le P1 livraison a été corrigé. ParcelPanel et blocs démo hero soldés.
 
 ---
 
@@ -38,17 +38,13 @@
 **Impact :** feed Shopping avec annonces jumelles indistinguables, SEO cannibalisé, client incapable de différencier deux fiches dans une collection.
 **Reco (agent, session dédiée avec les photos sous les yeux) :** différencier chaque titre par l'attribut réellement distinctif (forme, nombre de lumières, finition dominante, Ø). Ne pas toucher aux SKU.
 
-### 4. « Suivre votre commande » → `/apps/parcelpanel` non vérifié
+### 4. « Suivre votre commande » → ParcelPanel — **confirmé 25/08**
 
-**Constat :** entrée du menu principal vers `/apps/parcelpanel` ; la FAQ Q14 pointe, elle, vers `/account`. L'installation de ParcelPanel n'est pas vérifiable avec le token CLI (scope apps absent).
-**Impact :** si l'app n'est pas installée, 404 dans la nav principale (flag GMC).
-**Reco (Hakim, 2 min) :** vérifier l'app dans l'admin ; sinon retirer l'entrée de menu ou la faire pointer vers `/account`, et harmoniser avec la FAQ.
+Hakim : l’app est installée et fonctionne. FAQ Q14 pointe vers `/apps/parcelpanel` (et le compte).
 
-### 5. Blocs démo désactivés avec faux chiffres, toujours dans le JSON du hero
+### 5. Blocs démo Trustpilot / « 2 000 clients » — **supprimés 25/08**
 
-**Constat :** `templates/index.json` conserve, désactivés : badge Trustpilot « Excellent 4,5 — 1988 avis » et texte « - 2 000 clients satisfaits ».
-**Impact :** invisibles aujourd'hui, mais réactivables en un clic dans l'éditeur de thème = avis inventés en ligne.
-**Reco :** les supprimer du JSON (placeholders démo = chasse gardée Hakim → à son feu vert, exécution agent en 2 min).
+Retirés du JSON du hero Full Stack (plus seulement `disabled`).
 
 ### 6. 0 GTIN sur 629 variantes
 

@@ -74,7 +74,7 @@ Pour un autre diamètre ou une autre matière, voir la [politique de rembourseme
 
 ## Question 14 : Comment suivre ma commande ?
 
-Vous pouvez suivre votre commande via la [page de suivi](https://lumierematiere.fr/account) une fois le numéro envoyé par e-mail, ou depuis votre compte s’il a été créé.
+Dès l’expédition, un e-mail vous envoie le numéro de suivi. Vous pouvez aussi ouvrir la [page de suivi](https://lumierematiere.fr/apps/parcelpanel) (menu « Suivre votre commande ») ou votre [compte](https://lumierematiere.fr/account) s’il a été créé.
 
 ## Choisir un luminaire
 

@@ -9,7 +9,11 @@
 
 ## Fait
 
-- **Édito home 25/08** : placeholder vidéo de « La matière fait la lumière » remplacé par la photo lifestyle `lumierematiere-home-table.jpg` (coins arrondis, ratio adapt). Script : `swap_editorial_video()` dans `apply_fullstack.py` / `patch_home.py`. Helio non écrit.
+- **Hero Full Stack 25/08 soir** : blocs démo Trustpilot « 1988 avis » et « 2 000 clients satisfaits » **supprimés** du JSON (plus seulement désactivés).
+- **FAQ Q14** : suivi via ParcelPanel (`/apps/parcelpanel`) + compte. Hakim confirme l’app installée et fonctionnelle.
+- **Collections 25/08 soir** : `frontpage`, `lustres-statement` et `suspensions-modernes` dépubliées de la boutique en ligne (1 produit / hors menu).
+- **GMC** : Workspace créé ; **pas de Merchant Center avant 30 j** de vie du domaine + compte Google. Search Console = Hakim.
+- **Édito home 25/08** : placeholder vidéo de « La matière fait la lumière » remplacé par la photo lifestyle `lumierematiere-home-table.jpg`.
 - **Footer Full Stack 25/08 (modèle Montre Avenue)** : 4 colonnes (marque + Menu principal + Informations + infolettre). E-mail `mailto:contact@lumierematiere.fr`, téléphone `tel:+33756828094`, Contact `/pages/contact` cliquables (colonne marque + carte SAV). Menus dédiés `footer-principal` / `footer-informations` (le `main-menu` et le menu Helio `footer` ne sont pas touchés — donc pas de ParcelPanel dans le pied). Icônes sociales désactivées (aucun compte). Script : `shopify/patch_footer.py`. Helio non écrit.
 - **Profil de livraison 25/08 (P1 audit, corrigé)** : une seule zone **France** (pays FR), une seule méthode **Livraison offerte 0 €** sans seuil. Standard 7,99 €, Express 10,99 €, zones UE (22 €) et International (29 €) supprimées. Script rejouable : `shopify/configure_shipping.py`. Les marchés Shopify n’ont pas pu être lus (`read_markets` absent du token CLI) — Hakim peut vérifier Réglages → Marchés : seul le marché France doit rester actif.
 - **Home enrichie 25/08 après-midi (Fable)** : `templates/index.json` live sur Full Stack — sous-titre grille matières, section « Ce que la matière change, pièce par pièce » (3 cartes job-to-be-done avec CTA collections), guide « Bien choisir, en trois étapes » (matière → diamètre → ampoule, fond charbon), CTA final « Commencez par la matière » (preuves vraies : livraison offerte + retours 30 j, 2 boutons). Bloc défensif « sans cristal inventé ni atelier fictif » remplacé par un bénéfice positif. Script rejouable : `shopify/patch_home.py` (backups avant/après : `shopify/backups/2026-08-25-home-enrichie/`). `apply_fullstack.py` aligné (ordre de sections + sous-titre) pour ne plus écraser la home — **ne toujours pas le relancer en entier**.
@@ -49,12 +53,9 @@ Coût DSers (unité) + **2 € de fret** (quotes FR : 1,99 € / 0 €). Concurr
 
 ## À faire Hakim
 
-0. **Marchés Shopify (2 min)** : Réglages → Marchés — ne garder que la France. Le token CLI n’a pas `read_markets` ; si un marché UE/International reste actif, un visiteur étranger arrive au checkout sans tarif (commande bloquée, mais expérience cassée).
-1. Prévisualiser la home enrichie + la fiche Full Stack (titre, USP, 4 accordéons, 3 bénéfices, FAQ, liés) : `?preview_theme_id=186708001104` **avant de publier** (Helio est actuellement MAIN). QA mobile 375 non faite (mot de passe storefront).
-2. Recette paiement footer Helio vs checkout vs `/payments/config` (wallets : Apple Pay, Shop Pay, PayPal — pas Google Pay).
+1. Prévisualiser Full Stack puis **publier** (Helio est encore MAIN) : https://nzefxg-gg.myshopify.com/?preview_theme_id=186708001104. QA mobile 375. Recette checkout (wallets : Apple Pay, Shop Pay, PayPal — pas Google Pay).
+2. **GMC : ne pas créer maintenant.** Workspace créé. Faire vivre le domaine ≥ 30 jours + le compte Google, Search Console branchée (Hakim). Soumission Merchant Center seulement après.
 3. CM2C : ajouter lumierematiere.fr si le contrat est par site.
 4. Décider du sort de **LM-045** (listing AE mort).
 5. 5 fiches « Unmapped » DSers (fantômes API) : à supprimer dans l’app si elles sont encore là.
-6. Vérifier `suspension-bois-led-453740` et `suspension-verre-noir-201424` (réduites à 1 variante sur des codes aveugles) : la variante conservée doit correspondre à la photo g1 face au listing AE, sinon re-mapper côté DSers.
-7. Vérifier l'app ParcelPanel (menu « Suivre votre commande » → `/apps/parcelpanel`) ; sinon pointer `/account` et harmoniser avec la FAQ Q14.
-8. Feu vert pour supprimer du JSON du hero les blocs démo désactivés à faux chiffres (« 1988 avis », « 2 000 clients satisfaits ») — exécution agent 2 min.
+6. Vérifier `suspension-bois-led-453740` et `suspension-verre-noir-201424` (réduites à 1 variante sur des codes aveugles) face au listing AE.

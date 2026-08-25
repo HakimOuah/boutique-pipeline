@@ -407,7 +407,11 @@ def patch_index(hero_image: str) -> None:
     hero_block["settings"]["image_filter_opacity"] = 35
     hero_block["settings"]["color_scheme"] = "scheme-3"
     group = hero_block["blocks"]["group_nypGzr"]
-    group["blocks"]["reviews_badge_efW9wU"]["disabled"] = True
+    for bid in ("reviews_badge_efW9wU", "group_wibFDH"):
+        group["blocks"].pop(bid, None)
+    group["block_order"] = [
+        b for b in group.get("block_order", []) if b not in ("reviews_badge_efW9wU", "group_wibFDH")
+    ]
     group["blocks"]["text_VJtMDF"]["settings"]["text"] = "<h1>Chaque matière a sa lumière</h1>"
     group["blocks"]["text_8GW6GA"]["settings"]["text"] = (
         "<p>Lumière Matière — galerie de matières. Suspensions et lustres choisis pour le bambou, "
