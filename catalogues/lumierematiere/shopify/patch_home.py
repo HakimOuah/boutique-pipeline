@@ -2,7 +2,7 @@
 """Home enrichie Lumière Matière (25/08/2026) — patch chirurgical de templates/index.json.
 
 Rejouable : part du index.json live, ajoute/remplace les sections d'enrichissement,
-ne touche ni au hero, ni aux grilles collections, ni à la sélection 199 €.
+ne touche ni au hero, ni aux grilles collections, ni à la grille salon.
 Ne PAS relancer apply_fullstack.py en entier (il réécraserait logos/settings) ;
 son patch_index connaît désormais le même ordre de sections que ce script.
 """
@@ -24,7 +24,7 @@ HOME_ORDER = [
     "image_banner_VXNP89",      # hero « Chaque matière a sa lumière »
     "collections_matieres",     # grille 6 matières
     "lm_benefices_piece",       # NOUVEAU — bénéfices par pièce (job-to-be-done)
-    "collection_featured_JXRpw3",  # Autour de 199 €
+    "collection_featured_JXRpw3",  # Pour le salon
     "lm_guide_choix",           # NOUVEAU — bien choisir en 3 étapes
     "collections_piece",        # grille pièce / forme
     "custom_section_k9aPjP",    # édito « Ce qu'on regarde avant de mettre une pièce en ligne »
@@ -293,8 +293,8 @@ def section_cta_final() -> dict:
         {
             "cta_tout": button_block("Voir toutes les pièces", "shopify://collections/all",
                                      style="primary", mt=0),
-            "cta_199": button_block("La sélection autour de 199 €",
-                                    "shopify://collections/selection-199",
+            "cta_199": button_block("Voir les suspensions salon",
+                                    "shopify://collections/suspensions-salon",
                                     style="secondary", mt=0),
         },
         ["cta_tout", "cta_199"],
@@ -345,7 +345,7 @@ def main() -> None:
     )
     swap_editorial_video(data["sections"]["custom_section_k9aPjP"])
 
-    # 3. La sélection 199 € passe en scheme-1 (le bénéfice pièce prend le fond chaud).
+    # 3. La grille salon passe en scheme-1 (le bénéfice pièce prend le fond chaud).
     data["sections"]["collection_featured_JXRpw3"]["settings"]["color_scheme"] = "scheme-1"
 
     # 4. Nouvelles sections.

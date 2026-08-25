@@ -94,15 +94,17 @@ EDITS: dict[str, list[tuple[str, str, str | tuple[str, ...], str]]] = {
                 "le plus courant du catalogue.</p>",
                 "<p>C’est le prix qui revient le plus souvent dans le catalogue. Vous y "
                 "trouverez autant de suspensions que de lustres.</p>",
+                "<p>C’est le prix qui revient le plus souvent dans le catalogue. Vous y "
+                "trouverez des suspensions comme des lustres.</p>",
             ),
-            "<p>C’est le prix qui revient le plus souvent dans le catalogue. Vous y "
-            "trouverez des suspensions comme des lustres.</p>",
+            "<p>Les suspensions qui tiennent une pièce à vivre. Bambou, rotin, verre, "
+            "pierre ou métal, choisis pour le salon.</p>",
         ),
         (
             f"{FEAT}.blocks.button_DFrQyK",
             "label",
             "Voir tous",
-            "Voir toute la sélection",
+            "Voir les suspensions salon",
         ),
         (
             f"{EDITO}.blocks.text_34dYXd",
@@ -397,7 +399,7 @@ EDITS: dict[str, list[tuple[str, str, str | tuple[str, ...], str]]] = {
 
 # Chiffres d'exploitation qui doivent rester visibles après réécriture.
 OPS_TOKENS = {
-    "templates/index.json": ["10h à 18h", "30 jours", "199 €"],
+    "templates/index.json": ["10h à 18h", "30 jours", "Pour le salon"],
     "sections/header-group.json": ["30 jours"],
     "sections/footer-group.json": [
         "1 à 2 jours",

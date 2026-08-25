@@ -426,17 +426,20 @@ def patch_index(hero_image: str) -> None:
     icons["icon_with_text_AdYCCm"]["settings"]["text"] = "<p>SAV en semaine, de 10h à 18h</p>"
 
     feat = data["sections"]["collection_featured_JXRpw3"]
-    feat["settings"]["collection"] = "selection-199"
+    feat["settings"]["collection"] = "suspensions-salon"
     feat["settings"]["max_products"] = 6
     feat["settings"]["color_scheme"] = "scheme-2"
     head = feat["blocks"]["group_9NwHBp"]["blocks"]["group_TwitGb"]["blocks"]
-    head["text_QEHkGh"]["settings"]["text"] = "<h2>Autour de 199 €</h2>"
+    head["text_QEHkGh"]["settings"]["text"] = "<h2>Pour le salon</h2>"
     head["text_6LANC3"]["settings"]["text"] = (
-        "<p>C’est le prix qui revient le plus souvent dans le catalogue. Vous y trouverez "
-        "des suspensions comme des lustres.</p>"
+        "<p>Les suspensions qui tiennent une pièce à vivre. Bambou, rotin, verre, "
+        "pierre ou métal, choisis pour le salon.</p>"
     )
     feat["blocks"]["group_9NwHBp"]["blocks"]["button_DFrQyK"]["settings"]["label"] = (
-        "Voir toute la sélection"
+        "Voir les suspensions salon"
+    )
+    feat["blocks"]["group_9NwHBp"]["blocks"]["button_DFrQyK"]["settings"]["link"] = (
+        "shopify://collections/suspensions-salon"
     )
 
     editorial = data["sections"]["custom_section_k9aPjP"]

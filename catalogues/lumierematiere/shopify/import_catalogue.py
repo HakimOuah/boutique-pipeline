@@ -133,9 +133,7 @@ def ensure_collections(state: dict) -> dict[str, str]:
     coll = state.setdefault("collections", {})
     existing = gql("query { collections(first: 50) { nodes { id handle title } } }")
     by_handle = {n["handle"]: n["id"] for n in existing["collections"]["nodes"]}
-    wanted = list(COLLECTIONS.items()) + [
-        ("selection-199", ("Autour de 199 €", "selection-199", None))
-    ]
+    wanted = list(COLLECTIONS.items())
     # normalize the extra tuple
     for csv_name, meta in list(COLLECTIONS.items()):
         title, handle, cover = meta
@@ -170,26 +168,7 @@ def ensure_collections(state: dict) -> dict[str, str]:
         save_state(state)
         time.sleep(0.3)
 
-    if "selection-199" not in by_handle and "selection-199" not in coll:
-        data = gql(
-            """
-            mutation Coll($input: CollectionInput!) {
-              collectionCreate(input: $input) {
-                collection { id handle }
-                userErrors { field message }
-              }
-            }
-            """,
-            {"input": {"title": "Autour de 199 €", "handle": "selection-199", "sortOrder": "MANUAL"}},
-        )
-        errs = data["collectionCreate"]["userErrors"]
-        if errs:
-            raise RuntimeError(errs)
-        cid = data["collectionCreate"]["collection"]["id"]
-        coll["selection-199"] = cid
-        publish(cid)
-        print(f"  collection selection-199 {cid}")
-    elif "selection-199" in by_handle:
+    if "selection-199" in by_handle:
         coll["selection-199"] = by_handle["selection-199"]
     save_state(state)
     return coll
@@ -223,8 +202,6 @@ def import_product(row: dict, coll: dict[str, str], state: dict) -> None:
     description = desc_path.read_text(encoding="utf-8") if desc_path.exists() else ""
     csv_coll = row["collection"]
     collection_ids = [coll[csv_coll]]
-    if sku in SELECTION_199:
-        collection_ids.append(coll["selection-199"])
     extra = EXTRA_COLLECTIONS.get(sku)
     if extra:
         collection_ids.append(coll[extra])

@@ -7,6 +7,8 @@
 
 ## Fait
 
+- **« Autour de 199 € » remplacée 26/08** : grille home, CTA final et reco `/cart` pointent vers **`suspensions-salon`** (« Pour le salon »). `selection-199` dépubliée, 301 `/collections/selection-199` → `/collections/suspensions-salon`. Vérifié en ligne. Script `replace_selection_199.py`, rapport `SELECTION-SALON-2026-08-26.md`.
+- **LM-071 26/08** : le proxy 222,99 € était la médiane des SKU, pas l’entrée. Entrée Ø 46 cm = **151,69 € rendu** (quote A). Pas de copie moins chère trouvée sur AliExpress. 6 variantes XXL remontées au plancher : 100 cm 499→**639 €**, 120 cm 399→**429 €**, 180 cm 499→**889 €** (le 180 cm à 499 € était une perte). 46/60/76 cm inchangés. Script `raise_lm071.py`, rapport `SOURCING-LM071-2026-08-26.md`.
 - **Collections par pièce 26/08** : **8 créées, 2 renommées, 110 rattachements**. Les 8 nouvelles adressent **44 140 recherches/mois** cumulées, les 2 renommages 27 430 de plus. Boutique passée de 14 à 23 collections, dont **19 publiées avec SEO complet** (`seo_title` + `seo_description` + `description_html` ≥ 700 c.).
   - Renommages : `Lustres effet cristal` → **`lustres-pampilles`** (6 340 vs 2 610) · `Plafonniers` → **`plafonniers-led`** (21 090, notre plus gros mot-clé).
   - Créations : `lustres-chambre` 10 · `plafonniers-salon` 9 · `suspensions-cuisine` 31 · `plafonniers-cuisine` 4 · `suspensions-salon` 29 · `suspensions-papier` 1 · `suspensions-xxl` 15 · `suspensions-osier` 5.
@@ -18,8 +20,8 @@
   - **Correction d'analyse** : les « 169,90 € de Lustria » du rapport concurrence sont la médiane de leurs 5 928 fiches, appliques et veilleuses comprises. **Restreint à ce que nous vendons (suspendu + plafonnier, 3 242 fiches), leur médiane est 249,90 €.** Nous étions déjà 20 % sous eux globalement ; la violation de l'étape 9 était **par famille** (céramique, bambou, rotin, tissu, plafonnier bois).
   - Contrôlé en live : 629 variantes, 602 SKU inchangés, **0 `compareAtPrice`**, tous les prix en terminaison 9, écarts entre paliers conservés.
   - **Aucune hausse appliquée.** À la lettre, la règle remonterait 66 fiches sur 117 (+6 060 € TTC cumulés). Laissé de côté volontairement : le mandat est de passer *sous* Lustria.
-  - ⚠️ **`LM-071` (lustre pampilles cascade) : 299 € TTC pour 222,99 € de coût = 24,18 € HT de marge (9,7 %)**, sous les deux planchers maison. **Anomalie préexistante**, pas causée par l'alignement. `ETAT` prescrivait déjà 349 € min pour cette fiche. Le `cost_proxy_ae` est suspect (proche de la médiane des variantes, pas du palier d'entrée) : **à revérifier sur AliExpress avant de trancher**. Seule fiche du catalogue sous plancher ; la suivante est à 59,23 € HT (44,7 %).
-  - ⚠️ `selection-199` contient maintenant **12 fiches sous 179 €** (3 à 129, 1 à 149, 8 à 169) après les baisses. À arbitrer : les sortir, ou assumer une sélection « à partir de ».
+  - **LM-071 soldé 26/08** : proxy 222,99 € = médiane, pas l’entrée (151,69 €). XXL remontés, voir fait ci-dessus.
+  - **`selection-199` soldée 26/08** : remplacée par « Pour le salon » / `suspensions-salon`, voir fait ci-dessus.
 - **Cartographie Lustria 26/08 (plus gros concurrent dropship FR)** : `CONCURRENT-LUSTRIA-2026-08-25.md` + 3 dumps (`lustria-catalogue`, `lustria-collections`, `lustria-semrush-pages`). **5 928 fiches, 556 collections.** Leur arborescence croise 7 types × 5 axes, et **« Pièce » est le premier groupe de chaque menu**. Sur leurs 100 premières pages : **pièce 38,8 % du trafic contre matière 13,8 %** — la pièce vaut 2,8× la matière. Couleur 2,4 % = axe mort. **Trous chez nous : appliques murales (20,8 % de leur trafic, 0 chez nous), extérieur (59,5 visites/fiche, 0 chez nous), lampadaires 500 €+.** Priorités collections : Plafonniers LED, Lustres chambre, Lustres pampilles (leur page `lustre-pampilles` est **vide** et fait 890 visites/mois). **Prix : notre médiane 199 € contre 169,90 € chez le comparable** — étape 9 non respectée.
   - ⚠️ Le rapport contenait une erreur (« 62 titres avec `Ø` »), issue d'un dump local périmé. **Corrigée le 26/08 : 0 `Ø`, 0 plage sur les 120 fiches live.** Les dumps périmés ont été supprimés.
   - TrendTrack peu fiable ici : annonce 446 fiches contre 5 928 réelles, best-sellers datés de 2021-2022, trafic 4,5× sous SEMrush. Utilisé seulement pour les annonces (format et durée), pas pour les chiffres.
@@ -30,12 +32,12 @@
   - ⚠️ **Piège API confirmé** : `ProductInput.seo` est **remplacé en bloc**, pas fusionné. Envoyer `seo: {title}` seul **efface** `seo.description`. Toujours renvoyer les deux champs ensemble.
   - **Volumes SEMrush non mesurés** : Chrome bloque le pilotage (autorisation `chrome://inspect/#remote-debugging` à cocher par Hakim). La convention repose sur l'offre + les recherches associées, pas sur des volumes. À revalider.
   - 5 titres à confirmer par Hakim (photo contre axe de variante) : `suspension-deco` émaillée rouge, `suspension-rotin` corolle (axe mêle rotin et plastique), `suspension-rotin` tressé noir, lustre grappe globes opalins (résine ou verre), suspension bois brun vintage.
-- **Panier 25/08 soir (recette 12b)** : bannière franco (plus de barre « plus que 30 € »), upsell « À regarder aussi » (4 handles, max 2, AJAX), accordéons retours 30 j + livraison offerte, grille « Autour de 199 € » sous `/cart`. Tiroir + page. Script : `shopify/patch_cart.py`. Helio / UNIVERS non écrits.
+- **Panier 25/08 soir (recette 12b)** : bannière franco (plus de barre « plus que 30 € »), upsell « À regarder aussi » (4 handles, max 2, AJAX), accordéons retours 30 j + livraison offerte. Grille sous `/cart` : **Pour le salon** depuis le 26/08 (`suspensions-salon`). Tiroir + page. Script : `shopify/patch_cart.py`. Helio / UNIVERS non écrits.
 - **SEO accueil 25/08 soir** : titre `Suspensions et lustres par matière | Lumière Matière` (52/70), méta 148/320, image de partage 1200×628 (logo charbon sur papier `#F6F3EC`). Script : `shopify/set_homepage_seo.py`. Metafields `global.title_tag` / `description_tag` / `social_sharing_image`.
 - **Copy humanisée 25/08 soir (Opus 5)** : 0 tiret cadratin / demi-cadratin dans le texte client (pages, policies, home, header, footer, 14 collections, 120 fiches, 536 valeurs d’option, 747 alt). Cadence machine cassée (anaphores « matière / lumière », tricolons, ouvertures identiques). Rapports : `HUMANISATION-PAGES-2026-08-25.md`, `HUMANISATION-THEME-2026-08-25.md`, `HUMANISATION-PDP-2026-08-25.md`, `HUMANISATION-OPTIONS-2026-08-25.md`. Helio / UNIVERS non écrits.
 - **Libellés de variantes + alt 25/08 soir** : 60 valeurs renommées (15 fiches), 747 alt réécrits, 0 cadratin, 0 alt vide. Trois sélecteurs qui mentaient au SKU corrigés (lot de 2 vs unité sur 709819 et 104055 ; noir non annoncé sur 957153 ; températures doublonnées sur 343987). SKU 602/629 inchangés (`variantStrategy: LEAVE_AS_IS`). Script : `shopify/humanise_options.py`. 9 `specs_html` réalignés via `push_copy` seulement.
 - **120 fiches 25/08 soir** : `copy OK 120/120`, titres uniques 120/120 (13 groupes de doublons / 32 fiches). 56 titres réécrits parce que la photo contredisait le nom ; 31 sources lumineuses retypées (plus de « LED ou E27 » sur des fiches sans cet axe). Option `suspension-effet-pierre-092465` : « Blanc chaud » → **Pierre claire** (SKU inchangés). Script : `shopify/humanise_pdp.py` + `apply_pdp.push_copy` seulement — **ne pas lancer `apply_pdp.py` en entier**.
-- **Home / collections 25/08 soir** : sous-titre 199 € sans cadratin ; titres home variés (`Par matière`, `Où voulez-vous de la lumière ?`, `À vous de voir`). 14 descriptions de collections poussées. Scripts alignés : `humanise_theme.py`, `apply_fullstack.py`, `patch_home.py`. **Ne pas relancer `apply_fullstack.py` ni `patch_home.py` en entier.**
+- **Home / collections 25/08 soir** : titres home variés (`Par matière`, `Où voulez-vous de la lumière ?`, `À vous de voir`). Grille featured = **Pour le salon** depuis le 26/08 (plus de palier 199 €). 14 descriptions de collections poussées. Scripts alignés : `humanise_theme.py`, `apply_fullstack.py`, `patch_home.py`. **Ne pas relancer `apply_fullstack.py` ni `patch_home.py` en entier.**
 - **Hero Full Stack 25/08 soir** : blocs démo Trustpilot « 1988 avis » et « 2 000 clients satisfaits » **supprimés** du JSON (plus seulement désactivés).
 - **FAQ Q14** : suivi via ParcelPanel (`/apps/parcelpanel`) + compte. Hakim confirme l’app installée et fonctionnelle.
 - **Collections 25/08 soir** : `frontpage`, `lustres-statement` et `suspensions-modernes` dépubliées de la boutique en ligne (1 produit / hors menu).
@@ -74,7 +76,8 @@ Coût DSers (unité) + **2 € de fret** (quotes FR : 1,99 € / 0 €). Concurr
 | 199 € | 63 |
 | 249 € | 50 |
 | 299 € | 4 |
-| 349 € min (csv 299, marge) | 2 (LM-070, LM-071 cristal) |
+| 349 € min (csv 299, marge) | 1 (LM-070 cristal) |
+| 299–889 € (paliers taille) | 1 (LM-071, XXL remontés 26/08) |
 
 26 fiches ont plusieurs paliers selon la taille (XXL plus cher). 94 fiches = un seul prix.
 

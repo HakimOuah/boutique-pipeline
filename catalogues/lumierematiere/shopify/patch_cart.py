@@ -194,7 +194,7 @@ def reco_section() -> dict:
                         "type": "text",
                         "name": "Titre",
                         "settings": {
-                            "text": "<p>Autour de 199 €</p>",
+                            "text": "<p>Pour le salon</p>",
                             "text_style": "h3",
                             "font_weight": 400,
                             "alignment": "left",
@@ -207,9 +207,9 @@ def reco_section() -> dict:
                         "type": "button",
                         "name": "Bouton",
                         "settings": {
-                            "link": "shopify://collections/selection-199",
+                            "link": "shopify://collections/suspensions-salon",
                             "open_in_new_tab": False,
-                            "label": "Voir toute la sélection",
+                            "label": "Voir les suspensions salon",
                             "button_style": "secondary",
                             "button_shape": "small",
                             "icon": "arrow_forward",
@@ -298,7 +298,7 @@ def reco_section() -> dict:
         "settings": {
             "show_on_display": "desktop_and_mobile",
             "color_scheme": "scheme-1",
-            "collection": "selection-199",
+            "collection": "suspensions-salon",
             "max_products": 4,
             "layout_type": "grid",
             "grid_columns": 4,
@@ -376,7 +376,7 @@ def main() -> None:
         raise RuntimeError("section reco absente de cart.json")
     if "30 jours" not in json.dumps(live_cart, ensure_ascii=False):
         raise RuntimeError("accordéon retours non réécrit")
-    print("OK panier 12b (bannière + upsells + accordéons + reco 199 €)")
+    print("OK panier 12b (bannière + upsells + accordéons + reco salon)")
 
 
 if __name__ == "__main__":
