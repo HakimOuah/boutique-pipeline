@@ -241,10 +241,10 @@ def patch_header() -> None:
     ann = data["sections"]["announcement_bar_r8QCCw"]
     ann["settings"]["color_scheme"] = "scheme-3"
     ann["blocks"]["announcement_y7tnxm"]["blocks"]["text_Lk3QUw"]["settings"]["text"] = (
-        "<p>Livraison offerte en France métropolitaine — sans minimum</p>"
+        "<p>Livraison offerte partout en France métropolitaine, sans minimum d’achat</p>"
     )
     ann["blocks"]["announcement_VprFGF"]["blocks"]["text_ndz4fN"]["settings"]["text"] = (
-        "<p>Retours sous 30 jours · Paiement sécurisé</p>"
+        "<p>Retours sous 30 jours et paiement sécurisé</p>"
     )
     # 3e slide démo « 3x / cadeau » : on le retire
     ann["block_order"] = ["announcement_y7tnxm", "announcement_VprFGF"]
@@ -364,7 +364,7 @@ EDITORIAL_LIFESTYLE = "shopify://shop_images/lumierematiere-home-table.jpg"
 
 
 def swap_editorial_video(editorial: dict, image_ref: str = EDITORIAL_LIFESTYLE) -> None:
-    """Remplace le placeholder vidéo de « La matière fait la lumière » par une photo lifestyle."""
+    """Remplace le placeholder vidéo de la section édito par une photo lifestyle."""
     blocks = editorial.setdefault("blocks", {})
     order = editorial.setdefault("block_order", [])
     image_block = {
@@ -414,15 +414,16 @@ def patch_index(hero_image: str) -> None:
     ]
     group["blocks"]["text_VJtMDF"]["settings"]["text"] = "<h1>Chaque matière a sa lumière</h1>"
     group["blocks"]["text_8GW6GA"]["settings"]["text"] = (
-        "<p>Lumière Matière — galerie de matières. Suspensions et lustres choisis pour le bambou, "
-        "le rotin, le bois, la pierre ou le verre. Le matériau change la lumière : commencez par l’ambiance.</p>"
+        "<p>Chez Lumière Matière, on choisit les suspensions et les lustres pour ce dont ils "
+        "sont faits. Bambou, rotin, bois, pierre ou verre, c’est la matière qui décide de "
+        "l’ambiance. Alors commencez par là.</p>"
     )
     btn = group["blocks"]["group_rFrEU8"]["blocks"]["button_JteLrC"]["settings"]
-    btn["label"] = "Explorer les matières"
+    btn["label"] = "Voir les matières"
     btn["link"] = "shopify://collections/all"
     icons = group["blocks"]["group_3Pie6V"]["blocks"]
     icons["icon_with_text_MPKKCD"]["settings"]["text"] = "<p>Paiement sécurisé</p>"
-    icons["icon_with_text_AdYCCm"]["settings"]["text"] = "<p>SAV lun–ven 10h–18h</p>"
+    icons["icon_with_text_AdYCCm"]["settings"]["text"] = "<p>SAV en semaine, de 10h à 18h</p>"
 
     feat = data["sections"]["collection_featured_JXRpw3"]
     feat["settings"]["collection"] = "selection-199"
@@ -431,23 +432,33 @@ def patch_index(hero_image: str) -> None:
     head = feat["blocks"]["group_9NwHBp"]["blocks"]["group_TwitGb"]["blocks"]
     head["text_QEHkGh"]["settings"]["text"] = "<h2>Autour de 199 €</h2>"
     head["text_6LANC3"]["settings"]["text"] = (
-        "<p>Une sélection de suspensions et de lustres autour de 199 € — le prix le plus courant du catalogue.</p>"
+        "<p>C’est le prix qui revient le plus souvent dans le catalogue. Vous y trouverez "
+        "des suspensions comme des lustres.</p>"
+    )
+    feat["blocks"]["group_9NwHBp"]["blocks"]["button_DFrQyK"]["settings"]["label"] = (
+        "Voir toute la sélection"
     )
 
     editorial = data["sections"]["custom_section_k9aPjP"]
     editorial["settings"]["color_scheme"] = "scheme-1"
     ed_blocks = editorial["blocks"]["group_XyMggk"]["blocks"]
-    ed_blocks["text_34dYXd"]["settings"]["text"] = "<h2>La matière fait la lumière</h2>"
+    ed_blocks["text_34dYXd"]["settings"]["text"] = (
+        "<h2>Ce qu’on regarde avant de mettre une pièce en ligne</h2>"
+    )
     benefits = ed_blocks["group_6DLfAU"]["blocks"]["group_BhcLrP"]["blocks"]
     benefits["icon_with_text_DCkFpJ"]["settings"]["text"] = (
-        "<p><strong>Matière visible</strong><br/>Bambou tissé, rotin, bois, pierre ou verre : "
-        "la texture de la photo est celle qui joue avec la lumière chez vous.</p>"
+        "<p><strong>La matière se voit</strong><br/>Bambou tissé, rotin, bois, pierre ou "
+        "verre. La texture que vous voyez en photo est celle qui jouera avec la lumière "
+        "chez vous.</p>"
     )
     benefits["icon_with_text_bFDMHJ"]["settings"]["text"] = (
-        "<p><strong>L’échelle d’abord</strong><br/>Diamètre et hauteur de câble : les deux chiffres qui font tenir la pièce.</p>"
+        "<p><strong>Les bonnes dimensions</strong><br/>Le diamètre et la hauteur de câble "
+        "sont les deux chiffres qui font qu’une pièce tombe juste. On les donne sur chaque "
+        "fiche.</p>"
     )
     benefits["icon_with_text_D4CKhV"]["settings"]["text"] = (
-        "<p><strong>Pose et SAV</strong><br/>Un humain au bout de l’e-mail, lun–ven 10h–18h (Paris).</p>"
+        "<p><strong>Une vraie personne au SAV</strong><br/>Vous écrivez, quelqu’un vous "
+        "répond. Du lundi au vendredi, de 10h à 18h, heure de Paris.</p>"
     )
     ed_blocks["button_gNYHT8"]["settings"]["label"] = "Notre histoire"
     ed_blocks["button_gNYHT8"]["settings"]["link"] = "shopify://pages/notre-histoire"
@@ -457,12 +468,16 @@ def patch_index(hero_image: str) -> None:
     news["settings"]["color_scheme"] = "scheme-2"
     news["blocks"]["text_JqyRqD"]["settings"]["text"] = "<h3>Un e-mail de temps en temps</h3>"
     news["blocks"]["text_PkpXrD"]["settings"]["text"] = (
-        "<p>Nouvelles pièces, conseils de diamètre et d’ampoule. Pas de remise tant qu’aucun code n’existe.</p>"
+        "<p>On écrit quand une nouvelle pièce arrive, ou pour un conseil utile sur le "
+        "diamètre et l’ampoule à choisir. Rien de plus.</p>"
     )
+    news["blocks"]["group_cpEwfM"]["blocks"]["newsletter_signup_98MQp8"]["settings"][
+        "newsletter_label"
+    ] = "Votre adresse e-mail"
 
     data["sections"]["collections_matieres"] = collections_featured(
         "collections_matieres",
-        "Choisissez la matière, vous choisissez la lumière",
+        "Par matière",
         [
             "suspensions-bambou",
             "suspensions-rotin",
@@ -473,8 +488,8 @@ def patch_index(hero_image: str) -> None:
         ],
         3,
         subtitle=(
-            "Bambou, rotin, bois, pierre, verre ou effet cristal : six matières, "
-            "six manières d’habiter la même pièce."
+            "Six matières au catalogue : bambou, rotin, bois, pierre, verre et effet "
+            "cristal. Ouvrez celle qui vous attire, les modèles sont derrière."
         ),
     )
     data["sections"]["collections_piece"] = collections_featured(

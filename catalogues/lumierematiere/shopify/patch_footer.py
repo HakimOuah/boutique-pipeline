@@ -17,20 +17,21 @@ PHONE_TEL = "+33756828094"
 CONTACT_PATH = "/pages/contact"
 
 BRAND_HTML = (
-    "<p>Lumière Matière, c’est une galerie de matières : suspensions, lustres "
-    "et plafonniers choisis pour la lumière qu’ils posent dans une pièce.</p>"
+    "<p>Lumière Matière rassemble des suspensions, des lustres et des plafonniers "
+    "choisis pour la lumière qu’ils posent dans une pièce.</p>"
     f'<p><a href="mailto:{EMAIL}">{EMAIL}</a><br>'
     f'<a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a><br>'
     f'<a href="{CONTACT_PATH}">Contact</a></p>'
     "<p>47 rue Vivienne, 75002 Paris<br>"
-    "SAV lun–ven 10h–18h (heure de Paris)</p>"
+    "SAV ouvert du lundi au vendredi, de 10h à 18h (heure de Paris)</p>"
 )
 
 SAV_TRUST_HTML = (
-    f'<p><a href="mailto:{EMAIL}">{EMAIL}</a> · '
-    f'<a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a><br>'
-    f'<a href="{CONTACT_PATH}">Contact</a> · lun–ven 10h–18h (Paris) · '
-    "réponse sous 24 h ouvrées.</p>"
+    f'<p>Écrivez-nous à <a href="mailto:{EMAIL}">{EMAIL}</a> ou appelez le '
+    f'<a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a>.<br>'
+    f'Vous pouvez aussi passer par la page <a href="{CONTACT_PATH}">Contact</a>. '
+    "On répond du lundi au vendredi, de 10h à 18h (heure de Paris), "
+    "sous 24 h ouvrées.</p>"
 )
 
 MENU_PRINCIPAL = {
@@ -172,16 +173,18 @@ def patch_footer_json() -> None:
     texts = {
         "text_6KXXtE": "<p>Livraison offerte</p>",
         "text_QCNw3n": (
-            "<p>France métropolitaine, sans minimum. "
-            "Préparation 1 à 2 jours, acheminement 6 à 15 jours.</p>"
+            "<p>Partout en France métropolitaine, sans minimum. "
+            "Comptez 1 à 2 jours de préparation, puis 6 à 15 jours d’acheminement.</p>"
         ),
         "text_EqDALK": "<p>Paiement sécurisé</p>",
         "text_GxU484": (
-            "<p>Connexion chiffrée SSL. Aucune donnée de carte n’est stockée chez nous.</p>"
+            "<p>La connexion est chiffrée en SSL et aucune donnée de carte n’est "
+            "conservée chez nous.</p>"
         ),
         "text_7DApic": "<p>Retours 30 jours</p>",
         "text_ew3NP8": (
-            "<p>14 jours légaux, étendus à 30 jours. Aucun frais de réapprovisionnement.</p>"
+            "<p>La loi prévoit 14 jours, nous allons jusqu’à 30. Et aucun frais de "
+            "réapprovisionnement.</p>"
         ),
         "text_V6AhLH": "<p>SAV humain</p>",
         "text_wDwwwK": SAV_TRUST_HTML,
@@ -205,21 +208,24 @@ def patch_footer_json() -> None:
     if "social_icons_hQdtRf" in brand:
         brand["social_icons_hQdtRf"]["disabled"] = True
 
-    footer["blocks"]["menu_K3tacq"]["settings"]["title"] = "<p>Menu principal</p>"
+    footer["blocks"]["menu_K3tacq"]["settings"]["title"] = "<p>La boutique</p>"
     footer["blocks"]["menu_K3tacq"]["settings"]["title_style"] = "h6"
     footer["blocks"]["menu_K3tacq"]["settings"]["menu"] = "footer-principal"
     footer["blocks"]["menu_K3tacq"]["settings"]["alignment_desktop"] = "center"
     footer["blocks"]["menu_K3tacq"]["settings"]["alignment_mobile"] = "flex-start"
 
-    footer["blocks"]["menu_rnCAbX"]["settings"]["title"] = "<p>Informations</p>"
+    footer["blocks"]["menu_rnCAbX"]["settings"]["title"] = "<p>Informations pratiques</p>"
     footer["blocks"]["menu_rnCAbX"]["settings"]["title_style"] = "h6"
     footer["blocks"]["menu_rnCAbX"]["settings"]["menu"] = "footer-informations"
     footer["blocks"]["menu_rnCAbX"]["settings"]["alignment_desktop"] = "center"
     footer["blocks"]["menu_rnCAbX"]["settings"]["alignment_mobile"] = "flex-start"
 
     footer["blocks"]["group_BxVQwU"]["blocks"]["text_RtFCiT"]["settings"]["text"] = (
-        "<p>S'abonner à nos e-mails</p>"
+        "<p>Recevoir nos e-mails</p>"
     )
+    footer["blocks"]["group_BxVQwU"]["blocks"]["newsletter_signup_tUYiRB"]["settings"][
+        "newsletter_label"
+    ] = "Votre adresse e-mail"
 
     bottom = footer["blocks"]["footer-bottom-bar"]
     if "powered_by_fullstack_xErXcJ" in bottom.get("blocks", {}):

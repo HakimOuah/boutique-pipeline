@@ -27,7 +27,7 @@ HOME_ORDER = [
     "collection_featured_JXRpw3",  # Autour de 199 €
     "lm_guide_choix",           # NOUVEAU — bien choisir en 3 étapes
     "collections_piece",        # grille pièce / forme
-    "custom_section_k9aPjP",    # édito « La matière fait la lumière »
+    "custom_section_k9aPjP",    # édito « Ce qu'on regarde avant de mettre une pièce en ligne »
     "lm_cta_final",             # NOUVEAU — CTA final + preuves vraies
     "custom_section_qetdex",    # newsletter
 ]
@@ -207,20 +207,22 @@ def section_benefices() -> dict:
             "carte_table": carte(
                 "lightbulb",
                 "<p><strong>Au-dessus de la table</strong><br/>Le bambou et le rotin tamisent "
-                "la lumière et la posent sur le plateau : le reste de la pièce s’adoucit, "
-                "les dîners s’attardent.</p>",
+                "la lumière et la posent sur le plateau. Autour, la pièce s’adoucit, et on "
+                "reste plus longtemps à table.</p>",
                 "Voir les suspensions bambou", "shopify://collections/suspensions-bambou",
             ),
             "carte_salon": carte(
                 "home",
-                "<p><strong>Dans le salon</strong><br/>Un lustre anneau ou une pièce en bois "
-                "donne un centre à la pièce : la lumière porte loin sans éblouir le canapé.</p>",
+                "<p><strong>Dans le salon</strong><br/>Là, on cherche un point de repère au "
+                "milieu de la pièce. Un lustre anneau ou du bois fait l’affaire, et la "
+                "lumière porte loin sans éblouir ceux qui sont dans le canapé.</p>",
                 "Voir les lustres salon", "shopify://collections/lustres-salon",
             ),
             "carte_plafond": carte(
                 "architecture",
-                "<p><strong>Sous un plafond bas</strong><br/>Un plafonnier ou du verre clair "
-                "garde les volumes : de la clarté partout, sans rien qui pende trop bas.</p>",
+                "<p><strong>Sous un plafond bas</strong><br/>Pas envie de se cogner la tête. "
+                "Un plafonnier ou du verre clair éclaire large, et rien ne pend au milieu "
+                "du passage.</p>",
                 "Voir les plafonniers", "shopify://collections/plafonniers",
             ),
         },
@@ -229,10 +231,10 @@ def section_benefices() -> dict:
     )
     outer = group_block(
         {
-            "titre": text_block("<h2>Ce que la matière change, pièce par pièce</h2>", style="h3"),
+            "titre": text_block("<h2>Où voulez-vous de la lumière ?</h2>", style="h3"),
             "intro": text_block(
-                "<p>Le même salon change du tout au tout selon ce qui diffuse la lumière. "
-                "Partez de l’endroit à éclairer : la matière suit.</p>"
+                "<p>Un même salon n’a rien à voir selon ce qui diffuse la lumière. Répondez "
+                "à ça d’abord, la matière viendra ensuite.</p>"
             ),
             "cartes": cartes,
         },
@@ -247,21 +249,21 @@ def section_guide() -> dict:
     etapes = group_block(
         {
             "etape_matiere": text_block(
-                "<p><strong>1 · La matière</strong><br/>C’est elle qui fait l’ambiance : "
-                "fibres tissées pour une lumière chaude striée d’ombres, verre pour une "
-                "clarté nette, pierre pour un halo dense et calme.</p>",
+                "<p><strong>1. La matière</strong><br/>C’est elle qui fait l’ambiance. Le "
+                "bambou et le rotin donnent une lumière chaude, striée d’ombres. Le verre "
+                "éclaire plus franchement, et la pierre pose un halo dense et calme.</p>",
                 align="left", weight=500,
             ),
             "etape_diametre": text_block(
-                "<p><strong>2 · Le diamètre</strong><br/>Mesurez la table ou la zone à "
-                "éclairer, puis choisissez nettement plus étroit que le plateau. Chaque "
-                "fiche donne les dimensions exactes, pour acheter sans se tromper.</p>",
+                "<p><strong>2. Le diamètre</strong><br/>Mesurez la table ou la zone à "
+                "éclairer, puis prenez nettement plus étroit que le plateau. C’est le "
+                "chiffre à vérifier en premier, avant même la forme.</p>",
                 align="left", weight=500,
             ),
             "etape_ampoule": text_block(
-                "<p><strong>3 · L’ampoule</strong><br/>LED intégrée ou douille (E27, parfois "
-                "E14) : chaque fiche le précise. S’il faut une ampoule, une LED blanc chaud "
-                "donne la lumière la plus accueillante.</p>",
+                "<p><strong>3. L’ampoule</strong><br/>LED intégrée ou douille E27, parfois "
+                "E14. Chaque fiche le précise. Et s’il faut une ampoule, une LED blanc chaud "
+                "reste la plus accueillante.</p>",
                 align="left", weight=500,
             ),
         },
@@ -270,13 +272,13 @@ def section_guide() -> dict:
     )
     outer = group_block(
         {
-            "titre": text_block("<h2>Bien choisir, en trois étapes</h2>", style="h3"),
+            "titre": text_block("<h2>Bien choisir en trois étapes</h2>", style="h3"),
             "intro": text_block(
-                "<p>Pas besoin d’être du métier : trois décisions suffisent, et la fiche "
-                "produit donne les chiffres.</p>"
+                "<p>Pas besoin de s’y connaître. Trois décisions suffisent, et les chiffres "
+                "sont sur chaque fiche produit.</p>"
             ),
             "etapes": etapes,
-            "cta": button_block("Toutes les réponses dans la FAQ", "shopify://pages/faq",
+            "cta": button_block("Lire la FAQ", "shopify://pages/faq",
                                 style="secondary", mt=10),
         },
         ["titre", "intro", "etapes", "cta"],
@@ -301,10 +303,10 @@ def section_cta_final() -> dict:
     )
     outer = group_block(
         {
-            "titre": text_block("<h2>Commencez par la matière</h2>", style="h3"),
+            "titre": text_block("<h2>À vous de voir</h2>", style="h3"),
             "texte": text_block(
-                "<p>Livraison offerte en France métropolitaine, retours sous 30 jours : "
-                "vous jugez la pièce chez vous, dans votre lumière.</p>"
+                "<p>Livraison offerte en France métropolitaine et retours sous 30 jours. "
+                "Vous jugez la pièce chez vous, dans votre lumière.</p>"
             ),
             "boutons": boutons,
         },
@@ -326,8 +328,8 @@ def main() -> None:
     matieres = data["sections"]["collections_matieres"]
     if "subtitle" not in matieres["blocks"]:
         sub = text_block(
-            "<p>Bambou, rotin, bois, pierre, verre ou effet cristal : six matières, "
-            "six manières d’habiter la même pièce.</p>",
+            "<p>Six matières au catalogue : bambou, rotin, bois, pierre, verre et effet "
+            "cristal. Ouvrez celle qui vous attire, les modèles sont derrière.</p>",
             align="left", mb=20,
         )
         matieres["blocks"]["subtitle"] = sub
@@ -337,8 +339,9 @@ def main() -> None:
     benefices = (data["sections"]["custom_section_k9aPjP"]["blocks"]["group_XyMggk"]
                  ["blocks"]["group_6DLfAU"]["blocks"]["group_BhcLrP"]["blocks"])
     benefices["icon_with_text_DCkFpJ"]["settings"]["text"] = (
-        "<p><strong>Matière visible</strong><br/>Bambou tissé, rotin, bois, pierre ou verre : "
-        "la texture de la photo est celle qui joue avec la lumière chez vous.</p>"
+        "<p><strong>La matière se voit</strong><br/>Bambou tissé, rotin, bois, pierre ou "
+        "verre. La texture que vous voyez en photo est celle qui jouera avec la lumière "
+        "chez vous.</p>"
     )
     swap_editorial_video(data["sections"]["custom_section_k9aPjP"])
 

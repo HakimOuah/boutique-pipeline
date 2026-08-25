@@ -12,7 +12,7 @@
 - **Catalogue sain** : 120 fiches actives / 629 variantes, toutes avec packshot variante ; axes lisibles (Câble, Verre, Finition, Diamètre…) ; bambou 583180/033589/280004 bien en « Câble » avec titres alignés ; 5 metafields PDP présents sur 120/120 ; prix tous dans la grille 149–499 ; « Autour de 199 € » honnête (63 fiches à 199 €, collection à 64 produits, prix d'appel 149–199).
 - **Marketing aligné** : promesse « galerie de matières » portée par le hero, la nav par matière, l'édito, le SEO collections et les PDP (matière nommée honnêtement : « composite à grain minéral », « effet cristal » en verre). Aucun mot interdit (premium, atelier, AliExpress, avis inventés) sur les surfaces client.
 
-**Ce qui cloche :** 31 fiches partagent des titres strictement identiques (P2, feed Shopping) — humanisation + titres uniques en cours (agents Opus 5, 25/08 soir). Le P1 livraison a été corrigé. ParcelPanel et blocs démo hero soldés.
+**Ce qui cloche encore :** libellés d’options variantes et alt des médias (texte fournisseur brut, cadratins). Le P1 livraison, ParcelPanel, blocs démo hero et **titres dupliqués (P2)** sont soldés.
 
 ---
 
@@ -31,12 +31,9 @@
 
 ## P2 — à corriger avant ou juste après lancement
 
-### 3. Titres strictement identiques : 13 groupes, 31 fiches
+### 3. Titres strictement identiques : 13 groupes, 31 fiches — **corrigé 25/08 soir**
 
-**Constat :** ex. « Suspension effet pierre, LED » ×4 (073999 / 338324 / 445794 / 147607), « Suspension déco en céramique, LED » ×4, « Suspension bois, LED » ×3, « Suspension rotin tressée » ×3, les deux bambou 583180/033589 identiques, etc.
-**Preuve :** dump titres GraphQL 25/08 (13 doublons).
-**Impact :** feed Shopping avec annonces jumelles indistinguables, SEO cannibalisé, client incapable de différencier deux fiches dans une collection.
-**Reco (agent, session dédiée avec les photos sous les yeux) :** différencier chaque titre par l'attribut réellement distinctif (forme, nombre de lumières, finition dominante, Ø). Ne pas toucher aux SKU.
+**Correction :** 120 titres uniques en live (`HUMANISATION-PDP-2026-08-25.md`). 32 fiches des groupes de doublons différenciées d’après photo ; 56 autres titres réécrits parce que l’image contredisait le nom. SKU inchangés.
 
 ### 4. « Suivre votre commande » → ParcelPanel — **confirmé 25/08**
 
