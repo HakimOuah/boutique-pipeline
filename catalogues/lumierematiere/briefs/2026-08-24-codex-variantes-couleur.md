@@ -121,3 +121,7 @@ Même règle : une image par couleur, silhouette du g1.
 Dossier : `catalogues/lumierematiere/livraisons-visuels-codex/variantes-couleur/`  
 Un sous-dossier par handle, JPEG nommés comme ci-dessus.  
 Pas d’action Shopify / DSers : le rattachement aux variantes (SKU inchangé) se fait après QA.
+
+## Statut 25/08 (après-midi)
+
+Livraison Codex **124/124** dans `livraisons-visuels-codex/variantes-couleur/`. Rattachées aux variantes Shopify (script `shopify/attach_variant_packshots.py`). SKU inchangés. Galerie g1–g5 conservée.

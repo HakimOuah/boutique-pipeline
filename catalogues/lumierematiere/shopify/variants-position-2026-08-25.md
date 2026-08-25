@@ -30,7 +30,7 @@ Les candidats au split (lustres anneau 418494/024410/641905/799451/784897 en 1�
 - `suspension-bois-led-453740` (22 codes « sku » aveugles → 1 variante « Modèle A », 199 €) et `suspension-verre-noir-201424` (13 noms fantaisie italiens → 1 variante) : vérifier que la variante conservée correspond bien à la photo g1 face au listing AE, sinon changer de variante côté DSers.
 - `suspension-rotin-607504` : codes 4040/4019/2550 interprétés en dimensions (40 × 40, 40 × 19, 25 × 50 cm ; BK = noir) — à confirmer sur le listing.
 - `suspension-deco-led-077631` : « No plug » (branchement plafond standard) conservé, version « Plug in » supprimée.
-- Le brief Codex couleurs a été réinventorié le 25/08 soir (axes Câble/Verre/Finition) : **49 fiches, 124 packshots** — `briefs/2026-08-24-codex-variantes-couleur.md`. 13 fiches A/B/C hors brief.
+- Le brief Codex couleurs a été réinventorié le 25/08 soir (axes Câble/Verre/Finition) : **49 fiches, 124 packshots** — `briefs/2026-08-24-codex-variantes-couleur.md`. Livraison Codex 25/08 matin **124/124**, rattachée aux variantes (`shopify/attach_variant_packshots.py`). 13 fiches A/B/C hors brief.
 
 ## Détail fiche par fiche (avant → après)
 
