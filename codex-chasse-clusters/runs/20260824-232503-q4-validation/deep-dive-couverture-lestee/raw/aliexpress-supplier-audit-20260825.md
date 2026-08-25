@@ -55,3 +55,11 @@ Verdict : `AUCUN_BACKUP_EXACT`. La niche ne peut pas recevoir `TECHNICAL_PASS` t
 3. confinement des billes, coutures, tolérance de poids et instructions de lavage ;
 4. opérateur économique UE, traçabilité, analyse de risques et avertissements GPSR ;
 5. conditions de retour d'un colis lourd et garantie réelle.
+
+## Reprise du 25 août 2026 — qualification complémentaire
+
+Quatre recherches supplémentaires en tri prix décroissant (`weighted blanket adult`, `weighted blanket 5kg`, `weighted blanket 8kg`, `Gewichtsdecke Erwachsene`) n'ont retourné aucun backup pertinent. Avec les recherches précédentes, la campagne accessible est arrêtée à dix requêtes : continuer à reformuler sur cette même surface polluée ne produirait pas une preuve plus forte.
+
+Le rafraîchissement de `1005010144250762` confirme les trois SKU, leurs prix et stocks. Il révèle aussi une incohérence d'attributs : les tailles brutes exposées par l'API (`140x200cm`, `140X205cm`, `60X80cm`) ne correspondent pas aux libellés commerciaux affichés (`125x180cm (6kg)`, `125x150 cm (4kg)`, `150x200cm (8kg)`). Cette anomalie renforce l'obligation d'échantillon et de contrôle d'étiquette ; elle empêche de considérer les dimensions comme physiquement validées.
+
+Voir [Qualification fournisseur, conformité et retours](qualification-fournisseur-conformite-20260825.md).

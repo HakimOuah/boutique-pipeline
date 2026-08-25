@@ -4,9 +4,10 @@ Cet espace contient l'adaptation Codex de la boucle volume-first. Il est volonta
 
 ## Deep dive couverture lestée — reprise du 25 août
 
-Le catalogue concurrent, quatre fiches AliExpress exactes, les 100 premières variantes SEMrush France sur 918 résultats et Google Trends France sur cinq ans ont été audités. Le verdict reste **`TECHNICAL_WATCH`** : une gamme adulte 4/6/8 kg est économiquement plausible et la demande est installée, mais un seul fournisseur viable est prouvé. La demande longue traîne est surtout portée par 5/6/7 kg ; Google Trends montre un marché automne-hiver environ 2,9 fois plus fort que mai-août, avec un tassement 2026 sans effondrement.
+Le catalogue concurrent, quatre fiches AliExpress exactes, les 100 premières variantes SEMrush France sur 918 résultats et Google Trends France sur cinq ans ont été audités. Le verdict est **`TECHNICAL_WATCH_EXTERNAL_PROOF_REQUIRED`** : une gamme adulte 4/6/8 kg est économiquement plausible et la demande est installée, mais un seul fournisseur viable est prouvé. La campagne de dix recherches fournisseur accessibles n'a livré aucun backup pertinent et les attributs bruts de taille du seul produit viable contredisent ses libellés commerciaux. La suite exige donc des documents, des conditions de retour et un échantillon autorisé, pas davantage de reformulations génériques.
 
 - [Rapport deep dive](runs/20260824-232503-q4-validation/deep-dive-couverture-lestee/final-couverture-lestee-deep-dive-20260825.md)
+- [Qualification fournisseur, conformité et retours](runs/20260824-232503-q4-validation/deep-dive-couverture-lestee/raw/qualification-fournisseur-conformite-20260825.md)
 - [État de reprise](runs/20260824-232503-q4-validation/deep-dive-couverture-lestee/run-state.json)
 
 ## Dernière requalification ciblée

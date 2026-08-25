@@ -1,12 +1,12 @@
 # Couverture lestée — dossier technique Q4 révisé
 
-**Verdict agent révisé : `TECHNICAL_WATCH`**
+**Verdict agent révisé : `TECHNICAL_WATCH_EXTERNAL_PROOF_REQUIRED`**
 
 **Décision humaine : `PENDING_HAKIM`**
 
 **Révision :** 2026-08-25, après apport d'une fiche AliExpress moins chère par Hakim.
 
-**Deep dive :** [catalogue, clusters et fournisseurs approfondis](../deep-dive-couverture-lestee/final-couverture-lestee-deep-dive-20260825.md). La mesure live des longues traînes SEMrush par poids/taille reste bloquée par la limite de sessions.
+**Deep dive :** [catalogue, clusters et fournisseurs approfondis](../deep-dive-couverture-lestee/final-couverture-lestee-deep-dive-20260825.md). Les 100 premières variantes SEMrush parmi 918 résultats et Google Trends France sur cinq ans ont été intégrés. La [qualification fournisseur/conformité](../deep-dive-couverture-lestee/raw/qualification-fournisseur-conformite-20260825.md) fixe désormais la porte externe restante.
 
 ## 1. Correction du diagnostic
 
@@ -26,7 +26,7 @@ Cette nuance n'annule pas la preuve économique : le marché mesuré porte d'abo
 - `OBSERVE` : `plaid lesté` 720 ; `couverture pondérée` 590.
 - `OBSERVE` : variantes marque Action 4 400, IKEA 1 300 ; variante enfant 2 400 exclue du cluster adulte.
 - `OBSERVE` : requête `danger` 1 000, signalant un besoin de pédagogie sécurité.
-- `MANQUANT` : Google Trends France cinq ans non revalidé dans ce run.
+- `OBSERVE` Google Trends France cinq ans : moyenne octobre–février 2,86 fois supérieure à mai–août ; 2026 est en retrait de 15,1 % sur 33 semaines comparables face à 2025, mais 10,4 % au-dessus de 2024.
 
 La demande passe ; le coût rendu n'est plus un motif d'élimination automatique.
 
@@ -56,6 +56,8 @@ Le marché reste polarisé entre marketplaces à bas prix et spécialistes rassu
 
 Le calcul central conserve **59,75 EUR**, prix API plus prudent. Les 49,23 EUR de la capture peuvent dépendre d'une promotion, d'un coupon ou du contexte du compte et ne sont pas traités comme un coût durable garanti. Le conflit entre compteurs écran et API est conservé, pas arbitré.
 
+Le rafraîchissement API expose aussi des tailles brutes incompatibles avec les libellés affichés : `140x200cm` pour la variante présentée comme 125x180 cm / 6 kg, `140X205cm` pour 125x150 cm / 4 kg, et `60X80cm` pour 150x200 cm / 8 kg. Les dimensions restent donc commerciales, pas physiquement validées.
+
 L'ancien produit `1005011748184966` reste documenté comme fournisseur à écarter, pas comme preuve que toute la catégorie est impossible.
 
 ## 5. Économie de sensibilité révisée
@@ -83,14 +85,15 @@ La marge publicitaire potentielle existe donc. Elle reste à confronter aux CPC 
 - `MANQUANT` : deuxième fournisseur exact comparable pour éviter une dépendance à une seule fiche.
 - `CONFLIT` : ventes et avis diffèrent fortement entre l'écran consommateur et l'Open Platform.
 - `RISQUE` : ne pas reprendre les promesses « contre le stress » ou « meilleur sommeil » sans niveau de preuve adapté ; privilégier confort, sensation d'enveloppement, tailles, entretien et guide de poids prudent.
+- `OBSERVE` : dix recherches fournisseur accessibles ont été exploitées sans trouver de backup adulte 6–8 kg comparable ; poursuivre les reformulations génériques sur la même surface polluée n'est plus productif.
 
 ## 7. Conclusion et prochaine porte
 
-`TECHNICAL_WATCH`, désormais prioritaire devant les autres pistes du run. La prochaine porte n'est plus « trouver un prix radicalement inférieur », puisqu'il est observé. Elle consiste à :
+`TECHNICAL_WATCH_EXTERNAL_PROOF_REQUIRED`, toujours prioritaire devant les autres pistes du run. La prochaine porte n'est plus une recherche générique de prix, puisqu'elle est épuisée sur la surface accessible. Elle consiste à :
 
 1. obtenir les documents matière/conformité et les spécifications exactes du SKU 8 kg ;
-2. trouver un backup 6–8 kg expédié d'Europe avec coût rendu comparable ;
-3. vérifier la demande et les CPC sur les intentions par poids/taille ;
-4. commander un échantillon seulement après validation humaine explicite, puis contrôler poids, coutures, odeur, fuite de billes, lavage, emballage et délai réel.
+2. obtenir l'adresse et le coût maximum de retour, la garantie et la procédure SAV ;
+3. trouver un backup 6–8 kg expédié d'Europe avec coût rendu comparable, ou accepter explicitement le risque mono-fournisseur ;
+4. commander un échantillon seulement après validation humaine explicite, puis contrôler poids, dimensions, coutures, odeur, fuite de billes, lavage, étiquette, emballage et délai réel.
 
 Aucun `GO_FINAL` ni achat n'est attribué par cette correction.

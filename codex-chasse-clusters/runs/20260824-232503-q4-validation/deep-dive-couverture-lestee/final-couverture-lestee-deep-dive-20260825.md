@@ -1,7 +1,7 @@
 # Deep dive — niche couverture lestée France
 
 **Date :** 2026-08-25
-**Verdict agent :** `TECHNICAL_WATCH`
+**Verdict agent :** `TECHNICAL_WATCH_EXTERNAL_PROOF_REQUIRED`
 **Décision humaine :** `PENDING_HAKIM`
 **Complétude :** concurrence et fournisseurs approfondis ; SEMrush France repris sur les 100 premières variantes parmi 918 résultats, avec poids, principaux formats, matières, publics, marques et objections nettoyés.
 
@@ -10,6 +10,8 @@
 La niche est réelle : la tête `couverture lestée` atteint 27 100 recherches mensuelles France dans le snapshot SEMrush, et plusieurs spécialistes soutiennent des prix de 129 à plus de 200 EUR. L'économie d'une offre adulte 4/6/8 kg est plausible grâce à une fiche expédiée d'Allemagne entre 42,51 et 59,75 EUR TTC.
 
 Elle n'est pas prête à lancer. Le risque principal a changé : ce n'est plus le prix, mais la dépendance à un seul fournisseur, l'absence de preuve matière/GPSR, la qualité physique non testée, les retours lourds et la tentation de reprendre des allégations santé trop fortes.
+
+La qualification complémentaire a épuisé la campagne fournisseur bornée sans trouver de backup. Elle a aussi révélé que les tailles brutes AliExpress ne correspondent pas aux libellés de variantes affichés. Le prochain progrès ne viendra donc plus d'une nouvelle reformulation de recherche : il exige des documents du fournisseur, les conditions de retour exactes et un échantillon autorisé.
 
 ## Ce que le concurrent prouve
 
@@ -70,6 +72,8 @@ Base prudente : variante 8 kg à 59,75 EUR TTC, paiement 2 %, provision retours/
 
 À 129 EUR, l'économie publicitaire est plausible. Les CPC visibles par poids sont généralement de 0,23 à 0,37 USD et les grands formats atteignent 0,52 USD : ils ne contredisent pas l'économie, mais ne valident ni CPA, ni taux de conversion. TVA correctement modélisée, taux de retour réel et coût de retour du colis restent manquants.
 
+Avec une provision retours/SAV portée à 12 puis 15 %, la contribution à 129 EUR baisse à 51,19 puis 47,32 EUR, soit un ROAS de rupture de 2,52 puis 2,73. À 99 EUR, ces mêmes scénarios imposent 3,90 puis 4,42 : le prix bas est donc le mauvais angle tant que le coût retour n'est pas prouvé.
+
 ## SEMrush et SEO
 
 Le contrôle live affiche 918 variantes, 61 080 recherches brutes et un KD moyen de 21 %. Ce total est pollué par marques, fautes, informations santé/sécurité et reformulations ; il n'est pas un marché adressable.
@@ -102,6 +106,8 @@ Les progressions associées sont dominées par Action, Emma et Nature et Découv
 - Le règlement textile UE 1007/2011 exige que la composition en fibres soit visible avant l'achat en ligne et correctement étiquetée.
 - L'absence de besoin évident de marquage CE ne supprime pas les obligations GPSR.
 - Ne pas promettre de traiter l'insomnie, l'anxiété, l'autisme ou le TDAH. Rester sur confort, sensation d'enveloppement, choix de poids, entretien et sécurité tant qu'aucune preuve appropriée n'est disponible.
+- La littérature récente trouve des signaux possibles sur l'anxiété et certains symptômes d'insomnie, mais avec peu d'études, des échantillons modestes et une forte hétérogénéité : cela ne justifie pas une promesse thérapeutique.
+- Les rappels de produits enfant documentent un risque d'emprisonnement dans certaines housses zippées. La V1 doit rester strictement adulte.
 
 Sources réglementaires :
 
@@ -111,7 +117,7 @@ Sources réglementaires :
 
 ## Décision
 
-`TECHNICAL_WATCH`, pas `TECHNICAL_PASS` et aucun `GO_FINAL`.
+`TECHNICAL_WATCH_EXTERNAL_PROOF_REQUIRED`, pas `TECHNICAL_PASS` et aucun `GO_FINAL`.
 
 Conditions cumulatives pour passer :
 
@@ -121,10 +127,13 @@ Conditions cumulatives pour passer :
 4. échantillon physique approuvé après autorisation humaine ;
 5. claims et avertissements validés avant toute mise en vente.
 
+À défaut d'un backup, Hakim devra en outre accepter explicitement le risque mono-fournisseur ; ce choix ne remplace pas les quatre autres preuves.
+
 ## Preuves locales
 
 - [Catalogue concurrent](raw/competitor-catalog-20260825.md)
 - [Carte de mots-clés](raw/semrush-keyword-map-20260825.md)
 - [Google Trends cinq ans](raw/google-trends-couverture-lestee-20260825.md)
 - [Audit fournisseurs](raw/aliexpress-supplier-audit-20260825.md)
+- [Qualification fournisseur, conformité et retours](raw/qualification-fournisseur-conformite-20260825.md)
 - [État de reprise](run-state.json)
