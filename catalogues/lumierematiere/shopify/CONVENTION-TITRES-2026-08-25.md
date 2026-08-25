@@ -8,8 +8,12 @@ Règle unique pour les 120 fiches. Vaut pour le titre Shopify, donc pour le flux
 |---|---|---|
 | Titres Shopping concurrents France | 1 094 titres, 9 requêtes | `TITRES-SHOPPING-CONCURRENCE-2026-08-25.md` |
 | Montre Avenue + Mille et une Nuisette (catalogues complets) | 364 + 777 titres | `GABARITS-BOUTIQUES-REFERENCE-2026-08-25.md` |
-| Recherches associées et questions Google | 4 requêtes de tête | `serp-recherches-associees.json` |
-| Volumes SEMrush France | *(en cours)* | `MOTS-CLES-TITRES-2026-08-25.md` |
+| Recherches associées et questions Google | 8 requêtes de tête | `serp-recherches-associees.json` |
+| Volumes SEMrush France | **non mesurés** — Chrome bloque le pilotage, autorisation manuelle requise | `MOTS-CLES-TITRES-2026-08-25.md` |
+
+> Le classement par volume manque. Les règles ci-dessous reposent sur l'offre (titres réellement
+> publiés) et sur les formulations que Google lui-même propose en recherches associées, pas sur des
+> volumes mesurés. À revalider quand SEMrush sera accessible.
 
 ---
 
@@ -70,6 +74,45 @@ Un mot qui n'est dans aucune liste n'entre pas dans un titre.
 10. **Casse : première lettre du titre seulement**, comme le reste du site (`Suspension bambou tressé, naturel`). Les deux boutiques de référence sont incohérentes sur ce point (37,3 % et 7,6 % de casse mixte) — c'est un défaut d'exécution, visible en page de collection. Le choix importe peu, l'appliquer aux 120 fiches importe.
 
 ---
+
+## « Suspension bambou » ou « Suspension en bambou » ?
+
+**Forme nue, sans `en`.**
+
+Les marchands écrivent « en », les acheteurs ne le tapent pas :
+
+| Matière | Titres concurrents en forme nue | Titres avec « en » |
+|---|---|---|
+| bambou | 25 | 30 |
+| rotin | 16 | 49 |
+| bois | 27 | 29 |
+| céramique | 16 | 25 |
+| cristal | 34 | 67 |
+
+Mais les **recherches associées de Google sont en forme nue**, y compris quand la requête interrogée
+contient « en » : sur `suspension en bambou`, Google propose `Suspension bambou 3 lampes`,
+`Suspension bambou Centrakor`, `Suspension bambou GiFi`. Idem partout ailleurs :
+`Suspension rotin naturel`, `Suspension rotin XXL`, `Suspension céramique blanche`,
+`Plafonnier LED cuisine`.
+
+`en` est un mot vide pour Google, qui rapproche les deux formes. Sur un budget de 60 caractères,
+il coûte 3 caractères pour zéro gain : cette place vaut mieux en couleur ou en forme.
+
+## Les mots de pièce confirmés
+
+Recherches associées relevées le 25/08, donc formulations réelles :
+
+| Mot | Confirmé sur |
+|---|---|
+| `cuisine` | `plafonnier LED cuisine` · `suspension céramique cuisine` · `suspension verre cuisine` |
+| `salon` | `plafonnier LED salon` · `suspension verre salon` |
+| `salle à manger` | `plafonnier LED salle à manger` · `lustre salle à manger bois` · `lustre pour salle à manger et salon` |
+
+Autres modificateurs attestés en recherches associées, utilisables tels quels :
+`naturel` · `blanche` · `beige` · `moderne` · `vintage` · `puissant` · `3 lampes` · **`XXL`**.
+
+`XXL` est une trouvaille utile : sur `suspension rotin XXL`, c'est la façon dont un acheteur nomme
+une grande pièce. Pour nos diamètres de 100 à 150 cm, `XXL` vaut mieux qu'une dimension chiffrée.
 
 ## Ce qui est légitime et ne doit pas être confondu avec du remplissage
 
