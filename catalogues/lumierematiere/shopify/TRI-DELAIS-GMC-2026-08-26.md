@@ -11,10 +11,10 @@ Hakim a validé la fenêtre unique **7–18 j**, avec deux amendements : fret pa
 
 | | Chiffre |
 |---|---|
-| ACTIVE | **49** (les 37 OK + 12 LIMITE, LM-127 compris) |
-| Brouillon | **80** (76 du tri + LM-125 et brouillons plus anciens) |
+| ACTIVE | **52** (les 37 OK + 12 LIMITE + LM-127 + testers verre LM-128/129/130) |
+| Brouillon | **80** (pampilles / papier dépubliés, LM-125, appliques V2, plus anciens) |
 | FAQ PDP leftover 7–17 | **0** |
-| FAQ PDP 7–18 | **49 / 49** |
+| FAQ PDP 7–18 | **52 / 52** |
 | Policy `/policies/shipping-policy` | prép. 1–2 · route **6–16** · total **7–18** |
 | CMS FAQ | 6–16 / 7–18 |
 
@@ -48,7 +48,7 @@ Les volumes sont les totaux de groupe SEMrush du 25/08 (`MOTS-CLES-TITRES-2026-0
 |---|---:|---:|---:|---|---|
 | Lustres salon | 24 490 | 12 | **10** | publié | agrémenté (pas dépublié) |
 | Lustres pampilles | **6 340** | 7 | **0** | **dépublié** | handle conservé, **pas** de 301, **pas** d’agrément |
-| Suspensions verre | **6 200** | 10 | **2** | publié | reste au menu · à sourcer |
+| Suspensions verre | **6 200** | 10 | **5** | publié | testers LM-128/129/130 live 26/08 |
 | Suspensions papier | 4 760 | 1 | **0** | **dépublié** | seule LM-092 était OVER |
 | Suspensions bambou | 3 220 | 16 | **3** | publié | reste au menu · à sourcer |
 | Suspensions osier | 3 180 | 5 | 2 | publié | mince, pas dépublié |
@@ -74,13 +74,13 @@ Ce sont des pièces de salon déjà live (bambou dôme / disque / double, pétal
 
 ## File de sourcing (passe 26/08 soir)
 
-Rapport : `SOURCING-DELAIS-PAMPILLES-BAMBOU-VERRE-2026-08-26.md`. JSON : `delais-candidats-2026-08-26.json`. **Rien importé.**
+Rapport : `SOURCING-DELAIS-PAMPILLES-BAMBOU-VERRE-2026-08-26.md`. JSON : `delais-candidats-2026-08-26.json`. Verre importé et **live 26/08 soir**.
 
 | Rayon | Verdict | Suite |
 |---|---|---|
 | Pampilles | **`AUCUNE OFFRE EXPLOITABLE`** | bijoux ou hôtel 500 €+, 0 milieu ≤ 16 j. Page 404 tant qu’on n’a pas 5 gouttes. |
 | Bambou | **`AUCUNE OFFRE EXPLOITABLE`** | 2 JOYINLED 40 cm neufs = Heavy seule ligne (23–43 j). Les 3 live restent. |
-| Verre | **3 `FOURNISSEUR À TESTER`** | NiuNian `1005006967405368` 6–10 j · BOTIMI `1005008876910933` 8–15 j · cylindre teinté `1005009698538307` 7–12 j. Copy + brief Codex prêts (`verre-a-importer.json`). **Push DSers encore à faire.** |
+| Verre | **3 testers live** | LM-128 `suspension-verre-405368` 149 € · LM-129 `suspension-verre-bois-910933` 159 € · LM-130 `suspension-verre-538307` 129 €. Collection `suspensions-verre` = **5 ACTIVE**. |
 
 Papier (4 760) après import verre, si Hakim le veut. Les collections pièce minces se remplissent d’elles-mêmes si le sourcing matière tient le délai.
 
