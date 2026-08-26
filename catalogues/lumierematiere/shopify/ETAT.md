@@ -7,8 +7,8 @@
 
 ## Fait
 
-- **Rayon appliques 26/08 soir — 5 fiches live, 1 brouillon.** LM-127 boule verre poussée depuis DSers (draft puis overlay). Collection vitrine = 5. Copy : `appliques-copy.json`. Briefs Codex : LM-126 `briefs/2026-08-26-codex-lm126.md`, LM-127 `briefs/2026-08-26-codex-lm127.md` (ne pas reprendre le logo BOTIMI).
-  - En ligne : LM-122 galet 119–159 € · LM-123 liseuse 119 € · LM-124 double 129 € · **LM-126 cubique 109 €** (photos AE en attendant Codex) · **LM-127 boule verre 159 €**. **Brouillon : LM-125** — délai 24–32 j confirmé sur A, B et C, attribut IP « Non résistant à l'eau ».
+- **Rayon appliques 26/08 soir — 5 fiches live, 1 brouillon.** LM-127 boule verre poussée depuis DSers (draft puis overlay). Collection vitrine = 5. Copy : `appliques-copy.json`. Briefs Codex : LM-126 `briefs/2026-08-26-codex-lm126.md`, LM-127 `briefs/2026-08-26-codex-lm127.md`.
+  - En ligne : LM-122 galet 119–159 € · LM-123 liseuse 119 € · LM-124 double 129 € · **LM-126 cubique 109 €** (photos AE en attendant Codex) · **LM-127 boule verre 159 €** (galerie Codex g1–g5, logo BOTIMI retiré). **Brouillon : LM-125** — délai 24–32 j confirmé sur A, B et C, attribut IP « Non résistant à l'eau ».
   - ⚠️ **Le devis `quote_aliexpress_sku` n'est pas un coût opposable.** Écarts DSers : −20 % à **+133 %** (LM-127 : devis 35,99 € → coût DSers **83,75 €**). Trier avec la quote, fixer le prix sur le coût DSers.
   - **Aucune applique n'est vendue pour la salle de bain ni pour l'extérieur.** LM-126 : certaines photos AE disent waterproof, aucun IP lisible, FAQ = non. LED intégrée (plus de promesse E27). LM-127 : G9, ampoule non fournie.
   - Formes Lustria toujours absentes en quotable 220 V : oiseau, rotin, céramique, bras long, laiton massif. Globe verre BOTIMI importé (`1005008903829449`), 0 vente, à tester.

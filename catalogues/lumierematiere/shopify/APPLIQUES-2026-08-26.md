@@ -37,7 +37,7 @@ vitrine le temps d’écrire la copy.
 | LM-123 | `applique-liseuse-pierre-311650` | Applique murale liseuse pierre et bois, chambre | 119 € | 2 finitions | ACTIVE |
 | LM-124 | `applique-double-travertin-474088` | Applique murale double travertin, 2 lumières | 129 € | 2 finitions | ACTIVE |
 | LM-126 | `applique-murale-pierre-metal-147598` | Applique murale cubique beige pierre, chambre | 109 € | 2 platines | **ACTIVE** (copy alignée sur le bloc 16 cm) |
-| LM-127 | `applique-murale-verre-829449` | Applique murale boule verre bois, chambre | 159 € | 1 (warm G9) | **ACTIVE** (coût DSers 83,75 €, devis API 35,99 €) |
+| LM-127 | `applique-murale-verre-829449` | Applique murale boule verre bois, chambre | 159 € | 1 (warm G9) | **ACTIVE** + Codex g1–g5 |
 | LM-125 | `applique-murale-travertin-358794` | Applique murale galet travertin LED, salon | 149 € | 1 | **DRAFT** (délai 24–32 j) |
 
 Tous les titres respectent la convention du 25/08 : 42 à 51 caractères, type en premier mot,
@@ -180,9 +180,9 @@ Script : `attach_applique_codex.py`. QA : `livraisons-visuels-codex/QA-APPLIQUES
    Boutique Plum, liste 86 %.
 4. **LM-127.** Poussée 26/08 soir. Coût DSers **83,75 €** (devis API 35,99 €, +133 %).
    PV **159 €**, marge 46,75 € HT (35 %). Délai Cainiao 8–16 j, dans la promesse 7–17.
-   Photos AE avec logo BOTIMI : brief Codex `../briefs/2026-08-26-codex-lm127.md`.
-   0 vente, à tester. Oiseau, rotin, céramique, bras long, laiton massif : toujours
-   aucune offre 220 V exploitable.
+   **Galerie Codex rattachée le 26/08 13:40** : 5 JPEG 2048², 8 photos AE (logo BOTIMI)
+   retirées. SKU inchangé. 0 vente, à tester. Oiseau, rotin, céramique, bras long,
+   laiton massif : toujours aucune offre 220 V exploitable.
 
 ---
 

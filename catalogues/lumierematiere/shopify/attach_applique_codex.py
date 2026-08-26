@@ -50,6 +50,11 @@ FICHES = [
             "Noyer": TEINTES / "applique-double-travertin-474088" / "applique-double-travertin-474088-noyer-g1.jpg",
         },
     },
+    {
+        "handle": "applique-murale-verre-829449",
+        "title": "Applique murale boule verre bois, chambre",
+        "teintes": {},
+    },
 ]
 
 
@@ -310,12 +315,22 @@ def draft_mismatch(dry: bool) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--only", help="handles séparés par des virgules")
+    parser.add_argument("--skip-cover", action="store_true")
+    parser.add_argument("--skip-draft-mismatch", action="store_true",
+                        help="ne pas rétrograder LM-126 (désormais live avec copy cubique)")
     args = parser.parse_args()
-    print(f"{'[DRY RUN] ' if args.dry_run else ''}rattachement Codex appliques")
-    for spec in FICHES:
+    todo = FICHES
+    if args.only:
+        wanted = {h.strip() for h in args.only.split(",")}
+        todo = [s for s in FICHES if s["handle"] in wanted]
+    print(f"{'[DRY RUN] ' if args.dry_run else ''}rattachement Codex appliques ({len(todo)})")
+    for spec in todo:
         apply_product(spec, args.dry_run)
-    apply_cover(args.dry_run)
-    draft_mismatch(args.dry_run)
+    if not args.only and not args.skip_cover:
+        apply_cover(args.dry_run)
+    if not args.only and not args.skip_draft_mismatch:
+        draft_mismatch(args.dry_run)
 
 
 if __name__ == "__main__":
