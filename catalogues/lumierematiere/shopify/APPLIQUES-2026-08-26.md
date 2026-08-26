@@ -4,7 +4,7 @@
 Feu vert Hakim : importer les cinq fiches dans DSers, les pousser sur Shopify, rédiger la copy,
 préparer le brief photo.
 
-**Résultat : 5 fiches importées, 4 en ligne, 1 en brouillon.** Le rayon existe.
+**Résultat : 5 fiches importées, 3 en ligne au style Codex, 2 en brouillon.** Le rayon existe.
 
 ---
 
@@ -21,7 +21,7 @@ préparer le brief photo.
 | Collection `appliques-murales`, publiée, SEO complet | fait |
 | Menu, vitrine `/collections`, image de collection | fait |
 | Alt des visuels | 44 réécrits |
-| Mise en ligne | 4 ACTIVE, 1 DRAFT |
+| Mise en ligne | 3 ACTIVE, 2 DRAFT (LM-125 coût/délai, LM-126 photos ≠ copy) |
 
 Le push DSers a été fait **en brouillon volontairement** : sans ça, quatre fiches en anglais
 (« Natural Yellow Cave Stone Led Sconce Lamp Nordic Minimalist Wabi Sabi… ») seraient passées en
@@ -36,7 +36,7 @@ vitrine le temps d’écrire la copy.
 | LM-122 | `applique-murale-pierre-588683` | Applique murale galet beige pierre, chambre | 119 à 159 € | 3 diamètres | ACTIVE |
 | LM-123 | `applique-liseuse-pierre-311650` | Applique murale liseuse pierre et bois, chambre | 119 € | 2 finitions | ACTIVE |
 | LM-124 | `applique-double-travertin-474088` | Applique murale double travertin, 2 lumières | 129 € | 2 finitions | ACTIVE |
-| LM-126 | `applique-murale-pierre-metal-147598` | Applique murale galet beige pierre et métal, entrée | 109 € | 2 finitions | ACTIVE |
+| LM-126 | `applique-murale-pierre-metal-147598` | Applique murale galet beige pierre et métal, entrée | 109 € | 2 finitions | **DRAFT** (photos ≠ copy) |
 | LM-125 | `applique-murale-travertin-358794` | Applique murale galet travertin LED, salon | 149 € | 1 | **DRAFT** |
 
 Tous les titres respectent la convention du 25/08 : 42 à 51 caractères, type en premier mot,
@@ -144,14 +144,26 @@ ciment ou de la résine teintée. À vérifier à la première commande test.
 
 ---
 
-## 8. Photos
+## 8. Photos — livraison Codex du 26/08 midi
 
-Les 5 fiches portent encore les **photos AliExpress brutes** : fonds gris, textes incrustés,
-décors d’hôtel. C’est le seul rayon de la boutique qui n’est pas au style `g1`.
+Codex a livré **18 JPEG sur 29 attendus** (le « 26 » du brief était une erreur de compte).
+Rattachés le même jour, photos AliExpress retirées.
 
-44 visuels source ont été descendus dans `sources-par-handle/{handle}/`.
-Brief Codex écrit : `briefs/2026-08-26-codex-appliques.md`, **26 JPEG** demandés
-(5 galeries de 5 vues, 3 vues de teinte, 1 cover de collection).
+| Handle | Galerie | Teinte | En ligne |
+|---|---|---|---|
+| LM-122 `applique-murale-pierre-588683` | g1–g5 | — | oui |
+| LM-123 `applique-liseuse-pierre-311650` | g1–g5 | Bois clair | oui |
+| LM-124 `applique-double-travertin-474088` | g1–g5 | Noyer | oui |
+| Cover `appliques-murales` | 1 | — | oui |
+| LM-125 `applique-murale-travertin-358794` | bloqué | — | brouillon |
+| LM-126 `applique-murale-pierre-metal-147598` | bloqué | Blanc bloqué | **brouillon depuis midi** |
+
+Les deux blocages sont justes. Les sources DSers de LM-125 et LM-126 montrent un **bloc ou un
+cylindre de travertin**, pas le galet rétroéclairé (LM-125) ni le galet sur équerre E27 (LM-126)
+écrits dans la copy. Codex a refusé d’inventer. LM-126 a été retirée de la vitrine : la laisser
+avec ces photos et cette copy aurait été une fausse représentation.
+
+Script : `attach_applique_codex.py`. QA : `livraisons-visuels-codex/QA-APPLIQUES-2026-08-26.md`.
 
 ---
 
@@ -163,9 +175,9 @@ Brief Codex écrit : `briefs/2026-08-26-codex-appliques.md`, **26 JPEG** demand�
 2. **LM-125.** Reste en brouillon. Trois issues : requoter les variantes B et C, trouver un autre
    fournisseur du même galet, ou l’abandonner. En l’état, 22 à 38 jours de délai contre 7 à 17
    promis en boutique, ce n’est pas tenable.
-3. **LM-126.** Taux de satisfaction liste de 86 % chez Plum Lighting, sous notre seuil habituel.
-   Mise en ligne quand même parce que la marge est la meilleure du rayon et le stock confortable.
-   À surveiller à la première commande.
+3. **LM-126.** Photos DSers = autre produit (bloc / cylindre, pas galet + équerre E27).
+   Rester en brouillon jusqu’à des sources justes, ou réécrire la copy sur ce que les photos montrent.
+   Taux liste 86 % chez Plum, déjà sous seuil.
 4. **Les formes qui manquent.** Le rayon n’a qu’une matière. Oiseau (le best-seller de Lustria),
    verre, laiton, rotin, bras long, extérieur 220 V : aucune fiche quotable trouvée. Un second
    passage de sourcing est nécessaire pour que le rayon pèse.
