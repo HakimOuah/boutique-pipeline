@@ -1505,7 +1505,7 @@ def faq_of(fam: dict, source: str, cms: list[int], options: list[dict], rot: int
             "q": "Quel délai de livraison ?",
             "a": (
                 "Livraison offerte en France métropolitaine, Corse incluse. On prépare le colis en 1 à 2 jours "
-                "ouvrés, l’acheminement prend 6 à 15 jours ouvrés, soit 7 à 17 jours ouvrés au total. "
+                "ouvrés, l’acheminement prend 6 à 16 jours ouvrés, soit 7 à 18 jours ouvrés au total. "
                 "Les commandes validées avant 16h00, heure de Paris, partent le jour même en préparation."
             ),
         }

@@ -23,18 +23,18 @@ Le délai de préparation est de **1 à 2 jours ouvrés**, du lundi au vendredi,
 
 ## 5. Délai d’acheminement (transport)
 
-Une fois le colis remis au transporteur, comptez **6 à 15 jours ouvrés** (du lundi au vendredi) pour toutes les destinations en France métropolitaine. Le délai réel dépend du modèle commandé, et votre numéro de suivi vous informe à chaque étape.
+Une fois le colis remis au transporteur, comptez **6 à 16 jours ouvrés** (du lundi au vendredi) pour toutes les destinations en France métropolitaine. Le délai réel dépend du modèle commandé, et votre numéro de suivi vous informe à chaque étape.
 
 ## 6. Délai de livraison total estimé
 
-Préparation et acheminement additionnés, le délai total estimé est de **7 à 17 jours ouvrés** à compter de la validation de votre commande.
+Préparation et acheminement additionnés, le délai total estimé est de **7 à 18 jours ouvrés** à compter de la validation de votre commande.
 
 | Étape | Délai |
 |---|---|
 | Heure limite de commande | 16h00, heure de Paris |
 | Préparation | 1 à 2 jours ouvrés |
-| Acheminement | 6 à 15 jours ouvrés |
-| Total estimé | 7 à 17 jours ouvrés |
+| Acheminement | 6 à 16 jours ouvrés |
+| Total estimé | 7 à 18 jours ouvrés |
 
 ## 7. Jours sans expédition
 

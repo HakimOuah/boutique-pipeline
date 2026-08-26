@@ -328,10 +328,14 @@ EDITS: dict[str, list[tuple[str, str, str | tuple[str, ...], str]]] = {
         (
             f"{TRUST}.blocks.group_Xb8cmj.blocks.text_QCNw3n",
             "text",
-            "<p>France métropolitaine, sans minimum. Préparation 1 à 2 jours, "
-            "acheminement 6 à 15 jours.</p>",
+            (
+                "<p>France métropolitaine, sans minimum. Préparation 1 à 2 jours, "
+                "acheminement 6 à 15 jours.</p>",
+                "<p>Partout en France métropolitaine, sans minimum. Comptez 1 à 2 jours de "
+                "préparation, puis 6 à 15 jours d’acheminement.</p>",
+            ),
             "<p>Partout en France métropolitaine, sans minimum. Comptez 1 à 2 jours de "
-            "préparation, puis 6 à 15 jours d’acheminement.</p>",
+            "préparation, puis 6 à 16 jours d’acheminement.</p>",
         ),
         (
             f"{TRUST}.blocks.group_r6xr7P.blocks.text_GxU484",
@@ -403,7 +407,7 @@ OPS_TOKENS = {
     "sections/header-group.json": ["30 jours"],
     "sections/footer-group.json": [
         "1 à 2 jours",
-        "6 à 15 jours",
+        "6 à 16 jours",
         "30 jours",
         "10h à 18h",
         "24 h ouvrées",

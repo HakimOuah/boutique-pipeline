@@ -31,7 +31,7 @@ UPSELL_HANDLES = [
 UPSELL_JOINED = ",".join(UPSELL_HANDLES)
 
 BANNER_LIQUID = """<div class="lm-cart-banner">
-  <span>Livraison offerte en France, suivie. 7 à 17 jours ouvrés</span>
+  <span>Livraison offerte en France, suivie. 7 à 18 jours ouvrés</span>
 </div>
 <style>
   .lm-cart-banner{display:flex;align-items:center;justify-content:center;gap:.5rem;margin:0 0 12px;padding:.7rem 1rem;border-radius:12px;background:#24211B;color:#F6F3EC;font-size:.85rem;font-weight:500;text-align:center;box-shadow:inset 3px 0 0 #C08A2D}
@@ -126,7 +126,7 @@ RETURNS_HTML = (
 SHIPPING_HTML = (
     "<p>Livraison offerte en France métropolitaine, Corse incluse, sans minimum. "
     "On prépare le colis en 1 à 2 jours ouvrés si la commande arrive avant 16h00, "
-    "heure de Paris. L’acheminement prend 6 à 15 jours ouvrés, soit 7 à 17 jours "
+    "heure de Paris. L’acheminement prend 6 à 16 jours ouvrés, soit 7 à 18 jours "
     "au total. Le suivi part par e-mail dès l’expédition.</p>"
 )
 

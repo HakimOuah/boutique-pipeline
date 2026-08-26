@@ -36,14 +36,12 @@ ARBRE = [
         ("Pierre", "COLLECTION", "suspensions-pierre"),
         ("Verre", "COLLECTION", "suspensions-verre"),
         ("Métal", "COLLECTION", "suspensions-metal"),
-        ("Papier", "COLLECTION", "suspensions-papier"),
         ("Déco colorée", "COLLECTION", "suspensions-deco"),
     ]),
     ("Lustres", "COLLECTION", "lustres-salon", [
         ("Lustres salon", "COLLECTION", "lustres-salon"),
         ("Lustres chambre", "COLLECTION", "lustres-chambre"),
         ("Lustres anneau", "COLLECTION", "lustres-anneau"),
-        ("Lustres pampilles", "COLLECTION", "lustres-pampilles"),
     ]),
     ("Plafonniers LED", "COLLECTION", "plafonniers-led", [
         ("Plafonniers salon", "COLLECTION", "plafonniers-salon"),

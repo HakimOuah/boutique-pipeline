@@ -1,0 +1,379 @@
+{
+  "sections": {
+    "main": {
+      "type": "cart",
+      "blocks": {
+        "cart_header_blocks": {
+          "type": "_cart-header-blocks",
+          "static": true,
+          "settings": {
+            "wrap_in_card": true,
+            "color_scheme": "scheme-2",
+            "margin_top": 15,
+            "margin_bottom": 0
+          },
+          "blocks": {
+            "banner_franco": {
+              "type": "custom-code",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "custom_liquid": "<div class=\"lm-cart-banner\">\n  <span>Livraison offerte en France, suivie. 7 à 17 jours ouvrés</span>\n</div>\n<style>\n  .lm-cart-banner{display:flex;align-items:center;justify-content:center;gap:.5rem;margin:0 0 12px;padding:.7rem 1rem;border-radius:12px;background:#24211B;color:#F6F3EC;font-size:.85rem;font-weight:500;text-align:center;box-shadow:inset 3px 0 0 #C08A2D}\n</style>",
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {},
+              "name": "Bannière livraison"
+            }
+          },
+          "block_order": [
+            "banner_franco"
+          ]
+        },
+        "cart_footer_resume_blocks": {
+          "type": "_cart-footer-resume-blocks",
+          "static": true,
+          "settings": {
+            "wrap_in_card": false,
+            "color_scheme": "",
+            "margin_top": 0,
+            "margin_bottom": 0
+          },
+          "blocks": {
+            "discount_code_3WJdxK": {
+              "type": "_discount-code",
+              "name": "t:discount_code",
+              "settings": {
+                "style": "normal",
+                "accordion_heading": "Ajouter un code de réduction",
+                "button_text": "Appliquer",
+                "placeholder": "Code de réduction",
+                "margin_top": 0,
+                "margin_bottom": 10,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "upsell_pieces": {
+              "type": "custom-code",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "custom_liquid": "<div class=\"lm-cart-upsell\">\n{%- liquid\n  assign lm_upsell = 'lustre-anneau-led-led-795468,plafonnier-led-565566,suspension-effet-pierre-led-073999,suspension-verre-814554' | split: ','\n  assign lm_count = 0\n-%}\n  <p class=\"lm-cart-upsell__title\">À regarder aussi</p>\n  <div class=\"lm-cart-upsell__list\">\n{%- for h in lm_upsell -%}\n  {%- if lm_count >= 2 -%}{%- break -%}{%- endif -%}\n  {%- assign p = all_products[h] -%}\n  {%- if p != empty and p.available -%}\n    {%- assign in_cart = false -%}\n    {%- for item in cart.items -%}\n      {%- if item.product.handle == h -%}{%- assign in_cart = true -%}{%- endif -%}\n    {%- endfor -%}\n    {%- unless in_cart -%}\n      {%- assign v = p.selected_or_first_available_variant -%}\n      <div class=\"lm-cart-upsell__item\">\n        <a href=\"{{ p.url }}\" class=\"lm-cart-upsell__media\">\n          <img src=\"{{ p.featured_image | image_url: width: 160 }}\" alt=\"{{ p.title | escape }}\" width=\"56\" height=\"56\" loading=\"lazy\">\n        </a>\n        <div class=\"lm-cart-upsell__info\">\n          <a href=\"{{ p.url }}\" class=\"lm-cart-upsell__name\">{{ p.title }}</a>\n          <div class=\"lm-cart-upsell__row\">\n            <span class=\"lm-cart-upsell__price\">{{ v.price | money }}</span>\n            <button type=\"button\" class=\"lm-upsell-add\" data-variant-id=\"{{ v.id }}\">Ajouter</button>\n          </div>\n        </div>\n      </div>\n      {%- assign lm_count = lm_count | plus: 1 -%}\n    {%- endunless -%}\n  {%- endif -%}\n{%- endfor -%}\n  </div>\n</div>\n<style>\n  .lm-cart-upsell{margin:0 0 12px}\n  .lm-cart-upsell__title{font-family:var(--font-heading--family,serif);color:#24211B;font-size:1.05rem;margin:0 0 .8rem}\n  .lm-cart-upsell__list{display:flex;flex-direction:column;gap:.9rem}\n  .lm-cart-upsell__item{display:grid;grid-template-columns:56px 1fr;align-items:center;gap:.75rem}\n  .lm-cart-upsell__media{display:block}\n  .lm-cart-upsell__item img{width:56px;height:56px;object-fit:cover;border-radius:10px;background:#F6F3EC;display:block}\n  .lm-cart-upsell__info{display:flex;flex-direction:column;gap:.35rem;min-width:0}\n  .lm-cart-upsell__name{font-size:.85rem;line-height:1.25;color:#24211B;text-decoration:none}\n  .lm-cart-upsell__row{display:flex;align-items:center;justify-content:space-between;gap:.5rem}\n  .lm-cart-upsell__price{font-size:.9rem;font-weight:600;color:#24211B;white-space:nowrap}\n  .lm-upsell-add{border:0;cursor:pointer;background:#24211B;color:#F6F3EC;font-size:.78rem;font-weight:600;padding:.4rem .85rem;border-radius:999px;white-space:nowrap}\n  .lm-upsell-add:hover{background:#C08A2D;color:#24211B}\n</style>\n<script>\n(function(){\n  document.addEventListener('click', function(e){\n    var btn = e.target.closest('.lm-upsell-add');\n    if(!btn) return;\n    e.preventDefault();\n    var id = parseInt(btn.getAttribute('data-variant-id'), 10);\n    if(!id) return;\n    btn.disabled = true;\n    fetch('/cart/add.js', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({id:id, quantity:1})})\n      .then(function(r){ if(!r.ok) throw r; location.reload(); })\n      .catch(function(){ btn.disabled = false; });\n  });\n})();\n</script>",
+                "margin_top": 0,
+                "margin_bottom": 10,
+                "additional_class": ""
+              },
+              "blocks": {},
+              "name": "Upsell pièces"
+            }
+          },
+          "block_order": [
+            "upsell_pieces",
+            "discount_code_3WJdxK"
+          ]
+        },
+        "cart_footer_blocks": {
+          "type": "_cart-footer-blocks",
+          "static": true,
+          "settings": {
+            "wrap_in_card": false,
+            "color_scheme": "",
+            "margin_top": 0,
+            "margin_bottom": 0
+          },
+          "blocks": {
+            "cart_accelerated_checkout_pCRFtz": {
+              "type": "_cart-accelerated-checkout",
+              "name": "t:accelerated_checkout_button",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "button_style": "primary",
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "payment_methods_TfmeJy": {
+              "type": "payment-methods",
+              "name": "t:payment_methods",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "alignment_desktop": "flex-start",
+                "alignment_mobile": "center",
+                "icon_size": 35,
+                "margin_top": 10,
+                "margin_bottom": 20,
+                "additional_class": ""
+              },
+              "blocks": {}
+            },
+            "accordions_UBXTAD": {
+              "type": "accordions",
+              "name": "t:accordions",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "icon": "caret",
+                "dividers": true,
+                "additional_class": ""
+              },
+              "blocks": {
+                "accordion_eYqGh9": {
+                  "type": "_accordion",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "heading": "Retours, 30 jours",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "icon_custom": "",
+                    "additional_class": ""
+                  },
+                  "blocks": {
+                    "text_9gnHYi": {
+                      "type": "text",
+                      "settings": {
+                        "show_on_display": "desktop_and_mobile",
+                        "text": "<p>Vous avez 30 jours après réception pour renvoyer un luminaire, sans frais de remise en stock (14 jours de rétractation légale, étendus à 30). Écrivez à <a href=\"mailto:contact@lumierematiere.fr\">contact@lumierematiere.fr</a> : on vous indique comment procéder. Si vous changez simplement d’avis, les frais de retour restent à votre charge. Le remboursement part sous 7 jours après contrôle du colis.</p>",
+                        "text_style": "paragraph",
+                        "paragraph_font_size": "normal",
+                        "font_weight": 400,
+                        "alignment": "left",
+                        "alignment_mobile": "left",
+                        "show_read_more": false,
+                        "read_more_length": 200,
+                        "read_more_text": "Voir plus",
+                        "read_less_text": "Voir moins",
+                        "margin_top": 0,
+                        "margin_bottom": 0,
+                        "additional_class": ""
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_9gnHYi"
+                  ]
+                },
+                "accordion_dYtf9Y": {
+                  "type": "_accordion",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "heading": "Livraison offerte en France",
+                    "open_by_default": false,
+                    "icon": "none",
+                    "icon_custom": "",
+                    "additional_class": ""
+                  },
+                  "blocks": {
+                    "text_jGApxp": {
+                      "type": "text",
+                      "settings": {
+                        "show_on_display": "desktop_and_mobile",
+                        "text": "<p>Livraison offerte en France métropolitaine, Corse incluse, sans minimum. On prépare le colis en 1 à 2 jours ouvrés si la commande arrive avant 16h00, heure de Paris. L’acheminement prend 6 à 15 jours ouvrés, soit 7 à 17 jours au total. Le suivi part par e-mail dès l’expédition.</p>",
+                        "text_style": "paragraph",
+                        "paragraph_font_size": "normal",
+                        "font_weight": 400,
+                        "alignment": "left",
+                        "alignment_mobile": "left",
+                        "show_read_more": false,
+                        "read_more_length": 200,
+                        "read_more_text": "Voir plus",
+                        "read_less_text": "Voir moins",
+                        "margin_top": 0,
+                        "margin_bottom": 0,
+                        "additional_class": ""
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_jGApxp"
+                  ]
+                }
+              },
+              "block_order": [
+                "accordion_eYqGh9",
+                "accordion_dYtf9Y"
+              ]
+            }
+          },
+          "block_order": [
+            "cart_accelerated_checkout_pCRFtz",
+            "payment_methods_TfmeJy",
+            "accordions_UBXTAD"
+          ]
+        }
+      },
+      "settings": {
+        "color_scheme": "scheme-1",
+        "show_variant_options_labels": false,
+        "show_remove_button": true,
+        "show_cart_count": true,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "lm_reco": {
+      "type": "collection-featured",
+      "blocks": {
+        "lm_reco_header": {
+          "type": "group",
+          "name": "Titre",
+          "settings": {
+            "wrap_in_card": false,
+            "color_scheme": "",
+            "width_desktop": 100,
+            "layout_direction_desktop": "row",
+            "layout_gap_desktop": 10,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "space-between",
+            "layout_align_items_desktop": "center",
+            "same_as_desktop": true,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_gap_mobile": 10,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "margin_top": 10,
+            "margin_bottom": 30
+          },
+          "blocks": {
+            "lm_reco_title": {
+              "type": "text",
+              "name": "Titre",
+              "settings": {
+                "text": "<p>Pour le salon</p>",
+                "text_style": "h3",
+                "font_weight": 400,
+                "alignment": "left",
+                "margin_top": 0,
+                "margin_bottom": 0
+              },
+              "blocks": {}
+            },
+            "lm_reco_btn": {
+              "type": "button",
+              "name": "Bouton",
+              "settings": {
+                "link": "shopify://collections/suspensions-salon",
+                "open_in_new_tab": false,
+                "label": "Voir les suspensions salon",
+                "button_style": "secondary",
+                "button_shape": "small",
+                "icon": "arrow_forward",
+                "icon_custom": "",
+                "icon_position": "end",
+                "margin_top": 0,
+                "margin_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "lm_reco_title",
+            "lm_reco_btn"
+          ]
+        },
+        "product-card": {
+          "type": "_product-card",
+          "static": true,
+          "settings": {
+            "wrap_in_card": false,
+            "color_scheme": "",
+            "layout_gap": 15
+          },
+          "blocks": {
+            "lm_pc_gallery": {
+              "type": "_product-card-media-gallery",
+              "name": "Galerie",
+              "settings": {
+                "show_slider": false,
+                "media_rounded": true,
+                "media_ratio": "1 / 1"
+              },
+              "blocks": {}
+            },
+            "lm_pc_group": {
+              "type": "_product-card-group",
+              "name": "Infos",
+              "settings": {
+                "wrap_in_card": false,
+                "color_scheme": "",
+                "layout_direction_desktop": "column",
+                "layout_gap_desktop": 5,
+                "layout_wrap_desktop": "nowrap",
+                "layout_justify_desktop": "flex-start",
+                "layout_align_items_desktop": "flex-start",
+                "same_as_desktop": true,
+                "layout_direction_mobile": "column",
+                "layout_gap_mobile": 10,
+                "layout_wrap_mobile": "nowrap",
+                "layout_justify_mobile": "flex-start",
+                "layout_align_items_mobile": "flex-start",
+                "margin_top": 0,
+                "margin_bottom": 0
+              },
+              "blocks": {
+                "lm_pc_title": {
+                  "type": "text",
+                  "name": "Titre",
+                  "settings": {
+                    "text": "<h2>{{ closest.product.title }}</h2>",
+                    "text_style": "paragraph",
+                    "font_weight": 500,
+                    "alignment": "left",
+                    "margin_top": 0,
+                    "margin_bottom": 0
+                  },
+                  "blocks": {}
+                },
+                "lm_pc_price": {
+                  "type": "product-price",
+                  "name": "Prix",
+                  "settings": {
+                    "product": "{{ closest.product }}",
+                    "sales_badge": "amount",
+                    "show_sales_badge_text": false,
+                    "text_style": "paragraph"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "lm_pc_title",
+                "lm_pc_price"
+              ]
+            }
+          },
+          "block_order": [
+            "lm_pc_gallery",
+            "lm_pc_group"
+          ]
+        }
+      },
+      "block_order": [
+        "lm_reco_header"
+      ],
+      "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "color_scheme": "scheme-1",
+        "collection": "suspensions-salon",
+        "max_products": 4,
+        "layout_type": "grid",
+        "grid_columns": 4,
+        "grid_columns_mobile": "2",
+        "padding_top": 30,
+        "padding_bottom": 50,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "anchor_id": "",
+        "additional_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "lm_reco"
+  ]
+}

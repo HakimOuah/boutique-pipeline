@@ -36,8 +36,8 @@
 |---|---|
 | Heure limite commande | **16h00** (heure de Paris) |
 | Traitement | **1 à 2 jours ouvrés** |
-| Acheminement | **6 à 15 jours ouvrés** |
-| Total estimé | **7 à 17 jours ouvrés** |
+| Acheminement | **6 à 16 jours ouvrés** |
+| Total estimé | **7 à 18 jours ouvrés** |
 | Zones | France métropolitaine |
 | Livraison | Gratuite, sans seuil |
 | Retours | **30 jours** (+ rétractation 14 j) |
@@ -45,7 +45,7 @@
 | Annulation | **tant que la commande n'est pas expédiée** |
 | SAV | lun–ven **10h00–18h00** (Paris), réponse sous **24 heures ouvrées** |
 
-> **Source des délais** : check live AliExpress FR du 20/08/2026 sur des IDs du catalogue luminaires. Exemples : warehouse DE « Livraison : août 24–30 » (~4–10 j) ; China Mainland « août 28 – sep. 08 », « août 29 – sep. 08 », « sep. 11–19 » (parfois « expédié sous 14 jours »), outlier jusqu’à « août 23 – oct. 01 ». Fourchette boutique retenue = transit **6–15 j ouvrés**, total **7–17 j ouvrés** (traitement 1–2 inclus) pour couvrir le mix CN/UE sans sous-promettre. Préférer les variantes UE au mapping DSers quand dispo. Aligner feed GMC + fiches sur **ces** chiffres.
+> **Source des délais (26/08)** : fret DSers FR, méthode suivie, max ≤ 16 j, coût ≤ 20 $. Fenêtre boutique = transit **6–16 j ouvrés**, total **7–18 j ouvrés** (prép. 1–2 inclus). DHL 550 $ / 800 $ exclu. Aligner feed GMC + fiches sur **ces** chiffres. Rapport : `shopify/TRI-DELAIS-GMC-2026-08-26.md`.
 
 ## Moyens de paiement (caisse réelle, 24/08 soir)
 

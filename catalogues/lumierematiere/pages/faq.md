@@ -7,8 +7,8 @@ Voici les réponses aux questions qu’on nous pose le plus souvent, sur les dé
 Comptez, en jours ouvrés :
 
 - Préparation : **1 à 2 jours ouvrés**
-- Transport : **6 à 15 jours ouvrés**
-- Total estimé : **7 à 17 jours ouvrés**
+- Transport : **6 à 16 jours ouvrés**
+- Total estimé : **7 à 18 jours ouvrés**
 
 L’heure limite pour la journée est fixée à **16h00, heure de Paris**.
 

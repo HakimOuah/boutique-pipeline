@@ -1,7 +1,7 @@
 # Recommandation délais — Lumière Matière × Merchant Center
 
-**26/08/2026 · reco, aucun changement boutique tant que Hakim n’a pas tranché.**  
-Base : `COHERENCE-2026-08-26.md` (125 ACTIVE) · skill `gmc-acceptance` · [délais estimés GMC](https://support.google.com/merchants/answer/14949917).
+**26/08/2026 · reco validée et exécutée le soir.** Compte rendu : `TRI-DELAIS-GMC-2026-08-26.md`.  
+Base : `COHERENCE-2026-08-26.md` (125 ACTIVE avant tri) · skill `gmc-acceptance` · [délais estimés GMC](https://support.google.com/merchants/answer/14949917).
 
 ---
 

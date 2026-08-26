@@ -20,7 +20,7 @@ Le règlement s’effectue en ligne via une connexion chiffrée SSL, par **carte
 
 ## 5. Livraison
 
-Livraison gratuite en France métropolitaine (Corse incluse). Préparation **1 à 2 jours ouvrés**, acheminement **6 à 15 jours ouvrés**, soit un total estimé de **7 à 17 jours ouvrés**. Heure limite de commande : **16h00, heure de Paris**. Le détail figure dans la politique d’expédition et dans la FAQ.
+Livraison gratuite en France métropolitaine (Corse incluse). Préparation **1 à 2 jours ouvrés**, acheminement **6 à 16 jours ouvrés**, soit un total estimé de **7 à 18 jours ouvrés**. Heure limite de commande : **16h00, heure de Paris**. Le détail figure dans la politique d’expédition et dans la FAQ.
 
 ## 6. Droit de rétractation et retours
 
