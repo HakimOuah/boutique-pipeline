@@ -1,0 +1,155 @@
+{
+  "_note": "Copy des 3 suspensions verre à tester (LM-128/129/130). Overlay après push DSers. Coûts DSers inconnus : apply_verre.py n’écrit pas les prix et laisse DRAFT tant que cout_dsers est null. FAQ commune = 7–18 j.",
+  "collection": {
+    "handle": "suspensions-verre",
+    "title": "Suspensions verre"
+  },
+  "faq_commune": [
+    {
+      "q": "Quel délai de livraison ?",
+      "a": "Livraison offerte en France métropolitaine, Corse incluse. On prépare le colis en 1 à 2 jours ouvrés, l’acheminement prend 6 à 16 jours ouvrés, soit 7 à 18 jours ouvrés au total. Les commandes validées avant 16h00, heure de Paris, partent le jour même en préparation."
+    },
+    {
+      "q": "Et si le luminaire ne me convient pas ?",
+      "a": "Vous avez 14 jours de rétractation légale, que nous étendons à 30 jours à compter de la réception. S’il s’agit d’un simple changement d’avis, les frais de retour sont à votre charge, sans frais de réapprovisionnement. Le service client répond du lundi au vendredi, de 10h00 à 18h00, sous 24 h ouvrées."
+    }
+  ],
+  "produits": [
+    {
+      "ref": "V1",
+      "lm": "LM-128",
+      "ae_id": "1005006967405368",
+      "handle_dsers": "",
+      "handle": "suspension-verre-405368",
+      "title": "Suspension verre disque boule colorée, cuisine",
+      "status": "DRAFT",
+      "bloque": "coût DSers non lu, rester brouillon",
+      "product_type": "Suspensions verre",
+      "option_final": "Couleur",
+      "options_a_supprimer": ["Size", "Taille"],
+      "collections": ["suspensions-verre", "suspensions-cuisine"],
+      "prix_prevu": "149.00",
+      "variantes": [
+        {"sku": "5:361385#220V;200000531:173#A2", "valeur": "Beige et blanc", "prix": "149.00", "cout_dsers": null},
+        {"sku": "5:361385#220V;200000531:193#A1", "valeur": "Bordeaux et blanc", "prix": "149.00", "cout_dsers": null},
+        {"sku": "5:361385#220V;200000531:350852#B1", "valeur": "Jaune et orange", "prix": "149.00", "cout_dsers": null}
+      ],
+      "description_html": "<p>Une capsule colorée, un disque de verre de 25 cm, une boule dépolie qui dépasse dessous. La lumière passe par la boule et se teinte un peu dans le disque, selon la couleur choisie.</p><p>Douille E27, ampoule non fournie. Une LED blanc chaud suffit. Trois associations : beige et blanc, bordeaux et blanc, jaune et orange. Au-dessus d’un îlot ou d’une table, pas au-dessus d’un grand salon.</p>",
+      "seo_description": "Suspension verre, disque 25 cm et boule dépolie. Beige, bordeaux ou jaune et orange. Douille E27. Livraison offerte en France métropolitaine.",
+      "usps": ["Disque 25 cm", "Boule dépolie", "Trois couleurs"],
+      "specs": [
+        ["Type", "Suspension verre, disque et boule"],
+        ["Matière", "verre laqué, boule dépolie"],
+        ["Usage", "intérieur, pièces sèches, hors volumes d’eau"],
+        ["Source", "douille E27, ampoule non fournie"],
+        ["Dimensions", "disque 25 cm, hauteur du corps 20 cm"],
+        ["Couleur", "Beige et blanc, Bordeaux et blanc, ou Jaune et orange"],
+        ["Alimentation", "220 V, raccordement au secteur"],
+        ["Prix", "149 € TTC"],
+        ["Installation", "au plafond, courant coupé, hors salle de bain"]
+      ],
+      "installation": "<p>Fixation au plafond, hauteur réglable au câble. Au-dessus d’une table, gardez de quoi passer sans heurter le disque.</p><p>Vissez l’ampoule E27 après la pose. Elle n’est pas fournie.</p><p>Courant coupé au disjoncteur, toujours. En cas de doute sur le raccordement, passez par un électricien. Notice fournie avec le luminaire.</p>",
+      "benefits": [
+        {"title": "Le disque porte la couleur", "body": "La capsule et le disque sont laqués. La boule, elle, reste dépolie : c’est elle qui éclaire. On choisit une teinte pour le corps, pas pour la lumière."},
+        {"title": "Une échelle de cuisine", "body": "25 cm de disque, 20 cm de haut. Une ligne de deux ou trois tient un îlot. Un seul suffit au-dessus d’une petite table."},
+        {"title": "Ampoule à part", "body": "Douille E27, ampoule non fournie. Vous choisissez la LED, blanc chaud de préférence, entre 2700 et 3000 K."}
+      ],
+      "faq": [
+        {"q": "Quelle couleur choisir ?", "a": "Trois associations : beige et blanc, bordeaux et blanc, jaune et orange. Le disque et la capsule portent la couleur, la boule reste dépolie dans les trois cas."},
+        {"q": "L’ampoule est-elle fournie ?", "a": "Non. La douille est une E27 et l’ampoule n’est pas fournie. Une LED blanc chaud, entre 2700 et 3000 K, convient dans une cuisine ou au-dessus d’une table."},
+        {"q": "Quelle taille fait-elle ?", "a": "Le disque fait 25 cm de diamètre, le corps 20 cm de haut. C’est une pièce de cuisine ou de petite table, pas un lustre de salon."},
+        {"q": "C’est du verre ou de la pierre ?", "a": "Du verre. L’attribut fournisseur dit parfois « pierre de verre » : les photos montrent un verre laqué et une boule dépolie, pas un bloc de pierre."},
+        {"q": "Est-ce que je peux la poser dans une salle de bain ?", "a": "Non. Cette suspension ne porte aucun indice de protection contre l’eau. Réservez-la aux pièces sèches."}
+      ]
+    },
+    {
+      "ref": "V2",
+      "lm": "LM-129",
+      "ae_id": "1005008876910933",
+      "handle_dsers": "",
+      "handle": "suspension-verre-bois-910933",
+      "title": "Suspension verre bois, abat-jour chambre",
+      "status": "DRAFT",
+      "bloque": "coût DSers non lu, même boutique que LM-127, s’attendre à un écart",
+      "product_type": "Suspensions verre",
+      "option_final": null,
+      "options_a_supprimer": ["Lampshade Color", "Couleur du corps"],
+      "collections": ["suspensions-verre", "suspensions-cuisine"],
+      "prix_prevu": "159.00",
+      "variantes": [
+        {"sku": "200000531:193#A  Warm white LED", "valeur": null, "prix": "159.00", "cout_dsers": null}
+      ],
+      "description_html": "<p>Un abat-jour de verre crème, 19 cm, sous une tige de bois clair. La rosace au plafond est aussi en bois, 10 cm. La LED est déjà dans le corps, blanc chaud.</p><p>C’est une petite pièce : au-dessus d’un chevet, d’une console, ou en ligne au-dessus d’un îlot étroit. Pas un lustre de salon.</p>",
+      "seo_description": "Suspension verre crème sur tige de bois, abat-jour 19 cm, LED blanc chaud fournie. Livraison offerte en France métropolitaine.",
+      "usps": ["Abat-jour verre 19 cm", "Tige de bois", "LED fournie"],
+      "specs": [
+        ["Type", "Suspension verre et bois"],
+        ["Matière", "verre crème, bois clair"],
+        ["Usage", "intérieur, pièces sèches, hors volumes d’eau"],
+        ["Source", "LED intégrée et fournie, blanc chaud, non variable"],
+        ["Dimensions", "abat-jour 19 cm, hauteur du corps 20 cm, rosace 10 cm"],
+        ["Alimentation", "220 V, raccordement au secteur"],
+        ["Prix", "159 € TTC"],
+        ["Installation", "au plafond, courant coupé, hors salle de bain"]
+      ],
+      "installation": "<p>La rosace de bois se visse au plafond. Le câble blanc se règle, 120 cm au plus. Au-dessus d’un chevet, descendez assez pour éclairer la table, pas le visage de celui qui lit.</p><p>La LED est déjà en place. Rien à visser après la pose.</p><p>Courant coupé au disjoncteur, toujours. En cas de doute sur le raccordement, passez par un électricien. Notice fournie avec le luminaire.</p>",
+      "benefits": [
+        {"title": "Le verre, pas le bois, éclaire", "body": "Le bois porte l’abat-jour. C’est le verre crème qui diffuse, vers le bas surtout, avec un halo court autour de la pièce."},
+        {"title": "Une échelle de chevet", "body": "19 cm de diamètre, 20 cm de haut. Mesurez avant : sur une photo, une suspension paraît toujours plus petite qu’en vrai."},
+        {"title": "Rien à acheter à part", "body": "La LED blanc chaud est fournie. Vous branchez, ça éclaire. Elle n’est pas variable."}
+      ],
+      "faq": [
+        {"q": "L’ampoule est-elle fournie ?", "a": "Oui. La LED est intégrée et fournie, blanc chaud, non variable. Il n’y a pas de douille à équiper."},
+        {"q": "Quelle taille fait-elle ?", "a": "L’abat-jour fait 19 cm de diamètre, le corps 20 cm de haut, la rosace 10 cm. C’est une pièce de chevet ou de petite table."},
+        {"q": "C’est du bois massif ?", "a": "La tige et la rosace sont en bois clair, grain visible. L’abat-jour est en verre crème."},
+        {"q": "Est-ce que je peux la poser dans une salle de bain ?", "a": "Non. Cette suspension ne porte aucun indice de protection contre l’eau. Réservez-la aux pièces sèches : chambre, entrée, cuisine."}
+      ]
+    },
+    {
+      "ref": "V3",
+      "lm": "LM-130",
+      "ae_id": "1005009698538307",
+      "handle_dsers": "",
+      "handle": "suspension-verre-538307",
+      "title": "Suspension cylindre verre teinté, chambre",
+      "status": "DRAFT",
+      "bloque": "coût DSers non lu, rester brouillon",
+      "product_type": "Suspensions verre",
+      "option_final": "Couleur",
+      "options_a_supprimer": ["Couleur d'émission", "Color Temperature"],
+      "collections": ["suspensions-verre"],
+      "prix_prevu": "129.00",
+      "variantes": [
+        {"sku": "136:200003938;200000531:173#Matte Orange2", "valeur": "Orange", "prix": "129.00", "cout_dsers": null},
+        {"sku": "136:200003938;200000531:200003699#Green2", "valeur": "Vert", "prix": "129.00", "cout_dsers": null},
+        {"sku": "136:200003938;200000531:100018786#White1", "valeur": "Blanc", "prix": "129.00", "cout_dsers": null}
+      ],
+      "description_html": "<p>Un cylindre de verre teinté, assez petit pour un chevet, avec une calotte d’une autre couleur au-dessus. La lumière traverse le verre et le teinte : orange mat, vert, ou blanc.</p><p>Ampoule fournie, blanc chaud. Ce n’est pas un lustre de salon. Au-dessus d’une table de nuit, d’une console, ou en paire au-dessus d’une petite table.</p>",
+      "seo_description": "Petite suspension cylindre en verre teinté, orange, vert ou blanc. Ampoule blanc chaud fournie. Livraison offerte en France métropolitaine.",
+      "usps": ["Verre teinté", "Trois couleurs", "Ampoule fournie"],
+      "specs": [
+        ["Type", "Suspension cylindre en verre teinté"],
+        ["Matière", "verre teinté, calotte contrastée"],
+        ["Usage", "intérieur, pièces sèches, hors volumes d’eau"],
+        ["Source", "E27, ampoule blanc chaud fournie, non variable"],
+        ["Couleur", "Orange, Vert ou Blanc"],
+        ["Alimentation", "90 à 260 V, raccordement au secteur"],
+        ["Prix", "129 € TTC"],
+        ["Installation", "au plafond, courant coupé, hors salle de bain"]
+      ],
+      "installation": "<p>Fixation au plafond, hauteur réglable au câble. Au-dessus d’un chevet, descendez pour éclairer la table, pas les yeux de celui qui lit.</p><p>L’ampoule blanc chaud est fournie. Vérifiez qu’elle est bien vissée avant de remettre le courant.</p><p>Courant coupé au disjoncteur, toujours. En cas de doute sur le raccordement, passez par un électricien. Notice fournie avec le luminaire.</p>",
+      "benefits": [
+        {"title": "Le verre teinte la pièce", "body": "L’orange mat réchauffe, le vert tranche, le blanc reste neutre. Ce n’est pas un vitrail d’atelier : c’est un cylindre de verre teinté dans la masse."},
+        {"title": "Une échelle de chevet", "body": "Le colis fait 21 × 16 × 25 cm. C’est une petite pièce. Mesurez avant : sur une photo, une suspension paraît toujours plus petite qu’en vrai."},
+        {"title": "Ampoule déjà là", "body": "Blanc chaud, fournie. Rien d’autre à acheter pour l’allumer."}
+      ],
+      "faq": [
+        {"q": "Quelle couleur choisir ?", "a": "Orange mat, vert ou blanc. La calotte du dessus est d’une autre teinte, plus sombre, dans les trois cas."},
+        {"q": "L’ampoule est-elle fournie ?", "a": "Oui. Une ampoule E27 blanc chaud est fournie. Elle n’est pas variable."},
+        {"q": "C’est un vitrail ?", "a": "Non. C’est un cylindre de verre teinté, pas un assemblage de pièces serti au plomb. On le dit verre teinté, rien de plus."},
+        {"q": "Ça tient au-dessus d’une table de salon ?", "a": "C’est trop petit pour un salon. Réservez-la à un chevet, une console, ou une petite table."},
+        {"q": "Est-ce que je peux la poser dans une salle de bain ?", "a": "Non. Cette suspension ne porte aucun indice de protection contre l’eau. Réservez-la aux pièces sèches."}
+      ]
+    }
+  ]
+}

@@ -188,7 +188,7 @@ Réserves : petite pièce (chevet / table, pas un lustre salon) · stocks faible
 
 Si les trois verres passent DSers et le délai au panier : verre live **2 → 5**. La collection peut rester au menu. Ce n’est **pas** encore 5 pampilles ni 5 bambous.
 
-Pas de `GO fournisseur`. Pas d’import. Hakim tranche l’import DSers.
+Hakim a dit d’importer (26/08 15:18). Les 3 IDs sont **absents** de Shopify. Pas de mapping DSers = pas de fiche créée ici. Copy + overlay + brief Codex écrits : `verre-a-importer.json`, `verre-copy.json`, `apply_verre.py`, `briefs/2026-08-26-codex-verre.md`. Titres calés sur les photos (disque+boule / bois+verre / cylindre teinté), pas sur le mot « globe » du premier devis.
 
 ---
 

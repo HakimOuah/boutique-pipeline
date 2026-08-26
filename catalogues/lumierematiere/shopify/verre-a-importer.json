@@ -1,0 +1,105 @@
+{
+  "_note": "3 verres à tester (sourcing délais 26/08). Pas encore dans Shopify : DSers d’abord, puis apply_verre.py. Prix proposés = grille sur devis API, à recalculer sur le coût DSers réel (écart vu jusqu’à +133 % sur LM-127 BOTIMI). Rester DRAFT tant que le coût DSers n’est pas lu.",
+  "date": "2026-08-26",
+  "rapport": "SOURCING-DELAIS-PAMPILLES-BAMBOU-VERRE-2026-08-26.md",
+  "collection": "suspensions-verre",
+  "a_importer": [
+    {
+      "ref": "V1",
+      "lm_prevu": "LM-128",
+      "ae_id": "1005006967405368",
+      "url": "https://www.aliexpress.com/item/1005006967405368.html",
+      "sku_id": "12000038889007812",
+      "sku_attr": "5:361385#220V;200000531:173#A2",
+      "sku_a_garder": [
+        "5:361385#220V;200000531:173#A2",
+        "5:361385#220V;200000531:193#A1",
+        "5:361385#220V;200000531:350852#B1"
+      ],
+      "variantes_fr": [
+        {"sku": "5:361385#220V;200000531:173#A2", "valeur": "Beige et blanc"},
+        {"sku": "5:361385#220V;200000531:193#A1", "valeur": "Bordeaux et blanc"},
+        {"sku": "5:361385#220V;200000531:350852#B1", "valeur": "Jaune et orange"}
+      ],
+      "titre": "Suspension verre disque boule colorée, cuisine",
+      "titre_len": 46,
+      "handle": "suspension-verre-405368",
+      "forme": "capsule colorée + disque 25 cm + boule dépolie dessous, haut 20 cm",
+      "devis_rendu_eur": 37.58,
+      "devis_delai": "6-10 j",
+      "pv_ttc_prevu": 149,
+      "ampoule": "E27, attribut = non incluse",
+      "tension": "220 V seulement (jeter tous les 110 V)",
+      "collections": ["suspensions-verre", "suspensions-cuisine"],
+      "reserves": [
+        "Attribut matière « pierre de verre » : photos = verre laqué, pas une pierre",
+        "16+ couleurs usine : 3 max, 220 V only",
+        "Devis ≠ DSers"
+      ]
+    },
+    {
+      "ref": "V2",
+      "lm_prevu": "LM-129",
+      "ae_id": "1005008876910933",
+      "url": "https://www.aliexpress.com/item/1005008876910933.html",
+      "sku_id": "12000047053457025",
+      "sku_attr": "200000531:193#A  Warm white LED",
+      "sku_a_garder": [
+        "200000531:193#A  Warm white LED"
+      ],
+      "sku_a_supprimer": [
+        "200000531:173#B  Warm white LED",
+        "200000531:175#C Warm white LED"
+      ],
+      "titre": "Suspension verre bois, abat-jour chambre",
+      "titre_len": 40,
+      "handle": "suspension-verre-bois-910933",
+      "forme": "tige bois clair + abat-jour verre crème 19 cm, haut 20 cm, rosace bois 10 cm",
+      "devis_rendu_eur": 47.39,
+      "devis_delai": "8-15 j",
+      "pv_ttc_prevu": 159,
+      "ampoule": "LED blanc chaud incluse (attribut Oui)",
+      "tension": "220 V",
+      "collections": ["suspensions-verre", "suspensions-cuisine"],
+      "reserves": [
+        "0 vente, même boutique BOTIMI que LM-127 (DSers 83,75 € vs devis 35,99 €)",
+        "3 silhouettes A/B/C au même prix : n’en garder qu’une (A)",
+        "Logo BOTIMI sur toutes les photos — Codex ne le reprend pas",
+        "Si DSers > ~85 €, remonter le PV à 189 € pour tenir le plancher 40 € HT"
+      ]
+    },
+    {
+      "ref": "V3",
+      "lm_prevu": "LM-130",
+      "ae_id": "1005009698538307",
+      "url": "https://www.aliexpress.com/item/1005009698538307.html",
+      "sku_id": "12000049889682247",
+      "sku_attr": "136:200003938;200000531:173#Matte Orange2",
+      "sku_a_garder": [
+        "136:200003938;200000531:173#Matte Orange2",
+        "136:200003938;200000531:200003699#Green2",
+        "136:200003938;200000531:100018786#White1"
+      ],
+      "variantes_fr": [
+        {"sku": "136:200003938;200000531:173#Matte Orange2", "valeur": "Orange"},
+        {"sku": "136:200003938;200000531:200003699#Green2", "valeur": "Vert"},
+        {"sku": "136:200003938;200000531:100018786#White1", "valeur": "Blanc"}
+      ],
+      "titre": "Suspension cylindre verre teinté, chambre",
+      "titre_len": 41,
+      "handle": "suspension-verre-538307",
+      "forme": "cylindre verre teinté compact + calotte contrastée, chevet / petite table, pas un lustre salon",
+      "devis_rendu_eur": 33.18,
+      "devis_delai": "7-12 j",
+      "pv_ttc_prevu": 129,
+      "ampoule": "E27, attribut = incluse, blanc chaud seulement",
+      "tension": "90-260 V",
+      "collections": ["suspensions-verre"],
+      "reserves": [
+        "Dire « verre teinté », jamais atelier / vitrail artisanal",
+        "Stocks faibles (1–8 par couleur) : 3 teintes max",
+        "Petite pièce, titre chambre, pas salon"
+      ]
+    }
+  ]
+}

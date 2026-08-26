@@ -80,7 +80,7 @@ Rapport : `SOURCING-DELAIS-PAMPILLES-BAMBOU-VERRE-2026-08-26.md`. JSON : `delais
 |---|---|---|
 | Pampilles | **`AUCUNE OFFRE EXPLOITABLE`** | bijoux ou hôtel 500 €+, 0 milieu ≤ 16 j. Page 404 tant qu’on n’a pas 5 gouttes. |
 | Bambou | **`AUCUNE OFFRE EXPLOITABLE`** | 2 JOYINLED 40 cm neufs = Heavy seule ligne (23–43 j). Les 3 live restent. |
-| Verre | **3 `FOURNISSEUR À TESTER`** | NiuNian `1005006967405368` 6–10 j · BOTIMI `1005008876910933` 8–15 j · vitrail `1005009698538307` 7–12 j. Hakim tranche l’import. |
+| Verre | **3 `FOURNISSEUR À TESTER`** | NiuNian `1005006967405368` 6–10 j · BOTIMI `1005008876910933` 8–15 j · cylindre teinté `1005009698538307` 7–12 j. Copy + brief Codex prêts (`verre-a-importer.json`). **Push DSers encore à faire.** |
 
 Papier (4 760) après import verre, si Hakim le veut. Les collections pièce minces se remplissent d’elles-mêmes si le sourcing matière tient le délai.
 
