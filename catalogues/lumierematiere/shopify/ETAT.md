@@ -7,6 +7,7 @@
 
 ## Fait
 
+- **Passe de cohérence 26/08 — délais + prix.** Rapport `COHERENCE-2026-08-26.md`. FAQ 7–17 j identique sur les 125 fiches live, mais **66 OVER_PROMISE** (route DSers/AE > 16 j), 12 à 16 j (limite), 6 sans ligne gratuite raisonnable, 4 SKU d’entrée inlivrables FR. **37 fiches seulement tiennent vraiment 7–17 j.** Prix : 125/125 au-dessus du plancher de marge ; seule LM-127 (159 €) est au-dessus de sa médiane Lustria (99,90 €), et on ne peut pas descendre. Aucune écriture boutique.
 - **Rayon appliques 26/08 soir — 5 fiches live, 1 brouillon.** LM-127 boule verre poussée depuis DSers (draft puis overlay). Collection vitrine = 5. Copy : `appliques-copy.json`. Briefs Codex : LM-126 `briefs/2026-08-26-codex-lm126.md`, LM-127 `briefs/2026-08-26-codex-lm127.md`.
   - En ligne : LM-122 galet 119–159 € · LM-123 liseuse 119 € · LM-124 double 129 € · **LM-126 cubique 109 €** (photos AE en attendant Codex) · **LM-127 boule verre 159 €** (galerie Codex g1–g5, logo BOTIMI retiré). **Brouillon : LM-125** — délai 24–32 j confirmé sur A, B et C, attribut IP « Non résistant à l'eau ».
   - ⚠️ **Le devis `quote_aliexpress_sku` n'est pas un coût opposable.** Écarts DSers : −20 % à **+133 %** (LM-127 : devis 35,99 € → coût DSers **83,75 €**). Trier avec la quote, fixer le prix sur le coût DSers.
@@ -95,6 +96,7 @@ Coût DSers (unité) + **2 € de fret** (quotes FR : 1,99 € / 0 €). Concurr
 5. 5 fiches « Unmapped » DSers (fantômes API) : à supprimer dans l’app si elles sont encore là.
 6. Vérifier `suspension-bois-led-453740` et `suspension-verre-noir-201424` (réduites à 1 variante sur des codes aveugles) face au listing AE.
 7. **Appliques, commande test** : LM-122, LM-123 et LM-124 portent la même marque fiche `pumous` et des adresses proches à Guangzhou. Une seule commande suffit à voir la pièce et à trancher la question de la matière (pierre réelle ou ciment/résine teintée).
-8. **LM-125 et LM-126 en brouillon.** LM-125 : coût DSers 68,39 € (+63 % vs devis) + délai 22–38 j + sources qui montrent un bloc, pas un galet. LM-126 : les photos DSers sont un autre produit (bloc / cylindre de travertin, pas galet + équerre E27). Relancer Codex seulement après des sources qui correspondent à la pièce, ou réécrire la copy sur ce que les photos montrent vraiment.
+8. **LM-125 reste brouillon** (22–30 j Cainiao Standard, confirmé DSers + AE). LM-126 est live à 109 €, photos AE, brief Codex cubique envoyé par Hakim le 26/08.
+8b. **Délais FAQ 7–17 j vs réel** : 66 fiches OVER_PROMISE (`COHERENCE-2026-08-26.md`). Trancher : élargir la FAQ par famille, ou retirer / remplacer les pires (max ≥ 30 j, 44 fiches).
 9. **Second passage de sourcing appliques** : le rayon n'a qu'une matière. Oiseau (best-seller Lustria), verre, laiton, rotin, bras long, extérieur 220 V restent à trouver.
 10. **Convention de titres** : `Applique murale` est un sixième type, à ajouter à la grille fermée de `CONVENTION-TITRES-2026-08-25.md`.
