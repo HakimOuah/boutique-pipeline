@@ -1,5 +1,5 @@
 {
-  "_note": "Copy des 3 suspensions verre à tester (LM-128/129/130). Overlay après push DSers. Coûts DSers inconnus : apply_verre.py n’écrit pas les prix et laisse DRAFT tant que cout_dsers est null. FAQ commune = 7–18 j.",
+  "_note": "Copy des 3 suspensions verre à tester (LM-128/129/130). Coûts = unitCost Shopify après push DSers 26/08 (EUR). apply_verre.py laisse DRAFT. FAQ commune = 7–18 j.",
   "collection": {
     "handle": "suspensions-verre",
     "title": "Suspensions verre"
@@ -19,20 +19,20 @@
       "ref": "V1",
       "lm": "LM-128",
       "ae_id": "1005006967405368",
-      "handle_dsers": "",
+      "handle_dsers": "nordic-retro-glass-chandelier-living-room-dining-room-bedroom-kitchenmodern-lighting-decoration-retro-lighting-fixture-e27led",
       "handle": "suspension-verre-405368",
       "title": "Suspension verre disque boule colorée, cuisine",
       "status": "DRAFT",
-      "bloque": "coût DSers non lu, rester brouillon",
+      "bloque": "overlay OK, rester brouillon jusqu’à recette Hakim",
       "product_type": "Suspensions verre",
       "option_final": "Couleur",
       "options_a_supprimer": ["Size", "Taille"],
       "collections": ["suspensions-verre", "suspensions-cuisine"],
       "prix_prevu": "149.00",
       "variantes": [
-        {"sku": "5:361385#220V;200000531:173#A2", "valeur": "Beige et blanc", "prix": "149.00", "cout_dsers": null},
-        {"sku": "5:361385#220V;200000531:193#A1", "valeur": "Bordeaux et blanc", "prix": "149.00", "cout_dsers": null},
-        {"sku": "5:361385#220V;200000531:350852#B1", "valeur": "Jaune et orange", "prix": "149.00", "cout_dsers": null}
+        {"sku": "200000531:173#A2;5:361385#220V", "valeur": "Beige et blanc", "prix": "149.00", "cout_dsers": 34.93},
+        {"sku": "200000531:193#A1;5:361385#220V", "valeur": "Bordeaux et blanc", "prix": "149.00", "cout_dsers": 37.08},
+        {"sku": "200000531:350852#B1;5:361385#220V", "valeur": "Jaune et orange", "prix": "149.00", "cout_dsers": 38.11}
       ],
       "description_html": "<p>Une capsule colorée, un disque de verre de 25 cm, une boule dépolie qui dépasse dessous. La lumière passe par la boule et se teinte un peu dans le disque, selon la couleur choisie.</p><p>Douille E27, ampoule non fournie. Une LED blanc chaud suffit. Trois associations : beige et blanc, bordeaux et blanc, jaune et orange. Au-dessus d’un îlot ou d’une table, pas au-dessus d’un grand salon.</p>",
       "seo_description": "Suspension verre, disque 25 cm et boule dépolie. Beige, bordeaux ou jaune et orange. Douille E27. Livraison offerte en France métropolitaine.",
@@ -66,18 +66,18 @@
       "ref": "V2",
       "lm": "LM-129",
       "ae_id": "1005008876910933",
-      "handle_dsers": "",
+      "handle_dsers": "botimi-single-wooden-led-pendant-light-with-glass-lampshade-for-dining-wire-bedroom-lustre-kitchen-luminaire-island-hanging-lamp",
       "handle": "suspension-verre-bois-910933",
       "title": "Suspension verre bois, abat-jour chambre",
       "status": "DRAFT",
-      "bloque": "coût DSers non lu, même boutique que LM-127, s’attendre à un écart",
+      "bloque": "overlay OK, rester brouillon jusqu’à recette Hakim",
       "product_type": "Suspensions verre",
       "option_final": null,
-      "options_a_supprimer": ["Lampshade Color", "Couleur du corps"],
+      "options_a_supprimer": ["Body Color", "Lampshade Color", "Couleur du corps"],
       "collections": ["suspensions-verre", "suspensions-cuisine"],
       "prix_prevu": "159.00",
       "variantes": [
-        {"sku": "200000531:193#A  Warm white LED", "valeur": null, "prix": "159.00", "cout_dsers": null}
+        {"sku": "200000531:193#A  Warm white LED", "valeur": null, "prix": "159.00", "cout_dsers": 46.21}
       ],
       "description_html": "<p>Un abat-jour de verre crème, 19 cm, sous une tige de bois clair. La rosace au plafond est aussi en bois, 10 cm. La LED est déjà dans le corps, blanc chaud.</p><p>C’est une petite pièce : au-dessus d’un chevet, d’une console, ou en ligne au-dessus d’un îlot étroit. Pas un lustre de salon.</p>",
       "seo_description": "Suspension verre crème sur tige de bois, abat-jour 19 cm, LED blanc chaud fournie. Livraison offerte en France métropolitaine.",
@@ -109,20 +109,20 @@
       "ref": "V3",
       "lm": "LM-130",
       "ae_id": "1005009698538307",
-      "handle_dsers": "",
+      "handle_dsers": "vintage-stained-glass-chandelier-small-bedside-dining-room-light-e27-pink-orange-green-white-home-decorative-lighting-fixture",
       "handle": "suspension-verre-538307",
       "title": "Suspension cylindre verre teinté, chambre",
       "status": "DRAFT",
-      "bloque": "coût DSers non lu, rester brouillon",
+      "bloque": "overlay OK, rester brouillon jusqu’à recette Hakim",
       "product_type": "Suspensions verre",
       "option_final": "Couleur",
-      "options_a_supprimer": ["Couleur d'émission", "Color Temperature"],
+      "options_a_supprimer": ["Emitting Color", "Couleur d'émission", "Color Temperature"],
       "collections": ["suspensions-verre"],
       "prix_prevu": "129.00",
       "variantes": [
-        {"sku": "136:200003938;200000531:173#Matte Orange2", "valeur": "Orange", "prix": "129.00", "cout_dsers": null},
-        {"sku": "136:200003938;200000531:200003699#Green2", "valeur": "Vert", "prix": "129.00", "cout_dsers": null},
-        {"sku": "136:200003938;200000531:100018786#White1", "valeur": "Blanc", "prix": "129.00", "cout_dsers": null}
+        {"sku": "136:200003938;200000531:173#Matte Orange2", "valeur": "Orange", "prix": "129.00", "cout_dsers": 30.53},
+        {"sku": "136:200003938;200000531:200003699#Green2", "valeur": "Vert", "prix": "129.00", "cout_dsers": 31.55},
+        {"sku": "136:200003938;200000531:100018786#White1", "valeur": "Blanc", "prix": "129.00", "cout_dsers": 30.42}
       ],
       "description_html": "<p>Un cylindre de verre teinté, assez petit pour un chevet, avec une calotte d’une autre couleur au-dessus. La lumière traverse le verre et le teinte : orange mat, vert, ou blanc.</p><p>Ampoule fournie, blanc chaud. Ce n’est pas un lustre de salon. Au-dessus d’une table de nuit, d’une console, ou en paire au-dessus d’une petite table.</p>",
       "seo_description": "Petite suspension cylindre en verre teinté, orange, vert ou blanc. Ampoule blanc chaud fournie. Livraison offerte en France métropolitaine.",
