@@ -101,6 +101,6 @@ Coût DSers (unité) + **2 € de fret** (quotes FR : 1,99 € / 0 €). Concurr
 7. **Appliques, commande test** : LM-122, LM-123 et LM-124 portent la même marque fiche `pumous` et des adresses proches à Guangzhou. Une seule commande suffit à voir la pièce et à trancher la question de la matière (pierre réelle ou ciment/résine teintée).
 8. **LM-125 reste brouillon** (22–30 j Cainiao Standard, confirmé DSers + AE). LM-126 est live à 109 €, photos AE, brief Codex cubique envoyé par Hakim le 26/08.
 8b. **Délais × GMC — fait 26/08.** `TRI-DELAIS-GMC-2026-08-26.md`. Ne pas soumettre GMC tant que le domaine n’a pas 30 jours.
-9. **3 verres — push DSers puis overlay.** URLs + `sku_attr` dans `verre-a-importer.json`. Après le push : `python3 apply_verre.py` (laisse DRAFT, n’écrit pas les prix tant que `cout_dsers` est vide). Brief Codex déjà rédigé : `briefs/2026-08-26-codex-verre.md`. Pampilles et bambou : ne pas republier / ne pas garnir.
+9. **3 verres — push DSers, puis overlay + Codex.** Visuels **15/15 déjà livrés**. URLs + `sku_attr` : `verre-a-importer.json`. Après le push : `python3 apply_verre.py` puis `python3 attach_verre_codex.py`. Rester DRAFT jusqu’au coût DSers. Pampilles et bambou : ne pas republier / ne pas garnir.
 10. **Second passage de sourcing appliques** : le rayon n'a qu'une matière. Oiseau (best-seller Lustria), verre, laiton, rotin, bras long, extérieur 220 V restent à trouver.
 11. **Convention de titres** : `Applique murale` est un sixième type, à ajouter à la grille fermée de `CONVENTION-TITRES-2026-08-25.md`.
