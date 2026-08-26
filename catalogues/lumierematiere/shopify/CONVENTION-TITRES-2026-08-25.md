@@ -212,3 +212,20 @@ Un titre est refusé s'il :
 - ne contient ni matière, ni couleur, ni forme (titre vide au sens du § 9).
 
 `seo_title` = titre + ` | Lumière Matière`, coupé à 70 caractères.
+
+---
+
+## Ajout du 26/08/2026 — les appliques murales
+
+Le rayon appliques ouvert le 26/08 introduit un **sixième type**, et il ne se comporte pas
+comme les cinq autres.
+
+| Emplacement | Ce qui change |
+|---|---|
+| **Type** | `Applique murale` s'ajoute à `Suspension`, `Lustre`, `Plafonnier`. **Deux mots, pas un** : `applique murale` est la requête (9 000 visites/mois sur la page de Lustria, position 3), `applique` seul ne l'est pas. |
+| **Forme** | `galet` · `liseuse` · `double` s'ajoutent à la liste. `liseuse` vaut une famille entière chez Lustria (291 fiches). |
+| **Détail** | `2 lumières` sur le même modèle que `3 lumières`. |
+
+Le contrôle automatique avant publication accepte donc aussi un titre qui commence par
+`Applique murale`. Les cinq titres du rayon font 42 à 51 caractères et respectent le reste
+de la grille sans exception.

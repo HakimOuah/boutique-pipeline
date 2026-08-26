@@ -49,6 +49,7 @@ ARBRE = [
         ("Plafonniers salon", "COLLECTION", "plafonniers-salon"),
         ("Plafonniers cuisine", "COLLECTION", "plafonniers-cuisine"),
     ]),
+    ("Appliques murales", "COLLECTION", "appliques-murales"),
     ("Grand format", "COLLECTION", "suspensions-xxl"),
     ("Notre histoire", "PAGE", "/pages/notre-histoire"),
     ("FAQ", "PAGE", "/pages/faq"),

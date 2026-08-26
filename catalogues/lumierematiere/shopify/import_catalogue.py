@@ -56,6 +56,8 @@ COLLECTIONS = {
     "Suspensions papier": ("Suspensions papier", "suspensions-papier", None),
     "Grandes suspensions XXL": ("Grandes suspensions XXL", "suspensions-xxl", None),
     "Suspensions osier": ("Suspensions osier", "suspensions-osier", None),
+    # rayon ouvert le 26/08/2026, peuplé par apply_appliques.py (fiches poussées par DSers).
+    "Appliques murales": ("Appliques murales", "appliques-murales", None),
 }
 
 EXTRA_COLLECTIONS = {
