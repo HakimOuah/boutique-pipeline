@@ -223,7 +223,7 @@ comme les cinq autres.
 | Emplacement | Ce qui change |
 |---|---|
 | **Type** | `Applique murale` s'ajoute à `Suspension`, `Lustre`, `Plafonnier`. **Deux mots, pas un** : `applique murale` est la requête (9 000 visites/mois sur la page de Lustria, position 3), `applique` seul ne l'est pas. |
-| **Forme** | `galet` · `liseuse` · `double` s'ajoutent à la liste. `liseuse` vaut une famille entière chez Lustria (291 fiches). |
+| **Forme** | `galet` · `liseuse` · `double` · `cubique` s'ajoutent à la liste. `liseuse` vaut une famille entière chez Lustria (291 fiches). |
 | **Détail** | `2 lumières` sur le même modèle que `3 lumières`. |
 
 Le contrôle automatique avant publication accepte donc aussi un titre qui commence par

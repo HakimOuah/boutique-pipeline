@@ -4,7 +4,7 @@
 Feu vert Hakim : importer les cinq fiches dans DSers, les pousser sur Shopify, rédiger la copy,
 préparer le brief photo.
 
-**Résultat : 5 fiches importées, 3 en ligne au style Codex, 2 en brouillon.** Le rayon existe.
+**Résultat au 26/08 soir : 5 fiches importées, 4 en ligne, 1 brouillon.** LM-126 a été réécrite sur le bloc cubique réel et republiée. LM-125 reste hors vitrine (délai 24–32 j). Pour la 5ᵉ fiche live : importer `1005008903829449` (boule verre).
 
 ---
 
@@ -36,8 +36,8 @@ vitrine le temps d’écrire la copy.
 | LM-122 | `applique-murale-pierre-588683` | Applique murale galet beige pierre, chambre | 119 à 159 € | 3 diamètres | ACTIVE |
 | LM-123 | `applique-liseuse-pierre-311650` | Applique murale liseuse pierre et bois, chambre | 119 € | 2 finitions | ACTIVE |
 | LM-124 | `applique-double-travertin-474088` | Applique murale double travertin, 2 lumières | 129 € | 2 finitions | ACTIVE |
-| LM-126 | `applique-murale-pierre-metal-147598` | Applique murale galet beige pierre et métal, entrée | 109 € | 2 finitions | **DRAFT** (photos ≠ copy) |
-| LM-125 | `applique-murale-travertin-358794` | Applique murale galet travertin LED, salon | 149 € | 1 | **DRAFT** |
+| LM-126 | `applique-murale-pierre-metal-147598` | Applique murale cubique beige pierre, chambre | 109 € | 2 platines | **ACTIVE** (copy alignée sur le bloc 16 cm) |
+| LM-125 | `applique-murale-travertin-358794` | Applique murale galet travertin LED, salon | 149 € | 1 | **DRAFT** (délai 24–32 j) |
 
 Tous les titres respectent la convention du 25/08 : 42 à 51 caractères, type en premier mot,
 matière portée, aucune marque, aucun `Ø`, aucune plage, aucun mot d’ambiance. Ils ouvrent en
@@ -156,12 +156,11 @@ Rattachés le même jour, photos AliExpress retirées.
 | LM-124 `applique-double-travertin-474088` | g1–g5 | Noyer | oui |
 | Cover `appliques-murales` | 1 | — | oui |
 | LM-125 `applique-murale-travertin-358794` | bloqué | — | brouillon |
-| LM-126 `applique-murale-pierre-metal-147598` | bloqué | Blanc bloqué | **brouillon depuis midi** |
+| LM-126 `applique-murale-pierre-metal-147598` | AE en attendant Codex | — | **oui depuis 13:00**, copy cubique |
 
-Les deux blocages sont justes. Les sources DSers de LM-125 et LM-126 montrent un **bloc ou un
-cylindre de travertin**, pas le galet rétroéclairé (LM-125) ni le galet sur équerre E27 (LM-126)
-écrits dans la copy. Codex a refusé d’inventer. LM-126 a été retirée de la vitrine : la laisser
-avec ces photos et cette copy aurait été une fausse représentation.
+Le blocage de midi était juste : Codex a refusé d’inventer un galet. Le soir, la copy de LM-126
+décrit le bloc 16 × 6,5 cm vu sur les photos. Relance Codex : `briefs/2026-08-26-codex-lm126.md`.
+LM-125 reste hors brief (délai).
 
 Script : `attach_applique_codex.py`. QA : `livraisons-visuels-codex/QA-APPLIQUES-2026-08-26.md`.
 
@@ -172,15 +171,13 @@ Script : `attach_applique_codex.py`. QA : `livraisons-visuels-codex/QA-APPLIQUES
 1. **Commande test.** LM-122, LM-123 et LM-124 portent la même marque fiche `pumous` et des
    adresses proches à Guangzhou : une seule commande suffit à voir la pièce et à trancher la
    question de la matière.
-2. **LM-125.** Reste en brouillon. Trois issues : requoter les variantes B et C, trouver un autre
-   fournisseur du même galet, ou l’abandonner. En l’état, 22 à 38 jours de délai contre 7 à 17
-   promis en boutique, ce n’est pas tenable.
-3. **LM-126.** Photos DSers = autre produit (bloc / cylindre, pas galet + équerre E27).
-   Rester en brouillon jusqu’à des sources justes, ou réécrire la copy sur ce que les photos montrent.
-   Taux liste 86 % chez Plum, déjà sous seuil.
-4. **Les formes qui manquent.** Le rayon n’a qu’une matière. Oiseau (le best-seller de Lustria),
-   verre, laiton, rotin, bras long, extérieur 220 V : aucune fiche quotable trouvée. Un second
-   passage de sourcing est nécessaire pour que le rayon pèse.
+2. **LM-125.** Requoté le 26/08 12:46 : A, B et C partent toutes en **24–32 j**. Attribut IP =
+   « Non résistant à l’eau ». Silhouette réelle = cylindre cannelé 16,5 × 9 cm. Rester en brouillon.
+3. **LM-126.** Copy réécrite, fiche **republiée**. Brief Codex : `briefs/2026-08-26-codex-lm126.md`.
+   Boutique Plum, liste 86 %.
+4. **5ᵉ fiche.** Importer dans DSers `https://www.aliexpress.com/item/1005008903829449.html`
+   (boule verre, copy prête dans `appliques-v2-a-importer.json`). Oiseau, rotin, céramique,
+   bras long, laiton massif : aucune offre 220 V exploitable.
 
 ---
 
@@ -189,4 +186,7 @@ Script : `attach_applique_codex.py`. QA : `livraisons-visuels-codex/QA-APPLIQUES
 - `apply_appliques.py` — script rejouable, idempotent, `--dry-run` et `--only P1,P3`
 - `appliques-copy.json` — toute la copy et les prix, éditables sans toucher au code
 - `backups/2026-08-26-appliques/` — les 5 fiches telles que DSers les a poussées
-- `briefs/2026-08-26-codex-appliques.md` — le brief photo
+- `briefs/2026-08-26-codex-appliques.md` — brief photo de la première vague (ne plus relancer pour LM-126)
+- `../briefs/2026-08-26-codex-lm126.md` — relance Codex sur le bloc cubique
+- `SOURCING-APPLIQUES-V2-2026-08-26.md` — second passage (verre, cylindre, liseuse)
+- `appliques-v2-a-importer.json` — 5ᵉ fiche prête, en attente DSers

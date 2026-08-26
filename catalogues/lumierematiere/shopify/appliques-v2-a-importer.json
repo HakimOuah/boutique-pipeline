@@ -1,0 +1,63 @@
+{
+  "_note": "Candidats V2 prêts à importer dans DSers, pas encore sur Shopify. Le devis trie, le PV se cale sur le coût DSers réel. Ne pas créer la fiche Shopify à la main.",
+  "date": "2026-08-26",
+  "rapport": "SOURCING-APPLIQUES-V2-2026-08-26.md",
+  "a_importer": [
+    {
+      "ref": "P6",
+      "lm_prevu": "LM-127",
+      "ae_id": "1005008903829449",
+      "url": "https://www.aliexpress.com/item/1005008903829449.html",
+      "sku_id": "12000047136763712",
+      "sku_attr": "200000795:193#40-10-17CM warm LED",
+      "sku_a_garder": [
+        "200000795:193#40-10-17CM warm LED"
+      ],
+      "sku_a_supprimer": [
+        "200000795:29#40-10-17CM Cool LED"
+      ],
+      "titre": "Applique murale boule verre bois, chambre",
+      "titre_len": 42,
+      "forme": "globe verre dépoli sur tige bois, platine dorée",
+      "devis_rendu_eur": 35.99,
+      "devis_delai": "8-15 j",
+      "pv_ttc_prevu": 119,
+      "ampoule": "G9, attribut = non incluse, photo SKU = 1 LED fournie. Promettre le moins : ampoule non fournie.",
+      "reserves": [
+        "0 vente, notes boutique BOTIMI absentes",
+        "Logo BOTIMI sur toutes les photos fournisseur — Codex ne doit pas le reprendre",
+        "Délai max 15 j, promesse boutique 7–17"
+      ],
+      "copy_prete": {
+        "description_html": "<p>Une boule de verre dépoli, 10 cm, posée sur une tige de bois. La platine ronde est dorée, le bras est court : l’applique tient près du mur, 17 cm de profondeur.</p><p>Douille G9, ampoule non fournie. Comptez une LED blanc chaud. Raccordement au secteur, en pièce sèche. 40 cm de haut au total.</p>",
+        "seo_description": "Applique murale boule de verre dépoli sur tige de bois, platine dorée, douille G9. Livraison offerte en France métropolitaine.",
+        "usps": ["Boule verre 10 cm", "Tige de bois", "Platine dorée"],
+        "specs": [
+          ["Type", "Applique murale boule verre et bois"],
+          ["Matière", "verre dépoli, bois, métal doré"],
+          ["Usage", "intérieur, pièces sèches, hors volumes d’eau"],
+          ["Source", "douille G9, ampoule non fournie"],
+          ["Dimensions", "40 cm de haut, boule 10 cm, 17 cm de profondeur"],
+          ["Alimentation", "90 à 260 V, raccordement au secteur"],
+          ["Prix", "119 € TTC"],
+          ["Installation", "au mur, courant coupé, hors salle de bain"]
+        ]
+      }
+    }
+  ],
+  "non_importes": [
+    {
+      "ae_id": "1005009003476072",
+      "pourquoi": "Même silhouette 65 × 65 × 160 mm que LM-126 réécrit. Doublon."
+    },
+    {
+      "ae_id": "1005010728463713",
+      "pourquoi": "Quasi-doublon de LM-123 (liseuse pierre + bois), seul différenciant = chaînette."
+    },
+    {
+      "ae_id": "1005009658358794",
+      "lm": "LM-125",
+      "pourquoi": "Déjà importé. Délai 24–32 j sur A, B et C. Reste en brouillon."
+    }
+  ]
+}

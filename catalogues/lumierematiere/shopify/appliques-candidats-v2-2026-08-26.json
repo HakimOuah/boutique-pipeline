@@ -1,0 +1,470 @@
+{
+  "boutique": "lumierematiere.fr",
+  "rayon": "applique murale",
+  "vague": "V2",
+  "date": "2026-08-26",
+  "releve_le": "2026-08-26T12:54:00+02:00",
+  "rapport": "boutique-pipeline/catalogues/lumierematiere/shopify/SOURCING-APPLIQUES-V2-2026-08-26.md",
+  "pass": "PASS_PREQUALIFICATION écrit Hakim 26/08/2026, trou n°1 catalogue, feu vert import",
+  "methode": "Product Factory search_and_diagnose + search_products_raw (price_desc, jamais orders) + get_product_detail + quote_aliexpress_sku FR. Confiance max atteignable = B+ (API detail + devis fret + photos HD). PDP navigateur non lue (CSR / anti-bot).",
+  "avertissement": "Prix, stocks et délais dynamiques. Reconfirmer au panier avant toute commande. Le devis quote_aliexpress_sku sert à TRIER, pas à fixer le PV (écart DSers constaté V1 : −20 % à +63 %, LM-125 41,99 → 68,39 €). Aucun achat, aucun panier, aucun message vendeur dans cette session. Aucun GO fournisseur.",
+  "exclus_deja_importes": [
+    "1005010526588683",
+    "1005010525311650",
+    "1005009931474088",
+    "1005009658358794",
+    "1005006852147598"
+  ],
+  "exclus_rejet_v1": ["1005006112617757"],
+  "non_requotes": {
+    "1005009658358794": "LM-125 brouillon, délai 24–32 j, DSers 68,39 € vs devis 41,99 €",
+    "1005006852147598": "LM-126 déjà importé, déblocage copy à part"
+  },
+  "lustria": {
+    "source_catalogue": "boutique-pipeline/catalogues/lumierematiere/shopify/lustria-catalogue-2026-08-25.json",
+    "bande_prix_eur": { "min": 14.76, "p25": 78.9, "median": 129.9, "p75": 224.9, "max": 1169.9 },
+    "bande_79_229": { "n": 813, "median": 129.9 },
+    "formes_visees_v2": [
+      "oiseau_hirondelle_animal",
+      "verre_globe_opaline",
+      "laiton_dore",
+      "rotin_bambou_osier",
+      "bras_long_swing_arm",
+      "ceramique",
+      "pierre_silhouette_differente"
+    ]
+  },
+  "pricing_rule": {
+    "comparable": "Lustria, bande 79-229 €, médiane 129,90 €",
+    "formule": "10 % sous le comparable nommé, terminaison en 9, bande cible 109–159 €",
+    "tva": 0.2,
+    "marge_min": "≥ 40 € HT ou ≥ 25 % du HT",
+    "quote_vs_pv": "quote_aliexpress_sku trie seulement ; PV calé sur Lustria, pas sur le devis"
+  },
+  "candidats": [
+    {
+      "rang": 1,
+      "vague": 2,
+      "statut": "FOURNISSEUR À TESTER",
+      "confiance": "B+",
+      "forme_lustria": "verre_globe + laiton_dore (base dorée seulement)",
+      "product_id": "1005008903829449",
+      "url": "https://www.aliexpress.com/item/1005008903829449.html",
+      "titre_ae": "BOTIMI – applique murale ronde en bois massif, Base dorée, Luminaires de chevet modernes en verre, décoration nordique pour la maison (ampoule gratuite",
+      "titre_fr": "Applique murale boule verre doré, chambre",
+      "titre_fr_len": 42,
+      "forme": "applique globe verre + platine bois + base dorée",
+      "matiere_reelle": "bois (corps, attribut) + verre (titre / photos) + base dorée (annoncé vendeur)",
+      "matiere_source": "attributs Matériau=Bois, Matériau du corps=Bois ; verre et doré = titre + photos, non taggés matière",
+      "couleur": "bois naturel / verre / base dorée",
+      "tension": "220 V et 90-260 V (attributs)",
+      "source_lumiere": "ampoules à incandescence (attribut) ; ampoule NON incluse (attribut) — titre dit « ampoule gratuite » (conflit)",
+      "ip": null,
+      "ip_source": "absent des attributs",
+      "salle_de_bain": false,
+      "sku_id": "12000047136763712",
+      "sku_attr": "200000795:193#40-10-17CM warm LED",
+      "sku_label": "40-10-17CM warm LED",
+      "stock": 999,
+      "stock_sku": 999,
+      "cout_unitaire_eur": 35.99,
+      "fret_eur": 0.0,
+      "cout_rendu_eur": 35.99,
+      "landed_quote_eur": 35.99,
+      "delai_j": "8-15",
+      "transporteur": "Expédition standard AliExpress",
+      "shipping_code": "CAINIAO_STANDARD",
+      "entrepot": "CN",
+      "is_eu_warehouse": false,
+      "pv_ttc_propose": 119,
+      "comparable_lustria": { "ref": "médiane appliques 79-229 €", "prix_ttc": 129.9, "url": "https://lustria.fr/collections/applique-murale" },
+      "pv_ht": 99.17,
+      "marge_ht": 63.18,
+      "marge_pct_ht": 63.7,
+      "marge_base": "devis quote_aliexpress_sku, pas DSers",
+      "vendeur": {
+        "nom": "BOTIMI Official Store",
+        "store_id": 2336186,
+        "note_described": null,
+        "note_shipping": null,
+        "note_com": null,
+        "ventes_fiche": 0,
+        "avis_fiche": 0,
+        "evaluation_rate_liste": null,
+        "anciennete": "non lue (PDP bloquée) ; notes boutique absentes de l'API"
+      },
+      "marque_fiche": "BOTIMI",
+      "photos": [
+        "https://ae01.alicdn.com/kf/S70e82f41291a418091a9b2fb1e3c88f91.jpg",
+        "https://ae01.alicdn.com/kf/Sb399cd4aefb244328cbd019fec1ac721A.jpg",
+        "https://ae01.alicdn.com/kf/S673b8dd14f9345fbb8bbd00fb00772dc6.jpg",
+        "https://ae01.alicdn.com/kf/Sbff8f9a43487402f95bf344aec843792P.jpg",
+        "https://ae01.alicdn.com/kf/S17fa65939cb24354b8641c8374b8b87bJ.jpg",
+        "https://ae01.alicdn.com/kf/Se483044344b849439f52a3bbc0c66657l.jpg"
+      ],
+      "sku_image": "https://ae01.alicdn.com/kf/S6fea1ac7ba5b4173b3065808857674a1L.jpg",
+      "attributs": {
+        "tension": ["220 V", "90-260V"],
+        "matiere": "Bois",
+        "matiere_corps": "Bois",
+        "ip": null,
+        "ampoule": "Non",
+        "source_lumiere": "Ampoules à incandescence",
+        "type_base": "Cale",
+        "application": ["Chambre à coucher", "entrée", "étude"]
+      },
+      "reserves": [
+        "Boutique sans notes API. 0 vente, 0 avis fiche.",
+        "Marque BOTIMI interdite en titre Shopify.",
+        "Ampoule : attribut = non incluse, titre = gratuite. À trancher sur échantillon.",
+        "Délai max 15 j : promesse boutique 7–17, plus de marge.",
+        "Verre et base dorée = annoncé vendeur, non contrôlés pixel (CDN 404/500 ici).",
+        "Stock 999 peu crédible.",
+        "Pas de laiton massif : seulement une base dorée annoncée."
+      ],
+      "quote_observed_at": "2026-08-26T10:54:02Z"
+    },
+    {
+      "rang": 2,
+      "vague": 2,
+      "statut": "FOURNISSEUR À TESTER",
+      "confiance": "B+",
+      "forme_lustria": "pierre_silhouette_differente (cylindre / bloc 65×65×160 mm)",
+      "product_id": "1005009003476072",
+      "url": "https://www.aliexpress.com/item/1005009003476072.html",
+      "titre_ae": "Wabi Sabi jaune marbre applique Led chevet japon chambre salon applique murale travertin escalier couloir décor applique",
+      "titre_fr": "Applique murale cylindre beige pierre chambre",
+      "titre_fr_len": 47,
+      "forme": "cylindre / bloc pierre 16 cm, base ronde noyer",
+      "matiere_reelle": "travertin + bois (texte fiche) ; attributs aussi Marbre / aluminium",
+      "matiere_source": "texte « Travertin+Bois, Travertin+Métal » ; attribut Matériau=Marbre, corps=aluminium",
+      "couleur": "beige / jaune pierre + noyer",
+      "tension": "90-260 V (attribut) ; texte fiche aussi CA 85-265 V",
+      "source_lumiere": "LED intégrée, ampoule incluse (attribut) — un attribut dit aussi E27d",
+      "ip": null,
+      "ip_source": "absent des attributs",
+      "salle_de_bain": false,
+      "sku_id": "12000047535430431",
+      "sku_attr": "5:100014064#65x65x160MM;180:200002567#Warm White;200000795:173#Round X Walnut Base",
+      "sku_label": "65×65×160 mm, blanc chaud, Round X Walnut Base",
+      "stock": 9,
+      "stock_sku": 9,
+      "cout_unitaire_eur": 34.59,
+      "fret_eur": 1.99,
+      "cout_rendu_eur": 36.58,
+      "landed_quote_eur": 36.58,
+      "delai_j": "5-10",
+      "transporteur": "AliExpress Selection Standard",
+      "shipping_code": "CAINIAO_FULFILLMENT_STD",
+      "entrepot": "CN",
+      "is_eu_warehouse": false,
+      "pv_ttc_propose": 109,
+      "comparable_lustria": { "ref": "médiane 129,90 € ; pièce 16 cm → entrée de bande 109 €", "prix_ttc": 129.9, "url": "https://lustria.fr/collections/applique-murale" },
+      "pv_ht": 90.83,
+      "marge_ht": 54.25,
+      "marge_pct_ht": 59.7,
+      "marge_base": "devis quote_aliexpress_sku, pas DSers",
+      "vendeur": {
+        "nom": "Touch Lighting Store",
+        "store_id": 1104339034,
+        "note_described": 4.6,
+        "note_shipping": 4.6,
+        "note_com": 4.6,
+        "ventes_fiche": 301,
+        "avis_fiche": 0,
+        "evaluation_rate_liste": null,
+        "anciennete": "non lue (PDP bloquée)"
+      },
+      "marque_fiche": "pumous",
+      "photos": [
+        "https://ae01.alicdn.com/kf/Scaa2eba6287a46c3b113809f3c5285a0D.png",
+        "https://ae01.alicdn.com/kf/S0360c0cbe60a460ca8b09ae6b7c140b0m.jpg",
+        "https://ae01.alicdn.com/kf/Sf849e1af58e943f3a1d3942220bf2520N.jpg",
+        "https://ae01.alicdn.com/kf/S8df3311d92c44950afae11b43518db90u.jpg",
+        "https://ae01.alicdn.com/kf/S6d9b89a339d04ed4b1d963678a346898X.jpg"
+      ],
+      "sku_image": "https://ae01.alicdn.com/kf/S2d1e17ab3231455d8a8f4887ab14385bL.jpg",
+      "attributs": {
+        "tension": ["90-260V"],
+        "matiere": "Marbre",
+        "matiere_corps": "aluminium",
+        "matiere_texte": "Travertin+Bois, Travertin+Métal",
+        "ip": null,
+        "ampoule": "Oui",
+        "source_lumiere": "LED",
+        "puissance_annoncee": "5 W",
+        "taille_annoncee": "65x65x160MM",
+        "type_base": "E27d",
+        "application": ["Salle à manger", "Chambre à coucher", "entrée", "étude"]
+      },
+      "reserves": [
+        "16 cm seulement : valeur perçue à 109 € à prouver sur échantillon.",
+        "Même marque pumous / Guangzhou que LM-122/123/124. Autre listing, même usine.",
+        "Avis fiche = 0.",
+        "Conflit E27d / LED incluse.",
+        "Matière pierre souvent ciment/résine sur ces fiches — annoncé vendeur.",
+        "Stock 9."
+      ],
+      "quote_observed_at": "2026-08-26T10:54:03Z"
+    },
+    {
+      "rang": 3,
+      "vague": 2,
+      "statut": "FOURNISSEUR À TESTER",
+      "confiance": "B+",
+      "forme_lustria": "liseuse_chainette — PAS un bras long / swing arm",
+      "product_id": "1005010728463713",
+      "url": "https://www.aliexpress.com/item/1005010728463713.html",
+      "titre_ae": "Wabi Sabi Style naturel jaune travertin pierre applique rotative avec interrupteur à chaîne de traction LED noyer bois décor lumière pour chambre",
+      "titre_fr": "Applique murale liseuse noyer pierre, chaînette",
+      "titre_fr_len": 49,
+      "forme": "liseuse disque travertin rotatif + noyer + chaînette",
+      "matiere_reelle": "pierre (attribut) + bois (corps) ; travertin + noyer (titre)",
+      "matiere_source": "attributs Matériau=Pierre, Matériau du corps=Bois",
+      "couleur": "noyer / pierre beige",
+      "tension": "90-260 V",
+      "source_lumiere": "LED, ampoule incluse",
+      "ip": "Non résistant à l'eau",
+      "ip_source": "attribut Niveau de résistance à l'eau",
+      "salle_de_bain": "listée en application SANS IP chiffré → ne pas vendre SDB",
+      "sku_id": "12000053350481238",
+      "sku_attr": "180:200002567#Warm  white;200000795:10#Walnut-pull switch",
+      "sku_label": "Walnut-pull switch, blanc chaud",
+      "stock": 10,
+      "stock_sku": 10,
+      "cout_unitaire_eur": 33.59,
+      "fret_eur": 1.99,
+      "cout_rendu_eur": 35.58,
+      "landed_quote_eur": 35.58,
+      "delai_j": "5-10",
+      "transporteur": "AliExpress Selection Standard",
+      "shipping_code": "CAINIAO_FULFILLMENT_STD",
+      "entrepot": "CN",
+      "is_eu_warehouse": false,
+      "pv_ttc_propose": 119,
+      "comparable_lustria": { "ref": "médiane 129,90 € ; famille liseuse / tête de lit", "prix_ttc": 129.9, "url": "https://lustria.fr/collections/applique-murale" },
+      "pv_ht": 99.17,
+      "marge_ht": 63.59,
+      "marge_pct_ht": 64.1,
+      "marge_base": "devis quote_aliexpress_sku, pas DSers",
+      "vendeur": {
+        "nom": "IISINUO Illumination Store",
+        "store_id": 1102834167,
+        "note_described": 4.8,
+        "note_shipping": 4.8,
+        "note_com": 4.8,
+        "ventes_fiche": 250,
+        "avis_fiche": 0,
+        "evaluation_rate_liste": null,
+        "anciennete": "non lue (PDP bloquée)"
+      },
+      "marque_fiche": "IISINUO",
+      "photos": [
+        "https://ae01.alicdn.com/kf/Sb8a86635b2794b9f839a4aaa1d994e5dC.jpg",
+        "https://ae01.alicdn.com/kf/Sa5b76321df324aad95e193d895e74240Z.jpg",
+        "https://ae01.alicdn.com/kf/S02d9208f489c48fea3688aff453669b0g.jpg",
+        "https://ae01.alicdn.com/kf/S8967867b30774acb9c0dff3606efcf79Y.jpg",
+        "https://ae01.alicdn.com/kf/Scd257be9157048b3a4465c70d421df73N.jpg",
+        "https://ae01.alicdn.com/kf/S2c164ae2c45a4ee79fce90b6ab6dd586L.jpg"
+      ],
+      "sku_image": "https://ae01.alicdn.com/kf/Sba7518e8df1a4116bd18172a50aaff4dB.jpg",
+      "attributs": {
+        "tension": ["90-260V"],
+        "matiere": "Pierre",
+        "matiere_corps": "Bois",
+        "ip": "Non résistant à l'eau",
+        "ampoule": "Oui",
+        "source_lumiere": "LED",
+        "type_base": "Cale",
+        "application": ["Cuisine", "Salle à manger", "Chambre à coucher", "entrée", "étude", "Salle de bain"]
+      },
+      "reserves": [
+        "Trop proche de LM-123 (disque pierre + bras bois rotatif). Différenciant = chaînette, à confirmer sur photo.",
+        "Application salle de bain listée sans IP chiffré : ne pas vendre SDB.",
+        "Avis fiche = 0.",
+        "Ce n'est PAS un swing arm / bras long."
+      ],
+      "quote_observed_at": "2026-08-26T10:54:04Z"
+    },
+    {
+      "rang": 4,
+      "vague": 2,
+      "statut": "OFFRE TROUVÉE",
+      "confiance": "B+",
+      "forme_lustria": "pierre moderne — silhouette non lue pixel (CDN 500)",
+      "product_id": "1005012073880164",
+      "url": "https://www.aliexpress.com/item/1005012073880164.html",
+      "titre_ae": "Applique murale moderne en travertin, luminaires suspendus en pierre naturelle, appliques murales LED de chevet, éclairage décoratif intérieur pour chambre et salon E27",
+      "titre_fr": "Applique murale moderne pierre naturelle chambre",
+      "titre_fr_len": 49,
+      "forme": "pierre / travertin moderne ; SKU « wall lamp » vs « pendant lamp » sur la même fiche",
+      "matiere_reelle": "pierre (attributs corps + matériau)",
+      "matiere_source": "attributs Matériau=Pierre, Matériau du corps=Pierre",
+      "couleur": "pierre naturelle",
+      "tension": "90-260 V",
+      "source_lumiere": "LED, ampoule incluse ; titre aussi E27",
+      "ip": null,
+      "ip_source": "absent des attributs",
+      "salle_de_bain": false,
+      "sku_id": "12000057437755999",
+      "sku_attr": "180:200002571#warm white;200000795:29#wall lamp",
+      "sku_label": "wall lamp, blanc chaud 2700-3500K",
+      "stock": 197,
+      "stock_sku": 197,
+      "cout_unitaire_eur": 92.39,
+      "fret_eur": 1.99,
+      "cout_rendu_eur": 94.38,
+      "landed_quote_eur": 94.38,
+      "delai_j": "7-10",
+      "transporteur": "AliExpress Selection Standard",
+      "shipping_code": "CAINIAO_FULFILLMENT_STD",
+      "entrepot": "CN",
+      "is_eu_warehouse": false,
+      "pv_ttc_propose": 159,
+      "comparable_lustria": { "ref": "plafond bande cible 159 € : seul PV qui laisse une marge ≥ 25 % HT sur ce devis", "prix_ttc": 129.9, "url": "https://lustria.fr/collections/applique-murale" },
+      "pv_ht": 132.5,
+      "marge_ht": 38.12,
+      "marge_pct_ht": 28.8,
+      "marge_base": "devis quote_aliexpress_sku, pas DSers — DSers probablement plus, marge alors morte",
+      "vendeur": {
+        "nom": "Fulameng Lighting Store",
+        "store_id": 1104926414,
+        "note_described": 4.6,
+        "note_shipping": 4.7,
+        "note_com": 4.7,
+        "ventes_fiche": 7,
+        "avis_fiche": 0,
+        "evaluation_rate_liste": null,
+        "anciennete": "non lue (PDP bloquée)"
+      },
+      "marque_fiche": "pumous",
+      "photos": [
+        "https://ae01.alicdn.com/kf/S82d9e4b449834f3cb7406937889a82e66.jpg",
+        "https://ae01.alicdn.com/kf/Sb8748a0863c54ef2b2ef634eaa4883b2v.jpg",
+        "https://ae01.alicdn.com/kf/Sbd96221150f849c28b6b1fa8c90958fcM.jpg",
+        "https://ae01.alicdn.com/kf/S4266da6a28d44353861909ffab0ba27bA.jpg",
+        "https://ae01.alicdn.com/kf/S15302fefcf644637b8b10121e1514d67Y.jpg",
+        "https://ae01.alicdn.com/kf/S488fe6ba76364aacba641a64b3ac5fcbc.jpg"
+      ],
+      "sku_image": "https://ae01.alicdn.com/kf/Scd51db613a3140e28be6e8fc3c8acaef4.jpg",
+      "attributs": {
+        "tension": ["90-260V"],
+        "matiere": "Pierre",
+        "matiere_corps": "Pierre",
+        "ip": null,
+        "ampoule": "Oui",
+        "source_lumiere": "LED",
+        "application": ["Salle à manger", "Chambre à coucher", "entrée", "étude"]
+      },
+      "reserves": [
+        "Rendu 94,38 € : hors bande idéale 25–80 €.",
+        "À 119 € la marge meurt. À 159 € : 38,12 € HT / 28,8 % — tient par le seuil 25 %, pas par 40 €.",
+        "Leçon LM-125 : DSers peut être nettement au-dessus du devis.",
+        "SKU mélange wall lamp / pendant lamp. Silhouette non lue pixel.",
+        "Même usine pumous / Fulameng que le rayon live. 7 ventes, 0 avis."
+      ],
+      "quote_observed_at": "2026-08-26T10:54:05Z"
+    }
+  ],
+  "rejetes": [
+    {
+      "product_id": "1005008562257170",
+      "url": "https://www.aliexpress.com/item/1005008562257170.html",
+      "forme": "travertin + globe verre BOTIMI",
+      "cout_rendu_eur": 112.39,
+      "delai_j": "3-39",
+      "raison": "Délai Cainiao Heavy hors promesse boutique 7–17. Seule vraie piste verre+pierre. Rejet délai > 17 j."
+    },
+    {
+      "product_id": "1005012362550643",
+      "url": "https://www.aliexpress.com/item/1005012362550643.html",
+      "forme": "marbre / travertin moderne",
+      "cout_rendu_eur": 98.99,
+      "delai_j": "13-33",
+      "raison": "Délai > 17 j + 0 vente + SDB listée sans IP."
+    },
+    {
+      "product_id": "1005008006658107",
+      "url": "https://www.aliexpress.com/item/1005008006658107.html",
+      "forme": "2 bras bois « bougie »",
+      "cout_rendu_eur": 92.39,
+      "delai_j": "13-37",
+      "raison": "Délai China Post hors promesse. Forme utile (bras) si un transporteur rapide réapparaît."
+    },
+    {
+      "product_id": "1005008606887982",
+      "url": "https://www.aliexpress.com/item/1005008606887982.html",
+      "forme": "linéaire frêne + acrylique",
+      "cout_rendu_eur": 75.99,
+      "delai_j": "13-37",
+      "raison": "Délai China Post. Acrylique, pas matière maison."
+    },
+    {
+      "product_id": "1005012974692253",
+      "url": "https://www.aliexpress.com/item/1005012974692253.html",
+      "raison": "189,39 € produit, hors bande 25–80 €. E27 + noyer + travertin, Flareon Light 5,0. Non quotée fret."
+    },
+    {
+      "product_id": "1005008819951499",
+      "url": "https://www.aliexpress.com/item/1005008819951499.html",
+      "raison": "Bois + cuivre, salle de bain sans IP. 70,99–132,69 €."
+    },
+    {
+      "product_id": "1005008525720980",
+      "url": "https://www.aliexpress.com/item/1005008525720980.html",
+      "raison": "Linéaire pierre 35/60/90 cm, 110,99–202,69 €, 5 kg, acrylique, 0 vente. Non quotée : coût + poids + boutique BOTIMI déjà lente ailleurs."
+    },
+    {
+      "product_id": "1005008877331050",
+      "url": "https://www.aliexpress.com/item/1005008877331050.html",
+      "raison": "Barre bois 60–120 cm, SDB listée sans IP, 81,39 €."
+    },
+    {
+      "product_id": "1005006112617757",
+      "url": "https://www.aliexpress.com/item/1005006112617757.html",
+      "raison": "Rejet V1 conservé : liste 89 %, fer+acrylique ~14 €. Non reproposé."
+    }
+  ],
+  "formes_lustria_v2": {
+    "oiseau_hirondelle_animal": {
+      "statut": "AUCUNE OFFRE EXPLOITABLE",
+      "note": "Veilleuses USB, bijoux, mangeoires. Zéro applique 220 V. Non rempli avec du solaire."
+    },
+    "verre_globe_opaline": {
+      "statut": "FOURNISSEUR À TESTER",
+      "product_id": "1005008903829449",
+      "note": "1 quotable (globe verre + base dorée). La meilleure (verre + travertin BOTIMI) meurt au délai 3–39 j. Pas d'opaline."
+    },
+    "laiton_dore": {
+      "statut": "OFFRE TROUVÉE",
+      "product_id": "1005008903829449",
+      "note": "Seulement la base dorée du globe. Pas de laiton massif quotable."
+    },
+    "rotin_bambou_osier": {
+      "statut": "AUCUNE OFFRE EXPLOITABLE",
+      "note": "Lanternes solaires, paniers. Zéro 220 V mural."
+    },
+    "bras_long_swing_arm": {
+      "statut": "AUCUNE OFFRE EXPLOITABLE",
+      "note": "Le n°3 est une liseuse chaînette, pas un bras long. 2-bras bois rejeté délai 13–37 j."
+    },
+    "ceramique": {
+      "statut": "AUCUNE OFFRE EXPLOITABLE",
+      "note": "Zéro fiche 220 V exploitable."
+    },
+    "pierre_silhouette_differente": {
+      "statut": "FOURNISSEUR À TESTER",
+      "product_id": "1005009003476072",
+      "note": "Cylindre / bloc 16 cm, pas un 6e galet. Petite."
+    }
+  },
+  "synthese": {
+    "n_fournisseur_a_tester": 3,
+    "n_offre_trouvee": 1,
+    "n_aucune_offre": 4,
+    "priorite_si_elargir_rayon": ["1005008903829449", "1005009003476072"],
+    "n3_seulement_si": "Hakim accepte un quasi-doublon de LM-123 (chaînette)",
+    "go_fournisseur": false,
+    "fournisseur_retenu_pour_commande_test": false
+  }
+}
