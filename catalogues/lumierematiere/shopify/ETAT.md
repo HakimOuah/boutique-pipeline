@@ -97,6 +97,6 @@ Coût DSers (unité) + **2 € de fret** (quotes FR : 1,99 € / 0 €). Concurr
 6. Vérifier `suspension-bois-led-453740` et `suspension-verre-noir-201424` (réduites à 1 variante sur des codes aveugles) face au listing AE.
 7. **Appliques, commande test** : LM-122, LM-123 et LM-124 portent la même marque fiche `pumous` et des adresses proches à Guangzhou. Une seule commande suffit à voir la pièce et à trancher la question de la matière (pierre réelle ou ciment/résine teintée).
 8. **LM-125 reste brouillon** (22–30 j Cainiao Standard, confirmé DSers + AE). LM-126 est live à 109 €, photos AE, brief Codex cubique envoyé par Hakim le 26/08.
-8b. **Délais FAQ 7–17 j vs réel** : 66 fiches OVER_PROMISE (`COHERENCE-2026-08-26.md`). Trancher : élargir la FAQ par famille, ou retirer / remplacer les pires (max ≥ 30 j, 44 fiches).
+8b. **Délais × GMC — reco 26/08, pas encore exécutée.** `RECO-DELAIS-GMC-2026-08-26.md` : une seule fenêtre **7–18 j**, **49 live / 76 brouillon**. Alternative stricte : garder 7–17 et draft aussi les 12 LIMITE (LM-127 compris). Attendre le oui de Hakim.
 9. **Second passage de sourcing appliques** : le rayon n'a qu'une matière. Oiseau (best-seller Lustria), verre, laiton, rotin, bras long, extérieur 220 V restent à trouver.
 10. **Convention de titres** : `Applique murale` est un sixième type, à ajouter à la grille fermée de `CONVENTION-TITRES-2026-08-25.md`.
