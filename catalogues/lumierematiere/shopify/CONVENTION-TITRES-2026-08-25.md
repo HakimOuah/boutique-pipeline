@@ -223,9 +223,9 @@ comme les cinq autres.
 | Emplacement | Ce qui change |
 |---|---|
 | **Type** | `Applique murale` s'ajoute à `Suspension`, `Lustre`, `Plafonnier`. **Deux mots, pas un** : `applique murale` est la requête (9 000 visites/mois sur la page de Lustria, position 3), `applique` seul ne l'est pas. |
-| **Forme** | `galet` · `liseuse` · `double` · `cubique` s'ajoutent à la liste. `liseuse` vaut une famille entière chez Lustria (291 fiches). |
+| **Forme** | `galet` · `liseuse` · `double` · `cubique` · `boule` s'ajoutent à la liste. `liseuse` vaut une famille entière chez Lustria (291 fiches). `boule` plutôt que `globe` (1 000 contre 320). |
 | **Détail** | `2 lumières` sur le même modèle que `3 lumières`. |
 
 Le contrôle automatique avant publication accepte donc aussi un titre qui commence par
-`Applique murale`. Les cinq titres du rayon font 42 à 51 caractères et respectent le reste
-de la grille sans exception.
+`Applique murale`. Les six titres du rayon (dont LM-125 en brouillon) font 42 à 51 caractères
+et respectent le reste de la grille sans exception.

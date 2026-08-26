@@ -4,7 +4,7 @@
 Feu vert Hakim : importer les cinq fiches dans DSers, les pousser sur Shopify, rédiger la copy,
 préparer le brief photo.
 
-**Résultat au 26/08 soir : 5 fiches importées, 4 en ligne, 1 brouillon.** LM-126 a été réécrite sur le bloc cubique réel et republiée. LM-125 reste hors vitrine (délai 24–32 j). Pour la 5ᵉ fiche live : importer `1005008903829449` (boule verre).
+**Résultat au 26/08 soir : 6 fiches importées, 5 en ligne, 1 brouillon.** LM-126 a été réécrite sur le bloc cubique réel et republiée. LM-127 (boule verre, `1005008903829449`) poussée depuis DSers le soir, overlay maison, **159 €**. LM-125 reste hors vitrine (délai 24–32 j).
 
 ---
 
@@ -37,6 +37,7 @@ vitrine le temps d’écrire la copy.
 | LM-123 | `applique-liseuse-pierre-311650` | Applique murale liseuse pierre et bois, chambre | 119 € | 2 finitions | ACTIVE |
 | LM-124 | `applique-double-travertin-474088` | Applique murale double travertin, 2 lumières | 129 € | 2 finitions | ACTIVE |
 | LM-126 | `applique-murale-pierre-metal-147598` | Applique murale cubique beige pierre, chambre | 109 € | 2 platines | **ACTIVE** (copy alignée sur le bloc 16 cm) |
+| LM-127 | `applique-murale-verre-829449` | Applique murale boule verre bois, chambre | 159 € | 1 (warm G9) | **ACTIVE** (coût DSers 83,75 €, devis API 35,99 €) |
 | LM-125 | `applique-murale-travertin-358794` | Applique murale galet travertin LED, salon | 149 € | 1 | **DRAFT** (délai 24–32 j) |
 
 Tous les titres respectent la convention du 25/08 : 42 à 51 caractères, type en premier mot,
@@ -60,6 +61,7 @@ ceux que DSers facturera à la commande, sont différents :
 | LM-124 duo travertin | 57,69 € | **63,37 €** | +10 % |
 | LM-125 galet travertin | 41,99 € | **68,39 €** | **+63 %** |
 | LM-126 galet pierre et métal | 34,59 € | **27,79 €** | −20 % |
+| LM-127 boule verre (warm) | 35,99 € | **83,75 €** | **+133 %** |
 
 Trois fiches sont moins chères que prévu, une un peu plus, et **LM-125 coûte 63 % de plus que le
 devis**. C’est ce qui l’envoie en brouillon.
@@ -85,6 +87,7 @@ Comparable : médiane Lustria sur la bande 79 à 229 €, soit 129,90 €.
 | LM-124 | Noyer | 72,90 € | 129 € | 34,60 € | 32 % |
 | LM-126 | Blanc | 29,79 € | 109 € | 61,04 € | 67 % |
 | LM-126 | Noir | 29,79 € | 109 € | 61,04 € | 67 % |
+| LM-127 | unique (warm) | 85,75 € | **159 €** | 46,75 € | 35 % |
 | LM-125 | unique | 70,39 € | 149 € | 53,78 € | 43 % |
 
 Aucune variante ne passe sous les deux seuils. Le Ø 30 cm de LM-122 est monté à 159 € parce qu’à
@@ -175,9 +178,11 @@ Script : `attach_applique_codex.py`. QA : `livraisons-visuels-codex/QA-APPLIQUES
    « Non résistant à l’eau ». Silhouette réelle = cylindre cannelé 16,5 × 9 cm. Rester en brouillon.
 3. **LM-126.** Copy réécrite, fiche **republiée**. Brief Codex : `briefs/2026-08-26-codex-lm126.md`.
    Boutique Plum, liste 86 %.
-4. **5ᵉ fiche.** Importer dans DSers `https://www.aliexpress.com/item/1005008903829449.html`
-   (boule verre, copy prête dans `appliques-v2-a-importer.json`). Oiseau, rotin, céramique,
-   bras long, laiton massif : aucune offre 220 V exploitable.
+4. **LM-127.** Poussée 26/08 soir. Coût DSers **83,75 €** (devis API 35,99 €, +133 %).
+   PV **159 €**, marge 46,75 € HT (35 %). Délai Cainiao 8–16 j, dans la promesse 7–17.
+   Photos AE avec logo BOTIMI : brief Codex `../briefs/2026-08-26-codex-lm127.md`.
+   0 vente, à tester. Oiseau, rotin, céramique, bras long, laiton massif : toujours
+   aucune offre 220 V exploitable.
 
 ---
 
@@ -188,5 +193,6 @@ Script : `attach_applique_codex.py`. QA : `livraisons-visuels-codex/QA-APPLIQUES
 - `backups/2026-08-26-appliques/` — les 5 fiches telles que DSers les a poussées
 - `briefs/2026-08-26-codex-appliques.md` — brief photo de la première vague (ne plus relancer pour LM-126)
 - `../briefs/2026-08-26-codex-lm126.md` — relance Codex sur le bloc cubique
+- `../briefs/2026-08-26-codex-lm127.md` — Codex boule verre, sans logo BOTIMI
 - `SOURCING-APPLIQUES-V2-2026-08-26.md` — second passage (verre, cylindre, liseuse)
-- `appliques-v2-a-importer.json` — 5ᵉ fiche prête, en attente DSers
+- `appliques-v2-a-importer.json` — spec d’import, désormais poussée (LM-127)
