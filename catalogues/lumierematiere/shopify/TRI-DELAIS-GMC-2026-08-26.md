@@ -72,15 +72,17 @@ Ce sont des pièces de salon déjà live (bambou dôme / disque / double, pétal
 
 ---
 
-## File de sourcing (prochaine passe)
+## File de sourcing (passe 26/08 soir)
 
-Critère identique au tri : FR, suivi, max ≤ 16 j, gratuit ou ≤ 20 $ (le 20 $ se met dans le PV). Pas de DHL 550/800. Photos et copy honnêtes.
+Rapport : `SOURCING-DELAIS-PAMPILLES-BAMBOU-VERRE-2026-08-26.md`. JSON : `delais-candidats-2026-08-26.json`. **Rien importé.**
 
-1. **Lustres pampilles** — priorité 1 (6 340/mois, page 404 aujourd’hui). Viser 5–7 fiches, verre travaillé, **sans** dire cristal.
-2. **Suspensions bambou** — 3 live, 3 220/mois. Remonter à ≥ 5 sans XXL Cainiao Heavy.
-3. **Suspensions verre** — 2 live, 6 200/mois. Même barre.
+| Rayon | Verdict | Suite |
+|---|---|---|
+| Pampilles | **`AUCUNE OFFRE EXPLOITABLE`** | bijoux ou hôtel 500 €+, 0 milieu ≤ 16 j. Page 404 tant qu’on n’a pas 5 gouttes. |
+| Bambou | **`AUCUNE OFFRE EXPLOITABLE`** | 2 JOYINLED 40 cm neufs = Heavy seule ligne (23–43 j). Les 3 live restent. |
+| Verre | **3 `FOURNISSEUR À TESTER`** | NiuNian `1005006967405368` 6–10 j · BOTIMI `1005008876910933` 8–15 j · vitrail `1005009698538307` 7–12 j. Hakim tranche l’import. |
 
-Papier (4 760) après ces trois. Les collections pièce minces (chambre, XXL, plafonnier cuisine) se remplissent d’elles-mêmes si le sourcing matière tient le délai.
+Papier (4 760) après import verre, si Hakim le veut. Les collections pièce minces se remplissent d’elles-mêmes si le sourcing matière tient le délai.
 
 ---
 

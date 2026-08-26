@@ -1,0 +1,127 @@
+{
+  "boutique": "lumierematiere.fr",
+  "vague": "delais-gmc-pampilles-bambou-verre",
+  "date": "2026-08-26",
+  "releve_le": "2026-08-26T15:09:00+02:00",
+  "rapport": "boutique-pipeline/catalogues/lumierematiere/shopify/SOURCING-DELAIS-PAMPILLES-BAMBOU-VERRE-2026-08-26.md",
+  "pass": "Hakim 26/08/2026 après tri délais : sourcer pampilles, bambou, verre. Barre FR ≤ 16 j, fret gratuit ou ≤ 20 $.",
+  "methode": "Product Factory search_and_diagnose + search_products_raw (price_desc) + get_product_detail + quote_aliexpress_sku + get_shipping_cost. Confiance max = B+. PDP navigateur non lue.",
+  "avertissement": "Prix, stocks et délais dynamiques. Reconfirmer au panier. quote_aliexpress_sku sert à TRIER, pas à fixer le PV (écart DSers vu aujourd'hui jusqu'à +133 % sur LM-127). Aucun achat, aucun import Shopify.",
+  "exclus_deja_en_catalogue": {
+    "pampilles": ["1005009844141724", "1005005376264869", "1005007005677865", "1005007805560904", "1005009437347688", "1005006787841671", "1005005437202521"],
+    "bambou": ["1005009535104055", "1005008749317565", "1005007291942503", "1005009962805884", "1005008589033589", "1005007765962644", "1005009022655008", "1005007355067987", "1005010089191307", "1005009660136557", "1005009418655463", "1005009521236157", "1005009039280004", "1005009858630923", "1005006242583180", "1005010542377816"],
+    "verre": ["1005003775436718", "1005005913394147", "1005011786489156", "1005004619091815", "1005010430446435", "1005011548201424", "1005009132554061", "1005003147651675", "1005009654928640", "1005007559814554", "1005008903829449"]
+  },
+  "barre": {
+    "pays": "FR",
+    "suivi": true,
+    "max_jours_route": 16,
+    "fret_max_usd": 20,
+    "rejeter": ["DHL 550+", "DHL 800+", "CAINIAO_FULFILLMENT_OVER_WH si max > 16", "CPAP si max > 16"]
+  },
+  "verdicts_rayon": {
+    "pampilles": "AUCUNE OFFRE EXPLOITABLE",
+    "bambou": "AUCUNE OFFRE EXPLOITABLE",
+    "verre": "3 FOURNISSEUR À TESTER"
+  },
+  "retenus": [
+    {
+      "statut": "FOURNISSEUR À TESTER",
+      "rayon": "verre",
+      "product_id": "1005006967405368",
+      "url": "https://www.aliexpress.com/item/1005006967405368.html",
+      "sku_id": "12000038889007812",
+      "sku_attr": "5:361385#220V;200000531:173#A2",
+      "variante": "220V A2",
+      "prix_eur": 35.59,
+      "fret_eur": 1.99,
+      "rendu_eur": 37.58,
+      "delai_min": 6,
+      "delai_max": 10,
+      "shipping_code": "CAINIAO_FULFILLMENT_STD",
+      "store": "NiuNian Store",
+      "store_id": "1103093023",
+      "sales": "700+",
+      "rating_api": 0.0,
+      "voltage": "220V",
+      "pv_propose_eur": 149,
+      "confiance": "B+"
+    },
+    {
+      "statut": "FOURNISSEUR À TESTER",
+      "rayon": "verre",
+      "product_id": "1005008876910933",
+      "url": "https://www.aliexpress.com/item/1005008876910933.html",
+      "sku_id": "12000047053457025",
+      "sku_attr": "200000531:193#A  Warm white LED",
+      "variante": "A Warm white LED",
+      "prix_eur": 47.39,
+      "fret_eur": 0.0,
+      "rendu_eur": 47.39,
+      "delai_min": 8,
+      "delai_max": 15,
+      "shipping_code": "CAINIAO_STANDARD",
+      "store": "BOTIMI Official Store",
+      "store_id": "2336186",
+      "sales": "0",
+      "rating_api": 0.0,
+      "voltage": "220V",
+      "pv_propose_eur": 159,
+      "confiance": "B+"
+    },
+    {
+      "statut": "FOURNISSEUR À TESTER",
+      "rayon": "verre",
+      "product_id": "1005009698538307",
+      "url": "https://www.aliexpress.com/item/1005009698538307.html",
+      "sku_id": "12000049889682247",
+      "sku_attr": "136:200003938;200000531:173#Matte Orange2",
+      "variante": "Matte Orange2 warm",
+      "prix_eur": 31.19,
+      "fret_eur": 1.99,
+      "rendu_eur": 33.18,
+      "delai_min": 7,
+      "delai_max": 12,
+      "shipping_code": "CAINIAO_FULFILLMENT_STD",
+      "store": "Smart LED Lights Store",
+      "store_id": "1103876595",
+      "sales": "500+",
+      "rating_api": 0.0,
+      "voltage": "90-260V",
+      "pv_propose_eur": 129,
+      "confiance": "B+"
+    }
+  ],
+  "rejets": [
+    {
+      "product_id": "1005012888887650",
+      "rayon": "bambou",
+      "motif": "CAINIAO_FULFILLMENT_OVER_WH seule ligne, 23-31 j, 1,99 €"
+    },
+    {
+      "product_id": "1005010750287640",
+      "rayon": "bambou",
+      "motif": "CAINIAO_FULFILLMENT_OVER_WH 30-43 j"
+    },
+    {
+      "product_id": "1005008878480845",
+      "rayon": "verre",
+      "motif": "CPAP 13-37 j, colis 5 kg"
+    },
+    {
+      "product_id": "1005008840442176",
+      "rayon": "verre",
+      "motif": "CPAP 13-37 j"
+    },
+    {
+      "product_id": "1005008671401766",
+      "rayon": "verre",
+      "motif": "5 kg, même famille BOTIMI CPAP"
+    },
+    {
+      "product_id": "1005007559814554",
+      "rayon": "verre",
+      "motif": "déjà LM-081 live"
+    }
+  ]
+}
