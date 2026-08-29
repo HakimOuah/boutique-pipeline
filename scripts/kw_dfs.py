@@ -145,11 +145,30 @@ def suggestions(graine, pages=1, limit=1000, location="France", language="French
         tache = rep["tasks"][0]
         if tache.get("status_code") != 20000:
             raise SystemExit(f"DataForSEO a refuse la tache : {tache.get('status_message')}")
-        res = (tache.get("result") or [{}])[0]
+        # Un `result` vide n'est PAS un marche sans mots-cles : c'est une reponse
+        # incomplete de l'API, observee par intermittence le 29/08/2026. Confondre
+        # les deux fabrique un zero silencieux — exactement ce que le controle
+        # temoin est cense empecher. On distingue donc les deux cas.
+        brut = tache.get("result")
+        if not brut:
+            raise SystemExit(
+                f"REPONSE VIDE de DataForSEO sur `{graine}` (page {p + 1}) : le champ "
+                "`result` est absent. Ce n'est pas un resultat a zero, c'est une "
+                "reponse incomplete. Relancer avec --refresh ; ne rien ecrire tant "
+                "que la reponse n'est pas complete.")
+        res = brut[0]
         if total is None:
             total = res.get("total_count")
-        items = res.get("items") or []
+        items = res.get("items")
+        if items is None:
+            raise SystemExit(
+                f"REPONSE SANS `items` sur `{graine}` (page {p + 1}), alors que "
+                f"total_count = {total}. Reponse incomplete, pas un zero. Relancer.")
         if not items:
+            if p == 0 and (total or 0) > 0:
+                raise SystemExit(
+                    f"ZERO LIGNE sur `{graine}` alors que l'API annonce "
+                    f"total_count = {total}. Incoherence : ne rien ecrire.")
             break
         for it in items:
             infos = it.get("keyword_info") or {}
@@ -180,8 +199,13 @@ def verifier_temoin(strict=True):
         data=json.dumps(corps).encode(),
         headers={"Authorization": _auth(), "Content-Type": "application/json"})
     rep = json.load(urllib.request.urlopen(req, timeout=120))
-    res = (rep["tasks"][0].get("result") or [])
-    lu = res[0].get("search_volume") if res else None
+    res = rep["tasks"][0].get("result")
+    if not res:
+        raise SystemExit(
+            "CONTROLE TEMOIN IMPOSSIBLE : reponse vide de DataForSEO. "
+            "Ce n'est pas un echec du temoin, c'est une reponse incomplete. "
+            "Relancer avant d'ecrire le moindre chiffre.")
+    lu = res[0].get("search_volume")
     conforme = (lu == TEMOIN_ATTENDU)
     if strict and not conforme:
         raise SystemExit(
