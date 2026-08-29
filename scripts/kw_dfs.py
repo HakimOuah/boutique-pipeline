@@ -89,13 +89,22 @@ def cle(expr: str) -> str:
     mots = [m for m in mots if m not in MOTS_VIDES]
     return " ".join(sorted(mots)) or sans_accent(expr).lower().strip()
 
+def _nb_accents(k: str) -> int:
+    """Compte les accents. NFD obligatoire : en NFC, `e` est un seul codepoint de
+    categorie Ll, jamais Mn — le comptage renvoyait 0 partout et la preference
+    pour l'ecriture accentuee ne s'appliquait pas (bug corrige le 29/08/2026,
+    il faisait choisir `vet gothique` plutot que `vetement gothique`)."""
+    return sum(1 for c in unicodedata.normalize("NFD", k)
+               if unicodedata.category(c) == "Mn")
+
 def representant(formes):
-    """La forme la plus naturelle du groupe : accentuee, courte, bien ordonnee."""
-    return sorted(formes, key=lambda k: (
-        -sum(1 for c in k if unicodedata.category(c) == "Mn"),  # accents = ecriture correcte
-        len(k),
-        k,
-    ))[0]
+    """La forme la plus naturelle du groupe : ecriture accentuee, mots entiers,
+    formulation courte. On prefere la forme la plus longue a nombre de mots egal,
+    parce qu'une forme courte est souvent une abreviation tronquee."""
+    def cle_tri(k):
+        mots = k.split()
+        return (-_nb_accents(k), len(mots), -len(k), k)
+    return sorted(formes, key=cle_tri)[0]
 
 # --- Appel API ---------------------------------------------------------------
 
@@ -144,8 +153,10 @@ def suggestions(graine, pages=1, limit=1000, location="France", language="French
             break
         for it in items:
             infos = it.get("keyword_info") or {}
+            serie = tuple((m.get("search_volume") or 0)
+                          for m in (infos.get("monthly_searches") or []))
             lignes.append((it["keyword"], infos.get("search_volume") or 0,
-                           infos.get("competition_level"), infos.get("cpc")))
+                           infos.get("competition_level"), infos.get("cpc"), serie))
         if len(items) < limit:
             break
     json.dump({"lignes": lignes, "total": total}, open(chemin, "w", encoding="utf-8"),
@@ -183,12 +194,15 @@ def verifier_temoin(strict=True):
 
 def dedupliquer(lignes):
     groupes = defaultdict(list)
-    for expr, vol, comp, cpc in lignes:
-        groupes[cle(expr)].append((expr, vol, comp, cpc))
+    for ligne in lignes:
+        expr, vol, comp, cpc = ligne[0], ligne[1], ligne[2], ligne[3]
+        serie = ligne[4] if len(ligne) > 4 else ()
+        groupes[cle(expr)].append((expr, vol, comp, cpc, serie))
     sortie = []
     for k, membres in groupes.items():
-        vols = [v for _, v, _, _ in membres]
-        formes = [e for e, _, _, _ in membres]
+        vols = [m[1] for m in membres]
+        formes = [m[0] for m in membres]
+        series = [m[4] for m in membres if len(m) > 4 and m[4]]
         sortie.append({
             "cle": k,
             "expression": representant(formes),
@@ -196,10 +210,11 @@ def dedupliquer(lignes):
             "volume_min": min(vols),
             "formulations": len(membres),
             "fusionne_par_google": len(set(vols)) == 1 and len(membres) > 1,
-            "cpc": next((c for _, _, _, c in membres if c is not None), None),
+            "cpc": next((m[3] for m in membres if m[3] is not None), None),
+            "serie": series[0] if series else (),
             "variantes": sorted(set(formes), key=len)[:6],
         })
-    return fusion_seconde_passe(sorted(sortie, key=lambda d: -d["volume"]))
+    return fusion_par_serie(fusion_seconde_passe(sorted(sortie, key=lambda d: -d["volume"])))
 
 def cle_agressive(k: str) -> str:
     """Cle plus tolerante : accord en genre et consonnes doublees neutralises."""
@@ -235,6 +250,58 @@ def fusion_seconde_passe(groupes):
                     vus.add(v); var.append(v)
         base["variantes"] = var[:6]
         sortie.append(base)
+    return sorted(sortie, key=lambda d: -d["volume"])
+
+def fusion_par_serie(groupes):
+    """Fusionne deux groupes que seule la serie 12 mois revele comme un meme bucket.
+
+    Trouve par le rejeu du dossier gothique (29/08/2026) : sans cette passe, le
+    consolide affichait 40 700 au lieu de 35 990, soit un **faux PASS** au-dessus
+    du plancher de 37 500. Deux formulations que Google sert dans le meme bucket
+    portent exactement la meme serie mensuelle — c'est une empreinte, bien plus
+    discriminante que le volume seul.
+
+    Trois garde-fous, parce qu'une fusion a tort coute aussi cher qu'un doublon :
+      - volume identique ET serie identique ;
+      - la serie doit avoir au moins 3 valeurs distinctes (une serie plate ou
+        vide n'est pas une empreinte, c'est un hasard) ;
+      - les deux groupes doivent partager au moins un mot significatif.
+    """
+    par_emp = defaultdict(list)
+    for g in groupes:
+        serie = g.get("serie") or ()
+        emp = (g["volume"], serie) if len(set(serie)) >= 3 else ("_", id(g))
+        par_emp[emp].append(g)
+
+    sortie = []
+    for membres in par_emp.values():
+        if len(membres) == 1:
+            sortie.append(membres[0]); continue
+        # regroupe par recouvrement lexical : un groupe ne fusionne qu'avec ceux
+        # qui partagent un mot avec lui
+        restants, paquets = list(membres), []
+        while restants:
+            base = restants.pop(0)
+            paquet, mots = [base], set(base["cle"].split())
+            for autre in restants[:]:
+                if mots & set(autre["cle"].split()):
+                    paquet.append(autre); restants.remove(autre)
+            paquets.append(paquet)
+        for paquet in paquets:
+            if len(paquet) == 1:
+                sortie.append(paquet[0]); continue
+            base = dict(max(paquet, key=lambda g: g["formulations"]))
+            base["formulations"] = sum(g["formulations"] for g in paquet)
+            base["expression"] = representant([g["expression"] for g in paquet])
+            base["fusionne_par_google"] = True
+            base["fusion_serie"] = True
+            vus, var = set(), []
+            for g in paquet:
+                for v in g["variantes"]:
+                    if v not in vus:
+                        vus.add(v); var.append(v)
+            base["variantes"] = var[:6]
+            sortie.append(base)
     return sorted(sortie, key=lambda d: -d["volume"])
 
 def themes(groupes, graine, mini=2):
