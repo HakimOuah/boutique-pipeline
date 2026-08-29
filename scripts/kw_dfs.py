@@ -43,8 +43,25 @@ def sans_accent(s: str) -> str:
     return "".join(c for c in unicodedata.normalize("NFD", s)
                    if unicodedata.category(c) != "Mn")
 
+# Mots francais invariables se terminant par -s ou -x : les depluraliser produit
+# des formes fausses (tennis -> tenni, bois -> boi, prix -> pri) qui rendent la
+# table des themes illisible. Constate le 29/08/2026 sur les graines `paddle`
+# et `hamac`.
+INVARIABLES = {
+    "tennis","bois","prix","temps","souris","colis","pays","mois","corps","cours",
+    "jus","os","dos","bras","poids","gaz","choix","croix","voix","noix","flux",
+    "houx","roux","doux","faux","ananas","matelas","repas","bas","gras","las",
+    "ras","tas","vis","avis","devis","puits","tapis","paradis","permis","radis",
+    "velours","univers","divers","express","business","fitness","access","abs",
+    "plus","moins","sans","dans","lors","alors","toujours","parfois","autrefois",
+}
+
 def singulier(mot: str) -> str:
-    """Depluralisation francaise grossiere, suffisante pour le regroupement."""
+    """Depluralisation francaise grossiere, suffisante pour le regroupement.
+
+    Les mots de INVARIABLES sont laisses tels quels."""
+    if mot in INVARIABLES:
+        return mot
     if len(mot) > 4 and mot.endswith("aux"):
         return mot[:-3] + "al"
     if len(mot) > 3 and mot.endswith("x"):
