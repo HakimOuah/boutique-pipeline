@@ -293,3 +293,64 @@ DataForSEO rend **35 valeurs distinctes pour 181 mots-cles** (les plus repetees 
 | `abonnement coffret vin` | 70 | 70 | x1.00 |
 | `recharge parfum interieur` | 50 | 20 | x0.40 |
 | `rideau occultant total` | 30 | 30 | x1.00 |
+---
+
+# Addendum — test des endpoints de decouverte DataForSEO
+
+**Date : 2026-08-29**, meme session. Question posee : l'etape de decouverte (le Keyword Magic Tool en expression exacte, 100 lignes, 0 credit) est-elle remplacable ?
+
+Deux endpoints candidats testes sur la meme graine `diffuseur`, avec un critere de reussite unique et non negociable : **retrouver la contamination seche-cheveux** (`diffuseur cheveux` = 18 100), qui est exactement le type de decouverte qui a retourne le dossier du 28/08.
+
+## Resultat
+
+| Endpoint | Lignes | Cout | `diffuseur cheveux` | Verdict |
+|---|---:|---:|---|---|
+| `keywords_data/google_ads/keywords_for_keywords` | 1 774 | 0,09 USD | **ABSENT** — 0 ligne coiffure sur 1 774 | **Disqualifie** |
+| `dataforseo_labs/google/keyword_suggestions` | 1 000 (sur 20 682 annonces) | 0,132 USD | **TROUVE, 18 100** — 89 lignes coiffure | **Viable** |
+
+### Pourquoi le premier est disqualifie
+
+`keywords_for_keywords` est l'outil d'idees de Google Ads : il filtre **semantiquement** sur l'intention publicitaire qu'il infere de la graine. Il ne rend donc que ce qui sert la these commerciale supposee, et masque activement les autres sens du mot. Sur 1 774 lignes, **aucune** ne mentionne les cheveux — alors que les deux autres sources s'accordent sur 18 100 recherches par mois.
+
+C'est exactement l'inverse de ce dont la methode a besoin. La valeur du Keyword Magic Tool en expression exacte est d'etre **mecanique** : il rend tout ce qui contient la chaine, bruit compris. C'est ce bruit qui revele la contamination. Un outil qui nettoie a notre place nous rend aveugles au piege que l'on cherche.
+
+### Pourquoi le second est viable
+
+`keyword_suggestions` fait de la correspondance **plein texte** sur la graine, sans filtre d'intention. Il retrouve la contamination coiffure (89 lignes, 234 420 de volume cumule) et, sur une seconde graine `plateau`, il retrouve **toutes** les decouvertes du 28/08 :
+
+| Decouverte du 28/08 | Retrouvee |
+|---|---|
+| `plateau charcuterie` (le retournement traiteur) | oui, 8 100 |
+| `plateau de beille` (contamination geographique, station de ski) | oui, 22 200 — plus 8 lignes de meteo et webcams |
+| `plateau apero`, `plateau bois`, `plateau petit dejeuner` | oui |
+
+Et la profondeur est sans comparaison : **74 527 suggestions annoncees** sur `plateau`, contre 100 lignes par requete chez SEMrush.
+
+## Les deux reserves qui restent
+
+**1. La redondance est massive.** Sur `diffuseur`, 1 000 lignes se reduisent a **410 idees distinctes apres normalisation : 59 % de reformulations**. Le top 10 est dix ecritures de la meme idee, toutes a 18 100. C'est la contrepartie de l'agregation par variantes proches deja documentee plus haut. Elle est **mecaniquement supprimable** (normalisation : accents, pluriels, mots vides, ordre des mots) — c'est du code, pas un obstacle de fond.
+
+**2. Les volumes restent des buckets agreges.** 24 valeurs distinctes pour 1 000 lignes. La regle demontree plus haut tient : **ne jamais sommer les volumes bruts de cet endpoint**, sous peine de compter dix fois le meme bucket. Toute consolidation doit passer par la normalisation d'abord, un volume par idee normalisee ensuite.
+
+## Consequence pour la question des 149 EUR/mois
+
+La substitution n'est plus impossible — elle devient un **chantier chiffrable** :
+
+| Brique | Etat |
+|---|---|
+| Decouverte de vocabulaire | **Resolue** — `keyword_suggestions`, plus profond que SEMrush |
+| Volume de tete | **Resolue** — `google_ads/search_volume`, 0,09 USD les 181 mots-cles |
+| Deduplication / normalisation | **A construire** — indispensable, sinon les consolides sont faux |
+| Recalibrage des seuils (10 000 cluster, 30 000 consolide) | **A faire** — ils ont ete fixes sur des chiffres SEMrush |
+| KD, fonctionnalites SERP, intention | **Non couvert** par les endpoints testes |
+
+Ordre de grandeur de cout : une Mission B mobilise ~26 graines, soit environ **3,50 USD** en `keyword_suggestions`, plus quelques centimes de volumes. Quatre Mission B par mois : environ **15 USD** contre 149 EUR.
+
+**Recommandation** : ne pas resilier avant d'avoir construit et valide la couche de normalisation, puis recalibre les seuils sur un dossier deja mesure aux deux sources. Tant que ces deux briques manquent, une migration produirait des consolides gonfles et des verdicts faux — le cout de l'erreur depasse largement l'economie d'abonnement.
+
+## Reserves de ce test
+
+1. Deux graines seulement (`diffuseur`, `plateau`), choisies parce que leurs pieges etaient deja connus. Un test sur une graine **dont on ignore les pieges** reste a faire — c'est le seul qui prouverait vraiment la capacite de decouverte.
+2. `keyword_suggestions` a ete interroge avec `limit: 1000` ; le comportement au-dela (pagination, cout, exhaustivite reelle des 74 527) n'est pas verifie.
+3. Le KD, l'intention et les fonctionnalites SERP n'ont pas ete cherches dans les reponses Labs — ils existent peut-etre sur d'autres endpoints, non evalues.
+4. Aucune comparaison de fraicheur des donnees entre les deux sources.
