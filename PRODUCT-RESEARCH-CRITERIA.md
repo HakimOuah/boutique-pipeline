@@ -20,8 +20,15 @@ Ce document est le référentiel à appliquer à toutes les nouvelles recherches
 - Marché prioritaire : France. Royaume-Uni et Allemagne dans un second temps.
 - Prix de vente cible : 50 à 400 € TTC. Un gadget drop 15–20 € n'est pas un candidat.
 - **Deux modes, choisis en phase 0, jamais mélangés :**
-  - **PRODUIT PUR** (ex. osmoseur) : un phare + complémentaires, Search pédagogique. Seuil : cluster adressable de l'ordre de **10 000**/mois ; un 9 900 passe (cas d'école Bonum Vitae). Shopping après validation.
-  - **UNIVERS** (ex. gothique, montres, sacs) : dizaines de collections, Shopping visuel. Seuil : volume **consolidé par familles** qu'une même boutique servirait — plancher Kraken **30 000** boutique (confort 40 000). Une tête seule ne mesure pas un univers (leçon 08/08, ×2 à ×6).
+  - **PRODUIT PUR** (ex. osmoseur) : un phare + complémentaires, Search pédagogique. Seuil : cluster adressable de l'ordre de **12 500**/mois en base DataForSEO (**10 000** en base SEMrush ; un 9 900 y passe, cas d'école Bonum Vitae). Shopping après validation.
+  - **UNIVERS** (ex. gothique, montres, sacs) : dizaines de collections, Shopping visuel. Seuil : volume **consolidé par familles** qu'une même boutique servirait — plancher **37 500** boutique en base DataForSEO (confort 50 000) ; **30 000** en base SEMrush (confort 40 000). Une tête seule ne mesure pas un univers (leçon 08/08, ×2 à ×6).
+
+**Base de mesure — décision Hakim du 29/08/2026.** Tout chiffre doit dire **quelle source l'a produit**. DataForSEO rend en médiane ×1,22 à ×1,25 ce que rend SEMrush sur les **têtes** (trois échantillons concordants : 181 mots-clés, 15 têtes, 4 graines en aveugle), d'où les seuils recalibrés ci-dessus. Deux nuances vérifiées le 29/08 :
+
+  - la **dispersion tête à tête est forte** (écart-type 2,65, étendue ×0,03 à ×31) : le facteur ajuste un seuil, il ne convertit jamais un mot-clé isolé ;
+  - **le consolidé est plus stable que ses composants.** Rejeu du dossier rideaux : +25 % sur les têtes mais **−4,8 % sur le consolidé** (614 130 contre 645 340), verdict identique, familles de tête identiques. Les deux biais se compensent — la méthode SEMrush additionnait des formulations que Google sert dans un seul bucket. Détail : `analyses/2026-08-29-rejeu-rideaux-dataforseo.md`.
+
+**Ce que le rejeu n'a PAS testé** : la zone de décision. Le dossier rideaux est à ×16 du seuil, c'est le test le moins exigeant possible. Les écarts par famille vont de ×0,62 à ×1,27 — sur un dossier à ±20 % du seuil, cela suffirait à faire basculer un verdict. **Un rejeu sur un dossier proche du seuil, ou conclu STOP, reste à faire.**
 - Ne jamais gonfler le volume avec des requêtes informationnelles hors produit, des prestations, des accessoires incompatibles, des marques concurrentes ou du low-ticket non comparable. En UNIVERS, additionner des collections d'un même catalogue n'est pas du gonflage.
 
 ## 2. Sources d'idées
@@ -97,7 +104,7 @@ Un produit isolé peut rester candidat s'il surperforme clairement sur tous les 
 
 ## 7. Ordre obligatoire du pipeline
 
-Deux chemins d'entrée (A idée / B balayage) et **deux modes** (PRODUIT PUR / UNIVERS). Les chemins disent d'où vient l'idée. Les **portes de volume et de canal dépendent du mode** (§1). On ne tue pas un univers avec le seuil d'un cluster, ni un osmoseur avec le plancher 30 000. Google Trends avant tout GO : platitude ~5 ans en PRODUIT PUR, socle ≥ 8 mois en UNIVERS.
+Deux chemins d'entrée (A idée / B balayage) et **deux modes** (PRODUIT PUR / UNIVERS). Les chemins disent d'où vient l'idée. Les **portes de volume et de canal dépendent du mode** (§1). On ne tue pas un univers avec le seuil d'un cluster, ni un osmoseur avec le plancher UNIVERS. Google Trends avant tout GO : platitude ~5 ans en PRODUIT PUR, socle ≥ 8 mois en UNIVERS.
 
 ### Chemin A — entrée par l'idée, avec mesure express (voie principale depuis le 20/07/2026)
 

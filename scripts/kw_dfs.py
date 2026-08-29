@@ -56,14 +56,27 @@ INVARIABLES = {
     "plus","moins","sans","dans","lors","alors","toujours","parfois","autrefois",
 }
 
+# Pluriels en -aux dont le singulier finit par -au (et non -al).
+PLURIELS_EN_AU = {
+    "tuyaux","noyaux","etaux","joyaux","boyaux","preaux","fleaux","aveux",
+}
+
 def singulier(mot: str) -> str:
     """Depluralisation francaise grossiere, suffisante pour le regroupement.
 
     Les mots de INVARIABLES sont laisses tels quels."""
     if mot in INVARIABLES:
         return mot
+    # -eaux -> -eau : rideaux, panneaux, chapeaux, bateaux, carreaux. Sans
+    # exception connue. Bug corrige le 29/08/2026 : la regle -aux -> -al
+    # transformait `rideaux` en `rideal`, le separant de `rideau` alors que
+    # Google sert les deux dans le meme bucket (54 610/mois de surevaluation
+    # sur le rejeu du dossier rideaux).
+    if len(mot) > 4 and mot.endswith("eaux"):
+        return mot[:-1]
     if len(mot) > 4 and mot.endswith("aux"):
-        return mot[:-3] + "al"
+        # -aux est ambigu : chevaux->cheval, bocaux->bocal, mais tuyaux->tuyau.
+        return mot[:-1] if mot in PLURIELS_EN_AU else mot[:-3] + "al"
     if len(mot) > 3 and mot.endswith("x"):
         return mot[:-1]
     if len(mot) > 3 and mot.endswith("s") and not mot.endswith("ss"):
@@ -138,6 +151,33 @@ def suggestions(graine, pages=1, limit=1000, location="France", language="French
     json.dump({"lignes": lignes, "total": total}, open(chemin, "w", encoding="utf-8"),
               ensure_ascii=False)
     return lignes, total, cout
+
+# --- Controle temoin ---
+
+# Valeur du temoin relevee le 29/08/2026, base France, langue francaise.
+# Sur SEMrush le meme temoin vaut 8 100. Un ecart signifie quota epuise,
+# session tombee ou changement de base : dans ce cas AUCUN chiffre ne doit
+# etre ecrit (regle des "zeros silencieux", controle n.4 du skill).
+TEMOIN, TEMOIN_ATTENDU = "tufting", 12100
+
+def verifier_temoin(strict=True):
+    """Retourne (volume_lu, conforme). Leve SystemExit si strict et non conforme."""
+    corps = [{"keywords": [TEMOIN], "location_name": "France",
+              "language_name": "French", "search_partners": False}]
+    req = urllib.request.Request(
+        API + "keywords_data/google_ads/search_volume/live",
+        data=json.dumps(corps).encode(),
+        headers={"Authorization": _auth(), "Content-Type": "application/json"})
+    rep = json.load(urllib.request.urlopen(req, timeout=120))
+    res = (rep["tasks"][0].get("result") or [])
+    lu = res[0].get("search_volume") if res else None
+    conforme = (lu == TEMOIN_ATTENDU)
+    if strict and not conforme:
+        raise SystemExit(
+            f"CONTROLE TEMOIN EN ECHEC : `{TEMOIN}` = {lu}, attendu {TEMOIN_ATTENDU}.\n"
+            "Quota epuise, session tombee ou base changee. Aucun chiffre ne doit "
+            "etre ecrit tant que ce controle n'est pas conforme.")
+    return lu, conforme
 
 # --- Deduplication -----------------------------------------------------------
 
@@ -244,7 +284,14 @@ def main():
     ap.add_argument("--out", help="fichier markdown")
     ap.add_argument("--json", help="fichier JSON des groupes")
     ap.add_argument("--refresh", action="store_true", help="ignorer le cache")
+    ap.add_argument("--sans-temoin", action="store_true",
+                    help="sauter le controle temoin (deconseille)")
     a = ap.parse_args()
+
+    temoin_avant = None
+    if not a.sans_temoin:
+        temoin_avant, _ = verifier_temoin()
+        print(f"[temoin] {TEMOIN} = {temoin_avant} avant mesure — conforme", file=sys.stderr)
 
     blocs, tout, cout = [], {}, 0.0
     for g in a.graines:
@@ -254,6 +301,13 @@ def main():
         tout[g] = groupes
         blocs.append(rapport(g, lignes, groupes, total, c, a.top))
         print(f"[{g}] {len(lignes)} lignes -> {len(groupes)} idees ({c:.3f} USD)", file=sys.stderr)
+
+    if not a.sans_temoin:
+        temoin_apres, _ = verifier_temoin()
+        print(f"[temoin] {TEMOIN} = {temoin_apres} apres mesure — conforme", file=sys.stderr)
+        blocs.append(f"## Controle temoin\n\n`{TEMOIN}` = **{temoin_avant}** avant la "
+                     f"premiere mesure et **{temoin_apres}** apres la derniere "
+                     f"(attendu {TEMOIN_ATTENDU}). Aucun zero silencieux.")
 
     txt = "\n\n---\n\n".join(blocs) + f"\n\n**Cout total : {cout:.3f} USD**\n"
     if a.out:
