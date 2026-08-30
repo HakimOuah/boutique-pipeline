@@ -11,12 +11,13 @@ pour un test ads en septembre. Prompt de relance :
 
 **Mets ce fichier à jour avant de rendre la main.**
 
-> 👉 **Hakim, maintenant :** boutique **prête**. Pas de second GMC, pas d'ads
-> tant qu'il n'a pas tranché le test septembre. Reliquats non bloquants :
-> Trustoo encore installée, commande test kit.
+> 👉 **Hakim, maintenant :** conformité **OK pour lancer**. Un seul arbitrage
+> avant le premier euro : **le périmètre du feed** (84 items, 67 % sous 30 €,
+> médiane 20,90 €). Voir
+> [`journal/2026-08-30-audit-prelancement-ads.md`](journal/2026-08-30-audit-prelancement-ads.md).
 
-Dernière mise à jour : **18/08/2026 ~12h35** — Hakim : notifs GMC lues, rien
-d'important. On clôt le chantier boutique.
+Dernière mise à jour : **30/08/2026** — audit pré-lancement ads : CGV/CGU/FAQ
+réalignées sur 6–10 j France métro, 25 metafields d'avis purgés.
 
 ---
 

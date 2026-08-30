@@ -1,6 +1,7 @@
 # Bonum Vitae — état courant
 
-**Dernière mise à jour : 18/08/2026 ~12h35** — boutique prête (Hakim).
+**Dernière mise à jour : 30/08/2026** — audit pré-lancement ads.
+Conformité OK ; périmètre du feed à trancher.
 [`TABLEAU.md`](TABLEAU.md) ·
 [`journal/2026-08-18-gmc-existant.md`](journal/2026-08-18-gmc-existant.md).
 
@@ -95,6 +96,18 @@ dans le compte (variantes / reliquats), pas depuis Shopify.
 
 Thème FullStack publié le 18/08 = changement brutal sur un GMC déjà en
 fenêtre 30 j. Calme côté feed / policies GMC sauf mismatch.
+
+**30/08 — cohérence des délais réparée.** CGV art. 8 et CGU disaient encore
+« 8 à 13 jours ouvrés » et « France métropolitaine **et à l'international** »
+contre 6–10 j / France seule dans la policy Expédition et dans GMC. Réécrit,
+constaté live. FAQ « une petite semaine / expédiés de plus loin » remplacée
+par 24–48 h + cutoff 15h + 6–10 j. Wallets et Klarna ajoutés aux CGV.
+
+**Feed = 84 items, pas 18** (chaque variante compte). 57 sous 30 €, médiane
+20,90 €, plancher 3,90 €. Économie unitaire à trancher avant de dépenser —
+voir [`journal/2026-08-30-audit-prelancement-ads.md`](journal/2026-08-30-audit-prelancement-ads.md).
+
+**Tracking** : `AW-18325545481` + `GT-M34W44VB`, événement `purchase` câblé.
 
 ---
 
