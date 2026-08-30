@@ -115,8 +115,13 @@ def identifiants(slug: str) -> tuple[str, str]:
     return domaine, _jeton_par_echange(domaine, cid, secret)
 
 
-def shopifyql(domaine: str, jeton: str, requete: str) -> list[list]:
-    """Exécute une requête ShopifyQL et rend les lignes. Lève sur erreur de parse."""
+def shopifyql(domaine: str, jeton: str, requete: str) -> list[dict]:
+    """Exécute une requête ShopifyQL et rend les lignes.
+
+    ShopifyQL rend chaque ligne comme un objet indexé par nom de colonne
+    (constaté le 30/08/2026), pas comme un tableau : on lit donc par nom,
+    ce qui reste juste si Shopify ajoute ou réordonne une colonne.
+    """
     corps = json.dumps({
         "query": "query($q: String!) { shopifyqlQuery(query: $q) "
                  "{ tableData { columns { name } rows } parseErrors } }",
@@ -143,15 +148,9 @@ def shopifyql(domaine: str, jeton: str, requete: str) -> list[list]:
     return table.get("rows") or []
 
 
-def par_semaine(lignes: list[list], nb_valeurs: int) -> dict[str, list]:
-    """Indexe les lignes ShopifyQL sur le lundi de la semaine (1re colonne)."""
-    out = {}
-    for ligne in lignes:
-        if not ligne:
-            continue
-        lundi = str(ligne[0])[:10]
-        out[lundi] = (list(ligne[1:]) + [None] * nb_valeurs)[:nb_valeurs]
-    return out
+def par_semaine(lignes: list[dict]) -> dict[str, dict]:
+    """Indexe les lignes sur le lundi de la semaine (colonne `week`)."""
+    return {str(l.get("week", ""))[:10]: l for l in lignes if l.get("week")}
 
 
 def nombre(v, defaut=""):
@@ -210,8 +209,8 @@ lcp_s:
 
 def releve(slug: str, depuis: str, jusqu: str, ecrire: bool) -> None:
     domaine, jeton = identifiants(slug)
-    sess = par_semaine(shopifyql(domaine, jeton, Q_SESSIONS.format(depuis=depuis, jusqu=jusqu)), 4)
-    vent = par_semaine(shopifyql(domaine, jeton, Q_VENTES.format(depuis=depuis, jusqu=jusqu)), 4)
+    sess = par_semaine(shopifyql(domaine, jeton, Q_SESSIONS.format(depuis=depuis, jusqu=jusqu)))
+    vent = par_semaine(shopifyql(domaine, jeton, Q_VENTES.format(depuis=depuis, jusqu=jusqu)))
 
     MESURES.mkdir(exist_ok=True)
     ecrits = sautes = 0
@@ -224,19 +223,25 @@ def releve(slug: str, depuis: str, jusqu: str, ecrire: bool) -> None:
             sautes += 1
             continue
 
-        s = sess.get(lundi, [None] * 4)
-        v = vent.get(lundi, [None] * 4)
+        s, v = sess.get(lundi, {}), vent.get(lundi, {})
         texte = NOTE.format(
             slug=slug, periode=periode, du=d, au=d + dt.timedelta(days=6),
-            sessions=nombre(s[0]), paniers=nombre(s[1]), checkouts=nombre(s[2]),
-            cvr=nombre(s[3], "0.0"), commandes=nombre(v[0]), ca=nombre(v[1]),
-            aov=nombre(v[2]), remb=nombre(v[3]),
+            sessions=nombre(s.get("sessions")),
+            paniers=nombre(s.get("sessions_with_cart_additions")),
+            checkouts=nombre(s.get("sessions_that_reached_checkout")),
+            cvr=nombre(s.get("conversion_rate"), "0.0"),
+            commandes=nombre(v.get("orders")),
+            ca=nombre(v.get("total_sales")),
+            aov=nombre(v.get("average_order_value")),
+            remb=nombre(v.get("sales_reversals")),
             aujourdhui=dt.date.today().isoformat(),
         )
         if ecrire:
             cible.write_text(texte, encoding="utf-8")
         print(f"  {'écrit ' if ecrire else 'à écrire'} {cible.name}  "
-              f"{nombre(s[0], 0)} sessions · {nombre(v[0], 0)} cdes · {nombre(v[1], 0)} €")
+              f"{nombre(s.get('sessions'), 0)} sessions · "
+              f"{nombre(s.get('sessions_that_reached_checkout'), 0)} checkouts · "
+              f"{nombre(v.get('orders'), 0)} cdes · {nombre(v.get('total_sales'), 0)} €")
         ecrits += 1
     print(f"  → {ecrits} note(s), {sautes} déjà présente(s) et laissée(s) intacte(s)")
 

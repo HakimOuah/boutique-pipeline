@@ -101,6 +101,17 @@ boutique.** Les remplir aujourd'hui fabriquerait une croyance qui n'a pas exist�
 donnée exacte — et il dit que le premier apport de l'instrumentation sera d'imposer un scoring
 *avant* le lancement suivant, pas d'en inventer un après coup.
 
+## Note de mesure — 30/08/2026
+
+Le relevé ShopifyQL montre du trafic **dès la semaine du 20/07** (72 sessions), alors que ce
+document porte `date_lancement: 2026-08-18`, reprise de « boutique prête » dans `ETAT.md`. Les
+deux ne peuvent pas être vraies au même sens du mot « lancement ».
+
+Je n'ai pas tranché : Hakim est le seul à savoir si la boutique était publiquement accessible en
+juillet ou si ces sessions sont du travail interne sur un domaine déjà ouvert. **À corriger dans
+le frontmatter une fois la réponse connue** — la date de lancement est ce qui datera tous les
+post-mortems.
+
 ## Ce qui aurait dû nous arrêter, avec le recul
 
 *(post-mortem — à ne remplir qu'avec des résultats)*
