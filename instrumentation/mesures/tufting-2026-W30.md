@@ -15,7 +15,7 @@ aov_eur:
 cvr_pct: 0.0
 remboursements_eur: 0
 # --- acquisition
-depense_ads_eur: 0
+depense_ads_eur: 23
 impressions:
 clics:
 ctr_pct:
