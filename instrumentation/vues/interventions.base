@@ -2,13 +2,13 @@ filters:
   and:
     - 'type == "journal"'
 properties:
-  note.boutique:
+  boutique:
     displayName: Boutique
-  note.date:
+  date:
     displayName: Date
-  note.leviers:
+  leviers:
     displayName: Leviers
-  note.nature:
+  nature:
     displayName: Nature
 views:
   - type: table
@@ -19,6 +19,3 @@ views:
       - note.nature
       - note.leviers
       - file.name
-    sort:
-      - property: note.date
-        direction: DESC

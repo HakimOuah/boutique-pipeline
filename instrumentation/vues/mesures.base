@@ -2,23 +2,23 @@ filters:
   and:
     - 'type == "mesure"'
 properties:
-  note.boutique:
+  boutique:
     displayName: Boutique
-  note.periode:
+  periode:
     displayName: Période
-  note.sessions:
+  sessions:
     displayName: Sessions
-  note.commandes:
+  commandes:
     displayName: Cdes
-  note.cvr_pct:
+  cvr_pct:
     displayName: CVR %
-  note.ca_eur:
+  ca_eur:
     displayName: CA €
-  note.depense_ads_eur:
+  depense_ads_eur:
     displayName: Ads €
-  note.roas:
+  roas:
     displayName: ROAS
-  note.gmc_approuves:
+  gmc_approuves:
     displayName: GMC OK
 views:
   - type: table
@@ -33,6 +33,3 @@ views:
       - note.depense_ads_eur
       - note.roas
       - note.gmc_approuves
-    sort:
-      - property: note.periode
-        direction: DESC

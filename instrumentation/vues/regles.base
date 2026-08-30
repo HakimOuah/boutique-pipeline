@@ -2,15 +2,15 @@ filters:
   and:
     - 'type == "regle"'
 properties:
-  note.id:
+  id:
     displayName: ID
-  note.titre:
+  titre:
     displayName: Règle
-  note.statut:
+  statut:
     displayName: Statut
-  note.acceptee_par_hakim:
+  acceptee_par_hakim:
     displayName: Acceptée
-  note.date_revue:
+  date_revue:
     displayName: À revoir le
 views:
   - type: table

@@ -2,17 +2,17 @@ filters:
   and:
     - 'type == "croyance"'
 properties:
-  note.boutique:
+  boutique:
     displayName: Boutique
-  note.statut:
+  statut:
     displayName: Statut
-  note.source:
+  source:
     displayName: Source
-  note.confiance_reconstruction:
+  confiance_reconstruction:
     displayName: Confiance
-  note.date_lancement:
+  date_lancement:
     displayName: Lancement
-  note.prediction_reussite_pct:
+  prediction_reussite_pct:
     displayName: Prédiction %
 views:
   - type: table
