@@ -122,6 +122,11 @@ qui marche en acquisition, qui est pourtant l'objet du chantier.
 C'est à régler **avant** les campagnes Q4, pas après. Le balisage ne se rattrape pas : le trafic
 non balisé est perdu pour l'analyse, définitivement.
 
+**Le mode d'emploi complet est dans [`balisage-utm.md`](balisage-utm.md)** : ce qui a été vérifié
+côté Shopify (rien à corriger, les UTM survivent même aux 301), le modèle de suivi exact à poser
+dans Google Ads, et la commande qui prouve que ça marche. Une fois posé, `sessions_payantes` se
+remplit tout seul dans chaque note hebdomadaire.
+
 ## Cadence
 
 | Quoi | Quand | Qui |

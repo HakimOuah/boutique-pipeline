@@ -53,6 +53,12 @@ Q_SESSIONS = (
     "sessions_that_reached_checkout, conversion_rate "
     "TIMESERIES week SINCE {depuis} UNTIL {jusqu}"
 )
+# Sessions payantes, isolees par le balisage UTM. Rend 0 partout tant que les
+# campagnes ne sont pas baliseees — c'est justement le symptome a surveiller.
+Q_PAYANT = (
+    "FROM sessions SHOW sessions TIMESERIES week WHERE utm_medium = 'cpc' "
+    "SINCE {depuis} UNTIL {jusqu}"
+)
 Q_VENTES = (
     "FROM sales SHOW orders, total_sales, average_order_value, sales_reversals "
     "TIMESERIES week SINCE {depuis} UNTIL {jusqu}"
@@ -172,6 +178,7 @@ au: {au}
 source: shopify
 # --- commerce
 sessions: {sessions}
+sessions_payantes: {payantes}
 paniers: {paniers}
 checkouts_atteints: {checkouts}
 commandes: {commandes}
@@ -211,6 +218,7 @@ def releve(slug: str, depuis: str, jusqu: str, ecrire: bool) -> None:
     domaine, jeton = identifiants(slug)
     sess = par_semaine(shopifyql(domaine, jeton, Q_SESSIONS.format(depuis=depuis, jusqu=jusqu)))
     vent = par_semaine(shopifyql(domaine, jeton, Q_VENTES.format(depuis=depuis, jusqu=jusqu)))
+    paye = par_semaine(shopifyql(domaine, jeton, Q_PAYANT.format(depuis=depuis, jusqu=jusqu)))
 
     # Les semaines anterieures a la premiere activite ne sont pas des mesures :
     # ce sont des semaines ou la boutique n'existait pas. On les ecarte. En
@@ -243,6 +251,7 @@ def releve(slug: str, depuis: str, jusqu: str, ecrire: bool) -> None:
         texte = NOTE.format(
             slug=slug, periode=periode, du=d, au=d + dt.timedelta(days=6),
             sessions=nombre(s.get("sessions")),
+            payantes=nombre(paye.get(lundi, {}).get("sessions")),
             paniers=nombre(s.get("sessions_with_cart_additions")),
             checkouts=nombre(s.get("sessions_that_reached_checkout")),
             cvr=nombre(s.get("conversion_rate"), "0.0"),

@@ -8,6 +8,8 @@ properties:
     displayName: Période
   sessions:
     displayName: Sessions
+  sessions_payantes:
+    displayName: Payantes
   paniers:
     displayName: Paniers
   checkouts_atteints:
@@ -31,6 +33,7 @@ views:
       - note.boutique
       - note.periode
       - note.sessions
+      - note.sessions_payantes
       - note.paniers
       - note.checkouts_atteints
       - note.commandes

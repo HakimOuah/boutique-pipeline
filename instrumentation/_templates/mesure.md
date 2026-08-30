@@ -7,6 +7,7 @@ au:
 source: shopify              # shopify | manuel | mixte
 # --- commerce (récupérable dans Shopify a posteriori)
 sessions: 
+sessions_payantes: 
 paniers: 
 checkouts_atteints: 
 commandes: 
