@@ -5,8 +5,9 @@
 (269 €, plus d'« entrepôts » ni d'« Europe », FAQ France 6–10 j, JSON-LD valide). Triangle
 livraison cohérent : France seule, 0 €, même promesse partout.
 **Bloquant avant dépense : `orders` est vide — aucune commande n'a jamais été passée, le
-paiement n'a jamais été prouvé.** Deux des quatre produits à marge (tondeuse 89,90 €,
-ciseaux électriques 140 €) sont à stock 0 en survente.
+paiement n'a jamais été prouvé.** Métafields d'avis purgés le 30/08. Tondeuse : le kit
+DRAFT n'est pas le même listing ; le fournisseur 16/08 (`1005007430527466`) est en stock
+à 42,99 € — le mapping DSers de la fiche ACTIVE est probablement encore l'ancien.
 [`journal/2026-08-30-controle-avant-ads.md`](journal/2026-08-30-controle-avant-ads.md).
 
 ---
@@ -120,17 +121,17 @@ absoudre entièrement. Reprise en septembre, budget proportionné au ticket.
    0 commande depuis l'ouverture. Sur six semaines, 5 checkouts atteints et 0 paiement,
    alors que le port est à 0 € — l'hypothèse du choc aux frais tombe. Le paiement n'a
    jamais été prouvé et l'activation Shopify Payments n'a pas pu être lue.
-2. **Trancher les métafields d'avis.** Le front est propre, mais `reviews.rating` /
-   `reviews.rating_count` survivent sur 17 fiches et `vstar.product_rating` sur les 40 —
-   dix fiches à 6 avis / 5,0, soit le compte des six avis jugés fictifs le 30/07. C'est le
-   métafield standard que Google & YouTube sait lire. Chasse gardée de Hakim, rien supprimé.
-3. **Trancher les deux électriques en rupture.** Ressourcing AliExpress fait le 30/08 :
-   **aucun remplacement retenu** (les deux fiches tondeuse trouvées annoncent 1 unité de stock,
-   à 54,98 € contre 42,91 € aujourd'hui ; rien en ciseaux sans fil ; confiance B, aucune PDP
-   ouverte). **Piste interne bien meilleure** : la fiche DRAFT « Kit tondeuse + guide de tonte »
-   variante « Avec guide » est un autre listing fournisseur, **stock 64**, coût 27,35 € contre
-   42,91 €, marge 65,8 % contre 52,3 %, prise EU au SKU. À confronter sur DSers.
-   [`journal/2026-08-30-sourcing-remplacement.md`](journal/2026-08-30-sourcing-remplacement.md).
+2. **Métafields d'avis : purgés le 30/08.** 51 suppressions, 0 échec. Relu API : plus aucun
+   `reviews.rating*` ni `vstar` à compteur > 0. Trustoo peut les réécrire — contrôle admin
+   Trustoo encore ouvert.
+   [`journal/2026-08-30-purge-avis-et-controle-dsers.md`](journal/2026-08-30-purge-avis-et-controle-dsers.md).
+3. **Tondeuse : le kit DRAFT n'est pas le même listing.** SKU différents, arbres de variantes
+   différents — ce n'est pas un remplacement silencieux. Le fournisseur visé le 16/08
+   (`1005007430527466`, Crafters Daily Tools, 240 W) est **en stock aujourd'hui à 42,99 €**,
+   achetable. Le SKU Shopify de la fiche ACTIVE (`14:201441319;200007763:201336342`) est
+   toujours l'ancien : le remapping DSers du 16/08 n'a probablement jamais été fait.
+   Dashboard DSers inaccessible (pas de session). Action Hakim : ouvrir DSers et vérifier
+   le mapping de la tondeuse ACTIVE.
 4. Démarrer sur **le kit et le gun seuls**, pas les 36 fiches.
 5. **Relevé GMC à la prochaine synchro du flux** : 40 fiches viennent d'être modifiées d'un coup
    sur une approbation qui n'a que quinze jours.

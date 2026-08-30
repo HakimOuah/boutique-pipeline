@@ -74,14 +74,15 @@ défaut qui a vécu dix-sept jours ici. Concrètement : aucun avis inventé, auc
 non étayée, aucun compteur d'avis qui ne corresponde pas au décompte réel (169 avis Trustoo au
 catalogue), aucun badge imitant un organisme de confiance type Trustpilot.
 
-**Retirer un avis de la page ne le retire pas du flux.** Constat du 30/08 : le front est propre
-— zéro avis rendu, zéro `aggregateRating` dans le JSON-LD — mais les métafields **`reviews.rating`
-et `reviews.rating_count` survivent sur 17 fiches**, et `vstar.product_rating` (Trustoo) sur les 40.
-Dix fiches portent exactement **6 avis à 5,0/5**, soit le compte des six avis que l'audit du 30/07 a
-qualifiés de fictifs. Or `reviews.rating*` est le métafield **standard** de Shopify : c'est celui que
-le canal Google & YouTube sait lire pour envoyer des étoiles dans Shopping. Une purge de thème ne
-suffit donc pas — il faut vérifier la base d'avis elle-même. La preuve sociale restant la chasse
-gardée de Hakim, aucun agent ne supprime ces métafields sans son accord.
+**Retirer un avis de la page ne le retire pas du flux.** Purge Shopify faite le 30/08 sur ordre
+de Hakim : 51 métafields supprimés (17 fiches × `reviews.rating` + `reviews.rating_count` +
+`vstar.product_rating` non nul). Relu API : `reviews.*` = 0 partout, plus aucun `vstar` à compteur
+> 0. Les 23 `vstar` déjà à 0/0 n'ont pas été touchés.
+
+**Trustoo peut les réécrire.** `vstar.product_rating` est le miroir de l'app. Si les six avis
+fictifs existent encore dans Trustoo, la prochaine synchro recréera les compteurs. Contrôle
+Trustoo (admin de l'app) à faire une fois ; tant que ce n'est pas fait, revérifier `reviews.rating`
+avant chaque lancement ads.
 
 **Aucune allégation d'origine non vérifiée fiche par fiche.** « Expédié depuis nos entrepôts en
 Europe » a été retiré du footer et des fiches le 16/08 — le possessif était faux, Tuftéo n'a aucun
