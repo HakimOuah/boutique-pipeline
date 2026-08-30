@@ -45,9 +45,36 @@ Et 3 checkouts atteints, 0 paiement. Sur trois prospects, ça ne prouve rien sta
 c'est le seul échantillon de vrais acheteurs que le parc ait jamais produit — il mérite d'être
 regardé plutôt que noyé dans les moyennes.
 
-**Dépense publicitaire : à renseigner.** Elle n'est pas dans Shopify, et sans elle on ne peut
-calculer ni CPC, ni coût par ajout au panier, ni CPA. C'est la donnée la plus périssable de cette
-note.
+### La campagne, chiffrée
+
+Relevé Google Ads du 30/08 — période **24/07 → 02/08**, entièrement contenue dans W30 + W31 :
+
+| | |
+|---|---|
+| Coût total | **110 €** |
+| CPC moyen | **0,91 €** |
+| Clics (déduits) | ≈ **121** |
+| Sessions de recherche mesurées côté Shopify | 92 sur les deux semaines |
+| Ajouts au panier attribués par Hakim | **3** |
+| Commandes | **0** |
+| Coût par ajout au panier | ≈ **37 €** |
+
+L'écart entre 121 clics et 92 sessions est normal — abandons avant chargement, bloqueurs,
+différences d'attribution. Il ne signale rien d'anormal.
+
+`depense_ads_eur: 87` est une **estimation** : Google Ads n'a donné que le total, réparti au
+prorata des sessions de recherche (73 / 92). La somme sur W30 + W31 est exacte, le découpage ne
+l'est pas.
+
+### Le point qui mérite discussion
+
+**Le test a été coupé à 110 €.** Or le compte rendu des experts du 16/08 note que les tests sont
+« coupés trop tôt à 120-130 € ». Cette campagne s'est arrêtée *en dessous* de ce seuil déjà jugé
+trop bas — sur trois ajouts au panier, c'est-à-dire un échantillon dont on ne peut rien conclure,
+ni en bien ni en mal.
+
+Ce n'est pas une règle et je n'en fais pas une : c'est un motif à confronter au prochain test.
+Mais si le seuil d'arrêt de 120-130 € est un vrai défaut, il vient de se reproduire.
 
 ## Interventions de la période
 

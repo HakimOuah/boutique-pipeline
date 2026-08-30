@@ -34,7 +34,15 @@ lcp_s:
 
 ## Fait marquant de la semaine
 
-Relevé rétroactif du 30/08/2026 (ShopifyQL). Aucune campagne active sur la période.
+Démarrage de la **campagne Search Google Ads** le 24/07 (relevé Google Ads du 30/08 : période
+24/07 – 02/08, coût total **110 €**, CPC moyen **0,91 €**, soit ≈ 121 clics).
+
+19 sessions de recherche cette semaine, 0 ajout au panier. La campagne monte en charge sur les
+trois derniers jours de la semaine.
+
+`depense_ads_eur: 23` est une **estimation**, pas une mesure : la campagne chevauche W30 et W31,
+et Google Ads ne m'a donné que le total. Réparti au prorata des sessions de recherche (19 / 92).
+La somme sur les deux semaines, elle, est exacte : 110 €.
 
 ## Interventions de la période
 
