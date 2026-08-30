@@ -78,11 +78,15 @@ def main() -> int:
     ap.add_argument("--domaine", required=True, help="xxx.myshopify.com")
     a = ap.parse_args()
 
-    cid = os.environ.get("SHOPIFY_CLIENT_ID")
-    secret = os.environ.get("SHOPIFY_CLIENT_SECRET")
+    # Une app par boutique : les identifiants sont propres a chacune. Les
+    # variables globales restent acceptees comme repli (cas d'une seule app).
+    cle = a.boutique.upper().replace("-", "_")
+    cid = os.environ.get(f"SHOPIFY_{cle}_CLIENT_ID") or os.environ.get("SHOPIFY_CLIENT_ID")
+    secret = os.environ.get(f"SHOPIFY_{cle}_CLIENT_SECRET") or os.environ.get("SHOPIFY_CLIENT_SECRET")
     if not cid or not secret:
-        raise SystemExit("SHOPIFY_CLIENT_ID et SHOPIFY_CLIENT_SECRET doivent être "
-                         "définis dans l'environnement (ou dans .env, puis `set -a; . ./.env`).")
+        raise SystemExit(
+            f"SHOPIFY_{cle}_CLIENT_ID et SHOPIFY_{cle}_CLIENT_SECRET doivent être définis\n"
+            f"dans .env (puis `set -a && . ./.env && set +a`). Aucun repli codé en dur.")
 
     etat = secrets.token_urlsafe(24)
     url = f"https://{a.domaine}/admin/oauth/authorize?" + urllib.parse.urlencode({
