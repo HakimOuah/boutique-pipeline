@@ -46,3 +46,6 @@ __pycache__/
 
 # Bruts TrendTrack (crédits API, parfois clés dans le contexte) — jamais dans git
 analyses/_tt_raw_*.json
+
+# Cache local du script de découverte DataForSEO (régénérable, coûte 0 à refaire)
+/scripts/.cache_kw_dfs/
