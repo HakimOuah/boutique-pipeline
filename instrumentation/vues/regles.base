@@ -1,0 +1,33 @@
+filters:
+  and:
+    - 'type == "regle"'
+properties:
+  note.id:
+    displayName: ID
+  note.titre:
+    displayName: Règle
+  note.statut:
+    displayName: Statut
+  note.acceptee_par_hakim:
+    displayName: Acceptée
+  note.date_revue:
+    displayName: À revoir le
+views:
+  - type: table
+    name: Règles actives
+    filters:
+      and:
+        - 'statut != "retiree"'
+    order:
+      - note.id
+      - note.titre
+      - note.statut
+      - note.acceptee_par_hakim
+  - type: table
+    name: Retirées
+    filters:
+      and:
+        - 'statut == "retiree"'
+    order:
+      - note.id
+      - note.titre

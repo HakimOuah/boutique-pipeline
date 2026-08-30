@@ -1,0 +1,38 @@
+filters:
+  and:
+    - 'type == "mesure"'
+properties:
+  note.boutique:
+    displayName: Boutique
+  note.periode:
+    displayName: Période
+  note.sessions:
+    displayName: Sessions
+  note.commandes:
+    displayName: Cdes
+  note.cvr_pct:
+    displayName: CVR %
+  note.ca_eur:
+    displayName: CA €
+  note.depense_ads_eur:
+    displayName: Ads €
+  note.roas:
+    displayName: ROAS
+  note.gmc_approuves:
+    displayName: GMC OK
+views:
+  - type: table
+    name: Toutes les semaines
+    order:
+      - note.boutique
+      - note.periode
+      - note.sessions
+      - note.commandes
+      - note.cvr_pct
+      - note.ca_eur
+      - note.depense_ads_eur
+      - note.roas
+      - note.gmc_approuves
+    sort:
+      - property: note.periode
+        direction: DESC

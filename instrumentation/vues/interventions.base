@@ -1,0 +1,21 @@
+filters:
+  and:
+    - 'type == "intervention"'
+properties:
+  note.boutique:
+    displayName: Boutique
+  note.date:
+    displayName: Date
+  note.leviers:
+    displayName: Leviers
+views:
+  - type: table
+    name: Journal des interventions
+    order:
+      - note.date
+      - note.boutique
+      - note.leviers
+      - file.name
+    sort:
+      - property: note.date
+        direction: DESC

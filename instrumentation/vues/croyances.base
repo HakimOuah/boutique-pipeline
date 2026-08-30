@@ -1,0 +1,33 @@
+filters:
+  and:
+    - 'type == "croyance"'
+properties:
+  note.boutique:
+    displayName: Boutique
+  note.statut:
+    displayName: Statut
+  note.source:
+    displayName: Source
+  note.confiance_reconstruction:
+    displayName: Confiance
+  note.date_lancement:
+    displayName: Lancement
+  note.prediction_reussite_pct:
+    displayName: Prédiction %
+views:
+  - type: table
+    name: À compléter en priorité
+    filters:
+      and:
+        - 'statut == "a_completer"'
+    order:
+      - note.boutique
+      - note.source
+      - note.confiance_reconstruction
+      - note.date_lancement
+  - type: table
+    name: Toutes
+    order:
+      - note.boutique
+      - note.statut
+      - note.prediction_reussite_pct
