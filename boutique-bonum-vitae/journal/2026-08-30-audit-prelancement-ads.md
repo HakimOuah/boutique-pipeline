@@ -78,9 +78,38 @@ compatibilité — raison légitime) et `anti-tartre-galvanique-toute-la-maison`
 **Non tranché par l'agent** : périmètre du feed, décision d'acquisition qui
 appartient à Hakim.
 
+## Feed restreint le 30/08 (demande Hakim)
+
+Kit test OK + LPS OK → les deux **ajoutés** au canal Google. 10 fiches
+low-ticket **retirées** du canal (restent en vitrine). Hors-acquisition
+inchangés (hors Google).
+
+**10 produits / 14 items Shopping**, plancher 66,90 €, plafond 449 €.
+
+Appliqué via `publishablePublish` / `publishableUnpublish` sur
+`Publication/357118574930`. Reliquats GMC : 24–48 h pour que les
+anciens items disparaissent du Merchant Center.
+
+## Signal GO (Hakim surveille GMC, 30/08)
+
+Compte **`5825588636`**. Ne pas créer de compte, ne pas redemander de review.
+
+**GO — lancer la PMAX** quand :
+- le catalogue ≈ **14 items** (10 fiches), pas ~80–95 ;
+- le **prix mini** affiché est **≥ 66,90 €** ;
+- aérateur, pommeau, cartouches, kits 14,90 €, camping, filtres douche 15–20 €
+  ont disparu (ou sont « Non soumis / Expiré », plus « Approuvé ») ;
+- kit 129 € et LPS 149 € sont **Approuvés**.
+
+**NO-GO** tant que des items < 30 € restent Approuvés en masse. Reliquats
+24–48 h = normal. Si ça traîne au-delà : revérifier le canal Shopify
+Google & YouTube, ne pas soumettre de review.
+
+Campagne : 1 PMAX, France, conv. `purchase` (`AW-18325545481`), 30 €/j × 5 j.
+
 ## À vérifier avant le premier euro
 
-- Prix de la variante par défaut de `pommeau-de-douche-filtrant-parfume`
-  (24 variantes) : si Google annonce 13,90 € et que la landing affiche autre
-  chose, c'est un motif de refus GMC classique.
+- Le pommeau (24 variantes) est **hors** Google depuis le 30/08 — plus de
+  risque « Google 13,90 € / landing autre prix » tant qu'il n'est pas
+  republié sur le canal.
 - Scope commandes absent du token CLI : **AOV réel non mesurable** par l'agent.

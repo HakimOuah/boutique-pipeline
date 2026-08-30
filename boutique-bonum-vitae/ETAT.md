@@ -103,9 +103,10 @@ contre 6–10 j / France seule dans la policy Expédition et dans GMC. Réécrit
 constaté live. FAQ « une petite semaine / expédiés de plus loin » remplacée
 par 24–48 h + cutoff 15h + 6–10 j. Wallets et Klarna ajoutés aux CGV.
 
-**Feed = 84 items, pas 18** (chaque variante compte). 57 sous 30 €, médiane
-20,90 €, plancher 3,90 €. Économie unitaire à trancher avant de dépenser —
-voir [`journal/2026-08-30-audit-prelancement-ads.md`](journal/2026-08-30-audit-prelancement-ads.md).
+**Feed restreint 30/08 :** 10 fiches / **14 items**, plancher 66,90 €
+(kit 129 € et LPS 149 € ajoutés). 10 fiches low-ticket hors Google, toujours
+en vitrine. Hakim surveille le sync GMC avant PMAX. Signal GO dans
+[`journal/2026-08-30-audit-prelancement-ads.md`](journal/2026-08-30-audit-prelancement-ads.md).
 
 **Tracking** : `AW-18325545481` + `GT-M34W44VB`, événement `purchase` câblé.
 

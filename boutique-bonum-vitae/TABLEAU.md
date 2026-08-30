@@ -11,13 +11,13 @@ pour un test ads en septembre. Prompt de relance :
 
 **Mets ce fichier à jour avant de rendre la main.**
 
-> 👉 **Hakim, maintenant :** conformité **OK pour lancer**. Un seul arbitrage
-> avant le premier euro : **le périmètre du feed** (84 items, 67 % sous 30 €,
-> médiane 20,90 €). Voir
-> [`journal/2026-08-30-audit-prelancement-ads.md`](journal/2026-08-30-audit-prelancement-ads.md).
+> 👉 **Hakim, maintenant :** surveiller GMC `5825588636` puis lancer
+> **1 PMAX**, France, conv. `purchase`, **30 €/j × 5 j** sans toucher.
+> **GO** = ~14 items approuvés, plancher ≥ 66,90 €, plus d'aérateur /
+> pommeau / cartouches à 3–20 €. **Ne pas relancer de review.**
 
-Dernière mise à jour : **30/08/2026** — audit pré-lancement ads : CGV/CGU/FAQ
-réalignées sur 6–10 j France métro, 25 metafields d'avis purgés.
+Dernière mise à jour : **30/08/2026** — feed restreint (kit + LPS inclus) ;
+Hakim attend le sync GMC avant le premier euro.
 
 ---
 
@@ -41,19 +41,19 @@ Le 17/08 : « a priori aucun » (déclaratif). **Faux.** Compte **Bonum Vitae
 produits **approuvés depuis ~7/08** (avant : ~85 limités / 10 approuvés, pic
 95 items le 6/08). Canal Shopify Google & YouTube = le feed. **Ne pas créer
 un second GMC. Ne pas redemander de review.**
-Shopify pousse aujourd'hui **18 ACTIVE** vers ce canal (hors-acquisition, LPS
-et kit volontairement hors Google). **18/08 ~12h35 — Hakim :** les 9 notifs
+Shopify poussait **18 ACTIVE** le 18/08. **30/08 : feed restreint à 10 fiches /
+14 items** (kit + LPS inclus). **18/08 ~12h35 — Hakim :** les 9 notifs
 sont lues, rien d'important. Verdict : on est bon.
 
 ### ~~T-13 — Finaliser la fiche anti-tartre galvanique (LPS)~~ ✅ publié le 18/08
-**ACTIVE**, 149 €, 0 barré. Canal **Boutique en ligne seulement** (pas Google, pas Shop).
+**ACTIVE**, 149 €, 0 barré. **Sur Google depuis le 30/08** (feed restreint).
 Dans `anti-calcaire-sans-sel` (6 fiches). Live :
 https://bonumvitae.fr/products/anti-tartre-galvanique-toute-la-maison
 
 ### ~~T-H7 — Arbitrer les prix restants~~ ✅ appliqué sans inventer de prix
 Prix inchangés. Magnétiques DN8/20/25, carafe 3,5 L, douche vitamine C : tag
 `hors-acquisition` + **retirés de Google & YouTube** (restent en vitrine). LPS 149 €
-publié, Boutique en ligne seulement. Cœur douche 13,90–46,90 € : dans la bande.
+**sur Google depuis le 30/08**. Cœur douche 13,90–46,90 € : hors Google (feed restreint).
 
 ### ~~T-H4 — Choisir une DA parmi 2 ou 3 directions~~ ✅ de facto (Abysse/Source live)
 DA juillet appliquée sur FullStack MAIN. Pas de restyle.
@@ -78,11 +78,11 @@ FullStack : hero, H2, lorem collection. Constaté anonyme : nouveau H1, plus de 
 **État** : FAIT — publié le 18/08 · **Pour** : Hakim (commande test) · **Gravité** : P2
 **Fait** : kit `1005005705096746` → `kit-entretien-osmoseur-600-gpd` (`11039467503954`),
 **ACTIVE**, 129 €, 0 barré, copy FR, visuels composés. Variantes entrepôt DSers retirées
-(sélecteur Ships From) ; SKU Chine conservé `14:366#set;200007763:201336100`. Canal
-**Boutique en ligne** seulement (pas Shop, pas Google). Constaté anonyme : 200.
+(sélecteur Ships From) ; SKU Chine conservé `14:366#set;200007763:201336100`.
+**Sur Google depuis le 30/08** (commande test OK). Constaté anonyme : 200.
 Collection `osmoseurs` **supprimée** le 18/08 (T-07). Les 3 fiches restent au catalogue.
-**Reste** : commande test compatibilité 299 € / 449 € ; reconfirmer le coût rendu
-(DSers 39–44 € vs API FR 63,46 €). Si DSers re-sync, il peut recréer Ships From.
+**Reste** : reconfirmer le coût rendu (DSers 39–44 € vs API FR 63,46 €).
+Commande test compatibilité **OK le 30/08**. Si DSers re-sync, il peut recréer Ships From.
 **Réf.** : [`journal/2026-08-18-rattachement-visuels-kit.md`](journal/2026-08-18-rattachement-visuels-kit.md) ·
 [`livraisons/brief-codex-images-kit-entretien-600-gpd-2026-08-18.md`](livraisons/brief-codex-images-kit-entretien-600-gpd-2026-08-18.md)
 
