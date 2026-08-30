@@ -1,0 +1,28 @@
+# App d'acces API pour la mesure hebdomadaire des boutiques.
+# Aucune interface : elle ne sert qu'a echanger un ID client + secret contre un
+# jeton de 24 h (client credentials grant), pour interroger ShopifyQL.
+# Voir instrumentation/README.md et instrumentation/mesure-hebdo.py.
+#
+# read_reports est le seul scope necessaire, et il est obligatoire : sans lui
+# shopifyqlQuery est refusee. Les scopes viennent de la version PUBLIEE de
+# l'app, pas de la requete — modifier ce fichier ne suffit pas, il faut
+# `shopify app deploy`.
+#
+# Doc : https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "e86ef8e07097aafbd20df966d69fb708"
+name = "Mesure OH Ventures"
+application_url = "http://localhost:8123"
+embedded = false
+
+[webhooks]
+api_version = "2026-07"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_reports"
+optional_scopes = [ ]
+use_legacy_install_flow = false
+
+[auth]
+redirect_urls = [ "http://localhost:8123/callback" ]
