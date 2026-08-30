@@ -91,6 +91,24 @@ de faux fait partie du dataset.
 ce sera encore rempli dans trois mois ? » Si un champ finit systématiquement vide, on le supprime —
 un champ vide ment davantage qu'un champ absent.
 
+## Relever les mesures
+
+```bash
+python3 instrumentation/mesure-hebdo.py --boutiques tufting,bonum-vitae --ecrire
+```
+
+Sans `--ecrire`, dry-run. Le script **ne réécrit jamais une note existante** : une mesure est un
+fait daté. Pour corriger un chiffre, écrire une note de correction à côté.
+
+**Pourquoi un jeton d'application et pas le connecteur MCP** (constat du 30/08/2026) : le
+connecteur Shopify ne tient qu'une boutique à la fois, et en changer **révoque** l'accès à la
+précédente, avec une réautorisation manuelle à chaque fois. Sur trois boutiques et une cadence
+hebdomadaire, c'est intenable — et un agent ne pourra jamais cliquer sur un écran d'autorisation.
+Une application personnalisée par boutique donne un jeton permanent, utilisable sans écran.
+
+Le scope **`read_reports`** est obligatoire : les scopes de la CLI Shopify déjà en place
+(products, themes, content, pages…) ne permettent pas d'interroger ShopifyQL.
+
 ## Cadence
 
 | Quoi | Quand | Qui |
