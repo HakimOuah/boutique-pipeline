@@ -212,9 +212,25 @@ def releve(slug: str, depuis: str, jusqu: str, ecrire: bool) -> None:
     sess = par_semaine(shopifyql(domaine, jeton, Q_SESSIONS.format(depuis=depuis, jusqu=jusqu)))
     vent = par_semaine(shopifyql(domaine, jeton, Q_VENTES.format(depuis=depuis, jusqu=jusqu)))
 
+    # Les semaines anterieures a la premiere activite ne sont pas des mesures :
+    # ce sont des semaines ou la boutique n'existait pas. On les ecarte. En
+    # revanche une semaine a zero APRES l'ouverture est une donnee, on la garde.
+    semaines = sorted(set(sess) | set(vent))
+    def active(l):
+        return any(str(d.get(l, {}).get(c, "0")) not in ("", "0", "0.0", "None")
+                   for d, c in ((sess, "sessions"), (vent, "orders"), (vent, "total_sales")))
+    premiere = next((l for l in semaines if active(l)), None)
+    if premiere is None:
+        print("  → aucune activite sur la periode, aucune note ecrite")
+        return
+    ignorees = semaines.index(premiere)
+    if ignorees:
+        print(f"  ({ignorees} semaine(s) sans aucune activite avant le {premiere} — ecartees)")
+    semaines = semaines[ignorees:]
+
     MESURES.mkdir(exist_ok=True)
     ecrits = sautes = 0
-    for lundi in sorted(set(sess) | set(vent)):
+    for lundi in semaines:
         d = dt.date.fromisoformat(lundi)
         y, w, _ = d.isocalendar()
         periode = f"{y}-W{w:02d}"

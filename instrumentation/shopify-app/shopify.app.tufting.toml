@@ -1,0 +1,27 @@
+# App d'acces API pour la mesure hebdomadaire de cette boutique.
+# Aucune interface : elle sert uniquement a obtenir un jeton Admin API par
+# autorisation OAuth (voir ../obtenir-jeton.py), pour interroger ShopifyQL.
+#
+# Une app par boutique : la distribution personnalisee ne couvre qu'un seul
+# magasin, et elle ne se change plus une fois choisie.
+#
+# read_reports est le seul scope necessaire, et il est obligatoire. Les scopes
+# viennent de la version PUBLIEE : modifier ce fichier ne suffit pas, il faut
+# `shopify app deploy -c <slug> --allow-updates`.
+
+client_id = "002259452ce543c4dc8bf6ec49f7122c"
+application_url = "http://localhost:8123"
+embedded = false
+name = "Mesures OH Ventures TUFTEO"
+
+[webhooks]
+api_version = "2026-07"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_reports"
+optional_scopes = [ ]
+use_legacy_install_flow = false
+
+[auth]
+redirect_urls = [ "http://localhost:8123/callback" ]
