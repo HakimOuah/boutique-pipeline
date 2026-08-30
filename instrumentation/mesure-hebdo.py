@@ -6,15 +6,28 @@
 ne réécrit pas l'histoire. Pour corriger un chiffre, écrire une note de
 correction (cf. instrumentation/README.md).
 
-Authentification — une application personnalisée par boutique, jamais d'OAuth
-interactif : le script doit tourner sans écran. Pour chaque boutique, deux
-variables d'environnement, nommées d'après le slug en majuscules :
+Authentification — jamais d'OAuth interactif : le script doit tourner sans
+écran. Shopify ne permet plus de créer une app personnalisée depuis l'admin
+d'une boutique (constat du 30/08/2026). La route actuelle est le
+**client credentials grant** : une app du dev dashboard donne un ID client et
+un secret, qu'on échange contre un jeton de 24 h. Le script en fabrique un à
+chaque exécution.
 
+Une seule app suffit pour toutes les boutiques d'une **même organisation** —
+c'est la limite du grant : il ne franchit pas la frontière d'organisation.
+
+    SHOPIFY_CLIENT_ID=...            # partagés par toute l'organisation
+    SHOPIFY_CLIENT_SECRET=...
     SHOPIFY_TUFTING_DOMAIN=xxxxxx.myshopify.com
-    SHOPIFY_TUFTING_TOKEN=shpat_...
+    SHOPIFY_BONUM_VITAE_DOMAIN=kw7vak-g0.myshopify.com
 
-Le jeton exige le scope **read_reports** (Admin API). Les scopes de la CLI
-Shopify (products, themes, content…) ne suffisent pas.
+L'app doit être **installée** sur chaque boutique, et sa version publiée doit
+déclarer le scope **read_reports** — les scopes viennent de la version
+publiée, pas de la requête. Les scopes de la CLI Shopify (products, themes,
+content…) ne suffisent pas.
+
+Un jeton statique reste accepté s'il existe (`SHOPIFY_<SLUG>_TOKEN`, apps
+héritées) : il est alors utilisé tel quel, sans échange.
 
     python3 instrumentation/mesure-hebdo.py --boutiques tufting,bonum-vitae
     python3 instrumentation/mesure-hebdo.py --boutiques bonum-vitae --depuis 2026-08-17
@@ -27,6 +40,7 @@ import json
 import os
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
@@ -45,16 +59,60 @@ Q_VENTES = (
 )
 
 
+def _jeton_par_echange(domaine: str, cid: str, secret: str) -> str:
+    """Client credentials grant : rend un jeton valable 24 h. Sans interaction."""
+    corps = urllib.parse.urlencode({
+        "grant_type": "client_credentials",
+        "client_id": cid,
+        "client_secret": secret,
+    }).encode()
+    req = urllib.request.Request(
+        f"https://{domaine}/admin/oauth/access_token",
+        data=corps,
+        headers={"Content-Type": "application/x-www-form-urlencoded"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            rep = json.loads(r.read())
+    except urllib.error.HTTPError as e:
+        detail = e.read().decode(errors="replace")[:300]
+        raise SystemExit(
+            f"Échange de jeton refusé pour {domaine} (HTTP {e.code}) — {detail}\n"
+            f"  Vérifier : l'app est installée sur cette boutique, et elle appartient à\n"
+            f"  la même organisation Shopify (le grant ne franchit pas cette frontière)."
+        )
+    jeton = rep.get("access_token")
+    if not jeton:
+        raise SystemExit(f"Réponse sans access_token pour {domaine} : {rep}")
+    portee = rep.get("scope", "")
+    if "read_reports" not in portee:
+        raise SystemExit(
+            f"Le jeton de {domaine} n'a pas le scope read_reports (obtenu : {portee or 'aucun'}).\n"
+            f"  Ajouter read_reports à la configuration de l'app dans le dev dashboard,\n"
+            f"  puis PUBLIER une nouvelle version : les scopes viennent de la version publiée."
+        )
+    return jeton
+
+
 def identifiants(slug: str) -> tuple[str, str]:
     cle = slug.upper().replace("-", "_")
     domaine = os.environ.get(f"SHOPIFY_{cle}_DOMAIN")
+    if not domaine:
+        raise SystemExit(f"SHOPIFY_{cle}_DOMAIN doit être défini dans l'environnement.")
+
     jeton = os.environ.get(f"SHOPIFY_{cle}_TOKEN")
-    if not domaine or not jeton:
+    if jeton:
+        return domaine, jeton
+
+    cid = os.environ.get(f"SHOPIFY_{cle}_CLIENT_ID") or os.environ.get("SHOPIFY_CLIENT_ID")
+    secret = os.environ.get(f"SHOPIFY_{cle}_CLIENT_SECRET") or os.environ.get("SHOPIFY_CLIENT_SECRET")
+    if not cid or not secret:
         raise SystemExit(
-            f"SHOPIFY_{cle}_DOMAIN et SHOPIFY_{cle}_TOKEN doivent être définis dans "
-            f"l'environnement. Aucune valeur de repli n'est codée en dur."
+            f"Aucun identifiant pour {slug}. Définir soit SHOPIFY_CLIENT_ID et\n"
+            f"SHOPIFY_CLIENT_SECRET (partagés par l'organisation), soit un jeton hérité\n"
+            f"SHOPIFY_{cle}_TOKEN. Aucune valeur de repli n'est codée en dur."
         )
-    return domaine, jeton
+    return domaine, _jeton_par_echange(domaine, cid, secret)
 
 
 def shopifyql(domaine: str, jeton: str, requete: str) -> list[list]:
