@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: tufting
+date: 2026-07-21
+nature: intervention
+leviers: [autre]
+titre: "État projet — Boutique Tufting (nom en attente PORTE 1)"
+---
+
 # État projet — Boutique Tufting (nom en attente PORTE 1)
 
 À tenir à jour à chaque phase, validation, push Shopify ou changement important.

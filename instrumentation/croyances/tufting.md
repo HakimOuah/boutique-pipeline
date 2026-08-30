@@ -1,6 +1,6 @@
 ---
 type: croyance
-boutique: tufteo
+boutique: tufting
 produit: tufting — kits, machines, fils, toiles, accessoires
 date_lancement: 
 source: reconstruit

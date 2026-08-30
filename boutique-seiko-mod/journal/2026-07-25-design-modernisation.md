@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-25
+nature: intervention
+leviers: [page]
+titre: "Modernisation du design NOIRMONT — d'après montre-avenue"
+---
+
 # Modernisation du design NOIRMONT — d'après montre-avenue
 
 > **25/07/2026** — analyse puis application sur le **thème brouillon 204248088914** (`Maison Noirmont`, FullStack **2.3.0**).

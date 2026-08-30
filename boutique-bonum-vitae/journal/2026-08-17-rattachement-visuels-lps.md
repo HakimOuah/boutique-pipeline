@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: bonum-vitae
+date: 2026-08-17
+nature: intervention
+leviers: [creative, page]
+titre: "17/08/2026 (nuit) — Rattachement des 6 visuels LPS"
+---
+
 # 17/08/2026 (nuit) — Rattachement des 6 visuels LPS
 
 Hakim : « Garde tout et rattache tout » — image 5 incluse, malgré la réserve de topologie.

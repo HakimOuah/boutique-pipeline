@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-25
+nature: analyse
+leviers: [catalogue, concurrence]
+titre: "Catalogue v2 — étoffer NOIRMONT (analyse concurrents + plan) — 25/07/2026"
+---
+
 # Catalogue v2 — étoffer NOIRMONT (analyse concurrents + plan) — 25/07/2026
 
 Demande Hakim : « le catalogue est un peu maigre, inspire-toi des concurrents (montres ET accessoires) ».

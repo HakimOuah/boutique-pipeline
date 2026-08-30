@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: tufting
+date: 2026-07-30
+nature: analyse
+leviers: [conformite]
+titre: "Audit P0 — avis de démonstration rendus publics sur Tuftéo"
+---
+
 # Audit P0 — avis de démonstration rendus publics sur Tuftéo
 
 > Audit en lecture seule effectué le **2026-07-30 à 23:35 (Europe/Lisbon)** sur `https://tufteo.com/` et `https://tufteo.com/products/kit-tufting-complet`.

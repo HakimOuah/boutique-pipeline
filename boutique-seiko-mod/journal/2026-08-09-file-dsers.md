@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-09
+nature: intervention
+leviers: [sourcing]
+titre: "File DSers — nuit du 08 au 09/08/2026 (96 URL, ordre d'import)"
+---
+
 # File DSers — nuit du 08 au 09/08/2026 (96 URL, ordre d'import)
 
 Format : `URL | handle propose | collection`. Importer en DRAFT, aucun canal, variantes steriles uniquement.

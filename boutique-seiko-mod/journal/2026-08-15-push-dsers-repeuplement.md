@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-15
+nature: intervention
+leviers: [sourcing, catalogue, creative]
+titre: "Push DSers du repeuplement — reprise après coupure, et relevé visuel des 22 fiches"
+---
+
 # Push DSers du repeuplement — reprise après coupure, et relevé visuel des 22 fiches
 
 **15/08/2026, soirée.** Reprise de la session coupée à 17 h 50, qui avait poussé 20 des 22 fiches de

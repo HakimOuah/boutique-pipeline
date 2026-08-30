@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-10
+nature: analyse
+leviers: [catalogue]
+titre: "Décision — cinq dossiers « cadran arabe » bloqués — 10/08/2026"
+---
+
 # Décision — cinq dossiers « cadran arabe » bloqués — 10/08/2026
 
 ## Verdict

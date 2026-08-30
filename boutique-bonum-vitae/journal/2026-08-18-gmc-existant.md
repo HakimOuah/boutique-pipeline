@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: bonum-vitae
+date: 2026-08-18
+nature: intervention
+leviers: [conformite]
+titre: "18/08/2026 — GMC Bonum Vitae déjà là"
+---
+
 # 18/08/2026 — GMC Bonum Vitae déjà là
 
 Hakim ouvre Merchant Center et constate un compte **Bonum Vitae** existant,

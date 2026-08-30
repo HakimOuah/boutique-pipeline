@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-17
+nature: analyse
+leviers: [conformite]
+titre: "Audit GMC Terry — Maison Noirmont, 17/08/2026"
+---
+
 # Audit GMC Terry — Maison Noirmont, 17/08/2026
 
 > **~11h00.** Boutique publique `maisonnoirmont.fr` (Admin `v42pzp-h4`). Thème MAIN

@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: intervention
+leviers: [catalogue]
+titre: "Découpage & élagage — Lot 2 — 2026-07-25"
+---
+
 # Découpage & élagage — Lot 2 — 2026-07-25
 
 Boutique **NOIRMONT** / Maison Noirmont (`v42pzp-h4`, maisonnoirmont.fr)

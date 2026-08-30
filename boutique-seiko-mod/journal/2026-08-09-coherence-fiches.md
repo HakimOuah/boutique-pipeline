@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-09
+nature: intervention
+leviers: [catalogue]
+titre: "Cohérence fiches ↔ produits réels — 94 brouillons du 09/08/2026 (Maison Noirmont)"
+---
+
 # Cohérence fiches ↔ produits réels — 94 brouillons du 09/08/2026 (Maison Noirmont)
 
 **Passe déclenchée par un cas avéré** (`cadran-calligraphie-arabe-email-33`, titre « arabe » sur un cadran à chiffres occidentaux, corrigé avant cette passe). Les titres du lot ayant été rédigés de nuit sur données fournisseur **sans voir le produit**, les 94 fiches ont été reconfrontées **image par image**.

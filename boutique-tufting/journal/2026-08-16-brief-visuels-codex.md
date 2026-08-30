@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: tufting
+date: 2026-08-16
+nature: analyse
+leviers: [creative]
+titre: "Brief visuels — Tuftéo, 16/08/2026"
+---
+
 # Brief visuels — Tuftéo, 16/08/2026
 
 Production de **26 visuels produit** manquants, bloquants avant la soumission à Google Merchant

@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: intervention
+leviers: [page]
+titre: "Application de la charte A+B — thème `204248088914` « Maison Noirmont » (`v42pzp-h4`)"
+---
+
 # Application de la charte A+B — thème `204248088914` « Maison Noirmont » (`v42pzp-h4`)
 
 Date : **26/07/2026**. Cible vérifiée avant **et** après écriture : `204248088914` = `UNPUBLISHED`,

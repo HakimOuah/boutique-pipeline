@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: tufting
+date: 2026-08-16
+nature: analyse
+leviers: [conformite]
+titre: "Audit final GMC — Agent A — Contenu, promesses et cohérence textuelle"
+---
+
 # Audit final GMC — Agent A — Contenu, promesses et cohérence textuelle
 
 **Boutique** : Tuftéo (tufteo.com). **Date** : 16/08/2026. **Périmètre** : thème brouillon `189410738561` (celui que Hakim publiera) + données Shopify Admin (policies, réglages boutique) qui sont indépendantes du thème.

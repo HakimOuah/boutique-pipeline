@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-25
+nature: analyse
+leviers: [concurrence]
+titre: "Minage montre-avenue — ce qui est portable sur NOIRMONT"
+---
+
 # Minage montre-avenue — ce qui est portable sur NOIRMONT
 
 > **25/07/2026** — recherche seule, aucune modification faite ni chez eux ni chez nous.

@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-15
+nature: intervention
+leviers: [conformite, page]
+titre: "JSON-LD `Organization` de l'accueil — la cause réelle, trouvée dans le gabarit"
+---
+
 # JSON-LD `Organization` de l'accueil — la cause réelle, trouvée dans le gabarit
 
 **15/08/2026, après-midi.** Boutique **Maison Noirmont** (`maisonnoirmont.fr`, publique).

@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-25
+nature: intervention
+leviers: [sourcing]
+titre: "Sourcing accessoires NOIRMONT — v2 (25/07/2026)"
+---
+
 # Sourcing accessoires NOIRMONT — v2 (25/07/2026)
 
 Recherche uniquement. Aucune commande passée, aucun accès Shopify utilisé.

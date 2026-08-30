@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: analyse
+leviers: [creative]
+titre: "Prompt à envoyer à Codex — galeries produit NOIRMONT"
+---
+
 # Prompt à envoyer à Codex — galeries produit NOIRMONT
 
 > Copier-coller le bloc ci-dessous tel quel. Il est autoportant.

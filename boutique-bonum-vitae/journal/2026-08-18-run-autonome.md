@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: bonum-vitae
+date: 2026-08-18
+nature: intervention
+leviers: [autre]
+titre: "18/08/2026 — Run autonome : tickets ouverts jusqu'à boutique prête"
+---
+
 # 18/08/2026 — Run autonome : tickets ouverts jusqu'à boutique prête
 
 Hakim : prendre tous les tickets ouverts et les régler un par un, sans créer le GMC.

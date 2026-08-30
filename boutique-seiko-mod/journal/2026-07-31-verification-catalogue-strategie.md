@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: analyse
+leviers: [catalogue]
+titre: "Vérification du catalogue contre la stratégie — Maison Noirmont"
+---
+
 # Vérification du catalogue contre la stratégie — Maison Noirmont
 
 > **27/07/2026** — boutique `v42pzp-h4`. Périmètre : les **53 fiches montres actives**.

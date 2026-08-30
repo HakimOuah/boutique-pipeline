@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-09
+nature: intervention
+leviers: [autre]
+titre: "Passation à Codex — Maison Noirmont, 09/08/2026"
+---
+
 # Passation à Codex — Maison Noirmont, 09/08/2026
 
 Claude Code atteint sa limite hebdomadaire (réinitialisation dans 4 jours, soit le **13/08/2026**). Ce document est **autoportant** : il te donne l'état réel, les règles, les pièges déjà payés et l'ordre de travail. Tu prends le relais sur la boutique **Maison Noirmont** (seiko mod, `maisonnoirmont.fr`).

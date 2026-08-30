@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-25
+nature: intervention
+leviers: [catalogue, page]
+titre: "Reprise éditoriale des 60 fiches découpées — 2026-07-25"
+---
+
 # Reprise éditoriale des 60 fiches découpées — 2026-07-25
 
 Boutique **NOIRMONT** / Maison Noirmont (`v42pzp-h4`, maisonnoirmont.fr)

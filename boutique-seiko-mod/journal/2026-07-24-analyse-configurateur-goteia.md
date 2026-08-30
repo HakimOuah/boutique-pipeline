@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-24
+nature: analyse
+leviers: [page]
+titre: "Analyse configurateur — goteia.fr/configurateur/seikojust (24/07/2026)"
+---
+
 # Analyse configurateur — goteia.fr/configurateur/seikojust (24/07/2026)
 
 Second concurrent analysé sur indication Hakim (« pas de vrais ateliers, ce sont des dropshippers » — les deux, Goteia et montreapapy). Bannière site : « Livraison offerte en France · Garantie 2 ans · Assemblée à la main ».

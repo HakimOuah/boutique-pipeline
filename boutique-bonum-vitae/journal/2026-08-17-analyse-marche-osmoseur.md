@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: bonum-vitae
+date: 2026-08-17
+nature: analyse
+leviers: [concurrence]
+titre: "17/08/2026 — Analyse marché approfondie : OSMOSEUR (produit de bataille)"
+---
+
 # 17/08/2026 — Analyse marché approfondie : OSMOSEUR (produit de bataille)
 
 > Suite de la sonde prix du 17/08 (`2026-08-17-prix-concurrence.md`), recentrée sur l'osmoseur à la

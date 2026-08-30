@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: intervention
+leviers: [conformite]
+titre: "Clôture des points de véracité produit — Maison Noirmont"
+---
+
 # Clôture des points de véracité produit — Maison Noirmont
 
 > **26/07/2026** — boutique `v42pzp-h4` / maisonnoirmont.fr.

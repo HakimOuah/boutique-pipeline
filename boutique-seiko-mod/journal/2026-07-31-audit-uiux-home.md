@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: analyse
+leviers: [page]
+titre: "Audit UI/UX — Accueil Maison Noirmont (`v42pzp-h4` / maisonnoirmont.fr)"
+---
+
 # Audit UI/UX — Accueil Maison Noirmont (`v42pzp-h4` / maisonnoirmont.fr)
 
 Lecture seule. Thème `204248088914` « Maison Noirmont », rôle **MAIN**, non modifié.

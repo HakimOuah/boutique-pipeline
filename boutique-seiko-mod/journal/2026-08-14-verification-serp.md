@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-14
+nature: analyse
+leviers: [seo]
+titre: "Vérification SERP France — ce que Google sert vraiment sur les têtes du dossier"
+---
+
 # Vérification SERP France — ce que Google sert vraiment sur les têtes du dossier
 
 > **14/08/2026, quatrième passe (T-43).** **20 SERP Google France ouvertes** (`google.fr`, `hl=fr`,

@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: bonum-vitae
+date: 2026-08-17
+nature: intervention
+leviers: [sourcing]
+titre: "17/08/2026 (nuit) — Import DSers des anti-calcaire électroniques (T-H8)"
+---
+
 # 17/08/2026 (nuit) — Import DSers des anti-calcaire électroniques (T-H8)
 
 > Consigne Hakim : « les deux partent en DSers », ouverture via Admin Shopify → Applications →

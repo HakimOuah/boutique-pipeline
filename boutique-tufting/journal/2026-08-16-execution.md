@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: tufting
+date: 2026-08-16
+nature: intervention
+leviers: [autre]
+titre: "Exécution Tuftéo — 16/08/2026"
+---
+
 # Exécution Tuftéo — 16/08/2026
 
 Session exécutant-boutique, suite de `AUDIT-GMC-2026-08-16.md`. Rapport écrit au fil de l'eau.

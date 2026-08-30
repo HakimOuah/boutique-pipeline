@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-17
+nature: intervention
+leviers: [page]
+titre: "Gel du storefront Noirmont"
+---
+
 # Gel du storefront Noirmont
 
 > **17/08/2026 ~15h25.** Décision Hakim, après l'audit GMC et les passes T-H2 / T-64 / T-37 :

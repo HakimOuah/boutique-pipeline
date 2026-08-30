@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: analyse
+leviers: [seo]
+titre: "Plan de nommage SEO — Maison Noirmont (`v42pzp-h4` / maisonnoirmont.fr)"
+---
+
 # Plan de nommage SEO — Maison Noirmont (`v42pzp-h4` / maisonnoirmont.fr)
 
 > **Étude de faisabilité, 30/07/2026. Rien n'a été modifié** : aucun produit, aucune collection,

@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-09
+nature: intervention
+leviers: [sourcing, catalogue]
+titre: "Sourcing collections « Pièces & Mod » + cadran arabe — nuit du 08 au 09/08/2026"
+---
+
 # Sourcing collections « Pièces & Mod » + cadran arabe — nuit du 08 au 09/08/2026
 
 **Mission** : décision 6 de Hakim (08/08) — passer Maison Noirmont de 92 à 200+ fiches sur le gate v3 (10-20 produits/sous-catégorie, ordre 80/20 best-sellers d'abord). Ce registre alimente le push DSers, la rédaction et la génération d'images.

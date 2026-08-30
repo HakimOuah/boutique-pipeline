@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-08
+nature: intervention
+leviers: [autre]
+titre: "Nettoyage des données produit — Maison Noirmont (08/08/2026)"
+---
+
 # Nettoyage des données produit — Maison Noirmont (08/08/2026)
 
 > Suite de l'audit `2026-08-08-audit-gmc-final.md`. Trois chantiers **données** :

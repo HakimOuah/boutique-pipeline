@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: intervention
+leviers: [page, technique]
+titre: "Correctifs JSON — thème `204248088914` « Maison Noirmont » (`v42pzp-h4`)"
+---
+
 # Correctifs JSON — thème `204248088914` « Maison Noirmont » (`v42pzp-h4`)
 
 État : **APPLIQUÉ le 26/07/2026 — 14:40, 14:51, 14:55 et 15:07 UTC** (2ᵉ passe : les 5 accordéons

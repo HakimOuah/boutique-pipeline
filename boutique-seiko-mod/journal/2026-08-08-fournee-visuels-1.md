@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-08
+nature: intervention
+leviers: [creative]
+titre: "Fournée visuels n°1 — première production réelle par le pont d'ordres"
+---
+
 # Fournée visuels n°1 — première production réelle par le pont d'ordres
 
 > **08/08/2026, 21 h 41 → 22 h 10.** Objectif : prouver la chaîne `Claude Code → ordre JSON → CLI Codex →

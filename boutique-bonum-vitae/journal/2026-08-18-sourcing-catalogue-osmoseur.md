@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: bonum-vitae
+date: 2026-08-18
+nature: intervention
+leviers: [sourcing, catalogue]
+titre: "18/08/2026 — Sourcing catalogue osmoseur (cohérence expert)"
+---
+
 # 18/08/2026 — Sourcing catalogue osmoseur (cohérence expert)
 
 > Consigne Hakim : lancer le sourcing pour compléter le catalogue, avoir une cohérence et

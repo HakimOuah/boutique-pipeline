@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-23
+nature: intervention
+leviers: [conformite, technique]
+titre: "Corrections GMC — misrepresentation, 23/08/2026"
+---
+
 # Corrections GMC — misrepresentation, 23/08/2026
 
 > **Contexte.** Compte GMC **5840460291** (OH Ventures / Maison Noirmont) : produits validés puis

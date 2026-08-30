@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-14
+nature: analyse
+leviers: [seo]
+titre: "Volumes consolidés par famille — la demande réelle, pas la tête de famille"
+---
+
 # Volumes consolidés par famille — la demande réelle, pas la tête de famille
 
 > **14/08/2026, seconde passe.** SEMrush France · Ordinateur · USD. **25 requêtes Keyword Magic Tool

@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-14
+nature: intervention
+leviers: [autre]
+titre: "Compte rendu de la nuit du 13 au 14/08/2026"
+---
+
 # Compte rendu de la nuit du 13 au 14/08/2026
 
 Six chantiers menés, aucun ne demandait de génération d'images (quota épuisé jusqu'au 18/08).

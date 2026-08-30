@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-10
+nature: intervention
+leviers: [sourcing, creative]
+titre: "Remplacement des photos AliExpress — 10 août 2026"
+---
+
 # Remplacement des photos AliExpress — 10 août 2026
 
 ## Périmètre

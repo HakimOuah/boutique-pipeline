@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-15
+nature: intervention
+leviers: [page, technique]
+titre: "Corrections sur le thème de travail — rapport de publication"
+---
+
 # Corrections sur le thème de travail — rapport de publication
 
 > **15/08/2026, après-midi.** Boutique **Maison Noirmont**. Toutes les écritures ont été faites sur le

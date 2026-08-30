@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-10
+nature: analyse
+leviers: [catalogue, creative]
+titre: "Audit des 66 médias de variantes bracelets — 10 août 2026"
+---
+
 # Audit des 66 médias de variantes bracelets — 10 août 2026
 
 ## Décision exécutable

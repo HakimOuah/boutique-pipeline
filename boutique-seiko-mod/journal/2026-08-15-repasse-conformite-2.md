@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-15
+nature: intervention
+leviers: [conformite]
+titre: "Repasse de conformité n°2 — site live, visiteur anonyme"
+---
+
 # Repasse de conformité n°2 — site live, visiteur anonyme
 
 > **15/08/2026, midi.** Deuxième passe complète sur `maisonnoirmont.fr` après la série de corrections

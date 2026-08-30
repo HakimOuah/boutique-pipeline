@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: intervention
+leviers: [page, technique]
+titre: "Correctifs UI/UX — assets — Maison Noirmont"
+---
+
 # Correctifs UI/UX — assets — Maison Noirmont
 
 Thème **`204248088914` « Maison Noirmont »**, rôle **UNPUBLISHED** au moment des écritures

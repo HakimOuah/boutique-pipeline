@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: analyse
+leviers: [seo]
+titre: "Mots-clés SEMrush — Maison Noirmont (`maisonnoirmont.fr`)"
+---
+
 # Mots-clés SEMrush — Maison Noirmont (`maisonnoirmont.fr`)
 
 > **27/07/2026** — recherche seule. Aucune campagne créée, aucun projet payant lancé, aucun budget engagé.

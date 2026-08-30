@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: tufting
+date: 2026-07-22
+nature: intervention
+leviers: [sourcing]
+titre: "Sourcing cadre de tufting — 22/07/2026"
+---
+
 # Sourcing cadre de tufting — 22/07/2026
 
 **Mission** : trouver une fiche AliExpress « cadre de tufting » livrable en France, coût rendu ≤ ~43 € (PV 69,90 €) ou ≤ ~58 € (PV 89,90 €).

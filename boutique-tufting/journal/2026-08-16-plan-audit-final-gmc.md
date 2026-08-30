@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: tufting
+date: 2026-08-16
+nature: analyse
+leviers: [conformite]
+titre: "Plan d'audit final avant soumission GMC — Tuftéo"
+---
+
 # Plan d'audit final avant soumission GMC — Tuftéo
 
 **16/08/2026.** Audit exhaustif demandé par Hakim avant publication du thème et soumission à Merchant

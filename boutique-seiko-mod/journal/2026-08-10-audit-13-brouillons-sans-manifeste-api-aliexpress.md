@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-10
+nature: analyse
+leviers: [sourcing, catalogue, technique]
+titre: "Audit des 13 brouillons sans manifeste — API AliExpress officielle"
+---
+
 # Audit des 13 brouillons sans manifeste — API AliExpress officielle
 
 Date du contrôle : 10 août 2026 (requêtes observées le 9 août 2026 entre 23:01 et 23:02 UTC).

@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-10
+nature: analyse
+leviers: [technique]
+titre: "Décision — cinq doutes techniques du §4.2"
+---
+
 # Décision — cinq doutes techniques du §4.2
 
 **Maison Noirmont — contrôle en lecture seule du 10/08/2026**

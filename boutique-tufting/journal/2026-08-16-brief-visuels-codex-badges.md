@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: tufting
+date: 2026-08-16
+nature: analyse
+leviers: [creative]
+titre: "Brief visuels Codex — retirer le badge « GARANTIE 2 ANS » (16/08/2026)"
+---
+
 # Brief visuels Codex — retirer le badge « GARANTIE 2 ANS » (16/08/2026)
 
 **Urgent, bloquant pour Google Merchant Center.** Les images principales des deux produits phares de

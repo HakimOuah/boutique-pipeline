@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-10
+nature: analyse
+leviers: [autre]
+titre: "Audit ciblé — 16 médias Bracelet cuir daim avec cartouche `GIFT`"
+---
+
 # Audit ciblé — 16 médias Bracelet cuir daim avec cartouche `GIFT`
 
 **Date :** 10 août 2026

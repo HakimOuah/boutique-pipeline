@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-15
+nature: analyse
+leviers: [conformite]
+titre: "Audit de conformité — site LIVE, en visiteur anonyme"
+---
+
 # Audit de conformité — site LIVE, en visiteur anonyme
 
 > **15/08/2026.** Premier audit de `maisonnoirmont.fr` **sans mot de passe**. Vérifié en visiteur

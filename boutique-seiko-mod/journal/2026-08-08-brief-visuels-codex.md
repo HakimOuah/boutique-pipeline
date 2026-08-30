@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-08
+nature: analyse
+leviers: [creative]
+titre: "Brief de production visuelle — Maison Noirmont"
+---
+
 # Brief de production visuelle — Maison Noirmont
 
 > **08/08/2026.** Destinataire : **Codex**. Boutique `v42pzp-h4.myshopify.com` / `maisonnoirmont.fr`.

@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-14
+nature: analyse
+leviers: [concurrence]
+titre: "`maisondutemps.com` — étude complète du concurrent modèle — T-42"
+---
+
 # `maisondutemps.com` — étude complète du concurrent modèle — T-42
 
 > **14/08/2026.** Approfondissement du §3.1 de [`2026-08-14-concurrents-fr.md`](2026-08-14-concurrents-fr.md),

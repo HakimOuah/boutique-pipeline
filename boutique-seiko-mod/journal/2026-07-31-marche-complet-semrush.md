@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: intervention
+leviers: [seo, concurrence]
+titre: "Marché complet — SEMrush France — Maison Noirmont (`maisonnoirmont.fr`)"
+---
+
 # Marché complet — SEMrush France — Maison Noirmont (`maisonnoirmont.fr`)
 
 > **27/07/2026.** Recherche et lecture seulement. **Aucune campagne créée, aucun projet payant lancé,

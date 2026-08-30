@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-25
+nature: intervention
+leviers: [creative]
+titre: "Reprise des visuels — résultat local"
+---
+
 # Reprise des visuels — résultat local
 
 Date : 25 juillet 2026

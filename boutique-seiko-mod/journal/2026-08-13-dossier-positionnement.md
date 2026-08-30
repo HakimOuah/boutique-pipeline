@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-13
+nature: analyse
+leviers: [page]
+titre: "Dossier de positionnement : montres finies ou pièces détachées — T-26"
+---
+
 # Dossier de positionnement : montres finies ou pièces détachées — T-26
 
 > **13/08/2026.** Instruction du pilier « montres finies » ouvert par T-21. Catalogue lu par le

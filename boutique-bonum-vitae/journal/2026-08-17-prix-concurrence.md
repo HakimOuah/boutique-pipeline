@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: bonum-vitae
+date: 2026-08-17
+nature: intervention
+leviers: [prix, ads, concurrence]
+titre: "17/08/2026 — Sonde prix concurrents + arguments (avant campagnes)"
+---
+
 # 17/08/2026 — Sonde prix concurrents + arguments (avant campagnes)
 
 > Demande Hakim : vérifier le positionnement prix avant de lancer des campagnes, relever les

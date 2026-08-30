@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: bonum-vitae
+date: 2026-08-18
+nature: intervention
+leviers: [page]
+titre: "18/08/2026 — USP du gabarit produit (argumentaire site)"
+---
+
 # 18/08/2026 — USP du gabarit produit (argumentaire site)
 
 Hakim : remplacer les paragraphes des 4 blocs image/texte du template produit par des

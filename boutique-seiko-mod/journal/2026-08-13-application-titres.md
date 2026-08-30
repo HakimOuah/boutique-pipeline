@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-13
+nature: intervention
+leviers: [catalogue, seo]
+titre: "Application des titres et meta titles du catalogue de pièces — T-25"
+---
+
 # Application des titres et meta titles du catalogue de pièces — T-25
 
 **13/08/2026.** Boutique **Maison Noirmont**, sous mot de passe. Trois champs écrits sur Shopify —

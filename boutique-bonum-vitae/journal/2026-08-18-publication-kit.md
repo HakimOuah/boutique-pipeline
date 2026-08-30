@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: bonum-vitae
+date: 2026-08-18
+nature: intervention
+leviers: [catalogue]
+titre: "18/08/2026 — Publication du kit entretien 600 GPD"
+---
+
 # 18/08/2026 — Publication du kit entretien 600 GPD
 
 Hakim : « Si le copy est prêt en français tu peux publier. »

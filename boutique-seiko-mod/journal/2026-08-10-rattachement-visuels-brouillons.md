@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-10
+nature: intervention
+leviers: [catalogue, creative]
+titre: "Rattachement des visuels de cadrans en brouillon — 10/08/2026"
+---
+
 # Rattachement des visuels de cadrans en brouillon — 10/08/2026
 
 ## Résultat

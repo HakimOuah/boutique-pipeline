@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-10
+nature: intervention
+leviers: [sourcing, technique]
+titre: "Re-sourcing cadrans arabes orientaux — agent API — 10/08/2026"
+---
+
 # Re-sourcing cadrans arabes orientaux — agent API — 10/08/2026
 
 ## Verdict

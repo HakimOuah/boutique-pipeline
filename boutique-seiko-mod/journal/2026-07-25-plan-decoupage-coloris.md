@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-25
+nature: analyse
+leviers: [catalogue]
+titre: "Plan de découpage des coloris — une fiche par modèle (25/07/2026)"
+---
+
 # Plan de découpage des coloris — une fiche par modèle (25/07/2026)
 
 Décisions Hakim du 25/07 : **ampleur maximale** (tous les coloris exploitables), **naming communautaire**, **remapping DSers fait par l'agent** depuis le navigateur. Contexte et chiffres : `2026-07-25-catalogue-v2-analyse-concurrents.md`.

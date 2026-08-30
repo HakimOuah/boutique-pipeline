@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-25
+nature: intervention
+leviers: [catalogue, creative]
+titre: "Modèles d'image & production des coloris — 25/07/2026"
+---
+
 # Modèles d'image & production des coloris — 25/07/2026
 
 > Complément au `2026-07-24-runbook-pdp-variantes-images.md`, devenu non inscriptible en fin de session (lecture OK, écriture refusée au niveau système alors que le dossier reste inscriptible — à débloquer côté macOS, aucune donnée perdue).

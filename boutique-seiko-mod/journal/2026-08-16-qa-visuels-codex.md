@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-16
+nature: intervention
+leviers: [catalogue, creative]
+titre: "QA visuelle — 108 visuels Codex, 20 fiches Maison Noirmont (16/08/2026)"
+---
+
 # QA visuelle — 108 visuels Codex, 20 fiches Maison Noirmont (16/08/2026)
 
 Contrôle image par image de `livraisons/visuels-codex-2026-08/` pour les 20 fiches

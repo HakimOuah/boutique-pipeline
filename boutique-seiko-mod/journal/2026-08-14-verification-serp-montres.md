@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-14
+nature: analyse
+leviers: [seo]
+titre: "Vérification SERP France — les montres finies, dernier bloc déclaratif du dossier"
+---
+
 # Vérification SERP France — les montres finies, dernier bloc déclaratif du dossier
 
 > **14/08/2026, sixième passe (T-47).** **16 SERP Google France ouvertes** (`google.fr`, `hl=fr`,

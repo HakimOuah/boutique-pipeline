@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-10
+nature: intervention
+leviers: [creative, technique, ads]
+titre: "Réconciliation de la campagne « 319 visuels » — 10/08/2026"
+---
+
 # Réconciliation de la campagne « 319 visuels » — 10/08/2026
 
 Contrôle local, en lecture seule. Aucun accès à Shopify ou DSers n'a été effectué. Le périmètre

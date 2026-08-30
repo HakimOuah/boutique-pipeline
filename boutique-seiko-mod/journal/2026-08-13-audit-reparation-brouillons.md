@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-13
+nature: analyse
+leviers: [catalogue, creative, technique]
+titre: "13/08/2026 — Audit des galeries des 95 brouillons après la session du 12/08 (T-16)"
+---
+
 # 13/08/2026 — Audit des galeries des 95 brouillons après la session du 12/08 (T-16)
 
 Boutique **Maison Noirmont**, sous mot de passe. **Aucune mutation Shopify n'a été exécutée** :

@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-09
+nature: intervention
+leviers: [creative]
+titre: "Rattachement des visuels Codex — Maison Noirmont — 09/08/2026"
+---
+
 # Rattachement des visuels Codex — Maison Noirmont — 09/08/2026
 
 Contrôle QA puis rattachement Shopify des visuels livrés par Codex dans

@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: analyse
+leviers: [page]
+titre: "Spécification — configurateur goteia.fr, décorticage et transposition NOIRMONT"
+---
+
 # Spécification — configurateur goteia.fr, décorticage et transposition NOIRMONT
 
 Relevé du **27/07/2026**, navigateur intégré (Chrome laissé libre). **Étude en lecture seule** : aucun

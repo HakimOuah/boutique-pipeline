@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-25
+nature: intervention
+leviers: [page]
+titre: "Objections & positionnement — NOIRMONT (25/07/2026)"
+---
+
 # Objections & positionnement — NOIRMONT (25/07/2026)
 
 Compagnon du [persona NOIRMONT](../personas/persona-noirmont-2026-07-25.md). Verbatims relevés le 25/07/2026. `[O]` = observé/sourcé · `[D]` = mon interprétation. ⚠️ Reddit inaccessible en direct (blocage réseau sur tous les outils) — signaux Reddit de seconde main, marqués.

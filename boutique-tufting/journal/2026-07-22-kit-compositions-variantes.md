@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: tufting
+date: 2026-07-22
+nature: intervention
+leviers: [sourcing, catalogue, offre]
+titre: "Compositions des variantes kit — fiche AliExpress Urban Corners"
+---
+
 # Compositions des variantes kit — fiche AliExpress Urban Corners
 
 **Fiche** : https://fr.aliexpress.com/item/1005009254054515.html

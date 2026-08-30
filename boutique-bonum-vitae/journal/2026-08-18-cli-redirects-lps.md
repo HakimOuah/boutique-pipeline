@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: bonum-vitae
+date: 2026-08-18
+nature: intervention
+leviers: [seo, page, technique]
+titre: "18/08/2026 — CLI : 301, LPS, hors Google"
+---
+
 # 18/08/2026 — CLI : 301, LPS, hors Google
 
 Hakim : tout faire via CLI, accepter la demande de scopes si besoin.

@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-14
+nature: analyse
+leviers: [concurrence]
+titre: "Concurrents français sur les têtes de la boutique — T-41"
+---
+
 # Concurrents français sur les têtes de la boutique — T-41
 
 > **14/08/2026.** L'angle mort signalé par les trois passes précédentes (T-21, T-26, T-39) est instruit.

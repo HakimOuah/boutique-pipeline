@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-10
+nature: analyse
+leviers: [creative]
+titre: "Audit des 130 médias P4 restants — 10 août 2026"
+---
+
 # Audit des 130 médias P4 restants — 10 août 2026
 
 ## Décision exécutable

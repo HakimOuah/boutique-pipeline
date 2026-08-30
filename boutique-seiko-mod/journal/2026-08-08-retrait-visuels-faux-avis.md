@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-08
+nature: intervention
+leviers: [creative, conformite]
+titre: "Retrait des visuels de faux avis — Maison Noirmont"
+---
+
 # Retrait des visuels de faux avis — Maison Noirmont
 
 > **08/08/2026.** Exécution de la décision de Hakim : « dépublie les photos contenant des avis ».

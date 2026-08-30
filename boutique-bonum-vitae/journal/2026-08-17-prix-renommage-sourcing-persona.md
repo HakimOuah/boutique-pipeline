@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: bonum-vitae
+date: 2026-08-17
+nature: intervention
+leviers: [prix, sourcing, catalogue, seo]
+titre: "17/08/2026 (soir) — Décisions Hakim appliquées : prix, renommage, sourcing, persona"
+---
+
 # 17/08/2026 (soir) — Décisions Hakim appliquées : prix, renommage, sourcing, persona
 
 > Trois consignes de Hakim : baisser le prix de l'OSWNKW et retirer les noms fournisseur AliExpress

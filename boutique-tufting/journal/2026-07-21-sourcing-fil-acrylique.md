@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: tufting
+date: 2026-07-21
+nature: intervention
+leviers: [sourcing]
+titre: "Sourcing fil acrylique en cône — Tuftéo — 21/07/2026"
+---
+
 # Sourcing fil acrylique en cône — Tuftéo — 21/07/2026
 
 **Mission** : trouver des fiches AliExpress livrant le cône ~400 g / 8 ply ≤ 6,50 € rendu France (référence actuelle : item 1005006802805448, coût rendu noté 9,29 € les 19-21/07).

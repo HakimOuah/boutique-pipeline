@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: tufting
+date: 2026-08-16
+nature: analyse
+leviers: [conformite, technique]
+titre: "Audit final GMC — Agent C — Technique et rendu réel"
+---
+
 # Audit final GMC — Agent C — Technique et rendu réel
 
 **16/08/2026.** Périmètre : thème brouillon `gid://shopify/OnlineStoreTheme/189410738561` de Tuftéo

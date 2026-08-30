@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-10
+nature: analyse
+leviers: [sourcing, creative, technique]
+titre: "Audit des 9 visuels de galerie actifs restants — API AliExpress"
+---
+
 # Audit des 9 visuels de galerie actifs restants — API AliExpress
 
 Date de contrôle : 10 août 2026 (requêtes API observées le 9 août 2026 entre 22:41 et 22:46 UTC)

@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: analyse
+leviers: [conformite]
+titre: "Audit de véracité — Maison Noirmont"
+---
+
 # Audit de véracité — Maison Noirmont
 
 > **26/07/2026** — balayage complet de la boutique `v42pzp-h4` / maisonnoirmont.fr.

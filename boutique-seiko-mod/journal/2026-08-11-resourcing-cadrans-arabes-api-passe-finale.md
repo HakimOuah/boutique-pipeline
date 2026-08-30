@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-11
+nature: intervention
+leviers: [sourcing, technique]
+titre: "Re-sourcing cadrans arabes orientaux — passe finale ciblée — 11/08/2026"
+---
+
 # Re-sourcing cadrans arabes orientaux — passe finale ciblée — 11/08/2026
 
 ## Verdict

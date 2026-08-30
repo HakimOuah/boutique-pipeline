@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-08
+nature: intervention
+leviers: [autre]
+titre: "REPRISE — état de la boutique NOIRMONT au 27/07/2026"
+---
+
 # REPRISE — état de la boutique NOIRMONT au 27/07/2026
 
 > Document de reprise. À lire en premier si tu ouvres une nouvelle session sur ce projet.

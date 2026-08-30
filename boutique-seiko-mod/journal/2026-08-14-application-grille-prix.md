@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-14
+nature: intervention
+leviers: [prix]
+titre: "14/08/2026 — Application de la grille de prix sur Shopify (T-H3)"
+---
+
 # 14/08/2026 — Application de la grille de prix sur Shopify (T-H3)
 
 **Périmètre : les 96 fiches actives de Maison Noirmont.** Source unique : [`GRILLE-PRIX.md`](../GRILLE-PRIX.md),

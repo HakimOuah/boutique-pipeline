@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-13
+nature: intervention
+leviers: [conformite, page]
+titre: "Conformité et textes — 13/08/2026"
+---
+
 # Conformité et textes — 13/08/2026
 
 Session sans génération d'image (quota de l'exécutant épuisé jusqu'au 18/08).

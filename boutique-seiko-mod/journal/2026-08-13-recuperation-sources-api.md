@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-13
+nature: intervention
+leviers: [sourcing, technique]
+titre: "13/08/2026 — Reconstitution des sources fournisseur détruites le 12/08 (T-23)"
+---
+
 # 13/08/2026 — Reconstitution des sources fournisseur détruites le 12/08 (T-23)
 
 Boutique **Maison Noirmont**. **Aucune écriture Shopify**, aucune commande, aucun achat, aucun

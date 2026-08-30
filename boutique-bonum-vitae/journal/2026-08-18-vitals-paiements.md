@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: bonum-vitae
+date: 2026-08-18
+nature: intervention
+leviers: [vitesse]
+titre: "18/08/2026 midi — Vitals off, icônes = checkout"
+---
+
 # 18/08/2026 midi — Vitals off, icônes = checkout
 
 Hakim : tout faire via CLI ; il acceptera une demande de scopes si besoin.

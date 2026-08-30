@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-25
+nature: intervention
+leviers: [autre]
+titre: "Journal de la passe de nuit — 25/07/2026"
+---
+
 # Journal de la passe de nuit — 25/07/2026
 
 > Hakim est parti se coucher vers 3 h avec consigne d'autonomie complète. Ce fichier est le compte rendu à lire au réveil. Le runbook principal reste non inscriptible (droits système), d'où ce journal séparé.

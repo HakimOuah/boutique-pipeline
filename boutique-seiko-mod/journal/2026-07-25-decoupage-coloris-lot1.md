@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-25
+nature: intervention
+leviers: [catalogue]
+titre: "Découpage par coloris — Lot 1 (19 fiches) — 2026-07-25"
+---
+
 # Découpage par coloris — Lot 1 (19 fiches) — 2026-07-25
 
 Boutique **NOIRMONT** / Maison Noirmont (`v42pzp-h4`, maisonnoirmont.fr)

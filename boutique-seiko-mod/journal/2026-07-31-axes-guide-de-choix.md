@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: intervention
+leviers: [catalogue, page]
+titre: "Axes du guide de choix NOIRMONT — combien de questions le catalogue supporte"
+---
+
 # Axes du guide de choix NOIRMONT — combien de questions le catalogue supporte
 
 > **27/07/2026** — étude de données en **lecture seule** sur `maisonnoirmont.fr` (Maison Noirmont, plan Basic).

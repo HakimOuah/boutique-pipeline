@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-09
+nature: intervention
+leviers: [catalogue, page]
+titre: "Textes et collections — nuit du 08 au 09/08/2026 (Maison Noirmont)"
+---
+
 # Textes et collections — nuit du 08 au 09/08/2026 (Maison Noirmont)
 
 **Résultat : 10 collections créées (9 nouvelles + 1 hub) et 1 collection existante complétée ; les 94 fiches importées la nuit dernière sont habillées en français — titre SEO, handle, description structurée, meta title et meta description. Tout reste en DRAFT, aucun prix n'a été écrit sur Shopify.**

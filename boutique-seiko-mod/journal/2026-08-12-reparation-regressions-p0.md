@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-12
+nature: intervention
+leviers: [technique]
+titre: "12/08/2026 — Réparation des régressions P0 (T-01, T-02, T-03)"
+---
+
 # 12/08/2026 — Réparation des régressions P0 (T-01, T-02, T-03)
 
 Boutique **Maison Noirmont**, sous mot de passe. Aucun brouillon activé, aucune collection publiée,

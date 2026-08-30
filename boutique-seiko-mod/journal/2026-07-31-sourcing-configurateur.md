@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: intervention
+leviers: [sourcing, page]
+titre: "Sourcing configurateur NOIRMONT — pièces, compatibilités, combinaisons ouvrables"
+---
+
 # Sourcing configurateur NOIRMONT — pièces, compatibilités, combinaisons ouvrables
 
 Relevés du **27/07/2026** (AliExpress FR/EUR via navigateur intégré, sans session — aucun CAPTCHA rencontré ;

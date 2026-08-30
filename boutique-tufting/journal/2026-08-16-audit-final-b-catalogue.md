@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: tufting
+date: 2026-08-16
+nature: analyse
+leviers: [catalogue, creative, conformite]
+titre: "Audit final GMC — Agent B : catalogue, données produit et images"
+---
+
 # Audit final GMC — Agent B : catalogue, données produit et images
 
 **16/08/2026.** Agent B de l'audit final Tuftéo avant soumission Merchant Center. Périmètre : API Shopify

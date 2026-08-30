@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-09
+nature: intervention
+leviers: [catalogue, creative]
+titre: "Fournée visuels — les 94 fiches importées dans la nuit du 08 au 09/08"
+---
+
 # Fournée visuels — les 94 fiches importées dans la nuit du 08 au 09/08
 
 > **09/08/2026, à partir de 03 h 00.** Habillage maison des fiches poussées par DSers

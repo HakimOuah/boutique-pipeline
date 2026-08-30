@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: intervention
+leviers: [catalogue]
+titre: "Fiches contradictoires et ouverture du cadran arabe — Maison Noirmont"
+---
+
 # Fiches contradictoires et ouverture du cadran arabe — Maison Noirmont
 
 > **27/07/2026** — boutique `v42pzp-h4` / maisonnoirmont.fr.

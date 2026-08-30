@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: analyse
+leviers: [page]
+titre: "Audit UI/UX — Panier (page + tiroir) — Maison Noirmont"
+---
+
 # Audit UI/UX — Panier (page + tiroir) — Maison Noirmont
 
 Boutique `v42pzp-h4` / maisonnoirmont.fr — thème `204248088914` « Maison Noirmont » (MAIN).

@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-17
+nature: analyse
+leviers: [prix, seo, offre]
+titre: "SERP / marché — coffret aluminium 24 emplacements"
+---
+
 # SERP / marché — coffret aluminium 24 emplacements
 
 > **17/08/2026.** Ticket T-60. Aucune écriture Shopify. Aucun achat.

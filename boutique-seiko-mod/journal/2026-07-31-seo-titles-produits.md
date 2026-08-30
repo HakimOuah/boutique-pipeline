@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: intervention
+leviers: [catalogue, seo]
+titre: "`seo.title` des fiches montres — Maison Noirmont (`v42pzp-h4`)"
+---
+
 # `seo.title` des fiches montres — Maison Noirmont (`v42pzp-h4`)
 
 > **Exécution du 30/07/2026**, application de [`2026-07-31-plan-nommage-seo.md`](2026-07-31-plan-nommage-seo.md) §3.1

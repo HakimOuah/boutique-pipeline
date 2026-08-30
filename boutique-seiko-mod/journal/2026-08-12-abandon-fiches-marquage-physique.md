@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-12
+nature: intervention
+leviers: [catalogue, conformite]
+titre: "T-H5 — Sort des 5 fiches arabes bloquées pour marque au cadran — 12/08/2026"
+---
+
 # T-H5 — Sort des 5 fiches arabes bloquées pour marque au cadran — 12/08/2026
 
 ## Verdict en une phrase

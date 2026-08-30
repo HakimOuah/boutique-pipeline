@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: tufting
+date: 2026-08-16
+nature: analyse
+leviers: [sourcing, creative]
+titre: "Brief visuels — Tuftéo, machines (nouveaux fournisseurs), 16/08/2026"
+---
+
 # Brief visuels — Tuftéo, machines (nouveaux fournisseurs), 16/08/2026
 
 Production de **2 séries de visuels produit** (6 images chacune, comme le reste du catalogue),

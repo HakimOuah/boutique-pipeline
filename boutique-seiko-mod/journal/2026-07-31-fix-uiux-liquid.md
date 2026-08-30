@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: intervention
+leviers: [page, technique]
+titre: "Correctifs Liquid — thème `204248088914` « Maison Noirmont » (`v42pzp-h4`)"
+---
+
 # Correctifs Liquid — thème `204248088914` « Maison Noirmont » (`v42pzp-h4`)
 
 État : **10 fichiers `.liquid` écrits et vérifiés par empreinte.** Aucun `.json`, aucun `assets/`.

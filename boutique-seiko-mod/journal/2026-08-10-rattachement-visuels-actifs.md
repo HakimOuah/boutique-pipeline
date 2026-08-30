@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-10
+nature: intervention
+leviers: [creative]
+titre: "Rattachement des visuels actifs — 10/08/2026"
+---
+
 # Rattachement des visuels actifs — 10/08/2026
 
 ## Périmètre et méthode

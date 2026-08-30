@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-08
+nature: analyse
+leviers: [conformite]
+titre: "Audit GMC final — Maison Noirmont"
+---
+
 # Audit GMC final — Maison Noirmont
 
 > **08/08/2026, passe finale avant ouverture d'un compte CSS / Merchant Center.** Audit **en lecture seule** : rien n'a été

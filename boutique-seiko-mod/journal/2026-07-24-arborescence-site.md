@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-24
+nature: intervention
+leviers: [page]
+titre: "Arborescence boutique Seiko mod — v1 du 24/07/2026"
+---
+
 # Arborescence boutique Seiko mod — v1 du 24/07/2026
 
 Construite sur les rapports [phase 4](../reports/phase4-sourcing-seiko-mod-2026-07-24.md), [4b](../reports/phase4b-configurateur-seiko-mod-2026-07-24.md), [4c](../reports/phase4c-replication-seikojust-2026-07-24.md). Prix relevés le 24/07/2026 — à reconfirmer au panier avant tout build. Aucun GO fournisseur : les fiches listées sont des candidates (statuts du registre). ⚠️ = point stérilité/logo à trancher par Hakim (tri manuel).

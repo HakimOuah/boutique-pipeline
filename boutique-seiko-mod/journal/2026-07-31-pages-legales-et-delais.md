@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: intervention
+leviers: [conformite]
+titre: "Pages légales + dates de livraison — Maison Noirmont"
+---
+
 # Pages légales + dates de livraison — Maison Noirmont
 
 Date : 2026-07-26 · Boutique : `v42pzp-h4` / maisonnoirmont.fr

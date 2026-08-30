@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-24
+nature: analyse
+leviers: [concurrence]
+titre: "Analyse concurrent — montreapapy.fr (24/07/2026)"
+---
+
 # Analyse concurrent — montreapapy.fr (24/07/2026)
 
 Décision Hakim 24/07 : GO instruction du cas limite Seiko mod (registre : À APPROFONDIR, vol. ≈17,6-20 k/mois) pour boutique Q4. Concurrent de référence : montreapapy.fr (thème Shopify Fullstack, comme Tuftéo).

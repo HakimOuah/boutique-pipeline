@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: intervention
+leviers: [sourcing, catalogue]
+titre: "DSers — mapping des 41 fiches du lot 2 (découpage / élagage)"
+---
+
 # DSers — mapping des 41 fiches du lot 2 (découpage / élagage)
 Boutique NOIRMONT (Shopify `v42pzp-h4`, Maison Noirmont) — 25-26/07/2026
 Compte DSers : `contact.noirmont`

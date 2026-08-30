@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-15
+nature: intervention
+leviers: [prix]
+titre: "15/08/2026 — Purge des 2 074 prix barrés dormants (T-50)"
+---
+
 # 15/08/2026 — Purge des 2 074 prix barrés dormants (T-50)
 
 **Périmètre : les 105 fiches non actives de Maison Noirmont** — 95 brouillons et 10 archivées.

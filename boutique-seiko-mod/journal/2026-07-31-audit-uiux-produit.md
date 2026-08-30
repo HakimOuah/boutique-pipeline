@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: analyse
+leviers: [page]
+titre: "Audit UI/UX — page produit Maison Noirmont"
+---
+
 # Audit UI/UX — page produit Maison Noirmont
 
 Boutique `v42pzp-h4` (domaine réel `maisonnoirmont.fr`) · thème `204248088914` **MAIN** · audit **lecture seule**, aucune écriture thème, aucune mutation.

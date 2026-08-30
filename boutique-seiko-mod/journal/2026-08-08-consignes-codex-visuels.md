@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-08
+nature: analyse
+leviers: [creative]
+titre: "Production des visuels — boutique Maison Noirmont"
+---
+
 # Production des visuels — boutique Maison Noirmont
 
 **Document de mission complet. Tout ce dont tu as besoin est ici.** Tu n'as pas besoin d'ouvrir d'autre

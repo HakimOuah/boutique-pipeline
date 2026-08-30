@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-10
+nature: intervention
+leviers: [autre]
+titre: "Exécution des 7 étapes — Maison Noirmont — 10/08/2026"
+---
+
 # Exécution des 7 étapes — Maison Noirmont — 10/08/2026
 
 ## Cadre

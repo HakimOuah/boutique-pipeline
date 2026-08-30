@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: intervention
+leviers: [page]
+titre: "Pied de page Maison Noirmont — refait sur le modèle Tuftéo"
+---
+
 # Pied de page Maison Noirmont — refait sur le modèle Tuftéo
 
 Date : 2026-07-27 · Boutique : `v42pzp-h4` / maisonnoirmont.fr

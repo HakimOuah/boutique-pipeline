@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-08
+nature: analyse
+leviers: [autre]
+titre: "NOIRMONT — application des 6 décisions de Hakim (08/08/2026)"
+---
+
 # NOIRMONT — application des 6 décisions de Hakim (08/08/2026)
 
 Décisions prises par Hakim en session, appliquées le soir même. Sauvegardes dans `boutique-seiko-mod/backups/backup-prix-barres-2026-08-08/` et `boutique-seiko-mod/backups/backup-avis-2026-08-08/`.

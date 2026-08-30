@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: intervention
+leviers: [creative]
+titre: "Branchement des galeries Codex — NOIRMONT — nuit du 26/07/2026"
+---
+
 # Branchement des galeries Codex — NOIRMONT — nuit du 26/07/2026
 
 Boutique **Maison Noirmont** (`v42pzp-h4.myshopify.com`, maisonnoirmont.fr) — identité vérifiée par `get-shop-info` avant la première écriture.

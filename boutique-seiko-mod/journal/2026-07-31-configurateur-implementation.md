@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: intervention
+leviers: [page]
+titre: "Configurateur « Votre Noirmont en trois étapes » — implémentation"
+---
+
 # Configurateur « Votre Noirmont en trois étapes » — implémentation
 
 > **27/07/2026.** Écrit sur le thème **`204248088914` « Maison Noirmont » — `UNPUBLISHED`**, rôle

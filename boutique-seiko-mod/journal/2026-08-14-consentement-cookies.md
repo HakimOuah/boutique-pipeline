@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-14
+nature: intervention
+leviers: [conformite]
+titre: "Consentement cookies — T-33"
+---
+
 # Consentement cookies — T-33
 
 > **14/08/2026.** Ticket **T-33** : mettre en place le consentement cookies, dernier bloquant technique

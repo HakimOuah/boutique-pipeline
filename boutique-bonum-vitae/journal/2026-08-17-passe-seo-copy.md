@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: bonum-vitae
+date: 2026-08-17
+nature: intervention
+leviers: [seo, page]
+titre: "17/08/2026 (nuit) — Passe copy IA + SEO Shopping"
+---
+
 # 17/08/2026 (nuit) — Passe copy IA + SEO Shopping
 
 Consigne Hakim : retirer les patterns IA, optimiser le SEO des fiches, surtout Shopping.

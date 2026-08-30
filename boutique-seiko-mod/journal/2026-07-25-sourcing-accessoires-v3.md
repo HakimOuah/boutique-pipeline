@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-25
+nature: intervention
+leviers: [sourcing]
+titre: "Sourcing accessoires NOIRMONT — passe v3 (6 dernières lignes)"
+---
+
 # Sourcing accessoires NOIRMONT — passe v3 (6 dernières lignes)
 
 Date : 2026-07-25 · Boutique : montres Seiko mod premium FR (289–429 €)

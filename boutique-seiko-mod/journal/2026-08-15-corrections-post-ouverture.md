@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-15
+nature: intervention
+leviers: [technique]
+titre: "Corrections post-ouverture — doublon de mentions légales soldé, 8 défauts préparés"
+---
+
 # Corrections post-ouverture — doublon de mentions légales soldé, 8 défauts préparés
 
 > **15/08/2026**, suite directe de `journal/2026-08-15-audit-conformite-site-live.md`.

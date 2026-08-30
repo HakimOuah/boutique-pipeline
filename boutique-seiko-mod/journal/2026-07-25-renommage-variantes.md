@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-25
+nature: intervention
+leviers: [catalogue, seo]
+titre: "Renommage des variantes opaques — NOIRMONT"
+---
+
 # Renommage des variantes opaques — NOIRMONT
 Boutique Maison Noirmont (Shopify `v42pzp-h4`) — 25/07/2026
 Compte DSers : `contact.noirmont`

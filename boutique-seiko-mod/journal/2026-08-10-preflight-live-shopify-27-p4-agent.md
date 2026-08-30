@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-10
+nature: intervention
+leviers: [technique]
+titre: "Préflight Shopify live — 27 médias P4 qualifiés"
+---
+
 # Préflight Shopify live — 27 médias P4 qualifiés
 
 **Date du relevé live :** 10 août 2026 à 03:03 (Europe/Paris)

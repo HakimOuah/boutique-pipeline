@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: bonum-vitae
+date: 2026-08-17
+nature: intervention
+leviers: [conformite]
+titre: "17/08/2026 — Ouverture chantier Bonum Vitae + crible live"
+---
+
 # 17/08/2026 — Ouverture chantier Bonum Vitae + crible live
 
 **Agent :** Grok (Cursor). **Store visé :** `kw7vak-g0.myshopify.com` = Bonum Vitae.

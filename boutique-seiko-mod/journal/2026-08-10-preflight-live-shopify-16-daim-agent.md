@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-10
+nature: intervention
+leviers: [catalogue, technique]
+titre: "Mapping opérationnel live — 16 médias Bracelet cuir daim"
+---
+
 # Mapping opérationnel live — 16 médias Bracelet cuir daim
 
 **Relevé Shopify live :** 2026-08-10T01:46:02.898Z — lecture seule — fuseau projet Europe/Paris

@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-10
+nature: analyse
+leviers: [technique]
+titre: "Audit P3 Bronze — source complète `black C-sterile` — API officielle — 10/08/2026"
+---
+
 # Audit P3 Bronze — source complète `black C-sterile` — API officielle — 10/08/2026
 
 ## Verdict

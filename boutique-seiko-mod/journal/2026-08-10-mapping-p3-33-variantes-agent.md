@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-10
+nature: intervention
+leviers: [catalogue]
+titre: "Mapping P3 — 33 médias de variantes de montres actives — 10/08/2026"
+---
+
 # Mapping P3 — 33 médias de variantes de montres actives — 10/08/2026
 
 Sous-tâche de reconstruction en lecture seule. Les données fournisseur ci-dessous proviennent

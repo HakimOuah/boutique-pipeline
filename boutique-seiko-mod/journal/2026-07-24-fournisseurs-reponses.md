@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-24
+nature: intervention
+leviers: [sourcing]
+titre: "Réponses fournisseurs — messages envoyés par Hakim le 24/07/2026"
+---
+
 # Réponses fournisseurs — messages envoyés par Hakim le 24/07/2026
 
 ## BL Watches Parts Store (reçue le 24-25/07) ✅

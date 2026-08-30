@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-15
+nature: intervention
+leviers: [sourcing, catalogue, technique]
+titre: "15/08/2026 — Sourcing de repeuplement des collections sous-peuplées (API AliExpress)"
+---
+
 # 15/08/2026 — Sourcing de repeuplement des collections sous-peuplées (API AliExpress)
 
 > **Boutique Maison Noirmont, publique.** Objet : sourcer par l'**API AliExpress uniquement** les produits

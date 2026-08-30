@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-13
+nature: analyse
+leviers: [seo]
+titre: "Recherche de mots-clés par collection et par produit — T-21"
+---
+
 # Recherche de mots-clés par collection et par produit — T-21
 
 > **13/08/2026.** SEMrush France, compte payant actif. **300 mots-clés mesurés** en 3 lots de 100

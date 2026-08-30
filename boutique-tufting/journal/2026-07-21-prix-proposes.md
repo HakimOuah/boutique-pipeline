@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: tufting
+date: 2026-07-21
+nature: intervention
+leviers: [prix]
+titre: "Prix de vente proposés — Tuftéo"
+---
+
 # Prix de vente proposés — Tuftéo
 
 > ⚠️ **SUPERSÉDÉ EN PARTIE (21/07 soir)** : recalage concurrentiel complet vs letufting.fr live appliqué après ce tableau — les prix en vigueur sont ceux de `shopify/prix-recalage-concurrence-2026-07-21.md` (gun 149 €, ciseaux électriques 299 €, accessoires alignés juste sous letufting, 6 produits à re-sourcer car coût ≥ prix concurrent).

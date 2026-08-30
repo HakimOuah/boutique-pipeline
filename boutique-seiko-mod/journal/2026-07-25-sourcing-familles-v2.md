@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-25
+nature: intervention
+leviers: [sourcing, catalogue]
+titre: "Sourcing familles manquantes — NOIRMONT — 25/07/2026"
+---
+
 # Sourcing familles manquantes — NOIRMONT — 25/07/2026
 
 > **Statut : PASSE PARTIELLE.** 2 familles tranchées avec certitude (OAK, SKY), 1 famille avec un candidat retenu vérifié (SKX), 1 avec un candidat retenu hors-format (carré), 2 non conclues (SEA, OPEN HEART).

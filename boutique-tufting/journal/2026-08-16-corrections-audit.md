@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: tufting
+date: 2026-08-16
+nature: analyse
+leviers: [conformite, technique]
+titre: "Corrections post-audit final GMC — Tuftéo — 16/08/2026"
+---
+
 # Corrections post-audit final GMC — Tuftéo — 16/08/2026
 
 **Boutique** : Tuftéo (tufteo.com). **Exécutant** : agent executant-boutique (API Shopify Admin GraphQL via connecteur MCP + `curl`, pas de navigateur). **Source** : `AUDIT-FINAL-A-contenu.md`, `AUDIT-FINAL-B-catalogue.md`, trois corrections décidées par Hakim (voir consigne de tâche) + un complément transmis en cours de session (TVA confirmée).

@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: tufting
+date: 2026-07-21
+nature: analyse
+leviers: [creative]
+titre: "PROMPT CODEX — Génération en bulk des images produit Tuftéo"
+---
+
 # PROMPT CODEX — Génération en bulk des images produit Tuftéo
 
 Tu es chargé de générer les carrousels d'images produit de la boutique Shopify **Tuftéo** (tufteo.com, boutique française de kits de tufting). 23 produits sont déjà créés dans Shopify avec leurs photos fournisseur AliExpress importées — ces photos sont ta **référence de fidélité produit**. Tu génères des images e-commerce professionnelles qui remplaceront ces photos fournisseur.

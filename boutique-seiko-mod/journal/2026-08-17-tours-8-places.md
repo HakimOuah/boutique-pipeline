@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-17
+nature: intervention
+leviers: [catalogue]
+titre: "T-64 — tours à 8 montres hors catalogue"
+---
+
 # T-64 — tours à 8 montres hors catalogue
 
 > **17/08/2026 ~12h45.** Boutique Maison Noirmont (`v42pzp-h4`). Hakim : les fiches

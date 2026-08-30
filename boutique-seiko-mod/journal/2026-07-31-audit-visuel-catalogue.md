@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: analyse
+leviers: [catalogue, creative]
+titre: "Audit visuel du catalogue — Maison Noirmont"
+---
+
 # Audit visuel du catalogue — Maison Noirmont
 
 Date : 26 juillet 2026 · Boutique `v42pzp-h4` / maisonnoirmont.fr

@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-24
+nature: intervention
+leviers: [catalogue, creative]
+titre: "NOIRMONT — Runbook PDP Tuftéo / variantes / images — 24/07/2026 (soir)"
+---
+
 # NOIRMONT — Runbook PDP Tuftéo / variantes / images — 24/07/2026 (soir)
 
 > ⚠️ **Bloqué sur la reconnexion du connecteur Shopify** : un `switch-shop` vers Tuftéo a invalidé la connexion (le connecteur ne tient qu'une boutique à la fois). Hakim doit ré-autoriser la boutique **v42pzp-h4 (Maison Noirmont)** au prochain prompt du connecteur. Tout le reste est prêt en local.

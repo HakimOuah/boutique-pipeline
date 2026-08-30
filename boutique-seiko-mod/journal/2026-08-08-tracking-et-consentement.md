@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-08
+nature: intervention
+leviers: [conformite]
+titre: "Mesure d'achat et consentement cookies — Maison Noirmont"
+---
+
 # Mesure d'achat et consentement cookies — Maison Noirmont
 
 > **08/08/2026.** Traitement des deux P0 restés ouverts après `2026-08-08-audit-gmc-final.md` :

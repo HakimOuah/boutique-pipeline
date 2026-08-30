@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: bonum-vitae
+date: 2026-08-17
+nature: intervention
+leviers: [page, technique]
+titre: "17/08/2026 (nuit) — FullStack v1 : purge démo, DA appliquée, home + fiche produit montées"
+---
+
 # 17/08/2026 (nuit) — FullStack v1 : purge démo, DA appliquée, home + fiche produit montées
 
 > Thème cible : `copie-de-fullstack-2-3` (**205568147794**, UNPUBLISHED). Le MAIN Horizon n'a pas

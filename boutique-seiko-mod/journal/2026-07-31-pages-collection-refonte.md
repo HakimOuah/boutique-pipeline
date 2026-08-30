@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: intervention
+leviers: [page]
+titre: "Refonte des pages collection — Maison Noirmont"
+---
+
 # Refonte des pages collection — Maison Noirmont
 
 > **26/07/2026** — thème **brouillon `204248088914`** uniquement. Thème publié `Helio` (`204246548818`) non touché.

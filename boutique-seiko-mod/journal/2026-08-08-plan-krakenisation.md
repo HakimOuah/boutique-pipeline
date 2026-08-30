@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-08
+nature: analyse
+leviers: [autre]
+titre: "NOIRMONT — Plan de krakenisation (08/08/2026)"
+---
+
 # NOIRMONT — Plan de krakenisation (08/08/2026)
 
 **Objectif** : finaliser Maison Noirmont comme première application complète de la roadmap Kraken (`drop-elite-google-os/skills/creer-boutique-niche-google/references/strategie-pas-a-pas.md`). Décision Hakim du 08/08. Clin d'œil de calibrage : la boutique mature d'Enzo est **Montre Avenue** — même univers.

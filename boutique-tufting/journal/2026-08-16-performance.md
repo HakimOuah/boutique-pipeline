@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: tufting
+date: 2026-08-16
+nature: intervention
+leviers: [vitesse]
+titre: "Chantier vitesse — Tuftéo, 16/08/2026"
+---
+
 # Chantier vitesse — Tuftéo, 16/08/2026
 
 Agent exécutant, session dédiée vitesse. **Ne touche à aucun produit / collection / média produit**

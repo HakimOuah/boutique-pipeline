@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-11
+nature: intervention
+leviers: [sourcing, technique]
+titre: "Re-sourcing élargi des cadrans à chiffres arabes orientaux — API — 11/08/2026"
+---
+
 # Re-sourcing élargi des cadrans à chiffres arabes orientaux — API — 11/08/2026
 
 ## Verdict

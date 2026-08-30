@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-25
+nature: analyse
+leviers: [catalogue]
+titre: "Plan « lisibilité des variantes & présentation » — NOIRMONT, 25/07/2026"
+---
+
 # Plan « lisibilité des variantes & présentation » — NOIRMONT, 25/07/2026
 
 > Déclencheur : retour de Hakim sur captures d'écran. « Le nom des variantes ne veut rien dire pour certaines, moi en tant que client je ne comprends pas les noms. » Et : « inspire-toi de montre-avenue.fr, qui est aussi sur FullStack, il y a énormément de choses à récupérer en design et présentation. »

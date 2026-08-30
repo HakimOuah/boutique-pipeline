@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: tufting
+date: 2026-08-16
+nature: intervention
+leviers: [page, technique]
+titre: "Correctifs thème — Tuftéo — 16/08/2026"
+---
+
 # Correctifs thème — Tuftéo — 16/08/2026
 
 Session exécutant-boutique. Rapport écrit au fil de l'eau (une session coupée ne doit rien faire perdre).

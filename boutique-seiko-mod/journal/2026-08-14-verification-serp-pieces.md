@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-14
+nature: analyse
+leviers: [seo]
+titre: "Vérification SERP France — les pièces détachées, dernier angle mort du dossier"
+---
+
 # Vérification SERP France — les pièces détachées, dernier angle mort du dossier
 
 > **14/08/2026, cinquième passe (T-46).** **19 SERP Google France ouvertes** (`google.fr`, `hl=fr`,

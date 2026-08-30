@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-17
+nature: intervention
+leviers: [conformite]
+titre: "T-H2 — dates de politiques au 15 août 2026"
+---
+
 # T-H2 — dates de politiques au 15 août 2026
 
 > **17/08/2026 ~12h30.** Boutique Maison Noirmont (`v42pzp-h4`). Hakim : redater les

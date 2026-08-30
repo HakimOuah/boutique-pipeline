@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: bonum-vitae
+date: 2026-08-18
+nature: intervention
+leviers: [catalogue, creative]
+titre: "18/08/2026 — Rattachement des 6 visuels kit 600 GPD"
+---
+
 # 18/08/2026 — Rattachement des 6 visuels kit 600 GPD
 
 Hakim a déposé le pack Codex

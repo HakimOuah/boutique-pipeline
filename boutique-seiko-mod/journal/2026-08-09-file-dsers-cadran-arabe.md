@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-09
+nature: intervention
+leviers: [sourcing, technique]
+titre: "File DSers — cadrans arabes orientaux — API officielle — 09/08/2026"
+---
+
 # File DSers — cadrans arabes orientaux — API officielle — 09/08/2026
 
 **STATUT : PARTIELLE — 1 nouvelle fiche qualifiée, aucun import autorisé ou exécuté.**

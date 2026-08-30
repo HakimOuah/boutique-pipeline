@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: intervention
+leviers: [creative, page]
+titre: "Méga-menu illustré — Maison Noirmont"
+---
+
 # Méga-menu illustré — Maison Noirmont
 
 > **26/07/2026** — thème **brouillon `204248088914`** (« Maison Noirmont ») uniquement.

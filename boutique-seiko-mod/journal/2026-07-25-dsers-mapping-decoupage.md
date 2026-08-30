@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-25
+nature: intervention
+leviers: [sourcing, catalogue]
+titre: "DSers — mapping des 19 fiches issues du découpage par coloris"
+---
+
 # DSers — mapping des 19 fiches issues du découpage par coloris
 Boutique NOIRMONT (Shopify `v42pzp-h4`, Maison Noirmont) — 25/07/2026
 Compte DSers : `contact.noirmont`

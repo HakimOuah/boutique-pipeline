@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-25
+nature: intervention
+leviers: [catalogue, technique]
+titre: "Swatches & corrections — NOIRMONT, 25/07/2026"
+---
+
 # Swatches & corrections — NOIRMONT, 25/07/2026
 
 Boutique Maison Noirmont (Shopify `v42pzp-h4`). Mission en trois volets.

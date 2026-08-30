@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: intervention
+leviers: [creative]
+titre: "Visuels accessoires — lot 4 (NOIRMONT)"
+---
+
 # Visuels accessoires — lot 4 (NOIRMONT)
 
 Date : 2026-07-26 · Boutique : Maison Noirmont (`v42pzp-h4`, maisonnoirmont.fr) · Compte DSers : `contact.noirmont`

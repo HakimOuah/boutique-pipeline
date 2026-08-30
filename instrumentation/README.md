@@ -53,15 +53,26 @@ pour devenir interrogeables. On n'y touche pas au contenu.
 
 ```yaml
 ---
-type: intervention
-boutique: tufteo
+type: journal
+boutique: tufting
 date: 2026-08-16
+nature: intervention      # intervention = on a changé quelque chose | analyse = on a mesuré
 leviers: [vitesse]
+titre: "Chantier vitesse — Tuftéo, 16/08/2026"
 ---
 ```
 
-Leviers admis : `prix`, `offre`, `page`, `creative`, `catalogue`, `conformite`, `technique`,
-`vitesse`, `ads`, `seo`, `sourcing`.
+Posé par `backfill-frontmatter.py`, idempotent : il saute tout fichier qui a déjà un
+frontmatter, et n'insère qu'en tête — le contenu n'est jamais touché. À relancer après
+l'ajout de nouvelles entrées.
+
+**La clé de jointure est `boutique`, et c'est le slug du dossier** : `tufting`,
+`bonum-vitae`, `seiko-mod` — pas le nom commercial. Toutes les notes d'instrumentation
+doivent employer le même slug, sinon les vues ne joignent plus.
+
+Leviers admis : `prix`, `offre`, `page`, `creative`, `catalogue`, `conformite`, `concurrence`,
+`technique`, `vitesse`, `ads`, `seo`, `sourcing`, et `autre` quand l'entrée est un compte rendu
+de session sans levier unique (17 cas sur 192 — c'est honnête, pas une lacune).
 
 **Sans ce registre, les mesures sont ininterprétables.** Une CVR qui passe de 1,2 à 1,9 % ne prouve
 rien si on ignore qu'on a changé la page et le prix la même semaine.

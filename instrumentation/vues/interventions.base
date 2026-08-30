@@ -1,6 +1,6 @@
 filters:
   and:
-    - 'type == "intervention"'
+    - 'type == "journal"'
 properties:
   note.boutique:
     displayName: Boutique
@@ -8,12 +8,15 @@ properties:
     displayName: Date
   note.leviers:
     displayName: Leviers
+  note.nature:
+    displayName: Nature
 views:
   - type: table
     name: Journal des interventions
     order:
       - note.date
       - note.boutique
+      - note.nature
       - note.leviers
       - file.name
     sort:

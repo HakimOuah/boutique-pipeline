@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: intervention
+leviers: [autre]
+titre: "Passe de cohérence avant publication — thème « Maison Noirmont »"
+---
+
 # Passe de cohérence avant publication — thème « Maison Noirmont »
 
 > **27/07/2026, nuit.** Toutes les écritures sur `204248088914` (« Maison Noirmont »), **rôle

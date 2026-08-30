@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: bonum-vitae
+date: 2026-08-17
+nature: intervention
+leviers: [creative]
+titre: "17/08/2026 (nuit) — STOP visuels anti-tartre galvanique"
+---
+
 # 17/08/2026 (nuit) — STOP visuels anti-tartre galvanique
 
 Codex a appliqué la règle du brief : **aucune image générée, Shopify non modifié**.

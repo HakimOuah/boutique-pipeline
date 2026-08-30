@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-08
+nature: intervention
+leviers: [technique]
+titre: "Maison Noirmont — retours et rétractation : application des deux décisions de Hakim (08/08/2026)"
+---
+
 # Maison Noirmont — retours et rétractation : application des deux décisions de Hakim (08/08/2026)
 
 Lève les bloquants **B3** (droit de rétractation illégalement restreint) et **B4** (politique de retour

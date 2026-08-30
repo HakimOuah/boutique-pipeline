@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-25
+nature: intervention
+leviers: [catalogue, technique]
+titre: "Découpage lot 1 — corrections et points à trancher (25/07/2026)"
+---
+
 # Découpage lot 1 — corrections et points à trancher (25/07/2026)
 
 Complément au livrable de l'agent `2026-07-25-decoupage-coloris-lot1.md`.

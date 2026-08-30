@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: intervention
+leviers: [catalogue]
+titre: "Publication des grappes « cadran arabe » et « squelette » — Maison Noirmont"
+---
+
 # Publication des grappes « cadran arabe » et « squelette » — Maison Noirmont
 
 > **29/07/2026 (soir)** — boutique `v42pzp-h4` / maisonnoirmont.fr. Mission en quatre temps :

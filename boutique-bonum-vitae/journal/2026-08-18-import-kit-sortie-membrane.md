@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: bonum-vitae
+date: 2026-08-18
+nature: intervention
+leviers: [sourcing, catalogue, offre]
+titre: "18/08/2026 — Import kit 600 GPD + sortie de la membrane 50 GPD"
+---
+
 # 18/08/2026 — Import kit 600 GPD + sortie de la membrane 50 GPD
 
 > Hakim : « Ok pour le kit. On sort la membrane si c'est dangereux. Comptoir plus tard. »

@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-24
+nature: intervention
+leviers: [technique]
+titre: "NOIRMONT — Build du site (24/07/2026, session autonome)"
+---
+
 # NOIRMONT — Build du site (24/07/2026, session autonome)
 
 Boutique : v42pzp-h4.myshopify.com · maisonnoirmont.fr · Thème brouillon « Maison Noirmont » (gid 204248088914, non publié)

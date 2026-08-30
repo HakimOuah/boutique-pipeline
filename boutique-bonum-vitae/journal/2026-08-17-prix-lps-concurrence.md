@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: bonum-vitae
+date: 2026-08-17
+nature: intervention
+leviers: [prix, page, concurrence]
+titre: "17/08/2026 (nuit) — Prix LPS aligné concurrence"
+---
+
 # 17/08/2026 (nuit) — Prix LPS aligné concurrence
 
 Consigne Hakim : « Aligne-toi sur le prix des concurrents. »

@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: tufting
+date: 2026-07-21
+nature: intervention
+leviers: [sourcing]
+titre: "Re-sourcing toile primaire tufting — relevé AliExpress du 21/07/2026"
+---
+
 > ✅ **APPLIQUÉ (21/07 soir, décision Hakim)** : les 4 grandes variantes de l'ancien fournisseur (1×4, 2,1×2, 1,5×3, 2,1×3) ont été supprimées du produit Shopify « Toile primaire de tufting (lignes repères) » et remplacées par les 4 formats Urban Corners de la fiche 1005009254161163 : **1×5 m à 39,90 €** (coût 24,26 → marge ≈ 6,0 €) · **1,5×4 m à 44,90 €** (26,62 → ≈ 7,4 €) · **3×5 m à 89,90 €** (59,99 → ≈ 8,2 €) · **1,5×10 m à 89,90 €** (55,87 → ≈ 12,3 €). Les 4 petites tailles gardent le fournisseur actuel (SKU DSers intacts). Option renommée « Taille ». SKU des nouvelles variantes : `UC1005009254161163#<taille>`, stock initial 100. ⚠️ Mapping DSers des 4 variantes UC pas encore fait (à faire au premier ordre ou via mapping DSers) ; règle de synchro de la carte encore sur « US » (à passer sur France : icône ⇄ de la carte → France → Sauvegarder).
 
 # Re-sourcing toile primaire tufting — relevé AliExpress du 21/07/2026

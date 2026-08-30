@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-11
+nature: analyse
+leviers: [autre]
+titre: "Audit de contrôle du travail de Codex — Maison Noirmont"
+---
+
 # Audit de contrôle du travail de Codex — Maison Noirmont
 
 **Période auditée** : 10 et 11 août 2026 (14 commits `60ee479..f049e4e`), contre le brief `2026-08-09-passation-codex.md`.

@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-07-31
+nature: intervention
+leviers: [sourcing]
+titre: "Sourcing « chiffres arabes orientaux » (١ ٢ ٣ / Urdu) — Maison Noirmont"
+---
+
 # Sourcing « chiffres arabes orientaux » (١ ٢ ٣ / Urdu) — Maison Noirmont
 
 > **30/07/2026** — boutique `v42pzp-h4`. Mission : servir la grappe `seiko arabic dial` **au sens strict**

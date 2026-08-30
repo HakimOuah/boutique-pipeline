@@ -1,3 +1,12 @@
+---
+type: journal
+boutique: seiko-mod
+date: 2026-08-17
+nature: intervention
+leviers: [sourcing, catalogue]
+titre: "Nuit du 17/08/2026 — repeuplement + T-32"
+---
+
 # Nuit du 17/08/2026 — repeuplement + T-32
 
 Boutique **Maison Noirmont** (`v42pzp-h4`). Pas Tuftéo. Aucune activation. Aucun GMC. Aucun `fileDelete`.
