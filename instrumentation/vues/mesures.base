@@ -8,6 +8,10 @@ properties:
     displayName: Période
   sessions:
     displayName: Sessions
+  paniers:
+    displayName: Paniers
+  checkouts_atteints:
+    displayName: Checkouts
   commandes:
     displayName: Cdes
   cvr_pct:
@@ -27,6 +31,8 @@ views:
       - note.boutique
       - note.periode
       - note.sessions
+      - note.paniers
+      - note.checkouts_atteints
       - note.commandes
       - note.cvr_pct
       - note.ca_eur

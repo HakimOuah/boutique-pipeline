@@ -1,6 +1,6 @@
 filters:
   and:
-    - 'type == "journal"'
+    - type == "journal"
 properties:
   boutique:
     displayName: Boutique
@@ -14,8 +14,8 @@ views:
   - type: table
     name: Journal des interventions
     order:
-      - note.date
-      - note.boutique
-      - note.nature
-      - note.leviers
+      - date
+      - boutique
+      - nature
+      - leviers
       - file.name

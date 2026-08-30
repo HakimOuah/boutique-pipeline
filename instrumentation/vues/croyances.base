@@ -1,6 +1,6 @@
 filters:
   and:
-    - 'type == "croyance"'
+    - type == "croyance"
 properties:
   boutique:
     displayName: Boutique
@@ -19,15 +19,15 @@ views:
     name: À compléter en priorité
     filters:
       and:
-        - 'statut == "a_completer"'
+        - statut == "a_completer"
     order:
-      - note.boutique
-      - note.source
-      - note.confiance_reconstruction
-      - note.date_lancement
+      - boutique
+      - source
+      - confiance_reconstruction
+      - date_lancement
   - type: table
     name: Toutes
     order:
-      - note.boutique
-      - note.statut
-      - note.prediction_reussite_pct
+      - boutique
+      - statut
+      - prediction_reussite_pct
