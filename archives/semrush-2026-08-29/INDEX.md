@@ -1,97 +1,100 @@
-# Archive des corpus SEMrush — 29/08/2026
+# Archive SEMrush — corpus Keyword Magic Tool, base France
 
-**Ces données ne sont plus reproductibles.** L'abonnement SEMrush a été résilié le 29/08/2026. Chaque fichier est une photographie du Keyword Magic Tool en expression exacte, base France, devise EUR, prise le 29/08 avant la coupure.
+**Ces donnees ne sont plus reproductibles.** L'abonnement SEMrush de Hakim est resilie ; aucun de ces corpus ne pourra etre remesure a l'identique.
 
-**33 expressions sur 33 capturées, aucun échec.** 3 300 lignes de mots-clés, 6 177 650 de volume cumulé sur les corpus.
+Campagne d'archivage datee du **2026-08-29**. Les lectures reelles ont eu lieu dans la nuit du 2026-08-29 au 2026-08-30, entre 01h42 et 02h45 CEST — chaque fichier porte son horodatage exact dans `lu_le`.
 
-## Ce que contient chaque fichier
+## Perimetre de la capture
 
-| Champ | Sens |
-|---|---|
-| `total_mots_cles` | La taille du corpus que SEMrush annonce pour cette expression |
-| `volume_total` | Le volume que SEMrush annonce pour ce corpus. **Ce n'est pas un volume de famille** — il inclut tout le bruit |
-| `barre_par_nombre` | Les tokens co-occurrents et leurs occurrences. **C'est la partie la plus précieuse** : elle porte la structure sémantique du corpus, et aucun autre outil ne la redonne |
-| `lignes` | Les 100 premières lignes du tableau : mot-clé, volume, KD, CPC, intention |
-| `base`, `devise`, `lu_le` | Contrôlés page par page : `fr` et `EUR` partout |
+Outil : Keyword Magic Tool, `db=fr`, correspondance **phrase**, devise **EUR**. La base affichee (`France`) a ete relue sur chaque page avant d'enregistrer le moindre chiffre : aucun corpus ne provient d'une autre base.
 
-## Inventaire
+Pour chaque expression : le total `Tous les mots cles`, le `Volume total`, le `KD moyen`, la barre laterale **Par nombre** et les **100 lignes** de la premiere page du tableau (mot-cle, intention, volume, KD, CPC en EUR).
 
-### Rideaux — le seul PASS_PREQUALIFICATION du parc
+## Ce qui a ete capture
 
-| Expression | Corpus | Volume total | Tokens de barre | Lignes | dont KD absent |
-|---|---:|---:|---:|---:|---:|
-| `rideau occultant` | 17 570 | 297 700 | 200 | 100 | 0 |
-| `rideau thermique` | 6 953 | 216 150 | 100 | 100 | 0 |
-| `rideau phonique` | 1 421 | 26 760 | 100 | 100 | 20 |
-| `rideau velours` | 3 201 | 38 290 | 50 | 100 | 1 |
-| `rideau lin` | 7 228 | 92 760 | 50 | 100 | 0 |
-| `voilage` | 60 906 | 385 080 | 50 | 100 | 0 |
-| `tringle a rideau` | 9 335 | 90 170 | 50 | 100 | 0 |
-| `double rideau` | 13 252 | 120 760 | 50 | 100 | 1 |
+### Priorite 1 — dossier rideaux
 
-### Vin & œnologie
+| Expression | Fichier | Tous les mots cles | Volume total | KD moyen | Tokens barre | Lignes |
+|---|---|---:|---:|---:|---:|---:|
+| `rideau occultant` | `rideau-occultant.json` | 17 570 | 297 700 | 20 % | 200 | 100 |
+| `rideau thermique` | `rideau-thermique.json` | 6 953 | 216 150 | 20 % | 100 | 100 |
+| `rideau phonique` | `rideau-phonique.json` | 1 421 | 26 760 | 16 % | 100 | 100 |
+| `rideau velours` | `rideau-velours.json` | 3 201 | 38 290 | 15 % | 145 | 100 |
+| `rideau lin` | `rideau-lin.json` | 7 228 | 92 760 | 17 % | 145 | 100 |
+| `voilage` | `voilage.json` | 60 906 | 385 080 | 19 % | 145 | 100 |
+| `tringle a rideau` | `tringle-a-rideau.json` | 9 335 | 90 170 | 21 % | 145 | 100 |
+| `double rideau` | `double-rideau.json` | 13 252 | 120 760 | 20 % | 100 | 100 |
 
-| Expression | Corpus | Volume total | Tokens de barre | Lignes | dont KD absent |
-|---|---:|---:|---:|---:|---:|
-| `tire bouchon` | 18 734 | 206 370 | 50 | 100 | 0 |
-| `limonadier` | 1 781 | 24 660 | 200 | 100 | 61 |
-| `carafe vin` | 3 004 | 27 630 | 200 | 100 | 33 |
-| `decanteur` | 2 988 | 12 460 | 200 | 100 | 76 |
-| `aerateur vin` | 618 | 9 490 | 200 | 100 | 89 |
-| `bouchon vin` | 5 366 | 36 000 | 200 | 100 | 7 |
-| `verre a vin` | 8 108 | 80 170 | 200 | 100 | 0 |
-| `coffret sommelier` | 377 | 2 700 | 200 | 100 | 96 |
-| `oenologie` | 17 546 | 72 520 | 200 | 100 | 0 |
+### Priorite 2 — vin & oenologie
 
-### Diffusion olfactive
+| Expression | Fichier | Tous les mots cles | Volume total | KD moyen | Tokens barre | Lignes |
+|---|---|---:|---:|---:|---:|---:|
+| `tire bouchon` | `tire-bouchon.json` | 18 734 | 206 370 | 18 % | 200 | 100 |
+| `limonadier` | `limonadier.json` | 1 781 | 24 660 | 16 % | 200 | 100 |
+| `carafe vin` | `carafe-vin.json` | 3 004 | 27 630 | 13 % | 200 | 100 |
+| `decanteur` | `decanteur.json` | 2 988 | 12 460 | 14 % | 200 | 100 |
+| `aerateur vin` | `aerateur-vin.json` | 618 | 9 490 | 11 % | 200 | 100 |
+| `bouchon vin` | `bouchon-vin.json` | 5 366 | 36 000 | 12 % | 200 | 100 |
+| `verre a vin` | `verre-a-vin.json` | 8 108 | 80 170 | 14 % | 200 | 100 |
+| `coffret sommelier` | `coffret-sommelier.json` | 377 | 2 700 | 13 % | 200 | 100 |
+| `oenologie` | `oenologie.json` | 17 546 | 72 520 | 20 % | 200 | 100 |
 
-| Expression | Corpus | Volume total | Tokens de barre | Lignes | dont KD absent |
-|---|---:|---:|---:|---:|---:|
-| `diffuseur huile essentielle` | 16 627 | 171 030 | 150 | 100 | 0 |
-| `diffuseur parfum maison` | 293 | 7 350 | 150 | 100 | 82 |
-| `bougie parfumee` | 1 279 | 13 350 | 250 | 100 | 56 |
-| `recharge diffuseur` | 1 733 | 13 190 | 150 | 100 | 53 |
-| `parfum interieur` | 1 600 | 6 250 | 200 | 100 | 85 |
-| `diffuseur voiture` | 1 260 | 18 550 | 150 | 100 | 53 |
+### Priorite 3 — diffusion olfactive
 
-### Arts de la table bois
+| Expression | Fichier | Tous les mots cles | Volume total | KD moyen | Tokens barre | Lignes |
+|---|---|---:|---:|---:|---:|---:|
+| `diffuseur huile essentielle` | `diffuseur-huile-essentielle.json` | 16 627 | 171 030 | 19 % | 150 | 100 |
+| `diffuseur parfum maison` | `diffuseur-parfum-maison.json` | 293 | 7 350 | 20 % | 150 | 100 |
+| `bougie parfumee` | `bougie-parfumee.json` | 1 279 | 13 350 | 19 % | 250 | 100 |
+| `recharge diffuseur` | `recharge-diffuseur.json` | 1 733 | 13 190 | 14 % | 150 | 100 |
+| `parfum interieur` | `parfum-interieur.json` | 1 600 | 6 250 | 23 % | 200 | 100 |
+| `diffuseur voiture` | `diffuseur-voiture.json` | 1 260 | 18 550 | 15 % | 150 | 100 |
 
-| Expression | Corpus | Volume total | Tokens de barre | Lignes | dont KD absent |
-|---|---:|---:|---:|---:|---:|
-| `plateau bois` | 15 955 | 118 360 | 150 | 100 | 0 |
-| `plateau de service` | 1 767 | 14 860 | 150 | 100 | 59 |
-| `planche apero` | 1 312 | 47 800 | 100 | 100 | 5 |
-| `dessous de plat` | 6 407 | 24 670 | 200 | 100 | 39 |
-| `plateau charcuterie` | 2 269 | 56 310 | 150 | 100 | 1 |
+### Priorite 4 — arts de la table bois
 
-### Candidats suspendus ou à rouvrir
+| Expression | Fichier | Tous les mots cles | Volume total | KD moyen | Tokens barre | Lignes |
+|---|---|---:|---:|---:|---:|---:|
+| `plateau bois` | `plateau-bois.json` | 15 955 | 118 360 | 15 % | 150 | 100 |
+| `plateau de service` | `plateau-de-service.json` | 1 767 | 14 860 | 16 % | 150 | 100 |
+| `planche apero` | `planche-apero.json` | 1 312 | 47 800 | 14 % | 100 | 100 |
+| `dessous de plat` | `dessous-de-plat.json` | 6 407 | 24 670 | 15 % | 200 | 100 |
+| `plateau charcuterie` | `plateau-charcuterie.json` | 2 269 | 56 310 | 16 % | 150 | 100 |
 
-| Expression | Corpus | Volume total | Tokens de barre | Lignes | dont KD absent |
-|---|---:|---:|---:|---:|---:|
-| `aquarium` | 399 018 | 2 996 130 | 150 | 100 | 0 |
-| `aquascaping` | 5 711 | 24 610 | 100 | 100 | 72 |
-| `terrarium` | 51 092 | 299 500 | 150 | 100 | 0 |
-| `hamac` | 46 811 | 406 710 | 150 | 100 | 0 |
-| `coffre de toit` | 20 938 | 219 310 | 150 | 100 | 0 |
+### Priorite 5 — candidats suspendus ou a rouvrir
 
-## Trois limites à connaître avant de s'en servir
+| Expression | Fichier | Tous les mots cles | Volume total | KD moyen | Tokens barre | Lignes |
+|---|---|---:|---:|---:|---:|---:|
+| `aquarium` | `aquarium.json` | 399 018 | 2 996 130 | 19 % | 150 | 100 |
+| `aquascaping` | `aquascaping.json` | 5 711 | 24 610 | 21 % | 100 | 100 |
+| `terrarium` | `terrarium.json` | 51 092 | 299 500 | 15 % | 150 | 100 |
+| `hamac` | `hamac.json` | 46 811 | 406 710 | 18 % | 150 | 100 |
+| `coffre de toit` | `coffre-de-toit.json` | 20 938 | 219 310 | 18 % | 150 | 100 |
 
-**1. La barre « Par nombre » n'est pas dépliée à la même profondeur partout.** De 50 à 250 tokens selon l'expression, 150 dans la majorité des cas. Le bouton « Afficher plus » de SEMrush ne répond pas de façon fiable à un clic programmatique, et un onglet en arrière-plan est bridé par Chrome. Chaque fichier dit ce qu'il contient ; aucune profondeur n'est présentée pour ce qu'elle n'est pas.
+**33 expressions sur 33 capturees. Aucun echec.**
 
-**2. Le KD et l'intention manquent sur une partie des lignes.** SEMrush affiche « Pour afficher les métriques, actualisez la page » sur les mots-clés à faible volume, et actualiser consomme des crédits — ce qui n'avait pas été demandé. Ces lignes portent `kd: null` et une intention vide. Le volume et le CPC, eux, sont ceux affichés. La colonne « dont KD absent » ci-dessus donne l'ampleur, expression par expression : nulle sur les gros corpus, jusqu'à 96 lignes sur 100 pour `coffret sommelier`.
+## Limites a connaitre avant de reutiliser ces fichiers
 
-**3. Deux discontinuités dans la barre**, sur `planche apero` (saut de `fabriquer:7` à `geant:4`) et `dessous de plat` (saut de `métal:43` à `chantourner:12`). SEMrush ne charge pas les tokens intermédiaires. Recopié tel quel, sans comblement.
+- **Profondeur de la barre `Par nombre` variable (100 a 250 tokens).** La vue par defaut n'en affiche que 49 ; chaque clic sur `Afficher plus` en ajoute 50, mais le bouton ne repond de facon fiable que dans un appel isole, une fois la page entierement stabilisee. Tous les corpus ont ete deplies au moins une fois. Le champ `n_tokens_barre` dit exactement ce que chaque fichier contient. Au-dela, la queue lexicale du corpus n'a pas ete capturee.
+- **Le tableau s'arrete a la premiere page.** Le champ `note` indique le nombre total de pages quand la page l'affichait (610 pour `voilage`, 176 pour `rideau occultant`, 94 pour `tringle a rideau`...). Tout ce qui suit la 100e ligne n'a pas ete capture.
+- **Lignes sans metriques.** SEMrush n'affiche pas toujours l'intention et le KD sur les mots-cles a faible volume (`n/a`, ou `Pour afficher les metriques, actualisez la page`). Dans ces cas `kd` vaut `null` et `intention` vaut `-`. Le volume et le CPC restent presents. Corpus les plus concernes : `coffret sommelier`, `aerateur vin`, `decanteur`, `limonadier`, `rideau phonique`.
+- **Volumes a 0.** `coffret sommelier` contient des lignes affichees a 0 par SEMrush ; elles sont recopiees telles quelles, sans correction.
+- **Apostrophes typographiques normalisees en espace** dans les mots-cles. Quand cette normalisation creait un doublon avec une variante deja presente, la seconde occurrence est suffixee `(apostrophe)` — voir `rideau phonique` et `tringle a rideau`. Le volume et les metriques restent ceux de la ligne d'origine.
+- **Les colonnes `Fonctionnalites SERP` (`+2`, `+3`...) et `Mise a jour` n'ont pas ete capturees.**
+- **Aucune analyse.** Ces fichiers ne contiennent ni volume pertinent, ni deduplication, ni verdict. Le passage du volume brut au volume adressable reste entierement a faire, exclusion par exclusion, si un dossier est rouvert.
 
-## Ce qu'il ne faut pas en faire
+## Fichiers presents mais hors de cette capture
 
-- **Ne pas réutiliser un volume comme s'il était frais.** Ces chiffres sont datés du 29/08/2026. Un chiffre se remesure, ou se cite avec sa date et sa source.
+`mesures-consolidees.json`, `.csv` et `.md` proviennent d'un autre travail de la meme campagne d'archivage (commit `26cced8`, appariement SEMrush x DataForSEO sur 287 mots-cles issus des passes du 22 au 28/08). Ils **n'ont pas ete produits ni verifies ici** et sont laisses intacts.
 
-- **Ne pas prendre `volume_total` pour un volume de famille.** C'est le total brut du corpus, bruit compris — sur le témoin `tufting`, SEMrush affichait 78 920 quand la tête réelle valait 8 100. La consolidation par familles reste à faire, ligne par ligne.
+## Structure d'un fichier
 
-- **Ne pas comparer un KD d'ici à un KD DataForSEO.** Ils ne mesurent pas la même chose et ne sont pas convertibles (corrélation de rangs 0,225).
+```json
+{"expression": "...", "base": "fr", "base_ui": "France", "devise": "EUR",
+ "outil": "SEMrush Keyword Magic Tool", "match": "phrase", "lu_le": "2026-08-30T..",
+ "total_mots_cles": 0, "volume_total": 0, "kd_moyen": "20 %",
+ "barre_par_nombre": [["token", 0], ...], "n_tokens_barre": 0,
+ "lignes": [{"kw": "...", "intention": "I C", "volume": 0, "kd": 0, "cpc": 0.0}, ...], "n_lignes": 100,
+ "note": "..."}
+```
 
-## Voir aussi
-
-`mesures-consolidees.json` / `.csv` dans ce dossier : 287 mots-clés appariés SEMrush × DataForSEO, avec leur ratio. C'est l'étalon de calibrage.
-
-La migration et ses tests : `analyses/2026-08-29-croisement-semrush-dataforseo.md`, `2026-08-29-validation-3-graines-aveugle.md`, `2026-08-29-tests-fenetre-semrush.md`, et les trois rejeux (`rideaux`, `gothique`, `astro`).
+Codes d'intention SEMrush : `I` informationnel, `N` navigationnel, `C` commercial, `T` transactionnel. Une ligne peut en porter plusieurs.
