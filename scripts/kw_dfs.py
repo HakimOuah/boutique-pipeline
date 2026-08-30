@@ -127,8 +127,11 @@ def suggestions(graine, pages=1, limit=1000, location="France", language="French
     jeton = re.sub(r"\W+", "_", f"{graine}_{location}_{language}_{pages}_{limit}")[:120]
     chemin = os.path.join(CACHE, jeton + ".json")
     if cache and os.path.exists(chemin):
-        d = json.load(open(chemin, encoding="utf-8"))
-        return [tuple(x) for x in d["lignes"]], d["total"], 0.0
+        with open(chemin, encoding="utf-8") as f:
+            d = json.load(f)
+        lignes = [tuple(x[:4]) + (tuple(x[4]),) if len(x) > 4 else tuple(x)
+                  for x in d["lignes"]]
+        return lignes, d["total"], 0.0
     lignes, total, cout = [], None, 0.0
     for p in range(pages):
         corps = [{
