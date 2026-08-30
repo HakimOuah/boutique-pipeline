@@ -13,3 +13,17 @@ Convention complète et format des tickets : [`METHODE-TABLEAU.md`](METHODE-TABL
 GitHub est la source de vérité unique du projet. **En fin de toute tâche qui modifie des fichiers durables (registres, rapports, specs, code, docs), committer et pousser sur `origin main` sans que Hakim ait à le demander.** Message de commit en français, une ligne de résumé claire. Jamais de secrets ni de `venv/` dans git — le `.gitignore` fait foi.
 
 Ce repo fait partie d'un ensemble de 3, cartographié dans le hub [boutiques-drop](https://github.com/HakimOuah/boutiques-drop) (racine locale `~/Documents/Boutiques drop/`, voir son README et son CLAUDE.md pour les règles complètes).
+
+## Réflexe NOX — journal éditorial (décision Hakim, 30/08/2026)
+
+Après chaque étape significative (nouvelle boutique, nouvel agent, nouvelle automatisation,
+nouvelle intégration ou API, règle de méthode apprise, premier chiffre réel), écrire un événement
+éditorial **dans le hub** avant de rendre la main — jamais pour une typo, un refactor trivial ou
+une opération Git de confort. En cas de doute, ne pas écrire.
+
+```bash
+python3 "$HOME/Documents/Boutiques drop/scripts/nox-evenement.py" \
+  --categorie <cat> --titre "..." --projet <slug> --repo boutique-pipeline --axes agents,ecommerce
+```
+
+Règle complète et schéma : `../nox/README.md` — source unique, ne pas la recopier ici.
