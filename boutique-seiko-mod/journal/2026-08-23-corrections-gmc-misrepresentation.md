@@ -95,8 +95,18 @@ Prix barrés : gabarit dormant vide (`compare_at_price = null`) — pas un vrai 
 ## Non traité
 - **Menu header** : ajouter « Suivre mon colis » + renommer « La Maison » → « À propos » (2 min dans Contenu → Menus → Main menu)
 
-## Conduite post-correction (Terry)
-- **Ne pas** demander d’examen GMC avant **7–10 jours**
-- **Ne pas** lancer d’ads
-- Laisser le flux Google & YouTube se resynchroniser
-- Si Google demande une **pièce d’identité** : fournir (mention dans le mail GMC)
+## Reliquats purgés le 30/08/2026 (avant examen)
+
+Le 23/08 n’avait touché que titres/descriptions. Restes encore crawlables, nettoyés le 30/08 :
+
+- **SEO + metafields** `global.title_tag` / `description_tag` de **55 fiches** (Seiko / Président)
+- **Variantes** « Président » → « Maillons arrondis » + SKU `NOIR-PRE-*` → `NOIR-MAR-*`
+- **Pages** FAQ + La Maison (Seiko NH35/NH34/VK63)
+- **Thème live** `index.json` + `product.json` : bandeau « Qualité Premium » désactivé / vidé ; textes calibres sans Seiko
+- **Collection Bracelets** : alt « Bracelet Présidentiel en acier 904L » → « Bracelet à maillons arrondis en acier »
+- **Fichiers CDN** : `president` / `904l` renommés (dont brouillon GMT)
+- Brouillon insert céramique : mention **SKX** retirée
+
+Post-check live (accueil, FAQ, La Maison, 3 fiches bracelets/GMT, collection, `products.json` 96/96) : **0** Seiko / Présidentiel / Premium / 904L / SKX. Seul « président de OH Ventures » conservé (mentions légales, légitime).
+
+**Ne pas demander l’examen le 30/08** : cette passe est nouvelle. Attendre **7–10 jours** à partir du 30/08 (fenêtre 6–9 septembre). Toujours 0 ads.
