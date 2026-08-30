@@ -90,6 +90,9 @@ après l'approbation**, et les 30 premiers jours qui suivent un changement sont 
   s'en sert pour router les commandes.
 - **21 variantes sur 83 sans coût d'achat**, dont la toile primaire à 89,90 € : rentabilité
   incalculable sur ces fiches.
+- **Deux variantes tarifées au coût d'achat exact**, donc 0 % de marge : « Kit tondeuse + guide
+  de tonte » en « Lot 5 pièces » (18,39 €) et « Sans guide » (22,97 €). La fiche est en DRAFT —
+  ne pas la publier avant de les tarifer.
 - Marges brutes des produits à pousser : kit 161,16 € (59,9 %) · gun 67,56 € (45,3 %) ·
   tondeuse 46,99 € (52,3 %) · ciseaux 41,22 € (29,4 %). 24 des 36 actifs sont sous 30 €.
 - **Statut CE non tranché** : tondeuse 200 W, ciseaux électriques et kit tondeuse avaient été passés
@@ -121,8 +124,13 @@ absoudre entièrement. Reprise en septembre, budget proportionné au ticket.
    `reviews.rating_count` survivent sur 17 fiches et `vstar.product_rating` sur les 40 —
    dix fiches à 6 avis / 5,0, soit le compte des six avis jugés fictifs le 30/07. C'est le
    métafield standard que Google & YouTube sait lire. Chasse gardée de Hakim, rien supprimé.
-3. **Ressourcer la tondeuse et les ciseaux électriques** (0 en survente, fournisseur AliExpress
-   à sec) — sourcing lancé le 30/08.
+3. **Trancher les deux électriques en rupture.** Ressourcing AliExpress fait le 30/08 :
+   **aucun remplacement retenu** (les deux fiches tondeuse trouvées annoncent 1 unité de stock,
+   à 54,98 € contre 42,91 € aujourd'hui ; rien en ciseaux sans fil ; confiance B, aucune PDP
+   ouverte). **Piste interne bien meilleure** : la fiche DRAFT « Kit tondeuse + guide de tonte »
+   variante « Avec guide » est un autre listing fournisseur, **stock 64**, coût 27,35 € contre
+   42,91 €, marge 65,8 % contre 52,3 %, prise EU au SKU. À confronter sur DSers.
+   [`journal/2026-08-30-sourcing-remplacement.md`](journal/2026-08-30-sourcing-remplacement.md).
 4. Démarrer sur **le kit et le gun seuls**, pas les 36 fiches.
 5. **Relevé GMC à la prochaine synchro du flux** : 40 fiches viennent d'être modifiées d'un coup
    sur une approbation qui n'a que quinze jours.
