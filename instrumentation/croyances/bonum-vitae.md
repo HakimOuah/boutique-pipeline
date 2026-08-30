@@ -103,9 +103,10 @@ donnée exacte — et il dit que le premier apport de l'instrumentation sera d'i
 
 ## Note de mesure — 30/08/2026
 
-Le relevé ShopifyQL montre du trafic **dès la semaine du 20/07** (72 sessions), alors que ce
-document porte `date_lancement: 2026-08-18`, reprise de « boutique prête » dans `ETAT.md`. Les
-deux ne peuvent pas être vraies au même sens du mot « lancement ».
+Le relevé complet montre du trafic **dès la semaine du 06/07** (77 sessions), puis **265 sessions
+la semaine du 13/07** — la plus grosse semaine jamais mesurée sur l'ensemble du parc. Or ce
+document porte `date_lancement: 2026-08-18`, repris de « boutique prête » dans `ETAT.md`. Les deux
+ne peuvent pas être vraies au même sens du mot « lancement », et l'écart est de six semaines.
 
 Je n'ai pas tranché : Hakim est le seul à savoir si la boutique était publiquement accessible en
 juillet ou si ces sessions sont du travail interne sur un domaine déjà ouvert. **À corriger dans
