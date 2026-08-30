@@ -125,13 +125,11 @@ absoudre entièrement. Reprise en septembre, budget proportionné au ticket.
    `reviews.rating*` ni `vstar` à compteur > 0. Trustoo peut les réécrire — contrôle admin
    Trustoo encore ouvert.
    [`journal/2026-08-30-purge-avis-et-controle-dsers.md`](journal/2026-08-30-purge-avis-et-controle-dsers.md).
-3. **Tondeuse : le kit DRAFT n'est pas le même listing.** SKU différents, arbres de variantes
-   différents — ce n'est pas un remplacement silencieux. Le fournisseur visé le 16/08
-   (`1005007430527466`, Crafters Daily Tools, 240 W) est **en stock aujourd'hui à 42,99 €**,
-   achetable. Le SKU Shopify de la fiche ACTIVE (`14:201441319;200007763:201336342`) est
-   toujours l'ancien : le remapping DSers du 16/08 n'a probablement jamais été fait.
-   Dashboard DSers inaccessible (pas de session). Action Hakim : ouvrir DSers et vérifier
-   le mapping de la tondeuse ACTIVE.
+3. **Tondeuse : Hakim déclare le remapping DSers fait (31/08 ~00:40).** Côté Shopify,
+   **rien n'a bougé** : SKU toujours `14:201441319;200007763:201336342` (dernière
+   écriture 16/08), stock `dsers-fulfillment-service` = 0 depuis le 21/07. Le mapping
+   DSers n'apparaît pas dans l'API Shopify — à confirmer par l'URL affichée dans
+   DSers (cible : `1005007430527466`). Le kit DRAFT n'est toujours pas le même listing.
 4. Démarrer sur **le kit et le gun seuls**, pas les 36 fiches.
 5. **Relevé GMC à la prochaine synchro du flux** : 40 fiches viennent d'être modifiées d'un coup
    sur une approbation qui n'a que quinze jours.
