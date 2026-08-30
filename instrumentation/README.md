@@ -109,6 +109,19 @@ Une application personnalisée par boutique donne un jeton permanent, utilisable
 Le scope **`read_reports`** est obligatoire : les scopes de la CLI Shopify déjà en place
 (products, themes, content, pages…) ne permettent pas d'interroger ShopifyQL.
 
+## Le trou découvert le 30/08/2026 : aucun balisage UTM
+
+Sur les 490 sessions de Tuftéo, **`utm_campaign` vaut `None` pour la totalité**. La campagne Search
+qui a réellement tourné fin juillet est donc indiscernable du référencement naturel : Shopify voit
+94 sessions « google » et ne sait pas dire lesquelles ont été payées.
+
+Conséquence : **aucune campagne ne pourra être évaluée tant que les liens ne sont pas balisés.**
+Ni CPC, ni coût par ajout au panier, ni CPA, ni ROAS — et donc aucun apprentissage possible sur ce
+qui marche en acquisition, qui est pourtant l'objet du chantier.
+
+C'est à régler **avant** les campagnes Q4, pas après. Le balisage ne se rattrape pas : le trafic
+non balisé est perdu pour l'analyse, définitivement.
+
 ## Cadence
 
 | Quoi | Quand | Qui |

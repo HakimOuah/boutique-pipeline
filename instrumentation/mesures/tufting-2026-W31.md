@@ -34,7 +34,20 @@ lcp_s:
 
 ## Fait marquant de la semaine
 
-Relevé rétroactif du 30/08/2026 (ShopifyQL). Aucune campagne active sur la période.
+**La semaine de la campagne Search.** C'est la seule période du parc où du trafic d'acquisition
+réel a touché une boutique.
+
+Le trafic de moteur de recherche passe à **73 sessions** cette semaine (contre 19 la semaine
+précédente, puis 1 par semaine ensuite) — la campagne est donc concentrée sur W30-W31 et s'arrête
+après. Hakim confirme **3 ajouts au panier venus de la campagne**, sur les 4 de la semaine.
+
+Et 3 checkouts atteints, 0 paiement. Sur trois prospects, ça ne prouve rien statistiquement, mais
+c'est le seul échantillon de vrais acheteurs que le parc ait jamais produit — il mérite d'être
+regardé plutôt que noyé dans les moyennes.
+
+**Dépense publicitaire : à renseigner.** Elle n'est pas dans Shopify, et sans elle on ne peut
+calculer ni CPC, ni coût par ajout au panier, ni CPA. C'est la donnée la plus périssable de cette
+note.
 
 ## Interventions de la période
 

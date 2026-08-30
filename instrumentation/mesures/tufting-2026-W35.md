@@ -54,7 +54,10 @@ Deux réserves qui changent l'interprétation, et qu'il faut garder attachées �
 paiement. Sur des volumes aussi faibles ça peut n'être que du test interne — mais si ce n'en est
 pas, c'est un blocage au paiement ou un choc au moment des frais de port, et ça se vérifie.
 
-**Aucune conclusion marché ne doit être tirée de cette série.** La boutique n'a jamais reçu de
-trafic d'acquisition : aucune campagne n'a été lancée, et 2 interventions sur 192 seulement portent
-le levier `ads`. Ce qui est mesuré ici, c'est une vitrine sans visiteurs.
+**Correction du 30/08/2026.** Cette note affirmait qu'aucune campagne n'avait jamais tourné.
+C'est faux : Hakim a lancé une campagne Search, et elle a produit des ajouts au panier réels.
+Voir [[tufting-2026-W31]], où elle est datée et chiffrée.
+
+Ce qui reste vrai : sur les six semaines, l'essentiel du trafic n'est pas commercial, et aucune
+conclusion sur l'offre ou la page ne tient sur ces volumes.
 
