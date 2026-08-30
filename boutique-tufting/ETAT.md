@@ -32,20 +32,21 @@ chaque boutique du parc doit être irréprochable, parce qu'une suspension peut 
 
 ## Merchant Center — le fait qui change tout
 
-**Le compte GMC existe déjà et les produits sont APPROUVÉS — depuis ~48–72 h seulement.**
-Relevé Hakim 17/08 nuit, graphe 28 jours (Tous les produits / boutique en ligne) :
+**Le compte GMC est APPROUVÉ et le vert tient depuis quinze jours.**
+Relevé Hakim du 30/08, graphe 28 jours (tous pays / tout pour la boutique en ligne) :
 
 | | |
 |---|---|
-| 21–24/07 | 0 produit dans le graphe |
-| ~25/07 → 14/08 | ~196 produits, **tous Limités** |
-| 14–15/08 | bascule nette Limités → Approuvés |
-| 17/08 | ~175–180 Approuvés · 0 Limités · 0 Non approuvés · 0 En examen |
+| 3 → ~13/08 | ~185, **Limités** |
+| 13–14/08 | bascule Limités → Approuvés |
+| ~15/08 | léger décrochage, ~185 → ~170 |
+| 15 → 30/08 | **~170 approuvés, plat · 0 refusé · 0 en examen** |
 | Origine | app Google & YouTube Shopify |
 | Google Ads | actif, > 100 € dépensés |
 
-Ce n'est pas « toujours vert ». Trois semaines en Limités, puis le vert. L'approbation
-produit est **jeune**. On protège ça, on ne lance pas.
+Trois semaines en Limités, puis quinze jours de vert stable. On peut enfin parler
+d'approbation tenue plutôt que d'approbation jeune. Ça reste un actif à protéger : la
+checklist est nette, la plupart des suspensions arrivent **après** l'approbation.
 
 Le risque se déplace vers l'après : la checklist est explicite, **la plupart des suspensions arrivent
 après l'approbation**, et les 30 premiers jours qui suivent un changement sont les plus sensibles.
@@ -80,8 +81,13 @@ après l'approbation**, et les 30 premiers jours qui suivent un changement sont 
   électrique (89,90 €), ciseaux électriques ×2 (140 €), enfile-laine, toile primaire
   0,5 × 1,05 m. Les deux premières sont dans les quatre produits à marge. Politique de
   stock incohérente dans le catalogue (`DENY` sur les fils, `CONTINUE` ici), sans règle écrite.
-- **Aucun GTIN** (`barcode` nul sur 83/83 variantes) et **`productType` vide sur 40/40 produits** —
-  handicap permanent sur le flux Shopping, sans être un motif de refus.
+- **`productType` et catégorie de taxonomie posés sur les 40 fiches le 30/08** (0 échec).
+  L'ancien `mm-google-shopping.google_product_category` existait déjà et était juste : les deux
+  couches sont cohérentes. Script relançable : `tmp/tufteo-taxonomie.py`.
+- **Aucun GTIN, et c'est normal** : marque propre sur des produits AliExpress sans marque, donc
+  aucun GTIN fabricant n'existe. Shopify envoie `identifier_exists = no` automatiquement. **Ne
+  jamais fabriquer de codes-barres.** Le `mpn` vient du SKU, laissé en l'état parce que DSers
+  s'en sert pour router les commandes.
 - **21 variantes sur 83 sans coût d'achat**, dont la toile primaire à 89,90 € : rentabilité
   incalculable sur ces fiches.
 - Marges brutes des produits à pousser : kit 161,16 € (59,9 %) · gun 67,56 € (45,3 %) ·
@@ -111,10 +117,15 @@ absoudre entièrement. Reprise en septembre, budget proportionné au ticket.
    0 commande depuis l'ouverture. Sur six semaines, 5 checkouts atteints et 0 paiement,
    alors que le port est à 0 € — l'hypothèse du choc aux frais tombe. Le paiement n'a
    jamais été prouvé et l'activation Shopify Payments n'a pas pu être lue.
-2. **Trancher le stock de la tondeuse et des ciseaux électriques** (0 en survente).
-3. **Relevé GMC** — aucun depuis le 17/08.
-4. **`productType` sur les fiches poussées**, avant dépense.
-5. Démarrer sur **le kit et le gun seuls**, pas les 36 fiches.
+2. **Trancher les métafields d'avis.** Le front est propre, mais `reviews.rating` /
+   `reviews.rating_count` survivent sur 17 fiches et `vstar.product_rating` sur les 40 —
+   dix fiches à 6 avis / 5,0, soit le compte des six avis jugés fictifs le 30/07. C'est le
+   métafield standard que Google & YouTube sait lire. Chasse gardée de Hakim, rien supprimé.
+3. **Ressourcer la tondeuse et les ciseaux électriques** (0 en survente, fournisseur AliExpress
+   à sec) — sourcing lancé le 30/08.
+4. Démarrer sur **le kit et le gun seuls**, pas les 36 fiches.
+5. **Relevé GMC à la prochaine synchro du flux** : 40 fiches viennent d'être modifiées d'un coup
+   sur une approbation qui n'a que quinze jours.
 
 ---
 

@@ -74,6 +74,15 @@ défaut qui a vécu dix-sept jours ici. Concrètement : aucun avis inventé, auc
 non étayée, aucun compteur d'avis qui ne corresponde pas au décompte réel (169 avis Trustoo au
 catalogue), aucun badge imitant un organisme de confiance type Trustpilot.
 
+**Retirer un avis de la page ne le retire pas du flux.** Constat du 30/08 : le front est propre
+— zéro avis rendu, zéro `aggregateRating` dans le JSON-LD — mais les métafields **`reviews.rating`
+et `reviews.rating_count` survivent sur 17 fiches**, et `vstar.product_rating` (Trustoo) sur les 40.
+Dix fiches portent exactement **6 avis à 5,0/5**, soit le compte des six avis que l'audit du 30/07 a
+qualifiés de fictifs. Or `reviews.rating*` est le métafield **standard** de Shopify : c'est celui que
+le canal Google & YouTube sait lire pour envoyer des étoiles dans Shopping. Une purge de thème ne
+suffit donc pas — il faut vérifier la base d'avis elle-même. La preuve sociale restant la chasse
+gardée de Hakim, aucun agent ne supprime ces métafields sans son accord.
+
 **Aucune allégation d'origine non vérifiée fiche par fiche.** « Expédié depuis nos entrepôts en
 Europe » a été retiré du footer et des fiches le 16/08 — le possessif était faux, Tuftéo n'a aucun
 entrepôt, le catalogue vient d'AliExpress par DSers. Mais la mention **« depuis l'Europe » reste une
@@ -91,9 +100,16 @@ métropolitaine uniquement** (décision Hakim 17/08, CGV live). Voir [T-04](TABL
 **Une seule entité doit apparaître.** Shopify porte « Tuftéo » comme nom et « OH Ventures » comme
 adresse ; le footer dit « OH VENTURES ». C'est celle du registre qui fait foi, partout.
 
-**Le garde-fou électrique du 21/07 tient toujours** : tondeuse 200 W, ciseaux électriques et kit
-tondeuse ne repassent ACTIVE qu'avec une **trace écrite** de la conformité CE. Ils sont aujourd'hui
-ACTIVE sans cette trace — c'est une régression, pas une décision.
+**Le garde-fou électrique du 21/07 est soldé.** Tondeuse 200 W, ciseaux électriques et kit tondeuse :
+**conformité CE validée par Hakim le 30/08/2026**. C'est la trace écrite qui manquait depuis
+quatre semaines ; leur statut ACTIVE est désormais une décision, plus une régression. La règle
+elle-même reste en vigueur pour toute nouvelle référence électrique, et **se rouvre à chaque
+changement de fournisseur** — un ressourcing AliExpress ne transporte pas la conformité de l'ancien.
+
+**« Gun » dans les titres : on garde, on surveille.** Décision Hakim du 30/08 — tous les concurrents
+FR emploient le terme, et le compte est approuvé avec ces titres depuis le 14/08. On ne renomme pas
+par précaution. Si un refus tombe sur « Tufting gun 2-en-1 Cut & Loop » ou « Lames de remplacement
+(lot de 12) », la politique Armes en est la cause la plus probable et le repli est « Machine à tufter ».
 
 **Le swatch de variante n'est pas un visuel de fiche.** Règle du parc : l'image principale part dans
 le flux Shopping, elle doit montrer le produit entier à 800 px minimum. Les 17 fiches de fil ont été
