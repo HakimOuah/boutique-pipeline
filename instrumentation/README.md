@@ -100,6 +100,11 @@ python3 instrumentation/mesure-hebdo.py --boutiques tufting,bonum-vitae --ecrire
 Sans `--ecrire`, dry-run. Le script **ne réécrit jamais une note existante** : une mesure est un
 fait daté. Pour corriger un chiffre, écrire une note de correction à côté.
 
+Corollaire de cette règle : **la semaine en cours n'est jamais écrite.** L'écrire un lundi
+figerait des chiffres partiels pour toujours, puisque la note ne sera pas réécrite le dimanche
+suivant. Le script l'écarte et le dit. On peut donc lancer la commande n'importe quel jour sans
+risque — elle rattrapera les semaines closes et laissera la courante tranquille.
+
 **Pourquoi un jeton d'application et pas le connecteur MCP** (constat du 30/08/2026) : le
 connecteur Shopify ne tient qu'une boutique à la fois, et en changer **révoque** l'accès à la
 précédente, avec une réautorisation manuelle à chaque fois. Sur trois boutiques et une cadence

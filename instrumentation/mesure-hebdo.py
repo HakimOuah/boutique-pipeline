@@ -214,7 +214,8 @@ lcp_s:
 """
 
 
-def releve(slug: str, depuis: str, jusqu: str, ecrire: bool) -> None:
+def releve(slug: str, depuis: str, jusqu: str, ecrire: bool,
+           inclure_courante: bool = False) -> None:
     domaine, jeton = identifiants(slug)
     sess = par_semaine(shopifyql(domaine, jeton, Q_SESSIONS.format(depuis=depuis, jusqu=jusqu)))
     vent = par_semaine(shopifyql(domaine, jeton, Q_VENTES.format(depuis=depuis, jusqu=jusqu)))
@@ -235,6 +236,16 @@ def releve(slug: str, depuis: str, jusqu: str, ecrire: bool) -> None:
     if ignorees:
         print(f"  ({ignorees} semaine(s) sans aucune activite avant le {premiere} — ecartees)")
     semaines = semaines[ignorees:]
+
+    # La semaine en cours est incomplete. Comme une note n'est jamais reecrite,
+    # l'ecrire aujourd'hui figerait des chiffres partiels pour toujours. On
+    # attend qu'elle soit close. --semaine-courante force l'ecriture si besoin.
+    if not inclure_courante:
+        lundi_courant = (dt.date.today()
+                         - dt.timedelta(days=dt.date.today().isoweekday() - 1)).isoformat()
+        if lundi_courant in semaines:
+            semaines.remove(lundi_courant)
+            print(f"  (semaine en cours du {lundi_courant} non close — ecartee)")
 
     MESURES.mkdir(exist_ok=True)
     ecrits = sautes = 0
@@ -278,6 +289,8 @@ def main() -> int:
     ap.add_argument("--depuis", default=None, help="AAAA-MM-JJ (défaut : il y a 8 semaines)")
     ap.add_argument("--jusqu", default=None, help="AAAA-MM-JJ (défaut : aujourd'hui)")
     ap.add_argument("--ecrire", action="store_true", help="écrit vraiment (sinon dry-run)")
+    ap.add_argument("--semaine-courante", action="store_true",
+                    help="inclut la semaine en cours, même incomplète (déconseillé)")
     a = ap.parse_args()
 
     jusqu = a.jusqu or dt.date.today().isoformat()
@@ -285,7 +298,7 @@ def main() -> int:
 
     for slug in [s.strip() for s in a.boutiques.split(",") if s.strip()]:
         print(f"\n{slug}  ({depuis} → {jusqu})")
-        releve(slug, depuis, jusqu, a.ecrire)
+        releve(slug, depuis, jusqu, a.ecrire, a.semaine_courante)
 
     if not a.ecrire:
         print("\nDRY-RUN — relancer avec --ecrire pour appliquer")
