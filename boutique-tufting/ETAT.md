@@ -1,9 +1,13 @@
 # Tuftéo — état courant
 
-**Dernière mise à jour : 17/08/2026 (nuit)** — GMC relu (T-18) : vert depuis le 14–15/08,
-pas avant. P0 sur copie `189437772161`. CGV France live.
-[`journal/2026-08-17-t18-gmc.md`](journal/2026-08-17-t18-gmc.md).
-[`TABLEAU.md`](TABLEAU.md) — Hakim publie quand il veut ; **pas de lancement ads**.
+**Dernière mise à jour : 30/08/2026** — contrôle avant relance ads.
+**La copie P0 `189437772161` a été publiée, elle est MAIN** : les quatre correctifs sont live
+(269 €, plus d'« entrepôts » ni d'« Europe », FAQ France 6–10 j, JSON-LD valide). Triangle
+livraison cohérent : France seule, 0 €, même promesse partout.
+**Bloquant avant dépense : `orders` est vide — aucune commande n'a jamais été passée, le
+paiement n'a jamais été prouvé.** Deux des quatre produits à marge (tondeuse 89,90 €,
+ciseaux électriques 140 €) sont à stock 0 en survente.
+[`journal/2026-08-30-controle-avant-ads.md`](journal/2026-08-30-controle-avant-ads.md).
 
 ---
 
@@ -50,13 +54,15 @@ après l'approbation**, et les 30 premiers jours qui suivent un changement sont 
 
 ## Thème — le point le plus urgent
 
+## Thème — soldé
+
 | Thème | Rôle | Contenu |
 |---|---|---|
-| `189429678465` — « Tuftéo — correctifs thème 16-08 » | **MAIN** | encore les textes P0 (229 €, entrepôts, JSON-LD cassé) |
-| `189437772161` — « Tuftéo — P0 GMC 17-08 » | UNPUBLISHED | P0/P1 écrits, **vérifiés en preview** — Hakim publie |
-| `188623847809` — « Tuftéo thème » | UNPUBLISHED | ancien MAIN |
+| `189437772161` — « Tuftéo — P0 GMC 17-08 » | **MAIN** | P0/P1 live, revérifiés sur le site le 30/08 |
+| `189429678465` — « Tuftéo — correctifs thème 16-08 » | UNPUBLISHED | ancien MAIN, textes P0 non corrigés |
+| `188623847809` — « Tuftéo thème » | UNPUBLISHED | encore plus ancien |
 
-**T-05 live** (CGV France). T-06, T-08, T-19, T-20 n'existent que sur la copie jusqu'à publication.
+**T-05, T-06, T-08, T-19, T-20 sont tous live.** Plus rien du lot P0 n'attend une publication.
 
 ---
 
@@ -70,7 +76,16 @@ après l'approbation**, et les 30 premiers jours qui suivent un changement sont 
 | Toiles & tissus | 4, dont 1 brouillon → **3 actifs** | ⛔ |
 | `frontpage` | 1 | ⛔ et **publiée sur Google & YouTube sans titre ni meta SEO** |
 
-- **2 fiches ACTIVE à stock 0** : tissu de finition, et des articles électriques.
+- **5 variantes ACTIVE à stock 0, en survente (`CONTINUE`)**, relevé du 30/08 : tondeuse
+  électrique (89,90 €), ciseaux électriques ×2 (140 €), enfile-laine, toile primaire
+  0,5 × 1,05 m. Les deux premières sont dans les quatre produits à marge. Politique de
+  stock incohérente dans le catalogue (`DENY` sur les fils, `CONTINUE` ici), sans règle écrite.
+- **Aucun GTIN** (`barcode` nul sur 83/83 variantes) et **`productType` vide sur 40/40 produits** —
+  handicap permanent sur le flux Shopping, sans être un motif de refus.
+- **21 variantes sur 83 sans coût d'achat**, dont la toile primaire à 89,90 € : rentabilité
+  incalculable sur ces fiches.
+- Marges brutes des produits à pousser : kit 161,16 € (59,9 %) · gun 67,56 € (45,3 %) ·
+  tondeuse 46,99 € (52,3 %) · ciseaux 41,22 € (29,4 %). 24 des 36 actifs sont sous 30 €.
 - **Statut CE non tranché** : tondeuse 200 W, ciseaux électriques et kit tondeuse avaient été passés
   en DRAFT le 21/07 en attente de conformité. Ils sont repassés ACTIVE **sans trace écrite de la
   décision**. Arbitrage ouvert depuis quatre semaines.
@@ -87,6 +102,19 @@ Protocole appliqué : 30 €/jour pendant 5 jours sans y toucher. **≥ 100 € 
 Lecture révisée le 16/08 par les experts : le test a été **coupé trop tôt**, on ne conclut pas à
 120-130 €. Mais 3 ajouts paniers pour 0 vente reste aussi un signal d'offre et d'expérience, à ne pas
 absoudre entièrement. Reprise en septembre, budget proportionné au ticket.
+
+---
+
+## Avant le premier euro d'ads (30/08)
+
+1. **Commande de test réelle, carte de Hakim, puis remboursement.** `orders` est vide :
+   0 commande depuis l'ouverture. Sur six semaines, 5 checkouts atteints et 0 paiement,
+   alors que le port est à 0 € — l'hypothèse du choc aux frais tombe. Le paiement n'a
+   jamais été prouvé et l'activation Shopify Payments n'a pas pu être lue.
+2. **Trancher le stock de la tondeuse et des ciseaux électriques** (0 en survente).
+3. **Relevé GMC** — aucun depuis le 17/08.
+4. **`productType` sur les fiches poussées**, avant dépense.
+5. Démarrer sur **le kit et le gun seuls**, pas les 36 fiches.
 
 ---
 
