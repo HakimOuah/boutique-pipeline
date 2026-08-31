@@ -33,8 +33,14 @@ Backup descriptions avant :
   — 200, « Entretien : 129 », « commande test »
 - https://bonumvitae.fr/pages/comparer-osmoseurs-600-gpd — 200, title SEO Opus
 
-## Non fait
+## Freins retirés le 31/08 (demande Hakim)
 
-- Bloc thème au-dessus du titre (pas demandé).
-- Affirmer que le kit va sur le 299 €.
-- Nommer Waterdrop / inventer un débit L/min.
+Trop de transparence tuait la conversion. Hakim préfère le SAV.
+
+Retiré des 3 fiches + page compare : « compatibilité non contrôlée »,
+« à confirmer avant commande », « plutôt que de commander les deux »,
+« photo avant de commander », « plutôt que de vous le vendre ».
+
+Le kit 129 € est proposé comme l'entretien, sans réserve. Le 299 € n'affirme
+pas un test physique. FAQ thème « écrivez-nous avant de commander » laissée
+(bloc partagé, pas le frein visé).
