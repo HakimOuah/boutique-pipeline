@@ -42,5 +42,8 @@ Retiré des 3 fiches + page compare : « compatibilité non contrôlée »,
 « photo avant de commander », « plutôt que de vous le vendre ».
 
 Le kit 129 € est proposé comme l'entretien, sans réserve. Le 299 € n'affirme
-pas un test physique. FAQ thème « écrivez-nous avant de commander » laissée
-(bloc partagé, pas le frein visé).
+pas un test physique.
+
+2e passe (même soir) : « écrivez-nous avant de commander » retiré du thème
+live (product / index / collection) et de la page FAQ CMS. Remplacé par
+« écrivez-nous ». Site intact (200, header présent).
