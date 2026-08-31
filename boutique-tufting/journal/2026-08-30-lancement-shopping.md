@@ -16,6 +16,22 @@ Entrée créée le 31/08 pour dater l'événement, pas pour le commenter : sans 
 courbe des semaines à venir ne serait rattachable à rien. C'est exactement le rôle du registre des
 interventions.
 
+## Paramètres de la campagne
+
+| | |
+|---|---|
+| Type | Shopping, groupe d'annonces « Tufting », état **Éligible** |
+| Budget | **40 €/jour** |
+| Première soirée (30→31/08) | 124 impressions · **1 clic** · CTR 0,81 % · CPC 0,67 € · **0,67 € dépensé** |
+
+À 40 €/jour et 0,67 € de CPC, le seuil de [[RULE-2026-001]] — 229 €, le prix du kit — est
+atteignable en **moins de six jours**, à condition que le budget se dépense.
+
+**Le budget n'est pas la contrainte au démarrage** : 0,67 € consommé sur 40 € disponibles. Ce qui
+limite, c'est le nombre d'entrées en enchère. Si la dépense ne monte pas, augmenter le budget ne
+produira rien — les leviers sont les **enchères** d'abord, la **couverture du flux** ensuite. Le
+budget ne devient le frein qu'une fois consommé en entier.
+
 ## Ce qui est mesuré au moment du lancement
 
 Relevé ShopifyQL du 31/08 en début de journée :
