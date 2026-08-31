@@ -7,6 +7,15 @@
 
 ---
 
+> ## ⛔ DOSSIER CLOS — décision Hakim du 31/08/2026
+>
+> **Motif : trop de concurrents**, sur constat SERP direct de Hakim sur « console rétro ».
+> Le rejet **ne porte pas sur le volume** — le cluster passait le seuil. Il porte sur l'occupation
+> de la page, ce que la mesure recoupe : 28 700/mois de navigation de marque contre 14 800 de
+> générique. Ne pas re-proposer sans thèse réellement nouvelle et accord explicite.
+>
+> Ce rapport reste valable et sert à l'anti-doublon. Aucune phase 3, 4 ou 5 n'a été lancée.
+
 ## Résultat en une phrase
 
 **Le cluster console rétro passe le seuil (14 800 sur le seul bucket cœur, ≈ 19–20 k nettoyé, pic
