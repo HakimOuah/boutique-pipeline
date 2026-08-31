@@ -3,8 +3,9 @@
 
 Trois entrées de parcours (Par pièce, Par matière, puis les deux familles de luminaire)
 au lieu d'une liste à plat, et les pages de service inchangées.
-menuUpdate remplace la totalité des items : la sauvegarde d'avant est dans
-backups/2026-08-26-collections/menus-avant.json.
+menuUpdate remplace la totalité des items.
+31/08 : `plafonniers-cuisine` et `suspensions-xxl` sortis du menu (1 produit public).
+Sauvegarde : backups/2026-08-31-gmc-menu/.
 """
 from __future__ import annotations
 
@@ -26,7 +27,6 @@ ARBRE = [
         ("Chambre", "COLLECTION", "lustres-chambre"),
         ("Cuisine", "COLLECTION", "suspensions-cuisine"),
         ("Plafonniers salon", "COLLECTION", "plafonniers-salon"),
-        ("Plafonniers cuisine", "COLLECTION", "plafonniers-cuisine"),
     ]),
     ("Par matière", "COLLECTIONS", "/collections", [
         ("Bambou", "COLLECTION", "suspensions-bambou"),
@@ -45,10 +45,8 @@ ARBRE = [
     ]),
     ("Plafonniers LED", "COLLECTION", "plafonniers-led", [
         ("Plafonniers salon", "COLLECTION", "plafonniers-salon"),
-        ("Plafonniers cuisine", "COLLECTION", "plafonniers-cuisine"),
     ]),
     ("Appliques murales", "COLLECTION", "appliques-murales"),
-    ("Grand format", "COLLECTION", "suspensions-xxl"),
     ("Notre histoire", "PAGE", "/pages/notre-histoire"),
     ("FAQ", "PAGE", "/pages/faq"),
     ("Contact", "PAGE", "/pages/contact"),

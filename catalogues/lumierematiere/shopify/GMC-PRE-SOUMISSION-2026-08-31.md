@@ -1,50 +1,37 @@
 # Lumière Matière — pré-soumission GMC (31/08/2026)
 
-Relu live le 31/08 soir. CLI Connector ré-authentifié (`contact@lumierematiere.fr`). **Ne pas supprimer l’app Shopify CLI Connector.**
+Thème live : **LM GMC 2026-08-31** (`186897498448`) — Hakim l’a publié. CLI Connector = source des scopes (`read_products`, `write_themes`, `write_files`…). Le token custom `.env` reste `read_reports` : `client.py` le contourne.
 
-Téléphone boutique confirmé par Hakim : **`0756916084`** = **`+33 7 56 91 60 84`**. Ce n’est pas le `+33 7 56 82 80 94` du parc. Une seule écriture partout.
+Téléphone boutique : **`0756916084`** = **`+33 7 56 91 60 84`**.
 
-## Chez Hakim — encore ouvert
-
-### Publier le thème — après preview
-
-Copie **non publiée** : `LM GMC 2026-08-31` · `186897498448`
-
-- Preview (être connecté à l’admin) : https://lumierematiere.fr/?preview_theme_id=186897498448
-- PDP test : https://lumierematiere.fr/products/suspension-verre-538307?preview_theme_id=186897498448
-- Éditeur : https://nzefxg-gg.myshopify.com/admin/themes/186897498448/editor
-
-Sur le preview, contrôler : 0 `themefullstack`, 0 `200000531` dans le JSON-LD, adresse Paris, tél `0756916084` / `+33 7 56 91 60 84`. Puis **Hakim publie**. Le JSON-LD / SKU du MAIN n’a pas été réécrit.
-
-## Live 31/08 soir
+## Live, relu `json.loads` 31/08 soir
 
 | Point | État |
 |---|---|
-| Adresse JSON-LD | 47 Rue Vivienne, Paris, 75002 |
-| Téléphone boutique / JSON-LD | `0756916084` — confirmé |
-| Téléphone pages / footer / policies | `+33 7 56 91 60 84` / `tel:+33756916084` — aligné |
-| JSON-LD `sameAs` themefullstack | encore 3 URLs sur le **MAIN** (corrigé sur la copie) |
-| SKU AE dans JSON-LD PDP | encore `200000531` sur le **MAIN** (corrigé sur la copie) |
-| Alt « vue Codex N » | 0 restants |
-| Filenames AE `S….webp` | 0 sur la fiche live LM-126 (renommés `…-g1.webp` … `g9`) |
-| CGV Klarna + CB + Maestro | live |
-| FAQ « garantie de 30 jours » | remplacée par retour 30 j |
-| Collections menu < 5 publics | inchangé — Hakim tranche, on ne publie aucun brouillon |
-| Délais 7–18 / identité OH Ventures / 0 avis / 0 prix barré public | inchangés |
+| JSON-LD Organization | **parse OK**. Adresse 47 Rue Vivienne / Paris / 75002. Tél `0756916084`. Pas de `sameAs`. Virgule orpheline après `logo` **corrigée** (leading commas). |
+| JSON-LD Product | **parse OK**, **pas de clé `sku`**. Le `136:200003938;200000531:…` restant est dans le JSON storefront Shopify (analytics / variantes), pas dans `application/ld+json`. SKU admin intouchables. |
+| Menu | `suspensions-xxl` et `plafonniers-cuisine` sortis du menu principal et de `/collections`. Collections et brouillons **non publiés**. |
+| §6.1 compareAtPrice | 132 fiches lues via CLI. **0 ACTIVE**. 118 hits sur **3 DRAFT** DSers anglais (prix = barré). Rien publié. |
+| Alt Codex / filenames AE LM-126 / FAQ / CGV | déjà live |
 
-## Déjà fait (sans publier de thème ni de brouillon)
+## §6.1 — les 3 brouillons à ne jamais publier
 
-- Pages + policies + mentions + footer (MAIN et copie) : un seul n° `+33 7 56 91 60 84`.
-- `fileUpdate.filename` sur les 9 médias de `applique-murale-pierre-metal-147598`. Variantes Blanc → g7, Noir → g8. SKU DSers inchangés. Pas de `fileDelete`.
-- Copie thème : sameAs themefullstack vidé + JSON-LD produit sans clé `sku`.
-- Script : `gmc_finish_lot.py`, `gmc_pre_submit.py`.
+- `modern-minimalist-wicker-ratten-led-pendant-light-…`
+- `vintage-rattan-weaving-art-pendant-lights-…`
+- `vintage-hand-woven-rattan-lamp-…`
+
+Ce sont des dumps DSers anglais. `compareAtPrice` = prix. Les publier allumerait des prix barrés — le point aveugle Noirmont.
+
+## Menu : sorti, pas garni
+
+`plafonniers-cuisine` et `suspensions-xxl` ont 1 produit public chacune. On les a retirées de la navigation. Les brouillons rattachés restent en brouillon.
 
 ## Encore hors écriture
 
-- §6.1 : `compareAtPrice` seulement sur 3 dumps DSers **DRAFT** anglais (prix = barré). Laisser.
-- Brouillons avec `S….webp` (plafonnier 728204, applique 358794) : pas touchés, pas publiés.
-- 7–10 j de repos après publication du thème, commande test, puis GMC via Google & YouTube, pas d’ads, une review.
+- Autres collections menu encore < 5 publics (osier, bambou, pierre, salon, lustres chambre) : pas touchées ce passage.
+- Brouillons `S….webp` hors LM-126 : pas touchés.
+- 7–10 j de repos, commande test, puis GMC via Google & YouTube, pas d’ads, une review.
 
-## Hors périmètre (inchangé)
+## Hors périmètre
 
-TVA `taxable: false` vs mentions FR55… — décision comptable. Publication thème / brouillons — Hakim. SKU variantes — intouchables.
+TVA `taxable: false` vs mentions FR55… — décision comptable. SKU variantes — intouchables.
