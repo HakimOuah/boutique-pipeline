@@ -105,3 +105,4 @@ Coût DSers (unité) + **2 € de fret** (quotes FR : 1,99 € / 0 €). Concurr
 9. **3 verres — live 26/08.** `/products/suspension-verre-405368` · `/products/suspension-verre-bois-910933` · `/products/suspension-verre-538307`. Pampilles et bambou : ne pas republier / ne pas garnir.
 10. **Second passage de sourcing appliques** : le rayon n'a qu'une matière. Oiseau (best-seller Lustria), verre, laiton, rotin, bras long, extérieur 220 V restent à trouver.
 11. **Convention de titres** : `Applique murale` est un sixième type, à ajouter à la grille fermée de `CONVENTION-TITRES-2026-08-25.md`.
+12. **GMC avant review — 31/08.** `GMC-PRE-SOUMISSION-2026-08-31.md`. D’abord : adresse boutique (47 rue Vivienne / +33 7 56 82 80 94) puis scopes de l’app custom. Ensuite relancer `gmc_pre_submit.py`. Ne pas créer le Merchant Center tant que ce lot n’est pas en ligne et reposé 7–10 j.
