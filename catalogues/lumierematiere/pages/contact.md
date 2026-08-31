@@ -3,7 +3,7 @@
 Une question sur un diamètre, une ampoule, la pose au plafond ? Écrivez-nous. C’est une personne qui lit, pas un robot.
 
 - **E-mail :** [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr)
-- **Téléphone :** +33 7 56 82 80 94
+- **Téléphone :** +33 7 56 91 60 84
 - **Adresse postale :** 47 rue Vivienne, 75002 Paris, France
 - **Service client :** du lundi au vendredi, de 10h00 à 18h00 (heure de Paris)
 

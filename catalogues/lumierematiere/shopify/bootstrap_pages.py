@@ -33,7 +33,7 @@ LEGAL_NOTICE_HTML = """
 <ul>
 <li>Siège : 47 rue Vivienne, 75002 Paris, France</li>
 <li>SIRET 10315725100010 · TVA FR55103157251</li>
-<li>E-mail : <a href="mailto:contact@lumierematiere.fr">contact@lumierematiere.fr</a> · Tél. +33 7 56 82 80 94</li>
+<li>E-mail : <a href="mailto:contact@lumierematiere.fr">contact@lumierematiere.fr</a> · Tél. +33 7 56 91 60 84</li>
 <li>Directeur de la publication : le président d'OH Ventures</li>
 <li>Hébergement de la boutique : Shopify Inc.</li>
 <li>Médiateur de la consommation : CM2C, 14 rue Saint Jean, 75017 Paris. Téléphone 01 89 47 00 14, <a href="https://www.cm2c.net/">https://www.cm2c.net/</a></li>

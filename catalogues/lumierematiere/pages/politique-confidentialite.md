@@ -49,7 +49,7 @@ Nous mettons en œuvre des mesures techniques et organisationnelles adaptées, c
 Une question avant de commander, ou après ? Écrivez-nous, l’équipe répond de Paris.
 
 - E-mail : [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr)
-- Téléphone : +33 7 56 82 80 94
+- Téléphone : +33 7 56 91 60 84
 - Horaires : du lundi au vendredi, de 10h00 à 18h00 (heure de Paris). Fermé le week-end et les jours fériés.
 - Adresse : 47 rue Vivienne, 75002 Paris, France
 

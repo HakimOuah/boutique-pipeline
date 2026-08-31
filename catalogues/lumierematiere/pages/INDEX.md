@@ -25,7 +25,7 @@
 | SIRET | 10315725100010 |
 | TVA intracommunautaire | FR55103157251 |
 | E-mail boutique | contact@lumierematiere.fr |
-| Téléphone | +33 7 56 82 80 94 |
+| Téléphone | +33 7 56 91 60 84 |
 | Marque | Lumière Matière = nom commercial d'OH Ventures |
 
 > Même entité juridique qu'Orysbain (OH Ventures), mais e-mail propre à chaque site. La **formulation** des pages reste distincte entre les deux boutiques — seuls les faits légaux sont communs.

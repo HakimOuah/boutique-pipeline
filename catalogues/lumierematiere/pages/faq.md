@@ -95,6 +95,6 @@ Le raccordement au plafond se fait courant coupé au disjoncteur, sans exception
 - Nom de la boutique : Lumière Matière
 - Adresse : 47 rue Vivienne, 75002 Paris, France
 - E-mail : [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr)
-- Téléphone : +33 7 56 82 80 94
+- Téléphone : +33 7 56 91 60 84
 - Horaires du service client : du lundi au vendredi, de 10h00 à 18h00 (heure de Paris). Fermé le week-end et les jours fériés.
 - Délai de réponse : nous visons une réponse sous 24 heures ouvrées.

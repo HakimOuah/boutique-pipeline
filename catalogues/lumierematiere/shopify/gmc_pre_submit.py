@@ -203,12 +203,34 @@ def apply_alts(products: list[dict]) -> int:
 
 
 def apply_ae_rename(products: list[dict]) -> None:
+    """Renomme les S….webp via fileUpdate.filename — pas de fileDelete, SKU inchangés."""
     target = next((p for p in products if p["handle"] == AE_HANDLE), None)
     if not target:
         raise RuntimeError(f"fiche {AE_HANDLE} introuvable")
-    print(f"  AE rename : {len(target['media']['nodes'])} médias — téléchargement + restage")
-    print("  STOP : le renommage CDN exige write_files + staged upload.")
-    print("  Les alts sont déjà au format « vue N ». À relancer avec --apply-ae une fois les scopes ouverts.")
+    files = []
+    for i, node in enumerate(target["media"]["nodes"], start=1):
+        url = ((node.get("image") or {}).get("url") or "")
+        name = url.split("?")[0].rsplit("/", 1)[-1]
+        if not re.match(r"S[A-Za-z0-9]+\.webp$", name):
+            continue
+        files.append({"id": node["id"], "filename": f"{AE_HANDLE}-g{i}.webp"})
+    if not files:
+        print("  AE rename : déjà au format handle-gN")
+        return
+    data = gql(
+        """
+        mutation($files: [FileUpdateInput!]!) {
+          fileUpdate(files: $files) {
+            userErrors { field message }
+          }
+        }
+        """,
+        {"files": files},
+    )
+    errs = data["fileUpdate"]["userErrors"]
+    if errs:
+        raise RuntimeError(errs)
+    print(f"  AE rename : {len(files)} fichiers → {AE_HANDLE}-gN.webp")
 
 
 def apply_texts() -> None:

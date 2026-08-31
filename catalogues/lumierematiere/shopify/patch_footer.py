@@ -12,8 +12,8 @@ from apply_fullstack import theme_file, upsert_theme_file  # noqa: E402
 from client import gql  # noqa: E402
 
 EMAIL = "contact@lumierematiere.fr"
-PHONE_DISPLAY = "+33 7 56 82 80 94"
-PHONE_TEL = "+33756828094"
+PHONE_DISPLAY = "+33 7 56 91 60 84"
+PHONE_TEL = "+33756916084"
 CONTACT_PATH = "/pages/contact"
 
 BRAND_HTML = (

@@ -2,18 +2,9 @@
 
 Relu live le 31/08 soir. CLI Connector ré-authentifié (`contact@lumierematiere.fr`). **Ne pas supprimer l’app Shopify CLI Connector.**
 
+Téléphone boutique confirmé par Hakim : **`0756916084`** = **`+33 7 56 91 60 84`**. Ce n’est pas le `+33 7 56 82 80 94` du parc. Une seule écriture partout.
+
 ## Chez Hakim — encore ouvert
-
-### Téléphone boutique (JSON-LD encore faux)
-
-**Paramètres → Général → Coordonnées de la boutique → Téléphone**
-
-| Champ | Live (JSON-LD home) | Cible |
-|---|---|---|
-| Adresse | 47 Rue Vivienne, Paris, 75002 | OK — Saint-Prix parti |
-| Téléphone | `0756916084` | `+33 7 56 82 80 94` |
-
-Ne pas toucher aux pages mentions / CGV / footer : ils disent déjà Paris et le bon numéro.
 
 ### Publier le thème — après preview
 
@@ -23,33 +14,36 @@ Copie **non publiée** : `LM GMC 2026-08-31` · `186897498448`
 - PDP test : https://lumierematiere.fr/products/suspension-verre-538307?preview_theme_id=186897498448
 - Éditeur : https://nzefxg-gg.myshopify.com/admin/themes/186897498448/editor
 
-Sur le preview, contrôler : 0 `themefullstack`, 0 `200000531` dans le JSON-LD, adresse Paris. Puis **Hakim publie**. Le MAIN n’a pas été touché.
+Sur le preview, contrôler : 0 `themefullstack`, 0 `200000531` dans le JSON-LD, adresse Paris, tél `0756916084` / `+33 7 56 91 60 84`. Puis **Hakim publie**. Le JSON-LD / SKU du MAIN n’a pas été réécrit.
 
-## Déjà live (MAIN, pas de publication thème)
+## Live 31/08 soir
 
-| Point | Live 31/08 soir |
+| Point | État |
 |---|---|
 | Adresse JSON-LD | 47 Rue Vivienne, Paris, 75002 |
-| Téléphone JSON-LD | encore `0756916084` |
-| JSON-LD `sameAs` themefullstack | encore 3 URLs sur le MAIN |
-| SKU AE dans JSON-LD PDP | encore `200000531` sur le MAIN (corrigé sur la copie) |
-| Alt « vue Codex N » | 0 restants (35/35 corrigés) |
-| CGV §4 Klarna + CB + Maestro | live |
+| Téléphone boutique / JSON-LD | `0756916084` — confirmé |
+| Téléphone pages / footer / policies | `+33 7 56 91 60 84` / `tel:+33756916084` — aligné |
+| JSON-LD `sameAs` themefullstack | encore 3 URLs sur le **MAIN** (corrigé sur la copie) |
+| SKU AE dans JSON-LD PDP | encore `200000531` sur le **MAIN** (corrigé sur la copie) |
+| Alt « vue Codex N » | 0 restants |
+| Filenames AE `S….webp` | 0 sur la fiche live LM-126 (renommés `…-g1.webp` … `g9`) |
+| CGV Klarna + CB + Maestro | live |
 | FAQ « garantie de 30 jours » | remplacée par retour 30 j |
 | Collections menu < 5 publics | inchangé — Hakim tranche, on ne publie aucun brouillon |
 | Délais 7–18 / identité OH Ventures / 0 avis / 0 prix barré public | inchangés |
 
-## Copie thème (non publiée)
+## Déjà fait (sans publier de thème ni de brouillon)
 
-- `config/settings_data.json` : `facebook_url`, `youtube_url`, `linkedin_url`, `instagram_url` = `""` (sinon défauts schéma themefullstack).
-- `snippets/organization-schema.liquid` : ignore toute URL qui contient `themefullstack`.
-- `snippets/meta-tags.liquid` : JSON-LD Product maison, **sans clé `sku`**. Les SKU variantes admin restent intacts (mapping DSers).
+- Pages + policies + mentions + footer (MAIN et copie) : un seul n° `+33 7 56 91 60 84`.
+- `fileUpdate.filename` sur les 9 médias de `applique-murale-pierre-metal-147598`. Variantes Blanc → g7, Noir → g8. SKU DSers inchangés. Pas de `fileDelete`.
+- Copie thème : sameAs themefullstack vidé + JSON-LD produit sans clé `sku`.
+- Script : `gmc_finish_lot.py`, `gmc_pre_submit.py`.
 
-## Encore à faire (après preview / téléphone)
+## Encore hors écriture
 
-- §3.2 : 9 fichiers `S….webp` sur `applique-murale-pierre-metal-147598` — restage, pas `fileDelete`.
-- §6.1 : `compareAtPrice` seulement sur 3 dumps DSers **DRAFT** anglais (prix = barré). Laisser. `write_products` interdit.
-- 7–10 j de repos, commande test, puis GMC via Google & YouTube, pas d’ads, une review.
+- §6.1 : `compareAtPrice` seulement sur 3 dumps DSers **DRAFT** anglais (prix = barré). Laisser.
+- Brouillons avec `S….webp` (plafonnier 728204, applique 358794) : pas touchés, pas publiés.
+- 7–10 j de repos après publication du thème, commande test, puis GMC via Google & YouTube, pas d’ads, une review.
 
 ## Hors périmètre (inchangé)
 

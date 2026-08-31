@@ -30,8 +30,8 @@ from apply_fullstack import theme_file, upsert_theme_file  # noqa: E402
 BACKUP = ROOT / "backups" / "2026-08-25-humanisation"
 
 EMAIL = "contact@lumierematiere.fr"
-PHONE_DISPLAY = "+33 7 56 82 80 94"
-PHONE_TEL = "+33756828094"
+PHONE_DISPLAY = "+33 7 56 91 60 84"
+PHONE_TEL = "+33756916084"
 CONTACT_PATH = "/pages/contact"
 
 HERO = "sections.image_banner_VXNP89.blocks.image_banner_dBEabG.blocks.group_nypGzr"

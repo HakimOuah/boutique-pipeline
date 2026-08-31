@@ -20,4 +20,4 @@ Lumière Matière est une boutique en ligne parisienne, au 47 rue Vivienne, dans
 
 Faites un tour dans [les collections par matière](/collections) pour voir ce qui irait dans votre pièce. Et si vous hésitez sur un diamètre, une ampoule ou une hauteur de câble, écrivez-nous avant de commander. On préfère largement répondre à trois questions que traiter un retour.
 
-E-mail : [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr). Téléphone : +33 7 56 82 80 94. Nous sommes là du lundi au vendredi, de **10h00 à 18h00** (heure de Paris), et nous visons une réponse sous **24 heures ouvrées**.
+E-mail : [contact@lumierematiere.fr](mailto:contact@lumierematiere.fr). Téléphone : +33 7 56 91 60 84. Nous sommes là du lundi au vendredi, de **10h00 à 18h00** (heure de Paris), et nous visons une réponse sous **24 heures ouvrées**.
