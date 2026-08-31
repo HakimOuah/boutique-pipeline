@@ -1,7 +1,7 @@
 # Bonum Vitae — état courant
 
-**Dernière mise à jour : 30/08/2026** — audit pré-lancement ads.
-Conformité OK ; périmètre du feed à trancher.
+**Dernière mise à jour : 31/08/2026** — feed restreint + lecture GMC +
+étude Waterdrop Europe (`journal/2026-08-31-etude-waterdrop-europe.md`).
 [`TABLEAU.md`](TABLEAU.md) ·
 [`journal/2026-08-18-gmc-existant.md`](journal/2026-08-18-gmc-existant.md).
 
