@@ -4,8 +4,9 @@ Voici comment régler votre commande sur lumierematiere.fr, et ce qui se passe c
 
 ## Moyens de paiement acceptés
 
-- Carte bancaire : Visa, Mastercard, American Express
+- Carte bancaire : Visa, Mastercard, American Express, Cartes Bancaires, Maestro
 - Portefeuilles : Apple Pay, Shop Pay, PayPal
+- Paiement fractionné : Klarna
 
 ## Devise
 

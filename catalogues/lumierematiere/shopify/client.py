@@ -1,7 +1,8 @@
-"""Client GraphQL Admin — token lu depuis l'auth CLI Shopify (jamais stocké ici)."""
+"""Client GraphQL Admin — token env / .env, sinon auth CLI Shopify (jamais stocké ici)."""
 from __future__ import annotations
 
 import json
+import os
 import time
 import urllib.error
 import urllib.request
@@ -10,15 +11,29 @@ from pathlib import Path
 STORE = "nzefxg-gg.myshopify.com"
 API_VERSION = "2025-07"
 CLI_STORE_CONFIG = Path.home() / "Library/Preferences/shopify-cli-store-nodejs/config.json"
+PIPELINE_ENV = Path(__file__).resolve().parents[3] / ".env"
+
+
+def _token_from_dotenv() -> str | None:
+    if not PIPELINE_ENV.exists():
+        return None
+    for line in PIPELINE_ENV.read_text().splitlines():
+        if line.startswith("SHOPIFY_LUMIERE_MATIERE_TOKEN="):
+            value = line.split("=", 1)[1].strip()
+            return value or None
+    return None
 
 
 def access_token() -> str:
+    token = os.environ.get("SHOPIFY_LUMIERE_MATIERE_TOKEN") or _token_from_dotenv()
+    if token:
+        return token
     data = json.loads(CLI_STORE_CONFIG.read_text())
     for key, value in data.items():
         if STORE in key and isinstance(value, dict):
             uid = str(value["currentUserId"])
             return value["sessionsByUserId"][uid]["accessToken"]
-    raise RuntimeError(f"Pas de token CLI pour {STORE} — relancer shopify store auth")
+    raise RuntimeError(f"Pas de token pour {STORE} — poser SHOPIFY_LUMIERE_MATIERE_TOKEN ou relancer shopify store auth")
 
 
 def gql(query: str, variables: dict | None = None, *, retries: int = 6) -> dict:

@@ -49,7 +49,7 @@
 
 ## Moyens de paiement (caisse réelle, 24/08 soir)
 
-Visa, Mastercard, American Express · Apple Pay · Shop Pay · PayPal. **Pas de Google Pay.** Footer = page Paiement = CGV.
+Visa, Mastercard, American Express, Cartes Bancaires, Maestro · Apple Pay · Shop Pay · PayPal · Klarna. **Pas de Google Pay.** Footer = page Paiement = CGV. Vérifié checkout anonyme 31/08/2026.
 
 ## Médiateur
 

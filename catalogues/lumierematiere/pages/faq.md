@@ -48,7 +48,7 @@ Plus de détails : [politique de remboursement](https://lumierematiere.fr/polici
 
 ## Y a-t-il une garantie sur les produits ?
 
-Oui, une garantie de 30 jours sur tous les achats. Elle s’ajoute aux garanties légales de conformité et des vices cachés, qui restent acquises dans tous les cas.
+Vous avez 30 jours après réception pour changer d’avis et renvoyer un article. S’y ajoutent, dans tous les cas, la garantie légale de conformité et la garantie contre les vices cachés.
 
 Plus d’informations : [politique de remboursement](https://lumierematiere.fr/policies/refund-policy).
 
