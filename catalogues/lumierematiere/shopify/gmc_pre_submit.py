@@ -337,9 +337,12 @@ def apply_theme() -> str:
     settings = json.loads(cleaned)
     current = settings.get("current") or {}
     changed = False
-    for key in SOCIAL_KEYS:
-        val = current.get(key) or ""
-        if "themefullstack" in str(val).lower():
+    # Clés absentes = défauts schéma themefullstack. Il faut les poser à "".
+    for key in ("facebook_url", "youtube_url", "linkedin_url", "instagram_url"):
+        val = current.get(key)
+        if val not in ("", None) and "themefullstack" not in str(val).lower():
+            continue
+        if val != "":
             current[key] = ""
             changed = True
             print(f"  social vidé {key}")
@@ -355,23 +358,9 @@ def apply_theme() -> str:
         )
         upsert_text(copy_id, "config/settings_data.json", header + json.dumps(settings, ensure_ascii=False, indent=2) + "\n")
 
-    for filename in LD_CANDIDATES:
-        body = theme_file(copy_id, filename)
-        if not body or "sku" not in body.lower():
-            continue
-        if "ld+json" not in body and "schema.org" not in body:
-            continue
-        new = re.sub(
-            r'([,{{])\s*"sku"\s*:\s*\{\{\s*[^}]+\.sku[^}]*\}\}\s*,?',
-            r"\1",
-            body,
-        )
-        new = re.sub(r",\s*}", "}", new)
-        if new != body:
-            upsert_text(copy_id, filename, new)
-            print(f"  sku retiré du JSON-LD dans {filename}")
-        else:
-            print(f"  sku présent dans {filename} — à relire à la main")
+    meta = theme_file(copy_id, "snippets/meta-tags.liquid")
+    if meta and "{{ product | structured_data }}" in meta:
+        print("  meta-tags.liquid expose encore structured_data — à pousser via theme push")
     return copy_id
 
 

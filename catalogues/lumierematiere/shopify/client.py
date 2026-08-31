@@ -24,16 +24,24 @@ def _token_from_dotenv() -> str | None:
     return None
 
 
-def access_token() -> str:
-    token = os.environ.get("SHOPIFY_LUMIERE_MATIERE_TOKEN") or _token_from_dotenv()
-    if token:
-        return token
+def _token_from_cli() -> str | None:
+    if not CLI_STORE_CONFIG.exists():
+        return None
     data = json.loads(CLI_STORE_CONFIG.read_text())
     for key, value in data.items():
         if STORE in key and isinstance(value, dict):
-            uid = str(value["currentUserId"])
-            return value["sessionsByUserId"][uid]["accessToken"]
-    raise RuntimeError(f"Pas de token pour {STORE} — poser SHOPIFY_LUMIERE_MATIERE_TOKEN ou relancer shopify store auth")
+            uid = str(value.get("currentUserId") or "")
+            token = ((value.get("sessionsByUserId") or {}).get(uid) or {}).get("accessToken")
+            return token or None
+    return None
+
+
+def access_token() -> str:
+    # CLI Connector d'abord : scopes larges. Le token custom .env est souvent read_reports seul.
+    token = _token_from_cli() or os.environ.get("SHOPIFY_LUMIERE_MATIERE_TOKEN") or _token_from_dotenv()
+    if token:
+        return token
+    raise RuntimeError(f"Pas de token pour {STORE} — relancer shopify store auth")
 
 
 def gql(query: str, variables: dict | None = None, *, retries: int = 6) -> dict:
