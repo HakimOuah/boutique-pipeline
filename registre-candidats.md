@@ -16,7 +16,7 @@ Dernière mise à jour : 31 août 2026 (soir) — **console rétro portable** me
 
 Origine : boutique preuve [fun-esports.com](https://fun-esports.com) apportée par Hakim (Shopify,
 569 SKU, éditeur JMR-Service, EI en franchise en base de TVA).
-Rapport : [reports/mesure-express-console-retro-2026-08-31.md](reports/mesure-express-console-retro-2026-08-31.md).
+Dossier : [analyses/2026-08-31-console-retro-fun-esports/](analyses/2026-08-31-console-retro-fun-esports/) (rapport, 3 jeux de mesure JSON, catalogue distillé de la boutique preuve).
 Base **DataForSEO**, seuil PRODUIT PUR 12 500. Témoin `tufting` 12 100 conforme avant/après chaque passe.
 
 | Idée | Statut | Volume mesuré | Motif |
