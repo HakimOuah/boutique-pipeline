@@ -74,7 +74,7 @@ Synonymes anti-doublon : bracelet photo, collier photo, collier prénom, project
 | Retraits | `chevillère` 14 800 (orthopédie) · `bague de promesse` 18 100 (HdO/Pandora) à 0 % |
 | Dossier | [analyses/2026-08-31-univers-bijoux-personnalises/](analyses/2026-08-31-univers-bijoux-personnalises/) |
 
-Aucun sourcing, aucun GO. Cartographie étape 7 complète non lancée (cas limite).
+Aucun sourcing, aucun GO. Cartographie étape 7 complète non lancée (cas limite). **Sauf 31/08 soir :** sourcing AE ouvert sur instruction Hakim — rapport [phase4-sourcing-bijoux-personnalises-2026-08-31.md](reports/phase4-sourcing-bijoux-personnalises-2026-08-31.md). Photo = SKU `Send me your picture` (HAOHUPO) + URL en remark, pas une variante couleur.
 
 ## Mission B UNIVERS — 28/08/2026 — consolidation par familles sur 4 survivants 30×30
 

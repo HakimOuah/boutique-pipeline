@@ -10,6 +10,7 @@ Mode **UNIVERS**. Preuve boutique : Brother & Sisters (TrendTrack + catalogue). 
 | [03-verification-serp.md](03-verification-serp.md) | 5 |
 | [04-concurrents-et-axe.md](04-concurrents-et-axe.md) | 6–8 |
 | [05-correctif-google-ads.md](05-correctif-google-ads.md) | Canal Google (386 ads) — Mix Search/Shopping |
+| [06-sourcing-personnalisation.md](06-sourcing-personnalisation.md) | Sourcing AE + parcours photo (instruction Hakim) |
 
 ## Verdict technique
 
