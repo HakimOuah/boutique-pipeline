@@ -11,13 +11,13 @@ pour un test ads en septembre. Prompt de relance :
 
 **Mets ce fichier à jour avant de rendre la main.**
 
-> 👉 **Hakim, maintenant :** surveiller GMC `5825588636` puis lancer
-> **1 PMAX**, France, conv. `purchase`, **30 €/j × 5 j** sans toucher.
-> **GO** = ~14 items approuvés, plancher ≥ 66,90 €, plus d'aérateur /
-> pommeau / cartouches à 3–20 €. **Ne pas relancer de review.**
+> 👉 **Hakim, maintenant :** 1 dernier contrôle liste GMC (prix mini +
+> kit/LPS) puis **1 PMAX**, France, conv. `purchase`, **30 €/j × 5 j**
+> sans toucher. Courbe 31/08 : ~95 → ~25–30 Approuvés. Cible 14 items.
+> **Ne pas relancer de review.**
 
-Dernière mise à jour : **30/08/2026** — feed restreint (kit + LPS inclus) ;
-Hakim attend le sync GMC avant le premier euro.
+Dernière mise à jour : **31/08/2026** — GMC a bien vu la baisse du feed
+restreint. Vérifier le plancher avant le premier euro.
 
 ---
 

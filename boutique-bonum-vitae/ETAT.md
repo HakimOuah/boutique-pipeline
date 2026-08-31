@@ -105,7 +105,7 @@ par 24–48 h + cutoff 15h + 6–10 j. Wallets et Klarna ajoutés aux CGV.
 
 **Feed restreint 30/08 :** 10 fiches / **14 items**, plancher 66,90 €
 (kit 129 € et LPS 149 € ajoutés). 10 fiches low-ticket hors Google, toujours
-en vitrine. Hakim surveille le sync GMC avant PMAX. Signal GO dans
+en vitrine. Courbe GMC 31/08 : ~95 → ~25–30 Approuvés (cible 14). Signal GO dans
 [`journal/2026-08-30-audit-prelancement-ads.md`](journal/2026-08-30-audit-prelancement-ads.md).
 
 **Tracking** : `AW-18325545481` + `GT-M34W44VB`, événement `purchase` câblé.

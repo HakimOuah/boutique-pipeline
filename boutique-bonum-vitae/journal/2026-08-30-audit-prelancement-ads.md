@@ -107,6 +107,16 @@ Google & YouTube, ne pas soumettre de review.
 
 Campagne : 1 PMAX, France, conv. `purchase` (`AW-18325545481`), 30 €/j × 5 j.
 
+## Lecture GMC 31/08 (capture Hakim)
+
+Courbe 28 j, compte `5825588636` : Approuvés stables ~85–95 du 7 au 30/08,
+puis **chute nette le 30–31/08 vers ~25–30**. Limités / Non approuvés /
+Examen ≈ 0. GMC a bien ingéré le `unpublish` Shopify.
+
+Écart vs cible **14 items** : encore ~10–15 reliquats possibles. Avant
+PMAX : ouvrir la liste Produits, trier par prix. GO si plancher ≥ 66,90 €
+et kit + LPS Approuvés. NO-GO si aérateur / pommeau / cartouches encore verts.
+
 ## À vérifier avant le premier euro
 
 - Le pommeau (24 variantes) est **hors** Google depuis le 30/08 — plus de
