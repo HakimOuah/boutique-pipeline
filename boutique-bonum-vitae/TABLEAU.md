@@ -16,10 +16,10 @@ pour un test ads en septembre. Prompt de relance :
 > sans toucher. Courbe 31/08 : ~95 → ~25–30 Approuvés. Cible 14 items.
 > **Ne pas relancer de review.**
 
-Dernière mise à jour : **31/08/2026** — GMC a vu la baisse du feed.
-Profil Waterdrop Europe (`waterdropfilter.eu`) : marque établie, pas un
-pair — [`journal/2026-08-31-etude-waterdrop-europe.md`](journal/2026-08-31-etude-waterdrop-europe.md).
-PMAX d'abord ; compare + coût annuel ensuite.
+Dernière mise à jour : **31/08/2026** — copy entretien 129 € sur les 2
+osmoseurs + page
+[`/pages/comparer-osmoseurs-600-gpd`](https://bonumvitae.fr/pages/comparer-osmoseurs-600-gpd)
+(Opus 5). GMC : dernier tri prix puis PMAX.
 
 ---
 
