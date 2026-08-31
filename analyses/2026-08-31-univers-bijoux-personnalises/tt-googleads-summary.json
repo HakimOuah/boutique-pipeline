@@ -1,0 +1,58 @@
+{
+  "shop_googleAds": {
+    "liveAds_ui": 386,
+    "liveAds_field": 216,
+    "adsLaunched30d": 64,
+    "reach": 7156500,
+    "platformMix": [
+      {
+        "platform": "Search",
+        "ads": 201
+      },
+      {
+        "platform": "Shopping",
+        "ads": 107
+      },
+      {
+        "platform": "Other",
+        "ads": 56
+      },
+      {
+        "platform": "Youtube",
+        "ads": 29
+      }
+    ],
+    "topCountries": [
+      {
+        "code": "FR",
+        "ads": 41,
+        "reach": 1280500
+      },
+      {
+        "code": "GB",
+        "ads": 32,
+        "reach": 0
+      },
+      {
+        "code": "DE",
+        "ads": 26,
+        "reach": 473500
+      },
+      {
+        "code": "BE",
+        "ads": 24,
+        "reach": 104000
+      },
+      {
+        "code": "IE",
+        "ads": 19,
+        "reach": 301500
+      }
+    ]
+  },
+  "advertiser_liveAds": {
+    "google": 386,
+    "all": 412
+  },
+  "note": "GET /v1/shops advertising.activeAds = Meta only. googleAds comes from POST /v1/shops/query."
+}

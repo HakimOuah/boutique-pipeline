@@ -10,10 +10,11 @@ Preuve TrendTrack B&S (API shop `074ee3de-92d3-4f6a-8589-8e1d3ef7f34e`, 2026-08-
 | Visites / mois | **55 406** · +53 % / 30 j · +166 % / 90 j · **+3 % / 180 j** |
 | Hist. 6 mois | fév 17 k → mar 26 k → avr 21 k → mai 33 k → jun 36 k → **juil 55 k** |
 | Geo visites | FR 29 % · US 24 % · DE 10 % · CH 9 % · CA 8 % → ~16 k visites FR |
-| Ads actives | **26** (toutes sur la page Facebook « Brother & Sisters - France ») |
-| Hist. ads | **mars 96–127 ads**, puis plateau 23–26 depuis avril |
-| Geo ads | US 33 % · AT 20 % · DE 20 % · AU 13 % · GB 13 % — **FR absente du top ads** |
-| Reach ads 30 j | 343 (métrique TrendTrack, pas des impressions) |
+| Ads Meta actives | **26** (toutes sur la page Facebook « Brother & Sisters - France ») — **pas** le canal n°1 |
+| Ads Google | **386** live (UI + `advertiser.liveAds.google`) · mix Search 201 / Shopping 107 / Other 56 / YouTube 29 · **41 ads FR**, reach FR 1,28 M · 64 lancées / 30 j · voir [05-correctif-google-ads.md](05-correctif-google-ads.md) |
+| Hist. ads Meta | **mars 96–127**, puis plateau 23–26 depuis avril (courbe Meta seulement) |
+| Geo ads Meta | US 33 % · AT 20 % · DE 20 % · AU 13 % · GB 13 % — **FR absente du top Meta** |
+| Reach Meta 30 j | 343 (métrique TT, pas des impressions) |
 | TikTok | 40,8 k abo · 12,6 M vues · 0 ad TikTok active |
 | Apps | GemPages, Klaviyo, Loox, Simprosys **Google Shopping feed**, Google & YouTube, Trackify Meta/TikTok, Ymq Product Options (upload photo), AfterSell, Weglot |
 | Trustpilot | 3,5 / 667 |
@@ -21,7 +22,7 @@ Preuve TrendTrack B&S (API shop `074ee3de-92d3-4f6a-8589-8e1d3ef7f34e`, 2026-08-
 
 Le pic Q4 n’est pas dans l’historique API (fév–juil seulement). `growth180d` +3 % implique un niveau **janvier ≈ juillet**. Creux février 17 k = lendemain des fêtes. Les séries Ads des têtes (nov–déc ×2–3,5) confirment le Q4 **côté demande**, pas seulement côté leur trafic.
 
-Ils **réduisent** le nombre d’ads Meta depuis mars tout en **montant** le trafic : ce n’est plus une montée de pression pub brute, c’est un compte qui a déjà un residual + SEO + e-mail + TikTok organique.
+Ils **réduisent** les ads Meta depuis mars tout en **montant** le trafic : le scaling n’est plus Meta. Le canal qui tient, c’est Google (386 ads, mix image/Shopping, 41 en FR). Residual + feed + e-mail + TikTok organique.
 
 ---
 
@@ -44,13 +45,13 @@ Ils **réduisent** le nombre d’ads Meta depuis mars tout en **montant** le tra
 ## Ce qui marche chez B&S (observé, pas copié)
 
 1. **Le SKU émotionnel photo** (projection), pas les 166 charms ananas. Best-sellers TT = Photo Projection Bracelet 49,95 €, Halo 79,95 €, Hearts 59,95 €.
-2. **Meta + créa larmes**, pas l’occupation Search `collier prenom` (déjà Merci Maman / HdO).
+2. **Google Shopping / image produit (PMax-like)** en n°1 (386 ads), Meta en appoint. L’occupation organique `collier prenom` (Merci Maman / HdO) ne décrit pas leur canal.
 3. **Q4 + Saint-Valentin** sur un AOV 50–80 €, 2ᵉ à −50 %.
 4. **9 ans de domaine**, Loox, Klaviyo, Trustpilot même à 3,5 — un clone 2026 n’a pas ça.
 
 ## Ce qui ne marche pas chez eux (à ne pas reproduire)
 
-Garantie à vie / artisans / La Poste / entreprise familiale vs HK. Trust 3,5. Ads Search `bracelet photo` déjà saturée de clones. Ratio prix/CPC Search **24** sur le phare.
+Garantie à vie / artisans / La Poste / entreprise familiale vs HK. Trust 3,5. Ads Search texte `bracelet photo` saturée de clones — **unité Search mot-clé**, pas l’unité Shopping. Ratio prix/CPC Search **24** : vrai pour RSA, hors sujet pour un feed.
 
 ---
 
@@ -66,7 +67,7 @@ Catalogue B&S 466 SKUs. Cœur Search :
 | Bague perso | 4 000 | ~45 bagues dont promesse | faible hors gravure |
 | Cheville | 7 300 hors cœur | ~41 | fashion, pas un trou perso |
 
-Pas de trou Noirmont (21 k / fiche). C’est l’inverse : **beaucoup de fiches pour une demande Search moyenne**, rentabilisée ailleurs (Meta).
+Pas de trou Noirmont (21 k / fiche). C’est l’inverse : **beaucoup de fiches pour une demande Search moyenne**, rentabilisée sur **Google Shopping / image** (et Meta en appoint).
 
 ---
 
