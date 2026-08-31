@@ -47,3 +47,8 @@ pas un test physique.
 2e passe (même soir) : « écrivez-nous avant de commander » retiré du thème
 live (product / index / collection) et de la page FAQ CMS. Remplacé par
 « écrivez-nous ». Site intact (200, header présent).
+
+3e passe : tableau homepage « Quelle solution » — le flex FullStack
+(`min-width: auto`) empêchait `overflow-x`. Fix : `min-width: 0` sur
+page-width / inner / custom-code + `#bv-guide-scroll`. Constaté 390 px :
+scrollWidth 1214 > clientWidth 350, `scrollLeft` OK.
