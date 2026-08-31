@@ -13,16 +13,14 @@ désormais dans `journal/`.
 
 ## Le cadre, en trois phrases
 
-1. **Le Merchant Center est déjà approuvé** — 173 produits, 173 approuvés (Hakim, 16/08, non
-   remesuré le 17/08 soir). On protège un actif. Les suspensions arrivent après.
-2. **T-01 est soldé.** Le thème MAIN est encore `189429678465`. La copie
-   `189437772161` « Tuftéo — P0 GMC 17-08 » porte T-06, T-08, T-19, T-20 — **Hakim publie**.
-   T-05 (CGV France) est déjà live. Détail : `journal/2026-08-17-p0-gmc.md`.
-3. **L'identité est partagée avec les boutiques sœurs.** Le crible
-   [`../CHANTIER-CRIBLE-ENTITE.md`](../CHANTIER-CRIBLE-ENTITE.md) **bloque** la montée en budget.
-   T-18 (surveillance 30 jours) **a commencé** le jour de la publication du thème.
+1. **Ads Shopping lancées le 31/08.** GMC vert plat ~170 au 30/08. On protège un actif :
+   les suspensions arrivent après l'approbation, surtout les 30 premiers jours de dépense.
+2. **Le thème P0 est MAIN** (`189437772161`). T-05/T-06/T-08/T-19/T-20 sont live.
+   `orders` est encore vide : le paiement n'a jamais été prouvé.
+3. **L'identité est partagée avec les boutiques sœurs.** Pas de hausse de budget tant que
+   T-18 tient et qu'une commande réelle a abouti.
 
-Audit GMC relancé le 17/08 soir : [`journal/2026-08-17-audit-gmc.md`](journal/2026-08-17-audit-gmc.md).
+[`journal/2026-08-31-lancement-shopping.md`](journal/2026-08-31-lancement-shopping.md).
 
 ---
 
@@ -102,16 +100,13 @@ en compte 4, Toiles 4 dont un brouillon (donc 3 actifs). Et la collection techni
 **Réf.** : `journal/2026-08-16-audit-final-b-catalogue.md` B5
 
 ### T-10 — Statut CE des trois articles électriques, et fiches ACTIVE à stock 0
-**État** : À FAIRE · **Pour** : Hakim tranche · **Gravité** : P1
-**Pourquoi** : tondeuse 200 W, ciseaux électriques et kit tondeuse avaient été passés en DRAFT le
-21/07 **en attente de conformité CE**. Ils sont repassés ACTIVE sans aucune trace écrite de la
-décision : soit la conformité a été obtenue et il faut l'écrire, soit c'est une régression. Le produit
-`original-tufting-accessories` est resté ACTIVE alors que certaines de ses variantes sont des
-composants électriques — arbitrage ouvert depuis le 21/07. Par ailleurs deux fiches ACTIVE sont à
-stock 0, ce que la checklist demande d'archiver.
-**Comment** : Hakim tranche le statut CE et l'écrit dans `REGLES.md` ; puis dépublier ou archiver ce
-qui doit l'être. Rappel du parc : dépublier oui, supprimer jamais.
-**Sortie attendue** : une ligne écrite par article électrique, et 0 fiche ACTIVE à stock 0.
+**État** : CE SOLDÉ le 30/08 (Hakim) · stock 0 encore ouvert · **Pour** : Hakim · **Gravité** : P1
+**Pourquoi** : CE validé le 30/08 sur tondeuse, ciseaux électriques et kit tondeuse — écrit dans
+`REGLES.md`. Restent des variantes ACTIVE à stock 0 en survente (tondeuse mappée
+`1005007430527466` mais stock Shopify non resynchronisé ; ciseaux électriques).
+**Comment** : synchro stock DSers sur la tondeuse ; trancher les ciseaux (dépublier ou ressourcer).
+Dépublier oui, supprimer jamais.
+**Sortie attendue** : 0 fiche ACTIVE à stock 0 poussée en ads.
 **Réf.** : `journal/2026-08-16-audit-gmc.md` §11, `journal/2026-07-21-project-state-archive.md`
 
 ### T-11 — Deux fiches en brouillon encore liées depuis une collection publiée
@@ -165,8 +160,9 @@ avertissements. Aucune modification en réponse sans arbitrage.
 **Sortie attendue** : un relevé daté par jour pendant 30 jours, et une alerte immédiate au moindre
 changement de statut.
 **Relevé 17/08** : graphe 28 j — ~196 Limités du 25/07 au 14/08, bascule Approuvés le 14–15/08,
-~175–180 Approuvés le 17/08, 0 Limités / Non approuvés / En examen. Hakim gèle le lancement
-ads quelques jours. Voir `ETAT.md`.
+~175–180 Approuvés le 17/08, 0 Limités / Non approuvés / En examen.
+**Relevé 30/08** : ~170 approuvés, plat depuis le 15/08, 0 refusé.
+**31/08** : ads Shopping lancées. Le relevé quotidien compte plus qu'avant. Voir `ETAT.md`.
 
 ---
 

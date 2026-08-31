@@ -1,14 +1,9 @@
 # Tuftéo — état courant
 
-**Dernière mise à jour : 30/08/2026** — contrôle avant relance ads.
-**La copie P0 `189437772161` a été publiée, elle est MAIN** : les quatre correctifs sont live
-(269 €, plus d'« entrepôts » ni d'« Europe », FAQ France 6–10 j, JSON-LD valide). Triangle
-livraison cohérent : France seule, 0 €, même promesse partout.
-**Bloquant avant dépense : `orders` est vide — aucune commande n'a jamais été passée, le
-paiement n'a jamais été prouvé.** Métafields d'avis purgés le 30/08. Tondeuse ACTIVE :
-mapping DSers confirmé par Hakim le 31/08 sur `1005007430527466` — stock Shopify encore
-à 0 (pas de synchro DSers depuis le 21/07).
-[`journal/2026-08-31-remap-tondeuse-confirme.md`](journal/2026-08-31-remap-tondeuse-confirme.md).
+**Dernière mise à jour : 31/08/2026** — **ads Google Shopping lancées** (Hakim).
+Thème P0 MAIN, triangle livraison cohérent, GMC vert au 30/08. `orders` toujours vide :
+le premier clic payant est aussi le premier test du paiement.
+[`journal/2026-08-31-lancement-shopping.md`](journal/2026-08-31-lancement-shopping.md).
 
 ---
 
@@ -54,8 +49,6 @@ après l'approbation**, et les 30 premiers jours qui suivent un changement sont 
 
 ---
 
-## Thème — le point le plus urgent
-
 ## Thème — soldé
 
 | Thème | Rôle | Contenu |
@@ -96,9 +89,8 @@ après l'approbation**, et les 30 premiers jours qui suivent un changement sont 
   ne pas la publier avant de les tarifer.
 - Marges brutes des produits à pousser : kit 161,16 € (59,9 %) · gun 67,56 € (45,3 %) ·
   tondeuse 46,99 € (52,3 %) · ciseaux 41,22 € (29,4 %). 24 des 36 actifs sont sous 30 €.
-- **Statut CE non tranché** : tondeuse 200 W, ciseaux électriques et kit tondeuse avaient été passés
-  en DRAFT le 21/07 en attente de conformité. Ils sont repassés ACTIVE **sans trace écrite de la
-  décision**. Arbitrage ouvert depuis quatre semaines.
+- **CE validé par Hakim le 30/08** sur tondeuse, ciseaux électriques et kit tondeuse. La règle
+  se rouvre à chaque changement de fournisseur.
 - **0 `compareAtPrice` non nul** sur tout le catalogue — purge vérifiée.
 - 169 avis Trustoo réels au catalogue (le badge affichait 789).
 
@@ -106,35 +98,25 @@ après l'approbation**, et les 30 premiers jours qui suivent un changement sont 
 
 ## Publicité
 
-Protocole appliqué : 30 €/jour pendant 5 jours sans y toucher. **≥ 100 € dépensés, 0 vente,
-3 ajouts au panier** — les seuls du parc.
+**Shopping relancé le 31/08/2026** — déclaré par Hakim. Budget, structure et fiches poussées
+non communiqués.
 
-Lecture révisée le 16/08 par les experts : le test a été **coupé trop tôt**, on ne conclut pas à
-120-130 €. Mais 3 ajouts paniers pour 0 vente reste aussi un signal d'offre et d'expérience, à ne pas
-absoudre entièrement. Reprise en septembre, budget proportionné au ticket.
+Premier test (été) : 30 €/jour × 5 jours, **≥ 100 €, 0 vente, 3 ajouts au panier**. Coupé
+trop tôt pour conclure, mais 0 paiement tient toujours : `orders` est vide au moment du
+relancement.
 
 ---
 
-## Avant le premier euro d'ads (30/08)
+## Depuis le lancement (31/08)
 
-1. **Commande de test réelle, carte de Hakim, puis remboursement.** `orders` est vide :
-   0 commande depuis l'ouverture. Sur six semaines, 5 checkouts atteints et 0 paiement,
-   alors que le port est à 0 € — l'hypothèse du choc aux frais tombe. Le paiement n'a
-   jamais été prouvé et l'activation Shopify Payments n'a pas pu être lue.
-2. **Métafields d'avis : purgés le 30/08.** 51 suppressions, 0 échec. Relu API : plus aucun
-   `reviews.rating*` ni `vstar` à compteur > 0. Trustoo peut les réécrire — contrôle admin
-   Trustoo encore ouvert.
-   [`journal/2026-08-30-purge-avis-et-controle-dsers.md`](journal/2026-08-30-purge-avis-et-controle-dsers.md).
-3. **Tondeuse : mapping DSers confirmé le 31/08.** URL lue par Hakim :
-   `https://fr.aliexpress.com/item/1005007430527466.html` — c'est bien le listing
-   Crafters Daily Tools tranché le 16/08 (240 W, 42,99 €, achetable). Le SKU Shopify
-   reste l'ancien (`14:201441319…`) et le stock DSers est encore à 0 depuis le 21/07 :
-   le routage d'une commande suivrait le nouveau listing, l'affichage stock Shopify
-   non. Synchro stock DSers → Shopify encore à faire si on veut pousser cette fiche
-   en ads. Le kit DRAFT n'est pas le même listing.
-4. Démarrer sur **le kit et le gun seuls**, pas les 36 fiches.
-5. **Relevé GMC à la prochaine synchro du flux** : 40 fiches viennent d'être modifiées d'un coup
-   sur une approbation qui n'a que quinze jours.
+1. **Relevé GMC quotidien** (T-18) — approuvés / limités / refusés, surtout « gun » et lames.
+2. **Première commande** — si un checkout n'aboutit pas, le paiement était le trou. Si elle
+   passe : produit, délai, routage DSers.
+3. **Mix des clics** — les accessoires sous 30 € n'absorbent pas un CPC. Kit et gun portent
+   la marge (161 € et 68 €).
+4. **Pas de hausse de budget** tant que le vert GMC tient et qu'une commande réelle a abouti.
+5. Tondeuse mappée `1005007430527466` mais stock Shopify encore à 0 — hors campagne tant
+   que DSers n'a pas resynchronisé.
 
 ---
 
