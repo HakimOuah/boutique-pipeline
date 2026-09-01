@@ -175,3 +175,43 @@ curl -s "https://maisonnoirmont.fr/products.json?limit=250" | grep -oiE "jubil|s
 
 Les 18 sont les dix noms de fichiers (comptés deux fois pour ceux qui servent aussi d'image de
 variante). Tout le reste est à zéro.
+
+---
+
+# Clôture — 01/09/2026, soir
+
+Le verrou `fileUpdate` a fini par se lever de lui-même (environ deux heures après l'incident).
+Les **dix noms de fichiers** ont été renommés, un par un, par lots de trois maximum.
+
+Puis un balayage exhaustif des `alt` sur **les 221 fiches et 1 770 médias** (tous statuts) a révélé
+**sept alts oubliés** — des lots qui avaient échoué pendant le verrou et que je croyais passés :
+`trente-neuf-bleu-mer` (2), `trente-neuf-rose` (1), `trente-neuf-noir` (2),
+`trente-neuf-duo-dore-classique-bicolore` (2). Corrigés via `productUpdateMedia`.
+
+**Leçon de méthode :** une correction en lot dont une partie échoue ne se re-vérifie pas fiche par
+fiche mais **par un balayage exhaustif de la surface concernée**. Ici, contrôler trois PDP donnait
+« tout est propre » alors que sept alts subsistaient sur des fiches voisines, visibles seulement
+sur les pages de collection.
+
+## Contrôle final
+
+| Contrôle | Résultat |
+|---|---|
+| 221 fiches / 1 770 médias, `alt` | **0** occurrence (jubil, seiko, miyota, mingzhu, présiden, 904l, skx, rolex, oyster, datejust, no logo, ships from, china mainland, premium) |
+| `products.json` (96 actives) | **propre** |
+| 27 URL balayées (accueil, 6 pages, 7 policies, 13 collections) | **0 page avec résidu** |
+| Images renommées | chargent en **200** |
+| Redirections 301 | 9/9 actives |
+| Collection `frontpage` | 404, hors sitemap |
+
+Seule occurrence conservée sur tout le site : « en qualité de **président** de OH Ventures » dans les
+mentions légales — mention légale légitime, déjà actée le 30/08.
+
+## État
+
+La boutique est nette. Le compteur de 7 à 10 jours part du **01/09 au soir** : fenêtre
+**8–11 septembre**. Toujours 0 ads, toujours pas de demande de réexamen.
+
+Reste en attente d'arbitrage : « **Explorateur** » (fiche active + description de la collection
+`montre-cadran-a-chiffres`). Et, à traiter seulement après le réexamen : le lien Google Ads absent
+du GMC.
