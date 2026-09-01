@@ -139,3 +139,18 @@ remplie. Téléphone **hardcodé** `+33756828094`. **Pas touché côté GMC.**
 - 1 problème **non critique / facultatif** : `addressCountry` vaut `France` (nom) au lieu
   du code ISO `FR`. Préexistant — `shop.address.country` du gabarit natif. Pas corrigé
   cette passe (hors brief).
+
+## Contre-vérifié — 02/09/2026, après le push Cursor
+
+Relecture indépendante du site publié, parseur strict (`json.loads`) :
+
+- Page d'accueil : **1 bloc `Organization`, valide**. Champs : `name: Bonum Vitae`,
+  `legalName: OH Ventures`, `telephone: +33756828094`, `email: contact@bonumvitae.fr`,
+  `@id: https://bonumvitae.fr/#organization`, adresse 47 Rue Vivienne 75002 Paris. Conforme à la
+  cible §3 du brief, champ pour champ.
+- PDP `anti-tartre-galvanique-toute-la-maison` (`ProductGroup`) et `kit-entretien-osmoseur-600-gpd`
+  (`Product`) : blocs valides — rien de cassé ailleurs.
+- Footer : `+33 7 56 82 80 94` visible, `tel:+33756828094` en href — même écriture que le JSON-LD.
+
+Le site dit désormais la même chose que le GMC 5825588636 et que les deux autres boutiques :
+marque en `name`, OH Ventures en `legalName`. Reste, plus tard, le téléphone à ajouter côté GMC.
