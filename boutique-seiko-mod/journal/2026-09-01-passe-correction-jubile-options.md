@@ -69,7 +69,11 @@ Contrôle live : **0** `no logo`, `ships from`, `china mainland`, `band color`, 
 **Bloqué côté Shopify (file lock) :** 10 fichiers CDN portent encore `jubile` dans leur nom et
 « Classique jubilé » dans leur `alt`. Le premier envoi groupé a échoué sur une erreur temporaire
 Shopify puis a laissé ces fichiers en « opérations en attente » ; ils sont `READY` mais refusent
-toute écriture depuis. À reprendre plus tard :
+toute écriture depuis — six tentatives sur une quinzaine de minutes, toutes rejetées.
+
+**Ce n'est pas cosmétique** : sur `/products/trente-six-dore-classique-cinq-rangs`, le HTML rendu
+contient encore **66 occurrences** de `jubil` (URL d'images dans le JSON du thème + 8 attributs
+`alt`). Tant que ces 10 fichiers ne sont pas renommés, le crawler voit le mot. À reprendre :
 
 ```
 59693975437650 59693975470418 59693975503186 59893480620370 59893499003218
