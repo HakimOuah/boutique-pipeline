@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-01",
+  "mode": "PRODUIT PUR",
+  "threshold_monthly": 12500,
+  "borderline_band": [10000, 15000],
+  "source_of_gate": "DataForSEO",
+  "parameters": {"location_name": "France", "language_name": "French"},
+  "cost_usd": {"labs": 0.165, "head_control_1": 0.27, "head_control_2": 0.27, "total": 0.705, "announced_ceiling": 1.65},
+  "decisions": [
+    {
+      "candidate": "sac de voyage à compression sous vide intégrée",
+      "labs_raw_union": 7510,
+      "pertinent_estimate": 1890,
+      "retained": [
+        ["sac a dos compression sous vide", 1300],
+        ["sac cabine compression sous vide / sac à dos cabine compression sous vide", 210],
+        ["sac de voyage compression sous vide", 170],
+        ["sac à dos compression sous vide 40x30x20", 110],
+        ["sac à dos compression sous vide avec pompe", 50],
+        ["sac à dos de voyage à compression sous vide", 30],
+        ["dimensions/antivol intégrés restants", 20]
+      ],
+      "excluded_examples": [
+        ["sac de compression voyage", 1900, "housse/sac de compression séparé, pas bagage intégré"],
+        ["sac de compression voyage sans aspirateur", 880, "accessoire séparé"],
+        ["requêtes Decathlon/Action/Ikea/Amazon/Gifi/Carrefour/Swiss Fly/Picsil", null, "marques et enseignes tierces"],
+        ["sac de voyage", 40500, "parent générique non adressable au produit intégré"],
+        ["sac à dos voyage", 2400, "parent générique non adressable en totalité"]
+      ],
+      "head_control_issue": "plusieurs formes sans préposition sont n/a dans Google Ads live alors que Labs leur attribue un volume; la variante avec préposition rend 110. N/a n'est pas 0.",
+      "volume_gate_orientation": "STOP_PREQUALIFICATION",
+      "formal_status": "CAS LIMITE — décision Hakim requise",
+      "formal_status_reason": "SERP Google.fr/Shopping/annonces texte et Google Trends incomplets à cause des outils bloqués"
+    },
+    {
+      "candidate": "plaque d’acier de cuisson pour pain/pizza",
+      "labs_raw_union": 790,
+      "pertinent_estimate": 150,
+      "retained": [["baking steel",90],["baking steel pizza",20],["plaque acier cuisson pizza",10],["baking steel pain",10],["steel baking stone",10],["baking steel plate",10]],
+      "excluded_examples": [["plaque pizza",1900,"parent mêlant plaques fines/perforées, céramique et autres supports"],["pierre à pizza",2900,"technologie différente"],["plaque cuisson fonte ou acier",110,"plaques de cuisson/plancha et contenu informationnel"],["CodyCross, nettoyage, gaz, plancha, baking soda, marques",null,"hors produit"]],
+      "volume_gate_orientation": "STOP_PREQUALIFICATION",
+      "formal_status": "CAS LIMITE — décision Hakim requise",
+      "formal_status_reason": "contrôles Google réels incomplets"
+    },
+    {
+      "candidate": "kit premium de boulangerie au levain",
+      "labs_raw_union": 190,
+      "pertinent_estimate": 130,
+      "retained": [["kit pain au levain",90],["kit boulangerie / kit boulangerie maison",40]],
+      "excluded_examples": [["levain",18100,"parent très majoritairement informationnel/ferment, pas le kit"],["banneton",1900,"composant vendu seul"],["miniature Hanok et peinture au numéro boulangerie",20,"homonymies culturelles/hors produit"]],
+      "volume_gate_orientation": "STOP_PREQUALIFICATION",
+      "formal_status": "CAS LIMITE — décision Hakim requise",
+      "formal_status_reason": "contrôles Google réels incomplets"
+    },
+    {
+      "candidate": "remontoir pour montre automatique",
+      "labs_raw_union_plus_parent_control": 8980,
+      "pertinent_estimate": 7000,
+      "retained": [["remontoir montre automatique",5400],["remontoir montre",1600]],
+      "excluded_examples": [["remontoir montre automatique rolex",260,"marque tierce"],["Darty/Amazon/Boulanger/Fnac/eBay/AliExpress",null,"enseignes tierces"],["Klarstein/SwissKubik/Wolf/Modalo/Beco/Tissot/Breitling/Seiko/Longines/Omega/Tag Heuer/Mido",null,"marques tierces"],["boite à montre",1000,"boîte passive, famille différente"],["fabriquer/comment retirer/tige/occasion/géographique",null,"informationnel, pièce, occasion ou local"]],
+      "volume_gate_orientation": "STOP_PREQUALIFICATION",
+      "formal_status": "CAS LIMITE — décision Hakim requise",
+      "formal_status_reason": "contrôles Google réels incomplets"
+    }
+  ]
+}

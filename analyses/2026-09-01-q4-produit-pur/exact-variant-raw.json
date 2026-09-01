@@ -1,0 +1,1263 @@
+{
+  "read_date": "2026-09-01",
+  "endpoint": "keywords_data/google_ads/search_volume/live",
+  "parameters": {
+    "location_name": "France",
+    "language_name": "French",
+    "search_partners": false
+  },
+  "cost_usd": 0.27,
+  "witness_before": {
+    "version": "0.1.20260831",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.2807 sec.",
+    "cost": 0.09,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "09011637-1621-0367-0000-bf68d60f5f10",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0312 sec.",
+        "cost": 0.09,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "keywords_data",
+          "google_ads",
+          "search_volume",
+          "live"
+        ],
+        "data": {
+          "api": "keywords_data",
+          "function": "search_volume",
+          "se": "google_ads",
+          "keywords": [
+            "tufting"
+          ],
+          "location_name": "France",
+          "language_name": "French",
+          "search_partners": false
+        },
+        "result": [
+          {
+            "keyword": "tufting",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 99,
+            "search_volume": 12100,
+            "low_top_of_page_bid": 0.57,
+            "high_top_of_page_bid": 2.83,
+            "cpc": 1.62,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 7,
+                "search_volume": 6600
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 6600
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 9900
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 9900
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 9900
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 9900
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 9900
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 8100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "grouped_control": {
+    "version": "0.1.20260831",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.9129 sec.",
+    "cost": 0.09,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "09011637-1621-0367-0000-4045f60ea780",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "3.7688 sec.",
+        "cost": 0.09,
+        "result_count": 17,
+        "path": [
+          "v3",
+          "keywords_data",
+          "google_ads",
+          "search_volume",
+          "live"
+        ],
+        "data": {
+          "api": "keywords_data",
+          "function": "search_volume",
+          "se": "google_ads",
+          "keywords": [
+            "tufting",
+            "sac a dos compression sous vide",
+            "sac à dos compression sous vide",
+            "sac cabine compression sous vide",
+            "sac de voyage compression sous vide",
+            "sac a dos compression sous vide avec pompe",
+            "baking steel",
+            "plaque acier cuisson pizza",
+            "kit pain au levain",
+            "kit boulangerie maison",
+            "kit boulangerie",
+            "remontoir à montre automatique",
+            "remontoir montre automatique",
+            "remontoir montre",
+            "boite a montre remontoir automatique",
+            "boite a montre remontoir",
+            "remontoir montre automatique rolex"
+          ],
+          "location_name": "France",
+          "language_name": "French",
+          "search_partners": false
+        },
+        "result": [
+          {
+            "keyword": "tufting",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 99,
+            "search_volume": 12100,
+            "low_top_of_page_bid": 0.57,
+            "high_top_of_page_bid": 2.83,
+            "cpc": 1.62,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 7,
+                "search_volume": 6600
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 6600
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 9900
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 9900
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 9900
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 9900
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 9900
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 8100
+              }
+            ]
+          },
+          {
+            "keyword": "sac a dos compression sous vide",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "sac à dos compression sous vide",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "sac cabine compression sous vide",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "sac de voyage compression sous vide",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "sac a dos compression sous vide avec pompe",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "baking steel",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 100,
+            "search_volume": 90,
+            "low_top_of_page_bid": 0.11,
+            "high_top_of_page_bid": 0.19,
+            "cpc": 0.18,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 7,
+                "search_volume": 70
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 70
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 90
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 110
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 90
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 70
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 140
+              }
+            ]
+          },
+          {
+            "keyword": "plaque acier cuisson pizza",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 100,
+            "search_volume": 10,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": 0.07,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 7,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 10
+              }
+            ]
+          },
+          {
+            "keyword": "kit pain au levain",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 100,
+            "search_volume": 90,
+            "low_top_of_page_bid": 0.07,
+            "high_top_of_page_bid": 0.28,
+            "cpc": 0.19,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 7,
+                "search_volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 70
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 90
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 110
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 110
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 20
+              }
+            ]
+          },
+          {
+            "keyword": "kit boulangerie maison",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 100,
+            "search_volume": 40,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": 0.18,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 7,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 20
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 20
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 20
+              }
+            ]
+          },
+          {
+            "keyword": "kit boulangerie",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 100,
+            "search_volume": 40,
+            "low_top_of_page_bid": 0.08,
+            "high_top_of_page_bid": 0.36,
+            "cpc": 0.24,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 7,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 20
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 20
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 40
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 20
+              }
+            ]
+          },
+          {
+            "keyword": "remontoir à montre automatique",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 100,
+            "search_volume": 5400,
+            "low_top_of_page_bid": 0.39,
+            "high_top_of_page_bid": 1.5,
+            "cpc": 1.49,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 7,
+                "search_volume": 3600
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 3600
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 4400
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 4400
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 4400
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 4400
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 5400
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 12100
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 9900
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 5400
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 4400
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 4400
+              }
+            ]
+          },
+          {
+            "keyword": "remontoir montre automatique",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 100,
+            "search_volume": 5400,
+            "low_top_of_page_bid": 0.39,
+            "high_top_of_page_bid": 1.5,
+            "cpc": 1.49,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 7,
+                "search_volume": 3600
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 3600
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 4400
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 4400
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 4400
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 4400
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 5400
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 12100
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 9900
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 5400
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 4400
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 4400
+              }
+            ]
+          },
+          {
+            "keyword": "remontoir montre",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 100,
+            "search_volume": 1600,
+            "low_top_of_page_bid": 0.51,
+            "high_top_of_page_bid": 1.57,
+            "cpc": 1.43,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 7,
+                "search_volume": 1300
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 1000
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 1900
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 1300
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 1600
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 3600
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 1600
+              }
+            ]
+          },
+          {
+            "keyword": "boite a montre remontoir automatique",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 100,
+            "search_volume": 20,
+            "low_top_of_page_bid": 0.37,
+            "high_top_of_page_bid": 1.26,
+            "cpc": 0.57,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 7,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 20
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 20
+              }
+            ]
+          },
+          {
+            "keyword": "boite a montre remontoir",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 100,
+            "search_volume": 50,
+            "low_top_of_page_bid": 0.37,
+            "high_top_of_page_bid": 1.86,
+            "cpc": 1.67,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 7,
+                "search_volume": 40
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 20
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 30
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 30
+              }
+            ]
+          },
+          {
+            "keyword": "remontoir montre automatique rolex",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 100,
+            "search_volume": 260,
+            "low_top_of_page_bid": 0.47,
+            "high_top_of_page_bid": 1.72,
+            "cpc": 2.3,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 7,
+                "search_volume": 140
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 170
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 210
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 140
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 170
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 210
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 320
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 320
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 320
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "witness_after": {
+    "version": "0.1.20260831",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.1242 sec.",
+    "cost": 0.09,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "09011638-1621-0367-0000-e7636189faef",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0275 sec.",
+        "cost": 0.09,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "keywords_data",
+          "google_ads",
+          "search_volume",
+          "live"
+        ],
+        "data": {
+          "api": "keywords_data",
+          "function": "search_volume",
+          "se": "google_ads",
+          "keywords": [
+            "tufting"
+          ],
+          "location_name": "France",
+          "language_name": "French",
+          "search_partners": false
+        },
+        "result": [
+          {
+            "keyword": "tufting",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 99,
+            "search_volume": 12100,
+            "low_top_of_page_bid": 0.57,
+            "high_top_of_page_bid": 2.83,
+            "cpc": 1.62,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 7,
+                "search_volume": 6600
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 6600
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 9900
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 9900
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 9900
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 9900
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 9900
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 8100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

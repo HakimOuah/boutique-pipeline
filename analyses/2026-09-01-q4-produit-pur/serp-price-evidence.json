@@ -1,0 +1,76 @@
+{
+  "read_date": "2026-09-01",
+  "target": "France",
+  "method": {
+    "google_browser": "bloqué avant lecture: Chrome demandait l'autorisation système de débogage distant; aucune permission n'a été cliquée",
+    "google_direct_extract": "échec par timeout du backend d'extraction",
+    "fallback_used": "résultats web publics pour qualifier l'intention organique, les acteurs et quelques prix visibles",
+    "not_confirmed": [
+      "page 1 Google.fr complète et ordonnée",
+      "carrousel Google Shopping",
+      "annonces Search texte",
+      "comptage exhaustif 30-50 prix"
+    ]
+  },
+  "candidates": {
+    "sac_compression": {
+      "query": "sac à dos compression sous vide prix France boutique",
+      "organic_reading": "offres produit intégrées visibles, mais le parent sac de voyage sert surtout de la bagagerie générique",
+      "specialists": [
+        {"name": "Sac-Cabine", "url": "https://sac-cabine.com/products/sac-a-dos-sous-vide", "price_eur": null},
+        {"name": "Celims", "url": "https://celims.fr", "price_eur": 189.90, "price_source": "extrait EcomScout du résultat public"}
+      ],
+      "large_retailers_marketplaces": [
+        {"name": "VEVOR France", "url": "https://vevor.fr/accessoires-pour-ordinateurs-portables-c_13674/vevor-sac-a-dos-voyage-sous-vide-65-l-sac-a-dos-a-compression-sous-vide-extensible-avec-pompe-serrure-homologuee-tsa-plusieurs-compartiments-bretelles-rembourrees-pour-voyages-d-affaires-gris-p_010701735909", "price_eur": 79.90},
+        {"name": "VEVOR France", "url": "https://vevor.fr/accessoires-pour-ordinateurs-portables-c_13674/vevor-sac-a-dos-voyage-sous-vide-80-l-sac-a-dos-a-compression-sous-vide-extensible-avec-pompe-serrure-homologuee-tsa-plusieurs-compartiments-bretelles-rembourrees-pour-voyages-d-affaires-noir-p_010465090441", "price_eur": 101.90},
+        {"name": "Action France", "url": "https://www.action.com/fr-fr/p/3224072/sac-a-dos-de-voyage-sous-vide/", "price_eur": 19.95}
+      ],
+      "observed_price_band_eur": [19.95, 189.90]
+    },
+    "plaque_acier": {
+      "query": "baking steel plaque acier pizza prix France",
+      "organic_reading": "la requête spécifique sert bien des aciers massifs; le parent plaque pizza mélange plaques fines/perforées, céramique et pierres réfractaires",
+      "specialists": [
+        {"name": "PizzaSteel", "url": "https://pizzasteel.fr/", "price_eur": 99.00},
+        {"name": "Grillrost", "url": "https://www.grillrost.com/fr/acier-a-pizza-de-base-extremement-massif-avec-bande-enfichable-G-1662", "price_eur": 65.00},
+        {"name": "Pizzastahl", "url": "https://www.pizzastahl.de/?lang=fr", "price_eur": 92.00}
+      ],
+      "large_retailers_marketplaces": [
+        {"name": "Ooni France", "url": "https://www.oonifrance.fr/p/acier-a-pizza-ooni/", "price_eur": 52.00},
+        {"name": "VEVOR France", "url": "https://www.vevor.fr/plaque-de-cuisson-en-acier-pizza-c_10611/vevor-pizza-steel-16-x-14-5-x-3-8-pierre-de-cuisson-a-pizza-en-acier-au-carbone-pre-assaisonne-p_010360859965", "price_eur": 48.90},
+        {"name": "Mathon", "url": "https://www.mathon.fr/products/steel-pan-plaque-a-pizza-perforee-inox-28-cm-steel-pan-8015094170104", "price_eur": 27.90}
+      ],
+      "observed_price_band_eur": [27.90, 153.95]
+    },
+    "kit_levain": {
+      "query": "kit pain levain kit boulangerie prix France",
+      "organic_reading": "la requête spécifique sert des coffrets achetables; le parent levain est très majoritairement recette, création et entretien du ferment",
+      "specialists": [
+        {"name": "Les Maîtres de mon Moulin", "url": "https://lesmaitresdemonmoulin.com/products/copie-de-kit-faisons-le-pain-dengrain-ensemble-accessoires-seulement", "price_eur": 77.00}
+      ],
+      "large_retailers_marketplaces": [
+        {"name": "L'Avant Gardiste", "url": "https://www.lavantgardiste.com/products/kit-pour-faire-son-pain-au-levain", "price_eur": 29.95},
+        {"name": "CadoMaestro", "url": "https://www.cadomaestro.com/kit-pain-au-levain-maison-34454.html", "price_eur": 28.90},
+        {"name": "Nature & Découvertes", "url": "https://www.natureetdecouvertes.com/thes-epicerie/a-faire-soi-meme/kit-cuisine/kit-pain-au-levain-bio-61176850", "price_eur": 24.95}
+      ],
+      "observed_price_band_eur": [24.95, 77.00]
+    },
+    "remontoir": {
+      "query": "remontoir montre automatique prix France spécialiste",
+      "organic_reading": "intention commerciale nette avec plusieurs spécialistes et guides; catégories spécialisées et marketplaces coexistent",
+      "specialists": [
+        {"name": "Le Remontoir", "url": "https://le-remontoir-montre.fr/", "price_eur": 290.00},
+        {"name": "Rotation Horlogère", "url": "https://rotation-horlogere.com/products/remontoir-pour-une-montre", "price_eur": 99.00},
+        {"name": "Atelier Atypique", "url": "https://atelier-atypique.fr/en/products/remontoir-pour-montre-automatique-gyroscopica", "price_eur": 119.90},
+        {"name": "Atelier Atypique", "url": "https://atelier-atypique.fr/en/products/remontoir-pour-montre-automatique-elegance-megger", "price_eur": 269.90}
+      ],
+      "large_retailers_marketplaces": [
+        {"name": "Ocarat", "url": "https://ocarat.com/remontoir-montre/", "price_eur": 490.00},
+        {"name": "Ocarat", "url": "https://ocarat.com/remontoir-montre/", "price_eur": 550.00},
+        {"name": "Cdiscount", "url": "https://www.cdiscount.com/bijouterie/r-remontoir%2Bmontre%2Bautomatique.html", "price_eur": null},
+        {"name": "ManoMano", "url": "https://www.manomano.fr/cat/remontoir+montre+automatique", "price_eur": null}
+      ],
+      "observed_price_band_eur": [99.00, 2415.00]
+    }
+  }
+}
