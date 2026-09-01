@@ -130,3 +130,48 @@ n'est cité** — le diagnostic ne dit pas ce qui a déclenché la détection.
 Le compteur de 7–10 jours court désormais à partir du **01/09** (passe de correction du jour),
 et ne se déclenche vraiment qu'une fois `frontpage`, les quatre policies et les 10 fichiers réglés.
 Toujours 0 ads.
+
+---
+
+# Contrôle après la passe Cursor — 01/09/2026, fin de journée
+
+| Bloc | État |
+|---|---|
+| 1 — collection `frontpage` | **fait** — `/collections/frontpage` en 404, absente du sitemap (13 collections) |
+| 2 — les quatre policies | **fait, 4/4** |
+| 3 — les dix fichiers `jubile` | **non fait** — noms de fichiers inchangés |
+
+## Bloc 2, détail vérifié en visiteur anonyme
+
+- Coordonnées : `103 157 251 00010` et `FR55 103157251` (les graphies collées ont disparu), horaires SAV alignés sur le footer
+- CGV art. 15 : plus de `<meta charset>` dans le corps ; CM2C avec `<a href="https://www.cm2c.net/">`
+- CGU §2 : pointe `/policies/legal-notice`
+- Mentions légales §4-§5 : les trois `<a>` ont leur `href`
+
+À noter pour les prochains audits : **grepper `meta charset` sur une page rendue est un faux positif
+garanti** — le `<head>` du thème en contient un. Ne compter que les occurrences situées dans la zone
+de contenu de la policy, ou lire `shopPolicies.body` via l'API.
+
+## Bloc 3 — contournement partiel trouvé
+
+`fileUpdate` reste verrouillé sur les dix ids (« opération en attente »), plus d'une heure après
+l'incident. Mais **`productUpdateMedia` n'est pas concerné par ce verrou** : les dix `alt` ont été
+corrigés par cette voie. Les trois PDP ne contiennent plus **aucun** attribut `alt` avec « jubilé ».
+
+Restent les **noms de fichiers**, que seule `fileUpdate` (ou l'admin) peut changer. Occurrences de
+`jubil` encore présentes dans le HTML rendu, uniquement en URL d'images :
+63 sur `trente-six-dore-classique-cinq-rangs`, 51 sur `…-or-integral-…`, 36 sur `…-rose-…`.
+
+**Seule voie restante : Contenu → Fichiers dans l'admin**, rechercher `jubile`, renommer les dix
+(remplacer `jubile` par `cinq-rangs` dans le nom). Shopify met les références à jour tout seul.
+Tableau des dix ids et noms cibles : `livraisons/2026-09-01-reste-a-faire-cursor.md`, bloc 3.
+
+## Grep final du catalogue public
+
+```
+curl -s "https://maisonnoirmont.fr/products.json?limit=250" | grep -oiE "jubil|seiko|miyota|mingzhu|presiden|904l|skx|no logo|ships from|china mainland|band color|band width"
+→ 18 jubil, et rien d'autre
+```
+
+Les 18 sont les dix noms de fichiers (comptés deux fois pour ceux qui servent aussi d'image de
+variante). Tout le reste est à zéro.
