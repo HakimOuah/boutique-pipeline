@@ -24,11 +24,9 @@ Ce playbook s'utilise avant `PLAYBOOK.md`. Il sert à décider quel produit mér
   concurrentiel direct. Les utiliser seulement comme repères prix/SERP.
 - Prioriser les boutiques DTC, mono-produit, DNVB, dropshipping ou e-commerce spécialisés pour
   comprendre les vraies mécaniques de conversion.
-- Semrush, TrendTrack, Minea, Similarweb et autres outils payants ne sont utilisés que si Hakim
-  confirme un accès actif. Sinon, travailler avec les sources gratuites et le web.
-- Si Hakim confirme que l'accès est autorisé et actif via Kloow, Codex peut utiliser l'application
-  Mac Kloow comme passerelle vers les outils payants disponibles, sans stocker de credentials ni
-  supposer que l'accès sera disponible dans une autre session.
+- DataForSEO API est l'unique source de volume et de gate. TrendTrack, Minea, Similarweb et les autres
+  outils payants ne servent qu'à leurs usages propres si Hakim confirme un accès actif ; aucun ne
+  remplace DataForSEO pour mesurer la demande.
 - Pour la France, toujours vérifier que les outils de keyword research sont réglés sur **France**
   avant d'interpréter volumes, CPC, intent ou difficulté. Ne pas utiliser les données United States
   par défaut pour décider d'un lancement France.
@@ -65,8 +63,8 @@ Il doit idéalement cocher plusieurs de ces points :
 - il permet de faire mieux que les concurrents sur au moins un axe : bénéfice, pédagogie, design,
   confort, usage, qualité perçue, livraison, garantie, bundle, spécialisation ou persona ;
 - il a une demande Google vérifiable ou une douleur recherchée ;
-- il atteint au minimum **10 000 recherches mensuelles en France** sur le mot-clé produit principal
-  ou sur un cluster Semrush France directement pertinent et transactionnel. Sous ce seuil, le
+- il atteint au minimum le seuil DataForSEO du mode défini dans `PRODUCT-RESEARCH-CRITERIA.md` :
+  **12 500/mois en PRODUIT PUR** ou **37 500 consolidés en UNIVERS**, sur une demande directement pertinente. Sous ce seuil, le
   produit ne doit pas entrer en shortlist, sauf demande explicite d'Hakim ;
 - pour les marchés maison, mobilier, cuisine, salle de bain ou déco high-ticket : il a une demande
   mensuelle suffisante, une recherche Shopping visible, des concurrents imparfaits, et une
@@ -194,7 +192,7 @@ La feuille doit contenir au minimum toutes les colonnes de la sortie obligatoire
 - valeur ajoutée possible ;
 - raison pour laquelle ce n'est pas juste une copie ;
 - Google Trends : pays, période, indice moyen, tendance récente, saisonnalité ;
-- Semrush : pays/base, volume, CPC, KD, intent, variations ;
+- DataForSEO : endpoint, France/français, volume, CPC + devise, intention disponible, variations ;
 - Google Shopping / SERP : présence commerciale, prix observés, qualité des offres ;
 - fournisseurs : prix livré si disponible, prix non livré sinon, MOQ, délai, risque fournisseur ;
 - AliExpress : prix fournisseur, prix livré, commandes, étoiles/note produit, notation vendeur,
@@ -243,9 +241,8 @@ Par défaut :
 - Langue : français.
 - Business : SASU/OH Ventures, HT, TVA au réel, IS.
 - Canal : Google Shopping + Google Search.
-- Recherche : web public + outils gratuits ; outils payants seulement si accès confirmé.
-- Si Kloow/Semrush est disponible : Semrush devient le contrôle prioritaire des volumes Search,
-  CPC, intent, variations et concurrence mots-clés. Régler la base sur **France**.
+- Recherche : DataForSEO API pour les volumes/CPC, web public pour SERP, Shopping et concurrents ;
+  autres outils payants seulement si accès confirmé et jamais comme source de gate.
 
 ## Étape 2 — Sourcing large d'idées
 
@@ -303,72 +300,44 @@ Si aucun fournisseur AliExpress ne respecte ces critères, ne pas masquer le pro
 - ne pas donner un verdict GO sans fournisseur alternatif crédible ou condition de GO explicite ;
 - préciser si AliExpress a été bloqué, vide, incohérent ou inutilisable.
 
-Sources payantes utiles si accès actif :
+Sources complémentaires utiles si accès actif :
 
-- Semrush : Keyword Magic Tool, PPC, CPC, volume, intent, keyword gap.
+- DataForSEO API : source unique des volumes et CPC de gate.
 - TrendTrack : stores performants, best-sellers, ads, apps, thèmes, signaux e-commerce.
 - Minea : ads spy multi-plateforme, produits poussés, angles créatifs.
 - PipiAds : TikTok/TikTok Shop, utile pour repérer des produits qui migrent ensuite vers Google.
 - Similarweb : trafic concurrent, canaux d'acquisition, poids Search/Paid/Referral.
-- Ahrefs / KeywordTool.io : alternatives pour volumes et longue traîne.
+- Ahrefs / KeywordTool.io : signaux SEO complémentaires, jamais sources de volume de gate.
 - Copyfy / services copy : inspiration ou délégation, mais Codex doit garder le contrôle stratégique
   du persona, des douleurs et de la conformité.
 
-### Accès payants via Kloow
+Utilisation recommandée des outils complémentaires :
 
-Si Hakim demande explicitement d'utiliser Kloow et confirme que l'accès est disponible :
-
-1. Ouvrir l'application Mac **Kloow**.
-2. Chercher l'outil voulu dans Kloow : Semrush, TrendTrack, Ahrefs, Similarweb, Minea, etc.
-3. Cliquer sur **Launch** sur la carte de l'outil. Kloow peut ouvrir soit Chrome, soit un navigateur
-   dédié nommé **Kloow Browser**. Dans les tests du 25/06/2026, Semrush s'est ouvert dans
-   `Kloow Browser`, pas dans Chrome classique.
-4. Si l'outil ne semble pas apparaître dans Chrome, vérifier aussi l'application **Kloow Browser**.
-   Le bouton Kloow peut passer à **Stop**, ce qui indique que la session outil est lancée.
-5. Utiliser l'outil dans cette session uniquement.
-6. Extraire les données utiles dans le livrable : volumes, CPC, intent, concurrents, keywords,
-   tendances, pages, ads, gaps, opportunités.
-7. Ne pas enregistrer, exporter ou réutiliser d'identifiants. Ne pas modifier les paramètres du
-   compte. Ne pas acheter d'options ni changer d'abonnement.
-8. Si Kloow, Kloow Browser/Chrome ou l'outil payant bloque l'accès, revenir au workflow gratuit et
-   signaler clairement la limite.
-
-Utilisation recommandée par outil :
-
-- **Semrush** : valider demande Search, CPC, keyword clusters, intention, longue traîne, concurrents
-  organiques/payant, Keyword Gap.
-- **Ahrefs** : compléter Semrush sur mots-clés, pages concurrentes, contenus qui captent la demande.
+- **Ahrefs** : pages concurrentes et contenus qui captent la demande, sans alimenter la gate de volume.
 - **TrendTrack** : repérer stores, best-sellers, ads, apps utilisées, produits poussés récemment.
 - **Similarweb** : estimer mix de trafic concurrent, poids Search/Paid/Social/Referral.
 - **Minea / PipiAds** : détecter angles créatifs, durée des ads, produits social qui peuvent être
   revalidés sur Google.
 
-Les données Kloow/outils payants ne remplacent jamais le jugement stratégique : un volume élevé ou
+Les données des outils complémentaires ne remplacent jamais DataForSEO ni le jugement stratégique : un volume élevé ou
 une pub active ne suffit pas. Le produit doit toujours passer les filtres : utilité ou désir,
 différenciation, marge, fournisseur, conformité, opportunité CRO.
 
-### Protocole Semrush France
+### Protocole DataForSEO France
 
-Quand Semrush est disponible via Kloow, l'utiliser comme étape de validation avant tout verdict GO :
-
-1. Ouvrir Semrush via Kloow.
-2. Rechercher le mot-clé principal.
-3. Régler le pays/base sur **France**. Si l'interface affiche **United States** ou `db=us`, corriger
-   avant d'interpréter les chiffres.
-4. Relever : volume France, CPC, intent, Keyword Difficulty, Competitive Density, trend,
-   variations, questions et clusters.
-5. Appliquer le seuil obligatoire : le mot-clé principal ou un cluster de mots-clés directement
-   pertinent, en base **France**, doit représenter au moins **10 000 recherches mensuelles**. Ne pas
-   valider un produit avec un cluster gonflé par des requêtes hors sujet, informationnelles ou trop
-   éloignées de l'achat.
-6. Ouvrir Keyword Magic Tool si besoin pour élargir les longues traînes.
-7. Comparer 3 à 5 formulations : mot-clé produit, variante sans accent, pluriel/singulier, requête
-   achat/prix, requête douleur ou usage.
-8. Noter les limites : Semrush peut sous-estimer/fragmenter certains volumes, donc croiser avec
-   Google Trends, SERP et Shopping.
-
-Ne pas conclure sur un produit France à partir d'une base US. Si les chiffres affichés sont US,
-les marquer comme test technique seulement, pas comme validation marché.
+1. Charger les identifiants depuis `ecommerce-dropshipping/.env` sans les afficher.
+2. Tirer le témoin `tufting` via DataForSEO avant la première mesure et après la dernière ; les deux
+   réponses doivent être non nulles et cohérentes entre elles. Sinon, arrêter sans publier de chiffres.
+3. Découvrir le corpus avec `boutique-pipeline/scripts/kw_dfs.py`, endpoint
+   `dataforseo_labs/google/keyword_suggestions`, correspondance plein texte.
+4. Contrôler les têtes et mots décisifs avec `keywords_data/google_ads/search_volume/live`.
+5. Imposer `location_name: France` et `language_name: French` dans chaque payload.
+6. Comparer 3 à 5 formulations et plusieurs niveaux : produit, variante, singulier/pluriel, catégorie
+   parente, requête achat/prix ou douleur/usage.
+7. Dédupliquer les buckets proches : une idée normalisée par groupe, `MAX` du groupe ; ne jamais sommer
+   deux séries mensuelles identiques.
+8. Appliquer les seuils DataForSEO de `PRODUCT-RESEARCH-CRITERIA.md`, puis croiser obligatoirement avec
+   Google Trends, SERP et Shopping. Archiver le JSON, l'endpoint, les paramètres, la date et le coût.
 
 ### Quand utiliser les autres outils Kloow
 
@@ -377,8 +346,8 @@ les marquer comme test technique seulement, pas comme validation marché.
   créatifs et boutiques DTC actives.
 - Utiliser **Similarweb** si un concurrent DTC semble sérieux et qu'il faut estimer ses canaux :
   Search, Paid, Social, Referral, trafic direct.
-- Utiliser **Ahrefs** si Semrush manque de données, pour vérifier contenus SEO, pages concurrentes,
-  longue traîne ou potentiel organique.
+- Utiliser **Ahrefs** pour vérifier contenus SEO, pages concurrentes ou potentiel organique, jamais
+  pour remplacer une mesure DataForSEO manquante.
 - Ne pas ouvrir tous les outils par réflexe. Les utiliser quand ils répondent à une question précise
   du scoring : demande, concurrence, trafic, angles, canaux ou opportunité CRO.
 
@@ -459,8 +428,7 @@ Pour chaque idée survivante :
 2. Rechercher les termes douleur/problème.
 3. Vérifier Google Shopping.
 4. Vérifier Google Trends.
-5. Si accès : vérifier Keyword Planner / Semrush, avec pays/base **France** pour tout produit ciblant
-   la France.
+5. Mesurer via DataForSEO API avec `location_name: France` et `language_name: French`.
 
 À noter :
 
@@ -493,8 +461,8 @@ Pour la France :
 8. Si Trends reste inaccessible, le signaler dans le livrable et ne pas présenter le produit comme
    pleinement validé Google Demand.
 
-Google Trends ne remplace jamais Semrush : Trends mesure un intérêt relatif, Semrush donne les
-volumes, CPC, intent et variations. Les deux doivent être croisés avant un verdict GO.
+Google Trends ne remplace jamais DataForSEO : Trends mesure un intérêt relatif ; DataForSEO donne les
+volumes, CPC et séries disponibles. Les deux doivent être croisés avant une recommandation technique.
 
 Signaux Shopping :
 
@@ -765,9 +733,9 @@ Répondre en 4 blocs :
 Ajouter aussi :
 
 - le nom de la feuille Google Sheet créée/remplie ;
-- les limites éventuelles : Trends bloqué, prix fournisseur non livré, Semrush inaccessible,
+- les limites éventuelles : Trends bloqué, prix fournisseur non livré, DataForSEO indisponible,
   concurrent audit incomplet, etc. ;
-- les sources principales utilisées, en distinguant Semrush/Kloow, Google Trends, SERP/Shopping,
+- les sources principales utilisées, en distinguant DataForSEO, Google Trends, SERP/Shopping,
   concurrents DTC/spécialisés et fournisseurs.
 
 ### Checklist avant livraison
@@ -776,9 +744,8 @@ Avant de répondre, vérifier explicitement :
 
 - l'historique des feuilles précédentes a été consulté pour éviter les doublons, ou le blocage est
   déclaré ;
-- la base Semrush est bien **France** pour tous les chiffres utilisés ;
-- chaque produit retenu atteint au moins **10 000 recherches mensuelles France** sur son mot-clé
-  principal ou son cluster transactionnel directement pertinent ;
+- chaque appel DataForSEO utilise **France / français**, avec endpoint et date documentés ;
+- chaque produit retenu atteint le seuil DataForSEO de son mode dans `PRODUCT-RESEARCH-CRITERIA.md` ;
 - Google Trends a été vérifié ou l'échec est déclaré ;
 - AliExpress a été vérifié via Computer Use pour chaque idée notée, ou l'échec est déclaré ;
 - les colonnes AliExpress obligatoires sont remplies : prix, commandes, note, notation vendeur,
@@ -793,7 +760,7 @@ Avant de répondre, vérifier explicitement :
 ## Garde-fous
 
 - Ne pas recommander un produit seulement parce qu'il est viral.
-- Ne pas retenir en shortlist un produit ou mot-clé sous **10 000 recherches mensuelles France**.
+- Ne pas retenir en shortlist un candidat sous le seuil DataForSEO de son mode.
 - Ne pas sourcer volontairement des produits mainstream/rincés sans angle neuf et crédible.
 - Ne pas reproposer un produit déjà recherché dans une feuille précédente, sauf demande explicite ou
   nouvelle thèse documentée.
@@ -812,7 +779,7 @@ Avant de répondre, vérifier explicitement :
 - Ne pas sortir une shortlist sans verdict clair.
 - Ne pas remplir le tableau pour remplir le tableau : chaque GO doit avoir une raison stratégique
   d'exister.
-- Ne pas prétendre avoir vérifié Google Trends, Google Shopping, Semrush, fournisseurs ou
+- Ne pas prétendre avoir vérifié Google Trends, Google Shopping, DataForSEO, fournisseurs ou
   concurrents si l'étape n'a pas été réellement faite.
 - Ne pas donner une réponse finale conforme au playbook si le Google Sheet obligatoire n'a pas été
   rempli ou si le blocage n'a pas été clairement signalé.

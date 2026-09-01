@@ -1,12 +1,12 @@
 # Critères canoniques de recherche produit
 
-Dernière mise à jour : 23 août 2026 (décisions Hakim post-revues Fable 5 + ChatGPT Pro : émetteur du pass, vocabulaire `TECHNICAL_*`, plancher de sourçabilité UNIVERS, commande test, recherche continue — voir §0. Historique : 19/08 deux modes **PRODUIT PUR** / **UNIVERS**, Brand Search remplacé par TrendTrack, Search ≠ Shopping ; 18/08 plancher 50–400 €. Skills `ideation-produit` / `recherche-mots-cles` / `sourcing-aliexpress`.)
+Dernière mise à jour : 1er septembre 2026 (décision Hakim : DataForSEO devient l'unique source de mesure et de gate ; SEMrush est retiré du pipeline actif. Historique : 29/08 seuils DataForSEO recalibrés ; 23/08 émetteur du pass, vocabulaire `TECHNICAL_*`, plancher de sourçabilité UNIVERS, commande test, recherche continue ; 19/08 deux modes **PRODUIT PUR** / **UNIVERS**, Brand Search remplacé par TrendTrack, Search ≠ Shopping ; 18/08 plancher 50–400 €.)
 
 ## 0. Décisions du 23/08/2026 (Hakim, après revue croisée Fable 5 + ChatGPT Pro)
 
 1. **Émetteur des verdicts.** `PASS_PREQUALIFICATION` / `REVIEW` / `STOP` = conformité technique (volume, critères) → **émis par l'agent**. Les `REVIEW` et cas limites remontent à Hakim. La recommandation technique de phase 5 est également côté agent. La seule porte humaine de sélection produit est `GO_FINAL` / `WATCH_FINAL` / `NO_GO_FINAL`.
 2. **Vocabulaire.** Les recommandations techniques s'écrivent `TECHNICAL_PASS`, `TECHNICAL_WATCH`, `TECHNICAL_FAIL`, `TECHNICAL_INCONCLUSIVE`. Le mot **GO** est réservé à la décision de Hakim. (Motif : la confusion s'est déjà produite — des lots de sourcing de la salve 30×30 ont été titrés « GO » alors qu'ils signifiaient « fiche trouvée, à tester ».)
-3. **Sources de mesure.** SEMrush France (`db=fr`) reste **la loi**. DataForSEO et Ahrefs sont des replis documentés si SEMrush est indisponible ; tout chiffre rendu sur repli le signale, et un pass rendu sur repli le signale aussi. DataForSEO garde un rôle légitime de **filtre d'expansion peu coûteux** en amont (Product Factory), jamais de source de gate.
+3. **Source de mesure.** **DataForSEO API est l'unique source de volume et de gate.** Toute requête utilise `location_name: France` et `language_name: French`. `dataforseo_labs/google/keyword_suggestions` sert à découvrir et nettoyer les clusters ; `keywords_data/google_ads/search_volume/live` sert à contrôler précisément les têtes et les mots décisifs. Aucun verdict ne dépend de SEMrush, Ahrefs ou d'un volume lu dans une interface tierce.
 4. **Registre = référence.** `registre-candidats.md` (GitHub) est le système de référence des candidats. Tout état d'opportunité créé ailleurs (dont le state store de la Product Factory) doit référencer son entrée de registre ; l'anti-doublon se joue à l'entrée, systématiquement — d'autant plus que la recherche devient continue (point 7).
 5. **Commande test.** Elle est passée par **Hakim lui-même**, immédiatement après `GO_FINAL` (latence livraison 1–3 semaines). Le build avance en parallèle sur les étapes gratuites et réversibles (persona, offre, DA) ; le contrôle de l'échantillon reçu (`SAMPLE_OK`) est **bloquant avant GMC/Ads**. `WATCH_FINAL` n'autorise rien : ni build, ni commande test automatique.
 6. **UNIVERS.** Décision : construire le pipeline UNIVERS complet (option B) — consolidation par familles, économie de panier, sourcing par famille, boutique multi-collections. **Plancher de sourçabilité** : les 3–5 familles pesant ≥ 70 % du volume consolidé doivent avoir chacune ≥ 2 fournisseurs plausibles avant décision finale. Règle transitoire tant que ce pipeline n'existe pas : **aucun `GO_FINAL` sur un dossier UNIVERS** dont la consolidation par familles et la sourçabilité par famille ne sont pas documentées.
@@ -20,10 +20,10 @@ Ce document est le référentiel à appliquer à toutes les nouvelles recherches
 - Marché prioritaire : France. Royaume-Uni et Allemagne dans un second temps.
 - Prix de vente cible : 50 à 400 € TTC. Un gadget drop 15–20 € n'est pas un candidat.
 - **Deux modes, choisis en phase 0, jamais mélangés :**
-  - **PRODUIT PUR** (ex. osmoseur) : un phare + complémentaires, Search pédagogique. Seuil : cluster adressable de l'ordre de **12 500**/mois en base DataForSEO (**10 000** en base SEMrush ; un 9 900 y passe, cas d'école Bonum Vitae). Shopping après validation.
-  - **UNIVERS** (ex. gothique, montres, sacs) : dizaines de collections, Shopping visuel. Seuil : volume **consolidé par familles** qu'une même boutique servirait — plancher **37 500** boutique en base DataForSEO (confort 50 000) ; **30 000** en base SEMrush (confort 40 000). Une tête seule ne mesure pas un univers (leçon 08/08, ×2 à ×6).
+  - **PRODUIT PUR** (ex. osmoseur) : un phare + complémentaires, Search pédagogique. Seuil DataForSEO : cluster adressable de l'ordre de **12 500**/mois. Shopping après validation.
+  - **UNIVERS** (ex. gothique, montres, sacs) : dizaines de collections, Shopping visuel. Seuil DataForSEO : volume **consolidé par familles** qu'une même boutique servirait — plancher **37 500** boutique (confort 50 000). Une tête seule ne mesure pas un univers (leçon 08/08, ×2 à ×6).
 
-**Base de mesure — décision Hakim du 29/08/2026.** Tout chiffre doit dire **quelle source l'a produit**. DataForSEO rend en médiane ×1,22 à ×1,25 ce que rend SEMrush sur les **têtes** (trois échantillons concordants : 181 mots-clés, 15 têtes, 4 graines en aveugle), d'où les seuils recalibrés ci-dessus. Deux nuances vérifiées le 29/08 :
+**Base de mesure — décisions Hakim des 29/08 et 01/09/2026.** Tout chiffre décisionnel vient de **DataForSEO** et porte la date, les paramètres France/français, l'endpoint et la chaîne exacte qui le produit. Les seuils ci-dessus ont été recalibrés sur DataForSEO à partir de comparaisons historiques. Ces comparaisons servent uniquement à documenter l'origine du calibrage ; elles n'autorisent pas l'usage opérationnel de SEMrush. Deux nuances vérifiées le 29/08 :
 
   - la **dispersion tête à tête est forte** (écart-type 2,65, étendue ×0,03 à ×31) : le facteur ajuste un seuil, il ne convertit jamais un mot-clé isolé ;
   - **le consolidé est plus stable que ses composants.** Rejeu du dossier rideaux : +25 % sur les têtes mais **−4,8 % sur le consolidé** (614 130 contre 645 340), verdict identique, familles de tête identiques. Les deux biais se compensent — la méthode SEMrush additionnait des formulations que Google sert dans un seul bucket. Détail : `analyses/2026-08-29-rejeu-rideaux-dataforseo.md`.
@@ -41,7 +41,7 @@ Ce document est le référentiel à appliquer à toutes les nouvelles recherches
 
 **Brand Search n'est plus une source** (décision Hakim 19/08/2026 : TrendTrack fait le même travail). Les rapports historiques « vague Brand Search » restent de l'anti-doublon. Les visites Brand Search n'ont jamais fondé un verdict.
 
-L'exploration s'élargit ensuite par **SEMrush lui-même** : les sous-groupes du Keyword Magic Tool révèlent les sous-niches autour de chaque idée mesurée, et les associations d'idées (une boutique d'étanchéité → béton ciré → rénovation décorative) alimentent des idées latérales qui suivent la même chaîne complète.
+L'exploration s'élargit ensuite par **DataForSEO Labs** : la table des thèmes co-occurrents produite par `kw_dfs.py` et les suggestions plein texte révèlent les sous-niches autour de chaque idée mesurée. Les associations d'idées (une boutique d'étanchéité → béton ciré → rénovation décorative) alimentent des idées latérales qui suivent la même chaîne complète.
 
 Ces sources servent uniquement à trouver et préqualifier des idées. **Le fournisseur doit exclusivement être trouvé sur AliExpress, uniquement après `PASS_PREQUALIFICATION` écrit.** Ce pass autorise la due diligence ; il ne constitue jamais le `GO_FINAL`.
 
@@ -175,4 +175,4 @@ Bilan du 20/07/2026 (7 familles balayées) : le chemin B élimine bien les morts
 - Trafic estimé faible ou absence d'Ads ne prouve ni échec ni rentabilité ; ne
   pas transformer une estimation tierce en verdict commercial.
 
-**Source de mesure du volume** : SEMrush France (`db=fr`). Ahrefs et DataForSEO ne sont que des replis documentés si SEMrush est indisponible, et un verdict rendu sur repli doit le signaler (décision Hakim 23/08/2026 — DataForSEO reste autorisé comme filtre d'expansion peu coûteux en amont, jamais comme source de gate).
+**Source unique de mesure du volume et de gate** : DataForSEO API, `location_name: France`, `language_name: French`. L'indisponibilité de l'API, des identifiants ou du quota arrête la mesure ; aucun autre outil ne remplace silencieusement DataForSEO.
