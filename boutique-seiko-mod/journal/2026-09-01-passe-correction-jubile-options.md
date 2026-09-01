@@ -94,3 +94,44 @@ cosmétique, écarté de cette passe pour ne pas multiplier les renommages simul
 La passe est nouvelle et crawlable : recompter **7 à 10 jours à partir du 01/09**, soit une fenêtre
 **8–11 septembre**, et seulement une fois `frontpage`, les policies et les 10 fichiers réglés.
 Toujours 0 ads.
+
+---
+
+# GMC 5840460291 — relevé du 01/09/2026
+
+Accès obtenu via le profil Chrome « Noirmont » (l'extension y a été installée en cours de session).
+Compte **OH Ventures — 5840460291**. Lecture seule : rien n'a été cliqué qui soumette quoi que ce soit.
+
+## État
+
+| Indicateur | Valeur |
+|---|---|
+| Problème | **Déclarations trompeuses ou déceptives** — « Empêche l'affichage de tous les produits dans ces pays : France » |
+| Détection | « Google a détecté ce problème grâce à des **vérifications automatisées** » |
+| Articles dans le flux | **883** (les 96 fiches × variantes) |
+| Approuvés | **0** |
+| Refusés | **883** |
+| En cours d'examen | **0** |
+| Clics 28 j | 7 (fiches gratuites) · clics annonces 0 · coût 0,00 € |
+| Qualité du magasin | « informations non disponibles pour le moment » |
+
+Motif affiché : « D'après les informations disponibles sur votre établissement, nous avons des raisons
+de croire que les clients sont trompés sur Google. » Suit la liste générique de bonnes pratiques
+(transparence sur l'identité et le modèle économique, avis et badges, design + SSL, renseigner
+« Informations sur l'entreprise », cohérence données produit / boutique). **Aucun élément spécifique
+n'est cité** — le diagnostic ne dit pas ce qui a déclenché la détection.
+
+## Deux faits opérationnels
+
+1. **Il n'y a pas de bouton « Demander un examen » sur ce problème.** La seule action proposée est
+   **« Je ne suis pas d'accord avec le problème »** — c'est par là que passe la demande de réexamen.
+   Non cliqué : la boutique n'est pas prête (voir « Reste à faire »).
+2. **Second problème ouvert : « Aucun compte Google Ads associé ».** Le lien Ads posé le 18/08 via
+   l'app Google & YouTube n'existe plus côté GMC. À reconnecter avant toute campagne — mais pas
+   maintenant : rien ne doit bouger brutalement avant le réexamen.
+
+## Suite
+
+Le compteur de 7–10 jours court désormais à partir du **01/09** (passe de correction du jour),
+et ne se déclenche vraiment qu'une fois `frontpage`, les quatre policies et les 10 fichiers réglés.
+Toujours 0 ads.
