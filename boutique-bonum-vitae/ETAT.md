@@ -1,7 +1,7 @@
 # Bonum Vitae — état courant
 
-**Dernière mise à jour : 31/08/2026** — feed restreint + lecture GMC +
-étude Waterdrop Europe (`journal/2026-08-31-etude-waterdrop-europe.md`).
+**Dernière mise à jour : 02/09/2026** — JSON-LD Organization réparé
+(`journal/2026-09-02-gmc-nom-et-json-ld-invalide.md`).
 [`TABLEAU.md`](TABLEAU.md) ·
 [`journal/2026-08-18-gmc-existant.md`](journal/2026-08-18-gmc-existant.md).
 
@@ -27,11 +27,12 @@
 
 ---
 
-## Thèmes (constaté 18/08)
+## Thèmes (constaté 02/09)
 
 | Thème | Id | Rôle | Note |
 |---|---|---|---|
-| `copie-de-fullstack-2-3` | **`205568147794`** | **MAIN** | publié par Hakim. Run autonome 18/08. |
+| `jsonld-org-2026-09-02` | **`206619115858`** | **MAIN** | copie FullStack, JSON-LD Organization réparé, publié 02/09 |
+| `copie-de-fullstack-2-3` | `205568147794` | UNPUBLISHED | ancien MAIN (Hakim 18/08), intact |
 | Horizon | `203569004882` | UNPUBLISHED | ancien live |
 | theme-impact-tristan-version-1 | `203578376530` | UNPUBLISHED | hors périmètre |
 | Copie de theme-impact-tristan-version-1 | `203601510738` | UNPUBLISHED | hors périmètre |

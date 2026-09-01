@@ -16,10 +16,9 @@ pour un test ads en septembre. Prompt de relance :
 > sans toucher. Courbe 31/08 : ~95 → ~25–30 Approuvés. Cible 14 items.
 > **Ne pas relancer de review.**
 
-Dernière mise à jour : **31/08/2026** — copy entretien 129 € sur les 2
-osmoseurs + page
-[`/pages/comparer-osmoseurs-600-gpd`](https://bonumvitae.fr/pages/comparer-osmoseurs-600-gpd)
-(Opus 5). GMC : dernier tri prix puis PMAX.
+Dernière mise à jour : **02/09/2026** — JSON-LD `Organization` de l'accueil
+réparé et publié (virgule orpheline). MAIN =
+`jsonld-org-2026-09-02` (`206619115858`). GMC inchangé cette semaine.
 
 ---
 
@@ -29,7 +28,8 @@ osmoseurs + page
    compteur, plus de barrés, plus de -20 %. La boutique n'expose plus l'entité sur ces
    déclencheurs. GMC **5825588636** existe et approuve depuis ~7/08 — ne pas en créer un autre.
 2. **On ne touche ni Tuftéo ni Noirmont.** On écrit seulement sur `kw7vak-g0.myshopify.com`.
-   MAIN Horizon : rail A uniquement. FullStack (`205568147794`) : copie UNPUBLISHED, Hakim publie.
+   MAIN FullStack `jsonld-org-2026-09-02` (`206619115858`). Ne jamais switcher
+   hors brief.
 3. **Persona puis DA puis thème.** Pas de copy, pas de direction artistique, pas de montage
    FullStack avant persona validé par Hakim.
 
@@ -61,7 +61,9 @@ Prix inchangés. Magnétiques DN8/20/25, carafe 3,5 L, douche vitamine C : tag
 DA juillet appliquée sur FullStack MAIN. Pas de restyle.
 
 ### ~~T-H5 — Publier (thème, jamais par l'agent)~~ ✅ 18/08 — Hakim a publié
-MAIN = FullStack `205568147794`. Horizon UNPUBLISHED. Ne jamais switcher.
+MAIN actuel (02/09) = FullStack `jsonld-org-2026-09-02` (`206619115858`),
+copie du `205568147794` pour le JSON-LD. Horizon UNPUBLISHED. Ne jamais switcher
+hors brief.
 
 ---
 
@@ -117,6 +119,12 @@ Abysse/Source déjà sur le live. Pas de restyle.
 ---
 
 ## FAIT
+
+### ~~JSON-LD Organization accueil~~ ✅ 02/09
+Virgule orpheline réparée + `legalName` OH Ventures + téléphone hardcodé + `@id`.
+Live `json.loads` OK. Test Google : Organisation valide, 0 erreur
+(warning facultatif `addressCountry` = France au lieu de FR).
+[`journal/2026-09-02-gmc-nom-et-json-ld-invalide.md`](journal/2026-09-02-gmc-nom-et-json-ld-invalide.md)
 
 ### ~~T-H1 — Auth CLI device-code Bonum Vitae~~ ✅ 17/08 (Hakim)
 `contact@bonumvitae.fr` sur `kw7vak-g0`. Scopes : products, files, themes, content, pages,

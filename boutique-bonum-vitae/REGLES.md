@@ -16,9 +16,11 @@ Karim / Bernard « Vérifié » et les 312 avis sont publics, cet actif est expo
 
 **2. Rail A sur le live, rail B sur une copie. Hakim publie.**
 
-Le MAIN actuel est FullStack `copie-de-fullstack-2-3` (`205568147794`) — Hakim a publié.
-On n'y touche que sur demande explicite (copy, crible). **Ne jamais republier / switcher
-un thème.** Horizon (`203569004882`) est UNPUBLISHED.
+Le MAIN actuel est FullStack `jsonld-org-2026-09-02` (`206619115858`) — publié le 02/09
+pour le JSON-LD Organization (copie du FullStack `copie-de-fullstack-2-3` `205568147794`,
+désormais UNPUBLISHED). On n'y touche que sur demande explicite (copy, crible).
+**Ne jamais republier / switcher un thème** sauf brief du jour qui le demande après
+préview. Horizon (`203569004882`) est UNPUBLISHED.
 
 **3. FullStack natif d'abord. On ne redécouvre pas le thème.**
 

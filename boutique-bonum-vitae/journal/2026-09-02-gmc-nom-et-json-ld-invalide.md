@@ -79,3 +79,63 @@ rendu, puis le test des résultats enrichis Google.
 GMC 5829640586 : **Tuftéo**, `contact@tufteo.com`, +33756828094, 47 Rue Vivienne. Les deux
 corrections sont passées. Reste à **renvoyer les données produit** depuis l'app Google & YouTube
 pour que le nouveau nom remonte sur les fiches Shopping.
+
+## Réparé — 02/09/2026, nuit
+
+Brief : `livraisons/2026-09-02-json-ld-organization-cursor.md`. Contrôle live et test Google
+passés **avant** ce push.
+
+**Fichier touché :** `snippets/organization-schema.liquid` (seul gabarit). Appelé par
+`snippets/meta-tags.liquid` si `request.page_type == 'index'`. Aucune fiche produit, aucune
+policy, rien dans le GMC.
+
+**Thèmes :** copie `jsonld-org-2026-09-02` (`206619115858`) depuis le MAIN alors
+`copie-de-fullstack-2-3` (`205568147794`). `shopify theme push` du snippet a échoué
+silencieusement (fichier resté à 2 167 o). Écriture via `themeFilesUpsert` (2 206 o).
+Préview validée (cookie Shopify obligatoire ; `curl -L` sans cookie retombe sur le live).
+Puis `themePublish` — le MAIN est désormais **`206619115858`**. L'ancien FullStack
+`205568147794` est UNPUBLISHED, intact.
+
+**Diff (principe) :**
+
+```diff
+     "name": {{ shop.name | json }},
++    "legalName": "OH Ventures",
++    "telephone": "+33756828094",
+     "url": {{ request.origin | append: page.url | json }},
+-    {% if shop.phone != blank %}
+-    "telephone": {{ shop.phone | json }},
+-    {%- endif -%}
+     {% if shop.email != blank %}
+     "email": {{ shop.email | json }},
+…
+-    ]{% endif %}
++    ],{% endif %}
++    "@id": {{ request.origin | append: '/#organization' | json }}
+```
+
+Le `if shop.phone` a été retiré : `shop.phone` est vide (le champ GraphQL `Shop.phone`
+n'existe pas) ; le laisser aurait produit un doublon le jour où la fiche adresse serait
+remplie. Téléphone **hardcodé** `+33756828094`. **Pas touché côté GMC.**
+
+### Contrôle §4
+
+**§4.1 préview** (`?preview_theme_id=206619115858`, cookie de session) puis **§4.2 live**
+`https://bonumvitae.fr/` :
+
+```
+{'name': 'Bonum Vitae', 'legalName': 'OH Ventures', 'telephone': '+33756828094', 'email': 'contact@bonumvitae.fr', '@id': 'https://bonumvitae.fr/#organization'}
+```
+
+`json.loads` OK. Accueil : **1** bloc `ld+json` (`Organization`). Fiches
+`/products/osmoseur-ro-600g` et `/products/kit-entretien-osmoseur-600-gpd` : **1** bloc
+`Product` chacune, parse OK. Contact / FAQ : 0 bloc.
+
+**§4.3 test résultats enrichis** (02/09 00:32, agent smartphone) :
+<https://search.google.com/test/rich-results/result?id=u97Ou51EoQePG_TlATzSmQ>
+
+- 2 éléments valides : Organisation + Commerces et services à proximité
+- **0 erreur**
+- 1 problème **non critique / facultatif** : `addressCountry` vaut `France` (nom) au lieu
+  du code ISO `FR`. Préexistant — `shop.address.country` du gabarit natif. Pas corrigé
+  cette passe (hors brief).
