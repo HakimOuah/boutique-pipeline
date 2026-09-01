@@ -8,8 +8,9 @@ destinataire: cursor
 
 # Reste à faire — Maison Noirmont, 01/09/2026
 
-**État 01/09 soir (Cursor) :** blocs 1 et 2 **faits**. Bloc 3 **toujours verrouillé**
-(`FILE_LOCKED` sur les 10 IDs, admin inclus). Journal :
+**État 01/09 soir (Cursor, 2e passe) :** blocs 1 et 2 **faits**. Bloc 3 : **alts faits**
+via REST (les 10 + 3 vues de face). **Filenames toujours `FILE_LOCKED`** — l'admin
+(`FileUpdateNext`) et `fileAcknowledgeUpdateFailed` tapent la même file. Journal :
 `journal/2026-09-01-reste-cursor-blocs.md`.
 
 Boutique : **maisonnoirmont.fr** (`v42pzp-h4`). Thème MAIN : `205451100498`.
@@ -175,10 +176,11 @@ rejetées avec le même message.
 
 1. Réessayer `fileUpdate` (la file d'attente Shopify se débloque parfois d'elle-même). Y aller
    **un fichier à la fois**, pas en lot de dix : c'est le lot qui a créé le blocage.
-2. Si le message « opérations en attente » persiste, passer par l'admin :
-   **Contenu → Fichiers**, rechercher `jubile`, et pour chacun des dix, éditer le nom et le texte
-   alternatif. L'interface admin emprunte un autre chemin que l'API et n'est pas concernée par ce
-   verrou.
+2. Si le message « opérations en attente » persiste : **l'admin n'emprunte pas un autre chemin**
+   (vérifié 01/09 soir — `FileUpdateNext` = même `FILE_LOCKED`). Ne pas `fileDelete`.
+   `fileAcknowledgeUpdateFailed` ne débloque pas un fichier `READY`. Les alts passent déjà
+   par REST `PUT /products/{id}/images/{id}.json`. Pour le filename : attendre que Shopify
+   lâche le verrou, puis `fileUpdate` un fichier à la fois.
 
 ## Les dix fichiers
 
