@@ -59,12 +59,8 @@ Contrôle live : **0** `no logo`, `ships from`, `china mainland`, `band color`, 
 - `/collections/frontpage` (publiée, dans le sitemap, 1 produit) — `publishableUnpublish` est refusé
   par la politique de sécurité du connecteur. **2 clics dans l'admin** : Collections → Page d'accueil
   → retirer « Boutique en ligne » et « Google & YouTube ».
-- Les policies : scope `write_legal_policies` absent. Quatre corrections à faire à la main :
-  1. **Coordonnées** : SIRET `10315725100010` → `103 157 251 00010`, TVA `FR55103157251` → `FR55 103157251` (le reste du site écrit la version espacée)
-  2. **CGV, article 15** : `<meta charset="utf-8">` dans le corps, juste avant le bloc CM2C — c'est le défaut listé dans `audit-lecons-noirmont.md`, jamais retiré
-  3. **CGU, §2** : lien vers `/pages/mentions-legales` (page CMS dépubliée, aujourd'hui en 301) → pointer `/policies/legal-notice`
-  4. **Mentions légales, §4 et §5** : trois `<a>` sans `href` (« Politique de confidentialité »,
-     « Politique de cookies », « Conditions générales de vente ») — liens morts
+- Les policies : **faites le 01/09 soir** (CLI `shopPolicyUpdate`, scope OK). Détail :
+  `journal/2026-09-01-corrections-policies-audit.md`.
 
 **Bloqué côté Shopify (file lock) :** 10 fichiers CDN portent encore `jubile` dans leur nom et
 « Classique jubilé » dans leur `alt`. Le premier envoi groupé a échoué sur une erreur temporaire
