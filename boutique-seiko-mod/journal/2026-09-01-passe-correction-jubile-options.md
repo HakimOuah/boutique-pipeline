@@ -54,13 +54,12 @@ Contrôle live : **0** `no logo`, `ships from`, `china mainland`, `band color`, 
 
 ## Reste à faire
 
-**Bloqué par le connecteur MCP :**
+**Fait le 01/09 soir (Cursor) :**
 
-- `/collections/frontpage` (publiée, dans le sitemap, 1 produit) — `publishableUnpublish` est refusé
-  par la politique de sécurité du connecteur. **2 clics dans l'admin** : Collections → Page d'accueil
-  → retirer « Boutique en ligne » et « Google & YouTube ».
-- Les policies : **faites le 01/09 soir** (CLI `shopPolicyUpdate`, scope OK). Détail :
-  `journal/2026-09-01-corrections-policies-audit.md`.
+- `/collections/frontpage` dépubliée (Boutique en ligne + Google & YouTube). Live **404**,
+  absente du sitemap. Point de vente et Shop laissés (2 canaux).
+- Policies : voir `journal/2026-09-01-corrections-policies-audit.md` + complément
+  capital `1 000 €`, horaires SAV 9h–17h / 48 h, lien `<a>` CM2C.
 
 **Bloqué côté Shopify (file lock) :** 10 fichiers CDN portent encore `jubile` dans leur nom et
 « Classique jubilé » dans leur `alt`. Le premier envoi groupé a échoué sur une erreur temporaire

@@ -8,6 +8,10 @@ destinataire: cursor
 
 # Reste à faire — Maison Noirmont, 01/09/2026
 
+**État 01/09 soir (Cursor) :** blocs 1 et 2 **faits**. Bloc 3 **toujours verrouillé**
+(`FILE_LOCKED` sur les 10 IDs, admin inclus). Journal :
+`journal/2026-09-01-reste-cursor-blocs.md`.
+
 Boutique : **maisonnoirmont.fr** (`v42pzp-h4`). Thème MAIN : `205451100498`.
 Contexte : ban GMC 5840460291 « Déclarations trompeuses ou déceptives », toujours actif au 01/09.
 La passe de correction du jour (Jubilé → cinq rangs, options fournisseur, FAQ, 301) est faite.
