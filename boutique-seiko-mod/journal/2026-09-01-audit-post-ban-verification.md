@@ -85,3 +85,89 @@ sans 301). Fiche brouillon, donc URL jamais publique — mais la règle est le 3
 
 Ne pas demander l'examen tant que le P0 et le P1 tiennent. Une fois la passe faite, le compteur
 7–10 jours repart de cette date : **fenêtre décalée au 9–12 septembre**. Toujours 0 ads.
+
+---
+
+# Seconde passe — Admin Shopify + Chrome (01/09, après reconnexion)
+
+Connecteur Shopify Admin rebranché : les 221 fiches (96 actives, 115 brouillons, 10 archivées)
+ont été scannées, pas seulement le catalogue public.
+
+## Ce que l'accès Admin confirme
+
+| Contrôle | Résultat sur les 221 fiches |
+|---|---|
+| `compareAtPriceRange` | **null sur 221/221** — 0 prix barré, brouillons et archivées comprises |
+| Seiko / Miyota / Mingzhu / Président / 904L / SKX | **0** |
+| Rolex / Oyster / Datejust / Submariner / Daytona / GMT-Master | **0** |
+| Omega / Speedmaster / Seamaster / Tudor / Black Bay | **0** |
+| Cartier / Panerai / IWC / Royal Oak / Nautilus / Patek | **0** |
+| « homage » / « replica » / « clone » | **0** |
+| Fichiers CDN nommés `president`, `seiko`, `miyota`, `skx` | **0** (les 3 hits `904` sont des fragments d'UUID) |
+
+La purge des trois passes tient donc **sur tout le catalogue**, pas seulement sur le public.
+
+## Ce que l'accès Admin ajoute
+
+### P0 — « Ships From : China Mainland » sur une fiche **active**
+
+`doigtiers-d-horloger-latex` (ACTIVE, 12,90 €) publie deux options fournisseur brutes :
+
+```
+Color : white 100pcs · black 30pcs · white 30pcs · white 50pcs · black 50pcs · black 100pcs
+Ships From : China Mainland
+```
+
+Vérifié rendu sur la PDP live. Sur une boutique bannie pour **déclarations trompeuses**, qui
+annonce « Livraison offerte en France métropolitaine » en bandeau, une option publique qui déclare
+l'expédition depuis la Chine est la contradiction la plus lisible du site.
+
+### P0 — Noms d'options fournisseur en anglais sur **13 fiches actives**
+
+`Band Color` / `Band Width` : `bracelet-jubile-embouts-courbes`, `bracelet-jubile-acier-20mm`,
+`bracelet-acier-massif-12-22-mm`, `bracelet-caoutchouc-gaufre`, `bracelet-milanais-maille-italienne`,
+`bracelet-cuir-daim-degagement-rapide`.
+`Color` : `coussins-de-presentation-lot-de-10`, `etui-de-voyage-rigide`,
+`coffret-6-montres-couvercle-verre`, `kit-d-entretien-13-pieces`,
+`outil-de-mise-a-taille-de-bracelet`, `loupe-d-horloger`, `doigtiers-d-horloger-latex`.
+
+Valeurs de la même veine : `steel-no logo`, `1.0mm-rose gold`, `white 100pcs`. Les 83 autres fiches
+actives ont des options en français (`Cadran`, `Mouvement & fond`, `Capacité`…) — l'écart se voit.
+
+### Jubilé — chiffres définitifs
+
+**20 fiches** (19 actives + le brouillon `boitier-plongee-40-200m-jubile`) et **20 fichiers CDN**
+dont le nom contient `jubile`. Confirme et complète le P0 de la première passe.
+
+### À arbitrer — « Explorateur »
+
+`montre-acier-chiffres-3-6-9-explorateur` (ACTIVE) : titre **« Explorateur : Sport chic à
+chiffres 3-6-9 »**, SEO title identique. Cadran 3-6-9 = signature de l'Explorer. Contrairement à
+« Jubilé » et « Président », « explorateur » est un mot français courant et non le nom commercial
+employé par la marque — d'où l'arbitrage plutôt que la purge automatique.
+
+### Brouillons — à traiter avant toute publication
+
+- `Dial Diameter : NO LOGO` sur 8 fiches (option mal nommée **et** vocabulaire fournisseur)
+- `Ships From : China Mainland` sur 4 brouillons / archivées de plus
+- `solid-cyclop` / `glass-cyclop` dans les options de `boitier-plongee-40-200m-jubile` et
+  `boitier-argent-40-saphir-120-clics` — « Cyclops » est le terme Rolex du verre loupe de date
+- Handle `aiguilles-vintage-sub-nh35` (« sub » = Submariner)
+
+## GMC — pas d'accès depuis ce Chrome
+
+`merchants.google.com/mc/overview?a=5840460291` → **« votre compte Google n'a pas accès à ce compte
+Merchant Center »**. Les trois comptes de la session Chrome ont été testés :
+
+| Compte | Merchant Center visibles |
+|---|---|
+| `ouahabi.hakim@gmail.com` (authuser=0) | Gourde and Go **5564946079** · Hakim Ouahabi **515754956** (bonumvitae.fr) |
+| `hakim.ouahabi4@gmail.com` (authuser=1) | aucun |
+| `vpnpascher@gmail.com` (authuser=2) | aucun |
+
+Le GMC **5840460291** de Noirmont n'est sous aucun des trois. Il faut le compte Google qui le
+détient (probablement celui rattaché à `contact.noirmont@gmail.com`, cf. la fuite JSON-LD du 15/08)
+pour relire le diagnostic. Le statut réel du ban reste donc non vérifié.
+
+Aperçu au passage sur le compte 0 : **Gourde and Go** — 0 produit, 0 approuvé, 0 refusé,
+« informations sur la qualité du magasin non disponibles », campagnes Ads en pause.
