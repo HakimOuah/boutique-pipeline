@@ -10,7 +10,18 @@ Règles d'usage :
 - Le registre pointe vers les rapports ; il ne remplace jamais leur détail ni leurs réserves.
 - Niveaux de validation : 1 = marché, 2 = fiche AliExpress, 3 = commande test, 4 = GO lancement. Aucun raccourci entre niveaux.
 
-Dernière mise à jour : 3 septembre 2026 — **univers poufs : cadre boutique complète → `REVIEW_PREQUALIFICATION`**. Consolidé B **54 730** ≥ 37 500 ; A 36 095. TrendTrack BBO FR **36 039** visites (85 % FR), 70 ads Google, feed 4 ans, best-sellers = poire gamer 99,90–109,90 €. Collection enfant = Search n/a. Dossier : [analyses/2026-09-03-univers-poufs/](analyses/2026-09-03-univers-poufs/). Voir section « Univers poufs — 03/09/2026 ». Précédente : 2 septembre 2026 — **panneaux muraux bois (boutique preuve The Panel Hub) : le panneau acoustique à tasseaux passe la mesure express PRODUIT PUR (tête `panneau tasseaux bois` 14 800, cluster dédupliqué 22 640), sonde `DANS LA TRANCHE`, sourçable depuis des entrepôts allemands à 108–117 € le lot de 4 × 120×60 en 3–10 j ; panneaux 3D et aspect roche `STOP mesure express` (4 340 / 1 230), ce qui confirme leur REJET PHASE 2 du 01/09** ([dossier](analyses/2026-09-02-panneaux-muraux-bois/)). Phases filtre, SERP, Trends et marge non lancées : **décision Hakim requise** pour poursuivre. Voir section « Panneaux muraux bois — 02/09/2026 ».
+Dernière mise à jour : 3 septembre 2026 — **univers portefeuilles : sourcing AliExpress après REVIEW**. Homme cuir `FOURNISSEUR À TESTER` (10,68–23,19 € rendu, 6–16 j). Femme `AUCUNE OFFRE EXPLOITABLE`. Dossier : [catalogues/portefeuilles/](catalogues/portefeuilles/). Voir section ci-dessous. Précédente du jour : univers poufs `REVIEW_PREQUALIFICATION` (B 54 730). Avant : panneaux muraux bois 02/09.
+
+## Univers portefeuilles — 02–03/09/2026 — analyse + sourcing
+
+Origine : capture SEMrush de Hakim (860 180, KD 19 %). Mode `UNIVERS`. Mesure DataForSEO France, familles figées avant le premier appel. Dossier : [catalogues/portefeuilles/](catalogues/portefeuilles/).
+Sourcing 03/09 sur instruction explicite (« Ok pour sourcing ») malgré le REVIEW — due diligence, pas un pass rétroactif.
+
+> **Nature de l'étape :** étapes 1–8 + phase 4. `GO_FINAL` interdit. Plancher sourçabilité UNIVERS : homme et porte-cartes tiennent (≥ 2 fiches) ; femme non.
+
+| Idée | Statut au 03/09 | Volume DataForSEO | Sonde / comparable | AliExpress | Réserves |
+|---|---|---|---|---|---|
+| **Univers portefeuilles** (synonymes : portefeuille homme/femme, porte-cartes, porte-monnaie, compagnon, protège-passeport) | **`REVIEW_PREQUALIFICATION`** — volume OK, Ads et différenciation faibles ; femme non sourcée | Plancher net **169 960** (8 familles). Têtes : homme 60 500, femme 40 500, porte-cartes 40 500, porte-monnaie 22 200. SEMrush 860 k = vêtements + marques, pas le marché | `DANS LA TRANCHE`. Cœur 20–100 €, comparable catalogue **35–55 €**. Position 49 € homme → ratio / CPC ≈ **70** (sous 100) | Homme : CONTACTS `32214351549` **16,69 €** 8–15 j ; MUNUKI `32802419144` **23,19 €** 8–16 j ; Sterre 10,98 €. Porte-cartes 6 fentes = même Sterre. Compact / monnaie : RideCraft 11,18 €. **Femme : aucune offre** | Page 1 = marques FR. Pas d’axe « personne d’autre ». API AE aveugle (PU 2,50 €). PDP non relues (B). Trends 5 ans manquant |
 
 ## Univers poufs (preuve Big Bertha Original) — 03/09/2026 — Mission B
 

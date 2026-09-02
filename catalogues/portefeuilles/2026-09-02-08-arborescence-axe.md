@@ -58,7 +58,9 @@ RFID, couleur, cadeau, nom de modèle maison : collections mortes chez eux, à n
 
 ## Économie (indicatif)
 
-Tranche 50–400 € : traversée, pas le cœur. Cœur catalogue comparable **35–55 €**. Position proposée après `07` : **49 €** homme (sous Hexagona 49–55), **59 €** femme si le comparable femme le permet, **39 €** porte-cartes nommé. Ratio 49 ÷ 0,70 ≈ **70** — **sous le plancher 100**. À 55 € le ratio est encore ~79. L’économie Ads est le point faible du dossier, pas le volume. Coût rendu AliExpress : **manquant**.
+Tranche 50–400 € : traversée, pas le cœur. Cœur catalogue comparable **35–55 €**. Position proposée après `07` : **49 €** homme (sous Hexagona 49–55), **59 €** femme si le comparable femme le permet, **39 €** porte-cartes nommé. Ratio 49 ÷ 0,70 ≈ **70** — **sous le plancher 100**. À 55 € le ratio est encore ~79. L’économie Ads est le point faible du dossier, pas le volume.
+
+Coût rendu AliExpress (03/09, devis SKU, confiance B) : homme **10,68–23,19 €** (CONTACTS 16,69 · MUNUKI 23,19 · Sterre 10,98). Reste produit à 49 € : **25,81–38,32 €** avant Ads/SAV. Femme : **manquant**. Détail : `2026-09-03-09-sourcing-aliexpress.md`.
 
 ## Ce que cette étape ne tranche pas
 

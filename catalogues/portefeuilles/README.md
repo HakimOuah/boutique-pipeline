@@ -15,7 +15,7 @@ Mode **UNIVERS**. Signal amont : capture SEMrush de Hakim (860 180, KD 19 %, `po
 | Différenciation | 3 trous d’offre réels (homme 35–55 € stocké, porte-monnaie homme, porte-cartes nommé). Pas d’axe « personne d’autre ne fait » au sens Noirmont |
 | Occupation | page 1 = marques FR, pas Amazon (1/9 homme). Dense, de même nature |
 
-**REVIEW de différenciation et d’économie Ads.** Le volume ne tue pas le dossier. Hakim tranche.
+**REVIEW de différenciation et d’économie Ads.** Le volume ne tue pas le dossier. Le sourcing du 03/09 montre que l’homme cuir est sourçable (10,68–23,19 € rendu, 6–16 j) ; la femme cuir ne l’est pas encore. Hakim tranche.
 
 ## Fichiers
 
@@ -25,8 +25,9 @@ Mode **UNIVERS**. Signal amont : capture SEMrush de Hakim (860 180, KD 19 %, `po
 4. `2026-09-02-05-verification-serp.md`
 5. `2026-09-02-07-cartographie-concurrence.md` — 5 concurrents, ETV dédupliqué
 6. `2026-09-02-08-arborescence-axe.md`
-7. `mesures/` — JSON de preuve
+7. `2026-09-03-09-sourcing-aliexpress.md` — phase 4, 8 devis FR
+8. `mesures/` — JSON de preuve (dont `2026-09-03-quotes-ae.json`)
 
 ## Limites
 
-Google Trends 5 ans non lu (séries Ads : socle + Q4). Devise CPC absente. 2ᵉ page Labs non tirée (planchers). Annonces Search texte non isolées. Pas de sourcing AliExpress.
+Google Trends 5 ans non lu (séries Ads : socle + Q4). Devise CPC absente. 2ᵉ page Labs non tirée (planchers). Annonces Search texte non isolées. PDP AliExpress non relues (confiance B). Femme / compagnon et porte-monnaie dédié non sourcés.
