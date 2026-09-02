@@ -25,11 +25,11 @@ Page `/collections/portefeuilles` pour la tête générique 40 500 — H1 + meta
 
 Sans catalogue, le ratio recherches/fiche n’existe pas. Ordre de sourcing si GO humain :
 
-1. Homme cuir compact / 2 volets — 60 500, comparable 69–79 €
-2. Femme cuir souple / compagnon — 40 500, comparable 75–85 €
-3. Porte-cartes cuir (pas aluminium 8 €, pas papeterie) — 40 500
-4. Porte-monnaie cuir — 22 200, attention ticket 7–30 €
-5. Passeport — 4 400, ticket typique 10–25 € : **vivier**, pas phare
+1. Homme cuir, bande **35–55 €**, catalogue profond — 60 500
+2. Porte-cartes cuir dont le titre nomme la contenance — 40 500
+3. Femme cuir / compagnon — 40 500
+4. Porte-monnaie **homme** — famille 22 200, quasi vide chez 4/5
+5. Passeport — 4 400, fiche à ~25 € (Paul Marius), pas une collection SEO
 
 RFID et chaîne : trop petits pour porter une boutique.
 
@@ -48,12 +48,18 @@ Axes écartés, écrits comme décisions :
 - RFID comme promesse principale → jeté (390 recherches)
 - Univers « robe portefeuille » → jeté (autre produit)
 
-Axe **provisoire**, à confronter à la cartographie : **petite maroquinerie par format** (2 volets / slim / compagnon / porte-cartes), prix juste sous Arthur & Aston / Hexagona, sans récit d’atelier. Ce n’est pas encore un axe qui « personne d’autre ne fait » — c’est une exécution. Si la cartographie ne trouve pas de trou d’offre réel, le dossier reste un **REVIEW** de différenciation, pas un manque de demande.
+Axe retenu après cartographie : **pas la forme** (Le Tanneur a six collections de forme à 0 ETV — le cas Noirmont). Un seul axe concurrent rapporte : **type × genre**. Trois places libres observées, pas inventées :
+
+1. Portefeuille homme **35–55 €** avec du stock (Paul Marius a le trafic et 3 modèles ; Hexagona a 61 fiches et peu de trafic ; Le Tanneur démarre à 120 €).
+2. Porte-monnaie **homme** (22 200 mesurés ; quasi vide chez 4/5).
+3. Porte-cartes cuir dont le titre nomme la **contenance** (0/2 487 fiches disent slim / 6 cartes / aluminium).
+
+RFID, couleur, cadeau, nom de modèle maison : collections mortes chez eux, à ne pas créer.
 
 ## Économie (indicatif)
 
-Tranche 50–400 € : traversée, pas le cœur. Cœur visible 20–100 €. Position proposée : **79 €** homme, **85 €** femme, **59 €** porte-cartes cuir. Ratio 79 ÷ 0,70 ≈ 113 (CPC devise non confirmée). Coût rendu AliExpress : **manquant** — skill sourcing, seulement si Hakim demande un pass.
+Tranche 50–400 € : traversée, pas le cœur. Cœur catalogue comparable **35–55 €**. Position proposée après `07` : **49 €** homme (sous Hexagona 49–55), **59 €** femme si le comparable femme le permet, **39 €** porte-cartes nommé. Ratio 49 ÷ 0,70 ≈ **70** — **sous le plancher 100**. À 55 € le ratio est encore ~79. L’économie Ads est le point faible du dossier, pas le volume. Coût rendu AliExpress : **manquant**.
 
 ## Ce que cette étape ne tranche pas
 
-Hakim applique les seuils. Volume UNIVERS : plancher net 169 960 > 50 000. Prix : dans la tranche, économie serrée. Différenciation : non démontrée. Pas de `GO_FINAL`.
+Hakim applique les seuils. Volume UNIVERS : plancher net 169 960 > 50 000. Prix : dans la tranche, **ratio Ads sous 100** à 49–55 €. Trois trous d’offre réels. Pas de `GO_FINAL`.
