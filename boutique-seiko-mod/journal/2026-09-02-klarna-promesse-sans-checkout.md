@@ -96,3 +96,67 @@ contrepartie**, sur un compte banni pour déclarations trompeuses. Option A rete
 5. Compteur : la fenêtre d'examen glisse au **9-12 septembre**
 
 Réversible. On remet les deux le jour où Klarna sert réellement.
+
+---
+
+## Correction appliquée — 02/09/2026, nuit
+
+### Ce que le bloc faisait vraiment
+
+Le bloc `custom_code_7mKV34` (section `main`, type `custom-code`) n'était pas du bricolage : son
+auteur avait posé **deux garde-fous** documentés en commentaire — les logos viennent de
+`shop.enabled_payment_types` « pour que le logo disparaisse seul si Klarna est désactivé un jour »,
+et un plancher de **30,00 €** pour ne pas promettre du fractionné sur un bracelet à 19,90 €.
+
+**C'est le garde-fou n°1 qui a cédé, pas l'auteur.** Il supposait
+`enabled_payment_types` = *réellement proposé en caisse*. Faux : Klarna y figure alors qu'il n'est
+jamais offert. Le commentaire dit d'ailleurs « Vérifié le 15/08/2026 en caisse réelle : PayPal et
+Klarna sont actifs » — c'était vrai ce jour-là, ou ça n'a jamais été revérifié depuis.
+
+Leçon à retenir : **`shop.enabled_payment_types` déclare ce qui est activé, pas ce qui est servi.**
+Un moyen en attente d'approbation y figure. Toute promesse construite dessus doit être recoupée
+avec un vrai passage en caisse.
+
+### Fait
+
+`templates/product.json`, bloc `custom_code_7mKV34` : le filtre
+`{%- if type == 'paypal' or type == 'klarna' -%}` devient `{%- if type == 'paypal' -%}`, plus un
+commentaire daté expliquant pourquoi et comment remettre Klarna le jour où il sert.
+
+Écriture impossible sur le thème publié (refus de la politique du connecteur, cf.
+`workflow-theme-live-copie-travail`). Donc : duplication du MAIN `205451100498` →
+**`206709490002` « Noirmont 2 — sans Klarna 02/09 »**, écriture sur la copie, contrôle sur la
+prévisualisation.
+
+Deux pièges rencontrés :
+- **la duplication est asynchrone** : le premier `themeFilesUpsert` lancé pendant `processing`
+  n'a rien écrit **et n'a rien signalé** (`upsertedThemeFiles: []`, `userErrors: []`). Attendre
+  `processing: false`, puis vérifier par l'empreinte.
+- `upsertedThemeFiles` revient **vide même en cas de succès** : ne jamais s'y fier, contrôler
+  `files.nodes[].checksumMd5`.
+
+Le fichier de 79 Ko n'est pas passé par la conversation : `stagedUploadsCreate` → envoi curl →
+`themeFilesUpsert` avec `body: { type: URL }`. Recette à réutiliser pour tout gros fichier de thème.
+
+**Contrôle** : md5 de la copie `ec1a572bc10beb329a3475c72a34a1e2` = md5 local, taille 79 904 o.
+Rendu sur la prévisualisation de la fiche à 417 € : **« Paiement en plusieurs fois avec PayPal »**,
+logo Klarna disparu. Page intacte par ailleurs — JSON-LD `ProductGroup` valide, prix, bouton panier,
+0 occurrence de `jubil` ou `explorat`.
+
+### Ce qui reste, et que le thème ne peut pas régler
+
+Le **picto Klarna subsiste 3 fois par fiche** (pied de page + bloc `payment_methods_BdjpFB` de la
+page produit), y compris sur la copie corrigée. Ces icônes sont générées depuis
+`shop.enabled_payment_types` : elles ne disparaîtront que si **Klarna est réellement désactivé**
+dans Admin → Paiements. « En attente » ne suffit pas — vérifié après le passage en attente, le
+picto est toujours là.
+
+Ne pas contourner en cochant « Afficher manuellement les icônes » : c'est précisément le réglage
+qui avait produit le picto fantôme et qui prive le pied de page de son auto-correction
+(`sources-audit-conformite-boutique`).
+
+### À faire par Hakim
+
+1. **Publier** le thème `206709490002` (Boutique en ligne → Thèmes → Publier)
+2. **Désactiver Klarna** dans Admin → Paiements — les 3 pictos tombent seuls
+3. Me le dire : je contrôle le live et je recompte la fenêtre d'examen
