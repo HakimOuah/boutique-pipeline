@@ -160,3 +160,42 @@ qui avait produit le picto fantôme et qui prive le pied de page de son auto-cor
 1. **Publier** le thème `206709490002` (Boutique en ligne → Thèmes → Publier)
 2. **Désactiver Klarna** dans Admin → Paiements — les 3 pictos tombent seuls
 3. Me le dire : je contrôle le live et je recompte la fenêtre d'examen
+
+---
+
+## Clôturé — 02/09/2026, nuit
+
+Hakim a **publié** la copie de thème et **désactivé** Klarna dans Admin → Paiements.
+
+### Un dernier résidu, imprévu : le nom du thème
+
+Shopify injecte le nom du thème publié dans le HTML de **chaque page**
+(`Shopify.theme = {"name":"…"}`). La copie s'appelait « Noirmont 2 — sans Klarna 02/09 » : le site
+publiait donc le mot « Klarna » — et une note de travail interne — sur toutes ses pages, au moment
+même où on l'en retirait. Renommée **« Noirmont 3 »** (`themeUpdate` passe sur le thème publié,
+contrairement à `themeFilesUpsert`).
+
+**À retenir : ne jamais nommer une copie de thème d'après ce qu'on y retire.** Le nom est public.
+
+### Contrôle final
+
+| Contrôle | Résultat |
+|---|---|
+| Pictos de paiement (accueil, fiche, panier, collection) | `visa, master, american_express, cartes_bancaires, apple_pay, paypal, shopify_pay` — **0 Klarna** |
+| Bloc paiement fractionné, 3 fiches ≥ 239 € | « Paiement en plusieurs fois avec **PayPal** » |
+| 31 URL balayées (accueil, 7 pages, 7 policies, panier, 13 collections, 3 fiches) | **0 résidu** sur `klarna\|explorat\|jubil\|seiko\|miyota\|mingzhu\|904l\|skx\|rolex\|oyster\|datejust\|no logo\|ships from\|china mainland\|band color\|band width\|qualité premium` |
+| `products.json` (96 actives) | propre |
+| Thème publié | Noirmont 3 (`206709490002`) |
+
+Le pied de page correspond désormais exactement au checkout : carte (Visa, Mastercard, Amex, CB),
+PayPal, Shop Pay, Apple Pay sur Safari. Plus aucune promesse sans contrepartie.
+
+### Audit §6 — complet
+
+Tous les items sont verts, y compris les trois passés par Hakim (téléphone vocal, Trustpilot
+absent, commande test complète). **Dernière modification crawlable : 02/09 au soir.** Fenêtre
+d'examen **9-12 septembre**. Toujours 0 ads.
+
+Reste hors périmètre de l'examen : reconnecter le compte Google Ads au GMC (après approbation), et
+réactiver Klarna le jour où il est réellement servi — en remettant alors `or type == 'klarna'` dans
+le bloc `custom_code_7mKV34`.
