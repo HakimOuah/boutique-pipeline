@@ -68,3 +68,31 @@ Tout le reste est vert : identité et contact cohérents, JSON-LD valide, polici
 marque tierce sur 221 fiches et 1 770 médias, zéro prix barré, 10 redirections 301, aucune
 collection publiée vide, bandeau cookies conforme, téléphone vocal OK, Trustpilot absent,
 commande test passée. Klarna est le dernier point.
+
+---
+
+## Confirmé — 02/09/2026, soir
+
+L'hypothèse « Klarna n'apparaît qu'une fois l'adresse saisie » est **écartée**. Hakim a refait le
+test avec une **adresse française complète**, et Klarna était déjà absent de sa **commande test**
+allée à son terme. Mon propre test à 417 € sans adresse donnait le même résultat.
+
+Sont donc écartés : le seuil de montant, le pays, la devise, la catégorie de produit, et le rendu
+conditionné à l'adresse. **Klarna est activé côté Shopify et ne sert jamais.** Reste la cause 1 :
+activé dans l'admin mais pas opérationnel côté Klarna — examen marchand non terminé, ou moyen
+restreint pour ce compte. À lire dans Admin → Paiements → ligne Klarna → « … » → Gérer, pour la
+trace et pour savoir quand le réactiver.
+
+La promesse affichée sur les fiches ≥ 239 € et le picto du footer sont donc **des déclarations sans
+contrepartie**, sur un compte banni pour déclarations trompeuses. Option A retenue.
+
+### À faire, dans cet ordre
+
+1. Relever le statut Klarna dans « Gérer » (pour le journal, ne bloque rien)
+2. Admin → Paiements → **désactiver Klarna** — le picto du footer disparaît seul, les icônes
+   suivent `shop.enabled_payment_types`
+3. Thème → Personnaliser → page produit → supprimer le bloc « Code personnalisé » `.mn-fractionne`
+4. Contrôle : `pi-klarna` absent du footer, `mn-fractionne` absent des fiches à 239 € et plus
+5. Compteur : la fenêtre d'examen glisse au **9-12 septembre**
+
+Réversible. On remet les deux le jour où Klarna sert réellement.
