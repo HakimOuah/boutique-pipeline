@@ -4,17 +4,16 @@ boutique: tufting
 date: 2026-09-02
 nature: mesure
 leviers: [sourcing, ads]
-titre: "Commande #1001 — toile primaire 1,5 × 4 m, mapping DSers UC jamais fait"
+titre: "Commande #1001 — toile primaire 1,5 × 4 m, mapping DSers UC fait le soir même"
 ---
 
 # Commande #1001 — première vente Tuftéo
 
 Commande Shopify **#1001**, 16:36 le 02/09/2026, France, **44,90 €**. Produit :
-**Toile primaire de tufting (lignes repères)**, variante **1,5 × 4 m**. DSers :
-Unmapped, onglet Awaiting order. Coûts DSers à 0 — normal, le mapping n'existe pas.
+**Toile primaire de tufting (lignes repères)**, variante **1,5 × 4 m**.
 
-Ce n'est pas un oubli du jour. Le journal du 21/07 le dit : *« Mapping DSers des 4
-variantes UC pas encore fait (à faire au premier ordre) »*.
+DSers était Unmapped à l'arrivée — prévu depuis le 21/07 (*« à faire au premier
+ordre »*). **Mapping Urban Corners fait le 02/09 soir** (Hakim).
 
 ## Fournisseur — Urban Corners Store
 
@@ -68,6 +67,6 @@ On ne sait pas si #1001 vient de Shopping : les UTM n'étaient pas posés au
 lancement. Ce n'est pas le kit 269 € ni le gun — c'est un accessoire à 44,90 €,
 ≈ 8 € de marge. Une vente ne dit rien sur le CAC ni sur le scaling.
 
-À faire après mapping : passer la commande fournisseur, vérifier le tracking
-contre la promesse 6–10 j, renseigner le coût d'achat Shopify (toujours vide
-sur ces 4 variantes).
+Reste : passer la commande fournisseur, vérifier le tracking contre la
+promesse 6–10 j, renseigner le coût d'achat Shopify (toujours vide sur ces
+4 variantes).

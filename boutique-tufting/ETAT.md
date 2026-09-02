@@ -1,8 +1,8 @@
 # Tuftéo — état courant
 
 **Dernière mise à jour : 02/09/2026** — **première commande** (#1001, 44,90 €,
-toile primaire 1,5 × 4 m). Le paiement Shopify a abouti. Mapping DSers Urban
-Corners encore à faire — prévu depuis le 21/07.
+toile primaire 1,5 × 4 m). Paiement abouti. Mapping DSers Urban Corners **fait**
+le soir même.
 [`journal/2026-09-02-premiere-commande.md`](journal/2026-09-02-premiere-commande.md).
 
 ---
@@ -111,9 +111,8 @@ Coupé trop tôt. **#1001 le 02/09 à 16:36** clôt le « 0 paiement » : toile 
 ## Depuis le lancement (31/08)
 
 1. **Relevé GMC quotidien** (T-18) — approuvés / limités / refusés, surtout « gun » et lames.
-2. **#1001 passée** — paiement OK. Reste : mapper les 4 variantes UC sur
-   `1005009254161163` (1,5 × 4 m = Allemagne ou France à 26,28 €), commander chez
-   le fournisseur, suivre le délai contre « 6 à 10 j ouvrés ».
+2. **#1001 passée, mapping UC fait** — reste : commande fournisseur, tracking
+   contre « 6 à 10 j ouvrés », coût d'achat Shopify sur les 4 variantes UC.
 3. **Mix des clics** — les accessoires sous 30 € n'absorbent pas un CPC. Kit et gun portent
    la marge (161 € et 68 €).
 4. **Pas de hausse de budget** tant que le vert GMC tient et qu'une commande réelle a abouti.
