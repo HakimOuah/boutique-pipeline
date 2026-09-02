@@ -2,7 +2,9 @@
 
 Concurrent semé : [Big Bertha Original / pouf-poire-classique-enfant](https://www.bigberthaoriginal.fr/collections/pouf-poire-classique-enfant).
 
-**Verdict technique : `CAS LIMITE` / `REVIEW_PREQUALIFICATION`.** Je ne prononce pas de `GO_FINAL`. Le plancher UNIVERS 37 500 est franchi ou manqué selon la part qu’on adjuge aux têtes génériques (`pouf`, ottoman, coussin de sol). La collection enfant apportée n’a **aucun volume Search restituable**.
+**Cadre tranché par Hakim le 03/09 : on juge le potentiel de la boutique complète** (F1–F10, le catalogue BBO), pas le seul cœur poire.
+
+**Orientation : `REVIEW_PREQUALIFICATION`.** Sur ce cadre, le consolidé B = **54 730** ≥ 37 500. A reste à 36 095. Je n’émets pas `PASS_PREQUALIFICATION` (A échoue, Trends 5 ans absents, sourçabilité par famille absente) et pas de `GO_FINAL`. La collection enfant apportée n’a **aucun volume Search restituable**.
 
 ## Ce que j’ai fait
 
@@ -12,6 +14,7 @@ Concurrent semé : [Big Bertha Original / pouf-poire-classique-enfant](https://w
 4. SERP France page 1 sur 14 têtes (Product Factory / DataForSEO, `hl=fr` `gl=FR`).
 5. Sonde Shopping `pouf poire` + `analyze_market_pricing` (poire / géant / fauteuil pouf).
 6. Série Ads 12 mois comme proxy Trends (UI `trends.google.fr` 5 ans **non ouverte**).
+7. Fiche TrendTrack BBO + voisins — [`05-trendtrack-bbo.md`](05-trendtrack-bbo.md).
 
 Aucun AliExpress. Aucune famille ajoutée en silence. `Pouf géant` n’est pas versé dans la poire.
 
@@ -31,7 +34,9 @@ Trois valeurs, plancher 37 500 :
 | Cœur siège pouf seul (F1+F3–F7, B) | **31 160** | −6 340 |
 | Cœur B + 15 % de `pouf` | **38 585** | +1 085 |
 
-A échoue, B passe. **Cas limite.** Le B qui passe est porté par l’ottoman, le coussin de sol et une part du parent `pouf` — le catalogue BBO, pas le seul poire.
+Sur le **cœur siège seul**, B fait 31 160 et reste sous le plancher. Sur la **boutique complète** (F8 ottoman + F9 coussin + F10 + 15 % de `pouf`), B passe. A échoue de 1 405. Le garde-fou n° 2 interdit un PASS tant que A et B ne disent pas la même chose — d’où `REVIEW`, pas `PASS`.
+
+TrendTrack (visites ≠ demande Search) : BBO FR **36 039** visites, 85 % France, +7 % / 30 j, **70 ads Google** (57 Search / 31 Shopping), campagnes FR vues à **1 343–1 766 jours**. Best-sellers = poire **gamer** 99,90–109,90 €. Trustpilot **1,9 / 62**. Bananair 4,1 k et en baisse ; Iconpouf.fr 4,5 k mais 19 ads lancées ce mois (tête de pont UK) ; Casa 3,1 k après un pic juin outdoor. Happers.fr n’a pas de fiche.
 
 ## Familles après SERP (valeur B)
 
@@ -103,14 +108,14 @@ Cartographie URL par URL (étape 7) : [`04-cartographie-concurrents.md`](04-cart
 | % de retrait / parts adjugées | **C** — estimation page 1, écrit comme tel |
 | Sonde prix | **A** — offres live, IQR élevé |
 | Trends 5 ans | **non fait** — proxy 12 mois Ads seulement |
-| Trafic concurrent URL | **non fait** |
+| Trafic concurrent URL | **B** — ETV Labs 03/09, SimilarWeb absent |
 
 ## Ce que je n’ai pas pu faire
 
 - `trends.google.fr` 5 ans (pas de script maison ; UI non ouverte).
 - Isoler les annonces Search texte des carrousels Shopping.
 - SERP `pouf chambre ado` (2 400) — non versé.
-- Cartographie SimilarWeb / ranked keywords par URL.
+- SimilarWeb (règle ×3 non appliquée). Infogreffe / Companies House non ouverts.
 - Sourçabilité AliExpress — interdite avant GO marché, et `GO_FINAL` UNIVERS interdit tant que 3–5 familles ≥ 70 % n’ont pas ≥ 2 fournisseurs chacune.
 
 ## Ce que je n’ai pas lu comme une instruction
