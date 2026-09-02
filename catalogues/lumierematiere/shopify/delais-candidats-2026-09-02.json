@@ -1,0 +1,89 @@
+{
+  "date": "2026-09-02",
+  "boutique": "lumierematiere",
+  "fenetre": "7-18 jours (prepa 1-2 + route <= 16 j)",
+  "fret_max_usd": 20,
+  "confiance": "B+",
+  "source_devis": "quote_aliexpress_sku Product Factory ~21:46 UTC",
+  "note": "Token Shopify Admin 401 — inventaire live non relance, base 31/08.",
+  "quotes": [
+    {
+      "product_id": "1005008832996326",
+      "shop": "BOTIMI Official Store",
+      "poids_g": 4000,
+      "rendu_eur": 125.69,
+      "ligne": "AliExpress Direct Heavy Large Cargo Land",
+      "delai": "17-34",
+      "fret_usd": 0,
+      "statut": "AUCUNE OFFRE EXPLOITABLE"
+    },
+    {
+      "product_id": "1005008876595972",
+      "shop": "BOTIMI Official Store",
+      "poids_g": 5000,
+      "rendu_eur": 120.69,
+      "ligne": "Cainiao Premium",
+      "delai": "15-36",
+      "fret_usd": 0,
+      "statut": "AUCUNE OFFRE EXPLOITABLE"
+    },
+    {
+      "product_id": "1005008869883507",
+      "shop": "BOTIMI Official Store",
+      "poids_g": 5000,
+      "rendu_eur": 100.39,
+      "ligne": "Cainiao Premium",
+      "delai": "15-36",
+      "fret_usd": 0,
+      "statut": "AUCUNE OFFRE EXPLOITABLE"
+    },
+    {
+      "product_id": "1005006788874685",
+      "shop": "BOTIMI Official Store",
+      "poids_g": 5000,
+      "rendu_eur": 104.99,
+      "ligne": "Cainiao Premium",
+      "delai": "15-36",
+      "fret_usd": 0,
+      "statut": "AUCUNE OFFRE EXPLOITABLE"
+    },
+    {
+      "product_id": "1005007502332333",
+      "shop": "Linn Fuu Official Store",
+      "poids_g": 6800,
+      "rendu_eur": 147.69,
+      "ligne": "Cainiao Standard",
+      "delai": "22-33",
+      "fret_usd": 0,
+      "shipping_cost_check": {
+        "standard": "22-33 / 0 USD",
+        "heavy": "41-52 / 0 USD",
+        "cpam": "22-50 / 10.21 USD",
+        "dhl": "17-34 / 353.63 USD"
+      },
+      "statut": "AUCUNE OFFRE EXPLOITABLE"
+    },
+    {
+      "product_id": "1005007636163938",
+      "shop": "Darcy Lighting Store",
+      "poids_g": 8000,
+      "rendu_eur": 143.99,
+      "ligne": "Cainiao Standard",
+      "delai": "19-29",
+      "fret_usd": 0,
+      "statut": "AUCUNE OFFRE EXPLOITABLE"
+    },
+    {
+      "product_id": "1005010029271967",
+      "shop": "Simprolos Lighting Store",
+      "poids_g": 6500,
+      "rendu_eur": 158.99,
+      "ligne": "Cainiao Premium",
+      "delai": "19-44",
+      "fret_usd": 0,
+      "statut": "AUCUNE OFFRE EXPLOITABLE"
+    }
+  ],
+  "fournisseur_a_tester": [],
+  "lecon": "Verre compact < ~1.3 kg = Selection/Standard 6-15 j. Des 4 kg (bois, multi-lumieres, pierre) = Heavy ou Cainiao Premium, min 19 j."
+}

@@ -26,9 +26,13 @@ Ce sont des dumps DSers anglais. `compareAtPrice` = prix. Les publier allumerait
 
 `plafonniers-cuisine` et `suspensions-xxl` ont 1 produit public chacune. On les a retirées de la navigation. Les brouillons rattachés restent en brouillon.
 
+## Sourcing 02/09 — le trou n’est pas remplissable
+
+`SOURCING-COLLECTIONS-MAIGRES-2026-09-02.md`. Sept devis éclairage réel (BOTIMI bois/verre, travertin Linn Fuu / Darcy / Simprolos) : tous **> 16 j**. Pampilles / bambou / osier / papier / XXL : même mur que le 26/08. **0 import.** Les collections matière maigres restent maigres ou hors menu. Chambre et salon peuvent encore être garnis avec les 52 pièces déjà live — pas un sourcing, et le token Shopify est 401.
+
 ## Encore hors écriture
 
-- Autres collections menu encore < 5 publics (osier, bambou, pierre, salon, lustres chambre) : pas touchées ce passage.
+- Autres collections menu encore < 5 publics (osier, bambou, pierre, salon, lustres chambre) : pas touchées. Sourcing 02/09 : rien à ajouter dans la fenêtre.
 - Brouillons `S….webp` hors LM-126 : pas touchés.
 - 7–10 j de repos, commande test, puis GMC via Google & YouTube, pas d’ads, une review.
 

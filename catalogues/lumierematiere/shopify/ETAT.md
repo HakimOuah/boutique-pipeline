@@ -1,4 +1,4 @@
-# Shopify Lumière Matière — état 26/08/2026 (tri délais GMC)
+# Shopify Lumière Matière — état 02/09/2026 (sourcing collections maigres)
 
 **Store :** `nzefxg-gg.myshopify.com`  
 **Admin :** https://admin.shopify.com/store/nzefxg-gg  
@@ -7,6 +7,7 @@
 
 ## Fait
 
+- **Sourcing collections maigres 02/09.** Pass Hakim : sourcer ce qui manque pour tenir 7–18 j. 7 devis BOTIMI / travertin (100–159 €, 4–8 kg) : tous Heavy ou Cainiao Premium, min **19–22 j**, max 29–44 j. DHL sur Linn Fuu = 353 $. **0 `FOURNISSEUR À TESTER`.** Pampilles, bambou, osier, pierre, papier, XXL, plaf. cuisine : `AUCUNE OFFRE EXPLOITABLE`. Motif généralisé : verre compact < ~1,3 kg tient 6–15 j ; dès 4 kg, la fenêtre casse. Rien importé, rien publié. Token Shopify 401 — inventaire live non relancé (base 31/08). Rapports : `SOURCING-COLLECTIONS-MAIGRES-2026-09-02.md`, `delais-candidats-2026-09-02.json`.
 - **Pré-soumission GMC 31/08 soir.** Thème **LM GMC 2026-08-31** publié par Hakim. JSON-LD Organization : virgule orpheline après `logo` corrigée, `json.loads` OK. JSON-LD Product sans clé `sku` (les SKU AE restent dans le JSON storefront Shopify, pas le schéma). Menu : XXL et plaf. cuisine retirés (1 public, aucun brouillon publié). §6.1 via CLI : 0 compareAtPrice ACTIVE, 3 dumps DSers DRAFT. Rapport `GMC-PRE-SOUMISSION-2026-08-31.md`.
 - **3 verres live 26/08 soir.** LM-128 `suspension-verre-405368` 149 € · LM-129 `suspension-verre-bois-910933` 159 € · LM-130 `suspension-verre-538307` 129 €. Collection `suspensions-verre` : **5 ACTIVE** (cible ≥ 5). Pages 200, FAQ 7–18, Codex g1–g5. Pampilles et bambou : toujours aucune offre ≤ 16 j.
 - **Sourcing délais 26/08 soir.** `SOURCING-DELAIS-PAMPILLES-BAMBOU-VERRE-2026-08-26.md`. Pampilles et bambou : aucune offre ≤ 16 j. Verre : 3 fiches à tester (NiuNian disque+boule / BOTIMI bois+verre / cylindre teinté).
@@ -102,7 +103,7 @@ Coût DSers (unité) + **2 € de fret** (quotes FR : 1,99 € / 0 €). Concurr
 7. **Appliques, commande test** : LM-122, LM-123 et LM-124 portent la même marque fiche `pumous` et des adresses proches à Guangzhou. Une seule commande suffit à voir la pièce et à trancher la question de la matière (pierre réelle ou ciment/résine teintée).
 8. **LM-125 reste brouillon** (22–30 j Cainiao Standard, confirmé DSers + AE). LM-126 est live à 109 €, photos AE, brief Codex cubique envoyé par Hakim le 26/08.
 8b. **Délais × GMC — fait 26/08.** `TRI-DELAIS-GMC-2026-08-26.md`. Ne pas soumettre GMC tant que le domaine n’a pas 30 jours.
-9. **3 verres — live 26/08.** `/products/suspension-verre-405368` · `/products/suspension-verre-bois-910933` · `/products/suspension-verre-538307`. Pampilles et bambou : ne pas republier / ne pas garnir.
+9. **3 verres — live 26/08.** `/products/suspension-verre-405368` · `/products/suspension-verre-bois-910933` · `/products/suspension-verre-538307`. Pampilles, bambou, osier, pierre : ne pas republier / ne pas garnir hors matière. Confirmé 02/09 : rien ≤ 16 j. Chambre / salon : agrément catalogue live seulement (token Shopify à renouveler).
 10. **Second passage de sourcing appliques** : le rayon n'a qu'une matière. Oiseau (best-seller Lustria), verre, laiton, rotin, bras long, extérieur 220 V restent à trouver.
 11. **Convention de titres** : `Applique murale` est un sixième type, à ajouter à la grille fermée de `CONVENTION-TITRES-2026-08-25.md`.
 12. **GMC avant review — 31/08.** Thème publié, JSON-LD Organization parse, Product sans `sku`. 7–10 j de repos, commande test, puis GMC. Ne jamais publier les 3 dumps DSers anglais (compareAtPrice).
