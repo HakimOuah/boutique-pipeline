@@ -98,8 +98,9 @@ après l'approbation**, et les 30 premiers jours qui suivent un changement sont 
 
 ## Publicité
 
-**Shopping relancé le 31/08/2026** — déclaré par Hakim. Budget, structure et fiches poussées
-non communiqués.
+**Shopping relancé le 31/08/2026** — campagne `FR-SHOPPING-TUFTING`, 40 €/jour,
+Maximiser les clics. Plafond CPC **1,20 € depuis le 02/09** (était 0,80). Ne plus toucher
+avant le 09/09. Trois premiers jours : 15,90 € / 35 clics / CPC 0,45 €.
 
 Premier test (été) : 30 €/jour × 5 jours, **≥ 100 €, 0 vente, 3 ajouts au panier**. Coupé
 trop tôt pour conclure, mais 0 paiement tient toujours : `orders` est vide au moment du

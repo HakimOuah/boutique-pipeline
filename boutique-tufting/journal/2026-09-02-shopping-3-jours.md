@@ -113,3 +113,9 @@ puis ne plus toucher pendant 7 jours.
 **Prérequis avant toute stratégie par la valeur, quel que soit le jour** : Outils → Conversions,
 une action « Achat » venant de l'app Google & YouTube, statut actif, avec valeur. À vérifier
 maintenant — ça ne coûte rien et ça conditionne tout le reste.
+
+## 10 h 35 — plafond CPC passé à 1,20 €
+
+Hakim : « ok c'est fait j'ai changé le CPC ». Un seul ajustement, comme décidé. **Ne plus
+toucher pendant 7 jours** (jusqu'au 09/09). Relire alors : dépense/jour, CPC moyen, onglet
+Produits, et les colonnes taux d'impressions si elles se remplissent.
