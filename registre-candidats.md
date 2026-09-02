@@ -10,7 +10,7 @@ Règles d'usage :
 - Le registre pointe vers les rapports ; il ne remplace jamais leur détail ni leurs réserves.
 - Niveaux de validation : 1 = marché, 2 = fiche AliExpress, 3 = commande test, 4 = GO lancement. Aucun raccourci entre niveaux.
 
-Dernière mise à jour : 3 septembre 2026 — **univers portefeuilles : sourcing AliExpress après REVIEW**. Homme cuir `FOURNISSEUR À TESTER` (10,68–23,19 € rendu, 6–16 j). Femme `AUCUNE OFFRE EXPLOITABLE`. Dossier : [catalogues/portefeuilles/](catalogues/portefeuilles/). Voir section ci-dessous. Précédente du jour : univers poufs `REVIEW_PREQUALIFICATION` (B 54 730). Avant : panneaux muraux bois 02/09.
+Dernière mise à jour : 3 septembre 2026 — **univers poufs : Trends 5 ans + sourcing AE**. Poire en baisse 2021→2026, fauteuil pouf en hausse. Rempli CN 59,38 € / 30–35 j ; housse 24 € / 7–10 j ; SONGMICS FR 37 € / 2–7 j. Plancher sourçabilité non tenu. `REVIEW` inchangé. Avant dans la journée : portefeuilles sourcing.
 
 ## Univers portefeuilles — 02–03/09/2026 — analyse + sourcing
 
@@ -26,14 +26,14 @@ Sourcing 03/09 sur instruction explicite (« Ok pour sourcing ») malgré le REV
 ## Univers poufs (preuve Big Bertha Original) — 03/09/2026 — Mission B
 
 Origine : collection [pouf-poire-classique-enfant](https://www.bigberthaoriginal.fr/collections/pouf-poire-classique-enfant) apportée par Hakim. **Reprise motivée du catalogue UNIVERS**, pas du phare PUR `pouf géant` (STOP mesure express 07/08, cœur 2–3 k). `Pouf extérieur`, écarté le 07/08 sans mesure (charte Q4), est mesuré ici comme famille, pas comme boutique.
-Dossier : [analyses/2026-09-03-univers-poufs/](analyses/2026-09-03-univers-poufs/) — familles figées, Labs, têtes live, SERP, sonde, cartographie, [fiche TrendTrack](analyses/2026-09-03-univers-poufs/05-trendtrack-bbo.md).
+Dossier : [analyses/2026-09-03-univers-poufs/](analyses/2026-09-03-univers-poufs/) — familles figées, Labs, têtes live, SERP, sonde, cartographie, [TrendTrack](analyses/2026-09-03-univers-poufs/05-trendtrack-bbo.md), [Trends 5 ans](analyses/2026-09-03-univers-poufs/06-trends.md), [sourcing](analyses/2026-09-03-univers-poufs/07-sourcing.md).
 Base **DataForSEO**, mode `UNIVERS`, plancher 37 500. Témoin `tufting` 12 100 avant et après. CPC traité en USD (champ currency absent). Aucun AliExpress. Aucun `GO_FINAL`.
 
 > **Nature de l'étape :** Mission B 1–5 + cartographie + fiche TrendTrack. Cadre = boutique complète (décision Hakim 03/09). Sourçabilité par famille non faite. Compteur retenus inchangé.
 
 | Idée | Statut au 03/09 | Volume DataForSEO | Sonde prix FR | Réserves |
 |---|---|---|---|---|
-| **Univers poufs / bean bags** (synonymes : pouf poire, bean bag, pouf géant, fauteuil pouf, canapé pouf, pouf gamer, pouf extérieur, pouf enfant) | **`REVIEW_PREQUALIFICATION` — cadre boutique complète tranché par Hakim le 03/09** | Tête distinctive **`pouf poire` 12 100** (CPC 0,39). Cœur siège B **31 160** (sous le plancher). Boutique complète B **54 730** ≥ 37 500 ; A **36 095**. `pouf enfant` **n/a**. Parent `pouf` 49 500 = ottoman GSB (15 % adjugé). TrendTrack BBO FR : **36 039** visites (85 % FR), 70 ads Google, feed 4 ans, best-sellers = gamer 99,90–109,90 € | Cœur poire **DANS LA TRANCHE**. Médiane Shopping ~105–122 €. BBO 99,90–129,90. Comparable 60–160 €. Prix proposé 109,90 € (ratio / CPC ≈ 282) | A/B divergent → pas de PASS. F2 sans Search. F7 saisonnier. Trustpilot BBO 1,9. Iconpouf.fr attaque (19 ads / 30 j). Sourçabilité 3–5 familles et Trends 5 ans manquent. `GO_FINAL` interdit tant que non documentés |
+| **Univers poufs / bean bags** (synonymes : pouf poire, bean bag, pouf géant, fauteuil pouf, canapé pouf, pouf gamer, pouf extérieur, pouf enfant) | **`REVIEW_PREQUALIFICATION` — cadre boutique complète tranché par Hakim le 03/09** | Tête distinctive **`pouf poire` 12 100** (CPC 0,39). Cœur siège B **31 160** (sous le plancher). Boutique complète B **54 730** ≥ 37 500 ; A **36 095**. `pouf enfant` **n/a**. Parent `pouf` 49 500 = ottoman GSB (15 % adjugé). TrendTrack BBO FR : **36 039** visites (85 % FR), 70 ads Google, feed 4 ans, best-sellers = gamer 99,90–109,90 €. Trends 5 ans : poire **socle + bosse Q4, baisse 100→40** ; fauteuil pouf **en hausse** | Cœur poire **DANS LA TRANCHE**. Médiane Shopping ~105–122 €. BBO 99,90–129,90. Prix proposé 109,90 € (ratio / CPC ≈ 282). Rendu AE rempli 70 cm **59,38 €** | A/B divergent → pas de PASS. F2 sans Search. F7 saisonnier. Trustpilot BBO 1,9. Sourçabilité 70 % **non tenue** (F9 trop petit ; rempli CN 30–35 j). Housse 24 € / 7–10 j. SONGMICS FR 37 € / 2–7 j. `GO_FINAL` interdit |
 
 Anti-doublon : le STOP `pouf géant` du 07/08 reste valable **comme PRODUIT PUR**. Il est une famille (4 630) de cet univers, jamais additionnée à F1 pour franchir un seuil.
 

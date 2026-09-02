@@ -4,7 +4,7 @@ Concurrent semé : [Big Bertha Original / pouf-poire-classique-enfant](https://w
 
 **Cadre tranché par Hakim le 03/09 : on juge le potentiel de la boutique complète** (F1–F10, le catalogue BBO), pas le seul cœur poire.
 
-**Orientation : `REVIEW_PREQUALIFICATION`.** Sur ce cadre, le consolidé B = **54 730** ≥ 37 500. A reste à 36 095. Je n’émets pas `PASS_PREQUALIFICATION` (A échoue, Trends 5 ans absents, sourçabilité par famille absente) et pas de `GO_FINAL`. La collection enfant apportée n’a **aucun volume Search restituable**.
+**Orientation : `REVIEW_PREQUALIFICATION`.** Sur ce cadre, le consolidé B = **54 730** ≥ 37 500. A reste à 36 095. Je n’émets pas `PASS_PREQUALIFICATION` (A échoue, A/B divergent) et pas de `GO_FINAL`. Trends 5 ans et sourcing sont maintenant **documentés** — ils n’inversent pas le REVIEW. La collection enfant apportée n’a **aucun volume Search restituable**.
 
 ## Ce que j’ai fait
 
@@ -13,10 +13,11 @@ Concurrent semé : [Big Bertha Original / pouf-poire-classique-enfant](https://w
 3. Consolidation une page = une famille, MAX par bucket, net de marque à deux chiffres.
 4. SERP France page 1 sur 14 têtes (Product Factory / DataForSEO, `hl=fr` `gl=FR`).
 5. Sonde Shopping `pouf poire` + `analyze_market_pricing` (poire / géant / fauteuil pouf).
-6. Série Ads 12 mois comme proxy Trends (UI `trends.google.fr` 5 ans **non ouverte**).
+6. Google Trends 5 ans France via DataForSEO (`explore/live`) — [`06-trends.md`](06-trends.md). UI `trends.google.fr` en 429.
 7. Fiche TrendTrack BBO + voisins — [`05-trendtrack-bbo.md`](05-trendtrack-bbo.md).
+8. Sourcing AliExpress des 5 familles ≥ 70 % du B — [`07-sourcing.md`](07-sourcing.md).
 
-Aucun AliExpress. Aucune famille ajoutée en silence. `Pouf géant` n’est pas versé dans la poire.
+Aucune famille ajoutée en silence. `Pouf géant` n’est pas versé dans la poire.
 
 ## Réponse courte
 
@@ -77,16 +78,36 @@ Ratio **prix ÷ CPC** : 109,90 / 0,39 ≈ **282** (cible maison 150–200, planc
 
 Bande 50–400 € : le cœur y est. Le vide n’est pas un trou à 300 € ; c’est un étage **90–140 €** déjà occupé par BBO et trois indépendants FR.
 
-## Google Trends — proxy série Ads 12 mois
+## Google Trends — 5 ans France (DataForSEO, 03/09)
 
-UI 5 ans non ouverte. Forme lue sur les séries `search_volume` (juil. 2026 → août 2025) :
+UI `trends.google.fr` en 429. Lots à **échelle propre** (un lot où `pouf` = 63 écrase le poire).
 
-| Formulation | Forme | Lecture UNIVERS |
+| Formulation | Forme 5 ans | Lecture UNIVERS |
 |---|---|---|
-| `pouf poire` | Socle 8–12 k, pic avril 22 200, creux sept. 5 400 | **Socle ≥ 8 mois** au-dessus d’un plancher visible. Pas mort. Bosse printemps, pas Q4 cadeau. |
-| `pouf` | Plat haut 33–74 k | Demande continue d’ottoman GSB, pas la nôtre. |
-| `pouf extérieur` | Creux hiver 1 600–3 600, pic août–nov. 15–22 k | **Saison unique été–automne.** Un univers 100 % outdoor serait événementiel. Ici c’est une famille, pas l’univers. |
-| `pouf gamer` | 210–1 300, pic 1 300 | Traîne, même saison que la déco salon. |
+| `pouf poire` | Socle + bosse Q4 (53 vs 31 hors Q4). **Baisse** pic annuel 100 (2021) → 40 (2026). 24/24 fenêtres au-dessus du plancher | Socle 8 mois **oui**. Univers pas mort. Le phare Search **décroît**. |
+| `fauteuil pouf` | Plat, **hausse** 2021 62 → 2025 100 | Seule tête du cœur qui monte |
+| `pouf extérieur` | Saison unique été (mai 38, août 2026 à 6–7) | Famille, pas phare |
+| `coussin de sol` / `housse pouf` | Plat continu | Socle oui |
+| `pouf gamer` | 11 points en 5 ans, presque tous Q4 | Événementiel — pas un socle |
+| `pouf` parent | Plat haut | Ottoman GSB, déjà adjugé à 15 % |
+
+La série Ads 12 mois (pic poire 22 200 en avril) et Trends 5 ans s’accordent sur le socle court. Trends ajoute la baisse pluriannuelle. Détail : [`06-trends.md`](06-trends.md).
+
+## Sourcing AliExpress — 03/09 (après phrase Hakim)
+
+F1+F9+F8+F7+F3 = 71,3 % du B. Fiches A ouvertes via `product.get` + port FR.
+
+| Famille | Meilleure fiche | Rendu FR | Délai | Statut |
+|---|---|---:|---|---|
+| F1 poire rempli | OTAUTAU 70 cm | **59,38 €** | **30–35 j** oversize | `FOURNISSEUR À TESTER` — délai hors cible |
+| F1 housse | OTAUTAU coton lin 90 cm | **23,98 €** | 7–10 j | `FOURNISSEUR À TESTER` — sans filler |
+| F3 géant rempli | OTAUTAU 90 cm | **80,39 €** | 27–38 j | `OFFRE TROUVÉE` — 10 ventes |
+| F7 outdoor | OTAUTAU SF343 housse | **52,98 €** | 6–10 j | `FOURNISSEUR À TESTER` — 540 L d’EPS à part |
+| F8 ottoman | SONGMICS 76 cm, entrepôt FR | **37,04 €** | **2–7 j** | `FOURNISSEUR À TESTER` |
+| F9 coussin | méditation 40×40 | **13,88 €** | 7–10 j | `OFFRE TROUVÉE` — trop petit |
+| F10 liner | willstar 70×80 | **7,18 €** | 6–10 j | `FOURNISSEUR À TESTER` |
+
+Plancher de sourçabilité **non tenu** au sens strict (F9 sans taille marché ; F1/F3 remplis hors < 15 j). BBO vend rempli depuis l’UE ; AliExpress livrable vite = housse vide. Détail : [`07-sourcing.md`](07-sourcing.md). Prix proposé 109,90 € inchangé — coût rendu poire rempli maintenant connu, délai pas.
 
 ## Concurrent semé — ce qu’on en sait avant la cartographie URL
 
@@ -107,16 +128,18 @@ Cartographie URL par URL (étape 7) : [`04-cartographie-concurrents.md`](04-cart
 | SERP composition p.1 | **A** — JSON SERP France |
 | % de retrait / parts adjugées | **C** — estimation page 1, écrit comme tel |
 | Sonde prix | **A** — offres live, IQR élevé |
-| Trends 5 ans | **non fait** — proxy 12 mois Ads seulement |
-| Trafic concurrent URL | **B** — ETV Labs 03/09, SimilarWeb absent |
+| Trends 5 ans | **A** — DataForSEO explore/live, lots à échelle propre |
+| Trafic concurrent URL | **B** — TrendTrack + ETV Labs, SimilarWeb absent |
+| Sourcing AE | **A** sur 6 PDP + fret FR · **B** sur EPS et alternatives liste |
 
 ## Ce que je n’ai pas pu faire
 
-- `trends.google.fr` 5 ans (pas de script maison ; UI non ouverte).
+- UI `trends.google.fr` (429). DataForSEO explore a servi de source.
 - Isoler les annonces Search texte des carrousels Shopping.
 - SERP `pouf chambre ado` (2 400) — non versé.
 - SimilarWeb (règle ×3 non appliquée). Infogreffe / Companies House non ouverts.
-- Sourçabilité AliExpress — interdite avant GO marché, et `GO_FINAL` UNIVERS interdit tant que 3–5 familles ≥ 70 % n’ont pas ≥ 2 fournisseurs chacune.
+- Fiche TrendTrack `happers.fr` : absente (seulement `happers.es`).
+- PDP navigateur AliExpress (API `product.get` à la place). EPS 22 L non quoté au fret. Coussin 70 cm absent du top commandes.
 
 ## Ce que je n’ai pas lu comme une instruction
 
