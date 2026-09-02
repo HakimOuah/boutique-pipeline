@@ -81,3 +81,35 @@ Dans Google Ads, colonnes « Taux d'impressions sur le Réseau de Recherche », 
 3. **UTM** toujours absents (constat du 30/08) : 35 clics déjà indiscernables côté Shopify.
 4. Si perdues-classement est élevé : monter le plafond à ~1,20 € sur un groupe de produits
    kit + gun seulement. La marge du kit (161 €) l'absorbe ; celle d'un cône (7,70 €) non.
+
+## 10 h 31 — colonnes vides, et la question « Maximiser la valeur de conversion ? »
+
+Les colonnes « Tx impr. perdues RR (budg.) / (class.) » affichent « — ». Google ne calcule le
+taux d'impressions qu'au-delà d'un volume minimal et avec un jour de décalage ; à 2 630
+impressions sur deux jours, on est sous le seuil. À relire dans 2–3 jours, au niveau campagne,
+sur 7 jours glissants.
+
+**Maximiser la valeur de conversion : non, pas maintenant.** Trois raisons :
+
+- **0 conversion depuis l'ouverture du compte.** Les stratégies pilotées par la valeur ont
+  besoin d'un historique — Google lui-même recommande 15–30 conversions sur 30 jours. Sans
+  signal, l'algorithme n'a rien à optimiser : il baisse les enchères ou les rend erratiques.
+  Ça ne corrige pas la sous-dépense, ça l'aggrave.
+- **La valeur n'est pas vérifiée.** « Objectifs de conversion : par défaut dans le compte » —
+  on ne sait pas si l'achat Shopify remonte avec son montant. Optimiser sur une valeur qu'on
+  ne mesure pas, c'est optimiser à l'aveugle.
+- **Le problème n'est pas la stratégie d'enchères.** Changer de stratégie ne crée pas
+  d'enchères ; le marché en fournit 450–550 recherches/jour, point.
+
+Le cadre maison (`shopping-scaling`, phase 1) : aucune complexité avant d'être profitable ;
+si ça ne dépense pas, attendre 3–4 jours puis **un seul** ajustement.
+
+**Décision** : rester en Maximiser les clics — c'est la stratégie qui achète le plus de clics
+sans donnée, donc celle qui teste le tunnel de paiement le plus vite. Le seul levier légitime
+est le plafond CPC. Au rythme actuel (~7 €/jour), les 269 € du seuil de lecture arrivent dans
+**38 jours** : trop lent pour un test. Un ajustement, une fois : plafond 0,80 → **1,20 €**,
+puis ne plus toucher pendant 7 jours.
+
+**Prérequis avant toute stratégie par la valeur, quel que soit le jour** : Outils → Conversions,
+une action « Achat » venant de l'app Google & YouTube, statut actif, avec valeur. À vérifier
+maintenant — ça ne coûte rien et ça conditionne tout le reste.
