@@ -1,0 +1,101 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0775 sec.",
+  "cost": 0.01212,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09022215-1621-0388-0000-ab48ef2ede38",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0656 sec.",
+      "cost": 0.01212,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "google",
+        "domain_rank_overview",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "domain_rank_overview",
+        "se_type": "google",
+        "target": "casabiloba.fr",
+        "location_name": "France",
+        "language_name": "French"
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "target": "casabiloba.fr",
+          "location_code": 2250,
+          "language_code": "fr",
+          "total_count": 1,
+          "items_count": 1,
+          "items": [
+            {
+              "se_type": "google",
+              "location_code": 2250,
+              "language_code": "fr",
+              "metrics": {
+                "organic": {
+                  "pos_1": 4,
+                  "pos_2_3": 16,
+                  "pos_4_10": 132,
+                  "pos_11_20": 29,
+                  "pos_21_30": 14,
+                  "pos_31_40": 11,
+                  "pos_41_50": 10,
+                  "pos_51_60": 2,
+                  "pos_61_70": 0,
+                  "pos_71_80": 0,
+                  "pos_81_90": 0,
+                  "pos_91_100": 0,
+                  "etv": 4556.317988790572,
+                  "count": 218,
+                  "estimated_paid_traffic_cost": 2145.994776027277,
+                  "is_new": 138,
+                  "is_up": 40,
+                  "is_down": 30,
+                  "is_lost": 82,
+                  "clickstream_etv": null,
+                  "clickstream_gender_distribution": null,
+                  "clickstream_age_distribution": null
+                },
+                "paid": {
+                  "pos_1": 0,
+                  "pos_2_3": 0,
+                  "pos_4_10": 0,
+                  "pos_11_20": 0,
+                  "pos_21_30": 0,
+                  "pos_31_40": 0,
+                  "pos_41_50": 0,
+                  "pos_51_60": 0,
+                  "pos_61_70": 0,
+                  "pos_71_80": 0,
+                  "pos_81_90": 0,
+                  "pos_91_100": 0,
+                  "etv": 0,
+                  "count": 0,
+                  "estimated_paid_traffic_cost": 0,
+                  "is_new": 0,
+                  "is_up": 0,
+                  "is_down": 0,
+                  "is_lost": 0,
+                  "clickstream_etv": null,
+                  "clickstream_gender_distribution": null,
+                  "clickstream_age_distribution": null
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

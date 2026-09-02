@@ -91,7 +91,7 @@ En SERP, BBO tient le **#1 ou #2** sur `pouf poire`, `pouf géant`, `canapé pou
 
 Indépendants de même nature déjà en page 1 : Bananair, Iconpouf, Happers, Casabiloba, Italpouf. Enseignes partout autour. Occupation = densité de spécialistes **plus** GSB, pas un monopole BBO.
 
-Cartographie URL par URL (étape 7) : à lancer sur BBO puis Bananair / Iconpouf / Happers / Casabiloba — sitemap déjà dans `raw/`. Ce dépôt ne contient pas encore les fiches trafic.
+Cartographie URL par URL (étape 7) : [`04-cartographie-concurrents.md`](04-cartographie-concurrents.md) — BBO, Bananair, Iconpouf, Happers, Casabiloba. ETV Labs, pas SimilarWeb. Trous : F10 après-vente, outdoor technique, récit fabricant FR. Pas un axe : plus de coloris, collection enfant, étage 90–140 € déjà pris.
 
 ## Niveau de confiance
 
