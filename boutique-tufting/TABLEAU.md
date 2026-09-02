@@ -16,9 +16,10 @@ désormais dans `journal/`.
 1. **Ads Shopping lancées le 31/08.** GMC vert plat ~170 au 30/08. On protège un actif :
    les suspensions arrivent après l'approbation, surtout les 30 premiers jours de dépense.
 2. **Le thème P0 est MAIN** (`189437772161`). T-05/T-06/T-08/T-19/T-20 sont live.
-   `orders` est encore vide : le paiement n'a jamais été prouvé.
-3. **L'identité est partagée avec les boutiques sœurs.** Pas de hausse de budget tant que
-   T-18 tient et qu'une commande réelle a abouti.
+   **#1001 le 02/09** (44,90 €, toile 1,5 × 4 m) : le paiement a abouti. Mapping
+   DSers Urban Corners encore ouvert — [`journal/2026-09-02-premiere-commande.md`](journal/2026-09-02-premiere-commande.md).
+3. **L'identité est partagée avec les boutiques sœurs.** Pas de hausse de budget
+   avant le 09/09, et seulement si T-18 tient.
 
 [`journal/2026-08-31-lancement-shopping.md`](journal/2026-08-31-lancement-shopping.md).
 

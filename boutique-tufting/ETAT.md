@@ -1,9 +1,9 @@
 # Tuftéo — état courant
 
-**Dernière mise à jour : 31/08/2026** — **ads Google Shopping lancées** (Hakim).
-Thème P0 MAIN, triangle livraison cohérent, GMC vert au 30/08. `orders` toujours vide :
-le premier clic payant est aussi le premier test du paiement.
-[`journal/2026-08-31-lancement-shopping.md`](journal/2026-08-31-lancement-shopping.md).
+**Dernière mise à jour : 02/09/2026** — **première commande** (#1001, 44,90 €,
+toile primaire 1,5 × 4 m). Le paiement Shopify a abouti. Mapping DSers Urban
+Corners encore à faire — prévu depuis le 21/07.
+[`journal/2026-09-02-premiere-commande.md`](journal/2026-09-02-premiere-commande.md).
 
 ---
 
@@ -102,17 +102,18 @@ après l'approbation**, et les 30 premiers jours qui suivent un changement sont 
 Maximiser les clics. Plafond CPC **1,20 € depuis le 02/09** (était 0,80). Ne plus toucher
 avant le 09/09. Trois premiers jours : 15,90 € / 35 clics / CPC 0,45 €.
 
-Premier test (été) : 30 €/jour × 5 jours, **≥ 100 €, 0 vente, 3 ajouts au panier**. Coupé
-trop tôt pour conclure, mais 0 paiement tient toujours : `orders` est vide au moment du
-relancement.
+Premier test (été) : 30 €/jour × 5 jours, **≥ 100 €, 0 vente, 3 ajouts au panier**.
+Coupé trop tôt. **#1001 le 02/09 à 16:36** clôt le « 0 paiement » : toile 1,5 × 4 m,
+44,90 €. Attribution ads inconnue (UTM absents au lancement).
 
 ---
 
 ## Depuis le lancement (31/08)
 
 1. **Relevé GMC quotidien** (T-18) — approuvés / limités / refusés, surtout « gun » et lames.
-2. **Première commande** — si un checkout n'aboutit pas, le paiement était le trou. Si elle
-   passe : produit, délai, routage DSers.
+2. **#1001 passée** — paiement OK. Reste : mapper les 4 variantes UC sur
+   `1005009254161163` (1,5 × 4 m = Allemagne ou France à 26,28 €), commander chez
+   le fournisseur, suivre le délai contre « 6 à 10 j ouvrés ».
 3. **Mix des clics** — les accessoires sous 30 € n'absorbent pas un CPC. Kit et gun portent
    la marge (161 € et 68 €).
 4. **Pas de hausse de budget** tant que le vert GMC tient et qu'une commande réelle a abouti.
