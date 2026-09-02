@@ -1,0 +1,90 @@
+{
+ "horodatage_local": "2026-09-02 14:16:44",
+ "endpoint": "https://api.dataforseo.com/v3/keywords_data/google_ads/search_volume/live",
+ "params": {
+  "keywords": [
+   "tufting"
+  ],
+  "location_name": "France",
+  "language_name": "French",
+  "search_partners": false
+ },
+ "cost_usd": 0.09,
+ "result": [
+  {
+   "keyword": "tufting",
+   "spell": null,
+   "location_code": 2250,
+   "language_code": "fr",
+   "search_partners": false,
+   "competition": "HIGH",
+   "competition_index": 99,
+   "search_volume": 12100,
+   "low_top_of_page_bid": 0.57,
+   "high_top_of_page_bid": 2.83,
+   "cpc": 1.62,
+   "monthly_searches": [
+    {
+     "year": 2026,
+     "month": 7,
+     "search_volume": 6600
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "search_volume": 6600
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "search_volume": 9900
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "search_volume": 14800
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "search_volume": 14800
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "search_volume": 14800
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "search_volume": 9900
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "search_volume": 14800
+    },
+    {
+     "year": 2025,
+     "month": 8,
+     "search_volume": 8100
+    }
+   ]
+  }
+ ]
+}
