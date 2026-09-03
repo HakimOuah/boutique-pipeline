@@ -1,0 +1,233 @@
+[
+  {
+    "name": "01-witness-before",
+    "observed_at_utc": "2026-09-03T13:35:13.537036+00:00",
+    "endpoint": "keywords_data/google_ads/search_volume/live",
+    "cost_usd": 0.09,
+    "statuses": [
+      20000
+    ],
+    "raw": "raw/01-witness-before.json.gz",
+    "sha256": "294a515688d9e785d0b54f66195d665476562aa580bb3a1628eb319fda3b29ec"
+  },
+  {
+    "name": "03-demand-seed",
+    "observed_at_utc": "2026-09-03T13:35:38.304407+00:00",
+    "endpoint": "dataforseo_labs/google/keyword_suggestions/live",
+    "cost_usd": 0.01704,
+    "statuses": [
+      20000
+    ],
+    "raw": "raw/03-demand-seed.json.gz",
+    "sha256": "cec670efb217a74e49e4245791fc012a66bbda2fff91e89f609c6c3550372f8f"
+  },
+  {
+    "name": "05-demand-product",
+    "observed_at_utc": "2026-09-03T13:36:12.077598+00:00",
+    "endpoint": "dataforseo_labs/google/keyword_suggestions/live",
+    "cost_usd": 0.02148,
+    "statuses": [
+      20000
+    ],
+    "raw": "raw/05-demand-product.json.gz",
+    "sha256": "306af7f2ce4a797493a9a665f41f77a3c4dd8bf4d492973c3d214bf75985b5d0"
+  },
+  {
+    "name": "07-demand-constraint",
+    "observed_at_utc": "2026-09-03T13:36:59.987181+00:00",
+    "endpoint": "dataforseo_labs/google/keyword_suggestions/live",
+    "cost_usd": 0.072,
+    "statuses": [
+      20000
+    ],
+    "raw": "raw/07-demand-constraint.json.gz",
+    "sha256": "64f2701a2b87f11463abf957e9d7c37a1a78a253562b23b49313ef46474a8a10"
+  },
+  {
+    "name": "10-c2-labs",
+    "observed_at_utc": "2026-09-03T13:38:19.594647+00:00",
+    "endpoint": "dataforseo_labs/google/keyword_suggestions/live",
+    "cost_usd": 0.072,
+    "statuses": [
+      20000
+    ],
+    "raw": "raw/10-c2-labs.json.gz",
+    "sha256": "cde8f05fca2bdde69cb2c6e01a1e766a389b79f64fb3662d8c0af356bedc98e3"
+  },
+  {
+    "name": "12-c1-serp",
+    "observed_at_utc": "2026-09-03T13:39:58.152597+00:00",
+    "endpoint": "serp/google/organic/live/advanced",
+    "cost_usd": 0.0035,
+    "statuses": [
+      20000
+    ],
+    "raw": "raw/12-c1-serp.json.gz",
+    "sha256": "2c6e0a6e839fb348a50ebd7e321897e545cfd092c0e9d2c3f9a3bdeeff805c23"
+  },
+  {
+    "name": "14-c2-serp",
+    "observed_at_utc": "2026-09-03T13:40:47.513178+00:00",
+    "endpoint": "serp/google/organic/live/advanced",
+    "cost_usd": 0.0035,
+    "statuses": [
+      20000
+    ],
+    "raw": "raw/14-c2-serp.json.gz",
+    "sha256": "394beedfa7929c667155f069cad63a54f85cb9fed58e2d49c7f6a7228d4dd798"
+  },
+  {
+    "name": "15-c3-labs",
+    "observed_at_utc": "2026-09-03T13:41:09.308260+00:00",
+    "endpoint": "dataforseo_labs/google/keyword_suggestions/live",
+    "cost_usd": 0.02304,
+    "statuses": [
+      20000
+    ],
+    "raw": "raw/15-c3-labs.json.gz",
+    "sha256": "20dbd640e9186d33113f665fabc925a5e837e3b27031beb5fa87325fbc264f54"
+  },
+  {
+    "name": "16-c4-labs",
+    "observed_at_utc": "2026-09-03T13:41:22.072510+00:00",
+    "endpoint": "dataforseo_labs/google/keyword_suggestions/live",
+    "cost_usd": 0.0258,
+    "statuses": [
+      20000
+    ],
+    "raw": "raw/16-c4-labs.json.gz",
+    "sha256": "00a4fc17b4d185cc697ef9485e84e439713a020d372205ef90032cd6b4844201"
+  },
+  {
+    "name": "17-c3-serp",
+    "observed_at_utc": "2026-09-03T13:41:58.702114+00:00",
+    "endpoint": "serp/google/organic/live/advanced",
+    "cost_usd": 0.0035,
+    "statuses": [
+      20000
+    ],
+    "raw": "raw/17-c3-serp.json.gz",
+    "sha256": "16f26b3316ab5ffaca2b5140704c5017cd00120d65511f250d274f40d7a2dad7"
+  },
+  {
+    "name": "19-c4-serp",
+    "observed_at_utc": "2026-09-03T13:43:04.985844+00:00",
+    "endpoint": "serp/google/organic/live/advanced",
+    "cost_usd": 0.0035,
+    "statuses": [
+      20000
+    ],
+    "raw": "raw/19-c4-serp.json.gz",
+    "sha256": "85876040e7c71cb63fa0c0e57f694e13c3632124b1b247f5e1eb0de2b6811a44"
+  },
+  {
+    "name": "20-c5-labs",
+    "observed_at_utc": "2026-09-03T13:44:08.652574+00:00",
+    "endpoint": "dataforseo_labs/google/keyword_suggestions/live",
+    "cost_usd": 0.01728,
+    "statuses": [
+      20000
+    ],
+    "raw": "raw/20-c5-labs.json.gz",
+    "sha256": "a535e308e954d54d7d91679dc31e2a4958857ac3805b88e5e00ecbef1d176da7"
+  },
+  {
+    "name": "21-c5-serp",
+    "observed_at_utc": "2026-09-03T13:45:21.496953+00:00",
+    "endpoint": "serp/google/organic/live/advanced",
+    "cost_usd": 0.0035,
+    "statuses": [
+      20000
+    ],
+    "raw": "raw/21-c5-serp.json.gz",
+    "sha256": "f79128dcaa3056ed9999a68e54a41864d29ee2e53d69fffa5f27ea59c6ee7e23"
+  },
+  {
+    "name": "22-first-controls",
+    "observed_at_utc": "2026-09-03T13:45:51.027216+00:00",
+    "endpoint": "keywords_data/google_ads/search_volume/live",
+    "cost_usd": 0.09,
+    "statuses": [
+      20000
+    ],
+    "raw": "raw/22-first-controls.json.gz",
+    "sha256": "1ef38a948c0a3849ecd1410a85ef39aeeb07aa752348c707a80a34ed4362dd27"
+  },
+  {
+    "name": "27-c1-spelling",
+    "observed_at_utc": "2026-09-03T13:49:55.009188+00:00",
+    "endpoint": "dataforseo_labs/google/keyword_suggestions/live",
+    "cost_usd": 0.02616,
+    "statuses": [
+      20000
+    ],
+    "raw": "raw/27-c1-spelling.json.gz",
+    "sha256": "0350c3291656a6f65d9c50e457bd5a018a88865a024f6ff57e5e8fc4edb730d5"
+  },
+  {
+    "name": "29-c2-refinement",
+    "observed_at_utc": "2026-09-03T13:51:04.653443+00:00",
+    "endpoint": "dataforseo_labs/google/keyword_suggestions/live",
+    "cost_usd": 0.02076,
+    "statuses": [
+      20000
+    ],
+    "raw": "raw/29-c2-refinement.json.gz",
+    "sha256": "dae6dca0c26ca2e6ffba4aaff08bdb0ca00a84b837002773722c21388f1f10c0"
+  },
+  {
+    "name": "40-witness-after",
+    "observed_at_utc": "2026-09-03T14:01:59.757605+00:00",
+    "endpoint": "keywords_data/google_ads/search_volume/live",
+    "cost_usd": 0.09,
+    "statuses": [
+      20000
+    ],
+    "raw": "raw/40-witness-after.json.gz",
+    "sha256": "3c34d5e7e95e2c305f07f8286ee028a6272a3b9d7e21797cff974cc3ebd45abc"
+  },
+  {
+    "name": "42-c6-labs",
+    "observed_at_utc": "2026-09-03T14:07:53.082991+00:00",
+    "endpoint": "dataforseo_labs/google/keyword_suggestions/live",
+    "cost_usd": 0.01788,
+    "statuses": [
+      20000
+    ],
+    "raw": "raw/42-c6-labs.json.gz",
+    "sha256": "97c07b5ab2c030a42d598a3566427f60739a0c178b9756defb45a39e3e6f8cbb"
+  },
+  {
+    "name": "43-c6-controls",
+    "observed_at_utc": "2026-09-03T14:07:59.780753+00:00",
+    "endpoint": "keywords_data/google_ads/search_volume/live",
+    "cost_usd": 0.09,
+    "statuses": [
+      20000
+    ],
+    "raw": "raw/43-c6-controls.json.gz",
+    "sha256": "e894979eabba2a8307a5269a4cbd116410340e51824a174e05e200f9f18bd8c2"
+  },
+  {
+    "name": "44-c6-serp",
+    "observed_at_utc": "2026-09-03T14:08:26.487245+00:00",
+    "endpoint": "serp/google/organic/live/advanced",
+    "cost_usd": 0.0035,
+    "statuses": [
+      20000
+    ],
+    "raw": "raw/44-c6-serp.json.gz",
+    "sha256": "25075de124ed805bedb847a112d319efcd06ed07fcf82f9c43b311c1d6cc3479"
+  },
+  {
+    "name": "45-witness-final",
+    "observed_at_utc": "2026-09-03T14:09:04.560403+00:00",
+    "endpoint": "keywords_data/google_ads/search_volume/live",
+    "cost_usd": 0.09,
+    "statuses": [
+      20000
+    ],
+    "raw": "raw/45-witness-final.json.gz",
+    "sha256": "d6f81459ec505a8dbaf8a39ca18e7a841626b88ee70427ad3521fd434e012a3e"
+  }
+]

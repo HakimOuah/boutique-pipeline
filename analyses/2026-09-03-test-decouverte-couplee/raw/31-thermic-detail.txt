@@ -1,0 +1,144 @@
+2026-09-03T13:57:16.975Z
+- link "Trendtrack logo":
+  - /url: /workspace/WORKSPACE/home
+  - img "Trendtrack logo"
+- button "Basculer la barre latérale":
+  - generic: Afficher/Masquer la barre latérale
+- generic: Vue d'ensemble
+- list:
+  - link "Home":
+    - /url: /fr/workspace/WORKSPACE/home
+    - generic: Home
+  - link "Brandtracker":
+    - /url: /fr/workspace/WORKSPACE/brandtracker
+    - generic: Brandtracker
+- generic: Analyses
+- list:
+  - link "Shops":
+    - /url: /fr/workspace/WORKSPACE/shops
+    - generic: Shops
+  - link "Ads":
+    - /url: /fr/workspace/WORKSPACE/ads
+    - generic: Ads
+  - link "Advertisers":
+    - /url: /fr/workspace/WORKSPACE/pages
+    - generic: Advertisers
+  - link "Emails":
+    - /url: /fr/workspace/WORKSPACE/emails
+    - generic: Emails
+  - link "Trends Soon":
+    - /url: /fr/workspace/WORKSPACE/trends
+    - generic: Trends
+    - generic: Soon
+- button "Favoris" [expanded]:
+  - generic: Favoris
+- list:
+  - button "Ads":
+    - generic: Ads
+  - button "Emails":
+    - generic: Emails
+  - button "Shops":
+    - generic: Shops
+- button "Équipe" [expanded]:
+  - generic: Équipe
+- list:
+  - button "Ads partagées":
+    - generic: Ads partagées
+  - button "Emails partagés":
+    - generic: Emails partagés
+  - button "Shops partagés":
+    - generic: Shops partagés
+- button "Nouveautés":
+  - generic: Nouveautés
+- button "Notifications":
+  - generic: Notifications
+- button "Formation":
+  - generic: Formation
+- link "Affiliation":
+  - /url: https://trendtrack.io/affiliate
+  - generic: Affiliation
+- link "Offres partenaires":
+  - /url: /fr/workspace/WORKSPACE/partners
+  - generic: Offres partenaires
+- link "1 mois offert":
+  - /url: /fr/workspace/WORKSPACE/settings/referral
+  - generic: 1 mois offert
+- button "Ouvrir le menu utilisateur":
+  - generic: H
+  - generic: Hakim Ouahabi
+  - generic: [compte]
+- main:
+  - main:
+    - button:
+    - button "Centre d'aide":
+    - tablist:
+      - tab "Shop Analytics" [selected]:
+        - generic: Shop Analytics
+      - tab "Shops similaires":
+        - generic: Shops similaires
+      - tab "Meta Meta Ads 7":
+        - img "Meta"
+        - generic: Meta Ads
+        - generic: "7"
+      - tab "TikTok TikTok 198":
+        - img "TikTok"
+        - generic: TikTok
+        - generic: "198"
+      - tab "Google Google Ads 30":
+        - img "Google"
+        - generic: Google Ads
+        - generic: "30"
+      - tab "Emails":
+        - generic: Emails
+    - tabpanel "Shop Analytics":
+      - heading "Visites mensuelles" [level=3]
+      - paragraph: 28K
+      - generic: +28%
+      - heading "Trustpilot" [level=3]
+      - paragraph: Aucune donnée disponible
+      - heading "Réseaux sociaux" [level=3]
+      - button:
+      - img "tiktok"
+      - img "youtube"
+      - img "pinterest"
+      - img "facebook"
+      - generic: 6K
+      - img "instagram"
+      - generic: 17K
+      - heading "Trafic dans le temps" [level=3]
+      - button "3M"
+      - button "6M"
+      - button "ALL"
+      - generic: Pays visiteurs
+      - img "FR"
+      - generic: 44%
+      - img "DE"
+      - generic: 21%
+      - img "US"
+      - generic: 9%
+      - img "ES"
+      - generic: 9%
+      - img "GB"
+      - generic: 6%
+      - heading "Ads actives dans le temps" [level=3]
+      - button "Voir la bibliothèque"
+      - paragraph: "7"
+      - button "3M"
+      - button "6M"
+      - button "TOUT"
+      - paragraph: Chargement des données historiques...
+      - generic: Pays ciblés
+      - generic "Pays ciblés"
+      - heading "Shops similaires" [level=3]
+      - button "Voir plus":
+        - generic: Voir plus
+      - heading "Dernières ads" [level=3]
+      - button "Voir plus":
+        - generic: Voir plus
+- region "Notifications alt+T"
+- region "Notifications (F8)":
+  - list
+- alert
+- document
+- iframe [id="intercom-frame"]
+- button "Open Intercom Messenger":

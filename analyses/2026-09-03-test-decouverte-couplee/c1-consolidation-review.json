@@ -1,0 +1,3488 @@
+{
+  "candidate_id": "C1",
+  "review_date": "2026-09-03",
+  "purpose": "Reproduction de la consolidation de sensibilité du périmètre mesuré, pas estimation exhaustive ni comptage de personnes uniques.",
+  "frozen_offer": "Sèche-chaussures électrique soufflant domestique pour chaussures/bottes mouillées.",
+  "sources": [
+    {
+      "path": "raw/05-demand-product.json.gz",
+      "sha256_gzip": "306af7f2ce4a797493a9a665f41f77a3c4dd8bf4d492973c3d214bf75985b5d0",
+      "observed_at_utc": "2026-09-03T13:36:12.077598+00:00",
+      "seed": "sèche chaussures",
+      "items_count": 79,
+      "total_count": 79,
+      "known_volume_raw_sum": 8870
+    },
+    {
+      "path": "raw/27-c1-spelling.json.gz",
+      "sha256_gzip": "0350c3291656a6f65d9c50e457bd5a018a88865a024f6ff57e5e8fc4edb730d5",
+      "observed_at_utc": "2026-09-03T13:49:55.009188+00:00",
+      "seed": "seche chaussure",
+      "items_count": 118,
+      "total_count": 118,
+      "known_volume_raw_sum": 8360
+    },
+    {
+      "path": "raw/03-demand-seed.json.gz",
+      "sha256_gzip": "cec670efb217a74e49e4245791fc012a66bbda2fff91e89f609c6c3550372f8f",
+      "observed_at_utc": "2026-09-03T13:35:38.304407+00:00",
+      "seed": "sécher chaussures",
+      "items_count": 42,
+      "total_count": 42,
+      "known_volume_raw_sum": 520
+    },
+    {
+      "path": "raw/22-first-controls.json.gz",
+      "sha256_gzip": "1ef38a948c0a3849ecd1410a85ef39aeeb07aa752348c707a80a34ed4362dd27",
+      "observed_at_utc": "2026-09-03T13:45:51.027216+00:00",
+      "selected_result_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    }
+  ],
+  "method": {
+    "normalization": "NFKD ASCII, minuscules, toute ponctuation remplacée par un espace, espaces normalisés.",
+    "labs_group_key": "keyword_properties.core_keyword si présent, sinon keyword ; normaliser la clé.",
+    "controls": "Résultats 0 à 10 inclus de raw22 ; rattacher le mot normalisé à son core Labs dans l’union 05 puis 27 puis 03 ; sinon au mot normalisé.",
+    "aggregation": "MAX des volumes connus par groupe. Null reste inconnu ; aucun remplacement comme fait observé.",
+    "exclusions": "Appliquées aux clés ci-dessous ; membres conservés pour relecture. Marques/enseignes suffisent seules à ramener le périmètre sous 10 000.",
+    "known_limits": [
+      "Cores fournisseur non infaillibles : certains doublons ski et enseignes restent volontairement séparés.",
+      "Le total avant exclusions est généreux dans cette méthode, pas une borne mathématique de toute la demande française.",
+      "Chauffe-chaussures, ski mural, occasion, ozone et plusieurs petits formats non servis restent dans l’enveloppe après ces exclusions minimales.",
+      "Aucune déduction de croissance 2026 ou de trafic de shop à partir de cette consolidation."
+    ]
+  },
+  "totals": {
+    "known_core_max_union_05_27": 8920,
+    "known_core_max_union_05_27_03": 9230,
+    "controls_increment": 1490,
+    "known_core_max_with_controls": 10720,
+    "excluded_brand_or_retailer": 2260,
+    "after_only_brand_retailer_exclusions": 8460,
+    "excluded_specific_diy_or_existing_appliance": 930,
+    "retained_generous_envelope": 7530,
+    "groups_total": 151,
+    "groups_with_known_volume": 96
+  },
+  "groups": [
+    {
+      "normalized_core": "seche chaussure",
+      "max_known_monthly_volume": 2900,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/1",
+          "keyword": "sèche chaussures",
+          "core_keyword": "seche chaussure",
+          "search_volume": 1000
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/2",
+          "keyword": "sèche-chaussures",
+          "core_keyword": "seche chaussure",
+          "search_volume": 1000
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/0",
+          "keyword": "seche chaussure",
+          "core_keyword": null,
+          "search_volume": 2900
+        },
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/0",
+          "keyword": "sécher chaussures",
+          "core_keyword": "seche chaussure",
+          "search_volume": 70
+        },
+        {
+          "raw_path": "raw/22-first-controls.json.gz",
+          "json_pointer": "/response/tasks/0/result/0",
+          "keyword": "sèche chaussures",
+          "core_keyword": null,
+          "mapped_core_from_labs": "seche chaussure",
+          "search_volume": 1000
+        },
+        {
+          "raw_path": "raw/22-first-controls.json.gz",
+          "json_pointer": "/response/tasks/0/result/1",
+          "keyword": "seche chaussure",
+          "core_keyword": null,
+          "mapped_core_from_labs": "seche chaussure",
+          "search_volume": 2900
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche bottes",
+      "max_known_monthly_volume": 1000,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/22-first-controls.json.gz",
+          "json_pointer": "/response/tasks/0/result/5",
+          "keyword": "sèche bottes",
+          "core_keyword": null,
+          "mapped_core_from_labs": "seche bottes",
+          "search_volume": 1000
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure action",
+      "max_known_monthly_volume": 1000,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "action"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/4",
+          "keyword": "sèche chaussures action",
+          "core_keyword": "seche chaussure action",
+          "search_volume": 590
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/5",
+          "keyword": "sèche-chaussures action",
+          "core_keyword": "seche chaussure action",
+          "search_volume": 590
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/1",
+          "keyword": "seche chaussure action",
+          "core_keyword": null,
+          "search_volume": 1000
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure de ski",
+      "max_known_monthly_volume": 1000,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/3",
+          "keyword": "sèche chaussures de ski",
+          "core_keyword": "seche chaussure de ski",
+          "search_volume": 1000
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/20",
+          "keyword": "sèche-chaussures ski",
+          "core_keyword": "seche chaussure de ski",
+          "search_volume": 110
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/21",
+          "keyword": "sèche chaussures ski",
+          "core_keyword": "seche chaussure de ski",
+          "search_volume": 110
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/2",
+          "keyword": "seche chaussure de ski",
+          "core_keyword": null,
+          "search_volume": 1000
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/3",
+          "keyword": "seche chaussure ski",
+          "core_keyword": "seche chaussure de ski",
+          "search_volume": 390
+        },
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/30",
+          "keyword": "sécher chaussures ski",
+          "core_keyword": "seche chaussure de ski",
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/22-first-controls.json.gz",
+          "json_pointer": "/response/tasks/0/result/3",
+          "keyword": "sèche chaussures de ski",
+          "core_keyword": null,
+          "mapped_core_from_labs": "seche chaussure de ski",
+          "search_volume": 1000
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussures de ski",
+      "max_known_monthly_volume": 1000,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/0",
+          "keyword": "sèche-chaussures de ski",
+          "core_keyword": null,
+          "search_volume": 1000
+        }
+      ]
+    },
+    {
+      "normalized_core": "chauffe chaussures",
+      "max_known_monthly_volume": 480,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/22-first-controls.json.gz",
+          "json_pointer": "/response/tasks/0/result/4",
+          "keyword": "chauffe chaussures",
+          "core_keyword": null,
+          "mapped_core_from_labs": "chauffe chaussures",
+          "search_volume": 480
+        }
+      ]
+    },
+    {
+      "normalized_core": "chaussure seche linge",
+      "max_known_monthly_volume": 320,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_specific_diy_or_existing_appliance",
+      "reason": "Recherche visant une méthode ou un équipement déjà possédé, hors achat de souffleur dans le gate prudent.",
+      "matched_terms": [
+        "seche linge"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/6",
+          "keyword": "chaussures sèche linge",
+          "core_keyword": "chaussure seche linge",
+          "search_volume": 320
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/8",
+          "keyword": "chaussures sèche-linge",
+          "core_keyword": "chaussure seche linge",
+          "search_volume": 320
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/4",
+          "keyword": "seche linge chaussure",
+          "core_keyword": "chaussure seche linge",
+          "search_volume": 320
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/6",
+          "keyword": "chaussure seche linge",
+          "core_keyword": null,
+          "search_volume": 320
+        }
+      ]
+    },
+    {
+      "normalized_core": "chaussures au seche linge",
+      "max_known_monthly_volume": 320,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_specific_diy_or_existing_appliance",
+      "reason": "Recherche visant une méthode ou un équipement déjà possédé, hors achat de souffleur dans le gate prudent.",
+      "matched_terms": [
+        "seche linge"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/5",
+          "keyword": "chaussure au seche linge",
+          "core_keyword": "chaussures au seche linge",
+          "search_volume": 320
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussures decathlon",
+      "max_known_monthly_volume": 320,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "decathlon"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/7",
+          "keyword": "sèche chaussures decathlon",
+          "core_keyword": "sèche-chaussures decathlon",
+          "search_volume": 320
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/9",
+          "keyword": "sèche-chaussures decathlon",
+          "core_keyword": null,
+          "search_volume": 320
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/12",
+          "keyword": "seche chaussure decathlon",
+          "core_keyword": "sèche-chaussures decathlon",
+          "search_volume": 110
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure lidl",
+      "max_known_monthly_volume": 210,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "lidl"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/10",
+          "keyword": "sèche-chaussures lidl",
+          "core_keyword": "seche chaussure lidl",
+          "search_volume": 210
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/11",
+          "keyword": "sèche chaussures lidl",
+          "core_keyword": "seche chaussure lidl",
+          "search_volume": 210
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/7",
+          "keyword": "seche chaussure lidl",
+          "core_keyword": null,
+          "search_volume": 170
+        }
+      ]
+    },
+    {
+      "normalized_core": "peut on mettre des chaussures au seche linge",
+      "max_known_monthly_volume": 140,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_specific_diy_or_existing_appliance",
+      "reason": "Recherche visant une méthode ou un équipement déjà possédé, hors achat de souffleur dans le gate prudent.",
+      "matched_terms": [
+        "seche linge"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/12",
+          "keyword": "peut on mettre des chaussures au sèche-linge",
+          "core_keyword": "peut on mettre des chaussures au seche linge",
+          "search_volume": 140
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/13",
+          "keyword": "peut-on mettre des chaussures au sèche-linge",
+          "core_keyword": "peut on mettre des chaussures au seche linge",
+          "search_volume": 140
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/14",
+          "keyword": "peut on mettre des chaussures au sèche linge",
+          "core_keyword": "peut on mettre des chaussures au seche linge",
+          "search_volume": 140
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/9",
+          "keyword": "peut on mettre des chaussure au seche linge",
+          "core_keyword": "peut on mettre des chaussures au seche linge",
+          "search_volume": 140
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure electrique",
+      "max_known_monthly_volume": 140,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/19",
+          "keyword": "sèche-chaussures électrique",
+          "core_keyword": "sèche-chaussure électrique",
+          "search_volume": 110
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/22",
+          "keyword": "sèche chaussures électrique",
+          "core_keyword": "sèche-chaussure électrique",
+          "search_volume": 110
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/8",
+          "keyword": "seche chaussure electrique",
+          "core_keyword": null,
+          "search_volume": 140
+        },
+        {
+          "raw_path": "raw/22-first-controls.json.gz",
+          "json_pointer": "/response/tasks/0/result/2",
+          "keyword": "sèche chaussures électrique",
+          "core_keyword": null,
+          "mapped_core_from_labs": "seche chaussure electrique",
+          "search_volume": 110
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussures ski mural",
+      "max_known_monthly_volume": 140,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/15",
+          "keyword": "sèche chaussures de ski mural",
+          "core_keyword": "sèche-chaussures ski mural",
+          "search_volume": 140
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/16",
+          "keyword": "sèche chaussures ski mural",
+          "core_keyword": "sèche-chaussures ski mural",
+          "search_volume": 140
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/17",
+          "keyword": "sèche-chaussures ski mural",
+          "core_keyword": null,
+          "search_volume": 140
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/18",
+          "keyword": "sèche-chaussures de ski mural",
+          "core_keyword": "sèche-chaussures ski mural",
+          "search_volume": 140
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/10",
+          "keyword": "seche chaussure de ski mural",
+          "core_keyword": "sèche-chaussures ski mural",
+          "search_volume": 140
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/23",
+          "keyword": "seche chaussure ski mural",
+          "core_keyword": "sèche-chaussures ski mural",
+          "search_volume": 30
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure decathlon",
+      "max_known_monthly_volume": 110,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "decathlon"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/11",
+          "keyword": "seche chaussure décathlon",
+          "core_keyword": null,
+          "search_volume": 110
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussures amazon",
+      "max_known_monthly_volume": 90,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "amazon"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/33",
+          "keyword": "sèche chaussures amazon",
+          "core_keyword": "seche chaussures amazon",
+          "search_volume": 20
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/35",
+          "keyword": "sèche-chaussures amazon",
+          "core_keyword": "seche chaussures amazon",
+          "search_volume": 20
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/14",
+          "keyword": "seche chaussure amazon",
+          "core_keyword": "seche chaussures amazon",
+          "search_volume": 90
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussures de foot",
+      "max_known_monthly_volume": 90,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/13",
+          "keyword": "seche chaussure foot",
+          "core_keyword": "seche chaussures de foot",
+          "search_volume": 90
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/22",
+          "keyword": "seche chaussure de foot",
+          "core_keyword": "seche chaussures de foot",
+          "search_volume": 40
+        }
+      ]
+    },
+    {
+      "normalized_core": "appareil pour secher les chaussures",
+      "max_known_monthly_volume": 70,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/1",
+          "keyword": "appareil pour sécher les chaussures",
+          "core_keyword": "appareil pour secher les chaussures",
+          "search_volume": 70
+        },
+        {
+          "raw_path": "raw/22-first-controls.json.gz",
+          "json_pointer": "/response/tasks/0/result/7",
+          "keyword": "appareil pour sécher les chaussures",
+          "core_keyword": null,
+          "mapped_core_from_labs": "appareil pour secher les chaussures",
+          "search_volume": 70
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure de ski decathlon",
+      "max_known_monthly_volume": 70,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "decathlon"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/17",
+          "keyword": "seche chaussure de ski decathlon",
+          "core_keyword": null,
+          "search_volume": 70
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/47",
+          "keyword": "seche chaussure ski decathlon",
+          "core_keyword": "seche chaussure de ski decathlon",
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure sidas",
+      "max_known_monthly_volume": 70,
+      "unknown_observations_count": 2,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "sidas"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/68",
+          "keyword": "sidas sèche chaussures",
+          "core_keyword": "seche chaussure sidas",
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/77",
+          "keyword": "sèche chaussures sidas",
+          "core_keyword": "seche chaussure sidas",
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/15",
+          "keyword": "sidas seche chaussure",
+          "core_keyword": "seche chaussure sidas",
+          "search_volume": 70
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/16",
+          "keyword": "seche chaussure sidas",
+          "core_keyword": null,
+          "search_volume": 70
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure de ski mural occasion",
+      "max_known_monthly_volume": 50,
+      "unknown_observations_count": 2,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/58",
+          "keyword": "sèche-chaussures de ski mural occasion",
+          "core_keyword": "seche chaussure de ski mural occasion",
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/65",
+          "keyword": "sèche chaussures de ski mural occasion",
+          "core_keyword": "seche chaussure de ski mural occasion",
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/19",
+          "keyword": "seche chaussure de ski mural occasion",
+          "core_keyword": null,
+          "search_volume": 50
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure mural",
+      "max_known_monthly_volume": 50,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/48",
+          "keyword": "sèche-chaussures mural",
+          "core_keyword": "seche chaussure mural",
+          "search_volume": 10
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/49",
+          "keyword": "sèche chaussures mural",
+          "core_keyword": "seche chaussure mural",
+          "search_volume": 10
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/18",
+          "keyword": "seche chaussure mural",
+          "core_keyword": null,
+          "search_volume": 50
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/115",
+          "keyword": "seche chaussure murale",
+          "core_keyword": "seche chaussure mural",
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/22-first-controls.json.gz",
+          "json_pointer": "/response/tasks/0/result/8",
+          "keyword": "sèche chaussures mural",
+          "core_keyword": null,
+          "mapped_core_from_labs": "seche chaussure mural",
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "comment secher chaussure",
+      "max_known_monthly_volume": 40,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/2",
+          "keyword": "comment sécher des chaussures",
+          "core_keyword": "comment secher chaussure",
+          "search_volume": 40
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure de ski 4 paires",
+      "max_known_monthly_volume": 40,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/21",
+          "keyword": "seche chaussure de ski 4 paires",
+          "core_keyword": null,
+          "search_volume": 40
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure thermic",
+      "max_known_monthly_volume": 40,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "thermic"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/20",
+          "keyword": "seche chaussure thermic",
+          "core_keyword": null,
+          "search_volume": 40
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/30",
+          "keyword": "thermic seche chaussure",
+          "core_keyword": "seche chaussure thermic",
+          "search_volume": 20
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussures action avis",
+      "max_known_monthly_volume": 40,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "action"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/23",
+          "keyword": "sèche-chaussures action avis",
+          "core_keyword": null,
+          "search_volume": 40
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/25",
+          "keyword": "sèche chaussures action avis",
+          "core_keyword": "sèche-chaussures action avis",
+          "search_volume": 40
+        }
+      ]
+    },
+    {
+      "normalized_core": "secher chaussure seche cheveux",
+      "max_known_monthly_volume": 40,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_specific_diy_or_existing_appliance",
+      "reason": "Recherche visant une méthode ou un équipement déjà possédé, hors achat de souffleur dans le gate prudent.",
+      "matched_terms": [
+        "seche cheveux"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/24",
+          "keyword": "sécher chaussures sèche-cheveux",
+          "core_keyword": "sécher chaussure sèche-cheveux",
+          "search_volume": 40
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/26",
+          "keyword": "sécher chaussures sèche cheveux",
+          "core_keyword": "sécher chaussure sèche-cheveux",
+          "search_volume": 40
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/56",
+          "keyword": "secher chaussure seche cheveux",
+          "core_keyword": "sécher chaussure sèche-cheveux",
+          "search_volume": 10
+        },
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/3",
+          "keyword": "sécher chaussures sèche-cheveux",
+          "core_keyword": "sécher chaussure sèche-cheveux",
+          "search_volume": 40
+        },
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/4",
+          "keyword": "sécher chaussures sèche cheveux",
+          "core_keyword": "sécher chaussure sèche-cheveux",
+          "search_volume": 40
+        }
+      ]
+    },
+    {
+      "normalized_core": "comment faire secher des chaussures rapidement",
+      "max_known_monthly_volume": 30,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/6",
+          "keyword": "comment faire sécher des chaussures rapidement",
+          "core_keyword": null,
+          "search_volume": 30
+        }
+      ]
+    },
+    {
+      "normalized_core": "comment secher des chaussure rapidement",
+      "max_known_monthly_volume": 30,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/5",
+          "keyword": "comment sécher des chaussures rapidement",
+          "core_keyword": "comment secher des chaussure rapidement",
+          "search_volume": 30
+        },
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/21",
+          "keyword": "comment sécher rapidement des chaussures",
+          "core_keyword": "comment secher des chaussure rapidement",
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure ozone",
+      "max_known_monthly_volume": 30,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/24",
+          "keyword": "seche chaussure ozone",
+          "core_keyword": null,
+          "search_volume": 30
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure silvercrest",
+      "max_known_monthly_volume": 30,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "silvercrest"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/31",
+          "keyword": "sèche-chaussures silvercrest",
+          "core_keyword": "sèche chaussure silvercrest",
+          "search_volume": 30
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/54",
+          "keyword": "seche chaussure silvercrest",
+          "core_keyword": "sèche chaussure silvercrest",
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussures et bottes",
+      "max_known_monthly_volume": 30,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/28",
+          "keyword": "sèche chaussures et bottes",
+          "core_keyword": null,
+          "search_volume": 30
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/30",
+          "keyword": "sèche-chaussures et bottes",
+          "core_keyword": "sèche chaussures et bottes",
+          "search_volume": 30
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussures intersport",
+      "max_known_monthly_volume": 30,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "intersport"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/26",
+          "keyword": "seche chaussure intersport",
+          "core_keyword": "seche chaussures intersport",
+          "search_volume": 30
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussures soufflant",
+      "max_known_monthly_volume": 30,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/27",
+          "keyword": "sèche-chaussures soufflant",
+          "core_keyword": null,
+          "search_volume": 30
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/29",
+          "keyword": "sèche chaussures soufflant",
+          "core_keyword": "sèche-chaussures soufflant",
+          "search_volume": 30
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/71",
+          "keyword": "seche chaussure soufflant",
+          "core_keyword": "sèche-chaussures soufflant",
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "secher chaussures seche linge",
+      "max_known_monthly_volume": 30,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_specific_diy_or_existing_appliance",
+      "reason": "Recherche visant une méthode ou un équipement déjà possédé, hors achat de souffleur dans le gate prudent.",
+      "matched_terms": [
+        "seche linge"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/25",
+          "keyword": "secher chaussure seche linge",
+          "core_keyword": "secher chaussures seche linge",
+          "search_volume": 30
+        }
+      ]
+    },
+    {
+      "normalized_core": "comment enlever les plis des chaussures seche cheveux",
+      "max_known_monthly_volume": 20,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_specific_diy_or_existing_appliance",
+      "reason": "Recherche visant une méthode ou un équipement déjà possédé, hors achat de souffleur dans le gate prudent.",
+      "matched_terms": [
+        "seche cheveux"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/32",
+          "keyword": "comment enlever les plis des chaussures sèche cheveux",
+          "core_keyword": "comment enlever les plis des chaussures sèche-cheveux",
+          "search_volume": 20
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/34",
+          "keyword": "comment enlever les plis des chaussures sèche-cheveux",
+          "core_keyword": null,
+          "search_volume": 20
+        }
+      ]
+    },
+    {
+      "normalized_core": "comment faire secher des chaussures",
+      "max_known_monthly_volume": 20,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/7",
+          "keyword": "comment faire sécher des chaussures",
+          "core_keyword": null,
+          "search_volume": 20
+        }
+      ]
+    },
+    {
+      "normalized_core": "faire secher chaussures",
+      "max_known_monthly_volume": 20,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/10",
+          "keyword": "faire sécher des chaussures",
+          "core_keyword": "faire secher chaussures",
+          "search_volume": 20
+        }
+      ]
+    },
+    {
+      "normalized_core": "faire secher ses chaussures au soleil",
+      "max_known_monthly_volume": 20,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_specific_diy_or_existing_appliance",
+      "reason": "Recherche visant une méthode ou un équipement déjà possédé, hors achat de souffleur dans le gate prudent.",
+      "matched_terms": [
+        "au soleil"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/8",
+          "keyword": "faire sécher ses chaussures au soleil",
+          "core_keyword": null,
+          "search_volume": 20
+        }
+      ]
+    },
+    {
+      "normalized_core": "meilleur seche chaussure",
+      "max_known_monthly_volume": 20,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/57",
+          "keyword": "meilleur sèche-chaussures",
+          "core_keyword": "meilleur seche chaussure",
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/32",
+          "keyword": "meilleur seche chaussure",
+          "core_keyword": null,
+          "search_volume": 20
+        }
+      ]
+    },
+    {
+      "normalized_core": "quadralp seche chaussure",
+      "max_known_monthly_volume": 20,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "quadralp"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/50",
+          "keyword": "quadralp sèche chaussures",
+          "core_keyword": "quadralp seche chaussure",
+          "search_volume": 10
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/27",
+          "keyword": "quadralp seche chaussure",
+          "core_keyword": null,
+          "search_volume": 20
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/39",
+          "keyword": "seche chaussure quadralp",
+          "core_keyword": "quadralp seche chaussure",
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure de ski 6 paires",
+      "max_known_monthly_volume": 20,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/29",
+          "keyword": "seche chaussure de ski 6 paires",
+          "core_keyword": null,
+          "search_volume": 20
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure de ski d occasion",
+      "max_known_monthly_volume": 20,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/67",
+          "keyword": "sèche chaussures de ski d'occasion",
+          "core_keyword": "seche chaussure de ski d'occasion",
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/33",
+          "keyword": "seche chaussure de ski d'occasion",
+          "core_keyword": null,
+          "search_volume": 20
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure de ski portable",
+      "max_known_monthly_volume": 20,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/31",
+          "keyword": "seche chaussure de ski portable",
+          "core_keyword": null,
+          "search_volume": 20
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure koralp",
+      "max_known_monthly_volume": 20,
+      "unknown_observations_count": 2,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "koralp"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/62",
+          "keyword": "koralp sèche-chaussures",
+          "core_keyword": "seche chaussure koralp",
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/69",
+          "keyword": "koralp sèche chaussures",
+          "core_keyword": "seche chaussure koralp",
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/28",
+          "keyword": "seche chaussure koralp",
+          "core_keyword": null,
+          "search_volume": 20
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure ski electrique",
+      "max_known_monthly_volume": 20,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/34",
+          "keyword": "seche chaussure ski electrique",
+          "core_keyword": null,
+          "search_volume": 20
+        }
+      ]
+    },
+    {
+      "normalized_core": "secher des chaussures rapidement",
+      "max_known_monthly_volume": 20,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/9",
+          "keyword": "sécher chaussures rapidement",
+          "core_keyword": "sécher des chaussures rapidement",
+          "search_volume": 20
+        },
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/11",
+          "keyword": "sécher des chaussures rapidement",
+          "core_keyword": null,
+          "search_volume": 20
+        }
+      ]
+    },
+    {
+      "normalized_core": "comment faire secher des chaussures de foot",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/12",
+          "keyword": "comment faire sécher des chaussures de foot",
+          "core_keyword": "comment faire secher des chaussures de foot",
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "comment faire secher ses chaussures de ski",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/15",
+          "keyword": "comment faire sécher ses chaussures de ski",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "comment secher ses chaussures rapidement",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/17",
+          "keyword": "comment sécher ses chaussures rapidement",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "faire secher chaussures rando",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/20",
+          "keyword": "faire sécher chaussures rando",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "faire secher des chaussures rapidement",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/18",
+          "keyword": "faire sécher des chaussures rapidement",
+          "core_keyword": null,
+          "search_volume": 10
+        },
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/19",
+          "keyword": "faire sécher chaussures rapidement",
+          "core_keyword": "faire sécher des chaussures rapidement",
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "faire secher ses chaussures au four",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_specific_diy_or_existing_appliance",
+      "reason": "Recherche visant une méthode ou un équipement déjà possédé, hors achat de souffleur dans le gate prudent.",
+      "matched_terms": [
+        "au four"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/13",
+          "keyword": "faire sécher ses chaussures au four",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "mettre chaussure au seche linge",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_specific_diy_or_existing_appliance",
+      "reason": "Recherche visant une méthode ou un équipement déjà possédé, hors achat de souffleur dans le gate prudent.",
+      "matched_terms": [
+        "seche linge"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/43",
+          "keyword": "mettre chaussure au seche linge",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "passer ses chaussures au seche linge",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_specific_diy_or_existing_appliance",
+      "reason": "Recherche visant une méthode ou un équipement déjà possédé, hors achat de souffleur dans le gate prudent.",
+      "matched_terms": [
+        "seche linge"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/41",
+          "keyword": "passer ses chaussures au sèche linge",
+          "core_keyword": null,
+          "search_volume": 10
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/42",
+          "keyword": "passer ses chaussures au sèche-linge",
+          "core_keyword": "passer ses chaussures au sèche linge",
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche bottes electrique",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/22-first-controls.json.gz",
+          "json_pointer": "/response/tasks/0/result/6",
+          "keyword": "seche bottes electrique",
+          "core_keyword": null,
+          "mapped_core_from_labs": "seche bottes electrique",
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure 12v",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/37",
+          "keyword": "seche chaussure 12v",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure aliexpress",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "aliexpress"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/73",
+          "keyword": "seche chaussure aliexpress",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure alpenheat",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "alpenheat"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/67",
+          "keyword": "seche chaussure alpenheat",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure antibacterien",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/40",
+          "keyword": "seche chaussure antibactérien",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure avis",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/74",
+          "keyword": "seche chaussure avis",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure cdiscount",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "cdiscount"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/57",
+          "keyword": "seche chaussure cdiscount",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure costco",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "costco"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/50",
+          "keyword": "seche chaussure costco",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure darty",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "darty"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/68",
+          "keyword": "seche chaussure darty",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure de ski amazon",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 1,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "amazon"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/55",
+          "keyword": "seche chaussure de ski amazon",
+          "core_keyword": null,
+          "search_volume": 10
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/108",
+          "keyword": "seche chaussure ski amazon",
+          "core_keyword": "seche chaussure de ski amazon",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure de ski basse consommation",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/69",
+          "keyword": "seche chaussure de ski basse consommation",
+          "core_keyword": "sèche chaussure de ski basse consommation",
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure de ski intersport",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "intersport"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/36",
+          "keyword": "sèche-chaussures ski intersport",
+          "core_keyword": "seche chaussure de ski intersport",
+          "search_volume": 10
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/52",
+          "keyword": "sèche chaussures ski intersport",
+          "core_keyword": "seche chaussure de ski intersport",
+          "search_volume": 10
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/44",
+          "keyword": "seche chaussure de ski intersport",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure de ski koralp",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "koralp"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/60",
+          "keyword": "seche chaussure de ski koralp",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure de ski mural koralp",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "koralp"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/46",
+          "keyword": "seche chaussure de ski mural koralp",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure de ski professionnel",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/61",
+          "keyword": "seche chaussure de ski professionnel",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure de ski sidas",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "sidas"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/62",
+          "keyword": "seche chaussure de ski sidas",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure de ski vieux campeur",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 1,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "vieux campeur"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/70",
+          "keyword": "seche chaussure de ski vieux campeur",
+          "core_keyword": null,
+          "search_volume": 10
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/81",
+          "keyword": "seche chaussure ski vieux campeur",
+          "core_keyword": "seche chaussure de ski vieux campeur",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure ducatillon",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "ducatillon"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/36",
+          "keyword": "seche chaussure ducatillon",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure et gants",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/38",
+          "keyword": "sèche-chaussures et gants",
+          "core_keyword": "seche chaussure et gants",
+          "search_volume": 10
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/72",
+          "keyword": "seche chaussure et gants",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure gant",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/75",
+          "keyword": "seche chaussure gant",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure landi",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "landi"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/63",
+          "keyword": "seche chaussure landi",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure pas cher",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/58",
+          "keyword": "seche chaussure pas cher",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure portable",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/49",
+          "keyword": "seche chaussure portable",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure ski occasion",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/35",
+          "keyword": "seche chaussure ski occasion",
+          "core_keyword": null,
+          "search_volume": 10
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/59",
+          "keyword": "seche chaussure de ski occasion",
+          "core_keyword": "seche chaussure ski occasion",
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure ski wintersteiger",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "wintersteiger"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/45",
+          "keyword": "seche chaussure ski wintersteiger",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure sport",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/38",
+          "keyword": "seche chaussure sport",
+          "core_keyword": null,
+          "search_volume": 10
+        },
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/28",
+          "keyword": "sécher chaussures de sport",
+          "core_keyword": "seche chaussure sport",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure sur batterie",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/48",
+          "keyword": "seche chaussure sur batterie",
+          "core_keyword": "sèche chaussure sur batterie",
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure trail",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/42",
+          "keyword": "seche chaussure trail",
+          "core_keyword": "sèche chaussure trail",
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure uv",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/51",
+          "keyword": "seche chaussure uv",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure vieux campeur",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "vieux campeur"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/64",
+          "keyword": "seche chaussure vieux campeur",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure xiaomi",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 2,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "xiaomi"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/55",
+          "keyword": "sèche-chaussures xiaomi",
+          "core_keyword": "seche chaussure xiaomi",
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/78",
+          "keyword": "sèche chaussures xiaomi",
+          "core_keyword": "seche chaussure xiaomi",
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/53",
+          "keyword": "xiaomi seche chaussure",
+          "core_keyword": "seche chaussure xiaomi",
+          "search_volume": 10
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/66",
+          "keyword": "seche chaussure xiaomi",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussures amphora",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "amphora"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/52",
+          "keyword": "seche chaussure amphora",
+          "core_keyword": "seche chaussures amphora",
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussures basse consommation",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/44",
+          "keyword": "sèche chaussures basse consommation",
+          "core_keyword": null,
+          "search_volume": 10
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/46",
+          "keyword": "sèche-chaussures basse consommation",
+          "core_keyword": "sèche chaussures basse consommation",
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussures electrique lidl",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "lidl"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/45",
+          "keyword": "sèche chaussures électrique lidl",
+          "core_keyword": "sèche-chaussures électrique lidl",
+          "search_volume": 10
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/47",
+          "keyword": "sèche-chaussures électrique lidl",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussures et gants",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/39",
+          "keyword": "sèche chaussures et gants",
+          "core_keyword": "sèche-chaussures et gants",
+          "search_volume": 10
+        },
+        {
+          "raw_path": "raw/22-first-controls.json.gz",
+          "json_pointer": "/response/tasks/0/result/9",
+          "keyword": "sèche chaussures et gants",
+          "core_keyword": null,
+          "mapped_core_from_labs": "seche chaussures et gants",
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussures ski therm ic",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "therm ic"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/43",
+          "keyword": "sèche-chaussures ski therm-ic",
+          "core_keyword": "sèche chaussures ski therm-ic",
+          "search_volume": 10
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/51",
+          "keyword": "sèche chaussures ski therm-ic",
+          "core_keyword": null,
+          "search_volume": 10
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/53",
+          "keyword": "sèche chaussures ski therm ic",
+          "core_keyword": "sèche chaussures ski therm-ic",
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "secher ses chaussures au seche linge",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_specific_diy_or_existing_appliance",
+      "reason": "Recherche visant une méthode ou un équipement déjà possédé, hors achat de souffleur dans le gate prudent.",
+      "matched_terms": [
+        "seche linge"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/37",
+          "keyword": "sécher ses chaussures au sèche-linge",
+          "core_keyword": "secher ses chaussures au seche linge",
+          "search_volume": 10
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/40",
+          "keyword": "sécher ses chaussures au sèche linge",
+          "core_keyword": "secher ses chaussures au seche linge",
+          "search_volume": 10
+        },
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/14",
+          "keyword": "sécher ses chaussures au sèche-linge",
+          "core_keyword": "secher ses chaussures au seche linge",
+          "search_volume": 10
+        },
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/16",
+          "keyword": "sécher ses chaussures au sèche linge",
+          "core_keyword": "secher ses chaussures au seche linge",
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "shoefresh seche chaussure electrique",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "shoefresh"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/65",
+          "keyword": "shoefresh seche chaussure electrique",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "wantalis seche chaussure",
+      "max_known_monthly_volume": 10,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "wantalis"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/41",
+          "keyword": "wantalis seche chaussure",
+          "core_keyword": null,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "normalized_core": "alpenheat seche chauffe chaussures circulation",
+      "max_known_monthly_volume": 0,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "alpenheat"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/54",
+          "keyword": "alpenheat sèche chauffe chaussures circulation",
+          "core_keyword": null,
+          "search_volume": 0
+        }
+      ]
+    },
+    {
+      "normalized_core": "armoire sechante chaussures",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/73",
+          "keyword": "armoire sèche chaussures",
+          "core_keyword": "armoire séchante chaussures",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "avis seche chaussure ski",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 2,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/100",
+          "keyword": "seche chaussure de ski avis",
+          "core_keyword": "avis sèche chaussure ski",
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/117",
+          "keyword": "avis seche chaussure ski",
+          "core_keyword": "avis sèche chaussure ski",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "chaussure trail seche linge",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "exclude_specific_diy_or_existing_appliance",
+      "reason": "Recherche visant une méthode ou un équipement déjà possédé, hors achat de souffleur dans le gate prudent.",
+      "matched_terms": [
+        "seche linge"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/113",
+          "keyword": "chaussure trail seche linge",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "comment faire secher des chaussures de randonnee",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/37",
+          "keyword": "comment faire sécher des chaussures de randonnée",
+          "core_keyword": "comment faire secher des chaussures de randonnée",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "comment faire secher des chaussures de securite",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/35",
+          "keyword": "comment faire sécher des chaussures de securite",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "comment faire secher ses chaussures de trail",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/33",
+          "keyword": "comment faire sécher ses chaussures de trail",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "comment secher des chaussures de foot",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/38",
+          "keyword": "comment sécher des chaussures de foot",
+          "core_keyword": "comment secher des chaussures de foot",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "comment secher des chaussures de ski",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/29",
+          "keyword": "comment sécher chaussures ski",
+          "core_keyword": "comment secher des chaussures de ski",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "comment secher des chaussures en cuir",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/25",
+          "keyword": "comment sécher des chaussures en cuir",
+          "core_keyword": "comment secher des chaussures en cuir",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "comment secher des chaussures en daim",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/22",
+          "keyword": "comment sécher des chaussures en daim",
+          "core_keyword": "comment secher des chaussures en daim",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "comparatif seche chaussure de ski",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/99",
+          "keyword": "comparatif seche chaussure de ski",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "fabriquer seche chaussure",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 2,
+      "treatment": "exclude_specific_diy_or_existing_appliance",
+      "reason": "Recherche visant une méthode ou un équipement déjà possédé, hors achat de souffleur dans le gate prudent.",
+      "matched_terms": [
+        "fabriquer"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/78",
+          "keyword": "fabriquer un seche chaussure",
+          "core_keyword": "fabriquer seche chaussure",
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/92",
+          "keyword": "fabriquer seche chaussure",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "faire secher chaussures cuir",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 2,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/32",
+          "keyword": "faire sécher chaussures cuir",
+          "core_keyword": "faire secher chaussures cuir",
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/40",
+          "keyword": "faire sécher des chaussures en cuir",
+          "core_keyword": "faire secher chaussures cuir",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "faire secher chaussures de foot",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/41",
+          "keyword": "faire sécher chaussures de foot",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "faire secher chaussures ski",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/36",
+          "keyword": "faire sécher chaussures ski",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "meilleur seche chaussure ski",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/82",
+          "keyword": "meilleur seche chaussure ski",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "panier chaussure seche linge",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "exclude_specific_diy_or_existing_appliance",
+      "reason": "Recherche visant une méthode ou un équipement déjà possédé, hors achat de souffleur dans le gate prudent.",
+      "matched_terms": [
+        "seche linge"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/96",
+          "keyword": "panier chaussure seche linge",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "sechage chaussure seche linge",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "exclude_specific_diy_or_existing_appliance",
+      "reason": "Recherche visant une méthode ou un équipement déjà possédé, hors achat de souffleur dans le gate prudent.",
+      "matched_terms": [
+        "seche linge"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/83",
+          "keyword": "sechage chaussure seche linge",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure 4 paires",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/107",
+          "keyword": "seche chaussure 4 paires",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure boot and glove dryer",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 2,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/85",
+          "keyword": "seche-chaussure boot and glove dryer",
+          "core_keyword": null,
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/93",
+          "keyword": "seche chaussure boot and glove dryer",
+          "core_keyword": "seche-chaussure boot and glove dryer",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure canadian tire",
+      "max_known_monthly_volume": 0,
+      "unknown_observations_count": 0,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "canadian tire"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/77",
+          "keyword": "seche chaussure canadian tire",
+          "core_keyword": null,
+          "search_volume": 0
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure chatex",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "chatex"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/91",
+          "keyword": "seche chaussure chatex",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure de ski 10 paires",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/106",
+          "keyword": "seche chaussure de ski 10 paires",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure de ski mural prix",
+      "max_known_monthly_volume": 0,
+      "unknown_observations_count": 0,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/76",
+          "keyword": "seche chaussure de ski mural prix",
+          "core_keyword": null,
+          "search_volume": 0
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure de ski quadralp",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "quadralp"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/116",
+          "keyword": "seche chaussure de ski quadralp",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure de ski usb",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/94",
+          "keyword": "seche chaussure de ski usb",
+          "core_keyword": "sèche chaussure de ski usb",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure decathlon avis",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "decathlon"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/89",
+          "keyword": "seche chaussure decathlon avis",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure drywarmer pro usb sidas",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 2,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "sidas"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/80",
+          "keyword": "seche-chaussure drywarmer pro usb sidas",
+          "core_keyword": null,
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/87",
+          "keyword": "seche chaussure drywarmer pro usb sidas",
+          "core_keyword": "seche-chaussure drywarmer pro usb sidas",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure et vetement",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/98",
+          "keyword": "seche chaussure et vetement",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure gabriel robez",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "gabriel robez"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/101",
+          "keyword": "seche chaussure gabriel robez",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure maison",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/104",
+          "keyword": "seche chaussure maison",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure melissa",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "melissa"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/95",
+          "keyword": "seche chaussure melissa",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure mural electrique",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/84",
+          "keyword": "seche chaussure mural electrique",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure occasion",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/105",
+          "keyword": "seche chaussure occasion",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure parolai",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "parolai"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/102",
+          "keyword": "seche chaussure parolai",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure professionnel",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 2,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/76",
+          "keyword": "sèche chaussures professionnel",
+          "core_keyword": "sèche chaussure professionnel",
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/110",
+          "keyword": "seche chaussure professionnel",
+          "core_keyword": "sèche chaussure professionnel",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure ski 12v",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/109",
+          "keyword": "seche chaussure ski 12v",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure ski 2 paires",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/97",
+          "keyword": "seche chaussure ski 2 paires",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure ski de fond",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/79",
+          "keyword": "seche chaussure ski de fond",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussure vert",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/86",
+          "keyword": "seche chaussure vert",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussures 6 paires",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 2,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/60",
+          "keyword": "sèche chaussures 6 paires",
+          "core_keyword": null,
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/75",
+          "keyword": "sèche-chaussures 6 paires",
+          "core_keyword": "sèche chaussures 6 paires",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussures chez amazon",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 2,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "amazon"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/64",
+          "keyword": "sèche-chaussures chez amazon",
+          "core_keyword": null,
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/72",
+          "keyword": "sèche chaussures chez amazon",
+          "core_keyword": "sèche-chaussures chez amazon",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussures de ski electric",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/56",
+          "keyword": "sèche chaussures de ski electric",
+          "core_keyword": "seche chaussures de ski electric",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussures electrique action",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "action"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/74",
+          "keyword": "sèche chaussures électrique action",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "seche chaussures therm ic",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 3,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "therm ic"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/61",
+          "keyword": "sèche chaussures therm-ic",
+          "core_keyword": null,
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/70",
+          "keyword": "sèche chaussures therm ic",
+          "core_keyword": "sèche chaussures therm-ic",
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/22-first-controls.json.gz",
+          "json_pointer": "/response/tasks/0/result/10",
+          "keyword": "sèche chaussures therm ic",
+          "core_keyword": null,
+          "mapped_core_from_labs": "seche chaussures therm ic",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "secher chaussure cuir",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/31",
+          "keyword": "sécher chaussures en cuir",
+          "core_keyword": "sécher chaussure cuir",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "secher chaussure micro onde",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "exclude_specific_diy_or_existing_appliance",
+      "reason": "Recherche visant une méthode ou un équipement déjà possédé, hors achat de souffleur dans le gate prudent.",
+      "matched_terms": [
+        "micro onde"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/26",
+          "keyword": "sécher chaussures micro onde",
+          "core_keyword": "secher chaussure micro onde",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "secher chaussures randonnee",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 2,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/103",
+          "keyword": "seche chaussure randonnée",
+          "core_keyword": "secher chaussures randonnée",
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/39",
+          "keyword": "sécher chaussures randonnée",
+          "core_keyword": "secher chaussures randonnée",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "secher chaussures running",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 2,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/88",
+          "keyword": "seche chaussure running",
+          "core_keyword": "secher chaussures running",
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/24",
+          "keyword": "sécher chaussures running",
+          "core_keyword": "secher chaussures running",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "secher chaussures vtt",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/34",
+          "keyword": "sécher chaussures vtt",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "secher des chaussures au seche linge",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 2,
+      "treatment": "exclude_specific_diy_or_existing_appliance",
+      "reason": "Recherche visant une méthode ou un équipement déjà possédé, hors achat de souffleur dans le gate prudent.",
+      "matched_terms": [
+        "seche linge"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/59",
+          "keyword": "sécher des chaussures au sèche-linge",
+          "core_keyword": "secher des chaussures au seche linge",
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/27",
+          "keyword": "sécher des chaussures au sèche-linge",
+          "core_keyword": "secher des chaussures au seche linge",
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "secher ses chaussures au micro onde",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "exclude_specific_diy_or_existing_appliance",
+      "reason": "Recherche visant une méthode ou un équipement déjà possédé, hors achat de souffleur dans le gate prudent.",
+      "matched_terms": [
+        "micro onde"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/03-demand-seed.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/23",
+          "keyword": "sécher ses chaussures au micro onde",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "sidas seche chaussures thermic dryer",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "sidas",
+        "thermic"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/71",
+          "keyword": "sidas sèche chaussures thermic dryer",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "test seche chaussure",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 2,
+      "treatment": "retain_in_generous_envelope",
+      "reason": "Conservé pour la sensibilité ; pertinence et incrément non entièrement validés.",
+      "matched_terms": [],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/111",
+          "keyword": "seche chaussure test",
+          "core_keyword": "test seche chaussure",
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/114",
+          "keyword": "test seche chaussure",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "thermic seche chaussures refresh",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "thermic"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/63",
+          "keyword": "thermic sèche chaussures refresh",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "thermoformage chaussure ski seche cheveux",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 1,
+      "treatment": "exclude_specific_diy_or_existing_appliance",
+      "reason": "Recherche visant une méthode ou un équipement déjà possédé, hors achat de souffleur dans le gate prudent.",
+      "matched_terms": [
+        "seche cheveux"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/112",
+          "keyword": "thermoformage chaussure ski seche cheveux",
+          "core_keyword": null,
+          "search_volume": null
+        }
+      ]
+    },
+    {
+      "normalized_core": "wintersteiger seche chaussures",
+      "max_known_monthly_volume": null,
+      "unknown_observations_count": 2,
+      "treatment": "exclude_brand_or_retailer",
+      "reason": "Marque ou enseigne explicite ; hors demande générique prudente.",
+      "matched_terms": [
+        "wintersteiger"
+      ],
+      "observations": [
+        {
+          "raw_path": "raw/05-demand-product.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/66",
+          "keyword": "wintersteiger sèche chaussures",
+          "core_keyword": "wintersteiger seche chaussures",
+          "search_volume": null
+        },
+        {
+          "raw_path": "raw/27-c1-spelling.json.gz",
+          "json_pointer": "/response/tasks/0/result/0/items/90",
+          "keyword": "seche chaussure wintersteiger",
+          "core_keyword": "wintersteiger seche chaussures",
+          "search_volume": null
+        }
+      ]
+    }
+  ]
+}

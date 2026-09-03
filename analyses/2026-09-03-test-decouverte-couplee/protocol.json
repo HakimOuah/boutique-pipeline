@@ -1,0 +1,36 @@
+{
+  "created_at_utc": "2026-09-03T13:33:34.258020+00:00",
+  "base_commit": "dab55ccd5d0340e2199339950afc0a38202dcc81",
+  "purpose": "Test prospectif TrendTrack ↔ demandes Google après précision Hakim sur la valeur positive des signaux de croissance",
+  "mode": "PRODUIT PUR",
+  "limits": {
+    "dataforseo_usd": 5,
+    "target_shops_browsed": 24,
+    "max_candidates_measured": 8,
+    "collection_minutes_target": 60,
+    "max_targeted_refinement_round_per_candidate": 1
+  },
+  "surfaces": [
+    "vues sauvegardées diagnostic",
+    "Google Search",
+    "Google Shopping",
+    "croissance",
+    "nouveautés/exploration ouverte"
+  ],
+  "selection": "Tracer tous les shops lus et exclusions ; retenir jusqu’à huit besoins nouveaux distincts après anti-doublon, dont une part issue de requêtes et une part de nouveaux shops si accessibles. Geler chaque offre et requêtes avant qualification, enregistrer les rebonds. Aucun remplacement après volume décevant, aucun quota de PASS. Si moins de slots faisables, les laisser non réalisés. Aucun minimum universel ancienneté.",
+  "growth": "signal positif pour prioriser, testing avancé/budget/rentabilité restent HYPOTHESE sans données directes",
+  "unchanged_gates": {
+    "pur_monthly_reference": 12500,
+    "pur_review_band": [
+      10000,
+      15000
+    ],
+    "price_eur": [
+      50,
+      400
+    ]
+  },
+  "controls": "DataForSEO France/français ; témoin tufting avant/après ; déclarer devise ; raw responses conservées avec coût ; regroupements MAX et exclusions sémantiques explicites.",
+  "authorization": "Recherche bornée, artefacts, commit/push. Pas de sourcing profond, sample, Ads, GMC ou modification de vues sauvegardées.",
+  "success": "Résultat testable sur créativité, obstacles, apport concret des rebonds et coût ; pas une preuve prédictive de rentabilité."
+}

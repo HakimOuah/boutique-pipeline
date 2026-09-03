@@ -113,3 +113,7 @@ Proposition avant intégration aux agents : une passe large mais légère de sho
 Mesurer les **besoins distincts découverts**, doublons, prix vérifiés, dossiers dont l'obstacle a été résolu, coût par dossier exploitable et temps de recherche. Conserver la séquence des rebonds pour savoir ce que chaque source a apporté. Le nombre de shops visités et le taux de PASS ne suffisent pas à évaluer la méthode. La qualité prédictive devra être confrontée ensuite aux campagnes OH Ventures, avec les règles de lancement et de sample existantes.
 
 **Suite prioritaire proposée :** clarifier B1/A6/B2, diagnostiquer les deux vues vides dans une vue de travail, puis essayer la découverte couplée. Cette note enregistre la direction de Hakim et le protocole proposé ; elle ne lance aucune collecte payante, campagne ni automatisation supplémentaire.
+
+## Premier test couplé exécuté le 03/09
+
+Le [test prospectif suivant](../2026-09-03-test-decouverte-couplee/README.md) a mesuré six offres : quatre STOP de périmètre, deux REVIEW, aucun PASS ; 0,78444 USD DataForSEO. Il documente le filtre Simprosys masquant le vivier, la confusion possible entre dates produit/shop, les limites des labels Google et une reprise motivée du titane. Les douze dossiers de cette première expérience restent inchangés. Aucun moteur, score ou seuil n’a été modifié.

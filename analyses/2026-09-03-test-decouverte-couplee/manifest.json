@@ -1,0 +1,59 @@
+{
+  "created_at_utc": "2026-09-03T14:11:55.219457+00:00",
+  "collection_started_at_utc": "2026-09-03T13:33:34.258020+00:00",
+  "collection_last_api_at_utc": "2026-09-03T14:09:04.560403+00:00",
+  "collection_elapsed_minutes": 35.51,
+  "timing_scope": "wall clock protocole → dernier appel, inclut réflexions et travail parallèle ; rédaction et validation finales exclues",
+  "api_calls": 21,
+  "dataforseo_cost_usd": "0.78444",
+  "witness_cost_usd": "0.27",
+  "witnesses": {
+    "01-witness-before": {
+      "observed_at_utc": "2026-09-03T13:35:13.537036+00:00",
+      "keyword": "tufting",
+      "search_volume": 12100
+    },
+    "40-witness-after": {
+      "observed_at_utc": "2026-09-03T14:01:59.757605+00:00",
+      "keyword": "tufting",
+      "search_volume": 12100
+    },
+    "45-witness-final": {
+      "observed_at_utc": "2026-09-03T14:09:04.560403+00:00",
+      "keyword": "tufting",
+      "search_volume": 12100
+    }
+  },
+  "controls_keywords_count": 68,
+  "serps_count": 6,
+  "budget_usd": 5,
+  "candidates_max": 8,
+  "candidates_measured": 6,
+  "new_candidate_count": 4,
+  "reprises_count": 2,
+  "unfilled_slots": 2,
+  "not_performed": [
+    "sourcing",
+    "sample",
+    "store build",
+    "Search test",
+    "GMC audit",
+    "production implementation"
+  ],
+  "protocol_notes": [
+    "Le premier témoin après C1–C5 est conservé comme intermédiaire. C6 a été ajouté après lecture de la portée limitée du STOP historique et de nouveaux signaux commerciaux ; nouveau témoin après reprise.",
+    "Aucun résultat décevant retiré du lot ; C6 ne remplace aucun candidat.",
+    "C7 Ritaku reste observation en doublon, pas candidat sélectionné."
+  ],
+  "validation": {
+    "json_files": "parsed",
+    "raw_api_cost_status_sha256": "21/21 verified",
+    "controls_rows": 68,
+    "screening_observations": 180,
+    "screening_domains": 165,
+    "screening_source_hashes": "verified",
+    "internal_markdown_links": "no missing targets",
+    "independent_deliverable_review": "no material inconsistency; two wording corrections applied",
+    "method_scope": "test only; no production scores thresholds or workflows changed"
+  }
+}

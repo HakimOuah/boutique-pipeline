@@ -1,0 +1,62 @@
+[
+  {
+    "id": "C1",
+    "frozen_at_utc": "2026-09-03T13:36:44.482199+00:00",
+    "origin": "Demand-first",
+    "seed": "sécher chaussures",
+    "offer": "Sèche-chaussures électrique soufflant domestique pour chaussures/bottes mouillées",
+    "why": "Besoin Q4 ; passage problème → produit révèle vocabulaire ski et Therm-ic ; pas de changement de catégorie pour chercher du volume",
+    "anti_duplicate": "Pas de correspondance sèche/chauffe-chaussures dans registre ; Therm-ic déjà exploré comme shop, distinguer cette offre",
+    "next": "Therm-ic TrendTrack + PDP puis contrôle volume du cluster limité",
+    "novelty_correction": "Ancienne piste non instruite du 01/09 (cartes ERAM hors sujet), absente du registre : reprise exploratoire, pas nouvelle découverte."
+  },
+  {
+    "id": "C2",
+    "frozen_at_utc": "2026-09-03T13:38:09.479156+00:00",
+    "origin": "Demand-first",
+    "seed": "sans fil",
+    "offer": "Kit casque TV sans fil pour écouter sans déranger, usage B2C non médical",
+    "why": "Contrainte sans fil révèle TV/casque télévision 5400, offre à expliciter, plusieurs concurrents possibles",
+    "anti_duplicate": "Pas de correspondance casque TV/télévision dans registre ; éviter gaming/audio générique",
+    "next": "TrendTrack par mots-clés puis PDP et mesure du cluster TV uniquement"
+  },
+  {
+    "id": "C3",
+    "frozen_at_utc": "2026-09-03T13:41:08.802901+00:00",
+    "origin": "TrendTrack Top Scaling Maison/Tech",
+    "offer": "Rallonge déportée de clé à cliquet pour accès difficile bricolage particulier",
+    "shop": "wildbeartools.com",
+    "anti_duplicate": "Recherche agent registre négative ; détail competitors-scout.md",
+    "next": "Traduction besoin/produit FR → mesure puis retour shop"
+  },
+  {
+    "id": "C4",
+    "frozen_at_utc": "2026-09-03T13:41:08.803692+00:00",
+    "origin": "TrendTrack Top Scaling Maison/Tech",
+    "offer": "Coussin gel amovible pour selle moto, confort non médical",
+    "shop": "helloholie.com",
+    "anti_duplicate": "Recherche agent registre négative ; détail competitors-scout.md",
+    "next": "Traduction besoin/produit FR → mesure puis retour shop"
+  },
+  {
+    "id": "C5",
+    "frozen_at_utc": "2026-09-03T13:43:50.023267+00:00",
+    "origin": "TrendTrack exploration générale",
+    "offer": "Bracelet réveil vibrant silencieux, se lever sans réveiller son partenaire",
+    "shop": "histrips.com",
+    "anti_duplicate": "Réveil simulateur aube déjà STOP ; besoin et mécanisme vibrant distincts. Ne pas créditer le volume aube.",
+    "next": "PDP Onyx puis mesure réveil vibrant/silencieux, exclusion dispositifs médicaux spécialisés"
+  },
+  {
+    "id": "C6",
+    "frozen_at_utc": "2026-09-03T14:07:52.885201+00:00",
+    "origin": "TrendTrack Weekly Gems puis détail shop",
+    "offer": "Poêle de cuisson à surface titane sans revêtement synthétique, B2C ; composition et promesses non prouvées",
+    "shop": "titanoxfrance.com",
+    "novelty": "déjà recherché — reprise motivée",
+    "anti_duplicate": "Registre ustensiles titane/sans-PFAS STOP07/08 maintenu en historique ; reports/mesure-express-q4-2026-08-07.md lignes16/57 : têtes seulement, cluster non exploré. Nouvelle preuve commerciale37 : +193%trafic,92%FR, annonces attribuées à la poêle.",
+    "why": "Tester si ancien rejet par têtes sous-estime le cluster, sans supposer la croissance de la demande FR.",
+    "limits": "Un seed Labs titane, un lot contrôle titane/PFAS/sansrevêtement, une SERP ; pas parents chauffage/toutepoêle/cuisine, pas planches, aucun sourcing.",
+    "next": "Contrôle actuel plutôt que réemploi du volume historique ; comparer et clôturer."
+  }
+]

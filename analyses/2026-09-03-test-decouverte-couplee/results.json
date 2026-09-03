@@ -1,0 +1,362 @@
+{
+  "experiment": "2026-09-03-test-decouverte-couplee",
+  "schema_scope": "artefact de test, pas schema de production",
+  "canonical_threshold_monthly": 12500,
+  "canonical_review_band": [
+    10000,
+    15000
+  ],
+  "candidates_measured": 6,
+  "counts": {
+    "PASS_PREQUALIFICATION": 0,
+    "REVIEW_PREQUALIFICATION": 2,
+    "STOP_PREQUALIFICATION": 4
+  },
+  "candidates": [
+    {
+      "candidate_id": "C1",
+      "mode": "PRODUIT PUR",
+      "offer": "Sèche-chaussures électrique soufflant domestique pour chaussures/bottes mouillées",
+      "novelty": "reprise",
+      "prequalification_status": "STOP_PREQUALIFICATION",
+      "decision_scope": "offre et vocabulaire sondés dans cette expérience, pas verdict exhaustif de catégorie",
+      "reason": "Enveloppe encore généreuse du corpus après union, marques/enseignes et incompatibles retirés ; reste sous la bande de revue.",
+      "addressable_search_demand": {
+        "estimate_monthly": null,
+        "permissive_observed_corpus_scenario": 7530,
+        "is_exhaustive": false,
+        "is_statistical_interval": false,
+        "source": "c1-consolidation-review.json"
+      },
+      "product_search_fit": {
+        "observation": "Besoin nommable ; problème sécher chaussures devient appareil, bottes et ski.",
+        "score": null
+      },
+      "search_score": null,
+      "shopping_score": null,
+      "business_score": null,
+      "score_missing_reason": "Barèmes complets non renseignés ; pas de note artificielle pour les données manquantes.",
+      "serp_winnability": {
+        "score": null,
+        "source": "raw/12-c1-serp.json.gz"
+      },
+      "generic_search_ratio": null,
+      "observed_cpc_proxies_usd": [
+        0.44,
+        0.5
+      ],
+      "observed_competitor_prices": [
+        "Therm-ic 79,95 EUR",
+        "Shoefresh Opod 129 EUR"
+      ],
+      "economics": {
+        "selling_price_oh_ventures": null,
+        "cogs": null,
+        "shipping_cost": null,
+        "payment_fees": null,
+        "contribution_margin_before_ads": null,
+        "break_even_cpa": null,
+        "break_even_cvr": null,
+        "status": "MANQUANT",
+        "scenario_source": null
+      },
+      "risks": [
+        "Soufflerie, matériaux compatibles, capacité et temps de séchage à prouver."
+      ],
+      "supplier_status": "NON_REALISE",
+      "google_trends_5y_status": "MANQUANT",
+      "actual_search_test_metrics": null,
+      "hakim_decision": null,
+      "go_final": false
+    },
+    {
+      "candidate_id": "C2",
+      "mode": "PRODUIT PUR",
+      "offer": "Kit casque TV sans fil pour écouter sans déranger, usage B2C non médical",
+      "novelty": "pas_de_correspondance_registre_consulte",
+      "prequalification_status": "REVIEW_PREQUALIFICATION",
+      "decision_scope": "offre et vocabulaire sondés dans cette expérience, pas verdict exhaustif de catégorie",
+      "reason": "6 700 prudents ; 10 830 scénario parents groupés ; 13 910 très permissif. Incrément et attribution de quelques groupes non démontrés.",
+      "addressable_search_demand": {
+        "estimate_monthly": 6700,
+        "permissive_observed_corpus_scenario": 13910,
+        "is_exhaustive": false,
+        "is_statistical_interval": false,
+        "source": "review-c1-c5.md"
+      },
+      "product_search_fit": {
+        "observation": "Produit + usage + contrainte directement exprimables ; kit et connectique à fixer.",
+        "score": null
+      },
+      "search_score": null,
+      "shopping_score": null,
+      "business_score": null,
+      "score_missing_reason": "Barèmes complets non renseignés ; pas de note artificielle pour les données manquantes.",
+      "serp_winnability": {
+        "score": null,
+        "source": "raw/14-c2-serp.json.gz"
+      },
+      "generic_search_ratio": null,
+      "observed_cpc_proxies_usd": [
+        0.25,
+        0.34,
+        0.38
+      ],
+      "observed_competitor_prices": [
+        "Sennheiser RS120-W France129,90 EUR",
+        "Avantree HT5009 Plus139,99 USD"
+      ],
+      "economics": {
+        "selling_price_oh_ventures": null,
+        "cogs": null,
+        "shipping_cost": null,
+        "payment_fees": null,
+        "contribution_margin_before_ads": null,
+        "break_even_cpa": null,
+        "break_even_cvr": null,
+        "status": "MANQUANT",
+        "scenario_source": "economics-c2.md"
+      },
+      "risks": [
+        "SERP commerciale avec CGV, Darty, La Boutique Eric ; assistance et pédagogie déjà présentes.",
+        "Pas de ratio générique exhaustif sur corpus tronqué."
+      ],
+      "supplier_status": "NON_REALISE",
+      "google_trends_5y_status": "MANQUANT",
+      "actual_search_test_metrics": null,
+      "hakim_decision": null,
+      "go_final": false
+    },
+    {
+      "candidate_id": "C3",
+      "mode": "PRODUIT PUR",
+      "offer": "Rallonge déportée de clé à cliquet pour accès difficile bricolage particulier",
+      "novelty": "pas_de_correspondance_registre_consulte",
+      "prequalification_status": "STOP_PREQUALIFICATION",
+      "decision_scope": "offre et vocabulaire sondés dans cette expérience, pas verdict exhaustif de catégorie",
+      "reason": "Somme volontairement excessive du corpus et contrôles, non adressable ; rallonges droites incluses, clés complètes exclues.",
+      "addressable_search_demand": {
+        "estimate_monthly": null,
+        "permissive_observed_corpus_scenario": 8600,
+        "is_exhaustive": false,
+        "is_statistical_interval": false,
+        "source": "review-c1-c5.md"
+      },
+      "product_search_fit": {
+        "observation": "Besoin concret ; formulation déportée rare, marché parent composé majoritairement autres outils.",
+        "score": null
+      },
+      "search_score": null,
+      "shopping_score": null,
+      "business_score": null,
+      "score_missing_reason": "Barèmes complets non renseignés ; pas de note artificielle pour les données manquantes.",
+      "serp_winnability": {
+        "score": null,
+        "source": "raw/17-c3-serp.json.gz"
+      },
+      "generic_search_ratio": null,
+      "observed_cpc_proxies_usd": [
+        0.31,
+        0.4
+      ],
+      "observed_competitor_prices": [
+        "WildBear Offset Extension2.0 79 USD"
+      ],
+      "economics": {
+        "selling_price_oh_ventures": null,
+        "cogs": null,
+        "shipping_cost": null,
+        "payment_fees": null,
+        "contribution_margin_before_ads": null,
+        "break_even_cpa": null,
+        "break_even_cvr": null,
+        "status": "MANQUANT",
+        "scenario_source": null
+      },
+      "risks": [
+        "Prix et stock France manquants ; incohérence stock PDP.",
+        "Ne pas attribuer le trafic shop à cette référence."
+      ],
+      "supplier_status": "NON_REALISE",
+      "google_trends_5y_status": "MANQUANT",
+      "actual_search_test_metrics": null,
+      "hakim_decision": null,
+      "go_final": false
+    },
+    {
+      "candidate_id": "C4",
+      "mode": "PRODUIT PUR",
+      "offer": "Coussin gel amovible pour selle moto, confort non médical",
+      "novelty": "pas_de_correspondance_registre_consulte",
+      "prequalification_status": "STOP_PREQUALIFICATION",
+      "decision_scope": "offre et vocabulaire sondés dans cette expérience, pas verdict exhaustif de catégorie",
+      "reason": "Somme excessive incluant doublons et selles complètes, sous le seuil ; offre figée coussin amovible moto.",
+      "addressable_search_demand": {
+        "estimate_monthly": null,
+        "permissive_observed_corpus_scenario": 7230,
+        "is_exhaustive": false,
+        "is_statistical_interval": false,
+        "source": "review-c1-c5.md"
+      },
+      "product_search_fit": {
+        "observation": "Usage concret nommé coussin/surselle moto, distinct du vélo et de la selle complète.",
+        "score": null
+      },
+      "search_score": null,
+      "shopping_score": null,
+      "business_score": null,
+      "score_missing_reason": "Barèmes complets non renseignés ; pas de note artificielle pour les données manquantes.",
+      "serp_winnability": {
+        "score": null,
+        "source": "raw/19-c4-serp.json.gz"
+      },
+      "generic_search_ratio": null,
+      "observed_cpc_proxies_usd": [
+        0.26,
+        0.3,
+        0.31
+      ],
+      "observed_competitor_prices": [
+        "Holie Gel Rider74 USD"
+      ],
+      "economics": {
+        "selling_price_oh_ventures": null,
+        "cogs": null,
+        "shipping_cost": null,
+        "payment_fees": null,
+        "contribution_margin_before_ads": null,
+        "break_even_cpa": null,
+        "break_even_cvr": null,
+        "status": "MANQUANT",
+        "scenario_source": null
+      },
+      "risks": [
+        "Saisonnalité Q4 faible sur tête sondée, Trends5ans manquant.",
+        "Comparables français sur cartes SERP, prix définitifs non vérifiés."
+      ],
+      "supplier_status": "NON_REALISE",
+      "google_trends_5y_status": "MANQUANT",
+      "actual_search_test_metrics": null,
+      "hakim_decision": null,
+      "go_final": false
+    },
+    {
+      "candidate_id": "C5",
+      "mode": "PRODUIT PUR",
+      "offer": "Bracelet réveil vibrant silencieux, se lever sans réveiller son partenaire",
+      "novelty": "pas_de_correspondance_registre_consulte",
+      "prequalification_status": "STOP_PREQUALIFICATION",
+      "decision_scope": "offre et vocabulaire sondés dans cette expérience, pas verdict exhaustif de catégorie",
+      "reason": "Somme excessive incluant parents ambigus, doublons et bracelets génériques ; demande spécifique faible.",
+      "addressable_search_demand": {
+        "estimate_monthly": null,
+        "permissive_observed_corpus_scenario": 6100,
+        "is_exhaustive": false,
+        "is_statistical_interval": false,
+        "source": "review-c1-c5.md"
+      },
+      "product_search_fit": {
+        "observation": "Problème compréhensible sans vidéo : réveil personnel sans déranger.",
+        "score": null
+      },
+      "search_score": null,
+      "shopping_score": null,
+      "business_score": null,
+      "score_missing_reason": "Barèmes complets non renseignés ; pas de note artificielle pour les données manquantes.",
+      "serp_winnability": {
+        "score": null,
+        "source": "raw/21-c5-serp.json.gz"
+      },
+      "generic_search_ratio": null,
+      "observed_cpc_proxies_usd": [
+        0.32,
+        0.4
+      ],
+      "observed_competitor_prices": [
+        "HiStrips Onyx39,95 USD",
+        "AIRTAPE VibruP39,99 EUR",
+        "PulseOn Rise34,90 EUR"
+      ],
+      "economics": {
+        "selling_price_oh_ventures": null,
+        "cogs": null,
+        "shipping_cost": null,
+        "payment_fees": null,
+        "contribution_margin_before_ads": null,
+        "break_even_cpa": null,
+        "break_even_cvr": null,
+        "status": "MANQUANT",
+        "scenario_source": null
+      },
+      "risks": [
+        "Offre duo observée avec remise ; panier réel et coûts encore inconnus.",
+        "Claims santé des marchands exclus de la thèse."
+      ],
+      "supplier_status": "NON_REALISE",
+      "google_trends_5y_status": "MANQUANT",
+      "actual_search_test_metrics": null,
+      "hakim_decision": null,
+      "go_final": false
+    },
+    {
+      "candidate_id": "C6",
+      "mode": "PRODUIT PUR",
+      "offer": "Poêle de cuisson à surface titane sans revêtement synthétique, B2C ; composition et promesses non prouvées",
+      "novelty": "reprise",
+      "prequalification_status": "REVIEW_PREQUALIFICATION",
+      "decision_scope": "offre et vocabulaire sondés dans cette expérience, pas verdict exhaustif de catégorie",
+      "reason": "Reprise motivée : 10 150 scénario permissif sur corpus titane et contraintes, pas demande nette prouvée. Ancien STOP SEMrush non réutilisé comme mesure actuelle.",
+      "addressable_search_demand": {
+        "estimate_monthly": null,
+        "permissive_observed_corpus_scenario": 10150,
+        "is_exhaustive": false,
+        "is_statistical_interval": false,
+        "source": "competitors-c6-c7.md"
+      },
+      "product_search_fit": {
+        "observation": "Produit et matériau recherchés ; contraintes sansPFAS/Teflon peuvent appeler d autres matériaux.",
+        "score": null
+      },
+      "search_score": null,
+      "shopping_score": null,
+      "business_score": null,
+      "score_missing_reason": "Barèmes complets non renseignés ; pas de note artificielle pour les données manquantes.",
+      "serp_winnability": {
+        "score": null,
+        "source": "raw/44-c6-serp.json.gz"
+      },
+      "generic_search_ratio": null,
+      "observed_cpc_proxies_usd": [
+        1.22,
+        1.36,
+        1.42
+      ],
+      "observed_competitor_prices": [
+        "Titanox26cm59,99 EUR",
+        "Titanox28cm64,99 EUR",
+        "Titanox30cm69,99 EUR"
+      ],
+      "economics": {
+        "selling_price_oh_ventures": null,
+        "cogs": null,
+        "shipping_cost": null,
+        "payment_fees": null,
+        "contribution_margin_before_ads": null,
+        "break_even_cpa": null,
+        "break_even_cvr": null,
+        "status": "MANQUANT",
+        "scenario_source": "economics-c6.md"
+      },
+      "risks": [
+        "Économie incompatible avec scénarios àCVR≤2% à59,99 et CPCproduit1,22USD avant même COGS sous hypothèse TVA20%.",
+        "À69,99 etCVR2%, reste5,64 EUR pour tous coûts variables au CPCproduit ; coûts réels manquants.",
+        "Composition et promesses contradictoires non prouvées ; ne pas reproduire les claims."
+      ],
+      "supplier_status": "NON_REALISE",
+      "google_trends_5y_status": "MANQUANT",
+      "actual_search_test_metrics": null,
+      "hakim_decision": null,
+      "go_final": false
+    }
+  ]
+}

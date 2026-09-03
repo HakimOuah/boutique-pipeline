@@ -1,0 +1,249 @@
+2026-09-03T14:01:41.169Z
+- link "Trendtrack logo":
+  - /url: /workspace/WORKSPACE/home
+  - img "Trendtrack logo"
+- button "Basculer la barre latérale":
+  - generic: Afficher/Masquer la barre latérale
+- generic: Vue d'ensemble
+- list:
+  - link "Home":
+    - /url: /fr/workspace/WORKSPACE/home
+    - generic: Home
+  - link "Brandtracker":
+    - /url: /fr/workspace/WORKSPACE/brandtracker
+    - generic: Brandtracker
+- generic: Analyses
+- list:
+  - link "Shops":
+    - /url: /fr/workspace/WORKSPACE/shops
+    - generic: Shops
+  - link "Ads":
+    - /url: /fr/workspace/WORKSPACE/ads
+    - generic: Ads
+  - link "Advertisers":
+    - /url: /fr/workspace/WORKSPACE/pages
+    - generic: Advertisers
+  - link "Emails":
+    - /url: /fr/workspace/WORKSPACE/emails
+    - generic: Emails
+  - link "Trends Soon":
+    - /url: /fr/workspace/WORKSPACE/trends
+    - generic: Trends
+    - generic: Soon
+- button "Favoris" [expanded]:
+  - generic: Favoris
+- list:
+  - button "Ads":
+    - generic: Ads
+  - button "Emails":
+    - generic: Emails
+  - button "Shops":
+    - generic: Shops
+- button "Équipe" [expanded]:
+  - generic: Équipe
+- list:
+  - button "Ads partagées":
+    - generic: Ads partagées
+  - button "Emails partagés":
+    - generic: Emails partagés
+  - button "Shops partagés":
+    - generic: Shops partagés
+- paragraph: Trouvez toutes les Ads gagnantes pour 15% de moins.
+- button:
+- paragraph: Économisez €160/an en passant au trimestriel.
+- button "Passer au plan trimestriel"
+- button "Notifications":
+  - generic: Notifications
+- button "Ouvrir le menu utilisateur":
+  - img "Hakim Ouahabi"
+  - generic: Hakim Ouahabi
+  - generic: [compte]
+- main:
+  - main:
+    - paragraph: Shops
+    - generic: "3"
+    - button "avantree. Click to exclude.":
+      - generic: +
+      - generic: avantree
+      - button "Remove avantree":
+    - textbox "Utilisez -mot-clé pour l'exclure. Tapez \\-mot-clé pour rechercher un tiret initial littéral." [active]:
+      - /placeholder: Ajouter ou Entrée pour rechercher...
+    - button:
+    - button:
+    - button:
+    - button "Watch Tutorial":
+    - tablist:
+      - button "🌎 Tous les shops":
+        - generic: 🌎
+        - generic: Tous les shops
+      - button "Open actions for Tous les shops":
+      - button "💎 Weekly Gems":
+        - generic: 💎
+        - generic: Weekly Gems
+      - button "Open actions for Weekly Gems":
+      - button "📈 Top Scaling":
+        - generic: 📈
+        - generic: Top Scaling
+      - button "💼 Market Leaders & DTC Brands":
+        - generic: 💼
+        - generic: Market Leaders & DTC Brands
+      - button "Open actions for Market Leaders & DTC Brands":
+      - button "🔥 Record d'ads du shop":
+        - generic: 🔥
+        - generic: Record d'ads du shop
+      - button "Open actions for Record d'ads du shop":
+      - button "🚀 Record de trafic du shop":
+        - generic: 🚀
+        - generic: Record de trafic du shop
+      - button "Open actions for Record de trafic du shop":
+      - button "Scaling shopping":
+        - generic: Scaling shopping
+      - button "Open actions for Scaling shopping":
+      - button "Shopping FR":
+        - generic: Shopping FR
+      - button "Open actions for Shopping FR":
+      - button "Gérer":
+        - text: Gérer
+    - generic: "Filtrer par :"
+    - button "Shops" [pressed]:
+      - generic: Shops
+    - button "Ads":
+      - generic: Ads
+    - button "Collapse filters" [expanded]:
+    - button "Trafic":
+      - generic: Trafic
+    - button "Croissance du trafic":
+      - generic: Croissance du trafic
+    - button "Produits":
+      - generic: Produits
+    - button "Origine shop":
+      - generic: Origine shop
+    - button "Pays visiteurs":
+      - generic: Pays visiteurs
+    - button "Niche":
+      - generic: Niche
+    - button "Date de création":
+      - generic: Date de création
+    - button "Vu":
+      - generic: Vu
+    - button "Brandtracker":
+      - generic: Brandtracker
+    - button "Langue":
+      - generic: Langue
+    - button "Devise":
+      - generic: Devise
+    - button "Thème Shopify":
+      - generic: Thème Shopify
+    - button "Application Shopify":
+      - generic: Application Shopify
+    - button "Pixels":
+      - generic: Pixels
+    - button "Réseaux sociaux":
+      - generic: Réseaux sociaux
+    - button "Plan Shopify":
+      - generic: Plan Shopify
+    - button "Trustpilot":
+      - generic: Trustpilot
+    - button "Le plus d'ads actives":
+      - generic: Le plus d'ads actives
+    - button:
+    - tabpanel:
+      - table:
+        - rowgroup:
+          - row "Infos du shop Meilleurs ventes Catégorie Visites mensuelles Meta Ads Ads":
+            - columnheader "Infos du shop"
+            - columnheader "Meilleurs ventes"
+            - columnheader "Catégorie"
+            - columnheader "Visites mensuelles"
+            - columnheader "Meta Ads"
+            - columnheader "Ads"
+        - rowgroup:
+          - row "avantree.com HK Voir les analyses du shop Avantree avantree.com shopify 18/02/2024 2 années Oasis Plus USB Power Adapter Audikast 3 349 Électronique grand public Pathologies 170K US DE CA 0 HK Aucune ad":
+            - cell "avantree.com HK Voir les analyses du shop Avantree avantree.com shopify 18/02/2024 2 années":
+              - img "avantree.com"
+              - img "HK"
+              - paragraph: Voir les analyses du shop
+              - paragraph: Avantree
+              - button:
+              - link "avantree.com":
+                - /url: https://avantree.com
+              - img "shopify"
+              - generic: 18/02/2024
+              - generic: 2 années
+            - cell "Oasis Plus USB Power Adapter Audikast 3 349":
+              - img "Oasis Plus"
+              - img "USB Power Adapter"
+              - img "Audikast 3"
+              - generic: "349"
+            - cell "Électronique grand public Pathologies":
+              - generic: Électronique grand public
+              - generic: Pathologies
+            - cell "170K US DE CA":
+              - generic: 170K
+              - button "US DE CA":
+                - img "US"
+                - img "DE"
+                - img "CA"
+              - application
+            - cell "0 HK":
+              - generic: "0"
+              - img "HK"
+            - cell "Aucune ad":
+              - generic: Aucune ad
+          - row "havantreeonline.live Voir les analyses du shop Personal Banking Accounts havantreeonline.live shopify Autres 0 US 0 Aucune ad":
+            - cell "havantreeonline.live Voir les analyses du shop Personal Banking Accounts havantreeonline.live shopify":
+              - img "havantreeonline.live"
+              - paragraph: Voir les analyses du shop
+              - paragraph: Personal Banking Accounts
+              - button:
+              - link "havantreeonline.live":
+                - /url: https://havantreeonline.live
+              - img "shopify"
+            - cell
+            - cell "Autres":
+              - generic: Autres
+            - cell "0 US":
+              - generic: "0"
+              - img "US"
+              - application
+            - cell "0":
+              - generic: "0"
+            - cell "Aucune ad":
+              - generic: Aucune ad
+          - row "care.avantree.com HK Voir les analyses du shop Avantree Care care.avantree.com shopify 22/05/2026 3 mois RMA-AS50Q RMA-Duet-Extra RMA-Repose 283 Autres 0 HK 0 HK Aucune ad":
+            - cell "care.avantree.com HK Voir les analyses du shop Avantree Care care.avantree.com shopify 22/05/2026 3 mois":
+              - img "care.avantree.com"
+              - img "HK"
+              - paragraph: Voir les analyses du shop
+              - paragraph: Avantree Care
+              - button:
+              - link "care.avantree.com":
+                - /url: https://care.avantree.com
+              - img "shopify"
+              - generic: 22/05/2026
+              - generic: 3 mois
+            - cell "RMA-AS50Q RMA-Duet-Extra RMA-Repose 283":
+              - img "RMA-AS50Q"
+              - img "RMA-Duet-Extra"
+              - img "RMA-Repose"
+              - generic: "283"
+            - cell "Autres":
+              - generic: Autres
+            - cell "0 HK":
+              - generic: "0"
+              - img "HK"
+              - application
+            - cell "0 HK":
+              - generic: "0"
+              - img "HK"
+            - cell "Aucune ad":
+              - generic: Aucune ad
+    - button "HAUT DE PAGE":
+      - generic: HAUT DE PAGE
+- region "Notifications alt+T"
+- alert
+- region "Notifications (F8)":
+  - list
+- iframe [id="intercom-frame"]
+- button "Open Intercom Messenger":
+- document

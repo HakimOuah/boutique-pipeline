@@ -1,0 +1,468 @@
+2026-09-03T13:49:29.819Z
+- link "Trendtrack logo":
+  - /url: /workspace/WORKSPACE/home
+  - img "Trendtrack logo"
+- button "Basculer la barre latérale":
+  - generic: Afficher/Masquer la barre latérale
+- generic: Vue d'ensemble
+- list:
+  - link "Home":
+    - /url: /fr/workspace/WORKSPACE/home
+    - generic: Home
+  - link "Brandtracker":
+    - /url: /fr/workspace/WORKSPACE/brandtracker
+    - generic: Brandtracker
+- generic: Analyses
+- list:
+  - link "Shops":
+    - /url: /fr/workspace/WORKSPACE/shops
+    - generic: Shops
+  - link "Ads":
+    - /url: /fr/workspace/WORKSPACE/ads
+    - generic: Ads
+  - link "Advertisers":
+    - /url: /fr/workspace/WORKSPACE/pages
+    - generic: Advertisers
+  - link "Emails":
+    - /url: /fr/workspace/WORKSPACE/emails
+    - generic: Emails
+  - link "Trends Soon":
+    - /url: /fr/workspace/WORKSPACE/trends
+    - generic: Trends
+    - generic: Soon
+- button "Favoris" [expanded]:
+  - generic: Favoris
+- list:
+  - button "Ads":
+    - generic: Ads
+  - button "Emails":
+    - generic: Emails
+  - button "Shops":
+    - generic: Shops
+- button "Équipe" [expanded]:
+  - generic: Équipe
+- list:
+  - button "Ads partagées":
+    - generic: Ads partagées
+  - button "Emails partagés":
+    - generic: Emails partagés
+  - button "Shops partagés":
+    - generic: Shops partagés
+- paragraph: Trouvez toutes les Ads gagnantes pour 15% de moins.
+- button:
+- paragraph: Économisez €160/an en passant au trimestriel.
+- button "Passer au plan trimestriel"
+- button "Notifications 1":
+  - generic: Notifications
+  - generic: "1"
+- button "Ouvrir le menu utilisateur":
+  - img "Hakim Ouahabi"
+  - generic: Hakim Ouahabi
+  - generic: [compte]
+- main:
+  - main:
+    - paragraph: Ads
+    - tablist:
+      - tab "Meta":
+        - generic: Meta
+      - tab "Tiktok":
+        - generic: Tiktok
+      - tab "Google" [selected]:
+        - generic: Google
+    - generic: "19"
+    - button "casque. Click to exclude.":
+      - generic: +
+      - generic: casque
+      - button "Remove casque":
+    - textbox "Utilisez -motclé pour l'exclure. Tapez \\-motclé pour rechercher un tiret initial littéral.":
+      - /placeholder: Ajoute un mot-clé ou appuie sur Entrée pour rechercher...
+    - button:
+    - button "Watch Tutorial":
+    - tablist:
+      - button "📺 Toutes les Ads":
+        - generic: 📺
+        - generic: Toutes les Ads
+      - button "Open actions for Toutes les Ads":
+      - button "Gérer":
+        - text: Gérer
+    - generic: "Filtrer par :"
+    - button "Google Ads" [pressed]:
+      - generic: Google Ads
+    - button "EU/UK":
+      - generic: EU/UK
+    - button "Shop":
+      - generic: Shop
+    - button "Collapse filters" [expanded]:
+    - button "Statut":
+      - generic: Statut
+    - button "Date de publication":
+      - generic: Date de publication
+    - button "Actives depuis":
+      - generic: Actives depuis
+    - button "Type de plateforme":
+      - generic: Type de plateforme
+    - button "Format":
+      - generic: Format
+    - button "Niche":
+      - generic: Niche
+    - button "Pays ciblé":
+      - generic: Pays ciblé
+    - button "Plus longtemps actives":
+      - generic: Le plus récent
+    - generic: Search
+    - button "Effacer le filtre de plateforme":
+    - generic: France (among)
+    - button:
+    - button "Sauvegarder comme nouvelle vue":
+      - generic: Sauvegarder comme nouvelle vue
+    - button "Annuler":
+      - generic: Annuler
+    - button "Gérer la vue des ads":
+    - button:
+    - tabpanel:
+      - img "EU/UK"
+      - generic: 3K-4K
+      - generic: Image
+      - generic: Search
+      - img "FR"
+      - generic: 201d
+      - generic: Dec 7, 2025 → Jan 18, 2026
+      - img "ELMO"
+      - generic: ELMO
+      - img "Google"
+      - generic: 15 pubs
+      - button:
+      - img "ELMO"
+      - button "Sauvegarder":
+        - generic: Sauvegarder
+      - button "Détails":
+        - generic: Détails
+      - img "EU/UK"
+      - generic: 4K-5K
+      - generic: Image
+      - generic: Search
+      - img "FR"
+      - generic: 287d
+      - generic: Sep 12 → Nov 6, 2025
+      - img "ELMO"
+      - generic: ELMO
+      - img "Google"
+      - generic: 15 pubs
+      - button:
+      - img "ELMO"
+      - button "Sauvegarder":
+        - generic: Sauvegarder
+      - button "Détails":
+        - generic: Détails
+      - img "EU/UK"
+      - generic: 2K-3K
+      - generic: Image
+      - generic: Search
+      - img "FR"
+      - generic: 335d
+      - generic: Jul 26 → Aug 24, 2025
+      - img "ELMO"
+      - generic: ELMO
+      - img "Google"
+      - generic: 15 pubs
+      - button:
+      - img "ELMO"
+      - button "Sauvegarder":
+        - generic: Sauvegarder
+      - button "Détails":
+        - generic: Détails
+      - img "EU/UK"
+      - generic: 2K-3K
+      - generic: Image
+      - generic: Search
+      - img "FR"
+      - generic: 225d
+      - generic: Nov 13 → Dec 5, 2025
+      - img "ELMO"
+      - generic: ELMO
+      - img "Google"
+      - generic: 15 pubs
+      - button:
+      - img "ELMO"
+      - button "Sauvegarder":
+        - generic: Sauvegarder
+      - button "Détails":
+        - generic: Détails
+      - img "EU/UK"
+      - generic: 9K-10K
+      - generic: Image
+      - generic: Search
+      - img "FR"
+      - generic: 133d
+      - generic: Feb 13 → Mar 7, 2026
+      - img "ELMO"
+      - generic: ELMO
+      - img "Google"
+      - generic: 15 pubs
+      - button:
+      - img "ELMO"
+      - button "Sauvegarder":
+        - generic: Sauvegarder
+      - button "Détails":
+        - generic: Détails
+      - img "EU/UK"
+      - generic: 6K-7K
+      - generic: Image
+      - generic: Search
+      - img "FR"
+      - generic: 141d
+      - generic: Feb 5 → Feb 13, 2026
+      - img "ELMO"
+      - generic: ELMO
+      - img "Google"
+      - generic: 15 pubs
+      - button:
+      - img "ELMO"
+      - button "Sauvegarder":
+        - generic: Sauvegarder
+      - button "Détails":
+        - generic: Détails
+      - img "EU/UK"
+      - generic: 10K-15K
+      - generic: Image
+      - generic: Search
+      - img "FR"
+      - generic: 384d
+      - generic: Jun 7 → Sep 7, 2025
+      - img "ELMO"
+      - generic: ELMO
+      - img "Google"
+      - generic: 15 pubs
+      - button:
+      - img "ELMO"
+      - button "Sauvegarder":
+        - generic: Sauvegarder
+      - button "Détails":
+        - generic: Détails
+      - img "EU/UK"
+      - generic: 3K-4K
+      - generic: Image
+      - generic: Search
+      - img "FR"
+      - generic: 619d
+      - generic: Oct 15, 2024 → Sep 4, 2025
+      - img "ELMO"
+      - generic: ELMO
+      - img "Google"
+      - generic: 15 pubs
+      - button:
+      - img "ELMO"
+      - button "Sauvegarder":
+        - generic: Sauvegarder
+      - button "Détails":
+        - generic: Détails
+      - img "EU/UK"
+      - generic: 3K-4K
+      - generic: Image
+      - generic: Search
+      - img "FR"
+      - generic: 939d
+      - generic: Nov 30, 2023 → Sep 4, 2025
+      - img "ELMO"
+      - generic: ELMO
+      - img "Google"
+      - generic: 15 pubs
+      - button:
+      - img "ELMO"
+      - button "Sauvegarder":
+        - generic: Sauvegarder
+      - button "Détails":
+        - generic: Détails
+      - img "EU/UK"
+      - generic: 1K-2K
+      - generic: Texte
+      - generic: Search
+      - img "FR"
+      - generic: 169d
+      - generic: Jan 8 → Feb 3, 2026
+      - img "ELMO"
+      - generic: ELMO
+      - img "Google"
+      - generic: 15 pubs
+      - button:
+      - img "ELMO"
+      - button "Sauvegarder":
+        - generic: Sauvegarder
+      - button "Détails":
+        - generic: Détails
+      - img "EU/UK"
+      - generic: 2K-3K
+      - generic: Texte
+      - generic: Search
+      - img "FR"
+      - generic: 774d
+      - generic: Jul 15, 2024 → now
+      - img "ELMO"
+      - generic: ELMO
+      - img "Google"
+      - generic: 15 pubs
+      - button:
+      - img "ELMO"
+      - button "Sauvegarder":
+        - generic: Sauvegarder
+      - button "Détails" [active]:
+        - generic: Détails
+      - img "EU/UK"
+      - generic: 10K-15K
+      - generic: Texte
+      - generic: Search
+      - img "FR"
+      - img "BE"
+      - img "LU"
+      - generic: 928d
+      - generic: Dec 11, 2023 → Sep 4, 2025
+      - img "ELMO"
+      - generic: ELMO
+      - img "Google"
+      - generic: 15 pubs
+      - button:
+      - img "ELMO"
+      - button "Sauvegarder":
+        - generic: Sauvegarder
+      - button "Détails":
+        - generic: Détails
+      - img "EU/UK"
+      - generic: 50K-60K
+      - generic: Image
+      - generic: Search
+      - img "FR"
+      - img "BE"
+      - img "ES"
+      - generic: "+1"
+      - generic: 874d
+      - generic: Feb 3, 2024 → Dec 20, 2025
+      - img "ELMO"
+      - generic: ELMO
+      - img "Google"
+      - generic: 15 pubs
+      - button:
+      - img "ELMO"
+      - button "Sauvegarder":
+        - generic: Sauvegarder
+      - button "Détails":
+        - generic: Détails
+      - img "EU/UK"
+      - generic: 80K-90K
+      - generic: Image
+      - generic: Search
+      - img "FR"
+      - img "BE"
+      - img "ES"
+      - generic: "+1"
+      - generic: 1225d
+      - generic: Feb 17, 2023 → Sep 4, 2025
+      - img "ELMO"
+      - generic: ELMO
+      - img "Google"
+      - generic: 15 pubs
+      - button:
+      - img "ELMO"
+      - button "Sauvegarder":
+        - generic: Sauvegarder
+      - button "Détails":
+        - generic: Détails
+      - img "EU/UK"
+      - generic: 175K-200K
+      - generic: Image
+      - generic: Search
+      - img "FR"
+      - img "BE"
+      - img "DE"
+      - generic: "+2"
+      - generic: 1393d
+      - generic: Nov 4, 2022 → now
+      - img "ELMO"
+      - generic: ELMO
+      - img "Google"
+      - generic: 15 pubs
+      - button:
+      - img "ELMO"
+      - button "Sauvegarder":
+        - generic: Sauvegarder
+      - button "Détails":
+        - generic: Détails
+      - img "EU/UK"
+      - generic: 7K-8K
+      - generic: Texte
+      - generic: Search
+      - img "FR"
+      - img "BE"
+      - generic: 693d
+      - generic: Sep 10, 2024 → May 6, 2026
+      - img "EcomPrestige"
+      - generic: EcomPrestige
+      - img "Google"
+      - generic: 0 pubs
+      - button:
+      - img "EcomPrestige"
+      - button "Sauvegarder":
+        - generic: Sauvegarder
+      - button "Détails":
+        - generic: Détails
+- region "Notifications alt+T"
+- region "Notifications (F8)":
+  - list
+- alert
+- document
+- iframe [id="intercom-frame"]
+- button "Open Intercom Messenger":
+- dialog "Ad details":
+  - heading "Ad details" [level=2]
+  - paragraph: Ad details
+  - heading "ELMO" [level=2]
+  - button "Fermer le panneau":
+  - button "Publicité précédente":
+  - generic: 11/16
+  - button "Publicité suivante":
+  - img "Google"
+  - generic: Google
+  - generic: Search
+  - button "Ouvrir sur Google Ads Transparency":
+    - img "Google"
+  - button "Partager":
+  - button "Télécharger":
+  - button "Ajouter aux favoris":
+  - button "Voir Google Ads Transparency":
+    - generic: Voir Google Ads Transparency
+  - img "ELMO"
+  - generic: ELMO
+  - img "Google"
+  - generic: 15 pubs
+  - img "ELMO"
+  - button "Dézoomer":
+  - generic: 100%
+  - button "Zoomer":
+  - tablist:
+    - tab "Ads Details" [selected]
+    - tab "Shop Details"
+    - tab "Boards"
+  - tabpanel "Ads Details":
+    - paragraph: Signaux de performance
+    - generic: Statut
+    - generic: En cours
+    - generic: Durée de diffusion
+    - generic: 774 jours
+    - generic: Période active
+    - generic: 15 juil. 2024 → Aujourd'hui
+    - generic: Reach
+    - img "EU"
+    - generic: 2K-3K
+    - generic: Plateforme principale
+    - text: Search
+    - generic: Première apparition
+    - generic: 15 juil. 2024
+    - paragraph: Distribution
+    - paragraph: Pays ciblé
+    - img "FR"
+    - generic: France
+    - paragraph: Répartition par plateforme
+    - button "Où cette publicité est diffusée sur les réseaux Google (Search, Shopping, YouTube, Maps…), en part de sa portée.":
+    - generic: YouTube
+    - generic: 83.3%
+    - generic: Display
+    - generic: 16.7%

@@ -1,0 +1,168 @@
+2026-09-03T13:35:51.328Z
+- link "Trendtrack logo":
+  - /url: /workspace/WORKSPACE/home
+  - img "Trendtrack logo"
+- button "Basculer la barre latérale":
+  - generic: Afficher/Masquer la barre latérale
+- generic: Vue d'ensemble
+- list:
+  - link "Home":
+    - /url: /fr/workspace/WORKSPACE/home
+    - generic: Home
+  - link "Brandtracker":
+    - /url: /fr/workspace/WORKSPACE/brandtracker
+    - generic: Brandtracker
+- generic: Analyses
+- list:
+  - link "Shops":
+    - /url: /fr/workspace/WORKSPACE/shops
+    - generic: Shops
+  - link "Ads":
+    - /url: /fr/workspace/WORKSPACE/ads
+    - generic: Ads
+  - link "Advertisers":
+    - /url: /fr/workspace/WORKSPACE/pages
+    - generic: Advertisers
+  - link "Emails":
+    - /url: /fr/workspace/WORKSPACE/emails
+    - generic: Emails
+  - link "Trends Soon":
+    - /url: /fr/workspace/WORKSPACE/trends
+    - generic: Trends
+    - generic: Soon
+- button "Favoris" [expanded]:
+  - generic: Favoris
+- list:
+  - button "Ads":
+    - generic: Ads
+  - button "Emails":
+    - generic: Emails
+  - button "Shops":
+    - generic: Shops
+- button "Équipe" [expanded]:
+  - generic: Équipe
+- list:
+  - button "Ads partagées":
+    - generic: Ads partagées
+  - button "Emails partagés":
+    - generic: Emails partagés
+  - button "Shops partagés":
+    - generic: Shops partagés
+- paragraph: Trouvez toutes les Ads gagnantes pour 15% de moins.
+- button:
+- paragraph: Économisez €160/an en passant au trimestriel.
+- button "Passer au plan trimestriel"
+- button "Notifications":
+  - generic: Notifications
+- button "Ouvrir le menu utilisateur":
+  - img "Hakim Ouahabi"
+  - generic: Hakim Ouahabi
+  - generic: [compte]
+- main:
+  - main:
+    - paragraph: Shops
+    - generic: "0"
+    - textbox "Utilisez -mot-clé pour l'exclure. Tapez \\-mot-clé pour rechercher un tiret initial littéral.":
+      - /placeholder: Rechercher des shops, mots-clés...
+    - button:
+    - button:
+    - button:
+    - button "Watch Tutorial":
+    - tablist:
+      - button "🌎 Tous les shops":
+        - generic: 🌎
+        - generic: Tous les shops
+      - button "Open actions for Tous les shops":
+      - button "💎 Weekly Gems":
+        - generic: 💎
+        - generic: Weekly Gems
+      - button "Open actions for Weekly Gems":
+      - button "📈 Top Scaling":
+        - generic: 📈
+        - generic: Top Scaling
+      - button "💼 Market Leaders & DTC Brands":
+        - generic: 💼
+        - generic: Market Leaders & DTC Brands
+      - button "Open actions for Market Leaders & DTC Brands":
+      - button "🔥 Record d'ads du shop":
+        - generic: 🔥
+        - generic: Record d'ads du shop
+      - button "Open actions for Record d'ads du shop":
+      - button "🚀 Record de trafic du shop":
+        - generic: 🚀
+        - generic: Record de trafic du shop
+      - button "Open actions for Record de trafic du shop":
+      - button "Scaling shopping":
+        - generic: Scaling shopping
+      - button "Open actions for Scaling shopping":
+      - button "Shopping FR" [active]:
+        - generic: Shopping FR
+      - button "Open actions for Shopping FR":
+      - button "Gérer":
+        - text: Gérer
+    - generic: "Filtrer par :"
+    - button "Shops" [pressed]:
+      - generic: Shops
+    - button "Ads":
+      - generic: Ads
+    - button "Collapse filters" [expanded]:
+    - button "Trafic":
+      - generic: Trafic
+    - button "Croissance du trafic":
+      - generic: Croissance du trafic
+    - button "Produits":
+      - generic: Produits
+    - button "Origine shop":
+      - generic: Origine shop
+    - button "Pays visiteurs":
+      - generic: Pays visiteurs
+    - button "Niche":
+      - generic: Niche
+    - button "Date de création":
+      - generic: Date de création
+    - button "Vu":
+      - generic: Vu
+    - button "Brandtracker":
+      - generic: Brandtracker
+    - button "Langue":
+      - generic: Langue
+    - button "Devise":
+      - generic: Devise
+    - button "Thème Shopify":
+      - generic: Thème Shopify
+    - button "Application Shopify":
+      - generic: Application Shopify
+    - button "Pixels":
+      - generic: Pixels
+    - button "Réseaux sociaux":
+      - generic: Réseaux sociaux
+    - button "Plan Shopify":
+      - generic: Plan Shopify
+    - button "Trustpilot":
+      - generic: Trustpilot
+    - button "Les plus pertinents":
+      - generic: Les plus pertinents
+    - generic: "Min: 5k"
+    - button:
+    - generic: "Min: 200"
+    - button:
+    - generic: "Princ.: France"
+    - button:
+    - generic: "Inc: Simprosys Google Shopping Feed"
+    - button:
+    - button "Sauvegarder comme vue":
+      - generic: Sauvegarder comme vue
+    - button:
+    - button "Annuler":
+    - button:
+    - tabpanel:
+      - generic: Aucun shop trouvé pour ces filtres
+    - button "HAUT DE PAGE":
+      - generic: HAUT DE PAGE
+- region "Notifications alt+T"
+- alert: Trendtrack | Shops
+- region "Notifications (F8)":
+  - list
+- iframe [id="intercom-frame"]
+- document
+- button "Open Intercom Messenger":
