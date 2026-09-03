@@ -1,9 +1,9 @@
 # Tuftéo — état courant
 
-**Dernière mise à jour : 02/09/2026** — **première commande** (#1001, 44,90 €,
-toile primaire 1,5 × 4 m). Paiement abouti. Mapping DSers Urban Corners **fait**
-le soir même.
-[`journal/2026-09-02-premiere-commande.md`](journal/2026-09-02-premiere-commande.md).
+**Dernière mise à jour : 03/09/2026** — copie thème **preview branding**
+(`190113350017`, UNPUBLISHED) : Trustpilot / avis démo / prix barrés simulés
+à regarder, **pas à publier**. MAIN inchangé.
+[`journal/2026-09-03-preview-branding.md`](journal/2026-09-03-preview-branding.md).
 
 ---
 

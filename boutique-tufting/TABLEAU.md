@@ -17,7 +17,8 @@ désormais dans `journal/`.
    les suspensions arrivent après l'approbation, surtout les 30 premiers jours de dépense.
 2. **Le thème P0 est MAIN** (`189437772161`). T-05/T-06/T-08/T-19/T-20 sont live.
    **#1001 le 02/09** (44,90 €, toile 1,5 × 4 m) : paiement abouti, mapping UC
-   fait le soir même — [`journal/2026-09-02-premiere-commande.md`](journal/2026-09-02-premiere-commande.md).
+   fait le soir même. Copie preview branding `190113350017` **non publiée** —
+   [`journal/2026-09-03-preview-branding.md`](journal/2026-09-03-preview-branding.md).
 3. **L'identité est partagée avec les boutiques sœurs.** Pas de hausse de budget
    avant le 09/09, et seulement si T-18 tient.
 
