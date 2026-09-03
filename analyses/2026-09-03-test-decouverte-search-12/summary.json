@@ -1,0 +1,28 @@
+{
+  "collected_candidates": 12,
+  "source_counts": {
+    "A": 6,
+    "B": 6
+  },
+  "decisions": {
+    "REVIEW_PREQUALIFICATION": 7,
+    "STOP_PREQUALIFICATION": 5
+  },
+  "cost_usd_by_route": {
+    "A": 0.82064,
+    "B": 1.39964
+  },
+  "total_cost_usd": 2.22028,
+  "cost_per_documented_idea": {
+    "A": 0.136773,
+    "B": 0.233273
+  },
+  "priority_followup": [
+    "B1",
+    "A6",
+    "B2"
+  ],
+  "gate_or_production_changes": false,
+  "sampling_note": "Choix humain; A1-A6 issus des vues Weekly Gems / Top Scaling après vues Shopping vides. B un besoin retenu par seed. Aucun test de rentabilité réelle.",
+  "priority_note": "B1 format précis; A6 kit à 99 € et non rasoir seul à 69 €; B2 seulement si panier/coût viable."
+}

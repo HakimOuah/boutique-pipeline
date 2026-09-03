@@ -1,0 +1,85 @@
+{
+  "frozen_at_utc": "2026-09-03T11:46:44.999462+00:00",
+  "before_any_volume_measurement": true,
+  "A": [
+    {
+      "id": "A1",
+      "idea": "Antivol vélo pliant compact",
+      "source_domain": "aventon.de",
+      "view": "Weekly Gems",
+      "observed_product": "ABUS BORDO GRANIT 6500K; BORDO 6000K; BORDO 6200K",
+      "discovery_seed": "antivol velo"
+    },
+    {
+      "id": "A2",
+      "idea": "Appareil photo numérique de poche au rendu rétro",
+      "source_domain": "finchholm.com",
+      "view": "Weekly Gems",
+      "observed_product": "Pikko - Retro Camera",
+      "discovery_seed": "appareil photo"
+    },
+    {
+      "id": "A3",
+      "idea": "Oreiller de corps pour dormir sur le côté",
+      "source_domain": "pilloway.com.au",
+      "view": "Weekly Gems",
+      "observed_product": "Snuggi Body Align Pillow",
+      "discovery_seed": "oreiller"
+    },
+    {
+      "id": "A4",
+      "idea": "Répulsif électronique pour pigeons au balcon",
+      "source_domain": "bugo.co.il",
+      "view": "Weekly Gems",
+      "observed_product": "Bugo Birds",
+      "discovery_seed": "repulsif pigeon"
+    },
+    {
+      "id": "A5",
+      "idea": "Liseuse électronique de poche sans distraction",
+      "source_domain": "xteink.com",
+      "view": "Top Scaling",
+      "observed_product": "Xteink X4 Pocket eReader; X3",
+      "discovery_seed": "liseuse"
+    },
+    {
+      "id": "A6",
+      "idea": "Rasoir de sûreté réutilisable avec guide débutant",
+      "source_domain": "lelamier.com",
+      "view": "Top Scaling",
+      "observed_product": "Lamier ALZ-PREMIUM",
+      "discovery_seed": "rasoir de surete"
+    }
+  ],
+  "B_core_discovery_seeds": [
+    "linge",
+    "velo",
+    "fenetre",
+    "gouttiere",
+    "poils",
+    "repassage"
+  ],
+  "B_selection_note": "Explorer les requêtes problème, usage, contrainte; mapper un produit après lecture des réponses. Seeds thématiques, pas une découverte sans a priori. Écarter doublons du registre.",
+  "excluded_before_freeze": [
+    {
+      "idea": "Harnais anti-traction",
+      "reason": "Doublon registre chien balade/transport"
+    },
+    {
+      "idea": "Poêle titane",
+      "reason": "Doublon STOP titane/sans-PFAS"
+    },
+    {
+      "idea": "Clavier mécanique compact",
+      "reason": "Doublon clavier mécanique custom / 75 %"
+    },
+    {
+      "idea": "Ring connecté",
+      "reason": "Doublon et allégations santé"
+    },
+    {
+      "idea": "Compléments, cosmétiques, textile sculptant, produits numériques",
+      "reason": "Hors périmètre retenu pour ce test produit physique B2C"
+    }
+  ]
+}

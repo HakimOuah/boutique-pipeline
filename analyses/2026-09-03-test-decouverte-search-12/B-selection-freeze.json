@@ -1,0 +1,49 @@
+{
+  "frozen_at_utc": "2026-09-03T11:49:00.288459+00:00",
+  "after_discovery_before_targeted_measurement": true,
+  "selection_note": "Une piste par seed, première contrainte commerciale pertinente retenue après exclusions hors sujet. Ce choix humain contient un biais de jugement; aucun tirage aléatoire. Prix et économie encore non confirmés.",
+  "B": [
+    {
+      "id": "B1",
+      "idea": "Étendoir mural rabattable pour petit logement",
+      "observed_query": "étendoir linge mural",
+      "labs_volume": 3600,
+      "targeted_seed": "etendoir"
+    },
+    {
+      "id": "B2",
+      "idea": "Support vélo mural pivotant pour gagner de la place",
+      "observed_query": "support a velo mural",
+      "labs_volume": 4400,
+      "targeted_seed": "support velo"
+    },
+    {
+      "id": "B3",
+      "idea": "Moustiquaire de fenêtre sans perçage pour locataire",
+      "observed_query": "moustiquaire fenetre sans percage",
+      "labs_volume": 6600,
+      "targeted_seed": "moustiquaire"
+    },
+    {
+      "id": "B4",
+      "idea": "Kit perche de nettoyage des gouttières depuis le sol",
+      "observed_query": "nettoyer gouttiere sans echelle",
+      "labs_volume": 320,
+      "targeted_seed": "nettoyage gouttiere"
+    },
+    {
+      "id": "B5",
+      "idea": "Gant réutilisable pour retirer les poils des textiles",
+      "observed_query": "gant anti poils",
+      "labs_volume": 4400,
+      "targeted_seed": "gant anti poils"
+    },
+    {
+      "id": "B6",
+      "idea": "Mannequin de repassage automatique pour chemises",
+      "observed_query": "repassage automatique",
+      "labs_volume": 1900,
+      "targeted_seed": "mannequin repassage"
+    }
+  ]
+}

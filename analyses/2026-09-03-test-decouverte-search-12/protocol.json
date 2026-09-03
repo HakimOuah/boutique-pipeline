@@ -1,0 +1,61 @@
+{
+  "created_at_utc": "2026-09-03T11:38:22.615899+00:00",
+  "repository_head": "e5087a291b5a7818a4912ac21a32276a8de546de",
+  "purpose": "Prospective discovery comparison before implementation",
+  "mode": "PRODUIT_PUR",
+  "routes": {
+    "A": {
+      "source": "TrendTrack live UI",
+      "target_new_ideas": 6
+    },
+    "B": {
+      "source": "DataForSEO problem/constraint mining",
+      "target_new_ideas": 6
+    }
+  },
+  "limits_per_route": {
+    "paid_dataforseo_usd": 5,
+    "active_research_minutes": 40,
+    "max_candidates": 6,
+    "max_core_labs_seeds": 6,
+    "max_additional_targeted_labs_seeds": 6
+  },
+  "limits_total": {
+    "paid_dataforseo_usd": 10
+  },
+  "shared_call_cost_assignment": "split equally when both routes benefit; route-specific calls charged to their route; all witnesses included",
+  "unchanged_gates": {
+    "pur_reference_monthly": 12500,
+    "borderline_monthly": [
+      10000,
+      15000
+    ],
+    "selling_price_eur": [
+      50,
+      400
+    ]
+  },
+  "selection_rule": "First six distinct relevant B2C opportunities with traceable route evidence, not already registered; freeze A before volume measurement; freeze B after discovery but before qualification. Record exclusions and any cross-route duplicate. No replacement of candidates after a disappointing measurement. No quota of PASS. If six cannot be found inside the cap, report missing slots rather than relabel another source.",
+  "routing_limit": "The routes have different information at entry. This is a small operational comparison, not a causal or blinded experiment.",
+  "depth_rule": "Measure cluster and price first; early stop for a reliably insufficient measured scope. Missing scope or conflicting evidence => REVIEW_PREQUALIFICATION. No supplier deep research without PASS. No samples, Ads or GMC actions.",
+  "outputs": [
+    "source evidence and provenance",
+    "six ideas per route where possible",
+    "need and offer hypothesis",
+    "addressable cluster with exclusions and uncertainty",
+    "price and economic unknowns",
+    "differentiation hypothesis",
+    "prequalification or explicit unmeasured slot",
+    "cost and active effort",
+    "review of a few STOPs with first verdict hidden from local second-pass worksheet"
+  ],
+  "evaluation": [
+    "distinct needs, not superficial variants",
+    "documented commercial offers",
+    "dossiers with evidence sufficient for next action",
+    "reasons for rejection",
+    "cost per usable dossier",
+    "uncertainty and constraints"
+  ],
+  "candidate_data_note": "No new production schemas, scoring weights or threshold changes; experiment artifacts only."
+}
