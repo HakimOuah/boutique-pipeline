@@ -10,18 +10,18 @@ Règles d'usage :
 - Le registre pointe vers les rapports ; il ne remplace jamais leur détail ni leurs réserves.
 - Niveaux de validation : 1 = marché, 2 = fiche AliExpress, 3 = commande test, 4 = GO lancement. Aucun raccourci entre niveaux.
 
-Dernière mise à jour : 3 septembre 2026 — **univers poufs : Trends 5 ans + sourcing AE**. Poire en baisse 2021→2026, fauteuil pouf en hausse. Rempli CN 59,38 € / 30–35 j ; housse 24 € / 7–10 j ; SONGMICS FR 37 € / 2–7 j. Plancher sourçabilité non tenu. `REVIEW` inchangé. Avant dans la journée : portefeuilles sourcing.
+Dernière mise à jour : 3 septembre 2026 — **portefeuilles : PDP Chrome**. Homme confirmé (CONTACTS 16,50 €, 4,8/411). Femme CONTACT’S 14,69 / 21,39 €, un seul atelier. Sterre stock PDP 5. Poufs : Trends + sourcing plus tôt dans la journée.
 
 ## Univers portefeuilles — 02–03/09/2026 — analyse + sourcing
 
 Origine : capture SEMrush de Hakim (860 180, KD 19 %). Mode `UNIVERS`. Mesure DataForSEO France, familles figées avant le premier appel. Dossier : [catalogues/portefeuilles/](catalogues/portefeuilles/).
 Sourcing 03/09 sur instruction explicite (« Ok pour sourcing ») malgré le REVIEW — due diligence, pas un pass rétroactif.
 
-> **Nature de l'étape :** étapes 1–8 + phase 4. `GO_FINAL` interdit. Plancher sourçabilité UNIVERS : homme et porte-cartes tiennent (≥ 2 fiches) ; femme non.
+> **Nature de l'étape :** étapes 1–8 + phase 4 + PDP Chrome. `GO_FINAL` interdit. Plancher sourçabilité UNIVERS : homme tient ; femme a des fiches CONTACT’S, pas deux ateliers.
 
 | Idée | Statut au 03/09 | Volume DataForSEO | Sonde / comparable | AliExpress | Réserves |
 |---|---|---|---|---|---|
-| **Univers portefeuilles** (synonymes : portefeuille homme/femme, porte-cartes, porte-monnaie, compagnon, protège-passeport) | **`REVIEW_PREQUALIFICATION`** — volume OK, Ads et différenciation faibles ; femme non sourcée | Plancher net **169 960** (8 familles). Têtes : homme 60 500, femme 40 500, porte-cartes 40 500, porte-monnaie 22 200. SEMrush 860 k = vêtements + marques, pas le marché | `DANS LA TRANCHE`. Cœur 20–100 €, comparable catalogue **35–55 €**. Position 49 € homme → ratio / CPC ≈ **70** (sous 100) | Homme : CONTACTS `32214351549` **16,69 €** 8–15 j ; MUNUKI `32802419144` **23,19 €** 8–16 j ; Sterre 10,98 €. Porte-cartes 6 fentes = même Sterre. Compact / monnaie : RideCraft 11,18 €. **Femme : aucune offre** | Page 1 = marques FR. Pas d’axe « personne d’autre ». API AE aveugle (PU 2,50 €). PDP non relues (B). Trends 5 ans manquant |
+| **Univers portefeuilles** (synonymes : portefeuille homme/femme, porte-cartes, porte-monnaie, compagnon, protège-passeport) | **`REVIEW_PREQUALIFICATION`** — volume OK, Ads et différenciation faibles ; femme sourcée chez CONTACT’S seulement | Plancher net **169 960** (8 familles). Têtes : homme 60 500, femme 40 500, porte-cartes 40 500, porte-monnaie 22 200. SEMrush 860 k = vêtements + marques, pas le marché | `DANS LA TRANCHE`. Cœur 20–100 €, comparable catalogue **35–55 €**. Position 49 € homme → ratio / CPC ≈ **70** (sous 100) | Homme Chrome : CONTACTS **16,50 €** 4,8/411 avis, 11–17 sept. MUNUKI 23,19 €. Sterre stock PDP **5**. Femme : Wallets Store 14,69 € ; Engraving long 21,39 € (même atelier Baiyun) | Page 1 = marques FR. Pas d’axe « personne d’autre ». API AE aveugle ; Chrome ouvre les PDP. Trends 5 ans manquant |
 
 ## Univers poufs (preuve Big Bertha Original) — 03/09/2026 — Mission B
 

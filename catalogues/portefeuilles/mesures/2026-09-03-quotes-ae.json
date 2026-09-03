@@ -125,5 +125,69 @@
       "ventes_api": "3000+",
       "statut": "rejet — PU + aluminium, pas le trou cuir"
     }
-  ]
+  ],
+  "chrome_2026-09-03": {
+    "observed_at": "2026-09-03T09:50:00+00:00",
+    "source": "Chrome session Hakim + quote_aliexpress_sku",
+    "confiance": "A sur PDP homme relues ; B+ sur femme (Chrome + devis, pas d'échantillon)",
+    "pdp_homme": [
+      {
+        "product_id": "32214351549",
+        "prix_pdp_eur": 16.5,
+        "livraison": "gratuit 11-17 sept",
+        "note_avis_vendus": "4.8 / 411 / 1000+",
+        "stock_pdp": 763,
+        "magasin_positifs": "97.8%"
+      },
+      {
+        "product_id": "32802419144",
+        "prix_pdp_eur": 23.19,
+        "livraison": "gratuit 11-18 sept",
+        "note_avis_vendus": "4.7 / 95 / 466",
+        "stock_pdp": 2364,
+        "magasin_positifs": "97.9%"
+      },
+      {
+        "product_id": "1005008472038344",
+        "prix_pdp_eur": 8.79,
+        "livraison": "Choice 9-15 sept",
+        "note_avis_vendus": "4.7 / 111 / 472",
+        "stock_pdp": 5,
+        "magasin_positifs": "95.9%",
+        "note": "stock PDP 5 vs API 992 la veille — rétrogradé OFFRE TROUVÉE"
+      }
+    ],
+    "quotes_femme": [
+      {
+        "product_id": "1005007698890202",
+        "sku_id": "12000041902112094",
+        "famille": "femme court",
+        "magasin": "CONTACTS Wallets Store",
+        "variante": "Gris / China Mainland",
+        "prix_eur": 14.69,
+        "fret_eur": 0,
+        "rendu_eur": 14.69,
+        "delai": "8-14",
+        "ligne": "CAINIAO_STANDARD",
+        "stock": 485,
+        "pdp": "14,23 € ; 4.7 / 34 avis / 153 vendus ; 95.7%",
+        "statut": "FOURNISSEUR À TESTER"
+      },
+      {
+        "product_id": "32805442782",
+        "sku_id": "12000045856186852",
+        "famille": "femme long / compagnon",
+        "magasin": "ContactS Engraving Store",
+        "variante": "Brun (libellé API) / China Mainland",
+        "prix_eur": 21.39,
+        "fret_eur": 0,
+        "rendu_eur": 21.39,
+        "delai": "8-14",
+        "ligne": "CAINIAO_STANDARD",
+        "stock": 1180,
+        "pdp": "21,17 € ; 4.7 / 93 avis / 354 vendus ; 94.8% ; SKU Bleu NO_SHIPPING API",
+        "statut": "FOURNISSEUR À TESTER"
+      }
+    ]
+  }
 }

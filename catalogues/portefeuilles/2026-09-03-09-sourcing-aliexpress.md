@@ -1,5 +1,7 @@
 # SOURCING — portefeuilles — 2026-09-03 01:00 CEST
 
+**Addendum Chrome 11:50 CEST :** PDP relues + femme trouvée — voir `2026-09-03-10-verification-chrome.md`. Sterre rétrogradé (stock PDP = 5). Femme CONTACT’S `FOURNISSEUR À TESTER`, un seul atelier.
+
 Instruction Hakim du 03/09 : « Ok pour sourcing ». Le dossier marché est en **REVIEW** (différenciation + ratio Ads), pas en `PASS_PREQUALIFICATION`. Ce rapport est une due diligence de sourçabilité. Aucun achat, aucun contact vendeur, aucun `GO fournisseur`, aucun commentaire de `GO_FINAL`.
 
 Prix, stocks et délais relevés via Product Factory `get_product_detail` + `quote_aliexpress_sku` vers la France, **02/09 22:59–23:00 UTC**. À reconfirmer au panier avant toute commande test. Preuve JSON : `mesures/2026-09-03-quotes-ae.json`.
