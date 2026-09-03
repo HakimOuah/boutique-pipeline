@@ -60,7 +60,7 @@ Conserver « Shopping FR » et « Scaling shopping » comme points de départ. A
 |---|---|---|
 | Google Search | Boutiques et annonces actives sur des besoins exprimables ; audience FR en priorité | Pays ciblé distinct du pays du vendeur ; annonce liée au produit et à sa landing page ; réseau cohérent |
 | Google Shopping | Produits mis en avant, nouveaux formats, collections révélant un problème concret | Un feed ou une app de feed ne prouve pas une diffusion Shopping ; un catalogue actif ne valide pas chaque référence |
-| Croissance des shops | Croissance récente avec un niveau de trafic estimé suffisamment informatif et une évolution des offres/annonces | Lire variation relative, variation absolue, base et période ; hausse du trafic ou des annonces distincte de bénéfice et de ventes |
+| Croissance des shops | Signal positif de poursuite ou d'intensification commerciale : prioriser les shops dont le trafic et/ou l'activité publicitaire progressent | Lire variation relative, variation absolue, base, période et persistance ; préciser le produit concerné et garder le budget réel et la rentabilité en hypothèse tant qu'ils ne sont pas observés |
 | Nouveautés et exploration latérale | Shops récemment détectés, produits récemment poussés, marchés étrangers, signaux Meta/TikTok | Première détection, création de boutique et âge du domaine distincts ; faible historique acceptable pour découvrir, demande FR à mesurer ensuite |
 
 La documentation officielle consultée le 03/09 confirme des tris/filtres sur les shops, leur croissance, leur trafic et leurs produits ([Shops](https://docs.trendtrack.io/en/docs/reference/api/shops)), ainsi qu'une bibliothèque Google avec réseau, pays ciblé, statut et dates ([Google Ads](https://docs.trendtrack.io/en/docs/reference/api/google-ads)). **Une capacité documentée de l'API ne garantit pas le même contrôle dans l'interface ni son accès sur notre abonnement.** Les observations de l'interface déjà réalisées sont dans [trendtrack-views.txt](trendtrack-views.txt). Aucun appel API TrendTrack effectué pour cette note ; les modalités d'accès canoniques restent applicables.
@@ -68,6 +68,20 @@ La documentation officielle consultée le 03/09 confirme des tris/filtres sur le
 Ne pas imposer partout une ancienneté minimale de 30 ou 60 jours : cela éliminerait précisément les entrants que l'on cherche à découvrir. Conserver aussi une lecture des annonceurs établis, dont l'historique est utile. Les nouveaux entrants peuvent inspirer rapidement ; ils ne reçoivent pas de bonus de validation parce qu'ils sont nouveaux.
 
 Pour diagnostiquer une vue vide, relever ses paramètres et modifier un filtre à la fois dans une vue de travail : pays d'audience, plancher de trafic, activité publicitaire, présence d'une app. Comparer le nombre de résultats et sauvegarder les observations. Les restrictions FR restent obligatoires pour la mesure de demande, même lorsque la découverte s'élargit à l'étranger. Ne pas prendre l'app Simprosys comme condition nécessaire pour découvrir une boutique Google.
+
+### Précision de Hakim — donner un poids positif à la croissance
+
+**Retour du 03/09 après cette proposition :** Hakim confirme l'inclusion des nouveaux shops et l'exploration ouverte. Il demande de traiter la hausse du trafic ou du nombre d'annonces comme un indice que l'opérateur engage du budget et a potentiellement dépassé une partie de son testing. L'hypothèse de travail est qu'un opérateur poursuit ses dépenses parce qu'il obtient des résultats qu'il juge suffisamment encourageants.
+
+**Conséquence pour la méthode proposée :** ce signal fait remonter le shop dans l'ordre d'examen. L'absence de comptes de résultat accessibles ne doit pas annuler sa valeur pour découvrir des offres. L'agent peut retenir une présomption de traction et de testing avancé, en la marquant `HYPOTHESE` ; il ne décrit pas le testing ou la rentabilité du concurrent comme validés.
+
+| Observation | Interprétation de travail | Action proposée |
+|---|---|---|
+| Hausse isolée de trafic ou d'annonces | Piste d'accélération à explorer | Ouvrir l'offre et relever période, base et source du signal |
+| Progression persistante, trafic et activité publicitaire concordants, même offre poussée | Présomption renforcée de traction et d'engagement commercial | Prioriser la mesure Google et l'examen du prix, du format et de la différenciation |
+| Shop récent, peu d'historique ou aucune correspondance TrendTrack | Information encore limitée | Garder une place dans l'exploration si le besoin et l'offre sont intéressants |
+
+Cette gradation est une règle de priorité proposée, sans score supplémentaire ni durée minimale universelle. Une poursuite de dépenses peut encore correspondre à des tests, à une croissance acceptée à perte ou à une économie différente de la nôtre. Le trafic estimé et le nombre d'annonces ne donnent pas directement le budget dépensé. La persistance et l'attribution à une offre rendent l'hypothèse plus exploitable ; la demande France et notre économie restent à établir par les gates existants.
 
 ## Créativité à l'entrée, rigueur à la décision
 
