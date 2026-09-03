@@ -1,0 +1,181 @@
+{
+  "observed_on": "2026-09-03",
+  "source": "DataForSEO FR/French",
+  "raw_targeted_rows": 17,
+  "raw_sum_not_addressable_demand": 3940,
+  "max_lexical_groups_sum_before_offer_exclusions": 2140,
+  "groups": [
+    {
+      "key": "abonnement camera meilleur sans surveillance",
+      "keywords": [
+        "meilleure camera de surveillance sans abonnement",
+        "meilleur camera de surveillance sans abonnement"
+      ],
+      "max_volume": 590,
+      "series_identical": true,
+      "cpc_usd_range": [
+        1.07,
+        1.07
+      ],
+      "disposition": "COMMERCIAL_RESEARCH_SEPARATE",
+      "reason": "Niveau comparatif séparé, même offre à démontrer."
+    },
+    {
+      "key": "abonnement camera sans surveillance",
+      "keywords": [
+        "camera surveillance sans abonnement",
+        "camera de surveillance sans abonnement",
+        "caméra de surveillance sans abonnement"
+      ],
+      "max_volume": 590,
+      "series_identical": false,
+      "cpc_usd_range": [
+        1.11,
+        1.91
+      ],
+      "disposition": "POTENTIAL_SAME_OFFER_CONDITIONAL",
+      "reason": "Offre hypothétique extérieure Wi-Fi, stockage local et solaire; aucun fournisseur vérifié."
+    },
+    {
+      "key": "abonnement camera exterieur sans surveillance",
+      "keywords": [
+        "camera de surveillance exterieur sans abonnement",
+        "camera de surveillance extérieure sans abonnement"
+      ],
+      "max_volume": 260,
+      "series_identical": true,
+      "cpc_usd_range": [
+        1.19,
+        1.19
+      ],
+      "manual_merge_reason": "Même usage extérieur, masculin/féminin; volumes et séries mensuelles identiques dans le contrôle live.",
+      "disposition": "POTENTIAL_SAME_OFFER_CONDITIONAL",
+      "reason": "Offre hypothétique extérieure Wi-Fi, stockage local et solaire; aucun fournisseur vérifié."
+    },
+    {
+      "key": "abonnement camera sans surveillance wifi",
+      "keywords": [
+        "camera de surveillance wifi sans abonnement",
+        "camera surveillance wifi sans abonnement"
+      ],
+      "max_volume": 210,
+      "series_identical": false,
+      "cpc_usd_range": [
+        0.75,
+        1.63
+      ],
+      "disposition": "POTENTIAL_SAME_OFFER_CONDITIONAL",
+      "reason": "Offre hypothétique extérieure Wi-Fi, stockage local et solaire; aucun fournisseur vérifié."
+    },
+    {
+      "key": "abonnement camera interieur sans surveillance",
+      "keywords": [
+        "camera de surveillance interieur sans abonnement"
+      ],
+      "max_volume": 110,
+      "series_identical": true,
+      "cpc_usd_range": [
+        1.6,
+        1.6
+      ],
+      "disposition": "SEPARATE_USAGE",
+      "reason": "Offre extérieure retenue pour le scénario; pas de cumul aveugle intérieur."
+    },
+    {
+      "key": "abonnement camera maison sans surveillance",
+      "keywords": [
+        "camera surveillance maison sans abonnement",
+        "camera de surveillance maison sans abonnement"
+      ],
+      "max_volume": 90,
+      "series_identical": false,
+      "cpc_usd_range": [
+        2.31,
+        3.36
+      ],
+      "disposition": "AMBIGUOUS_PARENT",
+      "reason": "Intérieur/extérieur non adjugé en SERP."
+    },
+    {
+      "key": "4g abonnement camera sans surveillance",
+      "keywords": [
+        "camera surveillance 4g sans abonnement"
+      ],
+      "max_volume": 90,
+      "series_identical": true,
+      "cpc_usd_range": [
+        1.09,
+        1.09
+      ],
+      "disposition": "EXCLUDED_OTHER_TECHNOLOGY_AND_CONNECTIVITY_COST",
+      "reason": "Sans abonnement cloud ne prouve pas sans forfait mobile."
+    },
+    {
+      "key": "abonnement camera exterieur sans surveillance wifi",
+      "keywords": [
+        "camera de surveillance exterieur wifi sans abonnement"
+      ],
+      "max_volume": 70,
+      "series_identical": true,
+      "cpc_usd_range": [
+        1.33,
+        1.33
+      ],
+      "disposition": "POTENTIAL_SAME_OFFER_CONDITIONAL",
+      "reason": "Offre hypothétique extérieure Wi-Fi, stockage local et solaire; aucun fournisseur vérifié."
+    },
+    {
+      "key": "abonnement camera exterieure sans solaire surveillance",
+      "keywords": [
+        "camera de surveillance extérieure solaire sans abonnement"
+      ],
+      "max_volume": 70,
+      "series_identical": true,
+      "cpc_usd_range": [
+        0.56,
+        0.56
+      ],
+      "disposition": "POTENTIAL_SAME_OFFER_CONDITIONAL",
+      "reason": "Offre hypothétique extérieure Wi-Fi, stockage local et solaire; aucun fournisseur vérifié."
+    },
+    {
+      "key": "abonnement camera quelle sans surveillance",
+      "keywords": [
+        "quelle camera de surveillance sans abonnement"
+      ],
+      "max_volume": 30,
+      "series_identical": true,
+      "cpc_usd_range": [
+        0.77,
+        0.77
+      ],
+      "disposition": "COMMERCIAL_RESEARCH_SEPARATE",
+      "reason": "Niveau comparatif séparé, même offre à démontrer."
+    },
+    {
+      "key": "abonnement camera fil sans sans surveillance",
+      "keywords": [
+        "camera surveillance sans fil sans abonnement"
+      ],
+      "max_volume": 30,
+      "series_identical": true,
+      "cpc_usd_range": [
+        0.26,
+        0.26
+      ],
+      "disposition": "POTENTIAL_SAME_OFFER_CONDITIONAL",
+      "reason": "Offre hypothétique extérieure Wi-Fi, stockage local et solaire; aucun fournisseur vérifié."
+    }
+  ],
+  "scope_is_complete_category": false,
+  "generic_search_ratio": null,
+  "serp_winnability": null,
+  "search_score": null,
+  "business_score": null,
+  "exact_supplier": null,
+  "prequalification_status": null,
+  "reason": "Sonde ciblée insuffisante; offre et cluster global non qualifiés; aucun PASS",
+  "manual_gender_merge": true,
+  "hypothetical_outdoor_wifi_base_volume": 1230,
+  "commercial_research_separate_volume": 620
+}

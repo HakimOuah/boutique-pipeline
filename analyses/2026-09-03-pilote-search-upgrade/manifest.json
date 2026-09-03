@@ -1,0 +1,93 @@
+{
+  "pilot_id": "2026-09-03-search-upgrade",
+  "purpose": "Manual rehearsal and fault injection before implementation; not a candidate qualification or production module",
+  "api_spend_usd": 0.4158,
+  "api_cap_usd": 0.6,
+  "production_code_modified": false,
+  "registry_modified": false,
+  "sources": [
+    {
+      "path": "PRODUCT-RESEARCH-CRITERIA.md",
+      "sha256": "17e1c55c707032be5d55a897b3d78de8156efbcf477a5b7285ca495287f70f30"
+    },
+    {
+      "path": "registre-candidats.md",
+      "sha256": "df32995e2b80cb9153a52bbf0b4ec5a147758cd8b021e62db5519fe41a89d90c"
+    },
+    {
+      "path": "analyses/2026-09-01-q4-produit-pur/cluster-decisions.json",
+      "sha256": "c8c29f164338d93f75ffd8449e3322d638026f7d13f62052857d1902fd386451"
+    },
+    {
+      "path": "analyses/2026-09-02-panneaux-muraux-bois/rapport-mesure-dfs.md",
+      "sha256": "3440f18e93b7bdd64fe2b9ab1504a062519357d68011dd195031b868df5f9dd4"
+    },
+    {
+      "path": "analyses/2026-09-02-panneaux-muraux-bois/rapport-sourcabilite-aliexpress.md",
+      "sha256": "a32f2a51421f4334138213e906086d4bd16944670e2fab6266afb0682aed54a7"
+    },
+    {
+      "path": "reports/phase5-marge-kit-tufting-2026-07-19.md",
+      "sha256": "11acfc0de594f071d60ce00c3b426884c81b0bf992e7dcdc58f124e1896e217c"
+    },
+    {
+      "path": "analyses/2026-09-03-univers-poufs/02-volumes-consolides.md",
+      "sha256": "461ec62502d8388a97de08d9a7bf0bfea95d149c5e0c7374030818be9060d2a3"
+    },
+    {
+      "path": "dropilot/scoring.py",
+      "sha256": "169bd9b7a28b38f9700e41eb25b455917a81309600ac7e5c76f0181ffad6a41f"
+    },
+    {
+      "path": "dropilot/normalization.py",
+      "sha256": "2897b92696aeab9bc2625055a9fc89ea58de173a2a3c5af244ce1c229e72fcfc"
+    },
+    {
+      "path": "dropilot/models.py",
+      "sha256": "44423a21640633d0a101b4cf66fae768d6ba4f9493d6a5a28fde0d7727364573"
+    },
+    {
+      "path": "config/pipeline.yaml",
+      "sha256": "961650f5b809c81d0eecf03b5a021abcd04d220f61a13f9836ebd0c11a93b8b2"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "01-witness-before.json.gz",
+      "sha256": "b0f4c6c4f888ce0361fe6e8cdfdb06f8e7db8e7762a9e9db1b89630d3f99c981"
+    },
+    {
+      "path": "02-demand-discovery.json.gz",
+      "sha256": "c9464cdb43d499e13f87fdef3e1c95bce0905732c0751f46a99721de05ec3ca2"
+    },
+    {
+      "path": "03-constraint-discovery.json.gz",
+      "sha256": "ada20da9bf876a9130fe333d5d7fafb21c4742944ec0e46a72dafb814ca061f2"
+    },
+    {
+      "path": "04-live-controls.json.gz",
+      "sha256": "db12a52b98c291b8b9bde7afc5ee69af00b740da544f647c52aaa7da48aeb842"
+    },
+    {
+      "path": "05-witness-after.json.gz",
+      "sha256": "628d4d8cbf640e4845f3d9977374536a1b31bd6f1e886af2215d09537aeb8049"
+    },
+    {
+      "path": "README.md",
+      "sha256": "fef9d7405b3ff2264e23fc5a0fd86126231fba8b3b9d7e21f6a430b0523ccce9"
+    },
+    {
+      "path": "api-ledger.json",
+      "sha256": "18afcd32a116fd8c6d35b9c14eddce8e3d59745b493db6d6fc58b4110e5d0243"
+    },
+    {
+      "path": "demand-first-results.json",
+      "sha256": "62d1fa043dd2af92067bf19d74a894d76344685f8d964bf18489e9c23b2d2ff3"
+    },
+    {
+      "path": "replay-results.json",
+      "sha256": "363459f4769a036c3bf44935ce2bffc1c622efa449dc5a3c0b278d8b29cc5548"
+    }
+  ],
+  "repository_head_at_evidence_capture": "1b085f187ca000c3a42e1778979b9f990cedc916"
+}

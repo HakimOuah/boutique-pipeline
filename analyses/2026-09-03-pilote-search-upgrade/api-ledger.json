@@ -1,0 +1,27 @@
+[
+  {
+    "step": "01-witness-before",
+    "cost_usd": 0.09,
+    "elapsed_seconds": 0.23
+  },
+  {
+    "step": "02-demand-discovery",
+    "cost_usd": 0.132,
+    "elapsed_seconds": 1.438
+  },
+  {
+    "step": "03-constraint-discovery",
+    "cost_usd": 0.0138,
+    "elapsed_seconds": 0.591
+  },
+  {
+    "step": "04-live-controls",
+    "cost_usd": 0.09,
+    "elapsed_seconds": 3.286
+  },
+  {
+    "step": "05-witness-after",
+    "cost_usd": 0.09,
+    "elapsed_seconds": 0.193
+  }
+]

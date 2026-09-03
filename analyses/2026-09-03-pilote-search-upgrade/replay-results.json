@@ -1,0 +1,402 @@
+{
+  "scoring_fault_injection": [
+    {
+      "synthetic": true,
+      "cpc": 0.8,
+      "score": 89,
+      "verdict": "GO"
+    },
+    {
+      "synthetic": true,
+      "cpc": 100,
+      "score": 89,
+      "verdict": "GO"
+    }
+  ],
+  "negation_collision": {
+    "synthetic": true,
+    "names": [
+      "caméra surveillance wifi",
+      "caméra surveillance sans wifi"
+    ],
+    "same_candidate_fingerprint": true,
+    "same_keyword_key": false
+  },
+  "missing_shipping": {
+    "synthetic": true,
+    "price_source": 100,
+    "shipping_cost": null,
+    "existing_delivered_cost": 100.0
+  },
+  "historical_replay": [
+    {
+      "name": "sac de voyage à compression sous vide intégrée",
+      "directly_relevant_monthly": 1890,
+      "sum_retained": 1890,
+      "raw_scope_upper_before_cleanup": 7510,
+      "historical_status": "CAS LIMITE — décision Hakim requise",
+      "proposed_shadow_prequalification": "STOP_PREQUALIFICATION",
+      "confidence_scope": "Archived measured scope only; registry unchanged"
+    },
+    {
+      "name": "plaque d’acier de cuisson pour pain/pizza",
+      "directly_relevant_monthly": 150,
+      "sum_retained": 150,
+      "raw_scope_upper_before_cleanup": 790,
+      "historical_status": "CAS LIMITE — décision Hakim requise",
+      "proposed_shadow_prequalification": "STOP_PREQUALIFICATION",
+      "confidence_scope": "Archived measured scope only; registry unchanged"
+    },
+    {
+      "name": "kit premium de boulangerie au levain",
+      "directly_relevant_monthly": 130,
+      "sum_retained": 130,
+      "raw_scope_upper_before_cleanup": 190,
+      "historical_status": "CAS LIMITE — décision Hakim requise",
+      "proposed_shadow_prequalification": "STOP_PREQUALIFICATION",
+      "confidence_scope": "Archived measured scope only; registry unchanged"
+    },
+    {
+      "name": "remontoir pour montre automatique",
+      "directly_relevant_monthly": 7000,
+      "sum_retained": 7000,
+      "raw_scope_upper_before_cleanup": 8980,
+      "historical_status": "CAS LIMITE — décision Hakim requise",
+      "proposed_shadow_prequalification": "STOP_PREQUALIFICATION",
+      "confidence_scope": "Archived measured scope only; registry unchanged"
+    }
+  ],
+  "tufting_economics": {
+    "source_date": "2026-07-19",
+    "selling_price_hypothesis_eur": 229,
+    "landed_cost_historical_eur": 78.61,
+    "payment_fees_hypothesis_eur": 4.52,
+    "returns_hypothesis_eur": 9.16,
+    "sav_hypothesis_eur": 4.58,
+    "contribution_eur": 93.9633,
+    "break_even_cpa_eur": 93.9633,
+    "scenarios": [
+      {
+        "estimated_cpc_eur": 0.48,
+        "basis": "historical SEMrush EUR",
+        "break_even_cvr_pct": 0.5108
+      },
+      {
+        "estimated_cpc_eur": 0.96,
+        "basis": "synthetic stress assumption, not market observation",
+        "break_even_cvr_pct": 1.0217
+      },
+      {
+        "estimated_cpc_eur": 1.5,
+        "basis": "synthetic stress assumption, not market observation",
+        "break_even_cvr_pct": 1.5964
+      }
+    ],
+    "pretest_search_score": null,
+    "actual_cpc": null,
+    "actual_cvr": null
+  },
+  "panels_quantity_comparability": {
+    "source_date": "2026-09-02",
+    "supplier_pack": [
+      4,
+      1.2,
+      0.6
+    ],
+    "supplier_surface_m2": 2.88,
+    "market_pack": [
+      4,
+      2.4,
+      0.6
+    ],
+    "market_surface_m2": 5.76,
+    "two_supplier_packs_land_cost_eur": 216.78,
+    "market_price_benchmark_low_eur": 189.9,
+    "market_price_benchmark_high_eur": 359.81,
+    "upper_margin_at_low_before_fees_returns_sav": -58.53,
+    "identical_surface_does_not_prove_same_offer": true
+  },
+  "product_factory_revision": "9afa920e7ee6d62df7df71a9152cf6315e4e42e7",
+  "gmc_synthetic_cases": [
+    {
+      "case": "baseline_fixture",
+      "synthetic": true,
+      "status": "GMC_PREFLIGHT_PASS",
+      "blockers": [],
+      "warnings": [],
+      "external_api_calls": 0
+    },
+    {
+      "case": "sample_missing",
+      "synthetic": true,
+      "status": "BLOCKED_BY_COMPLIANCE_GATE",
+      "blockers": [],
+      "warnings": [],
+      "external_api_calls": 0
+    },
+    {
+      "case": "price_mismatch",
+      "synthetic": true,
+      "status": "GMC_PREFLIGHT_BLOCKED",
+      "blockers": [
+        "PRICE_MATCHES_UPSTREAM_AND_LANDING"
+      ],
+      "warnings": [],
+      "external_api_calls": 0
+    },
+    {
+      "case": "contact_email_not_clickable",
+      "synthetic": true,
+      "status": "GMC_PREFLIGHT_BLOCKED",
+      "blockers": [
+        "SITE_CONTACT_EMAIL_CLICKABLE"
+      ],
+      "warnings": [],
+      "external_api_calls": 0
+    },
+    {
+      "case": "image_400px",
+      "synthetic": true,
+      "status": "GMC_PREFLIGHT_BLOCKED",
+      "blockers": [
+        "MAIN_IMAGE_SIZE"
+      ],
+      "warnings": [],
+      "external_api_calls": 0
+    },
+    {
+      "case": "old_snapshots",
+      "synthetic": true,
+      "status": "GMC_PREFLIGHT_PASS",
+      "blockers": [],
+      "warnings": [],
+      "external_api_calls": 0
+    },
+    {
+      "case": "missing_snapshots",
+      "synthetic": true,
+      "status": "GMC_PREFLIGHT_BLOCKED",
+      "blockers": [
+        "DATED_REVIEWED_SNAPSHOTS",
+        "FEED_ID_PRESENT",
+        "FEED_TITLE_PRESENT",
+        "FEED_DESCRIPTION_PRESENT",
+        "FEED_LINK_PRESENT",
+        "FEED_IMAGE_LINK_PRESENT",
+        "FEED_PRICE_PRESENT",
+        "FEED_CURRENCY_PRESENT",
+        "FEED_AVAILABILITY_PRESENT",
+        "FEED_ID_STABLE_AND_VARIANT_BOUND",
+        "LANDING_HTTPS",
+        "LANDING_PRODUCT_SPECIFIC",
+        "LANDING_BUY_ACTION_VISIBLE",
+        "TITLE_MATCHES_APPROVED_CONTENT",
+        "PRICE_MATCHES_UPSTREAM_AND_LANDING",
+        "CURRENCY_MATCHES",
+        "AVAILABILITY_MATCHES",
+        "STRUCTURED_PRICE_MATCHES",
+        "STRUCTURED_CONDITION_MATCHES",
+        "MAIN_IMAGE_HTTPS",
+        "MAIN_IMAGE_SELECTED_SKU_QA",
+        "MAIN_IMAGE_CRAWLABLE",
+        "MAIN_IMAGE_SIZE",
+        "MAIN_IMAGE_NO_PROMOTIONAL_OVERLAY",
+        "UNIQUE_IDENTIFIER_DECISION",
+        "SITE_CONTACT_VISIBLE",
+        "SITE_SHIPPING_POLICY_VISIBLE",
+        "SITE_RETURN_POLICY_VISIBLE",
+        "SITE_SECURE_CHECKOUT",
+        "SITE_CONVENTIONAL_PAYMENT_AVAILABLE",
+        "SITE_CHECKOUT_COMPLETED_IN_TEST",
+        "POLICY_URLS_HTTPS",
+        "TARGET_STATE_GMC_READY",
+        "SURFACE_BUSINESS_IDENTITY_CONSISTENT",
+        "SURFACE_CONTACT_CONSISTENT",
+        "SURFACE_PAYMENT_METHODS_CONSISTENT",
+        "SURFACE_SHIPPING_CONSISTENT",
+        "SURFACE_RETURNS_CONSISTENT",
+        "SITE_CONTACT_EMAIL_CLICKABLE",
+        "SITE_CONTACT_PHONE_CLICKABLE",
+        "SITE_PROFESSIONAL_CONTACT_EMAIL",
+        "SITE_PAYMENT_ICONS_MATCH_CHECKOUT",
+        "SITE_NO_BROKEN_LINKS",
+        "SITE_NO_PLACEHOLDER_TEXT",
+        "SITE_NO_FAKE_URGENCY",
+        "SITE_NO_FAKE_REVIEWS",
+        "SITE_NO_UNSUPPORTED_CLAIMS",
+        "SITE_NO_OBSOLETE_VERIFICATION_TAGS",
+        "SAME_CONTENT_FOR_USERS_AND_CRAWLERS",
+        "NO_ANTI_DETECT_OR_PROXY_CLOAKING",
+        "REAL_BUSINESS_IDENTITY_ONLY"
+      ],
+      "warnings": [
+        "BRAND_MATCHES_UPSTREAM",
+        "TERRY_MOBILE_PERFORMANCE_TARGET_65"
+      ],
+      "external_api_calls": 0
+    },
+    {
+      "case": "mobile_score_50",
+      "synthetic": true,
+      "status": "GMC_PREFLIGHT_PASS",
+      "blockers": [],
+      "warnings": [
+        "TERRY_MOBILE_PERFORMANCE_TARGET_65"
+      ],
+      "external_api_calls": 0
+    }
+  ],
+  "prequalification_contract": {
+    "synthetic": true,
+    "error": "volume_evidence.source must be SEMRUSH_FR or DATAFORSEO_FR_FALLBACK"
+  },
+  "universe_control": {
+    "name": "univers poufs",
+    "source_date": "2026-09-03",
+    "research_mode": "UNIVERS",
+    "strict_extended_monthly": 36095,
+    "adjudicated_extended_monthly": 47305,
+    "adjudicated_with_parent_monthly": 54730,
+    "canonical_floor": 37500,
+    "existing_status": "REVIEW_PREQUALIFICATION",
+    "shadow_status": "REVIEW_PREQUALIFICATION",
+    "pure_product_geant_monthly": 4630,
+    "no_pure_product_gate_substitution": true
+  },
+  "panels_volume_sensitivity": {
+    "reported_sum": 22640,
+    "conservative_lexical_max_sensitivity": 20170,
+    "single_head_monthly": 14800,
+    "canonical_borderline_band": [
+      10000,
+      15000
+    ],
+    "groups": {
+      "bois panneau tasseau": [
+        {
+          "keyword": "panneau tasseaux bois",
+          "volume": 14800
+        },
+        {
+          "keyword": "panneau tasseaux de bois",
+          "volume": 590
+        },
+        {
+          "keyword": "panneau bois tasseaux",
+          "volume": 480
+        },
+        {
+          "keyword": "panneau en tasseaux de bois",
+          "volume": 390
+        }
+      ],
+      "panneau tasseau": [
+        {
+          "keyword": "panneau tasseaux",
+          "volume": 3600
+        },
+        {
+          "keyword": "panneau de tasseaux",
+          "volume": 390
+        }
+      ],
+      "bois mural panneau tasseau": [
+        {
+          "keyword": "panneau mural tasseau bois",
+          "volume": 590
+        },
+        {
+          "keyword": "panneau tasseaux bois mural",
+          "volume": 480
+        }
+      ],
+      "noir panneau tasseau": [
+        {
+          "keyword": "panneau tasseaux noir",
+          "volume": 320
+        }
+      ],
+      "bois decoratif panneau tasseau": [
+        {
+          "keyword": "panneau décoratif tasseaux bois",
+          "volume": 260
+        }
+      ],
+      "acoustique panneau tasseau": [
+        {
+          "keyword": "panneau tasseaux acoustique",
+          "volume": 260
+        },
+        {
+          "keyword": "panneau acoustique tasseaux",
+          "volume": 140
+        }
+      ],
+      "mural panneau tasseau": [
+        {
+          "keyword": "panneau mural tasseaux",
+          "volume": 170
+        }
+      ],
+      "acoustique bois panneau tasseau": [
+        {
+          "keyword": "panneau acoustique tasseaux bois",
+          "volume": 140
+        }
+      ],
+      "bois fond noir panneau tasseau": [
+        {
+          "keyword": "panneau tasseaux bois fond noir",
+          "volume": 30
+        }
+      ]
+    },
+    "note": "Distinct monthly series alone do not prove independence. Lexical MAX is a sensitivity test, not a new adjudicated cluster."
+  },
+  "scoring_fixture_input": {
+    "product_name": "FICTION TEST CPC",
+    "source": "flippa",
+    "price_sell": 700,
+    "price_source": 100,
+    "shipping_cost": 20,
+    "net_margin_pct": 30,
+    "competitors_type": "dropshippers_weak_sites",
+    "sells_in_search": true,
+    "sells_in_shopping": false,
+    "not_available_on_generic_channels": "yes",
+    "search_volume": 20000,
+    "google_country": "FR",
+    "google_verified": true,
+    "legal_eu": true,
+    "supplier_verified": true,
+    "differentiation_thesis": "Fixture uniquement : aide au démarrage",
+    "cpc": 0.8
+  },
+  "prequalification_fixture_input": {
+    "status": "PASS_PREQUALIFICATION",
+    "research_mode": "PRODUIT_PUR",
+    "criteria_version": "pilot-not-implementation",
+    "author": {
+      "agent_id": "synthetic-test"
+    },
+    "volume_evidence": {
+      "source": "DATAFORSEO_FR",
+      "net_monthly_searches": 20000,
+      "observed_at": "2026-09-03T12:00:00Z"
+    },
+    "serp_review": {
+      "observed_at": "2026-09-03T12:00:00Z",
+      "query_count": 3,
+      "commercial_intent": "COMMERCIAL"
+    },
+    "trends_evidence": {
+      "observed_at": "2026-09-03T12:00:00Z",
+      "mode_shape": "CONTINUOUS_NEED_APPROX_5_YEARS"
+    },
+    "price_probe": {
+      "observed_at": "2026-09-03T12:00:00Z",
+      "status": "DANS_LA_TRANCHE"
+    }
+  },
+  "gmc_fixture_source": "tests/test_gmc_readiness.py:_state(), _context() at product_factory_revision; every case starts from a new fixture"
+}
