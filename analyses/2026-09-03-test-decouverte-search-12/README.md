@@ -2,6 +2,8 @@
 
 **3 septembre 2026 — expérience avant implémentation.** Suite au [premier pilote](../2026-09-03-pilote-search-upgrade/README.md), Hakim a demandé de tester la créativité et la sévérité de la sélection sur des idées nouvelles.
 
+**Addendum du 03/09 après retour de Hakim :** les douze pistes sont [indexées au registre](../../registre-candidats.md). La [suite proposée couple TrendTrack et la demande Google](orientation-decouverte-couplee.md) et élargit le scouting au-delà des deux vues sauvegardées. Le compte rendu ci-dessous conserve le protocole et les résultats du test initial ; aucun candidat n'est promu par cet addendum.
+
 **Résultat : 12 pistes documentées, 5 STOP_PREQUALIFICATION limités à l’offre testée, 7 REVIEW_PREQUALIFICATION, 0 PASS_PREQUALIFICATION et 0 GO_FINAL. Coût DataForSEO : 2,22028 USD.** Trois dossiers justifient une prochaine vérification ciblée : étendoir mural, kit de rasage de sûreté, rangement mural vélo. Ce ne sont pas trois produits validés.
 
 Le test confirme l’intérêt opérationnel d’une entrée par la demande. Il ne démontre ni qu’elle surpasse TrendTrack, ni que les critères prédisent des winners. Aucun produit n’a été sourcé, acheté ou lancé. Aucun seuil, score canonique, agent, automatisation ni règle GMC n’a été modifié.
@@ -123,4 +125,4 @@ Collecte entre 11:38:22 et 11:57:08 UTC, soit environ 19 minutes écoulées, hor
 - [Résumé calculé](summary.json), [liste des contrôles](control-keywords.json), [requêtes SERP initiales](serp-queries.json).
 - `*.json.gz` : réponses API datées et paramètres, sans identifiants de connexion. [Manifeste](manifest.json) avec empreintes SHA-256.
 - Les prix sont des observations ponctuelles, parfois promotionnelles ou issus de cartes à confirmer. Les claims commerciaux restent des déclarations de vendeurs.
-- Les règles canoniques PRODUIT PUR / UNIVERS, le registre et les états humains restent inchangés. Les idées de ce dossier doivent être incluses dans une prochaine vérification anti-doublon, même sans promotion dans le registre canonique.
+- Lors du test, les règles canoniques PRODUIT PUR / UNIVERS, le registre et les états humains sont restés inchangés. **Suite au retour de Hakim le 03/09, les douze pistes ont été indexées au registre pour l'anti-doublon, sans promotion ni changement des gates.** Voir l'addendum en tête de rapport.

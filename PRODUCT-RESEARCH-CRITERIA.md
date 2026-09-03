@@ -33,6 +33,8 @@ Ce document est le référentiel à appliquer à toutes les nouvelles recherches
 
 ## 2. Sources d'idées
 
+> **Orientation Q4 du 03/09/2026, avant implémentation :** Hakim demande de coupler la découverte par requêtes à TrendTrack et d'élargir le scouting au-delà des deux vues sauvegardées. [Constats du test et méthode proposée](analyses/2026-09-03-test-decouverte-search-12/orientation-decouverte-couplee.md). Cette orientation est documentée ; la recette active ci-dessous, les seuils et les gates ne sont pas modifiés à ce stade.
+
 **Source principale depuis le 19 août 2026 : TrendTrack seulement** (Google Ads Search ou Shopping selon le mode, shops, Meta/TikTok comme signal d'univers). Recette : skill `ideation-produit` et agent `mineur-brandsearch` (mineur TrendTrack, identifiant conservé). Mesure = `recherche-mots-cles` (y compris Google Trends). Fournisseur = `sourcing-aliexpress`, uniquement après `PASS_PREQUALIFICATION` écrit.
 
 **Modalité d'accès TrendTrack (décision Hakim 23/08/2026)** : les bots Grok utilisent TrendTrack **dans leur navigateur** (app web, mêmes modules et filtres via l'interface) — jamais l'API, dont la clé ne doit pas vivre sur la machine cloud partagée. Les recettes API `/v1/...` restent réservées à Claude Code en local.

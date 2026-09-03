@@ -10,7 +10,28 @@ Règles d'usage :
 - Le registre pointe vers les rapports ; il ne remplace jamais leur détail ni leurs réserves.
 - Niveaux de validation : 1 = marché, 2 = fiche AliExpress, 3 = commande test, 4 = GO lancement. Aucun raccourci entre niveaux.
 
-Dernière mise à jour : 3 septembre 2026 — **portefeuilles : PDP Chrome**. Homme confirmé (CONTACTS 16,50 €, 4,8/411). Femme CONTACT’S 14,69 / 21,39 €, un seul atelier. Sterre stock PDP 5. Poufs : Trends + sourcing plus tôt dans la journée.
+Dernière mise à jour : 3 septembre 2026 — **indexation des 12 pistes du test PRODUIT PUR et orientation TrendTrack ↔ demande Google**. Également ce jour : portefeuilles, PDP Chrome (homme CONTACTS 16,50 €, 4,8/411 ; femme CONTACT’S 14,69 / 21,39 €, un seul atelier ; Sterre stock PDP 5) ; poufs, Trends + sourcing.
+
+## PRODUIT PUR — test exploratoire de 12 pistes — 03/09/2026
+
+À la demande de Hakim, conservation dans l'anti-doublon des résultats du [test](analyses/2026-09-03-test-decouverte-search-12/README.md). Les [dossiers A1–B6](analyses/2026-09-03-test-decouverte-search-12/dossiers.md) portent les sources, requêtes, prix et réserves. [Orientation suivante : coupler TrendTrack et la demande Google](analyses/2026-09-03-test-decouverte-search-12/orientation-decouverte-couplee.md).
+
+**Décisions expérimentales de préqualification uniquement : 7 REVIEW, 5 STOP limités à l'offre sondée, aucun PASS ni GO_FINAL.** Aucun cluster consolidé validé, sourcing exact ou sample. L'indexation ne promeut aucun candidat. Une reprise de STOP exige une thèse ou une preuve nouvelle documentée (`déjà recherché — reprise motivée`), pas seulement un autre shop vendant la même offre.
+
+| ID / idée et synonymes anti-doublon | État du test | Périmètre / prochaine question |
+|---|---|---|
+| A1 — Antivol vélo pliant / pliable / articulé | `REVIEW_PREQUALIFICATION` | Accès au parent et confiance hors marques ABUS ; trafic Aventon non attribuable à cet accessoire |
+| A2 — Appareil photo numérique rétro / vintage / de poche | `REVIEW_PREQUALIFICATION` | Séparer neuf, occasion et argentique ; économie défavorable dans les scénarios à 79 € étudiés |
+| A3 — Oreiller / coussin de corps, body pillow, sommeil latéral | `STOP_PREQUALIFICATION` | Offre confort non médicale sondée ; ne pas étendre le STOP aux oreillers de tête ou de grossesse |
+| A4 — Répulsif pigeon électronique / ultrason / sonore pour balcon | `STOP_PREQUALIFICATION` | Périmètre pigeon balcon insuffisant ; parent oiseaux agricole exclu, efficacité non prouvée |
+| A5 — Mini-liseuse / liseuse de poche / EPUB compacte | `REVIEW_PREQUALIFICATION` | Part du parent accessible hors Kindle/Kobo ; ne pas confondre avec lampe liseuse |
+| A6 — Rasoir de sûreté / sécurité / traditionnel, kit rasage débutant | `REVIEW_PREQUALIFICATION` | **Priorité proposée** : cluster net et offre complète ; kit concurrent 99 €, pas marge prouvée |
+| B1 — Étendoir / séchoir mural rabattable / pliable, gain de place | `REVIEW_PREQUALIFICATION` | **Priorité proposée** : format, capacité/charge/fixation et cluster réellement adressable |
+| B2 — Support / porte-vélo / rangement / accroche vélo mural pivotant | `REVIEW_PREQUALIFICATION` | **Priorité proposée** : parent accessible et panier ; signal CyclMania non attribué au produit |
+| B3 — Moustiquaire fenêtre sans perçage / sans percer, cadre magnétique | `REVIEW_PREQUALIFICATION` | Dépriorisée Q4 ; saisonnalité faible, bundle multi-fenêtres et cluster à vérifier |
+| B4 — Kit perche nettoyage gouttières / télescopique / depuis le sol / sans échelle | `STOP_PREQUALIFICATION` | Offre gouttière sondée ; doublons de formulations et prestations exclus ; pas réouverture des perches vitres |
+| B5 — Gant anti-poils / électrostatique / ramasse-poils textiles réutilisable | `STOP_PREQUALIFICATION` | Offre gant/lot sondée : demande et ticket insuffisants ; pas STOP de toute la catégorie entretien animalier |
+| B6 — Mannequin repassage / séchage automatique chemise / gonflable | `STOP_PREQUALIFICATION` | Demande compatible insuffisante ; appareil PDP 79,95 €, carte Google 19,95 € non utilisable pour un kill économique |
 
 ## Univers portefeuilles — 02–03/09/2026 — analyse + sourcing
 
