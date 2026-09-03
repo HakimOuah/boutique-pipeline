@@ -1,0 +1,43 @@
+{
+  "observed_at_utc": "2026-09-03T16:04:37.732625+00:00",
+  "request": {
+    "action": "variants",
+    "product_id": "1005010295297941"
+  },
+  "response": {
+    "action": "variants",
+    "ok": true,
+    "result": {
+      "checked_at_utc": "2026-09-03T16:04:36+00:00",
+      "product": {
+        "evaluation_count": "0",
+        "product_id": "1005010295297941",
+        "rating": "0.0",
+        "sales_count": "29",
+        "status": "onSelling",
+        "store": {
+          "communication_rating": "4.8",
+          "country": "CN",
+          "id": 2986023,
+          "item_as_described_rating": "4.8",
+          "name": "Yaqi Factory Store",
+          "shipping_speed_rating": "4.8"
+        },
+        "title": "Rasoir de sécurité réglable en acier inoxydable de couleur mate Yaqi Avanti"
+      },
+      "source": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS",
+      "variants": [
+        {
+          "currency": "EUR",
+          "offer_sale_price": "166.39",
+          "properties": [],
+          "sku_attr": "",
+          "sku_id": "12000051831491644",
+          "sku_price": "180.86",
+          "stock": 17,
+          "tax_included": true
+        }
+      ]
+    }
+  }
+}

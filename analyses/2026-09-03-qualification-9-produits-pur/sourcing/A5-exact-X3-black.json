@@ -1,0 +1,73 @@
+{
+  "observed_at_utc": "2026-09-03T16:07:32.805495+00:00",
+  "request": {
+    "action": "exact",
+    "product_id": "1005012247477594",
+    "properties": [
+      "X3 Black"
+    ],
+    "destination": "FR"
+  },
+  "response": {
+    "action": "exact",
+    "ok": true,
+    "result": {
+      "checked_at_utc": "2026-09-03T16:07:32+00:00",
+      "destination": "FR",
+      "exact_sku": {
+        "currency": "EUR",
+        "offer_sale_price": "58.99",
+        "properties": [
+          {
+            "image": "https://ae01.alicdn.com/kf/Sc762991186974daa958b57a1d159444an.jpg",
+            "name": "Volume",
+            "raw_value": "5",
+            "value": "X3 Black"
+          }
+        ],
+        "sku_attr": "100007787:698#X3 Black",
+        "sku_id": "12000058975966657",
+        "sku_price": "83.08",
+        "stock": 135,
+        "tax_included": true
+      },
+      "freight": {
+        "code": 200,
+        "message": "Call succeeds",
+        "options": [
+          {
+            "available_stock": null,
+            "code": "CAINIAO_STANDARD",
+            "company": "Expédition standard AliExpress",
+            "currency": "EUR",
+            "delivery_date": "sep. 11 - 18",
+            "free_shipping": false,
+            "max_delivery_days": 15,
+            "min_delivery_days": 8,
+            "ship_from_country": "CN",
+            "shipping_fee": "0,83€",
+            "tracking": true
+          }
+        ],
+        "success": true
+      },
+      "product": {
+        "evaluation_count": "0",
+        "product_id": "1005012247477594",
+        "rating": "0.0",
+        "sales_count": "499",
+        "status": "onSelling",
+        "store": {
+          "communication_rating": "4.4",
+          "country": "CN",
+          "id": 1105268002,
+          "item_as_described_rating": "4.3",
+          "name": "TechGlow Store",
+          "shipping_speed_rating": "4.5"
+        },
+        "title": "Liseuse électronique XTEINK X3 avec écran E-Ink respectueux des yeux, mini appareil de lecture numérique portable. Le X3 est plus avancé que le X4."
+      },
+      "source": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS"
+    }
+  }
+}

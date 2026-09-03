@@ -1,0 +1,135 @@
+{
+  "observed_at_utc": "2026-09-03T16:04:37.892244+00:00",
+  "request": {
+    "action": "variants",
+    "product_id": "1005012247477594"
+  },
+  "response": {
+    "action": "variants",
+    "ok": true,
+    "result": {
+      "checked_at_utc": "2026-09-03T16:04:36+00:00",
+      "product": {
+        "evaluation_count": "0",
+        "product_id": "1005012247477594",
+        "rating": "0.0",
+        "sales_count": "499",
+        "status": "onSelling",
+        "store": {
+          "communication_rating": "4.4",
+          "country": "CN",
+          "id": 1105268002,
+          "item_as_described_rating": "4.3",
+          "name": "TechGlow Store",
+          "shipping_speed_rating": "4.5"
+        },
+        "title": "Liseuse électronique XTEINK X3 avec écran E-Ink respectueux des yeux, mini appareil de lecture numérique portable. Le X3 est plus avancé que le X4."
+      },
+      "source": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS",
+      "variants": [
+        {
+          "currency": "EUR",
+          "offer_sale_price": "66.39",
+          "properties": [
+            {
+              "image": "https://ae01.alicdn.com/kf/Sc0a18d4da62943d2910c3f416cb9a7ab1.jpg",
+              "name": "Volume",
+              "raw_value": "3",
+              "value": "X3 B White Case"
+            }
+          ],
+          "sku_attr": "100007787:152#X3 B White Case",
+          "sku_id": "12000058975966660",
+          "sku_price": "93.51",
+          "stock": 181,
+          "tax_included": true
+        },
+        {
+          "currency": "EUR",
+          "offer_sale_price": "66.39",
+          "properties": [
+            {
+              "image": "https://ae01.alicdn.com/kf/Sfae0743102da4237bd7bfb082af94ca9V.jpg",
+              "name": "Volume",
+              "raw_value": "7",
+              "value": "X3 B Black Case"
+            }
+          ],
+          "sku_attr": "100007787:3434#X3 B Black Case",
+          "sku_id": "12000058975966661",
+          "sku_price": "93.51",
+          "stock": 120,
+          "tax_included": true
+        },
+        {
+          "currency": "EUR",
+          "offer_sale_price": "61.39",
+          "properties": [
+            {
+              "image": "https://ae01.alicdn.com/kf/Sf7419cd89fe046c3bcc58916fcd0ab41U.jpg",
+              "name": "Volume",
+              "raw_value": "1",
+              "value": "X3 White"
+            }
+          ],
+          "sku_attr": "100007787:150#X3 White",
+          "sku_id": "12000058975966656",
+          "sku_price": "86.46",
+          "stock": 121,
+          "tax_included": true
+        },
+        {
+          "currency": "EUR",
+          "offer_sale_price": "58.99",
+          "properties": [
+            {
+              "image": "https://ae01.alicdn.com/kf/Sc762991186974daa958b57a1d159444an.jpg",
+              "name": "Volume",
+              "raw_value": "5",
+              "value": "X3 Black"
+            }
+          ],
+          "sku_attr": "100007787:698#X3 Black",
+          "sku_id": "12000058975966657",
+          "sku_price": "83.08",
+          "stock": 135,
+          "tax_included": true
+        },
+        {
+          "currency": "EUR",
+          "offer_sale_price": "68.69",
+          "properties": [
+            {
+              "image": "https://ae01.alicdn.com/kf/S86793e8edb6a4e9bb47ab87146bdc7e4H.jpg",
+              "name": "Volume",
+              "raw_value": "2",
+              "value": "X3 W White Case"
+            }
+          ],
+          "sku_attr": "100007787:151#X3 W White Case",
+          "sku_id": "12000058975966658",
+          "sku_price": "96.75",
+          "stock": 124,
+          "tax_included": true
+        },
+        {
+          "currency": "EUR",
+          "offer_sale_price": "68.69",
+          "properties": [
+            {
+              "image": "https://ae01.alicdn.com/kf/Sb88340d4713c478f813bc166cf1034f9F.jpg",
+              "name": "Volume",
+              "raw_value": "6",
+              "value": "X3 W Black Case"
+            }
+          ],
+          "sku_attr": "100007787:1394#X3 W Black Case",
+          "sku_id": "12000058975966659",
+          "sku_price": "96.75",
+          "stock": 163,
+          "tax_included": true
+        }
+      ]
+    }
+  }
+}

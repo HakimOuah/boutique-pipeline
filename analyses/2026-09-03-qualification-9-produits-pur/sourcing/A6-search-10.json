@@ -1,0 +1,22 @@
+{
+  "observed_at_utc": "2026-09-03T16:05:07.792137+00:00",
+  "request": {
+    "action": "search",
+    "query": "WEISHI",
+    "limit": 20,
+    "destination": "FR",
+    "sort_by": "orders"
+  },
+  "response": {
+    "action": "search",
+    "ok": true,
+    "result": {
+      "checked_at_utc": "2026-09-03T16:05:06+00:00",
+      "destination": "FR",
+      "items": [],
+      "query": "WEISHI",
+      "sort_by": "orders",
+      "source": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS"
+    }
+  }
+}

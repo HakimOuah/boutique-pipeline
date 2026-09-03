@@ -4,6 +4,9 @@ Socle réutilisable pour lancer une boutique Shopify (Approche C : playbook + sc
 
 ## Démarrage
 ### Recherche produit
+
+Dernière étude PRODUIT PUR : [qualification approfondie des neuf candidats Search — 03/09/2026](analyses/2026-09-03-qualification-9-produits-pur/README.md), avec mots-clés, concurrence, sourcing, économie et décisions. Deux priorités, deux réserves, cinq arrêts de périmètre ; aucun produit prêt à lancer.
+
 1. Remplir `templates/product-research-request.template.md`.
 2. Suivre `PRODUCT-RESEARCH-PLAYBOOK.md`.
 3. Sortir une shortlist via `templates/product-research-scorecard.template.md`.

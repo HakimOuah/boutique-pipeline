@@ -1,0 +1,34 @@
+{
+  "observed_at_utc": "2026-09-03T14:43:32.430123+00:00",
+  "request": {
+    "action": "search",
+    "query": "Xteink",
+    "limit": 20,
+    "destination": "FR",
+    "sort_by": "price_desc"
+  },
+  "response": {
+    "action": "search",
+    "ok": true,
+    "result": {
+      "checked_at_utc": "2026-09-03T14:43:31+00:00",
+      "destination": "FR",
+      "items": [
+        {
+          "currency": "EUR",
+          "evaluation_rate": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S834573441fd14382bcf2faddd6e76ccdR.jpg",
+          "orders": "3",
+          "price": "15.69",
+          "product_id": "1005012448255730",
+          "rating": "",
+          "title": "T-shirt graphique vintage Xtreme pour hommes, style rétro punk des années 2000, t-shirt en coton surdimensionné, streetwear hip-hop, col rond, manches courtes",
+          "url": "//www.aliexpress.com/item/1005012448255730.html?skuId=12000058427364401&pdp_ext_f=%7B%22sku_id%22%3A%2212000058427364401%22%7D?appkey=532390"
+        }
+      ],
+      "query": "Xteink",
+      "sort_by": "price_desc",
+      "source": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS"
+    }
+  }
+}

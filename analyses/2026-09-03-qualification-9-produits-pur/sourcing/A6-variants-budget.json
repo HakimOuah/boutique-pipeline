@@ -1,0 +1,50 @@
+{
+  "observed_at_utc": "2026-09-03T16:07:32.390673+00:00",
+  "request": {
+    "action": "variants",
+    "product_id": "1005008406277519"
+  },
+  "response": {
+    "action": "variants",
+    "ok": true,
+    "result": {
+      "checked_at_utc": "2026-09-03T16:07:31+00:00",
+      "product": {
+        "evaluation_count": "0",
+        "product_id": "1005008406277519",
+        "rating": "0.0",
+        "sales_count": "147",
+        "status": "onSelling",
+        "store": {
+          "communication_rating": "4.8",
+          "country": "CN",
+          "id": 1103573332,
+          "item_as_described_rating": "5.0",
+          "name": "Stone's Store",
+          "shipping_speed_rating": "4.8"
+        },
+        "title": "Yaqi – rasoir de sécurité réglable en couleur chromée, coupe finale"
+      },
+      "source": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS",
+      "variants": [
+        {
+          "currency": "EUR",
+          "offer_sale_price": "24.39",
+          "properties": [
+            {
+              "image": "https://ae01.alicdn.com/kf/Sf0b4d6db6d3c401ba82532ec23637a624.jpg",
+              "name": "Couleur",
+              "raw_value": "Or",
+              "value": "RAA2001-C"
+            }
+          ],
+          "sku_attr": "14:350850#RAA2001-C",
+          "sku_id": "12000044908272569",
+          "sku_price": "51.89",
+          "stock": 3,
+          "tax_included": true
+        }
+      ]
+    }
+  }
+}

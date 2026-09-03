@@ -1,0 +1,2798 @@
+[
+  {
+    "candidate_id": "A1",
+    "mode": "PRODUIT PUR",
+    "product": "Antivol vélo pliant / articulé",
+    "prequalification_status": "STOP_PREQUALIFICATION",
+    "technical_recommendation": "TECHNICAL_FAIL",
+    "priority": null,
+    "decision_scope": "Offre et corpus sondés, France, Q4 2026 ; pas tout le marché parent",
+    "reason": "Arrêter la thèse du pliant générique. Demande spécifique trop petite et confiance difficile à déplacer depuis les marques établies.",
+    "addressable_search_demand": {
+      "core_proxy_monthly": 950,
+      "core_plus_conditional_scenario": 950,
+      "is_exhaustive": false,
+      "source": "mots-cles/A1.csv",
+      "residual_bucket_overlap": "Non éliminable totalement par API ; proximité du seuil garde REVIEW"
+    },
+    "generic_search_ratio": {
+      "value": 0.4612,
+      "scope": "Corpus core + conditional après exclusions ; lexique marques documenté, non exhaustif ; aucun ratio de toute la catégorie."
+    },
+    "keywordability": {
+      "score": null,
+      "assessment": "Un antivol pliant compact pour cycliste particulier ; longueur, résistance et compatibilité cadre définies. Le marché de tous les antivols vélo ne lui appartient pas."
+    },
+    "serp_winnability": {
+      "score": null,
+      "assessment": "Sur la requête pliant : Vélotafeur, Antivol Store, FUB, Decathlon et ABUS arrivent parmi les premiers résultats. Le verrou est surtout la preuve de résistance et la confiance ; il ne se résume pas à Amazon. Les spécialistes fournissent déjà longueur, montage, niveaux de sécurité et comparatifs."
+    },
+    "search_score": null,
+    "business_score": null,
+    "shopping_score": null,
+    "numeric_score_reason": "Barèmes séparés non opérationnalisés pour cette expérience, données fournisseurs incomplètes ; pas de score inventé.",
+    "economics": {
+      "selling_price": null,
+      "selling_price_hypothesis": 59.9,
+      "COGS": null,
+      "shipping_cost": null,
+      "payment_fees": null,
+      "estimated_cpc_usd_proxy": 0.2491,
+      "estimated_cpc_eur_proxy": 0.214464,
+      "fx": {
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+        "retrieved_at_utc": "2026-09-03T16:04:48.595724+00:00",
+        "rate_date": "2026-09-03",
+        "USD_per_EUR": 1.1615
+      },
+      "contribution_margin_before_ads": null,
+      "break_even_cpa": null,
+      "break_even_cvr": null,
+      "scenarios": [
+        {
+          "candidate_id": "A1",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.214464,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 21.4464,
+          "max_product_plus_shipping_eur": 23.9773,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A1",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.214464,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 14.2976,
+          "max_product_plus_shipping_eur": 31.1261,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A1",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.214464,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 10.7232,
+          "max_product_plus_shipping_eur": 34.7005,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A1",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.214464,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 7.1488,
+          "max_product_plus_shipping_eur": 38.2749,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A1",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.214464,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 32.1696,
+          "max_product_plus_shipping_eur": 13.2541,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A1",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.214464,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 21.4464,
+          "max_product_plus_shipping_eur": 23.9773,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A1",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.214464,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 16.0848,
+          "max_product_plus_shipping_eur": 29.3389,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A1",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.214464,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 10.7232,
+          "max_product_plus_shipping_eur": 34.7005,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        }
+      ],
+      "exact_supplier_scenarios": null
+    },
+    "supplier_status": "MANQUANT_POUR_OFFRE_EXACTE",
+    "supplier_ids_reviewed": [
+      "1005001580584977",
+      "1005003938534392"
+    ],
+    "google_trends": [
+      {
+        "keyword": "antivol vélo pliant",
+        "coverage_5y": 0.015,
+        "years": {
+          "2022": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          },
+          "2023": {
+            "coverage": 0.019,
+            "mean_known": 16,
+            "q4_vs_annual": null
+          },
+          "2024": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          },
+          "2025": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          }
+        },
+        "last12_vs_prior12": null,
+        "raw": "raw/40-A1-trends.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      },
+      {
+        "keyword": "antivol vélo",
+        "coverage_5y": 0.992,
+        "years": {
+          "2022": {
+            "coverage": 0.981,
+            "mean_known": 57.16,
+            "q4_vs_annual": 0.87
+          },
+          "2023": {
+            "coverage": 1.0,
+            "mean_known": 55.77,
+            "q4_vs_annual": 0.79
+          },
+          "2024": {
+            "coverage": 1.0,
+            "mean_known": 51.54,
+            "q4_vs_annual": 0.82
+          },
+          "2025": {
+            "coverage": 0.981,
+            "mean_known": 54.73,
+            "q4_vs_annual": 0.76
+          }
+        },
+        "last12_vs_prior12": 0.91,
+        "raw": "raw/40-A1-trends.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      }
+    ],
+    "actual_cpc": null,
+    "actual_cvr": null,
+    "expected_cpa": null,
+    "actual_cpa": null,
+    "CTR": null,
+    "ATC": null,
+    "checkout": null,
+    "sales": null,
+    "ROAS": null,
+    "sample_status": "NON_COMMANDE",
+    "gmc_readiness": "NON_EVALUABLE_AVANT_OFFRE_ET_BOUTIQUE",
+    "hakim_decision": null,
+    "go_final": false,
+    "next_evidence": "Seulement avec une offre de sécurité différenciante documentée et des preuves d’accès au parent ; un nouveau shop vendant le même pliant ne suffit pas."
+  },
+  {
+    "candidate_id": "A2",
+    "mode": "PRODUIT PUR",
+    "product": "Appareil photo numérique rétro / vintage de poche",
+    "prequalification_status": "STOP_PREQUALIFICATION",
+    "technical_recommendation": "TECHNICAL_FAIL",
+    "priority": null,
+    "decision_scope": "Offre et corpus sondés, France, Q4 2026 ; pas tout le marché parent",
+    "reason": "Arrêter cette offre pour le moteur Search actuel. Le désir existe, mais le cluster numérique neuf et son économie restent trop faibles.",
+    "addressable_search_demand": {
+      "core_proxy_monthly": 1750,
+      "core_plus_conditional_scenario": 11170,
+      "is_exhaustive": false,
+      "source": "mots-cles/A2.csv",
+      "residual_bucket_overlap": "Non éliminable totalement par API ; proximité du seuil garde REVIEW"
+    },
+    "generic_search_ratio": {
+      "value": 0.4747,
+      "scope": "Corpus core + conditional après exclusions ; lexique marques documenté, non exhaustif ; aucun ratio de toute la catégorie."
+    },
+    "keywordability": {
+      "score": null,
+      "assessment": "Compact numérique neuf donnant un rendu rétro, orienté particulier ; ni appareil argentique, ni ancien appareil de marque d’occasion, ni caméra porte-clés."
+    },
+    "serp_winnability": {
+      "score": null,
+      "assessment": "TimeLens, Kodak, Paper Shoot, Fnac, Amazon et Leboncoin cohabitent. La présence de Leboncoin et des communautés photo confirme l’ambiguïté neuf/ancien. Une page de rendu photographique et de simplicité peut convertir, mais TimeLens occupe déjà précisément cette promesse."
+    },
+    "search_score": null,
+    "business_score": null,
+    "shopping_score": null,
+    "numeric_score_reason": "Barèmes séparés non opérationnalisés pour cette expérience, données fournisseurs incomplètes ; pas de score inventé.",
+    "economics": {
+      "selling_price": null,
+      "selling_price_hypothesis": 79,
+      "COGS": null,
+      "shipping_cost": null,
+      "payment_fees": null,
+      "estimated_cpc_usd_proxy": 1.4733,
+      "estimated_cpc_eur_proxy": 1.268446,
+      "fx": {
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+        "retrieved_at_utc": "2026-09-03T16:04:48.595724+00:00",
+        "rate_date": "2026-09-03",
+        "USD_per_EUR": 1.1615
+      },
+      "contribution_margin_before_ads": null,
+      "break_even_cpa": null,
+      "break_even_cvr": null,
+      "scenarios": [
+        {
+          "candidate_id": "A2",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 1.268446,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 126.8446,
+          "max_product_plus_shipping_eur": -66.8413,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A2",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 1.268446,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 84.5631,
+          "max_product_plus_shipping_eur": -24.5597,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A2",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 1.268446,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 63.4223,
+          "max_product_plus_shipping_eur": -3.419,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A2",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 1.268446,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 42.2815,
+          "max_product_plus_shipping_eur": 17.7218,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A2",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 1.268446,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 190.2669,
+          "max_product_plus_shipping_eur": -130.2636,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A2",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 1.268446,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 126.8446,
+          "max_product_plus_shipping_eur": -66.8413,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A2",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 1.268446,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 95.1334,
+          "max_product_plus_shipping_eur": -35.1301,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A2",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 1.268446,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 63.4223,
+          "max_product_plus_shipping_eur": -3.419,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        }
+      ],
+      "exact_supplier_scenarios": null
+    },
+    "supplier_status": "MANQUANT_POUR_OFFRE_EXACTE",
+    "supplier_ids_reviewed": [
+      "1005010428506117",
+      "1005011569445966"
+    ],
+    "google_trends": [
+      {
+        "keyword": "appareil photo numérique vintage",
+        "coverage_5y": 0.011,
+        "years": {
+          "2022": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          },
+          "2023": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          },
+          "2024": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          },
+          "2025": {
+            "coverage": 0.019,
+            "mean_known": 33,
+            "q4_vs_annual": null
+          }
+        },
+        "last12_vs_prior12": null,
+        "raw": "raw/40-A2-trends.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      },
+      {
+        "keyword": "appareil photo vintage",
+        "coverage_5y": 0.824,
+        "years": {
+          "2022": {
+            "coverage": 0.788,
+            "mean_known": 33.46,
+            "q4_vs_annual": null
+          },
+          "2023": {
+            "coverage": 0.811,
+            "mean_known": 34.81,
+            "q4_vs_annual": 1.16
+          },
+          "2024": {
+            "coverage": 0.885,
+            "mean_known": 45.37,
+            "q4_vs_annual": 1.32
+          },
+          "2025": {
+            "coverage": 0.962,
+            "mean_known": 47.36,
+            "q4_vs_annual": 1.2
+          }
+        },
+        "last12_vs_prior12": 1.06,
+        "raw": "raw/40-A2-trends.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      }
+    ],
+    "actual_cpc": null,
+    "actual_cvr": null,
+    "expected_cpa": null,
+    "actual_cpa": null,
+    "CTR": null,
+    "ATC": null,
+    "checkout": null,
+    "sales": null,
+    "ROAS": null,
+    "sample_status": "NON_COMMANDE",
+    "gmc_readiness": "NON_EVALUABLE_AVANT_OFFRE_ET_BOUTIQUE",
+    "hakim_decision": null,
+    "go_final": false,
+    "next_evidence": "Nouvelle preuve de demande numérique neuve, produit visuellement/techniquement distinct et économie démontrée. Une voie sociale pourrait être étudiée séparément ; elle ne valide pas cette thèse Search."
+  },
+  {
+    "candidate_id": "A5",
+    "mode": "PRODUIT PUR",
+    "product": "Mini-liseuse EPUB de poche",
+    "prequalification_status": "STOP_PREQUALIFICATION",
+    "technical_recommendation": "TECHNICAL_FAIL",
+    "priority": null,
+    "decision_scope": "Offre et corpus sondés, France, Q4 2026 ; pas tout le marché parent",
+    "reason": "Arrêter. Le mini-format a très peu de demande et le fournisseur trouvé coûte presque le prix affiché par le fabricant.",
+    "addressable_search_demand": {
+      "core_proxy_monthly": 420,
+      "core_plus_conditional_scenario": 950,
+      "is_exhaustive": false,
+      "source": "mots-cles/A5.csv",
+      "residual_bucket_overlap": "Non éliminable totalement par API ; proximité du seuil garde REVIEW"
+    },
+    "generic_search_ratio": {
+      "value": 0.8716,
+      "scope": "Corpus core + conditional après exclusions ; lexique marques documenté, non exhaustif ; aucun ratio de toute la catégorie."
+    },
+    "keywordability": {
+      "score": null,
+      "assessment": "Liseuse E-Ink compacte réellement utilisable en français, fichiers EPUB ; la compatibilité DRM n’est pas supposée. Exclut lampes, logiciels, étuis et liseuses standard."
+    },
+    "serp_winnability": {
+      "score": null,
+      "assessment": "Le résultat mini associe comparatifs, Kobo Mini, Amazon, communautés et même une lampe. Le fabricant Xteink vend directement ; cela réduit fortement l’espace entre coût source et prix de vente. L’écart face aux liseuses 6 pouces de Vivlio n’est pas une marge acquise."
+    },
+    "search_score": null,
+    "business_score": null,
+    "shopping_score": null,
+    "numeric_score_reason": "Barèmes séparés non opérationnalisés pour cette expérience, données fournisseurs incomplètes ; pas de score inventé.",
+    "economics": {
+      "selling_price": null,
+      "selling_price_hypothesis": 79,
+      "COGS": 58.99,
+      "shipping_cost": 0.83,
+      "payment_fees": null,
+      "estimated_cpc_usd_proxy": 0.1505,
+      "estimated_cpc_eur_proxy": 0.129574,
+      "fx": {
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+        "retrieved_at_utc": "2026-09-03T16:04:48.595724+00:00",
+        "rate_date": "2026-09-03",
+        "USD_per_EUR": 1.1615
+      },
+      "contribution_margin_before_ads": null,
+      "break_even_cpa": null,
+      "break_even_cvr": null,
+      "scenarios": [
+        {
+          "candidate_id": "A5",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 0.129574,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 12.9574,
+          "max_product_plus_shipping_eur": 47.046,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A5",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 0.129574,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 8.6383,
+          "max_product_plus_shipping_eur": 51.3651,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A5",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 0.129574,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 6.4787,
+          "max_product_plus_shipping_eur": 53.5246,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A5",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 0.129574,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 4.3191,
+          "max_product_plus_shipping_eur": 55.6842,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A5",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 0.129574,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 19.4361,
+          "max_product_plus_shipping_eur": 40.5673,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A5",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 0.129574,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 12.9574,
+          "max_product_plus_shipping_eur": 47.046,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A5",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 0.129574,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 9.718,
+          "max_product_plus_shipping_eur": 50.2853,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A5",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 0.129574,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 6.4787,
+          "max_product_plus_shipping_eur": 53.5246,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A5",
+          "selling_price_ttc_hypothesis": 99,
+          "net_revenue_vat20_scenario": 82.5,
+          "payment_fees_2pct_plus_030_hypothesis": 2.28,
+          "returns_sav_reserve_5pct_hypothesis": 4.95,
+          "cpc_eur_proxy": 0.129574,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 12.9574,
+          "max_product_plus_shipping_eur": 62.3126,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A5",
+          "selling_price_ttc_hypothesis": 99,
+          "net_revenue_vat20_scenario": 82.5,
+          "payment_fees_2pct_plus_030_hypothesis": 2.28,
+          "returns_sav_reserve_5pct_hypothesis": 4.95,
+          "cpc_eur_proxy": 0.129574,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 8.6383,
+          "max_product_plus_shipping_eur": 66.6317,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A5",
+          "selling_price_ttc_hypothesis": 99,
+          "net_revenue_vat20_scenario": 82.5,
+          "payment_fees_2pct_plus_030_hypothesis": 2.28,
+          "returns_sav_reserve_5pct_hypothesis": 4.95,
+          "cpc_eur_proxy": 0.129574,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 6.4787,
+          "max_product_plus_shipping_eur": 68.7913,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A5",
+          "selling_price_ttc_hypothesis": 99,
+          "net_revenue_vat20_scenario": 82.5,
+          "payment_fees_2pct_plus_030_hypothesis": 2.28,
+          "returns_sav_reserve_5pct_hypothesis": 4.95,
+          "cpc_eur_proxy": 0.129574,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 4.3191,
+          "max_product_plus_shipping_eur": 70.9509,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A5",
+          "selling_price_ttc_hypothesis": 99,
+          "net_revenue_vat20_scenario": 82.5,
+          "payment_fees_2pct_plus_030_hypothesis": 2.28,
+          "returns_sav_reserve_5pct_hypothesis": 4.95,
+          "cpc_eur_proxy": 0.129574,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 19.4361,
+          "max_product_plus_shipping_eur": 55.8339,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A5",
+          "selling_price_ttc_hypothesis": 99,
+          "net_revenue_vat20_scenario": 82.5,
+          "payment_fees_2pct_plus_030_hypothesis": 2.28,
+          "returns_sav_reserve_5pct_hypothesis": 4.95,
+          "cpc_eur_proxy": 0.129574,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 12.9574,
+          "max_product_plus_shipping_eur": 62.3126,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A5",
+          "selling_price_ttc_hypothesis": 99,
+          "net_revenue_vat20_scenario": 82.5,
+          "payment_fees_2pct_plus_030_hypothesis": 2.28,
+          "returns_sav_reserve_5pct_hypothesis": 4.95,
+          "cpc_eur_proxy": 0.129574,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 9.718,
+          "max_product_plus_shipping_eur": 65.552,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A5",
+          "selling_price_ttc_hypothesis": 99,
+          "net_revenue_vat20_scenario": 82.5,
+          "payment_fees_2pct_plus_030_hypothesis": 2.28,
+          "returns_sav_reserve_5pct_hypothesis": 4.95,
+          "cpc_eur_proxy": 0.129574,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 6.4787,
+          "max_product_plus_shipping_eur": 68.7913,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        }
+      ],
+      "exact_supplier_scenarios": [
+        {
+          "selling_price_hypothesis": 79,
+          "product_cost_cash_eur": 58.99,
+          "shipping_cost_eur": 0.83,
+          "contribution_margin_before_ads_scenario": 0.1833,
+          "break_even_cpa_scenario": 0.1833,
+          "break_even_cvr_scenario": 0.7067663288067654,
+          "supplier_vat_recovery": "Hypothèse prudente : non récupérée ; aucune facture/traitement IOSS validé",
+          "evidence": "sourcing/A5-exact-X3-black.json"
+        },
+        {
+          "selling_price_hypothesis": 99,
+          "product_cost_cash_eur": 58.99,
+          "shipping_cost_eur": 0.83,
+          "contribution_margin_before_ads_scenario": 15.45,
+          "break_even_cpa_scenario": 15.45,
+          "break_even_cvr_scenario": 0.008386655465884282,
+          "supplier_vat_recovery": "Hypothèse prudente : non récupérée ; aucune facture/traitement IOSS validé",
+          "evidence": "sourcing/A5-exact-X3-black.json"
+        }
+      ]
+    },
+    "supplier_status": "SKU_FR_API_B",
+    "supplier_ids_reviewed": [
+      "1005012247477594",
+      "1005012134297394"
+    ],
+    "google_trends": [
+      {
+        "keyword": "mini liseuse",
+        "coverage_5y": 0.034,
+        "years": {
+          "2022": {
+            "coverage": 0.038,
+            "mean_known": 35,
+            "q4_vs_annual": null
+          },
+          "2023": {
+            "coverage": 0.057,
+            "mean_known": 37,
+            "q4_vs_annual": null
+          },
+          "2024": {
+            "coverage": 0.019,
+            "mean_known": 46,
+            "q4_vs_annual": null
+          },
+          "2025": {
+            "coverage": 0.019,
+            "mean_known": 43,
+            "q4_vs_annual": null
+          }
+        },
+        "last12_vs_prior12": null,
+        "raw": "raw/40-A5-trends.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      },
+      {
+        "keyword": "liseuse epub",
+        "coverage_5y": 0.222,
+        "years": {
+          "2022": {
+            "coverage": 0.173,
+            "mean_known": 51.78,
+            "q4_vs_annual": null
+          },
+          "2023": {
+            "coverage": 0.208,
+            "mean_known": 49.18,
+            "q4_vs_annual": null
+          },
+          "2024": {
+            "coverage": 0.327,
+            "mean_known": 54.71,
+            "q4_vs_annual": null
+          },
+          "2025": {
+            "coverage": 0.231,
+            "mean_known": 58.67,
+            "q4_vs_annual": null
+          }
+        },
+        "last12_vs_prior12": null,
+        "raw": "raw/40-A5-trends.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      }
+    ],
+    "actual_cpc": null,
+    "actual_cvr": null,
+    "expected_cpa": null,
+    "actual_cpa": null,
+    "CTR": null,
+    "ATC": null,
+    "checkout": null,
+    "sales": null,
+    "ROAS": null,
+    "sample_status": "NON_COMMANDE",
+    "gmc_readiness": "NON_EVALUABLE_AVANT_OFFRE_ET_BOUTIQUE",
+    "hakim_decision": null,
+    "go_final": false,
+    "next_evidence": "Nouvelle offre différenciée et preuve d’un cluster réellement accessible ; une autre couleur du X3 ne rouvre pas cette piste."
+  },
+  {
+    "candidate_id": "A6",
+    "mode": "PRODUIT PUR",
+    "product": "Rasoir de sûreté et kit débutant",
+    "prequalification_status": "REVIEW_PREQUALIFICATION",
+    "technical_recommendation": "TECHNICAL_INCONCLUSIVE",
+    "priority": 2,
+    "decision_scope": "Offre et corpus sondés, France, Q4 2026 ; pas tout le marché parent",
+    "reason": "Piste à conserver en priorité, mais pas prête pour sample ou Ads. Demande plausible juste au-dessus du seuil ; coût du kit complet et fournisseur fiables manquent.",
+    "addressable_search_demand": {
+      "core_proxy_monthly": 13180,
+      "core_plus_conditional_scenario": 17690,
+      "is_exhaustive": false,
+      "source": "mots-cles/A6.csv",
+      "residual_bucket_overlap": "Non éliminable totalement par API ; proximité du seuil garde REVIEW"
+    },
+    "generic_search_ratio": {
+      "value": 0.9161,
+      "scope": "Corpus core + conditional après exclusions ; lexique marques documenté, non exhaustif ; aucun ratio de toute la catégorie."
+    },
+    "keywordability": {
+      "score": null,
+      "assessment": "Rasoir de sûreté pour débutant particulier, géométrie douce démontrée, lames compatibles, guide et accessoires utiles. Un rasoir d’entrée vendu seul doit rester envisageable : forcer tout le volume produit vers un kit à 99 € surestimerait sa conversion."
+    },
+    "serp_winnability": {
+      "score": null,
+      "assessment": "Le Père Lucien, Rasage Classique, Gillette, Shavest, Lamazuna, Le Bouc et Plisson occupent les résultats. Commerce et pédagogie coexistent : bon fit Search. Mais le rasage doux pour débutants est déjà travaillé, notamment par Lamier ; une page simplement plus jolie serait une différence faible."
+    },
+    "search_score": null,
+    "business_score": null,
+    "shopping_score": null,
+    "numeric_score_reason": "Barèmes séparés non opérationnalisés pour cette expérience, données fournisseurs incomplètes ; pas de score inventé.",
+    "economics": {
+      "selling_price": null,
+      "selling_price_hypothesis": 99,
+      "COGS": null,
+      "shipping_cost": null,
+      "payment_fees": null,
+      "estimated_cpc_usd_proxy": 0.9264,
+      "estimated_cpc_eur_proxy": 0.797589,
+      "fx": {
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+        "retrieved_at_utc": "2026-09-03T16:04:48.595724+00:00",
+        "rate_date": "2026-09-03",
+        "USD_per_EUR": 1.1615
+      },
+      "contribution_margin_before_ads": null,
+      "break_even_cpa": null,
+      "break_even_cvr": null,
+      "scenarios": [
+        {
+          "candidate_id": "A6",
+          "selling_price_ttc_hypothesis": 99,
+          "net_revenue_vat20_scenario": 82.5,
+          "payment_fees_2pct_plus_030_hypothesis": 2.28,
+          "returns_sav_reserve_5pct_hypothesis": 4.95,
+          "cpc_eur_proxy": 0.797589,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 79.7589,
+          "max_product_plus_shipping_eur": -4.4889,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A6",
+          "selling_price_ttc_hypothesis": 99,
+          "net_revenue_vat20_scenario": 82.5,
+          "payment_fees_2pct_plus_030_hypothesis": 2.28,
+          "returns_sav_reserve_5pct_hypothesis": 4.95,
+          "cpc_eur_proxy": 0.797589,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 53.1726,
+          "max_product_plus_shipping_eur": 22.0974,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A6",
+          "selling_price_ttc_hypothesis": 99,
+          "net_revenue_vat20_scenario": 82.5,
+          "payment_fees_2pct_plus_030_hypothesis": 2.28,
+          "returns_sav_reserve_5pct_hypothesis": 4.95,
+          "cpc_eur_proxy": 0.797589,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 39.8795,
+          "max_product_plus_shipping_eur": 35.3905,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A6",
+          "selling_price_ttc_hypothesis": 99,
+          "net_revenue_vat20_scenario": 82.5,
+          "payment_fees_2pct_plus_030_hypothesis": 2.28,
+          "returns_sav_reserve_5pct_hypothesis": 4.95,
+          "cpc_eur_proxy": 0.797589,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 26.5863,
+          "max_product_plus_shipping_eur": 48.6837,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A6",
+          "selling_price_ttc_hypothesis": 99,
+          "net_revenue_vat20_scenario": 82.5,
+          "payment_fees_2pct_plus_030_hypothesis": 2.28,
+          "returns_sav_reserve_5pct_hypothesis": 4.95,
+          "cpc_eur_proxy": 0.797589,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 119.6384,
+          "max_product_plus_shipping_eur": -44.3684,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A6",
+          "selling_price_ttc_hypothesis": 99,
+          "net_revenue_vat20_scenario": 82.5,
+          "payment_fees_2pct_plus_030_hypothesis": 2.28,
+          "returns_sav_reserve_5pct_hypothesis": 4.95,
+          "cpc_eur_proxy": 0.797589,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 79.7589,
+          "max_product_plus_shipping_eur": -4.4889,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A6",
+          "selling_price_ttc_hypothesis": 99,
+          "net_revenue_vat20_scenario": 82.5,
+          "payment_fees_2pct_plus_030_hypothesis": 2.28,
+          "returns_sav_reserve_5pct_hypothesis": 4.95,
+          "cpc_eur_proxy": 0.797589,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 59.8192,
+          "max_product_plus_shipping_eur": 15.4508,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "A6",
+          "selling_price_ttc_hypothesis": 99,
+          "net_revenue_vat20_scenario": 82.5,
+          "payment_fees_2pct_plus_030_hypothesis": 2.28,
+          "returns_sav_reserve_5pct_hypothesis": 4.95,
+          "cpc_eur_proxy": 0.797589,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 39.8795,
+          "max_product_plus_shipping_eur": 35.3905,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        }
+      ],
+      "exact_supplier_scenarios": null
+    },
+    "supplier_status": "MANQUANT_POUR_OFFRE_EXACTE",
+    "supplier_ids_reviewed": [
+      "1005008406277519",
+      "32810912313",
+      "1005010295297941"
+    ],
+    "google_trends": [
+      {
+        "keyword": "rasoir de sûreté",
+        "coverage_5y": 0.054,
+        "years": {
+          "2022": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          },
+          "2023": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          },
+          "2024": {
+            "coverage": 0.077,
+            "mean_known": 41.25,
+            "q4_vs_annual": null
+          },
+          "2025": {
+            "coverage": 0.058,
+            "mean_known": 52.33,
+            "q4_vs_annual": null
+          }
+        },
+        "last12_vs_prior12": null,
+        "raw": "raw/40-A6-trends.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      },
+      {
+        "keyword": "coffret rasage homme",
+        "coverage_5y": 0.134,
+        "years": {
+          "2022": {
+            "coverage": 0.154,
+            "mean_known": 55.88,
+            "q4_vs_annual": null
+          },
+          "2023": {
+            "coverage": 0.113,
+            "mean_known": 56.5,
+            "q4_vs_annual": null
+          },
+          "2024": {
+            "coverage": 0.173,
+            "mean_known": 56.22,
+            "q4_vs_annual": null
+          },
+          "2025": {
+            "coverage": 0.096,
+            "mean_known": 56.4,
+            "q4_vs_annual": null
+          }
+        },
+        "last12_vs_prior12": null,
+        "raw": "raw/40-A6-trends.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      },
+      {
+        "keyword": "rasoir de surete",
+        "coverage_5y": 0.069,
+        "years": {
+          "2022": {
+            "coverage": 0.019,
+            "mean_known": 32,
+            "q4_vs_annual": null
+          },
+          "2023": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          },
+          "2024": {
+            "coverage": 0.058,
+            "mean_known": 25,
+            "q4_vs_annual": null
+          },
+          "2025": {
+            "coverage": 0.096,
+            "mean_known": 29.4,
+            "q4_vs_annual": null
+          }
+        },
+        "last12_vs_prior12": null,
+        "raw": "raw/41-A6-trends-orthography.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      },
+      {
+        "keyword": "coffret rasage",
+        "coverage_5y": 0.153,
+        "years": {
+          "2022": {
+            "coverage": 0.173,
+            "mean_known": 44,
+            "q4_vs_annual": null
+          },
+          "2023": {
+            "coverage": 0.113,
+            "mean_known": 52.33,
+            "q4_vs_annual": null
+          },
+          "2024": {
+            "coverage": 0.173,
+            "mean_known": 55.56,
+            "q4_vs_annual": null
+          },
+          "2025": {
+            "coverage": 0.135,
+            "mean_known": 47.14,
+            "q4_vs_annual": null
+          }
+        },
+        "last12_vs_prior12": null,
+        "raw": "raw/41-A6-trends-orthography.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      }
+    ],
+    "actual_cpc": null,
+    "actual_cvr": null,
+    "expected_cpa": null,
+    "actual_cpa": null,
+    "CTR": null,
+    "ATC": null,
+    "checkout": null,
+    "sales": null,
+    "ROAS": null,
+    "sample_status": "NON_COMMANDE",
+    "gmc_readiness": "NON_EVALUABLE_AVANT_OFFRE_ET_BOUTIQUE",
+    "hakim_decision": null,
+    "go_final": false,
+    "next_evidence": "Prochaine preuve utile : kit complet de qualité avec coût rendu sous le plafond choisi et vendeur/logistique satisfaisants ; vérifier l’offre d’entrée et les doublons avant PASS. Pas de commande autorisée par ce dossier."
+  },
+  {
+    "candidate_id": "B1",
+    "mode": "PRODUIT PUR",
+    "product": "Étendoir mural rabattable intérieur",
+    "prequalification_status": "REVIEW_PREQUALIFICATION",
+    "technical_recommendation": "TECHNICAL_INCONCLUSIVE",
+    "priority": 1,
+    "decision_scope": "Offre et corpus sondés, France, Q4 2026 ; pas tout le marché parent",
+    "reason": "Meilleure piste économique de la sélection, sous réserve d’un vrai produit et d’un fret acceptables. Demande cohérente, CPC bas, fournisseur exact encore absent.",
+    "addressable_search_demand": {
+      "core_proxy_monthly": 15490,
+      "core_plus_conditional_scenario": 17310,
+      "is_exhaustive": false,
+      "source": "mots-cles/B1.csv",
+      "residual_bucket_overlap": "Non éliminable totalement par API ; proximité du seuil garde REVIEW"
+    },
+    "generic_search_ratio": {
+      "value": 0.8498,
+      "scope": "Corpus core + conditional après exclusions ; lexique marques documenté, non exhaustif ; aucun ratio de toute la catégorie."
+    },
+    "keywordability": {
+      "score": null,
+      "assessment": "Étendoir à barres rigides rabattable/extensible fixé au mur, pour intérieur, capacité et encombrement définis. Ni fil rétractable, ni simple porte-cintres, ni séchoir chauffant."
+    },
+    "serp_winnability": {
+      "score": null,
+      "assessment": "Leroy Merlin, Brabantia, Leifheit, IKEA, Amazon et ManoMano sont présents, mais aussi Aeraly et des spécialistes. Le marché est prouvé, la concurrence tarifaire forte. Foxydry affiche déjà capacité, dimensions, fixation et expédition rapide : l’espace à prendre doit être concret."
+    },
+    "search_score": null,
+    "business_score": null,
+    "shopping_score": null,
+    "numeric_score_reason": "Barèmes séparés non opérationnalisés pour cette expérience, données fournisseurs incomplètes ; pas de score inventé.",
+    "economics": {
+      "selling_price": null,
+      "selling_price_hypothesis": 79,
+      "COGS": null,
+      "shipping_cost": null,
+      "payment_fees": null,
+      "estimated_cpc_usd_proxy": 0.232,
+      "estimated_cpc_eur_proxy": 0.199742,
+      "fx": {
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+        "retrieved_at_utc": "2026-09-03T16:04:48.595724+00:00",
+        "rate_date": "2026-09-03",
+        "USD_per_EUR": 1.1615
+      },
+      "contribution_margin_before_ads": null,
+      "break_even_cpa": null,
+      "break_even_cvr": null,
+      "scenarios": [
+        {
+          "candidate_id": "B1",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 0.199742,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 19.9742,
+          "max_product_plus_shipping_eur": 40.0292,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B1",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 0.199742,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 13.3161,
+          "max_product_plus_shipping_eur": 46.6872,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B1",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 0.199742,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 9.9871,
+          "max_product_plus_shipping_eur": 50.0162,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B1",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 0.199742,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 6.6581,
+          "max_product_plus_shipping_eur": 53.3453,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B1",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 0.199742,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 29.9613,
+          "max_product_plus_shipping_eur": 30.0421,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B1",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 0.199742,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 19.9742,
+          "max_product_plus_shipping_eur": 40.0292,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B1",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 0.199742,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 14.9806,
+          "max_product_plus_shipping_eur": 45.0227,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B1",
+          "selling_price_ttc_hypothesis": 79,
+          "net_revenue_vat20_scenario": 65.8333,
+          "payment_fees_2pct_plus_030_hypothesis": 1.88,
+          "returns_sav_reserve_5pct_hypothesis": 3.95,
+          "cpc_eur_proxy": 0.199742,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 9.9871,
+          "max_product_plus_shipping_eur": 50.0162,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B1",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.199742,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 19.9742,
+          "max_product_plus_shipping_eur": 25.4495,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B1",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.199742,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 13.3161,
+          "max_product_plus_shipping_eur": 32.1076,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B1",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.199742,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 9.9871,
+          "max_product_plus_shipping_eur": 35.4366,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B1",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.199742,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 6.6581,
+          "max_product_plus_shipping_eur": 38.7656,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B1",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.199742,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 29.9613,
+          "max_product_plus_shipping_eur": 15.4624,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B1",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.199742,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 19.9742,
+          "max_product_plus_shipping_eur": 25.4495,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B1",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.199742,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 14.9806,
+          "max_product_plus_shipping_eur": 30.443,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B1",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.199742,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 9.9871,
+          "max_product_plus_shipping_eur": 35.4366,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        }
+      ],
+      "exact_supplier_scenarios": null
+    },
+    "supplier_status": "MANQUANT_POUR_OFFRE_EXACTE",
+    "supplier_ids_reviewed": [
+      "1005011922900528"
+    ],
+    "google_trends": [
+      {
+        "keyword": "étendoir mural pliable",
+        "coverage_5y": 0.011,
+        "years": {
+          "2022": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          },
+          "2023": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          },
+          "2024": {
+            "coverage": 0.019,
+            "mean_known": 81,
+            "q4_vs_annual": null
+          },
+          "2025": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          }
+        },
+        "last12_vs_prior12": null,
+        "raw": "raw/40-B1-trends.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      },
+      {
+        "keyword": "étendoir mural",
+        "coverage_5y": 0.701,
+        "years": {
+          "2022": {
+            "coverage": 0.769,
+            "mean_known": 57.77,
+            "q4_vs_annual": null
+          },
+          "2023": {
+            "coverage": 0.925,
+            "mean_known": 62.2,
+            "q4_vs_annual": 0.98
+          },
+          "2024": {
+            "coverage": 0.808,
+            "mean_known": 67.5,
+            "q4_vs_annual": 0.99
+          },
+          "2025": {
+            "coverage": 0.596,
+            "mean_known": 64.71,
+            "q4_vs_annual": null
+          }
+        },
+        "last12_vs_prior12": null,
+        "raw": "raw/40-B1-trends.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      },
+      {
+        "keyword": "etendoir mural",
+        "coverage_5y": 0.992,
+        "years": {
+          "2022": {
+            "coverage": 1.0,
+            "mean_known": 36.83,
+            "q4_vs_annual": 1.05
+          },
+          "2023": {
+            "coverage": 1.0,
+            "mean_known": 42.79,
+            "q4_vs_annual": 0.99
+          },
+          "2024": {
+            "coverage": 1.0,
+            "mean_known": 43.17,
+            "q4_vs_annual": 0.97
+          },
+          "2025": {
+            "coverage": 0.981,
+            "mean_known": 41.73,
+            "q4_vs_annual": 0.97
+          }
+        },
+        "last12_vs_prior12": 0.94,
+        "raw": "raw/41-B1-trends-orthography.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      },
+      {
+        "keyword": "etendoir mural pliable",
+        "coverage_5y": 0.019,
+        "years": {
+          "2022": {
+            "coverage": 0.019,
+            "mean_known": 21,
+            "q4_vs_annual": null
+          },
+          "2023": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          },
+          "2024": {
+            "coverage": 0.019,
+            "mean_known": 15,
+            "q4_vs_annual": null
+          },
+          "2025": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          }
+        },
+        "last12_vs_prior12": null,
+        "raw": "raw/41-B1-trends-orthography.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      }
+    ],
+    "actual_cpc": null,
+    "actual_cvr": null,
+    "expected_cpa": null,
+    "actual_cpa": null,
+    "CTR": null,
+    "ATC": null,
+    "checkout": null,
+    "sales": null,
+    "ROAS": null,
+    "sample_status": "NON_COMMANDE",
+    "gmc_readiness": "NON_EVALUABLE_AVANT_OFFRE_ET_BOUTIQUE",
+    "hakim_decision": null,
+    "go_final": false,
+    "next_evidence": "Obtenir deux SKU comparables avec longueur/poids emballés, port France, stock et délais ; choisir une largeur principale, prouver charge et montage, puis recalculer la demande et l’économie. Priorité de recherche numéro 1, pas recommandation de lancement."
+  },
+  {
+    "candidate_id": "B2",
+    "mode": "PRODUIT PUR",
+    "product": "Support vélo mural pivotant",
+    "prequalification_status": "REVIEW_PREQUALIFICATION",
+    "technical_recommendation": "TECHNICAL_WATCH",
+    "priority": 3,
+    "decision_scope": "Offre et corpus sondés, France, Q4 2026 ; pas tout le marché parent",
+    "reason": "Réserve, sans lancement. Le pivot seul est minuscule ; le potentiel dépend du parent mural et d’une offre premium réellement différente des crochets à bas prix.",
+    "addressable_search_demand": {
+      "core_proxy_monthly": 190,
+      "core_plus_conditional_scenario": 13000,
+      "is_exhaustive": false,
+      "source": "mots-cles/B2.csv",
+      "residual_bucket_overlap": "Non éliminable totalement par API ; proximité du seuil garde REVIEW"
+    },
+    "generic_search_ratio": {
+      "value": 0.8742,
+      "scope": "Corpus core + conditional après exclusions ; lexique marques documenté, non exhaustif ; aucun ratio de toute la catégorie."
+    },
+    "keywordability": {
+      "score": null,
+      "assessment": "Rangement mural pivotant pour vélo particulier. Séparer le crochet pivotant simple du système guidant la roue sans lever le vélo ; ne pas emprunter le prix du second pour vendre le premier."
+    },
+    "serp_winnability": {
+      "score": null,
+      "assessment": "Leroy Merlin, VDD World, Rose Bikes, Mottez, SPRINTIS, Decathlon et Rack and Ride apparaissent. Les indépendants existent, mais le pivot à 180° est déjà disponible à bas prix. Steadyrack correspond à une mécanique et une confiance distinctes ; son prix n’est pas celui d’un crochet générique."
+    },
+    "search_score": null,
+    "business_score": null,
+    "shopping_score": null,
+    "numeric_score_reason": "Barèmes séparés non opérationnalisés pour cette expérience, données fournisseurs incomplètes ; pas de score inventé.",
+    "economics": {
+      "selling_price": null,
+      "selling_price_hypothesis": 29.9,
+      "COGS": null,
+      "shipping_cost": null,
+      "payment_fees": null,
+      "estimated_cpc_usd_proxy": 0.3761,
+      "estimated_cpc_eur_proxy": 0.323805,
+      "fx": {
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+        "retrieved_at_utc": "2026-09-03T16:04:48.595724+00:00",
+        "rate_date": "2026-09-03",
+        "USD_per_EUR": 1.1615
+      },
+      "contribution_margin_before_ads": null,
+      "break_even_cpa": null,
+      "break_even_cvr": null,
+      "scenarios": [
+        {
+          "candidate_id": "B2",
+          "selling_price_ttc_hypothesis": 29.9,
+          "net_revenue_vat20_scenario": 24.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 0.898,
+          "returns_sav_reserve_5pct_hypothesis": 1.495,
+          "cpc_eur_proxy": 0.323805,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 32.3805,
+          "max_product_plus_shipping_eur": -9.8569,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B2",
+          "selling_price_ttc_hypothesis": 29.9,
+          "net_revenue_vat20_scenario": 24.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 0.898,
+          "returns_sav_reserve_5pct_hypothesis": 1.495,
+          "cpc_eur_proxy": 0.323805,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 21.587,
+          "max_product_plus_shipping_eur": 0.9366,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B2",
+          "selling_price_ttc_hypothesis": 29.9,
+          "net_revenue_vat20_scenario": 24.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 0.898,
+          "returns_sav_reserve_5pct_hypothesis": 1.495,
+          "cpc_eur_proxy": 0.323805,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 16.1903,
+          "max_product_plus_shipping_eur": 6.3334,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B2",
+          "selling_price_ttc_hypothesis": 29.9,
+          "net_revenue_vat20_scenario": 24.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 0.898,
+          "returns_sav_reserve_5pct_hypothesis": 1.495,
+          "cpc_eur_proxy": 0.323805,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 10.7935,
+          "max_product_plus_shipping_eur": 11.7302,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B2",
+          "selling_price_ttc_hypothesis": 29.9,
+          "net_revenue_vat20_scenario": 24.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 0.898,
+          "returns_sav_reserve_5pct_hypothesis": 1.495,
+          "cpc_eur_proxy": 0.323805,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 48.5708,
+          "max_product_plus_shipping_eur": -26.0471,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B2",
+          "selling_price_ttc_hypothesis": 29.9,
+          "net_revenue_vat20_scenario": 24.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 0.898,
+          "returns_sav_reserve_5pct_hypothesis": 1.495,
+          "cpc_eur_proxy": 0.323805,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 32.3805,
+          "max_product_plus_shipping_eur": -9.8569,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B2",
+          "selling_price_ttc_hypothesis": 29.9,
+          "net_revenue_vat20_scenario": 24.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 0.898,
+          "returns_sav_reserve_5pct_hypothesis": 1.495,
+          "cpc_eur_proxy": 0.323805,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 24.2854,
+          "max_product_plus_shipping_eur": -1.7617,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B2",
+          "selling_price_ttc_hypothesis": 29.9,
+          "net_revenue_vat20_scenario": 24.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 0.898,
+          "returns_sav_reserve_5pct_hypothesis": 1.495,
+          "cpc_eur_proxy": 0.323805,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 16.1903,
+          "max_product_plus_shipping_eur": 6.3334,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B2",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.323805,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 32.3805,
+          "max_product_plus_shipping_eur": 13.0431,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B2",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.323805,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 21.587,
+          "max_product_plus_shipping_eur": 23.8366,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B2",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.323805,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 16.1903,
+          "max_product_plus_shipping_eur": 29.2334,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B2",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.323805,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 10.7935,
+          "max_product_plus_shipping_eur": 34.6302,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B2",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.323805,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 48.5708,
+          "max_product_plus_shipping_eur": -3.1471,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B2",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.323805,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 32.3805,
+          "max_product_plus_shipping_eur": 13.0431,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B2",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.323805,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 24.2854,
+          "max_product_plus_shipping_eur": 21.1383,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B2",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.323805,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 16.1903,
+          "max_product_plus_shipping_eur": 29.2334,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        }
+      ],
+      "exact_supplier_scenarios": null
+    },
+    "supplier_status": "MANQUANT_POUR_OFFRE_EXACTE",
+    "supplier_ids_reviewed": [],
+    "google_trends": [
+      {
+        "keyword": "support vélo mural pivotant",
+        "coverage_5y": 0.004,
+        "years": {
+          "2022": {
+            "coverage": 0.019,
+            "mean_known": 47,
+            "q4_vs_annual": null
+          },
+          "2023": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          },
+          "2024": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          },
+          "2025": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          }
+        },
+        "last12_vs_prior12": null,
+        "raw": "raw/40-B2-trends.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      },
+      {
+        "keyword": "support vélo mural",
+        "coverage_5y": 0.184,
+        "years": {
+          "2022": {
+            "coverage": 0.212,
+            "mean_known": 60.91,
+            "q4_vs_annual": null
+          },
+          "2023": {
+            "coverage": 0.283,
+            "mean_known": 59.6,
+            "q4_vs_annual": null
+          },
+          "2024": {
+            "coverage": 0.154,
+            "mean_known": 67.25,
+            "q4_vs_annual": null
+          },
+          "2025": {
+            "coverage": 0.135,
+            "mean_known": 71.86,
+            "q4_vs_annual": null
+          }
+        },
+        "last12_vs_prior12": null,
+        "raw": "raw/40-B2-trends.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      }
+    ],
+    "actual_cpc": null,
+    "actual_cvr": null,
+    "expected_cpa": null,
+    "actual_cpa": null,
+    "CTR": null,
+    "ATC": null,
+    "checkout": null,
+    "sales": null,
+    "ROAS": null,
+    "sample_status": "NON_COMMANDE",
+    "gmc_readiness": "NON_EVALUABLE_AVANT_OFFRE_ET_BOUTIQUE",
+    "hakim_decision": null,
+    "go_final": false,
+    "next_evidence": "Documenter une offre guidant la roue, son coût livré et la part du cluster mural qu’elle satisfait. Si elle reste un crochet pivotant standard, arrêter sur banalité/prix au lieu d’inventer un bundle."
+  },
+  {
+    "candidate_id": "B3",
+    "mode": "PRODUIT PUR",
+    "product": "Moustiquaire fenêtre sans perçage / cadre magnétique",
+    "prequalification_status": "STOP_PREQUALIFICATION",
+    "technical_recommendation": "TECHNICAL_FAIL",
+    "priority": null,
+    "decision_scope": "Offre et corpus sondés, France, Q4 2026 ; pas tout le marché parent",
+    "reason": "Arrêter pour cette sélection Q4. Demande compatible sous le seuil, saison défavorable et ticket unitaire trop contraint face aux offres existantes.",
+    "addressable_search_demand": {
+      "core_proxy_monthly": 10300,
+      "core_plus_conditional_scenario": 10840,
+      "is_exhaustive": false,
+      "source": "mots-cles/B3.csv",
+      "residual_bucket_overlap": "Non éliminable totalement par API ; proximité du seuil garde REVIEW"
+    },
+    "generic_search_ratio": {
+      "value": 0.9163,
+      "scope": "Corpus core + conditional après exclusions ; lexique marques documenté, non exhaustif ; aucun ratio de toute la catégorie."
+    },
+    "keywordability": {
+      "score": null,
+      "assessment": "Cadre magnétique recoupable pour fenêtre, sans perçage, dimensions et ouverture compatibles. Ni rideau de porte, ni enrouleur, ni service sur mesure."
+    },
+    "serp_winnability": {
+      "score": null,
+      "assessment": "Stores Discount, Kocoon, Leroy Merlin, Avosdim, Tesa et spécialistes dominent. Les pages proposent déjà mesure, recoupe et installation. Une simple promesse « facile sans percer » ne distingue pas une nouvelle boutique."
+    },
+    "search_score": null,
+    "business_score": null,
+    "shopping_score": null,
+    "numeric_score_reason": "Barèmes séparés non opérationnalisés pour cette expérience, données fournisseurs incomplètes ; pas de score inventé.",
+    "economics": {
+      "selling_price": null,
+      "selling_price_hypothesis": 24.9,
+      "COGS": null,
+      "shipping_cost": null,
+      "payment_fees": null,
+      "estimated_cpc_usd_proxy": 0.3999,
+      "estimated_cpc_eur_proxy": 0.344296,
+      "fx": {
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+        "retrieved_at_utc": "2026-09-03T16:04:48.595724+00:00",
+        "rate_date": "2026-09-03",
+        "USD_per_EUR": 1.1615
+      },
+      "contribution_margin_before_ads": null,
+      "break_even_cpa": null,
+      "break_even_cvr": null,
+      "scenarios": [
+        {
+          "candidate_id": "B3",
+          "selling_price_ttc_hypothesis": 24.9,
+          "net_revenue_vat20_scenario": 20.75,
+          "payment_fees_2pct_plus_030_hypothesis": 0.798,
+          "returns_sav_reserve_5pct_hypothesis": 1.245,
+          "cpc_eur_proxy": 0.344296,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 34.4296,
+          "max_product_plus_shipping_eur": -15.7226,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B3",
+          "selling_price_ttc_hypothesis": 24.9,
+          "net_revenue_vat20_scenario": 20.75,
+          "payment_fees_2pct_plus_030_hypothesis": 0.798,
+          "returns_sav_reserve_5pct_hypothesis": 1.245,
+          "cpc_eur_proxy": 0.344296,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 22.9531,
+          "max_product_plus_shipping_eur": -4.2461,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B3",
+          "selling_price_ttc_hypothesis": 24.9,
+          "net_revenue_vat20_scenario": 20.75,
+          "payment_fees_2pct_plus_030_hypothesis": 0.798,
+          "returns_sav_reserve_5pct_hypothesis": 1.245,
+          "cpc_eur_proxy": 0.344296,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 17.2148,
+          "max_product_plus_shipping_eur": 1.4922,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B3",
+          "selling_price_ttc_hypothesis": 24.9,
+          "net_revenue_vat20_scenario": 20.75,
+          "payment_fees_2pct_plus_030_hypothesis": 0.798,
+          "returns_sav_reserve_5pct_hypothesis": 1.245,
+          "cpc_eur_proxy": 0.344296,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 11.4765,
+          "max_product_plus_shipping_eur": 7.2305,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B3",
+          "selling_price_ttc_hypothesis": 24.9,
+          "net_revenue_vat20_scenario": 20.75,
+          "payment_fees_2pct_plus_030_hypothesis": 0.798,
+          "returns_sav_reserve_5pct_hypothesis": 1.245,
+          "cpc_eur_proxy": 0.344296,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 51.6444,
+          "max_product_plus_shipping_eur": -32.9374,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B3",
+          "selling_price_ttc_hypothesis": 24.9,
+          "net_revenue_vat20_scenario": 20.75,
+          "payment_fees_2pct_plus_030_hypothesis": 0.798,
+          "returns_sav_reserve_5pct_hypothesis": 1.245,
+          "cpc_eur_proxy": 0.344296,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 34.4296,
+          "max_product_plus_shipping_eur": -15.7226,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B3",
+          "selling_price_ttc_hypothesis": 24.9,
+          "net_revenue_vat20_scenario": 20.75,
+          "payment_fees_2pct_plus_030_hypothesis": 0.798,
+          "returns_sav_reserve_5pct_hypothesis": 1.245,
+          "cpc_eur_proxy": 0.344296,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 25.8222,
+          "max_product_plus_shipping_eur": -7.1152,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "B3",
+          "selling_price_ttc_hypothesis": 24.9,
+          "net_revenue_vat20_scenario": 20.75,
+          "payment_fees_2pct_plus_030_hypothesis": 0.798,
+          "returns_sav_reserve_5pct_hypothesis": 1.245,
+          "cpc_eur_proxy": 0.344296,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 17.2148,
+          "max_product_plus_shipping_eur": 1.4922,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        }
+      ],
+      "exact_supplier_scenarios": null
+    },
+    "supplier_status": "MANQUANT_POUR_OFFRE_EXACTE",
+    "supplier_ids_reviewed": [
+      "1005007221058021",
+      "1005007474514099",
+      "1005007561092101"
+    ],
+    "google_trends": [
+      {
+        "keyword": "moustiquaire fenêtre sans perçage",
+        "coverage_5y": 0.211,
+        "years": {
+          "2022": {
+            "coverage": 0.058,
+            "mean_known": 27.33,
+            "q4_vs_annual": null
+          },
+          "2023": {
+            "coverage": 0.189,
+            "mean_known": 27.3,
+            "q4_vs_annual": null
+          },
+          "2024": {
+            "coverage": 0.212,
+            "mean_known": 26.64,
+            "q4_vs_annual": null
+          },
+          "2025": {
+            "coverage": 0.269,
+            "mean_known": 34.93,
+            "q4_vs_annual": null
+          }
+        },
+        "last12_vs_prior12": null,
+        "raw": "raw/40-B3-trends.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      },
+      {
+        "keyword": "moustiquaire fenêtre magnétique",
+        "coverage_5y": 0.054,
+        "years": {
+          "2022": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          },
+          "2023": {
+            "coverage": 0.075,
+            "mean_known": 19.5,
+            "q4_vs_annual": null
+          },
+          "2024": {
+            "coverage": 0.019,
+            "mean_known": 19,
+            "q4_vs_annual": null
+          },
+          "2025": {
+            "coverage": 0.058,
+            "mean_known": 26.33,
+            "q4_vs_annual": null
+          }
+        },
+        "last12_vs_prior12": null,
+        "raw": "raw/40-B3-trends.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      },
+      {
+        "keyword": "moustiquaire fenetre sans percage",
+        "coverage_5y": 0.019,
+        "years": {
+          "2022": {
+            "coverage": 0.019,
+            "mean_known": 0,
+            "q4_vs_annual": null
+          },
+          "2023": {
+            "coverage": 0.019,
+            "mean_known": 0,
+            "q4_vs_annual": null
+          },
+          "2024": {
+            "coverage": 0.019,
+            "mean_known": 0,
+            "q4_vs_annual": null
+          },
+          "2025": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          }
+        },
+        "last12_vs_prior12": null,
+        "raw": "raw/41-B3-trends-orthography.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      },
+      {
+        "keyword": "moustiquaire",
+        "coverage_5y": 1.0,
+        "years": {
+          "2022": {
+            "coverage": 1.0,
+            "mean_known": 14.56,
+            "q4_vs_annual": 0.25
+          },
+          "2023": {
+            "coverage": 1.0,
+            "mean_known": 17.6,
+            "q4_vs_annual": 0.25
+          },
+          "2024": {
+            "coverage": 1.0,
+            "mean_known": 15.87,
+            "q4_vs_annual": 0.25
+          },
+          "2025": {
+            "coverage": 1.0,
+            "mean_known": 17.96,
+            "q4_vs_annual": 0.24
+          }
+        },
+        "last12_vs_prior12": 1.18,
+        "raw": "raw/41-B3-trends-orthography.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      }
+    ],
+    "actual_cpc": null,
+    "actual_cvr": null,
+    "expected_cpa": null,
+    "actual_cpa": null,
+    "CTR": null,
+    "ATC": null,
+    "checkout": null,
+    "sales": null,
+    "ROAS": null,
+    "sample_status": "NON_COMMANDE",
+    "gmc_readiness": "NON_EVALUABLE_AVANT_OFFRE_ET_BOUTIQUE",
+    "hakim_decision": null,
+    "go_final": false,
+    "next_evidence": "Éventuelle reprise printemps/été avec offre de kit et panier multi-fenêtres prouvés. Ce STOP porte sur le PRODUIT PUR Q4 testé, pas sur tout marché moustiquaire."
+  },
+  {
+    "candidate_id": "C2",
+    "mode": "PRODUIT PUR",
+    "product": "Casque TV sans fil avec émetteur",
+    "prequalification_status": "REVIEW_PREQUALIFICATION",
+    "technical_recommendation": "TECHNICAL_WATCH",
+    "priority": 4,
+    "decision_scope": "Offre et corpus sondés, France, Q4 2026 ; pas tout le marché parent",
+    "reason": "Réserve intéressante par son usage et sa saison, mais volume juste insuffisant et kit exact non sourcé. Aucun PASS automatique.",
+    "addressable_search_demand": {
+      "core_proxy_monthly": 11110,
+      "core_plus_conditional_scenario": 12190,
+      "is_exhaustive": false,
+      "source": "mots-cles/C2.csv",
+      "residual_bucket_overlap": "Non éliminable totalement par API ; proximité du seuil garde REVIEW"
+    },
+    "generic_search_ratio": {
+      "value": 0.695,
+      "scope": "Corpus core + conditional après exclusions ; lexique marques documenté, non exhaustif ; aucun ratio de toute la catégorie."
+    },
+    "keywordability": {
+      "score": null,
+      "assessment": "Casque TV pour écouter sans déranger, non médical ; kit émetteur, optique/jack selon offre, faible latence démontrée. Duo, entrée USB audio et maintien simultané du son TV doivent être prouvés séparément."
+    },
+    "serp_winnability": {
+      "score": null,
+      "assessment": "CGV, Darty, La Boutique d’Éric, Electro Dépôt, Boulanger et Sennheiser via distributeurs. Des acteurs spécialisés proposent déjà assistance et kits. Les offres pour malentendants sont un segment différent et ne justifient pas un prix élevé sur un simple casque TV."
+    },
+    "search_score": null,
+    "business_score": null,
+    "shopping_score": null,
+    "numeric_score_reason": "Barèmes séparés non opérationnalisés pour cette expérience, données fournisseurs incomplètes ; pas de score inventé.",
+    "economics": {
+      "selling_price": null,
+      "selling_price_hypothesis": 89.9,
+      "COGS": null,
+      "shipping_cost": null,
+      "payment_fees": null,
+      "estimated_cpc_usd_proxy": 0.2726,
+      "estimated_cpc_eur_proxy": 0.234697,
+      "fx": {
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+        "retrieved_at_utc": "2026-09-03T16:04:48.595724+00:00",
+        "rate_date": "2026-09-03",
+        "USD_per_EUR": 1.1615
+      },
+      "contribution_margin_before_ads": null,
+      "break_even_cpa": null,
+      "break_even_cvr": null,
+      "scenarios": [
+        {
+          "candidate_id": "C2",
+          "selling_price_ttc_hypothesis": 89.9,
+          "net_revenue_vat20_scenario": 74.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 2.098,
+          "returns_sav_reserve_5pct_hypothesis": 4.495,
+          "cpc_eur_proxy": 0.234697,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 23.4697,
+          "max_product_plus_shipping_eur": 44.854,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "C2",
+          "selling_price_ttc_hypothesis": 89.9,
+          "net_revenue_vat20_scenario": 74.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 2.098,
+          "returns_sav_reserve_5pct_hypothesis": 4.495,
+          "cpc_eur_proxy": 0.234697,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 15.6464,
+          "max_product_plus_shipping_eur": 52.6772,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "C2",
+          "selling_price_ttc_hypothesis": 89.9,
+          "net_revenue_vat20_scenario": 74.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 2.098,
+          "returns_sav_reserve_5pct_hypothesis": 4.495,
+          "cpc_eur_proxy": 0.234697,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 11.7348,
+          "max_product_plus_shipping_eur": 56.5888,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "C2",
+          "selling_price_ttc_hypothesis": 89.9,
+          "net_revenue_vat20_scenario": 74.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 2.098,
+          "returns_sav_reserve_5pct_hypothesis": 4.495,
+          "cpc_eur_proxy": 0.234697,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 7.8232,
+          "max_product_plus_shipping_eur": 60.5004,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "C2",
+          "selling_price_ttc_hypothesis": 89.9,
+          "net_revenue_vat20_scenario": 74.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 2.098,
+          "returns_sav_reserve_5pct_hypothesis": 4.495,
+          "cpc_eur_proxy": 0.234697,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 35.2045,
+          "max_product_plus_shipping_eur": 33.1192,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "C2",
+          "selling_price_ttc_hypothesis": 89.9,
+          "net_revenue_vat20_scenario": 74.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 2.098,
+          "returns_sav_reserve_5pct_hypothesis": 4.495,
+          "cpc_eur_proxy": 0.234697,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 23.4697,
+          "max_product_plus_shipping_eur": 44.854,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "C2",
+          "selling_price_ttc_hypothesis": 89.9,
+          "net_revenue_vat20_scenario": 74.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 2.098,
+          "returns_sav_reserve_5pct_hypothesis": 4.495,
+          "cpc_eur_proxy": 0.234697,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 17.6022,
+          "max_product_plus_shipping_eur": 50.7214,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "C2",
+          "selling_price_ttc_hypothesis": 89.9,
+          "net_revenue_vat20_scenario": 74.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 2.098,
+          "returns_sav_reserve_5pct_hypothesis": 4.495,
+          "cpc_eur_proxy": 0.234697,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 11.7348,
+          "max_product_plus_shipping_eur": 56.5888,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "C2",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.234697,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 23.4697,
+          "max_product_plus_shipping_eur": 21.954,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "C2",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.234697,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 15.6464,
+          "max_product_plus_shipping_eur": 29.7772,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "C2",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.234697,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 11.7348,
+          "max_product_plus_shipping_eur": 33.6888,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "C2",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.234697,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 7.8232,
+          "max_product_plus_shipping_eur": 37.6004,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "C2",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.234697,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 35.2045,
+          "max_product_plus_shipping_eur": 10.2192,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "C2",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.234697,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 23.4697,
+          "max_product_plus_shipping_eur": 21.954,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "C2",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.234697,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 17.6022,
+          "max_product_plus_shipping_eur": 27.8214,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "C2",
+          "selling_price_ttc_hypothesis": 59.9,
+          "net_revenue_vat20_scenario": 49.9167,
+          "payment_fees_2pct_plus_030_hypothesis": 1.498,
+          "returns_sav_reserve_5pct_hypothesis": 2.995,
+          "cpc_eur_proxy": 0.234697,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 11.7348,
+          "max_product_plus_shipping_eur": 33.6888,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        }
+      ],
+      "exact_supplier_scenarios": null
+    },
+    "supplier_status": "MANQUANT_POUR_OFFRE_EXACTE",
+    "supplier_ids_reviewed": [],
+    "google_trends": [
+      {
+        "keyword": "casque tv sans fil",
+        "coverage_5y": 0.996,
+        "years": {
+          "2022": {
+            "coverage": 1.0,
+            "mean_known": 49.08,
+            "q4_vs_annual": 1.35
+          },
+          "2023": {
+            "coverage": 1.0,
+            "mean_known": 42.47,
+            "q4_vs_annual": 1.35
+          },
+          "2024": {
+            "coverage": 1.0,
+            "mean_known": 35.15,
+            "q4_vs_annual": 1.5
+          },
+          "2025": {
+            "coverage": 1.0,
+            "mean_known": 34.35,
+            "q4_vs_annual": 1.38
+          }
+        },
+        "last12_vs_prior12": 0.89,
+        "raw": "raw/40-C2-trends.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      },
+      {
+        "keyword": "casque audio pour tv",
+        "coverage_5y": 0.195,
+        "years": {
+          "2022": {
+            "coverage": 0.288,
+            "mean_known": 11.33,
+            "q4_vs_annual": null
+          },
+          "2023": {
+            "coverage": 0.302,
+            "mean_known": 10.88,
+            "q4_vs_annual": null
+          },
+          "2024": {
+            "coverage": 0.096,
+            "mean_known": 13.6,
+            "q4_vs_annual": null
+          },
+          "2025": {
+            "coverage": 0.096,
+            "mean_known": 12.6,
+            "q4_vs_annual": null
+          }
+        },
+        "last12_vs_prior12": null,
+        "raw": "raw/40-C2-trends.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      }
+    ],
+    "actual_cpc": null,
+    "actual_cvr": null,
+    "expected_cpa": null,
+    "actual_cpa": null,
+    "CTR": null,
+    "ATC": null,
+    "checkout": null,
+    "sales": null,
+    "ROAS": null,
+    "sample_status": "NON_COMMANDE",
+    "gmc_readiness": "NON_EVALUABLE_AVANT_OFFRE_ET_BOUTIQUE",
+    "hakim_decision": null,
+    "go_final": false,
+    "next_evidence": "Trouver kit simple/duo exact, conformité et compatibilité ; prouver l’accès aux variantes avant de les compter. Des têtes supplémentaires ne doivent pas simplement dupliquer les buckets existants."
+  },
+  {
+    "candidate_id": "C6",
+    "mode": "PRODUIT PUR",
+    "product": "Poêle titane sans revêtement synthétique",
+    "prequalification_status": "STOP_PREQUALIFICATION",
+    "technical_recommendation": "TECHNICAL_FAIL",
+    "priority": null,
+    "decision_scope": "Offre et corpus sondés, France, Q4 2026 ; pas tout le marché parent",
+    "reason": "Arrêter la thèse actuelle. Volume spécifique insuffisant, CPC élevé au ticket observé et composition produit non démontrée.",
+    "addressable_search_demand": {
+      "core_proxy_monthly": 6550,
+      "core_plus_conditional_scenario": 6650,
+      "is_exhaustive": false,
+      "source": "mots-cles/C6.csv",
+      "residual_bucket_overlap": "Non éliminable totalement par API ; proximité du seuil garde REVIEW"
+    },
+    "generic_search_ratio": {
+      "value": 0.9666,
+      "scope": "Corpus core + conditional après exclusions ; lexique marques documenté, non exhaustif ; aucun ratio de toute la catégorie."
+    },
+    "keywordability": {
+      "score": null,
+      "assessment": "Poêle de cuisson domestique avec surface de contact alimentaire en titane documentée, sans revêtement synthétique selon preuve. Exclut camping, poêle à bois, revêtement « titanium », autres matériaux et simple absence de PFAS."
+    },
+    "serp_winnability": {
+      "score": null,
+      "assessment": "Titanox est premier sur la requête titane ; contenus cuisine, Nature & Vitalité, TitaneCook, Amazon et Our Place sont aussi présents. Sur sans PFAS, Que Choisir, IKEA, Beka et Pyrex renvoient d’autres matières. Le terrain DTC existe, mais le discours est saturé de promesses à vérifier."
+    },
+    "search_score": null,
+    "business_score": null,
+    "shopping_score": null,
+    "numeric_score_reason": "Barèmes séparés non opérationnalisés pour cette expérience, données fournisseurs incomplètes ; pas de score inventé.",
+    "economics": {
+      "selling_price": null,
+      "selling_price_hypothesis": 69.99,
+      "COGS": null,
+      "shipping_cost": null,
+      "payment_fees": null,
+      "estimated_cpc_usd_proxy": 1.2373,
+      "estimated_cpc_eur_proxy": 1.06526,
+      "fx": {
+        "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+        "retrieved_at_utc": "2026-09-03T16:04:48.595724+00:00",
+        "rate_date": "2026-09-03",
+        "USD_per_EUR": 1.1615
+      },
+      "contribution_margin_before_ads": null,
+      "break_even_cpa": null,
+      "break_even_cvr": null,
+      "scenarios": [
+        {
+          "candidate_id": "C6",
+          "selling_price_ttc_hypothesis": 69.99,
+          "net_revenue_vat20_scenario": 58.325,
+          "payment_fees_2pct_plus_030_hypothesis": 1.6998,
+          "returns_sav_reserve_5pct_hypothesis": 3.4995,
+          "cpc_eur_proxy": 1.06526,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 106.526,
+          "max_product_plus_shipping_eur": -53.4003,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "C6",
+          "selling_price_ttc_hypothesis": 69.99,
+          "net_revenue_vat20_scenario": 58.325,
+          "payment_fees_2pct_plus_030_hypothesis": 1.6998,
+          "returns_sav_reserve_5pct_hypothesis": 3.4995,
+          "cpc_eur_proxy": 1.06526,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 71.0174,
+          "max_product_plus_shipping_eur": -17.8917,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "C6",
+          "selling_price_ttc_hypothesis": 69.99,
+          "net_revenue_vat20_scenario": 58.325,
+          "payment_fees_2pct_plus_030_hypothesis": 1.6998,
+          "returns_sav_reserve_5pct_hypothesis": 3.4995,
+          "cpc_eur_proxy": 1.06526,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 53.263,
+          "max_product_plus_shipping_eur": -0.1373,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "C6",
+          "selling_price_ttc_hypothesis": 69.99,
+          "net_revenue_vat20_scenario": 58.325,
+          "payment_fees_2pct_plus_030_hypothesis": 1.6998,
+          "returns_sav_reserve_5pct_hypothesis": 3.4995,
+          "cpc_eur_proxy": 1.06526,
+          "cpc_stress_multiplier": 1,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 35.5087,
+          "max_product_plus_shipping_eur": 17.617,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "C6",
+          "selling_price_ttc_hypothesis": 69.99,
+          "net_revenue_vat20_scenario": 58.325,
+          "payment_fees_2pct_plus_030_hypothesis": 1.6998,
+          "returns_sav_reserve_5pct_hypothesis": 3.4995,
+          "cpc_eur_proxy": 1.06526,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.01,
+          "expected_cpa_scenario": 159.7891,
+          "max_product_plus_shipping_eur": -106.6634,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "C6",
+          "selling_price_ttc_hypothesis": 69.99,
+          "net_revenue_vat20_scenario": 58.325,
+          "payment_fees_2pct_plus_030_hypothesis": 1.6998,
+          "returns_sav_reserve_5pct_hypothesis": 3.4995,
+          "cpc_eur_proxy": 1.06526,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.015,
+          "expected_cpa_scenario": 106.526,
+          "max_product_plus_shipping_eur": -53.4003,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "C6",
+          "selling_price_ttc_hypothesis": 69.99,
+          "net_revenue_vat20_scenario": 58.325,
+          "payment_fees_2pct_plus_030_hypothesis": 1.6998,
+          "returns_sav_reserve_5pct_hypothesis": 3.4995,
+          "cpc_eur_proxy": 1.06526,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.02,
+          "expected_cpa_scenario": 79.8945,
+          "max_product_plus_shipping_eur": -26.7688,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        },
+        {
+          "candidate_id": "C6",
+          "selling_price_ttc_hypothesis": 69.99,
+          "net_revenue_vat20_scenario": 58.325,
+          "payment_fees_2pct_plus_030_hypothesis": 1.6998,
+          "returns_sav_reserve_5pct_hypothesis": 3.4995,
+          "cpc_eur_proxy": 1.06526,
+          "cpc_stress_multiplier": 1.5,
+          "cvr_hypothesis": 0.03,
+          "expected_cpa_scenario": 53.263,
+          "max_product_plus_shipping_eur": -0.1373,
+          "status": "HYPOTHESE — seuil de coût, pas devis ni CVR prévue"
+        }
+      ],
+      "exact_supplier_scenarios": null
+    },
+    "supplier_status": "MANQUANT_POUR_OFFRE_EXACTE",
+    "supplier_ids_reviewed": [
+      "1005006144744539"
+    ],
+    "google_trends": [
+      {
+        "keyword": "poêle titane",
+        "coverage_5y": 0.057,
+        "years": {
+          "2022": {
+            "coverage": 0.019,
+            "mean_known": 57,
+            "q4_vs_annual": null
+          },
+          "2023": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          },
+          "2024": {
+            "coverage": 0.058,
+            "mean_known": 68.33,
+            "q4_vs_annual": null
+          },
+          "2025": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          }
+        },
+        "last12_vs_prior12": null,
+        "raw": "raw/40-C6-trends.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      },
+      {
+        "keyword": "poêle sans pfas",
+        "coverage_5y": 0.031,
+        "years": {
+          "2022": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          },
+          "2023": {
+            "coverage": 0.019,
+            "mean_known": 50,
+            "q4_vs_annual": null
+          },
+          "2024": {
+            "coverage": 0.038,
+            "mean_known": 77.5,
+            "q4_vs_annual": null
+          },
+          "2025": {
+            "coverage": 0.019,
+            "mean_known": 72,
+            "q4_vs_annual": null
+          }
+        },
+        "last12_vs_prior12": null,
+        "raw": "raw/40-C6-trends.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      },
+      {
+        "keyword": "poele titane",
+        "coverage_5y": 0.149,
+        "years": {
+          "2022": {
+            "coverage": 0.019,
+            "mean_known": 27,
+            "q4_vs_annual": null
+          },
+          "2023": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          },
+          "2024": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          },
+          "2025": {
+            "coverage": 0.154,
+            "mean_known": 15,
+            "q4_vs_annual": null
+          }
+        },
+        "last12_vs_prior12": null,
+        "raw": "raw/41-C6-trends-orthography.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      },
+      {
+        "keyword": "poele sans pfas",
+        "coverage_5y": 0.299,
+        "years": {
+          "2022": {
+            "coverage": 0.0,
+            "mean_known": null,
+            "q4_vs_annual": null
+          },
+          "2023": {
+            "coverage": 0.019,
+            "mean_known": 10,
+            "q4_vs_annual": null
+          },
+          "2024": {
+            "coverage": 0.385,
+            "mean_known": 20.75,
+            "q4_vs_annual": null
+          },
+          "2025": {
+            "coverage": 0.788,
+            "mean_known": 21.15,
+            "q4_vs_annual": null
+          }
+        },
+        "last12_vs_prior12": null,
+        "raw": "raw/41-C6-trends-orthography.json.gz",
+        "note": "Indices Google Trends par requête ; pas volumes ; nulls exclus, semaine incomplète exclue."
+      }
+    ],
+    "actual_cpc": null,
+    "actual_cvr": null,
+    "expected_cpa": null,
+    "actual_cpa": null,
+    "CTR": null,
+    "ATC": null,
+    "checkout": null,
+    "sales": null,
+    "ROAS": null,
+    "sample_status": "NON_COMMANDE",
+    "gmc_readiness": "NON_EVALUABLE_AVANT_OFFRE_ET_BOUTIQUE",
+    "hakim_decision": null,
+    "go_final": false,
+    "next_evidence": "Seulement avec preuve matière/offre nouvelle, demande compatible et économie robuste. Le STOP historique « ustensiles titane » reste documenté avec cette reprise, pas effacé."
+  }
+]

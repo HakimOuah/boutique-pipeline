@@ -1,0 +1,16 @@
+{
+  "observed_at_utc": "2026-09-03T16:08:00.799090+00:00",
+  "request": {
+    "action": "exact",
+    "product_id": "1005008406277519",
+    "properties": [
+      "RAA2001-C"
+    ],
+    "destination": "FR"
+  },
+  "response": {
+    "detail": "Shipping unavailable: code=506 msg=DELIVERY_SERVICE_EXCEPTION",
+    "error": "qualification_refused",
+    "ok": false
+  }
+}

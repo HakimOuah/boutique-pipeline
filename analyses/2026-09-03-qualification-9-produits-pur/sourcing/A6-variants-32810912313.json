@@ -1,0 +1,43 @@
+{
+  "observed_at_utc": "2026-09-03T16:04:48.702074+00:00",
+  "request": {
+    "action": "variants",
+    "product_id": "32810912313"
+  },
+  "response": {
+    "action": "variants",
+    "ok": true,
+    "result": {
+      "checked_at_utc": "2026-09-03T16:04:46+00:00",
+      "product": {
+        "evaluation_count": "0",
+        "product_id": "32810912313",
+        "rating": "0.0",
+        "sales_count": "324",
+        "status": "onSelling",
+        "store": {
+          "communication_rating": "4.8",
+          "country": "CN",
+          "id": 2986023,
+          "item_as_described_rating": "4.8",
+          "name": "Yaqi Factory Store",
+          "shipping_speed_rating": "4.8"
+        },
+        "title": "Yaqi Shayish 24MM Brosse à raser pour homme, manche en résine, poils en nylon, pour barbe, barbier professionnel, nettoyage du visage"
+      },
+      "source": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS",
+      "variants": [
+        {
+          "currency": "EUR",
+          "offer_sale_price": "12.19",
+          "properties": [],
+          "sku_attr": "",
+          "sku_id": "64498755640",
+          "sku_price": "13.25",
+          "stock": 21,
+          "tax_included": true
+        }
+      ]
+    }
+  }
+}

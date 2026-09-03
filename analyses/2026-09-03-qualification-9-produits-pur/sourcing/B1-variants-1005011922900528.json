@@ -1,0 +1,135 @@
+{
+  "observed_at_utc": "2026-09-03T16:04:49.217759+00:00",
+  "request": {
+    "action": "variants",
+    "product_id": "1005011922900528"
+  },
+  "response": {
+    "action": "variants",
+    "ok": true,
+    "result": {
+      "checked_at_utc": "2026-09-03T16:04:47+00:00",
+      "product": {
+        "evaluation_count": "0",
+        "product_id": "1005011922900528",
+        "rating": "0.0",
+        "sales_count": "12",
+        "status": "onSelling",
+        "store": {
+          "communication_rating": "4.3",
+          "country": "CN",
+          "id": 1102437558,
+          "item_as_described_rating": "4.2",
+          "name": "Exquisite Furniture Store",
+          "shipping_speed_rating": "4.2"
+        },
+        "title": "Séchoir à linge rétractable et coulissant, cintre à rebond réglable, pour balcon, armoire ou rangement invisible en hauteur"
+      },
+      "source": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS",
+      "variants": [
+        {
+          "currency": "EUR",
+          "offer_sale_price": "98.69",
+          "properties": [
+            {
+              "image": "https://ae01.alicdn.com/kf/S18f2f1ebad75488daadb939c101a5e6ap.jpg",
+              "name": "Couleur",
+              "raw_value": "jaune clair",
+              "value": "Gray 600-Deepening"
+            }
+          ],
+          "sku_attr": "14:200006153#Gray 600-Deepening",
+          "sku_id": "12000057029805039",
+          "sku_price": "214.54",
+          "stock": 108,
+          "tax_included": true
+        },
+        {
+          "currency": "EUR",
+          "offer_sale_price": "112.99",
+          "properties": [
+            {
+              "image": "https://ae01.alicdn.com/kf/S61087e14b8a24ff8a6bc72b776507aabd.jpg",
+              "name": "Couleur",
+              "raw_value": "Bronze",
+              "value": "White 700-Deepening"
+            }
+          ],
+          "sku_attr": "14:202010806#White 700-Deepening",
+          "sku_id": "12000057029805044",
+          "sku_price": "245.63",
+          "stock": 109,
+          "tax_included": true
+        },
+        {
+          "currency": "EUR",
+          "offer_sale_price": "103.39",
+          "properties": [
+            {
+              "image": "https://ae01.alicdn.com/kf/S28a471b4e7434aa4a7064c48b5b8950fN.jpg",
+              "name": "Couleur",
+              "raw_value": "kaki foncé",
+              "value": "Gray 650-Deepening"
+            }
+          ],
+          "sku_attr": "14:200006154#Gray 650-Deepening",
+          "sku_id": "12000057029805040",
+          "sku_price": "224.76",
+          "stock": 105,
+          "tax_included": true
+        },
+        {
+          "currency": "EUR",
+          "offer_sale_price": "108.39",
+          "properties": [
+            {
+              "image": "https://ae01.alicdn.com/kf/S60268923f19f426bbda806fa7732c031S.jpg",
+              "name": "Couleur",
+              "raw_value": "GRIS FONCÉ",
+              "value": "Gray 700-Deepening"
+            }
+          ],
+          "sku_attr": "14:200006155#Gray 700-Deepening",
+          "sku_id": "12000057029805041",
+          "sku_price": "235.63",
+          "stock": 109,
+          "tax_included": true
+        },
+        {
+          "currency": "EUR",
+          "offer_sale_price": "103.69",
+          "properties": [
+            {
+              "image": "https://ae01.alicdn.com/kf/Scb5ec86940d74f66a3e8d139fbb82ea5G.jpg",
+              "name": "Couleur",
+              "raw_value": "vert clair",
+              "value": "White 600-Deepening"
+            }
+          ],
+          "sku_attr": "14:200006152#White 600-Deepening",
+          "sku_id": "12000057029805042",
+          "sku_price": "225.41",
+          "stock": 109,
+          "tax_included": true
+        },
+        {
+          "currency": "EUR",
+          "offer_sale_price": "108.39",
+          "properties": [
+            {
+              "image": "https://ae01.alicdn.com/kf/S9173bbf46e7947b896be1a905493f156v.jpg",
+              "name": "Couleur",
+              "raw_value": "Gris clair",
+              "value": "White 650-Deepening"
+            }
+          ],
+          "sku_attr": "14:200006151#White 650-Deepening",
+          "sku_id": "12000057029805043",
+          "sku_price": "235.63",
+          "stock": 109,
+          "tax_included": true
+        }
+      ]
+    }
+  }
+}

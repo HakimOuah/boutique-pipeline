@@ -1,0 +1,34 @@
+{
+  "observed_at_utc": "2026-09-03T14:43:14.315160+00:00",
+  "request": {
+    "action": "search",
+    "query": "ETOOK",
+    "limit": 20,
+    "destination": "FR",
+    "sort_by": "price_desc"
+  },
+  "response": {
+    "action": "search",
+    "ok": true,
+    "result": {
+      "checked_at_utc": "2026-09-03T14:43:13+00:00",
+      "destination": "FR",
+      "items": [
+        {
+          "currency": "EUR",
+          "evaluation_rate": "100.0",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7a4a479ef8414de296fd2cd832c6a9b8v.jpg",
+          "orders": "31",
+          "price": "14.49",
+          "product_id": "1005001580584977",
+          "rating": "5.0",
+          "title": "Etook-Serrure u-lock antivol pour vélo, moto, scooter, VTT, avec clé, accessoires",
+          "url": "//www.aliexpress.com/item/1005001580584977.html?skuId=12000021263488904&pdp_ext_f=%7B%22sku_id%22%3A%2212000021263488904%22%7D?appkey=532390"
+        }
+      ],
+      "query": "ETOOK",
+      "sort_by": "price_desc",
+      "source": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS"
+    }
+  }
+}

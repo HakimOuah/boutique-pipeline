@@ -1,0 +1,185 @@
+{
+  "note": "Comptage positions, domaines répétés conservés. Enseignes multiservices séparées des marketplaces listées dans le script. Aucun pourcentage de clics/ventes. Les spécialistes indépendants ne sont pas des places automatiquement gagnables.",
+  "rows": [
+    {
+      "candidate_id": "A1",
+      "query": "antivol vélo pliant",
+      "observed_10": 10,
+      "marketplaces_10": 0,
+      "large_retailers_10": 1,
+      "observed_20": 18,
+      "marketplaces_20": 1,
+      "large_retailers_20": 1
+    },
+    {
+      "candidate_id": "A1",
+      "query": "antivol vélo",
+      "observed_10": 10,
+      "marketplaces_10": 0,
+      "large_retailers_10": 2,
+      "observed_20": 18,
+      "marketplaces_20": 1,
+      "large_retailers_20": 3
+    },
+    {
+      "candidate_id": "A2",
+      "query": "appareil photo numérique vintage",
+      "observed_10": 10,
+      "marketplaces_10": 2,
+      "large_retailers_10": 1,
+      "observed_20": 18,
+      "marketplaces_20": 2,
+      "large_retailers_20": 3
+    },
+    {
+      "candidate_id": "A2",
+      "query": "appareil photo vintage",
+      "observed_10": 10,
+      "marketplaces_10": 0,
+      "large_retailers_10": 1,
+      "observed_20": 18,
+      "marketplaces_20": 1,
+      "large_retailers_20": 2
+    },
+    {
+      "candidate_id": "A5",
+      "query": "mini liseuse",
+      "observed_10": 10,
+      "marketplaces_10": 1,
+      "large_retailers_10": 2,
+      "observed_20": 18,
+      "marketplaces_20": 1,
+      "large_retailers_20": 2
+    },
+    {
+      "candidate_id": "A5",
+      "query": "liseuse epub",
+      "observed_10": 10,
+      "marketplaces_10": 2,
+      "large_retailers_10": 0,
+      "observed_20": 20,
+      "marketplaces_20": 2,
+      "large_retailers_20": 1
+    },
+    {
+      "candidate_id": "A6",
+      "query": "rasoir de sûreté",
+      "observed_10": 10,
+      "marketplaces_10": 0,
+      "large_retailers_10": 0,
+      "observed_20": 19,
+      "marketplaces_20": 1,
+      "large_retailers_20": 0
+    },
+    {
+      "candidate_id": "A6",
+      "query": "coffret rasage homme",
+      "observed_10": 10,
+      "marketplaces_10": 0,
+      "large_retailers_10": 0,
+      "observed_20": 18,
+      "marketplaces_20": 1,
+      "large_retailers_20": 0
+    },
+    {
+      "candidate_id": "B1",
+      "query": "étendoir mural pliable",
+      "observed_10": 10,
+      "marketplaces_10": 2,
+      "large_retailers_10": 1,
+      "observed_20": 18,
+      "marketplaces_20": 4,
+      "large_retailers_20": 1
+    },
+    {
+      "candidate_id": "B1",
+      "query": "étendoir mural",
+      "observed_10": 10,
+      "marketplaces_10": 2,
+      "large_retailers_10": 2,
+      "observed_20": 17,
+      "marketplaces_20": 2,
+      "large_retailers_20": 3
+    },
+    {
+      "candidate_id": "B2",
+      "query": "support vélo mural pivotant",
+      "observed_10": 10,
+      "marketplaces_10": 0,
+      "large_retailers_10": 2,
+      "observed_20": 17,
+      "marketplaces_20": 2,
+      "large_retailers_20": 2
+    },
+    {
+      "candidate_id": "B2",
+      "query": "support vélo mural",
+      "observed_10": 10,
+      "marketplaces_10": 2,
+      "large_retailers_10": 2,
+      "observed_20": 17,
+      "marketplaces_20": 2,
+      "large_retailers_20": 2
+    },
+    {
+      "candidate_id": "B3",
+      "query": "moustiquaire fenêtre sans perçage",
+      "observed_10": 10,
+      "marketplaces_10": 0,
+      "large_retailers_10": 1,
+      "observed_20": 17,
+      "marketplaces_20": 1,
+      "large_retailers_20": 2
+    },
+    {
+      "candidate_id": "B3",
+      "query": "moustiquaire fenêtre magnétique",
+      "observed_10": 10,
+      "marketplaces_10": 2,
+      "large_retailers_10": 2,
+      "observed_20": 18,
+      "marketplaces_20": 2,
+      "large_retailers_20": 4
+    },
+    {
+      "candidate_id": "C2",
+      "query": "casque tv sans fil",
+      "observed_10": 10,
+      "marketplaces_10": 0,
+      "large_retailers_10": 4,
+      "observed_20": 20,
+      "marketplaces_20": 2,
+      "large_retailers_20": 5
+    },
+    {
+      "candidate_id": "C2",
+      "query": "casque audio pour tv",
+      "observed_10": 10,
+      "marketplaces_10": 0,
+      "large_retailers_10": 3,
+      "observed_20": 20,
+      "marketplaces_20": 0,
+      "large_retailers_20": 6
+    },
+    {
+      "candidate_id": "C6",
+      "query": "poêle titane",
+      "observed_10": 10,
+      "marketplaces_10": 1,
+      "large_retailers_10": 0,
+      "observed_20": 19,
+      "marketplaces_20": 2,
+      "large_retailers_20": 0
+    },
+    {
+      "candidate_id": "C6",
+      "query": "poêle sans pfas",
+      "observed_10": 10,
+      "marketplaces_10": 0,
+      "large_retailers_10": 1,
+      "observed_20": 20,
+      "marketplaces_20": 1,
+      "large_retailers_20": 1
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "observed_at_utc": "2026-09-03T14:45:53.471949+00:00",
+  "request": {
+    "action": "search",
+    "query": "SIMOLIO",
+    "limit": 20,
+    "destination": "FR",
+    "sort_by": "orders"
+  },
+  "response": {
+    "action": "search",
+    "ok": true,
+    "result": {
+      "checked_at_utc": "2026-09-03T14:45:52+00:00",
+      "destination": "FR",
+      "items": [],
+      "query": "SIMOLIO",
+      "sort_by": "orders",
+      "source": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS"
+    }
+  }
+}
