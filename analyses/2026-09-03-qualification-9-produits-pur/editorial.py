@@ -43,7 +43,7 @@ DATA={
  'reopen':'Nouvelle offre différenciée et preuve d’un cluster réellement accessible ; une autre couleur du X3 ne rouvre pas cette piste.',
  'checks':'Français et accents, rendu EPUB/PDF, DRM et transfert, batterie, robustesse écran, SAV, droit de revente/branding. Aucun test matériel réalisé.'},
 'A6':{
- 'name':'Rasoir de sûreté et kit débutant','prequalification':'REVIEW_PREQUALIFICATION','technical':'TECHNICAL_INCONCLUSIVE','priority':2,'price':99,
+ 'name':'Rasoir de sûreté — kit débutant en option à valider','prequalification':'REVIEW_PREQUALIFICATION','technical':'TECHNICAL_INCONCLUSIVE','priority':2,'price':99,
  'conclusion':'Piste à conserver en priorité, mais pas prête pour sample ou Ads. Demande plausible juste au-dessus du seuil ; coût du kit complet et fournisseur fiables manquent.',
  'offer':'Rasoir de sûreté pour débutant particulier, géométrie douce démontrée, lames compatibles, guide et accessoires utiles. Un rasoir d’entrée vendu seul doit rester envisageable : forcer tout le volume produit vers un kit à 99 € surestimerait sa conversion.',
  'demand':'Le cœur comprend sûreté/sécurité et leurs intentions commerciales. Coffrets rasage/traditionnel restent conditionnels : les SERP montrent aussi cosmétiques et cadeaux sans rasoir de sûreté. Le dépassement du seuil est faible et des buckets Google proches peuvent encore se chevaucher ; cela impose REVIEW. Ne pas transformer une absence de mesure fournisseur en note zéro.',

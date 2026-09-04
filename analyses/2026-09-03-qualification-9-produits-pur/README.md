@@ -1,5 +1,7 @@
 # Qualification des neuf PRODUITS PURS — 03/09/2026
 
+> **Complément du 04/09 :** [comparaison des captures SEMrush et des réponses DataForSEO](../2026-09-04-audit-ecarts-volumes/README.md). Sans accents, les ordres de grandeur de l'étendoir se rapprochent ; la priorité de recherche reste en REVIEW. Les 13 180 d'A6 désignent les rasoirs de sûreté, pas la demande explicite de kits à 99 €. Les totaux ci-dessous restent les estimations du 03/09, pas de nouvelles mesures validées.
+
 **Deux pistes à poursuivre en priorité : étendoir mural et kit de rasage. Deux réserves : support vélo pivotant et casque TV. Cinq thèses à arrêter. Aucun candidat prêt à lancer.**
 
 Demande Hakim : analyse approfondie des neuf candidats non STOP des deux tests de découverte, jusqu'à la concurrence, au sourcing et à l'économie. Cette étude n'implémente pas la nouvelle architecture. Elle conserve le modèle PRODUIT PUR Search, le seuil de 12 500, les règles UNIVERS et le vocabulaire canonique.
@@ -11,7 +13,7 @@ Demande Hakim : analyse approfondie des neuf candidats non STOP des deux tests d
 | [A1 — Antivol vélo pliant / articulé](dossiers/A1.md) | 950 | 950 | TECHNICAL_FAIL | Arrêt de cette thèse |
 | [A2 — Appareil photo numérique rétro / vintage de poche](dossiers/A2.md) | 1 750 | 11 170 | TECHNICAL_FAIL | Arrêt de cette thèse |
 | [A5 — Mini-liseuse EPUB de poche](dossiers/A5.md) | 420 | 950 | TECHNICAL_FAIL | Arrêt de cette thèse |
-| [A6 — Rasoir de sûreté et kit débutant](dossiers/A6.md) | 13 180 | 17 690 | TECHNICAL_INCONCLUSIVE | Priorité 2 |
+| [A6 — Rasoir de sûreté — kit débutant en option à valider](dossiers/A6.md) | 13 180 | 17 690 | TECHNICAL_INCONCLUSIVE | Priorité 2 |
 | [B1 — Étendoir mural rabattable intérieur](dossiers/B1.md) | 15 490 | 17 310 | TECHNICAL_INCONCLUSIVE | Priorité 1 |
 | [B2 — Support vélo mural pivotant](dossiers/B2.md) | 190 | 13 000 | TECHNICAL_WATCH | Réserve |
 | [B3 — Moustiquaire fenêtre sans perçage / cadre magnétique](dossiers/B3.md) | 10 300 | 10 840 | TECHNICAL_FAIL | Arrêt de cette thèse |

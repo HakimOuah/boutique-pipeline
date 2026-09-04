@@ -10,7 +10,11 @@ Règles d'usage :
 - Le registre pointe vers les rapports ; il ne remplace jamais leur détail ni leurs réserves.
 - Niveaux de validation : 1 = marché, 2 = fiche AliExpress, 3 = commande test, 4 = GO lancement. Aucun raccourci entre niveaux.
 
-Dernière mise à jour : 3 septembre 2026 — **qualification approfondie des neuf REVIEW : 4 REVIEW / 5 STOP, zéro PASS** ; **test couplé TrendTrack ↔ demande Google : 6 offres mesurées, 4 STOP de périmètre / 2 REVIEW** ; conservation du premier test de 12 pistes. Également ce jour : portefeuilles, PDP Chrome (homme CONTACTS 16,50 €, 4,8/411 ; femme CONTACT’S 14,69 / 21,39 €, un seul atelier ; Sterre stock PDP 5) ; poufs, Trends + sourcing.
+Dernière mise à jour : 4 septembre 2026 — **rapprochement des volumes A6/B1 avec trois captures SEMrush, REVIEW maintenus** ; **qualification approfondie des neuf REVIEW : 4 REVIEW / 5 STOP, zéro PASS** ; **test couplé TrendTrack ↔ demande Google : 6 offres mesurées, 4 STOP de périmètre / 2 REVIEW** ; conservation du premier test de 12 pistes. Également ce jour : portefeuilles, PDP Chrome (homme CONTACTS 16,50 €, 4,8/411 ; femme CONTACT’S 14,69 / 21,39 €, un seul atelier ; Sterre stock PDP 5) ; poufs, Trends + sourcing.
+
+## Contrôle des volumes A6 / B1 — 04/09/2026
+
+[Comparaison des trois captures de Hakim avec les réponses DataForSEO](analyses/2026-09-04-audit-ecarts-volumes/README.md). Sans accents, SEMrush donne **4 400** pour `etendoir mural` contre **5 400** DataForSEO, et **1 300** pour `etendoir mural pliable` contre **1 600**. L'ordre de grandeur est cohérent ; B1 reste priorité de recherche en REVIEW, le total 15 490 n'est pas intégralement corroboré. **A6 : les 13 180 concernent les rasoirs de sûreté, pas les kits à 99 €** ; kit en option et panier moyen à valider. Aucune promotion ou modification de seuil. Nouveau contrôle produit refusé par DataForSEO `40200 Payment Required` après témoin à 12 100 ; pas de nouvelle mesure produit le 04/09.
 
 ## PRODUIT PUR — qualification approfondie des neuf REVIEW — 03/09/2026
 
@@ -21,7 +25,7 @@ Dernière mise à jour : 3 septembre 2026 — **qualification approfondie des ne
 | A1 — Antivol pliant | `STOP_PREQUALIFICATION` | 950 | `TECHNICAL_FAIL` : format trop étroit et confiance marques ; parent non acquis. |
 | A2 — Appareil photo numérique rétro | `STOP_PREQUALIFICATION` | 1 750 | `TECHNICAL_FAIL` : ambiguïté vintage/occasion et CPC élevé ; source compacte équivalente absente. |
 | A5 — Mini-liseuse EPUB | `STOP_PREQUALIFICATION` | 420 | `TECHNICAL_FAIL` : faible demande spécifique ; X3 Black API 59,82 € livré CN 8–15 j face au fabricant Shopping 60,95 €. |
-| A6 — Kit rasage de sûreté débutant | `REVIEW_PREQUALIFICATION` | 13 180 | `TECHNICAL_INCONCLUSIVE` : priorité 2 ; proximité du seuil, kit complet/fret manquants, Trends 5 ans lacunaire. |
+| A6 — Rasoir de sûreté, kit débutant en option à valider | `REVIEW_PREQUALIFICATION` | 13 180 | `TECHNICAL_INCONCLUSIVE` : priorité 2 du rasoir ; volume non attribuable au kit à 99 €, kit complet/fret manquants, Trends 5 ans lacunaire. |
 | B1 — Étendoir mural rabattable intérieur | `REVIEW_PREQUALIFICATION` | 15 490 | `TECHNICAL_INCONCLUSIVE` : priorité 1 ; bon rapport demande/CPC, source exacte et différenciation prix à confirmer. |
 | B2 — Support vélo mural pivotant | `REVIEW_PREQUALIFICATION` | 190 | `TECHNICAL_WATCH` : réserve ; 13 000 seulement avec parent conditionnel, pivots simples à 15–30 €. |
 | B3 — Moustiquaire fenêtre sans perçage | `STOP_PREQUALIFICATION` | 10 300 | `TECHNICAL_FAIL` pour l'offre Q4 : demande, ticket/marge et saison ; pas STOP de tout le marché moustiquaire. |

@@ -838,7 +838,7 @@
   {
     "candidate_id": "A6",
     "mode": "PRODUIT PUR",
-    "product": "Rasoir de sûreté et kit débutant",
+    "product": "Rasoir de sûreté — kit débutant en option à valider",
     "prequalification_status": "REVIEW_PREQUALIFICATION",
     "technical_recommendation": "TECHNICAL_INCONCLUSIVE",
     "priority": 2,
@@ -1129,7 +1129,13 @@
     "gmc_readiness": "NON_EVALUABLE_AVANT_OFFRE_ET_BOUTIQUE",
     "hakim_decision": null,
     "go_final": false,
-    "next_evidence": "Prochaine preuve utile : kit complet de qualité avec coût rendu sous le plafond choisi et vendeur/logistique satisfaisants ; vérifier l’offre d’entrée et les doublons avant PASS. Pas de commande autorisée par ce dossier."
+    "next_evidence": "Prochaine preuve utile : kit complet de qualité avec coût rendu sous le plafond choisi et vendeur/logistique satisfaisants ; vérifier l’offre d’entrée et les doublons avant PASS. Pas de commande autorisée par ce dossier.",
+    "cross_check_2026_09_04": {
+      "source": "../2026-09-04-audit-ecarts-volumes/README.md",
+      "new_live_product_volumes": false,
+      "volume_validated_for_gate": false,
+      "note": "Semrush sans accents corroborant partiellement B1 ; 13 180 A6 concerne les rasoirs et non le kit. Statut REVIEW maintenu, aucune promotion."
+    }
   },
   {
     "candidate_id": "B1",
@@ -1527,7 +1533,13 @@
     "gmc_readiness": "NON_EVALUABLE_AVANT_OFFRE_ET_BOUTIQUE",
     "hakim_decision": null,
     "go_final": false,
-    "next_evidence": "Obtenir deux SKU comparables avec longueur/poids emballés, port France, stock et délais ; choisir une largeur principale, prouver charge et montage, puis recalculer la demande et l’économie. Priorité de recherche numéro 1, pas recommandation de lancement."
+    "next_evidence": "Obtenir deux SKU comparables avec longueur/poids emballés, port France, stock et délais ; choisir une largeur principale, prouver charge et montage, puis recalculer la demande et l’économie. Priorité de recherche numéro 1, pas recommandation de lancement.",
+    "cross_check_2026_09_04": {
+      "source": "../2026-09-04-audit-ecarts-volumes/README.md",
+      "new_live_product_volumes": false,
+      "volume_validated_for_gate": false,
+      "note": "Semrush sans accents corroborant partiellement B1 ; 13 180 A6 concerne les rasoirs et non le kit. Statut REVIEW maintenu, aucune promotion."
+    }
   },
   {
     "candidate_id": "B2",

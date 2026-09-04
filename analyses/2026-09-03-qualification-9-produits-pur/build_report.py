@@ -3,7 +3,13 @@ import csv,gzip,json,statistics,collections
 from collect_dfs import ROOT
 from editorial import DATA
 
-def write(name,text): (ROOT/name).write_text(text.strip()+'\n',encoding='utf-8')
+def write(name,text):
+ # Rectification de lecture de cette étude, sans remplacer les mesures du 03/09.
+ if name in ['README.md','dossiers/A6.md','dossiers/B1.md']:
+  ref=('../' if name=='README.md' else '../../')+'2026-09-04-audit-ecarts-volumes/README.md'
+  note=f"> **Complément du 04/09 :** [comparaison des captures SEMrush et des réponses DataForSEO]({ref}). Sans accents, les ordres de grandeur de l'étendoir se rapprochent ; la priorité de recherche reste en REVIEW. Les 13 180 d'A6 désignent les rasoirs de sûreté, pas la demande explicite de kits à 99 €. Les totaux ci-dessous restent les estimations du 03/09, pas de nouvelles mesures validées."
+  first,rest=text.strip().split('\n',1);text=first+'\n\n'+note+'\n'+rest
+ (ROOT/name).write_text(text.strip()+'\n',encoding='utf-8')
 def num(x,dec=0):return 'MANQUANT' if x is None else f'{x:,.{dec}f}'.replace(',',' ').replace('.',',')
 def table(headers,rows):return '\n'.join(['| '+' | '.join(headers)+' |','|'+'|'.join(['---']*len(headers))+'|']+['| '+' | '.join(str(v).replace('|',' / ').replace('\n',' ') for v in r)+' |' for r in rows])
 def evidence(name):
@@ -54,6 +60,8 @@ for cid,d in DATA.items():
   'supplier_status':'SKU_FR_API_B' if cid=='A5' else 'MANQUANT_POUR_OFFRE_EXACTE','supplier_ids_reviewed':d['supplier_ids'],
   'google_trends':trends[cid],'actual_cpc':None,'actual_cvr':None,'expected_cpa':None,'actual_cpa':None,'CTR':None,'ATC':None,'checkout':None,'sales':None,'ROAS':None,
   'sample_status':'NON_COMMANDE','gmc_readiness':'NON_EVALUABLE_AVANT_OFFRE_ET_BOUTIQUE','hakim_decision':None,'go_final':False,'next_evidence':d['reopen']}
+ if cid in ['A6','B1']:
+  result['cross_check_2026_09_04']={'source':'../2026-09-04-audit-ecarts-volumes/README.md','new_live_product_volumes':False,'volume_validated_for_gate':False,'note':'Semrush sans accents corroborant partiellement B1 ; 13 180 A6 concerne les rasoirs et non le kit. Statut REVIEW maintenu, aucune promotion.'}
  results.append(result)
  core=[g for g in groups[cid]['core'] if g['volume'] is not None]
  kwtable=table(['Groupe représentatif (MAX)','Volume mensuel','CPC USD'],[(g['keyword'],num(g['volume']),num(g['cpc'],2)) for g in core[:16]])
