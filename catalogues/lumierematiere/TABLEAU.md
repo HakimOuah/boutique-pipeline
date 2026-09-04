@@ -8,7 +8,7 @@
 **Pourquoi** : montrer les couleurs, formes et dimensions réelles des variantes.
 **Comment** : contrôler les sources locales des lots P1/P2/P6 ; établir les correspondances avant génération ; produire et vérifier les JPEG et manifestes.
 **Sortie attendue** : livraison dans `livraisons-visuels-codex/variantes-forme/`, provenance et QA, compte rendu dans `journal/`.
-**Attention** : aucune correspondance ni cote inventée ; SKU DSers inchangés. Les arbitrages 272937 et 607504 sont **rendus** (04/09). Lot 3 **importé**, tous les libellés aveugles du catalogue **réécrits** (04/09). Lot 4 **A1 importé 13/13** (T-04) ; **17 A2 + 10 B livrés localement, C documenté** (T-05). Deux images supplémentaires nécessaires sur 183789, en attente d'accord (T-06).
+**Attention** : aucune correspondance ni cote inventée ; SKU DSers inchangés. Les arbitrages 272937 et 607504 sont **rendus** (04/09). Lot 3 **importé**, tous les libellés aveugles du catalogue **réécrits** (04/09). Lot 4 **entièrement importé** : A1 13/13 (T-04), **A2 17 + B 10 (T-05)**, C documenté. **183789 demande 7 visuels, pas 2** (T-06) — sa galerie entière montrait sept palets.
 **Réf.** : [Brief](briefs/2026-09-04-codex-variantes-formes.md), les trois JSON associés.
 
 **Compte rendu actuel** : [Complément et décisions restantes](journal/2026-09-04-variantes-formes-complement.md), [registre et prompts](journal/2026-09-04-variantes-formes-registre.json), [QA 34/34](journal/2026-09-04-variantes-formes-qa.json). Le premier compte rendu à 15 images reste une archive.
@@ -70,12 +70,13 @@ Ce tableau suit cette intervention uniquement ; il ne prétend pas inventorier l
 **Livraison** : [Compte rendu](journal/2026-09-05-lot4-suite-couverture.md), [registre](journal/2026-09-05-lot4-suite-registre.json), [QA](journal/2026-09-05-lot4-suite-qa.json), `livraisons-visuels-codex/couverture-2026-09-05/qa-couverture.jpg`.
 **Réf.** : [Brief lot4](briefs/2026-09-05-codex-lot4-couverture-variantes.md), [JSON](briefs/2026-09-05-lot4-couverture.json).
 
-### T-06 — Compléter les deux versions à six palets de 183789
+### T-06 — Refaire entièrement les visuels de 183789 (7 images, pas 2)
 
-**État** : BLOQUÉ — accord Hakim demandé pour deux images supplémentaires, passage du plafond 40 à 42. Les anciens packshots gris/blanc comportent sept palets (six périphériques + centre), aucun SKU vendu ne leur correspond.
+**État** : BLOQUÉ — accord Hakim demandé, plafond à porter de 40 à **47**. **Le constat de Codex était juste mais incomplet** : les 2 packshots de variante montraient sept palets, **et les cinq vues de galerie `g1`–`g5` aussi, hero compris** — donc l'image du flux Google Shopping. Vérifié à pleine résolution le 04/09.
+**Fait en attendant** : les 7 médias faux ont été **supprimés** et les 2 nouveaux packshots à cinq palets importés. La fiche est réduite à **2 images vraies** ; les deux variantes à six lumières n'ont plus d'image attachée et retombent sur le hero à cinq.
 **Pour** : Hakim (accord), puis Codex (production locale).
-**Pourquoi** : le brief comptait deux images existantes comme utilisables ; elles ne couvrent ni cinq ni six palets.
-**Comment** : après accord, produire gris6 `200000795:366#grey 6 lights` et blanc6 `200000795:10#White  6 lights` depuis leurs références déjà collectées dans `sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/`. Compter cinq palets périphériques +un central. Conserver la finition/structure propre à chaque source.
-**Sortie attendue** : ajouter deux entrées au manifeste, actualiser registre et QA (42 au total). Les deux versions à cinq sont déjà livrées dans A2.
+**Pourquoi** : le brief comptait les images existantes comme utilisables ; aucune ne l'était. Une fiche live à deux images est un pis-aller, pas un état d'arrivée.
+**Comment** : après accord, produire **`g1`–`g5` régénérées à cinq palets** (la silhouette vendue) **plus** gris6 `200000795:366#grey 6 lights` et blanc6 `200000795:10#White  6 lights`, depuis leurs références déjà collectées dans `sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/`. Compter cinq palets périphériques +un central. Conserver la finition/structure propre à chaque source.
+**Sortie attendue** : **7 images** — 5 vues produit + 2 packshots à six palets — manifeste, registre et QA actualisés (47 au total). Les deux packshots à cinq sont déjà livrés et importés.
 **Attention** : ne pas importer les anciens visuels à sept ; ne pas inventer six depuis cinq. Aucune mutation Shopify/DSers dans le mandat visuel.
 **Réf.** : [Compte rendu du contrôle](journal/2026-09-05-lot4-suite-couverture.md), planche locale `qa-sources/plafonnier-led-led-183789.jpg`.
