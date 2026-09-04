@@ -1,0 +1,94 @@
+{
+  "lot": "lot4-T06-183789",
+  "date": "2026-09-05",
+  "brand": "lumierematiere",
+  "handle": "plafonnier-led-led-183789",
+  "supplier_id": "1005007548183789",
+  "ticket": "T-06",
+  "plafond_lot4": "porte de 40 a 47, autorise par Hakim",
+  "brief": "catalogues/lumierematiere/briefs/2026-09-05-codex-183789-refonte.md",
+  "constat": "Les 7 medias de la fiche montraient un 6+1 (sept palets). La fiche ne vend que du 4+1 et du 5+1. Le hero etait concerne, donc l'image du flux Google Shopping. Les 7 ont ete supprimes ; les 2 packshots a 5 palets livres en A2 sont importes et rattaches. La fiche est live avec 2 images seulement.",
+  "notation_fournisseur": "Les plaques comptent en 'X+1' : palets peripheriques + un palet central. Un 4+1 a cinq points lumineux, un 5+1 en a six. Une image a sept palets est un 6+1, non vendu.",
+  "references": {
+    "dossier": "sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/",
+    "confirmees_dom": "2026-09-04T18:55:57+0200",
+    "attention": "cotes et texte incrustes, jamais publiables telles quelles"
+  },
+  "variantes": [
+    {
+      "sku_option": "200000795:173#grey 5 lights",
+      "libelle_boutique": "5 lumieres . Gris",
+      "plaque": "Gray-4+1",
+      "cotes": "D 79 x H 14 cm",
+      "puissance": "40 W / 3600 lm / 10-15 m2",
+      "reference": "200000795-173.jpg",
+      "statut": "packshot deja livre et importe"
+    },
+    {
+      "sku_option": "200000795:691#White 5 lights",
+      "libelle_boutique": "5 lumieres . Blanc",
+      "plaque": "White-4+1",
+      "cotes": "D 79 x H 14 cm",
+      "puissance": "40 W / 3600 lm / 10-15 m2",
+      "reference": "200000795-691.jpg",
+      "statut": "packshot deja livre et importe"
+    },
+    {
+      "sku_option": "200000795:366#grey 6 lights",
+      "libelle_boutique": "6 lumieres . Gris",
+      "plaque": "Gray-5+1",
+      "cotes": "D 89 x H 14 cm",
+      "puissance": "48 W / 4320 lm / 15-20 m2",
+      "reference": "200000795-366.jpg",
+      "statut": "A PRODUIRE",
+      "fichier_sortie": "plafonnier-led-led-183789-gris-6-lumieres-g1.jpg"
+    },
+    {
+      "sku_option": "200000795:10#White  6 lights",
+      "libelle_boutique": "6 lumieres . Blanc",
+      "plaque": "6 heads white",
+      "cotes": "L 80 x H 17 cm",
+      "puissance": "LED 72 W",
+      "reference": "200000795-10.jpg",
+      "statut": "A PRODUIRE",
+      "fichier_sortie": "plafonnier-led-led-183789-blanc-6-lumieres-g1.jpg",
+      "anomalie": "cotes et puissance differentes de celles du gris 5+1 (D89/H14/48W). Deux plaques distinctes chez le meme fournisseur : reporter ce que chaque plaque dit, ne pas moyenner."
+    }
+  ],
+  "vues_produit": {
+    "a_produire": [
+      "g1-hero-allume",
+      "g2-silhouette-angle-matiere",
+      "g3-macro-matiere",
+      "g4-lifestyle",
+      "g5-qualite-lumiere"
+    ],
+    "reference_canonique": "sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-173.jpg",
+    "consigne": "composer sur le Gray-4+1 : quatre palets gris peripheriques + un palet gris central, palets de bois clair sur les bras noirs, rosace noire, montage direct au plafond. C'est la silhouette du hero deja en place, la continuite est voulue.",
+    "nom": "plafonnier-led-led-183789-g{1..5}.jpg"
+  },
+  "interdit": "Ne jamais deduire un comptage d'un autre. Un 5+1 fabrique en ajoutant un palet a un 4+1 est exactement l'erreur que ce brief repare. Chaque rendu part de SA reference, celle que le DOM a confirmee pour SON identifiant d'option. Compter avant de livrer, dans la notation du fournisseur.",
+  "da": {
+    "fond": "#F6F3EC",
+    "lumiere": "chaude",
+    "format": "JPEG RGB 2048x2048",
+    "regle": "un seul luminaire dans le cadre",
+    "interdits": [
+      "texte",
+      "cote",
+      "logo",
+      "badge",
+      "filigrane",
+      "main",
+      "visage",
+      "decor de piece"
+    ],
+    "shopify": "aucune action Shopify ni DSers, SKU intouchables"
+  },
+  "sortie": {
+    "dossier": "livraisons-visuels-codex/couverture-2026-09-05/plafonnier-led-led-183789/",
+    "total_lot4": 47
+  },
+  "trouvaille_annexe": "Les plaques donnent 40 W / 3600 lm / 10-15 m2 pour le 4+1 et 48 W / 4320 lm / 15-20 m2 pour le gris 5+1. La fiche n'annonce rien de tout cela. A verser dans la description, hors mandat visuel : signaler au manifeste, ne rien modifier.",
+  "total": 7
+}
