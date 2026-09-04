@@ -1,0 +1,125 @@
+{
+  "lot": "P1-couleurs",
+  "date": "2026-09-04",
+  "brand": "lumierematiere",
+  "boutique": "lumierematiere.fr",
+  "brief": "catalogues/lumierematiere/briefs/2026-09-04-codex-variantes-formes.md",
+  "probleme": "Des variantes de couleur ou de matiere distinctes partagent une seule photo. Le client choisit une teinte qu'il ne voit jamais.",
+  "da": {
+    "fond": "#F6F3EC",
+    "lumiere": "chaude",
+    "type": "packshot objet, cadrage identique au g1 du handle",
+    "format": "JPEG RGB 2048x2048, sans compression visible",
+    "etat_allume": "identique au g1 du handle",
+    "interdits": ["texte", "logo", "badge", "cote", "filigrane", "main", "visage", "decor de piece", "table", "plante", "personne"],
+    "regle": "seule la teinte demandee change; silhouette, cadrage, angle, distance et fond identiques au g1"
+  },
+  "sortie": {
+    "dossier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/{handle}/",
+    "nom": "{handle}-{slug}-g1.jpg",
+    "manifeste": "manifeste.json au schema de livraisons-visuels-codex/produits/*/manifeste.json"
+  },
+  "fiches": [
+    {
+      "handle": "suspension-verre-538307",
+      "sku": "LM-130",
+      "titre": "Suspension cylindre verre teinte, chambre",
+      "axe": "Couleur",
+      "cadrage_reference": "catalogues/lumierematiere/livraisons-visuels-codex/produits/suspension-verre-538307/suspension-verre-538307-g1.jpg",
+      "g1_montre_deja": "Orange",
+      "note": "Deux corps: un abat-jour cylindre en verre + une calotte dome au-dessus. La calotte change de couleur en meme temps que l'abat-jour. Bague chrome courte, cable noir, dans les trois cas.",
+      "variantes": [
+        {
+          "valeur": "Orange",
+          "statut": "deja_couvert",
+          "action": "aucune",
+          "commentaire": "le g1 existant montre cette teinte: abat-jour verre orange mat translucide, calotte terracotta brillante"
+        },
+        {
+          "valeur": "Vert",
+          "slug": "vert",
+          "statut": "confirme",
+          "fichier_sortie": "suspension-verre-538307-vert-g1.jpg",
+          "reference": "catalogues/lumierematiere/sources-par-handle/suspension-verre-538307/green2.jpg",
+          "rendu": "abat-jour cylindre en verre vert franc transparent, brillant; calotte dome jaune ocre / moutarde brillante; bague chrome; cable noir"
+        },
+        {
+          "valeur": "Blanc",
+          "slug": "blanc",
+          "statut": "confirme",
+          "fichier_sortie": "suspension-verre-538307-blanc-g1.jpg",
+          "reference": "catalogues/lumierematiere/sources-par-handle/suspension-verre-538307/white1.jpg",
+          "rendu": "abat-jour cylindre en verre blanc opaque brillant; calotte dome bordeaux / lie-de-vin brillante; bague chrome; cable noir"
+        }
+      ]
+    },
+    {
+      "handle": "suspension-verre-405368",
+      "sku": "LM-128",
+      "titre": "Suspension verre disque boule coloree, cuisine",
+      "axe": "Couleur",
+      "cadrage_reference": "catalogues/lumierematiere/livraisons-visuels-codex/produits/suspension-verre-405368/suspension-verre-405368-g1.jpg",
+      "g1_montre_deja": "compose depuis A2.jpg — verifier a quel coloris il correspond avant de regenerer",
+      "cotes_fournisseur": "disque D 25 cm, hauteur totale 20 cm, cable 120-150 cm, rosace 10 cm",
+      "note": "Forme constante: un disque plat en verre traverse par une douille coloree, avec une boule opaline blanche sous le disque. Deux couleurs par variante: la douille et le disque.",
+      "variantes": [
+        {
+          "valeur": "Bordeaux et blanc",
+          "slug": "bordeaux-et-blanc",
+          "statut": "confirme",
+          "fichier_sortie": "suspension-verre-405368-bordeaux-et-blanc-g1.jpg",
+          "reference": "catalogues/lumierematiere/sources-par-handle/suspension-verre-405368/A1.jpg",
+          "rendu": "douille bordeaux brillante, disque de verre blanc opaque, boule opaline blanche dessous, cable noir"
+        },
+        {
+          "valeur": "Jaune et orange",
+          "slug": "jaune-et-orange",
+          "statut": "confirme",
+          "fichier_sortie": "suspension-verre-405368-jaune-et-orange-g1.jpg",
+          "reference": "catalogues/lumierematiere/sources-par-handle/suspension-verre-405368/B1.jpg",
+          "rendu": "douille jaune vif brillante, disque de verre orange opaque, boule opaline blanche dessous, cable noir"
+        },
+        {
+          "valeur": "Beige et blanc",
+          "slug": "beige-et-blanc",
+          "statut": "anomalie",
+          "fichier_sortie": "suspension-verre-405368-beige-et-blanc-g1.jpg",
+          "reference": "catalogues/lumierematiere/sources-par-handle/suspension-verre-405368/D1.jpg",
+          "rendu": "douille beige clair, disque de verre VERT franc, boule opaline blanche dessous, cable noir, rosace noire",
+          "anomalie": "la reference D1.jpg est etiquetee 'Beige + Green' et montre un disque VERT, pas blanc. Soit la variante boutique est mal nommee, soit elle pointe la mauvaise reference. Generer d'apres la reference et signaler a Hakim.",
+          "references_non_vendues": ["C1.jpg = Wine Red + Tea Green (bordeaux + vert olive) — coloris fournisseur non propose en boutique"]
+        }
+      ]
+    },
+    {
+      "handle": "suspension-effet-pierre-092465",
+      "sku": "LM-046",
+      "titre": "Suspension pierre claire, cylindre a tete bois brun",
+      "axe": "Finition",
+      "cadrage_reference": "catalogues/lumierematiere/livraisons-visuels-codex/produits/suspension-effet-pierre-092465/suspension-effet-pierre-092465-g1.jpg",
+      "g1_montre_deja": "compose depuis 01.jpg",
+      "statut": "a_identifier",
+      "dossier_references": "catalogues/lumierematiere/sources-par-handle/suspension-effet-pierre-092465/",
+      "instruction": "Les references 01 a 06.jpg ne sont pas etiquetees. Les lire, etablir laquelle montre 'Pierre claire' et laquelle montre 'Brun', le reporter dans le manifeste, puis generer le visuel manquant. Si les images ne permettent pas de trancher, livrer le reste du lot et signaler la fiche.",
+      "variantes": [
+        {"valeur": "Pierre claire", "slug": "pierre-claire", "fichier_sortie": "suspension-effet-pierre-092465-pierre-claire-g1.jpg"},
+        {"valeur": "Brun", "slug": "brun", "fichier_sortie": "suspension-effet-pierre-092465-brun-g1.jpg"}
+      ]
+    },
+    {
+      "handle": "suspension-rotin-897170",
+      "sku": "LM-020",
+      "titre": "Suspension rotin cuisine, corolle de petales",
+      "axe": "Matiere",
+      "cadrage_reference": "catalogues/lumierematiere/livraisons-visuels-codex/produits/suspension-rotin-897170/suspension-rotin-897170-g1.jpg",
+      "g1_montre_deja": "compose depuis 01.jpg",
+      "statut": "a_identifier",
+      "dossier_references": "catalogues/lumierematiere/sources-par-handle/suspension-rotin-897170/",
+      "instruction": "Deux matieres annoncees, rotin et plastique, sur une seule photo. Lire 01 a 06.jpg, identifier les deux matieres, generer un visuel par matiere. La fiche porte en plus des variantes doublons a suffixe '2' (voir lot P3, hors de ce brief): ne generer qu'un visuel par matiere reelle, pas par variante.",
+      "variantes": [
+        {"valeur": "rotin", "slug": "rotin", "fichier_sortie": "suspension-rotin-897170-rotin-g1.jpg"},
+        {"valeur": "plastique", "slug": "plastique", "fichier_sortie": "suspension-rotin-897170-plastique-g1.jpg"}
+      ]
+    }
+  ]
+}

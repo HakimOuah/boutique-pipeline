@@ -1,0 +1,99 @@
+{
+  "lot": "P6-schemas-cotes",
+  "date": "2026-09-04",
+  "brand": "lumierematiere",
+  "boutique": "lumierematiere.fr",
+  "brief": "catalogues/lumierematiere/briefs/2026-09-04-codex-variantes-formes.md",
+  "probleme": "Neuf fiches ou les variantes ne different QUE par la dimension. Partager une photo y est legitime: c'est le meme luminaire. Ce qui manque est l'echelle, pas la photo.",
+  "principe": "UN SEUL visuel par fiche, et ce n'est PAS un packshot de variante. Ne generer aucun packshot pour ce lot.",
+  "da": {
+    "type": "schema cote, silhouette du luminaire en elevation, de face",
+    "fond": "#F6F3EC",
+    "format": "JPEG RGB 2048x2048",
+    "trait": "fin, gris charbon #24211B",
+    "typo": "chiffres et unites en gris charbon #24211B, unites en cm",
+    "cotes_a_porter": ["diametre de l'abat-jour", "hauteur de l'abat-jour", "hauteur de cable ajustable", "diametre de rosace"],
+    "exception": "C'est la SEULE exception a l'interdit 'aucune cote, aucun texte' de la charte. Elle ne vaut que pour ce lot P6. Toujours aucun logo, filigrane, main, visage, decor de piece.",
+    "representation_des_tailles": "Si la fiche a plusieurs diametres, les representer superposes ou cote a cote a l'echelle relative reelle, avec une cote par taille. Une seule image pour toute la fiche."
+  },
+  "sortie": {
+    "dossier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/{handle}/",
+    "nom": "{handle}-schema-g6.jpg",
+    "manifeste": "slot 'g6-schema-cote' dans le manifeste.json du handle"
+  },
+  "justification": "Coherent avec la FAQ de la boutique, qui previent deja: 'le piege, c'est la photo: elle ecrase toujours les proportions. Sortez le metre, notez la largeur de votre table, puis comparez avec les dimensions indiquees sur la fiche.'",
+  "fiches": [
+    {
+      "handle": "applique-murale-pierre-588683",
+      "sku": "LM-122",
+      "titre": "Applique murale galet beige pierre, chambre",
+      "axe": "Diametre",
+      "tailles": ["20 cm", "25 cm", "30 cm"],
+      "note": "Applique murale: representer en elevation de face contre le plan mural, pas de cable pendant."
+    },
+    {
+      "handle": "suspension-moderne-led-noir-330664",
+      "sku": "LM-121",
+      "titre": "Suspension barres LED croisees, metal noir XXL",
+      "axe": "Diametre",
+      "tailles": ["100 cm", "120 cm", "150 cm"],
+      "note": "Format XXL: l'echelle est l'argument principal de la fiche, la difference 100/120/150 doit se lire d'un coup d'oeil."
+    },
+    {
+      "handle": "lustre-salon-blanc-246282",
+      "sku": "LM-113",
+      "titre": "Suspension soucoupe soie plissee blanche, salon",
+      "axe": "Diametre",
+      "tailles": ["30 cm", "40 cm", "50 cm", "60 cm"],
+      "note": "Fiche presente dans lustres-chambre ET suspensions-salon: le petit format est une chambre, le grand un salon. Le schema doit rendre cet ecart lisible."
+    },
+    {
+      "handle": "lustre-anneau-led-led-795468",
+      "sku": "LM-062",
+      "titre": "Suspension LED anneau fin, blanc ou noir",
+      "axe": "Taille",
+      "tailles": ["20 cm", "30 cm"],
+      "note": "L'axe melange taille et couleur. Les packshots couleur Blanc et Noir existent deja (livres le 25/08). Ici, ne traiter QUE l'echelle: un seul schema, silhouette neutre."
+    },
+    {
+      "handle": "suspension-rotin-607504",
+      "sku": "LM-027",
+      "titre": "Suspension rotin tresse noir, monture bois",
+      "axe": "Taille",
+      "tailles": ["25 x 50 cm", "40 x 40 cm", "40 x 19 cm"],
+      "statut": "anomalie",
+      "anomalie": "L'axe melange les conventions: '25 x 50 cm', '40 x 40 cm', '40 x 19 cm' et '40 x 40 cm - Noir'. Une valeur porte une couleur, les trois autres non, et '40 x 40 cm' apparait deux fois. A reprendre entierement cote Shopify avant de figer le schema.",
+      "instruction": "Ne generer qu'apres arbitrage du renommage."
+    },
+    {
+      "handle": "suspension-rotin-led-761433",
+      "sku": "LM-018",
+      "titre": "Suspension petales tresses salon, fibre naturelle",
+      "axe": "Diametre",
+      "tailles": ["30 cm", "40 cm", "50 cm", "60 cm"]
+    },
+    {
+      "handle": "suspension-bambou-led-50cm-377816",
+      "sku": "LM-016",
+      "titre": "Suspension bambou double etage tresse serre",
+      "axe": "Diametre",
+      "tailles": ["30 cm", "40 cm", "50 cm"],
+      "note": "Abat-jour a deux etages: le schema doit montrer la separation des deux etages, c'est ce qui distingue la fiche."
+    },
+    {
+      "handle": "suspension-bambou-led-630923",
+      "sku": "LM-014",
+      "titre": "Suspension bambou disque plat tresse, salon",
+      "axe": "Taille",
+      "tailles": ["50 cm - plafonnier", "50 cm - suspension", "60 cm - plafonnier"],
+      "note": "L'axe melange diametre ET montage (plafonnier encastre au plafond vs suspension a cable). Representer les deux montages: c'est une difference d'installation, pas de taille."
+    },
+    {
+      "handle": "suspension-bambou-655008",
+      "sku": "LM-007",
+      "titre": "Suspension bambou dome tresse serre, salon",
+      "axe": "Diametre",
+      "tailles": ["30 cm", "38 cm", "45 cm"]
+    }
+  ]
+}

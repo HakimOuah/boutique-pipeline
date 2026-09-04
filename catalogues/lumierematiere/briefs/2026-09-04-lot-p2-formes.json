@@ -1,0 +1,143 @@
+{
+  "lot": "P2-formes",
+  "date": "2026-09-04",
+  "brand": "lumierematiere",
+  "boutique": "lumierematiere.fr",
+  "brief": "catalogues/lumierematiere/briefs/2026-09-04-codex-variantes-formes.md",
+  "probleme": "Sept fiches exposent la nomenclature interne du vendeur AliExpress (A7, B, Forme C, D). Le client ne peut pas savoir ce qu'il achete, et toutes les valeurs pointent la meme photo.",
+  "deblocage": "Le brief du 24/08 avait ecarte ces fiches car 'Codex ne peut pas inventer la forme'. Les sources fournisseur locales portent les badges de code et les cotes: le blocage est leve, il n'y a rien a rechercher sur AliExpress.",
+  "da": {
+    "fond": "#F6F3EC",
+    "lumiere": "chaude",
+    "type": "packshot objet, cadrage identique au g1 du handle",
+    "format": "JPEG RGB 2048x2048, sans compression visible",
+    "etat_allume": "identique au g1 du handle",
+    "interdits": ["texte", "logo", "badge", "cote", "filigrane", "main", "visage", "decor de piece", "table", "plante", "personne"],
+    "regle_specifique_a_ce_lot": "Contrairement au lot couleurs, LA FORME CHANGE. Reproduire la forme de la reference fournisseur, en gardant le cadrage, la distance, l'angle, le fond, la lumiere et l'etat allume/eteint du g1. Ne jamais inventer une matiere, une finition ou un nombre de lumieres absent de la reference."
+  },
+  "sortie": {
+    "dossier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/{handle}/",
+    "nom": "{handle}-{slug}-g1.jpg",
+    "manifeste": "manifeste.json au schema de livraisons-visuels-codex/produits/*/manifeste.json, avec le lien code -> forme reporte explicitement"
+  },
+  "renommage_variantes": "Hors perimetre Codex. Les valeurs d'option seront renommees separement dans Shopify a partir des formes identifiees ici. Les SKU DSers restent intouchables.",
+  "fiches": [
+    {
+      "handle": "suspension-rotin-623305",
+      "sku": "LM-024",
+      "titre": "Suspension rotin cuisine, abat-jour tambour tresse",
+      "axe": "Modele",
+      "statut": "confirme",
+      "cadrage_reference": "catalogues/lumierematiere/livraisons-visuels-codex/produits/suspension-rotin-623305/suspension-rotin-623305-g1.jpg",
+      "g1_montre_deja": "A7",
+      "commun": "corde de chanvre naturelle, douille E27 x1, monture et rosace noires, cable noir ajustable jusqu'a 120 cm",
+      "variantes": [
+        {
+          "code": "A7",
+          "statut": "deja_couvert",
+          "action": "aucune",
+          "forme": "tambour droit, paroi verticale",
+          "cotes": "D 31 x H 18 cm",
+          "renommage_propose": "Tambour droit - D 31 cm"
+        },
+        {
+          "code": "A8",
+          "slug": "pans-coupes",
+          "statut": "confirme",
+          "fichier_sortie": "suspension-rotin-623305-pans-coupes-g1.jpg",
+          "reference": "catalogues/lumierematiere/sources-par-handle/suspension-rotin-623305/02.jpg",
+          "forme": "pans coupes, profil diabolo: la paroi se pince a mi-hauteur puis s'evase vers le bas",
+          "cotes": "D 30 x H 16 cm",
+          "renommage_propose": "Pans coupes - D 30 cm"
+        },
+        {
+          "code": "A9",
+          "slug": "dome-arrondi",
+          "statut": "confirme",
+          "fichier_sortie": "suspension-rotin-623305-dome-arrondi-g1.jpg",
+          "reference": "catalogues/lumierematiere/sources-par-handle/suspension-rotin-623305/03.jpg",
+          "forme": "dome arrondi, profil citrouille: epaule bombee, base rentrante",
+          "cotes": "D 32 x H 16 cm",
+          "renommage_propose": "Dome arrondi - D 32 cm"
+        }
+      ]
+    },
+    {
+      "handle": "suspension-metal-led-dore-975417",
+      "sku": "LM-097",
+      "titre": "Suspension corolle ceramique blanche, cordon dore",
+      "axe": "Modele",
+      "statut": "a_identifier",
+      "codes": ["A", "B", "C", "D"],
+      "cadrage_reference": "catalogues/lumierematiere/livraisons-visuels-codex/produits/suspension-metal-led-dore-975417/suspension-metal-led-dore-975417-g1.jpg",
+      "g1_montre_deja": "compose depuis 01.jpg",
+      "dossier_references": "catalogues/lumierematiere/sources-par-handle/suspension-metal-led-dore-975417/",
+      "constat_partiel": "La reference 01.jpg montre trois abat-jour ceramique blancs de formes REELLEMENT differentes: un plisse en ombrelle large, une cloche festonnee, une corolle festonnee plus petite. Monture et cordon dores communs, ampoule ambree visible sur le plisse.",
+      "instruction": "Lire 01 a 06.jpg, etablir le lien A/B/C/D -> forme, generer un visuel par forme. Le titre boutique actuel ('corolle ceramique blanche') ne decrit qu'une des quatre formes: le signaler.",
+      "alerte_titre": true
+    },
+    {
+      "handle": "suspension-effet-pierre-led-338324",
+      "sku": "LM-043",
+      "titre": "Suspension travertin, gros cylindre a tete noyer",
+      "axe": "Modele",
+      "statut": "a_identifier",
+      "codes": ["A", "B", "C", "D"],
+      "nb_variantes": 12,
+      "cadrage_reference": "catalogues/lumierematiere/livraisons-visuels-codex/produits/suspension-effet-pierre-led-338324/suspension-effet-pierre-led-338324-g1.jpg",
+      "g1_montre_deja": "compose depuis 01.png",
+      "dossier_references": "catalogues/lumierematiere/sources-par-handle/suspension-effet-pierre-led-338324/",
+      "constat_partiel": "La reference 01.png montre au moins deux volumes: un cylindre bas et large, et un cylindre haut et etroit. Travertin beige poreux, tete et bague en bois noyer fonce, cable brun.",
+      "instruction": "12 variantes = 4 modeles x 3 temperatures de lumiere. Ne generer QU'UN visuel par modele (4 au maximum), pas par temperature: la temperature ne change pas l'objet. Lire 01 a 06 pour etablir A/B/C/D -> volume.",
+      "visuels_attendus_max": 4
+    },
+    {
+      "handle": "suspension-effet-pierre-led-147607",
+      "sku": "LM-051",
+      "titre": "Suspension travertin cuisine, cone ou galet beige",
+      "axe": "Forme",
+      "statut": "a_identifier",
+      "codes": ["Forme A", "Forme B", "Forme C"],
+      "cadrage_reference": "catalogues/lumierematiere/livraisons-visuels-codex/produits/suspension-effet-pierre-led-147607/suspension-effet-pierre-led-147607-g1.jpg",
+      "g1_montre_deja": "compose depuis 01.jpg",
+      "dossier_references": "catalogues/lumierematiere/sources-par-handle/suspension-effet-pierre-led-147607/",
+      "instruction": "Le titre annonce 'cone ou galet': au moins deux des trois formes sont nommables sans ambiguite. Lire 01 a 06.jpg, etablir Forme A/B/C -> volume, generer un visuel par forme."
+    },
+    {
+      "handle": "suspension-deco-253182",
+      "sku": "LM-106",
+      "titre": "Suspension ceramique emaillee rouge, monture laiton",
+      "axe": "Modele",
+      "statut": "a_identifier",
+      "codes": ["A", "B", "C"],
+      "cadrage_reference": "catalogues/lumierematiere/livraisons-visuels-codex/produits/suspension-deco-253182/suspension-deco-253182-g1.jpg",
+      "g1_montre_deja": "compose depuis 01.jpg",
+      "dossier_references": "catalogues/lumierematiere/sources-par-handle/suspension-deco-253182/",
+      "instruction": "Lire 01 a 06.jpg, etablir A/B/C -> forme d'abat-jour ceramique, generer un visuel par forme. Monture laiton commune."
+    },
+    {
+      "handle": "suspension-deco-blanc-560098",
+      "sku": "LM-105",
+      "titre": "Suspension ceramique cuisine, double a motif bleu",
+      "axe": "Modele",
+      "statut": "a_identifier",
+      "codes": ["A", "B"],
+      "cadrage_reference": "catalogues/lumierematiere/livraisons-visuels-codex/produits/suspension-deco-blanc-560098/suspension-deco-blanc-560098-g1.jpg",
+      "g1_montre_deja": "compose depuis 01.jpg",
+      "dossier_references": "catalogues/lumierematiere/sources-par-handle/suspension-deco-blanc-560098/",
+      "instruction": "Lire 01 a 06.jpg, etablir A/B -> forme ou motif, generer un visuel par valeur."
+    },
+    {
+      "handle": "suspension-rotin-272937",
+      "sku": "LM-028",
+      "titre": "Suspension cuisine, 3 boules corde a monture noire",
+      "axe": "Modele",
+      "statut": "bloque",
+      "codes": ["Modele A", "Modele B", "Modele C"],
+      "dossier_references": "catalogues/lumierematiere/sources-par-handle/suspension-rotin-272937/",
+      "constat": "Les codes ne designent PAS une forme d'abat-jour mais une CONFIGURATION. La reference 01.jpg montre quatre montages du meme abat-jour en corde: suspension simple a rosace ronde, applique murale, trio a rosace ronde, trio sur barre lineaire. La reference 02.jpg confirme le trio sur barre lineaire en situation.",
+      "alerte_titre": "Le titre boutique ('3 boules corde a monture noire') ne decrit qu'une des configurations. Si une variante est une applique murale ou une suspension simple, le titre est faux pour elle — et une applique murale n'a rien a faire dans une fiche de suspension.",
+      "instruction": "NE PAS GENERER. Le lien lettre -> configuration n'est pas etabli par les images seules et l'arbitrage depasse le rendu: il touche au titre, a la collection et peut-etre au decoupage de la fiche. Attendre la decision de Hakim."
+    }
+  ]
+}
