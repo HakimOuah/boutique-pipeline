@@ -1,0 +1,107 @@
+{
+  "observed_date": "2026-09-04",
+  "mode": "PRODUIT PUR",
+  "candidate_id": "A6",
+  "product": "Rasoir de sûreté, coffret en option à valider",
+  "prequalification_status": "REVIEW_PREQUALIFICATION",
+  "technical_recommendation": "TECHNICAL_INCONCLUSIVE",
+  "priority": 1,
+  "hakim_decision": null,
+  "go_final": false,
+  "addressable_search_demand": {
+    "core_proxy_monthly": 13180,
+    "source_date": "2026-09-03",
+    "source": "../2026-09-03-qualification-9-produits-pur/mots-cles/A6.csv",
+    "threshold_canonical": 12500,
+    "gate_confirmed": false,
+    "residual_overlap": true,
+    "applies_to": "Rasoir, pas exclusivement coffret ni débutant",
+    "new_measurement_2026_09_04": false
+  },
+  "keywordability": {
+    "score": null,
+    "assessment": "Produit explicite et pédagogie naturelle ; demande spécifique débutant étroite, accès à la tête générique à démontrer."
+  },
+  "serp_winnability": {
+    "score": null,
+    "assessment": "Annonces DTC et spécialistes observées ; pédagogie déjà achetée en Search, différenciation produit/service requise."
+  },
+  "search_score": null,
+  "business_score": null,
+  "shopping_score": null,
+  "numeric_score_reason": "Barèmes non opérationnalisés pour cette étude ; les gates manquants ne sont pas remplacés par une note.",
+  "economics": {
+    "status": "HYPOTHESE",
+    "actual_selling_price": null,
+    "COGS": null,
+    "shipping_cost": null,
+    "payment_fees": null,
+    "contribution_margin_before_ads": null,
+    "break_even_cpa": null,
+    "break_even_cvr": null,
+    "cpc_proxy_eur_rounded": 0.8,
+    "scenarios_file": "economics-cost-caps.csv",
+    "break_even_scenarios_file": "economics-break-even.csv",
+    "assumptions_file": "economics-assumptions.json"
+  },
+  "supplier": {
+    "status": "MANQUANT_POUR_OFFRE_EXACTE",
+    "best_new_family_match": "1005002856214417",
+    "sku_id": "12000022481203419",
+    "variant": "S9 Ladder",
+    "price_eur_api": 51.99,
+    "tax_included_api": true,
+    "stock_api": 2,
+    "exact_shipping_fr": null,
+    "sample_quality": null,
+    "decision": "Non retenu pour le scénario rasoir 69 EUR ; géométrie douce, coût rendu et économie du kit non établis."
+  },
+  "official_competitor": {
+    "domain": "lelamier.com",
+    "excluded_domain": "lelamier.online",
+    "prices_pdp": [
+      {
+        "url": "https://lelamier.com/products/lamier",
+        "eur": 69
+      },
+      {
+        "url": "https://lelamier.com/products/kit-de-rasage-lamier",
+        "eur": 119
+      },
+      {
+        "url": "https://lelamier.com/products/le-kit-complet-lamier",
+        "eur": 99
+      }
+    ],
+    "checkout_verified": false
+  },
+  "actual_cpc": null,
+  "actual_cvr": null,
+  "expected_cpa": null,
+  "actual_cpa": null,
+  "CTR": null,
+  "ATC": null,
+  "checkout": null,
+  "sales": null,
+  "ROAS": null,
+  "sample_status": "NON_COMMANDE",
+  "gmc_readiness": "NON_EVALUABLE_AVANT_OFFRE_ET_BOUTIQUE",
+  "decision_reason": "Poursuite bornée de recherche : activité concurrente confirmée, mais offre différenciée, cluster net et source économiquement viable non validés.",
+  "next_evidence": [
+    "SKU complet doux + coût rendu FR et qualité documentés",
+    "Périmètre de demande figé, contrôle des variantes quand quota disponible",
+    "Choix offre entrée/coffret avec contribution et conversion distinctes"
+  ],
+  "other_candidate_decision": {
+    "candidate_id": "B1",
+    "product": "Étendoir mural rabattable intérieur",
+    "hakim_decision": "NO_GO_FINAL",
+    "decided_by": "Hakim",
+    "date": "2026-09-04",
+    "reason": "Concurrents jugés trop gros en Ads ; abandon explicite.",
+    "historical_prequalification_status": "REVIEW_PREQUALIFICATION",
+    "historical_technical_recommendation": "TECHNICAL_INCONCLUSIVE",
+    "new_technical_failure_asserted": false,
+    "reopening_requires": "Reprise motivée et accord de Hakim"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "status": "HYPOTHESE",
+  "vat_rate_scenario": 0.2,
+  "payment_rate_scenario": 0.02,
+  "payment_fixed_eur_scenario": 0.3,
+  "returns_sav_rate_of_ttc_scenario": 0.05,
+  "selling_prices_ttc_scenarios": [
+    69,
+    99,
+    119
+  ],
+  "cpc_eur_scenarios": [
+    0.8,
+    1.2
+  ],
+  "cvr_scenarios": [
+    0.01,
+    0.015,
+    0.02,
+    0.03
+  ],
+  "post_ads_contribution_targets_eur": [
+    0,
+    10
+  ],
+  "note": "CPC 0.80 arrondi du proxy historique 0.7976 EUR ; 1.20 = stress. Aucun CPC, CVR, régime fiscal, taux de frais/SAV ou prix OH Ventures observé. Coût rendu sur une base fiscale cohérente, frais non récupérables inclus. Contribution cible avant coûts fixes, pas bénéfice net.",
+  "historical_cpc_source": "../2026-09-03-qualification-9-produits-pur/dossiers/A6.md"
+}

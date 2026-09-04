@@ -5,7 +5,7 @@ Socle réutilisable pour lancer une boutique Shopify (Approche C : playbook + sc
 ## Démarrage
 ### Recherche produit
 
-Dernière étude PRODUIT PUR : [qualification approfondie des neuf candidats Search — 03/09/2026](analyses/2026-09-03-qualification-9-produits-pur/README.md), avec mots-clés, concurrence, sourcing, économie et décisions. Deux priorités, deux réserves, cinq arrêts de périmètre ; aucun produit prêt à lancer. [Contrôle du 04/09 : comparaison SEMrush avec/sans accents et distinction rasoir/kit](analyses/2026-09-04-audit-ecarts-volumes/README.md).
+Dernière étude PRODUIT PUR : [approfondissement rasoir de sûreté — 04/09/2026](analyses/2026-09-04-approfondissement-rasoir-surete/README.md). **A6 reste en REVIEW ; étendoir B1 abandonné par Hakim (`NO_GO_FINAL`) face à la concurrence Ads.** Concurrents officiels, Google Ads/TrendTrack, scénarios rasoir/coffret et sourcing documentés ; aucun candidat prêt à lancer. [Qualification des neuf candidats du 03/09](analyses/2026-09-03-qualification-9-produits-pur/README.md) · [Contrôle SEMrush/DataForSEO](analyses/2026-09-04-audit-ecarts-volumes/README.md).
 
 1. Remplir `templates/product-research-request.template.md`.
 2. Suivre `PRODUCT-RESEARCH-PLAYBOOK.md`.

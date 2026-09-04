@@ -841,9 +841,9 @@
     "product": "Rasoir de sûreté — kit débutant en option à valider",
     "prequalification_status": "REVIEW_PREQUALIFICATION",
     "technical_recommendation": "TECHNICAL_INCONCLUSIVE",
-    "priority": 2,
+    "priority": 1,
     "decision_scope": "Offre et corpus sondés, France, Q4 2026 ; pas tout le marché parent",
-    "reason": "Piste à conserver en priorité, mais pas prête pour sample ou Ads. Demande plausible juste au-dessus du seuil ; coût du kit complet et fournisseur fiables manquent.",
+    "reason": "Priorité de recherche après abandon B1. Ads et offres du vrai site Lamier contrôlées ; demande nette, différenciation et source rentable restent à prouver.",
     "addressable_search_demand": {
       "core_proxy_monthly": 13180,
       "core_plus_conditional_scenario": 17690,
@@ -1129,12 +1129,32 @@
     "gmc_readiness": "NON_EVALUABLE_AVANT_OFFRE_ET_BOUTIQUE",
     "hakim_decision": null,
     "go_final": false,
-    "next_evidence": "Prochaine preuve utile : kit complet de qualité avec coût rendu sous le plafond choisi et vendeur/logistique satisfaisants ; vérifier l’offre d’entrée et les doublons avant PASS. Pas de commande autorisée par ce dossier.",
+    "next_evidence": "SKU complet doux avec coût rendu France ; économie séparée rasoir/coffret et contrôle des buckets quand quota disponible. Voir approfondissement du 04/09.",
     "cross_check_2026_09_04": {
       "source": "../2026-09-04-audit-ecarts-volumes/README.md",
       "new_live_product_volumes": false,
       "volume_validated_for_gate": false,
       "note": "Semrush sans accents corroborant partiellement B1 ; 13 180 A6 concerne les rasoirs et non le kit. Statut REVIEW maintenu, aucune promotion."
+    },
+    "decision_history": [
+      {
+        "date": "2026-09-03",
+        "prequalification_status": "REVIEW_PREQUALIFICATION",
+        "technical_recommendation": "TECHNICAL_INCONCLUSIVE",
+        "priority": 2,
+        "hakim_decision": null,
+        "reason": "Piste à conserver en priorité, mais pas prête pour sample ou Ads. Demande plausible juste au-dessus du seuil ; coût du kit complet et fournisseur fiables manquent.",
+        "next_evidence": "Prochaine preuve utile : kit complet de qualité avec coût rendu sous le plafond choisi et vendeur/logistique satisfaisants ; vérifier l’offre d’entrée et les doublons avant PASS. Pas de commande autorisée par ce dossier."
+      }
+    ],
+    "follow_up_2026_09_04": {
+      "report": "../2026-09-04-approfondissement-rasoir-surete/README.md",
+      "current_prequalification_status": "REVIEW_PREQUALIFICATION",
+      "technical_recommendation": "TECHNICAL_INCONCLUSIVE",
+      "official_competitor_domain": "lelamier.com",
+      "excluded_domain": "lelamier.online",
+      "new_search_volume_measurement": false,
+      "reason": "Ads et offres officielles recapturées ; source économiquement viable encore manquante."
     }
   },
   {
@@ -1143,9 +1163,9 @@
     "product": "Étendoir mural rabattable intérieur",
     "prequalification_status": "REVIEW_PREQUALIFICATION",
     "technical_recommendation": "TECHNICAL_INCONCLUSIVE",
-    "priority": 1,
+    "priority": null,
     "decision_scope": "Offre et corpus sondés, France, Q4 2026 ; pas tout le marché parent",
-    "reason": "Meilleure piste économique de la sélection, sous réserve d’un vrai produit et d’un fret acceptables. Demande cohérente, CPC bas, fournisseur exact encore absent.",
+    "reason": "Abandon explicite par Hakim le 04/09/2026 : concurrents jugés trop gros en Ads. L’ancien verdict technique reste historique.",
     "addressable_search_demand": {
       "core_proxy_monthly": 15490,
       "core_plus_conditional_scenario": 17310,
@@ -1531,14 +1551,32 @@
     "ROAS": null,
     "sample_status": "NON_COMMANDE",
     "gmc_readiness": "NON_EVALUABLE_AVANT_OFFRE_ET_BOUTIQUE",
-    "hakim_decision": null,
+    "hakim_decision": "NO_GO_FINAL",
     "go_final": false,
-    "next_evidence": "Obtenir deux SKU comparables avec longueur/poids emballés, port France, stock et délais ; choisir une largeur principale, prouver charge et montage, puis recalculer la demande et l’économie. Priorité de recherche numéro 1, pas recommandation de lancement.",
+    "next_evidence": "Aucune poursuite de cette offre. Une réouverture exige une reprise motivée et l’accord de Hakim.",
     "cross_check_2026_09_04": {
       "source": "../2026-09-04-audit-ecarts-volumes/README.md",
       "new_live_product_volumes": false,
       "volume_validated_for_gate": false,
       "note": "Semrush sans accents corroborant partiellement B1 ; 13 180 A6 concerne les rasoirs et non le kit. Statut REVIEW maintenu, aucune promotion."
+    },
+    "decision_history": [
+      {
+        "date": "2026-09-03",
+        "prequalification_status": "REVIEW_PREQUALIFICATION",
+        "technical_recommendation": "TECHNICAL_INCONCLUSIVE",
+        "priority": 1,
+        "hakim_decision": null,
+        "reason": "Meilleure piste économique de la sélection, sous réserve d’un vrai produit et d’un fret acceptables. Demande cohérente, CPC bas, fournisseur exact encore absent.",
+        "next_evidence": "Obtenir deux SKU comparables avec longueur/poids emballés, port France, stock et délais ; choisir une largeur principale, prouver charge et montage, puis recalculer la demande et l’économie. Priorité de recherche numéro 1, pas recommandation de lancement."
+      }
+    ],
+    "follow_up_2026_09_04": {
+      "report": "../2026-09-04-approfondissement-rasoir-surete/README.md",
+      "decided_by": "Hakim",
+      "current_decision": "NO_GO_FINAL",
+      "reason": "Abandon explicite pour concurrence Ads jugée trop grosse.",
+      "historical_technical_verdict_preserved": true
     }
   },
   {

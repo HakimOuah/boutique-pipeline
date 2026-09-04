@@ -1,5 +1,7 @@
 # Rectification des volumes A6 / B1 — 4 septembre 2026
 
+> **Suite ultérieure du 04/09 :** Hakim abandonne B1 pour concurrence Ads jugée trop forte (`NO_GO_FINAL`). Ce rapport reste le contrôle historique des volumes, pas la décision courante de poursuite. [A6 approfondi et correction du site Lamier](../2026-09-04-approfondissement-rasoir-surete/README.md).
+
 **La troisième capture de Hakim, sans accents, explique une grande partie de l'écart pour l'étendoir.** La piste reste une priorité de recherche en `REVIEW_PREQUALIFICATION` / `TECHNICAL_INCONCLUSIVE` ; la suspension évoquée pendant le contrôle n'est pas retenue. Le total DataForSEO de 15 490 reste un cluster estimé, pas une mesure corroborée intégralement par SEMrush. Pour A6, les 13 180 désignent le rasoir de sûreté et ses variantes commerciales, pas la demande explicite de kits à 99 €. Aucun nouveau volume validé ni changement de seuil canonique.
 
 ## Dernière preuve reçue — comparaison sans accents

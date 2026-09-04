@@ -1,6 +1,8 @@
 # Qualification des neuf PRODUITS PURS — 03/09/2026
 
-> **Complément du 04/09 :** [comparaison des captures SEMrush et des réponses DataForSEO](../2026-09-04-audit-ecarts-volumes/README.md). Sans accents, les ordres de grandeur de l'étendoir se rapprochent ; la priorité de recherche reste en REVIEW. Les 13 180 d'A6 désignent les rasoirs de sûreté, pas la demande explicite de kits à 99 €. Les totaux ci-dessous restent les estimations du 03/09, pas de nouvelles mesures validées.
+> **État courant après décision de Hakim le 04/09 :** B1 étendoir abandonné (`NO_GO_FINAL`) pour concurrence Ads jugée trop forte ; A6 rasoir devient priorité de recherche, toujours `REVIEW_PREQUALIFICATION` / `TECHNICAL_INCONCLUSIVE`. [Approfondissement et correction du domaine Lamier](../2026-09-04-approfondissement-rasoir-surete/README.md). **3 REVIEW, 5 STOP techniques et 1 NO_GO humain ; zéro PASS/GO.** Les tableaux et l’ordre proposés ci-dessous décrivent la qualification historique du 03/09 et sont supplantés par cette décision.
+
+> **Complément du 04/09 :** [comparaison des captures SEMrush et des réponses DataForSEO](../2026-09-04-audit-ecarts-volumes/README.md). Sans accents, les ordres de grandeur de l'étendoir se rapprochent ; ce contrôle initial maintenait REVIEW, avant l'abandon humain indiqué ci-dessus. Les 13 180 d'A6 désignent les rasoirs de sûreté, pas la demande explicite de kits à 99 €. Les totaux ci-dessous restent les estimations du 03/09, pas de nouvelles mesures validées.
 
 **Deux pistes à poursuivre en priorité : étendoir mural et kit de rasage. Deux réserves : support vélo pivotant et casque TV. Cinq thèses à arrêter. Aucun candidat prêt à lancer.**
 

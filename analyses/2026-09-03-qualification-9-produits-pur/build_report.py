@@ -13,6 +13,8 @@ def write(name,text):
 def num(x,dec=0):return 'MANQUANT' if x is None else f'{x:,.{dec}f}'.replace(',',' ').replace('.',',')
 def table(headers,rows):return '\n'.join(['| '+' | '.join(headers)+' |','|'+'|'.join(['---']*len(headers))+'|']+['| '+' | '.join(str(v).replace('|',' / ').replace('\n',' ') for v in r)+' |' for r in rows])
 def evidence(name):
+ if name in ('A6-lamier','A6-lamier-retours'):
+  return '[Source exclue du benchmark officiel — correction du 04/09](../../2026-09-04-approfondissement-rasoir-surete/README.md)'
  if name=='shopping':return '[Sonde 40 prix par candidat](../shopping-360.csv)'
  cap=json.loads((ROOT/'concurrence/raw'/name/'capture.json').read_text())
  return f"[Page marchande]({cap['requested_url']}) · [capture](../concurrence/raw/{name}/page.txt)"

@@ -1,0 +1,158 @@
+{
+  "observed_date": "2026-09-04",
+  "timezone": "Europe/Paris",
+  "method": "Lecture navigateur Chrome via CUA ; transcription sélective des observations, pas export brut ni capture exhaustive.",
+  "limits": [
+    "Google desktop personnalisé, hl=fr/gl=fr : aucune part d’impression ni représentativité nationale établie.",
+    "Les annonces sont des présences observées, pas une preuve de budget ou de profit.",
+    "Ne pas confondre bibliothèque TrendTrack et campagnes actives.",
+    "Historique TrendTrack complet non disponible sans Brandtrack ; aucune activation effectuée."
+  ],
+  "google_serps": [
+    {
+      "query": "rasoir de surete",
+      "url": "https://www.google.com/search?q=rasoir+de+surete&hl=fr&gl=fr",
+      "top_search_ads": [
+        {
+          "name": "Lamier",
+          "domain": "lelamier.com",
+          "landing_page": "https://lelamier.com/products/lamier"
+        },
+        {
+          "name": "Proraso",
+          "domain": "proraso.com",
+          "landing_page": "https://proraso.com/fr/produits/",
+          "comparability": "Adjacent, produits de rasage"
+        },
+        {
+          "name": "La Fourche",
+          "domain": "lafourche.fr",
+          "landing_page": "https://lafourche.fr/collections/rasoirs-de-surete"
+        }
+      ],
+      "shopping_observed": true,
+      "selected_shopping_prices": [
+        {
+          "name": "Lamier",
+          "price_eur": 69,
+          "shipping_card_eur": 6.26,
+          "limit": "Frais de carte divergents de la PDP ; pas de total livré retenu."
+        },
+        {
+          "name": "Amazon Zomchi",
+          "price_eur": 24.99,
+          "limit": "Carte uniquement, variante non confirmée."
+        }
+      ],
+      "excluded_domain": "lelamier.online — aperçu également en annonce, mais exclu du benchmark officiel après correction de Hakim."
+    },
+    {
+      "query": "rasoir de surete homme",
+      "url": "https://www.google.com/search?q=rasoir+de+surete+homme&hl=fr&gl=fr",
+      "top_search_ads": [
+        {
+          "name": "Lamier",
+          "domain": "lelamier.com"
+        },
+        {
+          "name": "Trendhim",
+          "domain": "trendhim.fr",
+          "landing_page": "https://www.trendhim.fr/rasage/rasoir-de-securite/c179"
+        },
+        {
+          "name": "La Fourche",
+          "domain": "lafourche.fr"
+        }
+      ],
+      "shopping_observed": true
+    },
+    {
+      "query": "rasoir de surete debutant",
+      "url": "https://www.google.com/search?q=rasoir+de+surete+debutant&hl=fr&gl=fr",
+      "top_search_ads": [
+        {
+          "name": "Lamier",
+          "domain": "lelamier.com"
+        },
+        {
+          "name": "Rasage Classique",
+          "domain": "rasage-classique.com",
+          "landing_page": "https://www.rasage-classique.com/blog/top-5-rasoirs-surete-debutant/",
+          "landing_type": "Guide comparatif"
+        }
+      ],
+      "bottom_search_ads": [
+        "Lamier — lelamier.com",
+        "Trendhim — trendhim.fr"
+      ],
+      "shopping_observed": true
+    }
+  ],
+  "trendtrack": {
+    "url": "https://app.trendtrack.io/fr/workspace/w-hakims-workspace-9AKLewz/shops/22e7a148-155a-40b4-b074-d230bbb43c71",
+    "domain": "lelamier.com",
+    "shop_creation_label": "Oct 2025",
+    "is_domain_registration_date": false,
+    "monthly_visits_estimate_display": "287K",
+    "growth_display": "+68%",
+    "latest_chart_value": 286574,
+    "latest_chart_month_label": "Jul",
+    "is_september_traffic": false,
+    "last_four_chart_points_rounded": [
+      45000,
+      70000,
+      171000,
+      287000
+    ],
+    "country_shares_rounded": {
+      "FR": 0.66,
+      "IT": 0.16,
+      "BE": 0.05,
+      "TH": 0.05,
+      "US": 0.04
+    },
+    "country_share_total_can_be_under_one": true,
+    "product_count": 6,
+    "ad_library_counts_detail": {
+      "meta": 380,
+      "tiktok": 100,
+      "google": 17
+    },
+    "meta_count_in_list": 353,
+    "count_discrepancy_retained": true,
+    "google_ads_selected_observation": {
+      "first_seen": "2026-03-09",
+      "last_seen_label": "Maintenant",
+      "type": "SEARCH",
+      "reach_display": "30K–35K",
+      "geography": "UE / Royaume-Uni",
+      "period": "Portée affichée sur la carte, pas une mesure mensuelle France",
+      "shopping_cards_present": true
+    },
+    "history_gate_message": "Les Google Ads sont disponibles uniquement après le brandtrack !",
+    "brandtrack_enabled_by_agent": false,
+    "duration_counters_reliable": false,
+    "trustpilot_widget": {
+      "score": 4.1,
+      "count": 628
+    },
+    "profitability": null,
+    "search_spend": null,
+    "product_sales": null
+  },
+  "official_domain_correction": {
+    "source": "Hakim, message du 04/09/2026",
+    "official": "lelamier.com",
+    "excluded": "lelamier.online",
+    "user_assessment": "Copie",
+    "independent_ownership_investigation": false
+  },
+  "trustpilot_live_read": {
+    "url": "https://fr.trustpilot.com/review/lelamier.com",
+    "method": "web open, dernier contrôle du 04/09",
+    "score": 4.1,
+    "review_count": 635,
+    "representative_sample": false,
+    "individual_claims_verified": false
+  }
+}
