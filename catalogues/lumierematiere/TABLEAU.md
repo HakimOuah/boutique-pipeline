@@ -47,11 +47,14 @@ Ce tableau suit cette intervention uniquement ; il ne prétend pas inventorier l
 
 ### T-04 — Couvrir les formes et finitions de variantes (lot4 A1)
 
-**État** : FAIT LOCAL — 04/09/2026 soir, dossier daté05/09 selon brief. **13/13 packshots**, 5 manifestes, planche QA, JPEG RGB2048² et 13 empreintes uniques. Aucun changement Shopify/DSers ni SKU.
-**Pour** : Codex (production terminée) ; import hors de cette intervention.
+**État** : **FAIT ET IMPORTÉ** — production Codex 13/13 le 04/09 soir, **importée en boutique dans la foulée** (`journal/2026-09-05-import-lot4-a1.md`). Chaque variante des 5 fiches porte désormais sa propre image, appariée par SKU. 2 packshots périmés de `837156` supprimés. Libellés de `193329` renommés sur les cotes prouvées, titre de `630923` corrigé (2 variantes sur 3 sont des plafonniers). Contrôle : 52 produits / 158 variantes / SKU DSers intacts.
+**Pour** : clos.
+**Vérifié avant import** : les 4 fils du rendu « suspension » de `630923` sont fidèles à la référence `Pendant 50cm` ; les 2 images en ligne de `193329` sont bien la forme B haute. Les deux affirmations de Codex tiennent.
+**Piège API rencontré** : une variante Shopify ne porte qu'**un seul** média — détacher, contrôler, **puis** attacher ; jamais les deux dans le même appel.
 **Produit** : 607504 =4 ; 837156 =4 ; 630923 =2 ; 193329 =2 ; 338324 =1. Un seul luminaire dans le cadre.
 **Identifications** : 193329 A=bas Ø12/H10, B=haut Ø11/H16,5 (4 références DOM récupérées). Deux A produits, deux B existants conservés. 338324/193 toujours absent : rendu reconstitué expressément autorisé par le brief.
-**Attention** : 630923 plafonnier Ø50/60 partage un packshot sans échelle, les deux SKU sont dans le manifeste. Résolution native1254² agrandie proportionnellement. Import et état live non vérifiés.
+**Attention** : 630923 plafonnier Ø50/60 partage un packshot sans échelle (le schéma coté du lot B le complétera). Résolution native1254² agrandie proportionnellement.
+**À TRANCHER PAR HAKIM** : `193329` et `338324` vendent **le même article** (cylindre travertin Ø 12 × H 10 + forme haute, tête bois clair ou noyer) sur deux listings AliExpress distincts (`1005010522193329` / `1005008660338324`), **tous deux live à 199 €** et dans `selection-199`. Après cet import elles portent en plus des packshots quasi identiques. Garder laquelle ?
 **Livraison** : `livraisons-visuels-codex/couverture-2026-09-05/`, `qa-couverture.jpg` ; [compte rendu](journal/2026-09-05-lot4-a1-couverture.md), [registre](journal/2026-09-05-lot4-a1-registre.json), [QA](journal/2026-09-05-lot4-a1-qa.json).
 
 ## À faire après cette passe
