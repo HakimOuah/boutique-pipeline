@@ -85,9 +85,32 @@ Le titre actuel — « corolle céramique blanche » — ne décrit qu'une des q
 | `suspension-deco-led-837156` | Émail | `Céladon vert` · `Céladon bleu poudré` · **`Céladon vert 2`** · **`Céladon bleu poudré 2`** |
 | `suspension-rotin-897170` | Taille | `Ø 50 cm · rotin` · **`Ø 50 cm · rotin 2`** · `Ø 50 cm · plastique` · `Ø 60 cm · plastique` · **`Ø 60 cm · plastique 2`** · `Ø 60 cm · rotin` · **`Ø 60 cm · rotin 2`** |
 
-Le suffixe « 2 » est un artefact de dédoublonnage à l'import. À vérifier sur les images
-fournisseur : soit ce sont deux motifs réellement distincts et il faut les nommer, soit ce sont
-des doublons et il faut supprimer les variantes.
+> **CORRECTION — 04/09, après vérification des SKU. Ce ne sont PAS des doublons.**
+>
+> L'hypothèse « artefact de dédoublonnage à l'import » est fausse. Chaque variante « 2 » porte un
+> **identifiant fournisseur distinct**, et toutes ont du stock :
+>
+> | Variante | SKU fournisseur | Stock |
+> |---|---|---:|
+> | `Ø 50 cm · rotin` | `200000531:193#rattan 50cm` | 3 |
+> | `Ø 50 cm · rotin 2` | `200000531:29#rattan 50cm` | 10 |
+> | `Ø 60 cm · plastique` | `200000531:175#Plastic 60cm` | 19 |
+> | `Ø 60 cm · plastique 2` | `200000531:350852#Plastic 60cm` | 18 |
+> | `Ø 60 cm · rotin` | `200000531:1052#rattan 60cm` | 4 |
+> | `Ø 60 cm · rotin 2` | `200000531:173#rattan 60cm` | 5 |
+>
+> Même chose sur `suspension-deco-led-837156` : `Céladon vert` = `…:365458#Plum Green Celadon`,
+> `Céladon vert 2` = `…:193#Plum Green Celadon`.
+>
+> Le fournisseur a donc **deux SKU distincts portant le même libellé**. Les identifiants
+> AliExpress `193` / `29` / `173` / `1052` sont typiquement des codes de coloris : la différence
+> est réelle mais le libellé ne la porte pas.
+>
+> **Aucune suppression n'a été faite, et aucune ne doit l'être** : supprimer casserait de vraies
+> variantes fournisseur et le mapping DSers correspondant. On ne peut pas non plus les renommer
+> honnêtement sans savoir ce qui les distingue.
+>
+> **Reclassé en `a_identifier`**, à traiter avec la passe P2 sur les images fournisseur.
 
 ---
 
@@ -181,3 +204,57 @@ aucun brouillon publié · aucun délai touché.
 `boutique-bonum-vitae` et `boutique-seiko-mod`, et contrairement à la règle du `CLAUDE.md` de ce
 repo (« avant toute intervention sur une boutique, lire son `TABLEAU.md` »). Le suivi vit dans
 `shopify/ETAT.md`. À arbitrer : créer le tableau, ou acter l'exception pour cette boutique.
+
+---
+
+# Exécution — 04/09/2026
+
+Accès : plugin Shopify (connecteur Claude). Mutations `productOptionsDelete` (strategy `DEFAULT`)
+et `productOptionUpdate` (`variantStrategy: LEAVE_AS_IS`).
+
+## Fait
+
+**P4 — 13 options à valeur unique supprimées.** 8 fiches à variante unique (l'option collapse en
+`Title / Default Title`) et 5 fiches à deux options dont une morte. Effet direct sur les titres :
+`Ø 30 cm / Ampoule non fournie` → `Ø 30 cm`.
+
+**P5 — 2 fiches renommées.** Règle retenue : nommer l'option d'après ce qu'elle règle, et chaque
+valeur d'après **ce que le client reçoit**, jamais d'après une absence.
+
+| Fiche | Avant | Après |
+|---|---|---|
+| `suspension-rotin-dore-435189` | **Ampoule** : `LED 3000 K (blanc chaud)` · `Ampoule non fournie (E27)` | **Ampoule** : `Avec ampoule LED · blanc chaud 3000 K` · `Sans ampoule · douille E27` |
+| `suspension-rotin-623305` | **Température** : `Blanc chaud` · `Blanc froid` · `Ampoule non fournie` | **Ampoule** : `Avec ampoule LED · blanc chaud 3000 K` · `Avec ampoule LED · blanc froid 6000 K` · `Sans ampoule · douille E27` |
+
+**P2 partiel — `suspension-rotin-623305` renommée** (hors périmètre initial, mais les formes
+étaient confirmées par les sources fournisseur, et c'est la fiche d'exemple de Hakim) :
+`A7` → `Tambour droit · Ø 31 cm` · `A8` → `Pans coupés · Ø 30 cm` · `A9` → `Dôme arrondi · Ø 32 cm`.
+
+## Non fait, volontairement
+
+**P3 — aucune suppression.** Voir la correction ci-dessus : les variantes « 2 » sont de vraies
+variantes fournisseur, avec des SKU distincts et du stock. Reclassé en `a_identifier`.
+
+## Contrôle de non-régression (vitrine, après propagation)
+
+| | Avant | Après |
+|---|---:|---:|
+| Produits publics | 52 | **52** |
+| Variantes | 161 | **161** |
+| SKU DSers intacts | 161 | **161** |
+| `compare_at_price` | 0 | **0** |
+| Options à valeur unique | 13 | **0** |
+| Titres « Ampoule non fournie » | 13 | **0** |
+
+Aucun ID de variante modifié, aucun prix modifié, aucun stock modifié, aucun brouillon publié,
+aucun délai touché.
+
+## Reste ouvert
+
+Les visuels (P1, P2, P6) — brief Codex `briefs/2026-09-04-codex-variantes-formes.md` + les trois
+JSON. Toujours **125 variantes sur 161 qui partagent la photo d'une autre** : le renommage rend
+les choix lisibles, il ne les rend pas visibles.
+
+Deux arbitrages en attente de Hakim : `suspension-verre-405368` (« Beige et blanc » vs référence
+« Beige + Green ») et `suspension-rotin-272937` (codes = configurations, dont une applique murale
+dans une fiche de suspension).
