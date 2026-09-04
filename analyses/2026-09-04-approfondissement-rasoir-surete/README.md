@@ -122,3 +122,5 @@ La tête Yaqi Tile à 30,59 € est **une tête seule**, le support Yintal à 4,
 - Search/Business/Shopping Score : `null`, barèmes non opérationnalisés pour cette étude. Mesures réelles de campagne, commandes et marge réelle : `null`.
 
 Contrôle local avant livraison : dix réponses HTTP 200 et SHA-256 concordants, JSON lisibles, 48 scénarios recalculés, 111 lignes API et seule variante en stock vérifiées, liens locaux du nouveau dossier résolus. La validation des calculs ne valide pas leurs hypothèses ni le produit.
+
+**Suite apportée par Hakim le 04/09 :** boutique AliExpress [1104699287](https://fr.aliexpress.com/store/1104699287), piste de kit chez un même marchand. [Composition proposée et contrôles à faire](sourcing/README.md#nouveau-vendeur-apporté-par-hakim--04092026). Catalogue bloqué par la politique navigateur, références produit demandées ; cette nouvelle piste ne valide pas encore le fournisseur ou le coût du kit.

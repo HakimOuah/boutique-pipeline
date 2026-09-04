@@ -19,3 +19,20 @@ Pas d'appel fret supplémentaire pour ce S9 : déjà trop coûteux pour le scén
 Les prix API fournisseur annoncent taxes incluses. Comparer au modèle de contribution sur une base fiscale cohérente ; sans facture/régime connu, ne pas inventer une TVA récupérable. Prix public ponctuel, ni devis volume ni prix contractuel.
 
 Les anciennes pistes et leur erreur fret restent dans [le dossier précédent](../../2026-09-03-qualification-9-produits-pur/SOURCING.md). Aucune PDP AliExpress validée visuellement pendant cette passe. Un résultat inexploitable de l'API ne prouve pas l'absence de fournisseur : l'étape reste `MANQUANT` pour l'offre exacte.
+
+## Nouveau vendeur apporté par Hakim — 04/09/2026
+
+[Boutique AliExpress 1104699287](https://fr.aliexpress.com/store/1104699287). Hakim indique que ce marchand propose les composants permettant de composer un kit. **Piste utilisateur, catalogue et identité commerciale non vérifiés par l’agent.** Aucun rapprochement avec les vendeurs précédents n’est établi.
+
+L’ouverture web n’a pas fourni de contenu ; l’outil navigateur a ensuite explicitement refusé cette URL par sa politique de sécurité du site. Aucun contournement essayé. Aucune référence de ce magasin dans les preuves locales déjà collectées. La passerelle autorisée expose recherche, variantes et qualification SKU, mais pas de catalogue par ID de boutique : les liens `/item/…html` ou captures du catalogue ont été demandés à Hakim pour une vérification structurée.
+
+**Montages à évaluer — HYPOTHÈSES, aucun prix fournisseur :**
+
+- Essentiel : rasoir complet à peigne fermé + lames DE identifiées et compatibles + étui protecteur.
+- Coffret : même rasoir + lames + blaireau synthétique + support compatible + étui/boîte. Le savon n’est pas nécessaire à cette première composition et aurait son propre dossier produit.
+
+Compatibilité à vérifier : diamètre du manche et logement du support, dimensions du rasoir dans l’étui, diamètre du blaireau et ouverture du support, protection des lames, cohérence des finitions. Même vendeur ne prouve ni kit assemblé ni colis unique ; vérifier conditionnement, disponibilité simultanée et transport réellement regroupé. Sans preuve de regroupement, calculer le scénario prudent avec les frais par article ; une facture ou un suivi unique ne se déduit pas du nom du magasin.
+
+Repères économiques du [modèle précédent](../economics-assumptions.json) : pour garder 10 € de contribution après Ads avant frais fixes, à CPC hypothétique 0,80 € / CVR 2 %, coût rendu total cible **≤25,27 € à 99 € TTC**, ou **≤40,54 € à 119 € TTC**. Ces plafonds incluent tous composants, conditionnement, éventuel assemblage et expédition ; base fiscale cohérente et taxes non récupérables incluses. Ce ne sont ni devis ni seuils canoniques. Le taux de conversion peut différer entre les deux prix.
+
+Prochaine entrée nécessaire : liens du rasoir, blaireau, support et étui/coffret envisagés, ou capture lisible avec nom du magasin et références. Aucun verdict fournisseur, aucune nouvelle mesure de demande, aucun changement du REVIEW A6, aucun message vendeur envoyé.
