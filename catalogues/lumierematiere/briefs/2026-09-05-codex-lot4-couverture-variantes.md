@@ -114,7 +114,24 @@ Même nature de problème, moins spectaculaire mais tout aussi faux : le client 
 | `lustre-anneau-led-led-134962` | 4 | 3 | **1** | blanc 5 vs blanc 6 lumières |
 
 Le nombre de lumières se lit dans le SKU (`#4 lights`, `#8 heads`, `#Black 6T`…) : la
-correspondance est sans ambiguïté sur ces sept fiches.
+correspondance **variante → identifiant** est sans ambiguïté sur ces sept fiches.
+
+### Correction du 04/09 — prérequis bloquant, ajouté après le lot A1
+
+**Aucune des sept fiches n'a de référence par variante en local.** Seules les images de listing
+`01.jpg`–`06.jpg` sont présentes ; il n'y a pas de dossier `variantes-*`. La phrase ci-dessus
+règle *quelle variante est laquelle*, elle ne dit **pas** à quoi ressemble un modèle à 8 bras.
+
+**Donc, fiche par fiche et avant toute génération** : passe DOM sur la PDP, une référence par
+identifiant d'option, `preuves-dom.json` horodaté — la même méthode que sur `607504` et `193329`.
+
+**Ne jamais déduire un nombre de bras d'une autre variante.** Un rendu à 8 bras fabriqué depuis
+une photo à 4 bras est une misrepresentation, précisément celle que les lots 3 et 4 A1 ont
+corrigée. Si le fournisseur ne montre pas un comptage, **ne rien produire pour ce comptage et le
+déclarer dans le manifeste** — c'était la bonne décision sur le modèle A de `338324`.
+
+Ordre conseillé : commencer par les fiches à un seul visuel (`717226`, `625575`, `134962`), qui
+valident la méthode à bas coût, avant `992600` (6) et `361680` (4).
 
 ---
 
@@ -138,6 +155,9 @@ aucun texte »**, et elle ne vaut que pour ce lot. Nom : `{handle}-schema-g6.jpg
 ## Lot C — deux questions, aucune image avant réponse
 
 ### `suspension-bois-led-934110` — l'option n'est pas un axe
+
+*(Cette fiche n'a pas non plus de référence par variante : la passe DOM demandée ci-dessous est
+la même que celle du prérequis A2, et peut se faire dans le même mouvement.)*
 
 L'option « Modèle » vaut aujourd'hui `Blanc froid 6000 K` · `Travertin` · `Blanc chaud 3000 K`.
 Ce sont **une matière et deux températures de couleur** dans la même liste. Les libellés sont
@@ -170,5 +190,14 @@ Une planche `qa-couverture.jpg` de toutes les images livrées.
 | C — questions | **0** | réponses au manifeste |
 | | **40 au maximum** | |
 
-Si le volume est trop large pour une passe, **livrer A1 seul et s'arrêter** : c'est le seul lot
-qui touche à la conformité GMC. A2 et B sont de la qualité de fiche.
+~~Si le volume est trop large pour une passe, **livrer A1 seul et s'arrêter**~~ — **fait le
+04/09 : A1 est livré (13/13) et importé.** Reste A2, B et C.
+
+## Ordre recommandé pour la suite (04/09, après l'import d'A1)
+
+1. **C d'abord** — aucune image, deux réponses, et la passe DOM sur `934110` sert aussi de
+   répétition pour le prérequis d'A2.
+2. **B ensuite si tu veux avancer vite** — les cotes sont déjà dans les libellés boutique, aucun
+   scraping n'est nécessaire. C'est le lot le moins risqué des trois.
+3. **A2 en dernier**, et seulement après la passe DOM par fiche. C'est le lot qui touche à la
+   conformité, mais c'est aussi celui où une génération non sourcée ferait le plus de dégâts.

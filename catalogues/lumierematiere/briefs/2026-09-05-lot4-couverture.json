@@ -143,7 +143,8 @@
           "identite_etablie": "grille fournisseur A/B x Wood color / Dark wood color, trois cases sur quatre observees au DOM le 04/09, planche cotee 05.jpg = O 12 x H 10 a tete bois CLAIR",
           "consigne": "produire le packshot, et confirmer au passage que l'identifiant 193 reste absent du selecteur : c'est la seule cellule reconstituee du catalogue"
         }
-      ]
+      ],
+      "statut": "LIVRE_ET_IMPORTE_2026_09_04"
     },
     "A2": {
       "intitule": "le nombre de lumieres n'est pas montre",
@@ -199,7 +200,14 @@
           "a_produire": 1,
           "axe": "blanc 5 vs blanc 6 lumieres"
         }
-      ]
+      ],
+      "prerequis_bloquant": {
+        "ajoute_le": "2026-09-04",
+        "constat": "Aucune des sept fiches n'a de reference par variante en local : seulement les images de listing 01-06.jpg, pas de dossier variantes-*.",
+        "consigne": "Fiche par fiche et AVANT toute generation : passe DOM sur la PDP, une reference par identifiant d'option, preuves-dom.json horodate. Meme methode que 607504 et 193329.",
+        "interdit": "Ne jamais deduire un nombre de bras d'une autre variante. Un rendu a 8 bras fabrique depuis une photo a 4 bras est une misrepresentation. Si un comptage n'est pas montre par le fournisseur, ne rien produire et le declarer dans le manifeste.",
+        "ordre_conseille": "commencer par les fiches a un seul visuel (717226, 625575, 134962) avant 992600 (6) et 361680 (4)"
+      }
     },
     "B": {
       "intitule": "schemas cotes, seule la taille change",
@@ -257,7 +265,8 @@
           "handle": "suspension-bois-led-934110",
           "statut": "a_trancher",
           "probleme": "l'option 'Modele' vaut 'Blanc froid 6000 K' / 'Travertin' / 'Blanc chaud 3000 K' : une matiere et deux temperatures de couleur dans la meme liste. Les libelles traduisent fidelement les SKU (175#6000k-cold white, 193#Yellow Travertine, 173#3000k-warm white) : l'incoherence vient du fournisseur.",
-          "question": "le tube existe-t-il en deux matieres (travertin / blanc) avec la temperature en axe separe, ou les trois options sont-elles vraiment ce que le fournisseur propose en vrac ?"
+          "question": "le tube existe-t-il en deux matieres (travertin / blanc) avec la temperature en axe separe, ou les trois options sont-elles vraiment ce que le fournisseur propose en vrac ?",
+          "note": "Pas de reference par variante non plus : la passe DOM est la meme que le prerequis A2, a faire dans le meme mouvement."
         },
         {
           "handle": "suspension-effet-pierre-092465",
@@ -268,5 +277,10 @@
     }
   },
   "total_max": 40,
-  "si_trop_large": "livrer A1 seul et s'arreter : c'est le seul lot qui touche a la conformite GMC. A2 et B sont de la qualite de fiche."
+  "si_trop_large": "A1 est livre et importe le 04/09. Reste A2, B et C.",
+  "ordre_recommande_2026_09_04": [
+    "1. C — aucune image, deux reponses ; la passe DOM sur 934110 sert de repetition au prerequis A2",
+    "2. B — les cotes sont deja dans les libelles boutique, aucun scraping necessaire, lot le moins risque",
+    "3. A2 — en dernier, apres la passe DOM par fiche ; lot de conformite mais aussi celui ou une generation non sourcee ferait le plus de degats"
+  ]
 }
