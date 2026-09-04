@@ -25,6 +25,7 @@ for handle in os.environ['LM_HANDLES'].split(','):
         time.sleep(0.5)
     record = {'handle': handle, 'supplier_id': pid, 'observed_at': time.strftime('%Y-%m-%dT%H:%M:%S%z'), 'url': url, 'page': page_info(), 'variants': []}
     # Pas de body.innerText : il inclurait aussi la navigation du compte connecté.
+    record['option_values'] = js("Array.from(document.querySelectorAll('[data-sku-col]')).map(e=>({key:e.getAttribute('data-sku-col'),label:e.querySelector('img')?.alt||e.innerText}))")
     variants = js("Array.from(document.querySelectorAll('[data-sku-col]')).filter(e=>e.querySelector('img')).map(e=>({key:e.getAttribute('data-sku-col'),label:e.querySelector('img').alt,thumbnail:e.querySelector('img').src}))")
     dest = base / 'sources-fournisseur' / pid / 'variantes-lot4-20260905'
     dest.mkdir(parents=True, exist_ok=True)

@@ -8,7 +8,7 @@
 **Pourquoi** : montrer les couleurs, formes et dimensions réelles des variantes.
 **Comment** : contrôler les sources locales des lots P1/P2/P6 ; établir les correspondances avant génération ; produire et vérifier les JPEG et manifestes.
 **Sortie attendue** : livraison dans `livraisons-visuels-codex/variantes-forme/`, provenance et QA, compte rendu dans `journal/`.
-**Attention** : aucune correspondance ni cote inventée ; SKU DSers inchangés. Les arbitrages 272937 et 607504 sont **rendus** (04/09). Lot 3 **importé**, tous les libellés aveugles du catalogue **réécrits** (04/09). Lot4 **A1 livré localement 13/13** (T-04) ; A2/B/C restent à faire (T-05), selon `briefs/2026-09-05-codex-lot4-couverture-variantes.md`.
+**Attention** : aucune correspondance ni cote inventée ; SKU DSers inchangés. Les arbitrages 272937 et 607504 sont **rendus** (04/09). Lot 3 **importé**, tous les libellés aveugles du catalogue **réécrits** (04/09). Lot 4 **A1 importé 13/13** (T-04) ; **17 A2 + 10 B livrés localement, C documenté** (T-05). Deux images supplémentaires nécessaires sur 183789, en attente d'accord (T-06).
 **Réf.** : [Brief](briefs/2026-09-04-codex-variantes-formes.md), les trois JSON associés.
 
 **Compte rendu actuel** : [Complément et décisions restantes](journal/2026-09-04-variantes-formes-complement.md), [registre et prompts](journal/2026-09-04-variantes-formes-registre.json), [QA 34/34](journal/2026-09-04-variantes-formes-qa.json). Le premier compte rendu à 15 images reste une archive.
@@ -61,10 +61,21 @@ Ce tableau suit cette intervention uniquement ; il ne prétend pas inventorier l
 
 ### T-05 — Traiter le solde du lot4 : A2, B et C
 
-**État** : À FAIRE — fractionnement A1 seul autorisé par le brief ; aucune production A2/B ni recherche C engagée ici.
-**Pour** : Codex, prochaine passe.
+**État** : FAIT POUR LE QUOTA DEMANDÉ — 04/09 soir, 17 packshots A2 + 10 schémas B livrés localement, 2 réponses C documentées. Total 40 avec les 13 A1 inchangés, 21 manifestes, planche QA et contrôle RGB 2048². **Couverture réelle encore partielle sur 183789 : T-06.**
+**Pour** : relais import séparé, aucune publication effectuée dans cette passe Codex.
 **Pourquoi** : montrer les nombres de lumières, fournir l'échelle et résoudre les deux questions fournisseur restantes.
 **Comment** : reprendre les sections A2/B/C du brief et leur JSON ; vérifier SKU/références avant chaque rendu. C : clarifier934110 et confirmer092465 avant toute nouvelle image.
 **Sortie attendue** : jusqu'à17 packshots A2 +10 schémas B, deux réponses C ; compléter la livraison et ses manifestes sans remplacer les13 A1 validés.
-**Attention** : SKU intouchables, aucune action Shopify/DSers. Aucune cote inventée ; schémas seuls autorisés à porter du texte. A1 est livré localement, pas déclaré importé.
+**Attention** : SKU intouchables, aucune action Shopify/DSers. Aucune cote inventée ; schémas seuls autorisés à porter du texte. A1 importé selon T-04, les 27 nouveaux restent une livraison locale. C934110 mélange un tube travertin et deux tubes 3000/6000 K avec un second axe fixe 3000 K : incohérence fournisseur à clarifier. C092465 clair/brun confirmé.
+**Livraison** : [Compte rendu](journal/2026-09-05-lot4-suite-couverture.md), [registre](journal/2026-09-05-lot4-suite-registre.json), [QA](journal/2026-09-05-lot4-suite-qa.json), `livraisons-visuels-codex/couverture-2026-09-05/qa-couverture.jpg`.
 **Réf.** : [Brief lot4](briefs/2026-09-05-codex-lot4-couverture-variantes.md), [JSON](briefs/2026-09-05-lot4-couverture.json).
+
+### T-06 — Compléter les deux versions à six palets de 183789
+
+**État** : BLOQUÉ — accord Hakim demandé pour deux images supplémentaires, passage du plafond 40 à 42. Les anciens packshots gris/blanc comportent sept palets (six périphériques + centre), aucun SKU vendu ne leur correspond.
+**Pour** : Hakim (accord), puis Codex (production locale).
+**Pourquoi** : le brief comptait deux images existantes comme utilisables ; elles ne couvrent ni cinq ni six palets.
+**Comment** : après accord, produire gris6 `200000795:366#grey 6 lights` et blanc6 `200000795:10#White  6 lights` depuis leurs références déjà collectées dans `sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/`. Compter cinq palets périphériques +un central. Conserver la finition/structure propre à chaque source.
+**Sortie attendue** : ajouter deux entrées au manifeste, actualiser registre et QA (42 au total). Les deux versions à cinq sont déjà livrées dans A2.
+**Attention** : ne pas importer les anciens visuels à sept ; ne pas inventer six depuis cinq. Aucune mutation Shopify/DSers dans le mandat visuel.
+**Réf.** : [Compte rendu du contrôle](journal/2026-09-05-lot4-suite-couverture.md), planche locale `qa-sources/plafonnier-led-led-183789.jpg`.
