@@ -27,8 +27,8 @@ Précontrôle des 20 fiches, production des éléments exploitables, schémas à
 
 Ce tableau suit cette intervention uniquement ; il ne prétend pas inventorier les autres chantiers ou l’état live de la boutique.
 
-### T-02 — Header desktop : menu à 5 entrées, logo visible
-**État** : À FAIRE — relevé 04/09/2026.
+### T-02 — Header desktop : menu à 4 entrées, logo visible
+**État** : EN COURS — navigation appliquée sur le live le 04/09 (logo revenu, une ligne) ; thème `LM UX 2026-09-04` prêt, **publication par Hakim**.
 **Pour** : Hakim (navigation + personnalisateur), ou Cursor sur copie de thème.
 **Pourquoi** : le menu à 10 entrées écrase la colonne du logo à 0 px et passe sur deux lignes.
 **Comment** : `shopify/AUDIT-UX-UI-2026-09-04.md` §1 — cible à 5 entrées, utilitaires vers le footer et une icône « suivi », puis layout « logo à gauche, menu à gauche » en filet. Ensuite §3 (liste canonique des matières) et §6 (hero et bandeau mobile).

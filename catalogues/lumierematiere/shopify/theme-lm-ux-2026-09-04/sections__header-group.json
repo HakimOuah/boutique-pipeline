@@ -1,0 +1,195 @@
+{
+  "type": "header",
+  "name": "t:header",
+  "sections": {
+    "announcement_bar_r8QCCw": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_y7tnxm": {
+          "type": "_announcement",
+          "settings": {
+            "layout_gap": 10,
+            "additional_class": ""
+          },
+          "blocks": {
+            "text_Lk3QUw": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<p>Livraison offerte partout en France</p>",
+                "text_style": "paragraph",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "center",
+                "alignment_mobile": "center",
+                "show_read_more": false,
+                "read_more_length": 200,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_Lk3QUw"
+          ]
+        },
+        "announcement_VprFGF": {
+          "type": "_announcement",
+          "settings": {
+            "layout_gap": 10,
+            "additional_class": ""
+          },
+          "blocks": {
+            "text_ndz4fN": {
+              "type": "text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "text": "<p>Retours 30 jours · Paiement sécurisé</p>",
+                "text_style": "paragraph",
+                "paragraph_font_size": "normal",
+                "font_weight": 400,
+                "alignment": "center",
+                "alignment_mobile": "center",
+                "show_read_more": false,
+                "read_more_length": 200,
+                "read_more_text": "Voir plus",
+                "read_less_text": "Voir moins",
+                "truncate": false,
+                "truncate_length": 2,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_ndz4fN"
+          ]
+        }
+      },
+      "block_order": [
+        "announcement_y7tnxm",
+        "announcement_VprFGF"
+      ],
+      "name": "t:announcement_bar",
+      "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "color_scheme": "scheme-3",
+        "show_arrows": false,
+        "rewind": true,
+        "autoplay": true,
+        "autoplay_speed": 4,
+        "padding_top": 10,
+        "padding_bottom": 10,
+        "additional_class": ""
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "button-header": {
+          "type": "button",
+          "disabled": false,
+          "static": true,
+          "settings": {
+            "show_on_display": "desktop_only",
+            "link": "/apps/parcelpanel",
+            "open_in_new_tab": false,
+            "label": "Suivi de commande",
+            "button_style": "secondary",
+            "button_shape": "small",
+            "icon": "none",
+            "icon_custom": "",
+            "icon_position": "start",
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {}
+        },
+        "header-advanced-megamenus": {
+          "type": "_header-advanced-megamenus",
+          "static": true,
+          "settings": {},
+          "blocks": {}
+        },
+        "header-notifications": {
+          "type": "_header-notifications",
+          "disabled": true,
+          "static": true,
+          "settings": {
+            "enable_notifications_bubble": true
+          },
+          "blocks": {}
+        },
+        "header-drawer-menu": {
+          "type": "_header-drawer-menu",
+          "static": true,
+          "settings": {
+            "color_scheme": "scheme-1"
+          },
+          "blocks": {
+            "header-drawer-menu-header": {
+              "type": "_header-drawer-menu-header",
+              "static": true,
+              "settings": {
+                "wrap_in_card": false,
+                "color_scheme": "",
+                "margin_top": 0,
+                "margin_bottom": 0
+              },
+              "blocks": {}
+            },
+            "header-drawer-menu-under-menu": {
+              "type": "_header-drawer-menu-under-menu",
+              "static": true,
+              "settings": {
+                "wrap_in_card": false,
+                "color_scheme": "",
+                "margin_top": 0,
+                "margin_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": []
+        }
+      },
+      "settings": {
+        "color_scheme": "scheme-1",
+        "header_layout": "logo_left_menu_left",
+        "header_height": 65,
+        "enable_sticky_header": true,
+        "enable_transparent_header": false,
+        "transparent_header_color_scheme": "scheme-3",
+        "use_inverse_logo": false,
+        "logo_height": 40,
+        "logo_height_mobile": 34,
+        "header_menu_style": "dropdown",
+        "menu_font_weight": 400,
+        "uppercase_menu_items": false,
+        "menu": "main-menu",
+        "menu_2": "",
+        "menu_mobile": "",
+        "show_search": true,
+        "enable_predictive_search": true,
+        "show_country": false,
+        "show_country_icon": true,
+        "show_language": false,
+        "cart_icon": "local_mall",
+        "account_icon": "account_circle"
+      }
+    }
+  },
+  "order": [
+    "announcement_bar_r8QCCw",
+    "header"
+  ]
+}
