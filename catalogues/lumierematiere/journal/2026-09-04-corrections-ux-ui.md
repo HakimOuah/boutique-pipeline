@@ -26,17 +26,17 @@ dans `shopify/theme-lm-ux-2026-09-04/`. **Non publiée — publication par Hakim
 Prévisualisation : `https://lumierematiere.fr/?preview_theme_id=187012350288`
 
 ### `sections/header-group.json`
-- `header_layout` : `logo_left` → **`logo_left_menu_left`** (grille `auto auto 1fr` : le logo prend sa largeur avant le menu — filet de sécurité).
+- `header_layout` : `logo_left` → **`logo_left_menu_left`** (grille `auto auto 1fr` : le logo prend sa largeur **avant** le menu — le logo ne peut plus être écrasé, quel que soit le nombre d'entrées). Vérifié en prévisualisation : classe `header__layout--logo-left-menu-left`, logo 129 × 40.
 - `logo_height` 36 → **40**, `logo_height_mobile` 28 → **34**.
 - Bandeau d'annonce : `show_arrows` → false ; textes raccourcis pour tenir sur une ligne mobile :
   « Livraison offerte partout en France » · « Retours 30 jours · Paiement sécurisé ».
-- Bloc `button-header` activé (`disabled: false`) : **« Suivi de commande »** → `/apps/parcelpanel`, `show_on_display: desktop_only`, style secondaire petit.
+- Bouton header « Suivi de commande » : **testé puis désactivé**. Le thème ne rend ce bloc que dans les layouts `logo_left` / `logo_center` / `logo_center_with_two_menus`, et il le place **avant le menu**, en pilule bordée — il ressemble à une entrée de navigation, ce qu'on voulait justement éviter. Le lien reste en tête de la colonne « Informations pratiques » du footer. Le bloc est laissé configuré (`disabled: true`, libellé et lien en place) ; le mettre à côté des icônes demanderait une retouche de `header.liquid`.
 
 ### `templates/index.json`
 - **« Par matière »** : `collection_list` — `lustres-effet-cristal` (dépubliée, 0 produit, carte fantôme) remplacée par `suspensions-metal` → **6 cartes réelles**. Sous-titre : « Bambou, rotin, bois, pierre, verre ou métal — et quelques pièces en osier ou en céramique colorée. Ouvrez la matière qui vous attire, les modèles sont derrière. » (plus de « six matières… effet cristal » ; réconcilie les 8 entrées du menu sans annoncer un chiffre faux).
 - **« Par pièce et par forme »** → **« Par forme »** (ses trois cartes sont des formes).
 - Section newsletter `custom_section_qetdex` **supprimée** (doublon du formulaire footer, −319 px).
-- Hero mobile : `same_as_desktop` false, `layout_justify_mobile` **flex-end** (texte en bas de l'image, sous l'abat-jour), `image_filter_opacity` 35 → **45**. Première passe erronée (axe horizontal) corrigée en seconde passe ; 42 refusé (pas de 5), 45 accepté.
+- Hero mobile : `same_as_desktop` false, `layout_justify_mobile` **flex-end** (bloc texte calé en bas de l'image), `image_filter_opacity` 35 → **45**, et les deux badges du hero (« Paiement sécurisé », « SAV en semaine ») passés en **desktop_only** — ils doublonnent le bandeau et le footer, et leur hauteur maintenait le titre sur l'abat-jour. Mesuré : le `h1` descend de 221–301 px à **354–434 px** dans une bannière 108–676 ; il passe sous l'abat-jour, dont il frôle encore le bord inférieur. Première passe erronée (axe horizontal) corrigée ; 42 refusé (pas de 5), 45 accepté.
 - Bloc `rating_stars` du slider « Pour le salon » : valeurs de démo **4,5 / 123** → **0 / 0** (`hide_rating_when_no_reviews` reste true ; hygiène Noirmont : « disabled ne suffit pas si les valeurs restent »).
 
 ### Non fait, volontairement
@@ -47,11 +47,12 @@ Prévisualisation : `https://lumierematiere.fr/?preview_theme_id=187012350288`
 ## Vérification en prévisualisation (desktop 1440 / mobile 375)
 - Desktop : layout `header__layout--logo-left-menu-left`, logo **129 × 40**, 4 entrées sur **1 ligne**, bandeau 42 px, **6 cartes matière**, section newsletter absente, sections : `image_banner → collections_matieres → lm_benefices_piece → collection_featured → lm_guide_choix → collections_piece → custom_section_k9aPjP → lm_cta_final → k6mNHc → footer`.
 - Mobile : bandeau **une ligne** (42 px, contre ~130 avant), logo plus grand, hero à filtre 45.
-- Seconde passe (bouton « Suivi de commande », texte du hero en bas) : voir le point d'étape.
+- Seconde passe : hero mobile vérifié (ci-dessus) ; bouton « Suivi de commande » rendu puis retiré (placement avant le menu).
 
 ## Pièges relevés
 - Les JSON de thème commencent par un bloc `/* … */` : le retirer avant `json.loads`.
 - `themeFilesUpsert` valide les réglages : une valeur hors pas d'un `range` est refusée pour tout le fichier.
 - `show_on_display` attend `desktop_only` / `mobile_only` / `desktop_and_mobile` — pas `desktop`.
+- Le bloc statique `button-header` n'est rendu que dans certains layouts de header (`header.liquid` l. 130 et 142) : un bloc activé peut rester invisible sans erreur.
 - Dans l'`image-banner` Fullstack (flex colonne) : `layout_justify_*` = axe **vertical**, `layout_align_items_*` = axe **horizontal**.
 - `themeDuplicate` existe (payload `newTheme`) : plus besoin du CLI pour une copie de travail.
