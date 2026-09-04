@@ -1,0 +1,215 @@
+{
+  "audited_at_utc": "2026-09-04T22:00:48.936144+00:00",
+  "source_rows": 663,
+  "unique_keywords": 663,
+  "missing_volumes": 301,
+  "core_group_count": 20,
+  "core_volume": 13180,
+  "conditional_inclusive_volume": 17690,
+  "excess_over_12500": 680,
+  "excess_pct": 5.44,
+  "sensitivity_remove_security_880_not_new_measure": 12300,
+  "raw_parameters": [
+    {
+      "source": "2026-09-03-qualification-9-produits-pur/raw/20-controls-0.json.gz",
+      "api": "keywords_data",
+      "function": "search_volume",
+      "location_code": null,
+      "location_name": "France",
+      "language_code": null,
+      "language_name": "French",
+      "search_partners": false
+    },
+    {
+      "source": "2026-09-03-qualification-9-produits-pur/raw/20-controls-1.json.gz",
+      "api": "keywords_data",
+      "function": "search_volume",
+      "location_code": null,
+      "location_name": "France",
+      "language_code": null,
+      "language_name": "French",
+      "search_partners": false
+    }
+  ],
+  "raw_verified_core": [
+    {
+      "keyword": "rasoir de surete",
+      "volume": 9900,
+      "raw_volume": 9900
+    },
+    {
+      "keyword": "rasoir de surete homme",
+      "volume": 1600,
+      "raw_volume": 1600
+    },
+    {
+      "keyword": "rasoir de sécurité",
+      "volume": 880,
+      "raw_volume": 880
+    },
+    {
+      "keyword": "meilleur rasoir de sûreté",
+      "volume": 210,
+      "raw_volume": 210
+    },
+    {
+      "keyword": "meilleur rasoir de sûreté homme",
+      "volume": 210,
+      "raw_volume": 210
+    },
+    {
+      "keyword": "rasoir de sécurité homme",
+      "volume": 110,
+      "raw_volume": 110
+    },
+    {
+      "keyword": "rasoir de sûreté avis",
+      "volume": 50,
+      "raw_volume": 50
+    },
+    {
+      "keyword": "kit rasoir de sûreté",
+      "volume": 40,
+      "raw_volume": 40
+    },
+    {
+      "keyword": "rasoir de sûreté haut de gamme",
+      "volume": 30,
+      "raw_volume": 30
+    },
+    {
+      "keyword": "meilleur rasoir de sûreté pour débutant",
+      "volume": 30,
+      "raw_volume": 30
+    },
+    {
+      "keyword": "rasoir de surete debutant",
+      "volume": 20,
+      "raw_volume": 20
+    },
+    {
+      "keyword": "meilleur rasoir de sécurité",
+      "volume": 20,
+      "raw_volume": 20
+    },
+    {
+      "keyword": "set rasoir de surete",
+      "volume": 10,
+      "raw_volume": 10
+    },
+    {
+      "keyword": "rasoir de sûreté en métal",
+      "volume": 10,
+      "raw_volume": 10
+    },
+    {
+      "keyword": "bien choisir son rasoir de sûreté",
+      "volume": 10,
+      "raw_volume": 10
+    },
+    {
+      "keyword": "rasoir de sûreté homme avis",
+      "volume": 10,
+      "raw_volume": 10
+    },
+    {
+      "keyword": "rasoir de sécurité ou rasoir jetable",
+      "volume": 10,
+      "raw_volume": 10
+    },
+    {
+      "keyword": "quel rasoir de sécurité choisir",
+      "volume": 10,
+      "raw_volume": 10
+    },
+    {
+      "keyword": "ou acheter un rasoir de sécurité",
+      "volume": 10,
+      "raw_volume": 10
+    },
+    {
+      "keyword": "rasoir de sécurité avis",
+      "volume": 10,
+      "raw_volume": 10
+    }
+  ],
+  "cpc_usd_weighted": "0.9264334600760456273764258555",
+  "cpc_eur_weighted": "0.7976181317916880132384208829",
+  "cpc_coverage": 0.9977238239757208,
+  "q4_mean": "9300",
+  "months_mean": "10758.33333333333333333333333",
+  "q4_ratio": "0.8644461657629744384198295897",
+  "http_archive_checks": [
+    {
+      "path": "concurrence/raw/bambaw/capture.json",
+      "hash_matches": true,
+      "status": 200
+    },
+    {
+      "path": "concurrence/raw/bouc-kit/capture.json",
+      "hash_matches": true,
+      "status": 200
+    },
+    {
+      "path": "concurrence/raw/bouc-rasoir/capture.json",
+      "hash_matches": true,
+      "status": 200
+    },
+    {
+      "path": "concurrence/raw/gillette/capture.json",
+      "hash_matches": true,
+      "status": 200
+    },
+    {
+      "path": "concurrence/raw/henson/capture.json",
+      "hash_matches": true,
+      "status": 200
+    },
+    {
+      "path": "concurrence/raw/lamier-kit/capture.json",
+      "hash_matches": true,
+      "status": 200
+    },
+    {
+      "path": "concurrence/raw/lamier-kit-ancienne-url/capture.json",
+      "hash_matches": true,
+      "status": 200
+    },
+    {
+      "path": "concurrence/raw/lamier-rasoir/capture.json",
+      "hash_matches": true,
+      "status": 200
+    },
+    {
+      "path": "concurrence/raw/lamier-retours/capture.json",
+      "hash_matches": true,
+      "status": 200
+    },
+    {
+      "path": "concurrence/raw/rasage-classique/capture.json",
+      "hash_matches": true,
+      "status": 200
+    }
+  ],
+  "economy_scenarios_verified": 8,
+  "independent_economy": [
+    {
+      "ttc": "69",
+      "contribution": "23.044",
+      "be_cvr": "0.03462940461725394896719319563",
+      "after_ads_cvr_3pct": "-3.556"
+    },
+    {
+      "ttc": "99",
+      "contribution": "46.124",
+      "be_cvr": "0.01730118810163905992541843726",
+      "after_ads_cvr_3pct": "19.524"
+    },
+    {
+      "ttc": "119",
+      "contribution": "63.89066666666666666666666667",
+      "be_cvr": "0.01249008723235527359238699445",
+      "after_ads_cvr_3pct": "37.29066666666666666666666667"
+    }
+  ]
+}
