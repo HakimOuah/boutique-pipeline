@@ -1,0 +1,959 @@
+{
+  "date": "2026-09-04",
+  "brief": "catalogues/lumierematiere/briefs/2026-09-04-codex-variantes-formes.md",
+  "publication": "aucune",
+  "mode_packshots": "imagegen integre",
+  "mode_schemas": "traces SVG originaux calcules, export JPEG sharp ; pas de retouche des photos",
+  "manifests": [
+    {
+      "brand": "lumierematiere",
+      "sku": "LM-130",
+      "handle": "suspension-verre-538307",
+      "supplier_id": "1005009698538307",
+      "collection": "Suspensions verre",
+      "images": [
+        {
+          "fichier": "suspension-verre-538307-vert-g1.jpg",
+          "slot": "g1-variante",
+          "source": "catalogues/lumierematiere/sources-par-handle/suspension-verre-538307/green2.jpg",
+          "variante": "vert",
+          "qa": "PASS_VISUEL"
+        },
+        {
+          "fichier": "suspension-verre-538307-blanc-g1.jpg",
+          "slot": "g1-variante",
+          "source": "catalogues/lumierematiere/sources-par-handle/suspension-verre-538307/white1.jpg",
+          "variante": "blanc",
+          "qa": "PASS_VISUEL"
+        }
+      ],
+      "ecartes": [],
+      "statut": "LIVRE_LOCAL",
+      "date": "2026-09-04",
+      "publication": "AUCUNE — QA locale seulement"
+    },
+    {
+      "brand": "lumierematiere",
+      "sku": "LM-128",
+      "handle": "suspension-verre-405368",
+      "supplier_id": "1005006967405368",
+      "collection": "Suspensions verre",
+      "images": [
+        {
+          "fichier": "suspension-verre-405368-bordeaux-et-blanc-g1.jpg",
+          "slot": "g1-variante",
+          "source": "catalogues/lumierematiere/sources-par-handle/suspension-verre-405368/A1.jpg",
+          "variante": "bordeaux-et-blanc",
+          "qa": "PASS_VISUEL"
+        },
+        {
+          "fichier": "suspension-verre-405368-jaune-et-orange-g1.jpg",
+          "slot": "g1-variante",
+          "source": "catalogues/lumierematiere/sources-par-handle/suspension-verre-405368/B1.jpg",
+          "variante": "jaune-et-orange",
+          "qa": "PASS_VISUEL"
+        },
+        {
+          "fichier": "suspension-verre-405368-beige-et-blanc-g1.jpg",
+          "slot": "g1-variante",
+          "source": "catalogues/lumierematiere/sources-par-handle/suspension-verre-405368/A2.jpg",
+          "variante": "beige-et-blanc",
+          "qa": "PASS_VISUEL",
+          "reference_sku": "200000531:173#A2"
+        }
+      ],
+      "ecartes": [],
+      "statut": "LIVRE_LOCAL",
+      "date": "2026-09-04",
+      "publication": "AUCUNE — QA locale seulement",
+      "anomalies": [],
+      "correction": "Brief corrige 52a9f80 : A2 Beige+White valide, D1 non vendu ecarte."
+    },
+    {
+      "brand": "lumierematiere",
+      "sku": "LM-046",
+      "handle": "suspension-effet-pierre-092465",
+      "supplier_id": "1005008106092465",
+      "collection": "Suspensions pierre",
+      "images": [],
+      "ecartes": [
+        {
+          "statut": "MANQUANT",
+          "motif": "Pierre claire / Brun : 01–06 montrent le meme assemblage marbre clair et tete bois brun ; seconde finition non identifiable."
+        }
+      ],
+      "statut": "BLOQUE",
+      "date": "2026-09-04",
+      "publication": "AUCUNE — QA locale seulement"
+    },
+    {
+      "brand": "lumierematiere",
+      "sku": "LM-020",
+      "handle": "suspension-rotin-897170",
+      "supplier_id": "1005008895897170",
+      "collection": "Suspensions rotin",
+      "images": [
+        {
+          "fichier": "suspension-rotin-897170-plastique-g1.jpg",
+          "slot": "g1-variante",
+          "source": "catalogues/lumierematiere/sources-par-handle/suspension-rotin-897170/06.jpg",
+          "variante": "plastique",
+          "qa": "PASS_VISUEL"
+        }
+      ],
+      "ecartes": [
+        {
+          "statut": "MANQUANT",
+          "motif": "rotin : aucune source etiquetee rotin ; 04 indique cloth. Ne pas assimiler automatiquement cloth a rotin."
+        }
+      ],
+      "statut": "PARTIEL",
+      "date": "2026-09-04",
+      "publication": "AUCUNE — QA locale seulement",
+      "correspondances": [
+        {
+          "valeur": "plastique",
+          "source": "06.jpg",
+          "preuve": "badge Plastic material",
+          "slug": "plastique"
+        }
+      ]
+    },
+    {
+      "brand": "lumierematiere",
+      "sku": "LM-024",
+      "handle": "suspension-rotin-623305",
+      "supplier_id": "1005009970623305",
+      "collection": "Suspensions rotin",
+      "images": [
+        {
+          "fichier": "suspension-rotin-623305-pans-coupes-g1.jpg",
+          "slot": "g1-variante",
+          "source": "catalogues/lumierematiere/sources-par-handle/suspension-rotin-623305/02.jpg",
+          "code": "A8",
+          "variante": "pans-coupes",
+          "qa": "PASS_VISUEL"
+        },
+        {
+          "fichier": "suspension-rotin-623305-dome-arrondi-g1.jpg",
+          "slot": "g1-variante",
+          "source": "catalogues/lumierematiere/sources-par-handle/suspension-rotin-623305/03.jpg",
+          "code": "A9",
+          "variante": "dome-arrondi",
+          "qa": "PASS_VISUEL"
+        }
+      ],
+      "ecartes": [],
+      "statut": "LIVRE_LOCAL",
+      "date": "2026-09-04",
+      "publication": "AUCUNE — QA locale seulement",
+      "correspondances": [
+        {
+          "code": "A7",
+          "source": "01.jpg",
+          "forme": "tambour droit",
+          "statut": "deja_couvert"
+        },
+        {
+          "code": "A8",
+          "source": "02.jpg",
+          "forme": "pans coupes larges au milieu, resserres en haut et en bas",
+          "slug": "pans-coupes"
+        },
+        {
+          "code": "A9",
+          "source": "03.jpg",
+          "forme": "dome arrondi",
+          "slug": "dome-arrondi"
+        }
+      ]
+    },
+    {
+      "brand": "lumierematiere",
+      "sku": "LM-097",
+      "handle": "suspension-metal-led-dore-975417",
+      "supplier_id": "1005009614975417",
+      "collection": "Suspensions métal",
+      "images": [],
+      "ecartes": [
+        {
+          "statut": "MANQUANT",
+          "motif": "A/B/C/D : formes visibles dans 01–06 mais aucun badge reliant une lettre a une forme. Titre corolle trop restrictif."
+        }
+      ],
+      "statut": "BLOQUE",
+      "date": "2026-09-04",
+      "publication": "AUCUNE — QA locale seulement"
+    },
+    {
+      "brand": "lumierematiere",
+      "sku": "LM-043",
+      "handle": "suspension-effet-pierre-led-338324",
+      "supplier_id": "1005008660338324",
+      "collection": "Suspensions pierre",
+      "images": [],
+      "ecartes": [
+        {
+          "statut": "MANQUANT",
+          "motif": "A/B/C/D : cylindres de proportions et bois differents, sans code lisible ; pas de correspondance prouvee."
+        }
+      ],
+      "statut": "BLOQUE",
+      "date": "2026-09-04",
+      "publication": "AUCUNE — QA locale seulement"
+    },
+    {
+      "brand": "lumierematiere",
+      "sku": "LM-051",
+      "handle": "suspension-effet-pierre-led-147607",
+      "supplier_id": "1005009207147607",
+      "collection": "Suspensions pierre",
+      "images": [],
+      "ecartes": [
+        {
+          "statut": "MANQUANT",
+          "motif": "Forme A/B/C : volumes multiples non etiquetes ; lien code/volume manquant."
+        }
+      ],
+      "statut": "BLOQUE",
+      "date": "2026-09-04",
+      "publication": "AUCUNE — QA locale seulement"
+    },
+    {
+      "brand": "lumierematiere",
+      "sku": "LM-106",
+      "handle": "suspension-deco-253182",
+      "supplier_id": "1005012107253182",
+      "collection": "Suspensions déco",
+      "images": [
+        {
+          "fichier": "suspension-deco-253182-a-g1.jpg",
+          "slot": "g1-variante",
+          "source": "catalogues/lumierematiere/sources-par-handle/suspension-deco-253182/03.jpg",
+          "code": "A",
+          "variante": "a",
+          "qa": "PASS_VISUEL"
+        }
+      ],
+      "ecartes": [
+        {
+          "statut": "MANQUANT",
+          "motif": "B/C : bleu uni et rouge visibles mais sans badge ; aucune attribution par elimination. Titre rouge incompatible avec A bleu et blanc."
+        }
+      ],
+      "statut": "PARTIEL",
+      "date": "2026-09-04",
+      "publication": "AUCUNE — QA locale seulement",
+      "correspondances": [
+        {
+          "code": "A",
+          "source": "03.jpg",
+          "forme": "ceramique blanche, motifs geometriques bleu sombre",
+          "slug": "a"
+        }
+      ]
+    },
+    {
+      "brand": "lumierematiere",
+      "sku": "LM-105",
+      "handle": "suspension-deco-blanc-560098",
+      "supplier_id": "1005010732560098",
+      "collection": "Suspensions déco",
+      "images": [],
+      "ecartes": [
+        {
+          "statut": "MANQUANT",
+          "motif": "A/B : motifs fleurs (03/04) et rayures (02/05) visibles, aucun badge A/B."
+        }
+      ],
+      "statut": "BLOQUE",
+      "date": "2026-09-04",
+      "publication": "AUCUNE — QA locale seulement"
+    },
+    {
+      "brand": "lumierematiere",
+      "sku": "LM-028",
+      "handle": "suspension-rotin-272937",
+      "supplier_id": "1005008599272937",
+      "collection": "Suspensions rotin",
+      "images": [],
+      "ecartes": [
+        {
+          "statut": "MANQUANT",
+          "motif": "Blocage explicite du brief : code/configuration et decoupage suspension/applique a arbitrer."
+        }
+      ],
+      "statut": "BLOQUE",
+      "date": "2026-09-04",
+      "publication": "AUCUNE — QA locale seulement"
+    },
+    {
+      "brand": "lumierematiere",
+      "sku": "LM-122",
+      "handle": "applique-murale-pierre-588683",
+      "supplier_id": "1005010526588683",
+      "collection": "Appliques murales",
+      "images": [
+        {
+          "fichier": "applique-murale-pierre-588683-schema-g6.jpg",
+          "slot": "g6-schema-cote",
+          "source": "catalogues/lumierematiere/sources-par-handle/applique-murale-pierre-588683/06.jpg",
+          "variante": "schema",
+          "qa": "PASS_VISUEL_ET_ECHELLE_LARGEURS"
+        }
+      ],
+      "ecartes": [],
+      "statut": "LIVRE_LOCAL",
+      "date": "2026-09-04",
+      "publication": "AUCUNE — QA locale seulement",
+      "cotes": {
+        "source_image": "catalogues/lumierematiere/sources-par-handle/applique-murale-pierre-588683/06.jpg",
+        "source_tailles": "catalogues/lumierematiere/briefs/2026-09-04-lot-p6-schemas.json",
+        "geometrie": [
+          {
+            "cm": 20,
+            "width_px": 360,
+            "px_per_cm": 18
+          },
+          {
+            "cm": 25,
+            "width_px": 450,
+            "px_per_cm": 18
+          },
+          {
+            "cm": 30,
+            "width_px": 540,
+            "px_per_cm": 18
+          }
+        ],
+        "statut": "COMPLET",
+        "limites": "Épaisseur : 4,5 cm"
+      }
+    },
+    {
+      "brand": "lumierematiere",
+      "sku": "LM-121",
+      "handle": "suspension-moderne-led-noir-330664",
+      "supplier_id": "1005006346330664",
+      "collection": "Suspensions modernes",
+      "images": [
+        {
+          "fichier": "suspension-moderne-led-noir-330664-schema-g6.jpg",
+          "slot": "g6-schema-cote",
+          "source": "catalogues/lumierematiere/sources-par-handle/suspension-moderne-led-noir-330664/02.jpg",
+          "variante": "schema",
+          "qa": "PASS_VISUEL_ET_ECHELLE_LARGEURS"
+        }
+      ],
+      "ecartes": [],
+      "statut": "PARTIEL",
+      "date": "2026-09-04",
+      "publication": "AUCUNE — QA locale seulement",
+      "cotes": {
+        "source_image": "catalogues/lumierematiere/sources-par-handle/suspension-moderne-led-noir-330664/02.jpg",
+        "source_tailles": "catalogues/lumierematiere/briefs/2026-09-04-lot-p6-schemas.json",
+        "geometrie": [
+          {
+            "cm": 100,
+            "width_px": 900,
+            "px_per_cm": 9
+          },
+          {
+            "cm": 120,
+            "width_px": 1080,
+            "px_per_cm": 9
+          },
+          {
+            "cm": 150,
+            "width_px": 1350,
+            "px_per_cm": 9
+          }
+        ],
+        "statut": "PARTIEL_COTES_MANQUANTES",
+        "limites": "Hauteurs, câbles et fixation : cotes non documentées"
+      }
+    },
+    {
+      "brand": "lumierematiere",
+      "sku": "LM-113",
+      "handle": "lustre-salon-blanc-246282",
+      "supplier_id": "1005009077246282",
+      "collection": "Lustres salon",
+      "images": [
+        {
+          "fichier": "lustre-salon-blanc-246282-schema-g6.jpg",
+          "slot": "g6-schema-cote",
+          "source": "catalogues/lumierematiere/sources-par-handle/lustre-salon-blanc-246282/04.jpg",
+          "variante": "schema",
+          "qa": "PASS_VISUEL_ET_ECHELLE_LARGEURS"
+        }
+      ],
+      "ecartes": [],
+      "statut": "PARTIEL",
+      "date": "2026-09-04",
+      "publication": "AUCUNE — QA locale seulement",
+      "cotes": {
+        "source_image": "catalogues/lumierematiere/sources-par-handle/lustre-salon-blanc-246282/04.jpg",
+        "source_tailles": "catalogues/lumierematiere/briefs/2026-09-04-lot-p6-schemas.json",
+        "geometrie": [
+          {
+            "cm": 30,
+            "width_px": 330,
+            "px_per_cm": 11,
+            "height_cm_confirmed": null
+          },
+          {
+            "cm": 40,
+            "width_px": 440,
+            "px_per_cm": 11,
+            "height_cm_confirmed": null
+          },
+          {
+            "cm": 50,
+            "width_px": 550,
+            "px_per_cm": 11,
+            "height_cm_confirmed": null
+          },
+          {
+            "cm": 60,
+            "width_px": 660,
+            "px_per_cm": 11,
+            "height_cm_confirmed": null
+          }
+        ],
+        "statut": "PARTIEL_COTES_MANQUANTES",
+        "limites": "Hauteurs, câble et rosace : cotes non documentées"
+      }
+    },
+    {
+      "brand": "lumierematiere",
+      "sku": "LM-062",
+      "handle": "lustre-anneau-led-led-795468",
+      "supplier_id": "1005007456795468",
+      "collection": "Lustres anneau",
+      "images": [],
+      "ecartes": [
+        {
+          "statut": "MANQUANT",
+          "motif": "Sources 01–06 : plafonnier sans cable pendant, contrairement au titre suspension. Confirmer montage avant schema."
+        }
+      ],
+      "statut": "BLOQUE",
+      "date": "2026-09-04",
+      "publication": "AUCUNE — QA locale seulement"
+    },
+    {
+      "brand": "lumierematiere",
+      "sku": "LM-027",
+      "handle": "suspension-rotin-607504",
+      "supplier_id": "1005009105607504",
+      "collection": "Suspensions rotin",
+      "images": [],
+      "ecartes": [
+        {
+          "statut": "MANQUANT",
+          "motif": "Blocage explicite P6 : renommage des tailles/matieres a arbitrer avant schema."
+        }
+      ],
+      "statut": "BLOQUE",
+      "date": "2026-09-04",
+      "publication": "AUCUNE — QA locale seulement"
+    },
+    {
+      "brand": "lumierematiere",
+      "sku": "LM-018",
+      "handle": "suspension-rotin-led-761433",
+      "supplier_id": "1005012736761433",
+      "collection": "Suspensions rotin",
+      "images": [
+        {
+          "fichier": "suspension-rotin-led-761433-schema-g6.jpg",
+          "slot": "g6-schema-cote",
+          "source": "catalogues/lumierematiere/sources-par-handle/suspension-rotin-led-761433/06.jpg",
+          "variante": "schema",
+          "qa": "PASS_VISUEL_ET_ECHELLE_LARGEURS"
+        }
+      ],
+      "ecartes": [],
+      "statut": "PARTIEL",
+      "date": "2026-09-04",
+      "publication": "AUCUNE — QA locale seulement",
+      "cotes": {
+        "source_image": "catalogues/lumierematiere/sources-par-handle/suspension-rotin-led-761433/06.jpg",
+        "source_tailles": "catalogues/lumierematiere/briefs/2026-09-04-lot-p6-schemas.json",
+        "geometrie": [
+          {
+            "cm": 30,
+            "width_px": 330,
+            "px_per_cm": 11,
+            "height_cm_confirmed": null
+          },
+          {
+            "cm": 40,
+            "width_px": 440,
+            "px_per_cm": 11,
+            "height_cm_confirmed": null
+          },
+          {
+            "cm": 50,
+            "width_px": 550,
+            "px_per_cm": 11,
+            "height_cm_confirmed": null
+          },
+          {
+            "cm": 60,
+            "width_px": 660,
+            "px_per_cm": 11,
+            "height_cm_confirmed": null
+          }
+        ],
+        "statut": "PARTIEL_COTES_MANQUANTES",
+        "limites": "Hauteurs et rosace : cotes non documentées"
+      }
+    },
+    {
+      "brand": "lumierematiere",
+      "sku": "LM-016",
+      "handle": "suspension-bambou-led-50cm-377816",
+      "supplier_id": "1005010542377816",
+      "collection": "Suspensions bambou",
+      "images": [
+        {
+          "fichier": "suspension-bambou-led-50cm-377816-schema-g6.jpg",
+          "slot": "g6-schema-cote",
+          "source": "catalogues/lumierematiere/sources-par-handle/suspension-bambou-led-50cm-377816/05.jpg",
+          "variante": "schema",
+          "qa": "PASS_VISUEL_ET_ECHELLE_LARGEURS"
+        }
+      ],
+      "ecartes": [],
+      "statut": "PARTIEL",
+      "date": "2026-09-04",
+      "publication": "AUCUNE — QA locale seulement",
+      "cotes": {
+        "source_image": "catalogues/lumierematiere/sources-par-handle/suspension-bambou-led-50cm-377816/05.jpg",
+        "source_tailles": "catalogues/lumierematiere/briefs/2026-09-04-lot-p6-schemas.json",
+        "geometrie": [
+          {
+            "cm": 30,
+            "width_px": 300,
+            "px_per_cm": 10,
+            "height_cm_confirmed": null
+          },
+          {
+            "cm": 40,
+            "width_px": 400,
+            "px_per_cm": 10,
+            "height_cm_confirmed": null
+          },
+          {
+            "cm": 50,
+            "width_px": 500,
+            "px_per_cm": 10,
+            "height_cm_confirmed": null
+          }
+        ],
+        "statut": "PARTIEL_COTES_MANQUANTES",
+        "limites": "Hauteurs et rosace : cotes non documentées"
+      }
+    },
+    {
+      "brand": "lumierematiere",
+      "sku": "LM-014",
+      "handle": "suspension-bambou-led-630923",
+      "supplier_id": "1005009858630923",
+      "collection": "Suspensions bambou",
+      "images": [],
+      "ecartes": [
+        {
+          "statut": "MANQUANT",
+          "motif": "Montage plafonnier non represente ; 06 cote la suspension D80 H20, pas les D50/60 demandes. Ne pas extrapoler montage ou hauteur."
+        }
+      ],
+      "statut": "BLOQUE",
+      "date": "2026-09-04",
+      "publication": "AUCUNE — QA locale seulement"
+    },
+    {
+      "brand": "lumierematiere",
+      "sku": "LM-007",
+      "handle": "suspension-bambou-655008",
+      "supplier_id": "1005009022655008",
+      "collection": "Suspensions bambou",
+      "images": [
+        {
+          "fichier": "suspension-bambou-655008-schema-g6.jpg",
+          "slot": "g6-schema-cote",
+          "source": "catalogues/lumierematiere/sources-par-handle/suspension-bambou-655008/02.jpg",
+          "variante": "schema",
+          "qa": "PASS_VISUEL_ET_ECHELLE_LARGEURS"
+        }
+      ],
+      "ecartes": [],
+      "statut": "PARTIEL",
+      "date": "2026-09-04",
+      "publication": "AUCUNE — QA locale seulement",
+      "cotes": {
+        "source_image": "catalogues/lumierematiere/sources-par-handle/suspension-bambou-655008/02.jpg",
+        "source_tailles": "catalogues/lumierematiere/briefs/2026-09-04-lot-p6-schemas.json",
+        "geometrie": [
+          {
+            "cm": 30,
+            "width_px": 300,
+            "px_per_cm": 10,
+            "height_cm_confirmed": null
+          },
+          {
+            "cm": 38,
+            "width_px": 380,
+            "px_per_cm": 10,
+            "height_cm_confirmed": 20
+          },
+          {
+            "cm": 45,
+            "width_px": 450,
+            "px_per_cm": 10,
+            "height_cm_confirmed": null
+          }
+        ],
+        "statut": "PARTIEL_COTES_MANQUANTES",
+        "limites": "Hauteurs Ø 30 et Ø 45 cm : non documentées"
+      }
+    }
+  ],
+  "production": [
+    {
+      "h": "suspension-verre-538307",
+      "slug": "vert",
+      "source": "catalogues/lumierematiere/sources-par-handle/suspension-verre-538307/green2.jpg",
+      "canonical": "catalogues/lumierematiere/livraisons-visuels-codex/produits/suspension-verre-538307/suspension-verre-538307-g1.jpg",
+      "prompt": "Use case: precise-object-edit. Image 1 is the edit target and canonical product packshot. Image 2 is ONLY the authoritative variant color/material reference. Create the GREEN variant: change the orange cylindrical shade to glossy transparent rich green glass as image 2, and terracotta upper dome to glossy mustard yellow. Preserve exact silhouette, dimensions in frame, camera, cable black, short chrome collar, ivory paper background #F6F3EC, warm soft light, and switched-on state from image 1. Glass must be clear green, not frosted or orange. One pendant only, no text, dimensions, labels, logos, watermark or decor. Square 2048x2048 premium photorealistic product photograph.",
+      "generated": "/Users/Hakim/.codex/generated_images/01a03617-720a-7573-999d-31ee37555dae/exec-9ebb7a37-b284-46df-a431-804f1a1685f1.png",
+      "dest": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-verre-538307/suspension-verre-538307-vert-g1.jpg",
+      "qa": "PASS_VISUEL"
+    },
+    {
+      "h": "suspension-verre-538307",
+      "slug": "blanc",
+      "source": "catalogues/lumierematiere/sources-par-handle/suspension-verre-538307/white1.jpg",
+      "canonical": "catalogues/lumierematiere/livraisons-visuels-codex/produits/suspension-verre-538307/suspension-verre-538307-g1.jpg",
+      "prompt": "Use case: precise-object-edit. Image 1 is the edit target and canonical product packshot. Image 2 is ONLY authoritative variant color/material reference. Create WHITE variant: change orange cylindrical shade to glossy opaque white glass, terracotta upper dome to glossy dark burgundy wine-red. Preserve exact silhouette, object dimensions and position in frame, camera, black cable, short chrome collar, ivory paper background #F6F3EC, warm soft light, and switched-on state from image 1 (gentle warm illumination inside white shade, not orange glass). One pendant only, no text, dimensions, labels, logos, watermark or decor. Square 2048x2048 premium photorealistic product photograph.",
+      "generated": "/Users/Hakim/.codex/generated_images/01a03617-720a-7573-999d-31ee37555dae/exec-6eb94c88-ec42-4b44-9df8-aef5967e62a5.png",
+      "dest": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-verre-538307/suspension-verre-538307-blanc-g1.jpg",
+      "qa": "PASS_VISUEL"
+    },
+    {
+      "h": "suspension-verre-405368",
+      "slug": "bordeaux-et-blanc",
+      "source": "catalogues/lumierematiere/sources-par-handle/suspension-verre-405368/A1.jpg",
+      "canonical": "catalogues/lumierematiere/livraisons-visuels-codex/produits/suspension-verre-405368/suspension-verre-405368-g1.jpg",
+      "prompt": "Use case: precise-object-edit. Image 1 edit target: canonical product packshot. Image 2 authoritative color reference only. Make variant Bordeaux et blanc: glossy wine-red/burgundy upper capsule and short narrow top neck, glossy opaque white glass disc unchanged, opaline white globe below unchanged and warmly illuminated as image 1. Change white hanging cable to black as source. Preserve EXACT silhouette, proportions, object framing and location, close low three-quarter camera, soft warm studio light and plain ivory paper #F6F3EC background from image 1. No canopy visible since cropped out in canonical. Single lamp, no text, measurements, arrows, logos, watermark, room or props. Photorealistic square 2048x2048.",
+      "generated": "/Users/Hakim/.codex/generated_images/01a03617-720a-7573-999d-31ee37555dae/exec-5bbdda4d-27bb-4a94-bf7f-fdcf7fa4ff97.png",
+      "dest": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-verre-405368/suspension-verre-405368-bordeaux-et-blanc-g1.jpg",
+      "qa": "PASS_VISUEL"
+    },
+    {
+      "h": "suspension-verre-405368",
+      "slug": "jaune-et-orange",
+      "source": "catalogues/lumierematiere/sources-par-handle/suspension-verre-405368/B1.jpg",
+      "canonical": "catalogues/lumierematiere/livraisons-visuels-codex/produits/suspension-verre-405368/suspension-verre-405368-g1.jpg",
+      "prompt": "Use case: precise-object-edit. Image 1 edit target: canonical product packshot. Image 2 authoritative color reference only. Make variant Jaune et orange: glossy bright yellow upper capsule and narrow neck, glossy orange glass disc, opaline white globe below unchanged and warmly illuminated as image 1. Change white hanging cable to black as source. Preserve EXACT silhouette, proportions, object framing and location, close low three-quarter camera, soft warm studio light and plain ivory paper #F6F3EC background from image 1. No canopy visible since cropped out in canonical. Single lamp, no text, measurements, arrows, logos, watermark, room or props. Photorealistic square 2048x2048.",
+      "generated": "/Users/Hakim/.codex/generated_images/01a03617-720a-7573-999d-31ee37555dae/exec-3afa5cd4-e3c7-4526-b700-04240d1f7740.png",
+      "dest": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-verre-405368/suspension-verre-405368-jaune-et-orange-g1.jpg",
+      "qa": "PASS_VISUEL"
+    },
+    {
+      "h": "suspension-verre-405368",
+      "slug": "beige-et-blanc",
+      "source": "catalogues/lumierematiere/sources-par-handle/suspension-verre-405368/A2.jpg",
+      "canonical": "catalogues/lumierematiere/livraisons-visuels-codex/produits/suspension-verre-405368/suspension-verre-405368-g1.jpg",
+      "prompt": "Use case: precise-object-edit. Image1 canonical packshot is exact composition target. Image2 authoritative supplier reference A2 Beige+White. Produce a faithful matching catalogue packshot of this EXACT A2 variant: glossy pale beige upper capsule and short narrow neck, glossy opaque WHITE glass disc, opaline white sphere glowing warm below disc, WHITE hanging cable. NO green anywhere. This is the same variant as image1: preserve image1 silhouette, proportions, position in frame, close slightly low three-quarter camera, warm ON state, creamy paper #F6F3EC background and soft studio reflections exactly. No canopy visible because cropped above frame in image1. Single lamp only. No words, dimensions, badge, logo, watermark, room or props. Square2048 photorealistic.",
+      "generated": "/Users/Hakim/.codex/generated_images/01a03617-720a-7573-999d-31ee37555dae/exec-1d697a5c-d706-4efa-a675-9ee7c51e650b.png",
+      "dest": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-verre-405368/suspension-verre-405368-beige-et-blanc-g1.jpg",
+      "qa": "PASS_VISUEL",
+      "reference_sku": "200000531:173#A2",
+      "correction": "D1 remplace par A2 selon brief corrige 52a9f80"
+    },
+    {
+      "h": "suspension-rotin-623305",
+      "slug": "pans-coupes",
+      "source": "catalogues/lumierematiere/sources-par-handle/suspension-rotin-623305/02.jpg",
+      "canonical": "catalogues/lumierematiere/livraisons-visuels-codex/produits/suspension-rotin-623305/suspension-rotin-623305-g1.jpg",
+      "prompt": "Use case: precise-object-edit. Image 1 canonical packshot is framing/style reference and edit target. Image 2 authoritative product shape A8. Replace ONLY the A7 straight drum shade with exact A8 shade from image 2: angular cut-shoulder broad lantern, widest straight band at middle, sloped conical shoulders narrowing upward to central fitting and downward to smaller bottom opening. NOT an hourglass, no pinched waist. Natural hemp rope wrapped open metal frame, authentic irregular fiber. Source diameter30 height16 versus canonical31 height18: preserve physical camera distance, shade therefore slightly narrower and shorter, at same central lower-frame location. Keep black ceiling canopy, long black cable, single E27 bulb visibly glowing warm, same camera angle, warm studio light, paper ivory background and overall margins as image1. One fixture. No text, measurements, badges, logos, watermark, decor or props. 2048x2048 photorealistic.",
+      "generated": "/Users/Hakim/.codex/generated_images/01a03617-720a-7573-999d-31ee37555dae/exec-54cbb344-b146-4866-b1da-d282b01875b2.png",
+      "dest": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-rotin-623305/suspension-rotin-623305-pans-coupes-g1.jpg",
+      "qa": "PASS_VISUEL",
+      "code": "A8"
+    },
+    {
+      "h": "suspension-rotin-623305",
+      "slug": "dome-arrondi",
+      "source": "catalogues/lumierematiere/sources-par-handle/suspension-rotin-623305/03.jpg",
+      "canonical": "catalogues/lumierematiere/livraisons-visuels-codex/produits/suspension-rotin-623305/suspension-rotin-623305-g1.jpg",
+      "prompt": "Use case: precise-object-edit. Image1 canonical packshot: edit target and exact framing/light reference. Image2 authoritative product shape A9. Replace ONLY straight A7 drum shade with exact rounded A9 shade from image2: bulging pumpkin-like lantern with curved shoulders and rounded sides turning inward toward bottom rim. Natural hemp rope wrapped open metal frame, authentic fiber. A9 diameter32 height16; canonical diameter31 height18: slightly wider and shorter shade at same lower-center position. Keep black ceiling canopy and long black cable exactly in place, one E27 bulb visibly glowing warm, same camera angle, distance, soft studio light, plain ivory paper backdrop and margins as image1. One fixture. No text, measurements, badges, logos, watermark, room or props. 2048x2048 photorealistic.",
+      "generated": "/Users/Hakim/.codex/generated_images/01a03617-720a-7573-999d-31ee37555dae/exec-a2230b57-92fe-4aa2-9cf3-40bd2f90c52b.png",
+      "dest": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-rotin-623305/suspension-rotin-623305-dome-arrondi-g1.jpg",
+      "qa": "PASS_VISUEL",
+      "code": "A9"
+    },
+    {
+      "h": "suspension-deco-253182",
+      "slug": "a",
+      "source": "catalogues/lumierematiere/sources-par-handle/suspension-deco-253182/03.jpg",
+      "canonical": "catalogues/lumierematiere/livraisons-visuels-codex/produits/suspension-deco-253182/suspension-deco-253182-g1.jpg",
+      "prompt": "Use case: precise-object-edit. Image1 edit target canonical product packshot, Image2 authoritative model A reference. Replace the ceramic shade of image1 with exact model A ceramic shade from image2: same low faceted octagonal two-tier shade silhouette, but WHITE glossy ceramic with repeating DARK BLUE geometric diamond/chevron motifs on the WIDE LOWER BAND; upper smaller raised band plain white with thin pale blue edge, NOT a red band, no red remains. Follow the actual ornament of source image2, not text or arrows. Keep brass holder assembly, cream twisted cable, one glowing white opaline bulb protruding below and warm ON state. Preserve canonical exact camera, close-up crop, distance, fixture placement, ivory paper background and warm soft light. One lamp only, no text, badge, dimensions, logos, arrows, watermark, room or props. Photorealistic 2048 square.",
+      "generated": "/Users/Hakim/.codex/generated_images/01a03617-720a-7573-999d-31ee37555dae/exec-924a6baf-a72c-4a78-aaba-a38b837f1de6.png",
+      "dest": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-deco-253182/suspension-deco-253182-a-g1.jpg",
+      "qa": "PASS_VISUEL",
+      "code": "A"
+    },
+    {
+      "h": "suspension-rotin-897170",
+      "slug": "plastique",
+      "source": "catalogues/lumierematiere/sources-par-handle/suspension-rotin-897170/06.jpg",
+      "canonical": "catalogues/lumierematiere/livraisons-visuels-codex/produits/suspension-rotin-897170/suspension-rotin-897170-g1.jpg",
+      "prompt": "Use case: precise-object-edit. Image1 edit target is exact canonical packshot; image2 is authoritative close-up explicitly showing plastic material. Produce PLASTIC variant of this pendant. Change ONLY material of petal mesh to the precise warm beige synthetic woven plastic mesh of image2, with relatively broad flat regularly interlaced strips, visible square open gaps and ochre fabric-bound petal edging. It must look like source synthetic weave, not shiny solid plastic, not straw or rough natural rattan, not fine linen cloth. Preserve EXACT petal count, layered curved petals, silhouette, size and location in frame, black ceiling canopy and cable, warm ON bulb state, camera, ivory paper backdrop and warm lighting of image1. One lamp, no text including Plastic material, no badge, dimensions, watermark, decor, room or props. Photorealistic square 2048x2048.",
+      "generated": "/Users/Hakim/.codex/generated_images/01a03617-720a-7573-999d-31ee37555dae/exec-0c960b62-7748-4b81-99d9-5569b2968401.png",
+      "dest": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-rotin-897170/suspension-rotin-897170-plastique-g1.jpg",
+      "qa": "PASS_VISUEL"
+    },
+    {
+      "h": "applique-murale-pierre-588683",
+      "slug": "schema",
+      "source": "catalogues/lumierematiere/sources-par-handle/applique-murale-pierre-588683/06.jpg",
+      "dest": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/applique-murale-pierre-588683/applique-murale-pierre-588683-schema-g6.jpg",
+      "qa": "PASS_VISUEL_ET_ECHELLE_LARGEURS",
+      "statut": "COMPLET",
+      "cotes": [
+        {
+          "cm": 20,
+          "width_px": 360,
+          "px_per_cm": 18
+        },
+        {
+          "cm": 25,
+          "width_px": 450,
+          "px_per_cm": 18
+        },
+        {
+          "cm": 30,
+          "width_px": 540,
+          "px_per_cm": 18
+        }
+      ],
+      "note": "Épaisseur : 4,5 cm",
+      "mode": "SVG calcule puis JPEG sharp",
+      "sources_tailles": "catalogues/lumierematiere/briefs/2026-09-04-lot-p6-schemas.json"
+    },
+    {
+      "h": "suspension-moderne-led-noir-330664",
+      "slug": "schema",
+      "source": "catalogues/lumierematiere/sources-par-handle/suspension-moderne-led-noir-330664/02.jpg",
+      "dest": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-moderne-led-noir-330664/suspension-moderne-led-noir-330664-schema-g6.jpg",
+      "qa": "PASS_VISUEL_ET_ECHELLE_LARGEURS",
+      "statut": "PARTIEL_COTES_MANQUANTES",
+      "cotes": [
+        {
+          "cm": 100,
+          "width_px": 900,
+          "px_per_cm": 9
+        },
+        {
+          "cm": 120,
+          "width_px": 1080,
+          "px_per_cm": 9
+        },
+        {
+          "cm": 150,
+          "width_px": 1350,
+          "px_per_cm": 9
+        }
+      ],
+      "note": "Hauteurs, câbles et fixation : cotes non documentées",
+      "mode": "SVG calcule puis JPEG sharp",
+      "sources_tailles": "catalogues/lumierematiere/briefs/2026-09-04-lot-p6-schemas.json"
+    },
+    {
+      "h": "lustre-salon-blanc-246282",
+      "slug": "schema",
+      "source": "catalogues/lumierematiere/sources-par-handle/lustre-salon-blanc-246282/04.jpg",
+      "dest": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/lustre-salon-blanc-246282/lustre-salon-blanc-246282-schema-g6.jpg",
+      "qa": "PASS_VISUEL_ET_ECHELLE_LARGEURS",
+      "statut": "PARTIEL_COTES_MANQUANTES",
+      "cotes": [
+        {
+          "cm": 30,
+          "width_px": 330,
+          "px_per_cm": 11,
+          "height_cm_confirmed": null
+        },
+        {
+          "cm": 40,
+          "width_px": 440,
+          "px_per_cm": 11,
+          "height_cm_confirmed": null
+        },
+        {
+          "cm": 50,
+          "width_px": 550,
+          "px_per_cm": 11,
+          "height_cm_confirmed": null
+        },
+        {
+          "cm": 60,
+          "width_px": 660,
+          "px_per_cm": 11,
+          "height_cm_confirmed": null
+        }
+      ],
+      "note": "Hauteurs, câble et rosace : cotes non documentées",
+      "mode": "SVG calcule puis JPEG sharp",
+      "sources_tailles": "catalogues/lumierematiere/briefs/2026-09-04-lot-p6-schemas.json"
+    },
+    {
+      "h": "suspension-rotin-led-761433",
+      "slug": "schema",
+      "source": "catalogues/lumierematiere/sources-par-handle/suspension-rotin-led-761433/06.jpg",
+      "dest": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-rotin-led-761433/suspension-rotin-led-761433-schema-g6.jpg",
+      "qa": "PASS_VISUEL_ET_ECHELLE_LARGEURS",
+      "statut": "PARTIEL_COTES_MANQUANTES",
+      "cotes": [
+        {
+          "cm": 30,
+          "width_px": 330,
+          "px_per_cm": 11,
+          "height_cm_confirmed": null
+        },
+        {
+          "cm": 40,
+          "width_px": 440,
+          "px_per_cm": 11,
+          "height_cm_confirmed": null
+        },
+        {
+          "cm": 50,
+          "width_px": 550,
+          "px_per_cm": 11,
+          "height_cm_confirmed": null
+        },
+        {
+          "cm": 60,
+          "width_px": 660,
+          "px_per_cm": 11,
+          "height_cm_confirmed": null
+        }
+      ],
+      "note": "Hauteurs et rosace : cotes non documentées",
+      "mode": "SVG calcule puis JPEG sharp",
+      "sources_tailles": "catalogues/lumierematiere/briefs/2026-09-04-lot-p6-schemas.json"
+    },
+    {
+      "h": "suspension-bambou-led-50cm-377816",
+      "slug": "schema",
+      "source": "catalogues/lumierematiere/sources-par-handle/suspension-bambou-led-50cm-377816/05.jpg",
+      "dest": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-bambou-led-50cm-377816/suspension-bambou-led-50cm-377816-schema-g6.jpg",
+      "qa": "PASS_VISUEL_ET_ECHELLE_LARGEURS",
+      "statut": "PARTIEL_COTES_MANQUANTES",
+      "cotes": [
+        {
+          "cm": 30,
+          "width_px": 300,
+          "px_per_cm": 10,
+          "height_cm_confirmed": null
+        },
+        {
+          "cm": 40,
+          "width_px": 400,
+          "px_per_cm": 10,
+          "height_cm_confirmed": null
+        },
+        {
+          "cm": 50,
+          "width_px": 500,
+          "px_per_cm": 10,
+          "height_cm_confirmed": null
+        }
+      ],
+      "note": "Hauteurs et rosace : cotes non documentées",
+      "mode": "SVG calcule puis JPEG sharp",
+      "sources_tailles": "catalogues/lumierematiere/briefs/2026-09-04-lot-p6-schemas.json"
+    },
+    {
+      "h": "suspension-bambou-655008",
+      "slug": "schema",
+      "source": "catalogues/lumierematiere/sources-par-handle/suspension-bambou-655008/02.jpg",
+      "dest": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-bambou-655008/suspension-bambou-655008-schema-g6.jpg",
+      "qa": "PASS_VISUEL_ET_ECHELLE_LARGEURS",
+      "statut": "PARTIEL_COTES_MANQUANTES",
+      "cotes": [
+        {
+          "cm": 30,
+          "width_px": 300,
+          "px_per_cm": 10,
+          "height_cm_confirmed": null
+        },
+        {
+          "cm": 38,
+          "width_px": 380,
+          "px_per_cm": 10,
+          "height_cm_confirmed": 20
+        },
+        {
+          "cm": 45,
+          "width_px": 450,
+          "px_per_cm": 10,
+          "height_cm_confirmed": null
+        }
+      ],
+      "note": "Hauteurs Ø 30 et Ø 45 cm : non documentées",
+      "mode": "SVG calcule puis JPEG sharp",
+      "sources_tailles": "catalogues/lumierematiere/briefs/2026-09-04-lot-p6-schemas.json"
+    }
+  ],
+  "essais_non_retenus": [
+    {
+      "h": "applique-murale-pierre-588683",
+      "slug": "schema",
+      "source": "/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/catalogues/lumierematiere/sources-par-handle/applique-murale-pierre-588683/06.jpg",
+      "prompt": "Use case: infographic-diagram. Create ONE premium minimalist French technical dimension diagram, square 2048x2048, plain paper background #F6F3EC, all typography and thin dimension lines charcoal #24211B. Reference image is authoritative round flat beige stone wall sconce: show THREE simple precise front-elevation circular silhouettes SIDE BY SIDE at the SAME scale, diameter ratio exactly 20:25:30. Corresponding circle widths on 2048 canvas 400,500,600 pixels with generous gaps. Fine outline and very subtle light beige stone texture, not photographs, no perspective. Put separate accurate horizontal diameter dimension line under each circle, exact labels 'Ø 20 cm', 'Ø 25 cm', 'Ø 30 cm'. Small centered note below 'Épaisseur : 4,5 cm'. This is a wall-mounted fixture: no pendant cable, no hanging canopy, no room background. No other measurements, words, title, brand, logo or watermark. Elegant spacious publication-ready layout, legible clean sans serif. No made-up details.",
+      "generated": "/Users/Hakim/.codex/generated_images/01a03617-720a-7573-999d-31ee37555dae/exec-1ebaf16f-3d35-425e-b46a-2eda83033928.png",
+      "dest": "/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/essais-non-retenus/applique-murale-pierre-588683-schema-imagegen.jpg",
+      "qa": "NON_RETENU — remplace par trace vectoriel a echelle calculee",
+      "cotes": "diametres20/25/30;epaisseur4.5cm"
+    },
+    {
+      "h": "suspension-moderne-led-noir-330664",
+      "slug": "schema",
+      "source": "/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/catalogues/lumierematiere/sources-par-handle/suspension-moderne-led-noir-330664/02.jpg",
+      "prompt": "Create a premium minimalist technical comparison diagram on uniform paper #F6F3EC with thin charcoal #24211B lines and labels, square2048. Reference: black linear pendant with TWO horizontal offset bars on two vertical short spotlights and two suspension wires. Draw three FRONT ELEVATION simplified silhouettes in three vertically stacked rows, all centered, total bar spans exactly1000px,1200px,1500px respectively so widths compare at one scale. Keep the same TWO bars and TWO short vertical posts, no extra arms. One dimension line spanning whole fixture under each row, exact labels '100 cm','120 cm','150 cm'. Wires abbreviated with conventional break marks; don't invent dimensions of cables, heights or canopy. Exact small heading 'Comparaison des largeurs'. Exact footer 'Hauteurs et fixation : cotes non documentées'. No other numbers, diameter symbol, logo, props, photographs, perspective, watermark. Clear legible sans serif. These are size-comparison silhouettes, not a full installation drawing.",
+      "generated": "/Users/Hakim/.codex/generated_images/01a03617-720a-7573-999d-31ee37555dae/exec-99a4ce6d-ee3c-437f-9a5e-7e275d448da9.png",
+      "dest": "/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/essais-non-retenus/suspension-moderne-led-noir-330664-schema-imagegen.jpg",
+      "qa": "NON_RETENU — remplace par trace vectoriel a echelle calculee",
+      "cotes": "Largeurs100/120/150 cm (JSON fourni); hauteurs/cables/rosace MANQUANT",
+      "statut": "PARTIEL_COTES_MANQUANTES"
+    },
+    {
+      "h": "lustre-salon-blanc-246282",
+      "slug": "schema",
+      "source": "/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/catalogues/lumierematiere/sources-par-handle/lustre-salon-blanc-246282/04.jpg",
+      "prompt": "Create premium minimalist technical diagram square2048, uniform ivory paper #F6F3EC, thin charcoal #24211B drawing and crisp sans-serif labels. Reference defines the pleated flattened oval white fabric pendant shade silhouette. Four front-elevation line-drawing silhouettes in a spacious 2x2 grid, all SAME diameter scale: widths450,600,750,900px for 30,40,50,60cm respectively; no perspective. Fine curved ribs convey pleated fabric. Single abbreviated vertical cable each with break marks; omit canopy instead of inventing it. Below each shade diameter line and exact matching labels 'Ø 30 cm','Ø 40 cm','Ø 50 cm','Ø 60 cm'. No height values since undocumented. Exact small heading 'Comparaison des diamètres'. Exact footer 'Hauteurs, câble et rosace : cotes non documentées'. No other text, numbers, logos, decor, photograph, watermark. Elegant technical silhouette, not photorealistic.",
+      "generated": "/Users/Hakim/.codex/generated_images/01a03617-720a-7573-999d-31ee37555dae/exec-037eba7f-6644-48ea-9e29-a9c53e76ddf7.png",
+      "dest": "/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/essais-non-retenus/lustre-salon-blanc-246282-schema-imagegen.jpg",
+      "qa": "NON_RETENU — remplace par trace vectoriel a echelle calculee",
+      "cotes": "Diametres30/40/50/60 cm (JSON fourni); hauteurs/cable/rosace MANQUANT",
+      "statut": "PARTIEL_COTES_MANQUANTES"
+    },
+    {
+      "h": "suspension-verre-405368",
+      "slug": "beige-et-blanc",
+      "source": "catalogues/lumierematiere/sources-par-handle/suspension-verre-405368/D1.jpg",
+      "canonical": "catalogues/lumierematiere/livraisons-visuels-codex/produits/suspension-verre-405368/suspension-verre-405368-g1.jpg",
+      "prompt": "Use case: precise-object-edit. Image 1 is canonical product packshot, edit target. Image 2 authoritative supplier variant. Create the BEIGE + GREEN lamp shown in image 2, regardless of internal output filename. Keep beige upper capsule and narrow neck; change white glass disc to glossy rich GREEN glass. Keep opaline white globe underneath and warmly illuminated as image 1. Hanging cable must be BLACK as image 2. Preserve exact silhouette, proportions, object framing and location, close low three-quarter camera, warm studio lighting and plain ivory paper #F6F3EC background from image 1. No canopy visible since cropped out in canonical. Single lamp, no text, dimensions, arrows, logos, watermark, room or props. Photorealistic square 2048x2048.",
+      "generated": "/Users/Hakim/.codex/generated_images/01a03617-720a-7573-999d-31ee37555dae/exec-01e04292-ce15-49e0-8cda-859845dd791a.png",
+      "dest": "/Users/Hakim/Documents/Boutiques drop/boutique-pipeline/catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/essais-non-retenus/suspension-verre-405368-d1-vert-non-vendu.jpg",
+      "qa": "NON_RETENU — brief corrige 52a9f80 : D1 non vendu, A2 est la reference SKU",
+      "rattachement": "BLOQUE — nom beige et blanc, reference beige et vert"
+    }
+  ],
+  "brief_revision": "52a9f80"
+}
