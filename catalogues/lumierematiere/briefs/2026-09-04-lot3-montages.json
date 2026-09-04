@@ -50,7 +50,7 @@
       "handle": "suspension-rotin-272937",
       "sku": "LM-028",
       "priorite": 1,
-      "statut": "a_produire",
+      "statut": "IMPORTE_2026_09_04",
       "a_produire": 8,
       "probleme": "g1 montre cinq configurations (suspension simple, applique murale, trio a rosace ronde, trio sur barre lineaire). Aucune n est vendue dans cette fiche.",
       "produit_reel": {
@@ -100,13 +100,25 @@
           "rendu": "plafonnier, monture et rosace noires, corde de jute brune, tressage plus grossier"
         }
       ],
-      "note_renommage": "Les slugs proposes supposent que Hakim valide le renommage des libelles. Si les libelles restent Modele A/B/C, utiliser les slugs modele-a, modele-b, modele-c."
+      "note_renommage": "Les slugs proposes supposent que Hakim valide le renommage des libelles. Si les libelles restent Modele A/B/C, utiliser les slugs modele-a, modele-b, modele-c.",
+      "import": {
+        "date": "2026-09-04",
+        "images": 8,
+        "alt_rediges": true,
+        "voie": "connecteur MCP Shopify (mutations) + PUT curl sur URL pre-signees (transfert)",
+        "montages_supprimes": 5,
+        "variantes_rattachees": [
+          "Modèle A",
+          "Modèle B",
+          "Modèle C"
+        ]
+      }
     },
     {
       "ordre": "B",
       "handle": "suspension-deco-blanc-560098",
       "sku": "LM-105",
-      "statut": "a_produire",
+      "statut": "IMPORTE_2026_09_04",
       "a_produire": 5,
       "probleme": "Les cinq vues montrent une suspension DOUBLE (deux abat-jour sur une rosace commune). Les deux SKU vendus sont des suspensions SIMPLES.",
       "produit_reel": {
@@ -128,13 +140,19 @@
         "reference_canonique": "catalogues/lumierematiere/sources-par-handle/suspension-deco-blanc-560098/variantes-20260904/200000531-193.jpg",
         "consigne": "Recomposer les cinq vues sur la variante A, EN SIMPLE. Un seul abat-jour, un seul cordon."
       },
-      "packshots_variantes": "deja livres au lot 2 et corrects (a-g1 motif floral bleu, b-g1 rayures bleues et brunes) — ne pas les refaire"
+      "packshots_variantes": "deja livres au lot 2 et corrects (a-g1 motif floral bleu, b-g1 rayures bleues et brunes) — ne pas les refaire",
+      "import": {
+        "date": "2026-09-04",
+        "images": 5,
+        "alt_rediges": true,
+        "voie": "connecteur MCP Shopify (mutations) + PUT curl sur URL pre-signees (transfert)"
+      }
     },
     {
       "ordre": "C",
       "handle": "suspension-effet-pierre-led-147607",
       "sku": "LM-051",
-      "statut": "a_produire",
+      "statut": "IMPORTE_2026_09_04",
       "a_produire": 3,
       "probleme": "g1, g2 et g5 montrent 10 a 12 suspensions travertin dans le meme cadre.",
       "vues_produit": {
@@ -150,27 +168,35 @@
         "reference_canonique": "catalogues/lumierematiere/sources-par-handle/suspension-effet-pierre-led-147607/variantes-20260904/200000531-193.jpg",
         "consigne": "Recomposer les trois vues sur la forme A (galet bas, tete noyer), un seul luminaire. g3 et g4 sont deja mono-produit et restent valables."
       },
-      "packshots_variantes": "deja livres au lot 2 et corrects (forme-a, forme-b, forme-c) — ne pas les refaire"
+      "packshots_variantes": "deja livres au lot 2 et corrects (forme-a, forme-b, forme-c) — ne pas les refaire",
+      "import": {
+        "date": "2026-09-04",
+        "images": 3,
+        "alt_rediges": true,
+        "voie": "connecteur MCP Shopify (mutations) + PUT curl sur URL pre-signees (transfert)"
+      }
     },
     {
       "ordre": "D",
       "handle": "suspension-effet-pierre-led-338324",
       "sku": "LM-043",
-      "statut": "a_identifier",
+      "statut": "INTROUVABLE_DEFINITIF_2026_09_04",
       "a_produire": "0 a 1",
       "question": "Le modele A (200000531:193) est-il encore propose par le fournisseur ?",
       "constat": "Le lot 2 a livre B, C et D. Le dossier variantes-20260904/ ne contient que 173 (B), 175 (D) et 365458 (C). Le refus de deduire A par elimination etait la bonne decision.",
-      "consigne": "Refaire une passe DOM sur la PDP. Si l identifiant reste absent, le declarer definitivement introuvable dans le manifeste et ne rien produire : les trois variantes A garderont la vue generique."
+      "consigne": "Refaire une passe DOM sur la PDP. Si l identifiant reste absent, le declarer definitivement introuvable dans le manifeste et ne rien produire : les trois variantes A garderont la vue generique.",
+      "reponse_codex": "Derniere passe DOM : l'identifiant du modele A reste absent. Non deduit par elimination. Les trois variantes A gardent la vue generique."
     },
     {
       "ordre": "E",
       "handle": "suspension-deco-led-837156",
       "sku": "LM-100",
-      "statut": "a_identifier",
+      "statut": "REPONDU_2026_09_04",
       "a_produire": 0,
       "question": "Les valeurs a suffixe « 2 » sont-elles un autre objet, ou le meme ?",
       "constat": "Seule fiche a variantes non scrapee le 04/09. 'Celadon vert' (…365458) vs 'Celadon vert 2' (…193), 'Celadon bleu poudre' (…175) vs '… 2' (…173). SKU distincts, aucune difference lisible cote boutique.",
-      "consigne": "Scraper les quatre references par identifiant d option et repondre a la question. Aucune image tant que la reponse n est pas connue."
+      "consigne": "Scraper les quatre references par identifiant d option et repondre a la question. Aucune image tant que la reponse n est pas connue.",
+      "reponse_codex": "Les variantes a suffixe « 2 » sont un AUTRE abat-jour : H 9 cm contre H 6,5 cm sans suffixe, toutes Ø 20 cm. Ce ne sont pas des doublons. Aucun visuel produit ; les libelles restent a revoir."
     },
     {
       "ordre": "F",

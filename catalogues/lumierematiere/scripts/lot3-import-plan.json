@@ -1,0 +1,88 @@
+{
+  "lot": "lot3-montages",
+  "date": "2026-09-04",
+  "regle": "une image = un seul luminaire",
+  "note_ordre": "Les jetons NEW: designent un media cree par ce script, ID: un media deja en place. Les noms de fichier de 272937 se recouvrent avec les anciens montages : ne jamais ordonner par nom.",
+  "fiches": [
+    {
+      "handle": "suspension-rotin-272937",
+      "product_id": "gid://shopify/Product/10591498862928",
+      "ajouts": [
+        {"fichier": "suspension-rotin-272937-g1.jpg", "alt": "Plafonnier dôme en corde tressée allumé, monture et rosace noires"},
+        {"fichier": "suspension-rotin-272937-g2.jpg", "alt": "Plafonnier en corde tressée vu de trois quarts, monture noire"},
+        {"fichier": "suspension-rotin-272937-g3.jpg", "alt": "Détail du tressage en corde du plafonnier, vu de dessous"},
+        {"fichier": "suspension-rotin-272937-g4.jpg", "alt": "Plafonnier en corde tressée fixé au plafond, vue d'ensemble"},
+        {"fichier": "suspension-rotin-272937-g5.jpg", "alt": "Plafonnier en corde tressée allumé, lumière chaude filtrée par le tressage"},
+        {"fichier": "suspension-rotin-272937-modele-a-g1.jpg", "alt": "Plafonnier corde tressée, modèle A à monture noire et corde beige clair"},
+        {"fichier": "suspension-rotin-272937-modele-b-g1.jpg", "alt": "Plafonnier corde tressée, modèle B à monture blanche et corde crème"},
+        {"fichier": "suspension-rotin-272937-modele-c-g1.jpg", "alt": "Plafonnier corde tressée, modèle C à monture noire et corde de jute brune"}
+      ],
+      "ordre": [
+        "NEW:suspension-rotin-272937-g1.jpg",
+        "NEW:suspension-rotin-272937-g2.jpg",
+        "NEW:suspension-rotin-272937-g3.jpg",
+        "NEW:suspension-rotin-272937-g4.jpg",
+        "NEW:suspension-rotin-272937-g5.jpg",
+        "NEW:suspension-rotin-272937-modele-a-g1.jpg",
+        "NEW:suspension-rotin-272937-modele-b-g1.jpg",
+        "NEW:suspension-rotin-272937-modele-c-g1.jpg"
+      ],
+      "variantes": [
+        {"libelle": "Modèle A", "variant_id": "gid://shopify/ProductVariant/53444650598736", "sku": "200000531:193#A1", "fichier": "suspension-rotin-272937-modele-a-g1.jpg"},
+        {"libelle": "Modèle B", "variant_id": "gid://shopify/ProductVariant/53444650762576", "sku": "200000531:1052#B1", "fichier": "suspension-rotin-272937-modele-b-g1.jpg"},
+        {"libelle": "Modèle C", "variant_id": "gid://shopify/ProductVariant/53444650926416", "sku": "200000531:100018786#C1", "fichier": "suspension-rotin-272937-modele-c-g1.jpg"}
+      ],
+      "supprimer": [
+        "gid://shopify/MediaImage/71416110547280",
+        "gid://shopify/MediaImage/71416110580048",
+        "gid://shopify/MediaImage/71416110612816",
+        "gid://shopify/MediaImage/71416110645584",
+        "gid://shopify/MediaImage/71416110678352"
+      ],
+      "motif_suppression": "Les 5 medias en place sont tous des montages catalogue montrant cinq configurations dont aucune n'est vendue (suspension simple, applique murale, trio a rosace, trio sur barre)."
+    },
+    {
+      "handle": "suspension-deco-blanc-560098",
+      "product_id": "gid://shopify/Product/10591497191760",
+      "ajouts": [
+        {"fichier": "suspension-deco-blanc-560098-g1.jpg", "alt": "Suspension céramique à motif floral bleu allumée, monture laiton"},
+        {"fichier": "suspension-deco-blanc-560098-g2.jpg", "alt": "Suspension céramique à motif floral bleu vue de trois quarts, cordon torsadé"},
+        {"fichier": "suspension-deco-blanc-560098-g3.jpg", "alt": "Détail de la céramique peinte et de la douille laiton à interrupteur"},
+        {"fichier": "suspension-deco-blanc-560098-g4.jpg", "alt": "Suspension céramique suspendue au plafond, vue d'ensemble"},
+        {"fichier": "suspension-deco-blanc-560098-g5.jpg", "alt": "Suspension céramique allumée, lumière chaude sous l'abat-jour"}
+      ],
+      "ordre": [
+        "NEW:suspension-deco-blanc-560098-g1.jpg",
+        "NEW:suspension-deco-blanc-560098-g2.jpg",
+        "NEW:suspension-deco-blanc-560098-g3.jpg",
+        "NEW:suspension-deco-blanc-560098-g4.jpg",
+        "NEW:suspension-deco-blanc-560098-g5.jpg",
+        "ID:gid://shopify/MediaImage/71596782485840",
+        "ID:gid://shopify/MediaImage/71596782518608"
+      ],
+      "variantes": [],
+      "supprimer": []
+    },
+    {
+      "handle": "suspension-effet-pierre-led-147607",
+      "product_id": "gid://shopify/Product/10591497945424",
+      "ajouts": [
+        {"fichier": "suspension-effet-pierre-led-147607-g1.jpg", "alt": "Suspension travertin forme galet, monture noyer"},
+        {"fichier": "suspension-effet-pierre-led-147607-g2.jpg", "alt": "Suspension travertin forme galet vue de trois quarts, monture noyer"},
+        {"fichier": "suspension-effet-pierre-led-147607-g5.jpg", "alt": "Suspension travertin allumée, lumière chaude sous le galet"}
+      ],
+      "ordre": [
+        "NEW:suspension-effet-pierre-led-147607-g1.jpg",
+        "NEW:suspension-effet-pierre-led-147607-g2.jpg",
+        "ID:gid://shopify/MediaImage/71416172347728",
+        "ID:gid://shopify/MediaImage/71416172380496",
+        "NEW:suspension-effet-pierre-led-147607-g5.jpg",
+        "ID:gid://shopify/MediaImage/71596782879056",
+        "ID:gid://shopify/MediaImage/71596782911824",
+        "ID:gid://shopify/MediaImage/71596782944592"
+      ],
+      "variantes": [],
+      "supprimer": []
+    }
+  ]
+}
