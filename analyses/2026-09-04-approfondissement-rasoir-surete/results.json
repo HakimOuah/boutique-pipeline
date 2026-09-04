@@ -45,31 +45,51 @@
     "assumptions_file": "economics-assumptions.json"
   },
   "supplier": {
-    "status": "MANQUANT_POUR_OFFRE_EXACTE",
-    "best_new_family_match": "1005002856214417",
-    "sku_id": "12000022481203419",
-    "variant": "S9 Ladder",
-    "price_eur_api": 51.99,
+    "status": "OFFRE TROUVÉE",
+    "confidence": "B",
+    "best_new_family_match": "1005012247873064",
+    "sku_id": "12000057868319641",
+    "variant": "K23-base-B",
+    "price_eur_api": 27.79,
     "tax_included_api": true,
-    "stock_api": 2,
-    "exact_shipping_fr": null,
+    "stock_api": 41,
+    "store_id": 1104699287,
+    "store_name": "KAMPFE SAFETY RAZOR Store",
+    "exact_shipping_fr": {
+      "free_shipping_declared": true,
+      "raw_shipping_fee": null,
+      "ship_from": "CN",
+      "min_days": 7,
+      "max_days": 18,
+      "tracking": true
+    },
+    "contents_verified": false,
+    "mild_geometry_verified": false,
     "sample_quality": null,
-    "decision": "Non retenu pour le scénario rasoir 69 EUR ; géométrie douce, coût rendu et économie du kit non établis.",
+    "decision": "Deux offres exactes du bon marchand trouvées ; composition et qualité manquantes. K23 à instruire économiquement, modèle Mild à identifier. Aucun PASS ni commande.",
+    "offers_file": "sourcing/kampfe/offers.json",
     "user_supplied_store_lead": {
       "date": "2026-09-04",
       "source": "Hakim",
       "url": "https://fr.aliexpress.com/store/1104699287",
       "store_id": "1104699287",
       "user_hypothesis": "Composer un kit avec les produits de ce marchand",
-      "merchant_name": null,
+      "merchant_name": "KAMPFE SAFETY RAZOR Store",
       "catalogue_verified": false,
-      "product_ids": [],
+      "product_ids": [
+        "1005008935603476",
+        "1005012247873064"
+      ],
       "browser_result": "Accès refusé explicitement par la politique de sécurité du site ; pas de contournement.",
       "api_catalogue_by_store_id_available": false,
-      "needed_input": "Liens des fiches produit ou captures du catalogue identifiant le marchand et les références.",
+      "needed_input": "Contenu détaillé du K23 ; lien du modèle 30deg Mild distinct de la carte A99.",
       "combined_shipment_verified": false,
       "kit_total_cost": null,
-      "decision_unchanged": true
+      "decision_unchanged": true,
+      "merchant_identity_confirmed_by_api": true,
+      "catalogue_visual_read_from_user_image": true,
+      "catalogue_source": "Capture fournie par Hakim le 04/09, pleine résolution lue",
+      "new_report": "sourcing/kampfe/README.md"
     }
   },
   "official_competitor": {
@@ -104,9 +124,10 @@
   "gmc_readiness": "NON_EVALUABLE_AVANT_OFFRE_ET_BOUTIQUE",
   "decision_reason": "Poursuite bornée de recherche : activité concurrente confirmée, mais offre différenciée, cluster net et source économiquement viable non validés.",
   "next_evidence": [
-    "SKU complet doux + coût rendu FR et qualité documentés",
-    "Périmètre de demande figé, contrôle des variantes quand quota disponible",
-    "Choix offre entrée/coffret avec contribution et conversion distinctes"
+    "Contenu K23-base : rasoir complet et support réellement inclus, géométrie et lames",
+    "Référence exacte du 30deg Mild de la capture, distinct de l’A99",
+    "Coût des compléments, branding/assemblage et qualité ; économie offre complète",
+    "Contrôle des buckets de demande quand quota disponible"
   ],
   "other_candidate_decision": {
     "candidate_id": "B1",
@@ -119,5 +140,33 @@
     "historical_technical_recommendation": "TECHNICAL_INCONCLUSIVE",
     "new_technical_failure_asserted": false,
     "reopening_requires": "Reprise motivée et accord de Hakim"
+  },
+  "supplier_previous_snapshot_before_kampfe": {
+    "status": "MANQUANT_POUR_OFFRE_EXACTE",
+    "best_new_family_match": "1005002856214417",
+    "sku_id": "12000022481203419",
+    "variant": "S9 Ladder",
+    "price_eur_api": 51.99,
+    "tax_included_api": true,
+    "stock_api": 2,
+    "exact_shipping_fr": null,
+    "sample_quality": null,
+    "decision": "Non retenu pour le scénario rasoir 69 EUR ; géométrie douce, coût rendu et économie du kit non établis.",
+    "user_supplied_store_lead": {
+      "date": "2026-09-04",
+      "source": "Hakim",
+      "url": "https://fr.aliexpress.com/store/1104699287",
+      "store_id": "1104699287",
+      "user_hypothesis": "Composer un kit avec les produits de ce marchand",
+      "merchant_name": null,
+      "catalogue_verified": false,
+      "product_ids": [],
+      "browser_result": "Accès refusé explicitement par la politique de sécurité du site ; pas de contournement.",
+      "api_catalogue_by_store_id_available": false,
+      "needed_input": "Liens des fiches produit ou captures du catalogue identifiant le marchand et les références.",
+      "combined_shipment_verified": false,
+      "kit_total_cost": null,
+      "decision_unchanged": true
+    }
   }
 }

@@ -1,0 +1,86 @@
+{
+  "observed_at_utc": "2026-09-04T12:12:16.870457+00:00",
+  "request": {
+    "action": "exact",
+    "product_id": "1005008935603476",
+    "properties": [
+      "A99-silvery"
+    ],
+    "destination": "FR"
+  },
+  "response": {
+    "action": "exact",
+    "ok": true,
+    "result": {
+      "checked_at_utc": "2026-09-04T12:12:15+00:00",
+      "destination": "FR",
+      "exact_sku": {
+        "currency": "EUR",
+        "offer_sale_price": "32.39",
+        "properties": [
+          {
+            "image": "https://ae01.alicdn.com/kf/S06a8075f68034bb0923b023afacab413G.jpg",
+            "name": "Couleur",
+            "raw_value": "Argent",
+            "value": "A99-silvery"
+          }
+        ],
+        "sku_attr": "14:350853#A99-silvery",
+        "sku_id": "12000047269142166",
+        "sku_price": "44.37",
+        "stock": 96,
+        "tax_included": true
+      },
+      "freight": {
+        "code": 200,
+        "message": "Call succeeds",
+        "options": [
+          {
+            "available_stock": null,
+            "code": "CAINIAO_STANDARD",
+            "company": "Expédition standard AliExpress",
+            "currency": null,
+            "delivery_date": "sep. 11 - 22",
+            "free_shipping": true,
+            "max_delivery_days": 18,
+            "min_delivery_days": 7,
+            "ship_from_country": "CN",
+            "shipping_fee": null,
+            "tracking": true
+          },
+          {
+            "available_stock": null,
+            "code": "CAINIAO_PREMIUM",
+            "company": "AliExpress Premium shipping",
+            "currency": "EUR",
+            "delivery_date": "sep. 11 - 15",
+            "free_shipping": false,
+            "max_delivery_days": 11,
+            "min_delivery_days": 7,
+            "ship_from_country": "CN",
+            "shipping_fee": "35,88€",
+            "tracking": true
+          }
+        ],
+        "success": true
+      },
+      "product": {
+        "evaluation_count": "0",
+        "product_id": "1005008935603476",
+        "rating": "0.0",
+        "sales_count": "35",
+        "status": "onSelling",
+        "store": {
+          "communication_rating": "4.9",
+          "country": "CN",
+          "id": 1104699287,
+          "item_as_described_rating": "4.9",
+          "name": "KAMPFE SAFETY RAZOR Store",
+          "shipping_speed_rating": "4.8"
+        },
+        "title": "KAMPFE A99 Attack 30 °   Rasoir de sécurité double face en alliage d'aluminium gravé CNC à angle de précision, cadeau pour homme, rasoir pour femme"
+      },
+      "source": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS"
+    }
+  }
+}

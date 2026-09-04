@@ -1,5 +1,7 @@
 # Sourcing A6 — complément du 04/09/2026
 
+> **Nouvelle preuve après capture de Hakim :** [catalogue KAMPFE, références exactes et compositions](kampfe/README.md). Le magasin est maintenant identifié par API ; deux SKU en stock, transport France déclaré. Les paragraphes ci-dessous sont l’état antérieur, conservé pour traçabilité.
+
 Passerelle en lecture seule `codex-chasse-clusters/tools/aliexpress_vps_gateway.py`, AliExpress Open Platform / AE-Dropshipper. Les requêtes exactes et horodatages sont dans chaque JSON ; destination de recherche FR. Aucun message, commande ou import.
 
 | Preuve | Objet | Résultat / décision |

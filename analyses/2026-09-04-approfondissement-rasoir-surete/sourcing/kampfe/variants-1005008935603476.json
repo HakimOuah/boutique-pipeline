@@ -1,0 +1,84 @@
+{
+  "observed_at_utc": "2026-09-04T12:11:14.970148+00:00",
+  "request": {
+    "action": "variants",
+    "product_id": "1005008935603476"
+  },
+  "response": {
+    "action": "variants",
+    "ok": true,
+    "result": {
+      "checked_at_utc": "2026-09-04T12:11:11+00:00",
+      "product": {
+        "evaluation_count": "0",
+        "product_id": "1005008935603476",
+        "rating": "0.0",
+        "sales_count": "35",
+        "status": "onSelling",
+        "store": {
+          "communication_rating": "4.9",
+          "country": "CN",
+          "id": 1104699287,
+          "item_as_described_rating": "4.9",
+          "name": "KAMPFE SAFETY RAZOR Store",
+          "shipping_speed_rating": "4.8"
+        },
+        "title": "KAMPFE A99 Attack 30 °   Rasoir de sécurité double face en alliage d'aluminium gravé CNC à angle de précision, cadeau pour homme, rasoir pour femme"
+      },
+      "source": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS",
+      "variants": [
+        {
+          "currency": "EUR",
+          "offer_sale_price": "32.39",
+          "properties": [
+            {
+              "image": "https://ae01.alicdn.com/kf/S802bfedfbfa049b89e59d688cc44af19U.jpg",
+              "name": "Couleur",
+              "raw_value": "noir",
+              "value": "A99-Black"
+            }
+          ],
+          "sku_attr": "14:193#A99-Black",
+          "sku_id": "12000047269142167",
+          "sku_price": "44.37",
+          "stock": 108,
+          "tax_included": true
+        },
+        {
+          "currency": "EUR",
+          "offer_sale_price": "32.39",
+          "properties": [
+            {
+              "image": "https://ae01.alicdn.com/kf/S06a8075f68034bb0923b023afacab413G.jpg",
+              "name": "Couleur",
+              "raw_value": "Argent",
+              "value": "A99-silvery"
+            }
+          ],
+          "sku_attr": "14:350853#A99-silvery",
+          "sku_id": "12000047269142166",
+          "sku_price": "44.37",
+          "stock": 96,
+          "tax_included": true
+        },
+        {
+          "currency": "EUR",
+          "offer_sale_price": "32.39",
+          "properties": [
+            {
+              "image": "https://ae01.alicdn.com/kf/Se90ba0eeea7644a4a3c6a9341c8710b9S.jpg",
+              "name": "Couleur",
+              "raw_value": "gris",
+              "value": "A99-Grey"
+            }
+          ],
+          "sku_attr": "14:94#A99-Grey",
+          "sku_id": "12000047269142168",
+          "sku_price": "44.37",
+          "stock": 82,
+          "tax_included": true
+        }
+      ]
+    }
+  }
+}

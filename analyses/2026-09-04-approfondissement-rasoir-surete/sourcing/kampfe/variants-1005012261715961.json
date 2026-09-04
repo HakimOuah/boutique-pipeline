@@ -1,0 +1,84 @@
+{
+  "observed_at_utc": "2026-09-04T12:11:20.363604+00:00",
+  "request": {
+    "action": "variants",
+    "product_id": "1005012261715961"
+  },
+  "response": {
+    "action": "variants",
+    "ok": true,
+    "result": {
+      "checked_at_utc": "2026-09-04T12:11:18+00:00",
+      "product": {
+        "evaluation_count": "0",
+        "product_id": "1005012261715961",
+        "rating": "0.0",
+        "sales_count": "27",
+        "status": "onSelling",
+        "store": {
+          "communication_rating": "4.8",
+          "country": "CN",
+          "id": 1105186411,
+          "item_as_described_rating": "4.8",
+          "name": "Shop1105186411 Store",
+          "shipping_speed_rating": "4.9"
+        },
+        "title": "Rasoir de sécurité traditionnel KAMPFE pour homme, double tranchant, en aluminium, léger, pour rasage humide, cadeau pour la fête des pères"
+      },
+      "source": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS",
+      "variants": [
+        {
+          "currency": "EUR",
+          "offer_sale_price": "20.79",
+          "properties": [
+            {
+              "image": "https://ae01.alicdn.com/kf/S891b31d2117e4514a43999ed9526d6a3a.jpg",
+              "name": "Couleur",
+              "raw_value": "Or",
+              "value": "AL10-B01-B"
+            }
+          ],
+          "sku_attr": "14:350850#AL10-B01-B",
+          "sku_id": "12000057926554105",
+          "sku_price": "41.58",
+          "stock": 16,
+          "tax_included": true
+        },
+        {
+          "currency": "EUR",
+          "offer_sale_price": "20.79",
+          "properties": [
+            {
+              "image": "https://ae01.alicdn.com/kf/S894fdecc13314bb4ba4e32b892a80ebdX.jpg",
+              "name": "Couleur",
+              "raw_value": "Orange",
+              "value": "AL10-B01-S"
+            }
+          ],
+          "sku_attr": "14:350852#AL10-B01-S",
+          "sku_id": "12000057926554106",
+          "sku_price": "41.58",
+          "stock": 5,
+          "tax_included": true
+        },
+        {
+          "currency": "EUR",
+          "offer_sale_price": "20.79",
+          "properties": [
+            {
+              "image": "https://ae01.alicdn.com/kf/S4d45fee40ca44e7c8082572f1ba61d08J.jpg",
+              "name": "Couleur",
+              "raw_value": "Argent",
+              "value": "AL10-B01-G"
+            }
+          ],
+          "sku_attr": "14:350853#AL10-B01-G",
+          "sku_id": "12000057926554107",
+          "sku_price": "41.58",
+          "stock": 7,
+          "tax_included": true
+        }
+      ]
+    }
+  }
+}

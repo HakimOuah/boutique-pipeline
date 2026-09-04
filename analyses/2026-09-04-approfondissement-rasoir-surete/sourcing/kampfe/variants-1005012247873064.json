@@ -1,0 +1,67 @@
+{
+  "observed_at_utc": "2026-09-04T12:11:19.344363+00:00",
+  "request": {
+    "action": "variants",
+    "product_id": "1005012247873064"
+  },
+  "response": {
+    "action": "variants",
+    "ok": true,
+    "result": {
+      "checked_at_utc": "2026-09-04T12:11:16+00:00",
+      "product": {
+        "evaluation_count": "0",
+        "product_id": "1005012247873064",
+        "rating": "0.0",
+        "sales_count": "20",
+        "status": "onSelling",
+        "store": {
+          "communication_rating": "4.9",
+          "country": "CN",
+          "id": 1104699287,
+          "item_as_described_rating": "4.9",
+          "name": "KAMPFE SAFETY RAZOR Store",
+          "shipping_speed_rating": "4.8"
+        },
+        "title": "Kit de rasage KAMPFE, rasoir de sécurité manuel avec support, rasoir classique usiné CNC, cadeau pour père"
+      },
+      "source": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS",
+      "variants": [
+        {
+          "currency": "EUR",
+          "offer_sale_price": "27.79",
+          "properties": [
+            {
+              "image": "https://ae01.alicdn.com/kf/Sa406557bcc9b45ee9408e88962bb1c9fB.jpg",
+              "name": "Couleur",
+              "raw_value": "Orange",
+              "value": "K23-base-B"
+            }
+          ],
+          "sku_attr": "14:350852#K23-base-B",
+          "sku_id": "12000057868319641",
+          "sku_price": "44.11",
+          "stock": 41,
+          "tax_included": true
+        },
+        {
+          "currency": "EUR",
+          "offer_sale_price": "27.79",
+          "properties": [
+            {
+              "image": "https://ae01.alicdn.com/kf/S6f3c9289a7f04762b42049991841f2e1L.jpg",
+              "name": "Couleur",
+              "raw_value": "Or",
+              "value": "K23-base-G"
+            }
+          ],
+          "sku_attr": "14:350850#K23-base-G",
+          "sku_id": "12000057868319640",
+          "sku_price": "44.11",
+          "stock": 41,
+          "tax_included": true
+        }
+      ]
+    }
+  }
+}

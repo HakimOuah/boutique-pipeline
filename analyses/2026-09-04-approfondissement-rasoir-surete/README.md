@@ -1,5 +1,7 @@
 # A6 — Approfondissement rasoir de sûreté — 04/09/2026
 
+> **Suite avec la capture KAMPFE de Hakim :** [deux références du magasin 1104699287 contrôlées](sourcing/kampfe/README.md), A99 à 32,39 € et K23 annoncé avec support à 27,79 €, stocks API positifs et transport FR standard gratuit annoncé sous 7–18 jours depuis CN. Confiance B / `OFFRE TROUVÉE`, contenu du K23 et douceur non confirmés. A6 reste REVIEW. Le diagnostic de sourcing ci-dessous précède cette nouvelle preuve.
+
 **Décision courante : `REVIEW_PREQUALIFICATION` / `TECHNICAL_INCONCLUSIVE`.** Marché Search réel et activité d'une jeune marque observée ; différenciation, demande nette et source rentable encore insuffisamment prouvées. A6 devient la priorité de recherche parmi les neuf candidats. Aucun `PASS_PREQUALIFICATION`, `TECHNICAL_PASS` ou `GO_FINAL`.
 
 **B1 étendoir : `NO_GO_FINAL`, décision explicite de Hakim le 04/09**, qui juge les concurrents trop gros en Ads. L'ancien avis technique `TECHNICAL_INCONCLUSIVE` et ses volumes restent historiques ; l'arrêt humain ne les transforme pas en échec de mesure. Ne pas relancer ce produit sans reprise motivée.
@@ -93,7 +95,7 @@ Formules : contribution = TTC / (1 + TVA) − paiement − SAV − coût rendu ;
 
 **Le piège à éviter :** conserver CVR 2 % tout en remplaçant le prix 69 par 119 pour sauver la marge. Ce sont des scénarios séparés ; une hausse de prix peut réduire la conversion. Un panier mixte exige le taux réel d'achat du pack, sa marge et son impact sur la conversion. Ne pas anticiper une LTV de lames non démontrée pour accepter un CAC déficitaire.
 
-## Sourcing : le verrou demeure
+## Sourcing avant la capture KAMPFE : le verrou demeurait
 
 Six recherches ciblées supplémentaires via la passerelle AliExpress existante : BAILI BD176, DSCOSMETIC razor, YINTAL safety, HAWARD razor, DSCOSMETIC, Yaqi Tile. **111 lignes retournées, non dédupliquées** ; beaucoup d'accessoires, de rasoirs différents ou de résultats hors sujet. [Réponses datées](sourcing/), [tri](sourcing/README.md).
 

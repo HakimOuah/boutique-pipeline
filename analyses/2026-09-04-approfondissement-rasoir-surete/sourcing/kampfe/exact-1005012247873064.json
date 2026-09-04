@@ -1,0 +1,86 @@
+{
+  "observed_at_utc": "2026-09-04T12:12:16.558005+00:00",
+  "request": {
+    "action": "exact",
+    "product_id": "1005012247873064",
+    "properties": [
+      "K23-base-B"
+    ],
+    "destination": "FR"
+  },
+  "response": {
+    "action": "exact",
+    "ok": true,
+    "result": {
+      "checked_at_utc": "2026-09-04T12:12:15+00:00",
+      "destination": "FR",
+      "exact_sku": {
+        "currency": "EUR",
+        "offer_sale_price": "27.79",
+        "properties": [
+          {
+            "image": "https://ae01.alicdn.com/kf/Sa406557bcc9b45ee9408e88962bb1c9fB.jpg",
+            "name": "Couleur",
+            "raw_value": "Orange",
+            "value": "K23-base-B"
+          }
+        ],
+        "sku_attr": "14:350852#K23-base-B",
+        "sku_id": "12000057868319641",
+        "sku_price": "44.11",
+        "stock": 41,
+        "tax_included": true
+      },
+      "freight": {
+        "code": 200,
+        "message": "Call succeeds",
+        "options": [
+          {
+            "available_stock": null,
+            "code": "CAINIAO_STANDARD",
+            "company": "Expédition standard AliExpress",
+            "currency": null,
+            "delivery_date": "sep. 11 - 22",
+            "free_shipping": true,
+            "max_delivery_days": 18,
+            "min_delivery_days": 7,
+            "ship_from_country": "CN",
+            "shipping_fee": null,
+            "tracking": true
+          },
+          {
+            "available_stock": null,
+            "code": "CAINIAO_PREMIUM",
+            "company": "AliExpress Premium shipping",
+            "currency": "EUR",
+            "delivery_date": "sep. 11 - 15",
+            "free_shipping": false,
+            "max_delivery_days": 11,
+            "min_delivery_days": 7,
+            "ship_from_country": "CN",
+            "shipping_fee": "35,88€",
+            "tracking": true
+          }
+        ],
+        "success": true
+      },
+      "product": {
+        "evaluation_count": "0",
+        "product_id": "1005012247873064",
+        "rating": "0.0",
+        "sales_count": "20",
+        "status": "onSelling",
+        "store": {
+          "communication_rating": "4.9",
+          "country": "CN",
+          "id": 1104699287,
+          "item_as_described_rating": "4.9",
+          "name": "KAMPFE SAFETY RAZOR Store",
+          "shipping_speed_rating": "4.8"
+        },
+        "title": "Kit de rasage KAMPFE, rasoir de sécurité manuel avec support, rasoir classique usiné CNC, cadeau pour père"
+      },
+      "source": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS"
+    }
+  }
+}
