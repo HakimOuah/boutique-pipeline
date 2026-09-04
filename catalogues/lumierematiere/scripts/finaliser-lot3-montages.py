@@ -95,8 +95,8 @@ def main():
             manifest['statut']='RESOLU_HORS_ACTION'
             manifest['note']='Aucune action ni nouvelle verification: doublon fournisseur resolu par le brief.'
         if spec['ordre']=='G':
-            manifest['statut']='BLOQUE_ARBITRAGE'
-            manifest['note']='Aucune action: attendre le renommage par Hakim avant schema et packshot noir.'
+            manifest['statut']='NON_PRODUIT_PERIMETRE_16'
+            manifest['note']='Brief utilisateur limite a16 avec G en attente. Arbitrage de renommage consigne en parallele dans journal/2026-09-04-arbitrages-titres-variantes.md : deux visuels supplementaires desormais debloques, non inclus dans cette livraison.'
         write(OUT/handle/'manifeste.json',manifest)
         manifests.append(manifest)
     assert len(checks)==16

@@ -15,9 +15,9 @@
 
 **Pour débloquer le solde** :
 
-1. ~~Arbitrer 272937~~ **FAIT 04/09** : titre → « Plafonnier cuisine, dôme en corde tressée », `productType` → Plafonniers, sortie de `suspensions-rotin`/`suspensions-cuisine`, entrée en `plafonniers-cuisine`. Les 8 visuels du lot 3 restent à produire ; ne pas supprimer ses 5 montages avant livraison (elle resterait sans image).
+1. ~~Arbitrer 272937~~ **FAIT 04/09** : titre → « Plafonnier cuisine, dôme en corde tressée », `productType` → Plafonniers, sortie de `suspensions-rotin`/`suspensions-cuisine`, entrée en `plafonniers-cuisine`. Les 8 visuels du lot 3 sont livrés localement (T-03) ; remplacer les 5 montages lors de l'import, pas avant.
 2. ~~Arbitrer 607504~~ **FAIT 04/09** : libellés renommés avec la finition, option → « Taille et finition », titre → « Suspension rotin tressé cuisine, monture bois » (il annonçait « noir » pour 1 variante sur 4). Le brief Codex donnait un mapping identifiant → code **inversé**, corrigé sur les preuves DOM et les SKU. Schéma coté + packshot noir désormais débloqués.
-3. Fournir la photo liée au SKU A `200000531:193` de 338324, absent du sélecteur fournisseur actuel. B/C/D livrés, sans déduction de A.
+3. 338324 A `200000531:193` : dernière passe DOM lot 3 effectuée, toujours absent ; recherche clôturée INTROUVABLE pour ce lot, zéro génération. B/C/D conservés, sans déduction de A.
 4. Compléter les cotes des cinq schémas partiels : 330664, 246282, 761433, 377816, 630923 (détail au compte rendu).
 
 **Débloqué par les preuves SKU** : 975417, B/C/D de 338324, 147607, 560098, B/C de 253182, les deux finitions de 092465, rotin de 897170 et montages 795468/630923. Captures de 16 fiches fournisseur ; correspondance par identifiants, pas par lettres réinterprétées.
@@ -36,3 +36,11 @@ Ce tableau suit cette intervention uniquement ; il ne prétend pas inventorier l
 **Pourquoi** : le menu à 10 entrées écrase la colonne du logo à 0 px et passe sur deux lignes.
 **Comment** : `shopify/AUDIT-UX-UI-2026-09-04.md` §1 — cible à 5 entrées, utilitaires vers le footer et une icône « suivi », puis layout « logo à gauche, menu à gauche » en filet. Ensuite §3 (liste canonique des matières) et §6 (hero et bandeau mobile).
 **Attention** : aucun signal GMC touché ; thème sur copie non publiée, publication par Hakim.
+
+### T-03 — Remplacer les montages fournisseur (lot 3)
+
+**État** : FAIT LOCAL — 16/16 JPEG RGB2048², contrôle « un seul luminaire dans le cadre », 7 manifestes et planche QA. Aucun import ni changement Shopify/DSers par Codex.
+**Livraison** : `livraisons-visuels-codex/montages-2026-09-04/` ; [compte rendu](journal/2026-09-04-lot3-montages.md), [registre](journal/2026-09-04-lot3-registre.json), [QA](journal/2026-09-04-lot3-qa.json).
+**Produit** : 272937 = 5 vues A + 3 variantes modele-a/b/c ; 560098 = 5 vues A simple ; 147607 = g1/g2/g5 forme A. Anciens fichiers locaux et packshots validés conservés.
+**D/E résolus** : 338324 A introuvable après dernière passe ; 837156 « 2 » = autre abat-jour H9 contre H6,5, même Ø20, dans les deux couleurs. Pas d'image produite pour D/E.
+**Périmètre** : F sans action. G non produit dans les 16 images explicitement demandées ; le renommage consigné en parallèle débloque désormais ses 2 visuels complémentaires (voir arbitrages), non inclus dans cette livraison.
