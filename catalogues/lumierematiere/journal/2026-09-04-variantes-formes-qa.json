@@ -2,9 +2,9 @@
   "date": "2026-09-04",
   "statut": "PASS_TECHNIQUE",
   "manifestes": 20,
-  "livrables": 15,
-  "hashes_uniques": 15,
-  "schemas_echelle_calculee": 6,
+  "livrables": 34,
+  "hashes_uniques": 34,
+  "schemas_echelle_calculee": 8,
   "limite": "Ne valide ni les variantes live, ni les cotes absentes, ni le rattachement Shopify. QA visuelle décrite au journal.",
   "images": [
     {
@@ -17,6 +17,19 @@
       "format": "JPEG",
       "octets": 129864,
       "sha256": "d788df1c1349c9c824223a6fb8df780feb4e0a6407e0110a430098ad891d964b",
+      "source_existe": true,
+      "format_conforme": true
+    },
+    {
+      "fichier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/lustre-anneau-led-led-795468/lustre-anneau-led-led-795468-schema-g6.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "format": "JPEG",
+      "octets": 173592,
+      "sha256": "b27cd260702f73b281fd32647c92468b82a17cc154036c931f8a87f2838aee5a",
       "source_existe": true,
       "format_conforme": true
     },
@@ -41,8 +54,8 @@
       ],
       "mode": "RGB",
       "format": "JPEG",
-      "octets": 300352,
-      "sha256": "70ae626e8142e5c515b220b0f31ffab9aa5d92b7c3d630cc31c63875a902c40f",
+      "octets": 299821,
+      "sha256": "c88c76df968d110d58d5e922c82540ad7a3134fc45d59ce17e460a170230a87a",
       "source_existe": true,
       "format_conforme": true
     },
@@ -60,6 +73,19 @@
       "format_conforme": true
     },
     {
+      "fichier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-bambou-led-630923/suspension-bambou-led-630923-schema-g6.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "format": "JPEG",
+      "octets": 310575,
+      "sha256": "88464366cb224c09e9c31e7f107e59fddf1a2c1149868027fe51b4931f8f0ca7",
+      "source_existe": true,
+      "format_conforme": true
+    },
+    {
       "fichier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-deco-253182/suspension-deco-253182-a-g1.jpg",
       "dimensions": [
         2048,
@@ -73,6 +99,214 @@
       "format_conforme": true
     },
     {
+      "fichier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-deco-253182/suspension-deco-253182-b-g1.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "format": "JPEG",
+      "octets": 540731,
+      "sha256": "d3cb70ff5348abe0dbd552d4105a724ad83a5d21e5c6794e0967cba13bd73c74",
+      "source_existe": true,
+      "format_conforme": true
+    },
+    {
+      "fichier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-deco-253182/suspension-deco-253182-c-g1.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "format": "JPEG",
+      "octets": 426575,
+      "sha256": "6d8d981f0869f1d2cc454b6f44c1a4a18e06737e77e6d8f10585e6f3bd2a022b",
+      "source_existe": true,
+      "format_conforme": true
+    },
+    {
+      "fichier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-deco-blanc-560098/suspension-deco-blanc-560098-a-g1.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "format": "JPEG",
+      "octets": 561262,
+      "sha256": "fcb3e5242dd2e669aca67adae3fcdc31c209279b48f30e536100466bd60811ba",
+      "source_existe": true,
+      "format_conforme": true
+    },
+    {
+      "fichier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-deco-blanc-560098/suspension-deco-blanc-560098-b-g1.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "format": "JPEG",
+      "octets": 586978,
+      "sha256": "a212c79718b7605f15123aa3a43f1a43400871c4a0ed7658f079de88ece8bd32",
+      "source_existe": true,
+      "format_conforme": true
+    },
+    {
+      "fichier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-effet-pierre-092465/suspension-effet-pierre-092465-pierre-claire-g1.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "format": "JPEG",
+      "octets": 573122,
+      "sha256": "c8c459fd2372fb7adf3e4a93877d2fa2387b3d74c101f69e2435f0581fec4c91",
+      "source_existe": true,
+      "format_conforme": true
+    },
+    {
+      "fichier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-effet-pierre-092465/suspension-effet-pierre-092465-brun-g1.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "format": "JPEG",
+      "octets": 615336,
+      "sha256": "c690b6941abf8f040d8501f7c3cd21e5e9575da81d55328fe5d6dc96c90d3b5e",
+      "source_existe": true,
+      "format_conforme": true
+    },
+    {
+      "fichier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-effet-pierre-led-147607/suspension-effet-pierre-led-147607-forme-a-g1.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "format": "JPEG",
+      "octets": 528875,
+      "sha256": "50f883eb4ccc3a21b39916a6d4449e0af9cd34f270a134e914a78d16eb87f258",
+      "source_existe": true,
+      "format_conforme": true
+    },
+    {
+      "fichier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-effet-pierre-led-147607/suspension-effet-pierre-led-147607-forme-b-g1.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "format": "JPEG",
+      "octets": 443401,
+      "sha256": "0707c23b5e9cf83329f9135d27fc9b650b73e6464083f48087207e213fa416e7",
+      "source_existe": true,
+      "format_conforme": true
+    },
+    {
+      "fichier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-effet-pierre-led-147607/suspension-effet-pierre-led-147607-forme-c-g1.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "format": "JPEG",
+      "octets": 564936,
+      "sha256": "48c72e47bec76903201bb585d39a0ad691514fb0f55649629490d7aef0d1ecc7",
+      "source_existe": true,
+      "format_conforme": true
+    },
+    {
+      "fichier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-effet-pierre-led-338324/suspension-effet-pierre-led-338324-c-g1.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "format": "JPEG",
+      "octets": 456022,
+      "sha256": "32797ca2db6b665a4cb61a7d0328b333d7b1fc676add6e058f7d89698a12f5ce",
+      "source_existe": true,
+      "format_conforme": true
+    },
+    {
+      "fichier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-effet-pierre-led-338324/suspension-effet-pierre-led-338324-d-g1.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "format": "JPEG",
+      "octets": 480690,
+      "sha256": "cb30f78ac446ee559b9b5c486aded0dd4caca737149dc325f6a17743da0bf75d",
+      "source_existe": true,
+      "format_conforme": true
+    },
+    {
+      "fichier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-effet-pierre-led-338324/suspension-effet-pierre-led-338324-b-g1.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "format": "JPEG",
+      "octets": 448030,
+      "sha256": "c69622ac2f44ae04d1c3c19a2f79b10d15d029a0b99940f28a815b7f1b97e6d0",
+      "source_existe": true,
+      "format_conforme": true
+    },
+    {
+      "fichier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-metal-led-dore-975417/suspension-metal-led-dore-975417-a-g1.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "format": "JPEG",
+      "octets": 427344,
+      "sha256": "444c43b56274ec6020cb25acd2b85d7a0deb9946e7f5108b2b7ea3bed60bf6eb",
+      "source_existe": true,
+      "format_conforme": true
+    },
+    {
+      "fichier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-metal-led-dore-975417/suspension-metal-led-dore-975417-d-g1.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "format": "JPEG",
+      "octets": 448901,
+      "sha256": "9a2a2d515bcdc507db012dd0fb7107733051a6402eaa40f4e0c86594b0e55623",
+      "source_existe": true,
+      "format_conforme": true
+    },
+    {
+      "fichier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-metal-led-dore-975417/suspension-metal-led-dore-975417-c-g1.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "format": "JPEG",
+      "octets": 438512,
+      "sha256": "6093bc69b7dd6a1eecaff5925bf2e8db478da2b6a231587cb9b7221e5436f705",
+      "source_existe": true,
+      "format_conforme": true
+    },
+    {
+      "fichier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-metal-led-dore-975417/suspension-metal-led-dore-975417-b-g1.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "format": "JPEG",
+      "octets": 401994,
+      "sha256": "e976d9ca51e0a059cdce33d76f576f58a6027194bd91699c4d21f794d9b3502b",
+      "source_existe": true,
+      "format_conforme": true
+    },
+    {
       "fichier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-moderne-led-noir-330664/suspension-moderne-led-noir-330664-schema-g6.jpg",
       "dimensions": [
         2048,
@@ -80,8 +314,8 @@
       ],
       "mode": "RGB",
       "format": "JPEG",
-      "octets": 138193,
-      "sha256": "246306616c98f3d17c671dad8fab2e44c6023cccce13c14fc65956e2f743e3c4",
+      "octets": 151507,
+      "sha256": "6e8035f74b8a9daf9944bc0b76913bac0052e3ec7f8b7b6ac671e4a78a5fea7f",
       "source_existe": true,
       "format_conforme": true
     },
@@ -125,6 +359,19 @@
       "format_conforme": true
     },
     {
+      "fichier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-rotin-897170/suspension-rotin-897170-rotin-g1.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "format": "JPEG",
+      "octets": 695219,
+      "sha256": "a6819732009b11d777d444dd4f6dcfd266d4a90344e2d9c723ec9c0b1f0c28da",
+      "source_existe": true,
+      "format_conforme": true
+    },
+    {
       "fichier": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-forme/suspension-rotin-led-761433/suspension-rotin-led-761433-schema-g6.jpg",
       "dimensions": [
         2048,
@@ -132,8 +379,8 @@
       ],
       "mode": "RGB",
       "format": "JPEG",
-      "octets": 419520,
-      "sha256": "3028afc58f20e703c55b4696fb8228e1bff89d4aeafea94db9f30a677708360e",
+      "octets": 435259,
+      "sha256": "0225c52bcc0dfd0d06d02a636196092da583087d6239b84ab8efaff842130761",
       "source_existe": true,
       "format_conforme": true
     },

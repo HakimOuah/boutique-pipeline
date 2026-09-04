@@ -1,5 +1,7 @@
 # Variantes formes — production locale du 04/09/2026
 
+> Archive de la première passe (15 images). État actuel : [complément à 34 images et décisions restantes](2026-09-04-variantes-formes-complement.md). Les constats d'absence de correspondance ci-dessous sont historiques ; les preuves SKU nouvelles les remplacent quand indiqué dans le complément.
+
 État : LIVRAISON PARTIELLE VÉRIFIÉE ; reste bloqué sur preuves/arbitrages. Aucun changement Shopify/DSers, aucune réattribution de SKU.
 
 ## Contrôle préalable des sources

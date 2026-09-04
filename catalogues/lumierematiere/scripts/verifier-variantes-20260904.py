@@ -34,13 +34,31 @@ def main():
             checks.append({'fichier':str(image_path.relative_to(REPO)), 'dimensions':size,
                            'mode':mode, 'format':format_, 'octets':image_path.stat().st_size,
                            'sha256':digest, 'source_existe':source_path.is_file(), 'format_conforme':valid})
-    if len(manifests) != 20 or len(checks) != 15:
+    if len(manifests) != 20 or len(checks) != 34:
         errors.append(f'Comptage inattendu : {len(manifests)} manifestes, {len(checks)} images')
     geometry = json.loads((DELIVERY / 'qa-geometrie.json').read_text())
+    if len(geometry) != 8:
+        errors.append(f'Comptage schemas inattendu : {len(geometry)}')
     for sheet in geometry:
         ratios = [g['width_px']/g['cm'] for g in sheet['geometrie']]
         if max(ratios)-min(ratios)>1e-9:
             errors.append(f'Échelle incohérente : {sheet["handle"]}')
+        for geom in sheet['geometrie']:
+            if geom.get('height_px') is not None:
+                if abs(geom['height_px']/geom['height_cm_confirmed']-geom['px_per_cm'])>1e-9:
+                    errors.append(f'Échelle hauteur incohérente : {sheet["handle"]}')
+    for handle in ['suspension-rotin-272937','suspension-rotin-607504']:
+        manifest=json.loads((DELIVERY/handle/'manifeste.json').read_text())
+        if manifest['images'] or manifest['statut']!='BLOQUE_ARBITRAGE':
+            errors.append(f'Verrou arbitrage non respecte : {handle}')
+    for file in manifests:
+        manifest=json.loads(file.read_text())
+        for link in manifest.get('correspondances_sku',[]):
+            proof=json.loads((REPO/link['preuve_dom']).read_text())
+            key=link['sku_propriete'].replace(':','-')
+            matches=[v for v in proof['variants'] if v['key']==key]
+            if len(matches)!=1 or key!=Path(link['source']).stem:
+                errors.append(f'Correspondance SKU invalide : {file}/{key}')
     result = {'date':'2026-09-04', 'statut':'PASS_TECHNIQUE' if not errors else 'FAIL',
               'manifestes':len(manifests), 'livrables':len(checks), 'hashes_uniques':len(hashes),
               'schemas_echelle_calculee':len(geometry),
