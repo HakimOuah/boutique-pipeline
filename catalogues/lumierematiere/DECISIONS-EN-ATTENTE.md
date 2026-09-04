@@ -1,72 +1,34 @@
 # Décisions en attente — Lumière Matière
 
-Au 04/09/2026, fin de journée. Rien ici ne peut avancer sans un arbitrage de Hakim.
-Le reste du travail est décrit dans `TABLEAU.md` et `shopify/ETAT.md`.
+**Au 04/09/2026 au soir : D-1, D-2, D-3 et D-4 sont tranchées et exécutées.**
+Compte rendu complet : [`journal/2026-09-04-arbitrages-titres-variantes.md`](journal/2026-09-04-arbitrages-titres-variantes.md).
+
+| | Décision de Hakim | État |
+|---|---|---|
+| **D-1** — 3 titres faux + collection de `272937` | « c'est l'occasion de revoir les titres et de les optimiser pour le SEO / GMC donc je te laisse faire » | ✅ fait — 3 titres réécrits (+ 1 quatrième trouvé en chemin sur `607504`), 2 corps de fiche corrigés, `272937` passée en `Plafonniers` / `plafonniers-cuisine` |
+| **D-2** — libellés de `607504` | « ok tu peux procéder » | ✅ fait — finition ajoutée aux 4 libellés, option renommée « Taille et finition » ; **le mapping du brief Codex était inversé**, corrigé sur les preuves DOM + SKU |
+| **D-3** — doublons de `897170` | « ok pour ta reco » | ✅ fait — 3 paires vérifiées à l'image, 3 variantes supprimées ; **écart assumé** : j'ai gardé le SKU le mieux approvisionné, pas systématiquement celui sans suffixe « 2 » |
+| **D-4** — montages fournisseur | « ok avec ta reco » | ✅ fait sur `147607` et `560098` ; `272937` attend le lot 3 (sinon zéro image) |
+
+Contrôle : **52 produits / 158 variantes** (161 − 3), 0 prix barré, SKU DSers intacts.
 
 ---
 
-## D-1 · Trois titres qui décrivent un autre produit — **bloquant GMC**
+## Ce qui reste réellement ouvert
 
-Ce ne sont pas des libellés approximatifs. Un titre qui annonce un produit différent de celui
-qui est vendu tombe dans la misrepresentation, au même titre que le montage en image principale.
+### O-1 · `suspension-effet-pierre-led-147607` — avec ou sans ampoule ?
 
-| Fiche | Titre actuel | Ce qui est vendu | Proposition |
-|---|---|---|---|
-| `suspension-rotin-272937` | « Suspension cuisine, **3 boules** corde à **monture noire** » | **3 plafonniers simples** Ø 16 × H 17, montures noire / blanche / noire à jute brune | « **Plafonnier** corde tressée, Ø 16 cm » |
-| `suspension-deco-blanc-560098` | « Suspension céramique cuisine, **double** à motif bleu » | 2 suspensions **simples** Ø 19,5, l'une à motif floral, l'autre à rayures | « Suspension céramique peinte main, Ø 19,5 cm » |
-| `suspension-effet-pierre-led-147607` | « Suspension travertin cuisine, **cône ou galet** beige » | 3 formes : galet bas, cylindre haut, **bloc rectangulaire** | « Suspension travertin, trois formes » |
+Le SKU porte `136:200003939#Warm light 3000K` (source intégrée) mais le corps de fiche dit
+« il vous faudra une ampoule E27 ». **Les deux ne peuvent pas être vrais**, et c'est une
+information d'achat, donc un sujet GMC.
 
-**Conséquence sur `272937` au-delà du titre** : ce sont des plafonniers, et la fiche est rangée
-dans `suspensions-rotin` et `suspensions-cuisine`. À déplacer vers `plafonniers-led` /
-`plafonniers-cuisine` — ce qui fait remonter `plafonniers-cuisine` de 1 à 2 produits.
+En attendant, j'ai retiré `LED` du titre plutôt que d'affirmer ce que je ne peux pas prouver :
+le titre est aujourd'hui « Suspension travertin cuisine, monture noyer », vrai dans les deux cas.
 
-**Ta décision** : valides-tu les trois titres proposés, et le déplacement de collection de 272937 ?
+**Ta décision** : trancher dans DSers ou sur la PDP fournisseur, puis aligner titre et description.
 
----
+### O-2 · Questions confiées à Codex, pas à toi
 
-## D-2 · Renommage des libellés de `suspension-rotin-607504`
-
-Cotes prouvées par Codex : `2550` = Ø 25 × H 50 · `4040` = Ø 40 × H 40 · `4019` = Ø 40 × H 19 ·
-`4040BK` = Ø 40 × H 40 **noir**. Le doublon apparent « 40 × 40 cm » est donc naturel vs noir.
-
-Proposition : `Ø 25 × H 50 cm · naturel` · `Ø 40 × H 40 cm · naturel` · `Ø 40 × H 19 cm · naturel` ·
-`Ø 40 × H 40 cm · noir`.
-
-Le schéma coté et le packshot « noir » attendent cette décision (lot 3, point G).
-
----
-
-## D-3 · Doublons fournisseur de `suspension-rotin-897170`
-
-Question fermée : les deux références « Ø 50 cm · rotin » sont **rigoureusement identiques**. Le
-fournisseur a deux entrées de SKU pour un seul article. Idem probablement pour les « Ø 60 cm ».
-
-Trois options, toutes tiennent :
-
-1. **Supprimer les trois variantes « 2 »** — le client ne voit plus de choix identiques. Coût :
-   on perd le stock rattaché (10 + 18 + 5 unités) et le mapping DSers de ces SKU.
-2. **Les garder et renommer** en `Ø 50 cm · rotin (lot 2)` — honnête mais toujours incompréhensible
-   pour un client.
-3. **Ne rien faire** — statu quo, deux lignes identiques dans le sélecteur.
-
-Ma recommandation : **option 1**, après vérification dans DSers que les SKU restants couvrent le
-stock. C'est le seul choix où le client ne voit pas deux fois la même chose.
-
----
-
-## D-4 · Sort des montages une fois les nouvelles vues livrées
-
-Sur `147607` et `560098`, les montages ont été **relégués en fin de galerie**, pas supprimés.
-Quand le lot 3 aura livré les vues de remplacement : les supprimer, ou les laisser en fin de
-galerie ?
-
-Ma recommandation : **les supprimer**. Ils restent dans `additional_image_link` du flux tant
-qu'ils sont là, et ils montrent des produits non vendus.
-
----
-
-## Ce qui n'attend personne
-
-- Lot 3 Codex, points A à C : les références sont là, les faits sont établis, ça peut partir.
-- Points D et E du lot 3 (scraping de `338324` modèle A et de `837156`) : questions ouvertes que
-  Codex peut trancher seul.
+Elles sont dans le brief du lot 3 et n'attendent pas d'arbitrage :
+modèle A de `338324` (identifiant introuvable, à re-scraper) et valeurs « 2 » de `837156`
+(à scraper, question binaire : même objet ou non).

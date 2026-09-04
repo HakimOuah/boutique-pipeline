@@ -11,10 +11,26 @@
     "lumiere": "chaude",
     "type": "packshot objet",
     "format": "JPEG RGB 2048x2048, sans compression visible",
-    "interdits": ["texte", "cote", "logo", "badge", "filigrane", "main", "visage", "decor de piece", "plus d un luminaire dans le cadre"]
+    "interdits": [
+      "texte",
+      "cote",
+      "logo",
+      "badge",
+      "filigrane",
+      "main",
+      "visage",
+      "decor de piece",
+      "plus d un luminaire dans le cadre"
+    ]
   },
   "slots": {
-    "vues_produit": ["g1-hero-allume", "g2-silhouette-angle-matiere", "g3-macro-matiere", "g4-lifestyle", "g5-qualite-lumiere"],
+    "vues_produit": [
+      "g1-hero-allume",
+      "g2-silhouette-angle-matiere",
+      "g3-macro-matiere",
+      "g4-lifestyle",
+      "g5-qualite-lumiere"
+    ],
     "packshot_variante": "g1-variante"
   },
   "sortie": {
@@ -48,7 +64,13 @@
         "matiere": "corde tressee"
       },
       "vues_produit": {
-        "a_produire": ["g1", "g2", "g3", "g4", "g5"],
+        "a_produire": [
+          "g1",
+          "g2",
+          "g3",
+          "g4",
+          "g5"
+        ],
         "reference_canonique": "catalogues/lumierematiere/sources-par-handle/suspension-rotin-272937/variantes-20260904/200000531-193.jpg",
         "consigne": "Recomposer les cinq vues sur le modele A, en plafonnier seul. Pas de cable pendant, pas de trio, pas d applique."
       },
@@ -96,7 +118,13 @@
         "monture": "laiton, interrupteur a molette"
       },
       "vues_produit": {
-        "a_produire": ["g1", "g2", "g3", "g4", "g5"],
+        "a_produire": [
+          "g1",
+          "g2",
+          "g3",
+          "g4",
+          "g5"
+        ],
         "reference_canonique": "catalogues/lumierematiere/sources-par-handle/suspension-deco-blanc-560098/variantes-20260904/200000531-193.jpg",
         "consigne": "Recomposer les cinq vues sur la variante A, EN SIMPLE. Un seul abat-jour, un seul cordon."
       },
@@ -110,8 +138,15 @@
       "a_produire": 3,
       "probleme": "g1, g2 et g5 montrent 10 a 12 suspensions travertin dans le meme cadre.",
       "vues_produit": {
-        "a_produire": ["g1", "g2", "g5"],
-        "a_conserver": ["g3", "g4"],
+        "a_produire": [
+          "g1",
+          "g2",
+          "g5"
+        ],
+        "a_conserver": [
+          "g3",
+          "g4"
+        ],
         "reference_canonique": "catalogues/lumierematiere/sources-par-handle/suspension-effet-pierre-led-147607/variantes-20260904/200000531-193.jpg",
         "consigne": "Recomposer les trois vues sur la forme A (galet bas, tete noyer), un seul luminaire. g3 et g4 sont deja mono-produit et restent valables."
       },
@@ -144,22 +179,23 @@
       "statut": "resolu",
       "a_produire": 0,
       "conclusion": "Les references 200000531-193.jpg et 200000531-29.jpg (les deux 'O 50 cm · rotin') sont rigoureusement identiques : meme corolle, meme 50 cm, meme mention '1.2m ~1.4m Adjustable', meme avertissement sur le rotin qui jaunit. Le fournisseur a deux entrees de SKU pour un seul article.",
-      "consigne": "Ne rien generer, ne rien distinguer. Le sort des doublons (fusion, suppression d une variante) est une decision Shopify/DSers de Hakim, pas un sujet visuel."
+      "consigne": "Tranche le 04/09 : les trois paires ont ete verifiees image par image (193/29, 175/350852, 1052/173) et sont rigoureusement identiques. Les trois variantes en double ont ete supprimees dans Shopify, en gardant a chaque fois le SKU le mieux approvisionne. La fiche est passee de 7 a 4 variantes. Rien a generer."
     },
     {
       "ordre": "G",
       "handle": "suspension-rotin-607504",
       "sku": "LM-027",
-      "statut": "bloque_arbitrage",
-      "a_produire": 0,
+      "statut": "debloque_2026_09_04",
+      "a_produire": "1 schema cote + 1 packshot noir",
       "cotes_prouvees": {
-        "200000795:367": "2550 = O 25 x H 50, naturel",
-        "200000795:193": "4040 = O 40 x H 40, naturel",
-        "200000795:175": "4019 = O 40 x H 19, naturel",
-        "200000795:10": "4040BK = O 40 x H 40, NOIR"
+        "200000795:193": "2550 = O 25 x H 50, naturel, goutte",
+        "200000795:10": "4040 = O 40 x H 40, naturel, bulbe",
+        "200000795:175": "4019 = O 40 x H 19, naturel, coupole plate",
+        "200000795:367": "4040BK = O 40 x H 40, NOIR, bulbe (meme silhouette que 4040)"
       },
-      "constat": "Le doublon apparent '40 x 40 cm' est naturel vs noir.",
-      "consigne": "Le schema cote et le packshot noir ne se produisent qu APRES le renommage des libelles par Hakim. Ne rien faire avant."
+      "constat": "Le doublon apparent '40 x 40 cm' est bien naturel vs noir : meme silhouette, deux finitions.",
+      "consigne": "Renommage fait le 04/09 : libelles '25 x 50 cm . naturel', '40 x 40 cm . naturel', '40 x 19 cm . naturel', '40 x 40 cm . noir', option renommee 'Taille et finition'. Le schema cote et le packshot noir peuvent desormais etre produits.",
+      "correction_2026_09_04": "Le mapping identifiant -> code de la premiere version de ce JSON etait INVERSE. Les preuves DOM (variantes-20260904/preuves-dom.json) et les SKU Shopify concordent : 193 porte le label 2550, 367 porte 4040BK. Les images le confirment (367 = noir 40x40, 193 = naturel 25x50). Regle : le code se lit dans le SKU et dans preuves-dom.json, jamais dans une lecture d'image."
     }
   ],
   "total_max": 16

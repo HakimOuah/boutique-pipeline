@@ -118,8 +118,12 @@ Question fermée le 04/09 : les références `200000531-193.jpg` et `200000531-2
 « 1.2m ~1.4m Adjustable », même avertissement sur le rotin qui jaunit. Le fournisseur a deux
 entrées de SKU pour un seul article.
 
-**Il n'y a rien à générer et rien à distinguer.** C'est un doublon côté fournisseur, et son sort
-(fusion, suppression d'une variante) est une décision Shopify/DSers de Hakim, pas un sujet visuel.
+**Il n'y a rien à générer et rien à distinguer.** C'est un doublon côté fournisseur.
+
+**Tranché le 04/09** : les trois paires (`193`/`29`, `175`/`350852`, `1052`/`173`) ont été vérifiées
+image par image et sont rigoureusement identiques. Les trois variantes en double ont été supprimées
+dans Shopify — en gardant à chaque fois le SKU **le mieux approvisionné**, les deux membres d'une
+paire partageant déjà la même image. La fiche passe de 7 à 4 variantes.
 
 ## G. `suspension-rotin-607504` — en attente d'arbitrage
 
@@ -127,8 +131,16 @@ Cotes prouvées au lot 2 : `2550` = Ø 25 × H 50 · `4040` = Ø 40 × H 40 · `
 `4040BK` = Ø 40 × H 40 **noir**. Le doublon apparent « 40 × 40 cm » est donc naturel vs noir.
 Références disponibles : `variantes-20260904/200000795-{193,367,175,10}.jpg`.
 
-Le schéma coté et le packshot « noir » ne se produisent **qu'après** le renommage des libellés
-par Hakim. Ne rien faire avant.
+**Attention — le mapping identifiant → code donné dans la première version du JSON était INVERSÉ.**
+Les preuves DOM (`variantes-20260904/preuves-dom.json`) et les SKU Shopify concordent :
+`193` porte le label `2550`, `367` porte `4040BK`. Les images le confirment (`367` = noir 40 × 40,
+`193` = naturel 25 × 50, `10` = naturel 40 × 40 de même silhouette que le noir, `175` = coupole
+plate 40 × 19). **Le code se lit dans le SKU et dans `preuves-dom.json`, jamais dans une lecture
+d'image.**
+
+**Débloqué le 04/09** : les libellés sont renommés (`25 × 50 cm · naturel`, `40 × 40 cm · naturel`,
+`40 × 19 cm · naturel`, `40 × 40 cm · noir`) et l'option s'appelle désormais « Taille et finition ».
+Le schéma coté et le packshot noir peuvent être produits.
 
 ---
 
@@ -141,10 +153,10 @@ par Hakim. Ne rien faire avant.
 | C | `suspension-effet-pierre-led-147607` | **3** vues (g1, g2, g5) | à faire |
 | D | `suspension-effet-pierre-led-338324` | 0 à 1 | re-scraper, puis trancher |
 | E | `suspension-deco-led-837156` | 0 | scraper et répondre |
-| F | `suspension-rotin-897170` | 0 | résolu, ne rien faire |
-| G | `suspension-rotin-607504` | 0 pour l'instant | attendre l'arbitrage |
+| F | `suspension-rotin-897170` | 0 | résolu — doublons supprimés le 04/09 |
+| G | `suspension-rotin-607504` | **2** (schéma coté + packshot noir) | débloqué le 04/09 |
 
-**16 images au maximum.**
+**18 images au maximum** (16 + les 2 de G, débloquées le 04/09).
 
 ## Contrôle attendu
 
