@@ -82,12 +82,16 @@
         {
           "valeur": "Beige et blanc",
           "slug": "beige-et-blanc",
-          "statut": "anomalie",
+          "statut": "confirme",
           "fichier_sortie": "suspension-verre-405368-beige-et-blanc-g1.jpg",
-          "reference": "catalogues/lumierematiere/sources-par-handle/suspension-verre-405368/D1.jpg",
-          "rendu": "douille beige clair, disque de verre VERT franc, boule opaline blanche dessous, cable noir, rosace noire",
-          "anomalie": "la reference D1.jpg est etiquetee 'Beige + Green' et montre un disque VERT, pas blanc. Soit la variante boutique est mal nommee, soit elle pointe la mauvaise reference. Generer d'apres la reference et signaler a Hakim.",
-          "references_non_vendues": ["C1.jpg = Wine Red + Tea Green (bordeaux + vert olive) — coloris fournisseur non propose en boutique"]
+          "reference": "catalogues/lumierematiere/sources-par-handle/suspension-verre-405368/A2.jpg",
+          "rendu": "douille beige clair brillante, disque de verre BLANC opaque brillant, boule opaline blanche dessous, cable BLANC (et non noir comme les deux autres coloris)",
+          "correction_2026_09_04": "La premiere version de ce JSON pointait D1.jpg ('Beige + Green', disque vert) et marquait la variante comme anomalie. C'etait une erreur d'analyse: le SKU de la variante est '200000531:173#A2', donc la reference est A2.jpg, etiquetee 'Beige+White'. La variante boutique est correctement nommee, il n'y a aucune anomalie. Le visuel livre le 04/09 depuis D1.jpg est a REGENERER depuis A2.jpg.",
+          "a_regenerer": true,
+          "references_non_vendues": [
+            "C1.jpg = Wine Red + Tea Green (bordeaux + vert olive) — coloris fournisseur non propose en boutique",
+            "D1.jpg = Beige + Green (beige + vert) — coloris fournisseur non propose en boutique"
+          ]
         }
       ]
     },

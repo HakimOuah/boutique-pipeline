@@ -117,10 +117,15 @@ proportions ».
 
 ## Deux anomalies relevées, à trancher par Hakim — ne pas corriger seul
 
-**`suspension-verre-405368`** — la variante boutique s'appelle **« Beige et blanc »**, mais la
-référence fournisseur `D1.jpg` est étiquetée **« Beige + Green »** et montre un disque de verre
-**vert**. Soit la variante est mal nommée, soit elle pointe la mauvaise référence. Générer d'après
-la référence, et signaler.
+**`suspension-verre-405368`** — ~~anomalie de nommage~~ **CORRIGÉ le 04/09 : il n'y a pas
+d'anomalie.** La première version de ce brief pointait la référence `D1.jpg` (« Beige + Green »)
+et concluait à une variante mal nommée. Erreur d'analyse de ma part : le SKU de la variante est
+`200000531:173#A2`, donc la référence est **`A2.jpg`**, étiquetée « Beige+White » — douille beige,
+disque de verre blanc, **câble blanc**. La variante « Beige et blanc » est correctement nommée.
+`D1.jpg` et `C1.jpg` sont des coloris fournisseur non vendus en boutique.
+
+**Le visuel `suspension-verre-405368-beige-et-blanc-g1.jpg` livré le 04/09 est à REGÉNÉRER**
+depuis `A2.jpg` : celui qui a été produit montre un disque vert.
 
 **`suspension-rotin-272937`** — les codes `Modèle A / B / C` ne désignent **pas** une forme
 d'abat-jour mais une **configuration** : la référence montre une suspension simple, une applique

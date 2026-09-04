@@ -258,3 +258,45 @@ les choix lisibles, il ne les rend pas visibles.
 Deux arbitrages en attente de Hakim : `suspension-verre-405368` (« Beige et blanc » vs référence
 « Beige + Green ») et `suspension-rotin-272937` (codes = configurations, dont une applique murale
 dans une fiche de suspension).
+
+---
+
+# Correction et décisions — 04/09/2026, fin de journée
+
+## Correction : `suspension-verre-405368` n'avait aucune anomalie
+
+Le brief du 04/09 signalait la variante « Beige et blanc » comme mal nommée, au motif que la
+référence `D1.jpg` est étiquetée « Beige + Green » et montre un disque vert.
+
+**C'était une erreur d'analyse.** Le SKU de la variante est `200000531:173#A2` : la référence est
+`A2.jpg`, étiquetée **« Beige+White »** — douille beige, disque de verre blanc, **câble blanc**.
+La variante est correctement nommée. Le rapprochement aurait dû se faire par le SKU dès le départ,
+pas par le libellé des fichiers de référence.
+
+Les trois variantes vendues se lisent toutes dans leur SKU :
+
+| Variante boutique | SKU | Référence | Étiquette fournisseur |
+|---|---|---|---|
+| Bordeaux et blanc | `…193#A1` | `A1.jpg` | Wine Red + White |
+| Jaune et orange | `…350852#B1` | `B1.jpg` | Yellow + orange |
+| Beige et blanc | `…173#A2` | `A2.jpg` | **Beige + White** |
+
+`C1.jpg` (Wine Red + Tea Green) et `D1.jpg` (Beige + Green) sont des coloris fournisseur **non
+vendus** en boutique.
+
+**Conséquence** : aucun renommage. Le visuel `suspension-verre-405368-beige-et-blanc-g1.jpg` livré
+par Codex le 04/09 montre un disque vert et **doit être régénéré depuis `A2.jpg`**.
+
+**Règle à retenir : la correspondance variante → référence fournisseur se lit dans le SKU, jamais
+dans le nom du fichier de référence.** Les dossiers `sources-par-handle/` contiennent aussi les
+coloris que le fournisseur propose mais qu'on ne vend pas.
+
+## Décision Hakim — collections sous 5 produits
+
+`suspensions-bambou` (3), `suspensions-osier` (2) et `suspensions-pierre` (4) **restent au menu
+telles quelles**. On ne les sort pas de la navigation et on ne cherche plus à les garnir : le
+sourcing du 02/09 a établi qu'aucune offre ne tient la fenêtre 7–18 j sur ces matières.
+
+C'est un écart assumé à la règle interne « ≥ 5 produits par collection en mode univers ». Sortir
+trois entrées « par matière » d'une boutique dont l'axe **est** la matière coûterait plus que
+l'écart lui-même.
