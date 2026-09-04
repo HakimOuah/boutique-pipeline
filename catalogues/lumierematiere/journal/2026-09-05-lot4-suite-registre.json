@@ -1,5 +1,5 @@
 {
-  "finalise_le": "2026-09-04T19:22:04.387611+02:00",
+  "finalise_le": "2026-09-04T21:10:15.030160+02:00",
   "manifestes": [
     {
       "brand": "lumierematiere",
@@ -2084,132 +2084,6 @@
     },
     {
       "brand": "lumierematiere",
-      "handle": "plafonnier-led-led-183789",
-      "sku": "LM-083",
-      "supplier_id": "1005007548183789",
-      "images": [
-        {
-          "fichier": "plafonnier-led-led-183789-gris-5-lumieres-g1.jpg",
-          "slot": "g1-variante",
-          "lot": "A2",
-          "sku_option": "200000795:173#grey 5 lights",
-          "sku_options_servis": [
-            "200000795:173#grey 5 lights"
-          ],
-          "sku_complets_servis": [
-            "200000795:173#grey 5 lights"
-          ],
-          "identifiant_option": "200000795:173",
-          "source": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-173.jpg",
-          "sources": [
-            {
-              "chemin": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-173.jpg",
-              "sha256": "ba04ac90945fd448b7661558f533e45e8380020722b0296eff2fb0d7d76df47d",
-              "dimensions_source": [
-                800,
-                800
-              ]
-            }
-          ],
-          "preuve_dom": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/preuves-dom.json",
-          "observe_le": "2026-09-04T18:55:57+0200",
-          "provenance": "REFERENCE_OPTION_CONFIRMEE_DOM",
-          "controle": "un seul luminaire dans le cadre",
-          "nombre_luminaires_observe": 1,
-          "nombre_lumieres_attendu": 5,
-          "nombre_lumieres_observe": 5,
-          "qa_visuelle": "PASS — revue agent du rendu et de la référence",
-          "generation": {
-            "outil": "image_gen integre",
-            "dimensions_natives": [
-              1254,
-              1254
-            ],
-            "mise_au_format": "sips JPEG qualite 95, agrandissement proportionnel 2048²",
-            "sha256_png": "9968cd5e0c12ef5b8029687b732c7bc7d6abffcbb68f70401d2921538ca69235"
-          },
-          "dimensions": [
-            2048,
-            2048
-          ],
-          "mode": "RGB",
-          "format": "JPEG",
-          "sha256": "71db73b09314b05710569f0153a2f11d522d893cc93e5b4e4390935203829007",
-          "selection_confirmee": true
-        },
-        {
-          "fichier": "plafonnier-led-led-183789-blanc-5-lumieres-g1.jpg",
-          "slot": "g1-variante",
-          "lot": "A2",
-          "sku_option": "200000795:691#White 5 lights",
-          "sku_options_servis": [
-            "200000795:691#White 5 lights"
-          ],
-          "sku_complets_servis": [
-            "200000795:691#White 5 lights"
-          ],
-          "identifiant_option": "200000795:691",
-          "source": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-691.jpg",
-          "sources": [
-            {
-              "chemin": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-691.jpg",
-              "sha256": "2f4fceab664a03b599fd0fbc40833b1c79828df398c46d2abf39ff7c740df6e6",
-              "dimensions_source": [
-                800,
-                800
-              ]
-            }
-          ],
-          "preuve_dom": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/preuves-dom.json",
-          "observe_le": "2026-09-04T18:55:57+0200",
-          "provenance": "REFERENCE_OPTION_CONFIRMEE_DOM",
-          "controle": "un seul luminaire dans le cadre",
-          "nombre_luminaires_observe": 1,
-          "nombre_lumieres_attendu": 5,
-          "nombre_lumieres_observe": 5,
-          "qa_visuelle": "PASS — revue agent du rendu et de la référence",
-          "generation": {
-            "outil": "image_gen integre",
-            "dimensions_natives": [
-              1254,
-              1254
-            ],
-            "mise_au_format": "sips JPEG qualite 95, agrandissement proportionnel 2048²",
-            "sha256_png": "f3fd2281e9fbe699dd8b954caf9c7b2f10d91c2c1190b6b6d243de4c5ba95ad3"
-          },
-          "dimensions": [
-            2048,
-            2048
-          ],
-          "mode": "RGB",
-          "format": "JPEG",
-          "sha256": "5125135a06d7b240221ecc0c46e0fd48f3011b55861152af89bbcb2841126430",
-          "selection_confirmee": true
-        }
-      ],
-      "ecartes": [
-        {
-          "chemin": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-couleur/plafonnier-led-led-183789/plafonnier-led-led-183789-gris-g1.jpg",
-          "motif": "Sept palets lumineux visibles (six périphériques + centre), aucun SKU vendu à sept. Ne pas utiliser pour cinq ni six."
-        },
-        {
-          "chemin": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-couleur/plafonnier-led-led-183789/plafonnier-led-led-183789-blanc-g1.jpg",
-          "motif": "Sept palets lumineux visibles (six périphériques + centre), aucun SKU vendu à sept. Ne pas utiliser pour cinq ni six."
-        }
-      ],
-      "lot": "lot4-couverture",
-      "controle_obligatoire": "un seul luminaire dans le cadre",
-      "aucune_action_shopify_dsers": true,
-      "sku_intouchables": true,
-      "reste_a_produire": [
-        "200000795:366#grey 6 lights",
-        "200000795:10#White  6 lights"
-      ],
-      "reserve": "Deux visuels supplémentaires nécessaires pour les versions à six. Autorisation demandée pour dépasser le plafond de quarante.",
-      "statut": "LIVRE_PARTIEL_ARBITRAGE_2_IMAGES_SUPPLEMENTAIRES"
-    },
-    {
-      "brand": "lumierematiere",
       "handle": "suspension-bois-led-934110",
       "sku": "LM-032",
       "supplier_id": "1005008628934110",
@@ -2419,6 +2293,597 @@
         "fond_cible": "#F6F3EC",
         "lumiere": "chaude",
         "type": "packshot objet"
+      }
+    },
+    {
+      "brand": "lumierematiere",
+      "handle": "plafonnier-led-led-183789",
+      "sku": "LM-083",
+      "supplier_id": "1005007548183789",
+      "images": [
+        {
+          "fichier": "plafonnier-led-led-183789-gris-5-lumieres-g1.jpg",
+          "slot": "g1-variante",
+          "lot": "A2",
+          "sku_option": "200000795:173#grey 5 lights",
+          "sku_options_servis": [
+            "200000795:173#grey 5 lights"
+          ],
+          "sku_complets_servis": [
+            "200000795:173#grey 5 lights"
+          ],
+          "identifiant_option": "200000795:173",
+          "source": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-173.jpg",
+          "sources": [
+            {
+              "chemin": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-173.jpg",
+              "sha256": "ba04ac90945fd448b7661558f533e45e8380020722b0296eff2fb0d7d76df47d",
+              "dimensions_source": [
+                800,
+                800
+              ]
+            }
+          ],
+          "preuve_dom": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/preuves-dom.json",
+          "observe_le": "2026-09-04T18:55:57+0200",
+          "provenance": "REFERENCE_OPTION_CONFIRMEE_DOM",
+          "controle": "un seul luminaire dans le cadre",
+          "nombre_luminaires_observe": 1,
+          "nombre_lumieres_attendu": 5,
+          "nombre_lumieres_observe": 5,
+          "qa_visuelle": "PASS — revue agent du rendu et de la référence",
+          "generation": {
+            "outil": "image_gen integre",
+            "dimensions_natives": [
+              1254,
+              1254
+            ],
+            "mise_au_format": "sips JPEG qualite 95, agrandissement proportionnel 2048²",
+            "sha256_png": "9968cd5e0c12ef5b8029687b732c7bc7d6abffcbb68f70401d2921538ca69235"
+          },
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "format": "JPEG",
+          "sha256": "71db73b09314b05710569f0153a2f11d522d893cc93e5b4e4390935203829007",
+          "selection_confirmee": true
+        },
+        {
+          "fichier": "plafonnier-led-led-183789-blanc-5-lumieres-g1.jpg",
+          "slot": "g1-variante",
+          "lot": "A2",
+          "sku_option": "200000795:691#White 5 lights",
+          "sku_options_servis": [
+            "200000795:691#White 5 lights"
+          ],
+          "sku_complets_servis": [
+            "200000795:691#White 5 lights"
+          ],
+          "identifiant_option": "200000795:691",
+          "source": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-691.jpg",
+          "sources": [
+            {
+              "chemin": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-691.jpg",
+              "sha256": "2f4fceab664a03b599fd0fbc40833b1c79828df398c46d2abf39ff7c740df6e6",
+              "dimensions_source": [
+                800,
+                800
+              ]
+            }
+          ],
+          "preuve_dom": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/preuves-dom.json",
+          "observe_le": "2026-09-04T18:55:57+0200",
+          "provenance": "REFERENCE_OPTION_CONFIRMEE_DOM",
+          "controle": "un seul luminaire dans le cadre",
+          "nombre_luminaires_observe": 1,
+          "nombre_lumieres_attendu": 5,
+          "nombre_lumieres_observe": 5,
+          "qa_visuelle": "PASS — revue agent du rendu et de la référence",
+          "generation": {
+            "outil": "image_gen integre",
+            "dimensions_natives": [
+              1254,
+              1254
+            ],
+            "mise_au_format": "sips JPEG qualite 95, agrandissement proportionnel 2048²",
+            "sha256_png": "f3fd2281e9fbe699dd8b954caf9c7b2f10d91c2c1190b6b6d243de4c5ba95ad3"
+          },
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "format": "JPEG",
+          "sha256": "5125135a06d7b240221ecc0c46e0fd48f3011b55861152af89bbcb2841126430",
+          "selection_confirmee": true
+        },
+        {
+          "fichier": "plafonnier-led-led-183789-g1.jpg",
+          "slot": "g1-hero-allume",
+          "lot": "T-06-refonte-183789",
+          "sku_option": "200000795:173#grey 5 lights",
+          "sku_options_servis": [
+            "200000795:173#grey 5 lights"
+          ],
+          "sku_complets_servis": [
+            "200000795:173#grey 5 lights"
+          ],
+          "identifiant_option": "200000795:173",
+          "source": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-173.jpg",
+          "sources": [
+            {
+              "chemin": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-173.jpg",
+              "sha256": "ba04ac90945fd448b7661558f533e45e8380020722b0296eff2fb0d7d76df47d",
+              "dimensions_source": [
+                800,
+                800
+              ]
+            }
+          ],
+          "preuve_dom": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/preuves-dom.json",
+          "observe_le": "2026-09-04T18:55:57+0200",
+          "provenance": "REFERENCE_OPTION_CONFIRMEE_DOM",
+          "selection_confirmee": true,
+          "controle": "un seul luminaire dans le cadre",
+          "nombre_luminaires_observe": 1,
+          "notation_comptage": "4 peripheriques + 1 central",
+          "nombre_lumieres_peripheriques_attendu": 4,
+          "nombre_lumieres_peripheriques_observe": 4,
+          "nombre_lumieres_centrales_attendu": 1,
+          "nombre_lumieres_centrales_observe": 1,
+          "nombre_lumieres_attendu": 5,
+          "nombre_lumieres_observe": 5,
+          "nombre_palets_bois_attendu": 4,
+          "nombre_palets_bois_observe": 4,
+          "qa_visuelle": "PASS — 4 peripheriques + 1 central; 4 palets bois; luminaire entier",
+          "specifications_fournisseur": {
+            "notation_fournisseur": "Gray-4+1",
+            "comptage": "4 peripheriques + 1 central",
+            "dimensions": "D 79 x H 14 cm",
+            "puissance": "40 W",
+            "flux": "3600 lm",
+            "surface": "10-15 m2",
+            "palets_bois_non_lumineux": 4
+          },
+          "generation": {
+            "outil": "image_gen integre",
+            "dimensions_natives": [
+              1275,
+              1234
+            ],
+            "mise_au_format": "sips JPEG qualite 95, redimensionnement 2048 x 2048",
+            "sha256_png": "32bdd8b3cbb035bf50bd2c5774c01a0c63a86ba6b54948784a2020ea7cd83d0a",
+            "prompt_id": "g1"
+          },
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "format": "JPEG",
+          "sha256": "708458613a804c608c88c33c16a114b85c225ca11212f48ab9b2944d14c4ead8"
+        },
+        {
+          "fichier": "plafonnier-led-led-183789-g2.jpg",
+          "slot": "g2-silhouette-angle-matiere",
+          "lot": "T-06-refonte-183789",
+          "sku_option": "200000795:173#grey 5 lights",
+          "sku_options_servis": [
+            "200000795:173#grey 5 lights"
+          ],
+          "sku_complets_servis": [
+            "200000795:173#grey 5 lights"
+          ],
+          "identifiant_option": "200000795:173",
+          "source": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-173.jpg",
+          "sources": [
+            {
+              "chemin": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-173.jpg",
+              "sha256": "ba04ac90945fd448b7661558f533e45e8380020722b0296eff2fb0d7d76df47d",
+              "dimensions_source": [
+                800,
+                800
+              ]
+            }
+          ],
+          "preuve_dom": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/preuves-dom.json",
+          "observe_le": "2026-09-04T18:55:57+0200",
+          "provenance": "REFERENCE_OPTION_CONFIRMEE_DOM",
+          "selection_confirmee": true,
+          "controle": "un seul luminaire dans le cadre",
+          "nombre_luminaires_observe": 1,
+          "notation_comptage": "4 peripheriques + 1 central",
+          "nombre_lumieres_peripheriques_attendu": 4,
+          "nombre_lumieres_peripheriques_observe": 4,
+          "nombre_lumieres_centrales_attendu": 1,
+          "nombre_lumieres_centrales_observe": 1,
+          "nombre_lumieres_attendu": 5,
+          "nombre_lumieres_observe": 5,
+          "nombre_palets_bois_attendu": 4,
+          "nombre_palets_bois_observe": 4,
+          "qa_visuelle": "PASS — 4 peripheriques + 1 central; 4 palets bois; vue trois-quarts",
+          "specifications_fournisseur": {
+            "notation_fournisseur": "Gray-4+1",
+            "comptage": "4 peripheriques + 1 central",
+            "dimensions": "D 79 x H 14 cm",
+            "puissance": "40 W",
+            "flux": "3600 lm",
+            "surface": "10-15 m2",
+            "palets_bois_non_lumineux": 4
+          },
+          "generation": {
+            "outil": "image_gen integre",
+            "dimensions_natives": [
+              1254,
+              1254
+            ],
+            "mise_au_format": "sips JPEG qualite 95, redimensionnement 2048 x 2048",
+            "sha256_png": "fc1b7c7522a8b9506dd30d55925b0fa6de28fd9d28115d35b5708ff2d303eb3e",
+            "prompt_id": "g2"
+          },
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "format": "JPEG",
+          "sha256": "eeb7307a11f1b8405c58b02a9acb3437fa92a4fe45b914d67656d7c312f85785"
+        },
+        {
+          "fichier": "plafonnier-led-led-183789-g3.jpg",
+          "slot": "g3-macro-matiere",
+          "lot": "T-06-refonte-183789",
+          "sku_option": "200000795:173#grey 5 lights",
+          "sku_options_servis": [
+            "200000795:173#grey 5 lights"
+          ],
+          "sku_complets_servis": [
+            "200000795:173#grey 5 lights"
+          ],
+          "identifiant_option": "200000795:173",
+          "source": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-173.jpg",
+          "sources": [
+            {
+              "chemin": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-173.jpg",
+              "sha256": "ba04ac90945fd448b7661558f533e45e8380020722b0296eff2fb0d7d76df47d",
+              "dimensions_source": [
+                800,
+                800
+              ]
+            }
+          ],
+          "preuve_dom": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/preuves-dom.json",
+          "observe_le": "2026-09-04T18:55:57+0200",
+          "provenance": "REFERENCE_OPTION_CONFIRMEE_DOM",
+          "selection_confirmee": true,
+          "controle": "un seul luminaire dans le cadre",
+          "nombre_luminaires_observe": 1,
+          "notation_comptage": "4 peripheriques + 1 central",
+          "nombre_lumieres_peripheriques_attendu": 4,
+          "nombre_lumieres_peripheriques_observe": 4,
+          "nombre_lumieres_centrales_attendu": 1,
+          "nombre_lumieres_centrales_observe": 1,
+          "nombre_lumieres_attendu": 5,
+          "nombre_lumieres_observe": 5,
+          "nombre_palets_bois_attendu": 4,
+          "nombre_palets_bois_observe": 4,
+          "qa_visuelle": "PASS — 4 peripheriques + 1 central; 4 palets bois; matieres lisibles",
+          "specifications_fournisseur": {
+            "notation_fournisseur": "Gray-4+1",
+            "comptage": "4 peripheriques + 1 central",
+            "dimensions": "D 79 x H 14 cm",
+            "puissance": "40 W",
+            "flux": "3600 lm",
+            "surface": "10-15 m2",
+            "palets_bois_non_lumineux": 4
+          },
+          "generation": {
+            "outil": "image_gen integre",
+            "dimensions_natives": [
+              1254,
+              1254
+            ],
+            "mise_au_format": "sips JPEG qualite 95, redimensionnement 2048 x 2048",
+            "sha256_png": "89150b9e9d9bba79576ef327a0926cdc3f9667b435d8a490c764f1a6d575ff66",
+            "prompt_id": "g3"
+          },
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "format": "JPEG",
+          "sha256": "b6bcb4c44ecda4a59e5ba36d1f1bfee608768b3ea0ced44f5b9b95b696c759a2"
+        },
+        {
+          "fichier": "plafonnier-led-led-183789-g4.jpg",
+          "slot": "g4-lifestyle",
+          "lot": "T-06-refonte-183789",
+          "sku_option": "200000795:173#grey 5 lights",
+          "sku_options_servis": [
+            "200000795:173#grey 5 lights"
+          ],
+          "sku_complets_servis": [
+            "200000795:173#grey 5 lights"
+          ],
+          "identifiant_option": "200000795:173",
+          "source": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-173.jpg",
+          "sources": [
+            {
+              "chemin": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-173.jpg",
+              "sha256": "ba04ac90945fd448b7661558f533e45e8380020722b0296eff2fb0d7d76df47d",
+              "dimensions_source": [
+                800,
+                800
+              ]
+            }
+          ],
+          "preuve_dom": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/preuves-dom.json",
+          "observe_le": "2026-09-04T18:55:57+0200",
+          "provenance": "REFERENCE_OPTION_CONFIRMEE_DOM",
+          "selection_confirmee": true,
+          "controle": "un seul luminaire dans le cadre",
+          "nombre_luminaires_observe": 1,
+          "notation_comptage": "4 peripheriques + 1 central",
+          "nombre_lumieres_peripheriques_attendu": 4,
+          "nombre_lumieres_peripheriques_observe": 4,
+          "nombre_lumieres_centrales_attendu": 1,
+          "nombre_lumieres_centrales_observe": 1,
+          "nombre_lumieres_attendu": 5,
+          "nombre_lumieres_observe": 5,
+          "nombre_palets_bois_attendu": 4,
+          "nombre_palets_bois_observe": 4,
+          "qa_visuelle": "PASS — 4 peripheriques + 1 central; studio papier sans decor de piece",
+          "specifications_fournisseur": {
+            "notation_fournisseur": "Gray-4+1",
+            "comptage": "4 peripheriques + 1 central",
+            "dimensions": "D 79 x H 14 cm",
+            "puissance": "40 W",
+            "flux": "3600 lm",
+            "surface": "10-15 m2",
+            "palets_bois_non_lumineux": 4
+          },
+          "generation": {
+            "outil": "image_gen integre",
+            "dimensions_natives": [
+              1254,
+              1254
+            ],
+            "mise_au_format": "sips JPEG qualite 95, redimensionnement 2048 x 2048",
+            "sha256_png": "263b58d5ced11e81dfb08a59a3ef5868698c6e54e4d8678b38a999fe60fdbf68",
+            "prompt_id": "g4"
+          },
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "format": "JPEG",
+          "sha256": "46e8a16192c822116ffd456cc56514135fa94215473c47e8b9071c0a607ba963"
+        },
+        {
+          "fichier": "plafonnier-led-led-183789-g5.jpg",
+          "slot": "g5-qualite-lumiere",
+          "lot": "T-06-refonte-183789",
+          "sku_option": "200000795:173#grey 5 lights",
+          "sku_options_servis": [
+            "200000795:173#grey 5 lights"
+          ],
+          "sku_complets_servis": [
+            "200000795:173#grey 5 lights"
+          ],
+          "identifiant_option": "200000795:173",
+          "source": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-173.jpg",
+          "sources": [
+            {
+              "chemin": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-173.jpg",
+              "sha256": "ba04ac90945fd448b7661558f533e45e8380020722b0296eff2fb0d7d76df47d",
+              "dimensions_source": [
+                800,
+                800
+              ]
+            }
+          ],
+          "preuve_dom": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/preuves-dom.json",
+          "observe_le": "2026-09-04T18:55:57+0200",
+          "provenance": "REFERENCE_OPTION_CONFIRMEE_DOM",
+          "selection_confirmee": true,
+          "controle": "un seul luminaire dans le cadre",
+          "nombre_luminaires_observe": 1,
+          "notation_comptage": "4 peripheriques + 1 central",
+          "nombre_lumieres_peripheriques_attendu": 4,
+          "nombre_lumieres_peripheriques_observe": 4,
+          "nombre_lumieres_centrales_attendu": 1,
+          "nombre_lumieres_centrales_observe": 1,
+          "nombre_lumieres_attendu": 5,
+          "nombre_lumieres_observe": 5,
+          "nombre_palets_bois_attendu": 4,
+          "nombre_palets_bois_observe": 4,
+          "qa_visuelle": "PASS — 4 peripheriques + 1 central; halo chaud; details conserves",
+          "specifications_fournisseur": {
+            "notation_fournisseur": "Gray-4+1",
+            "comptage": "4 peripheriques + 1 central",
+            "dimensions": "D 79 x H 14 cm",
+            "puissance": "40 W",
+            "flux": "3600 lm",
+            "surface": "10-15 m2",
+            "palets_bois_non_lumineux": 4
+          },
+          "generation": {
+            "outil": "image_gen integre",
+            "dimensions_natives": [
+              1303,
+              1207
+            ],
+            "mise_au_format": "sips JPEG qualite 95, redimensionnement 2048 x 2048",
+            "sha256_png": "bd1f0386d680018748c88a18eebac2c826711afcd40534cebe20c4e5d75d9149",
+            "prompt_id": "g5"
+          },
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "format": "JPEG",
+          "sha256": "c09ad3c7aa3c5d93f79c868231e5e5a8dbcc1ce30431ce36f0550d0051a776ae"
+        },
+        {
+          "fichier": "plafonnier-led-led-183789-gris-6-lumieres-g1.jpg",
+          "slot": "g1-variante",
+          "lot": "T-06-refonte-183789",
+          "sku_option": "200000795:366#grey 6 lights",
+          "sku_options_servis": [
+            "200000795:366#grey 6 lights"
+          ],
+          "sku_complets_servis": [
+            "200000795:366#grey 6 lights"
+          ],
+          "identifiant_option": "200000795:366",
+          "source": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-366.jpg",
+          "sources": [
+            {
+              "chemin": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-366.jpg",
+              "sha256": "a1e0493bf9288a09a4d83bb653d3978e6b73f7b5481e8a3c71b75da8099fecea",
+              "dimensions_source": [
+                800,
+                800
+              ]
+            }
+          ],
+          "preuve_dom": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/preuves-dom.json",
+          "observe_le": "2026-09-04T18:55:57+0200",
+          "provenance": "REFERENCE_OPTION_CONFIRMEE_DOM",
+          "selection_confirmee": true,
+          "controle": "un seul luminaire dans le cadre",
+          "nombre_luminaires_observe": 1,
+          "notation_comptage": "5 peripheriques + 1 central",
+          "nombre_lumieres_peripheriques_attendu": 5,
+          "nombre_lumieres_peripheriques_observe": 5,
+          "nombre_lumieres_centrales_attendu": 1,
+          "nombre_lumieres_centrales_observe": 1,
+          "nombre_lumieres_attendu": 6,
+          "nombre_lumieres_observe": 6,
+          "nombre_palets_bois_attendu": 5,
+          "nombre_palets_bois_observe": 5,
+          "qa_visuelle": "PASS — 5 peripheriques + 1 central; 5 palets bois; reference grise 366",
+          "specifications_fournisseur": {
+            "notation_fournisseur": "Gray-5+1",
+            "comptage": "5 peripheriques + 1 central",
+            "dimensions": "D 89 x H 14 cm",
+            "puissance": "48 W",
+            "flux": "4320 lm",
+            "surface": "15-20 m2",
+            "palets_bois_non_lumineux": 5
+          },
+          "generation": {
+            "outil": "image_gen integre",
+            "dimensions_natives": [
+              1254,
+              1254
+            ],
+            "mise_au_format": "sips JPEG qualite 95, redimensionnement 2048 x 2048",
+            "sha256_png": "d670369af27344736c97f1fa1c45ee282a7f83494e97116f1a484b7866008922",
+            "prompt_id": "gris_6"
+          },
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "format": "JPEG",
+          "sha256": "5b9718dffc44b5762dc5c56bcb2e7b53bb0a1819445b3764f3d4b29acfeb75b1"
+        },
+        {
+          "fichier": "plafonnier-led-led-183789-blanc-6-lumieres-g1.jpg",
+          "slot": "g1-variante",
+          "lot": "T-06-refonte-183789",
+          "sku_option": "200000795:10#White  6 lights",
+          "sku_options_servis": [
+            "200000795:10#White  6 lights"
+          ],
+          "sku_complets_servis": [
+            "200000795:10#White  6 lights"
+          ],
+          "identifiant_option": "200000795:10",
+          "source": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-10.jpg",
+          "sources": [
+            {
+              "chemin": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-10.jpg",
+              "sha256": "8d4d6c2f6fe865e66a875a4017cb472aad133d8a70b3ccf361f5b7d4ccf34284",
+              "dimensions_source": [
+                800,
+                644
+              ]
+            }
+          ],
+          "preuve_dom": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/preuves-dom.json",
+          "observe_le": "2026-09-04T18:55:57+0200",
+          "provenance": "REFERENCE_OPTION_CONFIRMEE_DOM",
+          "selection_confirmee": true,
+          "controle": "un seul luminaire dans le cadre",
+          "nombre_luminaires_observe": 1,
+          "notation_comptage": "5 peripheriques + 1 central",
+          "nombre_lumieres_peripheriques_attendu": 5,
+          "nombre_lumieres_peripheriques_observe": 5,
+          "nombre_lumieres_centrales_attendu": 1,
+          "nombre_lumieres_centrales_observe": 1,
+          "nombre_lumieres_attendu": 6,
+          "nombre_lumieres_observe": 6,
+          "nombre_palets_bois_attendu": 5,
+          "nombre_palets_bois_observe": 5,
+          "qa_visuelle": "PASS — 5 peripheriques + 1 central; 5 palets bois; reference blanche 10",
+          "specifications_fournisseur": {
+            "notation_fournisseur": "6 heads white / 5+1",
+            "comptage": "5 peripheriques + 1 central",
+            "dimensions": "L 80 x H 17 cm",
+            "puissance": "LED 72 W",
+            "palets_bois_non_lumineux": 5
+          },
+          "generation": {
+            "outil": "image_gen integre",
+            "dimensions_natives": [
+              1398,
+              1125
+            ],
+            "mise_au_format": "sips JPEG qualite 95, redimensionnement 2048 x 2048",
+            "sha256_png": "17dab55cb16f1f65a291729c46f92470e960803bb68b96113d05c61e5e170e00",
+            "prompt_id": "blanc_6"
+          },
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "mode": "RGB",
+          "format": "JPEG",
+          "sha256": "1bdee6c99ce1fd52b5570b582ad98dc5bc7b518eb9df8c9b32e5cd01bb0bc884"
+        }
+      ],
+      "ecartes": [
+        {
+          "chemin": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-couleur/plafonnier-led-led-183789/plafonnier-led-led-183789-gris-g1.jpg",
+          "motif": "Sept palets lumineux visibles (six périphériques + centre), aucun SKU vendu à sept. Ne pas utiliser pour cinq ni six."
+        },
+        {
+          "chemin": "catalogues/lumierematiere/livraisons-visuels-codex/variantes-couleur/plafonnier-led-led-183789/plafonnier-led-led-183789-blanc-g1.jpg",
+          "motif": "Sept palets lumineux visibles (six périphériques + centre), aucun SKU vendu à sept. Ne pas utiliser pour cinq ni six."
+        }
+      ],
+      "lot": "lot4-couverture-T06",
+      "controle_obligatoire": "un seul luminaire dans le cadre",
+      "aucune_action_shopify_dsers": true,
+      "sku_intouchables": true,
+      "reste_a_produire": [],
+      "reserve": "Le plafond autorise du lot passe de 40 a 47. Les 7 visuels faux restent ecartes; 5 vues Gray-4+1 et 2 variantes 5+1 sont livrees localement.",
+      "statut": "LIVRE_LOCAL_COMPLET_9_IMAGES",
+      "constat_comptage": "Revue visuelle manuelle, peripheriques d'abord puis central; aucun comptage automatique revendique.",
+      "trouvaille_annexe": {
+        "a_reporter_hors_perimetre_visuel": true,
+        "description_modifiee": false,
+        "gris_4_plus_1": "40 W / 3600 lm / 10-15 m2",
+        "gris_5_plus_1": "48 W / 4320 lm / 15-20 m2",
+        "blanc_5_plus_1": "LED 72 W; L 80 x H 17 cm; ne pas harmoniser avec le gris"
       }
     }
   ]

@@ -8,7 +8,7 @@
 **Pourquoi** : montrer les couleurs, formes et dimensions réelles des variantes.
 **Comment** : contrôler les sources locales des lots P1/P2/P6 ; établir les correspondances avant génération ; produire et vérifier les JPEG et manifestes.
 **Sortie attendue** : livraison dans `livraisons-visuels-codex/variantes-forme/`, provenance et QA, compte rendu dans `journal/`.
-**Attention** : aucune correspondance ni cote inventée ; SKU DSers inchangés. Les arbitrages 272937 et 607504 sont **rendus** (04/09). Lot 3 **importé**, tous les libellés aveugles du catalogue **réécrits** (04/09). Lot 4 **entièrement importé** : A1 13/13 (T-04), **A2 17 + B 10 (T-05)**, C documenté. **183789 : 7 visuels autorisés** (T-06, débloqué) — sa galerie entière montrait un 6+1 non vendu.
+**Attention** : aucune correspondance ni cote inventée ; SKU DSers inchangés. Les arbitrages 272937 et 607504 sont **rendus** (04/09). Lot 3 **importé**, tous les libellés aveugles du catalogue **réécrits** (04/09). Lot 4 **entièrement importé** : A1 13/13 (T-04), **A2 17 + B 10 (T-05)**, C documenté. **183789 : refonte locale 7/7 livrée** (T-06) — import séparé restant.
 **Réf.** : [Brief](briefs/2026-09-04-codex-variantes-formes.md), les trois JSON associés.
 
 **Compte rendu actuel** : [Complément et décisions restantes](journal/2026-09-04-variantes-formes-complement.md), [registre et prompts](journal/2026-09-04-variantes-formes-registre.json), [QA 34/34](journal/2026-09-04-variantes-formes-qa.json). Le premier compte rendu à 15 images reste une archive.
@@ -61,7 +61,7 @@ Ce tableau suit cette intervention uniquement ; il ne prétend pas inventorier l
 
 ### T-05 — Traiter le solde du lot4 : A2, B et C
 
-**État** : FAIT POUR LE QUOTA DEMANDÉ — 04/09 soir, 17 packshots A2 + 10 schémas B livrés localement, 2 réponses C documentées. Total 40 avec les 13 A1 inchangés, 21 manifestes, planche QA et contrôle RGB 2048². **Couverture réelle encore partielle sur 183789 : T-06.**
+**État** : FAIT — 04/09 soir, 17 packshots A2 + 10 schémas B livrés localement, 2 réponses C documentées, puis refonte T-06 livrée 7/7. Total local **47** avec les 13 A1 inchangés, 21 manifestes, planche QA et contrôle RGB 2048². L'import des 7 nouveaux médias de 183789 reste une opération séparée.
 **Pour** : relais import séparé, aucune publication effectuée dans cette passe Codex.
 **Pourquoi** : montrer les nombres de lumières, fournir l'échelle et résoudre les deux questions fournisseur restantes.
 **Comment** : reprendre les sections A2/B/C du brief et leur JSON ; vérifier SKU/références avant chaque rendu. C : clarifier934110 et confirmer092465 avant toute nouvelle image.
@@ -72,12 +72,13 @@ Ce tableau suit cette intervention uniquement ; il ne prétend pas inventorier l
 
 ### T-06 — Refaire entièrement les visuels de 183789 (7 images, pas 2)
 
-**État** : **DÉBLOQUÉ — accord Hakim donné le 04/09**, plafond du lot 4 porté de 40 à **47**. Brief dédié : [`briefs/2026-09-05-codex-183789-refonte.md`](briefs/2026-09-05-codex-183789-refonte.md) + [JSON](briefs/2026-09-05-183789-refonte.json). À transmettre à Codex. **Le constat de Codex était juste mais incomplet** : les 2 packshots de variante montraient sept palets, **et les cinq vues de galerie `g1`–`g5` aussi, hero compris** — donc l'image du flux Google Shopping. Vérifié à pleine résolution le 04/09.
+**État** : **FAIT LOCAL — 7/7 livrés le 04/09**, plafond du lot 4 porté de 40 à **47**. Brief dédié : [`briefs/2026-09-05-codex-183789-refonte.md`](briefs/2026-09-05-codex-183789-refonte.md) + [JSON](briefs/2026-09-05-183789-refonte.json). Les 5 vues `g1`–`g5` sont désormais fidèles au gris **4+1** ; les deux packshots manquants gris/blanc sont fidèles au **5+1**. Les 7 nouveaux médias ne sont pas importés par Codex.
 **Fait en attendant** : les 7 médias faux ont été **supprimés** et les 2 nouveaux packshots à cinq palets importés. La fiche est réduite à **2 images vraies** ; les deux variantes à six lumières n'ont plus d'image attachée et retombent sur le hero à cinq.
-**Pour** : Hakim (accord), puis Codex (production locale).
+**Pour** : Hakim pour l'import séparé ; production locale Codex close.
 **Pourquoi** : le brief comptait les images existantes comme utilisables ; aucune ne l'était. Une fiche live à deux images est un pis-aller, pas un état d'arrivée.
-**Comment** : après accord, produire **`g1`–`g5` régénérées à cinq palets** (la silhouette vendue) **plus** gris6 `200000795:366#grey 6 lights` et blanc6 `200000795:10#White  6 lights`, depuis leurs références déjà collectées dans `sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/`. Compter cinq palets périphériques +un central. Conserver la finition/structure propre à chaque source.
-**Sortie attendue** : **7 images** — 5 vues produit + 2 packshots à six palets — manifeste, registre et QA actualisés (47 au total). Les deux packshots à cinq sont déjà livrés et importés.
+**Comment** : `g1`–`g5` régénérées sur la référence exacte `173`, quatre palets périphériques + un central ; gris6 `366` et blanc6 `10` régénérés chacun depuis sa référence exacte, cinq périphériques + un central. Comptages revus manuellement, structure propre à chaque source conservée.
+**Sortie** : **7 images** — 5 vues produit + 2 packshots à six palets — manifeste, registre et QA actualisés (**47 images uniques au total**). Les deux packshots à cinq déjà livrés restent dans le manifeste, soit 9 médias locaux pour cette fiche.
 **Attention** : les anciens visuels à sept sont **déjà supprimés**, il n'y a plus rien à écarter. Ne jamais déduire un comptage d'un autre : le fournisseur compte en **`4+1` / `5+1`** (périphériques + central), un `4+1` a cinq points lumineux et un `5+1` en a six. Aucune mutation Shopify/DSers dans le mandat visuel.
 **Trouvaille annexe** : les plaques donnent 40 W / 3600 lm / 10-15 m² pour le 4+1 et 48 W / 4320 lm / 15-20 m² pour le gris 5+1 — la fiche n'annonce rien de tout ça. À verser dans la description, hors mandat visuel.
-**Réf.** : [Compte rendu du contrôle](journal/2026-09-05-lot4-suite-couverture.md), planche locale `qa-sources/plafonnier-led-led-183789.jpg`.
+**Livraison** : `livraisons-visuels-codex/couverture-2026-09-05/plafonnier-led-led-183789/` ; manifeste + planche `qa-183789.jpg`. Registre et planche globale portés à 47.
+**Réf.** : [Compte rendu](journal/2026-09-05-lot4-suite-couverture.md), [production](journal/2026-09-05-183789-refonte-production.json), [résultats](journal/2026-09-05-183789-refonte-resultats.json).

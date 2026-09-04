@@ -1,16 +1,15 @@
 {
-  "images_total": 40,
-  "hashes_uniques": 40,
+  "images_total": 47,
+  "hashes_uniques": 47,
   "manifestes": 21,
   "A1_preserve": 13,
   "A1_sha256_inchanges": true,
   "A2_nouveaux": 17,
   "B_nouveaux": 10,
   "C_reponses": 2,
-  "reserve_183789": [
-    "200000795:366#grey 6 lights",
-    "200000795:10#White  6 lights"
-  ],
-  "qa": "PASS — revue agent du rendu et de la référence",
-  "limite": "Local uniquement. Aucune publication, aucun contrôle boutique public dans cette passe."
+  "reserve_183789": [],
+  "qa": "PASS — revue agent du rendu et de la reference, comptage manuel peripheriques + central",
+  "limite": "Local uniquement. Aucune publication, aucun controle boutique public dans cette passe.",
+  "T06_refonte_nouveaux": 7,
+  "T06_images_dans_manifeste": 9
 }

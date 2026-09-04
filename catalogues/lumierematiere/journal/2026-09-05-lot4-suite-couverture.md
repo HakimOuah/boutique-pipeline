@@ -2,9 +2,9 @@
 
 ## Livré localement le 04/09/2026
 
-**27 nouveaux visuels : 17 packshots A2 + 10 schémas B.** Avec les 13 A1 conservés à l’identique, le dossier contient **40 JPEG RGB 2048 × 2048**, 21 manifestes et la planche `qa-couverture.jpg`. Les deux questions C sont traitées sans produire d’image.
+**34 nouveaux visuels : 17 packshots A2 + 10 schémas B + 7 médias de refonte T-06.** Avec les 13 A1 conservés à l’identique, le dossier contient **47 JPEG RGB 2048 × 2048**, 21 manifestes et la planche `qa-couverture.jpg`. Les deux questions C sont traitées sans produire d’image.
 
-**La couverture réelle n’est pas totalement fermée : `183789` nécessite deux images supplémentaires.** Les deux anciens packshots montrent sept palets, et non six. L’autorisation de dépasser le plafond de 40 a été demandée à Hakim ; en l’absence de réponse, aucune production supplémentaire engagée.
+**La refonte locale de `183789` est close 7/7 après autorisation de dépasser le plafond initial.** Les cinq vues de galerie partent de la référence DOM `173` Gray-4+1 ; les packshots gris6 et blanc6 partent respectivement de `366` et `10`, sans déduction d’un comptage à l’autre. L’import en boutique reste hors de cette passe.
 
 Livraison : `../livraisons-visuels-codex/couverture-2026-09-05/`. Ne publier que les fichiers déclarés dans les manifestes, jamais les planches QA ni les références fournisseur. **Aucun import, aucune mutation Shopify/DSers, aucun changement de SKU.** L’import A1 consigné ailleurs reste une opération distincte.
 
@@ -15,7 +15,7 @@ Livraison : `../livraisons-visuels-codex/couverture-2026-09-05/`. Ne publier que
 | 717226 | 4 anneaux | 6 anneaux conservé |
 | 625575 | 4 anneaux | 6 anneaux conservé |
 | 134962 | blanc 6 anneaux, option `-2` | blanc 5 `-5`, noir 5 `-1`, doré 5 `-3` conservés |
-| 183789 | gris 5 `173`, blanc 5 `691` | Anciens gris/blanc = **7 palets**, à écarter. Six gris `366` et six blanc `10` restent à produire |
+| 183789 | gris 5 `173`, blanc 5 `691`, gris 6 `366`, blanc 6 `10`, plus `g1`–`g5` Gray-4+1 | Anciens gris/blanc = **7 palets**, écartés ; refonte locale complète, import des 7 nouveaux séparé |
 | 950316 | 4 et 8 bras | 6 conservé |
 | 361680 | noir/doré × 4/8 bras | noir/doré 6 conservés |
 | 992600 | noir/blanc/doré × 4/8 boules | trois finitions à 6 conservées |
@@ -54,18 +54,20 @@ Un second axe existe, mais il n’a qu’une valeur : `5:361385#3000K warm light
 
 ## Contrôles et limites
 
-- 40 JPEG uniques, tous RGB 2048² ; 27 ajouts, 13 A1 dont les SHA-256 sont inchangés.
+- 47 JPEG uniques, tous RGB 2048² ; 34 ajouts, 13 A1 dont les SHA-256 sont inchangés.
 - Mention « un seul luminaire dans le cadre » et SKU servis dans chaque entrée ; 21 manifestes dont deux sans images pour C.
-- Revue agent de toutes les références utilisées, de chaque rendu, de chaque schéma puis des planches. Le nombre de luminaires/lumières n’est **pas** prétendu détecté automatiquement.
+- Revue agent de toutes les références utilisées, de chaque rendu, de chaque schéma puis des planches. Pour T-06, comptage manuel en notation fournisseur : 4+1 sur les cinq vues et 5+1 sur les deux variantes. Le nombre de luminaires/lumières n’est **pas** prétendu détecté automatiquement.
 - Générateur intégré `image_gen` pour les packshots : natif 1254², agrandissement proportionnel sips vers 2048², JPEG qualité 95. Les schémas sont natifs 2048².
 - Une livraison locale ne prouve ni import, ni affichage de variante en boutique, ni validation GMC. Ces étapes ne sont pas effectuées ici.
 
 ## Fichiers de relais
 
 - `2026-09-05-lot4-a2-production.json` : requêtes/prompts initiaux ; `2026-09-05-lot4-a2-resultats.json` : sorties finales et correction de cadrage.
+- `2026-09-05-183789-refonte-production.json` et `2026-09-05-183789-refonte-resultats.json` : prompts, références exactes et revue des sept rendus T-06.
 - `2026-09-05-lot4-suite-preuves-dom.json` : export public limité aux produits, sans navigation personnelle du compte.
 - `2026-09-05-lot4-suite-registre.json` : copie versionnable des 21 manifestes ; `2026-09-05-lot4-suite-qa.json` : bilan.
 - `../scripts/lot4-schema-jobs.json` et `generer-schemas-lot4.cjs` : données et construction des schémas.
 - `../scripts/finaliser-lot4-suite.py --reviewed` : finalisation locale ; ne passer le flag qu’après revue visuelle.
+- `../scripts/finaliser-183789-refonte.py` : finalisation T-06, manifeste à neuf médias et QA globale à 47.
 
 Les médias et manifestes dans le dossier de livraison sont exclus de Git conformément au dépôt. Leur registre, les preuves textuelles, les prompts et les scripts sont versionnés ; aucun `git add -f`.

@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "handle": "plafonnier-led-led-183789",
+  "brief": "catalogues/lumierematiere/briefs/2026-09-05-codex-183789-refonte.md",
+  "mode_generation": "image_gen integre, edition guidee par reference locale exacte",
+  "invariants": [
+    "fond papier uni #F6F3EC",
+    "lumiere chaude",
+    "un seul luminaire dans le cadre",
+    "aucun texte, cote, logo, badge, main, visage ni decor de piece",
+    "geometrie et comptage conserves depuis la reference SKU exacte"
+  ],
+  "jobs": [
+    {
+      "id": "g1",
+      "fichier": "plafonnier-led-led-183789-g1.jpg",
+      "slot": "g1-hero-allume",
+      "sku_option": "200000795:173#grey 5 lights",
+      "source": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-173.jpg",
+      "attendu": "Gray-4+1 : quatre palets gris lumineux peripheriques et un palet gris lumineux central, cinq points lumineux au total, avec quatre palets decoratifs en bois clair non lumineux",
+      "prompt": "Edition produit fidele de la reference jointe. Creer un hero packshot allume du plafonnier exact Gray-4+1 : exactement quatre palets gris lumineux peripheriques plus exactement un palet gris lumineux central, soit cinq points lumineux au total; conserver exactement quatre palets decoratifs en bois clair non lumineux intercalés, les bras noirs, la rosace noire et le montage direct au plafond. Montrer le luminaire entier, centre, legerement vu par dessous, chaque palet lumineux restant distinct et comptable. Fond papier uni #F6F3EC, lumiere chaude, rendu catalogue premium realiste, JPEG carre. Un seul luminaire dans le cadre. Aucun texte, cote, logo, badge, main, visage, mobilier, mur ou decor de piece. Ne pas ajouter, retirer, fusionner ni masquer de disque."
+    },
+    {
+      "id": "g2",
+      "fichier": "plafonnier-led-led-183789-g2.jpg",
+      "slot": "g2-silhouette-angle-matiere",
+      "sku_option": "200000795:173#grey 5 lights",
+      "source": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-173.jpg",
+      "attendu": "Gray-4+1 : quatre palets gris lumineux peripheriques et un central, plus quatre palets bois non lumineux",
+      "prompt": "Edition produit fidele de la reference jointe. Produire une vue packshot trois-quarts basse qui revele la silhouette, l'epaisseur et les matieres du plafonnier exact Gray-4+1. Conserver exactement quatre palets gris lumineux peripheriques et exactement un palet gris lumineux central, soit cinq points lumineux au total, avec exactement quatre palets decoratifs en bois clair non lumineux, bras noirs et rosace noire, montage direct au plafond. Le luminaire entier doit rester visible et les cinq points lumineux doivent etre distincts et comptables. Fond papier uni #F6F3EC, lumiere chaude, rendu photographie produit premium. Un seul luminaire dans le cadre. Aucun texte, cote, logo, badge, main, visage, mobilier ni decor de piece. Ne pas inventer une autre geometrie et ne masquer aucun disque."
+    },
+    {
+      "id": "g3",
+      "fichier": "plafonnier-led-led-183789-g3.jpg",
+      "slot": "g3-macro-matiere",
+      "sku_option": "200000795:173#grey 5 lights",
+      "source": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-173.jpg",
+      "attendu": "Gray-4+1 complet, detail matiere lisible sans perdre le comptage",
+      "prompt": "Edition produit fidele de la reference jointe. Creer une vue rapprochee de matiere mais conserver le plafonnier exact Gray-4+1 entier dans le cadre : exactement quatre palets gris lumineux peripheriques plus exactement un palet gris lumineux central, cinq points lumineux visibles et comptables, et exactement quatre palets decoratifs en bois clair non lumineux. Accentuer subtilement la texture mate grise, le veinage du bois clair et le metal noir des bras et de la rosace, sans changer la forme ni le comptage. Fond papier uni #F6F3EC, lumiere chaude, photographie produit premium. Un seul luminaire dans le cadre. Aucun texte, cote, logo, badge, main, visage, mobilier ni decor de piece. Aucun disque coupe, cache, ajoute ou fusionne."
+    },
+    {
+      "id": "g4",
+      "fichier": "plafonnier-led-led-183789-g4.jpg",
+      "slot": "g4-lifestyle",
+      "sku_option": "200000795:173#grey 5 lights",
+      "source": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-173.jpg",
+      "attendu": "Gray-4+1 en mise en scene editoriale studio, sans interieur",
+      "prompt": "Edition produit fidele de la reference jointe. Creer une mise en scene editoriale d'usage exclusivement en studio, sans interieur ni decor de piece : le plafonnier exact Gray-4+1 monte contre un simple plan papier continu #F6F3EC, avec un halo chaud doux. Conserver exactement quatre palets gris lumineux peripheriques plus exactement un palet gris lumineux central, cinq points lumineux au total, et exactement quatre palets decoratifs en bois clair non lumineux, bras noirs, rosace noire. Le luminaire entier et chaque point lumineux restent visibles et comptables. Un seul luminaire dans le cadre. Aucun texte, cote, logo, badge, main, visage, meuble, plante, fenetre, mur architecture ou accessoire. Photographie catalogue premium realiste."
+    },
+    {
+      "id": "g5",
+      "fichier": "plafonnier-led-led-183789-g5.jpg",
+      "slot": "g5-qualite-lumiere",
+      "sku_option": "200000795:173#grey 5 lights",
+      "source": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-173.jpg",
+      "attendu": "Gray-4+1 avec qualite de lumiere chaude, cinq points distincts",
+      "prompt": "Edition produit fidele de la reference jointe. Produire une vue qualite de lumiere du plafonnier exact Gray-4+1, exposition legerement plus douce pour montrer une emission chaude uniforme sans bruler les details. Conserver exactement quatre palets gris lumineux peripheriques plus exactement un palet gris lumineux central, soit cinq points lumineux distincts et comptables, ainsi qu'exactement quatre palets decoratifs en bois clair non lumineux, les bras noirs et la rosace noire. Luminaire entier, montage direct. Fond papier uni #F6F3EC avec seulement un halo lumineux doux. Un seul luminaire dans le cadre. Aucun texte, cote, logo, badge, main, visage, mobilier ni decor de piece. Ne rien ajouter ou retirer."
+    },
+    {
+      "id": "gris_6",
+      "fichier": "plafonnier-led-led-183789-gris-6-lumieres-g1.jpg",
+      "slot": "g1-variante",
+      "sku_option": "200000795:366#grey 6 lights",
+      "source": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-366.jpg",
+      "attendu": "Gray-5+1 : cinq palets gris lumineux peripheriques et un central, six points lumineux, avec cinq palets bois non lumineux",
+      "prompt": "Edition produit fidele de la reference SKU jointe Gray-5+1. Creer un packshot de variante exact : exactement cinq palets gris lumineux peripheriques plus exactement un palet gris lumineux central, soit six points lumineux au total; conserver exactement cinq palets decoratifs en bois clair non lumineux intercalés, les bras noirs, la rosace noire et le montage direct au plafond. Montrer le luminaire entier, centre, chaque point lumineux visible et comptable. Respecter la silhouette D 89 x H 14 de la reference sans afficher de dimensions. Fond papier uni #F6F3EC, lumiere chaude, rendu catalogue premium realiste. Un seul luminaire dans le cadre. Aucun texte, cote, logo, badge, main, visage, mobilier ni decor de piece. Ne pas partir d'un 4+1 et ne pas ajouter un septieme point."
+    },
+    {
+      "id": "blanc_6",
+      "fichier": "plafonnier-led-led-183789-blanc-6-lumieres-g1.jpg",
+      "slot": "g1-variante",
+      "sku_option": "200000795:10#White  6 lights",
+      "source": "catalogues/lumierematiere/sources-par-handle/plafonnier-led-led-183789/variantes-lot4-20260905/200000795-10.jpg",
+      "attendu": "White-5+1 : cinq palets blancs lumineux peripheriques et un central, six points lumineux, avec cinq palets bois non lumineux",
+      "prompt": "Edition produit fidele de la reference SKU jointe 6 heads white. Creer un packshot de variante exact : exactement cinq palets blancs lumineux peripheriques plus exactement un palet blanc lumineux central, soit six points lumineux au total; conserver exactement cinq palets decoratifs en bois clair non lumineux intercalés et la structure telle que montree par cette reference, montage direct au plafond. Montrer le luminaire entier, centre, chaque point lumineux visible et comptable. Respecter la silhouette L 80 x H 17 de la reference sans afficher de dimensions. Fond papier uni #F6F3EC, lumiere chaude, rendu catalogue premium realiste. Un seul luminaire dans le cadre. Aucun texte, cote, logo, badge, main, visage, mobilier ni decor de piece. Ne pas deduire cette variante d'une autre reference et ne pas ajouter un septieme point."
+    }
+  ]
+}
