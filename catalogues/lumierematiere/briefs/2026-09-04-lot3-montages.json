@@ -1,0 +1,166 @@
+{
+  "lot": "lot3-montages",
+  "date": "2026-09-04",
+  "brand": "lumierematiere",
+  "boutique": "lumierematiere.fr",
+  "brief": "catalogues/lumierematiere/briefs/2026-09-04-codex-lot3-montages.md",
+  "probleme": "Trois fiches ont pour image principale un montage catalogue du fournisseur : plusieurs luminaires dans le cadre, dont des configurations non vendues. Collage proscrit par GMC + misrepresentation. L image principale est celle du flux Google Shopping.",
+  "regle_nouvelle": "UNE IMAGE = UN SEUL LUMINAIRE. Si la source montre plusieurs configurations, isoler celle du SKU vendu et ignorer les autres.",
+  "da": {
+    "fond": "#F6F3EC",
+    "lumiere": "chaude",
+    "type": "packshot objet",
+    "format": "JPEG RGB 2048x2048, sans compression visible",
+    "interdits": ["texte", "cote", "logo", "badge", "filigrane", "main", "visage", "decor de piece", "plus d un luminaire dans le cadre"]
+  },
+  "slots": {
+    "vues_produit": ["g1-hero-allume", "g2-silhouette-angle-matiere", "g3-macro-matiere", "g4-lifestyle", "g5-qualite-lumiere"],
+    "packshot_variante": "g1-variante"
+  },
+  "sortie": {
+    "dossier": "catalogues/lumierematiere/livraisons-visuels-codex/montages-2026-09-04/{handle}/",
+    "nom_vue": "{handle}-g{n}.jpg",
+    "nom_variante": "{handle}-{slug}-g1.jpg",
+    "manifeste": "un par handle, avec pour chaque image le SKU ou l identifiant d option servi, et la mention 'un seul luminaire dans le cadre'",
+    "planche_qa": "qa-montages.jpg"
+  },
+  "sources": {
+    "regle": "Utiliser sources-par-handle/{handle}/variantes-20260904/ — une image par identifiant d option, avec preuves-dom.json horodate. La correspondance se lit dans le SKU, jamais dans le libelle.",
+    "attention": "Ces references portent des cotes et du texte incrustes : elles ne sont jamais publiables telles quelles."
+  },
+  "fiches": [
+    {
+      "ordre": "A",
+      "handle": "suspension-rotin-272937",
+      "sku": "LM-028",
+      "priorite": 1,
+      "statut": "a_produire",
+      "a_produire": 8,
+      "probleme": "g1 montre cinq configurations (suspension simple, applique murale, trio a rosace ronde, trio sur barre lineaire). Aucune n est vendue dans cette fiche.",
+      "produit_reel": {
+        "type": "plafonnier",
+        "montage": "direct au plafond, sans cable pendant",
+        "diametre_cm": 16,
+        "hauteur_totale_cm": 17,
+        "hauteur_abat_jour_cm": 12,
+        "rosace_cm": 10,
+        "douille": "E27 x1",
+        "matiere": "corde tressee"
+      },
+      "vues_produit": {
+        "a_produire": ["g1", "g2", "g3", "g4", "g5"],
+        "reference_canonique": "catalogues/lumierematiere/sources-par-handle/suspension-rotin-272937/variantes-20260904/200000531-193.jpg",
+        "consigne": "Recomposer les cinq vues sur le modele A, en plafonnier seul. Pas de cable pendant, pas de trio, pas d applique."
+      },
+      "variantes": [
+        {
+          "valeur": "Modèle A",
+          "slug": "monture-noire-corde-claire",
+          "sku": "200000531:193#A1",
+          "fichier_sortie": "suspension-rotin-272937-monture-noire-corde-claire-g1.jpg",
+          "reference": "catalogues/lumierematiere/sources-par-handle/suspension-rotin-272937/variantes-20260904/200000531-193.jpg",
+          "rendu": "plafonnier, monture et rosace noires, corde papier beige clair, tressage fin"
+        },
+        {
+          "valeur": "Modèle B",
+          "slug": "monture-blanche",
+          "sku": "200000531:1052#B1",
+          "fichier_sortie": "suspension-rotin-272937-monture-blanche-g1.jpg",
+          "reference": "catalogues/lumierematiere/sources-par-handle/suspension-rotin-272937/variantes-20260904/200000531-1052.jpg",
+          "rendu": "plafonnier, monture et rosace blanches, corde creme, tressage fin"
+        },
+        {
+          "valeur": "Modèle C",
+          "slug": "jute-brune",
+          "sku": "200000531:100018786#C1",
+          "fichier_sortie": "suspension-rotin-272937-jute-brune-g1.jpg",
+          "reference": "catalogues/lumierematiere/sources-par-handle/suspension-rotin-272937/variantes-20260904/200000531-100018786.jpg",
+          "rendu": "plafonnier, monture et rosace noires, corde de jute brune, tressage plus grossier"
+        }
+      ],
+      "note_renommage": "Les slugs proposes supposent que Hakim valide le renommage des libelles. Si les libelles restent Modele A/B/C, utiliser les slugs modele-a, modele-b, modele-c."
+    },
+    {
+      "ordre": "B",
+      "handle": "suspension-deco-blanc-560098",
+      "sku": "LM-105",
+      "statut": "a_produire",
+      "a_produire": 5,
+      "probleme": "Les cinq vues montrent une suspension DOUBLE (deux abat-jour sur une rosace commune). Les deux SKU vendus sont des suspensions SIMPLES.",
+      "produit_reel": {
+        "type": "suspension simple",
+        "diametre_cm": 19.5,
+        "hauteur_abat_jour_cm": 16,
+        "douille": "E27 x1",
+        "cordon": "torsade 1,5 m reglable",
+        "monture": "laiton, interrupteur a molette"
+      },
+      "vues_produit": {
+        "a_produire": ["g1", "g2", "g3", "g4", "g5"],
+        "reference_canonique": "catalogues/lumierematiere/sources-par-handle/suspension-deco-blanc-560098/variantes-20260904/200000531-193.jpg",
+        "consigne": "Recomposer les cinq vues sur la variante A, EN SIMPLE. Un seul abat-jour, un seul cordon."
+      },
+      "packshots_variantes": "deja livres au lot 2 et corrects (a-g1 motif floral bleu, b-g1 rayures bleues et brunes) — ne pas les refaire"
+    },
+    {
+      "ordre": "C",
+      "handle": "suspension-effet-pierre-led-147607",
+      "sku": "LM-051",
+      "statut": "a_produire",
+      "a_produire": 3,
+      "probleme": "g1, g2 et g5 montrent 10 a 12 suspensions travertin dans le meme cadre.",
+      "vues_produit": {
+        "a_produire": ["g1", "g2", "g5"],
+        "a_conserver": ["g3", "g4"],
+        "reference_canonique": "catalogues/lumierematiere/sources-par-handle/suspension-effet-pierre-led-147607/variantes-20260904/200000531-193.jpg",
+        "consigne": "Recomposer les trois vues sur la forme A (galet bas, tete noyer), un seul luminaire. g3 et g4 sont deja mono-produit et restent valables."
+      },
+      "packshots_variantes": "deja livres au lot 2 et corrects (forme-a, forme-b, forme-c) — ne pas les refaire"
+    },
+    {
+      "ordre": "D",
+      "handle": "suspension-effet-pierre-led-338324",
+      "sku": "LM-043",
+      "statut": "a_identifier",
+      "a_produire": "0 a 1",
+      "question": "Le modele A (200000531:193) est-il encore propose par le fournisseur ?",
+      "constat": "Le lot 2 a livre B, C et D. Le dossier variantes-20260904/ ne contient que 173 (B), 175 (D) et 365458 (C). Le refus de deduire A par elimination etait la bonne decision.",
+      "consigne": "Refaire une passe DOM sur la PDP. Si l identifiant reste absent, le declarer definitivement introuvable dans le manifeste et ne rien produire : les trois variantes A garderont la vue generique."
+    },
+    {
+      "ordre": "E",
+      "handle": "suspension-deco-led-837156",
+      "sku": "LM-100",
+      "statut": "a_identifier",
+      "a_produire": 0,
+      "question": "Les valeurs a suffixe « 2 » sont-elles un autre objet, ou le meme ?",
+      "constat": "Seule fiche a variantes non scrapee le 04/09. 'Celadon vert' (…365458) vs 'Celadon vert 2' (…193), 'Celadon bleu poudre' (…175) vs '… 2' (…173). SKU distincts, aucune difference lisible cote boutique.",
+      "consigne": "Scraper les quatre references par identifiant d option et repondre a la question. Aucune image tant que la reponse n est pas connue."
+    },
+    {
+      "ordre": "F",
+      "handle": "suspension-rotin-897170",
+      "sku": "LM-020",
+      "statut": "resolu",
+      "a_produire": 0,
+      "conclusion": "Les references 200000531-193.jpg et 200000531-29.jpg (les deux 'O 50 cm · rotin') sont rigoureusement identiques : meme corolle, meme 50 cm, meme mention '1.2m ~1.4m Adjustable', meme avertissement sur le rotin qui jaunit. Le fournisseur a deux entrees de SKU pour un seul article.",
+      "consigne": "Ne rien generer, ne rien distinguer. Le sort des doublons (fusion, suppression d une variante) est une decision Shopify/DSers de Hakim, pas un sujet visuel."
+    },
+    {
+      "ordre": "G",
+      "handle": "suspension-rotin-607504",
+      "sku": "LM-027",
+      "statut": "bloque_arbitrage",
+      "a_produire": 0,
+      "cotes_prouvees": {
+        "200000795:367": "2550 = O 25 x H 50, naturel",
+        "200000795:193": "4040 = O 40 x H 40, naturel",
+        "200000795:175": "4019 = O 40 x H 19, naturel",
+        "200000795:10": "4040BK = O 40 x H 40, NOIR"
+      },
+      "constat": "Le doublon apparent '40 x 40 cm' est naturel vs noir.",
+      "consigne": "Le schema cote et le packshot noir ne se produisent qu APRES le renommage des libelles par Hakim. Ne rien faire avant."
+    }
+  ],
+  "total_max": 16
+}
