@@ -1,0 +1,351 @@
+{
+  "date": "2026-09-04",
+  "cpc_proxy_calcule": "0.797",
+  "cpc_proxy_dossier_a6": "0.798",
+  "note_cpc": "0,926 USD / 1,1615 = 0,797 arrondi dossier 0,798. DataForSEO, pas CPC campagne.",
+  "cout_kit_ttc": "29.79",
+  "scenarios": [
+    {
+      "id": "prudent",
+      "label": "prudent — SKU sourcé à 69 €",
+      "comparabilite_prix": "Rasoir Lamier 69 € PDP 04/09 ; SKU = rasoir + 5 lames annoncées, pas le kit 99/119",
+      "prix_ttc": "69.00",
+      "ca_ht": "57.50",
+      "tva_collectee": "11.50",
+      "modele_paiement": "paypal_indicatif",
+      "paiement": "2.35",
+      "taux_sav": "0.08",
+      "provision_sav": "5.52",
+      "cout_rendu_ttc": "29.79",
+      "emballage": "2.00",
+      "marge_contributive_avant_ads": "17.84",
+      "cpa_max": "17.84",
+      "cpc_eur": "1.20",
+      "tva_achat": "non_recuperable_hypothese",
+      "be_cvr": "0.067268",
+      "clics_par_vente_be": "14.87",
+      "is_25_si_ads_zero_illustration": "4.46",
+      "apres_is_si_ads_zero_illustration": "13.38",
+      "sensibilite_cvr": {
+        "0.01": {
+          "cpa_scenario": "120.00",
+          "contrib_apres_ads": "-102.16"
+        },
+        "0.015": {
+          "cpa_scenario": "80.00",
+          "contrib_apres_ads": "-62.16"
+        },
+        "0.02": {
+          "cpa_scenario": "60.00",
+          "contrib_apres_ads": "-42.16"
+        },
+        "0.03": {
+          "cpa_scenario": "40.00",
+          "contrib_apres_ads": "-22.16"
+        }
+      }
+    },
+    {
+      "id": "central_sku_69",
+      "label": "central SKU — 69 € Stripe",
+      "comparabilite_prix": "Prix réaliste du SKU sourcé vs rasoir Lamier 69 € ; Bambaw ~21 € et Bouc 34,90 € plus bas",
+      "prix_ttc": "69.00",
+      "ca_ht": "57.50",
+      "tva_collectee": "11.50",
+      "modele_paiement": "stripe_indicatif",
+      "paiement": "1.22",
+      "taux_sav": "0.05",
+      "provision_sav": "3.45",
+      "cout_rendu_ttc": "29.79",
+      "emballage": "0.00",
+      "marge_contributive_avant_ads": "23.04",
+      "cpa_max": "23.04",
+      "cpc_eur": "0.798",
+      "tva_achat": "non_recuperable_hypothese",
+      "be_cvr": "0.034629",
+      "clics_par_vente_be": "28.88",
+      "is_25_si_ads_zero_illustration": "5.76",
+      "apres_is_si_ads_zero_illustration": "17.28",
+      "sensibilite_cvr": {
+        "0.01": {
+          "cpa_scenario": "79.80",
+          "contrib_apres_ads": "-56.76"
+        },
+        "0.015": {
+          "cpa_scenario": "53.20",
+          "contrib_apres_ads": "-30.16"
+        },
+        "0.02": {
+          "cpa_scenario": "39.90",
+          "contrib_apres_ads": "-16.86"
+        },
+        "0.03": {
+          "cpa_scenario": "26.60",
+          "contrib_apres_ads": "-3.56"
+        }
+      }
+    },
+    {
+      "id": "central_99",
+      "label": "central ancré 99 € — non comparable au contenu",
+      "comparabilite_prix": "Ancré Lamier kit 99 € et Bouc 99,72 € ; contenu sourcé ≠ blaireau/support/étui",
+      "prix_ttc": "99.00",
+      "ca_ht": "82.50",
+      "tva_collectee": "16.50",
+      "modele_paiement": "stripe_indicatif",
+      "paiement": "1.64",
+      "taux_sav": "0.05",
+      "provision_sav": "4.95",
+      "cout_rendu_ttc": "29.79",
+      "emballage": "0.00",
+      "marge_contributive_avant_ads": "46.12",
+      "cpa_max": "46.12",
+      "cpc_eur": "0.798",
+      "tva_achat": "non_recuperable_hypothese",
+      "be_cvr": "0.017301",
+      "clics_par_vente_be": "57.80",
+      "is_25_si_ads_zero_illustration": "11.53",
+      "apres_is_si_ads_zero_illustration": "34.59",
+      "sensibilite_cvr": {
+        "0.01": {
+          "cpa_scenario": "79.80",
+          "contrib_apres_ads": "-33.68"
+        },
+        "0.015": {
+          "cpa_scenario": "53.20",
+          "contrib_apres_ads": "-7.08"
+        },
+        "0.02": {
+          "cpa_scenario": "39.90",
+          "contrib_apres_ads": "6.22"
+        },
+        "0.03": {
+          "cpa_scenario": "26.60",
+          "contrib_apres_ads": "19.52"
+        }
+      }
+    },
+    {
+      "id": "central_99_a6",
+      "label": "central 99 € — barème dossier A6 03/09",
+      "comparabilite_prix": "Continuité des hypothèses A6.md (2 % + 0,30 €)",
+      "prix_ttc": "99.00",
+      "ca_ht": "82.50",
+      "tva_collectee": "16.50",
+      "modele_paiement": "a6_dossier",
+      "paiement": "2.28",
+      "taux_sav": "0.05",
+      "provision_sav": "4.95",
+      "cout_rendu_ttc": "29.79",
+      "emballage": "0.00",
+      "marge_contributive_avant_ads": "45.48",
+      "cpa_max": "45.48",
+      "cpc_eur": "0.798",
+      "tva_achat": "non_recuperable_hypothese",
+      "be_cvr": "0.017546",
+      "clics_par_vente_be": "56.99",
+      "is_25_si_ads_zero_illustration": "11.37",
+      "apres_is_si_ads_zero_illustration": "34.11",
+      "sensibilite_cvr": {
+        "0.01": {
+          "cpa_scenario": "79.80",
+          "contrib_apres_ads": "-34.32"
+        },
+        "0.015": {
+          "cpa_scenario": "53.20",
+          "contrib_apres_ads": "-7.72"
+        },
+        "0.02": {
+          "cpa_scenario": "39.90",
+          "contrib_apres_ads": "5.58"
+        },
+        "0.03": {
+          "cpa_scenario": "26.60",
+          "contrib_apres_ads": "18.88"
+        }
+      }
+    },
+    {
+      "id": "favorable_119",
+      "label": "favorable — 119 € Stripe SAV 3 %",
+      "comparabilite_prix": "Ancré Lamier kit menu 119 € ; contenu sourcé non équivalent",
+      "prix_ttc": "119.00",
+      "ca_ht": "99.17",
+      "tva_collectee": "19.83",
+      "modele_paiement": "stripe_indicatif",
+      "paiement": "1.92",
+      "taux_sav": "0.03",
+      "provision_sav": "3.57",
+      "cout_rendu_ttc": "29.79",
+      "emballage": "0.00",
+      "marge_contributive_avant_ads": "63.89",
+      "cpa_max": "63.89",
+      "cpc_eur": "0.798",
+      "tva_achat": "non_recuperable_hypothese",
+      "be_cvr": "0.012490",
+      "clics_par_vente_be": "80.06",
+      "is_25_si_ads_zero_illustration": "15.97",
+      "apres_is_si_ads_zero_illustration": "47.92",
+      "sensibilite_cvr": {
+        "0.01": {
+          "cpa_scenario": "79.80",
+          "contrib_apres_ads": "-15.91"
+        },
+        "0.015": {
+          "cpa_scenario": "53.20",
+          "contrib_apres_ads": "10.69"
+        },
+        "0.02": {
+          "cpa_scenario": "39.90",
+          "contrib_apres_ads": "23.99"
+        },
+        "0.03": {
+          "cpa_scenario": "26.60",
+          "contrib_apres_ads": "37.29"
+        }
+      }
+    },
+    {
+      "id": "stress_99",
+      "label": "stress — 99 € PayPal SAV 8 % CPC 1,20",
+      "comparabilite_prix": "Même ancrage 99 €, hypothèses défavorables",
+      "prix_ttc": "99.00",
+      "ca_ht": "82.50",
+      "tva_collectee": "16.50",
+      "modele_paiement": "paypal_indicatif",
+      "paiement": "3.22",
+      "taux_sav": "0.08",
+      "provision_sav": "7.92",
+      "cout_rendu_ttc": "29.79",
+      "emballage": "0.00",
+      "marge_contributive_avant_ads": "41.57",
+      "cpa_max": "41.57",
+      "cpc_eur": "1.20",
+      "tva_achat": "non_recuperable_hypothese",
+      "be_cvr": "0.028868",
+      "clics_par_vente_be": "34.64",
+      "is_25_si_ads_zero_illustration": "10.39",
+      "apres_is_si_ads_zero_illustration": "31.18",
+      "sensibilite_cvr": {
+        "0.01": {
+          "cpa_scenario": "120.00",
+          "contrib_apres_ads": "-78.43"
+        },
+        "0.015": {
+          "cpa_scenario": "80.00",
+          "contrib_apres_ads": "-38.43"
+        },
+        "0.02": {
+          "cpa_scenario": "60.00",
+          "contrib_apres_ads": "-18.43"
+        },
+        "0.03": {
+          "cpa_scenario": "40.00",
+          "contrib_apres_ads": "1.57"
+        }
+      }
+    },
+    {
+      "id": "alt_k23_99",
+      "label": "alt K23 27,79 € à 99 € — sans lames",
+      "comparabilite_prix": "K23 = rasoir + support, lames absentes ; pas un kit débutant",
+      "prix_ttc": "99.00",
+      "ca_ht": "82.50",
+      "tva_collectee": "16.50",
+      "modele_paiement": "stripe_indicatif",
+      "paiement": "1.64",
+      "taux_sav": "0.05",
+      "provision_sav": "4.95",
+      "cout_rendu_ttc": "27.79",
+      "emballage": "0.00",
+      "marge_contributive_avant_ads": "48.12",
+      "cpa_max": "48.12",
+      "cpc_eur": "0.798",
+      "tva_achat": "non_recuperable_hypothese",
+      "be_cvr": "0.016582",
+      "clics_par_vente_be": "60.31",
+      "is_25_si_ads_zero_illustration": "12.03",
+      "apres_is_si_ads_zero_illustration": "36.09",
+      "sensibilite_cvr": {
+        "0.01": {
+          "cpa_scenario": "79.80",
+          "contrib_apres_ads": "-31.68"
+        },
+        "0.015": {
+          "cpa_scenario": "53.20",
+          "contrib_apres_ads": "-5.08"
+        },
+        "0.02": {
+          "cpa_scenario": "39.90",
+          "contrib_apres_ads": "8.22"
+        },
+        "0.03": {
+          "cpa_scenario": "26.60",
+          "contrib_apres_ads": "21.52"
+        }
+      }
+    },
+    {
+      "id": "alt_a99_69",
+      "label": "alt A99 32,39 € à 69 € — rasoir seul",
+      "comparabilite_prix": "A99 silvery, promo jusqu'au 07/09/2026 23:59 CET",
+      "prix_ttc": "69.00",
+      "ca_ht": "57.50",
+      "tva_collectee": "11.50",
+      "modele_paiement": "stripe_indicatif",
+      "paiement": "1.22",
+      "taux_sav": "0.05",
+      "provision_sav": "3.45",
+      "cout_rendu_ttc": "32.39",
+      "emballage": "0.00",
+      "marge_contributive_avant_ads": "20.44",
+      "cpa_max": "20.44",
+      "cpc_eur": "0.798",
+      "tva_achat": "non_recuperable_hypothese",
+      "be_cvr": "0.039033",
+      "clics_par_vente_be": "25.62",
+      "is_25_si_ads_zero_illustration": "5.11",
+      "apres_is_si_ads_zero_illustration": "15.33",
+      "sensibilite_cvr": {
+        "0.01": {
+          "cpa_scenario": "79.80",
+          "contrib_apres_ads": "-59.36"
+        },
+        "0.015": {
+          "cpa_scenario": "53.20",
+          "contrib_apres_ads": "-32.76"
+        },
+        "0.02": {
+          "cpa_scenario": "39.90",
+          "contrib_apres_ads": "-19.46"
+        },
+        "0.03": {
+          "cpa_scenario": "26.60",
+          "contrib_apres_ads": "-6.16"
+        }
+      }
+    }
+  ],
+  "sensibilite_tva_recuperable": {
+    "id": "sensi_tva_recuperable_99",
+    "label": "sensibilité — si TVA achat récupérable (non observée)",
+    "cout_ht": "24.83",
+    "marge_contributive_avant_ads": "51.09",
+    "be_cvr_cpc_0.798": "0.015620",
+    "statut": "contre-hypothese_non_retenue"
+  },
+  "continuite_plafond_a6": {
+    "pre_goods_99_a6": "75.27",
+    "plafond_produit_cvr2_cpc0.80": "35.27",
+    "plafond_attendu_dossier_README": "35.27",
+    "contrib_si_cout_29.79": "45.48"
+  },
+  "formules": {
+    "ca_ht": "TTC / 1,20",
+    "paiement": "TTC * taux + fixe",
+    "sav": "TTC * taux",
+    "marge_contributive_avant_ads": "CA_HT - paiement - SAV - cout_rendu_TTC_non_recuperable - emballage",
+    "cpa_max": "égal à la marge contributive avant Ads",
+    "be_cvr": "CPC / cpa_max si cpa_max > 0"
+  }
+}
