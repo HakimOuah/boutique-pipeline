@@ -56,3 +56,59 @@ Prévisualisation : `https://lumierematiere.fr/?preview_theme_id=187012350288`
 - Le bloc statique `button-header` n'est rendu que dans certains layouts de header (`header.liquid` l. 130 et 142) : un bloc activé peut rester invisible sans erreur.
 - Dans l'`image-banner` Fullstack (flex colonne) : `layout_justify_*` = axe **vertical**, `layout_align_items_*` = axe **horizontal**.
 - `themeDuplicate` existe (payload `newTheme`) : plus besoin du CLI pour une copie de travail.
+
+---
+
+# Passe 2 — logo horizontal, allumage au survol, menu « Aide & contact » (04/09, fin de journée)
+
+Go Hakim : « Vas-y pour le logo horizontal et l'allumage au survol. Dans le menu il faut remettre
+Notre histoire, FAQ, Contact et Suivi de commande, ce sont des recommandations GMC. »
+
+## Menu — sur le live
+
+Les quatre liens sont de retour dans le menu principal, **groupés sous une cinquième entrée
+« Aide & contact ▾ »** (Notre histoire · FAQ · Contact · Suivi de commande) plutôt qu'à plat :
+à plat, on retrouvait huit entrées, le débordement sur deux lignes et le logo écrasé.
+Mesuré : 5 entrées sur **une ligne** à 1440 et à 1280 px, logo intact. Les quatre restent
+aussi dans le footer.
+
+## Logo horizontal — fichiers + copie de thème
+
+Aucune source vectorielle : les deux PNG du CDN (2000 × 620, empilés) sont les seuls originaux.
+Le lockup horizontal a été **recomposé à partir des pixels de l'original** — marque (tige +
+anneau), « LUMIÈRE » (didone), « MATIÈRE » (sans bold) — découpés par projection alpha et
+réalignés sur une ligne de base commune, le texte centré sur l'anneau. Aucune police substituée.
+
+- `lumierematiere-logo-horizontal-charbon.png` et `-blanc.png` : **1573 × 464**, transparents.
+  Déposés dans `livraisons-visuels-codex/brand/` (+ `-apercu.png`), et dans Shopify → Fichiers
+  via `stagedUploadsCreate` → POST GCS → `fileCreate` (ids `71596699451728` / `71596699484496`).
+- Copie de thème : `config/settings_data.json` → `logo` et `logo_inverse` pointent les
+  horizontaux, `logo_height` 46 / `logo_height_mobile` 36 (idem dans `sections/header-group.json`).
+- Vérifié en prévisualisation : desktop **156 × 46** (`lumierematiere-logo-horizontal-charbon.png`),
+  mobile **122 × 36** centré entre menu/recherche et panier.
+
+## Allumage au survol — copie de thème
+
+`blocks/_product-card-media-gallery.liquid` : nouveau réglage **« Éteint par défaut, allumé au
+survol »** (`lm_hover_light`). Quand il est coché et que le média mis en avant est le premier du
+produit, la carte affiche le **2e média (vue éteinte, g2)** et révèle le **1er (vue allumée, g1)**
+en fondu 0,45 s au survol. Garde-fous : pas d'effet si la variante filtrée a sa propre image
+(pas de vue éteinte correspondante) ; sur écran tactile (`hover: none`) la vue allumée s'affiche
+d'emblée ; le slider de carte est remplacé par la paire d'images. Aucun média produit déplacé :
+fiche produit et flux Merchant Center gardent la vue allumée en première image.
+
+Activé dans `templates/collection.json` (grille), `templates/product.json` (« Vous aimerez
+aussi ») et `templates/index.json` (slider « Pour le salon »).
+Vérifié en DOM sur `/collections/suspensions-rotin` : 6 cartes sur 6 en `.lm-light`,
+`off = …-g2.jpg`, `on = …-g1.jpg`, opacité 0 au repos, règles CSS chargées, 0 slider résiduel.
+Le survol lui-même n'est pas observable dans le panneau navigateur masqué — à voir à l'œil.
+
+Au passage, hygiène Noirmont sur les trois templates : toutes les notes de démo dormantes
+(4,5 / 123) des blocs `rating-stars` passées à 0 / 0.
+
+## Reste
+
+- **Publier `LM UX 2026-09-04`** — décision Hakim, après un tour de prévisualisation
+  (`?preview_theme_id=187012350288`) : header, cartes au survol, home.
+- `money_format` (`€199` → `199 €`) : Paramètres → Général.
+- Icônes SVG à la place de la police Material, méga-menu visuel « Par matière » : non faits.
