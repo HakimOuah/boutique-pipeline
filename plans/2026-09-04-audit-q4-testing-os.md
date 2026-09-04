@@ -208,7 +208,7 @@ Au deuxième seuil (2 × prix), la règle des 2 jours verts / 2 jours rouges de
 ## 5. Proposition : la semaine v2, en tableau glissant
 
 Le changement de fond : la semaine n'est plus « idée → lancement », c'est **un tableau à
-quatre couloirs** où chaque produit avance d'un couloir par semaine. À tout moment, il y a un
+cinq couloirs (0 à 4)** où chaque produit avance d'un couloir par semaine. À tout moment, il y a un
 produit au comité, un ou deux en build, un ou deux en attente d'échantillon, un ou deux en
 test, et un au verdict.
 
@@ -267,6 +267,6 @@ f. **Bascule de mode à mi-octobre.** Écrire dans l'OS que, passé le ~29/09, p
 ## 7. Ce que ce document ne fait pas
 
 Il ne modifie pas la base Notion, ne change aucun seuil canonique, ne lance aucune campagne et
-ne promeut aucune règle. Si Hakim valide la v2, la base Notion se réécrit en quatre couloirs
-(propriété « Couloir » à la place de « Jour ») et les règles de §4 deviennent un fichier
-`instrumentation/regles/` candidat.
+ne promeut aucune règle. Si Hakim valide la v2, le tableau se tient sur un board kanban Hermes
+(runbook : `hermes-orchestration/docs/runbook-q4-testing-os-hermes.md`), Notion devenant au
+mieux un miroir, et les règles de §4 deviennent un fichier `instrumentation/regles/` candidat.
