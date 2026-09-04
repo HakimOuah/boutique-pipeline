@@ -8,7 +8,7 @@
 **Pourquoi** : montrer les couleurs, formes et dimensions réelles des variantes.
 **Comment** : contrôler les sources locales des lots P1/P2/P6 ; établir les correspondances avant génération ; produire et vérifier les JPEG et manifestes.
 **Sortie attendue** : livraison dans `livraisons-visuels-codex/variantes-forme/`, provenance et QA, compte rendu dans `journal/`.
-**Attention** : aucune correspondance ni cote inventée ; SKU DSers inchangés. Les arbitrages 272937 et 607504 sont **rendus** (04/09, cf. `journal/2026-09-04-arbitrages-titres-variantes.md`).
+**Attention** : aucune correspondance ni cote inventée ; SKU DSers inchangés. Les arbitrages 272937 et 607504 sont **rendus** (04/09). Lot 3 **importé**, tous les libellés aveugles du catalogue **réécrits** (04/09). Suite : `briefs/2026-09-05-codex-lot4-couverture-variantes.md`, 40 visuels max, A1 prioritaire.
 **Réf.** : [Brief](briefs/2026-09-04-codex-variantes-formes.md), les trois JSON associés.
 
 **Compte rendu actuel** : [Complément et décisions restantes](journal/2026-09-04-variantes-formes-complement.md), [registre et prompts](journal/2026-09-04-variantes-formes-registre.json), [QA 34/34](journal/2026-09-04-variantes-formes-qa.json). Le premier compte rendu à 15 images reste une archive.

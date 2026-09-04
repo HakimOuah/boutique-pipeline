@@ -1,0 +1,272 @@
+{
+  "lot": "lot4-couverture-variantes",
+  "date": "2026-09-05",
+  "brand": "lumierematiere",
+  "boutique": "lumierematiere.fr",
+  "brief": "catalogues/lumierematiere/briefs/2026-09-05-codex-lot4-couverture-variantes.md",
+  "constat": "Sur 52 fiches et 158 variantes, 20 fiches ont des variantes qui partagent une photo. Quand seule la taille change, partager est legitime : c'est l'echelle qui manque (lot B). Quand la forme, la finition ou le nombre de lumieres change, la photo est fausse (lots A1 et A2).",
+  "regles": {
+    "image": "une image = un seul luminaire",
+    "correspondance": "le lien variante -> reference se lit dans le SKU et dans preuves-dom.json, jamais dans un nom de fichier ni dans une lecture d'image",
+    "shopify": "aucune action Shopify ni DSers, SKU intouchables"
+  },
+  "da": {
+    "fond": "#F6F3EC",
+    "lumiere": "chaude",
+    "type": "packshot objet",
+    "format": "JPEG RGB 2048x2048",
+    "interdits": [
+      "texte",
+      "cote",
+      "logo",
+      "badge",
+      "filigrane",
+      "main",
+      "visage",
+      "decor de piece",
+      "plus d un luminaire dans le cadre"
+    ],
+    "exception": "les schemas cotes du lot B portent des cotes, c'est la seule exception"
+  },
+  "sortie": {
+    "dossier": "catalogues/lumierematiere/livraisons-visuels-codex/couverture-2026-09-05/{handle}/",
+    "nom": "{handle}-{slug}-g1.jpg",
+    "nom_schema": "{handle}-schema-g6.jpg",
+    "manifeste": "un par handle, avec le SKU d'option servi et la mention 'un seul luminaire dans le cadre'",
+    "planche_qa": "qa-couverture.jpg"
+  },
+  "lots": {
+    "A1": {
+      "intitule": "forme ou finition fausse a l'ecran",
+      "priorite": 1,
+      "visuels": 13,
+      "fiches": [
+        {
+          "handle": "suspension-rotin-607504",
+          "a_produire": 4,
+          "variantes": 4,
+          "photos_actuelles": 1,
+          "variantes_detail": [
+            {
+              "sku_option": "200000795:193#2550",
+              "libelle": "25 x 50 cm . naturel",
+              "rendu": "goutte haute et etroite, rotin naturel, col bois tourne"
+            },
+            {
+              "sku_option": "200000795:10#4040",
+              "libelle": "40 x 40 cm . naturel",
+              "rendu": "bulbe large, rotin naturel, col bois tourne"
+            },
+            {
+              "sku_option": "200000795:175#4019",
+              "libelle": "40 x 19 cm . naturel",
+              "rendu": "coupole plate evasee, rotin naturel, col bois fonce"
+            },
+            {
+              "sku_option": "200000795:367#4040BK",
+              "libelle": "40 x 40 cm . noir",
+              "rendu": "bulbe large, rotin teinte NOIR, col bois clair"
+            }
+          ],
+          "references": "sources-par-handle/suspension-rotin-607504/variantes-20260904/200000795-{193,10,175,367}.jpg",
+          "attention": "references cotees, jamais publiables telles quelles"
+        },
+        {
+          "handle": "suspension-deco-led-837156",
+          "a_produire": 4,
+          "variantes": 4,
+          "photos_actuelles": 2,
+          "probleme": "l'email est montre, la hauteur ne l'est pas",
+          "variantes_detail": [
+            {
+              "sku_option": "200000531:365458",
+              "libelle": "Celadon vert . H 6,5 cm"
+            },
+            {
+              "sku_option": "200000531:193",
+              "libelle": "Celadon vert . H 9 cm"
+            },
+            {
+              "sku_option": "200000531:175",
+              "libelle": "Celadon bleu poudre . H 6,5 cm"
+            },
+            {
+              "sku_option": "200000531:173",
+              "libelle": "Celadon bleu poudre . H 9 cm"
+            }
+          ],
+          "references": "sources-par-handle/suspension-deco-led-837156/variantes-lot3-20260904/",
+          "consigne": "les deux photos actuelles ne sont pas identifiees en hauteur : refaire les quatre, ne pas deviner"
+        },
+        {
+          "handle": "suspension-bambou-led-630923",
+          "a_produire": 2,
+          "variantes": 3,
+          "photos_actuelles": 1,
+          "probleme": "deux variantes sont des PLAFONNIERS (montage direct) et une est une SUSPENSION (cable) : la difference la plus importante de la fiche n'est pas montree",
+          "variantes_detail": [
+            {
+              "sku_option": "200000531:173#Ceiling 50cm",
+              "libelle": "O 50 cm . plafonnier",
+              "rendu": "disque plat bambou au plafond, sans cable"
+            },
+            {
+              "sku_option": "200000531:193#Pendant 50cm",
+              "libelle": "O 50 cm . suspension",
+              "rendu": "meme disque au bout d'un cable"
+            },
+            {
+              "sku_option": "200000531:365458#Ceiling 60cm",
+              "libelle": "O 60 cm . plafonnier",
+              "rendu": "plafonnier, plus large"
+            }
+          ]
+        },
+        {
+          "handle": "suspension-bois-193329",
+          "a_produire": 2,
+          "variantes": 4,
+          "photos_actuelles": 2,
+          "statut": "a_identifier_avant_production",
+          "probleme": "la teinte de bois est montree, la forme A/B ne l'est pas. Le SKU prouve la teinte (Walnut Base / Wood color) mais pas la forme, et il n'y a aucune reference par variante en local.",
+          "consigne": "passe DOM, une reference par identifiant d'option (193, 173, 365458, 175), etablir ce que valent les formes A et B, puis produire. Si indeterminable : ne rien produire et le dire."
+        },
+        {
+          "handle": "suspension-effet-pierre-led-338324",
+          "a_produire": 1,
+          "variantes": 12,
+          "photos_actuelles": 4,
+          "variante_manquante": {
+            "sku_option": "200000531:193",
+            "libelle": "Cylindre bas . tete bois clair"
+          },
+          "identite_etablie": "grille fournisseur A/B x Wood color / Dark wood color, trois cases sur quatre observees au DOM le 04/09, planche cotee 05.jpg = O 12 x H 10 a tete bois CLAIR",
+          "consigne": "produire le packshot, et confirmer au passage que l'identifiant 193 reste absent du selecteur : c'est la seule cellule reconstituee du catalogue"
+        }
+      ]
+    },
+    "A2": {
+      "intitule": "le nombre de lumieres n'est pas montre",
+      "visuels": 17,
+      "note": "le nombre se lit dans le SKU (#4 lights, #8 heads, #Black 6T), correspondance sans ambiguite",
+      "fiches": [
+        {
+          "handle": "plafonnier-led-992600",
+          "variantes": 9,
+          "photos_actuelles": 3,
+          "a_produire": 6,
+          "axe": "3 finitions x 4/6/8 boules"
+        },
+        {
+          "handle": "suspension-metal-noir-dore-361680",
+          "variantes": 6,
+          "photos_actuelles": 2,
+          "a_produire": 4,
+          "axe": "dore/noir x 4/6/8 bras"
+        },
+        {
+          "handle": "lustre-statement-led-noir-950316",
+          "variantes": 3,
+          "photos_actuelles": 1,
+          "a_produire": 2,
+          "axe": "4/6/8 boules sputnik"
+        },
+        {
+          "handle": "plafonnier-led-led-183789",
+          "variantes": 4,
+          "photos_actuelles": 2,
+          "a_produire": 2,
+          "axe": "gris/blanc x 5/6 palets"
+        },
+        {
+          "handle": "lustre-anneau-led-led-717226",
+          "variantes": 2,
+          "photos_actuelles": 1,
+          "a_produire": 1,
+          "axe": "4 vs 6 anneaux"
+        },
+        {
+          "handle": "lustre-anneau-led-led-625575",
+          "variantes": 2,
+          "photos_actuelles": 1,
+          "a_produire": 1,
+          "axe": "4 vs 6 anneaux"
+        },
+        {
+          "handle": "lustre-anneau-led-led-134962",
+          "variantes": 4,
+          "photos_actuelles": 3,
+          "a_produire": 1,
+          "axe": "blanc 5 vs blanc 6 lumieres"
+        }
+      ]
+    },
+    "B": {
+      "intitule": "schemas cotes, seule la taille change",
+      "visuels": 10,
+      "convention": "silhouette en elevation de face, fond #F6F3EC, cotes en gris charbon #24211B, unites en cm, nom {handle}-schema-g6.jpg",
+      "justification": "partager la photo est legitime ici : c'est le meme luminaire, c'est l'echelle qui manque",
+      "fiches": [
+        {
+          "handle": "lustre-salon-blanc-246282",
+          "cotes": "O 30 / 40 / 50 / 60 cm"
+        },
+        {
+          "handle": "suspension-moderne-led-noir-330664",
+          "cotes": "O 100 / 120 / 150 cm"
+        },
+        {
+          "handle": "suspension-bambou-655008",
+          "cotes": "O 30 / 38 / 45 cm"
+        },
+        {
+          "handle": "suspension-bambou-led-50cm-377816",
+          "cotes": "O 30 / 40 / 50 cm"
+        },
+        {
+          "handle": "suspension-rotin-led-761433",
+          "cotes": "O 30 / 40 / 50 / 60 cm"
+        },
+        {
+          "handle": "applique-murale-pierre-588683",
+          "cotes": "O 20 / 25 / 30 cm"
+        },
+        {
+          "handle": "lustre-anneau-led-led-795468",
+          "cotes": "O 20 / 30 cm"
+        },
+        {
+          "handle": "suspension-rotin-607504",
+          "cotes": "25x50 / 40x40 / 40x19 cm"
+        },
+        {
+          "handle": "suspension-deco-led-837156",
+          "cotes": "O 20, H 6,5 / H 9 cm"
+        },
+        {
+          "handle": "suspension-bambou-led-630923",
+          "cotes": "O 50 / 60 cm, plafonnier vs suspension"
+        }
+      ]
+    },
+    "C": {
+      "intitule": "questions, aucune image avant reponse",
+      "visuels": 0,
+      "fiches": [
+        {
+          "handle": "suspension-bois-led-934110",
+          "statut": "a_trancher",
+          "probleme": "l'option 'Modele' vaut 'Blanc froid 6000 K' / 'Travertin' / 'Blanc chaud 3000 K' : une matiere et deux temperatures de couleur dans la meme liste. Les libelles traduisent fidelement les SKU (175#6000k-cold white, 193#Yellow Travertine, 173#3000k-warm white) : l'incoherence vient du fournisseur.",
+          "question": "le tube existe-t-il en deux matieres (travertin / blanc) avec la temperature en axe separe, ou les trois options sont-elles vraiment ce que le fournisseur propose en vrac ?"
+        },
+        {
+          "handle": "suspension-effet-pierre-092465",
+          "statut": "verification_legere",
+          "consigne": "rien a produire ; confirmer seulement que la correspondance SKU (200006153 = Pierre claire, 365458 = Brun) est la bonne"
+        }
+      ]
+    }
+  },
+  "total_max": 40,
+  "si_trop_large": "livrer A1 seul et s'arreter : c'est le seul lot qui touche a la conformite GMC. A2 et B sont de la qualite de fiche."
+}
