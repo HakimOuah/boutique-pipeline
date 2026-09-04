@@ -1,0 +1,654 @@
+{
+  "date": "2026-09-04",
+  "scope": "Test autorisé Treg, lecture seule, France, plafond local 0.50 USD, aucune recharge",
+  "requests": {
+    "keywords": [
+      "tufting gun",
+      "machine tufting",
+      "pouf géant",
+      "agence seo cergy",
+      "montre automatique homme"
+    ],
+    "dataforseo": {
+      "location_code": 2250,
+      "language_code": "fr",
+      "search_partners": false
+    },
+    "seranking": {
+      "source": "fr"
+    },
+    "serp": {
+      "keyword": "tufting gun",
+      "location_name": "France",
+      "language_code": "fr",
+      "depth": 10,
+      "device": "desktop"
+    }
+  },
+  "records": [
+    {
+      "semrush_access_status": 200,
+      "access": {
+        "tier": "none",
+        "authorization_method": "",
+        "connect_capability": "",
+        "connect_command": "treg connections connect --provider semrush",
+        "action_label": "",
+        "missing_message": "",
+        "detail": "no semrush credential in this org yet — connect with: treg connections connect --provider semrush, or treg secret add semrush …"
+      }
+    },
+    {
+      "endpoint": "dataforseo.google.keywords.volume",
+      "http_status": 200,
+      "elapsed_s": 6.06,
+      "headers": {
+        "x-treg-call-id": "99cd2c9bfc8a4ef58cf54ba7b483d4af",
+        "x-treg-cost-micro": "90000"
+      },
+      "response": {
+        "status_code": 20000,
+        "tasks_error": 0,
+        "cost": 0.09,
+        "task_statuses": [
+          {
+            "id": "09040924-2171-0367-0000-12cef999184b",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "result_count": 5
+          }
+        ],
+        "rows": [
+          {
+            "keyword": "tufting gun",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_volume": 1000,
+            "cpc": 1.48,
+            "competition": "MEDIUM",
+            "low_top_of_page_bid": 0.27,
+            "high_top_of_page_bid": 1.43,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 7,
+                "search_volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 480
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 720
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 880
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 880
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 1000
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 1300
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 1900
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 880
+              }
+            ]
+          },
+          {
+            "keyword": "machine tufting",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_volume": 260,
+            "cpc": 0.99,
+            "competition": "HIGH",
+            "low_top_of_page_bid": 0.24,
+            "high_top_of_page_bid": 1.19,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 7,
+                "search_volume": 140
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 140
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 210
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 210
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 210
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 260
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 320
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 210
+              }
+            ]
+          },
+          {
+            "keyword": "pouf géant",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_volume": 1000,
+            "cpc": 0.52,
+            "competition": "HIGH",
+            "low_top_of_page_bid": 0.21,
+            "high_top_of_page_bid": 1.29,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 7,
+                "search_volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 590
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 720
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 720
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 880
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 880
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 1300
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 1000
+              }
+            ]
+          },
+          {
+            "keyword": "agence seo cergy",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_volume": 40,
+            "cpc": null,
+            "competition": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 7,
+                "search_volume": 0
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 50
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 40
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 140
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 140
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 50
+              }
+            ]
+          },
+          {
+            "keyword": "montre automatique homme",
+            "spell": null,
+            "location_code": 2250,
+            "language_code": "fr",
+            "search_volume": 18100,
+            "cpc": 0.81,
+            "competition": "HIGH",
+            "low_top_of_page_bid": 0.24,
+            "high_top_of_page_bid": 0.91,
+            "monthly_searches": [
+              {
+                "year": 2026,
+                "month": 7,
+                "search_volume": 12100
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "search_volume": 14800
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "search_volume": 18100
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "search_volume": 12100
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "search_volume": 14800
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "search_volume": 14800
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "search_volume": 18100
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 27100
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 27100
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 18100
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 14800
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 12100
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "endpoint": "seranking.google.keywords.volume",
+      "http_status": 201,
+      "elapsed_s": 1.76,
+      "headers": {
+        "x-treg-call-id": "460a93feb81c46ef981129fa2dc7556a",
+        "x-treg-cost-micro": "8950"
+      },
+      "response": [
+        {
+          "is_data_found": true,
+          "keyword": "pouf géant",
+          "volume": 30,
+          "cpc": 0.36,
+          "difficulty": 8,
+          "intents": [
+            "I"
+          ],
+          "competition": 1,
+          "history_trend": {
+            "2025-10-01": 180,
+            "2025-11-01": 100,
+            "2025-12-01": 100,
+            "2026-01-01": 20,
+            "2026-02-01": 40,
+            "2026-03-01": 40,
+            "2026-04-01": 10,
+            "2026-05-01": 20,
+            "2026-06-01": 20,
+            "2026-07-01": 40,
+            "2026-08-01": 30,
+            "2026-09-01": 30
+          }
+        },
+        {
+          "is_data_found": true,
+          "keyword": "montre automatique homme",
+          "volume": 14800,
+          "cpc": 0.3,
+          "difficulty": 89,
+          "intents": [
+            "I"
+          ],
+          "competition": 1,
+          "history_trend": {
+            "2025-10-01": 10800,
+            "2025-11-01": 12800,
+            "2025-12-01": 12800,
+            "2026-01-01": 14800,
+            "2026-02-01": 14800,
+            "2026-03-01": 14800,
+            "2026-04-01": 14800,
+            "2026-05-01": 14800,
+            "2026-06-01": 14800,
+            "2026-07-01": 14800,
+            "2026-08-01": 14800,
+            "2026-09-01": 14800
+          }
+        },
+        {
+          "is_data_found": true,
+          "keyword": "tufting gun",
+          "volume": 40,
+          "cpc": 0.2,
+          "difficulty": 11,
+          "intents": [
+            "C"
+          ],
+          "competition": 0.26,
+          "history_trend": {
+            "2025-10-01": 10,
+            "2025-11-01": 10,
+            "2025-12-01": 10,
+            "2026-01-01": 10,
+            "2026-02-01": 10,
+            "2026-03-01": 40,
+            "2026-04-01": 10,
+            "2026-05-01": 10,
+            "2026-06-01": 20,
+            "2026-07-01": 10,
+            "2026-08-01": 20,
+            "2026-09-01": 40
+          }
+        },
+        {
+          "keyword": "machine tufting",
+          "is_data_found": false
+        },
+        {
+          "is_data_found": true,
+          "keyword": "agence seo cergy",
+          "volume": 50,
+          "cpc": 0,
+          "difficulty": 20,
+          "intents": [
+            "L",
+            "C"
+          ],
+          "competition": 0,
+          "history_trend": {
+            "2025-11-01": 110,
+            "2025-12-01": 110,
+            "2026-01-01": 110,
+            "2026-02-01": 110,
+            "2026-03-01": 110,
+            "2026-04-01": 90,
+            "2026-05-01": 90,
+            "2026-06-01": 90,
+            "2026-07-01": 70,
+            "2026-08-01": 70,
+            "2026-09-01": 50
+          }
+        }
+      ]
+    },
+    {
+      "endpoint": "dataforseo.google.serp.organic",
+      "http_status": 200,
+      "elapsed_s": 2.06,
+      "headers": {
+        "x-treg-call-id": "05c52da06cef49c5bd6dfd2f3de4574a",
+        "x-treg-cost-micro": "2000"
+      },
+      "response": {
+        "status_code": 20000,
+        "tasks_error": 0,
+        "cost": 0.002,
+        "results": [
+          {
+            "keyword": "tufting gun",
+            "location_code": 2250,
+            "language_code": "fr",
+            "items_count": 7,
+            "items": [
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "domain": "letufting.fr",
+                "title": "Tufting guns",
+                "url": "https://letufting.fr/collections/tufting-guns"
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 8,
+                "domain": "tuftingshop.com",
+                "title": "Meilleurs Tufting Guns/Tuftinggun | Achetez des Machines ...",
+                "url": "https://tuftingshop.com/fr/collections/tufting-guns"
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 9,
+                "domain": "www.amazon.fr",
+                "title": "Amazon.fr : Tufting",
+                "url": "https://www.amazon.fr/tufting/s?k=tufting"
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 10,
+                "domain": "tuftingeurope.com",
+                "title": "Tufting pour débutants (2026) : tout ce qu'il vous faut pour ...",
+                "url": "https://tuftingeurope.com/fr/apprendre-le-tufting/guide-dinitiation-au-pistolet-a-tufting-tout-ce-quil-vous-faut-pour-creer-des-tapis-chez-vous/"
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 11,
+                "domain": "fablab-sapiens.fr",
+                "title": "Le tufting, un loisir créatif hyper satisfaisant avec ...",
+                "url": "https://fablab-sapiens.fr/tufting_guns_forever/"
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 12,
+                "domain": "www.marieclaire.fr",
+                "title": "Apprendre à tufter : comment choisir son tufting gun",
+                "url": "https://www.marieclaire.fr/idees/apprendre-a-tufter-comment-choisir-son-tufting-gun,1453936.asp"
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 13,
+                "domain": "www.mondialtissus.fr",
+                "title": "Pistolet Tufting gun Cut",
+                "url": "https://www.mondialtissus.fr/pistolet-tufting-gun-cut-313848.html"
+              }
+            ]
+          }
+        ],
+        "task_status": 20000
+      }
+    },
+    {
+      "settled_cost_from_headers_usd": 0.10095
+    }
+  ],
+  "billing": {
+    "initial_balance_usd": 1,
+    "final_balance_usd": 0.89905,
+    "spent_usd": 0.10095,
+    "holds": [],
+    "settlements": [
+      {
+        "endpoint": "dataforseo.google.keywords.volume",
+        "cost_usd": 0.09,
+        "cost_source": "provider"
+      },
+      {
+        "endpoint": "seranking.google.keywords.volume",
+        "cost_usd": 0.00895,
+        "cost_source": "estimate"
+      },
+      {
+        "endpoint": "dataforseo.google.serp.organic",
+        "cost_usd": 0.002,
+        "cost_source": "provider"
+      }
+    ]
+  },
+  "sanitization": "Extraits utiles des réponses; aucun jeton; paramètres de suivi srsltid supprimés des URLs. Pas un dump intégral."
+}
