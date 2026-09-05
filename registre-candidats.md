@@ -10,7 +10,41 @@ Règles d'usage :
 - Le registre pointe vers les rapports ; il ne remplace jamais leur détail ni leurs réserves.
 - Niveaux de validation : 1 = marché, 2 = fiche AliExpress, 3 = commande test, 4 = GO lancement. Aucun raccourci entre niveaux.
 
-Dernière mise à jour : 4 septembre 2026 — **B1 abandonné par Hakim (`NO_GO_FINAL`) pour concurrence Ads ; A6 rasoir approfondi, priorité 1 en REVIEW ; domaine officiel lelamier.com corrigé** ; **état des neuf : 3 REVIEW / 5 STOP techniques / 1 NO_GO humain, zéro PASS** ; **test couplé TrendTrack ↔ demande Google : 6 offres mesurées, 4 STOP de périmètre / 2 REVIEW** ; conservation du premier test de 12 pistes. Également ce jour : portefeuilles, PDP Chrome (homme CONTACTS 16,50 €, 4,8/411 ; femme CONTACT’S 14,69 / 21,39 €, un seul atelier ; Sterre stock PDP 5) ; poufs, Trends + sourcing.
+Dernier ajout : 5 septembre 2026 — collecte mixte préparatoire, aucun nouveau PASS.
+
+État antérieur du 4 septembre 2026 — **B1 abandonné par Hakim (`NO_GO_FINAL`) pour concurrence Ads ; A6 rasoir approfondi, priorité 1 en REVIEW ; domaine officiel lelamier.com corrigé** ; **état des neuf : 3 REVIEW / 5 STOP techniques / 1 NO_GO humain, zéro PASS** ; **test couplé TrendTrack ↔ demande Google : 6 offres mesurées, 4 STOP de périmètre / 2 REVIEW** ; conservation du premier test de 12 pistes. Également ce jour : portefeuilles, PDP Chrome (homme CONTACTS 16,50 €, 4,8/411 ; femme CONTACT’S 14,69 / 21,39 €, un seul atelier ; Sterre stock PDP 5) ; poufs, Trends + sourcing.
+
+## Recherche mixte 3 Search + 2 univers — 05/09/2026 — collecte préparatoire
+
+[Point de reprise et preuves](analyses/2026-09-05-recherche-mix-5/POINT-ETAPE.md). **Budget API en attente, zéro nouvelle mesure dans cette mission, zéro PASS, zéro sourcing.** Les statuts ci-dessous ne sont pas des préqualifications.15pistes Search et2univers ont un lot de105expressions préparé, non exécuté. Les autres idées restent documentées sans approfondissement.
+
+| ID | Produit / synonymes | Mode | État |
+|---|---|---|---|
+| M1 | Batardeau porte / barrière anti-inondation | SEARCH | À MESURER |
+| M2 | Récupérateur chaleur cheminée / distribution air chaud poêle | SEARCH | À MESURER |
+| M3 | Affûteuse à eau / touret affûtage | SEARCH | À MESURER |
+| M4 | Cave électrique fromage / affinage domestique | SEARCH | À MESURER |
+| M5=L5 | Kit fumage à froid / fumoir saumon fromage | SEARCH | À MESURER — doublon fusionné |
+| M6 | Four solaire / cuiseur solaire portable | SEARCH | À MESURER |
+| M7 | Séchoir plantes / herbes / champignons à claies | SEARCH | À MESURER |
+| M8 | Garde-manger bois ventilé | SEARCH | À MESURER |
+| L1 | Table rempotage / table à rempoter | SEARCH | À MESURER |
+| L2 | Séchoir solaire alimentaire fruits légumes | SEARCH | À MESURER |
+| L3 | Pedalboard guitare bois / pedal board | SEARCH | À MESURER |
+| L4 | Machine à tricoter mécanique AddiExpress | SEARCH | HORS BATCH — adjacence STOP, indisponible ; aucune reprise |
+| L6 | Ruche horizontale / kényane / top bar | SEARCH | HORS BATCH — offre444€ hors plafond |
+| L7 | Cerf-volant acrobatique / carbone / pilotable | SEARCH | À MESURER |
+| L8 | Croquet familial bois | SEARCH | À MESURER |
+| L9 | Presse à fleurs / presse herbier | SEARCH | À MESURER |
+| L10 | Kit montage mouches pêche / fly tying | SEARCH | À MESURER |
+| U1 | Fléchettes traditionnelles / sisal / installation / darts | UNIVERS SHOPPING | À MESURER — électronique/connecté et soft-tip exclus ; rejet antérieur préservé |
+| U2 | Matériel aquarelle : papier / couleurs / pinceaux / coffrets | UNIVERS SHOPPING | À MESURER — œuvres/cours/autres techniques exclus |
+| U3 | Padel équipement | UNIVERS SHOPPING | DÉCOUVERTE SEULE — marques et généralistes |
+| U4 | Fermentation maison kéfir / kombucha | UNIVERS SHOPPING | DÉCOUVERTE SEULE — vivant/alimentaire |
+| U5 | Slackline / longline | UNIVERS SHOPPING | DÉCOUVERTE SEULE — sécurité et saisonnalité |
+| U6 | Yoga aérien / hamac yoga | UNIVERS SHOPPING | DÉCOUVERTE SEULE — ancrages et périmètre |
+| U7 | Équitation loisir / sellerie | UNIVERS SHOPPING | DÉCOUVERTE SEULE — périmètre trop large, EPI/tailles |
+| U8 | Escalade loisir équipement | UNIVERS SHOPPING | DÉCOUVERTE SEULE — EPI et expertise |
 
 ## Décision étendoir et approfondissement rasoir — 04/09/2026
 

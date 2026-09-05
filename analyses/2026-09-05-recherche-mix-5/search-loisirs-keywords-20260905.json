@@ -1,0 +1,116 @@
+{
+  "date_consultation": "2026-09-05",
+  "marche": "FR",
+  "mode": "PRODUIT PUR / Search",
+  "statut": "PRET_A_MESURER",
+  "regle": "Mesurer chaque expression séparément. Ne pas additionner les volumes d'un parent, d'une variante, d'une marque, d'un accessoire ou d'un kit différent.",
+  "source": "Expressions de départ issues du scout public du 05/09/2026; aucune mesure de volume incluse.",
+  "priorite_batch": [
+    {
+      "id": "L1",
+      "produit_exact": "table de rempotage en bois avec bac zinc",
+      "expressions_fr": [
+        "table de rempotage",
+        "table à rempoter en bois",
+        "table de rempotage jardin",
+        "établi de rempotage bois",
+        "table de préparation plantes"
+      ]
+    },
+    {
+      "id": "L2",
+      "produit_exact": "séchoir solaire domestique pour fruits et légumes, format standard",
+      "expressions_fr": [
+        "séchoir solaire fruits légumes",
+        "séchoir solaire alimentaire",
+        "déshydrateur solaire jardin",
+        "séchoir solaire herbes",
+        "déshydrateur solaire domestique"
+      ]
+    },
+    {
+      "id": "L3",
+      "produit_exact": "pedalboard guitare en bois personnalisé",
+      "expressions_fr": [
+        "pedalboard guitare",
+        "pedal board guitare",
+        "pédalier effets guitare",
+        "pedalboard bois",
+        "pedalboard guitare avec alimentation"
+      ]
+    },
+    {
+      "id": "L5",
+      "produit_exact": "kit de fumage à froid maison",
+      "expressions_fr": [
+        "kit fumage à froid",
+        "fumoir à froid maison",
+        "fumoir saumon maison",
+        "fumoir fromage maison",
+        "fumage à froid débutant"
+      ]
+    },
+    {
+      "id": "L7",
+      "produit_exact": "cerf-volant acrobatique pilotable carbone, deux ou quatre lignes",
+      "expressions_fr": [
+        "cerf volant acrobatique",
+        "cerf-volant 4 lignes",
+        "cerf-volant pilotable adulte",
+        "cerf volant carbone",
+        "cerf-volant freestyle"
+      ]
+    },
+    {
+      "id": "L8",
+      "produit_exact": "set de croquet familial en bois quatre joueurs",
+      "expressions_fr": [
+        "jeu de croquet",
+        "croquet jardin",
+        "set croquet bois",
+        "jeu de croquet en bois 4 joueurs",
+        "jeu extérieur croquet famille"
+      ]
+    },
+    {
+      "id": "L9",
+      "produit_exact": "presse à fleurs grand format en bois",
+      "expressions_fr": [
+        "presse à fleurs",
+        "presse fleurs grand format",
+        "presse herbier bois",
+        "presse botanique",
+        "presse fleurs bois"
+      ]
+    },
+    {
+      "id": "L10",
+      "produit_exact": "kit de montage de mouches artificielles pour pêche à la mouche",
+      "expressions_fr": [
+        "kit montage mouche",
+        "kit montage mouches pêche",
+        "étau montage mouche",
+        "kit fly tying",
+        "kit montage mouche débutant"
+      ]
+    }
+  ],
+  "exclus_du_batch_prioritaire": [
+    {
+      "id": "L4",
+      "produit_exact": "machine à tricoter mécanique AddiExpress King Size",
+      "motif": "Exclue du batch : adjacente à la famille mercerie/arts du fil STOP du registre et page consultée indisponible."
+    },
+    {
+      "id": "L6",
+      "produit_exact": "ruche horizontale vitrée / ruche kényane",
+      "motif": "Exclue du batch : prix public observé 444 € TTC, au-dessus du plafond 400 €, et rupture de réapprovisionnement."
+    }
+  ],
+  "garde_fous": [
+    "Ne pas rechercher ni sourcer plus profondément avant le pass de mesure.",
+    "Ne pas relancer une famille STOP/NO_GO ou une piste lancée.",
+    "Les expressions avec une marque, une variante ou un format différent restent des mesures distinctes.",
+    "Aucun volume, CPC, concurrence, marge ou statut GO/REVIEW/NO_GO n'est présent dans ce fichier."
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "status": "PREPARED_NOT_EXECUTED_BUDGET_PENDING",
+  "country": "France",
+  "language": "French",
+  "endpoint": "keywords_data/google_ads/search_volume/live",
+  "search_candidate_groups": {
+    "M1": [
+      "batardeau",
+      "batardeau porte",
+      "barrière anti inondation",
+      "protection porte inondation"
+    ],
+    "M2": [
+      "récupérateur chaleur cheminée",
+      "récupérateur air chaud poêle",
+      "récupérateur chaleur poêle à bois",
+      "distribution air chaud cheminée"
+    ],
+    "M3": [
+      "affûteuse à eau",
+      "affuteuse a eau",
+      "touret affûtage à eau",
+      "machine affûtage couteaux"
+    ],
+    "M4": [
+      "cave à fromage",
+      "cave affinage fromage",
+      "cave conservation fromage",
+      "armoire affinage fromage maison"
+    ],
+    "M5": [
+      "fumoir à froid",
+      "fumoir a froid",
+      "kit fumage à froid",
+      "fumage à froid maison"
+    ],
+    "M6": [
+      "four solaire",
+      "cuiseur solaire",
+      "four solaire portable",
+      "cuiseur solaire camping"
+    ],
+    "M7": [
+      "séchoir à plantes",
+      "séchoir herbes aromatiques",
+      "séchoir champignons",
+      "séchoir à claies"
+    ],
+    "M8": [
+      "garde manger",
+      "garde-manger bois",
+      "garde manger ventilé",
+      "garde manger fromage"
+    ],
+    "L1": [
+      "table de rempotage",
+      "table à rempoter en bois",
+      "table de rempotage jardin",
+      "établi de rempotage bois",
+      "table de préparation plantes"
+    ],
+    "L2": [
+      "séchoir solaire fruits légumes",
+      "séchoir solaire alimentaire",
+      "déshydrateur solaire jardin",
+      "séchoir solaire herbes",
+      "déshydrateur solaire domestique"
+    ],
+    "L3": [
+      "pedalboard guitare",
+      "pedal board guitare",
+      "pédalier effets guitare",
+      "pedalboard bois",
+      "pedalboard guitare avec alimentation"
+    ],
+    "L7": [
+      "cerf volant acrobatique",
+      "cerf-volant 4 lignes",
+      "cerf-volant pilotable adulte",
+      "cerf volant carbone",
+      "cerf-volant freestyle"
+    ],
+    "L8": [
+      "jeu de croquet",
+      "croquet jardin",
+      "set croquet bois",
+      "jeu de croquet en bois 4 joueurs",
+      "jeu extérieur croquet famille"
+    ],
+    "L9": [
+      "presse à fleurs",
+      "presse fleurs grand format",
+      "presse herbier bois",
+      "presse botanique",
+      "presse fleurs bois"
+    ],
+    "L10": [
+      "kit montage mouche",
+      "kit montage mouches pêche",
+      "étau montage mouche",
+      "kit fly tying",
+      "kit montage mouche débutant"
+    ]
+  },
+  "shopping_family_groups": {
+    "D1": [
+      "fléchettes acier",
+      "fléchettes pointe acier",
+      "fléchettes tungstène",
+      "fléchettes 23g"
+    ],
+    "D3": [
+      "cible fléchettes",
+      "cible sisal",
+      "cible anglaise",
+      "cible steel tip",
+      "jeu de fléchettes"
+    ],
+    "D5": [
+      "éclairage cible fléchettes",
+      "surround cible fléchettes",
+      "protection mur cible fléchettes",
+      "tapis fléchettes",
+      "armoire cible fléchettes"
+    ],
+    "D6": [
+      "ailettes fléchettes",
+      "tiges fléchettes",
+      "pointes fléchettes",
+      "étui fléchettes"
+    ],
+    "A1": [
+      "peinture aquarelle",
+      "aquarelle extra fine",
+      "godets aquarelle",
+      "tube aquarelle"
+    ],
+    "A2": [
+      "papier aquarelle",
+      "bloc aquarelle",
+      "papier coton aquarelle",
+      "carnet aquarelle"
+    ],
+    "A3": [
+      "pinceau aquarelle",
+      "pinceaux aquarelle",
+      "pinceau réservoir eau",
+      "pinceau lavis aquarelle"
+    ],
+    "A4": [
+      "coffret aquarelle",
+      "kit aquarelle",
+      "palette aquarelle voyage",
+      "aquarelle nomade"
+    ],
+    "A5": [
+      "palette mélange aquarelle",
+      "godets vides aquarelle",
+      "masking fluid aquarelle",
+      "trousse aquarelle"
+    ]
+  },
+  "excluded_from_consolidation": [
+    "D2 soft-tip et D4 électronique/connecté: hors périmètre initial pour préserver rejet antérieur",
+    "L4 machine à tricoter: adjacence STOP",
+    "L6 ruche: offre444EUR hors plafond"
+  ],
+  "requests_in_order": [
+    {
+      "purpose": "witness_before",
+      "payload": [
+        {
+          "keywords": [
+            "tufting"
+          ],
+          "location_name": "France",
+          "language_name": "French",
+          "search_partners": false
+        }
+      ]
+    },
+    {
+      "purpose": "screen",
+      "payload": [
+        {
+          "keywords": [
+            "batardeau",
+            "batardeau porte",
+            "barrière anti inondation",
+            "protection porte inondation",
+            "récupérateur chaleur cheminée",
+            "récupérateur air chaud poêle",
+            "récupérateur chaleur poêle à bois",
+            "distribution air chaud cheminée",
+            "affûteuse à eau",
+            "affuteuse a eau",
+            "touret affûtage à eau",
+            "machine affûtage couteaux",
+            "cave à fromage",
+            "cave affinage fromage",
+            "cave conservation fromage",
+            "armoire affinage fromage maison",
+            "fumoir à froid",
+            "fumoir a froid",
+            "kit fumage à froid",
+            "fumage à froid maison",
+            "four solaire",
+            "cuiseur solaire",
+            "four solaire portable",
+            "cuiseur solaire camping",
+            "séchoir à plantes",
+            "séchoir herbes aromatiques",
+            "séchoir champignons",
+            "séchoir à claies",
+            "garde manger",
+            "garde-manger bois",
+            "garde manger ventilé",
+            "garde manger fromage",
+            "table de rempotage",
+            "table à rempoter en bois",
+            "table de rempotage jardin",
+            "établi de rempotage bois",
+            "table de préparation plantes",
+            "séchoir solaire fruits légumes",
+            "séchoir solaire alimentaire",
+            "déshydrateur solaire jardin",
+            "séchoir solaire herbes",
+            "déshydrateur solaire domestique",
+            "pedalboard guitare",
+            "pedal board guitare",
+            "pédalier effets guitare",
+            "pedalboard bois",
+            "pedalboard guitare avec alimentation",
+            "cerf volant acrobatique",
+            "cerf-volant 4 lignes",
+            "cerf-volant pilotable adulte",
+            "cerf volant carbone",
+            "cerf-volant freestyle",
+            "jeu de croquet",
+            "croquet jardin",
+            "set croquet bois",
+            "jeu de croquet en bois 4 joueurs",
+            "jeu extérieur croquet famille",
+            "presse à fleurs",
+            "presse fleurs grand format",
+            "presse herbier bois",
+            "presse botanique",
+            "presse fleurs bois",
+            "kit montage mouche",
+            "kit montage mouches pêche",
+            "étau montage mouche",
+            "kit fly tying",
+            "kit montage mouche débutant",
+            "fléchettes acier",
+            "fléchettes pointe acier",
+            "fléchettes tungstène",
+            "fléchettes 23g",
+            "cible fléchettes",
+            "cible sisal",
+            "cible anglaise",
+            "cible steel tip",
+            "jeu de fléchettes",
+            "éclairage cible fléchettes",
+            "surround cible fléchettes",
+            "protection mur cible fléchettes",
+            "tapis fléchettes",
+            "armoire cible fléchettes",
+            "ailettes fléchettes",
+            "tiges fléchettes",
+            "pointes fléchettes",
+            "étui fléchettes",
+            "peinture aquarelle",
+            "aquarelle extra fine",
+            "godets aquarelle",
+            "tube aquarelle",
+            "papier aquarelle",
+            "bloc aquarelle",
+            "papier coton aquarelle",
+            "carnet aquarelle",
+            "pinceau aquarelle",
+            "pinceaux aquarelle",
+            "pinceau réservoir eau",
+            "pinceau lavis aquarelle",
+            "coffret aquarelle",
+            "kit aquarelle",
+            "palette aquarelle voyage",
+            "aquarelle nomade",
+            "palette mélange aquarelle",
+            "godets vides aquarelle",
+            "masking fluid aquarelle",
+            "trousse aquarelle"
+          ],
+          "location_name": "France",
+          "language_name": "French",
+          "search_partners": false
+        }
+      ]
+    },
+    {
+      "purpose": "witness_after",
+      "payload": [
+        {
+          "keywords": [
+            "tufting"
+          ],
+          "location_name": "France",
+          "language_name": "French",
+          "search_partners": false
+        }
+      ]
+    }
+  ]
+}
