@@ -1,0 +1,55 @@
+{
+  "date_observation": "2026-09-05",
+  "mode": "UNIVERS / Shopping France",
+  "statut": "proposition_conservatrice_sans_verdict",
+  "source": {
+    "aquarelle": {
+      "file": "/private/tmp/recherche-mix-5-20260905/analyses/2026-09-05-recherche-mix-5/raw/labs-aquarelle.json",
+      "endpoint": "dataforseo_labs/google/keyword_suggestions/live",
+      "seed": "aquarelle",
+      "location": "France",
+      "language": "French",
+      "total_count": 17311,
+      "items_count": 1000,
+      "interpretation": "plancher_de_corpus_labs; seuls 1000 items sont présents dans le fichier; ne pas additionner les variantes"
+    },
+    "flechettes_sans_accent": {
+      "file": "/private/tmp/recherche-mix-5-20260905/analyses/2026-09-05-recherche-mix-5/raw/labs-flechettes.json",
+      "endpoint": "dataforseo_labs/google/keyword_suggestions/live",
+      "seed": "flechettes",
+      "location": "France",
+      "language": "French",
+      "total_count": 1037,
+      "items_count": 1000,
+      "interpretation": "corpus_de_suggestions; pas_un_volume_net_d_univers"
+    },
+    "flechettes_accent": {
+      "file": "/private/tmp/recherche-mix-5-20260905/analyses/2026-09-05-recherche-mix-5/raw/labs-flechettes-accent.json",
+      "endpoint": "dataforseo_labs/google/keyword_suggestions/live",
+      "seed": "fléchettes",
+      "location": "France",
+      "language": "French",
+      "total_count": 1416,
+      "items_count": 1000,
+      "interpretation": "corpus_de_suggestions; doublons_accents_et_variantes_a_dedupliquer"
+    }
+  },
+  "regle": "Une ligne est qualifiée au mieux comme candidate d'intention produit. Les variantes clones, marques, information, lieux, œuvres, enfants, électronique et marketplaces ne sont pas sommées. Aucun PASS_PREQUALIFICATION.",
+  "familles": [
+    {"univers":"aquarelle","famille":"A1_couleurs_outils_de_couleur","lignes":[{"expression":"peinture aquarelle","volume_labs":4400,"statut":"ambigu","raison":"Le groupe contient aussi peindre/peintre; intention informationnelle et produit mélangées. Ne pas retenir le 4400 sans SERP/Ads."},{"expression":"crayons aquarelle","volume_labs":2400,"statut":"retenu_candidat_adjacent","raison":"Produit matériel identifiable, mais adjacent aux palettes/godets; à garder séparé."},{"expression":"feutres aquarelle","volume_labs":1900,"statut":"retenu_candidat_adjacent","raison":"Produit matériel identifiable; à distinguer des marqueurs génériques."},{"expression":"aquarelle japonaise","volume_labs":1300,"statut":"ambigu","raison":"Peut être produit (Gansai) ou contenu/technique; marques et nature exacte à vérifier."},{"expression":"aquarelle palette","volume_labs":2400,"statut":"retenu_candidat","raison":"Intention matériel probable, mais recoupe A4 palette voyage; un seul rattachement après SERP."}]},
+    {"univers":"aquarelle","famille":"A2_papier_support","lignes":[{"expression":"papier à aquarelle","volume_labs":1900,"statut":"retenu_candidat","raison":"Support spécialisé explicite; clones papier/papiers/papier pour aquarelle à ne pas sommer."},{"expression":"carnets aquarelle","volume_labs":1300,"statut":"retenu_candidat","raison":"Produit matériel explicite; livres/tutoriels et carnets de voyage restent à adjudicater."},{"expression":"papier aquarelle coton","volume_labs":480,"statut":"retenu_candidat","raison":"Sous-intention papier premium; ne pas ajouter au groupe papier cœur."},{"expression":"papier aquarelle 300g","volume_labs":320,"statut":"retenu_candidat","raison":"Sous-intention support explicite; ligne de profondeur, pas addition au cœur."},{"expression":"papier peint aquarelle","volume_labs":390,"statut":"exclu","raison":"Parasite papier peint."}]},
+    {"univers":"aquarelle","famille":"A3_pinceaux","lignes":[{"expression":"pinceaux à aquarelle","volume_labs":12100,"statut":"ambigu_zero_conservateur","raison":"Le bucket Labs inclut pinceau/pinceaux et la marque-boutique aquarelleetpinceaux.com; la SERP signale une contamination navigations/marque. Ne pas traiter 12100 comme net."},{"expression":"pinceau réservoir","volume_labs":320,"statut":"ambigu","raison":"Produit pouvant être aquarelle ou autre usage; le mot aquarelle n'est pas systématique dans la variante."},{"expression":"meilleurs pinceaux aquarelle","volume_labs":210,"statut":"ambigu","raison":"Intention éditoriale/comparatif; pas une requête produit pure."},{"expression":"pinceau petit-gris aquarelle","volume_labs":140,"statut":"retenu_candidat","raison":"Matériel explicite; ligne faible à garder séparée."}]},
+    {"univers":"aquarelle","famille":"A4_coffrets_palette_nomade","lignes":[{"expression":"kits aquarelle","volume_labs":1900,"statut":"ambigu","raison":"Produit probable mais peut inclure modèles/loisir/enfants; lire SERP et ne pas ajouter kit/coffret comme clones."},{"expression":"kit aquarelle voyage","volume_labs":720,"statut":"retenu_candidat","raison":"Intention kit portable explicite; sous-ligne de kit, pas somme additionnelle."},{"expression":"boîte aquarelle","volume_labs":590,"statut":"retenu_candidat","raison":"Coffret/boîte probable; boîte vide et marque doivent rester séparées."},{"expression":"kit aquarelle débutant","volume_labs":590,"statut":"ambigu","raison":"Produit probable mais forte présence possible de loisir/enfant/contenu; vérifier SERP."},{"expression":"modèle aquarelle facile gratuit","volume_labs":2400,"statut":"exclu","raison":"Modèle gratuit, intention informationnelle."},{"expression":"tutoriel aquarelle débutant","volume_labs":880,"statut":"exclu","raison":"Contenu éducatif."}]},
+    {"univers":"aquarelle","famille":"contamination_aquarelle","lignes":[{"expression":"fleurs à l aquarelle","volume_labs":27100,"statut":"exclu","raison":"Œuvre/modèle et groupe fortement fusionné; ne pas convertir en demande matériel."},{"expression":"aquarelle fleuriste","volume_labs":27100,"statut":"exclu","raison":"Fleuriste/activité, pas matériel."},{"expression":"peindre à l aquarelle","volume_labs":4400,"statut":"exclu","raison":"Apprentissage/contenu."},{"expression":"aquarelle piscine Saintes","volume_labs":1600,"statut":"exclu","raison":"Lieu/enseigne piscine."},{"expression":"aquarelle swimwear","volume_labs":1900,"statut":"exclu","raison":"Mode/nom commercial sans rapport."},{"expression":"aquarelle livres","volume_labs":1300,"statut":"exclu","raison":"Livres/contenu."}]},
+    {"univers":"flechettes_traditionnelles","famille":"D1_steel_tip","lignes":[{"expression":"fléchettes acier","volume_labs":320,"statut":"retenu_candidat","raison":"Matériel steel-tip explicite; variante pointe acier 480 proche, à dédupliquer."},{"expression":"fléchettes pointes acier","volume_labs":480,"statut":"retenu_candidat","raison":"Matériel explicite; ne pas sommer avec fléchettes acier."},{"expression":"fléchettes tungstène","volume_labs":70,"statut":"retenu_candidat","raison":"Sous-intention matériau steel-tip; ne pas additionner au cœur."},{"expression":"darts fléchettes","volume_labs":1600,"statut":"ambigu","raison":"Terme bilingue large; peut recouvrir contenu, événement et produits."},{"expression":"fléchettes pointes plastiques","volume_labs":1000,"statut":"exclu_D2","raison":"Soft-tip/plastique, hors contrôle traditionnel."}]},
+    {"univers":"flechettes_traditionnelles","famille":"D3_cible_sisal","lignes":[{"expression":"cible fléchettes","volume_labs":14800,"statut":"ambigu_zero_conservateur","raison":"Bucket générique recouvrant cible traditionnelle, électronique, lieux et contenu; ne pas traiter comme net."},{"expression":"cible fléchettes sisal","volume_labs":210,"statut":"retenu_candidat","raison":"Matériau traditionnel explicite."},{"expression":"cible fléchettes traditionnel","volume_labs":170,"statut":"retenu_candidat","raison":"Intention traditionnelle explicite."},{"expression":"cible fléchettes liège","volume_labs":1300,"statut":"ambigu","raison":"Peut signifier liège matériel ou Liège géographique dans le corpus sans accent; adjudication SERP nécessaire."},{"expression":"cible fléchettes acier","volume_labs":70,"statut":"retenu_candidat","raison":"Intention steel-tip plausible, faible et à garder séparée."},{"expression":"cible fléchettes électronique","volume_labs":3600,"statut":"exclu_D4","raison":"Électronique, et rejet registre à ne pas réactiver."}]},
+    {"univers":"flechettes_traditionnelles","famille":"D5_setup","lignes":[{"expression":"tapis fléchettes","volume_labs":1600,"statut":"retenu_candidat","raison":"Setup explicite; confirmer tapis de jeu et exclure tapis de tir."},{"expression":"éclairage cible fléchettes","volume_labs":720,"statut":"retenu_candidat","raison":"Accessoire de setup explicite."},{"expression":"support cible fléchettes","volume_labs":720,"statut":"ambigu","raison":"Support mural/pied probable mais catégorie variable; ne pas additionner support fléchettes 1000."},{"expression":"protection mur fléchettes","volume_labs":390,"statut":"retenu_candidat","raison":"Surround/protection explicite."},{"expression":"support fléchettes","volume_labs":1000,"statut":"ambigu","raison":"Support de cible ou autre; adjudication SERP."}]},
+    {"univers":"flechettes_traditionnelles","famille":"D6_pieces_panier","lignes":[{"expression":"ailettes fléchettes","volume_labs":880,"statut":"retenu_candidat","raison":"Pièce steel-tip compatible; pas une ligne cœur autonome."},{"expression":"étuis fléchettes","volume_labs":110,"statut":"retenu_candidat","raison":"Rangement explicite, faible."},{"expression":"tiges fléchettes","volume_labs":110,"statut":"retenu_candidat","raison":"Pièce explicite, faible."},{"expression":"pointes fléchettes","volume_labs":30,"statut":"ambigu","raison":"Pointes acier/plastique à séparer; trop faible pour guider seul l'univers."},{"expression":"accessoires fléchettes","volume_labs":390,"statut":"ambigu","raison":"Bucket hétérogène; ne pas additionner ses sous-termes."}]},
+    {"univers":"flechettes_traditionnelles","famille":"contamination_hors_produit","lignes":[{"expression":"jeu de fléchettes","volume_labs":18100,"statut":"ambigu_zero_conservateur","raison":"SERP/raw contient électronique, jeux gratuits, Wikipédia et intention événementielle; ce head n'est pas univers net."},{"expression":"championnat du monde fléchettes","volume_labs":18100,"statut":"exclu","raison":"Événement/spectacle; saisonnalité très forte."},{"expression":"distance fléchettes","volume_labs":14800,"statut":"exclu","raison":"Règle/information de pratique."},{"expression":"règles fléchettes","volume_labs":1600,"statut":"exclu","raison":"Information."},{"expression":"bar à fléchettes","volume_labs":1300,"statut":"exclu","raison":"Lieu/service."},{"expression":"fléchettes ventouse","volume_labs":880,"statut":"exclu","raison":"Jouet/enfant."}]}
+  ],
+  "net_conservateur": {
+    "aquarelle": "non_somme; lignes_candidates A2 et sous-intentions A1/A4, A3 ambigu à zéro conservateur",
+    "flechettes_traditionnelles": "non_somme; D1/D3/D5/D6 gardées par lignes explicites, heads jeu/cible génériques ambigus",
+    "raison": "Les volumes Labs et variantes ne remplacent pas la mesure Ads/SERP Root; aucune valeur nette inventée."
+  }
+}

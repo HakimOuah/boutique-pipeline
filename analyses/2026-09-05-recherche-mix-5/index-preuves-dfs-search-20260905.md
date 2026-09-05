@@ -1,3 +1,5 @@
+> Contrôle historique réalisé AVANT la mesure de cette mission. Des réponses fraîches existent désormais dans raw/ ; voir POINT-ETAPE.md.
+
 # Index local des preuves DataForSEO — Search France — 2026-09-05
 
 ## Périmètre et méthode

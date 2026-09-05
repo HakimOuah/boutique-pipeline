@@ -1,5 +1,5 @@
 {
-  "status": "PREPARED_NOT_EXECUTED_BUDGET_PENDING",
+  "status": "EXECUTED",
   "country": "France",
   "language": "French",
   "endpoint": "keywords_data/google_ads/search_volume/live",
@@ -309,5 +309,7 @@
         }
       ]
     }
-  ]
+  ],
+  "execution_note": "Lot initial exécuté après confirmation du plafond de 10 EUR. Réponses datées dans raw/ ; état courant POINT-ETAPE.md et budget.json.",
+  "initial_status": "PREPARED_NOT_EXECUTED_BUDGET_PENDING"
 }

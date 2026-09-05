@@ -1,0 +1,9 @@
+{
+  "destination": "FR",
+  "probes": [
+    {"action":"variants","product_id":"1005001860055245","checked_at_utc":"2026-09-05","ok":false,"ae_code":"605","error":"IOPUpstreamError","request_id":"212a73a517886321926703720"},
+    {"action":"variants","product_id":"4000201156802","checked_at_utc":"2026-09-05","ok":false,"ae_code":"605","error":"IOPUpstreamError","request_id":"212a715417886321994872610"},
+    {"action":"exact","product_id":"4000201156802","properties":["U-Shape","1-1.5 kg"],"property_provenance":"hypotheses copied from Alitools lead specs; not observed in gateway variants/PDP","checked_at_utc":"2026-09-05","ok":false,"ae_code":"605","error":"IOPUpstreamError","request_id":"0baf723f17886322085286854"}
+  ],
+  "note": "Aucun SKU, stock, prix France, fret ou délai n'a été reçu. Les propriétés de la tentative exact sont des hypothèses du lead Alitools, pas des propriétés API observées; tentative NON QUALIFIANTE. AE 605 ne prouve pas une indisponibilité globale de l'API; aucune relance supplémentaire dans cette fenêtre."
+}

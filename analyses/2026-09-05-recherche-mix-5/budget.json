@@ -1,0 +1,20 @@
+{
+  "authorized_eur": 10,
+  "spent_usd": 3.17016,
+  "indicative_spent_eur": 2.7277,
+  "fx_eur_usd": 1.1622,
+  "fx_date": "2026-09-04",
+  "fx_source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+  "fx_raw": "raw/ecb-eur-usd.xml",
+  "note": "Coûts API retournés DataForSEO ; conversion EUR indicative hors frais/change de facturation. Aucun appel Monid, achat de crédits ou commande.",
+  "calls": 57,
+  "endpoint_counts": {
+    "keywords_data/google_ads/search_volume/live": 9,
+    "dataforseo_labs/google/keyword_suggestions/live": 24,
+    "serp/google/organic/live/advanced": 17,
+    "keywords_data/google_trends/explore/live": 7
+  },
+  "labs_rows_before_dedup": 16343,
+  "exact_rows_excluding_witness": 234,
+  "witness_final": 12100
+}

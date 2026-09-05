@@ -1,0 +1,46 @@
+{
+  "action": "exact",
+  "ok": true,
+  "result": {
+    "checked_at_utc": "2026-09-05T18:45:17+00:00",
+    "destination": "FR",
+    "exact_sku": {
+      "currency": "EUR",
+      "offer_sale_price": "4.59",
+      "properties": [
+        {"image":"https://ae01.alicdn.com/kf/S5efd90dfa0bb4ef696ee7fe066c20e0db.jpg","name":"Couleur du métal","raw_value":"Argent Antique","value":"Citrine"},
+        {"image":null,"name":"Couleur de la pierre principale","raw_value":"noir","value":"8mm"}
+      ],
+      "sku_attr": "200000783:193#8mm;200001034:201706807#Citrine",
+      "sku_id": "12000050871647256",
+      "sku_price": "4.71",
+      "stock": 2,
+      "tax_included": true
+    },
+    "freight": {
+      "code": 200,
+      "message": "Call succeeds",
+      "options": [
+        {"available_stock":"2","code":"CAINIAO_FULFILLMENT_STD","company":"AliExpress Selection Standard","currency":"EUR","delivery_date":"sep. 10 - 15","free_shipping":false,"max_delivery_days":10,"min_delivery_days":5,"ship_from_country":"CN","shipping_fee":"1,99€","tracking":true}
+      ],
+      "success": true
+    },
+    "product": {
+      "evaluation_count": "0",
+      "product_id": "1005007510843875",
+      "rating": "0.0",
+      "sales_count": "5000+",
+      "status": "onSelling",
+      "store": {
+        "communication_rating": "4.7",
+        "country": "CN",
+        "id": 4474135,
+        "item_as_described_rating": "4.7",
+        "name": "JD Gemstone Jewellry Factory Store",
+        "shipping_speed_rating": "4.8"
+      },
+      "title": "JD – Bracelet de perles en pierre naturelle, améthyste, œil de tigre, cristal, Quartz, Agate, pierres précieuses, pour femmes et hommes, bijoux de guérison Reiki, cadeau"
+    },
+    "source": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS"
+  }
+}

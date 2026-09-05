@@ -10,41 +10,76 @@ Règles d'usage :
 - Le registre pointe vers les rapports ; il ne remplace jamais leur détail ni leurs réserves.
 - Niveaux de validation : 1 = marché, 2 = fiche AliExpress, 3 = commande test, 4 = GO lancement. Aucun raccourci entre niveaux.
 
-Dernier ajout : 5 septembre 2026 — collecte mixte préparatoire, aucun nouveau PASS.
+Dernier ajout : 5 septembre 2026 — recherche mixte mesurée ; 2 PASS_PREQUALIFICATION (grossesse et univers bijoux), aucun TECHNICAL_PASS.
 
 État antérieur du 4 septembre 2026 — **B1 abandonné par Hakim (`NO_GO_FINAL`) pour concurrence Ads ; A6 rasoir approfondi, priorité 1 en REVIEW ; domaine officiel lelamier.com corrigé** ; **état des neuf : 3 REVIEW / 5 STOP techniques / 1 NO_GO humain, zéro PASS** ; **test couplé TrendTrack ↔ demande Google : 6 offres mesurées, 4 STOP de périmètre / 2 REVIEW** ; conservation du premier test de 12 pistes. Également ce jour : portefeuilles, PDP Chrome (homme CONTACTS 16,50 €, 4,8/411 ; femme CONTACT’S 14,69 / 21,39 €, un seul atelier ; Sterre stock PDP 5) ; poufs, Trends + sourcing.
 
-## Recherche mixte 3 Search + 2 univers — 05/09/2026 — collecte préparatoire
+## Recherche mixte 3 Search + 2 univers — 05/09/2026 — mesures et qualification
 
-[Point de reprise et preuves](analyses/2026-09-05-recherche-mix-5/POINT-ETAPE.md). **Budget API en attente, zéro nouvelle mesure dans cette mission, zéro PASS, zéro sourcing.** Les statuts ci-dessous ne sont pas des préqualifications.15pistes Search et2univers ont un lot de105expressions préparé, non exécuté. Les autres idées restent documentées sans approfondissement.
+[État, décisions et preuves](analyses/2026-09-05-recherche-mix-5/POINT-ETAPE.md). **Plafond 10 EUR confirmé ; mesures DataForSEO réalisées. Deux pass marché écrits : coussin de grossesse et univers bijoux, aucune validation technique complète.** Les deux modes restent distincts. Les exclusions de lot sont bornées aux offres/requêtes sondées, pas des déclarations d'absence de marché exhaustive.
 
 | ID | Produit / synonymes | Mode | État |
 |---|---|---|---|
-| M1 | Batardeau porte / barrière anti-inondation | SEARCH | À MESURER |
-| M2 | Récupérateur chaleur cheminée / distribution air chaud poêle | SEARCH | À MESURER |
-| M3 | Affûteuse à eau / touret affûtage | SEARCH | À MESURER |
-| M4 | Cave électrique fromage / affinage domestique | SEARCH | À MESURER |
-| M5=L5 | Kit fumage à froid / fumoir saumon fromage | SEARCH | À MESURER — doublon fusionné |
-| M6 | Four solaire / cuiseur solaire portable | SEARCH | À MESURER |
-| M7 | Séchoir plantes / herbes / champignons à claies | SEARCH | À MESURER |
-| M8 | Garde-manger bois ventilé | SEARCH | À MESURER |
-| L1 | Table rempotage / table à rempoter | SEARCH | À MESURER |
-| L2 | Séchoir solaire alimentaire fruits légumes | SEARCH | À MESURER |
-| L3 | Pedalboard guitare bois / pedal board | SEARCH | À MESURER |
+| M1 | Batardeau porte / barrière anti-inondation | SEARCH | REVIEW_PREQUALIFICATION — voir rapport, aucun sourcing |
+| M2 | Récupérateur chaleur cheminée / distribution air chaud poêle | SEARCH | ÉCARTÉ DU LOT — première mesure faible, périmètre sondé seulement |
+| M3 | Affûteuse à eau / touret affûtage | SEARCH | ÉCARTÉ DU LOT — première mesure faible, périmètre sondé seulement |
+| M4 | Cave électrique fromage / affinage domestique | SEARCH | ÉCARTÉ DU LOT — première mesure faible, périmètre sondé seulement |
+| M5=L5 | Kit fumage à froid / fumoir saumon fromage | SEARCH | ÉCARTÉ DU LOT — première mesure faible, périmètre sondé seulement ; doublon fusionné |
+| M6 | Four solaire / cuiseur solaire portable | SEARCH | ÉCARTÉ DU LOT — première mesure faible, périmètre sondé seulement |
+| M7 | Séchoir plantes / herbes / champignons à claies | SEARCH | ÉCARTÉ DU LOT — première mesure faible, périmètre sondé seulement |
+| M8 | Garde-manger bois ventilé | SEARCH | REVIEW_PREQUALIFICATION — voir rapport, aucun sourcing |
+| L1 | Table rempotage / table à rempoter | SEARCH | ÉCARTÉ DU LOT — première mesure faible, périmètre sondé seulement |
+| L2 | Séchoir solaire alimentaire fruits légumes | SEARCH | ÉCARTÉ DU LOT — première mesure faible, périmètre sondé seulement |
+| L3 | Pedalboard guitare bois / pedal board | SEARCH | ÉCARTÉ DU LOT — première mesure faible, périmètre sondé seulement |
 | L4 | Machine à tricoter mécanique AddiExpress | SEARCH | HORS BATCH — adjacence STOP, indisponible ; aucune reprise |
 | L6 | Ruche horizontale / kényane / top bar | SEARCH | HORS BATCH — offre444€ hors plafond |
-| L7 | Cerf-volant acrobatique / carbone / pilotable | SEARCH | À MESURER |
-| L8 | Croquet familial bois | SEARCH | À MESURER |
-| L9 | Presse à fleurs / presse herbier | SEARCH | À MESURER |
-| L10 | Kit montage mouches pêche / fly tying | SEARCH | À MESURER |
-| U1 | Fléchettes traditionnelles / sisal / installation / darts | UNIVERS SHOPPING | À MESURER — électronique/connecté et soft-tip exclus ; rejet antérieur préservé |
-| U2 | Matériel aquarelle : papier / couleurs / pinceaux / coffrets | UNIVERS SHOPPING | À MESURER — œuvres/cours/autres techniques exclus |
+| L7 | Cerf-volant acrobatique / carbone / pilotable | SEARCH | ÉCARTÉ DU LOT — première mesure faible, périmètre sondé seulement |
+| L8 | Croquet familial bois | SEARCH | ÉCARTÉ DU LOT — première mesure faible, périmètre sondé seulement |
+| L9 | Presse à fleurs / presse herbier | SEARCH | ÉCARTÉ DU LOT — première mesure faible, périmètre sondé seulement |
+| L10 | Kit montage mouches pêche / fly tying | SEARCH | ÉCARTÉ DU LOT — première mesure faible, périmètre sondé seulement |
+| U1 | Fléchettes traditionnelles / sisal / installation / darts | UNIVERS SHOPPING | REVIEW_PREQUALIFICATION — voir rapport, aucun sourcing ; électronique/soft-tip toujours exclus |
+| U2 | Matériel aquarelle : papier / couleurs / pinceaux / coffrets | UNIVERS SHOPPING | REVIEW_PREQUALIFICATION — voir rapport, aucun sourcing |
 | U3 | Padel équipement | UNIVERS SHOPPING | DÉCOUVERTE SEULE — marques et généralistes |
 | U4 | Fermentation maison kéfir / kombucha | UNIVERS SHOPPING | DÉCOUVERTE SEULE — vivant/alimentaire |
 | U5 | Slackline / longline | UNIVERS SHOPPING | DÉCOUVERTE SEULE — sécurité et saisonnalité |
 | U6 | Yoga aérien / hamac yoga | UNIVERS SHOPPING | DÉCOUVERTE SEULE — ancrages et périmètre |
 | U7 | Équitation loisir / sellerie | UNIVERS SHOPPING | DÉCOUVERTE SEULE — périmètre trop large, EPI/tailles |
 | U8 | Escalade loisir équipement | UNIVERS SHOPPING | DÉCOUVERTE SEULE — EPI et expertise |
+### Extensions Search mesurées dans cette passe
+
+Identifiants propres à cette mission ; les L2–L12 du deuxième mémo scout sont remappés R1–R11 ici. Les têtes, contrôles et nulls exacts sont dans le CSV du dossier.
+
+| ID | Produit / synonymes | État |
+|---|---|---|
+| R1 | Photomètre piscine / testeur eau numérique | Première mesure faible ; pas de pass |
+| R2 | Moniteur air PM2.5 / TVOC / HCHO | Première mesure faible ; CO2 exclu, offre UK Only à clarifier |
+| R3 | Humidimètre bois / testeur humidité matériaux | Première mesure faible et persona mixte ; pas de pass |
+| R4 | Sorbetière à compresseur / turbine à glace | REVIEW — parent 22 200 non attribuable au seul compresseur |
+| R5 | Thermostat connecté chaudière / chauffage | REVIEW — 14 800 parent ; marques et compatibilité, pas de source |
+| R6 | Compteur énergie connecté domestique | Première mesure faible ; pas de pass |
+| R7 | Planche de transfert fauteuil / voiture | Première mesure faible ; pas de pass |
+| R8 | Siège élévateur baignoire / lève-baignoire | Première mesure faible ; sécurité et SAV non vérifiés |
+| R9 | Rampe fauteuil roulant pliable / PMR portable | Première mesure faible ; pas de pass |
+| R10 | Fauteuil releveur électrique | 4 400 parent ; pas de pass |
+| R11 | Rollator tout-terrain / déambulateur grandes roues | 4 400 rollator parent ; pas de pass |
+| R12 | Oreiller cervical / ergonomique | REVIEW — têtes 18 100 et 22 200 non sommées ; générique défendable non démontré |
+| R13 | Coussin de grossesse / maternité adulte | PASS_PREQUALIFICATION ; TECHNICAL_INCONCLUSIVE — 33 100 exact, aucun fournisseur vérifié |
+| R14 | Surjeteuse domestique | Non retenue du lot — 18 100 parent mais fabricants dominants ; aucune réouverture mercerie |
+| S1 | Coussin de lecture / dossier de lecture | REVIEW — 12 890 en buckets proposés ; périmètre premium à vérifier |
+| S2 | Cache clim extérieur / cache pompe à chaleur | REVIEW — taille demande plausible, offre standard et ventilation à établir |
+| S3 | Mannequin de couture réglable / buste ajustable | REVIEW — tête 9 900, réglable 1 900 ; particulier/pro/présentation à séparer |
+| S4 | Tapis de prière épais | 8 100 tête / 590 épais ; première mesure seule, pas de pass |
+| S5 | Carillon à vent | 2 900 générique ; Koshi marque 3 600 exclue de la demande générique |
+| S6 | Coffret montre / boîte à montre | 1 600 / 1 000 ; première mesure seule, pas de pass |
+| S7 | Coffret bijoux / boîte à bijoux | 1 600 / 12 100 ; REVIEW, forme et prix non qualifiés |
+| S8 | Parapluie inversé / tempête | 1 300 / 590 ; première mesure faible |
+| S9 | Masque de sommeil occultant | 2 900 tête / 10 précis ; première mesure faible |
+| S10 | Pupitre / support livre de lecture | 90 / 90 non sommés ; première mesure faible |
+
+### Univers repris, sans nouvelle entrée en double
+
+- Globe/cartographie : suite du dossier U3 du 15 août ci-dessous ; nouvelle mesure DFS, état REVIEW, ancien 66 550 non repris.
+- Bijoux pierres naturelles/symboles : suite du candidat autonome nommé le 15 août ci-dessous, première consolidation DFS ; PASS_PREQUALIFICATION à 44 730/mois, sourcing incomplet (2 vendeurs bracelets, 1 colliers, aucune bague), TECHNICAL_INCONCLUSIVE.
 
 ## Décision étendoir et approfondissement rasoir — 04/09/2026
 
@@ -364,7 +399,7 @@ Analyse menée par **Codex** (lot complet, run `20260815-181328`) puis **reprise
 
 **Enseignement transverse — la consolidation par famille change les ordres de grandeur** : U3 22 870 → 80 960 (×2,9), U5 4 120 → 22 120 (×6,4), U4b 12 000 → 24 830 (×2,1). Sur U3, les 7 130 manquants sont comblés 11 fois **sans une seule graine nouvelle**. Mesurer une tête par famille sous-évalue systématiquement — c'est le phénomène Noirmont, reproduit à l'identique.
 
-**Candidat neuf né de l'analyse** : « bijoux pierres naturelles et symboles » (révélé par momentici.com — 2 344 produits, médiane 39 €, 0,4 % sous 15 €). Ne s'ajoute pas à U6, jamais mesuré. À traiter comme une entrée autonome.
+**Candidat neuf né de l'analyse du 15 août** : « bijoux pierres naturelles et symboles » (révélé par momentici.com — 2 344 produits, médiane 39 €, 0,4 % sous 15 € ; données historiques). Ne s'ajoute pas à U6. **Suite 05/09 : première consolidation DFS dans [recherche mixte](analyses/2026-09-05-recherche-mix-5/POINT-ETAPE.md), état PASS_PREQUALIFICATION à 44 730/mois, sourcing incomplet (2 vendeurs bracelets, 1 colliers, aucune bague), TECHNICAL_INCONCLUSIVE.**
 
 
 ~~Prochaine étape : étapes 1-2 du plan sur les six en une session.~~ **Fait le 15/08 — voir les résultats ci-dessous.**

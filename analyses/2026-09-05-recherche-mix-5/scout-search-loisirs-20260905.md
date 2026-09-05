@@ -1,7 +1,7 @@
 # Scout d’idéation gratuite — Search France loisirs, hobbies et jardin particulier
 
-**Date de consultation :** 05/09/2026 (Europe/Paris)  
-**Mode :** `PRODUIT PUR / Search` — pistes nouvelles, non mesurées.  
+**Date de consultation :** 05/09/2026 (Europe/Paris)
+**Mode :** `PRODUIT PUR / Search` — pistes nouvelles, non mesurées.
 **Statut commun :** `NOUVELLE_IDÉE_NON_MESURÉE`. Aucun volume, CPC, score, verdict GO ou preuve de fournisseur n’est déduit de ce mémo. Les prix ci-dessous sont des observations de pages publiques consultées à cette date ; ils peuvent être promotionnels, périmés ou liés à un stock indisponible.
 
 ## Anti-doublon et périmètre

@@ -1,0 +1,9 @@
+# Économie de panier — bijoux — 5 septembre 2026
+
+Les trois prix source exacts observés à ce stade sont des points de coût, pas une marge de catalogue : bracelet Citrine 8 mm 6,58 € livré FR (stock 2), bracelet agate noire 3,90 € (stock 13), collier lapis 5,78 € (stock 18). La pierre et le métal restent déclarés, leur conformité/authenticité n'est pas attestée. Les mêmes références ne sont pas démontrées identiques aux bijoux vendus 39 € par les concurrents ; un bracelet simple de perles n'est pas un jonc argent.
+
+Scénario purement illustratif : deux articles à 39 € TTC donnent 78 € TTC, soit 65 € HT avec TVA supposée 20 %. Paiement supposé 2 % TTC +0,25 € =1,81 € ; réserve retours supposée 5 % du CA HT =3,25 €. Avec bracelet 6,58 € et collier 5,78 € expédiés séparément, coût livré supposé non récupérable 12,36 € : contribution avant Ads et charges fixes 47,58 €. Deux colis et deux vendeurs peuvent réduire la qualité d'expérience du panier et augmenter le coût des incidents. Ce scénario ne démontre pas que le client achètera ces deux articles à ces prix.
+
+Les CPC Google Ads des requêtes exactes sont 0,76 USD bracelet naturel, 0,64 USD collier naturel et 1,13 USD bague améthyste, soit environ 0,65/0,55/0,97 € au taux ECB retenu. **Ce ne sont pas des CPC Shopping observés.** Pour illustrer la sensibilité seulement, un clic à 0,65 € coûterait 65/32,50/21,67 € par commande avec un taux de conversion de 1/2/3 %. À panier illustratif constant, cela laisserait −17,42/+15,08/+25,91 € avant charges fixes et IS. Aucune conversion n'est mesurée.
+
+Les fournisseurs bagues et les fournisseurs de secours, le panier réel, la densité Ads, les exigences matérielles et l'économie d'une gamme cohérente manquent encore. **TECHNICAL_INCONCLUSIVE** : pas de lancement ni budget publicitaire engagé ; une contribution arithmétique positive ne suffit pas au TECHNICAL_PASS.
