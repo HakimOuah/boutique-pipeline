@@ -31,3 +31,7 @@ Les deux réponses DataForSEO et les deux courbes Q4 ont été relues indépenda
 ## Extension Allemagne
 
 Lot44DE terminé et contrôlé : [résultat](luna-allemagne/RESULTAT.md). Retour de correction effectivement envoyé à Luna sur les devises, le rôle de Thomann et la piste lit pour chien. Voir le détail dans CONTROLE-ORCHESTRATEUR.md.146graines au total,0nouveauGO.
+
+## Qualification des sources allemandes
+
+Les contrôles Luna cadeaux et lit pour chien sont terminés et relus. Quatrième lot de 35 termes mesuré ; total 181 graines. Sources SKU/pays et fret obtenus pour deux produits. Voir [QUALIFICATION-DE-COMPLEMENT.md](QUALIFICATION-DE-COMPLEMENT.md). Échiquier : présélection renforcée, délai Q4 encore insuffisamment court. Aucun nouveau GO final.

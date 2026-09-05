@@ -1,0 +1,44 @@
+{
+  "product_id": "1005009871365018",
+  "sku": "12000050430442588",
+  "country": "DE",
+  "data": {
+    "msg": "Call succeeds",
+    "code": 200,
+    "success": true,
+    "delivery_options": {
+      "delivery_option_d_t_o": [
+        {
+          "code": "CAINIAO_STANDARD",
+          "shipping_fee_currency": "EUR",
+          "free_shipping": false,
+          "mayHavePFS": false,
+          "guaranteed_delivery_days": "60",
+          "max_delivery_days": 16,
+          "tracking": true,
+          "shipping_fee_format": "2,37€",
+          "delivery_date_desc": "sep. 12 - 21",
+          "company": "Expédition standard AliExpress",
+          "ship_from_country": "CN",
+          "min_delivery_days": 7,
+          "shipping_fee_cent": "2.37"
+        },
+        {
+          "code": "CAINIAO_STANDARD_HEAVY",
+          "shipping_fee_currency": "EUR",
+          "free_shipping": false,
+          "mayHavePFS": false,
+          "guaranteed_delivery_days": "75",
+          "max_delivery_days": 37,
+          "tracking": true,
+          "shipping_fee_format": "28,83€",
+          "delivery_date_desc": "oct. 06 - 12",
+          "company": "AliExpress Shipping for Large Goods by Land",
+          "ship_from_country": "CN",
+          "min_delivery_days": 31,
+          "shipping_fee_cent": "28.83"
+        }
+      ]
+    }
+  }
+}
