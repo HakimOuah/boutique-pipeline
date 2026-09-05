@@ -8,7 +8,7 @@ Cadre : prix public 80–500 €, campagnes Google Search, budget publicitaire m
 
 Registres consultés sur GitHub : `HakimOuah/boutique-pipeline`, main `0bca83102fa3595b1779359ace763f2e99317f57`, registre central et registre Codex. Les copies sont dans preuves. L'absence littérale ne garantit pas l'absence de doublon : les usages et synonymes doivent être vérifiés avant de retenir un produit. Les remontoirs et le tongue drum déjà étudiés sont exclus.
 
-354 lignes de mesure Keyword Planner/DataForSEO, dont des synonymes et des graines finalement non admissibles. **Ce n'est ni 354 produits nouveaux ni un volume à additionner.** CPC et enchères renvoyés en USD. Valeur vide = donnée manquante. Coût DataForSEO cumulé observé : 0.99800 USD. Les résultats bruts sont conservés dans preuves.
+365 lignes de mesure Keyword Planner/DataForSEO, dont des synonymes et des graines finalement non admissibles. **Ce n'est ni 365 produits nouveaux ni un volume à additionner.** CPC et enchères renvoyés en USD. Valeur vide = donnée manquante. Coût DataForSEO cumulé observé : 1.09400 USD. Les résultats bruts sont conservés dans preuves.
 
 La présence Shopify est un indice technique, pas une preuve du mode d'approvisionnement ni de rentabilité. Une absence d'annonce sur un relevé Search signifie uniquement aucune annonce textuelle identifiée à cet instant. Les blocs Produits sponsorisés sont du Shopping. Les pages publiques affichant un prix ne prouvent pas qu'il se vend à ce prix.
 
@@ -53,3 +53,10 @@ Terminer les descriptions et le fret des chaises de sol et presses à badges dé
 - [Expondo — presse 58 mm avec 1 000 badges, 235 € mais stock épuisé](https://www.expondo.fr/uniprodo-machine-a-badges-58-mm-1-000-badges-vierges-10250460)
 
 Les citations de prix ci-dessus sont des observations de pages, pas des ventes constatées. Le modèle, les accessoires, la disponibilité et le délai influencent la comparaison.
+
+## Pistes suivantes — à instruire, pas des GO
+
+- Barre de pole dance : 4 400 FR, 8 100 DE. Coolstuff Allemagne vend un ensemble statique/rotatif à 149,90 €. Plusieurs spécialistes de marques sont présents. La recherche AliExpress initiale a surtout renvoyé des extensions et accessoires : source complète manquante.
+- Table d'inversion : 480 FR et 2 900 DE. Nordic ProStore (Shopify) affiche une Nordcore 1000 à 399 €. AliExpress 1005012110110968 à partir de 127,69 € et 1005009455070862 à partir de 151,39 € : modèle exact, fret, capacité et comparables à établir, pas de GO.
+- Balance board : la tête FR 1 600 mélange des intentions ; DE Balanceboard Erwachsene 1 300, mais rouleau 140 seulement. **1005011887345086 à 32,99 € est un rouleau 10×30 cm, pas un ensemble avec planche.** Ne pas l'utiliser pour calculer une marge sur un kit.
+- Hamac yoga aérien : 260 FR ; Aerial Yoga Tuch 1 300 DE. Les sources 1005009489364817 (tissu 5×2,8 m, plusieurs variantes sans stock) et 1005008742763400 (balançoire à poignées, autre produit) restent à vérifier. Aucun GO.
