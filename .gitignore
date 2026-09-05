@@ -49,3 +49,5 @@ analyses/_tt_raw_*.json
 
 # Cache local du script de découverte DataForSEO (régénérable, coûte 0 à refaire)
 /scripts/.cache_kw_dfs/
+.env.bak*
+.env.local
