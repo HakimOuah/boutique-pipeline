@@ -1,0 +1,457 @@
+[
+  {
+    "keyword": "klappbares schachspiel aus holz",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F01_holzschachspiel",
+    "reason_fr": "Formulation directe du produit : bois + pliant + jeu complet ; très forte proximité d'achat."
+  },
+  {
+    "keyword": "klappbares holzschachspiel",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F01_holzschachspiel",
+    "reason_fr": "Variante composée de F01 ; à regrouper, pas à additionner séparément."
+  },
+  {
+    "keyword": "holzschachspiel klappbar",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F01_holzschachspiel",
+    "reason_fr": "Ordre des mots courant dans une requête produit ; même famille que F01."
+  },
+  {
+    "keyword": "schachspiel aus holz klappbar",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F01_holzschachspiel",
+    "reason_fr": "Synonyme naturel de F01 avec l'attribut pliant explicite."
+  },
+  {
+    "keyword": "klappbares schachset aus holz",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F02_holzschachset",
+    "reason_fr": "Synonyme Schachset, avec bois et pliant ; intention transactionnelle forte."
+  },
+  {
+    "keyword": "holzschachset klappbar",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F02_holzschachset",
+    "reason_fr": "Variante composée de Schachset aus Holz ; même famille proche."
+  },
+  {
+    "keyword": "klappbares schachbrett mit figuren aus holz",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F03_holzschachbrett_figuren",
+    "reason_fr": "Précise le plateau pliant et la présence de pièces en bois ; réduit l'ambiguïté plateau seul."
+  },
+  {
+    "keyword": "schachbrett mit holzfiguren klappbar",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F03_holzschachbrett_figuren",
+    "reason_fr": "Reformulation allemande naturelle de la même offre complète."
+  },
+  {
+    "keyword": "holzschachbrett mit figuren klappbar",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F03_holzschachbrett_figuren",
+    "reason_fr": "Variante composée ; conserver dans la même famille que les requêtes avec Figuren."
+  },
+  {
+    "keyword": "klappschach aus holz",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F04_klappschach",
+    "reason_fr": "Synonyme court de jeu d'échecs pliant ; le bois qualifie directement le produit."
+  },
+  {
+    "keyword": "klappschach holz",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F04_klappschach",
+    "reason_fr": "Variante elliptique fréquente en recherche produit ; même famille que Klappschach aus Holz."
+  },
+  {
+    "keyword": "klappbare schachkassette aus holz",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F05_schachkassette_holz",
+    "reason_fr": "Schachkassette est un synonyme allemand utile pour un jeu pliant en coffret."
+  },
+  {
+    "keyword": "schachkassette aus holz klappbar",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F05_schachkassette_holz",
+    "reason_fr": "Ordre des mots inversé ; même famille sémantique, à mesurer ensemble."
+  },
+  {
+    "keyword": "klappbare schachgarnitur aus holz",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F12_schachgarnitur_holz",
+    "reason_fr": "Schachgarnitur est un synonyme plus formel de set complet ; bois et pliant sont explicites."
+  },
+  {
+    "keyword": "schachspiel aus holz 40 cm klappbar",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F06_groesse_38_40_cm",
+    "reason_fr": "Longue traîne très qualifiée par la taille annoncée ; vérifier que 40 cm désigne bien le plateau."
+  },
+  {
+    "keyword": "schachspiel holz 40x40 cm klappbar",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F06_groesse_38_40_cm",
+    "reason_fr": "Variante compacte de dimension ; même famille que les écritures espacées de 40 x 40 cm."
+  },
+  {
+    "keyword": "schachbrett 40 x 40 cm mit figuren aus holz",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F06_groesse_38_40_cm",
+    "reason_fr": "Taille + plateau + pièces en bois ; forte adéquation, sous réserve de la mesure réelle."
+  },
+  {
+    "keyword": "schachbrett 40x40 cm holz klappbar",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F06_groesse_38_40_cm",
+    "reason_fr": "Variante sans espaces autour du signe x ; ne pas créer un seed séparé de 40 x 40 cm."
+  },
+  {
+    "keyword": "schachspiel aus holz 38 cm klappbar",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F06_groesse_38_40_cm",
+    "reason_fr": "Teste la borne basse de la taille visée ; à garder dans la même famille dimensionnelle."
+  },
+  {
+    "keyword": "holzschachspiel mit 32 figuren",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F07_32_figuren",
+    "reason_fr": "Signale un set complet de 32 pièces et le matériau bois ; intention très qualifiée."
+  },
+  {
+    "keyword": "schachspiel aus holz mit 32 figuren",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F07_32_figuren",
+    "reason_fr": "Variante syntaxique naturelle du même besoin de set complet."
+  },
+  {
+    "keyword": "schachset aus holz mit 32 schachfiguren",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F07_32_figuren",
+    "reason_fr": "Synonyme Schachset et précision 32 Schachfiguren ; à comparer dans une seule famille."
+  },
+  {
+    "keyword": "klappbares schachspiel mit 32 figuren",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F07_32_figuren",
+    "reason_fr": "Pliant + set complet ; le bois est implicite dans le produit mais pas dans la requête."
+  },
+  {
+    "keyword": "schachbrett mit 32 figuren aus holz",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F07_32_figuren",
+    "reason_fr": "Formulation orientée ensemble complet ; surveiller la confusion avec des pièces vendues seules."
+  },
+  {
+    "keyword": "hochwertiges klappbares schachspiel aus holz",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F08_premium_gross",
+    "reason_fr": "Le qualificatif hochwertig soutient le positionnement envisagé à 80–150 EUR."
+  },
+  {
+    "keyword": "hochwertiges holzschachspiel klappbar",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F08_premium_gross",
+    "reason_fr": "Variante composée et ordre des mots différent ; même intention premium."
+  },
+  {
+    "keyword": "edles holzschachspiel klappbar",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F08_premium_gross",
+    "reason_fr": "Edles exprime une recherche de cadeau ou de finition supérieure compatible avec le prix."
+  },
+  {
+    "keyword": "großes klappbares schachspiel aus holz",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F08_premium_gross",
+    "reason_fr": "La taille importante distingue l'offre d'un jeu de voyage ; vérifier la promesse réelle."
+  },
+  {
+    "keyword": "schachspiel aus holz kaufen",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F09_kaufen",
+    "reason_fr": "Verbe d'achat explicite avec matériau ; très bon terme de transaction à tester en priorité."
+  },
+  {
+    "keyword": "klappbares holzschachspiel kaufen",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F09_kaufen",
+    "reason_fr": "Achat explicite + produit pliant ; variante proche de F01 et F09."
+  },
+  {
+    "keyword": "schachbrett mit figuren aus holz kaufen",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F09_kaufen",
+    "reason_fr": "Achat d'un ensemble plateau + pièces, ce qui limite l'intention plateau seul."
+  },
+  {
+    "keyword": "hochwertiges schachset aus holz kaufen",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F09_kaufen",
+    "reason_fr": "Achat explicite et qualité perçue cohérente avec le panier de prix."
+  },
+  {
+    "keyword": "schachspiel aus holz als geschenk",
+    "group": "intention_forte",
+    "priority": "core",
+    "close_variant_family": "F10_geschenk",
+    "reason_fr": "Intention cadeau forte ; pertinente pour un objet bois premium, sans promettre de personnalisation."
+  },
+  {
+    "keyword": "schachspiel aus holz",
+    "group": "generiques_a_tester",
+    "priority": "test",
+    "close_variant_family": "F01_holzschachspiel",
+    "reason_fr": "Générique bois sans pliant ; bon seed de découverte mais risque de modèles non pliants."
+  },
+  {
+    "keyword": "holzschachspiel",
+    "group": "generiques_a_tester",
+    "priority": "test",
+    "close_variant_family": "F01_holzschachspiel",
+    "reason_fr": "Forme composée synonyme de Schachspiel aus Holz ; même famille, ne pas additionner."
+  },
+  {
+    "keyword": "holz schachspiel",
+    "group": "generiques_a_tester",
+    "priority": "test",
+    "close_variant_family": "F01_holzschachspiel",
+    "reason_fr": "Variante espacée à sonder séparément seulement pour observer la normalisation Google."
+  },
+  {
+    "keyword": "schachset aus holz",
+    "group": "generiques_a_tester",
+    "priority": "test",
+    "close_variant_family": "F02_holzschachset",
+    "reason_fr": "Synonyme générique de set bois ; pliant et taille restent à qualifier."
+  },
+  {
+    "keyword": "holzschachset",
+    "group": "generiques_a_tester",
+    "priority": "test",
+    "close_variant_family": "F02_holzschachset",
+    "reason_fr": "Forme composée de Schachset aus Holz ; même famille proche."
+  },
+  {
+    "keyword": "holz schachset",
+    "group": "generiques_a_tester",
+    "priority": "test",
+    "close_variant_family": "F02_holzschachset",
+    "reason_fr": "Variante espacée utile linguistiquement, mais à regrouper avec le composé."
+  },
+  {
+    "keyword": "schachbrett mit figuren aus holz",
+    "group": "generiques_a_tester",
+    "priority": "test",
+    "close_variant_family": "F03_holzschachbrett_figuren",
+    "reason_fr": "Générique qui exprime un ensemble complet ; la pliabilité n'est pas garantie."
+  },
+  {
+    "keyword": "holzschachbrett mit figuren",
+    "group": "generiques_a_tester",
+    "priority": "test",
+    "close_variant_family": "F03_holzschachbrett_figuren",
+    "reason_fr": "Variante composée proche ; à filtrer si les résultats montrent des plateaux seuls."
+  },
+  {
+    "keyword": "schachspiel mit figuren",
+    "group": "generiques_a_tester",
+    "priority": "test",
+    "close_variant_family": "F11_schach_mit_figuren",
+    "reason_fr": "Recherche de jeu complet mais sans matériau ni format ; expansion à tester prudemment."
+  },
+  {
+    "keyword": "schachset mit figuren",
+    "group": "generiques_a_tester",
+    "priority": "test",
+    "close_variant_family": "F11_schach_mit_figuren",
+    "reason_fr": "Synonyme Schachset de la famille jeu avec pièces ; intention plus large que le core."
+  },
+  {
+    "keyword": "klappschach",
+    "group": "generiques_a_tester",
+    "priority": "test",
+    "close_variant_family": "F04_klappschach",
+    "reason_fr": "Synonyme pliant sans matériau ; utile pour sonder la demande de catégorie."
+  },
+  {
+    "keyword": "schachspiel klappbar",
+    "group": "generiques_a_tester",
+    "priority": "test",
+    "close_variant_family": "F04_klappschach",
+    "reason_fr": "Variante descriptive de Klappschach ; même famille proche malgré l'absence de Holz."
+  },
+  {
+    "keyword": "schachbrett klappbar mit figuren",
+    "group": "generiques_a_tester",
+    "priority": "test",
+    "close_variant_family": "F04_klappschach",
+    "reason_fr": "Pliant + pièces explicites, mais matériau et dimension non précisés."
+  },
+  {
+    "keyword": "schachkassette",
+    "group": "generiques_a_tester",
+    "priority": "test",
+    "close_variant_family": "F05_schachkassette_holz",
+    "reason_fr": "Synonyme allemand à potentiel ; le matériau et la taille doivent être filtrés par la page."
+  },
+  {
+    "keyword": "schachkassette holz",
+    "group": "generiques_a_tester",
+    "priority": "test",
+    "close_variant_family": "F05_schachkassette_holz",
+    "reason_fr": "Version elliptique bois de Schachkassette ; proche des deux variantes core."
+  },
+  {
+    "keyword": "schachspiel kaufen",
+    "group": "generiques_a_tester",
+    "priority": "test",
+    "close_variant_family": "F09_kaufen",
+    "reason_fr": "Intention d'achat forte mais très générique ; à confronter à la pertinence et au prix."
+  },
+  {
+    "keyword": "schachspiel 40 cm",
+    "group": "generiques_a_tester",
+    "priority": "test",
+    "close_variant_family": "F06_groesse_38_40_cm",
+    "reason_fr": "Seed dimensionnel sans bois ni pliant ; mesurer puis vérifier le sens de 40 cm."
+  },
+  {
+    "keyword": "schachspiel 40x40 cm",
+    "group": "generiques_a_tester",
+    "priority": "test",
+    "close_variant_family": "F06_groesse_38_40_cm",
+    "reason_fr": "Variante compacte de la taille ; même famille que 40 x 40 cm, pas de cumul."
+  },
+  {
+    "keyword": "schachgarnitur aus holz",
+    "group": "generiques_a_tester",
+    "priority": "test",
+    "close_variant_family": "F12_schachgarnitur_holz",
+    "reason_fr": "Synonyme formel de set en bois ; tester avant d'ajouter le qualificatif pliant."
+  },
+  {
+    "keyword": "schachbrett mit figuren kaufen",
+    "group": "generiques_a_tester",
+    "priority": "test",
+    "close_variant_family": "F09_kaufen",
+    "reason_fr": "Achat explicite d'un ensemble, mais le bois et le format pliant restent inconnus."
+  },
+  {
+    "keyword": "schachbrett ohne figuren",
+    "group": "exclus",
+    "priority": "exclude",
+    "close_variant_family": "F14_plateau_seul",
+    "reason_fr": "Recherche explicite du plateau seul ; le produit vendu inclut les 32 pièces."
+  },
+  {
+    "keyword": "schachfiguren kaufen",
+    "group": "exclus",
+    "priority": "exclude",
+    "close_variant_family": "F15_pieces_seules",
+    "reason_fr": "Vise l'achat de pièces seules, pas d'un ensemble plateau + pièces."
+  },
+  {
+    "keyword": "elektronisches schachspiel",
+    "group": "exclus",
+    "priority": "exclude",
+    "close_variant_family": "F16_electronique",
+    "reason_fr": "Produit électronique explicitement hors périmètre."
+  },
+  {
+    "keyword": "schachcomputer",
+    "group": "exclus",
+    "priority": "exclude",
+    "close_variant_family": "F16_electronique",
+    "reason_fr": "Appareil de jeu électronique, sans rapport avec le plateau bois."
+  },
+  {
+    "keyword": "schachspiel online spielen",
+    "group": "exclus",
+    "priority": "exclude",
+    "close_variant_family": "F17_online_gratuit",
+    "reason_fr": "Intention de jouer en ligne, non commerciale pour un produit physique."
+  },
+  {
+    "keyword": "kostenloses schachspiel",
+    "group": "exclus",
+    "priority": "exclude",
+    "close_variant_family": "F17_online_gratuit",
+    "reason_fr": "Recherche gratuite incompatible avec un produit vendu 80–150 EUR."
+  },
+  {
+    "keyword": "personalisiertes schachspiel",
+    "group": "exclus",
+    "priority": "exclude",
+    "close_variant_family": "F18_personnalisation",
+    "reason_fr": "Demande de personnalisation non proposée."
+  },
+  {
+    "keyword": "schachbrett mit gravur",
+    "group": "exclus",
+    "priority": "exclude",
+    "close_variant_family": "F18_personnalisation",
+    "reason_fr": "La gravure est une forme de personnalisation absente de l'offre."
+  },
+  {
+    "keyword": "turnierschachbrett",
+    "group": "exclus",
+    "priority": "exclude",
+    "close_variant_family": "F19_turnier_professionell",
+    "reason_fr": "Orientation tournoi/professionnelle ; ne pas promettre une certification ou conformité dédiée."
+  },
+  {
+    "keyword": "fide schachbrett",
+    "group": "exclus",
+    "priority": "exclude",
+    "close_variant_family": "F19_turnier_professionell",
+    "reason_fr": "Référence à une norme ou certification professionnelle non proposée."
+  },
+  {
+    "keyword": "professionelles schachbrett",
+    "group": "exclus",
+    "priority": "exclude",
+    "close_variant_family": "F19_turnier_professionell",
+    "reason_fr": "Positionnement professionnel spécifique hors promesse produit."
+  },
+  {
+    "keyword": "reiseschach",
+    "group": "exclus",
+    "priority": "exclude",
+    "close_variant_family": "F20_voyage_petit_format",
+    "reason_fr": "Évoque généralement un format compact de voyage, peu compatible avec environ 38–40 cm."
+  }
+]

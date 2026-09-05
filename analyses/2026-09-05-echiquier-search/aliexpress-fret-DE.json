@@ -1,0 +1,62 @@
+[
+  {
+    "product_id": "1005005849671061",
+    "sku": "12000034567970119",
+    "country": "DE",
+    "data": {
+      "msg": "Call succeeds",
+      "code": 200,
+      "success": true,
+      "delivery_options": {
+        "delivery_option_d_t_o": [
+          {
+            "code": "CAINIAO_FULFILLMENT_STD",
+            "shipping_fee_currency": "EUR",
+            "free_shipping": false,
+            "mayHavePFS": false,
+            "guaranteed_delivery_days": "60",
+            "max_delivery_days": 11,
+            "tracking": true,
+            "shipping_fee_format": "1,99€",
+            "delivery_date_desc": "sep. 10 - 16",
+            "company": "AliExpress Selection Standard",
+            "ship_from_country": "CN",
+            "min_delivery_days": 5,
+            "available_stock": "5",
+            "shipping_fee_cent": "1.99"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "product_id": "1005010707041100",
+    "sku": "12000058273814203",
+    "country": "DE",
+    "data": {
+      "msg": "Call succeeds",
+      "code": 200,
+      "success": true,
+      "delivery_options": {
+        "delivery_option_d_t_o": [
+          {
+            "code": "CAINIAO_FULFILLMENT_STD",
+            "shipping_fee_currency": "EUR",
+            "free_shipping": false,
+            "mayHavePFS": false,
+            "guaranteed_delivery_days": "60",
+            "max_delivery_days": 11,
+            "tracking": true,
+            "shipping_fee_format": "1,99€",
+            "delivery_date_desc": "sep. 10 - 16",
+            "company": "AliExpress Selection Standard",
+            "ship_from_country": "CN",
+            "min_delivery_days": 5,
+            "available_stock": "6",
+            "shipping_fee_cent": "1.99"
+          }
+        ]
+      }
+    }
+  }
+]
