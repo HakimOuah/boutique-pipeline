@@ -30,21 +30,21 @@ def complete_candidate(**changes):
     return ProductCandidate(**data)
 
 
-def test_complete_candidate_can_reach_go():
+def test_legacy_score_cannot_issue_commercial_go():
     result = ScoringEngine().evaluate(complete_candidate())
     assert result.decision == "shortlist"
-    assert result.verdict == "GO"
+    assert result.verdict == "TECHNICAL_INCONCLUSIVE"
 
 
 def test_fr_volume_gate_is_enforced():
     result = ScoringEngine().evaluate(complete_candidate(search_volume=9999))
-    assert result.verdict == "MAYBE"
+    assert result.verdict == "TECHNICAL_INCONCLUSIVE"
     assert "search_volume_below_threshold" in result.flags
 
 
 def test_unconfigured_expansion_market_never_auto_goes():
     result = ScoringEngine().evaluate(complete_candidate(market="UK"))
-    assert result.verdict == "MAYBE"
+    assert result.verdict == "TECHNICAL_INCONCLUSIVE"
     assert "market_search_threshold_unconfigured" in result.flags
 
 
@@ -61,7 +61,7 @@ def test_missing_supplier_or_google_proof_stays_maybe():
     result = ScoringEngine().evaluate(
         complete_candidate(supplier_verified=None, google_verified=None)
     )
-    assert result.verdict == "MAYBE"
+    assert result.verdict == "TECHNICAL_INCONCLUSIVE"
     assert "supplier_not_verified" in result.flags
     assert "google_not_verified" in result.flags
 

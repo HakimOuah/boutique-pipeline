@@ -1,3 +1,5 @@
+> Archive de passation datée, non normative. Instructions actuelles : `AGENTS.md` et `PRODUCT-RESEARCH-PLAYBOOK.md` à la racine du dépôt. Charger le détail ci-dessous uniquement pour comprendre l’historique concerné.
+
 # 00 — START HERE (point d'entrée de la passation Codex)
 
 > Dossier de passation Codex — assemblé et vérifié le **2026-07-30** (soir).

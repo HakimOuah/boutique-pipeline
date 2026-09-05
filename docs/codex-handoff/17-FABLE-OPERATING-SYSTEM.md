@@ -1,3 +1,5 @@
+> Archive de passation datée, non normative. Instructions actuelles : `AGENTS.md` et `PRODUCT-RESEARCH-PLAYBOOK.md` à la racine du dépôt. Charger le détail ci-dessous uniquement pour comprendre l’historique concerné.
+
 # 17 — FABLE OPERATING SYSTEM
 
 > **Numérotation** : demandé sous le n° 15, déjà pris par `15-CODEX-EXECUTANT-IMAGES.md` (comme le 14 l'était par le protocole d'ordres). Ce document est donc le 17.

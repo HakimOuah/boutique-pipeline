@@ -1,6 +1,6 @@
-# PLAYBOOK — Construction d’une boutique Shopify
+# PLAYBOOK — Création d'une boutique Shopify mono-produit
 
-Après GO_FINAL, construire selon le mode et les décisions du dossier. Lire uniquement la phase utile. Produit pur et catalogue univers partagent les invariants de vérité et de QA, pas une obligation mono-produit. Les validations majeures portent sur les choix nouveaux et la publication ; une correction dans le cadre déjà approuvé peut avancer. SAMPLE_OK reste bloquant avant GMC/Ads.
+Réf. d’architecture : `docs/ARCHITECTURE.md`. Suivre les 6 phases et les 3 portes de validation humaine.
 
 ## Principes obligatoires — mindset marketeur / développeur / e-commerçant
 
@@ -41,7 +41,7 @@ Après GO_FINAL, construire selon le mode et les décisions du dossier. Lire uni
 
 ## Pré-requis manuels (avant de démarrer)
 - Boutique Shopify créée + thème cible installé + Shopify CLI ou connecteur Shopify disponible.
-- GO_FINAL enregistré et dossier fournisseur identifié. Une simple piste appartient à PRODUCT-RESEARCH-PLAYBOOK.md. Si des informations manquent, Codex les
+- Produit/fournisseur identifié ou piste produit fournie. Si des informations manquent, Codex les
   recherche ou les propose, puis les marque comme hypothèses à valider.
 
 ## Démarrage
@@ -67,7 +67,8 @@ hypothèses, blocages, accès Shopify, IDs/handles, assets finaux et prochaine a
   à partir de `templates/persona.template.md` (persona principal, secondaire, acheteur-cadeau si Q4,
   persona du concurrent + axe différenciant, implications copywriting). Chaque douleur/objection doit
   être adossée à une preuve (verbatim d'avis concurrent, FAQ, forum) — rien d'inventé ; distinguer
-  observé `[O]` / déduit `[D]`. **Valider un nouveau positionnement avant son adoption. Les brouillons locaux peuvent préparer cette décision ; réutiliser le persona déjà validé pour une correction.** (Étape ajoutée le 19/07/2026 à la demande de Hakim.)
+  observé `[O]` / déduit `[D]`. **Le persona doit être validé par Hakim avant la Phase 4 (Contenus) :
+  tout le copywriting du site s'appuie dessus.** (Étape ajoutée le 19/07/2026 à la demande de Hakim.)
 - 1e CRO concurrentielle approfondie : visiter les boutiques comparables et analyser leur façon de
   vendre, pas seulement leur présence. Relever structure de home/page produit, ordre des arguments,
   hero, offres, CTA, pricing, prix barrés, bundles, garanties, livraison, retours, FAQ, preuves,
@@ -146,7 +147,8 @@ hypothèses, blocages, accès Shopify, IDs/handles, assets finaux et prochaine a
   sur la boutique en ligne.
 - Ne pas pousser à l'aveugle : sauvegarder les fichiers modifiés, limiter les push `--only` quand
   possible, utiliser `--allow-live --nodelete` sur live, puis vérifier le rendu réel après push.
-- **PORTE 3** : inspecter le preview, corriger les erreurs et présenter le résultat prêt à publier. Publication seulement après autorisation applicable ; vérifier ensuite le rendu live.
+- Push live via Shopify CLI.
+- **PORTE 3** : validation sur le site live (rendu réel). C'est ici qu'on juge les contenus.
 
 ## Phase 6 — Conformité & livraison
 - Audit GMC : `reference/gmc-checklist.md` (corrections via MCP).

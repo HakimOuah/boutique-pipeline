@@ -27,6 +27,9 @@ Usage :
 """
 import os, sys, json, base64, re, unicodedata, argparse, urllib.request
 from collections import Counter, defaultdict
+from datetime import datetime, timezone
+
+LAST_PROVENANCE = {}
 
 API = "https://api.dataforseo.com/v3/"
 COUT_PAR_PAGE = 0.132  # USD, constate le 29/08/2026 pour limit=1000
@@ -123,12 +126,15 @@ def suggestions(graine, pages=1, limit=1000, location="France", language="French
 
     Les reponses sont mises en cache sur disque : relancer une graine deja
     interrogee ne coute rien. Utiliser cache=False pour rafraichir."""
+    global LAST_PROVENANCE
     os.makedirs(CACHE, exist_ok=True)
     jeton = re.sub(r"\W+", "_", f"{graine}_{location}_{language}_{pages}_{limit}")[:120]
     chemin = os.path.join(CACHE, jeton + ".json")
     if cache and os.path.exists(chemin):
         with open(chemin, encoding="utf-8") as f:
             d = json.load(f)
+        LAST_PROVENANCE = dict(d.get("provenance") or {})
+        LAST_PROVENANCE["from_cache"] = True
         lignes = [tuple(x[:4]) + (tuple(x[4]),) if len(x) > 4 else tuple(x)
                   for x in d["lignes"]]
         return lignes, d["total"], 0.0
@@ -175,26 +181,29 @@ def suggestions(graine, pages=1, limit=1000, location="France", language="French
             break
         for it in items:
             infos = it.get("keyword_info") or {}
-            serie = tuple((m.get("search_volume") or 0)
+            serie = tuple(m.get("search_volume")
                           for m in (infos.get("monthly_searches") or []))
-            lignes.append((it["keyword"], infos.get("search_volume") or 0,
+            lignes.append((it["keyword"], infos.get("search_volume"),
                            infos.get("competition_level"), infos.get("cpc"), serie))
         if len(items) < limit:
             break
-    json.dump({"lignes": lignes, "total": total}, open(chemin, "w", encoding="utf-8"),
+    LAST_PROVENANCE = {"fetched_at": datetime.now(timezone.utc).isoformat(),
+                       "endpoint": "dataforseo_labs/google/keyword_suggestions/live",
+                       "location_name": location, "language_name": language,
+                       "keyword": graine, "pages": pages, "limit": limit, "from_cache": False}
+    json.dump({"lignes": lignes, "total": total, "provenance": LAST_PROVENANCE}, open(chemin, "w", encoding="utf-8"),
               ensure_ascii=False)
     return lignes, total, cout
 
 # --- Controle temoin ---
 
 # Valeur du temoin relevee le 29/08/2026, base France, langue francaise.
-# Sur SEMrush le meme temoin vaut 8 100. Un ecart signifie quota epuise,
-# session tombee ou changement de base : dans ce cas AUCUN chiffre ne doit
-# etre ecrit (regle des "zeros silencieux", controle n.4 du skill).
+# Reference historique seulement ; le controle exige des reponses valides
+# et la coherence avant/apres, pas un volume immuable.
 TEMOIN, TEMOIN_ATTENDU = "tufting", 12100
 
-def verifier_temoin(strict=True):
-    """Retourne (volume_lu, conforme). Leve SystemExit si strict et non conforme."""
+def verifier_temoin(strict=True, reference=None):
+    """Retourne (volume_lu, conforme). Valide la reponse et, si fournie, la reference avant mesure."""
     corps = [{"keywords": [TEMOIN], "location_name": "France",
               "language_name": "French", "search_partners": False}]
     req = urllib.request.Request(
@@ -202,18 +211,23 @@ def verifier_temoin(strict=True):
         data=json.dumps(corps).encode(),
         headers={"Authorization": _auth(), "Content-Type": "application/json"})
     rep = json.load(urllib.request.urlopen(req, timeout=120))
-    res = rep["tasks"][0].get("result")
+    tasks = rep.get("tasks") or []
+    if rep.get("status_code") not in (None, 20000) or not tasks or tasks[0].get("status_code") != 20000:
+        raise SystemExit("CONTROLE TEMOIN IMPOSSIBLE : erreur API ou tache invalide.")
+    res = tasks[0].get("result")
     if not res:
         raise SystemExit(
             "CONTROLE TEMOIN IMPOSSIBLE : reponse vide de DataForSEO. "
             "Ce n'est pas un echec du temoin, c'est une reponse incomplete. "
             "Relancer avant d'ecrire le moindre chiffre.")
     lu = res[0].get("search_volume")
-    conforme = (lu == TEMOIN_ATTENDU)
+    conforme = (isinstance(lu, int) and not isinstance(lu, bool) and lu > 0
+                and res[0].get("keyword") == TEMOIN
+                and (reference is None or lu == reference))
     if strict and not conforme:
         raise SystemExit(
-            f"CONTROLE TEMOIN EN ECHEC : `{TEMOIN}` = {lu}, attendu {TEMOIN_ATTENDU}.\n"
-            "Quota epuise, session tombee ou base changee. Aucun chiffre ne doit "
+            f"CONTROLE TEMOIN EN ECHEC : `{TEMOIN}` = {lu}, reference avant mesure {reference}.\n"
+            "Reponse invalide ou temoins incoherents ; cause a diagnostiquer. Aucun chiffre ne doit "
             "etre ecrit tant que ce controle n'est pas conforme.")
     return lu, conforme
 
@@ -224,6 +238,9 @@ def dedupliquer(lignes):
     for ligne in lignes:
         expr, vol, comp, cpc = ligne[0], ligne[1], ligne[2], ligne[3]
         serie = ligne[4] if len(ligne) > 4 else ()
+        if vol is None:
+            raise SystemExit(f"VOLUME MANQUANT pour `{expr}` : null ne vaut pas zero. "
+                             "Conserver la reponse, verifier ce terme avant consolidation.")
         groupes[cle(expr)].append((expr, vol, comp, cpc, serie))
     sortie = []
     for k, membres in groupes.items():
@@ -297,7 +314,7 @@ def fusion_par_serie(groupes):
     par_emp = defaultdict(list)
     for g in groupes:
         serie = g.get("serie") or ()
-        emp = (g["volume"], serie) if len(set(serie)) >= 3 else ("_", id(g))
+        emp = (g["volume"], serie) if None not in serie and len(set(serie)) >= 3 else ("_", id(g))
         par_emp[emp].append(g)
 
     sortie = []
@@ -387,23 +404,27 @@ def main():
         temoin_avant, _ = verifier_temoin()
         print(f"[temoin] {TEMOIN} = {temoin_avant} avant mesure — conforme", file=sys.stderr)
 
-    blocs, tout, cout = [], {}, 0.0
+    blocs, tout, cout, provenance = [], {}, 0.0, {}
     for g in a.graines:
         lignes, total, c = suggestions(g, pages=a.pages, cache=not a.refresh)
         cout += c
+        provenance[g] = dict(LAST_PROVENANCE)
+        if not LAST_PROVENANCE.get("fetched_at"):
+            raise SystemExit("Cache historique non date : --refresh requis pour une nouvelle mesure decisionnelle.")
         groupes = dedupliquer(lignes)
         tout[g] = groupes
         blocs.append(rapport(g, lignes, groupes, total, c, a.top))
         print(f"[{g}] {len(lignes)} lignes -> {len(groupes)} idees ({c:.3f} USD)", file=sys.stderr)
 
     if not a.sans_temoin:
-        temoin_apres, _ = verifier_temoin()
+        temoin_apres, _ = verifier_temoin(reference=temoin_avant)
         print(f"[temoin] {TEMOIN} = {temoin_apres} apres mesure — conforme", file=sys.stderr)
         blocs.append(f"## Controle temoin\n\n`{TEMOIN}` = **{temoin_avant}** avant la "
                      f"premiere mesure et **{temoin_apres}** apres la derniere "
-                     f"(attendu {TEMOIN_ATTENDU}). Aucun zero silencieux.")
+                     f"(reference historique {TEMOIN_ATTENDU}, non immuable). Temoins coherents ; "
+                     "les controles de chaque resultat restent necessaires.")
 
-    txt = "\n\n---\n\n".join(blocs) + f"\n\n**Cout total : {cout:.3f} USD**\n"
+    txt = "\n\n---\n\n".join(blocs) + f"\n\n**Cout suggestions : {cout:.3f} USD (controles live en supplement)**\n"
     if a.out:
         open(a.out, "w", encoding="utf-8").write(txt)
         print(f"-> {a.out}", file=sys.stderr)
@@ -411,6 +432,11 @@ def main():
         print(txt)
     if a.json:
         json.dump(tout, open(a.json, "w"), ensure_ascii=False, indent=1)
+        meta = {"observed_at": datetime.now(timezone.utc).isoformat(), "graines": provenance,
+                "temoin_avant": temoin_avant, "temoin_apres": None if a.sans_temoin else temoin_apres,
+                "controle_temoin_effectue": not a.sans_temoin, "cout_suggestions_usd": cout}
+        with open(a.json + ".meta.json", "w") as f:
+            json.dump(meta, f, ensure_ascii=False, indent=2)
         print(f"-> {a.json}", file=sys.stderr)
 
 if __name__ == "__main__":
