@@ -1,0 +1,870 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "7.5437 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09050620-1621-0139-0000-f51203adc8ea",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "7.4099 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "cadre maillot de foot",
+        "location_name": "France",
+        "language_code": "fr",
+        "device": "desktop",
+        "depth": 10,
+        "max_crawl_pages": 1,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "cadre maillot de foot",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2250,
+          "language_code": "fr",
+          "check_url": "https://www.google.com/search?q=cadre%20maillot%20de%20foot&hl=fr&gl=FR&ie=UTF-8&uule=w+CAIQIFISCTFXeDMpoFQNEffZR8eWP_1r",
+          "datetime": "2026-09-05 06:20:53 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Homme",
+                "url": "https://www.google.com/search?sca_esv=9ba93acd6ca82055&hl=fr&gl=FR&q=homme+cadre+maillot+de+foot&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4reLO176j24wbGEBzQiBbnQvP9jYRVGP0VeWXQbni1uCujqgjG2GrnQsEc-EbKRlDVz9tok7AwqmN2Mb1XcronS1FQFn-1K1UWuJSjQXNShjIZSlNy_Vq_fvqgeVt5sbz7kMs_3ZIBMMSufi3tupdqpYmooPGYqvFUXIJJOSjt8ULMfp2YRDYolrt4u--bIDpDAkFLVQ&sa=X&ved=2ahUKEwjO85OY5taWAxXH1vACHZxPM5wQxKsJKAB6BAgaEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Enfant",
+                "url": "https://www.google.com/search?sca_esv=9ba93acd6ca82055&hl=fr&gl=FR&q=enfant+cadre+maillot+de+foot&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r21-Rdu7tO0gifSkViQvk4A5N70R2IZwHC4DctL7jw0_DKCvsonUUj_EB6suX8dX6x4YOsNs2f3CdicE8n-DYLKW4yE8m9T6We3B_NeHUca6MHfdzOPCm1lZT9pGSzU2Ppo0lhU1mOI9wEs9Zx8uZm1MsF-gelKeyDT5MA4JOmhBMpXiYpw_j05cMnhUo6-Lo4_sQpg&sa=X&ved=2ahUKEwjO85OY5taWAxXH1vACHZxPM5wQxKsJKAF6BAgeEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Art encadré",
+                "url": "https://www.google.com/search?sca_esv=9ba93acd6ca82055&hl=fr&gl=FR&q=art+encadr%C3%A9+cadre+maillot+de+foot&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r9o8EtIr7w4auRdy15uM4Z_bN--mJfHBxnEsOEwxVKdZJqug4NPH1ad7f97ZY7sMWFqxyi5jEPzkQrgO9RJHVNRyMdRiRGtXJVUtaZXeP2phhrAtw4LmHDdeK1Dr_IRT874uvk-JaiwKyHFWXc8crQXcwXKtSH9JRJXqGJ_OvZrNxaA-r&sa=X&ved=2ahUKEwjO85OY5taWAxXH1vACHZxPM5wQxKsJKAJ6BAgdEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Hauts",
+                "url": "https://www.google.com/search?sca_esv=9ba93acd6ca82055&hl=fr&gl=FR&q=hauts+cadre+maillot+de+foot&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhfEV-4K40i-ZaIQJgdggp1dbZ6fgVquPS86hWW_XHL0QSSKg0eF-jN7jmmoHb1JMfX4xJoIoABL-qQzwG85-6h2QzP0i7PV3OQad1_BjuKZkf_nOVME9s5oDSYRB32e2G15eNUNFUCFGHS-Ga7WrL4mrccehwiD9xbKGxKbkNQStdYvK&sa=X&ved=2ahUKEwjO85OY5taWAxXH1vACHZxPM5wQxKsJKAN6BAgcEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Nearby",
+                "url": "https://www.google.com/search?sca_esv=9ba93acd6ca82055&hl=fr&gl=FR&q=cadre+maillot+de+foot+nearby&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rTalc9ibXQalw1qPNRsa2kf8t-8fGECal_WQ3NzxFABbVClgLo4vIL-jVPcU6ZHXoUrviY9xX3zNl9P4EqiXGBNcLVv1sQn8LMt61Atww9MYtEtWtNLCHOEDNfwn7ierMqIvt4lJ5H9x6ojpHHyEYECiffJfsUADrKsY5jS_nmiC0NoY1&sa=X&ved=2ahUKEwjO85OY5taWAxXH1vACHZxPM5wQxKsJKAR6BAgbEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "New",
+                "url": "https://www.google.com/search?sca_esv=9ba93acd6ca82055&hl=fr&gl=FR&q=new+cadre+maillot+de+foot&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rqi--IS5qqFykt0uxkCtW_C-yAo1m_rOAg8xYA06pAkMMUp6nkt88DuShzA_gCwjq-BtmQD1piAkA3HNTR-g4NaEopb2h_jzMI-ayNG-6UuCdlc61BLPABsEXIfnQEFVdqqPM4jBcmepGEfoW1WgEtIFPHjA0x9gOpJkMOfJLKK-FNPwx&sa=X&ved=2ahUKEwjO85OY5taWAxXH1vACHZxPM5wQxKsJKAV6BAhuEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Used",
+                "url": "https://www.google.com/search?sca_esv=9ba93acd6ca82055&hl=fr&gl=FR&q=used+cadre+maillot+de+foot&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rTalc9ibXQalw1qPNRsa2kfQXn58_BtKJw0YWwsvpaMjDLKeIMGPA7N6dWNKiaYMoSutQCaFMWiuWmvuXbZZOUm7glQJkh2JksWeWXsE-TRQ0Ul7CqzmneQt4hL8usckHS8JNSUb9AYKa0PjI5Z4NAjw571doY3WprCmf6ycMzS3QLMnu&sa=X&ved=2ahUKEwjO85OY5taWAxXH1vACHZxPM5wQxKsJKAZ6BAhvEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Sports",
+                "url": "https://www.google.com/search?sca_esv=9ba93acd6ca82055&hl=fr&gl=FR&q=sports+cadre+maillot+de+foot&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r21-Rdu7tO0gifSkViQvk4A5N70R2IZwHC4DctL7jw0-iLgOZ1DvaCutJPM-OX1sNx_Y8rxmjKLgw4fwdVlhuEODd_g_479_AEDmHefcTDf8KAKEzPZB3ZwYmstaIaE-1dL-Cd5Uu84Wjh1QLzw7yGXVIE4xaAWr0PWJDtgcRvfXard2dITI3eblkz3nGExo6q-RXlg&sa=X&ved=2ahUKEwjO85OY5taWAxXH1vACHZxPM5wQxKsJKAd6BAhtEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "popular_products",
+            "people_also_ask",
+            "images",
+            "video",
+            "related_searches"
+          ],
+          "se_results_count": 194,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.acaza.fr",
+              "title": "Cadre photo pour Maillot de Football, Cyclisme et autres ...",
+              "url": "https://www.acaza.fr/cadre-photo-pour-t-shirt-de-collection-cadre-boite-3d-60x80-cm-noir",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.acaza.fr › ... › Cadres de collection",
+              "website_name": "acaza.fr",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "Avec le cadre photo ACAZA, exposez vos maillots de sport préférés de manière élégante. Idéal pour encadrer vos maillots de football, vos maillots de cyclisme ou ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "cadre maillot de foot sur www.acaza.fr",
+                  "url": "https://www.acaza.fr/cadre-photo-pour-t-shirt-de-collection-cadre-boite-3d-60x80-cm-noir",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-f51203adc8ea:0"
+                }
+              ],
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 59.99,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "59,99 €"
+              },
+              "highlighted": [
+                "exposez vos maillots de sport préférés de manière élégante"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "cadremaillot-mygoat.fr",
+              "title": "Cadre Maillot de Foot – Encadrez votre maillot facilement | My ...",
+              "url": "https://cadremaillot-mygoat.fr/?srsltid=AfmBOorJlxq4BSrLbQqfo0Pn-9foWAM78U4BBqiN6p5qTtB4smmRp_aB",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://cadremaillot-mygoat.fr",
+              "website_name": "Cadre Maillot de Foot",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Encadrez votre maillot de foot facilement avec un cadre premium My Goat. Personnalisation photos & texte, montage simple. Livraison rapide 2-3 jours ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Encadrez votre maillot de foot facilement avec un cadre premium My Goat"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "www.amazon.fr",
+              "title": "Amazon.fr : Cadre Maillot Foot",
+              "url": "https://www.amazon.fr/cadre-maillot-foot/s?k=cadre+maillot+foot",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.amazon.fr › cadre-maillot-foot › k=cadre+m...",
+              "website_name": "Amazon",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Cadres pour maillot de foot en bois ou aluminium, disponibles en différentes tailles pour mettre en valeur vos souvenirs sportifs et maillots dédicacés.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Cadres pour maillot de foot en bois ou aluminium"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "UKCOCO Cadre Maillot Foot Pour Uniforme De Football Et Baseball | Cadre Maillot Sport Mural Et De Bureau Boîte Vitrine En Bois Pour Photos Et",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.fr - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.fr - Seller",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-f51203adc8ea:1",
+                  "price": {
+                    "current": 65.39,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "65,39 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "13840424763980659487",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Acaza Cadre photo pour Maillot de Football Cyclisme et autres Sports",
+                  "url": null,
+                  "domain": null,
+                  "description": "Acaza.fr",
+                  "more_sellers": false,
+                  "seller": "Acaza.fr",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-f51203adc8ea:2",
+                  "price": {
+                    "current": 59.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "59,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "1262302754871854936",
+                    "data_docid": "7456228061436763082",
+                    "gid": "4202504063232628715"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Cadre Maillot Foot 60x80 cm, Cadre pour Maillot de Foot en Bois Massif Noir | Cadre en bois massif avec panneau acrylique résistant pour maillots,",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.fr - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.fr - Seller",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-f51203adc8ea:3",
+                  "price": {
+                    "current": 69.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "69,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "13457791026751349094",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Acaza Grand Cadre Photo XL pour Maillots de Football",
+                  "url": null,
+                  "domain": null,
+                  "description": "ManoMano.fr et plus",
+                  "more_sellers": false,
+                  "seller": "ManoMano.fr",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-f51203adc8ea:4",
+                  "price": {
+                    "current": 75.99,
+                    "regular": 85,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "75,99 € 85 € et plus de prix"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 3.2,
+                    "votes_count": 52,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "8346194078563280352",
+                    "data_docid": "8739790063412533323",
+                    "gid": "5573217683328817205"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Le cadre pour maillot M (60 × 80 cm) argent 60x80 cm Verre synthétique",
+                  "url": null,
+                  "domain": null,
+                  "description": "moncadreprefere.fr",
+                  "more_sellers": false,
+                  "seller": "moncadreprefere.fr",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-f51203adc8ea:5",
+                  "price": {
+                    "current": 135.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "135,90 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "6591221947011732493",
+                    "data_docid": "5871816670488595870",
+                    "gid": "7147545736924843517"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Cadre en bois pour maillot de football, résistant aux UV, pour t-shirts et maillots, convient pour la décoration de la maison et du bureau (35,6 x",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.fr - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.fr - Seller",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-f51203adc8ea:6",
+                  "price": {
+                    "current": 29.59,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "29,59 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "12715021320795905331",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Cadre pour maillot \"Premium\" ∣ Fixation magnétique",
+                  "url": null,
+                  "domain": null,
+                  "description": "cadrepourmaillot.fr",
+                  "more_sellers": false,
+                  "seller": "cadrepourmaillot.fr",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-f51203adc8ea:7",
+                  "price": {
+                    "current": 219,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "219,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "11905340799003283048",
+                    "data_docid": "12325419340300994831",
+                    "gid": "2376049230817119074"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "K-Möbel Cadre maillot foot 70x100 cm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Leroy Merlin et plus",
+                  "more_sellers": false,
+                  "seller": "Leroy Merlin",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-f51203adc8ea:8",
+                  "price": {
+                    "current": 189.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "189,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "11870552695762843077",
+                    "data_docid": "13519871507080038552",
+                    "gid": "15095062608796461336"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Quel cadre pour maillot de foot ?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Comment encadrer un maillot de foot ?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Où puis-je floquer mon propre maillot ?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Quelle est la réglementation concernant les maillots de foot ?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "images",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]",
+              "title": "Images",
+              "url": "https://www.google.com/search?sca_esv=9ba93acd6ca82055&hl=fr&gl=FR&q=cadre+maillot+de+foot&udm=2&source=univ&fir=_9RBXd0fhWzn-M%252CPtu1BzAbNKCOZM%252C_%253B0CO4oyhdPBh9xM%252Cca-FJxe2AovgtM%252C_%253BZ53eR9UgKlRHrM%252CyIAuh8GoXr94EM%252C_%253BE9a5slH_8g8IlM%252CMq23x-kKWRg0eM%252C_%253Bk2s4FhqZy0Z7oM%252CkX6Q7N6UbvCw9M%252C_%253BqU2Y3C_HPvUhoM%252CWBGlz_kxvni7lM%252C_%253BFeck_P430SIfDM%252CGp5gV_wHwwJEzM%252C_%253Bp9y799WgK8bjTM%252CPtu1BzAbNKCOZM%252C_%253BzfL6JAjZMIYOiM%252CO30QF5bsacLVRM%252C_%253BgRr-1kaHhba9_M%252CBp57D28TjGuf6M%252C_%253BpHz6CcHO9hRorM%252CkX6Q7N6UbvCw9M%252C_%253BimtofeO51EvU5M%252C2Hel9lwkzaztCM%252C_&usg=AI4_-kRFDhWkziu52l3IWCGVPsFwr8An4w&sa=X&ved=2ahUKEwjO85OY5taWAxXH1vACHZxPM5wQ7Al6BAhhEAU",
+              "items": [
+                {
+                  "type": "images_element",
+                  "alt": "ACAZA Cadre Maillot Foot 70x90cm, Grand Cadre 3D XL Football, Basket, Rugby  et Cyclisme, Vitrine pour t-shirt adulte, Aluminium et Verre Acrylique, ...",
+                  "url": "https://www.amazon.fr/Maillots-Football-Basket-Cyclisme-70x90cm/dp/B098F4WFX4",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-f51203adc8ea:9"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "My Goat Cadre maillot foot - Encadrer son maillot de football facilement  avec personnalisation photo et texte - Dimensions 60x80cm en aluminium. ...",
+                  "url": "https://www.amazon.fr/My-Goat-Cadre-maillot-foot/dp/B0DCK1WSMS",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-f51203adc8ea:10"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Cadre maillot de sport collector",
+                  "url": "https://www.fnac.com/mp41400855/Umbra-Cadre-maillot-de-sport-collector/w-4",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-f51203adc8ea:11"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Cadre photo pour Maillot de Football, Cyclisme et autres Sports - Cadre 3D  - pour Objets de Collection - 60 x 80 cm - Noir",
+                  "url": "https://www.acaza.fr/cadre-photo-pour-t-shirt-de-collection-cadre-boite-3d-60x80-cm-noir",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-f51203adc8ea:12"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Encadrement de maillot sur mesure - L'Eclat de Verre ...",
+                  "url": "https://www.eclatdeverre.com/offres-services/encadrement-sur-mesure/maillot",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-f51203adc8ea:13"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Cadre pour maillot de sport",
+                  "url": "https://www.formxl.com/cadres-plexiglas/cadre-pour-maillot-de-foot.html",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-f51203adc8ea:14"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Grote XL Fotokader voor Voetbal, Basketbal Shirts of ...",
+                  "url": "https://www.cdiscount.com/maison/decoration-accessoires/cadre-photo-acaza-modele-pour-maillot-de-sport-en/f-1176360-aca5400943020199.html",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoGURhoqnIbF64ZKkXqvBO9l5ZOgQcErOLuHIFr982GX-We_E9XsmwSvY&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "ACAZA Cadre Maillot Foot 70x90cm, Grand Cadre 3D XL Football, Basket, Rugby  et Cyclisme, Vitrine pour t-shirt adulte, Aluminium et Verre Acrylique, ...",
+                  "url": "https://www.amazon.fr/Maillots-Football-Basket-Cyclisme-70x90cm/dp/B098F4WFX4",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb_HBn61CZmXLcCKPZqT6_hGiFfHnaevajkqCqSNpTdeKdcPWSEc7Sv5w&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Cadres Spéciaux - Troph'et Sports",
+                  "url": "https://www.trophet-sports.com/accueil/nos-produits/cadres-speciaux/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY_Tc6C6fghSLyKunobB0zOcVohd53DkPMA3Sdpm62sEgRo4ReNDqL_Rs&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Cadre pour maillots \"Classique\" (bois)",
+                  "url": "https://www.cadrepourmaillot.fr/products/cadre-pour-maillots-classique-bois?srsltid=AfmBOoqOAyXu2R42F5EF0k-fVLkECmDo4-sXK_KqN8Z3vGJJx5E4QPPP",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRjgTb0qY6wcC-4KmmHmaw2YVBdJL3M-9SwFy2JC3NUawgOrG3OogWKFU&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Encadrement de maillot sur mesure - L'Eclat de Verre ...",
+                  "url": "https://www.eclatdeverre.com/offres-services/encadrement-sur-mesure/maillot",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyLVfe_wVG2UzjT5iphsW6CBKmFmiVZe37iKygx1cQBpvg3dovPiZ7pJE&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Cadre pour maillots \"Premium\" (bois)",
+                  "url": "https://www.cadrepourmaillot.fr/products/cadre-pour-maillots-premium-bois?srsltid=AfmBOorvhS_RTwGRj7RSy8eHpbJMBF500sr7YW4agPqDd0nZP4xhkKKu",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN2QiCSZSIYJ8ZiY3ete9XiB-Kh1aEqRfPCWHS4qFFe27UTQZJI9yfIog&s"
+                }
+              ],
+              "related_image_searches": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "www.touslescadres.fr",
+              "title": "Cadre pour maillots",
+              "url": "https://www.touslescadres.fr/Magazine/Cadre-pour-maillots.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.touslescadres.fr › Magazine › Cadre-pour-...",
+              "website_name": "TousLesCadres.fr",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Le « cadre pour maillot aluminium avec dix aimants » possède un support arrière qui fonctionne comme un panneau magnétique. De cette façon il est possible de ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "cadre pour maillot aluminium avec dix aimants"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube · My Goat",
+                  "title": "Encadrer un maillot de foot facilement",
+                  "timestamp": "2025-07-24 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=FZ6Qh57VzAQ"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Facebook · Plaqueplastique.fr",
+                  "title": "Cadre pour maillot de football maintenant disponible",
+                  "timestamp": "2026-05-30 00:00:00 +00:00",
+                  "url": "https://www.facebook.com/Plaqueplastique/videos/cadre-pour-maillot-de-football-maintenant-disponible/1163832072561303/"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube · Amour du Maillot",
+                  "title": "Comment ENCADRER des MAILLOTS de FOOT (sans les ...",
+                  "timestamp": "2025-11-01 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=7nkrbsAzRuY"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "www.cadrepourmaillot.fr",
+              "title": "Cadre maillot de foot | Encadrer ton maillot facilement",
+              "url": "https://www.cadrepourmaillot.fr/?srsltid=AfmBOophcdIRkNPL7_2cz2_3QCx0nobrXL5359wxRrE4j5QFznF_l5wd",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.cadrepourmaillot.fr",
+              "website_name": "cadrepourmaillot.fr",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Cadre magnétique pour maillots - Encadrage facile en 5 minutes Tu veux encadrer ton maillot de football, de rugby ou de basket-ball avec style, ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Cadre magnétique pour maillots"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]",
+              "domain": "www.leboncoin.fr",
+              "title": "Cadre maillot d'occasion - Décoration",
+              "url": "https://www.leboncoin.fr/ck/decoration/cadre-maillot",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.leboncoin.fr › ... › \"cadre maillot\"",
+              "website_name": "Leboncoin",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Cadre maillot de foot, 9 cadre maillot idéal aussi pour photo et peinture. 15 €. Prix: 15 €. 16,45 €. · Inclus. Bon état. Ferrières 17170. Située à Ferrières ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Cadre maillot de foot"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[21]/div[1]/div[1]",
+              "domain": "www.formxl.com",
+              "title": "Cadre pour maillot de sport",
+              "url": "https://www.formxl.com/cadres-plexiglas/cadre-pour-maillot-de-foot.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.formxl.com › cadres-plexiglas › cadre-pou...",
+              "website_name": "Form XL",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Conçu et fabriqué en France près de Verdun. Livraison sous 24/72h partout en France. Caractéristiques des cadres pour maillots de sport. -Hauteur 98 cm - ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 190.8,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "190,80 €"
+              },
+              "highlighted": [
+                "Conçu et fabriqué en France près de Verdun"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[23]/div[1]/div[1]",
+              "domain": "www.instagram.com",
+              "title": "Cadre maillot MYGOAT (@mygoat_sport)",
+              "url": "https://www.instagram.com/mygoat_sport/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "Plus de 2,8 k abonnés",
+              "website_name": "Instagram · mygoat_sport",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Cadre pour maillot de foot premium et personnalisable ⚽ Livraison 2-3 jours gratuite · 933 ⚽️       #ronaldo #cristianoronaldo #cr7 #cr7fans ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Cadre pour maillot de foot premium et personnalisable"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Cadre pour maillot de foot IKEA",
+                "Cadre maillot de foot taille",
+                "Cadre maillot de foot LEROY MERLIN",
+                "Cadre maillot de foot PSG",
+                "Cadre maillot de foot pas cher",
+                "Cadre maillot de foot personnalisé"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

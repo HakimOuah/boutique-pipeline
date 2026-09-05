@@ -1,0 +1,509 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "4.8229 sec.",
+  "cost": 0.09,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09050600-1621-0367-0000-3ea5437cdcd3",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "4.6996 sec.",
+      "cost": 0.09,
+      "result_count": 7,
+      "path": [
+        "v3",
+        "keywords_data",
+        "google_ads",
+        "search_volume",
+        "live"
+      ],
+      "data": {
+        "api": "keywords_data",
+        "function": "search_volume",
+        "se": "google_ads",
+        "keywords": [
+          "reloj flip",
+          "marco camiseta",
+          "urna funeraria",
+          "cuenco tibetano",
+          "tambor chamanico",
+          "lampara media luna uñas",
+          "silla suelo japonesa"
+        ],
+        "location_name": "Spain",
+        "language_code": "es",
+        "search_partners": false
+      },
+      "result": [
+        {
+          "keyword": "reloj flip",
+          "spell": null,
+          "location_code": 2724,
+          "language_code": "es",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 480,
+          "low_top_of_page_bid": 0.06,
+          "high_top_of_page_bid": 0.23,
+          "cpc": 0.08,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 720
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 880
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 110
+            }
+          ]
+        },
+        {
+          "keyword": "marco camiseta",
+          "spell": null,
+          "location_code": 2724,
+          "language_code": "es",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 140,
+          "low_top_of_page_bid": 0.08,
+          "high_top_of_page_bid": 1.1,
+          "cpc": 0.26,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 140
+            }
+          ]
+        },
+        {
+          "keyword": "urna funeraria",
+          "spell": null,
+          "location_code": 2724,
+          "language_code": "es",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 880,
+          "low_top_of_page_bid": 0.11,
+          "high_top_of_page_bid": 1.42,
+          "cpc": 0.36,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 720
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 720
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 720
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 720
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 720
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 880
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 880
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 880
+            }
+          ]
+        },
+        {
+          "keyword": "cuenco tibetano",
+          "spell": null,
+          "location_code": 2724,
+          "language_code": "es",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 4400,
+          "low_top_of_page_bid": 0.07,
+          "high_top_of_page_bid": 0.31,
+          "cpc": 0.26,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 2900
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 2900
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 4400
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 4400
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 4400
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 4400
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 6600
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 4400
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 4400
+            }
+          ]
+        },
+        {
+          "keyword": "tambor chamanico",
+          "spell": null,
+          "location_code": 2724,
+          "language_code": "es",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 480,
+          "low_top_of_page_bid": 0.11,
+          "high_top_of_page_bid": 0.75,
+          "cpc": 0.58,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 480
+            }
+          ]
+        },
+        {
+          "keyword": "lampara media luna uñas",
+          "spell": null,
+          "location_code": 2724,
+          "language_code": "es",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": null,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": null
+        },
+        {
+          "keyword": "silla suelo japonesa",
+          "spell": null,
+          "location_code": 2724,
+          "language_code": "es",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 0.13,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

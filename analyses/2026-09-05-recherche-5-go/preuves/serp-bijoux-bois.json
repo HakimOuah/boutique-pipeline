@@ -1,0 +1,965 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.5387 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09050620-1621-0139-0000-8f325ce76eee",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.3601 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "boite a bijoux bois",
+        "location_name": "France",
+        "language_code": "fr",
+        "device": "desktop",
+        "depth": 10,
+        "max_crawl_pages": 1,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "boite a bijoux bois",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2250,
+          "language_code": "fr",
+          "check_url": "https://www.google.com/search?q=boite%20a%20bijoux%20bois&hl=fr&gl=FR&ie=UTF-8&uule=w+CAIQIFISCTFXeDMpoFQNEffZR8eWP_1r",
+          "datetime": "2026-09-05 06:20:47 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Pour femmes",
+                "url": "https://www.google.com/search?sca_esv=9ba93acd6ca82055&hl=fr&gl=FR&sxsrf=APpeQnuXpEP_07qMe8J32S5-Wdqw6XewVQ:1788589246190&q=pour+femmes+boite+a+bijoux+bois&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3rPdI3KT_90l4x48d4lEgDOfes6tUwL7hb3OKEYLIueNPpJjBVaU81pgc-X1CiCM0aL-zL0ULkPSJmfElPGbuayX4VQf36fjN8bo5_dmWfDzXn3tmP-gR8g0e7YdhQReruHO_zdtCCbu3I2kcneG9R1JlcPZi9Q6OU43tR8MuYCnQYyf7DZBugfk49Tj9C2MoW3fAw&sa=X&ved=2ahUKEwjA_KuV5taWAxUhVKQEHfCPDbcQxKsJKAB6BAgTEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Pour filles",
+                "url": "https://www.google.com/search?sca_esv=9ba93acd6ca82055&hl=fr&gl=FR&sxsrf=APpeQnuXpEP_07qMe8J32S5-Wdqw6XewVQ:1788589246190&q=pour+filles+boite+a+bijoux+bois&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3rPdI3KT_90l4x48d4lEgDOfes6tUwL7hb3OKEYLIueS5rf-VLxP7HTRLmQKhaskn4oSBQycIoYmEI48Lrcdkb1wiV3afRrwWuYaJVJdqKMft_mmJXWg7WfLrOIUHB3CXPeY00AygKzgTFf6KwI1UFIfOgFU0FhjrAelZ9vZEc0BYWn6OjtBYT4Bkk2dSgwtPf8qKg&sa=X&ved=2ahUKEwjA_KuV5taWAxUhVKQEHfCPDbcQxKsJKAF6BAgVEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Pour hommes",
+                "url": "https://www.google.com/search?sca_esv=9ba93acd6ca82055&hl=fr&gl=FR&sxsrf=APpeQnuXpEP_07qMe8J32S5-Wdqw6XewVQ:1788589246190&q=pour+hommes+boite+a+bijoux+bois&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3rPdI3KT_90l4x48d4lEgDOfes6tUwL7hb3OKEYLIucm0A5ngRlru5mZpXnJMqY7bHlRrUjYfBR_gRQhjNq1th80oeQSvNrAyk_CLeQDpIIOeUVNSGh1Qml6lXFgBDypC7x_ZAmXg0AbUojWXs9_k_A0U99XVlSj17rvgYhUVt0fX4dk9dV4bvkGkSHISjIizcFRfg&sa=X&ved=2ahUKEwjA_KuV5taWAxUhVKQEHfCPDbcQxKsJKAJ6BAgXEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Boîtes",
+                "url": "https://www.google.com/search?sca_esv=9ba93acd6ca82055&hl=fr&gl=FR&sxsrf=APpeQnuXpEP_07qMe8J32S5-Wdqw6XewVQ:1788589246190&q=bo%C3%AEtes+boite+a+bijoux+bois&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4reooQRey3JP64vdGvFahdt_DwVqAfGvUXKN9T6j_ywo8GIuBINy2vWJZQu0wcamE8K8cUJiyL1uD4CLuq2B35NqEg-GsZNnSguZKBPAZ7Y-z1w85Vh13dlxmkHRirq5766f4AR1wzlkLr5et76CNEOoU2SgVdStqYR3qLYXTSTxu5vMt6RJVEhn5ppvRrW6rbf4LubA&sa=X&ved=2ahUKEwjA_KuV5taWAxUhVKQEHfCPDbcQxKsJKAN6BAgSEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Meubles",
+                "url": "https://www.google.com/search?sca_esv=9ba93acd6ca82055&hl=fr&gl=FR&sxsrf=APpeQnuXpEP_07qMe8J32S5-Wdqw6XewVQ:1788589246190&q=meubles+boite+a+bijoux+bois&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4reLO176j24wbGEBzQiBbnQncV_SlXMgRoM0buydN-3FaLHjTTM52NGySJ5bUjLaJulz96sxwGdUzuaBI_oQOCuUH3OE07e6I5N6PKMF8LsKylo-X9DZJJbXOVgBRqhwaUHxRuDr2EFIghEfKi9gB__tUlVJyl2EAFjJxBuiZwDNkFz8xLv1chuSDUFOyAAZXzrDrgTQ&sa=X&ved=2ahUKEwjA_KuV5taWAxUhVKQEHfCPDbcQxKsJKAR6BAgUEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Plateaux",
+                "url": "https://www.google.com/search?sca_esv=9ba93acd6ca82055&hl=fr&gl=FR&sxsrf=APpeQnuXpEP_07qMe8J32S5-Wdqw6XewVQ:1788589246190&q=plateaux+boite+a+bijoux+bois&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r21-Rdu7tO0gifSkViQvk4KLXFxpI7FOEMsczRVC08nJEf7mDug6bQiuYRJtuLVgVvncUXuXPi_t57nSOmcGO57xyEfE2o1XBlQOF-q9YmLXAfjqLFUNvvCl5Fgd4KQNfy2c-EAaiFYvhhf4ztcAgNZCyLmC1SLOFVGdu8TBxCM2HJyNS9VpQ5vE85hkf6acC8rBmUg&sa=X&ved=2ahUKEwjA_KuV5taWAxUhVKQEHfCPDbcQxKsJKAV6BAhzEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Métal",
+                "url": "https://www.google.com/search?sca_esv=9ba93acd6ca82055&hl=fr&gl=FR&sxsrf=APpeQnuXpEP_07qMe8J32S5-Wdqw6XewVQ:1788589246190&q=m%C3%A9tal+boite+a+bijoux+bois&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rbhbcdckkJHb4y7Ov1MVmz4I9O-vP3GdOo0QjpLNoZmAwNPbNuYa4WGgr9GXRsCyVk_T9TbWY0MBxXOFvzp_3Jtu-f60XypiRJ7oJRABAiPOh5cO8LiaXYVeojrEZCJX2BOk19_YqRQJmK1qNJJv7T7uOhw2MV2fOIH_2YbJIsWc7fnl98SDmZbE0krlA-HvIma2h7Q&sa=X&ved=2ahUKEwjA_KuV5taWAxUhVKQEHfCPDbcQxKsJKAZ6BAhrEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Cuir",
+                "url": "https://www.google.com/search?sca_esv=9ba93acd6ca82055&hl=fr&gl=FR&sxsrf=APpeQnuXpEP_07qMe8J32S5-Wdqw6XewVQ:1788589246190&q=cuir+boite+a+bijoux+bois&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r_qrbTxIuRPMiRG81FwjWW5FcW40MeX4BBm7QLhOnLOgwBFhlEI2lER5oG1RxXYPdBVSLLERNtHAPxmnK5Z5d4BQDj53g9Oi1KOs9I6K8NYXvN_la1qpPzIi6mHPQVDAq_4cfo_Q_yD6rNXyIz3OC2jZ6KQSAd8F5WR0A-5Uwix0ufkSNZcV8F5ARo0e62Y1Jd3tNTw&sa=X&ved=2ahUKEwjA_KuV5taWAxUhVKQEHfCPDbcQxKsJKAd6BAhqEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "compare_sites",
+            "popular_products",
+            "organic",
+            "images",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "se_results_count": 196,
+          "pages_count": 1,
+          "items_count": 14,
+          "items": [
+            {
+              "type": "compare_sites",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Sites de produits",
+              "items": [
+                {
+                  "type": "compare_sites_element",
+                  "title": "Boites a bijoux en bois – Trouvez le meilleur prix",
+                  "url": "https://ledenicheur.fr/s/boites-a-bijoux-en-bois/",
+                  "domain": "ledenicheur.fr",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-8f325ce76eee:0",
+                  "source": "leDénicheur"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Coffres & boîtes à bijoux en bois (2026) Meilleures Ventes",
+                  "url": "https://www.lionshome.fr/meubles-coffre-en-bois/bijoux/",
+                  "domain": "www.lionshome.fr",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-8f325ce76eee:1",
+                  "source": "LionsHome.fr"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Boîtes à bijoux : acheter pas cher | Les meilleures offres du comparateur de prix",
+                  "url": "https://www.meubles.fr/deco-maison/rangement/boite-a-bijoux",
+                  "domain": "www.meubles.fr",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-8f325ce76eee:2",
+                  "source": "meubles.fr"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Zara Home Boîte À Bijoux Bois Beige",
+                  "url": null,
+                  "domain": null,
+                  "description": "Zara Home FR",
+                  "more_sellers": false,
+                  "seller": "Zara Home FR",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-8f325ce76eee:3",
+                  "price": {
+                    "current": 59.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "59,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "13576536042520290074",
+                    "data_docid": "6092076027288710028",
+                    "gid": "10372192463519238602"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Zara Home Boîte À Bijoux Bois",
+                  "url": null,
+                  "domain": null,
+                  "description": "Zara Home FR",
+                  "more_sellers": false,
+                  "seller": "Zara Home FR",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-8f325ce76eee:4",
+                  "price": {
+                    "current": 49.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "49,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "3009358545487005082",
+                    "data_docid": "9331894431996170358",
+                    "gid": "12772383197069201857"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mango Home Grande boîte à bijoux en bois",
+                  "url": null,
+                  "domain": null,
+                  "description": "shop.mango.com",
+                  "more_sellers": false,
+                  "seller": "shop.mango.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-8f325ce76eee:5",
+                  "price": {
+                    "current": 49.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "49,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "14408327860447110636",
+                    "data_docid": "43993684016234106",
+                    "gid": "9412202518019097399"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Changsuo Boîte à bijoux en bois pour femme organiseur massif avec serrure à c",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.fr - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.fr - Seller",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-8f325ce76eee:6",
+                  "price": {
+                    "current": 99.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "99,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "5371876464487752743",
+                    "data_docid": "9821041172513286282",
+                    "gid": "14622382778018334789"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Wadiga Boîte à bijoux en bois d'acacia et verre 25x20x5cm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Maisons du Monde",
+                  "more_sellers": false,
+                  "seller": "Maisons du Monde",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-8f325ce76eee:7",
+                  "price": {
+                    "current": 16,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "16,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "11029168040353794958",
+                    "data_docid": "14063612332063107347",
+                    "gid": "16550987803090778766"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mango Home Coffret à bijoux en bois de taille moyenne",
+                  "url": null,
+                  "domain": null,
+                  "description": "shop.mango.com et plus",
+                  "more_sellers": false,
+                  "seller": "shop.mango.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-8f325ce76eee:8",
+                  "price": {
+                    "current": 39.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "39,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "15040236333672020372",
+                    "data_docid": "9470913728147501630",
+                    "gid": "4268194834402406866"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Zara Home Boîte À Bijoux Bois Miroir",
+                  "url": null,
+                  "domain": null,
+                  "description": "Zara Home FR",
+                  "more_sellers": false,
+                  "seller": "Zara Home FR",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-8f325ce76eee:9",
+                  "price": {
+                    "current": 89.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "89,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "12453339438860214865",
+                    "data_docid": "1338352128534591130",
+                    "gid": "674420702858001837"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "HOMCOM Boîte à Bijoux Femme à 4 Niveaux Coffre à Bijoux avec Ailes",
+                  "url": null,
+                  "domain": null,
+                  "description": "Maisons du Monde",
+                  "more_sellers": false,
+                  "seller": "Maisons du Monde",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-8f325ce76eee:10",
+                  "price": {
+                    "current": 32.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "32,90 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 2,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "6958890027129961781",
+                    "data_docid": "12852550551118694554",
+                    "gid": "2475403981416445351"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+              "domain": "www.manufacture-jacquemin.com",
+              "title": "Coffret bijoux en bois",
+              "url": "https://www.manufacture-jacquemin.com/categorie-produit/collections/coffrets-et-ecrins/coffret-bijoux-bois/?srsltid=AfmBOoqXQ2Fgdnz5WIKWfEEu5u5xI9xd8-8K96GehvKWYuhNQHm9wvt4",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.manufacture-jacquemin.com › collections",
+              "website_name": "Manufacture Jacquemin",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "Découvrez nos coffrets à bijoux en bois massif, fabriqués artisanalement dans le Jura. Chêne ou noyer, plusieurs formats disponibles pour ranger vos bijoux.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "boite a bijoux bois sur www.manufacture-jacquemin.com",
+                  "url": "https://www.manufacture-jacquemin.com/categorie-produit/collections/coffrets-et-ecrins/coffret-bijoux-bois/?srsltid=AfmBOoqXQ2Fgdnz5WIKWfEEu5u5xI9xd8-8K96GehvKWYuhNQHm9wvt4",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-8f325ce76eee:11"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "coffrets à bijoux en bois massif, fabriqués artisanalement dans le Jura"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "www.maisonsdumonde.com",
+              "title": "Boîte à bijoux bois : l'écrin précieux pour vos trésors",
+              "url": "https://www.maisonsdumonde.com/FR/fr/vc/boite-a-bijoux-bois",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.maisonsdumonde.com › boite-a-bijoux-bois",
+              "website_name": "Maisons du Monde",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "La boîte à bijoux bois protège vos bijoux de la poussière et des rayures. Fabriquée en bois massif (bambou, acacia, chêne), elle est doublée de feutrine pour un ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "boite a bijoux bois sur www.maisonsdumonde.com",
+                  "url": "https://www.maisonsdumonde.com/FR/fr/vc/boite-a-bijoux-bois",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-8f325ce76eee:12"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "La boîte à bijoux bois protège vos bijoux de la poussière et des rayures"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "les-boites-daphrodite.com",
+              "title": "Boîte à Bijoux en Bois",
+              "url": "https://les-boites-daphrodite.com/collections/boite-a-bijoux-en-bois",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://les-boites-daphrodite.com › collections › boite-a-b...",
+              "website_name": "Les Boîtes d'Aphrodite",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "Découvrez une collection raffinée de Boîtes à Bijoux en Bois. Avec ou sans tiroir, petite ou grande taille, nous avons sans doute celle qu'il vous faut!",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "boite a bijoux bois sur les-boites-daphrodite.com",
+                  "url": "https://les-boites-daphrodite.com/collections/boite-a-bijoux-en-bois",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-8f325ce76eee:13"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Boîtes à Bijoux en Bois"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "www.zarahome.com",
+              "title": "Boîtes à bijoux",
+              "url": "https://www.zarahome.com/fr/chambre-boiteabijoux-n971",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.zarahome.com › chambre-boiteabijoux-n971",
+              "website_name": "Zara Home",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Organisez tous vos accessoires en un clin d'œil grâce aux boîtes à bijoux Zara Home. Pratiques et élégantes, en bois, en métal, laquées et miroir. | Zara Home",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "boîtes à bijoux Zara Home"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+              "domain": "www.amazon.fr",
+              "title": "Boite A Bijoux Bois",
+              "url": "https://www.amazon.fr/boite-a-bijoux-bois/s?k=boite+a+bijoux+bois",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.amazon.fr › boite-a-bijoux-bois › k=boite+a...",
+              "website_name": "Amazon",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Boîte à bijoux en bois de noyer véritable, 2 niveaux, boîte à bijoux de luxe pour colliers, bracelets, boucles d'oreilles, bagues, montres, avec fermoir en ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Boîte à bijoux en bois de noyer véritable, 2 niveaux"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "images",
+              "rank_group": 1,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[14]/div[1]",
+              "title": "Images",
+              "url": "https://www.google.com/search?sca_esv=9ba93acd6ca82055&hl=fr&gl=FR&sxsrf=APpeQnuXpEP_07qMe8J32S5-Wdqw6XewVQ:1788589246190&q=boite+a+bijoux+bois&udm=2&source=univ&fir=B8rzAMV3DDM8jM%252CZT6dw7M5anMgtM%252C_%253BpSZZBpu9BbVjKM%252CPXb1aHKK3ANnlM%252C_%253BnH7ocmfCujKo_M%252CvcQGLbP0An4LYM%252C_%253BJXa6BGyXgKZyQM%252CqKrOC0oMfZJQPM%252C_%253BGoN9Gal3WI6XYM%252CYUWV08OOZz1RJM%252C_%253BSdWW-BnsTzCI8M%252CJ8-F1H9AisdWnM%252C_%253BLdE6BqK-JnySFM%252CCZb5LHuBYyfpHM%252C_%253B3UT4t5bcHnesWM%252CVQlBoweVTfdfyM%252C_%253B4Q1B6ShrZXTs-M%252CabJBL-zfLXToNM%252C_%253BUtmF-CZ0DTj9bM%252CfcF_FlsSK2RzoM%252C_%253BfKgosFv6AHQOlM%252CNBZW9dsr1BNs2M%252C_%253BIQSRFRNUz_NttM%252CDoLtSCH7ek25fM%252C_&usg=AI4_-kQ8JkWxlvRA8AeFs09zFZZUSEkLdg&sa=X&ved=2ahUKEwjA_KuV5taWAxUhVKQEHfCPDbcQ7Al6BAhMEAU",
+              "items": [
+                {
+                  "type": "images_element",
+                  "alt": "ProCase Grande Boîte à Bijoux en Bois 7 Compartiments, Rangement Bijoux  avec Miroir, Coffret Bijoux pour Boucle d’Oreille Collier Bague -Naturel :  ...",
+                  "url": "https://www.amazon.fr/Procase-Compartiments-Rangement-dOreille-Naturel/dp/B0C8TBG33J",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRGGHFjrX8Zq4FUgOLqio9tsIeSRgq8pEZIR8mUrP8cMu9Md761aA72dQ&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Boîte à bijoux en bois personnalisée",
+                  "url": "https://www.bois-boheme.fr/boutique/boite-a-bijoux-en-bois-personnalisee-coffret-artisanal-francais/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKoalgBMW0TzaWPE8E7CQK2K1nHJOH84ZmhwszlrFNbtm6K0oTECuw0IA&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Coffret à bijoux en noyer - petit modèle - Manufacture Jacquemin",
+                  "url": "https://www.manufacture-jacquemin.com/produit/coffret-a-bijoux-en-noyer-petit-modele/?srsltid=AfmBOoq9nHdfq10Ja4GT2KJAmYWNF3bPgm6D-NvbXlpLd6pbE4IsQ_4b",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXtsnZrHLDFK8f0R9xzY_4dZ7QcpoCMcLcKWb7APD9ReLlHqXtQhPDcN8&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Changsuo Boîte à bijoux en bois pour femme - Organiseur en bois massif avec  serrure à combinaison pour bijoux, colliers, bagues - Boîte de rangement ...",
+                  "url": "https://www.amazon.fr/Changsuo-organiseur-combinaison-colliers-rangement/dp/B08JZFM7SX",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgq635XJ4hf0ko3bcYw7cNmQ6xMWZSAT54Xl9_iEZ4mahujKuMThLavEM&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Boîte à bijoux en bois artisanal",
+                  "url": "https://royalcoffer.com/products/boite-a-bijoux-en-bois-artisanal?srsltid=AfmBOoqKl5lUceiWct8-abh4Ug6V9AwGfF7VO7XbbFLvmiXqrl7KoyYm",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6ypCgbkmF2K87dkB6bRMgFxYwVfFX9fACGPi44aXWRB8nQLvbBiHRu1M&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Boîte à bijoux en bois d'acacia et verre 24x16x6.5cm | Maisons du Monde",
+                  "url": "https://www.maisonsdumonde.com/FR/fr/p/boite-a-bijoux-en-bois-d-acacia-et-verre-24x16x6-5cm-M25143837.htm",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAseiaSQVACorq2YJZKZq7ehGr5ujauFVEc64Pg7tM5fVHrw-gaEGgzTg&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Boîte à Bijoux Femme Bois",
+                  "url": "https://les-boites-daphrodite.com/products/boite-a-bijoux-femme-bois",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdaSKeoTsY6m7PcfyjOOBrQugN_oNypzDfAg4Y6QSDUgtmn7cWZLb8gKE&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Boîte à bijoux gravée - \"Luc\"",
+                  "url": "https://www.tito-m.fr/produit/boite-a-bijoux/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiEqILzW--Y0yAX7-CQzVxruicWYwAzaekB-ipsKnwOMXdPTEyO7vK1mc&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Boite à bijoux en bois - Mayana Bijoux Spirituels",
+                  "url": "https://www.mayana-bijoux.com/accessoires-lithotherapie/boite-a-bijoux-bois/?srsltid=AfmBOoquMbzt45-9L6wAirk0foeiw7WHB5YtAw7VpMmn3aLUgsaTZG-_",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS_-kuzvPlfHhYFRNRkCLUglmdMsYTY_ku30Q1J9dhFqphrH1FV6tyIlc&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Boite à bijoux miroir - Boîtes en bois à décorer",
+                  "url": "https://www.10doigts.fr/boite-a-bijoux-miroir-gp12760.aspx",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFhYEWqAyAkxAxHIX93Z1ud-DavzQCCS74DResXde6huNR_A96WKCa62U&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Grande boîte à bijoux en bois à 3 couches pour femme (collier, bague,  boucles d'oreilles)",
+                  "url": "https://m.cncest.fr/products/cncest-3-stock-schmuckkastchen-geschenk",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSTYHqlVwStTz0pNhA3r04baVPCmxj4iij10xiQ4USazIfjKM78M4yXk4&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Boîte à Bijoux",
+                  "url": "https://www.ardaya.fr/produit/boite-a-bijoux-en-bois-et-plexiglas/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTrsBmbfDPGboIdymsT7uOIA97IyjlgMVDoaSA5Qol9_HT16wYBRxGUDE&s"
+                }
+              ],
+              "related_image_searches": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "www.bois-boheme.fr",
+              "title": "Boîte à bijoux en bois personnalisée",
+              "url": "https://www.bois-boheme.fr/boutique/boite-a-bijoux-en-bois-personnalisee-coffret-artisanal-francais/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.bois-boheme.fr › ... › Boîte à bijoux",
+              "website_name": "Bois Bohème",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "Boîte à bijoux en bois personnalisée, gravée sur mesure. Fabrication artisanale française. Cadeau unique et émotionnel pour mariage, anniversaire ou Noël.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "boite a bijoux bois sur www.bois-boheme.fr",
+                  "url": "https://www.bois-boheme.fr/boutique/boite-a-bijoux-en-bois-personnalisee-coffret-artisanal-francais/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgdR4ilHIlnjp2e6VHfjbyUj8dT6buAuE6y5xB4n8&usqp=CAE&s=10"
+                }
+              ],
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 12,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 24.9,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "24,90 €"
+              },
+              "highlighted": [
+                "Boîte à bijoux en bois personnalisée"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+              "domain": "maison-scarlett.fr",
+              "title": "Boîte à Bijoux en Bois",
+              "url": "https://maison-scarlett.fr/collections/boite-a-bijoux-en-bois?srsltid=AfmBOoqrZHKDQWq4VXYchgz6BDxU3NsIOONEBv_8dKsJ0suZlih4XAGj",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://maison-scarlett.fr › collections › boite-a-bijoux-e...",
+              "website_name": "Maison Scarlett",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "Les Boîtes à Bijoux en Bois sont les préférées de notre équipe ! Pour quelles raisons ? Pour leur design sobre et épuré et leurs finitions haut de gamme !",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "boite a bijoux bois sur maison-scarlett.fr",
+                  "url": "https://maison-scarlett.fr/collections/boite-a-bijoux-en-bois?srsltid=AfmBOoqrZHKDQWq4VXYchgz6BDxU3NsIOONEBv_8dKsJ0suZlih4XAGj",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUK8jq6kNd_3pDUz6NCp9FUKybMOED8Gfz7DWPRtVy4k1vvJ-MLTEm&usqp=CAE&s=10"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Les Boîtes à Bijoux en Bois sont les préférées de notre équipe"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "fabriquer une boîte à bijoux en bois",
+              "url": "https://www.youtube.com/watch?v=2CxS6q1eSsU",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "Plus de 18,6 k vues  ·  il y a 5 ans",
+              "website_name": "YouTube · dbbois",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Pour cette vidéo, je vous montre comment j'ai fabriqué une boîte à bijoux en cerisier ↓↓↓Plus d'infos ici ↓↓↓ .",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "boîte",
+                "bijoux"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2021-01-22 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[21]/div[1]/div[1]",
+              "domain": "royalcoffer.com",
+              "title": "Boîte à Bijoux en Bois 🪵 | Livraison Offerte",
+              "url": "https://royalcoffer.com/collections/boite-bijoux-en-bois?srsltid=AfmBOoqxhoIDTLWhnokKsE4ommf69NaUxsdb-8tYqeFXhzJui9zL64e1",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://royalcoffer.com › collections › boite-bijoux-en-bois",
+              "website_name": "RoyalCoffer",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "Leur fabrication en bois massif, laqué ou en bois brut leur offre une résistance accrue à travers le temps et procure à vos bijoux une protection optimale ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": null,
+                  "url": null,
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYr1Y7Bsb2k2PMLOmwYLHejOHD5IY2GgTGdjZRxGRKishNx_UcreEi&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": null,
+                  "url": null,
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS0L9gYJYsQMkXeUI-l7VrkQK8i_alWs5RqghWMq9OFJLjcTlgexOGMV2QTFcRubL-7yA&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": null,
+                  "url": null,
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVL8whrafYNmBBhD3iCfibobtogwSyityPVoIK3r5UwiIlmotSO9jD&s"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Leur fabrication en bois massif, laqué ou en bois brut"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[23]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Quelles sont les meilleures boîtes à bijoux ?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[23]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Où puis-je trouver un coffret de création de bijoux pour adulte ?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[23]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Comment s'appelle une boîte à bijoux ?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[23]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Comment ranger efficacement ses bijoux ?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[23]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 14,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Boîte à bijoux en bois artisanal",
+                "Boite a bijoux bois zara",
+                "Boîte à bijoux en bois IKEA",
+                "Boîte à bijoux en bois maison du monde",
+                "Boîte à bijoux en bois ancienne",
+                "Boîte à bijoux bois massif"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

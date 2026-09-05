@@ -1,0 +1,1252 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.8274 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09050620-1621-0139-0000-ecb0c51ef004",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.7058 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "acheter horloge flip flap",
+        "location_name": "France",
+        "language_code": "fr",
+        "device": "desktop",
+        "depth": 10,
+        "max_crawl_pages": 1,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "acheter horloge flip flap",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2250,
+          "language_code": "fr",
+          "check_url": "https://www.google.com/search?q=acheter%20horloge%20flip%20flap&hl=fr&gl=FR&ie=UTF-8&uule=w+CAIQIFISCTFXeDMpoFQNEffZR8eWP_1r",
+          "datetime": "2026-09-05 06:20:47 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Nearby",
+                "url": "https://www.google.com/search?sca_esv=9ba93acd6ca82055&hl=fr&gl=FR&q=acheter+horloge+flip+flap+nearby&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r_qrbTxIuRPMiRG81FwjWW7BvZ3qRJ2f5K6TtdB-QCgTAVpvbqSe5I6AZe6wPpBQrbOJDuJMKVTIpSqLJTGHb_eli6zIBFqhsLBcdSlgPEVlhnG17yw1KYfE1DwTBbnoqIEE0Q3rWTER8PP6JLaSNDH4LkS9LpMCSjD7IUMjWy8_I-bW0&sa=X&ved=2ahUKEwi9nbqV5taWAxV-HYYAHVxTEV4QxKsJKAB6BAgeEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Réveils",
+                "url": "https://www.google.com/search?sca_esv=9ba93acd6ca82055&hl=fr&gl=FR&q=r%C3%A9veils+acheter+horloge+flip+flap&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r9o8EtIr7w4auRdy15uM4ZwJ1WY3lWs8B2U-maVAHCEzVEehvlE9WixoGbpSmgv-WnsdQf11D2uTJs7-5yypHGUTSezYcrUamgYN3qEekIZxV0r5vihe1lXC0Wa7mpfDrKEze8mgPPYuxT5v8goaBNTCrtex5IbA_TO67ZLdByXWO69wZ&sa=X&ved=2ahUKEwi9nbqV5taWAxV-HYYAHVxTEV4QxKsJKAF6BAggEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Horloges murales",
+                "url": "https://www.google.com/search?sca_esv=9ba93acd6ca82055&hl=fr&gl=FR&q=horloges+murales+acheter+horloge+flip+flap&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r27E1_7Ryeiuc3CNVRbfYURtcC8QnIHvseY7Vk0l00OXNpEsellV6zytE3njwz2m74dq51wr0oOhC1Fb5UDy8hkwq-ekp29XfnYevMi9VE1dyCimVpypqrYWvV-F-ydPurH1TULytxvKhdXJCOH-vvNgdfgZ5WlMgvewZ38Pu4dEDdBTlzkmO3GgXanpnnPr-NF2SNg&sa=X&ved=2ahUKEwi9nbqV5taWAxV-HYYAHVxTEV4QxKsJKAJ6BAgkEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Horloges à poser",
+                "url": "https://www.google.com/search?sca_esv=9ba93acd6ca82055&hl=fr&gl=FR&q=horloges+%C3%A0+poser+acheter+horloge+flip+flap&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rb6ov3c6U0v2pckZSx7tVjQNiw-34eH8k2UJMiSUozS_JYEXHbD5DyM4VQ-d0VBg0tN4eQKRjtuJ-pRbXYoEz0cm8hcBC9QJ3BrQERfLg7edXp-O9i12fT9l-jpEGQagb2OJnyusZ1zlgbH_CiUeCgZHO5uCESUbUs4y8N7tuGnz0fDFTUM9PYtxrsIem4zZChNKNLA&sa=X&ved=2ahUKEwi9nbqV5taWAxV-HYYAHVxTEV4QxKsJKAN6BAglEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Numériques",
+                "url": "https://www.google.com/search?sca_esv=9ba93acd6ca82055&hl=fr&gl=FR&q=num%C3%A9riques+acheter+horloge+flip+flap&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r73yvdj9ePV8RY0yFAIxad_j7hxcZ49UWk7JXWbGSvcYRn1GT29wb535AK9OYN4pI20wDA2YnEh4cNqAl4FWGGORKCEXQbNsiZbL_sg0H8J9XYFuBMlj2VvyiqkCKLAL5Pb2F6LKU_vCVHeytFwzRFPy1eWFgVFDM2bzAIDHG9S4paxmq-iRO8KHd3gkkbKrhEr_z2EW72izh8CbGFnhIeog2-U8&sa=X&ved=2ahUKEwi9nbqV5taWAxV-HYYAHVxTEV4QxKsJKAR6BAgiEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "people_also_ask",
+            "popular_products",
+            "related_searches"
+          ],
+          "se_results_count": 164,
+          "pages_count": 1,
+          "items_count": 15,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.amazon.fr",
+              "title": "Horloge Flip Flap",
+              "url": "https://www.amazon.fr/horloge-flip-flap/s?k=horloge+flip+flap",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.amazon.fr › horloge-flip-flap › k=horloge+f...",
+              "website_name": "Amazon",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Horloges flip flap de bureau au style vintage, disponibles en différentes tailles et finitions pour s'adapter à divers intérieurs et espaces de décoration.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Horloges flip flap de bureau au style vintage"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "murs-du-temps.com",
+              "title": "Horloges Flip Flap | Charme Rétro-Mécanique",
+              "url": "https://murs-du-temps.com/collections/horloge-flip-flap?srsltid=AfmBOoq_tSFAPWvZ4amF0jSUkYyQR2kuRq1YXCv27Mhvir9DzeW7r1wz",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://murs-du-temps.com › collections › horloge-flip-flap",
+              "website_name": "Murs du temps",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Découvrez nos horloges flip flap alliant charme vintage et précision moderne. Des pièces authentiques pour un intérieur unique et nostalgique.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Découvrez nos horloges flip flap alliant charme vintage et précision moderne"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "www.kunstloft.fr",
+              "title": "Acheter Karlsson horloge Flip Flap 'No Case'",
+              "url": "https://www.kunstloft.fr/10852-horloge-flip-flap-karlsson-no-case/?srsltid=AfmBOopduM5k-RgRH3-eUM-1J2gWRCYpwVOmd0ZwDPXO7N2cPy72tlkq",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.kunstloft.fr › ... › Horloges de table",
+              "website_name": "KunstLoft.fr",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Horloge Flip Flap de Karlsson en Noir ✓ Design original rétro chic ✓ Livraison gratuite & droit de retour de 100 jours ✓ Acheter maintenant !",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 169.95,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "169,95 €"
+              },
+              "highlighted": [
+                "Horloge Flip Flap de Karlsson en Noir"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "www.leboncoin.fr",
+              "title": "Annonces horloge flip d'occasion - Décoration",
+              "url": "https://www.leboncoin.fr/ck/decoration/horloge-flip",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.leboncoin.fr › ... › \"horloge flip\"",
+              "website_name": "Leboncoin",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Rare horloge FLIP FLAP Superbe Pendule à lamelles, à piles Deco LOFT, industrielle,modéle BT-6300. 550 €. Prix: 550 €. 551,99 €. · Inclus. Très bon état. Le ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Rare horloge FLIP FLAP Superbe Pendule à lamelles, à piles Deco LOFT, industrielle,modéle BT-6300"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Que signifie \"flip flap\" ?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Quel est le prix d'une horloge atomique ?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Est-ce que l'horloge parlante existe encore ?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Quelle est la valeur d'une vieille horloge ?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "monenseignelumineuse.fr",
+              "title": "Horloge Retro Flip Flap à Volets Blanche - MILLER",
+              "url": "https://monenseignelumineuse.fr/products/horloge-retro-a-volets-flip-flap?srsltid=AfmBOorYOtH4KmymM7mCbTdHOY9BMaTzHlDOJtI2baqEnNcXjXJRF3NS",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://monenseignelumineuse.fr › products › horloge-ret...",
+              "website_name": "Mon Enseigne Lumineuse",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Inspirée des modèles emblématiques des années 70, cette pièce unique allie style minimaliste et mécanique d'exception. ... Affichage 12/24h : lisibilité optimale ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 180,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "180,00 €"
+              },
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "www.cdiscount.com",
+              "title": "Horloge Flip Flap",
+              "url": "https://www.cdiscount.com/maison/r-horloge+flip+flap.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.cdiscount.com › ... › Horloge",
+              "website_name": "Cdiscount",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Découvrez nos offres Horloge Flip Flap : large sélection de produits au meilleur prix | Livraison gratuite à partir de 10€* | Entreprise française ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "large sélection de produits au meilleur prix"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "planete-vintage.com",
+              "title": "Horloge Vintage Murale Flip Flap",
+              "url": "https://planete-vintage.com/products/horloge-murale-flip-flap-vintage?srsltid=AfmBOoqM44-knQZDPUpEn6u1TtV-_V-4hMeDs6ZUjROPXEt6adyS3qYx",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://planete-vintage.com › products › horloge-murale-...",
+              "website_name": "Planète Vintage",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Magnifique, cette Horloge Murale Vintage Flip Flap peut tout aussi bien être accrochée au mur comme posée sur un meuble. Son originalité vous séduira !",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 429.9,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "429,90 €"
+              },
+              "highlighted": [
+                "Horloge",
+                "Flip Flap"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "horloge flip flap retro,Horloge de table Vintage Retro Flip-Horloge, 24 heures Retro-Flip-Down-Horloge avec gros chiffres base en bois, pour le salon,",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.fr - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.fr - Seller",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-ecb0c51ef004:0",
+                  "price": {
+                    "current": 51.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "51,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "12001111773956570178",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Horloge Flip Flap Vintage avec Date & Jour – Design Rétro et Blanc",
+                  "url": null,
+                  "domain": null,
+                  "description": "Le Vintage Illuminé",
+                  "more_sellers": false,
+                  "seller": "Le Vintage Illuminé",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-ecb0c51ef004:1",
+                  "price": {
+                    "current": 39.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "39,90 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.9,
+                    "votes_count": 8,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "972930561294679437",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Horloge Retro Flip Flap à Volets Blanche - MILLER",
+                  "url": null,
+                  "domain": null,
+                  "description": "Mon Enseigne Lumineuse",
+                  "more_sellers": false,
+                  "seller": "Mon Enseigne Lumineuse",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-ecb0c51ef004:2",
+                  "price": {
+                    "current": 180,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "180,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "2690179072682353764",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Flip Clock,Flip Desk Clock,Horloge à Rabat Rétro,Horloge de Bureau numérique à Rotation Automatique,Horloges De Bureau Mécanique Rétro à Pied Unique ,",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.fr - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.fr - Seller",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-ecb0c51ef004:3",
+                  "price": {
+                    "current": 50.49,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "50,49 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 16,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "12521477728984374722",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Horloge Flip Flap Vintage - horloge rétro Noir Pied Simple",
+                  "url": null,
+                  "domain": null,
+                  "description": "Le Vintage Illuminé",
+                  "more_sellers": false,
+                  "seller": "Le Vintage Illuminé",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-ecb0c51ef004:4",
+                  "price": {
+                    "current": 79.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "79,90 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "3158422015801904471",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Horloge Flip, Flip Clock, Horloge a Bureau, Rétro Numérique à Rabat, Desk Clock, Horloges De Rabat Mécanique Rétro Minimaliste à Pied Unique, pour",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.fr - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.fr - Seller",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-ecb0c51ef004:5",
+                  "price": {
+                    "current": 54.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "54,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "15405499532753071177",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Horloge Flip Flap Rectangulaire - horloge rétro Blanc",
+                  "url": null,
+                  "domain": null,
+                  "description": "Le Vintage Illuminé",
+                  "more_sellers": false,
+                  "seller": "Le Vintage Illuminé",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-ecb0c51ef004:6",
+                  "price": {
+                    "current": 39.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "39,90 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 3.7,
+                    "votes_count": 15,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "8224759953624206914",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "BW Timetope Horloge flip murale rétro",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.fr - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.fr - Seller",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050620-1621-0139-0000-ecb0c51ef004:7",
+                  "price": {
+                    "current": 27.59,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "27,59 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "9121316669767445857",
+                    "gid": null
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]",
+              "domain": "le-vintage-illumine.com",
+              "title": "Comment fonctionne une horloge flip flap ?",
+              "url": "https://le-vintage-illumine.com/blogs/le-vintage-illumine-le-blog/fonctionnement-flip-flap?srsltid=AfmBOoplr6QEajjQ8qq0NttSENIDxBv5XSYUBPP8jy_jDWYXy6tgRh82",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://le-vintage-illumine.com › blogs › fonctionneme...",
+              "website_name": "Le Vintage Illuminé",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "19 août 2022 — Horloge Flip Flap Vintage - horloge rétro. Horloge Flip Flap Vintage. Prix régulier €79,90. Horloge Flip Flap Rectangulaire - horloge rétro.",
+              "pre_snippet": "08/19/2022 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Horloge Flip Flap Vintage"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-08-19 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 2,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[21]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "ZAEWRY Flip Clock (Lot de 1) — Horloge à volets mécaniques rétro, style balancier, design créatif, horloge de bureau — Blanc",
+                  "url": null,
+                  "domain": null,
+                  "description": "Leroy Merlin",
+                  "more_sellers": false,
+                  "seller": "Leroy Merlin",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTgco9rfnH9zKoXYX7eHXmiz6V958HSq4NzHEZGO0S61Lj01lPUB_vCkdIFaqToIpkOCGFZKakjfeuxZPg7A5xd637X3zScfP1grUM8YXaqsppUE8QkY9IsAg",
+                  "price": {
+                    "current": 46.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "46,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "2998950477897515279",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Horloge Flip Rétro À Mouvement Quartz Haute Précision En Acier Inoxydable",
+                  "url": null,
+                  "domain": null,
+                  "description": "ManoMano.fr",
+                  "more_sellers": false,
+                  "seller": "ManoMano.fr",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQEmfgWyDoUApWTFJQYBkVoblC2-TVEyuInaaRiG2pUzMP9BUzBjENZHC1ylrZiz70378PESIxRW_8-vxA29RO8VhsZpi90tJePBwUHU-1QtBN7e-S8ET83",
+                  "price": {
+                    "current": 62.96,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "62,96 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "3401531509918682162",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Generic Manual Flip Clock Calendrier Rappel Horloge de chevet Horloge numérique pour Noir PSHDD",
+                  "url": null,
+                  "domain": null,
+                  "description": "Cdiscount",
+                  "more_sellers": false,
+                  "seller": "Cdiscount",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS2ZXoHgKCmDXAWT3I1k1rtkTBm7RlvKxKvol0D6XRwOw5_fkxWiP6ONTqp3f79eu2LXvpqGR7c8XrKkYioY-k6A9EFOGsykfDkQRQdVJwnhx9sQQtAnIGK",
+                  "price": {
+                    "current": 27.97,
+                    "regular": 37,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "27,97 € 37 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "12354217532130212837",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "mode rétro flip clock digtal flip jour date heure affichage horloge",
+                  "url": null,
+                  "domain": null,
+                  "description": "eBay FR",
+                  "more_sellers": false,
+                  "seller": "eBay FR",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT32pWWfr8ZlKr9JPP3w08BjWjwuFGST9jUORnUnomarFcoNGL0zyhGxxX1eWMhwHtkkA62GE8KyiBzQVUddV3-XNuhzjrFhp1KfyzUkGtd",
+                  "price": {
+                    "current": 24.18,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "24,18 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "667568479878593438",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Horloge Flip Flap Retro,horloge De Table Vintage Retro Flip-horloge, 24 Heures Retro-flip-down-horloge Avec Gros Chiffres Base En Bois, Pour Le Salon,",
+                  "url": null,
+                  "domain": null,
+                  "description": "ManoMano.fr",
+                  "more_sellers": false,
+                  "seller": "ManoMano.fr",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRLRg45t_rSzIAuvf0-kyPAPxRkVm4sR6XkweKPS73353lu_sqUfqzVMcskzydy-6Zi8q5zb0AdmevK5A7J2XMM8j4Lav_3yINft2M-juI",
+                  "price": {
+                    "current": 118.98,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "118,98 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "7753131591802284504",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mini Flip - Horloge murale avec indication de l'heure, de la date et du mois, par Present Time",
+                  "url": null,
+                  "domain": null,
+                  "description": "Sediarreda.com",
+                  "more_sellers": false,
+                  "seller": "Sediarreda.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT2DWkMSZ68ZTKWD1K6w0YgUVkKEL5ET__8DBV6sI7TPPimmt-vHKkJr3dp_DTXCURobHyr8sRpiVglEhLtac9x0RsVZcfVmdZxFAzQG_rjxJaS2lktde_pX8g",
+                  "price": {
+                    "current": 285.3,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "285,30 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "1416767927561401252",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Horloge flip automatique au design minimaliste pour la maison ou le bureau",
+                  "url": null,
+                  "domain": null,
+                  "description": "Kaufland.fr - Teamo",
+                  "more_sellers": false,
+                  "seller": "Kaufland.fr - Teamo",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRZU1wb-siKWuI_lU8auYPolMlzmQqZf8p1p9YsVlE3EA1RRnKMTF84Rrh3Nw3y1AMsjCcr7b5ndYgG8HhdG0TeoiMblbbnuend59-qXnT8jp0varz1VBNZjA",
+                  "price": {
+                    "current": 132.95,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "132,95 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "14770156912525528024",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Horloge Vintage Flip – L'Élégance du Temps, Blanc / Bois",
+                  "url": null,
+                  "domain": null,
+                  "description": "Maison-Génie",
+                  "more_sellers": false,
+                  "seller": "Maison-Génie",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ0qXc2lB6gc78NnU9u1nZXed_OXisWQ2ZpARfz5tcHUzOAn2AWD39ZS2PBwou9zsoeWgQAboM3xMh6nppjRZJelioihfj8wB_i50ttkqo",
+                  "price": {
+                    "current": 69.95,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "69,95 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "11157472463880116469",
+                    "gid": null
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 3,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[23]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Flip Clock Murale Automatique 43cm – Calendrier Perpétuel Mouvement Seiko Noir / 43X43X16Cm",
+                  "url": null,
+                  "domain": null,
+                  "description": "La Belle Horloge",
+                  "more_sellers": false,
+                  "seller": "La Belle Horloge",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQv-j2vUSuvpzU-Zp5EAY9FE14fdqYgNvObQv4DGhh_n8MG_wQFlaMvEy2eMYOuOzcl5Pwfn97B1Uux6ydCFvhWUBuwUwjcQ2CsJxz-mu_6KZUynSPvbKAl8w",
+                  "price": {
+                    "current": 510.54,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "510,54 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "9005900740854776867",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Horloge Flip Mécanique - Design Rétro Minimaliste - Tout Noir - Horloge de Table",
+                  "url": null,
+                  "domain": null,
+                  "description": "Kaufland.fr - Teamo",
+                  "more_sellers": false,
+                  "seller": "Kaufland.fr - Teamo",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQGlpoE8QwNgpoat9jd6CHX4AFwhrsY7AiBUZw_x3jaHScvlMK_s5kz92veuS4kPEg_6VX1RUyo-I3ZmFwHi3K8ifgMuM7pWGrt5VdmdydoULVB7D8fzDjw",
+                  "price": {
+                    "current": 208.95,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "208,95 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "5468570336904871284",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Horloge numérique Flip - Horloge pliable - Noir - Mécanisme à quartz - Grands chiffres",
+                  "url": null,
+                  "domain": null,
+                  "description": "Kaufland.fr - Teamo",
+                  "more_sellers": false,
+                  "seller": "Kaufland.fr - Teamo",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSCPT7R8ARME4J_6GshGxRi0r_9YPpmP5eEPhmmR0H5T938vjIZcmjrezfa-Jha0hRLJ-wipKzTQYAKwN2aVA7VK7JZQzjPWgSobDLLm6YXGziydMgpmbQTtA",
+                  "price": {
+                    "current": 106.95,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "106,95 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "7755116235652258017",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Jwthee Horloge à Bascule, Horloge numérique rétro Rabattable, numérique mécanique, Horloges de Bureau numériques rétro Vintage, Horloges Numériques",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.fr - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.fr - Seller",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRi5bq3OWkPuK-9bw0J3I8RGVygaMuXQ98XTb6nKK5pCMRFeHjHJ26onNbCrs23gdVChoeC-rJRkQiwKNbMsg8DGU0YAtMtisr7c35g61aq_PwwbWVR3HsY",
+                  "price": {
+                    "current": 52.89,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "52,89 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "6557264721803770098",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Alliandisgeneric Manual Flip Clock Calendrier Rappel Horloge De Chevet Horloge Numérique Pour",
+                  "url": null,
+                  "domain": null,
+                  "description": "ManoMano.fr",
+                  "more_sellers": false,
+                  "seller": "ManoMano.fr",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTIcBjPDnyV8VXAcaeWKmHEuXxhDf0MZCSu9AIRNwYgkjb-aaV_d65-BOQpUOyQ8DOlHD_ralodisSsy4XwBbSetRWQlpM5ArnRgyR6YtFFQNt0tkZYlTvM8Q",
+                  "price": {
+                    "current": 15.49,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "15,49 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 1,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "2910656231639942241",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Horloge Flip Clock 24 H Horloge à Clapet Rétro pour Bibliothèque, Professionnels",
+                  "url": null,
+                  "domain": null,
+                  "description": "eBay FR",
+                  "more_sellers": false,
+                  "seller": "eBay FR",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRy4CRY252nJtz-R9e7jyeGQNVXJF3R43HqyGIqF5Pjrkv-W1fRJ2jzT6qLKi0EnwggasA3Kvyk_KJIR5rEWyMuobSZA-FN-0-HaB5ccm9Q",
+                  "price": {
+                    "current": 105.82,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "105,82 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 3.8,
+                    "votes_count": 6,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "2462594453540529952",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Generic Manual Flip Clock Calendrier Rappel Horloge De Chevet Horloge Numérique Pour",
+                  "url": null,
+                  "domain": null,
+                  "description": "ManoMano.fr",
+                  "more_sellers": false,
+                  "seller": "ManoMano.fr",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQU2Hh6t5xiQo6ib9jvjMlmbb1bz3PRGQtYdG3oVpjW4d0EYZbuDzaMSZUtPX_Mh2icrw2gxwGPVIipBFyMIKqvGKHTySMqG-nlhsgObO01T-FSirYCFcHG",
+                  "price": {
+                    "current": 33.49,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "33,49 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 1,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "2375173872253573419",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Horloge flip numérique rétro avec design mécanique pour la table",
+                  "url": null,
+                  "domain": null,
+                  "description": "Kaufland.fr - Teamo",
+                  "more_sellers": false,
+                  "seller": "Kaufland.fr - Teamo",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQZt-faQG9PVlm94bc6WAn1q_Axyi1dfyx-0tRIgzdiuHW-5z1F6NjmKXgWtHLGG_BmbqHkVbxaF8w1hnD-xNwzBK0vonCPeyE67aq4DKenp6gRguD6l86y",
+                  "price": {
+                    "current": 89.95,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "89,95 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "15347795921843916882",
+                    "gid": null
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[25]/div[1]/div[1]",
+              "domain": "www.espritdemaison.fr",
+              "title": "Horloge moderne Flip Flap noire",
+              "url": "https://www.espritdemaison.fr/decoration/horloge/horloge-moderne-flip-flap-karlsson.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.espritdemaison.fr › Décoration › Horloge",
+              "website_name": "esprit de maison",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Horloge moderne Flip Flap noire · Dimensions : L 21.5cm x Ht 41cm x P 8.5cm · Fonctionne avec 3 piles AA non fournies.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 129,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "129,00 €"
+              },
+              "highlighted": [
+                "Dimensions : L 21.5cm x Ht 41cm x P 8.5cm"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 14,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[26]/div[1]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Horloge Flip Flap Vintage",
+              "url": "https://www.youtube.com/watch?v=GmUGpmROl3U",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "Plus de 1,4 k vues  ·  il y a 4 ans",
+              "website_name": "YouTube · Le Vintage Illuminé",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "... horloges vintage ? Pourquoi ne pas lui acheter une horloge originale et choisir notre horloge flip flap vintage. Ce sera un excellent moyen ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "horloges",
+                "acheter",
+                "horloge",
+                "horloge flip flap"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2021-12-07 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 15,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Horloge flip flap vintage",
+                "Horloge Flip flap occasion",
+                "Horloge flip flap maison du Monde",
+                "Horloge Flip flap Karlsson",
+                "Horloge Flip flap amazon",
+                "Horloge Flip Flap murale"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

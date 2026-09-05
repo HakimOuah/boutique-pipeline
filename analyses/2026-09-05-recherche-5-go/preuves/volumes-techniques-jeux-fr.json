@@ -1,0 +1,3107 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.3628 sec.",
+  "cost": 0.09,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09050622-1621-0367-0000-30f44f220201",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.3137 sec.",
+      "cost": 0.09,
+      "result_count": 46,
+      "path": [
+        "v3",
+        "keywords_data",
+        "google_ads",
+        "search_volume",
+        "live"
+      ],
+      "data": {
+        "api": "keywords_data",
+        "function": "search_volume",
+        "se": "google_ads",
+        "keywords": [
+          "chambre à vide",
+          "chambre de dégazage",
+          "cuve sous pression résine",
+          "polisseuse bijoux",
+          "tonneau à polir",
+          "plumeuse poulet",
+          "machine à badge",
+          "machine à embosser",
+          "presse à chaud cuir",
+          "machine dorure à chaud",
+          "agrafeuse électrique",
+          "relieuse thermique",
+          "massicot électrique",
+          "fond photo motorisé",
+          "table vibrante",
+          "sertisseuse multicouche",
+          "pompe à épreuve",
+          "cintreuse tube",
+          "rivet hydraulique",
+          "extracteur de miel",
+          "fumoir à froid",
+          "broyeur à grain",
+          "moulin à malt",
+          "presse à fruits",
+          "pressoir fruits",
+          "essoreuse salade professionnelle",
+          "machine découpe bouteille",
+          "laminoir argile",
+          "extrudeuse argile",
+          "tamiseur électrique",
+          "ponceuse à ongles professionnelle",
+          "aspirateur ongles professionnel",
+          "machine à coudre cuir",
+          "graveur pneumatique",
+          "micromoteur bijouterie",
+          "lampe polarisée photo",
+          "roue chromatique coiffure",
+          "bac shampoing portable",
+          "stérilisateur billes",
+          "bol chantant cristal",
+          "sablier géant",
+          "mahjong jeu",
+          "jeu de go plateau",
+          "carrom",
+          "crokinole",
+          "diapason thérapeutique"
+        ],
+        "location_name": "France",
+        "language_code": "fr",
+        "search_partners": false
+      },
+      "result": [
+        {
+          "keyword": "chambre à vide",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 170,
+          "low_top_of_page_bid": 0.26,
+          "high_top_of_page_bid": 4.03,
+          "cpc": 1.11,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 140
+            }
+          ]
+        },
+        {
+          "keyword": "chambre de dégazage",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 95,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 1.16,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 10
+            }
+          ]
+        },
+        {
+          "keyword": "cuve sous pression résine",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": null,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": null
+        },
+        {
+          "keyword": "polisseuse bijoux",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 320,
+          "low_top_of_page_bid": 0.19,
+          "high_top_of_page_bid": 1.06,
+          "cpc": 0.73,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 210
+            }
+          ]
+        },
+        {
+          "keyword": "tonneau à polir",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 140,
+          "low_top_of_page_bid": 0.16,
+          "high_top_of_page_bid": 1.22,
+          "cpc": 0.57,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 140
+            }
+          ]
+        },
+        {
+          "keyword": "plumeuse poulet",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 480,
+          "low_top_of_page_bid": 0.09,
+          "high_top_of_page_bid": 0.79,
+          "cpc": 0.83,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 390
+            }
+          ]
+        },
+        {
+          "keyword": "machine à badge",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 1900,
+          "low_top_of_page_bid": 0.09,
+          "high_top_of_page_bid": 0.98,
+          "cpc": 0.5,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 1300
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 1600
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 1600
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 1600
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 1600
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 1900
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 1600
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 2400
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 2400
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 2400
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 1600
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 1600
+            }
+          ]
+        },
+        {
+          "keyword": "machine à embosser",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 480,
+          "low_top_of_page_bid": 0.09,
+          "high_top_of_page_bid": 0.52,
+          "cpc": 0.23,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 390
+            }
+          ]
+        },
+        {
+          "keyword": "presse à chaud cuir",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 10,
+          "low_top_of_page_bid": 1.2,
+          "high_top_of_page_bid": 3.91,
+          "cpc": 2.15,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 0
+            }
+          ]
+        },
+        {
+          "keyword": "machine dorure à chaud",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 79,
+          "search_volume": 20,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 0.07,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 40
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 10
+            }
+          ]
+        },
+        {
+          "keyword": "agrafeuse électrique",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 5400,
+          "low_top_of_page_bid": 0.1,
+          "high_top_of_page_bid": 0.72,
+          "cpc": 0.29,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 4400
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 4400
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 5400
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 6600
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 6600
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 5400
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 4400
+            }
+          ]
+        },
+        {
+          "keyword": "relieuse thermique",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 590,
+          "low_top_of_page_bid": 0.16,
+          "high_top_of_page_bid": 1.38,
+          "cpc": 0.62,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 720
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 720
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 480
+            }
+          ]
+        },
+        {
+          "keyword": "massicot électrique",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 70,
+          "low_top_of_page_bid": 0.3,
+          "high_top_of_page_bid": 1.22,
+          "cpc": 1.36,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 40
+            }
+          ]
+        },
+        {
+          "keyword": "fond photo motorisé",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": null,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": null
+        },
+        {
+          "keyword": "table vibrante",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 99,
+          "search_volume": 480,
+          "low_top_of_page_bid": 0.37,
+          "high_top_of_page_bid": 1.83,
+          "cpc": 0.66,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 390
+            }
+          ]
+        },
+        {
+          "keyword": "sertisseuse multicouche",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 2900,
+          "low_top_of_page_bid": 0.15,
+          "high_top_of_page_bid": 1.13,
+          "cpc": 0.58,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 2400
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 2400
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 2900
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 2900
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 3600
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 3600
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 3600
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 2900
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 2900
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 2900
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 2400
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 2400
+            }
+          ]
+        },
+        {
+          "keyword": "pompe à épreuve",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 320,
+          "low_top_of_page_bid": 0.42,
+          "high_top_of_page_bid": 1.77,
+          "cpc": 1.32,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 210
+            }
+          ]
+        },
+        {
+          "keyword": "cintreuse tube",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 480,
+          "low_top_of_page_bid": 0.59,
+          "high_top_of_page_bid": 2.85,
+          "cpc": 0.92,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 720
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 390
+            }
+          ]
+        },
+        {
+          "keyword": "rivet hydraulique",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": null,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": null
+        },
+        {
+          "keyword": "extracteur de miel",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 1000,
+          "low_top_of_page_bid": 0.29,
+          "high_top_of_page_bid": 1.65,
+          "cpc": 0.99,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 1300
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 1600
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 2400
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 1600
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 720
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 1300
+            }
+          ]
+        },
+        {
+          "keyword": "fumoir à froid",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 720,
+          "low_top_of_page_bid": 0.1,
+          "high_top_of_page_bid": 0.75,
+          "cpc": 0.25,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 880
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 1900
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 1300
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 390
+            }
+          ]
+        },
+        {
+          "keyword": "broyeur à grain",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 480,
+          "low_top_of_page_bid": 0.08,
+          "high_top_of_page_bid": 0.81,
+          "cpc": 0.47,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 480
+            }
+          ]
+        },
+        {
+          "keyword": "moulin à malt",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 90,
+          "low_top_of_page_bid": 0.29,
+          "high_top_of_page_bid": 1.15,
+          "cpc": 1.24,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 70
+            }
+          ]
+        },
+        {
+          "keyword": "presse à fruits",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 90,
+          "low_top_of_page_bid": 0.15,
+          "high_top_of_page_bid": 0.66,
+          "cpc": 0.35,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 170
+            }
+          ]
+        },
+        {
+          "keyword": "pressoir fruits",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 390,
+          "low_top_of_page_bid": 0.25,
+          "high_top_of_page_bid": 1.19,
+          "cpc": 0.62,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 720
+            }
+          ]
+        },
+        {
+          "keyword": "essoreuse salade professionnelle",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 480,
+          "low_top_of_page_bid": 0.39,
+          "high_top_of_page_bid": 1.91,
+          "cpc": 1.21,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 480
+            }
+          ]
+        },
+        {
+          "keyword": "machine découpe bouteille",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": null,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": null
+        },
+        {
+          "keyword": "laminoir argile",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 56,
+          "search_volume": 30,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 0.39,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 40
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 20
+            }
+          ]
+        },
+        {
+          "keyword": "extrudeuse argile",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 70,
+          "low_top_of_page_bid": 0.12,
+          "high_top_of_page_bid": 0.52,
+          "cpc": 0.22,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 50
+            }
+          ]
+        },
+        {
+          "keyword": "tamiseur électrique",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 320,
+          "low_top_of_page_bid": 0.22,
+          "high_top_of_page_bid": 1.83,
+          "cpc": 0.38,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 260
+            }
+          ]
+        },
+        {
+          "keyword": "ponceuse à ongles professionnelle",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 110,
+          "low_top_of_page_bid": 0.11,
+          "high_top_of_page_bid": 0.46,
+          "cpc": 0.44,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 140
+            }
+          ]
+        },
+        {
+          "keyword": "aspirateur ongles professionnel",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 260,
+          "low_top_of_page_bid": 0.38,
+          "high_top_of_page_bid": 1.7,
+          "cpc": 1.57,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 210
+            }
+          ]
+        },
+        {
+          "keyword": "machine à coudre cuir",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 590,
+          "low_top_of_page_bid": 0.05,
+          "high_top_of_page_bid": 0.3,
+          "cpc": 0.18,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 880
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 480
+            }
+          ]
+        },
+        {
+          "keyword": "graveur pneumatique",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 320,
+          "low_top_of_page_bid": 0.32,
+          "high_top_of_page_bid": 1.86,
+          "cpc": 0.88,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 720
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 320
+            }
+          ]
+        },
+        {
+          "keyword": "micromoteur bijouterie",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 170,
+          "low_top_of_page_bid": 0.23,
+          "high_top_of_page_bid": 1.38,
+          "cpc": 0.97,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 110
+            }
+          ]
+        },
+        {
+          "keyword": "lampe polarisée photo",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": null,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": null
+        },
+        {
+          "keyword": "roue chromatique coiffure",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": null,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": null
+        },
+        {
+          "keyword": "bac shampoing portable",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 260,
+          "low_top_of_page_bid": 0.1,
+          "high_top_of_page_bid": 0.51,
+          "cpc": 0.45,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 170
+            }
+          ]
+        },
+        {
+          "keyword": "stérilisateur billes",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": null,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": null
+        },
+        {
+          "keyword": "bol chantant cristal",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 720,
+          "low_top_of_page_bid": 0.3,
+          "high_top_of_page_bid": 1.93,
+          "cpc": 1.43,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 720
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 720
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 880
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 1300
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 480
+            }
+          ]
+        },
+        {
+          "keyword": "sablier géant",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 210,
+          "low_top_of_page_bid": 0.12,
+          "high_top_of_page_bid": 0.98,
+          "cpc": 0.27,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 170
+            }
+          ]
+        },
+        {
+          "keyword": "mahjong jeu",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 21,
+          "search_volume": 27100,
+          "low_top_of_page_bid": 0.01,
+          "high_top_of_page_bid": 0.83,
+          "cpc": 0.38,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 22200
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 27100
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 27100
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 27100
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 27100
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 27100
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 27100
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 27100
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 22200
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 22200
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 22200
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 22200
+            }
+          ]
+        },
+        {
+          "keyword": "jeu de go plateau",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 99,
+          "search_volume": 140,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 0.11,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 170
+            }
+          ]
+        },
+        {
+          "keyword": "carrom",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 3600,
+          "low_top_of_page_bid": 0.17,
+          "high_top_of_page_bid": 1.06,
+          "cpc": 0.3,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 2400
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 2400
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 2900
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 2900
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 2900
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 3600
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 4400
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 3600
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 2900
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 2900
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 3600
+            }
+          ]
+        },
+        {
+          "keyword": "crokinole",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 91,
+          "search_volume": 1300,
+          "low_top_of_page_bid": 0.12,
+          "high_top_of_page_bid": 0.68,
+          "cpc": 0.21,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 880
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 880
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 1000
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 880
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 1000
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 1300
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 1300
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 2400
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 1300
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 880
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 880
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 1300
+            }
+          ]
+        },
+        {
+          "keyword": "diapason thérapeutique",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 3600,
+          "low_top_of_page_bid": 0.17,
+          "high_top_of_page_bid": 0.64,
+          "cpc": 0.72,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 1600
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 1900
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 2900
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 3600
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 4400
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 3600
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 2900
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 4400
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 4400
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 3600
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 4400
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 3600
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
