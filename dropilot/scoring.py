@@ -65,7 +65,7 @@ class ScoringEngine:
 
     def _score(self, product: ProductCandidate) -> tuple[int, dict[str, int], dict[str, int], list[str]]:
         scoring = self.config["scoring"]
-        flags: list[str] = []
+        flags: list[str] = ["legacy_score_not_qualification"]
         breakdown: dict[str, int] = {}
 
         breakdown["ticket"] = _band_points(product.price_sell, scoring["ticket"]["bands"])
@@ -110,7 +110,7 @@ class ScoringEngine:
 
     def _final_verdict(self, product: ProductCandidate, decision: str, flags: list[str]) -> str:
         if decision == "reject":
-            return "NO_GO"
+            return "TECHNICAL_INCONCLUSIVE"
         gates = self.config["final_gates"]
         blockers: list[str] = []
         threshold = market_volume_threshold(self.config, product.market)
@@ -135,8 +135,8 @@ class ScoringEngine:
             blockers.append("differentiation_missing")
         flags.extend(item for item in blockers if item not in flags)
         if decision == "shortlist" and not blockers:
-            return "GO"
-        return "MAYBE"
+            return "TECHNICAL_INCONCLUSIVE"
+        return "TECHNICAL_INCONCLUSIVE"
 
     def evaluate(self, product: ProductCandidate) -> ScoringResult:
         rejected_by = self._hard_filter(product)
@@ -145,8 +145,9 @@ class ScoringEngine:
                 product_name=product.product_name,
                 score=None,
                 decision="reject",
-                verdict="NO_GO",
+                verdict="TECHNICAL_INCONCLUSIVE",
                 rejected_by=rejected_by,
+                flags=["legacy_score_not_qualification"],
             )
         score, breakdown, penalties, flags = self._score(product)
         thresholds = self.config["scoring"]["thresholds"]
@@ -158,7 +159,8 @@ class ScoringEngine:
             decision = "reject"
         if decision == "shortlist" and (product.legal_eu is None or product.margin_ratio is None):
             decision = "review"
-        verdict = self._final_verdict(product, decision, flags)
+        flags.append("legacy_score_not_qualification")
+        self._final_verdict(product, decision, flags)
         target_clicks = self.config["testing"].get("target_clicks_per_test")
         required_budget = None
         if target_clicks is not None and product.cpc is not None:
@@ -167,7 +169,7 @@ class ScoringEngine:
             product_name=product.product_name,
             score=score,
             decision=decision,
-            verdict=verdict,
+            verdict="TECHNICAL_INCONCLUSIVE",
             breakdown=breakdown,
             penalties=penalties,
             flags=flags,

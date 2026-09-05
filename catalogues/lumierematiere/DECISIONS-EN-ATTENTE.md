@@ -10,22 +10,37 @@ Compte rendu complet : [`journal/2026-09-04-arbitrages-titres-variantes.md`](jou
 | **D-3** — doublons de `897170` | « ok pour ta reco » | ✅ fait — 3 paires vérifiées à l'image, 3 variantes supprimées ; **écart assumé** : j'ai gardé le SKU le mieux approvisionné, pas systématiquement celui sans suffixe « 2 » |
 | **D-4** — montages fournisseur | « ok avec ta reco » | ✅ fait sur `147607` et `560098` ; `272937` attend le lot 3 (sinon zéro image) |
 
-Contrôle : **52 produits / 158 variantes** (161 − 3), 0 prix barré, SKU DSers intacts.
+Contrôle : **51 produits publiés / 158 variantes** (`338324` archivée le 05/09), 0 prix barré, SKU DSers intacts.
 
 ---
 
 ## Ce qui reste réellement ouvert
 
-### O-1 · `suspension-effet-pierre-led-147607` — avec ou sans ampoule ?
+### O-1 · `suspension-effet-pierre-led-147607` — avec ou sans ampoule ? **CLOSE le 05/09**
 
-Le SKU porte `136:200003939#Warm light 3000K` (source intégrée) mais le corps de fiche dit
-« il vous faudra une ampoule E27 ». **Les deux ne peuvent pas être vrais**, et c'est une
-information d'achat, donc un sujet GMC.
+Tranchée sur les plaques fournisseur (`sources-fournisseur/1005009207147607/03.jpg` et `06.jpg`) :
+le bloc rectangulaire fait **6,5 × 6,5 cm** et son émetteur encastré ~2 cm — une douille E27
+(~4 cm, ampoule ~6 cm) n'y rentre pas ; le faisceau est un cône de spot, pas la nappe d'un globe.
+Le fournisseur écrit `No Bulb(E27)` quand il le pense (`607504`) ; ici il écrit `Warm light 3000K`
+et n'offre aucune alternative.
 
-En attendant, j'ai retiré `LED` du titre plutôt que d'affirmer ce que je ne peux pas prouver :
-le titre est aujourd'hui « Suspension travertin cuisine, monture noyer », vrai dans les deux cas.
+**Verdict : LED intégrée et fournie, blanc chaud 3000 K.** Description, `usps`, `specs`,
+`installation` et FAQ corrigés — la fiche envoyait le client acheter une ampoule inutile.
+Détail : [`journal/2026-09-05-doublon-193329-et-ampoules.md`](journal/2026-09-05-doublon-193329-et-ampoules.md).
 
-**Ta décision** : trancher dans DSers ou sur la PDP fournisseur, puis aligner titre et description.
+### O-3 · Cohérence source lumineuse — 4 fiches suspectes, non tranchées
+
+Le balayage SKU × `specs` mené le 05/09 a corrigé `623305` (6 variantes sur 9 sont livrées
+avec ampoule alors que la fiche disait « non fournie » partout). Restent, sur lecture
+d'étiquette seule, sans preuve : `934110` (déjà en attente de confirmation fournisseur),
+`805304` / `952116` / `121862` (`4W(Max 60W)` se lit comme une douille, pas une LED intégrée),
+`832012` (« selon la variante » alors que l'axe n'a qu'une valeur), `829449` (aucune source en local).
+
+### O-4 · Téléphone — instruction du 05/09 contre décision du 31/08
+
+Hakim donne `+33 7 56 82 80 94`. Le site publie partout `+33 7 56 91 60 84` et le JSON-LD
+`0756916084`, aligné le 31/08 **sur sa propre décision**, écran Réglages à l'appui.
+Rien touché : à confirmer avant de basculer 8 surfaces publiques.
 
 ### O-2 · Questions confiées à Codex, pas à toi
 

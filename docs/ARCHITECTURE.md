@@ -1,3 +1,5 @@
+> Statut depuis le 5 septembre 2026 : moteur Dropilot historique de classement indicatif. Sa configuration et ses anciens seuils ne qualifient pas un candidat. Le code rend TECHNICAL_INCONCLUSIVE ; appliquer PRODUCT-RESEARCH-CRITERIA.md pour une qualification actuelle.
+
 # Architecture Dropilot
 
 ## Sources de vérité

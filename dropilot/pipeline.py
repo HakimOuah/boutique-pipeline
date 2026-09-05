@@ -31,14 +31,8 @@ def run_pipeline(
     for product in products:
         result = engine.evaluate(product)
         if product.status == "idea":
-            if result.verdict == "GO":
-                product.status = "go"
-            elif result.decision == "shortlist":
-                product.status = "prefiltered"
-            elif result.decision == "review":
-                product.status = "to_analyze"
-            else:
-                product.status = "rejected"
+            # Legacy ranking does not qualify or reject a commercial opportunity.
+            product.status = "to_analyze"
         fingerprint = candidate_fingerprint(
             product,
             ignore_words=dedup["ignore_words"],

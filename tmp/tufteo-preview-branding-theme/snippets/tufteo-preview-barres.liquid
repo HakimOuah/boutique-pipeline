@@ -1,0 +1,86 @@
+{% doc %}
+  Preview-only : simule les prix barrés du 22/07 sur CE thème brouillon.
+  Ne touche pas compareAtPrice Shopify — le catalogue live reste à null.
+{% enddoc %}
+
+{%- if theme.name contains 'preview branding' -%}
+<style>
+  .tuf-preview-banner {
+    position: sticky; top: 0; z-index: 9999;
+    background: #1c1410; color: #ffd23f;
+    font: 600 13px/1.3 system-ui, sans-serif;
+    text-align: center; padding: 8px 12px;
+  }
+  .compare-at-price.tuf-preview-compare {
+    display: inline !important;
+    text-decoration: line-through;
+    opacity: .65;
+    margin-left: .35em;
+  }
+  .product-badges--top-right:empty::before,
+  .tuf-preview-sale {
+    display: inline-block;
+    background: #e8542f; color: #fff;
+    font: 700 11px/1 system-ui, sans-serif;
+    padding: 5px 8px; border-radius: 4px;
+    letter-spacing: .02em;
+  }
+</style>
+<div class="tuf-preview-banner">
+  Brouillon — preview branding 03/09 · ne pas publier · prix barrés simulés (catalogue live inchangé)
+</div>
+<script>
+  (function () {
+    var HANDLE = {{ product.handle | default: '' | json }};
+    var OVERRIDES = {
+      "kit-tufting-complet": 299,
+      "tufting-gun-2-en-1": 189,
+      "tondeuse-professionnelle-tapis": 119
+    };
+    function times13(n) {
+      var x = Math.ceil(n * 1.3 * 10) / 10;
+      var euro = Math.floor(x);
+      var dec = Math.round((x - euro) * 100);
+      if (dec <= 90) return euro + 0.90;
+      return euro + 1.90;
+    }
+    function fmt(n) {
+      if (Math.round(n) === n) return "€" + n;
+      return "€" + n.toFixed(2).replace(".", ",");
+    }
+    function apply() {
+      document.querySelectorAll(".prices").forEach(function (box) {
+        var priceEl = box.querySelector(".price");
+        var cmp = box.querySelector(".compare-at-price");
+        if (!priceEl || !cmp) return;
+        var dataVal = priceEl.getAttribute("data-value");
+        var n;
+        if (dataVal && /^\d+$/.test(dataVal) && parseInt(dataVal, 10) >= 100) {
+          n = parseInt(dataVal, 10) / 100;
+        } else {
+          n = parseFloat(String(priceEl.textContent).replace(/[^\d.,]/g, "").replace(",", "."));
+        }
+        if (!n || n < 1) return;
+        var compare = OVERRIDES[HANDLE] || times13(n);
+        if (compare <= n) return;
+        cmp.textContent = fmt(compare);
+        cmp.classList.add("tuf-preview-compare");
+        cmp.dataset.tufPreview = "1";
+      });
+      document.querySelectorAll(".product-badges--top-right").forEach(function (el) {
+        if (el.dataset.tufPreview || el.textContent.trim()) return;
+        el.innerHTML = '<span class="tuf-preview-sale">Promo</span>';
+        el.dataset.tufPreview = "1";
+      });
+    }
+    apply();
+    document.addEventListener("DOMContentLoaded", apply);
+    var n = 0;
+    var t = setInterval(function () {
+      apply();
+      if (++n > 12) clearInterval(t);
+    }, 400);
+    document.addEventListener("change", apply);
+  })();
+</script>
+{%- endif -%}

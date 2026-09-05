@@ -1,3 +1,5 @@
+> Archive de passation datée, non normative. Instructions actuelles : `AGENTS.md` et `PRODUCT-RESEARCH-PLAYBOOK.md` à la racine du dépôt. Charger le détail ci-dessous uniquement pour comprendre l’historique concerné.
+
 # 12 — Instructions de travail pour Codex
 
 > Dossier de passation Codex — généré le 2026-07-30. À lire après `00`/`01` et avant toute action.

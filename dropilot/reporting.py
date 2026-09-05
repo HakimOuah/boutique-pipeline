@@ -58,7 +58,7 @@ def write_reports(items: list[EvaluatedCandidate], directory: str | Path) -> dic
         writer.writerows(rows)
 
     markdown_path = output_dir / f"{stem}.md"
-    lines = [f"# Recherche produits — {stem}", ""]
+    lines = [f"# Classement historique indicatif — {stem}", "", "Aucune qualification commerciale : appliquer les critères canoniques du pipeline.", ""]
     for item in sorted(items, key=lambda candidate: candidate.result.score or -1, reverse=True):
         lines.extend(
             [
@@ -67,7 +67,7 @@ def write_reports(items: list[EvaluatedCandidate], directory: str | Path) -> dic
                 f"- Marché : {item.product.market}",
                 f"- Score : {item.result.score if item.result.score is not None else 'rejet direct'}",
                 f"- Décision broyeur : {item.result.decision}",
-                f"- Verdict final : {item.result.verdict}",
+                f"- Qualification actuelle : {item.result.verdict}",
                 f"- Drapeaux : {', '.join(item.result.flags) or 'aucun'}",
                 f"- Doublon : {'non' if item.inserted else 'oui'}",
                 "",

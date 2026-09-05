@@ -1,0 +1,874 @@
+{
+  "n_fiches": 131,
+  "n_variantes": 493,
+  "n_1var": 14,
+  "n_compare": 14,
+  "prix_min": 17.99,
+  "prix_med": 74.99,
+  "prix_max": 524.0,
+  "vendors": [
+    [
+      "bananair.fr",
+      116
+    ],
+    [
+      "Bananair",
+      15
+    ]
+  ],
+  "created_min": "2026-02-10T17:08:59+01:00",
+  "created_max": "2026-08-28T13:44:26+02:00",
+  "n_collections": 50,
+  "collections": [
+    {
+      "handle": "accueil",
+      "title": "ACCUEIL",
+      "n": 0,
+      "desc_len": 0
+    },
+    {
+      "handle": "all",
+      "title": "ALL",
+      "n": 139,
+      "desc_len": 0
+    },
+    {
+      "handle": "best-sellers",
+      "title": "BEST-SELLERS",
+      "n": 5,
+      "desc_len": 0
+    },
+    {
+      "handle": "canapes-modulables-exterieurs",
+      "title": "CANAPÉS MODULABLES EXTÉRIEURS",
+      "n": 1,
+      "desc_len": 0
+    },
+    {
+      "handle": "canapes-modulables-interieurs",
+      "title": "CANAPÉS MODULABLES INTÉRIEURS",
+      "n": 26,
+      "desc_len": 0
+    },
+    {
+      "handle": "chauffeuses",
+      "title": "CHAUFFEUSES",
+      "n": 1,
+      "desc_len": 0
+    },
+    {
+      "handle": "coussin-de-lecture",
+      "title": "COUSSIN DE LECTURE",
+      "n": 3,
+      "desc_len": 0
+    },
+    {
+      "handle": "coussin-bain-de-soleil",
+      "title": "COUSSINS BAIN DE SOLEIL",
+      "n": 2,
+      "desc_len": 0
+    },
+    {
+      "handle": "coussins-chiens",
+      "title": "COUSSINS CHIENS",
+      "n": 4,
+      "desc_len": 0
+    },
+    {
+      "handle": "coussin-de-grossesse",
+      "title": "COUSSINS DE GROSSESSE",
+      "n": 4,
+      "desc_len": 0
+    },
+    {
+      "handle": "coussins-exterieurs",
+      "title": "COUSSINS EXTÉRIEURS",
+      "n": 14,
+      "desc_len": 0
+    },
+    {
+      "handle": "coussins-interieurs",
+      "title": "COUSSINS INTÉRIEURS",
+      "n": 7,
+      "desc_len": 0
+    },
+    {
+      "handle": "coussin-palette",
+      "title": "COUSSINS PALETTE",
+      "n": 12,
+      "desc_len": 0
+    },
+    {
+      "handle": "exterieur",
+      "title": "EXTÉRIEUR",
+      "n": 18,
+      "desc_len": 0
+    },
+    {
+      "handle": "futons",
+      "title": "FUTONS",
+      "n": 5,
+      "desc_len": 0
+    },
+    {
+      "handle": "futons-dehoussables",
+      "title": "FUTONS DÉHOUSSABLES",
+      "n": 2,
+      "desc_len": 0
+    },
+    {
+      "handle": "housses",
+      "title": "HOUSSES",
+      "n": 31,
+      "desc_len": 0
+    },
+    {
+      "handle": "housses-accessoires",
+      "title": "HOUSSES & ACCESSOIRES",
+      "n": 35,
+      "desc_len": 0
+    },
+    {
+      "handle": "housses-chauffeuses",
+      "title": "HOUSSES CHAUFFEUSES",
+      "n": 1,
+      "desc_len": 0
+    },
+    {
+      "handle": "housses-coussins-de-grossesse",
+      "title": "HOUSSES COUSSINS DE GROSSESSE",
+      "n": 4,
+      "desc_len": 0
+    },
+    {
+      "handle": "housses-coussins-palette",
+      "title": "HOUSSES COUSSINS PALETTE",
+      "n": 4,
+      "desc_len": 0
+    },
+    {
+      "handle": "housses-fourrure",
+      "title": "HOUSSES FOURRURE",
+      "n": 5,
+      "desc_len": 0
+    },
+    {
+      "handle": "housses-futons",
+      "title": "HOUSSES FUTONS",
+      "n": 1,
+      "desc_len": 0
+    },
+    {
+      "handle": "housses-microsuede",
+      "title": "HOUSSES MICROSUÈDE",
+      "n": 5,
+      "desc_len": 0
+    },
+    {
+      "handle": "housses-poufs-140x180-cm",
+      "title": "HOUSSES POUFS 140X180 CM",
+      "n": 2,
+      "desc_len": 0
+    },
+    {
+      "handle": "housses-poufs-exterieurs-rayures",
+      "title": "HOUSSES POUFS EXTÉRIEURS RAYURES",
+      "n": 1,
+      "desc_len": 0
+    },
+    {
+      "handle": "housses-poufs-fauteuils",
+      "title": "HOUSSES POUFS FAUTEUILS",
+      "n": 1,
+      "desc_len": 0
+    },
+    {
+      "handle": "housses-poufs-geants",
+      "title": "HOUSSES POUFS GÉANTS",
+      "n": 10,
+      "desc_len": 0
+    },
+    {
+      "handle": "housses-poufs-longs",
+      "title": "HOUSSES POUFS LONGS",
+      "n": 1,
+      "desc_len": 0
+    },
+    {
+      "handle": "housses-poufs-poires",
+      "title": "HOUSSES POUFS POIRES",
+      "n": 6,
+      "desc_len": 0
+    },
+    {
+      "handle": "housses-poufs-poires-polyester",
+      "title": "HOUSSES POUFS POIRES POLYESTER",
+      "n": 3,
+      "desc_len": 0
+    },
+    {
+      "handle": "housses-poufs-poires-velours-cotele",
+      "title": "HOUSSES POUFS POIRES VELOURS CÔTELÉ",
+      "n": 3,
+      "desc_len": 0
+    },
+    {
+      "handle": "interieur",
+      "title": "INTÉRIEUR",
+      "n": 76,
+      "desc_len": 0
+    },
+    {
+      "handle": "les-banabag",
+      "title": "LES BANABAG",
+      "n": 10,
+      "desc_len": 0
+    },
+    {
+      "handle": "nos-produits-dehoussables",
+      "title": "NOS PRODUITS DÉHOUSSABLES",
+      "n": 57,
+      "desc_len": 0
+    },
+    {
+      "handle": "peluches-geantes",
+      "title": "PELUCHES GÉANTES",
+      "n": 9,
+      "desc_len": 0
+    },
+    {
+      "handle": "peluches-nounours",
+      "title": "PELUCHES NOUNOURS",
+      "n": 6,
+      "desc_len": 0
+    },
+    {
+      "handle": "peluches-panda",
+      "title": "PELUCHES PANDA",
+      "n": 3,
+      "desc_len": 0
+    },
+    {
+      "handle": "poufs-140x180-cm-exterieur",
+      "title": "POUFS 140X180 CM - EXTÉRIEUR",
+      "n": 1,
+      "desc_len": 0
+    },
+    {
+      "handle": "poufs-140x180-cm-interieur",
+      "title": "POUFS 140X180 CM - INTÉRIEUR",
+      "n": 2,
+      "desc_len": 0
+    },
+    {
+      "handle": "poufs-allonges",
+      "title": "POUFS ALLONGÉS",
+      "n": 1,
+      "desc_len": 0
+    },
+    {
+      "handle": "poufs-exterieurs",
+      "title": "POUFS EXTÉRIEURS",
+      "n": 3,
+      "desc_len": 0
+    },
+    {
+      "handle": "poufs-fauteuils",
+      "title": "POUFS FAUTEUILS",
+      "n": 13,
+      "desc_len": 0
+    },
+    {
+      "handle": "poufs-geants",
+      "title": "POUFS GÉANTS",
+      "n": 10,
+      "desc_len": 0
+    },
+    {
+      "handle": "poufs-interieurs",
+      "title": "POUFS INTÉRIEURS",
+      "n": 33,
+      "desc_len": 0
+    },
+    {
+      "handle": "poufs-lits",
+      "title": "POUFS LITS",
+      "n": 1,
+      "desc_len": 0
+    },
+    {
+      "handle": "poufs-poires",
+      "title": "POUFS POIRES",
+      "n": 6,
+      "desc_len": 0
+    },
+    {
+      "handle": "poufs-a-rayures",
+      "title": "POUFS À RAYURES",
+      "n": 1,
+      "desc_len": 0
+    },
+    {
+      "handle": "rembourrage-flocon-de-mousse-dechiquetee",
+      "title": "REMBOURRAGE - FLOCONS DE MOUSSE DÉCHIQUETÉE",
+      "n": 2,
+      "desc_len": 0
+    },
+    {
+      "handle": "sac-de-rangement",
+      "title": "Sac De Rangement",
+      "n": 3,
+      "desc_len": 0
+    }
+  ],
+  "type_stats": {
+    "(vide)": {
+      "n": 131,
+      "n_var": 493,
+      "min": 17.99,
+      "med": 74.99,
+      "max": 524.0
+    }
+  },
+  "fam": {
+    "F1": {
+      "n_fiches": 6,
+      "prix_min": 49.99,
+      "prix_med": 69.29,
+      "prix_max": 82.49,
+      "types": [
+        [
+          "(vide)",
+          6
+        ]
+      ],
+      "titres": [
+        "Pouf Poire Velours Côtelé Déhoussable - 120x100 Cm",
+        "Pouf Poire Velours Côtelé Déhoussable - 105x85 Cm",
+        "Pouf Poire Déhoussable - 80x70 Cm",
+        "Pouf Poire Déhoussable - 105x85 Cm",
+        "Pouf Poire Déhoussable - 120x100 Cm",
+        "Pouf Poire Velours Côtelé Déhoussable - 80x70 Cm"
+      ]
+    },
+    "F2": {
+      "n_fiches": 0,
+      "prix_min": null,
+      "prix_med": null,
+      "prix_max": null,
+      "types": [],
+      "titres": []
+    },
+    "F3": {
+      "n_fiches": 33,
+      "prix_min": 22.5,
+      "prix_med": 149.99,
+      "prix_max": 524.0,
+      "types": [
+        [
+          "(vide)",
+          33
+        ]
+      ],
+      "titres": [
+        "Housse Pouf XXL En Velours Côtelé - 110 X 100 Cm",
+        "Peluche Géante Nounours - 260 Cm - Banabear",
+        "Peluche Géante Nounours - 340 Cm - Banabear",
+        "Peluche Géante Panda - 200 Cm",
+        "Peluche Géante Nounours - 160 Cm - Banabear",
+        "Peluche Géante Nounours - 130 Cm - Banabear",
+        "Peluche Géante Panda - 130 Cm",
+        "Peluche Géante Panda - 160 Cm"
+      ]
+    },
+    "F4": {
+      "n_fiches": 20,
+      "prix_min": 99.0,
+      "prix_med": 314.0,
+      "prix_max": 519.0,
+      "types": [
+        [
+          "(vide)",
+          20
+        ]
+      ],
+      "titres": [
+        "Module méridienne / repose-pieds déhoussable - Pour canapé modulable - Velours côtelé - 80x60 cm",
+        "Module central déhoussable - Pour canapé modulable - Velours côtelé - 90x82 cm",
+        "Module d'angle Gauche déhoussable - Pour canapé modulable - Velours côtelé - 90x90 cm",
+        "Module d'angle Droit déhoussable - Pour canapé modulable - Velours côtelé - 90x90 cm",
+        "Canapé modulable 3 places déhoussable avec méridienne - Velours côtelé - 90x262 cm",
+        "Canapé modulable 2 places déhoussable - Velours côtelé - 90x180 cm",
+        "Canapé modulable 3 places déhoussable - Velours côtelé - 90x262 cm",
+        "Module D’angle Droit Pour Canapé Modulable - Fourrure Côtelée - 90x90 Cm"
+      ]
+    },
+    "F5": {
+      "n_fiches": 1,
+      "prix_min": 169.0,
+      "prix_med": 169.0,
+      "prix_max": 169.0,
+      "types": [
+        [
+          "(vide)",
+          1
+        ]
+      ],
+      "titres": [
+        "Pouf Fauteuil Velours Côtelé - 100x110 Cm"
+      ]
+    },
+    "F6": {
+      "n_fiches": 3,
+      "prix_min": 39.99,
+      "prix_med": 179.0,
+      "prix_max": 214.95,
+      "types": [
+        [
+          "(vide)",
+          3
+        ]
+      ],
+      "titres": [
+        "Repose-pieds gaming en similicuir - 50x30 cm",
+        "Pouf gaming en similicuir - 100x110 cm + Repose-pieds",
+        "Pouf gaming en similicuir - 100x110 cm"
+      ]
+    },
+    "F7": {
+      "n_fiches": 6,
+      "prix_min": 37.0,
+      "prix_med": 74.9,
+      "prix_max": 324.0,
+      "types": [
+        [
+          "(vide)",
+          6
+        ]
+      ],
+      "titres": [
+        "Pouf Extérieur Imperméable Déhoussable Anti-UV - 120x160 Cm",
+        "Pouf Extérieur Imperméable Déhoussable Anti-UV - 140x180 Cm",
+        "Pouf Extérieur Rayures - 85x85x75 Cm",
+        "Canapé Modulable Extérieur - 90 X 180 Cm",
+        "Housse Pouf Extérieur Imperméable Anti-UV - 140x180 Cm",
+        "Housse Pouf Extérieur Rayures - 85 X 85 X 75 Cm"
+      ]
+    },
+    "F8": {
+      "n_fiches": 1,
+      "prix_min": 39.99,
+      "prix_med": 39.99,
+      "prix_max": 39.99,
+      "types": [
+        [
+          "(vide)",
+          1
+        ]
+      ],
+      "titres": [
+        "Repose-Pieds Déhoussable En Velours Côtelé - 50 X 30 Cm"
+      ]
+    },
+    "F9": {
+      "n_fiches": 0,
+      "prix_min": null,
+      "prix_med": null,
+      "prix_max": null,
+      "types": [],
+      "titres": []
+    },
+    "F10": {
+      "n_fiches": 19,
+      "prix_min": 17.99,
+      "prix_med": 26.99,
+      "prix_max": 84.9,
+      "types": [
+        [
+          "(vide)",
+          19
+        ]
+      ],
+      "titres": [
+        "Housse Futon - 140x190 Cm",
+        "Mousse De Rembourrage Déchiquetée - Sachet 550 L",
+        "Housse Chauffeuse 1 Place - 70 X 190 Cm",
+        "Housse Coussin De Grossesse Coton - 140x80 Cm",
+        "Housse Coussin De Grossesse Coton - 150x80 Cm",
+        "Housse Coussin De Grossesse Velours - 140x80 Cm",
+        "Mousse De Rembourrage Déchiquetée - Sachet 1000 L",
+        "Housse Coussin De Grossesse Velours - 150x80 Cm"
+      ]
+    },
+    "HORS": {
+      "n_fiches": 42,
+      "prix_min": 19.99,
+      "prix_med": 50.39,
+      "prix_max": 169.0,
+      "types": [
+        [
+          "(vide)",
+          42
+        ]
+      ],
+      "titres": [
+        "Pouf déhoussable Velours Côtelé Épais - 100 cm",
+        "Pouf déhoussable Velours Côtelé - 100 cm",
+        "Coussin bain de soleil déhoussable - 190x60x15 cm",
+        "Matelas Futon - 140x190 Cm",
+        "Matelas Futon - 160x200 Cm",
+        "Pouf Velours Côtelé - 100 Cm",
+        "Pouf Bouclette - 100 Cm",
+        "Pouf Velours Côtelé Épais - 100cm"
+      ]
+    }
+  },
+  "sample": [
+    {
+      "title": "Module méridienne / repose-pieds déhoussable - Pour canapé modulable - Velours côtelé - 80x60 cm",
+      "vendor": "Bananair",
+      "type": "",
+      "handle": "module-meridienne-repose-pieds-pour-canape-modulable-velours-cotele-80x60-cm",
+      "n_var": 2,
+      "n_img": 12,
+      "prices": [
+        119.0,
+        119.0
+      ],
+      "tags": []
+    },
+    {
+      "title": "Module central déhoussable - Pour canapé modulable - Velours côtelé - 90x82 cm",
+      "vendor": "Bananair",
+      "type": "",
+      "handle": "module-central-dehoussable-pour-canape-modulable-velours-cotele-90x82-cm",
+      "n_var": 2,
+      "n_img": 14,
+      "prices": [
+        179.0,
+        179.0
+      ],
+      "tags": []
+    },
+    {
+      "title": "Module d'angle Gauche déhoussable - Pour canapé modulable - Velours côtelé - 90x90 cm",
+      "vendor": "Bananair",
+      "type": "",
+      "handle": "module-dangle-gauche-dehoussable-pour-canape-modulable-velours-cotele-90x90-cm",
+      "n_var": 2,
+      "n_img": 16,
+      "prices": [
+        199.0,
+        199.0
+      ],
+      "tags": []
+    },
+    {
+      "title": "Module d'angle Droit déhoussable - Pour canapé modulable - Velours côtelé - 90x90 cm",
+      "vendor": "Bananair",
+      "type": "",
+      "handle": "module-dangle-droit-dehoussable-pour-canape-modulable-velours-cotele-90x90-cm",
+      "n_var": 2,
+      "n_img": 16,
+      "prices": [
+        199.0,
+        199.0
+      ],
+      "tags": []
+    },
+    {
+      "title": "Canapé modulable 3 places déhoussable avec méridienne - Velours côtelé - 90x262 cm",
+      "vendor": "Bananair",
+      "type": "",
+      "handle": "canape-modulable-3-places-avec-meridienne-velours-cotele-90x262-cm",
+      "n_var": 2,
+      "n_img": 16,
+      "prices": [
+        519.0,
+        519.0
+      ],
+      "tags": []
+    },
+    {
+      "title": "Canapé modulable 2 places déhoussable - Velours côtelé - 90x180 cm",
+      "vendor": "Bananair",
+      "type": "",
+      "handle": "canape-modulable-2-places-dehoussable-velours-cotele-90x180-cm",
+      "n_var": 2,
+      "n_img": 16,
+      "prices": [
+        369.0,
+        369.0
+      ],
+      "tags": []
+    },
+    {
+      "title": "Canapé modulable 3 places déhoussable - Velours côtelé - 90x262 cm",
+      "vendor": "Bananair",
+      "type": "",
+      "handle": "canape-modulable-3-places-dehoussable-velours-cotele-90x262-cm",
+      "n_var": 2,
+      "n_img": 18,
+      "prices": [
+        449.0,
+        449.0
+      ],
+      "tags": []
+    },
+    {
+      "title": "Housse Pouf XXL En Velours Côtelé - 110 X 100 Cm",
+      "vendor": "bananair.fr",
+      "type": "",
+      "handle": "pouf-xxl-dehoussable-en-velours-cotele-110-x-100-cm-copie",
+      "n_var": 9,
+      "n_img": 107,
+      "prices": [
+        74.99,
+        74.99,
+        74.99,
+        74.99,
+        74.99,
+        74.99,
+        74.99,
+        74.99,
+        74.99
+      ],
+      "tags": []
+    },
+    {
+      "title": "Housse Futon - 140x190 Cm",
+      "vendor": "Bananair",
+      "type": "",
+      "handle": "housse-futon-140-x-190-cm",
+      "n_var": 3,
+      "n_img": 27,
+      "prices": [
+        64.99,
+        64.99,
+        64.99
+      ],
+      "tags": []
+    },
+    {
+      "title": "Pouf déhoussable Velours Côtelé Épais - 100 cm",
+      "vendor": "Bananair",
+      "type": "",
+      "handle": "pouf-dehoussable-velours-cotele-epais-100cm",
+      "n_var": 6,
+      "n_img": 48,
+      "prices": [
+        119.0,
+        119.0,
+        119.0,
+        119.0,
+        119.0,
+        119.0
+      ],
+      "tags": []
+    },
+    {
+      "title": "Pouf déhoussable Velours Côtelé - 100 cm",
+      "vendor": "Bananair",
+      "type": "",
+      "handle": "pouf-dehoussable-velours-cotele-100-cm",
+      "n_var": 6,
+      "n_img": 48,
+      "prices": [
+        119.0,
+        119.0,
+        119.0,
+        119.0,
+        119.0,
+        119.0
+      ],
+      "tags": []
+    },
+    {
+      "title": "Pouf Extérieur Imperméable Déhoussable Anti-UV - 120x160 Cm",
+      "vendor": "Bananair",
+      "type": "",
+      "handle": "pouf-exterieur-impermeable-dehoussable-anti-uv-120x160-cm",
+      "n_var": 4,
+      "n_img": 44,
+      "prices": [
+        74.9,
+        74.9,
+        74.9,
+        74.9
+      ],
+      "tags": []
+    },
+    {
+      "title": "Repose-pieds gaming en similicuir - 50x30 cm",
+      "vendor": "Bananair",
+      "type": "",
+      "handle": "repose-pieds-gaming-en-similicuir-50x30-cm",
+      "n_var": 2,
+      "n_img": 16,
+      "prices": [
+        39.99,
+        39.99
+      ],
+      "tags": []
+    },
+    {
+      "title": "Pouf gaming en similicuir - 100x110 cm + Repose-pieds",
+      "vendor": "Bananair",
+      "type": "",
+      "handle": "pouf-gaming-en-similicuir-100x110-cm-repose-pieds",
+      "n_var": 2,
+      "n_img": 28,
+      "prices": [
+        214.95,
+        214.95
+      ],
+      "tags": []
+    },
+    {
+      "title": "Pouf gaming en similicuir - 100x110 cm",
+      "vendor": "Bananair",
+      "type": "",
+      "handle": "pouf-gaming-en-similicuir-100x110-cm",
+      "n_var": 2,
+      "n_img": 26,
+      "prices": [
+        179.0,
+        179.0
+      ],
+      "tags": []
+    }
+  ],
+  "all_titles": [
+    "Module méridienne / repose-pieds déhoussable - Pour canapé modulable - Velours côtelé - 80x60 cm",
+    "Module central déhoussable - Pour canapé modulable - Velours côtelé - 90x82 cm",
+    "Module d'angle Gauche déhoussable - Pour canapé modulable - Velours côtelé - 90x90 cm",
+    "Module d'angle Droit déhoussable - Pour canapé modulable - Velours côtelé - 90x90 cm",
+    "Canapé modulable 3 places déhoussable avec méridienne - Velours côtelé - 90x262 cm",
+    "Canapé modulable 2 places déhoussable - Velours côtelé - 90x180 cm",
+    "Canapé modulable 3 places déhoussable - Velours côtelé - 90x262 cm",
+    "Housse Pouf XXL En Velours Côtelé - 110 X 100 Cm",
+    "Housse Futon - 140x190 Cm",
+    "Pouf déhoussable Velours Côtelé Épais - 100 cm",
+    "Pouf déhoussable Velours Côtelé - 100 cm",
+    "Pouf Extérieur Imperméable Déhoussable Anti-UV - 120x160 Cm",
+    "Repose-pieds gaming en similicuir - 50x30 cm",
+    "Pouf gaming en similicuir - 100x110 cm + Repose-pieds",
+    "Pouf gaming en similicuir - 100x110 cm",
+    "Coussin bain de soleil déhoussable - 190x60x15 cm",
+    "Matelas Futon - 140x190 Cm",
+    "Matelas Futon - 160x200 Cm",
+    "Peluche Géante Nounours - 260 Cm - Banabear",
+    "Peluche Géante Nounours - 340 Cm - Banabear",
+    "Peluche Géante Panda - 200 Cm",
+    "Pouf Poire Velours Côtelé Déhoussable - 120x100 Cm",
+    "Peluche Géante Nounours - 160 Cm - Banabear",
+    "Peluche Géante Nounours - 130 Cm - Banabear",
+    "Peluche Géante Panda - 130 Cm",
+    "Peluche Géante Panda - 160 Cm",
+    "Peluche Géante Nounours - 100 Cm - Banabear",
+    "Peluche Géante Nounours - 200 Cm - Couleurs",
+    "Pouf Extérieur Imperméable Déhoussable Anti-UV - 140x180 Cm",
+    "Pouf Extérieur Rayures - 85x85x75 Cm",
+    "Pouf Long Géant Fourrure - 160 Cm",
+    "Pouf Velours Côtelé - 100 Cm",
+    "Pouf Bouclette - 100 Cm",
+    "Pouf Velours Côtelé Épais - 100cm",
+    "Pouf Poire Velours Côtelé Déhoussable - 105x85 Cm",
+    "Pouf Fauteuil Velours Côtelé - 100x110 Cm",
+    "Module D’angle Droit Pour Canapé Modulable - Fourrure Côtelée - 90x90 Cm",
+    "Module Central Pour Canapé Modulable - Fourrure Côtelée - 90x82 Cm",
+    "Canapé Modulable 4 Places Avec Méridienne - Fourrure Côtelée - 90x262 Cm",
+    "Canapé Modulable 2 Places - Fourrure Côtelée - 90x180 Cm",
+    "Canapé Modulable 4 Places Avec Méridienne - Effet Lin - 90x262 Cm",
+    "Canapé Modulable 3 Places - Fourrure Côtelée - 90x262 Cm",
+    "Pouf Géant Fourrure - 120 Cm - Banabag",
+    "Pouf Méridienne Pour Canapé Modulable - Fourrure Côtelée - 80x60x38 Cm",
+    "Module D’angle Réversible Pour Canapé Modulable - Effet Lin - 90x90 Cm",
+    "Canapé Modulable 3 Places - Effet Lin - 90x262 Cm",
+    "Canapé Modulable 2 Places - Effet Lin - 90x180 Cm",
+    "Pouf Méridienne Pour Canapé Modulable - Effet Lin - 80x60x38 Cm",
+    "Pouf XXL Déhoussable En Velours Côtelé - 110 X 100 Cm",
+    "Repose-Pieds Déhoussable En Velours Côtelé - 50 X 30 Cm",
+    "Pouf XXL En Velours Côtelé Déhoussable - 110 X 100 Cm + Repose-Pieds",
+    "Canapé Modulable Extérieur - 90 X 180 Cm",
+    "Canapé Modulable Fourrure Côtelé - 90x180 Cm",
+    "Pouf Géant Fourrure - 140 Cm - Banabag",
+    "Canapé Lit Compressé Modulable 2 Places Velours Côtelé - 90 X 180 Cm",
+    "Chauffeuse 1 Place - 70 X 190 Cm",
+    "Coussin Bain De Soleil - 185x65x15 Cm",
+    "Coussin De Grossesse Coton - 140x80 Cm",
+    "Coussin De Grossesse Velours - 140x80 Cm",
+    "Coussin De Grossesse Coton - 150x80 Cm",
+    "Mousse De Rembourrage Déchiquetée - Sachet 550 L",
+    "Coussin De Grossesse Velours - 150x80 Cm",
+    "Coussin De Lecture Velours - 65x80 Cm",
+    "Coussin De Lecture Déhoussable Velours",
+    "Coussin De Lecture Déhoussable Velours Côtelé",
+    "Pouf Géant Fourrure - 160 Cm - Banabag",
+    "Lot Assise/Dossier Coussin Palette",
+    "Assise Seule Coussin Palette - 120x80x15 Cm",
+    "Dossier Seul Coussin Palette - 120x40x15 Cm",
+    "Coussin Palette - 120x60 Cm",
+    "Coussin Palette - Angle 60x40 Cm",
+    "Coussin Palette - LOT X2",
+    "Coussin Palette Déhoussable Imperméable - Dossier 120x40 Cm",
+    "Pouf Lit Convertible 2en1",
+    "Coussin Palette Déhoussable Imperméable - Assise 120x80 Cm",
+    "Coussin Palette Déhoussable Imperméable - 120x60 Cm",
+    "Coussin Palette Déhoussable Imperméable - Angle 60x40 Cm",
+    "Coussins Palette Déhoussable Imperméable - LOT",
+    "Coussins Palette Déhoussable Imperméable - LOT X2",
+    "Panier Chien - 75x50x10 Cm",
+    "Panier Chien - 90x65x10 Cm",
+    "Panier Chien - 110x85x10 Cm",
+    "Panier Chien - 125x110x15 Cm",
+    "Pouf Poire Déhoussable - 80x70 Cm",
+    "Futon Déhoussable - 90 X 190 Cm",
+    "Futon Déhoussable - 140 X 190 Cm",
+    "Lot Sac De Rangement + Sac Sous Vide - 90 X 65 X 50 Cm",
+    "Lot Sac De Rangement + Sac Sous Vide - 110 X 70 X 65 Cm",
+    "Housse Chauffeuse 1 Place - 70 X 190 Cm",
+    "Housse Coussin De Grossesse Coton - 140x80 Cm",
+    "Housse Coussin De Grossesse Coton - 150x80 Cm",
+    "Housse Coussin De Grossesse Velours - 140x80 Cm",
+    "Mousse De Rembourrage Déchiquetée - Sachet 1000 L",
+    "Housse Coussin De Grossesse Velours - 150x80 Cm",
+    "Housse Coussin Palette Déhoussable - Assise 120 X 80 Cm",
+    "Housse Coussin Palette Déhoussable - Dossier 120 X 40 Cm",
+    "Housse Coussin Palette Déhoussable - Angle 60 X 40 Cm",
+    "Housse Coussin Palette Déhoussable - 120 X 60 Cm",
+    "Housse Seule Pouf Géant Fourrure - 120 Cm - Banabag",
+    "Pouf Poire Déhoussable - 105x85 Cm",
+    "Housse Seule Pouf Géant Fourrure - 140 Cm - Banabag",
+    "Housse Seule Pouf Géant Fourrure - 160 Cm - Banabag",
+    "Housse Seule Pouf Géant Fourrure - 180 Cm - Banabag",
+    "Housse Seule Pouf Géant Fourrure - 200 Cm - Banabag",
+    "Housse Seule Pouf Géant Microsuède - 120 Cm - Banabag",
+    "Housse Seule Pouf Géant Microsuède - 140 Cm - Banabag",
+    "Housse Seule Pouf Géant Microsuède - 160 Cm - Banabag",
+    "Housse Seule Pouf Géant Microsuède - 180 Cm - Banabag",
+    "Housse Seule Pouf Géant Microsuède - 200 Cm - Banabag",
+    "Housse Pouf Velours Côtelé - 140x180 Cm",
+    "Housse Pouf Extérieur Imperméable Anti-UV - 140x180 Cm",
+    "Housse Pouf Extérieur Rayures - 85 X 85 X 75 Cm",
+    "Housse Seule Pouf Long Géant Fourrure - 160 Cm",
+    "Pouf Poire Déhoussable - 120x100 Cm",
+    "Housse Pouf Poire - 80x70 Cm",
+    "Housse Pouf Poire - 105x85 Cm",
+    "Housse Pouf Poire - 120x100 Cm",
+    "Housse Pouf Poire Velours Côtelé - 80x70 Cm",
+    "Housse Pouf Poire Velours Côtelé - 105x85 Cm",
+    "Housse Pouf Poire Velours Côtelé - 120x100 Cm",
+    "Pouf Géant Microsuède - 120 Cm - Banabag",
+    "Pouf Géant Microsuède - 140 Cm - Banabag",
+    "Pouf Géant Microsuède - 180 Cm - Banabag",
+    "Pouf Poire Velours Côtelé Déhoussable - 80x70 Cm",
+    "Pouf Géant Microsuède - 200 Cm - Banabag",
+    "Pouf Géant Fourrure - 180 Cm - Banabag",
+    "Pouf Géant Fourrure - 200 Cm - Banabag",
+    "Matelas Futon - 90x190 Cm",
+    "Lot Sac De Rangement + Sac Sous Vide - 65 X 55 X 50 Cm",
+    "Pouf Velours Côtelé Déhoussable - 140x180 Cm",
+    "Pouf Bouclette Déhoussable - 140x180 Cm"
+  ]
+}

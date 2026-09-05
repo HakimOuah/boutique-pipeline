@@ -122,7 +122,7 @@ def main(argv: list[str] | None = None) -> int:
         input_format=args.format,
         config_path=args.config,
     )
-    summary = {"shortlist": 0, "review": 0, "reject": 0, "go": 0, "maybe": 0, "no_go": 0}
+    summary = {"shortlist": 0, "review": 0, "reject": 0, "go": 0, "maybe": 0, "no_go": 0, "technical_inconclusive": 0}
     for item in evaluated:
         summary[item.result.decision] += 1
         summary[item.result.verdict.lower()] += 1

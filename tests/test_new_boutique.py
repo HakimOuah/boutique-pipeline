@@ -11,6 +11,10 @@ def test_scaffold_creates_expected_files(tmp_path):
     assert (project / "product-page-brief.md").exists()
     assert (project / "test-plan.md").exists()
     assert (project / "brand-tokens.json").exists()
+    for name in ("TABLEAU.md", "ETAT.md", "REGLES.md"):
+        assert (project / name).is_file()
+    for name in ("journal", "backups", "preuves", "livraisons"):
+        assert (project / name).is_dir()
     assert (project / "content").is_dir()
     assert (project / "assets/source").is_dir()
     assert (project / "assets/generated").is_dir()

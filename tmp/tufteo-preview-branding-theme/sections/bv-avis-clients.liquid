@@ -1,0 +1,189 @@
+{% comment %}
+  Bonum Vitae — Section "Avis clients" (carrousel).
+  Section originale, sans dépendance externe (défilement natif scroll-snap).
+  Portée sur Tuftéo le 21/07/2026 (structure identique à la page produit osmoseur).
+{% endcomment %}
+
+{%- liquid
+  assign align = section.settings.heading_alignment
+-%}
+
+<style>
+  #bv-avis-{{ section.id }} {
+    --bv-stars: {{ section.settings.stars_color }};
+    --bv-cardbg: {{ section.settings.card_background }};
+    --bv-border: {{ section.settings.card_border }};
+    --bv-title: {{ section.settings.title_color }};
+    --bv-text: {{ section.settings.text_color }};
+    --bv-cards: {{ section.settings.cards }};
+    {% if section.settings.background != blank %}background: {{ section.settings.background }};{% endif %}
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+  #bv-avis-{{ section.id }} .bv-avis__inner { max-width: 1200px; margin: 0 auto; padding-inline: 20px; }
+  #bv-avis-{{ section.id }} .bv-avis__heading {
+    font-family: var(--font-heading--family, var(--font-heading-family, 'Fraunces', serif));
+    color: var(--bv-title); font-size: clamp(22px, 3vw, 30px); line-height: 1.15;
+    margin: 0 0 20px; text-align: {{ align }};
+  }
+  #bv-avis-{{ section.id }} .bv-avis__viewport { position: relative; }
+  #bv-avis-{{ section.id }} .bv-avis__track {
+    display: flex; gap: 16px; list-style: none; margin: 0; padding: 4px 2px 8px;
+    overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  #bv-avis-{{ section.id }} .bv-avis__track::-webkit-scrollbar { display: none; }
+  #bv-avis-{{ section.id }} .bv-avis__card {
+    flex: 0 0 calc((100% - (var(--bv-cards) - 1) * 16px) / var(--bv-cards));
+    scroll-snap-align: start; box-sizing: border-box;
+    background: var(--bv-cardbg); border: 1px solid var(--bv-border); border-radius: 12px;
+    padding: 20px; box-shadow: 0 2px 10px rgba(61, 44, 36, 0.05);
+    display: flex; flex-direction: column;
+    font-family: var(--font-body--family, var(--font-body-family, 'Inter', sans-serif));
+  }
+  #bv-avis-{{ section.id }} .bv-avis__top { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+  #bv-avis-{{ section.id }} .bv-stars { display: inline-flex; gap: 3px; }
+  #bv-avis-{{ section.id }} .bv-star {
+    width: 22px; height: 22px; border-radius: 4px; background: #e6e6e6;
+    display: inline-flex; align-items: center; justify-content: center;
+  }
+  #bv-avis-{{ section.id }} .bv-star.is-on { background: var(--bv-stars); }
+  #bv-avis-{{ section.id }} .bv-star svg { width: 14px; height: 14px; fill: #fff; }
+  #bv-avis-{{ section.id }} .bv-verified { display: inline-flex; align-items: center; gap: 5px; margin-left: auto; font-size: 12px; color: #6b7280; white-space: nowrap; }
+  #bv-avis-{{ section.id }} .bv-verified__dot { width: 16px; height: 16px; border-radius: 50%; background: #9aa4ad; display: inline-flex; align-items: center; justify-content: center; }
+  #bv-avis-{{ section.id }} .bv-verified__dot svg { width: 9px; height: 9px; stroke: #fff; fill: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  #bv-avis-{{ section.id }} .bv-avis__title { font-weight: 700; color: var(--bv-title); font-size: 15px; margin: 0 0 6px; line-height: 1.25; }
+  #bv-avis-{{ section.id }} .bv-avis__text { color: var(--bv-text); font-size: 14px; line-height: 1.55; margin: 0 0 14px; }
+  #bv-avis-{{ section.id }} .bv-avis__meta { color: var(--bv-text); font-size: 13px; margin: auto 0 0; }
+  #bv-avis-{{ section.id }} .bv-avis__meta strong { color: var(--bv-title); font-weight: 600; }
+  #bv-avis-{{ section.id }} .bv-avis__nav {
+    position: absolute; top: 50%; transform: translateY(-50%); z-index: 2;
+    width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--bv-border);
+    background: #fff; color: var(--bv-title); font-size: 22px; line-height: 1; cursor: pointer;
+    display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(61,44,36,.1);
+  }
+  #bv-avis-{{ section.id }} .bv-avis__nav:hover { background: var(--bv-title); color: #fff; }
+  #bv-avis-{{ section.id }} .bv-avis__nav--prev { left: -8px; }
+  #bv-avis-{{ section.id }} .bv-avis__nav--next { right: -8px; }
+  @media (max-width: 749px) {
+    #bv-avis-{{ section.id }} .bv-avis__card { flex-basis: 82%; }
+    #bv-avis-{{ section.id }} .bv-avis__nav { display: none; }
+  }
+</style>
+
+<div id="bv-avis-{{ section.id }}" class="bv-avis">
+  <div class="bv-avis__inner">
+    {%- if section.settings.heading != blank -%}
+      <h2 class="bv-avis__heading">{{ section.settings.heading | escape }}</h2>
+    {%- endif -%}
+
+    <div class="bv-avis__viewport">
+      {%- if section.blocks.size > section.settings.cards -%}
+        <button class="bv-avis__nav bv-avis__nav--prev" type="button" aria-label="Précédent" data-dir="-1">&#8249;</button>
+      {%- endif -%}
+
+      <ul class="bv-avis__track" role="list">
+        {%- for block in section.blocks -%}
+          {%- assign r = block.settings.rating -%}
+          <li class="bv-avis__card" {{ block.shopify_attributes }}>
+            <div class="bv-avis__top">
+              <div class="bv-stars" role="img" aria-label="Note : {{ r }} sur 5">
+                {%- for i in (1..5) -%}
+                  <span class="bv-star{% if i <= r %} is-on{% endif %}">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.9 6.3 6.9.7-5.1 4.6 1.4 6.8L12 17.8 5.9 20.4l1.4-6.8L2.2 9l6.9-.7z"/></svg>
+                  </span>
+                {%- endfor -%}
+              </div>
+              {%- if block.settings.verified -%}
+                <span class="bv-verified">
+                  <span class="bv-verified__dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span>Vérifié
+                </span>
+              {%- endif -%}
+            </div>
+
+            {%- if block.settings.title != blank -%}
+              <p class="bv-avis__title">{{ block.settings.title | escape }}</p>
+            {%- endif -%}
+            {%- if block.settings.text != blank -%}
+              <p class="bv-avis__text">{{ block.settings.text | escape | newline_to_br }}</p>
+            {%- endif -%}
+            {%- if block.settings.author != blank or block.settings.date_text != blank -%}
+              <p class="bv-avis__meta">
+                {%- if block.settings.author != blank -%}<strong>{{ block.settings.author | escape }}</strong>{%- endif -%}
+                {%- if block.settings.author != blank and block.settings.date_text != blank -%}, {% endif -%}
+                {%- if block.settings.date_text != blank -%}{{ block.settings.date_text | escape }}{%- endif -%}
+              </p>
+            {%- endif -%}
+          </li>
+        {%- endfor -%}
+      </ul>
+
+      {%- if section.blocks.size > section.settings.cards -%}
+        <button class="bv-avis__nav bv-avis__nav--next" type="button" aria-label="Suivant" data-dir="1">&#8250;</button>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var root = document.getElementById('bv-avis-{{ section.id }}');
+    if (!root) return;
+    var track = root.querySelector('.bv-avis__track');
+    root.querySelectorAll('.bv-avis__nav').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var card = track.querySelector('.bv-avis__card');
+        var step = card ? card.getBoundingClientRect().width + 16 : 320;
+        track.scrollBy({ left: step * parseInt(btn.getAttribute('data-dir'), 10), behavior: 'smooth' });
+      });
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Avis clients",
+  "tag": "section",
+  "class": "bv-avis-section",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Titre", "default": "Ils ont adopté Tuftéo" },
+    { "type": "select", "id": "heading_alignment", "label": "Alignement du titre", "options": [ { "value": "left", "label": "Gauche" }, { "value": "center", "label": "Centré" } ], "default": "left" },
+    { "type": "header", "content": "Cartes" },
+    { "type": "range", "id": "cards", "label": "Cartes visibles (desktop)", "min": 2, "max": 4, "step": 1, "default": 3 },
+    { "type": "color", "id": "card_background", "label": "Fond des cartes", "default": "#FFFFFF" },
+    { "type": "color", "id": "card_border", "label": "Bordure des cartes", "default": "#EAE0D3" },
+    { "type": "color", "id": "title_color", "label": "Couleur des titres", "default": "#3D2C24" },
+    { "type": "color", "id": "text_color", "label": "Couleur du texte", "default": "#5A4A40" },
+    { "type": "color", "id": "stars_color", "label": "Couleur des étoiles", "default": "#C4593B" },
+    { "type": "header", "content": "Section" },
+    { "type": "color", "id": "background", "label": "Fond de section" },
+    { "type": "range", "id": "padding_top", "label": "Marge haut", "min": 0, "max": 100, "step": 4, "unit": "px", "default": 40 },
+    { "type": "range", "id": "padding_bottom", "label": "Marge bas", "min": 0, "max": 100, "step": 4, "unit": "px", "default": 40 }
+  ],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Avis",
+      "limit": 20,
+      "settings": [
+        { "type": "range", "id": "rating", "label": "Note (étoiles)", "min": 1, "max": 5, "step": 1, "default": 5 },
+        { "type": "checkbox", "id": "verified", "label": "Badge « Vérifié »", "default": true },
+        { "type": "text", "id": "title", "label": "Titre de l'avis" },
+        { "type": "textarea", "id": "text", "label": "Texte de l'avis" },
+        { "type": "text", "id": "author", "label": "Auteur" },
+        { "type": "text", "id": "date_text", "label": "Date (texte libre)", "default": "Il y a 2 jours" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Avis clients",
+      "blocks": [
+        { "type": "review", "settings": { "rating": 5, "verified": true, "title": "Exemple d'avis à remplacer", "text": "Remplacez ce texte par un vrai avis client.", "author": "Prénom", "date_text": "Il y a 3 jours" } },
+        { "type": "review", "settings": { "rating": 5, "verified": true, "title": "Exemple d'avis à remplacer", "text": "Remplacez ce texte par un vrai avis client.", "author": "Prénom", "date_text": "Il y a 1 semaine" } },
+        { "type": "review", "settings": { "rating": 4, "verified": true, "title": "Exemple d'avis à remplacer", "text": "Remplacez ce texte par un vrai avis client.", "author": "Prénom", "date_text": "Il y a 2 semaines" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -47,3 +47,17 @@ def test_status_transition_is_controlled(tmp_path):
     transition_status(repository, fingerprint, "to_analyze")
     assert repository.list_candidates()[0]["status"] == "to_analyze"
 
+
+
+def test_cli_legacy_ranking_is_inconclusive_and_never_selects_product(tmp_path, capsys):
+    from dropilot.cli import main
+    source = tmp_path / "input.json"
+    source.write_text(json.dumps([{"product_name": "Fauteuil", "price_sell": 400,
+                                  "price_source": 90, "category": "garden"}]))
+    database = tmp_path / "test.sqlite3"
+    assert main(["--db", str(database), "run", "--input", str(source),
+                 "--reports", str(tmp_path / "reports")]) == 0
+    output = json.loads(capsys.readouterr().out)
+    assert output["summary"]["technical_inconclusive"] == 1
+    assert output["summary"]["go"] == 0
+    assert CandidateRepository(database).list_candidates()[0]["status"] == "to_analyze"

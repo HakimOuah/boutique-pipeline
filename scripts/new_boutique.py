@@ -19,6 +19,10 @@ def scaffold(name: str, base_dir: Path) -> Path:
     (project / "assets/generated").mkdir(parents=True)
     (project / "assets/final").mkdir(parents=True)
     (project / "shopify").mkdir()
+    for directory in ("journal", "backups", "preuves", "livraisons"):
+        (project / directory).mkdir()
+    for document in ("TABLEAU", "ETAT", "REGLES"):
+        shutil.copy(TEMPLATES / f"{document}.template.md", project / f"{document}.md")
     shutil.copy(TEMPLATES / "research-brief.template.md", project / "research-brief.md")
     shutil.copy(TEMPLATES / "sitemap.template.md", project / "sitemap.md")
     shutil.copy(TEMPLATES / "shot-list.template.md", project / "shot-list.md")

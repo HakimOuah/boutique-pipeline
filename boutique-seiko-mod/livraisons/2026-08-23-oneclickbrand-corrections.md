@@ -11,13 +11,14 @@ Score audit : 78/100. Points bloquants traités sauf menu header (action manuell
 | Contact sans adresse postale | Adresse OH Ventures ajoutée sur `/pages/contact` + délai de réponse explicite. |
 | Page suivi colis | `/pages/suivre-mon-colis` créée. |
 
-## À faire (Hakim — 2 min)
+## Menu header — fait le 30/08
 
-**Contenu → Menus → Main menu** (le navigateur avait un brouillon non enregistré qui bloque l'automation) :
+Menus **live** (`noirmont-desktop` + `noirmont-mobile`) + footer Informations :
 
-1. Renommer **La Maison** → **À propos** (garder le lien `/pages/la-maison`)
-2. Ajouter **Suivre mon colis** → `/pages/suivre-mon-colis`
-3. Enregistrer
+1. **La Maison** → **À propos** (lien `/pages/la-maison`)
+2. **Suivre mon colis** → `/pages/suivre-mon-colis` (200)
+
+**ParcelWILL** n'est **pas installé** sur Noirmont (`/apps/parcelpanel` = 404). Tuftéo / Bonum Vitae / Lumière Matière l'ont. Dès que l'app est posée sur cette boutique, basculer le lien menu vers `/apps/parcelpanel`.
 
 ## Vérifications live
 

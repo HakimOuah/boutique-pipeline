@@ -1,67 +1,14 @@
-# Scorecard — recherche produits Google-first
+# Dossier de recherche — adapter au stade
 
-## Synthèse
-- Date :
-- Pays :
-- Source volumes/CPC :
-- Base Semrush/Keyword Planner utilisée :
-- Produits analysés :
-- Top recommandation :
-- Canal recommandé :
-- Verdict global :
+- Date, candidat, mode et lien au registre :
+- État technique : PASS_PREQUALIFICATION / REVIEW / STOP ou recommandation TECHNICAL_*
+- Demande nette : cluster Search ou consolidation Shopping, preuve DataForSEO, endpoint, paramètres et date
+- Prix observés, économie connue et hypothèses :
+- Intention SERP, saisonnalité Trends et différenciation :
+- Après pass uniquement : fournisseur exact, variante, destination, coût rendu, qualité des preuves, concurrence et réserves
+- UNIVERS : familles du catalogue, absence de double compte, couverture fournisseur selon critères
+- Faits manquants ou contradictoires et conséquences :
+- Prochaine action / décision :
+- Décision humaine si effectivement donnée : GO_FINAL / WATCH_FINAL / NO_GO_FINAL, auteur et date
 
-## Shortlist scorée
-
-| # | Produit | Problème / désir | Différenciation | Prix fournisseur | Prix vente cible | Shopping | Search | Business | Total | Canal | Verdict |
-|---|---------|------------------|-----------------|------------------|------------------|---------:|-------:|---------:|------:|-------|---------|
-| 1 |  |  |  |  |  |  |  |  |  | Shopping / Search / Both | GO / MAYBE / NO-GO |
-
-## Vérification AliExpress
-
-| # | Produit | URL AliExpress | Prix fournisseur | Prix livré | Commandes | Note produit | Notation vendeur | Délai France | Expédié depuis Europe | Risque fournisseur |
-|---|---------|----------------|------------------|------------|----------:|-------------:|------------------|--------------|------------------------|--------------------|
-| 1 |  |  |  |  |  |  |  |  | Oui / Non | Faible / Moyen / Fort |
-
-## Deep dive produit
-
-### Produit 1
-- Description :
-- Pourquoi ça peut marcher :
-- Problème client résolu ou désir adressé :
-- Persona précis :
-- Thèse de différenciation :
-- Valeur ajoutée possible :
-- Pourquoi ce n'est pas un produit mainstream/rincé :
-- Canal recommandé :
-- Requêtes Google probables :
-- Données Semrush France :
-- Shopping signals :
-- Search signals :
-- Concurrents DTC comparables :
-- Opportunités CRO :
-- Fournisseur :
-- AliExpress :
-- URL AliExpress :
-- Prix fournisseur AliExpress :
-- Prix livré AliExpress :
-- Commandes AliExpress :
-- Note produit AliExpress :
-- Notation vendeur AliExpress :
-- Délai France :
-- Expédié depuis Europe :
-- Prix et marge :
-- Risques :
-- Condition de GO :
-- Prochaine action :
-
-## Produits coupés
-
-| Produit | Raison du NO-GO | Leçon / signal utile |
-|---------|-----------------|----------------------|
-|  |  |  |
-
-## Décision recommandée
-- Produit à lancer en premier :
-- Produit à garder en réserve :
-- Produit à abandonner :
-- Prochaine étape :
+Ajouter des tableaux uniquement pour comparer des candidats ou des preuves. Le score historique n'est pas un critère de passage. Distinguer dossier local, échantillon reçu, publication, validation GMC et performance réelle.
