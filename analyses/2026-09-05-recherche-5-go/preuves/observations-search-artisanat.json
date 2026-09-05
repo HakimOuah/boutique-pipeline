@@ -1,0 +1,87 @@
+{
+  "observed_date": "2026-09-05",
+  "surface": "Google natif, navigateur IAB, DOM de résultats",
+  "default_country_parameters": "gl=fr, hl=fr, pws=0",
+  "default_location_displayed": "95390 Saint-Prix, France",
+  "limitation": "Un relevé ponctuel, aucune inférence de part de voix ou de rentabilité. Les compteurs zéro décrivent uniquement le relevé. Aucun clic sur une annonce.",
+  "queries": [
+    {
+      "query": "acheter laminoir bijoutier",
+      "text_ad_domains": [
+        "vevor.fr",
+        "amazon.fr"
+      ],
+      "text_ad_urls": [
+        "https://www.vevor.fr/laminoir-c_44384",
+        "https://www.amazon.fr/laminoir-bijouterie/s?k=laminoir+bijouterie"
+      ],
+      "proof_label": "region Annonces / Résultats sponsorisés",
+      "shopping_separate": true
+    },
+    {
+      "query": "acheter lyre instrument",
+      "text_ads_identified": 0,
+      "notes": "Blocs produits et spécialistes visibles ; aucune annonce textuelle identifiée."
+    },
+    {
+      "query": "acheter harpika",
+      "text_ads_identified": 0,
+      "notes": "Offres produits visibles ; ne prouve pas un espace publicitaire libre."
+    },
+    {
+      "query": "acheter compteur geiger",
+      "text_ads_identified": 0,
+      "notes": "PCE, Pearl et spécialistes dans les résultats naturels ; pas de calcul de domination Search."
+    },
+    {
+      "query": "acheter etau montage mouche",
+      "text_ads_identified": 0,
+      "organic_examples": [
+        "ardentflyfishing.com",
+        "1000mouches.fr",
+        "lafinemouche.fr",
+        "amazon.fr",
+        "pacificpeche.com",
+        "euro-fly.com",
+        "mouchesdevaux.com",
+        "plc-peche.fr"
+      ]
+    },
+    {
+      "query": "acheter outils bonsai",
+      "text_ads_identified": 0,
+      "organic_examples": [
+        "mistralbonsai.com",
+        "lejardindemoji.com",
+        "vente-bonsai.fr",
+        "leroymerlin.fr",
+        "tenartis.com",
+        "ogardendesign.fr",
+        "lepetitarbre.fr"
+      ],
+      "local_results_separate": [
+        "Jardiland",
+        "Atelier du Bonsaï",
+        "Paris Bonsai",
+        "Delbard",
+        "Truffaut",
+        "Le Petit Arbre"
+      ]
+    },
+    {
+      "query": "stirlingmotor kaufen",
+      "parameters": "gl=de, hl=de, pws=0",
+      "location_displayed": "Deutschland / Standort kann nicht bestimmt werden",
+      "text_ads_identified": 0,
+      "organic_examples": [
+        "amazon.de",
+        "bengs-modellbau.de",
+        "frauscher-motors.com",
+        "ebay.de",
+        "boehm-stirling.com",
+        "stirlingshop.de"
+      ],
+      "notes": "Localisation exacte inconnue. Maquettes et applications industrielles/chauffage coexistent : volume kaufen non attribuable intégralement au LL-008."
+    }
+  ]
+}

@@ -716,3 +716,28 @@ Objectif utilisateur : cinq GO nouveaux, hors doublons, 80–500 €, plusieurs 
 | Gyroscope de précision | `MESURE_SEULE` — 480 /0,16 USD ; toupie manuelle 20–25 € et véritable gyroscope motorisé 199 € non interchangeables. Aucun GO. |
 | Agitateur magnétique | `MESURE_SEULE` — 1 300 /0,78 USD, source et concurrence non qualifiées. |
 | Presse à fleurs | `MESURE_SEULE` — 210 /0,16 USD, format complet mid-ticket non établi. |
+
+
+### Complément de réservation — artisanat et métrologie, même recherche
+
+Compteur maintenu à **2/5** ; détails et sources dans le dossier du 05/09. Ces réservations n'interdisent pas de poursuivre le candidat dans la même recherche.
+
+| Produit / synonymes | État |
+|---|---|
+| Laminoir de bijoutier / laminoir à bijoux, hors simple cintreuse de bagues | `SOURCE_NON_RETENUE` — 390 FR, devis rendus >341 € face à des spécialistes 210–320 € ; Search Vevor et Amazon observé. |
+| Presse de reliure / presse à relier / presse à livres | `EN_EXAMEN` — 210 FR, source A4 complète/fret à finaliser face aux offres 77–79 €. |
+| Meuleuse vitrail / meuleuse à verre Tiffany | `DOUBLON_POTENTIEL_EXCLU_COMPTEUR` — composant du kit atelier vitrail antérieur. |
+| Harpika / kalyre 31 cordes chromatique | `DEPRIORISE` — 170 FR, source 55,39 € livré, Muziker ~89 € ; variante source/essence à identifier. Réservation rattachée aux instruments à cordes ; ne pas compter une variante de lyre comme GO supplémentaire. |
+| Duduk / doudouk arménien | `SOURCE_MANQUANTE` — achat 40 FR ; résultats API hors sujet. |
+| Shruti box / sruti box | `SOURCE_MANQUANTE` — 1 300 FR ; résultats API hors sujet. |
+| Didgeridoo compact / spirale / télescopique | `EN_EXAMEN` — 20 spirale, 10 compact ; ne pas utiliser 18 100 de la tête comme poche commerciale intégrale. |
+| Machine à fumée pour diagnostic de fuite automobile | `MESURE_INCONCLUSIVE` — quatre expressions sans données ; source exacte/fret non qualifiés. Distinct de machine à fumée événementielle, proximité à contrôler avec univers diagnostic auto. |
+| Pompe d'épreuve hydraulique de plomberie | `EN_EXAMEN` — 320 FR /1,32 USD ; pression, volume et fret non établis. |
+| Humidimètre grain/céréales | `EN_EXAMEN` — 50 céréales ; sonde vs godet, sources non interchangeables. |
+| Réfractomètre numérique / Brix | `MESURE_SEULE` — 90 numérique ; pas de GO. |
+| Compteur Geiger / dosimètre GC-02 | `DEPRIORISE` — 5 400 tête, 10 achat ; 39,79 € livré face aux GC-02 à 43 € environ, hors port selon vendeur. |
+| Baromètre mécanique marin / anéroïde mural | `EN_EXAMEN` — source 115 mm métal 44,72 € livré mais 17–35 j ; laiton non prouvé. Distinct de station météo connectée, pas de GO. |
+| Étau pour montage de mouches / fly tying vise / kit montage mouche | `DEPRIORISE` — 170 FR, kit sept pièces 53,68 € livré face au JMC pro 64,90 € ; socles et marques premium distincts. |
+| Kit outils pour bonsaï / ChumuSet-6W / outillage taille et ligature | `EN_EXAMEN` — 320 outils, 30 kit outils ; six pièces inox déclaré 59,45 € livré 8–15 j ; qualification concurrence/qualité encore insuffisante. |
+| Pyrograveur professionnel | `MESURE_SEULE` — 390 /0,40 USD, aucun sourcing complet ni GO. |
+| Backgammon | `DOUBLON_EXCLU` — piste latérale déjà inscrite antérieurement, pas comptée comme découverte. |
