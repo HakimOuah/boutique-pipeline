@@ -670,31 +670,3 @@ Source : [reports/recherche-produits-v2-2026-07-16.md](reports/recherche-produit
 | Litière automatique générique | Marché chargé, risques sécurité animale, SAV incompatible avec validation légère |
 | Rideau/rouleau occultant motorisé simple | Trop accessible, Somfy et grandes enseignes, nombreux modèles < 150 € |
 | Bateau amorceur simple sans GPS | Prix public < 100 € ; seul le segment GPS/sondeur était retenu (lui-même STOP depuis) |
-
-
-## Recherche Search mid-ticket en cours — 05/09/2026
-
-Objectif utilisateur : cinq GO nouveaux, hors doublons, 80–500 €, plusieurs pays européens. **0 nouveau GO à ce point d'étape.** [Dossier de recherche](analyses/2026-09-05-recherche-5-go/POINT-ETAPE.md). Ce bloc réserve les objets étudiés pour éviter de les présenter comme nouveaux dans une autre recherche. Il permet de poursuivre la même recherche ; les défauts d'une source ne constituent pas un rejet permanent de tout le marché.
-
-| Produit / synonymes | État de cette recherche |
-|---|---|
-| Cadre vitrine pour maillot / cadre maillot foot, rugby, basket | `EN_EXAMEN` — source exacte 60×80 à 95,60 € livré trop chère ; aucun GO. Distinct du cadre photo numérique et de la cimaise. |
-| Horloge de table à palettes / flip clock / flip flap de bureau | `EN_EXAMEN` — prix fournisseurs et concurrents relevés ; prix défendable non établi. Distinct de la graine horloge murale, à ne pas compter deux fois avec ses finitions. |
-| Bol chantant tibétain métal / bol de méditation / bol chantant cristal | `EN_EXAMEN` — une seule famille ; source et comparables à qualifier. Composition sept métaux non prouvée. |
-| Chaise de sol / zaisu / siège de sol avec dossier | `EN_EXAMEN` — sources coûteuses ou délais longs ; aucun GO. Siège rigide distinct d'un pouf ou futon, frontière à maintenir. |
-| Boîte à bijoux bois / coffret bijoux à tiroirs | `EN_EXAMEN` — variantes deux et trois niveaux non interchangeables. Exclut boîtes à montres déjà étudiées. |
-| Lampe demi-lune de manucure / lampe arche ongles | `DEPRIORISE` — demande précise faible et prix comparables serrés ; pas de GO. |
-| Valet de chambre / porte-costume bois | `ECARTE_CETTE_RECHERCHE` — Search observé chez Amazon, IKEA, Tikamoon, Maisons du Monde. |
-| Coussin de lecture à dossier / reading pillow | `DEPRIORISE` — prix souvent sous tranche, concurrence enseignes ; distinct du coussin de corps déjà enregistré. |
-| Chauffe-serviettes armoire / chauffe-serviettes seau | `DEPRIORISE` — objets différents du radiateur, variantes à séparer dans les mesures ; aucune source retenue. |
-| Lyre / harpe-lyre | `DEPRIORISE` — source 24 cordes trop chère ; tête informationnelle. |
-| Urne funéraire / urne cinéraire adulte ou animal | `EN_EXAMEN` — capacité et tranche de prix non qualifiées ; ne pas compter animal et adulte comme deux GO. Distinct d'une plaque funéraire. |
-| Machine à badges / presse à badges manuelle | `EN_EXAMEN` — demande 1 900 FR, source exacte 58 mm 80,51 € livré avant consommables non établis ; aucun GO. |
-| Mannequin de couture / buste couture réglable | `MESURE_ET_SERP` — 9 900 FR tête, 1 900 réglable, pas de source retenue ni GO. Distinct du mannequin de repassage. |
-| Moteur Stirling miniature / maquette moteur thermique / LL-008 | `EN_EXAMEN` — une seule famille pour les variantes. Source LL-008 bois 45,07 € livré FR ; tête mixte 3 600 FR /6 600 DE, acheter 30 FR /260 DE. Aucun GO. |
-| Extension double écran de PC portable / triple écran portable | `DEPRIORISE` — doubles écrans AliExpress ≥252,99 € avant fret, offre Blackview deux 14 pouces 249,90 €. Un écran simple bon marché ne représente pas le produit complet. |
-| Scanner manuel portable de documents / iScan A4 | `DEPRIORISE` — source 900 DPI 49,69 € avant fret vs Socosytech 58,99 € avec SD. Distinct d'un microscope, scanner OBD, scanner de diapositives et application mobile. |
-| Stylo scanner traducteur / stylo de lecture multilingue | `DEPRIORISE` — source 30,99 € hors fret, Pearl 142 langues 39,99 €. Ne pas reprendre les promesses médicales des vendeurs. |
-| Ventilateur holographique / projecteur holographique / hélice LED 3D | `EN_EXAMEN` — 30 cm protégé sur batterie : 135,38 € livré mais 25–42 jours. Halolight Shopify ; aucune annonce Search textuelle identifiée sur les deux relevés FR. Aucun GO. |
-| Concertina musical / accordéon hexagonal 20 boutons | `DEPRIORISE` — 210 FR sur instrument ; offre 9,79 € = sac seul, véritable instrument 148,39 € hors fret. Ne pas confondre avec clôture ou événement homonyme. |
-| Gramophone décoratif Bluetooth à pavillon, sans lecture vinyle | `SOURCE_MANQUANTE` — FR 50 sur Bluetooth, tête 12 100 mixte. Ne pas recycler le marché des platines vinyle et ne pas comparer les mini-enceintes aux grands pavillons. |
