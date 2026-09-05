@@ -51,3 +51,6 @@ analyses/_tt_raw_*.json
 /scripts/.cache_kw_dfs/
 .env.bak*
 .env.local
+
+# Worktrees d'agents — jamais versionnés
+.worktrees/
