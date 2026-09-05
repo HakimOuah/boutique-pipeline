@@ -1,0 +1,3 @@
+2026-09-05 07:29:39 [info     ] ae.iop.call                    method=aliexpress.ds.freight.query status=request
+2026-09-05 07:29:39 [info     ] ae.iop.call                    duration_ms=976 method=aliexpress.ds.freight.query status=success
+{"id": "32797054005", "sku": "12000035544015652", "shipping": {"msg": "DELIVERY_NOT_AVAILABLE_TO_YOUR_ADDRESS", "code": 505, "success": false}}

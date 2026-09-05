@@ -1,0 +1,171 @@
+{
+  "url": "https://voixci.com/",
+  "json_ld": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://voixci.com/",
+          "url": "https://voixci.com/",
+          "name": "Acheter un livre d'or audio : Messages & Souvenirs Inoubliables",
+          "isPartOf": {
+            "@id": "https://voixci.com/#website"
+          },
+          "about": {
+            "@id": "https://voixci.com/#organization"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://voixci.com/#primaryimage"
+          },
+          "image": {
+            "@id": "https://voixci.com/#primaryimage"
+          },
+          "thumbnailUrl": "https://voixci.com/wp-content/uploads/elementor/thumbs/Beige-qxojyxia3h2g1wgztturwtyv08wdhqdg9olnhnbkqg.png",
+          "datePublished": "2024-11-20T09:46:49+00:00",
+          "dateModified": "2025-03-19T09:57:58+00:00",
+          "description": "Émotion garantie ! Acheter un livre d'or audio pour un souvenir original et personnalisé de votre mariage, anniversaire ou autre événement.",
+          "breadcrumb": {
+            "@id": "https://voixci.com/#breadcrumb"
+          },
+          "inLanguage": "fr-FR",
+          "potentialAction": [
+            {
+              "@type": "ReadAction",
+              "target": [
+                "https://voixci.com/"
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "ImageObject",
+          "inLanguage": "fr-FR",
+          "@id": "https://voixci.com/#primaryimage",
+          "url": "https://voixci.com/wp-content/uploads/elementor/thumbs/Beige-qxojyxia3h2g1wgztturwtyv08wdhqdg9olnhnbkqg.png",
+          "contentUrl": "https://voixci.com/wp-content/uploads/elementor/thumbs/Beige-qxojyxia3h2g1wgztturwtyv08wdhqdg9olnhnbkqg.png"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://voixci.com/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home"
+            }
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://voixci.com/#website",
+          "url": "https://voixci.com/",
+          "name": "Voixci",
+          "description": "Le E-commerce pour les livres d&#039;or audios !",
+          "publisher": {
+            "@id": "https://voixci.com/#organization"
+          },
+          "potentialAction": [
+            {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://voixci.com/?s={search_term_string}"
+              },
+              "query-input": {
+                "@type": "PropertyValueSpecification",
+                "valueRequired": true,
+                "valueName": "search_term_string"
+              }
+            }
+          ],
+          "inLanguage": "fr-FR"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://voixci.com/#organization",
+          "name": "Voixci",
+          "url": "https://voixci.com/",
+          "logo": {
+            "@type": "ImageObject",
+            "inLanguage": "fr-FR",
+            "@id": "https://voixci.com/#/schema/logo/image/",
+            "url": "https://voixci.com/wp-content/uploads/voixci-logo.png",
+            "contentUrl": "https://voixci.com/wp-content/uploads/voixci-logo.png",
+            "width": 350,
+            "height": 80,
+            "caption": "Voixci"
+          },
+          "image": {
+            "@id": "https://voixci.com/#/schema/logo/image/"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Où acheter un livre d'or audio pour mon mariage ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vous êtes au bon endroit ! Et bravo pour cette journée spéciale à venir ! "
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien cela coute ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chez nous nos produits commencent à partir de 180€ tout inclus ! Gardez les vœux de vos familles et amis ! "
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Où trouver un livre d'or audio pour un anniversaire ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Si vous cherchez à l&rsquo;acheter pour pouvoir vous en resservir pour tous vos événements, nous sommes la boutique qu&rsquo;il vous faut ! "
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Où puis-je acheter un livre d'or audio pour un baptême/fiançailles/etc. ?ivre d'or audio pour mon mariage ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Super idée de garder un souvenir de cette journée ! Visiter notre page boutique pour trouver votre bonheur"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment fonctionne un livre d'or audio ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Notre téléphone fonctionne sur batterie, sans nécessité de connexion Wi-Fi ou de branchement électrique. Pour une utilisation optimale, nous vous conseillons de le recharger 24 heures avant votre événement. Vous pouvez personnaliser un message d’accueil pour vos invités grâce au tutoriel fourni avec votre commande. Le fonctionnement est simple : vos invités décrochent, enregistrent leurs messages vocaux, puis raccrochent. Après l’événement, il vous suffit de connecter l’appareil à un ordinateur pour récupérer facilement tous les précieux souvenirs audio."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment enregistrer un message sur un livre d'or audio ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chez nous, lorsque vous passez commande, vous recevrez un manuel complet d&rsquo;utilisation en français et une vidéo tutorielle ! "
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle est la différence entre un livre d'or audio et un livre d'or traditionnel ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le son ! Grâce à ce nouveau type de livre d&rsquo;or, vous gardez la voix de proche comme des souvenirs infinis ! Nous vous recommandons les 2, le livre d&rsquo;or audio et le livre d&rsquo;or traditionnel, pas de jaloux ! "
+          }
+        }
+      ]
+    }
+  ],
+  "shopify": false,
+  "woocommerce": true,
+  "price_14950": false
+}

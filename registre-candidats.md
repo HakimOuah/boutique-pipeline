@@ -674,12 +674,12 @@ Source : [reports/recherche-produits-v2-2026-07-16.md](reports/recherche-produit
 
 ## Recherche Search mid-ticket en cours — 05/09/2026
 
-Objectif utilisateur : cinq GO nouveaux, hors doublons, 80–500 €, plusieurs pays européens. **0 nouveau GO à ce point d'étape.** [Dossier de recherche](analyses/2026-09-05-recherche-5-go/POINT-ETAPE.md). Ce bloc réserve les objets étudiés pour éviter de les présenter comme nouveaux dans une autre recherche. Il permet de poursuivre la même recherche ; les défauts d'une source ne constituent pas un rejet permanent de tout le marché.
+Objectif utilisateur : cinq GO nouveaux, hors doublons, 80–500 €, plusieurs pays européens. **2/5 GO TEST LIMITÉ à ce point d'étape, pas de lancement effectué.** [Dossier de recherche](analyses/2026-09-05-recherche-5-go/POINT-ETAPE.md). Ce bloc réserve les objets étudiés pour éviter de les présenter comme nouveaux dans une autre recherche. Il permet de poursuivre la même recherche ; les défauts d'une source ne constituent pas un rejet permanent de tout le marché.
 
 | Produit / synonymes | État de cette recherche |
 |---|---|
 | Cadre vitrine pour maillot / cadre maillot foot, rugby, basket | `EN_EXAMEN` — source exacte 60×80 à 95,60 € livré trop chère ; aucun GO. Distinct du cadre photo numérique et de la cimaise. |
-| Horloge de table à palettes / flip clock / flip flap de bureau | `EN_EXAMEN` — prix fournisseurs et concurrents relevés ; prix défendable non établi. Distinct de la graine horloge murale, à ne pas compter deux fois avec ses finitions. |
+| Horloge de table à palettes / flip clock / flip flap de bureau | `GO_TEST_LIMITE` — France, prix proposé 109,90 €, source noyer 24 h 46,78 € livré, contribution hypothétique 32,80 €, CPA cible 18–20 €. Search observé : L’Homme Moderne, Amazon, Maison&Objet ; test exploratoire, pas un marché déclaré libre. Distinct de la graine horloge murale, une seule famille pour les finitions. |
 | Bol chantant tibétain métal / bol de méditation / bol chantant cristal | `EN_EXAMEN` — une seule famille ; source et comparables à qualifier. Composition sept métaux non prouvée. |
 | Chaise de sol / zaisu / siège de sol avec dossier | `EN_EXAMEN` — sources coûteuses ou délais longs ; aucun GO. Siège rigide distinct d'un pouf ou futon, frontière à maintenir. |
 | Boîte à bijoux bois / coffret bijoux à tiroirs | `EN_EXAMEN` — variantes deux et trois niveaux non interchangeables. Exclut boîtes à montres déjà étudiées. |
@@ -688,7 +688,7 @@ Objectif utilisateur : cinq GO nouveaux, hors doublons, 80–500 €, plusieurs 
 | Coussin de lecture à dossier / reading pillow | `DEPRIORISE` — prix souvent sous tranche, concurrence enseignes ; distinct du coussin de corps déjà enregistré. |
 | Chauffe-serviettes armoire / chauffe-serviettes seau | `DEPRIORISE` — objets différents du radiateur, variantes à séparer dans les mesures ; aucune source retenue. |
 | Lyre / harpe-lyre | `DEPRIORISE` — source 24 cordes trop chère ; tête informationnelle. |
-| Urne funéraire / urne cinéraire adulte ou animal | `EN_EXAMEN` — capacité et tranche de prix non qualifiées ; ne pas compter animal et adulte comme deux GO. Distinct d'une plaque funéraire. |
+| Urne funéraire / urne cinéraire adulte ou animal | `DOUBLON_EXCLU` — déjà dans les morts en mesure express du registre central (ligne 401 du témoin GitHub). Mesure répétée par erreur ; ne pas compter parmi les nouveaux produits. |
 | Machine à badges / presse à badges manuelle | `EN_EXAMEN` — demande 1 900 FR, source exacte 58 mm 80,51 € livré avant consommables non établis ; aucun GO. |
 | Mannequin de couture / buste couture réglable | `MESURE_ET_SERP` — 9 900 FR tête, 1 900 réglable, pas de source retenue ni GO. Distinct du mannequin de repassage. |
 | Moteur Stirling miniature / maquette moteur thermique / LL-008 | `EN_EXAMEN` — une seule famille pour les variantes. Source LL-008 bois 45,07 € livré FR ; tête mixte 3 600 FR /6 600 DE, acheter 30 FR /260 DE. Aucun GO. |
@@ -698,3 +698,21 @@ Objectif utilisateur : cinq GO nouveaux, hors doublons, 80–500 €, plusieurs 
 | Ventilateur holographique / projecteur holographique / hélice LED 3D | `EN_EXAMEN` — 30 cm protégé sur batterie : 135,38 € livré mais 25–42 jours. Halolight Shopify ; aucune annonce Search textuelle identifiée sur les deux relevés FR. Aucun GO. |
 | Concertina musical / accordéon hexagonal 20 boutons | `DEPRIORISE` — 210 FR sur instrument ; offre 9,79 € = sac seul, véritable instrument 148,39 € hors fret. Ne pas confondre avec clôture ou événement homonyme. |
 | Gramophone décoratif Bluetooth à pavillon, sans lecture vinyle | `SOURCE_MANQUANTE` — FR 50 sur Bluetooth, tête 12 100 mixte. Ne pas recycler le marché des platines vinyle et ne pas comparer les mini-enceintes aux grands pavillons. |
+
+| Téléphone livre d'or audio / audio guestbook / téléphone messages mariage | `GO_TEST_LIMITE` — France, prix proposé 149 €, F10 blanc 66,99 € livré, contribution hypothétique 41,18 €, CPA cible 25 €. Marché partagé achat/location ; capacité, son et autonomie non testés. Une seule famille pour toutes couleurs/pays. |
+| Table d'inversion | `DOUBLON_EXCLU` — déjà f25-fitness-recuperation-c04-table-inversion dans le registre Codex ; ne pas relancer comme nouveau. |
+| Extensions à clips afro / kinky curly clip-in | `DEPRIORISE` — humains 60 % vs 98 % vs biofibre, prix non comparables ; faible demande précise. |
+| Chaîne de pluie / rain chain / chaîne cuivre japonaise | `SOURCE_MANQUANTE` — offres fer peint ou ornement seul non comparables à la chaîne cuivre 2,6 m. |
+| Pince hydraulique à sertir les cosses / YQK-300 | `SOURCE_NON_RETENUE` — Chine livrée 99,59 € face à Mondial Outillage 89,90 € ; routes Pologne/Russie indisponibles pour FR. Ne pas attribuer le volume plomberie aux cosses. |
+| Presse à œillets manuelle / grommet press | `DEPRIORISE` — kit trois matrices/1500 œillets 57,39 € avant fret face à 49–59 € publics. Distinct de presse à badges et presses pneumatiques. |
+| Couteau à kebab électrique | `DEPRIORISE` — couteaux complets API 87–119 € avant fret, lames seules exclues ; pas de GO. |
+| Broyeur à glace électrique / ice shaver | `EN_EXAMEN` — ne pas comparer aux machines réfrigérantes qui produisent des glaçons. |
+
+| Carillon à vent / carillon éolien grand format | `EN_EXAMEN` — 2 900 tête, grand 40, source 45 pouces à vérifier face aux vrais 122 cm. Distinct chaîne de pluie. |
+| Gong chinois / gong lunaire ou solaire / tam-tam | `EN_EXAMEN` — 170 chinois ; tailles et alliages non qualifiés, pas de GO. Distinct des bols, lyres et tongue drums. |
+| Sablier géant / sablier 30 ou 60 minutes | `DEPRIORISE` — 210 géant ; grands modèles de spécialistes à 54,90 €, sous tranche. |
+| Pendule de Newton / berceau cinétique / double pendule du chaos | `SOURCE_MANQUANTE_COMPARABLE` — comparer billes et double bras séparément, une seule famille réservée ; aucun GO, pas de volume Newton attribué au double bras. |
+| Enceinte ou visualiseur à ferrofluide | `SOURCE_MANQUANTE_COMPARABLE` — 70 enceinte ; flacons manuels hors tranche, Equascience 118,30 € promotion actuelle. |
+| Gyroscope de précision | `MESURE_SEULE` — 480 /0,16 USD ; toupie manuelle 20–25 € et véritable gyroscope motorisé 199 € non interchangeables. Aucun GO. |
+| Agitateur magnétique | `MESURE_SEULE` — 1 300 /0,78 USD, source et concurrence non qualifiées. |
+| Presse à fleurs | `MESURE_SEULE` — 210 /0,16 USD, format complet mid-ticket non établi. |

@@ -1,0 +1,35 @@
+{
+  "url": "https://www.mariage.fr/livre-d-or-audio-telephone-noir-avec-pancarte.html",
+  "json_ld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Mariage.fr",
+      "url": "https://www.mariage.fr",
+      "logo": "https://www.mariage.fr/img/logo-mariage.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "17, allée des Sablières",
+        "addressLocality": "Croissy sur Seine",
+        "postalCode": "78290",
+        "addressCountry": "FR"
+      },
+      "telephone": "+33 1 30 09 14 90",
+      "email": "contact@mariage.fr",
+      "legalName": "Mariage.fr",
+      "taxID": "FR05434456240",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "RCS",
+        "value": "Versailles B 434 456 240"
+      },
+      "sameAs": [
+        "https://www.facebook.com/mariage.eu",
+        "https://www.instagram.com/mariage.fr_officiel"
+      ]
+    }
+  ],
+  "shopify": false,
+  "woocommerce": false,
+  "price_14950": true
+}
