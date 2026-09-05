@@ -1,0 +1,341 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0976 sec.",
+  "cost": 0.09,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09051238-1621-0367-0000-12c326c6c508",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0215 sec.",
+      "cost": 0.09,
+      "result_count": 4,
+      "path": [
+        "v3",
+        "keywords_data",
+        "google_ads",
+        "search_volume",
+        "live"
+      ],
+      "data": {
+        "api": "keywords_data",
+        "function": "search_volume",
+        "se": "google_ads",
+        "keywords": [
+          "nettoyeur ultrason",
+          "nettoyeur ultrasons",
+          "polisseuse",
+          "polisseuse voiture"
+        ],
+        "location_code": 2250,
+        "language_code": "fr"
+      },
+      "result": [
+        {
+          "keyword": "nettoyeur ultrason",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 5400,
+          "low_top_of_page_bid": 0.2,
+          "high_top_of_page_bid": 1.59,
+          "cpc": 0.9,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 3600
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 3600
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 5400
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 4400
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 5400
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 5400
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 6600
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 6600
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 6600
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 5400
+            }
+          ]
+        },
+        {
+          "keyword": "nettoyeur ultrasons",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 5400,
+          "low_top_of_page_bid": 0.2,
+          "high_top_of_page_bid": 1.59,
+          "cpc": 0.9,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 3600
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 3600
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 5400
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 4400
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 5400
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 5400
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 6600
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 6600
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 6600
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 5400
+            }
+          ]
+        },
+        {
+          "keyword": "polisseuse",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 5400,
+          "low_top_of_page_bid": 0.19,
+          "high_top_of_page_bid": 1.29,
+          "cpc": 0.42,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 4400
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 4400
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 6600
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 6600
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 6600
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 6600
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 4400
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 5400
+            }
+          ]
+        },
+        {
+          "keyword": "polisseuse voiture",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 9900,
+          "low_top_of_page_bid": 0.14,
+          "high_top_of_page_bid": 0.92,
+          "cpc": 0.36,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 8100
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 8100
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 9900
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 12100
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 12100
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 8100
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 6600
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 8100
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 8100
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 9900
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 9900
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 12100
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+[
+  {
+    "product_id": "1005008165569485",
+    "sku": "12000044057949068",
+    "country": "DE",
+    "data": {
+      "msg": "Call succeeds",
+      "code": 200,
+      "success": true,
+      "delivery_options": {
+        "delivery_option_d_t_o": [
+          {
+            "code": "CAINIAO_STANDARD_HEAVY",
+            "shipping_fee_currency": "EUR",
+            "free_shipping": false,
+            "mayHavePFS": false,
+            "guaranteed_delivery_days": "75",
+            "max_delivery_days": 37,
+            "tracking": true,
+            "shipping_fee_format": "63,42€",
+            "delivery_date_desc": "oct. 07 - 12",
+            "company": "AliExpress Shipping for Large Goods by Land",
+            "ship_from_country": "CN",
+            "min_delivery_days": 32,
+            "available_stock": "887",
+            "shipping_fee_cent": "63.42"
+          },
+          {
+            "code": "DHL",
+            "shipping_fee_currency": "EUR",
+            "free_shipping": false,
+            "mayHavePFS": false,
+            "guaranteed_delivery_days": "35",
+            "max_delivery_days": 15,
+            "tracking": true,
+            "shipping_fee_format": "65,35€",
+            "delivery_date_desc": "sep. 12 - 20",
+            "company": "DHL",
+            "ship_from_country": "CN",
+            "min_delivery_days": 7,
+            "available_stock": "887",
+            "shipping_fee_cent": "65.35"
+          },
+          {
+            "code": "CAINIAO_STANDARD",
+            "shipping_fee_currency": "EUR",
+            "free_shipping": false,
+            "mayHavePFS": false,
+            "guaranteed_delivery_days": "60",
+            "max_delivery_days": 15,
+            "tracking": true,
+            "shipping_fee_format": "71,93€",
+            "delivery_date_desc": "sep. 12 - 20",
+            "company": "Expédition standard AliExpress",
+            "ship_from_country": "CN",
+            "min_delivery_days": 7,
+            "available_stock": "887",
+            "shipping_fee_cent": "71.93"
+          },
+          {
+            "code": "FEDEX",
+            "shipping_fee_currency": "EUR",
+            "free_shipping": false,
+            "mayHavePFS": false,
+            "guaranteed_delivery_days": "35",
+            "max_delivery_days": 26,
+            "tracking": true,
+            "shipping_fee_format": "161,44€",
+            "delivery_date_desc": "sep. 09 - oct. 01",
+            "company": "Fedex IP",
+            "ship_from_country": "CN",
+            "min_delivery_days": 4,
+            "available_stock": "887",
+            "shipping_fee_cent": "161.44"
+          },
+          {
+            "code": "UPS",
+            "shipping_fee_currency": "EUR",
+            "free_shipping": false,
+            "mayHavePFS": false,
+            "guaranteed_delivery_days": "35",
+            "max_delivery_days": 22,
+            "tracking": true,
+            "shipping_fee_format": "209,22€",
+            "delivery_date_desc": "sep. 09 - 27",
+            "company": "UPS Express Saver",
+            "ship_from_country": "CN",
+            "min_delivery_days": 4,
+            "available_stock": "887",
+            "shipping_fee_cent": "209.22"
+          }
+        ]
+      }
+    }
+  }
+]

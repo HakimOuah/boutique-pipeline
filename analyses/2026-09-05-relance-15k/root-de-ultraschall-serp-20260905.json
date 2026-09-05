@@ -1,0 +1,1155 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.7273 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09051250-1621-0139-0000-e7ead99acdde",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.5504 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "ultraschallreiniger",
+        "location_code": 2276,
+        "language_code": "de",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "ultraschallreiniger",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2276,
+          "language_code": "de",
+          "check_url": "https://www.google.com/search?q=ultraschallreiniger&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "datetime": "2026-09-05 12:50:52 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Grundig",
+                "url": "https://www.google.com/search?sca_esv=a03de85e817154d0&hl=de&gl=DE&sxsrf=APpeQnv-JQkE-XYZHWF_Y-UmkEJoJ0853A:1788612651008&q=grundig+ultraschallreiniger&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4reLO176j24wbGEBzQiBbnQtdst0FWVhp29WrIteihN91omC6AEHPdtFz9pyUChelVx2uHkNAOrur_FvK1sOWtxCMA_xV7u5KCoLJMi-fBxKHnhiuEwRTP2KOdd9yfBENP1j5yW6gURLVw3x1T2NZGG_wdDLcZ0oMKgZiimcCKVcBM-vt7AZzFaHuTL67pkD3MawXRnQ&sa=X&ved=2ahUKEwiDvNCtvdeWAxVN2QIHHXuOBwgQxKsJKAB6BAgaEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Hbm",
+                "url": "https://www.google.com/search?sca_esv=a03de85e817154d0&hl=de&gl=DE&sxsrf=APpeQnv-JQkE-XYZHWF_Y-UmkEJoJ0853A:1788612651008&q=hbm+ultraschallreiniger&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rvMK4OwXsRyIhE7EdbHGMcEUYoeRfpVeYhVV4L6vq2Icp8Aons5J-iA8S9amW2V0FX7_Z0EdiEUashoDbdDRtg84ZbXNvcv2Yx3O30i4BsHMCUn9d_Vp7nNRcZMRzTcKXvVpV2_lx_twtFkcZIfknecaQ2alTk_XwLQn1GkiXGkaaEyWcm3K48iNgYGRqfH0vjA0KOg&sa=X&ved=2ahUKEwiDvNCtvdeWAxVN2QIHHXuOBwgQxKsJKAF6BAgjEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Koenic",
+                "url": "https://www.google.com/search?sca_esv=a03de85e817154d0&hl=de&gl=DE&sxsrf=APpeQnv-JQkE-XYZHWF_Y-UmkEJoJ0853A:1788612651008&q=koenic+ultraschallreiniger&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rbhbcdckkJHb4y7Ov1MVmzzzRpVdOZysfWcQmnq5-Kl5cTseZl4pBJh11e06TDgv7bBRFeozVd5OAYJvXpwSoRDixfnni9P-fh0k6R8cB8x4hdEAkQL8w4-1H_f9KyuIrH8MdhUdrvxWx99sTsA9PJHKQQCEAVO1cFuOXRd6FwixHn2WVVGVk9fIIvX-I33YPlE26Wg&sa=X&ved=2ahUKEwiDvNCtvdeWAxVN2QIHHXuOBwgQxKsJKAJ6BAgmEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "New",
+                "url": "https://www.google.com/search?sca_esv=a03de85e817154d0&hl=de&gl=DE&sxsrf=APpeQnv-JQkE-XYZHWF_Y-UmkEJoJ0853A:1788612651008&q=new+ultraschallreiniger&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rFa2o0JhNkSECFiglsbMkH5zotQCn61RXdp6HYhcqe0gsY9n0JFAKA37t2mxIDceYyH4BHUyBRnxn3l8K_VUGs-ts8Zk_kMVoENDVsvmzRgiu8yZhDh2x9DQDSu4x-f0Ab36kC-ylrIUOkNvHSQTS6ZleVk67WRw5CP3-hwLeF7cwMzSO&sa=X&ved=2ahUKEwiDvNCtvdeWAxVN2QIHHXuOBwgQxKsJKAN6BAgnEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Used",
+                "url": "https://www.google.com/search?sca_esv=a03de85e817154d0&hl=de&gl=DE&sxsrf=APpeQnv-JQkE-XYZHWF_Y-UmkEJoJ0853A:1788612651008&q=used+ultraschallreiniger&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhfEV-4K40i-ZaIQJgdggp8d17VMXFkuvuanwkY5AH-z-m-53uH3xzH3o_tkG-qR1sx93CBeHTeCyLymCyWoAlcQPV19OHRUpfI_Qs5u0YZLs97kVSdgapB5i2clcx61qQ0le2dzU_pIGbGYzxPy4haUzNx4yGUyeTR4RN39hZ035HL7x&sa=X&ved=2ahUKEwiDvNCtvdeWAxVN2QIHHXuOBwgQxKsJKAR6BAghEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Nearby",
+                "url": "https://www.google.com/search?sca_esv=a03de85e817154d0&hl=de&gl=DE&sxsrf=APpeQnv-JQkE-XYZHWF_Y-UmkEJoJ0853A:1788612651008&q=ultraschallreiniger+nearby&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhfEV-4K40i-ZaIQJgdggp0jty1BTERYfSfNgxBY33SLCyLtVpDy6v2xaA8tgJ-pszOH61xDtXjYiwLDSM4a1JNGpQCgtto5oU-Y832gQ4zbiew1bu9ZLzoSOhRE5FSnFynVJy6d1uBS9YvUJtY-_O5iqEzRhs9KlqIwICjWwBuCLXkXN&sa=X&ved=2ahUKEwiDvNCtvdeWAxVN2QIHHXuOBwgQxKsJKAV6BAhoEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "people_also_ask",
+            "compare_sites",
+            "popular_products",
+            "video",
+            "related_searches"
+          ],
+          "se_results_count": 199,
+          "pages_count": 1,
+          "items_count": 15,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.amazon.de",
+              "title": "Suchergebnis Auf Amazon.de Für: Ultraschallreiniger",
+              "url": "https://www.amazon.de/Ultraschallreiniger/s?k=Ultraschallreiniger",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.amazon.de › Ultraschallreiniger › k=Ultrasc...",
+              "website_name": "Amazon.de",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Grundig UC 6620 Ultraschallreiniger mit Timerfunktion, hocheffiziente Reinigung mit Ultraschall, Doppelwellen-Prinzip, 500 ml Wassertank, 50 W Leistung, ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Ultraschallreiniger"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Was für eine Flüssigkeit kommt in ein Ultraschallreinigungsgerät?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Wie sinnvoll sind Ultraschallreiniger?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Was darf man nicht mit Ultraschall reinigen?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Wie oft darf man Brillen im Ultraschallbad reinigen?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "ultraschall-welt.de",
+              "title": "Ultraschallreiniger kaufen | Gründliche Reinigung für ...",
+              "url": "https://ultraschall-welt.de/collections/ultraschallreiniger?srsltid=AfmBOooZ7-XA1q9zcL97kiJh0D4zynF0d2gsKuhuj1AsorSe7ZGnheO8",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://ultraschall-welt.de › collections › ultraschallreini...",
+              "website_name": "Ultraschall-Welt",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Ultraschallreiniger sind vielseitig einsetzbar – ob für Schmuck, Brillen, Dentalinstrumente, Laborgeräte oder Werkstattteile.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Ultraschallreiniger"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "www.bild.de",
+              "title": "Ultraschallreiniger im Test: Dieses Gerät bringt Brillen und ...",
+              "url": "https://www.bild.de/kaufberater/ultraschallreiniger-test/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.bild.de › Kaufberater › Haushalt",
+              "website_name": "BILD",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Wir haben Ultraschallreiniger im Alltagstest geprüft: Testsieger: Das Ultraschallreinigungsgerät von Grundig! Mehr dazu lesen Sie hier!",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Testsieger: Das Ultraschallreinigungsgerät von Grundig"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "compare_sites",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]",
+              "title": "Produktwebsites",
+              "items": [
+                {
+                  "type": "compare_sites_element",
+                  "title": "Ultraschallreiniger (2026) zum Bestpreis",
+                  "url": "https://www.idealo.de/preisvergleich/ProductCategory/18178.html",
+                  "domain": "www.idealo.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09051250-1621-0139-0000-e7ead99acdde:0",
+                  "source": "Idealo"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Die 12 besten Ultraschallreiniger im aktuellen Vergleich 09/2026",
+                  "url": "https://www.testsieger.de/ultraschallreiniger/",
+                  "domain": "www.testsieger.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09051250-1621-0139-0000-e7ead99acdde:1",
+                  "source": "Testsieger"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Ultraschallreiniger Reinigungsgerät",
+                  "url": "https://www.preissuchmaschine.de/trend/ULTR/Ultraschallreiniger-Reinigungsgeraet.html",
+                  "domain": "www.preissuchmaschine.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09051250-1621-0139-0000-e7ead99acdde:2",
+                  "source": "Preissuchmaschine"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Safe-4670-ultraschallreiniger-reinigungsgerät-gold-silber-schmuck-super-brillen",
+                  "url": "https://www.nextag.de/shopping/products?search=ultraschallreiniger-reinigungsger%C3%A4t",
+                  "domain": "www.nextag.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09051250-1621-0139-0000-e7ead99acdde:3",
+                  "source": "NexTag"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Ultraschallreinigungsgerät",
+                  "url": "https://www.preissuchmaschine.de/trend/ULTR/Ultraschallreinigungsgeraet.html",
+                  "domain": "www.preissuchmaschine.de",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2pYotEO1VaEay8yE6qjjcSBWx3OSyMpE&s=0",
+                  "source": "Preissuchmaschine"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Ultraschallgerät ultraschallreiniger",
+                  "url": "https://www.preissuchmaschine.de/trend/ULTR/Ultraschallgeraet-ultraschallreiniger.html",
+                  "domain": "www.preissuchmaschine.de",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnRKQjiLSuG5SGD1MdD_l-MVwZvwTh3-g&s=0",
+                  "source": "Preissuchmaschine"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Ultraschallreiniger Ultraschallbad",
+                  "url": "https://www.preissuchmaschine.de/trend/ULTR/Ultraschallreiniger-Ultraschallbad.html",
+                  "domain": "www.preissuchmaschine.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09051250-1621-0139-0000-e7ead99acdde:4",
+                  "source": "Preissuchmaschine"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Ultraschallreiniger Preisvergleich » Test » billig kaufen",
+                  "url": "https://www.guenstiger.de/Kategorie/Sonstiges/Ultraschallreiniger.html",
+                  "domain": "www.guenstiger.de",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOKn9TQfUUvOKVXT7DuLeNLEpsfrsF_LU&s=0",
+                  "source": "Guenstiger.de"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Reiniger ultraschallgerät",
+                  "url": "https://www.preissuchmaschine.de/trend/REIN/Reiniger-ultraschallgeraet.html",
+                  "domain": "www.preissuchmaschine.de",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnRKQjiLSuG5SGD1MdD_l-MVwZvwTh3-g&s=0",
+                  "source": "Preissuchmaschine"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Ultraschallreiniger",
+                  "url": "https://www.auspreiser.de/kategorien/ultraschallreiniger-18178.html",
+                  "domain": "www.auspreiser.de",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO8bLsMl5v2IL8VZdc_MftLQ9ru66Ysl0&s=0",
+                  "source": "Auspreiser.de"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Grundig UC 5620 Ultraschallreiniger",
+                  "url": null,
+                  "domain": null,
+                  "description": "Lidl.de & mehr",
+                  "more_sellers": false,
+                  "seller": "Lidl.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09051250-1621-0139-0000-e7ead99acdde:5",
+                  "price": {
+                    "current": 24.69,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "24,69 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4,
+                    "votes_count": 247,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "8254971129242149765",
+                    "data_docid": "7512572420184814842",
+                    "gid": "4555365657814174539"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "KOENIC KUC 50525 Ultraschallreiniger",
+                  "url": null,
+                  "domain": null,
+                  "description": "MediaMarkt DE",
+                  "more_sellers": false,
+                  "seller": "MediaMarkt DE",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09051250-1621-0139-0000-e7ead99acdde:6",
+                  "price": {
+                    "current": 27.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "27,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.3,
+                    "votes_count": 19,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "15576904758955566498",
+                    "data_docid": "3003665465433538182",
+                    "gid": "9543857910671768780"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Grundig UC 6620",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.de & mehr",
+                  "more_sellers": false,
+                  "seller": "Amazon.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09051250-1621-0139-0000-e7ead99acdde:7",
+                  "price": {
+                    "current": 35.13,
+                    "regular": 40,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "35,13 € 40 € & weitere Preise"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.3,
+                    "votes_count": 212,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "12237040673565659040",
+                    "data_docid": "10846405164551461270",
+                    "gid": "4894908892563500293"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "VEVOR Ultraschallreiniger 08 L qxj0.8lcsb0000001v2",
+                  "url": null,
+                  "domain": null,
+                  "description": "billiger.de & mehr",
+                  "more_sellers": false,
+                  "seller": "billiger.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09051250-1621-0139-0000-e7ead99acdde:8",
+                  "price": {
+                    "current": 24.6,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "24,60 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.7,
+                    "votes_count": 633,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "748465596070172598",
+                    "data_docid": "9500459478533080941",
+                    "gid": "8197397424343273743"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "VEVOR 3L Ultraschallreiniger mit Heiztimer und Korb professionelle digitale Schallkavitationsmaschine",
+                  "url": null,
+                  "domain": null,
+                  "description": "idealo Preisvergleich & mehr",
+                  "more_sellers": false,
+                  "seller": "idealo Preisvergleich",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09051250-1621-0139-0000-e7ead99acdde:9",
+                  "price": {
+                    "current": 48.78,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "48,78 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.8,
+                    "votes_count": 222,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "13701121946877157277",
+                    "data_docid": "2905859981537362566",
+                    "gid": "938459790242673300"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "VEVOR Ultraschallreiniger 3L Digital Ultraschall Reiniger Heizung Timer Schmuck Brillen Reinigung",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.de & mehr",
+                  "more_sellers": false,
+                  "seller": "Amazon.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09051250-1621-0139-0000-e7ead99acdde:10",
+                  "price": {
+                    "current": 48.99,
+                    "regular": 56,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "48,99 € 56 € & weitere Preise"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 197,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "1999089451073304367",
+                    "data_docid": "12960735976560629041",
+                    "gid": "232257230490232943"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Dynamic Super Sonic",
+                  "url": null,
+                  "domain": null,
+                  "description": "Bike-Discount.de & mehr",
+                  "more_sellers": false,
+                  "seller": "Bike-Discount.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09051250-1621-0139-0000-e7ead99acdde:11",
+                  "price": {
+                    "current": 89.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "89,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 33,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "10523334353106476342",
+                    "data_docid": "9035615465241297338",
+                    "gid": "2148058917663124493"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "VEVOR Ultraschallreiniger Ultraschallreiniger Ultraschall Edelstahl-Reinigungsgerät 172 W",
+                  "url": null,
+                  "domain": null,
+                  "description": "PreisSuchmaschine.de & mehr",
+                  "more_sellers": false,
+                  "seller": "PreisSuchmaschine.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09051250-1621-0139-0000-e7ead99acdde:12",
+                  "price": {
+                    "current": 51.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "51,90 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 172,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "2765450718745008846",
+                    "data_docid": "919365123231094060",
+                    "gid": "3599930612571721983"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+              "domain": "www.emmi-nail.de",
+              "title": "Ultraschall Reiniger",
+              "url": "https://www.emmi-nail.de/collections/ultraschall-reiniger?srsltid=AfmBOoqWUUZaoqJU6VhJ07MuGiYegT6uMk5u2AsWQvOBumR0aefrjQ53",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.emmi-nail.de › collections › ultraschall-rei...",
+              "website_name": "emmi-nail",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Ein Ultraschall-Reiniger eignet sich besonders für Fräser Aufsätze, Nagelscheren und Pinzetten. Er entfernt Feilstaub und Nagelhautreste selbst an Stellen, an ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 4.99,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "Lieferung: 4,99 €"
+              },
+              "highlighted": [
+                "Ultraschall-Reiniger"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[14]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube · TOP VERGLEICH - Elektronik & Haushalt",
+                  "title": "ULTRASCHALLREINIGER: Die 3 Besten Modelle 2026!",
+                  "timestamp": "2024-03-21 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=0VAeV4RdVDs"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube · Richtige Wahl",
+                  "title": "TOP 5 Best Ultrasonic Cleaners. Test & Comparison 2026",
+                  "timestamp": "2025-12-25 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=wrKHKlweXls"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube · Profi-Electro",
+                  "title": "ProfiCare Ultraschallreiniger PC-USR 3120 - Reinigung von ...",
+                  "timestamp": "2024-03-19 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=hnCCbluhsfg"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 2,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[16]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "VEVOR Ultraschallreiniger Ultraschall Edelstahl-Reinigungsgerät 480 W 22 L Ultraschallreinigungsgerät mit Digitaler Anzeige 0-30 Min",
+                  "url": null,
+                  "domain": null,
+                  "description": "shopping.de & mehr",
+                  "more_sellers": false,
+                  "seller": "shopping.de",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS92QqRMHtRgSXzgMfeKnAbaPkitA5m8HmfSsEimweZCr_bXlddXGMVt_ew7XpwYGYpISBuC1YPhUBugGp9bqPpuG1Fc_36WYyP2f99zXI-F9_GwMx4YveWuQ",
+                  "price": {
+                    "current": 135.75,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "135,75 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.7,
+                    "votes_count": 50,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "13971897268580613430",
+                    "data_docid": "7200853471593671222",
+                    "gid": "9577509814800689136"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "VEVOR Professioneller Ultraschallreiniger 2,85 L Ultraschall-Reinigungsgerät mit Digitalem Timer & Heizung",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.de",
+                  "more_sellers": false,
+                  "seller": "Amazon.de",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSEJ0UlJrzlo41dZNW8zBrzjFSemu8hhyyINPhHhjOpGrvSsBtNtIRZ9PlT6pSpb5i3_rsE8SwC48IWZ0jgWrjL9spo-PQUuS1rPd8cr4DPLUO2xddQZZUZgQ",
+                  "price": {
+                    "current": 59.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "59,90 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 14,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "15935064271226085520",
+                    "data_docid": "5559427529470548013",
+                    "gid": "11549185768173799227"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "VEVOR 15 L Ultraschallreiniger mit Heiztimer & Korb professionelle digitale Schallkavitationsmaschine",
+                  "url": null,
+                  "domain": null,
+                  "description": "Vergleich.org & mehr",
+                  "more_sellers": false,
+                  "seller": "Vergleich.org",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQGVj-h5lzC8B27IxB4j1W_66MdXp1_sGe-PYk3MBPKYAwdtGfaHD67ARvP409B93p4-6uw5f9JGWt4inzu3LNlQPbgLrHKUluglaoRrVyzTBn0xrf5YD_a",
+                  "price": {
+                    "current": 105.35,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "105,35 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 75,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "9458101921579135283",
+                    "data_docid": "8711564926848562912",
+                    "gid": "9018110629450303526"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "VEVOR 22 L Ultraschallreiniger mit Heiztimer & Korb professionelle digitale Schallkavitationsmaschine",
+                  "url": null,
+                  "domain": null,
+                  "description": "Vergleich.org & mehr",
+                  "more_sellers": false,
+                  "seller": "Vergleich.org",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRxmxVetHpUyEltT4_2Z3v-owthV4h9XEmydttzXoHhLSOyUv8vBPteFlYlcJXCS_nS84uuyURLjcXoKaf03ArKFbhZxHaVPoIQ7XpTGOh2GRUGLDwkFKba",
+                  "price": {
+                    "current": 142.4,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "142,40 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 54,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "18136410477262928233",
+                    "data_docid": "7173949883563711498",
+                    "gid": "611080794459140818"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "VEVOR Ultraschallreiniger 3L Reinigungsmaschine mit Timer Heizung & Korb 120W SGLTQCSBQXJ3023WZV2",
+                  "url": null,
+                  "domain": null,
+                  "description": "SchnäppchenPrtl",
+                  "more_sellers": false,
+                  "seller": "SchnäppchenPrtl",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSzvFCXHQ3lOqkSoB7IT77NBNWXeOwsxgwtyCBGP__BSD9RlWOfuVFeAAyWu6cYSt5b3m8i82mAz18dAhA9opttLd8DxrhOA_9eYIEadSPTAPxDlctmq2bt",
+                  "price": {
+                    "current": 66.85,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "66,85 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.9,
+                    "votes_count": 16,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "12025040324740620465",
+                    "data_docid": "2015211864376077332",
+                    "gid": "1225848298609154414"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "VEVOR Ultraschallreiniger 6L Reinigungsmaschine mit Timer Heizung & Korb 180W SGLTQCSBQXJ6ZGS0AV2",
+                  "url": null,
+                  "domain": null,
+                  "description": "SchnäppchenPrtl",
+                  "more_sellers": false,
+                  "seller": "SchnäppchenPrtl",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQig1rlXClzyHeeAbYlCumsl8pNQgbUoBbti9fZTQrGTkue0vS081uBKKRHIi0Z34yVj_4mB5tewI06PJm6qlOY68aTPWpXd3zKE1_wnaSyyjgCLkiT-LPR",
+                  "price": {
+                    "current": 79.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "79,90 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 17,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "2039086612558171541",
+                    "data_docid": "17842003823338481809",
+                    "gid": "1580438943689271897"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "VEVOR Ultraschallreinigungsgerät 3L Ultraschall Reiniger reinigungsgerät Cleaner Jps-20ACSBQXJ0001V2",
+                  "url": null,
+                  "domain": null,
+                  "description": "shopping.de",
+                  "more_sellers": false,
+                  "seller": "shopping.de",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTlTIOXkEYZ8M2ebhgGDbbAxM-ZRbrD2gvEB7XuyGbSOcSs6TbkWTGNYJWvmqbjwauexr-Zy6pskeaU_2IlvMJzJUX1KKP6c0BmpRhrdg9hZHl2UfqAdVBklQ",
+                  "price": {
+                    "current": 38.85,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "38,85 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.7,
+                    "votes_count": 2095,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "2464681670523458626",
+                    "data_docid": "9607893188238292856",
+                    "gid": "2780855676845314290"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "HBM Professionelle Ultraschallreiniger",
+                  "url": null,
+                  "domain": null,
+                  "description": "HBM Machines",
+                  "more_sellers": false,
+                  "seller": "HBM Machines",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRh0aAg_1juzBLqswVFBT87Bfq44nKUZCH9DKOdeRtz2djbbvC1ns2XtStuA5hDH84SfJR9-R7IIv715Kzbjl-drhfpRP_taxkrf6h7AkQ_Y7WIuW5OgJHx",
+                  "price": {
+                    "current": 44.99,
+                    "regular": 60,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "44,99 € 60 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.9,
+                    "votes_count": 82,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "35109232854332190",
+                    "data_docid": "18214886150452455670",
+                    "gid": "9977932645227611038"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+              "domain": "www.mediamarkt.de",
+              "title": "Ultraschallreiniger online kaufen bei MediaMarkt",
+              "url": "https://www.mediamarkt.de/de/category/ultraschallreiniger-22110.html?srsltid=AfmBOop6iR2D61DCfF323hEFH3rlOEJ7NBKva4K9hhsnuts2hFmD6r0I",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.mediamarkt.de › ... › Gesundheitsgeräte",
+              "website_name": "MediaMarkt",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Ultraschallreiniger sorgen für eine Tiefenreinigung bei Brillen und Zahnprothesen. Kaufe dein Ultraschall-Reinigungsgerät bei MediaMarkt.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Ultraschallreiniger sorgen für eine Tiefenreinigung bei Brillen und Zahnprothesen"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+              "domain": "www.allpax.de",
+              "title": "Ultraschallreiniger",
+              "url": "https://www.allpax.de/index.php/cat/c30_Ultraschallreiniger.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.allpax.de › cat › c30_Ultraschallreiniger",
+              "website_name": "Allpax",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Tolle Technik. Tolle Preise. Ultraschallreiniger von Palssonics, Elma und Bandelin bei allpax.de.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Ultraschallreiniger"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[22]/div[1]/div[1]",
+              "domain": "knowhow.distrelec.com",
+              "title": "RND: Alles, was Sie über Ultraschallreiniger wissen müssen",
+              "url": "https://knowhow.distrelec.com/de/rnd-de/ultraschall-reinigungswannen-und-zubehoer-der-komplette-leitfaden-von-rnd/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://knowhow.distrelec.com › Startseite › Blog",
+              "website_name": "Distrelec",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Ultraschallreiniger werden vor allem für die Reinigung von kleinen, komplexen und fein strukturierten Gegenständen verwendet.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Ultraschallreiniger"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[24]/div[1]/div[1]",
+              "domain": "de.wikipedia.org",
+              "title": "Ultraschallreinigungsgerät",
+              "url": "https://de.wikipedia.org/wiki/Ultraschallreinigungsger%C3%A4t",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://de.wikipedia.org › wiki › Ultraschallreinigungsg...",
+              "website_name": "Wikipedia",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Ultraschallreinigungsgeräte werden häufig zur Reinigung von kleinen, komplexen und feinstrukturierten Bauteilen eingesetzt, zum Beispiel bei Schmuck, in der ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 14,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[26]/div[1]/div[1]",
+              "domain": "www.idealo.de",
+              "title": "Ultraschallreiniger (2026) zum Bestpreis",
+              "url": "https://www.idealo.de/preisvergleich/ProductCategory/18178.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.idealo.de › preisvergleich › ProductCategory",
+              "website_name": "Idealo",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Ultraschallreiniger Preise vergleichen und günstig kaufen bei idealo.de ✓ 406 Produkte ✓ Große Auswahl an Marken ✓ Bewertungen & Testberichte.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Ultraschallreiniger Preise vergleichen und günstig kaufen bei idealo.de"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 15,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Ultraschallreiniger Flüssigkeit",
+                "Ultraschallreiniger Brille",
+                "Ultraschallreiniger Zähne",
+                "Ultraschallreiniger Test",
+                "Ultraschallreiniger Schmuck",
+                "Ultraschallreiniger für Zahnprothesen"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

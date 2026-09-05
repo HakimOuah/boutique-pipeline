@@ -39,3 +39,7 @@ Les contrôles Luna cadeaux et lit pour chien sont terminés et relus. Quatrièm
 ## Alternatives échiquier
 
 Source alternative contrôlée via API : 38,78 € produit + fret, estimation 5–11 jours vers DE. Comparaison visuelle effectuée : modèle différent du concurrent. Verdict Luna « drop probable » corrigé en « non prouvé ». Voir [ECHIQUIER-SOURCES-ET-CONTROLE.md](ECHIQUIER-SOURCES-ET-CONTROLE.md). Clarification du délai Q4 demandée à l’utilisateur, sans bloquer les autres recherches.
+
+## Massage et technique
+
+Deux lots complémentaires portent la relance à 197 graines. Trois missions Luna max terminées et contrôlées : massage, technique DE, puis correction ultrasons sur un modèle dans le budget. Deux coûts massage FR et un coût ultrasons DE vérifiés avec fret. Voir MASSAGE-TECHNIQUE-CONTROLE.md. L’offre ultrasons atteint 155,74 € livrée en 7–15 jours estimés ; non retenue comme source prioritaire. Aucun dropshipper confirmé par ces contrôles. Les pistes restent distinctes des recommandations de lancement.
