@@ -27,3 +27,7 @@ Les 707 mesures de la passe précédente ont été relues : les seuls mots >=15k
 ## Contrôle après les deux premiers lots
 
 Les deux réponses DataForSEO et les deux courbes Q4 ont été relues indépendamment. Voir [CONTROLE-ORCHESTRATEUR.md](CONTROLE-ORCHESTRATEUR.md). Maison a terminé son lot ; un retour borné de contrôle concurrentiel lui a été confié. Aucune présélection ne devient GO à ce stade. Coût observé des appels : 0,202 USD, hors exécution des modèles.
+
+## Extension Allemagne
+
+Lot44DE terminé et contrôlé : [résultat](luna-allemagne/RESULTAT.md). Retour de correction effectivement envoyé à Luna sur les devises, le rôle de Thomann et la piste lit pour chien. Voir le détail dans CONTROLE-ORCHESTRATEUR.md.146graines au total,0nouveauGO.

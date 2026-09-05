@@ -1,0 +1,854 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.4692 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09051158-1621-0139-0000-b5ad1f3350c3",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.2826 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "handpan",
+        "location_code": 2276,
+        "language_code": "de",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "handpan",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2276,
+          "language_code": "de",
+          "check_url": "https://www.google.com/search?q=handpan&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "datetime": "2026-09-05 11:58:23 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "video",
+            "people_also_ask",
+            "organic",
+            "popular_products",
+            "related_searches",
+            "knowledge_graph"
+          ],
+          "se_results_count": 164,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube · Bukkador Handpan",
+                  "title": "Handpan Music in Nature for Meditation and Self-healing ...",
+                  "timestamp": "2024-06-30 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=4WiBK_gd31s"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube · Handpan-Portal",
+                  "title": "Handpan erklärt: Aufbau, Töne & einfache Spielweise für ...",
+                  "timestamp": "2024-11-01 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=HRrQf_4Rkm4"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube · Handpan-Planet",
+                  "title": "Handpan Musik zum Entspannen E Amara 20",
+                  "timestamp": "2025-02-10 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=uMOoh1RXnC8"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Ist Handpan schwer zu lernen?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Warum ist eine Handpan so teuer?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Was bewirkt Handpan im Körper?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Was heißt Handpan auf Deutsch?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "de.wikipedia.org",
+              "title": "Handpan",
+              "url": "https://de.wikipedia.org/wiki/Handpan",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://de.wikipedia.org › wiki › Handpan",
+              "website_name": "Wikipedia",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Die (auch das) Handpan, seltener Pantam, ist ein mit den Händen gespieltes Blechklanginstrument, das 2007 als Reaktion auf das weltweit große Interesse für ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Handpan"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "www.handpan.world",
+              "title": "Handpan Online Shop 🥁 | Große Auswahl & Angebote",
+              "url": "https://www.handpan.world/collections/handpan-store?srsltid=AfmBOopKaZ4hiSShQp9Cy2n8gzubYoW8I1tsXpjD5YtZm5ac9X_7OUKR",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.handpan.world › collections › handpan-store",
+              "website_name": "Handpan.World",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Entdecke unseren Handpan-Katalog & Zubehör. Sofort lieferbare Handpans in 7-14 Tagen. Sonderangebote im Outlet! Jetzt Handpan Drum Instrument kaufen.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Sofort lieferbare Handpans in 7-14 Tagen"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Handpan Instrument 22 Zoll 10 Töne 440Hz D-Moll",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.de - Amazon.de-Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.de - Amazon.de-Seller",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09051158-1621-0139-0000-b5ad1f3350c3:0",
+                  "price": {
+                    "current": 188.84,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "188,84 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "15456816347775593596",
+                    "data_docid": "15466254100992301773",
+                    "gid": "842444358508698774"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "MeloBeat Zungentrommel 13 Zoll 15 Töne - Professionelles Steel Tongue Drum Handpan Set in D Dur inkl. Zungentrommel Liederbuch, Schlagzeug Sticks und",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.de - Amazon.de-Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.de - Amazon.de-Seller",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09051158-1621-0139-0000-b5ad1f3350c3:1",
+                  "price": {
+                    "current": 79.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "79,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.9,
+                    "votes_count": 15,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "115106229527691528",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "VEVOR Handpan 55 cm 9 Noten D-Moll-Handtrommel Drum-Instrument mit Schlägeln",
+                  "url": null,
+                  "domain": null,
+                  "description": "Kaufland.de - VEVOR-Official-Store",
+                  "more_sellers": false,
+                  "seller": "Kaufland.de - VEVOR-Official-Store",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09051158-1621-0139-0000-b5ad1f3350c3:2",
+                  "price": {
+                    "current": 159.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "159,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 41,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "12640921828064033472",
+                    "data_docid": "13302377472383418951",
+                    "gid": "14875054148178525879"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Thomann Sonority Handpan Safety",
+                  "url": null,
+                  "domain": null,
+                  "description": "thomann.de & mehr",
+                  "more_sellers": false,
+                  "seller": "thomann.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09051158-1621-0139-0000-b5ad1f3350c3:3",
+                  "price": {
+                    "current": 98,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "98,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "4149355454022290836",
+                    "data_docid": "13699594543920050040",
+                    "gid": "2027833840725682315"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "MeloBeat Zungentrommel 12 Zoll 15 Töne - Professionelles Steel Tongue Drum Handpan Set in D Dur inkl. Zungentrommel Liederbuch, Schlagzeug Sticks und",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.de - Amazon.de-Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.de - Amazon.de-Seller",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09051158-1621-0139-0000-b5ad1f3350c3:4",
+                  "price": {
+                    "current": 69.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "69,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "4955736071269476148",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Sound-Sculpture C# Pygmy 15",
+                  "url": null,
+                  "domain": null,
+                  "description": "Sound-Sculpture.de",
+                  "more_sellers": false,
+                  "seller": "Sound-Sculpture.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09051158-1621-0139-0000-b5ad1f3350c3:5",
+                  "price": {
+                    "current": 3090,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "3.090,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "2007262349696405742",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Fame Travel Handpan 14\" D-Minor",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.de - Amazon.de-Seller & mehr",
+                  "more_sellers": false,
+                  "seller": "Amazon.de - Amazon.de-Seller",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09051158-1621-0139-0000-b5ad1f3350c3:6",
+                  "price": {
+                    "current": 199,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "199,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.9,
+                    "votes_count": 80,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "5643919573516484266",
+                    "data_docid": "4701570834763903205",
+                    "gid": "6535119886560244136"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "mydays Erlebnisgutschein Handpan Workshop Kassel",
+                  "url": null,
+                  "domain": null,
+                  "description": "mydays.de & mehr",
+                  "more_sellers": false,
+                  "seller": "mydays.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09051158-1621-0139-0000-b5ad1f3350c3:7",
+                  "price": {
+                    "current": 64.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "64,90 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "430530050992035354",
+                    "data_docid": "4697263844652046715",
+                    "gid": "211183272404422574"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "handpan-portal.de",
+              "title": "Handpan Shop: Online Handpan kaufen & Zubehör bestellen",
+              "url": "https://handpan-portal.de/shop/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://handpan-portal.de › shop",
+              "website_name": "Handpan-Portal",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "In unserem Handpan Shop kannst du: eine Handpan kaufen. eine Handpan mieten. Zubehör wie Handpan Taschen, Ständer & Pflegeprodukte kaufen. einen Handpan ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "eine Handpan kaufen"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "www.sonodrum.net",
+              "title": "10 Gründe, warum die Handpan dein Leben bereichern kann",
+              "url": "https://www.sonodrum.net/blogs/zungentrommel-magazin/10-grunde-warum-die-handpan-dein-leben-bereichern-kann",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.sonodrum.net › zungentrommel-magazin",
+              "website_name": "Sonodrum",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Wesentliche Erkenntnisse · Die Handpan Wirkung unterstützt Entspannung, Fokus und sanfte Achtsamkeit im Alltag. · Intuitives Spiel erleichtert den Einstieg, ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Die Handpan Wirkung unterstützt Entspannung, Fokus und sanfte Achtsamkeit im Alltag"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "www.amazon.de",
+              "title": "Premium Handpan-Instrument für Meditation, Konzerte und ...",
+              "url": "https://www.amazon.de/Handpan-Instrument-Meditation-Geschenke-erh%C3%A4ltlich-Notenoptionen/dp/B0F8VVL86F",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.amazon.de › Handpan-Instrument-Meditatio...",
+              "website_name": "Amazon.de",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "【Optimales Design】 Verfügt über 9 bis 12 Noten, einen Durchmesser von 22 Zoll und eine Höhe von 25,4 cm, ergänzt durch ein Stativ für stabiles und ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Verfügt über 9 bis 12 Noten, einen Durchmesser von 22 Zoll und eine Höhe von 25,4 cm"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "sound-sculpture.de",
+              "title": "Handpan Geschichte Ursprung und Entwicklung",
+              "url": "https://sound-sculpture.de/blogs/handpan/handpan-ursprung-geschichte?srsltid=AfmBOor3NqkHPLQCRghaEAhMPhzLzFabuBonEdeOsK16xzwjEy5OMwm7",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://sound-sculpture.de › blogs › handpan-ursprung-...",
+              "website_name": "Sound-Sculpture",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Die Geschichte der Handpan : von der Hang aus der Schweiz über das Nischeninstrument bis zur heutigen Vielfalt an Herstellern → Zum Ratgeber.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Die Geschichte der Handpan"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Handpan Musik: Die 10 besten Spieler*innen und Lieder",
+              "url": "https://www.youtube.com/playlist?list=PLF-p5Uc6LNj7w8LExcUeKgC81GSBwnS21",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "Ca. 6700 Follower",
+              "website_name": "YouTube · Handpan-Portal",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Es gibt viel Handpan Musik und eine Vielzahl an Handpan-Spieler*innen auf der ganzen Welt. Mit jedem neuen Jahr werden es immer mehr. ...more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Handpan"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[21]/div[1]/div[1]",
+              "domain": "www.bestservice.com",
+              "title": "Handpan | Ergo Kukke | bestservice.com | DE",
+              "url": "https://www.bestservice.com/de/handpan.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.bestservice.com › handpan",
+              "website_name": "bestservice.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Mit einem Durchmesser von 22 Zoll, handgehämmerter Präzision und einer hochauflösenden 192kHz-Stereo-Aufnahme erlebst du das Handpan genau so, wie du es auf ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 39,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "39,00 €"
+              },
+              "highlighted": [
+                "Handpan"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Handpan kaufen",
+                "Handpan gebraucht",
+                "Handpan Deutsch",
+                "Handpan lernen",
+                "Handpan Kinder",
+                "Handpan amazon",
+                "Handpan Preis",
+                "Handpan Instrument"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "knowledge_graph",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]",
+              "title": "Handpan",
+              "subtitle": "Instrument",
+              "description": "Die Handpan, seltener Pantam, ist ein mit den Händen gespieltes Blechklanginstrument, das 2007 als Reaktion auf das weltweit große Interesse für das von der Schweizer PANArt Hangbau AG im Jahr 2000 entwickelte Hang auf den Markt kam. Quelle: Mehr Weniger Beschreibung",
+              "card_id": null,
+              "url": null,
+              "image_url": null,
+              "logo_url": null,
+              "cid": null,
+              "items": [
+                {
+                  "type": "knowledge_graph_images_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "page": 1,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "link": null,
+                  "items": [
+                    {
+                      "type": "knowledge_graph_images_element",
+                      "url": null,
+                      "domain": null,
+                      "alt": "Bild von „Handpan - Wikipedia“",
+                      "image_url": "https://api.dataforseo.com/cdn/i/09051158-1621-0139-0000-b5ad1f3350c3:8",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                    },
+                    {
+                      "type": "knowledge_graph_images_element",
+                      "url": null,
+                      "domain": null,
+                      "alt": "Bild von „Handpan Music - The Old Sea (David Kuckhermann & Milena ...“",
+                      "image_url": "https://api.dataforseo.com/cdn/i/09051158-1621-0139-0000-b5ad1f3350c3:9",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+                    },
+                    {
+                      "type": "knowledge_graph_images_element",
+                      "url": null,
+                      "domain": null,
+                      "alt": "Bild von „Handpan – Wikipedia“",
+                      "image_url": "https://api.dataforseo.com/cdn/i/09051158-1621-0139-0000-b5ad1f3350c3:10",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+                    },
+                    {
+                      "type": "knowledge_graph_images_element",
+                      "url": null,
+                      "domain": null,
+                      "alt": "Bild von „Sarospan Handpan Drum - 55,88 cm (22\") 9-Note D Kurd 440Hz ...“",
+                      "image_url": "https://api.dataforseo.com/cdn/i/09051158-1621-0139-0000-b5ad1f3350c3:11",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+                    }
+                  ],
+                  "rectangle": null
+                },
+                {
+                  "type": "knowledge_graph_description_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "page": 1,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+                  "text": "Die Handpan, seltener Pantam, ist ein mit den Händen gespieltes Blechklanginstrument, das 2007 als Reaktion auf das weltweit große Interesse für das von der Schweizer PANArt Hangbau AG im Jahr 2000 entwickelte Hang auf den Markt kam. Quelle: Wikipedia Wikipedia Mehr Weniger Beschreibung",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Wikipedia",
+                      "url": "https://de.wikipedia.org/wiki/Handpan",
+                      "domain": "de.wikipedia.org",
+                      "description": null,
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/visd-inline-description[1]/div[1]/div[1]/a[1]"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Wikipedia",
+                      "url": "https://de.wikipedia.org/wiki/Handpan",
+                      "domain": "de.wikipedia.org",
+                      "description": null,
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/visd-inline-description[1]/div[1]/span[2]/span[1]/span[1]/a[1]"
+                    }
+                  ],
+                  "rectangle": null
+                },
+                {
+                  "type": "knowledge_graph_carousel_item",
+                  "rank_group": 0,
+                  "rank_absolute": 0,
+                  "page": 1,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[3]/div[1]/div[1]",
+                  "title": "Wird auch oft gesucht",
+                  "data_attrid": null,
+                  "link": null,
+                  "items": [
+                    {
+                      "type": "knowledge_graph_carousel_element",
+                      "title": "Mbira",
+                      "subtitle": null,
+                      "url": "https://www.google.com/search?sca_esv=abca9301b52d9f7f&hl=de&gl=DE&sxsrf=APpeQnu6i2JIuN_oz2KYGT9esMPrVhRc_w:1788609502522&si=APenkKnxxBAKu8uEyVJp5QG7kNERIzt0EhsYdVrbw5Is3icMpid8VYHxuDm0iZaH65S_m1L6fCy5FRLdt654L0hydStb19S_y2sSMF7s0awPO1Yt1fiRj_oYgIOEurOlkVn6dJoJz2o8q9Xt_gKx5F7hzCxavXuFyaUWYPpzmHjcqrknjXWl7OEWIOWcl2rO15PPnRAn9Srp&q=Mbira&sa=X&ved=2ahUKEwjX16bQsdeWAxUNPhAIHftyL4MQs9oBKAB6BAgREAY",
+                      "domain": "www.google.com",
+                      "image_url": "https://api.dataforseo.com/cdn/i/09051158-1621-0139-0000-b5ad1f3350c3:12",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                    },
+                    {
+                      "type": "knowledge_graph_carousel_element",
+                      "title": "Klangschale",
+                      "subtitle": null,
+                      "url": "https://www.google.com/search?sca_esv=abca9301b52d9f7f&hl=de&gl=DE&sxsrf=APpeQnu6i2JIuN_oz2KYGT9esMPrVhRc_w:1788609502522&si=APenkKlisoOXLiCMwraINHtdqOQii4CK9kOlkQc8Apn-pS60ycPrEc00VkWUjKpZZnDom8H-qVRbjGO4mtwqr2UgFOW8vlTBPvBslEk-J3LKKytpfO4DEU3HlaJIeCU1Mzbw68lwQ31ndV-B5VIQpmABQT51f6zdL9pqt2eS4Aojs9s1tG3UCcWVcHV3Pt4EB7L3cufkANE8jg1hxS3X1alEOdmJfMmREw%3D%3D&q=Klangschale&sa=X&ved=2ahUKEwjX16bQsdeWAxUNPhAIHftyL4MQs9oBKAB6BAgREAo",
+                      "domain": "www.google.com",
+                      "image_url": "https://api.dataforseo.com/cdn/i/09051158-1621-0139-0000-b5ad1f3350c3:13",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]"
+                    },
+                    {
+                      "type": "knowledge_graph_carousel_element",
+                      "title": "Steelpan",
+                      "subtitle": null,
+                      "url": "https://www.google.com/search?sca_esv=abca9301b52d9f7f&hl=de&gl=DE&sxsrf=APpeQnu6i2JIuN_oz2KYGT9esMPrVhRc_w:1788609502522&si=APenkKlisoOXLiCMwraINHtdqOQii4CK9kOlkQc8Apn-pS60ydXL2LOP4i7m5nO-OZm2C4mFhPGR9ebGktS9ZQtpUK0cNQifCpDz2KX0jogivJzOpus_HJD8NsezlekSpOKWfEUYjmQQCN6fn101ujQC8V_OFy1QrAozJbpWP6fC4FAapQuUZhzP7lNHABmD3agrvd8EAdyB&q=Steel+Pan&sa=X&ved=2ahUKEwjX16bQsdeWAxUNPhAIHftyL4MQs9oBKAB6BAgREA4",
+                      "domain": "www.google.com",
+                      "image_url": "https://api.dataforseo.com/cdn/i/09051158-1621-0139-0000-b5ad1f3350c3:14",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]"
+                    },
+                    {
+                      "type": "knowledge_graph_carousel_element",
+                      "title": "Hang",
+                      "subtitle": null,
+                      "url": "https://www.google.com/search?sca_esv=abca9301b52d9f7f&hl=de&gl=DE&sxsrf=APpeQnu6i2JIuN_oz2KYGT9esMPrVhRc_w:1788609502522&si=APenkKkicnuBo3HChbgOSg9PTrSKjmOZoDYMZFfiLeKjxtW67x_d5wd7Ck-BTcTbHWMyHu-JafYn34alJa-gqFimrOC-hMNDYxnoQE71tsFnq-8nSs2bgB-BYbRAGMXznM65jAaN5wUZfP6agKEALkdGPHMsxhK_WNBs02r4r4k_fobO1NnBY_C36rZJplnJAMaIRNetzgSD07OEFbWRG1D7cEOHuEhBiA%3D%3D&q=Hang+(Musikinstrument)&sa=X&ved=2ahUKEwjX16bQsdeWAxUNPhAIHftyL4MQs9oBKAB6BAgREBI",
+                      "domain": "www.google.com",
+                      "image_url": "https://api.dataforseo.com/cdn/i/09051158-1621-0139-0000-b5ad1f3350c3:15",
+                      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]"
+                    }
+                  ],
+                  "rectangle": null
+                }
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
