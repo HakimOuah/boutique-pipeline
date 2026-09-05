@@ -1,6 +1,6 @@
 # Cinquième avis : sac de week-end en cuir vintage — France
 
-**GO TEST LIMITÉ, à 189,90 € TTC, pour le Q4. La recherche atteint cinq familles distinctes.** Il s'agit d'un avis favorable à un petit test après contrôle d'un échantillon, pas d'une rentabilité démontrée. Le modèle retenu est le sac de voyage S.worker 42 × 24 × 22 cm, café foncé. Les autres sacs, la chapka et le pyjama ne constituent pas des GO supplémentaires.
+**AVIS GO RETIRÉ après correction utilisateur : ce sac est sous le seuil requis de 15 000 recherches pertinentes mensuelles. Le texte suivant documente l’avis antérieur, devenu caduc.** Il s'agit d'un avis favorable à un petit test après contrôle d'un échantillon, pas d'une rentabilité démontrée. Le modèle retenu est le sac de voyage S.worker 42 × 24 × 22 cm, café foncé. Les autres sacs, la chapka et le pyjama ne constituent pas des GO supplémentaires.
 
 ## Pourquoi ce produit répond au besoin
 

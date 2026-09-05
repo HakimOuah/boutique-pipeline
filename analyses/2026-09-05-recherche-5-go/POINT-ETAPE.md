@@ -1,6 +1,8 @@
 # Recherche de cinq nouveaux produits — 5 septembre 2026
 
-**Recherche terminée : 5/5 avis GO TEST LIMITÉ, cinq familles distinctes, France.**
+**AVIS GO RETIRÉS — correction utilisateur : seuil de 15 000 recherches pertinentes/mois par candidat et par pays. Les cinq candidats ci-dessous ne satisfont pas ce seuil.**
+
+Les données factuelles sont conservées comme historique ; les prix et sources ne constituent plus des recommandations GO. [Relance avec seuil corrigé](../2026-09-05-relance-15k/PILOTAGE.md).
 
 **Cinquième retenu : sac de week-end en cuir vintage 42 cm, café foncé, à 189,90 €.** [Analyse complète, courbe Q4 et source exacte](COMPLEMENT-Q4-CUIR.md). Le fournisseur déclare 97,98 € rendu France en 7–12 jours. Les examens antérieurs sont conservés dans [Q4](COMPLEMENT-Q4.md) et [loisirs/textile](COMPLEMENT-Q4-LOISIRS.md).
 
@@ -10,7 +12,7 @@ Un GO TEST LIMITÉ est un avis de recherche favorable pour risquer un petit budg
 
 Cadre : prix public 80–500 €, campagnes Google Search, budget publicitaire mensuel 1 000–3 000 €, pays européens. Vevor sert à découvrir des objets ; ses prix ne fixent pas seuls le prix de vente. Aucun achat ni lancement effectué.
 
-## Les cinq avis retenus
+## Les cinq avis retirés — historique
 
 | Produit | Prix de test TTC | Source + fret déclarés FR | Délai estimé API | CPA cible proposé | Plafond publicitaire initial |
 |---|---:|---:|---|---:|---:|

@@ -800,3 +800,10 @@ Compléments des réservations musicales : harmonica chromatique 16 trous source
 | Pyjama soie / pyjama soie mûrier / ensemble nuit soie | `Q4_VALIDE_QUALIFICATION_INCOMPLETE` — hausse récurrente forte ; source femme blanc M 75,39 € standard 8–15 j /115,30 € Premium 7–11 j, composition déclarée, concurrence Search non qualifiée. Aucun GO. |
 
 Source sac 7411 1005012964717560 à 45,79 € écartée : illustration 43×32×4 cm, pas de vrai volume de sac week-end démontré malgré le titre. Les autres modèles de sacs étudiés sont rattachés à la même famille, sans créer de GO additionnel. Les états 4/5 ci-dessus sont des étapes historiques.
+
+
+### Correction utilisateur — seuil 15 000/mois — 05/09/2026
+
+**Les cinq avis de la recherche `codex/recherche-5-go-20260905` sont retirés.** Horloge flip, téléphone livre d’or audio, voile mariée, robe shooting grossesse et sac voyage cuir vintage passent à `NON_GO_VOLUME_15K`. Cette correction prévaut sur tous les anciens compteurs 5/5 et libellés GO de cette recherche. Ne pas confondre conservation des preuves d’approvisionnement avec maintien d’une recommandation.
+
+Relance : **15 000 recherches mensuelles pertinentes minimum par famille candidate dans un pays**, pas somme des pays, pas gonflement par marques/accessoires/intention hors produit ni double compte des synonymes. Retail 80–500 €, concurrence Google Search, sourcing exact. Cinquième : cadeau Q4, courbe vérifiée et livraison courte. [Pilotage et contrôles](analyses/2026-09-05-relance-15k/PILOTAGE.md).
