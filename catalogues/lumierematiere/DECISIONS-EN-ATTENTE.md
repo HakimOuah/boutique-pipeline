@@ -36,14 +36,19 @@ d'étiquette seule, sans preuve : `934110` (déjà en attente de confirmation fo
 `805304` / `952116` / `121862` (`4W(Max 60W)` se lit comme une douille, pas une LED intégrée),
 `832012` (« selon la variante » alors que l'axe n'a qu'une valeur), `829449` (aucune source en local).
 
-### O-4 · Téléphone — instruction du 05/09 contre décision du 31/08
+### O-4 · Téléphone — **CLOSE le 05/09**
 
-Hakim donne `+33 7 56 82 80 94`. Le site publie partout `+33 7 56 91 60 84` et le JSON-LD
-`0756916084`, aligné le 31/08 **sur sa propre décision**, écran Réglages à l'appui.
-Rien touché : à confirmer avant de basculer 8 surfaces publiques.
+Hakim : « je me suis trompé dans mon précédent message, ton numéro est le bon numéro ».
+La décision du 31/08 tient : le numéro de Lumière Matière est **`+33 7 56 91 60 84`**,
+sa ligne propre, et non le `+33 7 56 82 80 94` du parc. **Rien touché sur le site** — il
+publiait déjà le bon numéro partout, dans une graphie unique (`tel:+33756916084`).
 
-### O-2 · Questions confiées à Codex, pas à toi
+Notes périmées corrigées, pour que la question ne revienne pas une troisième fois :
+`memoire/identite-partagee-gmc.md` du hub, la mémoire automatique de session, et
+`.claude/skills/gmc-acceptance/references/decisions-2026-08-24.md`.
 
-Elles sont dans le brief du lot 3 et n'attendent pas d'arbitrage :
-modèle A de `338324` (identifiant introuvable, à re-scraper) et valeurs « 2 » de `837156`
-(à scraper, question binaire : même objet ou non).
+**Reste, côté Hakim** : le champ Téléphone des réglages contient `0756916084`, format
+national, et c'est lui qui alimente le `telephone` du JSON-LD — alors que tout le site
+affiche l'international. Deux écritures pour un même numéro, ce que la leçon Noirmont
+proscrit. Le passer à `+33 7 56 91 60 84` dans Réglages → Coordonnées aligne les deux
+d'un coup ; c'est aussi le format que Google attend en données structurées.
