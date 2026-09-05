@@ -674,7 +674,7 @@ Source : [reports/recherche-produits-v2-2026-07-16.md](reports/recherche-produit
 
 ## Recherche Search mid-ticket en cours — 05/09/2026
 
-Objectif utilisateur : cinq GO nouveaux, hors doublons, 80–500 €, plusieurs pays européens. **2/5 GO TEST LIMITÉ à ce point d'étape, pas de lancement effectué.** [Dossier de recherche](analyses/2026-09-05-recherche-5-go/POINT-ETAPE.md). Ce bloc réserve les objets étudiés pour éviter de les présenter comme nouveaux dans une autre recherche. Il permet de poursuivre la même recherche ; les défauts d'une source ne constituent pas un rejet permanent de tout le marché.
+Objectif utilisateur : cinq GO nouveaux, hors doublons, 80–500 €, plusieurs pays européens. **4/5 GO TEST LIMITÉ au dernier point d'étape, pas de lancement effectué.** [Dossier de recherche](analyses/2026-09-05-recherche-5-go/POINT-ETAPE.md). Ce bloc réserve les objets étudiés pour éviter de les présenter comme nouveaux dans une autre recherche. Il permet de poursuivre la même recherche ; les défauts d'une source ne constituent pas un rejet permanent de tout le marché.
 
 | Produit / synonymes | État de cette recherche |
 |---|---|
@@ -720,7 +720,7 @@ Objectif utilisateur : cinq GO nouveaux, hors doublons, 80–500 €, plusieurs 
 
 ### Complément de réservation — artisanat et métrologie, même recherche
 
-Compteur maintenu à **2/5** ; détails et sources dans le dossier du 05/09. Ces réservations n'interdisent pas de poursuivre le candidat dans la même recherche.
+Compteur à **2/5 lors de ce jalon intermédiaire** ; détails et sources dans le dossier du 05/09. Le complément ci-dessous porte le compteur actuel à 4/5. Ces réservations n'interdisent pas de poursuivre le candidat dans la même recherche.
 
 | Produit / synonymes | État |
 |---|---|
@@ -741,3 +741,19 @@ Compteur maintenu à **2/5** ; détails et sources dans le dossier du 05/09. Ces
 | Kit outils pour bonsaï / ChumuSet-6W / outillage taille et ligature | `EN_EXAMEN` — 320 outils, 30 kit outils ; six pièces inox déclaré 59,45 € livré 8–15 j ; qualification concurrence/qualité encore insuffisante. |
 | Pyrograveur professionnel | `MESURE_SEULE` — 390 /0,40 USD, aucun sourcing complet ni GO. |
 | Backgammon | `DOUBLON_EXCLU` — piste latérale déjà inscrite antérieurement, pas comptée comme découverte. |
+
+
+### Complément de réservation — accessoires de mariée et shooting, même recherche
+
+**4/5 GO TEST LIMITÉ.** [Comparaisons, sources exactes et limites](analyses/2026-09-05-recherche-5-go/COMPLEMENT-MARIEE-SHOOTING.md). Les registres de main recontrôlés à `6450259be5ff1b1a96b3cc7a2b754d2d67f1e14d` ne comportent pas ces nouveaux objets ; leur contenu reste identique au témoin initial.
+
+| Produit / synonymes | État |
+|---|---|
+| Voile de mariée / voile cathédrale / voile long dentelle, toutes couleurs et longueurs | `GO_TEST_LIMITE` — FR, G142 3 m avec peigne, prix proposé 89,90 €, source 1005012234980018 SKU 12000057816449833 à 32,38 € livré 8–12 j, contribution hypothétique 27,54 €, CPA 15–18 €, premier plafond 75 €. Contre-prix 3 m à 59,90–69,90 € ; qualité et teinte à échantillonner. Une seule famille. |
+| Robe de shooting grossesse / robe photographie maternité tulle ou plumetis | `GO_TEST_LIMITE` — FR, plumetis blanc M/L/XL, prix proposé 84,90 €, source 1005007392918045 à 20,52 € livré 8–15 j, contribution hypothétique 29,23 €, CPA 15–18 €, premier plafond 75 €. Mesures, rendu et prix promotionnel à revérifier avant vente ; comparables moins chers. Distinct des robes de cérémonie enfant. Une seule famille pour les coupes et tailles. |
+| Kilt homme / kilt tartan / kilt utilitaire ou hybride | `SOURCES_NON_RETENUES` — 2 900 tête, 30 utilitaire ; compositions des deux fiches détaillées incohérentes, aucune offre rendue retenue. Ne pas comparer à la laine écossaise premium. |
+| Cape mariée d'hiver / manteau-cape de cérémonie / étole chaude de mariage | `EN_EXAMEN` — 390 hiver, 320 cape mariée ; cape longue ivoire 62,99 € avant fret avec fabrication puis délai long, autre source 35,39 € violette. Distinct du voile décoratif, aucun GO. |
+| Bouquet de mariée artificiel | `MESURE_SEULE` — 110 FR /0,21 USD ; aucun SKU complet retenu. |
+| Banjo à cinq cordes | `EN_EXAMEN` — recherche API complète débutée ; modèles avec housse 105–109 € avant fret, accessoires moins chers exclus. Aucun GO. |
+| Harmonica chromatique | `EN_EXAMEN` — 1 300 FR /0,38 USD ; nombre de trous à distinguer, aucun SKU livré retenu. |
+| Tambour chamanique / tambour sur cadre avec maillet | `EN_EXAMEN` — 2 900 FR /0,41 USD ; peau seule, taille et matériau non interchangeables. Aucun GO. |

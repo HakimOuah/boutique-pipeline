@@ -1,0 +1,87 @@
+{
+  "date": "2026-09-05",
+  "market": "France",
+  "location_ip": "Saint-Prix",
+  "method": "Google natif IAB, desktop, hl=fr gl=fr pws=0. Compte connecté ; aucun clic publicitaire. Notes publiques seulement.",
+  "observations": [
+    {
+      "query": "acheter voile mariée dentelle",
+      "search_text_ads_identified": [],
+      "notes": "Boutiques spécialisées, Amazon et blocs produits. Absence ponctuelle, pas une estimation de concurrence."
+    },
+    {
+      "query": "voile mariée long",
+      "search_text_ads_identified": [],
+      "notes": "Pas de texte sponsorisé identifié sur la page lue."
+    },
+    {
+      "query": "robe shooting grossesse achat",
+      "search_text_ads_identified": [],
+      "shopping_sponsored_observed": [
+        "katebackdrop.fr",
+        "esthero.fr",
+        "clubllondon.fr",
+        "amazon.fr",
+        "aliexpress.com",
+        "temu.com",
+        "etsy.com"
+      ],
+      "organic_examples": [
+        "mameline.com",
+        "chamarelles.fr",
+        "lestresorsdashley.com",
+        "beaumama.com",
+        "amazon.fr"
+      ],
+      "notes": "Location et prêt de robes par photographes visibles ; ne pas confondre prix de location et achat."
+    },
+    {
+      "query": "acheter kit outils bonsai",
+      "search_text_ads_identified": [],
+      "shopping_sponsored_observed": [
+        "amazon.fr",
+        "natureetdecouvertes.com",
+        "polliceverdestore.com"
+      ],
+      "organic_examples": [
+        "leroymerlin.fr",
+        "mistralbonsai.com",
+        "paris-bonsai.com",
+        "ogardendesign.fr"
+      ],
+      "counter_price": {
+        "domain": "amazon.fr",
+        "product": "Kit sept outils inox",
+        "price_eur": 92.27,
+        "url": "https://www.amazon.fr/Professionnel-Inoxydable-Cisaillement-Ensemble-Jardinage/dp/B07ZP28LB9",
+        "exact_match_to_chumu_6w": false
+      }
+    },
+    {
+      "query": "kilt homme acheter",
+      "search_text_ads_identified": [],
+      "shopping_sponsored_observed": [
+        "amazon.fr",
+        "etsy.com",
+        "larp-fashion.fr",
+        "lightinthebox.com"
+      ],
+      "organic_examples": [
+        "comptoir-irlandais.com",
+        "kilts.fr",
+        "lamaisondukilt.fr",
+        "kiltecossais.fr",
+        "kilthomme.fr",
+        "scotlandshop.com"
+      ],
+      "notes": "Aucune conclusion de marché libre ; nombreux prix de kilts génériques sous 80 euros."
+    }
+  ],
+  "visual_checks": [
+    {
+      "source": "https://ae01.alicdn.com/kf/S47c08513cc56463a8d1bc4a2743fb599Z.jpg",
+      "competitor": "https://cdn.shopify.com/s/files/1/0863/4708/8207/files/robe-tulle-shooting-grossesse-pois-blanc-mameline-5Fj.webp?v=1782126083",
+      "observed": "Même architecture apparente : tulle transparent à pois, épaules dénudées, manches longues bouffantes. Images différentes, pas de preuve de fabricant identique. Sous-vêtements non établis inclus."
+    }
+  ]
+}

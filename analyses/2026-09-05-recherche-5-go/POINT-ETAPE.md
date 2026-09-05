@@ -1,16 +1,18 @@
 # Recherche de cinq nouveaux produits — 5 septembre 2026
 
-**Recherche en cours : 2/5 GO TEST LIMITÉ. Trois produits distincts restent à trouver.**
+**Recherche en cours : 4/5 GO TEST LIMITÉ. Un produit distinct reste à trouver.**
 
-Un GO TEST LIMITÉ est un avis de recherche favorable pour risquer un petit budget après préparation du produit. Il ne prouve ni la rentabilité, ni la qualité d'un échantillon, ni une autorisation de lancement. Les deux avis concernent la France ; les autres pays restent à qualifier séparément.
+Dernière décision : [deux avis supplémentaires, voile et robe de shooting](COMPLEMENT-MARIEE-SHOOTING.md). Les sections anciennes retracent les étapes précédentes ; ce compteur est le statut actuel.
+
+Un GO TEST LIMITÉ est un avis de recherche favorable pour risquer un petit budget après préparation du produit. Il ne prouve ni la rentabilité, ni la qualité d'un échantillon, ni une autorisation de lancement. Les quatre avis concernent la France ; les autres pays restent à qualifier séparément.
 
 Cadre : prix public 80–500 €, campagnes Google Search, budget publicitaire mensuel 1 000–3 000 €, pays européens. Vevor sert à découvrir des objets ; ses prix ne fixent pas seuls le prix de vente. Aucun achat ni lancement effectué.
 
 ## Traçabilité
 
-Registres consultés sur GitHub : `HakimOuah/boutique-pipeline`, main recontrôlé à `0333acc265597d6257ba40afe476b56f79689528`, registre central et registre Codex. Le contenu des deux registres reste identique aux témoins initiaux, malgré les autres évolutions de main. Les copies sont dans preuves. L'absence littérale ne garantit pas l'absence de doublon : les usages et synonymes doivent être vérifiés avant de retenir un produit. Les remontoirs et le tongue drum déjà étudiés sont exclus.
+Registres consultés sur GitHub : `HakimOuah/boutique-pipeline`, main recontrôlé à `6450259be5ff1b1a96b3cc7a2b754d2d67f1e14d`, registre central et registre Codex. Le contenu des deux registres reste identique aux témoins initiaux, malgré les autres évolutions de main. Les copies sont dans preuves. L'absence littérale ne garantit pas l'absence de doublon : les usages et synonymes doivent être vérifiés avant de retenir un produit. Les remontoirs et le tongue drum déjà étudiés sont exclus.
 
-580 lignes de mesure Keyword Planner/DataForSEO, dont des synonymes, des contrôles répétés et des graines finalement non admissibles. **Ce n'est ni 580 produits nouveaux ni un volume à additionner.** CPC et enchères renvoyés en USD. Valeur vide = donnée manquante. Coût DataForSEO cumulé observé : 2.62400 USD. Les résultats bruts sont conservés dans preuves.
+603 lignes de mesure Keyword Planner/DataForSEO, dont des synonymes, des contrôles répétés et des graines finalement non admissibles. **Ce n'est ni 603 produits nouveaux ni un volume à additionner.** CPC et enchères renvoyés en USD. Valeur vide = donnée manquante. Coût DataForSEO cumulé observé : 2.80400 USD. Les résultats bruts sont conservés dans preuves.
 
 La présence Shopify est un indice technique, pas une preuve du mode d'approvisionnement ni de rentabilité. Une absence d'annonce sur un relevé Search signifie uniquement aucune annonce textuelle identifiée à cet instant. Les blocs Produits sponsorisés sont du Shopping. Les pages publiques affichant un prix ne prouvent pas qu'il se vend à ce prix.
 
