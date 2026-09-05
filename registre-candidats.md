@@ -772,3 +772,18 @@ Compteur inchangé : **4/5 GO_TEST_LIMITE**. [Courbes et preuves Q4](analyses/20
 | Crèche de Noël / nativité / figurines de crèche | `EN_EXAMEN_Q4` — courbe très saisonnière ; petite source 266 g, une unité, offre premium non établie. |
 | Coffret calligraphie / kit calligraphie | `NON_VALIDE_Q4` — 170/mois, Trends trop lacunaire ; aucun sourcing ni GO. |
 | Pyramide de Noël / sablier géant / cadran solaire / harmonium / roue de la fortune | `GRAINES_MESUREES` — mesures exploratoires uniquement, intentions à nettoyer, aucun GO. Carillon Koshi = requête de marque, pas preuve d'un générique. |
+
+### Complément Q4 loisirs/textile — même recherche du 05/09/2026
+
+**4/5 inchangé.** [Détail, nouvelles courbes et fret](analyses/2026-09-05-recherche-5-go/COMPLEMENT-Q4-LOISIRS.md). Les variantes musicales sont rattachées aux réservations ci-dessus, pas de nouvelles familles comptées.
+
+| Famille | État |
+|---|---|
+| Poncho laine femme / cape tricotée laine | `DEPRIORISE_CONCURRENCE` — 720 FR /0,37 USD, hausse Q4 visible ; source 1005007387359126 beige SKU 12000040536649202 à 28,08 € rendu Premium 7–11 j, stock 197 ; laine 100 % déclarée, pas testée. Enseignes connues et spécialistes moins chers visibles ; aucun GO. Distinct de cape mariée. |
+| Hanten / veste japonaise matelassée | `SOURCES_TROP_LENTES_Q4` — 480 FR, courbe lacunaire ; deux variantes 24–38 et 25–38 j. Aucun GO. |
+| Carrom / billard indien | `SOURCE_NON_RETENUE` — 3 600 FR, regain Q4 modéré ; source 60 cm 98,77 € rendu rapide 3–12 j face à Mango 66 cm annoncé 79 € / huit jours chez spécialiste. Une seule famille. |
+| Crokinole | `NON_VALIDE_Q4_SOURCE_MANQUANTE` — 1 300 FR, courbe lacunaire et recherche API vide. |
+| Peignoir homme / peignoir coton premium | `MESURE_Q4_SEULE` — 22 200 FR /1,26 USD, hausse Q4 récurrente forte ; pas de source premium ni concurrence Search qualifiées. |
+| Châle cachemire / étole cachemire | `NON_VALIDE_Q4` — courbe châle trop lacunaire ; recherche source exploratoire seulement. Étole 140 FR, non interchangeable avec châle. |
+
+Compléments des réservations musicales : harmonica chromatique 16 trous source 56,39 € stock 66 mais 9–24 j gratuit ; kalimba caisse noyer 34 notes 68,39 € stock 45 mais 9–24 j ou 136,74 € express. Tambour chamanique : courbe sans surcroît Q4 récurrent. Aucun des trois ne devient un nouveau GO.

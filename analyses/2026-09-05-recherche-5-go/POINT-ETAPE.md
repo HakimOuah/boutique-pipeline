@@ -2,7 +2,7 @@
 
 **Recherche en cours : 4/5 GO TEST LIMITÉ. Un produit distinct reste à trouver.**
 
-**Orientation du cinquième : cadeau Q4, forte valeur perçue et livraison courte.** [Courbes Google Trends et examen Q4](COMPLEMENT-Q4.md). Aucune nouvelle recommandation validée dans cette passe.
+**Orientation du cinquième : cadeau Q4, forte valeur perçue et livraison courte.** [Premier examen Q4](COMPLEMENT-Q4.md), puis [loisirs, textiles et transport](COMPLEMENT-Q4-LOISIRS.md). Aucune nouvelle recommandation validée dans cette passe.
 
 Dernière décision : [deux avis supplémentaires, voile et robe de shooting](COMPLEMENT-MARIEE-SHOOTING.md). Les sections anciennes retracent les étapes précédentes ; ce compteur est le statut actuel.
 
@@ -14,7 +14,7 @@ Cadre : prix public 80–500 €, campagnes Google Search, budget publicitaire m
 
 Registres consultés sur GitHub : `HakimOuah/boutique-pipeline`, main recontrôlé à `6450259be5ff1b1a96b3cc7a2b754d2d67f1e14d`, registre central et registre Codex. Le contenu des deux registres reste identique aux témoins initiaux, malgré les autres évolutions de main. Les copies sont dans preuves. L'absence littérale ne garantit pas l'absence de doublon : les usages et synonymes doivent être vérifiés avant de retenir un produit. Les remontoirs et le tongue drum déjà étudiés sont exclus.
 
-664 lignes de mesure Keyword Planner/DataForSEO, dont des synonymes, des contrôles répétés et des graines finalement non admissibles. **Ce n'est ni 664 produits nouveaux ni un volume à additionner.** CPC et enchères renvoyés en USD. Valeur vide = donnée manquante. Coût DataForSEO cumulé observé : 3.34200 USD. Les résultats bruts sont conservés dans preuves.
+682 lignes de mesure Keyword Planner/DataForSEO, dont des synonymes, des contrôles répétés et des graines finalement non admissibles. **Ce n'est ni 682 produits nouveaux ni un volume à additionner.** CPC et enchères renvoyés en USD. Valeur vide = donnée manquante. Coût DataForSEO cumulé observé : 3.52000 USD. Les résultats bruts sont conservés dans preuves.
 
 La présence Shopify est un indice technique, pas une preuve du mode d'approvisionnement ni de rentabilité. Une absence d'annonce sur un relevé Search signifie uniquement aucune annonce textuelle identifiée à cet instant. Les blocs Produits sponsorisés sont du Shopping. Les pages publiques affichant un prix ne prouvent pas qu'il se vend à ce prix.
 
@@ -22,7 +22,7 @@ La présence Shopify est un indice technique, pas une preuve du mode d'approvisi
 
 | Objet | Demande FR observée | Concurrence et sourcing | État |
 |---|---|---|---|
-| Cadre vitrine maillot 60×80 | cadre maillot de foot 2 400 ; cadre pour maillot 1 600, sans addition | Search natif : cadrepourmaillot.fr. MyGoat vitrine 79,90 €, premium 114,90–119,90 € ; autres encadreurs ~99–109 €. AliExpress 1005007664171274 : vraie dimension 60×80, SKU 12000041706392706, 25,39 € + 70,21 € de transport standard 8–15 j = 95,60 €. | Source étudiée non viable pour le modèle générique. Les prix premium incluent des aménagements à reproduire réellement. |
+| Cadre vitrine maillot 60×80 | cadre maillot de foot 2 400 ; cadre pour maillot 1 600, sans addition | Search natif : cadrepourmaillot.fr. MyGoat vitrine 79,90 €, premium 114,90–119,90 € ; autres encadreurs ~99–109 €. AliExpress 1005007682171274 : vraie dimension 60×80, SKU 12000041706392706, 25,39 € + 70,21 € de transport standard 8–15 j = 95,60 €. | Source étudiée non viable pour le modèle générique. Les prix premium incluent des aménagements à reproduire réellement. |
 | Horloge de table à palettes, socle noyer 24h | horloge flip flap 590 ; horloge flip 320. flip clock 1 900 comporte une intention numérique/application possible à nettoyer | Murs du Temps 109,90 € ; Réveilshop ~95,90–110,90 € ; Mon Enseigne Lumineuse noyer noir 162 €. Modèles proches Maison-Génie 69,95 €, marketplaces ~48–70 €. AliExpress 1005011540519668, SKU 12000055865933838 : 44,79 + 1,99 = 46,78 €, 17 unités, 6–12 j. | GO TEST LIMITÉ à 109,90 €, détail ci-dessous. Modèles concurrents comparables, pas identité de SKU prouvée. Search confirmé sur un relevé ultérieur : L’Homme Moderne, Amazon, Maison&Objet. Shopping également présent. |
 | Bol chantant métal 17,5 cm | bol tibétain 9 900 ; bol chantant 1 600, sans addition | Search natif : Instruments du Monde sur acheter bol tibetain. IDM 17,5 cm 169 € ; autres spécialistes ~115–130 € selon matière/poids. AliExpress 1005010401748173 SKU 12000052288510761 : 65,69 + 1,99 = 67,68 €, stock 106, 7–12 j. | En examen. Source alliage métal/laiton, composition sept métaux non prouvée, poids manquant. Ne pas reprendre des promesses médicales, artisanales népalaises ou de composition non vérifiées. |
 | Chaise de sol / zaisu | chaise de sol 720 ; Allemagne Bodenstuhl 2 400 | Air du Japon 139,99 €, modèles Mihomu plus chers et différents. Sources en cours de vérification. | En examen ; distinguer assise rigide articulée des poufs/futons déjà enregistrés. |
