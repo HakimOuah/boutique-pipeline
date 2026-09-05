@@ -60,3 +60,7 @@ Les citations de prix ci-dessus sont des observations de pages, pas des ventes c
 - Table d'inversion : 480 FR et 2 900 DE. Nordic ProStore (Shopify) affiche une Nordcore 1000 à 399 €. AliExpress 1005012110110968 à partir de 127,69 € et 1005009455070862 à partir de 151,39 € : modèle exact, fret, capacité et comparables à établir, pas de GO.
 - Balance board : la tête FR 1 600 mélange des intentions ; DE Balanceboard Erwachsene 1 300, mais rouleau 140 seulement. **1005011887345086 à 32,99 € est un rouleau 10×30 cm, pas un ensemble avec planche.** Ne pas l'utiliser pour calculer une marge sur un kit.
 - Hamac yoga aérien : 260 FR ; Aerial Yoga Tuch 1 300 DE. Les sources 1005009489364817 (tissu 5×2,8 m, plusieurs variantes sans stock) et 1005008742763400 (balançoire à poignées, autre produit) restent à vérifier. Aucun GO.
+
+## Contrôle supplémentaire du relevé Search
+
+Le CLI Monid déjà installé et authentifié fonctionne. Son catalogue confirme TinyFish `/fetch` gratuit. Un contrôle en direct sur Google `acheter bol tibetain` a cependant renvoyé seulement une page demandant de cliquer en cas de difficulté d'accès : **aucun résultat SERP exploitable**. Le statut HTTP 200 ne constitue donc ni une observation de concurrence ni une preuve d'absence d'annonce. Coût du contrôle : 0 USD. Preuve : `preuves/monid-serp-control.json`. Les observations Search natif et les données organiques DataForSEO restent explicitement séparées.
