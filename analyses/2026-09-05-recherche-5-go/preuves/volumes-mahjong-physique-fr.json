@@ -1,0 +1,843 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "4.2204 sec.",
+  "cost": 0.09,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09050926-1621-0367-0000-134495fa684c",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "4.1079 sec.",
+      "cost": 0.09,
+      "result_count": 13,
+      "path": [
+        "v3",
+        "keywords_data",
+        "google_ads",
+        "search_volume",
+        "live"
+      ],
+      "data": {
+        "api": "keywords_data",
+        "function": "search_volume",
+        "se": "google_ads",
+        "keywords": [
+          "jeu mahjong traditionnel",
+          "mahjong traditionnel",
+          "mahjong coffret",
+          "acheter mahjong",
+          "jeu mah jong bois",
+          "mahjong tuiles",
+          "mahjong chinois",
+          "mahjong japonais",
+          "mahjong américain",
+          "mahjong physique",
+          "jeu de go",
+          "goban",
+          "bol tibétain"
+        ],
+        "location_name": "France",
+        "language_code": "fr",
+        "search_partners": false
+      },
+      "result": [
+        {
+          "keyword": "jeu mahjong traditionnel",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 0.31,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 10
+            }
+          ]
+        },
+        {
+          "keyword": "mahjong traditionnel",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 73,
+          "search_volume": 260,
+          "low_top_of_page_bid": 0.17,
+          "high_top_of_page_bid": 0.31,
+          "cpc": 0.06,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 320
+            }
+          ]
+        },
+        {
+          "keyword": "mahjong coffret",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 93,
+          "search_volume": 30,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 0.26,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 40
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 30
+            }
+          ]
+        },
+        {
+          "keyword": "acheter mahjong",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 90,
+          "low_top_of_page_bid": 0.07,
+          "high_top_of_page_bid": 0.37,
+          "cpc": 0.13,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 110
+            }
+          ]
+        },
+        {
+          "keyword": "jeu mah jong bois",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": null,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": null
+        },
+        {
+          "keyword": "mahjong tuiles",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 99,
+          "search_volume": 260,
+          "low_top_of_page_bid": 0.17,
+          "high_top_of_page_bid": 2.1,
+          "cpc": 0.07,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 260
+            }
+          ]
+        },
+        {
+          "keyword": "mahjong chinois",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 41,
+          "search_volume": 260,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 0.22,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 320
+            }
+          ]
+        },
+        {
+          "keyword": "mahjong japonais",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 46,
+          "search_volume": 90,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 0.04,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 140
+            }
+          ]
+        },
+        {
+          "keyword": "mahjong américain",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": null,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": null
+        },
+        {
+          "keyword": "mahjong physique",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": null,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": null
+        },
+        {
+          "keyword": "jeu de go",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 53,
+          "search_volume": 14800,
+          "low_top_of_page_bid": 0.07,
+          "high_top_of_page_bid": 0.56,
+          "cpc": 0.14,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 9900
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 9900
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 12100
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 14800
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 14800
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 12100
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 18100
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 22200
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 22200
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 18100
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 14800
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 18100
+            }
+          ]
+        },
+        {
+          "keyword": "goban",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 73,
+          "search_volume": 480,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 0.09,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 590
+            }
+          ]
+        },
+        {
+          "keyword": "bol tibétain",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 9900,
+          "low_top_of_page_bid": 0.14,
+          "high_top_of_page_bid": 0.61,
+          "cpc": 0.55,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 6600
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 6600
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 8100
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 8100
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 9900
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 9900
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 9900
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 14800
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 14800
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 12100
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 9900
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 9900
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

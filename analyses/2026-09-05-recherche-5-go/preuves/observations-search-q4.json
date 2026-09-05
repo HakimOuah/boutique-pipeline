@@ -1,0 +1,60 @@
+{
+  "observed_date": "2026-09-05",
+  "surface": "Google natif, ordinateur, FR, session connectee",
+  "queries": [
+    {
+      "q": "acheter jeu de go",
+      "text_ads_identified": [],
+      "organic": [
+        "variantes.com",
+        "tete-dure.com",
+        "ffg.jeudego.org",
+        "amazon.fr",
+        "monsieurde.com",
+        "jeuxdumonde.com",
+        "rouge-et-noir.fr"
+      ]
+    },
+    {
+      "q": "carrousel musical",
+      "text_ads_identified": [],
+      "organic": [
+        "amazon.fr",
+        "ma-boite-a-musique.com",
+        "biscuiteriedelapresquile.com",
+        "muymucho.com",
+        "boissellerie-du-herisson.fr"
+      ],
+      "product_blocks": [
+        "Maisons du Monde",
+        "Mr Bricolage",
+        "Amazon",
+        "Nature & Decouvertes",
+        "Leroy Merlin",
+        "Castorama",
+        "Ma Boite a Musique"
+      ],
+      "sponsored_label_identified": false
+    },
+    {
+      "q": "kalimba 34 lames",
+      "text_ads_identified": [],
+      "organic": [
+        "instruments-du-monde.com",
+        "kalimba-store.com",
+        "kalimba-sanza.com",
+        "kalimba-musique.fr",
+        "hluru.net",
+        "african-percussion.net"
+      ],
+      "product_blocks_price_examples_eur": {
+        "Percussion Africaine 34": 79,
+        "Amazon 34": 83.95,
+        "Instruments du Monde 34": 159,
+        "Pures Music ECO Chill Angels 34": 64.49
+      },
+      "sponsored_label_identified": false
+    }
+  ],
+  "limitation": "Absence sur un releve, aucune conclusion de faible concurrence Ads. Notes manuelles apres lecture integrale du DOM; pas de clic annonce."
+}

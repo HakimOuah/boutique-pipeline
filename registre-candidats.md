@@ -757,3 +757,18 @@ Compteur à **2/5 lors de ce jalon intermédiaire** ; détails et sources dans l
 | Banjo à cinq cordes | `EN_EXAMEN` — recherche API complète débutée ; modèles avec housse 105–109 € avant fret, accessoires moins chers exclus. Aucun GO. |
 | Harmonica chromatique | `EN_EXAMEN` — 1 300 FR /0,38 USD ; nombre de trous à distinguer, aucun SKU livré retenu. |
 | Tambour chamanique / tambour sur cadre avec maillet | `EN_EXAMEN` — 2 900 FR /0,41 USD ; peau seule, taille et matériau non interchangeables. Aucun GO. |
+
+
+### Complément cinquième Q4 — 05/09/2026
+
+Compteur inchangé : **4/5 GO_TEST_LIMITE**. [Courbes et preuves Q4](analyses/2026-09-05-recherche-5-go/COMPLEMENT-Q4.md).
+
+| Famille et synonymes | État de la présente recherche |
+|---|---|
+| Jeu de go / goban / baduk / weiqi | `EN_EXAMEN_Q4` — regain récurrent sur tête mixte, source premium livrée vite non établie. Distinct des échecs et du backgammon ; ne pas recompter plateaux, bols et variantes. |
+| Mahjong physique / mah-jong / coffret 144 tuiles | `NON_VALIDE_Q4` — Trends achat trop lacunaire ; mini coffret mélamine ne vaut pas coffret bois premium. |
+| Boîte à musique / carrousel musical / manège musical / automate musical | `EN_EXAMEN_Q4` — saisonnalité tête validée, prix/dimensions/mélodies et concurrence à qualifier ; source carrousel bois 30,38 € rendu 6–12 j, seulement 4 unités. Aucun GO. |
+| Kalimba / sanza / mbira / piano à pouces | `EN_EXAMEN_Q4` — pic décembre récurrent mais tendance longue en baisse ; variantes 34 lames à 41,38–54,68 € rendu 6–12/7–12 j, stocks 1–3, concurrents ≈79–84 €. Une seule famille pour nombres de touches. Aucun GO. |
+| Crèche de Noël / nativité / figurines de crèche | `EN_EXAMEN_Q4` — courbe très saisonnière ; petite source 266 g, une unité, offre premium non établie. |
+| Coffret calligraphie / kit calligraphie | `NON_VALIDE_Q4` — 170/mois, Trends trop lacunaire ; aucun sourcing ni GO. |
+| Pyramide de Noël / sablier géant / cadran solaire / harmonium / roue de la fortune | `GRAINES_MESUREES` — mesures exploratoires uniquement, intentions à nettoyer, aucun GO. Carillon Koshi = requête de marque, pas preuve d'un générique. |

@@ -1,0 +1,721 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.1182 sec.",
+  "cost": 0.09,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09050938-1621-0367-0000-1f3d60dbdf07",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0499 sec.",
+      "cost": 0.09,
+      "result_count": 9,
+      "path": [
+        "v3",
+        "keywords_data",
+        "google_ads",
+        "search_volume",
+        "live"
+      ],
+      "data": {
+        "api": "keywords_data",
+        "function": "search_volume",
+        "se": "google_ads",
+        "keywords": [
+          "carrousel musical",
+          "carrousel noël",
+          "carrousel musical noël",
+          "manège musical",
+          "boite a musique noel",
+          "boite a musique en bois",
+          "boîte à musique adulte",
+          "boite musique",
+          "boite à musique"
+        ],
+        "location_code": 2250,
+        "language_code": "fr"
+      },
+      "result": [
+        {
+          "keyword": "carrousel musical",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 170,
+          "low_top_of_page_bid": 0.08,
+          "high_top_of_page_bid": 0.49,
+          "cpc": 0.2,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 170
+            }
+          ]
+        },
+        {
+          "keyword": "carrousel noël",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 390,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 0.07,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 1300
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 1900
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 90
+            }
+          ]
+        },
+        {
+          "keyword": "carrousel musical noël",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 56,
+          "search_volume": 40,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 40
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 10
+            }
+          ]
+        },
+        {
+          "keyword": "manège musical",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 70,
+          "low_top_of_page_bid": 0.13,
+          "high_top_of_page_bid": 0.34,
+          "cpc": 0.2,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 40
+            }
+          ]
+        },
+        {
+          "keyword": "boite a musique noel",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 210,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 0.27,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 880
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 40
+            }
+          ]
+        },
+        {
+          "keyword": "boite a musique en bois",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 480,
+          "low_top_of_page_bid": 0.22,
+          "high_top_of_page_bid": 0.57,
+          "cpc": 0.34,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 880
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 880
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 390
+            }
+          ]
+        },
+        {
+          "keyword": "boîte à musique adulte",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 99,
+          "search_volume": 210,
+          "low_top_of_page_bid": 0.06,
+          "high_top_of_page_bid": 0.41,
+          "cpc": 0.17,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 170
+            }
+          ]
+        },
+        {
+          "keyword": "boite musique",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 390,
+          "low_top_of_page_bid": 0.28,
+          "high_top_of_page_bid": 1.19,
+          "cpc": 0.3,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 880
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 320
+            }
+          ]
+        },
+        {
+          "keyword": "boite à musique",
+          "spell": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 2900,
+          "low_top_of_page_bid": 0.14,
+          "high_top_of_page_bid": 0.88,
+          "cpc": 0.44,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 1900
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 1900
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 2400
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 1900
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 2400
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 2400
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 2900
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 5400
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 3600
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 2900
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 2400
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
