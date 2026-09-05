@@ -1,0 +1,474 @@
+{
+  "requestId": "23e9f371-76fd-4db1-8590-b1836ede8ffa",
+  "data": [
+    {
+      "id": "google_CR07025955657417228289",
+      "googleAdId": "CR07025955657417228289",
+      "status": "active",
+      "network": "search",
+      "firstSeenAt": "2026-07-21T00:00:00",
+      "lastSeenAt": "2026-08-29T00:00:00",
+      "daysRunning": null,
+      "media": {
+        "type": "image",
+        "url": "https://medias.trendtrack.io/google/CR07025955657417228289.png",
+        "format": "static_image"
+      },
+      "advertiser": {
+        "id": "AR10108568816649764865",
+        "name": "MA",
+        "shopName": "Pro-Candles",
+        "domain": "pro-candles.com",
+        "websiteId": "6d5eda15-b361-4a96-8765-a63446c55d96",
+        "logoUrl": "https://medias.trendtrack.io/websites/favicon/f07ee971f1a09f6573eff979ad8fe4532fec3b49bd3046cc2094355e4c4f5f9c.jpg",
+        "liveAds": {
+          "google": 32,
+          "all": 32
+        }
+      },
+      "reach": {
+        "value": 0,
+        "lowerBound": 0,
+        "upperBound": 0
+      },
+      "audience": {
+        "mainCountry": null,
+        "countries": [],
+        "remarketing": false,
+        "interest": false
+      }
+    },
+    {
+      "id": "google_CR05318949836521734145",
+      "googleAdId": "CR05318949836521734145",
+      "status": "active",
+      "network": "search",
+      "firstSeenAt": "2026-07-20T00:00:00",
+      "lastSeenAt": "2026-08-03T00:00:00",
+      "daysRunning": 36,
+      "media": {
+        "type": "image",
+        "url": "https://medias.trendtrack.io/google/CR05318949836521734145.png",
+        "format": "static_image"
+      },
+      "advertiser": {
+        "id": "AR10108568816649764865",
+        "name": "MA",
+        "shopName": "Pro-Candles",
+        "domain": "pro-candles.com",
+        "websiteId": "6d5eda15-b361-4a96-8765-a63446c55d96",
+        "logoUrl": "https://medias.trendtrack.io/websites/favicon/f07ee971f1a09f6573eff979ad8fe4532fec3b49bd3046cc2094355e4c4f5f9c.jpg",
+        "liveAds": {
+          "google": 32,
+          "all": 32
+        }
+      },
+      "reach": {
+        "value": 0,
+        "lowerBound": 0,
+        "upperBound": 0
+      },
+      "audience": {
+        "mainCountry": "FR",
+        "countries": [
+          {
+            "code": "FR",
+            "percentage": 100,
+            "reach": 0
+          }
+        ],
+        "remarketing": true,
+        "interest": false
+      }
+    },
+    {
+      "id": "google_CR06650090837277409281",
+      "googleAdId": "CR06650090837277409281",
+      "status": "active",
+      "network": "search",
+      "firstSeenAt": "2026-04-03T00:00:00",
+      "lastSeenAt": "2026-05-15T00:00:00",
+      "daysRunning": 144,
+      "media": {
+        "type": "image",
+        "url": "https://medias.trendtrack.io/google/CR06650090837277409281.png",
+        "format": "static_image"
+      },
+      "advertiser": {
+        "id": "AR10108568816649764865",
+        "name": "MA",
+        "shopName": "Pro-Candles",
+        "domain": "pro-candles.com",
+        "websiteId": "6d5eda15-b361-4a96-8765-a63446c55d96",
+        "logoUrl": "https://medias.trendtrack.io/websites/favicon/f07ee971f1a09f6573eff979ad8fe4532fec3b49bd3046cc2094355e4c4f5f9c.jpg",
+        "liveAds": {
+          "google": 32,
+          "all": 32
+        }
+      },
+      "reach": {
+        "value": 2500,
+        "lowerBound": 2000,
+        "upperBound": 3000
+      },
+      "audience": {
+        "mainCountry": "FR",
+        "countries": [
+          {
+            "code": "FR",
+            "percentage": 75,
+            "reach": 1875
+          },
+          {
+            "code": "BE",
+            "percentage": 25,
+            "reach": 625
+          }
+        ],
+        "remarketing": true,
+        "interest": false
+      }
+    },
+    {
+      "id": "google_CR02895253130864230401",
+      "googleAdId": "CR02895253130864230401",
+      "status": "active",
+      "network": "search",
+      "firstSeenAt": "2026-03-30T00:00:00",
+      "lastSeenAt": "2026-05-16T00:00:00",
+      "daysRunning": 148,
+      "media": {
+        "type": "image",
+        "url": "https://medias.trendtrack.io/google/CR02895253130864230401.png",
+        "format": "static_image"
+      },
+      "advertiser": {
+        "id": "AR10108568816649764865",
+        "name": "MA",
+        "shopName": "Pro-Candles",
+        "domain": "pro-candles.com",
+        "websiteId": "6d5eda15-b361-4a96-8765-a63446c55d96",
+        "logoUrl": "https://medias.trendtrack.io/websites/favicon/f07ee971f1a09f6573eff979ad8fe4532fec3b49bd3046cc2094355e4c4f5f9c.jpg",
+        "liveAds": {
+          "google": 32,
+          "all": 32
+        }
+      },
+      "reach": {
+        "value": 1500,
+        "lowerBound": 1000,
+        "upperBound": 2000
+      },
+      "audience": {
+        "mainCountry": "FR",
+        "countries": [
+          {
+            "code": "FR",
+            "percentage": 75,
+            "reach": 1125
+          },
+          {
+            "code": "BE",
+            "percentage": 25,
+            "reach": 375
+          }
+        ],
+        "remarketing": true,
+        "interest": false
+      }
+    },
+    {
+      "id": "google_CR13847601060593532929",
+      "googleAdId": "CR13847601060593532929",
+      "status": "active",
+      "network": "search",
+      "firstSeenAt": "2025-06-18T00:00:00",
+      "lastSeenAt": "2026-05-15T00:00:00",
+      "daysRunning": 433,
+      "media": {
+        "type": "image",
+        "url": "https://medias.trendtrack.io/google/CR13847601060593532929.png",
+        "format": "static_image"
+      },
+      "advertiser": {
+        "id": "AR10108568816649764865",
+        "name": "MA",
+        "shopName": "Pro-Candles",
+        "domain": "pro-candles.com",
+        "websiteId": "6d5eda15-b361-4a96-8765-a63446c55d96",
+        "logoUrl": "https://medias.trendtrack.io/websites/favicon/f07ee971f1a09f6573eff979ad8fe4532fec3b49bd3046cc2094355e4c4f5f9c.jpg",
+        "liveAds": {
+          "google": 32,
+          "all": 32
+        }
+      },
+      "reach": {
+        "value": 47500,
+        "lowerBound": 45000,
+        "upperBound": 50000
+      },
+      "audience": {
+        "mainCountry": "FR",
+        "countries": [
+          {
+            "code": "FR",
+            "percentage": 85.2,
+            "reach": 40470
+          },
+          {
+            "code": "BE",
+            "percentage": 12.5,
+            "reach": 5937
+          },
+          {
+            "code": "ES",
+            "percentage": 1.1,
+            "reach": 522
+          },
+          {
+            "code": "LU",
+            "percentage": 1.1,
+            "reach": 522
+          }
+        ],
+        "remarketing": true,
+        "interest": false
+      }
+    },
+    {
+      "id": "google_CR12069573548822233089",
+      "googleAdId": "CR12069573548822233089",
+      "status": "active",
+      "network": "search",
+      "firstSeenAt": "2026-07-21T00:00:00",
+      "lastSeenAt": "2026-07-27T00:00:00",
+      "daysRunning": 35,
+      "media": {
+        "type": "image",
+        "url": "https://medias.trendtrack.io/google/CR12069573548822233089.png",
+        "format": "static_image"
+      },
+      "advertiser": {
+        "id": "AR10108568816649764865",
+        "name": "MA",
+        "shopName": "Pro-Candles",
+        "domain": "pro-candles.com",
+        "websiteId": "6d5eda15-b361-4a96-8765-a63446c55d96",
+        "logoUrl": "https://medias.trendtrack.io/websites/favicon/f07ee971f1a09f6573eff979ad8fe4532fec3b49bd3046cc2094355e4c4f5f9c.jpg",
+        "liveAds": {
+          "google": 32,
+          "all": 32
+        }
+      },
+      "reach": {
+        "value": 0,
+        "lowerBound": 0,
+        "upperBound": 0
+      },
+      "audience": {
+        "mainCountry": "FR",
+        "countries": [
+          {
+            "code": "FR",
+            "percentage": 50,
+            "reach": 0
+          },
+          {
+            "code": "BE",
+            "percentage": 50,
+            "reach": 0
+          }
+        ],
+        "remarketing": true,
+        "interest": false
+      }
+    },
+    {
+      "id": "google_CR06875155163766587393",
+      "googleAdId": "CR06875155163766587393",
+      "status": "active",
+      "network": "search",
+      "firstSeenAt": "2026-07-20T00:00:00",
+      "lastSeenAt": "2026-07-25T00:00:00",
+      "daysRunning": 36,
+      "media": {
+        "type": "image",
+        "url": "https://medias.trendtrack.io/google/CR06875155163766587393.png",
+        "format": "static_image"
+      },
+      "advertiser": {
+        "id": "AR10108568816649764865",
+        "name": "MA",
+        "shopName": "Pro-Candles",
+        "domain": "pro-candles.com",
+        "websiteId": "6d5eda15-b361-4a96-8765-a63446c55d96",
+        "logoUrl": "https://medias.trendtrack.io/websites/favicon/f07ee971f1a09f6573eff979ad8fe4532fec3b49bd3046cc2094355e4c4f5f9c.jpg",
+        "liveAds": {
+          "google": 32,
+          "all": 32
+        }
+      },
+      "reach": {
+        "value": 0,
+        "lowerBound": 0,
+        "upperBound": 0
+      },
+      "audience": {
+        "mainCountry": "BE",
+        "countries": [
+          {
+            "code": "BE",
+            "percentage": 50,
+            "reach": 0
+          },
+          {
+            "code": "FR",
+            "percentage": 50,
+            "reach": 0
+          }
+        ],
+        "remarketing": true,
+        "interest": false
+      }
+    },
+    {
+      "id": "google_CR11530308381533274113",
+      "googleAdId": "CR11530308381533274113",
+      "status": "active",
+      "network": "search",
+      "firstSeenAt": "2026-04-07T00:00:00",
+      "lastSeenAt": "2026-08-07T00:00:00",
+      "daysRunning": 140,
+      "media": {
+        "type": "image",
+        "url": "https://medias.trendtrack.io/google/CR11530308381533274113.png",
+        "format": "html5_iframe"
+      },
+      "advertiser": {
+        "id": "AR10108568816649764865",
+        "name": "MA",
+        "shopName": "Pro-Candles",
+        "domain": "pro-candles.com",
+        "websiteId": "6d5eda15-b361-4a96-8765-a63446c55d96",
+        "logoUrl": "https://medias.trendtrack.io/websites/favicon/f07ee971f1a09f6573eff979ad8fe4532fec3b49bd3046cc2094355e4c4f5f9c.jpg",
+        "liveAds": {
+          "google": 32,
+          "all": 32
+        }
+      },
+      "reach": {
+        "value": 1500,
+        "lowerBound": 1000,
+        "upperBound": 2000
+      },
+      "audience": {
+        "mainCountry": null,
+        "countries": [],
+        "remarketing": false,
+        "interest": false
+      }
+    },
+    {
+      "id": "google_CR02354649651765837825",
+      "googleAdId": "CR02354649651765837825",
+      "status": "active",
+      "network": "search",
+      "firstSeenAt": "2026-04-03T00:00:00",
+      "lastSeenAt": "2026-05-16T00:00:00",
+      "daysRunning": 144,
+      "media": {
+        "type": "image",
+        "url": "https://medias.trendtrack.io/google/CR02354649651765837825.png",
+        "format": "static_image"
+      },
+      "advertiser": {
+        "id": "AR10108568816649764865",
+        "name": "MA",
+        "shopName": "Pro-Candles",
+        "domain": "pro-candles.com",
+        "websiteId": "6d5eda15-b361-4a96-8765-a63446c55d96",
+        "logoUrl": "https://medias.trendtrack.io/websites/favicon/f07ee971f1a09f6573eff979ad8fe4532fec3b49bd3046cc2094355e4c4f5f9c.jpg",
+        "liveAds": {
+          "google": 32,
+          "all": 32
+        }
+      },
+      "reach": {
+        "value": 1500,
+        "lowerBound": 1000,
+        "upperBound": 2000
+      },
+      "audience": {
+        "mainCountry": "FR",
+        "countries": [
+          {
+            "code": "FR",
+            "percentage": 75,
+            "reach": 1125
+          },
+          {
+            "code": "BE",
+            "percentage": 25,
+            "reach": 375
+          }
+        ],
+        "remarketing": true,
+        "interest": false
+      }
+    },
+    {
+      "id": "google_CR14774101879449190401",
+      "googleAdId": "CR14774101879449190401",
+      "status": "active",
+      "network": "search",
+      "firstSeenAt": "2026-03-30T00:00:00",
+      "lastSeenAt": "2026-08-14T00:00:00",
+      "daysRunning": 148,
+      "media": {
+        "type": "image",
+        "url": "https://medias.trendtrack.io/google/CR14774101879449190401.png",
+        "format": "html5_iframe"
+      },
+      "advertiser": {
+        "id": "AR10108568816649764865",
+        "name": "MA",
+        "shopName": "Pro-Candles",
+        "domain": "pro-candles.com",
+        "websiteId": "6d5eda15-b361-4a96-8765-a63446c55d96",
+        "logoUrl": "https://medias.trendtrack.io/websites/favicon/f07ee971f1a09f6573eff979ad8fe4532fec3b49bd3046cc2094355e4c4f5f9c.jpg",
+        "liveAds": {
+          "google": 32,
+          "all": 32
+        }
+      },
+      "reach": {
+        "value": 500,
+        "lowerBound": 0,
+        "upperBound": 1000
+      },
+      "audience": {
+        "mainCountry": "BE",
+        "countries": [
+          {
+            "code": "BE",
+            "percentage": 50,
+            "reach": 250
+          },
+          {
+            "code": "FR",
+            "percentage": 50,
+            "reach": 250
+          }
+        ],
+        "remarketing": true,
+        "interest": false
+      }
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 10,
+    "total": 32726,
+    "totalPages": 3273
+  }
+}

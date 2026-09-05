@@ -787,3 +787,16 @@ Compteur inchangé : **4/5 GO_TEST_LIMITE**. [Courbes et preuves Q4](analyses/20
 | Châle cachemire / étole cachemire | `NON_VALIDE_Q4` — courbe châle trop lacunaire ; recherche source exploratoire seulement. Étole 140 FR, non interchangeable avec châle. |
 
 Compléments des réservations musicales : harmonica chromatique 16 trous source 56,39 € stock 66 mais 9–24 j gratuit ; kalimba caisse noyer 34 notes 68,39 € stock 45 mais 9–24 j ou 136,74 € express. Tambour chamanique : courbe sans surcroît Q4 récurrent. Aucun des trois ne devient un nouveau GO.
+
+
+### Décision finale Q4 cuir — recherche cinq GO du 05/09/2026
+
+**5/5 GO TEST LIMITÉ atteints : horloge flip, téléphone audio, voile mariée, robe shooting grossesse, sac week-end cuir vintage.** [Synthèse](analyses/2026-09-05-recherche-5-go/POINT-ETAPE.md) · [Cinquième, courbe et concurrence](analyses/2026-09-05-recherche-5-go/COMPLEMENT-Q4-CUIR.md). Avis de recherche France, après préparation/échantillon ; aucun lancement ni rentabilité démontrée.
+
+| Famille et synonymes | État |
+|---|---|
+| Sac de voyage cuir vintage / sac week-end cuir / duffle cuir / polochon cuir | `GO_TEST_LIMITE_Q4_FR` — **cinquième**. S.worker 4000755945602, café foncé SKU 10000007329849939, 42×24×22 cm, cuir bovin déclaré. 95,99 + 1,99 = **97,98 €**, stock 25, **7–12 j**. Prix test **189,90 €**, contribution estimée 40,27 €, CPA cible 20–23 €, plafond ads 100 €. Trends famille complet : Q4 ×1,59 /1,87 /1,94 en 2023/24/25. Search natif : Mes Bagages ; spécialistes visibles sur vintage, fortes marques sur tête générale. Shopify concurrents confirmé, identité de SKU concurrent non prouvée. Distinct du sac compression/vacuum et de l’outillage cuir ; toutes tailles/couleurs de ce sac comptent comme une seule famille. |
+| Chapka / ushanka / bonnet aviateur cuir fourrure | `NON_RETENU_DELAI_Q4` — hausse Q4 produit visible mais source rex 33,59 € noir 57–59 : 8–15 j ; tailles voisines 9–21 j. La tête chapka est contaminée par l’assurance voyage, volume 40 500 exclu. Aucun GO supplémentaire. |
+| Pyjama soie / pyjama soie mûrier / ensemble nuit soie | `Q4_VALIDE_QUALIFICATION_INCOMPLETE` — hausse récurrente forte ; source femme blanc M 75,39 € standard 8–15 j /115,30 € Premium 7–11 j, composition déclarée, concurrence Search non qualifiée. Aucun GO. |
+
+Source sac 7411 1005012964717560 à 45,79 € écartée : illustration 43×32×4 cm, pas de vrai volume de sac week-end démontré malgré le titre. Les autres modèles de sacs étudiés sont rattachés à la même famille, sans créer de GO additionnel. Les états 4/5 ci-dessus sont des étapes historiques.

@@ -1,0 +1,74 @@
+{
+  "observed_at": "2026-09-05",
+  "method": "Relevés Google natifs CUA, retranscription des observations pertinentes ; pas un export intégral de la SERP. Aucun clic publicitaire.",
+  "country": "FR",
+  "language": "fr",
+  "queries": [
+    {
+      "query": "sac voyage cuir homme",
+      "url": "https://www.google.com/search?q=sac+voyage+cuir+homme&gl=fr&hl=fr&pws=0",
+      "search_text_ads": [
+        {
+          "domain": "mesbagages.com",
+          "title": "Sacs de Voyage Hommes en Cuir | Jusqu’à -50% - Stocks limités",
+          "position": "bas de page",
+          "landing": "https://www.mesbagages.com/bagages/sacs_voyage---cuir.htm"
+        }
+      ],
+      "organic_observed": [
+        "arthur-aston.com",
+        "letanneur.com",
+        "my-bagfactory.com",
+        "paulmarius.fr",
+        "lucafaloni.com",
+        "gqmagazine.fr",
+        "lacasaducuir.com",
+        "berluti.com",
+        "gusti-cuir.fr"
+      ],
+      "shopping_present": true
+    },
+    {
+      "query": "sac voyage cuir vintage",
+      "url": "https://www.google.com/search?q=sac+voyage+cuir+vintage&gl=fr&hl=fr&pws=0",
+      "search_text_ads": [
+        {
+          "domain": "mesbagages.com",
+          "title": "Sac Voyage Cuir Vintage | Jusqu’à -50% - Stocks limités",
+          "position": "bas de page"
+        }
+      ],
+      "organic_observed": [
+        "bagaran.com",
+        "paulmarius.fr",
+        "ohmybag.com",
+        "eziclic.com",
+        "leboncoin.fr",
+        "fantinipelletteria.fr",
+        "le-globe-trotteur.com",
+        "voyage-paisible.com",
+        "skinproject.fr"
+      ],
+      "shopping_present": true
+    }
+  ],
+  "limitations": [
+    "Deux relevés ponctuels, pas une part de voix ni un inventaire Q4 des annonceurs.",
+    "Les Produits sponsorisés ont été classés Shopping, pas Search.",
+    "Les offres moins chères existent ; leurs variantes complètes n’ont pas toutes été auditées."
+  ],
+  "visual_checks": [
+    {
+      "url": "https://ae-pic-a1.aliexpress-media.com/kf/S176c71180d90485e859990f9f1ddc832C.jpg",
+      "observation": "Fiche du modèle 7411 : 43 cm largeur, 32 cm hauteur, 4 cm profondeur. Écarté."
+    },
+    {
+      "url": "https://ae01.alicdn.com/kf/H83ab21f2959a47b1a48673f24a1a65a3A.jpg",
+      "observation": "Source 4000755945602 café foncé : sac polochon, poche frontale, poches latérales, anses ; dimensions 42×24×22 lues séparément dans la description API."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0759/4472/2769/files/sac-voyage-homme-cuir-cafe-noir-cuir-homme-51379427082577.jpg?v=1781895543",
+      "observation": "Concurrent Maxime : corps de sac sans la grande poche frontale de la source ; pas même modèle."
+    }
+  ]
+}
