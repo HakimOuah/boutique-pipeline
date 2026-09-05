@@ -68,8 +68,8 @@ Trois conclusions structurantes :
 Priorités d'ouverture : **Octopia (Cdiscount)** — français, marque blanche, SAV
 repris, catalogue nativement mid-ticket ; **BigBuy** — inscription gratuite
 suffisante pour voir les prix de gros ; **Syncee plan gratuit** en complément.
-La clé `BIGBUY_API_KEY` du `.env` de `boutique-pipeline` répond `Invalid Token`,
-à régénérer.
+La ligne `BIGBUY_API_KEY=` du `.env` de `boutique-pipeline` est **vide** —
+recopiée de `.env.example` et jamais renseignée, d'où le `Invalid Token`.
 
 ### Mesure — DataForSEO
 
@@ -196,7 +196,7 @@ rien, mais le verdict se joue presque toujours sur la grille de prix Shopping.
 Deux incidents à noter : l'API AliExpress **refuse l'IP du Mac**
 (`AppWhiteIpLimit`) — il faut impérativement passer par
 `codex-chasse-clusters/tools/aliexpress_vps_gateway.py`, qui sort par le VPS
-whitelisté. Et la clé `BIGBUY_API_KEY` est invalide.
+whitelisté. Et la ligne `BIGBUY_API_KEY=` du `.env` est vide : jamais renseignée.
 
 ---
 
