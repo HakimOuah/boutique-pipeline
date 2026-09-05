@@ -28,13 +28,22 @@ et n'offre aucune alternative.
 `installation` et FAQ corrigés — la fiche envoyait le client acheter une ampoule inutile.
 Détail : [`journal/2026-09-05-doublon-193329-et-ampoules.md`](journal/2026-09-05-doublon-193329-et-ampoules.md).
 
-### O-3 · Cohérence source lumineuse — 4 fiches suspectes, non tranchées
+### O-3 · Cohérence source lumineuse — **CLOSE le 05/09**, sauf `829449`
 
-Le balayage SKU × `specs` mené le 05/09 a corrigé `623305` (6 variantes sur 9 sont livrées
-avec ampoule alors que la fiche disait « non fournie » partout). Restent, sur lecture
-d'étiquette seule, sans preuve : `934110` (déjà en attente de confirmation fournisseur),
-`805304` / `952116` / `121862` (`4W(Max 60W)` se lit comme une douille, pas une LED intégrée),
-`832012` (« selon la variante » alors que l'axe n'a qu'une valeur), `829449` (aucune source en local).
+Passe menée sur les plaques cotées du fournisseur en local.
+Détail : [`journal/2026-09-05-passe-sources-lumineuses.md`](journal/2026-09-05-passe-sources-lumineuses.md).
+
+**Corrigées** : `805304`, `952116`, `121862` (annonçaient « LED intégrée », ce sont des
+**douilles E27 avec ampoule LED 4 W fournie, max 60 W** — leur FAQ disait « rien à remplacer
+ensuite », ce qui aurait fait jeter le luminaire à la première ampoule grillée) ; `832012`
+(3 ampoules fournies, le « selon la variante » était faux) ; `934110` (**G9 fournie et
+remplaçable**, le titre fournisseur dit « G9 remplaçable ») ; `814554` (cotes ajoutées,
+source laissée telle quelle, non concluant).
+
+**`829449` non modifiée, délibérément.** La plaque dit « G9\*1 Warm white LED For Free » et le
+SKU porte `warm LED`, mais **l'attribut DSers dit non fournie** et la fiche porte déjà une
+décision assumée de promettre le moins. Promettre moins ne lèse personne ni GMC ; l'inverse si.
+**À trancher à la commande test.**
 
 ### O-4 · Téléphone — **CLOSE le 05/09**
 
