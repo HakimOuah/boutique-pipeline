@@ -1,0 +1,1442 @@
+{
+ "bruit chambre": [
+  {
+   "cle": "anti bruit chambre mousse",
+   "expression": "mousse anti-bruit chambre",
+   "volume": 140,
+   "volume_min": 140,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.26,
+   "serie": [
+    70,
+    70,
+    110,
+    90,
+    110,
+    170,
+    320,
+    140,
+    110,
+    170,
+    140,
+    110
+   ],
+   "variantes": [
+    "mousse anti bruit chambre",
+    "mousse anti-bruit chambre"
+   ]
+  },
+  {
+   "cle": "bruit chambre isoler",
+   "expression": "isolation bruit chambre",
+   "volume": 110,
+   "volume_min": 10,
+   "formulations": 6,
+   "fusionne_par_google": true,
+   "cpc": 0.21,
+   "serie": [
+    40,
+    70,
+    110,
+    90,
+    110,
+    140,
+    140,
+    110,
+    140,
+    140,
+    110,
+    140
+   ],
+   "variantes": [
+    "isolation chambre bruit",
+    "isolation bruit chambre",
+    "isoler bruit chambre",
+    "isoler chambre bruit",
+    "isoler sa chambre du bruit",
+    "isoler une chambre du bruit"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "anti bruit chambre porte",
+   "expression": "porte anti-bruit chambre",
+   "volume": 90,
+   "volume_min": 20,
+   "formulations": 3,
+   "fusionne_par_google": false,
+   "cpc": 1,
+   "serie": [
+    50,
+    30,
+    70,
+    90,
+    90,
+    70,
+    90,
+    70,
+    110,
+    140,
+    110,
+    90
+   ],
+   "variantes": [
+    "porte anti-bruit chambre",
+    "porte anti bruit chambre",
+    "porte chambre anti bruit"
+   ]
+  },
+  {
+   "cle": "bruit chambre comment isoler",
+   "expression": "comment isoler le bruit d'une chambre",
+   "volume": 70,
+   "volume_min": 10,
+   "formulations": 3,
+   "fusionne_par_google": false,
+   "cpc": 0.15,
+   "serie": [
+    40,
+    20,
+    50,
+    40,
+    50,
+    50,
+    90,
+    70,
+    90,
+    90,
+    70,
+    70
+   ],
+   "variantes": [
+    "comment isoler du bruit une chambre",
+    "comment isoler une chambre du bruit",
+    "comment isoler le bruit d'une chambre"
+   ]
+  },
+  {
+   "cle": "anti bruit chambre tapis",
+   "expression": "tapis anti-bruit chambre",
+   "volume": 50,
+   "volume_min": 10,
+   "formulations": 4,
+   "fusionne_par_google": false,
+   "cpc": 0.28,
+   "serie": [
+    30,
+    30,
+    50,
+    50,
+    70,
+    50,
+    50,
+    70,
+    70,
+    70,
+    70,
+    50
+   ],
+   "variantes": [
+    "tapis anti-bruit chambre",
+    "tapis anti bruit chambre",
+    "tapis anti-bruit pour chambre",
+    "tapis anti bruit pour chambre"
+   ]
+  },
+  {
+   "cle": "anti bruit chambre mur",
+   "expression": "anti-bruit mur chambre",
+   "volume": 50,
+   "volume_min": 20,
+   "formulations": 4,
+   "fusionne_par_google": false,
+   "cpc": 0.43,
+   "serie": [
+    30,
+    30,
+    50,
+    30,
+    50,
+    50,
+    40,
+    50,
+    50,
+    70,
+    50,
+    30
+   ],
+   "variantes": [
+    "anti-bruit mur chambre",
+    "mur anti-bruit chambre",
+    "anti bruit mur chambre",
+    "mur anti bruit chambre"
+   ]
+  },
+  {
+   "cle": "bruit chambre mur",
+   "expression": "bruit dans le mur de ma chambre",
+   "volume": 30,
+   "volume_min": 30,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    20,
+    40,
+    50,
+    40,
+    20,
+    10,
+    30,
+    20,
+    10,
+    30,
+    50,
+    30
+   ],
+   "variantes": [
+    "bruit dans le mur de ma chambre"
+   ]
+  },
+  {
+   "cle": "anti bruit chambre",
+   "expression": "anti-bruit chambre",
+   "volume": 30,
+   "volume_min": 10,
+   "formulations": 5,
+   "fusionne_par_google": false,
+   "cpc": 0.02,
+   "serie": [
+    10,
+    20,
+    30,
+    20,
+    20,
+    40,
+    40,
+    40,
+    40,
+    40,
+    50,
+    20
+   ],
+   "variantes": [
+    "chambre anti-bruit",
+    "chambre anti bruit",
+    "anti-bruit chambre",
+    "anti bruit chambre",
+    "anti bruit pour chambre"
+   ]
+  },
+  {
+   "cle": "bruit chambre sans",
+   "expression": "chambre sans bruit",
+   "volume": 30,
+   "volume_min": 30,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    30,
+    40,
+    30,
+    20,
+    40,
+    30,
+    40,
+    40,
+    40,
+    30,
+    20,
+    30
+   ],
+   "variantes": [
+    "chambre sans bruit"
+   ]
+  },
+  {
+   "cle": "bruit chambre comment isoler porte",
+   "expression": "comment isoler du bruit une porte de chambre",
+   "volume": 20,
+   "volume_min": 0,
+   "formulations": 2,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    10,
+    10,
+    20,
+    10,
+    10,
+    20,
+    20,
+    10,
+    20,
+    10,
+    10,
+    20
+   ],
+   "variantes": [
+    "comment isoler du bruit une porte de chambre",
+    "comment isoler une porte de chambre du bruit"
+   ]
+  },
+  {
+   "cle": "anti bruit chambre panneau",
+   "expression": "panneau anti-bruit chambre",
+   "volume": 20,
+   "volume_min": 20,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.64,
+   "serie": [
+    10,
+    20,
+    30,
+    20,
+    30,
+    10,
+    20,
+    20,
+    10,
+    30,
+    20,
+    10
+   ],
+   "variantes": [
+    "panneau anti bruit chambre",
+    "panneau anti-bruit chambre"
+   ]
+  },
+  {
+   "cle": "bruit chambre vmc",
+   "expression": "bruit vmc chambre",
+   "volume": 20,
+   "volume_min": 0,
+   "formulations": 3,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    10,
+    10,
+    10,
+    10,
+    20,
+    10,
+    30,
+    10,
+    30,
+    20,
+    30,
+    10
+   ],
+   "variantes": [
+    "bruit vmc chambre",
+    "vmc chambre bruit",
+    "bruit vmc dans chambre"
+   ]
+  },
+  {
+   "cle": "anti bruit chambre paravent",
+   "expression": "paravent anti bruit chambre",
+   "volume": 20,
+   "volume_min": 20,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.45,
+   "serie": [
+    10,
+    20,
+    40,
+    10,
+    10,
+    20,
+    30,
+    10,
+    10,
+    20,
+    20,
+    20
+   ],
+   "variantes": [
+    "paravent anti bruit chambre"
+   ]
+  },
+  {
+   "cle": "bruit chambre reducteur",
+   "expression": "reducteur de bruit chambre",
+   "volume": 20,
+   "volume_min": 20,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.7,
+   "serie": [
+    10,
+    10,
+    10,
+    30,
+    30,
+    20,
+    20,
+    20,
+    30,
+    30,
+    30,
+    10
+   ],
+   "variantes": [
+    "reducteur de bruit chambre"
+   ]
+  },
+  {
+   "cle": "anti bruit chambre cloison",
+   "expression": "cloison anti-bruit chambre",
+   "volume": 20,
+   "volume_min": 20,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.21,
+   "serie": [
+    10,
+    20,
+    30,
+    20,
+    20,
+    30,
+    30,
+    20,
+    20,
+    20,
+    10,
+    10
+   ],
+   "variantes": [
+    "cloison anti bruit chambre",
+    "cloison anti-bruit chambre"
+   ]
+  },
+  {
+   "cle": "anti bruit chambre plaque",
+   "expression": "plaque anti bruit chambre",
+   "volume": 20,
+   "volume_min": 20,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.06,
+   "serie": [
+    10,
+    10,
+    20,
+    10,
+    10,
+    30,
+    40,
+    30,
+    30,
+    30,
+    10,
+    20
+   ],
+   "variantes": [
+    "plaque anti bruit chambre"
+   ]
+  },
+  {
+   "cle": "bruit chambre froide voisinage",
+   "expression": "bruit chambre froide voisinage",
+   "volume": 20,
+   "volume_min": 20,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    20,
+    40,
+    20,
+    30,
+    10,
+    10,
+    20,
+    20,
+    10,
+    20,
+    30,
+    20
+   ],
+   "variantes": [
+    "bruit chambre froide voisinage"
+   ]
+  },
+  {
+   "cle": "bruit chambre double flux vmc",
+   "expression": "bruit vmc double flux chambre",
+   "volume": 20,
+   "volume_min": 0,
+   "formulations": 2,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    10,
+    10,
+    20,
+    10,
+    10,
+    20,
+    20,
+    30,
+    40,
+    30,
+    20,
+    20
+   ],
+   "variantes": [
+    "bruit vmc double flux chambre",
+    "vmc double flux bruit chambre"
+   ]
+  },
+  {
+   "cle": "attenuer bruit chambre route",
+   "expression": "atténuer bruit route chambre",
+   "volume": 20,
+   "volume_min": 20,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    10,
+    20,
+    20,
+    10,
+    20,
+    10,
+    20,
+    10,
+    20,
+    20,
+    20,
+    20
+   ],
+   "variantes": [
+    "atténuer bruit route chambre"
+   ]
+  },
+  {
+   "cle": "bruit chambre exterieur isoler",
+   "expression": "isoler une chambre du bruit exterieur",
+   "volume": 10,
+   "volume_min": 10,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "variantes": [
+    "isoler une chambre du bruit exterieur"
+   ]
+  },
+  {
+   "cle": "bruit chambre isoler porte",
+   "expression": "isoler bruit porte chambre",
+   "volume": 10,
+   "volume_min": 10,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": null,
+   "serie": [
+    0,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    0
+   ],
+   "variantes": [
+    "isoler porte chambre bruit",
+    "isoler bruit porte chambre",
+    "isoler une porte de chambre du bruit"
+   ]
+  },
+  {
+   "cle": "amovible anti bruit chambre cloison",
+   "expression": "cloison amovible anti-bruit chambre",
+   "volume": 10,
+   "volume_min": 10,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.13,
+   "serie": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "variantes": [
+    "cloison amovible anti-bruit chambre",
+    "cloison amovible anti bruit chambre"
+   ]
+  },
+  {
+   "cle": "bruit chambre coulissante porte",
+   "expression": "porte coulissante chambre bruit",
+   "volume": 10,
+   "volume_min": 10,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    10,
+    0,
+    0,
+    10,
+    10,
+    0,
+    10,
+    10,
+    10,
+    0
+   ],
+   "variantes": [
+    "porte coulissante chambre bruit"
+   ]
+  },
+  {
+   "cle": "bruit chambre froide moteur",
+   "expression": "bruit moteur chambre froide",
+   "volume": 10,
+   "volume_min": 10,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    10,
+    10,
+    10,
+    10,
+    0,
+    0,
+    0,
+    10,
+    0,
+    0,
+    10,
+    10
+   ],
+   "variantes": [
+    "bruit moteur chambre froide"
+   ]
+  },
+  {
+   "cle": "bruit chambre reduire",
+   "expression": "reduire le bruit dans une chambre",
+   "volume": 10,
+   "volume_min": 10,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    10,
+    0,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "variantes": [
+    "reduire le bruit dans une chambre"
+   ]
+  },
+  {
+   "cle": "bruit chambre comment isoler rue",
+   "expression": "comment isoler une chambre du bruit de la rue",
+   "volume": 10,
+   "volume_min": 10,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.03,
+   "serie": [
+    10,
+    20,
+    10,
+    10,
+    20,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "comment isoler une chambre du bruit de la rue"
+   ]
+  },
+  {
+   "cle": "bruit chambre hopital",
+   "expression": "bruit chambre d'hopital",
+   "volume": 10,
+   "volume_min": 10,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": null,
+   "serie": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    0,
+    10,
+    10
+   ],
+   "variantes": [
+    "bruit chambre hopital",
+    "bruit chambre d'hopital"
+   ]
+  },
+  {
+   "cle": "bruit chambre eau hote",
+   "expression": "chambre d'hote le bruit de l'eau",
+   "volume": 10,
+   "volume_min": 10,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    0,
+    20,
+    10,
+    10
+   ],
+   "variantes": [
+    "chambre d'hote le bruit de l'eau"
+   ]
+  },
+  {
+   "cle": "bruit chambre comment contre isoler",
+   "expression": "comment isoler une chambre contre le bruit",
+   "volume": 10,
+   "volume_min": 10,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.02,
+   "serie": [
+    10,
+    0,
+    0,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10
+   ],
+   "variantes": [
+    "comment isoler une chambre contre le bruit"
+   ]
+  },
+  {
+   "cle": "bruit chambre compresseur froide",
+   "expression": "bruit compresseur chambre froide",
+   "volume": 10,
+   "volume_min": 10,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    0,
+    10,
+    10
+   ],
+   "variantes": [
+    "bruit compresseur chambre froide"
+   ]
+  },
+  {
+   "cle": "bruit chambre isoler voisin",
+   "expression": "isoler une chambre du bruit des voisins",
+   "volume": 10,
+   "volume_min": 10,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.02,
+   "serie": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    20,
+    20,
+    10,
+    30,
+    10,
+    10
+   ],
+   "variantes": [
+    "isoler une chambre du bruit des voisins"
+   ]
+  },
+  {
+   "cle": "bruit chambre climatisation",
+   "expression": "climatisation chambre bruit",
+   "volume": 0,
+   "volume_min": 0,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "climatisation chambre bruit"
+   ]
+  },
+  {
+   "cle": "bruit chambre fait froide qui",
+   "expression": "chambre froide qui fait du bruit",
+   "volume": 0,
+   "volume_min": 0,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "chambre froide qui fait du bruit"
+   ]
+  },
+  {
+   "cle": "aquarium bruit chambre",
+   "expression": "aquarium chambre bruit",
+   "volume": 0,
+   "volume_min": 0,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "aquarium chambre bruit",
+    "aquarium dans une chambre bruit"
+   ]
+  },
+  {
+   "cle": "bruit chambre climatiseur",
+   "expression": "climatiseur chambre bruit",
+   "volume": 0,
+   "volume_min": 0,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "climatiseur chambre bruit"
+   ]
+  },
+  {
+   "cle": "air bruit chambre humidificateur sans",
+   "expression": "humidificateur d'air chambre sans bruit",
+   "volume": 0,
+   "volume_min": 0,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "humidificateur d'air chambre sans bruit",
+    "humidificateur d air chambre sans bruit"
+   ]
+  },
+  {
+   "cle": "bebe bruit chambre",
+   "expression": "bruit chambre bébé",
+   "volume": 0,
+   "volume_min": 0,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "bruit chambre bébé"
+   ]
+  },
+  {
+   "cle": "bruit chambre nuit",
+   "expression": "bruit dans la chambre la nuit",
+   "volume": 0,
+   "volume_min": 0,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "bruit la nuit dans la chambre",
+    "bruit dans la chambre la nuit"
+   ]
+  },
+  {
+   "cle": "bruit chambre pluie velu",
+   "expression": "chambre velux bruit pluie",
+   "volume": 0,
+   "volume_min": 0,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "chambre velux bruit pluie"
+   ]
+  },
+  {
+   "cle": "bruit chambre norme",
+   "expression": "norme bruit chambre",
+   "volume": 0,
+   "volume_min": 0,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "norme bruit chambre"
+   ]
+  },
+  {
+   "cle": "blanc bruit chambre enfant",
+   "expression": "bruit blanc chambre enfant",
+   "volume": 0,
+   "volume_min": 0,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "bruit blanc chambre enfant"
+   ]
+  },
+  {
+   "cle": "anti bruit chambre enfant tapis",
+   "expression": "tapis chambre enfant anti bruit",
+   "volume": 0,
+   "volume_min": 0,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "tapis chambre enfant anti bruit"
+   ]
+  },
+  {
+   "cle": "bruit chambre chauffe eau",
+   "expression": "chauffe eau chambre bruit",
+   "volume": 0,
+   "volume_min": 0,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "chauffe eau chambre bruit"
+   ]
+  },
+  {
+   "cle": "bruit chambre cumulu",
+   "expression": "cumulus dans chambre bruit",
+   "volume": 0,
+   "volume_min": 0,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "cumulus dans chambre bruit"
+   ]
+  },
+  {
+   "cle": "bruit chambre",
+   "expression": "bruit dans la chambre",
+   "volume": 0,
+   "volume_min": 0,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "bruit dans la chambre"
+   ]
+  },
+  {
+   "cle": "bruit chambre culture",
+   "expression": "bruit chambre de culture",
+   "volume": 0,
+   "volume_min": 0,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "bruit chambre de culture"
+   ]
+  },
+  {
+   "cle": "bruit chambre sterile",
+   "expression": "chambre sterile bruit",
+   "volume": 0,
+   "volume_min": 0,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "chambre sterile bruit"
+   ]
+  },
+  {
+   "cle": "bruit chambre chaudiere",
+   "expression": "bruit chaudière chambre",
+   "volume": 0,
+   "volume_min": 0,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "bruit chaudière chambre"
+   ]
+  },
+  {
+   "cle": "bruit chambre clim reversible",
+   "expression": "clim reversible chambre bruit",
+   "volume": 0,
+   "volume_min": 0,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "clim reversible chambre bruit"
+   ]
+  },
+  {
+   "cle": "bruit chambre rue",
+   "expression": "chambre sur rue bruit",
+   "volume": 0,
+   "volume_min": 0,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "chambre sur rue bruit"
+   ]
+  },
+  {
+   "cle": "bruit chambre grattement",
+   "expression": "bruit de grattement chambre",
+   "volume": 0,
+   "volume_min": 0,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "bruit de grattement chambre"
+   ]
+  },
+  {
+   "cle": "bruit chambre hotel",
+   "expression": "bruit chambre hôtel",
+   "volume": 0,
+   "volume_min": 0,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "bruit chambre hôtel"
+   ]
+  },
+  {
+   "cle": "bruit chambre porte",
+   "expression": "porte chambre bruit",
+   "volume": 0,
+   "volume_min": 0,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "porte chambre bruit"
+   ]
+  },
+  {
+   "cle": "bruit chambre isoler sans traval",
+   "expression": "isoler une chambre du bruit sans travaux",
+   "volume": 0,
+   "volume_min": 0,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "variantes": [
+    "isoler une chambre du bruit sans travaux"
+   ]
+  }
+ ]
+}

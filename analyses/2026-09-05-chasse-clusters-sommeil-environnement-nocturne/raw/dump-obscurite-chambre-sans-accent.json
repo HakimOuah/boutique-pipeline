@@ -1,0 +1,54 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0524 sec.",
+  "cost": 0.012,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09050606-1621-0399-0000-0dbf395b28a7",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0444 sec.",
+      "cost": 0.012,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "google",
+        "keyword_suggestions",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "keyword_suggestions",
+        "se_type": "google",
+        "keyword": "obscurite chambre",
+        "location_name": "France",
+        "language_name": "French",
+        "include_serp_info": false,
+        "limit": 1000,
+        "offset": 0,
+        "order_by": [
+          "keyword_info.search_volume,desc"
+        ]
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "seed_keyword": "obscurite chambre",
+          "seed_keyword_data": null,
+          "location_code": 2250,
+          "language_code": "fr",
+          "total_count": null,
+          "items_count": 0,
+          "offset": 0,
+          "offset_token": "eyJDdXJyZW50T2Zmc2V0IjowLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoib2JzY3VyaXRlIGNoYW1icmUiLCJpbmNsdWRlX3NlZWRfa2V5d29yZCI6ZmFsc2UsImZ1bGxfbWF0Y2giOmZhbHNlLCJsb2FkX3NlcnBfaW5mbyI6ZmFsc2UsInNlYXJjaF9hZnRlcl90b2tlbiI6bnVsbCwiaWdub3JlX3N5bm9ueW1zIjpmYWxzZSwibGFuZ3VhZ2UiOiJmciIsInNlYXJjaF9lbmdpbmUiOiJnb29nbGUiLCJsb2NhdGlvbiI6MjI1MCwidXNlX25ld19jYXRlZ29yaWVzIjp0cnVlLCJvcmRlcl9ieSI6eyJvcmRlcl9maWVsZCI6ImtleXdvcmRfaW5mby5zZWFyY2hfdm9sdW1lIiwib3JkZXJfdHlwZSI6IkRlc2MiLCJuZXh0IjpudWxsfSwibGltaXQiOjEwMDAsIm9mZnNldCI6MCwiYWlkIjoxNjIxNDIsInVzZV9jYWNoZSI6dHJ1ZSwidGFza19pZCI6IjA5MDUwNjA2LTE2MjEtMDM5OS0wMDAwLTBkYmYzOTViMjhhNyIsImZsYWdzIjpudWxsfSwiUmF3UXVlcnkiOm51bGwsIklkIjoiZmU1MzcwNDYtYWJiNi00ZTVjLWI1YjctYTU1ZDBlZDExMzA3IiwiU2VhcmNoQWZ0ZXJEYXRhIjpudWxsLCJFeGVjdXRvciI6LTkxODQ0MDU5NDA0NDQ1MTc2MzN9",
+          "items": null
+        }
+      ]
+    }
+  ]
+}
