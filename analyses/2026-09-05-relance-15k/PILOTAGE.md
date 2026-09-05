@@ -35,3 +35,7 @@ Lot44DE terminé et contrôlé : [résultat](luna-allemagne/RESULTAT.md). Retour
 ## Qualification des sources allemandes
 
 Les contrôles Luna cadeaux et lit pour chien sont terminés et relus. Quatrième lot de 35 termes mesuré ; total 181 graines. Sources SKU/pays et fret obtenus pour deux produits. Voir [QUALIFICATION-DE-COMPLEMENT.md](QUALIFICATION-DE-COMPLEMENT.md). Échiquier : présélection renforcée, délai Q4 encore insuffisamment court. Aucun nouveau GO final.
+
+## Alternatives échiquier
+
+Source alternative contrôlée via API : 38,78 € produit + fret, estimation 5–11 jours vers DE. Comparaison visuelle effectuée : modèle différent du concurrent. Verdict Luna « drop probable » corrigé en « non prouvé ». Voir [ECHIQUIER-SOURCES-ET-CONTROLE.md](ECHIQUIER-SOURCES-ET-CONTROLE.md). Clarification du délai Q4 demandée à l’utilisateur, sans bloquer les autres recherches.
