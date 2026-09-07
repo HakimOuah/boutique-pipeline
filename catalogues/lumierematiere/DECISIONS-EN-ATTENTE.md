@@ -61,3 +61,32 @@ national, et c'est lui qui alimente le `telephone` du JSON-LD — alors que tout
 affiche l'international. Deux écritures pour un même numéro, ce que la leçon Noirmont
 proscrit. Le passer à `+33 7 56 91 60 84` dans Réglages → Coordonnées aligne les deux
 d'un coup ; c'est aussi le format que Google attend en données structurées.
+
+---
+
+## `934110` — tranché le 07/09, sur délégation de Hakim
+
+« je te fais confiance pour les libellés, fais comme tu veux ».
+
+**Ce que les plaques de variantes ont montré**, ouvertes pour la première fois ce jour-là :
+les **trois modèles sont dans la même matière beige**. `3000k-warm white` et
+`6000k-cold white` ne sont donc **pas des couleurs de corps** malgré le nom de l'axe
+fournisseur (« Couleur du corps ») : ce sont bien des **températures de lumière**.
+Le fond des libellés de la boutique était juste.
+
+**Corrigé** : `Un tube · travertin` → **`Un tube`**. Le mot « travertin » sous-entendait
+que les modèles à deux tubes ne l'étaient pas, alors qu'ils le sont. Les deux autres
+libellés sont conservés, ils sont désormais prouvés.
+
+**Cotes récupérées sur les mêmes plaques**, versées dans les specs et la FAQ :
+tube **Ø 4 × H 28 cm** sur les deux modèles, rosace commune **Ø 10 × H 2,5 cm**,
+câble ajustable **180 cm** en un tube / **150 cm** en deux tubes, **LED 6 W**.
+
+**Non asserté** : la température du modèle un tube. Le seul axe qui la porterait est
+nommé « Taille » par le vendeur et n'a qu'une valeur — la même erreur de lecture d'axe
+faible que sur `147607` la veille. Le libellé ne dit donc que « Un tube ».
+
+**Reste** : les 3 variantes partagent encore une photo unique. Brief de 2 visuels écrit
+(`briefs/2026-09-07-codex-934110-visuels.md`) — **2 et non 3**, les deux références
+« deux tubes » étant identiques au SHA-256 près.
+
