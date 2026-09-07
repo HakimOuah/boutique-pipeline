@@ -1,102 +1,98 @@
-# UK — mots-clés Search et sourcing AliExpress
+# UK — cinq pistes Search, mots-clés et sourcing
 
-Contrôles du 7 septembre 2026. Les deux pistes à travailler en premier sont **l’univers abayas** et **le jeu d’échecs pliant en bois**. Le gilet chauffant, la bodycam et la vision nocturne restent des réserves : les preuves ne permettent pas de présenter cinq produits comme entièrement validés.
+Contrôles du **7 septembre 2026**, supervisés avec des sous-agents Luna en effort max. Je retiens les abayas ouvertes brodées, les corsets noirs structurés, l’univers coffrets/remontoirs de montres, le détecteur adulte TX-850 et le jeu d’échecs pliant en bois. Le détecteur est le test le plus fragile sur le prix ; les échecs sont ma priorité cadeau Q4.
 
-Le livrable contient **84 mots-clés ciblables**, leurs volumes, les regroupements et les exclusions. « Ciblable » décrit l’adéquation de la requête au produit ; ce statut ne signifie pas que son lancement est déjà recommandé.
+Cette sélection qualifie la **demande de marché, l’existence d’offres concurrentes et le début du sourcing**. Elle ne prouve pas encore une rentabilité publicitaire, la qualité reçue ou le dropshipping effectif des concurrents. Aucune campagne ni commande fournisseur n’a été lancée.
 
-## Demande : les volumes à utiliser
+## Les volumes à utiliser
 
-Source : DataForSEO, données Google Ads, Royaume-Uni `2826`, anglais, partenaires désactivés. Les nombres sont des **moyennes mensuelles**, avec un historique disponible d’août 2025 à juillet 2026. Les CPC du fichier sont en USD ; les prix produits ci-dessous sont en GBP.
+| Produit / univers | Mots-clés retenus | Somme brute/mois | Total prudent/mois | Sans les principales racines génériques |
+|---|---:|---:|---:|---:|
+| Abayas ouvertes brodées | 8 | 44 940 | **37 000** | 3 900 |
+| Corsets noirs structurés, deux coupes | 14 | 47 020 | **44 290** | 3 090 |
+| Coffrets et remontoirs de montres, deux offres | 26 | 37 800 | **19 250** | 4 550 |
+| Détecteur adulte TX-850 | 14 | 64 450 | **36 230** | 9 130 |
+| Jeu d’échecs pliant en bois | 11 | 34 370 | **17 460** | 2 660 |
+| **Total des cinq marchés** | **73** | **228 580** | **154 230** | **23 330** |
 
-| Produit ou univers | Mots-clés ciblables | Somme brute/mois | Total prudent/mois | Prudent sans les groupes génériques principaux | Décision |
-|---|---:|---:|---:|---:|---|
-| Abayas ouvertes et brodées | 14 | 53 910 | **38 300** | 5 200 | Priorité ; tester la finition et la coupe des modèles proposés |
-| Jeu d’échecs pliant bois, 39 cm | 12 | 34 380 | **17 470** | 2 670 | Priorité Q4 ; contrôle du set et des finitions |
-| Gilet chauffant USB sans manches | 11 | 47 740 | **19 440** | 7 340 | Réserve ; pack à tester, pression des offres génériques |
-| Bodycam grand public | 19 | 40 260 | **14 910** | 2 810 | Réserve ; sous 15 000 stricts et forte pression sur les prix |
-| Vision nocturne numérique IR, deux formats | 28 | 19 930 | **14 130** | 3 130 | Réserve Q4 ; sous 15 000 stricts, preuve Search incomplète |
-| **Total des cinq marchés** | **84** | **196 220** | **104 250** | **21 150** | Marchés séparés, pas une campagne unique |
+Source : DataForSEO, données Google Ads, Royaume-Uni `2826`, anglais, partenaires désactivés. Il s’agit de moyennes mensuelles estimées et arrondies. Les CPC des fichiers sont en USD ; les prix produits sont en GBP.
 
-La somme brute recompte notamment des variantes proches. Le prudent retient le maximum par groupe de variantes ou d’intentions proches. Ce regroupement est une convention de screening : **ce n’est pas un nombre d’utilisateurs uniques certifié par Google, ni une prévision d’impressions**. Les termes génériques peuvent couvrir d’autres modèles, niveaux de prix ou recherches d’information.
+Le prudent prend le maximum par groupe de variantes proches. C’est une convention de screening pour réduire le double comptage, **pas un nombre d’utilisateurs uniques ni une prévision d’impressions**. Les racines `abaya`, `corset`, `watch box`, `watch winder`, `metal detector` et `chess set` couvrent d’autres variantes et niveaux de prix. La dernière colonne rend cette dépendance visible : les groupes très précis ne font pas seuls 15k.
 
-Les volumes de voyage des échecs sont désormais conditionnels : un plateau de 39 cm ne répond pas forcément au besoin d’un petit jeu aimanté. Les recherches « magnetic », « walnut » et « ebony » sont exclues faute de caractéristiques attestées. Pour le gilet, ni « jacket » ni « coat » ne sont ajoutés ; les variantes homme/femme restent ciblables mais sont regroupées avec la racine. Les mots-clés casque et magasin local sont retirés de la vision nocturne.
+Pour les montres, le coffret représente **9 970 recherches/mois**, le remontoir **9 280**, soit **19 250 pour l’univers**. Aucun des deux ne dépasse seul 15k. Le brief autorise un produit ou un univers : ces deux offres ont chacune leur page et leur groupe d’annonces, et leurs volumes restent identifiables.
 
-**Fichiers utilisables :** [liste complète avec volumes et motifs](MOTS-CLES.md), [CSV des 145 lignes analysées](mots-cles-search-uk.csv), [totaux par univers](totaux-mots-cles-uk.csv), [exclusions initiales](exclusions-search-initiales.csv).
+**Livrables :** [toute la liste lisible, avec volumes](MOTS-CLES.md), [73 mots-clés retenus en CSV](mots-cles-a-cibler.csv), [223 lignes analysées, avec conditions et exclusions](mots-cles-search-uk.csv), [29 mots-clés de départ en pause pour Ads Editor](brouillon-google-ads-editor-5-univers.csv), [négatifs initiaux](exclusions-search-initiales.csv).
 
-## Sourcing : variantes exactes et coûts vers le Royaume-Uni
+## Sourcing AliExpress : liens et variantes exactes
 
-L’API AliExpress installée a été utilisée pour la recherche, la fiche produit et le devis de transport de la variante exacte. Les remises personnelles ont été retirées de la demande de fiche. **Coût livré = prix API de la variante + transport API vers GB pour une unité.** Il ne constitue pas encore un calcul de marge après fiscalité, paiement, retours et SAV. Les prix de vente proposés sont des hypothèses de test, pas des ventes constatées.
+Recherche, fiche et fret effectués avec **l’API AliExpress installée**, destination GB, devise GBP, une unité, remises personnelles retirées de la demande de fiche. Coût livré = prix API de la variante + fret API. Les prix de vente sont des **hypothèses de test**, pas des ventes constatées.
 
-| Offre AliExpress | Variante contrôlée | Achat | Transport | Coût livré | Délai estimé API | Stock déclaré | Prix de vente envisagé |
+| Offre | Variante à sélectionner | Achat | Fret | Coût livré | Livraison estimée | Stock déclaré | Vente envisagée |
 |---|---|---:|---:|---:|---|---:|---:|
-| [Abaya noire ouverte brodée](https://www.aliexpress.com/item/1005008650101896.html?skuId=12000046096249126) | Black Cardigan / M | £29.39 | Gratuit | **£29.39** | 6–13 j | 100 | £79.90 |
-| [Robe/abaya bordeaux ornée](https://www.aliexpress.com/item/1005012235894439.html?skuId=12000057817723897) | Burgundy / M | £27.89 | £1.99 | **£29.88** | 6–10 j | 8 | £89.90 |
-| [Jeu d’échecs bois pliant 39 cm](https://www.aliexpress.com/item/1005008086495961.html?skuId=12000043641691985) | chess set | £35.19 | £1.99 | **£37.18** | 4–8 j | 10 | £79.90 |
-| [Gilet chauffant noir](https://www.aliexpress.com/item/1005010031480359.html?skuId=12000057722704041) | L–XL / Black v-neck vest, sans batterie | £30.79 | £1.99 | **£32.78** | 7–11 j | 9 998 | Voir pack ci-dessous |
-| [Batterie séparée pour le gilet](https://www.aliexpress.com/item/1005010031480359.html?skuId=12000057722704051) | 10 000 mAh battery | £12.29 | £1.99 | **£14.28** | 7–11 j | 9 999 | Pack envisagé : **£99.90**, coût livré total **£47.06** |
-| [BOBLOV A22](https://www.aliexpress.com/item/1005005477082194.html?skuId=12000033270407258) | Camera Only, sans carte microSD | £26.19 | £1.99 | **£28.18** | 4–8 j | 22 | £69.90, hypothèse fragile |
-| [GTMEDIA N4 avec sangle tête](https://www.aliexpress.com/item/1005009454033612.html?skuId=12000049157206517) | GTMEDIA N4 | £60.59 | £1.99 | **£62.58** | 4–8 j | 7 | £119.90 |
-| [Vision nocturne INSKAM tenue en main](https://www.aliexpress.com/item/1005009731876014.html?skuId=12000049981283314) | Variante contrôlée du lien | £40.59 | £1.99 | **£42.58** | 4–8 j | 11 | £89.90 |
+| [Abaya noire ouverte brodée](https://www.aliexpress.com/item/1005008650101896.html?skuId=12000046096249126) | Black Cardigan / M | £29.39 | £0 | **£29.39** | 6–13 j | 100 | £79.90 |
+| [Corset noir underbust](https://www.aliexpress.com/item/1005007308979912.html?skuId=12000040189579875) | Black / M | £18.89 | £1.99 | **£20.88** | 4–8 j | 16 | £79.90 |
+| [Corset noir overbust long](https://www.aliexpress.com/item/1005011724345711.html?skuId=12000056361525782) | black / M | £18.29 | £1.99 | **£20.28** | 6–10 j | 11 | £89.90 |
+| [Coffret finition bois, 10 montres](https://www.aliexpress.com/item/32839469711.html?skuId=12000032606672986) | **Style 2** | £35.09 | £5.35 | **£40.44** | 6–13 j | 39 857 | £99.90 |
+| [Remontoir double USB-DC noir](https://www.aliexpress.com/item/1005008107024816.html?skuId=12000043796914430) | W135B Black / China Mainland | £33.49 | £0 | **£33.49** | 6–13 j | 9 957 | £99.90 |
+| [Détecteur adulte TX-850](https://www.aliexpress.com/item/1005006994695803.html?skuId=12000038984545060) | TX-850, sans casque | £82.39 | £1.99 | **£84.38** | 4–8 j | 5 | £149.90 |
+| [Jeu d’échecs pliant bois 39 cm](https://www.aliexpress.com/item/1005008086495961.html?skuId=12000043641691985) | chess set | £35.19 | £1.99 | **£37.18** | 4–8 j | 10 | £79.90 |
 
-Ces offres partent de Chine, selon les devis contrôlés. Les fenêtres de livraison sont des estimations du transporteur remontées par l’API ; elles ne prouvent ni livraison réalisée ni stock européen. Les champs de garantie AliExpress peuvent afficher 35 ou 60 jours : ne pas transformer l’estimation courte en garantie commerciale. Les stocks, prix et fret sont ponctuels.
+Une [abaya bordeaux ornée](https://www.aliexpress.com/item/1005012235894439.html?skuId=12000057817723897), £29.88 livrés, reste dans le fichier sourcing comme alternative occasion. Son ouverture et son contenu sont ambigus : ses mots-clés occasion/robe ne sont pas dans le total initial.
 
-Points qui modifient réellement le ciblage ou l’offre :
+Ces devis partent de Chine. Les estimations de 4–13 jours ne sont ni des livraisons réalisées ni du stock UK. Le champ de garantie AliExpress à 35/60 jours décrit autre chose que la fenêtre estimée. Les coûts ci-dessus ne constituent pas une marge après fiscalité, paiements, retours, SAV et publicité. Prix, fret et stock devront être rafraîchis lors de la commande.
 
-- **Abayas :** la photo exacte du cardigan noir montre bien l’ouverture et les broderies aux poignets. La bordeaux montre une robe et une couche fluide ; son titre « open-front » contredit une propriété « full opening = No ». Ne pas l’utiliser pour la landing page « open abaya » avant résolution. Aucun hijab, sac ou vêtement porté par le mannequin n’est réputé inclus.
-- **Échecs :** le titre annonce set pliant et reines supplémentaires. Les photos montrent plateau, rangement et pièces des deux couleurs. Le nombre exact de pièces et la finition restent à contrôler ; ni aimantation, ni essence de bois particulière, ni lestage ne sont attestés.
-- **Gilet :** le pack est constitué de deux références commandées séparément, donc deux colis possibles. L’image de batterie déclare 5 V, sortie 2 A et câble Type-C ; la compatibilité avec le gilet reste à tester. Ne pas promettre nombre de zones, autonomie ou puissance sans preuve.
-- **Bodycam :** le prix correspond à une caméra seule. Aucun pack 64 Go n’est sourcé à £28.18. La fiche concurrente BodyCamera citée initialement comme A22 présente actuellement une **A26** : ce n’est pas un comparable exact.
-- **Vision nocturne :** le N4 déclare carte 32 Go, sangle tête, IR 850 nm et batterie rechargeable ; cela n’en fait pas un appareil thermique ou à intensification militaire. La seconde fiche mentionne 4K mais déclare un capteur 2 MP : ne pas annoncer de 4K natif. Aucune fixation casque n’est prouvée.
+Les contrôles qui changent effectivement l’offre :
 
-## Concurrence et annonces Search
+- **Abaya :** cardigan ouvert et poignets brodés visibles. Aucun hijab ou vêtement sous le cardigan n’est réputé inclus. La coupe et les finitions restent à essayer.
+- **Corsets :** photos exactes noires contrôlées ; acier déclaré, avec 18 baleines pour l’underbust. Les tableaux ne sont pas interchangeables : M underbust = taille 65–70 cm, M overbust = taille 70–75 cm ; poitrine 85–90 cm dans les deux tableaux. Les conversions du vendeur sont approximatives. Ne pas confondre son champ technique `length` avec le tour de taille et ne pas promettre une réduction corporelle mesurée.
+- **Coffret :** Style 2 montre dix coussins individuels, couvercle opaque, serrure et pochettes. Style 1 est différent. Pas de tiroir, de personnalisation ou d’essence de bois attestée ; ne pas annoncer du bois massif.
+- **Remontoir :** deux coussins et un boîtier noir avec fenêtre sont visibles. USB-DC est déclaré ; la présence du câble et d’un adaptateur secteur reste à confirmer. Le premier modèle à £30.68 n’avait que deux unités et reste une solution de secours, sans volume supplémentaire.
+- **TX-850 :** vraie canne adulte avec accoudoir, LCD et disque elliptique. Pile 9 V non incluse. Le disque est déclaré étanche, le boîtier ne l’est pas : pas de ciblage « underwater ». Pas de casque, sac ou promesse de détection à 2,5 mètres.
+- **Échecs :** plateau pliant et pièces des deux couleurs visibles. Aimantation, essence et lestage ne sont pas prouvés. Le mot-clé « extra queens » attend le comptage réel du set.
 
-Le filtre Shopify demandé est conservé comme indice. **Shopify et un produit de forme comparable sur AliExpress ne prouvent pas le mode de fulfillment du concurrent. Aucun dropshipping effectif n’a été établi.** Les comparaisons ci-dessous ne certifient pas que les concurrents vendent le même SKU.
+## Concurrence : Shopify, prix comparables et Search
 
-| Univers | Offre concurrente observée | Shopify | Preuve Search et implication |
-|---|---|---|---|
-| Abayas | [AbayaButh, abaya ouverte à poignets brodés](https://abayabuth.com/products/premium-heritage-cuff-embroidered-open-abaya-black-limited-edition) £94.99, tailles indisponibles/précommande au contrôle ; [Abaya Elegance](https://www.abayaelegance.com/products/black-front-open-abaya-with-white-embroidered-cuffs) £39.99 | Oui | [Annonce texte AbayaButh](https://adstransparency.google.com/advertiser/AR11721487743929286657/creative/CR01027464418968993793?region=GB), JZB Enterprises LTD, lue dans Chrome, sitelinks vers abayas ouvertes/luxe. Fourchette de prix large : £79.90 doit être défendu par le produit et la finition. |
-| Échecs | [Chess.co.uk, set pliant acacia/boxwood](https://chess.co.uk/products/luxury-folding-wooden-chess-set) £79.95 ; [British Chess Company, set noyer/érable](https://www.thebritishchesscompany.co.uk/products/15-75-grandmaster-walnut-chess-set) £99.95 | Oui | [Annonce Search Chess & Bridge](https://adstransparency.google.com/advertiser/AR14317334538471079937/creative/CR14075494756918493185?region=GB), diffusion retournée au 7 septembre. SERP organique dominée par des spécialistes ; cartes Argos/John Lewis moins chères, sur d’autres formats. |
-| Gilet | [GOKOZY, gilet avec powerbank](https://www.gokozywear.com/en-gb/products/heated-vest-men) £99.99 ; [ORORO](https://uk.ororo.com/products/heated-fleece-vest) £159.99 avec batterie 7.4 V | Oui | [Search retrouvé sur le domaine racine ORORO](https://adstransparency.google.com/advertiser/AR11549159053124960257/creative/CR12682586783507021825?region=GB), annonceur retourné Langis LLC ; aucune creative retrouvée sur GOKOZY dans la fenêtre. B&Q/The Range/Amazon exercent une pression forte sur le générique. Le modèle ORORO et son système électrique ne sont pas identiques au gilet USB sourcé. |
-| Bodycam | [BodyCamera A26 64 Go](https://www.bodycamera.co.uk/products/boblov-x1-64gb-body-camera), £83.99 TTC, indisponible au contrôle | Oui | Annonces texte établies pour [Reveal Media](https://adstransparency.google.com/advertiser/AR06345114546847350785/creative/CR07961910249047195649?region=GB) et [Brentwood](https://adstransparency.google.com/advertiser/AR03755340045788119041/creative/CR13276958537277243393?region=GB), segment surtout professionnel. Pas de preuve Search du SKU A22 ; prix marketplaces très agressifs. |
-| Vision nocturne | [Nightfox Swift](https://nightfoxstore.com/products/nightfox-swift-night-vision-goggles), £139.99, modèle distinct du GTMEDIA | Oui | Une fiche texte liée par la recherche au domaine Nightfox est retournée au nom de [Phong Y. Khang](https://adstransparency.google.com/advertiser/AR15838217882874937345/creative/CR07340395504557096961?region=GB), dernière diffusion 5 septembre. Le texte/domaine créatif n’a pas pu être lu dans Chrome : attribution à Nightfox non confirmée. |
+| Marché | Prix concurrent observé | Shopify | Indice dropshipping | Preuve Search |
+|---|---|---|---|---|
+| Abayas | [AbayaButh, poignets brodés](https://abayabuth.com/products/premium-heritage-cuff-embroidered-open-abaya-black-limited-edition) £94.99, indisponible/précommande au contrôle ; [Abaya Elegance](https://www.abayaelegance.com/products/black-front-open-abaya-with-white-embroidered-cuffs) £39.99 | Oui | Forme générique comparable ; fulfillment non prouvé | [AbayaButh / JZB](https://adstransparency.google.com/advertiser/AR11721487743929286657/creative/CR01027464418968993793?region=GB), texte et sitelinks abayas ouvertes/luxe lus |
+| Corsets | [Corset Story, overbust orné](https://corset-story.co.uk/products/lace-and-bead-embellished-corset-overbust) £125 + £9.95 express ; [Luxe Noir, underbust brocart](https://www.luxenoir.com/products/luxe-noir-ivy-underbust-corset-black-brocade-vg-19174?country=GB) **$129 USD**, livraison mondiale annoncée gratuite | Oui | Expédition usine Inde déclarée chez Corset Story ; Luxe Noir se présente comme fabricant. Ce n’est pas une preuve de drop AliExpress | [Luxe Noir](https://adstransparency.google.com/advertiser/AR01373830166769303553/creative/CR13508649208030167041?region=GB), vraie annonce texte corsets acier, dernière diffusion 29 août |
+| Montres | [Aevitas coffret dix montres](https://aevitas-uk.co.uk/products/10-watch-box-dark-walnut) £206 ; [Aevitas remontoir simple](https://aevitas-uk.co.uk/products/single-watch-winder-black?variant=41573816959139) £239 actif | Oui | Produits de même famille, construction premium différente ; fulfillment non prouvé | [Annonce coffrets](https://adstransparency.google.com/advertiser/AR02455602815108644865/creative/CR17516671250812895233?region=GB) et [annonce remontoirs, Single/Double](https://adstransparency.google.com/advertiser/AR02455602815108644865/creative/CR05653165224920875009?region=GB), previews lus |
+| Détection | [GadgetShack, TX-850](https://gadgetshack.co.uk/product-page/tianxun-tx-850-waterproof-metal-detector/) £134.99 ; [Garegear, TX-850](https://garegear.com/product/tianxun-tx-850/) £109.99 ; [Quildinc, TX-850](https://quildinc.co.uk/products/tx-850-metal-detector-underground-professional-depth-2-5m-scanner-search-finder-1) £290.99 | Oui pour Quildinc ; autres plateformes distinctes | **Indice fort** sur Quildinc : même modèle générique et origine Chine ; Garegear expose aussi une référence AliExpress. Fulfillment non prouvé | [Spin a Disc](https://adstransparency.google.com/advertiser/AR08629351156142833665/creative/CR16773045432136761345?region=GB), annonce texte détecteurs lue, 7 septembre ; ne prouve pas une campagne TX-850 |
+| Échecs | [Chess.co.uk, set pliant bois](https://chess.co.uk/products/luxury-folding-wooden-chess-set) £79.95 ; [British Chess Company, autre set bois](https://www.thebritishchesscompany.co.uk/products/15-75-grandmaster-walnut-chess-set) £99.95 | Oui | Set générique comparable ; ni même SKU ni fulfillment établis | Annonces texte Chess & Bridge établies, dont une sur les combinaisons de sets et pièces plastique ; aucune annonce « wooden chess set » confirmée dans les six previews contrôlés |
 
-Les annonces Transparency prouvent une activité publicitaire au niveau de l’annonceur lorsqu’elle est vérifiable. Elles ne révèlent pas les mots-clés réellement achetés. Les captures de SERP sans résultat « paid » ne prouvent pas l’absence de campagnes. Le pixel Google de TrendTrack seul n’a pas été utilisé comme preuve Search.
+Les produits Aevitas et les corsets de marque servent de repères, **pas de preuve qu’un générique a la même qualité**. Aevitas annonce 3–5 jours ouvrés UK, gratuits dès £50, ce qui est meilleur que la source chinoise. Pour Luxe Noir, `country=GB` ne change pas le prix USD : aucune conversion fictive en GBP n’a été utilisée. Son ETA observée était le 16–21 septembre depuis l’Inde.
 
-## Q4 : ce que les courbes confirment
+Le TX-850 a l’économie la plus tendue : **£149.90 − £84.38 = £65.52 avant tous les autres coûts**. L’offre à £290.99 ne justifie pas de vendre trois fois le prix du marché. À £149.90, il faut mesurer si la présentation, le guide d’utilisation et le service permettent de vendre face aux références £109.99–£134.99. Je le testerais après les autres pistes, avec un plafond de CPA plus contraint.
 
-Rapport de l’indice Google Trends moyen octobre–décembre à l’indice moyen janvier–septembre, Royaume-Uni, même série mensuelle. Ce sont des indices de saisonnalité, pas des volumes absolus.
+Les relevés organiques UK montrent surtout des spécialistes pour la détection et l’underbust, avec Amazon/eBay présents. La racine « corset » mélange spécialistes et mode, dont Bershka et Vivienne Westwood ; elle doit rester isolée du groupe underbust. Pour les remontoirs, Goldsmiths et Amazon apparaissent aux côtés de spécialistes. **Ces résultats organiques ne certifient pas la composition des enchères Search**. Les preuves Ads Transparency établissent de vraies annonces texte, mais ne donnent pas les mots-clés exacts achetés ni la part d’impressions des enseignes.
 
-| Terme | Q4 2023 | Q4 2024 | Q4 2025 |
+## Q4 : priorité aux échecs et au rangement de montres
+
+Ratio = indice Google Trends moyen octobre–décembre / indice moyen janvier–septembre, UK, par année. Indices relatifs, pas volumes.
+
+| Terme | 2023 | 2024 | 2025 |
 |---|---:|---:|---:|
-| [chess set](https://trends.google.com/trends/explore?hl=en&geo=GB&date=2021-01-01%202026-08-31&q=chess%20set) | ×1.34 | ×1.73 | ×1.64 |
-| [heated gilet](https://trends.google.com/trends/explore?hl=en&geo=GB&date=2021-01-01%202026-08-31&q=heated%20gilet) | ×6.65 | ×4.75 | ×3.72 |
-| [night vision goggles](https://trends.google.com/trends/explore?hl=en&geo=GB&date=2021-01-01%202026-08-31&q=night%20vision%20goggles) | ×1.67 | ×1.54 | ×1.44 |
-| [night vision binoculars](https://trends.google.com/trends/explore?hl=en&geo=GB&date=2021-01-01%202026-08-31&q=night%20vision%20binoculars) | ×1.32 | ×1.30 | ×1.83 |
+| [chess set](https://trends.google.com/trends/explore?geo=GB&date=2021-01-01%202026-08-31&q=chess%20set) | ×1.34 | ×1.73 | ×1.64 |
+| [watch box](https://trends.google.com/trends/explore?geo=GB&date=2021-01-01%202026-08-31&q=watch%20box) | ×1.26 | ×1.30 | ×1.56 |
+| [watch winder](https://trends.google.com/trends/explore?geo=GB&date=2021-01-01%202026-08-31&q=watch%20winder) | ×1.23 | ×1.30 | ×1.30 |
+| [corset](https://trends.google.com/trends/explore?geo=GB&date=2021-01-01%202026-08-31&q=corset) | ×1.06 | ×1.28 | ×1.24 |
 
-L’échiquier est la piste cadeau Q4 prioritaire de cette passe : produit offrable, set bois pliant, coût livré cohérent avec les prix des spécialistes et saisonnalité répétée. La vision nocturne a aussi un signal cadeau/Q4, mais sa demande et sa preuve Search restent moins solides. L’abaya ne présente pas de pic Q4 récurrent : son calendrier ressort plutôt autour de Ramadan/Eid.
+Le set d’échecs répond au cinquième angle demandé : cadeau durable, format bois à valeur perçue supérieure au plastique, délai API 4–8 jours et hausse Q4 répétée. Le coffret/remontoir offre un deuxième univers cadeau avec un signal saisonnier récurrent. L’abaya n’a pas de pic Q4 récurrent ; sa demande suit plutôt Ramadan/Eid.
 
-## Préparer la première campagne
+## Si la première campagne doit partir demain
 
-Avec le budget publicitaire de 1 000–3 000 € par mois et la cadence hebdomadaire visée, commencer par un seul univers. Le [brouillon Ads Editor abayas](brouillon-google-ads-editor-abayas.csv) contient six mots-clés exacts, en pause : `open abaya`, `womens open abaya`, `embroidered abaya`, `embellished abaya`, `abaya online`, `abaya`. Les groupes « ouvertes » et « brodées » sont prioritaires ; la racine générique se teste à part avec une limite de dépense propre.
+Je commencerais par les **échecs** pour préparer Q4, ou par les **abayas ouvertes brodées** pour un test moins saisonnier. Un seul univers à la fois avec le budget disponible de 1 000–3 000 € par mois : environ 250–750 € par semaine, sous réserve du coût d’acquisition supportable.
 
-Le draft ne contient aucune annonce, enchère, URL finale ni budget : aucune campagne n’a été créée. Les produits doivent être associés à une page fidèle à la variante vendue, avec prix et délai réalistes. Le test mesurera ensuite la conversion et le CPA ; ces données ne sont pas déductibles des volumes. Le coût total du pack, les frais et les retours doivent servir à fixer le plafond de CPA avant activation.
+Le fichier Ads Editor contient 29 mots-clés Exact en pause, répartis par produit et par intention. Les groupes précis passent en premier ; les mots génériques sont isolés. L’ensemble des 73 mots-clés mesurés reste consultable, sans imposer d’activer tous les synonymes proches. Passer ensuite certains groupes en Expression après observation des vrais termes de recherche. Ne pas additionner Exact et Expression dans les volumes.
 
-## Origine des pistes et exclusions
+Avant activation : page correspondant à la variante, coût et délai affichés, achat test et suivi de conversion fonctionnel, plafond de CPA calculé sur les coûts complets. Pour les corsets, vérifier les tailles réellement proposées ; pour le remontoir, résoudre le câble ; pour le détecteur, le stock de cinq unités impose un contrôle rapide. L’échantillon permettra de vérifier ce que l’API et les photos ne peuvent pas démontrer.
 
-TrendTrack a été consulté dans Chrome : UK principal, puis UK parmi les marchés, Google inclus, Meta exclu, bestseller minimum 80 USD. **348 lignes** ont été examinées dans la passe élargie aux marchés UK. Une seconde passe a retiré l’exclusion Meta en conservant UK principal, Google et prix minimum : **268 lignes examinées**, avec recoupements entre les deux passes. Cela ne signifie pas 616 commerçants uniques ni audit exhaustif de chaque catalogue.
+## Origine et exclusions
 
-Abayas Boutique et BodyCamera proviennent directement des lignes TrendTrack. La vision nocturne est une extension loisir d’une inspiration optique Superior Tactical ; ses produits militaires et pièces PVS sont exclus. Les échecs et gilets sont des extensions de recherche hors preuve directe du filtre TrendTrack. Abayas Boutique est réellement WooCommerce, malgré le marquage Shopify de TrendTrack ; la plateforme a donc été contrôlée sur les sites publics.
+TrendTrack a été parcouru dans Chrome avec UK, Google inclus et Meta exclu, bestseller minimum proche de $80, puis avec les élargissements autorisés : UK parmi les marchés, Meta autorisé, enfin retrait du pixel Google pour les corsets et le recoupement Aevitas. La poursuite comprend notamment 124 lignes électroniques, 30 lignes animaux et des recherches thématiques ciblées, avec recoupements. Les chiffres ne représentent pas des commerçants uniques ni une recherche exhaustive de tout TrendTrack.
 
-Pistes éliminées pendant cette mission :
+Corset Story, Luxe Noir et Corsettery sont apparus dans la recherche corsets élargie. Aevitas a été recoupé dans TrendTrack à 8K visites affichées, avec des remontoirs parmi ses bestsellers. LMS Metal Detecting a inspiré la famille détection, ses modèles de marque étant exclus du sourcing final. Les échecs sont une extension de recherche ; leur origine n’est pas artificiellement attribuée au filtre initial.
 
-- CarPlay : peu de demande UK compatible et générique B&Q à £51.99 face au sourcing livré £54.18.
-- Télescope SV501P : sourcing £50.48, modèle NatureQuest à £56 hors £3.99 de port ; écart insuffisant.
-- Bain froid : sourcing livré £78.19 contre Polar à £79.99.
-- Haltères réglables : le fret de la variante complète détruit l’économie ; ne pas retenir le prix d’une poignée seule.
-- Gilet lesté : délais contrôlés de 25–43 jours.
-- Nettoyeurs ultrasons : prises EU sur les offres rapides ou fret trop cher sur les prises UK.
-- Microscopes : offres d’entrée de gamme sous forte pression ; variante AD246SM contredite par description AD246SP et support plastique. Le prix premium du SM ne valide pas cette offre.
-- Bols cristal : demande trop faible et offre à prix acceptable limitée à un bol avec 11–18 jours ; le vrai set contrôlé dépassait le budget.
-- Diesel heater : délai et contenu du kit insuffisamment étayés.
+Les anciens gilet chauffant, bodycam et vision nocturne passent en [annexe](annexes/passe-initiale/RAPPORT.md). Autres exclusions de la poursuite : lits/poussettes chiens à 25–42 jours ; cadre numérique où le générique concurrent coûte moins que le source ; miroir de format non comparable ; caméras oiseaux/trail sous le seuil de demande ; détecteurs compacts enfants écartés des mots-clés adultes. Les coffres Watchmatic à environ $15 600 ne sont pas une preuve de marché midticket.
 
-Les notes intermédiaires des sous-agents sont conservées comme preuves ; ce rapport supervisé corrige leurs hypothèses dépassées. Les JSON volumineux sont compressés en `.gz` et listés avec empreinte SHA-256 dans [le manifeste](manifest-preuves.json). Aucun achat, contact fournisseur ni lancement publicitaire n’a été effectué.
+Les fichiers intermédiaires sont des preuves de travail, parfois corrigées. **Ce rapport et les CSV finaux font foi pour cette mission**, notamment sur les tailles, les capacités de remontoir, l’interprétation des délais et les sommes de volumes. Le [manifeste](manifest-preuves.json) conserve les empreintes des preuves compressées ; [la vérification](verification.json) contrôle les calculs et les fichiers.

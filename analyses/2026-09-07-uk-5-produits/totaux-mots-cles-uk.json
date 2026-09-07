@@ -1,108 +1,87 @@
 [
   {
     "univers": "abaya",
-    "nom": "Abayas ouvertes et brodées",
-    "nombre_mots_cles": 14,
-    "somme_brute_mensuelle": 53910,
-    "total_prudent_regroupe": 38300,
-    "prudent_sans_groupes_racines": 5200,
+    "nom": "Abayas ouvertes brodées",
+    "nombre_mots_cles": 8,
+    "somme_brute_mensuelle": 44940,
+    "total_prudent_regroupe": 37000,
+    "prudent_sans_groupes_racines": 3900,
     "groupes": {
       "abaya_head_broad": 33100,
-      "abaya_open": 2900,
       "abaya_embellished_broidered": 1000,
-      "abaya_occasion": 1300
+      "abaya_open": 2900
+    }
+  },
+  {
+    "univers": "corset",
+    "nom": "Corsets noirs structurés",
+    "nombre_mots_cles": 14,
+    "somme_brute_mensuelle": 47020,
+    "total_prudent_regroupe": 44290,
+    "prudent_sans_groupes_racines": 3090,
+    "groupes": {
+      "overbust": 390,
+      "underbust": 1900,
+      "steel-boned": 320,
+      "black-head": 8100,
+      "satin": 480,
+      "corset-head": 33100
+    }
+  },
+  {
+    "univers": "watch",
+    "nom": "Coffrets et remontoirs de montres",
+    "nombre_mots_cles": 26,
+    "somme_brute_mensuelle": 37800,
+    "total_prudent_regroupe": 19250,
+    "prudent_sans_groupes_racines": 4550,
+    "groupes": {
+      "ten-slot": 90,
+      "box-head": 8100,
+      "storage-box": 1300,
+      "wooden-box": 480,
+      "auto-winder": 2400,
+      "double-winder": 260,
+      "winder-head": 6600,
+      "winder-electric": 20
+    }
+  },
+  {
+    "univers": "metal",
+    "nom": "Détecteur adulte TX-850",
+    "nombre_mots_cles": 14,
+    "somme_brute_mensuelle": 64450,
+    "total_prudent_regroupe": 36230,
+    "prudent_sans_groupes_racines": 9130,
+    "groupes": {
+      "beginners": 390,
+      "best-metal": 1300,
+      "best-beginners": 590,
+      "best-metal-uk": 880,
+      "buy": 210,
+      "metal-root": 27100,
+      "adults": 140,
+      "price": 320,
+      "metal-uk": 2900,
+      "metal-sale": 2400
     }
   },
   {
     "univers": "chess",
-    "nom": "Jeu d’échecs pliant bois 39 cm",
-    "nombre_mots_cles": 12,
-    "somme_brute_mensuelle": 34380,
-    "total_prudent_regroupe": 17470,
-    "prudent_sans_groupes_racines": 2670,
+    "nom": "Jeu d’échecs pliant en bois",
+    "nombre_mots_cles": 11,
+    "somme_brute_mensuelle": 34370,
+    "total_prudent_regroupe": 17460,
+    "prudent_sans_groupes_racines": 2660,
     "groupes": {
+      "beginners": 110,
       "chess-root": 14800,
-      "wooden": 1900,
+      "adults": 70,
       "folding": 210,
       "portable": 320,
-      "adults": 70,
-      "beginners": 110,
+      "wooden": 1900,
       "wooden-folding": 40,
-      "wooden-portable": 10,
-      "extra-queens": 10
-    }
-  },
-  {
-    "univers": "heated",
-    "nom": "Gilet chauffant USB sans manches",
-    "nombre_mots_cles": 11,
-    "somme_brute_mensuelle": 47740,
-    "total_prudent_regroupe": 19440,
-    "prudent_sans_groupes_racines": 7340,
-    "groupes": {
-      "heated-gilet": 12100,
-      "heated-vest": 1900,
-      "heated-waistcoat": 720,
-      "body-warmer": 4400,
-      "body-warmer-uk": 320
-    }
-  },
-  {
-    "univers": "bodycam",
-    "nom": "Bodycam grand public",
-    "nombre_mots_cles": 19,
-    "somme_brute_mensuelle": 40260,
-    "total_prudent_regroupe": 14910,
-    "prudent_sans_groupes_racines": 2810,
-    "groupes": {
-      "body_generic_synonyms": 12100,
-      "body_worn_ambiguous": 880,
-      "body_purchase": 390,
-      "body_comparison": 320,
-      "body_price": 90,
-      "body_compact": 260,
-      "body_personal": 210,
-      "body_audio": 140,
-      "body_clip_on": 70,
-      "body_cycling": 30,
-      "body_personal_audio": 30,
-      "body_wearable_ambiguous": 390
-    }
-  },
-  {
-    "univers": "nightvision",
-    "nom": "Vision nocturne numérique IR — deux formats",
-    "nombre_mots_cles": 28,
-    "somme_brute_mensuelle": 19930,
-    "total_prudent_regroupe": 14130,
-    "prudent_sans_groupes_racines": 3130,
-    "groupes": {
-      "nv-bin-root": 2900,
-      "nv-bin-uk": 390,
-      "nv-bin-digital": 30,
-      "nv-bin-ir": 480,
-      "nv-bin-wildlife": 20,
-      "nv-bin-best": 320,
-      "nv-bin-sale": 140,
-      "nv-bin-night": 260,
-      "nv-bin-best-uk": 140,
-      "nv-bin-hunting": 40,
-      "nv-bin-wildlife-uk": 10,
-      "nv-bin-price": 20,
-      "nv-bin-buy": 10,
-      "nv-gog-root": 8100,
-      "nv-gog-uk": 480,
-      "nv-gog-camping": 10,
-      "nv-gog-sale": 140,
-      "nv-gog-best": 210,
-      "nv-gog-ir": 170,
-      "nv-gog-digital": 30,
-      "nv-gog-head": 30,
-      "nv-gog-hunting": 40,
-      "nv-gog-budget": 90,
-      "nv-gog-wildlife": 10,
-      "nv-gog-price": 30,
-      "nv-gog-buy": 30
+      "wooden-portable": 10
     }
   }
 ]

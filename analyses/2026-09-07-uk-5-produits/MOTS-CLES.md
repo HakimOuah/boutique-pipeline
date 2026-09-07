@@ -1,140 +1,155 @@
-# Mots-clés UK pour Google Search — 7 septembre 2026
+# Mots-clés Search UK — liste exploitable
 
-Données DataForSEO/Google Ads : Royaume-Uni2826, anglais, partenaires de recherche désactivés. Volumes moyens mensuels; dernier mois présent dans ces exports : juillet2026. CPC en USD, pas en GBP.
+**73 mots-clés retenus**, 223 lignes analysées. Données DataForSEO/Google Ads, Royaume-Uni, anglais, partenaires désactivés, contrôle du 7 septembre 2026. Prix fournisseurs en GBP ; CPC estimatifs de l’API en USD.
 
-La somme brute additionne les mots-clés mesurés. Le total prudent retient le maximum par groupe de variantes/intentions proches; il réduit le double comptage mais ne constitue pas une audience unique certifiée par Google. Les racines génériques restent mixtes : ce ne sont pas autant de recherches garanties pour notre variante au prix proposé. Les conditionnels/exclusions ne comptent pas.
+Le volume brut additionne les chiffres affichés. Le total prudent retient le maximum par groupe de variantes proches : il évite une partie du double comptage mais ne mesure pas des personnes uniques. Les requêtes génériques restent larges. Ajouter Exact et Expression pour un même mot-clé ne double pas sa demande.
 
-| Univers | Mots-clés ciblables | Somme brute/mois | Prudent/mois | Prudent sans racines |
+| Produit / univers | Mots-clés | Somme brute/mois | Prudent/mois | Sans les principales racines génériques |
 |---|---:|---:|---:|---:|
-| Abayas ouvertes et brodées | 14 | 53,910 | 38,300 | 5,200 |
-| Jeu d’échecs pliant bois 39 cm | 12 | 34,380 | 17,470 | 2,670 |
-| Gilet chauffant USB sans manches | 11 | 47,740 | 19,440 | 7,340 |
-| Bodycam grand public | 19 | 40,260 | 14,910 | 2,810 |
-| Vision nocturne numérique IR — deux formats | 28 | 19,930 | 14,130 | 3,130 |
+| Abayas ouvertes brodées | 8 | 44 940 | **37 000** | 3 900 |
+| Corsets noirs structurés | 14 | 47 020 | **44 290** | 3 090 |
+| Coffrets et remontoirs de montres | 26 | 37 800 | **19 250** | 4 550 |
+| Détecteur adulte TX-850 | 14 | 64 450 | **36 230** | 9 130 |
+| Jeu d’échecs pliant en bois | 11 | 34 370 | **17 460** | 2 660 |
 
-Ces totaux décrivent cinq marchés séparés. Ils ne justifient pas une campagne unique ni cinq tests simultanés. Le rapport principal donne le statut commercial de chaque piste.
+**Somme des cinq marchés : 228 580 bruts / 154 230 prudents par mois.** Ce sont cinq marchés distincts, pas une prévision d’impressions de campagne.
 
-[CSV complet](mots-cles-search-uk.csv) · [Exclusions initiales](exclusions-search-initiales.csv) · [Brouillon Ads Editor, en pause](brouillon-google-ads-editor-abayas.csv)
+L’univers montres compte deux offres et deux pages : coffret seul **9 970/mois**, remontoir **9 280/mois**, soit **19 250/mois**. Aucun des deux ne passe seul 15 000. Le brief autorise un univers ; aucun volume de remontoir n’est attribué au coffret.
 
-## Abayas ouvertes et brodées
+Les mots-clés « CŒUR » correspondent au produit décrit. « EXPLORATION » signifie une intention plus large à isoler : les 15k de demande ne garantissent pas 15k recherches pour la variante ou le prix envisagé.
 
-| Mot-clé | UK/mois | CPC USD | Usage |
-|---|---:|---:|---|
-| `abaya` | 33,100 | 0.66 | EXPLORATION |
-| `abaya for women` | 5,400 | 0.78 | EXPLORATION |
-| `abaya dress` | 4,400 | 0.62 | EXPLORATION |
-| `open abaya` | 2,900 | 0.68 | COEUR |
-| `womens open abaya` | 590 | 0.76 | COEUR |
-| `ladies open abaya` | 590 | 0.76 | COEUR |
-| `embellished abaya` | 1,000 | 0.42 | COEUR |
-| `embroidered abaya` | 880 | 0.53 | COEUR |
-| `occasion abayas` | 1,000 | 0.55 | OCCASION |
-| `wedding abaya` | 1,300 | 0.4 | OCCASION |
-| `luxury abaya` | 1,000 | 0.58 | OCCASION |
-| `fancy abaya` | 880 | 0.38 | OCCASION |
-| `party wear abaya` | 390 | 0.4 | OCCASION |
-| `abaya online` | 480 | 0.64 | EXPLORATION |
+[CSV des mots-clés à cibler](mots-cles-a-cibler.csv) · [CSV complet et exclusions](mots-cles-search-uk.csv) · [Brouillon Ads Editor en pause](brouillon-google-ads-editor-5-univers.csv) · [Sourcing exact](sourcing-aliexpress.csv)
 
-**Conditionnels, hors total :** Aucun.
+## Abayas ouvertes brodées
 
-## Jeu d’échecs pliant bois 39 cm
+Premier test en Exact : `open abaya`, `embroidered abaya`, `embellished abaya`, `abaya online`, `abaya`.
 
-| Mot-clé | UK/mois | CPC USD | Usage |
-|---|---:|---:|---|
-| `chess set` | 14,800 | 0.85 | EXPLORATION |
-| `chess sets` | 14,800 | 0.85 | EXPLORATION |
-| `wooden chess set` | 1,900 | 0.9 | COEUR |
-| `wooden chess sets` | 1,900 | 0.9 | COEUR |
-| `folding chess set` | 210 | 0.98 | COEUR |
-| `foldable chess set` | 210 | 0.98 | COEUR |
-| `portable chess set` | 320 | 0.61 | COEUR |
-| `chess set for adults` | 70 | 0.76 | COEUR |
-| `beginner chess set` | 110 | 0.47 | COEUR |
-| `wooden folding chess set` | 40 | 0.76 | COEUR |
-| `wooden portable chess set` | 10 | 0.77 | COEUR |
-| `chess set with extra queens` | 10 | 0.37 | COEUR |
+| Mot-clé anglais | Volume mensuel UK | Phase | Offre / groupe de volume |
+|---|---:|---|---|
+| `abaya` | 33 100 | EXPLORATION | abaya-noire / abaya_head_broad |
+| `abaya for women` | 5 400 | EXPLORATION | abaya-noire / abaya_head_broad |
+| `abaya online` | 480 | EXPLORATION | abaya-noire / abaya_head_broad |
+| `embellished abaya` | 1 000 | COEUR | abaya-noire / abaya_embellished_broidered |
+| `embroidered abaya` | 880 | COEUR | abaya-noire / abaya_embellished_broidered |
+| `ladies open abaya` | 590 | COEUR | abaya-noire / abaya_open |
+| `open abaya` | 2 900 | COEUR | abaya-noire / abaya_open |
+| `womens open abaya` | 590 | COEUR | abaya-noire / abaya_open |
 
-**Conditionnels, hors total :** `travel chess set`, `chess set for travel`, `wooden travel chess set`, `travel chess set wooden`, `folding travel chess set`, `luxury chess set`, `luxury travel chess set`
+Hors total initial, à vérifier avant de les ajouter : `abaya dress`, `fancy abaya`, `luxury abaya`, `occasion abayas`, `party wear abaya`, `wedding abaya`.
 
-## Gilet chauffant USB sans manches
+Négatifs de départ : `pattern`, `sewing`, `second hand`, `wholesale`, `kids`, `white`, `blue`, `red`.
 
-| Mot-clé | UK/mois | CPC USD | Usage |
-|---|---:|---:|---|
-| `heated gilet` | 12,100 | 1.06 | EXPLORATION |
-| `gilet heated` | 12,100 | 1.06 | EXPLORATION |
-| `heated vest` | 1,900 | 0.68 | COEUR |
-| `vest heated` | 1,900 | 0.68 | COEUR |
-| `heatable vest` | 1,900 | 0.68 | COEUR |
-| `heated waistcoat` | 720 | 0.6 | COEUR |
-| `heated body warmer` | 4,400 | 0.66 | COEUR |
-| `heated bodywarmer` | 4,400 | 0.66 | COEUR |
-| `heated body warmer uk` | 320 | 0.49 | COEUR |
-| `heated gilet for men` | 4,400 | 0.98 | COEUR |
-| `heated gilet for women` | 3,600 | 1.13 | COEUR |
+## Corsets noirs structurés
 
-**Conditionnels, hors total :** `heated clothing`, `heated clothing uk`, `rechargeable heated gilet uk`, `best heated gilet`, `best heated gilet uk`
+Premier test en Exact : `underbust corset`, `black underbust corset`, `steel boned corset`, `overbust corset`, `black satin corset`, `corset`.
 
-## Bodycam grand public
+| Mot-clé anglais | Volume mensuel UK | Phase | Offre / groupe de volume |
+|---|---:|---|---|
+| `black overbust corset` | 30 | COEUR | corset-overbust / overbust |
+| `overbust corset` | 390 | COEUR | corset-overbust / overbust |
+| `black satin underbust corset` | 10 | COEUR | corset-underbust / underbust |
+| `black underbust corset` | 210 | COEUR | corset-underbust / underbust |
+| `under breast corset` | 1 900 | COEUR | corset-underbust / underbust |
+| `underbust corset` | 1 900 | COEUR | corset-underbust / underbust |
+| `black boned corset` | 40 | COEUR | corsets-noirs / steel-boned |
+| `black corset` | 8 100 | EXPLORATION | corsets-noirs / black-head |
+| `black satin corset` | 210 | COEUR | corsets-noirs / satin |
+| `black steel boned corset` | 10 | COEUR | corsets-noirs / steel-boned |
+| `boned corset` | 320 | COEUR | corsets-noirs / steel-boned |
+| `corset` | 33 100 | EXPLORATION | corsets-noirs / corset-head |
+| `satin corset` | 480 | COEUR | corsets-noirs / satin |
+| `steel boned corset` | 320 | COEUR | corsets-noirs / steel-boned |
 
-| Mot-clé | UK/mois | CPC USD | Usage |
-|---|---:|---:|---|
-| `body camera` | 12,100 | 1.72 | EXPLORATION |
-| `body cam` | 12,100 | 1.72 | EXPLORATION |
-| `bodycam` | 12,100 | 1.72 | EXPLORATION |
-| `body worn camera` | 880 | 3.54 | EXPLORATION |
-| `body cameras for sale` | 390 | 3.35 | COEUR |
-| `best body camera` | 320 | 1.87 | COEUR |
-| `affordable body camera` | 90 | 0.48 | COEUR |
-| `cheap body camera` | 90 | 0.48 | COEUR |
-| `mini body camera` | 260 | 0.27 | COEUR |
-| `small body camera` | 260 | 0.36 | COEUR |
-| `personal body camera` | 210 | 0.63 | COEUR |
-| `body camera with audio` | 140 | 0.63 | COEUR |
-| `clip on body camera` | 70 | 1.17 | COEUR |
-| `body camera for cycling` | 30 | 0.6 | COEUR |
-| `body camera for personal safety` | 10 | 6.47 | COEUR |
-| `personal body camera with audio` | 30 | 1.73 | COEUR |
-| `body camera uk` | 720 | 3.45 | EXPLORATION |
-| `wearable camera` | 390 | 0.72 | EXPLORATION |
-| `buy body camera` | 70 | 2.97 | COEUR |
+Hors total initial, à vérifier avant de les ajouter : `underboob corset`, `black lace corset`, `bridal corset`, `brown corset`, `burgundy corset`, `corset for big bust`, `corset for large bust`, `corsets for women`, `embroidered corset`, `gothic corset`, `historical corset`, `lace corset`, `lace up corset`, `leather corset`, `pink corset`, `pink satin corset`, `plus size corset`, `red corset`, `renaissance corset`, `sexy corset`, `stays and corsets`, `stays corset`, `victorian corset`, `vintage corset`, `white corset`.
 
-**Conditionnels, hors total :** Aucun.
+Négatifs de départ : `pattern`, `sewing`, `medical`, `posture`, `waist trainer`, `leather`, `white`, `red`, `pink`, `plus size`, `dress`, `bodysuit`, `corset story`, `vivienne westwood`, `zara`.
 
-## Vision nocturne numérique IR — deux formats
+## Coffrets et remontoirs de montres
 
-| Mot-clé | UK/mois | CPC USD | Usage |
-|---|---:|---:|---|
-| `night vision binoculars` | 2,900 | 1.04 | EXPLORATION |
-| `nite vision binoculars` | 2,900 | 1.04 | EXPLORATION |
-| `nvg binoculars` | 2,900 | 1.04 | EXPLORATION |
-| `night vision binoculars uk` | 390 | 1.07 | COEUR |
-| `digital night vision binoculars` | 30 | 0.78 | COEUR |
-| `infrared binoculars` | 480 | 1.09 | COEUR |
-| `night vision binoculars for wildlife` | 20 | 0.16 | COEUR |
-| `best night vision binoculars` | 320 | 1.91 | COEUR |
-| `night vision binoculars for sale` | 140 | 0.56 | COEUR |
-| `night binoculars` | 260 | 0.88 | EXPLORATION |
-| `best night vision binoculars uk` | 140 | 1.38 | COEUR |
-| `night vision binoculars for hunting` | 40 | 1.01 | COEUR |
-| `wildlife night vision binoculars uk` | 10 |  | COEUR |
-| `night vision binoculars price` | 20 | 0.65 | COEUR |
-| `buy night vision binoculars` | 10 | 1.89 | COEUR |
-| `night vision goggles` | 8,100 | 0.46 | EXPLORATION |
-| `night vision goggles uk` | 480 | 0.84 | COEUR |
-| `night vision goggles for camping` | 10 |  | COEUR |
-| `night vision goggles for sale` | 140 | 0.56 | COEUR |
-| `best night vision goggles` | 210 | 1.61 | COEUR |
-| `infrared night vision goggles` | 170 | 0.64 | COEUR |
-| `digital night vision goggles` | 30 | 0.22 | COEUR |
-| `head mountable night vision goggles` | 30 | 1.41 | COEUR |
-| `night vision goggles for hunting` | 40 | 1.01 | COEUR |
-| `affordable night vision goggles` | 90 | 0.47 | COEUR |
-| `night vision goggles for watching wildlife` | 10 |  | COEUR |
-| `night vision goggles price` | 30 | 1.33 | COEUR |
-| `buy night vision goggles` | 30 | 1.05 | COEUR |
+Premier test en Exact : `watch storage box`, `wooden watch box`, `10 slot watch box`, `watch box`, `double watch winder`, `watch winder for 2 watches`, `automatic watch winder`, `watch winder`.
 
-**Conditionnels, hors total :** Aucun.
+| Mot-clé anglais | Volume mensuel UK | Phase | Offre / groupe de volume |
+|---|---:|---|---|
+| `10 slot watch box` | 70 | COEUR | coffret-10 / ten-slot |
+| `10 watch box` | 90 | COEUR | coffret-10 / ten-slot |
+| `watch box` | 8 100 | EXPLORATION | coffret-10 / box-head |
+| `watch storage box` | 1 300 | COEUR | coffret-10 / storage-box |
+| `wooden watch box` | 480 | COEUR | coffret-10 / wooden-box |
+| `wrist watch storage box` | 1 300 | COEUR | coffret-10 / storage-box |
+| `auto watch winder` | 2 400 | COEUR | remontoir-double / auto-winder |
+| `automatic watch winder` | 2 400 | COEUR | remontoir-double / auto-winder |
+| `automatic wrist watch winder` | 2 400 | COEUR | remontoir-double / auto-winder |
+| `best double watch winder` | 20 | COEUR | remontoir-double / double-winder |
+| `best watch winder` | 260 | EXPLORATION | remontoir-double / winder-head |
+| `double automatic watch winder` | 20 | COEUR | remontoir-double / double-winder |
+| `double watch winder` | 260 | COEUR | remontoir-double / double-winder |
+| `dual watch winder` | 90 | COEUR | remontoir-double / double-winder |
+| `electric watch winder` | 20 | COEUR | remontoir-double / winder-electric |
+| `recommended watch winder` | 260 | EXPLORATION | remontoir-double / winder-head |
+| `self winding watch winder` | 2 400 | COEUR | remontoir-double / auto-winder |
+| `twin watch winder` | 20 | COEUR | remontoir-double / double-winder |
+| `two watch winder` | 20 | COEUR | remontoir-double / double-winder |
+| `watch winder` | 6 600 | EXPLORATION | remontoir-double / winder-head |
+| `watch winder 2 watches` | 90 | COEUR | remontoir-double / double-winder |
+| `watch winder dual` | 90 | COEUR | remontoir-double / double-winder |
+| `watch winder for 2 watches` | 90 | COEUR | remontoir-double / double-winder |
+| `watch winder for two watches` | 20 | COEUR | remontoir-double / double-winder |
+| `watch winders for automatic watches` | 2 400 | COEUR | remontoir-double / auto-winder |
+| `wrist watch winder` | 6 600 | EXPLORATION | remontoir-double / winder-head |
 
-Les variantes de genre des gilets restent proposées au ciblage; leur volume n’est pas ajouté une deuxième fois au groupe principal. Les termes de voyage des échecs restent conditionnels : un plateau pliant39cm n’est pas forcément le petit jeu aimanté recherché. Les mots-clés «goggles» exigent le modèle avec sangle tête; la famille binoculars dispose d’un appareil tenu en main distinct.
+Hors total initial, à vérifier avant de les ajouter : `best watch boxes`, `display case watches`, `empty watch box`, `large watch box`, `luxury watch box`, `mens watch storage box`, `watch and jewelry box`, `watch box for men`, `watch box for women`, `watch box with drawer`, `watch boxes and cases`, `watch case`, `watch case for men`, `watch collection box`, `watch display box`, `watch display cabinet`, `watch display case`, `watch holder box`, `watch jewelry box`, `watch organiser`, `watch presentation box`, `watch storage case`, `wrist watch case`, `wrist watch organiser`, `battery powered watch winder`, `box watch winder`, `silent watch winder`, `watch box and winder`, `watch winder and storage`, `watch winder box`, `watch winder display box`, `watch winder display case`, `watch winder with storage`, `wooden watch winder`.
 
-Pour un premier test : correspondance exacte, pages correspondant au sous-type et contrôle fréquent des termes réellement déclenchés. Les variantes proches peuvent toujours être diffusées par Google en exact. Le fichier ne fixe aucune enchère ni budget et ne crée aucune campagne.
+Négatifs de départ : `rolex box`, `omega box`, `repair`, `opener`, `safe`, `personalised`, `engraved`, `travel case`, `watch roll`, `4 watch winder`, `6 watch winder`, `8 watch winder`.
+
+## Détecteur adulte TX-850
+
+Premier test en Exact : `metal detector for beginners`, `metal detector for adults`, `buy metal detector`, `metal detectors for sale`, `metal detector`.
+
+| Mot-clé anglais | Volume mensuel UK | Phase | Offre / groupe de volume |
+|---|---:|---|---|
+| `beginner metal detector` | 390 | COEUR | tx-850 / beginners |
+| `best metal detector` | 1 300 | EXPLORATION | tx-850 / best-metal |
+| `best metal detector for beginners` | 590 | EXPLORATION | tx-850 / best-beginners |
+| `best metal detector uk` | 880 | EXPLORATION | tx-850 / best-metal-uk |
+| `best starter metal detector` | 590 | EXPLORATION | tx-850 / best-beginners |
+| `buy metal detector` | 210 | COEUR | tx-850 / buy |
+| `metal detector` | 27 100 | EXPLORATION | tx-850 / metal-root |
+| `metal detector adults` | 140 | COEUR | tx-850 / adults |
+| `metal detector for adults` | 140 | COEUR | tx-850 / adults |
+| `metal detector for beginners` | 390 | COEUR | tx-850 / beginners |
+| `metal detector price` | 320 | EXPLORATION | tx-850 / price |
+| `metal detector uk` | 2 900 | EXPLORATION | tx-850 / metal-uk |
+| `metal detectors` | 27 100 | EXPLORATION | tx-850 / metal-root |
+| `metal detectors for sale` | 2 400 | COEUR | tx-850 / metal-sale |
+
+Hors total initial, à vérifier avant de les ajouter : `beach metal detector`, `best metal detector for beach`, `gold metal detector`, `metal detector for gold`, `metal detector kits`, `metal detector with headphones`, `professional metal detector`, `underwater metal detector`, `waterproof metal detector`.
+
+Négatifs de départ : `hire`, `rental`, `kids`, `children`, `industrial`, `food industry`, `underwater`, `pinpointer`, `garrett`, `minelab`, `argos`.
+
+## Jeu d’échecs pliant en bois
+
+Premier test en Exact : `wooden chess set`, `folding chess set`, `portable chess set`, `chess set for adults`, `chess set`.
+
+| Mot-clé anglais | Volume mensuel UK | Phase | Offre / groupe de volume |
+|---|---:|---|---|
+| `beginner chess set` | 110 | COEUR | echecs-39cm / beginners |
+| `chess set` | 14 800 | EXPLORATION | echecs-39cm / chess-root |
+| `chess set for adults` | 70 | COEUR | echecs-39cm / adults |
+| `chess sets` | 14 800 | EXPLORATION | echecs-39cm / chess-root |
+| `foldable chess set` | 210 | COEUR | echecs-39cm / folding |
+| `folding chess set` | 210 | COEUR | echecs-39cm / folding |
+| `portable chess set` | 320 | COEUR | echecs-39cm / portable |
+| `wooden chess set` | 1 900 | COEUR | echecs-39cm / wooden |
+| `wooden chess sets` | 1 900 | COEUR | echecs-39cm / wooden |
+| `wooden folding chess set` | 40 | COEUR | echecs-39cm / wooden-folding |
+| `wooden portable chess set` | 10 | COEUR | echecs-39cm / wooden-portable |
+
+Hors total initial, à vérifier avant de les ajouter : `chess set for travel`, `chess set with extra queens`, `folding travel chess set`, `luxury chess set`, `luxury travel chess set`, `travel chess set`, `travel chess set wooden`, `wooden travel chess set`.
+
+Négatifs de départ : `online`, `rules`, `how to play`, `magnetic`, `electronic`, `walnut`, `ebony`, `harry potter`, `pieces only`.
+
+## Organisation de la première semaine
+
+Avec 1 000–3 000 € de publicité par mois, lancer un univers à la fois : environ 250–750 € de budget de test hebdomadaire. Séparer les groupes CŒUR des génériques pour voir ce qui convertit. Commencer en Exact ; ouvrir progressivement en Expression après lecture des termes de recherche. Les variantes orthographiques proches n’exigent pas toutes une ligne active.
+
+Le brouillon contient des mots-clés en pause, sans annonce, budget, enchère ni URL finale. Il reste à associer les pages des variantes, le suivi des achats et un plafond de CPA fondé sur le coût réellement complet. Le volume et le CPC de marché ne remplacent pas une mesure de conversion.

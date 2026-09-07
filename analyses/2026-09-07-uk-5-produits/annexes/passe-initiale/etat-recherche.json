@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-07",
+  "scope": "Royaume-Uni; Search; produit ou univers; environ 15000 recherches/mois; prix mid-ticket; découverte TrendTrack navigateur",
+  "filters_initial": {
+    "market": "GB principal puis parmi",
+    "pixel_included": "Google Ads",
+    "pixel_excluded": "Meta",
+    "min_bestseller_price_usd": 80,
+    "rows_screened_among": 348
+  },
+  "filters_expanded": {
+    "market": "GB principal",
+    "pixel_included": "Google Ads",
+    "pixel_excluded": null,
+    "min_bestseller_price_usd": 80,
+    "rows_screened": 268
+  },
+  "research_only": true,
+  "no_campaign_or_supplier_purchase": true,
+  "keyword_source": "DataForSEO Google Ads; 2826; en; search_partners=false",
+  "search_ads_source": "Google Ads Transparency; GB; platform google_search; format text; 2026-08-01—2026-09-07. Preuve annonceur, pas enchère mot-clé exacte.",
+  "supplier_source": "API AliExpress installée; product_get et fret directs; destinationGB; deviseGBP; personal_benefit_removed",
+  "candidate_status": {
+    "abaya": "Priorité recherche;38 300prudent;deux SKU à29.39/29.88livrés;qualité/coupeàtester;pasQ4.",
+    "chess": "PrioritéQ4;17 470prudent;SKU39cmlivré37.18;finitionetcomptagepiècesàtester.",
+    "heated": "Réserve;19 440prudent;gilet+batterie2colis47.06livrés;compatibilité/performanceàtester;concurrencegénériqueforte.",
+    "bodycam": "Réserve;14 910prudent <15kstrict;A22sansmicroSD28.18livré;concurrenceprixetSearchSKUàrésoudre.",
+    "nightvision": "RéserveQ4;14 130prudent <15kstrict pour2formats;N462.58etINSKAM42.58livrés;attributionSearchNightfoxnonconfirmée."
+  },
+  "deliverables": [
+    "RAPPORT.md",
+    "MOTS-CLES.md",
+    "mots-cles-search-uk.csv",
+    "totaux-mots-cles-uk.csv",
+    "sourcing-aliexpress.csv",
+    "brouillon-google-ads-editor-abayas.csv",
+    "exclusions-search-initiales.csv",
+    "trends-uk-monthly.csv"
+  ],
+  "completed_this_pass": "84mots-clésciblablesmesurés;totauxrecalculés;8variantes/fretsAliExpress;Searchtexte;concurrenceetTrendsQ4;livrables.",
+  "objective_five_fully_qualified_products_achieved": false,
+  "remaining": "Obtenir trois pistes qui passent effectivement tous les filtres, ou résoudre les limites des réserves; ne pas gonfler les volumes ni supposer du dropshipping. Aucun GO_FINAL utilisateur.",
+  "excluded_candidates": [
+    "carplay",
+    "telescope_sv501p",
+    "icebath",
+    "adjustable_dumbbells",
+    "weighted_vest",
+    "ultrasonic",
+    "microscope_ad246sm_conflict",
+    "crystal_bowls",
+    "diesel_heater"
+  ]
+}

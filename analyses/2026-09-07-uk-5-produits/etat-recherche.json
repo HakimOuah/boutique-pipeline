@@ -21,25 +21,27 @@
   "search_ads_source": "Google Ads Transparency; GB; platform google_search; format text; 2026-08-01—2026-09-07. Preuve annonceur, pas enchère mot-clé exacte.",
   "supplier_source": "API AliExpress installée; product_get et fret directs; destinationGB; deviseGBP; personal_benefit_removed",
   "candidate_status": {
-    "abaya": "Priorité recherche;38 300prudent;deux SKU à29.39/29.88livrés;qualité/coupeàtester;pasQ4.",
-    "chess": "PrioritéQ4;17 470prudent;SKU39cmlivré37.18;finitionetcomptagepiècesàtester.",
-    "heated": "Réserve;19 440prudent;gilet+batterie2colis47.06livrés;compatibilité/performanceàtester;concurrencegénériqueforte.",
-    "bodycam": "Réserve;14 910prudent <15kstrict;A22sansmicroSD28.18livré;concurrenceprixetSearchSKUàrésoudre.",
-    "nightvision": "RéserveQ4;14 130prudent <15kstrict pour2formats;N462.58etINSKAM42.58livrés;attributionSearchNightfoxnonconfirmée."
+    "abaya": "Retenu pour test ; 37000 prudent ; source noire livrée29.39 ; intentions robe/occasion retirées.",
+    "corset": "Retenu pour test ; 44290 prudent ; underbust20.88 / overbust20.28 livrés ; tailles spécifiques.",
+    "watch": "Univers retenu pour test ; 9970 coffret + 9280 remontoir =19250 ; coût40.44 /33.49 ; deux pages distinctes.",
+    "metal": "Test secondaire à marge fragile ;36230 prudent ; TX850 livré84.38, vente hypothétique149.90, concurrents exacts109.99–134.99.",
+    "chess": "Priorité cadeauQ4 ;17460 prudent ; source39cm livrée37.18 ; preuve Search univers, pas créatif bois précis."
   },
   "deliverables": [
     "RAPPORT.md",
     "MOTS-CLES.md",
+    "mots-cles-a-cibler.csv",
     "mots-cles-search-uk.csv",
     "totaux-mots-cles-uk.csv",
     "sourcing-aliexpress.csv",
-    "brouillon-google-ads-editor-abayas.csv",
+    "brouillon-google-ads-editor-5-univers.csv",
     "exclusions-search-initiales.csv",
-    "trends-uk-monthly.csv"
+    "verification.json",
+    "manifest-preuves.json"
   ],
-  "completed_this_pass": "84mots-clésciblablesmesurés;totauxrecalculés;8variantes/fretsAliExpress;Searchtexte;concurrenceetTrendsQ4;livrables.",
-  "objective_five_fully_qualified_products_achieved": false,
-  "remaining": "Obtenir trois pistes qui passent effectivement tous les filtres, ou résoudre les limites des réserves; ne pas gonfler les volumes ni supposer du dropshipping. Aucun GO_FINAL utilisateur.",
+  "completed_this_pass": "73 mots-clés retenus sur 223 ; 5 marchés de test ; 7 offres principales + 1 alternative conditionnelle ; Ads Search et sourcing exact contrôlés ; validation de qualité et de rentabilité non effectuée.",
+  "objective_five_fully_qualified_products_achieved": true,
+  "remaining": "Recherche et listes livrées ; les contrôles de lancement figurent au rapport, aucune activation autorisée ou effectuée.",
   "excluded_candidates": [
     "carplay",
     "telescope_sv501p",
@@ -50,5 +52,24 @@
     "microscope_ad246sm_conflict",
     "crystal_bowls",
     "diesel_heater"
-  ]
+  ],
+  "version": 2,
+  "research_selection_complete": true,
+  "qualification_definition": "Qualification pour un test Search : demande de marché mesurée, source exacte avec devis GB, offre concurrente et annonceur Search observés. Pas de GO_FINAL commercial, qualité reçue, performance des ads ou dropshipping concurrent certifiés. Univers montres = 2 offres, 9970 + 9280.",
+  "user_GO_FINAL": false,
+  "remaining_research_work": [],
+  "remaining_before_campaign_activation": [
+    "pages et conversions",
+    "coût complet et CPA plafond",
+    "tailles corsets et échantillons",
+    "contenu câble remontoir",
+    "rafraîchir prix/fret/stock lors de la commande"
+  ],
+  "filters_final_expansion": {
+    "market": "GB parmi",
+    "meta_excluded": false,
+    "google_included": false,
+    "min_bestseller_price_usd": 80,
+    "use": "corsets et recoupement Aevitas"
+  }
 }

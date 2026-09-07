@@ -1,1424 +1,2651 @@
-[
-  {
-    "file": "observations-navigateur-superviseur.json",
-    "bytes": 4372,
-    "sha256": "9408bb7d05353d027dc819bde46937cb0c408bb88ff19139863cee95610698af",
-    "gzip": false
-  },
-  {
-    "file": "uk-20260907-ali-details-bodycam.jsonl.gz",
-    "bytes": 14809,
-    "sha256": "f3651b116df1aacd8f304d889a666c634c6624dfc91f52910b989098e52c0faf",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-details-microscopes.jsonl.gz",
-    "bytes": 8635,
-    "sha256": "1fcb25ebebdbd155a875a7e2aa8632d3ad74ebcd73cbd5aad20b4b9f1ae3e42d",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-details-nightvision.jsonl.gz",
-    "bytes": 8824,
-    "sha256": "c2055ca060726c1dfd1371aff12842469d17763ab73c31b15246152954e09f08",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-details-v2.json.gz",
-    "bytes": 19599,
-    "sha256": "c7843ea2a3d25a687d1a9c26fe5ed581b4c5c16d00d5d40f3673fe28d0bcc8b4",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-details-v2.jsonl.gz",
-    "bytes": 17689,
-    "sha256": "61bd9e36e965707d57954b2810669d9718e88135209f6e89d3e280afbc820e09",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-details-v3.json.gz",
-    "bytes": 20728,
-    "sha256": "15ae97c1ec70f2c067f87c412dd3b6a3c92b4764aeb8309c9f3d9c528a5b9778",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-details-v3.jsonl.gz",
-    "bytes": 19552,
-    "sha256": "10c0f0fb8bc69bcb855bc2137ca66838a970d4dfd72475806895ebe17c86af04",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-details.json.gz",
-    "bytes": 14705,
-    "sha256": "91c2d4fa399e2eb1c5571ce31591a4501d7338b148a57d3e91e0a4f6970f1cda",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-details.jsonl.gz",
-    "bytes": 13874,
-    "sha256": "c9a072a62950864a1a4a27e92b1b1761420dc42a061155e3089bb32fe10a5376",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-freight-bodycam.jsonl.gz",
-    "bytes": 765,
-    "sha256": "67e32118162b4adeedf7f8c2781b06cf19971ceff0718fbb8de5d0305ba77862",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-freight-gbp-v2.json.gz",
-    "bytes": 993,
-    "sha256": "7a86c078a02531b0e09dd4e79a7922de3eddc0ae6520b4ea610b8745522d9318",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-freight-gbp-v2.jsonl.gz",
-    "bytes": 1055,
-    "sha256": "7cfd30b6f9ec20b093b95961f49d246c865e4be906c4ce171eda9bdc9cacf2a1",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-freight-gbp.json.gz",
-    "bytes": 998,
-    "sha256": "f544efbfb6184a024996b5429d4bdc9302304b3425fe63b8881815bda599f687",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-freight-gbp.jsonl.gz",
-    "bytes": 1062,
-    "sha256": "fa33459467fa2346157c7ceab7dc577fd5d6e8a6544eaa6f4fc6d464b2ff0cc8",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-freight-microscopes.jsonl.gz",
-    "bytes": 893,
-    "sha256": "19938466f81282066e148b936bab9a51c1acb7b2b190f31e6c5bc4953e4ac67a",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-freight-nightvision.jsonl.gz",
-    "bytes": 655,
-    "sha256": "587c65c958a1f39b9e5ca85db56b2d11832968a6cb226c68b7bc1812b5dee5b7",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-freight.json.gz",
-    "bytes": 804,
-    "sha256": "87f57334a3a445b890b534fe0c3da490670d7fe41108f1b6711d3128e17801ae",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-freight.jsonl.gz",
-    "bytes": 882,
-    "sha256": "a6a3e801ae901ba66365eef35190c7ac004e0ec58413e98ba58be7183487dba5",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-search-bodycam.jsonl.gz",
-    "bytes": 6604,
-    "sha256": "569ac25170248dc6f05162c08ec84d278d7d8e850cfee060c97e352fb0af08fe",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-search-microscopes.jsonl.gz",
-    "bytes": 6190,
-    "sha256": "74fed966d5441d9f1122df5610547641736fa073d8dc50d294fd4ab99dac4966",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-search-nightvision.jsonl.gz",
-    "bytes": 6329,
-    "sha256": "e0f0d774cf85a294ff3970332a6fe2aa1e12f97afb89aeb8dd9ae4ce87d70c33",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-search-v2.json.gz",
-    "bytes": 8535,
-    "sha256": "c58c7442bbb82b067cba487801f990542b5b0c13372a120b5ffff08cd698e934",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-search-v2.jsonl.gz",
-    "bytes": 8556,
-    "sha256": "3ffedd488daf1669e712028d286b45b0c37e6114e65c279c0c990f41653d1756",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-search-v3.json.gz",
-    "bytes": 7161,
-    "sha256": "9fcede618f699d7dbd93cfbfb0a314eede04340a5647466f76f2a3f55581e5d3",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-search-v3.jsonl.gz",
-    "bytes": 7175,
-    "sha256": "2ded3d7882f0412c49c1e9bd1a8e79f5c005f1a6c0f7f82f018a8d6145b67cde",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-search-v4.json.gz",
-    "bytes": 9453,
-    "sha256": "b28ebba73619ecc111ed5494a9851215e2f6841fc9f4a1bfe69790ce4cbf9cd2",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-search-v4.jsonl.gz",
-    "bytes": 9437,
-    "sha256": "c7b628b9e1cb8ccf07577d4c5fb6df80ad659dcbae5d0327b554689cecdd31dc",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-search-v5.json.gz",
-    "bytes": 5872,
-    "sha256": "89eb71eeb5f436f0567466385c40af2b2c996e16cc24186a3b47a8211358d9fd",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-search-v5.jsonl.gz",
-    "bytes": 5878,
-    "sha256": "15e6c9934d3f0677f430fa2f68034bcc995836cf966771037b7195241a7860ce",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-search.json.gz",
-    "bytes": 8251,
-    "sha256": "5722f8f228b6f44f1f984bdaebbc7ee6059947ec5a44a3e13494ef68ff922a70",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ali-search.jsonl.gz",
-    "bytes": 8273,
-    "sha256": "25f4f120fe648c2bc0e5c26cd9fc8c4efe23be5758a8ec0ec94730716ea6d4e2",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-british-chess-ads.json.gz",
-    "bytes": 879,
-    "sha256": "0c5e1089bcd4b516fd80bfeeb16ec35ef94615b8e50cc36ea015f38ab1398984",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-carplay-serp.json.gz",
-    "bytes": 6851,
-    "sha256": "c27421cf716b18a255656e1b35a1531c6abcd5a8cb14e0b81a6b53e8ad1c0aaa",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-carplay-volume.json.gz",
-    "bytes": 1073,
-    "sha256": "ecc3a04da2c92b4bb02f095c9851f8c49d572752af4301e3a514e8fd56aa96a3",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-chess-ads.json.gz",
-    "bytes": 4725,
-    "sha256": "eb814333dfefff90913adc27c0963bc70434c25a48bda397da9911abbd8f565f",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-chess-serp.json.gz",
-    "bytes": 4370,
-    "sha256": "5e98983ae479302fbc98350418f99046ee339af2894fdf68b8da0dc46ffddb0b",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-crystal-bowls-serp.json.gz",
-    "bytes": 6577,
-    "sha256": "39efe84b3a29eed7e5e99df57d86c0c541ed370ce83227bbc0d6eb041ec427a5",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-diesel-serp.json.gz",
-    "bytes": 8116,
-    "sha256": "457c8f29fa178bf1b98c817e60c9c76620aca0c7e3990366050dab118cca01c4",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-diesel-volume.json.gz",
-    "bytes": 1198,
-    "sha256": "010984d969510008a6edd42a1d74ece39f777b328cef1b00fc8ff36652591a01",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-gokozy-ads.json.gz",
-    "bytes": 608,
-    "sha256": "72428bef91a48167555642c5d99b754617907afdc17896048c0770215c514698",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-google-text-ads-abayabuth.com.json.gz",
-    "bytes": 3982,
-    "sha256": "c3d5cf3b59c786759cc7bbc9972cc429530a8a1dfda5fcef326869dee90537b7",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-google-text-ads-abayasboutique.com.json.gz",
-    "bytes": 614,
-    "sha256": "f4fa33c553be99c9f118ea902f24b474b5b73b4fde078bdf79a2d0ab0af6bb48",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-google-text-ads-allendale-ultrasonics.co.uk.json.gz",
-    "bytes": 3834,
-    "sha256": "49555f1521e39be2ea2a4a353dd0fcc4d586a3cbbe273a39ff504dadf7cc3099",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-google-text-ads-amscope.co.uk.json.gz",
-    "bytes": 1990,
-    "sha256": "a34b351f71b94adab3cbd15c7db7a17123858b1388b02491f0faa18691c99dfb",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-google-text-ads-astroshop.eu.json.gz",
-    "bytes": 609,
-    "sha256": "a446828f33e7dc7b0637fc4f2cbbb6483a670eab86f47329bbf8ae913ffb6a26",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-google-text-ads-boblov.com.json.gz",
-    "bytes": 605,
-    "sha256": "a0d0c634d940ae68934b54f1d6ffe21647b0e5a3a9e5553d4b62108107a95c99",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-google-text-ads-bodycamera.co.uk.json.gz",
-    "bytes": 614,
-    "sha256": "c16185d2d1ac0ae91cda0dc7d53b3320bfaf7723c436ce2d9488fc9da5f67376",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-google-text-ads-brentwoodradios.co.uk.json.gz",
-    "bytes": 1662,
-    "sha256": "e290435ffedfb8e3be2ca61a0f9383993888d869269a2d2e804ec4dba3577062",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-google-text-ads-bresseruk.com.json.gz",
-    "bytes": 2649,
-    "sha256": "99d51a58584ec99712d80539d36bbb256b28010dd45043b7059480514fe827b1",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-google-text-ads-creworksequipment.com.json.gz",
-    "bytes": 613,
-    "sha256": "5331a258eee9faee46b65122d2849fad7dad464248e8a06e92b5e86a96af92ee",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-google-text-ads-eisenlink.com.json.gz",
-    "bytes": 608,
-    "sha256": "1d6877bfada31e98cab2c773b2c5bb39e84c6de505b0a1af360c37467b05711a",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-google-text-ads-everycarcovered.com.json.gz",
-    "bytes": 611,
-    "sha256": "83d81f18b641715c78140f913bacfd9304f62523cfe5a67ef1b924a2e296160b",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-google-text-ads-firstlightoptics.com.json.gz",
-    "bytes": 1957,
-    "sha256": "0250f9b393645871e0135a3ef8077841a77e3a94ff813f9ce9769c145c45c053",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-google-text-ads-gymsets.co.uk.json.gz",
-    "bytes": 2928,
-    "sha256": "2c35638c0d212384b056811cf20c7f67ecc39103f96a7933f6a59f2d4b185ea3",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-google-text-ads-hawaaclothing.com.json.gz",
-    "bytes": 2280,
-    "sha256": "3c20a46394624e828ebf6ccb97bcb174bdbf104b7e3ba4200fce036159f919a3",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-google-text-ads-muscleiq.co.uk.json.gz",
-    "bytes": 3253,
-    "sha256": "ed47551057f07820985e93ebae2f2f67e9aabed318b407ef9852b1224e1339f6",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-google-text-ads-nightfoxstore.com.json.gz",
-    "bytes": 860,
-    "sha256": "623ab5afb2c258a3dd8d17857f69bfa0b959b3de7acbf97a52e43bf302d550d8",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-google-text-ads-revealmedia.co.uk.json.gz",
-    "bytes": 1768,
-    "sha256": "20dd523f68569056febc32ed10381cfd4e3add1c37507abeb1d845074e87a386",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-google-text-ads-stormcarcovers.co.uk.json.gz",
-    "bytes": 1149,
-    "sha256": "f24b9f17bb63c2cc3f38c6263fab47ced066276cd7df19f517fcf1d1b9a485cc",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-google-text-ads-swiftmicroscopes.com.json.gz",
-    "bytes": 612,
-    "sha256": "7d5bb4370fd1f1018912dfbe6d1274942a7661cd2bddacf85655dbc5b98f8ddd",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-google-text-ads-telescopesplus.com.json.gz",
-    "bytes": 610,
-    "sha256": "bd01d788f754b008d1162062af06c698fa337b183efaff809cff076f0f9e3da4",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-google-text-ads-uk-telescopes.co.uk.json.gz",
-    "bytes": 617,
-    "sha256": "6bb91d115aa0b25cbdb348bff047e28fa9ccb712e7f5fb4ee52df5cc3766490d",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-heated-gilet-serp.json.gz",
-    "bytes": 14712,
-    "sha256": "3076565542d501642aa53d9a4b3cafbd1e3b8ca6e1a0f60ee5183e8c763690b8",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ideas-abaya.json.gz",
-    "bytes": 80300,
-    "sha256": "71b38c6a84e17ad741d7ee3d18a6792ebc877fb7de3a60fa27dbc3e539d503be",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ideas-dumbbells.json.gz",
-    "bytes": 90528,
-    "sha256": "b66dff89c6aa310ada493b073725921a021ce6d1224afae3a74f72d06010dae4",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ideas-microscope.json.gz",
-    "bytes": 55148,
-    "sha256": "b6e0b4a4bf54b9c57b936b0994bc87d8d698a99225709cf94f0700ae9c654175",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ideas-telescope.json.gz",
-    "bytes": 152572,
-    "sha256": "d8bb2bddbc8e8499815ecbaec84b29bcb84d69ba7642ac9e5bde4862e0a0d8cb",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ideas-ultrasonic.json.gz",
-    "bytes": 30390,
-    "sha256": "bd51d23ff71eadeaa2a57363c0344ab6d8fe621d2128f10ce3250b2c34fe6682",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-nightvision-keywords.json.gz",
-    "bytes": 182662,
-    "sha256": "67bbb973872e330e030fb55571b05f06a5001c43fa0354b51a3b44147d78bea7",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ororo-ads.json.gz",
-    "bytes": 605,
-    "sha256": "8970659d5c69db6cee5f9620845cc9ac34ec12b3a5d6f28f46bc9371cec520a7",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-ororo-root-ads.json.gz",
-    "bytes": 1079,
-    "sha256": "218921afdee6bab3e66590ccbbe8fd4ca9a6d8068da382209cf67bd97de3b928",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-q4-chess-expansion.json.gz",
-    "bytes": 158493,
-    "sha256": "fb81e363f890142f7941952cfdaf0f1a76582793d474a795ad4b6284ba218c9f",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-q4-heated-apparel-expansion.json.gz",
-    "bytes": 187848,
-    "sha256": "5d2a1a9c3510f7851e5a40b2561465eb1a43f820107436cc72c5c572ff4c5f86",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-q4-seeds-search-volume.json.gz",
-    "bytes": 1641,
-    "sha256": "638dfa03bf06112c83d572d2f6dae2938db0a8a6366049e583b3509cea2569e7",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-serp-abaya.json.gz",
-    "bytes": 5993,
-    "sha256": "d3f6fccb26193765cded7f8569a90da99685b7489a6237c0a61371d8905ed13b",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-serp-adjustable-dumbbells.json.gz",
-    "bytes": 6781,
-    "sha256": "e89c249d7e16f08c5f7263f916865a6d9455805faabf7f67883ce9aadf17d856",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-serp-body-camera.json.gz",
-    "bytes": 5571,
-    "sha256": "30fc1463ea301e4cb213e58b3a00ff47325eaf842b5faf1a9d4300ce5963c472",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-serp-car-cover.json.gz",
-    "bytes": 7612,
-    "sha256": "6dbbd07fd44db490f9bdfcc34b867780b3d80fc8e16ed4550824af90df3df98a",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-serp-changing-robe.json.gz",
-    "bytes": 4833,
-    "sha256": "94dbf43eaa5927ac95fa201d3bbbc9867d2b4f802599e66d2fe894d32c91f7ab",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-serp-ice-bath.json.gz",
-    "bytes": 5099,
-    "sha256": "5a518639295a4170cf102bc9c0ba7445d5f0b1ef72036b205b613759614f8ef7",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-serp-led-face-mask.json.gz",
-    "bytes": 8684,
-    "sha256": "966a0aa8eba7a43cea7e1c5b1d5e00258a55f59d4eaedba9aefbd8e5bfc4695d",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-serp-microscope.json.gz",
-    "bytes": 8365,
-    "sha256": "ca69dd08ae7718453d78a0df225b0aacc587f6cdf0c1b137a69c0371a122cac1",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-serp-nightvision-binoculars.json.gz",
-    "bytes": 32565,
-    "sha256": "8419772ff0ed9ee5e90dd913cfdac2e47b1cee7d225e41923b5dd885b4deac2d",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-serp-nightvision-goggles.json.gz",
-    "bytes": 33784,
-    "sha256": "a3d203df646b9e1e19af04a54012e1897c07b68899e49fb695e7e0bd2e2c5933",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-serp-pilates-board.json.gz",
-    "bytes": 4604,
-    "sha256": "fb0863af45b8771de066e2904ab54324798953622dd3b0a7bebf6565d9843b80",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-serp-portable-sauna.json.gz",
-    "bytes": 8990,
-    "sha256": "131d703b37b57f6fac1165cc2d9e466b986fe8dd39533875acc9c221beb62ab9",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-serp-telescope.json.gz",
-    "bytes": 4552,
-    "sha256": "adde92726e24a2f770c7fac9d4f1cbef929e6253f2fbeedc280e79b992c4d79b",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-serp-ultrasonic-cleaner.json.gz",
-    "bytes": 9667,
-    "sha256": "f40b0551fc16e5a45ca9e4768d66e37f497c363386f026c33701911cebda9c1d",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-serp-ultrasonic-jewellery-cleaner.json.gz",
-    "bytes": 9241,
-    "sha256": "f8cd8ef7a01065cc625233259707435959da4c88daa55983d71ce4ce768d4b02",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-serp-waterproof-car-cover.json.gz",
-    "bytes": 8608,
-    "sha256": "d865833789fda75aef6b6d689ca71ebe3cb44fec8fcf9683b3889321d0078a89",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-serp-weighted-vest.json.gz",
-    "bytes": 8310,
-    "sha256": "c3ca636c1058a9c9d7945236594b77ff0773b0422966057038ee70d597caa0a0",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-soundtherapy-ads.json.gz",
-    "bytes": 619,
-    "sha256": "f2ceea63c8badba357666f476ad185ca53c19233ffe640be5164d1a176d23fae",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-trends-abaya.json.gz",
-    "bytes": 1592,
-    "sha256": "41e15299272c9ea8709bb6aa38c11e88d56cd266b5fee957a02e31edadc38207",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-trends-adjustable-dumbbells.json.gz",
-    "bytes": 1569,
-    "sha256": "26fe3ce7e3023c32dd9a999646a98ccea68095f5eef30ed59c42b64813557fb8",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-trends-body-camera.json.gz",
-    "bytes": 1580,
-    "sha256": "71344ee0d00d2ea839a83762b4b872c037eeb916965ea1256b87c27411aab17a",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-trends-car-cover.json.gz",
-    "bytes": 1579,
-    "sha256": "cbd8656983bb4d1102b0baeadd9fa0964cad5813b4327083bad5e2cd473a634e",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-trends-chess-set.json.gz",
-    "bytes": 1602,
-    "sha256": "c7d97449c7fe71e165e4cbbf94b9bf3c3a5f1214003cc0492559e31169d584bb",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-trends-diesel-heater.json.gz",
-    "bytes": 1616,
-    "sha256": "d272ed24b75bc5cb2a6fd49bf2af82316a79aa332eea17e61d7ea80474e217ef",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-trends-heated-gilet.json.gz",
-    "bytes": 1583,
-    "sha256": "0ccb2c4e24db28e8b764903f566175953c46180db6d4c44a6d3c270fd89d60e8",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-trends-heated-vest.json.gz",
-    "bytes": 1584,
-    "sha256": "5b29a5b4d3a2fc04cc4b29163f8dd90cf5991513584b8bf77b0ac0abdbc56483",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-trends-night-vision-binoculars.json.gz",
-    "bytes": 1633,
-    "sha256": "806561715ef01f3869ad4752d45ebb38cdfe994d2f6509e0eb4cbfe87be10e1c",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-trends-night-vision-goggles.json.gz",
-    "bytes": 1625,
-    "sha256": "835cba87c3a02b5f22577707fa944a1a19461d16edecdf673800e035d22d7471",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-trends-telescope.json.gz",
-    "bytes": 1540,
-    "sha256": "b6abf4442b06663ee4d3354245d35fa9adcd25ee785208369669eee1dbe6f9de",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-trends-ultrasonic-cleaner.json.gz",
-    "bytes": 1618,
-    "sha256": "866a77e4081e552781a87b773e80e79f4a09d00ffaab48974f28c9ad0337a1b1",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-tt-search-abayasboutique.com.json.gz",
-    "bytes": 137,
-    "sha256": "22ff20d7c32916498a561696b110cb7cdfbebf6ea2d0f1c070f59cec4b886bcc",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-tt-search-bodycamera.co.uk.json.gz",
-    "bytes": 138,
-    "sha256": "ad0a2d06f07647c4da9fbf9df3ec87009a4f79c7e4817afb4208af204dcc8a87",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-tt-search-creworksequipment.com.json.gz",
-    "bytes": 137,
-    "sha256": "d9ace4aa099686f358a183662a53fb195aba878ab21e5b1b8d809cb58e0e823a",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-tt-search-eisenlink.com.json.gz",
-    "bytes": 137,
-    "sha256": "ca21fcf4c8af36da2109b2c49f04d0ff1cf9a184a163726bd7eab782a7cf4c53",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-tt-search-everycarcovered.com.json.gz",
-    "bytes": 137,
-    "sha256": "eae1677b2428b3a23cedee74474fe0380a5eff648bf91d2d827c908f4af054a0",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-tt-search-hilsonic.co.uk.json.gz",
-    "bytes": 1132,
-    "sha256": "1a58b07a7d0fdd90b3b9dbaed61ad3f1606cc24f02ed2c646c1727521cf34f07",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-tt-search-lanveza.com.json.gz",
-    "bytes": 137,
-    "sha256": "d68b8efac78faa43d120f858bf4bca006c9ffae07f1c1c38c1fc862324d0bedf",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-tt-search-swiftmicroscopes.com.json.gz",
-    "bytes": 138,
-    "sha256": "4e89aa6513a7b8d7096ff76280b2090c835d6bb321b212c6722a27ec42c37cfd",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-tt-search-telescopesplus.com.json.gz",
-    "bytes": 137,
-    "sha256": "34da312da017ba8484029a312bc4f95540052fb2911341bf732d97a8390305dc",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-tt-search-wearedrybones.co.uk.json.gz",
-    "bytes": 137,
-    "sha256": "153a77a3f440f1b4a430898a79b174def02dda7012925335847d219abf2e1c1b",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-volume-bodycam-expansion.json.gz",
-    "bytes": 1434,
-    "sha256": "7e755e726b8581ef4b39cdead20081fc3010a0b4caa46a30f9c118103633b2fb",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-volume-ceiling-speakers.json.gz",
-    "bytes": 1085,
-    "sha256": "467525d322503fd31cde4cbdce889d247d3608669982ef3b6790b25c06bbdaaa",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-volume-discovery-v1.json.gz",
-    "bytes": 4874,
-    "sha256": "bd53aedab44b94801cd51e45cad999c99f106b1fcc98d7662836ad758f13ae34",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-volume-discovery-v2.json.gz",
-    "bytes": 3355,
-    "sha256": "8eca162cafd4c7e221899e3ff88d06008a2d47bc794383299c47cafee5ecd8dc",
-    "gzip": true
-  },
-  {
-    "file": "uk-20260907-volume-fitness-alternatives.json.gz",
-    "bytes": 1113,
-    "sha256": "47ab5fe414c8891213232df1465ebc0b0a51697c1e98f7f32217bdb7ba7e3958",
-    "gzip": true
-  },
-  {
-    "file": "uk-ads-bulldoggear.json.gz",
-    "bytes": 3992,
-    "sha256": "6ff06784ac2cf8f1ed812f68e747c90317ed099c65b8e9109301af1191d56f92",
-    "gzip": true
-  },
-  {
-    "file": "uk-ads-force-fit.json.gz",
-    "bytes": 1774,
-    "sha256": "fdcc943a717cf5f596952fc4155dcce27999c76e3d441fcda03d054cd1d8333b",
-    "gzip": true
-  },
-  {
-    "file": "uk-ads-lumitherapy.json.gz",
-    "bytes": 1079,
-    "sha256": "a638d0298ee65ca041f7c48525b7a241c14e501ceb2edffec72cc327b722e66d",
-    "gzip": true
-  },
-  {
-    "file": "uk-ads-polar-recovery.json.gz",
-    "bytes": 2691,
-    "sha256": "deafb762e8d53395711e714ff6fa4bcca1ffc77f4d944b54504e39bf97d08af4",
-    "gzip": true
-  },
-  {
-    "file": "uk-arabesque-abaya-public-evidence.json.gz",
-    "bytes": 283,
-    "sha256": "736b58562ebfa80f0a5deb188cf4cde4818165af9a919b116114586c4a78812b",
-    "gzip": true
-  },
-  {
-    "file": "uk-arabesque-exact-abaya.json.gz",
-    "bytes": 1850,
-    "sha256": "02a0db9ffe397ece0b9c2d2801cfd15d5cf9b277b1e46f5dc4ea84cd687fd621",
-    "gzip": true
-  },
-  {
-    "file": "uk-bodycamera-a26-public-evidence.json.gz",
-    "bytes": 539,
-    "sha256": "b9578ce31b23cd39c409e2919d79f09b9b3d33c65e26801fcbecba97e0a0e648",
-    "gzip": true
-  },
-  {
-    "file": "uk-bodycams-keywords-for-keywords.json.gz",
-    "bytes": 44134,
-    "sha256": "7ab42cb7f99fc65b5d665260d6149b8a2b992548a24badcf4e1985792a56e5b5",
-    "gzip": true
-  },
-  {
-    "file": "uk-bodycams-search-volume.json.gz",
-    "bytes": 1797,
-    "sha256": "5306eb72a413882361bb51d5c654f83567568ebc22b175cce43a6b8712f8343f",
-    "gzip": true
-  },
-  {
-    "file": "uk-carcovers-keywords-for-keywords.json.gz",
-    "bytes": 154606,
-    "sha256": "e5d17a4d946dc50567632c4473555ed35ef4834e775c05b902270da063b567ac",
-    "gzip": true
-  },
-  {
-    "file": "uk-carcovers-search-volume.json.gz",
-    "bytes": 1981,
-    "sha256": "2b6e2f1643066786e3478bfa6fcff0fde12f4fb6f11bf3ec0276024d0fdc7b2b",
-    "gzip": true
-  },
-  {
-    "file": "uk-carplay-market-20260907-aoocci-shipping.html.gz",
-    "bytes": 67946,
-    "sha256": "7fa659a64327a0408fcceab38d33c752a38f79baffdd171382a438c6c82934bf",
-    "gzip": true
-  },
-  {
-    "file": "uk-carplay-market-20260907-aoocci-v30-js.html.gz",
-    "bytes": 6442,
-    "sha256": "23db6de3f4a1cacc50fd1e66cfc3947eecd5f99110434102f7e219e3c8974a9d",
-    "gzip": true
-  },
-  {
-    "file": "uk-carplay-market-20260907-aoocci-v30-json.html.gz",
-    "bytes": 6442,
-    "sha256": "23db6de3f4a1cacc50fd1e66cfc3947eecd5f99110434102f7e219e3c8974a9d",
-    "gzip": true
-  },
-  {
-    "file": "uk-carplay-market-20260907-aoocci-v30.html.gz",
-    "bytes": 126644,
-    "sha256": "e6c7e365159311af28f47ddad5e395374f2ed1be6a8042eaaf28c496fac0fa8a",
-    "gzip": true
-  },
-  {
-    "file": "uk-carplay-market-20260907-carpuride-shipping.html.gz",
-    "bytes": 88590,
-    "sha256": "1888abcaacd1c504fdc99f0defc201f780f5b83f8f66779ece8537d40449daa5",
-    "gzip": true
-  },
-  {
-    "file": "uk-carplay-market-20260907-carpuride-w901-js.html.gz",
-    "bytes": 3699,
-    "sha256": "791c3320b157df6617b877df18906b77a5a246236307436ef3b9b07ce7e286b0",
-    "gzip": true
-  },
-  {
-    "file": "uk-carplay-market-20260907-carpuride-w901-json.html.gz",
-    "bytes": 3699,
-    "sha256": "791c3320b157df6617b877df18906b77a5a246236307436ef3b9b07ce7e286b0",
-    "gzip": true
-  },
-  {
-    "file": "uk-carplay-market-20260907-carpuride-w901.html.gz",
-    "bytes": 131120,
-    "sha256": "8adb2897d4f949dea780a455a6de1ca3b44467a145f943217f6f721afb6994aa",
-    "gzip": true
-  },
-  {
-    "file": "uk-carplay-market-20260907-dataforseo-serp.json.gz",
-    "bytes": 6851,
-    "sha256": "c27421cf716b18a255656e1b35a1531c6abcd5a8cb14e0b81a6b53e8ad1c0aaa",
-    "gzip": true
-  },
-  {
-    "file": "uk-carplay-market-20260907-dataforseo-volume.json.gz",
-    "bytes": 1073,
-    "sha256": "ecc3a04da2c92b4bb02f095c9851f8c49d572752af4301e3a514e8fd56aa96a3",
-    "gzip": true
-  },
-  {
-    "file": "uk-carplay-market-20260907-evidence-notes.txt.gz",
-    "bytes": 1219,
-    "sha256": "0eb9c37f27351b52b6309de43a73c34dc5746ba4ef43172c8da7f18b5d279961",
-    "gzip": true
-  },
-  {
-    "file": "uk-carplay-market-20260907.md.gz",
-    "bytes": 2285,
-    "sha256": "0af9d1a2e353998b927424495c051fbf76f9536679bc4b0ae4f8ba98298981fe",
-    "gzip": true
-  },
-  {
-    "file": "uk-chess-final-compatible-20260907.csv.gz",
-    "bytes": 928,
-    "sha256": "7e81c81c7205a892b9d98c99f500c99d9bca37b49580c6283ab03e0accb849c7",
-    "gzip": true
-  },
-  {
-    "file": "uk-concurrents-20260907.md.gz",
-    "bytes": 2994,
-    "sha256": "76b8a8111ad667eeb66dc580d8c2fb0d7961eaf4c607cf52f71c0412162efef6",
-    "gzip": true
-  },
-  {
-    "file": "uk-concurrents-tech-20260907.md.gz",
-    "bytes": 2554,
-    "sha256": "6919183e75629dc28d64a6b50e311c820ba711187a67ee44ac95004fdf5f2725",
-    "gzip": true
-  },
-  {
-    "file": "uk-golyath-ad246-public-evidence.json.gz",
-    "bytes": 926,
-    "sha256": "2d01dcf1a6ca3435a77f9d8cb49048f47a76ca126495a226dc07ea2f04689ce3",
-    "gzip": true
-  },
-  {
-    "file": "uk-heated-final-compatible-20260907.csv.gz",
-    "bytes": 859,
-    "sha256": "78c1bfc64890ffc2f4c7e912e10a7bfbd56a10fd6bfc6577a6200da793759936",
-    "gzip": true
-  },
-  {
-    "file": "uk-heated-market-final-20260907-gokozy-ads.json.gz",
-    "bytes": 608,
-    "sha256": "72428bef91a48167555642c5d99b754617907afdc17896048c0770215c514698",
-    "gzip": true
-  },
-  {
-    "file": "uk-heated-market-final-20260907-gokozy-product-nolocale.html.gz",
-    "bytes": 75623,
-    "sha256": "f071fc2f06ab629d97669d58730501120aa7bfdc3d0115e7cabe30d8b27b9f47",
-    "gzip": true
-  },
-  {
-    "file": "uk-heated-market-final-20260907-gokozy-product.html.gz",
-    "bytes": 76081,
-    "sha256": "07bf364305d2ddffb11670dd06f5e2c89e757920898401083a33c2074b6ce407",
-    "gzip": true
-  },
-  {
-    "file": "uk-heated-market-final-20260907-gokozy-products.json.gz",
-    "bytes": 25988,
-    "sha256": "cb785952c69e01e2e1fff93f120ca316d6e6f90969b5242fa0c59afc75b22be4",
-    "gzip": true
-  },
-  {
-    "file": "uk-heated-market-final-20260907-gokozy-shipping.html.gz",
-    "bytes": 48579,
-    "sha256": "97e9addfc5656130034f0a36d14afe5a2f9f6ff79100b7d3647e9c8ac15403e8",
-    "gzip": true
-  },
-  {
-    "file": "uk-heated-market-final-20260907-gokozy.html.gz",
-    "bytes": 64960,
-    "sha256": "1ed507693fad7d0c06ab1e914976aa6e5a7dce3e0655b8a6daf0793d62effea7",
-    "gzip": true
-  },
-  {
-    "file": "uk-heated-market-final-20260907-heated-ads-creatives.md.gz",
-    "bytes": 674,
-    "sha256": "65ae30f76ccdabfb3b824ef48c9bf1e34ff06e3a1a0fcba5f3db45c3e71e4122",
-    "gzip": true
-  },
-  {
-    "file": "uk-heated-market-final-20260907-heated-gilet-serp.json.gz",
-    "bytes": 14712,
-    "sha256": "3076565542d501642aa53d9a4b3cafbd1e3b8ca6e1a0f60ee5183e8c763690b8",
-    "gzip": true
-  },
-  {
-    "file": "uk-heated-market-final-20260907-ororo-ads.json.gz",
-    "bytes": 605,
-    "sha256": "8970659d5c69db6cee5f9620845cc9ac34ec12b3a5d6f28f46bc9371cec520a7",
-    "gzip": true
-  },
-  {
-    "file": "uk-heated-market-final-20260907-ororo-info.html.gz",
-    "bytes": 72985,
-    "sha256": "6c977d43d9a42220f336da49be4bf3560cb6817697382c32f2226b12c3195010",
-    "gzip": true
-  },
-  {
-    "file": "uk-heated-market-final-20260907-ororo-product.html.gz",
-    "bytes": 111367,
-    "sha256": "72797f82a243daf120613dbabf5ca0064cfe26b17bb58272a199b80ece21268f",
-    "gzip": true
-  },
-  {
-    "file": "uk-heated-market-final-20260907-ororo-products.json.gz",
-    "bytes": 144379,
-    "sha256": "c4f12e2619fa6cf031f98e1ac62b76085cae0688e46ccae4d7a8451511091c3f",
-    "gzip": true
-  },
-  {
-    "file": "uk-heated-market-final-20260907-ororo-returns.html.gz",
-    "bytes": 72359,
-    "sha256": "8582f8be28177feb008215b85daf38d433e52f3d0ca60ea7d8cbdb3df056056a",
-    "gzip": true
-  },
-  {
-    "file": "uk-heated-market-final-20260907-ororo-root-ads.json.gz",
-    "bytes": 1079,
-    "sha256": "218921afdee6bab3e66590ccbbe8fd4ca9a6d8068da382209cf67bd97de3b928",
-    "gzip": true
-  },
-  {
-    "file": "uk-heated-market-final-20260907-ororo-shipping.html.gz",
-    "bytes": 71338,
-    "sha256": "9ef87bb923639208cd15625d3e75d18385128efdf0d454c3503b9bc718f33225",
-    "gzip": true
-  },
-  {
-    "file": "uk-heated-market-final-20260907-ororo.html.gz",
-    "bytes": 118006,
-    "sha256": "5a2ca1714f8eb531ff45c1b6ef38e0a65478f90aa567928210cac46ea3129d6e",
-    "gzip": true
-  },
-  {
-    "file": "uk-heated-market-final-20260907.md.gz",
-    "bytes": 2400,
-    "sha256": "49fe99c898a17fad7ecfa030da2d52583f8b0db437bdc7170901d3e35c48cf2c",
-    "gzip": true
-  },
-  {
-    "file": "uk-ice-baths-keywords-for-keywords.json.gz",
-    "bytes": 58248,
-    "sha256": "52713b4a9a8214f55814b6ccf73cf1028f527adf988e808c264be21c0584f895",
-    "gzip": true
-  },
-  {
-    "file": "uk-keywords-carcovers-bodycams-20260907.json.gz",
-    "bytes": 3395,
-    "sha256": "b4a769b1f3b5733bc033d24fb0397393e95efb6a54e79f790418aa9e2985c395",
-    "gzip": true
-  },
-  {
-    "file": "uk-keywords-carcovers-bodycams-20260907.md.gz",
-    "bytes": 1283,
-    "sha256": "ab55b9fdc3e0d4c0e82cb9ccc529d0e9219185b04e74f4ac67b94b7da0306c9e",
-    "gzip": true
-  },
-  {
-    "file": "uk-keywords-fitness-20260907.json.gz",
-    "bytes": 5769,
-    "sha256": "8bcd19840ad179db477dfb9fc1348f155095749b1c27e22cb4dd1493f6b74cee",
-    "gzip": true
-  },
-  {
-    "file": "uk-keywords-fitness-20260907.md.gz",
-    "bytes": 3022,
-    "sha256": "5b4a2f400a568ed48fc4b75ccc9e06495c3db7812a7771672ded97b47e4c7055",
-    "gzip": true
-  },
-  {
-    "file": "uk-keywords-stage1-20260907.json.gz",
-    "bytes": 478,
-    "sha256": "e2178c0208ef42f522feabe75632f10f96c82c43d38c1a319fd3da49dd29eb74",
-    "gzip": true
-  },
-  {
-    "file": "uk-keywords-stage2-20260907.json.gz",
-    "bytes": 511,
-    "sha256": "52781d1d5948586c7348924b96aaa95ba5f49038e5c778401326ca77a7db04d1",
-    "gzip": true
-  },
-  {
-    "file": "uk-nightfox-swift-public-evidence.json.gz",
-    "bytes": 1533,
-    "sha256": "bcb7c6c49a9a6ba7f1e73637450ce886055ca45ad7c877056886664b859f5d81",
-    "gzip": true
-  },
-  {
-    "file": "uk-nightvision-market-20260907.md.gz",
-    "bytes": 2718,
-    "sha256": "175f15662c7a0d7d0fa22ec8a7f51496638dcb061fa127ec91eefccd718929d8",
-    "gzip": true
-  },
-  {
-    "file": "uk-q4-final-20260907.md.gz",
-    "bytes": 1599,
-    "sha256": "2e9a3efa6444546b5343c315f6262046dc0365a43c6a2848c72f8b2c565fbaf2",
-    "gzip": true
-  },
-  {
-    "file": "uk-q4-final-competition-20260907-ads-creatives.md.gz",
-    "bytes": 1731,
-    "sha256": "02afc15206a8e34c38c9438dd041dc53c57bd5b295400c553f09ba53789b74d0",
-    "gzip": true
-  },
-  {
-    "file": "uk-q4-final-competition-20260907-ali-chess-comparator.html.gz",
-    "bytes": 90882,
-    "sha256": "97df75b64401a738bfe15118ae8480564f90341ad9ade44d19edeb4dfc885a15",
-    "gzip": true
-  },
-  {
-    "file": "uk-q4-final-competition-20260907-ali-crystal-archive.html.gz",
-    "bytes": 584,
-    "sha256": "f16bf405b8d43f68ef56d41fff88eaad8e3188c64c393fcb69c860155d947228",
-    "gzip": true
-  },
-  {
-    "file": "uk-q4-final-competition-20260907-british-about.html.gz",
-    "bytes": 66653,
-    "sha256": "64588aaa0cec3c4e56b9fcd205212d3457ab2de5db62df0db20d8a8f2bc280a4",
-    "gzip": true
-  },
-  {
-    "file": "uk-q4-final-competition-20260907-british-chess-ads.json.gz",
-    "bytes": 879,
-    "sha256": "0c5e1089bcd4b516fd80bfeeb16ec35ef94615b8e50cc36ea015f38ab1398984",
-    "gzip": true
-  },
-  {
-    "file": "uk-q4-final-competition-20260907-british-chess-collection.html.gz",
-    "bytes": 94046,
-    "sha256": "ebcdb88f20ab97aae9cc8dbf20e7b4e63aa44abf55fd0cef39717bc8cff2e92b",
-    "gzip": true
-  },
-  {
-    "file": "uk-q4-final-competition-20260907-british-chess-product.html.gz",
-    "bytes": 109620,
-    "sha256": "2ca2f1eec81af2222227c1fcc306bc370045b6efe1497bc37683d8e2be426afe",
-    "gzip": true
-  },
-  {
-    "file": "uk-q4-final-competition-20260907-british-returns.html.gz",
-    "bytes": 67344,
-    "sha256": "679525c9723f7287d4097bd28c508238b2ea2cc430c04c199ce345968ea2e28a",
-    "gzip": true
-  },
-  {
-    "file": "uk-q4-final-competition-20260907-chess-ads.json.gz",
-    "bytes": 4725,
-    "sha256": "eb814333dfefff90913adc27c0963bc70434c25a48bda397da9911abbd8f565f",
-    "gzip": true
-  },
-  {
-    "file": "uk-q4-final-competition-20260907-chess-collection.html.gz",
-    "bytes": 83546,
-    "sha256": "d1aef8a5d94a5abfd74052435f5374c094a36de380d3075dae23de81eb293412",
-    "gzip": true
-  },
-  {
-    "file": "uk-q4-final-competition-20260907-chess-product.html.gz",
-    "bytes": 119158,
-    "sha256": "079f58f5ba87f20cacdbec255d6c067ea339792b9b3f5b5c88122e1a50d5845a",
-    "gzip": true
-  },
-  {
-    "file": "uk-q4-final-competition-20260907-chess-serp.json.gz",
-    "bytes": 4370,
-    "sha256": "5e98983ae479302fbc98350418f99046ee339af2894fdf68b8da0dc46ffddb0b",
-    "gzip": true
-  },
-  {
-    "file": "uk-q4-final-competition-20260907-chess-shipping.html.gz",
-    "bytes": 78240,
-    "sha256": "601f05c87da90231d664cac0a70a51458de4c6600b124f2e8426db1b4019fed2",
-    "gzip": true
-  },
-  {
-    "file": "uk-q4-final-competition-20260907-crystal-bowls-serp.json.gz",
-    "bytes": 6577,
-    "sha256": "39efe84b3a29eed7e5e99df57d86c0c541ed370ce83227bbc0d6eb041ec427a5",
-    "gzip": true
-  },
-  {
-    "file": "uk-q4-final-competition-20260907-evidence-notes.txt.gz",
-    "bytes": 1322,
-    "sha256": "bd586a5def8b44306a987f33cdac5ada909f629da1b832d734d834baa4100252",
-    "gzip": true
-  },
-  {
-    "file": "uk-q4-final-competition-20260907-soundtherapy-ads.json.gz",
-    "bytes": 619,
-    "sha256": "f2ceea63c8badba357666f476ad185ca53c19233ffe640be5164d1a176d23fae",
-    "gzip": true
-  },
-  {
-    "file": "uk-q4-final-competition-20260907-soundtherapy-collection.html.gz",
-    "bytes": 113023,
-    "sha256": "d895f5a5192b10708dbb186ffa45c9877ac2542a5a261739e405be53c13bc1fa",
-    "gzip": true
-  },
-  {
-    "file": "uk-q4-final-competition-20260907-soundtherapy-delivery.html.gz",
-    "bytes": 100825,
-    "sha256": "9a9766172c77d66c27352e492d55755ddfbd97f33848617e59406a2464660f38",
-    "gzip": true
-  },
-  {
-    "file": "uk-q4-final-competition-20260907-soundtherapy-product.html.gz",
-    "bytes": 126996,
-    "sha256": "bc03d7b1765aa70db9685c23ea2345a2b290e49f565a771c836af6d1943b2ba1",
-    "gzip": true
-  },
-  {
-    "file": "uk-q4-final-competition-20260907.md.gz",
-    "bytes": 2904,
-    "sha256": "26f68487e06f708d4a155dd50d08853fc500d8f612ebcaa27d7e1da1f91238f2",
-    "gzip": true
-  },
-  {
-    "file": "uk-q4-search-20260907.csv.gz",
-    "bytes": 1881,
-    "sha256": "6477142703a1c0925b4de2ce4bbcff9ca15f2ac5d24d0a48d1deb460b553036c",
-    "gzip": true
-  },
-  {
-    "file": "uk-q4-search-20260907.md.gz",
-    "bytes": 1916,
-    "sha256": "6beb9637c2fdd18af4845065f8fd030033350478c4302736865bdf9a8b177cbc",
-    "gzip": true
-  },
-  {
-    "file": "uk-search-final-keywords-20260907.csv.gz",
-    "bytes": 3310,
-    "sha256": "f2cc39c3025e6e44cd886592c3f55d7e084dabf234a9b3f72d1bc479adf5ce78",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-abaya-final-20260907-details.jsonl.gz",
-    "bytes": 5765,
-    "sha256": "6794376c0fc331eb95e411986002d5e5dc37b66aac9d9169fe33174e2f4dfcf6",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-abaya-final-20260907-evidence.json.gz",
-    "bytes": 18407,
-    "sha256": "a3ab8c4060ca5adffdf2d5f2c843be193243651602aadef3b2f05e6409eace36",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-abaya-final-20260907-freight-gbp.jsonl.gz",
-    "bytes": 874,
-    "sha256": "8ed6f778fde446d3516bd2fa4656d6874ac5196366ea1848f8d942b7c79debb7",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-abaya-final-20260907-report.md.gz",
-    "bytes": 1102,
-    "sha256": "94c03e596ff8dcdf9b0ede0b4a27fbb9a61f9ba8b7e1c70259f22728061a03ad",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-abaya-final-20260907-search.jsonl.gz",
-    "bytes": 6747,
-    "sha256": "32c0b65412f59758d8398cf758097901330e33851cc5112168f67204f5b85e94",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-abayas-20260907-evidence.json.gz",
-    "bytes": 28816,
-    "sha256": "21fe6f9b74bbeaee42305fd62ad83159b7fbfe666e4a524e2e665462e4683265",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-abayas-20260907-freight-gbp.jsonl.gz",
-    "bytes": 1005,
-    "sha256": "752072caae685b15bf017fb9197269bcbd1a1d072ec139c87bd953760478a24d",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-abayas-20260907-report.md.gz",
-    "bytes": 1561,
-    "sha256": "c8e6c1688a0aff706404906eef84f31a90158c031bbc64621353a4688090fe01",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-carplay-20260907-details.jsonl.gz",
-    "bytes": 10968,
-    "sha256": "63c30f6eadb4c161e6b129d041e35d9fd6f575651eef975c485dabac5141170a",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-carplay-20260907-evidence.json.gz",
-    "bytes": 22910,
-    "sha256": "a7658eccb173802af3528b484125db11d24e0a1b79325fc25aab8207f710cb33",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-carplay-20260907-freight-gbp.jsonl.gz",
-    "bytes": 841,
-    "sha256": "fdf53909a6319d0bcc17eb459f2864175ea4135a641af0fa714227921545dd6f",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-carplay-20260907-report.md.gz",
-    "bytes": 1370,
-    "sha256": "ed4a98e9a9f28287412ee082ed0388e400308736375129902d3ded4a9340ec07",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-carplay-20260907-search.jsonl.gz",
-    "bytes": 6614,
-    "sha256": "1225761ec9a4dae2a6c59998a4adf41eb58fbd8c05f071e48c7e31f6f03e65c5",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-diesel-20260907-details.jsonl.gz",
-    "bytes": 8130,
-    "sha256": "c43bc7f19acb7035aba50965205a759d79fe322582f0ddc6542d3d1b2a0bb3af",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-diesel-20260907-evidence.json.gz",
-    "bytes": 19533,
-    "sha256": "72575ecf319c47ad4603329a8acd4b039191f37d1dcfef255eed3154ccff5854",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-diesel-20260907-freight-gbp.jsonl.gz",
-    "bytes": 894,
-    "sha256": "db76ec7adb728a1c54531b47254de823535fbe1d147d163d31c3db10cd5a8e52",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-diesel-20260907-report.md.gz",
-    "bytes": 1168,
-    "sha256": "e8acd2d8174185d23ff3f99a657fc6c49518b834961bc19d993105097f808a60",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-diesel-20260907-search.jsonl.gz",
-    "bytes": 6633,
-    "sha256": "ef81c6e0f4e5915ed5e87018955b2b95f51a4ff71bce35bb00c95beef0a5e0e6",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-heated-final-20260907-battery-freight-gbp.jsonl.gz",
-    "bytes": 685,
-    "sha256": "04c620ac86635eb8a3761e1727e49352ff25a21aba5ac89d420e24bf406d44a2",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-heated-final-20260907-details.jsonl.gz",
-    "bytes": 4942,
-    "sha256": "eb152013f88aa2349e50eb0e7badd0e270083bc861df92b4949684f3d5d0d5f9",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-heated-final-20260907-evidence.json.gz",
-    "bytes": 13113,
-    "sha256": "fb3603a2b733ad2875463dac930c392bc6183de8eb27f1fdd6b7de8d5cc5acd0",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-heated-final-20260907-freight-gbp.jsonl.gz",
-    "bytes": 929,
-    "sha256": "d604351ee23994deee6dfe73910f67205aa64f9390a5b76dafbcbc5b6dedfac8",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-heated-final-20260907-report.md.gz",
-    "bytes": 1280,
-    "sha256": "09c51417fdb42c6da351ce5d9cd63d0a9d09dd76fc1316c8cc759474c71f9fb6",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-heated-final-20260907-search.jsonl.gz",
-    "bytes": 4096,
-    "sha256": "e504aec4549b43fc5c73897e73b2beda65ac30aef12ec7430778b7a002448751",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-icebath-20260907-evidence.json.gz",
-    "bytes": 14793,
-    "sha256": "d5747b112e6ac9ae06dbea96ddd61ee2994165f31f03e52392c7e50e3ee75561",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-icebath-20260907-freight-gbp.jsonl.gz",
-    "bytes": 1215,
-    "sha256": "9fa65f186f4c728074f81c900cf9bc1a75334f0bc59930ac7a6c9941271dc784",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-icebath-20260907-report.md.gz",
-    "bytes": 1242,
-    "sha256": "80a6fbffd276aa063888e2b3be8ae9bf3e81508c7eb146de6e2424825103de6f",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-q4-final-20260907-details.jsonl.gz",
-    "bytes": 7276,
-    "sha256": "5db882d43208106959643ce2fc0ca585bcf8db4e610a38dfc5a3ff32d1610864",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-q4-final-20260907-evidence.json.gz",
-    "bytes": 19846,
-    "sha256": "ba43b0650d4fabfd6a9a9b4d613d4e8a2cd95a42fe261023017c0403506d76e2",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-q4-final-20260907-freight-gbp.jsonl.gz",
-    "bytes": 1000,
-    "sha256": "a55caef568e115ebcd4125bf1acd8053ee3c28964d192c0f459fe19f5051dca4",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-q4-final-20260907-report.md.gz",
-    "bytes": 1058,
-    "sha256": "ec9934a7528835f82be710e0337c559b907972c2a03e0b8cb3575d2d0a5f25f8",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-q4-final-20260907-search.jsonl.gz",
-    "bytes": 7689,
-    "sha256": "428dff8fb49430205a7b766e3e91f07064584aab90efdcbac032ebd843fb7a38",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-telescope-final-20260907-rapport.md.gz",
-    "bytes": 1654,
-    "sha256": "aefbe8272068009a3be92d1a3e70174f7b427004b8204808d04d5eac5df89c05",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-ultrasonic-final-20260907-details.jsonl.gz",
-    "bytes": 6145,
-    "sha256": "091b033498997670870fa102739c8d27cc4b10f1ff44d465abf7121f6c3870dc",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-ultrasonic-final-20260907-evidence.json.gz",
-    "bytes": 14066,
-    "sha256": "fbe1a327551759cb3763c88cf8d2cdf779bcb799388a49c409d7ead5e16f61d3",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-ultrasonic-final-20260907-freight-gbp.jsonl.gz",
-    "bytes": 993,
-    "sha256": "1c4a44007ddb506c1515b0adfab3e75c7ec8f08602de99c13cb98505d67b001f",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-ultrasonic-final-20260907-report.md.gz",
-    "bytes": 1081,
-    "sha256": "2a48366ae8765c1fac493817bb169f1d8da655ee7c42c6e554236b35890833fc",
-    "gzip": true
-  },
-  {
-    "file": "uk-sourcing-ultrasonic-final-20260907-search.jsonl.gz",
-    "bytes": 3951,
-    "sha256": "9f93b81c7f3ad121496e5c74ae79ac4700ab41e5ff84b0b28fbcaa1df36a3f1f",
-    "gzip": true
-  },
-  {
-    "file": "uk-weighted-vests-keywords-for-keywords.json.gz",
-    "bytes": 70157,
-    "sha256": "7cb508a0b667b727751cee526927954d8813a041cab52bfdfa73ca253c5323aa",
-    "gzip": true
-  }
-]
+{
+  "generated_at_utc": "2026-09-07T12:59:47.303452+00:00",
+  "method": "SHA-256 des octets sauvegardés ; gzip décompressés avec succès au contrôle",
+  "files": [
+    {
+      "path": "MOTS-CLES.md",
+      "bytes": 12058,
+      "sha256": "2f1c885ff16bf0a8b587191f0bd5c9aa3c5f7c1a061fca51658e94dc42761f4d"
+    },
+    {
+      "path": "RAPPORT.md",
+      "bytes": 15827,
+      "sha256": "c0270374ffc0b1b5d8b7eb8f45486db612a2da30315e8fa288f9a0ec193e5a2c"
+    },
+    {
+      "path": "annexes/passe-initiale/MOTS-CLES.md",
+      "bytes": 7341,
+      "sha256": "39485c3e1f662e46debc2c8b7d2c248dcbc24f32fbc124c94f714629e716b65d"
+    },
+    {
+      "path": "annexes/passe-initiale/RAPPORT.md",
+      "bytes": 15623,
+      "sha256": "fbf34f64f4ebf500619c6e36ca97c6354a80573893d682e945792177711dbc0e"
+    },
+    {
+      "path": "annexes/passe-initiale/brouillon-google-ads-editor-abayas.csv",
+      "bytes": 535,
+      "sha256": "d89dbf802e714a22bbf6c9f8c80537eea948e5812dbf44259b66e4a198b4e644"
+    },
+    {
+      "path": "annexes/passe-initiale/etat-recherche.json",
+      "bytes": 2534,
+      "sha256": "11cc95ad4391c26daf2feccedf8dbcb60a79e3de95e37fe3c712fb38042ed73b"
+    },
+    {
+      "path": "annexes/passe-initiale/exclusions-search-initiales.csv",
+      "bytes": 4383,
+      "sha256": "3621aca77daf1f7021161505d7d5d2e29822ca64b6d88e02ed9a4168bf18e1e9"
+    },
+    {
+      "path": "annexes/passe-initiale/mots-cles-search-uk.csv",
+      "bytes": 36385,
+      "sha256": "53e5b11ef92c325eb2749031ccd4e761f3dba298509a1957269a5a71f7e668cf"
+    },
+    {
+      "path": "annexes/passe-initiale/mots-cles-uk.csv",
+      "bytes": 36385,
+      "sha256": "53e5b11ef92c325eb2749031ccd4e761f3dba298509a1957269a5a71f7e668cf"
+    },
+    {
+      "path": "annexes/passe-initiale/mots-cles-uk.md",
+      "bytes": 235,
+      "sha256": "de4c2b3c05ec7cd2f28d4f2e821cb08bc2e60421f147f0ef63b399a450a54c24"
+    },
+    {
+      "path": "annexes/passe-initiale/preuves",
+      "bytes": 10708,
+      "sha256": "a101857931df0c63cf5c7dd77589f17d63ad4077213ce298fce559547f47826c"
+    },
+    {
+      "path": "annexes/passe-initiale/sourcing-aliexpress.csv",
+      "bytes": 2592,
+      "sha256": "c8b61839edc11ba6aca03ddc0bffa6176b9dd8f2a6287126e4713a71e76e748b"
+    },
+    {
+      "path": "annexes/passe-initiale/sourcing-aliexpress.json",
+      "bytes": 5501,
+      "sha256": "6079a376a47fa98ced72a1020644bf756df8d54fa86611187e4d916ea1085b69"
+    },
+    {
+      "path": "annexes/passe-initiale/totaux-mots-cles-uk.csv",
+      "bytes": 408,
+      "sha256": "f0e2e32ba4c07d8712c935e9cb38f456c509671737c3adc0b74acd4212cffd2e"
+    },
+    {
+      "path": "annexes/passe-initiale/totaux-mots-cles-uk.json",
+      "bytes": 2780,
+      "sha256": "4b832e821ea8846892263ee6ea829047e632f25d30d368ba1c3c4b06140024ca"
+    },
+    {
+      "path": "annexes/passe-initiale/trends-q4-summary.json",
+      "bytes": 3635,
+      "sha256": "6310f8c24683c44e86e0bf85c67cb2a891576ada6952845ded645c2e1253c263"
+    },
+    {
+      "path": "annexes/passe-initiale/trends-uk-monthly.csv",
+      "bytes": 51880,
+      "sha256": "aa7d2441314941aa3f34b6d2894e00e1c1b15de2e1926cc8d646f88740a753ba"
+    },
+    {
+      "path": "brouillon-google-ads-editor-5-univers.csv",
+      "bytes": 3250,
+      "sha256": "5c3d4e8b7c2465d38f65065e6f15d4947efef9972b761af0bb0062c8aca93ed9"
+    },
+    {
+      "path": "brouillon-google-ads-editor-abayas.csv",
+      "bytes": 535,
+      "sha256": "d89dbf802e714a22bbf6c9f8c80537eea948e5812dbf44259b66e4a198b4e644"
+    },
+    {
+      "path": "etat-recherche.json",
+      "bytes": 3519,
+      "sha256": "d99b0b4fb69838838a31a2584594fabb8958b60526f7384f60a7a0ee913267bb"
+    },
+    {
+      "path": "exclusions-search-initiales.csv",
+      "bytes": 5881,
+      "sha256": "1d198acdff283c8fe7312c9d4b37313ce825a98e5637985570fb317e4eeee2db"
+    },
+    {
+      "path": "mots-cles-a-cibler.csv",
+      "bytes": 17383,
+      "sha256": "bf942eff2c7e9043b7817fa33afdbe7f78e79e82c63035db75600760d4670fde"
+    },
+    {
+      "path": "mots-cles-search-uk.csv",
+      "bytes": 55556,
+      "sha256": "9eb24e390c116d320d82f8c036dbf34db2914d84a7e7fae1e3bb00fe655df38d"
+    },
+    {
+      "path": "mots-cles-uk.csv",
+      "bytes": 55556,
+      "sha256": "9eb24e390c116d320d82f8c036dbf34db2914d84a7e7fae1e3bb00fe655df38d"
+    },
+    {
+      "path": "mots-cles-uk.md",
+      "bytes": 235,
+      "sha256": "de4c2b3c05ec7cd2f28d4f2e821cb08bc2e60421f147f0ef63b399a450a54c24"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-20260907-cont2-digital-photo-frame-expansion.json.gz",
+      "bytes": 150512,
+      "sha256": "ff77ba125f6d58abecc19e417fb80123cc71fc0c139bb31b31c1582cc0ca4e5b"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-20260907-cont2-dog-bed-expansion.json.gz",
+      "bytes": 364923,
+      "sha256": "7a9cb6f86efd5edd2e790afc93c673ceff73b0bb72cdfc245e765daa91e7fb35"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-20260907-cont2-metal-detector-expansion.json.gz",
+      "bytes": 190420,
+      "sha256": "837038b4ad74c9c8af75da2c368bc7a01411ddcfa21feb7a7a8e469ec46f962e"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-20260907-cont2-mirror-expansion.json.gz",
+      "bytes": 475,
+      "sha256": "822bf67f3489beb88c1ab34bcfe19db13606e05a1c5f2f03df5a88e2fb801453"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-20260907-cont2-record-player-expansion.json.gz",
+      "bytes": 505943,
+      "sha256": "6f09f05838845e5c60496cfee700373287814fe2b05d26c234c1fdc6238182e5"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-20260907-cont2-seeds-search-volume.json.gz",
+      "bytes": 2817,
+      "sha256": "6247b69b9c4dda9ac08ab33e481baec6c45ccd0558f063ea96265a08d845f5f8"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-20260907-cont3-aevitas-ads.json.gz",
+      "bytes": 1585,
+      "sha256": "5b97814eecb0844b842de5aa13452e002ec9eb6e8f52e63afd23029fc84ad434"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-20260907-cont3-mirror-expansion-retry.json.gz",
+      "bytes": 458346,
+      "sha256": "03a8796b060f663f4593d83c813a1745381510523d2cb2b63e9093d5aba03b3e"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-20260907-cont3-seeds-search-volume.json.gz",
+      "bytes": 1598,
+      "sha256": "735b634765ea494bfc653bc6ea40f7a11eabcb404d51847df1b53ee06fe5510e"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-20260907-cont3-watch-keywords.json.gz",
+      "bytes": 118423,
+      "sha256": "2e8b9817e0cf555f4b4f0b526b90dc6ede449b1def062dae06b9358119b0ab05"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-20260907-cont3-watch-serp.json.gz",
+      "bytes": 18602,
+      "sha256": "d973db161d3dd4b3fc24741672798da94d91fb7b5bc19e1f3f7f0b3594461914"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-20260907-cont3-watch-trends.json.gz",
+      "bytes": 1713,
+      "sha256": "eb53b92b5fa8023a960b031d0ca476d68a747b15d13fb0cba67f85ae389af598"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-20260907-cont3-watchmatic-ads.json.gz",
+      "bytes": 861,
+      "sha256": "db4bc0a6b6448493417bf55331a76d68fe115351a5eed91d3c4b63505a90f298"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-20260907-cont3-winderox-ads.json.gz",
+      "bytes": 602,
+      "sha256": "9994ece7be0631afde970b4da5b82724ee2b4d49f7845fff4b63118b0844fb43"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-20260907-cont4-corset-expansion.json.gz",
+      "bytes": 139442,
+      "sha256": "1263c62a28dc797c7648f63a042e8b862989ea1c69750f86c7904e242a33adf2"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-20260907-cont4-golf-expansion.json.gz",
+      "bytes": 97018,
+      "sha256": "c67f543cd8a296edba73057ea5c9f579ebdee01fe8a55209e37185d04791a21d"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-20260907-cont4-google-trends.csv.gz",
+      "bytes": 443,
+      "sha256": "1f3197cd22b6176e63e0c69593bbeac19a59ffbc61ab4756c3ef0d1cf9aaa4ed"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-20260907-cont4-nail-expansion.json.gz",
+      "bytes": 93709,
+      "sha256": "39ac21af0f6d0b9002a2630f00328754e84c22fdb4bccca4982ddfdfaf9009c8"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-20260907-final-serp-corset.json.gz",
+      "bytes": 15178,
+      "sha256": "7062e41ea47dee29f94877d6dcaa6cc0d3883ca47fe4796163fd10829b8e1a06"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-20260907-final-serp-underbust-corset.json.gz",
+      "bytes": 17317,
+      "sha256": "0722ae00333cd39c36577fbeeeee966488d37d86b3c3a1b4625e208e50a2fc8e"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-cont2-bird-camera-serp.json.gz",
+      "bytes": 15484,
+      "sha256": "02dd87297b54f3df6241bb0647d475dfeb030f26f7ecdfc6fe33eae27784fefa"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-cont2-dog-stroller-serp.json.gz",
+      "bytes": 13897,
+      "sha256": "4047a85e4a5875fbbc33be3a8cc6dab7f034d03f7f149d2fefbbd155f0d273f4"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-cont2-green-feathers-ads.json.gz",
+      "bytes": 3472,
+      "sha256": "d583236d8c7d1e0f8d973e205d9e2cf2675b69e433660457dcbff4f4cebb7cca"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-cont2-k9wagons-ads.json.gz",
+      "bytes": 2021,
+      "sha256": "e990c9150d3706a419de5b027d3bc89e1545956dcda22588738f94ac0618d6bf"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-cont2-trail-camera-serp.json.gz",
+      "bytes": 16700,
+      "sha256": "02c29da9c7ced8b4183fa24c159be9e7cc801e388dd1a6c99354a5d088be0085"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-cont3-digital-photo-frame-serp.json.gz",
+      "bytes": 17326,
+      "sha256": "6cc3aa1eefb7f63b3e339a294296a039df9ce4c3f8ed57a528e4eb3aee1cfa83"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-cont3-george-ads-20260907.json.gz",
+      "bytes": 5104,
+      "sha256": "6e4bac325728d8dee5c895b99d06555ebd0776ad1036f7f3441c9c6e708f9b6a"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-cont3-hollywood-ads-20260907.json.gz",
+      "bytes": 2438,
+      "sha256": "ecd89ee1926d342559df12f9a078eb648336f5e650dc5fbf263be6d03a6b273f"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-cont3-hollywood-mirror-serp.json.gz",
+      "bytes": 15995,
+      "sha256": "500222e83e4a3c28d92886af43d5a7181a1a364032d420704d45c16496b66f19"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-cont3-mirrorstore-ads-20260907.json.gz",
+      "bytes": 622,
+      "sha256": "40de2a6182366c9b5338a0bb5441390386ac30025e582ec67b566a35bcd9adbc"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-cont3-orthopaedic-dog-bed-serp.json.gz",
+      "bytes": 6120,
+      "sha256": "768f8958d632fcabe4ee04302bb067d070e467636cd52dc7043d5fed744f8bd8"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-cont4-detectoristads-20260907.json.gz",
+      "bytes": 618,
+      "sha256": "e7fb16786452ae77757ed28d7e75c3388929a241002d8fb21f786188e1cfa6f0"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-cont4-metal-detector-beginners-serp-20260907.json.gz",
+      "bytes": 13850,
+      "sha256": "ce22670c05d9406021479a64255c3ca73202fbba28b0023e861edc4c753ea31a"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-cont4-metal-detector-serp-20260907.json.gz",
+      "bytes": 17127,
+      "sha256": "7770138da988e985bb78fb0e357be978bea9dc0aec7ea9b0c136e6e4f7487890"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-cont4-quildinc-ads-20260907.json.gz",
+      "bytes": 609,
+      "sha256": "6476a828265b5d2d4b97a4b43f3c2c60cc5ca71466b5cb0574a7e691eb09c385"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-cont4-spinads-20260907.json.gz",
+      "bytes": 3619,
+      "sha256": "2665129c2a28085a8b50da29e42b1666ca47dafffe2e1cc5efb2b009e0facc7b"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-cont5-corsetstory-ads-20260907.json.gz",
+      "bytes": 614,
+      "sha256": "3655803f85d928166dea8beb5f377ce802cdf3a969952f63e5c9aab626535bca"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-cont5-corsettery-ads-20260907.json.gz",
+      "bytes": 609,
+      "sha256": "763abe338cd8982579923cd8d43c9440a520a101ce6af5484da5fb43cd028cb8"
+    },
+    {
+      "path": "preuves/complement-20260907/dataforseo/uk-cont5-more-ads-20260907.json.gz",
+      "bytes": 945,
+      "sha256": "46172c399579d6f8922ce2eff62f256fafbcc99f7799b3fd1c8c52ae61e17522"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/ads-creatives.md.gz",
+      "bytes": 1252,
+      "sha256": "15d27fbdfee202d25b6a4a6efe2e8904d9d0d89d74d4f29f204d3be7392fde05"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/bird-birdfy-product.html.gz",
+      "bytes": 279074,
+      "sha256": "417fb8ce92d7a40f0b9e10bc9c2e36ef13713ec2848969e49b81733515790b6e"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/bird-birdfy-products.json.gz",
+      "bytes": 24290,
+      "sha256": "bf2c97affab52972bee519ac691b9b9bba6df9d631630a9ab02f916dae147fd1"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/bird-birdfy-shipping.html.gz",
+      "bytes": 203161,
+      "sha256": "a8f0db319e9b90da9f91453da39a0bbf726494141776e5c8c0ee8faa409f1e99"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/bird-birdfy.html.gz",
+      "bytes": 249190,
+      "sha256": "1e05ae7c85e8bad6f9407791c02601115aa113c77cdcb7a808a37096b79263d8"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/bird-feathersnap.html.gz",
+      "bytes": 90658,
+      "sha256": "aa4be3df2292f37df73401ff3127e0f6f094400554f2d790be12f41e162ba754"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/bird-greenfeathers-delivery.html.gz",
+      "bytes": 82056,
+      "sha256": "926f66f7655b3df4709e89a0e4e0ade02d328c57db0749ec18bf6d997dd5fc37"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/bird-greenfeathers-product.html.gz",
+      "bytes": 101554,
+      "sha256": "c4811a5897c41589dc9a3c306773153e16c70c472dc0503bcbd9c51e8aba2c36"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/bird-greenfeathers-products.json.gz",
+      "bytes": 14479,
+      "sha256": "b199e672f2c34e77e7fcee9e012e1779e96276aaedde062e2af2b544aa992c2a"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/bird-greenfeathers.html.gz",
+      "bytes": 96022,
+      "sha256": "96a46b0aed49fbefd1b88242366912ae5fab70cec12fc6d979ad07b46f4c740f"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/bird-naturespy-delivery.html.gz",
+      "bytes": 56846,
+      "sha256": "c7664088931008b0386e4d548247cf015d1715af007473a30c5b1313e4763540"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/bird-naturespy-product.html.gz",
+      "bytes": 107097,
+      "sha256": "141ffb0ff43c0a3608adb8529a6aee52201677c300481a606c05ed1592b1a7ea"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/bird-naturespy-products.json.gz",
+      "bytes": 67643,
+      "sha256": "c241cdef844ba67b7d2189d48f7ed73abdf438be447e7571c3a638cb6991376c"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/bird-naturespy.html.gz",
+      "bytes": 107098,
+      "sha256": "e69f125ce6bf30b336e5d17b6033d21641780685e7d4eab9f89c633ebd578e3b"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/dog-k9wagons-product.html.gz",
+      "bytes": 98554,
+      "sha256": "8c9757a15c3bebad09fa747e56630297643167c7332989748e04be70a0e298f2"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/dog-k9wagons-products.json.gz",
+      "bytes": 44415,
+      "sha256": "010b84c1fc52f335d9003940cee93c9df1f5f662765801953a12536d71b4dd84"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/dog-k9wagons.html.gz",
+      "bytes": 77938,
+      "sha256": "787a3f87aed0f4220e7881e7a86fd555bafc54e0dea6e055ed67b8bfafcd03ad"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/dog-pawhut-product.html.gz",
+      "bytes": 212005,
+      "sha256": "3c75784c19ccb052fee63de4905bdafd79edff98900141ae4f39c9c0c421b18c"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/dog-pawhut-products.json.gz",
+      "bytes": 30549,
+      "sha256": "c8dc4f74afe5a4b72f93cbe7e5eb04dbd6e763c8e3c67ed0cb7447e29faa0c91"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/dog-pawhut-shipping.html.gz",
+      "bytes": 126844,
+      "sha256": "e2c5fbf511102a44cb3154c47e4d82e434d3e124c73a8a8b0aadc4658e49c8ec"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/dog-pawhut.html.gz",
+      "bytes": 193877,
+      "sha256": "211176e46ddd88f18396126e96862dbd6e3de348c35c2323ed9c41ac2febe91f"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/dog-silvercircle-product.html.gz",
+      "bytes": 121094,
+      "sha256": "08d319ae9958ff2731e06a83a7db59bb8796a6d64caf6dd26b72f3abee9c6641"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/dog-silvercircle-products.json.gz",
+      "bytes": 198466,
+      "sha256": "41c54df090ed83f18fce7edfdd523adee86ee3850b5bce378132d1360b67f6d8"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/dog-silvercircle-shipping.html.gz",
+      "bytes": 95101,
+      "sha256": "34d572c784b5973c82da2032d3dd4c7c195d5d655464565660d1fc3f0fd1a818"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/dog-silvercircle.html.gz",
+      "bytes": 181407,
+      "sha256": "0edbd4b7b0dba3df453cca1a20b7af832863998b09062bea70316efbb3e8f89d"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/dog-slickers-products.json.gz",
+      "bytes": 34505,
+      "sha256": "bb18554de84bc8c59a5621cea986225b72ecc964b4f71bdd362a9002c94d4a15"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/dog-slickers.html.gz",
+      "bytes": 162549,
+      "sha256": "a4ac45a386cf6eee4873a99456d31c783e29863c3a2f606ff457e6b6391a7780"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/trail-greenfeathers-product.html.gz",
+      "bytes": 96923,
+      "sha256": "466b996163d1cf077dd5c10156e82b789c689fa02989acf53c63c4117e66e5d7"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/trail-greenfeathers-products.json.gz",
+      "bytes": 13139,
+      "sha256": "efb78fa643112bd3215e6baa14e43ccaf1f2974276fffc6d56807f01c7dc4f38"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/trail-greenfeathers.html.gz",
+      "bytes": 96940,
+      "sha256": "52c32ece90e6ccd8a163f58efa2d98b8da1356b15eccdf5ee2ce3fe0b5f4df09"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/trail-naturespy-product.html.gz",
+      "bytes": 116430,
+      "sha256": "8aa210b83a16a39a37be4bd81552020517cba69290b06505476f8b96e2ec5897"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/trail-naturespy-products.json.gz",
+      "bytes": 67643,
+      "sha256": "c241cdef844ba67b7d2189d48f7ed73abdf438be447e7571c3a638cb6991376c"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/trail-naturespy.html.gz",
+      "bytes": 82561,
+      "sha256": "5a4c801ee531f6dd4db983750a0bfd08468cd5f4de54a0737e0c04db13667022"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/trail-swoptics-delivery.html.gz",
+      "bytes": 80428,
+      "sha256": "dc387a808a39f267d77d4dc7978d3bf05abf22a5e24f276ff55708676506db54"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/trail-swoptics-product.html.gz",
+      "bytes": 98717,
+      "sha256": "b987ac1eff8bf9e36be7aa850fc8147486ff65841189e8dc26394067b61cde7b"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/trail-swoptics-products.json.gz",
+      "bytes": 20146,
+      "sha256": "7429c4dcdd68499fe9db698deab8177c068086de8e132cfede62e36aaab0c552"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/trail-swoptics.html.gz",
+      "bytes": 99800,
+      "sha256": "a9197f9e7d4db4648cd351f96294494e5900d48e3f569ed55fe3df7172ae0598"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/trail-wildview.html.gz",
+      "bytes": 9877,
+      "sha256": "5f6ce7c56e83a94a405cc8d67e9532845f2ce7520d95befb022e936740dcff6e"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/trail-wyldcam-product.html.gz",
+      "bytes": 91939,
+      "sha256": "d3b0b78ef15e0199657fbc8ae6cfebe54b1741f3ac9035f3aeb687999ef38f2c"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/trail-wyldcam-products.json.gz",
+      "bytes": 5483,
+      "sha256": "1c0c36575a2ac1dfd429d0ece3e12f46197b7fbb8a7e66b9b3f9ef70bb03426d"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/trail-wyldcam-shipping.html.gz",
+      "bytes": 55255,
+      "sha256": "07efe27038f91fb979a00ea4426f30e5792257d29c1ac3c72f098f68476181d0"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/trail-wyldcam.html.gz",
+      "bytes": 59759,
+      "sha256": "a1ccb11d58b823556899fc7ddb81fd46584afcdb843c1192f776e0234d7c2ce8"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/uk-cont2-bird-camera-serp.json.gz",
+      "bytes": 15484,
+      "sha256": "02dd87297b54f3df6241bb0647d475dfeb030f26f7ecdfc6fe33eae27784fefa"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/uk-cont2-dog-stroller-serp.json.gz",
+      "bytes": 13897,
+      "sha256": "4047a85e4a5875fbbc33be3a8cc6dab7f034d03f7f149d2fefbbd155f0d273f4"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/uk-cont2-green-feathers-ads.json.gz",
+      "bytes": 3472,
+      "sha256": "d583236d8c7d1e0f8d973e205d9e2cf2675b69e433660457dcbff4f4cebb7cca"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/uk-cont2-k9wagons-ads.json.gz",
+      "bytes": 2021,
+      "sha256": "e990c9150d3706a419de5b027d3bc89e1545956dcda22588738f94ac0618d6bf"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907/uk-cont2-trail-camera-serp.json.gz",
+      "bytes": 16700,
+      "sha256": "02c29da9c7ced8b4183fa24c159be9e7cc801e388dd1a6c99354a5d088be0085"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-concurrents-20260907.md.gz",
+      "bytes": 3800,
+      "sha256": "a8eb11544a99e47c80ff31038c60f20db00daa1fa73c71d2ec2fbc18c19d3a9e"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-keywords-20260907/digital-photo-frame.csv.gz",
+      "bytes": 965,
+      "sha256": "423de824d14877aa9e216c537f6711e856ee81edacf70043653f40376a6ae3ff"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-keywords-20260907/dog-bed.csv.gz",
+      "bytes": 921,
+      "sha256": "bb00edd388aff03dd9963fa0920dae3ee2a95f15c4d565e1d668d7458e0c91b9"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-keywords-20260907/metal-detector.csv.gz",
+      "bytes": 885,
+      "sha256": "d6bd27801048923eea002813a3bc7b3a999b19dfa082ae8c4f3314b579edf1dc"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-keywords-20260907/record-player.csv.gz",
+      "bytes": 869,
+      "sha256": "11f3ba505d1d3efcc4bce2b6333acf10ace8e985757d4633c9e50c6764e3d51d"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-keywords-20260907/seed-screen.csv.gz",
+      "bytes": 992,
+      "sha256": "8e1ad56e6ab557bb3381b6b8eab41f9e442e6b2455893a9812112666d72252f5"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-keywords-20260907/summary.md.gz",
+      "bytes": 1901,
+      "sha256": "5877f674eaa2d50a5a08b7a8093393179f18f9dcddad22a4227896986a8f51b5"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-sourcing-20260907/details.jsonl.gz",
+      "bytes": 18347,
+      "sha256": "3730b23ee88dc9ba4842cc9a6b5d7811cc91c06b391ca4bd3f1e131e2f28c2ec"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-sourcing-20260907/evidence.json.gz",
+      "bytes": 36744,
+      "sha256": "6ad05b75106c99040a0584259e58daabbbcf15adc761d5362e6b8ed4e4032945"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-sourcing-20260907/freight-gbp.jsonl.gz",
+      "bytes": 1002,
+      "sha256": "34de5d361eaf5b9f96122fd6597914e83c947a55c761343d98d19c7e0446dcd7"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-sourcing-20260907/manifest.json.gz",
+      "bytes": 3014,
+      "sha256": "49149809e0693f031541e2d646f53a11827046e9f5acc9541ac37319997238bc"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-sourcing-20260907/report.md.gz",
+      "bytes": 1343,
+      "sha256": "33d84261a91fa0d4f4c3eb01f26e9374b79765619a85e7ae8e1fa017d93a20fd"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont2-sourcing-20260907/search.jsonl.gz",
+      "bytes": 11016,
+      "sha256": "f45f4c3f74d5768f71f144e9e80619768ee77e2ec43d2b184ef535bb58b5c4cc"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/ads-creatives.md.gz",
+      "bytes": 1986,
+      "sha256": "79c6f5b97f3aa0d8ef085ee1acf514c695626f057310524b23d83fb6767eca16"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/dog-bigdog.html.gz",
+      "bytes": 79032,
+      "sha256": "47c2393187aa4122925208fae5b06610ff3f3b311360a864b5b6c24f64480191"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/dog-closer-product.html.gz",
+      "bytes": 135188,
+      "sha256": "f3172ef8428d685184a10275f511041eda181211c6708fe68c6fb084ffc4ed9a"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/dog-closerpets.html.gz",
+      "bytes": 118885,
+      "sha256": "f82e41f8cc0e7a14d67aab9e776f4d1985d009c20ea86d59062ea597cc2f9bb9"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/dog-george-product.html.gz",
+      "bytes": 52956,
+      "sha256": "03f0b2f45803ccc3a7434c5938b65c63cf741d634bebdae6cc798a44ddc08b80"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/dog-georgebarclay.html.gz",
+      "bytes": 144487,
+      "sha256": "9e3b0d75014762bd4af9b3a221f299a0cdfacf0d5c8eb0b4356cd4047c56671a"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/dog-petslovescruffs.html.gz",
+      "bytes": 122804,
+      "sha256": "5c3057cdf4e06844f213847089fc38d76e931ec590c773d4ce9fa7dac0545628"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/dog-scruffs-product.html.gz",
+      "bytes": 73299,
+      "sha256": "499cfcd84969f9fce0f8ba06f623c083dbb8d73f320bd6241e894f9abec107ff"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/frame-auraframes-en.html.gz",
+      "bytes": 124446,
+      "sha256": "63698b64e3af8b90af9fa0cfa4ec05860617c24a0b0a9559ce466139b775d034"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/frame-nixplay-product.html.gz",
+      "bytes": 142091,
+      "sha256": "5fe86d19cb1ca86a7a364dfb6413eb9efc2dda941bfed56dd5c6a0ca59085f59"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/frame-nixplay.html.gz",
+      "bytes": 118280,
+      "sha256": "4f8210f87ace6cbaf56ce53cd03df38df7c3553d6a80689cea84ac419634cc24"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/frame-pixstar-root.html.gz",
+      "bytes": 9560,
+      "sha256": "4a001855c9418e48cefb928695710517111333a0a8eed00d34e53c970468312a"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/mirror-grand.html.gz",
+      "bytes": 35252,
+      "sha256": "ab22a405ba0ca89432a59ff1c5135eabc989b09d73edd5831fde31fceb10e65f"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/mirror-hollywood-product.html.gz",
+      "bytes": 227790,
+      "sha256": "b0f2169d365442b25c26a97a00715969126b7f8898c042a63d1d588beb2833c0"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/mirror-hollywood.html.gz",
+      "bytes": 125674,
+      "sha256": "80959d0a5e978a176a351d1c7dfe5cca609fd7ea9aa324880c820becac0451b6"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/mirror-hollywoodnet.html.gz",
+      "bytes": 43737,
+      "sha256": "c1012e334f2e55e3f3a2ea46c61cb77603addbad27618f821d2f588c29ec4b25"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/mirror-vanitii-14-product.html.gz",
+      "bytes": 53613,
+      "sha256": "deab7da73a80a7d8315568dd9ffccf7a84dc1bd7e2c34b2ab8ae0be81889ac1b"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/mirror-vanitii-delivery.html.gz",
+      "bytes": 46916,
+      "sha256": "d8dcc28bc3a2c22240ff11270f3f0d5074b84d151de0fd1a98aaac833f1bf784"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/mirror-vanitii-product.html.gz",
+      "bytes": 59767,
+      "sha256": "1594a2ee9c0b2a6402fcb4c0fd6d1edf97ca433c79a461c0b177e772346fd054"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/mirror-vanitii.html.gz",
+      "bytes": 56984,
+      "sha256": "0549dba1fe672fd1931b74364f38b4f1bc7c44986cde8279eed3fe0a0df9f166"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/mirrorstore-product_backstage-professional_.html.gz",
+      "bytes": 21909,
+      "sha256": "5c0c067e1f25a082f23c1f92c262c064dc6eddf4f616199cdb45962ad8694de8"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/mirrorstore-product_classic-hollywood-mirror_.html.gz",
+      "bytes": 20218,
+      "sha256": "36bdf39ca4d77d7188d577335499f9cb0fe22e8951f481b0c9ffdba77f6f0b3c"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/mirrorstore-product_led-vanity-mirror_.html.gz",
+      "bytes": 20714,
+      "sha256": "ae45210d1d0d9dd89cc3a3b0289bcd94e35dac0813713168ee564aa669927c2c"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/mirrorstore-root.html.gz",
+      "bytes": 18737,
+      "sha256": "c0b368aa673166ad613d79dd1046d3b90ee386ba2c3f75c0893405b20f03b38d"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/mirrorstore-shipping-delivery_.html.gz",
+      "bytes": 16264,
+      "sha256": "e6d1720e1a899d67a63ddda4ac72c4b8eea92f1373360fa5838f439edced022c"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/uk-cont3-digital-photo-frame-serp.json.gz",
+      "bytes": 17326,
+      "sha256": "6cc3aa1eefb7f63b3e339a294296a039df9ce4c3f8ed57a528e4eb3aee1cfa83"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/uk-cont3-george-ads-20260907.json.gz",
+      "bytes": 5104,
+      "sha256": "6e4bac325728d8dee5c895b99d06555ebd0776ad1036f7f3441c9c6e708f9b6a"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/uk-cont3-hollywood-ads-20260907.json.gz",
+      "bytes": 2438,
+      "sha256": "ecd89ee1926d342559df12f9a078eb648336f5e650dc5fbf263be6d03a6b273f"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/uk-cont3-hollywood-mirror-serp.json.gz",
+      "bytes": 15995,
+      "sha256": "500222e83e4a3c28d92886af43d5a7181a1a364032d420704d45c16496b66f19"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/uk-cont3-mirrorstore-ads-20260907.json.gz",
+      "bytes": 622,
+      "sha256": "40de2a6182366c9b5338a0bb5441390386ac30025e582ec67b566a35bcd9adbc"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907/uk-cont3-orthopaedic-dog-bed-serp.json.gz",
+      "bytes": 6120,
+      "sha256": "768f8958d632fcabe4ee04302bb067d070e467636cd52dc7043d5fed744f8bd8"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-concurrents-20260907.md.gz",
+      "bytes": 4248,
+      "sha256": "36e6040ce95dc38424c7f60d1fcaa4a6c4ee1c4b2cedc6c7d01cea2dec871673"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-keywords-20260907/mirror-expansion.csv.gz",
+      "bytes": 1081,
+      "sha256": "643d8b2a7102cc6327c387e86b4a7df6a12f4562fae3f0b320a21eddd8b952a3"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-keywords-20260907/seed-screen.csv.gz",
+      "bytes": 557,
+      "sha256": "d1bb07c431577fa1b15252f6f9ec2511c8900f15c9ae4c2f6ec996b76652f6fe"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-keywords-20260907/summary.json.gz",
+      "bytes": 1556,
+      "sha256": "ec0900bcbd1199bc6d4a25aff19623c061288f96c7234f17ad33de747966734e"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-keywords-20260907/summary.md.gz",
+      "bytes": 1596,
+      "sha256": "c39b3349f1af1cedc83ad0785afcfc4b95e094c627192996c06d3dc9b16651b8"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-keywords-20260907/watch-universe.csv.gz",
+      "bytes": 1584,
+      "sha256": "ecb309f4fd49f72a7206a6cbed339ca7091cd0ad4bc8e317fbbfb4c58be0dbc1"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-sourcing-20260907/details.jsonl.gz",
+      "bytes": 17842,
+      "sha256": "7c1500913f58fb6fe3003795f1b5fe34051df0b7791f7bd2a2fd4b4d78b75cc7"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-sourcing-20260907/evidence.json.gz",
+      "bytes": 37909,
+      "sha256": "719f45916bcd1a7041455916c2d39da0578d19d0493e182c0c22aeb401f14a8f"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-sourcing-20260907/freight-gbp.jsonl.gz",
+      "bytes": 1053,
+      "sha256": "4f276a008b381594d3e7307b400af8233d67f803895369731e96cfcdea4fd05e"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-sourcing-20260907/manifest.json.gz",
+      "bytes": 2862,
+      "sha256": "a9f64d658a85275cd0070253c68e00787db4ef0bebd504faf54063d6b204b9d1"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-sourcing-20260907/report.md.gz",
+      "bytes": 1216,
+      "sha256": "695881420c8349edb3bd4285741da3f5a90d9f7320f054439a21bd191c29fc72"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-sourcing-20260907/search.jsonl.gz",
+      "bytes": 11248,
+      "sha256": "b67a9a988fb6a5d9fde295f38e994aa28145ea9bf90e8cba36afeba0e88fd2f0"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-watches-20260907/aevitas-box.html.gz",
+      "bytes": 117470,
+      "sha256": "09f181ef529c94daceb20aedf8fd516f6b8b470240381e31b780c9a4d2dd41a6"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-watches-20260907/aevitas-shipping.html.gz",
+      "bytes": 82908,
+      "sha256": "585ac8e659c4f3aa85bd58ba3f3cf3b31e688ae23e64107bd02f7841ce500b7c"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-watches-20260907/freight-style2.jsonl.gz",
+      "bytes": 585,
+      "sha256": "11da5502187be43f3e703d0434ebef45f4a71561b03abefd457ad050f9db095b"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-watches-20260907/jobs-ads.json.gz",
+      "bytes": 237,
+      "sha256": "a5d1e00163dbef952b39d62ae9471d38babb43f708b6f194c74d5038511960a4"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-watches-20260907/jobs.json.gz",
+      "bytes": 371,
+      "sha256": "2383d1e90ea5aa7bcd8ebaadc552db3e5bbe8fa74b7fcc3989f8ff6546cdcf08"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-watches-20260907/watchmatic-gb.html.gz",
+      "bytes": 127937,
+      "sha256": "008988cfa1a44b15c37ab619d64016f8e324290554a889f0997ec5858e931be5"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont3-watches-20260907/winderox-quad.html.gz",
+      "bytes": 68272,
+      "sha256": "9db5787ff664ae4438e8bb9643d30a3e2106edd6350644f88f0a27f1a5f247c1"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/ads-creatives.md.gz",
+      "bytes": 646,
+      "sha256": "004c2ad58170f632177d0e9d1d198a7047a966bc933d3597c32e0869d6b5a693"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/crawfordsmd.com.html.gz",
+      "bytes": 18049,
+      "sha256": "995c66fdca0928a2457db8b421e40956129d599f44e08f81212e09ff8d76a371"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/detectoristdirect.co.uk-products.json.gz",
+      "bytes": 89527,
+      "sha256": "79173f341d65a6abc85d8b910842680ea4d15650d7008e0106abab24b3284d4e"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/detectoristdirect.co.uk.html.gz",
+      "bytes": 49903,
+      "sha256": "67d3270451c4df0525c4f2f4b26368344a63eb84c56af025a091e91b5a8a63b4"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/detectoristdirect.co.uk_pages_shipping-policy.html.gz",
+      "bytes": 49237,
+      "sha256": "af33d9e5c1fa1b5280324ba9d4b51baec3ca6cbcd529287d23b469b15969a35e"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/detectoristdirect.co.uk_policies_shipping-policy.html.gz",
+      "bytes": 48111,
+      "sha256": "99dc7d680022e43549ea7c1862aa2f2d3a4fe157812f7894b4d8cc1828f51962"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/detectoristdirect.co.uk_products_minelab-go-find-22-with-free-carry-bag.html.gz",
+      "bytes": 60247,
+      "sha256": "6a2994356f60141095cc6e861889bc9cdd15fb6819ec54f2433fab4e0062ee21"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/detectoristdirect.co.uk_products_minelab-go-find-22-with-free-carry-bag.json.gz",
+      "bytes": 1736,
+      "sha256": "4d406ae59f94312de111ebbf99d9ffa2d5553ecf1645f59c252342e355c95f75"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/detectoristdirect.co.uk_products_viking-1.html.gz",
+      "bytes": 58104,
+      "sha256": "3cf3b630dc68ea2e33480c4b0c9fda8d14cfd8c4d19b472a27a6b0f8325df87d"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/detectoristdirect.co.uk_products_viking-5.html.gz",
+      "bytes": 57432,
+      "sha256": "f2d9b338380071367af8fdb7334cc8e7f209787530f9d19681eca756a29e8ddb"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/detectoristdirect.co.uk_products_viking-6.html.gz",
+      "bytes": 57469,
+      "sha256": "25111bcb90fec99fbaef134e82f87b57398ebc08c01f459c8acfe9b63633605f"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/detectoristdirect.co.uk_products_viking-6.json.gz",
+      "bytes": 1186,
+      "sha256": "ecb97983e6c88f7f04a2576af081b80c8f71edd4e25ee378443f73f2a99d8994"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/detectorwarehouse.com-products.json.gz",
+      "bytes": 337614,
+      "sha256": "25afc86910e62c7aacbee12f906c2c1dca38caacf63bd485f7771d03ea12be26"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/detectorwarehouse.com.html.gz",
+      "bytes": 126156,
+      "sha256": "7438b78c91a60b0cfce2921ddadd9d211c6ad90b6638fa9be171cc9f296015e4"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/duchymetaldetectors.co.uk.html.gz",
+      "bytes": 29769,
+      "sha256": "5c5e223ca7e80d6f082289ef3fe14dcce14e2cdaf551758357ed5e16f6fa188d"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/lpmetaldetecting.com-products.json.gz",
+      "bytes": 160272,
+      "sha256": "0d3cff9a682ac9031a0247185c4332bf26b6b9ffc3f470aa2fb5056bc3a88b41"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/lpmetaldetecting.com.html.gz",
+      "bytes": 149735,
+      "sha256": "2f20758bdfaca7c3aa99d80050ee7ee99cd75948917a68a294feba9c73740a3f"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/metaldetectingstuff.com.html.gz",
+      "bytes": 109339,
+      "sha256": "14b5147e61289f47ef3ccddfb3f104449050aae2f6fb5cce8bdc2c668ba39780"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/metaldetectors.co.uk.html.gz",
+      "bytes": 33657,
+      "sha256": "d566ce215440b35768ab7c156e7b21a26d99a9f8de5592ff46edd4c2acabe42e"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/peakyfindersdetecting.co.uk.html.gz",
+      "bytes": 36788,
+      "sha256": "06185538dd643831c14a3541490ab30157a7b937393495eaa55708e0057d0149"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/quildinc-tx850.html.gz",
+      "bytes": 40285,
+      "sha256": "846af5d2385da60e1a8a04a565b887cec3562657a428957f1ebcefd6f10c4ab7"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/quildinc-tx850.json.gz",
+      "bytes": 1449,
+      "sha256": "a3cf0f39f04d4455e0f9e4a508746df0d96f947920e84b5be514846efb1050b6"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/spinadiscmetaldetectors.com-products.json.gz",
+      "bytes": 216079,
+      "sha256": "0520ca3b787039da8dab63611b3b79e3057e3a65279f7c45bbd15fcdceac2fbe"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/spinadiscmetaldetectors.com.html.gz",
+      "bytes": 105663,
+      "sha256": "891193cf4b2c452dd3cc84e7bb5c3c38d4207466517971a4ed2bb42af16b8603"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/spinadiscmetaldetectors.com_policies_shipping-policy.html.gz",
+      "bytes": 88384,
+      "sha256": "65b85a4157ba8a877edec1cdbd8d5cbc94d88976c9fa0e9abbf24411b19a6a14"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/spinadiscmetaldetectors.com_products_teknetics-eurotek-metal-detector-1.html.gz",
+      "bytes": 114371,
+      "sha256": "1b2d2d60ece3797cdee1fb53b5cedbbb30c862dd219de31e5f07da9b27395ac3"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/uk-cont4-detectoristads-20260907.json.gz",
+      "bytes": 618,
+      "sha256": "e7fb16786452ae77757ed28d7e75c3388929a241002d8fb21f786188e1cfa6f0"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/uk-cont4-metal-detector-beginners-serp-20260907.json.gz",
+      "bytes": 13850,
+      "sha256": "ce22670c05d9406021479a64255c3ca73202fbba28b0023e861edc4c753ea31a"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/uk-cont4-metal-detector-serp-20260907.json.gz",
+      "bytes": 17127,
+      "sha256": "7770138da988e985bb78fb0e357be978bea9dc0aec7ea9b0c136e6e4f7487890"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/uk-cont4-quildinc-ads-20260907.json.gz",
+      "bytes": 609,
+      "sha256": "6476a828265b5d2d4b97a4b43f3c2c60cc5ca71466b5cb0574a7e691eb09c385"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/uk-cont4-spinads-20260907.json.gz",
+      "bytes": 3619,
+      "sha256": "2665129c2a28085a8b50da29e42b1666ca47dafffe2e1cc5efb2b009e0facc7b"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907/uk-metal-detectors.co.uk.html.gz",
+      "bytes": 35132,
+      "sha256": "b094b2e7465fefae84f59a9f00f7fcf21083938b9f45a871ec5eb46bdad4d68c"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-concurrents-20260907.md.gz",
+      "bytes": 2771,
+      "sha256": "1d18e1d0e4121eee0443c39eede8f9c2f4a954b79b877dfbed7d0401655d34b3"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-keywords-20260907/final-sku-keywords.csv.gz",
+      "bytes": 2268,
+      "sha256": "c5c1e31b60527932348f2588780528dbc3f689cb0c9676442701d1afc1086e06"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-keywords-20260907/final-summary.json.gz",
+      "bytes": 709,
+      "sha256": "6d280943abd51d7d5b4901d6896220eec245666d959aaf382653feda7de57f96"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-keywords-20260907/final-summary.md.gz",
+      "bytes": 1210,
+      "sha256": "5413757f8e62bc18df88ffbedb6f85429794f1e6e8c512997a73076095f46db5"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-keywords-20260907/keywords.csv.gz",
+      "bytes": 3283,
+      "sha256": "ff99abd8da206c1afa6c90034bdab5ab128811eabcbe505cb07d7abab041a475"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-keywords-20260907/summary.json.gz",
+      "bytes": 845,
+      "sha256": "b1d88d0732202def0c56c993ad7b420e4f414b6d25ccb588c284507ecd576859"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-keywords-20260907/summary.md.gz",
+      "bytes": 1466,
+      "sha256": "09ba903e0ee339247586ab5d4202715e79cb74b79f0692a478f5d8712b493064"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-keywords-20260907/trends-monthly.csv.gz",
+      "bytes": 396,
+      "sha256": "7650cdf9d6b24b209e7f76bc05555d9749b124612ea056ea62652a8223cc0aff"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-keywords-20260907/trends-q4.csv.gz",
+      "bytes": 139,
+      "sha256": "9d00eac92fc3b24acd15090e1cf72385d1e4df3498637ffaec07ae03abe9959d"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-sourcing-20260907/details.jsonl.gz",
+      "bytes": 9986,
+      "sha256": "436a34a083cd7a963fd85cc9b727fcdc92c3b1d920e24ea69ef93b96e09b5fa9"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-sourcing-20260907/evidence.json.gz",
+      "bytes": 47624,
+      "sha256": "23decf55deba652f83b1fb9d24b601195a334d1aa0972b5711986a53f8863cb1"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-sourcing-20260907/freight-gbp.jsonl.gz",
+      "bytes": 980,
+      "sha256": "4a8372be27d8be954af0d9c483c0aa3bb5cac29ebd4e83e419fc266bb6c6698e"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-sourcing-20260907/manifest.json.gz",
+      "bytes": 3351,
+      "sha256": "31c188429d88552ccf86d0adae710c3ade615e8c08ee7545b644a4f3d5b49f3f"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-sourcing-20260907/report.md.gz",
+      "bytes": 1241,
+      "sha256": "f7a8a7dfeb551e517e6285aa99bb2a1b48937b33b647e4dc78addb496b06f41b"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont4-sourcing-20260907/search.jsonl.gz",
+      "bytes": 10563,
+      "sha256": "3653978a495a6c950f30bc3108e70fc76e49996ca8a53a1ea64d8ef584921e8f"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/ads-creatives.md.gz",
+      "bytes": 957,
+      "sha256": "d6585322d3782b67464816910b95a901c4211d872f09daf6183bbad19f48e589"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/corset-story-gb.product.html.gz",
+      "bytes": 116245,
+      "sha256": "210cf1e685d2ea6fbb5703b312df99510be19522866ba094b10e5574dbf8d37d"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/corset-story-shipping.html.gz",
+      "bytes": 74358,
+      "sha256": "3f44d0bde6a52cd1fa0c78eeafc70a16950c62a1c1edd9a8bd7e8033b1f068fd"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/corset-story-shipping2.html.gz",
+      "bytes": 68630,
+      "sha256": "1bcd15efdcad352c57e25440e059854113cb6a656f22661c894cc1715fac5a30"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/corset-story.product.html.gz",
+      "bytes": 116245,
+      "sha256": "210cf1e685d2ea6fbb5703b312df99510be19522866ba094b10e5574dbf8d37d"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/corset-story_co_uk-products.json.gz",
+      "bytes": 180351,
+      "sha256": "75270e6648f9fda045a1e9358f7e8d464de8100ad639ba55377f8ae19524a55c"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/corset-story_co_uk.html.gz",
+      "bytes": 77871,
+      "sha256": "65b2a128bd32cb883f3348f984acc89c9d30420e9750ebe9b742cd48320af97f"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/corsetsnmore-_ab_0_country_GB.html.gz",
+      "bytes": 71083,
+      "sha256": "2e453327066b84e60bfcd95e77c68d5fcbdbe970c62d56edc2f6fc68e4267f57"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/corsetsnmore-country_GB.html.gz",
+      "bytes": 71074,
+      "sha256": "39670029067246bf6109cd43e7877b474e34a4eed347da33f2d482ccacce75d0"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/corsetsnmore-country_GB_currency_GBP.html.gz",
+      "bytes": 71080,
+      "sha256": "d431232527a0b3a851c86385041ef67f036064e85274dd6ef5e37262f502331d"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/corsetsnmore-currency_GBP.html.gz",
+      "bytes": 71073,
+      "sha256": "44b87edb4095036652d21f991eb13291bdf9290049c6c9a39e4b98f68e3be101"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/corsetsnmore-gb.product.html.gz",
+      "bytes": 71073,
+      "sha256": "c990cf0451049ce93a77b8263d1c8ddd5f12a5ac3a54beb9e4e8b6361b5f351a"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/corsetsnmore.product.html.gz",
+      "bytes": 71064,
+      "sha256": "11ca0e1d1986cfe78e6e3e1f09c792846d17e9ff0ac9966ed5ecf9d4a7263ff5"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/corsetsnmore_com-products.json.gz",
+      "bytes": 135467,
+      "sha256": "7ddf7c3636a71e7a743d1426ef4f799f211b473b769533258d5b1776a93117ba"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/corsetsnmore_com.html.gz",
+      "bytes": 81818,
+      "sha256": "072970776b32c62de20258f568bcb4528f6408ca7c30484aaf66cf8350a9a2fc"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/corsettery-delivery.html.gz",
+      "bytes": 76065,
+      "sha256": "cda8e4fba187090ab87c9fea532e1d48bab1b7c5d601aedfb3ba34f58a1d1fea"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/corsettery-delivery2.html.gz",
+      "bytes": 76038,
+      "sha256": "60437a3117896c810972dbb9734f4f5c66afebbf92653e2cf4a26201741165c1"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/corsettery-gb.product.html.gz",
+      "bytes": 126633,
+      "sha256": "43f60172933b82f08d3a90f5f36436d0f22676d825f11b83537f729f71e8145c"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/corsettery-shipping.html.gz",
+      "bytes": 76401,
+      "sha256": "f6b622a83ad913c7326e60ca4001efc530d9dc3c16af57da5b589181ed71e208"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/corsettery-shipping2.html.gz",
+      "bytes": 76038,
+      "sha256": "60437a3117896c810972dbb9734f4f5c66afebbf92653e2cf4a26201741165c1"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/corsettery.product.html.gz",
+      "bytes": 136789,
+      "sha256": "2f3c0c38b07edea947a53e1ed940a88dcd0852f8de8df7b9c6b3edb8e67c241e"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/corsettery_com-products.json.gz",
+      "bytes": 405404,
+      "sha256": "c6b21843da91ee4e25ca80accf5aae0483c209b47f0086870ddaa8169344a81c"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/corsettery_com.html.gz",
+      "bytes": 98031,
+      "sha256": "7bed37c5171121a22879bcf4e5ae77a0a5ab0a8fff80e42b11827e33e83e982c"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/luxenoir-after-localization.product.html.gz",
+      "bytes": 83945,
+      "sha256": "be634c17d616dcd0fa2a213aa70c0fc2eb1a4b70399099c82280f1425ccd312f"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/luxenoir-creative.html.gz",
+      "bytes": 365892,
+      "sha256": "39bbe7496f9546f7d06f1cf81dc04623c386c2592b512c0124f82944c726aae3"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/luxenoir-gb.product.html.gz",
+      "bytes": 83930,
+      "sha256": "4aca43c017211d48d57f919f8e231e6bb5818ef47c6f01de970dd0172002193d"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/luxenoir-ivy-black-brocade-gb.html.gz",
+      "bytes": 89897,
+      "sha256": "a982064fb1341db71388f8ea5c7b55fb3434f31c42ce1fe19f4643f7819aadf2"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/luxenoir-localization.html.gz",
+      "bytes": 1541,
+      "sha256": "ee2a1f753993a39e94562171166da897750772c1667c324f9204f3d36da3671c"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/luxenoir-shipping-policy.html.gz",
+      "bytes": 58813,
+      "sha256": "d4c25656c906732d453cce40c73473c8b3dd8bebe2c49fc64b035bdaaf89d2f2"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/luxenoir.product.html.gz",
+      "bytes": 83924,
+      "sha256": "da73d3388977b855ca1a5c2ae55cde561c65bbf029bebe0b8307aefa5b77c26d"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/luxenoir_com-products.json.gz",
+      "bytes": 156582,
+      "sha256": "90aac21e9ef7859d0df952e4ed25a0b546f3df176e7f13369bdce1537bd6026e"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/luxenoir_com.html.gz",
+      "bytes": 74097,
+      "sha256": "1e4a9fc0a888f1d28f99470bffee56e72d01ec97c5db24d19f43fa35c2289666"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/uk-cont5-corsetstory-ads-20260907.json.gz",
+      "bytes": 614,
+      "sha256": "3655803f85d928166dea8beb5f377ce802cdf3a969952f63e5c9aab626535bca"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/uk-cont5-corsettery-ads-20260907.json.gz",
+      "bytes": 609,
+      "sha256": "763abe338cd8982579923cd8d43c9440a520a101ce6af5484da5fb43cd028cb8"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907/uk-cont5-more-ads-20260907.json.gz",
+      "bytes": 945,
+      "sha256": "46172c399579d6f8922ce2eff62f256fafbcc99f7799b3fd1c8c52ae61e17522"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-concurrents-20260907.md.gz",
+      "bytes": 2887,
+      "sha256": "2f10d3c8634dbfc9a431f50d46679187a93df4f8af5d59caa90fab46dc32f04b"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-sourcing-20260907/details.jsonl.gz",
+      "bytes": 9576,
+      "sha256": "9e4698405b7745dd9f35915d04ad896e23d316ada0fea9fba6f7b0cbda139a93"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-sourcing-20260907/evidence.json.gz",
+      "bytes": 24538,
+      "sha256": "a1df38e48be01eb6a1d983bff35729962f6fbf93e2ddf8c5bfcc8a2d054d0ff7"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-sourcing-20260907/freight.jsonl.gz",
+      "bytes": 894,
+      "sha256": "28c9bb75286f03ac7e1ab75918c1ad49f32f4325fd8f808140b7ebf6aaab5224"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-sourcing-20260907/manifest.json.gz",
+      "bytes": 1361,
+      "sha256": "568bcb505152531e48240d66f70be688d4f11b7b88ff5b28c061c56b3ee186b3"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-sourcing-20260907/report.md.gz",
+      "bytes": 1799,
+      "sha256": "57a7e22811aef60e1d885e8e41b6cfff51051567ded5fa467d851c60f02a9a6c"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont5-sourcing-20260907/search.jsonl.gz",
+      "bytes": 6972,
+      "sha256": "75db031f788e2f05633af57babb27bbac735424323a47663c36857ff026d7b5b"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont6-sourcing-20260907/details.jsonl.gz",
+      "bytes": 9130,
+      "sha256": "3c5f05e3305bc73b19b0e6cf42fa13065bb7df2c17433345c7de6107f4a6133f"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont6-sourcing-20260907/evidence.json.gz",
+      "bytes": 25419,
+      "sha256": "3aa40837f0ee69f007912de72ee4b37531ac9b9ebccf6a33f7891b21d3f6a0d7"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont6-sourcing-20260907/freight.jsonl.gz",
+      "bytes": 813,
+      "sha256": "ed9a077654127b95ab890c5f40bcca2b5d1a75f9774f0c8e7fd42aee1672708d"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont6-sourcing-20260907/manifest.json.gz",
+      "bytes": 1436,
+      "sha256": "02201571ed162be9f62e590e9ebf49e8c78cb5821e3860c1682acef5f85152a4"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont6-sourcing-20260907/report.md.gz",
+      "bytes": 1609,
+      "sha256": "1f67234c67a0459a2abc2b1c6b91d5c81a34731c10407da7ded1dea454b12927"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-cont6-sourcing-20260907/search.jsonl.gz",
+      "bytes": 6113,
+      "sha256": "3ecb126e42e8af0271159c2a9a82b32c4703c692a9853d0a21497f8f92ee3b38"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-final-chess-ad-20260907.md.gz",
+      "bytes": 1487,
+      "sha256": "46f7d61d4b296cf0767a21e6d0e3c274673b5c8ecd246504056f264962da046b"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-final-keyword-audit-20260907.md.gz",
+      "bytes": 936,
+      "sha256": "8db9c6e84d5aed22dbb8880da433ad801eebd6ecffad34efa367396f52a04fd3"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-final-search-ads-20260907.md.gz",
+      "bytes": 2763,
+      "sha256": "d5073249b1331fa1d2ece43d72cfcebc4dbabc30364fc18f2f251bd31ee5b116"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-final-winder-sourcing-20260907/details.jsonl.gz",
+      "bytes": 7327,
+      "sha256": "a48c869e51cae5cc6c175cb0cd232fec604c65a7d62eef4635212c915f48e566"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-final-winder-sourcing-20260907/evidence.json.gz",
+      "bytes": 20418,
+      "sha256": "54483e49e8f66470512f920ab5db2016fa3e19505f87e0204622cd4068539c6c"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-final-winder-sourcing-20260907/freight-highstock.jsonl.gz",
+      "bytes": 611,
+      "sha256": "ba492dd9cb9222d1886cdec70131c1582d67b67fe888abd1558f0af6864fcfcd"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-final-winder-sourcing-20260907/freight.jsonl.gz",
+      "bytes": 482,
+      "sha256": "fe350e5ec46cff5aca3b207095298c8a13c53f49b2cd93ccec322b5101736724"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-final-winder-sourcing-20260907/manifest.json.gz",
+      "bytes": 1960,
+      "sha256": "0ac125891a3e133a1702f8301eebaa71ca2a8278d5ad6575dc3e3759a006679f"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-final-winder-sourcing-20260907/report.md.gz",
+      "bytes": 1452,
+      "sha256": "2c57dc1227496b333a1ea6950b11b410102b66269c61a3aa1e853793236eaf53"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-final-winder-sourcing-20260907/search.jsonl.gz",
+      "bytes": 3539,
+      "sha256": "190a7e6658519de12c6a1faecf737d0f4ac1cc4b9a5b6e34f45f6cdcfa96a1bc"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-metal-adult-20260907/details.jsonl.gz",
+      "bytes": 13121,
+      "sha256": "4a56532acb7715b2ef978353c760e489b8e6145b024d6a97dd1b4decd295deec"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-metal-adult-20260907/freight-choice.jsonl.gz",
+      "bytes": 622,
+      "sha256": "662a7d023ce6ace13528f689468c94346cf55649ee891e220c6cce7fbb7cced2"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-metal-adult-20260907/freight.jsonl.gz",
+      "bytes": 652,
+      "sha256": "1eda8afca077ab89a27937dabe2317bedc3e0911a1a8dff24bbe7884acc1242c"
+    },
+    {
+      "path": "preuves/complement-20260907/uk-metal-adult-20260907/search.jsonl.gz",
+      "bytes": 6975,
+      "sha256": "66fe21b1cea8fb2d77f7e1da838007ac6c7aa458ecc71f9db20c0c41211319b4"
+    },
+    {
+      "path": "preuves/observations-navigateur-complement-superviseur.json",
+      "bytes": 6377,
+      "sha256": "76a6bf77957def76d83194bc37a8fc3029eebfea307fb363638d1d7af0798cab"
+    },
+    {
+      "path": "preuves/observations-navigateur-superviseur.json",
+      "bytes": 4372,
+      "sha256": "9408bb7d05353d027dc819bde46937cb0c408bb88ff19139863cee95610698af"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-details-bodycam.jsonl.gz",
+      "bytes": 14809,
+      "sha256": "f3651b116df1aacd8f304d889a666c634c6624dfc91f52910b989098e52c0faf"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-details-microscopes.jsonl.gz",
+      "bytes": 8635,
+      "sha256": "1fcb25ebebdbd155a875a7e2aa8632d3ad74ebcd73cbd5aad20b4b9f1ae3e42d"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-details-nightvision.jsonl.gz",
+      "bytes": 8824,
+      "sha256": "c2055ca060726c1dfd1371aff12842469d17763ab73c31b15246152954e09f08"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-details-v2.json.gz",
+      "bytes": 19599,
+      "sha256": "c7843ea2a3d25a687d1a9c26fe5ed581b4c5c16d00d5d40f3673fe28d0bcc8b4"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-details-v2.jsonl.gz",
+      "bytes": 17689,
+      "sha256": "61bd9e36e965707d57954b2810669d9718e88135209f6e89d3e280afbc820e09"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-details-v3.json.gz",
+      "bytes": 20728,
+      "sha256": "15ae97c1ec70f2c067f87c412dd3b6a3c92b4764aeb8309c9f3d9c528a5b9778"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-details-v3.jsonl.gz",
+      "bytes": 19552,
+      "sha256": "10c0f0fb8bc69bcb855bc2137ca66838a970d4dfd72475806895ebe17c86af04"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-details.json.gz",
+      "bytes": 14705,
+      "sha256": "91c2d4fa399e2eb1c5571ce31591a4501d7338b148a57d3e91e0a4f6970f1cda"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-details.jsonl.gz",
+      "bytes": 13874,
+      "sha256": "c9a072a62950864a1a4a27e92b1b1761420dc42a061155e3089bb32fe10a5376"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-freight-bodycam.jsonl.gz",
+      "bytes": 765,
+      "sha256": "67e32118162b4adeedf7f8c2781b06cf19971ceff0718fbb8de5d0305ba77862"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-freight-gbp-v2.json.gz",
+      "bytes": 993,
+      "sha256": "7a86c078a02531b0e09dd4e79a7922de3eddc0ae6520b4ea610b8745522d9318"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-freight-gbp-v2.jsonl.gz",
+      "bytes": 1055,
+      "sha256": "7cfd30b6f9ec20b093b95961f49d246c865e4be906c4ce171eda9bdc9cacf2a1"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-freight-gbp.json.gz",
+      "bytes": 998,
+      "sha256": "f544efbfb6184a024996b5429d4bdc9302304b3425fe63b8881815bda599f687"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-freight-gbp.jsonl.gz",
+      "bytes": 1062,
+      "sha256": "fa33459467fa2346157c7ceab7dc577fd5d6e8a6544eaa6f4fc6d464b2ff0cc8"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-freight-microscopes.jsonl.gz",
+      "bytes": 893,
+      "sha256": "19938466f81282066e148b936bab9a51c1acb7b2b190f31e6c5bc4953e4ac67a"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-freight-nightvision.jsonl.gz",
+      "bytes": 655,
+      "sha256": "587c65c958a1f39b9e5ca85db56b2d11832968a6cb226c68b7bc1812b5dee5b7"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-freight.json.gz",
+      "bytes": 804,
+      "sha256": "87f57334a3a445b890b534fe0c3da490670d7fe41108f1b6711d3128e17801ae"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-freight.jsonl.gz",
+      "bytes": 882,
+      "sha256": "a6a3e801ae901ba66365eef35190c7ac004e0ec58413e98ba58be7183487dba5"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-search-bodycam.jsonl.gz",
+      "bytes": 6604,
+      "sha256": "569ac25170248dc6f05162c08ec84d278d7d8e850cfee060c97e352fb0af08fe"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-search-microscopes.jsonl.gz",
+      "bytes": 6190,
+      "sha256": "74fed966d5441d9f1122df5610547641736fa073d8dc50d294fd4ab99dac4966"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-search-nightvision.jsonl.gz",
+      "bytes": 6329,
+      "sha256": "e0f0d774cf85a294ff3970332a6fe2aa1e12f97afb89aeb8dd9ae4ce87d70c33"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-search-v2.json.gz",
+      "bytes": 8535,
+      "sha256": "c58c7442bbb82b067cba487801f990542b5b0c13372a120b5ffff08cd698e934"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-search-v2.jsonl.gz",
+      "bytes": 8556,
+      "sha256": "3ffedd488daf1669e712028d286b45b0c37e6114e65c279c0c990f41653d1756"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-search-v3.json.gz",
+      "bytes": 7161,
+      "sha256": "9fcede618f699d7dbd93cfbfb0a314eede04340a5647466f76f2a3f55581e5d3"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-search-v3.jsonl.gz",
+      "bytes": 7175,
+      "sha256": "2ded3d7882f0412c49c1e9bd1a8e79f5c005f1a6c0f7f82f018a8d6145b67cde"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-search-v4.json.gz",
+      "bytes": 9453,
+      "sha256": "b28ebba73619ecc111ed5494a9851215e2f6841fc9f4a1bfe69790ce4cbf9cd2"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-search-v4.jsonl.gz",
+      "bytes": 9437,
+      "sha256": "c7b628b9e1cb8ccf07577d4c5fb6df80ad659dcbae5d0327b554689cecdd31dc"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-search-v5.json.gz",
+      "bytes": 5872,
+      "sha256": "89eb71eeb5f436f0567466385c40af2b2c996e16cc24186a3b47a8211358d9fd"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-search-v5.jsonl.gz",
+      "bytes": 5878,
+      "sha256": "15e6c9934d3f0677f430fa2f68034bcc995836cf966771037b7195241a7860ce"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-search.json.gz",
+      "bytes": 8251,
+      "sha256": "5722f8f228b6f44f1f984bdaebbc7ee6059947ec5a44a3e13494ef68ff922a70"
+    },
+    {
+      "path": "preuves/uk-20260907-ali-search.jsonl.gz",
+      "bytes": 8273,
+      "sha256": "25f4f120fe648c2bc0e5c26cd9fc8c4efe23be5758a8ec0ec94730716ea6d4e2"
+    },
+    {
+      "path": "preuves/uk-20260907-british-chess-ads.json.gz",
+      "bytes": 879,
+      "sha256": "0c5e1089bcd4b516fd80bfeeb16ec35ef94615b8e50cc36ea015f38ab1398984"
+    },
+    {
+      "path": "preuves/uk-20260907-carplay-serp.json.gz",
+      "bytes": 6851,
+      "sha256": "c27421cf716b18a255656e1b35a1531c6abcd5a8cb14e0b81a6b53e8ad1c0aaa"
+    },
+    {
+      "path": "preuves/uk-20260907-carplay-volume.json.gz",
+      "bytes": 1073,
+      "sha256": "ecc3a04da2c92b4bb02f095c9851f8c49d572752af4301e3a514e8fd56aa96a3"
+    },
+    {
+      "path": "preuves/uk-20260907-chess-ads.json.gz",
+      "bytes": 4725,
+      "sha256": "eb814333dfefff90913adc27c0963bc70434c25a48bda397da9911abbd8f565f"
+    },
+    {
+      "path": "preuves/uk-20260907-chess-serp.json.gz",
+      "bytes": 4370,
+      "sha256": "5e98983ae479302fbc98350418f99046ee339af2894fdf68b8da0dc46ffddb0b"
+    },
+    {
+      "path": "preuves/uk-20260907-crystal-bowls-serp.json.gz",
+      "bytes": 6577,
+      "sha256": "39efe84b3a29eed7e5e99df57d86c0c541ed370ce83227bbc0d6eb041ec427a5"
+    },
+    {
+      "path": "preuves/uk-20260907-diesel-serp.json.gz",
+      "bytes": 8116,
+      "sha256": "457c8f29fa178bf1b98c817e60c9c76620aca0c7e3990366050dab118cca01c4"
+    },
+    {
+      "path": "preuves/uk-20260907-diesel-volume.json.gz",
+      "bytes": 1198,
+      "sha256": "010984d969510008a6edd42a1d74ece39f777b328cef1b00fc8ff36652591a01"
+    },
+    {
+      "path": "preuves/uk-20260907-gokozy-ads.json.gz",
+      "bytes": 608,
+      "sha256": "72428bef91a48167555642c5d99b754617907afdc17896048c0770215c514698"
+    },
+    {
+      "path": "preuves/uk-20260907-google-text-ads-abayabuth.com.json.gz",
+      "bytes": 3982,
+      "sha256": "c3d5cf3b59c786759cc7bbc9972cc429530a8a1dfda5fcef326869dee90537b7"
+    },
+    {
+      "path": "preuves/uk-20260907-google-text-ads-abayasboutique.com.json.gz",
+      "bytes": 614,
+      "sha256": "f4fa33c553be99c9f118ea902f24b474b5b73b4fde078bdf79a2d0ab0af6bb48"
+    },
+    {
+      "path": "preuves/uk-20260907-google-text-ads-allendale-ultrasonics.co.uk.json.gz",
+      "bytes": 3834,
+      "sha256": "49555f1521e39be2ea2a4a353dd0fcc4d586a3cbbe273a39ff504dadf7cc3099"
+    },
+    {
+      "path": "preuves/uk-20260907-google-text-ads-amscope.co.uk.json.gz",
+      "bytes": 1990,
+      "sha256": "a34b351f71b94adab3cbd15c7db7a17123858b1388b02491f0faa18691c99dfb"
+    },
+    {
+      "path": "preuves/uk-20260907-google-text-ads-astroshop.eu.json.gz",
+      "bytes": 609,
+      "sha256": "a446828f33e7dc7b0637fc4f2cbbb6483a670eab86f47329bbf8ae913ffb6a26"
+    },
+    {
+      "path": "preuves/uk-20260907-google-text-ads-boblov.com.json.gz",
+      "bytes": 605,
+      "sha256": "a0d0c634d940ae68934b54f1d6ffe21647b0e5a3a9e5553d4b62108107a95c99"
+    },
+    {
+      "path": "preuves/uk-20260907-google-text-ads-bodycamera.co.uk.json.gz",
+      "bytes": 614,
+      "sha256": "c16185d2d1ac0ae91cda0dc7d53b3320bfaf7723c436ce2d9488fc9da5f67376"
+    },
+    {
+      "path": "preuves/uk-20260907-google-text-ads-brentwoodradios.co.uk.json.gz",
+      "bytes": 1662,
+      "sha256": "e290435ffedfb8e3be2ca61a0f9383993888d869269a2d2e804ec4dba3577062"
+    },
+    {
+      "path": "preuves/uk-20260907-google-text-ads-bresseruk.com.json.gz",
+      "bytes": 2649,
+      "sha256": "99d51a58584ec99712d80539d36bbb256b28010dd45043b7059480514fe827b1"
+    },
+    {
+      "path": "preuves/uk-20260907-google-text-ads-creworksequipment.com.json.gz",
+      "bytes": 613,
+      "sha256": "5331a258eee9faee46b65122d2849fad7dad464248e8a06e92b5e86a96af92ee"
+    },
+    {
+      "path": "preuves/uk-20260907-google-text-ads-eisenlink.com.json.gz",
+      "bytes": 608,
+      "sha256": "1d6877bfada31e98cab2c773b2c5bb39e84c6de505b0a1af360c37467b05711a"
+    },
+    {
+      "path": "preuves/uk-20260907-google-text-ads-everycarcovered.com.json.gz",
+      "bytes": 611,
+      "sha256": "83d81f18b641715c78140f913bacfd9304f62523cfe5a67ef1b924a2e296160b"
+    },
+    {
+      "path": "preuves/uk-20260907-google-text-ads-firstlightoptics.com.json.gz",
+      "bytes": 1957,
+      "sha256": "0250f9b393645871e0135a3ef8077841a77e3a94ff813f9ce9769c145c45c053"
+    },
+    {
+      "path": "preuves/uk-20260907-google-text-ads-gymsets.co.uk.json.gz",
+      "bytes": 2928,
+      "sha256": "2c35638c0d212384b056811cf20c7f67ecc39103f96a7933f6a59f2d4b185ea3"
+    },
+    {
+      "path": "preuves/uk-20260907-google-text-ads-hawaaclothing.com.json.gz",
+      "bytes": 2280,
+      "sha256": "3c20a46394624e828ebf6ccb97bcb174bdbf104b7e3ba4200fce036159f919a3"
+    },
+    {
+      "path": "preuves/uk-20260907-google-text-ads-muscleiq.co.uk.json.gz",
+      "bytes": 3253,
+      "sha256": "ed47551057f07820985e93ebae2f2f67e9aabed318b407ef9852b1224e1339f6"
+    },
+    {
+      "path": "preuves/uk-20260907-google-text-ads-nightfoxstore.com.json.gz",
+      "bytes": 860,
+      "sha256": "623ab5afb2c258a3dd8d17857f69bfa0b959b3de7acbf97a52e43bf302d550d8"
+    },
+    {
+      "path": "preuves/uk-20260907-google-text-ads-revealmedia.co.uk.json.gz",
+      "bytes": 1768,
+      "sha256": "20dd523f68569056febc32ed10381cfd4e3add1c37507abeb1d845074e87a386"
+    },
+    {
+      "path": "preuves/uk-20260907-google-text-ads-stormcarcovers.co.uk.json.gz",
+      "bytes": 1149,
+      "sha256": "f24b9f17bb63c2cc3f38c6263fab47ced066276cd7df19f517fcf1d1b9a485cc"
+    },
+    {
+      "path": "preuves/uk-20260907-google-text-ads-swiftmicroscopes.com.json.gz",
+      "bytes": 612,
+      "sha256": "7d5bb4370fd1f1018912dfbe6d1274942a7661cd2bddacf85655dbc5b98f8ddd"
+    },
+    {
+      "path": "preuves/uk-20260907-google-text-ads-telescopesplus.com.json.gz",
+      "bytes": 610,
+      "sha256": "bd01d788f754b008d1162062af06c698fa337b183efaff809cff076f0f9e3da4"
+    },
+    {
+      "path": "preuves/uk-20260907-google-text-ads-uk-telescopes.co.uk.json.gz",
+      "bytes": 617,
+      "sha256": "6bb91d115aa0b25cbdb348bff047e28fa9ccb712e7f5fb4ee52df5cc3766490d"
+    },
+    {
+      "path": "preuves/uk-20260907-heated-gilet-serp.json.gz",
+      "bytes": 14712,
+      "sha256": "3076565542d501642aa53d9a4b3cafbd1e3b8ca6e1a0f60ee5183e8c763690b8"
+    },
+    {
+      "path": "preuves/uk-20260907-ideas-abaya.json.gz",
+      "bytes": 80300,
+      "sha256": "71b38c6a84e17ad741d7ee3d18a6792ebc877fb7de3a60fa27dbc3e539d503be"
+    },
+    {
+      "path": "preuves/uk-20260907-ideas-dumbbells.json.gz",
+      "bytes": 90528,
+      "sha256": "b66dff89c6aa310ada493b073725921a021ce6d1224afae3a74f72d06010dae4"
+    },
+    {
+      "path": "preuves/uk-20260907-ideas-microscope.json.gz",
+      "bytes": 55148,
+      "sha256": "b6e0b4a4bf54b9c57b936b0994bc87d8d698a99225709cf94f0700ae9c654175"
+    },
+    {
+      "path": "preuves/uk-20260907-ideas-telescope.json.gz",
+      "bytes": 152572,
+      "sha256": "d8bb2bddbc8e8499815ecbaec84b29bcb84d69ba7642ac9e5bde4862e0a0d8cb"
+    },
+    {
+      "path": "preuves/uk-20260907-ideas-ultrasonic.json.gz",
+      "bytes": 30390,
+      "sha256": "bd51d23ff71eadeaa2a57363c0344ab6d8fe621d2128f10ce3250b2c34fe6682"
+    },
+    {
+      "path": "preuves/uk-20260907-nightvision-keywords.json.gz",
+      "bytes": 182662,
+      "sha256": "67bbb973872e330e030fb55571b05f06a5001c43fa0354b51a3b44147d78bea7"
+    },
+    {
+      "path": "preuves/uk-20260907-ororo-ads.json.gz",
+      "bytes": 605,
+      "sha256": "8970659d5c69db6cee5f9620845cc9ac34ec12b3a5d6f28f46bc9371cec520a7"
+    },
+    {
+      "path": "preuves/uk-20260907-ororo-root-ads.json.gz",
+      "bytes": 1079,
+      "sha256": "218921afdee6bab3e66590ccbbe8fd4ca9a6d8068da382209cf67bd97de3b928"
+    },
+    {
+      "path": "preuves/uk-20260907-q4-chess-expansion.json.gz",
+      "bytes": 158493,
+      "sha256": "fb81e363f890142f7941952cfdaf0f1a76582793d474a795ad4b6284ba218c9f"
+    },
+    {
+      "path": "preuves/uk-20260907-q4-heated-apparel-expansion.json.gz",
+      "bytes": 187848,
+      "sha256": "5d2a1a9c3510f7851e5a40b2561465eb1a43f820107436cc72c5c572ff4c5f86"
+    },
+    {
+      "path": "preuves/uk-20260907-q4-seeds-search-volume.json.gz",
+      "bytes": 1641,
+      "sha256": "638dfa03bf06112c83d572d2f6dae2938db0a8a6366049e583b3509cea2569e7"
+    },
+    {
+      "path": "preuves/uk-20260907-serp-abaya.json.gz",
+      "bytes": 5993,
+      "sha256": "d3f6fccb26193765cded7f8569a90da99685b7489a6237c0a61371d8905ed13b"
+    },
+    {
+      "path": "preuves/uk-20260907-serp-adjustable-dumbbells.json.gz",
+      "bytes": 6781,
+      "sha256": "e89c249d7e16f08c5f7263f916865a6d9455805faabf7f67883ce9aadf17d856"
+    },
+    {
+      "path": "preuves/uk-20260907-serp-body-camera.json.gz",
+      "bytes": 5571,
+      "sha256": "30fc1463ea301e4cb213e58b3a00ff47325eaf842b5faf1a9d4300ce5963c472"
+    },
+    {
+      "path": "preuves/uk-20260907-serp-car-cover.json.gz",
+      "bytes": 7612,
+      "sha256": "6dbbd07fd44db490f9bdfcc34b867780b3d80fc8e16ed4550824af90df3df98a"
+    },
+    {
+      "path": "preuves/uk-20260907-serp-changing-robe.json.gz",
+      "bytes": 4833,
+      "sha256": "94dbf43eaa5927ac95fa201d3bbbc9867d2b4f802599e66d2fe894d32c91f7ab"
+    },
+    {
+      "path": "preuves/uk-20260907-serp-ice-bath.json.gz",
+      "bytes": 5099,
+      "sha256": "5a518639295a4170cf102bc9c0ba7445d5f0b1ef72036b205b613759614f8ef7"
+    },
+    {
+      "path": "preuves/uk-20260907-serp-led-face-mask.json.gz",
+      "bytes": 8684,
+      "sha256": "966a0aa8eba7a43cea7e1c5b1d5e00258a55f59d4eaedba9aefbd8e5bfc4695d"
+    },
+    {
+      "path": "preuves/uk-20260907-serp-microscope.json.gz",
+      "bytes": 8365,
+      "sha256": "ca69dd08ae7718453d78a0df225b0aacc587f6cdf0c1b137a69c0371a122cac1"
+    },
+    {
+      "path": "preuves/uk-20260907-serp-nightvision-binoculars.json.gz",
+      "bytes": 32565,
+      "sha256": "8419772ff0ed9ee5e90dd913cfdac2e47b1cee7d225e41923b5dd885b4deac2d"
+    },
+    {
+      "path": "preuves/uk-20260907-serp-nightvision-goggles.json.gz",
+      "bytes": 33784,
+      "sha256": "a3d203df646b9e1e19af04a54012e1897c07b68899e49fb695e7e0bd2e2c5933"
+    },
+    {
+      "path": "preuves/uk-20260907-serp-pilates-board.json.gz",
+      "bytes": 4604,
+      "sha256": "fb0863af45b8771de066e2904ab54324798953622dd3b0a7bebf6565d9843b80"
+    },
+    {
+      "path": "preuves/uk-20260907-serp-portable-sauna.json.gz",
+      "bytes": 8990,
+      "sha256": "131d703b37b57f6fac1165cc2d9e466b986fe8dd39533875acc9c221beb62ab9"
+    },
+    {
+      "path": "preuves/uk-20260907-serp-telescope.json.gz",
+      "bytes": 4552,
+      "sha256": "adde92726e24a2f770c7fac9d4f1cbef929e6253f2fbeedc280e79b992c4d79b"
+    },
+    {
+      "path": "preuves/uk-20260907-serp-ultrasonic-cleaner.json.gz",
+      "bytes": 9667,
+      "sha256": "f40b0551fc16e5a45ca9e4768d66e37f497c363386f026c33701911cebda9c1d"
+    },
+    {
+      "path": "preuves/uk-20260907-serp-ultrasonic-jewellery-cleaner.json.gz",
+      "bytes": 9241,
+      "sha256": "f8cd8ef7a01065cc625233259707435959da4c88daa55983d71ce4ce768d4b02"
+    },
+    {
+      "path": "preuves/uk-20260907-serp-waterproof-car-cover.json.gz",
+      "bytes": 8608,
+      "sha256": "d865833789fda75aef6b6d689ca71ebe3cb44fec8fcf9683b3889321d0078a89"
+    },
+    {
+      "path": "preuves/uk-20260907-serp-weighted-vest.json.gz",
+      "bytes": 8310,
+      "sha256": "c3ca636c1058a9c9d7945236594b77ff0773b0422966057038ee70d597caa0a0"
+    },
+    {
+      "path": "preuves/uk-20260907-soundtherapy-ads.json.gz",
+      "bytes": 619,
+      "sha256": "f2ceea63c8badba357666f476ad185ca53c19233ffe640be5164d1a176d23fae"
+    },
+    {
+      "path": "preuves/uk-20260907-trends-abaya.json.gz",
+      "bytes": 1592,
+      "sha256": "41e15299272c9ea8709bb6aa38c11e88d56cd266b5fee957a02e31edadc38207"
+    },
+    {
+      "path": "preuves/uk-20260907-trends-adjustable-dumbbells.json.gz",
+      "bytes": 1569,
+      "sha256": "26fe3ce7e3023c32dd9a999646a98ccea68095f5eef30ed59c42b64813557fb8"
+    },
+    {
+      "path": "preuves/uk-20260907-trends-body-camera.json.gz",
+      "bytes": 1580,
+      "sha256": "71344ee0d00d2ea839a83762b4b872c037eeb916965ea1256b87c27411aab17a"
+    },
+    {
+      "path": "preuves/uk-20260907-trends-car-cover.json.gz",
+      "bytes": 1579,
+      "sha256": "cbd8656983bb4d1102b0baeadd9fa0964cad5813b4327083bad5e2cd473a634e"
+    },
+    {
+      "path": "preuves/uk-20260907-trends-chess-set.json.gz",
+      "bytes": 1602,
+      "sha256": "c7d97449c7fe71e165e4cbbf94b9bf3c3a5f1214003cc0492559e31169d584bb"
+    },
+    {
+      "path": "preuves/uk-20260907-trends-diesel-heater.json.gz",
+      "bytes": 1616,
+      "sha256": "d272ed24b75bc5cb2a6fd49bf2af82316a79aa332eea17e61d7ea80474e217ef"
+    },
+    {
+      "path": "preuves/uk-20260907-trends-heated-gilet.json.gz",
+      "bytes": 1583,
+      "sha256": "0ccb2c4e24db28e8b764903f566175953c46180db6d4c44a6d3c270fd89d60e8"
+    },
+    {
+      "path": "preuves/uk-20260907-trends-heated-vest.json.gz",
+      "bytes": 1584,
+      "sha256": "5b29a5b4d3a2fc04cc4b29163f8dd90cf5991513584b8bf77b0ac0abdbc56483"
+    },
+    {
+      "path": "preuves/uk-20260907-trends-night-vision-binoculars.json.gz",
+      "bytes": 1633,
+      "sha256": "806561715ef01f3869ad4752d45ebb38cdfe994d2f6509e0eb4cbfe87be10e1c"
+    },
+    {
+      "path": "preuves/uk-20260907-trends-night-vision-goggles.json.gz",
+      "bytes": 1625,
+      "sha256": "835cba87c3a02b5f22577707fa944a1a19461d16edecdf673800e035d22d7471"
+    },
+    {
+      "path": "preuves/uk-20260907-trends-telescope.json.gz",
+      "bytes": 1540,
+      "sha256": "b6abf4442b06663ee4d3354245d35fa9adcd25ee785208369669eee1dbe6f9de"
+    },
+    {
+      "path": "preuves/uk-20260907-trends-ultrasonic-cleaner.json.gz",
+      "bytes": 1618,
+      "sha256": "866a77e4081e552781a87b773e80e79f4a09d00ffaab48974f28c9ad0337a1b1"
+    },
+    {
+      "path": "preuves/uk-20260907-tt-search-abayasboutique.com.json.gz",
+      "bytes": 137,
+      "sha256": "22ff20d7c32916498a561696b110cb7cdfbebf6ea2d0f1c070f59cec4b886bcc"
+    },
+    {
+      "path": "preuves/uk-20260907-tt-search-bodycamera.co.uk.json.gz",
+      "bytes": 138,
+      "sha256": "ad0a2d06f07647c4da9fbf9df3ec87009a4f79c7e4817afb4208af204dcc8a87"
+    },
+    {
+      "path": "preuves/uk-20260907-tt-search-creworksequipment.com.json.gz",
+      "bytes": 137,
+      "sha256": "d9ace4aa099686f358a183662a53fb195aba878ab21e5b1b8d809cb58e0e823a"
+    },
+    {
+      "path": "preuves/uk-20260907-tt-search-eisenlink.com.json.gz",
+      "bytes": 137,
+      "sha256": "ca21fcf4c8af36da2109b2c49f04d0ff1cf9a184a163726bd7eab782a7cf4c53"
+    },
+    {
+      "path": "preuves/uk-20260907-tt-search-everycarcovered.com.json.gz",
+      "bytes": 137,
+      "sha256": "eae1677b2428b3a23cedee74474fe0380a5eff648bf91d2d827c908f4af054a0"
+    },
+    {
+      "path": "preuves/uk-20260907-tt-search-hilsonic.co.uk.json.gz",
+      "bytes": 1132,
+      "sha256": "1a58b07a7d0fdd90b3b9dbaed61ad3f1606cc24f02ed2c646c1727521cf34f07"
+    },
+    {
+      "path": "preuves/uk-20260907-tt-search-lanveza.com.json.gz",
+      "bytes": 137,
+      "sha256": "d68b8efac78faa43d120f858bf4bca006c9ffae07f1c1c38c1fc862324d0bedf"
+    },
+    {
+      "path": "preuves/uk-20260907-tt-search-swiftmicroscopes.com.json.gz",
+      "bytes": 138,
+      "sha256": "4e89aa6513a7b8d7096ff76280b2090c835d6bb321b212c6722a27ec42c37cfd"
+    },
+    {
+      "path": "preuves/uk-20260907-tt-search-telescopesplus.com.json.gz",
+      "bytes": 137,
+      "sha256": "34da312da017ba8484029a312bc4f95540052fb2911341bf732d97a8390305dc"
+    },
+    {
+      "path": "preuves/uk-20260907-tt-search-wearedrybones.co.uk.json.gz",
+      "bytes": 137,
+      "sha256": "153a77a3f440f1b4a430898a79b174def02dda7012925335847d219abf2e1c1b"
+    },
+    {
+      "path": "preuves/uk-20260907-volume-bodycam-expansion.json.gz",
+      "bytes": 1434,
+      "sha256": "7e755e726b8581ef4b39cdead20081fc3010a0b4caa46a30f9c118103633b2fb"
+    },
+    {
+      "path": "preuves/uk-20260907-volume-ceiling-speakers.json.gz",
+      "bytes": 1085,
+      "sha256": "467525d322503fd31cde4cbdce889d247d3608669982ef3b6790b25c06bbdaaa"
+    },
+    {
+      "path": "preuves/uk-20260907-volume-discovery-v1.json.gz",
+      "bytes": 4874,
+      "sha256": "bd53aedab44b94801cd51e45cad999c99f106b1fcc98d7662836ad758f13ae34"
+    },
+    {
+      "path": "preuves/uk-20260907-volume-discovery-v2.json.gz",
+      "bytes": 3355,
+      "sha256": "8eca162cafd4c7e221899e3ff88d06008a2d47bc794383299c47cafee5ecd8dc"
+    },
+    {
+      "path": "preuves/uk-20260907-volume-fitness-alternatives.json.gz",
+      "bytes": 1113,
+      "sha256": "47ab5fe414c8891213232df1465ebc0b0a51697c1e98f7f32217bdb7ba7e3958"
+    },
+    {
+      "path": "preuves/uk-ads-bulldoggear.json.gz",
+      "bytes": 3992,
+      "sha256": "6ff06784ac2cf8f1ed812f68e747c90317ed099c65b8e9109301af1191d56f92"
+    },
+    {
+      "path": "preuves/uk-ads-force-fit.json.gz",
+      "bytes": 1774,
+      "sha256": "fdcc943a717cf5f596952fc4155dcce27999c76e3d441fcda03d054cd1d8333b"
+    },
+    {
+      "path": "preuves/uk-ads-lumitherapy.json.gz",
+      "bytes": 1079,
+      "sha256": "a638d0298ee65ca041f7c48525b7a241c14e501ceb2edffec72cc327b722e66d"
+    },
+    {
+      "path": "preuves/uk-ads-polar-recovery.json.gz",
+      "bytes": 2691,
+      "sha256": "deafb762e8d53395711e714ff6fa4bcca1ffc77f4d944b54504e39bf97d08af4"
+    },
+    {
+      "path": "preuves/uk-arabesque-abaya-public-evidence.json.gz",
+      "bytes": 283,
+      "sha256": "736b58562ebfa80f0a5deb188cf4cde4818165af9a919b116114586c4a78812b"
+    },
+    {
+      "path": "preuves/uk-arabesque-exact-abaya.json.gz",
+      "bytes": 1850,
+      "sha256": "02a0db9ffe397ece0b9c2d2801cfd15d5cf9b277b1e46f5dc4ea84cd687fd621"
+    },
+    {
+      "path": "preuves/uk-bodycamera-a26-public-evidence.json.gz",
+      "bytes": 539,
+      "sha256": "b9578ce31b23cd39c409e2919d79f09b9b3d33c65e26801fcbecba97e0a0e648"
+    },
+    {
+      "path": "preuves/uk-bodycams-keywords-for-keywords.json.gz",
+      "bytes": 44134,
+      "sha256": "7ab42cb7f99fc65b5d665260d6149b8a2b992548a24badcf4e1985792a56e5b5"
+    },
+    {
+      "path": "preuves/uk-bodycams-search-volume.json.gz",
+      "bytes": 1797,
+      "sha256": "5306eb72a413882361bb51d5c654f83567568ebc22b175cce43a6b8712f8343f"
+    },
+    {
+      "path": "preuves/uk-carcovers-keywords-for-keywords.json.gz",
+      "bytes": 154606,
+      "sha256": "e5d17a4d946dc50567632c4473555ed35ef4834e775c05b902270da063b567ac"
+    },
+    {
+      "path": "preuves/uk-carcovers-search-volume.json.gz",
+      "bytes": 1981,
+      "sha256": "2b6e2f1643066786e3478bfa6fcff0fde12f4fb6f11bf3ec0276024d0fdc7b2b"
+    },
+    {
+      "path": "preuves/uk-carplay-market-20260907-aoocci-shipping.html.gz",
+      "bytes": 67946,
+      "sha256": "7fa659a64327a0408fcceab38d33c752a38f79baffdd171382a438c6c82934bf"
+    },
+    {
+      "path": "preuves/uk-carplay-market-20260907-aoocci-v30-js.html.gz",
+      "bytes": 6442,
+      "sha256": "23db6de3f4a1cacc50fd1e66cfc3947eecd5f99110434102f7e219e3c8974a9d"
+    },
+    {
+      "path": "preuves/uk-carplay-market-20260907-aoocci-v30-json.html.gz",
+      "bytes": 6442,
+      "sha256": "23db6de3f4a1cacc50fd1e66cfc3947eecd5f99110434102f7e219e3c8974a9d"
+    },
+    {
+      "path": "preuves/uk-carplay-market-20260907-aoocci-v30.html.gz",
+      "bytes": 126644,
+      "sha256": "e6c7e365159311af28f47ddad5e395374f2ed1be6a8042eaaf28c496fac0fa8a"
+    },
+    {
+      "path": "preuves/uk-carplay-market-20260907-carpuride-shipping.html.gz",
+      "bytes": 88590,
+      "sha256": "1888abcaacd1c504fdc99f0defc201f780f5b83f8f66779ece8537d40449daa5"
+    },
+    {
+      "path": "preuves/uk-carplay-market-20260907-carpuride-w901-js.html.gz",
+      "bytes": 3699,
+      "sha256": "791c3320b157df6617b877df18906b77a5a246236307436ef3b9b07ce7e286b0"
+    },
+    {
+      "path": "preuves/uk-carplay-market-20260907-carpuride-w901-json.html.gz",
+      "bytes": 3699,
+      "sha256": "791c3320b157df6617b877df18906b77a5a246236307436ef3b9b07ce7e286b0"
+    },
+    {
+      "path": "preuves/uk-carplay-market-20260907-carpuride-w901.html.gz",
+      "bytes": 131120,
+      "sha256": "8adb2897d4f949dea780a455a6de1ca3b44467a145f943217f6f721afb6994aa"
+    },
+    {
+      "path": "preuves/uk-carplay-market-20260907-dataforseo-serp.json.gz",
+      "bytes": 6851,
+      "sha256": "c27421cf716b18a255656e1b35a1531c6abcd5a8cb14e0b81a6b53e8ad1c0aaa"
+    },
+    {
+      "path": "preuves/uk-carplay-market-20260907-dataforseo-volume.json.gz",
+      "bytes": 1073,
+      "sha256": "ecc3a04da2c92b4bb02f095c9851f8c49d572752af4301e3a514e8fd56aa96a3"
+    },
+    {
+      "path": "preuves/uk-carplay-market-20260907-evidence-notes.txt.gz",
+      "bytes": 1219,
+      "sha256": "0eb9c37f27351b52b6309de43a73c34dc5746ba4ef43172c8da7f18b5d279961"
+    },
+    {
+      "path": "preuves/uk-carplay-market-20260907.md.gz",
+      "bytes": 2285,
+      "sha256": "0af9d1a2e353998b927424495c051fbf76f9536679bc4b0ae4f8ba98298981fe"
+    },
+    {
+      "path": "preuves/uk-chess-final-compatible-20260907.csv.gz",
+      "bytes": 928,
+      "sha256": "7e81c81c7205a892b9d98c99f500c99d9bca37b49580c6283ab03e0accb849c7"
+    },
+    {
+      "path": "preuves/uk-concurrents-20260907.md.gz",
+      "bytes": 2994,
+      "sha256": "76b8a8111ad667eeb66dc580d8c2fb0d7961eaf4c607cf52f71c0412162efef6"
+    },
+    {
+      "path": "preuves/uk-concurrents-tech-20260907.md.gz",
+      "bytes": 2554,
+      "sha256": "6919183e75629dc28d64a6b50e311c820ba711187a67ee44ac95004fdf5f2725"
+    },
+    {
+      "path": "preuves/uk-golyath-ad246-public-evidence.json.gz",
+      "bytes": 926,
+      "sha256": "2d01dcf1a6ca3435a77f9d8cb49048f47a76ca126495a226dc07ea2f04689ce3"
+    },
+    {
+      "path": "preuves/uk-heated-final-compatible-20260907.csv.gz",
+      "bytes": 859,
+      "sha256": "78c1bfc64890ffc2f4c7e912e10a7bfbd56a10fd6bfc6577a6200da793759936"
+    },
+    {
+      "path": "preuves/uk-heated-market-final-20260907-gokozy-ads.json.gz",
+      "bytes": 608,
+      "sha256": "72428bef91a48167555642c5d99b754617907afdc17896048c0770215c514698"
+    },
+    {
+      "path": "preuves/uk-heated-market-final-20260907-gokozy-product-nolocale.html.gz",
+      "bytes": 75623,
+      "sha256": "f071fc2f06ab629d97669d58730501120aa7bfdc3d0115e7cabe30d8b27b9f47"
+    },
+    {
+      "path": "preuves/uk-heated-market-final-20260907-gokozy-product.html.gz",
+      "bytes": 76081,
+      "sha256": "07bf364305d2ddffb11670dd06f5e2c89e757920898401083a33c2074b6ce407"
+    },
+    {
+      "path": "preuves/uk-heated-market-final-20260907-gokozy-products.json.gz",
+      "bytes": 25988,
+      "sha256": "cb785952c69e01e2e1fff93f120ca316d6e6f90969b5242fa0c59afc75b22be4"
+    },
+    {
+      "path": "preuves/uk-heated-market-final-20260907-gokozy-shipping.html.gz",
+      "bytes": 48579,
+      "sha256": "97e9addfc5656130034f0a36d14afe5a2f9f6ff79100b7d3647e9c8ac15403e8"
+    },
+    {
+      "path": "preuves/uk-heated-market-final-20260907-gokozy.html.gz",
+      "bytes": 64960,
+      "sha256": "1ed507693fad7d0c06ab1e914976aa6e5a7dce3e0655b8a6daf0793d62effea7"
+    },
+    {
+      "path": "preuves/uk-heated-market-final-20260907-heated-ads-creatives.md.gz",
+      "bytes": 674,
+      "sha256": "65ae30f76ccdabfb3b824ef48c9bf1e34ff06e3a1a0fcba5f3db45c3e71e4122"
+    },
+    {
+      "path": "preuves/uk-heated-market-final-20260907-heated-gilet-serp.json.gz",
+      "bytes": 14712,
+      "sha256": "3076565542d501642aa53d9a4b3cafbd1e3b8ca6e1a0f60ee5183e8c763690b8"
+    },
+    {
+      "path": "preuves/uk-heated-market-final-20260907-ororo-ads.json.gz",
+      "bytes": 605,
+      "sha256": "8970659d5c69db6cee5f9620845cc9ac34ec12b3a5d6f28f46bc9371cec520a7"
+    },
+    {
+      "path": "preuves/uk-heated-market-final-20260907-ororo-info.html.gz",
+      "bytes": 72985,
+      "sha256": "6c977d43d9a42220f336da49be4bf3560cb6817697382c32f2226b12c3195010"
+    },
+    {
+      "path": "preuves/uk-heated-market-final-20260907-ororo-product.html.gz",
+      "bytes": 111367,
+      "sha256": "72797f82a243daf120613dbabf5ca0064cfe26b17bb58272a199b80ece21268f"
+    },
+    {
+      "path": "preuves/uk-heated-market-final-20260907-ororo-products.json.gz",
+      "bytes": 144379,
+      "sha256": "c4f12e2619fa6cf031f98e1ac62b76085cae0688e46ccae4d7a8451511091c3f"
+    },
+    {
+      "path": "preuves/uk-heated-market-final-20260907-ororo-returns.html.gz",
+      "bytes": 72359,
+      "sha256": "8582f8be28177feb008215b85daf38d433e52f3d0ca60ea7d8cbdb3df056056a"
+    },
+    {
+      "path": "preuves/uk-heated-market-final-20260907-ororo-root-ads.json.gz",
+      "bytes": 1079,
+      "sha256": "218921afdee6bab3e66590ccbbe8fd4ca9a6d8068da382209cf67bd97de3b928"
+    },
+    {
+      "path": "preuves/uk-heated-market-final-20260907-ororo-shipping.html.gz",
+      "bytes": 71338,
+      "sha256": "9ef87bb923639208cd15625d3e75d18385128efdf0d454c3503b9bc718f33225"
+    },
+    {
+      "path": "preuves/uk-heated-market-final-20260907-ororo.html.gz",
+      "bytes": 118006,
+      "sha256": "5a2ca1714f8eb531ff45c1b6ef38e0a65478f90aa567928210cac46ea3129d6e"
+    },
+    {
+      "path": "preuves/uk-heated-market-final-20260907.md.gz",
+      "bytes": 2400,
+      "sha256": "49fe99c898a17fad7ecfa030da2d52583f8b0db437bdc7170901d3e35c48cf2c"
+    },
+    {
+      "path": "preuves/uk-ice-baths-keywords-for-keywords.json.gz",
+      "bytes": 58248,
+      "sha256": "52713b4a9a8214f55814b6ccf73cf1028f527adf988e808c264be21c0584f895"
+    },
+    {
+      "path": "preuves/uk-keywords-carcovers-bodycams-20260907.json.gz",
+      "bytes": 3395,
+      "sha256": "b4a769b1f3b5733bc033d24fb0397393e95efb6a54e79f790418aa9e2985c395"
+    },
+    {
+      "path": "preuves/uk-keywords-carcovers-bodycams-20260907.md.gz",
+      "bytes": 1283,
+      "sha256": "ab55b9fdc3e0d4c0e82cb9ccc529d0e9219185b04e74f4ac67b94b7da0306c9e"
+    },
+    {
+      "path": "preuves/uk-keywords-fitness-20260907.json.gz",
+      "bytes": 5769,
+      "sha256": "8bcd19840ad179db477dfb9fc1348f155095749b1c27e22cb4dd1493f6b74cee"
+    },
+    {
+      "path": "preuves/uk-keywords-fitness-20260907.md.gz",
+      "bytes": 3022,
+      "sha256": "5b4a2f400a568ed48fc4b75ccc9e06495c3db7812a7771672ded97b47e4c7055"
+    },
+    {
+      "path": "preuves/uk-keywords-stage1-20260907.json.gz",
+      "bytes": 478,
+      "sha256": "e2178c0208ef42f522feabe75632f10f96c82c43d38c1a319fd3da49dd29eb74"
+    },
+    {
+      "path": "preuves/uk-keywords-stage2-20260907.json.gz",
+      "bytes": 511,
+      "sha256": "52781d1d5948586c7348924b96aaa95ba5f49038e5c778401326ca77a7db04d1"
+    },
+    {
+      "path": "preuves/uk-nightfox-swift-public-evidence.json.gz",
+      "bytes": 1533,
+      "sha256": "bcb7c6c49a9a6ba7f1e73637450ce886055ca45ad7c877056886664b859f5d81"
+    },
+    {
+      "path": "preuves/uk-nightvision-market-20260907.md.gz",
+      "bytes": 2718,
+      "sha256": "175f15662c7a0d7d0fa22ec8a7f51496638dcb061fa127ec91eefccd718929d8"
+    },
+    {
+      "path": "preuves/uk-q4-final-20260907.md.gz",
+      "bytes": 1599,
+      "sha256": "2e9a3efa6444546b5343c315f6262046dc0365a43c6a2848c72f8b2c565fbaf2"
+    },
+    {
+      "path": "preuves/uk-q4-final-competition-20260907-ads-creatives.md.gz",
+      "bytes": 1731,
+      "sha256": "02afc15206a8e34c38c9438dd041dc53c57bd5b295400c553f09ba53789b74d0"
+    },
+    {
+      "path": "preuves/uk-q4-final-competition-20260907-ali-chess-comparator.html.gz",
+      "bytes": 90882,
+      "sha256": "97df75b64401a738bfe15118ae8480564f90341ad9ade44d19edeb4dfc885a15"
+    },
+    {
+      "path": "preuves/uk-q4-final-competition-20260907-ali-crystal-archive.html.gz",
+      "bytes": 584,
+      "sha256": "f16bf405b8d43f68ef56d41fff88eaad8e3188c64c393fcb69c860155d947228"
+    },
+    {
+      "path": "preuves/uk-q4-final-competition-20260907-british-about.html.gz",
+      "bytes": 66653,
+      "sha256": "64588aaa0cec3c4e56b9fcd205212d3457ab2de5db62df0db20d8a8f2bc280a4"
+    },
+    {
+      "path": "preuves/uk-q4-final-competition-20260907-british-chess-ads.json.gz",
+      "bytes": 879,
+      "sha256": "0c5e1089bcd4b516fd80bfeeb16ec35ef94615b8e50cc36ea015f38ab1398984"
+    },
+    {
+      "path": "preuves/uk-q4-final-competition-20260907-british-chess-collection.html.gz",
+      "bytes": 94046,
+      "sha256": "ebcdb88f20ab97aae9cc8dbf20e7b4e63aa44abf55fd0cef39717bc8cff2e92b"
+    },
+    {
+      "path": "preuves/uk-q4-final-competition-20260907-british-chess-product.html.gz",
+      "bytes": 109620,
+      "sha256": "2ca2f1eec81af2222227c1fcc306bc370045b6efe1497bc37683d8e2be426afe"
+    },
+    {
+      "path": "preuves/uk-q4-final-competition-20260907-british-returns.html.gz",
+      "bytes": 67344,
+      "sha256": "679525c9723f7287d4097bd28c508238b2ea2cc430c04c199ce345968ea2e28a"
+    },
+    {
+      "path": "preuves/uk-q4-final-competition-20260907-chess-ads.json.gz",
+      "bytes": 4725,
+      "sha256": "eb814333dfefff90913adc27c0963bc70434c25a48bda397da9911abbd8f565f"
+    },
+    {
+      "path": "preuves/uk-q4-final-competition-20260907-chess-collection.html.gz",
+      "bytes": 83546,
+      "sha256": "d1aef8a5d94a5abfd74052435f5374c094a36de380d3075dae23de81eb293412"
+    },
+    {
+      "path": "preuves/uk-q4-final-competition-20260907-chess-product.html.gz",
+      "bytes": 119158,
+      "sha256": "079f58f5ba87f20cacdbec255d6c067ea339792b9b3f5b5c88122e1a50d5845a"
+    },
+    {
+      "path": "preuves/uk-q4-final-competition-20260907-chess-serp.json.gz",
+      "bytes": 4370,
+      "sha256": "5e98983ae479302fbc98350418f99046ee339af2894fdf68b8da0dc46ffddb0b"
+    },
+    {
+      "path": "preuves/uk-q4-final-competition-20260907-chess-shipping.html.gz",
+      "bytes": 78240,
+      "sha256": "601f05c87da90231d664cac0a70a51458de4c6600b124f2e8426db1b4019fed2"
+    },
+    {
+      "path": "preuves/uk-q4-final-competition-20260907-crystal-bowls-serp.json.gz",
+      "bytes": 6577,
+      "sha256": "39efe84b3a29eed7e5e99df57d86c0c541ed370ce83227bbc0d6eb041ec427a5"
+    },
+    {
+      "path": "preuves/uk-q4-final-competition-20260907-evidence-notes.txt.gz",
+      "bytes": 1322,
+      "sha256": "bd586a5def8b44306a987f33cdac5ada909f629da1b832d734d834baa4100252"
+    },
+    {
+      "path": "preuves/uk-q4-final-competition-20260907-soundtherapy-ads.json.gz",
+      "bytes": 619,
+      "sha256": "f2ceea63c8badba357666f476ad185ca53c19233ffe640be5164d1a176d23fae"
+    },
+    {
+      "path": "preuves/uk-q4-final-competition-20260907-soundtherapy-collection.html.gz",
+      "bytes": 113023,
+      "sha256": "d895f5a5192b10708dbb186ffa45c9877ac2542a5a261739e405be53c13bc1fa"
+    },
+    {
+      "path": "preuves/uk-q4-final-competition-20260907-soundtherapy-delivery.html.gz",
+      "bytes": 100825,
+      "sha256": "9a9766172c77d66c27352e492d55755ddfbd97f33848617e59406a2464660f38"
+    },
+    {
+      "path": "preuves/uk-q4-final-competition-20260907-soundtherapy-product.html.gz",
+      "bytes": 126996,
+      "sha256": "bc03d7b1765aa70db9685c23ea2345a2b290e49f565a771c836af6d1943b2ba1"
+    },
+    {
+      "path": "preuves/uk-q4-final-competition-20260907.md.gz",
+      "bytes": 2904,
+      "sha256": "26f68487e06f708d4a155dd50d08853fc500d8f612ebcaa27d7e1da1f91238f2"
+    },
+    {
+      "path": "preuves/uk-q4-search-20260907.csv.gz",
+      "bytes": 1881,
+      "sha256": "6477142703a1c0925b4de2ce4bbcff9ca15f2ac5d24d0a48d1deb460b553036c"
+    },
+    {
+      "path": "preuves/uk-q4-search-20260907.md.gz",
+      "bytes": 1916,
+      "sha256": "6beb9637c2fdd18af4845065f8fd030033350478c4302736865bdf9a8b177cbc"
+    },
+    {
+      "path": "preuves/uk-search-final-keywords-20260907.csv.gz",
+      "bytes": 3310,
+      "sha256": "f2cc39c3025e6e44cd886592c3f55d7e084dabf234a9b3f72d1bc479adf5ce78"
+    },
+    {
+      "path": "preuves/uk-sourcing-abaya-final-20260907-details.jsonl.gz",
+      "bytes": 5765,
+      "sha256": "6794376c0fc331eb95e411986002d5e5dc37b66aac9d9169fe33174e2f4dfcf6"
+    },
+    {
+      "path": "preuves/uk-sourcing-abaya-final-20260907-evidence.json.gz",
+      "bytes": 18407,
+      "sha256": "a3ab8c4060ca5adffdf2d5f2c843be193243651602aadef3b2f05e6409eace36"
+    },
+    {
+      "path": "preuves/uk-sourcing-abaya-final-20260907-freight-gbp.jsonl.gz",
+      "bytes": 874,
+      "sha256": "8ed6f778fde446d3516bd2fa4656d6874ac5196366ea1848f8d942b7c79debb7"
+    },
+    {
+      "path": "preuves/uk-sourcing-abaya-final-20260907-report.md.gz",
+      "bytes": 1102,
+      "sha256": "94c03e596ff8dcdf9b0ede0b4a27fbb9a61f9ba8b7e1c70259f22728061a03ad"
+    },
+    {
+      "path": "preuves/uk-sourcing-abaya-final-20260907-search.jsonl.gz",
+      "bytes": 6747,
+      "sha256": "32c0b65412f59758d8398cf758097901330e33851cc5112168f67204f5b85e94"
+    },
+    {
+      "path": "preuves/uk-sourcing-abayas-20260907-evidence.json.gz",
+      "bytes": 28816,
+      "sha256": "21fe6f9b74bbeaee42305fd62ad83159b7fbfe666e4a524e2e665462e4683265"
+    },
+    {
+      "path": "preuves/uk-sourcing-abayas-20260907-freight-gbp.jsonl.gz",
+      "bytes": 1005,
+      "sha256": "752072caae685b15bf017fb9197269bcbd1a1d072ec139c87bd953760478a24d"
+    },
+    {
+      "path": "preuves/uk-sourcing-abayas-20260907-report.md.gz",
+      "bytes": 1561,
+      "sha256": "c8e6c1688a0aff706404906eef84f31a90158c031bbc64621353a4688090fe01"
+    },
+    {
+      "path": "preuves/uk-sourcing-carplay-20260907-details.jsonl.gz",
+      "bytes": 10968,
+      "sha256": "63c30f6eadb4c161e6b129d041e35d9fd6f575651eef975c485dabac5141170a"
+    },
+    {
+      "path": "preuves/uk-sourcing-carplay-20260907-evidence.json.gz",
+      "bytes": 22910,
+      "sha256": "a7658eccb173802af3528b484125db11d24e0a1b79325fc25aab8207f710cb33"
+    },
+    {
+      "path": "preuves/uk-sourcing-carplay-20260907-freight-gbp.jsonl.gz",
+      "bytes": 841,
+      "sha256": "fdf53909a6319d0bcc17eb459f2864175ea4135a641af0fa714227921545dd6f"
+    },
+    {
+      "path": "preuves/uk-sourcing-carplay-20260907-report.md.gz",
+      "bytes": 1370,
+      "sha256": "ed4a98e9a9f28287412ee082ed0388e400308736375129902d3ded4a9340ec07"
+    },
+    {
+      "path": "preuves/uk-sourcing-carplay-20260907-search.jsonl.gz",
+      "bytes": 6614,
+      "sha256": "1225761ec9a4dae2a6c59998a4adf41eb58fbd8c05f071e48c7e31f6f03e65c5"
+    },
+    {
+      "path": "preuves/uk-sourcing-diesel-20260907-details.jsonl.gz",
+      "bytes": 8130,
+      "sha256": "c43bc7f19acb7035aba50965205a759d79fe322582f0ddc6542d3d1b2a0bb3af"
+    },
+    {
+      "path": "preuves/uk-sourcing-diesel-20260907-evidence.json.gz",
+      "bytes": 19533,
+      "sha256": "72575ecf319c47ad4603329a8acd4b039191f37d1dcfef255eed3154ccff5854"
+    },
+    {
+      "path": "preuves/uk-sourcing-diesel-20260907-freight-gbp.jsonl.gz",
+      "bytes": 894,
+      "sha256": "db76ec7adb728a1c54531b47254de823535fbe1d147d163d31c3db10cd5a8e52"
+    },
+    {
+      "path": "preuves/uk-sourcing-diesel-20260907-report.md.gz",
+      "bytes": 1168,
+      "sha256": "e8acd2d8174185d23ff3f99a657fc6c49518b834961bc19d993105097f808a60"
+    },
+    {
+      "path": "preuves/uk-sourcing-diesel-20260907-search.jsonl.gz",
+      "bytes": 6633,
+      "sha256": "ef81c6e0f4e5915ed5e87018955b2b95f51a4ff71bce35bb00c95beef0a5e0e6"
+    },
+    {
+      "path": "preuves/uk-sourcing-heated-final-20260907-battery-freight-gbp.jsonl.gz",
+      "bytes": 685,
+      "sha256": "04c620ac86635eb8a3761e1727e49352ff25a21aba5ac89d420e24bf406d44a2"
+    },
+    {
+      "path": "preuves/uk-sourcing-heated-final-20260907-details.jsonl.gz",
+      "bytes": 4942,
+      "sha256": "eb152013f88aa2349e50eb0e7badd0e270083bc861df92b4949684f3d5d0d5f9"
+    },
+    {
+      "path": "preuves/uk-sourcing-heated-final-20260907-evidence.json.gz",
+      "bytes": 13113,
+      "sha256": "fb3603a2b733ad2875463dac930c392bc6183de8eb27f1fdd6b7de8d5cc5acd0"
+    },
+    {
+      "path": "preuves/uk-sourcing-heated-final-20260907-freight-gbp.jsonl.gz",
+      "bytes": 929,
+      "sha256": "d604351ee23994deee6dfe73910f67205aa64f9390a5b76dafbcbc5b6dedfac8"
+    },
+    {
+      "path": "preuves/uk-sourcing-heated-final-20260907-report.md.gz",
+      "bytes": 1280,
+      "sha256": "09c51417fdb42c6da351ce5d9cd63d0a9d09dd76fc1316c8cc759474c71f9fb6"
+    },
+    {
+      "path": "preuves/uk-sourcing-heated-final-20260907-search.jsonl.gz",
+      "bytes": 4096,
+      "sha256": "e504aec4549b43fc5c73897e73b2beda65ac30aef12ec7430778b7a002448751"
+    },
+    {
+      "path": "preuves/uk-sourcing-icebath-20260907-evidence.json.gz",
+      "bytes": 14793,
+      "sha256": "d5747b112e6ac9ae06dbea96ddd61ee2994165f31f03e52392c7e50e3ee75561"
+    },
+    {
+      "path": "preuves/uk-sourcing-icebath-20260907-freight-gbp.jsonl.gz",
+      "bytes": 1215,
+      "sha256": "9fa65f186f4c728074f81c900cf9bc1a75334f0bc59930ac7a6c9941271dc784"
+    },
+    {
+      "path": "preuves/uk-sourcing-icebath-20260907-report.md.gz",
+      "bytes": 1242,
+      "sha256": "80a6fbffd276aa063888e2b3be8ae9bf3e81508c7eb146de6e2424825103de6f"
+    },
+    {
+      "path": "preuves/uk-sourcing-q4-final-20260907-details.jsonl.gz",
+      "bytes": 7276,
+      "sha256": "5db882d43208106959643ce2fc0ca585bcf8db4e610a38dfc5a3ff32d1610864"
+    },
+    {
+      "path": "preuves/uk-sourcing-q4-final-20260907-evidence.json.gz",
+      "bytes": 19846,
+      "sha256": "ba43b0650d4fabfd6a9a9b4d613d4e8a2cd95a42fe261023017c0403506d76e2"
+    },
+    {
+      "path": "preuves/uk-sourcing-q4-final-20260907-freight-gbp.jsonl.gz",
+      "bytes": 1000,
+      "sha256": "a55caef568e115ebcd4125bf1acd8053ee3c28964d192c0f459fe19f5051dca4"
+    },
+    {
+      "path": "preuves/uk-sourcing-q4-final-20260907-report.md.gz",
+      "bytes": 1058,
+      "sha256": "ec9934a7528835f82be710e0337c559b907972c2a03e0b8cb3575d2d0a5f25f8"
+    },
+    {
+      "path": "preuves/uk-sourcing-q4-final-20260907-search.jsonl.gz",
+      "bytes": 7689,
+      "sha256": "428dff8fb49430205a7b766e3e91f07064584aab90efdcbac032ebd843fb7a38"
+    },
+    {
+      "path": "preuves/uk-sourcing-telescope-final-20260907-rapport.md.gz",
+      "bytes": 1654,
+      "sha256": "aefbe8272068009a3be92d1a3e70174f7b427004b8204808d04d5eac5df89c05"
+    },
+    {
+      "path": "preuves/uk-sourcing-ultrasonic-final-20260907-details.jsonl.gz",
+      "bytes": 6145,
+      "sha256": "091b033498997670870fa102739c8d27cc4b10f1ff44d465abf7121f6c3870dc"
+    },
+    {
+      "path": "preuves/uk-sourcing-ultrasonic-final-20260907-evidence.json.gz",
+      "bytes": 14066,
+      "sha256": "fbe1a327551759cb3763c88cf8d2cdf779bcb799388a49c409d7ead5e16f61d3"
+    },
+    {
+      "path": "preuves/uk-sourcing-ultrasonic-final-20260907-freight-gbp.jsonl.gz",
+      "bytes": 993,
+      "sha256": "1c4a44007ddb506c1515b0adfab3e75c7ec8f08602de99c13cb98505d67b001f"
+    },
+    {
+      "path": "preuves/uk-sourcing-ultrasonic-final-20260907-report.md.gz",
+      "bytes": 1081,
+      "sha256": "2a48366ae8765c1fac493817bb169f1d8da655ee7c42c6e554236b35890833fc"
+    },
+    {
+      "path": "preuves/uk-sourcing-ultrasonic-final-20260907-search.jsonl.gz",
+      "bytes": 3951,
+      "sha256": "9f93b81c7f3ad121496e5c74ae79ac4700ab41e5ff84b0b28fbcaa1df36a3f1f"
+    },
+    {
+      "path": "preuves/uk-weighted-vests-keywords-for-keywords.json.gz",
+      "bytes": 70157,
+      "sha256": "7cb508a0b667b727751cee526927954d8813a041cab52bfdfa73ca253c5323aa"
+    },
+    {
+      "path": "sourcing-aliexpress.csv",
+      "bytes": 3272,
+      "sha256": "f4264da312142783eb06f932bcfe9ce50fb68f2247184fac0f2182379b6de4a5"
+    },
+    {
+      "path": "sourcing-aliexpress.json",
+      "bytes": 6193,
+      "sha256": "1145329be533896a56541dc2b62c33c112df8820cadbee4a1a54599129268b72"
+    },
+    {
+      "path": "totaux-mots-cles-uk.csv",
+      "bytes": 377,
+      "sha256": "a832e4ea6502482eea5495ed54c96989fc28570c532601959a39008e13698ed7"
+    },
+    {
+      "path": "totaux-mots-cles-uk.json",
+      "bytes": 2101,
+      "sha256": "71819f13e04960808c299299781eb1da94164785d2e23e075e474ee0736e00d5"
+    },
+    {
+      "path": "trends-montres-ratios.json",
+      "bytes": 510,
+      "sha256": "ddcf5603e6dc24cfcfd9ad0dcd8c63f861ada564d8cef1441d34efed4451a894"
+    },
+    {
+      "path": "trends-montres-uk.csv",
+      "bytes": 12055,
+      "sha256": "b2e012a63c3f1b3164c0cc2fa23ad2058e48a8af16fc3a1667a735d53e471c71"
+    },
+    {
+      "path": "trends-q4-summary.json",
+      "bytes": 3635,
+      "sha256": "6310f8c24683c44e86e0bf85c67cb2a891576ada6952845ded645c2e1253c263"
+    },
+    {
+      "path": "trends-uk-monthly.csv",
+      "bytes": 51880,
+      "sha256": "aa7d2441314941aa3f34b6d2894e00e1c1b15de2e1926cc8d646f88740a753ba"
+    }
+  ]
+}

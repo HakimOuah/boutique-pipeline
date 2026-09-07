@@ -1,0 +1,155 @@
+{
+  "date": "2026-09-07",
+  "mode": "CUA Chrome ; observation des pages et images publiques pendant cette mission",
+  "trendtrack": {
+    "continuation_filters": {
+      "market": "GB parmi",
+      "min_bestseller_price_usd": 80,
+      "meta_excluded": false,
+      "google_included_initially": true,
+      "google_filter_removed_for_corsets_and_aevitas": true
+    },
+    "screening": {
+      "electronics_rows": 124,
+      "pets_first_page_rows": 30,
+      "mirror_keyword_rows": 2,
+      "watch_keyword_rows": 20,
+      "golf_keyword_rows": 11,
+      "corset_broadened_rows": 8
+    },
+    "selected_rows": [
+      {
+        "domain": "lmsmetaldetecting.store",
+        "traffic_display": "4K",
+        "bestsellers": [
+          "Minelab Manticore",
+          "X-Terra Pro",
+          "sand scoop"
+        ],
+        "role": "inspiration détection ; marques non retenues au sourcing"
+      },
+      {
+        "domain": "corset-story.co.uk",
+        "traffic_display": "19K",
+        "bestsellers": [
+          "Black Mesh Waspie Underbust",
+          "White Cotton Straight Bustline Top",
+          "Black Corset Shirt"
+        ]
+      },
+      {
+        "domain": "corsettery.com",
+        "traffic_display": "13K",
+        "bestsellers": [
+          "steel mesh underbust",
+          "cotton overbust",
+          "satin underbust"
+        ]
+      },
+      {
+        "domain": "luxenoir.com",
+        "traffic_display": "12K",
+        "bestsellers": [
+          "Midnight Black Lianna Brocade Overbust",
+          "Constellation Astronomy Overbust Cotton",
+          "Danique High Back Underbust Straps"
+        ]
+      },
+      {
+        "domain": "aevitas-uk.co.uk",
+        "traffic_display": "8K",
+        "bestsellers": [
+          "Single Watch Winder Carbon Fibre finish Mains or Battery",
+          "2 Watch Winder Carbon Fibre with Extra Storage Area",
+          "Premium Single Watch Roll Green Leather"
+        ],
+        "role": "recoupement TrendTrack après découverte web ; ne pas dire que la piste est née exclusivement du filtre pixel"
+      }
+    ],
+    "current_url": "https://app.trendtrack.io/fr/workspace/w-hakims-workspace-9AKLewz/shops?minBestSellerPrice=80&market=GB=among&search=aevitas&sortBy=liveAds&tab=websites",
+    "limits": "Lignes parcourues avec recoupements ; pas des commerçants uniques ni audit exhaustif de tout le catalogue."
+  },
+  "exact_product_images": [
+    {
+      "product_id": "32839469711",
+      "sku_id": "12000032606672986",
+      "image": "https://ae01.alicdn.com/kf/S8959c2da7fa04a90833ac3cd6075ebea1.jpg",
+      "observed": "10 coussins individuels, couvercle opaque bois, serrure, pochettes à l’intérieur ; pas de tiroir"
+    },
+    {
+      "product_id": "1005008107024816",
+      "sku_id": "12000043796914430",
+      "image": "https://ae01.alicdn.com/kf/S68607c8ed09f44a096386cc0e51d1c050.jpg",
+      "observed": "Deux coussins côte à côte, intérieur noir, boîtier PU avec fenêtre ; câble non visible"
+    },
+    {
+      "product_id": "1005006994695803",
+      "sku_id": "12000038984545060",
+      "image": "https://ae01.alicdn.com/kf/S097fa7c1fff44eeb83eb8fb9cbc4299cn.jpg",
+      "observed": "Détecteur à canne adulte, accoudoir, LCD, disque elliptique ; marque Tianxun visible ; pas de casque/sac"
+    },
+    {
+      "product_id": "1005007308979912",
+      "sku_id": "12000040189579875",
+      "image": "https://ae01.alicdn.com/kf/Scac38945dbf748c6864466491dbb6c32Z.jpg",
+      "observed": "Corset noir underbust, busk frontal, coupe taille/hanches"
+    },
+    {
+      "product_id": "1005011724345711",
+      "sku_id": "12000056361525782",
+      "image": "https://ae01.alicdn.com/kf/S2f6a57f666934dacabcb82c3f1b0c1c4A.jpg",
+      "observed": "Corset noir overbust long vers les hanches, busk frontal et lacet inférieur"
+    }
+  ],
+  "size_chart_corrections": [
+    {
+      "product_id": "1005007308979912",
+      "image": "https://ae01.alicdn.com/kf/S62f0b628b9ed44aea62efcf3016626bf0.jpg",
+      "M_waist_cm": "65–70",
+      "M_bust_cm": "85–90",
+      "M_UK_declared": "8–10"
+    },
+    {
+      "product_id": "1005011724345711",
+      "image": "https://ae01.alicdn.com/kf/S9337fd4a596d4086a6aa3e02a9bb611cH.jpg",
+      "M_waist_cm": "70–75",
+      "M_bust_cm": "85–90",
+      "warning": "Les colonnes pouces/cm du vendeur sont approximatives et parfois incohérentes ; son champ size_info length est la poitrine, pas la taille."
+    }
+  ],
+  "search_ads_previews_seen_root": [
+    {
+      "domain": "aevitas-uk.co.uk",
+      "preview": "https://tpc.googlesyndication.com/archive/simgad/18423637989875741874",
+      "observed": "Annonce texte coffrets de montres"
+    },
+    {
+      "domain": "aevitas-uk.co.uk",
+      "preview": "https://tpc.googlesyndication.com/archive/simgad/16624935617366917768",
+      "observed": "Annonce texte remontoirs UK avec sitelinks Automatic, Single, Double"
+    },
+    {
+      "domain": "spinadiscmetaldetectors.com",
+      "preview": "https://tpc.googlesyndication.com/archive/simgad/6637083503925037695",
+      "observed": "Annonce texte détecteurs et accessoires de fabricants ; pas un SKU TX-850 précis"
+    },
+    {
+      "domain": "mywatchmatic.com",
+      "preview": "https://tpc.googlesyndication.com/archive/simgad/6756576997278532585",
+      "observed": "Coffre à environ 15600 USD ; exclu comme preuve midticket"
+    },
+    {
+      "domain": "chess.co.uk",
+      "preview": "https://tpc.googlesyndication.com/archive/simgad/8207689291865514019",
+      "observed": "Annonce surtout accessoires/stationery ; autre créatif recherché pour le set"
+    }
+  ],
+  "supervisor_overrides": [
+    "Une estimation transport de 4–13j et un champ garantie 35/60j sont deux notions distinctes, pas une contradiction du devis.",
+    "Le seul fait de vendre depuis Shopify ne prouve pas un envoi fournisseur au consommateur.",
+    "Le coffret bois seul ne passe pas le seuil ; l’univers montres contient un deuxième produit, remontoir, avec demande et source séparées.",
+    "Le détecteur plastique compact 1005009126691172 est écarté de la demande adulte ; source adulte TX-850 contrôlée séparément.",
+    "Ne pas reprendre les verdicts intermédiaires demandant deux concurrents GO par famille ou fixant un budget fournisseur arbitraire.",
+    "Le source 1005012217866893 CC-J-B1 est un remontoir simple 1+0 ; hors offre double."
+  ]
+}

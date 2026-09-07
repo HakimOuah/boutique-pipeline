@@ -1,17 +1,23 @@
 {
-  "date": "2026-09-07",
-  "keywords_rows": 145,
-  "targetable_keywords": 84,
-  "duplicate_family_keyword_rows": 0,
-  "sum_brut": 196220,
-  "sum_prudent": 104250,
-  "supplier_variants": 8,
-  "supplier_price_plus_freight": "checked",
-  "heater_plus_battery_gbp": 47.06,
-  "evidence_hashes_and_gzip": "checked",
-  "dataforseo_credential_leak_scan": "passed",
-  "relative_report_links": "checked",
-  "campaigns_created": 0,
-  "supplier_purchases": 0,
-  "fully_qualified_five_goal_achieved": false
+  "checked_at_utc": "2026-09-07T12:59:47.380755+00:00",
+  "keyword_rows": 223,
+  "retained_keyword_rows": 73,
+  "source_keyword_audit": "73/73 valeurs, CPC et paramètres GB2826/en/partenairesfalse contrôlés par sous-agent, preuve uk-final-keyword-audit-20260907.md.gz",
+  "duplicate_keyword_rows": 0,
+  "prudent_total": 154230,
+  "gross_total": 228580,
+  "supplier_rows": 8,
+  "supplier_arithmetic": "PASS",
+  "editor_keywords_paused": 29,
+  "gzip_files_validated": 494,
+  "configured_credential_matches": 0,
+  "broken_authoritative_relative_links": [],
+  "manifest_file_count": 529,
+  "status": "PASS",
+  "limits": [
+    "Conventions de regroupement, pas utilisateurs uniques",
+    "Sourcing et transport déclaratifs ; aucune commande physique",
+    "Ads Transparency prouve annonces et domaine, pas mot-clé acheté",
+    "Prix de vente hypothétiques ; pas rentabilité prouvée"
+  ]
 }
