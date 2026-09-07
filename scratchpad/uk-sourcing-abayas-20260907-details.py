@@ -1,0 +1,49 @@
+import asyncio
+import json
+from datetime import datetime, timezone
+
+from src.aliexpress_client import AliExpressClient, METHOD_PRODUCT_GET
+from src.config import load_config
+
+
+PRODUCT_IDS = [
+    "1005012471812405",
+    "1005012289841477",
+    "1005012720007197",
+    "1005012385271194",
+    "1005012223192847",
+]
+
+
+async def main():
+    async with AliExpressClient(load_config().aliexpress) as client:
+        for product_id in PRODUCT_IDS:
+            request = {
+                "product_id": product_id,
+                "ship_to_country": "GB",
+                "target_currency": "GBP",
+                "target_language": "en",
+                "remove_personal_benefit": "true",
+            }
+            try:
+                raw = await client._call_iop(METHOD_PRODUCT_GET, request)
+                record = {
+                    "kind": "product_get",
+                    "checked_at_utc": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
+                    "request": request,
+                    "product_id": product_id,
+                    "raw": raw,
+                }
+            except Exception as exc:
+                record = {
+                    "kind": "product_get",
+                    "checked_at_utc": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
+                    "request": request,
+                    "product_id": product_id,
+                    "error": f"{type(exc).__name__}: {exc}",
+                }
+            print(json.dumps(record, ensure_ascii=False, default=str))
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
