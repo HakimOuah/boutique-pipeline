@@ -82,3 +82,13 @@ Ce tableau suit cette intervention uniquement ; il ne prétend pas inventorier l
 **Trouvaille annexe** : les plaques donnent 40 W / 3600 lm / 10-15 m² pour le 4+1 et 48 W / 4320 lm / 15-20 m² pour le gris 5+1 — la fiche n'annonce rien de tout ça. À verser dans la description, hors mandat visuel.
 **Livraison** : `livraisons-visuels-codex/couverture-2026-09-05/plafonnier-led-led-183789/` ; manifeste + planche `qa-183789.jpg`. Registre et planche globale portés à 47.
 **Réf.** : [Compte rendu](journal/2026-09-05-lot4-suite-couverture.md), [production](journal/2026-09-05-183789-refonte-production.json), [résultats](journal/2026-09-05-183789-refonte-resultats.json).
+
+### T-07 — Distinguer un tube et deux tubes sur 934110
+
+**État** : **FAIT LOCAL — 2/2 livrés le 07/09**. Un visuel pour `200000531:193` (un tube) et un visuel commun à `200000531:173` et `200000531:175` (deux tubes).
+**Responsable** : Codex, 07/09/2026.
+**Pourquoi** : les trois variantes partageaient la même photo alors que le nombre de tubes est l'unique décision produit visible.
+**Sortie** : deux JPEG RGB 2048², une planche QA et un `production.json` dans `livraisons-visuels-codex/2026-09-07-934110/`.
+**Contrôles** : 1 puis 2 tubes comptés manuellement à pleine résolution ; même matière beige minérale ; aucune variation 3000 K/6000 K inventée. Les références `173` et `175` sont identiques au SHA-256 près.
+**Limite** : livraison locale uniquement, sans import Shopify/DSers ni changement de SKU.
+**Réf.** : [Brief](briefs/2026-09-07-codex-934110-visuels.md), [compte rendu](journal/2026-09-07-934110-visuels.md).
