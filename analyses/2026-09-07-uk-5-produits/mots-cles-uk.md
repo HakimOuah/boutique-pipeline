@@ -1,3 +1,5 @@
-# Liste finale
+# Mots-clés Search UK
 
-La synthèse finale se trouve dans [MOTS-CLES.md](MOTS-CLES.md). Le CSV à utiliser est [mots-cles-search-uk.csv](mots-cles-search-uk.csv). Les premières listes six familles incluaient des produits ensuite éliminés.
+La version finale est dans [MOTS-CLES.md](MOTS-CLES.md) : 73 mots-clés retenus, 154 230 recherches mensuelles après regroupement prudent, sur cinq marchés UK.
+
+[CSV à cibler](mots-cles-a-cibler.csv) · [Rapport et sourcing](RAPPORT.md)
