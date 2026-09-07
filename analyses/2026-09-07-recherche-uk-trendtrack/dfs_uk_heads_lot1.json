@@ -1,0 +1,4370 @@
+{
+ "version": "0.1.20260902",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.1767 sec.",
+ "cost": 0.09,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "09071510-1621-0367-0000-7d283cb483bd",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.1526 sec.",
+   "cost": 0.09,
+   "result_count": 57,
+   "path": [
+    "v3",
+    "keywords_data",
+    "google_ads",
+    "search_volume",
+    "live"
+   ],
+   "data": {
+    "api": "keywords_data",
+    "function": "search_volume",
+    "se": "google_ads",
+    "keywords": [
+     "bioethanol fireplace",
+     "bio ethanol fireplace",
+     "bioethanol fire",
+     "bio ethanol fire",
+     "ethanol fireplace",
+     "bioethanol fires",
+     "bioethanol stove",
+     "tabletop fire pit",
+     "table top fire",
+     "bioethanol burner",
+     "bioethanol fuel",
+     "bio ethanol fuel",
+     "wall mounted bioethanol fire",
+     "freestanding bioethanol fire",
+     "log store",
+     "log stores",
+     "wooden log store",
+     "metal log store",
+     "firewood storage",
+     "log storage",
+     "log holder",
+     "firewood rack",
+     "log basket",
+     "kindling storage",
+     "watch winder",
+     "watch winders",
+     "watch box",
+     "watch boxes",
+     "watch case",
+     "watch storage box",
+     "watch display case",
+     "watch roll",
+     "watch safe",
+     "urn",
+     "urns",
+     "urns for ashes",
+     "ashes urn",
+     "cremation urns",
+     "pet urn",
+     "dog urn",
+     "cat urn",
+     "keepsake urn",
+     "memorial urn",
+     "ashes jewellery",
+     "urn for ashes",
+     "adult urn",
+     "recurve bow",
+     "archery",
+     "archery set",
+     "bow and arrow",
+     "compound bow",
+     "archery bow",
+     "longbow",
+     "archery target",
+     "crossbow",
+     "archery equipment",
+     "tufting"
+    ],
+    "location_name": "United Kingdom",
+    "language_name": "English",
+    "search_partners": false
+   },
+   "result": [
+    {
+     "keyword": "crossbow",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 33100,
+     "low_top_of_page_bid": 0.11,
+     "high_top_of_page_bid": 0.52,
+     "cpc": 0.46,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 22200
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 40500
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 22200
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 27100
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 40500
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 22200
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 27100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 33100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 27100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 27100
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 33100
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 40500
+      }
+     ]
+    },
+    {
+     "keyword": "bioethanol fireplace",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 22200,
+     "low_top_of_page_bid": 0.39,
+     "high_top_of_page_bid": 1.57,
+     "cpc": 1,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 33100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 27100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 49500
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 40500
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 40500
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 9900
+      }
+     ]
+    },
+    {
+     "keyword": "bio ethanol fireplace",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 22200,
+     "low_top_of_page_bid": 0.39,
+     "high_top_of_page_bid": 1.57,
+     "cpc": 1,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 33100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 27100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 49500
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 40500
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 40500
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 9900
+      }
+     ]
+    },
+    {
+     "keyword": "urn",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 18100,
+     "low_top_of_page_bid": 0.45,
+     "high_top_of_page_bid": 1.46,
+     "cpc": 1.12,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 14800
+      }
+     ]
+    },
+    {
+     "keyword": "urns",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 18100,
+     "low_top_of_page_bid": 0.45,
+     "high_top_of_page_bid": 1.46,
+     "cpc": 1.12,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 14800
+      }
+     ]
+    },
+    {
+     "keyword": "log store",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 14800,
+     "low_top_of_page_bid": 0.32,
+     "high_top_of_page_bid": 1.51,
+     "cpc": 0.83,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 18100
+      }
+     ]
+    },
+    {
+     "keyword": "log stores",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 14800,
+     "low_top_of_page_bid": 0.32,
+     "high_top_of_page_bid": 1.51,
+     "cpc": 0.83,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 18100
+      }
+     ]
+    },
+    {
+     "keyword": "archery",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 59,
+     "search_volume": 14800,
+     "low_top_of_page_bid": 0.21,
+     "high_top_of_page_bid": 1.21,
+     "cpc": 0.41,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 18100
+      }
+     ]
+    },
+    {
+     "keyword": "bioethanol fire",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 12100,
+     "low_top_of_page_bid": 0.36,
+     "high_top_of_page_bid": 1.19,
+     "cpc": 0.9,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 5400
+      }
+     ]
+    },
+    {
+     "keyword": "bio ethanol fire",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 12100,
+     "low_top_of_page_bid": 0.36,
+     "high_top_of_page_bid": 1.19,
+     "cpc": 0.9,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 5400
+      }
+     ]
+    },
+    {
+     "keyword": "bioethanol fires",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 12100,
+     "low_top_of_page_bid": 0.36,
+     "high_top_of_page_bid": 1.19,
+     "cpc": 0.9,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 5400
+      }
+     ]
+    },
+    {
+     "keyword": "bioethanol fuel",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 12100,
+     "low_top_of_page_bid": 0.18,
+     "high_top_of_page_bid": 0.94,
+     "cpc": 0.48,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 8100
+      }
+     ]
+    },
+    {
+     "keyword": "bio ethanol fuel",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 12100,
+     "low_top_of_page_bid": 0.18,
+     "high_top_of_page_bid": 0.94,
+     "cpc": 0.48,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 8100
+      }
+     ]
+    },
+    {
+     "keyword": "ashes jewellery",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 12100,
+     "low_top_of_page_bid": 0.62,
+     "high_top_of_page_bid": 1.62,
+     "cpc": 1.79,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 9900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 9900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 12100
+      }
+     ]
+    },
+    {
+     "keyword": "bow and arrow",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 12100,
+     "low_top_of_page_bid": 0.1,
+     "high_top_of_page_bid": 0.55,
+     "cpc": 0.3,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 12100
+      }
+     ]
+    },
+    {
+     "keyword": "log basket",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 9900,
+     "low_top_of_page_bid": 0.23,
+     "high_top_of_page_bid": 0.91,
+     "cpc": 0.73,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 6600
+      }
+     ]
+    },
+    {
+     "keyword": "watch box",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 8100,
+     "low_top_of_page_bid": 0.41,
+     "high_top_of_page_bid": 1.27,
+     "cpc": 1.04,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 8100
+      }
+     ]
+    },
+    {
+     "keyword": "watch boxes",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 8100,
+     "low_top_of_page_bid": 0.41,
+     "high_top_of_page_bid": 1.27,
+     "cpc": 1.04,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 8100
+      }
+     ]
+    },
+    {
+     "keyword": "watch winder",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 6600,
+     "low_top_of_page_bid": 0.52,
+     "high_top_of_page_bid": 1.71,
+     "cpc": 1.76,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 9900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 9900
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 6600
+      }
+     ]
+    },
+    {
+     "keyword": "compound bow",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 6600,
+     "low_top_of_page_bid": 0.08,
+     "high_top_of_page_bid": 0.42,
+     "cpc": 0.25,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 8100
+      }
+     ]
+    },
+    {
+     "keyword": "bioethanol stove",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 5400,
+     "low_top_of_page_bid": 0.25,
+     "high_top_of_page_bid": 1,
+     "cpc": 0.74,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 9900
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 9900
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 2900
+      }
+     ]
+    },
+    {
+     "keyword": "longbow",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 85,
+     "search_volume": 5400,
+     "low_top_of_page_bid": 0.15,
+     "high_top_of_page_bid": 0.47,
+     "cpc": 0.19,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 6600
+      }
+     ]
+    },
+    {
+     "keyword": "recurve bow",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 4400,
+     "low_top_of_page_bid": 0.1,
+     "high_top_of_page_bid": 0.45,
+     "cpc": 0.22,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 4400
+      }
+     ]
+    },
+    {
+     "keyword": "watch case",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 3600,
+     "low_top_of_page_bid": 0.4,
+     "high_top_of_page_bid": 1.55,
+     "cpc": 1.2,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 3600
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 3600
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 3600
+      }
+     ]
+    },
+    {
+     "keyword": "urns for ashes",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 3600,
+     "low_top_of_page_bid": 0.39,
+     "high_top_of_page_bid": 1.29,
+     "cpc": 1.19,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 3600
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 3600
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 3600
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 3600
+      }
+     ]
+    },
+    {
+     "keyword": "urn for ashes",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 3600,
+     "low_top_of_page_bid": 0.37,
+     "high_top_of_page_bid": 1.28,
+     "cpc": 1.08,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 3600
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 3600
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 3600
+      }
+     ]
+    },
+    {
+     "keyword": "ethanol fireplace",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 2900,
+     "low_top_of_page_bid": 0.34,
+     "high_top_of_page_bid": 1.08,
+     "cpc": 0.79,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 1600
+      }
+     ]
+    },
+    {
+     "keyword": "archery target",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 2900,
+     "low_top_of_page_bid": 0.11,
+     "high_top_of_page_bid": 0.44,
+     "cpc": 0.31,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 3600
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 2900
+      }
+     ]
+    },
+    {
+     "keyword": "tufting",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 79,
+     "search_volume": 2900,
+     "low_top_of_page_bid": 0.27,
+     "high_top_of_page_bid": 1.14,
+     "cpc": 0.5,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 3600
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 2400
+      }
+     ]
+    },
+    {
+     "keyword": "log storage",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 2400,
+     "low_top_of_page_bid": 0.27,
+     "high_top_of_page_bid": 2.12,
+     "cpc": 0.7,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 3600
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 3600
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 2900
+      }
+     ]
+    },
+    {
+     "keyword": "ashes urn",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 2400,
+     "low_top_of_page_bid": 0.35,
+     "high_top_of_page_bid": 1.23,
+     "cpc": 0.91,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 3600
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 2400
+      }
+     ]
+    },
+    {
+     "keyword": "watch display case",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1900,
+     "low_top_of_page_bid": 0.33,
+     "high_top_of_page_bid": 1.31,
+     "cpc": 0.91,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 1600
+      }
+     ]
+    },
+    {
+     "keyword": "tabletop fire pit",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1600,
+     "low_top_of_page_bid": 0.29,
+     "high_top_of_page_bid": 1.4,
+     "cpc": 0.36,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 480
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 1600
+      }
+     ]
+    },
+    {
+     "keyword": "bioethanol burner",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1600,
+     "low_top_of_page_bid": 0.3,
+     "high_top_of_page_bid": 1.29,
+     "cpc": 0.91,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 1000
+      }
+     ]
+    },
+    {
+     "keyword": "log holder",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1600,
+     "low_top_of_page_bid": 0.19,
+     "high_top_of_page_bid": 0.78,
+     "cpc": 0.54,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 1300
+      }
+     ]
+    },
+    {
+     "keyword": "watch roll",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 99,
+     "search_volume": 1600,
+     "low_top_of_page_bid": 0.64,
+     "high_top_of_page_bid": 2.68,
+     "cpc": 2.02,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 1600
+      }
+     ]
+    },
+    {
+     "keyword": "pet urn",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1600,
+     "low_top_of_page_bid": 0.42,
+     "high_top_of_page_bid": 0.9,
+     "cpc": 0.86,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 1600
+      }
+     ]
+    },
+    {
+     "keyword": "dog urn",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1600,
+     "low_top_of_page_bid": 0.21,
+     "high_top_of_page_bid": 0.76,
+     "cpc": 0.75,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 1600
+      }
+     ]
+    },
+    {
+     "keyword": "archery set",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1600,
+     "low_top_of_page_bid": 0.14,
+     "high_top_of_page_bid": 0.99,
+     "cpc": 0.45,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 2400
+      }
+     ]
+    },
+    {
+     "keyword": "watch storage box",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1300,
+     "low_top_of_page_bid": 0.29,
+     "high_top_of_page_bid": 1.2,
+     "cpc": 0.94,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 1000
+      }
+     ]
+    },
+    {
+     "keyword": "cat urn",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1300,
+     "low_top_of_page_bid": 0.21,
+     "high_top_of_page_bid": 0.75,
+     "cpc": 0.66,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 1300
+      }
+     ]
+    },
+    {
+     "keyword": "archery bow",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1300,
+     "low_top_of_page_bid": 0.06,
+     "high_top_of_page_bid": 0.36,
+     "cpc": 0.24,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 1300
+      }
+     ]
+    },
+    {
+     "keyword": "watch winders",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1000,
+     "low_top_of_page_bid": 0.68,
+     "high_top_of_page_bid": 2.12,
+     "cpc": 2.37,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 880
+      }
+     ]
+    },
+    {
+     "keyword": "wooden log store",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 880,
+     "low_top_of_page_bid": 0.31,
+     "high_top_of_page_bid": 1.45,
+     "cpc": 0.93,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 1000
+      }
+     ]
+    },
+    {
+     "keyword": "cremation urns",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 880,
+     "low_top_of_page_bid": 0.43,
+     "high_top_of_page_bid": 1.6,
+     "cpc": 1.22,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 880
+      }
+     ]
+    },
+    {
+     "keyword": "archery equipment",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 880,
+     "low_top_of_page_bid": 0.08,
+     "high_top_of_page_bid": 0.45,
+     "cpc": 0.32,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 1000
+      }
+     ]
+    },
+    {
+     "keyword": "metal log store",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 590,
+     "low_top_of_page_bid": 0.28,
+     "high_top_of_page_bid": 1.1,
+     "cpc": 0.58,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 480
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 480
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 590
+      }
+     ]
+    },
+    {
+     "keyword": "watch safe",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 590,
+     "low_top_of_page_bid": 1.51,
+     "high_top_of_page_bid": 5.95,
+     "cpc": 4.26,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 590
+      }
+     ]
+    },
+    {
+     "keyword": "table top fire",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 480,
+     "low_top_of_page_bid": 0.25,
+     "high_top_of_page_bid": 1.38,
+     "cpc": 0.31,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 320
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 320
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 390
+      }
+     ]
+    },
+    {
+     "keyword": "firewood storage",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 390,
+     "low_top_of_page_bid": 0.22,
+     "high_top_of_page_bid": 0.87,
+     "cpc": 0.64,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 480
+      }
+     ]
+    },
+    {
+     "keyword": "kindling storage",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 320,
+     "low_top_of_page_bid": 0.14,
+     "high_top_of_page_bid": 0.54,
+     "cpc": 0.64,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 480
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 480
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 480
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 260
+      }
+     ]
+    },
+    {
+     "keyword": "wall mounted bioethanol fire",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 210,
+     "low_top_of_page_bid": 0.34,
+     "high_top_of_page_bid": 1.02,
+     "cpc": 1.27,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 110
+      }
+     ]
+    },
+    {
+     "keyword": "keepsake urn",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 210,
+     "low_top_of_page_bid": 0.34,
+     "high_top_of_page_bid": 0.83,
+     "cpc": 0.84,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 140
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 140
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 320
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 210
+      }
+     ]
+    },
+    {
+     "keyword": "freestanding bioethanol fire",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 170,
+     "low_top_of_page_bid": 0.29,
+     "high_top_of_page_bid": 1.15,
+     "cpc": 0.72,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 320
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 90
+      }
+     ]
+    },
+    {
+     "keyword": "firewood rack",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 170,
+     "low_top_of_page_bid": 0.15,
+     "high_top_of_page_bid": 0.98,
+     "cpc": 0.39,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 320
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 320
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 170
+      }
+     ]
+    },
+    {
+     "keyword": "adult urn",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 170,
+     "low_top_of_page_bid": 0.57,
+     "high_top_of_page_bid": 1.85,
+     "cpc": 1.57,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 170
+      }
+     ]
+    },
+    {
+     "keyword": "memorial urn",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 110,
+     "low_top_of_page_bid": 0.44,
+     "high_top_of_page_bid": 1.23,
+     "cpc": 0.99,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 140
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 140
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
