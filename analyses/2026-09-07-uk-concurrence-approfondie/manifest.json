@@ -1,0 +1,417 @@
+{
+  "date": "2026-09-07",
+  "files": [
+    {
+      "path": "CONCURRENTS-MODE.md",
+      "bytes": 7173,
+      "sha256": "8fb4bef6d43d6fb3c483053fb1e100cdf6b89ac999397c93afe89650d84aad28"
+    },
+    {
+      "path": "CONCURRENTS-TECHNIQUES.md",
+      "bytes": 6222,
+      "sha256": "43245f509f1f0988bbf3a3b665d942103940b9862b4f3afc59a1e4f177fc1e12"
+    },
+    {
+      "path": "RAPPORT.md",
+      "bytes": 8436,
+      "sha256": "f7b8375ce0189e5f8d30aca21887c9eb25f15665f3bc586afb671b6406180eb4"
+    },
+    {
+      "path": "SOURCING.md",
+      "bytes": 3773,
+      "sha256": "378f6a43b95faabce1e04b61ffa7d86c3b5163dd71c243b95ea14f43243b7fc8"
+    },
+    {
+      "path": "TRENDTRACK.md",
+      "bytes": 3362,
+      "sha256": "76c40b58d5944d972c93d38841538d11278761e36b2aa14833e99607cffe2c11"
+    },
+    {
+      "path": "annexes/mode/dfs-ads-jobs.json.gz",
+      "bytes": 329,
+      "sha256": "2a642fbee64e7013753ba0ec29f2d7e6307075d37e79f1f71d53a7f538cbc567"
+    },
+    {
+      "path": "annexes/mode/dfs-jobs.json.gz",
+      "bytes": 252,
+      "sha256": "9927e2dc632717ac2c42859fea38d5dbd77578bc4b479cfbb664ee3cbff1a0a8"
+    },
+    {
+      "path": "annexes/mode/sources/abayabuth-collection.html.gz",
+      "bytes": 126141,
+      "sha256": "15b44a5eef4a6fd1e0a411e754dc1bf9080d575ba02ab676ac2453d2b6c5401d"
+    },
+    {
+      "path": "annexes/mode/sources/abayabuth-home.html.gz",
+      "bytes": 69454,
+      "sha256": "be92c37edff2856bfab14c752c90798765aa3e4d0063b1fb3511d63e565bcef0"
+    },
+    {
+      "path": "annexes/mode/sources/abayabuth-product.html.gz",
+      "bytes": 82484,
+      "sha256": "bf985fe13d1e46a979e22ea5c58edf47266bcaf09ee4148a0e33d39ace1998df"
+    },
+    {
+      "path": "annexes/mode/sources/abayabuth-shipping.html.gz",
+      "bytes": 56940,
+      "sha256": "8ff4d7f48909b54f2886098759d37f0beea8e3c5c1946a70bfaf584b1e5d0b2b"
+    },
+    {
+      "path": "annexes/mode/sources/abayasboutique-affiya-uk-observation.txt",
+      "bytes": 846,
+      "sha256": "c212b12ac5ec96ab79698a4ab3bec331f7b961d77d7046623cd2f395303f0569"
+    },
+    {
+      "path": "annexes/mode/sources/abayasboutique-affiya-wcstore.json.gz",
+      "bytes": 5053,
+      "sha256": "f080c53cd77a392eab43129c06e81d4d88ef62fa5298e66ff8f364ed56156a77"
+    },
+    {
+      "path": "annexes/mode/sources/abayasboutique-collection.html.gz",
+      "bytes": 283580,
+      "sha256": "2a1d749e272ef1af6263c51d949a5e7357ad280c41a25db61e9b69eca2b5db06"
+    },
+    {
+      "path": "annexes/mode/sources/abayasboutique-home.html.gz",
+      "bytes": 287962,
+      "sha256": "8b4e6f78adcb35b5e03b0461a2b132c782bcad017d9186451eb71f4d65b424a6"
+    },
+    {
+      "path": "annexes/mode/sources/abayasboutique-product.html.gz",
+      "bytes": 252062,
+      "sha256": "6f4b59fd953c76465b07a9ec119419f2ea16184734232e13bed6616e7c59a4ba"
+    },
+    {
+      "path": "annexes/mode/sources/abayasboutique-shipping.html.gz",
+      "bytes": 266712,
+      "sha256": "e1ef359243ca2b43d242fbbe9eed48cc1cc5190bf8db6570469d282a721975b5"
+    },
+    {
+      "path": "annexes/mode/sources/corsetstory-collection.html.gz",
+      "bytes": 97428,
+      "sha256": "9ecd36c17e613768e8a712555022fa653b0efe2bc1074ee1eedc9f9e0b95d5e7"
+    },
+    {
+      "path": "annexes/mode/sources/corsetstory-product.html.gz",
+      "bytes": 116264,
+      "sha256": "afc4c01b3dff18a5718f51236b66c592245f8bcc5bcd6b6f7d81129839a9777b"
+    },
+    {
+      "path": "annexes/mode/sources/corsetstory-shipping.html.gz",
+      "bytes": 74384,
+      "sha256": "61467cc7a790d09c2db8c25dc6cce05d9fd229c588a87288a727d86bef9d399b"
+    },
+    {
+      "path": "annexes/mode/sources/hawaaclothing-collection.html.gz",
+      "bytes": 128794,
+      "sha256": "e6f5399496164b59ea98795a2fcc455db5c0cd8818b614573fcf57bc35635a0e"
+    },
+    {
+      "path": "annexes/mode/sources/hawaaclothing-home.html.gz",
+      "bytes": 164331,
+      "sha256": "0ce806ef56840374f1067f76304c332142b7159742dc4273dadf64173dd471bd"
+    },
+    {
+      "path": "annexes/mode/sources/hawaaclothing-product.html.gz",
+      "bytes": 145087,
+      "sha256": "8316aac5efe74ffcb7e722b4035a9310dcdc52cbeae3bdcb76563ed647aafbff"
+    },
+    {
+      "path": "annexes/mode/sources/hawaaclothing-shipping.html.gz",
+      "bytes": 121148,
+      "sha256": "deb20472e5a2ac76395fa4a1e52de31d13a5fa80c3ac9c41c2243008f1a1149c"
+    },
+    {
+      "path": "annexes/mode/sources/truecorset-collection.html.gz",
+      "bytes": 112744,
+      "sha256": "989fc86961101c223abdde7c13ff2f74dc51efa73fe4bdf761e232ad6157b33f"
+    },
+    {
+      "path": "annexes/mode/sources/truecorset-product.html.gz",
+      "bytes": 84445,
+      "sha256": "24e39ff1a7d8ca5b252962dd5a0c4729f6b1b914e779782def2f1efe04435dcd"
+    },
+    {
+      "path": "annexes/mode/sources/truecorset-shipping.html.gz",
+      "bytes": 64803,
+      "sha256": "827cc582bd199272afe6956b6a7c87a6b8ac655c607f5342974f6a183d012261"
+    },
+    {
+      "path": "annexes/mode/sources/uk-deep-abaya-buy-20260907.json.gz",
+      "bytes": 16399,
+      "sha256": "74d8c0b6144ce9d799e945602f99d8f76fadb4311462d16a6291c948b3478c17"
+    },
+    {
+      "path": "annexes/mode/sources/uk-deep-abaya-dress-20260907.json.gz",
+      "bytes": 17998,
+      "sha256": "2bec5c20511268f8fb8bcaa08cd865a88f7b8e84815c8b3c337c6f64d7b4abbd"
+    },
+    {
+      "path": "annexes/mode/sources/uk-deep-ads-abaya-abayabuth-20260907.json.gz",
+      "bytes": 4024,
+      "sha256": "9a651a399c8de7795a2173ad28e1f2ccc40c6745ff0a13e00af6639a9985dbb0"
+    },
+    {
+      "path": "annexes/mode/sources/uk-deep-ads-abaya-abayasboutique-20260907.json.gz",
+      "bytes": 659,
+      "sha256": "064794fb678e7c4af4d76d8cc918cdad72a319a49d8bba298333e1a457eec92c"
+    },
+    {
+      "path": "annexes/mode/sources/uk-deep-ads-abaya-hawaa-20260907.json.gz",
+      "bytes": 2320,
+      "sha256": "b56498f1fbac2bced802746e04e489843e2abd1998b207a0ef1e72bdf253ec37"
+    },
+    {
+      "path": "annexes/mode/sources/uk-deep-ads-corset-corsetstory-20260907.json.gz",
+      "bytes": 660,
+      "sha256": "1f0a5561d451bdd930f1758c5e2608b28d58fb48f86f870a1e0f4a0c3a95c2b1"
+    },
+    {
+      "path": "annexes/mode/sources/uk-deep-ads-corset-truecorset-20260907.json.gz",
+      "bytes": 657,
+      "sha256": "1cc5cc248c90e4c9bda65ee62da19132919f7c10d2164cbe390762d66666d62b"
+    },
+    {
+      "path": "annexes/mode/sources/uk-deep-ads-corset-whatkatiedid-20260907.json.gz",
+      "bytes": 901,
+      "sha256": "9fc5c0d33044745b4854a9390101557d2b95669a29f30da2c74f74ecf4b03d0d"
+    },
+    {
+      "path": "annexes/mode/sources/uk-deep-corset-buy-20260907.json.gz",
+      "bytes": 19265,
+      "sha256": "d377f63ff423ab2e1357fb8fa0ed7dd479a1ceb889705f77a260a68687269373"
+    },
+    {
+      "path": "annexes/mode/sources/uk-deep-corset-steel-20260907.json.gz",
+      "bytes": 13726,
+      "sha256": "5f625ea123683ea6207ecf6d0374d13066fc8a85000f80eb2de038ec25b0201d"
+    },
+    {
+      "path": "annexes/mode/sources/whatkatiedid-collection.html.gz",
+      "bytes": 193151,
+      "sha256": "aa6d3b7ef0f78ab6667413c9754ae7b2477755f1514d379556819da02760ce35"
+    },
+    {
+      "path": "annexes/mode/sources/whatkatiedid-product.html.gz",
+      "bytes": 139955,
+      "sha256": "f44d37ce31eb4fdb5c51085d0f5abc06035302fafca6261b7bd1963ce8f35827"
+    },
+    {
+      "path": "annexes/mode/sources/whatkatiedid-shipping.html.gz",
+      "bytes": 97280,
+      "sha256": "eeb204fe63946af34ac17c5dd4e70c77248814ea858bf0adc0ee198ff79acfff"
+    },
+    {
+      "path": "annexes/mode/uk-deep-concurrence-mode-20260907.csv",
+      "bytes": 8140,
+      "sha256": "9e24f202117c5677e0853e423101611967a197bc51ae17c50da64c6800b830b4"
+    },
+    {
+      "path": "annexes/mode/uk-deep-concurrence-mode-20260907.md",
+      "bytes": 8852,
+      "sha256": "8b6212afb69b2a6e8859c5e99c2a791f926dd7713b8700e3749a3c0c5aa5fbbd"
+    },
+    {
+      "path": "annexes/sourcing-brut/comparison.csv",
+      "bytes": 4382,
+      "sha256": "ae91a3a3692c67cae5697cee1f8d914f14612705ac1828b8dbd422cf7a2bbaef"
+    },
+    {
+      "path": "annexes/sourcing-brut/details.jsonl.gz",
+      "bytes": 22802,
+      "sha256": "65086431f702f66a9da3a85be87057a9a1b1971744b3681b4520dff1b76565e4"
+    },
+    {
+      "path": "annexes/sourcing-brut/evidence.json.gz",
+      "bytes": 67734,
+      "sha256": "fc73f41c3d37209f0b6e8fe90451496be48ac576459fa61609cd1cafe332c566"
+    },
+    {
+      "path": "annexes/sourcing-brut/freight.jsonl.gz",
+      "bytes": 1163,
+      "sha256": "a175dcc9560f76dba3537f117d32381750f25e50417f3561cc792715705ba44e"
+    },
+    {
+      "path": "annexes/sourcing-brut/manifest.json.gz",
+      "bytes": 3258,
+      "sha256": "382c8266c60acf1bf981acfa71965da090fbed6a44dcd338e740c431dd5aebd7"
+    },
+    {
+      "path": "annexes/sourcing-brut/report.md",
+      "bytes": 6174,
+      "sha256": "ccd89493714946462ffeef1db6b0d8c273ffb1bcd728d7160f793a262a7d7e32"
+    },
+    {
+      "path": "annexes/sourcing-brut/search.jsonl.gz",
+      "bytes": 17585,
+      "sha256": "078b2adf0dabc2cf818446526ec8bd37e3b3fe78a78a47d09dafe663b2a46160"
+    },
+    {
+      "path": "annexes/technique/README.md",
+      "bytes": 1376,
+      "sha256": "a4655db9ea0069139257e219a94f357ddf3b5fbba0f118e856188993d8904c78"
+    },
+    {
+      "path": "annexes/technique/ads-search-summary.csv",
+      "bytes": 1939,
+      "sha256": "0ec2a1b884a445b59be2bb8b5f0509f9f12976a3f2aa471573cbb768eb9e5939"
+    },
+    {
+      "path": "annexes/technique/competitor-summary.csv",
+      "bytes": 5017,
+      "sha256": "4405c5bf11bc258e5786f4a7f73b2b39eea1f0f2196efb7c7bca3125f8b98163"
+    },
+    {
+      "path": "annexes/technique/preuves/uk-20260907-deep-ads-chess-jaques.json.gz",
+      "bytes": 6706,
+      "sha256": "c3f6493efa4254d921680929527dec1063d33a57e0806e388739ab5701291d70"
+    },
+    {
+      "path": "annexes/technique/preuves/uk-20260907-deep-ads-chess-londoncc.json.gz",
+      "bytes": 4762,
+      "sha256": "7aa8de1f73bd17164c7640f4e50af60cf902a585f25059d334903f297e7df240"
+    },
+    {
+      "path": "annexes/technique/preuves/uk-20260907-deep-ads-chess-regency.json.gz",
+      "bytes": 1267,
+      "sha256": "54c124160eb7ae241eeaff7f6e616474d85fd0d541eb2e46f73214a35d99b8e8"
+    },
+    {
+      "path": "annexes/technique/preuves/uk-20260907-deep-ads-metal-gadgetshack.json.gz",
+      "bytes": 657,
+      "sha256": "d7d978265b61036d23a838d0f35418aade934ccc46e98ad43f430f90e1f5acae"
+    },
+    {
+      "path": "annexes/technique/preuves/uk-20260907-deep-ads-metal-garegear.json.gz",
+      "bytes": 645,
+      "sha256": "d7260d5ff87e47ad216cb6d6e1403e11dad7319d4b6bc359185c5917d4e1a6c0"
+    },
+    {
+      "path": "annexes/technique/preuves/uk-20260907-deep-ads-metal-ukdetectors.json.gz",
+      "bytes": 662,
+      "sha256": "07d7bf6e7435b0aacc12b8c3c9215a8007a92235fcc65b9347b114fd0d1a34c6"
+    },
+    {
+      "path": "annexes/technique/preuves/uk-20260907-deep-ads-watch-jqueen.json.gz",
+      "bytes": 658,
+      "sha256": "66b965a127761dc47e7b58aa40b37bdec145537ef0d565206f09e0942c38a0e0"
+    },
+    {
+      "path": "annexes/technique/preuves/uk-20260907-deep-ads-watch-mozsly.json.gz",
+      "bytes": 1566,
+      "sha256": "18765e6b67c1f39168b8ba13d37d0ce354888999936c0b293a2b0432dcda7299"
+    },
+    {
+      "path": "annexes/technique/preuves/uk-20260907-deep-ads-watch-rapport.json.gz",
+      "bytes": 3551,
+      "sha256": "e0a6de771364ff29531eb7a4e5551ed5d31736574c1e388abb223787be07e6c7"
+    },
+    {
+      "path": "annexes/technique/preuves/uk-20260907-deep-organic-double-watch-winder.json.gz",
+      "bytes": 28286,
+      "sha256": "7bd43f2936e1570eeaa77df9800b0be72de262584269034946c861be75e584d7"
+    },
+    {
+      "path": "annexes/technique/preuves/uk-20260907-deep-organic-folding-chess-set.json.gz",
+      "bytes": 17243,
+      "sha256": "23ecceba4530e7e7efe20200b90c61bd9c6ef7f688a4f1dd395c67a60d861468"
+    },
+    {
+      "path": "annexes/technique/preuves/uk-20260907-deep-organic-metal-detector-beginners.json.gz",
+      "bytes": 20321,
+      "sha256": "e88e25ac93b8d5823115cb561db8029402af9ef84b7ecaee25cf77a3eacfd489"
+    },
+    {
+      "path": "annexes/technique/preuves/uk-20260907-deep-organic-six.json.gz",
+      "bytes": 21770,
+      "sha256": "8240feacbf8ed707700d2b9f8dff19e45273e21ae69549cb81675fdb572690c4"
+    },
+    {
+      "path": "annexes/technique/preuves/uk-20260907-deep-organic-tx850.json.gz",
+      "bytes": 15655,
+      "sha256": "80e0d22f168ff7fdeacab83919194549c433cf459439a7d07f7818849842850b"
+    },
+    {
+      "path": "annexes/technique/preuves/uk-20260907-deep-organic-wooden-chess-set.json.gz",
+      "bytes": 25551,
+      "sha256": "f7585e5b15b0f2b8f11daa17c44f92679e82c93b6cc07de224ceee7f04ffb395"
+    },
+    {
+      "path": "annexes/technique/preuves/uk-20260907-deep-shopping-double-watch-winder.json.gz",
+      "bytes": 11323,
+      "sha256": "6a45dd52b8a48be4f00b4366701a73a7202c689fd105fea6b9e14ed3088db2a9"
+    },
+    {
+      "path": "annexes/technique/preuves/uk-20260907-deep-shopping-folding-chess-set.json.gz",
+      "bytes": 11348,
+      "sha256": "af23fdaca9e396dd87909e51ece21cce0798e365ef7fb644a9eb38121747462d"
+    },
+    {
+      "path": "annexes/technique/preuves/uk-20260907-deep-shopping-metal-detector-beginners.json.gz",
+      "bytes": 11184,
+      "sha256": "652e342963dd22c93ae4247e654a09c07726b6addac7adad340918618f5953e3"
+    },
+    {
+      "path": "annexes/technique/preuves/uk-20260907-deep-shopping-post-six.json.gz",
+      "bytes": 630,
+      "sha256": "c6b985d658d6da672e9b6df71d169453a4518644609d87fc268f55d915f8ee2c"
+    },
+    {
+      "path": "annexes/technique/preuves/uk-20260907-deep-shopping-tx850.json.gz",
+      "bytes": 9036,
+      "sha256": "e1631beb72fe0b56910a5f1e9143d82df1ddc3724f978c445aa8c1b4281478f0"
+    },
+    {
+      "path": "annexes/technique/preuves/uk-20260907-deep-shopping-wooden-chess-set.json.gz",
+      "bytes": 11760,
+      "sha256": "8deae7aa235c945f4bc43fd665735471aeb34bd66c80391657dbee7e9e48b811"
+    },
+    {
+      "path": "annexes/technique/preuves/uk-20260907-deep-shopping-wooden-watch-box.json.gz",
+      "bytes": 11977,
+      "sha256": "dd718cb38edf15bb5e6cabca91db2b28985041b46a756bdee238fddd961e1385"
+    },
+    {
+      "path": "annexes/technique/rapport.md",
+      "bytes": 6006,
+      "sha256": "70a06631528e122903c00a575f3a632e7a11299cf4b23ff87b2955d6a989da6a"
+    },
+    {
+      "path": "annexes/technique/serp-shopping-observations.csv",
+      "bytes": 29700,
+      "sha256": "9919b97a0532c0676a56d48fa63ad8baad97c4b47d2e906c8cd7cb3bf87e3bea"
+    },
+    {
+      "path": "concurrents-mode.csv",
+      "bytes": 8140,
+      "sha256": "9e24f202117c5677e0853e423101611967a197bc51ae17c50da64c6800b830b4"
+    },
+    {
+      "path": "concurrents-techniques.csv",
+      "bytes": 5046,
+      "sha256": "bb2cdb171884b914d8c5b28472d8ce2fc2a9cfaf144aa3b965ac75ee8385ea97"
+    },
+    {
+      "path": "sourcing-verifie-api.csv",
+      "bytes": 2975,
+      "sha256": "4f85399e6f12c987650de9605f21832ad5fbbb2ad1def9e7af71c91ca59d0685"
+    },
+    {
+      "path": "trendtrack.csv",
+      "bytes": 1992,
+      "sha256": "553ae0c029582152938c1bb396d6359c5deb2f8427a2dea0f1421c94a812a01d"
+    },
+    {
+      "path": "trendtrack.json",
+      "bytes": 4776,
+      "sha256": "78cdbd1f0141b0ddebc7f732d1b874fe8754d1c90939dacd439b663ec595bc5f"
+    }
+  ],
+  "verification": {
+    "sourcing_rows": 12,
+    "price_arithmetic": "pass",
+    "json_gzip": "pass",
+    "report_local_links": "pass"
+  },
+  "corrections": "Canonical SOURCING.md and sourcing-verifie-api.csv supersede raw agent abaya comparison. Rapport frame is not a complete winder."
+}
