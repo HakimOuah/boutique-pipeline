@@ -1,9 +1,10 @@
 # Tuftéo — état courant
 
-**Dernière mise à jour : 03/09/2026** — copie thème **preview branding**
-(`190113350017`, UNPUBLISHED) : Trustpilot / avis démo / prix barrés simulés
-à regarder, **pas à publier**. MAIN inchangé.
-[`journal/2026-09-03-preview-branding.md`](journal/2026-09-03-preview-branding.md).
+**Dernière mise à jour : 08/09/2026** — #1004 fil acrylique blanc unmapped.
+Wool Yarn Queen à 18,88 € rendu / 14–21 j. **Aucun cône 400 g en entrepôt UE**
+sur AliExpress. Meilleur remap DSers : Shop1104390131 `1005008288429136`,
+15,48 € / 6–10 j — encore perdant à 12,99 €.
+[`journal/2026-09-08-sourcing-fil-acrylique-europe.md`](journal/2026-09-08-sourcing-fil-acrylique-europe.md).
 
 ---
 
@@ -118,6 +119,8 @@ Coupé trop tôt. **#1001 le 02/09 à 16:36** clôt le « 0 paiement » : toile 
 4. **Pas de hausse de budget** tant que le vert GMC tient et qu'une commande réelle a abouti.
 5. Tondeuse mappée `1005007430527466` mais stock Shopify encore à 0 — hors campagne tant
    que DSers n'a pas resynchronisé.
+6. **#1004 fil acrylique blanc** — remap DSers vers `1005008288429136` SKU `01`
+   (stock 3, à reconfirmer). Le cône à 12,99 € ne tient pas en dropshipping AE.
 
 ---
 
