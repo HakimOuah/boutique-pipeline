@@ -1,0 +1,3267 @@
+{
+ "sections": {
+  "main": {
+   "type": "main-product",
+   "blocks": {
+    "title": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<h1>{{ closest.product.title }}</h1>",
+      "text_style": "h3",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Read more",
+      "read_less_text": "Read less",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "subtitle": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<p>A raised, insulated shelter that keeps your outdoor cat warm and dry \u2014 no electricity, no tools.</p>",
+      "text_style": "paragraph",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Read more",
+      "read_less_text": "Read less",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 4,
+      "margin_bottom": 10,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "price": {
+     "type": "product-price",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "product": "{{ closest.product }}",
+      "sales_badge": "percentage",
+      "show_sales_badge_text": false,
+      "show_unit_price": false,
+      "text_style": "paragraph",
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "separator_1": {
+     "type": "separator",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "width": 100,
+      "separator_style": "solid",
+      "margin_top": 10,
+      "margin_bottom": 10,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "purchase_benefits": {
+     "type": "group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "card_link": "",
+      "color_scheme": "",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 100,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 6,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": false,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 10,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": false,
+      "padding_horizontal": 10,
+      "padding_vertical": 10,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "b1": {
+       "type": "icon-with-text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "layout_direction_desktop": "row",
+        "layout_gap_desktop": 10,
+        "same_as_desktop": true,
+        "layout_direction_mobile": "row",
+        "layout_gap_mobile": 10,
+        "icon_type": "icon",
+        "icon": "bolt",
+        "icon_custom": "",
+        "icon_size": 18,
+        "icon_position": "start",
+        "text": "<p>No electricity needed \u2014 reflective lining holds the warmth in</p>",
+        "text_style": "paragraph",
+        "font_weight": 400,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "b2": {
+       "type": "icon-with-text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "layout_direction_desktop": "row",
+        "layout_gap_desktop": 10,
+        "same_as_desktop": true,
+        "layout_direction_mobile": "row",
+        "layout_gap_mobile": 10,
+        "icon_type": "icon",
+        "icon": "arrow_upward",
+        "icon_custom": "",
+        "icon_size": 18,
+        "icon_position": "start",
+        "text": "<p>Raised legs keep your cat off cold, damp ground</p>",
+        "text_style": "paragraph",
+        "font_weight": 400,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "b3": {
+       "type": "icon-with-text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "layout_direction_desktop": "row",
+        "layout_gap_desktop": 10,
+        "same_as_desktop": true,
+        "layout_direction_mobile": "row",
+        "layout_gap_mobile": 10,
+        "icon_type": "icon",
+        "icon": "water_drop",
+        "icon_custom": "",
+        "icon_size": 18,
+        "icon_position": "start",
+        "text": "<p>Water-resistant roof and door flap</p>",
+        "text_style": "paragraph",
+        "font_weight": 400,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "b4": {
+       "type": "icon-with-text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "layout_direction_desktop": "row",
+        "layout_gap_desktop": 10,
+        "same_as_desktop": true,
+        "layout_direction_mobile": "row",
+        "layout_gap_mobile": 10,
+        "icon_type": "icon",
+        "icon": "bolt",
+        "icon_custom": "",
+        "icon_size": 18,
+        "icon_position": "start",
+        "text": "<p>Folds flat, sets up in minutes, no tools required</p>",
+        "text_style": "paragraph",
+        "font_weight": 400,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "b1",
+      "b2",
+      "b3",
+      "b4"
+     ]
+    },
+    "product_form": {
+     "type": "_product-form",
+     "settings": {},
+     "blocks": {
+      "variant_picker": {
+       "type": "_product-variant-picker",
+       "settings": {
+        "show_option_name": true,
+        "variant_picker_type": "buttons",
+        "show_swatches": true,
+        "swatches_size": "normal",
+        "swatches_rounded": true,
+        "margin_top": 0,
+        "margin_bottom": 15,
+        "additional_class": ""
+       },
+       "blocks": {},
+       "block_order": []
+      },
+      "product-add-to-cart-button": {
+       "type": "_product-add-to-cart-button",
+       "static": true,
+       "settings": {
+        "enable_sticky_add_to_cart": true,
+        "button_style": "primary",
+        "show_price": true,
+        "icon": "none",
+        "icon_custom": "",
+        "icon_position": "end",
+        "enable_preorder": false,
+        "enable_preorder_on_empty_stock_only": true,
+        "preorder_cart_message": "",
+        "additional_class": ""
+       },
+       "blocks": {
+        "product-quantity-selector": {
+         "type": "_product-quantity-selector",
+         "static": true,
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       }
+      }
+     },
+     "block_order": [
+      "variant_picker"
+     ]
+    },
+    "micro_copy": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<p>Free UK delivery, 6\u201310 business days. 30-day returns.</p>",
+      "text_style": "paragraph",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Read more",
+      "read_less_text": "Read less",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 8,
+      "margin_bottom": 8,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "payment_icons": {
+     "type": "payment-methods",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "alignment_desktop": "flex-start",
+      "alignment_mobile": "flex-start",
+      "icon_size": 30,
+      "margin_top": 4,
+      "margin_bottom": 8,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "separator_2": {
+     "type": "separator",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "width": 100,
+      "separator_style": "solid",
+      "margin_top": 10,
+      "margin_bottom": 10,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "description_visible": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "{{ closest.product.description }}",
+      "text_style": "paragraph",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": true,
+      "read_more_length": 50,
+      "read_more_text": "Read more",
+      "read_less_text": "Read less",
+      "truncate": true,
+      "truncate_length": 4,
+      "margin_top": 5,
+      "margin_bottom": 5,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "product_media_gallery": {
+     "type": "_product-media-gallery",
+     "static": true,
+     "settings": {
+      "hide_variants": false,
+      "media_display": "carrousel",
+      "media_ratio": "1 / 1",
+      "media_rounded": true,
+      "grid_columns": "2",
+      "grid_gap": 10,
+      "main_image_full_width": true,
+      "show_a_bit_of_next_image_on_mobile": false,
+      "show_arrows": false,
+      "show_pagination": false,
+      "show_thumbnails": true,
+      "show_thumbnails_on_display": "desktop_and_mobile",
+      "thumbnails_show_arrows": false,
+      "video_loop": true,
+      "enable_video_controls": false,
+      "show_badges": true,
+      "additional_class": ""
+     },
+     "blocks": {}
+    }
+   },
+   "block_order": [
+    "title",
+    "subtitle",
+    "price",
+    "separator_1",
+    "purchase_benefits",
+    "product_form",
+    "micro_copy",
+    "payment_icons",
+    "separator_2",
+    "description_visible"
+   ],
+   "settings": {
+    "color_scheme": "scheme-1",
+    "show_product_info_card": false,
+    "color_scheme_product_info": "",
+    "image_position": "row",
+    "product_info_width": 50,
+    "gap": 48,
+    "carrousel_sticky": true,
+    "product_info_sticky": true,
+    "carrousel_full_width": true,
+    "padding_top": 30,
+    "padding_bottom": 50,
+    "margin_top": 0,
+    "margin_bottom": 0
+   }
+  },
+  "benefit1": {
+   "type": "custom-section",
+   "blocks": {
+    "img": {
+     "type": "image",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "image": "",
+      "show_placeholder": true,
+      "link": "",
+      "image_ratio": "adapt",
+      "image_width_desktop": 100,
+      "image_width_mobile": 100,
+      "enable_rounded_corners": true,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "group": {
+     "type": "group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "card_link": "",
+      "color_scheme": "",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 48,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 12,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": false,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 10,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": true,
+      "padding_horizontal": 30,
+      "padding_vertical": 10,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "h2": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<h2>Warmth without electricity</h2>",
+        "text_style": "h4",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Read more",
+        "read_less_text": "Read less",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "p": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<p>The roof and door flap are lined with a reflective film. It works passively: it reflects your cat's own body heat back into the shelter instead of letting it escape into the night air. There's nothing to plug in, nothing to charge, and nothing that can run out of power on the coldest night. The walls are padded too, adding a second layer of insulation around your cat.</p>",
+        "text_style": "paragraph",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Read more",
+        "read_less_text": "Read less",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "h2",
+      "p"
+     ]
+    }
+   },
+   "block_order": [
+    "img",
+    "group"
+   ],
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-1",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "row",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 40,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": false,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 40,
+    "padding_bottom": 40,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": ""
+   }
+  },
+  "benefit2": {
+   "type": "custom-section",
+   "blocks": {
+    "img": {
+     "type": "image",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "image": "",
+      "show_placeholder": true,
+      "link": "",
+      "image_ratio": "adapt",
+      "image_width_desktop": 100,
+      "image_width_mobile": 100,
+      "enable_rounded_corners": true,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "group": {
+     "type": "group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "card_link": "",
+      "color_scheme": "",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 48,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 12,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": false,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 10,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": true,
+      "padding_horizontal": 30,
+      "padding_vertical": 10,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "h2": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<h2>Dry and off the ground</h2>",
+        "text_style": "h4",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Read more",
+        "read_less_text": "Read less",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "p": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<p>Cold isn't the only problem outdoors \u2014 damp is just as hard on a cat. This shelter stands on raised plastic legs, lifting it above wet grass, mud and standing water. The roof and door flap are water-resistant, built to shed rain rather than let it soak through. It's designed for the kind of weather the UK actually gets.</p>",
+        "text_style": "paragraph",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Read more",
+        "read_less_text": "Read less",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "h2",
+      "p"
+     ]
+    }
+   },
+   "block_order": [
+    "group",
+    "img"
+   ],
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-2",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "row-reverse",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 40,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": false,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 40,
+    "padding_bottom": 40,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": ""
+   }
+  },
+  "benefit3": {
+   "type": "custom-section",
+   "blocks": {
+    "img": {
+     "type": "image",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "image": "",
+      "show_placeholder": true,
+      "link": "",
+      "image_ratio": "adapt",
+      "image_width_desktop": 100,
+      "image_width_mobile": 100,
+      "enable_rounded_corners": true,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "group": {
+     "type": "group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "card_link": "",
+      "color_scheme": "",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 48,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 12,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": false,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 10,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": true,
+      "padding_horizontal": 30,
+      "padding_vertical": 10,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "h2": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<h2>Assembly and folding</h2>",
+        "text_style": "h4",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Read more",
+        "read_less_text": "Read less",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "p": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<p>No tools, no instructions to lose. The shelter opens into shape in a couple of minutes and folds flat again when you need to store it, move it, or clean underneath it.</p>",
+        "text_style": "paragraph",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Read more",
+        "read_less_text": "Read less",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "h2",
+      "p"
+     ]
+    }
+   },
+   "block_order": [
+    "img",
+    "group"
+   ],
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-1",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "row",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 40,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": false,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 40,
+    "padding_bottom": 40,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": ""
+   }
+  },
+  "benefit4": {
+   "type": "custom-section",
+   "blocks": {
+    "img": {
+     "type": "image",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "image": "",
+      "show_placeholder": true,
+      "link": "",
+      "image_ratio": "adapt",
+      "image_width_desktop": 100,
+      "image_width_mobile": 100,
+      "enable_rounded_corners": true,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "group": {
+     "type": "group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "card_link": "",
+      "color_scheme": "",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 48,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 12,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": false,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 10,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": true,
+      "padding_horizontal": 30,
+      "padding_vertical": 10,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "h2": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<h2>Safety and foxes</h2>",
+        "text_style": "h4",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Read more",
+        "read_less_text": "Read less",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "p": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<p>No outdoor shelter can promise total protection from every animal, and we won't claim this one does. What it gives your cat is an enclosed, private space to retreat into, off the ground and out of the open. For context, Cats Protection's own figures show fox attacks on cats are rare \u2014 around 5 in every 10,000 vet visits, compared with 541 for fights with other cats. We'd rather give you the real numbers than an empty promise.</p>",
+        "text_style": "paragraph",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Read more",
+        "read_less_text": "Read less",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "h2",
+      "p"
+     ]
+    }
+   },
+   "block_order": [
+    "group",
+    "img"
+   ],
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-2",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "row-reverse",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 40,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": false,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 40,
+    "padding_bottom": 40,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": ""
+   }
+  },
+  "dimensions": {
+   "type": "custom-section",
+   "blocks": {
+    "h2": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<h2>Dimensions &amp; capacity</h2>",
+      "text_style": "h3",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Read more",
+      "read_less_text": "Read less",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 15,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "list": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<ul><li>Size L: 55 \u00d7 45 \u00d7 40 cm</li><li>Size M: 50 \u00d7 40 \u00d7 36 cm (subject to availability)</li><li>Suitable for one cat to use comfortably</li></ul>",
+      "text_style": "paragraph",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Read more",
+      "read_less_text": "Read less",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    }
+   },
+   "block_order": [
+    "h2",
+    "list"
+   ],
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-1",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "column",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 10,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": true,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 40,
+    "padding_bottom": 40,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": ""
+   }
+  },
+  "adopt_excerpt": {
+   "type": "custom-section",
+   "blocks": {
+    "h2": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<h2>Help your cat adopt it</h2>",
+      "text_style": "h3",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Read more",
+      "read_less_text": "Read less",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 10,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "p": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<p>A new shelter can sit untouched for the first few days \u2014 that's normal, not a fault. Our free guide covers where to place it, what to add so it smells familiar, and how to use food to encourage that first visit.</p>",
+      "text_style": "paragraph",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Read more",
+      "read_less_text": "Read less",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "link": {
+     "type": "group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "card_link": "",
+      "color_scheme": "",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 100,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 12,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": false,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 10,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": false,
+      "padding_horizontal": 10,
+      "padding_vertical": 10,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "btn": {
+       "type": "button",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "link": "/pages/help-your-cat-adopt-its-shelter",
+        "open_in_new_tab": false,
+        "label": "Read the adoption guide",
+        "button_style": "secondary",
+        "button_shape": "default",
+        "icon": "none",
+        "icon_custom": "",
+        "icon_position": "end",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "btn"
+     ]
+    }
+   },
+   "block_order": [
+    "h2",
+    "p",
+    "link"
+   ],
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-2",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "column",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 10,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": true,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 40,
+    "padding_bottom": 40,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": ""
+   }
+  },
+  "comparison": {
+   "type": "comparison-table",
+   "blocks": {
+    "row_header": {
+     "type": "_comparison-table-row",
+     "settings": {},
+     "blocks": {
+      "c0": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c1": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p><strong>DIY box</strong></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c2": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p><strong>Plain fabric shelter</strong></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c3": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p><strong>Cosy Cat House</strong></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c4": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p><strong>Wooden cabin</strong></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      }
+     },
+     "block_order": [
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+     ]
+    },
+    "row_0": {
+     "type": "_comparison-table-row",
+     "settings": {},
+     "blocks": {
+      "c0": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p><strong>Price</strong></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c1": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Free (using what you have)</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c2": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>\u00a330\u2013\u00a365</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c3": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>\u00a389</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c4": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>\u00a3102\u2013\u00a3215+</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      }
+     },
+     "block_order": [
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+     ]
+    },
+    "row_1": {
+     "type": "_comparison-table-row",
+     "settings": {},
+     "blocks": {
+      "c0": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p><strong>Insulation</strong></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c1": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>None \u2014 cardboard softens and loses shape when damp</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c2": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Usually none, or a thin unlined layer</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c3": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Reflective-lined roof and door flap, padded walls</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c4": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Solid, but heavy</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      }
+     },
+     "block_order": [
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+     ]
+    },
+    "row_2": {
+     "type": "_comparison-table-row",
+     "settings": {},
+     "blocks": {
+      "c0": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p><strong>Raised off the ground</strong></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c1": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>No</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c2": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Sometimes</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c3": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Yes \u2014 raised plastic legs</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c4": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Sometimes</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      }
+     },
+     "block_order": [
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+     ]
+    },
+    "row_3": {
+     "type": "_comparison-table-row",
+     "settings": {},
+     "blocks": {
+      "c0": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p><strong>Water-resistant</strong></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c1": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>No</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c2": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Basic at best</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c3": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Yes \u2014 roof and door flap</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c4": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Yes</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      }
+     },
+     "block_order": [
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+     ]
+    },
+    "row_4": {
+     "type": "_comparison-table-row",
+     "settings": {},
+     "blocks": {
+      "c0": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p><strong>Foldable</strong></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c1": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>\u2014</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c2": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Usually yes</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c3": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Yes</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c4": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>No</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      }
+     },
+     "block_order": [
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+     ]
+    },
+    "row_5": {
+     "type": "_comparison-table-row",
+     "settings": {},
+     "blocks": {
+      "c0": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p><strong>Setup</strong></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c1": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>None, but needs replacing often</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c2": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Quick</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c3": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Minutes, no tools</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c4": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Assembly required, often with tools</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      }
+     },
+     "block_order": [
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+     ]
+    },
+    "row_cta": {
+     "type": "_comparison-table-row",
+     "settings": {},
+     "blocks": {
+      "c0": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {},
+       "block_order": []
+      },
+      "c1": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {},
+       "block_order": []
+      },
+      "c2": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {},
+       "block_order": []
+      },
+      "c3": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "b": {
+         "type": "button",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "link": "/products/insulated-outdoor-cat-house",
+          "open_in_new_tab": false,
+          "label": "Shop the shelter",
+          "button_style": "primary",
+          "button_shape": "default",
+          "icon": "none",
+          "icon_custom": "",
+          "icon_position": "end",
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "b"
+       ]
+      },
+      "c4": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {},
+       "block_order": []
+      }
+     },
+     "block_order": [
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+     ]
+    },
+    "title": {
+     "type": "text",
+     "static": true,
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<h2>How it compares</h2><p>Cardboard and towels are the most common free option, but the RSPCA and Cats Protection both warn that damp cardboard loses its insulating value quickly in UK winters \u2014 it's why we built this instead.</p>",
+      "show_read_more": false,
+      "read_more_length": 200,
+      "text_style": "h3",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "margin_top": 0,
+      "margin_bottom": 30,
+      "additional_class": ""
+     },
+     "blocks": {}
+    }
+   },
+   "block_order": [
+    "row_header",
+    "row_0",
+    "row_1",
+    "row_2",
+    "row_3",
+    "row_4",
+    "row_5",
+    "row_cta"
+   ],
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "section_width": "normal",
+    "color_scheme": "scheme-2",
+    "color_scheme_table": "scheme-1",
+    "cell_min_width_mobile": 140,
+    "highlighted_column": 3,
+    "color_highlighted_column": "#1F5E3A",
+    "color_highlighted_background_column": "#FFF7ED",
+    "padding_top": 50,
+    "padding_bottom": 50,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "comparison",
+    "additional_class": ""
+   }
+  },
+  "specs": {
+   "type": "custom-section",
+   "blocks": {
+    "h2": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<h2>Specifications</h2>",
+      "text_style": "h3",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Read more",
+      "read_less_text": "Read less",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 15,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "table": {
+     "type": "custom-code",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "custom_liquid": "<div style=\"width:100%;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;\"><table style=\"width:100%;min-width:480px;border-collapse:collapse;\"><tbody><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Material</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">Oxford fabric (weather-resistant outer)</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Insulation</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">Reflective film lining (roof + door flap), padded walls</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Base</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">Raised plastic legs, off the ground</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Roof / door flap</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">Two-pitch roof, water-resistant, reflective-lined</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Window</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">Side window</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Assembly</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">No tools, sets up in minutes</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Foldable</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">Yes, folds flat for storage</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Colour</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">Grey (Black and Green \u2014 coming soon, currently limited stock)</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Size L</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">55 \u00d7 45 \u00d7 40 cm</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Size M</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">50 \u00d7 40 \u00d7 36 cm (if in stock)</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Power source</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">None \u2014 passive insulation, no electricity</td></tr></tbody></table></div>",
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    }
+   },
+   "block_order": [
+    "h2",
+    "table"
+   ],
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-1",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "column",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 10,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": true,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 40,
+    "padding_bottom": 40,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": ""
+   }
+  },
+  "faq": {
+   "type": "custom-section",
+   "blocks": {
+    "h2": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<h2>Frequently asked questions</h2>",
+      "text_style": "h3",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Read more",
+      "read_less_text": "Read less",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 6,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "acc": {
+     "type": "accordions",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "icon": "caret",
+      "dividers": true,
+      "additional_class": ""
+     },
+     "blocks": {
+      "q1": {
+       "type": "_accordion",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "heading": "Does it need electricity to keep my cat warm?",
+        "heading_tag": "p",
+        "heading_style": "paragraph",
+        "open_by_default": false,
+        "icon": "none",
+        "icon_custom": "",
+        "additional_class": ""
+       },
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>No. It's insulated, not heated. The reflective lining and padded walls work passively, with nothing to plug in.</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "q2": {
+       "type": "_accordion",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "heading": "Is it waterproof?",
+        "heading_tag": "p",
+        "heading_style": "paragraph",
+        "open_by_default": false,
+        "icon": "none",
+        "icon_custom": "",
+        "additional_class": ""
+       },
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>The roof and door flap are water-resistant and built to shed rain, and the raised legs keep the base off wet ground. We're not calling it fully waterproof until we've tested a sample ourselves in real UK rain.</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "q3": {
+       "type": "_accordion",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "heading": "Will it protect my cat from foxes?",
+        "heading_tag": "p",
+        "heading_style": "paragraph",
+        "open_by_default": false,
+        "icon": "none",
+        "icon_custom": "",
+        "additional_class": ""
+       },
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>It gives your cat an enclosed, private space to retreat to \u2014 not a guarantee against any animal. Cats Protection's data shows fox attacks on cats are uncommon (about 5 in 10,000 vet visits). We won't claim \u201cfox-proof.\u201d</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "q4": {
+       "type": "_accordion",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "heading": "How many cats can it fit?",
+        "heading_tag": "p",
+        "heading_style": "paragraph",
+        "open_by_default": false,
+        "icon": "none",
+        "icon_custom": "",
+        "additional_class": ""
+       },
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>It's designed for one cat to use comfortably. We'll confirm exact capacity once we've tested a sample.</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "q5": {
+       "type": "_accordion",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "heading": "How long does assembly take, and do I need tools?",
+        "heading_tag": "p",
+        "heading_style": "paragraph",
+        "open_by_default": false,
+        "icon": "none",
+        "icon_custom": "",
+        "additional_class": ""
+       },
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>No tools needed. It opens into shape in a couple of minutes.</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "q6": {
+       "type": "_accordion",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "heading": "How do I clean it?",
+        "heading_tag": "p",
+        "heading_style": "paragraph",
+        "open_by_default": false,
+        "icon": "none",
+        "icon_custom": "",
+        "additional_class": ""
+       },
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>We're finalising exact care instructions after testing a sample \u2014 this answer will be updated once confirmed. In general, a wipe-down of the outer fabric is expected to be enough for everyday use.</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "q7": {
+       "type": "_accordion",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "heading": "What's it made from?",
+        "heading_tag": "p",
+        "heading_style": "paragraph",
+        "open_by_default": false,
+        "icon": "none",
+        "icon_custom": "",
+        "additional_class": ""
+       },
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Oxford fabric on the outside, with a reflective film lining the roof and door flap, and padded walls underneath.</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "q8": {
+       "type": "_accordion",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "heading": "Does it fold away for storage?",
+        "heading_tag": "p",
+        "heading_style": "paragraph",
+        "open_by_default": false,
+        "icon": "none",
+        "icon_custom": "",
+        "additional_class": ""
+       },
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Yes. It folds flat, so you can store it over summer or move it easily.</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "q9": {
+       "type": "_accordion",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "heading": "How long does delivery take, and what does it cost?",
+        "heading_tag": "p",
+        "heading_style": "paragraph",
+        "open_by_default": false,
+        "icon": "none",
+        "icon_custom": "",
+        "additional_class": ""
+       },
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Free UK delivery, 6\u201310 business days. It ships from our supplier's warehouse, so timing can vary slightly with demand.</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "q10": {
+       "type": "_accordion",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "heading": "What's your returns policy?",
+        "heading_tag": "p",
+        "heading_style": "paragraph",
+        "open_by_default": false,
+        "icon": "none",
+        "icon_custom": "",
+        "additional_class": ""
+       },
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>30 days to return it if it isn't right for you or your cat. See our full Returns &amp; refunds policy for details.</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Read more",
+          "read_less_text": "Read less",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      }
+     },
+     "block_order": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10"
+     ]
+    }
+   },
+   "block_order": [
+    "h2",
+    "acc"
+   ],
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-2",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "column",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 10,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": true,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 50,
+    "padding_bottom": 30,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "faq",
+    "additional_class": ""
+   }
+  },
+  "reassurance": {
+   "type": "custom-section",
+   "blocks": {
+    "c1": {
+     "type": "group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "card_link": "",
+      "color_scheme": "",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 23,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 8,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": false,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 10,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": false,
+      "padding_horizontal": 15,
+      "padding_vertical": 15,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "i": {
+       "type": "icon-with-text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "layout_direction_desktop": "row",
+        "layout_gap_desktop": 10,
+        "same_as_desktop": true,
+        "layout_direction_mobile": "row",
+        "layout_gap_mobile": 10,
+        "icon_type": "icon",
+        "icon": "local_shipping",
+        "icon_custom": "",
+        "icon_size": 24,
+        "icon_position": "start",
+        "text": "<p>Free UK delivery, 6\u201310 business days</p>",
+        "text_style": "paragraph",
+        "font_weight": 500,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "i"
+     ]
+    },
+    "c2": {
+     "type": "group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "card_link": "",
+      "color_scheme": "",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 23,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 8,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": false,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 10,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": false,
+      "padding_horizontal": 15,
+      "padding_vertical": 15,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "i": {
+       "type": "icon-with-text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "layout_direction_desktop": "row",
+        "layout_gap_desktop": 10,
+        "same_as_desktop": true,
+        "layout_direction_mobile": "row",
+        "layout_gap_mobile": 10,
+        "icon_type": "icon",
+        "icon": "assignment_return",
+        "icon_custom": "",
+        "icon_size": 24,
+        "icon_position": "start",
+        "text": "<p>30-day returns</p>",
+        "text_style": "paragraph",
+        "font_weight": 500,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "i"
+     ]
+    },
+    "c3": {
+     "type": "group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "card_link": "",
+      "color_scheme": "",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 23,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 8,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": false,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 10,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": false,
+      "padding_horizontal": 15,
+      "padding_vertical": 15,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "i": {
+       "type": "icon-with-text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "layout_direction_desktop": "row",
+        "layout_gap_desktop": 10,
+        "same_as_desktop": true,
+        "layout_direction_mobile": "row",
+        "layout_gap_mobile": 10,
+        "icon_type": "icon",
+        "icon": "lock",
+        "icon_custom": "",
+        "icon_size": 24,
+        "icon_position": "start",
+        "text": "<p>Secure payment</p>",
+        "text_style": "paragraph",
+        "font_weight": 500,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "i"
+     ]
+    },
+    "c4": {
+     "type": "group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "card_link": "",
+      "color_scheme": "",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 23,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 8,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": false,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 10,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": false,
+      "padding_horizontal": 15,
+      "padding_vertical": 15,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "i": {
+       "type": "icon-with-text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "layout_direction_desktop": "row",
+        "layout_gap_desktop": 10,
+        "same_as_desktop": true,
+        "layout_direction_mobile": "row",
+        "layout_gap_mobile": 10,
+        "icon_type": "icon",
+        "icon": "support_agent",
+        "icon_custom": "",
+        "icon_size": 24,
+        "icon_position": "start",
+        "text": "<p>Email support, real replies</p>",
+        "text_style": "paragraph",
+        "font_weight": 500,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "i"
+     ]
+    }
+   },
+   "block_order": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+   ],
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-1",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "row",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 20,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": false,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 15,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 40,
+    "padding_bottom": 40,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": ""
+   }
+  }
+ },
+ "order": [
+  "main",
+  "benefit1",
+  "benefit2",
+  "benefit3",
+  "benefit4",
+  "dimensions",
+  "adopt_excerpt",
+  "comparison",
+  "specs",
+  "faq",
+  "reassurance"
+ ]
+}

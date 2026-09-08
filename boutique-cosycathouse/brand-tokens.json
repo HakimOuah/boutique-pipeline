@@ -1,26 +1,31 @@
 {
   "brand": {
-    "name": "boutique-cosycathouse",
-    "baseline": ""
+    "name": "Cosy Cat House",
+    "baseline": "A warm, dry, raised shelter your outdoor cat will actually use.",
+    "_statut": "VALIDÉ PORTE 1 par Hakim le 08/09/2026 (nom + DA A + prix 89/79 £)"
   },
   "colors": {
-    "background": "#FFFFFF",
-    "text": "#2B1D14",
-    "accent": "#B5651D",
+    "background": "#FFF7ED",
+    "text": "#1F2937",
+    "accent": "#1F5E3A",
     "accent_text": "#FFFFFF",
-    "secondary": "#7C8471"
+    "secondary": "#F59E0B"
   },
   "typography": {
-    "heading": "playfair_display_n5",
-    "subheading": "work_sans_n4",
-    "body": "work_sans_n4"
+    "heading": "Varela Round",
+    "subheading": "Varela Round",
+    "body": "Nunito Sans"
   },
   "tone": {
-    "register": "vouvoiement premium chaleureux",
+    "register": "British English, 'you / your cat', warm, practical, caring pet-shop voice (persona Sarah + Barbara, validated 08/09/2026)",
     "avoid": [
-      "meilleur",
-      "incroyable",
-      "révolutionnaire"
+      "waterproof (use water-resistant until sample tested)",
+      "self-heating",
+      "fox-proof / guaranteed",
+      "any health or survival claim",
+      "included in the box",
+      "fake urgency, fake scarcity, fake reviews",
+      "revolutionary / best / unique"
     ]
   }
 }
