@@ -14,9 +14,9 @@
             "banner_height": "medium",
             "layout_justify": "center",
             "layout_align_items": "flex-start",
-            "same_as_desktop": true,
-            "banner_height_mobile": "medium",
-            "layout_justify_mobile": "center",
+            "same_as_desktop": false,
+            "banner_height_mobile": "large",
+            "layout_justify_mobile": "flex-start",
             "layout_align_items_mobile": "flex-start",
             "image_filter_opacity": 20,
             "image_filter_color": "#000000",
@@ -126,7 +126,7 @@
                 "bullets": {
                   "type": "group",
                   "settings": {
-                    "show_on_display": "desktop_and_mobile",
+                    "show_on_display": "desktop_only",
                     "wrap_in_card": false,
                     "card_link": "",
                     "color_scheme": "",
