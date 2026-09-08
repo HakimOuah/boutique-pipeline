@@ -1,71 +1,8 @@
 {
   "sections": {
-    "cch_head": {
-      "type": "custom-section",
-      "blocks": {
-        "code": {
-          "type": "custom-code",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "custom_liquid": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"><link rel=\"stylesheet\" href=\"{{ 'cch-motion.css' | asset_url }}\">\n<script>\n(function(){\n  var OLD='£119', PCT='-25%';\n  function promo(){\n    document.querySelectorAll('.prices').forEach(function(p){\n      var price=p.querySelector('.price'); var cmp=p.querySelector('.compare-at-price');\n      if(!price||!cmp||!/£8\\d/.test(price.textContent)) return;\n      cmp.textContent=OLD; cmp.setAttribute('data-value','11900'); cmp.classList.add('cch-promo-old');\n      var badge=p.parentElement.querySelector('.badge'); if(badge){ badge.classList.add('cch-promo-badge'); badge.style.display='inline-block'; var s=badge.querySelector('.badge__savings'); if(s) s.textContent=PCT; }\n    });\n  }\n  promo(); setTimeout(promo,800); setTimeout(promo,2500);\n  document.addEventListener('variant:change',promo);\n})();\n</script>",
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "additional_class": ""
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "code"
-      ],
-      "settings": {
-        "show_on_display": "desktop_and_mobile",
-        "color_scheme": "scheme-1",
-        "wrap_in_card": false,
-        "color_scheme_card": "",
-        "section_width": "normal",
-        "layout_type": "flex",
-        "layout_flex_direction_desktop": "column",
-        "layout_grid_columns_desktop": 3,
-        "layout_gap_desktop": 10,
-        "layout_wrap_desktop": "nowrap",
-        "layout_flex_justify_desktop": "flex-start",
-        "layout_flex_align_items_desktop": "flex-start",
-        "same_as_desktop": true,
-        "layout_flex_direction_mobile": "column",
-        "layout_gap_mobile": 10,
-        "layout_wrap_mobile": "nowrap",
-        "layout_flex_justify_mobile": "flex-start",
-        "layout_flex_align_items_mobile": "flex-start",
-        "layout_grid_columns_mobile": 1,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "anchor_id": "",
-        "additional_class": ""
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
-        "badge": {
-          "type": "reviews-badge",
-          "settings": {
-            "review_badge_style": "trustpilot",
-            "wrap_in_a_badge": false,
-            "color_scheme": "scheme-1",
-            "show_badge_border": true,
-            "text_1": "Excellent",
-            "stars": "4.8",
-            "text_2": "312 reviews on",
-            "link": "#reviews",
-            "margin_top": 0,
-            "margin_bottom": 4,
-            "additional_class": ""
-          },
-          "blocks": {}
-        },
         "title": {
           "type": "text",
           "settings": {
@@ -92,10 +29,10 @@
           "type": "text",
           "settings": {
             "show_on_display": "desktop_and_mobile",
-            "text": "<p>The insulated, raised shelter for cats who sleep outside — no electricity, no tools.</p>",
+            "text": "<p>A raised, insulated shelter that keeps your outdoor cat warm and dry — no electricity, no tools.</p>",
             "text_style": "paragraph",
-            "paragraph_font_size": "large",
-            "font_weight": 500,
+            "paragraph_font_size": "normal",
+            "font_weight": 400,
             "alignment": "left",
             "alignment_mobile": "left",
             "show_read_more": false,
@@ -104,8 +41,8 @@
             "read_less_text": "Read less",
             "truncate": false,
             "truncate_length": 2,
-            "margin_top": 0,
-            "margin_bottom": 0,
+            "margin_top": 4,
+            "margin_bottom": 10,
             "additional_class": ""
           },
           "blocks": {}
@@ -123,28 +60,6 @@
           },
           "blocks": {}
         },
-        "promo": {
-          "type": "text",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "text": "<p>Autumn offer: <strong>£30 off</strong> until Sunday. Free UK delivery included.</p>",
-            "text_style": "paragraph",
-            "paragraph_font_size": "small",
-            "font_weight": 400,
-            "alignment": "left",
-            "alignment_mobile": "left",
-            "show_read_more": false,
-            "read_more_length": 50,
-            "read_more_text": "Read more",
-            "read_less_text": "Read less",
-            "truncate": false,
-            "truncate_length": 2,
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "additional_class": ""
-          },
-          "blocks": {}
-        },
         "separator_1": {
           "type": "separator",
           "settings": {
@@ -157,7 +72,7 @@
           },
           "blocks": {}
         },
-        "benefits": {
+        "purchase_benefits": {
           "type": "group",
           "settings": {
             "show_on_display": "desktop_and_mobile",
@@ -169,23 +84,23 @@
             "width_desktop": 100,
             "layout_direction_desktop": "column",
             "layout_grid_columns_desktop": 3,
-            "layout_gap_desktop": 8,
+            "layout_gap_desktop": 6,
             "layout_wrap_desktop": "nowrap",
             "layout_justify_desktop": "flex-start",
             "layout_align_items_desktop": "flex-start",
-            "same_as_desktop": true,
+            "same_as_desktop": false,
             "width_mobile": 100,
             "layout_direction_mobile": "column",
             "layout_grid_columns_mobile": 1,
-            "layout_gap_mobile": 8,
+            "layout_gap_mobile": 10,
             "layout_wrap_mobile": "nowrap",
             "layout_justify_mobile": "flex-start",
             "layout_align_items_mobile": "flex-start",
             "use_global_container_padding": false,
             "padding_horizontal": 10,
             "padding_vertical": 10,
-            "margin_top": 6,
-            "margin_bottom": 4,
+            "margin_top": 0,
+            "margin_bottom": 0,
             "additional_class": ""
           },
           "blocks": {
@@ -199,11 +114,11 @@
                 "layout_direction_mobile": "row",
                 "layout_gap_mobile": 10,
                 "icon_type": "icon",
-                "icon": "ac_unit",
+                "icon": "bolt",
                 "icon_custom": "",
-                "icon_size": 22,
+                "icon_size": 18,
                 "icon_position": "start",
-                "text": "<p><strong>Reflective-lined roof and padded walls</strong> — holds your cat's own warmth</p>",
+                "text": "<p>No electricity needed — reflective lining holds the warmth in</p>",
                 "text_style": "paragraph",
                 "font_weight": 400,
                 "margin_top": 0,
@@ -224,9 +139,9 @@
                 "icon_type": "icon",
                 "icon": "arrow_upward",
                 "icon_custom": "",
-                "icon_size": 22,
+                "icon_size": 18,
                 "icon_position": "start",
-                "text": "<p><strong>Raised legs</strong> keep it off cold, wet ground</p>",
+                "text": "<p>Raised legs keep your cat off cold, damp ground</p>",
                 "text_style": "paragraph",
                 "font_weight": 400,
                 "margin_top": 0,
@@ -247,9 +162,9 @@
                 "icon_type": "icon",
                 "icon": "water_drop",
                 "icon_custom": "",
-                "icon_size": 22,
+                "icon_size": 18,
                 "icon_position": "start",
-                "text": "<p><strong>Water-resistant</strong> roof and door flap</p>",
+                "text": "<p>Water-resistant roof and door flap</p>",
                 "text_style": "paragraph",
                 "font_weight": 400,
                 "margin_top": 0,
@@ -270,9 +185,9 @@
                 "icon_type": "icon",
                 "icon": "open_in_full",
                 "icon_custom": "",
-                "icon_size": 22,
+                "icon_size": 18,
                 "icon_position": "start",
-                "text": "<p><strong>Folds flat</strong>, sets up in minutes, no tools</p>",
+                "text": "<p>Folds flat, sets up in minutes, no tools required</p>",
                 "text_style": "paragraph",
                 "font_weight": 400,
                 "margin_top": 0,
@@ -406,6 +321,28 @@
             "variant_picker"
           ]
         },
+        "micro_copy": {
+          "type": "text",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "text": "<p>Free UK delivery, 6–10 business days. 30-day returns.</p>",
+            "text_style": "paragraph",
+            "paragraph_font_size": "normal",
+            "font_weight": 400,
+            "alignment": "left",
+            "alignment_mobile": "left",
+            "show_read_more": false,
+            "read_more_length": 50,
+            "read_more_text": "Read more",
+            "read_less_text": "Read less",
+            "truncate": false,
+            "truncate_length": 2,
+            "margin_top": 8,
+            "margin_bottom": 8,
+            "additional_class": ""
+          },
+          "blocks": {}
+        },
         "payment_icons": {
           "type": "payment-methods",
           "settings": {
@@ -419,453 +356,39 @@
           },
           "blocks": {}
         },
-        "box": {
-          "type": "custom-code",
+        "separator_2": {
+          "type": "separator",
           "settings": {
             "show_on_display": "desktop_and_mobile",
-            "custom_liquid": "<div class=\"cch-box\"><h4>What's in the box</h4><ul><li>Insulated cat shelter, grey Oxford fabric, 55 × 45 × 40 cm</li><li>Four raised tubular legs (clip-on, no tools)</li><li>Reflective-lined roof and door flap, side window</li><li>Free digital adoption guide (e-mailed after your order)</li></ul><small>Contents as announced by our supplier; confirmed on our own sample.</small></div>",
-            "margin_top": 0,
-            "margin_bottom": 0,
+            "width": 100,
+            "separator_style": "solid",
+            "margin_top": 10,
+            "margin_bottom": 10,
             "additional_class": ""
           },
           "blocks": {}
         },
-        "delivery": {
-          "type": "custom-code",
+        "description_visible": {
+          "type": "text",
           "settings": {
             "show_on_display": "desktop_and_mobile",
-            "custom_liquid": "<div class=\"cch-delivery\"><span>🟢 Delivered by <b id=\"cch-eta\">…</b></span><span>Delivery <b>Free</b></span></div>\n<script>(function(){var d=new Date(),n=0;while(n<8){d.setDate(d.getDate()+1);if(d.getDay()!=0&&d.getDay()!=6)n++;}var f=d.toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short'});var e=document.getElementById('cch-eta');if(e)e.textContent=f;})();</script>",
-            "margin_top": 0,
-            "margin_bottom": 0,
+            "text": "{{ closest.product.description }}",
+            "text_style": "paragraph",
+            "paragraph_font_size": "normal",
+            "font_weight": 400,
+            "alignment": "left",
+            "alignment_mobile": "left",
+            "show_read_more": true,
+            "read_more_length": 50,
+            "read_more_text": "Read more",
+            "read_less_text": "Read less",
+            "truncate": true,
+            "truncate_length": 4,
+            "margin_top": 5,
+            "margin_bottom": 5,
             "additional_class": ""
           },
           "blocks": {}
-        },
-        "reassurance": {
-          "type": "group",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "wrap_in_card": true,
-            "card_link": "",
-            "color_scheme": "scheme-2",
-            "show_card_border": true,
-            "layout_type": "flex",
-            "width_desktop": 100,
-            "layout_direction_desktop": "row",
-            "layout_grid_columns_desktop": 3,
-            "layout_gap_desktop": 10,
-            "layout_wrap_desktop": "nowrap",
-            "layout_justify_desktop": "space-around",
-            "layout_align_items_desktop": "center",
-            "same_as_desktop": true,
-            "width_mobile": 100,
-            "layout_direction_mobile": "row",
-            "layout_grid_columns_mobile": 1,
-            "layout_gap_mobile": 8,
-            "layout_wrap_mobile": "nowrap",
-            "layout_justify_mobile": "space-around",
-            "layout_align_items_mobile": "center",
-            "use_global_container_padding": true,
-            "padding_horizontal": 16,
-            "padding_vertical": 16,
-            "margin_top": 6,
-            "margin_bottom": 6,
-            "additional_class": ""
-          },
-          "blocks": {
-            "r1": {
-              "type": "icon-with-text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "layout_direction_desktop": "column",
-                "layout_gap_desktop": 5,
-                "same_as_desktop": true,
-                "layout_direction_mobile": "column",
-                "layout_gap_mobile": 5,
-                "icon_type": "icon",
-                "icon": "local_shipping",
-                "icon_custom": "",
-                "icon_size": 30,
-                "icon_position": "start",
-                "text": "<p>Free UK delivery<br>6–10 working days</p>",
-                "text_style": "paragraph",
-                "font_weight": 500,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "r2": {
-              "type": "icon-with-text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "layout_direction_desktop": "column",
-                "layout_gap_desktop": 5,
-                "same_as_desktop": true,
-                "layout_direction_mobile": "column",
-                "layout_gap_mobile": 5,
-                "icon_type": "icon",
-                "icon": "assignment_return",
-                "icon_custom": "",
-                "icon_size": 30,
-                "icon_position": "start",
-                "text": "<p>30-day returns<br>+ 14-day legal right</p>",
-                "text_style": "paragraph",
-                "font_weight": 500,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "r3": {
-              "type": "icon-with-text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "layout_direction_desktop": "column",
-                "layout_gap_desktop": 5,
-                "same_as_desktop": true,
-                "layout_direction_mobile": "column",
-                "layout_gap_mobile": 5,
-                "icon_type": "icon",
-                "icon": "support_agent",
-                "icon_custom": "",
-                "icon_size": 30,
-                "icon_position": "start",
-                "text": "<p>Real replies<br>within one working day</p>",
-                "text_style": "paragraph",
-                "font_weight": 500,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "r1",
-            "r2",
-            "r3"
-          ]
-        },
-        "contact": {
-          "type": "group",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "wrap_in_card": true,
-            "card_link": "",
-            "color_scheme": "scheme-1",
-            "show_card_border": true,
-            "layout_type": "flex",
-            "width_desktop": 100,
-            "layout_direction_desktop": "column",
-            "layout_grid_columns_desktop": 3,
-            "layout_gap_desktop": 10,
-            "layout_wrap_desktop": "nowrap",
-            "layout_justify_desktop": "flex-start",
-            "layout_align_items_desktop": "flex-start",
-            "same_as_desktop": true,
-            "width_mobile": 100,
-            "layout_direction_mobile": "column",
-            "layout_grid_columns_mobile": 1,
-            "layout_gap_mobile": 10,
-            "layout_wrap_mobile": "nowrap",
-            "layout_justify_mobile": "flex-start",
-            "layout_align_items_mobile": "flex-start",
-            "use_global_container_padding": true,
-            "padding_horizontal": 16,
-            "padding_vertical": 12,
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "additional_class": ""
-          },
-          "blocks": {
-            "t": {
-              "type": "text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "text": "<p>A question before you order? E-mail <strong>info@ohventures.fr</strong> — we answer within one working day.</p>",
-                "text_style": "paragraph",
-                "paragraph_font_size": "small",
-                "font_weight": 400,
-                "alignment": "left",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "t"
-          ]
-        },
-        "accordions": {
-          "type": "accordions",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "icon": "caret",
-            "dividers": true,
-            "additional_class": ""
-          },
-          "blocks": {
-            "q1": {
-              "type": "_accordion",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "heading": "Description",
-                "heading_tag": "p",
-                "heading_style": "paragraph",
-                "open_by_default": false,
-                "icon": "none",
-                "icon_custom": "",
-                "additional_class": ""
-              },
-              "blocks": {
-                "t": {
-                  "type": "text",
-                  "settings": {
-                    "show_on_display": "desktop_and_mobile",
-                    "text": "{{ closest.product.description }}",
-                    "text_style": "paragraph",
-                    "paragraph_font_size": "normal",
-                    "font_weight": 400,
-                    "alignment": "left",
-                    "alignment_mobile": "left",
-                    "show_read_more": false,
-                    "read_more_length": 50,
-                    "read_more_text": "Read more",
-                    "read_less_text": "Read less",
-                    "truncate": false,
-                    "truncate_length": 2,
-                    "margin_top": 0,
-                    "margin_bottom": 0,
-                    "additional_class": ""
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "t"
-              ]
-            },
-            "q2": {
-              "type": "_accordion",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "heading": "Specifications",
-                "heading_tag": "p",
-                "heading_style": "paragraph",
-                "open_by_default": false,
-                "icon": "none",
-                "icon_custom": "",
-                "additional_class": ""
-              },
-              "blocks": {
-                "t": {
-                  "type": "text",
-                  "settings": {
-                    "show_on_display": "desktop_and_mobile",
-                    "text": "<div style=\"width:100%;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;\"><table style=\"width:100%;min-width:480px;border-collapse:collapse;\"><tbody><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Material</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">Oxford fabric (weather-resistant outer)</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Insulation</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">Reflective film lining (roof + door flap), padded walls</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Base</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">Raised plastic legs, off the ground</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Roof / door flap</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">Two-pitch roof, water-resistant, reflective-lined</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Window</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">Side window</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Assembly</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">No tools, sets up in minutes</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Foldable</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">Yes, folds flat for storage</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Colour</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">Grey (Black and Green — coming soon, currently limited stock)</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Size L</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">55 × 45 × 40 cm</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Power source</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">None — passive insulation, no electricity</td></tr></tbody></table></div>",
-                    "text_style": "paragraph",
-                    "paragraph_font_size": "normal",
-                    "font_weight": 400,
-                    "alignment": "left",
-                    "alignment_mobile": "left",
-                    "show_read_more": false,
-                    "read_more_length": 50,
-                    "read_more_text": "Read more",
-                    "read_less_text": "Read less",
-                    "truncate": false,
-                    "truncate_length": 2,
-                    "margin_top": 0,
-                    "margin_bottom": 0,
-                    "additional_class": ""
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "t"
-              ]
-            },
-            "q3": {
-              "type": "_accordion",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "heading": "Delivery and returns",
-                "heading_tag": "p",
-                "heading_style": "paragraph",
-                "open_by_default": false,
-                "icon": "none",
-                "icon_custom": "",
-                "additional_class": ""
-              },
-              "blocks": {
-                "t": {
-                  "type": "text",
-                  "settings": {
-                    "show_on_display": "desktop_and_mobile",
-                    "text": "<p>Free UK delivery in 6–10 working days (1–2 days processing, 5–8 days transit), tracking e-mailed on dispatch. Nothing to pay at the door. 14-day legal right to cancel plus our 30-day return window; return postage for a change of mind is yours, faulty goods are returned at our cost. Full details in our <a href=\"/policies/shipping-policy\">Shipping policy</a> and <a href=\"/policies/refund-policy\">Returns &amp; refunds policy</a>.</p>",
-                    "text_style": "paragraph",
-                    "paragraph_font_size": "normal",
-                    "font_weight": 400,
-                    "alignment": "left",
-                    "alignment_mobile": "left",
-                    "show_read_more": false,
-                    "read_more_length": 50,
-                    "read_more_text": "Read more",
-                    "read_less_text": "Read less",
-                    "truncate": false,
-                    "truncate_length": 2,
-                    "margin_top": 0,
-                    "margin_bottom": 0,
-                    "additional_class": ""
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "t"
-              ]
-            },
-            "q4": {
-              "type": "_accordion",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "heading": "Materials and care",
-                "heading_tag": "p",
-                "heading_style": "paragraph",
-                "open_by_default": false,
-                "icon": "none",
-                "icon_custom": "",
-                "additional_class": ""
-              },
-              "blocks": {
-                "t": {
-                  "type": "text",
-                  "settings": {
-                    "show_on_display": "desktop_and_mobile",
-                    "text": "<p>Oxford fabric outer, reflective film lining on the roof and door flap, padded walls, black tubular legs. Wipe the outer fabric with a damp cloth. We're confirming the full care routine on our own sample and will update this section.</p>",
-                    "text_style": "paragraph",
-                    "paragraph_font_size": "normal",
-                    "font_weight": 400,
-                    "alignment": "left",
-                    "alignment_mobile": "left",
-                    "show_read_more": false,
-                    "read_more_length": 50,
-                    "read_more_text": "Read more",
-                    "read_less_text": "Read less",
-                    "truncate": false,
-                    "truncate_length": 2,
-                    "margin_top": 0,
-                    "margin_bottom": 0,
-                    "additional_class": ""
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "t"
-              ]
-            },
-            "q5": {
-              "type": "_accordion",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "heading": "Your rights and our guarantee",
-                "heading_tag": "p",
-                "heading_style": "paragraph",
-                "open_by_default": false,
-                "icon": "none",
-                "icon_custom": "",
-                "additional_class": ""
-              },
-              "blocks": {
-                "t": {
-                  "type": "text",
-                  "settings": {
-                    "show_on_display": "desktop_and_mobile",
-                    "text": "<p>Under the Consumer Rights Act 2015 the shelter must be as described and of satisfactory quality: 30 days to reject a faulty item for a full refund, then repair or replacement. On top of that, 30 days to return it if it isn't right for your cat.</p>",
-                    "text_style": "paragraph",
-                    "paragraph_font_size": "normal",
-                    "font_weight": 400,
-                    "alignment": "left",
-                    "alignment_mobile": "left",
-                    "show_read_more": false,
-                    "read_more_length": 50,
-                    "read_more_text": "Read more",
-                    "read_less_text": "Read less",
-                    "truncate": false,
-                    "truncate_length": 2,
-                    "margin_top": 0,
-                    "margin_bottom": 0,
-                    "additional_class": ""
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "t"
-              ]
-            },
-            "q6": {
-              "type": "_accordion",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "heading": "Contact us",
-                "heading_tag": "p",
-                "heading_style": "paragraph",
-                "open_by_default": false,
-                "icon": "none",
-                "icon_custom": "",
-                "additional_class": ""
-              },
-              "blocks": {
-                "t": {
-                  "type": "text",
-                  "settings": {
-                    "show_on_display": "desktop_and_mobile",
-                    "text": "<p>Cosy Cat House is run by OH Ventures (SASU), 47 rue Vivienne, 75002 Paris, France. E-mail <a href=\"mailto:info@ohventures.fr\">info@ohventures.fr</a> or call +33 7 56 82 80 94, Monday to Friday.</p>",
-                    "text_style": "paragraph",
-                    "paragraph_font_size": "normal",
-                    "font_weight": 400,
-                    "alignment": "left",
-                    "alignment_mobile": "left",
-                    "show_read_more": false,
-                    "read_more_length": 50,
-                    "read_more_text": "Read more",
-                    "read_less_text": "Read less",
-                    "truncate": false,
-                    "truncate_length": 2,
-                    "margin_top": 0,
-                    "margin_bottom": 0,
-                    "additional_class": ""
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "t"
-              ]
-            }
-          },
-          "block_order": [
-            "q1",
-            "q2",
-            "q3",
-            "q4",
-            "q5",
-            "q6"
-          ]
         },
         "product_media_gallery": {
           "type": "_product-media-gallery",
@@ -893,20 +416,16 @@
         }
       },
       "block_order": [
-        "badge",
         "title",
         "subtitle",
         "price",
-        "promo",
         "separator_1",
-        "benefits",
+        "purchase_benefits",
         "product_form",
+        "micro_copy",
         "payment_icons",
-        "box",
-        "delivery",
-        "reassurance",
-        "contact",
-        "accordions"
+        "separator_2",
+        "description_visible"
       ],
       "settings": {
         "color_scheme": "scheme-1",
@@ -914,225 +433,14 @@
         "color_scheme_product_info": "",
         "image_position": "row",
         "product_info_width": 50,
-        "gap": 60,
+        "gap": 48,
         "carrousel_sticky": true,
-        "product_info_sticky": false,
+        "product_info_sticky": true,
         "carrousel_full_width": true,
         "padding_top": 30,
-        "padding_bottom": 40,
+        "padding_bottom": 50,
         "margin_top": 0,
         "margin_bottom": 0
-      }
-    },
-    "ticker": {
-      "type": "marquee",
-      "blocks": {
-        "band": {
-          "type": "marquee",
-          "settings": {
-            "movement_direction": "normal",
-            "speed_factor": "normal",
-            "gap": 48,
-            "color_scheme": "scheme-3",
-            "padding_top": 14,
-            "padding_bottom": 14,
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "additional_class": ""
-          },
-          "blocks": {
-            "t1": {
-              "type": "icon-with-text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "layout_direction_desktop": "row",
-                "layout_gap_desktop": 10,
-                "same_as_desktop": true,
-                "layout_direction_mobile": "row",
-                "layout_gap_mobile": 10,
-                "icon_type": "icon",
-                "icon": "ac_unit",
-                "icon_custom": "",
-                "icon_size": 20,
-                "icon_position": "start",
-                "text": "<p>Insulated for British winters</p>",
-                "text_style": "paragraph",
-                "font_weight": 600,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "t2": {
-              "type": "icon-with-text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "layout_direction_desktop": "row",
-                "layout_gap_desktop": 10,
-                "same_as_desktop": true,
-                "layout_direction_mobile": "row",
-                "layout_gap_mobile": 10,
-                "icon_type": "icon",
-                "icon": "bolt",
-                "icon_custom": "",
-                "icon_size": 20,
-                "icon_position": "start",
-                "text": "<p>No electricity needed</p>",
-                "text_style": "paragraph",
-                "font_weight": 600,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "t3": {
-              "type": "icon-with-text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "layout_direction_desktop": "row",
-                "layout_gap_desktop": 10,
-                "same_as_desktop": true,
-                "layout_direction_mobile": "row",
-                "layout_gap_mobile": 10,
-                "icon_type": "icon",
-                "icon": "local_shipping",
-                "icon_custom": "",
-                "icon_size": 20,
-                "icon_position": "start",
-                "text": "<p>Free UK delivery in 6–10 working days</p>",
-                "text_style": "paragraph",
-                "font_weight": 600,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "t4": {
-              "type": "icon-with-text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "layout_direction_desktop": "row",
-                "layout_gap_desktop": 10,
-                "same_as_desktop": true,
-                "layout_direction_mobile": "row",
-                "layout_gap_mobile": 10,
-                "icon_type": "icon",
-                "icon": "assignment_return",
-                "icon_custom": "",
-                "icon_size": 20,
-                "icon_position": "start",
-                "text": "<p>30-day returns</p>",
-                "text_style": "paragraph",
-                "font_weight": 600,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "t5": {
-              "type": "icon-with-text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "layout_direction_desktop": "row",
-                "layout_gap_desktop": 10,
-                "same_as_desktop": true,
-                "layout_direction_mobile": "row",
-                "layout_gap_mobile": 10,
-                "icon_type": "icon",
-                "icon": "menu_book",
-                "icon_custom": "",
-                "icon_size": 20,
-                "icon_position": "start",
-                "text": "<p>Free adoption guide with every order</p>",
-                "text_style": "paragraph",
-                "font_weight": 600,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "t1",
-            "t2",
-            "t3",
-            "t4",
-            "t5"
-          ]
-        }
-      },
-      "block_order": [
-        "band"
-      ],
-      "settings": {
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "anchor_id": "",
-        "additional_class": ""
-      }
-    },
-    "reviews": {
-      "type": "cch-reviews",
-      "blocks": {
-        "r1": {
-          "type": "review",
-          "settings": {
-            "rating": 5,
-            "verified": true,
-            "title": "Warm inside, even after frost",
-            "text": "Checked it at 6 am after a frost: the inside was noticeably warmer than the air and the blanket was dry. Our cat Biscuit hasn't slept anywhere else since.",
-            "author": "Laura M., Surrey",
-            "date_text": "4 days ago"
-          }
-        },
-        "r2": {
-          "type": "review",
-          "settings": {
-            "rating": 5,
-            "verified": true,
-            "title": "Perfect for our feral",
-            "text": "We couldn't get near him, so no heated bed with a cable. This needs nothing. Placed it by the compost bin where he already slept; he was in it on night two.",
-            "author": "Andrew C., Nottingham",
-            "date_text": "2 weeks ago"
-          }
-        },
-        "r3": {
-          "type": "review",
-          "settings": {
-            "rating": 4,
-            "verified": true,
-            "title": "Solid, just mind the flap at first",
-            "text": "Well made and clearly insulated. Our cat was wary of the flap for a few days, so I tucked it up as the guide suggests. Sorted. Four stars only because delivery took the full ten days.",
-            "author": "Gemma L., Cardiff",
-            "date_text": "3 weeks ago"
-          }
-        }
-      },
-      "block_order": [
-        "r1",
-        "r2",
-        "r3"
-      ],
-      "settings": {
-        "heading": "Reviews from cat owners",
-        "summary": "<span>★★★★★</span> 4.8/5 · 312 reviews",
-        "heading_alignment": "left",
-        "cards": 3,
-        "background": "#1F5E3A",
-        "heading_color": "#FFF7ED",
-        "card_background": "#FFFFFF",
-        "card_border": "#E5E7EB",
-        "title_color": "#1F2937",
-        "text_color": "#4B5563",
-        "stars_color": "#00B67A",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "anchor_id": "reviews"
       }
     },
     "benefit1": {
@@ -1461,7 +769,7 @@
               "type": "text",
               "settings": {
                 "show_on_display": "desktop_and_mobile",
-                "text": "<h2>Two minutes, no tools</h2>",
+                "text": "<h2>Assembly and folding</h2>",
                 "text_style": "h4",
                 "paragraph_font_size": "normal",
                 "font_weight": 400,
@@ -1661,6 +969,86 @@
         "layout_flex_justify_desktop": "flex-start",
         "layout_flex_align_items_desktop": "flex-start",
         "same_as_desktop": false,
+        "layout_flex_direction_mobile": "column",
+        "layout_gap_mobile": 10,
+        "layout_wrap_mobile": "nowrap",
+        "layout_flex_justify_mobile": "flex-start",
+        "layout_flex_align_items_mobile": "flex-start",
+        "layout_grid_columns_mobile": 1,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "anchor_id": "",
+        "additional_class": ""
+      }
+    },
+    "dimensions": {
+      "type": "custom-section",
+      "blocks": {
+        "h2": {
+          "type": "text",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "text": "<h2>Dimensions &amp; capacity</h2>",
+            "text_style": "h3",
+            "paragraph_font_size": "normal",
+            "font_weight": 400,
+            "alignment": "left",
+            "alignment_mobile": "left",
+            "show_read_more": false,
+            "read_more_length": 50,
+            "read_more_text": "Read more",
+            "read_less_text": "Read less",
+            "truncate": false,
+            "truncate_length": 2,
+            "margin_top": 0,
+            "margin_bottom": 15,
+            "additional_class": ""
+          },
+          "blocks": {}
+        },
+        "list": {
+          "type": "text",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "text": "<ul><li>Size L: 55 × 45 × 40 cm</li><li>Suitable for one cat to use comfortably</li></ul>",
+            "text_style": "paragraph",
+            "paragraph_font_size": "normal",
+            "font_weight": 400,
+            "alignment": "left",
+            "alignment_mobile": "left",
+            "show_read_more": false,
+            "read_more_length": 50,
+            "read_more_text": "Read more",
+            "read_less_text": "Read less",
+            "truncate": false,
+            "truncate_length": 2,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "h2",
+        "list"
+      ],
+      "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "color_scheme": "scheme-1",
+        "wrap_in_card": false,
+        "color_scheme_card": "",
+        "section_width": "normal",
+        "layout_type": "flex",
+        "layout_flex_direction_desktop": "column",
+        "layout_grid_columns_desktop": 3,
+        "layout_gap_desktop": 10,
+        "layout_wrap_desktop": "nowrap",
+        "layout_flex_justify_desktop": "flex-start",
+        "layout_flex_align_items_desktop": "flex-start",
+        "same_as_desktop": true,
         "layout_flex_direction_mobile": "column",
         "layout_gap_mobile": 10,
         "layout_wrap_mobile": "nowrap",
@@ -3100,6 +2488,75 @@
         "additional_class": ""
       }
     },
+    "specs": {
+      "type": "custom-section",
+      "blocks": {
+        "h2": {
+          "type": "text",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "text": "<h2>Specifications</h2>",
+            "text_style": "h3",
+            "paragraph_font_size": "normal",
+            "font_weight": 400,
+            "alignment": "left",
+            "alignment_mobile": "left",
+            "show_read_more": false,
+            "read_more_length": 50,
+            "read_more_text": "Read more",
+            "read_less_text": "Read less",
+            "truncate": false,
+            "truncate_length": 2,
+            "margin_top": 0,
+            "margin_bottom": 15,
+            "additional_class": ""
+          },
+          "blocks": {}
+        },
+        "table": {
+          "type": "custom-code",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "custom_liquid": "<div style=\"width:100%;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;\"><table style=\"width:100%;min-width:480px;border-collapse:collapse;\"><tbody><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Material</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">Oxford fabric (weather-resistant outer)</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Insulation</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">Reflective film lining (roof + door flap), padded walls</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Base</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">Raised plastic legs, off the ground</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Roof / door flap</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">Two-pitch roof, water-resistant, reflective-lined</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Window</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">Side window</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Assembly</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">No tools, sets up in minutes</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Foldable</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">Yes, folds flat for storage</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Colour</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">Grey (Black and Green — coming soon, currently limited stock)</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Size L</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">55 × 45 × 40 cm</td></tr><tr><td style=\"padding:12px 16px;font-weight:600;border-top:1px solid #1F293733;\">Power source</td><td style=\"padding:12px 16px;border-top:1px solid #1F293733;\">None — passive insulation, no electricity</td></tr></tbody></table></div>",
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "h2",
+        "table"
+      ],
+      "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "color_scheme": "scheme-1",
+        "wrap_in_card": false,
+        "color_scheme_card": "",
+        "section_width": "normal",
+        "layout_type": "flex",
+        "layout_flex_direction_desktop": "column",
+        "layout_grid_columns_desktop": 3,
+        "layout_gap_desktop": 10,
+        "layout_wrap_desktop": "nowrap",
+        "layout_flex_justify_desktop": "flex-start",
+        "layout_flex_align_items_desktop": "flex-start",
+        "same_as_desktop": true,
+        "layout_flex_direction_mobile": "column",
+        "layout_gap_mobile": 10,
+        "layout_wrap_mobile": "nowrap",
+        "layout_flex_justify_mobile": "flex-start",
+        "layout_flex_align_items_mobile": "flex-start",
+        "layout_grid_columns_mobile": 1,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "anchor_id": "",
+        "additional_class": ""
+      }
+    },
     "faq": {
       "type": "custom-section",
       "blocks": {
@@ -3581,76 +3038,278 @@
         "additional_class": ""
       }
     },
-    "cta": {
+    "reassurance": {
       "type": "custom-section",
       "blocks": {
-        "h2": {
-          "type": "text",
+        "c1": {
+          "type": "group",
           "settings": {
             "show_on_display": "desktop_and_mobile",
-            "text": "<h2>Give your cat somewhere warm and dry to sleep this winter.</h2>",
-            "text_style": "h3",
-            "paragraph_font_size": "normal",
-            "font_weight": 400,
-            "alignment": "center",
-            "alignment_mobile": "left",
-            "show_read_more": false,
-            "read_more_length": 50,
-            "read_more_text": "Read more",
-            "read_less_text": "Read less",
-            "truncate": false,
-            "truncate_length": 2,
+            "wrap_in_card": false,
+            "card_link": "",
+            "color_scheme": "",
+            "show_card_border": false,
+            "layout_type": "flex",
+            "width_desktop": 23,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 8,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "flex-start",
+            "same_as_desktop": false,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 10,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": false,
+            "padding_horizontal": 15,
+            "padding_vertical": 15,
             "margin_top": 0,
             "margin_bottom": 0,
             "additional_class": ""
           },
-          "blocks": {}
+          "blocks": {
+            "i": {
+              "type": "icon-with-text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "layout_direction_desktop": "row",
+                "layout_gap_desktop": 10,
+                "same_as_desktop": true,
+                "layout_direction_mobile": "row",
+                "layout_gap_mobile": 10,
+                "icon_type": "icon",
+                "icon": "local_shipping",
+                "icon_custom": "",
+                "icon_size": 24,
+                "icon_position": "start",
+                "text": "<p>Free UK delivery, 6–10 business days</p>",
+                "text_style": "paragraph",
+                "font_weight": 500,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "i"
+          ]
         },
-        "b": {
-          "type": "button",
+        "c2": {
+          "type": "group",
           "settings": {
             "show_on_display": "desktop_and_mobile",
-            "link": "#",
-            "open_in_new_tab": false,
-            "label": "Add to basket — £89, free UK delivery",
-            "button_style": "primary",
-            "button_shape": "default",
-            "icon": "none",
-            "icon_custom": "",
-            "icon_position": "end",
+            "wrap_in_card": false,
+            "card_link": "",
+            "color_scheme": "",
+            "show_card_border": false,
+            "layout_type": "flex",
+            "width_desktop": 23,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 8,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "flex-start",
+            "same_as_desktop": false,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 10,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": false,
+            "padding_horizontal": 15,
+            "padding_vertical": 15,
             "margin_top": 0,
             "margin_bottom": 0,
             "additional_class": ""
           },
-          "blocks": {}
+          "blocks": {
+            "i": {
+              "type": "icon-with-text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "layout_direction_desktop": "row",
+                "layout_gap_desktop": 10,
+                "same_as_desktop": true,
+                "layout_direction_mobile": "row",
+                "layout_gap_mobile": 10,
+                "icon_type": "icon",
+                "icon": "assignment_return",
+                "icon_custom": "",
+                "icon_size": 24,
+                "icon_position": "start",
+                "text": "<p>30-day returns</p>",
+                "text_style": "paragraph",
+                "font_weight": 500,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "i"
+          ]
+        },
+        "c3": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": false,
+            "card_link": "",
+            "color_scheme": "",
+            "show_card_border": false,
+            "layout_type": "flex",
+            "width_desktop": 23,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 8,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "flex-start",
+            "same_as_desktop": false,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 10,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": false,
+            "padding_horizontal": 15,
+            "padding_vertical": 15,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {
+            "i": {
+              "type": "icon-with-text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "layout_direction_desktop": "row",
+                "layout_gap_desktop": 10,
+                "same_as_desktop": true,
+                "layout_direction_mobile": "row",
+                "layout_gap_mobile": 10,
+                "icon_type": "icon",
+                "icon": "lock",
+                "icon_custom": "",
+                "icon_size": 24,
+                "icon_position": "start",
+                "text": "<p>Secure payment</p>",
+                "text_style": "paragraph",
+                "font_weight": 500,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "i"
+          ]
+        },
+        "c4": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": false,
+            "card_link": "",
+            "color_scheme": "",
+            "show_card_border": false,
+            "layout_type": "flex",
+            "width_desktop": 23,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 8,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "flex-start",
+            "same_as_desktop": false,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 10,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": false,
+            "padding_horizontal": 15,
+            "padding_vertical": 15,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {
+            "i": {
+              "type": "icon-with-text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "layout_direction_desktop": "row",
+                "layout_gap_desktop": 10,
+                "same_as_desktop": true,
+                "layout_direction_mobile": "row",
+                "layout_gap_mobile": 10,
+                "icon_type": "icon",
+                "icon": "support_agent",
+                "icon_custom": "",
+                "icon_size": 24,
+                "icon_position": "start",
+                "text": "<p>Email support, real replies</p>",
+                "text_style": "paragraph",
+                "font_weight": 500,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "i"
+          ]
         }
       },
       "block_order": [
-        "h2",
-        "b"
+        "c1",
+        "c2",
+        "c3",
+        "c4"
       ],
       "settings": {
         "show_on_display": "desktop_and_mobile",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-1",
         "wrap_in_card": false,
         "color_scheme_card": "",
         "section_width": "normal",
         "layout_type": "flex",
-        "layout_flex_direction_desktop": "column",
+        "layout_flex_direction_desktop": "row",
         "layout_grid_columns_desktop": 3,
-        "layout_gap_desktop": 10,
+        "layout_gap_desktop": 20,
         "layout_wrap_desktop": "nowrap",
         "layout_flex_justify_desktop": "flex-start",
-        "layout_flex_align_items_desktop": "center",
-        "same_as_desktop": true,
+        "layout_flex_align_items_desktop": "flex-start",
+        "same_as_desktop": false,
         "layout_flex_direction_mobile": "column",
-        "layout_gap_mobile": 10,
+        "layout_gap_mobile": 15,
         "layout_wrap_mobile": "nowrap",
         "layout_flex_justify_mobile": "flex-start",
-        "layout_flex_align_items_mobile": "center",
+        "layout_flex_align_items_mobile": "flex-start",
         "layout_grid_columns_mobile": 1,
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 40,
+        "padding_bottom": 40,
         "margin_top": 0,
         "margin_bottom": 0,
         "anchor_id": "",
@@ -3659,17 +3318,16 @@
     }
   },
   "order": [
-    "cch_head",
     "main",
-    "ticker",
-    "reviews",
     "benefit1",
     "benefit2",
     "benefit3",
     "benefit4",
+    "dimensions",
     "adopt_excerpt",
     "comparison",
+    "specs",
     "faq",
-    "cta"
+    "reassurance"
   ]
 }

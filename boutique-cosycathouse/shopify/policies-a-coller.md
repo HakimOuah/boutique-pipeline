@@ -8,10 +8,10 @@ Le connecteur n'a pas le droit `write_legal_policies` : coller chaque bloc HTML 
 
 | Placeholder | Où | Note |
 |---|---|---|
-| `[UK VAT NUMBER]` | Terms, Contact | **Point bloquant** : un vendeur hors UK qui expédie des colis ≤ 135 £ à des particuliers britanniques doit être immatriculé à la TVA au Royaume-Uni et facturer la TVA à la vente (guidance HMRC « VAT and overseas goods sold directly to customers in the UK »). Le prix 89 £ est sous ce seuil. À voir avec l'expert-comptable : immatriculation TVA UK d'OH Ventures, ou autre montage. Sans numéro, retirer la ligne mais le risque reste. |
-| `[FR VAT NUMBER]` | Contact | N° de TVA intracommunautaire d'OH Ventures (FR + 11 caractères). |
-| `[PHONE]` | Contact, Terms | Ligne vocale réellement décrochée (checklist Terry : SIM > VoIP). Sinon retirer la ligne partout, y compris le pied de page. |
-| `[RCS]` | Contact | « RCS Paris 103 157 251 » si c'est bien le greffe de Paris. |
+| `[UK VAT NUMBER]` | Terms, Contact | **Point bloquant** : un vendeur hors UK qui expédie des colis ≤ 135 £ à des particuliers britanniques doit être immatriculé à la TVA au Royaume-Uni et facturer la TVA à la vente (guidance HMRC « VAT and overseas goods sold directly to customers in the UK »). Le prix 89 £ est sous ce seuil. À voir avec l'expert-comptable : immatriculation TVA UK d'OH Ventures, ou autre montage. La ligne « UK VAT number » a été retirée des textes en attendant ; l'ajouter dès immatriculation. |
+| `FR55103157251` | Contact | N° de TVA intracommunautaire d'OH Ventures (FR + 11 caractères). |
+| `+33 7 56 82 80 94` | Contact, Terms | Ligne vocale réellement décrochée (checklist Terry : SIM > VoIP). Sinon retirer la ligne partout, y compris le pied de page. |
+| `RCS Paris 103 157 251` | Contact | « RCS Paris 103 157 251 » si c'est bien le greffe de Paris. |
 
 Chiffres à garder identiques partout (policies, FAQ, fiche, pied de page, réglages Google) : traitement 1–2 jours ouvrés, transit 5–8 jours ouvrés, total **6–10 jours ouvrés** ; annulation 14 j légale + **30 j** commerciale ; remboursement sous **14 jours** après réception du retour ; réponse support sous **1 jour ouvré**. Moyens de paiement réellement actifs au checkout le 08/09 : cartes (Visa, Mastercard, American Express, Maestro), PayPal, Apple Pay, Shop Pay. **Google Pay n'est pas actif** (`/payments/config`) : l'icône du pied de page vient des réglages Shopify Payments, à activer ou à retirer pour éviter le décalage.
 
@@ -184,7 +184,7 @@ Name of consumer(s): … Address of consumer(s): … Signature (only if this for
 <p>These terms govern every purchase made on cosycathouse.com. Please read them before ordering. By placing an order you accept them; they don't affect your statutory rights as a UK consumer.</p>
 
 <h3>1. Who you are buying from</h3>
-<p>The seller is <strong>OH Ventures</strong>, a French simplified joint-stock company (SASU) with share capital, registered office at 47 rue Vivienne, 75002 Paris, France, registered with the Paris Trade and Companies Register under number 103 157 251 (SIREN), EU VAT number [FR VAT NUMBER], UK VAT number [UK VAT NUMBER], trading under the name Cosy Cat House. E-mail: <a href="mailto:info@ohventures.fr">info@ohventures.fr</a>. Telephone: [PHONE].</p>
+<p>The seller is <strong>OH Ventures</strong>, a French simplified joint-stock company (SASU) with a share capital of €1,000, registered office at 47 rue Vivienne, 75002 Paris, France, registered with the Paris Trade and Companies Register under number 103 157 251 (SIREN), EU VAT number FR55103157251, trading under the name Cosy Cat House. E-mail: <a href="mailto:info@ohventures.fr">info@ohventures.fr</a>. Telephone: +33 7 56 82 80 94.</p>
 
 <h3>2. The product</h3>
 <p>We sell an insulated outdoor shelter for cats. We describe it as accurately as we can: dimensions, materials and features are stated on the product page. Product images are studio and lifestyle compositions of the item sold; small differences in shade or finish can occur. The shelter is an insulated, unheated shelter — it is not waterproof to the point of immersion and it does not guarantee protection against other animals. It is intended for domestic cats and should be used as described.</p>
@@ -229,12 +229,12 @@ Name of consumer(s): … Address of consumer(s): … Signature (only if this for
 ```html
 <h2>Contact and legal information</h2>
 <p><strong>Trading name:</strong> Cosy Cat House<br>
-<strong>Company:</strong> OH Ventures, SASU (French simplified joint-stock company)<br>
+<strong>Company:</strong> OH Ventures, SASU (French simplified joint-stock company), share capital €1,000, director Hakim Ouahabi<br>
 <strong>Registered office:</strong> 47 rue Vivienne, 75002 Paris, France<br>
-<strong>Company registration:</strong> [RCS] — SIREN 103 157 251<br>
-<strong>EU VAT number:</strong> [FR VAT NUMBER] · <strong>UK VAT number:</strong> [UK VAT NUMBER]<br>
+<strong>Company registration:</strong> RCS Paris 103 157 251 — SIRET 103 157 251 00010<br>
+<strong>EU VAT number:</strong> FR55103157251<br>
 <strong>E-mail:</strong> <a href="mailto:info@ohventures.fr">info@ohventures.fr</a><br>
-<strong>Telephone:</strong> [PHONE] (Monday to Friday, 9 am – 5 pm UK time)<br>
+<strong>Telephone:</strong> +33 7 56 82 80 94 (Monday to Friday, 9 am – 5 pm UK time)<br>
 <strong>Website host:</strong> Shopify International Ltd, 2nd Floor, Victoria Buildings, 1–2 Haddington Road, Dublin 4, D04 XN32, Ireland</p>
 <p>We answer every message within one working day. Returns are sent to the address above unless we give you a different one when you open a return.</p>
 ```

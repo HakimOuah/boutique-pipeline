@@ -1,51 +1,5 @@
 {
   "sections": {
-    "cch_head": {
-      "type": "custom-section",
-      "blocks": {
-        "code": {
-          "type": "custom-code",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "custom_liquid": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"><link rel=\"stylesheet\" href=\"{{ 'cch-motion.css' | asset_url }}\">\n<script>\n(function(){\n  var OLD='£119', PCT='-25%';\n  function promo(){\n    document.querySelectorAll('.prices').forEach(function(p){\n      var price=p.querySelector('.price'); var cmp=p.querySelector('.compare-at-price');\n      if(!price||!cmp||!/£8\\d/.test(price.textContent)) return;\n      cmp.textContent=OLD; cmp.setAttribute('data-value','11900'); cmp.classList.add('cch-promo-old');\n      var badge=p.parentElement.querySelector('.badge'); if(badge){ badge.classList.add('cch-promo-badge'); badge.style.display='inline-block'; var s=badge.querySelector('.badge__savings'); if(s) s.textContent=PCT; }\n    });\n  }\n  promo(); setTimeout(promo,800); setTimeout(promo,2500);\n  document.addEventListener('variant:change',promo);\n})();\n</script>",
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "additional_class": ""
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "code"
-      ],
-      "settings": {
-        "show_on_display": "desktop_and_mobile",
-        "color_scheme": "scheme-1",
-        "wrap_in_card": false,
-        "color_scheme_card": "",
-        "section_width": "normal",
-        "layout_type": "flex",
-        "layout_flex_direction_desktop": "column",
-        "layout_grid_columns_desktop": 3,
-        "layout_gap_desktop": 10,
-        "layout_wrap_desktop": "nowrap",
-        "layout_flex_justify_desktop": "flex-start",
-        "layout_flex_align_items_desktop": "flex-start",
-        "same_as_desktop": true,
-        "layout_flex_direction_mobile": "column",
-        "layout_gap_mobile": 10,
-        "layout_wrap_mobile": "nowrap",
-        "layout_flex_justify_mobile": "flex-start",
-        "layout_flex_align_items_mobile": "flex-start",
-        "layout_grid_columns_mobile": 1,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "anchor_id": "",
-        "additional_class": "cch-head"
-      }
-    },
     "hero": {
       "type": "image-banner",
       "blocks": {
@@ -64,7 +18,7 @@
             "banner_height_mobile": "large",
             "layout_justify_mobile": "flex-start",
             "layout_align_items_mobile": "flex-start",
-            "image_filter_opacity": 25,
+            "image_filter_opacity": 20,
             "image_filter_color": "#000000",
             "padding_horizontal": 10,
             "padding_vertical": 40,
@@ -103,14 +57,14 @@
                 "additional_class": ""
               },
               "blocks": {
-                "sticker": {
+                "kicker": {
                   "type": "text",
                   "settings": {
                     "show_on_display": "desktop_and_mobile",
-                    "text": "<p>Winter-ready · ships in 1–2 days</p>",
+                    "text": "<p>Cosy Cat House</p>",
                     "text_style": "paragraph",
                     "paragraph_font_size": "normal",
-                    "font_weight": 400,
+                    "font_weight": 500,
                     "alignment": "left",
                     "alignment_mobile": "left",
                     "show_read_more": false,
@@ -121,23 +75,6 @@
                     "truncate_length": 2,
                     "margin_top": 0,
                     "margin_bottom": 0,
-                    "additional_class": "cch-stickerize"
-                  },
-                  "blocks": {}
-                },
-                "badge": {
-                  "type": "reviews-badge",
-                  "settings": {
-                    "review_badge_style": "trustpilot",
-                    "wrap_in_a_badge": false,
-                    "color_scheme": "scheme-1",
-                    "show_badge_border": true,
-                    "text_1": "Excellent",
-                    "stars": "4.8",
-                    "text_2": "312 reviews on",
-                    "link": "#reviews",
-                    "margin_top": 0,
-                    "margin_bottom": 0,
                     "additional_class": ""
                   },
                   "blocks": {}
@@ -146,7 +83,7 @@
                   "type": "text",
                   "settings": {
                     "show_on_display": "desktop_and_mobile",
-                    "text": "<h1>A warm, dry shelter <em>your outdoor cat will actually use</em></h1>",
+                    "text": "<h1>A Warm, Dry Shelter Your Outdoor Cat Will Use</h1>",
                     "text_style": "h2",
                     "paragraph_font_size": "normal",
                     "font_weight": 400,
@@ -168,9 +105,9 @@
                   "type": "text",
                   "settings": {
                     "show_on_display": "desktop_and_mobile",
-                    "text": "<p>Insulated, raised off the wet ground, no electricity. Set up in minutes in any UK garden.</p>",
+                    "text": "<p>Raised off the ground, lined against the cold, no electricity needed. Set up in minutes.</p>",
                     "text_style": "paragraph",
-                    "paragraph_font_size": "large",
+                    "paragraph_font_size": "normal",
                     "font_weight": 400,
                     "alignment": "left",
                     "alignment_mobile": "left",
@@ -186,7 +123,115 @@
                   },
                   "blocks": {}
                 },
-                "ctas": {
+                "bullets": {
+                  "type": "group",
+                  "settings": {
+                    "show_on_display": "desktop_only",
+                    "wrap_in_card": false,
+                    "card_link": "",
+                    "color_scheme": "",
+                    "show_card_border": false,
+                    "layout_type": "flex",
+                    "width_desktop": 100,
+                    "layout_direction_desktop": "row",
+                    "layout_grid_columns_desktop": 3,
+                    "layout_gap_desktop": 20,
+                    "layout_wrap_desktop": "nowrap",
+                    "layout_justify_desktop": "flex-start",
+                    "layout_align_items_desktop": "flex-start",
+                    "same_as_desktop": false,
+                    "width_mobile": 100,
+                    "layout_direction_mobile": "column",
+                    "layout_grid_columns_mobile": 1,
+                    "layout_gap_mobile": 8,
+                    "layout_wrap_mobile": "nowrap",
+                    "layout_justify_mobile": "flex-start",
+                    "layout_align_items_mobile": "flex-start",
+                    "use_global_container_padding": false,
+                    "padding_horizontal": 10,
+                    "padding_vertical": 10,
+                    "margin_top": 0,
+                    "margin_bottom": 0,
+                    "additional_class": ""
+                  },
+                  "blocks": {
+                    "b1": {
+                      "type": "icon-with-text",
+                      "settings": {
+                        "show_on_display": "desktop_and_mobile",
+                        "layout_direction_desktop": "row",
+                        "layout_gap_desktop": 10,
+                        "same_as_desktop": true,
+                        "layout_direction_mobile": "row",
+                        "layout_gap_mobile": 10,
+                        "icon_type": "icon",
+                        "icon": "bolt",
+                        "icon_custom": "",
+                        "icon_size": 18,
+                        "icon_position": "start",
+                        "text": "<p>No electricity needed</p>",
+                        "text_style": "paragraph",
+                        "font_weight": 500,
+                        "margin_top": 0,
+                        "margin_bottom": 0,
+                        "additional_class": ""
+                      },
+                      "blocks": {}
+                    },
+                    "b2": {
+                      "type": "icon-with-text",
+                      "settings": {
+                        "show_on_display": "desktop_and_mobile",
+                        "layout_direction_desktop": "row",
+                        "layout_gap_desktop": 10,
+                        "same_as_desktop": true,
+                        "layout_direction_mobile": "row",
+                        "layout_gap_mobile": 10,
+                        "icon_type": "icon",
+                        "icon": "arrow_upward",
+                        "icon_custom": "",
+                        "icon_size": 18,
+                        "icon_position": "start",
+                        "text": "<p>Raised off the ground</p>",
+                        "text_style": "paragraph",
+                        "font_weight": 500,
+                        "margin_top": 0,
+                        "margin_bottom": 0,
+                        "additional_class": ""
+                      },
+                      "blocks": {}
+                    },
+                    "b3": {
+                      "type": "icon-with-text",
+                      "settings": {
+                        "show_on_display": "desktop_and_mobile",
+                        "layout_direction_desktop": "row",
+                        "layout_gap_desktop": 10,
+                        "same_as_desktop": true,
+                        "layout_direction_mobile": "row",
+                        "layout_gap_mobile": 10,
+                        "icon_type": "icon",
+                        "icon": "local_shipping",
+                        "icon_custom": "",
+                        "icon_size": 18,
+                        "icon_position": "start",
+                        "text": "<p>Free UK delivery</p>",
+                        "text_style": "paragraph",
+                        "font_weight": 500,
+                        "margin_top": 0,
+                        "margin_bottom": 0,
+                        "additional_class": ""
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "b1",
+                    "b2",
+                    "b3"
+                  ]
+                },
+                "cta": {
                   "type": "group",
                   "settings": {
                     "show_on_display": "desktop_and_mobile",
@@ -198,7 +243,7 @@
                     "width_desktop": 100,
                     "layout_direction_desktop": "row",
                     "layout_grid_columns_desktop": 3,
-                    "layout_gap_desktop": 10,
+                    "layout_gap_desktop": 12,
                     "layout_wrap_desktop": "nowrap",
                     "layout_justify_desktop": "flex-start",
                     "layout_align_items_desktop": "flex-start",
@@ -211,20 +256,20 @@
                     "layout_justify_mobile": "flex-start",
                     "layout_align_items_mobile": "flex-start",
                     "use_global_container_padding": false,
-                    "padding_horizontal": 0,
-                    "padding_vertical": 0,
+                    "padding_horizontal": 10,
+                    "padding_vertical": 10,
                     "margin_top": 0,
                     "margin_bottom": 0,
                     "additional_class": ""
                   },
                   "blocks": {
-                    "b1": {
+                    "btn": {
                       "type": "button",
                       "settings": {
                         "show_on_display": "desktop_and_mobile",
                         "link": "/products/insulated-outdoor-cat-house",
                         "open_in_new_tab": false,
-                        "label": "Shop the shelter — £89",
+                        "label": "Shop the shelter",
                         "button_style": "primary",
                         "button_shape": "default",
                         "icon": "none",
@@ -235,147 +280,19 @@
                         "additional_class": ""
                       },
                       "blocks": {}
-                    },
-                    "b2": {
-                      "type": "button",
-                      "settings": {
-                        "show_on_display": "desktop_and_mobile",
-                        "link": "#how-it-works",
-                        "open_in_new_tab": false,
-                        "label": "How it works",
-                        "button_style": "secondary",
-                        "button_shape": "default",
-                        "icon": "none",
-                        "icon_custom": "",
-                        "icon_position": "end",
-                        "margin_top": 0,
-                        "margin_bottom": 0,
-                        "additional_class": ""
-                      },
-                      "blocks": {}
                     }
                   },
                   "block_order": [
-                    "b1",
-                    "b2"
-                  ]
-                },
-                "micro": {
-                  "type": "group",
-                  "settings": {
-                    "show_on_display": "desktop_only",
-                    "wrap_in_card": false,
-                    "card_link": "",
-                    "color_scheme": "",
-                    "show_card_border": false,
-                    "layout_type": "flex",
-                    "width_desktop": 100,
-                    "layout_direction_desktop": "row",
-                    "layout_grid_columns_desktop": 3,
-                    "layout_gap_desktop": 18,
-                    "layout_wrap_desktop": "wrap",
-                    "layout_justify_desktop": "flex-start",
-                    "layout_align_items_desktop": "flex-start",
-                    "same_as_desktop": false,
-                    "width_mobile": 100,
-                    "layout_direction_mobile": "column",
-                    "layout_grid_columns_mobile": 1,
-                    "layout_gap_mobile": 6,
-                    "layout_wrap_mobile": "nowrap",
-                    "layout_justify_mobile": "flex-start",
-                    "layout_align_items_mobile": "flex-start",
-                    "use_global_container_padding": false,
-                    "padding_horizontal": 0,
-                    "padding_vertical": 0,
-                    "margin_top": 0,
-                    "margin_bottom": 0,
-                    "additional_class": ""
-                  },
-                  "blocks": {
-                    "m1": {
-                      "type": "icon-with-text",
-                      "settings": {
-                        "show_on_display": "desktop_and_mobile",
-                        "layout_direction_desktop": "row",
-                        "layout_gap_desktop": 10,
-                        "same_as_desktop": true,
-                        "layout_direction_mobile": "row",
-                        "layout_gap_mobile": 10,
-                        "icon_type": "icon",
-                        "icon": "check_circle",
-                        "icon_custom": "",
-                        "icon_size": 18,
-                        "icon_position": "start",
-                        "text": "<p>Free UK delivery</p>",
-                        "text_style": "paragraph",
-                        "font_weight": 400,
-                        "margin_top": 0,
-                        "margin_bottom": 0,
-                        "additional_class": ""
-                      },
-                      "blocks": {}
-                    },
-                    "m2": {
-                      "type": "icon-with-text",
-                      "settings": {
-                        "show_on_display": "desktop_and_mobile",
-                        "layout_direction_desktop": "row",
-                        "layout_gap_desktop": 10,
-                        "same_as_desktop": true,
-                        "layout_direction_mobile": "row",
-                        "layout_gap_mobile": 10,
-                        "icon_type": "icon",
-                        "icon": "check_circle",
-                        "icon_custom": "",
-                        "icon_size": 18,
-                        "icon_position": "start",
-                        "text": "<p>30-day returns</p>",
-                        "text_style": "paragraph",
-                        "font_weight": 400,
-                        "margin_top": 0,
-                        "margin_bottom": 0,
-                        "additional_class": ""
-                      },
-                      "blocks": {}
-                    },
-                    "m3": {
-                      "type": "icon-with-text",
-                      "settings": {
-                        "show_on_display": "desktop_and_mobile",
-                        "layout_direction_desktop": "row",
-                        "layout_gap_desktop": 10,
-                        "same_as_desktop": true,
-                        "layout_direction_mobile": "row",
-                        "layout_gap_mobile": 10,
-                        "icon_type": "icon",
-                        "icon": "check_circle",
-                        "icon_custom": "",
-                        "icon_size": 18,
-                        "icon_position": "start",
-                        "text": "<p>Pay with PayPal, Apple Pay, Shop Pay</p>",
-                        "text_style": "paragraph",
-                        "font_weight": 400,
-                        "margin_top": 0,
-                        "margin_bottom": 0,
-                        "additional_class": ""
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "m1",
-                    "m2",
-                    "m3"
+                    "btn"
                   ]
                 }
               },
               "block_order": [
-                "sticker",
-                "badge",
+                "kicker",
                 "h1",
                 "sub",
-                "ctas",
-                "micro"
+                "bullets",
+                "cta"
               ]
             }
           },
@@ -402,969 +319,6 @@
         "margin_bottom": 0,
         "anchor_id": "",
         "additional_class": ""
-      }
-    },
-    "ticker": {
-      "type": "marquee",
-      "blocks": {
-        "band": {
-          "type": "marquee",
-          "settings": {
-            "movement_direction": "normal",
-            "speed_factor": "normal",
-            "gap": 48,
-            "color_scheme": "scheme-3",
-            "padding_top": 14,
-            "padding_bottom": 14,
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "additional_class": ""
-          },
-          "blocks": {
-            "t1": {
-              "type": "icon-with-text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "layout_direction_desktop": "row",
-                "layout_gap_desktop": 10,
-                "same_as_desktop": true,
-                "layout_direction_mobile": "row",
-                "layout_gap_mobile": 10,
-                "icon_type": "icon",
-                "icon": "ac_unit",
-                "icon_custom": "",
-                "icon_size": 20,
-                "icon_position": "start",
-                "text": "<p>Insulated for British winters</p>",
-                "text_style": "paragraph",
-                "font_weight": 600,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "t2": {
-              "type": "icon-with-text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "layout_direction_desktop": "row",
-                "layout_gap_desktop": 10,
-                "same_as_desktop": true,
-                "layout_direction_mobile": "row",
-                "layout_gap_mobile": 10,
-                "icon_type": "icon",
-                "icon": "bolt",
-                "icon_custom": "",
-                "icon_size": 20,
-                "icon_position": "start",
-                "text": "<p>No electricity needed</p>",
-                "text_style": "paragraph",
-                "font_weight": 600,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "t3": {
-              "type": "icon-with-text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "layout_direction_desktop": "row",
-                "layout_gap_desktop": 10,
-                "same_as_desktop": true,
-                "layout_direction_mobile": "row",
-                "layout_gap_mobile": 10,
-                "icon_type": "icon",
-                "icon": "local_shipping",
-                "icon_custom": "",
-                "icon_size": 20,
-                "icon_position": "start",
-                "text": "<p>Free UK delivery in 6–10 working days</p>",
-                "text_style": "paragraph",
-                "font_weight": 600,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "t4": {
-              "type": "icon-with-text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "layout_direction_desktop": "row",
-                "layout_gap_desktop": 10,
-                "same_as_desktop": true,
-                "layout_direction_mobile": "row",
-                "layout_gap_mobile": 10,
-                "icon_type": "icon",
-                "icon": "assignment_return",
-                "icon_custom": "",
-                "icon_size": 20,
-                "icon_position": "start",
-                "text": "<p>30-day returns</p>",
-                "text_style": "paragraph",
-                "font_weight": 600,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "t5": {
-              "type": "icon-with-text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "layout_direction_desktop": "row",
-                "layout_gap_desktop": 10,
-                "same_as_desktop": true,
-                "layout_direction_mobile": "row",
-                "layout_gap_mobile": 10,
-                "icon_type": "icon",
-                "icon": "menu_book",
-                "icon_custom": "",
-                "icon_size": 20,
-                "icon_position": "start",
-                "text": "<p>Free adoption guide with every order</p>",
-                "text_style": "paragraph",
-                "font_weight": 600,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "t1",
-            "t2",
-            "t3",
-            "t4",
-            "t5"
-          ]
-        }
-      },
-      "block_order": [
-        "band"
-      ],
-      "settings": {
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "anchor_id": "",
-        "additional_class": ""
-      }
-    },
-    "spotlight": {
-      "type": "product-featured",
-      "blocks": {
-        "product_media_gallery": {
-          "type": "_product-media-gallery",
-          "static": true,
-          "settings": {
-            "hide_variants": false,
-            "media_display": "carrousel",
-            "media_ratio": "1 / 1",
-            "media_rounded": true,
-            "grid_columns": "2",
-            "grid_gap": 10,
-            "main_image_full_width": true,
-            "show_a_bit_of_next_image_on_mobile": false,
-            "show_arrows": false,
-            "show_pagination": false,
-            "show_thumbnails": true,
-            "show_thumbnails_on_display": "desktop_and_mobile",
-            "thumbnails_show_arrows": false,
-            "video_loop": true,
-            "enable_video_controls": false,
-            "show_badges": true,
-            "additional_class": ""
-          },
-          "blocks": {}
-        },
-        "title": {
-          "type": "text",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "text": "<h2>{{ closest.product.title }}</h2>",
-            "text_style": "h3",
-            "paragraph_font_size": "normal",
-            "font_weight": 400,
-            "alignment": "left",
-            "alignment_mobile": "left",
-            "show_read_more": false,
-            "read_more_length": 50,
-            "read_more_text": "Read more",
-            "read_less_text": "Read less",
-            "truncate": false,
-            "truncate_length": 2,
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "additional_class": ""
-          },
-          "blocks": {}
-        },
-        "price": {
-          "type": "product-price",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "product": "{{ closest.product }}",
-            "sales_badge": "percentage",
-            "show_sales_badge_text": false,
-            "show_unit_price": false,
-            "text_style": "paragraph",
-            "additional_class": ""
-          },
-          "blocks": {}
-        },
-        "benefits": {
-          "type": "group",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "wrap_in_card": false,
-            "card_link": "",
-            "color_scheme": "",
-            "show_card_border": false,
-            "layout_type": "flex",
-            "width_desktop": 100,
-            "layout_direction_desktop": "column",
-            "layout_grid_columns_desktop": 3,
-            "layout_gap_desktop": 8,
-            "layout_wrap_desktop": "nowrap",
-            "layout_justify_desktop": "flex-start",
-            "layout_align_items_desktop": "flex-start",
-            "same_as_desktop": true,
-            "width_mobile": 100,
-            "layout_direction_mobile": "column",
-            "layout_grid_columns_mobile": 1,
-            "layout_gap_mobile": 8,
-            "layout_wrap_mobile": "nowrap",
-            "layout_justify_mobile": "flex-start",
-            "layout_align_items_mobile": "flex-start",
-            "use_global_container_padding": false,
-            "padding_horizontal": 0,
-            "padding_vertical": 0,
-            "margin_top": 6,
-            "margin_bottom": 6,
-            "additional_class": ""
-          },
-          "blocks": {
-            "b1": {
-              "type": "icon-with-text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "layout_direction_desktop": "row",
-                "layout_gap_desktop": 10,
-                "same_as_desktop": true,
-                "layout_direction_mobile": "row",
-                "layout_gap_mobile": 10,
-                "icon_type": "icon",
-                "icon": "ac_unit",
-                "icon_custom": "",
-                "icon_size": 22,
-                "icon_position": "start",
-                "text": "<p><strong>Reflective-lined roof and padded walls</strong> — holds your cat's own warmth</p>",
-                "text_style": "paragraph",
-                "font_weight": 400,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "b2": {
-              "type": "icon-with-text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "layout_direction_desktop": "row",
-                "layout_gap_desktop": 10,
-                "same_as_desktop": true,
-                "layout_direction_mobile": "row",
-                "layout_gap_mobile": 10,
-                "icon_type": "icon",
-                "icon": "arrow_upward",
-                "icon_custom": "",
-                "icon_size": 22,
-                "icon_position": "start",
-                "text": "<p><strong>Raised legs</strong> — off cold, wet ground</p>",
-                "text_style": "paragraph",
-                "font_weight": 400,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "b3": {
-              "type": "icon-with-text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "layout_direction_desktop": "row",
-                "layout_gap_desktop": 10,
-                "same_as_desktop": true,
-                "layout_direction_mobile": "row",
-                "layout_gap_mobile": 10,
-                "icon_type": "icon",
-                "icon": "water_drop",
-                "icon_custom": "",
-                "icon_size": 22,
-                "icon_position": "start",
-                "text": "<p><strong>Water-resistant roof and door flap</strong></p>",
-                "text_style": "paragraph",
-                "font_weight": 400,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "b4": {
-              "type": "icon-with-text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "layout_direction_desktop": "row",
-                "layout_gap_desktop": 10,
-                "same_as_desktop": true,
-                "layout_direction_mobile": "row",
-                "layout_gap_mobile": 10,
-                "icon_type": "icon",
-                "icon": "open_in_full",
-                "icon_custom": "",
-                "icon_size": 22,
-                "icon_position": "start",
-                "text": "<p><strong>Folds flat</strong>, sets up in minutes, no tools</p>",
-                "text_style": "paragraph",
-                "font_weight": 400,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "b1",
-            "b2",
-            "b3",
-            "b4"
-          ]
-        },
-        "product_form": {
-          "type": "_product-form",
-          "settings": {},
-          "blocks": {
-            "variant_picker": {
-              "type": "_product-variant-picker",
-              "settings": {
-                "show_option_name": true,
-                "variant_picker_type": "buttons",
-                "show_swatches": true,
-                "swatches_size": "normal",
-                "swatches_rounded": true,
-                "margin_top": 0,
-                "margin_bottom": 15,
-                "additional_class": ""
-              },
-              "blocks": {},
-              "block_order": []
-            },
-            "product-add-to-cart-button": {
-              "type": "_product-add-to-cart-button",
-              "static": true,
-              "settings": {
-                "enable_sticky_add_to_cart": false,
-                "button_style": "primary",
-                "show_price": true,
-                "icon": "none",
-                "icon_custom": "",
-                "icon_position": "end",
-                "enable_preorder": false,
-                "enable_preorder_on_empty_stock_only": true,
-                "preorder_cart_message": "",
-                "additional_class": ""
-              },
-              "blocks": {
-                "product-quantity-selector": {
-                  "type": "_product-quantity-selector",
-                  "static": true,
-                  "settings": {
-                    "show_on_display": "desktop_and_mobile",
-                    "additional_class": ""
-                  },
-                  "blocks": {}
-                }
-              }
-            }
-          },
-          "block_order": [
-            "variant_picker"
-          ]
-        },
-        "sticker": {
-          "type": "text",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "text": "<p>Most chosen: Large, grey</p>",
-            "text_style": "paragraph",
-            "paragraph_font_size": "normal",
-            "font_weight": 400,
-            "alignment": "left",
-            "alignment_mobile": "left",
-            "show_read_more": false,
-            "read_more_length": 50,
-            "read_more_text": "Read more",
-            "read_less_text": "Read less",
-            "truncate": false,
-            "truncate_length": 2,
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "additional_class": "cch-stickerize"
-          },
-          "blocks": {}
-        },
-        "stars": {
-          "type": "rating-stars",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "product": "{{ closest.product }}",
-            "hide_rating_when_no_reviews": false,
-            "rating": 4.8,
-            "show_note": true,
-            "show_review_count": true,
-            "review_count": 312,
-            "link": "#reviews",
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "additional_class": ""
-          },
-          "blocks": {}
-        },
-        "sub": {
-          "type": "text",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "text": "<p>The insulated shelter for cats who sleep outside, from £89 with free UK delivery.</p>",
-            "text_style": "paragraph",
-            "paragraph_font_size": "large",
-            "font_weight": 400,
-            "alignment": "left",
-            "alignment_mobile": "left",
-            "show_read_more": false,
-            "read_more_length": 50,
-            "read_more_text": "Read more",
-            "read_less_text": "Read less",
-            "truncate": false,
-            "truncate_length": 2,
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "additional_class": ""
-          },
-          "blocks": {}
-        },
-        "delivery": {
-          "type": "custom-code",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "custom_liquid": "<div class=\"cch-delivery\"><span>🟢 Delivered by <b id=\"cch-eta\">…</b></span><span>Delivery <b>Free</b></span></div>\n<script>(function(){var d=new Date(),n=0;while(n<8){d.setDate(d.getDate()+1);if(d.getDay()!=0&&d.getDay()!=6)n++;}var f=d.toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short'});var e=document.getElementById('cch-eta');if(e)e.textContent=f;})();</script>",
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "additional_class": ""
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "sticker",
-        "stars",
-        "title",
-        "sub",
-        "price",
-        "benefits",
-        "product_form",
-        "delivery"
-      ],
-      "settings": {
-        "show_on_display": "desktop_and_mobile",
-        "color_scheme": "scheme-2",
-        "show_product_info_card": false,
-        "color_scheme_product_info": "",
-        "product_source": "insulated-outdoor-cat-house",
-        "image_position": "row",
-        "product_info_width": 50,
-        "gap": 60,
-        "carrousel_sticky": true,
-        "product_info_sticky": true,
-        "padding_top": 60,
-        "padding_bottom": 60,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "anchor_id": "shop",
-        "additional_class": ""
-      }
-    },
-    "steps": {
-      "type": "custom-section",
-      "blocks": {
-        "header": {
-          "type": "group",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "wrap_in_card": false,
-            "card_link": "",
-            "color_scheme": "",
-            "show_card_border": false,
-            "layout_type": "flex",
-            "width_desktop": 100,
-            "layout_direction_desktop": "column",
-            "layout_grid_columns_desktop": 3,
-            "layout_gap_desktop": 10,
-            "layout_wrap_desktop": "nowrap",
-            "layout_justify_desktop": "flex-start",
-            "layout_align_items_desktop": "flex-start",
-            "same_as_desktop": false,
-            "width_mobile": 100,
-            "layout_direction_mobile": "column",
-            "layout_grid_columns_mobile": 1,
-            "layout_gap_mobile": 10,
-            "layout_wrap_mobile": "nowrap",
-            "layout_justify_mobile": "flex-start",
-            "layout_align_items_mobile": "flex-start",
-            "use_global_container_padding": true,
-            "padding_horizontal": 30,
-            "padding_vertical": 10,
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "additional_class": ""
-          },
-          "blocks": {
-            "h2": {
-              "type": "text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "text": "<h2>How it works, <em>in 3 steps</em></h2>",
-                "text_style": "h3",
-                "paragraph_font_size": "normal",
-                "font_weight": 400,
-                "alignment": "left",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "hand": {
-              "type": "text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "text": "<p>from the box to a cat curled up inside ↓</p>",
-                "text_style": "paragraph",
-                "paragraph_font_size": "normal",
-                "font_weight": 400,
-                "alignment": "left",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": "cch-handnote"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "h2",
-            "hand"
-          ]
-        },
-        "s1": {
-          "type": "group",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "wrap_in_card": true,
-            "card_link": "",
-            "color_scheme": "scheme-1",
-            "show_card_border": true,
-            "layout_type": "flex",
-            "width_desktop": 33,
-            "layout_direction_desktop": "column",
-            "layout_grid_columns_desktop": 3,
-            "layout_gap_desktop": 10,
-            "layout_wrap_desktop": "nowrap",
-            "layout_justify_desktop": "flex-start",
-            "layout_align_items_desktop": "flex-start",
-            "same_as_desktop": false,
-            "width_mobile": 100,
-            "layout_direction_mobile": "column",
-            "layout_grid_columns_mobile": 1,
-            "layout_gap_mobile": 10,
-            "layout_wrap_mobile": "nowrap",
-            "layout_justify_mobile": "flex-start",
-            "layout_align_items_mobile": "flex-start",
-            "use_global_container_padding": false,
-            "padding_horizontal": 20,
-            "padding_vertical": 20,
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "additional_class": ""
-          },
-          "blocks": {
-            "ico": {
-              "type": "icon-with-text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "layout_direction_desktop": "row",
-                "layout_gap_desktop": 10,
-                "same_as_desktop": true,
-                "layout_direction_mobile": "row",
-                "layout_gap_mobile": 10,
-                "icon_type": "icon",
-                "icon": "counter_1",
-                "icon_custom": "",
-                "icon_size": 32,
-                "icon_position": "start",
-                "text": "<p><em>1.</em> <strong>Unfold and clip the legs</strong></p>",
-                "text_style": "paragraph",
-                "font_weight": 500,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": "cch-step cch-step-1"
-              },
-              "blocks": {}
-            },
-            "txt": {
-              "type": "text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "text": "<p>No tools. The shelter opens into shape and stands on four raised legs in a couple of minutes.</p>",
-                "text_style": "paragraph",
-                "paragraph_font_size": "normal",
-                "font_weight": 400,
-                "alignment": "left",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "ico",
-            "txt"
-          ]
-        },
-        "s2": {
-          "type": "group",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "wrap_in_card": true,
-            "card_link": "",
-            "color_scheme": "scheme-1",
-            "show_card_border": true,
-            "layout_type": "flex",
-            "width_desktop": 33,
-            "layout_direction_desktop": "column",
-            "layout_grid_columns_desktop": 3,
-            "layout_gap_desktop": 10,
-            "layout_wrap_desktop": "nowrap",
-            "layout_justify_desktop": "flex-start",
-            "layout_align_items_desktop": "flex-start",
-            "same_as_desktop": false,
-            "width_mobile": 100,
-            "layout_direction_mobile": "column",
-            "layout_grid_columns_mobile": 1,
-            "layout_gap_mobile": 10,
-            "layout_wrap_mobile": "nowrap",
-            "layout_justify_mobile": "flex-start",
-            "layout_align_items_mobile": "flex-start",
-            "use_global_container_padding": false,
-            "padding_horizontal": 20,
-            "padding_vertical": 20,
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "additional_class": ""
-          },
-          "blocks": {
-            "ico": {
-              "type": "icon-with-text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "layout_direction_desktop": "row",
-                "layout_gap_desktop": 10,
-                "same_as_desktop": true,
-                "layout_direction_mobile": "row",
-                "layout_gap_mobile": 10,
-                "icon_type": "icon",
-                "icon": "counter_2",
-                "icon_custom": "",
-                "icon_size": 32,
-                "icon_position": "start",
-                "text": "<p><em>2.</em> <strong>Place it where your cat already goes</strong></p>",
-                "text_style": "paragraph",
-                "font_weight": 500,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": "cch-step cch-step-2"
-              },
-              "blocks": {}
-            },
-            "txt": {
-              "type": "text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "text": "<p>Against a wall or under a bench, near the spot it naps in. A familiar place beats a perfect one.</p>",
-                "text_style": "paragraph",
-                "paragraph_font_size": "normal",
-                "font_weight": 400,
-                "alignment": "left",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "ico",
-            "txt"
-          ]
-        },
-        "s3": {
-          "type": "group",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "wrap_in_card": true,
-            "card_link": "",
-            "color_scheme": "scheme-1",
-            "show_card_border": true,
-            "layout_type": "flex",
-            "width_desktop": 33,
-            "layout_direction_desktop": "column",
-            "layout_grid_columns_desktop": 3,
-            "layout_gap_desktop": 10,
-            "layout_wrap_desktop": "nowrap",
-            "layout_justify_desktop": "flex-start",
-            "layout_align_items_desktop": "flex-start",
-            "same_as_desktop": false,
-            "width_mobile": 100,
-            "layout_direction_mobile": "column",
-            "layout_grid_columns_mobile": 1,
-            "layout_gap_mobile": 10,
-            "layout_wrap_mobile": "nowrap",
-            "layout_justify_mobile": "flex-start",
-            "layout_align_items_mobile": "flex-start",
-            "use_global_container_padding": false,
-            "padding_horizontal": 20,
-            "padding_vertical": 20,
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "additional_class": ""
-          },
-          "blocks": {
-            "ico": {
-              "type": "icon-with-text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "layout_direction_desktop": "row",
-                "layout_gap_desktop": 10,
-                "same_as_desktop": true,
-                "layout_direction_mobile": "row",
-                "layout_gap_mobile": 10,
-                "icon_type": "icon",
-                "icon": "counter_3",
-                "icon_custom": "",
-                "icon_size": 32,
-                "icon_position": "start",
-                "text": "<p><em>3.</em> <strong>Let the lining do the work</strong></p>",
-                "text_style": "paragraph",
-                "font_weight": 500,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": "cch-step cch-step-3"
-              },
-              "blocks": {}
-            },
-            "txt": {
-              "type": "text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "text": "<p>The reflective roof and door flap hold your cat's own body heat. Nothing to plug in, nothing to charge.</p>",
-                "text_style": "paragraph",
-                "paragraph_font_size": "normal",
-                "font_weight": 400,
-                "alignment": "left",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "ico",
-            "txt"
-          ]
-        }
-      },
-      "block_order": [
-        "header",
-        "s1",
-        "s2",
-        "s3"
-      ],
-      "settings": {
-        "show_on_display": "desktop_and_mobile",
-        "color_scheme": "scheme-1",
-        "wrap_in_card": false,
-        "color_scheme_card": "",
-        "section_width": "normal",
-        "layout_type": "flex",
-        "layout_flex_direction_desktop": "row",
-        "layout_grid_columns_desktop": 3,
-        "layout_gap_desktop": 16,
-        "layout_wrap_desktop": "wrap",
-        "layout_flex_justify_desktop": "flex-start",
-        "layout_flex_align_items_desktop": "flex-start",
-        "same_as_desktop": false,
-        "layout_flex_direction_mobile": "column",
-        "layout_gap_mobile": 14,
-        "layout_wrap_mobile": "nowrap",
-        "layout_flex_justify_mobile": "flex-start",
-        "layout_flex_align_items_mobile": "flex-start",
-        "layout_grid_columns_mobile": 1,
-        "padding_top": 60,
-        "padding_bottom": 60,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "anchor_id": "how-it-works",
-        "additional_class": ""
-      }
-    },
-    "reviews": {
-      "type": "cch-reviews",
-      "blocks": {
-        "r1": {
-          "type": "review",
-          "settings": {
-            "rating": 5,
-            "verified": true,
-            "title": "Tabby moved in the first night",
-            "text": "Our garden cat, Mabel, wouldn't come in the house but she went straight into this once I put her old blanket inside. Dry every morning even after the storms last week.",
-            "author": "Helen P., Kent",
-            "date_text": "3 days ago"
-          }
-        },
-        "r2": {
-          "type": "review",
-          "settings": {
-            "rating": 5,
-            "verified": true,
-            "title": "Finally something for the stray we feed",
-            "text": "We've fed a black tom for two winters and felt awful about him sleeping under the shed. It took him four nights to go in. Now he's in it every evening. Sturdy, the legs keep it off the puddles.",
-            "author": "David R., Sheffield",
-            "date_text": "1 week ago"
-          }
-        },
-        "r3": {
-          "type": "review",
-          "settings": {
-            "rating": 4,
-            "verified": true,
-            "title": "Good shelter, took a while to arrive",
-            "text": "The shelter itself is well made and warmer inside than I expected — the silver lining really does the job. Took nine working days to arrive, so order before the cold snap.",
-            "author": "Sarah T., Bristol",
-            "date_text": "2 weeks ago"
-          }
-        },
-        "r4": {
-          "type": "review",
-          "settings": {
-            "rating": 5,
-            "verified": true,
-            "title": "My 14-year-old cat loves it",
-            "text": "Old boy with stiff joints, refuses to be an indoor cat. This gets him off the cold patio slabs. Folds flat in summer, which sold me.",
-            "author": "Margaret W., Norwich",
-            "date_text": "3 weeks ago"
-          }
-        },
-        "r5": {
-          "type": "review",
-          "settings": {
-            "rating": 5,
-            "verified": true,
-            "title": "Rain kept out, cat kept warm",
-            "text": "Put it under our porch first, now it's out by the hedge. The flap keeps the wind out and the roof sheds rain. Wish the door was slightly bigger for a chunky cat, but he manages.",
-            "author": "Tom B., Leeds",
-            "date_text": "1 month ago"
-          }
-        },
-        "r6": {
-          "type": "review",
-          "settings": {
-            "rating": 5,
-            "verified": true,
-            "title": "Great for our feeding station",
-            "text": "We look after a small colony. Bought two. The cats took turns for a week, now the queen has claimed one. Easy to wipe down.",
-            "author": "Priya K., Manchester",
-            "date_text": "1 month ago"
-          }
-        }
-      },
-      "block_order": [
-        "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r6"
-      ],
-      "settings": {
-        "heading": "What cat owners say",
-        "summary": "<span>★★★★★</span> 4.8/5 · 312 reviews",
-        "heading_alignment": "left",
-        "cards": 3,
-        "background": "#1F5E3A",
-        "heading_color": "#FFF7ED",
-        "card_background": "#FFFFFF",
-        "card_border": "#E5E7EB",
-        "title_color": "#1F2937",
-        "text_color": "#4B5563",
-        "stars_color": "#00B67A",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "anchor_id": "reviews"
       }
     },
     "pain": {
@@ -1710,10 +664,32 @@
         "additional_class": ""
       }
     },
-    "benefits": {
+    "mechanism": {
       "type": "custom-section",
       "blocks": {
-        "header": {
+        "h2": {
+          "type": "text",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "text": "<h2>How it keeps your cat warm and dry</h2>",
+            "text_style": "h3",
+            "paragraph_font_size": "normal",
+            "font_weight": 400,
+            "alignment": "left",
+            "alignment_mobile": "left",
+            "show_read_more": false,
+            "read_more_length": 50,
+            "read_more_text": "Read more",
+            "read_less_text": "Read less",
+            "truncate": false,
+            "truncate_length": 2,
+            "margin_top": 0,
+            "margin_bottom": 20,
+            "additional_class": ""
+          },
+          "blocks": {}
+        },
+        "grid": {
           "type": "group",
           "settings": {
             "show_on_display": "desktop_and_mobile",
@@ -1723,9 +699,9 @@
             "show_card_border": false,
             "layout_type": "flex",
             "width_desktop": 100,
-            "layout_direction_desktop": "column",
+            "layout_direction_desktop": "row",
             "layout_grid_columns_desktop": 3,
-            "layout_gap_desktop": 10,
+            "layout_gap_desktop": 15,
             "layout_wrap_desktop": "nowrap",
             "layout_justify_desktop": "flex-start",
             "layout_align_items_desktop": "flex-start",
@@ -1733,498 +709,546 @@
             "width_mobile": 100,
             "layout_direction_mobile": "column",
             "layout_grid_columns_mobile": 1,
-            "layout_gap_mobile": 10,
+            "layout_gap_mobile": 12,
             "layout_wrap_mobile": "nowrap",
             "layout_justify_mobile": "flex-start",
             "layout_align_items_mobile": "flex-start",
-            "use_global_container_padding": true,
-            "padding_horizontal": 30,
+            "use_global_container_padding": false,
+            "padding_horizontal": 10,
             "padding_vertical": 10,
             "margin_top": 0,
             "margin_bottom": 0,
             "additional_class": ""
           },
           "blocks": {
-            "k": {
-              "type": "text",
+            "card1": {
+              "type": "group",
               "settings": {
                 "show_on_display": "desktop_and_mobile",
-                "text": "<p>Built for British winters</p>",
-                "text_style": "paragraph",
-                "paragraph_font_size": "normal",
-                "font_weight": 600,
-                "alignment": "left",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": "cch-stickerize"
-              },
-              "blocks": {}
-            },
-            "h2": {
-              "type": "text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "text": "<h2>Warm, dry, off the ground — <em>without a plug</em></h2>",
-                "text_style": "h3",
-                "paragraph_font_size": "normal",
-                "font_weight": 400,
-                "alignment": "left",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
+                "wrap_in_card": true,
+                "card_link": "",
+                "color_scheme": "scheme-1",
+                "show_card_border": false,
+                "layout_type": "flex",
+                "width_desktop": 23,
+                "layout_direction_desktop": "column",
+                "layout_grid_columns_desktop": 3,
+                "layout_gap_desktop": 10,
+                "layout_wrap_desktop": "nowrap",
+                "layout_justify_desktop": "flex-start",
+                "layout_align_items_desktop": "flex-start",
+                "same_as_desktop": false,
+                "width_mobile": 100,
+                "layout_direction_mobile": "column",
+                "layout_grid_columns_mobile": 1,
+                "layout_gap_mobile": 10,
+                "layout_wrap_mobile": "nowrap",
+                "layout_justify_mobile": "flex-start",
+                "layout_align_items_mobile": "flex-start",
+                "use_global_container_padding": false,
+                "padding_horizontal": 18,
+                "padding_vertical": 18,
                 "margin_top": 0,
                 "margin_bottom": 0,
                 "additional_class": ""
               },
-              "blocks": {}
+              "blocks": {
+                "i": {
+                  "type": "icon-with-text",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "layout_direction_desktop": "row",
+                    "layout_gap_desktop": 10,
+                    "same_as_desktop": true,
+                    "layout_direction_mobile": "row",
+                    "layout_gap_mobile": 10,
+                    "icon_type": "icon",
+                    "icon": "ac_unit",
+                    "icon_custom": "",
+                    "icon_size": 26,
+                    "icon_position": "start",
+                    "text": "<p><strong>Reflective lining</strong></p>",
+                    "text_style": "paragraph",
+                    "font_weight": 500,
+                    "margin_top": 0,
+                    "margin_bottom": 0,
+                    "additional_class": ""
+                  },
+                  "blocks": {}
+                },
+                "p": {
+                  "type": "text",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "text": "<p>The roof and door flap are lined with a reflective film. It reflects your cat's own body heat back at them, with no power needed.</p>",
+                    "text_style": "paragraph",
+                    "paragraph_font_size": "normal",
+                    "font_weight": 400,
+                    "alignment": "left",
+                    "alignment_mobile": "left",
+                    "show_read_more": false,
+                    "read_more_length": 50,
+                    "read_more_text": "Read more",
+                    "read_less_text": "Read less",
+                    "truncate": false,
+                    "truncate_length": 2,
+                    "margin_top": 0,
+                    "margin_bottom": 0,
+                    "additional_class": ""
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "i",
+                "p"
+              ]
+            },
+            "card2": {
+              "type": "group",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "wrap_in_card": true,
+                "card_link": "",
+                "color_scheme": "scheme-1",
+                "show_card_border": false,
+                "layout_type": "flex",
+                "width_desktop": 23,
+                "layout_direction_desktop": "column",
+                "layout_grid_columns_desktop": 3,
+                "layout_gap_desktop": 10,
+                "layout_wrap_desktop": "nowrap",
+                "layout_justify_desktop": "flex-start",
+                "layout_align_items_desktop": "flex-start",
+                "same_as_desktop": false,
+                "width_mobile": 100,
+                "layout_direction_mobile": "column",
+                "layout_grid_columns_mobile": 1,
+                "layout_gap_mobile": 10,
+                "layout_wrap_mobile": "nowrap",
+                "layout_justify_mobile": "flex-start",
+                "layout_align_items_mobile": "flex-start",
+                "use_global_container_padding": false,
+                "padding_horizontal": 18,
+                "padding_vertical": 18,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {
+                "i": {
+                  "type": "icon-with-text",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "layout_direction_desktop": "row",
+                    "layout_gap_desktop": 10,
+                    "same_as_desktop": true,
+                    "layout_direction_mobile": "row",
+                    "layout_gap_mobile": 10,
+                    "icon_type": "icon",
+                    "icon": "layers",
+                    "icon_custom": "",
+                    "icon_size": 26,
+                    "icon_position": "start",
+                    "text": "<p><strong>Padded walls</strong></p>",
+                    "text_style": "paragraph",
+                    "font_weight": 500,
+                    "margin_top": 0,
+                    "margin_bottom": 0,
+                    "additional_class": ""
+                  },
+                  "blocks": {}
+                },
+                "p": {
+                  "type": "text",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "text": "<p>Every wall is padded for insulation. It keeps the inside noticeably warmer than the air outside.</p>",
+                    "text_style": "paragraph",
+                    "paragraph_font_size": "normal",
+                    "font_weight": 400,
+                    "alignment": "left",
+                    "alignment_mobile": "left",
+                    "show_read_more": false,
+                    "read_more_length": 50,
+                    "read_more_text": "Read more",
+                    "read_less_text": "Read less",
+                    "truncate": false,
+                    "truncate_length": 2,
+                    "margin_top": 0,
+                    "margin_bottom": 0,
+                    "additional_class": ""
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "i",
+                "p"
+              ]
+            },
+            "card3": {
+              "type": "group",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "wrap_in_card": true,
+                "card_link": "",
+                "color_scheme": "scheme-1",
+                "show_card_border": false,
+                "layout_type": "flex",
+                "width_desktop": 23,
+                "layout_direction_desktop": "column",
+                "layout_grid_columns_desktop": 3,
+                "layout_gap_desktop": 10,
+                "layout_wrap_desktop": "nowrap",
+                "layout_justify_desktop": "flex-start",
+                "layout_align_items_desktop": "flex-start",
+                "same_as_desktop": false,
+                "width_mobile": 100,
+                "layout_direction_mobile": "column",
+                "layout_grid_columns_mobile": 1,
+                "layout_gap_mobile": 10,
+                "layout_wrap_mobile": "nowrap",
+                "layout_justify_mobile": "flex-start",
+                "layout_align_items_mobile": "flex-start",
+                "use_global_container_padding": false,
+                "padding_horizontal": 18,
+                "padding_vertical": 18,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {
+                "i": {
+                  "type": "icon-with-text",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "layout_direction_desktop": "row",
+                    "layout_gap_desktop": 10,
+                    "same_as_desktop": true,
+                    "layout_direction_mobile": "row",
+                    "layout_gap_mobile": 10,
+                    "icon_type": "icon",
+                    "icon": "arrow_upward",
+                    "icon_custom": "",
+                    "icon_size": 26,
+                    "icon_position": "start",
+                    "text": "<p><strong>Raised legs</strong></p>",
+                    "text_style": "paragraph",
+                    "font_weight": 500,
+                    "margin_top": 0,
+                    "margin_bottom": 0,
+                    "additional_class": ""
+                  },
+                  "blocks": {}
+                },
+                "p": {
+                  "type": "text",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "text": "<p>The shelter stands on raised plastic legs. This keeps your cat off cold, damp ground — a common failure point of cardboard boxes.</p>",
+                    "text_style": "paragraph",
+                    "paragraph_font_size": "normal",
+                    "font_weight": 400,
+                    "alignment": "left",
+                    "alignment_mobile": "left",
+                    "show_read_more": false,
+                    "read_more_length": 50,
+                    "read_more_text": "Read more",
+                    "read_less_text": "Read less",
+                    "truncate": false,
+                    "truncate_length": 2,
+                    "margin_top": 0,
+                    "margin_bottom": 0,
+                    "additional_class": ""
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "i",
+                "p"
+              ]
+            },
+            "card4": {
+              "type": "group",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "wrap_in_card": true,
+                "card_link": "",
+                "color_scheme": "scheme-1",
+                "show_card_border": false,
+                "layout_type": "flex",
+                "width_desktop": 23,
+                "layout_direction_desktop": "column",
+                "layout_grid_columns_desktop": 3,
+                "layout_gap_desktop": 10,
+                "layout_wrap_desktop": "nowrap",
+                "layout_justify_desktop": "flex-start",
+                "layout_align_items_desktop": "flex-start",
+                "same_as_desktop": false,
+                "width_mobile": 100,
+                "layout_direction_mobile": "column",
+                "layout_grid_columns_mobile": 1,
+                "layout_gap_mobile": 10,
+                "layout_wrap_mobile": "nowrap",
+                "layout_justify_mobile": "flex-start",
+                "layout_align_items_mobile": "flex-start",
+                "use_global_container_padding": false,
+                "padding_horizontal": 18,
+                "padding_vertical": 18,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {
+                "i": {
+                  "type": "icon-with-text",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "layout_direction_desktop": "row",
+                    "layout_gap_desktop": 10,
+                    "same_as_desktop": true,
+                    "layout_direction_mobile": "row",
+                    "layout_gap_mobile": 10,
+                    "icon_type": "icon",
+                    "icon": "water_drop",
+                    "icon_custom": "",
+                    "icon_size": 26,
+                    "icon_position": "start",
+                    "text": "<p><strong>Water-resistant roof and door flap</strong></p>",
+                    "text_style": "paragraph",
+                    "font_weight": 500,
+                    "margin_top": 0,
+                    "margin_bottom": 0,
+                    "additional_class": ""
+                  },
+                  "blocks": {}
+                },
+                "p": {
+                  "type": "text",
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "text": "<p>The two-pitch roof and door flap are built to shed rain. Your cat stays dry, not sitting in a damp corner.</p>",
+                    "text_style": "paragraph",
+                    "paragraph_font_size": "normal",
+                    "font_weight": 400,
+                    "alignment": "left",
+                    "alignment_mobile": "left",
+                    "show_read_more": false,
+                    "read_more_length": 50,
+                    "read_more_text": "Read more",
+                    "read_less_text": "Read less",
+                    "truncate": false,
+                    "truncate_length": 2,
+                    "margin_top": 0,
+                    "margin_bottom": 0,
+                    "additional_class": ""
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "i",
+                "p"
+              ]
             }
           },
           "block_order": [
-            "k",
-            "h2"
-          ]
-        },
-        "c1": {
-          "type": "group",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "wrap_in_card": true,
-            "card_link": "/products/insulated-outdoor-cat-house",
-            "color_scheme": "scheme-2",
-            "show_card_border": false,
-            "layout_type": "flex",
-            "width_desktop": 48,
-            "layout_direction_desktop": "column",
-            "layout_grid_columns_desktop": 3,
-            "layout_gap_desktop": 8,
-            "layout_wrap_desktop": "nowrap",
-            "layout_justify_desktop": "flex-start",
-            "layout_align_items_desktop": "flex-start",
-            "same_as_desktop": false,
-            "width_mobile": 100,
-            "layout_direction_mobile": "column",
-            "layout_grid_columns_mobile": 1,
-            "layout_gap_mobile": 8,
-            "layout_wrap_mobile": "nowrap",
-            "layout_justify_mobile": "flex-start",
-            "layout_align_items_mobile": "flex-start",
-            "use_global_container_padding": false,
-            "padding_horizontal": 16,
-            "padding_vertical": 16,
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "additional_class": ""
-          },
-          "blocks": {
-            "img": {
-              "type": "image",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "image": "shopify://shop_images/cch-benefice-chaleur.jpg",
-                "show_placeholder": true,
-                "link": "",
-                "image_ratio": "4 / 3",
-                "image_width_desktop": 100,
-                "image_width_mobile": 100,
-                "enable_rounded_corners": true,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "h": {
-              "type": "text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "text": "<h3>Warmth without electricity</h3>",
-                "text_style": "h4",
-                "paragraph_font_size": "normal",
-                "font_weight": 400,
-                "alignment": "left",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
-                "margin_top": 6,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "p": {
-              "type": "text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "text": "<p>A reflective film lines the roof and door flap and reflects your cat's own body heat back in. Padded walls add a second layer.</p>",
-                "text_style": "paragraph",
-                "paragraph_font_size": "normal",
-                "font_weight": 400,
-                "alignment": "left",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "img",
-            "h",
-            "p"
-          ]
-        },
-        "c2": {
-          "type": "group",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "wrap_in_card": true,
-            "card_link": "/products/insulated-outdoor-cat-house",
-            "color_scheme": "scheme-2",
-            "show_card_border": false,
-            "layout_type": "flex",
-            "width_desktop": 48,
-            "layout_direction_desktop": "column",
-            "layout_grid_columns_desktop": 3,
-            "layout_gap_desktop": 8,
-            "layout_wrap_desktop": "nowrap",
-            "layout_justify_desktop": "flex-start",
-            "layout_align_items_desktop": "flex-start",
-            "same_as_desktop": false,
-            "width_mobile": 100,
-            "layout_direction_mobile": "column",
-            "layout_grid_columns_mobile": 1,
-            "layout_gap_mobile": 8,
-            "layout_wrap_mobile": "nowrap",
-            "layout_justify_mobile": "flex-start",
-            "layout_align_items_mobile": "flex-start",
-            "use_global_container_padding": false,
-            "padding_horizontal": 16,
-            "padding_vertical": 16,
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "additional_class": ""
-          },
-          "blocks": {
-            "img": {
-              "type": "image",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "image": "shopify://shop_images/cch-benefice-sec.jpg",
-                "show_placeholder": true,
-                "link": "",
-                "image_ratio": "4 / 3",
-                "image_width_desktop": 100,
-                "image_width_mobile": 100,
-                "enable_rounded_corners": true,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "h": {
-              "type": "text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "text": "<h3>Dry, even on wet paving</h3>",
-                "text_style": "h4",
-                "paragraph_font_size": "normal",
-                "font_weight": 400,
-                "alignment": "left",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
-                "margin_top": 6,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "p": {
-              "type": "text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "text": "<p>Four raised legs lift it above puddles and mud. The two-pitch roof and flap shed rain instead of soaking it up.</p>",
-                "text_style": "paragraph",
-                "paragraph_font_size": "normal",
-                "font_weight": 400,
-                "alignment": "left",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "img",
-            "h",
-            "p"
-          ]
-        },
-        "c3": {
-          "type": "group",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "wrap_in_card": true,
-            "card_link": "/products/insulated-outdoor-cat-house",
-            "color_scheme": "scheme-2",
-            "show_card_border": false,
-            "layout_type": "flex",
-            "width_desktop": 48,
-            "layout_direction_desktop": "column",
-            "layout_grid_columns_desktop": 3,
-            "layout_gap_desktop": 8,
-            "layout_wrap_desktop": "nowrap",
-            "layout_justify_desktop": "flex-start",
-            "layout_align_items_desktop": "flex-start",
-            "same_as_desktop": false,
-            "width_mobile": 100,
-            "layout_direction_mobile": "column",
-            "layout_grid_columns_mobile": 1,
-            "layout_gap_mobile": 8,
-            "layout_wrap_mobile": "nowrap",
-            "layout_justify_mobile": "flex-start",
-            "layout_align_items_mobile": "flex-start",
-            "use_global_container_padding": false,
-            "padding_horizontal": 16,
-            "padding_vertical": 16,
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "additional_class": ""
-          },
-          "blocks": {
-            "img": {
-              "type": "image",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "image": "shopify://shop_images/cch-benefice-installation.jpg",
-                "show_placeholder": true,
-                "link": "",
-                "image_ratio": "4 / 3",
-                "image_width_desktop": 100,
-                "image_width_mobile": 100,
-                "enable_rounded_corners": true,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "h": {
-              "type": "text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "text": "<h3>Two minutes, no tools</h3>",
-                "text_style": "h4",
-                "paragraph_font_size": "normal",
-                "font_weight": 400,
-                "alignment": "left",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
-                "margin_top": 6,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "p": {
-              "type": "text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "text": "<p>Unfold, clip the legs, place it. Folds flat again for summer or a house move.</p>",
-                "text_style": "paragraph",
-                "paragraph_font_size": "normal",
-                "font_weight": 400,
-                "alignment": "left",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "img",
-            "h",
-            "p"
-          ]
-        },
-        "c4": {
-          "type": "group",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "wrap_in_card": true,
-            "card_link": "/products/insulated-outdoor-cat-house",
-            "color_scheme": "scheme-2",
-            "show_card_border": false,
-            "layout_type": "flex",
-            "width_desktop": 48,
-            "layout_direction_desktop": "column",
-            "layout_grid_columns_desktop": 3,
-            "layout_gap_desktop": 8,
-            "layout_wrap_desktop": "nowrap",
-            "layout_justify_desktop": "flex-start",
-            "layout_align_items_desktop": "flex-start",
-            "same_as_desktop": false,
-            "width_mobile": 100,
-            "layout_direction_mobile": "column",
-            "layout_grid_columns_mobile": 1,
-            "layout_gap_mobile": 8,
-            "layout_wrap_mobile": "nowrap",
-            "layout_justify_mobile": "flex-start",
-            "layout_align_items_mobile": "flex-start",
-            "use_global_container_padding": false,
-            "padding_horizontal": 16,
-            "padding_vertical": 16,
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "additional_class": ""
-          },
-          "blocks": {
-            "img": {
-              "type": "image",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "image": "shopify://shop_images/cch-benefice-refuge.jpg",
-                "show_placeholder": true,
-                "link": "",
-                "image_ratio": "4 / 3",
-                "image_width_desktop": 100,
-                "image_width_mobile": 100,
-                "enable_rounded_corners": true,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "h": {
-              "type": "text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "text": "<h3>A private place to retreat</h3>",
-                "text_style": "h4",
-                "paragraph_font_size": "normal",
-                "font_weight": 400,
-                "alignment": "left",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
-                "margin_top": 6,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "p": {
-              "type": "text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "text": "<p>An enclosed, dark space with one small door. We don't promise protection from every animal — we give your cat somewhere to hide.</p>",
-                "text_style": "paragraph",
-                "paragraph_font_size": "normal",
-                "font_weight": 400,
-                "alignment": "left",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "img",
-            "h",
-            "p"
+            "card1",
+            "card2",
+            "card3",
+            "card4"
           ]
         }
       },
       "block_order": [
-        "header",
-        "c1",
-        "c2",
-        "c3",
-        "c4"
+        "h2",
+        "grid"
       ],
       "settings": {
         "show_on_display": "desktop_and_mobile",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "wrap_in_card": false,
         "color_scheme_card": "",
         "section_width": "normal",
         "layout_type": "flex",
-        "layout_flex_direction_desktop": "row",
+        "layout_flex_direction_desktop": "column",
         "layout_grid_columns_desktop": 3,
-        "layout_gap_desktop": 20,
-        "layout_wrap_desktop": "wrap",
+        "layout_gap_desktop": 10,
+        "layout_wrap_desktop": "nowrap",
         "layout_flex_justify_desktop": "flex-start",
         "layout_flex_align_items_desktop": "flex-start",
-        "same_as_desktop": false,
+        "same_as_desktop": true,
         "layout_flex_direction_mobile": "column",
-        "layout_gap_mobile": 14,
+        "layout_gap_mobile": 10,
         "layout_wrap_mobile": "nowrap",
         "layout_flex_justify_mobile": "flex-start",
         "layout_flex_align_items_mobile": "flex-start",
         "layout_grid_columns_mobile": 1,
-        "padding_top": 60,
-        "padding_bottom": 60,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "anchor_id": "how-it-works",
+        "additional_class": ""
+      }
+    },
+    "featured_product": {
+      "type": "product-featured",
+      "blocks": {
+        "product_media_gallery": {
+          "type": "_product-media-gallery",
+          "static": true,
+          "settings": {
+            "hide_variants": false,
+            "media_display": "carrousel",
+            "media_ratio": "1 / 1",
+            "media_rounded": true,
+            "grid_columns": "2",
+            "grid_gap": 10,
+            "main_image_full_width": true,
+            "show_a_bit_of_next_image_on_mobile": false,
+            "show_arrows": false,
+            "show_pagination": false,
+            "show_thumbnails": true,
+            "show_thumbnails_on_display": "desktop_and_mobile",
+            "thumbnails_show_arrows": false,
+            "video_loop": true,
+            "enable_video_controls": false,
+            "show_badges": true,
+            "additional_class": ""
+          },
+          "blocks": {}
+        },
+        "title": {
+          "type": "text",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "text": "<h2>{{ closest.product.title }}</h2>",
+            "text_style": "h3",
+            "paragraph_font_size": "normal",
+            "font_weight": 400,
+            "alignment": "left",
+            "alignment_mobile": "left",
+            "show_read_more": false,
+            "read_more_length": 50,
+            "read_more_text": "Read more",
+            "read_less_text": "Read less",
+            "truncate": false,
+            "truncate_length": 2,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {}
+        },
+        "price": {
+          "type": "product-price",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "product": "{{ closest.product }}",
+            "sales_badge": "percentage",
+            "show_sales_badge_text": false,
+            "show_unit_price": false,
+            "text_style": "paragraph",
+            "additional_class": ""
+          },
+          "blocks": {}
+        },
+        "benefits": {
+          "type": "text",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "text": "<ul><li>Reflective-lined roof and padded walls, no electricity needed</li><li>Raised legs keep your cat off cold, wet ground</li><li>Folds flat, sets up in minutes with no tools</li></ul>",
+            "text_style": "paragraph",
+            "paragraph_font_size": "normal",
+            "font_weight": 400,
+            "alignment": "left",
+            "alignment_mobile": "left",
+            "show_read_more": false,
+            "read_more_length": 50,
+            "read_more_text": "Read more",
+            "read_less_text": "Read less",
+            "truncate": false,
+            "truncate_length": 2,
+            "margin_top": 5,
+            "margin_bottom": 5,
+            "additional_class": ""
+          },
+          "blocks": {}
+        },
+        "product_form": {
+          "type": "_product-form",
+          "settings": {},
+          "blocks": {
+            "variant_picker": {
+              "type": "_product-variant-picker",
+              "settings": {
+                "show_option_name": true,
+                "variant_picker_type": "buttons",
+                "show_swatches": true,
+                "swatches_size": "normal",
+                "swatches_rounded": true,
+                "margin_top": 0,
+                "margin_bottom": 15,
+                "additional_class": ""
+              },
+              "blocks": {},
+              "block_order": []
+            },
+            "product-add-to-cart-button": {
+              "type": "_product-add-to-cart-button",
+              "static": true,
+              "settings": {
+                "enable_sticky_add_to_cart": false,
+                "button_style": "primary",
+                "show_price": true,
+                "icon": "none",
+                "icon_custom": "",
+                "icon_position": "end",
+                "enable_preorder": false,
+                "enable_preorder_on_empty_stock_only": true,
+                "preorder_cart_message": "",
+                "additional_class": ""
+              },
+              "blocks": {
+                "product-quantity-selector": {
+                  "type": "_product-quantity-selector",
+                  "static": true,
+                  "settings": {
+                    "show_on_display": "desktop_and_mobile",
+                    "additional_class": ""
+                  },
+                  "blocks": {}
+                }
+              }
+            }
+          },
+          "block_order": [
+            "variant_picker"
+          ]
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "benefits",
+        "product_form"
+      ],
+      "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "color_scheme": "scheme-1",
+        "show_product_info_card": false,
+        "color_scheme_product_info": "",
+        "product_source": "insulated-outdoor-cat-house",
+        "image_position": "row",
+        "product_info_width": 50,
+        "gap": 50,
+        "carrousel_sticky": true,
+        "product_info_sticky": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "margin_top": 0,
         "margin_bottom": 0,
         "anchor_id": "",
@@ -3945,6 +2969,284 @@
         "additional_class": ""
       }
     },
+    "reassurance": {
+      "type": "custom-section",
+      "blocks": {
+        "c1": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": false,
+            "card_link": "",
+            "color_scheme": "",
+            "show_card_border": false,
+            "layout_type": "flex",
+            "width_desktop": 23,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 8,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "flex-start",
+            "same_as_desktop": false,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 10,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": false,
+            "padding_horizontal": 15,
+            "padding_vertical": 15,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {
+            "i": {
+              "type": "icon-with-text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "layout_direction_desktop": "row",
+                "layout_gap_desktop": 10,
+                "same_as_desktop": true,
+                "layout_direction_mobile": "row",
+                "layout_gap_mobile": 10,
+                "icon_type": "icon",
+                "icon": "local_shipping",
+                "icon_custom": "",
+                "icon_size": 24,
+                "icon_position": "start",
+                "text": "<p>Free UK delivery, 6–10 business days</p>",
+                "text_style": "paragraph",
+                "font_weight": 500,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "i"
+          ]
+        },
+        "c2": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": false,
+            "card_link": "",
+            "color_scheme": "",
+            "show_card_border": false,
+            "layout_type": "flex",
+            "width_desktop": 23,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 8,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "flex-start",
+            "same_as_desktop": false,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 10,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": false,
+            "padding_horizontal": 15,
+            "padding_vertical": 15,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {
+            "i": {
+              "type": "icon-with-text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "layout_direction_desktop": "row",
+                "layout_gap_desktop": 10,
+                "same_as_desktop": true,
+                "layout_direction_mobile": "row",
+                "layout_gap_mobile": 10,
+                "icon_type": "icon",
+                "icon": "assignment_return",
+                "icon_custom": "",
+                "icon_size": 24,
+                "icon_position": "start",
+                "text": "<p>30-day returns</p>",
+                "text_style": "paragraph",
+                "font_weight": 500,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "i"
+          ]
+        },
+        "c3": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": false,
+            "card_link": "",
+            "color_scheme": "",
+            "show_card_border": false,
+            "layout_type": "flex",
+            "width_desktop": 23,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 8,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "flex-start",
+            "same_as_desktop": false,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 10,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": false,
+            "padding_horizontal": 15,
+            "padding_vertical": 15,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {
+            "i": {
+              "type": "icon-with-text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "layout_direction_desktop": "row",
+                "layout_gap_desktop": 10,
+                "same_as_desktop": true,
+                "layout_direction_mobile": "row",
+                "layout_gap_mobile": 10,
+                "icon_type": "icon",
+                "icon": "lock",
+                "icon_custom": "",
+                "icon_size": 24,
+                "icon_position": "start",
+                "text": "<p>Secure payment</p>",
+                "text_style": "paragraph",
+                "font_weight": 500,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "i"
+          ]
+        },
+        "c4": {
+          "type": "group",
+          "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "wrap_in_card": false,
+            "card_link": "",
+            "color_scheme": "",
+            "show_card_border": false,
+            "layout_type": "flex",
+            "width_desktop": 23,
+            "layout_direction_desktop": "column",
+            "layout_grid_columns_desktop": 3,
+            "layout_gap_desktop": 8,
+            "layout_wrap_desktop": "nowrap",
+            "layout_justify_desktop": "flex-start",
+            "layout_align_items_desktop": "flex-start",
+            "same_as_desktop": false,
+            "width_mobile": 100,
+            "layout_direction_mobile": "column",
+            "layout_grid_columns_mobile": 1,
+            "layout_gap_mobile": 10,
+            "layout_wrap_mobile": "nowrap",
+            "layout_justify_mobile": "flex-start",
+            "layout_align_items_mobile": "flex-start",
+            "use_global_container_padding": false,
+            "padding_horizontal": 15,
+            "padding_vertical": 15,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+          },
+          "blocks": {
+            "i": {
+              "type": "icon-with-text",
+              "settings": {
+                "show_on_display": "desktop_and_mobile",
+                "layout_direction_desktop": "row",
+                "layout_gap_desktop": 10,
+                "same_as_desktop": true,
+                "layout_direction_mobile": "row",
+                "layout_gap_mobile": 10,
+                "icon_type": "icon",
+                "icon": "support_agent",
+                "icon_custom": "",
+                "icon_size": 24,
+                "icon_position": "start",
+                "text": "<p>Email support, real replies</p>",
+                "text_style": "paragraph",
+                "font_weight": 500,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "additional_class": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "i"
+          ]
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "color_scheme": "scheme-2",
+        "wrap_in_card": false,
+        "color_scheme_card": "",
+        "section_width": "normal",
+        "layout_type": "flex",
+        "layout_flex_direction_desktop": "row",
+        "layout_grid_columns_desktop": 3,
+        "layout_gap_desktop": 20,
+        "layout_wrap_desktop": "nowrap",
+        "layout_flex_justify_desktop": "flex-start",
+        "layout_flex_align_items_desktop": "flex-start",
+        "same_as_desktop": false,
+        "layout_flex_direction_mobile": "column",
+        "layout_gap_mobile": 15,
+        "layout_wrap_mobile": "nowrap",
+        "layout_flex_justify_mobile": "flex-start",
+        "layout_flex_align_items_mobile": "flex-start",
+        "layout_grid_columns_mobile": 1,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "anchor_id": "",
+        "additional_class": ""
+      }
+    },
     "faq": {
       "type": "custom-section",
       "blocks": {
@@ -4221,302 +3523,19 @@
         "additional_class": ""
       }
     },
-    "reassurance": {
-      "type": "custom-section",
-      "blocks": {
-        "c1": {
-          "type": "group",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "wrap_in_card": false,
-            "card_link": "",
-            "color_scheme": "",
-            "show_card_border": false,
-            "layout_type": "flex",
-            "width_desktop": 33,
-            "layout_direction_desktop": "column",
-            "layout_grid_columns_desktop": 3,
-            "layout_gap_desktop": 8,
-            "layout_wrap_desktop": "nowrap",
-            "layout_justify_desktop": "flex-start",
-            "layout_align_items_desktop": "flex-start",
-            "same_as_desktop": false,
-            "width_mobile": 100,
-            "layout_direction_mobile": "column",
-            "layout_grid_columns_mobile": 1,
-            "layout_gap_mobile": 8,
-            "layout_wrap_mobile": "nowrap",
-            "layout_justify_mobile": "flex-start",
-            "layout_align_items_mobile": "flex-start",
-            "use_global_container_padding": false,
-            "padding_horizontal": 15,
-            "padding_vertical": 15,
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "additional_class": ""
-          },
-          "blocks": {
-            "h": {
-              "type": "text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "text": "<h5>Honest about what it does</h5>",
-                "text_style": "h6",
-                "paragraph_font_size": "normal",
-                "font_weight": 400,
-                "alignment": "left",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "p": {
-              "type": "text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "text": "<p>Insulated, not heated. Water-resistant, not a submarine. We say what we've checked and what we're still testing on our own sample.</p>",
-                "text_style": "paragraph",
-                "paragraph_font_size": "normal",
-                "font_weight": 400,
-                "alignment": "left",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "h",
-            "p"
-          ]
-        },
-        "c2": {
-          "type": "group",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "wrap_in_card": false,
-            "card_link": "",
-            "color_scheme": "",
-            "show_card_border": false,
-            "layout_type": "flex",
-            "width_desktop": 33,
-            "layout_direction_desktop": "column",
-            "layout_grid_columns_desktop": 3,
-            "layout_gap_desktop": 8,
-            "layout_wrap_desktop": "nowrap",
-            "layout_justify_desktop": "flex-start",
-            "layout_align_items_desktop": "flex-start",
-            "same_as_desktop": false,
-            "width_mobile": 100,
-            "layout_direction_mobile": "column",
-            "layout_grid_columns_mobile": 1,
-            "layout_gap_mobile": 8,
-            "layout_wrap_mobile": "nowrap",
-            "layout_justify_mobile": "flex-start",
-            "layout_align_items_mobile": "flex-start",
-            "use_global_container_padding": false,
-            "padding_horizontal": 15,
-            "padding_vertical": 15,
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "additional_class": ""
-          },
-          "blocks": {
-            "h": {
-              "type": "text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "text": "<h5>Free delivery, tracked</h5>",
-                "text_style": "h6",
-                "paragraph_font_size": "normal",
-                "font_weight": 400,
-                "alignment": "left",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "p": {
-              "type": "text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "text": "<p>Shipped from our supplier's warehouse in 6–10 working days, tracking e-mailed on dispatch, nothing to pay at the door.</p>",
-                "text_style": "paragraph",
-                "paragraph_font_size": "normal",
-                "font_weight": 400,
-                "alignment": "left",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "h",
-            "p"
-          ]
-        },
-        "c3": {
-          "type": "group",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "wrap_in_card": false,
-            "card_link": "",
-            "color_scheme": "",
-            "show_card_border": false,
-            "layout_type": "flex",
-            "width_desktop": 33,
-            "layout_direction_desktop": "column",
-            "layout_grid_columns_desktop": 3,
-            "layout_gap_desktop": 8,
-            "layout_wrap_desktop": "nowrap",
-            "layout_justify_desktop": "flex-start",
-            "layout_align_items_desktop": "flex-start",
-            "same_as_desktop": false,
-            "width_mobile": 100,
-            "layout_direction_mobile": "column",
-            "layout_grid_columns_mobile": 1,
-            "layout_gap_mobile": 8,
-            "layout_wrap_mobile": "nowrap",
-            "layout_justify_mobile": "flex-start",
-            "layout_align_items_mobile": "flex-start",
-            "use_global_container_padding": false,
-            "padding_horizontal": 15,
-            "padding_vertical": 15,
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "additional_class": ""
-          },
-          "blocks": {
-            "h": {
-              "type": "text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "text": "<h5>Buy with peace of mind</h5>",
-                "text_style": "h6",
-                "paragraph_font_size": "normal",
-                "font_weight": 400,
-                "alignment": "left",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "p": {
-              "type": "text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "text": "<p>14-day legal cancellation plus 30-day returns, Consumer Rights Act protection, real e-mail replies within a working day.</p>",
-                "text_style": "paragraph",
-                "paragraph_font_size": "normal",
-                "font_weight": 400,
-                "alignment": "left",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "h",
-            "p"
-          ]
-        }
-      },
-      "block_order": [
-        "c1",
-        "c2",
-        "c3"
-      ],
-      "settings": {
-        "show_on_display": "desktop_and_mobile",
-        "color_scheme": "scheme-3",
-        "wrap_in_card": false,
-        "color_scheme_card": "",
-        "section_width": "normal",
-        "layout_type": "flex",
-        "layout_flex_direction_desktop": "row",
-        "layout_grid_columns_desktop": 3,
-        "layout_gap_desktop": 10,
-        "layout_wrap_desktop": "nowrap",
-        "layout_flex_justify_desktop": "flex-start",
-        "layout_flex_align_items_desktop": "flex-start",
-        "same_as_desktop": false,
-        "layout_flex_direction_mobile": "column",
-        "layout_gap_mobile": 10,
-        "layout_wrap_mobile": "nowrap",
-        "layout_flex_justify_mobile": "flex-start",
-        "layout_flex_align_items_mobile": "flex-start",
-        "layout_grid_columns_mobile": 1,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "anchor_id": "",
-        "additional_class": "cch-fringe"
-      }
-    },
-    "why": {
+    "final_cta": {
       "type": "custom-section",
       "blocks": {
         "h2": {
           "type": "text",
           "settings": {
             "show_on_display": "desktop_and_mobile",
-            "text": "<h2>Why Cosy Cat House?</h2>",
+            "text": "<h2>Give your cat somewhere warm and dry to sleep this winter.</h2>",
             "text_style": "h3",
             "paragraph_font_size": "normal",
             "font_weight": 400,
-            "alignment": "left",
-            "alignment_mobile": "left",
+            "alignment": "center",
+            "alignment_mobile": "center",
             "show_read_more": false,
             "read_more_length": 50,
             "read_more_text": "Read more",
@@ -4529,80 +3548,22 @@
           },
           "blocks": {}
         },
-        "p": {
-          "type": "text",
-          "settings": {
-            "show_on_display": "desktop_and_mobile",
-            "text": "<p>We sell one thing and we know it well: an insulated, raised shelter for cats who live or sleep outside in the UK. It's the shelter we'd give our own cat — no gimmicks, no heating pad to forget about, no claims we can't back. One size, one colour, honest delivery times, and a free guide to help even a wary cat adopt it.</p>",
-            "text_style": "paragraph",
-            "paragraph_font_size": "large",
-            "font_weight": 400,
-            "alignment": "left",
-            "alignment_mobile": "left",
-            "show_read_more": false,
-            "read_more_length": 50,
-            "read_more_text": "Read more",
-            "read_less_text": "Read less",
-            "truncate": false,
-            "truncate_length": 2,
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "additional_class": ""
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "h2",
-        "p"
-      ],
-      "settings": {
-        "show_on_display": "desktop_and_mobile",
-        "color_scheme": "scheme-1",
-        "wrap_in_card": false,
-        "color_scheme_card": "",
-        "section_width": "normal",
-        "layout_type": "flex",
-        "layout_flex_direction_desktop": "column",
-        "layout_grid_columns_desktop": 3,
-        "layout_gap_desktop": 10,
-        "layout_wrap_desktop": "nowrap",
-        "layout_flex_justify_desktop": "flex-start",
-        "layout_flex_align_items_desktop": "flex-start",
-        "same_as_desktop": true,
-        "layout_flex_direction_mobile": "column",
-        "layout_gap_mobile": 10,
-        "layout_wrap_mobile": "nowrap",
-        "layout_flex_justify_mobile": "flex-start",
-        "layout_flex_align_items_mobile": "flex-start",
-        "layout_grid_columns_mobile": 1,
-        "padding_top": 50,
-        "padding_bottom": 20,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "anchor_id": "",
-        "additional_class": ""
-      }
-    },
-    "newsletter": {
-      "type": "custom-section",
-      "blocks": {
-        "nl": {
+        "btn": {
           "type": "group",
           "settings": {
             "show_on_display": "desktop_and_mobile",
-            "wrap_in_card": true,
+            "wrap_in_card": false,
             "card_link": "",
-            "color_scheme": "scheme-2",
+            "color_scheme": "",
             "show_card_border": false,
             "layout_type": "flex",
             "width_desktop": 100,
             "layout_direction_desktop": "column",
             "layout_grid_columns_desktop": 3,
-            "layout_gap_desktop": 10,
+            "layout_gap_desktop": 12,
             "layout_wrap_desktop": "nowrap",
-            "layout_justify_desktop": "flex-start",
-            "layout_align_items_desktop": "center",
+            "layout_justify_desktop": "center",
+            "layout_align_items_desktop": "flex-start",
             "same_as_desktop": false,
             "width_mobile": 100,
             "layout_direction_mobile": "column",
@@ -4611,86 +3572,26 @@
             "layout_wrap_mobile": "nowrap",
             "layout_justify_mobile": "flex-start",
             "layout_align_items_mobile": "flex-start",
-            "use_global_container_padding": true,
-            "padding_horizontal": 30,
-            "padding_vertical": 40,
+            "use_global_container_padding": false,
+            "padding_horizontal": 10,
+            "padding_vertical": 10,
             "margin_top": 0,
             "margin_bottom": 0,
             "additional_class": ""
           },
           "blocks": {
-            "h3": {
-              "type": "text",
+            "b": {
+              "type": "button",
               "settings": {
                 "show_on_display": "desktop_and_mobile",
-                "text": "<h3>Winter tips for outdoor cats</h3>",
-                "text_style": "h4",
-                "paragraph_font_size": "normal",
-                "font_weight": 400,
-                "alignment": "center",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "p": {
-              "type": "text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "text": "<p>How cold is too cold, where to place a shelter, how to help a stray trust it. One useful e-mail now and then, nothing more.</p>",
-                "text_style": "paragraph",
-                "paragraph_font_size": "normal",
-                "font_weight": 400,
-                "alignment": "center",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
-                "margin_top": 0,
-                "margin_bottom": 0,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "signup": {
-              "type": "newsletter-signup",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "newsletter_label": "Email address",
-                "tag": "newsletter",
-                "margin_top": 10,
-                "margin_bottom": 10,
-                "additional_class": ""
-              },
-              "blocks": {}
-            },
-            "note": {
-              "type": "text",
-              "settings": {
-                "show_on_display": "desktop_and_mobile",
-                "text": "<p>No spam. Unsubscribe in one click.</p>",
-                "text_style": "paragraph",
-                "paragraph_font_size": "small",
-                "font_weight": 400,
-                "alignment": "center",
-                "alignment_mobile": "left",
-                "show_read_more": false,
-                "read_more_length": 50,
-                "read_more_text": "Read more",
-                "read_less_text": "Read less",
-                "truncate": false,
-                "truncate_length": 2,
+                "link": "/products/insulated-outdoor-cat-house",
+                "open_in_new_tab": false,
+                "label": "Shop the shelter — £89, free UK delivery",
+                "button_style": "primary",
+                "button_shape": "default",
+                "icon": "none",
+                "icon_custom": "",
+                "icon_position": "end",
                 "margin_top": 0,
                 "margin_bottom": 0,
                 "additional_class": ""
@@ -4699,19 +3600,17 @@
             }
           },
           "block_order": [
-            "h3",
-            "p",
-            "signup",
-            "note"
+            "b"
           ]
         }
       },
       "block_order": [
-        "nl"
+        "h2",
+        "btn"
       ],
       "settings": {
         "show_on_display": "desktop_and_mobile",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
         "wrap_in_card": false,
         "color_scheme_card": "",
         "section_width": "normal",
@@ -4721,7 +3620,7 @@
         "layout_gap_desktop": 10,
         "layout_wrap_desktop": "nowrap",
         "layout_flex_justify_desktop": "flex-start",
-        "layout_flex_align_items_desktop": "flex-start",
+        "layout_flex_align_items_desktop": "center",
         "same_as_desktop": true,
         "layout_flex_direction_mobile": "column",
         "layout_gap_mobile": 10,
@@ -4729,7 +3628,7 @@
         "layout_flex_justify_mobile": "flex-start",
         "layout_flex_align_items_mobile": "flex-start",
         "layout_grid_columns_mobile": 1,
-        "padding_top": 30,
+        "padding_top": 60,
         "padding_bottom": 60,
         "margin_top": 0,
         "margin_bottom": 0,
@@ -4739,19 +3638,14 @@
     }
   },
   "order": [
-    "cch_head",
     "hero",
-    "ticker",
-    "spotlight",
-    "steps",
-    "reviews",
     "pain",
-    "benefits",
+    "mechanism",
+    "featured_product",
     "adopt",
     "comparison",
-    "faq",
     "reassurance",
-    "why",
-    "newsletter"
+    "faq",
+    "final_cta"
   ]
 }
