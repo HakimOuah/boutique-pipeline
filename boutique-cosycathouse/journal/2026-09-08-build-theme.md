@@ -37,6 +37,17 @@ Vérification de deux sections natives FullStack via leur schéma Liquid (`secti
 | `templates/search.json` | `3c62a0de...` → `caecf81c...` | bloc `rating_stars` retiré du `_product-card` |
 | `templates/password.json` | `e9cf34c4...` → `a9757ca3...` | bloc `powered_by_fullstack` retiré ; 3 chaînes FR restantes (titre, texte, minuterie « offre terminée ») traduites en anglais |
 
+## Correction post-écriture : handle produit
+
+Le prompt de mission donnait `/products/insulated-outdoor-cat-house-raised-water-resistant-no-electricity`
+comme URL du produit phare, mais `sitemap.md` indiquait le handle `insulated-outdoor-cat-house` et
+la vérification par `graphql_query` (`productByHandle`) a confirmé que le handle long **n'existe
+pas** — le produit réel (`gid://shopify/Product/15881611379071`, statut DRAFT) a le handle court.
+Tous les liens « Shop the shelter » (hero, tableau comparatif home + PDP, CTA final) ont été
+corrigés vers `/products/insulated-outdoor-cat-house` et les deux templates réécrits une seconde
+fois (empreintes finales : `index.json` → `1ec1c8bb...`, `product.json` → `9b588637...`). Sans
+cette correction, tous les CTA du thème auraient renvoyé une 404.
+
 ## Contraintes FullStack rencontrées et corrigées
 
 - `padding_horizontal`/`padding_vertical` < 10 refusés par le schéma (2 occurrences clampées à 10
