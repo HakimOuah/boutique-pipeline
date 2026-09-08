@@ -7,7 +7,7 @@
           "type": "_image-banner",
           "settings": {
             "media_type": "image",
-            "image": "",
+            "image": "shopify://shop_images/cch-hero.jpg",
             "source": "uploaded",
             "video_url": "",
             "color_scheme": "scheme-3",
@@ -18,10 +18,11 @@
             "banner_height_mobile": "medium",
             "layout_justify_mobile": "center",
             "layout_align_items_mobile": "flex-start",
-            "image_filter_opacity": 30,
+            "image_filter_opacity": 20,
             "image_filter_color": "#000000",
             "padding_horizontal": 10,
-            "padding_vertical": 40
+            "padding_vertical": 40,
+            "image_mobile": "shopify://shop_images/cch-hero-mobile.jpg"
           },
           "blocks": {
             "content": {

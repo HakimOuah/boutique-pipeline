@@ -11,8 +11,8 @@ No. It's insulated, not heated. The roof and door flap are lined with a reflecti
 **2. Is it waterproof?**
 The roof and door flap are water-resistant and built to shed rain, and the raised legs keep the base off wet ground. We're calling it water-resistant rather than waterproof until we've tested a sample ourselves in real UK weather.
 
-**3. What size should I choose?**
-Size L (55 × 45 × 40 cm) is our main size and the one currently in stock. Size M (50 × 40 × 36 cm) is smaller and only available when our supplier can confirm stock — check the product page for current availability.
+**3. What size is it?**
+One size for now: Large, 55 × 45 × 40 cm outside. That gives an adult cat room to turn around and curl up, with the door flap closing behind it.
 
 **4. Will it protect my cat from rain and damp?**
 Yes, that's a core part of the design: a water-resistant roof and door flap, plus raised legs that lift the shelter off wet or muddy ground, where cardboard and unlined shelters usually fail first.

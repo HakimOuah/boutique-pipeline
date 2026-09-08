@@ -56,7 +56,6 @@ No tools, no instructions to lose. The shelter opens into shape in a couple of m
 ### Dimensions & capacity
 
 - Size L: 55 × 45 × 40 cm
-- Size M: 50 × 40 × 36 cm (subject to availability)
 - Suitable for one cat comfortably [capacity to confirm on sample; not to be stated as a hard limit until tested]
 
 ---
@@ -74,7 +73,6 @@ No tools, no instructions to lose. The shelter opens into shape in a couple of m
 | Foldable | Yes, folds flat for storage |
 | Colour | Grey (Black and Green — coming soon, currently limited stock) |
 | Size L | 55 × 45 × 40 cm |
-| Size M | 50 × 40 × 36 cm (if in stock) |
 | Weight | [To confirm on sample] |
 | Power source | None — passive insulation, no electricity |
 | Care | [To confirm on sample — wipe-clean outer expected, will update after testing] |

@@ -1,0 +1,108 @@
+{
+  "id": "claude-20260908-1430-cosycathouse-lot1b",
+  "type": "generate_images",
+  "created_at": "2026-09-08T12:30:00Z",
+  "requested_by": "claude-code",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "face",
+        "fichier": "insulated-outdoor-cat-house-face.jpg"
+      },
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "situation-jardin",
+        "fichier": "insulated-outdoor-cat-house-situation-jardin.jpg"
+      },
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "chat-entree",
+        "fichier": "insulated-outdoor-cat-house-chat-entree.jpg"
+      },
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "macro-doublure",
+        "fichier": "insulated-outdoor-cat-house-macro-doublure.jpg"
+      },
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "pieds-sureleves",
+        "fichier": "insulated-outdoor-cat-house-pieds-sureleves.jpg"
+      },
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "hero",
+        "fichier": "insulated-outdoor-cat-house-hero.jpg"
+      },
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "benefice-chaleur",
+        "fichier": "insulated-outdoor-cat-house-benefice-chaleur.jpg"
+      },
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "benefice-sec",
+        "fichier": "insulated-outdoor-cat-house-benefice-sec.jpg"
+      },
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "benefice-installation",
+        "fichier": "insulated-outdoor-cat-house-benefice-installation.jpg"
+      },
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "benefice-refuge",
+        "fichier": "insulated-outdoor-cat-house-benefice-refuge.jpg"
+      },
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "carte",
+        "fichier": "insulated-outdoor-cat-house-carte.jpg"
+      }
+    ],
+    "sources": [
+      "boutique-cosycathouse/assets/source/1005010759559289/sku-gris.jpg"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+      "surcharges": "boutique-cosycathouse/BRIEF-VISUELS-CODEX-2026-09-08.md §2 (fond crème #FFF7ED, jardin britannique réaliste, chats ordinaires autorisés) et §3 (formats par slot : galerie/carte 2048×2048, hero 2048×1152, bénéfices 2048×1536) — surcharges de DA au sens de la spec §3"
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "Lire boutique-cosycathouse/BRIEF-VISUELS-CODEX-2026-09-08.md EN ENTIER. Il ne suspend aucune règle du document 15 : il ajoute des contraintes propres à ce produit. §1 décrit l'objet qui doit rester identique sur chaque image (toit deux pans à film argenté, porte carrée à rabat, fenêtre latérale, quatre pieds tubulaires noirs, tissu Oxford gris).",
+        "Bloc d'orientation : en plus du bloc impératif de la spec §4.2 (appliqué tel quel), inclure dans chaque prompt le bloc d'orientation produit du brief §2 bis (abri sur ses pieds, toit en haut, porte devant, fenêtre à droite).",
+        "Une seule source valable : sku-gris.jpg. Les fichiers sku-noir.jpg, sku-vert.jpg et le dossier 1005009960200806 ne doivent pas servir.",
+        "Aucun texte, logo, badge, note ou étoile dans l'image. Aucune promesse visuelle : ni renard, ni neige qui glisse, ni thermomètre, ni chauffage.",
+        "Chats : adultes ordinaires, un seul par image, anatomie contrôlée ; jamais de chaton, jamais deux chats dans l'abri. Mains (slot benefice-installation) : sans visage, doigts comptés.",
+        "Aucun état plié ni en cours de dépliage : ces configurations ne sont pas documentées par la source (slots retirés par rapport à l'ordre lot1)."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Contrôle de fidélité image par image contre sku-gris.jpg (brief §4.1).",
+        "Comptage pattes/yeux/queue sur chaque chat, doigts sur les mains ; régénération au moindre défaut, jamais d'inpainting.",
+        "Planche de contrôle ≥ 740 px par vignette, les 11 images côte à côte (couleur du tissu, lumière).",
+        "Hero : vérifier qu'un recadrage central 9:16 conserve produit et chat."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-cosycathouse/livraisons/visuels-lot1-2026-09-08",
+      "manifeste": "manifeste-realise.json"
+    }
+  },
+  "notes": "Lot 1b Cosy Cat House (UK), reprise du lot1 rejeté (CONFLIT_CONTRAINTE_PERMANENTE + REFERENCE_INSUFFISANTE_PLIAGE) : plus aucune suspension de règle, slots pliage retirés, 11 visuels pour les emplacements vides du thème de travail. Brief autoportant : boutique-cosycathouse/BRIEF-VISUELS-CODEX-2026-09-08.md. Source unique 800×800 : agrandissement attendu, pas un motif de rejet."
+}

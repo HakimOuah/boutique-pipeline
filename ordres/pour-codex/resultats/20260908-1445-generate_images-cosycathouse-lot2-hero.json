@@ -1,0 +1,48 @@
+{
+  "id": "claude-20260908-1445-cosycathouse-lot2-hero",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "hero",
+        "fichier": "insulated-outdoor-cat-house-hero-v2.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      },
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "hero-mobile",
+        "fichier": "insulated-outdoor-cat-house-hero-mobile.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/hero-essai1-hauteur-82pct.jpg",
+        "motif": "Hauteur abri environ 81.7 %, supérieure à 60 %."
+      },
+      {
+        "fichier": "rejected/hero-essai2-hauteur-69pct.jpg",
+        "motif": "Hauteur abri environ 68.5 %, supérieure à 60 %."
+      },
+      {
+        "fichier": "rejected/mobile-essai1-mur-net-zone-titre.jpg",
+        "motif": "Mur de brique net dans le tiers supérieur réservé au titre."
+      },
+      {
+        "fichier": "rejected/mobile-essai2-hauteur-50pct.jpg",
+        "motif": "Hauteur abri environ 50.2 %, supérieure à 45 %."
+      }
+    ],
+    "sujets_difficiles": [],
+    "dossier": "boutique-cosycathouse/livraisons/visuels-lot2-hero-2026-09-08",
+    "qa": "qa.json",
+    "prompts": "prompts.json"
+  },
+  "executed_at": "2026-09-08T12:40:40.944533+00:00",
+  "executor": "codex-2026-09-08"
+}

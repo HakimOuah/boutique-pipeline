@@ -1,0 +1,132 @@
+{
+  "id": "claude-20260908-1430-cosycathouse-lot1b",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "face",
+        "fichier": "insulated-outdoor-cat-house-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "situation-jardin",
+        "fichier": "insulated-outdoor-cat-house-situation-jardin.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "chat-entree",
+        "fichier": "insulated-outdoor-cat-house-chat-entree.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "macro-doublure",
+        "fichier": "insulated-outdoor-cat-house-macro-doublure.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "pieds-sureleves",
+        "fichier": "insulated-outdoor-cat-house-pieds-sureleves.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "hero",
+        "fichier": "insulated-outdoor-cat-house-hero.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      },
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "benefice-chaleur",
+        "fichier": "insulated-outdoor-cat-house-benefice-chaleur.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "benefice-sec",
+        "fichier": "insulated-outdoor-cat-house-benefice-sec.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "benefice-installation",
+        "fichier": "insulated-outdoor-cat-house-benefice-installation.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 3
+      },
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "benefice-refuge",
+        "fichier": "insulated-outdoor-cat-house-benefice-refuge.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "insulated-outdoor-cat-house",
+        "sku": "CCH-L-GREY",
+        "slot": "carte",
+        "fichier": "insulated-outdoor-cat-house-carte.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/hero-v1-recadrement-mobile-incomplet.jpg",
+        "motif": "Le recadrage central 9:16 coupe le produit et le chat."
+      },
+      {
+        "fichier": "rejected/hero-v2-recadrement-mobile-incomplet.jpg",
+        "motif": "Le groupe reste trop large pour le recadrage central 9:16."
+      },
+      {
+        "fichier": "rejected/installation-v1-lumiere-ensoleillee-doigts-masques.jpg",
+        "motif": "Lumière trop ensoleillée et doigts partiellement masqués."
+      },
+      {
+        "fichier": "rejected/installation-v2-doigts-masques.jpg",
+        "motif": "Des doigts masqués empêchent le comptage complet."
+      },
+      {
+        "fichier": "rejected/installation-v3-pouce-non-verifiable.jpg",
+        "motif": "Pouce de la main au premier plan non vérifiable au zoom."
+      }
+    ],
+    "sujets_difficiles": [],
+    "dossier_livraison": "boutique-cosycathouse/livraisons/visuels-lot1-2026-09-08",
+    "rapport_qa": "qa/rapport-qa.json",
+    "nombre_images_livrees": 11,
+    "nombre_generations": 16,
+    "nombre_regenerations": 5,
+    "outil": "image_gen natif, image-to-image depuis source locale unique",
+    "limites": [
+      "Images de synthèse depuis une référence fournisseur unique, pas des photographies de l’objet livré.",
+      "JPEG agrandis par Lanczos depuis sorties natives 1254×1254, 1672×941 ou 1448×1086; dimensions finales conformes, détail natif non équivalent à une photographie 2048 px.",
+      "La posture complète du chat intérieur est masquée par le produit; la source ne documente pas l’intérieur, aucun coussin ni accessoire ajouté."
+    ]
+  },
+  "executed_at": "2026-09-08T12:31:06.265804+00:00",
+  "executor": "codex-2026-09-08"
+}
