@@ -28,7 +28,7 @@ Suite du kick-off, après la validation PORTE 1 par Hakim (persona, prix 89/79 �
 
 - `product_source` du bloc produit phare de la home portait le GID du produit ; un réglage de type `product` attend le handle. Remplacé par `insulated-outdoor-cat-house`.
 - Le lien de menu « How it works » pointe sur `/#how-it-works` ; aucune section ne portait cette ancre. Ancre posée sur la section « mécanisme ».
-- Renvoi du fichier corrigé confié à un agent Sonnet (payload 70 Ko, limite du connecteur).
+- Fichier corrigé renvoyé sur le thème (agent Sonnet, payload 70 Ko) : empreinte `9d568b41…` → `794964541192394f07096de50df39974`, 70 853 octets, vérifiée par relecture.
 
 ## Relecture statique des templates (sans préview)
 
