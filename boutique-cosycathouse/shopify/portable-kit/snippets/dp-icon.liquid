@@ -1,0 +1,22 @@
+{% doc %}
+Renders an accessible decorative icon for Dropilot product support sections.
+@param {string} name - Icon name.
+@example
+{% render 'dp-icon', name: 'drop' %}
+{% enddoc %}
+
+{%- case name -%}
+  {%- when 'drop' -%}
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2S5 9.2 5 14a7 7 0 0 0 14 0c0-4.8-7-12-7-12Z"/></svg>
+  {%- when 'wrench' -%}
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14.7 6.3a5 5 0 0 0-6.5 6.5L3 18l3 3 5.2-5.2a5 5 0 0 0 6.5-6.5l-3 3-3-3 3-3Z"/></svg>
+  {%- when 'leaf' -%}
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 4C11 4 5 8 5 14c0 3 2 5 5 5 6 0 10-6 10-15Z"/><path d="M4 21c3-6 7-9 13-12"/></svg>
+  {%- when 'sparkle' -%}
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m12 3 1.5 4.5L18 9l-4.5 1.5L12 15l-1.5-4.5L6 9l4.5-1.5L12 3Z"/><path d="m19 15 .8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8L19 15Z"/></svg>
+  {%- when 'shield' -%}
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3 4 6v6c0 5 3.4 8 8 9 4.6-1 8-4 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
+  {%- else -%}
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12 4 4L19 6"/></svg>
+{%- endcase -%}
+
