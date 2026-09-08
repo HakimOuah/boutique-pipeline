@@ -1,8 +1,8 @@
 # Tuftéo — état courant
 
-**Dernière mise à jour : 08/09/2026** — cônes **18,99 €** live (104 variantes).
-Blanc DSers déjà sur `1005008288429136` SKU `01`. 16 couleurs importées,
-**Unmapped(16)**. Mère encore Wool Yarn Queen.
+**Dernière mise à jour : 08/09/2026** — cônes **18,99 €** live. 17 fiches
+couleur DSers sur `1005008288429136` (Unmapped 0). Fiche mère encore
+Wool Yarn Queen `1005006802805448`.
 [`journal/2026-09-08-prix-cones-1899-et-dsers.md`](journal/2026-09-08-prix-cones-1899-et-dsers.md).
 
 ---
@@ -118,9 +118,9 @@ Coupé trop tôt. **#1001 le 02/09 à 16:36** clôt le « 0 paiement » : toile 
 4. **Pas de hausse de budget** tant que le vert GMC tient et qu'une commande réelle a abouti.
 5. Tondeuse mappée `1005007430527466` mais stock Shopify encore à 0 — hors campagne tant
    que DSers n'a pas resynchronisé.
-6. **#1004 fil acrylique blanc** — DSers déjà sur `1005008288429136` SKU `01`
-   (stock fournisseur 4 le 08/09). PV passé à **18,99 €**. Reste : mapper les
-   16 autres couleurs + la fiche mère (pas Replace Product).
+6. **#1004 fil acrylique blanc** — 17 fiches couleur mappées
+   `1005008288429136` (SKU blanc `01`, stock 4). PV **18,99 €**. La fiche
+   mère 87 variantes est encore chez Wool Yarn Queen.
 
 ---
 

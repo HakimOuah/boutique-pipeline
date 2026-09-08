@@ -4,10 +4,10 @@ boutique: tufting
 date: 2026-09-08
 nature: intervention
 leviers: [catalogue, sourcing]
-titre: "Cônes à 18,99 € live ; 16 couleurs importées DSers, remap SKU inachevé"
+titre: "Cônes à 18,99 € live ; 17 couleurs mappées DSers, mère encore Wool Yarn Queen"
 ---
 
-# Cônes à 18,99 € — remap DSers partiel
+# Cônes à 18,99 € — remap DSers des 17 couleurs
 
 Autorisation Hakim 08/09 : passer tous les cônes à 18,99 € et remapper DSers
 vers Shop1104390131 `1005008288429136`.
@@ -84,11 +84,29 @@ Replace Product (87 SKU). Même Basic Mapping, 87 lignes.
 | Indigo | 16 |
 | Caramel | 59 |
 
+## Vérif Hakim — 08/09 après-midi
+
+Hakim : « C'est fait tout est mappé ». Constaté DSers `contact.tufteo` /
+`et0hua-w1` :
+
+| Contrôle | Valeur |
+|---|---|
+| All / AliExpress / Unmapped | **40 / 40 / 0** |
+| 17 fiches couleur, URL titre | toutes `1005008288429136` |
+| Noir SKU | `14:200006151#22 Black` |
+| Rose SKU | `14:201453457#71 pink` |
+| Blanc SKU | `14:200004889#01 White` (stock fourn. 4) |
+| Caramel SKU | `14:203372093#59 caramel` |
+| Fiche mère `fil-acrylique-tufting` | **encore** Wool Yarn Queen `1005006802805448` |
+
+Les 17 fiches individuelles routent vers le listing retenu. La mère 87
+variantes n'a pas changé de fournisseur.
+
 ## #1004
 
-Le blanc est routé vers le nouveau listing, SKU `01`. Les 16 autres
-couleurs restent unmapped : une commande sur ces fiches ne partira pas.
-La mère reste chez Wool Yarn Queen.
+Le blanc est routé vers le nouveau listing, SKU `01`. Une commande sur
+n'importe laquelle des 17 fiches couleur part chez Shop1104390131. Une
+commande sur la fiche mère part encore chez Wool Yarn Queen.
 
 ## Hors périmètre
 
