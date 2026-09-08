@@ -7,7 +7,7 @@
 **État** : FAIT, VALIDÉ HAKIM 08/09 · **Sortie** : `personas/persona-cosycathouse-2026-09-08.md` (Sarah + Barbara, pas de persona cadeau)
 
 ### T-03 — Réglages boutique (Hakim)
-**État** : FAIT PARTIEL 08/09 · Marché UK principal + présentation GBP faits par Hakim ; domaine principal cosycathouse.com ; zone « United Kingdom » avec « Free UK delivery (6-10 working days) » créée par agent (profil `141640827263`). FAIT 08/09 : mot de passe retiré, devise GBP, anglais primaire (prix £89 vérifié). **Reste** : 4 politiques à coller depuis `shopify/policies-a-coller.md` (numéro TVA à compléter).
+**État** : FAIT PARTIEL 08/09 · Marché UK principal + présentation GBP faits par Hakim ; domaine principal cosycathouse.com ; zone « United Kingdom » avec « Free UK delivery (6-10 working days) » créée par agent (profil `141640827263`). FAIT 08/09 : mot de passe retiré, devise GBP, anglais primaire (prix £89 vérifié). **Reste** : 5 politiques v2 à coller depuis `shopify/policies-a-coller.md` (placeholders TVA UK/FR, téléphone, RCS) ; **immatriculation TVA UK** à trancher (envois ≤ 135 £) ; icône Google Pay du pied de page à aligner sur Shopify Payments.
 
 ### T-04 — Échantillon (Hakim)
 **État** : COMMANDÉ 08/09 · `SAMPLE_OK` conditionne les annonces, la mention « waterproof » et les réponses FAQ « to confirm on sample ».
