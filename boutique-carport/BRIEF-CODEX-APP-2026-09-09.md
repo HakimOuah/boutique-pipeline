@@ -27,3 +27,7 @@ Livraison : dossiers `payload.sortie.dossier` de chaque ordre, manifeste `manife
 Bilan Codex : lot 2 = 43/50 livrés, lot 3 = 4/9. Rejets légitimes (plaques ou emblèmes sur les voitures, ossatures au mauvais nombre de montants, géométrie non sourcée). Les visuels des pages devis toit plat et adossé sont impossibles avec les sources actuelles (rendus Star Alu à toit cintré) : il faut des photos fournisseur des vrais modèles (voir `QUESTIONS-FOURNISSEUR.md`), pas de génération.
 
 Ordre de reprise à faire tourner dans l'app Codex : `ordres/pour-codex/inbox/20260910-0040-generate_images-sousabri-lot2b-reprises.json` (8 visuels : 7 slots du lot 2 + guide-comparatif, contraintes renforcées : plus aucun véhicule dans les slots concernés, compte des portiques écrit dans la QA). Sortie attendue : `boutique-carport/livraisons/visuels-lot2b-2026-09-10/`.
+
+## Lot 4 — réalisme (10/09, après retour de Hakim)
+
+Décision : plus aucune image sur fond studio ; tout doit ressembler à une vraie photo prise sur place (DA §2 mise à jour, prompts de la shot-list réécrits). Ordre : `ordres/pour-codex/inbox/20260910-0210-generate_images-sousabri-lot4-realisme.json` (17 visuels : 10 faces produit, 2 cartes famille, face du devis cintré, 4 montages de tentes 4x6 avec des scènes imposées différentes). Les fichiers gardent les mêmes noms et remplacent les précédents. Sortie : `boutique-carport/livraisons/visuels-lot4-2026-09-10/`. Après livraison : remplacement des médias correspondants dans Shopify (première image de chaque fiche, cartes famille de l'accueil, page devis cintré).

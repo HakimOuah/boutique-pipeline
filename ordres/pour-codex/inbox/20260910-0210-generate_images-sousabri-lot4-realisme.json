@@ -1,0 +1,166 @@
+{
+ "type": "generate_images",
+ "requested_by": "claude-code",
+ "created_at": "2026-09-10T02:10:00Z",
+ "id": "claude-20260910-0210-sousabri-lot4-realisme",
+ "notes": "Sous Abri, lot 4 : passage au réalisme photo demandé par Hakim le 10/09 (« les photos sur fond blanc ne font pas réalistes, c'est trop IA »). Remplace les 13 vues studio (10 faces produit, 2 cartes famille, face du devis cintré) par des photos de terrain, et refait les 4 montages de tentes 4x6 qui étaient identiques. Les fichiers portent les MÊMES noms que les précédents : ils les remplacent. Aucun accès boutique.",
+ "payload": {
+  "manifest": [
+   {
+    "handle": "carport-acier-thermolaque-4-5x3",
+    "sku": "SA-ACIER-450",
+    "slot": "face",
+    "fichier": "carport-acier-thermolaque-4-5x3-face.jpg"
+   },
+   {
+    "handle": "carport-aluminium-autoportant",
+    "sku": "SA-ALU-AUTO-6x6",
+    "slot": "face",
+    "fichier": "carport-aluminium-autoportant-face.jpg"
+   },
+   {
+    "handle": "carport-camping-car-aluminium",
+    "sku": "SA-ALU-CC-6x38",
+    "slot": "face",
+    "fichier": "carport-camping-car-aluminium-face.jpg"
+   },
+   {
+    "handle": "tente-garage-3x6-outsunny",
+    "sku": "SA-TG-3x6-OUT",
+    "slot": "face",
+    "fichier": "tente-garage-3x6-outsunny-face.jpg"
+   },
+   {
+    "handle": "tente-garage-4x6-portes-enroulables",
+    "sku": "SA-TG-4x6-PE",
+    "slot": "face",
+    "fichier": "tente-garage-4x6-portes-enroulables-face.jpg"
+   },
+   {
+    "handle": "tente-garage-4x6-fenetres",
+    "sku": "SA-TG-4x6-FEN",
+    "slot": "face",
+    "fichier": "tente-garage-4x6-fenetres-face.jpg"
+   },
+   {
+    "handle": "tente-garage-4x7-6-camping-car",
+    "sku": "SA-TG-4x76",
+    "slot": "face",
+    "fichier": "tente-garage-4x7-6-camping-car-face.jpg"
+   },
+   {
+    "handle": "tente-carport-fermee-2-cotes",
+    "sku": "SA-TG-FERM2",
+    "slot": "face",
+    "fichier": "tente-carport-fermee-2-cotes-face.jpg"
+   },
+   {
+    "handle": "tente-garage-mobile-3x3",
+    "sku": "SA-TG-3x3",
+    "slot": "face",
+    "fichier": "tente-garage-mobile-3x3-face.jpg"
+   },
+   {
+    "handle": "tente-garage-4x6-double-porte-volet",
+    "sku": "SA-TG-4x6-VOL",
+    "slot": "face",
+    "fichier": "tente-garage-4x6-double-porte-volet-face.jpg"
+   },
+   {
+    "handle": "sousabri-accueil",
+    "sku": "SA-ACIER-450",
+    "slot": "famille-alu",
+    "fichier": "sousabri-famille-alu.jpg"
+   },
+   {
+    "handle": "sousabri-accueil",
+    "sku": "SA-TG-3x6-OUT",
+    "slot": "famille-tentes",
+    "fichier": "sousabri-famille-tentes.jpg"
+   },
+   {
+    "handle": "devis-carport-cintre-2-pieds",
+    "sku": "SA-DEVIS-2P",
+    "slot": "face",
+    "fichier": "devis-carport-cintre-2-pieds-face.jpg"
+   },
+   {
+    "handle": "tente-garage-4x6-portes-enroulables",
+    "sku": "SA-TG-4x6-PE",
+    "slot": "montage",
+    "fichier": "tente-garage-4x6-portes-enroulables-montage.jpg"
+   },
+   {
+    "handle": "tente-garage-4x6-fenetres",
+    "sku": "SA-TG-4x6-FEN",
+    "slot": "montage",
+    "fichier": "tente-garage-4x6-fenetres-montage.jpg"
+   },
+   {
+    "handle": "tente-carport-fermee-2-cotes",
+    "sku": "SA-TG-FERM2",
+    "slot": "montage",
+    "fichier": "tente-carport-fermee-2-cotes-montage.jpg"
+   },
+   {
+    "handle": "tente-garage-4x6-double-porte-volet",
+    "sku": "SA-TG-4x6-VOL",
+    "slot": "montage",
+    "fichier": "tente-garage-4x6-double-porte-volet-montage.jpg"
+   }
+  ],
+  "sources": [
+   "boutique-carport/assets/source/1005009961706626/01.jpg",
+   "boutique-carport/assets/source/1005012344715751/01.jpg",
+   "boutique-carport/assets/source/1005012736849383/01.jpg",
+   "boutique-carport/assets/source/1005012231765595/01.png",
+   "boutique-carport/assets/source/index.json",
+   "boutique-carport/assets/source/1005011994406763/01.png",
+   "boutique-carport/assets/source/1005010670791375/01.jpg",
+   "boutique-carport/assets/source/1005012384075437/01.jpg",
+   "boutique-carport/assets/source/1005012322112744/01.jpg",
+   "boutique-carport/assets/source/1005012904297579/01.jpg",
+   "boutique-carport/assets/source/1005012942086535/01.jpg",
+   "boutique-carport/assets/source/1005013014844719/01.jpg",
+   "boutique-carport/assets/source/1005012158685405/01.jpg",
+   "boutique-carport/assets/source/1005012143140387/01.png"
+  ],
+  "da": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+   "surcharges": "boutique-carport/BRIEF-VISUELS-CODEX-2026-09-09.md §2 et §3 (face 2048×2048 fond sable #F4F1EA ; situation/detail/montage/ancrage 2048×1536 scènes de pavillon français ordinaire) — surcharges de DA au sens de la spec §3 ; DA proposée [À CONFIRMER par Hakim]"
+  },
+  "contraintes": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+   "specifiques": [
+    "Lire boutique-carport/BRIEF-VISUELS-CODEX-2026-09-09.md EN ENTIER (§1 vérité produit par source, §2 DA, §2 bis bloc d'orientation à inclurer dans chaque prompt, §3 formats, §4 QA).",
+    "Sources fabricant avec logos, téléphones, bandeaux : composer sans jamais les reproduire ; aucun texte, logo, plaque, badge, note ou étoile dans les images livrées.",
+    "Même nombre de poteaux, même forme de toit, même couleur de structure et de toile que la source ; les tentes montrées en tente de réception par le fournisseur sont remises en scène en garage (voiture ou utilitaire dessous).",
+    "Slots montage et ancrage : deux adultes ordinaires autorisés sur montage uniquement, sans visage en gros plan, sans logo ; ancrage = ce que la source permet (platine sur dalle, piquet, hauban), sans quincaillerie inventée.",
+    "Aucune promesse visuelle : pas de neige portée par une bâche, pas de grêle qui rebondit sur une toile.",
+    "RELIRE la DA §2 mise à jour dans boutique-carport/BRIEF-VISUELS-CODEX-2026-09-09.md (règles « Aucun fond studio » et « Réalisme photo obligatoire ») et les prompts réécrits dans boutique-carport/shot-list.md : plus aucun aplat uni, plus aucune ombre studio ; chaque image est une photo de terrain crédible.",
+    "Slots face et cartes famille : le produit monté, seul, sans aucun véhicule, sur un vrai sol (gravier irrégulier, enrobé usé, dalle, pelouse) devant une maison française ordinaire ; cadrage de trois quarts qui laisse lire toute la structure ; lumière naturelle avec ombres cohérentes ; micro-défauts (feuilles, flaque, trace de pneu, poussière, plis de bâche) ; rendu appareil photo 35–50 mm, grain léger. Refuser toute image qui ressemble à un rendu 3D ou à un détourage.",
+    "Même nombre de poteaux, même forme de toit, mêmes couleurs que la source (rappel), mais la scène et la lumière ne doivent PAS être identiques d'un produit à l'autre : varier maison, sol, heure et météo entre les 13 vues.",
+    "Slots montage : scènes imposées, une par produit, à respecter — tente-garage-4x6-portes-enroulables : cour en enrobé usé devant un garage en parpaings crépi, fin d'après-midi d'automne, un homme en polaire grise et une femme en chemise à carreaux, ils tiennent une traverse haute chacun d'un côté | tente-garage-4x6-fenetres : pelouse un peu jaunie avec un potager derrière, matin de printemps voilé, deux hommes d'âge mûr en t-shirt et jean, l'un à genoux qui emboîte un montant, l'autre debout qui tient l'arceau | tente-carport-fermee-2-cotes : dalle béton d'une cour de ferme rénovée, ciel de traîne après la pluie, sol encore humide, un couple de retraités en vestes légères, la femme lit la notice (aucun texte lisible) pendant que l'homme serre un raccord | tente-garage-4x6-double-porte-volet : allée en gravier clair bordée de lavande, midi d'été, ombre courte, un homme en short et casquette et une jeune femme en salopette qui lèvent ensemble le faîtage. Ossature complète et nue avec exactement le nombre de portiques et d'appuis de la source (compte écrit dans la QA), aucune bâche posée, aucun véhicule, aucun visage en gros plan, aucun texte.",
+    "Test final avant livraison : si l'image pourrait être décrite comme « produit posé sur un fond », elle est rejetée."
+   ]
+  },
+  "qa_attendue": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+   "specifiques": [
+    "Compter les poteaux et comparer à la source",
+    "Forme du toit et couleur identiques à la source",
+    "Une voiture entière tient sous l'abri sans toucher les poteaux",
+    "Aucune lettre, aucun chiffre, aucun logo",
+    "Météo présente mais crédible",
+    "Aucun aplat uni ni fond studio ; sol et arrière-plan réels avec texture",
+    "Ombres cohérentes avec une source de lumière unique et naturelle",
+    "Les 4 montages sont visiblement différents (sol, maison, lumière, personnes)",
+    "Zoom sur toute zone susceptible de porter une plaque ou un emblème ; aucun véhicule dans les slots face, carte et montage"
+   ]
+  },
+  "sortie": {
+   "dossier": "boutique-carport/livraisons/visuels-lot4-2026-09-10/",
+   "manifeste": "manifeste.json"
+  }
+ }
+}
