@@ -1,7 +1,7 @@
 # Fiche produit — Tente-carport fermée, fenêtres grillagées, doubles portes zip
 
 Mot-clé principal : carport fermé sur 2 côtés
-Meta title (≤60) : Tente-carport fermée 2 côtés, portes zip | [MARQUE]
+Meta title (≤60) : Tente-carport fermée 2 côtés, portes zip | Sous Abri
 Meta description (≤155) : Tente-carport fermée sur deux côtés, fenêtres grillagées, doubles portes zip enroulables, blanc. Cotes à confirmer avant achat, montage à deux.
 
 ---

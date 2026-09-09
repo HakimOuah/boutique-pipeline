@@ -1,7 +1,7 @@
 # Collection — Carport toit plat
 
 **Mot-clé :** carport toit plat
-**Meta title (47 car.) :** Carport toit plat aluminium — [MARQUE]
+**Meta title (47 car.) :** Carport toit plat aluminium — Sous Abri
 **Meta description (146 car.) :** Carport aluminium à toit plat, toiture polycarbonate, pour deux véhicules. Une ligne plus contemporaine qu'un toit à pente, expédié en 3 à 5 semaines.
 **H1 :** Carport toit plat
 
@@ -21,4 +21,4 @@ Avant d'installer un toit plat, vérifiez aussi l'évacuation de l'eau prévue s
 
 ## Fiches du catalogue dans cette collection
 
-- Carport aluminium 2 voitures toit plat, toiture polycarbonate — 749 €
+- Carport aluminium toit plat sur mesure, 1 ou 2 voitures — sur devis, à partir de [À DÉCIDER : prix d'appel]

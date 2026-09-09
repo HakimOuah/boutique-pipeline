@@ -1,7 +1,7 @@
 # Collection — Carport alu
 
 **Mot-clé :** carport alu
-**Meta title (52 car.) :** Carport aluminium en kit — [MARQUE]
+**Meta title (52 car.) :** Carport aluminium en kit — Sous Abri
 **Meta description (151 car.) :** Carports en aluminium à monter soi-même : 2 voitures toit plat, adossé, 1 voiture, camping-car, autoportant. Prix et délais annoncés avant l'achat.
 **H1 :** Carport aluminium
 
@@ -21,8 +21,8 @@ Les délais varient nettement selon la fiche : les modèles fabriqués à la com
 
 ## Fiches du catalogue dans cette collection
 
-- Carport aluminium 2 voitures toit plat, toiture polycarbonate — 749 €
-- Carport aluminium adossé, toit monopente — 1 199 €
-- Carport aluminium 1 voiture, toiture polycarbonate — 1 799 €
+- Carport aluminium toit plat sur mesure, 1 ou 2 voitures — sur devis, à partir de [À DÉCIDER : prix d'appel]
+- Carport aluminium adossé sur mesure, toit monopente — sur devis, à partir de [À DÉCIDER : prix d'appel]
+- Carport aluminium toit plat sur mesure, 1 voiture — sur devis, à partir de [À DÉCIDER : prix d'appel]
 - Carport camping-car aluminium, toit cintré — 1 939 €
 - Carport aluminium autoportant, toit arqué, panneaux polycarbonate — 1 199 €

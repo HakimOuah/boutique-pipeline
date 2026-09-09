@@ -1,19 +1,19 @@
-# Qui sommes-nous — [MARQUE]
+# Qui sommes-nous — Sous Abri
 
 Copy source : `boutique-carport/BRIEF-COPY.md` · `personas/persona-carport-2026-09-09.md`. Page à faible volume de recherche par nature (page de confiance, pas d'acquisition SEO) : mot-clé indicatif.
 
-**Mot-clé principal :** qui sommes-nous [MARQUE] (pas de volume de recherche propre, page de réassurance)
-**Meta title (≤60) :** Qui sommes-nous — [MARQUE] (28 car.)
-**Meta description (≤155) :** [MARQUE] sélectionne, explique et accompagne l'installation de carports et tentes-garages en France. Une boutique en ligne, pas un fabricant. (140 car.)
+**Mot-clé principal :** qui sommes-nous Sous Abri (pas de volume de recherche propre, page de réassurance)
+**Meta title (≤60) :** Qui sommes-nous — Sous Abri (28 car.)
+**Meta description (≤155) :** Sous Abri sélectionne, explique et accompagne l'installation de carports et tentes-garages en France. Une boutique en ligne, pas un fabricant. (140 car.)
 **H1 :** Qui sommes-nous
 
 ---
 
 ## Ce que nous sommes
 
-[MARQUE] est une boutique en ligne qui vend des carports et des tentes-garages en kit, livrés en France métropolitaine. Nous sélectionnons les modèles dans un catalogue de fournisseurs, nous rédigeons les fiches à partir de leurs informations réelles, et nous accompagnons la commande jusqu'au montage.
+Sous Abri est une boutique en ligne qui vend des carports et des tentes-garages en kit, livrés en France métropolitaine. Nous sélectionnons les modèles dans un catalogue de fournisseurs, nous rédigeons les fiches à partir de leurs informations réelles, et nous accompagnons la commande jusqu'au montage.
 
-[MARQUE] est exploitée par OH Ventures (SASU), 47 rue Vivienne, 75002 Paris — SIREN 103 157 251, TVA FR55103157251.
+Sous Abri est exploitée par OH Ventures (SASU), 47 rue Vivienne, 75002 Paris — SIREN 103 157 251, TVA FR55103157251.
 
 ## Pourquoi cette boutique
 

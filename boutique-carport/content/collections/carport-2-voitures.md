@@ -19,5 +19,5 @@ Le prix et le délai suivent la même logique : le carport aluminium, fabriqué 
 
 ## Fiches du catalogue dans cette collection
 
-- Carport aluminium 2 voitures toit plat, toiture polycarbonate — 749 €
+- Carport aluminium toit plat sur mesure, 1 ou 2 voitures — sur devis, à partir de [À DÉCIDER : prix d'appel]
 - Tente-garage 4 × 6 m fermée, portes enroulables, fenêtres maille — 609 €

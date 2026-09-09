@@ -1,7 +1,7 @@
 # Fiche produit — Carport aluminium autoportant
 
 **Mot-clé principal :** carport autoportant aluminium
-**Meta title (≤60) :** Carport aluminium autoportant, toit arqué | [MARQUE]
+**Meta title (≤60) :** Carport aluminium autoportant, toit arqué | Sous Abri
 **Meta description (≤155) :** Carport aluminium autoportant, toit arqué, panneaux polycarbonate, 6x6 m. Guide déclaration mairie inclus. Livré en 8 à 12 semaines.
 
 ---

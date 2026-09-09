@@ -19,8 +19,8 @@ Le connecteur Shopify de l'équipe n'a pas le droit `write_legal_policies` (règ
 
 | Placeholder | Où | Note |
 |---|---|---|
-| `[MARQUE]` | partout | Nom de marque non choisi (BRIEF-COPY.md). |
-| `[DOMAINE]` | Confidentialité, CGV, Contact | Nom de domaine non choisi. |
+| Sous Abri | partout | Marque décidée par Hakim le 09/09/2026 ; domaine sousabri.fr à acheter (.fr et .com). |
+| `sousabri.fr` | Confidentialité, CGV, Contact | Nom de domaine non choisi. |
 | `CM2C (Centre de la Médiation de la Consommation de Conciliateurs de Justice), 14 rue Saint Jean, 75017 Paris, tél. 01 89 47 00 14, <a href="https://www.cm2c.net/">https://www.cm2c.net/</a>` | CGV, Retours, Contact | La désignation d'un médiateur de la consommation agréé CECMC est **obligatoire** en France (art. L.616-1 c. consom.), contrairement au modèle UK qui pouvait dire « nous n'en avons pas ». Choisir un médiateur (secteur e-commerce / vente à distance) et ses coordonnées avant publication : sans cela, les CGV restent non conformes. |
 | Corse | Livraison | Décision Hakim 09/09 : Corse comprise dans la livraison offerte (vérifier le surcoût transporteur des fournisseurs) |
 | Garantie commerciale | Retours, CGV | Décision Hakim 09/09 : aucune garantie commerciale, garanties légales seulement. Si une garantie commerciale est décidée plus tard, compléter le paragraphe prévu ; sinon, supprimer la phrase de renvoi. |
@@ -39,7 +39,7 @@ Le connecteur Shopify de l'équipe n'a pas le droit `write_legal_policies` (règ
 
 ```html
 <h2>Politique de livraison</h2>
-<p>Cette politique s'applique à toute commande passée sur [DOMAINE]. La boutique [MARQUE] est exploitée par OH Ventures (SASU), société française, et livre en France métropolitaine.</p>
+<p>Cette politique s'applique à toute commande passée sur sousabri.fr. La boutique Sous Abri est exploitée par OH Ventures (SASU), société française, et livre en France métropolitaine.</p>
 
 <h3>Où nous livrons</h3>
 <p>France métropolitaine, Corse comprise. Nous ne livrons pas actuellement hors de France métropolitaine.</p>
@@ -82,7 +82,7 @@ Le connecteur Shopify de l'équipe n'a pas le droit `write_legal_policies` (règ
 <p>Conformément à l'article L.216-4 du code de la consommation, le produit devient sous votre responsabilité à compter du moment où vous, ou une personne que vous avez désignée (autre que le transporteur), en prenez physiquement possession.</p>
 
 <h3>Contact</h3>
-<p>[MARQUE] — OH Ventures (SASU), 47 rue Vivienne, 75002 Paris · <a href="mailto:info@ohventures.fr">info@ohventures.fr</a> · +33 7 56 82 80 94 · Réponse sous 1 jour ouvré, du lundi au vendredi.</p>
+<p>Sous Abri — OH Ventures (SASU), 47 rue Vivienne, 75002 Paris · <a href="mailto:info@ohventures.fr">info@ohventures.fr</a> · +33 7 56 82 80 94 · Réponse sous 1 jour ouvré, du lundi au vendredi.</p>
 ```
 
 ---
@@ -91,7 +91,7 @@ Le connecteur Shopify de l'équipe n'a pas le droit `write_legal_policies` (règ
 
 ```html
 <h2>Politique de retours et remboursements</h2>
-<p>Cette politique décrit votre droit légal de rétractation, les conditions de retour et les garanties qui s'appliquent à votre achat sur [DOMAINE]. Rien dans ce texte ne réduit vos droits de consommateur.</p>
+<p>Cette politique décrit votre droit légal de rétractation, les conditions de retour et les garanties qui s'appliquent à votre achat sur sousabri.fr. Rien dans ce texte ne réduit vos droits de consommateur.</p>
 
 <h3>1. Votre droit de rétractation — 14 jours</h3>
 <p>Conformément aux articles L.221-18 et suivants du code de la consommation, vous pouvez annuler votre commande sans avoir à vous justifier, à tout moment entre la commande et <strong>14 jours après la réception</strong> du produit (ou du dernier colis, si votre commande est livrée en plusieurs fois).</p>
@@ -143,7 +143,7 @@ Date : …<br>
 Signature (en cas de notification sur papier uniquement)</em></p>
 
 <h3>Contact</h3>
-<p>[MARQUE] — OH Ventures (SASU), 47 rue Vivienne, 75002 Paris · <a href="mailto:info@ohventures.fr">info@ohventures.fr</a> · +33 7 56 82 80 94 · Réponse sous 1 jour ouvré, du lundi au vendredi.</p>
+<p>Sous Abri — OH Ventures (SASU), 47 rue Vivienne, 75002 Paris · <a href="mailto:info@ohventures.fr">info@ohventures.fr</a> · +33 7 56 82 80 94 · Réponse sous 1 jour ouvré, du lundi au vendredi.</p>
 ```
 
 ---
@@ -152,10 +152,10 @@ Signature (en cas de notification sur papier uniquement)</em></p>
 
 ```html
 <h2>Politique de confidentialité</h2>
-<p>Cette politique explique quelles données personnelles [MARQUE] collecte lorsque vous visitez [DOMAINE] ou passez commande, pourquoi, et quels sont vos droits. Elle est rédigée conformément au règlement général sur la protection des données (RGPD, règlement UE 2016/679) et à la loi Informatique et Libertés du 6 janvier 1978 modifiée.</p>
+<p>Cette politique explique quelles données personnelles Sous Abri collecte lorsque vous visitez sousabri.fr ou passez commande, pourquoi, et quels sont vos droits. Elle est rédigée conformément au règlement général sur la protection des données (RGPD, règlement UE 2016/679) et à la loi Informatique et Libertés du 6 janvier 1978 modifiée.</p>
 
 <h3>1. Qui est responsable de vos données</h3>
-<p>Le responsable de traitement est <strong>OH Ventures (SASU)</strong>, 47 rue Vivienne, 75002 Paris, immatriculée sous le numéro SIREN 103 157 251, exploitant la marque [MARQUE]. Pour toute question relative à vos données : <a href="mailto:info@ohventures.fr">info@ohventures.fr</a>.</p>
+<p>Le responsable de traitement est <strong>OH Ventures (SASU)</strong>, 47 rue Vivienne, 75002 Paris, immatriculée sous le numéro SIREN 103 157 251, exploitant la marque Sous Abri. Pour toute question relative à vos données : <a href="mailto:info@ohventures.fr">info@ohventures.fr</a>.</p>
 
 <h3>2. Les données que nous collectons</h3>
 <ul>
@@ -212,10 +212,10 @@ Signature (en cas de notification sur papier uniquement)</em></p>
 
 ```html
 <h2>Conditions générales de vente</h2>
-<p>Les présentes conditions régissent tout achat effectué sur [DOMAINE]. Merci de les lire avant de commander. Passer commande vaut acceptation ; elles ne réduisent en rien vos droits de consommateur.</p>
+<p>Les présentes conditions régissent tout achat effectué sur sousabri.fr. Merci de les lire avant de commander. Passer commande vaut acceptation ; elles ne réduisent en rien vos droits de consommateur.</p>
 
 <h3>1. Qui vous vend le produit</h3>
-<p>Le vendeur est <strong>OH Ventures</strong>, société par actions simplifiée unipersonnelle (SASU) de droit français, immatriculée au registre du commerce et des sociétés de Paris sous le numéro 103 157 251 (SIREN), numéro de TVA intracommunautaire FR55103157251, dont le siège social est 47 rue Vivienne, 75002 Paris, exploitant la marque [MARQUE]. E-mail : <a href="mailto:info@ohventures.fr">info@ohventures.fr</a>. Téléphone : +33 7 56 82 80 94.</p>
+<p>Le vendeur est <strong>OH Ventures</strong>, société par actions simplifiée unipersonnelle (SASU) de droit français, immatriculée au registre du commerce et des sociétés de Paris sous le numéro 103 157 251 (SIREN), numéro de TVA intracommunautaire FR55103157251, dont le siège social est 47 rue Vivienne, 75002 Paris, exploitant la marque Sous Abri. E-mail : <a href="mailto:info@ohventures.fr">info@ohventures.fr</a>. Téléphone : +33 7 56 82 80 94.</p>
 
 <h3>2. Le produit</h3>
 <p>Nous vendons des carports et abris de véhicule en kit, à monter par vos soins. Nous décrivons chaque produit aussi précisément que possible : dimensions, matériaux et caractéristiques figurent sur la fiche produit. Les visuels sont des compositions à partir des images du fabricant ; de légers écarts de teinte ou de finition peuvent exister. L'installation d'un carport peut, selon sa surface et son emplacement, être soumise à des formalités d'urbanisme (déclaration préalable ou permis de construire) : chaque fiche produit et notre guide dédié vous orientent, mais la décision finale relève du service urbanisme de votre mairie.</p>
@@ -245,7 +245,7 @@ Signature (en cas de notification sur papier uniquement)</em></p>
 <p>En cas de difficulté, écrivez-nous à <a href="mailto:info@ohventures.fr">info@ohventures.fr</a> avec votre numéro de commande : nous accusons réception sous 1 jour ouvré et visons une résolution sous 14 jours. Conformément à l'article L.616-1 du code de la consommation, si le désaccord persiste, vous pouvez recourir gratuitement au médiateur de la consommation dont nous relevons : <strong>CM2C (Centre de la Médiation de la Consommation de Conciliateurs de Justice), 14 rue Saint Jean, 75017 Paris, tél. 01 89 47 00 14, <a href="https://www.cm2c.net/">https://www.cm2c.net/</a></strong>, joignable à [adresse à compléter] et [site internet à compléter]. La plateforme européenne de règlement en ligne des litiges ayant fermé le 20 juillet 2025, elle n'est plus disponible ; le recours au médiateur ci-dessus, ou aux tribunaux, reste ouvert.</p>
 
 <h3>11. Propriété intellectuelle</h3>
-<p>Le nom [MARQUE], son logo, ses textes et ses images appartiennent à OH Ventures ou sont utilisés sous licence. Toute reproduction sans autorisation écrite est interdite.</p>
+<p>Le nom Sous Abri, son logo, ses textes et ses images appartiennent à OH Ventures ou sont utilisés sous licence. Toute reproduction sans autorisation écrite est interdite.</p>
 
 <h3>12. Droit applicable et juridiction</h3>
 <p>Les présentes conditions sont soumises au droit français. En cas de litige, et sous réserve des règles impératives protectrices du consommateur, les tribunaux français sont compétents. Un consommateur bénéficie toujours des dispositions impératives de la loi du pays où il réside habituellement lorsqu'elles lui sont plus favorables.</p>
@@ -260,7 +260,7 @@ Signature (en cas de notification sur papier uniquement)</em></p>
 
 ```html
 <h2>Mentions légales</h2>
-<p><strong>Nom de la boutique :</strong> [MARQUE], accessible à l'adresse [DOMAINE]<br>
+<p><strong>Nom de la boutique :</strong> Sous Abri, accessible à l'adresse sousabri.fr<br>
 <strong>Éditeur :</strong> OH Ventures, société par actions simplifiée unipersonnelle (SASU) au capital de 1 000 €<br>
 <strong>Siège social :</strong> 47 rue Vivienne, 75002 Paris, France<br>
 <strong>Immatriculation :</strong> RCS Paris 103 157 251 — SIREN 103 157 251<br>
@@ -278,7 +278,7 @@ Signature (en cas de notification sur papier uniquement)</em></p>
 
 ```html
 <h2>Informations de contact</h2>
-<p><strong>[MARQUE]</strong> — OH Ventures (SASU), 47 rue Vivienne, 75002 Paris, France<br>
+<p><strong>Sous Abri</strong> — OH Ventures (SASU), 47 rue Vivienne, 75002 Paris, France<br>
 <strong>E-mail :</strong> <a href="mailto:info@ohventures.fr">info@ohventures.fr</a><br>
 <strong>Téléphone :</strong> +33 7 56 82 80 94 (du lundi au vendredi)<br>
 <strong>Réponse :</strong> sous 1 jour ouvré</p>

@@ -5,10 +5,10 @@
 - Action dominante : Ajouter au panier (fiches) ; « Voir les carports » (accueil).
 - Persona : Laurent (pavillon, voiture récente, bricoleur du dimanche) ; Jean-Pierre (camping-car) ; Karim (tente-garage, sans garage).
 - Objection principale : « faut-il déclarer / est-ce que ça augmente la taxe ? » → guide + encart sur chaque fiche ; puis vent/ancrage, montage/notice, camelote GSB, livraison lourde.
-- Offre : 15 fiches (8 carports alu/acier 749–3 099 €, 7 tentes-garages 349–749 €), livraison offerte sur rendez-vous, guides numériques déclaration + montage, pièces manquantes renvoyées sous 48 h.
+- Offre : 10 fiches à prix fixe (carport acier 1 069 €, carports alu Zhonglan 1 199–1 939 €, 7 tentes-garages 349–749 €) + 3 pages devis (carports alu sur mesure), livraison offerte sur rendez-vous, guides numériques déclaration + montage, pièces manquantes renvoyées sous 48 h.
 
 ## Catalogue
-- 15 produits (une fiche par fiche fournisseur), 11 collections SEO issues de l'arborescence de mots-clés (`boutique-carport/BRIEF-COPY.md`).
+- 10 produits à prix fixe (carport acier, 7 tentes-garages, 2 carports alu Zhonglan) + 3 pages « sur mesure, devis sous 48 h » (toit plat 1–2 voitures, adossé, cintré 2 pieds), 11 collections SEO issues de l'arborescence de mots-clés (`boutique-carport/BRIEF-COPY.md`).
 - Menu (5 entrées) : Carports aluminium · Tentes-garages · 2 voitures · Camping-car · Guides (déclaration, montage, comparatif).
 - Pied de page : Livraison & SAV · Retours · CGV · Confidentialité · Mentions légales · Contact · Qui sommes-nous.
 

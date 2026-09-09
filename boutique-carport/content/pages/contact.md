@@ -1,9 +1,9 @@
-# Contact — [MARQUE]
+# Contact — Sous Abri
 
 Copy source : `boutique-carport/BRIEF-COPY.md` (§4, chiffres réponse support et coordonnées OH Ventures).
 
-**Mot-clé principal :** contact [MARQUE] (page de service, pas d'acquisition SEO)
-**Meta title (≤60) :** Contact — [MARQUE] (21 car.)
+**Mot-clé principal :** contact Sous Abri (page de service, pas d'acquisition SEO)
+**Meta title (≤60) :** Contact — Sous Abri (21 car.)
 **Meta description (≤155) :** Une question avant ou après votre commande de carport ? Écrivez-nous ou appelez-nous, réponse sous 1 jour ouvré du lundi au vendredi. (135 car.)
 **H1 :** Contact
 
@@ -50,4 +50,4 @@ Avec ces éléments, nous pouvons répondre en une seule fois, sans aller-retour
 
 ## Images — ALT et rôle de vente
 
-1. Visuel simple du formulaire ou d'un pictogramme e-mail/téléphone — ALT « Formulaire de contact [MARQUE] » — rôle : guider vers l'action (pas de photo produit nécessaire sur cette page)
+1. Visuel simple du formulaire ou d'un pictogramme e-mail/téléphone — ALT « Formulaire de contact Sous Abri » — rôle : guider vers l'action (pas de photo produit nécessaire sur cette page)

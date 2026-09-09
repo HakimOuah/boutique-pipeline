@@ -1,7 +1,7 @@
 # Collection — Carport 1 voiture
 
 **Mot-clé :** carport 1 voiture
-**Meta title (52 car.) :** Carport 1 voiture aluminium — [MARQUE]
+**Meta title (52 car.) :** Carport 1 voiture aluminium — Sous Abri
 **Meta description (148 car.) :** Carport aluminium pour une seule voiture, toiture polycarbonate. L'emprise au sol la plus réduite du catalogue, souvent sous le seuil du permis.
 **H1 :** Carport 1 voiture
 
@@ -21,4 +21,4 @@ Ce modèle fait partie des carports fabriqués à la commande du catalogue, avec
 
 ## Fiches du catalogue dans cette collection
 
-- Carport aluminium 1 voiture, toiture polycarbonate — 1 799 €
+- Carport aluminium toit plat sur mesure, 1 voiture — sur devis, à partir de [À DÉCIDER : prix d'appel]

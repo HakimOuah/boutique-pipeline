@@ -1,7 +1,7 @@
 # Page — Garantie, livraison et SAV
 
 **Mot-clé principal :** livraison carport
-**Meta title (56 car.) :** Garantie, livraison et SAV — [MARQUE]
+**Meta title (56 car.) :** Garantie, livraison et SAV — Sous Abri
 **Meta description (154 car.) :** Livraison sur rendez-vous, délais par famille, colis manquant ou cassé, rétractation, garantie légale : ce qu'il faut savoir avant de commander.
 **H1 :** Garantie, livraison et service après-vente
 

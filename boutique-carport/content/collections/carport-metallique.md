@@ -22,4 +22,4 @@ Les deux modèles de cette collection sont expédiés depuis un stock déjà con
 ## Fiches du catalogue dans cette collection
 
 - Carport acier thermolaqué, toit tôle — 1 069 €
-- Carport toiture polycarbonate, protection UV — 749 €
+- Carport aluminium toit plat sur mesure, toiture polycarbonate — sur devis, à partir de [À DÉCIDER : prix d'appel]

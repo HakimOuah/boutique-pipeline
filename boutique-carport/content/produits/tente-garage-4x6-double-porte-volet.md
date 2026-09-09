@@ -1,7 +1,7 @@
 # Fiche produit — Tente-garage 4 × 6 m, doubles portes à volet roulant, passage traversant
 
 Mot-clé principal : carport avec porte de garage
-Meta title (≤60) : Tente-garage 4x6 m, passage traversant | [MARQUE]
+Meta title (≤60) : Tente-garage 4x6 m, passage traversant | Sous Abri
 Meta description (≤155) : Tente-garage 4 × 6 m, doubles portes à volet roulant, passage traversant, toit et côtés amovibles, blanc. Montage à deux, ancrage expliqués.
 
 ---

@@ -3,7 +3,7 @@
 Persona validé par Hakim le 09/09/2026 : `personas/persona-carport-2026-09-09.md` (lire en entier avant d'écrire ; les §0, §1 douleurs/objections/langage, §5 axe différenciant et §6 implications copywriting sont la base de tout texte). Recherche complète : `analyses/2026-09-09-carport-persona/`. Catalogue et faits produit : `boutique-carport/catalogue-source-2026-09-09.json` + tableau ci-dessous.
 
 ## Marque, ton, promesse
-- Nom de marque non choisi : écrire `[MARQUE]` partout (sera remplacé). Domaine `[DOMAINE]`. Société : OH Ventures (SASU), 47 rue Vivienne, 75002 Paris, SIREN 103 157 251, TVA FR55103157251, e-mail info@ohventures.fr, téléphone +33 7 56 82 80 94, directeur de la publication Hakim Ouahabi.
+- Nom de marque non choisi : écrire Sous Abri partout (sera remplacé). Domaine `sousabri.fr`. Société : OH Ventures (SASU), 47 rue Vivienne, 75002 Paris, SIREN 103 157 251, TVA FR55103157251, e-mail info@ohventures.fr, téléphone +33 7 56 82 80 94, directeur de la publication Hakim Ouahabi.
 - Thèse (persona §5) : *la boutique qui vend la tranquillité d'installer un carport en kit chez soi — elle dit avant l'achat s'il faut déclarer, comment l'ancrer contre le vent, combien de temps ça prend à deux et ce qui arrive le jour de la livraison, avec de vraies photos du produit monté — et assume d'être plus chère qu'une GSB parce qu'elle répond à ces questions.*
 - Ton : vouvoiement, direct, concret, registre « voisin bricoleur qui a déjà monté le sien », phrases courtes, zéro superlatif creux (« premium », « haute qualité », « robuste » sans chiffre), zéro point d'exclamation, humour léger toléré en accroche. Langage client du persona (« protégée de la grêle », « sortir au sec », « facile à monter à deux », « tout est numéroté », « fixer au sol », « moins de 20 m² », « livraison sur rendez-vous », « fait le job »).
 - Une seule action dominante par page : « Ajouter au panier » sur les fiches, « Voir les carports » en accueil, « Poser ma question » en contact.
@@ -23,7 +23,10 @@ Persona validé par Hakim le 09/09/2026 : `personas/persona-carport-2026-09-09.m
 6. Mobile-first : titres ≤ 60 caractères, paragraphes ≤ 3 lignes, listes courtes. SEO : un mot-clé principal par page (issu des mots-clés du tableau), meta title ≤ 60 caractères, meta description ≤ 155.
 7. Format de sortie : Markdown, un fichier par page, en français, avec en tête : mot-clé principal, meta title, meta description, H1, puis les sections dans l'ordre du gabarit ; les zones incertaines en `[À VÉRIFIER : …]` / `[À DÉCIDER : …]` ; à la fin, une liste « ALT et rôle de vente » des 5–6 images prévues (composées à partir de l'image fournisseur, jamais la photo AliExpress brute).
 
-## Catalogue (15 fiches, une par fiche AliExpress ; prix TTC livrés décidés par Hakim)
+## Catalogue (mise à jour 09/09 soir : 10 fiches à prix fixe + 3 pages sur devis ; voir FOURNISSEURS-DEVIS.md)
+
+Les fiches n° 1, 2, 3, 7 et 8 ci-dessous sont des fabricants sur devis : elles sont remplacées par 3 pages « sur mesure, devis sous 48 h » (`devis-carport-aluminium-toit-plat`, `devis-carport-aluminium-adosse`, `devis-carport-cintre-2-pieds`) ; leurs prix ne sont plus affichés. Les anciennes fiches sont archivées dans `content/produits/_archive-prix-fixe/`.
+
 
 | # | Handle proposé | Nom de fiche proposé | Prix | Famille / délai | Mots-clés (SEO) | Faits fournisseur connus `[O]` | Inconnues à baliser |
 |---|---|---|---|---|---|---|---|

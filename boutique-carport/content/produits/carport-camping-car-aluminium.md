@@ -1,7 +1,7 @@
 # Fiche produit — Carport camping-car aluminium
 
 **Mot-clé principal :** carport camping car alu
-**Meta title (≤60) :** Carport camping-car aluminium, toit cintré | [MARQUE]
+**Meta title (≤60) :** Carport camping-car aluminium, toit cintré | Sous Abri
 **Meta description (≤155) :** Carport camping-car aluminium, toit cintré 6x6 m. Guide déclaration mairie inclus. Fabrication à la commande, 8 à 12 semaines.
 
 ---

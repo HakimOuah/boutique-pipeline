@@ -1,4 +1,4 @@
-# Barre d'annonce, menu, pied de page et micro-copy — [MARQUE]
+# Barre d'annonce, menu, pied de page et micro-copy — Sous Abri
 
 Copy source : `boutique-carport/BRIEF-COPY.md` (§ Marque/ton/promesse, §4 chiffres, §Catalogue). Ce livrable regroupe des éléments transversaux du thème (barre d'annonce, menu, footer, panier/checkout, 404), pas une page indexée isolée : pas de mot-clé ni de meta dédiés, sauf pour la page 404 qui a son propre H1.
 
@@ -26,7 +26,7 @@ Copy source : `boutique-carport/BRIEF-COPY.md` (§ Marque/ton/promesse, §4 chif
 
 ## 2bis. Autres libellés de navigation
 
-- Lien retour accueil (logo) : [MARQUE]
+- Lien retour accueil (logo) : Sous Abri
 - Fil d'Ariane collection : Accueil / [Nom de la famille]
 - Fil d'Ariane fiche produit : Accueil / [Famille] / [Nom du produit]
 - Barre de recherche (placeholder) : Rechercher un carport
@@ -56,11 +56,11 @@ Copy source : `boutique-carport/BRIEF-COPY.md` (§ Marque/ton/promesse, §4 chif
 - Politique de confidentialité
 
 **Bloc coordonnées et société (bas de page)**
-[MARQUE] est exploitée par OH Ventures (SASU), 47 rue Vivienne, 75002 Paris — SIREN 103 157 251 — TVA FR55103157251. Directeur de la publication : Hakim Ouahabi. Contact : info@ohventures.fr — +33 7 56 82 80 94.
+Sous Abri est exploitée par OH Ventures (SASU), 47 rue Vivienne, 75002 Paris — SIREN 103 157 251 — TVA FR55103157251. Directeur de la publication : Hakim Ouahabi. Contact : info@ohventures.fr — +33 7 56 82 80 94.
 
 **Ligne moyens de paiement (sous le bloc coordonnées) :** Carte bancaire, PayPal (4× possible), Klarna (3×), Apple Pay, Shop Pay.
 
-**Mention copyright :** © [ANNÉE EN COURS] [MARQUE]. Tous droits réservés.
+**Mention copyright :** © [ANNÉE EN COURS] Sous Abri. Tous droits réservés.
 
 ---
 
@@ -75,7 +75,7 @@ Copy source : `boutique-carport/BRIEF-COPY.md` (§ Marque/ton/promesse, §4 chif
 ## 5. Micro-copy checkout
 
 - Rappel délai à l'étape livraison : « Délai selon le modèle : voir le détail sur votre fiche produit ou votre e-mail de confirmation. »
-- Étape paiement, réassurance : « Vos données de paiement sont chiffrées. Aucune donnée bancaire n'est conservée par [MARQUE]. »
+- Étape paiement, réassurance : « Vos données de paiement sont chiffrées. Aucune donnée bancaire n'est conservée par Sous Abri. »
 - Confirmation de commande (message post-achat) : « Commande reçue. Vous recevrez un e-mail avec le suivi dès l'expédition. Une question ? Écrivez-nous, réponse sous 1 jour ouvré. »
 
 ---

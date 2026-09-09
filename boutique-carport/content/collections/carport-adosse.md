@@ -1,7 +1,7 @@
 # Collection — Carport adossé
 
 **Mot-clé :** carport adossé
-**Meta title (49 car.) :** Carport adossé aluminium — [MARQUE]
+**Meta title (49 car.) :** Carport adossé aluminium — Sous Abri
 **Meta description (149 car.) :** Carport aluminium adossé à un mur, toit monopente. Moins de poteaux à ancrer, démarches d'urbanisme parfois allégées : le point avant d'acheter.
 **H1 :** Carport adossé
 
@@ -21,4 +21,4 @@ Avant de choisir ce modèle, vérifiez que le mur d'appui est porteur et suffisa
 
 ## Fiches du catalogue dans cette collection
 
-- Carport aluminium adossé, toit monopente — 1 199 €
+- Carport aluminium adossé sur mesure, toit monopente — sur devis, à partir de [À DÉCIDER : prix d'appel]

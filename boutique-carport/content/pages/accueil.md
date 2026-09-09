@@ -1,9 +1,9 @@
-# Accueil — [MARQUE]
+# Accueil — Sous Abri
 
 Copy source : `boutique-carport/BRIEF-COPY.md` · `personas/persona-carport-2026-09-09.md` (persona VALIDÉ le 09/09/2026). Structure calquée sur `boutique-cosycathouse/content/home.md` (9 sections). Sections avis/notes : **laissées vides, chasse gardée de Hakim, ne pas remplir.**
 
 **Mot-clé principal :** carport aluminium
-**Meta title (≤60) :** [MARQUE] — Carports aluminium & tentes-garages en kit (48 car.)
+**Meta title (≤60) :** Sous Abri — Carports aluminium & tentes-garages en kit (48 car.)
 **Meta description (≤155) :** Carports aluminium, acier et tentes-garages en kit livrés en France. On vous dit avant l'achat s'il faut déclarer, comment ancrer, et le jour de livraison. (154 car.)
 **H1 :** Protégez votre voiture, sans mauvaise surprise
 
@@ -67,8 +67,8 @@ Poids, nombre de colis, camion, rendez-vous, bordure de trottoir : vous savez ce
 ## 4. Produits phares par famille
 
 ### Carports aluminium (kit)
-- **Carport aluminium 2 voitures toit plat, toiture polycarbonate** — 749 € — livraison 3 à 5 semaines (expédition express depuis l'atelier du fabricant)
-- **Carport aluminium adossé, toit monopente** — 1 199 € — 8 à 12 semaines (fabrication à la commande)
+- **Carport aluminium toit plat sur mesure, 1 ou 2 voitures** — devis sous 48 h, 8 à 12 semaines (fabrication à la commande)
+- **Carport aluminium adossé sur mesure, toit monopente** — devis sous 48 h, 8 à 12 semaines (fabrication à la commande)
 - **Carport aluminium autoportant, toit arqué** — 1 199 € — 8 à 12 semaines (fabrication à la commande)
 
 ### Carport acier
@@ -111,7 +111,7 @@ Ce résumé ne remplace pas un conseil personnalisé : le service urbanisme de v
 
 | | Tente-garage (nous) | GSB / marketplace | Carport aluminium en kit (nous) | Garage en dur |
 |---|---|---|---|---|
-| Prix | 459–749 € | ~230–375 € (entrée de gamme) `[À VÉRIFIER : prix concurrents au jour de la mise en ligne]` | 749–3 099 € | Plusieurs milliers à plusieurs dizaines de milliers d'euros `[À VÉRIFIER]` |
+| Prix | 459–749 € | ~230–375 € (entrée de gamme) `[À VÉRIFIER : prix concurrents au jour de la mise en ligne]` | 1 069–1 939 € à prix fixe, sur mesure sur devis | Plusieurs milliers à plusieurs dizaines de milliers d'euros `[À VÉRIFIER]` |
 | Délai | 5 à 12 jours ouvrés | Souvent 4 à 10 jours | 3 semaines à 3 mois selon le modèle | Plusieurs mois (devis, travaux) |
 | Déclaration | Selon emprise, voir section 5 | Idem | Selon emprise, voir section 5 | Permis de construire quasi systématique |
 | Montage | À deux, quelques heures | À deux, quelques heures, notice parfois sommaire | À deux, une demi-journée à un week-end selon le modèle `[À VÉRIFIER]` | Entreprise du bâtiment |

@@ -1,7 +1,7 @@
 # Fiche produit — Tente-garage 4 × 7,6 m, acier galvanisé, parois amovibles (camping-car, caravane)
 
 Mot-clé principal : carport caravane
-Meta title (≤60) : Tente-garage 4x7,6 m camping-car, acier galvanisé | [MARQUE]
+Meta title (≤60) : Tente-garage 4x7,6 m camping-car, acier galvanisé | Sous Abri
 Meta description (≤155) : Tente-garage 4 × 7,6 m pour camping-car ou caravane, structure acier galvanisé, parois amovibles. Hauteur de passage à vérifier avant achat.
 
 ---

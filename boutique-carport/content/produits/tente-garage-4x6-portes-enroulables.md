@@ -1,7 +1,7 @@
 # Fiche produit — Tente-garage 4 × 6 m, doubles portes enroulables
 
 Mot-clé principal : carport 4x6
-Meta title (≤60) : Tente-garage 4x6 m, doubles portes enroulables | [MARQUE]
+Meta title (≤60) : Tente-garage 4x6 m, doubles portes enroulables | Sous Abri
 Meta description (≤155) : Tente-garage 4 × 6 m, doubles portes enroulables aux deux extrémités. Montage à deux, ancrage et démarche mairie expliqués avant achat.
 
 ---

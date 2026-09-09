@@ -1,7 +1,7 @@
 # Fiche produit — Tente-garage 4 × 6 m fermée, portes enroulables, fenêtres maille
 
 Mot-clé principal : carport 2 voitures fermé
-Meta title (≤60) : Tente-garage 4x6 m fermée, fenêtres maille | [MARQUE]
+Meta title (≤60) : Tente-garage 4x6 m fermée, fenêtres maille | Sous Abri
 Meta description (≤155) : Tente-garage 4 × 6 m fermée, portes enroulables et fenêtres grillagées, gris. Montage à deux, ancrage et démarche mairie expliqués avant achat.
 
 ---

@@ -1,7 +1,7 @@
 # Fiche produit — Tente de garage mobile 3 × 3 m, porte enroulable
 
 Mot-clé principal : carport fermé sur 1 côté
-Meta title (≤60) : Tente de garage mobile 3x3 m, porte enroulable | [MARQUE]
+Meta title (≤60) : Tente de garage mobile 3x3 m, porte enroulable | Sous Abri
 Meta description (≤155) : Tente de garage mobile 3 × 3 m, cadre tubulaire galvanisé, une porte enroulable, gris. Montage à deux, ancrage et démarche mairie expliqués.
 
 ---

@@ -1,9 +1,9 @@
-# FAQ — [MARQUE]
+# FAQ — Sous Abri
 
 Copy source : `boutique-carport/BRIEF-COPY.md` (règles absolues §1–6) · `personas/persona-carport-2026-09-09.md` (§0 et §6, objections classées). 30 questions groupées en 8 thèmes, dans l'ordre demandé.
 
 **Mot-clé principal :** carport sans permis de construire
-**Meta title (≤60) :** FAQ carports et tentes-garages — [MARQUE] (39 car.)
+**Meta title (≤60) :** FAQ carports et tentes-garages — Sous Abri (39 car.)
 **Meta description (≤155) :** Déclaration, dimensions, montage, ancrage, vent, livraison, retours, paiement : toutes les réponses avant de commander votre carport ou votre tente-garage. (152 car.)
 **H1 :** Questions fréquentes
 

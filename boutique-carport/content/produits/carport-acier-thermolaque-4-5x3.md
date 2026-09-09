@@ -1,7 +1,7 @@
 # Fiche produit — Carport acier thermolaqué 4,5 x 3 m
 
 **Mot-clé principal :** carport metal
-**Meta title (≤60) :** Carport acier thermolaqué 4,5x3 m, toit tôle | [MARQUE]
+**Meta title (≤60) :** Carport acier thermolaqué 4,5x3 m, toit tôle | Sous Abri
 **Meta description (≤155) :** Carport acier thermolaqué noir, 4,5 x 3 m, toit tôle. Guide déclaration mairie inclus. Livré sous 5 à 12 jours ouvrés.
 
 ---

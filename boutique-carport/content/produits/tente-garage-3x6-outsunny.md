@@ -1,7 +1,7 @@
 # Fiche produit — Tente-garage Outsunny 3 × 6 m, hauteur réglable, 6 fenêtres
 
 Mot-clé principal : carport 6x3
-Meta title (≤60) : Tente-garage 3x6 m Outsunny, hauteur réglable | [MARQUE]
+Meta title (≤60) : Tente-garage 3x6 m Outsunny, hauteur réglable | Sous Abri
 Meta description (≤155) : Tente-garage Outsunny 3 × 6 m, hauteur réglable sur 4 niveaux, cadre acier galvanisé. Montage à deux, ancrage et déclaration expliqués avant achat.
 
 ---
