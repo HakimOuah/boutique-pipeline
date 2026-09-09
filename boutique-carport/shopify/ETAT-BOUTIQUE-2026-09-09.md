@@ -1,10 +1,18 @@
-# État de la boutique Shopify Sous Abri (zpeubn-i2) — 09/09/2026, soir
+# État de la boutique Shopify Sous Abri (zpeubn-i2 → sousabri.fr) — 09/09/2026, nuit
 
-Fait par l'API (connecteur reconnecté) :
-- Catalogue : 12 collections (11 SEO + « Tentes-garages » pour le menu), 10 produits en BROUILLON aux prix décidés, 10 pages (8 créées, contact et FAQ réécrites). IDs : `ids-crees.json`.
-- Menus : principal (Carports aluminium · Tentes-garages · 2 voitures · Camping-car · Sur mesure ▸ 3 pages devis · Guides ▸ 3 guides + FAQ) et pied de page (Livraison/SAV, Retours, CGV, Confidentialité, Mentions légales, Qui sommes-nous, Contact).
-- Livraison : zone « France », méthode « Livraison offerte (sur rendez-vous, 5 jours ouvrés à 12 semaines selon le produit) » à 0 €. Marché principal « France » (fait par Hakim).
-- Nettoyage Cosy Cat House : produit, 2 pages (guide chat, About) et collection « Outdoor cat shelters » supprimés (contenus conservés dans git).
+Fait par l'API (connecteur) :
+- Catalogue : 12 collections (11 SEO + « Tentes-garages » pour le menu), 10 produits en BROUILLON aux prix décidés, 10 pages. IDs : `ids-crees.json`. Métachamps : 14 définitions, 124 valeurs (`metafields.json`).
+- Publication : 10 pages publiées, 12 collections publiées sur « Boutique en ligne » (publication 352235487615). Produits : toujours DRAFT (le carport acier a servi de test de gabarit puis est repassé en brouillon ; il reste publié sur le canal, donc visible dès qu'il passe ACTIVE).
+- Descriptions de collections : intro seule (le texte SEO long est dans `custom.texte_seo`, rendu en bas de page par le gabarit). Images : carport-alu, tentes-garages, carport-camping-car.
+- Pages devis (3) : corps client reconstruit par `build_devis_pages.py` (`payload-devis-pages.json`), gabarit `page.devis` (formulaire de devis en Liquid, section « pourquoi un devis », FAQ devis, réassurance).
+- Menus : principal, footer, footer-boutique, footer-aide, footer-apropos. Livraison : zone France, offerte. Marché France.
+- Domaine : `zpeubn-i2.myshopify.com` redirige vers `sousabri.fr` (fait par Hakim). Boutique sous mot de passe.
+- Files : 6 visuels lot 1, hero `sousabri-hero.jpg`, 2 visuels guides, logos et favicon (`images-lot1.json`, `images-marque.json`). Médias produits : voir `medias-produits-2026-09-09.json` et le plan `plan-medias-produits.json`.
 
-Reste côté Hakim (admin) : domaine (cosycathouse.com → sousabri.fr), politiques à coller (`content/politiques/politiques-a-coller.md`, dont Mentions légales pour `/policies/legal-notice`), activation Klarna et PayPal 4×, e-mail expéditeur, logo.
-Reste côté build : thème (templates en préparation dans `theme-work/`), images (Codex lots 1c, 2, 3), publication des produits après contrôle des `[À VÉRIFIER]`, formulaire de devis.
+Thème « Sous Abri » 199781745023 (Self Made Theme, NON publié) — fichiers poussés depuis `theme-sousabri/work/` : settings_data (couleurs, polices, logo, favicon), header-group, footer-group, index, product, collection, page, page.contact, page.devis.
+- Règle apprise : un métachamp texte contenant du HTML ne passe pas par un réglage `richtext` (validation « nœuds p/ul/ol/h1-h6 » + échappement) ; on le rend via un bloc/section `custom_liquid` (`{{ product.metafields.custom.x.value }}`) avec le CSS des accordéons dans le même bloc (voir `product.json`, `page.json`, `page.devis.json`).
+- Contrôle visuel bureau fait dans Chrome (accueil, guide, contact, devis, collection, fiche produit). Contrôle mobile impossible sans mot de passe boutique ou lien de partage de prévisualisation (fenêtre Chrome non redimensionnable, iframe bloquée, Playwright bloqué par le mot de passe).
+- Prévisualisation : https://sousabri.fr/?preview_theme_id=199781745023
+
+Reste côté Hakim (admin) : politiques à coller (`content/politiques/politiques-a-coller.md`), activation Klarna + PayPal 4×, e-mail expéditeur, produit test « Abri de voiture moderne… » à 29,99 € (créé 09/09 21 h 37, ACTIF et publié, pas à nous) à supprimer ou dépublier, avis clients (section retirée de l'accueil tant qu'il n'y en a pas), lien de partage de prévisualisation pour la QA mobile.
+Reste côté build : fin du lot 2 (galeries complètes) et lot 3, contrôle des `[À VÉRIFIER]`/`[À DÉCIDER]` puis passage des produits en ACTIVE, prix d'appel des pages devis, publication du thème (par Hakim).
