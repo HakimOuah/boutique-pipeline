@@ -15,7 +15,7 @@ Un carport se pose sur un sol stable, à peu près plan, et surtout accessible e
 
 - **Terre ou pelouse** : un ancrage direct des poteaux dans le sol n'est en général pas suffisant pour tenir dans la durée. Des plots béton coulés sous chaque pied restent la solution la plus fiable, à une profondeur qui doit descendre sous la ligne de gel locale pour éviter que le mouvement du sol en hiver ne fasse bouger la structure `[À VÉRIFIER : profondeur hors gel recommandée selon votre région, à confirmer auprès d'un professionnel local]`.
 - **Dalle béton ou enrobé déjà en place** : la fixation se fait alors par platines et chevilles adaptées au support (chimiques ou mécaniques selon l'épaisseur de la dalle). C'est la configuration la plus rapide à monter, à condition que la dalle soit assez épaisse pour tenir la cheville — un point à vérifier avant de couler quoi que ce soit, un avis client sur un carport comparable rappelant qu'une cote de largeur mal anticipée « peut poser un problème et obliger à refaire du béton ».
-- **Tente-garage sur terrain meuble** : les sardines livrées d'origine avec certains modèles sont parfois jugées trop légères par les utilisateurs (« Seules les fiches, les sardines, sont camelote » selon un avis client sur un modèle comparable). Des sardines plus longues et plus robustes, complétées par des haubans tendus sur chaque angle, réduisent nettement le jeu de la structure par vent soutenu.
+- **Tente-garage sur terrain meuble** : les sardines livrées d'origine avec ce type de structure sont souvent trop courtes et trop fines pour un sol meuble. Des sardines plus longues et plus robustes, complétées par des haubans tendus sur chaque angle, réduisent nettement le jeu de la structure par vent soutenu.
 
 ## L'ancrage : ce qui protège vraiment du vent
 
@@ -27,7 +27,7 @@ Le point qui revient le plus souvent dans les retours clients sur des structures
 
 ## L'ordre de montage, à deux
 
-Le montage d'un carport ou d'une tente-garage n'est presque jamais un travail à une seule personne. Un avis client sur un modèle comparable est explicite : « il faut être deux pour réaliser un assemblage et une pose correcte », et un autre recommande même d'être trois pour les plus grands modèles. L'ordre qui revient dans les retours d'utilisateurs :
+Le montage d'un carport ou d'une tente-garage n'est presque jamais un travail à une seule personne. Comptez deux personnes pour un assemblage et une pose corrects, trois pour les plus grands modèles. L'ordre qui fonctionne :
 
 1. Assembler la structure au sol dans la mesure du possible (cadre, arceaux) avant de la lever.
 2. Fixer d'abord les pieds au sol ou aux plots, en vérifiant l'aplomb et l'équerrage avant de serrer définitivement.
@@ -39,7 +39,7 @@ Compter une durée de montage à deux personnes variable selon la taille et le t
 
 ## Les outils à prévoir
 
-Une notice jugée « très succincte » revient dans plusieurs avis clients de structures comparables, avec un reproche précis : des forets préconisés qui ne correspondent pas exactement à ceux mentionnés (« il faut des forets 8, et non 6 »). Avant de commencer, il est utile de prévoir plus que le strict nécessaire indiqué sur la notice :
+Les notices de ce type de structure sont souvent succinctes, et le diamètre de foret indiqué ne correspond pas toujours aux chevilles fournies. Avant de commencer, il est utile de prévoir plus que le strict nécessaire indiqué sur la notice :
 
 - Perceuse-visseuse avec un jeu de forets à métaux de plusieurs diamètres
 - Niveau à bulle (idéalement un niveau long, pas seulement un niveau de poche)
@@ -50,7 +50,7 @@ Une notice jugée « très succincte » revient dans plusieurs avis clients de s
 
 ## Le silicone entre les plaques de polycarbonate
 
-Sur les carports à toiture en plaques de polycarbonate, l'étanchéité entre les plaques est un point que les avis clients de structures comparables mentionnent régulièrement : « les plaques de couverture en polycarbonate sont un peu fines » pour certains modèles, et l'étanchéité aux jonctions « laisse à désirer » selon un avis, qui recommande de « compenser avec beaucoup de silicone ». Un autre avis conseille de prévoir « une à deux cartouches de silicone pour l'étanchéité » au moment du montage. Ce n'est pas un défaut caché : c'est un geste de montage à anticiper, comme on le ferait pour une verrière ou un abri de jardin en kit.
+Sur les carports à toiture en plaques de polycarbonate, l'étanchéité entre les plaques est le point faible le plus fréquent : les plaques sont fines et l'étanchéité aux jonctions « laisse à désirer » selon un avis, qui recommande de « compenser avec beaucoup de silicone ». Un autre avis conseille de prévoir « une à deux cartouches de silicone pour l'étanchéité » au moment du montage. Ce n'est pas un défaut caché : c'est un geste de montage à anticiper, comme on le ferait pour une verrière ou un abri de jardin en kit.
 
 ## Le déneigement
 
@@ -60,12 +60,12 @@ Une structure ouverte, qu'elle soit en aluminium, en acier ou en toile, n'est pa
 
 Pour les tentes-garages à portes enroulables ou à fermeture zippée, la consigne qui revient dans les retours d'expérience de structures comparables est simple : fermer systématiquement les portes avant un épisode de vent annoncé. Une bâche ou une porte laissée ouverte transforme la structure en prise au vent bien plus importante que lorsqu'elle est close, ce qui augmente le risque de déchirure ou de soulèvement au niveau des ancrages.
 
-## Erreurs vues dans les avis clients de structures comparables
+## Les erreurs les plus fréquentes
 
-- Ne pas vérifier les mesures exactes (longueur, largeur, hauteur) avant de couler une dalle ou de commander une structure : « bien préciser les mesures exactes » revient plusieurs fois dans les retours clients.
+- Ne pas vérifier les mesures exactes (longueur, largeur, hauteur) avant de couler une dalle ou de commander une structure : les cotes annoncées sont à confirmer avant tout terrassement.
 - Fixer les pieds directement sur un sol meuble sans plot béton, en pariant que le poids de la structure suffira à la stabiliser.
 - Monter la toiture avant d'avoir vérifié l'aplomb complet de la structure porteuse.
-- Sous-estimer le nombre de personnes nécessaires : la majorité des retours insistent sur un montage à deux, parfois trois pour les plus grands modèles.
+- Sous-estimer le nombre de personnes nécessaires : prévoir deux personnes, trois pour les plus grands modèles.
 - Négliger le resserrage des fixations dans les semaines suivant le montage.
 - Laisser les portes d'une tente-garage ouvertes ou mal fermées lors d'un épisode de vent.
 
