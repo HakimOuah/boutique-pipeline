@@ -17,7 +17,7 @@ Sous-titre : Carports aluminium, acier et tentes-garages en kit. On répond avan
 
 **Alternative B (RETENUE par Hakim le 09/09/2026, 46 car.) :**
 H1 : Protégez votre voiture, sans mauvaise surprise
-Sous-titre : Carports en kit et tentes-garages livrés en France métropolitaine. Photos réelles du produit monté, pas de rendu 3D.
+Sous-titre : Carports en kit et tentes-garages livrés en France métropolitaine. Chaque modèle est montré monté et en situation, avec ce qu'il faut savoir avant d'acheter.
 
 *Décision Hakim 09/09/2026 : alternative B retenue.*
 

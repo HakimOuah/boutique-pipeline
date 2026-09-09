@@ -1,29 +1,171 @@
 {
   "sections": {
     "hero": {
-      "type": "image-with-text",
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/sousabri-hero.jpg",
+            "box_align": "middle-left",
+            "box_align_mobile": "bottom-center",
+            "text_alignment": "left",
+            "text_alignment_mobile": "center",
+            "show_background": true,
+            "show_background_mobile": true,
+            "content_border_radius": 8,
+            "heading": "Protégez votre voiture, sans mauvaise surprise",
+            "hn": "h1",
+            "heading_size": "h1",
+            "subheading": "<p>Carports en kit et tentes-garages livrés en France métropolitaine. Chaque modèle est montré monté et en situation, avec ce qu'il faut savoir avant d'acheter : déclaration en mairie, ancrage, montage, livraison.</p>",
+            "primary_button_label": "Voir les carports",
+            "primary_button_url": "/collections/carport-alu",
+            "primary_secondary_style": false,
+            "secondary_button_label": "Demander un devis sur mesure",
+            "secondary_button_url": "/pages/devis-carport-aluminium-toit-plat",
+            "secondary_secondary_style": true,
+            "show_text_box": true,
+            "image_overlay_opacity": 10,
+            "remove_opacity_mobile": false,
+            "color_scheme": "background-1",
+            "decoration": "none"
+          }
+        }
+      },
+      "block_order": [
+        "slide-1"
+      ],
+      "settings": {
+        "height": "fixed",
+        "max_height": 650,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "loading": "eager",
+        "arrow_position_desktop": "left",
+        "arrow_position_mobile": "center",
+        "hide_dots": true,
+        "keep_text_on_media_mobile": false,
+        "display_as_card": false,
+        "color_scheme": "background-1",
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "reassurance": {
+      "type": "reassurance",
+      "blocks": {
+        "item-1": {
+          "type": "item",
+          "settings": {
+            "heading": "Livraison offerte",
+            "description": "<p>En France métropolitaine, Corse comprise, sur rendez-vous pour les colis lourds.</p>"
+          }
+        },
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "heading": "Rétractation 14 jours",
+            "description": "<p>Garantie légale de conformité 2 ans.</p>"
+          }
+        },
+        "item-3": {
+          "type": "item",
+          "settings": {
+            "heading": "Paiement sécurisé",
+            "description": "<p>Carte, PayPal, Apple Pay, Shop Pay.</p>"
+          }
+        },
+        "item-4": {
+          "type": "item",
+          "settings": {
+            "heading": "Réponse sous 1 jour ouvré",
+            "description": "<p>Du lundi au vendredi, par une personne, pas un robot.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2",
+        "item-3",
+        "item-4"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "hn": "h2",
+        "heading": "",
+        "content": "",
+        "content_alignment": "center",
+        "column_mobile": "2",
+        "card_style": "text-below",
+        "card_background": false,
+        "card_border": false,
+        "display_as_card": false,
+        "color_scheme": "background-2",
+        "border_radius": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "produits": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Nos abris voiture",
+        "hn": "h2",
+        "heading_size": "h1",
+        "description": "<p>Carports aluminium et acier livrés en kit, tentes-garages prêtes en une journée. Prix affichés livraison comprise.</p>",
+        "show_description": true,
+        "text_alignment": "left",
+        "collection": "frontpage",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "columns_tablet": 3,
+        "columns_mobile": "2",
+        "enable_desktop_slider": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "product_title_type": "h3",
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "display_as_card": false,
+        "color_scheme": "background-1",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "manifeste": {
+      "type": "rich-text",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Protégez votre voiture, sans mauvaise surprise",
-            "background_heading": false,
-            "heading_size": "h0",
-            "hn": "h1"
+            "heading": "La boutique qui vous dit tout avant l'achat",
+            "heading_size": "h1",
+            "hn": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Carports en kit et tentes-garages livrés en France métropolitaine. Photos réelles du produit monté, pas de rendu 3D.</p><ul><li>Déclaration : on vous dit si votre projet en a besoin</li><li>Livraison offerte en France métropolitaine</li><li>Ancrage et montage expliqués avant l'achat</li></ul>",
-            "text_style": "body"
+            "text": "<p>Un carport se choisit avec trois questions : a-t-on le droit de le poser, va-t-il tenir au vent, combien de temps prend le montage. Une fiche de grande surface n'y répond pas. Chez Sous Abri, chaque fiche indique l'emprise au sol et la démarche en mairie, ce qui est fourni pour l'ancrage, la durée de montage à deux quand elle est connue, et comment se passe la livraison d'un colis lourd.</p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Voir les carports",
-            "button_link": "/collections/carport-alu"
+            "button_label": "Faut-il déclarer votre carport ?",
+            "button_link": "/pages/guide-declaration-carport",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": true
           }
         }
       },
@@ -33,140 +175,16 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/sousabri-hero.jpg",
-        "decoration": "none",
-        "height": "large",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_style": "normal",
-        "color_scheme": "background-1",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
-    "douleur": {
-      "type": "multicolumn",
-      "blocks": {
-        "situation-1": {
-          "type": "column",
-          "settings": {
-            "title": "Pas de garage, une allée qui ne demande qu'à servir",
-            "text": "<p>Maison avec allée ou cour, mais pas de garage libre : la voiture prend la pluie, le gel, la grêle, le pollen. Un carport en dur coûte cher et prend des mois ; une bâche et deux sardines ne tiennent pas un hiver.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "situation-2": {
-          "type": "column",
-          "settings": {
-            "title": "Une voiture à laquelle vous tenez",
-            "text": "<p>Voiture neuve, électrique, ou simplement soignée : peinture qui cuit au soleil, vernis qui part, intérieur qui souffre des UV. Vous cherchez un abri correct, pas « une cagette » posée devant chez vous.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "situation-3": {
-          "type": "column",
-          "settings": {
-            "title": "Vous hésitez à cause de la mairie",
-            "text": "<p>Avant même de choisir un modèle, la question revient : a-t-on le droit de poser ça sans déclaration ? Cette incertitude arrête plus d'acheteurs que le prix lui-même.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "situation-1",
-        "situation-2",
-        "situation-3"
-      ],
-      "settings": {
-        "title": "Votre voiture est dehors, et la prochaine grêle ne prévient pas",
-        "heading_size": "h1",
-        "button_label": "",
-        "button_link": "",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "columns_mobile": "1",
+        "border_top": false,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "narrow_text": true,
         "display_as_card": false,
-        "color_scheme": "background-1",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "mecanisme": {
-      "type": "multicolumn",
-      "blocks": {
-        "carte-1": {
-          "type": "column",
-          "settings": {
-            "title": "On répond à la question mairie avant votre achat",
-            "text": "<p>Chaque fiche indique l'emprise au sol du modèle et si une déclaration préalable ou un permis de construire s'applique en général. Un guide numérique détaille la démarche, mairie par mairie.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "carte-2": {
-          "type": "column",
-          "settings": {
-            "title": "L'ancrage et le vent, expliqués, pas éludés",
-            "text": "<p>Ce qui est fourni pour fixer le carport au sol, et ce qu'il faut prévoir selon votre sol (terre, dalle, enrobé), est écrit sur la fiche, pas découvert à l'ouverture du carton.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "carte-3": {
-          "type": "column",
-          "settings": {
-            "title": "Le montage, avec une durée réelle",
-            "text": "<p>Quand elle est connue, la durée de montage à deux personnes est indiquée, avec les outils à prévoir. Pas de promesse de « 30 minutes » non vérifiée.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "carte-4": {
-          "type": "column",
-          "settings": {
-            "title": "La livraison, mise en scène avant l'achat",
-            "text": "<p>Poids, nombre de colis, camion, rendez-vous, bordure de trottoir : vous savez ce qui vous attend le jour J, pas seulement le délai.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "carte-1",
-        "carte-2",
-        "carte-3",
-        "carte-4"
-      ],
-      "settings": {
-        "title": "Ce qu'on fait différemment",
-        "heading_size": "h1",
-        "button_label": "",
-        "button_link": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "columns_mobile": "1",
-        "display_as_card": true,
         "color_scheme": "background-2",
         "margin_top": 0,
         "margin_bottom": 0,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 56,
+        "padding_bottom": 56
       }
     },
     "familles": {
@@ -197,7 +215,7 @@
         "col-campingcar"
       ],
       "settings": {
-        "title": "Nos familles de carports",
+        "title": "Trouvez votre famille d'abri",
         "heading_size": "h1",
         "hn": "h2",
         "show_view_all": false,
@@ -206,18 +224,18 @@
         "columns_tablet": 3,
         "show_desktop_slider": false,
         "show_collection_title": true,
-        "collection_heading_size": "h2",
+        "collection_heading_size": "h1",
         "card_hn": "h3",
-        "overlay_opacity": 40,
-        "title_position": "middle-center",
+        "overlay_opacity": 30,
+        "title_position": "bottom-left",
         "columns_mobile": "1",
-        "show_mobile_slider": false,
+        "show_mobile_slider": true,
         "display_as_card": false,
         "color_scheme": "background-1",
         "margin_top": 0,
         "margin_bottom": 0,
-        "padding_top": 36,
-        "padding_bottom": 12
+        "padding_top": 48,
+        "padding_bottom": 24
       }
     },
     "familles-devis": {
@@ -251,8 +269,158 @@
         "color_scheme": "background-1",
         "margin_top": 0,
         "margin_bottom": 0,
-        "padding_top": 12,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 48
+      }
+    },
+    "douleur": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "caption": "Pourquoi un abri",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Votre voiture est dehors, et la prochaine grêle ne prévient pas",
+            "background_heading": false,
+            "heading_size": "h1",
+            "hn": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Maison avec allée mais pas de garage libre : la voiture prend la pluie, le gel, la grêle, le pollen. Peinture qui cuit au soleil, vernis qui part, intérieur qui souffre des UV. Un carport en dur coûte cher et prend des mois ; une bâche et deux sardines ne tiennent pas un hiver.</p>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Carport ou tente-garage : comment choisir",
+            "button_link": "/pages/comparatif-carport-tente-garage"
+          }
+        }
+      },
+      "block_order": [
+        "caption",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/sousabri-douleur-grele.jpg",
+        "decoration": "rectangle",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_style": "overlap",
+        "display_as_card": false,
+        "color_scheme": "background-1",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "mecanisme": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "caption": "Ce qu'on fait différemment",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Aucune mauvaise surprise à l'ouverture du carton",
+            "background_heading": false,
+            "heading_size": "h1",
+            "hn": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>La question mairie</strong> : l'emprise au sol et la démarche (déclaration ou permis) sont sur chaque fiche.</li><li><strong>L'ancrage et le vent</strong> : ce qui est fourni et ce qu'il faut prévoir selon votre sol.</li><li><strong>Le montage</strong> : une durée réelle à deux personnes quand elle est connue, avec les outils.</li><li><strong>La livraison</strong> : poids, nombre de colis, camion et rendez-vous expliqués avant la commande.</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Lire le guide montage et ancrage",
+            "button_link": "/pages/guide-montage-ancrage"
+          }
+        }
+      },
+      "block_order": [
+        "caption",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/sousabri-guide-montage.jpg",
+        "decoration": "rectangle",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_style": "overlap",
+        "display_as_card": false,
+        "color_scheme": "background-1",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 24,
+        "padding_bottom": 48
+      }
+    },
+    "tentes": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Tentes-garages : à l'abri dès ce week-end",
+        "hn": "h2",
+        "heading_size": "h1",
+        "description": "<p>Cadre acier et bâche, de 3 × 3 m à 4 × 7,6 m, expédiées en 5 à 12 jours ouvrés. Un abri d'appoint, présenté comme tel.</p>",
+        "show_description": true,
+        "text_alignment": "left",
+        "collection": "tentes-garages",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_tablet": 3,
+        "columns_mobile": "2",
+        "enable_desktop_slider": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "product_title_type": "h3",
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "display_as_card": false,
+        "color_scheme": "background-2",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "declarer": {
@@ -292,11 +460,11 @@
         "content_alignment": "center",
         "narrow_text": true,
         "display_as_card": false,
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "margin_top": 0,
         "margin_bottom": 0,
-        "padding_top": 40,
-        "padding_bottom": 40
+        "padding_top": 56,
+        "padding_bottom": 56
       }
     },
     "comparaison": {
@@ -310,12 +478,12 @@
         "heading_col_1": "Sous Abri",
         "heading_col_2": "Grande surface de bricolage",
         "display_as_card": false,
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "border_radius": 0,
         "margin_top": 0,
         "margin_bottom": 0,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 48,
+        "padding_bottom": 48
       },
       "blocks": {
         "row-1": {
@@ -366,63 +534,6 @@
         "row-4",
         "row-5"
       ]
-    },
-    "reassurance": {
-      "type": "reassurance",
-      "blocks": {
-        "item-1": {
-          "type": "item",
-          "settings": {
-            "heading": "Livraison offerte",
-            "description": "<p>En France métropolitaine, Corse comprise, sur rendez-vous pour les colis lourds.</p>"
-          }
-        },
-        "item-2": {
-          "type": "item",
-          "settings": {
-            "heading": "Rétractation 14 jours",
-            "description": "<p>Garantie légale de conformité 2 ans.</p>"
-          }
-        },
-        "item-3": {
-          "type": "item",
-          "settings": {
-            "heading": "Paiement sécurisé",
-            "description": "<p>Carte, PayPal, Apple Pay, Shop Pay.</p>"
-          }
-        },
-        "item-4": {
-          "type": "item",
-          "settings": {
-            "heading": "Réponse sous 1 jour ouvré",
-            "description": "<p>Du lundi au vendredi, par une personne, pas un robot.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item-1",
-        "item-2",
-        "item-3",
-        "item-4"
-      ],
-      "settings": {
-        "heading_size": "h1",
-        "hn": "h2",
-        "heading": "Nos garanties",
-        "content": "",
-        "content_alignment": "center",
-        "column_mobile": "2",
-        "card_style": "text-below",
-        "card_background": true,
-        "card_border": true,
-        "display_as_card": false,
-        "color_scheme": "background-1",
-        "border_radius": 0,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     },
     "faq": {
       "type": "faq",
@@ -485,8 +596,8 @@
         "color_scheme": "background-1",
         "margin_top": 0,
         "margin_bottom": 0,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "cta_final": {
@@ -529,13 +640,16 @@
   },
   "order": [
     "hero",
-    "douleur",
-    "mecanisme",
+    "reassurance",
+    "produits",
+    "manifeste",
     "familles",
     "familles-devis",
+    "douleur",
+    "mecanisme",
+    "tentes",
     "declarer",
     "comparaison",
-    "reassurance",
     "faq",
     "cta_final"
   ]

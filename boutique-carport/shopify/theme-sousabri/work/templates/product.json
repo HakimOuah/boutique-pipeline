@@ -39,12 +39,6 @@
             "compare_price_font_weight": "normal"
           }
         },
-        "puces-reassurance": {
-          "type": "rich_text",
-          "settings": {
-            "text": "<ul><li>Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds</li><li>Rétractation 14 jours, garantie légale de conformité 2 ans</li><li>Paiement sécurisé (carte, PayPal, Apple Pay, Shop Pay)</li><li>Guide numérique de déclaration et de montage offert</li></ul>"
-          }
-        },
         "buy-buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -66,7 +60,47 @@
         "accordeons": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%- assign mf = product.metafields.custom -%}\n<style>\n.sa-acc{margin-top:8px}.sa-acc details{border-top:1px solid rgba(27,31,36,.15)}.sa-acc details:last-child{border-bottom:1px solid rgba(27,31,36,.15)}\n.sa-acc summary{cursor:pointer;padding:14px 0;font-weight:600;font-size:1.05rem;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px}\n.sa-acc summary::-webkit-details-marker{display:none}.sa-acc summary::after{content:\"+\";font-size:1.5rem;line-height:1;color:#C8552B;flex:none}\n.sa-acc details[open]>summary::after{content:\"\\2013\"}.sa-acc .sa-body{padding:0 0 16px}.sa-acc .sa-body>:first-child{margin-top:0}.sa-acc details>p{padding:0 0 16px;margin:0}\n.sa-acc table{width:100%;border-collapse:collapse;font-size:.95rem}.sa-acc td,.sa-acc th{padding:8px 6px;border-bottom:1px solid rgba(27,31,36,.1);text-align:left;vertical-align:top}\n.rte details{border-top:1px solid rgba(27,31,36,.15)}.rte details:last-of-type{border-bottom:1px solid rgba(27,31,36,.15)}.rte summary{cursor:pointer;padding:14px 0;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:12px}.rte summary::-webkit-details-marker{display:none}.rte summary::after{content:\"+\";font-size:1.5rem;line-height:1;color:#C8552B;flex:none}.rte details[open]>summary::after{content:\"\\2013\"}.rte details>p{margin:0 0 16px}\nmark.a-verifier{background:#FFE58A;padding:0 3px}.sa-lead{font-size:1.15rem}\n</style>\n<div class=\"sa-acc rte\">\n{%- if mf.specifications.value != blank -%}<details open><summary>Dimensions et caractéristiques</summary><div class=\"sa-body\">{{ mf.specifications.value }}</div></details>{%- endif -%}\n{%- if mf.declarer.value != blank -%}<details><summary>Faut-il le déclarer ?</summary><div class=\"sa-body\">{{ mf.declarer.value }}</div></details>{%- endif -%}\n{%- if mf.montage_texte.value != blank -%}<details><summary>Montage</summary><div class=\"sa-body\">{{ mf.montage_texte.value }}</div></details>{%- endif -%}\n{%- if mf.ancrage_vent.value != blank -%}<details><summary>Ancrage et vent</summary><div class=\"sa-body\">{{ mf.ancrage_vent.value }}</div></details>{%- endif -%}\n{%- if mf.ne_fait_pas.value != blank -%}<details><summary>Ce qu'il ne fait pas</summary><div class=\"sa-body\">{{ mf.ne_fait_pas.value }}</div></details>{%- endif -%}\n{%- if mf.livraison_texte.value != blank -%}<details><summary>Livraison</summary><div class=\"sa-body\">{{ mf.livraison_texte.value }}</div></details>{%- endif -%}\n{%- if mf.contenu_colis.value != blank -%}<details><summary>Contenu du colis</summary><div class=\"sa-body\">{{ mf.contenu_colis.value }}</div></details>{%- endif -%}\n</div>"
+            "custom_liquid": "{%- assign mf = product.metafields.custom -%}\n<style>\n.sa-acc{margin-top:8px}.sa-acc details{border-top:1px solid rgba(27,31,36,.15)}.sa-acc details:last-child{border-bottom:1px solid rgba(27,31,36,.15)}\n.sa-acc summary{cursor:pointer;padding:14px 0;font-weight:600;font-size:1.05rem;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px}\n.sa-acc summary::-webkit-details-marker{display:none}.sa-acc summary::after{content:\"+\";font-size:1.5rem;line-height:1;color:#C8552B;flex:none}\n.sa-acc details[open]>summary::after{content:\"–\"}.sa-acc .sa-body{padding:0 0 16px}.sa-acc .sa-body>:first-child{margin-top:0}.sa-acc details>p{padding:0 0 16px;margin:0}\n.sa-acc table{width:100%;border-collapse:collapse;font-size:.95rem}.sa-acc td,.sa-acc th{padding:8px 6px;border-bottom:1px solid rgba(27,31,36,.1);text-align:left;vertical-align:top}\n.rte details{border-top:1px solid rgba(27,31,36,.15)}.rte details:last-of-type{border-bottom:1px solid rgba(27,31,36,.15)}.rte summary{cursor:pointer;padding:14px 0;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:12px}.rte summary::-webkit-details-marker{display:none}.rte summary::after{content:\"+\";font-size:1.5rem;line-height:1;color:#C8552B;flex:none}.rte details[open]>summary::after{content:\"–\"}.rte details>p{margin:0 0 16px}\nmark.a-verifier{background:#FFE58A;padding:0 3px}.sa-lead{font-size:1.15rem}\n</style>\n<div class=\"sa-acc rte\">\n{%- if mf.specifications.value != blank -%}<details open><summary>Dimensions et caractéristiques</summary><div class=\"sa-body\">{{ mf.specifications.value }}</div></details>{%- endif -%}\n{%- if mf.declarer.value != blank -%}<details><summary>Faut-il le déclarer ?</summary><div class=\"sa-body\">{{ mf.declarer.value }}</div></details>{%- endif -%}\n{%- if mf.montage_texte.value != blank -%}<details><summary>Montage</summary><div class=\"sa-body\">{{ mf.montage_texte.value }}</div></details>{%- endif -%}\n{%- if mf.ancrage_vent.value != blank -%}<details><summary>Ancrage et vent</summary><div class=\"sa-body\">{{ mf.ancrage_vent.value }}</div></details>{%- endif -%}\n{%- if mf.ne_fait_pas.value != blank -%}<details><summary>Ce qu'il ne fait pas</summary><div class=\"sa-body\">{{ mf.ne_fait_pas.value }}</div></details>{%- endif -%}\n{%- if mf.livraison_texte.value != blank -%}<details><summary>Livraison</summary><div class=\"sa-body\">{{ mf.livraison_texte.value }}</div></details>{%- endif -%}\n{%- if mf.contenu_colis.value != blank -%}<details><summary>Contenu du colis</summary><div class=\"sa-body\">{{ mf.contenu_colis.value }}</div></details>{%- endif -%}\n</div>"
+          }
+        },
+        "reass-1": {
+          "type": "text",
+          "settings": {
+            "text": "Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds",
+            "text_style": "body",
+            "text_color": "",
+            "enable_icon": true,
+            "icon": "truck"
+          }
+        },
+        "reass-2": {
+          "type": "text",
+          "settings": {
+            "text": "Rétractation 14 jours, garantie légale de conformité 2 ans",
+            "text_style": "body",
+            "text_color": "",
+            "enable_icon": true,
+            "icon": "check_mark"
+          }
+        },
+        "reass-3": {
+          "type": "text",
+          "settings": {
+            "text": "Paiement sécurisé : carte, PayPal 4×, Klarna 3×, Apple Pay, Shop Pay",
+            "text_style": "body",
+            "text_color": "",
+            "enable_icon": true,
+            "icon": "lock"
+          }
+        },
+        "reass-4": {
+          "type": "text",
+          "settings": {
+            "text": "Guide numérique de déclaration et de montage offert",
+            "text_style": "body",
+            "text_color": "",
+            "enable_icon": true,
+            "icon": "clipboard"
           }
         }
       },
@@ -74,25 +108,28 @@
         "title",
         "sous-titre",
         "price",
-        "puces-reassurance",
         "buy-buttons",
+        "reass-1",
+        "reass-2",
+        "reass-3",
+        "reass-4",
         "accordeons"
       ],
       "settings": {
         "enable_sticky_info": true,
-        "media_size": "large",
+        "media_size": "medium",
         "media_position": "left",
         "gallery_layout": "thumbnail_slider",
-        "mobile_gallery_layout": "slider",
-        "image_ratio": "adapt",
-        "media_fit": "contain",
+        "mobile_gallery_layout": "thumbnail_slider",
+        "image_ratio": "square",
+        "media_fit": "cover",
         "image_zoom": "lightbox",
         "hide_variants": false,
         "enable_video_looping": false,
         "initial_image_behavior": "product",
         "display_card": true,
         "color_scheme": "background-1",
-        "padding_top": 36,
+        "padding_top": 24,
         "padding_bottom": 36
       }
     },
@@ -131,7 +168,7 @@
         "heading_col_1": "Sous Abri",
         "heading_col_2": "Grande surface de bricolage",
         "display_as_card": false,
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "border_radius": 0,
         "margin_top": 0,
         "margin_bottom": 0,
@@ -254,12 +291,72 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "marque": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "caption": "Un mot sur Sous Abri",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "La boutique qui vous dit tout avant l'achat",
+            "background_heading": false,
+            "heading_size": "h1",
+            "hn": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Un carport se choisit avec trois questions : a-t-on le droit de le poser, va-t-il tenir au vent, combien de temps prend le montage. Chaque fiche Sous Abri y répond avant l'achat, et dit aussi ce que le produit ne fait pas.</p>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Qui sommes-nous",
+            "button_link": "/pages/qui-sommes-nous"
+          }
+        }
+      },
+      "block_order": [
+        "caption",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/sousabri-famille-alu.jpg",
+        "decoration": "rectangle",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_style": "overlap",
+        "display_as_card": false,
+        "color_scheme": "background-1",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
     }
   },
   "order": [
     "main",
     "protege",
     "faq",
+    "marque",
     "comparaison",
     "reassurance",
     "related"
