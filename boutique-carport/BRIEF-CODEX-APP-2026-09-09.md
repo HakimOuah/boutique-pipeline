@@ -21,3 +21,9 @@ Règles qui ont fait échouer les essais précédents, à respecter absolument :
 - Image rejetée = dans `rejected/` avec motif ; jamais une image douteuse livrée en silence.
 
 Livraison : dossiers `payload.sortie.dossier` de chaque ordre, manifeste `manifeste.json` (ou `manifeste-1c.json` pour le hero) indexé handle + sku + slot, enveloppe de résultat dans `ordres/pour-codex/resultats/<nom de l'ordre>.json` (statut, manifeste réalisé, rejets, sujets difficiles). Un ordre déjà présent dans `resultats/` ne se retraite pas. Quand tu as fini un lot, écris son enveloppe avant de passer au suivant.
+
+## Reprise du 10/09 (après les lots 2 et 3)
+
+Bilan Codex : lot 2 = 43/50 livrés, lot 3 = 4/9. Rejets légitimes (plaques ou emblèmes sur les voitures, ossatures au mauvais nombre de montants, géométrie non sourcée). Les visuels des pages devis toit plat et adossé sont impossibles avec les sources actuelles (rendus Star Alu à toit cintré) : il faut des photos fournisseur des vrais modèles (voir `QUESTIONS-FOURNISSEUR.md`), pas de génération.
+
+Ordre de reprise à faire tourner dans l'app Codex : `ordres/pour-codex/inbox/20260910-0040-generate_images-sousabri-lot2b-reprises.json` (8 visuels : 7 slots du lot 2 + guide-comparatif, contraintes renforcées : plus aucun véhicule dans les slots concernés, compte des portiques écrit dans la QA). Sortie attendue : `boutique-carport/livraisons/visuels-lot2b-2026-09-10/`.

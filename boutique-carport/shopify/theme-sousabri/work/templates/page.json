@@ -18,10 +18,23 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "visuel": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{%- assign visuel = blank -%}{%- assign alt = '' -%}\n{%- case page.handle -%}\n{%- when 'guide-declaration-carport' -%}{%- assign visuel = 'sousabri-guide-declaration.jpg' -%}{%- assign alt = 'Plan de maison et mètre sur une table, préparation de la déclaration préalable' -%}\n{%- when 'guide-montage-ancrage' -%}{%- assign visuel = 'sousabri-guide-montage.jpg' -%}{%- assign alt = 'Pièces d un carport en kit posées au sol avant le montage à deux' -%}\n{%- when 'devis-carport-cintre-2-pieds' -%}{%- assign visuel = 'devis-carport-cintre-2-pieds-situation.jpg' -%}{%- assign alt = 'Carport aluminium cintré à 2 pieds devant une maison, voiture grise à l abri' -%}\n{%- endcase -%}\n{%- if visuel != blank -%}\n<div class=\"page-width\" style=\"padding-top:24px\"><img src=\"{{ visuel | file_img_url: '2048x' }}\" alt=\"{{ alt }}\" loading=\"eager\" style=\"width:100%;height:auto;border-radius:6px;display:block\"></div>\n{%- endif -%}",
+        "color_scheme": "background-1",
+        "display_as_card": false,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "styles",
+    "visuel",
     "main"
   ]
 }
