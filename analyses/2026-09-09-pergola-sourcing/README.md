@@ -22,3 +22,5 @@ Constats structurants :
 - Accessoires : store, rideau, moteur tubulaire, ruban LED trouvés en génériques ; poteau alu seul, lames de rechange, rehausse de pied et plot/platine à sceller introuvables.
 
 Lecture : la niche se vend à prix élevé mais l'approvisionnement AliExpress est fragile (fabrication à la commande, délais longs, prix à reconfirmer). Décision GO/NO-GO et éventuelle commande test = Hakim.
+
+Nettoyage de l'onglet « Pergola aluminium » (09/09/2026, demande Hakim) : 21 lignes produit sans sourcing retirées (les AUCUNE OFFRE EXPLOITABLE, substitut de taille voisine compris) et 2 collections vidées (6x4, 5x3). L'onglet passe de 65 à 42 lignes (rows 8–49), 27 lignes produit conservées. Ce dossier garde la trace des 48 lignes testées.
