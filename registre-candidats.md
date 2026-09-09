@@ -719,3 +719,12 @@ Source : [reports/recherche-produits-v2-2026-07-16.md](reports/recherche-produit
 - Arborescence : 14 collections / 39 produits uniques dans le classeur d'idées de niches (onglet Carport).
 - Sourcing AliExpress 09/09 : `analyses/2026-09-09-carport-sourcing/` — 21 OFFRE TROUVÉE, 12 FOURNISSEUR À TESTER, 19 AUCUNE OFFRE EXPLOITABLE sur 52 lignes produit. Aucun carport bois sur AliExpress ; offre réelle = tentes-garages acier (Outsunny 3×6 m expédié de France 245 €, 4×6 m depuis l'Allemagne 295–398 €), abri métal 4,5×3 m (Pologne, 579 €), carports alu + polycarbonate « personnalisables » (variantes « Consult before place », 17–76 j depuis la Chine).
 - Concurrence : GSB (Brico Dépôt, Leroy Merlin) ≈ 15 000 de requêtes de marque. Saisonnalité et sonde prix Shopping non faites.
+
+- Nettoyage de l'onglet Carport (09/09, demande Hakim) : produits sans sourcing retirés du classeur (14 mots-clés, 3 collections vidées : bois, 3 voitures aluminium, terrasse) ; l'onglet passe à 28 lignes produit. Le dossier d'analyse garde la trace des 39 produits testés.
+
+## Pergola bioclimatique / aluminium (France) — 09/09/2026
+
+- Mesure DataForSEO France (`analyses/2026-09-09-pergola-aluminium/dfs-pergola.json`) : tête « pergola bioclimatique » 74 000, « pergola bioclimatique 4x3 » 18 100, « pergola aluminium » 9 900, « pergola bioclimatique 6x4 » 3 600 → au-dessus du seuil univers ; **PASS_PREQUALIFICATION sur le volume**, concurrence, saisonnalité et sonde prix non faites.
+- Arborescence : 16 collections / 44 produits uniques (onglet « Pergola aluminium » du classeur d'idées de niches).
+- Sourcing AliExpress 09/09 : `analyses/2026-09-09-pergola-sourcing/` — 13 OFFRE TROUVÉE, 14 FOURNISSEUR À TESTER, 21 AUCUNE OFFRE EXPLOITABLE sur 48 lignes produit. Offre = ateliers chinois « personnalisables » (1 700–7 700 € livré, 17–36 j UPS ou 61–76 j sans suivi, ventes faibles, schéma « demi-prix » récurrent) ; une seule fiche à stock France (pergola 4x3 bioclimatique 1 119,86 € en 2–6 j) ; tailles hors 3x3/3x4/4x3/4x4/6x4 introuvables ; pas d'imitation bois, pas de solaire ; accessoires génériques seulement.
+- Lecture : demande forte et panier élevé, mais approvisionnement fragile (fabrication à la commande, prix à reconfirmer). GO/NO-GO et éventuelle commande test = Hakim.
