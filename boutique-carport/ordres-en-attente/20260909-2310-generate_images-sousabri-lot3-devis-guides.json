@@ -1,0 +1,100 @@
+{
+ "type": "generate_images",
+ "requested_by": "claude-code",
+ "created_at": "2026-09-09T21:05:00Z",
+ "id": "claude-20260909-2310-sousabri-lot3-devis-guides",
+ "payload": {
+  "manifest": [
+   {
+    "handle": "devis-carport-aluminium-toit-plat",
+    "sku": "SA-DEVIS-PLAT",
+    "slot": "face",
+    "fichier": "devis-carport-aluminium-toit-plat-face.jpg"
+   },
+   {
+    "handle": "devis-carport-aluminium-toit-plat",
+    "sku": "SA-DEVIS-PLAT",
+    "slot": "situation",
+    "fichier": "devis-carport-aluminium-toit-plat-situation.jpg"
+   },
+   {
+    "handle": "devis-carport-aluminium-adosse",
+    "sku": "SA-DEVIS-ADOS",
+    "slot": "face",
+    "fichier": "devis-carport-aluminium-adosse-face.jpg"
+   },
+   {
+    "handle": "devis-carport-aluminium-adosse",
+    "sku": "SA-DEVIS-ADOS",
+    "slot": "situation",
+    "fichier": "devis-carport-aluminium-adosse-situation.jpg"
+   },
+   {
+    "handle": "devis-carport-cintre-2-pieds",
+    "sku": "SA-DEVIS-2P",
+    "slot": "face",
+    "fichier": "devis-carport-cintre-2-pieds-face.jpg"
+   },
+   {
+    "handle": "devis-carport-cintre-2-pieds",
+    "sku": "SA-DEVIS-2P",
+    "slot": "situation",
+    "fichier": "devis-carport-cintre-2-pieds-situation.jpg"
+   },
+   {
+    "handle": "sousabri-guides",
+    "sku": "SA-SCENE",
+    "slot": "guide-declaration",
+    "fichier": "sousabri-guide-declaration.jpg"
+   },
+   {
+    "handle": "sousabri-guides",
+    "sku": "SA-SCENE",
+    "slot": "guide-montage",
+    "fichier": "sousabri-guide-montage.jpg"
+   },
+   {
+    "handle": "sousabri-guides",
+    "sku": "SA-SCENE",
+    "slot": "guide-comparatif",
+    "fichier": "sousabri-guide-comparatif.jpg"
+   }
+  ],
+  "sources": [
+   "boutique-carport/assets/source/1005012158685405/01.jpg",
+   "boutique-carport/assets/source/1005012143140387/01.png",
+   "boutique-carport/assets/source/1005012231765595/01.png",
+   "boutique-carport/assets/source/1005012736849383/01.jpg",
+   "boutique-carport/assets/source/1005012344715751/01.jpg",
+   "boutique-carport/assets/source/index.json"
+  ],
+  "da": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+   "surcharges": "boutique-carport/BRIEF-VISUELS-CODEX-2026-09-09.md §2 et §3 (face 2048×2048 fond sable #F4F1EA ; situation/detail/montage/ancrage 2048×1536 scènes de pavillon français ordinaire) — surcharges de DA au sens de la spec §3 ; DA proposée [À CONFIRMER par Hakim]"
+  },
+  "contraintes": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+   "specifiques": [
+    "Lire boutique-carport/BRIEF-VISUELS-CODEX-2026-09-09.md EN ENTIER (§1 vérité produit par source, §2 DA, §2 bis bloc d'orientation à inclurer dans chaque prompt, §3 formats, §4 QA).",
+    "Sources fabricant avec logos, téléphones, bandeaux : composer sans jamais les reproduire ; aucun texte, logo, plaque, badge, note ou étoile dans les images livrées.",
+    "Pages devis : les sources sont des rendus fabricant ; reprendre la matière (aluminium anthracite ou gris, polycarbonate teinté) et la forme indiquée par le brief §1 pour chaque page (toit plat 1–2 voitures ; adossé à un mur monopente ; cintré 2 pieds), pas la scène d'origine.",
+    "Guides : aucune personne identifiable, aucun texte lisible sur les plans ou notices ; objets ordinaires (mètre ruban, plan dessiné à la main, pièces de kit triées sur pelouse)."
+   ]
+  },
+  "qa_attendue": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+   "specifiques": [
+    "Compter les poteaux et comparer à la source",
+    "Forme du toit et couleur identiques à la source",
+    "Une voiture entière tient sous l'abri sans toucher les poteaux",
+    "Aucune lettre, aucun chiffre, aucun logo",
+    "Météo présente mais crédible"
+   ]
+  },
+  "sortie": {
+   "dossier": "boutique-carport/livraisons/visuels-lot3-2026-09-09/",
+   "manifeste": "manifeste.json"
+  }
+ },
+ "notes": "Sous Abri, lot 3 : 3 pages devis (face + situation) et 3 visuels de guides. Brief §3 lot 3. Aucun accès boutique."
+}
