@@ -1,10 +1,10 @@
 """Fusion sélections concurrents → liens marchands (DataForSEO sellers) → prix cible proposé → onglets.
 Usage : python3 merge_prix.py [--sellers] [--write]
   --sellers : résout les URL marchandes des fiches retenues (cache sellers.json, 0,001 $/fiche)
-  --write   : écrit L7:Q7 (en-têtes), L:O (concurrents exacts du mot-clé), P:Q (comparable de la fiche AliExpress quand elle est d'une autre famille, ex. tente-garage) et I (prix cible proposé) dans les onglets Carport et Pergola aluminium
+  --write   : écrit L7:Q7 (en-têtes), L:O (concurrents exacts du mot-clé), P:Q (comparable de la fiche AliExpress quand elle est d'une autre famille, ex. tente-garage) dans les onglets (I n'est plus écrit par ce script) Carport et Pergola aluminium
 Règle prix cible : juste sous le comparable = prix du concurrent retenu le moins cher (le client le voit aussi) moins 5 %, arrondi vers le bas au 9 inférieur (…9 € au-dessus de 100 €, …9,90 € en dessous). Non proposé si < 1,3 × prix AliExpress livré.
 """
-import json,os,sys,base64,urllib.request,time,math
+import json,os,sys,base64,urllib.request,urllib.parse,time,math
 D=os.path.dirname(os.path.abspath(__file__)); os.chdir(D)
 sys.path.insert(0,os.path.join(D,"..","..","scripts"))
 sel=[]
@@ -36,13 +36,24 @@ if "--sellers" in sys.argv:
                 elif g["status_code"] not in (20100,40601,40602): cache[pid]={"error":g["status_message"],"sellers":[]}; tasks.pop(pid)
             if not tasks: break
         json.dump(cache,open("sellers.json","w"),ensure_ascii=False,indent=1)
+org=json.load(open("organic-links.json")) if os.path.exists("organic-links.json") else {}
+dfs=json.load(open("dfs-shopping.json"))
+def shopping_url(c):
+    for q,items in dfs.items():
+        for it in items:
+            if it.get("title")==c["title"] and it.get("seller")==c["seller"] and it.get("shopping_url"): return it["shopping_url"]
+    return None
 def seller_url(c):
+    if not c.get("product_id"):
+        o=org.get(c["seller"]+" | "+c["title"],{})
+        if o.get("url") and o.get("score",0)>=3: return o["url"]
+        return shopping_url(c) or o.get("url") or "https://www.google.fr/search?udm=28&q="+urllib.parse.quote(c["title"]+" "+c["seller"])
     e=cache.get(str(c.get("product_id")),{})
     for s in e.get("sellers",[]):
         if s.get("seller_name","").lower().split(" - ")[0]==c["seller"].lower().split(" - ")[0] and s.get("url"): return s["url"].split("?srsltid")[0]
     for s in e.get("sellers",[]):
         if s.get("url"): return s["url"].split("?srsltid")[0]
-    return f"https://www.google.com/shopping/product/{c.get('product_id')}"
+    return shopping_url(c) or f"https://www.google.com/shopping/product/{c.get('product_id')}"
 def prix_cible(ref,ali):
     p=ref*0.95
     if p>=100: t=math.floor(p/10)*10-1
@@ -87,7 +98,7 @@ if "--write" in sys.argv:
                 tcs=p["tentes"]
                 vals=[[link(cs[0]) if cs else "", cs[0]["price"] if cs else "", link(cs[1]) if len(cs)>1 else "", cs[1]["price"] if len(cs)>1 else "", link(tcs[0]) if tcs else "", tcs[0]["price"] if tcs else ""]]
                 ops.append({"action":"write","sheet":onglet,"range":f"L{n}","values":vals})
-                ops.append({"action":"write","sheet":onglet,"range":f"I{n}","values":[[p["prix_cible"] if p["prix_cible"] is not None else ""]]})
+                # colonne I (prix cible) : gérée à part depuis la décision Hakim du 09/09 (max(35 %, sous concurrent), un prix par fiche Ali) — ne plus l'écraser ici
         res=g.call(ops); print(onglet,"écrit",len(ops),"ops, ok =",res.get("ok"))
         chk=g.call([{"action":"read","sheet":onglet,"range":"I8:Q60"}])["result"][0]
         bad=[(i+8,c) for i,row in enumerate(chk) for c in row if isinstance(c,str) and c.startswith("#")]
