@@ -28,7 +28,7 @@ Une structure en alliage d'aluminium au toit arqué, autoportante : pas de mur d
 **Dimensions annoncées :** 6 x 6 m
 **CTA :** Ajouter au panier
 
-**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (hors Corse `[À DÉCIDER]`), sur rendez-vous. Rétractation 14 jours. Garantie légale de conformité 2 ans.
+**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous. Rétractation 14 jours. Garantie légale de conformité 2 ans.
 
 ---
 

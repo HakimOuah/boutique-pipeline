@@ -21,10 +21,10 @@ Le connecteur Shopify de l'équipe n'a pas le droit `write_legal_policies` (règ
 |---|---|---|
 | `[MARQUE]` | partout | Nom de marque non choisi (BRIEF-COPY.md). |
 | `[DOMAINE]` | Confidentialité, CGV, Contact | Nom de domaine non choisi. |
-| `[MÉDIATEUR À DÉCIDER]` | CGV, Retours, Contact | La désignation d'un médiateur de la consommation agréé CECMC est **obligatoire** en France (art. L.616-1 c. consom.), contrairement au modèle UK qui pouvait dire « nous n'en avons pas ». Choisir un médiateur (secteur e-commerce / vente à distance) et ses coordonnées avant publication : sans cela, les CGV restent non conformes. |
-| Corse | Livraison | Le brief laisse `[À DÉCIDER]` : livraison offerte étendue à la Corse, exclue, ou avec supplément. À trancher avant publication (texte ci-dessous suppose une exclusion, à corriger sinon). |
-| `[GARANTIE COMMERCIALE : À DÉCIDER]` | Retours, CGV | Aucun chiffre de garantie commerciale n'est promis (règle du brief). Si une garantie commerciale est décidée plus tard, compléter le paragraphe prévu ; sinon, supprimer la phrase de renvoi. |
-| Paiement en plusieurs fois | CGV | `[À DÉCIDER]` — le brief indique que le marché propose du 3×/4× ; à confirmer avant d'écrire un moyen de paiement qui n'existe pas au checkout. |
+| `CM2C (Centre de la Médiation de la Consommation de Conciliateurs de Justice), 14 rue Saint Jean, 75017 Paris, tél. 01 89 47 00 14, <a href="https://www.cm2c.net/">https://www.cm2c.net/</a>` | CGV, Retours, Contact | La désignation d'un médiateur de la consommation agréé CECMC est **obligatoire** en France (art. L.616-1 c. consom.), contrairement au modèle UK qui pouvait dire « nous n'en avons pas ». Choisir un médiateur (secteur e-commerce / vente à distance) et ses coordonnées avant publication : sans cela, les CGV restent non conformes. |
+| Corse | Livraison | Décision Hakim 09/09 : Corse comprise dans la livraison offerte (vérifier le surcoût transporteur des fournisseurs) |
+| Garantie commerciale | Retours, CGV | Décision Hakim 09/09 : aucune garantie commerciale, garanties légales seulement. Si une garantie commerciale est décidée plus tard, compléter le paragraphe prévu ; sinon, supprimer la phrase de renvoi. |
+| Paiement en plusieurs fois | CGV | Décision Hakim 09/09 : PayPal 4× et Klarna 3× ; à confirmer avant d'écrire un moyen de paiement qui n'existe pas au checkout. |
 | Moyens de paiement actifs | CGV, Contact | Vérifier au moment de la mise en ligne quels moyens sont réellement actifs dans Shopify Payments (cartes, PayPal, Apple Pay, Shop Pay listés au brief) — retirer toute icône/mention d'un moyen non activé, comme le retour d'expérience Cosy Cat House sur Google Pay le rappelle. |
 | `[À VÉRIFIER : coût moyen retour]` | Retours | Estimation du coût de renvoi d'un colis volumineux (carport/tente-garage), pour informer le client avant achat sans donner un chiffre inventé. |
 | `RCS Paris 103 157 251` | Mentions légales, Contact | À confirmer que le greffe est bien celui de Paris. |
@@ -42,7 +42,7 @@ Le connecteur Shopify de l'équipe n'a pas le droit `write_legal_policies` (règ
 <p>Cette politique s'applique à toute commande passée sur [DOMAINE]. La boutique [MARQUE] est exploitée par OH Ventures (SASU), société française, et livre en France métropolitaine.</p>
 
 <h3>Où nous livrons</h3>
-<p>France métropolitaine. La Corse [À DÉCIDER : incluse / exclue / avec supplément — à préciser ici avant publication]. Nous ne livrons pas actuellement hors de France métropolitaine.</p>
+<p>France métropolitaine, Corse comprise. Nous ne livrons pas actuellement hors de France métropolitaine.</p>
 
 <h3>Le coût de la livraison</h3>
 <p>La livraison est offerte sur l'ensemble de notre catalogue, sans montant minimum d'achat. Le prix affiché sur la fiche produit est le prix final, TTC.</p>
@@ -125,7 +125,7 @@ Le connecteur Shopify de l'équipe n'a pas le droit `write_legal_policies` (règ
 <p>Indépendamment de la garantie légale de conformité, vous bénéficiez de la garantie des vices cachés prévue par les articles 1641 et suivants du code civil : si le produit présente un défaut caché qui le rend impropre à l'usage auquel il est destiné, et que vous ne l'auriez pas acheté (ou à ce prix) en le connaissant, vous pouvez demander la résolution de la vente ou une réduction du prix. Cette action doit être engagée dans les 2 ans à compter de la découverte du vice (article 1648, alinéa 1, du code civil).</p>
 
 <h3>8. Garantie commerciale</h3>
-<p>[GARANTIE COMMERCIALE : À DÉCIDER — si une garantie commerciale complémentaire est proposée, ses conditions, sa durée et ses modalités de mise en œuvre seront précisées ici. Sans décision, ne pas publier ce paragraphe ni promettre de durée chiffrée.]</p>
+<p>Aucune garantie commerciale n'est proposée en complément des garanties légales.</p>
 
 <h3>9. Exclusions légales du droit de rétractation</h3>
 <p>Le droit de rétractation ne s'applique pas aux biens confectionnés selon vos spécifications ou nettement personnalisés (article L.221-28 du code de la consommation). Si une option de personnalisation (couleur, dimension sur mesure) est proposée sur une fiche, la mention correspondante sera ajoutée ici au moment où elle existe réellement.</p>
@@ -227,10 +227,10 @@ Signature (en cas de notification sur papier uniquement)</em></p>
 <p>Passer commande constitue une offre d'achat de votre part. Nous vous envoyons un e-mail de confirmation de commande ; le contrat est formé à l'envoi de notre e-mail de confirmation d'expédition. Nous pouvons refuser ou annuler une commande en cas de suspicion de fraude, d'indisponibilité du produit ou d'adresse de livraison hors de notre zone — vous êtes alors intégralement remboursé. Conservez votre e-mail de confirmation : il constitue votre copie durable de ces conditions et de votre commande.</p>
 
 <h3>5. Paiement</h3>
-<p>Vous pouvez payer par carte (Visa, Mastercard, American Express, selon activation), PayPal, Apple Pay ou Shop Pay. Le paiement en plusieurs fois [À DÉCIDER] n'est pas garanti tant qu'il n'est pas activé au moment de la mise en ligne. Le paiement est prélevé à la commande. Toutes les transactions sont chiffrées et traitées par des prestataires de paiement certifiés ; nous ne stockons jamais vos coordonnées bancaires complètes.</p>
+<p>Vous pouvez payer par carte (Visa, Mastercard, American Express, selon activation), PayPal, Apple Pay ou Shop Pay. Le paiement en plusieurs fois est possible en 4 fois avec PayPal ou en 3 fois avec Klarna, selon les conditions de ces prestataires affichées au moment du paiement. Le paiement est prélevé à la commande. Toutes les transactions sont chiffrées et traitées par des prestataires de paiement certifiés ; nous ne stockons jamais vos coordonnées bancaires complètes.</p>
 
 <h3>6. Livraison</h3>
-<p>Nous livrons en France métropolitaine (Corse : [À DÉCIDER]), gratuitement, sur rendez-vous pour les colis volumineux. Les délais varient de 5 jours ouvrés à 12 semaines selon la famille de produit : le détail figure dans notre <a href="/policies/shipping-policy">politique de livraison</a>, avec la conduite à tenir en cas de retard, de dommage ou de pièce manquante. Le risque de perte ou de détérioration vous est transféré à la prise de possession physique du produit (article L.216-4 du code de la consommation) ; la propriété vous est transférée au complet paiement du prix.</p>
+<p>Nous livrons en France métropolitaine (Corse comprise), gratuitement, sur rendez-vous pour les colis volumineux. Les délais varient de 5 jours ouvrés à 12 semaines selon la famille de produit : le détail figure dans notre <a href="/policies/shipping-policy">politique de livraison</a>, avec la conduite à tenir en cas de retard, de dommage ou de pièce manquante. Le risque de perte ou de détérioration vous est transféré à la prise de possession physique du produit (article L.216-4 du code de la consommation) ; la propriété vous est transférée au complet paiement du prix.</p>
 
 <h3>7. Droit de rétractation et retours</h3>
 <p>Vous disposez d'un droit légal de rétractation de 14 jours à compter de la réception du produit. Les frais de retour d'un colis volumineux, en cas de changement d'avis, sont à votre charge ; ils sont à notre charge en cas de produit défectueux ou non conforme. La procédure complète, les délais et le formulaire type figurent dans notre <a href="/policies/refund-policy">politique de retours et remboursements</a>.</p>
@@ -242,7 +242,7 @@ Signature (en cas de notification sur papier uniquement)</em></p>
 <p>Sous réserve de l'article 8, notre responsabilité est engagée pour les dommages directs et prévisibles résultant d'un manquement à nos obligations, dans la limite du prix payé pour la commande concernée. Nous ne sommes pas responsables des dommages résultant d'une installation non conforme à la notice, d'un usage anormal du produit, ou de formalités d'urbanisme non accomplies par vos soins.</p>
 
 <h3>10. Réclamations et médiation</h3>
-<p>En cas de difficulté, écrivez-nous à <a href="mailto:info@ohventures.fr">info@ohventures.fr</a> avec votre numéro de commande : nous accusons réception sous 1 jour ouvré et visons une résolution sous 14 jours. Conformément à l'article L.616-1 du code de la consommation, si le désaccord persiste, vous pouvez recourir gratuitement au médiateur de la consommation dont nous relevons : <strong>[MÉDIATEUR À DÉCIDER]</strong>, joignable à [adresse à compléter] et [site internet à compléter]. La plateforme européenne de règlement en ligne des litiges ayant fermé le 20 juillet 2025, elle n'est plus disponible ; le recours au médiateur ci-dessus, ou aux tribunaux, reste ouvert.</p>
+<p>En cas de difficulté, écrivez-nous à <a href="mailto:info@ohventures.fr">info@ohventures.fr</a> avec votre numéro de commande : nous accusons réception sous 1 jour ouvré et visons une résolution sous 14 jours. Conformément à l'article L.616-1 du code de la consommation, si le désaccord persiste, vous pouvez recourir gratuitement au médiateur de la consommation dont nous relevons : <strong>CM2C (Centre de la Médiation de la Consommation de Conciliateurs de Justice), 14 rue Saint Jean, 75017 Paris, tél. 01 89 47 00 14, <a href="https://www.cm2c.net/">https://www.cm2c.net/</a></strong>, joignable à [adresse à compléter] et [site internet à compléter]. La plateforme européenne de règlement en ligne des litiges ayant fermé le 20 juillet 2025, elle n'est plus disponible ; le recours au médiateur ci-dessus, ou aux tribunaux, reste ouvert.</p>
 
 <h3>11. Propriété intellectuelle</h3>
 <p>Le nom [MARQUE], son logo, ses textes et ses images appartiennent à OH Ventures ou sont utilisés sous licence. Toute reproduction sans autorisation écrite est interdite.</p>

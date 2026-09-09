@@ -28,7 +28,7 @@ Une tente longue, pensée pour un camping-car ou une caravane — avec, avant l'
 
 **CTA : Ajouter au panier**
 
-**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (hors Corse : [À DÉCIDER]), sur rendez-vous. Garantie légale de conformité 2 ans. Rétractation 14 jours.
+**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous. Garantie légale de conformité 2 ans. Rétractation 14 jours.
 
 ---
 
@@ -60,7 +60,7 @@ Une bâche n'est pas éternelle : selon l'exposition, la durée de vie constaté
 
 ### La livraison, concrètement
 
-Livraison offerte en France métropolitaine (Corse : [À DÉCIDER]). Cette tente est expédiée depuis l'Allemagne et livrée en 5 à 12 jours ouvrés. Le colis est lourd et volumineux, plus encombrant qu'un modèle court du fait de la longueur des arceaux [À VÉRIFIER : poids et nombre de colis] : livraison sur rendez-vous, jusqu'au camion en bordure de trottoir. Prévoyez d'être deux pour le réceptionner, et un accès suffisant pour manœuvrer des éléments longs. Pièce manquante ou cassée signalée sous 48 h avec photos : renvoi à nos frais.
+Livraison offerte en France métropolitaine (Corse comprise). Cette tente est expédiée depuis l'Allemagne et livrée en 5 à 12 jours ouvrés. Le colis est lourd et volumineux, plus encombrant qu'un modèle court du fait de la longueur des arceaux [À VÉRIFIER : poids et nombre de colis] : livraison sur rendez-vous, jusqu'au camion en bordure de trottoir. Prévoyez d'être deux pour le réceptionner, et un accès suffisant pour manœuvrer des éléments longs. Pièce manquante ou cassée signalée sous 48 h avec photos : renvoi à nos frais.
 
 ---
 
@@ -85,7 +85,7 @@ Conseil : ajoutez environ 60 à 90 cm à la longueur de votre camping-car ou car
 | Couleur | Gris |
 | Parois | Amovibles |
 | Ancrage fourni | [À VÉRIFIER : quantité et type] |
-| Garantie | Légale de conformité, 2 ans (garantie commerciale : [À DÉCIDER]) |
+| Garantie | Légale de conformité, 2 ans (aucune garantie commerciale) |
 | Contenu du colis | [À VÉRIFIER : nombre de colis, poids, liste des pièces] |
 
 ---

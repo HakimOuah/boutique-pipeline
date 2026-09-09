@@ -28,7 +28,7 @@ Un format compact pour une voiture, deux motos ou un espace de rangement tempora
 
 **CTA : Ajouter au panier**
 
-**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (hors Corse : [À DÉCIDER]), sur rendez-vous. Garantie légale de conformité 2 ans. Rétractation 14 jours.
+**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous. Garantie légale de conformité 2 ans. Rétractation 14 jours.
 
 ---
 
@@ -56,7 +56,7 @@ Une bâche PE n'est pas éternelle : selon l'exposition au soleil et au vent, la
 
 ### La livraison, concrètement
 
-Livraison offerte en France métropolitaine (Corse : [À DÉCIDER]). Cette tente est expédiée depuis l'Allemagne et livrée en 5 à 12 jours ouvrés. Le colis est plus compact que les modèles 4 × 6 m mais reste lourd [À VÉRIFIER : poids et nombre de colis] : livraison sur rendez-vous, jusqu'au camion en bordure de trottoir. Prévoyez d'être deux pour le réceptionner. Pièce manquante ou cassée signalée sous 48 h avec photos : renvoi à nos frais.
+Livraison offerte en France métropolitaine (Corse comprise). Cette tente est expédiée depuis l'Allemagne et livrée en 5 à 12 jours ouvrés. Le colis est plus compact que les modèles 4 × 6 m mais reste lourd [À VÉRIFIER : poids et nombre de colis] : livraison sur rendez-vous, jusqu'au camion en bordure de trottoir. Prévoyez d'être deux pour le réceptionner. Pièce manquante ou cassée signalée sous 48 h avec photos : renvoi à nos frais.
 
 ---
 
@@ -80,7 +80,7 @@ Conseil : ajoutez environ 60 cm à la longueur et à la largeur de votre véhicu
 | Toile / toiture | Bâche PE [À VÉRIFIER : grammage] |
 | Couleur | Gris |
 | Ancrage fourni | [À VÉRIFIER : quantité et type] |
-| Garantie | Légale de conformité, 2 ans (garantie commerciale : [À DÉCIDER]) |
+| Garantie | Légale de conformité, 2 ans (aucune garantie commerciale) |
 | Contenu du colis | [À VÉRIFIER : nombre de colis, poids, liste des pièces] |
 
 ---

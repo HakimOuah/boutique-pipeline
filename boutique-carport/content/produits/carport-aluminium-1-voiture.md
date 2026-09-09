@@ -27,7 +27,7 @@ Un abri autoportant en aluminium, taillé pour un seul véhicule, à installer o
 **Coloris :** Blanc
 **CTA :** Ajouter au panier
 
-**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (hors Corse `[À DÉCIDER]`), sur rendez-vous. Rétractation 14 jours. Garantie légale de conformité 2 ans.
+**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous. Rétractation 14 jours. Garantie légale de conformité 2 ans.
 
 ---
 

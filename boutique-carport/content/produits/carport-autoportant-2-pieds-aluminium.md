@@ -27,7 +27,7 @@ Une structure cintrée qui tient sur seulement deux pieds : pas de poteau centra
 **Coloris :** `[À VÉRIFIER : coloris confirmés par le fournisseur — la variante annoncée n'est pas fiable en l'état]`
 **CTA :** Ajouter au panier
 
-**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (hors Corse `[À DÉCIDER]`), sur rendez-vous. Rétractation 14 jours. Garantie légale de conformité 2 ans.
+**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous. Rétractation 14 jours. Garantie légale de conformité 2 ans.
 
 ---
 

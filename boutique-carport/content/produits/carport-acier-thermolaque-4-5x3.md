@@ -28,7 +28,7 @@ Un abri en acier thermolaqué noir, toit en tôle, dimensionné 4,5 x 3 m, livr�
 **Dimensions :** 450 x 300 x 250 cm (L x l x H)
 **CTA :** Ajouter au panier
 
-**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (hors Corse `[À DÉCIDER]`), sur rendez-vous. Rétractation 14 jours. Garantie légale de conformité 2 ans.
+**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous. Rétractation 14 jours. Garantie légale de conformité 2 ans.
 
 ---
 

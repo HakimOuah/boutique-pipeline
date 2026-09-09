@@ -58,7 +58,7 @@ Copy source : `boutique-carport/BRIEF-COPY.md` (§ Marque/ton/promesse, §4 chif
 **Bloc coordonnées et société (bas de page)**
 [MARQUE] est exploitée par OH Ventures (SASU), 47 rue Vivienne, 75002 Paris — SIREN 103 157 251 — TVA FR55103157251. Directeur de la publication : Hakim Ouahabi. Contact : info@ohventures.fr — +33 7 56 82 80 94.
 
-**Ligne moyens de paiement (sous le bloc coordonnées) :** Carte bancaire, PayPal, Apple Pay, Shop Pay `[À DÉCIDER : ajouter le paiement en plusieurs fois si retenu]`.
+**Ligne moyens de paiement (sous le bloc coordonnées) :** Carte bancaire, PayPal (4× possible), Klarna (3×), Apple Pay, Shop Pay.
 
 **Mention copyright :** © [ANNÉE EN COURS] [MARQUE]. Tous droits réservés.
 

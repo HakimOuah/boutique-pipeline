@@ -13,7 +13,7 @@ Un carport ou une tente-garage arrive en colis lourds et volumineux. Cette page 
 
 Les carports et tentes-garages sont des colis lourds, transportés par des transporteurs spécialisés, pas par un livreur classique en camionnette. Concrètement :
 
-- **La livraison est offerte en France métropolitaine** (hors Corse : `[À DÉCIDER : conditions Corse et DROM]`).
+- **La livraison est offerte en France métropolitaine** (Corse comprise).
 - **Elle a lieu sur rendez-vous** pour tous les colis lourds : le transporteur vous contacte pour fixer un créneau avant de se présenter.
 - **Le camion s'arrête en bordure de trottoir** ou à l'entrée la plus proche accessible sans manœuvre spéciale ; il ne monte pas dans une allée, un jardin ou un accès privé étroit.
 - **Prévoyez d'être deux personnes** au moment de la réception pour décharger et déplacer les colis jusqu'à leur emplacement de stockage temporaire, avant montage.
@@ -47,11 +47,11 @@ Vous disposez d'un délai de **14 jours** à compter de la réception pour vous 
 
 ## Garantie légale de conformité
 
-Tous nos produits bénéficient de la **garantie légale de conformité de 2 ans**, prévue par le code de la consommation, qui couvre les défauts existants à la livraison. Nous ne proposons pas, à ce stade, de garantie commerciale chiffrée au-delà de cette garantie légale `[À DÉCIDER : garantie commerciale éventuelle]`.
+Tous nos produits bénéficient de la **garantie légale de conformité de 2 ans**, prévue par le code de la consommation, qui couvre les défauts existants à la livraison. Nous ne proposons pas de garantie commerciale au-delà des garanties légales (conformité 2 ans, vices cachés) : nous préférons ne promettre que ce que nous tenons.
 
 ## Paiement
 
-Le paiement s'effectue par carte bancaire, PayPal, Apple Pay ou Shop Pay. Un paiement en plusieurs fois `[À DÉCIDER : offre de paiement fractionné]` pourra être proposé selon les moyens disponibles au moment de votre commande.
+Le paiement s'effectue par carte bancaire, PayPal, Apple Pay ou Shop Pay. Vous pouvez aussi payer en 4 fois avec PayPal ou en 3 fois avec Klarna, selon les conditions de ces services au moment de votre commande.
 
 ## Nous contacter
 

@@ -107,7 +107,7 @@ Oui, vous disposez d'un délai légal de rétractation de 14 jours.
 Pour un colis volumineux, les frais de retour sont à votre charge en cas de rétractation. Le remboursement intervient sous 14 jours après réception du produit retourné.
 
 **26. Quelle garantie s'applique sur mon carport ?**
-La garantie légale de conformité de 2 ans s'applique. Nous ne proposons pas de garantie commerciale chiffrée au-delà `[À DÉCIDER : garantie commerciale]`.
+La garantie légale de conformité de 2 ans s'applique. Nous ne proposons pas de garantie commerciale au-delà des garanties légales (conformité 2 ans, vices cachés).
 
 ---
 
@@ -117,7 +117,7 @@ La garantie légale de conformité de 2 ans s'applique. Nous ne proposons pas de
 Carte bancaire, PayPal, Apple Pay et Shop Pay.
 
 **28. Puis-je payer en plusieurs fois ?**
-`[À DÉCIDER : paiement en 3x/4x]` — le marché des spécialistes du carport propose en général cette option ; nous préciserons ici dès que la décision sera prise.
+Oui : en 4 fois avec PayPal ou en 3 fois avec Klarna, selon les conditions de ces services au moment de votre commande. Le choix se fait au moment du paiement.
 
 ---
 

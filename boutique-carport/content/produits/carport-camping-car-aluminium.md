@@ -28,7 +28,7 @@ Un abri en aluminium au toit incurvé, dimensionné 6 x 6 m, pour protéger un c
 **Dimensions annoncées :** 6 x 6 m
 **CTA :** Ajouter au panier
 
-**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (hors Corse `[À DÉCIDER]`), sur rendez-vous. Rétractation 14 jours. Garantie légale de conformité 2 ans.
+**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous. Rétractation 14 jours. Garantie légale de conformité 2 ans.
 
 ---
 

@@ -5,21 +5,21 @@ Copy source : `boutique-carport/BRIEF-COPY.md` · `personas/persona-carport-2026
 **Mot-clé principal :** carport aluminium
 **Meta title (≤60) :** [MARQUE] — Carports aluminium & tentes-garages en kit (48 car.)
 **Meta description (≤155) :** Carports aluminium, acier et tentes-garages en kit livrés en France. On vous dit avant l'achat s'il faut déclarer, comment ancrer, et le jour de livraison. (154 car.)
-**H1 :** Le carport qui vous dit tout avant l'achat
+**H1 :** Protégez votre voiture, sans mauvaise surprise
 
 ---
 
 ## 1. Hero
 
-**Alternative A (H1 retenu ci-dessus, 44 car.) :**
+**Alternative A (non retenue) :**
 H1 : Le carport qui vous dit tout avant l'achat
 Sous-titre : Carports aluminium, acier et tentes-garages en kit. On répond avant votre commande aux questions que personne ne pose : déclaration, vent, montage, livraison.
 
-**Alternative B (46 car.) :**
+**Alternative B (RETENUE par Hakim le 09/09/2026, 46 car.) :**
 H1 : Protégez votre voiture, sans mauvaise surprise
 Sous-titre : Carports en kit et tentes-garages livrés en France métropolitaine. Photos réelles du produit monté, pas de rendu 3D.
 
-*Note pour Hakim : A pose l'axe différenciant (persona §5, la thèse « tranquillité ») dès le H1, plus proche du positionnement mais plus long à lire à froid. B est plus court et plus « produit », proche du réflexe GSB (« pas de mauvaise surprise ») mais générique. [À DÉCIDER : Hakim tranche à la PORTE 1.]*
+*Décision Hakim 09/09/2026 : alternative B retenue.*
 
 **3 puces (sous le sous-titre) :**
 - Déclaration : on vous dit si votre projet en a besoin
@@ -101,7 +101,7 @@ En résumé, sous réserve de vérification auprès de votre mairie :
 
 Ce résumé ne remplace pas un conseil personnalisé : le service urbanisme de votre mairie et service-public.fr restent la référence. Notre guide numérique détaille la démarche pas à pas, avec le modèle de formulaire.
 
-**Lien :** Lire le guide déclaration et permis → *[À DÉCIDER : nom exact de la page guide]*
+**Lien :** Lire le guide déclaration et permis → *(page « Faut-il déclarer votre carport ? », `guide-declaration-carport`)*
 
 ---
 
@@ -125,7 +125,7 @@ Ce résumé ne remplace pas un conseil personnalisé : le service urbanisme de v
 ## 7. Réassurance
 
 **4 items :**
-- Livraison offerte en France métropolitaine `[À DÉCIDER : Corse]`, sur rendez-vous pour les colis lourds
+- Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous pour les colis lourds
 - Rétractation 14 jours, garantie légale de conformité 2 ans
 - Paiement sécurisé (carte, PayPal, Apple Pay, Shop Pay)
 - Réponse du support sous 1 jour ouvré, du lundi au vendredi

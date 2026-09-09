@@ -13,7 +13,7 @@ Trois familles de solutions permettent d'abriter une voiture sans faire dormir l
 
 | Critère | Tente-garage | Carport aluminium ou acier (kit) | Garage en dur |
 |---|---|---|---|
-| **Prix observé** | 349 à 1 939 € chez [MARQUE] `[À DÉCIDER : plage finale après validation catalogue]` ; 203 à 375 € en entrée de gamme GSB | 749 à 3 099 € chez [MARQUE] ; 799 à 5 300 € chez les spécialistes en kit du marché | 4 590 à 8 500 € posé chez les fabricants spécialisés, hors gros œuvre maçonné |
+| **Prix observé** | 349 à 1 939 € chez [MARQUE] ; 203 à 375 € en entrée de gamme GSB | 749 à 3 099 € chez [MARQUE] ; 799 à 5 300 € chez les spécialistes en kit du marché | 4 590 à 8 500 € posé chez les fabricants spécialisés, hors gros œuvre maçonné |
 | **Délai avant livraison** | 5 à 12 jours ouvrés (stock France/Allemagne/Pologne) | 3 à 5 semaines (toit plat, polycarbonate DHL) à 8-12 semaines (fabrication à la commande) | Plusieurs mois entre commande et pose, chantier compris |
 | **Durée de vie estimée** | `[À VÉRIFIER]` — les retours du marché sur des bâches comparables vont de 2 à 6 ans selon l'exposition et l'entretien | `[À VÉRIFIER]` — l'aluminium et l'acier thermolaqué visent une durée d'usage nettement supérieure à une bâche, sans chiffre garanti sur nos fiches à ce stade | Plusieurs décennies pour une construction maçonnée classique |
 | **Tenue au vent** | Dépend fortement de la qualité de l'ancrage (sardines, haubans) et du fait de fermer les portes avant un épisode de vent ; `[À VÉRIFIER : résistance en km/h propre à chaque fiche]` | Structure plus rigide qu'une bâche, mais la tenue réelle dépend toujours de l'ancrage au sol ; `[À VÉRIFIER : résistance en km/h propre à chaque fiche]` | Le plus stable des trois par construction |

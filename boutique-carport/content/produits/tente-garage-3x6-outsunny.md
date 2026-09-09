@@ -27,7 +27,7 @@ L'abri Outsunny qui s'adapte à votre sol grâce à 4 hauteurs réglables — av
 **Variante :** Couleur — Blanc
 **CTA : Ajouter au panier**
 
-**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (hors Corse : [À DÉCIDER]), sur rendez-vous. Garantie légale de conformité 2 ans. Rétractation 14 jours.
+**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous. Garantie légale de conformité 2 ans. Rétractation 14 jours.
 
 ---
 
@@ -55,7 +55,7 @@ Une bâche n'est pas éternelle : selon l'exposition au soleil et au vent, la du
 
 ### La livraison, concrètement
 
-Livraison offerte en France métropolitaine (Corse : [À DÉCIDER]). Cette tente est expédiée depuis la France et livrée en 5 à 12 jours ouvrés. Le colis est lourd et volumineux [À VÉRIFIER : poids et nombre de colis] : la livraison se fait sur rendez-vous, jusqu'au camion en bordure de trottoir — pas jusqu'à votre emplacement de montage. Prévoyez d'être deux pour le réceptionner et le déplacer. Si une pièce manque ou arrive cassée, signalez-le sous 48 h avec des photos : nous vous renvoyons la pièce à nos frais.
+Livraison offerte en France métropolitaine (Corse comprise). Cette tente est expédiée depuis la France et livrée en 5 à 12 jours ouvrés. Le colis est lourd et volumineux [À VÉRIFIER : poids et nombre de colis] : la livraison se fait sur rendez-vous, jusqu'au camion en bordure de trottoir — pas jusqu'à votre emplacement de montage. Prévoyez d'être deux pour le réceptionner et le déplacer. Si une pièce manque ou arrive cassée, signalez-le sous 48 h avec des photos : nous vous renvoyons la pièce à nos frais.
 
 ---
 
@@ -80,7 +80,7 @@ Conseil : ajoutez environ 60 cm à la longueur et à la largeur de votre véhicu
 | Toile / toiture | Bâche PE, protection UV30+ |
 | Couleur | Blanc |
 | Ancrage fourni | Piquets et haubans [À VÉRIFIER : quantité exacte] |
-| Garantie | Légale de conformité, 2 ans (garantie commerciale : [À DÉCIDER]) |
+| Garantie | Légale de conformité, 2 ans (aucune garantie commerciale) |
 | Contenu du colis | [À VÉRIFIER : nombre de colis, poids, liste des pièces] |
 
 ---
