@@ -10,7 +10,49 @@ Règles d'usage :
 - Le registre pointe vers les rapports ; il ne remplace jamais leur détail ni leurs réserves.
 - Niveaux de validation : 1 = marché, 2 = fiche AliExpress, 3 = commande test, 4 = GO lancement. Aucun raccourci entre niveaux.
 
-Dernière mise à jour : 4 septembre 2026 — **B1 abandonné par Hakim (`NO_GO_FINAL`) pour concurrence Ads ; A6 rasoir approfondi, priorité 1 en REVIEW ; domaine officiel lelamier.com corrigé** ; **état des neuf : 3 REVIEW / 5 STOP techniques / 1 NO_GO humain, zéro PASS** ; **test couplé TrendTrack ↔ demande Google : 6 offres mesurées, 4 STOP de périmètre / 2 REVIEW** ; conservation du premier test de 12 pistes. Également ce jour : portefeuilles, PDP Chrome (homme CONTACTS 16,50 €, 4,8/411 ; femme CONTACT’S 14,69 / 21,39 €, un seul atelier ; Sterre stock PDP 5) ; poufs, Trends + sourcing.
+Dernière mise à jour : 8 septembre 2026 — **synthèse combinée avec la recherche Codex UK** ([SYNTHESE-COMBINEE](analyses/2026-09-07-recherche-uk-trendtrack/SYNTHESE-COMBINEE.md)) : univers abaya ajouté (Codex, UNIVERS ≈ 60–80 K, sans GSB, textile à tailles → décision Hakim), corsets STOP (44 290 = fast fashion, corseterie ≈ 5 000), détecteur TX-850 rétrogradé `TECHNICAL_WATCH` (même modèle à 109,99 £ chez Garegear) ; 7 septembre 2026 — **recherche UK en deux passes (TrendTrack GB / pixel Google / ≥ 80 $ → DataForSEO United Kingdom) : 11 dossiers, 4 `TECHNICAL_PASS` (abri à bûches, kit détecteur de métaux, urnes, abri à chat isolé), 6 `TECHNICAL_WATCH` (bain froid, bioéthanol, vitrines, sauna portable, chauffage diesel, poussette chien), 1 `TECHNICAL_FAIL` (tour de potier)** ; 4 septembre 2026 — **B1 abandonné par Hakim (`NO_GO_FINAL`) pour concurrence Ads ; A6 rasoir approfondi, priorité 1 en REVIEW ; domaine officiel lelamier.com corrigé** ; **état des neuf : 3 REVIEW / 5 STOP techniques / 1 NO_GO humain, zéro PASS** ; **test couplé TrendTrack ↔ demande Google : 6 offres mesurées, 4 STOP de périmètre / 2 REVIEW** ; conservation du premier test de 12 pistes. Également ce jour : portefeuilles, PDP Chrome (homme CONTACTS 16,50 €, 4,8/411 ; femme CONTACT’S 14,69 / 21,39 €, un seul atelier ; Sterre stock PDP 5) ; poufs, Trends + sourcing.
+
+## Recherche Royaume-Uni — 07/09/2026 — TrendTrack → DataForSEO UK → SERP → AliExpress
+
+[Dossier complet](analyses/2026-09-07-recherche-uk-trendtrack/README.md). Mesure DataForSEO `United Kingdom / English` (seuils France appliqués sans recalibrage), SERP google.co.uk par API, sourcing passerelle + SERP AliExpress dans Chrome, audits `exact --destination GB`. Aucun GO prononcé.
+
+| Candidat (UK) | État | Volume cœur UK / mois | Sourcing GB | Recommandation |
+|---|---|---|---|---|
+| Abri à bûches métal (log store) | `PASS_PREQUALIFICATION` | 14 800 tête, ≈ 21 000 cluster, pic oct.–nov. | Wisfor `1005007580395366` SKU entrepôt UK ≈ 89 £ rendu, 2–7 j gratuits ; unhohome `1005004845988616` ≈ 101 £, 2–5 j | `TECHNICAL_PASS` — 149–179 £ sous Amazon/Logpile 209 £ |
+| Kit détecteur de métaux débutant | `PASS_PREQUALIFICATION` (reprise motivée : contrainte L. 542-1 propre à la France) | 27 100 tête, ≈ 30 000, pic déc. | TX-850 `1005006088594948` ≈ 66 £, 6–13 j + pinpointer ≈ 10 £ | `TECHNICAL_PASS` — kit 129–169 £ sous Crawfords 170 £ ; réserve Amazon marques chinoises |
+| Urnes funéraires adulte + animal | `PASS_PREQUALIFICATION` | `urn` 18 100 (≈ 9 000 net de tea urn) + ashes/pet ≈ 17 000 → ≈ 26 000 plat | céramique 6–13 j gratuits 16–55 € (`1005009739082429`, `1005003689066488`, `1005005254587612` L 2,2 L) | `TECHNICAL_PASS` sous réserve capacité adulte ≥ 3,3 L à mesurer sur échantillon ; 69–99 £ sous Urns With Love |
+| Vitrines acryliques collectionneur (LEGO, figurines) | `PASS_PREQUALIFICATION` bande basse | 9 900 tête, ≈ 18 000 cluster, Trends en hausse | cases universelles ≈ 9–21 £ rendus 6–10 j ; aucune boîte dédiée par set | `TECHNICAL_WATCH` — 39–59 £ sous Boxxco |
+| Cuve de bain froid isolée | `PASS_PREQUALIFICATION` (reprise motivée : STOP FR 3–4,5 K vs 30 000 UK) | 22 200 + 6 600 + 2 900 ≈ 30 000 | CN oversized 26–43 j (`1005010439225961`, 219 ventes) ; entrepôts DE/PL refusés vers GB | `TECHNICAL_WATCH` — 119–149 £ sous Lumi ; logistique à résoudre |
+| Cheminée / poêle bioéthanol | `PASS_PREQUALIFICATION` | 22 200 + 12 100 + 5 400… ≈ 46 000, ×2 en Q4 | HOMCOM Aosom ES refusé GB ; modèle différencié 236–281 £ rendu 24–55 j ; brûleur seul ≈ 58 £ | `TECHNICAL_WATCH` — 179–349 £ sous Imaginfires ; stock UK requis |
+
+**Mesurés et écartés au UK (anti-doublon, synonymes)** : étendoir chauffant / heated clothes airer 60 500 (GSB Argos-Aldi-Lakeland) ; couverture lestée / weighted blanket 49 500 (GSB) ; déshumidificateur 165 000 (Meaco, Argos, Currys) ; cache-radiateur / radiator cover 135 000 (GSB, MDF) ; échelle de grenier / loft ladder 33 100 (Screwfix, B&Q) ; scooter de mobilité 74 000 (vivier : batterie, réglementation) ; télescope 33 100 (STOP U4a) ; remontoir + boîte montre 6 600 + 8 100 (Amazon, B&Q, Wolf) ; archerie ≈ 30 000 univers (spécialistes + DTC chinois, REVIEW non retenu) ; sauna portable ≈ 10 000 (vivier) ; media wall / electric fire (vivier électrique) ; bidet toilet seat 2 400 ; échelle tripode ≈ 5 000 ; cockpit sim racing ≈ 8 000 ; arbre LED / blossom tree ≈ 2 000 ; moniteur qualité d'air 2 400 ; fire guard / companion set / stove fan (accessoires 20–50 £ GSB) ; lit cabane, poupée reborn, poulailler, pergola, egg chair, parasol, château gonflable (rejets antérieurs, fret ou saison).
+
+### Passe 2 orientée Q4 — 07/09/2026 (même chaîne, autres boutiques TrendTrack)
+
+[Dossier](analyses/2026-09-07-recherche-uk-trendtrack/README-q4.md) · [préqualification](analyses/2026-09-07-recherche-uk-trendtrack/prequalification-q4.md). Aucun GO prononcé.
+
+| Candidat (UK) | État | Volume cœur UK / mois | Sourcing GB | Recommandation |
+|---|---|---|---|---|
+| Abri à chat d'extérieur isolé (+ niche chien plastique) | `PASS_PREQUALIFICATION` | `outdoor cat house` 12 100 (22 200 oct.), cluster ≈ 28 000 | `1005010759559289` ≈ 32 £ rendu, 6–10 j CN | `TECHNICAL_PASS` — 89–129 £ sous Home & Roost/Aivituvin |
+| Sauna portable à vapeur | `REVIEW_PREQUALIFICATION` | 5 400 (18 100 août 2026), cluster ≈ 12 000 | `1005010143241544` ≈ 64 £ rendu, gratuit, 10–41 j, prise UK à confirmer | `TECHNICAL_WATCH` — 149–199 £ sous Sauna Box |
+| Chauffage diesel 12 V (van, bateau) | `PASS_PREQUALIFICATION` | 18 100 (49 500 fév.), cluster ≈ 35 000 | aucune route : hubs UE/US refusés vers GB (8 vendeurs) | `TECHNICAL_WATCH` — preuve TrendTrack heaterup.co.uk invalidée (plombier) |
+| Poussette pour chien | `REVIEW_PREQUALIFICATION` | ≈ 25 000, creux hiver | SucceBuy `1005008330559169` entrepôt UK 2–7 j mais ≈ 96 £ rendu | `TECHNICAL_WATCH` — marge nulle en 99–139 £ |
+| Tour de potier débutant | `REVIEW_PREQUALIFICATION` (reprise motivée vs STOP FR 8 400) | 9 900, cluster adulte ≈ 13 500 | seule roue livrable GB à 263 £ rendu ; entrepôts ES/FR/CZ refusés | `TECHNICAL_FAIL` — vivier |
+
+**Mesurés et écartés Q4 UK (anti-doublon, synonymes)** : miroir Hollywood/LED 18 100 + 20 000 (hollywoodmirrors.co.uk + Argos/Range) ; walking pad 110 000, plateforme vibrante 49 500, haltères réglables 33 100, home trainer 18 000 (GSB/marques) ; fléchettes 90 500 + armoire 4 400 (marques Winmau/Unicorn) ; cheval à bascule 12 100, maison de poupée 45 000 (Argos/Smyths) ; caméra mangeoire 15 000 (Birdfy/Bird Buddy + Argos/Currys) ; cadre photo numérique 27 100 (rejet phase 2 FR) ; lampe chauffe-bougie 28 000 (ticket 12–20 £) ; housse voiture 17 000 (Halfords 5–33 £) ; échiquier 36 000 (STOP FR phase 3, même structure UK) ; caméra thermique 11 000 (écarté FR) ; niche chien bois 40 000 (fret) ; glacière/frigo 12 V ≈ 40 000 (été) ; fendeur de bûches 16 700, booster 20 000, colonne à bulles 10 000, reformer Pilates (clos), Labubu (licence), hoverboard/RC/karaoké/projecteur/batterie électronique (marques), couverture/gilet chauffant, SAD lamp, radiateur infrarouge, chauffage terrasse (GSB/santé), nutcracker/village/gonflables de Noël, vivarium/cage lapin/cage oiseaux/caisse chien.
+
+### Croisement avec la recherche Codex UK — 08/09/2026
+
+Dossiers Codex (`/Users/Hakim/Downloads/analyse-uk-concurrence-2026-09-07`, extrait dans `analyses/2026-09-07-recherche-uk-trendtrack/codex-extrait.md`) : abayas, corsets, coffrets/remontoirs, TX-850, échiquier. Ré-mesure et ré-audit Claude le 08/09.
+
+| Candidat (UK) | État | Volume UK / mois | Sourcing GB | Recommandation combinée |
+|---|---|---|---|---|
+| Univers abaya / modest fashion (open abaya brodée en phare) | `REVIEW_PREQUALIFICATION` (UNIVERS ≥ 37 500 mais textile à tailles, saison Ramadan) | `abaya` 33 100 (74 000 en mars), univers ≈ 60–80 000 ; open abaya 2 900 | `1005008650101896` 33,99 € ≈ 29 £ rendu gratuit 6–13 j | Tier B — décision Hakim sur le textile ; placement 59–79 £ sous AbayaButh, au-dessus de HAWAA 49 £ |
+| Corsets noirs structurés | `STOP_PREQUALIFICATION` | corseterie réelle ≈ 5 000 (`corset` 33 100 = mode) | 25 £ rendus 4–10 j | STOP volume adressable ; synonymes : underbust, overbust, steel boned, waspie, waist training corset |
+| Kit détecteur de métaux (TX-850) | `REVIEW_PREQUALIFICATION` (rétrogradé) | ≈ 30 000 | 66–84 £ rendu selon fiche | `TECHNICAL_WATCH` — TX-850 nu vendu 109,99 £ (Garegear) / 134,99 £ (GadgetShack) ; kit différencié ou rien |
+| Coffrets / remontoirs, échiquier bois | `STOP_PREQUALIFICATION` | 24 000 / 36 000 | 45 £ / 40 £ rendus | STOP §4 convergent (Claude + Codex) |
+
+Écartés par Codex et confirmés : gilet chauffant, bodycam, vision nocturne, CarPlay, télescope, haltères, gilet lesté, ultrasons, microscope, bols cristal, cadre numérique, miroir, caméras oiseaux, poussettes chien (délai), diesel (kit/délai), bain froid (Polar 79,99 £ = sourcing 78 £).
 
 ## Décision étendoir et approfondissement rasoir — 04/09/2026
 
@@ -670,3 +712,10 @@ Source : [reports/recherche-produits-v2-2026-07-16.md](reports/recherche-produit
 | Litière automatique générique | Marché chargé, risques sécurité animale, SAV incompatible avec validation légère |
 | Rideau/rouleau occultant motorisé simple | Trop accessible, Somfy et grandes enseignes, nombreux modèles < 150 € |
 | Bateau amorceur simple sans GPS | Prix public < 100 € ; seul le segment GPS/sondeur était retenu (lui-même STOP depuis) |
+
+## Carport (France) — 09/09/2026
+
+- Source : liste SEMrush de Hakim (50 000 mots-clés, 358 carport retenus) ; tête « carport » 49 500, « carport bois » 18 100, « carport 2 voitures » 8 100, « carport alu » 6 600 — **volumes non encore remesurés en DataForSEO → REVIEW_PREQUALIFICATION** (la due diligence sourcing a été lancée sur instruction directe de Hakim).
+- Arborescence : 14 collections / 39 produits uniques dans le classeur d'idées de niches (onglet Carport).
+- Sourcing AliExpress 09/09 : `analyses/2026-09-09-carport-sourcing/` — 21 OFFRE TROUVÉE, 12 FOURNISSEUR À TESTER, 19 AUCUNE OFFRE EXPLOITABLE sur 52 lignes produit. Aucun carport bois sur AliExpress ; offre réelle = tentes-garages acier (Outsunny 3×6 m expédié de France 245 €, 4×6 m depuis l'Allemagne 295–398 €), abri métal 4,5×3 m (Pologne, 579 €), carports alu + polycarbonate « personnalisables » (variantes « Consult before place », 17–76 j depuis la Chine).
+- Concurrence : GSB (Brico Dépôt, Leroy Merlin) ≈ 15 000 de requêtes de marque. Saisonnalité et sonde prix Shopping non faites.
