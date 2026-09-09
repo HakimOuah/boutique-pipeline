@@ -1,0 +1,93 @@
+{
+  "sections": {
+    "intro": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact",
+            "heading_size": "h0",
+            "hn": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Une question sur un modèle, une déclaration en mairie, une livraison en cours ou une pièce manquante : écrivez-nous ou appelez-nous. Nous répondons nous-mêmes, sous 1 jour ouvré, du lundi au vendredi.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "border_top": false,
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "narrow_text": true,
+        "display_as_card": false,
+        "color_scheme": "background-1",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "formulaire": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "hn": "h2",
+        "display_as_card": true,
+        "color_scheme": "background-2",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "autres-contacts": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Autres façons de nous joindre",
+            "heading_size": "h2",
+            "hn": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>E-mail : info@ohventures.fr<br>Téléphone : +33 7 56 82 80 94<br>Adresse postale : OH Ventures (SASU), 47 rue Vivienne, 75002 Paris</p><ul><li>Réponse sous 1 jour ouvré, du lundi au vendredi</li><li>Pièce manquante ou cassée signalée sous 48 h avec photos : renvoi à nos frais</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "border_top": true,
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "narrow_text": true,
+        "display_as_card": false,
+        "color_scheme": "background-1",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "intro",
+    "formulaire",
+    "autres-contacts"
+  ]
+}

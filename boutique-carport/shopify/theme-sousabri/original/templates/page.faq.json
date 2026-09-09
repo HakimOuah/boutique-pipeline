@@ -1,0 +1,89 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "3bad68ce-763c-4707-beb5-f068aa1cac26": {
+      "type": "faq",
+      "blocks": {
+        "template--20725509488941__3bad68ce-763c-4707-beb5-f068aa1cac26-question-1": {
+          "type": "question",
+          "settings": {
+            "question": "Type your question",
+            "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        },
+        "template--20725509488941__3bad68ce-763c-4707-beb5-f068aa1cac26-question-2": {
+          "type": "question",
+          "settings": {
+            "question": "Type your question",
+            "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        },
+        "template--20725509488941__3bad68ce-763c-4707-beb5-f068aa1cac26-divider-1": {
+          "type": "divider",
+          "settings": {
+            "margin_top": 36,
+            "margin_bottom": 36
+          }
+        },
+        "template--20725509488941__3bad68ce-763c-4707-beb5-f068aa1cac26-content-1": {
+          "type": "content",
+          "settings": {
+            "heading": "Heading",
+            "description": "<p>Describe the subject of the following questions</p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--20725509488941__3bad68ce-763c-4707-beb5-f068aa1cac26-question-3": {
+          "type": "question",
+          "settings": {
+            "question": "Type your question",
+            "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        },
+        "template--20725509488941__3bad68ce-763c-4707-beb5-f068aa1cac26-question-4": {
+          "type": "question",
+          "settings": {
+            "question": "Type your question",
+            "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20725509488941__3bad68ce-763c-4707-beb5-f068aa1cac26-question-1",
+        "template--20725509488941__3bad68ce-763c-4707-beb5-f068aa1cac26-question-2",
+        "template--20725509488941__3bad68ce-763c-4707-beb5-f068aa1cac26-divider-1",
+        "template--20725509488941__3bad68ce-763c-4707-beb5-f068aa1cac26-content-1",
+        "template--20725509488941__3bad68ce-763c-4707-beb5-f068aa1cac26-question-3",
+        "template--20725509488941__3bad68ce-763c-4707-beb5-f068aa1cac26-question-4"
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "description": "<p>Here are some of the most common questions we get asked. If you can't find what you're looking for, please contact us.</p>",
+        "text_alignment": "left",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3bad68ce-763c-4707-beb5-f068aa1cac26"
+  ]
+}

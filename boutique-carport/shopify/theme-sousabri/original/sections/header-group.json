@@ -1,0 +1,78 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "1778f432-1f5f-4862-a36c-729f578b51f5": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_9744G6": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p><strong>Noté 4.8/5 </strong>par nos clients.</p>",
+            "link": ""
+          }
+        },
+        "sections--20722637570349__1778f432-1f5f-4862-a36c-729f578b51f5-announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p><strong>Livraison offerte</strong>.</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_9744G6",
+        "sections--20722637570349__1778f432-1f5f-4862-a36c-729f578b51f5-announcement-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "icon": "arrow",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "marquee": true,
+        "marquee_speed": 60,
+        "show_line_separator": true,
+        "color_scheme": ""
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [],
+      "settings": {
+        "logo_position": "middle-left",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "none",
+        "show_line_separator": false,
+        "color_scheme": "background-1",
+        "menu_color_scheme": "background-1",
+        "dropdown_color_scheme": "background-2",
+        "parent_collection_background_color": "#f7f7f7",
+        "parent_collection_color": "#000000",
+        "child_collection_background_color": "#f7f7f7",
+        "child_collection_color": "#000000",
+        "enable_search": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "mobile_logo_position": "center",
+        "transparent": false,
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "1778f432-1f5f-4862-a36c-729f578b51f5",
+    "header"
+  ]
+}

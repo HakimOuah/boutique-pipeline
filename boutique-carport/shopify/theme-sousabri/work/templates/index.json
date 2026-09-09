@@ -1,0 +1,566 @@
+{
+  "sections": {
+    "hero": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Protégez votre voiture, sans mauvaise surprise",
+            "background_heading": false,
+            "heading_size": "h0",
+            "hn": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Carports en kit et tentes-garages livrés en France métropolitaine. Photos réelles du produit monté, pas de rendu 3D.</p><ul><li>Déclaration : on vous dit si votre projet en a besoin</li><li>Livraison offerte en France métropolitaine</li><li>Ancrage et montage expliqués avant l'achat</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Voir les carports",
+            "button_link": "/collections/carport-alu"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/sousabri-hero.jpg",
+        "decoration": "none",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_style": "normal",
+        "color_scheme": "background-1",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "douleur": {
+      "type": "multicolumn",
+      "blocks": {
+        "situation-1": {
+          "type": "column",
+          "settings": {
+            "title": "Pas de garage, une allée qui ne demande qu'à servir",
+            "text": "<p>Maison avec allée ou cour, mais pas de garage libre : la voiture prend la pluie, le gel, la grêle, le pollen. Un carport en dur coûte cher et prend des mois ; une bâche et deux sardines ne tiennent pas un hiver.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "situation-2": {
+          "type": "column",
+          "settings": {
+            "title": "Une voiture à laquelle vous tenez",
+            "text": "<p>Voiture neuve, électrique, ou simplement soignée : peinture qui cuit au soleil, vernis qui part, intérieur qui souffre des UV. Vous cherchez un abri correct, pas « une cagette » posée devant chez vous.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "situation-3": {
+          "type": "column",
+          "settings": {
+            "title": "Vous hésitez à cause de la mairie",
+            "text": "<p>Avant même de choisir un modèle, la question revient : a-t-on le droit de poser ça sans déclaration ? Cette incertitude arrête plus d'acheteurs que le prix lui-même.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "situation-1",
+        "situation-2",
+        "situation-3"
+      ],
+      "settings": {
+        "title": "Votre voiture est dehors, et la prochaine grêle ne prévient pas",
+        "heading_size": "h1",
+        "button_label": "",
+        "button_link": "",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "columns_mobile": "1",
+        "display_as_card": false,
+        "color_scheme": "background-1",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "mecanisme": {
+      "type": "multicolumn",
+      "blocks": {
+        "carte-1": {
+          "type": "column",
+          "settings": {
+            "title": "On répond à la question mairie avant votre achat",
+            "text": "<p>Chaque fiche indique l'emprise au sol du modèle et si une déclaration préalable ou un permis de construire s'applique en général. Un guide numérique détaille la démarche, mairie par mairie.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "carte-2": {
+          "type": "column",
+          "settings": {
+            "title": "L'ancrage et le vent, expliqués, pas éludés",
+            "text": "<p>Ce qui est fourni pour fixer le carport au sol, et ce qu'il faut prévoir selon votre sol (terre, dalle, enrobé), est écrit sur la fiche, pas découvert à l'ouverture du carton.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "carte-3": {
+          "type": "column",
+          "settings": {
+            "title": "Le montage, avec une durée réelle",
+            "text": "<p>Quand elle est connue, la durée de montage à deux personnes est indiquée, avec les outils à prévoir. Pas de promesse de « 30 minutes » non vérifiée.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "carte-4": {
+          "type": "column",
+          "settings": {
+            "title": "La livraison, mise en scène avant l'achat",
+            "text": "<p>Poids, nombre de colis, camion, rendez-vous, bordure de trottoir : vous savez ce qui vous attend le jour J, pas seulement le délai.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "carte-1",
+        "carte-2",
+        "carte-3",
+        "carte-4"
+      ],
+      "settings": {
+        "title": "Ce qu'on fait différemment",
+        "heading_size": "h1",
+        "button_label": "",
+        "button_link": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "columns_mobile": "1",
+        "display_as_card": true,
+        "color_scheme": "background-2",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "familles": {
+      "type": "collection-list",
+      "blocks": {
+        "col-alu": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "carport-alu"
+          }
+        },
+        "col-tentes": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "carport-metallique"
+          }
+        },
+        "col-campingcar": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "carport-camping-car"
+          }
+        }
+      },
+      "block_order": [
+        "col-alu",
+        "col-tentes",
+        "col-campingcar"
+      ],
+      "settings": {
+        "title": "Nos familles de carports",
+        "heading_size": "h1",
+        "hn": "h2",
+        "show_view_all": false,
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "columns_tablet": 3,
+        "show_desktop_slider": false,
+        "show_collection_title": true,
+        "collection_heading_size": "h2",
+        "card_hn": "h3",
+        "overlay_opacity": 40,
+        "title_position": "middle-center",
+        "columns_mobile": "1",
+        "show_mobile_slider": false,
+        "display_as_card": false,
+        "color_scheme": "background-1",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "familles-devis": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Un projet sur mesure (toit plat 1 ou 2 voitures, adossé, ou cintré à 2 pieds) ? Devis chiffré sous 48 h ouvrées, sans engagement.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Demander un devis carport aluminium",
+            "button_link": "/pages/devis-carport-aluminium-toit-plat",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "button"
+      ],
+      "settings": {
+        "border_top": false,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "narrow_text": true,
+        "display_as_card": false,
+        "color_scheme": "background-1",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    },
+    "declarer": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Faut-il déclarer votre carport ?",
+            "heading_size": "h1",
+            "hn": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En résumé, sous réserve de vérification auprès de votre mairie : <strong>emprise ≤ 5 m²</strong>, en général aucune formalité ; <strong>entre 5 et 20 m²</strong>, déclaration préalable de travaux ; <strong>plus de 20 m²</strong>, permis de construire. Ce résumé ne remplace pas un conseil personnalisé : le service urbanisme de votre mairie et service-public.fr restent la référence.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Lire le guide déclaration et permis",
+            "button_link": "/pages/guide-declaration-carport",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "border_top": false,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "narrow_text": true,
+        "display_as_card": false,
+        "color_scheme": "background-2",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "comparaison": {
+      "type": "compare-table",
+      "settings": {
+        "heading_size": "h1",
+        "hn": "h2",
+        "heading": "Carport alu, tente-garage, GSB ou garage en dur : comment choisir",
+        "content": "<p>Ce tableau compare ce que nous vous disons avant l'achat, pas seulement un prix : une tente-garage est un abri d'appoint, un carport aluminium une structure durable. Nous vendons les deux, en le disant clairement.</p>",
+        "content_position": "above",
+        "heading_col_1": "Sous Abri",
+        "heading_col_2": "Grande surface de bricolage",
+        "display_as_card": false,
+        "color_scheme": "background-1",
+        "border_radius": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      },
+      "blocks": {
+        "row-1": {
+          "type": "row",
+          "settings": {
+            "heading": "On vous dit si une déclaration est nécessaire",
+            "is_checked_col_1": true,
+            "is_checked_col_2": false
+          }
+        },
+        "row-2": {
+          "type": "row",
+          "settings": {
+            "heading": "L'ancrage et le vent sont expliqués sur la fiche",
+            "is_checked_col_1": true,
+            "is_checked_col_2": false
+          }
+        },
+        "row-3": {
+          "type": "row",
+          "settings": {
+            "heading": "La durée de montage est annoncée avant l'achat",
+            "is_checked_col_1": true,
+            "is_checked_col_2": false
+          }
+        },
+        "row-4": {
+          "type": "row",
+          "settings": {
+            "heading": "La livraison (rendez-vous, bordure de trottoir) est expliquée avant la commande",
+            "is_checked_col_1": true,
+            "is_checked_col_2": false
+          }
+        },
+        "row-5": {
+          "type": "row",
+          "settings": {
+            "heading": "Guide numérique de déclaration offert",
+            "is_checked_col_1": true,
+            "is_checked_col_2": false
+          }
+        }
+      },
+      "block_order": [
+        "row-1",
+        "row-2",
+        "row-3",
+        "row-4",
+        "row-5"
+      ]
+    },
+    "reassurance": {
+      "type": "reassurance",
+      "blocks": {
+        "item-1": {
+          "type": "item",
+          "settings": {
+            "heading": "Livraison offerte",
+            "description": "<p>En France métropolitaine, Corse comprise, sur rendez-vous pour les colis lourds.</p>"
+          }
+        },
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "heading": "Rétractation 14 jours",
+            "description": "<p>Garantie légale de conformité 2 ans.</p>"
+          }
+        },
+        "item-3": {
+          "type": "item",
+          "settings": {
+            "heading": "Paiement sécurisé",
+            "description": "<p>Carte, PayPal, Apple Pay, Shop Pay.</p>"
+          }
+        },
+        "item-4": {
+          "type": "item",
+          "settings": {
+            "heading": "Réponse sous 1 jour ouvré",
+            "description": "<p>Du lundi au vendredi, par une personne, pas un robot.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2",
+        "item-3",
+        "item-4"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "hn": "h2",
+        "heading": "Nos garanties",
+        "content": "",
+        "content_alignment": "center",
+        "column_mobile": "2",
+        "card_style": "text-below",
+        "card_background": true,
+        "card_border": true,
+        "display_as_card": false,
+        "color_scheme": "background-1",
+        "border_radius": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "avis": {
+      "type": "testimonials",
+      "blocks": {},
+      "block_order": [],
+      "settings": {
+        "heading": "Ce qu'en disent nos clients",
+        "heading_size": "h1",
+        "hn": "h2",
+        "text_alignment": "center",
+        "show_stars": false,
+        "show_profile_picture": true,
+        "enable_premium_rating": false,
+        "columns_desktop": 3,
+        "columns_tablet": 3,
+        "columns_mobile": "1",
+        "display_as_card": false,
+        "color_scheme": "background-2",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Faut-il déclarer un carport en mairie ?",
+            "answer": "<p>Cela dépend de l'emprise au sol : en général aucune formalité en dessous de 5 m², une déclaration préalable entre 5 et 20 m², un permis de construire au-delà. Voir notre guide numérique.</p>",
+            "open_by_default": true
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Le carport va-t-il tenir au vent ?",
+            "answer": "<p>Un ancrage au sol est nécessaire dans tous les cas (plots béton hors gel recommandés). Le détail de ce qui est fourni est indiqué sur chaque fiche produit.</p>",
+            "open_by_default": false
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Combien de temps pour monter un carport ?",
+            "answer": "<p>Cela dépend du modèle : quelques heures à deux pour une tente-garage, jusqu'à un week-end pour un carport aluminium.</p>",
+            "open_by_default": false
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Comment se passe la livraison ?",
+            "answer": "<p>Les colis lourds sont livrés sur rendez-vous, en bordure de trottoir, par un camion. Prévoyez d'être deux pour réceptionner.</p>",
+            "open_by_default": false
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "Pourquoi c'est plus cher qu'en grande surface de bricolage ?",
+            "answer": "<p>Nous répondons avant l'achat aux questions qu'une fiche GSB laisse sans réponse : déclaration, ancrage, montage, livraison.</p>",
+            "open_by_default": false
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
+      "settings": {
+        "heading": "Questions fréquentes",
+        "heading_size": "h1",
+        "hn": "h2",
+        "description": "",
+        "text_alignment": "left",
+        "display_as_card": false,
+        "color_scheme": "background-1",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cta_final": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Trouvez le carport qui protège votre voiture, sans mauvaise surprise à la livraison",
+            "heading_size": "h1",
+            "hn": "h2"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Voir les carports",
+            "button_link": "/collections/carport-alu",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "border_top": false,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "narrow_text": true,
+        "display_as_card": false,
+        "color_scheme": "accent-1",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "douleur",
+    "mecanisme",
+    "familles",
+    "familles-devis",
+    "declarer",
+    "comparaison",
+    "reassurance",
+    "avis",
+    "faq",
+    "cta_final"
+  ]
+}

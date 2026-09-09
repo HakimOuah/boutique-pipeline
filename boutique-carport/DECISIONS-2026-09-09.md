@@ -7,3 +7,4 @@
 - Médiateur de la consommation : CM2C, 14 rue Saint Jean, 75017 Paris, tél. 01 89 47 00 14, https://www.cm2c.net/ (même que les autres sites ; l'URL est obligatoire, art. R. 616-1).
 - Fournisseurs : le carport 2 pieds (ONE ALU, 1005012231765595) est un fabricant sur devis (production 20–30 jours, FOB/DDP, « personnalisable », SKU « sample »). Vérifier les 15 fiches et adapter les pages produit des fabricants sur devis (voir `FOURNISSEURS-DEVIS.md`).
 - Nom de marque : propositions et disponibilité des domaines dans `NOMS-DE-MARQUE.md`.
+- Thème de travail : Hakim a importé le **Self Made Theme** (thème « Sous Abri », id 199781745023, non publié) qui remplace la copie FullStack `199695565183` (travail Cosy Cat House conservé, push interrompu). Tutoriels : https://www.selfmadetheme.com/tutoriels.

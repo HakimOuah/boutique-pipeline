@@ -1,0 +1,68 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "medium"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": true
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "c24a5407-e6be-403e-a3be-44f2f47eac2b": {
+          "type": "sidebar",
+          "settings": {
+            "show_tags": true,
+            "tags_title": "Découvrez",
+            "content_title": "-15% ce week-end",
+            "content_description": "<p>Profitez de nos réductions ce week-end uniquement !<\/p>",
+            "show_newsletter": true,
+            "newsletter_title": "rejoignez-nous",
+            "newsletter_description": "<p>Recevez nos astuces et guides d'achat à travers notre newsletter.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "content",
+        "share",
+        "c24a5407-e6be-403e-a3be-44f2f47eac2b"
+      ],
+      "settings": {
+        "card": true,
+        "color_scheme": "background-2"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

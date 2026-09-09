@@ -1,0 +1,368 @@
+{{ 'section-compare-table.css' | asset_url | stylesheet_tag }}
+
+<style>
+  {% if section.settings.display_as_card %}
+    .compare-table-wrapper--{{ section.id }} {
+      margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+      margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+    }
+
+    @media screen and (min-width: 750px) {
+      .compare-table-wrapper--{{ section.id }} {
+        margin-top: {{ section.settings.margin_top }}px;
+        margin-bottom: {{ section.settings.margin_bottom }}px;
+      }
+    }
+  {% else %}
+    .section-{{ section.id }}-padding {
+      margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+      margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+    }
+
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        margin-top: {{ section.settings.margin_top }}px;
+        margin-bottom: {{ section.settings.margin_bottom }}px;
+      }
+    }
+  {% endif %}
+
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+</style>
+
+{% if section.settings.display_as_card %}
+  <div class="page-width">
+    <div class="compare-table-wrapper compare-table-wrapper--{{ section.id }} content-container content-container--card color-{{ section.settings.color_scheme | default: 'background-1' }} gradient">
+{% endif %}
+
+<div class="compare-table {% unless section.settings.display_as_card %}page-width{% endunless %} sr-animate sr-animate--no-interval{% if section.settings.content_position == 'center' and section.settings.display_as_card == false %} page-width--narrow{% endif %} 
+	content-position--{{ section.settings.content_position }} section-{{ section.id }}-padding{% unless section.settings.display_as_card %} color-{{ section.settings.color_scheme }}{% endunless %}"
+	style="--border-radius: {{ section.settings.border_radius }}px;"
+>
+	<div class="compare-table__text">
+		{% if section.settings.heading %}
+			<{{ section.settings.hn }} class="compare-table__heading {{ section.settings.heading_size }}">{{ section.settings.heading }}</{{ section.settings.hn }}>
+		{% endif %}
+		{% if section.settings.content %}
+			<div class="compare-table__content rte">
+				{{ section.settings.content }}
+			</div>
+		{% endif %}
+	</div>
+	<div class="compare-table__table">
+		<div class="compare-table__head">
+			<div class="compare-table__head-col--empty"></div>
+			<div class="compare-table__head-col">
+				{% if section.settings.image_col_1 != blank %}
+					<img class="compare-table__image" src="{{ section.settings.image_col_1 | img_url: 'master' }}" alt="{{ section.settings.heading_col_1 }}">
+				{% else %}
+					<h3 class="compare-table__col-heading">{{ section.settings.heading_col_1 }}</h3>
+				{% endif %}
+			</div>
+			<div class="compare-table__head-col">
+				{% if section.settings.image_col_2 != blank %}
+					<img class="compare-table__image" src="{{ section.settings.image_col_2 | img_url: 'master' }}" alt="{{ section.settings.heading_col_2 }}">
+				{% else %}
+					<h3 class="compare-table__col-heading">{{ section.settings.heading_col_2 }}</h3>
+				{% endif %}
+			</div>
+		</div>
+		<div class="compare-table__body">
+			{% for block in section.blocks %}
+				{% if block.settings.heading != blank %}
+					<div class="compare-table__row" {{ block.shopify_attributes }}>
+						<div class="compare-table__row-col">
+							<h3 class="compare-table__row-heading">{{ block.settings.heading }}</h3>
+						</div>
+						<div class="compare-table__row-col">
+							{% if block.settings.is_checked_col_1 %}
+								{% include 'icon-checkmark' %}
+							{% else %}
+								{% include 'icon-cross' %}
+							{% endif %}
+						</div>
+						<div class="compare-table__row-col">
+							{% if block.settings.is_checked_col_2 %}
+								{% include 'icon-checkmark' %}
+							{% else %}
+								{% include 'icon-cross' %}
+							{% endif %}
+						</div>
+					</div>
+				{% endif %}
+			{% endfor %}
+		</div>
+	</div>
+</div>
+
+{% if section.settings.display_as_card %}
+    </div>
+  </div>
+{% endif %}
+
+{% schema %}
+	{
+		"name": "t:sections.compare-table.name",
+		"tag": "section",
+		"disabled_on": {
+			"groups": ["header", "footer"]
+		},
+		"settings": [
+			{
+				"type": "header",
+				"content": "t:sections.compare-table.settings.header_content.content"
+			},
+			{
+				"type": "select",
+				"id": "heading_size",
+				"options": [
+					{
+						"value": "h2",
+						"label": "t:sections.all.heading_size.options__1.label"
+					},
+					{
+						"value": "h1",
+						"label": "t:sections.all.heading_size.options__2.label"
+					},
+					{
+						"value": "h0",
+						"label": "t:sections.all.heading_size.options__3.label"
+					}
+				],
+				"default": "h1",
+				"label": "t:sections.all.heading_size.label"
+			},
+			{
+				"type": "select",
+				"id": "hn",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "h4",
+						"label": "H4"
+					},
+					{
+						"value": "h5",
+						"label": "H5"
+					},
+					{
+						"value": "h6",
+						"label": "H6"
+					}
+				],
+				"default": "h2",
+				"label": "t:sections.all.hn.label",
+				"info": "t:sections.all.hn.info"
+			},
+			{
+				"type": "text",
+				"id": "heading",
+				"label": "t:sections.compare-table.settings.heading.label",
+				"default": {
+					"en": "Compare table",
+					"fr": "Tableau comparatif"
+				}
+			},
+			{
+				"type": "richtext",
+				"id": "content",
+				"label": "t:sections.compare-table.settings.content.label",
+				"default": {
+					"en": "<p>Introduction text to the compare table</p>",
+					"fr": "<p>Texte d'introduction au tableau comparatif</p>"
+				}
+			},
+			{
+				"type": "select",
+				"id": "content_position",
+				"label": "t:sections.compare-table.settings.content_position.label",
+				"options": [
+					{ 
+						"value": "above",
+						"label": "t:sections.compare-table.settings.content_position.option_1.label" 
+					},
+					{ 
+						"value": "left",
+						"label": "t:sections.compare-table.settings.content_position.option_2.label" 
+					},
+					{ 
+						"value": "right", 
+						"label": "t:sections.compare-table.settings.content_position.option_3.label"
+					}
+				],
+				"default": "left"
+			},
+			{
+				"type": "header",
+				"content": "t:sections.compare-table.settings.header_table.content"
+			},
+			{
+				"type": "text",
+				"id": "heading_col_1",
+				"label": "t:sections.compare-table.settings.heading_col_1.label",
+				"default": {
+					"en": "Brand",
+					"fr": "Marque"
+				}
+			},
+			{
+				"type": "image_picker",
+				"id": "image_col_1",
+				"label": "t:sections.compare-table.settings.image_col_1.label",
+				"info": "t:sections.compare-table.settings.image_col_1.info"
+			},
+			{
+				"type": "text",
+				"id": "heading_col_2",
+				"label": "t:sections.compare-table.settings.heading_col_2.label",
+				"default": {
+					"en": "Brand",
+					"fr": "Marque"
+				}
+			},
+			{
+				"type": "image_picker",
+				"id": "image_col_2",
+				"label": "t:sections.compare-table.settings.image_col_2.label",
+				"info": "t:sections.compare-table.settings.image_col_2.info"
+			},
+			{
+				"type": "header",
+				"content": "t:sections.compare-table.settings.header_section_style.content"
+			},
+			{
+				"type": "checkbox",
+				"id": "display_as_card",
+				"label": "t:sections.slideshow.settings.display_as_card.label",
+				"info": "t:sections.slideshow.settings.display_as_card.info",
+				"default": false
+			},
+			{
+				"type": "color_scheme",
+				"id": "color_scheme",
+				"label": "t:sections.all.colors.label",
+				"default": "background-1"
+			},
+			{
+				"type": "range",
+				"id": "border_radius",
+				"min": 0,
+				"max": 50,
+				"step": 1,
+				"default": 0,
+				"unit": "px",
+				"label": "t:sections.all.border_radius.label"
+			},
+			{
+                "type": "header",
+                "content": "t:sections.all.padding.section_padding_heading"
+            },
+			{
+				"type": "range",
+				"id": "margin_top",
+				"min": 0,
+				"max": 100,
+				"step": 4,
+				"unit": "px",
+				"label": "t:sections.all.margin.margin_top",
+				"default": 0
+			},
+			{
+				"type": "range",
+				"id": "margin_bottom",
+				"min": 0,
+				"max": 100,
+				"step": 4,
+				"unit": "px",
+				"label": "t:sections.all.margin.margin_bottom",
+				"default": 0
+			},
+			{
+				"type": "range",
+				"id": "padding_top",
+				"min": 0,
+				"max": 100,
+				"step": 4,
+				"unit": "px",
+				"label": "t:sections.all.padding.padding_top",
+				"default": 36
+			},
+			{
+				"type": "range",
+				"id": "padding_bottom",
+				"min": 0,
+				"max": 100,
+				"step": 4,
+				"unit": "px",
+				"label": "t:sections.all.padding.padding_bottom",
+				"default": 36
+			}
+		],
+		"blocks": [
+			{
+				"type": "row",
+				"name": "t:sections.compare-table.blocks.row.name",
+				"settings": [
+					{
+						"type": "text",
+						"id": "heading",
+						"label": "t:sections.compare-table.blocks.row.settings.heading.label",
+						"default": {
+							"en": "Row heading",
+							"fr": "Titre de la ligne"
+						}
+					},
+					{
+						"type": "checkbox",
+						"id": "is_checked_col_1",
+						"label": "t:sections.compare-table.blocks.row.settings.is_checked_col_1.label",
+						"default": false
+					},
+					{
+						"type": "checkbox",
+						"id": "is_checked_col_2",
+						"label": "t:sections.compare-table.blocks.row.settings.is_checked_col_2.label",
+						"default": true
+					}
+				]
+			}
+		],
+		"presets": [
+			{
+				"name": "t:sections.compare-table.presets.name",
+				"blocks": [
+					{
+						"type": "row"
+					},
+					{
+						"type": "row"
+					},
+					{
+						"type": "row"
+					}
+				]
+			}
+		]
+	}
+{% endschema %}

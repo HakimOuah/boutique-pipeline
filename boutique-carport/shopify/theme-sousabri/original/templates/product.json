@@ -1,0 +1,412 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Noté 4.8/5 par nos clients",
+            "text_style": "uppercase",
+            "text_color": "",
+            "enable_icon": true,
+            "icon": "star"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle",
+            "text_color": "",
+            "enable_icon": false,
+            "icon": "heart"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes": false,
+            "price_text_box": "Livraison Gratuite",
+            "price_text_box_text_color": "#ffffff",
+            "price_text_box_background_color": "#1A3A5A",
+            "price_text_box_border_color": "#1A3A5A",
+            "regular_price_font_size_desktop": 24,
+            "regular_price_font_size_mobile": 20,
+            "regular_price_color": "#000000",
+            "regular_price_font_weight": "bold",
+            "sale_price_font_size_desktop": 24,
+            "sale_price_font_size_mobile": 20,
+            "sale_price_color": "#ff0000",
+            "sale_price_font_weight": "bold",
+            "compare_price_font_size_desktop": 24,
+            "compare_price_font_size_mobile": 20,
+            "compare_price_color": "#999999",
+            "compare_price_font_weight": "normal"
+          }
+        },
+        "icon_with_text_4RkcqF": {
+          "type": "icon-with-text",
+          "disabled": true,
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "shirt",
+            "heading_1": "Structure aluminium robuste",
+            "icon_2": "plant",
+            "heading_2": "Toit polycarbonate imperméable",
+            "icon_3": "lock",
+            "heading_3": "Protection 2 véhicules"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_background_color": "#000000",
+            "variant_text_color": "#ffffff",
+            "picker_type": "button",
+            "show_color_swatches": false,
+            "show_free_shipping": true,
+            "free_shipping_threshold": 49,
+            "free_shipping_background": "#1A3A5A",
+            "free_shipping_text": "#ffffff"
+          }
+        },
+        "linked_variants_ocb": {
+          "type": "linked_variants",
+          "settings": {
+            "lv_label": "Couleur",
+            "lv_layout": "pills",
+            "lv_hide_soldout": false
+          }
+        },
+        "3f8188da-c218-45eb-8099-51de0daba685": {
+          "type": "popup",
+          "disabled": true,
+          "settings": {
+            "text": "Guide des tailles",
+            "page": "contact"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "timer_wm8RjH": {
+          "type": "timer",
+          "disabled": true,
+          "settings": {
+            "box": true,
+            "icon": true,
+            "color_timer_only": true,
+            "color": "#000000",
+            "end_date": "2023-12-31 23:59:59",
+            "loop": true,
+            "loop_hour": "24:00",
+            "text_before": "<p><strong>En Stock</strong> | Plus que </p>",
+            "text_day": "d",
+            "text_hour": "h",
+            "text_minute": "m",
+            "text_second": "s",
+            "text_after": "<p>pour que votre commande soit <strong>expédiée demain matin</strong>.</p>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_payment_icons": true,
+            "show_gift_card_recipient": true,
+            "show_price_in_button": false,
+            "sticky": false,
+            "enable_sticky_atc_desktop": false,
+            "sticky_atc_show_image": true,
+            "sticky_atc_show_variant": true,
+            "sticky_atc_show_quantity": true,
+            "sticky_atc_bg_color": "#ffffff",
+            "sticky_atc_text_color": "#121212",
+            "sticky_atc_button_bg_color": "#121212",
+            "sticky_atc_button_text_color": "#ffffff"
+          }
+        },
+        "f38c017e-3f48-48c0-9f20-1588ba3be206": {
+          "type": "inventory",
+          "disabled": true,
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true,
+            "inventory_text": ""
+          }
+        },
+        "collapsible_9eR7MD": {
+          "type": "collapsible",
+          "settings": {
+            "heading": "Description & Caractéristiques",
+            "content": "{{ product.description }}",
+            "description": false,
+            "open_by_default": false
+          }
+        },
+        "collapsible_xwXdQX": {
+          "type": "collapsible",
+          "settings": {
+            "heading": "Livraison & Retours",
+            "content": "<p>Expédition sous 24h.</p><p>Délais de livraison : 4 à 6 jours ouvrés en France métropolitaine.<br/><strong>Plus d'infos ici.</strong></p><p>Vous avez 30 jours pour retourner et échanger ou demander un remboursement.<br/><strong>Plus d'infos ici.</strong></p>",
+            "description": false,
+            "open_by_default": false
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "caption",
+        "price",
+        "icon_with_text_4RkcqF",
+        "linked_variants_ocb",
+        "variant_picker",
+        "3f8188da-c218-45eb-8099-51de0daba685",
+        "quantity_selector",
+        "timer_wm8RjH",
+        "buy_buttons",
+        "f38c017e-3f48-48c0-9f20-1588ba3be206",
+        "collapsible_9eR7MD",
+        "collapsible_xwXdQX"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": "medium",
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "mobile_gallery_layout": "thumbnail_slider",
+        "image_ratio": "square",
+        "media_fit": "contain",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "initial_image_behavior": "product",
+        "hide_dots": true,
+        "navigation_position": "outside",
+        "display_card": true,
+        "color_scheme": "background-2",
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "testimonials_Tkz9TN": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_HFbUeg": {
+          "type": "testimonial",
+          "settings": {
+            "color_scheme": "",
+            "author_name": "Camille R.",
+            "author_description": "Cliente vérifiée",
+            "rating": 5,
+            "content": "<p>Enfin un abri de voiture qui ne défigure pas mon jardin ! La qualité de l&#039;aluminium et la facilité de montage sont top.</p>"
+          }
+        },
+        "testimonial_8PwKYE": {
+          "type": "testimonial",
+          "settings": {
+            "color_scheme": "",
+            "author_name": "Thomas L.",
+            "author_description": "Client vérifié",
+            "rating": 5,
+            "content": "<p>Mon mari a été bluffé par la qualité. Nos deux voitures sont parfaitement abritées maintenant, c&#039;est un vrai confort.</p>"
+          }
+        },
+        "testimonial_HkjLAL": {
+          "type": "testimonial",
+          "settings": {
+            "color_scheme": "",
+            "author_name": "Sarah M.",
+            "author_description": "Cliente fidèle",
+            "rating": 5,
+            "content": "<p>La structure en aluminium est très solide et le toit en polycarbonate laisse passer la lumière tout en protégeant de la pluie. Super investissement.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_HFbUeg",
+        "testimonial_8PwKYE",
+        "testimonial_HkjLAL"
+      ],
+      "disabled": true,
+      "name": "t:sections.testimonials.presets.name",
+      "settings": {
+        "heading": "Nos clients nous adorent",
+        "heading_size": "h1",
+        "hn": "h2",
+        "text_alignment": "left",
+        "show_stars": true,
+        "stars_color": "#ffd700",
+        "show_profile_picture": false,
+        "enable_premium_rating": true,
+        "rating_text": "Excellent",
+        "rating_number": "4.8",
+        "enable_desktop_slider": false,
+        "enable_mobile_slider": false,
+        "enable_auto_slider": false,
+        "auto_slider_delay": 5,
+        "columns_desktop": 3,
+        "columns_tablet": 3,
+        "columns_mobile": "2",
+        "hide_dots": false,
+        "display_as_card": true,
+        "color_scheme": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_WHJDKb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_YpQibA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Aluminium et polycarbonate : la force au service de vos véhicules.",
+            "background_heading": false,
+            "heading_size": "h1",
+            "hn": "h2"
+          }
+        },
+        "text_b4XHjU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Conçu pour résister au temps et aux éléments, notre abri de voiture en aluminium et polycarbonate assure une protection impeccable et durable. Profitez d'un investissement qui valorise votre propriété.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YpQibA",
+        "text_b4XHjU"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/gemini-image-6aa1b53d48329.webp",
+        "decoration": "none",
+        "video_url": "",
+        "enable_video_looping": true,
+        "enable_video_autoplay": false,
+        "enable_video_controls": false,
+        "enable_video_muted": false,
+        "media_border": false,
+        "media_border_thickness": 4,
+        "media_border_color": "#ffffff",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_style": "overlap",
+        "color_scheme": "background-2",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_nzQcpP": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_NQ4ewK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Des milliers de clients nous font confiance.",
+            "background_heading": false,
+            "heading_size": "h1",
+            "hn": "h2"
+          }
+        },
+        "text_VPdYBi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rejoignez la communauté Sous Abri et découvrez pourquoi tant de propriétaires choisissent nos abris de voiture pour allier sécurité et esthétisme.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NQ4ewK",
+        "text_VPdYBi"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/gemini-image-6aa1b52ea4141_17d54c07-3248-4d93-abe8-caad676efc89.webp",
+        "decoration": "none",
+        "video_url": "",
+        "enable_video_looping": true,
+        "enable_video_autoplay": false,
+        "enable_video_controls": false,
+        "enable_video_muted": false,
+        "media_border": false,
+        "media_border_thickness": 4,
+        "media_border_color": "#ffffff",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_style": "overlap",
+        "color_scheme": "background-2",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "Vous allez aussi adorer :",
+        "heading_size": "h2",
+        "hn": "span",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "enable_desktop_slider": false,
+        "enable_mobile_slider": false,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "hide_dots": false,
+        "arrow_alignment_desktop": "center",
+        "arrow_alignment_mobile": "center",
+        "enable_auto_slider": false,
+        "auto_slider_delay": 5000,
+        "display_as_card": false,
+        "color_scheme": "background-1",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "testimonials_Tkz9TN",
+    "image_with_text_WHJDKb",
+    "image_with_text_nzQcpP",
+    "related-products"
+  ]
+}
