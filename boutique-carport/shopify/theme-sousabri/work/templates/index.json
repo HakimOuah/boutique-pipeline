@@ -193,19 +193,22 @@
         "col-alu": {
           "type": "featured_collection",
           "settings": {
-            "collection": "carport-alu"
+            "collection": "carport-alu",
+            "title_color": "#FFFFFF"
           }
         },
         "col-tentes": {
           "type": "featured_collection",
           "settings": {
-            "collection": "tentes-garages"
+            "collection": "tentes-garages",
+            "title_color": "#FFFFFF"
           }
         },
         "col-campingcar": {
           "type": "featured_collection",
           "settings": {
-            "collection": "carport-camping-car"
+            "collection": "carport-camping-car",
+            "title_color": "#FFFFFF"
           }
         }
       },
@@ -226,7 +229,7 @@
         "show_collection_title": true,
         "collection_heading_size": "h1",
         "card_hn": "h3",
-        "overlay_opacity": 30,
+        "overlay_opacity": 35,
         "title_position": "bottom-left",
         "columns_mobile": "1",
         "show_mobile_slider": true,
