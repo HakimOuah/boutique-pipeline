@@ -8,3 +8,7 @@ Sources :
 - Règles de choix : `REGLES-SELECTION.md` (comparable = boutique spécialisée sans marque-récit, sinon GSB ; marketplaces et marques-récit évitées).
 - Sélection par deux agents Sonnet : `selection-carport.json`, `selection-pergola.json`.
 - `merge_prix.py` : prix cible proposé = juste sous le comparable retenu (voir règle dans le script), écriture des colonnes L–O (concurrents) et I (prix cible proposé) des deux onglets.
+
+## Décision Hakim (09/09/2026, après lecture)
+
+Pergola : mise en pause (onglet en statut « En pause », rien d'autre touché). Carport : on affiche des prix même au-dessus des GSB, différenciation par photos et copy. Règle appliquée à toutes les lignes produit de l'onglet Carport : **marge de 35 % sur le prix HT**, soit prix cible I = 1,2 × coût AliExpress livré / 0,65, arrondi au 9 supérieur (`prix-cible-carport-35pct.json`). Les concurrents exacts (L–O) et les comparables tentes-garages (P–Q) restent affichés pour situer ces prix.
