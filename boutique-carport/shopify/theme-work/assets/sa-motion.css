@@ -1,0 +1,40 @@
+:root{--sa-ink:#1B1F24;--sa-bg:#F4F1EA;--sa-accent:#C8552B;--sa-slate:#2F4A5A}
+::selection{background:var(--sa-accent);color:#FFFFFF}
+
+/* Kicker / small eyebrow label (used above H2 titles) */
+.sa-stickerize{display:inline-block;background:var(--sa-accent);color:#FFFFFF;border-radius:8px;padding:.2em .65em;font-weight:700;font-size:.85em;letter-spacing:.02em}
+
+/* Buttons: subtle offset shadow on hover, no colour change */
+.button{box-shadow:3px 3px 0 var(--sa-ink);transition:transform .16s ease,box-shadow .16s ease}
+.button:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--sa-ink)}
+.button:active{transform:translate(1px,1px);box-shadow:1px 1px 0 var(--sa-ink)}
+
+/* Product / collection cards: gentle lift on hover */
+.product-card,.collection-card{transition:transform .2s cubic-bezier(.22,.61,.36,1)}
+.product-card:hover,.collection-card:hover{transform:translateY(-4px)}
+
+/* "Contenu du colis" box (main-product > box) */
+.sa-box{border:2px solid var(--sa-ink);border-radius:14px;padding:18px 20px;background:#fff}
+.sa-box h4{margin:0 0 8px;font-size:1.05rem}
+.sa-box ul{margin:0;padding-left:1.2em}
+.sa-box small{display:block;margin-top:8px;color:#6b7280}
+
+/* Delai / livraison banner (main-product > delivery) */
+.sa-delivery{display:flex;justify-content:space-between;gap:12px;align-items:center;background:#F1EFE7;border-radius:10px;padding:10px 14px;font-size:.95rem;margin:6px 0}
+.sa-delivery b{font-weight:700}
+
+/* Formulaires natifs Shopify (contact / devis) — pas d'app, styles minimaux */
+.sa-form{display:flex;flex-direction:column;gap:12px;max-width:640px}
+.sa-form label{font-weight:600;font-size:.9rem;margin-bottom:4px;display:block}
+.sa-form input[type="text"],.sa-form input[type="email"],.sa-form input[type="tel"],.sa-form select,.sa-form textarea{
+  width:100%;padding:10px 12px;border:1px solid rgba(27,31,36,.3);border-radius:6px;background:#fff;color:var(--sa-ink);font:inherit;box-sizing:border-box
+}
+.sa-form textarea{resize:vertical}
+.sa-form__row{display:flex;gap:16px;flex-wrap:wrap}
+.sa-form__row>div{flex:1 1 220px}
+.sa-form__checkbox{display:flex;align-items:flex-start;gap:8px;font-weight:400;font-size:.9rem}
+.sa-form__checkbox input{width:auto;margin-top:3px}
+.sa-form__ok{background:#eef5ee;border:1px solid #bcd8bc;border-radius:8px;padding:10px 14px;font-weight:600}
+.sa-form button[type="submit"]{align-self:flex-start}
+
+@media(prefers-reduced-motion:reduce){.button,.product-card,.collection-card{transition:none}}

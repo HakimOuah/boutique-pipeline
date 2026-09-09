@@ -1,0 +1,3992 @@
+{
+ "sections": {
+  "sa_head": {
+   "type": "custom-section",
+   "blocks": {
+    "code": {
+     "type": "custom-code",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "custom_liquid": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"><link rel=\"stylesheet\" href=\"{{ 'sa-motion.css' | asset_url }}\">",
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    }
+   },
+   "block_order": [
+    "code"
+   ],
+   "name": "SA - head (CSS)",
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-1",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "column",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 10,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": true,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 0,
+    "padding_bottom": 0,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": "sa-head"
+   }
+  },
+  "hero": {
+   "type": "image-banner",
+   "blocks": {
+    "banner": {
+     "type": "_image-banner",
+     "settings": {
+      "media_type": "image",
+      "image": "shopify://shop_images/sousabri-hero.jpg",
+      "source": "uploaded",
+      "video_url": "",
+      "color_scheme": "scheme-3",
+      "banner_height": "medium",
+      "layout_justify": "center",
+      "layout_align_items": "flex-start",
+      "same_as_desktop": false,
+      "banner_height_mobile": "large",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "image_filter_opacity": 20,
+      "image_filter_color": "#000000",
+      "padding_horizontal": 10,
+      "padding_vertical": 40,
+      "image_mobile": "shopify://shop_images/sousabri-hero-mobile.jpg"
+     },
+     "blocks": {
+      "content": {
+       "type": "group",
+       "name": "t:group",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "wrap_in_card": false,
+        "card_link": "",
+        "color_scheme": "",
+        "show_card_border": false,
+        "layout_type": "flex",
+        "width_desktop": 55,
+        "layout_direction_desktop": "column",
+        "layout_grid_columns_desktop": 3,
+        "layout_gap_desktop": 14,
+        "layout_wrap_desktop": "nowrap",
+        "layout_justify_desktop": "flex-start",
+        "layout_align_items_desktop": "flex-start",
+        "same_as_desktop": false,
+        "width_mobile": 100,
+        "layout_direction_mobile": "column",
+        "layout_grid_columns_mobile": 1,
+        "layout_gap_mobile": 10,
+        "layout_wrap_mobile": "nowrap",
+        "layout_justify_mobile": "flex-start",
+        "layout_align_items_mobile": "flex-start",
+        "use_global_container_padding": true,
+        "padding_horizontal": 30,
+        "padding_vertical": 10,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {
+        "h1": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<h1>Protégez votre voiture, sans mauvaise surprise</h1>",
+          "text_style": "h2",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        },
+        "sub": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Carports en kit et tentes-garages livrés en France métropolitaine. Photos réelles du produit monté, pas de rendu 3D.</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "large",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        },
+        "ctas": {
+         "type": "group",
+         "name": "t:group",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "wrap_in_card": false,
+          "card_link": "",
+          "color_scheme": "",
+          "show_card_border": false,
+          "layout_type": "flex",
+          "width_desktop": 100,
+          "layout_direction_desktop": "row",
+          "layout_grid_columns_desktop": 3,
+          "layout_gap_desktop": 10,
+          "layout_wrap_desktop": "nowrap",
+          "layout_justify_desktop": "flex-start",
+          "layout_align_items_desktop": "flex-start",
+          "same_as_desktop": true,
+          "width_mobile": 100,
+          "layout_direction_mobile": "column",
+          "layout_grid_columns_mobile": 1,
+          "layout_gap_mobile": 10,
+          "layout_wrap_mobile": "nowrap",
+          "layout_justify_mobile": "flex-start",
+          "layout_align_items_mobile": "flex-start",
+          "use_global_container_padding": false,
+          "padding_horizontal": 0,
+          "padding_vertical": 0,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {
+          "b1": {
+           "type": "button",
+           "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "link": "/collections/carport-alu",
+            "open_in_new_tab": false,
+            "label": "Voir les carports",
+            "button_style": "primary",
+            "button_shape": "default",
+            "icon": "none",
+            "icon_custom": "",
+            "icon_position": "end",
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+           },
+           "blocks": {}
+          },
+          "b2": {
+           "type": "button",
+           "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "link": "#mecanisme",
+            "open_in_new_tab": false,
+            "label": "Comment ça marche",
+            "button_style": "secondary",
+            "button_shape": "default",
+            "icon": "none",
+            "icon_custom": "",
+            "icon_position": "end",
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+           },
+           "blocks": {}
+          }
+         },
+         "block_order": [
+          "b1",
+          "b2"
+         ]
+        },
+        "micro": {
+         "type": "group",
+         "name": "t:group",
+         "settings": {
+          "show_on_display": "desktop_only",
+          "wrap_in_card": false,
+          "card_link": "",
+          "color_scheme": "",
+          "show_card_border": false,
+          "layout_type": "flex",
+          "width_desktop": 100,
+          "layout_direction_desktop": "row",
+          "layout_grid_columns_desktop": 3,
+          "layout_gap_desktop": 18,
+          "layout_wrap_desktop": "wrap",
+          "layout_justify_desktop": "flex-start",
+          "layout_align_items_desktop": "flex-start",
+          "same_as_desktop": true,
+          "width_mobile": 100,
+          "layout_direction_mobile": "column",
+          "layout_grid_columns_mobile": 1,
+          "layout_gap_mobile": 6,
+          "layout_wrap_mobile": "nowrap",
+          "layout_justify_mobile": "flex-start",
+          "layout_align_items_mobile": "flex-start",
+          "use_global_container_padding": false,
+          "padding_horizontal": 0,
+          "padding_vertical": 0,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {
+          "m1": {
+           "type": "icon-with-text",
+           "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "layout_direction_desktop": "row",
+            "layout_gap_desktop": 10,
+            "same_as_desktop": true,
+            "layout_direction_mobile": "row",
+            "layout_gap_mobile": 10,
+            "icon_type": "icon",
+            "icon": "check_circle",
+            "icon_custom": "",
+            "icon_size": 18,
+            "icon_position": "start",
+            "text": "<p>Déclaration : on vous dit si votre projet en a besoin</p>",
+            "text_style": "paragraph",
+            "font_weight": 400,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+           },
+           "blocks": {}
+          },
+          "m2": {
+           "type": "icon-with-text",
+           "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "layout_direction_desktop": "row",
+            "layout_gap_desktop": 10,
+            "same_as_desktop": true,
+            "layout_direction_mobile": "row",
+            "layout_gap_mobile": 10,
+            "icon_type": "icon",
+            "icon": "check_circle",
+            "icon_custom": "",
+            "icon_size": 18,
+            "icon_position": "start",
+            "text": "<p>Livraison offerte en France métropolitaine</p>",
+            "text_style": "paragraph",
+            "font_weight": 400,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+           },
+           "blocks": {}
+          },
+          "m3": {
+           "type": "icon-with-text",
+           "settings": {
+            "show_on_display": "desktop_and_mobile",
+            "layout_direction_desktop": "row",
+            "layout_gap_desktop": 10,
+            "same_as_desktop": true,
+            "layout_direction_mobile": "row",
+            "layout_gap_mobile": 10,
+            "icon_type": "icon",
+            "icon": "check_circle",
+            "icon_custom": "",
+            "icon_size": 18,
+            "icon_position": "start",
+            "text": "<p>Ancrage et montage expliqués avant l'achat</p>",
+            "text_style": "paragraph",
+            "font_weight": 400,
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "additional_class": ""
+           },
+           "blocks": {}
+          }
+         },
+         "block_order": [
+          "m1",
+          "m2",
+          "m3"
+         ]
+        }
+       },
+       "block_order": [
+        "h1",
+        "sub",
+        "ctas",
+        "micro"
+       ]
+      }
+     },
+     "block_order": [
+      "content"
+     ]
+    }
+   },
+   "block_order": [
+    "banner"
+   ],
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "full_width": true,
+    "color_scheme": "scheme-1",
+    "show_arrows": false,
+    "show_pagination": true,
+    "autoplay": false,
+    "rewind": true,
+    "autoplay_speed": 4,
+    "padding_top": 0,
+    "padding_bottom": 0,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": ""
+   }
+  },
+  "pain": {
+   "type": "custom-section",
+   "blocks": {
+    "h2": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<h2>Votre voiture est dehors, et la prochaine grêle ne prévient pas</h2>",
+      "text_style": "h3",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Voir plus",
+      "read_less_text": "Voir moins",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 20,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "cards": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "card_link": "",
+      "color_scheme": "",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 100,
+      "layout_direction_desktop": "row",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 20,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": false,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 15,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": false,
+      "padding_horizontal": 10,
+      "padding_vertical": 10,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "card1": {
+       "type": "group",
+       "name": "t:group",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "wrap_in_card": true,
+        "card_link": "",
+        "color_scheme": "scheme-2",
+        "show_card_border": false,
+        "layout_type": "flex",
+        "width_desktop": 32,
+        "layout_direction_desktop": "column",
+        "layout_grid_columns_desktop": 3,
+        "layout_gap_desktop": 8,
+        "layout_wrap_desktop": "nowrap",
+        "layout_justify_desktop": "flex-start",
+        "layout_align_items_desktop": "flex-start",
+        "same_as_desktop": true,
+        "width_mobile": 100,
+        "layout_direction_mobile": "column",
+        "layout_grid_columns_mobile": 1,
+        "layout_gap_mobile": 10,
+        "layout_wrap_mobile": "nowrap",
+        "layout_justify_mobile": "flex-start",
+        "layout_align_items_mobile": "flex-start",
+        "use_global_container_padding": false,
+        "padding_horizontal": 18,
+        "padding_vertical": 18,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<h3>Pas de garage, une allée qui ne demande qu'à servir</h3>",
+          "text_style": "h6",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        },
+        "p": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Vous avez une maison avec une allée ou une cour, mais pas de garage libre. La voiture prend la pluie, le gel, la grêle, le pollen au printemps. Un carport en dur coûte cher et prend des mois de travaux ; une bâche et deux sardines ne tiennent pas un hiver.</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t",
+        "p"
+       ]
+      },
+      "card2": {
+       "type": "group",
+       "name": "t:group",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "wrap_in_card": true,
+        "card_link": "",
+        "color_scheme": "scheme-2",
+        "show_card_border": false,
+        "layout_type": "flex",
+        "width_desktop": 32,
+        "layout_direction_desktop": "column",
+        "layout_grid_columns_desktop": 3,
+        "layout_gap_desktop": 8,
+        "layout_wrap_desktop": "nowrap",
+        "layout_justify_desktop": "flex-start",
+        "layout_align_items_desktop": "flex-start",
+        "same_as_desktop": true,
+        "width_mobile": 100,
+        "layout_direction_mobile": "column",
+        "layout_grid_columns_mobile": 1,
+        "layout_gap_mobile": 10,
+        "layout_wrap_mobile": "nowrap",
+        "layout_justify_mobile": "flex-start",
+        "layout_align_items_mobile": "flex-start",
+        "use_global_container_padding": false,
+        "padding_horizontal": 18,
+        "padding_vertical": 18,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<h3>Une voiture à laquelle vous tenez</h3>",
+          "text_style": "h6",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        },
+        "p": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Voiture neuve, électrique, ou simplement soignée : la peinture qui cuit au soleil, le vernis qui part, l'intérieur qui souffre des UV. Vous cherchez un abri correct, pas « une cagette » posée devant chez vous.</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t",
+        "p"
+       ]
+      },
+      "card3": {
+       "type": "group",
+       "name": "t:group",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "wrap_in_card": true,
+        "card_link": "",
+        "color_scheme": "scheme-2",
+        "show_card_border": false,
+        "layout_type": "flex",
+        "width_desktop": 32,
+        "layout_direction_desktop": "column",
+        "layout_grid_columns_desktop": 3,
+        "layout_gap_desktop": 8,
+        "layout_wrap_desktop": "nowrap",
+        "layout_justify_desktop": "flex-start",
+        "layout_align_items_desktop": "flex-start",
+        "same_as_desktop": true,
+        "width_mobile": 100,
+        "layout_direction_mobile": "column",
+        "layout_grid_columns_mobile": 1,
+        "layout_gap_mobile": 10,
+        "layout_wrap_mobile": "nowrap",
+        "layout_justify_mobile": "flex-start",
+        "layout_align_items_mobile": "flex-start",
+        "use_global_container_padding": false,
+        "padding_horizontal": 18,
+        "padding_vertical": 18,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<h3>Vous hésitez à cause de la mairie</h3>",
+          "text_style": "h6",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        },
+        "p": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Avant même de choisir un modèle, la question revient : a-t-on le droit de poser ça sans déclaration ? Est-ce que ça augmente les impôts ? Cette incertitude arrête plus d'acheteurs que le prix lui-même.</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t",
+        "p"
+       ]
+      }
+     },
+     "block_order": [
+      "card1",
+      "card2",
+      "card3"
+     ]
+    }
+   },
+   "block_order": [
+    "h2",
+    "cards"
+   ],
+   "name": "Douleur",
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-1",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "column",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 10,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": true,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 50,
+    "padding_bottom": 30,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": ""
+   }
+  },
+  "mecanisme": {
+   "type": "custom-section",
+   "blocks": {
+    "header": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "card_link": "",
+      "color_scheme": "",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 100,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 10,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": false,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 10,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": true,
+      "padding_horizontal": 30,
+      "padding_vertical": 10,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "k": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<p>Ce qu'on fait différemment</p>",
+        "text_style": "paragraph",
+        "paragraph_font_size": "normal",
+        "font_weight": 600,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": "sa-stickerize"
+       },
+       "blocks": {}
+      },
+      "h2": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<h2>On vous dit avant l'achat ce qu'une fiche GSB ne dit pas</h2>",
+        "text_style": "h3",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "k",
+      "h2"
+     ]
+    },
+    "c1": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": true,
+      "card_link": "/collections/carport-alu",
+      "color_scheme": "scheme-2",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 48,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 8,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": true,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 10,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": false,
+      "padding_horizontal": 16,
+      "padding_vertical": 16,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "img": {
+       "type": "image",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "image": "shopify://shop_images/guide-declaration.jpg",
+        "show_placeholder": true,
+        "link": "",
+        "image_ratio": "4 / 3",
+        "image_width_desktop": 100,
+        "image_width_mobile": 100,
+        "enable_rounded_corners": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "h": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<h3>La question mairie, avant l'achat</h3>",
+        "text_style": "h4",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 6,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "p": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<p>Chaque fiche indique l'emprise au sol du modèle et si une déclaration préalable ou un permis de construire s'applique en général. Un guide numérique détaille la démarche complète, mairie par mairie.</p>",
+        "text_style": "paragraph",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "img",
+      "h",
+      "p"
+     ]
+    },
+    "c2": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": true,
+      "card_link": "/collections/carport-alu",
+      "color_scheme": "scheme-2",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 48,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 8,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": true,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 10,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": false,
+      "padding_horizontal": 16,
+      "padding_vertical": 16,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "img": {
+       "type": "image",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "image": "shopify://shop_images/carport-acier-thermolaque-4-5x3-ancrage.jpg",
+        "show_placeholder": true,
+        "link": "",
+        "image_ratio": "4 / 3",
+        "image_width_desktop": 100,
+        "image_width_mobile": 100,
+        "enable_rounded_corners": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "h": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<h3>L'ancrage et le vent, expliqués</h3>",
+        "text_style": "h4",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 6,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "p": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<p>Ce qui est fourni pour fixer le carport au sol, et ce qu'il faut prévoir selon votre sol (terre, dalle, enrobé), est écrit sur la fiche, pas découvert à l'ouverture du carton.</p>",
+        "text_style": "paragraph",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "img",
+      "h",
+      "p"
+     ]
+    },
+    "c3": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": true,
+      "card_link": "/collections/carport-alu",
+      "color_scheme": "scheme-2",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 48,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 8,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": true,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 10,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": false,
+      "padding_horizontal": 16,
+      "padding_vertical": 16,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "img": {
+       "type": "image",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "image": "shopify://shop_images/carport-acier-thermolaque-4-5x3-montage.jpg",
+        "show_placeholder": true,
+        "link": "",
+        "image_ratio": "4 / 3",
+        "image_width_desktop": 100,
+        "image_width_mobile": 100,
+        "enable_rounded_corners": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "h": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<h3>Le montage, avec une durée réelle</h3>",
+        "text_style": "h4",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 6,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "p": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<p>Quand elle est connue, la durée de montage à deux personnes est indiquée, avec les outils à prévoir. Pas de promesse de « 30 minutes » non vérifiée.</p>",
+        "text_style": "paragraph",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "img",
+      "h",
+      "p"
+     ]
+    },
+    "c4": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": true,
+      "card_link": "/collections/carport-alu",
+      "color_scheme": "scheme-2",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 48,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 8,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": true,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 10,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": false,
+      "padding_horizontal": 16,
+      "padding_vertical": 16,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "img": {
+       "type": "image",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "image": "shopify://shop_images/sousabri-douleur-grele.jpg",
+        "show_placeholder": true,
+        "link": "",
+        "image_ratio": "4 / 3",
+        "image_width_desktop": 100,
+        "image_width_mobile": 100,
+        "enable_rounded_corners": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "h": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<h3>La livraison, mise en scène avant l'achat</h3>",
+        "text_style": "h4",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 6,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "p": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<p>Poids, nombre de colis, camion, rendez-vous, bordure de trottoir : vous savez ce qui vous attend le jour J, pas seulement le délai.</p>",
+        "text_style": "paragraph",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "img",
+      "h",
+      "p"
+     ]
+    }
+   },
+   "block_order": [
+    "header",
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+   ],
+   "name": "Mecanisme",
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-1",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "row",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 20,
+    "layout_wrap_desktop": "wrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": false,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 14,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 60,
+    "padding_bottom": 60,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "mecanisme",
+    "additional_class": ""
+   }
+  },
+  "familles": {
+   "type": "custom-section",
+   "blocks": {
+    "header": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "card_link": "",
+      "color_scheme": "",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 100,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 10,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": true,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 10,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": true,
+      "padding_horizontal": 30,
+      "padding_vertical": 10,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "h2": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<h2>Nos familles de carports</h2>",
+        "text_style": "h3",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "h2"
+     ]
+    },
+    "c1": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": true,
+      "card_link": "",
+      "color_scheme": "scheme-2",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 32,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 8,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": true,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 8,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": false,
+      "padding_horizontal": 16,
+      "padding_vertical": 16,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "img": {
+       "type": "image",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "image": "shopify://shop_images/sousabri-famille-alu.jpg",
+        "show_placeholder": true,
+        "link": "/collections/carport-alu",
+        "image_ratio": "4 / 3",
+        "image_width_desktop": 100,
+        "image_width_mobile": 100,
+        "enable_rounded_corners": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "h": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<h3>Carports à prix fixe</h3>",
+        "text_style": "h4",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 6,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "p": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<ul><li>Carport acier thermolaqué 4,5 × 3 m, toit tôle, noir — 1 069 € — 5 à 12 jours ouvrés</li><li>Carport aluminium autoportant, toit arqué — 1 199 € — 8 à 12 semaines</li><li>Carport camping-car aluminium, toit cintré 6 × 6 m — 1 939 € — 8 à 12 semaines</li></ul>",
+        "text_style": "paragraph",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "btn": {
+       "type": "button",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "link": "/collections/carport-alu",
+        "open_in_new_tab": false,
+        "label": "Voir la collection",
+        "button_style": "secondary",
+        "button_shape": "default",
+        "icon": "none",
+        "icon_custom": "",
+        "icon_position": "end",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "img",
+      "h",
+      "p",
+      "btn"
+     ]
+    },
+    "c2": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": true,
+      "card_link": "",
+      "color_scheme": "scheme-2",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 32,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 8,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": true,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 8,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": false,
+      "padding_horizontal": 16,
+      "padding_vertical": 16,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "img": {
+       "type": "image",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "image": "shopify://shop_images/sousabri-famille-tentes.jpg",
+        "show_placeholder": true,
+        "link": "/collections/carport-metallique",
+        "image_ratio": "4 / 3",
+        "image_width_desktop": 100,
+        "image_width_mobile": 100,
+        "enable_rounded_corners": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "h": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<h3>Tentes-garages</h3>",
+        "text_style": "h4",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 6,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "p": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<ul><li>Tente-garage Outsunny 3 × 6 m, hauteur réglable — 459 € — 5 à 12 jours ouvrés</li><li>Tente-garage 4 × 6 m fermée, fenêtres maille — 609 € — 5 à 12 jours ouvrés</li><li>Tente-garage 4 × 7,6 m, parois amovibles — 749 € — 5 à 12 jours ouvrés</li></ul>",
+        "text_style": "paragraph",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "btn": {
+       "type": "button",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "link": "/collections/carport-metallique",
+        "open_in_new_tab": false,
+        "label": "Voir la collection",
+        "button_style": "secondary",
+        "button_shape": "default",
+        "icon": "none",
+        "icon_custom": "",
+        "icon_position": "end",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "img",
+      "h",
+      "p",
+      "btn"
+     ]
+    },
+    "c3": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": true,
+      "card_link": "",
+      "color_scheme": "scheme-2",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 32,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 8,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": true,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 8,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": false,
+      "padding_horizontal": 16,
+      "padding_vertical": 16,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "img": {
+       "type": "image",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "image": "shopify://shop_images/sousabri-famille-devis.jpg",
+        "show_placeholder": true,
+        "link": "/collections/carport-adosse",
+        "image_ratio": "4 / 3",
+        "image_width_desktop": 100,
+        "image_width_mobile": 100,
+        "enable_rounded_corners": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "h": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<h3>Carports sur mesure (devis)</h3>",
+        "text_style": "h4",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 6,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "p": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<ul><li>Carport aluminium toit plat sur mesure, 1 ou 2 voitures — devis sous 48 h</li><li>Carport aluminium adossé sur mesure, toit monopente — devis sous 48 h</li><li>Fabrication à la commande : comptez 8 à 12 semaines</li></ul>",
+        "text_style": "paragraph",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "btn": {
+       "type": "button",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "link": "/collections/carport-adosse",
+        "open_in_new_tab": false,
+        "label": "Voir la collection",
+        "button_style": "secondary",
+        "button_shape": "default",
+        "icon": "none",
+        "icon_custom": "",
+        "icon_position": "end",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "img",
+      "h",
+      "p",
+      "btn"
+     ]
+    },
+    "note": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<p><em>Pourquoi certains délais sont longs : les carports aluminium sur pieds (hors toit plat et polycarbonate) sont fabriqués à la commande et acheminés par transport maritime, d'où 8 à 12 semaines. C'est la norme chez les spécialistes du kit (4 à 12 semaines annoncées sur le marché) : mieux vaut le savoir avant de commander qu'à la livraison.</em></p>",
+      "text_style": "paragraph",
+      "paragraph_font_size": "small",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Voir plus",
+      "read_less_text": "Voir moins",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "cta": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "card_link": "",
+      "color_scheme": "",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 100,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 10,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": true,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 10,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": false,
+      "padding_horizontal": 0,
+      "padding_vertical": 0,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "btn": {
+       "type": "button",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "link": "/collections/carport-alu",
+        "open_in_new_tab": false,
+        "label": "Voir les carports",
+        "button_style": "primary",
+        "button_shape": "default",
+        "icon": "none",
+        "icon_custom": "",
+        "icon_position": "end",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "btn"
+     ]
+    }
+   },
+   "block_order": [
+    "header",
+    "c1",
+    "c2",
+    "c3",
+    "note",
+    "cta"
+   ],
+   "name": "Familles de produits",
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-2",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "row",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 20,
+    "layout_wrap_desktop": "wrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": false,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 14,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 60,
+    "padding_bottom": 60,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": ""
+   }
+  },
+  "declarer": {
+   "type": "custom-section",
+   "blocks": {
+    "h2": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<h2>Faut-il déclarer votre carport ?</h2>",
+      "text_style": "h3",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Voir plus",
+      "read_less_text": "Voir moins",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 16,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "p": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<p>En résumé, sous réserve de vérification auprès de votre mairie :</p><ul><li><strong>Emprise au sol ≤ 5 m²</strong> : en général aucune formalité.</li><li><strong>Entre 5 et 20 m²</strong> : déclaration préalable de travaux en mairie.</li><li><strong>Plus de 20 m²</strong> : permis de construire.</li><li><strong>Distances aux limites séparatives</strong> : selon le PLU de votre commune, souvent 3 mètres ou en limite.</li><li><strong>Taxe d'aménagement</strong> : possible pour une surface close et couverte ; un carport ouvert en est souvent exempté, mais c'est la mairie qui tranche.</li></ul><p>Ce résumé ne remplace pas un conseil personnalisé : le service urbanisme de votre mairie et service-public.fr restent la référence. Notre guide numérique détaille la démarche pas à pas, avec le modèle de formulaire.</p>",
+      "text_style": "paragraph",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Voir plus",
+      "read_less_text": "Voir moins",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "link": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "card_link": "",
+      "color_scheme": "",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 100,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 10,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": true,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 10,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": false,
+      "padding_horizontal": 0,
+      "padding_vertical": 0,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "btn": {
+       "type": "button",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "link": "/pages/guide-declaration-carport",
+        "open_in_new_tab": false,
+        "label": "Lire le guide déclaration et permis",
+        "button_style": "secondary",
+        "button_shape": "default",
+        "icon": "none",
+        "icon_custom": "",
+        "icon_position": "end",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "btn"
+     ]
+    }
+   },
+   "block_order": [
+    "h2",
+    "p",
+    "link"
+   ],
+   "name": "Faut-il declarer",
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-1",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "column",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 10,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": true,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 50,
+    "padding_bottom": 50,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "declaration",
+    "additional_class": ""
+   }
+  },
+  "comparaison": {
+   "type": "comparison-table",
+   "blocks": {
+    "title": {
+     "type": "text",
+     "static": true,
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<h2>Carport alu, tente-garage, GSB ou garage en dur : comment choisir</h2><p>Ce tableau compare des usages différents, pas seulement des prix : une tente-garage est un abri temporaire ou d'appoint, un carport aluminium une structure durable, un garage en dur un investissement immobilier. Nous vendons les deux premiers, en le disant clairement.</p>",
+      "show_read_more": false,
+      "read_more_length": 200,
+      "text_style": "auto",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "margin_top": 0,
+      "margin_bottom": 20
+     },
+     "blocks": {}
+    },
+    "row_header": {
+     "type": "_comparison-table-row",
+     "settings": {},
+     "blocks": {
+      "c0": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c1": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p><strong>Tente-garage (nous)</strong></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c2": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p><strong>GSB / marketplace</strong></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c3": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p><strong>Carport aluminium en kit (nous)</strong></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c4": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p><strong>Garage en dur</strong></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      }
+     },
+     "block_order": [
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+     ]
+    },
+    "row_0": {
+     "type": "_comparison-table-row",
+     "settings": {},
+     "blocks": {
+      "c0": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p><strong>Prix</strong></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c1": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>459–749 €</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c2": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>~230–375 € (entrée de gamme) <code>[À VÉRIFIER : prix concurrents au jour de la mise en ligne]</code></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c3": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>1 069–1 939 € à prix fixe, sur mesure sur devis</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c4": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Plusieurs milliers à plusieurs dizaines de milliers d'euros <code>[À VÉRIFIER]</code></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      }
+     },
+     "block_order": [
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+     ]
+    },
+    "row_1": {
+     "type": "_comparison-table-row",
+     "settings": {},
+     "blocks": {
+      "c0": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p><strong>Délai</strong></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c1": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>5 à 12 jours ouvrés</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c2": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Souvent 4 à 10 jours</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c3": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>3 semaines à 3 mois selon le modèle</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c4": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Plusieurs mois (devis, travaux)</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      }
+     },
+     "block_order": [
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+     ]
+    },
+    "row_2": {
+     "type": "_comparison-table-row",
+     "settings": {},
+     "blocks": {
+      "c0": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p><strong>Déclaration</strong></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c1": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Selon emprise, voir « Faut-il déclarer ? »</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c2": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Idem</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c3": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Selon emprise, voir « Faut-il déclarer ? »</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c4": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Permis de construire quasi systématique</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      }
+     },
+     "block_order": [
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+     ]
+    },
+    "row_3": {
+     "type": "_comparison-table-row",
+     "settings": {},
+     "blocks": {
+      "c0": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p><strong>Montage</strong></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c1": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>À deux, quelques heures</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c2": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>À deux, quelques heures, notice parfois sommaire</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c3": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>À deux, une demi-journée à un week-end selon le modèle <code>[À VÉRIFIER]</code></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c4": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Entreprise du bâtiment</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      }
+     },
+     "block_order": [
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+     ]
+    },
+    "row_4": {
+     "type": "_comparison-table-row",
+     "settings": {},
+     "blocks": {
+      "c0": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p><strong>Durée de vie attendue</strong></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c1": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Quelques années, bâche à surveiller</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c2": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Variable, souvent non garantie</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c3": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Structure durable, toiture à surveiller</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c4": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Plusieurs décennies</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      }
+     },
+     "block_order": [
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+     ]
+    },
+    "row_5": {
+     "type": "_comparison-table-row",
+     "settings": {},
+     "blocks": {
+      "c0": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p><strong>Ce qu'on vous dit avant d'acheter</strong></p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c1": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Ancrage, vent, déclaration, livraison</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c2": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Rarement détaillé</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c3": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Ancrage, vent, déclaration, livraison</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "c4": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Dépend de l'entreprise</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 600,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      }
+     },
+     "block_order": [
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+     ]
+    },
+    "row_cta": {
+     "type": "_comparison-table-row",
+     "settings": {},
+     "blocks": {
+      "c0": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {},
+       "block_order": []
+      },
+      "c1": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "b": {
+         "type": "button",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "link": "/collections/carport-metallique",
+          "open_in_new_tab": false,
+          "label": "Voir les tentes-garages",
+          "button_style": "secondary",
+          "button_shape": "default",
+          "icon": "none",
+          "icon_custom": "",
+          "icon_position": "end",
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "b"
+       ]
+      },
+      "c2": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {},
+       "block_order": []
+      },
+      "c3": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {
+        "b": {
+         "type": "button",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "link": "/collections/carport-alu",
+          "open_in_new_tab": false,
+          "label": "Voir les carports aluminium",
+          "button_style": "secondary",
+          "button_shape": "default",
+          "icon": "none",
+          "icon_custom": "",
+          "icon_position": "end",
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "b"
+       ]
+      },
+      "c4": {
+       "type": "_comparison-table-data",
+       "settings": {},
+       "blocks": {},
+       "block_order": []
+      }
+     },
+     "block_order": [
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+     ]
+    }
+   },
+   "block_order": [
+    "row_header",
+    "row_0",
+    "row_1",
+    "row_2",
+    "row_3",
+    "row_4",
+    "row_5",
+    "row_cta"
+   ],
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "section_width": "normal",
+    "color_scheme": "scheme-2",
+    "color_scheme_table": "scheme-1",
+    "cell_min_width_mobile": 130,
+    "highlighted_column": 3,
+    "color_highlighted_column": "#C8552B",
+    "color_highlighted_background_column": "#F4F1EA",
+    "padding_top": 50,
+    "padding_bottom": 50,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "comparison",
+    "additional_class": ""
+   }
+  },
+  "reassurance": {
+   "type": "custom-section",
+   "blocks": {
+    "c1": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "card_link": "",
+      "color_scheme": "",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 24,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 8,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": false,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 10,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": false,
+      "padding_horizontal": 15,
+      "padding_vertical": 15,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "h": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<h5>Livraison offerte</h5>",
+        "text_style": "h6",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "p": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<p>En France métropolitaine (Corse comprise), sur rendez-vous pour les colis lourds.</p>",
+        "text_style": "paragraph",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "h",
+      "p"
+     ]
+    },
+    "c2": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "card_link": "",
+      "color_scheme": "",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 24,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 8,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": false,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 10,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": false,
+      "padding_horizontal": 15,
+      "padding_vertical": 15,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "h": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<h5>Retours et garantie</h5>",
+        "text_style": "h6",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "p": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<p>Rétractation 14 jours, garantie légale de conformité 2 ans.</p>",
+        "text_style": "paragraph",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "h",
+      "p"
+     ]
+    },
+    "c3": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "card_link": "",
+      "color_scheme": "",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 24,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 8,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": false,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 10,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": false,
+      "padding_horizontal": 15,
+      "padding_vertical": 15,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "h": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<h5>Paiement sécurisé</h5>",
+        "text_style": "h6",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "p": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<p>Carte, PayPal, Apple Pay, Shop Pay.</p>",
+        "text_style": "paragraph",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "h",
+      "p"
+     ]
+    },
+    "c4": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "card_link": "",
+      "color_scheme": "",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 24,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 8,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": false,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 10,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": false,
+      "padding_horizontal": 15,
+      "padding_vertical": 15,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "h": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<h5>Support réactif</h5>",
+        "text_style": "h6",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "p": {
+       "type": "text",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "text": "<p>Réponse sous 1 jour ouvré, du lundi au vendredi.</p>",
+        "text_style": "paragraph",
+        "paragraph_font_size": "normal",
+        "font_weight": 400,
+        "alignment": "left",
+        "alignment_mobile": "left",
+        "show_read_more": false,
+        "read_more_length": 50,
+        "read_more_text": "Voir plus",
+        "read_less_text": "Voir moins",
+        "truncate": false,
+        "truncate_length": 2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "h",
+      "p"
+     ]
+    }
+   },
+   "block_order": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+   ],
+   "name": "Reassurance",
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-3",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "row",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 10,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": false,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 40,
+    "padding_bottom": 40,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": ""
+   }
+  },
+  "avis": {
+   "type": "sa-reviews",
+   "blocks": {},
+   "block_order": [],
+   "name": "SA — Avis clients",
+   "settings": {
+    "heading": "Avis clients",
+    "summary": "",
+    "heading_alignment": "left",
+    "cards": 3,
+    "background": "#2F4A5A",
+    "heading_color": "#F4F1EA",
+    "card_background": "#FFFFFF",
+    "card_border": "#E5E7EB",
+    "title_color": "#1B1F24",
+    "text_color": "#4B5563",
+    "stars_color": "#C8552B",
+    "padding_top": 10,
+    "padding_bottom": 10,
+    "anchor_id": "avis"
+   }
+  },
+  "faq": {
+   "type": "custom-section",
+   "blocks": {
+    "h2": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<h2>Questions fréquentes</h2>",
+      "text_style": "h3",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Voir plus",
+      "read_less_text": "Voir moins",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 6,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "acc": {
+     "type": "accordions",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "icon": "caret",
+      "dividers": true,
+      "additional_class": ""
+     },
+     "blocks": {
+      "q1": {
+       "type": "_accordion",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "heading": "Faut-il déclarer un carport en mairie ?",
+        "heading_tag": "p",
+        "heading_style": "paragraph",
+        "open_by_default": false,
+        "icon": "none",
+        "icon_custom": "",
+        "additional_class": ""
+       },
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Cela dépend de l'emprise au sol : en général aucune formalité en dessous de 5 m², une déclaration préalable entre 5 et 20 m², un permis de construire au-delà. Voir la section « Faut-il déclarer ? » et notre guide numérique.</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "q2": {
+       "type": "_accordion",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "heading": "Le carport va-t-il tenir au vent ?",
+        "heading_tag": "p",
+        "heading_style": "paragraph",
+        "open_by_default": false,
+        "icon": "none",
+        "icon_custom": "",
+        "additional_class": ""
+       },
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Un ancrage au sol est nécessaire dans tous les cas (plots béton hors gel recommandés). Le détail de ce qui est fourni et les consignes par type de sol sont indiqués sur chaque fiche produit <code>[À VÉRIFIER : résistance vent en km/h par fournisseur]</code>.</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "q3": {
+       "type": "_accordion",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "heading": "Combien de temps pour monter un carport ?",
+        "heading_tag": "p",
+        "heading_style": "paragraph",
+        "open_by_default": false,
+        "icon": "none",
+        "icon_custom": "",
+        "additional_class": ""
+       },
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Cela dépend du modèle : quelques heures à deux pour une tente-garage, jusqu'à un week-end pour un carport aluminium <code>[À VÉRIFIER : durée exacte par référence]</code>.</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "q4": {
+       "type": "_accordion",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "heading": "Comment se passe la livraison ?",
+        "heading_tag": "p",
+        "heading_style": "paragraph",
+        "open_by_default": false,
+        "icon": "none",
+        "icon_custom": "",
+        "additional_class": ""
+       },
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Les colis lourds sont livrés sur rendez-vous, en bordure de trottoir, par un camion. Prévoyez d'être deux pour réceptionner.</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      },
+      "q5": {
+       "type": "_accordion",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "heading": "Pourquoi c'est plus cher qu'en grande surface de bricolage ?",
+        "heading_tag": "p",
+        "heading_style": "paragraph",
+        "open_by_default": false,
+        "icon": "none",
+        "icon_custom": "",
+        "additional_class": ""
+       },
+       "blocks": {
+        "t": {
+         "type": "text",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "text": "<p>Nous répondons avant l'achat aux questions qu'une fiche GSB laisse sans réponse : déclaration, ancrage, montage, livraison. Le prix reflète cet accompagnement, pas seulement l'objet.</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "normal",
+          "font_weight": 400,
+          "alignment": "left",
+          "alignment_mobile": "left",
+          "show_read_more": false,
+          "read_more_length": 50,
+          "read_more_text": "Voir plus",
+          "read_less_text": "Voir moins",
+          "truncate": false,
+          "truncate_length": 2,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "additional_class": ""
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "t"
+       ]
+      }
+     },
+     "block_order": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5"
+     ]
+    }
+   },
+   "block_order": [
+    "h2",
+    "acc"
+   ],
+   "name": "FAQ",
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-2",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "column",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 10,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": true,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 50,
+    "padding_bottom": 30,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "faq",
+    "additional_class": ""
+   }
+  },
+  "cta_final": {
+   "type": "custom-section",
+   "blocks": {
+    "h2": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<h2>Trouvez le carport qui protège votre voiture, sans mauvaise surprise à la livraison.</h2>",
+      "text_style": "h3",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "center",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Voir plus",
+      "read_less_text": "Voir moins",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "b": {
+     "type": "button",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "link": "/collections/carport-alu",
+      "open_in_new_tab": false,
+      "label": "Voir les carports",
+      "button_style": "primary",
+      "button_shape": "default",
+      "icon": "none",
+      "icon_custom": "",
+      "icon_position": "end",
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    }
+   },
+   "block_order": [
+    "h2",
+    "b"
+   ],
+   "name": "CTA final",
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-3",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "column",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 10,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "center",
+    "same_as_desktop": true,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "center",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 50,
+    "padding_bottom": 50,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": ""
+   }
+  }
+ },
+ "order": [
+  "sa_head",
+  "hero",
+  "pain",
+  "mecanisme",
+  "familles",
+  "declarer",
+  "comparaison",
+  "reassurance",
+  "avis",
+  "faq",
+  "cta_final"
+ ]
+}
