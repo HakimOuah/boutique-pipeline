@@ -1,0 +1,6 @@
+Cibles tentées (2026-09-09):
+- https://www.manomano.fr/carport-827 (catégorie)
+- https://www.manomano.fr/conseil/comment-choisir-son-carport-2801 (guide)
+
+Constat [O]: manomano.fr sert un challenge Cloudflare "Just a moment..." (titre de page, meta robots noindex,nofollow, CSP pointant vers challenges.cloudflare.com) sur toutes les URLs testées, via WebFetch, curl, et monid mrscraper (browserRendering + super). Blocage domaine entier constaté.
+Conséquence: aucune fiche ManoMano (catégorie carport, guide d'achat) n'a pu être documentée en verbatim.
