@@ -1,7 +1,7 @@
 {
   "current": {
-    "logo_width": 100,
-    "logo_mobile_width": 110,
+    "logo_width": 170,
+    "logo_mobile_width": 130,
     "type_header_font": "archivo_n7",
     "heading_scale": 100,
     "type_body_font": "inter_n4",
@@ -232,7 +232,10 @@
       }
     },
     "body_background_color": "#F4F1EA",
-    "disable_oneclickbrand_credit": true
+    "disable_oneclickbrand_credit": true,
+    "logo": "shopify://shop_images/logo-sousabri.png",
+    "logo_mobile": "shopify://shop_images/logo-sousabri.png",
+    "favicon": "shopify://shop_images/favicon-sousabri.png"
   },
   "presets": {
     "Default": {

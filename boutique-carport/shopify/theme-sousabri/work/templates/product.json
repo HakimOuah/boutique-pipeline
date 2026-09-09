@@ -10,7 +10,7 @@
         "sous-titre": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.custom.sous_titre }}",
+            "text": "{{ product.metafields.custom.sous_titre.value }}",
             "text_style": "subtitle",
             "text_color": "",
             "enable_icon": false,
@@ -63,67 +63,10 @@
             "sticky_atc_button_text_color": "#ffffff"
           }
         },
-        "collapsible-specs": {
-          "type": "collapsible",
+        "accordeons": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Dimensions et caractéristiques",
-            "content": "{{ product.metafields.custom.specifications }}",
-            "description": false,
-            "open_by_default": true
-          }
-        },
-        "collapsible-declarer": {
-          "type": "collapsible",
-          "settings": {
-            "heading": "Faut-il le déclarer ?",
-            "content": "{{ product.metafields.custom.declarer }}",
-            "description": false,
-            "open_by_default": false
-          }
-        },
-        "collapsible-montage": {
-          "type": "collapsible",
-          "settings": {
-            "heading": "Montage",
-            "content": "{{ product.metafields.custom.montage_texte }}",
-            "description": false,
-            "open_by_default": false
-          }
-        },
-        "collapsible-ancrage": {
-          "type": "collapsible",
-          "settings": {
-            "heading": "Ancrage et vent",
-            "content": "{{ product.metafields.custom.ancrage_vent }}",
-            "description": false,
-            "open_by_default": false
-          }
-        },
-        "collapsible-ne-fait-pas": {
-          "type": "collapsible",
-          "settings": {
-            "heading": "Ce qu'il ne fait pas",
-            "content": "{{ product.metafields.custom.ne_fait_pas }}",
-            "description": false,
-            "open_by_default": false
-          }
-        },
-        "collapsible-livraison": {
-          "type": "collapsible",
-          "settings": {
-            "heading": "Livraison",
-            "content": "{{ product.metafields.custom.livraison_texte }}",
-            "description": false,
-            "open_by_default": false
-          }
-        },
-        "collapsible-colis": {
-          "type": "collapsible",
-          "settings": {
-            "heading": "Contenu du colis",
-            "content": "{{ product.metafields.custom.contenu_colis }}",
-            "description": false,
-            "open_by_default": false
+            "custom_liquid": "{%- assign mf = product.metafields.custom -%}\n<style>\n.sa-acc{margin-top:8px}.sa-acc details{border-top:1px solid rgba(27,31,36,.15)}.sa-acc details:last-child{border-bottom:1px solid rgba(27,31,36,.15)}\n.sa-acc summary{cursor:pointer;padding:14px 0;font-weight:600;font-size:1.05rem;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px}\n.sa-acc summary::-webkit-details-marker{display:none}.sa-acc summary::after{content:\"+\";font-size:1.5rem;line-height:1;color:#C8552B;flex:none}\n.sa-acc details[open]>summary::after{content:\"\\2013\"}.sa-acc .sa-body{padding:0 0 16px}.sa-acc .sa-body>:first-child{margin-top:0}\n.sa-acc table{width:100%;border-collapse:collapse;font-size:.95rem}.sa-acc td,.sa-acc th{padding:8px 6px;border-bottom:1px solid rgba(27,31,36,.1);text-align:left;vertical-align:top}\nmark.a-verifier{background:#FFE58A;padding:0 3px}\n</style>\n<div class=\"sa-acc rte\">\n{%- if mf.specifications.value != blank -%}<details open><summary>Dimensions et caractéristiques</summary><div class=\"sa-body\">{{ mf.specifications.value }}</div></details>{%- endif -%}\n{%- if mf.declarer.value != blank -%}<details><summary>Faut-il le déclarer ?</summary><div class=\"sa-body\">{{ mf.declarer.value }}</div></details>{%- endif -%}\n{%- if mf.montage_texte.value != blank -%}<details><summary>Montage</summary><div class=\"sa-body\">{{ mf.montage_texte.value }}</div></details>{%- endif -%}\n{%- if mf.ancrage_vent.value != blank -%}<details><summary>Ancrage et vent</summary><div class=\"sa-body\">{{ mf.ancrage_vent.value }}</div></details>{%- endif -%}\n{%- if mf.ne_fait_pas.value != blank -%}<details><summary>Ce qu'il ne fait pas</summary><div class=\"sa-body\">{{ mf.ne_fait_pas.value }}</div></details>{%- endif -%}\n{%- if mf.livraison_texte.value != blank -%}<details><summary>Livraison</summary><div class=\"sa-body\">{{ mf.livraison_texte.value }}</div></details>{%- endif -%}\n{%- if mf.contenu_colis.value != blank -%}<details><summary>Contenu du colis</summary><div class=\"sa-body\">{{ mf.contenu_colis.value }}</div></details>{%- endif -%}\n</div>"
           }
         }
       },
@@ -133,13 +76,7 @@
         "price",
         "puces-reassurance",
         "buy-buttons",
-        "collapsible-specs",
-        "collapsible-declarer",
-        "collapsible-montage",
-        "collapsible-ancrage",
-        "collapsible-ne-fait-pas",
-        "collapsible-livraison",
-        "collapsible-colis"
+        "accordeons"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -160,40 +97,11 @@
       }
     },
     "protege": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Ce qu'il protège",
-            "background_heading": false,
-            "heading_size": "h1",
-            "hn": "h2"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.custom.protege }}",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
+      "type": "custom-liquid",
       "settings": {
-        "image": "",
-        "decoration": "none",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_style": "normal",
+        "custom_liquid": "{%- if product.metafields.custom.protege.value != blank -%}\n<div class=\"page-width rte\">\n  <h2>Ce qu'il protège</h2>\n  {{ product.metafields.custom.protege.value }}\n</div>\n{%- endif -%}",
         "color_scheme": "background-1",
+        "display_as_card": false,
         "margin_top": 0,
         "margin_bottom": 0,
         "padding_top": 36,
@@ -203,7 +111,7 @@
     "faq": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width rte\">\n  <h2>Questions fréquentes sur ce produit</h2>\n  {{ product.metafields.custom.faq }}\n</div>",
+        "custom_liquid": "{%- if product.metafields.custom.faq.value != blank -%}\n<div class=\"page-width rte\">\n  <h2>Questions fréquentes sur ce produit</h2>\n  {{ product.metafields.custom.faq.value }}\n</div>\n{%- endif -%}",
         "color_scheme": "background-2",
         "display_as_card": false,
         "margin_top": 0,

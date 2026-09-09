@@ -1,0 +1,300 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 24,
+        "padding_bottom": 8
+      }
+    },
+    "hero": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Votre carport aluminium sur mesure, devis chiffré sous 48 h",
+            "heading_size": "h0",
+            "hn": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fabriqué à vos dimensions par un atelier partenaire, livré en France. Vous nous donnez les cotes et vos options, nous vous envoyons un prix ferme sous 48 h ouvrées, sans engagement.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "border_top": false,
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "narrow_text": true,
+        "display_as_card": false,
+        "color_scheme": "background-1",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "formulaire-devis": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{%- form 'contact', id: 'DevisForm', class: 'isolate contact' -%}\n  <input type=\"hidden\" name=\"contact[Sujet]\" value=\"Devis carport aluminium sur mesure\">\n  {%- if form.posted_successfully? -%}\n    <h2 class=\"form-status form-status-list form__message\" tabindex=\"-1\" autofocus>\n      {% render 'icon-success' %}\n      Merci, votre demande de devis a bien été envoyée. Réponse sous 48 h ouvrées.\n    </h2>\n  {%- endif -%}\n  <div class=\"contact__fields\">\n    <div class=\"field\">\n      <input class=\"field__input\" type=\"text\" id=\"Devis-longueur\" name=\"contact[Longueur souhaitée (m)]\" placeholder=\"Longueur souhaitée (m)\">\n      <label class=\"field__label\" for=\"Devis-longueur\">Longueur souhaitée (m)</label>\n    </div>\n    <div class=\"field\">\n      <input class=\"field__input\" type=\"text\" id=\"Devis-largeur\" name=\"contact[Largeur souhaitée (m)]\" placeholder=\"Largeur souhaitée (m)\">\n      <label class=\"field__label\" for=\"Devis-largeur\">Largeur souhaitée (m)</label>\n    </div>\n  </div>\n  <div class=\"contact__fields\">\n    <div class=\"field\">\n      <input class=\"field__input\" type=\"text\" id=\"Devis-hauteur\" name=\"contact[Hauteur de passage souhaitée (m)]\" placeholder=\"Hauteur de passage souhaitée (m)\">\n      <label class=\"field__label\" for=\"Devis-hauteur\">Hauteur de passage souhaitée (m)</label>\n    </div>\n    <div class=\"field\">\n      <select class=\"field__input\" id=\"Devis-voitures\" name=\"contact[Nombre de voitures]\">\n        <option value=\"\">1 ou 2 voitures</option>\n        <option value=\"1 voiture\">1 voiture</option>\n        <option value=\"2 voitures\">2 voitures</option>\n      </select>\n      <label class=\"field__label\" for=\"Devis-voitures\">Nombre de voitures</label>\n    </div>\n  </div>\n  <div class=\"contact__fields\">\n    <div class=\"field\">\n      <select class=\"field__input\" id=\"Devis-config\" name=\"contact[Configuration]\">\n        <option value=\"\">Autoportant ou adossé</option>\n        <option value=\"Autoportant\">Autoportant</option>\n        <option value=\"Adossé à un mur\">Adossé à un mur</option>\n      </select>\n      <label class=\"field__label\" for=\"Devis-config\">Configuration</label>\n    </div>\n    <div class=\"field\">\n      <select class=\"field__input\" id=\"Devis-toit\" name=\"contact[Type de toit]\">\n        <option value=\"\">Type de toit</option>\n        <option value=\"Toit plat\">Toit plat</option>\n        <option value=\"Monopente\">Monopente</option>\n        <option value=\"Cintré\">Cintré</option>\n      </select>\n      <label class=\"field__label\" for=\"Devis-toit\">Type de toit</label>\n    </div>\n  </div>\n  <div class=\"contact__fields\">\n    <div class=\"field\">\n      <select class=\"field__input\" id=\"Devis-toiture\" name=\"contact[Toiture]\">\n        <option value=\"\">Toiture</option>\n        <option value=\"Polycarbonate transparent\">Polycarbonate transparent</option>\n        <option value=\"Polycarbonate teinté\">Polycarbonate teinté</option>\n        <option value=\"Polycarbonate opaque\">Polycarbonate opaque</option>\n      </select>\n      <label class=\"field__label\" for=\"Devis-toiture\">Toiture</label>\n    </div>\n    <div class=\"field\">\n      <input class=\"field__input\" type=\"text\" id=\"Devis-coloris\" name=\"contact[Coloris souhaité]\" placeholder=\"Coloris (anthracite, blanc, autre)\">\n      <label class=\"field__label\" for=\"Devis-coloris\">Coloris souhaité</label>\n    </div>\n  </div>\n  <div class=\"contact__fields\">\n    <div class=\"field\">\n      <select class=\"field__input\" id=\"Devis-sol\" name=\"contact[Nature du sol]\">\n        <option value=\"\">Nature du sol</option>\n        <option value=\"Terre\">Terre</option>\n        <option value=\"Dalle béton\">Dalle béton</option>\n        <option value=\"Enrobé\">Enrobé</option>\n      </select>\n      <label class=\"field__label\" for=\"Devis-sol\">Nature du sol</label>\n    </div>\n    <div class=\"field\">\n      <input class=\"field__input\" type=\"text\" id=\"Devis-cp\" name=\"contact[Code postal]\" placeholder=\"Code postal\">\n      <label class=\"field__label\" for=\"Devis-cp\">Code postal</label>\n    </div>\n  </div>\n  <div class=\"contact__fields\">\n    <div class=\"field field--with-error\">\n      <input class=\"field__input\" type=\"email\" id=\"Devis-email\" name=\"contact[email]\" placeholder=\"E-mail\" aria-required=\"true\" value=\"{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}\">\n      <label class=\"field__label\" for=\"Devis-email\">E-mail<span aria-hidden=\"true\">*</span></label>\n    </div>\n    <div class=\"field\">\n      <input class=\"field__input\" type=\"tel\" id=\"Devis-tel\" name=\"contact[phone]\" placeholder=\"Téléphone\" value=\"{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}\">\n      <label class=\"field__label\" for=\"Devis-tel\">Téléphone</label>\n    </div>\n  </div>\n  <div class=\"field\">\n    <label>\n      <input type=\"checkbox\" name=\"contact[J'ai lu qu'une déclaration en mairie est en général nécessaire]\" value=\"Oui, lu et compris\" required>\n      J'ai lu que ce carport nécessite en général une déclaration préalable en mairie\n    </label>\n  </div>\n  <div class=\"field\">\n    <textarea rows=\"4\" id=\"Devis-message\" class=\"text-area field__input\" name=\"contact[body]\" placeholder=\"Précisions utiles (emplacement, contraintes, questions)\"></textarea>\n    <label class=\"form__label field__label\" for=\"Devis-message\">Précisions utiles</label>\n  </div>\n  <div class=\"contact__button\">\n    <button type=\"submit\" class=\"button\">\n      <span>Demander mon devis gratuit</span>\n    </button>\n  </div>\n  <p class=\"caption\">Réponse sous 48 h ouvrées avec un prix ferme, livraison en France métropolitaine (Corse comprise) incluse. Aucun paiement à cette étape.</p>\n{%- endform -%}",
+        "color_scheme": "background-2",
+        "display_as_card": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "pourquoi-devis": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pourquoi un devis plutôt qu'un prix affiché",
+            "background_heading": false,
+            "heading_size": "h1",
+            "hn": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ce carport est fabriqué à vos dimensions par un atelier partenaire, pas sorti d'un stock. Le prix dépend de la surface, de la hauteur, du type de toit et du coloris : afficher un prix unique reviendrait à vous mentir dans un sens ou dans l'autre. Le devis est gratuit et vous n'avez rien à payer avant de l'accepter.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image": "",
+        "decoration": "none",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_style": "normal",
+        "color_scheme": "background-1",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "declarer": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Faut-il le déclarer ?",
+            "heading_size": "h1",
+            "hn": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Presque toujours : dès 5 m² d'emprise au sol, une déclaration préalable en mairie ; au-delà de 20 m², un permis de construire. Le devis rappelle le seuil qui s'applique à vos dimensions ; notre guide détaille la démarche. C'est votre mairie qui tranche.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Lire le guide déclaration et permis",
+            "button_link": "/pages/guide-declaration-carport",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "border_top": true,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "narrow_text": true,
+        "display_as_card": false,
+        "color_scheme": "background-2",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Puis-je avoir un prix indicatif avant de remplir le formulaire ?",
+            "answer": "<p>[À DÉCIDER : fourchette de prix d'appel à publier avant le formulaire]</p>",
+            "open_by_default": true
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Le devis m'engage-t-il ?",
+            "answer": "<p>Non, le devis est gratuit et sans engagement. Vous ne payez qu'après l'avoir accepté.</p>",
+            "open_by_default": false
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Combien de temps est-il valable ?",
+            "answer": "<p>[À DÉCIDER]</p>",
+            "open_by_default": false
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Puis-je changer les dimensions après le devis ?",
+            "answer": "<p>Contactez-nous avant d'accepter le devis : un changement de dimensions modifie le prix.</p>",
+            "open_by_default": false
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "Que se passe-t-il si ma mairie refuse ?",
+            "answer": "<p>[À DÉCIDER : annulation sans frais avant lancement de fabrication]</p>",
+            "open_by_default": false
+          }
+        },
+        "q6": {
+          "type": "question",
+          "settings": {
+            "question": "Livrez-vous et montez-vous ?",
+            "answer": "<p>Nous livrons ; nous ne montons pas.</p>",
+            "open_by_default": false
+          }
+        },
+        "q7": {
+          "type": "question",
+          "settings": {
+            "question": "Le polycarbonate jaunit-il ?",
+            "answer": "<p>[À VÉRIFIER : traitement UV du fabricant]</p>",
+            "open_by_default": false
+          }
+        },
+        "q8": {
+          "type": "question",
+          "settings": {
+            "question": "Puis-je payer en plusieurs fois ?",
+            "answer": "<p>Oui : PayPal (4x) ou Klarna (3x), selon les conditions de ces services au moment de votre commande.</p>",
+            "open_by_default": false
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6",
+        "q7",
+        "q8"
+      ],
+      "settings": {
+        "heading": "Questions fréquentes sur le devis",
+        "heading_size": "h1",
+        "hn": "h2",
+        "description": "",
+        "text_alignment": "left",
+        "display_as_card": false,
+        "color_scheme": "background-1",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "reassurance": {
+      "type": "reassurance",
+      "blocks": {
+        "item-1": {
+          "type": "item",
+          "settings": {
+            "heading": "Livraison incluse",
+            "description": "<p>France métropolitaine, Corse comprise.</p>"
+          }
+        },
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "heading": "Devis gratuit",
+            "description": "<p>Sous 48 h ouvrées, sans engagement.</p>"
+          }
+        },
+        "item-3": {
+          "type": "item",
+          "settings": {
+            "heading": "Rappel des démarches",
+            "description": "<p>Le devis rappelle le seuil de déclaration qui s'applique à vos dimensions.</p>"
+          }
+        },
+        "item-4": {
+          "type": "item",
+          "settings": {
+            "heading": "Paiement sécurisé",
+            "description": "<p>Uniquement après acceptation du devis.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2",
+        "item-3",
+        "item-4"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "hn": "h2",
+        "heading": "Ce que vous garantit le devis",
+        "content": "",
+        "content_alignment": "center",
+        "column_mobile": "2",
+        "card_style": "text-below",
+        "card_background": true,
+        "card_border": true,
+        "display_as_card": false,
+        "color_scheme": "background-2",
+        "border_radius": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero",
+    "formulaire-devis",
+    "pourquoi-devis",
+    "declarer",
+    "faq",
+    "reassurance"
+  ]
+}

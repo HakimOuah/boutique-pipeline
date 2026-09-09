@@ -8,3 +8,4 @@
 - Fournisseurs : le carport 2 pieds (ONE ALU, 1005012231765595) est un fabricant sur devis (production 20–30 jours, FOB/DDP, « personnalisable », SKU « sample »). Vérifier les 15 fiches et adapter les pages produit des fabricants sur devis (voir `FOURNISSEURS-DEVIS.md`).
 - Nom de marque : propositions et disponibilité des domaines dans `NOMS-DE-MARQUE.md`.
 - Thème de travail : Hakim a importé le **Self Made Theme** (thème « Sous Abri », id 199781745023, non publié) qui remplace la copie FullStack `199695565183` (travail Cosy Cat House conservé, push interrompu). Tutoriels : https://www.selfmadetheme.com/tutoriels.
+- Identité : pictogramme (poteau + toit cintré terre cuite + voiture), logo Archivo et charte graphique validés par Hakim le 09/09/2026 (« ok pour les picto et la charte »). Fichiers de référence : `assets/brand/out/`, copies en ligne dans Shopify Files (`logo-sousabri.png`, `logo-sousabri-inverse.png`, `favicon-sousabri.png`).

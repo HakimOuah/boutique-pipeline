@@ -1,4 +1,4 @@
-# Charte graphique Sous Abri — 09/09/2026 (proposée sur la DA validée du lot 1 Codex)
+# Charte graphique Sous Abri — 09/09/2026 (validée par Hakim le 09/09/2026 : pictogramme, logo et charte)
 
 ## 1. Ce que font les concurrents, et ce qu'on en garde
 Observé sur 25 sites et les publicités Meta/Google (`analyses/2026-09-09-carport-persona/`) : anthracite ou noir pour la structure, ciel bleu, SUV gris, pavillon neuf, rendus 3D, badges « à partir de » et note Google ; les GSB en rouge/jaune promotionnel ; les fabricants premium en gris froid et blanc. Personne ne montre la météo, le montage, la vraie maison.
