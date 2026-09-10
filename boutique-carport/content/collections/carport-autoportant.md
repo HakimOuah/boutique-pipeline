@@ -22,4 +22,4 @@ Dans les deux cas, l'absence de mur d'appui signifie que la stabilité par vent 
 ## Fiches du catalogue dans cette collection
 
 - Carport aluminium autoportant, toit arqué, panneaux polycarbonate — 1 199 €
-- Carport aluminium cintré 2 pieds sur mesure — sur devis, à partir de [À DÉCIDER : prix d'appel]
+- Carport aluminium cintré 2 pieds sur mesure — sur devis, réponse sous 48 h

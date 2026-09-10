@@ -30,11 +30,23 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "paiement": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{%- if page.handle == 'moyens-de-paiement' -%}\n<style>.sa-pay svg{height:34px;width:auto;display:block}.sa-pay{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:8px 0 16px}</style>\n<div class=\"page-width\" style=\"padding:0 0 48px\"><h2 style=\"font-size:1.2rem;margin:0 0 8px\">Les moyens de paiement proposés lors de votre commande</h2>\n<div class=\"sa-pay\">{%- for type in shop.enabled_payment_types -%}{{ type | payment_type_svg_tag: class: 'icon' }}{%- endfor -%}</div>\n<p style=\"margin:0;font-size:.95rem\">Ces logos sont ceux de notre page de paiement : carte bancaire (Visa, Mastercard, American Express, Cartes Bancaires), PayPal, Klarna, Apple Pay et Shop Pay. Le choix se fait à l'étape « Paiement », après la saisie de l'adresse de livraison.</p></div>\n{%- endif -%}",
+        "color_scheme": "background-1",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "styles",
     "visuel",
-    "main"
+    "main",
+    "paiement"
   ]
 }

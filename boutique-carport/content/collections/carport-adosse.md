@@ -21,4 +21,4 @@ Avant de choisir ce modèle, vérifiez que le mur d'appui est porteur et suffisa
 
 ## Fiches du catalogue dans cette collection
 
-- Carport aluminium adossé sur mesure, toit monopente — sur devis, à partir de [À DÉCIDER : prix d'appel]
+- Carport aluminium adossé sur mesure, toit monopente — sur devis, réponse sous 48 h

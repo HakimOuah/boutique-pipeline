@@ -67,9 +67,9 @@ Poids, nombre de colis, camion, rendez-vous, bordure de trottoir : vous savez ce
 ## 4. Produits phares par famille
 
 ### Carports aluminium (kit)
-- **Carport aluminium toit plat sur mesure, 1 ou 2 voitures** — devis sous 48 h, 8 à 12 semaines (fabrication à la commande)
-- **Carport aluminium adossé sur mesure, toit monopente** — devis sous 48 h, 8 à 12 semaines (fabrication à la commande)
-- **Carport aluminium autoportant, toit arqué** — 1 199 € — 8 à 12 semaines (fabrication à la commande)
+- **Carport aluminium toit plat sur mesure, 1 ou 2 voitures** — devis sous 48 h, 10 à 12 semaines (fabrication sur mesure)
+- **Carport aluminium adossé sur mesure, toit monopente** — devis sous 48 h, 10 à 12 semaines (fabrication sur mesure)
+- **Carport aluminium autoportant, toit arqué** — 1 199 € — 4 à 8 semaines (fabrication à la commande)
 
 ### Carport acier
 - **Carport acier thermolaqué 4,5 × 3 m, toit tôle, noir** — 1 069 € — 5 à 12 jours ouvrés (stock Pologne)
@@ -79,10 +79,10 @@ Poids, nombre de colis, camion, rendez-vous, bordure de trottoir : vous savez ce
 - **Tente-garage 4 × 6 m fermée, fenêtres maille** — 609 € — 5 à 12 jours ouvrés (stock Allemagne)
 
 ### Camping-car
-- **Carport camping-car aluminium, toit cintré 6 × 6 m** — 1 939 € — 8 à 12 semaines (fabrication à la commande)
+- **Carport camping-car aluminium, toit cintré 6 × 3,8 m** — 1 939 € — 4 à 8 semaines (fabrication à la commande, hauteur libre 2,50 m)
 - **Tente-garage 4 × 7,6 m, parois amovibles** — 749 € — 5 à 12 jours ouvrés (stock Allemagne)
 
-*Pourquoi certains délais sont longs : les carports aluminium sur pieds (hors toit plat et polycarbonate) sont fabriqués à la commande et acheminés par transport maritime, d'où 8 à 12 semaines. C'est la norme chez les spécialistes du kit (4 à 12 semaines annoncées sur le marché) : mieux vaut le savoir avant de commander qu'à la livraison.*
+*Pourquoi certains délais sont longs : les carports aluminium sont fabriqués à la commande et acheminés par transport maritime, d'où 4 à 8 semaines pour les toits arqués et 10 à 12 semaines pour les modèles sur devis. C'est la norme chez les spécialistes du kit (4 à 12 semaines annoncées sur le marché) : mieux vaut le savoir avant de commander qu'à la livraison.*
 
 **CTA :** Voir les carports
 
@@ -111,10 +111,10 @@ Ce résumé ne remplace pas un conseil personnalisé : le service urbanisme de v
 
 | | Tente-garage (nous) | GSB / marketplace | Carport aluminium en kit (nous) | Garage en dur |
 |---|---|---|---|---|
-| Prix | 459–749 € | ~230–375 € (entrée de gamme) `[À VÉRIFIER : prix concurrents au jour de la mise en ligne]` | 1 069–1 939 € à prix fixe, sur mesure sur devis | Plusieurs milliers à plusieurs dizaines de milliers d'euros `[À VÉRIFIER]` |
+| Prix | 459–749 € | ~230–375 € (entrée de gamme, relevé septembre 2026) | 1 069–1 939 € à prix fixe, sur mesure sur devis | Plusieurs milliers d'euros, pose comprise |
 | Délai | 5 à 12 jours ouvrés | Souvent 4 à 10 jours | 3 semaines à 3 mois selon le modèle | Plusieurs mois (devis, travaux) |
 | Déclaration | Selon emprise, voir section 5 | Idem | Selon emprise, voir section 5 | Permis de construire quasi systématique |
-| Montage | À deux, quelques heures | À deux, quelques heures, notice parfois sommaire | À deux, une demi-journée à un week-end selon le modèle `[À VÉRIFIER]` | Entreprise du bâtiment |
+| Montage | À deux, quelques heures | À deux, quelques heures, notice parfois sommaire | À deux, une demi-journée à deux journées selon le modèle | Entreprise du bâtiment |
 | Durée de vie attendue | Quelques années, bâche à surveiller | Variable, souvent non garantie | Structure durable, toiture à surveiller | Plusieurs décennies |
 | Ce qu'on vous dit avant d'acheter | Ancrage, vent, déclaration, livraison | Rarement détaillé | Ancrage, vent, déclaration, livraison | Dépend de l'entreprise |
 
@@ -140,10 +140,10 @@ Ce résumé ne remplace pas un conseil personnalisé : le service urbanisme de v
 Cela dépend de l'emprise au sol : en général aucune formalité en dessous de 5 m², une déclaration préalable entre 5 et 20 m², un permis de construire au-delà. Voir la section « Faut-il déclarer ? » et notre guide numérique.
 
 **Le carport va-t-il tenir au vent ?**
-Un ancrage au sol est nécessaire dans tous les cas (plots béton hors gel recommandés). Le détail de ce qui est fourni et les consignes par type de sol sont indiqués sur chaque fiche produit `[À VÉRIFIER : résistance vent en km/h par fournisseur]`.
+Un ancrage au sol est nécessaire dans tous les cas (plots béton hors gel recommandés). Le détail de ce qui est fourni et les consignes par type de sol sont indiqués sur chaque fiche produit ; aucun de nos fournisseurs de tentes ne publie de vitesse de vent, seul le fabricant des carports aluminium sur devis annonce 122 km/h.
 
 **Combien de temps pour monter un carport ?**
-Cela dépend du modèle : quelques heures à deux pour une tente-garage, jusqu'à un week-end pour un carport aluminium `[À VÉRIFIER : durée exacte par référence]`.
+Cela dépend du modèle : quelques heures à deux pour une tente-garage, une à deux journées pour un carport aluminium ; chaque fiche donne notre estimation.
 
 **Comment se passe la livraison ?**
 Les colis lourds sont livrés sur rendez-vous, en bordure de trottoir, par un camion. Prévoyez d'être deux pour réceptionner.

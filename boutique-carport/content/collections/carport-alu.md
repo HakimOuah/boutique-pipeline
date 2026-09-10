@@ -17,12 +17,12 @@ Le carport aluminium se distingue d'abord par son entretien : contrairement à l
 
 Le choix entre nos cinq modèles dépend surtout de la configuration de votre terrain. Un mur disponible oriente vers le carport adossé, qui s'appuie sur la maison et réduit le nombre de poteaux à ancrer. Un terrain dégagé sans point d'appui oriente vers un modèle autoportant, sur quatre pieds indépendants. Deux véhicules à abriter demandent un modèle 2 voitures à toit plat, plus large. Un camping-car impose de vérifier en priorité la hauteur de passage annoncée sur la fiche, souvent le critère qui élimine le plus de modèles pour ce type de véhicule.
 
-Les délais varient nettement selon la fiche : les modèles fabriqués à la commande (adossé, 1 voiture, autoportant, camping-car) demandent 8 à 12 semaines, quand le toit plat 2 voitures, expédié plus vite, arrive en 3 à 5 semaines. Ce délai n'est pas un handicap caché : il correspond à une fabrication sur mesure plutôt qu'à un stock de série, un fonctionnement que les spécialistes du carport en kit annoncent eux-mêmes entre 4 et 12 semaines. Avant de commander, notre guide déclaration préalable aide à savoir si votre projet demande une simple formalité ou une démarche plus longue.
+Les délais varient nettement selon la fiche : les carports à toit arqué fabriqués à la commande demandent 4 à 8 semaines, et les modèles sur devis (toit plat, adossé, cintré 2 pieds) 10 à 12 semaines après validation du devis. Ce délai n'est pas un handicap caché : il correspond à une fabrication sur mesure plutôt qu'à un stock de série, un fonctionnement que les spécialistes du carport en kit annoncent eux-mêmes entre 4 et 12 semaines. Avant de commander, notre guide déclaration préalable aide à savoir si votre projet demande une simple formalité ou une démarche plus longue.
 
 ## Fiches du catalogue dans cette collection
 
-- Carport aluminium toit plat sur mesure, 1 ou 2 voitures — sur devis, à partir de [À DÉCIDER : prix d'appel]
-- Carport aluminium adossé sur mesure, toit monopente — sur devis, à partir de [À DÉCIDER : prix d'appel]
-- Carport aluminium toit plat sur mesure, 1 voiture — sur devis, à partir de [À DÉCIDER : prix d'appel]
+- Carport aluminium toit plat sur mesure, 1 ou 2 voitures — sur devis, réponse sous 48 h
+- Carport aluminium adossé sur mesure, toit monopente — sur devis, réponse sous 48 h
+- Carport aluminium toit plat sur mesure, 1 voiture — sur devis, réponse sous 48 h
 - Carport camping-car aluminium, toit cintré — 1 939 €
 - Carport aluminium autoportant, toit arqué, panneaux polycarbonate — 1 199 €

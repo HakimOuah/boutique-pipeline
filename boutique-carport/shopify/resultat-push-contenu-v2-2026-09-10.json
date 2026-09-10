@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-10",
+  "source_plan": "plan-push-contenu-v2-2026-09-10.json",
+  "shop": "zpeubn-i2.myshopify.com",
+  "products": [
+    {
+      "id": "gid://shopify/Product/15884512199039",
+      "handle": "carport-acier-thermolaque-4-5x3",
+      "title": "Carport acier thermolaqué 4,5 x 3 m",
+      "statut": "pushed_ok",
+      "userErrors": []
+    },
+    {
+      "id": "gid://shopify/Product/15884512231807",
+      "handle": "carport-aluminium-autoportant",
+      "title": "Carport aluminium autoportant, toit arqué",
+      "statut": "pushed_ok",
+      "userErrors": []
+    },
+    {
+      "id": "gid://shopify/Product/15884512264575",
+      "handle": "carport-camping-car-aluminium",
+      "title": "Carport camping-car aluminium, toit cintré",
+      "statut": "pushed_ok",
+      "userErrors": []
+    },
+    {
+      "id": "gid://shopify/Product/15884512297343",
+      "handle": "tente-carport-fermee-2-cotes",
+      "title": "Tente-carport fermée sur deux côtés, portes zip",
+      "statut": "pushed_ok",
+      "userErrors": []
+    },
+    {
+      "id": "gid://shopify/Product/15884512690559",
+      "handle": "tente-garage-3x6-outsunny",
+      "title": "Tente-garage Outsunny 3 × 6 m, hauteur réglable",
+      "statut": "pushed_ok",
+      "userErrors": []
+    },
+    {
+      "id": "gid://shopify/Product/15884512723327",
+      "handle": "tente-garage-4x6-double-porte-volet",
+      "title": "Tente-garage 4 × 6 m, passage traversant",
+      "statut": "pushed_ok",
+      "userErrors": []
+    },
+    {
+      "id": "gid://shopify/Product/15884512756095",
+      "handle": "tente-garage-4x6-fenetres",
+      "title": "Tente-garage 4 × 6 m fermée, fenêtres maille",
+      "statut": "pushed_ok",
+      "userErrors": []
+    },
+    {
+      "id": "gid://shopify/Product/15884513182079",
+      "handle": "tente-garage-4x6-portes-enroulables",
+      "title": "Tente-garage 4 × 6 m, doubles portes enroulables",
+      "statut": "pushed_ok",
+      "userErrors": []
+    },
+    {
+      "id": "gid://shopify/Product/15884513214847",
+      "handle": "tente-garage-4x7-6-camping-car",
+      "title": "Tente-garage 4 × 7,6 m pour camping-car, caravane",
+      "statut": "pushed_ok",
+      "userErrors": []
+    },
+    {
+      "id": "gid://shopify/Product/15884513247615",
+      "handle": "tente-garage-mobile-3x3",
+      "title": "Tente de garage mobile 3 × 3 m, portes enroulables",
+      "statut": "pushed_ok",
+      "userErrors": []
+    }
+  ],
+  "pages": [
+    {
+      "id": "gid://shopify/Page/712222409087",
+      "handle": "comparatif-carport-tente-garage",
+      "statut": "pushed_ok",
+      "userErrors": []
+    },
+    {
+      "id": "gid://shopify/Page/712161263999",
+      "handle": "faq",
+      "statut": "pushed_ok",
+      "userErrors": []
+    },
+    {
+      "id": "gid://shopify/Page/712222441855",
+      "handle": "garantie-livraison-sav",
+      "statut": "pushed_ok",
+      "userErrors": []
+    },
+    {
+      "id": "gid://shopify/Page/712222474623",
+      "handle": "guide-declaration-carport",
+      "statut": "pushed_ok",
+      "userErrors": []
+    },
+    {
+      "id": "gid://shopify/Page/712222572927",
+      "handle": "guide-montage-ancrage",
+      "statut": "pushed_ok",
+      "userErrors": []
+    }
+  ],
+  "controle": {
+    "products_descriptionHtml_start_em": "OK (10/10)",
+    "products_no_dash_artifact": "OK (10/10)",
+    "products_no_pipe_artifact": "OK (10/10)",
+    "faq_contains_declare_question": "OK",
+    "comparatif_has_table_no_pipe": "OK",
+    "note": "SEO title du produit tente-garage-4x7-6-camping-car tronque a 60 caracteres dans le plan source (\"...| Sous Abr\" au lieu de \"...| Sous Abri\"), pousse tel quel car conforme au plan v2 fourni."
+  }
+}

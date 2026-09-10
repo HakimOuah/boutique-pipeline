@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-10",
+  "shop": "zpeubn-i2.myshopify.com",
+  "theme_cible": "gid://shopify/OnlineStoreTheme/199781745023",
+  "produits": [
+    { "id": "gid://shopify/Product/15884512199039", "handle": "carport-acier-thermolaque-4-5x3", "statut": "ok", "erreurs": [] },
+    { "id": "gid://shopify/Product/15884512231807", "handle": "carport-aluminium-autoportant", "statut": "ok", "erreurs": [] },
+    { "id": "gid://shopify/Product/15884512264575", "handle": "carport-camping-car-aluminium", "statut": "ok", "erreurs": [] },
+    { "id": "gid://shopify/Product/15884512297343", "handle": "tente-carport-fermee-2-cotes", "statut": "ok", "erreurs": [] },
+    { "id": "gid://shopify/Product/15884512690559", "handle": "tente-garage-3x6-outsunny", "statut": "ok", "erreurs": [] },
+    { "id": "gid://shopify/Product/15884512723327", "handle": "tente-garage-4x6-double-porte-volet", "statut": "ok", "erreurs": [] },
+    { "id": "gid://shopify/Product/15884512756095", "handle": "tente-garage-4x6-fenetres", "statut": "ok", "erreurs": [] },
+    { "id": "gid://shopify/Product/15884513182079", "handle": "tente-garage-4x6-portes-enroulables", "statut": "ok", "erreurs": [] },
+    { "id": "gid://shopify/Product/15884513214847", "handle": "tente-garage-4x7-6-camping-car", "statut": "ok", "erreurs": [] },
+    { "id": "gid://shopify/Product/15884513247615", "handle": "tente-garage-mobile-3x3", "statut": "ok", "erreurs": [] }
+  ],
+  "metafields_produits": {
+    "fichier_source": "shopify/metafields-produits.json",
+    "total_entrees": 107,
+    "lots": [
+      { "lot": 1, "taille": 25, "statut": "ok", "erreurs": [] },
+      { "lot": 2, "taille": 25, "statut": "ok", "erreurs": [] },
+      { "lot": 3, "taille": 25, "statut": "ok", "erreurs": [] },
+      { "lot": 4, "taille": 25, "statut": "ok", "erreurs": [] },
+      { "lot": 5, "taille": 7, "statut": "ok", "erreurs": [] }
+    ]
+  },
+  "pages": [
+    { "id": "gid://shopify/Page/712222409087", "handle": "comparatif-carport-tente-garage", "statut": "ok", "erreurs": [] },
+    { "id": "gid://shopify/Page/712161263999", "handle": "faq", "statut": "ok", "erreurs": [] },
+    { "id": "gid://shopify/Page/712222441855", "handle": "garantie-livraison-sav", "statut": "ok", "erreurs": [] },
+    { "id": "gid://shopify/Page/712222474623", "handle": "guide-declaration-carport", "statut": "ok", "erreurs": [] },
+    { "id": "gid://shopify/Page/712222572927", "handle": "guide-montage-ancrage", "statut": "ok", "erreurs": [] },
+    { "id": "gid://shopify/Page/712222638463", "handle": "devis-carport-aluminium-adosse", "statut": "ok", "erreurs": [] },
+    { "id": "gid://shopify/Page/712222736767", "handle": "devis-carport-aluminium-toit-plat", "statut": "ok", "erreurs": [] },
+    { "id": "gid://shopify/Page/712222769535", "handle": "devis-carport-cintre-2-pieds", "statut": "ok", "erreurs": [] }
+  ],
+  "collections": [
+    { "id": "gid://shopify/Collection/704477856127", "handle": "carport-1-voiture", "descriptionHtml": "ok", "texte_seo": "ok", "erreurs": [] },
+    { "id": "gid://shopify/Collection/704477888895", "handle": "carport-2-voitures", "descriptionHtml": "ok", "texte_seo": "ok", "erreurs": [] },
+    { "id": "gid://shopify/Collection/704477987199", "handle": "carport-adosse", "descriptionHtml": "ok", "texte_seo": "ok", "erreurs": [] },
+    { "id": "gid://shopify/Collection/704478019967", "handle": "carport-alu", "descriptionHtml": "ok", "texte_seo": "ok", "erreurs": [] },
+    { "id": "gid://shopify/Collection/704478052735", "handle": "carport-autoportant", "descriptionHtml": "ok", "texte_seo": "ok", "erreurs": [] },
+    { "id": "gid://shopify/Collection/704478216575", "handle": "carport-metallique", "descriptionHtml": "ok", "texte_seo": "ok", "erreurs": [] },
+    { "id": "gid://shopify/Collection/704478249343", "handle": "carport-toit-plat", "descriptionHtml": "ok", "texte_seo": "ok", "erreurs": [] }
+  ],
+  "theme": {
+    "themeId": "gid://shopify/OnlineStoreTheme/199781745023",
+    "fichier": "templates/page.devis.json",
+    "source": "theme-sousabri/work/templates/page.devis.json",
+    "statut": "ok",
+    "upsertedThemeFiles": ["templates/page.devis.json"],
+    "erreurs": []
+  },
+  "controle_final": {
+    "methode": "requêtes GraphQL sur les 10 produits (descriptionHtml, seo.title, seo.description, tous les metafields namespace custom), les 8 pages (body) et les 7 collections (descriptionHtml, metafield texte_seo)",
+    "occurrences_restantes_de_[A": 0,
+    "produits_verifies": 10,
+    "metafields_produits_verifies": 107,
+    "pages_verifiees": 8,
+    "collections_verifiees": 7
+  },
+  "remarques": [
+    "Contenu poussé tel quel depuis le plan et les fichiers sources, sans correction éditoriale.",
+    "Le descriptionHtml de plusieurs produits (ex. carport-acier-thermolaque-4-5x3, carport-aluminium-autoportant, carport-camping-car-aluminium, tente-carport-fermee-2-cotes, tente-garage-3x6-outsunny, tente-garage-4x6-double-porte-volet, tente-garage-4x6-fenetres) démarre par un artefact de conversion markdown : '<p>*<sous-titre>*</p><p>---*</p>' avant le premier <h3>. À vérifier visuellement sur le thème si ce n'est pas voulu.",
+    "Le seo.title du produit tente-garage-4x7-6-camping-car est tronqué : '... | Sous Abr' (le 'i' final de 'Sous Abri' manque), probablement une troncature à 60 caractères déjà présente dans le plan source.",
+    "La page 'faq' commence directement à la question 7 ('Choix et dimensions') ; les questions 1 à 6 ne figurent pas dans le body poussé — à vérifier si elles vivent ailleurs (thème, autre section) ou si c'est un oubli du plan source.",
+    "La page 'comparatif-carport-tente-garage' contient un tableau en syntaxe markdown brute ('<p>|---|---|---|...') non converti en <table> HTML — rendu probablement cassé sur le thème, à vérifier visuellement."
+  ]
+}

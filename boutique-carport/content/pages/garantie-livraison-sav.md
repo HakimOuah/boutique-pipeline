@@ -23,8 +23,8 @@ Les carports et tentes-garages sont des colis lourds, transportés par des trans
 Le délai dépend de la famille de produit, pas d'une promesse unique pour tout le catalogue :
 
 - **Tentes-garages et carport acier** (stock en France, en Allemagne ou en Pologne) : **5 à 12 jours ouvrés**.
-- **Carport aluminium 2 voitures toit plat et carport polycarbonate** (expédition DHL) : **3 à 5 semaines**.
-- **Carport aluminium 1 voiture, adossé, autoportant, camping-car et autoportant 2 pieds** : **8 à 12 semaines**, ces modèles étant fabriqués à la commande.
+- **Carports aluminium à toit arqué (autoportant, camping-car)** : **4 à 8 semaines**, ces modèles étant fabriqués à la commande.
+- **Carports aluminium sur devis (toit plat, adossé, cintré 2 pieds)** : **10 à 12 semaines** après validation du devis.
 
 Ces délais plus longs s'expliquent simplement : une fabrication à la commande et un transport en partie maritime prennent du temps, un délai que le marché des spécialistes du carport annonce lui-même entre 4 et 12 semaines selon les modèles. Nous préférons le dire avant l'achat plutôt que de le découvrir après.
 
@@ -43,11 +43,11 @@ Si une pièce manque ou arrive cassée, signalez-le **sous 48 heures** après r�
 
 ## Droit de rétractation
 
-Vous disposez d'un délai de **14 jours** à compter de la réception pour vous rétracter, sans avoir à justifier de motif, conformément au droit de la consommation. Pour un produit volumineux comme un carport, les **frais de retour sont à votre charge** : c'est un point que nous préférons annoncer avant l'achat plutôt qu'au moment du retour, compte tenu du poids et du volume de ces colis. Le remboursement intervient dans les 14 jours suivant la réception du produit retourné (ou la preuve de son expédition).
+Pour les tentes-garages et le carport acier, vous disposez d'un délai de **14 jours** à compter de la réception pour vous rétracter, sans avoir à justifier de motif, conformément au droit de la consommation. Les carports aluminium fabriqués à la commande ou à vos cotes en sont exclus (article L221-28 du Code de la consommation), ce qui est rappelé sur chaque fiche concernée avant l'achat. Pour un produit volumineux comme un carport, les **frais de retour sont à votre charge** : c'est un point que nous préférons annoncer avant l'achat plutôt qu'au moment du retour, compte tenu du poids et du volume de ces colis. Le remboursement intervient dans les 14 jours suivant la réception du produit retourné (ou la preuve de son expédition).
 
 ## Garantie légale de conformité
 
-Tous nos produits bénéficient de la **garantie légale de conformité de 2 ans**, prévue par le code de la consommation, qui couvre les défauts existants à la livraison. Nous ne proposons pas de garantie commerciale au-delà des garanties légales (conformité 2 ans, vices cachés) : nous préférons ne promettre que ce que nous tenons.
+Tous nos produits bénéficient de la **garantie légale de conformité de 2 ans**, prévue par le code de la consommation, qui couvre les défauts existants à la livraison. Nous ne proposons pas de garantie commerciale propre à Sous Abri au-delà des garanties légales (conformité 2 ans, vices cachés) : nous préférons ne promettre que ce que nous tenons. Les garanties annoncées par certains fabricants (1 an, 5 ans) sont indiquées sur les fiches concernées et engagent le fabricant.
 
 ## Paiement
 

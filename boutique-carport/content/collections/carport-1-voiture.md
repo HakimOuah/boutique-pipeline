@@ -17,8 +17,8 @@ Un carport pour une voiture demande d'abord de vérifier les dimensions réelles
 
 Ce format, plus compact que les carports 2 voitures, reste dans la plupart des cas sous le seuil des 20 m² d'emprise au sol qui ferait basculer le dossier vers un permis de construire : une déclaration préalable de travaux suffit généralement, une démarche plus légère à instruire. Ce point reste à vérifier au cas par cas selon la configuration exacte du terrain et le PLU de la commune, détaillé dans notre guide déclaration préalable.
 
-Ce modèle fait partie des carports fabriqués à la commande du catalogue, avec un délai de 8 à 12 semaines entre la commande et la livraison. Ce délai s'explique par une fabrication sur mesure plutôt qu'un stock de série, un fonctionnement courant chez les spécialistes du carport en kit.
+Ce modèle fait partie des carports fabriqués à la commande du catalogue, avec un délai de 10 à 12 semaines entre la validation du devis et la livraison. Ce délai s'explique par une fabrication sur mesure plutôt qu'un stock de série, un fonctionnement courant chez les spécialistes du carport en kit.
 
 ## Fiches du catalogue dans cette collection
 
-- Carport aluminium toit plat sur mesure, 1 voiture — sur devis, à partir de [À DÉCIDER : prix d'appel]
+- Carport aluminium toit plat sur mesure, 1 voiture — sur devis, réponse sous 48 h

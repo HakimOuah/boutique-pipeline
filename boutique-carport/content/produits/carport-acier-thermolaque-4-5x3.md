@@ -20,7 +20,7 @@ Un abri en acier thermolaqué noir, toit en tôle, dimensionné 4,5 x 3 m, livr�
 
 - Structure en acier thermolaqué, toit en tôle, coloris noir
 - Dimensions confirmées : 4,5 x 3 x 2,5 m (longueur x largeur x hauteur)
-- Le plus rapide du catalogue : livraison sous 5 à 12 jours ouvrés
+- Le plus rapide du catalogue : livraison sous 5 à 12 jours ouvrés, en 5 colis
 - Guide déclaration mairie et guide de montage offerts (numériques)
 
 **Prix :** 1 069 €
@@ -36,7 +36,7 @@ Un abri en acier thermolaqué noir, toit en tôle, dimensionné 4,5 x 3 m, livr�
 
 ### Ce qu'il protège vraiment
 
-Une voiture à l'abri de la grêle, du soleil, du gel et des fientes, sous un toit en tôle. Une tôle métallique ne laisse rien passer par le dessus, contrairement à une bâche ; en contrepartie, sous la pluie, le bruit sur la toiture est plus marqué qu'avec une bâche ou du polycarbonate `[À VÉRIFIER : niveau sonore]`. C'est un abri ouvert : pas de murs latéraux complets, la pluie portée par le vent peut atteindre l'avant ou l'arrière selon l'orientation.
+Une voiture à l'abri de la grêle, du soleil, du gel et des fientes, sous un toit en tôle d'acier colorée de 0,25 mm, nervurée et arrondie en arche. Une tôle métallique ne laisse rien passer par le dessus, contrairement à une bâche ; en contrepartie, sous la pluie, une toiture métallique est en général plus sonore qu'une bâche ou du polycarbonate. Nous n'avons pas mesuré ce niveau sonore. C'est un abri ouvert : pas de murs latéraux complets, la pluie portée par le vent peut atteindre l'avant ou l'arrière selon l'orientation.
 
 ### Faut-il le déclarer ?
 
@@ -44,19 +44,19 @@ Avec 4,5 x 3 m, ce carport couvre 13,5 m² au sol, ce qui se situe entre 5 et 20
 
 ### Le montage, honnêtement
 
-`[À VÉRIFIER : durée de montage à deux personnes, outils nécessaires]`. Une structure en acier se boulonne plutôt qu'elle ne se colle : prévoyez un jeu de clés et de douilles adaptées, et d'être deux pour porter les traverses. La notice numérotée reste `[À VÉRIFIER]`.
+Le fournisseur n'annonce ni durée de montage ni liste d'outils. Sur la base de carports acier comparables, comptez une demi-journée à une journée à deux. Une structure en acier se boulonne plutôt qu'elle ne se colle : prévoyez un jeu de clés et de douilles adaptées, et d'être deux pour porter les traverses. Les tubes sont de section 40 x 40 mm, 37 x 37 mm et 40 x 20 mm, avec des jambes de force latérales renforcées ; le kit arrive protégé par de la mousse et des coins en bois.
 
 ### L'ancrage et le vent
 
-`[À VÉRIFIER : kit d'ancrage fourni, résistance au vent en km/h]`. Sur sol meuble, des plots béton coulés hors gel (au moins 60 cm de profondeur) sont recommandés pour chaque pied ; sur dalle ou enrobé, une fixation mécanique adaptée au support. Vérifiez le serrage de chaque pied avant une tempête annoncée.
+Le fournisseur ne détaille aucun kit d'ancrage : il demande de poser le carport sur une surface ferme et plane et de l'ancrer par vent fort, sans annoncer de résistance au vent chiffrée. Nous n'affichons donc aucune vitesse. Prévoyez vous-même la fixation : sur sol meuble, des plots béton coulés hors gel (au moins 60 cm de profondeur) sont recommandés pour chaque pied ; sur dalle ou enrobé, une fixation mécanique adaptée au support. Vérifiez le serrage de chaque pied avant une tempête annoncée.
 
 ### Ce qu'il ne fait pas
 
-Ce n'est pas un garage fermé : pas de murs, pas de portes. Il ne protège pas contre le vol. La charge de neige que la toiture en tôle peut supporter n'est pas connue à ce stade `[À VÉRIFIER : charge de neige en kg/m²]` — déneigez dès qu'une couche s'accumule. Le traitement exact de l'acier (galvanisation sous le thermolaquage) n'est pas confirmé `[À VÉRIFIER]` : nous ne l'annonçons pas tant que ce n'est pas prouvé par le fournisseur.
+Ce n'est pas un garage fermé : pas de murs, pas de portes. Il ne protège pas contre le vol. Le fournisseur n'annonce aucune charge de neige pour la toiture en tôle, seulement une tenue « aux intempéries » — déneigez dès qu'une couche s'accumule. L'acier est thermolaqué (peinture poudre), annoncé résistant à la corrosion par le fournisseur ; une galvanisation sous le thermolaquage n'est pas mentionnée, nous ne l'annonçons donc pas.
 
 ### La livraison, concrètement
 
-Ce modèle est expédié depuis un stock européen (Pologne) : c'est le plus rapide du catalogue, avec un délai de 5 à 12 jours ouvrés. Le colis est livré sur rendez-vous, en bordure de trottoir ; prévoyez d'être deux pour le réceptionner `[À VÉRIFIER : poids et nombre de colis]`.
+Ce modèle est expédié depuis un stock européen (Pologne) : c'est le plus rapide du catalogue, avec un délai de 5 à 12 jours ouvrés. Le carport arrive en 5 colis, et le fournisseur prévient qu'ils n'arrivent pas forcément le même jour : attendez d'avoir les cinq avant de commencer le montage. Un colis de référence mesure 175 x 48 x 12 cm pour 29,2 kg ; le poids total n'est pas communiqué. Livraison sur rendez-vous, en bordure de trottoir ; prévoyez d'être deux pour réceptionner.
 
 ---
 
@@ -78,13 +78,14 @@ Conseil : ajoutez environ 60 cm à la longueur et à la largeur de votre véhicu
 
 | Spec | Détail |
 |---|---|
-| Structure | Acier thermolaqué |
-| Toiture | Tôle |
+| Structure | Acier thermolaqué, tubes 40 x 40 mm (paroi 1,0 mm), 37 x 37 mm (1,0 mm) et 40 x 20 mm (0,8 mm), jambes de force latérales renforcées |
+| Toiture | Tôle d'acier colorée 0,25 mm, nervurée, forme arrondie |
 | Coloris | Noir |
-| Traitement anticorrosion | `[À VÉRIFIER]` |
-| Ancrage fourni | `[À VÉRIFIER]` |
+| Traitement anticorrosion | Thermolaquage (peinture poudre), annoncé résistant à la corrosion par le fournisseur ; galvanisation non mentionnée |
+| Ancrage fourni | Non : aucun kit d'ancrage détaillé par le fournisseur, fixation à prévoir selon le support |
+| Résistance vent / neige | Non chiffrée par le fournisseur (« résistant aux intempéries ») |
 | Garantie | Garantie légale de conformité 2 ans |
-| Contenu du colis | `[À VÉRIFIER]` |
+| Contenu du colis | 1 carport en kit complet, 5 colis (colis de référence 175 x 48 x 12 cm, 29,2 kg ; poids total non communiqué), emballage mousse et coins bois |
 
 ---
 
@@ -97,19 +98,19 @@ Oui : avec 13,5 m² d'emprise au sol, il se situe entre 5 et 20 m², ce qui impo
 Ce modèle est expédié depuis un stock situé en Europe (Pologne), contrairement aux carports aluminium fabriqués à la commande. Comptez 5 à 12 jours ouvrés.
 
 **3. L'acier est-il galvanisé sous le thermolaquage ?**
-Ce n'est pas confirmé par le fournisseur à ce stade `[À VÉRIFIER]`. Nous mettrons à jour cette fiche dès que l'information est vérifiée.
+Le fournisseur ne le mentionne pas. Il annonce un acier thermolaqué résistant à la corrosion, sans parler de galvanisation : nous n'annonçons que ce qu'il confirme.
 
 **4. Le toit en tôle fait-il beaucoup de bruit sous la pluie ?**
-Une toiture métallique est plus sonore qu'une bâche ou du polycarbonate ; le niveau exact n'a pas été mesuré `[À VÉRIFIER]`.
+Une toiture métallique est en général plus sonore qu'une bâche ou du polycarbonate. Nous n'avons pas mesuré le niveau sonore de ce modèle.
 
 **5. Le carport résiste-t-il au vent ?**
-Le chiffre de résistance au vent n'est pas encore confirmé `[À VÉRIFIER]`. Un ancrage sérieux sur chaque pied reste la meilleure protection en attendant cette donnée.
+Le fournisseur n'annonce aucune vitesse de vent : il demande seulement d'ancrer le carport par vent fort. Un ancrage sérieux sur chaque pied reste la meilleure protection.
 
 **6. La toiture tient-elle sous la neige ?**
-La charge de neige supportée n'est pas encore confirmée `[À VÉRIFIER]`. Déneigez le toit dès qu'une couche s'accumule.
+Le fournisseur n'annonce aucune charge de neige. Déneigez le toit dès qu'une couche s'accumule.
 
 **7. Combien de temps prend le montage ?**
-`[À VÉRIFIER]`. Prévoyez d'être deux, avec un jeu de clés et de douilles pour le boulonnage.
+Le fournisseur n'annonce pas de durée. Sur la base de carports acier comparables, comptez une demi-journée à une journée à deux, avec un jeu de clés et de douilles pour le boulonnage.
 
 **8. Que se passe-t-il si une pièce arrive cassée ou manquante ?**
 Signalez-le sous 48 h avec photos, nous renvoyons la pièce à nos frais.
@@ -118,7 +119,7 @@ Signalez-le sous 48 h avec photos, nous renvoyons la pièce à nos frais.
 Oui, rétractation 14 jours, remboursement sous 14 jours après réception. Les frais de retour d'un colis volumineux restent à votre charge.
 
 **10. Le kit d'ancrage au sol est-il fourni ?**
-`[À VÉRIFIER]`.
+Non. Le fournisseur ne détaille aucun kit d'ancrage ; il demande de poser le carport sur une surface ferme et plane et de l'ancrer par vent fort. Prévoyez la fixation adaptée à votre sol (plots béton sur sol meuble, fixation mécanique sur dalle).
 
 ---
 
@@ -129,4 +130,4 @@ Oui, rétractation 14 jours, remboursement sous 14 jours après réception. Les 
 3. **Montage (montage) :** deux personnes boulonnant la structure acier à l'aide de la notice
 4. **Ancrage (ancrage) :** gros plan sur la fixation d'un pied du carport au sol
 5. **Plan coté (dimensions) :** schéma technique 450 x 300 x 250 cm
-6. **Livraison (livraison) :** colis du carport déposé en bordure de trottoir, sur rendez-vous, délai court
+6. **Livraison (livraison) :** les cinq colis du carport déposés en bordure de trottoir, sur rendez-vous, délai court

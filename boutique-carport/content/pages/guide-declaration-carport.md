@@ -21,7 +21,7 @@ L'emprise au sol, c'est la surface occupée au sol par la projection verticale d
 
 Concrètement, un carport pour une seule voiture (environ 12 à 15 m²) tombe presque toujours dans la case « déclaration préalable ». Un carport 2 voitures ou un abri pour camping-car, souvent au-delà de 20 m², bascule fréquemment vers le permis de construire (voir plus bas).
 
-Ces seuils sont ceux du droit commun. Le PLU de votre commune peut prévoir des règles différentes ou plus strictes (zone protégée, secteur sauvegardé, abords de monument historique), et c'est lui qui prime en cas de conflit avec la règle générale. `[À VÉRIFIER : PLU de votre commune]` — le service urbanisme de la mairie vous le confirme en quelques minutes.
+Ces seuils sont ceux du droit commun. Le PLU de votre commune peut prévoir des règles différentes ou plus strictes (zone protégée, secteur sauvegardé, abords de monument historique), et c'est lui qui prime en cas de conflit avec la règle générale. Le service urbanisme de votre mairie vous confirme en quelques minutes ce que prévoit le PLU pour votre parcelle.
 
 ## En dessous de 5 m² : dans la majorité des cas, rien à faire
 
@@ -34,7 +34,7 @@ C'est la situation la plus fréquente pour un carport 1 voiture. La déclaration
 ### La déclaration préalable, étape par étape
 
 1. **Consulter le PLU en mairie** pour connaître les règles d'aspect (couleur, matériaux) et de distance applicables à votre parcelle.
-2. **Remplir le formulaire Cerfa** de déclaration préalable pour une construction non soumise à permis (Cerfa n° 13703, dernière version en vigueur à télécharger sur service-public.fr — `[À VÉRIFIER : numéro de version en cours au moment du dépôt]`).
+2. **Remplir le formulaire Cerfa** de déclaration préalable pour une construction non soumise à permis (le formulaire Cerfa de déclaration préalable en vigueur, à télécharger sur service-public.fr).
 3. **Joindre les pièces demandées** : plan de situation du terrain, plan de masse coté (emplacement du carport, distances aux limites), plan en coupe si le terrain est en pente, une représentation de l'aspect extérieur, des photos du terrain existant. La liste exacte figure sur la notice du Cerfa.
 4. **Déposer le dossier en mairie**, en plusieurs exemplaires papier ou par voie dématérialisée si la commune propose ce service, et conserver le récépissé de dépôt.
 5. **Attendre le délai d'instruction** avant de commencer les travaux, même si tout semble simple.
@@ -42,7 +42,7 @@ C'est la situation la plus fréquente pour un carport 1 voiture. La déclaration
 
 ### Délai d'instruction
 
-Le délai de droit commun pour une déclaration préalable est d'un mois à compter du dépôt d'un dossier complet. Il peut être porté à deux mois si le terrain se trouve dans un secteur protégé (abords de monument historique, site patrimonial remarquable) ou si un avis extérieur est nécessaire. La mairie doit vous notifier ce délai majoré dans le mois suivant le dépôt ; sans nouvelle passé le délai initial, l'absence de réponse vaut le plus souvent accord tacite, mais un certificat de non-opposition demandé en mairie sécurise la suite (notamment pour la revente du bien). `[À VÉRIFIER : délai exact applicable à votre commune]`.
+Le délai de droit commun pour une déclaration préalable est d'un mois à compter du dépôt d'un dossier complet. Il peut être porté à deux mois si le terrain se trouve dans un secteur protégé (abords de monument historique, site patrimonial remarquable) ou si un avis extérieur est nécessaire. La mairie doit vous notifier ce délai majoré dans le mois suivant le dépôt ; sans nouvelle passé le délai initial, l'absence de réponse vaut le plus souvent accord tacite, mais un certificat de non-opposition demandé en mairie sécurise la suite (notamment pour la revente du bien). En général : 1 mois pour une déclaration préalable, 2 mois pour un permis de construire ; votre mairie confirme le délai applicable à votre dossier.
 
 ## Au-delà de 20 m² : le permis de construire
 
@@ -50,11 +50,11 @@ Le permis de construire est une procédure plus lourde : dossier plus complet, d
 
 ## La taxe d'aménagement
 
-La taxe d'aménagement est due, en principe, sur toute construction nouvelle soumise à déclaration préalable ou permis de construire, calculée sur une « surface taxable » qui correspond aux locaux clos et couverts sous plus de 1,80 m de hauteur. Un carport ouvert sur ses côtés, sans façade fermée, se situe souvent en dehors de cette définition et peut donc échapper à la part liée à la surface. Certaines communes appliquent en revanche une valeur forfaitaire par emplacement de stationnement extérieur créé, carport compris, dont le montant est fixé par délibération locale `[À VÉRIFIER : délibération de votre commune]`. Dans les deux cas, c'est le service urbanisme (ou le centre des finances publiques pour la partie fiscale) qui tranche, et le montant se calcule au moment du dépôt du dossier d'urbanisme — mieux vaut poser la question avant de signer, pas après réception de l'avis d'imposition.
+La taxe d'aménagement est due, en principe, sur toute construction nouvelle soumise à déclaration préalable ou permis de construire, calculée sur une « surface taxable » qui correspond aux locaux clos et couverts sous plus de 1,80 m de hauteur. Un carport ouvert sur ses côtés, sans façade fermée, se situe souvent en dehors de cette définition et peut donc échapper à la part liée à la surface. Certaines communes appliquent en revanche une valeur forfaitaire par emplacement de stationnement extérieur créé, carport compris, dont le montant est fixé par délibération locale ; seul le service urbanisme de votre commune peut vous dire si elle en a voté une. Dans les deux cas, c'est le service urbanisme (ou le centre des finances publiques pour la partie fiscale) qui tranche, et le montant se calcule au moment du dépôt du dossier d'urbanisme — mieux vaut poser la question avant de signer, pas après réception de l'avis d'imposition.
 
 ## Et la taxe foncière ?
 
-Toute construction nouvelle, y compris une petite construction dispensée de formalité d'urbanisme, doit en principe faire l'objet d'une déclaration auprès de l'administration fiscale dans les 90 jours suivant l'achèvement des travaux (déclaration des biens immobiliers, en ligne sur le site des impôts). Cette déclaration sert à mettre à jour la valeur locative cadastrale du bien, qui peut faire évoluer la taxe foncière. Un carport ouvert a un impact généralement limité, parfois nul selon les communes, mais la démarche déclarative reste due : c'est un point que plusieurs internautes de forums de bricolage confondent avec l'obligation d'urbanisme elle-même, alors que ce sont deux démarches distinctes. `[À VÉRIFIER : impact réel sur votre avis de taxe foncière]`.
+Toute construction nouvelle, y compris une petite construction dispensée de formalité d'urbanisme, doit en principe faire l'objet d'une déclaration auprès de l'administration fiscale dans les 90 jours suivant l'achèvement des travaux (déclaration des biens immobiliers, en ligne sur le site des impôts). Cette déclaration sert à mettre à jour la valeur locative cadastrale du bien, qui peut faire évoluer la taxe foncière. Un carport ouvert a un impact généralement limité, parfois nul selon les communes, mais la démarche déclarative reste due : c'est un point que plusieurs internautes de forums de bricolage confondent avec l'obligation d'urbanisme elle-même, alors que ce sont deux démarches distinctes. Seul le centre des finances publiques peut chiffrer l'effet sur votre avis de taxe foncière.
 
 ## La distance avec le voisin
 
@@ -66,11 +66,11 @@ Un carport dimensionné pour un camping-car ou une caravane dépasse presque tou
 
 ## Carport démontable, tente-garage : les mêmes règles s'appliquent
 
-Le fait qu'une structure soit vendue « sans fondation », « démontable » ou « en kit sans scellement » ne change rien au calcul : ce qui compte pour l'administration, c'est l'emprise au sol occupée, pas la façon dont la structure est fixée au sol. Une tente-garage de 4 × 6 m installée à demeure suit exactement la même grille de seuils qu'un carport rigide en aluminium ou en acier de mêmes dimensions. Le caractère temporaire ou saisonnier d'une installation peut, dans des cas très encadrés, bénéficier d'un régime allégé, mais cela ne concerne pas un usage permanent comme l'abri d'un véhicule à l'année. `[À VÉRIFIER : cas d'une installation strictement temporaire, à confirmer en mairie]`.
+Le fait qu'une structure soit vendue « sans fondation », « démontable » ou « en kit sans scellement » ne change rien au calcul : ce qui compte pour l'administration, c'est l'emprise au sol occupée, pas la façon dont la structure est fixée au sol. Une tente-garage de 4 × 6 m installée à demeure suit exactement la même grille de seuils qu'un carport rigide en aluminium ou en acier de mêmes dimensions. Le caractère temporaire ou saisonnier d'une installation peut, dans des cas très encadrés, bénéficier d'un régime allégé, mais cela ne concerne pas un usage permanent comme l'abri d'un véhicule à l'année. Si votre installation est strictement temporaire, posez la question à la mairie avant de monter la structure.
 
 ## Le cas du carport adossé
 
-Un carport accolé à la maison est souvent considéré comme une extension de la construction existante plutôt que comme une construction indépendante. Dans certaines communes couvertes par un PLU, le seuil de la déclaration préalable pour une extension peut être porté jusqu'à 40 m² d'emprise au sol cumulée avec l'existant, au lieu de 20 m² pour une construction isolée `[À VÉRIFIER : cette extension de seuil s'applique uniquement en zone urbaine couverte par un PLU, et seulement pour un agrandissement, pas pour une construction neuve non reliée au bâtiment]`. C'est une nuance qui mérite d'être posée directement au service urbanisme : elle peut faire basculer un carport adossé de 25 ou 30 m² d'un permis de construire vers une simple déclaration préalable.
+Un carport accolé à la maison est souvent considéré comme une extension de la construction existante plutôt que comme une construction indépendante. Dans certaines communes couvertes par un PLU, le seuil de la déclaration préalable pour une extension peut être porté jusqu'à 40 m² d'emprise au sol cumulée avec l'existant, au lieu de 20 m² pour une construction isolée. Ce seuil relevé ne vaut qu'en zone urbaine d'une commune couverte par un PLU, et seulement pour un agrandissement relié au bâtiment, jamais pour une construction neuve isolée. C'est une nuance qui mérite d'être posée directement au service urbanisme : elle peut faire basculer un carport adossé de 25 ou 30 m² d'un permis de construire vers une simple déclaration préalable.
 
 ## Checklist avant de commander
 

@@ -13,7 +13,7 @@ Ce guide complète la notice fournie avec votre carport, il ne la remplace pas. 
 
 Un carport se pose sur un sol stable, à peu près plan, et surtout accessible en camion pour la livraison (voir la page Garantie, livraison et SAV). Trois cas de figure reviennent :
 
-- **Terre ou pelouse** : un ancrage direct des poteaux dans le sol n'est en général pas suffisant pour tenir dans la durée. Des plots béton coulés sous chaque pied restent la solution la plus fiable, à une profondeur qui doit descendre sous la ligne de gel locale pour éviter que le mouvement du sol en hiver ne fasse bouger la structure `[À VÉRIFIER : profondeur hors gel recommandée selon votre région, à confirmer auprès d'un professionnel local]`.
+- **Terre ou pelouse** : un ancrage direct des poteaux dans le sol n'est en général pas suffisant pour tenir dans la durée. Des plots béton coulés sous chaque pied restent la solution la plus fiable, à une profondeur qui doit descendre sous la ligne de gel locale pour éviter que le mouvement du sol en hiver ne fasse bouger la structure. La profondeur hors gel varie selon la région : un professionnel local vous la confirme.
 - **Dalle béton ou enrobé déjà en place** : la fixation se fait alors par platines et chevilles adaptées au support (chimiques ou mécaniques selon l'épaisseur de la dalle). C'est la configuration la plus rapide à monter, à condition que la dalle soit assez épaisse pour tenir la cheville — un point à vérifier avant de couler quoi que ce soit, un avis client sur un carport comparable rappelant qu'une cote de largeur mal anticipée « peut poser un problème et obliger à refaire du béton ».
 - **Tente-garage sur terrain meuble** : les sardines livrées d'origine avec ce type de structure sont souvent trop courtes et trop fines pour un sol meuble. Des sardines plus longues et plus robustes, complétées par des haubans tendus sur chaque angle, réduisent nettement le jeu de la structure par vent soutenu.
 
@@ -21,7 +21,7 @@ Un carport se pose sur un sol stable, à peu près plan, et surtout accessible e
 
 Le point qui revient le plus souvent dans les retours clients sur des structures comparables, carport comme tente-garage, n'est pas la couleur ni la finition : c'est le jeu au niveau des pieds. Plusieurs témoignages décrivent un « léger jeu sur les poteaux de structure, stressant quand il y a du vent » ou des « petits grincements qui ne rassurent pas ». Trois réflexes limitent ce risque :
 
-- Respecter le contenu d'ancrage fourni avec le produit `[À VÉRIFIER : contenu exact du kit d'ancrage selon la fiche]`, sans le considérer comme optionnel.
+- Respecter le contenu d'ancrage fourni avec le produit, sans le considérer comme optionnel. Il dépend du modèle : piquets et haubans pour les tentes-garages (la tente 3 × 6 m Outsunny est livrée avec 16 piquets de sol, 4 piquets hélicoïdaux et 4 haubans), platines de pied pour les carports ; le détail figure sur chaque fiche.
 - Pour une tente-garage, tendre systématiquement les haubans à chaque angle, pas seulement sur les côtés au vent dominant.
 - Revérifier le serrage des fixations quelques semaines après le montage : les premières pluies et variations de température font parfois travailler légèrement la structure.
 
@@ -35,7 +35,7 @@ Le montage d'un carport ou d'une tente-garage n'est presque jamais un travail à
 4. Poser la toiture ou la bâche en dernier, jamais avant que la structure porteuse ne soit stable et de niveau.
 5. Tendre les haubans ou serrer les fixations finales une fois l'ensemble d'aplomb.
 
-Compter une durée de montage à deux personnes variable selon la taille et le type de structure `[À VÉRIFIER : durée de montage propre à chaque fiche]` — un avis client sur une tente-garage comparable mentionne 3 h 30 à deux, ce qui donne un ordre de grandeur pour ce type de structure, pas une promesse chiffrée pour chaque modèle du catalogue.
+Comptez, à deux : 1 à 2 h pour une tente 3 × 6 m d'après le fabricant, 3 à 4 h pour une tente 4 × 6 m selon nos estimations, une demi-journée pour un carport en kit. Un avis client sur une tente-garage comparable mentionne 3 h 30 à deux, ce qui confirme l'ordre de grandeur sans en faire une promesse chiffrée pour chaque modèle du catalogue.
 
 ## Les outils à prévoir
 
@@ -54,7 +54,7 @@ Sur les carports à toiture en plaques de polycarbonate, l'étanchéité entre l
 
 ## Le déneigement
 
-Une structure ouverte, qu'elle soit en aluminium, en acier ou en toile, n'est pas conçue pour porter le poids d'une accumulation de neige importante sans intervention. Certains fabricants de structures comparables rappellent explicitement dans leur notice qu'il faut retirer la neige du toit en cas de chute importante, sous peine de déformation ou d'effondrement de la structure. C'est un geste d'entretien simple à intégrer dès le premier hiver, avec un balai souple plutôt qu'un outil qui pourrait percer la toiture. `[À VÉRIFIER : charge de neige admissible propre à chaque fiche, à ne jamais annoncer sans preuve fournisseur]`.
+Une structure ouverte, qu'elle soit en aluminium, en acier ou en toile, n'est pas conçue pour porter le poids d'une accumulation de neige importante sans intervention. Certains fabricants de structures comparables rappellent explicitement dans leur notice qu'il faut retirer la neige du toit en cas de chute importante, sous peine de déformation ou d'effondrement de la structure. C'est un geste d'entretien simple à intégrer dès le premier hiver, avec un balai souple plutôt qu'un outil qui pourrait percer la toiture. Aucun de nos fournisseurs ne publie de charge de neige admissible en kg/m² ; nous n'en annonçons donc aucune.
 
 ## Fermer les portes avant une tempête
 
