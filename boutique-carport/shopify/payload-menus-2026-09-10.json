@@ -1,0 +1,334 @@
+{
+ "create": [
+  {
+   "handle": "mega-carports-type",
+   "title": "Mega — Carports par type",
+   "items": [
+    {
+     "title": "Carports aluminium",
+     "type": "HTTP",
+     "url": "/collections/carport-alu"
+    },
+    {
+     "title": "Carports acier et polycarbonate",
+     "type": "HTTP",
+     "url": "/collections/carport-metallique"
+    },
+    {
+     "title": "Carport autoportant",
+     "type": "HTTP",
+     "url": "/collections/carport-autoportant"
+    },
+    {
+     "title": "Carport adossé",
+     "type": "HTTP",
+     "url": "/collections/carport-adosse"
+    },
+    {
+     "title": "Carport toit plat",
+     "type": "HTTP",
+     "url": "/collections/carport-toit-plat"
+    },
+    {
+     "title": "Carport fermé",
+     "type": "HTTP",
+     "url": "/collections/carport-ferme"
+    },
+    {
+     "title": "Tous les carports",
+     "type": "HTTP",
+     "url": "/collections/all"
+    }
+   ]
+  },
+  {
+   "handle": "mega-carports-usage",
+   "title": "Mega — Carports par usage",
+   "items": [
+    {
+     "title": "Carport 1 voiture",
+     "type": "HTTP",
+     "url": "/collections/carport-1-voiture"
+    },
+    {
+     "title": "Carport 2 voitures",
+     "type": "HTTP",
+     "url": "/collections/carport-2-voitures"
+    },
+    {
+     "title": "Camping-car et caravane",
+     "type": "HTTP",
+     "url": "/collections/carport-camping-car"
+    },
+    {
+     "title": "Abri de jardin avec carport",
+     "type": "HTTP",
+     "url": "/collections/abri-de-jardin-avec-carport"
+    },
+    {
+     "title": "Carports par taille",
+     "type": "HTTP",
+     "url": "/collections/carport-3x5-tailles"
+    },
+    {
+     "title": "Tentes-garages",
+     "type": "HTTP",
+     "url": "/collections/tentes-garages"
+    }
+   ]
+  },
+  {
+   "handle": "mega-sur-mesure",
+   "title": "Mega — Sur mesure",
+   "items": [
+    {
+     "title": "Carport toit plat, 1 ou 2 voitures",
+     "type": "HTTP",
+     "url": "/pages/devis-carport-aluminium-toit-plat"
+    },
+    {
+     "title": "Carport adossé",
+     "type": "HTTP",
+     "url": "/pages/devis-carport-aluminium-adosse"
+    },
+    {
+     "title": "Carport cintré 2 pieds",
+     "type": "HTTP",
+     "url": "/pages/devis-carport-cintre-2-pieds"
+    }
+   ]
+  }
+ ],
+ "update": [
+  {
+   "id": "gid://shopify/Menu/332995690879",
+   "title": "Main menu",
+   "items": [
+    {
+     "title": "Carports",
+     "type": "HTTP",
+     "url": "/collections/carport-alu",
+     "items": [
+      {
+       "title": "Carports aluminium",
+       "type": "HTTP",
+       "url": "/collections/carport-alu"
+      },
+      {
+       "title": "Carports acier et polycarbonate",
+       "type": "HTTP",
+       "url": "/collections/carport-metallique"
+      },
+      {
+       "title": "Carport 1 voiture",
+       "type": "HTTP",
+       "url": "/collections/carport-1-voiture"
+      },
+      {
+       "title": "Carport 2 voitures",
+       "type": "HTTP",
+       "url": "/collections/carport-2-voitures"
+      },
+      {
+       "title": "Camping-car et caravane",
+       "type": "HTTP",
+       "url": "/collections/carport-camping-car"
+      },
+      {
+       "title": "Carport autoportant",
+       "type": "HTTP",
+       "url": "/collections/carport-autoportant"
+      },
+      {
+       "title": "Carport adossé",
+       "type": "HTTP",
+       "url": "/collections/carport-adosse"
+      },
+      {
+       "title": "Carport fermé",
+       "type": "HTTP",
+       "url": "/collections/carport-ferme"
+      }
+     ]
+    },
+    {
+     "title": "Tentes-garages",
+     "type": "HTTP",
+     "url": "/collections/tentes-garages"
+    },
+    {
+     "title": "Sur mesure",
+     "type": "HTTP",
+     "url": "/pages/devis-carport-aluminium-toit-plat",
+     "items": [
+      {
+       "title": "Carport toit plat sur mesure",
+       "type": "HTTP",
+       "url": "/pages/devis-carport-aluminium-toit-plat"
+      },
+      {
+       "title": "Carport adossé sur mesure",
+       "type": "HTTP",
+       "url": "/pages/devis-carport-aluminium-adosse"
+      },
+      {
+       "title": "Carport cintré 2 pieds sur mesure",
+       "type": "HTTP",
+       "url": "/pages/devis-carport-cintre-2-pieds"
+      }
+     ]
+    },
+    {
+     "title": "Guides",
+     "type": "HTTP",
+     "url": "/pages/guide-declaration-carport",
+     "items": [
+      {
+       "title": "Faut-il déclarer votre carport ?",
+       "type": "HTTP",
+       "url": "/pages/guide-declaration-carport"
+      },
+      {
+       "title": "Monter et ancrer son carport",
+       "type": "HTTP",
+       "url": "/pages/guide-montage-ancrage"
+      },
+      {
+       "title": "Carport ou tente-garage ?",
+       "type": "HTTP",
+       "url": "/pages/comparatif-carport-tente-garage"
+      },
+      {
+       "title": "FAQ",
+       "type": "HTTP",
+       "url": "/pages/faq"
+      }
+     ]
+    },
+    {
+     "title": "Contact",
+     "type": "HTTP",
+     "url": "/pages/contact"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Menu/333131645311",
+   "title": "Pied de page — Informations",
+   "items": [
+    {
+     "title": "Qui sommes-nous",
+     "type": "HTTP",
+     "url": "/pages/qui-sommes-nous"
+    },
+    {
+     "title": "FAQ",
+     "type": "HTTP",
+     "url": "/pages/faq"
+    },
+    {
+     "title": "Contactez-nous",
+     "type": "HTTP",
+     "url": "/pages/contact"
+    },
+    {
+     "title": "Livraison, garantie et SAV",
+     "type": "HTTP",
+     "url": "/pages/garantie-livraison-sav"
+    },
+    {
+     "title": "Faut-il déclarer votre carport ?",
+     "type": "HTTP",
+     "url": "/pages/guide-declaration-carport"
+    },
+    {
+     "title": "Monter et ancrer son carport",
+     "type": "HTTP",
+     "url": "/pages/guide-montage-ancrage"
+    },
+    {
+     "title": "Carport ou tente-garage ?",
+     "type": "HTTP",
+     "url": "/pages/comparatif-carport-tente-garage"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Menu/333131678079",
+   "title": "Pied de page — Légal",
+   "items": [
+    {
+     "title": "Mentions légales",
+     "type": "HTTP",
+     "url": "/policies/legal-notice"
+    },
+    {
+     "title": "Politique de confidentialité",
+     "type": "HTTP",
+     "url": "/policies/privacy-policy"
+    },
+    {
+     "title": "Politique de remboursement",
+     "type": "HTTP",
+     "url": "/policies/refund-policy"
+    },
+    {
+     "title": "Conditions générales de vente",
+     "type": "HTTP",
+     "url": "/policies/terms-of-sale"
+    },
+    {
+     "title": "Conditions générales d'utilisation",
+     "type": "HTTP",
+     "url": "/policies/terms-of-service"
+    },
+    {
+     "title": "Politique d'expédition",
+     "type": "HTTP",
+     "url": "/policies/shipping-policy"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Menu/332995723647",
+   "title": "Footer menu",
+   "items": [
+    {
+     "title": "Livraison, garantie et SAV",
+     "type": "HTTP",
+     "url": "/pages/garantie-livraison-sav"
+    },
+    {
+     "title": "Politique de remboursement",
+     "type": "HTTP",
+     "url": "/policies/refund-policy"
+    },
+    {
+     "title": "Conditions générales de vente",
+     "type": "HTTP",
+     "url": "/policies/terms-of-sale"
+    },
+    {
+     "title": "Politique de confidentialité",
+     "type": "HTTP",
+     "url": "/policies/privacy-policy"
+    },
+    {
+     "title": "Mentions légales",
+     "type": "HTTP",
+     "url": "/policies/legal-notice"
+    },
+    {
+     "title": "Qui sommes-nous",
+     "type": "HTTP",
+     "url": "/pages/qui-sommes-nous"
+    },
+    {
+     "title": "Contact",
+     "type": "HTTP",
+     "url": "/pages/contact"
+    }
+   ]
+  }
+ ]
+}

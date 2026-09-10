@@ -47,7 +47,7 @@
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
+        "menu_type_desktop": "mega",
         "sticky_header_type": "always",
         "show_line_separator": true,
         "color_scheme": "background-1",
@@ -66,10 +66,81 @@
         "padding_top": 12,
         "padding_bottom": 12
       }
+    },
+    "mega-carports": {
+      "type": "mega-menu",
+      "blocks": {
+        "col-type": {
+          "type": "column",
+          "settings": {
+            "heading": "Par type",
+            "heading_link": "/collections/carport-alu",
+            "menu": "mega-carports-type",
+            "richtext_top": "",
+            "image_top_link": "",
+            "image_bottom_link": "",
+            "richtext_bottom": ""
+          }
+        },
+        "col-usage": {
+          "type": "column",
+          "settings": {
+            "heading": "Par usage",
+            "heading_link": "/collections/carport-1-voiture",
+            "menu": "mega-carports-usage",
+            "richtext_top": "",
+            "image_top_link": "",
+            "image_bottom_link": "",
+            "richtext_bottom": ""
+          }
+        },
+        "col-devis": {
+          "type": "column",
+          "settings": {
+            "heading": "Sur mesure, sur devis",
+            "heading_link": "/pages/devis-carport-aluminium-toit-plat",
+            "menu": "mega-sur-mesure",
+            "richtext_top": "",
+            "image_top_link": "",
+            "image_bottom_link": "",
+            "richtext_bottom": "<p>Devis chiffré sous 48 h ouvrées, livraison comprise.</p>"
+          }
+        },
+        "col-image": {
+          "type": "column",
+          "settings": {
+            "heading": "",
+            "heading_link": "",
+            "richtext_top": "",
+            "image_top": "shopify://shop_images/sousabri-famille-alu.jpg",
+            "image_top_link": "/collections/carport-alu",
+            "image_bottom_link": "",
+            "richtext_bottom": "<p><strong>Faut-il déclarer votre carport ?</strong><br>Emprise au sol, seuils de 5 et 20 m², démarche en mairie : <a href=\"/pages/guide-declaration-carport\">lire le guide</a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "col-type",
+        "col-usage",
+        "col-devis",
+        "col-image"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "anchor": "Carports",
+        "column_border": false,
+        "column_number": 4,
+        "display_link_image": false,
+        "link_image_ratio": "1/1",
+        "link_image_border_radius": 8,
+        "link_image_size_desktop": 40,
+        "link_image_size_mobile": 40
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "mega-carports"
   ]
 }

@@ -5,6 +5,13 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "marque": {
+          "type": "text",
+          "settings": {
+            "heading": "Sous Abri",
+            "subtext": "<p>Carports en kit et tentes-garages livrés en France métropolitaine. Chaque fiche dit s'il faut déclarer, comment ancrer et combien de temps prend le montage. Livraison offerte, garantie légale 2 ans.</p><p>OH Ventures (SASU) — 47 rue Vivienne, 75002 Paris, France<br>SIREN 103 157 251 — TVA FR55103157251</p><p><a href=\"mailto:contact@sousabri.fr\">contact@sousabri.fr</a> · +33 7 56 82 80 94<br>Du lundi au vendredi, 9 h à 18 h</p>"
+          }
+        },
         "boutique": {
           "type": "link_list",
           "settings": {
@@ -12,51 +19,44 @@
             "menu": "footer-boutique"
           }
         },
-        "aide": {
+        "informations": {
           "type": "link_list",
           "settings": {
-            "heading": "Aide",
+            "heading": "Informations",
             "menu": "footer-aide"
           }
         },
-        "apropos": {
+        "legal": {
           "type": "link_list",
           "settings": {
-            "heading": "À propos",
+            "heading": "Légal",
             "menu": "footer-apropos"
-          }
-        },
-        "coordonnees": {
-          "type": "text",
-          "settings": {
-            "heading": "Sous Abri",
-            "subtext": "<p>Sous Abri est exploitée par OH Ventures (SASU), 47 rue Vivienne, 75002 Paris — SIREN 103 157 251 — TVA FR55103157251. Directeur de la publication : Hakim Ouahabi.</p><p>Contact : info@ohventures.fr — +33 7 56 82 80 94</p><p>Carte bancaire, PayPal (4x possible), Klarna (3x), Apple Pay, Shop Pay.</p>"
           }
         }
       },
       "block_order": [
+        "marque",
         "boutique",
-        "aide",
-        "apropos",
-        "coordonnees"
+        "informations",
+        "legal"
       ],
       "settings": {
         "color_scheme": "inverse",
         "footer_card": false,
         "border_radius": 0,
-        "newsletter_enable": false,
-        "newsletter_heading": "Abonnez-vous à nos courriels",
+        "newsletter_enable": true,
+        "newsletter_heading": "Recevez nos guides et nouveautés",
         "enable_follow_on_shop": false,
         "show_social": false,
         "enable_country_selector": false,
         "enable_language_selector": false,
         "payment_enable": true,
-        "show_policy": false,
-        "disable_shopify_powered": false,
+        "show_policy": true,
+        "disable_shopify_powered": true,
         "disable_oneclickbrand_credit": true,
         "margin_top": 0,
-        "padding_top": 52,
-        "padding_bottom": 36
+        "padding_top": 48,
+        "padding_bottom": 24
       }
     }
   },

@@ -1,3 +1,5 @@
+> Version v1 remplacée le 10/09/2026 par `politiques-sousabri-2026-09-10.md` (textes Tuftéo adaptés, demande de Hakim). Ce fichier reste pour le préambule juridique et le tableau des placeholders.
+
 # Politiques à coller dans Shopify — boutique carport (France) — v1, 09/09/2026
 
 Le connecteur Shopify de l'équipe n'a pas le droit `write_legal_policies` (règle du parc, voir `boutique-cosycathouse/shopify/policies-a-coller.md`) : coller chaque bloc HTML ci-dessous dans **Paramètres › Politiques** (Shipping, Returns & refunds, Privacy, Terms of service, Contact information). Suivre le même geste que pour Cosy Cat House.
