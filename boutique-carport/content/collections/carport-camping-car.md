@@ -1,23 +1,25 @@
 # Collection — Carport camping-car
 
 **Mot-clé :** carport camping car
-**Meta title (58 car.) :** Carport camping-car — aluminium ou tente-garage
-**Meta description (155 car.) :** Abriter un camping-car ou une caravane : carport aluminium sur mesure ou tente-garage grand format. Vérifiez la hauteur de passage avant de commander.
+**Meta title (55 car.) :** Carport camping-car : vans aménagés, caravanes, pick-up
+**Meta description (147 car.) :** Abritez van aménagé, caravane compacte, pick-up ou bateau sur remorque : carport aluminium 6 × 3,8 m, 2,50 m de passage, ou tente-garage 4 × 7,6 m.
 **H1 :** Carport camping-car
 
 ---
 
-## Texte d'intro (au-dessus de la grille, 85 mots)
+## Texte d'intro (au-dessus de la grille, 95 mots)
 
-Un camping-car ou une caravane pose une contrainte que les voitures classiques n'ont pas : la hauteur de passage. Avant la largeur ou la longueur, c'est ce chiffre qui élimine le plus de modèles pour ce type de véhicule. Cette collection réunit un carport aluminium fabriqué sur mesure et des tentes-garages grand format, plus rapides à recevoir. Compte tenu des dimensions en jeu, la plupart de ces projets dépassent le seuil des 20 m² d'emprise au sol : mieux vaut vérifier la démarche d'urbanisme avant de commander.
+Un van aménagé, une caravane compacte ou un pick-up méritent le même abri que la voiture : à l'ombre, au sec, prêts à partir. Cette collection réunit le carport aluminium à toit cintré de 6 × 3,8 m, avec 2,50 m de passage libre, et deux tentes-garages grand format, dont la 4 × 7,6 m qui accueille tout ce qui ne rentre pas dans un garage. Le bon choix tient dans une mesure : comparez la hauteur totale de votre véhicule, antennes et coffre de toit compris, à la hauteur de passage de chaque modèle.
 
-## Texte SEO (sous la grille, 238 mots)
+## Texte SEO (sous la grille, 490 mots)
 
-Le camping-car, souvent le véhicule auquel le propriétaire tient le plus, se protège en priorité de deux choses : le soleil qui dégrade le joint de toit et les capotes au fil des années, et la grêle sur une carrosserie coûteuse à réparer. Un carport aluminium sur mesure demande de vérifier trois cotes avant tout : la longueur du véhicule plus une marge (compter environ 60 cm de plus que la longueur réelle pour manœuvrer sans risque), la hauteur de passage réelle sous la structure, et l'emprise au sol totale qui déterminera la démarche à effectuer en mairie.
+Un carport camping car se choisit d'abord par la hauteur de passage, avant même la longueur ou la largeur : c'est la mesure qui décide.
 
-La tente-garage grand format constitue une alternative plus rapide à recevoir et moins chère à l'achat, avec des parois amovibles pratiques pour l'entretien régulier du toit du véhicule. Sa structure en toile demande en revanche un entretien plus actif : déneigement en cas de chute importante, portes fermées avant un épisode de vent, resserrage périodique des fixations. Pour un véhicule de cette valeur, ce sont des gestes simples mais à ne pas négliger, détaillés dans notre guide de montage et d'ancrage.
+Le carport aluminium à toit cintré de 6 × 3,8 m offre 2,50 m de passage libre. C'est l'abri des vans aménagés et des caravanes compactes : Volkswagen California (1,99 m), Mercedes Marco Polo (1,98 m), Ford Nugget (2,05 m environ) passent avec de la marge, tout comme une Eriba Touring (2,20 m environ), une caravane pliante, une mini-caravane, un SUV ou un pick-up. L'aluminium 6063-T5 ne rouille jamais ; la toiture en polycarbonate traité anti-UV laisse passer la lumière sans la chaleur et protège le joint de toit et les capotes du soleil qui les use ; la gouttière et le tube d'évacuation intégrés évitent que l'eau ruisselle sur le véhicule. Fabriqué à la commande dans votre coloris de structure et de panneaux, il est livré en 4 à 8 semaines et se fixe par platines sur une dalle béton. Comparez la hauteur totale de votre véhicule, antennes et coffre de toit compris, aux 2,50 m de passage.
 
-Quel que soit le modèle retenu, la longueur d'un camping-car ou d'une caravane (souvent 7 à 8 m) suffit généralement à elle seule à dépasser le seuil de 20 m² d'emprise au sol, ce qui fait basculer le dossier vers un permis de construire plutôt qu'une simple déclaration préalable. Notre guide déclaration préalable détaille cette bascule avant que vous ne commandiez.
+La tente-garage 4 × 7,6 m, c'est 7,65 m de long pour tout ce qui ne rentre pas dans un garage : un pick-up double cabine (Ford Ranger 1,85 m, Toyota Hilux 1,81 m environ), un utilitaire H1 comme un Kangoo, un Berlingo ou un Trafic H1 (1,85 à 1,97 m selon les versions : vérifiez la vôtre), une caravane pliante (1,2 à 1,5 m fermée), une mini-caravane teardrop (1,5 à 1,9 m), un bateau sur remorque, un quad, des motos, ou la voiture et sa remorque à la suite. Sa porte de 302 × 192 cm ouvre large ; vérifiez la hauteur de passage de 192 cm. Huit poteaux en acier galvanisé à paroi épaisse, une bâche PE 160 g/m² grise anti-UV, des parois amovibles et des fenêtres enroulables pour ventiler : trois colis, 72,9 kg, pièces pré-percées, montage à deux sans outil spécial, ancrages au sol et haubans fournis. La tente-garage Outsunny 3 × 6 m complète la collection pour les remorques, quads et petits bateaux, avec une porte de 240 × 208 cm et une hauteur réglable sur quatre niveaux.
+
+Les deux tentes-garages arrivent en 5 à 12 jours ouvrés et ouvrent droit à 14 jours de rétractation ; le carport aluminium, fabriqué à la commande, en est exclu (article L221-28 du Code de la consommation), et nous validons chaque cote avec vous avant la production. Sur ces longueurs, l'emprise au sol dépasse 20 m² : le projet relève en principe du permis de construire ; confirmez le seuil applicable auprès de votre mairie, notre guide déclaration, offert, vous y prépare. Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, service client français, réponse sous 1 jour ouvré, guide de montage et d'ancrage offert.
 
 ## Fiches du catalogue dans cette collection
 

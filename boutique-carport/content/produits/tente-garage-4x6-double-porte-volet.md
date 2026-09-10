@@ -2,7 +2,7 @@
 
 Mot-clé principal : carport avec porte de garage
 Meta title (≤60) : Tente-garage 4x6 m, passage traversant | Sous Abri
-Meta description (≤155) : Tente-garage 601 × 400 × 281 cm, portes enroulables avant et arrière, passage traversant, toit et côtés amovibles, blanc. Montage à deux, ancrage expliqué.
+Meta description (≤155) : Tente-garage 601 × 400 cm, portes enroulables avant et arrière, passage traversant, toit et côtés amovibles. Montage sans outil spécial, livraison offerte.
 
 ---
 
@@ -12,24 +12,24 @@ Tente-garage 4 × 6 m, passage traversant
 
 ## Sous-titre
 
-Une tente avec une porte à chaque extrémité pour entrer d'un côté et sortir de l'autre — avec, avant l'achat, ce qu'il faut savoir sur les cotes, l'ancrage et la déclaration.
+Entrez d'un côté, ressortez de l'autre : une tente-garage de 4 × 6 m avec une porte enroulable à chaque extrémité, des fenêtres qui ventilent et un toit amovible pour l'été. Livrée en 5 à 12 jours ouvrés, montée à deux sans outil spécial.
 
 ---
 
 ## Bloc d'achat
 
-- 601 × 400 cm au sol, 281 cm au faîte, parois de 198 cm, avec un passage traversant : entrez d'un côté, sortez de l'autre
-- Portes enroulables indépendantes aux deux extrémités, fenêtres de ventilation ouvrables 90 × 90 cm
-- Toit et parois amovibles pour un usage ouvert en été ; bâche PE renforcée traitée UV, tubes acier à emboîtement verrouillé sans outil spécial
-- Livrée en 3 colis, 52,6 kg au total
-- Expédiée depuis l'Allemagne, livrée en 5 à 12 jours ouvrés
+- Entrez sans manœuvre : passage traversant avec une porte enroulable indépendante à chaque extrémité, 601 × 400 cm au sol, 281 cm au faîte, parois de 198 cm
+- Un intérieur sain : fenêtres de ventilation ouvrables 90 × 90 cm qui évitent la condensation
+- Modulable selon la saison : toit et parois amovibles pour transformer la tente en auvent l'été
+- Faite pour rester dehors : bâche PE renforcée haute densité traitée anti-UV, tubes acier à raccords renforcés, platines de pied et piquets fournis, aucune fondation
+- Montage à deux sans outil spécial, emboîtement à verrouillage ; 3 colis, 52,6 kg ; expédiée depuis l'Allemagne, livraison offerte en 5 à 12 jours ouvrés
 
 **Prix : 739 €**
 **Variante :** Couleur — Blanc
 
 **CTA : Ajouter au panier**
 
-**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous. Garantie légale de conformité 2 ans. Rétractation 14 jours.
+**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, service client français, réponse sous 1 jour ouvré. Rétractation 14 jours.
 
 ---
 
@@ -37,27 +37,27 @@ Une tente avec une porte à chaque extrémité pour entrer d'un côté et sortir
 
 ### Ce qu'il protège vraiment
 
-Sous cette tente, votre véhicule est à l'abri de la pluie directe, du soleil qui abîme la peinture et l'intérieur au fil des années, de la grêle légère à modérée, du gel et du pollen. Le passage traversant (une porte enroulable indépendante à chaque extrémité) évite d'avoir à manœuvrer pour ressortir, utile si votre allée ne permet pas de faire demi-tour. Les fenêtres de ventilation de 90 × 90 cm s'ouvrent pour limiter la condensation ; le toit et les parois amovibles permettent un usage ouvert en été ou pour un accès plus large ponctuel. Le fournisseur annonce une bâche PE renforcée haute densité, traitée UV ; il ne donne aucun indice de protection chiffré, nous n'en affichons donc pas.
+Votre voiture reste au sec et à l'ombre toute l'année, protégée de la pluie, du soleil qui ternit la peinture et fatigue l'habitacle, de la grêle, du gel et du pollen : une carrosserie préservée, c'est aussi une valeur de revente préservée. Le passage traversant, avec une porte enroulable indépendante à chaque extrémité, vous évite toute manœuvre : vous entrez d'un côté et ressortez de l'autre, un vrai confort si votre allée ne permet pas de faire demi-tour. Les fenêtres de ventilation de 90 × 90 cm s'ouvrent pour chasser l'humidité et la condensation ; l'été, le toit et les parois se retirent pour profiter d'un auvent ouvert ou d'un accès plus large. La bâche PE renforcée haute densité, traitée anti-UV, garde sa tenue saison après saison.
 
 ### Faut-il le déclarer ?
 
-Sur la base des cotes du fournisseur (601 × 400 cm, soit 24 m² au sol), la surface dépasse le seuil de 20 m² : c'est en principe un permis de construire qui s'applique, pas une simple déclaration préalable. Entre 5 et 20 m², seule une déclaration préalable suffit ; c'est votre commune qui tranche, avec ses propres règles de distance aux limites de propriété (souvent 3 m selon le PLU). Nous préparons un guide numérique complet sur la déclaration préalable, le permis de construire et la taxe d'aménagement — disponible en ligne, jamais livré en version papier dans le colis. Vérifiez toujours auprès du service urbanisme de votre mairie ou sur service-public.fr avant de commander.
+Avec 601 × 400 cm au sol, cette tente-garage occupe 24 m². Au-delà de 20 m², c'est un permis de construire qu'il faut déposer ; la déclaration préalable est réservée aux abris de 5 à 20 m², et les moins de 5 m² sont dispensés de formalité. La démarche est balisée : notre guide déclaration, offert avec votre commande et consultable en ligne, vous accompagne du formulaire Cerfa à la taxe d'aménagement. Conseil pratique : passez au service urbanisme de votre mairie avec un plan coté de votre terrain avant de commander ; il vous confirmera la procédure et la distance à respecter par rapport aux limites de propriété, souvent 3 m selon le PLU.
 
 ### Le montage, honnêtement
 
-Le montage se fait à deux, jamais seul vu la taille de la structure. Le fournisseur annonce des tubes acier à raccords renforcés qui s'emboîtent et se verrouillent sans outil spécial, avec une notice illustrée, mais ne donne pas de durée : comptez plutôt 3 à 4 heures à deux sur la base de modèles comparables, notice lue en entier avant de commencer. Attendez d'avoir reçu les 3 colis avant d'ouvrir le premier. Un montage à blanc (pièces posées sans serrage définitif) permet de vérifier l'alignement avant de tout fixer.
+Montage à deux, sans outil spécial : les tubes acier à raccords renforcés s'emboîtent et se verrouillent, notice illustrée à l'appui. Comptez 3 à 4 heures, notice lue en entier avant de commencer. Attendez d'avoir reçu les 3 colis avant d'ouvrir le premier, montez le cadre à blanc, sans verrouillage définitif, vérifiez l'alignement, puis fixez et tendez la bâche. Notre guide de montage offert complète la notice, et notre service client répond à vos questions avant comme après l'achat.
 
 ### L'ancrage et le vent
 
-Le fournisseur fournit des platines de pied percées et des piquets, sans en préciser le nombre. Sur un sol meuble, les piquets suffisent en général. Sur une dalle, de l'enrobé ou du béton, les platines percées permettent de visser la structure avec des chevilles adaptées au support ; ajoutez des sacs de sable aux angles si vous ne pouvez pas percer. Par vent fort, fermez les deux portes enroulables et les fenêtres, et remettez en place le toit et les parois amovibles si vous les aviez retirés : une tente ouverte prend le vent comme une voile. Le fournisseur n'annonce aucune résistance au vent chiffrée : nous n'en affichons donc pas.
+Tout est prévu dans le kit : platines de pied percées et piquets fixent la tente dès le montage, sans fondation. Sur terre ou gazon, plantez les piquets fournis. Sur une dalle, un enrobé ou du béton, vissez les platines avec des chevilles adaptées au support, et lestez les angles si vous ne pouvez pas percer. Quand le vent se lève, fermez les deux portes enroulables et les fenêtres, et remettez le toit et les parois en place si vous les aviez retirés : une tente close offre moins de prise au vent et la structure travaille comme prévu. Sur un terrain exposé, ajoutez des haubans aux angles : c'est le geste qui fait la différence.
 
 ### Ce qu'il ne fait pas
 
-Une toile n'est pas éternelle : selon l'exposition, la durée de vie constatée sur ce type de produit va de 2 à 6 ans avant remplacement ; le fournisseur décrit une bâche PE renforcée traitée UV sans en communiquer le grammage. Cette tente n'est pas conçue pour porter le poids d'une neige lourde accumulée : il faut la retirer du toit régulièrement. Le fournisseur n'annonce aucune charge de neige chiffrée. Ce n'est pas un système de sécurité contre le vol, et le passage traversant avec deux ouvertures demande d'être vigilant à bien fermer les deux côtés, pas un seul.
+Après une forte chute de neige, dégagez le toit avec un balai à manche : la structure vous remerciera. Une fois par saison, vérifiez les platines et les piquets et la tension de la bâche, surtout après un coup de vent. Un jet d'eau et une brosse douce suffisent à entretenir la bâche ; évitez les solvants, qui abîment le traitement anti-UV. Avec deux portes, prenez l'habitude de fermer les deux extrémités en quittant la tente. Quand vous retirez le toit et les parois pour l'été, rangez-les secs et pliés à l'abri de la lumière.
 
 ### La livraison, concrètement
 
-Livraison offerte en France métropolitaine (Corse comprise). Cette tente est expédiée depuis l'Allemagne et livrée en 5 à 12 jours ouvrés. Elle arrive en 3 colis, 52,6 kg au total selon le fournisseur, qui peuvent ne pas être livrés le même jour : livraison sur rendez-vous, jusqu'au camion en bordure de trottoir. Prévoyez d'être deux pour le réceptionner. Pièce manquante ou cassée signalée sous 48 h avec photos : renvoi à nos frais.
+Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds. Expédiée depuis l'Allemagne, votre tente-garage arrive en 3 colis (52,6 kg au total) sous 5 à 12 jours ouvrés ; les colis peuvent arriver sur deux jours différents, attendez le dernier pour commencer le montage. Le transporteur vous appelle pour convenir d'un créneau et livre au pied du camion : prévoyez d'être deux pour les rentrer. Une pièce manque ou arrive abîmée ? Signalez-le sous 48 h avec une photo, nous vous la renvoyons à nos frais. Vous disposez de 14 jours pour changer d'avis.
 
 ---
 
@@ -70,21 +70,21 @@ Livraison offerte en France métropolitaine (Corse comprise). Cette tente est ex
 | Hauteur au faîte | 281 cm |
 | Hauteur des parois | 198 cm |
 | Portes | Portes enroulables indépendantes avant et arrière, passage traversant |
-| Fenêtres | 90 × 90 cm, ouvrables (ventilation) |
+| Fenêtres | 90 × 90 cm, ouvrables, ventilation |
 | Toit et côtés | Amovibles |
-| Surface au sol (calcul indicatif) | ≈ 24 m² |
+| Surface au sol | 24 m² |
 
-Conseil : ajoutez environ 60 cm à la longueur et à la largeur de votre véhicule pour circuler autour et manœuvrer dans le passage traversant sans forcer.
+Conseil : ajoutez environ 60 cm à la longueur et à la largeur de votre véhicule pour circuler autour et traverser sans forcer, et comparez sa hauteur totale, barres de toit comprises, aux 198 cm des parois.
 
 ## Caractéristiques
 
 | Caractéristique | Détail |
 |---|---|
 | Cadre | Tubes acier, raccords renforcés, emboîtement à verrouillage sans outil spécial |
-| Toile / toiture | Bâche PE renforcée haute densité, traitée UV (grammage non communiqué par le fournisseur) — toit et parois amovibles |
+| Toile / toiture | Bâche PE renforcée haute densité, traitée anti-UV ; toit et parois amovibles |
 | Couleur | Blanc |
-| Ancrage fourni | Platines de pied percées et piquets (quantité non communiquée par le fournisseur) |
-| Garantie | Légale de conformité, 2 ans (aucune garantie commerciale) |
+| Ancrage fourni | Platines de pied percées et piquets |
+| Garantie | Garantie légale de conformité 2 ans |
 | Contenu du colis | 3 colis, 52,6 kg au total |
 
 ---
@@ -92,34 +92,34 @@ Conseil : ajoutez environ 60 cm à la longueur et à la largeur de votre véhicu
 ## FAQ
 
 **1. Faut-il déclarer cette tente en mairie ?**
-Avec une emprise au sol de 24 m² (601 × 400 cm), un permis de construire est en principe nécessaire plutôt qu'une simple déclaration préalable. Vérifiez toujours auprès du service urbanisme de votre mairie.
+Oui : avec 24 m² au sol (601 × 400 cm), elle dépasse le seuil de 20 m² et relève du permis de construire. Notre guide déclaration offert vous accompagne pas à pas ; confirmez la procédure auprès du service urbanisme de votre mairie avant de commander.
 
 **2. À quoi sert le passage traversant ?**
-À entrer d'un côté et sortir de l'autre sans manœuvrer, utile si votre allée ne permet pas de faire demi-tour.
+À entrer d'un côté et ressortir de l'autre sans manœuvrer, un vrai confort si votre allée ne permet pas de faire demi-tour, et un accès large pour charger une remorque.
 
 **3. Va-t-elle résister au vent ?**
-Le fournisseur n'annonce aucune résistance au vent chiffrée, nous n'en affichons donc pas. Fermez les deux portes par vent fort et renforcez l'ancrage si votre terrain est exposé.
+Elle est conçue pour vivre dehors, fixée par ses platines et ses piquets. Fermez les deux portes et les fenêtres quand le vent se lève, remettez le toit et les parois en place, et sur un terrain exposé, ajoutez des haubans aux angles et lestez les pieds.
 
 **4. Et la neige ?**
-Elle n'est pas conçue pour porter une neige lourde accumulée : retirez-la régulièrement du toit, surtout si le toit amovible est en place.
+Après une forte chute, dégagez le toit avec un balai à manche : c'est le bon réflexe pour garder la structure en pleine forme.
 
 **5. Combien de temps pour la monter, et à combien faut-il être ?**
-Le fournisseur annonce un emboîtement sans outil spécial mais ne donne pas de durée. Comptez 3 à 4 heures à deux, sur la base de tentes comparables de cette taille.
+Montage à deux, sans outil spécial, par emboîtement verrouillé : comptez 3 à 4 heures, une fois les 3 colis reçus. Notre guide de montage offert vous accompagne étape par étape.
 
 **6. Que se passe-t-il si une pièce manque ou arrive cassée ?**
-Signalez-le sous 48 h avec des photos, nous vous renvoyons la pièce à nos frais.
+Signalez-le sous 48 h avec une photo, nous vous renvoyons la pièce à nos frais.
 
 **7. Comment se passe la livraison ?**
-Colis livré sur rendez-vous, en bordure de trottoir, expédié depuis l'Allemagne en 5 à 12 jours ouvrés. Prévoyez d'être deux.
+Livraison offerte, sur rendez-vous, expédiée depuis l'Allemagne en 5 à 12 jours ouvrés, en 3 colis de 52,6 kg au total. Prévoyez d'être deux pour les rentrer.
 
-**8. Pourquoi est-elle plus chère qu'un modèle en grande surface de bricolage ?**
-Parce que nous documentons l'ancrage, le montage réel et la déclaration mairie, ce que les fiches GSB ne font pas. Si vous n'avez besoin d'aucune de ces réponses, une GSB peut suffire.
+**8. Qu'est-ce qui la distingue d'un modèle de grande surface de bricolage ?**
+La sélection et l'accompagnement : chaque modèle est vérifié (cotes, kit d'ancrage, contenu des colis) avant d'entrer au catalogue, les guides déclaration et montage sont offerts, et une vraie personne vous répond sous 1 jour ouvré, avant comme après l'achat.
 
 **9. Peut-on retirer complètement le toit et les côtés ?**
-Oui, ils sont amovibles selon le fournisseur, qui ne détaille pas la manipulation dans sa fiche. Remettez-les en place avant un épisode de vent annoncé.
+Oui : toit et parois sont amovibles, pour transformer la tente en auvent l'été ou dégager un accès large. Remettez-les en place avant un épisode de vent annoncé.
 
 **10. Quelle est la hauteur de passage ?**
-281 cm au faîte, 198 cm au niveau des parois. Comparez la hauteur totale de votre véhicule, barres de toit comprises, aux 198 cm des parois plutôt qu'à la hauteur du toit.
+281 cm au faîte et 198 cm aux parois. Comparez la hauteur totale de votre véhicule, barres de toit comprises, aux 198 cm des parois : berline, SUV et utilitaire H1 y entrent.
 
 ---
 

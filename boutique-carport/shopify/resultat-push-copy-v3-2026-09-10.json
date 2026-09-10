@@ -1,0 +1,272 @@
+{
+  "date": "2026-09-10",
+  "plan_source": "plan-push-copy-v3-2026-09-10.json",
+  "shop": "zpeubn-i2.myshopify.com (Sous Abri)",
+  "theme_cible": "gid://shopify/OnlineStoreTheme/199781745023",
+  "products": [
+    {
+      "id": "gid://shopify/Product/15884512199039",
+      "handle": "carport-acier-thermolaque-4-5x3",
+      "statut": "ok",
+      "erreurs": []
+    },
+    {
+      "id": "gid://shopify/Product/15884512231807",
+      "handle": "carport-aluminium-autoportant",
+      "statut": "ok",
+      "erreurs": []
+    },
+    {
+      "id": "gid://shopify/Product/15884512264575",
+      "handle": "carport-camping-car-aluminium",
+      "statut": "ok",
+      "erreurs": []
+    },
+    {
+      "id": "gid://shopify/Product/15884512297343",
+      "handle": "tente-carport-fermee-2-cotes",
+      "statut": "ok",
+      "erreurs": []
+    },
+    {
+      "id": "gid://shopify/Product/15884512690559",
+      "handle": "tente-garage-3x6-outsunny",
+      "statut": "ok",
+      "erreurs": []
+    },
+    {
+      "id": "gid://shopify/Product/15884512723327",
+      "handle": "tente-garage-4x6-double-porte-volet",
+      "statut": "ok",
+      "erreurs": []
+    },
+    {
+      "id": "gid://shopify/Product/15884512756095",
+      "handle": "tente-garage-4x6-fenetres",
+      "statut": "ok",
+      "erreurs": []
+    },
+    {
+      "id": "gid://shopify/Product/15884513182079",
+      "handle": "tente-garage-4x6-portes-enroulables",
+      "statut": "ok",
+      "erreurs": []
+    },
+    {
+      "id": "gid://shopify/Product/15884513214847",
+      "handle": "tente-garage-4x7-6-camping-car",
+      "statut": "ok",
+      "erreurs": []
+    },
+    {
+      "id": "gid://shopify/Product/15884513247615",
+      "handle": "tente-garage-mobile-3x3",
+      "statut": "ok",
+      "erreurs": []
+    }
+  ],
+  "metafields_produits": {
+    "total_entrees": 108,
+    "batches": 5,
+    "statut": "ok",
+    "erreurs": []
+  },
+  "metafields_delete": [
+    {
+      "ownerId": "gid://shopify/Product/15884512231807",
+      "namespace": "custom",
+      "key": "contenu_colis",
+      "statut": "ok"
+    },
+    {
+      "ownerId": "gid://shopify/Product/15884512264575",
+      "namespace": "custom",
+      "key": "contenu_colis",
+      "statut": "ok"
+    }
+  ],
+  "pages": [
+    {
+      "id": "gid://shopify/Page/712222409087",
+      "handle": "comparatif-carport-tente-garage",
+      "statut": "ok",
+      "erreurs": [],
+      "seo_pousse": "ignore (PageUpdateInput sans champ seo)"
+    },
+    {
+      "id": "gid://shopify/Page/712161263999",
+      "handle": "faq",
+      "statut": "ok",
+      "erreurs": [],
+      "seo_pousse": "ignore (PageUpdateInput sans champ seo)"
+    },
+    {
+      "id": "gid://shopify/Page/712222441855",
+      "handle": "garantie-livraison-sav",
+      "statut": "ok",
+      "erreurs": [],
+      "seo_pousse": "ignore (PageUpdateInput sans champ seo)"
+    },
+    {
+      "id": "gid://shopify/Page/712222474623",
+      "handle": "guide-declaration-carport",
+      "statut": "ok",
+      "erreurs": [],
+      "seo_pousse": "ignore (PageUpdateInput sans champ seo)"
+    },
+    {
+      "id": "gid://shopify/Page/712222572927",
+      "handle": "guide-montage-ancrage",
+      "statut": "ok",
+      "erreurs": [],
+      "seo_pousse": "ignore (PageUpdateInput sans champ seo)"
+    },
+    {
+      "id": "gid://shopify/Page/712222605695",
+      "handle": "qui-sommes-nous",
+      "statut": "ok",
+      "erreurs": [],
+      "seo_pousse": "ignore (PageUpdateInput sans champ seo)"
+    },
+    {
+      "id": "gid://shopify/Page/712222638463",
+      "handle": "devis-carport-aluminium-adosse",
+      "statut": "ok",
+      "erreurs": [],
+      "seo_pousse": "ignore (PageUpdateInput sans champ seo)"
+    },
+    {
+      "id": "gid://shopify/Page/712222736767",
+      "handle": "devis-carport-aluminium-toit-plat",
+      "statut": "ok",
+      "erreurs": [],
+      "seo_pousse": "ignore (PageUpdateInput sans champ seo)"
+    },
+    {
+      "id": "gid://shopify/Page/712222769535",
+      "handle": "devis-carport-cintre-2-pieds",
+      "statut": "ok",
+      "erreurs": [],
+      "seo_pousse": "ignore (PageUpdateInput sans champ seo)"
+    }
+  ],
+  "collections": [
+    {
+      "id": "gid://shopify/Collection/704477823359",
+      "handle": "abri-de-jardin-avec-carport",
+      "statut": "ok",
+      "erreurs": [],
+      "texte_seo_metafield": "ok"
+    },
+    {
+      "id": "gid://shopify/Collection/704477856127",
+      "handle": "carport-1-voiture",
+      "statut": "ok",
+      "erreurs": [],
+      "texte_seo_metafield": "ok"
+    },
+    {
+      "id": "gid://shopify/Collection/704477888895",
+      "handle": "carport-2-voitures",
+      "statut": "ok",
+      "erreurs": [],
+      "texte_seo_metafield": "ok"
+    },
+    {
+      "id": "gid://shopify/Collection/704477921663",
+      "handle": "carport-3x5-tailles",
+      "statut": "ok",
+      "erreurs": [],
+      "texte_seo_metafield": "ok"
+    },
+    {
+      "id": "gid://shopify/Collection/704477987199",
+      "handle": "carport-adosse",
+      "statut": "ok",
+      "erreurs": [],
+      "texte_seo_metafield": "ok"
+    },
+    {
+      "id": "gid://shopify/Collection/704478019967",
+      "handle": "carport-alu",
+      "statut": "ok",
+      "erreurs": [],
+      "texte_seo_metafield": "ok"
+    },
+    {
+      "id": "gid://shopify/Collection/704478052735",
+      "handle": "carport-autoportant",
+      "statut": "ok",
+      "erreurs": [],
+      "texte_seo_metafield": "ok"
+    },
+    {
+      "id": "gid://shopify/Collection/704478085503",
+      "handle": "carport-camping-car",
+      "statut": "ok",
+      "erreurs": [],
+      "texte_seo_metafield": "ok"
+    },
+    {
+      "id": "gid://shopify/Collection/704478183807",
+      "handle": "carport-ferme",
+      "statut": "ok",
+      "erreurs": [],
+      "texte_seo_metafield": "ok"
+    },
+    {
+      "id": "gid://shopify/Collection/704478216575",
+      "handle": "carport-metallique",
+      "statut": "ok",
+      "erreurs": [],
+      "texte_seo_metafield": "ok"
+    },
+    {
+      "id": "gid://shopify/Collection/704478249343",
+      "handle": "carport-toit-plat",
+      "statut": "ok",
+      "erreurs": [],
+      "texte_seo_metafield": "ok"
+    }
+  ],
+  "theme_files": [
+    {
+      "filename": "templates/index.json",
+      "statut": "ok",
+      "erreurs": []
+    },
+    {
+      "filename": "templates/product.json",
+      "statut": "ok",
+      "erreurs": []
+    },
+    {
+      "filename": "templates/page.devis.json",
+      "statut": "ok",
+      "erreurs": []
+    },
+    {
+      "filename": "sections/header-group.json",
+      "statut": "ok",
+      "erreurs": []
+    },
+    {
+      "filename": "sections/footer-group.json",
+      "statut": "ok",
+      "erreurs": []
+    }
+  ],
+  "controle_final": {
+    "occurrences_phrases_interdites": {
+      "produits_descriptionHtml_et_metachamps": 0,
+      "pages_9_cibles": 0,
+      "collections_11_descriptionHtml_et_texte_seo": 0,
+      "theme_5_fichiers": 0,
+      "total": 0
+    },
+    "contenu_colis_supprime": {
+      "gid://shopify/Product/15884512231807": true,
+      "gid://shopify/Product/15884512264575": true
+    }
+  }
+}

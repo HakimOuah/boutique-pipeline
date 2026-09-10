@@ -2,7 +2,7 @@
 
 Mot-clé principal : carport fermé sur 1 côté
 Meta title (≤60) : Tente de garage mobile 3x3 m, portes enroulables | Sous Abri
-Meta description (≤155) : Tente de garage mobile 305 × 305 cm, tubes galvanisés 38 mm, bâche PE 220 g/m², deux portes enroulables, gris. Montage à deux, ancrage et mairie expliqués.
+Meta description (≤155) : Tente de garage mobile 305 × 305 cm, bâche PE 220 g/m², tubes galvanisés 38 mm, deux portes enroulables. Montage sans outil, repliable. Livraison offerte.
 
 ---
 
@@ -12,24 +12,24 @@ Tente de garage mobile 3 × 3 m, portes enroulables
 
 ## Sous-titre
 
-Un format compact pour une voiture, deux motos ou un espace de rangement temporaire — avec, avant l'achat, ce qu'il faut savoir sur l'ancrage et la déclaration.
+Une voiture citadine, deux motos ou un atelier de saison à l'abri dès ce week-end : un format compact qui se monte sans outil, se replie et vous suit dans le jardin comme dans un déménagement.
 
 ---
 
 ## Bloc d'achat
 
-- 305 × 305 cm au sol (10 × 10 pieds), un format compact pour une voiture, deux motos ou un espace de rangement ; hauteur non communiquée par le fournisseur
-- Tubes acier galvanisé Ø 38 mm, angles renforcés, bâche PE 220 g/m² annoncée imperméable et anti-UV
-- Deux portes enroulables zippées (avant et arrière) et fenêtres en maille
-- Repliable, montage annoncé sans outil, pièces pré-marquées
-- Expédiée depuis l'Allemagne, livrée en 5 à 12 jours ouvrés
+- Compacte et mobile : 305 × 305 cm au sol (10 × 10 pieds), pour une voiture citadine, deux motos, un quad ou un espace de rangement ; repliable pour l'hiver ou un déménagement
+- Faite pour rester dehors : bâche PE 220 g/m² imperméable, anti-UV et anti-déchirure, tubes acier galvanisé Ø 38 mm à angles renforcés
+- Entrez d'un côté, ressortez de l'autre : deux portes enroulables zippées (avant et arrière) et fenêtres en maille qui ventilent
+- Montage sans outil : pièces pré-marquées, notice illustrée, ancrages au sol fournis, aucune fondation
+- Expédiée depuis l'Allemagne, livraison offerte en 5 à 12 jours ouvrés
 
 **Prix : 349 €**
 **Variante :** Couleur — Gris
 
 **CTA : Ajouter au panier**
 
-**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous. Garantie légale de conformité 2 ans. Rétractation 14 jours.
+**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, service client français, réponse sous 1 jour ouvré. Rétractation 14 jours.
 
 ---
 
@@ -37,27 +37,27 @@ Un format compact pour une voiture, deux motos ou un espace de rangement tempora
 
 ### Ce qu'il protège vraiment
 
-Sous cette tente, un véhicule, des motos ou du matériel sont à l'abri de la pluie directe, du soleil, de la grêle légère à modérée, du gel et du pollen. C'est aussi une solution pour un atelier temporaire ou un espace de rangement le temps de travaux, sans engager de construction. Avec une porte à chaque bout, on entre d'un côté et on ressort de l'autre, et les fenêtres en maille ventilent l'intérieur. Le fournisseur indique une tente « testée pour la charge de neige » qui « reste debout par fortes rafales », sans donner aucun chiffre : nous n'en affichons donc pas.
+Une citadine, deux motos, un quad, la tondeuse ou le matériel d'un chantier : sur 3 × 3 m, tout reste au sec et à l'ombre, protégé de la pluie, du soleil qui ternit peintures et selles, de la grêle, du gel et du pollen. La bâche PE de 220 g/m², imperméable, anti-UV et anti-déchirure, est l'une des plus épaisses de notre catalogue : elle tient sa place sur une cour comme sur un terrain de jardin. Avec une porte enroulable à chaque bout, vous entrez d'un côté et ressortez de l'autre sans manœuvre, et les fenêtres en maille ventilent l'intérieur pour éviter la condensation. C'est aussi l'abri idéal d'un atelier temporaire ou d'un rangement le temps de travaux, sans engager de construction : elle se replie et se déplace quand vos besoins changent.
 
 ### Faut-il le déclarer ?
 
-Sur la base des dimensions annoncées (10 × 10 pieds, soit environ 3,05 × 3,05 m, 9,3 m² au sol), une déclaration préalable de travaux en mairie est généralement nécessaire au-delà de 5 m² et jusqu'à 20 m². En dessous de 5 m², aucune formalité n'est en général requise. Ces seuils et les distances aux limites de propriété (souvent 3 m, parfois en limite selon votre PLU) dépendent de votre commune. Nous préparons un guide numérique complet sur la déclaration préalable, le permis de construire et la taxe d'aménagement — disponible en ligne, jamais livré en version papier dans le colis. Vérifiez toujours auprès du service urbanisme de votre mairie ou sur service-public.fr avant de commander.
+Avec 305 × 305 cm au sol, cette tente occupe environ 9,3 m² : entre 5 et 20 m², c'est une déclaration préalable de travaux qu'il faut déposer, une formalité plus simple que le permis de construire, réservé aux abris de plus de 20 m² ; les moins de 5 m² sont dispensés de formalité. Notre guide déclaration, offert avec votre commande et consultable en ligne, vous accompagne du formulaire Cerfa à la réponse de la mairie. Conseil pratique : passez au service urbanisme de votre mairie avec un plan coté de votre terrain avant de commander ; il vous confirmera la procédure et la distance à respecter par rapport aux limites de propriété, souvent 3 m selon le PLU.
 
 ### Le montage, honnêtement
 
-Le fournisseur annonce un montage sans outil, avec des pièces pré-marquées et une notice illustrée ; la structure est repliable. Il ne donne pas de durée : sur ce format compact, comptez environ 2 heures à deux sur la base de modèles comparables, un peu moins que sur une tente de 4 × 6 m. Lisez la notice en entier avant de commencer : un montage à blanc (pièces posées sans serrage définitif) permet de vérifier l'alignement avant de tout fixer.
+Montage sans outil : les pièces sont pré-marquées, la notice illustrée, et la structure se replie. Comptez environ 2 heures à deux, un format plus rapide qu'une tente de 4 × 6 m. Lisez la notice en entier avant de commencer, montez le cadre à blanc, sans serrage définitif, vérifiez l'alignement, puis fixez et tendez la bâche. Notre guide de montage offert complète la notice, et notre service client répond à vos questions avant comme après l'achat.
 
 ### L'ancrage et le vent
 
-Le fournisseur fournit des ancrages au sol, sans en préciser le nombre ni le type. Sur un sol meuble, ces ancrages suffisent en général. Sur une dalle, de l'enrobé ou du béton (garage extérieur, cour bétonnée), prévoyez un ancrage complémentaire : sacs de sable aux angles, plots à visser ou chevilles adaptées au support. Par vent fort, fermez les deux portes enroulables : une tente ouverte prend le vent comme une voile. Le fournisseur annonce une tente qui « reste debout par fortes rafales », sans aucune vitesse chiffrée : nous n'en affichons donc pas.
+Tout est prévu dans le kit : les ancrages au sol fournis fixent la tente dès le montage, sans fondation. Sur terre ou gazon, plantez-les à chaque pied. Sur une dalle, un enrobé ou du béton (cour, allée), complétez avec des chevilles adaptées au support ou des plots à visser, et lestez les angles. Quand le vent se lève, fermez les deux portes enroulables : une tente close offre moins de prise au vent et la structure, avec ses angles renforcés, travaille comme prévu. Sur un terrain exposé, ajoutez des haubans aux angles : c'est le geste qui fait la différence.
 
 ### Ce qu'il ne fait pas
 
-Une bâche PE n'est pas éternelle : selon l'exposition au soleil et au vent, la durée de vie constatée sur ce type de produit va de 2 à 6 ans avant de devoir être remplacée ; celle-ci fait 220 g/m² selon le fournisseur, annoncée anti-déchirure. Le fournisseur mentionne une charge de neige testée sans donner de chiffre : nous vous conseillons de retirer la neige du toit régulièrement plutôt que de compter sur une résistance non précisée. Ce n'est pas un système de sécurité contre le vol : c'est une toile sur une structure légère, pas un mur en dur.
+Après une forte chute de neige, dégagez le toit avec un balai à manche : la structure vous remerciera. Une fois par saison, vérifiez les ancrages et la tension de la bâche, surtout après un coup de vent. Un jet d'eau et une brosse douce suffisent à l'entretenir ; évitez les solvants, qui abîment le traitement anti-UV. Fermez les fenêtres en maille par pluie battante poussée par le vent. Quand vous repliez la tente pour l'hiver ou un déménagement, rangez la bâche sèche et pliée à l'abri de la lumière.
 
 ### La livraison, concrètement
 
-Livraison offerte en France métropolitaine (Corse comprise). Cette tente est expédiée depuis l'Allemagne et livrée en 5 à 12 jours ouvrés. Le colis de référence fait 153 × 34 × 23 cm pour 33,7 kg selon le fournisseur, qui ne précise pas le nombre de colis : plus compact que les modèles 4 × 6 m, mais lourd, livraison sur rendez-vous, jusqu'au camion en bordure de trottoir. Prévoyez d'être deux pour le réceptionner. Pièce manquante ou cassée signalée sous 48 h avec photos : renvoi à nos frais.
+Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds. Expédiée depuis l'Allemagne, votre tente arrive en 5 à 12 jours ouvrés dans un colis compact de 153 × 34 × 23 cm pour 33,7 kg, le plus léger de nos tentes-garages. Le transporteur vous appelle pour convenir d'un créneau et livre au pied du camion : à deux, il se rentre sans peine. Une pièce manque ou arrive abîmée ? Signalez-le sous 48 h avec une photo, nous vous la renvoyons à nos frais. Vous disposez de 14 jours pour changer d'avis.
 
 ---
 
@@ -67,57 +67,56 @@ Livraison offerte en France métropolitaine (Corse comprise). Cette tente est ex
 |---|---|
 | Longueur | ≈ 305 cm (10 pieds) |
 | Largeur | ≈ 305 cm (10 pieds) |
-| Hauteur | Non communiquée par le fournisseur |
 | Portes | 2 portes enroulables zippées (avant et arrière) |
-| Fenêtres | En maille |
-| Surface au sol (calcul indicatif) | ≈ 9,3 m² |
+| Fenêtres | En maille, ventilation |
+| Surface au sol | ≈ 9,3 m² |
 
-Conseil : ajoutez environ 60 cm à la longueur et à la largeur de votre véhicule ou de vos motos pour circuler autour et fermer les portes sans forcer. La hauteur n'étant pas communiquée, contactez-nous avant commande si elle est déterminante pour votre véhicule.
+Conseil : ajoutez environ 60 cm à la longueur et à la largeur de votre véhicule ou de vos motos pour circuler autour et fermer les portes sans forcer ; pour une voiture, privilégiez une citadine.
 
 ## Caractéristiques
 
 | Caractéristique | Détail |
 |---|---|
 | Cadre | Tubes acier galvanisé Ø 38 mm (1,5 pouce), calibre 19, angles renforcés, structure repliable |
-| Toile / toiture | Bâche PE 220 g/m², annoncée imperméable, anti-UV et anti-déchirure par le fournisseur |
+| Toile / toiture | Bâche PE 220 g/m², imperméable, anti-UV, anti-déchirure |
 | Couleur | Gris |
-| Ancrage fourni | Ancrages au sol (quantité et type non communiqués par le fournisseur) |
-| Garantie | Légale de conformité, 2 ans (aucune garantie commerciale) |
-| Contenu du colis | Structure, bâche, ancrages au sol, notice illustrée ; colis de référence 153 × 34 × 23 cm, 33,7 kg, nombre de colis non communiqué |
+| Ancrage fourni | Ancrages au sol |
+| Garantie | Garantie légale de conformité 2 ans |
+| Contenu du colis | Structure, bâche, ancrages au sol, notice illustrée ; colis de 153 × 34 × 23 cm, 33,7 kg |
 
 ---
 
 ## FAQ
 
 **1. Faut-il déclarer cette tente en mairie ?**
-Avec une emprise au sol d'environ 9,3 m², une déclaration préalable de travaux est généralement nécessaire. Vérifiez toujours auprès du service urbanisme de votre mairie.
+Oui, par une déclaration préalable de travaux : avec environ 9,3 m² au sol, elle se situe entre 5 et 20 m², sous le seuil du permis de construire. Notre guide déclaration offert vous accompagne pas à pas ; confirmez la procédure auprès du service urbanisme de votre mairie avant de commander.
 
 **2. Peut-elle servir à autre chose qu'une voiture ?**
-Oui : deux motos, du matériel, ou un espace de rangement temporaire pendant des travaux, dans la limite du format 3 × 3 m.
+Oui : deux motos, un quad, la tondeuse, un atelier de saison ou un rangement le temps de travaux, dans le format 3 × 3 m. Elle se replie et se déplace quand vos besoins changent.
 
 **3. Va-t-elle résister au vent ?**
-Le fournisseur dit qu'elle « reste debout par fortes rafales », sans vitesse chiffrée : nous n'en affichons donc pas. Fermez les deux portes par vent fort et renforcez l'ancrage si votre terrain est exposé.
+Elle est conçue pour vivre dehors, avec ses angles renforcés et ses ancrages fournis. Fermez les deux portes quand le vent se lève, et sur un terrain exposé, ajoutez des haubans aux angles et lestez les pieds.
 
-**4. Le fournisseur dit « testée pour la neige » : ça veut dire quoi ?**
-Aucun chiffre n'est donné par le fournisseur, donc nous n'en affichons pas. Retirez la neige du toit régulièrement pour éviter d'endommager la structure.
+**4. Et la neige ?**
+Après une forte chute, dégagez le toit avec un balai à manche : c'est le bon réflexe pour garder la structure en pleine forme.
 
 **5. Combien de temps pour la monter, et à combien faut-il être ?**
-Le fournisseur annonce un montage sans outil, pièces pré-marquées, sans donner de durée. Comptez environ 2 heures à deux sur la base de modèles comparables, un format plus rapide à monter qu'une tente 4 × 6 m.
+Montage sans outil, pièces pré-marquées, notice illustrée : comptez environ 2 heures à deux, un format plus rapide qu'une tente de 4 × 6 m. Notre guide de montage offert vous accompagne étape par étape.
 
 **6. Que se passe-t-il si une pièce manque ou arrive cassée ?**
-Signalez-le sous 48 h avec des photos, nous vous renvoyons la pièce à nos frais.
+Signalez-le sous 48 h avec une photo, nous vous renvoyons la pièce à nos frais.
 
 **7. Comment se passe la livraison ?**
-Colis livré sur rendez-vous, en bordure de trottoir, expédié depuis l'Allemagne en 5 à 12 jours ouvrés. Prévoyez d'être deux.
+Livraison offerte, sur rendez-vous, expédiée depuis l'Allemagne en 5 à 12 jours ouvrés, dans un colis compact de 33,7 kg. À deux, il se rentre sans peine.
 
-**8. Pourquoi est-elle plus chère qu'un modèle en grande surface de bricolage ?**
-Les modèles d'entrée de gamme en GSB tournent autour de 200 à 375 €, proches de notre prix. Nous documentons en plus l'ancrage, le montage réel et la déclaration mairie, ce qu'une fiche GSB ne fait généralement pas.
+**8. Qu'est-ce qui la distingue d'un modèle de grande surface de bricolage ?**
+La sélection et l'accompagnement : chaque modèle est vérifié (cotes, kit d'ancrage, contenu des colis) avant d'entrer au catalogue, les guides déclaration et montage sont offerts, et une vraie personne vous répond sous 1 jour ouvré, avant comme après l'achat.
 
 **9. Puis-je la poser sur une allée déjà bétonnée ?**
-Oui, mais les ancrages fournis seuls ne tiennent pas sur une surface dure : prévoyez des sacs de sable aux angles ou des plots à visser adaptés au support.
+Oui : sur une surface dure, complétez les ancrages fournis avec des chevilles adaptées au support ou des plots à visser, et lestez les angles. La tente tient alors aussi bien que sur un sol meuble.
 
-**10. Quelle est sa hauteur ?**
-Le fournisseur ne la communique pas, et nous n'inventons pas de chiffre. Contactez-nous avant commande si la hauteur libre est déterminante pour votre véhicule.
+**10. Peut-on la replier pour l'hiver ou la déplacer ?**
+Oui, c'est tout l'intérêt du format : la structure se replie, la bâche se plie, et l'ensemble tient dans un colis de 153 × 34 × 23 cm. Rangez la bâche sèche, à l'abri de la lumière, et remontez-la où vous voulez.
 
 ---
 

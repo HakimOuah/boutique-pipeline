@@ -19,7 +19,7 @@ for h,pid in PID.items():
     add("sous_titre",st,"single_line_text_field")
     dims=section(t,"Dimensions et capacité").split("\n---")[0]; car=section(t,"Caractéristiques").split("\n---")[0]
     add("specifications",MD(mark(dims+"\n\n"+car)))
-    achat=section(t,"Bloc d'achat"); m=re.search(r"livr[ée]e?s? (?:en|sous) ([^\n,.;]+)",achat)
+    achat=section(t,"Bloc d'achat"); m=re.search(r"(\d+ à \d+ (?:jours ouvrés|semaines))",achat)
     add("delai_livraison",(m.group(1).strip() if m else ""),"single_line_text_field")
     m=re.search(r"\|\s*Contenu du colis\s*\|\s*(.+?)\s*\|",car)
     add("contenu_colis",MD(mark(m.group(1))) if m else "")

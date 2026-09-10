@@ -1,17 +1,17 @@
 # Contact — Sous Abri
 
-Copy source : `boutique-carport/BRIEF-COPY.md` (§4, chiffres réponse support et coordonnées OH Ventures).
+Copy source : `boutique-carport/BRIEF-COPY.md` (§4, chiffres réponse support et coordonnées OH Ventures) · charte `CHARTE-COPY-2026-09-10.md`.
 
 **Mot-clé principal :** contact Sous Abri (page de service, pas d'acquisition SEO)
 **Meta title (≤60) :** Contact — Sous Abri (21 car.)
-**Meta description (≤155) :** Une question avant ou après votre commande de carport ? Écrivez-nous ou appelez-nous, réponse sous 1 jour ouvré du lundi au vendredi. (135 car.)
+**Meta description (≤155) :** Une question avant ou après votre commande de carport ? Écrivez-nous ou appelez-nous : un conseiller vous répond sous 1 jour ouvré, du lundi au vendredi. (149 car.)
 **H1 :** Contact
 
 ---
 
 ## Intro
 
-Une question sur un modèle, une déclaration en mairie, une livraison en cours ou une pièce manquante : écrivez-nous ou appelez-nous. Nous répondons nous-mêmes, sous 1 jour ouvré, du lundi au vendredi.
+Une question sur un modèle, les cotes de votre allée, une déclaration en mairie, une livraison en cours ou une pièce à remplacer : écrivez-nous ou appelez-nous. Un conseiller qui connaît chaque modèle du catalogue vous répond sous 1 jour ouvré, du lundi au vendredi, avant comme après l'achat.
 
 ## Formulaire de contact
 
@@ -21,18 +21,18 @@ Champs proposés :
 - Numéro de commande (si applicable)
 - Sujet (menu déroulant : Avant achat · Suivi de livraison · Pièce manquante ou cassée · Retour / rétractation · Autre)
 - Message
-- Pièces jointes (photos) — `[À VÉRIFIER : le thème gère-t-il l'upload de fichiers sur le formulaire de contact]`
+- Pièces jointes (photos)
 
 **Bouton :** Poser ma question
 
 ## Ce qu'il est utile de préparer avant de nous écrire
 
 - Votre **numéro de commande**, si vous avez déjà commandé.
-- Des **photos** si vous signalez une pièce manquante, cassée, ou un défaut à la livraison (à joindre dans les 48 heures suivant la réception).
-- Les **dimensions de votre allée ou de votre emplacement** (longueur, largeur, hauteur disponible) si votre question porte sur le choix d'un modèle.
-- Le **nom exact de la fiche produit** qui vous intéresse ou concerne votre commande.
+- Des **photos** si vous signalez une pièce manquante ou cassée à la livraison (sous 48 heures après réception : la pièce vous est renvoyée à nos frais).
+- Les **dimensions de votre allée ou de votre emplacement** (longueur, largeur, hauteur disponible) si votre question porte sur le choix d'un modèle : nous vérifions les cotes avec vous.
+- Le **nom de la fiche produit** qui vous intéresse ou qui concerne votre commande.
 
-Avec ces éléments, nous pouvons répondre en une seule fois, sans aller-retour inutile.
+Avec ces éléments, nous vous répondons en une seule fois, avec une réponse précise.
 
 ## Autres façons de nous joindre
 
@@ -42,8 +42,9 @@ Avec ces éléments, nous pouvons répondre en une seule fois, sans aller-retour
 
 ## Réassurance
 
-- Réponse sous 1 jour ouvré, du lundi au vendredi
+- Service client français, réponse sous 1 jour ouvré, du lundi au vendredi
 - Pièce manquante ou cassée signalée sous 48 h avec photos : renvoi à nos frais
+- Conseil avant et après l'achat, guides déclaration et montage offerts
 - SIREN 103 157 251 · TVA FR55103157251 · Directeur de la publication : Hakim Ouahabi
 
 ---

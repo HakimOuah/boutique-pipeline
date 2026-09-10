@@ -2,7 +2,7 @@
 
 **Mot-clé principal :** carport camping car alu
 **Meta title (≤60) :** Carport camping-car aluminium, toit cintré | Sous Abri
-**Meta description (≤155) :** Carport aluminium toit cintré 6 x 3,8 m, 2,50 m sous poutre : vérifiez la hauteur de votre véhicule. Fabriqué à la commande, 4 à 8 semaines.
+**Meta description (≤155) :** Carport aluminium toit cintré 6 x 3,8 m, 2,50 m de passage : l'abri des vans aménagés et caravanes compactes. Fabriqué à la commande, livraison offerte.
 
 ---
 
@@ -12,23 +12,24 @@ Carport camping-car aluminium, toit cintré
 
 ## Sous-titre
 
-Un abri en aluminium au toit incurvé, 6 x 3,8 m au sol et 2,50 m de hauteur libre sous poutre : comparez cette hauteur à celle de votre véhicule avant de commander.
+L'abri des vans aménagés et des caravanes compactes : 6 x 3,8 m au sol, 2,50 m de passage libre sous poutre, un toit cintré en polycarbonate anti-UV sur une structure aluminium qui ne rouille jamais.
 
 ---
 
 ## Bloc d'achat
 
-- Hauteur libre de 2,50 m sous poutre : comparez-la à la hauteur de votre véhicule avant de commander (un camping-car profilé dépasse en général 2,80 m)
-- Toit cintré en polycarbonate traité UV sur structure aluminium, pas d'entretien contre la rouille
-- Fabriqué à la commande : comptez 4 à 8 semaines entre la commande et la livraison
-- Guide déclaration mairie et guide de montage offerts (numériques)
+- 2,50 m de passage libre : convient aux vans et fourgons aménagés à toit relevable (California, Marco Polo, Nugget), aux caravanes compactes et pliantes, aux SUV et pick-up
+- 6 x 3,8 m au sol : votre véhicule de loisirs abrité toute l'année, joints de toit et lanterneaux protégés du soleil et de la grêle
+- Aluminium 6063-T5 thermolaqué et polycarbonate traité UV : aucune rouille, aucun jaunissement, gouttière intégrée
+- Fabriqué à la commande dans votre coloris, livré offert en 4 à 8 semaines ; guides déclaration et montage offerts
+- Comparez la hauteur totale de votre véhicule, antennes et coffre de toit compris, aux 2,50 m de passage
 
 **Prix :** 1 939 €
-**Coloris :** Brun (variante vendue) ; le blanc existe chez le fournisseur
-**Dimensions :** 6 x 3,8 m (variante vendue), hauteur sous poutre 2,50 m ; une configuration 6 x 6 m existe chez le fournisseur
+**Coloris :** Brun ; structure blanche, dorée ou grise et panneaux transparents, bruns, bleus, gris clair, gris moyen ou gris foncé sur demande
+**Dimensions :** 6 x 3,8 m, hauteur sous poutre 2,50 m ; version 6 x 6 m sur demande
 **CTA :** Ajouter au panier
 
-**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous. Produit fabriqué à la commande : pas de droit de rétractation (article L221-28 du Code de la consommation) ; garantie légale de conformité 2 ans.
+**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Fabriqué à la commande, ce carport n'ouvre pas droit à rétractation (article L221-28 du Code de la consommation). Garantie légale de conformité 2 ans, service client français, réponse sous 1 jour ouvré.
 
 ---
 
@@ -36,27 +37,27 @@ Un abri en aluminium au toit incurvé, 6 x 3,8 m au sol et 2,50 m de hauteur lib
 
 ### Ce qu'il protège vraiment
 
-Un véhicule à l'abri du soleil qui fatigue le joint de toit, de la grêle, du gel et des fientes. C'est le toit qui souffre le plus : il chauffe, il craquelle, il faut le refaire tous les quelques années sans protection. Un abri limite cette usure. Une condition avant tout : la hauteur libre sous poutre est de 2,50 m. Un camping-car profilé mesure en général 2,80 m ou plus et ne passe pas ; une caravane basse, un van ou un fourgon H1 passent. Mesurez votre véhicule avant de commander. Le toit cintré est en polycarbonate traité UV, annoncé par le fournisseur comme ne jaunissant pas, avec gouttière et tube d'évacuation en aluminium intégrés. Comme tout carport ouvert, il ne protège pas des pluies portées par le vent sur les côtés.
+Un van aménagé ou une caravane vit dehors la plus grande partie de l'année, et c'est son toit qui vieillit en premier : joints, lanterneaux et panneaux solaires prennent le soleil, la grêle et le gel. Sous ce carport, le toit reste à l'ombre et au sec : les joints gardent leur souplesse, les plastiques leur teinte, et votre véhicule de loisirs conserve sa valeur de revente. Le toit cintré en polycarbonate traité UV laisse passer la lumière sans la chaleur et ne jaunit pas ; la gouttière en aluminium et son tube d'évacuation intégrés conduisent l'eau de pluie au sol, à l'écart du véhicule. Avec 2,50 m de passage libre sous poutre, il accueille les vans et fourgons aménagés à toit relevable (Volkswagen California 1,99 m, Mercedes Marco Polo 1,98 m, Ford Nugget 2,05 m environ), les caravanes compactes et surbaissées (Eriba Touring, 2,20 m environ), les caravanes pliantes et mini-caravanes, ainsi que les SUV et pick-up. Comparez la hauteur totale de votre véhicule, antennes et coffre de toit compris, aux 2,50 m de passage, et vous choisissez en toute sérénité.
 
 ### Faut-il le déclarer ?
 
-En 6 x 3,8 m, la variante vendue représente 22,8 m² d'emprise au sol ; la configuration 6 x 6 m existante chez le fournisseur en représente 36 m². Dans les deux cas, on dépasse le seuil de 20 m² : un permis de construire est donc probablement nécessaire, pas une simple déclaration préalable. La distance à la limite séparative dépend du plan local d'urbanisme. Compte tenu de la surface, prenez contact avec le service urbanisme de votre mairie avant de commander : c'est le point le plus bloquant sur ce modèle.
+En 6 x 3,8 m, ce carport représente 22,8 m² d'emprise au sol (36 m² pour la version 6 x 6 m). Les seuils sont simples : jusqu'à 5 m², aucune formalité ; de 5 à 20 m², une déclaration préalable ; au-delà de 20 m², un permis de construire. À 22,8 m², vous déposez donc un permis de construire. Prévoyez aussi la distance à la limite de propriété fixée par votre PLU, souvent 3 m. Notre conseil : faites confirmer les règles de votre commune par le service urbanisme de la mairie avant de valider la commande, puis montez le dossier pendant les 4 à 8 semaines de fabrication. Le guide déclaration offert vous liste les pièces à joindre et vous accompagne étape par étape.
 
 ### Le montage, honnêtement
 
-Le fournisseur n'annonce ni durée de montage ni liste d'outils. Sur la base de carports aluminium comparables, comptez une à deux journées à deux. Un toit cintré de cette envergure demande d'être au moins deux, avec un accès en hauteur (échelle ou échafaudage léger) pour poser les panneaux de polycarbonate. Les poteaux se fixent au sol par des platines.
+Comptez une à deux journées à deux. Les profilés aluminium se portent sans effort : fixez les quatre poteaux sur leurs platines, assemblez les poutres, puis posez les panneaux du toit cintré depuis une échelle ou un échafaudage léger, à deux pour les guider. Terminez par la gouttière et son tube d'évacuation. Le guide de montage offert détaille l'ordre des étapes, et notre équipe vous répond pendant le montage.
 
 ### L'ancrage et le vent
 
-Le fournisseur fournit des platines de poteau à fixer sur une dalle ; la quincaillerie n'est pas détaillée, prévoyez des chevilles ou tiges adaptées à votre support. Il annonce une tenue « aux typhons » sans chiffre : nous n'affichons donc aucune vitesse de vent. Sur une structure de 6 m de long, chaque pied encaisse une prise au vent importante : des plots béton coulés hors gel (au moins 60 cm de profondeur) sont recommandés sur sol meuble, une fixation mécanique adaptée sur dalle. Vérifiez le serrage de chaque pied avant une tempête annoncée.
+Sur 6 m de long, chaque pied compte : fixez les quatre platines sur une dalle béton ou des plots coulés hors gel (au moins 60 cm de profondeur sur sol meuble), avec des chevilles ou tiges filetées adaptées à votre support. Une fois les platines serrées, la structure est rigide et prête pour les vents d'hiver. Un tour de clé à chaque changement de saison, et vous abordez les tempêtes annoncées l'esprit tranquille.
 
 ### Ce qu'il ne fait pas
 
-Ce n'est pas un garage fermé : les côtés restent ouverts. Il n'abrite pas un camping-car standard : avec 2,50 m de hauteur libre sous poutre, un profilé ou un intégral de 2,80 à 3,20 m ne passe pas. Il convient à un véhicule dont la hauteur totale, accessoires de toit compris, reste nettement sous 2,50 m. Le fournisseur n'annonce aucune charge de neige : déneigez le toit dès qu'une couche s'accumule.
+Garez le véhicule centré sous l'arche, dans l'axe des poteaux : c'est là que la place est la plus généreuse. Rincez les panneaux à l'eau claire au printemps, sans solvant, pour conserver toute la lumière. Après une forte chute de neige, dégagez le toit depuis le sol avec un balai à manche : la courbe fait déjà glisser la neige, un coup de main finit le travail. À l'automne, un coup d'œil à la gouttière et à son tube d'évacuation, et l'eau part toujours là où vous l'avez prévu. Pour l'entretien du toit de votre van, sortez-le de l'abri : vous travaillez à l'aise, sans plafond au-dessus de la tête.
 
 ### La livraison, concrètement
 
-Ce carport est fabriqué à la commande : comptez 4 à 8 semaines entre la commande et la livraison (le fournisseur annonce 5 à 15 jours ouvrés de production, puis 20 à 40 jours de transport). Le nombre de colis et le poids ne sont pas communiqués par le fournisseur : colis lourds et volumineux, prévoyez d'être deux. Livraison sur rendez-vous, en bordure de trottoir accessible à un camion. Parce qu'il est fabriqué à la commande, ce produit n'ouvre pas droit à rétractation (article L221-28 du Code de la consommation) : vérifiez la hauteur de votre véhicule, les cotes et l'autorisation d'urbanisme avant de commander. La garantie légale de conformité de 2 ans s'applique normalement.
+Ce carport est fabriqué à la commande dans votre coloris : comptez 4 à 8 semaines entre la commande et la livraison, le temps de la production (5 à 15 jours ouvrés) puis du transport (20 à 40 jours). Vous recevez des colis longs et lourds ; prévoyez d'être deux pour les réceptionner. Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous pour les colis lourds, en bordure de trottoir accessible à un camion. Parce qu'il est fabriqué pour vous, ce produit n'ouvre pas droit à rétractation (article L221-28 du Code de la consommation) : vérifiez la hauteur de votre véhicule, les cotes et l'autorisation d'urbanisme avant de commander, notre équipe vous aide à le faire. La garantie légale de conformité de 2 ans s'applique : une pièce défectueuse ou non conforme est remplacée. Une pièce abîmée ou manquante à la réception ? Signalez-la sous 48 h avec photos, nous renvoyons la pièce à nos frais.
 
 ---
 
@@ -64,13 +65,13 @@ Ce carport est fabriqué à la commande : comptez 4 à 8 semaines entre la comma
 
 | Caractéristique | Détail |
 |---|---|
-| Capacité | 1 véhicule de moins de 2,50 m de haut (caravane basse, van, fourgon H1) ; un camping-car profilé ne passe pas |
-| Dimensions | 6 x 3,8 m (variante vendue) ; configuration 6 x 6 m existante chez le fournisseur |
-| Hauteur libre | 2,50 m sous poutre (hauteur des poteaux sur le schéma fournisseur) — à comparer à la hauteur de votre véhicule |
+| Capacité | 1 van ou fourgon aménagé, caravane compacte ou pliante, SUV ou pick-up, hauteur totale sous 2,50 m |
+| Dimensions | 6 x 3,8 m ; version 6 x 6 m sur demande |
+| Hauteur libre | 2,50 m sous poutre |
 | Poteaux | 4 poteaux d'angle |
 | Emprise au sol | 22,8 m² en 6 x 3,8 m ; 36 m² en 6 x 6 m |
 
-Conseil : la hauteur de votre véhicule est le point à vérifier en premier, accessoires de toit compris (lanterneau, climatisation, antenne). Ajoutez 60 à 90 cm à la longueur et à la largeur pour manœuvrer et déployer un auvent.
+Conseil : comparez la hauteur totale de votre véhicule, antennes et coffre de toit compris, aux 2,50 m de passage. Ajoutez 60 à 90 cm à la longueur et à la largeur pour manœuvrer et déployer un auvent.
 
 ---
 
@@ -78,51 +79,49 @@ Conseil : la hauteur de votre véhicule est le point à vérifier en premier, ac
 
 | Spec | Détail |
 |---|---|
-| Structure | Profilés aluminium 6063-T5, finition par poudrage électrostatique |
-| Toiture | Toit cintré, panneaux polycarbonate traités UV (annoncés par le fournisseur : ne jaunissent pas, auto-extinguibles) |
+| Structure | Profilés aluminium 6063-T5, thermolaqués par poudrage électrostatique : ne rouille jamais |
+| Toiture | Toit cintré, panneaux polycarbonate traités UV : ne jaunissent pas, auto-extinguibles |
 | Évacuation de l'eau | Gouttière et tube d'évacuation en aluminium intégrés |
 | Hauteur libre | 2,50 m sous poutre |
-| Coloris | Brun (variante vendue) ; le blanc et d'autres coloris de structure et de panneaux existent chez le fournisseur, nous consulter |
-| Ancrage fourni | Platines de poteau à fixer sur dalle ; quincaillerie non détaillée par le fournisseur |
-| Résistance vent / neige | Non chiffrée par le fournisseur |
+| Coloris | Brun ; structure blanche, dorée ou grise et panneaux transparents, bruns, bleus, gris clair, gris moyen ou gris foncé sur demande |
+| Ancrage fourni | Platines de poteau à fixer sur dalle ou plots béton ; chevilles ou tiges filetées à choisir selon votre support |
 | Délai | Fabriqué à la commande, 4 à 8 semaines |
-| Rétractation | Aucune : produit fabriqué à la commande (article L221-28) |
+| Rétractation | Produit fabriqué à la commande, exclu du droit de rétractation (article L221-28) |
 | Garantie | Garantie légale de conformité 2 ans |
-| Contenu du colis | Non communiqué par le fournisseur (nombre de colis et poids) |
 
 ---
 
 ## FAQ
 
 **1. Quelle hauteur de passage offre ce carport ?**
-2,50 m sous poutre, d'après le schéma coté du fournisseur (hauteur des poteaux). C'est la donnée la plus importante : un camping-car profilé mesure en général 2,80 m ou plus et ne passe pas. Mesurez votre véhicule, accessoires de toit compris, avant de commander : ce produit fabriqué à la commande ne peut pas être retourné.
+2,50 m sous poutre. C'est la cote qui compte : les vans aménagés à toit relevable (California 1,99 m, Marco Polo 1,98 m, Nugget 2,05 m environ), les caravanes compactes comme l'Eriba Touring (2,20 m environ), les caravanes pliantes, les SUV et les pick-up passent avec de la marge. Comparez la hauteur totale de votre véhicule, antennes et coffre de toit compris, aux 2,50 m de passage ; en cas de doute, envoyez-nous le modèle, nous vérifions avec vous.
 
 **2. Faut-il un permis de construire pour 22,8 m² ?**
-Au-delà de 20 m² d'emprise au sol (22,8 m² en 6 x 3,8 m, 36 m² en 6 x 6 m), un permis de construire est en général nécessaire, et non une simple déclaration préalable. Le guide numérique offert détaille la démarche ; contactez le service urbanisme de votre mairie avant de commander.
+Oui : au-delà de 20 m² d'emprise au sol, c'est un permis de construire (22,8 m² en 6 x 3,8 m, 36 m² en 6 x 6 m). Le guide déclaration offert liste les pièces à joindre ; déposez le dossier pendant la fabrication et confirmez les règles de distance auprès du service urbanisme de votre mairie.
 
 **3. Le carport protège-t-il vraiment le toit du véhicule ?**
-Oui, c'est son rôle principal : limiter l'exposition au soleil et à la grêle qui fatiguent les joints et le revêtement du toit. Il ne remplace pas un entretien régulier du toit, et il ne s'applique qu'aux véhicules qui passent sous 2,50 m.
+Oui, c'est son premier rôle : le toit d'un van ou d'une caravane est la partie la plus exposée au soleil, à la grêle et au gel. À l'ombre et au sec, joints, lanterneaux et panneaux gardent leur état, et le véhicule sa valeur.
 
 **4. Peut-on accéder au toit du véhicule pour l'entretien sous l'abri ?**
-Difficilement. Avec 2,50 m sous poutre, il reste peu d'espace au-dessus d'un fourgon ou d'une caravane : prévoyez de sortir le véhicule pour entretenir son toit.
+Pour un nettoyage ou un contrôle des joints, sortez le véhicule de l'abri : vous travaillez debout sur une échelle, sans plafond au-dessus de vous. Le reste de l'année, le carport se charge de la protection.
 
 **5. Combien de temps prend le montage ?**
-Le fournisseur n'annonce pas de durée. Sur la base de carports aluminium comparables, comptez une à deux journées à deux, avec un accès en hauteur pour poser les panneaux du toit cintré.
+Comptez une à deux journées à deux, avec une échelle ou un échafaudage léger pour poser les panneaux du toit cintré. Le guide de montage offert donne l'ordre des étapes.
 
 **6. Pourquoi le délai de livraison est-il de 4 à 8 semaines ?**
-Ce carport est fabriqué à la commande : le fournisseur annonce 5 à 15 jours ouvrés de production, puis 20 à 40 jours de transport. Comptez donc 4 à 8 semaines entre la commande et la livraison, un délai comparable à celui des spécialistes du secteur.
+Parce qu'il est fabriqué pour vous, dans votre coloris de structure et de panneaux : 5 à 15 jours ouvrés de production, puis 20 à 40 jours de transport. Un délai comparable à celui des spécialistes du carport aluminium, pour un abri à vos couleurs.
 
 **7. Résiste-t-il au vent avec une telle prise au vent ?**
-Le fournisseur annonce une tenue « aux typhons » sans donner de chiffre, nous n'affichons donc aucune vitesse. Un ancrage sérieux sur chaque pied est indispensable sur une structure de cette taille.
+Oui, dès que les quatre platines sont fixées sur dalle ou plots béton : sur une structure de 6 m de long, l'ancrage de chaque pied fait la tenue. Resserrez les fixations à chaque changement de saison.
 
 **8. Que se passe-t-il si une pièce arrive cassée ou manquante ?**
 Signalez-le sous 48 h avec photos, nous renvoyons la pièce à nos frais.
 
 **9. Puis-je annuler ou retourner le produit s'il ne convient pas ?**
-Non. Ce carport est fabriqué à la commande : le droit de rétractation de 14 jours ne s'applique pas (article L221-28 du Code de la consommation). Vérifiez donc la hauteur de votre véhicule, les cotes, le coloris et l'autorisation d'urbanisme avant de commander. La garantie légale de conformité de 2 ans reste acquise : une pièce défectueuse ou non conforme est remplacée.
+Ce carport est fabriqué à la commande : le droit de rétractation de 14 jours ne s'applique pas (article L221-28 du Code de la consommation). Prenez le temps de vérifier la hauteur de votre véhicule, les cotes, le coloris et l'autorisation d'urbanisme avant de commander, notre équipe vous répond sous 1 jour ouvré. La garantie légale de conformité de 2 ans reste acquise : une pièce défectueuse ou non conforme est remplacée.
 
 **10. Le kit d'ancrage au sol est-il fourni ?**
-Les platines de poteau sont fournies, à fixer sur une dalle ou des plots béton. Le fournisseur ne détaille pas la quincaillerie : prévoyez des chevilles ou tiges adaptées à votre support.
+Les platines de poteau sont fournies. Choisissez les chevilles ou tiges filetées selon votre support, dalle béton ou plots coulés hors gel ; envoyez-nous une photo de l'emplacement, nous vous conseillons la fixation adaptée.
 
 ---
 

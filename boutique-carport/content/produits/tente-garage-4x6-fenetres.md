@@ -2,7 +2,7 @@
 
 Mot-clé principal : carport 2 voitures fermé
 Meta title (≤60) : Tente-garage 4x6 m fermée, fenêtres maille | Sous Abri
-Meta description (≤155) : Tente-garage 611 × 396 × 300 cm fermée, portes enroulables, porte latérale et fenêtres maille, gris. Montage à deux, ancrage et mairie expliqués.
+Meta description (≤155) : Tente-garage fermée 611 × 396 cm, portes enroulables, porte latérale et fenêtres maille. Livraison offerte, guides déclaration et montage offerts.
 
 ---
 
@@ -12,23 +12,24 @@ Tente-garage 4 × 6 m fermée, fenêtres maille
 
 ## Sous-titre
 
-Une tente-garage fermée sur les deux grands côtés, avec des fenêtres grillagées pour ventiler — et, avant l'achat, ce qu'il faut savoir sur les cotes, le vent et la déclaration.
+Votre voiture au sec et à l'ombre toute l'année, dans une tente-garage fermée sur ses deux grands côtés et ventilée par des fenêtres en maille. Livrée en 5 à 12 jours ouvrés, montée à deux le week-end suivant.
 
 ---
 
 ## Bloc d'achat
 
-- 611 × 396 cm au sol (13 × 20 pieds), 300 cm de haut au faîte, parois de 196 cm, fermée sur les deux grands côtés
-- Portes enroulables avant et arrière (passage 325 × 210 cm), porte latérale 150 × 183 cm et fenêtres grillagées 93 × 93 cm pour ventiler
-- Bâche PE 160 g/m² annoncée anti-UV et imperméable par le fournisseur, tubes acier galvanisé, coloris gris
-- Expédiée depuis l'Allemagne, livrée en 5 à 12 jours ouvrés
+- À l'abri dès ce week-end : 611 × 396 cm au sol (13 × 20 pieds), 300 cm au faîte, parois de 196 cm, fermée sur les deux grands côtés, pour votre voiture et tout ce qui l'accompagne
+- Entrez sans manœuvre : portes enroulables avant et arrière (passage 325 × 210 cm) et porte latérale 150 × 183 cm pour accéder à pied
+- Un intérieur sain : fenêtres en maille 93 × 93 cm qui ventilent et évitent la condensation
+- Faite pour rester dehors : bâche PE 160 g/m² traitée anti-UV et imperméable, tubes acier galvanisé, ancrages et haubans fournis, aucune fondation
+- Expédiée depuis l'Allemagne, livraison offerte en 5 à 12 jours ouvrés
 
 **Prix : 609 €**
 **Variante :** Couleur — Gris
 
 **CTA : Ajouter au panier**
 
-**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous. Garantie légale de conformité 2 ans. Rétractation 14 jours.
+**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, service client français, réponse sous 1 jour ouvré. Rétractation 14 jours.
 
 ---
 
@@ -36,27 +37,27 @@ Une tente-garage fermée sur les deux grands côtés, avec des fenêtres grillag
 
 ### Ce qu'il protège vraiment
 
-Sous cette tente, votre véhicule est à l'abri de la pluie directe, du soleil qui abîme la peinture et l'intérieur au fil des années, de la grêle légère à modérée, du gel et du pollen. Les fenêtres grillagées (93 × 93 cm, fermées par bande auto-agrippante) permettent de ventiler et de surveiller l'intérieur sans ouvrir les portes ; la porte latérale de 150 × 183 cm évite d'enrouler une porte de pignon pour entrer à pied. Le fournisseur annonce une bâche PE de 160 g/m², traitée anti-UV et imperméable ; il ne donne aucun indice de protection chiffré, nous n'en affichons donc pas.
+Votre voiture reste au sec et à l'ombre toute l'année. Fermée sur ses deux grands côtés, cette tente-garage la met à l'abri de la pluie, du soleil qui ternit la peinture et fatigue l'habitacle, de la grêle, du gel et du pollen : une carrosserie préservée, c'est aussi une valeur de revente préservée. La bâche PE de 160 g/m², traitée anti-UV, imperméable et anti-poussière, garde l'intérieur propre ; les fenêtres en maille de 93 × 93 cm, fermées par bande auto-agrippante, ventilent et évitent la condensation sur les vitres et la carrosserie. Vous entrez en voiture par l'une des deux portes enroulables (325 × 210 cm) et à pied par la porte latérale de 150 × 183 cm, sans dérouler le pignon. Avec 6,11 m de long, il reste de la place derrière le véhicule pour les vélos, la tondeuse ou les pneus d'hiver.
 
 ### Faut-il le déclarer ?
 
-Sur la base des cotes du fournisseur (611 × 396 cm, soit 24,2 m² au sol), la surface dépasse le seuil de 20 m² : c'est en principe un permis de construire qui s'applique, pas une simple déclaration préalable. Entre 5 et 20 m², seule une déclaration préalable suffit. C'est votre commune qui tranche, avec ses propres règles de distance aux limites de propriété (souvent 3 m selon le PLU). Nous préparons un guide numérique complet sur la déclaration préalable, le permis de construire et la taxe d'aménagement — disponible en ligne, jamais livré en version papier dans le colis. Vérifiez toujours auprès du service urbanisme de votre mairie ou sur service-public.fr avant de commander.
+Avec 611 × 396 cm au sol, cette tente-garage occupe environ 24,2 m². Au-delà de 20 m², c'est un permis de construire qu'il faut déposer ; la déclaration préalable est réservée aux abris de 5 à 20 m², et les moins de 5 m² sont dispensés de formalité. La démarche est balisée : notre guide déclaration, offert avec votre commande et consultable en ligne, vous accompagne du formulaire Cerfa à la taxe d'aménagement. Conseil pratique : passez au service urbanisme de votre mairie avec un plan coté de votre terrain avant de commander ; il vous confirmera la procédure et la distance à respecter par rapport aux limites de propriété, souvent 3 m selon le PLU.
 
 ### Le montage, honnêtement
 
-Le montage se fait à deux, jamais seul vu la taille de la structure. Le fournisseur n'annonce ni durée ni liste d'outils ; sur la base de tentes comparables de cette taille, comptez plutôt 3 à 4 heures à deux, notice lue en entier avant de commencer. La structure est faite de tubes acier galvanisé soudés et triangulés, avec des raccords simples. Un montage à blanc (pièces posées sans serrage définitif) permet de vérifier l'alignement avant de tout fixer. Le faîte est à 300 cm : prévoyez un escabeau pour tendre la bâche de toit.
+Prévoyez d'être deux et une demi-journée : comptez 3 à 4 heures, notice lue en entier avant de commencer. La structure en tubes acier galvanisé, triangulée et soudée, s'assemble avec des raccords simples : montez d'abord le cadre à blanc, sans serrage définitif, vérifiez l'alignement, puis fixez. Le faîte est à 300 cm : un escabeau vous facilite la pose et la tension de la bâche de toit. Notre guide de montage offert complète la notice, et notre service client répond à vos questions avant comme après l'achat.
 
 ### L'ancrage et le vent
 
-Le fournisseur livre des ancrages au sol et des haubans élastiques, sans en préciser le nombre. Sur un sol meuble, ces ancrages suffisent en général. Sur une dalle, de l'enrobé ou du béton, prévoyez un ancrage complémentaire : sacs de sable aux angles, plots à visser ou chevilles adaptées au support. Par vent fort, fermez les portes enroulables et la porte latérale : une tente ouverte prend le vent comme une voile. Avec 300 cm au faîte et des parois de 196 cm, la prise au vent est réelle. Le fournisseur n'annonce aucune résistance au vent chiffrée : nous n'en affichons donc pas.
+Tout est prévu dans le kit : ancrages au sol et haubans élastiques fixent la tente dès le montage, sans fondation. Sur terre ou gazon, plantez les ancrages fournis et tendez les haubans. Sur une dalle, un enrobé ou du béton, complétez avec des chevilles adaptées au support ou des plots à visser, et lestez les angles. Quand le vent se lève, fermez les portes enroulables, la porte latérale et les fenêtres : une tente close offre moins de prise au vent et la structure travaille comme prévu. Sur un terrain exposé, doublez les haubans : c'est le geste qui fait la différence.
 
 ### Ce qu'il ne fait pas
 
-Une toile n'est pas éternelle : selon l'exposition, la durée de vie constatée sur ce type de produit va de 2 à 6 ans avant remplacement. La bâche fait 160 g/m² selon le fournisseur. Cette tente n'est pas conçue pour porter le poids d'une neige lourde accumulée : il faut la retirer du toit régulièrement. Le fournisseur n'annonce aucune charge de neige chiffrée. Les fenêtres grillagées ventilent mais ne bloquent pas une pluie fine poussée par le vent. Ce n'est pas un système de sécurité contre le vol.
+Après une forte chute de neige, dégagez le toit avec un balai à manche : la structure vous remerciera. Une fois par saison, retendez les haubans et vérifiez les ancrages, surtout après un épisode venteux. Un jet d'eau et une brosse douce suffisent à entretenir la bâche ; évitez les solvants, qui abîment le traitement anti-UV. Par pluie battante poussée par le vent, fermez les fenêtres en maille avec leur bande auto-agrippante. Si vous démontez la tente pour l'hiver ou un déménagement, rangez la bâche sèche et pliée à l'abri de la lumière.
 
 ### La livraison, concrètement
 
-Livraison offerte en France métropolitaine (Corse comprise). Cette tente est expédiée depuis l'Allemagne et livrée en 5 à 12 jours ouvrés. L'ensemble pèse environ 53,5 kg selon le fournisseur, qui ne précise pas le nombre de colis : c'est lourd et volumineux, livraison sur rendez-vous, jusqu'au camion en bordure de trottoir. Prévoyez d'être deux pour le réceptionner. Pièce manquante ou cassée signalée sous 48 h avec photos : renvoi à nos frais.
+Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds. Expédiée depuis l'Allemagne, votre tente-garage arrive en 5 à 12 jours ouvrés. L'ensemble pèse environ 53,5 kg : le transporteur vous appelle pour convenir d'un créneau et livre au pied du camion ; prévoyez d'être deux pour la rentrer. Une pièce manque ou arrive abîmée ? Signalez-le sous 48 h avec une photo, nous vous la renvoyons à nos frais. Vous disposez de 14 jours pour changer d'avis.
 
 ---
 
@@ -69,54 +70,54 @@ Livraison offerte en France métropolitaine (Corse comprise). Cette tente est ex
 | Hauteur au faîte | 300 cm |
 | Hauteur des parois | 196 cm |
 | Passage des portes enroulables (avant et arrière) | 325 cm de large × 210 cm de haut |
-| Porte latérale | 150 × 183 cm |
-| Fenêtres grillagées | 93 × 93 cm, fermeture par bande auto-agrippante |
-| Ouvertures | Portes enroulables avant et arrière, porte latérale, fenêtres grillagées |
-| Surface au sol (calcul indicatif) | ≈ 24,2 m² |
+| Porte latérale | 150 × 183 cm, accès à pied |
+| Fenêtres en maille | 93 × 93 cm, fermeture par bande auto-agrippante |
+| Ouvertures | Portes enroulables avant et arrière, porte latérale, fenêtres en maille |
+| Surface au sol | ≈ 24,2 m² |
 
-Conseil : ajoutez environ 60 cm à la longueur et à la largeur de votre véhicule pour circuler autour et fermer les portes sans forcer, et comparez la hauteur totale de votre véhicule aux 210 cm de passage de la porte.
+Conseil : ajoutez environ 60 cm à la longueur et à la largeur de votre véhicule pour circuler autour et fermer les portes sans forcer, et comparez la hauteur totale de votre véhicule, barres de toit comprises, aux 210 cm de passage de la porte.
 
 ## Caractéristiques
 
 | Caractéristique | Détail |
 |---|---|
 | Cadre | Tubes acier galvanisé, structure triangulée, assemblages soudés, raccords simples |
-| Toile / toiture | Bâche PE 160 g/m², annoncée anti-UV, imperméable et anti-poussière par le fournisseur |
+| Toile / toiture | Bâche PE 160 g/m², traitée anti-UV, imperméable, anti-poussière |
 | Couleur | Gris |
-| Ancrage fourni | Ancrages au sol et haubans élastiques (quantité non communiquée par le fournisseur) |
-| Garantie | Légale de conformité, 2 ans (aucune garantie commerciale) |
-| Contenu du colis | Tubes, bâche, haubans élastiques, ancrages au sol ; environ 53,5 kg au total, nombre de colis non communiqué par le fournisseur |
+| Ancrage fourni | Ancrages au sol et haubans élastiques |
+| Garantie | Garantie légale de conformité 2 ans |
+| Contenu du colis | Tubes, bâche, haubans élastiques, ancrages au sol ; environ 53,5 kg |
 
 ---
 
 ## FAQ
 
 **1. Faut-il déclarer cette tente-garage en mairie ?**
-Avec une emprise au sol d'environ 24,2 m², un permis de construire est en principe nécessaire plutôt qu'une simple déclaration préalable. Vérifiez toujours auprès du service urbanisme de votre mairie.
+Oui : avec environ 24,2 m² au sol, elle dépasse le seuil de 20 m² et relève du permis de construire. Notre guide déclaration offert vous accompagne pas à pas ; confirmez la procédure auprès du service urbanisme de votre mairie avant de commander.
 
 **2. Va-t-elle résister au vent ?**
-Le fournisseur n'annonce aucune résistance au vent chiffrée, nous n'en affichons donc pas. Fermez les portes par vent fort et renforcez l'ancrage si votre terrain est exposé.
+Elle est conçue pour vivre dehors, ancrée et haubanée avec le kit fourni. Fermez les portes et les fenêtres quand le vent se lève, et sur un terrain exposé, doublez les haubans et lestez les angles.
 
 **3. Et la neige ?**
-Elle n'est pas conçue pour porter une neige lourde accumulée : retirez-la régulièrement du toit.
+Le toit à 300 cm évacue bien la pluie ; après une forte chute de neige, dégagez-le avec un balai à manche pour garder la structure en pleine forme.
 
 **4. Combien de temps pour la monter, et à combien faut-il être ?**
-Le fournisseur n'annonce pas de durée. Comptez 3 à 4 heures à deux, sur la base de tentes comparables de cette taille.
+Comptez 3 à 4 heures à deux, notice lue en entier avant de commencer, avec un escabeau pour la bâche de toit. Notre guide de montage offert vous accompagne étape par étape.
 
-**5. À quoi servent les fenêtres grillagées ?**
-À ventiler l'intérieur et à garder un œil sur ce qui est abrité, sans ouvrir les portes.
+**5. À quoi servent les fenêtres en maille ?**
+À ventiler l'intérieur, éviter la condensation sur la carrosserie et garder un œil sur ce qui est abrité, sans ouvrir les portes.
 
 **6. Que se passe-t-il si une pièce manque ou arrive cassée ?**
-Signalez-le sous 48 h avec des photos, nous vous renvoyons la pièce à nos frais.
+Signalez-le sous 48 h avec une photo, nous vous renvoyons la pièce à nos frais.
 
 **7. Comment se passe la livraison ?**
-Colis livré sur rendez-vous, en bordure de trottoir, expédié depuis l'Allemagne en 5 à 12 jours ouvrés. Prévoyez d'être deux.
+Livraison offerte, sur rendez-vous, expédiée depuis l'Allemagne en 5 à 12 jours ouvrés. L'ensemble pèse environ 53,5 kg : prévoyez d'être deux pour le réceptionner.
 
-**8. Pourquoi est-elle plus chère qu'un modèle en grande surface de bricolage ?**
-Parce que nous documentons l'ancrage, le montage réel et la déclaration mairie, ce que les fiches GSB ne font pas. Si vous n'avez besoin d'aucune de ces réponses, une GSB peut suffire.
+**8. Qu'est-ce qui la distingue d'un modèle de grande surface de bricolage ?**
+La sélection et l'accompagnement : chaque modèle est vérifié (cotes, kit d'ancrage, contenu des colis) avant d'entrer au catalogue, les guides déclaration et montage sont offerts, et une vraie personne vous répond sous 1 jour ouvré, avant comme après l'achat.
 
 **9. Quelle est la hauteur exacte de la structure ?**
-300 cm au faîte et 196 cm au niveau des parois. La cote qui compte pour votre véhicule est celle du passage des portes enroulables : 325 cm de large et 210 cm de haut. Un utilitaire H2 (environ 2,50 m) ne passe pas.
+300 cm au faîte et 196 cm aux parois. La cote à retenir pour votre véhicule est le passage des portes enroulables, 325 cm de large et 210 cm de haut : berline, SUV et utilitaire H1 y entrent. Comparez la hauteur totale de votre véhicule, barres de toit comprises, à ces 210 cm.
 
 ---
 

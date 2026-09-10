@@ -37,7 +37,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Pourquoi un devis plutôt qu'un prix affiché",
+            "heading": "Un carport fabriqué à vos cotes, chiffré au plus juste",
             "background_heading": false,
             "heading_size": "h1",
             "hn": "h2"
@@ -46,7 +46,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Ce carport est fabriqué à vos dimensions par un atelier partenaire, pas sorti d'un stock. Le prix dépend de la surface, de la hauteur, du type de toit et du coloris : afficher un prix unique reviendrait à vous mentir dans un sens ou dans l'autre. Le devis est gratuit et vous n'avez rien à payer avant de l'accepter.</p>"
+            "text": "<p>Ce carport est fabriqué à vos dimensions, dans le coloris et la toiture de votre choix, en aluminium 6063-T5 testé par le fabricant à 122 km/h et couvert par une garantie fabricant de 5 ans. Son prix dépend de la surface, de la hauteur, du type de toit et de la toiture : le devis vous donne un prix ferme, livraison comprise, sous 48 h ouvrées. Il est gratuit et sans engagement, et vous ne réglez rien avant de l'accepter.</p>"
           }
         }
       },
@@ -78,7 +78,7 @@
           "type": "question",
           "settings": {
             "question": "Puis-je avoir un prix indicatif avant de remplir le formulaire ?",
-            "answer": "<p>Non : ces carports sont fabriqués à vos cotes et le prix dépend des dimensions, de la toiture choisie et de l'accès pour la livraison. Le devis vous parvient sous 48 h ouvrées avec un prix ferme, livraison en France métropolitaine comprise.</p>",
+            "answer": "<p>Le prix se calcule à vos cotes : dimensions, hauteur, type de toit, toiture et accès pour la livraison. Remplissez le formulaire et vous recevez sous 48 h ouvrées un devis ferme, livraison en France métropolitaine comprise.</p>",
             "open_by_default": true
           }
         },
@@ -86,7 +86,7 @@
           "type": "question",
           "settings": {
             "question": "Le devis m'engage-t-il ?",
-            "answer": "<p>Non, le devis est gratuit et sans engagement. Vous ne payez qu'après l'avoir accepté.</p>",
+            "answer": "<p>Non. Le devis est gratuit et sans engagement : vous ne réglez qu'après l'avoir accepté.</p>",
             "open_by_default": false
           }
         },
@@ -94,7 +94,7 @@
           "type": "question",
           "settings": {
             "question": "Combien de temps est-il valable ?",
-            "answer": "<p>Le devis est valable 30 jours. Passé ce délai, nous le mettons à jour si les tarifs ou le transport ont changé.</p>",
+            "answer": "<p>Le devis est valable 30 jours. Passé ce délai, nous l'actualisons pour vous si les tarifs ou le transport ont évolué.</p>",
             "open_by_default": false
           }
         },
@@ -102,7 +102,7 @@
           "type": "question",
           "settings": {
             "question": "Puis-je changer les dimensions après le devis ?",
-            "answer": "<p>Contactez-nous avant d'accepter le devis : un changement de dimensions modifie le prix.</p>",
+            "answer": "<p>Oui, tant que vous n'avez pas accepté le devis : contactez-nous, nous le recalculons à vos nouvelles cotes.</p>",
             "open_by_default": false
           }
         },
@@ -110,7 +110,7 @@
           "type": "question",
           "settings": {
             "question": "Que se passe-t-il si ma mairie refuse ?",
-            "answer": "<p>Tant que la fabrication n'est pas lancée, vous annulez sans frais. Une fois lancée, le carport est fabriqué à vos cotes et ne peut plus être annulé : faites votre demande en mairie avant de valider le devis, notre guide déclaration vous y aide.</p>",
+            "answer": "<p>Tant que la fabrication n'est pas lancée, vous annulez sans frais. Une fois lancée, le carport est fabriqué à vos cotes et ne peut plus être annulé. Notre conseil : déposez votre demande en mairie avant de valider le devis, notre guide déclaration offert vous accompagne pas à pas.</p>",
             "open_by_default": false
           }
         },
@@ -118,7 +118,7 @@
           "type": "question",
           "settings": {
             "question": "Livrez-vous et montez-vous ?",
-            "answer": "<p>Nous livrons ; nous ne montons pas.</p>",
+            "answer": "<p>Nous livrons, offert, en France métropolitaine, Corse comprise, par transporteur spécialisé et sur rendez-vous, sous 10 à 12 semaines. Le montage se fait par vos soins ou par l'artisan de votre choix : le kit arrive avec sa notice, et notre guide montage et ancrage vous accompagne.</p>",
             "open_by_default": false
           }
         },
@@ -126,7 +126,7 @@
           "type": "question",
           "settings": {
             "question": "Le polycarbonate jaunit-il ?",
-            "answer": "<p>Le fabricant annonce un polycarbonate traité contre les UV qui ne jaunit pas. Nous ne l'avons pas mesuré nous-mêmes : comptez sur une teinte stable pendant la durée de garantie fabricant annoncée (5 ans), et choisissez une teinte fumée si vous voulez masquer l'usure éventuelle.</p>",
+            "answer": "<p>Non. Le polycarbonate est traité anti-UV, couvert par la garantie fabricant de 5 ans, et il laisse passer la lumière sans la chaleur. Vous choisissez sa teinte : transparent, gris clair, gris foncé, ambre ou bleu lac.</p>",
             "open_by_default": false
           }
         },
@@ -134,7 +134,7 @@
           "type": "question",
           "settings": {
             "question": "Puis-je payer en plusieurs fois ?",
-            "answer": "<p>Oui : PayPal (4x) ou Klarna (3x), selon les conditions de ces services au moment de votre commande.</p>",
+            "answer": "<p>Oui, en 3 ou 4 fois avec Klarna et PayPal, selon les conditions de ces services au moment de votre commande, après acceptation du devis.</p>",
             "open_by_default": false
           }
         }
@@ -170,28 +170,28 @@
           "type": "item",
           "settings": {
             "heading": "Livraison incluse",
-            "description": "<p>France métropolitaine, Corse comprise.</p>"
+            "description": "<p>France métropolitaine, Corse comprise, par transporteur spécialisé sur rendez-vous.</p>"
           }
         },
         "item-2": {
           "type": "item",
           "settings": {
             "heading": "Devis gratuit",
-            "description": "<p>Sous 48 h ouvrées, sans engagement.</p>"
+            "description": "<p>Prix ferme sous 48 h ouvrées, sans engagement.</p>"
           }
         },
         "item-3": {
           "type": "item",
           "settings": {
             "heading": "Rappel des démarches",
-            "description": "<p>Le devis rappelle le seuil de déclaration qui s'applique à vos dimensions.</p>"
+            "description": "<p>Le devis indique la démarche en mairie qui s'applique à vos dimensions, avec notre guide offert.</p>"
           }
         },
         "item-4": {
           "type": "item",
           "settings": {
             "heading": "Paiement sécurisé",
-            "description": "<p>Uniquement après acceptation du devis.</p>"
+            "description": "<p>Après acceptation du devis, en 3 ou 4 fois avec Klarna et PayPal.</p>"
           }
         }
       },

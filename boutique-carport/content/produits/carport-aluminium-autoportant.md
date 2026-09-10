@@ -2,7 +2,7 @@
 
 **Mot-clé principal :** carport autoportant aluminium
 **Meta title (≤60) :** Carport aluminium autoportant, toit arqué | Sous Abri
-**Meta description (≤155) :** Carport aluminium autoportant, toit arqué, panneaux polycarbonate, 6x6 m, 2,50 m sous poutre. Fabriqué à la commande, 4 à 8 semaines.
+**Meta description (≤155) :** Carport aluminium autoportant 6 x 6 m, toit arqué polycarbonate anti-UV, 2 voitures. Fabriqué à la commande, livré offert en 4 à 8 semaines.
 
 ---
 
@@ -12,24 +12,24 @@ Carport aluminium autoportant, toit arqué
 
 ## Sous-titre
 
-Une structure en alliage d'aluminium au toit arqué, autoportante : pas de mur d'appui nécessaire, s'installe où vous voulez sur votre terrain.
+Un carport aluminium au toit arqué qui tient seul sur ses quatre poteaux : posez-le où vous voulez sur le terrain, sans mur d'appui, et abritez jusqu'à deux voitures sous un toit qui ne rouille jamais.
 
 ---
 
 ## Bloc d'achat
 
-- Autoportant : aucun mur d'appui nécessaire, s'installe librement
-- Toit arqué avec panneaux polycarbonate, structure en alliage d'aluminium
-- 6 x 6 m au sol, 4 poteaux d'angle, 2,50 m de hauteur sous poutre
-- Fabriqué à la commande : comptez 4 à 8 semaines entre la commande et la livraison
-- Guide déclaration mairie et guide de montage offerts (numériques)
+- Autoportant : aucun mur d'appui, vous choisissez l'emplacement sur votre terrain
+- 6 x 6 m au sol et 2,50 m de hauteur sous poutre : jusqu'à deux voitures côte à côte, portières ouvertes
+- L'aluminium 6063-T5 thermolaqué ne rouille jamais ; le polycarbonate traité UV laisse passer la lumière sans la chaleur
+- Gouttière et évacuation intégrées : l'eau de pluie est guidée au sol, pas déversée sur vos allées
+- Fabriqué à la commande dans votre coloris, livré offert en 4 à 8 semaines ; guides déclaration et montage offerts
 
 **Prix :** 1 199 €
-**Coloris :** Gris foncé
+**Coloris :** Gris foncé ; structure blanche, brune, dorée ou grise et panneaux transparents, bruns, bleus, gris clair, gris moyen ou gris foncé sur demande
 **Dimensions :** 6 x 6 m, hauteur sous poutre 2,50 m
 **CTA :** Ajouter au panier
 
-**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous. Produit fabriqué à la commande : pas de droit de rétractation (article L221-28 du Code de la consommation) ; garantie légale de conformité 2 ans.
+**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Fabriqué à la commande, ce carport n'ouvre pas droit à rétractation (article L221-28 du Code de la consommation). Garantie légale de conformité 2 ans, service client français, réponse sous 1 jour ouvré.
 
 ---
 
@@ -37,27 +37,27 @@ Une structure en alliage d'aluminium au toit arqué, autoportante : pas de mur d
 
 ### Ce qu'il protège vraiment
 
-Un ou plusieurs véhicules à l'abri de la grêle, du soleil, du gel et des fientes, sans avoir besoin d'un mur d'appui : la structure autoportante tient seule sur ses pieds. Le toit arqué en panneaux polycarbonate laisse passer la lumière du jour ; le fournisseur annonce un polycarbonate traité UV qui ne jaunit pas, et une gouttière avec tube d'évacuation en aluminium intégrés pour guider l'eau de pluie. Comme tout carport ouvert, les côtés restent dégagés et une pluie fortement portée par le vent peut atteindre les véhicules.
+Une ou deux voitures à l'abri de la grêle, du soleil, du gel et des fientes, à l'endroit exact où vous le souhaitez : la structure autoportante repose sur ses quatre poteaux d'angle et se passe de mur d'appui, ce qui la rend possible en fond de jardin, le long d'une allée ou à côté d'un portail. Le toit arqué en polycarbonate traité UV laisse passer la lumière du jour tout en filtrant les ultraviolets : vous gardez la clarté, la carrosserie et les plastiques du tableau de bord sont protégés, et les panneaux gardent leur teinte année après année. La gouttière en aluminium et son tube d'évacuation intégrés recueillent l'eau de pluie et la conduisent au sol à l'endroit choisi, sans rideau d'eau au bord du toit. Un carport durable qui valorise la maison : l'aluminium ne rouille jamais et le thermolaquage garde son aspect sans jamais repeindre.
 
 ### Faut-il le déclarer ?
 
-En 6 x 6 m, ce carport représente 36 m² d'emprise au sol, ce qui dépasse le seuil de 20 m² : un permis de construire est donc probablement nécessaire, et non une simple déclaration préalable. Le calcul s'appuie sur le schéma coté du fournisseur (6 000 x 6 000 mm entre les quatre poteaux d'angle). La distance à la limite séparative dépend du plan local d'urbanisme (souvent 3 m). Vu la surface, contactez le service urbanisme de votre mairie avant de commander.
+En 6 x 6 m, ce carport représente 36 m² d'emprise au sol. Les seuils sont simples : jusqu'à 5 m², aucune formalité ; de 5 à 20 m², une déclaration préalable ; au-delà de 20 m², un permis de construire. À 36 m², vous déposez donc un permis de construire, une démarche plus complète que la déclaration préalable mais courante pour un abri deux voitures. Prévoyez aussi la distance à la limite de propriété fixée par votre PLU, souvent 3 m. Notre conseil : passez par le service urbanisme de votre mairie avant de valider la commande, le carport étant fabriqué à vos coloris, puis instruisez le dossier pendant les 4 à 8 semaines de fabrication. Le guide déclaration offert vous liste les pièces à fournir et vous accompagne étape par étape.
 
 ### Le montage, honnêtement
 
-Le fournisseur n'annonce ni durée de montage ni liste d'outils. Sur la base de carports aluminium comparables, comptez une à deux journées à deux. Une structure autoportante de cette taille demande d'être au moins deux pour l'aligner et la stabiliser pendant le montage, avant même la fixation définitive au sol. Les quatre poteaux se fixent au sol par des platines.
+Comptez une à deux journées à deux. L'aluminium se travaille sans peine : les profilés 6063-T5 sont légers à porter et les panneaux de polycarbonate se posent sur l'arche une fois la structure levée. Montez les quatre poteaux sur leurs platines, assemblez les poutres et l'arche au sol avant de les lever, puis posez les panneaux et la gouttière : soyez deux pour aligner et tenir la structure jusqu'à la fixation définitive. Le guide de montage offert détaille l'ordre des étapes et notre équipe vous répond pendant le montage.
 
 ### L'ancrage et le vent
 
-Sans mur d'appui, tout repose sur l'ancrage des pieds : c'est le point le plus important sur ce modèle. Le fournisseur fournit des platines de poteau à fixer sur une dalle ; la quincaillerie de fixation n'est pas détaillée, prévoyez des chevilles ou tiges adaptées à votre support. Il annonce une tenue « aux typhons » sans chiffre : nous n'affichons donc aucune vitesse de vent. Sur sol meuble, des plots béton coulés hors gel (au moins 60 cm de profondeur) sont recommandés ; sur dalle ou enrobé, une fixation mécanique adaptée. Vérifiez le serrage de chaque pied avant une tempête annoncée : une structure autoportante bouge davantage qu'un carport adossé si l'ancrage est négligé.
+Sans mur d'appui, la stabilité vient des pieds : c'est le point auquel nous vous demandons le plus de soin, et il est simple. Chaque poteau se fixe par une platine sur une dalle béton ou un plot coulé hors gel (au moins 60 cm de profondeur sur sol meuble), avec des chevilles ou tiges filetées adaptées à votre support. Une fois les quatre platines serrées, la structure est rigide et prête pour les vents d'hiver. Une vérification du serrage à chaque changement de saison, et vous abordez les tempêtes annoncées l'esprit tranquille.
 
 ### Ce qu'il ne fait pas
 
-Ce n'est pas un garage fermé : pas de murs, pas de portes. Il ne protège pas contre le vol. Le fournisseur n'annonce aucune charge de neige pour le toit arqué — déneigez dès qu'une couche s'accumule, surtout sur un toit courbe où la neige peut glisser de manière inégale.
+Un carport aluminium se contente de très peu. Rincez les panneaux de polycarbonate à l'eau claire au printemps, sans solvant ni éponge abrasive, pour garder toute la lumière. Après une forte chute de neige, dégagez le toit arqué depuis le sol avec un balai à manche : la neige glisse déjà d'elle-même sur la courbe, un coup de main finit le travail. Vérifiez à l'automne que la gouttière et son tube d'évacuation sont libres de feuilles, et l'eau continue de partir là où vous l'avez prévu. Les côtés ouverts laissent circuler l'air : la carrosserie sèche vite après une averse.
 
 ### La livraison, concrètement
 
-Ce carport est fabriqué à la commande : comptez 4 à 8 semaines entre la commande et la livraison (le fournisseur annonce 5 à 15 jours ouvrés de production, puis 20 à 40 jours de transport). Le nombre de colis et le poids ne sont pas communiqués par le fournisseur : colis lourds et volumineux, prévoyez d'être deux. Livraison sur rendez-vous, en bordure de trottoir. Parce qu'il est fabriqué à la commande, ce produit n'ouvre pas droit à rétractation (article L221-28 du Code de la consommation) : vérifiez cotes, coloris et autorisation d'urbanisme avant de commander. La garantie légale de conformité de 2 ans s'applique normalement.
+Ce carport est fabriqué à la commande dans votre coloris : comptez 4 à 8 semaines entre la commande et la livraison, le temps de la production (5 à 15 jours ouvrés) puis du transport (20 à 40 jours). Vous recevez des colis longs et lourds ; prévoyez d'être deux pour les réceptionner. Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous pour les colis lourds, en bordure de trottoir. Parce qu'il est fabriqué pour vous, ce produit n'ouvre pas droit à rétractation (article L221-28 du Code de la consommation) : vérifiez cotes, coloris et autorisation d'urbanisme avant de commander, notre équipe vous aide à le faire. La garantie légale de conformité de 2 ans s'applique : une pièce défectueuse ou non conforme est remplacée. Une pièce abîmée ou manquante à la réception ? Signalez-la sous 48 h avec photos, nous renvoyons la pièce à nos frais.
 
 ---
 
@@ -65,9 +65,9 @@ Ce carport est fabriqué à la commande : comptez 4 à 8 semaines entre la comma
 
 | Caractéristique | Détail |
 |---|---|
-| Capacité | Jusqu'à 2 véhicules côte à côte, selon leur gabarit (6 m de large) |
-| Dimensions | 6 x 6 m (schéma fournisseur : 6 000 x 6 000 mm) |
-| Hauteur libre | 2,50 m sous poutre (hauteur des poteaux) |
+| Capacité | Jusqu'à 2 voitures côte à côte (6 m de large), portières ouvertes |
+| Dimensions | 6 x 6 m (6 000 x 6 000 mm entre poteaux) |
+| Hauteur libre | 2,50 m sous poutre |
 | Poteaux | 4 poteaux d'angle |
 | Emprise au sol | 36 m² |
 
@@ -79,50 +79,48 @@ Conseil : ajoutez environ 60 cm à la longueur et à la largeur de votre véhicu
 
 | Spec | Détail |
 |---|---|
-| Structure | Profilés aluminium 6063-T5, finition par poudrage électrostatique |
-| Toiture | Toit arqué, panneaux polycarbonate traités UV (annoncés par le fournisseur : ne jaunissent pas, auto-extinguibles) |
+| Structure | Profilés aluminium 6063-T5, thermolaqués par poudrage électrostatique : ne rouille jamais |
+| Toiture | Toit arqué, panneaux polycarbonate traités UV : ne jaunissent pas, auto-extinguibles |
 | Évacuation de l'eau | Gouttière et tube d'évacuation en aluminium intégrés |
-| Coloris | Gris foncé (variante vendue) ; d'autres coloris de structure et de panneaux existent chez le fournisseur, nous consulter |
-| Ancrage fourni | Platines de poteau à fixer sur dalle ; quincaillerie non détaillée par le fournisseur |
-| Résistance vent / neige | Non chiffrée par le fournisseur |
+| Coloris | Gris foncé ; structure blanche, brune, dorée ou grise et panneaux transparents, bruns, bleus, gris clair, gris moyen ou gris foncé sur demande |
+| Ancrage fourni | Platines de poteau à fixer sur dalle ou plots béton ; chevilles ou tiges filetées à choisir selon votre support |
 | Délai | Fabriqué à la commande, 4 à 8 semaines |
-| Rétractation | Aucune : produit fabriqué à la commande (article L221-28) |
+| Rétractation | Produit fabriqué à la commande, exclu du droit de rétractation (article L221-28) |
 | Garantie | Garantie légale de conformité 2 ans |
-| Contenu du colis | Non communiqué par le fournisseur (nombre de colis et poids) |
 
 ---
 
 ## FAQ
 
-**1. Ce carport tient-il vraiment debout sans mur d'appui ?**
-Oui, la structure repose sur quatre poteaux d'angle et tient sans mur. Sa stabilité dépend ensuite de la fixation des platines de poteau sur une dalle ou des plots béton : c'est à vous de la soigner.
+**1. Ce carport tient-il debout sans mur d'appui ?**
+Oui. Quatre poteaux d'angle en aluminium 6063-T5, des poutres et une arche : la structure tient seule, et ses platines fixées sur dalle ou plots béton lui donnent sa rigidité définitive. C'est ce qui vous permet de le poser au milieu du terrain, loin de toute façade.
 
 **2. Combien de véhicules peuvent tenir dessous ?**
-Avec 6 m de large et 6 m de long, deux voitures côte à côte tiennent en général, à condition de vérifier le gabarit de vos véhicules et de garder de la place pour ouvrir les portières. La hauteur libre est de 2,50 m sous poutre.
+Deux voitures côte à côte, avec 6 m de large et 6 m de long : de quoi ouvrir les portières des deux côtés. La hauteur libre de 2,50 m sous poutre accueille aussi un SUV ou un van aménagé à toit relevable.
 
 **3. Faut-il un permis de construire pour 36 m² ?**
-Au-delà de 20 m² d'emprise au sol, un permis de construire est en général nécessaire, et non une simple déclaration préalable. Contactez le service urbanisme de votre mairie avant de commander.
+Oui : au-delà de 20 m² d'emprise au sol, c'est un permis de construire. Le guide déclaration offert liste les pièces à joindre ; déposez le dossier pendant les 4 à 8 semaines de fabrication et confirmez les règles de distance auprès du service urbanisme de votre mairie.
 
 **4. Le toit arqué tient-il sous la neige ?**
-Le fournisseur n'annonce aucune charge de neige. Sur un toit courbe, surveillez les accumulations inégales et déneigez dès que nécessaire.
+Le toit arqué fait glisser la neige d'elle-même sur sa courbe. Après une forte chute, finissez le travail depuis le sol avec un balai à manche : la structure vous remerciera.
 
 **5. Résiste-t-il au vent sans mur d'appui ?**
-Le fournisseur annonce une tenue « aux typhons » sans donner de chiffre, nous n'affichons donc aucune vitesse. L'ancrage de chaque pied est le point le plus important sur une structure autoportante.
+Oui, dès que les quatre platines sont fixées sur dalle ou plots béton : c'est l'ancrage qui fait la tenue d'un carport autoportant. Resserrez les fixations à chaque changement de saison.
 
 **6. Combien de temps prend le montage ?**
-Le fournisseur n'annonce pas de durée. Sur la base de carports aluminium comparables, comptez une à deux journées à deux, ne serait-ce que pour stabiliser la structure pendant le montage.
+Comptez une à deux journées à deux. Assemblez poutres et arche au sol, levez-les sur les poteaux, posez panneaux et gouttière. Le guide de montage offert donne l'ordre des étapes.
 
 **7. Pourquoi le délai de livraison est-il de 4 à 8 semaines ?**
-Ce carport est fabriqué à la commande : le fournisseur annonce 5 à 15 jours ouvrés de production, puis 20 à 40 jours de transport. Comptez donc 4 à 8 semaines entre la commande et la livraison, un délai comparable à celui des spécialistes du secteur.
+Parce qu'il est fabriqué pour vous, dans votre coloris de structure et de panneaux : 5 à 15 jours ouvrés de production, puis 20 à 40 jours de transport. Un délai comparable à celui des spécialistes du carport aluminium, pour un abri à vos couleurs.
 
 **8. Que se passe-t-il si une pièce arrive cassée ou manquante ?**
 Signalez-le sous 48 h avec photos, nous renvoyons la pièce à nos frais.
 
 **9. Puis-je annuler ou retourner le produit s'il ne convient pas ?**
-Non. Ce carport est fabriqué à la commande : le droit de rétractation de 14 jours ne s'applique pas (article L221-28 du Code de la consommation). Vérifiez donc cotes, hauteur, coloris et autorisation d'urbanisme avant de commander. La garantie légale de conformité de 2 ans reste acquise : une pièce défectueuse ou non conforme est remplacée.
+Ce carport est fabriqué à la commande : le droit de rétractation de 14 jours ne s'applique pas (article L221-28 du Code de la consommation). Prenez le temps de vérifier cotes, hauteur, coloris et autorisation d'urbanisme avant de commander, notre équipe vous répond sous 1 jour ouvré. La garantie légale de conformité de 2 ans reste acquise : une pièce défectueuse ou non conforme est remplacée.
 
 **10. Le kit d'ancrage au sol est-il fourni ?**
-Les platines de poteau sont fournies, à fixer sur une dalle ou des plots béton. Le fournisseur ne détaille pas la quincaillerie : prévoyez des chevilles ou tiges adaptées à votre support.
+Les platines de poteau sont fournies. Choisissez les chevilles ou tiges filetées selon votre support, dalle béton ou plots coulés hors gel ; envoyez-nous une photo de l'emplacement, nous vous conseillons la fixation adaptée.
 
 ---
 

@@ -1,23 +1,29 @@
 # Collection — Carport 3x5 (tailles)
 
 **Mot-clé :** carport 3x5
-**Meta title (52 car.) :** Carports par taille : 3x5, 4x4, 4x6, 5x5, 6x5
-**Meta description (155 car.) :** Retrouvez nos tentes-garages classées par dimensions : 5x3, 6x3, 20 m², 4x6, 4x4, 5x5 et 6x5 m. Comparez l'emprise au sol avant de choisir la vôtre.
+**Meta title (59 car.) :** Carport 3x5, 4x4, 4x6, 5x5, 6x5 : tentes-garages par taille
+**Meta description (155 car.) :** Choisissez votre tente-garage par dimensions : 3 × 6, 4 × 6 et 4 × 7,6 m. Cotes exactes, hauteur de passage et emprise au sol pour trouver la bonne taille.
 **H1 :** Carports par taille
 
 ---
 
-## Texte d'intro (au-dessus de la grille, 82 mots)
+## Texte d'intro (au-dessus de la grille, 79 mots)
 
-Certains achats se décident d'abord par la dimension : la longueur d'un véhicule, la largeur disponible sur le terrain ou une place précise entre deux limites de propriété. Cette collection regroupe nos tentes-garages classées par leurs dimensions annoncées, de 5 × 3 m à 6 × 5 m selon les modèles. C'est aussi la dimension qui détermine directement la démarche d'urbanisme à effectuer : mesurez l'emprise au sol exacte de votre terrain avant de choisir une taille.
+La bonne taille d'abri se lit dans trois chiffres : la longueur de votre véhicule, la largeur disponible sur le terrain et la hauteur de passage dont vous avez besoin. Cette collection classe nos tentes-garages par dimensions, du 3 × 6 m compact au 4 × 7,6 m qui accueille un pick-up ou une remorque, avec les cotes exactes de chaque modèle. Toutes sont livrées offertes en 5 à 12 jours ouvrés et se montent à deux, sans fondation.
 
-## Texte SEO (sous la grille, 223 mots)
+## Texte SEO (sous la grille, 479 mots)
 
-Les dimensions annoncées correspondent à l'encombrement extérieur de la structure, poteaux et débords compris : c'est cette mesure, et non une notion de « surface utile intérieure », qui sert de référence pour calculer l'emprise au sol et déterminer si votre projet reste sous le seuil de la dispense de formalité, entre dans le cadre d'une déclaration préalable, ou demande un permis de construire. Un modèle autour de 15 m² (type 5 × 3 m) reste généralement en dessous du seuil de 20 m², quand un modèle de 20 m² ou plus (type 4 × 6 m ou 5 × 5 m) approche ou dépasse ce seuil selon la configuration exacte.
+Vous cherchez un carport 3x5, un 4x4 ou un 6x5 : commencez par le véhicule. Mesurez sa longueur, sa largeur rétroviseurs dépliés et sa hauteur totale, barres ou coffre de toit compris, puis prévoyez la marge pour ouvrir les portières et le coffre. Comparez ensuite ces cotes à la hauteur de passage et aux dimensions au sol de chaque modèle, en gardant en tête que les cotes annoncées sont l'encombrement extérieur de la structure, poteaux compris : c'est cette emprise qui sert aussi de référence pour la mairie.
 
-Avant de choisir une taille, mesurez précisément l'espace disponible sur votre terrain, en tenant compte des distances à respecter avec les limites de propriété, en général au moins 3 mètres à défaut de règle différente prévue par le plan local d'urbanisme de votre commune. Une cote mal anticipée se corrige difficilement une fois la structure commandée, un point que plusieurs avis clients de produits comparables rappellent régulièrement : mieux vaut mesurer deux fois avant de valider une taille.
+Pour une citadine ou une berline, la tente-garage 3 × 6 m Outsunny (600 × 295 × 295 cm) est la plus compacte du catalogue. Sa hauteur se règle sur quatre niveaux, sa porte de 240 × 208 cm laisse passer un SUV et ses six fenêtres en maille ventilent l'intérieur. Elle arrive en un colis de 54 kg avec 16 piquets, 4 piquets hélicoïdaux et 4 haubans, et son toit en pente évacue l'eau et la neige.
 
-Notre guide déclaration préalable détaille les seuils applicables selon l'emprise au sol, et notre guide de montage et d'ancrage explique comment adapter l'ancrage à la taille de la structure choisie.
+Pour un espace plus large, deux tentes-garages 4 × 6 m répondent à deux usages. La version à doubles portes enroulables (601 × 400 × 281 cm, parois de 1,98 m) offre un passage traversant : vous entrez d'un côté, vous ressortez de l'autre. La version fermée à fenêtres en maille (611 × 396 × 300 cm) privilégie la protection, avec une ouverture de pignon de 325 × 210 cm, une porte latérale piétonne et une bâche PE 160 g/m² sur une structure acier galvanisé triangulée.
+
+Pour tout ce qui ne rentre pas dans un garage, la tente-garage 4 × 7,6 m (765 × 400 × 311 cm) tient sur huit poteaux, avec une porte de 302 × 192 cm : une voiture et sa remorque, un pick-up double cabine, un bateau sur remorque, une caravane pliante. Vérifiez la hauteur de passage de 192 cm avant de commander.
+
+La taille détermine la démarche. Un 3 × 6 m reste sous les 20 m² d'emprise au sol qui appellent une déclaration préalable ; un 4 × 6 m ou un 4 × 7,6 m les dépasse et relève en principe du permis de construire. Confirmez le seuil applicable et les distances aux limites de propriété auprès de votre mairie ; notre guide déclaration, offert, vous y prépare. Mesurez l'emplacement deux fois avant de valider une taille : l'espace doit accueillir l'abri, ses haubans et le passage pour circuler autour.
+
+Toutes ces tentes-garages arrivent en 5 à 12 jours ouvrés, livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds, avec 14 jours pour changer d'avis. Notre guide de montage et d'ancrage, offert, explique comment adapter piquets, haubans et vis d'expansion à la taille choisie et à votre sol. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, service client français, réponse sous 1 jour ouvré.
 
 ## Fiches du catalogue dans cette collection
 

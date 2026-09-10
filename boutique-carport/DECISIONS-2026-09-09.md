@@ -15,3 +15,7 @@
 ## 10/09 (midi) — Voitures de marque acceptées sur les visuels
 Hakim fait régénérer par Codex les visuels contenant une voiture avec de vrais modèles (emblèmes conservés, plaques d'immatriculation retirées) pour le réalisme, et les retient comme photos principales. Cela remplace la règle du 09/09 « aucun emblème sur les véhicules ». Les 13 visuels concernés sont en ligne (voir `shopify/resultat-remplacement-voitures-2026-09-10.json`).
 
+
+## 10/09 (fin d'après-midi) — Copy vendeur, rassurant, expert
+Hakim juge le copy « beaucoup trop transparent », ni rassurant ni orienté bénéfices. Décision : tout le site passe en copy marketing orienté bénéfice client, ton expert et confiant ; plus aucune mention d'une donnée que nous n'avons pas (on répond honnêtement si le client pose la question) ; les limites d'usage deviennent des conseils. Les faits restent la seule source de chiffres (aucune invention), les obligations légales et GMC restent (garantie légale, rétractation, pas d'avis ni d'urgence). Charte : `content/CHARTE-COPY-2026-09-10.md`.
+Produits « camping-car » : titres conservés, cotes affichées ; le copy vise les véhicules compatibles (vans aménagés et caravanes compactes sous 2,50 m ; pick-up, utilitaires H1, caravanes pliantes, remorques sous la porte de 192 cm). Délais 4 à 8 semaines validés pour les carports aluminium. Hakim contacte les fabricants pour les devis.

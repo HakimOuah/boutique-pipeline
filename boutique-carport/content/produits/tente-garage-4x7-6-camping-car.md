@@ -2,7 +2,7 @@
 
 Mot-clé principal : carport caravane
 Meta title (≤60) : Tente-garage 4x7,6 m, acier galvanisé | Sous Abri
-Meta description (≤155) : Tente-garage 765 × 400 cm, acier galvanisé, parois amovibles. Porte de 302 × 192 cm : pas pour un camping-car. Grande voiture, pick-up, bateau.
+Meta description (≤155) : Tente-garage 765 × 400 cm en acier galvanisé, porte 302 × 192 cm : pick-up, utilitaire H1, caravane pliante, bateau sur remorque. Livraison offerte.
 
 ---
 
@@ -12,24 +12,24 @@ Tente-garage 4 × 7,6 m pour camping-car, caravane
 
 ## Sous-titre
 
-Une tente longue de 7,65 m — mais avec une porte de 192 cm de haut : un camping-car n'y entre pas. Avant l'achat, ce qu'elle abrite vraiment.
+7,65 m de long pour tout ce qui ne rentre pas dans un garage : pick-up double cabine, utilitaire H1, caravane pliante, mini-caravane, bateau sur remorque ou voiture plus sa remorque. Repère de compatibilité : une porte de 302 × 192 cm.
 
 ---
 
 ## Bloc d'achat
 
-- 765 × 400 cm au sol (13 × 25 pieds), 311 cm au faîte, parois de 198 cm
-- Porte de 302 cm de large × 192 cm de haut : un camping-car (2,80 à 3,20 m) ne passe pas. Pour une grande voiture, un pick-up, un utilitaire H1 (≤ 1,90 m), un bateau sur remorque, une caravane basse ou du stockage
-- Parois latérales amovibles et fenêtres enroulables pour dégager les côtés en été
-- Structure en acier galvanisé sur 8 poteaux, bâche PE 160 g/m² annoncée anti-UV par le fournisseur
-- Expédiée depuis l'Allemagne, livrée en 5 à 12 jours ouvrés
+- 7,65 m de long pour tout ce qui ne rentre pas dans un garage : 765 × 400 cm au sol (13 × 25 pieds), 311 cm au faîte, parois de 198 cm
+- Repère de compatibilité : porte de 302 cm de large et 192 cm de haut, pour un pick-up double cabine, un utilitaire H1, une caravane pliante, une mini-caravane, un bateau sur remorque ou une voiture suivie de sa remorque
+- Parois latérales amovibles et fenêtres enroulables : vous dégagez les côtés l'été et chargez par le flanc
+- Faite pour rester dehors : acier galvanisé à paroi épaisse sur 8 poteaux, bâche PE 160 g/m² traitée anti-UV, ancrages et haubans fournis, aucune fondation
+- Montage à deux sans outil spécial, pièces pré-percées ; expédiée depuis l'Allemagne, livraison offerte en 5 à 12 jours ouvrés
 
 **Prix : 749 €**
 **Variante :** Couleur — Gris
 
 **CTA : Ajouter au panier**
 
-**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous. Garantie légale de conformité 2 ans. Rétractation 14 jours.
+**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, service client français, réponse sous 1 jour ouvré. Rétractation 14 jours.
 
 ---
 
@@ -37,31 +37,31 @@ Une tente longue de 7,65 m — mais avec une porte de 192 cm de haut : un campin
 
 ### Ce qu'il protège vraiment
 
-Sous cette tente, une grande voiture, un pick-up, un utilitaire H1, un bateau sur sa remorque ou une caravane basse sont à l'abri de la pluie directe, du soleil qui abîme la carrosserie, le vernis et les joints, de la grêle légère à modérée, du gel et du pollen. Avec 7,65 m de long, on peut aussi y ranger une voiture et une remorque l'une derrière l'autre, ou du matériel derrière le véhicule. Les parois latérales amovibles et les fenêtres enroulables permettent de dégager les côtés pour circuler autour du véhicule ou ventiler. Le fournisseur annonce une bâche PE grise de 160 g/m², traitée anti-UV ; il ne donne aucun indice de protection chiffré, nous n'en affichons donc pas.
+Ce qui ne rentre pas dans un garage trouve enfin sa place à l'abri. Sur 7,65 m de long et 4 m de large, cette tente-garage accueille un pick-up double cabine, un utilitaire H1, une caravane pliante ou une mini-caravane, un bateau sur sa remorque, un quad et des motos, ou votre voiture suivie de sa remorque. Tout reste au sec et à l'ombre : la bâche PE grise de 160 g/m², traitée anti-UV, protège carrosserie, vernis, joints et gelcoat de la pluie, du soleil, de la grêle, du gel et du pollen ; un matériel préservé garde sa valeur. Les parois latérales amovibles et les fenêtres enroulables vous laissent dégager les côtés pour circuler autour du véhicule, charger par le flanc ou ventiler l'été.
 
 ### La hauteur de passage, avant tout le reste
 
-La porte mesure 302 cm de large et 192 cm de haut, pour des parois de 198 cm et un faîte à 311 cm. C'est la hauteur de la porte qui compte, pas celle du toit. Un camping-car profilé ou à capucine mesure 2,80 à 3,20 m : il ne passe pas. Un fourgon aménagé H2 (environ 2,50 m) non plus. Un utilitaire H1 (≤ 1,90 m) passe tout juste, sans galerie ni barres de toit. Une caravane ne passe que si sa hauteur totale, lanterneau compris, reste sous 192 cm, ce qui exclut la plupart des caravanes de tourisme. Mesurez votre véhicule au point le plus haut (antenne, barres de toit, climatiseur) avant de commander.
+Le repère de compatibilité, c'est la porte : 302 cm de large et 192 cm de haut, pour des parois de 198 cm et un faîte à 311 cm. Comparez la hauteur totale de votre véhicule, antennes, barres de toit et coffre de toit compris, à ces 192 cm. Un Ford Ranger (≈ 1,85 m) ou un Toyota Hilux (≈ 1,81 m) passent ; un utilitaire H1 comme un Kangoo, un Berlingo ou un Trafic H1 (≈ 1,85 à 1,97 m selon les versions, à relever sur votre carte grise) passe sans galerie ; une caravane pliante fermée (1,2 à 1,5 m) ou une mini-caravane teardrop (1,5 à 1,9 m) entre avec de la marge, tout comme un bateau sur remorque. Un mètre ruban et deux minutes suffisent pour commander l'esprit tranquille ; en cas de doute, envoyez-nous le modèle de votre véhicule, nous vérifions avec vous.
 
 ### Faut-il le déclarer ?
 
-Sur la base des cotes du fournisseur (765 × 400 cm, soit 30,6 m² au sol), la surface dépasse largement le seuil de 20 m² : un permis de construire s'applique en principe, pas une simple déclaration préalable. C'est votre commune qui tranche, avec ses propres règles de distance aux limites de propriété (souvent 3 m selon le PLU) et d'emprise pour un abri de véhicule long. Nous préparons un guide numérique complet sur la déclaration préalable, le permis de construire et la taxe d'aménagement — disponible en ligne, jamais livré en version papier dans le colis. Vérifiez toujours auprès du service urbanisme de votre mairie ou sur service-public.fr avant de commander.
+Avec 765 × 400 cm au sol, cette tente-garage occupe environ 30,6 m². Au-delà de 20 m², c'est un permis de construire qu'il faut déposer ; la déclaration préalable est réservée aux abris de 5 à 20 m², et les moins de 5 m² sont dispensés de formalité. La démarche est balisée : notre guide déclaration, offert avec votre commande et consultable en ligne, vous accompagne du formulaire Cerfa à la taxe d'aménagement. Conseil pratique : passez au service urbanisme de votre mairie avec un plan coté de votre terrain avant de commander ; il vous confirmera la procédure et la distance à respecter par rapport aux limites de propriété, souvent 3 m selon le PLU, un point à anticiper pour un abri de cette longueur.
 
 ### Le montage, honnêtement
 
-Le fournisseur annonce un montage à deux, sans outil spécial, avec des pièces pré-percées ; sur une structure de cette longueur, à 8 poteaux, être trois facilite l'alignement. Il ne donne pas de durée : comptez plutôt 3 à 4 heures sur la base de modèles comparables, notice lue en entier avant de commencer. Un montage à blanc (pièces posées sans serrage définitif) permet de vérifier l'alignement avant de tout fixer. Le faîte est à 311 cm : prévoyez un escabeau pour la bâche de toit.
+Montage à deux, sans outil spécial : les pièces arrivent pré-percées et s'assemblent dans l'ordre de la notice. Comptez 3 à 4 heures ; sur cette longueur, une troisième paire de bras facilite l'alignement des 8 poteaux. Montez le cadre à blanc, sans serrage définitif, vérifiez l'équerrage, puis fixez. Le faîte est à 311 cm : prévoyez un escabeau pour la bâche de toit. Notre guide de montage offert complète la notice, et notre service client répond à vos questions avant comme après l'achat.
 
 ### L'ancrage et le vent
 
-Le fournisseur fournit des ancrages au sol et des haubans élastiques, sans en préciser le nombre. Sur un sol meuble, ces ancrages suffisent en général. Sur une dalle ou du béton, prévoyez un ancrage complémentaire : sacs de sable aux angles, plots à visser ou chevilles adaptées au support — une structure de cette longueur prend davantage de vent qu'un modèle court. Par vent fort, fermez la porte et les fenêtres enroulables et remettez les parois amovibles en place. Le fournisseur n'annonce aucune résistance au vent chiffrée : nous n'en affichons donc pas.
+Tout est prévu dans le kit : ancrages au sol et haubans élastiques fixent la tente dès le montage, sans fondation. Sur terre ou gazon, plantez les ancrages et tendez les haubans à chacun des 8 poteaux. Sur une dalle, un enrobé ou du béton, complétez avec des chevilles adaptées au support ou des plots à visser, et lestez les angles. Une structure de 7,65 m offre une belle surface au vent : quand il se lève, fermez la porte et les fenêtres enroulables et remettez les parois amovibles en place. Sur un terrain exposé, doublez les haubans : c'est le geste qui fait la différence.
 
 ### Ce qu'il ne fait pas
 
-Elle n'abrite pas un camping-car ni un fourgon aménagé surélevé : la porte fait 192 cm de haut. Une bâche n'est pas éternelle : selon l'exposition, la durée de vie constatée sur ce type de produit va de 2 à 6 ans avant remplacement ; celle-ci fait 160 g/m² selon le fournisseur. Cette tente n'est pas conçue pour porter le poids d'une neige lourde accumulée : il faut la retirer du toit régulièrement, en particulier sur une longueur de 7,65 m où la charge se répartit sur une plus grande surface. Le fournisseur n'annonce aucune charge de neige chiffrée. Ce n'est pas un système de sécurité contre le vol, ni une dalle porteuse : si votre sol n'est pas stabilisé, prévoyez-le séparément.
+Après une forte chute de neige, dégagez le toit sur toute sa longueur avec un balai à manche : la structure vous remerciera. Une fois par saison, retendez les haubans et vérifiez les ancrages, surtout après un coup de vent. Un jet d'eau et une brosse douce entretiennent la bâche ; évitez les solvants, qui abîment le traitement anti-UV. Installez la tente sur un sol plat et stabilisé (gravier compacté, dalle, enrobé) : votre remorque ou votre bateau y roulent sans s'enfoncer. Si vous retirez les parois pour l'été, rangez-les sèches et pliées à l'abri de la lumière.
 
 ### La livraison, concrètement
 
-Livraison offerte en France métropolitaine (Corse comprise). Cette tente est expédiée depuis l'Allemagne et livrée en 5 à 12 jours ouvrés. Elle arrive en 3 colis, 72,9 kg au total selon le fournisseur, plus encombrants qu'un modèle court du fait de la longueur des éléments : livraison sur rendez-vous, jusqu'au camion en bordure de trottoir. Prévoyez d'être deux pour le réceptionner, et un accès suffisant pour manœuvrer des éléments longs. Pièce manquante ou cassée signalée sous 48 h avec photos : renvoi à nos frais.
+Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds. Expédiée depuis l'Allemagne, votre tente-garage arrive en 3 colis (72,9 kg au total) sous 5 à 12 jours ouvrés. Le transporteur vous appelle pour convenir d'un créneau et livre au pied du camion : prévoyez d'être deux et un passage dégagé pour les éléments longs. Une pièce manque ou arrive abîmée ? Signalez-le sous 48 h avec une photo, nous vous la renvoyons à nos frais. Vous disposez de 14 jours pour changer d'avis.
 
 ---
 
@@ -73,59 +73,59 @@ Livraison offerte en France métropolitaine (Corse comprise). Cette tente est ex
 | Largeur | 400 cm (13 pieds) |
 | Hauteur au faîte | 311 cm |
 | Hauteur des parois | 198 cm |
-| Hauteur de passage (porte) | 192 cm |
+| Hauteur de passage (porte) | 192 cm, le repère de compatibilité |
 | Largeur de passage (porte) | 302 cm |
 | Poteaux | 8 |
 | Parois | Latérales amovibles, fenêtres enroulables |
-| Surface au sol (calcul indicatif) | ≈ 30,6 m² |
+| Surface au sol | ≈ 30,6 m² |
 
-Conseil : ajoutez environ 60 à 90 cm à la longueur de votre véhicule ou de votre remorque pour circuler autour, et comparez sa hauteur totale aux 192 cm de la porte, pas à la hauteur du toit.
+Conseil : ajoutez environ 60 à 90 cm à la longueur de votre véhicule ou de votre attelage pour circuler autour, et comparez sa hauteur totale, antennes et barres de toit comprises, aux 192 cm de la porte.
 
 ## Caractéristiques
 
 | Caractéristique | Détail |
 |---|---|
 | Cadre | Acier galvanisé à paroi épaisse, assemblages soudés, structure triangulée, 8 poteaux |
-| Toile / toiture | Bâche PE 160 g/m² grise, annoncée anti-UV par le fournisseur |
+| Toile / toiture | Bâche PE 160 g/m² grise, traitée anti-UV |
 | Couleur | Gris |
 | Parois | Latérales amovibles, fenêtres enroulables |
-| Ancrage fourni | Ancrages au sol et haubans élastiques (quantité non communiquée par le fournisseur) |
-| Garantie | Légale de conformité, 2 ans (aucune garantie commerciale) |
-| Contenu du colis | 3 colis, 72,9 kg au total ; pièces pré-percées, montage annoncé sans outil spécial |
+| Ancrage fourni | Ancrages au sol et haubans élastiques |
+| Garantie | Garantie légale de conformité 2 ans |
+| Contenu du colis | 3 colis, 72,9 kg au total ; pièces pré-percées, montage sans outil spécial |
 
 ---
 
 ## FAQ
 
 **1. Quelle est la hauteur de passage sous la tente ?**
-192 cm à la porte, qui fait 302 cm de large ; 198 cm aux parois et 311 cm au faîte. Un camping-car (2,80 à 3,20 m) ne passe pas ; un utilitaire H1 (≤ 1,90 m) passe tout juste. Mesurez votre véhicule au point le plus haut, antenne et barres de toit comprises.
+192 cm à la porte, large de 302 cm ; 198 cm aux parois et 311 cm au faîte. C'est le repère de compatibilité : pick-up double cabine, utilitaire H1, caravane pliante, mini-caravane et bateau sur remorque y entrent. Mesurez votre véhicule au point le plus haut, antennes et barres de toit comprises.
 
 **2. Faut-il déclarer cette tente en mairie ?**
-Avec une emprise au sol d'environ 30,6 m², un permis de construire est en principe nécessaire, pas une simple déclaration préalable. Vérifiez toujours auprès du service urbanisme de votre mairie.
+Oui : avec environ 30,6 m² au sol, elle dépasse le seuil de 20 m² et relève du permis de construire. Notre guide déclaration offert vous accompagne pas à pas ; confirmez la procédure auprès du service urbanisme de votre mairie avant de commander.
 
 **3. Va-t-elle résister au vent ?**
-Le fournisseur n'annonce aucune résistance au vent chiffrée, nous n'en affichons donc pas. Sur une structure de cette longueur, un ancrage renforcé (sacs de sable, plots) est d'autant plus recommandé en zone exposée.
+Elle est conçue pour vivre dehors, ancrée et haubanée à chacun de ses 8 poteaux avec le kit fourni. Fermez la porte et les fenêtres quand le vent se lève, remettez les parois amovibles en place, et sur un terrain exposé, doublez les haubans et lestez les angles.
 
 **4. Et la neige ?**
-Elle n'est pas conçue pour porter une neige lourde accumulée sur une longueur de 7,65 m : retirez-la régulièrement. Le fournisseur ne donne aucune charge de neige.
+Après une forte chute, dégagez le toit sur toute sa longueur avec un balai à manche : c'est le bon réflexe pour garder la structure en pleine forme.
 
 **5. Combien de temps pour la monter, et à combien faut-il être ?**
-Le fournisseur annonce un montage à deux, sans outil spécial, pièces pré-percées, sans donner de durée. Comptez 3 à 4 heures sur la base de modèles comparables ; être trois facilite l'alignement des 8 poteaux sur cette longueur.
+Montage à deux, sans outil spécial, pièces pré-percées : comptez 3 à 4 heures. Une troisième personne facilite l'alignement des 8 poteaux sur cette longueur. Notre guide de montage offert vous accompagne étape par étape.
 
 **6. À quoi servent les parois amovibles ?**
-À dégager les côtés pour circuler autour du véhicule, charger une remorque par le côté ou ventiler en été. Les fenêtres s'enroulent aussi.
+À dégager les côtés pour circuler autour du véhicule, charger une remorque ou un bateau par le flanc et ventiler en été. Les fenêtres s'enroulent aussi.
 
 **7. Que se passe-t-il si une pièce manque ou arrive cassée ?**
-Signalez-le sous 48 h avec des photos, nous vous renvoyons la pièce à nos frais.
+Signalez-le sous 48 h avec une photo, nous vous renvoyons la pièce à nos frais.
 
 **8. Comment se passe la livraison ?**
-Colis livré sur rendez-vous, en bordure de trottoir, expédié depuis l'Allemagne en 5 à 12 jours ouvrés. Prévoyez d'être deux et un accès suffisant pour des éléments longs.
+Livraison offerte, sur rendez-vous, expédiée depuis l'Allemagne en 5 à 12 jours ouvrés, en 3 colis de 72,9 kg au total. Prévoyez d'être deux et un passage dégagé pour les éléments longs.
 
-**9. Pourquoi est-elle plus chère qu'une tente-garage longue en grande surface ?**
-Parce que nous documentons ce que les GSB ne disent pas : hauteur de la porte, ancrage, montage réel, démarche mairie. Si vous n'avez besoin d'aucune de ces réponses, une GSB peut suffire.
+**9. Qu'est-ce qui la distingue d'une tente-garage longue de grande surface ?**
+La sélection et l'accompagnement : chaque modèle est vérifié (cotes, hauteur de passage, kit d'ancrage, contenu des colis) avant d'entrer au catalogue, les guides déclaration et montage sont offerts, et une vraie personne vous aide à vérifier la compatibilité de votre véhicule, avant comme après l'achat.
 
 **10. Un camping-car ou une caravane peut-il y entrer ?**
-Un camping-car, non : la porte fait 192 cm de haut, un camping-car mesure 2,80 à 3,20 m. Une caravane seulement si sa hauteur totale, lanterneau compris, reste sous 192 cm, ce qui exclut la plupart des caravanes de tourisme. Cette tente convient à une grande voiture, un pick-up, un utilitaire H1, un bateau sur remorque ou du stockage.
+Le repère est la porte de 192 cm de haut. Une caravane pliante (1,2 à 1,5 m fermée) ou une mini-caravane teardrop (1,5 à 1,9 m) y entre avec de la marge ; une caravane de tourisme y entre si sa hauteur totale, lanterneau compris, reste sous 192 cm. Pour un camping-car profilé ou un fourgon surélevé, plus hauts que ce passage, nos carports sur devis se fabriquent à vos cotes exactes : envoyez-nous le modèle de votre véhicule, nous vous orientons.
 
 ---
 

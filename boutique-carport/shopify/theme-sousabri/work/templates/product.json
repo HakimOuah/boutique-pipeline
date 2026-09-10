@@ -60,7 +60,7 @@
         "accordeons": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%- assign mf = product.metafields.custom -%}\n<style>\n.sa-acc{margin-top:8px}.sa-acc details{border-top:1px solid rgba(27,31,36,.15)}.sa-acc details:last-child{border-bottom:1px solid rgba(27,31,36,.15)}\n.sa-acc summary{cursor:pointer;padding:14px 0;font-weight:600;font-size:1.05rem;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px}\n.sa-acc summary::-webkit-details-marker{display:none}.sa-acc summary::after{content:\"+\";font-size:1.5rem;line-height:1;color:#C8552B;flex:none}\n.sa-acc details[open]>summary::after{content:\"–\"}.sa-acc .sa-body{padding:0 0 16px}.sa-acc .sa-body>:first-child{margin-top:0}.sa-acc details>p{padding:0 0 16px;margin:0}\n.sa-acc table{width:100%;border-collapse:collapse;font-size:.95rem}.sa-acc td,.sa-acc th{padding:8px 6px;border-bottom:1px solid rgba(27,31,36,.1);text-align:left;vertical-align:top}\n.rte details{border-top:1px solid rgba(27,31,36,.15)}.rte details:last-of-type{border-bottom:1px solid rgba(27,31,36,.15)}.rte summary{cursor:pointer;padding:14px 0;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:12px}.rte summary::-webkit-details-marker{display:none}.rte summary::after{content:\"+\";font-size:1.5rem;line-height:1;color:#C8552B;flex:none}.rte details[open]>summary::after{content:\"–\"}.rte details>p{margin:0 0 16px}\nmark.a-verifier{background:#FFE58A;padding:0 3px}.sa-lead{font-size:1.15rem}\n</style>\n<div class=\"sa-acc rte\">\n{%- if mf.specifications.value != blank -%}<details open><summary>Dimensions et caractéristiques</summary><div class=\"sa-body\">{{ mf.specifications.value }}</div></details>{%- endif -%}\n{%- if mf.declarer.value != blank -%}<details><summary>Faut-il le déclarer ?</summary><div class=\"sa-body\">{{ mf.declarer.value }}</div></details>{%- endif -%}\n{%- if mf.montage_texte.value != blank -%}<details><summary>Montage</summary><div class=\"sa-body\">{{ mf.montage_texte.value }}</div></details>{%- endif -%}\n{%- if mf.ancrage_vent.value != blank -%}<details><summary>Ancrage et vent</summary><div class=\"sa-body\">{{ mf.ancrage_vent.value }}</div></details>{%- endif -%}\n{%- if mf.ne_fait_pas.value != blank -%}<details><summary>Ce qu'il ne fait pas</summary><div class=\"sa-body\">{{ mf.ne_fait_pas.value }}</div></details>{%- endif -%}\n{%- if mf.livraison_texte.value != blank -%}<details><summary>Livraison</summary><div class=\"sa-body\">{{ mf.livraison_texte.value }}</div></details>{%- endif -%}\n{%- if mf.contenu_colis.value != blank -%}<details><summary>Contenu du colis</summary><div class=\"sa-body\">{{ mf.contenu_colis.value }}</div></details>{%- endif -%}\n</div>"
+            "custom_liquid": "{%- assign mf = product.metafields.custom -%}\n<style>\n.sa-acc{margin-top:8px}.sa-acc details{border-top:1px solid rgba(27,31,36,.15)}.sa-acc details:last-child{border-bottom:1px solid rgba(27,31,36,.15)}\n.sa-acc summary{cursor:pointer;padding:14px 0;font-weight:600;font-size:1.05rem;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px}\n.sa-acc summary::-webkit-details-marker{display:none}.sa-acc summary::after{content:\"+\";font-size:1.5rem;line-height:1;color:#C8552B;flex:none}\n.sa-acc details[open]>summary::after{content:\"–\"}.sa-acc .sa-body{padding:0 0 16px}.sa-acc .sa-body>:first-child{margin-top:0}.sa-acc details>p{padding:0 0 16px;margin:0}\n.sa-acc table{width:100%;border-collapse:collapse;font-size:.95rem}.sa-acc td,.sa-acc th{padding:8px 6px;border-bottom:1px solid rgba(27,31,36,.1);text-align:left;vertical-align:top}\n.rte details{border-top:1px solid rgba(27,31,36,.15)}.rte details:last-of-type{border-bottom:1px solid rgba(27,31,36,.15)}.rte summary{cursor:pointer;padding:14px 0;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:12px}.rte summary::-webkit-details-marker{display:none}.rte summary::after{content:\"+\";font-size:1.5rem;line-height:1;color:#C8552B;flex:none}.rte details[open]>summary::after{content:\"–\"}.rte details>p{margin:0 0 16px}\nmark.a-verifier{background:#FFE58A;padding:0 3px}.sa-lead{font-size:1.15rem}\n</style>\n<div class=\"sa-acc rte\">\n{%- if mf.specifications.value != blank -%}<details open><summary>Dimensions et caractéristiques</summary><div class=\"sa-body\">{{ mf.specifications.value }}</div></details>{%- endif -%}\n{%- if mf.declarer.value != blank -%}<details><summary>Démarches en mairie</summary><div class=\"sa-body\">{{ mf.declarer.value }}</div></details>{%- endif -%}\n{%- if mf.montage_texte.value != blank -%}<details><summary>Montage</summary><div class=\"sa-body\">{{ mf.montage_texte.value }}</div></details>{%- endif -%}\n{%- if mf.ancrage_vent.value != blank -%}<details><summary>Ancrage et vent</summary><div class=\"sa-body\">{{ mf.ancrage_vent.value }}</div></details>{%- endif -%}\n{%- if mf.ne_fait_pas.value != blank -%}<details><summary>Bon à savoir</summary><div class=\"sa-body\">{{ mf.ne_fait_pas.value }}</div></details>{%- endif -%}\n{%- if mf.livraison_texte.value != blank -%}<details><summary>Livraison</summary><div class=\"sa-body\">{{ mf.livraison_texte.value }}</div></details>{%- endif -%}\n{%- if mf.contenu_colis.value != blank -%}<details><summary>Contenu du colis</summary><div class=\"sa-body\">{{ mf.contenu_colis.value }}</div></details>{%- endif -%}\n</div>"
           }
         },
         "reass-1": {
@@ -76,7 +76,7 @@
         "reass-2": {
           "type": "text",
           "settings": {
-            "text": "Garantie légale de conformité 2 ans ; rétractation 14 jours sauf fabrication à la commande (voir « Livraison & Retours »)",
+            "text": "Garantie légale de conformité 2 ans, service client français, réponse sous 1 jour ouvré",
             "text_style": "body",
             "text_color": "",
             "enable_icon": true,
@@ -86,7 +86,7 @@
         "reass-3": {
           "type": "text",
           "settings": {
-            "text": "Paiement sécurisé : carte, PayPal 4×, Klarna 3×, Apple Pay, Shop Pay",
+            "text": "Paiement sécurisé : carte, Apple Pay, Shop Pay, et en 3 ou 4 fois avec Klarna et PayPal",
             "text_style": "body",
             "text_color": "",
             "enable_icon": true,
@@ -96,7 +96,7 @@
         "reass-4": {
           "type": "text",
           "settings": {
-            "text": "Guide numérique de déclaration et de montage offert",
+            "text": "Guides déclaration et montage offerts, conseil avant et après l'achat",
             "text_style": "body",
             "text_color": "",
             "enable_icon": true,
@@ -107,7 +107,7 @@
           "type": "collapsible",
           "settings": {
             "heading": "Livraison & Retours",
-            "content": "<p>Expédition en 1 à 3 jours ouvrés pour les produits en stock. Délais de livraison : 5 à 12 jours ouvrés en France métropolitaine pour les tentes-garages et le carport acier, 8 à 12 semaines pour les carports aluminium fabriqués à la commande. Livraison offerte, sur rendez-vous. <a href=\"/policies/shipping-policy\">Plus d'infos ici.</a></p><p>Vous avez 14 jours pour retourner, échanger ou demander un remboursement. <a href=\"/policies/refund-policy\">Plus d'infos ici.</a></p>",
+            "content": "<p>Livraison offerte en France métropolitaine, Corse comprise, sur rendez-vous pour les colis lourds. Comptez 5 à 12 jours ouvrés pour les tentes-garages et le carport acier, 4 à 8 semaines pour les carports aluminium à toit arqué, fabriqués à la commande dans votre coloris, et 10 à 12 semaines pour les carports sur devis. <a href=\"/policies/shipping-policy\">Consulter les conditions de livraison.</a></p><p>Vous disposez de 14 jours après réception pour vous rétracter sur les produits en stock. Les carports aluminium fabriqués à la commande en sont exclus (article L221-28 du Code de la consommation). Tous nos abris bénéficient de la garantie légale de conformité de 2 ans. <a href=\"/policies/refund-policy\">Consulter les conditions de retour.</a></p>",
             "description": false,
             "open_by_default": false
           }
@@ -146,7 +146,7 @@
     "protege": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{%- if product.metafields.custom.protege.value != blank -%}\n<div class=\"page-width rte\">\n  <h2>Ce qu'il protège</h2>\n  {{ product.metafields.custom.protege.value }}\n</div>\n{%- endif -%}",
+        "custom_liquid": "{%- if product.metafields.custom.protege.value != blank -%}\n<div class=\"page-width rte\">\n  <h2>Ce qu'il vous apporte</h2>\n  {{ product.metafields.custom.protege.value }}\n</div>\n{%- endif -%}",
         "color_scheme": "background-1",
         "display_as_card": false,
         "margin_top": 0,
@@ -173,7 +173,7 @@
         "heading_size": "h1",
         "hn": "h2",
         "heading": "Sous Abri ou grande surface de bricolage",
-        "content": "<p>Ce que nous vous disons avant l'achat, pas seulement un prix.</p>",
+        "content": "<p>La différence se joue dans la sélection des modèles et dans l'accompagnement autour de votre abri.</p>",
         "content_position": "above",
         "heading_col_1": "Sous Abri",
         "heading_col_2": "Grande surface de bricolage",
@@ -189,7 +189,7 @@
         "row-1": {
           "type": "row",
           "settings": {
-            "heading": "On vous dit si une déclaration est nécessaire",
+            "heading": "Modèle vérifié avant d'entrer au catalogue : cotes, kit d'ancrage, contenu des colis",
             "is_checked_col_1": true,
             "is_checked_col_2": false
           }
@@ -197,7 +197,7 @@
         "row-2": {
           "type": "row",
           "settings": {
-            "heading": "L'ancrage et le vent sont expliqués sur la fiche",
+            "heading": "Démarche en mairie indiquée sur la fiche, guide déclaration offert",
             "is_checked_col_1": true,
             "is_checked_col_2": false
           }
@@ -205,7 +205,7 @@
         "row-3": {
           "type": "row",
           "settings": {
-            "heading": "La durée de montage est annoncée avant l'achat",
+            "heading": "Montage et ancrage expliqués, conseil par une vraie personne",
             "is_checked_col_1": true,
             "is_checked_col_2": false
           }
@@ -231,21 +231,21 @@
           "type": "item",
           "settings": {
             "heading": "Garantie légale 2 ans",
-            "description": "<p>Rétractation 14 jours sur les produits en stock ; les carports aluminium fabriqués à la commande en sont exclus.</p>"
+            "description": "<p>Garantie légale de conformité 2 ans. Rétractation 14 jours sur les produits en stock ; les carports aluminium fabriqués à la commande en sont exclus.</p>"
           }
         },
         "item-3": {
           "type": "item",
           "settings": {
             "heading": "Paiement sécurisé",
-            "description": "<p>Carte, PayPal, Apple Pay, Shop Pay.</p>"
+            "description": "<p>Carte, Apple Pay, Shop Pay, et en 3 ou 4 fois avec Klarna et PayPal.</p>"
           }
         },
         "item-4": {
           "type": "item",
           "settings": {
             "heading": "Réponse sous 1 jour ouvré",
-            "description": "<p>Du lundi au vendredi.</p>"
+            "description": "<p>Service client français, du lundi au vendredi.</p>"
           }
         }
       },
@@ -316,7 +316,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "La boutique qui vous dit tout avant l'achat",
+            "heading": "Le spécialiste français de l'abri voiture en kit",
             "background_heading": false,
             "heading_size": "h1",
             "hn": "h2"
@@ -325,7 +325,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Un carport se choisit avec trois questions : a-t-on le droit de le poser, va-t-il tenir au vent, combien de temps prend le montage. Chaque fiche Sous Abri y répond avant l'achat, et dit aussi ce que le produit ne fait pas.</p>",
+            "text": "<p>Carports aluminium et acier, tentes-garages : nous sélectionnons chaque modèle pour les jardins et allées de France et nous le vérifions avant de le vendre, cotes, kit d'ancrage et contenu des colis compris. Livraison offerte, guides déclaration et montage offerts, et une vraie personne pour vous conseiller avant comme après l'achat.</p>",
             "text_style": "body"
           }
         },
