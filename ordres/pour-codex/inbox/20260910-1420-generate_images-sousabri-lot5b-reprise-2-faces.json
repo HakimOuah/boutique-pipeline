@@ -1,0 +1,66 @@
+{
+ "type": "generate_images",
+ "requested_by": "claude-code",
+ "created_at": "2026-09-10T14:20:00Z",
+ "id": "claude-20260910-1420-sousabri-lot5b-reprise-2-faces",
+ "notes": "Sous Abri, lot 5b : reprise de deux faces du lot 5. 1) tente-garage-4x7-6-camping-car-face.jpg livrée mais REJETÉE par Claude : le camping-car est garé EN TRAVERS de la tente (on voit son flanc dans l'ouverture du pignon), or la tente fait 4 m de large et le camping-car 7 m : c'est physiquement impossible. 2) tente-garage-mobile-3x3-face.jpg non livrée après 4 essais (conflit axe véhicule / plaque / géométrie). Règle assouplie pour débloquer la plaque, voir contraintes. Mêmes noms de fichiers, ils remplacent les faces lot 4. Aucun accès boutique.",
+ "payload": {
+  "manifest": [
+   {
+    "handle": "tente-garage-4x7-6-camping-car",
+    "sku": "SA-TG-4x76",
+    "slot": "face",
+    "fichier": "tente-garage-4x7-6-camping-car-face.jpg",
+    "vehicule": "camping-car profilé blanc sans marque, gabarit 7 m, garé DANS L'AXE de la tente (calandre ou arrière face à l'ouverture du pignon)",
+    "source_id": "1005012322112744"
+   },
+   {
+    "handle": "tente-garage-mobile-3x3",
+    "sku": "SA-TG-3x3",
+    "slot": "face",
+    "fichier": "tente-garage-mobile-3x3-face.jpg",
+    "vehicule": "Citroën C3 sable et toit noir, la même que sur la face Outsunny livrée en lot 5, garée dans l'axe de la tente, avant vers le fond ou vers l'ouverture",
+    "source_id": "1005012942086535"
+   }
+  ],
+  "sources": [
+   "boutique-carport/assets/source/index.json",
+   "boutique-carport/assets/source/1005012322112744/01.jpg",
+   "boutique-carport/assets/source/1005012942086535/01.jpg",
+   "boutique-carport/livraisons/visuels-lot5-2026-09-10/tente-garage-3x6-outsunny-face.jpg",
+   "boutique-carport/livraisons/visuels-lot5-2026-09-10/tente-garage-4x7-6-camping-car-face.jpg",
+   "boutique-carport/livraisons/visuels-lot5-2026-09-10/rejected/"
+  ],
+  "da": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+   "surcharges": "boutique-carport/BRIEF-VISUELS-CODEX-2026-09-09.md §2 (règles Voitures, Logique de scène, Anti slop IA du 10/09 midi). Face 2048×2048, photo de terrain, véhicule attitré sous l'abri."
+  },
+  "contraintes": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+   "specifiques": [
+    "Mêmes règles que l'ordre claude-20260910-1330-sousabri-lot5-faces-voitures (vérité produit, logique de scène, anti slop IA, sept points de QA), avec les précisions ci-dessous.",
+    "AXE DU VÉHICULE (motif du rejet 4x7,6) : le véhicule est garé dans l'axe long de la tente, roues parallèles aux parois latérales, calandre OU arrière tourné vers l'ouverture du pignon. Vu depuis l'extérieur en trois quarts, on voit dans l'ouverture soit la calandre soit l'arrière du véhicule, jamais son flanc. Le véhicule tient dans la largeur (4 m pour la 4x7,6 ; 3 m pour la 3x3) avec de la marge de chaque côté.",
+    "PLAQUE, règle assouplie pour débloquer (décision Claude, à valider par Hakim) : aucun caractère lisible ni pseudo-texte sur la zone de plaque ; un logement ou support de plaque VIDE, de la couleur de la carrosserie ou noir mat, est accepté s'il est discret. Préférer un angle où la zone de plaque est peu visible : véhicule garé nez au fond (on voit l'arrière depuis l'ouverture, hayon dans la pénombre), ou pignon partiellement fermé par la porte enroulée à mi-hauteur qui coupe la vue sous la ceinture de caisse. Ne jamais inventer un élément de tente (montant, pan de toile) pour masquer la plaque : la géométrie de la source est intangible.",
+    "Tente 3 × 3 : une Citroën C3 fait 4 m de long ; dans une tente de 3 m de profondeur, l'arrière dépasse d'environ 1 m par l'ouverture, c'est normal et attendu. La tente n'est PAS agrandie. Porte enroulable relevée, deux ou trois enroulements visibles.",
+    "Tente 4 × 7,6 : camping-car profilé blanc d'environ 7 m, dans l'axe, calandre vers l'ouverture (cabine type Fiat Ducato mais SANS logo ni monogramme) ou arrière vers l'ouverture ; pare-chocs sans plaque lisible. Sol porteur continu (gravier tassé ou enrobé) jusqu'au portail, bandes de roulement visibles, maison ordinaire en arrière-plan.",
+    "Les deux scènes sont différentes entre elles et différentes des faces livrées en lot 5.",
+    "QA écrite par image : par où le véhicule est entré ; angle du véhicule par rapport à l'axe de la tente (doit être 0°) ; zoom sur la zone de plaque : aucun caractère ; compte des arceaux/portiques comparé à la source ; trois imperfections."
+   ]
+  },
+  "qa_attendue": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+   "specifiques": [
+    "Véhicule dans l'axe de la tente, flanc jamais visible dans l'ouverture",
+    "Aucun caractère sur la zone de plaque ; support vide discret toléré",
+    "Géométrie de la tente identique à la source (largeur, portiques, porte)",
+    "Chemin d'accès et sol porteur continu",
+    "Trois imperfections listées par image",
+    "Planche-contact des 2 faces à côté de la source fournisseur et de la face rejetée"
+   ]
+  },
+  "sortie": {
+   "dossier": "boutique-carport/livraisons/visuels-lot5b-2026-09-10/",
+   "manifeste": "manifeste.json"
+  }
+ }
+}
