@@ -102,6 +102,15 @@
             "enable_icon": true,
             "icon": "clipboard"
           }
+        },
+        "livraison-retours": {
+          "type": "collapsible",
+          "settings": {
+            "heading": "Livraison & Retours",
+            "content": "<p>Expédition en 1 à 3 jours ouvrés pour les produits en stock. Délais de livraison : 5 à 12 jours ouvrés en France métropolitaine pour les tentes-garages et le carport acier, 8 à 12 semaines pour les carports aluminium fabriqués à la commande. Livraison offerte, sur rendez-vous. <a href=\"/policies/shipping-policy\">Plus d'infos ici.</a></p><p>Vous avez 14 jours pour retourner, échanger ou demander un remboursement. <a href=\"/policies/refund-policy\">Plus d'infos ici.</a></p>",
+            "description": false,
+            "open_by_default": false
+          }
         }
       },
       "block_order": [
@@ -113,6 +122,7 @@
         "reass-2",
         "reass-3",
         "reass-4",
+        "livraison-retours",
         "accordeons"
       ],
       "settings": {

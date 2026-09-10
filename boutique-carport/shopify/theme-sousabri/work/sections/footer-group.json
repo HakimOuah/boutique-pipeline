@@ -8,8 +8,8 @@
         "marque": {
           "type": "text",
           "settings": {
-            "heading": "Sous Abri",
-            "subtext": "<p>Carports en kit et tentes-garages livrés en France métropolitaine. Chaque fiche dit s'il faut déclarer, comment ancrer et combien de temps prend le montage. Livraison offerte, garantie légale 2 ans.</p><p>OH Ventures (SASU) — 47 rue Vivienne, 75002 Paris, France<br>SIREN 103 157 251 — TVA FR55103157251</p><p><a href=\"mailto:contact@sousabri.fr\">contact@sousabri.fr</a> · +33 7 56 82 80 94<br>Du lundi au vendredi, 9 h à 18 h</p>"
+            "heading": "Nous contacter",
+            "subtext": "<p>Carports en kit et tentes-garages livrés en France métropolitaine. Chaque fiche dit s'il faut déclarer, comment ancrer et combien de temps prend le montage.</p><p><strong>E-mail</strong> : <a href=\"mailto:contact@sousabri.fr\">contact@sousabri.fr</a><br><strong>Téléphone</strong> : +33 7 56 82 80 94<br><strong>Adresse</strong> : OH Ventures (SASU), 47 rue Vivienne, 75002 Paris, France<br><strong>Horaires</strong> : du lundi au vendredi, 9h00 à 18h00</p><p><a href=\"/pages/contact\">Page contact</a></p>"
           }
         },
         "boutique": {
@@ -32,9 +32,18 @@
             "heading": "Légal",
             "menu": "footer-apropos"
           }
+        },
+        "logo": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/logo-sousabri-inverse.png",
+            "image_width": 180,
+            "alignment": "left"
+          }
         }
       },
       "block_order": [
+        "logo",
         "marque",
         "boutique",
         "informations",
@@ -44,7 +53,7 @@
         "color_scheme": "inverse",
         "footer_card": false,
         "border_radius": 0,
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "Recevez nos guides et nouveautés",
         "enable_follow_on_shop": false,
         "show_social": false,
