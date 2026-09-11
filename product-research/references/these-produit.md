@@ -23,7 +23,9 @@ Il doit idéalement cocher plusieurs de ces points :
   confort, usage, qualité perçue, livraison, garantie, bundle, spécialisation ou persona ;
 - il a une demande Google vérifiable ou une douleur recherchée ;
 - il atteint au minimum le seuil DataForSEO du mode défini dans `PRODUCT-RESEARCH-CRITERIA.md` :
-  **12 500/mois en PRODUIT PUR** ou **37 500 consolidés en UNIVERS**, sur une demande directement pertinente. Les cas limites restent REVIEW ;
+  **12 500/mois en PRODUIT PUR** (hors chemin SMP) ou, en UNIVERS, **30 000/mois net de marque
+  consolidés et 800/mois sur la courte traîne de chaque collection** (décision Hakim du 11/09/2026),
+  sur une demande directement pertinente. Les cas limites restent REVIEW ;
 - pour les marchés maison, mobilier, cuisine, salle de bain ou déco high-ticket : il a une demande
   mensuelle suffisante, une recherche Shopping visible, des concurrents imparfaits, et une
   différenciation possible par style, sélection, qualité perçue, dimensions, usage, bundle,

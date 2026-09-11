@@ -9,6 +9,14 @@ Pour chaque produit intéressant :
 - vérifier les ads via Google Ads Transparency Center, Meta Ad Library, TikTok Creative Center ou
   outils payants.
 
+**Passe Ads concurrents (décision Hakim du 11/09/2026).** TrendTrack en priorité, sinon Google Ads
+Transparency (`https://adstransparency.google.com`, qui donne un *Last shown*, pas un *First Seen*).
+Une ligne par concurrent : domaine · First Seen / Time Running · Search ou Shopping · source. **6 mois
+est un repère** de preuve solide, pas un couperet : un concurrent actif depuis 3 à 5 mois reste
+intéressant (« 4 mois, encore court »). Passe recommandée, jamais un veto du PASS : non faite, elle
+s'écrit comme un gap. Le minage 60–90 jours de l'idéation est un autre geste ; ne pas mélanger les
+deux fenêtres.
+
 Séparer explicitement deux listes :
 
 - **Concurrents DTC/spécialisés comparables** : boutiques, spécialistes, marques, sites mono-produit
