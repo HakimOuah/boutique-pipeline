@@ -47,7 +47,7 @@ Prévoyez d'être deux et réservez une demi-journée. La notice du fabricant gu
 ### L'ancrage et le vent
 Côté mur, la structure est solidaire du bâtiment ; côté opposé, les pieds s'ancrent au sol sur leurs platines aluminium de 135 × 65 × 5 mm : plots béton coulés hors gel sur sol meuble, fixation mécanique sur dalle. La préconisation exacte, adaptée à vos cotes, est jointe à votre devis. La structure est testée par le fabricant à 122 km/h ; le certificat CE et les rapports d'essai neige et vent vous sont fournis sur demande avec votre devis. Après une forte chute de neige, dégagez le toit : la structure vous remerciera.
 
-### Ce qu'il ne fait pas
+### Bon à savoir
 Ce carport est un abri ouvert à l'avant : le mur coupe le vent d'un côté, la toiture protège votre voiture de la pluie, de la grêle, du soleil et du givre, et vous montez en voiture au sec devant la porte. Pour un espace fermé, tournez-vous vers nos tentes-garages à portes enroulables. Et comme il est fabriqué pour vous, comptez 10 à 12 semaines : le temps d'un abri à vos cotes.
 
 ### La livraison, concrètement

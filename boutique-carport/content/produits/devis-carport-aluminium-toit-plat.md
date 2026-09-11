@@ -47,7 +47,7 @@ Prévoyez d'être deux et réservez une demi-journée à un week-end selon la su
 ### L'ancrage et le vent
 Testé par le fabricant à 122 km/h : ce carport est conçu pour rester en place, hiver comme été, dès lors qu'il est ancré comme prévu. Les pieds reposent sur des platines aluminium de 135 × 65 × 5 mm : plots béton coulés hors gel sur sol meuble, fixation mécanique adaptée sur dalle ou enrobé ; la préconisation exacte, adaptée à vos cotes, est jointe à votre devis. Le certificat CE et les rapports d'essai neige et vent du fabricant vous sont fournis sur demande avec votre devis. Après une forte chute de neige, dégagez le toit : la structure vous remerciera.
 
-### Ce qu'il ne fait pas
+### Bon à savoir
 Ce carport est un abri ouvert sur les côtés : il protège vos voitures de la pluie, de la grêle, du soleil et du givre, et laisse l'allée dégagée pour manœuvrer. Pour un espace fermé, tournez-vous vers nos tentes-garages à portes enroulables. Et comme il est fabriqué pour vous, comptez 10 à 12 semaines : le temps d'un abri à vos cotes.
 
 ### La livraison, concrètement

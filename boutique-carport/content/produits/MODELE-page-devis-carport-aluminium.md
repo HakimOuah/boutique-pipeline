@@ -43,7 +43,7 @@ Prévoyez d'être deux et réservez une demi-journée. La notice du fabricant gu
 ### L'ancrage et le vent
 Testé par le fabricant à 122 km/h, avec une tenue de −40 à +120 °C et un classement ignifuge B1 : ce carport est conçu pour rester en place, hiver comme été, dès lors qu'il est ancré comme prévu. Les deux pieds reposent sur des platines aluminium de 135 × 65 × 5 mm. Le certificat CE et les rapports d'essai neige et vent du fabricant vous sont fournis sur demande avec votre devis. Après une forte chute de neige, dégagez le toit : la structure vous remerciera.
 
-### Ce qu'il ne fait pas
+### Bon à savoir
 Ce carport est un abri ouvert sur trois côtés : il protège votre voiture de la pluie, de la grêle, du soleil et du givre, et laisse l'allée dégagée. Pour un espace fermé, tournez-vous vers nos tentes-garages à portes enroulables. Et comme il est fabriqué pour vous, comptez 10 à 12 semaines : le temps d'un abri à vos cotes.
 
 ### La livraison, concrètement
