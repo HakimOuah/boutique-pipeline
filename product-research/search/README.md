@@ -1,6 +1,6 @@
 # Produit pur / Search
 
-Appliquer les critères canoniques, sections 1, 3, 4 et 7 : cluster d'un produit/besoin destiné au particulier, profondeur Search et économie de ce produit. Ne pas additionner des familles hétérogènes pour franchir le seuil. Séparer produit fini, accessoire, catégorie parente, marque et intention hors cible.
+Branche hors chemin SMP : elle s'ouvre sur demande explicite de Hakim (le chemin SMP est UNIVERS). Appliquer les critères canoniques, sections 1, 3, 4 et 7 : cluster d'un produit/besoin destiné au particulier, profondeur Search et économie de ce produit. Ne pas additionner des familles hétérogènes pour franchir le seuil. Séparer produit fini, accessoire, catégorie parente, marque et intention hors cible.
 
 Mesurer les formulations pertinentes, contrôler en SERP ce que le client cherche réellement et documenter la continuité Trends sur environ cinq ans. Appliquer la zone REVIEW près du seuil telle que documentée dans les critères et les contrôles, sans arrondir une incertitude en pass.
 

@@ -25,8 +25,6 @@ Réordonnées le 20 juillet 2026 (décision Hakim) : priorité aux familles **ex
 |---|---|---|---|---|---|
 | 9 | Sommeil & environnement nocturne | sommeil, matelas, bruit chambre, obscurité chambre | à faire | — | — |
 | 8 | Traitement de l'air | purificateur air, ventilation, qualité air intérieur, filtration air | à faire | — | — |
-| 11 | Animalerie équipement | équipement chien, équipement chat, dressage animal, transport animal | à faire | — | — |
-| 12 | Aquariophilie & terrariophilie | aquarium, terrarium, filtration aquarium, éclairage aquarium | à faire | — | — |
 | 21 | Puériculture & motricité | motricité enfant, éveil bébé, chambre enfant, sécurité enfant | à faire | — | — |
 | 14 | Jardin technique & potager | serre, potager surélevé, irrigation, culture intérieur | à faire | — | — |
 | 26 | Bien-être matériel | sauna, luminothérapie, cryothérapie, bain froid | à faire | — | — |
@@ -36,7 +34,6 @@ Réordonnées le 20 juillet 2026 (décision Hakim) : priorité aux familles **ex
 | 38 | Éclairage décoratif & scénographie | éclairage décoratif, luminaire design, scénographie, ambiance lumineuse | à faire | — | — |
 | 10 | Chauffage, climatisation & humidité | déshumidificateur, climatisation, poêle, humidité maison | à faire | — | — |
 | 15 | Piscine & spa | piscine équipement, spa, traitement eau piscine, robot piscine | à faire | — | — |
-| 13 | Apiculture & petit élevage | apiculture, ruche, poulailler, élevage amateur | à faire | — | — |
 | 35 | Domotique & sécurité | domotique, alarme maison, vidéosurveillance, contrôle accès | à faire | — | — |
 | 30 | Astronomie & optique | télescope, astronomie, jumelles, observation nature | à faire | — | — |
 | 33 | Chasse, pêche & nature | pêche, chasse, observation nature, piège photo | à faire | — | — |
@@ -60,11 +57,21 @@ Six univers apportés par Hakim, à balayer **avant** les familles ci-dessus si 
 | # | Famille | Graines de départ | Statut | Dernier balayage | Candidats retenus |
 |---|---|---|---|---|---|
 | U1 | Literie : parure de lit / housse de couette | housse de couette, parure de lit, linge de lit, drap housse, taie d'oreiller, couvre-lit, plaid lit, percale, satin de coton, gaze de coton | à faire | — | — |
-| U2 | Chaleur cocooning : bouillottes | bouillotte, bouillotte peluche, bouillotte sèche, bouillotte électrique, chaufferette, coussin chauffant, plaid chauffant, chauffe-pieds | à faire | — | — |
+| U2 | Chaleur cocooning : bouillottes | bouillotte, bouillotte peluche, bouillotte sèche, bouillotte électrique, chaufferette, coussin chauffant, plaid chauffant, chauffe-pieds | à faire (bouillotte peluche = thème animal, autorisé ; pas de l'animalerie — 11/09/2026) | — | — |
 | U3 | Globe terrestre & cartographie déco | globe terrestre, mappemonde, planisphère, carte du monde déco, carte du monde bois, carte à gratter, globe lumineux, globe lévitation, carte du ciel | à faire (reprise vivier 07/08) | — | — |
 | U4 (= 30) | Astronomie : observation + déco astro | télescope, lunette astronomique, jumelles astronomie, planétarium, lampe lune, veilleuse galaxie, projecteur étoiles, carte du ciel personnalisée, décoration espace | à faire | — | — |
 | U5 | Emo / gothique / démon | gothique, déco gothique, bijoux gothiques, vêtement gothique, emo, occulte déco, crâne déco, chauve-souris déco, pentagramme, dark academia | à faire | — | — |
 | U6 | Ésotérisme | ésotérisme, boutique ésotérique, tarot, oracle cartes, pendule divinatoire, encens, bougie rituel, autel, talisman, runes, sauge, pierre naturelle bijou | à faire | — | — |
+
+### Exclues — animalerie (décision Hakim du 11/09/2026)
+
+L'animalerie est hors périmètre : produit dont l'animal est le destinataire. Ces trois familles ne se balaient plus, même si les autres sont épuisées. Le thème animal reste possible dans un univers (chaussons koala, bouillottes peluche). Les numéros sont conservés pour les rapports qui y renvoient.
+
+| # | Famille | Graines de départ | Statut | Dernier balayage | Candidats retenus |
+|---|---|---|---|---|---|
+| 11 | Animalerie équipement | équipement chien, équipement chat, dressage animal, transport animal | **exclue** (animalerie) | — | — |
+| 12 | Aquariophilie & terrariophilie | aquarium, terrarium, filtration aquarium, éclairage aquarium | **exclue** (animalerie) | — | — |
+| 13 | Apiculture & petit élevage | apiculture, ruche, poulailler, élevage amateur | **exclue** (animalerie) | — | — |
 
 ### Priorité basse — technique-pro / machines de marque (balayer seulement si les précédentes sont épuisées)
 
