@@ -169,6 +169,23 @@ def nombre(v, defaut=""):
         return defaut
 
 
+def taux_cvr_pct(commandes, sessions):
+    """CVR en % = 100 * commandes / sessions.
+
+    Ne pas relayer la `conversion_rate` ShopifyQL : c'est un ratio 0–1 (souvent
+    0 même avec des commandes). `nombre()` l'arrondit à 2 décimales et écrit 0.
+    """
+    try:
+        n_cmd = float(commandes)
+        n_sess = float(sessions)
+    except (TypeError, ValueError):
+        return 0
+    if n_sess <= 0:
+        return 0
+    taux = 100.0 * n_cmd / n_sess
+    return int(taux) if taux == int(taux) else round(taux, 4)
+
+
 NOTE = """---
 type: mesure
 boutique: {slug}
@@ -259,14 +276,16 @@ def releve(slug: str, depuis: str, jusqu: str, ecrire: bool,
             continue
 
         s, v = sess.get(lundi, {}), vent.get(lundi, {})
+        sessions_n = nombre(s.get("sessions"))
+        commandes_n = nombre(v.get("orders"))
         texte = NOTE.format(
             slug=slug, periode=periode, du=d, au=d + dt.timedelta(days=6),
-            sessions=nombre(s.get("sessions")),
+            sessions=sessions_n,
             payantes=nombre(paye.get(lundi, {}).get("sessions")),
             paniers=nombre(s.get("sessions_with_cart_additions")),
             checkouts=nombre(s.get("sessions_that_reached_checkout")),
-            cvr=nombre(s.get("conversion_rate"), "0.0"),
-            commandes=nombre(v.get("orders")),
+            cvr=taux_cvr_pct(commandes_n, sessions_n),
+            commandes=commandes_n,
             ca=nombre(v.get("total_sales")),
             aov=nombre(v.get("average_order_value")),
             remb=nombre(v.get("sales_reversals")),
