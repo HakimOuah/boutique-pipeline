@@ -1,0 +1,11129 @@
+{
+ "vmc": [
+  {
+   "cle": "vmc",
+   "expression": "vmc",
+   "volume": 60500,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": false,
+   "cpc": 0.35,
+   "serie": [
+    40500,
+    49500,
+    49500,
+    40500,
+    49500,
+    60500,
+    74000,
+    60500,
+    74000,
+    60500,
+    60500,
+    49500
+   ],
+   "variantes": [
+    "vmc",
+    "la vmc"
+   ]
+  },
+  {
+   "cle": "double flux vmc",
+   "expression": "vmc double-flux",
+   "volume": 33100,
+   "volume_min": 33100,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.55,
+   "serie": [
+    27100,
+    33100,
+    27100,
+    27100,
+    33100,
+    33100,
+    49500,
+    40500,
+    49500,
+    40500,
+    33100,
+    27100
+   ],
+   "variantes": [
+    "double flux vmc",
+    "vmc double flux",
+    "vmc double-flux"
+   ]
+  },
+  {
+   "cle": "hygrometrique vmc",
+   "expression": "vmc hygrométrique",
+   "volume": 18100,
+   "volume_min": 18100,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.37,
+   "serie": [
+    12100,
+    12100,
+    14800,
+    14800,
+    18100,
+    18100,
+    22200,
+    22200,
+    27100,
+    22200,
+    18100,
+    14800
+   ],
+   "variantes": [
+    "vmc hygrométrique",
+    "vmc hygroréglable"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "flux simple vmc",
+   "expression": "vmc simple flux",
+   "volume": 18100,
+   "volume_min": 18100,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.23,
+   "serie": [
+    14800,
+    14800,
+    18100,
+    14800,
+    14800,
+    18100,
+    22200,
+    27100,
+    22200,
+    27100,
+    22200,
+    22200
+   ],
+   "variantes": [
+    "vmc simple flux"
+   ]
+  },
+  {
+   "cle": "bain salle vmc",
+   "expression": "vmc salle de bains",
+   "volume": 8100,
+   "volume_min": 8100,
+   "formulations": 9,
+   "fusionne_par_google": true,
+   "cpc": 0.33,
+   "serie": [
+    5400,
+    6600,
+    6600,
+    6600,
+    8100,
+    8100,
+    9900,
+    9900,
+    12100,
+    9900,
+    8100,
+    6600
+   ],
+   "variantes": [
+    "vmc salle de bain",
+    "salle de bain vmc",
+    "vmc salle de bains",
+    "vmc pour salle de bain",
+    "vmc dans salle de bain",
+    "vmc pour salle de bains"
+   ]
+  },
+  {
+   "cle": "bouche vmc",
+   "expression": "bouches vmc",
+   "volume": 5400,
+   "volume_min": 320,
+   "formulations": 5,
+   "fusionne_par_google": false,
+   "cpc": 0.25,
+   "serie": [
+    4400,
+    5400,
+    5400,
+    5400,
+    6600,
+    6600,
+    6600,
+    5400,
+    6600,
+    6600,
+    6600,
+    4400
+   ],
+   "variantes": [
+    "vmc bouche",
+    "bouche vmc",
+    "bouches vmc",
+    "bouche de vmc",
+    "bouches de vmc"
+   ]
+  },
+  {
+   "cle": "boucher vmc",
+   "expression": "boucher vmc",
+   "volume": 5400,
+   "volume_min": 5400,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.21,
+   "serie": [
+    4400,
+    4400,
+    5400,
+    5400,
+    5400,
+    6600,
+    6600,
+    6600,
+    5400,
+    6600,
+    6600,
+    6600
+   ],
+   "variantes": [
+    "boucher vmc",
+    "boucher une vmc"
+   ]
+  },
+  {
+   "cle": "flux hygroreglable simple vmc",
+   "expression": "vmc simple flux hygroréglables",
+   "volume": 5400,
+   "volume_min": 260,
+   "formulations": 4,
+   "fusionne_par_google": false,
+   "cpc": 0.41,
+   "serie": [
+    3600,
+    4400,
+    4400,
+    3600,
+    5400,
+    5400,
+    6600,
+    5400,
+    6600,
+    5400,
+    5400,
+    3600
+   ],
+   "variantes": [
+    "vmc hygroréglable simple flux",
+    "vmc simple flux hygroreglable",
+    "vmc simple flux hygroréglable",
+    "vmc simple flux hygroréglables"
+   ]
+  },
+  {
+   "cle": "atlantic vmc",
+   "expression": "atlantic vmc",
+   "volume": 5400,
+   "volume_min": 5400,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.48,
+   "serie": [
+    3600,
+    3600,
+    4400,
+    3600,
+    4400,
+    5400,
+    6600,
+    5400,
+    6600,
+    5400,
+    5400,
+    3600
+   ],
+   "variantes": [
+    "atlantic vmc",
+    "vmc atlantic"
+   ]
+  },
+  {
+   "cle": "gaine vmc",
+   "expression": "gaines vmc",
+   "volume": 4400,
+   "volume_min": 210,
+   "formulations": 5,
+   "fusionne_par_google": false,
+   "cpc": 0.4,
+   "serie": [
+    3600,
+    4400,
+    4400,
+    3600,
+    5400,
+    5400,
+    5400,
+    4400,
+    5400,
+    4400,
+    4400,
+    2900
+   ],
+   "variantes": [
+    "gaine vmc",
+    "vmc gaine",
+    "gaines vmc",
+    "gaine pour vmc",
+    "gaines pour vmc"
+   ]
+  },
+  {
+   "cle": "leroy merlin vmc",
+   "expression": "leroy merlin vmc",
+   "volume": 4400,
+   "volume_min": 4400,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.09,
+   "serie": [
+    3600,
+    3600,
+    3600,
+    3600,
+    4400,
+    5400,
+    6600,
+    5400,
+    6600,
+    5400,
+    4400,
+    4400
+   ],
+   "variantes": [
+    "vmc leroy merlin",
+    "leroy merlin vmc"
+   ]
+  },
+  {
+   "cle": "alde vmc",
+   "expression": "aldès vmc",
+   "volume": 4400,
+   "volume_min": 2900,
+   "formulations": 4,
+   "fusionne_par_google": false,
+   "cpc": 0.44,
+   "serie": [
+    2900,
+    2900,
+    3600,
+    3600,
+    4400,
+    4400,
+    5400,
+    4400,
+    5400,
+    5400,
+    4400,
+    3600
+   ],
+   "variantes": [
+    "vmc aldès",
+    "aldes vmc",
+    "aldès vmc",
+    "vmc aldes"
+   ]
+  },
+  {
+   "cle": "entretien vmc",
+   "expression": "entretenir vmc",
+   "volume": 3600,
+   "volume_min": 3600,
+   "formulations": 6,
+   "fusionne_par_google": true,
+   "cpc": 1.12,
+   "serie": [
+    2400,
+    2900,
+    2900,
+    2900,
+    3600,
+    4400,
+    5400,
+    3600,
+    4400,
+    4400,
+    4400,
+    2900
+   ],
+   "variantes": [
+    "entretenir vmc",
+    "entretenir une vmc",
+    "vmc entretien",
+    "entretien vmc",
+    "entretiens vmc",
+    "entretien des vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "nettoyer vmc",
+   "expression": "nettoyage vmc",
+   "volume": 3600,
+   "volume_min": 320,
+   "formulations": 8,
+   "fusionne_par_google": true,
+   "cpc": 1.07,
+   "serie": [
+    1900,
+    2400,
+    2900,
+    2400,
+    3600,
+    3600,
+    4400,
+    3600,
+    4400,
+    3600,
+    3600,
+    2900
+   ],
+   "variantes": [
+    "nettoyage vmc",
+    "vmc nettoyage",
+    "nettoyage des vmc",
+    "vmc nettoyer",
+    "nettoyer vmc",
+    "nettoyer la vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "double flux prix vmc",
+   "expression": "prix vmc double flux",
+   "volume": 3600,
+   "volume_min": 3600,
+   "formulations": 6,
+   "fusionne_par_google": true,
+   "cpc": 0.7,
+   "serie": [
+    2400,
+    2900,
+    2400,
+    2400,
+    3600,
+    3600,
+    4400,
+    3600,
+    4400,
+    3600,
+    3600,
+    2900
+   ],
+   "variantes": [
+    "prix vmc double flux",
+    "vmc prix double flux",
+    "vmc double flux prix",
+    "prix d'un vmc double flux",
+    "prix d une vmc double flux",
+    "prix d'une vmc double flux"
+   ]
+  },
+  {
+   "cle": "bouche hygroreglable vmc",
+   "expression": "vmc bouches hygroréglables",
+   "volume": 2900,
+   "volume_min": 2900,
+   "formulations": 10,
+   "fusionne_par_google": true,
+   "cpc": 0.39,
+   "serie": [
+    1900,
+    2400,
+    2400,
+    2400,
+    3600,
+    3600,
+    4400,
+    3600,
+    4400,
+    3600,
+    2900,
+    1900
+   ],
+   "variantes": [
+    "bouche hygroréglable vmc",
+    "vmc bouche hygroréglable",
+    "bouche vmc hygroréglable",
+    "bouches vmc hygroreglable",
+    "vmc bouches hygroréglables",
+    "bouche pour vmc hygroréglable"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "gaine isolee vmc",
+   "expression": "gaines isolées vmc",
+   "volume": 2900,
+   "volume_min": 2900,
+   "formulations": 10,
+   "fusionne_par_google": true,
+   "cpc": 0.35,
+   "serie": [
+    2400,
+    2400,
+    2400,
+    2400,
+    2900,
+    4400,
+    5400,
+    3600,
+    4400,
+    2900,
+    2400,
+    1900
+   ],
+   "variantes": [
+    "gaine isolé vmc",
+    "vmc gaine isolée",
+    "gaine vmc isolée",
+    "gaine isolée vmc",
+    "gaines isolées vmc",
+    "gaines vmc isolées"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "b hygroreglable type vmc",
+   "expression": "vmc hygroréglable type b",
+   "volume": 2900,
+   "volume_min": 2900,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.54,
+   "serie": [
+    1900,
+    2400,
+    2400,
+    2400,
+    2900,
+    3600,
+    4400,
+    3600,
+    3600,
+    3600,
+    2900,
+    2400
+   ],
+   "variantes": [
+    "vmc hygroréglable type b"
+   ]
+  },
+  {
+   "cle": "sortie toiture vmc",
+   "expression": "sortie toiture vmc",
+   "volume": 2400,
+   "volume_min": 1300,
+   "formulations": 14,
+   "fusionne_par_google": true,
+   "cpc": 0.28,
+   "serie": [
+    1900,
+    1900,
+    1900,
+    1900,
+    2400,
+    2400,
+    2400,
+    2400,
+    2900,
+    2900,
+    2900,
+    1900
+   ],
+   "variantes": [
+    "vmc sortie toiture",
+    "sortie toiture vmc",
+    "sortie vmc toiture",
+    "sortie de toiture vmc",
+    "sortie vmc en toiture",
+    "sortie vmc sur toiture"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "moteur vmc",
+   "expression": "moteurs vmc",
+   "volume": 2400,
+   "volume_min": 260,
+   "formulations": 5,
+   "fusionne_par_google": false,
+   "cpc": 0.36,
+   "serie": [
+    1600,
+    1900,
+    1900,
+    1900,
+    2400,
+    2400,
+    2900,
+    2900,
+    3600,
+    2900,
+    2400,
+    1900
+   ],
+   "variantes": [
+    "moteur vmc",
+    "vmc moteur",
+    "moteurs vmc",
+    "moteur de vmc",
+    "moteur pour vmc"
+   ]
+  },
+  {
+   "cle": "installation vmc",
+   "expression": "installation vmc",
+   "volume": 2400,
+   "volume_min": 210,
+   "formulations": 7,
+   "fusionne_par_google": true,
+   "cpc": 2.41,
+   "serie": [
+    1900,
+    1600,
+    2400,
+    1900,
+    2400,
+    2900,
+    2900,
+    2900,
+    3600,
+    2900,
+    2400,
+    2400
+   ],
+   "variantes": [
+    "vmc installer",
+    "installer vmc",
+    "installer une vmc",
+    "vmc installation",
+    "installation vmc",
+    "installation d une vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "b hygro vmc",
+   "expression": "vmc hygro b",
+   "volume": 2400,
+   "volume_min": 320,
+   "formulations": 4,
+   "fusionne_par_google": false,
+   "cpc": 0.47,
+   "serie": [
+    1600,
+    1900,
+    1900,
+    1900,
+    2400,
+    2400,
+    2900,
+    2400,
+    2900,
+    2900,
+    2400,
+    1600
+   ],
+   "variantes": [
+    "vmc hygro b",
+    "vmc hygro b ou a",
+    "vmc hygro a et b",
+    "vmc hygro a ou b"
+   ]
+  },
+  {
+   "cle": "prix vmc",
+   "expression": "prix vmc",
+   "volume": 1900,
+   "volume_min": 880,
+   "formulations": 6,
+   "fusionne_par_google": false,
+   "cpc": 0.57,
+   "serie": [
+    1300,
+    1600,
+    1600,
+    1600,
+    2400,
+    2400,
+    2900,
+    2400,
+    2900,
+    2400,
+    2400,
+    1600
+   ],
+   "variantes": [
+    "vmc prix",
+    "prix vmc",
+    "prix des vmc",
+    "prix d'un vmc",
+    "prix d'une vmc",
+    "prix d une vmc"
+   ]
+  },
+  {
+   "cle": "brico depot vmc",
+   "expression": "brico dépôt vmc",
+   "volume": 1900,
+   "volume_min": 320,
+   "formulations": 4,
+   "fusionne_par_google": false,
+   "cpc": 0.09,
+   "serie": [
+    1300,
+    1600,
+    1600,
+    1600,
+    1900,
+    1900,
+    2400,
+    2400,
+    2400,
+    2400,
+    1900,
+    1600
+   ],
+   "variantes": [
+    "brico dépôt vmc",
+    "brico depot vmc",
+    "vmc brico depot",
+    "vmc brico dépôt"
+   ]
+  },
+  {
+   "cle": "double flux thermodynamique vmc",
+   "expression": "vmc double-flux thermodynamique",
+   "volume": 1900,
+   "volume_min": 1900,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.79,
+   "serie": [
+    2900,
+    2900,
+    1300,
+    1000,
+    1600,
+    1600,
+    2400,
+    1600,
+    1900,
+    1900,
+    1900,
+    1600
+   ],
+   "variantes": [
+    "vmc thermodynamique double flux",
+    "vmc double-flux thermodynamique",
+    "vmc double flux thermodynamique"
+   ]
+  },
+  {
+   "cle": "gaine plate vmc",
+   "expression": "gaine plate vmc",
+   "volume": 1600,
+   "volume_min": 1600,
+   "formulations": 5,
+   "fusionne_par_google": true,
+   "cpc": 0.57,
+   "serie": [
+    1300,
+    1300,
+    1600,
+    1600,
+    1600,
+    1600,
+    1900,
+    1600,
+    1900,
+    1900,
+    1900,
+    1600
+   ],
+   "variantes": [
+    "vmc gaine plate",
+    "gaine plate vmc",
+    "gaine vmc plate",
+    "gaine plate pour vmc",
+    "gaine plat vmc"
+   ]
+  },
+  {
+   "cle": "disjoncteur vmc",
+   "expression": "disjoncteur vmc",
+   "volume": 1600,
+   "volume_min": 1600,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.61,
+   "serie": [
+    1000,
+    1000,
+    1300,
+    1300,
+    1600,
+    1600,
+    1900,
+    1600,
+    1900,
+    1900,
+    1900,
+    1900
+   ],
+   "variantes": [
+    "vmc disjoncteur",
+    "disjoncteur vmc",
+    "disjoncteur pour vmc"
+   ]
+  },
+  {
+   "cle": "cuisine vmc",
+   "expression": "vmc cuisine",
+   "volume": 1600,
+   "volume_min": 1600,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.21,
+   "serie": [
+    1300,
+    1300,
+    1600,
+    1300,
+    1600,
+    1600,
+    1900,
+    1900,
+    1900,
+    1900,
+    1900,
+    1300
+   ],
+   "variantes": [
+    "vmc cuisine",
+    "vmc pour cuisine",
+    "vmc dans cuisine"
+   ]
+  },
+  {
+   "cle": "aeration bouche vmc",
+   "expression": "bouches d'aération vmc",
+   "volume": 1600,
+   "volume_min": 590,
+   "formulations": 7,
+   "fusionne_par_google": true,
+   "cpc": 0.2,
+   "serie": [
+    1000,
+    1000,
+    1300,
+    1300,
+    1600,
+    1900,
+    1600,
+    1300,
+    1600,
+    1600,
+    1600,
+    1300
+   ],
+   "variantes": [
+    "boucher aeration vmc",
+    "bouche aeration vmc",
+    "bouche aération vmc",
+    "bouches aeration vmc",
+    "bouche d'aération vmc",
+    "bouche d'aeration vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "atlantic hygroreglable vmc",
+   "expression": "vmc atlantic hygroréglable",
+   "volume": 1600,
+   "volume_min": 1600,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.56,
+   "serie": [
+    1000,
+    1000,
+    1000,
+    1300,
+    1300,
+    1600,
+    1600,
+    1900,
+    1600,
+    2400,
+    2400,
+    1600
+   ],
+   "variantes": [
+    "atlantic vmc hygroreglable",
+    "vmc hygroréglable atlantic",
+    "vmc atlantic hygroréglable"
+   ]
+  },
+  {
+   "cle": "double flux installateur vmc",
+   "expression": "installateur vmc double flux",
+   "volume": 1600,
+   "volume_min": 1600,
+   "formulations": 6,
+   "fusionne_par_google": true,
+   "cpc": 1.93,
+   "serie": [
+    1000,
+    1000,
+    1300,
+    1300,
+    1900,
+    1900,
+    2400,
+    1900,
+    2400,
+    1900,
+    2400,
+    1300
+   ],
+   "variantes": [
+    "vmc double flux installateur",
+    "installateur vmc double flux",
+    "installer vmc double flux",
+    "installer une vmc double flux",
+    "installation vmc double flux",
+    "vmc double flux installation"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "tuyau vmc",
+   "expression": "tuyauterie vmc",
+   "volume": 1600,
+   "volume_min": 1600,
+   "formulations": 5,
+   "fusionne_par_google": true,
+   "cpc": 0.26,
+   "serie": [
+    1300,
+    1900,
+    1300,
+    1300,
+    1900,
+    1900,
+    1900,
+    1600,
+    1900,
+    1600,
+    1600,
+    1300
+   ],
+   "variantes": [
+    "tuyau vmc",
+    "tuyaux vmc",
+    "tuyau pour vmc",
+    "tuyaux pour vmc",
+    "tuyauterie vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "alde hygroreglable vmc",
+   "expression": "aldes vmc hygroréglable",
+   "volume": 1600,
+   "volume_min": 1000,
+   "formulations": 6,
+   "fusionne_par_google": true,
+   "cpc": 0.51,
+   "serie": [
+    1000,
+    1300,
+    1300,
+    1300,
+    1600,
+    1600,
+    1900,
+    1600,
+    1900,
+    1600,
+    1600,
+    1000
+   ],
+   "variantes": [
+    "vmc aldes hygroréglable",
+    "vmc hygroréglable aldes",
+    "aldes vmc hygroréglable",
+    "vmc hygro aldes",
+    "vmc aldes hygro",
+    "aldes vmc hygro"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "grille vmc",
+   "expression": "grille vmc",
+   "volume": 1600,
+   "volume_min": 1600,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.28,
+   "serie": [
+    1300,
+    1300,
+    1600,
+    1300,
+    1900,
+    1900,
+    1600,
+    1600,
+    1900,
+    1600,
+    1900,
+    1600
+   ],
+   "variantes": [
+    "grille vmc",
+    "grille pour vmc"
+   ]
+  },
+  {
+   "cle": "extra plate vmc",
+   "expression": "vmc extra plate",
+   "volume": 1600,
+   "volume_min": 1600,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.41,
+   "serie": [
+    1300,
+    1300,
+    1300,
+    1600,
+    1600,
+    1600,
+    1900,
+    1600,
+    1900,
+    1900,
+    1600,
+    1300
+   ],
+   "variantes": [
+    "vmc extra plate"
+   ]
+  },
+  {
+   "cle": "brancher vmc",
+   "expression": "branchement vmc",
+   "volume": 1300,
+   "volume_min": 1300,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 0.18,
+   "serie": [
+    880,
+    880,
+    1000,
+    1000,
+    1300,
+    1600,
+    1900,
+    1900,
+    1900,
+    1600,
+    1600,
+    1300
+   ],
+   "variantes": [
+    "brancher vmc",
+    "brancher une vmc",
+    "vmc branchement",
+    "branchement vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "extracteur vmc",
+   "expression": "extracteurs vmc",
+   "volume": 1300,
+   "volume_min": 1300,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.3,
+   "serie": [
+    880,
+    1000,
+    1000,
+    1000,
+    1300,
+    1300,
+    1300,
+    1300,
+    1600,
+    1600,
+    1600,
+    1000
+   ],
+   "variantes": [
+    "extracteur vmc",
+    "vmc extracteur",
+    "extracteurs vmc"
+   ]
+  },
+  {
+   "cle": "installation prix vmc",
+   "expression": "cout installation vmc",
+   "volume": 1300,
+   "volume_min": 1300,
+   "formulations": 10,
+   "fusionne_par_google": true,
+   "cpc": 2.2,
+   "serie": [
+    720,
+    880,
+    1000,
+    1000,
+    1600,
+    1600,
+    1600,
+    1300,
+    1600,
+    1600,
+    1300,
+    1000
+   ],
+   "variantes": [
+    "installation vmc prix",
+    "prix vmc installation",
+    "prix installation vmc",
+    "vmc prix installation",
+    "vmc installation prix",
+    "prix d'une installation vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "atlantic double flux vmc",
+   "expression": "vmc double flux atlantic",
+   "volume": 1300,
+   "volume_min": 1300,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.81,
+   "serie": [
+    1000,
+    1300,
+    1000,
+    1000,
+    1300,
+    1300,
+    1900,
+    1300,
+    1600,
+    1600,
+    1300,
+    880
+   ],
+   "variantes": [
+    "vmc double flux atlantic"
+   ]
+  },
+  {
+   "cle": "alde bouche vmc",
+   "expression": "bouches vmc aldes",
+   "volume": 1300,
+   "volume_min": 1300,
+   "formulations": 5,
+   "fusionne_par_google": true,
+   "cpc": 0.24,
+   "serie": [
+    1000,
+    1000,
+    1000,
+    1300,
+    1300,
+    1300,
+    1600,
+    1300,
+    1600,
+    1600,
+    1300,
+    880
+   ],
+   "variantes": [
+    "bouche aldes vmc",
+    "vmc aldes bouche",
+    "aldes bouche vmc",
+    "bouche vmc aldes",
+    "bouches vmc aldes"
+   ]
+  },
+  {
+   "cle": "castorama vmc",
+   "expression": "castorama vmc",
+   "volume": 1300,
+   "volume_min": 1300,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.1,
+   "serie": [
+    880,
+    880,
+    1000,
+    1000,
+    1300,
+    1300,
+    1600,
+    1600,
+    1900,
+    1900,
+    1600,
+    1300
+   ],
+   "variantes": [
+    "castorama vmc",
+    "vmc castorama"
+   ]
+  },
+  {
+   "cle": "caisson vmc",
+   "expression": "caissons vmc",
+   "volume": 1300,
+   "volume_min": 1300,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.86,
+   "serie": [
+    880,
+    1000,
+    1000,
+    1000,
+    1600,
+    1600,
+    1300,
+    1000,
+    1300,
+    1300,
+    1300,
+    880
+   ],
+   "variantes": [
+    "vmc caisson",
+    "caisson vmc",
+    "caissons vmc"
+   ]
+  },
+  {
+   "cle": "decentralisee vmc",
+   "expression": "vmc décentralisée",
+   "volume": 1300,
+   "volume_min": 1300,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.39,
+   "serie": [
+    880,
+    880,
+    1000,
+    1000,
+    1000,
+    1000,
+    1300,
+    1300,
+    1600,
+    1300,
+    1300,
+    1300
+   ],
+   "variantes": [
+    "vmc décentralisée"
+   ]
+  },
+  {
+   "cle": "hygro vmc",
+   "expression": "vmc hygro",
+   "volume": 1300,
+   "volume_min": 720,
+   "formulations": 2,
+   "fusionne_par_google": false,
+   "cpc": 0.57,
+   "serie": [
+    880,
+    1000,
+    1000,
+    1000,
+    1300,
+    1300,
+    1600,
+    1300,
+    1600,
+    1600,
+    1600,
+    1000
+   ],
+   "variantes": [
+    "vmc hygro",
+    "vmc hygro a"
+   ]
+  },
+  {
+   "cle": "autoreglable vmc",
+   "expression": "vmc autoréglable",
+   "volume": 1300,
+   "volume_min": 1300,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.59,
+   "serie": [
+    880,
+    1000,
+    1000,
+    1000,
+    1300,
+    1300,
+    1600,
+    1600,
+    1900,
+    1600,
+    1600,
+    1000
+   ],
+   "variantes": [
+    "vmc autoréglable"
+   ]
+  },
+  {
+   "cle": "comment nettoyer vmc",
+   "expression": "comment nettoyer vmc",
+   "volume": 1300,
+   "volume_min": 1300,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.27,
+   "serie": [
+    880,
+    880,
+    1000,
+    1000,
+    1300,
+    1300,
+    1900,
+    1300,
+    1600,
+    1600,
+    1300,
+    1300
+   ],
+   "variantes": [
+    "comment nettoyer vmc",
+    "comment nettoyer la vmc",
+    "comment nettoyer une vmc"
+   ]
+  },
+  {
+   "cle": "sauter vmc",
+   "expression": "sauter vmc",
+   "volume": 1300,
+   "volume_min": 1300,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.14,
+   "serie": [
+    880,
+    880,
+    1000,
+    1000,
+    1300,
+    1600,
+    1600,
+    1600,
+    1900,
+    1600,
+    1600,
+    1300
+   ],
+   "variantes": [
+    "vmc sauter",
+    "sauter vmc"
+   ]
+  },
+  {
+   "cle": "decentralisee double flux vmc",
+   "expression": "vmc double flux décentralisée",
+   "volume": 1000,
+   "volume_min": 320,
+   "formulations": 3,
+   "fusionne_par_google": false,
+   "cpc": 0.52,
+   "serie": [
+    720,
+    720,
+    1000,
+    880,
+    880,
+    1000,
+    1000,
+    1600,
+    1000,
+    1600,
+    1300,
+    1300
+   ],
+   "variantes": [
+    "vmc double flux decentralisee",
+    "vmc double flux décentralisée",
+    "vmc décentralisée double flux"
+   ]
+  },
+  {
+   "cle": "bouche cuisine vmc",
+   "expression": "boucher vmc cuisine",
+   "volume": 1000,
+   "volume_min": 1000,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 0.15,
+   "serie": [
+    880,
+    880,
+    1000,
+    1000,
+    1000,
+    1000,
+    1300,
+    1000,
+    1300,
+    1300,
+    1300,
+    1000
+   ],
+   "variantes": [
+    "bouche vmc cuisine",
+    "bouche cuisine vmc",
+    "bouche vmc pour cuisine",
+    "boucher vmc cuisine"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "silencieu vmc",
+   "expression": "vmc silencieuse",
+   "volume": 1000,
+   "volume_min": 480,
+   "formulations": 5,
+   "fusionne_par_google": true,
+   "cpc": 0.38,
+   "serie": [
+    590,
+    880,
+    1000,
+    1000,
+    1000,
+    1300,
+    1300,
+    1300,
+    1600,
+    1600,
+    1300,
+    1000
+   ],
+   "variantes": [
+    "vmc silencieuse",
+    "silencieu vmc",
+    "silencieux vmc",
+    "vmc silencieux",
+    "silencieux pour vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "flux prix simple vmc",
+   "expression": "prix vmc simple flux",
+   "volume": 1000,
+   "volume_min": 1000,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 0.29,
+   "serie": [
+    880,
+    880,
+    880,
+    1000,
+    1300,
+    1300,
+    1300,
+    1000,
+    1300,
+    1000,
+    1000,
+    880
+   ],
+   "variantes": [
+    "prix vmc simple flux",
+    "vmc simple flux prix",
+    "prix d une vmc simple flux",
+    "prix d'une vmc simple flux"
+   ]
+  },
+  {
+   "cle": "cache vmc",
+   "expression": "cache vmc",
+   "volume": 1000,
+   "volume_min": 1000,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.17,
+   "serie": [
+    720,
+    720,
+    880,
+    880,
+    1300,
+    1300,
+    1000,
+    880,
+    1300,
+    1000,
+    1000,
+    1000
+   ],
+   "variantes": [
+    "cache vmc",
+    "vmc cache"
+   ]
+  },
+  {
+   "cle": "alde double flux vmc",
+   "expression": "aldes vmc double flux",
+   "volume": 1000,
+   "volume_min": 1000,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.82,
+   "serie": [
+    880,
+    880,
+    880,
+    880,
+    1000,
+    1000,
+    1300,
+    1300,
+    1300,
+    1300,
+    1000,
+    880
+   ],
+   "variantes": [
+    "aldes vmc double flux",
+    "vmc aldes double flux",
+    "vmc double flux aldes"
+   ]
+  },
+  {
+   "cle": "gaine rigide vmc",
+   "expression": "gaines vmc rigides",
+   "volume": 1000,
+   "volume_min": 1000,
+   "formulations": 6,
+   "fusionne_par_google": true,
+   "cpc": 0.66,
+   "serie": [
+    880,
+    880,
+    880,
+    880,
+    1000,
+    1000,
+    1300,
+    1000,
+    1300,
+    1300,
+    1000,
+    880
+   ],
+   "variantes": [
+    "gaine vmc rigide",
+    "vmc gaine rigide",
+    "gaine rigide vmc",
+    "gaines vmc rigides",
+    "gaine rigide pour vmc",
+    "gaines rigides pour vmc"
+   ]
+  },
+  {
+   "cle": "double filtre flux vmc",
+   "expression": "filtre pour vmc double-flux",
+   "volume": 1000,
+   "volume_min": 1000,
+   "formulations": 5,
+   "fusionne_par_google": true,
+   "cpc": 0.75,
+   "serie": [
+    720,
+    880,
+    1000,
+    880,
+    1000,
+    1000,
+    1300,
+    1300,
+    1300,
+    1300,
+    1300,
+    1000
+   ],
+   "variantes": [
+    "filtre vmc double flux",
+    "filtres vmc double flux",
+    "filtre pour vmc double-flux",
+    "filtre pour vmc double flux",
+    "filtres pour vmc double flux"
+   ]
+  },
+  {
+   "cle": "maison vmc",
+   "expression": "maison vmc",
+   "volume": 1000,
+   "volume_min": 1000,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 0.64,
+   "serie": [
+    720,
+    880,
+    880,
+    880,
+    1000,
+    1000,
+    1600,
+    1300,
+    1600,
+    1300,
+    1300,
+    880
+   ],
+   "variantes": [
+    "vmc maison",
+    "maison vmc",
+    "vmc pour maison",
+    "vmc dans une maison"
+   ]
+  },
+  {
+   "cle": "bruit fait qui vmc",
+   "expression": "vmc qui fait du bruit",
+   "volume": 1000,
+   "volume_min": 1000,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.01,
+   "serie": [
+    480,
+    590,
+    880,
+    880,
+    880,
+    880,
+    1600,
+    1300,
+    1300,
+    1300,
+    1300,
+    880
+   ],
+   "variantes": [
+    "vmc qui fait du bruit"
+   ]
+  },
+  {
+   "cle": "alde hygrovariable vmc",
+   "expression": "vmc hygrovariable aldes",
+   "volume": 1000,
+   "volume_min": 1000,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.52,
+   "serie": [
+    720,
+    880,
+    880,
+    1000,
+    1300,
+    1300,
+    1600,
+    1300,
+    1600,
+    1300,
+    1000,
+    880
+   ],
+   "variantes": [
+    "vmc hygrovariable aldes"
+   ]
+  },
+  {
+   "cle": "filtre vmc",
+   "expression": "filtres vmc",
+   "volume": 1000,
+   "volume_min": 1000,
+   "formulations": 5,
+   "fusionne_par_google": true,
+   "cpc": 0.87,
+   "serie": [
+    720,
+    720,
+    1300,
+    880,
+    1000,
+    1300,
+    1300,
+    1000,
+    1300,
+    1300,
+    1300,
+    880
+   ],
+   "variantes": [
+    "vmc filtre",
+    "filtre vmc",
+    "filtres vmc",
+    "filtre pour vmc",
+    "filtres pour vmc"
+   ]
+  },
+  {
+   "cle": "alde flux simple vmc",
+   "expression": "aldes vmc simple flux",
+   "volume": 1000,
+   "volume_min": 1000,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.46,
+   "serie": [
+    880,
+    880,
+    880,
+    1000,
+    1000,
+    1000,
+    1300,
+    1000,
+    1300,
+    1300,
+    1000,
+    720
+   ],
+   "variantes": [
+    "vmc aldes simple flux",
+    "aldes vmc simple flux",
+    "vmc simple flux aldes"
+   ]
+  },
+  {
+   "cle": "tuile vmc",
+   "expression": "tuiles vmc",
+   "volume": 1000,
+   "volume_min": 1000,
+   "formulations": 5,
+   "fusionne_par_google": true,
+   "cpc": 0.21,
+   "serie": [
+    880,
+    880,
+    1000,
+    880,
+    1000,
+    1300,
+    1300,
+    1000,
+    1300,
+    1300,
+    1300,
+    880
+   ],
+   "variantes": [
+    "tuile vmc",
+    "vmc tuile",
+    "tuiles vmc",
+    "tuile pour vmc",
+    "tuiles pour vmc"
+   ]
+  },
+  {
+   "cle": "interrupteur vmc",
+   "expression": "interrupteur vmc",
+   "volume": 1000,
+   "volume_min": 1000,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.33,
+   "serie": [
+    720,
+    720,
+    880,
+    880,
+    1300,
+    1300,
+    1300,
+    1300,
+    1300,
+    1300,
+    1300,
+    1000
+   ],
+   "variantes": [
+    "interrupteur vmc",
+    "vmc interrupteur",
+    "interrupteur pour vmc"
+   ]
+  },
+  {
+   "cle": "appartement vmc",
+   "expression": "vmc appartement",
+   "volume": 1000,
+   "volume_min": 1000,
+   "formulations": 5,
+   "fusionne_par_google": true,
+   "cpc": 0.41,
+   "serie": [
+    720,
+    880,
+    880,
+    880,
+    1300,
+    1300,
+    1300,
+    1300,
+    1300,
+    1300,
+    1300,
+    880
+   ],
+   "variantes": [
+    "vmc appartement",
+    "vmc en appartement",
+    "vmc pour appartement",
+    "vmc dans appartement",
+    "vmc dans un appartement"
+   ]
+  },
+  {
+   "cle": "double flux hygroreglable vmc",
+   "expression": "vmc double flux hygroréglable",
+   "volume": 1000,
+   "volume_min": 320,
+   "formulations": 2,
+   "fusionne_par_google": false,
+   "cpc": 0.66,
+   "serie": [
+    720,
+    880,
+    880,
+    720,
+    880,
+    1000,
+    1300,
+    1000,
+    1300,
+    1300,
+    1000,
+    880
+   ],
+   "variantes": [
+    "vmc hygroréglable double flux",
+    "vmc double flux hygroréglable"
+   ]
+  },
+  {
+   "cle": "ventilateur vmc",
+   "expression": "ventilateur vmc",
+   "volume": 880,
+   "volume_min": 880,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 0.32,
+   "serie": [
+    720,
+    880,
+    880,
+    720,
+    1000,
+    1000,
+    880,
+    880,
+    1000,
+    1000,
+    1000,
+    880
+   ],
+   "variantes": [
+    "vmc ventilateur",
+    "ventilateur vmc",
+    "ventilation vmc",
+    "vmc ventilation"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "double flux simple vmc",
+   "expression": "vmc double flux ou simple",
+   "volume": 880,
+   "volume_min": 880,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 0.16,
+   "serie": [
+    480,
+    590,
+    480,
+    590,
+    720,
+    880,
+    1000,
+    880,
+    1000,
+    1000,
+    1000,
+    720
+   ],
+   "variantes": [
+    "vmc simple ou double flux",
+    "vmc double flux ou simple",
+    "vmc double ou simple flux",
+    "vmc simple et double flux"
+   ]
+  },
+  {
+   "cle": "80 gaine isolee vmc",
+   "expression": "gaine isolée vmc 80",
+   "volume": 880,
+   "volume_min": 880,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.45,
+   "serie": [
+    590,
+    720,
+    880,
+    720,
+    1000,
+    1000,
+    1600,
+    1000,
+    1300,
+    1000,
+    880,
+    590
+   ],
+   "variantes": [
+    "gaine vmc isolée 80",
+    "gaine isolée vmc 80"
+   ]
+  },
+  {
+   "cle": "bouche extraction vmc",
+   "expression": "bouches d'extraction vmc",
+   "volume": 880,
+   "volume_min": 720,
+   "formulations": 4,
+   "fusionne_par_google": false,
+   "cpc": 0.2,
+   "serie": [
+    590,
+    590,
+    720,
+    720,
+    1000,
+    1300,
+    1000,
+    720,
+    1000,
+    880,
+    880,
+    720
+   ],
+   "variantes": [
+    "bouche extraction vmc",
+    "bouche d extraction vmc",
+    "bouche d'extraction vmc",
+    "bouches d'extraction vmc"
+   ]
+  },
+  {
+   "cle": "quoi sert vmc",
+   "expression": "à quoi sert une vmc",
+   "volume": 880,
+   "volume_min": 880,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 0.24,
+   "serie": [
+    720,
+    1000,
+    720,
+    590,
+    720,
+    880,
+    1000,
+    880,
+    1300,
+    1000,
+    880,
+    590
+   ],
+   "variantes": [
+    "vmc a quoi ça sert",
+    "à quoi sert la vmc",
+    "a quoi sert une vmc",
+    "à quoi sert une vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "conduit sans vmc",
+   "expression": "vmc sans conduit",
+   "volume": 880,
+   "volume_min": 880,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.17,
+   "serie": [
+    480,
+    590,
+    590,
+    590,
+    720,
+    880,
+    880,
+    880,
+    1000,
+    1000,
+    1000,
+    720
+   ],
+   "variantes": [
+    "vmc sans conduit"
+   ]
+  },
+  {
+   "cle": "douille tuile vmc",
+   "expression": "tuile à douille vmc",
+   "volume": 880,
+   "volume_min": 390,
+   "formulations": 4,
+   "fusionne_par_google": false,
+   "cpc": 0.26,
+   "serie": [
+    880,
+    880,
+    880,
+    880,
+    1000,
+    1000,
+    1000,
+    880,
+    1000,
+    1000,
+    880,
+    590
+   ],
+   "variantes": [
+    "tuile douille vmc",
+    "tuile a douille vmc",
+    "tuile à douille vmc",
+    "tuile à douille pour vmc"
+   ]
+  },
+  {
+   "cle": "fenetre vmc",
+   "expression": "vmc fenêtre",
+   "volume": 880,
+   "volume_min": 880,
+   "formulations": 5,
+   "fusionne_par_google": true,
+   "cpc": 0.21,
+   "serie": [
+    590,
+    590,
+    590,
+    590,
+    720,
+    880,
+    1000,
+    1000,
+    1300,
+    1000,
+    880,
+    590
+   ],
+   "variantes": [
+    "fenetre vmc",
+    "vmc fenetre",
+    "vmc fenêtre",
+    "vmc fenetres",
+    "vmc sur fenêtre"
+   ]
+  },
+  {
+   "cle": "sortie vmc",
+   "expression": "sortie vmc",
+   "volume": 880,
+   "volume_min": 880,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.36,
+   "serie": [
+    720,
+    720,
+    720,
+    720,
+    880,
+    880,
+    1000,
+    880,
+    1000,
+    1000,
+    1000,
+    720
+   ],
+   "variantes": [
+    "sortie vmc",
+    "vmc sortie",
+    "vmc une sortie"
+   ]
+  },
+  {
+   "cle": "electrique vmc",
+   "expression": "vmc electricité",
+   "volume": 880,
+   "volume_min": 880,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 0.23,
+   "serie": [
+    590,
+    590,
+    720,
+    720,
+    880,
+    880,
+    880,
+    1000,
+    1000,
+    1000,
+    1000,
+    880
+   ],
+   "variantes": [
+    "vmc electricien",
+    "vmc electrique",
+    "vmc électrique",
+    "vmc electricité"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "double flux fonctionnement vmc",
+   "expression": "fonctionnement vmc double flux",
+   "volume": 880,
+   "volume_min": 880,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.2,
+   "serie": [
+    720,
+    880,
+    720,
+    720,
+    720,
+    880,
+    1300,
+    1000,
+    1300,
+    1000,
+    880,
+    720
+   ],
+   "variantes": [
+    "fonctionnement vmc double flux",
+    "vmc double flux fonctionnement",
+    "vmc double flux : fonctionnement"
+   ]
+  },
+  {
+   "cle": "chambre vmc",
+   "expression": "vmc chambre",
+   "volume": 880,
+   "volume_min": 880,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 0.24,
+   "serie": [
+    390,
+    590,
+    590,
+    590,
+    720,
+    880,
+    1000,
+    1300,
+    1600,
+    1000,
+    880,
+    590
+   ],
+   "variantes": [
+    "vmc chambre",
+    "vmc pour chambre",
+    "vmc dans chambre",
+    "vmc dans une chambre"
+   ]
+  },
+  {
+   "cle": "atlantic bouche vmc",
+   "expression": "bouches vmc atlantic",
+   "volume": 880,
+   "volume_min": 880,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.24,
+   "serie": [
+    720,
+    720,
+    880,
+    880,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    880,
+    720
+   ],
+   "variantes": [
+    "bouche vmc atlantic",
+    "bouches vmc atlantic"
+   ]
+  },
+  {
+   "cle": "sortir vmc",
+   "expression": "sortir vmc",
+   "volume": 880,
+   "volume_min": 880,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.27,
+   "serie": [
+    720,
+    720,
+    720,
+    720,
+    720,
+    880,
+    880,
+    1000,
+    880,
+    1000,
+    1000,
+    1000
+   ],
+   "variantes": [
+    "sortir vmc"
+   ]
+  },
+  {
+   "cle": "definition vmc",
+   "expression": "vmc définition",
+   "volume": 880,
+   "volume_min": 590,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 5.2,
+   "serie": [
+    590,
+    720,
+    720,
+    720,
+    880,
+    880,
+    1000,
+    880,
+    1000,
+    880,
+    880,
+    590
+   ],
+   "variantes": [
+    "vmc def",
+    "definition vmc",
+    "vmc definition",
+    "vmc définition"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "bruyant vmc",
+   "expression": "vmc bruyante",
+   "volume": 880,
+   "volume_min": 880,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.76,
+   "serie": [
+    390,
+    480,
+    720,
+    720,
+    880,
+    880,
+    1000,
+    880,
+    1300,
+    1000,
+    1000,
+    880
+   ],
+   "variantes": [
+    "vmc bruyant",
+    "vmc bruyante"
+   ]
+  },
+  {
+   "cle": "murale vmc",
+   "expression": "vmc murale",
+   "volume": 880,
+   "volume_min": 880,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.22,
+   "serie": [
+    720,
+    880,
+    880,
+    720,
+    880,
+    1000,
+    1300,
+    1000,
+    1300,
+    1000,
+    880,
+    880
+   ],
+   "variantes": [
+    "vmc murale"
+   ]
+  },
+  {
+   "cle": "2 interrupteur vitesse vmc",
+   "expression": "interrupteur 2 vitesses vmc",
+   "volume": 720,
+   "volume_min": 720,
+   "formulations": 5,
+   "fusionne_par_google": true,
+   "cpc": 0.25,
+   "serie": [
+    480,
+    590,
+    590,
+    590,
+    720,
+    720,
+    880,
+    720,
+    1000,
+    880,
+    720,
+    590
+   ],
+   "variantes": [
+    "interrupteur 2 vitesse vmc",
+    "interrupteur vmc 2 vitesses",
+    "interrupteur 2 vitesses vmc",
+    "interrupteur pour vmc 2 vitesses",
+    "interrupteur 2 vitesses pour vmc"
+   ]
+  },
+  {
+   "cle": "double flux leroy merlin vmc",
+   "expression": "leroy merlin vmc double flux",
+   "volume": 720,
+   "volume_min": 720,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.12,
+   "serie": [
+    480,
+    590,
+    590,
+    480,
+    720,
+    720,
+    880,
+    720,
+    880,
+    720,
+    590,
+    590
+   ],
+   "variantes": [
+    "vmc double flux leroy merlin",
+    "leroy merlin vmc double flux"
+   ]
+  },
+  {
+   "cle": "plate vmc",
+   "expression": "vmc plate",
+   "volume": 720,
+   "volume_min": 720,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.35,
+   "serie": [
+    480,
+    590,
+    590,
+    720,
+    880,
+    880,
+    880,
+    720,
+    880,
+    880,
+    880,
+    590
+   ],
+   "variantes": [
+    "vmc plate"
+   ]
+  },
+  {
+   "cle": "autogyre vmc",
+   "expression": "autogyre vmc",
+   "volume": 720,
+   "volume_min": 720,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.34,
+   "serie": [
+    480,
+    590,
+    590,
+    590,
+    720,
+    720,
+    880,
+    880,
+    880,
+    880,
+    590,
+    480
+   ],
+   "variantes": [
+    "autogyre vmc",
+    "vmc autogyre"
+   ]
+  },
+  {
+   "cle": "chapeau toiture vmc",
+   "expression": "chapeau toiture vmc",
+   "volume": 720,
+   "volume_min": 320,
+   "formulations": 6,
+   "fusionne_par_google": true,
+   "cpc": 0.29,
+   "serie": [
+    720,
+    720,
+    720,
+    720,
+    880,
+    880,
+    880,
+    720,
+    880,
+    880,
+    1000,
+    720
+   ],
+   "variantes": [
+    "chapeau toiture vmc",
+    "chapeau de toiture vmc",
+    "vmc chapeau de toiture",
+    "chapeau de toiture pour vmc",
+    "chapeau de toit vmc",
+    "chapeau de toit pour vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "bip qui vmc",
+   "expression": "vmc qui bipe",
+   "volume": 720,
+   "volume_min": 720,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.02,
+   "serie": [
+    480,
+    480,
+    590,
+    480,
+    720,
+    590,
+    880,
+    720,
+    880,
+    880,
+    1000,
+    880
+   ],
+   "variantes": [
+    "vmc qui bip",
+    "vmc qui bipe"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "gaine rigide semi vmc",
+   "expression": "gaine semi-rigide vmc",
+   "volume": 720,
+   "volume_min": 720,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 0.77,
+   "serie": [
+    480,
+    720,
+    590,
+    590,
+    720,
+    720,
+    880,
+    880,
+    880,
+    880,
+    880,
+    720
+   ],
+   "variantes": [
+    "gaine semi rigide vmc",
+    "gaine vmc semi rigide",
+    "gaine vmc semi-rigide",
+    "gaine semi-rigide vmc"
+   ]
+  },
+  {
+   "cle": "fonctionnement vmc",
+   "expression": "fonctionnement vmc",
+   "volume": 720,
+   "volume_min": 720,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.34,
+   "serie": [
+    720,
+    590,
+    480,
+    480,
+    590,
+    720,
+    880,
+    720,
+    880,
+    720,
+    720,
+    590
+   ],
+   "variantes": [
+    "vmc fonctionnement",
+    "fonctionnement vmc"
+   ]
+  },
+  {
+   "cle": "vmc vmi",
+   "expression": "vmc ou vmi",
+   "volume": 720,
+   "volume_min": 720,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 1.74,
+   "serie": [
+    720,
+    590,
+    590,
+    590,
+    720,
+    880,
+    1000,
+    720,
+    1000,
+    720,
+    720,
+    480
+   ],
+   "variantes": [
+    "vmi ou vmc",
+    "vmc ou vmi"
+   ]
+  },
+  {
+   "cle": "kit vmc",
+   "expression": "kit vmc",
+   "volume": 720,
+   "volume_min": 720,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.32,
+   "serie": [
+    480,
+    480,
+    720,
+    590,
+    1000,
+    1300,
+    880,
+    720,
+    1000,
+    720,
+    720,
+    590
+   ],
+   "variantes": [
+    "kit vmc"
+   ]
+  },
+  {
+   "cle": "bruit vmc",
+   "expression": "bruit vmc",
+   "volume": 720,
+   "volume_min": 720,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.05,
+   "serie": [
+    390,
+    390,
+    590,
+    590,
+    720,
+    720,
+    880,
+    720,
+    880,
+    720,
+    720,
+    590
+   ],
+   "variantes": [
+    "bruit vmc",
+    "vmc bruit"
+   ]
+  },
+  {
+   "cle": "branchement interrupteur sans vmc",
+   "expression": "branchement vmc sans interrupteur",
+   "volume": 720,
+   "volume_min": 720,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 14.14,
+   "serie": [
+    480,
+    390,
+    590,
+    590,
+    720,
+    720,
+    880,
+    880,
+    1000,
+    880,
+    720,
+    720
+   ],
+   "variantes": [
+    "branchement vmc sans interrupteur",
+    "brancher vmc sans interrupteur"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "cave vmc",
+   "expression": "vmc cave",
+   "volume": 720,
+   "volume_min": 720,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.6,
+   "serie": [
+    720,
+    720,
+    590,
+    480,
+    480,
+    480,
+    720,
+    590,
+    720,
+    720,
+    880,
+    1000
+   ],
+   "variantes": [
+    "vmc cave",
+    "vmc dans une cave"
+   ]
+  },
+  {
+   "cle": "p s vmc",
+   "expression": "s&p vmc",
+   "volume": 720,
+   "volume_min": 210,
+   "formulations": 3,
+   "fusionne_par_google": false,
+   "cpc": 0.38,
+   "serie": [
+    480,
+    480,
+    590,
+    590,
+    720,
+    720,
+    880,
+    720,
+    880,
+    720,
+    720,
+    480
+   ],
+   "variantes": [
+    "s&p vmc",
+    "vmc s&p",
+    "vmc s p"
+   ]
+  },
+  {
+   "cle": "125 gaine vmc",
+   "expression": "gaine 125 vmc",
+   "volume": 720,
+   "volume_min": 720,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.35,
+   "serie": [
+    720,
+    880,
+    590,
+    590,
+    720,
+    720,
+    720,
+    590,
+    880,
+    720,
+    590,
+    590
+   ],
+   "variantes": [
+    "gaine vmc 125",
+    "gaine 125 vmc"
+   ]
+  },
+  {
+   "cle": "autoreglable flux simple vmc",
+   "expression": "vmc simple flux autoréglable",
+   "volume": 720,
+   "volume_min": 720,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.31,
+   "serie": [
+    390,
+    480,
+    590,
+    590,
+    720,
+    720,
+    880,
+    880,
+    880,
+    880,
+    720,
+    480
+   ],
+   "variantes": [
+    "vmc simple flux autoréglable"
+   ]
+  },
+  {
+   "cle": "bouche cuisine extraction vmc",
+   "expression": "bouche extraction vmc cuisine",
+   "volume": 720,
+   "volume_min": 720,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.22,
+   "serie": [
+    480,
+    480,
+    590,
+    590,
+    720,
+    720,
+    880,
+    720,
+    880,
+    720,
+    720,
+    590
+   ],
+   "variantes": [
+    "bouche extraction vmc cuisine"
+   ]
+  },
+  {
+   "cle": "comment installer vmc",
+   "expression": "comment installer vmc",
+   "volume": 720,
+   "volume_min": 590,
+   "formulations": 4,
+   "fusionne_par_google": false,
+   "cpc": 0.89,
+   "serie": [
+    390,
+    480,
+    480,
+    480,
+    720,
+    880,
+    1000,
+    880,
+    1000,
+    880,
+    880,
+    720
+   ],
+   "variantes": [
+    "comment installer vmc",
+    "vmc comment installer",
+    "comment installer un vmc",
+    "comment installer une vmc"
+   ]
+  },
+  {
+   "cle": "alde easyhome vmc",
+   "expression": "vmc aldes easyhome",
+   "volume": 720,
+   "volume_min": 720,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.48,
+   "serie": [
+    480,
+    480,
+    480,
+    480,
+    590,
+    720,
+    880,
+    720,
+    880,
+    880,
+    590,
+    480
+   ],
+   "variantes": [
+    "vmc aldes easyhome"
+   ]
+  },
+  {
+   "cle": "atlantic hygrocosy vmc",
+   "expression": "vmc atlantic hygrocosy",
+   "volume": 720,
+   "volume_min": 720,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.55,
+   "serie": [
+    590,
+    590,
+    720,
+    720,
+    720,
+    880,
+    880,
+    880,
+    880,
+    720,
+    720,
+    590
+   ],
+   "variantes": [
+    "vmc atlantic hygrocosy"
+   ]
+  },
+  {
+   "cle": "gaine nettoyage vmc",
+   "expression": "nettoyage gaines vmc",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 6,
+   "fusionne_par_google": true,
+   "cpc": 1.03,
+   "serie": [
+    320,
+    390,
+    480,
+    390,
+    480,
+    590,
+    720,
+    590,
+    880,
+    720,
+    590,
+    480
+   ],
+   "variantes": [
+    "nettoyage gaine vmc",
+    "nettoyage gaines vmc",
+    "nettoyage des gaines vmc",
+    "nettoyer gaine vmc",
+    "nettoyer gaines vmc",
+    "nettoyant gaine vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "double flux flux simple vmc",
+   "expression": "vmc double flux ou simple flux",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.11,
+   "serie": [
+    480,
+    480,
+    480,
+    390,
+    480,
+    480,
+    720,
+    590,
+    720,
+    720,
+    590,
+    480
+   ],
+   "variantes": [
+    "vmc double flux ou simple flux",
+    "vmc simple flux et double flux",
+    "vmc simple flux ou double flux"
+   ]
+  },
+  {
+   "cle": "consommation vmc",
+   "expression": "consommation vmc",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.19,
+   "serie": [
+    320,
+    390,
+    480,
+    390,
+    480,
+    590,
+    720,
+    720,
+    880,
+    720,
+    880,
+    720
+   ],
+   "variantes": [
+    "conso vmc",
+    "vmc consommation",
+    "consommation vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "toilette vmc",
+   "expression": "vmc toilettes",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.2,
+   "serie": [
+    720,
+    720,
+    590,
+    590,
+    590,
+    590,
+    720,
+    590,
+    590,
+    590,
+    480,
+    480
+   ],
+   "variantes": [
+    "vmc toilette",
+    "vmc toilettes",
+    "vmc pour toilette"
+   ]
+  },
+  {
+   "cle": "125 gaine isolee vmc",
+   "expression": "gaine isolée vmc 125",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 0.34,
+   "serie": [
+    480,
+    590,
+    590,
+    480,
+    720,
+    720,
+    880,
+    720,
+    880,
+    590,
+    590,
+    480
+   ],
+   "variantes": [
+    "gaine vmc isolée 125",
+    "gaine vmc isolee 125",
+    "gaine isolée vmc 125",
+    "gaine vmc 125 isolée"
+   ]
+  },
+  {
+   "cle": "murale sortie vmc",
+   "expression": "sortie murale vmc",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 0.3,
+   "serie": [
+    390,
+    480,
+    480,
+    480,
+    590,
+    590,
+    720,
+    590,
+    720,
+    720,
+    720,
+    590
+   ],
+   "variantes": [
+    "sortie vmc murale",
+    "sortie murale vmc",
+    "sortie vmc mur",
+    "sorti vmc mur"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "sol sou vmc",
+   "expression": "vmc sous-sol",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 6,
+   "fusionne_par_google": true,
+   "cpc": 0.34,
+   "serie": [
+    480,
+    590,
+    390,
+    320,
+    390,
+    480,
+    480,
+    590,
+    720,
+    590,
+    720,
+    880
+   ],
+   "variantes": [
+    "vmc sous-sol",
+    "vmc sous sol",
+    "vmc en sous sol",
+    "vmc en sous-sol",
+    "vmc pour sous-sol",
+    "vmc pour sous sol"
+   ]
+  },
+  {
+   "cle": "ancienne installer maison vmc",
+   "expression": "installation vmc maison ancienne",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 5,
+   "fusionne_par_google": true,
+   "cpc": 1.97,
+   "serie": [
+    480,
+    390,
+    480,
+    480,
+    480,
+    590,
+    590,
+    590,
+    720,
+    590,
+    590,
+    590
+   ],
+   "variantes": [
+    "installer vmc maison ancienne",
+    "installer vmc dans maison ancienne",
+    "installer une vmc dans une maison ancienne",
+    "installation vmc maison ancienne",
+    "installation vmc dans maison ancienne"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "atlantic autocosy vmc",
+   "expression": "vmc atlantic autocosy",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.45,
+   "serie": [
+    390,
+    390,
+    390,
+    390,
+    590,
+    590,
+    720,
+    590,
+    720,
+    720,
+    720,
+    390
+   ],
+   "variantes": [
+    "vmc autocosy atlantic",
+    "vmc atlantic autocosy"
+   ]
+  },
+  {
+   "cle": "sortie tuile vmc",
+   "expression": "tuiles sortie vmc",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 0.23,
+   "serie": [
+    390,
+    480,
+    480,
+    480,
+    590,
+    590,
+    590,
+    480,
+    590,
+    590,
+    590,
+    480
+   ],
+   "variantes": [
+    "sortie vmc tuile",
+    "tuile sortie vmc",
+    "tuiles sortie vmc",
+    "tuile pour sortie vmc"
+   ]
+  },
+  {
+   "cle": "installe qui vmc",
+   "expression": "qui installe vmc",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 5,
+   "fusionne_par_google": true,
+   "cpc": 1.52,
+   "serie": [
+    480,
+    480,
+    480,
+    480,
+    590,
+    720,
+    880,
+    590,
+    880,
+    720,
+    720,
+    480
+   ],
+   "variantes": [
+    "qui installe vmc",
+    "qui installe la vmc",
+    "qui installe les vmc",
+    "qui installe une vmc",
+    "qui installe des vmc"
+   ]
+  },
+  {
+   "cle": "solaire vmc",
+   "expression": "vmc solaire",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.23,
+   "serie": [
+    590,
+    590,
+    720,
+    590,
+    720,
+    480,
+    590,
+    590,
+    590,
+    590,
+    590,
+    720
+   ],
+   "variantes": [
+    "vmc solaire"
+   ]
+  },
+  {
+   "cle": "duree vie vmc",
+   "expression": "durée de vie vmc",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.05,
+   "serie": [
+    390,
+    320,
+    390,
+    480,
+    480,
+    480,
+    590,
+    880,
+    590,
+    720,
+    590,
+    590
+   ],
+   "variantes": [
+    "durée de vie vmc",
+    "durée de vie d'une vmc",
+    "durée de vie d une vmc"
+   ]
+  },
+  {
+   "cle": "atlantic flux simple vmc",
+   "expression": "vmc atlantic simple flux",
+   "volume": 590,
+   "volume_min": 480,
+   "formulations": 2,
+   "fusionne_par_google": false,
+   "cpc": 0.36,
+   "serie": [
+    390,
+    390,
+    480,
+    480,
+    480,
+    590,
+    720,
+    590,
+    720,
+    720,
+    590,
+    480
+   ],
+   "variantes": [
+    "vmc atlantic simple flux",
+    "vmc simple flux atlantic"
+   ]
+  },
+  {
+   "cle": "autour installateur moi vmc",
+   "expression": "installateur vmc autour de moi",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 2.22,
+   "serie": [
+    480,
+    390,
+    320,
+    320,
+    390,
+    590,
+    590,
+    720,
+    590,
+    590,
+    720,
+    720
+   ],
+   "variantes": [
+    "installateur vmc autour de moi"
+   ]
+  },
+  {
+   "cle": "entretien obligatoire vmc",
+   "expression": "entretien vmc obligatoire",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 2.21,
+   "serie": [
+    320,
+    390,
+    390,
+    480,
+    590,
+    590,
+    720,
+    590,
+    880,
+    880,
+    880,
+    720
+   ],
+   "variantes": [
+    "entretien vmc obligatoire",
+    "vmc entretien obligatoire",
+    "entretien des vmc obligation"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "dire que veut vmc",
+   "expression": "que veut dire vmc",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.07,
+   "serie": [
+    480,
+    480,
+    590,
+    480,
+    590,
+    590,
+    720,
+    590,
+    720,
+    590,
+    590,
+    390
+   ],
+   "variantes": [
+    "vmc que veut dire",
+    "que veut dire vmc"
+   ]
+  },
+  {
+   "cle": "bain bouche salle vmc",
+   "expression": "bouche vmc salle de bain",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.26,
+   "serie": [
+    480,
+    480,
+    590,
+    590,
+    720,
+    720,
+    720,
+    590,
+    880,
+    590,
+    720,
+    590
+   ],
+   "variantes": [
+    "bouche vmc salle de bain",
+    "bouche de vmc salle de bain"
+   ]
+  },
+  {
+   "cle": "bricomarche vmc",
+   "expression": "bricomarché vmc",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.09,
+   "serie": [
+    390,
+    480,
+    480,
+    390,
+    480,
+    590,
+    720,
+    720,
+    720,
+    590,
+    480,
+    480
+   ],
+   "variantes": [
+    "vmc bricomarché",
+    "bricomarché vmc"
+   ]
+  },
+  {
+   "cle": "2 branchement vitesse vmc",
+   "expression": "branchement vmc 2 vitesses",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 10.91,
+   "serie": [
+    260,
+    260,
+    480,
+    480,
+    590,
+    880,
+    1000,
+    720,
+    720,
+    720,
+    480,
+    390
+   ],
+   "variantes": [
+    "branchement vmc 2 vitesses",
+    "vmc 2 vitesses branchement"
+   ]
+  },
+  {
+   "cle": "gaz vmc",
+   "expression": "vmc gaz",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.34,
+   "serie": [
+    480,
+    480,
+    480,
+    590,
+    590,
+    720,
+    720,
+    720,
+    720,
+    720,
+    720,
+    390
+   ],
+   "variantes": [
+    "vmc gaz"
+   ]
+  },
+  {
+   "cle": "80 gaine vmc",
+   "expression": "gaine vmc 80",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.35,
+   "serie": [
+    480,
+    590,
+    590,
+    590,
+    720,
+    720,
+    720,
+    590,
+    720,
+    720,
+    720,
+    480
+   ],
+   "variantes": [
+    "gaine vmc 80"
+   ]
+  },
+  {
+   "cle": "thermodynamique vmc",
+   "expression": "vmc thermodynamique",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.5,
+   "serie": [
+    880,
+    1000,
+    590,
+    390,
+    480,
+    480,
+    720,
+    480,
+    720,
+    720,
+    720,
+    590
+   ],
+   "variantes": [
+    "vmc thermodynamique"
+   ]
+  },
+  {
+   "cle": "signification vmc",
+   "expression": "signification vmc",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 3.87,
+   "serie": [
+    590,
+    590,
+    590,
+    590,
+    720,
+    590,
+    880,
+    720,
+    720,
+    720,
+    590,
+    480
+   ],
+   "variantes": [
+    "vmc signification",
+    "signification vmc"
+   ]
+  },
+  {
+   "cle": "piege vmc",
+   "expression": "piège a son vmc",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.65,
+   "serie": [
+    320,
+    390,
+    480,
+    480,
+    590,
+    720,
+    590,
+    590,
+    880,
+    720,
+    720,
+    480
+   ],
+   "variantes": [
+    "piège a son vmc",
+    "piege a son vmc"
+   ]
+  },
+  {
+   "cle": "pile vmc",
+   "expression": "vmc à piles",
+   "volume": 590,
+   "volume_min": 320,
+   "formulations": 9,
+   "fusionne_par_google": false,
+   "cpc": 0.14,
+   "serie": [
+    320,
+    320,
+    390,
+    480,
+    590,
+    590,
+    720,
+    720,
+    1000,
+    880,
+    720,
+    590
+   ],
+   "variantes": [
+    "vmc pile",
+    "pile vmc",
+    "piles vmc",
+    "vmc piles",
+    "vmc à pile",
+    "vmc a pile"
+   ]
+  },
+  {
+   "cle": "entretien tarif vmc",
+   "expression": "entretien vmc tarif",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 2.81,
+   "serie": [
+    480,
+    480,
+    590,
+    590,
+    480,
+    590,
+    720,
+    720,
+    390,
+    480,
+    480,
+    480
+   ],
+   "variantes": [
+    "entretien vmc tarif",
+    "tarif entretien vmc"
+   ]
+  },
+  {
+   "cle": "hygroreglable kit vmc",
+   "expression": "kit vmc hygroréglable",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.52,
+   "serie": [
+    390,
+    390,
+    480,
+    390,
+    590,
+    590,
+    720,
+    480,
+    720,
+    590,
+    720,
+    390
+   ],
+   "variantes": [
+    "kit vmc hygroréglable"
+   ]
+  },
+  {
+   "cle": "obligatoire vmc",
+   "expression": "vmc obligatoire",
+   "volume": 590,
+   "volume_min": 590,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    320,
+    480,
+    480,
+    390,
+    390,
+    480,
+    590,
+    720,
+    880,
+    720,
+    720,
+    480
+   ],
+   "variantes": [
+    "vmc obligatoire"
+   ]
+  },
+  {
+   "cle": "comment fonctionne vmc",
+   "expression": "comment fonctionne vmc",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.1,
+   "serie": [
+    590,
+    480,
+    480,
+    320,
+    390,
+    590,
+    720,
+    590,
+    720,
+    590,
+    480,
+    390
+   ],
+   "variantes": [
+    "comment fonctionne vmc",
+    "comment fonctionne la vmc",
+    "comment fonctionne une vmc"
+   ]
+  },
+  {
+   "cle": "anti clapet retour vmc",
+   "expression": "clapet anti-retour vmc",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 6,
+   "fusionne_par_google": true,
+   "cpc": 0.23,
+   "serie": [
+    260,
+    320,
+    320,
+    390,
+    590,
+    590,
+    880,
+    590,
+    720,
+    480,
+    480,
+    320
+   ],
+   "variantes": [
+    "vmc clapet anti-retour",
+    "clapet anti retour vmc",
+    "vmc clapet anti retour",
+    "clapet anti-retour vmc",
+    "clapet anti-retour pour vmc",
+    "clapet anti retour pour vmc"
+   ]
+  },
+  {
+   "cle": "conduit vmc",
+   "expression": "conduite vmc",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 0.71,
+   "serie": [
+    390,
+    390,
+    390,
+    390,
+    590,
+    590,
+    590,
+    480,
+    590,
+    590,
+    590,
+    390
+   ],
+   "variantes": [
+    "conduite vmc",
+    "conduit vmc",
+    "conduits vmc",
+    "conduit pour vmc"
+   ]
+  },
+  {
+   "cle": "puissance vmc",
+   "expression": "puissance vmc",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.35,
+   "serie": [
+    320,
+    390,
+    480,
+    390,
+    480,
+    480,
+    720,
+    590,
+    720,
+    720,
+    480,
+    480
+   ],
+   "variantes": [
+    "vmc puissance",
+    "puissance vmc",
+    "vmc puissante"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "flux leroy merlin simple vmc",
+   "expression": "vmc simple flux leroy merlin",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.04,
+   "serie": [
+    390,
+    320,
+    320,
+    320,
+    480,
+    480,
+    720,
+    480,
+    720,
+    590,
+    480,
+    390
+   ],
+   "variantes": [
+    "vmc simple flux leroy merlin"
+   ]
+  },
+  {
+   "cle": "2 branchement interrupteur schema vitesse vmc",
+   "expression": "schéma branchement interrupteur vmc 2 vitesses",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": null,
+   "serie": [
+    260,
+    320,
+    390,
+    480,
+    480,
+    590,
+    590,
+    590,
+    590,
+    590,
+    480,
+    320
+   ],
+   "variantes": [
+    "schéma branchement interrupteur vmc 2 vitesses",
+    "schema branchement interrupteur vmc 2 vitesses"
+   ]
+  },
+  {
+   "cle": "installateur vmc",
+   "expression": "installateurs vmc",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 2.95,
+   "serie": [
+    320,
+    480,
+    390,
+    390,
+    720,
+    590,
+    590,
+    480,
+    590,
+    590,
+    720,
+    390
+   ],
+   "variantes": [
+    "installateur vmc",
+    "vmc installateur",
+    "installateurs vmc"
+   ]
+  },
+  {
+   "cle": "flux silencieu simple vmc",
+   "expression": "vmc silencieuse simple flux",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 0.29,
+   "serie": [
+    390,
+    390,
+    390,
+    390,
+    480,
+    590,
+    590,
+    480,
+    590,
+    590,
+    590,
+    390
+   ],
+   "variantes": [
+    "vmc simple flux silencieux",
+    "silencieux vmc simple flux",
+    "vmc silencieuse simple flux",
+    "vmc simple flux silencieuse"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "plate sortie toiture tuile vmc",
+   "expression": "sortie vmc toiture tuile plate",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.16,
+   "serie": [
+    70,
+    50,
+    70,
+    70,
+    90,
+    50,
+    50,
+    170,
+    4400,
+    90,
+    90,
+    50
+   ],
+   "variantes": [
+    "sortie vmc toiture tuile plate"
+   ]
+  },
+  {
+   "cle": "bain installer salle vmc",
+   "expression": "installation vmc salle de bain",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 7,
+   "fusionne_par_google": true,
+   "cpc": 0.67,
+   "serie": [
+    260,
+    260,
+    320,
+    390,
+    480,
+    590,
+    720,
+    480,
+    720,
+    590,
+    480,
+    390
+   ],
+   "variantes": [
+    "installer vmc salle de bain",
+    "installer une vmc salle de bain",
+    "installer vmc dans salle de bain",
+    "installer une vmc dans salle de bain",
+    "installer une vmc dans une salle de bain",
+    "vmc salle de bain installation"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "demontage nettoyage sans vmc",
+   "expression": "nettoyage vmc sans démontage",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 1.11,
+   "serie": [
+    320,
+    390,
+    480,
+    480,
+    480,
+    590,
+    590,
+    480,
+    720,
+    590,
+    480,
+    480
+   ],
+   "variantes": [
+    "nettoyage vmc sans démontage"
+   ]
+  },
+  {
+   "cle": "sanitaire vide vmc",
+   "expression": "vmc vide sanitaire",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.38,
+   "serie": [
+    320,
+    320,
+    390,
+    320,
+    480,
+    480,
+    720,
+    590,
+    590,
+    720,
+    590,
+    480
+   ],
+   "variantes": [
+    "vmc vide sanitaire",
+    "vmc pour vide sanitaire"
+   ]
+  },
+  {
+   "cle": "pose vmc",
+   "expression": "position vmc",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 2.57,
+   "serie": [
+    320,
+    320,
+    390,
+    480,
+    590,
+    590,
+    590,
+    590,
+    720,
+    590,
+    590,
+    390
+   ],
+   "variantes": [
+    "pose vmc",
+    "position vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "changer vmc",
+   "expression": "changement vmc",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 2.3,
+   "serie": [
+    320,
+    320,
+    480,
+    390,
+    480,
+    590,
+    720,
+    590,
+    720,
+    590,
+    590,
+    480
+   ],
+   "variantes": [
+    "changement vmc",
+    "changer vmc",
+    "changer une vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "aeration vmc",
+   "expression": "aerateur vmc",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.29,
+   "serie": [
+    390,
+    390,
+    390,
+    390,
+    480,
+    390,
+    590,
+    480,
+    590,
+    590,
+    590,
+    480
+   ],
+   "variantes": [
+    "aeration vmc",
+    "vmc aeration",
+    "aerateur vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "double flux moteur vmc",
+   "expression": "moteur vmc double flux",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.38,
+   "serie": [
+    320,
+    320,
+    320,
+    320,
+    480,
+    480,
+    720,
+    480,
+    590,
+    480,
+    480,
+    320
+   ],
+   "variantes": [
+    "moteur vmc double flux",
+    "moteur pour vmc double flux"
+   ]
+  },
+  {
+   "cle": "climatisation double flux vmc",
+   "expression": "climatisation vmc double flux",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 8,
+   "fusionne_par_google": true,
+   "cpc": 0.52,
+   "serie": [
+    1300,
+    2400,
+    590,
+    90,
+    110,
+    110,
+    170,
+    110,
+    140,
+    140,
+    170,
+    480
+   ],
+   "variantes": [
+    "vmc double flux climatisation",
+    "climatisation vmc double flux",
+    "vmc double flux et climatisation",
+    "climatisation sur vmc double flux",
+    "climatisation pour vmc double flux",
+    "clim vmc double flux"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "vent vmc",
+   "expression": "vmc vent",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.58,
+   "serie": [
+    480,
+    480,
+    390,
+    390,
+    480,
+    590,
+    720,
+    590,
+    720,
+    480,
+    480,
+    320
+   ],
+   "variantes": [
+    "vmc vent"
+   ]
+  },
+  {
+   "cle": "unelvent vmc",
+   "expression": "unelvent vmc",
+   "volume": 480,
+   "volume_min": 390,
+   "formulations": 2,
+   "fusionne_par_google": false,
+   "cpc": 0.66,
+   "serie": [
+    320,
+    390,
+    390,
+    320,
+    480,
+    480,
+    590,
+    480,
+    590,
+    590,
+    590,
+    390
+   ],
+   "variantes": [
+    "vmc unelvent",
+    "unelvent vmc"
+   ]
+  },
+  {
+   "cle": "bloc vmc",
+   "expression": "bloc vmc",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.35,
+   "serie": [
+    320,
+    390,
+    480,
+    390,
+    480,
+    480,
+    590,
+    590,
+    590,
+    590,
+    590,
+    320
+   ],
+   "variantes": [
+    "bloc vmc"
+   ]
+  },
+  {
+   "cle": "autonome pile vmc",
+   "expression": "vmc autonome pile",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.29,
+   "serie": [
+    320,
+    260,
+    390,
+    320,
+    480,
+    480,
+    590,
+    480,
+    590,
+    590,
+    480,
+    390
+   ],
+   "variantes": [
+    "vmc autonome pile"
+   ]
+  },
+  {
+   "cle": "leroy merlin pose prix vmc",
+   "expression": "prix pose vmc leroy merlin",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 3.19,
+   "serie": [
+    320,
+    320,
+    320,
+    320,
+    480,
+    480,
+    590,
+    480,
+    720,
+    590,
+    480,
+    480
+   ],
+   "variantes": [
+    "prix pose vmc leroy merlin"
+   ]
+  },
+  {
+   "cle": "flux installation simple vmc",
+   "expression": "installation vmc simple flux",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.51,
+   "serie": [
+    260,
+    320,
+    390,
+    390,
+    590,
+    720,
+    590,
+    590,
+    590,
+    480,
+    590,
+    480
+   ],
+   "variantes": [
+    "installation vmc simple flux"
+   ]
+  },
+  {
+   "cle": "bricoman vmc",
+   "expression": "vmc bricoman",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.16,
+   "serie": [
+    210,
+    320,
+    390,
+    320,
+    480,
+    480,
+    590,
+    590,
+    720,
+    590,
+    480,
+    390
+   ],
+   "variantes": [
+    "vmc bricoman"
+   ]
+  },
+  {
+   "cle": "beaute espace sante vmc",
+   "expression": "vmc espace beauté santé",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.91,
+   "serie": [
+    880,
+    720,
+    590,
+    390,
+    390,
+    320,
+    390,
+    480,
+    320,
+    320,
+    320,
+    590
+   ],
+   "variantes": [
+    "vmc espace beauté santé"
+   ]
+  },
+  {
+   "cle": "c quoi vmc",
+   "expression": "vmc c'est quoi",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.7,
+   "serie": [
+    480,
+    480,
+    480,
+    480,
+    480,
+    480,
+    590,
+    480,
+    590,
+    480,
+    720,
+    390
+   ],
+   "variantes": [
+    "vmc c est quoi",
+    "vmc c'est quoi"
+   ]
+  },
+  {
+   "cle": "bain plafond salle vmc",
+   "expression": "vmc salle de bain plafond",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.21,
+   "serie": [
+    390,
+    320,
+    390,
+    480,
+    390,
+    480,
+    480,
+    590,
+    480,
+    480,
+    480,
+    390
+   ],
+   "variantes": [
+    "vmc salle de bain plafond"
+   ]
+  },
+  {
+   "cle": "hygroreglable type vmc",
+   "expression": "vmc hygroréglable type a",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.65,
+   "serie": [
+    320,
+    390,
+    480,
+    390,
+    480,
+    590,
+    590,
+    590,
+    590,
+    590,
+    590,
+    320
+   ],
+   "variantes": [
+    "vmc hygroréglable type a"
+   ]
+  },
+  {
+   "cle": "groupe vmc",
+   "expression": "groupe vmc",
+   "volume": 480,
+   "volume_min": 480,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.19,
+   "serie": [
+    260,
+    320,
+    390,
+    390,
+    390,
+    480,
+    590,
+    590,
+    480,
+    590,
+    590,
+    590
+   ],
+   "variantes": [
+    "groupe vmc"
+   ]
+  },
+  {
+   "cle": "individuelle vmc",
+   "expression": "vmc individuelle",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.45,
+   "serie": [
+    210,
+    260,
+    320,
+    320,
+    320,
+    390,
+    390,
+    390,
+    390,
+    480,
+    480,
+    480
+   ],
+   "variantes": [
+    "vmc individuelle",
+    "vmc individuel"
+   ]
+  },
+  {
+   "cle": "branchement flux simple vmc",
+   "expression": "branchement vmc simple flux",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.35,
+   "serie": [
+    260,
+    260,
+    320,
+    320,
+    390,
+    480,
+    590,
+    480,
+    480,
+    480,
+    390,
+    390
+   ],
+   "variantes": [
+    "branchement vmc simple flux",
+    "brancher une vmc simple flux"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "bruit helicoptere vmc",
+   "expression": "vmc bruit hélicoptère",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": null,
+   "serie": [
+    210,
+    260,
+    320,
+    390,
+    390,
+    480,
+    880,
+    590,
+    480,
+    390,
+    480,
+    390
+   ],
+   "variantes": [
+    "vmc bruit helicoptere",
+    "vmc bruit hélicoptère"
+   ]
+  },
+  {
+   "cle": "bouche hygroreglable pile vmc",
+   "expression": "bouche vmc hygroréglable à pile",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.22,
+   "serie": [
+    260,
+    260,
+    260,
+    260,
+    320,
+    390,
+    590,
+    480,
+    480,
+    590,
+    480,
+    390
+   ],
+   "variantes": [
+    "bouche vmc hygroréglable à pile"
+   ]
+  },
+  {
+   "cle": "gaine souple vmc",
+   "expression": "gaine souple vmc",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.25,
+   "serie": [
+    480,
+    590,
+    390,
+    320,
+    390,
+    480,
+    390,
+    320,
+    480,
+    390,
+    390,
+    260
+   ],
+   "variantes": [
+    "gaine souple vmc",
+    "gaine vmc souple",
+    "gaine souple pour vmc"
+   ]
+  },
+  {
+   "cle": "cablage vmc",
+   "expression": "câblage vmc",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": null,
+   "serie": [
+    210,
+    260,
+    320,
+    320,
+    320,
+    390,
+    390,
+    320,
+    480,
+    480,
+    480,
+    480
+   ],
+   "variantes": [
+    "câblage vmc",
+    "cablage vmc"
+   ]
+  },
+  {
+   "cle": "peche vmc",
+   "expression": "vmc pêche",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.08,
+   "serie": [
+    320,
+    390,
+    390,
+    480,
+    480,
+    390,
+    590,
+    390,
+    480,
+    480,
+    480,
+    320
+   ],
+   "variantes": [
+    "vmc peche",
+    "vmc pêche"
+   ]
+  },
+  {
+   "cle": "125 bouchon vmc",
+   "expression": "bouchon 125 vmc",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.19,
+   "serie": [
+    260,
+    260,
+    320,
+    320,
+    390,
+    390,
+    480,
+    390,
+    480,
+    390,
+    390,
+    320
+   ],
+   "variantes": [
+    "bouchon 125 vmc",
+    "bouchon vmc 125",
+    "bouchon pour vmc 125"
+   ]
+  },
+  {
+   "cle": "atlantic double filtre flux vmc",
+   "expression": "filtres vmc double flux atlantic",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 1.06,
+   "serie": [
+    260,
+    320,
+    320,
+    320,
+    320,
+    320,
+    480,
+    320,
+    480,
+    480,
+    390,
+    320
+   ],
+   "variantes": [
+    "filtre vmc double flux atlantic",
+    "filtres vmc double flux atlantic",
+    "filtre pour vmc double flux atlantic"
+   ]
+  },
+  {
+   "cle": "climatisation vmc",
+   "expression": "climatisation vmc",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 6,
+   "fusionne_par_google": true,
+   "cpc": 0.33,
+   "serie": [
+    880,
+    1600,
+    480,
+    140,
+    140,
+    110,
+    110,
+    110,
+    140,
+    140,
+    170,
+    320
+   ],
+   "variantes": [
+    "vmc climatisation",
+    "climatisation vmc",
+    "climatisation et vmc",
+    "climatisation sur vmc",
+    "clim vmc",
+    "clim et vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "chauffe eau thermodynamique vmc",
+   "expression": "chauffe-eau thermodynamique vmc",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 6,
+   "fusionne_par_google": true,
+   "cpc": 0.33,
+   "serie": [
+    210,
+    320,
+    320,
+    390,
+    390,
+    390,
+    590,
+    390,
+    480,
+    480,
+    480,
+    320
+   ],
+   "variantes": [
+    "chauffe-eau thermodynamique vmc",
+    "vmc chauffe eau thermodynamique",
+    "chauffe eau thermodynamique vmc",
+    "chauffe eau thermodynamique et vmc",
+    "chauffe eau thermodynamique sur vmc",
+    "chauffe-eau thermodynamique sur vmc"
+   ]
+  },
+  {
+   "cle": "double flux gaine vmc",
+   "expression": "gaine vmc double flux",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 5,
+   "fusionne_par_google": true,
+   "cpc": 0.75,
+   "serie": [
+    260,
+    260,
+    320,
+    260,
+    390,
+    480,
+    480,
+    390,
+    590,
+    480,
+    480,
+    390
+   ],
+   "variantes": [
+    "gain vmc double flux",
+    "gaine vmc double flux",
+    "vmc double flux gaine",
+    "gaine pour vmc double flux",
+    "gaines pour vmc double flux"
+   ]
+  },
+  {
+   "cle": "entretien locataire vmc",
+   "expression": "entretien vmc locataire",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.75,
+   "serie": [
+    260,
+    210,
+    170,
+    210,
+    390,
+    390,
+    480,
+    390,
+    480,
+    480,
+    480,
+    390
+   ],
+   "variantes": [
+    "vmc entretien locataire",
+    "entretien vmc locataire",
+    "entretien vmc : locataire"
+   ]
+  },
+  {
+   "cle": "mini vmc",
+   "expression": "mini vmc",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.22,
+   "serie": [
+    260,
+    320,
+    390,
+    320,
+    320,
+    390,
+    480,
+    480,
+    590,
+    590,
+    480,
+    390
+   ],
+   "variantes": [
+    "mini vmc"
+   ]
+  },
+  {
+   "cle": "pose qui vmc",
+   "expression": "qui pose vmc",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 1.19,
+   "serie": [
+    260,
+    260,
+    260,
+    320,
+    320,
+    390,
+    480,
+    390,
+    590,
+    480,
+    390,
+    320
+   ],
+   "variantes": [
+    "qui pose vmc",
+    "qui pose les vmc",
+    "qui pose une vmc",
+    "qui pose des vmc"
+   ]
+  },
+  {
+   "cle": "reparer vmc",
+   "expression": "réparation vmc",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 2.53,
+   "serie": [
+    260,
+    320,
+    260,
+    260,
+    480,
+    390,
+    590,
+    480,
+    590,
+    390,
+    720,
+    320
+   ],
+   "variantes": [
+    "reparer vmc",
+    "réparer vmc",
+    "réparation vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "double flux installation prix vmc",
+   "expression": "installation vmc double flux prix",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 5,
+   "fusionne_par_google": true,
+   "cpc": 1.75,
+   "serie": [
+    260,
+    320,
+    320,
+    320,
+    390,
+    390,
+    480,
+    480,
+    590,
+    480,
+    390,
+    390
+   ],
+   "variantes": [
+    "vmc double flux installation prix",
+    "prix installation vmc double flux",
+    "vmc double flux prix installation",
+    "installation vmc double flux prix",
+    "installation vmc double flux : prix"
+   ]
+  },
+  {
+   "cle": "bouchon vmc",
+   "expression": "bouchons vmc",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.2,
+   "serie": [
+    320,
+    260,
+    320,
+    320,
+    390,
+    390,
+    480,
+    480,
+    480,
+    480,
+    480,
+    320
+   ],
+   "variantes": [
+    "bouchon vmc",
+    "bouchons vmc",
+    "bouchon pour vmc"
+   ]
+  },
+  {
+   "cle": "castorama flux simple vmc",
+   "expression": "castorama vmc simple flux",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.07,
+   "serie": [
+    320,
+    320,
+    260,
+    320,
+    390,
+    480,
+    480,
+    320,
+    390,
+    390,
+    320,
+    210
+   ],
+   "variantes": [
+    "vmc castorama simple flux",
+    "castorama vmc simple flux",
+    "vmc simple flux castorama"
+   ]
+  },
+  {
+   "cle": "raccord vmc",
+   "expression": "raccordement vmc",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.29,
+   "serie": [
+    320,
+    320,
+    320,
+    390,
+    390,
+    480,
+    480,
+    480,
+    480,
+    480,
+    480,
+    390
+   ],
+   "variantes": [
+    "raccordement vmc",
+    "raccord vmc",
+    "raccords vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "flux nettoyer simple vmc",
+   "expression": "nettoyage vmc simple flux",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 1,
+   "serie": [
+    260,
+    260,
+    320,
+    320,
+    390,
+    480,
+    590,
+    590,
+    590,
+    480,
+    480,
+    390
+   ],
+   "variantes": [
+    "nettoyer vmc simple flux",
+    "nettoyer une vmc simple flux",
+    "nettoyage vmc simple flux"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "160 gaine vmc",
+   "expression": "gaine 160 vmc",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.49,
+   "serie": [
+    480,
+    480,
+    320,
+    390,
+    390,
+    390,
+    390,
+    390,
+    480,
+    390,
+    390,
+    260
+   ],
+   "variantes": [
+    "gaine vmc 160",
+    "gaine 160 vmc"
+   ]
+  },
+  {
+   "cle": "vmc weldom",
+   "expression": "vmc weldom",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.08,
+   "serie": [
+    260,
+    260,
+    320,
+    260,
+    320,
+    480,
+    480,
+    390,
+    590,
+    480,
+    320,
+    320
+   ],
+   "variantes": [
+    "vmc weldom",
+    "weldom vmc"
+   ]
+  },
+  {
+   "cle": "choisir quel vmc",
+   "expression": "quelle vmc choisir",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.16,
+   "serie": [
+    170,
+    260,
+    320,
+    260,
+    390,
+    390,
+    590,
+    480,
+    590,
+    480,
+    390,
+    320
+   ],
+   "variantes": [
+    "quel vmc choisir",
+    "quelle vmc choisir"
+   ]
+  },
+  {
+   "cle": "facade sortie vmc",
+   "expression": "sortie vmc façade",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 0.3,
+   "serie": [
+    320,
+    320,
+    320,
+    390,
+    390,
+    390,
+    480,
+    480,
+    480,
+    480,
+    390,
+    390
+   ],
+   "variantes": [
+    "sortie vmc façade",
+    "sortie vmc facade",
+    "vmc sortie en facade",
+    "sortie vmc en façade"
+   ]
+  },
+  {
+   "cle": "mecanique vmc",
+   "expression": "vmc mécanique",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.26,
+   "serie": [
+    320,
+    320,
+    320,
+    320,
+    320,
+    390,
+    480,
+    480,
+    480,
+    590,
+    390,
+    320
+   ],
+   "variantes": [
+    "vmc mecanique",
+    "vmc mécanique"
+   ]
+  },
+  {
+   "cle": "sortie toiture tuile vmc",
+   "expression": "sortie vmc toiture tuile",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.18,
+   "serie": [
+    320,
+    320,
+    320,
+    260,
+    390,
+    390,
+    480,
+    390,
+    480,
+    390,
+    390,
+    320
+   ],
+   "variantes": [
+    "tuile sortie vmc toiture",
+    "sortie vmc toiture tuile",
+    "sortie vmc en toiture tuile"
+   ]
+  },
+  {
+   "cle": "cave humide vmc",
+   "expression": "cave humide vmc",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.78,
+   "serie": [
+    480,
+    480,
+    390,
+    260,
+    260,
+    320,
+    390,
+    320,
+    480,
+    590,
+    590,
+    590
+   ],
+   "variantes": [
+    "cave humide vmc",
+    "vmc cave humide",
+    "vmc pour cave humide"
+   ]
+  },
+  {
+   "cle": "douille raccordement tuile vmc",
+   "expression": "raccordement vmc tuile à douille",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.15,
+   "serie": [
+    390,
+    390,
+    320,
+    390,
+    320,
+    480,
+    390,
+    480,
+    480,
+    590,
+    480,
+    480
+   ],
+   "variantes": [
+    "raccordement vmc tuile à douille",
+    "raccordement vmc sur tuile à douille"
+   ]
+  },
+  {
+   "cle": "branchement interrupteur vmc",
+   "expression": "branchement interrupteur vmc",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.24,
+   "serie": [
+    260,
+    260,
+    390,
+    260,
+    390,
+    390,
+    480,
+    480,
+    590,
+    480,
+    480,
+    390
+   ],
+   "variantes": [
+    "branchement interrupteur vmc",
+    "branchement vmc interrupteur",
+    "brancher une vmc sur un interrupteur"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "chapeau vmc",
+   "expression": "chapeau vmc",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.21,
+   "serie": [
+    320,
+    260,
+    320,
+    320,
+    390,
+    480,
+    480,
+    320,
+    480,
+    480,
+    390,
+    320
+   ],
+   "variantes": [
+    "chapeau vmc",
+    "chapeau pour vmc"
+   ]
+  },
+  {
+   "cle": "entretien flux simple vmc",
+   "expression": "entretenir vmc simple flux",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.81,
+   "serie": [
+    260,
+    210,
+    260,
+    210,
+    320,
+    390,
+    590,
+    390,
+    480,
+    390,
+    390,
+    260
+   ],
+   "variantes": [
+    "entretenir vmc simple flux",
+    "entretien vmc simple flux",
+    "vmc simple flux entretien"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "80 bouche vmc",
+   "expression": "bouche vmc 80",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.24,
+   "serie": [
+    320,
+    260,
+    320,
+    320,
+    320,
+    480,
+    480,
+    480,
+    480,
+    390,
+    320,
+    260
+   ],
+   "variantes": [
+    "bouche vmc 80"
+   ]
+  },
+  {
+   "cle": "double flux schema vmc",
+   "expression": "schéma vmc double flux",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.52,
+   "serie": [
+    210,
+    260,
+    260,
+    260,
+    390,
+    390,
+    480,
+    390,
+    590,
+    480,
+    390,
+    260
+   ],
+   "variantes": [
+    "schéma vmc double flux",
+    "schema vmc double flux",
+    "vmc double flux schéma"
+   ]
+  },
+  {
+   "cle": "flux schema simple vmc",
+   "expression": "schéma vmc simple flux",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": null,
+   "serie": [
+    260,
+    260,
+    260,
+    260,
+    390,
+    480,
+    480,
+    480,
+    480,
+    480,
+    390,
+    320
+   ],
+   "variantes": [
+    "vmc simple flux schéma",
+    "schéma vmc simple flux"
+   ]
+  },
+  {
+   "cle": "bruyante collectif immeuble vmc",
+   "expression": "vmc bruyante immeuble collectif",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 3.06,
+   "serie": [
+    170,
+    260,
+    480,
+    480,
+    480,
+    390,
+    390,
+    390,
+    480,
+    480,
+    480,
+    480
+   ],
+   "variantes": [
+    "vmc bruyante immeuble collectif"
+   ]
+  },
+  {
+   "cle": "petite vmc",
+   "expression": "petite vmc",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.23,
+   "serie": [
+    260,
+    320,
+    390,
+    320,
+    390,
+    390,
+    390,
+    390,
+    590,
+    480,
+    390,
+    390
+   ],
+   "variantes": [
+    "petite vmc"
+   ]
+  },
+  {
+   "cle": "125 bouche vmc",
+   "expression": "bouche vmc 125",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.42,
+   "serie": [
+    320,
+    320,
+    320,
+    390,
+    390,
+    390,
+    480,
+    390,
+    590,
+    480,
+    390,
+    320
+   ],
+   "variantes": [
+    "bouche vmc 125"
+   ]
+  },
+  {
+   "cle": "flux moteur simple vmc",
+   "expression": "moteur vmc simple flux",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.2,
+   "serie": [
+    480,
+    480,
+    480,
+    480,
+    590,
+    480,
+    590,
+    390,
+    260,
+    260,
+    210,
+    210
+   ],
+   "variantes": [
+    "moteur vmc simple flux"
+   ]
+  },
+  {
+   "cle": "condensateur vmc",
+   "expression": "condensateur vmc",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.23,
+   "serie": [
+    390,
+    320,
+    390,
+    320,
+    390,
+    480,
+    480,
+    590,
+    590,
+    390,
+    390,
+    390
+   ],
+   "variantes": [
+    "condensateur vmc",
+    "condensateur pour vmc"
+   ]
+  },
+  {
+   "cle": "insufflation vmc",
+   "expression": "vmc insufflation",
+   "volume": 390,
+   "volume_min": 210,
+   "formulations": 2,
+   "fusionne_par_google": false,
+   "cpc": 0.78,
+   "serie": [
+    260,
+    390,
+    320,
+    390,
+    390,
+    320,
+    390,
+    320,
+    480,
+    480,
+    590,
+    390
+   ],
+   "variantes": [
+    "vmc insufflation",
+    "vmc par insufflation"
+   ]
+  },
+  {
+   "cle": "agalina sauter vmc",
+   "expression": "vmc sauter agalina",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.19,
+   "serie": [
+    210,
+    210,
+    390,
+    320,
+    320,
+    480,
+    590,
+    480,
+    590,
+    480,
+    390,
+    260
+   ],
+   "variantes": [
+    "vmc sauter agalina"
+   ]
+  },
+  {
+   "cle": "danger panne vmc",
+   "expression": "vmc en panne danger",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.02,
+   "serie": [
+    320,
+    390,
+    320,
+    260,
+    480,
+    480,
+    590,
+    590,
+    590,
+    480,
+    390,
+    390
+   ],
+   "variantes": [
+    "vmc en panne danger",
+    "vmc en panne : danger"
+   ]
+  },
+  {
+   "cle": "garage vmc",
+   "expression": "vmc garage",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.23,
+   "serie": [
+    260,
+    260,
+    210,
+    260,
+    320,
+    480,
+    480,
+    480,
+    480,
+    390,
+    390,
+    390
+   ],
+   "variantes": [
+    "vmc garage",
+    "vmc dans garage",
+    "vmc pour garage"
+   ]
+  },
+  {
+   "cle": "bruyante eteindre vmc",
+   "expression": "éteindre vmc bruyante",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    320,
+    320,
+    320,
+    320,
+    390,
+    390,
+    480,
+    480,
+    480,
+    480,
+    480,
+    390
+   ],
+   "variantes": [
+    "éteindre vmc bruyante"
+   ]
+  },
+  {
+   "cle": "compacte vmc",
+   "expression": "vmc compacte",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.33,
+   "serie": [
+    260,
+    260,
+    320,
+    320,
+    390,
+    390,
+    480,
+    390,
+    390,
+    390,
+    480,
+    320
+   ],
+   "variantes": [
+    "vmc compacte",
+    "vmc compact"
+   ]
+  },
+  {
+   "cle": "renson vmc",
+   "expression": "vmc renson",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.81,
+   "serie": [
+    210,
+    260,
+    320,
+    320,
+    480,
+    590,
+    590,
+    390,
+    480,
+    480,
+    480,
+    390
+   ],
+   "variantes": [
+    "vmc renson"
+   ]
+  },
+  {
+   "cle": "hygroreglable leroy merlin vmc",
+   "expression": "vmc hygrométrique leroy merlin",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.08,
+   "serie": [
+    210,
+    260,
+    320,
+    320,
+    390,
+    480,
+    480,
+    390,
+    590,
+    590,
+    390,
+    320
+   ],
+   "variantes": [
+    "vmc hygroréglable leroy merlin",
+    "vmc hygrométrique leroy merlin"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "caisson flux simple vmc",
+   "expression": "caisson vmc simple flux",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.41,
+   "serie": [
+    260,
+    320,
+    320,
+    260,
+    320,
+    390,
+    390,
+    480,
+    390,
+    390,
+    480,
+    590
+   ],
+   "variantes": [
+    "caisson vmc simple flux"
+   ]
+  },
+  {
+   "cle": "bruyante danger vmc",
+   "expression": "vmc bruyante danger",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    260,
+    260,
+    320,
+    320,
+    320,
+    390,
+    480,
+    480,
+    590,
+    480,
+    480,
+    480
+   ],
+   "variantes": [
+    "vmc bruyante danger"
+   ]
+  },
+  {
+   "cle": "atlantic hygrogeniu vmc",
+   "expression": "vmc atlantic hygrogenius",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.66,
+   "serie": [
+    260,
+    260,
+    320,
+    320,
+    390,
+    390,
+    480,
+    390,
+    480,
+    480,
+    320,
+    210
+   ],
+   "variantes": [
+    "vmc atlantic hygrogenius"
+   ]
+  },
+  {
+   "cle": "bain fil salle sans vmc",
+   "expression": "vmc salle de bain sans fil",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.17,
+   "serie": [
+    260,
+    260,
+    320,
+    260,
+    320,
+    320,
+    390,
+    390,
+    720,
+    720,
+    480,
+    390
+   ],
+   "variantes": [
+    "vmc salle de bain sans fil"
+   ]
+  },
+  {
+   "cle": "ancienne installation maison prix vmc",
+   "expression": "prix installation vmc maison ancienne",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 2.94,
+   "serie": [
+    260,
+    260,
+    320,
+    390,
+    390,
+    390,
+    480,
+    390,
+    480,
+    480,
+    390,
+    390
+   ],
+   "variantes": [
+    "prix installation vmc maison ancienne"
+   ]
+  },
+  {
+   "cle": "raccorder vmc",
+   "expression": "raccorder une vmc",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.23,
+   "serie": [
+    320,
+    320,
+    320,
+    320,
+    390,
+    390,
+    480,
+    480,
+    480,
+    480,
+    480,
+    480
+   ],
+   "variantes": [
+    "raccorder une vmc"
+   ]
+  },
+  {
+   "cle": "collectif immeuble vmc",
+   "expression": "vmc immeuble collectif",
+   "volume": 390,
+   "volume_min": 320,
+   "formulations": 2,
+   "fusionne_par_google": false,
+   "cpc": 1.58,
+   "serie": [
+    260,
+    260,
+    390,
+    320,
+    320,
+    320,
+    390,
+    390,
+    480,
+    480,
+    320,
+    320
+   ],
+   "variantes": [
+    "vmc immeuble collectif",
+    "vmc pour immeuble collectif"
+   ]
+  },
+  {
+   "cle": "flux kit simple vmc",
+   "expression": "kit vmc simple flux",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.24,
+   "serie": [
+    260,
+    260,
+    260,
+    320,
+    390,
+    480,
+    480,
+    390,
+    590,
+    390,
+    590,
+    320
+   ],
+   "variantes": [
+    "kit vmc simple flux"
+   ]
+  },
+  {
+   "cle": "double flux kit vmc",
+   "expression": "kit vmc double flux",
+   "volume": 390,
+   "volume_min": 390,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.75,
+   "serie": [
+    320,
+    260,
+    260,
+    320,
+    390,
+    390,
+    590,
+    390,
+    590,
+    480,
+    480,
+    320
+   ],
+   "variantes": [
+    "kit vmc double flux"
+   ]
+  },
+  {
+   "cle": "gaine isolation vmc",
+   "expression": "isolation gaine vmc",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 6,
+   "fusionne_par_google": true,
+   "cpc": 0.28,
+   "serie": [
+    260,
+    260,
+    210,
+    170,
+    210,
+    320,
+    720,
+    480,
+    480,
+    320,
+    260,
+    170
+   ],
+   "variantes": [
+    "isolant gaine vmc",
+    "isolant pour gaine vmc",
+    "isolation gaine vmc",
+    "isolation pour gaine vmc",
+    "gaine vmc dans isolation",
+    "isoler gaine vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "bain bouche placer salle vmc",
+   "expression": "ou placer bouche vmc salle de bain",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.15,
+   "serie": [
+    210,
+    170,
+    320,
+    210,
+    390,
+    320,
+    480,
+    390,
+    480,
+    260,
+    210,
+    210
+   ],
+   "variantes": [
+    "ou placer bouche vmc salle de bain"
+   ]
+  },
+  {
+   "cle": "bricodepot vmc",
+   "expression": "bricodepot vmc",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.08,
+   "serie": [
+    210,
+    210,
+    260,
+    260,
+    260,
+    320,
+    390,
+    320,
+    480,
+    320,
+    320,
+    320
+   ],
+   "variantes": [
+    "bricodepot vmc"
+   ]
+  },
+  {
+   "cle": "hygroreglable prix vmc",
+   "expression": "prix vmc hygroréglable",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 7,
+   "fusionne_par_google": true,
+   "cpc": 0.48,
+   "serie": [
+    210,
+    260,
+    260,
+    260,
+    390,
+    320,
+    390,
+    320,
+    480,
+    480,
+    480,
+    210
+   ],
+   "variantes": [
+    "prix vmc hygroréglable",
+    "vmc hygroréglable prix",
+    "vmc hygroreglable prix",
+    "prix vmc hygroreglable",
+    "prix d'une vmc hygroréglable",
+    "prix vmc hygro"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "automatique vmc",
+   "expression": "vmc automatique",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.23,
+   "serie": [
+    210,
+    260,
+    320,
+    320,
+    260,
+    320,
+    320,
+    320,
+    320,
+    320,
+    210,
+    170
+   ],
+   "variantes": [
+    "vmc automatique"
+   ]
+  },
+  {
+   "cle": "double flux renovation vmc",
+   "expression": "vmc double flux rénovation",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 0.81,
+   "serie": [
+    170,
+    260,
+    260,
+    210,
+    260,
+    390,
+    390,
+    320,
+    480,
+    390,
+    480,
+    260
+   ],
+   "variantes": [
+    "vmc double flux rénovation",
+    "vmc double flux renovation",
+    "vmc double flux en rénovation",
+    "vmc double flux en renovation"
+   ]
+  },
+  {
+   "cle": "flux fonctionnement simple vmc",
+   "expression": "fonctionnement vmc simple flux",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.19,
+   "serie": [
+    260,
+    260,
+    260,
+    210,
+    320,
+    320,
+    390,
+    320,
+    390,
+    320,
+    390,
+    260
+   ],
+   "variantes": [
+    "vmc simple flux fonctionnement",
+    "fonctionnement vmc simple flux",
+    "vmc simple flux : fonctionnement"
+   ]
+  },
+  {
+   "cle": "diametre gaine vmc",
+   "expression": "diamètre gaine vmc",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.39,
+   "serie": [
+    260,
+    320,
+    260,
+    320,
+    390,
+    320,
+    390,
+    320,
+    390,
+    390,
+    390,
+    260
+   ],
+   "variantes": [
+    "diametre gaine vmc",
+    "diamètre gaine vmc",
+    "gaine vmc diametre"
+   ]
+  },
+  {
+   "cle": "b hygroreglable vmc",
+   "expression": "vmc hygroréglable a ou b",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.16,
+   "serie": [
+    140,
+    210,
+    210,
+    210,
+    260,
+    320,
+    320,
+    390,
+    320,
+    480,
+    390,
+    480
+   ],
+   "variantes": [
+    "vmc hygroréglable a ou b",
+    "vmc hygroreglable a ou b"
+   ]
+  },
+  {
+   "cle": "bouche leroy merlin vmc",
+   "expression": "bouches vmc leroy merlin",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.05,
+   "serie": [
+    260,
+    210,
+    260,
+    320,
+    320,
+    320,
+    320,
+    260,
+    390,
+    390,
+    260,
+    260
+   ],
+   "variantes": [
+    "leroy merlin bouche vmc",
+    "bouche vmc leroy merlin",
+    "bouches vmc leroy merlin"
+   ]
+  },
+  {
+   "cle": "bouche reglable vmc",
+   "expression": "bouche vmc réglable",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.26,
+   "serie": [
+    170,
+    170,
+    210,
+    260,
+    320,
+    320,
+    480,
+    390,
+    480,
+    480,
+    320,
+    210
+   ],
+   "variantes": [
+    "bouche vmc réglable",
+    "vmc bouche reglable",
+    "bouche vmc reglable"
+   ]
+  },
+  {
+   "cle": "plat tuyau vmc",
+   "expression": "tuyaux plat vmc",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 6,
+   "fusionne_par_google": true,
+   "cpc": 0.43,
+   "serie": [
+    320,
+    320,
+    320,
+    260,
+    320,
+    320,
+    390,
+    320,
+    390,
+    320,
+    320,
+    320
+   ],
+   "variantes": [
+    "tuyau vmc plat",
+    "vmc tuyau plat",
+    "tuyau plat vmc",
+    "tuyaux plat vmc",
+    "tuyaux vmc plat",
+    "tuyau plat pour vmc"
+   ]
+  },
+  {
+   "cle": "chere pas vmc",
+   "expression": "vmc pas chere",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.25,
+   "serie": [
+    210,
+    320,
+    210,
+    260,
+    260,
+    320,
+    390,
+    260,
+    390,
+    320,
+    320,
+    260
+   ],
+   "variantes": [
+    "vmc pas chere",
+    "vmc pas cher"
+   ]
+  },
+  {
+   "cle": "collectif vmc",
+   "expression": "vmc collectif",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.85,
+   "serie": [
+    210,
+    210,
+    320,
+    260,
+    320,
+    320,
+    390,
+    390,
+    320,
+    390,
+    480,
+    260
+   ],
+   "variantes": [
+    "vmc collectif"
+   ]
+  },
+  {
+   "cle": "diametre vmc",
+   "expression": "diamètre vmc",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.45,
+   "serie": [
+    260,
+    260,
+    320,
+    260,
+    260,
+    320,
+    390,
+    320,
+    320,
+    390,
+    320,
+    260
+   ],
+   "variantes": [
+    "diamètre vmc"
+   ]
+  },
+  {
+   "cle": "maison sans ventiler vmc",
+   "expression": "ventilation maison sans vmc",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.68,
+   "serie": [
+    260,
+    320,
+    260,
+    170,
+    260,
+    320,
+    320,
+    320,
+    390,
+    390,
+    390,
+    260
+   ],
+   "variantes": [
+    "ventilation maison sans vmc",
+    "ventiler maison sans vmc",
+    "ventiler une maison sans vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "toit vmc",
+   "expression": "vmc toit",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.29,
+   "serie": [
+    210,
+    320,
+    320,
+    260,
+    260,
+    260,
+    390,
+    390,
+    320,
+    390,
+    320,
+    260
+   ],
+   "variantes": [
+    "vmc toit"
+   ]
+  },
+  {
+   "cle": "anneau anti bruit vmc",
+   "expression": "anneaux anti bruit vmc",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.21,
+   "serie": [
+    90,
+    140,
+    210,
+    260,
+    320,
+    260,
+    320,
+    320,
+    480,
+    480,
+    480,
+    260
+   ],
+   "variantes": [
+    "anneau anti bruit vmc",
+    "anneaux anti bruit vmc"
+   ]
+  },
+  {
+   "cle": "b flux hygroreglable simple type vmc",
+   "expression": "vmc simple flux hygroréglable type b",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.45,
+   "serie": [
+    260,
+    320,
+    320,
+    260,
+    320,
+    390,
+    390,
+    390,
+    390,
+    390,
+    390,
+    210
+   ],
+   "variantes": [
+    "vmc simple flux hygroréglable type b"
+   ]
+  },
+  {
+   "cle": "hygroreglable meilleur vmc",
+   "expression": "meilleure vmc hygroréglable",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.45,
+   "serie": [
+    110,
+    320,
+    140,
+    170,
+    210,
+    320,
+    320,
+    320,
+    480,
+    390,
+    590,
+    260
+   ],
+   "variantes": [
+    "meilleur vmc hygroréglable",
+    "meilleure vmc hygroréglable",
+    "meilleur vmc hygro"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "panne vmc",
+   "expression": "panne vmc",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 2.24,
+   "serie": [
+    210,
+    210,
+    260,
+    210,
+    260,
+    320,
+    390,
+    390,
+    480,
+    390,
+    480,
+    260
+   ],
+   "variantes": [
+    "vmc panne",
+    "panne vmc",
+    "vmc en panne"
+   ]
+  },
+  {
+   "cle": "2 vitesse vmc",
+   "expression": "vmc 2 vitesses",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.24,
+   "serie": [
+    210,
+    210,
+    260,
+    210,
+    320,
+    320,
+    480,
+    320,
+    480,
+    320,
+    320,
+    260
+   ],
+   "variantes": [
+    "vmc 2 vitesse",
+    "vmc 2 vitesses"
+   ]
+  },
+  {
+   "cle": "appartement installer vmc",
+   "expression": "installation vmc appartement",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 5,
+   "fusionne_par_google": true,
+   "cpc": 1.23,
+   "serie": [
+    170,
+    210,
+    210,
+    210,
+    320,
+    390,
+    390,
+    390,
+    390,
+    320,
+    320,
+    260
+   ],
+   "variantes": [
+    "installer vmc appartement",
+    "installer une vmc appartement",
+    "installer une vmc en appartement",
+    "installer une vmc dans un appartement",
+    "installation vmc appartement"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "grille ronde vmc",
+   "expression": "grille vmc ronde",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.21,
+   "serie": [
+    260,
+    260,
+    260,
+    260,
+    320,
+    320,
+    390,
+    210,
+    320,
+    320,
+    260,
+    260
+   ],
+   "variantes": [
+    "grille vmc ronde"
+   ]
+  },
+  {
+   "cle": "125 gaine plate vmc",
+   "expression": "gaine plate vmc 125",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.58,
+   "serie": [
+    210,
+    260,
+    320,
+    260,
+    390,
+    390,
+    320,
+    260,
+    320,
+    390,
+    320,
+    260
+   ],
+   "variantes": [
+    "gaine plate vmc 125",
+    "gaine vmc plate 125"
+   ]
+  },
+  {
+   "cle": "vmc vortice",
+   "expression": "vmc vortice",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.35,
+   "serie": [
+    210,
+    320,
+    260,
+    260,
+    320,
+    320,
+    390,
+    320,
+    390,
+    320,
+    320,
+    320
+   ],
+   "variantes": [
+    "vmc vortice",
+    "vortice vmc"
+   ]
+  },
+  {
+   "cle": "entretien prix vmc",
+   "expression": "réparation vmc prix",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 1.34,
+   "serie": [
+    170,
+    210,
+    260,
+    210,
+    390,
+    390,
+    390,
+    260,
+    320,
+    320,
+    390,
+    260
+   ],
+   "variantes": [
+    "prix entretien vmc",
+    "entretien vmc prix",
+    "reparation vmc prix",
+    "réparation vmc prix"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "atlantic eoli vmc",
+   "expression": "atlantic vmc eolix",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.27,
+   "serie": [
+    210,
+    260,
+    320,
+    320,
+    390,
+    390,
+    480,
+    390,
+    390,
+    390,
+    320,
+    210
+   ],
+   "variantes": [
+    "vmc atlantic eolix",
+    "atlantic vmc eolix"
+   ]
+  },
+  {
+   "cle": "branchement electrique vmc",
+   "expression": "branchement électrique vmc",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": null,
+   "serie": [
+    170,
+    210,
+    210,
+    260,
+    320,
+    320,
+    390,
+    390,
+    480,
+    480,
+    320,
+    320
+   ],
+   "variantes": [
+    "vmc branchement électrique",
+    "branchement vmc electrique",
+    "branchement electrique vmc",
+    "branchement électrique vmc"
+   ]
+  },
+  {
+   "cle": "3 interrupteur position vmc",
+   "expression": "interrupteur 3 positions vmc",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.42,
+   "serie": [
+    140,
+    170,
+    260,
+    170,
+    480,
+    590,
+    320,
+    260,
+    320,
+    260,
+    320,
+    260
+   ],
+   "variantes": [
+    "interrupteur vmc 3 positions",
+    "interrupteur 3 positions vmc"
+   ]
+  },
+  {
+   "cle": "exterieur vmc",
+   "expression": "vmc extérieure",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.48,
+   "serie": [
+    210,
+    260,
+    320,
+    260,
+    320,
+    320,
+    390,
+    390,
+    390,
+    480,
+    390,
+    320
+   ],
+   "variantes": [
+    "vmc extérieure",
+    "vmc exterieur",
+    "vmc extérieur"
+   ]
+  },
+  {
+   "cle": "comble vmc",
+   "expression": "vmc combles",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.19,
+   "serie": [
+    260,
+    320,
+    260,
+    260,
+    320,
+    320,
+    480,
+    390,
+    480,
+    320,
+    260,
+    260
+   ],
+   "variantes": [
+    "vmc comble",
+    "vmc combles",
+    "vmc dans les combles"
+   ]
+  },
+  {
+   "cle": "qui siffle vmc",
+   "expression": "sifflement vmc",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.02,
+   "serie": [
+    170,
+    170,
+    210,
+    210,
+    260,
+    260,
+    390,
+    390,
+    390,
+    320,
+    320,
+    320
+   ],
+   "variantes": [
+    "vmc qui siffle",
+    "sifflement vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "nather vmc",
+   "expression": "nather vmc",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.52,
+   "serie": [
+    260,
+    260,
+    320,
+    260,
+    320,
+    390,
+    390,
+    320,
+    390,
+    390,
+    320,
+    260
+   ],
+   "variantes": [
+    "vmc nather",
+    "nather vmc"
+   ]
+  },
+  {
+   "cle": "location obligatoire vmc",
+   "expression": "vmc obligatoire location",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    140,
+    260,
+    320,
+    260,
+    140,
+    210,
+    320,
+    480,
+    480,
+    390,
+    480,
+    320
+   ],
+   "variantes": [
+    "vmc obligatoire location"
+   ]
+  },
+  {
+   "cle": "humidite vmc",
+   "expression": "humidité vmc",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 5,
+   "fusionne_par_google": true,
+   "cpc": 0.48,
+   "serie": [
+    110,
+    170,
+    170,
+    170,
+    320,
+    320,
+    480,
+    480,
+    590,
+    390,
+    320,
+    260
+   ],
+   "variantes": [
+    "vmc humidité",
+    "humidité vmc",
+    "humidite vmc",
+    "vmc et humidité",
+    "humidité et vmc"
+   ]
+  },
+  {
+   "cle": "entreprise vmc",
+   "expression": "entreprise vmc",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 3.95,
+   "serie": [
+    170,
+    170,
+    260,
+    260,
+    480,
+    390,
+    320,
+    260,
+    320,
+    320,
+    390,
+    210
+   ],
+   "variantes": [
+    "entreprise vmc"
+   ]
+  },
+  {
+   "cle": "2 flux simple vitesse vmc",
+   "expression": "vmc simple flux 2 vitesses",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.21,
+   "serie": [
+    210,
+    260,
+    260,
+    260,
+    260,
+    320,
+    480,
+    320,
+    480,
+    320,
+    390,
+    210
+   ],
+   "variantes": [
+    "vmc simple flux 2 vitesses"
+   ]
+  },
+  {
+   "cle": "automatique bain salle vmc",
+   "expression": "vmc automatique salle de bain",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.25,
+   "serie": [
+    170,
+    210,
+    260,
+    320,
+    320,
+    320,
+    390,
+    260,
+    320,
+    390,
+    320,
+    260
+   ],
+   "variantes": [
+    "vmc automatique salle de bain",
+    "vmc salle de bain automatique"
+   ]
+  },
+  {
+   "cle": "grille rectangulaire vmc",
+   "expression": "grille vmc rectangulaire",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.2,
+   "serie": [
+    260,
+    210,
+    260,
+    260,
+    320,
+    320,
+    320,
+    320,
+    390,
+    390,
+    260,
+    260
+   ],
+   "variantes": [
+    "grille vmc rectangulaire"
+   ]
+  },
+  {
+   "cle": "double flux sauter vmc",
+   "expression": "sauter vmc double flux",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.26,
+   "serie": [
+    170,
+    210,
+    260,
+    210,
+    260,
+    260,
+    480,
+    320,
+    480,
+    390,
+    320,
+    260
+   ],
+   "variantes": [
+    "sauter vmc double flux",
+    "vmc sauter double flux",
+    "vmc double flux sauter"
+   ]
+  },
+  {
+   "cle": "pose prix vmc",
+   "expression": "pose vmc prix",
+   "volume": 320,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": false,
+   "cpc": 1.8,
+   "serie": [
+    140,
+    210,
+    210,
+    210,
+    320,
+    320,
+    320,
+    320,
+    480,
+    320,
+    390,
+    260
+   ],
+   "variantes": [
+    "prix pose vmc",
+    "pose vmc prix"
+   ]
+  },
+  {
+   "cle": "double entretien flux vmc",
+   "expression": "entretien vmc double flux",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 2.49,
+   "serie": [
+    260,
+    320,
+    260,
+    260,
+    320,
+    390,
+    480,
+    390,
+    480,
+    390,
+    390,
+    260
+   ],
+   "variantes": [
+    "entretien vmc double flux",
+    "vmc double flux entretien"
+   ]
+  },
+  {
+   "cle": "double flux principe vmc",
+   "expression": "principe vmc double flux",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.2,
+   "serie": [
+    260,
+    320,
+    210,
+    210,
+    260,
+    320,
+    390,
+    390,
+    480,
+    390,
+    480,
+    320
+   ],
+   "variantes": [
+    "principe vmc double flux",
+    "vmc double flux principe",
+    "vmc double flux : principe"
+   ]
+  },
+  {
+   "cle": "atlantic flux hygroreglable simple vmc",
+   "expression": "vmc atlantic simple flux hygroréglable",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.63,
+   "serie": [
+    170,
+    260,
+    260,
+    320,
+    320,
+    320,
+    390,
+    320,
+    390,
+    390,
+    260,
+    210
+   ],
+   "variantes": [
+    "vmc simple flux hygroréglable atlantic",
+    "vmc atlantic simple flux hygroréglable",
+    "vmc hygroréglable simple flux atlantic"
+   ]
+  },
+  {
+   "cle": "toiture vmc",
+   "expression": "toiture vmc",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.39,
+   "serie": [
+    260,
+    320,
+    260,
+    260,
+    260,
+    390,
+    390,
+    320,
+    390,
+    320,
+    260,
+    260
+   ],
+   "variantes": [
+    "vmc toiture",
+    "toiture vmc"
+   ]
+  },
+  {
+   "cle": "plafond vmc",
+   "expression": "vmc plafond",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.39,
+   "serie": [
+    320,
+    260,
+    260,
+    260,
+    320,
+    320,
+    390,
+    320,
+    390,
+    390,
+    320,
+    260
+   ],
+   "variantes": [
+    "vmc plafond"
+   ]
+  },
+  {
+   "cle": "bouche plafond vmc",
+   "expression": "bouche vmc plafond",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.17,
+   "serie": [
+    480,
+    320,
+    320,
+    210,
+    260,
+    320,
+    320,
+    210,
+    320,
+    320,
+    390,
+    260
+   ],
+   "variantes": [
+    "bouche vmc plafond"
+   ]
+  },
+  {
+   "cle": "isole tuyau vmc",
+   "expression": "tuyaux vmc isolés",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.21,
+   "serie": [
+    260,
+    480,
+    320,
+    170,
+    320,
+    320,
+    590,
+    390,
+    480,
+    260,
+    260,
+    260
+   ],
+   "variantes": [
+    "tuyau vmc isolé",
+    "tuyaux vmc isolés"
+   ]
+  },
+  {
+   "cle": "disjoncteur quel vmc",
+   "expression": "quelle disjoncteur pour vmc",
+   "volume": 320,
+   "volume_min": 260,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 0.48,
+   "serie": [
+    210,
+    210,
+    260,
+    260,
+    320,
+    320,
+    390,
+    390,
+    480,
+    390,
+    390,
+    390
+   ],
+   "variantes": [
+    "quel disjoncteur pour vmc",
+    "quel disjoncteur pour une vmc",
+    "quelle disjoncteur pour vmc",
+    "quelle disjoncteur pour une vmc"
+   ]
+  },
+  {
+   "cle": "connectee vmc",
+   "expression": "vmc connectée",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.46,
+   "serie": [
+    210,
+    210,
+    260,
+    210,
+    320,
+    320,
+    480,
+    390,
+    390,
+    480,
+    390,
+    260
+   ],
+   "variantes": [
+    "vmc connectée",
+    "vmc connecté"
+   ]
+  },
+  {
+   "cle": "alde ancienne bouche vmc",
+   "expression": "ancienne bouche vmc aldes",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.11,
+   "serie": [
+    210,
+    210,
+    260,
+    260,
+    320,
+    260,
+    320,
+    320,
+    390,
+    390,
+    390,
+    320
+   ],
+   "variantes": [
+    "ancienne bouche vmc aldes"
+   ]
+  },
+  {
+   "cle": "atlantic b hygro vmc",
+   "expression": "vmc hygro b atlantic",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.5,
+   "serie": [
+    210,
+    210,
+    210,
+    210,
+    320,
+    390,
+    390,
+    320,
+    480,
+    480,
+    480,
+    260
+   ],
+   "variantes": [
+    "vmc hygro b atlantic"
+   ]
+  },
+  {
+   "cle": "prana vmc",
+   "expression": "prana #vmc",
+   "volume": 320,
+   "volume_min": 260,
+   "formulations": 3,
+   "fusionne_par_google": false,
+   "cpc": 0.32,
+   "serie": [
+    210,
+    260,
+    260,
+    260,
+    260,
+    260,
+    320,
+    320,
+    480,
+    390,
+    320,
+    210
+   ],
+   "variantes": [
+    "prana vmc",
+    "vmc prana",
+    "prana #vmc"
+   ]
+  },
+  {
+   "cle": "bois vmc",
+   "expression": "vmc bois",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    320,
+    320,
+    260,
+    390,
+    480,
+    480,
+    390,
+    320,
+    390,
+    320,
+    320,
+    260
+   ],
+   "variantes": [
+    "vmc bois"
+   ]
+  },
+  {
+   "cle": "simple vmc",
+   "expression": "vmc simple",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.25,
+   "serie": [
+    260,
+    320,
+    260,
+    320,
+    320,
+    320,
+    480,
+    320,
+    480,
+    390,
+    480,
+    260
+   ],
+   "variantes": [
+    "vmc simple"
+   ]
+  },
+  {
+   "cle": "flux meilleure simple vmc",
+   "expression": "meilleure vmc simple flux",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.25,
+   "serie": [
+    210,
+    260,
+    210,
+    210,
+    320,
+    260,
+    390,
+    320,
+    480,
+    320,
+    320,
+    210
+   ],
+   "variantes": [
+    "meilleure vmc simple flux",
+    "meilleur vmc simple flux"
+   ]
+  },
+  {
+   "cle": "brico depot double flux vmc",
+   "expression": "vmc double flux brico dépôt",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.19,
+   "serie": [
+    210,
+    210,
+    210,
+    260,
+    210,
+    320,
+    320,
+    590,
+    390,
+    480,
+    480,
+    390
+   ],
+   "variantes": [
+    "vmc double flux brico dépôt",
+    "vmc double flux brico depot",
+    "brico depot vmc double flux"
+   ]
+  },
+  {
+   "cle": "bain bouche extraction salle vmc",
+   "expression": "bouche extraction vmc salle de bain",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.15,
+   "serie": [
+    210,
+    210,
+    260,
+    260,
+    320,
+    320,
+    480,
+    320,
+    590,
+    480,
+    320,
+    320
+   ],
+   "variantes": [
+    "bouche extraction vmc salle de bain"
+   ]
+  },
+  {
+   "cle": "collective vmc",
+   "expression": "vmc collective",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.91,
+   "serie": [
+    210,
+    210,
+    210,
+    320,
+    260,
+    320,
+    320,
+    390,
+    390,
+    320,
+    390,
+    480
+   ],
+   "variantes": [
+    "vmc collective"
+   ]
+  },
+  {
+   "cle": "naturelle sans ventilation vmc",
+   "expression": "ventilation naturelle sans vmc",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.33,
+   "serie": [
+    210,
+    390,
+    260,
+    170,
+    170,
+    210,
+    260,
+    260,
+    320,
+    390,
+    480,
+    480
+   ],
+   "variantes": [
+    "ventilation naturelle sans vmc"
+   ]
+  },
+  {
+   "cle": "bricodepot double flux vmc",
+   "expression": "vmc double flux bricodepot",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.26,
+   "serie": [
+    210,
+    210,
+    260,
+    210,
+    320,
+    320,
+    590,
+    390,
+    480,
+    480,
+    390,
+    320
+   ],
+   "variantes": [
+    "vmc double flux bricodepot"
+   ]
+  },
+  {
+   "cle": "conduit nettoyage vmc",
+   "expression": "nettoyage conduit vmc",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.9,
+   "serie": [
+    170,
+    260,
+    260,
+    210,
+    320,
+    320,
+    390,
+    390,
+    390,
+    390,
+    320,
+    320
+   ],
+   "variantes": [
+    "nettoyage conduit vmc",
+    "nettoyer conduit vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "autonome vmc",
+   "expression": "vmc autonome",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.22,
+   "serie": [
+    210,
+    260,
+    210,
+    260,
+    320,
+    320,
+    390,
+    320,
+    390,
+    390,
+    480,
+    320
+   ],
+   "variantes": [
+    "vmc autonome"
+   ]
+  },
+  {
+   "cle": "bruit fait vmc",
+   "expression": "vmc fait du bruit",
+   "volume": 320,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    140,
+    210,
+    260,
+    260,
+    320,
+    320,
+    480,
+    390,
+    480,
+    390,
+    390,
+    320
+   ],
+   "variantes": [
+    "vmc fait du bruit",
+    "ma vmc fait du bruit"
+   ]
+  },
+  {
+   "cle": "octeo vmc",
+   "expression": "vmc octeo",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.88,
+   "serie": [
+    210,
+    210,
+    260,
+    260,
+    260,
+    320,
+    390,
+    390,
+    480,
+    390,
+    390,
+    210
+   ],
+   "variantes": [
+    "vmc octeo"
+   ]
+  },
+  {
+   "cle": "4 branchement fil vmc",
+   "expression": "branchement vmc 4 fils",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    110,
+    140,
+    210,
+    210,
+    210,
+    260,
+    320,
+    320,
+    480,
+    480,
+    480,
+    390
+   ],
+   "variantes": [
+    "branchement vmc 4 fils"
+   ]
+  },
+  {
+   "cle": "hygrogeniu vmc",
+   "expression": "vmc hygrogenius",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 1.2,
+   "serie": [
+    170,
+    210,
+    260,
+    260,
+    320,
+    390,
+    390,
+    320,
+    480,
+    390,
+    320,
+    170
+   ],
+   "variantes": [
+    "vmc hygrogenius"
+   ]
+  },
+  {
+   "cle": "gaine kit nettoyage souple vmc",
+   "expression": "kit nettoyage gaine vmc souple",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.22,
+   "serie": [
+    210,
+    210,
+    260,
+    260,
+    320,
+    390,
+    390,
+    320,
+    320,
+    320,
+    210,
+    210
+   ],
+   "variantes": [
+    "kit nettoyage gaine vmc souple"
+   ]
+  },
+  {
+   "cle": "100m2 double flux maison prix vmc",
+   "expression": "prix vmc double flux maison 100m2",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 1.5,
+   "serie": [
+    390,
+    390,
+    260,
+    260,
+    390,
+    390,
+    390,
+    260,
+    320,
+    320,
+    390,
+    320
+   ],
+   "variantes": [
+    "prix vmc double flux maison 100m2"
+   ]
+  },
+  {
+   "cle": "autoreglable bouche vmc",
+   "expression": "bouche vmc autoréglable",
+   "volume": 320,
+   "volume_min": 320,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.3,
+   "serie": [
+    210,
+    320,
+    260,
+    320,
+    390,
+    390,
+    480,
+    390,
+    480,
+    390,
+    320,
+    210
+   ],
+   "variantes": [
+    "bouche vmc autoréglable"
+   ]
+  },
+  {
+   "cle": "gaine raccord vmc",
+   "expression": "raccordement gaine vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 0.26,
+   "serie": [
+    210,
+    260,
+    260,
+    210,
+    210,
+    260,
+    390,
+    320,
+    390,
+    390,
+    210,
+    260
+   ],
+   "variantes": [
+    "raccordement gaine vmc",
+    "raccord gaine vmc",
+    "raccord pour gaine vmc",
+    "raccorder gaine vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "chaudiere gaz vmc",
+   "expression": "chaudière gaz vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 8,
+   "fusionne_par_google": true,
+   "cpc": 2.11,
+   "serie": [
+    110,
+    140,
+    140,
+    210,
+    260,
+    260,
+    390,
+    320,
+    390,
+    390,
+    320,
+    210
+   ],
+   "variantes": [
+    "chaudière gaz vmc",
+    "vmc chaudière gaz",
+    "chaudiere gaz vmc",
+    "vmc et chaudière gaz",
+    "chaudière gaz et vmc",
+    "chaudiere gaz et vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "cout double flux vmc",
+   "expression": "coût vmc double flux",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 5,
+   "fusionne_par_google": true,
+   "cpc": 1.22,
+   "serie": [
+    210,
+    210,
+    210,
+    170,
+    260,
+    260,
+    320,
+    210,
+    320,
+    260,
+    260,
+    210
+   ],
+   "variantes": [
+    "coût vmc double flux",
+    "vmc double flux cout",
+    "cout vmc double flux",
+    "coût d'une vmc double flux",
+    "cout d'une vmc double flux"
+   ]
+  },
+  {
+   "cle": "accessoire vmc",
+   "expression": "accessoires vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 6,
+   "fusionne_par_google": true,
+   "cpc": 0.81,
+   "serie": [
+    170,
+    210,
+    260,
+    210,
+    320,
+    320,
+    320,
+    260,
+    260,
+    260,
+    320,
+    210
+   ],
+   "variantes": [
+    "accessoire vmc",
+    "accessoires vmc",
+    "vmc accessoires",
+    "accessoire pour vmc",
+    "accessoires pour vmc",
+    "accessoir vmc"
+   ]
+  },
+  {
+   "cle": "manchon vmc",
+   "expression": "manchon vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.26,
+   "serie": [
+    210,
+    210,
+    210,
+    260,
+    320,
+    320,
+    320,
+    260,
+    320,
+    260,
+    260,
+    210
+   ],
+   "variantes": [
+    "manchon vmc",
+    "manchon pour vmc"
+   ]
+  },
+  {
+   "cle": "cuisine diametre vmc",
+   "expression": "diamètre vmc cuisine",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 1.09,
+   "serie": [
+    170,
+    170,
+    210,
+    260,
+    260,
+    260,
+    260,
+    210,
+    260,
+    260,
+    260,
+    210
+   ],
+   "variantes": [
+    "diamètre vmc cuisine"
+   ]
+  },
+  {
+   "cle": "comble double flux vmc",
+   "expression": "vmc double flux combles",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 1.01,
+   "serie": [
+    170,
+    210,
+    210,
+    210,
+    260,
+    320,
+    390,
+    320,
+    390,
+    260,
+    320,
+    210
+   ],
+   "variantes": [
+    "vmc double flux comble",
+    "vmc double flux combles",
+    "vmc double flux pour comble",
+    "vmc double flux dans les combles"
+   ]
+  },
+  {
+   "cle": "variateur vmc",
+   "expression": "variateur vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.29,
+   "serie": [
+    140,
+    140,
+    210,
+    210,
+    260,
+    260,
+    320,
+    320,
+    390,
+    260,
+    260,
+    140
+   ],
+   "variantes": [
+    "variateur vmc",
+    "variateur sur vmc",
+    "variateur pour vmc"
+   ]
+  },
+  {
+   "cle": "moteur prix vmc",
+   "expression": "moteur vmc prix",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.3,
+   "serie": [
+    170,
+    170,
+    210,
+    170,
+    260,
+    260,
+    320,
+    320,
+    260,
+    320,
+    320,
+    210
+   ],
+   "variantes": [
+    "prix moteur vmc",
+    "moteur vmc prix",
+    "prix d'un moteur vmc"
+   ]
+  },
+  {
+   "cle": "electricite sans vmc",
+   "expression": "vmc sans électricité",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.24,
+   "serie": [
+    140,
+    170,
+    260,
+    210,
+    210,
+    210,
+    320,
+    320,
+    320,
+    320,
+    260,
+    260
+   ],
+   "variantes": [
+    "vmc sans électricité",
+    "vmc sans electricite"
+   ]
+  },
+  {
+   "cle": "double flux haut rendement vmc",
+   "expression": "vmc double flux haut rendement",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.86,
+   "serie": [
+    170,
+    170,
+    170,
+    140,
+    170,
+    210,
+    320,
+    260,
+    320,
+    260,
+    390,
+    210
+   ],
+   "variantes": [
+    "vmc double flux haut rendement"
+   ]
+  },
+  {
+   "cle": "aeration grille vmc",
+   "expression": "grille aération vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.19,
+   "serie": [
+    260,
+    210,
+    260,
+    260,
+    260,
+    260,
+    260,
+    260,
+    320,
+    260,
+    210,
+    210
+   ],
+   "variantes": [
+    "grille aeration vmc",
+    "grille aération vmc"
+   ]
+  },
+  {
+   "cle": "evacuation toiture vmc",
+   "expression": "évacuation toiture vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 5,
+   "fusionne_par_google": true,
+   "cpc": 0.15,
+   "serie": [
+    260,
+    210,
+    260,
+    210,
+    260,
+    320,
+    320,
+    260,
+    390,
+    390,
+    260,
+    260
+   ],
+   "variantes": [
+    "evacuation vmc toiture",
+    "évacuation toiture vmc",
+    "évacuation vmc toiture",
+    "evacuation vmc toit",
+    "évacuation vmc toit"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "vmc wc",
+   "expression": "vmc wc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.19,
+   "serie": [
+    210,
+    170,
+    170,
+    170,
+    260,
+    260,
+    320,
+    260,
+    260,
+    260,
+    260,
+    260
+   ],
+   "variantes": [
+    "vmc wc",
+    "vmc pour wc"
+   ]
+  },
+  {
+   "cle": "bain extracteur salle vmc",
+   "expression": "extracteur vmc salle de bain",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.29,
+   "serie": [
+    210,
+    210,
+    260,
+    260,
+    320,
+    320,
+    320,
+    210,
+    320,
+    320,
+    390,
+    260
+   ],
+   "variantes": [
+    "extracteur vmc salle de bain",
+    "vmc ou extracteur salle de bain",
+    "extraction vmc salle de bain"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "alde moteur vmc",
+   "expression": "aldes moteur vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 0.29,
+   "serie": [
+    210,
+    210,
+    260,
+    210,
+    210,
+    320,
+    390,
+    320,
+    390,
+    320,
+    320,
+    260
+   ],
+   "variantes": [
+    "moteur vmc aldes",
+    "aldes moteur vmc",
+    "moteur aldes vmc",
+    "moteur pour vmc aldes"
+   ]
+  },
+  {
+   "cle": "bruit depui fait peu qui vmc",
+   "expression": "vmc qui fait du bruit depuis peu",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    140,
+    170,
+    210,
+    210,
+    260,
+    210,
+    390,
+    260,
+    320,
+    260,
+    260,
+    260
+   ],
+   "variantes": [
+    "vmc qui fait du bruit depuis peu"
+   ]
+  },
+  {
+   "cle": "brico depot flux simple vmc",
+   "expression": "brico dépôt vmc simple flux",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.12,
+   "serie": [
+    260,
+    210,
+    260,
+    210,
+    320,
+    260,
+    320,
+    260,
+    320,
+    320,
+    260,
+    210
+   ],
+   "variantes": [
+    "vmc simple flux brico dépôt",
+    "brico dépôt vmc simple flux",
+    "vmc simple flux brico depot"
+   ]
+  },
+  {
+   "cle": "chapeau tuile vmc",
+   "expression": "chapeau tuile vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.2,
+   "serie": [
+    210,
+    170,
+    210,
+    210,
+    260,
+    390,
+    260,
+    260,
+    320,
+    320,
+    320,
+    260
+   ],
+   "variantes": [
+    "chapeau vmc tuile",
+    "tuile chapeau vmc",
+    "chapeau tuile vmc"
+   ]
+  },
+  {
+   "cle": "obligatoire pas vmc",
+   "expression": "vmc obligatoire ou pas",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.55,
+   "serie": [
+    320,
+    90,
+    170,
+    390,
+    480,
+    480,
+    390,
+    210,
+    210,
+    140,
+    210,
+    110
+   ],
+   "variantes": [
+    "vmc obligatoire ou pas"
+   ]
+  },
+  {
+   "cle": "debit vmc",
+   "expression": "débit vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.22,
+   "serie": [
+    210,
+    260,
+    210,
+    210,
+    260,
+    260,
+    320,
+    320,
+    320,
+    320,
+    260,
+    210
+   ],
+   "variantes": [
+    "débit vmc",
+    "debit vmc"
+   ]
+  },
+  {
+   "cle": "evacuation vmc",
+   "expression": "évacuation vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.24,
+   "serie": [
+    210,
+    260,
+    210,
+    210,
+    260,
+    260,
+    390,
+    320,
+    320,
+    320,
+    260,
+    260
+   ],
+   "variantes": [
+    "evacuation vmc",
+    "évacuation vmc"
+   ]
+  },
+  {
+   "cle": "2 condensateur vitesse vmc",
+   "expression": "condensateur vmc 2 vitesses",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.24,
+   "serie": [
+    170,
+    210,
+    170,
+    170,
+    210,
+    260,
+    320,
+    390,
+    480,
+    390,
+    320,
+    210
+   ],
+   "variantes": [
+    "condensateur vmc 2 vitesses",
+    "condensateur pour vmc 2 vitesses"
+   ]
+  },
+  {
+   "cle": "atlantic bouche cuisine vmc",
+   "expression": "bouche vmc atlantic cuisine",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.17,
+   "serie": [
+    170,
+    170,
+    210,
+    210,
+    260,
+    260,
+    320,
+    260,
+    320,
+    320,
+    260,
+    170
+   ],
+   "variantes": [
+    "bouche vmc atlantic cuisine",
+    "bouche vmc cuisine atlantic"
+   ]
+  },
+  {
+   "cle": "trappe vmc",
+   "expression": "trappe vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.4,
+   "serie": [
+    170,
+    210,
+    210,
+    210,
+    320,
+    320,
+    320,
+    260,
+    320,
+    260,
+    260,
+    210
+   ],
+   "variantes": [
+    "trappe vmc"
+   ]
+  },
+  {
+   "cle": "double flux vmc zehnder",
+   "expression": "vmc double flux zehnder",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 1.62,
+   "serie": [
+    260,
+    390,
+    260,
+    260,
+    320,
+    260,
+    320,
+    260,
+    260,
+    210,
+    210,
+    140
+   ],
+   "variantes": [
+    "vmc double flux zehnder",
+    "vmc zehnder double flux",
+    "zehnder vmc double flux"
+   ]
+  },
+  {
+   "cle": "anemometre vmc",
+   "expression": "anémomètre vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.7,
+   "serie": [
+    140,
+    170,
+    210,
+    170,
+    260,
+    320,
+    320,
+    320,
+    320,
+    320,
+    260,
+    170
+   ],
+   "variantes": [
+    "anémomètre vmc",
+    "anémomètre pour vmc",
+    "anemometre pour vmc"
+   ]
+  },
+  {
+   "cle": "devis vmc",
+   "expression": "devis vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 10.87,
+   "serie": [
+    170,
+    170,
+    210,
+    260,
+    390,
+    390,
+    390,
+    320,
+    210,
+    210,
+    260,
+    210
+   ],
+   "variantes": [
+    "vmc devis",
+    "devis vmc"
+   ]
+  },
+  {
+   "cle": "alim vmc",
+   "expression": "alimentation vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": null,
+   "serie": [
+    170,
+    170,
+    210,
+    210,
+    260,
+    260,
+    320,
+    210,
+    320,
+    320,
+    260,
+    210
+   ],
+   "variantes": [
+    "alim vmc",
+    "alimentation vmc"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "meilleur vmc",
+   "expression": "meilleure vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.38,
+   "serie": [
+    170,
+    210,
+    210,
+    170,
+    210,
+    260,
+    320,
+    320,
+    390,
+    320,
+    320,
+    210
+   ],
+   "variantes": [
+    "meilleur vmc",
+    "meilleure vmc"
+   ]
+  },
+  {
+   "cle": "consommation flux simple vmc",
+   "expression": "consommation vmc simple flux",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.31,
+   "serie": [
+    170,
+    170,
+    210,
+    210,
+    210,
+    210,
+    260,
+    260,
+    390,
+    320,
+    480,
+    260
+   ],
+   "variantes": [
+    "conso vmc simple flux",
+    "consommation vmc simple flux",
+    "vmc simple flux consommation"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "bouche invisible vmc",
+   "expression": "bouche vmc invisible",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.5,
+   "serie": [
+    260,
+    210,
+    260,
+    260,
+    320,
+    390,
+    390,
+    210,
+    260,
+    320,
+    260,
+    260
+   ],
+   "variantes": [
+    "bouche vmc invisible"
+   ]
+  },
+  {
+   "cle": "diametre sortie vmc",
+   "expression": "diamètre sortie vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.37,
+   "serie": [
+    170,
+    210,
+    210,
+    260,
+    260,
+    260,
+    320,
+    260,
+    320,
+    320,
+    260,
+    210
+   ],
+   "variantes": [
+    "diametre sortie vmc",
+    "diamètre sortie vmc"
+   ]
+  },
+  {
+   "cle": "anglai vmc",
+   "expression": "vmc en anglais",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    210,
+    260,
+    210,
+    210,
+    320,
+    260,
+    320,
+    260,
+    320,
+    320,
+    320,
+    260
+   ],
+   "variantes": [
+    "vmc en anglais"
+   ]
+  },
+  {
+   "cle": "bouche noire vmc",
+   "expression": "bouche vmc noire",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.36,
+   "serie": [
+    210,
+    210,
+    260,
+    260,
+    260,
+    320,
+    260,
+    210,
+    260,
+    320,
+    260,
+    210
+   ],
+   "variantes": [
+    "bouche vmc noire",
+    "bouche vmc noir"
+   ]
+  },
+  {
+   "cle": "entretien locataire proprietaire vmc",
+   "expression": "entretien vmc locataire ou propriétaire",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.21,
+   "serie": [
+    170,
+    260,
+    320,
+    320,
+    390,
+    320,
+    390,
+    210,
+    260,
+    210,
+    210,
+    110
+   ],
+   "variantes": [
+    "entretien vmc locataire ou propriétaire"
+   ]
+  },
+  {
+   "cle": "boitier vmc",
+   "expression": "boitier vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.16,
+   "serie": [
+    110,
+    140,
+    210,
+    210,
+    480,
+    590,
+    260,
+    170,
+    210,
+    210,
+    320,
+    260
+   ],
+   "variantes": [
+    "boitier vmc"
+   ]
+  },
+  {
+   "cle": "leroy merlin sauter vmc",
+   "expression": "vmc leroy merlin sauter",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.03,
+   "serie": [
+    210,
+    170,
+    210,
+    210,
+    260,
+    320,
+    320,
+    260,
+    390,
+    390,
+    320,
+    260
+   ],
+   "variantes": [
+    "vmc sauter leroy merlin",
+    "vmc leroy merlin sauter"
+   ]
+  },
+  {
+   "cle": "flux groupe simple vmc",
+   "expression": "groupe vmc simple flux",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.23,
+   "serie": [
+    170,
+    210,
+    170,
+    210,
+    260,
+    260,
+    390,
+    320,
+    320,
+    260,
+    260,
+    170
+   ],
+   "variantes": [
+    "groupe vmc simple flux"
+   ]
+  },
+  {
+   "cle": "autoreglable hygroreglable vmc",
+   "expression": "vmc autoréglable ou hygroréglable",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.18,
+   "serie": [
+    140,
+    140,
+    140,
+    170,
+    170,
+    320,
+    390,
+    260,
+    320,
+    320,
+    320,
+    210
+   ],
+   "variantes": [
+    "vmc autoréglable ou hygroréglable"
+   ]
+  },
+  {
+   "cle": "bouche design vmc",
+   "expression": "bouches vmc design",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.35,
+   "serie": [
+    210,
+    170,
+    260,
+    320,
+    260,
+    320,
+    390,
+    260,
+    320,
+    320,
+    320,
+    210
+   ],
+   "variantes": [
+    "bouche vmc design",
+    "bouches vmc design"
+   ]
+  },
+  {
+   "cle": "bain malgre moisissure plafond salle vmc",
+   "expression": "moisissure plafond salle de bain malgré vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 8.05,
+   "serie": [
+    110,
+    110,
+    170,
+    170,
+    210,
+    320,
+    390,
+    390,
+    390,
+    390,
+    260,
+    210
+   ],
+   "variantes": [
+    "moisissure plafond salle de bain malgré vmc"
+   ]
+  },
+  {
+   "cle": "cout vmc",
+   "expression": "coût vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 4,
+   "fusionne_par_google": true,
+   "cpc": 1.94,
+   "serie": [
+    170,
+    170,
+    170,
+    170,
+    260,
+    260,
+    320,
+    260,
+    390,
+    260,
+    260,
+    210
+   ],
+   "variantes": [
+    "cout vmc",
+    "coût vmc",
+    "cout d une vmc",
+    "cout d'une vmc"
+   ]
+  },
+  {
+   "cle": "schema vmc",
+   "expression": "schema vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    140,
+    140,
+    170,
+    210,
+    320,
+    320,
+    320,
+    260,
+    320,
+    260,
+    260,
+    170
+   ],
+   "variantes": [
+    "schema vmc"
+   ]
+  },
+  {
+   "cle": "professionnel vmc",
+   "expression": "professionnel vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 1.32,
+   "serie": [
+    170,
+    210,
+    210,
+    210,
+    260,
+    260,
+    320,
+    260,
+    320,
+    260,
+    260,
+    210
+   ],
+   "variantes": [
+    "vmc professionnel",
+    "professionnel vmc"
+   ]
+  },
+  {
+   "cle": "hygroreglable silencieuse vmc",
+   "expression": "vmc hygroréglable silencieuse",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.53,
+   "serie": [
+    170,
+    170,
+    210,
+    210,
+    320,
+    320,
+    320,
+    260,
+    320,
+    320,
+    390,
+    140
+   ],
+   "variantes": [
+    "vmc hygroréglable silencieuse",
+    "vmc hygro silencieuse",
+    "vmc hygrovariable silencieuse"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "conduit plat vmc",
+   "expression": "conduit plat vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.56,
+   "serie": [
+    260,
+    260,
+    210,
+    260,
+    260,
+    320,
+    320,
+    320,
+    260,
+    320,
+    320,
+    320
+   ],
+   "variantes": [
+    "conduit plat vmc",
+    "conduit vmc plat"
+   ]
+  },
+  {
+   "cle": "ballon thermodynamique vmc",
+   "expression": "ballon thermodynamique vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.75,
+   "serie": [
+    170,
+    260,
+    210,
+    210,
+    320,
+    320,
+    390,
+    320,
+    390,
+    320,
+    320,
+    210
+   ],
+   "variantes": [
+    "ballon thermodynamique vmc",
+    "ballon thermodynamique et vmc",
+    "ballon thermodynamique sur vmc"
+   ]
+  },
+  {
+   "cle": "double flux installation schema vmc",
+   "expression": "schéma installation vmc double flux",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    140,
+    170,
+    210,
+    170,
+    210,
+    260,
+    390,
+    320,
+    390,
+    260,
+    170,
+    140
+   ],
+   "variantes": [
+    "schéma installation vmc double flux"
+   ]
+  },
+  {
+   "cle": "acoustique mousse vmc",
+   "expression": "mousse acoustique vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.16,
+   "serie": [
+    110,
+    140,
+    260,
+    210,
+    260,
+    320,
+    320,
+    260,
+    320,
+    320,
+    260,
+    140
+   ],
+   "variantes": [
+    "mousse acoustique vmc"
+   ]
+  },
+  {
+   "cle": "bouche nettoyage vmc",
+   "expression": "nettoyage bouche vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.62,
+   "serie": [
+    320,
+    260,
+    320,
+    210,
+    260,
+    260,
+    320,
+    210,
+    260,
+    260,
+    210,
+    210
+   ],
+   "variantes": [
+    "nettoyage bouche vmc"
+   ]
+  },
+  {
+   "cle": "brico depot hygroreglable vmc",
+   "expression": "vmc hygroreglable brico depot",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.18,
+   "serie": [
+    210,
+    210,
+    170,
+    210,
+    210,
+    260,
+    320,
+    320,
+    320,
+    390,
+    260,
+    260
+   ],
+   "variantes": [
+    "vmc hygroreglable brico depot"
+   ]
+  },
+  {
+   "cle": "bain conduit salle sans vmc",
+   "expression": "vmc salle de bain sans conduit",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.19,
+   "serie": [
+    170,
+    140,
+    260,
+    110,
+    210,
+    320,
+    390,
+    260,
+    260,
+    320,
+    170,
+    170
+   ],
+   "variantes": [
+    "vmc salle de bain sans conduit"
+   ]
+  },
+  {
+   "cle": "2 branchement interrupteur vitesse vmc",
+   "expression": "branchement interrupteur 2 vitesses vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": null,
+   "serie": [
+    210,
+    170,
+    210,
+    210,
+    260,
+    320,
+    320,
+    320,
+    390,
+    320,
+    320,
+    260
+   ],
+   "variantes": [
+    "branchement interrupteur 2 vitesses vmc",
+    "branchement interrupteur vmc 2 vitesses"
+   ]
+  },
+  {
+   "cle": "2 branchement interrupteur sans vitesse vmc",
+   "expression": "branchement vmc 2 vitesses sans interrupteur",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.57,
+   "serie": [
+    210,
+    170,
+    210,
+    210,
+    260,
+    320,
+    320,
+    320,
+    390,
+    260,
+    210,
+    210
+   ],
+   "variantes": [
+    "branchement vmc 2 vitesses sans interrupteur"
+   ]
+  },
+  {
+   "cle": "160 sortie toiture vmc",
+   "expression": "sortie toiture vmc 160",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.77,
+   "serie": [
+    260,
+    260,
+    260,
+    260,
+    320,
+    260,
+    320,
+    260,
+    320,
+    320,
+    260,
+    210
+   ],
+   "variantes": [
+    "sortie toiture vmc 160",
+    "sortie toit vmc 160"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "bouche nettoyer vmc",
+   "expression": "nettoyer bouche vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.1,
+   "serie": [
+    390,
+    320,
+    260,
+    320,
+    210,
+    260,
+    260,
+    320,
+    210,
+    260,
+    260,
+    210
+   ],
+   "variantes": [
+    "nettoyer bouche vmc"
+   ]
+  },
+  {
+   "cle": "hygro reglable vmc",
+   "expression": "vmc hygro réglable",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.4,
+   "serie": [
+    170,
+    210,
+    210,
+    260,
+    260,
+    320,
+    320,
+    210,
+    260,
+    260,
+    210,
+    170
+   ],
+   "variantes": [
+    "vmc hygro réglable"
+   ]
+  },
+  {
+   "cle": "douche vmc",
+   "expression": "vmc douche",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.2,
+   "serie": [
+    170,
+    210,
+    260,
+    210,
+    260,
+    260,
+    320,
+    320,
+    320,
+    390,
+    210,
+    260
+   ],
+   "variantes": [
+    "vmc douche",
+    "vmc pour douche"
+   ]
+  },
+  {
+   "cle": "top vmc",
+   "expression": "top-vmc",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 3.38,
+   "serie": [
+    210,
+    260,
+    210,
+    210,
+    260,
+    320,
+    320,
+    210,
+    320,
+    260,
+    260,
+    170
+   ],
+   "variantes": [
+    "top-vmc",
+    "top vmc"
+   ]
+  },
+  {
+   "cle": "elle obligatoire vmc",
+   "expression": "la vmc est-elle obligatoire",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": null,
+   "serie": [
+    170,
+    210,
+    260,
+    210,
+    260,
+    210,
+    320,
+    260,
+    390,
+    260,
+    260,
+    210
+   ],
+   "variantes": [
+    "la vmc est-elle obligatoire",
+    "la vmc est elle obligatoire"
+   ]
+  },
+  {
+   "cle": "150m2 double flux maison prix vmc",
+   "expression": "prix vmc double flux maison 150m2",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 1.22,
+   "serie": [
+    170,
+    210,
+    210,
+    260,
+    260,
+    260,
+    320,
+    260,
+    260,
+    210,
+    210,
+    170
+   ],
+   "variantes": [
+    "prix vmc double flux maison 150m2"
+   ]
+  },
+  {
+   "cle": "fonctionne ne plus vmc",
+   "expression": "vmc ne fonctionne plus",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.8,
+   "serie": [
+    210,
+    170,
+    210,
+    210,
+    140,
+    210,
+    260,
+    260,
+    260,
+    390,
+    320,
+    260
+   ],
+   "variantes": [
+    "vmc ne fonctionne plus"
+   ]
+  },
+  {
+   "cle": "faire fonctionne ne plus que vmc",
+   "expression": "ma vmc ne fonctionne plus que faire",
+   "volume": 260,
+   "volume_min": 260,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 1.58,
+   "serie": [
+    140,
+    210,
+    210,
+    170,
+    170,
+    170,
+    320,
+    320,
+    480,
+    390,
+    210,
+    170
+   ],
+   "variantes": [
+    "ma vmc ne fonctionne plus que faire"
+   ]
+  },
+  {
+   "cle": "plan vmc",
+   "expression": "plan vmc",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.02,
+   "serie": [
+    110,
+    210,
+    170,
+    320,
+    260,
+    210,
+    260,
+    210,
+    210,
+    170,
+    140,
+    110
+   ],
+   "variantes": [
+    "vmc plan",
+    "plan vmc"
+   ]
+  },
+  {
+   "cle": "locataire nettoyage vmc",
+   "expression": "nettoyage vmc locataire",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.46,
+   "serie": [
+    170,
+    170,
+    170,
+    170,
+    140,
+    170,
+    210,
+    260,
+    260,
+    260,
+    260,
+    260
+   ],
+   "variantes": [
+    "nettoyage vmc locataire",
+    "nettoyer vmc : locataire"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "ca comment marche vmc",
+   "expression": "vmc comment ça marche",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.09,
+   "serie": [
+    170,
+    170,
+    170,
+    140,
+    170,
+    170,
+    260,
+    210,
+    260,
+    260,
+    210,
+    140
+   ],
+   "variantes": [
+    "vmc comment ça marche"
+   ]
+  },
+  {
+   "cle": "comment fonctionne savoir si vmc",
+   "expression": "comment savoir si une vmc fonctionne",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.06,
+   "serie": [
+    140,
+    140,
+    170,
+    170,
+    170,
+    260,
+    320,
+    260,
+    390,
+    320,
+    260,
+    210
+   ],
+   "variantes": [
+    "comment savoir si une vmc fonctionne"
+   ]
+  },
+  {
+   "cle": "type vmc",
+   "expression": "type de vmc",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.2,
+   "serie": [
+    170,
+    210,
+    170,
+    170,
+    210,
+    260,
+    260,
+    210,
+    320,
+    260,
+    320,
+    170
+   ],
+   "variantes": [
+    "type de vmc"
+   ]
+  },
+  {
+   "cle": "brancher comment vmc",
+   "expression": "comment brancher vmc",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.16,
+   "serie": [
+    140,
+    140,
+    170,
+    140,
+    210,
+    210,
+    260,
+    260,
+    320,
+    320,
+    210,
+    170
+   ],
+   "variantes": [
+    "comment brancher vmc"
+   ]
+  },
+  {
+   "cle": "aide double flux vmc",
+   "expression": "aides vmc double flux",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 3.51,
+   "serie": [
+    140,
+    110,
+    90,
+    140,
+    210,
+    260,
+    320,
+    260,
+    390,
+    260,
+    260,
+    90
+   ],
+   "variantes": [
+    "aide vmc double flux",
+    "aides vmc double flux"
+   ]
+  },
+  {
+   "cle": "exterieure sans sortie vmc",
+   "expression": "vmc sans sortie extérieure",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 1.04,
+   "serie": [
+    110,
+    110,
+    140,
+    170,
+    210,
+    260,
+    260,
+    260,
+    260,
+    210,
+    320,
+    320
+   ],
+   "variantes": [
+    "vmc sans sortie extérieure"
+   ]
+  },
+  {
+   "cle": "ecowatt hygro octeo vmc",
+   "expression": "vmc octeo hygro ecowatt",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.5,
+   "serie": [
+    90,
+    140,
+    140,
+    140,
+    210,
+    210,
+    260,
+    210,
+    260,
+    260,
+    260,
+    140
+   ],
+   "variantes": [
+    "vmc octeo hygro ecowatt"
+   ]
+  },
+  {
+   "cle": "alde flux hygroreglable simple vmc",
+   "expression": "aldes vmc simple flux hygroréglable",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.35,
+   "serie": [
+    140,
+    140,
+    170,
+    140,
+    170,
+    260,
+    260,
+    260,
+    260,
+    210,
+    170,
+    170
+   ],
+   "variantes": [
+    "aldes vmc simple flux hygroréglable"
+   ]
+  },
+  {
+   "cle": "double flux meilleur vmc",
+   "expression": "meilleure vmc double flux",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.89,
+   "serie": [
+    170,
+    260,
+    260,
+    170,
+    210,
+    260,
+    320,
+    260,
+    320,
+    260,
+    260,
+    170
+   ],
+   "variantes": [
+    "meilleur vmc double flux",
+    "meilleure vmc double flux"
+   ]
+  },
+  {
+   "cle": "vmc zehnder",
+   "expression": "vmc zehnder",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 1.21,
+   "serie": [
+    260,
+    210,
+    170,
+    210,
+    170,
+    170,
+    260,
+    170,
+    210,
+    210,
+    170,
+    170
+   ],
+   "variantes": [
+    "vmc zehnder"
+   ]
+  },
+  {
+   "cle": "rigide tuyau vmc",
+   "expression": "tuyau vmc rigide",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.47,
+   "serie": [
+    210,
+    210,
+    210,
+    170,
+    210,
+    210,
+    320,
+    260,
+    320,
+    210,
+    260,
+    170
+   ],
+   "variantes": [
+    "tuyau vmc rigide"
+   ]
+  },
+  {
+   "cle": "3 atlantic bip foi vmc",
+   "expression": "vmc atlantic bip 3 fois",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    110,
+    90,
+    170,
+    170,
+    170,
+    210,
+    260,
+    210,
+    260,
+    320,
+    390,
+    320
+   ],
+   "variantes": [
+    "vmc atlantic bip 3 fois"
+   ]
+  },
+  {
+   "cle": "inversee vmc",
+   "expression": "vmc inversée",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.89,
+   "serie": [
+    140,
+    260,
+    170,
+    170,
+    210,
+    170,
+    260,
+    210,
+    260,
+    210,
+    210,
+    140
+   ],
+   "variantes": [
+    "vmc inversée"
+   ]
+  },
+  {
+   "cle": "atlantic moteur vmc",
+   "expression": "moteur vmc atlantic",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.58,
+   "serie": [
+    140,
+    110,
+    140,
+    170,
+    210,
+    210,
+    260,
+    260,
+    320,
+    260,
+    210,
+    140
+   ],
+   "variantes": [
+    "moteur vmc atlantic"
+   ]
+  },
+  {
+   "cle": "atlantic hygro vmc",
+   "expression": "vmc hygro atlantic",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.5,
+   "serie": [
+    110,
+    110,
+    170,
+    140,
+    210,
+    260,
+    260,
+    210,
+    260,
+    210,
+    210,
+    140
+   ],
+   "variantes": [
+    "vmc hygro atlantic"
+   ]
+  },
+  {
+   "cle": "atlantic bouche hygroreglable vmc",
+   "expression": "bouche vmc hygroréglable atlantic",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.3,
+   "serie": [
+    140,
+    140,
+    170,
+    210,
+    260,
+    260,
+    320,
+    210,
+    320,
+    260,
+    210,
+    140
+   ],
+   "variantes": [
+    "bouche vmc hygroréglable atlantic"
+   ]
+  },
+  {
+   "cle": "80 gaine plate vmc",
+   "expression": "gaine vmc plate 80",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.36,
+   "serie": [
+    140,
+    170,
+    170,
+    170,
+    170,
+    210,
+    210,
+    210,
+    210,
+    210,
+    210,
+    210
+   ],
+   "variantes": [
+    "gaine vmc plate 80"
+   ]
+  },
+  {
+   "cle": "aeration fenetre vmc",
+   "expression": "aeration fenetre vmc",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.12,
+   "serie": [
+    170,
+    170,
+    140,
+    170,
+    210,
+    210,
+    320,
+    320,
+    390,
+    210,
+    170,
+    110
+   ],
+   "variantes": [
+    "aeration vmc fenetre",
+    "aeration fenetre vmc"
+   ]
+  },
+  {
+   "cle": "b flux hygro simple vmc",
+   "expression": "vmc simple flux hygro b",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.35,
+   "serie": [
+    140,
+    170,
+    210,
+    210,
+    260,
+    320,
+    320,
+    260,
+    260,
+    210,
+    210,
+    140
+   ],
+   "variantes": [
+    "vmc simple flux hygro b"
+   ]
+  },
+  {
+   "cle": "bruit fait pourquoi vmc",
+   "expression": "pourquoi ma vmc fait du bruit",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.02,
+   "serie": [
+    140,
+    140,
+    210,
+    170,
+    210,
+    210,
+    320,
+    260,
+    260,
+    260,
+    210,
+    140
+   ],
+   "variantes": [
+    "pourquoi ma vmc fait du bruit"
+   ]
+  },
+  {
+   "cle": "bricodepot hygroreglable vmc",
+   "expression": "vmc hygrovariable brico dépôt",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.16,
+   "serie": [
+    170,
+    140,
+    170,
+    170,
+    210,
+    260,
+    260,
+    260,
+    320,
+    210,
+    210,
+    210
+   ],
+   "variantes": [
+    "vmc hygroréglable bricodepot",
+    "vmc hygrovariable brico dépôt"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "castorama hygrovariable vmc",
+   "expression": "vmc hygroréglable castorama",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 3,
+   "fusionne_par_google": true,
+   "cpc": 0.12,
+   "serie": [
+    110,
+    110,
+    140,
+    140,
+    170,
+    210,
+    260,
+    210,
+    320,
+    260,
+    210,
+    170
+   ],
+   "variantes": [
+    "vmc hygrovariable castorama",
+    "vmc hygroréglable castorama",
+    "castorama vmc hygro"
+   ],
+   "fusion_serie": true
+  },
+  {
+   "cle": "alde bahia vmc",
+   "expression": "vmc bahia aldes",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.26,
+   "serie": [
+    140,
+    140,
+    210,
+    210,
+    260,
+    260,
+    320,
+    210,
+    260,
+    210,
+    210,
+    210
+   ],
+   "variantes": [
+    "vmc bahia aldes"
+   ]
+  },
+  {
+   "cle": "comble comment nettoyer vmc",
+   "expression": "comment nettoyer une vmc dans les combles",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 1.43,
+   "serie": [
+    260,
+    140,
+    210,
+    170,
+    170,
+    210,
+    320,
+    210,
+    260,
+    210,
+    140,
+    140
+   ],
+   "variantes": [
+    "comment nettoyer une vmc dans les combles"
+   ]
+  },
+  {
+   "cle": "bouche rectangulaire vmc",
+   "expression": "bouche vmc rectangulaire",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.4,
+   "serie": [
+    170,
+    170,
+    210,
+    170,
+    210,
+    170,
+    260,
+    210,
+    210,
+    260,
+    210,
+    210
+   ],
+   "variantes": [
+    "bouche vmc rectangulaire"
+   ]
+  },
+  {
+   "cle": "alde autoreglable vmc",
+   "expression": "vmc autoréglable aldes",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.55,
+   "serie": [
+    140,
+    110,
+    170,
+    170,
+    260,
+    210,
+    260,
+    260,
+    260,
+    260,
+    260,
+    170
+   ],
+   "variantes": [
+    "vmc autoréglable aldes"
+   ]
+  },
+  {
+   "cle": "2 bouche vmc",
+   "expression": "vmc 2 bouches",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.3,
+   "serie": [
+    140,
+    170,
+    170,
+    140,
+    170,
+    210,
+    260,
+    210,
+    320,
+    320,
+    260,
+    260
+   ],
+   "variantes": [
+    "vmc 2 bouches"
+   ]
+  },
+  {
+   "cle": "hygroreglable installer vmc",
+   "expression": "installer vmc hygroréglable",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 1.18,
+   "serie": [
+    110,
+    140,
+    170,
+    170,
+    210,
+    260,
+    260,
+    210,
+    390,
+    320,
+    210,
+    210
+   ],
+   "variantes": [
+    "installer vmc hygroréglable"
+   ]
+  },
+  {
+   "cle": "difference double entre flux flux simple vmc",
+   "expression": "différence entre vmc simple flux et double flux",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.18,
+   "serie": [
+    170,
+    210,
+    210,
+    170,
+    210,
+    260,
+    320,
+    260,
+    320,
+    260,
+    170,
+    140
+   ],
+   "variantes": [
+    "différence entre vmc simple flux et double flux"
+   ]
+  },
+  {
+   "cle": "qu qu vmc",
+   "expression": "qu'est ce qu une vmc",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.39,
+   "serie": [
+    210,
+    210,
+    260,
+    210,
+    210,
+    210,
+    260,
+    210,
+    260,
+    210,
+    260,
+    170
+   ],
+   "variantes": [
+    "qu est ce qu une vmc",
+    "qu'est ce qu une vmc"
+   ]
+  },
+  {
+   "cle": "entretien professionnel vmc",
+   "expression": "entretien vmc professionnel",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.92,
+   "serie": [
+    110,
+    170,
+    210,
+    170,
+    390,
+    320,
+    210,
+    170,
+    260,
+    210,
+    140,
+    170
+   ],
+   "variantes": [
+    "entretien vmc professionnel",
+    "professionnel entretien vmc"
+   ]
+  },
+  {
+   "cle": "easyhome vmc",
+   "expression": "vmc easyhome",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.66,
+   "serie": [
+    140,
+    140,
+    140,
+    140,
+    170,
+    210,
+    260,
+    210,
+    260,
+    260,
+    260,
+    170
+   ],
+   "variantes": [
+    "vmc easyhome"
+   ]
+  },
+  {
+   "cle": "bruyante faire que vmc",
+   "expression": "vmc bruyante que faire",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.53,
+   "serie": [
+    170,
+    210,
+    320,
+    140,
+    140,
+    260,
+    390,
+    320,
+    70,
+    170,
+    260,
+    170
+   ],
+   "variantes": [
+    "vmc bruyante que faire"
+   ]
+  },
+  {
+   "cle": "alde b hygro vmc",
+   "expression": "aldes vmc hygro b",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.5,
+   "serie": [
+    210,
+    170,
+    170,
+    210,
+    210,
+    260,
+    260,
+    210,
+    260,
+    260,
+    260,
+    170
+   ],
+   "variantes": [
+    "aldes vmc hygro b",
+    "vmc hygro b aldes"
+   ]
+  },
+  {
+   "cle": "evacuation tuile vmc",
+   "expression": "tuile evacuation vmc",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.22,
+   "serie": [
+    170,
+    170,
+    170,
+    170,
+    210,
+    210,
+    210,
+    170,
+    260,
+    210,
+    260,
+    170
+   ],
+   "variantes": [
+    "tuile evacuation vmc"
+   ]
+  },
+  {
+   "cle": "3 sortie vmc",
+   "expression": "vmc 3 sortie",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.41,
+   "serie": [
+    140,
+    140,
+    140,
+    140,
+    210,
+    210,
+    320,
+    210,
+    320,
+    260,
+    210,
+    170
+   ],
+   "variantes": [
+    "vmc 3 sortie"
+   ]
+  },
+  {
+   "cle": "flux hygroreglable kit simple vmc",
+   "expression": "kit vmc simple flux hygroréglable",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.42,
+   "serie": [
+    170,
+    170,
+    170,
+    210,
+    210,
+    260,
+    320,
+    260,
+    260,
+    210,
+    170,
+    140
+   ],
+   "variantes": [
+    "kit vmc simple flux hygroréglable"
+   ]
+  },
+  {
+   "cle": "4 sortie vmc",
+   "expression": "vmc 4 sorties",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.32,
+   "serie": [
+    170,
+    140,
+    140,
+    170,
+    140,
+    210,
+    210,
+    320,
+    260,
+    390,
+    260,
+    260
+   ],
+   "variantes": [
+    "vmc 4 sorties"
+   ]
+  },
+  {
+   "cle": "3 branchement fil interrupteur vmc",
+   "expression": "branchement interrupteur vmc 3 fils",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": null,
+   "serie": [
+    140,
+    110,
+    140,
+    140,
+    210,
+    320,
+    320,
+    260,
+    320,
+    320,
+    260,
+    210
+   ],
+   "variantes": [
+    "branchement interrupteur vmc 3 fils"
+   ]
+  },
+  {
+   "cle": "extra faux plafond plate vmc",
+   "expression": "vmc extra plate faux plafond",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.43,
+   "serie": [
+    110,
+    140,
+    140,
+    140,
+    210,
+    260,
+    320,
+    170,
+    210,
+    170,
+    260,
+    170
+   ],
+   "variantes": [
+    "vmc extra plate faux plafond"
+   ]
+  },
+  {
+   "cle": "comble sans vmc",
+   "expression": "vmc sans comble",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.36,
+   "serie": [
+    110,
+    170,
+    140,
+    140,
+    210,
+    210,
+    320,
+    210,
+    260,
+    260,
+    210,
+    170
+   ],
+   "variantes": [
+    "vmc sans comble"
+   ]
+  },
+  {
+   "cle": "manchette vmc",
+   "expression": "manchette vmc",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.18,
+   "serie": [
+    170,
+    210,
+    170,
+    210,
+    210,
+    170,
+    210,
+    210,
+    210,
+    210,
+    170,
+    140
+   ],
+   "variantes": [
+    "manchette vmc"
+   ]
+  },
+  {
+   "cle": "hamecon vmc",
+   "expression": "vmc hameçons",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 2,
+   "fusionne_par_google": true,
+   "cpc": 0.13,
+   "serie": [
+    170,
+    210,
+    260,
+    210,
+    210,
+    210,
+    170,
+    260,
+    260,
+    260,
+    260,
+    260
+   ],
+   "variantes": [
+    "vmc hameçon",
+    "vmc hameçons"
+   ]
+  },
+  {
+   "cle": "alde ancien modele vmc",
+   "expression": "vmc aldes ancien modèle",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.14,
+   "serie": [
+    170,
+    140,
+    210,
+    170,
+    210,
+    260,
+    260,
+    260,
+    260,
+    260,
+    210,
+    210
+   ],
+   "variantes": [
+    "vmc aldes ancien modèle"
+   ]
+  },
+  {
+   "cle": "exterieur mur sortie vmc",
+   "expression": "sortie vmc mur extérieur",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.13,
+   "serie": [
+    210,
+    170,
+    170,
+    210,
+    210,
+    210,
+    210,
+    170,
+    210,
+    260,
+    170,
+    210
+   ],
+   "variantes": [
+    "sortie vmc mur extérieur"
+   ]
+  },
+  {
+   "cle": "tube vmc",
+   "expression": "tubes vmc",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.53,
+   "serie": [
+    210,
+    210,
+    170,
+    210,
+    260,
+    260,
+    260,
+    210,
+    260,
+    260,
+    260,
+    170
+   ],
+   "variantes": [
+    "tubes vmc"
+   ]
+  },
+  {
+   "cle": "comment double flux fonctionne vmc",
+   "expression": "comment fonctionne une vmc double flux",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.19,
+   "serie": [
+    140,
+    210,
+    140,
+    110,
+    170,
+    210,
+    260,
+    210,
+    320,
+    260,
+    170,
+    140
+   ],
+   "variantes": [
+    "comment fonctionne une vmc double flux"
+   ]
+  },
+  {
+   "cle": "specialiste vmc",
+   "expression": "specialiste vmc",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 2.64,
+   "serie": [
+    170,
+    170,
+    210,
+    140,
+    390,
+    320,
+    260,
+    210,
+    260,
+    260,
+    210,
+    140
+   ],
+   "variantes": [
+    "specialiste vmc"
+   ]
+  },
+  {
+   "cle": "3 healthbo renson vmc",
+   "expression": "vmc renson healthbox 3",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 1.34,
+   "serie": [
+    90,
+    110,
+    170,
+    140,
+    320,
+    260,
+    260,
+    210,
+    260,
+    210,
+    210,
+    210
+   ],
+   "variantes": [
+    "vmc renson healthbox 3"
+   ]
+  },
+  {
+   "cle": "sp vmc",
+   "expression": "vmc sp",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.39,
+   "serie": [
+    140,
+    140,
+    140,
+    170,
+    210,
+    210,
+    260,
+    210,
+    260,
+    210,
+    260,
+    140
+   ],
+   "variantes": [
+    "vmc sp"
+   ]
+  },
+  {
+   "cle": "gaine leroy merlin vmc",
+   "expression": "leroy merlin gaine vmc",
+   "volume": 210,
+   "volume_min": 210,
+   "formulations": 1,
+   "fusionne_par_google": false,
+   "cpc": 0.04,
+   "serie": [
+    210,
+    260,
+    210,
+    110,
+    210,
+    210,
+    260,
+    260,
+    260,
+    260,
+    210,
+    170
+   ],
+   "variantes": [
+    "leroy merlin gaine vmc"
+   ]
+  }
+ ]
+}
