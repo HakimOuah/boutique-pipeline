@@ -15,24 +15,19 @@
 ## Lire depuis Claude
 Le connecteur claude.ai **Google Drive** lit le classeur en texte (outil `read_file_content` avec l'ID ci-dessus, ~55 000 caractères pour tout le classeur). Il ne sait **pas écrire** dans les cellules (il ne modifie que titre et dossier). Aucun connecteur Google Sheets natif n'existe dans le registre au 12/09/2026.
 
-## Écrire depuis Claude : pont Apps Script (à déployer une fois par Hakim)
-1. Ouvrir le classeur › Extensions › Apps Script, coller `boutique-pipeline/tools/sheets-bridge/Code.gs`, remplacer `TOKEN` par une chaîne longue et aléatoire, enregistrer.
-2. Déployer › Nouveau déploiement › type « Application web » › Exécuter en tant que **Moi** › Accès **Tout le monde** › Déployer. Autoriser l'accès demandé. Copier l'URL qui finit par `/exec`.
-3. Donner à la conversation Claude : l'URL `/exec` et le jeton. (Ne pas les commiter : les garder dans un gestionnaire de mots de passe ou dans `boutique-pipeline/.env` sous `SHEETS_BRIDGE_URL` et `SHEETS_BRIDGE_TOKEN`, fichier ignoré par git.)
-4. Après toute modification du script, refaire « Déployer › Gérer les déploiements › Modifier › Nouvelle version », sinon l'URL sert l'ancienne version.
-
-Contrat d'appel (POST JSON, réponse JSON `{ok, result|error}`) :
-```bash
-curl -s -L -X POST "$SHEETS_BRIDGE_URL" -H "Content-Type: application/json" -d '{"token":"'"$SHEETS_BRIDGE_TOKEN"'","action":"listTabs"}'
-```
-- `listTabs` → onglets, lignes, colonnes.
-- `read` `{tab, range?, formulas?}` → valeurs (ou formules).
-- `write` `{tab, range:"C7", values:[[...]]}` → écrase un bloc à partir de la cellule.
-- `append` `{tab, values:[[...]]}` → ajoute après la dernière ligne.
-- `insertRows` `{tab, afterRow, values}` → insère des lignes sous une ligne donnée (pour garder l'arbre et les formules E/F/J, copier les formules des lignes voisines ou laisser vides puis recopier).
-- `duplicateTemplate` `{name}` → crée un onglet niche depuis « 🧩 MODÈLE » et l'ajoute à l'Index.
-- `deleteRows` `{tab, row, count}`.
-Le `-L` est obligatoire (Apps Script répond par une redirection 302). Les valeurs numériques s'envoient en nombres JSON, pas en chaînes.
+## Écrire depuis Claude : le pont Apps Script déjà déployé (09/09/2026)
+Hakim a déployé dans le classeur une application web Apps Script (source : `boutique-pipeline/tools/sheets-bridge/Code.gs`). Elle est **réutilisable dans n'importe quelle conversation** : c'est une URL publique protégée par un jeton, indépendante de la session Claude.
+- Où sont l'URL et le jeton : `ecommerce-dropshipping/.env` (fichier ignoré par git), variables `GSHEET_BRIDGE_URL` et `GSHEET_BRIDGE_TOKEN`.
+- Client prêt : `boutique-pipeline/scripts/gsheet_bridge.py` (lit ces deux variables ; les exporter avant : `set -a && . ecommerce-dropshipping/.env && set +a`).
+- Contrat : POST JSON `{"token": …, "ops": [ … ]}` → `{"ok": true, "result": [ … ]}` (un résultat par op, dans l'ordre). Actions :
+  - `read` `{sheet, range}` → matrice de valeurs ;
+  - `write` `{sheet, range:"A8", values:[[…],[…]]}` → écrase le bloc à partir de la cellule ;
+  - `clear` `{sheet, range}` → vide le contenu (formules comprises : ne jamais viser E, F, J) ;
+  - `duplicate` `{source:"🧩 MODÈLE", name:"Nouvelle niche"}` → crée l'onglet ; ajouter ensuite le nom en colonne A de `📇 Index` par un `write`.
+  Une action inconnue renvoie `result: []` sans erreur : vérifier le nom de l'action. Les nombres s'envoient en nombres JSON.
+- Exemple : `python3 scripts/gsheet_bridge.py '[{"action":"read","sheet":"Carport","range":"A6:F9"}]'` (testé le 12/09/2026, réponse ok).
+- Depuis une conversation qui n'a pas accès à ce Mac (claude.ai sans Claude Code), il faut lui coller l'URL et le jeton ; elle ne pourra les utiliser que si elle dispose d'un outil d'exécution (Claude Code, Cowork). Pour changer de jeton : modifier `TOKEN` dans Apps Script puis « Gérer les déploiements › Nouvelle version », l'URL reste la même.
+- Utilisations passées : `analyses/2026-09-09-concurrents-prix/merge_prix.py` et `analyses/2026-09-09-pergola-sourcing/merge.py` (import `gsheet_bridge as g`, `g.call([...])`).
 
 ## Règles de fond à rappeler à la conversation
 - Volumes = DataForSEO France (UK pour les niches UK), MAX du groupe, jamais une somme de variantes proches.
