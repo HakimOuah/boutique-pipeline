@@ -35,13 +35,35 @@ Affirmations ajoutées par erreur dans la première proposition puis retirées a
 trame », « sans gabarit », « ne casse pas si tu le fais tomber », « pas d'attente longue, pas de frais
 de douane », « attaquer les poils longs sans forcer ».
 
-## Reste ouvert (hors descriptions)
+## Bloc « Ce que contient » du kit — copie de thème préparée
 
-**Bloc « Ce que contient » du kit** : Liquid personnalisé en dur dans la section produit du thème
-(`templates/product.json`, variant 55953035297153). Contient encore « Contenu annoncé par le
-fournisseur. » et « Petit outillage (sans malette) ». Modification de thème : copie de travail puis
-publication par Hakim (REGLES.md). Proposition : supprimer la note et remplacer la ligne par
-« Outillage de réglage ».
+| | |
+|---|---|
+| Source | MAIN `190113350017` « Tuftéo 2 » |
+| Copie | **`190353080705`** « Tuftéo 2 — bloc kit 14-09 » (UNPUBLISHED, `themeDuplicate`) |
+| Preview | https://tufteo.com/products/kit-tufting-complet?preview_theme_id=190353080705 |
+
+- `templates/product.json` : ligne `<p class="tuf-compo-note">Contenu annoncé par le fournisseur.</p>`
+  retirée du `custom_liquid` du bloc `composition` (seul chemin JSON modifié, contrôlé par diff
+  sémantique). Écrit par staged upload + `themeFilesUpsert` (retour `upsertedThemeFiles: []`, faux
+  négatif) ; empreinte copie = fichier envoyé `8f1e94783d1137c5055d5bce880cdcf1` ; MAIN inchangé
+  `679ef7c78663459ccc31510b6a85f9c6`. Preview : note 0 (live 1), bloc toujours rendu.
+- Fichiers : [`shopify/backups/2026-09-14-bloc-kit/`](../shopify/backups/2026-09-14-bloc-kit/)
+  (l'API renvoie le template indenté ; Shopify le stocke minifié, d'où 66 565 vs 109 757 octets).
+- **« Petit outillage (sans malette) » ne vient pas du thème** : métachamp de variante
+  `custom.composition` (variante 55953035297153, `gid://shopify/Metafield/200808784232833`).
+  Correction = donnée produit, visible en ligne dès l'écriture, indépendamment de la publication.
+  Proposition : « Petit outillage de réglage » (SET C : clés Allen, clé plate, enfile-aiguille,
+  crochet — `journal/2026-07-22-kit-compositions-variantes.md`). Non écrite, en attente de Hakim.
+- Publication de la copie : Hakim.
+
+## Constat hors périmètre — thème en ligne
+
+Le MAIN `190113350017` « Tuftéo 2 » est la copie « preview branding » du 03/09 marquée « ne pas
+publier » (ETAT.md et TABLEAU.md la disent encore UNPUBLISHED). Constaté le 14/09 sur la fiche kit
+servie sans cookie : « 789 avis », 3 badges « Vérifié », avis démo Manon/Julie/Chloé, barré 350 €
+(`compare_at_price` catalogue). Aucune trace de décision de publication dans les dépôts. Bandeau
+« Brouillon » retiré. Arbitrage conformité : Hakim. La copie `190353080705` hérite de ces éléments.
 
 ## Tracking (contexte)
 
