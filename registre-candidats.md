@@ -834,7 +834,7 @@ dédoublonnés par l'orchestrateur.
 | **Style biker** (boutique-biker.com) | veste biker cuir, gilet biker, bottes biker, sacoche de selle/jambe/réservoir, bague biker, déco biker | Candidat à mesurer — **sourcé partiellement** | **Volumes non mesurés** (25 mots-clés en colonne C). 63 lignes liées, 25 fiches, coût médian 37 €, cible 79,90 €. 9 lignes non rentables retirées (gilet « Américain », botte « Crew », sacoche « Freaty ») ; 43 lignes à sourcer. Casques, gants, EPI et licences exclus |
 
 **Leçons consignées** :
-- Les sous-agents d'arborescence **recopient les totaux de famille des rapports comme s'il s'agissait de volumes de mots-clés** : sur les cinq onglets mesurés, les volumes étaient gonflés de 18 % à 245 %. Il faut relire la ligne 6 de chaque onglet et vérifier que la tête et les collections portent un mot-clé réel, pas une somme.
+- Les sous-agents d'arborescence **recopient les totaux de famille des rapports comme s'il s'agissait de volumes de mots-clés** : sur les cinq onglets mesurés, les volumes étaient gonflés de 17 % à 245 %. Il faut relire la ligne 6 de chaque onglet et vérifier que la tête et les collections portent un mot-clé réel, pas une somme.
 - Des prix cibles posés avant le sourcing produisent des **lignes non rentables**. Il faut relire les marges négatives après chaque sourcing.
 - Le contrôle Chrome des pages publiques trouve des **fiches hors sujet** que l'API juge valides (housse de canapé pour une housse de pouf, chaîne de sac pour une ceinture).
 - Plusieurs agents qui interrogent la même passerelle API la saturent (jusqu'à 45 s par appel, erreurs 137). Les recherches AliExpress en curl finissent sous captcha dès qu'on les parallélise : la découverte passe par **un seul agent Chrome**.
