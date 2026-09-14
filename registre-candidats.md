@@ -763,3 +763,33 @@ tourne-disque, barre de son (marques installées).
 une liste d'univers dropshippables. Contrôle DataForSEO obligatoire avant tout travail
 qualitatif, et vérification de la polysémie de la tête avant de compter.
 
+
+## Passe TrendTrack Simprosys × Google Ads × sans Meta × France — 12 au 14/09/2026
+
+Dossiers (dépôt hub, branche `agents/chaussures-pieds-larges-2026-09-13`) :
+`analyses/2026-09-12-trendtrack-simprosys/`, `2026-09-12-trendtrack-boutiques/`, `2026-09-13-confortal/`,
+`2026-09-13-maintien-domicile-senior/`, `2026-09-13-pressotherapie/`, `2026-09-13-rocking-chair/`,
+`2026-09-13-pieds-de-table/`. Onglets correspondants dans le Sheet Niches SMP.
+
+| Candidat | Synonymes (anti-doublon) | Verdict | Motif |
+|---|---|---|---|
+| **Robinetterie** (preuve Chillow, concurrent Robineto 670 produits) | robinet, mitigeur, colonne de douche, robinet cuisine/salle de bain, douchette, flexible, accessoires évier | **`PASS_PREQUALIFICATION`** — sourcing fait | Arborescence 258 900/mois (13 collections, 58 produits, 53 liens AliExpress niveau A). Mastodontes (Leroy Merlin, Castorama) sur les mots-clés, Shopping ouvert. Reste : Google Trends, 1 fiche à resourcer. Ne pas confondre avec le STOP `robinetterie rétro` du 01/08 (PUR) |
+| **Chaussures pieds larges** (preuve Confortal) | chaussures confort, chaussures pieds sensibles, chaussures larges femme/homme, chausson pieds larges, bottes hiver confort, sabots Boston | **`PASS_PREQUALIFICATION`** — sourcing partiel | Angle « pied large » (34 870, zéro contamination médicale) plutôt qu'« orthopédique » (dispositif et remboursement). Univers ≈ 70–75 k, arborescence 36 480. Famille semelle écartée (CPC 0, remboursement). Reste : Shopping `chaussures pieds larges`, Trends |
+| Maintien à domicile senior (preuve SerenitaHome) | déambulateur, rollator, fauteuil releveur, canne siège, aide à la mobilité | **`STOP_PREQUALIFICATION`** | Marché de prescription et de location : déambulateur ≈ 39 k mais CPC 0,00 € ; fauteuil releveur net 8 390 ; Shopping déambulateur 100 % AliExpress direct |
+| **Pressothérapie** | bottes de pressothérapie, appareil pressothérapie, bottes de compression, bottes de récupération | **`REVIEW_PREQUALIFICATION`** — décision Hakim, recommandation `TECHNICAL_WATCH` | 29 200–35 800 net (au seuil), tête à moitié « séance en cabinet ». Angle récupération ≈ 2 400 seulement (marques Jolt, Therabody). Sourcing A : 65–83 € en prise UE (2 fiches sur 8 sans prise UE). Allégations santé interdites, CE à demander. Produit phare, pas un univers de 300 produits |
+| **Rocking chair / fauteuils relax** (preuve Oscille, Sunlay, Alramo) | fauteuil à bascule, chaise à bascule, rocking chair allaitement, glider, fauteuil relax (pivotant, électrique, inclinable), fauteuil cocon, papasan, siège à bascule | **`PASS_PREQUALIFICATION`** — sourcing A fait, **échantillons requis** | **Reprise motivée en UNIVERS** du PUR `fauteuil d'allaitement` NON RETENU le 02/08. Demande SEMrush + OCB : 82 420 net sans la tête générique `fauteuil relax` (131 920 avec). 84 lignes produit, 73 liens (API Dropshipper + contrôle Chrome), coût médian 142 €, cible médiane 249 €, marge 43 %. Réserves : teddy/allaitement sans photo client et **un seul modèle d'usine décliné** par plusieurs vendeurs ; 16 produits de marques Amazon (COMHOMA, SoBuy, SucceBuy, HiMISS). Échantillons : Rosahqnda teddy, Fangange glider, Anajqaqia côtelé |
+| Pieds de table (preuve OBERIAN) | piètement de table, pied de table métal/bois/basse/central/réglable, pieds de meuble, pied de table sur mesure | **`STOP_PREQUALIFICATION`** — faisabilité (§4) | Demande réelle (≈ 27 000 sur 18 lignes SEMrush) mais **marché de fabricants français sur mesure** (La Fabrique des Pieds 39K, Ripaton, Au bon pied, OBERIAN lui-même fabricant) au prix du coût AliExpress (trapèze 34–43 € coûtant contre 69 € fabricant). Sponsorisé de la tête tenu par le mobilier de restaurant (GGM Möbel). Piètements AliExpress à 0–10 ventes, HOMCOM |
+| Hotte de cuisine (Ciarra) | hotte aspirante, hotte îlot | Écarté | Ciarra = la marque elle-même (Hong Kong), pas un dropshipper ; marché de marques |
+| Concentrateur d'oxygène (VARON-FR) | oxygénothérapie | Écarté | Dispositif médical |
+| Lance-pierres | fronde, lance-pierre de chasse | **Vivier** | 99 % France, opérateur unique noté 1,3 sur Trustpilot, mais 13K visites et question de conformité (arme par destination) |
+| Sac banane (Crossbody Wear) | sac banane femme, sac bandoulière, sac demi-lune, sac de poitrine | Écarté | OCB 22 200 mais 7 boutiques FR mono-niche dont 5 mortes ; ticket 35–55 € ; Shopping tenu par des marques cuir |
+| Sacs et maroquinerie (City Sac, VALMONT, Yo Sac) | cartable, sac à dos enfant, maroquinerie homme | Écarté | Cartables hors fenêtre ; maroquinerie déjà couverte par l'onglet « Bagages de voyage » |
+| Mur végétal et lierre artificiels (Baraylis, Le Lierre Artificiel) | haie artificielle, brise-vue lierre, treillis feuillage | Écarté | Ticket ≈ 30 €, aucun pair français dans TrendTrack, spécialistes en Shopping ; antécédent `mur végétal intérieur modulaire` STOP 17/07 |
+| Déco méditerranéenne (Maison Cyclades) | — | Écarté | Généraliste, 56 visites |
+| Rideaux (Rideaux Paris, Rideaux Maison) | — | Doublon | Couvert par l'univers rideaux occultation du 28/08 (M1) |
+
+**Leçons consignées** :
+- Le filtre TrendTrack « Simprosys + Google Ads + sans Meta » fait remonter des **fabricants** (OBERIAN) et des **marques** (Ciarra) : vérifier le « à propos » avant de tenir une boutique pour une preuve de dropshipping.
+- « France en marché principal » ne veut pas dire boutique française (Ciarra à 30 %).
+- **Sourcing sans navigateur** : SERP AliExpress en curl et API Dropshipper `variants`/`exact` pour le prix, le stock et le fret FR, puis contrôle obligatoire de la page publique dans Chrome (1 fiche sur 46 introuvable malgré l'API).
+- Sur le mobilier rembourré, **plusieurs vendeurs AliExpress vendent le même modèle d'usine** : dédoublonner par les visuels avant de compter un catalogue.
