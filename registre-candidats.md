@@ -838,3 +838,22 @@ dédoublonnés par l'orchestrateur.
 - Des prix cibles posés avant le sourcing produisent des **lignes non rentables**. Il faut relire les marges négatives après chaque sourcing.
 - Le contrôle Chrome des pages publiques trouve des **fiches hors sujet** que l'API juge valides (housse de canapé pour une housse de pouf, chaîne de sac pour une ceinture).
 - Plusieurs agents qui interrogent la même passerelle API la saturent (jusqu'à 45 s par appel, erreurs 137). Les recherches AliExpress en curl finissent sous captcha dès qu'on les parallélise : la découverte passe par **un seul agent Chrome**.
+
+## Mesures OCB, recentrage bagagerie moto et instruction jouets éducatifs — 14/09/2026
+
+Dossier (dépôt hub) : `analyses/2026-09-14-onglets-sheet/`. Fichiers : `ocb-volumes-*.md`, `bagagerie-moto-recentrage.md`, `jouets-educatifs-bbchoupette.md` et les rapports de sourcing. Les 33 analyses OneClickBrand (données SEMrush FR) ont été lancées depuis la session de Hakim.
+
+| Univers | Synonymes (anti-doublon) | Statut 14/09 | État du Sheet et réserves |
+|---|---|---|---|
+| **Style biker** (boutique-biker.com) | veste biker cuir, blouson motard, gilet biker, bottes motard, guardian bell, bague tête de mort, patch moto | **ARCHIVÉ — recentré** | Mesuré à **24 010**, sous le seuil de 30 000. 70 % du volume vient déjà des accessoires moto : guardian bell 5 400, sacoches. Le « style » ne cherche presque rien : bijoux biker 50, déco biker < 100. Onglet marqué archivé, à supprimer à la main |
+| **Bagagerie moto** (décision Hakim 14/09) | sacoche moto, sacoche réservoir/selle/latérale/cavalière/jambe/guidon/crash bar, top case moto/scooter, valise moto, sac à dos moto, sac casque, porte-bagage moto, top case chien | `REVIEW_PREQUALIFICATION` — **sourcé** | **29 040** (tête « sacoche moto » 2 900, 14 collections dont top case moto 4 400). 69 lignes liées, 57 fiches, 3 en entrepôt UE, coût médian 33 €, cible 69,90 €, **21 lignes sous 50 €**. Contrôle Chrome : 49/49 en ligne, 2 retirées hors sujet. Marques dans les titres (Rhinowalk, SWEER, MOTOCENTRIC, KEMIMOTO). Concurrence : Dafy, Motoblouz, Speedway |
+| **Jouets éducatifs** (modèle bbchoupette.com, vivier 120 j) | appareil photo enfant, montre connectée enfant, montre enfant, microscope enfant, veilleuse bébé/enfant, stylo 3D, talkie-walkie enfant, jouet Montessori, jouet en bois, circuit voiture, jumelles enfant | `PASS_PREQUALIFICATION` — **sourcé** | **200 530** (appareil photo enfant 27 100, montre connectée enfant 22 200, veilleuse bébé 18 100, stylo 3D 14 800). 77 lignes liées, coût médian 12 €, **cible médiane 36,90 €, 55 lignes sous 50 €**. Contrôle Chrome : 79/79 en ligne, 2 retirées (imprimante, montre « Lenovo »). Réserves : SERP tenues par les marques (VTech 14 800, Flik Flak 22 200, Nature & Découvertes), conformité CE/EN 71, montres 4G à tester sur les réseaux FR, jeux de maths à 0 recherche |
+| **Paravent** (mise à jour) | + paravent rotin, paravent bambou, paravent cannage, paravent osier | inchangé | Collection rotin/bambou mesurée : « paravent bambou » 1 000 (rotin 720, cannage 320, osier 260 non placés, faute de produit). Total **53 070**. OCB donne des volumes supérieurs à la mesure du 02/08 (« paravent intérieur » 22 200 contre 14 800), non repris |
+
+**Classement des niches par opportunité (14/09, pour Hakim)** : rocking chair 8/10 · rideaux occultants 7 · paravent 6,5 · jouets éducatifs 6 · poufs 6 · puzzle 3D bois 5 · globe 5 · pressothérapie 5 · bagagerie moto 4,5 · style biker 2 · pieds de table 1 · plaque funéraire 1. Suite décidée : **copywriting et visuels du rocking chair**.
+
+**Leçons consignées** :
+- OCB a déménagé sur `app.oneclickbrand.ai` ; l'ancienne adresse `oneclickbrand.ai/keyword-analysis` renvoie 404. Les analyses se lancent **en parallèle dans plusieurs onglets** (2 à 4 minutes chacune, 1 quota chacune). L'onglet garde le texte caché « Nous analysons » même quand le résultat est prêt : il faut recharger la page et tester la présence de « Courte traîne ».
+- Une graine trop précise (« veste biker cuir homme ») ne rend que 2 mots-clés. Il faut lancer des graines larges (« sacoche moto » rend 91 mots-clés).
+- Les sous-agents qui lancent des vérifications en arrière-plan puis attendent une notification s'arrêtent : il faut exiger le premier plan dans le brief.
+- Les comparables indépendants se lisent sans navigateur via `/products.json` des boutiques Shopify (boutique-biker.com, lepratique-du-motard.fr, bbchoupette.com).
