@@ -7,7 +7,7 @@ Bercelou est **le spécialiste du fauteuil à bascule** : rocking chairs d'allai
 
 ## Ton
 - **Vouvoiement**, chaleureux et apaisant, jamais mièvre. Des phrases courtes et affirmatives, des verbes d'action (« installez-vous », « bercez », « choisissez », « prévoyez »).
-- **Bénéfice d'abord, caractéristique ensuite** : « Vos bras reposent sur des accoudoirs larges et moelleux pendant toute la tétée » avant « accoudoirs rembourrés de 20 cm ». Chaque caractéristique se traduit en gain : dos soulagé, bébé bercé, nuit plus douce, salon plus beau, entretien facile.
+- **Bénéfice d'abord, caractéristique ensuite** : « Vos bras reposent sur des accoudoirs larges et moelleux pendant toute la tétée » avant « accoudoirs rembourrés de 20 cm ». Chaque caractéristique se traduit en gain : dos soutenu, bébé bercé, nuit plus douce, salon plus beau, entretien facile.
 - **Expert qui accompagne** : on anticipe les questions de Camille (se relever, accoudoirs, dossier, bruit, place, entretien, montage) et on y répond avec assurance, chiffres fournisseurs à l'appui.
 - **Sensoriel et concret** : douceur de la bouclette, bascule lente, lumière du soir, coin lecture. Les chiffres (hauteur d'assise, charge, dimensions) sont des arguments de vente et se présentent comme tels.
 - Pas de point d'exclamation, pas de superlatif creux (« le meilleur », « incroyable », « premium », « haut de gamme » sans preuve), pas d'emoji.

@@ -16,3 +16,9 @@
   - 1005010201578018 : Rosahqnda teddy allaitement, échantillon ;
   - 1005012640407961 : Anajqaqia velours côtelé, échantillon ;
   - 1005009897023207 : fauteuil d'allaitement pivotant.
+
+## 14/09 soir — contrôle et corrections
+- **Doublon retiré** : 1005009897023207 (« glider pivotant ») est le même fauteuil teddy que 1005010201578018 (photos et cotes identiques, vendeur Rosahqnda). Le catalogue passe à 43 fiches. La description visuelle des faits fournisseurs était fausse : toujours contrôler la photo.
+- **Promesse « se relever facilement »** retirée des fiches à assise basse (40 cm et 38,5 cm, sous la hauteur standard de 45 cm), remplacée par un conseil d'appui. Elle est gardée pour le côtelé Anajqaqia (46,8 cm) et la chaise rocking chair (54 cm).
+- **Mention d'origine** retirée des tableaux de caractéristiques.
+- **À trancher par Hakim** : fauteuil-relax-electrique-cuir et fauteuil-relax-massant sont des fauteuils releveurs (« aide à se lever »), une catégorie qui recoupe le STOP maintien à domicile senior.

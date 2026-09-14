@@ -75,7 +75,6 @@ Mot-clé · meta title · meta description · H1 · intro de 60 à 100 mots (au-
 | chaise-a-bascule-allaitement-velours | 1005013103645873 | chaise à bascule allaitement velours | 219 € | 149.83 € | fauteuils d'allaitement | chaise à bascule allaitement 590 | 0 |
 | fauteuil-allaitement-chambre-bebe-avec-repose-pieds | 1005012822557916 | fauteuil allaitement chambre bébé avec repose-pieds | 299 € | 169.35 € | fauteuils d'allaitement | fauteuil allaitement chambre bebe 110 | 0 |
 | fauteuil-allaitement-confortable-dossier-haut | 1005012399034232 | fauteuil allaitement confortable dossier haut | 299 € | 169.35 € | fauteuils d'allaitement | fauteuil confortable allaitement 110 | 0 |
-| glider-d-allaitement-pivotant | 1005009897023207 | glider d'allaitement pivotant | 219 € | 102.76 € | fauteuils d'allaitement | meilleur fauteuil allaitement 110 | 0 |
 | rocking-chair-blanc-teddy | 1005012929587244 | rocking chair blanc teddy | 199 € | 127.72 € | rocking chair design & scandinave | rocking chair blanc 390 | 0 |
 | rocking-chair-moderne-inclinable | 1005012105192978 | rocking chair moderne inclinable | 269 € | 141.27 € | rocking chair design & scandinave | rocking chair moderne 170 | 0 |
 | fauteuil-cocon-exterieur | 1005013011290288 | fauteuil cocon extérieur | 199 € | 94.73 € | fauteuils cocon | fauteuil cocon exterieur 140 | 0 |
