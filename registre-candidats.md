@@ -793,3 +793,27 @@ Dossiers (dépôt hub, branche `agents/chaussures-pieds-larges-2026-09-13`) :
 - « France en marché principal » ne veut pas dire boutique française (Ciarra à 30 %).
 - **Sourcing sans navigateur** : SERP AliExpress en curl et API Dropshipper `variants`/`exact` pour le prix, le stock et le fret FR, puis contrôle obligatoire de la page publique dans Chrome (1 fiche sur 46 introuvable malgré l'API).
 - Sur le mobilier rembourré, **plusieurs vendeurs AliExpress vendent le même modèle d'usine** : dédoublonner par les visuels avant de compter un catalogue.
+
+## Vue TrendTrack « annonces Google actives depuis 120 jours » et pistes dérivées — 14/09/2026
+
+Dossiers (dépôt hub) : `analyses/2026-09-12-trendtrack-simprosys/README.md` (section « Bras Ads repris via le MCP »)
+et `analyses/2026-09-14-pistes-ads-120j/` (rapports biker, puzzle 3D, plaque funéraire). Instruction par
+sous-agents, sans DataForSEO (solde négatif) : aucun volume nouveau mesuré.
+
+| Candidat | Synonymes (anti-doublon) | Verdict | Motif |
+|---|---|---|---|
+| **Équipement biker** (preuve boutique-biker.com, 48,8K, annonces depuis 1 466 j) | veste biker cuir, blouson motard cuir, bottes biker, sacoche de selle moto, bagagerie moto, bijoux biker, déco biker | **Candidat à mesurer — périmètre restreint** | **Casques et gants moto bloqués** : ECE 22.06 / EN 13594 obligatoires, AliExpress en DOT ou sans certification. Vendable : style biker sans allégation de protection, bagagerie, bijoux, déco. Shopping : vestes 90–200 € (indépendants et licences Sons of Anarchy à éviter), bottes 120–260 € (spécialistes cuir, Harley-Davidson), sacoches 24–81 € (marketplaces). Blousons et bottes de protection = EPI (conditionnel). 25 mots-clés à mesurer |
+| **Puzzle 3D bois / Book Nook** — mise à jour du GO_CONDITIONNEL du 08/08 | puzzle 3D bois, maquette mécanique, book nook, maison miniature, Robotime, ROKR | **GO_CONDITIONNEL maintenu — lancer après levée** | Nouvelles preuves faibles (Puzzido 441 visites ; Nookette −35 %/30 j ; Bbchoupette = poche de 36 produits dans un généraliste). **Revalidation API : 52/85 fiches vivantes (61 %)**, produit d'appel mort, fiche cœur Ury +10 % et 8 en stock, un monument pivot non livrable FR. 8 conditions sur 11 ouvertes. **Tension de prix** : 69,90 € au-dessus des comparables (49,90–59,90 €). Décisions Hakim : pricing, dropship direct ou repack cadeau |
+| **Plaque funéraire personnalisée** (preuve plaquedeces.fr, annonces depuis 1 083 j) | plaque funéraire, plaque tombale, plaque décès, plaque funéraire photo, médaillon photo tombe, plaque cimetière | **Candidat hors dropshipping AliExpress** | Volume déjà qualifié (salve 01/08, ≥ 15 k, KD 58–62). plaquedeces.fr = **imprimeur-graveur à Grenoble** (NAF 1812Z), maquette validée puis expédition 24–48 h, trafic 38K → 14K sur 6 mois. Pairs = ateliers, la moitié à l'arrêt. **Personnalisation AliExpress manuelle** (photo par chat, non automatisable DSers), 2–3 semaines, risque d'erreur de gravure sur un produit de deuil. Suite possible uniquement avec un atelier de gravure européen, à trouver |
+| Bbchoupette (jouets éducatifs) | jouet éducatif, Montessori, microscope enfant, appareil photo enfant, montre GPS enfant | **Vivier** | Catalogue dropship 22,4K (FR 79 %), 520 produits, médiane 34,90 €. Meilleure famille (Book Nook) = dossier puzzle 3D ; cartables déjà écartés ; microscope enfant, appareil photo enfant et montre GPS enfant libres mais non qualifiés (montre GPS : terrain sensible) |
+| Bracelets de montre connectée (laboutiquedubracelet.fr / SHOPADVENTURE) | bracelet Apple Watch, bracelet montre connectée personnalisé | Écarté (ticket) | 419 annonces actives jusqu'à 919 j, multi-pays UE, mais médiane 39,99 € |
+| Papier peint panoramique (muralconcept.fr, annonces depuis 1 646 j, médiane 360 €) | — | Preuve versée au dossier existant | Déjà « À APPROFONDIR » (sur mesure standard, spécialistes DTC installés) |
+| Sacs façon luxe (leoetviolette.com, 470 €) | — | Écarté | Risque contrefaçon (noms évoquant des sacs de créateurs) |
+| Chapeaux, chevalières gravées, bijoux prénom arabe, foulards, peluches, bébé généraliste, gadgets (lamaisonduchapeau, chevaliere-prestige, diyara, latelierdufoulard, lacompagniedelapeluche, bebeetbambin, jouvio) | — | Écartés (ticket 20–43 €) | Annonces anciennes (321 à 1 404 j) mais sous le plancher |
+| Surplus militaire (surplus-militaires.fr) | — | Écarté | Équipement militaire (déjà exclu au registre) |
+
+**Leçons consignées** :
+- La durée d'annonce isole bien les offres rentables, mais **la moitié des annonces les plus anciennes appartiennent à des marques établies** (isinwheel, Ciarra, Fiido, Gard Pro, Arthur & Aston…).
+- Chez les indépendants, les tickets élevés et durables sont **personnalisés ou sur mesure** (plaques, papier peint panoramique), c'est-à-dire fabriqués et non dropshippés.
+- Le tri `longest_running` de la bibliothèque Google Ads TrendTrack renvoie un artefact de date (2021-10-25) ; préférer `platform=Shopping` trié par portée.
+- Le filtre « sans pixel Meta » n'est pas étanche (Bbchoupette : 100 annonces Meta).
