@@ -817,3 +817,24 @@ sous-agents, sans DataForSEO (solde négatif) : aucun volume nouveau mesuré.
 - Chez les indépendants, les tickets élevés et durables sont **personnalisés ou sur mesure** (plaques, papier peint panoramique), c'est-à-dire fabriqués et non dropshippés.
 - Le tri `longest_running` de la bibliothèque Google Ads TrendTrack renvoie un artefact de date (2021-10-25) ; préférer `platform=Shopping` trié par portée.
 - Le filtre « sans pixel Meta » n'est pas étanche (Bbchoupette : 100 annonces Meta).
+
+## Sheet Niches SMP — onglets construits et sourcés — 14/09/2026
+
+Dossier (dépôt hub) : `analyses/2026-09-14-onglets-sheet/` (bilan, rapports d'onglet et de sourcing,
+vérifications Chrome). Aucune nouvelle mesure de volume : les volumes viennent des dossiers existants,
+dédoublonnés par l'orchestrateur.
+
+| Univers | Synonymes (anti-doublon) | Statut 14/09 | État du Sheet et réserves |
+|---|---|---|---|
+| **Rideaux occultants** (M1, 28/08) | rideau occultant, rideau thermique, rideau phonique, rideau lin, rideau velours, voilage | `PASS_PREQUALIFICATION` — **sourcé** | 90 000 net (après fusion du pluriel). 78 lignes liées, 42 fiches, 100 % Chine, coût médian 24 €, cible 89,90 €. Tringles et accessoires exclus (enseignes). Réserves : délais de 7 à 37 j, tailles non standard, drapeau enseignes non arbitré |
+| **Puzzle 3D bois** | puzzle 3D bois, maquette bateau bois, casse-tête bois, book nook, maison miniature | `GO_CONDITIONNEL` — onglet construit | 68 450 net (corrigé depuis 86 800). 96 lignes liées, 92 fiches, coût médian 10,48 €, **cible médiane 29,90 €, sous le plancher de 50 €**. Monuments minces. 8 conditions du GO ouvertes |
+| **Paravent** | paravent, séparateur de pièce, cloison amovible, paravent japonais/bois/rotin/acoustique | **Reprise motivée — `PASS`** (STOP du 02/08 levé sur un plancher de 50 €) | 52 070 (accents fusionnés) ; adressable ≥ 50 € estimé 32–50 k, **non mesuré**. 30 lignes liées, 24 fiches, **100 % entrepôt UE**, coût médian 87 €, cible 165,90 €. Toile imprimée et miroir sans fiche ; HOMCOM/VEVOR exclus |
+| **Poufs** (03/09) | pouf poire, bean bag, pouf géant, fauteuil pouf, coussin de sol, repose-pieds, pouf extérieur, pouf gamer | `REVIEW_PREQUALIFICATION` — **sourcé** | 46 830 net (corrigé depuis 73 855). 62 lignes liées, 25 fiches, coût médian 59 €, cible 99,90 €. **Housses sans garnissage fréquentes**, délais > 20 j sur le rempli, 12 lignes à sourcer (dont 3 retirées pour non-rentabilité) |
+| **Globe et cartographie** (U3, 15/08) | globe terrestre, mappemonde, carte du monde murale, carte à gratter, globe bar, planisphère | GO marché — **sourcé partiellement** | 54 210 net (corrigé depuis 187 310). 52 lignes liées, 29 fiches, **cible médiane 34,90 €, sous le plancher**. Globe bar non rentable confirmé (coût 143 €) ; carte murale d'août non livrable FR (remplacée) ; 14 lignes à sourcer (globe en français, relief, armillaire) |
+| **Style biker** (boutique-biker.com) | veste biker cuir, gilet biker, bottes biker, sacoche de selle/jambe/réservoir, bague biker, déco biker | Candidat à mesurer — **sourcé partiellement** | **Volumes non mesurés** (25 mots-clés en colonne C). 63 lignes liées, 25 fiches, coût médian 37 €, cible 79,90 €. 9 lignes non rentables retirées (gilet « Américain », botte « Crew », sacoche « Freaty ») ; 43 lignes à sourcer. Casques, gants, EPI et licences exclus |
+
+**Leçons consignées** :
+- Les sous-agents d'arborescence **recopient les totaux de famille des rapports comme s'il s'agissait de volumes de mots-clés** : sur les cinq onglets mesurés, les volumes étaient gonflés de 18 % à 245 %. Il faut relire la ligne 6 de chaque onglet et vérifier que la tête et les collections portent un mot-clé réel, pas une somme.
+- Des prix cibles posés avant le sourcing produisent des **lignes non rentables**. Il faut relire les marges négatives après chaque sourcing.
+- Le contrôle Chrome des pages publiques trouve des **fiches hors sujet** que l'API juge valides (housse de canapé pour une housse de pouf, chaîne de sac pour une ceinture).
+- Plusieurs agents qui interrogent la même passerelle API la saturent (jusqu'à 45 s par appel, erreurs 137). Les recherches AliExpress en curl finissent sous captcha dès qu'on les parallélise : la découverte passe par **un seul agent Chrome**.
