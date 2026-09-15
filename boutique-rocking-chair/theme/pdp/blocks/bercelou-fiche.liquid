@@ -8,11 +8,53 @@
   <div class="bc-block bc-block--{{ block.settings.part }}" {{ block.shopify_attributes }}>
     {%- render 'bercelou-fiche', product: product, part: block.settings.part -%}
   </div>
+  {%- if block.settings.part == 'benefices' -%}
+    <script>
+      (function () {
+        {% # Bercelou : affiche la couleur choisie à côté du libellé et nomme chaque pastille %}
+        function sync() {
+          document.querySelectorAll('variant-picker .variant-picker__option').forEach(function (fs) {
+            var swatches = fs.querySelectorAll('input.swatch-input');
+            if (!swatches.length) return;
+            var label = fs.querySelector('.variant-picker__option-name > span');
+            var checked = fs.querySelector('input.swatch-input:checked');
+            if (label) {
+              var s = label.querySelector('.bc-opt-val');
+              if (!s) {
+                s = document.createElement('strong');
+                s.className = 'bc-opt-val';
+                label.appendChild(s);
+              }
+              s.textContent = checked ? ' ' + checked.value : '';
+            }
+            swatches.forEach(function (i) {
+              i.setAttribute('aria-label', i.value);
+              var l = fs.querySelector('label[for="' + CSS.escape(i.id) + '"]');
+              if (l) l.title = i.value;
+            });
+          });
+        }
+        document.addEventListener('change', function (e) {
+          if (e.target.closest && e.target.closest('variant-picker')) {
+            sync();
+            setTimeout(sync, 300);
+            setTimeout(sync, 900);
+          }
+        });
+        if (document.readyState !== 'loading') sync();
+        else document.addEventListener('DOMContentLoaded', sync);
+      })();
+    </script>
+  {%- endif -%}
 {%- endif -%}
 
 {% stylesheet %}
   .bc-block:empty {
     display: none;
+  }
+
+  .bc-opt-val {
+    font-weight: 600;
   }
 {% endstylesheet %}
 

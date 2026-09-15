@@ -1,7 +1,7 @@
 **Mot-clé principal :** chaise qui se balance
 **Mots-clés secondaires :** chaise à bascule laine d'agneau, chaise à bascule dossier haut
 **Meta title (≤60) :** Chaise qui se balance, laine d'agneau | Bercelou
-**Meta description (≤155) :** Chaise qui se balance en fausse laine d'agneau, dossier haut, jusqu'à 120 kg. 3 coloris. Livraison offerte, garantie 2 ans.
+**Meta description (≤155) :** Chaise qui se balance en fausse laine d'agneau, dossier haut, jusqu'à 113 kg. 3 coloris. Livraison offerte, garantie 2 ans.
 
 ## Chaise à bascule en fausse laine d'agneau, dossier haut
 ## Une chaise à bascule toute douce, pour un coin calme au salon ou à la chambre.
@@ -9,7 +9,7 @@
 ## Bloc d'achat
 - Fausse laine d'agneau, douce au toucher
 - Dossier haut, pour soutenir la tête
-- Patins en bois, jusqu'à 120 kg
+- Patins en bois, jusqu'à 113 kg
 - 3 coloris : gris clair, gris foncé, rose
 
 Livraison offerte en France métropolitaine · Paiement en 3 ou 4 fois · Garantie légale 2 ans · Retours sous 14 jours
@@ -25,7 +25,7 @@ Le dossier remonte haut derrière la tête et les épaules, pour une position st
 ### Vos bras bien soutenus
 Les accoudoirs rembourrés accompagnent le mouvement de bascule.
 
-### Jusqu'à 120 kg, sur patins en bois
+### Jusqu'à 113 kg, sur patins en bois
 La structure repose sur des patins en bois, pour une bascule stable.
 
 ### Trois coloris, un coin calme instantané
@@ -35,7 +35,7 @@ Gris clair, gris foncé ou rose : la chaise trouve sa place dans un coin salon o
 
 | Mesure | Valeur |
 |---|---|
-| Charge maximale | 120 kg |
+| Charge maximale | 113 kg |
 | Dimensions du colis (L×l×H) | 92 × 75 × 70 cm |
 | Poids du colis | 16 kg |
 
@@ -48,7 +48,7 @@ Conseil de place : prévoyez un dégagement derrière la chaise pour une bascule
 | Matière | Fausse laine d'agneau (polaire teddy), structure bois |
 | Coloris disponibles | Gris clair, gris foncé, rose |
 | Accoudoirs | Oui, rembourrés |
-| Charge maximale | 120 kg |
+| Charge maximale | 113 kg |
 | Montage | Assemblage à réception |
 
 ## Entretien
@@ -66,7 +66,7 @@ Une fausse laine d'agneau, douce au toucher, façon polaire teddy.
 Le dossier remonte haut, jusqu'aux épaules.
 
 **3. Quelle charge la chaise supporte-t-elle ?**
-Jusqu'à 120 kg.
+Jusqu'à 113 kg.
 
 **4. La chaise fait-elle du bruit ?**
 La structure repose sur des patins en bois stables. Posez-la sur un tapis épais pour un rendu plus doux.
