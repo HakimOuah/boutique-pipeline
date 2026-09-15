@@ -90,7 +90,6 @@ Mot-clé · meta title · meta description · H1 · intro de 60 à 100 mots (au-
 | fauteuil-relax-moderne | 1005012454786223 | fauteuil relax moderne | 329 € | 160.55 € | fauteuils relax | fauteuil relax moderne 2400 | 0 |
 | fauteuil-relax-manuel | 1005008598267746 | fauteuil relax manuel | 449 € | 290.46 € | fauteuils relax | fauteuil relax manuel 1900 | 0 |
 | fauteuil-relax-cuir | 1005012780948146 | fauteuil relax cuir | 449 € | 242.84 € | fauteuils relax | fauteuil relax cuir 1600 | 0 |
-| fauteuil-relax-design | 1005010018998756 | fauteuil relax design | 449 € | 289.87 € | fauteuils relax | fauteuil relax design 1600 | 4 |
 | fauteuil-relax-de-salon | 1005012809448823 | fauteuil relax de salon | 399 € | 210.5 € | fauteuils relax | fauteuil relax salon 1000 | 0 |
 | fauteuil-relax-pivotant | 1005012491845495 | fauteuil relax pivotant | 499 € | 387.99 € | fauteuils relax | fauteuil relax pivotant 720 | 0 |
 | fauteuil-relax-scandinave | 1005012837772306 | fauteuil relax scandinave | 299 € | 155.57 € | fauteuils relax | fauteuil relax scandinave 720 | 0 |
