@@ -41,3 +41,9 @@
 ## 15/09 — arbitrages Hakim sur les délais
 - **rocking-chair-bambou-pliable retiré** : expédié du Mexique uniquement et stock à 0. Fiche, ligne du catalogue et ligne de BRIEF-COPY supprimées ; collection bois & rotin réécrite sans le bambou (3 fiches). Catalogue : 40 fiches. Ses visuels du lot 3 ne sont pas à publier.
 - **fauteuil-relax-pivotant à 7 à 15 jours ouvrés** (entrepôt déduit en Chine). FAQ, Livraison et retours, Suivre ma commande et les politiques renvoient au délai affiché sur la fiche.
+
+## 15/09 — retour des lots Codex 2 à 5 (188 images sur 198)
+- Codex a refusé deux fiches en contrôlant les photos (§1 vérité produit), à juste titre :
+  - **chaise-a-bascule-allaitement-velours** : les photos montrent une bouclette teddy blanche, pas du velours. La fiche est réécrite et renommée `chaise-a-bascule-allaitement-bouclette`. Le « dossier ailé » est corrigé en dossier haut en deux coussins, avec deux poches et des patins en bois massif. Les cotes viennent de la photo cotée du fournisseur (assise 36,5 cm, donc conseil d'appui).
+  - **fauteuil-relax-design** : chauffage, massage et télécommande étaient une erreur d'extraction ; ils ne figurent ni dans les photos ni dans le titre fournisseur. La fiche est réécrite en relax manuel : pivotant 360°, trois positions de 90 à 160°, repose-jambes, deux porte-gobelets, deux poches, cotes de la photo. **Coloris à trancher** : les photos ne montrent que le noir, en rupture.
+- Leurs visuels seront commandés dans un ordre de reprise, avec les rejets du contrôle qualité des 188 images.

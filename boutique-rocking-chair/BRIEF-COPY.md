@@ -72,7 +72,7 @@ Mot-clé · meta title · meta description · H1 · intro de 60 à 100 mots (au-
 | siege-a-bascule-rembourre | 1005011557882819 | siège à bascule rembourré | 249 € | 135.02 € | chaises à bascule | siège à bascule 480 | 0 |
 | chaise-qui-se-balance | 1005012653961063 | chaise qui se balance | 179 € | 114.65 € | chaises à bascule | chaise qui se balance 320 | 2 |
 | chaise-a-bascule-en-bois | 1005010263245255 | chaise à bascule en bois | 299 € | 162.05 € | chaises à bascule | chaise à bascule bois 170 | 0 |
-| chaise-a-bascule-allaitement-velours | 1005013103645873 | chaise à bascule allaitement velours | 219 € | 149.83 € | fauteuils d'allaitement | chaise à bascule allaitement 590 | 0 |
+| chaise-a-bascule-allaitement-bouclette | 1005013103645873 | chaise à bascule allaitement bouclette | 219 € | 149.83 € | fauteuils d'allaitement | chaise à bascule allaitement 590 | 0 |
 | fauteuil-allaitement-chambre-bebe-avec-repose-pieds | 1005012822557916 | fauteuil allaitement chambre bébé avec repose-pieds | 299 € | 169.35 € | fauteuils d'allaitement | fauteuil allaitement chambre bebe 110 | 0 |
 | fauteuil-allaitement-confortable-dossier-haut | 1005012399034232 | fauteuil allaitement confortable dossier haut | 299 € | 169.35 € | fauteuils d'allaitement | fauteuil confortable allaitement 110 | 0 |
 | rocking-chair-blanc-teddy | 1005012929587244 | rocking chair blanc teddy | 199 € | 127.72 € | rocking chair design & scandinave | rocking chair blanc 390 | 0 |
