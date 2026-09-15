@@ -760,102 +760,6 @@
     "additional_class": ""
    }
   },
-  "reviews_rXFabc": {
-   "type": "reviews",
-   "blocks": {
-    "review_slide_Hdzgcy": {
-     "type": "_review-slide",
-     "name": "t:review_display_1",
-     "settings": {
-      "color_scheme": "scheme-1",
-      "date": "Le 11/03/2025"
-     },
-     "blocks": {}
-    },
-    "review_slide_yQ6B83": {
-     "type": "_review-slide",
-     "name": "t:review_display_1",
-     "settings": {
-      "color_scheme": "scheme-1",
-      "date": "Le 11/03/2025"
-     },
-     "blocks": {}
-    },
-    "review_slide_ahTJkA": {
-     "type": "_review-slide",
-     "name": "t:review_display_1",
-     "settings": {
-      "color_scheme": "scheme-1",
-      "date": "Le 11/03/2025"
-     },
-     "blocks": {}
-    },
-    "review_slide_34Pn7c": {
-     "type": "_review-slide",
-     "name": "t:review_display_1",
-     "settings": {
-      "color_scheme": "scheme-1",
-      "date": "Le 11/03/2025"
-     },
-     "blocks": {}
-    },
-    "review_slide_UEYfRw": {
-     "type": "_review-slide",
-     "name": "t:review_display_1",
-     "settings": {
-      "color_scheme": "scheme-1",
-      "date": "Le 11/03/2025"
-     },
-     "blocks": {}
-    },
-    "review_slide_K7WqwQ": {
-     "type": "_review-slide",
-     "name": "t:review_display_1",
-     "settings": {
-      "color_scheme": "scheme-1",
-      "date": "Le 11/03/2025"
-     },
-     "blocks": {}
-    },
-    "title": {
-     "type": "text",
-     "static": true,
-     "settings": {
-      "text": "<h2>Ils l’ont testé, validé et adopté!</h2>",
-      "text_style": "h3",
-      "margin_bottom": 30
-     },
-     "blocks": {}
-    }
-   },
-   "block_order": [
-    "review_slide_Hdzgcy",
-    "review_slide_yQ6B83",
-    "review_slide_ahTJkA",
-    "review_slide_34Pn7c",
-    "review_slide_UEYfRw",
-    "review_slide_K7WqwQ"
-   ],
-   "name": "t:reviews_slider",
-   "settings": {
-    "show_on_display": "desktop_and_mobile",
-    "anchor": "reviews",
-    "color_scheme": "scheme-2",
-    "layout_type": "slider",
-    "grid_columns": 3,
-    "grid_columns_mobile": "1",
-    "slider_items": 3,
-    "slider_items_mobile": "1",
-    "show_arrows": false,
-    "show_pagination": true,
-    "rewind": false,
-    "padding_top": 50,
-    "padding_bottom": 50,
-    "margin_top": 0,
-    "margin_bottom": 0,
-    "additional_class": ""
-   }
-  },
   "custom_section_qetdex": {
    "type": "custom-section",
    "blocks": {
@@ -1379,7 +1283,6 @@
   "collection_featured_JXRpw3",
   "custom_section_NkHGLz",
   "custom_section_wxUWmx",
-  "reviews_rXFabc",
   "faq_bercelou",
   "custom_section_qetdex"
  ]
