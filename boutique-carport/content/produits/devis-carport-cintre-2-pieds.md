@@ -18,7 +18,7 @@ Le côté voiture reste entièrement libre : vous ouvrez les portières sans pot
 - À vos cotes exactes, du 1 voiture au 2 voitures, hauteur de passage comprise
 - Structure aluminium 6063-T5 thermolaquée : gris mat, champagne, brun mat ou blanc ; toiture au choix : polycarbonate plein de 2 ou 3 mm (bleu lac, transparent, ambre, gris clair ou gris foncé), polycarbonate granité, tuile aluminium ou panneau insonorisant
 - Testé par le fabricant à 122 km/h, garantie fabricant 5 ans
-- Devis ferme sous 48 h, sans engagement, livraison offerte en France métropolitaine ; comptez 10 à 12 semaines entre la validation du devis et la livraison
+- Devis ferme sous 48 h, sans engagement, livraison offerte en France métropolitaine ; délai de livraison précisé sur le devis
 
 **Prix :** Sur devis — réponse sous 48 h avec un prix ferme, livraison comprise
 **CTA :** Demander mon devis gratuit
@@ -47,10 +47,10 @@ Prévoyez d'être deux et réservez une demi-journée. La notice du fabricant gu
 Testé par le fabricant à 122 km/h, avec une tenue de −40 à +120 °C et un classement ignifuge B1 : ce carport est conçu pour rester en place, hiver comme été, dès lors qu'il est ancré comme prévu. Les deux pieds reposent sur des platines aluminium de 135 × 65 × 5 mm. Le certificat CE et les rapports d'essai neige et vent du fabricant vous sont fournis sur demande avec votre devis. Après une forte chute de neige, dégagez le toit : la structure vous remerciera.
 
 ### Bon à savoir
-Ce carport est un abri ouvert sur trois côtés : il protège votre voiture de la pluie, de la grêle, du soleil et du givre, et laisse l'allée dégagée. Pour un espace fermé, tournez-vous vers nos tentes-garages à portes enroulables. Et comme il est fabriqué pour vous, comptez 10 à 12 semaines : le temps d'un abri à vos cotes.
+Ce carport est un abri ouvert sur trois côtés : il protège votre voiture de la pluie, de la grêle, du soleil et du givre, et laisse l'allée dégagée. Pour un espace fermé, tournez-vous vers nos tentes-garages à portes enroulables. Et comme il est fabriqué pour vous, le délai de livraison est précisé sur votre devis, avant tout engagement.
 
 ### La livraison, concrètement
-Fabrication 20 à 30 jours après validation du devis dans l'atelier partenaire, puis transport et livraison par transporteur spécialisé : comptez 10 à 12 semaines entre la validation du devis et la livraison, offerte en France métropolitaine. Livraison sur rendez-vous, en bordure de trottoir, en plusieurs colis longs ; prévoyez d'être deux. Le suivi vous arrive par e-mail à chaque étape.
+Fabrication dans l'atelier partenaire après validation du devis, puis transport et livraison par transporteur spécialisé, offerte en France métropolitaine ; le délai est précisé sur votre devis. Livraison sur rendez-vous, en bordure de trottoir, en plusieurs colis longs ; prévoyez d'être deux. Le suivi vous arrive par e-mail à chaque étape.
 
 ## Déroulé après votre demande
 1. Sous 48 h : votre devis ferme par e-mail (prix TTC livré, délai, rappel des démarches). 2. Vous validez : paiement sécurisé sur une commande dédiée, acompte à la validation du devis puis solde avant expédition, montants précisés sur le devis. Un carport fabriqué à vos cotes ne relève pas du droit de rétractation (article L221-28 du Code de la consommation). 3. Fabrication et transport, suivi par e-mail. 4. Livraison offerte, sur rendez-vous.

@@ -2,7 +2,7 @@
 
 **Mot-clé :** carport alu
 **Meta title (44 car.) :** Carport alu en kit ou sur mesure — Sous Abri
-**Meta description (152 car.) :** Carports aluminium 6063-T5 : toit arqué livré en 4 à 8 semaines, toit plat, adossé ou 1 voiture à vos cotes sur devis. Livraison offerte, guides inclus.
+**Meta description (152 car.) :** Carports aluminium 6063-T5 : toit arqué fabriqué à la commande, toit plat, adossé ou 1 voiture à vos cotes sur devis. Livraison offerte, guides inclus.
 **H1 :** Carport aluminium
 
 ---
@@ -15,9 +15,9 @@ L'aluminium ne rouille jamais, ne se repeint pas et garde son aspect année apr�
 
 Un carport alu protège la voiture du soleil, de la grêle et du givre tout en valorisant la maison, sans l'entretien qu'exigent le bois ou l'acier : ni lasure, ni traitement, ni repeinture. La finition par poudrage électrostatique conserve la teinte, et la toiture en polycarbonate traité anti-UV laisse passer la lumière sans la chaleur : l'espace sous l'abri reste clair, la carrosserie reste fraîche.
 
-Le choix se fait selon votre terrain. Un terrain dégagé, sans mur disponible, appelle le carport aluminium autoportant à toit arqué : quatre poteaux d'angle de 2,50 m, toiture polycarbonate, gouttière et tube d'évacuation intégrés, structure au choix en doré, brun, blanc ou gris et panneaux transparents ou teintés. Fabriqué à la commande dans votre coloris, il est livré en 4 à 8 semaines. Le même savoir-faire donne le carport à toit cintré de 6 × 3,8 m, avec 2,50 m de passage libre, taillé pour les vans aménagés, les caravanes compactes, les SUV et les pick-up.
+Le choix se fait selon votre terrain. Un terrain dégagé, sans mur disponible, appelle le carport aluminium autoportant à toit arqué : quatre poteaux d'angle de 2,50 m, toiture polycarbonate, gouttière et tube d'évacuation intégrés, structure au choix en doré, brun, blanc ou gris et panneaux transparents ou teintés. Fabriqué à la commande dans votre coloris, il est livré par transporteur spécialisé, sur rendez-vous. Le même savoir-faire donne le carport à toit cintré de 6 × 3,8 m, avec 2,50 m de passage libre, taillé pour les vans aménagés, les caravanes compactes, les SUV et les pick-up.
 
-Un mur porteur oriente vers le carport adossé à toit monopente, qui libère l'allée et renvoie l'eau loin de la façade. Une architecture contemporaine ou une place à la géométrie précise appelle le carport toit plat, pour une ou deux voitures. Ces modèles sur devis sont fabriqués à vos cotes exactes : coloris de structure gris mat, champagne, brun mat ou blanc ; toiture au choix entre polycarbonate plein ou à particules, tuile aluminium et panneau insonorisant ; structure testée par le fabricant à 122 km/h de vent, garantie fabricant 5 ans. Envoyez-nous vos dimensions et une photo de l'emplacement : vous recevez un devis ferme, livraison comprise, sous 48 h, puis comptez 10 à 12 semaines jusqu'à la livraison.
+Un mur porteur oriente vers le carport adossé à toit monopente, qui libère l'allée et renvoie l'eau loin de la façade. Une architecture contemporaine ou une place à la géométrie précise appelle le carport toit plat, pour une ou deux voitures. Ces modèles sur devis sont fabriqués à vos cotes exactes : coloris de structure gris mat, champagne, brun mat ou blanc ; toiture au choix entre polycarbonate plein ou à particules, tuile aluminium et panneau insonorisant ; structure testée par le fabricant à 122 km/h de vent, garantie fabricant 5 ans. Envoyez-nous vos dimensions et une photo de l'emplacement : vous recevez un devis ferme, livraison comprise, sous 48 h, puis la livraison intervient dans le délai précisé sur le devis.
 
 Côté démarches, l'emprise au sol décide : jusqu'à 5 m² aucune formalité, de 5 à 20 m² une déclaration préalable, au-delà un permis de construire. Confirmez le seuil applicable auprès de votre mairie ; notre guide déclaration, offert, vous indique les pièces à préparer avant même la commande, pour que le carport arrive quand l'autorisation est acquise.
 

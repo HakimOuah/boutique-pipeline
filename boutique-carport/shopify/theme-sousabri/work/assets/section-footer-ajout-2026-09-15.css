@@ -1,0 +1,18 @@
+
+/* Sous Abri 15/09/2026 : le bloc marque (brand_information, sans titre) doit rester visible sur mobile */
+@media screen and (max-width: 749px) {
+  .footer-block:not(.footer-block--menu):not(.footer-block--image) .collapsible__content {
+    height: auto !important;
+  }
+  .footer-block:not(.footer-block--menu) .collapsible__content > *:first-child {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .footer-block__brand-info {
+    text-align: center;
+  }
+  .footer-block__brand-info .footer-block__image-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

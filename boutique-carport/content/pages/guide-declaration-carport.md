@@ -62,7 +62,7 @@ Toute construction nouvelle, y compris une petite construction dispensée de for
 
 ## Cas particulier : carport pour camping-car ou grand véhicule
 
-Un carport dimensionné pour un van aménagé, une caravane ou un grand véhicule dépasse souvent les 20 m² d'emprise au sol : une longueur de 7 à 8 m suffit à franchir le seuil. Le permis de construire devient alors la règle, avec deux mois d'instruction à intégrer dans votre calendrier. Déposez votre dossier avant de valider votre commande : pour un carport sur devis fabriqué en 10 à 12 semaines, les deux délais se suivent naturellement, et votre abri arrive une fois l'autorisation obtenue.
+Un carport dimensionné pour un van aménagé, une caravane ou un grand véhicule dépasse souvent les 20 m² d'emprise au sol : une longueur de 7 à 8 m suffit à franchir le seuil. Le permis de construire devient alors la règle, avec deux mois d'instruction à intégrer dans votre calendrier. Déposez votre dossier avant de valider votre commande : pour un carport sur devis, fabriqué à vos cotes, les deux délais se suivent naturellement et votre abri arrive une fois l'autorisation obtenue.
 
 ## Carport démontable, tente-garage : les mêmes règles s'appliquent
 

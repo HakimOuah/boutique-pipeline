@@ -19,7 +19,7 @@ Des lignes contemporaines qui s'accordent à la maison, une toiture polycarbonat
 - Toiture au choix : polycarbonate plein de 2 ou 3 mm (bleu lac, transparent, ambre, gris clair ou gris foncé), polycarbonate granité, tuile aluminium ou panneau insonorisant
 - À vos cotes exactes, adaptées à votre allée ou à votre emplacement, hauteur de passage comprise
 - Testé par le fabricant à 122 km/h, garantie fabricant 5 ans
-- Devis ferme sous 48 h, sans engagement, livraison offerte en France métropolitaine ; comptez 10 à 12 semaines entre la validation du devis et la livraison
+- Devis ferme sous 48 h, sans engagement, livraison offerte en France métropolitaine ; délai de livraison précisé sur le devis
 
 **Prix :** Sur devis — réponse sous 48 h avec un prix ferme, livraison comprise
 **CTA :** Demander mon devis gratuit
@@ -48,10 +48,10 @@ Prévoyez d'être deux et réservez une demi-journée à un week-end selon la su
 Testé par le fabricant à 122 km/h : ce carport est conçu pour rester en place, hiver comme été, dès lors qu'il est ancré comme prévu. Les pieds reposent sur des platines aluminium de 135 × 65 × 5 mm : plots béton coulés hors gel sur sol meuble, fixation mécanique adaptée sur dalle ou enrobé ; la préconisation exacte, adaptée à vos cotes, est jointe à votre devis. Le certificat CE et les rapports d'essai neige et vent du fabricant vous sont fournis sur demande avec votre devis. Après une forte chute de neige, dégagez le toit : la structure vous remerciera.
 
 ### Bon à savoir
-Ce carport est un abri ouvert sur les côtés : il protège vos voitures de la pluie, de la grêle, du soleil et du givre, et laisse l'allée dégagée pour manœuvrer. Pour un espace fermé, tournez-vous vers nos tentes-garages à portes enroulables. Et comme il est fabriqué pour vous, comptez 10 à 12 semaines : le temps d'un abri à vos cotes.
+Ce carport est un abri ouvert sur les côtés : il protège vos voitures de la pluie, de la grêle, du soleil et du givre, et laisse l'allée dégagée pour manœuvrer. Pour un espace fermé, tournez-vous vers nos tentes-garages à portes enroulables. Et comme il est fabriqué pour vous, le délai de livraison est précisé sur votre devis, avant tout engagement.
 
 ### La livraison, concrètement
-Fabrication 20 à 30 jours après validation du devis dans l'atelier partenaire, puis transport et livraison par transporteur spécialisé : comptez 10 à 12 semaines entre la validation du devis et la livraison, offerte en France métropolitaine. Livraison sur rendez-vous, en bordure de trottoir, en plusieurs colis longs ; prévoyez d'être deux. Le suivi vous arrive par e-mail à chaque étape.
+Fabrication dans l'atelier partenaire après validation du devis, puis transport et livraison par transporteur spécialisé, offerte en France métropolitaine ; le délai est précisé sur votre devis. Livraison sur rendez-vous, en bordure de trottoir, en plusieurs colis longs ; prévoyez d'être deux. Le suivi vous arrive par e-mail à chaque étape.
 
 ## Déroulé après votre demande
 1. Sous 48 h : votre devis ferme par e-mail (prix TTC livré, délai, rappel des démarches). 2. Vous validez : paiement sécurisé sur une commande dédiée, acompte à la validation du devis puis solde avant expédition, montants précisés sur le devis. Un carport fabriqué à vos cotes ne relève pas du droit de rétractation (article L221-28 du Code de la consommation). 3. Fabrication et transport, suivi par e-mail. 4. Livraison offerte, sur rendez-vous.
@@ -63,7 +63,7 @@ Fabrication 20 à 30 jours après validation du devis dans l'atelier partenaire,
 **4. Dois-je déclarer ce carport en mairie ?** Oui dans la plupart des cas, dès 5 m² d'emprise au sol, et permis de construire au-delà de 20 m² ; votre devis rappelle le seuil applicable à vos dimensions et notre guide déclaration vous accompagne pas à pas.
 **5. Le toit plat tient-il sous la neige ?** La gouttière intégrée évacue l'eau de pluie et de fonte ; après une forte chute de neige, dégagez le toit au balai souple. Les rapports d'essai neige et vent du fabricant vous sont fournis sur demande avec votre devis.
 **6. Quelle différence entre polycarbonate transparent, teinté et opaque ?** Le transparent laisse passer le plus de lumière, idéal si le carport borde une fenêtre ; les teintes (bleu lac, ambre, gris clair, gris foncé) et le polycarbonate granité filtrent davantage la lumière et le regard, pour plus d'ombre en été ; la tuile aluminium et le panneau insonorisant sont opaques, et le panneau insonorisant atténue le bruit de la pluie. Choisissez selon l'usage : lumière ou ombre.
-**7. Pourquoi le délai est-il de 10 à 12 semaines ?** Parce que ce carport est fabriqué à vos dimensions (20 à 30 jours après validation du devis), puis acheminé et livré par un transporteur spécialisé. C'est le délai habituel des spécialistes du carport sur mesure, et vous êtes tenu informé par e-mail à chaque étape.
+**7. Quel est le délai de livraison ?** Il est précisé sur votre devis. Ce carport est fabriqué à vos dimensions après validation du devis, puis acheminé et livré par un transporteur spécialisé, et vous êtes tenu informé par e-mail à chaque étape.
 **8. Puis-je payer en plusieurs fois ?** Oui : en 3 fois avec Klarna ou en 4 fois avec PayPal, selon le montant et les conditions de ces services. Paiement sécurisé.
 
 ## Images (ALT et rôle)

@@ -24,13 +24,13 @@ Quand on cherche un carport, on trouve trois réponses : le fabricant qui pose s
 - Une sélection experte : chaque modèle est vérifié (cotes, kit d'ancrage, contenu des colis) avant d'entrer au catalogue, et sa fiche donne les hauteurs de passage, le contenu du kit et le nombre de colis.
 - Une réponse claire à la question de la mairie : chaque fiche indique le régime applicable en général à ses dimensions, notre guide déclaration vous accompagne pas à pas, et votre mairie confirme.
 - Le nécessaire pour ancrer : ce qui est fourni avec chaque modèle, et notre guide montage et ancrage offert pour le poser dans les règles.
-- Un délai réel par famille, annoncé sur la fiche et suivi par e-mail : 5 à 12 jours ouvrés pour les tentes-garages et le carport acier, 4 à 8 semaines pour les carports aluminium à toit arqué, 10 à 12 semaines pour les carports sur devis fabriqués à vos cotes.
+- Un délai clair, annoncé avant l'achat et suivi par e-mail : expédition sous 1 à 3 jours ouvrés, livraison sous 5 à 12 jours ouvrés ; pour un carport sur devis, le délai figure sur le devis.
 - Des visuels fidèles au produit livré, composés à partir des photos réelles du fabricant.
 - Un service client français qui vous répond sous 1 jour ouvré, du lundi au vendredi, par e-mail ou téléphone, avant et après l'achat.
 
 ## Ce que nous ne promettons pas
 
-- Un carport à vos cotes livré la semaine prochaine : un abri fabriqué pour vous prend 10 à 12 semaines, et vous le savez dès la fiche.
+- Un carport à vos cotes livré la semaine prochaine : un abri fabriqué pour vous prend le temps annoncé sur votre devis, et vous le savez avant de vous engager.
 - Un abri qui tient sans ancrage : la tenue au vent se joue au sol, c'est pourquoi chaque modèle arrive avec de quoi le fixer et un guide pour le faire dans les règles.
 - Une décision d'urbanisme à la place de votre mairie : nous vous donnons les seuils et la méthode, le service urbanisme de votre commune valide votre projet.
 - Un atelier de fabrication : nous sélectionnons des abris produits par des fabricants partenaires, et c'est cette sélection, vérifiée modèle par modèle, qui fait notre métier.

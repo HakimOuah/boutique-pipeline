@@ -88,10 +88,10 @@ Oui, c'est le bon réflexe. Portes fermées, la tente-garage présente une surfa
 Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds : le transporteur vous appelle pour convenir d'un créneau, puis dépose les colis en bordure de trottoir ou à l'entrée la plus proche accessible au camion. Prévoyez d'être deux pour les déplacer jusqu'à votre allée.
 
 **21. Combien de temps faut-il pour recevoir ma commande ?**
-Selon la famille de produit : 5 à 12 jours ouvrés pour les tentes-garages et le carport acier, expédiés depuis la France, l'Allemagne ou la Pologne ; 4 à 8 semaines pour les carports aluminium à toit arqué, fabriqués à la commande dans votre coloris ; 10 à 12 semaines pour les carports aluminium sur devis, fabriqués à vos cotes. Le délai est rappelé sur chaque fiche et suivi par e-mail.
+Une commande passée avant 12 h un jour ouvré est traitée le jour même, expédiée sous 1 à 3 jours ouvrés depuis nos stocks en France, en Allemagne ou en Pologne, puis livrée sous 5 à 12 jours ouvrés. Le suivi vous parvient par e-mail. Pour un carport aluminium sur mesure, le délai figure sur votre devis.
 
-**22. Pourquoi certains carports mettent plusieurs semaines à arriver ?**
-Parce qu'ils sont fabriqués pour vous. Un carport aluminium à toit arqué est produit à la commande dans le coloris choisi ; un carport sur devis est découpé à vos cotes exactes, avec la toiture et la teinte que vous avez retenues, puis acheminé par un transporteur spécialisé. Ces semaines sont celles d'un abri qui s'adapte à votre allée : comptez 4 à 8 semaines pour le toit arqué, 10 à 12 semaines sur devis.
+**22. Pourquoi un carport sur devis a-t-il son propre délai ?**
+Parce qu'il est fabriqué pour vous : découpé à vos cotes exactes, avec la toiture et la teinte que vous avez retenues, puis acheminé par un transporteur spécialisé. Le délai exact figure sur votre devis, avant tout engagement.
 
 **23. Que faire si une pièce est manquante ou cassée à la livraison ?**
 Signalez-le sous 48 heures avec quelques photos, et nous vous renvoyons la pièce à nos frais. Le sujet « Pièce manquante ou cassée » du formulaire de contact est prévu pour cela.
@@ -101,7 +101,7 @@ Signalez-le sous 48 heures avec quelques photos, et nous vous renvoyons la pièc
 ## Retours et garantie
 
 **24. Puis-je changer d'avis après ma commande ?**
-Oui pour les tentes-garages et le carport acier : vous disposez de 14 jours à compter de la réception pour vous rétracter, sans justification. Les carports aluminium fabriqués à la commande ou à vos cotes sont exclus du droit de rétractation (article L221-28 du Code de la consommation), ce que chaque fiche concernée rappelle avant l'achat.
+Oui : vous disposez de 14 jours à compter de la réception pour vous rétracter, sans justification. Seul un carport sur devis, fabriqué à vos cotes, est exclu du droit de rétractation (article L221-28 du Code de la consommation), ce que la page devis rappelle avant tout engagement.
 
 **25. Qui paie les frais de retour ?**
 En cas de rétractation sur un colis volumineux, les frais de retour sont à votre charge ; nous vous indiquons la marche à suivre et le transporteur adapté. Le remboursement intervient sous 14 jours après réception du produit retourné.
@@ -124,7 +124,7 @@ Oui : en 3 fois avec Klarna ou en 4 fois avec PayPal, selon les conditions de ce
 ## Tentes-garages vs carport
 
 **29. Quelle est la différence entre une tente-garage et un carport aluminium ?**
-Deux réponses à deux besoins. La tente-garage vous met à l'abri dès ce week-end : structure acier galvanisé, bâche traitée anti-UV, portes enroulables, livraison en 5 à 12 jours ouvrés, et elle se démonte et se déplace. Le carport aluminium est l'abri qui reste : l'aluminium ne rouille jamais, la toiture polycarbonate traitée UV laisse passer la lumière sans la chaleur, gouttière intégrée, fabriqué à la commande dans votre coloris (4 à 8 semaines pour le toit arqué, 10 à 12 semaines sur devis).
+Deux réponses à deux besoins. La tente-garage vous met à l'abri dès ce week-end : structure acier galvanisé, bâche traitée anti-UV, portes enroulables, livraison en 5 à 12 jours ouvrés, et elle se démonte et se déplace. Le carport aluminium est l'abri qui reste : l'aluminium ne rouille jamais, la toiture polycarbonate traitée UV laisse passer la lumière sans la chaleur, gouttière intégrée, fabriqué à vos cotes sur devis.
 
 **30. Une tente-garage dure-t-elle aussi longtemps qu'un carport aluminium ?**
 Ce sont deux usages complémentaires. La tente-garage est l'abri souple et mobile : sa bâche traitée anti-UV s'entretient d'un coup de balai après la neige et se remplace le jour venu ; la tente-carport fermée sur deux côtés bénéficie d'une garantie fabricant de 1 an. Le carport aluminium est l'investissement qui valorise la maison : structure inaltérable, garantie fabricant 5 ans sur les modèles sur devis. Pour un abri rapide ou temporaire, la tente ; pour un abri définitif, le carport.

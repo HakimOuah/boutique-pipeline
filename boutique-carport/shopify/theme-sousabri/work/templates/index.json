@@ -17,9 +17,9 @@
             "heading": "Votre voiture au sec et à l'ombre, toute l'année",
             "hn": "h1",
             "heading_size": "h1",
-            "subheading": "<p>Carports aluminium, acier et tentes-garages en kit, sélectionnés par le spécialiste français de l'abri voiture. Livraison offerte en France métropolitaine, guides déclaration et montage offerts, conseil par une vraie personne avant et après l'achat.</p>",
+            "subheading": "<p>Carports acier, tentes-garages en kit et carports aluminium sur mesure, sélectionnés par le spécialiste français de l'abri voiture. Livraison offerte en France métropolitaine, guides déclaration et montage offerts, conseil par une vraie personne avant et après l'achat.</p>",
             "primary_button_label": "Voir les carports",
-            "primary_button_url": "/collections/carport-alu",
+            "primary_button_url": "/collections/all",
             "primary_secondary_style": false,
             "secondary_button_label": "Demander un devis sur mesure",
             "secondary_button_url": "/pages/devis-carport-aluminium-toit-plat",
@@ -65,7 +65,7 @@
           "type": "item",
           "settings": {
             "heading": "Garantie légale 2 ans",
-            "description": "<p>Garantie légale de conformité 2 ans. Rétractation 14 jours sur les produits en stock ; les carports aluminium fabriqués à la commande en sont exclus.</p>"
+            "description": "<p>Garantie légale de conformité 2 ans. Rétractation 14 jours après réception, retours encadrés par notre politique.</p>"
           }
         },
         "item-3": {
@@ -193,7 +193,7 @@
         "col-alu": {
           "type": "featured_collection",
           "settings": {
-            "collection": "carport-alu",
+            "collection": "carport-metallique",
             "title_color": "#FFFFFF"
           }
         },
@@ -569,7 +569,7 @@
           "type": "question",
           "settings": {
             "question": "Comment se passe la livraison ?",
-            "answer": "<p>La livraison est offerte en France métropolitaine, Corse comprise. Les colis lourds arrivent par camion, sur rendez-vous, en bordure de trottoir : prévoyez d'être deux pour les réceptionner. Comptez 5 à 12 jours ouvrés pour les tentes-garages et le carport acier, 4 à 8 semaines pour les carports aluminium à toit arqué, fabriqués à la commande.</p>",
+            "answer": "<p>La livraison est offerte en France métropolitaine, Corse comprise. Les colis lourds arrivent par camion, sur rendez-vous, en bordure de trottoir : prévoyez d'être deux pour les réceptionner. Votre commande est expédiée sous 1 à 3 jours ouvrés, puis livrée sous 5 à 12 jours ouvrés, quel que soit le modèle.</p>",
             "open_by_default": false
           }
         },
@@ -618,7 +618,7 @@
           "type": "button",
           "settings": {
             "button_label": "Voir les carports",
-            "button_link": "/collections/carport-alu",
+            "button_link": "/collections/all",
             "button_style_secondary": false
           }
         }

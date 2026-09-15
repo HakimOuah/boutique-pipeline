@@ -23,7 +23,7 @@ Avant de commander, vérifiez trois points. Le mur d'appui doit être porteur et
 
 Côté démarches, un carport adossé est traité comme une extension de la construction existante. Entre 5 et 20 m² d'emprise au sol, une déclaration préalable suffit ; au-delà, le permis de construire s'applique en principe, avec des règles propres aux extensions dans certaines communes couvertes par un plan local d'urbanisme. Confirmez le seuil applicable auprès de votre mairie ; notre guide déclaration, offert, vous accompagne.
 
-Après validation du devis, comptez 10 à 12 semaines jusqu'à la livraison par transporteur spécialisé, sur rendez-vous, livraison comprise dans le prix. Fabriqué à vos mesures, ce carport n'ouvre pas droit à la rétractation de 14 jours (article L221-28 du Code de la consommation) ; nous validons donc chaque cote avec vous avant la mise en production. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, service client français, réponse sous 1 jour ouvré, conseil avant et après l'achat.
+Après validation du devis, la livraison se fait par transporteur spécialisé, sur rendez-vous, dans le délai précisé sur le devis, livraison comprise dans le prix. Fabriqué à vos mesures, ce carport n'ouvre pas droit à la rétractation de 14 jours (article L221-28 du Code de la consommation) ; nous validons donc chaque cote avec vous avant la mise en production. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, service client français, réponse sous 1 jour ouvré, conseil avant et après l'achat.
 
 ## Fiches du catalogue dans cette collection
 

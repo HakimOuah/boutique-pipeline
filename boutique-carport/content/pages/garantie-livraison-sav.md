@@ -23,8 +23,9 @@ Les carports et tentes-garages voyagent avec des transporteurs spécialisés dan
 Chaque famille a son délai, rappelé sur la fiche et suivi par e-mail :
 
 - **Tentes-garages et carport acier** (stock en France, en Allemagne ou en Pologne) : **5 à 12 jours ouvrés**.
-- **Carports aluminium à toit arqué (autoportant, camping-car)** : **4 à 8 semaines**, fabriqués à la commande dans votre coloris.
-- **Carports aluminium sur devis (toit plat, adossé, cintré 2 pieds)** : **10 à 12 semaines** après validation du devis, fabriqués à vos cotes.
+- **Traitement** : une commande passée avant 12 h un jour ouvré est traitée le jour même, puis expédiée sous **1 à 3 jours ouvrés**.
+- **Livraison** : **5 à 12 jours ouvrés** après expédition.
+- **Carports aluminium sur devis** : délai précisé sur votre devis, avant tout engagement.
 
 Ces semaines sont celles d'un abri fabriqué pour vous, puis acheminé par un transporteur spécialisé : le délai habituel des spécialistes du carport, que vous connaissez dès la fiche produit.
 
@@ -45,7 +46,7 @@ Si une pièce manque ou arrive cassée, signalez-le **sous 48 heures** après r�
 
 ## Droit de rétractation
 
-Pour les tentes-garages et le carport acier, vous disposez de **14 jours** à compter de la réception pour vous rétracter, sans justification, conformément au Code de la consommation. Les carports aluminium fabriqués à la commande ou à vos cotes sont exclus du droit de rétractation (article L221-28 du Code de la consommation), ce que chaque fiche concernée rappelle avant l'achat. Pour un produit volumineux comme un carport, les **frais de retour sont à votre charge** ; nous vous indiquons la marche à suivre et le transporteur adapté. Le remboursement intervient dans les 14 jours suivant la réception du produit retourné (ou la preuve de son expédition).
+Pour les tentes-garages et le carport acier, vous disposez de **14 jours** à compter de la réception pour vous rétracter, sans justification, conformément au Code de la consommation. Seul un carport sur devis, fabriqué à vos cotes, est exclu du droit de rétractation (article L221-28 du Code de la consommation), ce que la page devis rappelle avant tout engagement. Pour un produit volumineux comme un carport, les **frais de retour sont à votre charge** ; nous vous indiquons la marche à suivre et le transporteur adapté. Le remboursement intervient dans les 14 jours suivant la réception du produit retourné (ou la preuve de son expédition).
 
 ## Garantie légale de conformité
 

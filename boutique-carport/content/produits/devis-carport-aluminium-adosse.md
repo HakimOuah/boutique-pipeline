@@ -19,7 +19,7 @@ Il s'appuie sur un mur de la maison ou du garage et libère l'allée : moins de 
 - Toit monopente en polycarbonate, incliné pour évacuer l'eau du côté que vous choisissez
 - À vos cotes exactes, adaptées à votre mur d'appui ; structure aluminium 6063-T5 thermolaquée en gris mat, champagne, brun mat ou blanc
 - Testé par le fabricant à 122 km/h, garantie fabricant 5 ans
-- Devis ferme sous 48 h, sans engagement, livraison offerte en France métropolitaine ; comptez 10 à 12 semaines entre la validation du devis et la livraison
+- Devis ferme sous 48 h, sans engagement, livraison offerte en France métropolitaine ; délai de livraison précisé sur le devis
 
 **Prix :** Sur devis — réponse sous 48 h avec un prix ferme, livraison comprise
 **CTA :** Demander mon devis gratuit
@@ -48,10 +48,10 @@ Prévoyez d'être deux et réservez une demi-journée. La notice du fabricant gu
 Côté mur, la structure est solidaire du bâtiment ; côté opposé, les pieds s'ancrent au sol sur leurs platines aluminium de 135 × 65 × 5 mm : plots béton coulés hors gel sur sol meuble, fixation mécanique sur dalle. La préconisation exacte, adaptée à vos cotes, est jointe à votre devis. La structure est testée par le fabricant à 122 km/h ; le certificat CE et les rapports d'essai neige et vent vous sont fournis sur demande avec votre devis. Après une forte chute de neige, dégagez le toit : la structure vous remerciera.
 
 ### Bon à savoir
-Ce carport est un abri ouvert à l'avant : le mur coupe le vent d'un côté, la toiture protège votre voiture de la pluie, de la grêle, du soleil et du givre, et vous montez en voiture au sec devant la porte. Pour un espace fermé, tournez-vous vers nos tentes-garages à portes enroulables. Et comme il est fabriqué pour vous, comptez 10 à 12 semaines : le temps d'un abri à vos cotes.
+Ce carport est un abri ouvert à l'avant : le mur coupe le vent d'un côté, la toiture protège votre voiture de la pluie, de la grêle, du soleil et du givre, et vous montez en voiture au sec devant la porte. Pour un espace fermé, tournez-vous vers nos tentes-garages à portes enroulables. Et comme il est fabriqué pour vous, le délai de livraison est précisé sur votre devis, avant tout engagement.
 
 ### La livraison, concrètement
-Fabrication 20 à 30 jours après validation du devis dans l'atelier partenaire, puis transport et livraison par transporteur spécialisé : comptez 10 à 12 semaines entre la validation du devis et la livraison, offerte en France métropolitaine. Livraison sur rendez-vous, en bordure de trottoir, en plusieurs colis longs ; prévoyez d'être deux. Le suivi vous arrive par e-mail à chaque étape.
+Fabrication dans l'atelier partenaire après validation du devis, puis transport et livraison par transporteur spécialisé, offerte en France métropolitaine ; le délai est précisé sur votre devis. Livraison sur rendez-vous, en bordure de trottoir, en plusieurs colis longs ; prévoyez d'être deux. Le suivi vous arrive par e-mail à chaque étape.
 
 ## Déroulé après votre demande
 1. Sous 48 h : votre devis ferme par e-mail (prix TTC livré, délai, rappel des démarches). 2. Vous validez : paiement sécurisé sur une commande dédiée, acompte à la validation du devis puis solde avant expédition, montants précisés sur le devis. Un carport fabriqué à vos cotes ne relève pas du droit de rétractation (article L221-28 du Code de la consommation). 3. Fabrication et transport, suivi par e-mail. 4. Livraison offerte, sur rendez-vous.
@@ -62,7 +62,7 @@ Fabrication 20 à 30 jours après validation du devis dans l'atelier partenaire,
 **3. Le devis m'engage-t-il ?** Non, il est gratuit et sans engagement. Vous décidez ensuite, à votre rythme.
 **4. Le mur protège-t-il vraiment du vent ?** Il coupe le vent venant de son côté, et la structure, testée par le fabricant à 122 km/h, tient le reste dès lors qu'elle est ancrée comme prévu : fixation murale sur chevilles adaptées, pieds sur platines côté opposé.
 **5. Combien de temps prend le montage ?** Comptez une demi-journée à deux. La fixation murale est l'étape clé : prenez le temps de la mettre de niveau, le reste suit.
-**6. Pourquoi le délai est-il de 10 à 12 semaines ?** Parce que ce carport est fabriqué à vos dimensions (20 à 30 jours après validation du devis), puis acheminé et livré par un transporteur spécialisé. C'est le délai habituel des spécialistes du carport sur mesure, et vous êtes tenu informé par e-mail à chaque étape.
+**6. Quel est le délai de livraison ?** Il est précisé sur votre devis. Ce carport est fabriqué à vos dimensions après validation du devis, puis acheminé et livré par un transporteur spécialisé, et vous êtes tenu informé par e-mail à chaque étape.
 **7. La toiture tient-elle sous la neige ?** Le toit monopente évacue l'eau et la neige du côté que vous choisissez ; après une forte chute, dégagez-le au balai souple. Les rapports d'essai neige et vent du fabricant vous sont fournis sur demande avec votre devis.
 **8. Puis-je payer en plusieurs fois ?** Oui : en 3 fois avec Klarna ou en 4 fois avec PayPal, selon le montant et les conditions de ces services. Paiement sécurisé.
 

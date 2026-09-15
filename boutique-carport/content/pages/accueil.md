@@ -80,9 +80,9 @@ Bouton : Lire le guide déclaration offert → `guide-declaration-carport`
 **Description :** Carports aluminium et acier livrés en kit, tentes-garages pour être à l'abri dès ce week-end. Chaque modèle est vérifié avant d'entrer au catalogue, et les prix affichés comprennent la livraison.
 
 ### Carports aluminium (kit)
-- **Carport aluminium toit plat sur mesure, 1 ou 2 voitures** — devis sous 48 h, 10 à 12 semaines (fabrication sur mesure)
-- **Carport aluminium adossé sur mesure, toit monopente** — devis sous 48 h, 10 à 12 semaines (fabrication sur mesure)
-- **Carport aluminium autoportant, toit arqué** — 1 199 € — 4 à 8 semaines (fabriqué à la commande dans votre coloris)
+- **Carport aluminium toit plat sur mesure, 1 ou 2 voitures** — devis sous 48 h, délai précisé sur le devis (fabrication sur mesure)
+- **Carport aluminium adossé sur mesure, toit monopente** — devis sous 48 h, délai précisé sur le devis (fabrication sur mesure)
+- **Carport aluminium autoportant, toit arqué** — 1 199 € — fabriqué à la commande dans votre coloris (fiche en brouillon pendant l'examen GMC, 15/09/2026)
 
 ### Carport acier
 - **Carport acier thermolaqué 4,5 × 3 m, toit tôle, noir** — 1 069 € — 5 à 12 jours ouvrés (stock Pologne)
@@ -92,10 +92,10 @@ Bouton : Lire le guide déclaration offert → `guide-declaration-carport`
 - **Tente-garage 4 × 6 m fermée, fenêtres maille** — 609 € — 5 à 12 jours ouvrés (stock Allemagne)
 
 ### Camping-car
-- **Carport camping-car aluminium, toit cintré 6 × 3,8 m** — 1 939 € — 4 à 8 semaines (fabriqué à la commande, hauteur libre 2,50 m : l'abri des vans aménagés et des caravanes compactes)
+- **Carport camping-car aluminium, toit cintré 6 × 3,8 m** — 1 939 € — fabriqué à la commande (fiche en brouillon pendant l'examen GMC, 15/09/2026 ; hauteur libre 2,50 m : l'abri des vans aménagés et des caravanes compactes)
 - **Tente-garage 4 × 7,6 m, parois amovibles** — 749 € — 5 à 12 jours ouvrés (stock Allemagne, 7,65 m de long pour tout ce qui ne rentre pas dans un garage)
 
-*Délais : les carports aluminium sont fabriqués à la commande, dans votre coloris, puis acheminés par transport maritime. Comptez 4 à 8 semaines pour les toits arqués et 10 à 12 semaines pour les modèles sur devis, la norme du kit aluminium sur mesure (4 à 12 semaines annoncées sur le marché). Le délai est indiqué sur chaque fiche et rappelé à la commande.*
+*Délais (examen GMC, 15/09/2026) : un seul délai affiché sur tout le site, expédition sous 1 à 3 jours ouvrés et livraison sous 5 à 12 jours ouvrés ; les carports aluminium sur devis renvoient au délai du devis.*
 
 **Bloc « Choisissez votre famille d'abri » (collection-list) :** carports aluminium · tentes-garages · camping-car.
 **Bloc devis (sous les familles) :** Un projet à vos cotes exactes (toit plat 1 ou 2 voitures, adossé, ou cintré à 2 pieds) ? Aluminium 6063-T5, coloris et toiture au choix, garantie fabricant 5 ans. Devis ferme sous 48 h ouvrées, livraison comprise, sans engagement. → Demander un devis carport aluminium
@@ -134,7 +134,7 @@ Chaque fiche Sous Abri indique l'emprise au sol du modèle et la démarche qui s
 | | Tente-garage (nous) | GSB / marketplace | Carport aluminium ou acier en kit (nous) | Garage en dur |
 |---|---|---|---|---|
 | Prix | 459–749 €, livraison comprise | ~230–375 € (entrée de gamme, relevé septembre 2026) | 1 069–1 939 € à prix fixe livraison comprise, sur mesure sur devis | Plusieurs milliers d'euros, pose comprise |
-| Délai | 5 à 12 jours ouvrés | Souvent 4 à 10 jours | 5 à 12 jours ouvrés (acier), 4 à 8 semaines (aluminium toit arqué), 10 à 12 semaines (sur devis) | Plusieurs mois (devis, travaux) |
+| Délai | 5 à 12 jours ouvrés | Souvent 4 à 10 jours | 5 à 12 jours ouvrés (acier), délai sur devis (aluminium sur mesure) | Plusieurs mois (devis, travaux) |
 | Démarches | Indiquées sur la fiche, guide déclaration offert | À chercher soi-même | Indiquées sur la fiche, guide déclaration offert | Permis de construire quasi systématique |
 | Montage | À deux, quelques heures, sans outil spécial, guide montage offert | À deux, quelques heures, notice parfois sommaire | À deux, jusqu'à un week-end selon le modèle, guide montage et ancrage offert | Entreprise du bâtiment |
 | Usage | Abri d'appoint qui se démonte et se déplace, bâche traitée anti-UV | Variable selon enseigne | Structure durable : aluminium qui ne rouille jamais, acier thermolaqué anticorrosion | Investissement immobilier |
@@ -173,7 +173,7 @@ Oui, à condition de l'ancrer. Prévoyez une fixation au sol dans tous les cas :
 Comptez quelques heures à deux pour une tente-garage, sans outil spécial, et jusqu'à un week-end pour un carport aluminium ou acier. La notice illustrée vous guide pas à pas, et notre guide montage et ancrage offert complète le tout.
 
 **Comment se passe la livraison ?**
-La livraison est offerte en France métropolitaine, Corse comprise. Les colis lourds arrivent par camion, sur rendez-vous, en bordure de trottoir : prévoyez d'être deux pour les réceptionner. Comptez 5 à 12 jours ouvrés pour les tentes-garages et le carport acier, 4 à 8 semaines pour les carports aluminium à toit arqué, fabriqués à la commande.
+La livraison est offerte en France métropolitaine, Corse comprise. Les colis lourds arrivent par camion, sur rendez-vous, en bordure de trottoir : prévoyez d'être deux pour les réceptionner. Votre commande est expédiée sous 1 à 3 jours ouvrés, puis livrée sous 5 à 12 jours ouvrés, quel que soit le modèle.
 
 **Qu'est-ce qui distingue Sous Abri d'une grande surface de bricolage ?**
 Le service autour de l'abri. Chaque modèle est vérifié avant d'entrer au catalogue (cotes, kit d'ancrage, contenu des colis), chaque fiche indique la démarche en mairie, les guides déclaration et montage sont offerts, la livraison est offerte sur rendez-vous, et une vraie personne vous conseille avant comme après l'achat.
