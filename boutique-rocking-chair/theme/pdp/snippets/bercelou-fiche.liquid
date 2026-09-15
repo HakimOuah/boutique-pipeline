@@ -1,0 +1,617 @@
+{% doc %}
+  Bercelou : découpe la description produit (structure fixe des fiches) et affiche une partie.
+  Structure attendue : <p><strong>accroche</strong></p><ul>bénéfices</ul><h3>arguments</h3>…
+  puis <h2>Dimensions</h2>, <h2>Caractéristiques</h2>, <h2>Entretien</h2>, <h2>Livraison</h2>, <h2>FAQ</h2>.
+  Une partie absente de la fiche n'affiche rien.
+
+  @param {object} product - Produit
+  @param {string} part - paiement | benefices | livraison | reassurance | accordeons | detail | avant | faq
+{% enddoc %}
+{%- liquid
+  assign chunks = product.description | split: '<h2>'
+  assign intro = chunks.first
+  assign p_dim = ''
+  assign p_car = ''
+  assign p_ent = ''
+  assign p_liv = ''
+  assign p_faq = ''
+  for c in chunks offset: 1
+    assign t = c | split: '</h2>' | first | strip_html | strip
+    assign b = c | split: '</h2>' | last
+    if t contains 'imension'
+      assign p_dim = b
+    elsif t contains 'ract'
+      assign p_car = b
+    elsif t contains 'ntretien'
+      assign p_ent = b
+    elsif t contains 'ivraison'
+      assign p_liv = b
+    elsif t contains 'FAQ'
+      assign p_faq = b
+    endif
+  endfor
+
+  assign accroche = ''
+  assign ul = ''
+  assign args = intro
+  if intro contains '<ul>'
+    assign accroche = intro | split: '<ul>' | first | strip_html | strip
+    assign ul = intro | split: '<ul>' | last | split: '</ul>' | first
+    assign args = intro | split: '</ul>' | last
+  endif
+
+  assign liv_txt = p_liv | strip_html | strip_newlines | strip
+  assign liv_first = liv_txt
+  assign montage = ''
+  assign dmin = 0
+  assign dmax = 0
+  if liv_txt contains 'jours ouvrés'
+    assign liv_parts = liv_txt | split: 'jours ouvrés.'
+    if liv_parts.size > 1
+      assign liv_first = liv_parts.first | append: 'jours ouvrés.'
+      assign montage = liv_parts.last | strip
+    endif
+    assign range = liv_txt | split: ' jours ouvrés' | first | split: ' en ' | last
+    assign dmin = range | split: ' à ' | first | strip | plus: 0
+    assign dmax = range | split: ' à ' | last | strip | plus: 0
+  endif
+-%}
+
+{%- case part -%}
+  {%- when 'paiement' -%}
+    {%- liquid
+      assign has_paypal = false
+      assign has_klarna = false
+      if shop.enabled_payment_types contains 'paypal'
+        assign has_paypal = true
+      endif
+      if shop.enabled_payment_types contains 'klarna'
+        assign has_klarna = true
+      endif
+    -%}
+    {%- if has_paypal or has_klarna -%}
+      <p class="bc-pay">
+        <svg class="bc-ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="M3 10h18M7 15h4"/></svg>
+        <span>
+          {%- if has_klarna and has_paypal -%}
+            Payez en 3 fois avec Klarna ou en 4 fois avec PayPal
+          {%- elsif has_paypal -%}
+            Payez en 4 fois avec PayPal
+          {%- else -%}
+            Payez en 3 fois avec Klarna
+          {%- endif -%}
+          <small>, selon conditions du prestataire</small>
+        </span>
+      </p>
+    {%- endif -%}
+
+  {%- when 'benefices' -%}
+    {%- if ul != blank -%}
+      <ul class="bc-benefits" role="list">
+        {%- assign lis = ul | split: '</li>' -%}
+        {%- for li in lis -%}
+          {%- assign txt = li | strip_html | strip -%}
+          {%- if txt != blank -%}
+            <li>
+              <svg class="bc-check" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m7.5 12.3 3 3 6-6.3"/></svg>
+              <span>{{ txt }}</span>
+            </li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+
+  {%- when 'livraison' -%}
+    {%- if liv_txt != blank -%}
+      {%- liquid
+        assign start_s = 0
+        assign end_s = 0
+        if dmin > 0 and dmax >= dmin
+          assign now_s = 'now' | date: '%s' | plus: 0
+          assign count = 0
+          for i in (1..45)
+            assign ts = i | times: 86400 | plus: now_s
+            assign wd = ts | date: '%u' | plus: 0
+            if wd < 6
+              assign count = count | plus: 1
+              if count == dmin
+                assign start_s = ts
+              endif
+              if count == dmax
+                assign end_s = ts
+                break
+              endif
+            endif
+          endfor
+        endif
+        assign mois = 'janvier,février,mars,avril,mai,juin,juillet,août,septembre,octobre,novembre,décembre' | split: ','
+      -%}
+      <div class="bc-delivery">
+        <svg class="bc-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 6.5h11v9h-11zM13.5 9.5h4l3 3.2v2.8h-7z"/><circle cx="6.5" cy="17" r="1.8"/><circle cx="17" cy="17" r="1.8"/></svg>
+        <div>
+          {%- if end_s > 0 -%}
+            {%- liquid
+              assign d1 = start_s | date: '%-d'
+              assign d2 = end_s | date: '%-d'
+              assign m1i = start_s | date: '%-m' | minus: 1
+              assign m2i = end_s | date: '%-m' | minus: 1
+            -%}
+            <p class="bc-delivery__main">
+              <strong>Livraison offerte</strong>, estimée entre le
+              {{ d1 }}{% if m1i != m2i %} {{ mois[m1i] }}{% endif %} et le {{ d2 }} {{ mois[m2i] }}
+            </p>
+            <p class="bc-delivery__sub">En France métropolitaine, {{ dmin }} à {{ dmax }} jours ouvrés.{% if montage != blank %} {{ montage }}{% endif %}</p>
+          {%- else -%}
+            <p class="bc-delivery__main">{{ liv_first }}</p>
+            {%- if montage != blank -%}<p class="bc-delivery__sub">{{ montage }}</p>{%- endif -%}
+          {%- endif -%}
+        </div>
+      </div>
+    {%- endif -%}
+
+  {%- when 'reassurance' -%}
+    <ul class="bc-reassure" role="list">
+      <li>
+        <svg class="bc-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7M4 4.5v3.8h3.8"/></svg>
+        <span><strong>14 jours</strong> pour changer d'avis</span>
+      </li>
+      <li>
+        <svg class="bc-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v5.5c0 4.3 3 7.8 7 9.5 4-1.7 7-5.2 7-9.5V6z"/><path d="m9 12 2.2 2.2L15.5 10"/></svg>
+        <span><strong>Garantie légale</strong> de 2 ans</span>
+      </li>
+      <li>
+        <svg class="bc-ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8.5 10.5V7.5a3.5 3.5 0 0 1 7 0v3"/></svg>
+        <span><strong>Paiement</strong> sécurisé</span>
+      </li>
+      <li>
+        <svg class="bc-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.5h2.8l1.4 4-2 1.3a11 11 0 0 0 5.4 5.4l1.3-2 4 1.4v2.8a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2z"/></svg>
+        <span><a href="tel:+33756828094"><strong>07 56 82 80 94</strong></a>, du lundi au vendredi</span>
+      </li>
+    </ul>
+
+  {%- when 'accordeons' -%}
+    <div class="accordions accordions--caret accordions--dividers bc-accordions">
+      {%- if p_car != blank -%}
+        <div class="accordion-block">{% render 'accordion', heading: 'Caractéristiques', heading_style: 'paragraph', content: p_car %}</div>
+      {%- endif -%}
+      {%- if p_dim != blank -%}
+        <div class="accordion-block">
+          {% render 'accordion', heading: 'Dimensions', heading_style: 'paragraph', content: p_dim %}
+        </div>
+      {%- endif -%}
+      {%- if p_ent != blank -%}
+        <div class="accordion-block">{% render 'accordion', heading: 'Entretien', heading_style: 'paragraph', content: p_ent %}</div>
+      {%- endif -%}
+      <div class="accordion-block">
+        {%- capture liv_retours -%}
+          {%- if liv_txt != blank -%}<p>{{ liv_txt }}</p>{%- endif -%}
+          <p>Vous disposez de 14 jours après réception pour changer d'avis, sans avoir à vous justifier. Les conditions sont détaillées dans notre <a class="link" href="{{ shop.refund_policy.url | default: '/policies/refund-policy' }}">politique de retour</a>.</p>
+        {%- endcapture -%}
+        {% render 'accordion', heading: 'Livraison et retours', heading_style: 'paragraph', content: liv_retours %}
+      </div>
+    </div>
+
+  {%- when 'detail' -%}
+    {%- assign h3s = args | split: '<h3>' -%}
+    {%- if h3s.size > 1 -%}
+      <div class="bc-detail">
+        <div class="bc-head">
+          <p class="bc-eyebrow">Dans le détail</p>
+          {%- if accroche != blank -%}<h2 class="h3 bc-accroche">{{ accroche }}</h2>{%- endif -%}
+        </div>
+        <div class="bc-rows">
+          {%- assign mc = product.media.size -%}
+          {%- for h in h3s offset: 1 -%}
+            {%- liquid
+              assign title = h | split: '</h3>' | first | strip_html | strip
+              assign body = h | split: '</h3>' | last | strip
+              assign idx = 0
+              if mc > 1
+                assign idx = forloop.index | modulo: mc
+              endif
+              assign m = product.media[idx]
+              assign alt_txt = m.alt | default: title
+            -%}
+            <div class="bc-row{% cycle '', ' bc-row--rev' %}">
+              {%- if m -%}
+                <div class="bc-row__media">
+                  {{ m.preview_image | image_url: width: 1400 | image_tag: loading: 'lazy', widths: '400, 600, 800, 1000, 1400', sizes: '(min-width: 750px) 50vw, 100vw', alt: alt_txt }}
+                </div>
+              {%- endif -%}
+              <div class="bc-row__text">
+                <h3 class="h3">{{ title }}</h3>
+                <div class="bc-rte">{{ body }}</div>
+              </div>
+            </div>
+          {%- endfor -%}
+        </div>
+      </div>
+    {%- endif -%}
+
+  {%- when 'avant' -%}
+    <div class="bc-avant{% if p_dim == blank %} bc-avant--nodim{% endif %}" id="bc-avant">
+      <div class="bc-head">
+        <p class="bc-eyebrow">Avant de commander</p>
+        <h2 class="h2">Ce qu'il faut savoir avant de commander</h2>
+      </div>
+      <div class="bc-avant__grid">
+        {%- if p_dim != blank -%}
+          <div class="bc-card bc-dims">
+            <h3 class="h4">{% if product.type contains 'auteuil' %}Est-ce qu'il rentre chez moi ?{% else %}Les dimensions{% endif %}</h3>
+            <div class="bc-table">{{ p_dim }}</div>
+          </div>
+        {%- endif -%}
+        <div class="bc-qa">
+          {%- if montage != blank -%}
+            <div class="bc-card">
+              <h3 class="h4">Et le montage ?</h3>
+              <p>{{ montage }}</p>
+            </div>
+          {%- endif -%}
+          {%- if liv_first != blank -%}
+            <div class="bc-card">
+              <h3 class="h4">Quand vais-je le recevoir ?</h3>
+              <p>{{ liv_first }}</p>
+            </div>
+          {%- endif -%}
+          <div class="bc-card">
+            <h3 class="h4">Et s'il ne me convient pas ?</h3>
+            <p>Vous avez 14 jours après réception pour changer d'avis. Toutes les étapes sont sur notre page <a class="link" href="/pages/livraison-retours">livraison et retours</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  {%- when 'faq' -%}
+    {%- assign qs = p_faq | split: '<strong>' -%}
+    {%- if qs.size > 1 -%}
+      <div class="bc-faq">
+        <div class="bc-faq__head">
+          <p class="bc-eyebrow">Questions fréquentes</p>
+          <h2 class="h2">Vos questions sur ce modèle</h2>
+        </div>
+        <div class="accordions accordions--caret accordions--dividers bc-accordions">
+          {%- for x in qs offset: 1 -%}
+            {%- liquid
+              assign q = x | split: '</strong>' | first | strip_html | strip
+              assign a = x | split: '</strong>' | last | strip_html | strip
+              assign qn = q | split: '. ' | first
+              if qn.size <= 2
+                assign off = qn.size | plus: 2
+                assign q = q | slice: off, 400
+              endif
+            -%}
+            {%- if q != blank and a != blank -%}
+              {%- capture ans -%}<p>{{ a }}</p>{%- endcapture -%}
+              <div class="accordion-block">{% render 'accordion', heading: q, heading_tag: 'h3', heading_style: 'paragraph', content: ans %}</div>
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+        <div class="bc-card bc-help">
+          <p class="h5">Une autre question ?</p>
+          <p>Notre équipe vous répond du lundi au vendredi, de 9h à 18h.</p>
+          <p><a class="link" href="tel:+33756828094">+33 7 56 82 80 94</a> · <a class="link" href="/pages/contact">Nous écrire</a></p>
+        </div>
+      </div>
+    {%- endif -%}
+{%- endcase -%}
+
+{% stylesheet %}
+  .bc-ico {
+    width: 22px;
+    height: 22px;
+    flex: none;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .bc-pay {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    font-size: var(--font-body--size-small, 14px);
+  }
+
+  .bc-pay small {
+    opacity: 0.7;
+    font-size: inherit;
+  }
+
+  .bc-benefits {
+    list-style: none;
+    margin: 4px 0 0;
+    padding: 0;
+    display: grid;
+    gap: 10px;
+  }
+
+  .bc-benefits li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .bc-check {
+    width: 22px;
+    height: 22px;
+    flex: none;
+    margin-top: 1px;
+  }
+
+  .bc-check circle {
+    fill: #ae5420;
+  }
+
+  .bc-check path {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .bc-delivery {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    padding: 14px 16px;
+    border-radius: 14px;
+    background: #e7dfd1;
+    color: #22201c;
+  }
+
+  .bc-delivery p {
+    margin: 0;
+  }
+
+  .bc-delivery__sub {
+    margin-top: 2px !important;
+    font-size: var(--font-body--size-small, 14px);
+    opacity: 0.8;
+  }
+
+  .bc-reassure {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px 16px;
+    font-size: var(--font-body--size-small, 14px);
+  }
+
+  .bc-reassure li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    line-height: 1.3;
+  }
+
+  .bc-reassure .bc-ico {
+    color: #1e2a3a;
+  }
+
+  .bc-reassure a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .bc-accordions .accordion__content > * {
+    margin: 0;
+  }
+
+  .bc-accordions table,
+  .bc-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .bc-accordions thead,
+  .bc-table thead {
+    display: none;
+  }
+
+  .bc-accordions td,
+  .bc-table td {
+    padding: 9px 0;
+    border-bottom: 1px solid var(--color-border);
+    vertical-align: top;
+  }
+
+  .bc-accordions td:last-child,
+  .bc-table td:last-child {
+    text-align: right;
+    padding-left: 16px;
+    font-weight: 600;
+  }
+
+  .bc-section {
+    background: var(--color-background);
+    color: var(--color-foreground);
+  }
+
+  .bc-section__inner {
+    padding-block: 56px;
+  }
+
+  @media (width > 750px) {
+    .bc-section__inner {
+      padding-block: 88px;
+    }
+  }
+
+  .bc-head {
+    max-width: 720px;
+    margin-bottom: 32px;
+  }
+
+  .bc-head .h2 {
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  .bc-eyebrow {
+    margin: 0 0 10px;
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ae5420;
+  }
+
+  .color-scheme-3 .bc-eyebrow {
+    color: #e08e45;
+  }
+
+  .bc-rows {
+    display: grid;
+    gap: 40px;
+  }
+
+  .bc-row {
+    display: grid;
+    gap: 18px;
+    align-items: center;
+  }
+
+  .bc-row__media img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 14px;
+  }
+
+  .bc-row__text .h3 {
+    margin: 0 0 10px;
+    text-wrap: balance;
+  }
+
+  .bc-rte > * {
+    margin: 0 0 10px;
+  }
+
+  @media (width > 750px) {
+    .bc-rows {
+      gap: 64px;
+    }
+
+    .bc-row {
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+    }
+
+    .bc-row--rev .bc-row__media {
+      order: 2;
+    }
+
+    .bc-row__media img {
+      aspect-ratio: 5 / 4;
+    }
+
+    .bc-row__text {
+      max-width: 480px;
+    }
+  }
+
+  .bc-card {
+    background: #fff;
+    color: #22201c;
+    border-radius: 14px;
+    padding: 20px;
+  }
+
+  .bc-card .h4,
+  .bc-card .h5 {
+    margin: 0 0 8px;
+  }
+
+  .bc-card p {
+    margin: 0;
+  }
+
+  .bc-card p + p {
+    margin-top: 8px;
+  }
+
+  .bc-avant__grid {
+    display: grid;
+    gap: 16px;
+  }
+
+  .bc-qa {
+    display: grid;
+    gap: 16px;
+    align-content: start;
+  }
+
+  .bc-dims p {
+    margin-top: 12px;
+    font-size: var(--font-body--size-small, 14px);
+  }
+
+  @media (width > 750px) {
+    .bc-avant__grid {
+      grid-template-columns: 1.1fr 1fr;
+      gap: 24px;
+    }
+
+    .bc-avant--nodim .bc-avant__grid {
+      grid-template-columns: 1fr;
+    }
+
+    .bc-avant--nodim .bc-qa {
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+
+    .bc-card {
+      padding: 28px;
+    }
+  }
+
+  .bc-faq {
+    display: grid;
+    gap: 24px;
+  }
+
+  .bc-faq__head .h2 {
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  .bc-head .bc-accroche {
+    margin: 0;
+    max-width: 640px;
+    text-wrap: balance;
+  }
+
+  .bc-help {
+    border: 1px solid var(--color-border);
+  }
+
+  @media (width > 750px) {
+    .bc-faq {
+      grid-template-columns: 1fr 1.4fr;
+      grid-template-rows: auto 1fr;
+      column-gap: 64px;
+      row-gap: 24px;
+      align-items: start;
+    }
+
+    .bc-faq > .bc-accordions {
+      grid-column: 2;
+      grid-row: 1 / span 2;
+    }
+
+    .bc-faq > .bc-help {
+      grid-column: 1;
+      grid-row: 2;
+    }
+  }
+{% endstylesheet %}

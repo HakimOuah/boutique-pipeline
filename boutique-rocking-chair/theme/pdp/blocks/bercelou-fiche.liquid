@@ -1,0 +1,40 @@
+{%- liquid
+  assign product = closest.product | default: product
+  if request.visual_preview_mode and product == blank
+    assign product = collections.all.products.first
+  endif
+-%}
+{%- if product != blank -%}
+  <div class="bc-block bc-block--{{ block.settings.part }}" {{ block.shopify_attributes }}>
+    {%- render 'bercelou-fiche', product: product, part: block.settings.part -%}
+  </div>
+{%- endif -%}
+
+{% stylesheet %}
+  .bc-block:empty {
+    display: none;
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "Bercelou · fiche",
+  "tag": null,
+  "settings": [
+    {
+      "type": "select",
+      "id": "part",
+      "label": "Partie de la fiche",
+      "options": [
+        { "value": "paiement", "label": "Paiement fractionné" },
+        { "value": "benefices", "label": "Bénéfices (liste de la description)" },
+        { "value": "livraison", "label": "Livraison estimée et montage" },
+        { "value": "reassurance", "label": "Réassurance" },
+        { "value": "accordeons", "label": "Accordéons de la fiche" }
+      ],
+      "default": "benefices"
+    }
+  ],
+  "presets": [{ "name": "Bercelou · fiche", "category": "t:product" }]
+}
+{% endschema %}

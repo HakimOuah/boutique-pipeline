@@ -1,0 +1,42 @@
+{%- liquid
+  if request.visual_preview_mode and product == blank
+    assign product = collections.all.products.first
+  endif
+  capture inner
+    if product != blank
+      render 'bercelou-fiche', product: product, part: section.settings.part
+    endif
+  endcapture
+-%}
+{%- if inner != blank -%}
+  <div class="bc-section color-{{ section.settings.color_scheme }}">
+    <div class="page-width bc-section__inner">{{ inner }}</div>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Bercelou · fiche",
+  "settings": [
+    {
+      "type": "select",
+      "id": "part",
+      "label": "Partie de la fiche",
+      "options": [
+        { "value": "detail", "label": "Dans le détail (arguments et images)" },
+        { "value": "avant", "label": "Avant de commander (cotes, montage, délai, retour)" },
+        { "value": "faq", "label": "FAQ du modèle" }
+      ],
+      "default": "detail"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:color_scheme",
+      "default": "scheme-1"
+    }
+  ],
+  "enabled_on": { "templates": ["product"] },
+  "presets": [{ "name": "Bercelou · fiche" }]
+}
+{% endschema %}
