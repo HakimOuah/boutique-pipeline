@@ -17,7 +17,7 @@ Livraison offerte en France métropolitaine · Paiement sécurisé en 3 ou 4 foi
 
 ## Description
 
-Ce repose-pieds rond et rembourré se pose devant votre fauteuil à bascule pour poser les pieds. Sa housse en coton et lin se retire et se lave, pour rester net au fil des usages.
+Ce repose-pieds rond et rembourré se pose devant votre fauteuil à bascule pour poser les pieds. Sa housse en coton et lin se retire et se lave, pour rester nette au fil des usages.
 
 ### Rembourré, en coton et lin
 Le pouf est garni d'un rembourrage et habillé d'un tissu en coton et lin.
@@ -42,7 +42,6 @@ Ce repose-pieds se choisit parmi de nombreux coloris, pour s'accorder à votre f
 | Matière | Coton et lin |
 | Rembourré | Oui |
 | Housse | Amovible, lavable en machine à 50°C, sèche-linge autorisé |
-| Poids du colis | 0,32 kg |
 
 ## Livraison
 Livraison offerte en France métropolitaine, en 7 à 15 jours ouvrés.

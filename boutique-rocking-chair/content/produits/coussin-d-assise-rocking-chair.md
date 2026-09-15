@@ -17,10 +17,10 @@ Livraison offerte en France métropolitaine · Paiement sécurisé en 3 ou 4 foi
 
 ## Description
 
-Ce coussin se pose dans un panier suspendu déjà en place. Il est vendu seul : la structure et le panier en rotin visibles en photo ne sont pas inclus.
+Ce coussin se pose dans un panier suspendu déjà en place. Il est vendu seul : la structure et le panier en rotin ne sont pas inclus.
 
 ### Un coussin seul, sans structure
-Seul le coussin est livré ; le panier suspendu et son pied ne sont pas inclus dans cette fiche.
+Seul le coussin est livré ; le panier suspendu et son pied ne sont pas inclus.
 
 ### Une housse amovible et lavable
 La housse se retire et se lave, pour garder le coussin net au fil des saisons.

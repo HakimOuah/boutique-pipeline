@@ -79,7 +79,7 @@ Jusqu'à 150 kg pour le fauteuil, 30 kg pour le repose-pieds.
 Ce fauteuil se choisit en gris ou en noir.
 
 **5. Quel espace faut-il prévoir ?**
-La base mesure 90 × 77 cm. Prévoyez un dégagement libre à l'arrière pour la bascule.
+La base mesure 77 cm de long. Prévoyez un dégagement libre à l'arrière pour la bascule.
 
 **6. Quels sont les délais de livraison ?**
 Livraison en 3 à 10 jours ouvrés, offerte en France métropolitaine.

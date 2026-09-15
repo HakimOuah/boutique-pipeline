@@ -1,7 +1,7 @@
 **Mot-clé principal :** fauteuil relax extérieur inclinable
 **Mots-clés secondaires :** fauteuil relax de jardin
 **Meta title (≤60) :** Fauteuil relax extérieur, zéro gravité | Bercelou
-**Meta description (≤155) :** Fauteuil relax extérieur inclinable zero gravity, coussin matelassé, pliable à plat, jusqu'à 226 kg. Livraison offerte, garantie légale 2 ans.
+**Meta description (≤155) :** Fauteuil relax extérieur inclinable zéro gravité, coussin matelassé, pliable à plat, jusqu'à 226 kg. Livraison offerte, garantie légale 2 ans.
 
 ## H1
 Fauteuil relax extérieur inclinable, zéro gravité
@@ -21,16 +21,16 @@ Livraison offerte en France métropolitaine · Retours sous 14 jours · Garantie
 Le fauteuil relax extérieur inclinable se règle en position zéro gravité, jambes surélevées. Le coussin matelassé et l'appui-tête ajustable complètent le confort, et la tablette latérale garde un verre à portée de main. Pliable à plat, il se range facilement l'hiver.
 
 ### Une position zéro gravité
-Le dossier s'incline et se verrouille sur plusieurs crans, jusqu'à une position qui répartit le poids du corps, jambes surélevées.
+Le dossier s'incline et se verrouille sur plusieurs crans, jusqu'à la position allongée, jambes surélevées.
 
 ### Un coussin matelassé et un appui-tête ajustable
 Le coussin matelassé amovible et l'appui-tête réglable en hauteur soutiennent le dos et la tête.
 
 ### Une tablette latérale avec porte-gobelet
-La tablette pivotante intégrée à l'accoudoir tient un verre et un téléphone à portée de main.
+La tablette intégrée à l'accoudoir tient un verre et un téléphone à portée de main.
 
 ### Jusqu'à 226 kg
-La structure en tube d'acier supporte une charge maximale de 226 kg (500 lbs).
+La structure en tube d'acier supporte une charge maximale de 226 kg.
 
 ### Pliable à plat pour l'hiver
 Le fauteuil se replie à plat, pour un rangement facile hors saison.
@@ -41,7 +41,7 @@ Le fauteuil se replie à plat, pour un rangement facile hors saison.
 | Dimensions pliées (L×l×H) | 91,5 × 82,5 × 15 cm |
 | Dimensions du colis (L×l×H) | 84 × 16 × 95 cm |
 | Poids du colis | 13,5 kg |
-| Charge maximale | 226 kg (500 lbs) |
+| Charge maximale | 226 kg |
 
 Repliez le fauteuil à plat pour le ranger à l'abri l'hiver.
 
@@ -50,13 +50,13 @@ Repliez le fauteuil à plat pour le ranger à l'abri l'hiver.
 |---|---|
 | Matière | Tissu (coussin), acier (structure) |
 | Mécanisme | Inclinaison zéro gravité, pliable à plat |
-| Charge maximale | 226 kg (500 lbs) |
+| Charge maximale | 226 kg |
 | Équipements | Coussin matelassé amovible, appui-tête ajustable, tablette latérale avec porte-gobelet |
 | Coloris | Gris ou noir |
 | Poids du colis | 13,5 kg |
 
 ## Entretien
-Rangez le fauteuil à l'abri de la pluie pour éviter la formation de rouille sur la structure ; retirez le coussin pour le nettoyer à l'éponge humide.
+Rangez le fauteuil à l'abri de la pluie pour préserver la structure ; retirez le coussin pour le nettoyer à l'éponge humide.
 
 ## Livraison
 Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Livré prêt à l'usage, sans assemblage.
@@ -66,10 +66,10 @@ Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Livré pr
 Le dossier se verrouille sur plusieurs crans, jusqu'à la position jambes surélevées.
 
 **2. Quelle charge le fauteuil supporte-t-il ?**
-Jusqu'à 226 kg (500 lbs).
+Jusqu'à 226 kg.
 
-**3. Le fauteuil résiste-t-il à la pluie ?**
-Rangez-le à l'abri de la pluie pour éviter la formation de rouille sur la structure.
+**3. Peut-on le laisser sous la pluie ?**
+Rangez-le à l'abri de la pluie pour préserver la structure.
 
 **4. Le fauteuil se range-t-il facilement ?**
 Oui, il se replie à plat pour l'hiver.

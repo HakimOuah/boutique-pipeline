@@ -35,6 +35,7 @@ Ce plaid se choisit dans plusieurs tailles et coloris, pour s'accorder à votre 
 | Matière | Polyester, tissage chenille |
 | Entretien | Lavable en machine |
 | Coloris | Vert, marron, kaki foncé, ivoire, gris ou bleu |
+| Tailles | 180 × 90 cm à 180 × 420 cm |
 
 ## Livraison
 Livraison offerte en France métropolitaine, en 7 à 15 jours ouvrés.
@@ -45,7 +46,7 @@ Livraison offerte en France métropolitaine, en 7 à 15 jours ouvrés.
 Oui, il est lavable en machine.
 
 **2. Quelles tailles sont disponibles ?**
-Plusieurs tailles sont proposées : choisissez celle qui convient à votre fauteuil ou votre canapé.
+Du 180 × 90 cm, à poser sur l'accoudoir, au 180 × 420 cm pour couvrir un canapé.
 
 **3. Dans quels coloris est-il disponible ?**
 Vert, marron, kaki foncé, ivoire, gris ou bleu.

@@ -28,14 +28,6 @@ De nombreux formats sont disponibles, du fauteuil seul à l'ensemble table et ch
 ### Un cordon de serrage pour la maintenir en place
 Un cordon en bas de housse la resserre autour du mobilier, pour qu'elle tienne en place par vent.
 
-## Dimensions
-
-| Mesure | Valeur |
-|---|---|
-| Exemple de format | 280 × 180 × 90 cm |
-
-Plusieurs formats sont disponibles : choisissez la taille la plus proche de votre mobilier.
-
 ## Caractéristiques
 
 | Caractéristique | Valeur |
@@ -43,7 +35,7 @@ Plusieurs formats sont disponibles : choisissez la taille la plus proche de votr
 | Matière | 100 % polyester |
 | Protection | Imperméable, coupe-vent, anti-UV |
 | Coloris | Argent ou noir |
-| Poids du colis | 0,26 kg |
+| Formats | Du 80 × 80 × 80 cm au 350 × 260 × 90 cm |
 
 ## Entretien
 Nettoyez la housse à l'eau savonneuse et laissez-la sécher à l'air libre avant de la replier.
@@ -56,7 +48,7 @@ Livraison offerte en France métropolitaine, en 7 à 15 jours ouvrés.
 **1. Cette housse convient-elle à mon fauteuil à bascule ?**
 Elle se choisit selon les dimensions de votre mobilier : plusieurs formats sont disponibles, du fauteuil seul à un ensemble complet.
 
-**2. Protège-t-elle vraiment de la pluie ?**
+**2. Protège-t-elle de la pluie ?**
 Elle est imperméable, coupe-vent et résistante aux UV, contre la pluie, le vent et la neige.
 
 **3. Comment la maintenir en place par vent ?**

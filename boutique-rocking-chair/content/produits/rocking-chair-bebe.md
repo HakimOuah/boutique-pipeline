@@ -31,13 +31,6 @@ Le siège se déplace sur des roulettes silencieuses, d'une pièce à l'autre sa
 ### Adapté de 0 à 3 ans
 Ce siège 2 en 1 convient aux enfants de 0 à 3 ans.
 
-## Dimensions
-
-| Mesure | Valeur |
-|---|---|
-| Poids du colis | 7 kg |
-| Dimensions du colis | 53 × 20 × 6 cm |
-
 ## Caractéristiques
 
 | Caractéristique | Valeur |

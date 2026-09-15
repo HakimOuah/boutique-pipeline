@@ -25,8 +25,8 @@ Le repose-pieds se règle sur 5 positions, pour ajuster l'inclinaison selon votr
 ### Une housse amovible et lavable
 La housse se retire et se lave, pour garder le fauteuil propre au fil des usages.
 
-### Une hauteur d'assise de 36 cm
-L'assise se situe à 36 cm du sol, une mesure à comparer avec vos autres sièges avant de choisir.
+### Une assise basse et enveloppante
+L'assise se situe à 36 cm du sol : on s'y love, jambes allongées sur le repose-pieds. Prenez appui sur les accoudoirs pour vous relever.
 
 ### Une bascule stable jusqu'à 150 kg
 La structure en bois de bouleau soutient une charge maximale de 150 kg.
@@ -71,7 +71,7 @@ Oui, sur 5 positions, pour ajuster l'inclinaison selon votre confort.
 Oui, elle est amovible et lavable.
 
 **3. Quelle est la hauteur d'assise ?**
-36 cm.
+36 cm, une assise basse et enveloppante.
 
 **4. Quel poids peut-il supporter ?**
 Jusqu'à 150 kg.

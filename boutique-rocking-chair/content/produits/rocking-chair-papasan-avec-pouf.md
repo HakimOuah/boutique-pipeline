@@ -17,7 +17,7 @@ Livraison offerte en France métropolitaine · Paiement sécurisé en 3 ou 4 foi
 
 ## Description
 
-Ce rocking chair papasan enveloppe l'assise d'un tissu épais haute densité, sur un cadre en fil d'acier durable et métal thermolaqué. Un pouf assorti l'accompagne pour prolonger le confort.
+Ce rocking chair papasan enveloppe l'assise d'un tissu épais haute densité, sur un cadre en fil d'acier durable et métal thermolaqué. Son pouf assorti est fourni pour prolonger le confort.
 
 ### Une assise surdimensionnée, tissu épais
 L'assise généreuse est garnie d'un tissu épais haute densité, pour un fauteuil qui enveloppe largement.
@@ -48,7 +48,7 @@ Prévoyez un dégagement libre à l'arrière pour une bascule confortable.
 | Caractéristique | Valeur |
 |---|---|
 | Matière | Tissu épais haute densité, cadre en fil d'acier et métal thermolaqué |
-| Pouf assorti | Disponible en option |
+| Pouf assorti | Inclus |
 | Charge maximale | 159 kg (350 lb) |
 | Usage | Extérieur |
 | Coloris | Gris ou blanc |
@@ -64,7 +64,7 @@ Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteu
 ## FAQ
 
 **1. Le pouf est-il inclus avec le fauteuil ?**
-Le pouf assorti est disponible en option selon la version choisie.
+Oui, le pouf assorti est fourni avec le fauteuil.
 
 **2. Quel poids peut-il supporter ?**
 Jusqu'à 159 kg (350 lb).

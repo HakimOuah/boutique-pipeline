@@ -49,7 +49,6 @@ La chaise se déplace sur roulettes, d'une pièce à l'autre selon vos besoins.
 | Plateau | Amovible |
 | Roulettes | Oui |
 | Coloris | Blanc ou gris |
-| Poids du colis | 7 kg |
 
 ## Livraison
 Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.

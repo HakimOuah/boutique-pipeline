@@ -5,7 +5,7 @@
 
 ## Rocking chair en rotin tressé, coussin résistant à l'eau
 
-## Le fauteuil enveloppant en rotin qui se monte en 10 minutes sur votre balcon
+## Le fauteuil enveloppant en rotin qui se monte en 10 minutes sur votre terrasse ou votre balcon
 
 ## Bloc d'achat
 - Tressage en rotin, coussin épais résistant à l'eau
@@ -17,7 +17,7 @@ Livraison offerte en France métropolitaine · Paiement sécurisé en 3 ou 4 foi
 
 ## Description
 
-Ce rocking chair enveloppe l'assise d'un tressage en rotin et d'un coussin épais résistant à l'eau, sur une structure en métal. Il se monte en 10 minutes et s'installe sur un balcon ou en véranda.
+Ce rocking chair enveloppe l'assise d'un tressage en rotin et d'un coussin épais résistant à l'eau, sur une structure en métal. Il se monte en 10 minutes et s'installe sur un balcon, une terrasse ou en véranda.
 
 ### Un tressage en rotin enveloppant
 Le rotin tressé dessine une assise enveloppante, garnie d'un coussin épais et d'un coussin de tête.
@@ -29,7 +29,7 @@ Le coussin fourni résiste à l'eau, pour rester en place sur un balcon ou une v
 Le montage prend environ 10 minutes, sans outillage complexe.
 
 ### Une bascule stable jusqu'à 136 kg
-La structure métal soutient une charge maximale de 136 kg (300 lb).
+La structure métal soutient une charge maximale de 136 kg.
 
 ### Sur le balcon ou en véranda
 Sa forme enveloppante en fait un coin lecture pour un balcon ou une véranda.
@@ -44,7 +44,7 @@ Sa forme enveloppante en fait un coin lecture pour un balcon ou une véranda.
 | Hauteur des pieds (structure) | 59 cm |
 | Profondeur de la base (patins) | 93 cm |
 | Largeur de la base (patins) | 84 cm |
-| Charge maximale | 136 kg (300 lb) |
+| Charge maximale | 136 kg |
 
 Prévoyez un dégagement libre à l'arrière pour une bascule confortable.
 
@@ -54,7 +54,7 @@ Prévoyez un dégagement libre à l'arrière pour une bascule confortable.
 |---|---|
 | Matière | Rotin tressé, structure métal (acier) |
 | Coussin | Épais, résistant à l'eau |
-| Charge maximale | 136 kg (300 lb) |
+| Charge maximale | 136 kg |
 | Montage | Assemblage, environ 10 minutes |
 | Coloris | Gris ou beige |
 | Poids du colis | 16,5 kg |
@@ -75,7 +75,7 @@ Comptez environ 10 minutes.
 Oui, il résiste à l'eau.
 
 **3. Quel poids peut-il supporter ?**
-Jusqu'à 136 kg (300 lb).
+Jusqu'à 136 kg.
 
 **4. Quels coloris sont disponibles ?**
 Le coussin se choisit en gris ou en beige.
