@@ -1,33 +1,35 @@
 **Mot-clé principal :** fauteuil à bascule enfant (390)
-**Meta title (≤60) :** Chaise à bascule enfant | Bercelou
-**Meta description (≤155) :** Chaises 2 en 1, transat à bascule et chaise haute évolutive, pliables, pour les tout-petits. Livraison offerte en France métropolitaine.
+**Meta title (≤60) :** Rocking chair enfant, transat et chaise haute | Bercelou
+**Meta description (≤155) :** Sièges 2 en 1 pour bébé : transat à bascule puis chaise haute, structure bois clair, roulettes, de 0 à 3 ou 6 ans selon le modèle. Livraison offerte.
 
 ## H1
 Rocking chair enfant
 
 ## Intro
 
-Pour les tout-petits, notre sélection propose des chaises 2 en 1 : un transat à bascule qui se convertit en chaise haute évolutive, pliable pour un rangement facile. Elles accompagnent bébé sur plusieurs mois, du transat aux premiers repas à table, sans multiplier les meubles dans la pièce. Un choix pratique pour une chambre ou une cuisine où la place se fait rare.
+Bercer bébé aujourd'hui, l'installer à table demain : nos deux sièges 2 en 1 suivent votre enfant sans multiplier les meubles. En position transat, ils se balancent doucement pour les temps calmes des premiers mois. Ensuite, la même structure en bois clair et coque plastique devient chaise haute pour les repas. Montés sur roulettes, ils passent d'une pièce à l'autre, de la cuisine au salon, en blanc ou en gris.
 
 ## Aide au choix
 
-Ces modèles combinent deux usages dans un même meuble : la position bascule, pour installer bébé en douceur, et la position chaise haute, avec plateau amovible, pour les repas. Vérifiez sur chaque fiche la tranche d'âge conseillée par le fournisseur, qui varie selon le modèle, ainsi que la présence d'un harnais.
+Choisissez d'abord la durée d'usage. La chaise haute évolutive 2 en 1 accompagne votre enfant de 0 à 6 ans, du transat des premiers mois à la chaise haute qui suit. Le siège bébé 2 en 1 convient de 0 à 3 ans, en transat à bascule puis en chaise haute convertible.
 
-La structure associe une base en bois clair et une coque plastique, avec un harnais pour la sécurité en position chaise haute. Le pliage facilite le rangement entre deux usages, un point utile si la place manque dans votre intérieur. Notre [guide taille et place](/pages/guide-rocking-chair-taille-place) vous aide à prévoir l'espace nécessaire, y compris pour ce type de meuble compact.
+Regardez ensuite les équipements. La chaise haute évolutive 2 en 1 installe bébé avec un harnais de maintien et un repose-pieds en position transat. En position chaise haute, son plateau amovible accompagne les repas et se retire en un geste. Ses roulettes la déplacent facilement d'une pièce à l'autre, selon vos besoins.
 
-Le plateau amovible facilite aussi le nettoyage après un repas, sans devoir déplacer bébé de son siège. Un point à vérifier avant l'achat si vous cherchez un meuble qui suit plusieurs étapes de la croissance de votre enfant.
+Le siège bébé 2 en 1 mise sur la discrétion : ses roulettes silencieuses le font passer d'une pièce à l'autre sans réveiller la maison.
 
-Pour un fauteuil pensé pour vous, parent, plutôt que pour l'enfant, consultez notre collection [Fauteuils d'allaitement](/collections/fauteuil-allaitement).
+Dans les deux cas, la structure reste la même d'un usage à l'autre : seule la position change. Un seul meuble à ranger, et une place gagnée dans la cuisine ou la chambre.
 
-Chaque commande bénéficie de la livraison offerte en France métropolitaine et d'un paiement possible en 3 ou 4 fois. Si le siège ne convient finalement pas, vous disposez de 14 jours après réception pour le retourner, dans les conditions détaillées sur notre page [Livraison et retours](/pages/livraison-retours).
+Et pour vous, parent ? Pour les tétées et les câlins du soir, découvrez notre collection [Fauteuils d'allaitement](/collections/fauteuil-allaitement) et notre [guide pour bien choisir son fauteuil d'allaitement](/pages/guide-bien-choisir-fauteuil-allaitement), offert en ligne.
+
+Livraison offerte en France métropolitaine, paiement en 3 ou 4 fois, retours sous 14 jours après réception et garantie légale de conformité 2 ans : détails sur notre page [Livraison et retours](/pages/livraison-retours).
 
 ## FAQ
 
-**1. Ce siège convient-il dès la naissance ?**
-La tranche d'âge conseillée est précisée sur chaque fiche et varie selon le modèle. Vérifiez-la avant l'achat.
+**1. Dès quel âge peut-on utiliser ces sièges ?**
+Dès la naissance, en position transat. La chaise haute évolutive 2 en 1 suit ensuite votre enfant jusqu'à 6 ans, le siège bébé 2 en 1 jusqu'à 3 ans.
 
-**2. Le siège se range-t-il facilement ?**
-Oui, ces modèles sont pliables, pour un rangement plus simple entre deux usages.
+**2. Le plateau est-il amovible ?**
+Oui, sur la chaise haute évolutive 2 en 1 : il accompagne les repas et se retire quand vous n'en avez pas besoin.
 
-**3. Le plateau de la chaise haute est-il amovible ?**
-Oui, sur nos deux modèles, le plateau se retire pour faciliter l'installation et le nettoyage.
+**3. Peut-on déplacer le siège facilement ?**
+Oui, les deux modèles sont montés sur roulettes. Celles du siège bébé 2 en 1 sont silencieuses.

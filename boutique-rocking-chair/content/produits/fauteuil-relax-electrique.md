@@ -1,10 +1,10 @@
 **Mot-clé principal :** fauteuil relax électrique
 **Mots-clés secondaires :** fauteuil relax confortable
 **Meta title (≤60) :** Fauteuil relax électrique chauffant et massant | Bercelou
-**Meta description (≤155) :** Fauteuil relax électrique en tissu gris, trois positions à télécommande, chauffage lombaire et massage. Livraison offerte, garantie légale 2 ans.
+**Meta description (≤155) :** Fauteuil relax électrique en tissu, trois positions à télécommande, chauffage lombaire et massage. Livraison offerte, garantie légale 2 ans.
 
 ## H1
-Fauteuil relax électrique, chauffage et massage, tissu gris
+Fauteuil relax électrique, chauffage et massage
 
 ## Sous-titre
 Réglez votre position en un geste : chauffage et massage restent à portée de télécommande.
@@ -30,7 +30,7 @@ Deux fonctions électriques s'activent séparément à la télécommande : un ch
 Le repose-pieds électrique sort et se range avec le fauteuil, sans manette à actionner à la main.
 
 ### Une matière facile à vivre au quotidien
-Le revêtement tissu gris chiné se marie avec la plupart des salons et se dépoussière facilement.
+Le revêtement en tissu, en blanc, marron ou gris, se marie avec la plupart des salons et se dépoussière facilement.
 
 ### Discret dans un salon déjà meublé
 La structure métal et les pieds courts donnent un profil sobre, pensé pour se glisser près d'un canapé existant.

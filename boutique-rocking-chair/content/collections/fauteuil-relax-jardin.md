@@ -1,31 +1,33 @@
 **Mot-clé principal :** fauteuil relax jardin (3 600)
-**Meta title (≤60) :** Fauteuil relax jardin | Bercelou
-**Meta description (≤155) :** Fauteuil relax d'extérieur inclinable, pliable et sur structure acier, pour la terrasse ou le jardin. Livraison offerte en France métropolitaine.
+**Meta title (≤60) :** Fauteuil relax jardin zéro gravité, pliable | Bercelou
+**Meta description (≤155) :** Fauteuil relax de jardin inclinable zéro gravité, coussin matelassé, tablette porte-gobelet, pliable à plat, jusqu'à 226 kg. Livraison offerte.
 
 ## H1
 Fauteuil relax jardin
 
 ## Intro
 
-Pour se détendre dehors, ce fauteuil relax d'extérieur s'incline sur plusieurs positions et se replie à plat une fois rangé. Sa structure en acier et son coussin amovible sont pensés pour un usage sur la terrasse ou dans le jardin, en dehors des repas ou d'un moment de lecture au calme, quand vient enfin l'heure de se reposer un peu.
+Au jardin, allongez-vous sans quitter la terrasse. Notre fauteuil relax d'extérieur s'incline jusqu'à la position zéro gravité, jambes surélevées, avec un coussin matelassé et un appui-tête ajustable pour soutenir le dos et la tête. Un verre posé sur la tablette latérale, un livre à la main : la fin d'après-midi prend son temps. Replié à plat, il se range en un geste à l'arrivée de l'hiver.
 
 ## Aide au choix
 
-Ce modèle repose sur une structure en tube d'acier, avec un coussin rembourré amovible et une tablette latérale à porte-gobelet. Il s'incline sur plusieurs positions et se replie à plat, pratique si la place manque pour un rangement permanent. Vérifiez la charge maximale indiquée dans le tableau des caractéristiques de la fiche avant de choisir.
+Une position pour chaque moment. Le dossier s'incline et se verrouille sur plusieurs crans, de la position assise jusqu'à la position allongée, jambes surélevées : lecture au calme ou vraie sieste au soleil. Une fois réglé, le fauteuil garde sa position.
 
-À la différence d'un fauteuil à bascule, ce modèle ne berce pas : il se règle une position à la fois, puis se maintient, ce qui convient bien à une sieste ou une lecture prolongée en extérieur. Sa structure repliable en fait aussi un bon choix si vous manquez de place pour un fauteuil fixe toute l'année sur votre terrasse.
+Un confort pensé pour durer. Le coussin matelassé est amovible et se nettoie à l'éponge humide. L'appui-tête se règle en hauteur, pour caler la nuque à votre taille. Intégrée à l'accoudoir, la tablette latérale avec porte-gobelet tient un verre et un téléphone à portée de main.
 
-Pensez à l'espace nécessaire une fois le fauteuil déplié : consultez notre [guide taille et place](/pages/guide-rocking-chair-taille-place) pour mesurer votre terrasse ou votre jardin. Si vous préférez un fauteuil à bascule pour l'extérieur plutôt qu'un modèle inclinable, notre collection [Rocking chair extérieur](/collections/rocking-chair-exterieur) propose d'autres styles.
+Une structure solide et facile à ranger. Le cadre en tube d'acier accueille jusqu'à 226 kg. Replié à plat, le fauteuil ne mesure plus que 15 cm d'épaisseur, pour 91,5 × 82,5 cm : un rangement facile hors saison. Rangez-le à l'abri de la pluie entre deux saisons pour préserver sa structure. Il se choisit en gris ou en noir, et arrive prêt à l'usage, sans assemblage.
 
-Comme sur l'ensemble de notre catalogue, la livraison est offerte en France métropolitaine et le paiement est possible en 3 ou 4 fois. Vous disposez de 14 jours après réception pour changer d'avis, dans les conditions détaillées sur notre page [Livraison et retours](/pages/livraison-retours).
+Pour prévoir la place du fauteuil déplié sur votre terrasse, consultez notre [guide taille et place](/pages/guide-rocking-chair-taille-place). Vous préférez un fauteuil qui berce ? Notre collection [Rocking chair extérieur](/collections/rocking-chair-exterieur) réunit des rocking chairs en rotin et papasan, ainsi qu'une housse de protection imperméable. Pour l'intérieur, découvrez nos [fauteuils relax](/collections/fauteuil-relax).
+
+Livraison offerte en France métropolitaine, paiement en 3 ou 4 fois, retours sous 14 jours après réception et garantie légale de conformité 2 ans : détails sur notre page [Livraison et retours](/pages/livraison-retours).
 
 ## FAQ
 
-**1. Ce fauteuil se range-t-il facilement ?**
-Oui, il se replie à plat une fois déplié, pour un rangement plus simple entre deux usages.
+**1. Le fauteuil arrive-t-il monté ?**
+Oui, il est livré prêt à l'usage, sans assemblage. Dépliez-le, installez-vous.
 
-**2. Le coussin est-il amovible ?**
-Oui, le coussin rembourré se retire, ce qui facilite son entretien.
+**2. Comment le ranger l'hiver ?**
+Il se replie à plat, en 91,5 × 82,5 × 15 cm. Rangez-le à l'abri de la pluie pour préserver sa structure en acier.
 
-**3. Peut-on le laisser dehors toute l'année ?**
-Sa structure est annoncée pour un usage extérieur. Pour préserver le coussin, rentrez-le ou protégez-le en dehors des périodes d'utilisation.
+**3. Comment entretenir le coussin ?**
+Retirez le coussin matelassé et nettoyez-le à l'éponge humide.

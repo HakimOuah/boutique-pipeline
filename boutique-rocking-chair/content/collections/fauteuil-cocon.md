@@ -1,31 +1,31 @@
 **Mot-clé principal :** fauteuil cocon (590)
-**Meta title (≤60) :** Fauteuil cocon | Bercelou
-**Meta description (≤155) :** Fauteuils cocon suspendus ou sur pied, en rotin, pour la terrasse ou le salon. Livraison offerte en France métropolitaine, paiement en plusieurs fois.
+**Meta title (≤60) :** Fauteuil cocon suspendu et rotin | Bercelou
+**Meta description (≤155) :** Fauteuil cocon suspendu en rotin sur pied trépied, coussin et housse fournis, et rocking chair en rotin tressé. Livraison offerte en France métropolitaine.
 
 ## H1
 Fauteuils cocon
 
 ## Intro
 
-Le fauteuil cocon, ou fauteuil œuf, se love à un ou plusieurs, en intérieur comme en extérieur. Notre sélection réunit des modèles suspendus en rotin avec leur structure autoportante, et des fauteuils à bascule pensés pour le jardin, pour un moment à soi en fin de journée, installé sur la terrasse ou dans un coin salon abrité des regards et du vent.
+Un fauteuil cocon, c'est un refuge : on s'y blottit, on se balance doucement, et la terrasse devient un coin à soi. Notre sélection réunit deux formes enveloppantes en rotin tressé : un fauteuil cocon suspendu posé sur son propre pied trépied, et un rocking chair au tressage généreux. Au salon, en véranda ou sur le balcon, installez-vous avec un livre et laissez la fin de journée s'étirer.
 
 ## Aide au choix
 
-Un fauteuil cocon suspendu s'accompagne toujours de sa propre structure : vérifiez sur la fiche qu'elle est bien incluse, ainsi que le coussin d'assise et la charge maximale supportée. Notre modèle en rotin est pensé pour un usage extérieur comme intérieur, avec un panier tressé et un pied trépied, sans besoin de fixation au plafond ni de mur porteur.
+Le fauteuil cocon suspendu accroche son panier en rotin tressé à un pied trépied en métal : aucun crochet à visser au plafond, aucune poutre à trouver. Il est livré avec son coussin et une housse de protection, pour le couvrir entre deux utilisations. Il accueille jusqu'à 130 kg, convient à un usage intérieur comme extérieur, et se choisit en gris foncé ou en noir. Comptez 196 cm de hauteur avec le pied, et 105 cm de largeur au sol.
 
-Si vous préférez une bascule plus classique pour la terrasse, notre fauteuil à bascule de jardin garde une matière adaptée à l'extérieur. Dans les deux cas, prévoyez suffisamment de dégagement autour du fauteuil, la structure suspendue occupant plus de largeur qu'un fauteuil posé au sol : notre [guide taille et place](/pages/guide-rocking-chair-taille-place) vous aide à mesurer l'espace nécessaire avant de passer commande.
+Le rocking chair en rotin berce sur ses patins, dans un tressage qui enveloppe l'assise. Il est garni d'un coussin épais résistant à l'eau et d'un coussin de tête, se choisit en gris ou en beige et accueille jusqu'à 136 kg. Il se monte en 10 minutes environ, et sa base mesure 93 × 84 cm.
 
-Pour un usage extérieur prolongé, complétez votre fauteuil d'une housse de protection, disponible dans notre collection [Rocking chair extérieur](/collections/rocking-chair-exterieur). Elle protège la structure et le coussin entre deux séances au soleil ou sous la pluie.
+Pour une bascule libre, prévoyez un espace dégagé autour du fauteuil suspendu et derrière le rocking chair : notre [guide taille et place](/pages/guide-rocking-chair-taille-place) vous aide à mesurer votre terrasse ou votre salon. Le rotin se dépoussière régulièrement. Pour protéger le rocking chair en rotin entre deux soirées dehors, complétez-le d'une housse de protection imperméable, disponible dans notre collection [Rocking chair extérieur](/collections/rocking-chair-exterieur).
 
-Comme sur l'ensemble de notre catalogue, la livraison est offerte en France métropolitaine et le paiement est possible en 3 ou 4 fois. Si le fauteuil ne correspond finalement pas à votre pièce, vous disposez de 14 jours après réception pour le retourner, dans les conditions détaillées sur notre page [Livraison et retours](/pages/livraison-retours).
+Livraison offerte en France métropolitaine, paiement en 3 ou 4 fois, retours sous 14 jours après réception et garantie légale de conformité 2 ans : détails sur notre page [Livraison et retours](/pages/livraison-retours).
 
 ## FAQ
 
-**1. La structure du fauteuil suspendu est-elle incluse ?**
-Oui, sur le modèle de notre collection, le pied trépied et la structure de suspension sont inclus avec le panier.
+**1. Faut-il fixer le fauteuil suspendu au plafond ?**
+Non. Le panier repose sur son propre pied trépied, inclus : aucune fixation au plafond n'est nécessaire.
 
-**2. Peut-on installer ce fauteuil en intérieur ?**
-Le fauteuil cocon suspendu de notre sélection est annoncé pour un usage extérieur comme intérieur. Vérifiez la description de la fiche avant l'installation.
+**2. Peut-on installer ces fauteuils dehors ?**
+Oui. Le fauteuil cocon suspendu convient à un usage intérieur comme extérieur, avec sa housse de protection fournie. Le rocking chair en rotin, avec son coussin résistant à l'eau, s'installe sur un balcon, une terrasse ou en véranda.
 
-**3. Combien de personnes peuvent s'y installer ?**
-Cela dépend de la charge maximale indiquée sur la fiche du modèle choisi.
+**3. Le coussin est-il fourni ?**
+Oui, sur les deux modèles : un coussin pour le fauteuil suspendu, un coussin épais et un coussin de tête pour le rocking chair en rotin.

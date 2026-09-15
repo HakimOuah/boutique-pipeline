@@ -1,31 +1,33 @@
 **Mot-clé principal :** coussin rocking chair (720)
-**Meta title (≤60) :** Accessoires rocking chair | Bercelou
-**Meta description (≤155) :** Repose-pieds, coussin d'assise et plaid pour compléter votre fauteuil à bascule. Livraison offerte en France métropolitaine, paiement en plusieurs fois.
+**Meta title (≤60) :** Accessoires rocking chair, plaid et coussin | Bercelou
+**Meta description (≤155) :** Repose-pieds rond en coton et lin, coussin pour fauteuil suspendu et plaid en chenille à franges, tous lavables. Livraison offerte.
 
 ## H1
 Accessoires rocking chair
 
 ## Intro
 
-Un repose-pieds, un coussin d'assise ou un plaid complètent votre fauteuil pour prolonger le confort, sans en changer l'usage. Notre sélection réunit ces trois compléments, à associer à votre fauteuil ou à offrir en plus. Chacun se choisit indépendamment, selon le modèle que vous possédez déjà ou celui que vous êtes en train de sélectionner, pour un coin cocon complet dès la première commande.
+Un plaid sur l'accoudoir, un repose-pieds devant le fauteuil, un coussin moelleux dans le panier suspendu : les bons accessoires prolongent le confort de votre coin cocon. Notre sélection réunit trois compléments doux et faciles à entretenir, à choisir avec votre fauteuil ou pour renouveler celui que vous avez déjà. Chacun se décline en plusieurs coloris, pour s'accorder à votre fauteuil comme à votre salon.
 
 ## Aide au choix
 
-Le repose-pieds assorti se choisit en complément d'un fauteuil sans repose-pieds intégré, pour caler vos jambes lors d'une longue lecture ou d'une tétée. Vérifiez son diamètre et sa hauteur dans le tableau des caractéristiques de la fiche.
+Pour poser les pieds, le repose-pieds rond. Rembourré et habillé de coton et lin, il mesure 30 cm de diamètre pour 20 cm de hauteur. Sa housse se retire par une fermeture zippée et passe en machine à 50°C, sèche-linge autorisé. Il se choisit parmi de nombreux coloris, pour s'accorder à votre fauteuil.
 
-Le coussin d'assise apporte une épaisseur supplémentaire sur un fauteuil dont l'assise reste ferme, en particulier sur les modèles en bois ou en rotin. Le plaid, de son côté, se choisit pour le confort et la déco, à poser sur l'accoudoir ou le dossier : sa taille se choisit selon votre fauteuil, sans dimension unique imposée. Les trois se déclinent en plusieurs coloris, pour s'accorder à la teinte de votre fauteuil ou de votre salon.
+Pour un panier suspendu déjà installé, le coussin d'assise. Il redonne une assise moelleuse à votre fauteuil suspendu. Il est vendu seul : le panier et sa structure ne sont pas inclus. Au format 60 × 120 cm, en polyester avec remplissage coton, il a une housse amovible et lavable, et se choisit en gris ou en kaki. Mesurez votre panier avant de commander, pour un coussin bien ajusté.
 
-Ces trois accessoires se commandent séparément de votre fauteuil. Retrouvez nos [rocking chairs](/collections/fauteuil-a-bascule) et notre collection [Rocking chair bois & rotin](/collections/rocking-chair-bois-rotin), pour lesquels un coussin d'assise apporte un confort supplémentaire. Un plaid trouve aussi sa place sur un fauteuil relax, pour les soirées un peu fraîches.
+Pour les soirées plus fraîches, le plaid en chenille. Son tissage épais au motif chevron, bordé de franges, apporte volume et douceur. Il se lave en machine et se décline du 180 × 90 cm, à poser sur l'accoudoir, au 180 × 420 cm, pour couvrir un canapé. Six coloris : vert, marron, kaki foncé, ivoire, gris ou bleu.
 
-Comme sur l'ensemble de notre catalogue, la livraison est offerte en France métropolitaine et le paiement est possible en 3 ou 4 fois. Si un accessoire ne convient pas une fois reçu, vous disposez de 14 jours après réception pour le retourner, dans les conditions détaillées sur notre page [Livraison et retours](/pages/livraison-retours).
+Pour l'entretien du coton et lin au quotidien, notre [guide d'entretien](/pages/guide-entretien-bouclette-velours-lin) détaille les bons gestes. Il vous manque le fauteuil ? Découvrez nos [fauteuils à bascule](/collections/fauteuil-a-bascule) et nos [fauteuils cocon](/collections/fauteuil-cocon).
+
+Livraison offerte en France métropolitaine, paiement en 3 ou 4 fois, retours sous 14 jours après réception et garantie légale de conformité 2 ans : détails sur notre page [Livraison et retours](/pages/livraison-retours).
 
 ## FAQ
 
-**1. Ces accessoires sont-ils compatibles avec tous nos fauteuils ?**
-Le repose-pieds assorti et le coussin d'assise conviennent à la plupart des fauteuils sans repose-pieds ou assise rembourrée intégrés. Vérifiez les dimensions indiquées sur chaque fiche.
+**1. Le panier suspendu est-il inclus avec le coussin ?**
+Non, le coussin est vendu seul. Il se pose dans un panier suspendu déjà en place.
 
-**2. Le coussin est-il lavable ?**
-Oui, sa housse est amovible et lavable, précisé sur sa fiche.
+**2. Les accessoires passent-ils en machine ?**
+Le plaid se lave en machine. La housse du repose-pieds passe en machine à 50°C, sèche-linge autorisé. La housse du coussin est amovible et lavable.
 
 **3. Quelle taille de plaid choisir ?**
-Le plaid se décline en plusieurs tailles, à choisir selon la dimension de votre fauteuil ou de votre canapé.
+Le 180 × 90 cm se pose sur l'accoudoir de votre fauteuil. Les grands formats, jusqu'au 180 × 420 cm, couvrent un canapé.

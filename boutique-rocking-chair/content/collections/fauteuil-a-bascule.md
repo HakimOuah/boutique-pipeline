@@ -1,31 +1,33 @@
 **Mot-clé principal :** fauteuil à bascule (12 100)
-**Meta title (≤60) :** Fauteuil à bascule | Bercelou
-**Meta description (≤155) :** Fauteuils à bascule en bouclette, velours ou bois massif, choisis pour les tétées de nuit comme pour le salon. Livraison offerte, plusieurs fois possible.
+**Meta title (≤60) :** Fauteuil à bascule bouclette et velours | Bercelou
+**Meta description (≤155) :** Fauteuils à bascule en bouclette teddy ou velours côtelé, dossier haut, cadre bois massif, pour les tétées de nuit et le salon. Livraison offerte.
 
 ## H1
 Fauteuils à bascule
 
 ## Intro
 
-Un fauteuil à bascule accompagne deux usages à la fois : les tétées de nuit et les soirées au salon. Notre sélection réunit des modèles en bouclette douce, en velours côtelé et en bois massif, du style le plus épuré au plus enveloppant. Chaque fiche détaille l'assise, les accoudoirs et le dossier, pour que vous choisissiez en connaissance de cause.
+Un fauteuil à bascule accompagne les tétées de nuit comme les soirées au salon. Notre sélection réunit des modèles en bouclette teddy, en tissu bouclette épais et en velours côtelé, avec dossier haut et accoudoirs rembourrés ou en bois massif. Chaque fauteuil est retenu pour son assise, ses accoudoirs, son dossier et son entretien, pour rester beau dans le salon bien après les premiers mois.
 
 ## Aide au choix
 
-Un fauteuil à bascule ne se choisit pas seulement sur l'apparence. Avant de vous décider, vérifiez trois points sur la fiche du modèle qui vous plaît : la hauteur d'assise, pour savoir si vous pourrez vous relever facilement, la largeur des accoudoirs, pour le confort de vos bras pendant une tétée ou une lecture, et la hauteur du dossier, pour savoir si votre tête y trouve un appui.
+Pour les tétées de nuit, choisissez un dossier haut et des accoudoirs larges. Le fauteuil à bascule d'allaitement en teddy place ses accoudoirs pleins à 62 cm du sol, sur 22 cm de large, et son dossier remonte à 62 cm au-dessus de l'assise. Le fauteuil rocking chair teddy à dossier haut ajoute une poche latérale pour garder un téléphone ou un livre à portée de main.
 
-La matière change aussi l'usage au quotidien. Un fauteuil en bouclette apporte une texture douce et chaleureuse, idéale pour une chambre ou un coin cocon. Un fauteuil en velours côtelé s'accorde plus facilement à un salon déjà meublé. Un modèle en bois massif garde un style plus scandinave, souvent associé à un coussin d'assise.
+Pour le salon, la matière donne le ton. La bouclette teddy apporte une texture douce et chaleureuse, en blanc écru, rose, beige ou gris. Le rocking chair vintage habille sa ligne rétro d'un tissu bouclette épais, marron ou vert foncé, avec un appui-tête fixe. Le fauteuil relax scandinave associe velours côtelé beige, accoudoirs en bois massif et dossier réglable. Notre [guide d'entretien](/pages/guide-entretien-bouclette-velours-lin) détaille les bons gestes pour chaque matière.
 
-Pensez également à la place disponible dans la pièce : un fauteuil à bascule a besoin d'un dégagement à l'arrière pour se balancer librement, en plus de son emprise au sol. Notre [guide taille et place](/pages/guide-rocking-chair-taille-place) détaille comment mesurer votre pièce avant de commander.
+Pour allonger les jambes, le fauteuil à bascule en bois massif est livré avec son pouf assorti, le fauteuil relax scandinave avec un repose-pieds assorti.
 
-Si vous cherchez un fauteuil pour les tétées de nuit en particulier, notre [guide pour bien choisir son fauteuil d'allaitement](/pages/guide-bien-choisir-fauteuil-allaitement) reprend les sept critères à vérifier, accoudoirs et dossier compris. Vous pouvez aussi consulter directement notre collection [Fauteuils d'allaitement](/collections/fauteuil-allaitement) ou notre collection [Rocking chair design & scandinave](/collections/rocking-chair-design-scandinave) pour un usage plus orienté salon.
+Laissez environ 50 cm derrière le fauteuil pour une bascule libre : notre [guide taille et place](/pages/guide-rocking-chair-taille-place) vous aide à mesurer votre pièce. Pour allaiter, consultez notre [guide pour bien choisir son fauteuil d'allaitement](/pages/guide-bien-choisir-fauteuil-allaitement).
+
+Livraison offerte en France métropolitaine, paiement en 3 ou 4 fois, retours sous 14 jours après réception et garantie légale de conformité 2 ans : détails sur notre page [Livraison et retours](/pages/livraison-retours).
 
 ## FAQ
 
-**1. Quelle est la différence entre un fauteuil à bascule et un rocking chair ?**
-Les deux termes désignent le même principe de bascule. Nous employons les deux selon le style du modèle : « fauteuil à bascule » pour les versions rembourrées, « rocking chair » pour les versions plus graphiques.
+**1. Quel fauteuil à bascule choisir pour allaiter ?**
+Le fauteuil à bascule d'allaitement en teddy est pensé pour les tétées de nuit : assise enveloppante à 40 cm du sol, accoudoirs pleins à 62 cm pour poser les bras, dossier haut pour soutenir la tête.
 
-**2. Le fauteuil arrive-t-il déjà monté ?**
-Non, un montage est nécessaire à réception, avec la notice fournie dans le colis.
+**2. Le fauteuil arrive-t-il monté ?**
+Nos fauteuils à bascule arrivent à monter, notice fournie. Le rocking chair vintage s'assemble en 20 minutes environ.
 
-**3. Puis-je installer un fauteuil à bascule en extérieur ?**
-Vérifiez la matière annoncée sur la fiche : nos modèles pensés pour l'extérieur figurent dans la collection [Rocking chair extérieur](/collections/rocking-chair-exterieur).
+**3. Quelle charge supportent-ils ?**
+Jusqu'à 150 kg pour le fauteuil en bois massif ; jusqu'à 113 kg pour le rocking chair teddy à dossier haut, le fauteuil d'allaitement en teddy et le rocking chair vintage.

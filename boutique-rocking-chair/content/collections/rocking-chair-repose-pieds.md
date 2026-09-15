@@ -1,31 +1,33 @@
 **Mot-clé principal :** fauteuil à bascule avec repose-pied (320)
 **Meta title (≤60) :** Rocking chair avec repose-pieds | Bercelou
-**Meta description (≤155) :** Fauteuils à bascule avec repose-pieds intégré, pour l'intérieur ou l'extérieur, à installer sans quitter votre position. Livraison offerte en France.
+**Meta description (≤155) :** Rocking chair en bois de bouleau à repose-pieds réglable, ou fauteuil relax à bascule avec coussin imperméable et repose-pieds assorti. Livraison offerte.
 
 ## H1
 Rocking chair avec repose-pieds
 
 ## Intro
 
-Un repose-pieds intégré prolonge encore le confort du fauteuil à bascule, sans besoin d'un pouf séparé. Notre sélection réunit un modèle en bois avec repose-pieds escamotable et réglable, et un modèle pensé pour l'extérieur avec son repose-pieds assorti, pour une position détente complète, en intérieur comme en extérieur, sans meuble d'appoint supplémentaire à installer ni à assortir vous-même après coup.
+Allonger les jambes et laisser la bascule faire le reste : un rocking chair avec repose-pieds prolonge chaque pause. Notre sélection réunit deux modèles aux usages bien distincts. Au salon, le rocking chair en bois de bouleau courbé règle son repose-pieds sur cinq positions. Au jardin, le fauteuil relax à bascule rembourré, au coussin imperméable, est livré avec son repose-pieds assorti. Tous deux accueillent jusqu'à 150 kg.
 
 ## Aide au choix
 
-Le repose-pieds change selon le modèle : escamotable et réglable sur plusieurs positions sur notre version en bois, ou séparé et assorti sur notre version d'extérieur. Vérifiez sur la fiche la façon dont il se déploie, et sa charge maximale, parfois différente de celle du fauteuil lui-même. Cette information figure dans le tableau des caractéristiques, à consulter avant toute commande.
+Pour le salon, le rocking chair en bois de bouleau. Ses patins et ses accoudoirs en bois courbé dessinent une ligne scandinave épurée. Son repose-pieds se règle sur 5 positions, pour ajuster l'inclinaison à votre confort. L'assise, à 36 cm du sol, est basse et enveloppante : on s'y love, jambes allongées, et on prend appui sur les accoudoirs pour se relever. Sa housse amovible et lavable garde le fauteuil net au fil des usages. Il se choisit en gris foncé ou en blanc.
 
-Le choix de la matière dépend de votre usage : un fauteuil en bois avec assise textile convient à un salon ou une chambre, tandis qu'un fauteuil en tissu et structure métal, annoncé pour l'extérieur, s'installe sur une terrasse ou un patio. Vérifiez la mention d'usage extérieur sur la fiche avant de l'installer dehors, et la présence éventuelle d'un coussin imperméable.
+Pour la terrasse ou le jardin, le fauteuil relax à bascule. Assise et dossier rembourrés, coussin imperméable et structure en métal : il se balance en douceur pour un moment de détente en fin de journée. Son repose-pieds assorti mesure 48 × 55 cm pour 32 cm de haut et accueille jusqu'à 30 kg. Il se choisit en gris ou en noir, et sa base mesure 77 cm de long.
 
-Comme pour tout fauteuil à bascule, prévoyez le dégagement nécessaire pour la bascule, repose-pieds déployé compris, en plus de l'emprise au sol du fauteuil. Notre [guide taille et place](/pages/guide-rocking-chair-taille-place) vous aide à mesurer l'espace nécessaire.
+Prévoyez un dégagement libre à l'arrière du fauteuil pour une bascule confortable, et la place du repose-pieds devant : notre [guide taille et place](/pages/guide-rocking-chair-taille-place) vous aide à mesurer votre pièce ou votre terrasse. Les deux modèles arrivent à monter, notice fournie.
 
-Chaque commande bénéficie de la livraison offerte en France métropolitaine et d'un paiement possible en 3 ou 4 fois. Si le fauteuil ne convient finalement pas, vous disposez de 14 jours après réception pour le retourner, dans les conditions détaillées sur notre page [Livraison et retours](/pages/livraison-retours).
+Pour d'autres modèles de plein air, découvrez notre collection [Rocking chair extérieur](/collections/rocking-chair-exterieur).
+
+Livraison offerte en France métropolitaine, paiement en 3 ou 4 fois, retours sous 14 jours après réception et garantie légale de conformité 2 ans : détails sur notre page [Livraison et retours](/pages/livraison-retours).
 
 ## FAQ
 
 **1. Le repose-pieds est-il réglable ?**
-Sur notre modèle en bois, oui, sur plusieurs positions. Vérifiez cette mention sur la fiche du modèle qui vous intéresse.
+Sur le rocking chair en bois de bouleau, oui, sur 5 positions. Le fauteuil relax à bascule est livré avec un repose-pieds assorti de 32 cm de haut.
 
-**2. Peut-on utiliser ce fauteuil en extérieur ?**
-Notre modèle d'extérieur l'annonce explicitement sur sa fiche, avec un coussin imperméable. Vérifiez toujours la mention d'usage avant d'installer un fauteuil dehors.
+**2. Quel modèle installer dehors ?**
+Le fauteuil relax à bascule, avec son coussin imperméable, s'installe sur une terrasse ou au jardin. Le rocking chair en bois de bouleau est pensé pour le salon.
 
-**3. La housse est-elle lavable ?**
-Sur le modèle qui l'annonce, la housse est amovible et lavable, précisé dans ses caractéristiques.
+**3. La housse se lave-t-elle ?**
+Oui, la housse du rocking chair en bois de bouleau est amovible et lavable.
