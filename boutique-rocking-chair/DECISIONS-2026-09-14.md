@@ -22,3 +22,8 @@
 - **Promesse « se relever facilement »** retirée des fiches à assise basse (40 cm et 38,5 cm, sous la hauteur standard de 45 cm), remplacée par un conseil d'appui. Elle est gardée pour le côtelé Anajqaqia (46,8 cm) et la chaise rocking chair (54 cm).
 - **Mention d'origine** retirée des tableaux de caractéristiques.
 - **À trancher par Hakim** : fauteuil-relax-electrique-cuir et fauteuil-relax-massant sont des fauteuils releveurs (« aide à se lever »), une catégorie qui recoupe le STOP maintien à domicile senior.
+
+## 15/09 — décisions Hakim
+- **Style « Veille douce » validé** sur le lot test (16 images, `livraisons/visuels-lot1-test-2026-09-14/`).
+- **Fauteuils releveurs retirés** : fauteuil-relax-electrique-cuir (1005008603622248) et fauteuil-relax-massant (1005008604858033). Catalogue : 41 fiches.
+- **Visuels de production** : Hakim lance lui-même Codex depuis l'app avec `BRIEF-CODEX-APP-2026-09-15.md`. 4 ordres dans `ordres/pour-codex/inbox/` (lots 2 à 5, 198 images) ; brief `BRIEF-VISUELS-CODEX-LOTS-2-5-2026-09-15.md`.

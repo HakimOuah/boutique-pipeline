@@ -95,8 +95,6 @@ Mot-clé · meta title · meta description · H1 · intro de 60 à 100 mots (au-
 | fauteuil-relax-de-salon | 1005012809448823 | fauteuil relax de salon | 399 € | 210.5 € | fauteuils relax | fauteuil relax salon 1000 | 0 |
 | fauteuil-relax-pivotant | 1005012491845495 | fauteuil relax pivotant | 499 € | 387.99 € | fauteuils relax | fauteuil relax pivotant 720 | 0 |
 | fauteuil-relax-scandinave | 1005012837772306 | fauteuil relax scandinave | 299 € | 155.57 € | fauteuils relax | fauteuil relax scandinave 720 | 0 |
-| fauteuil-relax-electrique-cuir | 1005008603622248 | fauteuil relax électrique cuir | 649 € | 420.06 € | fauteuils relax | fauteuil relax electrique cuir 480 | 0 |
-| fauteuil-relax-massant | 1005008604858033 | fauteuil relax massant | 649 € | 431.23 € | fauteuils relax | fauteuil relax et massant 480 | 0 |
 | fauteuil-relax-exterieur-inclinable | 1005008174331532 | fauteuil relax extérieur inclinable | 129 € | 74.39 € | fauteuils relax de jardin |  | 0 |
 | fauteuil-relax-a-bascule | 1005011808697791 | fauteuil relax à bascule | 249 € | 126.39 € | rocking chair relax & repose-pieds | fauteuil relax à bascule 210 | 1 |
 | rocking-chair-avec-repose-pieds | 1005010240143897 | rocking chair avec repose-pieds | 139 € | 91.01 € | rocking chair relax & repose-pieds | rocking chair avec repose pied 210 | 0 |
