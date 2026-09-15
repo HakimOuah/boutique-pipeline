@@ -1,0 +1,133 @@
+{
+ "sections": {
+  "bc_banniere": {
+   "type": "bercelou-collection",
+   "settings": {
+    "part": "banniere",
+    "color_scheme": "scheme-1",
+    "padding_top": 24,
+    "padding_bottom": 8
+   }
+  },
+  "main": {
+   "type": "main-collection",
+   "blocks": {
+    "filters": {
+     "type": "filters-and-sort",
+     "static": true,
+     "settings": {
+      "display_mode": "menu",
+      "wrap_in_card": true,
+      "card_color_scheme": "scheme-2",
+      "sticky": false,
+      "show_filters": true,
+      "show_sorting": true
+     }
+    },
+    "product-card": {
+     "type": "_product-card",
+     "static": true,
+     "settings": {
+      "wrap_in_card": false,
+      "color_scheme": "",
+      "layout_gap": 12
+     },
+     "blocks": {
+      "product_card_gallery_6qMVW4": {
+       "type": "_product-card-media-gallery",
+       "settings": {
+        "show_slider": true,
+        "media_rounded": true,
+        "show_badges": true,
+        "media_ratio": "1 / 1"
+       }
+      },
+      "product_card_group_rUyxyU": {
+       "type": "_product-card-group",
+       "settings": {
+        "wrap_in_card": false,
+        "color_scheme": "",
+        "layout_direction_desktop": "column",
+        "layout_gap_desktop": 5,
+        "same_as_desktop": true,
+        "layout_direction_mobile": "column",
+        "layout_gap_mobile": 6
+       },
+       "blocks": {
+        "text_ExEbDY": {
+         "type": "text",
+         "name": "Titre produit",
+         "settings": {
+          "text": "<h2>{{ closest.product.title }}</h2>",
+          "text_style": "paragraph",
+          "font_weight": 500,
+          "margin_top": 0,
+          "margin_bottom": 0
+         }
+        },
+        "product_price_jg9zQp": {
+         "type": "product-price",
+         "settings": {
+          "product": "{{ closest.product }}",
+          "sales_badge": "none",
+          "text_style": "paragraph"
+         }
+        },
+        "product_card_swatches_wiewgm": {
+         "type": "_product-card-swatches",
+         "settings": {
+          "swatches_size": "small",
+          "swatches_rounded": true
+         }
+        }
+       },
+       "block_order": [
+        "text_ExEbDY",
+        "product_price_jg9zQp",
+        "product_card_swatches_wiewgm"
+       ]
+      },
+      "product_card_quick_add_BnYnWb": {
+       "type": "_product-card-quick-add",
+       "settings": {
+        "button_style": "secondary",
+        "button_shape": "default",
+        "align_quick_add_together": true,
+        "show_product_media_gallery": false
+       }
+      }
+     },
+     "block_order": [
+      "product_card_gallery_6qMVW4",
+      "product_card_group_rUyxyU",
+      "product_card_quick_add_BnYnWb"
+     ]
+    }
+   },
+   "settings": {
+    "color_scheme": "scheme-1",
+    "products_per_page": 24,
+    "grid_columns": 4,
+    "grid_columns_mobile": "2",
+    "padding_top": 16,
+    "padding_bottom": 48,
+    "margin_top": 0,
+    "margin_bottom": 0
+   }
+  },
+  "bc_guide": {
+   "type": "bercelou-collection",
+   "settings": {
+    "part": "guide",
+    "color_scheme": "scheme-4",
+    "padding_top": 64,
+    "padding_bottom": 64
+   }
+  }
+ },
+ "order": [
+  "bc_banniere",
+  "main",
+  "bc_guide"
+ ]
+}

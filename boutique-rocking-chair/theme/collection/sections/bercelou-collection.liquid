@@ -1,0 +1,40 @@
+{%- liquid
+  capture inner
+    if collection != blank
+      render 'bercelou-collection', collection: collection, part: section.settings.part
+    endif
+  endcapture
+-%}
+{%- if inner != blank -%}
+  <div class="bc-section color-{{ section.settings.color_scheme }}">
+    <div
+      class="page-width"
+      style="padding-block: {{ section.settings.padding_top }}px {{ section.settings.padding_bottom }}px;"
+    >
+      {{ inner }}
+    </div>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Bercelou · collection",
+  "settings": [
+    {
+      "type": "select",
+      "id": "part",
+      "label": "Partie",
+      "options": [
+        { "value": "banniere", "label": "Bannière (image, titre, intro)" },
+        { "value": "guide", "label": "Guide d'achat, FAQ et liens" }
+      ],
+      "default": "banniere"
+    },
+    { "type": "color_scheme", "id": "color_scheme", "label": "t:color_scheme", "default": "scheme-1" },
+    { "type": "range", "id": "padding_top", "label": "t:padding_top", "min": 0, "max": 100, "step": 2, "default": 24, "unit": "px" },
+    { "type": "range", "id": "padding_bottom", "label": "t:padding_bottom", "min": 0, "max": 100, "step": 2, "default": 24, "unit": "px" }
+  ],
+  "enabled_on": { "templates": ["collection"] },
+  "presets": [{ "name": "Bercelou · collection" }]
+}
+{% endschema %}

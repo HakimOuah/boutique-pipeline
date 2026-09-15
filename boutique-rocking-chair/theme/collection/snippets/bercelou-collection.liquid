@@ -1,0 +1,289 @@
+{% doc %}
+  Bercelou : page collection alimentée par la description de la collection.
+  Structure attendue : intro (<p>), puis <h2>Bien choisir …</h2> (guide), puis <h2>Vos questions …</h2> (FAQ en <strong>).
+
+  @param {object} collection - Collection
+  @param {string} part - banniere | guide
+{% enddoc %}
+{%- liquid
+  assign chunks = collection.description | split: '<h2>'
+  assign intro = chunks.first | strip
+  assign guide_t = ''
+  assign guide_b = ''
+  assign faq_t = ''
+  assign faq_b = ''
+  if chunks.size > 1
+    assign guide_t = chunks[1] | split: '</h2>' | first | strip_html | strip
+    assign guide_b = chunks[1] | split: '</h2>' | last
+  endif
+  if chunks.size > 2
+    assign faq_t = chunks[2] | split: '</h2>' | first | strip_html | strip
+    assign faq_b = chunks[2] | split: '</h2>' | last
+  endif
+-%}
+
+{%- case part -%}
+  {%- when 'banniere' -%}
+    <div class="bcc-banner{% if collection.image == blank %} bcc-banner--noimg{% endif %}">
+      <div class="bcc-banner__text">
+        <p class="bc-eyebrow">
+          {{- collection.products_count }} modèle{% if collection.products_count > 1 %}s{% endif -%}
+        </p>
+        <h1 class="h2">{{ collection.title }}</h1>
+        {%- if intro != blank -%}
+          <div class="bcc-intro">{{ intro }}</div>
+          <button type="button" class="bcc-more link" onclick="this.previousElementSibling.classList.add('is-open');this.hidden=true;">
+            Lire la suite
+          </button>
+        {%- endif -%}
+        <ul class="bcc-promises" role="list">
+          <li>Livraison offerte</li>
+          <li>14 jours pour changer d'avis</li>
+          <li>Paiement en plusieurs fois</li>
+        </ul>
+      </div>
+      {%- if collection.image != blank -%}
+        <div class="bcc-banner__media">
+          {{
+            collection.image
+            | image_url: width: 1600
+            | image_tag:
+              widths: '480, 800, 1200, 1600',
+              sizes: '(min-width: 750px) 50vw, 100vw',
+              loading: 'eager',
+              fetchpriority: 'high',
+              alt: collection.title
+          }}
+        </div>
+      {%- endif -%}
+    </div>
+
+  {%- when 'guide' -%}
+    {%- if guide_b != blank or faq_b != blank -%}
+      <div class="bcc-guide" id="bc-guide">
+        {%- if guide_b != blank -%}
+          <div class="bcc-guide__text">
+            <p class="bc-eyebrow">Guide d'achat</p>
+            <h2 class="h2">{{ guide_t }}</h2>
+            <div class="bcc-rte">{{ guide_b }}</div>
+          </div>
+        {%- endif -%}
+        {%- assign qs = faq_b | split: '<strong>' -%}
+        {%- if qs.size > 1 -%}
+          <div class="bcc-guide__faq">
+            <h2 class="h3">{{ faq_t }}</h2>
+            <div class="accordions accordions--caret accordions--dividers bc-accordions">
+              {%- for x in qs offset: 1 -%}
+                {%- liquid
+                  assign q = x | split: '</strong>' | first | strip_html | strip
+                  assign a = x | split: '</strong>' | last | remove: '<br>' | remove: '<br />' | remove: '</p>' | strip
+                  assign qn = q | split: '. ' | first
+                  if qn.size <= 2
+                    assign off = qn.size | plus: 2
+                    assign q = q | slice: off, 400
+                  endif
+                -%}
+                {%- if q != blank and a != blank -%}
+                  {%- capture ans -%}<p>{{ a }}</p>{%- endcapture -%}
+                  <div class="accordion-block">{% render 'accordion', heading: q, heading_tag: 'h3', heading_style: 'paragraph', content: ans %}</div>
+                {%- endif -%}
+              {%- endfor -%}
+            </div>
+            <div class="bc-card bc-help">
+              <p class="h5">Besoin d'un conseil ?</p>
+              <p>Notre équipe vous répond du lundi au vendredi, de 9h à 18h.</p>
+              <p><a class="link" href="tel:+33756828094">+33 7 56 82 80 94</a> · <a class="link" href="/pages/contact">Nous écrire</a></p>
+            </div>
+          </div>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    <nav class="bcc-links" aria-label="Autres collections">
+      <p class="bc-eyebrow">Explorer aussi</p>
+      <ul role="list">
+        {%- for c in collections -%}
+          {%- if c.handle != collection.handle and c.handle != 'frontpage' and c.handle != 'selection-bercelou' and c.products_count > 0 -%}
+            <li><a href="{{ c.url }}">{{ c.title }}</a></li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+    </nav>
+{%- endcase -%}
+
+{% stylesheet %}
+  .bcc-banner {
+    display: grid;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .bcc-banner__media {
+    order: -1;
+  }
+
+  .bcc-banner__media img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 14px;
+  }
+
+  .bcc-banner__text .h2 {
+    margin: 0 0 12px;
+    text-wrap: balance;
+  }
+
+  .bcc-intro > * {
+    margin: 0;
+  }
+
+  .bcc-more {
+    display: none;
+    margin-top: 6px;
+    padding: 0;
+    background: none;
+    border: 0;
+    font: inherit;
+    color: var(--color-foreground);
+    text-decoration: underline;
+    cursor: pointer;
+    min-height: 44px;
+  }
+
+  .bcc-promises {
+    list-style: none;
+    margin: 14px 0 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 18px;
+    font-size: var(--font-body--size-small, 14px);
+  }
+
+  .bcc-promises li {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .bcc-promises li::before {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #ae5420;
+  }
+
+  @media (width <= 750px) {
+    .bcc-intro:not(.is-open) > * {
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .bcc-more {
+      display: inline-block;
+    }
+  }
+
+  @media (width > 750px) {
+    .bcc-banner {
+      grid-template-columns: 1fr 1fr;
+      gap: 56px;
+    }
+
+    .bcc-banner--noimg {
+      grid-template-columns: 1fr;
+    }
+
+    .bcc-banner__media {
+      order: 2;
+    }
+
+    .bcc-banner__media img {
+      aspect-ratio: 4 / 3;
+    }
+
+    .bcc-banner__text {
+      max-width: 560px;
+    }
+  }
+
+  .bcc-guide {
+    display: grid;
+    gap: 40px;
+  }
+
+  .bcc-guide__text .h2 {
+    margin: 0 0 16px;
+    text-wrap: balance;
+  }
+
+  .bcc-rte {
+    max-width: 68ch;
+  }
+
+  .bcc-rte > * {
+    margin: 0 0 14px;
+  }
+
+  .bcc-rte a,
+  .bcc-guide a:not(.link) {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .bcc-guide__faq .h3 {
+    margin: 0 0 8px;
+    text-wrap: balance;
+  }
+
+  .bcc-guide__faq .bc-help {
+    margin-top: 20px;
+  }
+
+  @media (width > 750px) {
+    .bcc-guide {
+      grid-template-columns: 1.3fr 1fr;
+      gap: 72px;
+      align-items: start;
+    }
+  }
+
+  .bcc-links {
+    margin-top: 56px;
+    padding-top: 32px;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .bcc-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .bcc-links a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 0 18px;
+    border: 1px solid var(--color-border);
+    border-radius: 30px;
+    background: #fff;
+    color: #22201c;
+    text-decoration: none;
+    font-size: var(--font-body--size-small, 14px);
+  }
+
+  .bcc-links a:hover {
+    border-color: #1e2a3a;
+  }
+{% endstylesheet %}
