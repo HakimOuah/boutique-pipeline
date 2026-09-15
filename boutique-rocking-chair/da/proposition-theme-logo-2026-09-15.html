@@ -1,0 +1,567 @@
+<title>Bercelou Veille douce</title>
+<meta name="description" content="Logo et direction du thème Bercelou">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,300..700,0..100,0..1&family=Karla:ital,wght@0,400..700;1,400&display=swap">
+<style>
+:root{
+  --ground:#F7F2EA; --surface:#FFFFFF; --ink:#22201C; --muted:#6A6258; --rule:#E7DFD1;
+  --band:#1E2A3A; --band-ink:#F3ECE1; --accent:#AE5420; --halo:#E08E45; --focus:#AE5420;
+  /* store palette, fixed on purpose: mockups show the shop, not the viewer theme */
+  --s-sable:#F7F2EA; --s-nuit:#1E2A3A; --s-encre:#22201C; --s-terre:#AE5420; --s-ambre:#E08E45; --s-sable2:#E7DFD1;
+  --display:"Fraunces", "Iowan Old Style", Georgia, serif;
+  --body:"Karla", "Segoe UI", system-ui, sans-serif;
+  --step--1:.8125rem; --step0:1rem; --step1:1.25rem; --step2:1.6rem; --step3:2.2rem; --step4:3.2rem;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#121A24; --surface:#1A2431; --ink:#F1EADF; --muted:#B0A596; --rule:#2B3747;
+    --band:#0C121A; --band-ink:#F3ECE1; --accent:#E8995A; --halo:#E08E45; --focus:#E8995A;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#121A24; --surface:#1A2431; --ink:#F1EADF; --muted:#B0A596; --rule:#2B3747;
+  --band:#0C121A; --band-ink:#F3ECE1; --accent:#E8995A; --halo:#E08E45; --focus:#E8995A;
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--body);font-size:var(--step0);line-height:1.6;padding-inline:20px;padding-block:0 64px}
+h1,h2,h3{font-family:var(--display);font-variation-settings:"SOFT" 100,"WONK" 0;font-weight:500;line-height:1.1;text-wrap:balance;margin:0}
+p{margin:0}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--focus);outline-offset:3px}
+.wrap{max-width:1120px;margin-inline:auto}
+.label{font-size:var(--step--1);letter-spacing:.09em;text-transform:uppercase;font-weight:600;color:var(--muted)}
+.lede{max-width:62ch;color:var(--muted);font-size:var(--step1);line-height:1.5}
+section{padding-block:72px 0}
+.sec-head{display:grid;gap:12px;margin-bottom:32px}
+.sec-head h2{font-size:var(--step3)}
+.runner{display:block;width:120px;height:18px;color:var(--accent)}
+
+/* ---------- opening band ---------- */
+.opening{margin-inline:-20px;background:var(--band);color:var(--band-ink);position:relative;overflow:hidden;padding:56px 20px 64px}
+.opening::before{content:"";position:absolute;width:760px;height:760px;right:-160px;top:-260px;background:radial-gradient(circle,rgba(224,142,69,.30) 0%,rgba(224,142,69,.10) 38%,rgba(224,142,69,0) 68%);pointer-events:none}
+.opening .wrap{position:relative;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:40px;align-items:center}
+.opening .label{color:#C9BBA7}
+.opening h1{font-size:clamp(2.2rem,5vw,3.6rem);font-weight:400;margin-top:14px}
+.opening h1 em{font-style:italic;color:var(--s-ambre)}
+.opening p{color:#D8CDBD;max-width:52ch;margin-top:18px;font-size:var(--step1);line-height:1.5}
+.stage{display:grid;place-items:center;min-height:240px}
+.stage svg{width:100%;max-width:440px;height:auto;overflow:visible}
+.meta{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:26px;font-size:var(--step--1);color:#C9BBA7}
+.meta span{display:inline-flex;gap:8px;align-items:center}
+.dot{width:10px;height:10px;border-radius:50%;display:inline-block}
+
+/* ---------- logo plates ---------- */
+.logos{display:grid;gap:28px}
+.plate{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:0;background:var(--surface);border:1px solid var(--rule);border-radius:18px;overflow:hidden}
+.plate-text{padding:28px;display:grid;gap:12px;align-content:start}
+.plate-text h3{font-size:var(--step2)}
+.plate-text p{color:var(--muted)}
+.tag{justify-self:start;font-size:var(--step--1);font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:999px;background:var(--s-terre);color:#fff}
+.uses{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:auto auto}
+.use{display:grid;place-items:center;padding:28px 20px;min-height:170px;position:relative}
+.use small{position:absolute;left:14px;bottom:10px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;opacity:.7}
+.use.sable{background:var(--s-sable);color:var(--s-encre)}
+.use.nuit{background:var(--s-nuit);color:#F3ECE1}
+.use.small-row{grid-column:1/-1;min-height:96px;background:var(--s-sable2);color:var(--s-encre);display:flex;gap:22px;justify-content:flex-start;align-items:center;padding:18px 20px 28px}
+.use svg{max-width:100%;height:auto;overflow:visible}
+.fav{display:flex;gap:14px;align-items:flex-end}
+.tabmock{display:flex;align-items:center;gap:8px;background:#fff;border-radius:10px 10px 0 0;padding:8px 12px;font-size:12px;color:#3a352e;box-shadow:0 -1px 0 #d9cfbf inset}
+.hdrmock{display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--s-sable);border:1px solid #d9cfbf;border-radius:10px;padding:8px 12px;width:260px;max-width:100%}
+.ico{width:20px;height:20px;stroke:var(--s-encre);fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+
+.wm{font-family:var(--display);font-variation-settings:"SOFT" 100,"WONK" 0,"opsz" 96;font-weight:500}
+
+/* rocking motion, the one moving idea of the identity */
+.rock{transform-box:view-box;animation:rock 3.6s cubic-bezier(.45,0,.55,1) 0s 2 both}
+.plate:hover .rock, .stage:hover .rock{animation:rock 3.6s cubic-bezier(.45,0,.55,1) infinite}
+@keyframes rock{0%,100%{transform:rotate(0)}25%{transform:rotate(-2.6deg)}75%{transform:rotate(2.6deg)}}
+@media (prefers-reduced-motion: reduce){.rock,.plate:hover .rock,.stage:hover .rock{animation:none}}
+
+/* ---------- palette & type ---------- */
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px}
+.swatches{display:grid;gap:0;border:1px solid var(--rule);border-radius:18px;overflow:hidden;background:var(--surface)}
+.sw{display:grid;grid-template-columns:64px minmax(0,1fr) auto;gap:16px;align-items:center;padding:12px 16px;border-top:1px solid var(--rule)}
+.sw:first-child{border-top:0}
+.chip{height:44px;border-radius:10px;border:1px solid rgba(0,0,0,.08)}
+.sw b{display:block;font-weight:600}
+.sw span{color:var(--muted);font-size:var(--step--1)}
+.sw code{font-family:var(--body);font-variant-numeric:tabular-nums;font-size:var(--step--1);color:var(--muted)}
+.specimen{border:1px solid var(--rule);border-radius:18px;background:var(--surface);padding:28px;display:grid;gap:22px}
+.spec-big{font-family:var(--display);font-variation-settings:"SOFT" 100,"WONK" 1;font-weight:400;font-size:clamp(2.4rem,5vw,3.4rem);line-height:1}
+.spec-row{display:grid;gap:4px;border-top:1px solid var(--rule);padding-top:16px}
+.spec-row .t1{font-family:var(--display);font-variation-settings:"SOFT" 100;font-weight:500;font-size:var(--step2);line-height:1.15}
+.spec-row .t2{max-width:52ch}
+
+/* ---------- mockups (store colors, fixed) ---------- */
+.night{margin-inline:-20px;margin-top:72px;background:var(--band);color:var(--band-ink);padding:64px 20px 72px}
+.night .label{color:#C9BBA7}
+.night .sec-head h2{color:#F3ECE1}
+.night .lede{color:#D2C6B5}
+.frame-cap{font-size:var(--step--1);color:#C9BBA7;letter-spacing:.06em;text-transform:uppercase;font-weight:600;margin:0 0 10px}
+.desk{background:var(--s-sable);color:var(--s-encre);border-radius:14px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.35);font-family:var(--body)}
+.s-ann{background:var(--s-nuit);color:#EDE4D6;font-size:12.5px;text-align:center;padding:7px 12px;letter-spacing:.02em}
+.s-head{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 28px;border-bottom:1px solid var(--s-sable2)}
+.s-nav{display:flex;gap:22px;font-size:14px;flex-wrap:wrap}
+.s-nav span:first-child{color:var(--s-terre);font-weight:600}
+.s-icons{display:flex;gap:14px}
+.s-hero{position:relative;min-height:420px;display:flex;align-items:center;background-size:cover;background-position:60% 50%}
+.s-hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,28,40,.92) 0%,rgba(20,28,40,.70) 38%,rgba(20,28,40,0) 70%)}
+.s-hero-in{position:relative;padding:40px 44px;max-width:520px;color:#F3ECE1;display:grid;gap:16px}
+.s-hero h3{font-size:clamp(1.9rem,3.4vw,2.7rem);font-weight:400;line-height:1.05}
+.s-hero p{color:#DCD1C1;font-size:15.5px;line-height:1.5}
+.s-btn{justify-self:start;display:inline-flex;align-items:center;gap:10px;background:var(--s-terre);color:#fff;border-radius:999px;padding:13px 22px;font-weight:600;font-size:15px;min-height:44px}
+.s-btn svg{width:18px;height:18px;stroke:#fff;fill:none;stroke-width:1.8}
+.s-proofs{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13px;color:#E6DCCD}
+.s-proofs span{display:inline-flex;gap:7px;align-items:center}
+.s-proofs svg{width:16px;height:16px;stroke:var(--s-ambre);fill:none;stroke-width:1.8}
+.s-sec{padding:34px 28px 38px;display:grid;gap:20px}
+.s-sec h4{font-family:var(--display);font-variation-settings:"SOFT" 100;font-weight:500;font-size:26px;margin:0;text-align:left}
+.s-runner{width:96px;height:14px;color:var(--s-terre);margin-top:-8px}
+.moments{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.moment{display:grid;gap:10px}
+.moment .img{aspect-ratio:4/5;border-radius:14px;background-size:cover;background-position:center;position:relative;overflow:hidden}
+.moment .img::after{content:"";position:absolute;inset:auto 0 0 0;height:45%;background:radial-gradient(120% 90% at 50% 100%,rgba(224,142,69,.28),rgba(224,142,69,0) 70%)}
+.moment b{font-weight:600;font-size:14.5px}
+.moment span{font-size:13px;color:#6A6258;display:block}
+.criteria{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;border-top:1px solid var(--s-sable2);padding-top:22px}
+.crit{display:grid;gap:8px;font-size:13.5px;line-height:1.35}
+.crit svg{width:30px;height:30px;stroke:var(--s-terre);fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.s-foot{background:var(--s-nuit);color:#D8CDBD;padding:22px 28px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-size:13px}
+
+.phones{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:36px;margin-top:48px;align-items:start}
+.phone{width:100%;max-width:340px;justify-self:center}
+.screen{background:var(--s-sable);color:var(--s-encre);border-radius:30px;overflow:hidden;border:8px solid #0A0F16;box-shadow:0 30px 70px rgba(0,0,0,.4);font-family:var(--body)}
+.m-head{display:flex;align-items:center;justify-content:space-between;padding:10px 14px;border-bottom:1px solid var(--s-sable2)}
+.m-hero{aspect-ratio:4/5;background-size:cover;background-position:62% 50%;position:relative;display:flex;align-items:flex-end}
+.m-hero::before{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(20,28,40,.95) 0%,rgba(20,28,40,.55) 42%,rgba(20,28,40,0) 70%)}
+.m-hero-in{position:relative;padding:18px;display:grid;gap:10px;color:#F3ECE1}
+.m-hero h5{font-family:var(--display);font-variation-settings:"SOFT" 100;font-weight:400;font-size:26px;line-height:1.05;margin:0}
+.m-hero .s-btn{padding:12px 18px;font-size:14px;justify-self:stretch;justify-content:center}
+.m-proofs{display:grid;gap:8px;padding:14px 18px;background:var(--s-nuit);color:#E6DCCD;font-size:12.5px}
+.m-proofs span{display:flex;gap:8px;align-items:center}
+.m-proofs svg{width:15px;height:15px;stroke:var(--s-ambre);fill:none;stroke-width:1.8;flex:none}
+.m-sec{padding:18px;display:grid;gap:12px}
+.m-sec h6{font-family:var(--display);font-variation-settings:"SOFT" 100;font-weight:500;font-size:19px;margin:0}
+.m-rail{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.m-rail .img{aspect-ratio:1;border-radius:12px;background-size:cover;background-position:center}
+.m-rail b{font-size:12.5px;font-weight:600;display:block;margin-top:6px}
+
+.pdp-img{aspect-ratio:1;background-size:cover;background-position:center;position:relative}
+.pdp-dots{position:absolute;bottom:10px;left:0;right:0;display:flex;justify-content:center;gap:6px}
+.pdp-dots i{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.6)}
+.pdp-dots i:first-child{background:#fff;width:16px;border-radius:3px}
+.pdp{padding:16px 18px 20px;display:grid;gap:12px}
+.pdp h5{font-family:var(--display);font-variation-settings:"SOFT" 100;font-weight:500;font-size:21px;line-height:1.15;margin:0}
+.price{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.price b{font-size:20px;font-variant-numeric:tabular-nums}
+.price span{font-size:12.5px;color:#6A6258}
+.opt{font-size:13px;font-weight:600}
+.opt em{font-style:normal;font-weight:400;color:#6A6258}
+.swrow{display:flex;gap:10px}
+.swrow i{width:34px;height:34px;border-radius:50%;border:1px solid rgba(0,0,0,.12)}
+.swrow i.on{box-shadow:0 0 0 2px var(--s-sable),0 0 0 4px var(--s-nuit)}
+.pdp .s-btn{justify-self:stretch;justify-content:center}
+.reas{display:grid;gap:7px;font-size:12.5px;border-block:1px solid var(--s-sable2);padding-block:12px}
+.reas span{display:flex;gap:8px;align-items:center}
+.reas svg{width:16px;height:16px;stroke:var(--s-terre);fill:none;stroke-width:1.7;flex:none}
+.acc{display:grid;font-size:13.5px}
+.acc div{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--s-sable2)}
+.reserved{border:1.5px dashed #CDBFA9;border-radius:12px;padding:12px;font-size:12px;color:#7A7064;text-align:center}
+
+/* ---------- theme mapping + decisions ---------- */
+.map{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--rule);border-radius:18px;overflow:hidden;font-size:var(--step0)}
+.map-wrap{overflow-x:auto;border-radius:18px}
+.map th,.map td{text-align:left;padding:13px 16px;border-top:1px solid var(--rule);vertical-align:top}
+.map thead th{border-top:0;font-size:var(--step--1);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.map td:first-child{font-weight:600;white-space:nowrap}
+.map td:last-child{color:var(--muted)}
+.decide{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.q{border-top:2px solid var(--accent);padding-top:16px;display:grid;gap:8px}
+.q h3{font-size:var(--step1);font-weight:600}
+.q p{color:var(--muted)}
+.q strong{color:var(--ink)}
+
+@media (max-width: 900px){
+  .opening .wrap,.plate,.two,.phones,.decide{grid-template-columns:minmax(0,1fr)}
+  .moments{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .criteria{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .s-nav{display:none}
+}
+@media (max-width: 520px){
+  .uses{grid-template-columns:minmax(0,1fr)}
+  .s-hero-in{padding:28px 22px}
+  .s-hero::before{background:linear-gradient(90deg,rgba(20,28,40,.92) 0%,rgba(20,28,40,.78) 70%,rgba(20,28,40,.4) 100%)}
+  .s-sec{padding:26px 18px}
+}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#E08E45" stop-opacity=".55"/>
+      <stop offset=".45" stop-color="#E08E45" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#E08E45" stop-opacity="0"/>
+    </radialGradient>
+    <symbol id="i-truck" viewBox="0 0 24 24"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="17.5" r="1.6"/><circle cx="17" cy="17.5" r="1.6"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5.5C6.5 4.5 9.5 4.5 12 6c2.5-1.5 5.5-1.5 8-.5V19c-2.5-1-5.5-1-8 .5-2.5-1.5-5.5-1.5-8-.5z"/><path d="M12 6v13.5"/></symbol>
+    <symbol id="i-card" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18M7 15h4"/></symbol>
+    <symbol id="i-return" viewBox="0 0 24 24"><path d="M9 7 5 11l4 4"/><path d="M5 11h9a5 5 0 0 1 0 10h-3"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 4.5 3 8.3 7 10 4-1.7 7-5.5 7-10V6z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6z"/><path d="M9 8a3 3 0 0 1 6 0"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-rise" viewBox="0 0 24 24"><path d="M6 20v-6h12v6"/><path d="M12 14V4M8 8l4-4 4 4"/></symbol>
+    <symbol id="i-arms" viewBox="0 0 24 24"><path d="M4 11h4v8H4zM16 11h4v8h-4zM8 15h8"/><path d="M8 11V6a4 4 0 0 1 8 0v5"/></symbol>
+    <symbol id="i-head" viewBox="0 0 24 24"><path d="M7 21V9a5 5 0 0 1 10 0v12"/><circle cx="12" cy="8" r="2"/></symbol>
+    <symbol id="i-rock" viewBox="0 0 24 24"><path d="M3 16c4 4 14 4 18 0"/><path d="M8 17V9h8v8"/></symbol>
+    <symbol id="i-wash" viewBox="0 0 24 24"><path d="M4 8h16l-2 11H6z"/><path d="M4 8c2-2 4 2 6 0s4 2 6 0 4 2 4 0"/></symbol>
+    <symbol id="runner" viewBox="0 0 120 18"><path d="M3 5c10 9 32 11 57 11s47-2 57-11" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+  </defs>
+</svg>
+
+<header class="opening">
+  <div class="wrap">
+    <div>
+      <p class="label">Bercelou · thème et logo · proposition du 15/09</p>
+      <h1>La direction « Veille douce », <em>habillée pour la boutique</em></h1>
+      <p>Vous avez validé la direction le 14/09 : bleu nuit, sable, terre brûlée, Fraunces et Karla, courbe de patin. Voici trois logos dessinés dans cette direction, puis la boutique habillée, de l'accueil à la fiche produit. Rien n'est encore appliqué au thème.</p>
+      <div class="meta">
+        <span><i class="dot" style="background:#1E2A3A;box-shadow:0 0 0 1px #3A4A60"></i>Bleu nuit #1E2A3A</span>
+        <span><i class="dot" style="background:#F7F2EA"></i>Sable lait #F7F2EA</span>
+        <span><i class="dot" style="background:#AE5420"></i>Terre brûlée #AE5420</span>
+        <span><i class="dot" style="background:#E08E45"></i>Ambre lampe #E08E45</span>
+      </div>
+    </div>
+    <div class="stage" aria-label="Logo recommandé : le mot bercé">
+      <svg viewBox="0 0 440 200" role="img" aria-label="bercelou, posé sur un patin de bascule">
+        <circle cx="300" cy="70" r="120" fill="url(#halo)"/>
+        <g class="rock" style="transform-origin:220px 150px">
+          <text x="220" y="118" text-anchor="middle" class="wm" font-size="84" fill="#F3ECE1">bercelou</text>
+          <path d="M40 132c26 22 88 30 180 30s154-8 180-30" fill="none" stroke="#E08E45" stroke-width="5" stroke-linecap="round"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section id="logos" aria-labelledby="logos-h">
+  <div class="sec-head">
+    <p class="label">Logo · trois pistes</p>
+    <h2 id="logos-h">Un nom qui se balance</h2>
+    <svg class="runner" aria-hidden="true"><use href="#runner"/></svg>
+    <p class="lede">Chaque logo est montré là où il vivra : sur le sable du site, sur le bleu nuit du pied de page, dans l'en-tête mobile et en favicon. Survolez une planche : le logo se balance.</p>
+  </div>
+
+  <div class="logos">
+
+    <article class="plate">
+      <div class="plate-text">
+        <span class="tag">Recommandé</span>
+        <h3>B · Le mot bercé</h3>
+        <p>« bercelou » en Fraunces bas de casse, posé sur un patin de bascule qui court sous tout le mot. On lit la marque d'abord, le mouvement ensuite. C'est la piste la plus lisible dans un en-tête mobile de 375 px.</p>
+        <p>Le patin reprend la courbe signature de la direction : on la retrouve en séparateur de section et sur les boutons. Au survol, le mot se balance, mais jamais en boucle au chargement.</p>
+      </div>
+      <div class="uses">
+        <div class="use sable"><small>Sur sable</small>
+          <svg viewBox="0 0 300 110" width="260" role="img" aria-label="Logo B sur sable">
+            <g class="rock" style="transform-origin:150px 90px">
+              <text x="150" y="66" text-anchor="middle" class="wm" font-size="58" fill="#1E2A3A">bercelou</text>
+              <path d="M22 76c18 15 62 20 128 20s110-5 128-20" fill="none" stroke="#AE5420" stroke-width="3.6" stroke-linecap="round"/>
+            </g>
+          </svg>
+        </div>
+        <div class="use nuit"><small>Pied de page</small>
+          <svg viewBox="0 0 300 110" width="260" role="img" aria-label="Logo B sur bleu nuit">
+            <g class="rock" style="transform-origin:150px 90px">
+              <text x="150" y="66" text-anchor="middle" class="wm" font-size="58" fill="#F3ECE1">bercelou</text>
+              <path d="M22 76c18 15 62 20 128 20s110-5 128-20" fill="none" stroke="#E08E45" stroke-width="3.6" stroke-linecap="round"/>
+            </g>
+          </svg>
+        </div>
+        <div class="use small-row"><small>En-tête mobile · favicon</small>
+          <div class="hdrmock">
+            <svg class="ico" aria-hidden="true"><use href="#i-menu"/></svg>
+            <svg viewBox="0 0 300 110" width="112" aria-hidden="true"><text x="150" y="66" text-anchor="middle" class="wm" font-size="58" fill="#1E2A3A">bercelou</text><path d="M22 76c18 15 62 20 128 20s110-5 128-20" fill="none" stroke="#AE5420" stroke-width="5" stroke-linecap="round"/></svg>
+            <svg class="ico" aria-hidden="true"><use href="#i-bag"/></svg>
+          </div>
+          <div class="tabmock">
+            <svg viewBox="0 0 64 64" width="16" height="16" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#1E2A3A"/><text x="32" y="42" text-anchor="middle" class="wm" font-size="40" fill="#F3ECE1">b</text><path d="M12 48c8 7 32 7 40 0" fill="none" stroke="#E08E45" stroke-width="4" stroke-linecap="round"/></svg>
+            Bercelou
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="plate">
+      <div class="plate-text">
+        <h3>A · Le patin-lumière</h3>
+        <p>C'est le pictogramme décrit le 14/09 : un seul trait qui dessine le patin, s'enroule au bout et se ferme sur un point d'ambre, à la fois pivot et lampe. Le mot est à droite, aligné sur la hauteur des lettres.</p>
+        <p>Plus illustratif et plus « marque » que la piste B. Mais le pictogramme devient peu lisible sous 24 px, et le logo prend plus de largeur dans l'en-tête mobile.</p>
+      </div>
+      <div class="uses">
+        <div class="use sable"><small>Sur sable</small>
+          <svg viewBox="0 0 320 100" width="270" role="img" aria-label="Logo A sur sable">
+            <circle cx="62" cy="34" r="26" fill="url(#halo)"/>
+            <g class="rock" style="transform-origin:40px 70px">
+              <path d="M8 50c12 16 44 22 60 8 9-8 7-22-3-24" fill="none" stroke="#AE5420" stroke-width="4" stroke-linecap="round"/>
+              <circle cx="62" cy="34" r="5.5" fill="#E08E45"/>
+            </g>
+            <text x="92" y="66" class="wm" font-size="50" fill="#1E2A3A">bercelou</text>
+          </svg>
+        </div>
+        <div class="use nuit"><small>Pied de page</small>
+          <svg viewBox="0 0 320 100" width="270" role="img" aria-label="Logo A sur bleu nuit">
+            <circle cx="62" cy="34" r="30" fill="url(#halo)"/>
+            <g class="rock" style="transform-origin:40px 70px">
+              <path d="M8 50c12 16 44 22 60 8 9-8 7-22-3-24" fill="none" stroke="#E08E45" stroke-width="4" stroke-linecap="round"/>
+              <circle cx="62" cy="34" r="5.5" fill="#F3C08A"/>
+            </g>
+            <text x="92" y="66" class="wm" font-size="50" fill="#F3ECE1">bercelou</text>
+          </svg>
+        </div>
+        <div class="use small-row"><small>En-tête mobile · favicon</small>
+          <div class="hdrmock">
+            <svg class="ico" aria-hidden="true"><use href="#i-menu"/></svg>
+            <svg viewBox="0 0 320 100" width="124" aria-hidden="true"><path d="M8 50c12 16 44 22 60 8 9-8 7-22-3-24" fill="none" stroke="#AE5420" stroke-width="5" stroke-linecap="round"/><circle cx="62" cy="34" r="6.5" fill="#E08E45"/><text x="92" y="66" class="wm" font-size="50" fill="#1E2A3A">bercelou</text></svg>
+            <svg class="ico" aria-hidden="true"><use href="#i-bag"/></svg>
+          </div>
+          <div class="tabmock">
+            <svg viewBox="0 0 64 64" width="16" height="16" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#1E2A3A"/><path d="M10 34c8 11 28 14 38 5 6-5 5-14-2-15" fill="none" stroke="#E08E45" stroke-width="5" stroke-linecap="round"/><circle cx="46" cy="24" r="5" fill="#F3C08A"/></svg>
+            Bercelou
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="plate">
+      <div class="plate-text">
+        <h3>C · Le sceau veilleuse</h3>
+        <p>Un médaillon bleu nuit : un « b » en Fraunces posé sur son patin, et une petite lampe d'ambre allumée en haut à droite. Il fonctionne comme un tampon.</p>
+        <p>Parfait pour le favicon, l'avatar Instagram, les cartes de collection et les étiquettes. Seul, il est trop discret pour porter le nom : il vient en complément de la piste B ou A.</p>
+      </div>
+      <div class="uses">
+        <div class="use sable"><small>Sceau</small>
+          <svg viewBox="0 0 140 140" width="132" role="img" aria-label="Sceau C">
+            <circle cx="70" cy="70" r="64" fill="#1E2A3A"/>
+            <circle cx="70" cy="70" r="56" fill="none" stroke="#E08E45" stroke-width="1.2" stroke-dasharray="2 5" opacity=".7"/>
+            <circle cx="98" cy="42" r="22" fill="url(#halo)"/>
+            <circle cx="98" cy="42" r="4.5" fill="#F3C08A"/>
+            <g class="rock" style="transform-origin:70px 104px">
+              <text x="66" y="92" text-anchor="middle" class="wm" font-size="68" fill="#F3ECE1">b</text>
+              <path d="M34 100c10 9 62 9 72 0" fill="none" stroke="#E08E45" stroke-width="3.6" stroke-linecap="round"/>
+            </g>
+          </svg>
+        </div>
+        <div class="use nuit"><small>Réseaux · carte</small>
+          <svg viewBox="0 0 140 140" width="132" role="img" aria-label="Sceau C inversé">
+            <circle cx="70" cy="70" r="64" fill="#F7F2EA"/>
+            <circle cx="98" cy="42" r="22" fill="url(#halo)"/>
+            <circle cx="98" cy="42" r="4.5" fill="#E08E45"/>
+            <g class="rock" style="transform-origin:70px 104px">
+              <text x="66" y="92" text-anchor="middle" class="wm" font-size="68" fill="#1E2A3A">b</text>
+              <path d="M34 100c10 9 62 9 72 0" fill="none" stroke="#AE5420" stroke-width="3.6" stroke-linecap="round"/>
+            </g>
+          </svg>
+        </div>
+        <div class="use small-row"><small>Favicon 32 et 16 px</small>
+          <div class="fav">
+            <svg viewBox="0 0 140 140" width="32" height="32" aria-hidden="true"><circle cx="70" cy="70" r="70" fill="#1E2A3A"/><text x="66" y="94" text-anchor="middle" class="wm" font-size="84" fill="#F3ECE1">b</text><path d="M30 104c10 10 70 10 80 0" fill="none" stroke="#E08E45" stroke-width="8" stroke-linecap="round"/></svg>
+            <svg viewBox="0 0 140 140" width="16" height="16" aria-hidden="true"><circle cx="70" cy="70" r="70" fill="#1E2A3A"/><text x="66" y="96" text-anchor="middle" class="wm" font-size="90" fill="#F3ECE1">b</text></svg>
+          </div>
+          <div class="tabmock">
+            <svg viewBox="0 0 140 140" width="16" height="16" aria-hidden="true"><circle cx="70" cy="70" r="70" fill="#1E2A3A"/><text x="66" y="96" text-anchor="middle" class="wm" font-size="90" fill="#F3ECE1">b</text></svg>
+            Bercelou
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section aria-labelledby="palette-h">
+  <div class="sec-head">
+    <p class="label">Couleurs et typographie</p>
+    <h2 id="palette-h">Le sable domine, la nuit encadre, la lampe signe</h2>
+    <svg class="runner" aria-hidden="true"><use href="#runner"/></svg>
+    <p class="lede">Même palette que la direction validée, avec un dosage précis. Le bleu nuit ne sert qu'au bandeau d'annonce, au dégradé du hero, au pied de page et aux badges : jamais à l'en-tête, pour ne pas alourdir le haut de page sur mobile.</p>
+  </div>
+  <div class="two">
+    <div class="swatches">
+      <div class="sw"><div class="chip" style="background:#F7F2EA"></div><div><b>Sable lait</b><span>Fond des pages, en-tête</span></div><code>#F7F2EA</code></div>
+      <div class="sw"><div class="chip" style="background:#1E2A3A"></div><div><b>Bleu nuit</b><span>Annonce, hero, pied de page · blanc dessus 14,5:1</span></div><code>#1E2A3A</code></div>
+      <div class="sw"><div class="chip" style="background:#22201C"></div><div><b>Encre</b><span>Texte courant · 14,6:1 sur sable</span></div><code>#22201C</code></div>
+      <div class="sw"><div class="chip" style="background:#AE5420"></div><div><b>Terre brûlée</b><span>Boutons, liens actifs · blanc dessus 5,1:1</span></div><code>#AE5420</code></div>
+      <div class="sw"><div class="chip" style="background:#E08E45"></div><div><b>Ambre lampe</b><span>Halo, icônes sur nuit · jamais en texte sur sable</span></div><code>#E08E45</code></div>
+      <div class="sw"><div class="chip" style="background:#E7DFD1"></div><div><b>Sable foncé</b><span>Filets, champs, fonds de tableau</span></div><code>#E7DFD1</code></div>
+    </div>
+    <div class="specimen">
+      <div class="spec-big">Bercer, lire, souffler.</div>
+      <div class="spec-row">
+        <p class="label">Titres · Fraunces 400–500, axe « Soft » au maximum</p>
+        <p class="t1">Fauteuil à bascule d'allaitement en teddy, dossier haut</p>
+      </div>
+      <div class="spec-row">
+        <p class="label">Corps · Karla 400 et 600</p>
+        <p class="t2">Accoudoirs pleins à 62 cm du sol, assise à 40 cm, jusqu'à 113 kg. Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.</p>
+      </div>
+      <div class="spec-row">
+        <p class="label">Boutons · Karla 600, forme pilule, 44 px de haut minimum</p>
+        <p><span class="s-btn" style="font-family:var(--body)">Ajouter au panier</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<section class="night" aria-labelledby="shop-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="label">Le thème habillé</p>
+      <h2 id="shop-h">La boutique, à l'heure de la tétée de nuit</h2>
+      <svg class="runner" aria-hidden="true" style="color:#E08E45"><use href="#runner"/></svg>
+      <p class="lede">Maquettes construites avec les vrais visuels, les vrais textes et les vrais prix. Le hero reprend la scène qu'aucun concurrent ne montre. Les quatre cartes « moments » guident vers les collections, et les critères reprennent les mots du persona.</p>
+    </div>
+
+    <p class="frame-cap">Accueil · ordinateur</p>
+    <div class="desk">
+      <div class="s-ann">Livraison offerte en France métropolitaine · Paiement en 3 ou 4 fois</div>
+      <div class="s-head">
+        <svg viewBox="0 0 300 110" width="120" role="img" aria-label="bercelou"><text x="150" y="66" text-anchor="middle" class="wm" font-size="58" fill="#1E2A3A">bercelou</text><path d="M22 76c18 15 62 20 128 20s110-5 128-20" fill="none" stroke="#AE5420" stroke-width="4.5" stroke-linecap="round"/></svg>
+        <nav class="s-nav" aria-label="Menu de la maquette"><span>Allaitement</span><span>Rocking chairs</span><span>Relax</span><span>Extérieur</span><span>Enfant</span><span>Guides</span></nav>
+        <div class="s-icons"><svg class="ico" aria-hidden="true"><use href="#i-search"/></svg><svg class="ico" aria-hidden="true"><use href="#i-bag"/></svg></div>
+      </div>
+      <div class="s-hero" style="background-image:url({{hero}})">
+        <div class="s-hero-in">
+          <h3 class="wm">Le fauteuil des vraies nuits, et des moments à soi</h3>
+          <p>Des fauteuils à bascule choisis pour bercer bébé à 3 h du matin, puis garder leur place au salon.</p>
+          <span class="s-btn">Trouver mon fauteuil <svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
+          <div class="s-proofs">
+            <span><svg aria-hidden="true"><use href="#i-truck"/></svg>Livraison offerte</span>
+            <span><svg aria-hidden="true"><use href="#i-book"/></svg>Guide pour bien choisir offert en ligne</span>
+            <span><svg aria-hidden="true"><use href="#i-card"/></svg>Paiement en 3 ou 4 fois</span>
+          </div>
+        </div>
+      </div>
+      <div class="s-sec">
+        <h4>Trouver le fauteuil qui vous ressemble</h4>
+        <svg class="s-runner" aria-hidden="true"><use href="#runner"/></svg>
+        <div class="moments">
+          <div class="moment"><div class="img" style="background-image:url({{nuit}})"></div><div><b>Pour les tétées de nuit</b><span>Fauteuils d'allaitement</span></div></div>
+          <div class="moment"><div class="img" style="background-image:url({{lecture}})"></div><div><b>Pour le coin lecture</b><span>Design et scandinave</span></div></div>
+          <div class="moment"><div class="img" style="background-image:url({{detente}})"></div><div><b>Pour se détendre</b><span>Fauteuils relax</span></div></div>
+          <div class="moment"><div class="img" style="background-image:url({{terrasse}})"></div><div><b>Pour la terrasse</b><span>Rocking chair extérieur</span></div></div>
+        </div>
+        <div class="criteria">
+          <div class="crit"><svg aria-hidden="true"><use href="#i-rise"/></svg>On se relève sans réveiller bébé</div>
+          <div class="crit"><svg aria-hidden="true"><use href="#i-arms"/></svg>Les accoudoirs portent les bras</div>
+          <div class="crit"><svg aria-hidden="true"><use href="#i-head"/></svg>Le dossier soutient la tête</div>
+          <div class="crit"><svg aria-hidden="true"><use href="#i-rock"/></svg>La bascule reste douce et discrète</div>
+          <div class="crit"><svg aria-hidden="true"><use href="#i-wash"/></svg>La matière s'entretient facilement</div>
+        </div>
+      </div>
+      <div class="s-foot"><span>Suivre ma commande · Livraison et retours · Garantie et SAV · FAQ · Contact</span><span>contact@bercelou.com · +33 7 56 82 80 94</span></div>
+    </div>
+
+    <div class="phones">
+      <div class="phone">
+        <p class="frame-cap">Accueil · mobile 375 px</p>
+        <div class="screen">
+          <div class="s-ann" style="font-size:11px">Livraison offerte en France métropolitaine</div>
+          <div class="m-head">
+            <svg class="ico" aria-hidden="true"><use href="#i-menu"/></svg>
+            <svg viewBox="0 0 300 110" width="104" role="img" aria-label="bercelou"><text x="150" y="66" text-anchor="middle" class="wm" font-size="58" fill="#1E2A3A">bercelou</text><path d="M22 76c18 15 62 20 128 20s110-5 128-20" fill="none" stroke="#AE5420" stroke-width="5" stroke-linecap="round"/></svg>
+            <svg class="ico" aria-hidden="true"><use href="#i-bag"/></svg>
+          </div>
+          <div class="m-hero" style="background-image:url({{hero}})">
+            <div class="m-hero-in">
+              <h5>Le fauteuil des vraies nuits, et des moments à soi</h5>
+              <span class="s-btn">Trouver mon fauteuil <svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
+            </div>
+          </div>
+          <div class="m-proofs">
+            <span><svg aria-hidden="true"><use href="#i-truck"/></svg>Livraison offerte en 3 à 10 jours ouvrés</span>
+            <span><svg aria-hidden="true"><use href="#i-card"/></svg>Paiement en 3 ou 4 fois</span>
+          </div>
+          <div class="m-sec">
+            <h6>Trouver le fauteuil qui vous ressemble</h6>
+            <div class="m-rail">
+              <div><div class="img" style="background-image:url({{nuit}})"></div><b>Tétées de nuit</b></div>
+              <div><div class="img" style="background-image:url({{lecture}})"></div><b>Coin lecture</b></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="phone">
+        <p class="frame-cap">Fiche produit · mobile 375 px</p>
+        <div class="screen">
+          <div class="m-head">
+            <svg class="ico" aria-hidden="true"><use href="#i-menu"/></svg>
+            <svg viewBox="0 0 300 110" width="104" role="img" aria-label="bercelou"><text x="150" y="66" text-anchor="middle" class="wm" font-size="58" fill="#1E2A3A">bercelou</text><path d="M22 76c18 15 62 20 128 20s110-5 128-20" fill="none" stroke="#AE5420" stroke-width="5" stroke-linecap="round"/></svg>
+            <svg class="ico" aria-hidden="true"><use href="#i-bag"/></svg>
+          </div>
+          <div class="pdp-img" style="background-image:url({{pdpnuit}})"><div class="pdp-dots"><i></i><i></i><i></i><i></i><i></i></div></div>
+          <div class="pdp">
+            <h5>Fauteuil à bascule d'allaitement en teddy, dossier haut</h5>
+            <div class="price"><b>179,00 €</b><span>ou 3 × 59,67 € avec Klarna</span></div>
+            <div class="opt">Couleur : <em>Beige</em></div>
+            <div class="swrow"><i style="background:#D9B9AE"></i><i class="on" style="background:#D8C8B0"></i><i style="background:#C9C6C0"></i><i style="background:#6E6A66"></i></div>
+            <span class="s-btn">Ajouter au panier</span>
+            <div class="reas">
+              <span><svg aria-hidden="true"><use href="#i-truck"/></svg>Livraison offerte, 3 à 10 jours ouvrés</span>
+              <span><svg aria-hidden="true"><use href="#i-return"/></svg>Retours sous 14 jours après réception</span>
+              <span><svg aria-hidden="true"><use href="#i-shield"/></svg>Garantie légale de conformité 2 ans</span>
+            </div>
+            <div class="acc"><div><span>Dimensions</span><span>+</span></div><div><span>Entretien</span><span>+</span></div><div><span>Livraison et retours</span><span>+</span></div></div>
+            <div class="reserved">Section avis : emplacement conservé, contenu à votre main</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main class="wrap">
+<section aria-labelledby="map-h">
+  <div class="sec-head">
+    <p class="label">Application au thème de travail</p>
+    <h2 id="map-h">Ce qui change dans la copie FullStack</h2>
+    <svg class="runner" aria-hidden="true"><use href="#runner"/></svg>
+    <p class="lede">La structure du thème ne bouge pas : la direction s'applique par les réglages et quelques sections. Tout se fait sur la copie non publiée.</p>
+  </div>
+  <div class="map-wrap">
+  <table class="map">
+    <thead><tr><th>Élément</th><th>Réglage</th><th>Pourquoi</th></tr></thead>
+    <tbody>
+      <tr><td>Schéma principal</td><td>Fond #F7F2EA, texte #22201C, boutons #AE5420 texte blanc</td><td>Contrastes AA vérifiés sur les trois couples</td></tr>
+      <tr><td>Schéma nuit</td><td>Fond #1E2A3A, texte #F3ECE1, accent #E08E45</td><td>Bandeau d'annonce, hero, pied de page</td></tr>
+      <tr><td>Polices</td><td>Fraunces 400–500 (titres), Karla 400/600 (corps)</td><td>Chargées une seule fois, deux familles seulement</td></tr>
+      <tr><td>Formes</td><td>Boutons pilule ; images arrondies à 14 px, sans ombre ; cartes sans bordure</td><td>Douceur du patin, sans l'effet « carte partout »</td></tr>
+      <tr><td>Séparateur</td><td>Courbe de patin en terre brûlée sous les titres de section</td><td>Signature de la direction, en SVG léger</td></tr>
+      <tr><td>Halo de lampe</td><td>Dégradé ambre à 25 % sous les cartes « moments » et les visuels produit</td><td>Suggère la lampe sans la dessiner</td></tr>
+      <tr><td>Mouvement</td><td>Logo qui se balance au survol, bouton qui glisse d'1 px ; rien au défilement</td><td>Désactivé si l'utilisateur réduit les animations</td></tr>
+      <tr><td>Accueil</td><td>Hero nuit, 4 moments, 5 critères, best-sellers, du berceau au coin lecture, réassurance, FAQ courte</td><td>Ordre du plan de site, sans compteur de ventes</td></tr>
+      <tr><td>Avis et slider de démo</td><td>Emplacements gardés tels quels</td><td>Votre chasse gardée</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section aria-labelledby="dec-h">
+  <div class="sec-head">
+    <p class="label">À trancher</p>
+    <h2 id="dec-h">Trois réponses et j'attaque le thème</h2>
+    <svg class="runner" aria-hidden="true"><use href="#runner"/></svg>
+  </div>
+  <div class="decide">
+    <div class="q"><h3>Quel logo ?</h3><p><strong>Recommandé : B, le mot bercé,</strong> avec le sceau C en favicon et avatar. A reste possible si vous voulez un pictogramme plus marqué.</p></div>
+    <div class="q"><h3>En-tête clair ?</h3><p><strong>Recommandé : oui.</strong> En-tête sable, nuit réservée à l'annonce, au hero et au pied de page. L'autre option est un en-tête nuit, plus dramatique mais plus lourd sur mobile.</p></div>
+    <div class="q"><h3>Fichiers du logo</h3><p>Une fois la piste choisie, je vectorise le mot en tracés (sans dépendance à la police). J'exporte ensuite le SVG et le PNG logo, le favicon 32/180/512 et l'avatar, puis je les pose dans le thème.</p></div>
+  </div>
+</section>
+</main>
