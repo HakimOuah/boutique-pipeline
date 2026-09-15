@@ -86,7 +86,6 @@ Mot-clé · meta title · meta description · H1 · intro de 60 à 100 mots (au-
 | rocking-chair-rotin | 1005012477518388 | rocking chair rotin | 249 € | 141.91 € | rocking chair bois & rotin | rocking chair rotin 1000 | 1 |
 | fauteuil-a-bascule-rotin-et-coussin | 1005012627789726 | fauteuil à bascule rotin et coussin | 269 € | 148.58 € | rocking chair bois & rotin | fauteuil à bascule rotin 390 | 0 |
 | rocking-chair-papasan-avec-pouf | 1005010552530016 | rocking chair papasan avec pouf | 259 € | 181.99 € | rocking chair bois & rotin |  | 2 |
-| rocking-chair-bambou-pliable | 1005002888932994 | rocking chair bambou pliable | 269 € | 149.39 € | rocking chair bois & rotin |  | 0 |
 | fauteuil-relax-electrique | 1005012054721103 | fauteuil relax électrique | 349 € | 162.99 € | fauteuils relax | fauteuil relax électrique 6600 · fauteuil relax confortable 480 | 0 |
 | fauteuil-relax-moderne | 1005012454786223 | fauteuil relax moderne | 329 € | 160.55 € | fauteuils relax | fauteuil relax moderne 2400 | 0 |
 | fauteuil-relax-manuel | 1005008598267746 | fauteuil relax manuel | 449 € | 290.46 € | fauteuils relax | fauteuil relax manuel 1900 | 0 |

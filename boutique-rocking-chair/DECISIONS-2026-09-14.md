@@ -37,3 +37,7 @@
   - rocking-chair-bambou-pliable : seule variante chez le fournisseur expédiée du Mexique (stock 0), donc le délai de 3 à 10 jours ouvrés n'est pas tenable ;
   - fauteuil-relax-pivotant : entrepôt déduit en Chine, donc le délai de 3 à 10 jours ouvrés est à vérifier ;
   - la section avis réservée en accueil est contraire à la checklist NoBrand (« pas d'avis clients »).
+
+## 15/09 — arbitrages Hakim sur les délais
+- **rocking-chair-bambou-pliable retiré** : expédié du Mexique uniquement et stock à 0. Fiche, ligne du catalogue et ligne de BRIEF-COPY supprimées ; collection bois & rotin réécrite sans le bambou (3 fiches). Catalogue : 40 fiches. Ses visuels du lot 3 ne sont pas à publier.
+- **fauteuil-relax-pivotant à 7 à 15 jours ouvrés** (entrepôt déduit en Chine). FAQ, Livraison et retours, Suivre ma commande et les politiques renvoient au délai affiché sur la fiche.

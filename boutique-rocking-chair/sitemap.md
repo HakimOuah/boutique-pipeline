@@ -5,10 +5,10 @@
 - **Action dominante** : « Ajouter au panier » sur les fiches ; « Trouver mon fauteuil » en accueil.
 - **Personas** (validés le 14/09) : Camille (allaitement, principal), Nicolas et Julie (coin lecture, déco), Martine (cadeau).
 - **Objection principale** : « vais-je pouvoir me relever avec bébé dans les bras ? ». Viennent ensuite les accoudoirs et le dossier, le bruit, la place, l'entretien du tissu, le « meuble bébé moche », le montage et la livraison.
-- **Offre** : 44 fiches, avec un cœur rocking chair et allaitement entre 179 et 329 €, une famille relax entre 299 et 649 €, et des accessoires entre 29 et 69 €. Livraison offerte, guide « bien choisir son fauteuil » offert en ligne, paiement en plusieurs fois.
+- **Offre** : 40 fiches, avec un cœur rocking chair et allaitement entre 179 et 329 €, une famille relax entre 299 et 649 €, et des accessoires entre 29 et 69 €. Livraison offerte, guide « bien choisir son fauteuil » offert en ligne, paiement en plusieurs fois.
 
 ## Catalogue et collections
-Les volumes viennent de l'onglet « Rocking chair » du Sheet Niches SMP (SEMrush et OCB, 13-14/09). Un mot-clé principal par page. Les fiches sont les 44 fiches uniques de `catalogue-source-2026-09-14.json`.
+Les volumes viennent de l'onglet « Rocking chair » du Sheet Niches SMP (SEMrush et OCB, 13-14/09). Un mot-clé principal par page. Les fiches sont les 40 fiches uniques de `catalogue-source-2026-09-14.json`.
 
 | Collection (handle) | Mot-clé principal | Volume | Fiches |
 |---|---|---:|---:|
@@ -17,7 +17,7 @@ Les volumes viennent de l'onglet « Rocking chair » du Sheet Niches SMP (SEMrus
 | fauteuil-allaitement | fauteuil allaitement | 5 400 | 6 |
 | chaise-a-bascule | chaise à bascule | 2 900 | 5 |
 | rocking-chair-exterieur | rocking chair extérieur | 1 900 | 4 |
-| rocking-chair-bois-rotin | rocking chair bois | 1 300 | 4 |
+| rocking-chair-bois-rotin | rocking chair bois | 1 300 | 3 |
 | rocking-chair-design-scandinave | rocking chair design | 480 | 5 |
 | fauteuil-cocon | fauteuil cocon | 590 | 3 |
 | fauteuil-relax | fauteuil relax | 49 500 | 11 |

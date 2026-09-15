@@ -6,7 +6,7 @@
 
 ### Délais de livraison
 
-Vos fauteuils sont livrés en 3 à 10 jours ouvrés. Les accessoires (plaid, coussin, repose-pieds, housse de protection) sont livrés en 7 à 15 jours ouvrés.
+Vos fauteuils sont livrés en 3 à 10 jours ouvrés, sauf mention d'un autre délai sur la fiche produit. Les accessoires (plaid, coussin, repose-pieds, housse de protection) sont livrés en 7 à 15 jours ouvrés.
 
 ### Livraison offerte
 

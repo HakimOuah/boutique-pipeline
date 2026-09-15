@@ -15,7 +15,7 @@ Saisissez votre numéro de commande et votre e-mail, ou votre numéro de suivi, 
 | Délai de livraison total | 3 à 10 jours ouvrés | 7 à 15 jours ouvrés |
 | Frais de livraison | Offerts en France métropolitaine | Offerts en France métropolitaine |
 
-Le délai total court de la validation de votre commande à la livraison, préparation comprise. Vous recevez votre numéro de suivi par e-mail dès l'expédition. Si votre commande réunit un fauteuil et un accessoire, ils arrivent en colis séparés, chacun avec son propre suivi.
+Le délai applicable à votre article figure sur sa fiche produit. Le délai total court de la validation de votre commande à la livraison, préparation comprise. Vous recevez votre numéro de suivi par e-mail dès l'expédition. Si votre commande réunit un fauteuil et un accessoire, ils arrivent en colis séparés, chacun avec son propre suivi.
 
 ### Horaires du service client
 

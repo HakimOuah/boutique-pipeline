@@ -61,7 +61,7 @@ Prévoyez un espace dégagé autour du fauteuil pour profiter de la rotation à 
 Essuyez le similicuir avec un chiffon doux légèrement humide ; évitez les produits abrasifs et à base d'alcool.
 
 ## Livraison
-Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Un assemblage est nécessaire à réception.
+Livraison offerte en France métropolitaine, en 7 à 15 jours ouvrés. Un assemblage est nécessaire à réception.
 
 ## FAQ
 **1. Le fauteuil pivote-t-il ?**
@@ -86,7 +86,7 @@ Un chiffon doux légèrement humide suffit ; évitez les produits abrasifs.
 Un assemblage est nécessaire à réception.
 
 **8. Quels sont les délais de livraison ?**
-Livraison en 3 à 10 jours ouvrés, offerte en France métropolitaine.
+Livraison en 7 à 15 jours ouvrés, offerte en France métropolitaine.
 
 ## Images (ALT et rôle)
 1. Désir — Fauteuil relax pivotant en similicuir noir dans un salon éclairé en lumière du soir
