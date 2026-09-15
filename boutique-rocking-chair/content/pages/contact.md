@@ -1,14 +1,30 @@
 **Mot-clé principal :** contact Bercelou
 **Meta title (≤60) :** Contact | Bercelou
-**Meta description (≤155) :** Une question avant ou après votre achat : écrivez à info@ohventures.fr, réponse sous 1 jour ouvré, du lundi au vendredi.
+**Meta description (≤155) :** Une question avant ou après votre achat : écrivez à contact@bercelou.fr ou appelez-nous, du lundi au vendredi de 9h à 18h.
 
 ## Contact
 
-Une question sur un fauteuil, votre commande, une livraison ou un retour : écrivez-nous à **info@ohventures.fr**.
+Une question sur un fauteuil, votre commande, une livraison ou un retour : notre équipe vous répond.
 
-Nous répondons sous 1 jour ouvré, du lundi au vendredi.
+- **E-mail** : contact@bercelou.fr
+- **Téléphone** : +33 7 56 82 80 94
+- **Adresse** : OH Ventures (SASU), 47 rue Vivienne, 75002 Paris, France
 
-Pour une question sur le choix de votre fauteuil, consultez d'abord notre [guide pour bien choisir son fauteuil d'allaitement](/pages/guide-bien-choisir-fauteuil-allaitement) ou notre [FAQ](/pages/faq) : vous y trouverez peut-être déjà votre réponse.
+### Horaires du service client
+
+Notre équipe vous accompagne du lundi au vendredi, entre 9h00 et 18h00. Si vous nous contactez après 18h, votre demande sera prise en charge le jour suivant. Nous vous répondons sous 1 jour ouvré.
+
+*(Formulaire de contact Shopify sous ce bloc.)*
+
+### Liens utiles
+
+- [Suivre ma commande](/pages/suivre-ma-commande)
+- [Politique de livraison](/policies/shipping-policy)
+- [Politique de retour et remboursement](/policies/refund-policy)
+- [Conditions générales de vente](/policies/terms-of-service)
+- [Politique de confidentialité](/policies/privacy-policy)
+
+Pour une question sur le choix de votre fauteuil, consultez aussi notre [guide pour bien choisir son fauteuil d'allaitement](/pages/guide-bien-choisir-fauteuil-allaitement) ou notre [FAQ](/pages/faq).
 
 ---
 

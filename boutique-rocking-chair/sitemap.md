@@ -31,7 +31,9 @@ Une fiche peut appartenir à plusieurs collections. Les mots-clés secondaires d
 ## Menu (6 entrées)
 **Allaitement** · **Rocking chairs** (fauteuils à bascule, chaises à bascule, design et scandinave, bois et rotin, cocon) · **Relax** (relax, relax à bascule et repose-pieds, relax de jardin) · **Extérieur** · **Enfant** · **Guides**.
 
-Pied de page : Livraison et retours · Garantie et SAV · FAQ · Contact · Qui sommes-nous · CGV · Confidentialité · Mentions légales.
+Header NoBrand (checklist, ajout du 15/09) : logo · Accueil · Contact · Suivre ma commande · Qui sommes-nous, en plus des entrées catalogue.
+
+Pied de page : menu contact (e-mail, téléphone, adresse, lien Contact) · Suivre ma commande · Livraison et retours · Garantie et SAV · FAQ · Qui sommes-nous · Moyens de paiement · menu pages légales (retour et remboursement, livraison, CGV, confidentialité, mentions légales) · logo · badges de paiement et « Liens de politiques » cochés dans l'éditeur. Textes : `content/politiques/politiques-bercelou-nobrand-2026-09-15.md`.
 
 ## Wireframes — une action dominante par page
 
@@ -60,7 +62,7 @@ Intro de 60 à 100 mots · grille · texte d'aide au choix de 200 à 300 mots.
 - Guide « Bien choisir son fauteuil d'allaitement » (mot-clé : meilleur fauteuil allaitement, 110) ;
 - Guide « Rocking chair : quelle taille et quelle place prévoir » ;
 - Guide « Entretenir un fauteuil en bouclette, velours ou lin » ;
-- Livraison et retours · Garantie et SAV · FAQ · Qui sommes-nous · Contact ;
+- Livraison et retours · Garantie et SAV · FAQ · Qui sommes-nous · Contact · Suivre ma commande (ParcelPanel) · Moyens de paiement ;
 - Politiques Shopify natives.
 
 ## Garde-fous

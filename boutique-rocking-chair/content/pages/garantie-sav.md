@@ -14,7 +14,7 @@ Votre fauteuil bénéficie également de la garantie légale des vices cachés, 
 
 ### Comment faire jouer votre garantie
 
-Contactez notre service client à info@ohventures.fr, en décrivant le défaut constaté et en joignant des photos. Nous vous indiquons la marche à suivre : réparation, remplacement ou remboursement, selon la situation.
+Contactez notre service client à contact@bercelou.fr, en décrivant le défaut constaté et en joignant des photos. Nous vous indiquons la marche à suivre : réparation, remplacement ou remboursement, selon la situation.
 
 ### Le médiateur de la consommation
 
@@ -24,4 +24,4 @@ https://www.cm2c.net/
 
 ### Nous contacter
 
-info@ohventures.fr, réponse sous 1 jour ouvré, du lundi au vendredi. Retrouvez aussi notre page [Livraison et retours](/pages/livraison-retours) et notre page [Contact](/pages/contact).
+contact@bercelou.fr, réponse sous 1 jour ouvré, du lundi au vendredi. Retrouvez aussi notre page [Livraison et retours](/pages/livraison-retours) et notre page [Contact](/pages/contact).

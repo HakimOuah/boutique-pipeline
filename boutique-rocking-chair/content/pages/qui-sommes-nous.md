@@ -18,7 +18,15 @@ Notre catalogue couvre les fauteuils d'allaitement, les rocking chairs design et
 
 ### Nous contacter
 
-Une question avant ou après votre achat : écrivez-nous à info@ohventures.fr, nous répondons sous 1 jour ouvré. Retrouvez aussi notre [guide pour bien choisir son fauteuil d'allaitement](/pages/guide-bien-choisir-fauteuil-allaitement).
+Une question avant ou après votre achat : notre équipe vous répond.
+
+- **E-mail** : contact@bercelou.fr
+- **Téléphone** : +33 7 56 82 80 94
+- **Adresse** : OH Ventures (SASU), 47 rue Vivienne, 75002 Paris, France
+
+Notre équipe vous accompagne du lundi au vendredi, entre 9h00 et 18h00. Si vous nous contactez après 18h, votre demande sera prise en charge le jour suivant. Nous vous répondons sous 1 jour ouvré.
+
+Retrouvez aussi notre [guide pour bien choisir son fauteuil d'allaitement](/pages/guide-bien-choisir-fauteuil-allaitement).
 
 ---
 

@@ -33,7 +33,7 @@ Les fauteuils sont expédiés depuis des entrepôts européens, avec un délai d
 Non, un montage est nécessaire à réception, avec la notice fournie dans le colis.
 
 **9. Que faire si mon colis est abîmé ou incomplet à la livraison ?**
-Signalez-le sous 48 heures avec des photos à info@ohventures.fr. Selon la situation, nous procédons à un renvoi ou à un remboursement, à nos frais.
+Signalez-le sous 48 heures avec des photos à contact@bercelou.fr. Selon la situation, nous procédons à un renvoi ou à un remboursement, à nos frais.
 
 ### Retours et garantie
 

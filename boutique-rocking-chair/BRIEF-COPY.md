@@ -8,7 +8,7 @@
 
 ## Marque et société
 - Nom de marque : Bercelou (décision Hakim du 14/09, `DECISIONS-2026-09-14.md`). Domaine : `bercelou.fr`.
-- Société : OH Ventures (SASU), 47 rue Vivienne, 75002 Paris, SIREN 103 157 251, TVA FR55103157251, e-mail info@ohventures.fr, directeur de la publication Hakim Ouahabi. Médiateur : CM2C, 14 rue Saint Jean, 75017 Paris, https://www.cm2c.net/.
+- Société : OH Ventures (SASU), 47 rue Vivienne, 75002 Paris, SIREN 103 157 251, TVA FR55103157251, e-mail contact@bercelou.fr, directeur de la publication Hakim Ouahabi. Médiateur : CM2C, 14 rue Saint Jean, 75017 Paris, https://www.cm2c.net/.
 - Thèse (persona §4) : *le spécialiste qui choisit chaque fauteuil pour les vraies nuits avec un bébé (on s'y assoit, on berce en douceur, on se relève sans réveiller personne) et assez beau pour rester au salon ensuite.*
 - Une seule action dominante par page.
 

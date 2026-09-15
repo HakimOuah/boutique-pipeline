@@ -27,3 +27,12 @@
 - **Style « Veille douce » validé** sur le lot test (16 images, `livraisons/visuels-lot1-test-2026-09-14/`).
 - **Fauteuils releveurs retirés** : fauteuil-relax-electrique-cuir (1005008603622248) et fauteuil-relax-massant (1005008604858033). Catalogue : 41 fiches.
 - **Visuels de production** : Hakim lance lui-même Codex depuis l'app avec `BRIEF-CODEX-APP-2026-09-15.md`. 4 ordres dans `ordres/pour-codex/inbox/` (lots 2 à 5, 198 images) ; brief `BRIEF-VISUELS-CODEX-LOTS-2-5-2026-09-15.md`.
+
+## 15/09 — pages légales NoBrand
+- Politiques rédigées depuis les gabarits NoBrand de Sous Abri : `content/politiques/politiques-bercelou-nobrand-2026-09-15.md`. Elles couvrent le remboursement, la confidentialité, les CGV/CGU, la livraison, les mentions légales, les coordonnées, les moyens de paiement, l'accordéon des fiches et le bloc « À propos de notre marque ».
+- Coordonnées uniques : contact@bercelou.fr (boîte Google Workspace à créer après l'achat du domaine), +33 7 56 82 80 94, OH Ventures, 47 rue Vivienne, 75002 Paris. `info@ohventures.fr` est remplacé dans les pages et dans BRIEF-COPY. Nouvelle page `suivre-ma-commande`.
+- Délai de réponse harmonisé à « sous 1 jour ouvré », horaires du lundi au vendredi de 9h à 18h.
+- **Écarts à trancher** :
+  - rocking-chair-bambou-pliable n'est expédié que du Mexique (stock 0), alors que la fiche annonce l'Allemagne ;
+  - l'entrepôt du fauteuil-relax-pivotant est déduit en Chine, alors que la fiche annonce un entrepôt européen ;
+  - la section avis réservée en accueil est contraire à la checklist NoBrand (« pas d'avis clients »).
