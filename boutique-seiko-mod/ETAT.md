@@ -1,5 +1,7 @@
 # Maison Noirmont — état courant
 
+> ⛔ **BOUTIQUE FERMÉE LE 15/09/2026** — Shopify désactivé, Google Ads fermé, Merchant Center 5840460291 fermé, par Hakim. Déban GMC obtenu début septembre puis nouvelle suspension trois jours plus tard ; marché jugé saturé et exposé aux rétrofacturations. Détail : [`journal/2026-09-15-fermeture-maison-noirmont.md`](journal/2026-09-15-fermeture-maison-noirmont.md). **Tout ce qui suit est l'état historique au 18/08, conservé pour archive.**
+
 **Dernière vérification : 18/08/2026 ~19h50** — Boutique **Maison Noirmont** uniquement. 🧊 **Storefront gelé** (catalogue / thème / 20 brouillons). **GMC : app Google & YouTube installée par Hakim le 18/08**, Ads liés **sans campagne**, flux à laisser vivre. E-mail boutique relu : `contact@maisonnoirmont.fr`. Thème publié = `205451100498`. **N'activer aucun des 20.**
 
 **Vérifications antérieures** : audit GMC Terry 17/08 (`journal/2026-08-17-audit-gmc-terry.md`) ; repasse conformité n°2 le 15/08 midi ; audit live 15/08 matin ; grille de prix et cookies 14/08 ; audit brouillons et GMC 13/08.
