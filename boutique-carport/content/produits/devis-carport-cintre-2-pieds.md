@@ -41,7 +41,7 @@ Les dimensions et la hauteur de passage, adaptées à votre véhicule et à votr
 Oui dans presque tous les cas, et c'est simple : dès 5 m² d'emprise au sol, une déclaration préalable en mairie ; au-delà de 20 m², un permis de construire. Votre devis rappelle le seuil qui s'applique à vos dimensions, notre guide déclaration vous accompagne pas à pas, et votre mairie vous confirme le régime applicable. Déposez votre dossier avant de valider le devis : le carport arrive une fois l'autorisation en poche.
 
 ### Le montage, à deux
-Prévoyez d'être deux et réservez une demi-journée. La notice du fabricant guide chaque étape, et notre conseiller reste joignable par e-mail avant, pendant et après le montage. Un carport à deux pieds repose sur des fondations dimensionnées pour son porte-à-faux : plots béton hors gel sur terre, fixation sur dalle existante ; la préconisation exacte, adaptée à vos cotes, est jointe à votre devis.
+Prévoyez d'être deux et réservez une demi-journée. La notice du fabricant guide chaque étape, et notre guide de montage offert ajoute l'ordre conseillé et les points de contrôle. Un carport à deux pieds repose sur des fondations dimensionnées pour son porte-à-faux : plots béton hors gel sur terre, fixation sur dalle existante ; la préconisation exacte, adaptée à vos cotes, est jointe à votre devis.
 
 ### L'ancrage et le vent
 Testé par le fabricant à 122 km/h, avec une tenue de −40 à +120 °C et un classement ignifuge B1 : ce carport est conçu pour rester en place, hiver comme été, dès lors qu'il est ancré comme prévu. Les deux pieds reposent sur des platines aluminium de 135 × 65 × 5 mm. Le certificat CE et les rapports d'essai neige et vent du fabricant vous sont fournis sur demande avec votre devis. Après une forte chute de neige, dégagez le toit : la structure vous remerciera.
@@ -61,7 +61,7 @@ Fabrication dans l'atelier partenaire après validation du devis, puis transport
 **3. Combien de temps est-il valable ?** 30 jours. Passé ce délai, nous vous en établissons un nouveau, à jour.
 **4. Puis-je changer les dimensions après le devis ?** Oui, jusqu'au lancement de la fabrication. Ensuite, le carport est découpé à vos cotes, qui sont donc figées.
 **5. Que se passe-t-il si ma mairie refuse ?** Annulation sans frais tant que la fabrication n'est pas lancée. Ensuite, le carport est fabriqué à vos cotes et ne relève pas du droit de rétractation (article L221-28 du Code de la consommation). Notre conseil : déposez votre déclaration en mairie avant de valider le devis, il reste valable 30 jours.
-**6. Livrez-vous et montez-vous ?** Nous livrons, offert et sur rendez-vous ; le montage se fait à deux avec la notice du fabricant et notre accompagnement par e-mail.
+**6. Livrez-vous et montez-vous ?** Nous livrons, offert et sur rendez-vous ; le montage se fait à deux avec la notice du fabricant et notre guide de montage offert.
 **7. Le polycarbonate jaunit-il ?** Cette toiture est faite pour l'extérieur : testée par le fabricant de −40 à +120 °C, classée ignifuge B1 et 250 à 300 fois plus résistante aux chocs que le verre. L'ensemble est couvert par une garantie fabricant de 5 ans.
 **8. Puis-je payer en plusieurs fois ?** Oui : en 3 fois avec Klarna ou en 4 fois avec PayPal, selon le montant et les conditions de ces services. Paiement sécurisé.
 

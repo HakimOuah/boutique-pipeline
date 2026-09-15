@@ -29,7 +29,7 @@ L'abri des vans aménagés et des caravanes compactes : 6 x 3,8 m au sol, 2,50 m
 **Dimensions :** 6 x 3,8 m, hauteur sous poutre 2,50 m ; version 6 x 6 m sur demande
 **CTA :** Ajouter au panier
 
-**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Fabriqué à la commande, ce carport n'ouvre pas droit à rétractation (article L221-28 du Code de la consommation). Garantie légale de conformité 2 ans, service client français, réponse sous 1 jour ouvré.
+**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Fabriqué à la commande, ce carport n'ouvre pas droit à rétractation (article L221-28 du Code de la consommation). Garantie légale de conformité 2 ans, guides déclaration et montage offerts.
 
 ---
 
@@ -45,7 +45,7 @@ En 6 x 3,8 m, ce carport représente 22,8 m² d'emprise au sol (36 m² pour la v
 
 ### Le montage, honnêtement
 
-Comptez une à deux journées à deux. Les profilés aluminium se portent sans effort : fixez les quatre poteaux sur leurs platines, assemblez les poutres, puis posez les panneaux du toit cintré depuis une échelle ou un échafaudage léger, à deux pour les guider. Terminez par la gouttière et son tube d'évacuation. Le guide de montage offert détaille l'ordre des étapes, et notre équipe vous répond pendant le montage.
+Comptez une à deux journées à deux. Les profilés aluminium se portent sans effort : fixez les quatre poteaux sur leurs platines, assemblez les poutres, puis posez les panneaux du toit cintré depuis une échelle ou un échafaudage léger, à deux pour les guider. Terminez par la gouttière et son tube d'évacuation. Le guide de montage offert détaille l'ordre des étapes et les points de contrôle avant la fixation définitive.
 
 ### L'ancrage et le vent
 
@@ -57,7 +57,7 @@ Garez le véhicule centré sous l'arche, dans l'axe des poteaux : c'est là que 
 
 ### La livraison, concrètement
 
-Ce carport est fabriqué à la commande dans votre coloris : comptez 4 à 8 semaines entre la commande et la livraison, le temps de la production (5 à 15 jours ouvrés) puis du transport (20 à 40 jours). Vous recevez des colis longs et lourds ; prévoyez d'être deux pour les réceptionner. Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous pour les colis lourds, en bordure de trottoir accessible à un camion. Parce qu'il est fabriqué pour vous, ce produit n'ouvre pas droit à rétractation (article L221-28 du Code de la consommation) : vérifiez la hauteur de votre véhicule, les cotes et l'autorisation d'urbanisme avant de commander, notre équipe vous aide à le faire. La garantie légale de conformité de 2 ans s'applique : une pièce défectueuse ou non conforme est remplacée. Une pièce abîmée ou manquante à la réception ? Signalez-la sous 48 h avec photos, nous renvoyons la pièce à nos frais.
+Ce carport est fabriqué à la commande dans votre coloris : comptez 4 à 8 semaines entre la commande et la livraison, le temps de la production (5 à 15 jours ouvrés) puis du transport (20 à 40 jours). Vous recevez des colis longs et lourds ; prévoyez d'être deux pour les réceptionner. Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous pour les colis lourds, en bordure de trottoir accessible à un camion. Parce qu'il est fabriqué pour vous, ce produit n'ouvre pas droit à rétractation (article L221-28 du Code de la consommation) : vérifiez la hauteur de votre véhicule, les cotes et l'autorisation d'urbanisme avant de commander : toutes les cotes utiles figurent sur cette fiche. La garantie légale de conformité de 2 ans s'applique : une pièce défectueuse ou non conforme est remplacée. Une pièce abîmée ou manquante à la réception ? Signalez-la sous 48 h avec photos, nous renvoyons la pièce à nos frais.
 
 ---
 
@@ -118,7 +118,7 @@ Oui, dès que les quatre platines sont fixées sur dalle ou plots béton : sur u
 Signalez-le sous 48 h avec photos, nous renvoyons la pièce à nos frais.
 
 **9. Puis-je annuler ou retourner le produit s'il ne convient pas ?**
-Ce carport est fabriqué à la commande : le droit de rétractation de 14 jours ne s'applique pas (article L221-28 du Code de la consommation). Prenez le temps de vérifier la hauteur de votre véhicule, les cotes, le coloris et l'autorisation d'urbanisme avant de commander, notre équipe vous répond sous 1 jour ouvré. La garantie légale de conformité de 2 ans reste acquise : une pièce défectueuse ou non conforme est remplacée.
+Ce carport est fabriqué à la commande : le droit de rétractation de 14 jours ne s'applique pas (article L221-28 du Code de la consommation). Prenez le temps de vérifier la hauteur de votre véhicule, les cotes, le coloris et l'autorisation d'urbanisme avant de commander : toutes les cotes utiles figurent sur cette fiche. La garantie légale de conformité de 2 ans reste acquise : une pièce défectueuse ou non conforme est remplacée.
 
 **10. Le kit d'ancrage au sol est-il fourni ?**
 Les platines de poteau sont fournies. Choisissez les chevilles ou tiges filetées selon votre support, dalle béton ou plots coulés hors gel ; envoyez-nous une photo de l'emplacement, nous vous conseillons la fixation adaptée.

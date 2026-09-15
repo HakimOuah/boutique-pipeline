@@ -12,7 +12,7 @@ Copy source : `boutique-carport/BRIEF-COPY.md` · `personas/persona-carport-2026
 ## 1. Hero
 
 **H1 (retenu le 10/09/2026 avec la charte copy, 48 car.) :** Votre voiture au sec et à l'ombre, toute l'année
-**Sous-titre :** Carports aluminium, acier et tentes-garages en kit, sélectionnés par le spécialiste français de l'abri voiture. Livraison offerte en France métropolitaine, guides déclaration et montage offerts, conseil par une vraie personne avant et après l'achat.
+**Sous-titre :** Carports aluminium, acier et tentes-garages en kit, sélectionnés par le spécialiste français de l'abri voiture. Livraison offerte en France métropolitaine, kits complets avec ancrage, guides déclaration et montage offerts.
 
 *Historique : l'alternative B du 09/09/2026 (H1 orienté « surprise ») est remplacée le 10/09/2026 par un H1 bénéfice, conformément à la charte. L'alternative A (H1 confessionnel) est abandonnée pour la même raison : le positionnement « on vous accompagne » remplace l'ancien angle « on vous dit tout avant l'achat ».*
 
@@ -62,14 +62,14 @@ Déclaration en mairie, montage et ancrage : deux guides numériques offerts pou
 **Carte 3 — La livraison offerte**
 En France métropolitaine, Corse comprise, sur rendez-vous pour les colis lourds. Poids et nombre de colis sont indiqués sur chaque fiche : vous savez ce qui arrive le jour J.
 
-**Carte 4 — Le conseil d'une vraie personne**
-Avant l'achat pour choisir le bon modèle, après pour le monter. Service client français, réponse sous 1 jour ouvré.
+**Carte 4 — Un kit complet**
+Structure, toile ou toiture, kit d'ancrage et notice : rien à racheter.
 
 **Lien :** Lire le guide montage et ancrage → `guide-montage-ancrage`
 
 **Manifeste (section rich-text, sous les produits) :**
-Titre : Le spécialiste qui vous accompagne, du choix au montage
-Texte : Un carport se choisit avec trois questions : a-t-on le droit de le poser, comment l'ancrer, comment se passe le montage. Chez Sous Abri, chaque modèle est vérifié avant d'entrer au catalogue : cotes, kit d'ancrage, contenu des colis. Chaque fiche indique l'emprise au sol et la démarche en mairie, ce qui est fourni pour l'ancrage et comment se déroule la livraison d'un colis lourd. Nos guides déclaration et montage sont offerts, et une vraie personne vous conseille avant comme après l'achat.
+Titre : Le spécialiste qui pense à tout, du choix au montage
+Texte : Un carport se choisit avec trois questions : a-t-on le droit de le poser, comment l'ancrer, comment se passe le montage. Chez Sous Abri, chaque modèle est vérifié avant d'entrer au catalogue : cotes, kit d'ancrage, contenu des colis. Chaque fiche indique l'emprise au sol et la démarche en mairie, ce qui est fourni pour l'ancrage et comment se déroule la livraison d'un colis lourd. Nos guides déclaration et montage sont offerts, et chaque kit arrive complet, ancrage compris.
 Bouton : Lire le guide déclaration offert → `guide-declaration-carport`
 
 ---
@@ -129,7 +129,7 @@ Chaque fiche Sous Abri indique l'emprise au sol du modèle et la démarche qui s
 
 **Titre de section :** Sous Abri ou grande surface de bricolage : ce qui change pour vous
 
-**Chapeau :** Une tente-garage vous abrite dès ce week-end, un carport aluminium ou acier protège votre voiture durablement : nous proposons les deux et nous vous aidons à choisir. La différence se joue dans la sélection des modèles et dans l'accompagnement autour de l'abri.
+**Chapeau :** Une tente-garage vous abrite dès ce week-end, un carport aluminium ou acier protège votre voiture durablement : nous proposons les deux et nous vous aidons à choisir. La différence se joue dans la sélection des modèles et dans ce qui arrive avec l'abri : kit d'ancrage, guides, livraison sur rendez-vous.
 
 | | Tente-garage (nous) | GSB / marketplace | Carport aluminium ou acier en kit (nous) | Garage en dur |
 |---|---|---|---|---|
@@ -138,14 +138,14 @@ Chaque fiche Sous Abri indique l'emprise au sol du modèle et la démarche qui s
 | Démarches | Indiquées sur la fiche, guide déclaration offert | À chercher soi-même | Indiquées sur la fiche, guide déclaration offert | Permis de construire quasi systématique |
 | Montage | À deux, quelques heures, sans outil spécial, guide montage offert | À deux, quelques heures, notice parfois sommaire | À deux, jusqu'à un week-end selon le modèle, guide montage et ancrage offert | Entreprise du bâtiment |
 | Usage | Abri d'appoint qui se démonte et se déplace, bâche traitée anti-UV | Variable selon enseigne | Structure durable : aluminium qui ne rouille jamais, acier thermolaqué anticorrosion | Investissement immobilier |
-| Accompagnement | Sélection vérifiée, livraison offerte sur rendez-vous, conseil par une vraie personne | Notice du fabricant | Sélection vérifiée, livraison offerte sur rendez-vous, conseil par une vraie personne | Dépend de l'entreprise |
+| Accompagnement | Sélection vérifiée, livraison offerte sur rendez-vous, kit d'ancrage compris | Notice du fabricant | Sélection vérifiée, livraison offerte sur rendez-vous, kit d'ancrage compris | Dépend de l'entreprise |
 
 **Version thème (tableau binaire à 2 colonnes, Sous Abri / Grande surface de bricolage), 5 lignes :**
 1. Chaque modèle vérifié avant d'entrer au catalogue : cotes, kit d'ancrage, contenu des colis
 2. La démarche en mairie indiquée sur chaque fiche, guide déclaration offert
 3. Ancrage et montage expliqués, guide montage offert
 4. Livraison offerte à domicile, sur rendez-vous pour les colis lourds
-5. Conseil par une vraie personne avant et après l'achat
+5. Cotes et hauteur de passage vérifiées pour votre véhicule
 
 ---
 
@@ -155,7 +155,7 @@ Chaque fiche Sous Abri indique l'emprise au sol du modèle et la démarche qui s
 - Livraison offerte en France métropolitaine, Corse comprise, sur rendez-vous pour les colis lourds
 - Garantie légale de conformité 2 ans ; rétractation 14 jours sur les produits en stock, les carports aluminium fabriqués à la commande en sont exclus
 - Paiement sécurisé : carte, Apple Pay, Shop Pay, et en 3 ou 4 fois avec Klarna et PayPal
-- Réponse sous 1 jour ouvré : service client français, du lundi au vendredi, par une personne qui connaît ces abris
+- Kit complet, prêt à monter : structure, toile ou toiture, kit d'ancrage et notice dans les colis
 
 *[Section avis/notes clients : chasse gardée de Hakim, laissée vide dans ce livrable — ne pas rédiger de témoignage.]*
 
@@ -176,7 +176,7 @@ Comptez quelques heures à deux pour une tente-garage, sans outil spécial, et j
 La livraison est offerte en France métropolitaine, Corse comprise. Les colis lourds arrivent par camion, sur rendez-vous, en bordure de trottoir : prévoyez d'être deux pour les réceptionner. Votre commande est expédiée sous 1 à 3 jours ouvrés, puis livrée sous 5 à 12 jours ouvrés, quel que soit le modèle.
 
 **Qu'est-ce qui distingue Sous Abri d'une grande surface de bricolage ?**
-Le service autour de l'abri. Chaque modèle est vérifié avant d'entrer au catalogue (cotes, kit d'ancrage, contenu des colis), chaque fiche indique la démarche en mairie, les guides déclaration et montage sont offerts, la livraison est offerte sur rendez-vous, et une vraie personne vous conseille avant comme après l'achat.
+Le service autour de l'abri. Chaque modèle est vérifié avant d'entrer au catalogue (cotes, kit d'ancrage, contenu des colis), chaque fiche indique la démarche en mairie, les guides déclaration et montage sont offerts, la livraison est offerte sur rendez-vous, et chaque kit arrive complet, ancrage compris.
 
 ---
 

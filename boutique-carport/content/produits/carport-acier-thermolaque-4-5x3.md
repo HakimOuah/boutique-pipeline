@@ -22,14 +22,14 @@ La solidité de l'acier au prix d'un kit : un carport noir thermolaqué, toit en
 - La solidité de l'acier thermolaqué anticorrosion, en noir qui s'accorde à toutes les façades
 - 4,5 x 3 x 2,5 m : une place confortable pour une voiture, portières ouvertes
 - Le plus rapide du catalogue : expédié depuis l'Europe, livré en 5 colis sous 5 à 12 jours ouvrés
-- Guides déclaration mairie et montage offerts, conseil par une vraie personne avant et après l'achat
+- Guides déclaration mairie et montage offerts, kit d'ancrage compris
 
 **Prix :** 1 069 €
 **Coloris :** Noir
 **Dimensions :** 450 x 300 x 250 cm (L x l x H)
 **CTA :** Ajouter au panier
 
-**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Rétractation 14 jours. Garantie légale de conformité 2 ans, service client français, réponse sous 1 jour ouvré.
+**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Rétractation 14 jours. Garantie légale de conformité 2 ans, guides déclaration et montage offerts.
 
 ---
 
@@ -45,7 +45,7 @@ Avec 4,5 x 3 m, ce carport couvre 13,5 m² au sol. Les seuils sont simples : jus
 
 ### Le montage, honnêtement
 
-Un carport acier se monte comme un meuble solide : on boulonne, on ne colle pas. Comptez une demi-journée à une journée à deux, un jeu de clés et de douilles à portée de main, et prévoyez d'être deux pour lever les traverses. Les tubes de 40 x 40 mm, 37 x 37 mm et 40 x 20 mm s'assemblent dans l'ordre de la notice ; les jambes de force latérales renforcées rigidifient l'ensemble en fin de montage. Le kit arrive protégé par de la mousse et des coins en bois : les pièces peintes sortent du carton intactes. Le guide de montage offert complète la notice avec l'ordre des étapes que nous conseillons, et notre équipe répond à vos questions avant et pendant le montage.
+Un carport acier se monte comme un meuble solide : on boulonne, on ne colle pas. Comptez une demi-journée à une journée à deux, un jeu de clés et de douilles à portée de main, et prévoyez d'être deux pour lever les traverses. Les tubes de 40 x 40 mm, 37 x 37 mm et 40 x 20 mm s'assemblent dans l'ordre de la notice ; les jambes de force latérales renforcées rigidifient l'ensemble en fin de montage. Le kit arrive protégé par de la mousse et des coins en bois : les pièces peintes sortent du carton intactes. Le guide de montage offert complète la notice avec l'ordre des étapes que nous conseillons et les points de contrôle avant de poser la toiture.
 
 ### L'ancrage et le vent
 
@@ -118,7 +118,7 @@ Comptez une demi-journée à une journée à deux, avec un jeu de clés et de do
 Signalez-le sous 48 h avec photos, nous renvoyons la pièce à nos frais.
 
 **9. Puis-je retourner le produit s'il ne convient pas ?**
-Oui : rétractation 14 jours, remboursement sous 14 jours après réception du retour. Les frais de retour d'un colis volumineux restent à votre charge ; notre service client vous indique la marche à suivre sous 1 jour ouvré.
+Oui : rétractation 14 jours, remboursement sous 14 jours après réception du retour. Les frais de retour d'un colis volumineux restent à votre charge ; la marche à suivre est détaillée dans notre politique de retour.
 
 **10. Le kit d'ancrage au sol est-il fourni ?**
 La fixation au sol se choisit selon votre support et ne fait pas partie du kit : plots béton hors gel sur sol meuble, chevilles ou tiges filetées adaptées sur dalle ou enrobé. Prévoyez-la avant la livraison et le montage s'enchaîne sans attendre ; en cas de doute sur votre sol, envoyez-nous une photo de l'emplacement, nous vous conseillons.

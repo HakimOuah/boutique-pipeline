@@ -28,7 +28,7 @@ Votre voiture à l'abri dès ce week-end : une tente-garage Outsunny de 3 × 6 m
 **Variante :** Couleur — Blanc
 **CTA : Ajouter au panier**
 
-**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Rétractation 14 jours. Garantie légale de conformité 2 ans, service client français, réponse sous 1 jour ouvré.
+**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Rétractation 14 jours. Garantie légale de conformité 2 ans, guides déclaration et montage offerts.
 
 ---
 
@@ -44,7 +44,7 @@ Avec 600 × 295 cm, cette tente-garage couvre 17,7 m² au sol. Les seuils sont s
 
 ### Le montage, honnêtement
 
-Le montage se fait à deux, sans outil spécial ni fondation : comptez environ 3 h 30 pour l'assemblage complet. Lisez la notice en entier, puis montez la structure « à blanc », pièces posées sans serrage définitif, pour vérifier l'alignement avant de tout fixer : vous gagnez du temps et la toile se tend sans pli. Réglez la hauteur sur l'un des 4 niveaux avant de tendre la bâche. Un maillet pour les piquets et un tournevis ou une clé pour la visserie suffisent. Le guide de montage offert complète la notice, et notre équipe répond à vos questions pendant le montage.
+Le montage se fait à deux, sans outil spécial ni fondation : comptez environ 3 h 30 pour l'assemblage complet. Lisez la notice en entier, puis montez la structure « à blanc », pièces posées sans serrage définitif, pour vérifier l'alignement avant de tout fixer : vous gagnez du temps et la toile se tend sans pli. Réglez la hauteur sur l'un des 4 niveaux avant de tendre la bâche. Un maillet pour les piquets et un tournevis ou une clé pour la visserie suffisent. Le guide de montage offert complète la notice avec l'ordre des étapes et les points de contrôle.
 
 ### L'ancrage et le vent
 
@@ -111,7 +111,7 @@ Signalez-le sous 48 h avec des photos, nous vous renvoyons la pièce à nos frai
 Un seul colis de 199 × 45 × 27 cm et 54 kg, expédié depuis la France en 5 à 12 jours ouvrés, livré sur rendez-vous en bordure de trottoir. Prévoyez d'être deux pour le réceptionner.
 
 **7. Qu'est-ce qui la distingue d'un modèle de grande surface de bricolage ?**
-La sélection et l'accompagnement. Nous avons vérifié les cotes, le kit d'ancrage et le contenu du colis avant d'inscrire ce modèle au catalogue ; vous recevez les guides déclaration et montage, et une vraie personne vous répond sous 1 jour ouvré, avant comme après l'achat. Livraison offerte, sur rendez-vous.
+La sélection et le kit. Nous avons vérifié les cotes, le kit d'ancrage et le contenu du colis avant d'inscrire ce modèle au catalogue ; vous recevez les guides déclaration et montage, et le kit d'ancrage est compris. Livraison offerte, sur rendez-vous.
 
 **8. Comment garder la bâche en bon état longtemps ?**
 Tendez-la bien au montage et retendez-la après les premières semaines, rincez-la à l'eau claire au printemps, fermez les portes par grand vent et dégagez la neige après une forte chute. Une bâche traitée anti-UV entretenue ainsi garde sa tenue saison après saison.

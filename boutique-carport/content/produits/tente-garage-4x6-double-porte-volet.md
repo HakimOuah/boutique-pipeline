@@ -29,7 +29,7 @@ Entrez d'un côté, ressortez de l'autre : une tente-garage de 4 × 6 m avec une
 
 **CTA : Ajouter au panier**
 
-**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, service client français, réponse sous 1 jour ouvré. Rétractation 14 jours.
+**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, guides déclaration et montage offerts. Rétractation 14 jours.
 
 ---
 
@@ -45,7 +45,7 @@ Avec 601 × 400 cm au sol, cette tente-garage occupe 24 m². Au-delà de 20 m²,
 
 ### Le montage, honnêtement
 
-Montage à deux, sans outil spécial : les tubes acier à raccords renforcés s'emboîtent et se verrouillent, notice illustrée à l'appui. Comptez 3 à 4 heures, notice lue en entier avant de commencer. Attendez d'avoir reçu les 3 colis avant d'ouvrir le premier, montez le cadre à blanc, sans verrouillage définitif, vérifiez l'alignement, puis fixez et tendez la bâche. Notre guide de montage offert complète la notice, et notre service client répond à vos questions avant comme après l'achat.
+Montage à deux, sans outil spécial : les tubes acier à raccords renforcés s'emboîtent et se verrouillent, notice illustrée à l'appui. Comptez 3 à 4 heures, notice lue en entier avant de commencer. Attendez d'avoir reçu les 3 colis avant d'ouvrir le premier, montez le cadre à blanc, sans verrouillage définitif, vérifiez l'alignement, puis fixez et tendez la bâche. Notre guide de montage offert complète la notice avec l'ordre des étapes et les points de contrôle avant de tendre la toile.
 
 ### L'ancrage et le vent
 
@@ -113,7 +113,7 @@ Signalez-le sous 48 h avec une photo, nous vous renvoyons la pièce à nos frais
 Livraison offerte, sur rendez-vous, expédiée depuis l'Allemagne en 5 à 12 jours ouvrés, en 3 colis de 52,6 kg au total. Prévoyez d'être deux pour les rentrer.
 
 **8. Qu'est-ce qui la distingue d'un modèle de grande surface de bricolage ?**
-La sélection et l'accompagnement : chaque modèle est vérifié (cotes, kit d'ancrage, contenu des colis) avant d'entrer au catalogue, les guides déclaration et montage sont offerts, et une vraie personne vous répond sous 1 jour ouvré, avant comme après l'achat.
+La sélection et le kit : chaque modèle est vérifié (cotes, kit d'ancrage, contenu des colis) avant d'entrer au catalogue, les guides déclaration et montage sont offerts, et le kit d'ancrage est compris.
 
 **9. Peut-on retirer complètement le toit et les côtés ?**
 Oui : toit et parois sont amovibles, pour transformer la tente en auvent l'été ou dégager un accès large. Remettez-les en place avant un épisode de vent annoncé.

@@ -23,7 +23,7 @@ Pour tout ce qui ne rentre pas dans un garage, la tente-garage 4 × 7,6 m (765 �
 
 La taille détermine la démarche. Un 3 × 6 m reste sous les 20 m² d'emprise au sol qui appellent une déclaration préalable ; un 4 × 6 m ou un 4 × 7,6 m les dépasse et relève en principe du permis de construire. Confirmez le seuil applicable et les distances aux limites de propriété auprès de votre mairie ; notre guide déclaration, offert, vous y prépare. Mesurez l'emplacement deux fois avant de valider une taille : l'espace doit accueillir l'abri, ses haubans et le passage pour circuler autour.
 
-Toutes ces tentes-garages arrivent en 5 à 12 jours ouvrés, livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds, avec 14 jours pour changer d'avis. Notre guide de montage et d'ancrage, offert, explique comment adapter piquets, haubans et vis d'expansion à la taille choisie et à votre sol. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, service client français, réponse sous 1 jour ouvré.
+Toutes ces tentes-garages arrivent en 5 à 12 jours ouvrés, livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds, avec 14 jours pour changer d'avis. Notre guide de montage et d'ancrage, offert, explique comment adapter piquets, haubans et vis d'expansion à la taille choisie et à votre sol. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, guides déclaration et montage offerts.
 
 ## Fiches du catalogue dans cette collection
 

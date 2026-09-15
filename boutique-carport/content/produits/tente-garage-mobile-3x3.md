@@ -29,7 +29,7 @@ Une voiture citadine, deux motos ou un atelier de saison à l'abri dès ce week-
 
 **CTA : Ajouter au panier**
 
-**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, service client français, réponse sous 1 jour ouvré. Rétractation 14 jours.
+**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, guides déclaration et montage offerts. Rétractation 14 jours.
 
 ---
 
@@ -45,7 +45,7 @@ Avec 305 × 305 cm au sol, cette tente occupe environ 9,3 m² : entre 5 et 20 m�
 
 ### Le montage, honnêtement
 
-Montage sans outil : les pièces sont pré-marquées, la notice illustrée, et la structure se replie. Comptez environ 2 heures à deux, un format plus rapide qu'une tente de 4 × 6 m. Lisez la notice en entier avant de commencer, montez le cadre à blanc, sans serrage définitif, vérifiez l'alignement, puis fixez et tendez la bâche. Notre guide de montage offert complète la notice, et notre service client répond à vos questions avant comme après l'achat.
+Montage sans outil : les pièces sont pré-marquées, la notice illustrée, et la structure se replie. Comptez environ 2 heures à deux, un format plus rapide qu'une tente de 4 × 6 m. Lisez la notice en entier avant de commencer, montez le cadre à blanc, sans serrage définitif, vérifiez l'alignement, puis fixez et tendez la bâche. Notre guide de montage offert complète la notice avec l'ordre des étapes et les points de contrôle avant de tendre la toile.
 
 ### L'ancrage et le vent
 
@@ -110,7 +110,7 @@ Signalez-le sous 48 h avec une photo, nous vous renvoyons la pièce à nos frais
 Livraison offerte, sur rendez-vous, expédiée depuis l'Allemagne en 5 à 12 jours ouvrés, dans un colis compact de 33,7 kg. À deux, il se rentre sans peine.
 
 **8. Qu'est-ce qui la distingue d'un modèle de grande surface de bricolage ?**
-La sélection et l'accompagnement : chaque modèle est vérifié (cotes, kit d'ancrage, contenu des colis) avant d'entrer au catalogue, les guides déclaration et montage sont offerts, et une vraie personne vous répond sous 1 jour ouvré, avant comme après l'achat.
+La sélection et le kit : chaque modèle est vérifié (cotes, kit d'ancrage, contenu des colis) avant d'entrer au catalogue, les guides déclaration et montage sont offerts, et le kit d'ancrage est compris.
 
 **9. Puis-je la poser sur une allée déjà bétonnée ?**
 Oui : sur une surface dure, complétez les ancrages fournis avec des chevilles adaptées au support ou des plots à visser, et lestez les angles. La tente tient alors aussi bien que sur un sol meuble.

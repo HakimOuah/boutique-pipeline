@@ -7,7 +7,7 @@
 
 ---
 
-Un carport ou une tente-garage arrive en colis lourds, et tout est prévu pour que la réception se passe simplement : livraison offerte sur rendez-vous, contrôle du colis, pièce manquante renvoyée à nos frais, garantie légale de conformité de 2 ans et un service client français qui vous répond sous 1 jour ouvré. Voici comment cela se passe, étape par étape.
+Un carport ou une tente-garage arrive en colis lourds, et tout est prévu pour que la réception se passe simplement : livraison offerte sur rendez-vous, contrôle du colis, pièce manquante renvoyée à nos frais et garantie légale de conformité de 2 ans. Voici comment cela se passe, étape par étape.
 
 ## Comment se passe la livraison
 
@@ -42,7 +42,7 @@ Ces quelques minutes vous garantissent une prise en charge immédiate si un coli
 
 ## Pièce manquante ou cassée
 
-Si une pièce manque ou arrive cassée, signalez-le **sous 48 heures** après réception, avec des photos (pièce concernée, emballage, dommage éventuel). La pièce de remplacement vous est renvoyée **à nos frais**. Le sujet « Pièce manquante ou cassée » du formulaire de contact est prévu pour cela, et notre service client vous répond sous 1 jour ouvré.
+Si une pièce manque ou arrive cassée, signalez-le **sous 48 heures** après réception, avec des photos (pièce concernée, emballage, dommage éventuel). La pièce de remplacement vous est renvoyée **à nos frais**. Le sujet « Pièce manquante ou cassée » du formulaire de contact est prévu pour cela.
 
 ## Droit de rétractation
 
@@ -58,7 +58,7 @@ Paiement sécurisé par carte bancaire, PayPal, Apple Pay ou Shop Pay. Vous pouv
 
 ## Nous contacter
 
-Notre service client français vous répond sous **1 jour ouvré**, du lundi au vendredi, par e-mail et par téléphone, avant comme après l'achat.
+Réponse sous **1 jour ouvré**, du lundi au vendredi, par e-mail et par téléphone.
 
 - **E-mail :** info@ohventures.fr
 - **Téléphone :** +33 7 56 82 80 94

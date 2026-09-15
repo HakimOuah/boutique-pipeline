@@ -84,4 +84,4 @@ Un carport accolé à la maison est souvent considéré comme une extension de l
 - Déposer le dossier et attendre la fin du délai d'instruction avant de commencer le montage
 - Afficher l'autorisation sur le terrain pendant toute la durée du chantier
 
-Le service urbanisme de votre mairie valide votre projet ; ce guide vous donne les repères pour lui poser les bonnes questions et obtenir votre réponse du premier coup. Une question sur les cotes d'un modèle avant de déposer votre dossier ? Notre conseiller vous répond sous 1 jour ouvré.
+Le service urbanisme de votre mairie valide votre projet ; ce guide vous donne les repères pour lui poser les bonnes questions et obtenir votre réponse du premier coup. Les cotes exactes de chaque modèle figurent sur sa fiche, pour remplir votre dossier sans erreur.

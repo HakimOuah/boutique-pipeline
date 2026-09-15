@@ -107,7 +107,7 @@ Oui : vous disposez de 14 jours à compter de la réception pour vous rétracter
 En cas de rétractation sur un colis volumineux, les frais de retour sont à votre charge ; nous vous indiquons la marche à suivre et le transporteur adapté. Le remboursement intervient sous 14 jours après réception du produit retourné.
 
 **26. Quelle garantie s'applique sur mon carport ?**
-La garantie légale de conformité de 2 ans couvre tout le catalogue, et notre service client français vous répond sous 1 jour ouvré. S'y ajoute la garantie fabricant quand elle existe : 1 an sur la tente-carport fermée sur deux côtés, 5 ans sur les carports aluminium sur devis.
+La garantie légale de conformité de 2 ans couvre tout le catalogue. S'y ajoute la garantie fabricant quand elle existe : 1 an sur la tente-carport fermée sur deux côtés, 5 ans sur les carports aluminium sur devis.
 
 ---
 

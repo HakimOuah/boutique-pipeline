@@ -26,7 +26,7 @@ Quand on cherche un carport, on trouve trois réponses : le fabricant qui pose s
 - Le nécessaire pour ancrer : ce qui est fourni avec chaque modèle, et notre guide montage et ancrage offert pour le poser dans les règles.
 - Un délai clair, annoncé avant l'achat et suivi par e-mail : expédition sous 1 à 3 jours ouvrés, livraison sous 5 à 12 jours ouvrés ; pour un carport sur devis, le délai figure sur le devis.
 - Des visuels fidèles au produit livré, composés à partir des photos réelles du fabricant.
-- Un service client français qui vous répond sous 1 jour ouvré, du lundi au vendredi, par e-mail ou téléphone, avant et après l'achat.
+- Un service client joignable par e-mail et par téléphone, du lundi au vendredi.
 
 ## Ce que nous ne promettons pas
 

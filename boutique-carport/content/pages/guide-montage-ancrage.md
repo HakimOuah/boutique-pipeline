@@ -71,4 +71,4 @@ Pour les tentes-garages à portes enroulables ou zippées, pensez à fermer les 
 
 ## Et si un doute persiste
 
-Un doute sur la nature du sol, la profondeur hors gel dans votre région ou la compatibilité d'une dalle existante avec un ancrage chimique se tranche en quelques minutes avec un professionnel du bâtiment local. Pour tout ce qui concerne votre modèle, ses cotes ou son kit d'ancrage, notre conseiller vous répond sous 1 jour ouvré, avant et après l'achat.
+Un doute sur la nature du sol, la profondeur hors gel dans votre région ou la compatibilité d'une dalle existante avec un ancrage chimique se tranche en quelques minutes avec un professionnel du bâtiment local. Pour votre modèle, les cotes et le contenu du kit d'ancrage figurent sur sa fiche.

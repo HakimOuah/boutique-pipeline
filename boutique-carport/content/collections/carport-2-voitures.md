@@ -19,7 +19,7 @@ La tente-garage 4 × 6 m fermée est la réponse rapide. Avec 6,11 m de long, 3,
 
 Deux véhicules impliquent une emprise au sol supérieure à 20 m² dans la plupart des configurations : le projet relève alors du permis de construire plutôt que de la déclaration préalable. Confirmez le seuil applicable auprès de votre mairie ; notre guide déclaration, offert, vous indique les pièces à préparer. Mesurez aussi la largeur disponible entre les limites de propriété et l'allée avant d'arrêter votre choix.
 
-Pour le montage, notre guide, offert lui aussi, détaille l'ancrage sur dalle pour le carport aluminium et le choix entre piquets et vis d'expansion pour la tente-garage. Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, service client français, réponse sous 1 jour ouvré. Chaque modèle est vérifié, cotes, kit d'ancrage et contenu des colis, avant d'entrer au catalogue.
+Pour le montage, notre guide, offert lui aussi, détaille l'ancrage sur dalle pour le carport aluminium et le choix entre piquets et vis d'expansion pour la tente-garage. Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, guides déclaration et montage offerts. Chaque modèle est vérifié, cotes, kit d'ancrage et contenu des colis, avant d'entrer au catalogue.
 
 ## Fiches du catalogue dans cette collection
 

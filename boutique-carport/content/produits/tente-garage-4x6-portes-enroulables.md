@@ -29,7 +29,7 @@ Une tente-garage de 4 × 6 m où l'on circule autour de la voiture, avec deux po
 
 **CTA : Ajouter au panier**
 
-**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Rétractation 14 jours. Garantie légale de conformité 2 ans, service client français, réponse sous 1 jour ouvré.
+**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine (Corse comprise), sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Rétractation 14 jours. Garantie légale de conformité 2 ans, guides déclaration et montage offerts.
 
 ---
 
@@ -45,7 +45,7 @@ Avec 601 × 400 cm, cette tente-garage couvre 24 m² au sol. Les seuils sont sim
 
 ### Le montage, honnêtement
 
-Le montage se fait à deux, sans outil spécial : les tubes s'emboîtent et se verrouillent, comptez 3 à 4 heures notice en main. Lisez la notice illustrée en entier, attendez d'avoir reçu les trois colis, puis montez la structure à blanc avant de tendre la toile : l'alignement se vérifie d'un coup d'œil et la bâche se tend sans pli. Un maillet pour les piquets suffit. Le toit et les parois se posent et se retirent séparément : pratique pour aérer en été ou déplacer la tente. Le guide de montage offert complète la notice, et notre équipe répond à vos questions pendant le montage.
+Le montage se fait à deux, sans outil spécial : les tubes s'emboîtent et se verrouillent, comptez 3 à 4 heures notice en main. Lisez la notice illustrée en entier, attendez d'avoir reçu les trois colis, puis montez la structure à blanc avant de tendre la toile : l'alignement se vérifie d'un coup d'œil et la bâche se tend sans pli. Un maillet pour les piquets suffit. Le toit et les parois se posent et se retirent séparément : pratique pour aérer en été ou déplacer la tente. Le guide de montage offert complète la notice avec l'ordre des étapes et les points de contrôle.
 
 ### L'ancrage et le vent
 
@@ -114,7 +114,7 @@ Signalez-le sous 48 h avec des photos, nous vous renvoyons la pièce à nos frai
 3 colis (52,6 kg au total), expédiés depuis l'Allemagne en 5 à 12 jours ouvrés, livrés sur rendez-vous en bordure de trottoir. Ils peuvent arriver sur plusieurs jours : attendez les trois avant de monter. Prévoyez d'être deux.
 
 **8. Qu'est-ce qui la distingue d'un modèle de grande surface de bricolage ?**
-La sélection et l'accompagnement. Nous avons vérifié les cotes, le kit d'ancrage et le contenu des trois colis avant d'inscrire ce modèle au catalogue ; vous recevez les guides déclaration et montage, et une vraie personne vous répond sous 1 jour ouvré, avant comme après l'achat. Livraison offerte, sur rendez-vous.
+La sélection et le kit. Nous avons vérifié les cotes, le kit d'ancrage et le contenu des trois colis avant d'inscrire ce modèle au catalogue ; vous recevez les guides déclaration et montage, et le kit d'ancrage est compris. Livraison offerte, sur rendez-vous.
 
 **9. Quelles sont les cotes exactes de la tente ?**
 601 cm de long, 400 cm de large, 281 cm au faîte et 198 cm aux parois. Si votre emplacement est mesuré au centimètre près, envoyez-nous un croquis avant de commander : nous vérifions avec vous que tout passe.

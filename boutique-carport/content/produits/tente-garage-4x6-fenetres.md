@@ -29,7 +29,7 @@ Votre voiture au sec et à l'ombre toute l'année, dans une tente-garage fermée
 
 **CTA : Ajouter au panier**
 
-**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, service client français, réponse sous 1 jour ouvré. Rétractation 14 jours.
+**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, guides déclaration et montage offerts. Rétractation 14 jours.
 
 ---
 
@@ -45,7 +45,7 @@ Avec 611 × 396 cm au sol, cette tente-garage occupe environ 24,2 m². Au-delà 
 
 ### Le montage, honnêtement
 
-Prévoyez d'être deux et une demi-journée : comptez 3 à 4 heures, notice lue en entier avant de commencer. La structure en tubes acier galvanisé, triangulée et soudée, s'assemble avec des raccords simples : montez d'abord le cadre à blanc, sans serrage définitif, vérifiez l'alignement, puis fixez. Le faîte est à 300 cm : un escabeau vous facilite la pose et la tension de la bâche de toit. Notre guide de montage offert complète la notice, et notre service client répond à vos questions avant comme après l'achat.
+Prévoyez d'être deux et une demi-journée : comptez 3 à 4 heures, notice lue en entier avant de commencer. La structure en tubes acier galvanisé, triangulée et soudée, s'assemble avec des raccords simples : montez d'abord le cadre à blanc, sans serrage définitif, vérifiez l'alignement, puis fixez. Le faîte est à 300 cm : un escabeau vous facilite la pose et la tension de la bâche de toit. Notre guide de montage offert complète la notice avec l'ordre des étapes et les points de contrôle avant de tendre la toile.
 
 ### L'ancrage et le vent
 
@@ -114,7 +114,7 @@ Signalez-le sous 48 h avec une photo, nous vous renvoyons la pièce à nos frais
 Livraison offerte, sur rendez-vous, expédiée depuis l'Allemagne en 5 à 12 jours ouvrés. L'ensemble pèse environ 53,5 kg : prévoyez d'être deux pour le réceptionner.
 
 **8. Qu'est-ce qui la distingue d'un modèle de grande surface de bricolage ?**
-La sélection et l'accompagnement : chaque modèle est vérifié (cotes, kit d'ancrage, contenu des colis) avant d'entrer au catalogue, les guides déclaration et montage sont offerts, et une vraie personne vous répond sous 1 jour ouvré, avant comme après l'achat.
+La sélection et le kit : chaque modèle est vérifié (cotes, kit d'ancrage, contenu des colis) avant d'entrer au catalogue, les guides déclaration et montage sont offerts, et le kit d'ancrage est compris.
 
 **9. Quelle est la hauteur exacte de la structure ?**
 300 cm au faîte et 196 cm aux parois. La cote à retenir pour votre véhicule est le passage des portes enroulables, 325 cm de large et 210 cm de haut : berline, SUV et utilitaire H1 y entrent. Comparez la hauteur totale de votre véhicule, barres de toit comprises, à ces 210 cm.

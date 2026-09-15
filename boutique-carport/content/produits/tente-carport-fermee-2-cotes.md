@@ -29,7 +29,7 @@ Une voiture à l'abri dès ce week-end : une tente-carport de 3 × 6 m fermée s
 
 **CTA : Ajouter au panier**
 
-**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, garantie fabricant 1 an, service client français, réponse sous 1 jour ouvré. Rétractation 14 jours.
+**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, garantie fabricant 1 an, guides déclaration et montage offerts. Rétractation 14 jours.
 
 ---
 
@@ -49,7 +49,7 @@ Avec 598 × 299 cm au sol, cette tente-carport occupe environ 17,9 m² : entre 5
 
 ### Le montage, honnêtement
 
-Comptez 1 à 2 heures à deux adultes, sans outil spécial : c'est l'un des montages les plus rapides de notre catalogue. Lisez la notice en entier avant de commencer, montez le cadre acier galvanisé à blanc, sans serrage définitif, vérifiez l'alignement, puis fixez et tendez la toile. Notre guide de montage offert complète la notice, et notre service client répond à vos questions avant comme après l'achat.
+Comptez 1 à 2 heures à deux adultes, sans outil spécial : c'est l'un des montages les plus rapides de notre catalogue. Lisez la notice en entier avant de commencer, montez le cadre acier galvanisé à blanc, sans serrage définitif, vérifiez l'alignement, puis fixez et tendez la toile. Notre guide de montage offert complète la notice avec l'ordre des étapes et les points de contrôle avant de tendre la toile.
 
 ### L'ancrage et le vent
 
@@ -119,7 +119,7 @@ Livraison offerte, sur rendez-vous, expédiée depuis l'Allemagne en 5 à 12 jou
 Elle est dimensionnée pour une voiture, avec de quoi ouvrir les portières et ranger des vélos derrière. Pour deux véhicules côte à côte, choisissez nos tentes-garages de 4 × 6 m.
 
 **9. Quelle garantie s'applique ?**
-La garantie légale de conformité de 2 ans, comme sur tout notre catalogue, complétée par la garantie fabricant de 1 an. Notre service client français vous répond sous 1 jour ouvré.
+La garantie légale de conformité de 2 ans, comme sur tout notre catalogue, complétée par la garantie fabricant de 1 an.
 
 ---
 

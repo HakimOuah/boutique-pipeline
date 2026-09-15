@@ -8,7 +8,7 @@ Copy source : `boutique-carport/BRIEF-COPY.md` (§ Marque/ton/promesse, §4 chif
 
 1. Livraison offerte en France métropolitaine
 2. Rétractation 14 jours, garantie légale 2 ans
-3. Réponse sous 1 jour ouvré, du lundi au vendredi
+3. Guides déclaration en mairie et montage offerts
 
 *Aucun compte à rebours, aucun « plus que X en stock », aucun « offre du jour » : conforme aux règles absolues du brief.*
 

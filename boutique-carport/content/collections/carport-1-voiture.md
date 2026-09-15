@@ -21,7 +21,7 @@ Côté démarches, un carport 1 voiture se situe dans la plupart des cas entre 5
 
 Le parcours est simple. Vous nous envoyez vos cotes, nous vous adressons un devis ferme sous 48 h, livraison comprise. Après validation, la livraison se fait par transporteur spécialisé, sur rendez-vous, dans le délai précisé sur le devis. Le montage se fait sur platines fixées à une dalle ou à des plots béton ; notre guide de montage détaille l'ordre des opérations et le repérage des poteaux. Fabriqué à vos mesures, ce carport n'ouvre pas droit à la rétractation de 14 jours (article L221-28 du Code de la consommation) : c'est pourquoi nous validons chaque cote avec vous avant la mise en production.
 
-Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, service client français, réponse sous 1 jour ouvré, conseil avant et après l'achat.
+Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, guides déclaration et montage offerts.
 
 ## Fiches du catalogue dans cette collection
 

@@ -1,7 +1,7 @@
 # Charte de copy Sous Abri — 10/09/2026 (décision Hakim : copy vendeur, rassurant, expert)
 
 ## Positionnement
-Sous Abri est **le spécialiste français de l'abri voiture en kit** : carports aluminium et acier, tentes-garages, sélectionnés pour les jardins et allées de France, livrés offerts, avec l'accompagnement qui manque ailleurs (guides déclaration et montage, conseil par une vraie personne). On parle en expert qui a déjà monté et livré ces abris, pas en revendeur qui découvre le produit.
+Sous Abri est **le spécialiste français de l'abri voiture en kit** : carports aluminium et acier, tentes-garages, sélectionnés pour les jardins et allées de France, livrés offerts, avec ce qui manque ailleurs : kit complet avec ancrage, guides déclaration et montage offerts, cotes et hauteur de passage vérifiées. On parle en expert qui a déjà monté et livré ces abris, pas en revendeur qui découvre le produit.
 
 ## Ton
 - **Bénéfice d'abord, caractéristique ensuite** : « Votre voiture reste au sec et à l'ombre toute l'année » avant « bâche PE 160 g/m² ». Chaque caractéristique est traduite en gain pour le client (durabilité, tranquillité, valeur de revente de la voiture, gain de temps, esthétique, sérénité administrative).
@@ -29,8 +29,8 @@ Sous Abri est **le spécialiste français de l'abri voiture en kit** : carports 
 ## Piliers de réassurance (à répéter, mêmes mots partout)
 1. Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds.
 2. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal.
-3. Garantie légale de conformité 2 ans, service client français, réponse sous 1 jour ouvré.
-4. Guides déclaration et montage offerts, conseil avant et après l'achat.
+3. Garantie légale de conformité 2 ans, guides déclaration et montage offerts (sur fiche produit : rétractation 14 jours).
+4. Kit complet, prêt à monter : structure, toile ou toiture, kit d'ancrage et notice dans les colis ; guides déclaration et montage offerts.
 5. Sélection experte : chaque modèle est vérifié (cotes, kit d'ancrage, contenu des colis) avant d'entrer au catalogue.
 
 ## Angles de bénéfice par famille
@@ -42,3 +42,8 @@ Sous Abri est **le spécialiste français de l'abri voiture en kit** : carports 
 ## Compatibilité véhicules (faits à utiliser pour les deux produits « camping-car »)
 - Carport aluminium toit cintré 6 × 3,8 m, hauteur libre 2,50 m : convient aux vans et fourgons aménagés à toit relevable (Volkswagen California 1,99 m, Mercedes Marco Polo 1,98 m, Ford Nugget 2,05 m environ), aux caravanes compactes et surbaissées (Eriba Touring ≈ 2,20 m), aux caravanes pliantes et mini-caravanes, aux SUV et pick-up. Angle : « l'abri des vans aménagés et des caravanes compactes ». Toujours : « comparez la hauteur totale de votre véhicule, antennes et coffre de toit compris, aux 2,50 m de passage ».
 - Tente-garage 4 × 7,6 m, porte 302 × 192 cm : convient aux pick-up double cabine (Ford Ranger ≈ 1,85 m, Toyota Hilux ≈ 1,81 m), aux utilitaires H1 (Kangoo, Berlingo, Trafic H1 ≈ 1,85 à 1,97 m selon versions : vérifier), aux caravanes pliantes (1,2 à 1,5 m fermées) et mini-caravanes teardrop (1,5 à 1,9 m), aux bateaux sur remorque, aux quads et motos, à la voiture plus une remorque. Angle : « 7,65 m de long pour tout ce qui ne rentre pas dans un garage ». Toujours : « vérifiez la hauteur de passage de 192 cm ».
+
+
+## Règle du 16/09/2026 — plus de « vraie personne »
+
+Hakim : « le copy est trop tourné vers "réponse d'une vraie personne" ». Le motif conseiller / service client français / réponse sous 1 jour ouvré / avant et après l'achat est retiré de tout le site (accueil, fiches, collections, FAQ, guides, comparatif, à propos, barre d'annonce). Il ne reste que sur la page Contact et dans la section « Nous contacter » de la page garantie et SAV, en formulation neutre (« Réponse sous 1 jour ouvré, du lundi au vendredi »). Le 4e pilier de réassurance devient **« Kit complet, prêt à monter »** : structure, toile ou toiture, kit d'ancrage et notice dans les colis, guides offerts. La ligne du comparatif devient « Cotes et hauteur de passage vérifiées pour votre véhicule ». Quand une phrase renvoyait au conseiller pour vérifier des cotes, elle renvoie désormais à la fiche produit qui les donne.

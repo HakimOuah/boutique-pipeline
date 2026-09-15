@@ -29,7 +29,7 @@ Tente-garage 4 × 7,6 m pour camping-car, caravane
 
 **CTA : Ajouter au panier**
 
-**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, service client français, réponse sous 1 jour ouvré. Rétractation 14 jours.
+**Micro-copy sous le CTA :** Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, guides déclaration et montage offerts. Rétractation 14 jours.
 
 ---
 
@@ -49,7 +49,7 @@ Avec 765 × 400 cm au sol, cette tente-garage occupe environ 30,6 m². Au-delà 
 
 ### Le montage, honnêtement
 
-Montage à deux, sans outil spécial : les pièces arrivent pré-percées et s'assemblent dans l'ordre de la notice. Comptez 3 à 4 heures ; sur cette longueur, une troisième paire de bras facilite l'alignement des 8 poteaux. Montez le cadre à blanc, sans serrage définitif, vérifiez l'équerrage, puis fixez. Le faîte est à 311 cm : prévoyez un escabeau pour la bâche de toit. Notre guide de montage offert complète la notice, et notre service client répond à vos questions avant comme après l'achat.
+Montage à deux, sans outil spécial : les pièces arrivent pré-percées et s'assemblent dans l'ordre de la notice. Comptez 3 à 4 heures ; sur cette longueur, une troisième paire de bras facilite l'alignement des 8 poteaux. Montez le cadre à blanc, sans serrage définitif, vérifiez l'équerrage, puis fixez. Le faîte est à 311 cm : prévoyez un escabeau pour la bâche de toit. Notre guide de montage offert complète la notice avec l'ordre des étapes et les points de contrôle avant de tendre la toile.
 
 ### L'ancrage et le vent
 
@@ -122,7 +122,7 @@ Signalez-le sous 48 h avec une photo, nous vous renvoyons la pièce à nos frais
 Livraison offerte, sur rendez-vous, expédiée depuis l'Allemagne en 5 à 12 jours ouvrés, en 3 colis de 72,9 kg au total. Prévoyez d'être deux et un passage dégagé pour les éléments longs.
 
 **9. Qu'est-ce qui la distingue d'une tente-garage longue de grande surface ?**
-La sélection et l'accompagnement : chaque modèle est vérifié (cotes, hauteur de passage, kit d'ancrage, contenu des colis) avant d'entrer au catalogue, les guides déclaration et montage sont offerts, et une vraie personne vous aide à vérifier la compatibilité de votre véhicule, avant comme après l'achat.
+La sélection et le kit : chaque modèle est vérifié (cotes, hauteur de passage, kit d'ancrage, contenu des colis) avant d'entrer au catalogue, les guides déclaration et montage sont offerts, et la fiche donne la hauteur de passage pour vérifier la compatibilité de votre véhicule.
 
 **10. Un camping-car ou une caravane peut-il y entrer ?**
 Le repère est la porte de 192 cm de haut. Une caravane pliante (1,2 à 1,5 m fermée) ou une mini-caravane teardrop (1,5 à 1,9 m) y entre avec de la marge ; une caravane de tourisme y entre si sa hauteur totale, lanterneau compris, reste sous 192 cm. Pour un camping-car profilé ou un fourgon surélevé, plus hauts que ce passage, nos carports sur devis se fabriquent à vos cotes exactes : envoyez-nous le modèle de votre véhicule, nous vous orientons.
