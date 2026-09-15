@@ -1,0 +1,1386 @@
+{
+ "sections": {
+  "image_banner_VXNP89": {
+   "type": "image-banner",
+   "blocks": {
+    "image_banner_dBEabG": {
+     "type": "_image-banner",
+     "name": "t:image_banner",
+     "settings": {
+      "color_scheme": "scheme-3",
+      "banner_height": "large",
+      "same_as_desktop": false,
+      "banner_height_mobile": "large",
+      "layout_justify_mobile": "flex-end",
+      "image_filter_opacity": 40,
+      "image_filter_color": "#141C28",
+      "padding_vertical": 50,
+      "image": "shopify://shop_images/bercelou-hero.jpg",
+      "image_mobile": "shopify://shop_images/accueil-moment-tetees-nuit-carte.jpg"
+     },
+     "blocks": {
+      "group_nypGzr": {
+       "type": "group",
+       "name": "t:group",
+       "settings": {
+        "color_scheme": "",
+        "width_desktop": 50,
+        "same_as_desktop": false,
+        "margin_top": 10,
+        "margin_bottom": 10
+       },
+       "blocks": {
+        "reviews_badge_efW9wU": {
+         "type": "reviews-badge",
+         "name": "t:reviews_badge_trustpilot",
+         "settings": {
+          "review_badge_style": "trustpilot",
+          "wrap_in_a_badge": false,
+          "text_1": "Excellent",
+          "text_2": "1988 avis sur",
+          "margin_top": 0,
+          "margin_bottom": 0
+         },
+         "blocks": {},
+         "disabled": true
+        },
+        "group_wibFDH": {
+         "type": "group",
+         "name": "Avis client (Groupe)",
+         "disabled": true,
+         "settings": {
+          "color_scheme": "",
+          "layout_direction_desktop": "row",
+          "layout_gap_desktop": 3,
+          "layout_align_items_desktop": "center"
+         },
+         "blocks": {
+          "rating_stars_z9LL3m": {
+           "type": "rating-stars",
+           "name": "t:rating_stars",
+           "settings": {},
+           "blocks": {}
+          },
+          "text_mLtNpU": {
+           "type": "text",
+           "name": "t:text",
+           "settings": {
+            "show_on_display": "desktop_only",
+            "text": "<p>- 2 000 clients satisfaits</p>",
+            "text_style": "paragraph"
+           },
+           "blocks": {}
+          }
+         },
+         "block_order": [
+          "rating_stars_z9LL3m",
+          "text_mLtNpU"
+         ]
+        },
+        "text_VJtMDF": {
+         "type": "text",
+         "name": "Proposition de valeur",
+         "settings": {
+          "text": "<h1>Le fauteuil des vraies nuits, et de tout ce qui vient après</h1>",
+          "text_style": "h1"
+         },
+         "blocks": {}
+        },
+        "text_8GW6GA": {
+         "type": "text",
+         "name": "Sous titre",
+         "settings": {
+          "text": "<p>Vous vous installez, vous bercez bébé en douceur, vous vous relevez sans le réveiller. Ensuite, le fauteuil reste là où il est beau : dans votre salon.</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "large"
+         },
+         "blocks": {}
+        },
+        "group_rFrEU8": {
+         "type": "group",
+         "name": "Appel(s) à l'action (Groupe)",
+         "settings": {
+          "color_scheme": "",
+          "layout_direction_desktop": "row",
+          "margin_top": 10
+         },
+         "blocks": {
+          "button_JteLrC": {
+           "type": "button",
+           "name": "t:button",
+           "settings": {
+            "link": "shopify://collections/fauteuil-a-bascule",
+            "label": "Trouver mon fauteuil",
+            "icon_custom": "arrow_forward"
+           },
+           "blocks": {}
+          }
+         },
+         "block_order": [
+          "button_JteLrC"
+         ]
+        },
+        "group_3Pie6V": {
+         "type": "group",
+         "name": "Badges de confiance (Groupe)",
+         "settings": {
+          "color_scheme": "",
+          "layout_direction_desktop": "row",
+          "layout_gap_desktop": 20,
+          "same_as_desktop": false,
+          "margin_top": 5
+         },
+         "blocks": {
+          "icon_with_text_MPKKCD": {
+           "type": "icon-with-text",
+           "name": "t:icon_with_text",
+           "settings": {
+            "icon": "none",
+            "icon_custom": "local_shipping",
+            "text": "<p>Livraison offerte en France métropolitaine</p>"
+           },
+           "blocks": {}
+          },
+          "icon_with_text_AdYCCm": {
+           "type": "icon-with-text",
+           "name": "t:icon_with_text",
+           "settings": {
+            "icon": "none",
+            "icon_custom": "menu_book",
+            "text": "<p>Guide pour bien choisir offert en ligne</p>"
+           },
+           "blocks": {}
+          },
+          "icon_with_text_pay3x4x": {
+           "type": "icon-with-text",
+           "name": "t:icon_with_text",
+           "settings": {
+            "icon": "none",
+            "icon_custom": "credit_card",
+            "text": "<p>Paiement en 3 ou 4 fois</p>"
+           },
+           "blocks": {}
+          }
+         },
+         "block_order": [
+          "icon_with_text_MPKKCD",
+          "icon_with_text_AdYCCm",
+          "icon_with_text_pay3x4x"
+         ]
+        }
+       },
+       "block_order": [
+        "reviews_badge_efW9wU",
+        "group_wibFDH",
+        "text_VJtMDF",
+        "text_8GW6GA",
+        "group_rFrEU8",
+        "group_3Pie6V"
+       ]
+      }
+     },
+     "block_order": [
+      "group_nypGzr"
+     ]
+    }
+   },
+   "block_order": [
+    "image_banner_dBEabG"
+   ],
+   "name": "t:image_banner_full_width",
+   "settings": {
+    "rewind": true,
+    "padding_top": 0,
+    "padding_bottom": 0
+   }
+  },
+  "collection_featured_JXRpw3": {
+   "type": "collection-featured",
+   "blocks": {
+    "group_9NwHBp": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "color_scheme": "",
+      "layout_direction_desktop": "row",
+      "layout_justify_desktop": "space-between",
+      "layout_align_items_desktop": "center",
+      "margin_top": 10,
+      "margin_bottom": 30
+     },
+     "blocks": {
+      "group_TwitGb": {
+       "type": "group",
+       "name": "Groupe titre",
+       "settings": {
+        "color_scheme": "",
+        "width_desktop": 70,
+        "same_as_desktop": false
+       },
+       "blocks": {
+        "text_QEHkGh": {
+         "type": "text",
+         "name": "t:title",
+         "settings": {
+          "text": "<h2>Notre sélection pour commencer</h2>",
+          "text_style": "h2"
+         },
+         "blocks": {}
+        },
+        "text_6LANC3": {
+         "type": "text",
+         "name": "t:text",
+         "settings": {
+          "text": "<p>Huit modèles pour trouver vos repères, de l'allaitement au coin lecture.</p>",
+          "text_style": "paragraph"
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "text_QEHkGh",
+        "text_6LANC3"
+       ]
+      },
+      "button_DFrQyK": {
+       "type": "button",
+       "name": "t:button",
+       "settings": {
+        "show_on_display": "desktop_only",
+        "link": "shopify://collections/fauteuil-a-bascule",
+        "label": "Voir tous les fauteuils",
+        "button_style": "secondary",
+        "button_shape": "small",
+        "icon": "arrow_forward",
+        "icon_custom": "arrow_forward"
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "group_TwitGb",
+      "button_DFrQyK"
+     ]
+    },
+    "product-card": {
+     "type": "_product-card",
+     "static": true,
+     "settings": {
+      "wrap_in_card": false,
+      "color_scheme": "",
+      "layout_gap": 15
+     },
+     "blocks": {
+      "product_card_media_gallery_QnTjNe": {
+       "type": "_product-card-media-gallery",
+       "name": "t:product_card_gallery",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "show_slider": true,
+        "media_rounded": true,
+        "show_badges": true,
+        "media_ratio": "1 / 1",
+        "additional_class": ""
+       },
+       "blocks": {}
+      },
+      "product_card_group_8YB86f": {
+       "type": "_product-card-group",
+       "name": "t:group",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "wrap_in_card": false,
+        "color_scheme": "scheme-3",
+        "layout_direction_desktop": "column",
+        "layout_gap_desktop": 5,
+        "layout_wrap_desktop": "nowrap",
+        "layout_justify_desktop": "flex-start",
+        "layout_align_items_desktop": "flex-start",
+        "same_as_desktop": true,
+        "layout_direction_mobile": "column",
+        "layout_gap_mobile": 10,
+        "layout_wrap_mobile": "nowrap",
+        "layout_justify_mobile": "flex-start",
+        "layout_align_items_mobile": "flex-start",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {
+        "text_kW3cUN": {
+         "type": "text",
+         "name": "t:text",
+         "settings": {
+          "text": "<h2>{{ closest.product.title }}</h2>",
+          "text_style": "paragraph",
+          "font_weight": 500
+         },
+         "blocks": {}
+        },
+        "product_price_wqjabM": {
+         "type": "product-price",
+         "name": "t:product_price",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "product": "{{ closest.product }}",
+          "sales_badge": "amount",
+          "show_sales_badge_text": false,
+          "show_unit_price": false,
+          "text_style": "paragraph",
+          "additional_class": ""
+         },
+         "blocks": {}
+        },
+        "product_card_swatches_67NCxp": {
+         "type": "_product-card-swatches",
+         "name": "t:swatches",
+         "settings": {
+          "show_on_display": "desktop_and_mobile",
+          "swatches_size": "small",
+          "swatches_rounded": true,
+          "additional_class": ""
+         },
+         "blocks": {}
+        },
+        "rating_stars_VJ6F6G": {
+         "type": "rating-stars",
+         "name": "t:rating_stars",
+         "settings": {
+          "product": "{{ closest.product }}"
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "text_kW3cUN",
+        "product_price_wqjabM",
+        "product_card_swatches_67NCxp",
+        "rating_stars_VJ6F6G"
+       ]
+      }
+     },
+     "block_order": [
+      "product_card_media_gallery_QnTjNe",
+      "product_card_group_8YB86f"
+     ]
+    }
+   },
+   "block_order": [
+    "group_9NwHBp"
+   ],
+   "name": "t:collection_featured",
+   "settings": {
+    "color_scheme": "scheme-4",
+    "collection": "selection-bercelou",
+    "layout_type": "slider",
+    "rewind": true
+   }
+  },
+  "custom_section_wxUWmx": {
+   "type": "custom-section",
+   "blocks": {
+    "group_K88fpM": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "color_scheme": "",
+      "width_desktop": 60,
+      "layout_gap_desktop": 15,
+      "layout_justify_desktop": "center",
+      "layout_align_items_desktop": "center",
+      "same_as_desktop": false,
+      "layout_justify_mobile": "center",
+      "layout_align_items_mobile": "center"
+     },
+     "blocks": {
+      "text_EQyUFB": {
+       "type": "text",
+       "name": "t:text",
+       "settings": {
+        "text": "<p>Notre méthode</p>",
+        "text_style": "paragraph",
+        "alignment": "center",
+        "alignment_mobile": "center"
+       },
+       "blocks": {}
+      },
+      "text_TmGPC9": {
+       "type": "text",
+       "name": "t:title",
+       "settings": {
+        "text": "<h2>Chaque fauteuil est vérifié avant d'être retenu</h2>",
+        "text_style": "h2",
+        "alignment": "center",
+        "alignment_mobile": "center"
+       },
+       "blocks": {}
+      },
+      "text_QABwJ9": {
+       "type": "text",
+       "name": "t:text",
+       "settings": {
+        "text": "<p>Hauteur d'assise, largeur des accoudoirs, hauteur du dossier, matière : nous contrôlons ces points sur chaque modèle, pour qu'il réponde à ce que vous cherchez vraiment. Se relever facilement, avoir le dos soutenu, garder un fauteuil qui reste beau au salon.</p>",
+        "text_style": "paragraph",
+        "paragraph_font_size": "large",
+        "alignment": "center",
+        "alignment_mobile": "center"
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "text_EQyUFB",
+      "text_TmGPC9",
+      "text_QABwJ9"
+     ]
+    }
+   },
+   "block_order": [
+    "group_K88fpM"
+   ],
+   "name": "Notre méthode",
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-3",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "column",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 20,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "center",
+    "layout_flex_align_items_desktop": "center",
+    "same_as_desktop": true,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 20,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 50,
+    "padding_bottom": 70,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": ""
+   }
+  },
+  "custom_section_k9aPjP": {
+   "type": "custom-section",
+   "blocks": {
+    "group_XyMggk": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "wrap_in_card": true,
+      "color_scheme": "scheme-2",
+      "width_desktop": 50,
+      "layout_gap_desktop": 15,
+      "layout_justify_desktop": "center",
+      "margin_top": 10,
+      "margin_bottom": 10,
+      "same_as_desktop": false
+     },
+     "blocks": {
+      "text_34dYXd": {
+       "type": "text",
+       "name": "t:title",
+       "settings": {
+        "text": "<h2>Ce qui fait un bon fauteuil à bascule</h2>",
+        "text_style": "h2"
+       },
+       "blocks": {}
+      },
+      "group_6DLfAU": {
+       "type": "group",
+       "name": "t:group",
+       "settings": {
+        "color_scheme": ""
+       },
+       "blocks": {
+        "group_BhcLrP": {
+         "type": "group",
+         "name": "t:icons_and_text_column",
+         "settings": {
+          "color_scheme": "",
+          "layout_gap_desktop": 15,
+          "layout_gap_mobile": 15,
+          "padding_horizontal": 10,
+          "padding_vertical": 10
+         },
+         "blocks": {
+          "icon_with_text_DCkFpJ": {
+           "type": "icon-with-text",
+           "name": "t:icon_with_text",
+           "settings": {
+            "layout_gap_desktop": 10,
+            "layout_direction_mobile": "row",
+            "icon": "none",
+            "icon_custom": "accessibility_new",
+            "icon_size": 26,
+            "text": "<p>Se relever facilement, même avec bébé dans les bras</p>",
+            "font_weight": 500
+           },
+           "blocks": {}
+          },
+          "icon_with_text_bFDMHJ": {
+           "type": "icon-with-text",
+           "name": "t:icon_with_text",
+           "settings": {
+            "layout_gap_desktop": 10,
+            "layout_direction_mobile": "row",
+            "icon": "none",
+            "icon_custom": "back_hand",
+            "icon_size": 26,
+            "text": "<p>Des accoudoirs qui soutiennent vraiment vos bras</p>",
+            "font_weight": 500
+           },
+           "blocks": {}
+          },
+          "icon_with_text_D4CKhV": {
+           "type": "icon-with-text",
+           "name": "t:icon_with_text",
+           "settings": {
+            "layout_gap_desktop": 10,
+            "layout_direction_mobile": "row",
+            "icon": "none",
+            "icon_custom": "airline_seat_recline_extra",
+            "icon_size": 26,
+            "text": "<p>Un dossier qui soutient la tête</p>",
+            "font_weight": 500
+           },
+           "blocks": {}
+          },
+          "icon_with_text_crit4": {
+           "type": "icon-with-text",
+           "name": "t:icon_with_text",
+           "settings": {
+            "layout_gap_desktop": 10,
+            "layout_direction_mobile": "row",
+            "icon": "none",
+            "icon_custom": "waves",
+            "icon_size": 26,
+            "text": "<p>Une bascule douce et discrète</p>",
+            "font_weight": 500
+           },
+           "blocks": {}
+          },
+          "icon_with_text_crit5": {
+           "type": "icon-with-text",
+           "name": "t:icon_with_text",
+           "settings": {
+            "layout_gap_desktop": 10,
+            "layout_direction_mobile": "row",
+            "icon": "none",
+            "icon_custom": "wash",
+            "icon_size": 26,
+            "text": "<p>Une matière facile à entretenir</p>",
+            "font_weight": 500
+           },
+           "blocks": {}
+          }
+         },
+         "block_order": [
+          "icon_with_text_DCkFpJ",
+          "icon_with_text_bFDMHJ",
+          "icon_with_text_D4CKhV",
+          "icon_with_text_crit4",
+          "icon_with_text_crit5"
+         ]
+        }
+       },
+       "block_order": [
+        "group_BhcLrP"
+       ]
+      },
+      "button_gNYHT8": {
+       "type": "button",
+       "name": "t:button",
+       "settings": {
+        "link": "shopify://pages/guide-bien-choisir-fauteuil-allaitement",
+        "label": "Lire le guide pour bien choisir",
+        "button_style": "secondary",
+        "icon_custom": "arrow_forward"
+       },
+       "blocks": {}
+      },
+      "crit_intro": {
+       "type": "text",
+       "name": "t:text",
+       "settings": {
+        "text": "<p>Cinq points que nous vérifions avant de retenir un modèle. Notre guide les détaille, fiche par fiche.</p>",
+        "text_style": "paragraph"
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "text_34dYXd",
+      "crit_intro",
+      "group_6DLfAU",
+      "button_gNYHT8"
+     ]
+    },
+    "crit_image": {
+     "type": "image",
+     "name": "t:image",
+     "settings": {
+      "image": "shopify://shop_images/fauteuil-a-bascule-allaitement-teddy-detail.jpg",
+      "show_placeholder": false,
+      "image_ratio": "square"
+     },
+     "blocks": {}
+    }
+   },
+   "block_order": [
+    "group_XyMggk",
+    "crit_image"
+   ],
+   "name": "Critères",
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-1",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "row",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 30,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "center",
+    "same_as_desktop": false,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 40,
+    "padding_bottom": 60,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": ""
+   }
+  },
+  "custom_section_NkHGLz": {
+   "type": "custom-section",
+   "blocks": {
+    "image_mFqbDi": {
+     "type": "image",
+     "name": "t:image",
+     "settings": {
+      "show_placeholder": false,
+      "image_ratio": "landscape",
+      "image": "shopify://shop_images/accueil-berceau-coin-lecture-bandeau.jpg"
+     },
+     "blocks": {}
+    },
+    "group_DgQq6e": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "color_scheme": "",
+      "layout_gap_desktop": 15,
+      "margin_top": 10,
+      "margin_bottom": 10
+     },
+     "blocks": {
+      "ber_h2": {
+       "type": "text",
+       "name": "t:text",
+       "settings": {
+        "text": "<h2>Du berceau au coin lecture</h2>",
+        "text_style": "h2"
+       },
+       "blocks": {}
+      },
+      "ber_p": {
+       "type": "text",
+       "name": "t:text",
+       "settings": {
+        "text": "<p>Un fauteuil choisi pour les tétées de nuit n'a pas besoin de ressembler à un meuble de chambre de bébé. Nos modèles gardent leur place dans le salon bien après, pour lire, se détendre ou simplement s'asseoir un moment.</p>",
+        "text_style": "paragraph"
+       },
+       "blocks": {}
+      },
+      "ber_btn": {
+       "type": "button",
+       "name": "t:button",
+       "settings": {
+        "link": "shopify://collections/rocking-chair-design-scandinave",
+        "label": "Voir les fauteuils design et scandinaves",
+        "button_style": "secondary",
+        "icon_custom": "arrow_forward"
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "ber_h2",
+      "ber_p",
+      "ber_btn"
+     ]
+    }
+   },
+   "block_order": [
+    "image_mFqbDi",
+    "group_DgQq6e"
+   ],
+   "name": "Du berceau au coin lecture",
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-1",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "row",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 30,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "center",
+    "same_as_desktop": false,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 60,
+    "padding_bottom": 60,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": ""
+   }
+  },
+  "reviews_rXFabc": {
+   "type": "reviews",
+   "blocks": {
+    "review_slide_Hdzgcy": {
+     "type": "_review-slide",
+     "name": "t:review_display_1",
+     "settings": {
+      "color_scheme": "scheme-1",
+      "date": "Le 11/03/2025"
+     },
+     "blocks": {}
+    },
+    "review_slide_yQ6B83": {
+     "type": "_review-slide",
+     "name": "t:review_display_1",
+     "settings": {
+      "color_scheme": "scheme-1",
+      "date": "Le 11/03/2025"
+     },
+     "blocks": {}
+    },
+    "review_slide_ahTJkA": {
+     "type": "_review-slide",
+     "name": "t:review_display_1",
+     "settings": {
+      "color_scheme": "scheme-1",
+      "date": "Le 11/03/2025"
+     },
+     "blocks": {}
+    },
+    "review_slide_34Pn7c": {
+     "type": "_review-slide",
+     "name": "t:review_display_1",
+     "settings": {
+      "color_scheme": "scheme-1",
+      "date": "Le 11/03/2025"
+     },
+     "blocks": {}
+    },
+    "review_slide_UEYfRw": {
+     "type": "_review-slide",
+     "name": "t:review_display_1",
+     "settings": {
+      "color_scheme": "scheme-1",
+      "date": "Le 11/03/2025"
+     },
+     "blocks": {}
+    },
+    "review_slide_K7WqwQ": {
+     "type": "_review-slide",
+     "name": "t:review_display_1",
+     "settings": {
+      "color_scheme": "scheme-1",
+      "date": "Le 11/03/2025"
+     },
+     "blocks": {}
+    },
+    "title": {
+     "type": "text",
+     "static": true,
+     "settings": {
+      "text": "<h2>Ils l’ont testé, validé et adopté!</h2>",
+      "text_style": "h3",
+      "margin_bottom": 30
+     },
+     "blocks": {}
+    }
+   },
+   "block_order": [
+    "review_slide_Hdzgcy",
+    "review_slide_yQ6B83",
+    "review_slide_ahTJkA",
+    "review_slide_34Pn7c",
+    "review_slide_UEYfRw",
+    "review_slide_K7WqwQ"
+   ],
+   "name": "t:reviews_slider",
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "anchor": "reviews",
+    "color_scheme": "scheme-2",
+    "layout_type": "slider",
+    "grid_columns": 3,
+    "grid_columns_mobile": "1",
+    "slider_items": 3,
+    "slider_items_mobile": "1",
+    "show_arrows": false,
+    "show_pagination": true,
+    "rewind": false,
+    "padding_top": 50,
+    "padding_bottom": 50,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "additional_class": ""
+   }
+  },
+  "custom_section_qetdex": {
+   "type": "custom-section",
+   "blocks": {
+    "text_JqyRqD": {
+     "type": "text",
+     "name": "t:title",
+     "settings": {
+      "text": "<h2>Prêt à trouver votre fauteuil ?</h2>",
+      "text_style": "h2",
+      "alignment": "center",
+      "alignment_mobile": "center"
+     },
+     "blocks": {}
+    },
+    "text_PkpXrD": {
+     "type": "text",
+     "name": "t:text",
+     "settings": {
+      "text": "<p>Parcourez la sélection ou laissez-vous guider par notre guide pour bien choisir.</p>",
+      "text_style": "paragraph",
+      "alignment": "center",
+      "alignment_mobile": "center"
+     },
+     "blocks": {}
+    },
+    "group_cpEwfM": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "color_scheme": "",
+      "width_desktop": 40,
+      "layout_justify_desktop": "center",
+      "layout_align_items_desktop": "center",
+      "same_as_desktop": false
+     },
+     "blocks": {
+      "cta_btn": {
+       "type": "button",
+       "name": "t:button",
+       "settings": {
+        "link": "shopify://collections/fauteuil-a-bascule",
+        "label": "Trouver mon fauteuil",
+        "icon_custom": "arrow_forward"
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "cta_btn"
+     ]
+    }
+   },
+   "block_order": [
+    "text_JqyRqD",
+    "text_PkpXrD",
+    "group_cpEwfM"
+   ],
+   "name": "Appel final",
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-1",
+    "wrap_in_card": true,
+    "color_scheme_card": "scheme-2",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "column",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 20,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "center",
+    "layout_flex_align_items_desktop": "center",
+    "same_as_desktop": true,
+    "layout_flex_direction_mobile": "row",
+    "layout_gap_mobile": 20,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 40,
+    "padding_bottom": 70,
+    "margin_top": 50,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": ""
+   }
+  },
+  "moments_bercelou": {
+   "type": "custom-section",
+   "blocks": {
+    "moments_head": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "color_scheme": "",
+      "padding_horizontal": 10,
+      "padding_vertical": 10
+     },
+     "blocks": {
+      "moments_h2": {
+       "type": "text",
+       "name": "t:text",
+       "settings": {
+        "text": "<h2>Trouver le fauteuil qui vous ressemble</h2>",
+        "text_style": "h2"
+       },
+       "blocks": {}
+      },
+      "moments_p": {
+       "type": "text",
+       "name": "t:text",
+       "settings": {
+        "text": "<p>Quatre façons de commencer, selon le moment de vie que vous voulez accompagner.</p>",
+        "text_style": "paragraph"
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "moments_h2",
+      "moments_p"
+     ]
+    },
+    "moments_grid": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "color_scheme": "",
+      "layout_type": "grid",
+      "layout_grid_columns_desktop": 4,
+      "layout_gap_desktop": 20,
+      "same_as_desktop": false,
+      "layout_grid_columns_mobile": 2,
+      "padding_horizontal": 10,
+      "padding_vertical": 10
+     },
+     "blocks": {
+      "m_nuit": {
+       "type": "image-card",
+       "name": "t:image_card",
+       "settings": {
+        "image": "shopify://shop_images/accueil-moment-tetees-nuit-carte.jpg",
+        "card_height": "medium",
+        "card_link": "shopify://collections/fauteuil-allaitement",
+        "image_filter_opacity": 45,
+        "image_filter_color": "#141C28",
+        "layout_justify": "flex-end",
+        "padding_horizontal": 20
+       },
+       "blocks": {
+        "m_nuit_t": {
+         "type": "text",
+         "name": "t:text",
+         "settings": {
+          "text": "<p><strong>Pour les tétées de nuit</strong></p>",
+          "text_style": "h5"
+         },
+         "blocks": {}
+        },
+        "m_nuit_s": {
+         "type": "text",
+         "name": "t:text",
+         "settings": {
+          "text": "<p>Fauteuils d'allaitement</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "small"
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "m_nuit_t",
+        "m_nuit_s"
+       ]
+      },
+      "m_lecture": {
+       "type": "image-card",
+       "name": "t:image_card",
+       "settings": {
+        "image": "shopify://shop_images/accueil-moment-coin-lecture-carte.jpg",
+        "card_height": "medium",
+        "card_link": "shopify://collections/rocking-chair-design-scandinave",
+        "image_filter_opacity": 45,
+        "image_filter_color": "#141C28",
+        "layout_justify": "flex-end",
+        "padding_horizontal": 20
+       },
+       "blocks": {
+        "m_lecture_t": {
+         "type": "text",
+         "name": "t:text",
+         "settings": {
+          "text": "<p><strong>Pour le coin lecture</strong></p>",
+          "text_style": "h5"
+         },
+         "blocks": {}
+        },
+        "m_lecture_s": {
+         "type": "text",
+         "name": "t:text",
+         "settings": {
+          "text": "<p>Design et scandinave</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "small"
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "m_lecture_t",
+        "m_lecture_s"
+       ]
+      },
+      "m_detente": {
+       "type": "image-card",
+       "name": "t:image_card",
+       "settings": {
+        "image": "shopify://shop_images/accueil-moment-detente-carte.jpg",
+        "card_height": "medium",
+        "card_link": "shopify://collections/fauteuil-relax",
+        "image_filter_opacity": 45,
+        "image_filter_color": "#141C28",
+        "layout_justify": "flex-end",
+        "padding_horizontal": 20
+       },
+       "blocks": {
+        "m_detente_t": {
+         "type": "text",
+         "name": "t:text",
+         "settings": {
+          "text": "<p><strong>Pour se détendre</strong></p>",
+          "text_style": "h5"
+         },
+         "blocks": {}
+        },
+        "m_detente_s": {
+         "type": "text",
+         "name": "t:text",
+         "settings": {
+          "text": "<p>Fauteuils relax</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "small"
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "m_detente_t",
+        "m_detente_s"
+       ]
+      },
+      "m_terrasse": {
+       "type": "image-card",
+       "name": "t:image_card",
+       "settings": {
+        "image": "shopify://shop_images/accueil-moment-terrasse-carte.jpg",
+        "card_height": "medium",
+        "card_link": "shopify://collections/rocking-chair-exterieur",
+        "image_filter_opacity": 45,
+        "image_filter_color": "#141C28",
+        "layout_justify": "flex-end",
+        "padding_horizontal": 20
+       },
+       "blocks": {
+        "m_terrasse_t": {
+         "type": "text",
+         "name": "t:text",
+         "settings": {
+          "text": "<p><strong>Pour la terrasse</strong></p>",
+          "text_style": "h5"
+         },
+         "blocks": {}
+        },
+        "m_terrasse_s": {
+         "type": "text",
+         "name": "t:text",
+         "settings": {
+          "text": "<p>Rocking chair extérieur</p>",
+          "text_style": "paragraph",
+          "paragraph_font_size": "small"
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "m_terrasse_t",
+        "m_terrasse_s"
+       ]
+      }
+     },
+     "block_order": [
+      "m_nuit",
+      "m_lecture",
+      "m_detente",
+      "m_terrasse"
+     ]
+    }
+   },
+   "block_order": [
+    "moments_head",
+    "moments_grid"
+   ],
+   "name": "Moments",
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-1",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "column",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 20,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": false,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 20,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 60,
+    "padding_bottom": 40,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "moments",
+    "additional_class": ""
+   }
+  },
+  "faq_bercelou": {
+   "type": "custom-section",
+   "blocks": {
+    "faq_h2": {
+     "type": "text",
+     "name": "t:text",
+     "settings": {
+      "text": "<h2>Les questions qu'on nous pose le plus</h2>",
+      "text_style": "h2"
+     },
+     "blocks": {}
+    },
+    "faq_acc": {
+     "type": "accordions",
+     "name": "t:accordions",
+     "settings": {
+      "icon": "add"
+     },
+     "blocks": {
+      "faq_0": {
+       "type": "_accordion",
+       "name": "t:accordion",
+       "settings": {
+        "heading": "Comment choisir entre un fauteuil d'allaitement et un rocking chair design ?",
+        "heading_tag": "h3",
+        "open_by_default": true
+       },
+       "blocks": {
+        "faq_0_a": {
+         "type": "text",
+         "name": "t:text",
+         "settings": {
+          "text": "<p>Les deux basculent en douceur. Les modèles de la collection Allaitement mettent l'accent sur des accoudoirs larges et un dossier haut pour les tétées de nuit. Notre guide pour bien choisir détaille les critères.</p>",
+          "text_style": "paragraph"
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "faq_0_a"
+       ]
+      },
+      "faq_1": {
+       "type": "_accordion",
+       "name": "t:accordion",
+       "settings": {
+        "heading": "La livraison est-elle vraiment offerte ?",
+        "heading_tag": "h3"
+       },
+       "blocks": {
+        "faq_1_a": {
+         "type": "text",
+         "name": "t:text",
+         "settings": {
+          "text": "<p>Oui, en France métropolitaine, sur l'ensemble du catalogue.</p>",
+          "text_style": "paragraph"
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "faq_1_a"
+       ]
+      },
+      "faq_2": {
+       "type": "_accordion",
+       "name": "t:accordion",
+       "settings": {
+        "heading": "Puis-je payer en plusieurs fois ?",
+        "heading_tag": "h3"
+       },
+       "blocks": {
+        "faq_2_a": {
+         "type": "text",
+         "name": "t:text",
+         "settings": {
+          "text": "<p>Oui, en 3 fois avec Klarna ou en 4 fois avec PayPal.</p>",
+          "text_style": "paragraph"
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "faq_2_a"
+       ]
+      },
+      "faq_3": {
+       "type": "_accordion",
+       "name": "t:accordion",
+       "settings": {
+        "heading": "Que se passe-t-il si le fauteuil ne me convient pas ?",
+        "heading_tag": "h3"
+       },
+       "blocks": {
+        "faq_3_a": {
+         "type": "text",
+         "name": "t:text",
+         "settings": {
+          "text": "<p>Vous disposez de 14 jours après réception pour vous rétracter. Les frais de retour restent à votre charge sur les colis volumineux.</p>",
+          "text_style": "paragraph"
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "faq_3_a"
+       ]
+      },
+      "faq_4": {
+       "type": "_accordion",
+       "name": "t:accordion",
+       "settings": {
+        "heading": "Le fauteuil arrive-t-il monté ?",
+        "heading_tag": "h3"
+       },
+       "blocks": {
+        "faq_4_a": {
+         "type": "text",
+         "name": "t:text",
+         "settings": {
+          "text": "<p>La plupart de nos fauteuils se montent à réception, notice fournie. Le délai et le montage sont précisés sur chaque fiche.</p>",
+          "text_style": "paragraph"
+         },
+         "blocks": {}
+        }
+       },
+       "block_order": [
+        "faq_4_a"
+       ]
+      }
+     },
+     "block_order": [
+      "faq_0",
+      "faq_1",
+      "faq_2",
+      "faq_3",
+      "faq_4"
+     ]
+    },
+    "faq_btn": {
+     "type": "button",
+     "name": "t:button",
+     "settings": {
+      "link": "shopify://pages/faq",
+      "label": "Voir toute la FAQ",
+      "button_style": "secondary",
+      "icon_custom": "arrow_forward"
+     },
+     "blocks": {}
+    }
+   },
+   "block_order": [
+    "faq_h2",
+    "faq_acc",
+    "faq_btn"
+   ],
+   "name": "FAQ",
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-1",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "column",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 20,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": false,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 20,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 60,
+    "padding_bottom": 40,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": ""
+   }
+  }
+ },
+ "order": [
+  "image_banner_VXNP89",
+  "moments_bercelou",
+  "custom_section_k9aPjP",
+  "collection_featured_JXRpw3",
+  "custom_section_NkHGLz",
+  "custom_section_wxUWmx",
+  "reviews_rXFabc",
+  "faq_bercelou",
+  "custom_section_qetdex"
+ ]
+}
