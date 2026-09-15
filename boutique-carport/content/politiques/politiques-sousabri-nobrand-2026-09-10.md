@@ -46,13 +46,14 @@ Version alternative plus détaillée (textes Tuftéo, CGV en 18 articles + annex
 ```html
 <h1>Politique de livraison - Sous Abri</h1>
 <p><strong>Expédition</strong></p>
-<p>Nous expédions vos colis dans un délai de 1 à 3 jours ouvrés (temps de traitement de la commande) pour les produits en stock. Les carports aluminium en kit fabriqués à la commande partent après fabrication (20 à 30 jours) ; les carports sur mesure, après acceptation du devis.</p>
+<p>Les commandes passées avant 12 h (heure de Paris), du lundi au vendredi, sont traitées le jour même ; celles passées après 12 h, le week-end ou un jour férié sont traitées le jour ouvré suivant. Les produits en stock sont expédiés dans un délai de 1 à 3 jours ouvrés après traitement. Les carports aluminium en kit fabriqués à la commande partent après fabrication ; les carports sur mesure, après acceptation du devis.</p>
 <p><strong>Livraisons</strong></p>
 <p>Les délais de livraison dépendent du produit commandé :</p>
 <ul>
 <li>Pays : FRANCE métropolitaine, Corse comprise</li>
 <li>Tentes-garages et carport acier : délai d'acheminement de 5 à 12 jours ouvrés</li>
-<li>Carports aluminium en kit : 8 à 12 semaines au total (fabrication puis transport)</li>
+<li>Carports aluminium en kit fabriqués à la commande : 4 à 8 semaines au total (fabrication puis transport)</li>
+<li>Carports aluminium sur mesure (sur devis) : 10 à 12 semaines après validation du devis</li>
 <li>Frais de livraison : 0 € *</li>
 </ul>
 <p>*Livraison GRATUITE, quel que soit le montant de votre commande.</p>
