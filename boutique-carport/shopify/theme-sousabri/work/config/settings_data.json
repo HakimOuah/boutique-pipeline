@@ -239,7 +239,19 @@
     "brand_headline": "",
     "brand_description": "<p>Carports et tentes-garages en kit, sélectionnés par le spécialiste français de l'abri voiture. Livraison offerte en France, garantie légale 2 ans.</p><p>OH VENTURES — 47 rue Vivienne, 75002 Paris, France</p><p><a href=\"mailto:contact@sousabri.fr\">contact@sousabri.fr</a><br><a href=\"tel:+33756828094\">+33 7 56 82 80 94</a></p>",
     "brand_image": "shopify://shop_images/logo-sousabri-inverse-transparent.png",
-    "brand_image_width": 170
+    "brand_image_width": 180,
+    "blocks": {
+      "14327677521557774844": {
+        "type": "shopify://apps/simprosys-google-shopping-feed/blocks/core_settings_block/1f0b859e-9fa6-4007-97e8-4513aff5ff3b",
+        "disabled": false,
+        "settings": {}
+      },
+      "2567389343055140935": {
+        "type": "shopify://apps/microsoft-clarity/blocks/clarity_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   },
   "presets": {
     "Default": {

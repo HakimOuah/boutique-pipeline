@@ -47,3 +47,7 @@ Fait (à annuler point par point après validation GMC) :
 - **Politique d'expédition uniforme** à coller par Hakim : `content/politiques/politique-expedition-gmc-uniforme-2026-09-15.html`.
 
 Remise en ligne après validation : réactiver les 2 produits, remettre `carport-alu` / `carport-autoportant` dans les menus, restaurer les délais par famille (versions d'avant dans le commit 7d5671a0 du dépôt boutique-pipeline).
+
+### 16/09 — complément
+- Les CGV + CGU ont été collées par Hakim dans « Conditions de vente » (`/policies/terms-of-sale`, 200) ; `/policies/terms-of-service` reste en 404 mais aucun lien n'y pointe. Lien footer Légal renommé « CGV et CGU » → `/policies/terms-of-sale`.
+- Le thème publié est resté « Sous Abri - travail 11-09 » (199857406335) : Hakim y a refait le footer à la main dans l'éditeur (bloc marque + colonne « Liens rapides »), mais il garde les délais en semaines, l'exclusion de rétractation, les liens vers `carport-alu` et pas de CSS mobile. Diff complet MAIN vs copie « Sous Abri » (199781745023) : seuls mes 7 fichiers diffèrent, plus deux blocs d'app dans `settings_data.json` (Simprosys, Microsoft Clarity) que j'ai recopiés dans la copie. → Publier la copie « Sous Abri ».
