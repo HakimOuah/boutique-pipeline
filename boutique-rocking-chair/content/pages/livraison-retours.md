@@ -6,7 +6,7 @@
 
 ### Délais de livraison
 
-Vos fauteuils sont expédiés depuis des entrepôts européens : comptez un délai de 3 à 10 jours ouvrés. Les accessoires (plaid, coussin, repose-pieds, housse de protection) sont expédiés depuis la Chine : comptez un délai de 7 à 15 jours ouvrés.
+Vos fauteuils sont livrés en 3 à 10 jours ouvrés. Les accessoires (plaid, coussin, repose-pieds, housse de protection) sont livrés en 7 à 15 jours ouvrés.
 
 ### Livraison offerte
 

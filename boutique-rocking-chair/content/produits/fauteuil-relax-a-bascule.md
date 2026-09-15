@@ -62,7 +62,7 @@ Prévoyez un dégagement libre à l'arrière pour une bascule confortable.
 Dépoussiérez le tissu régulièrement. Essuyez les taches localement.
 
 ## Livraison
-Expédié depuis notre entrepôt en Allemagne, comptez 3 à 10 jours ouvrés. Livraison offerte en France métropolitaine. Le fauteuil arrive en un colis à assembler ; le guide de montage est offert en ligne.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteuil arrive en un colis à assembler ; le guide de montage est offert en ligne.
 
 ## FAQ
 
@@ -82,7 +82,7 @@ Ce fauteuil se choisit en gris ou en noir.
 La base mesure 90 × 77 cm. Prévoyez un dégagement libre à l'arrière pour la bascule.
 
 **6. Quels sont les délais de livraison ?**
-Expédié depuis l'Allemagne sous 3 à 10 jours ouvrés, livraison offerte en France métropolitaine.
+Livraison en 3 à 10 jours ouvrés, offerte en France métropolitaine.
 
 ## Images (ALT et rôle)
 1. Désir — Fauteuil relax à bascule avec repose-pieds, lumière douce de fin de journée.

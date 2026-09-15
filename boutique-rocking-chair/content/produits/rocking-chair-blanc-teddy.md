@@ -67,7 +67,7 @@ Prévoyez un dégagement libre derrière le fauteuil pour une bascule confortabl
 La bouclette se dépoussière régulièrement à la brosse douce. Essuyez les taches localement, sans immerger le tissu.
 
 ## Livraison
-Expédié depuis notre entrepôt en Allemagne, comptez 3 à 10 jours ouvrés. Livraison offerte en France métropolitaine. Le fauteuil arrive en un colis à assembler ; le guide de montage est offert en ligne.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteuil arrive en un colis à assembler ; le guide de montage est offert en ligne.
 
 ## FAQ
 
@@ -87,7 +87,7 @@ Dépoussiérez-la régulièrement à la brosse douce et essuyez les taches local
 Sa bouclette blanche et sa structure bois clair s'accordent aussi bien à un salon qu'à une chambre.
 
 **6. Quels sont les délais et frais de livraison ?**
-Le fauteuil est expédié depuis l'Allemagne sous 3 à 10 jours ouvrés, livraison offerte en France métropolitaine.
+Livraison en 3 à 10 jours ouvrés, offerte en France métropolitaine.
 
 ## Images (ALT et rôle)
 1. Désir — Rocking chair blanc en bouclette dans un salon lumineux, lumière douce de fin de journée.

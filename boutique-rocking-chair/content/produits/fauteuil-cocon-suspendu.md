@@ -63,7 +63,7 @@ Prévoyez un espace dégagé autour du fauteuil pour une bascule libre.
 Dépoussiérez le tressage en rotin régulièrement. Utilisez la housse fournie pour protéger le fauteuil entre deux utilisations en extérieur.
 
 ## Livraison
-Expédié depuis notre entrepôt en Allemagne, comptez 3 à 10 jours ouvrés. Livraison offerte en France métropolitaine. Le fauteuil arrive en un colis à assembler ; le guide de montage est offert en ligne.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteuil arrive en un colis à assembler ; le guide de montage est offert en ligne.
 
 ## FAQ
 
@@ -83,7 +83,7 @@ Oui, ce fauteuil cocon convient à un usage intérieur comme extérieur.
 Le pied support mesure 105 cm de large. Prévoyez un espace dégagé autour du fauteuil pour la bascule.
 
 **6. Quels sont les délais de livraison ?**
-Expédié depuis l'Allemagne sous 3 à 10 jours ouvrés, livraison offerte en France métropolitaine.
+Livraison en 3 à 10 jours ouvrés, offerte en France métropolitaine.
 
 ## Images (ALT et rôle)
 1. Désir — Fauteuil cocon suspendu sur une terrasse, lumière douce de fin de journée.

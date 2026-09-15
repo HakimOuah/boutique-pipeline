@@ -45,7 +45,7 @@ Ce repose-pieds se choisit parmi de nombreux coloris, pour s'accorder à votre f
 | Poids du colis | 0,32 kg |
 
 ## Livraison
-Expédié depuis la Chine, comptez 7 à 15 jours ouvrés. Livraison offerte en France métropolitaine.
+Livraison offerte en France métropolitaine, en 7 à 15 jours ouvrés.
 
 ## FAQ
 
@@ -59,7 +59,7 @@ Oui, à 50°C ; le sèche-linge est autorisé.
 De nombreux coloris sont disponibles.
 
 **4. Quels sont les délais de livraison ?**
-Expédié depuis la Chine, comptez 7 à 15 jours ouvrés, livraison offerte en France métropolitaine.
+Livraison en 7 à 15 jours ouvrés, offerte en France métropolitaine.
 
 ## Images (ALT et rôle)
 1. Usage — Repose-pieds posé devant un fauteuil à bascule, lumière douce du soir.

@@ -61,7 +61,7 @@ Conseil de place : comptez environ 75 cm de profondeur au sol, et 50 cm de déga
 La bouclette teddy se dépoussière à l'aspirateur, embout tissu. Une tache se traite localement, à l'eau tiède.
 
 ## Livraison
-Fauteuil expédié depuis un entrepôt européen, livraison en 3 à 10 jours ouvrés. Livraison offerte en France métropolitaine. Le fauteuil arrive à monter, notice fournie.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteuil arrive à monter, notice fournie.
 
 ## FAQ
 
@@ -84,7 +84,7 @@ Gris clair, gris foncé et rose.
 Le fauteuil est livré à monter, avec notice.
 
 **7. Quels sont les délais de livraison et la politique de retour ?**
-Livraison en 3 à 10 jours ouvrés depuis un entrepôt européen, offerte en France métropolitaine. Retours sous 14 jours après réception, frais de retour à votre charge pour ce colis volumineux. Colis abîmé ou pièce manquante : signalez-le sous 48 h avec photos, nous renvoyons ou remboursons à nos frais. Garantie légale de conformité 2 ans.
+Livraison en 3 à 10 jours ouvrés, offerte en France métropolitaine. Retours sous 14 jours après réception, frais de retour à votre charge pour ce colis volumineux. Colis abîmé ou pièce manquante : signalez-le sous 48 h avec photos, nous renvoyons ou remboursons à nos frais. Garantie légale de conformité 2 ans.
 
 ## Images (ALT et rôle)
 

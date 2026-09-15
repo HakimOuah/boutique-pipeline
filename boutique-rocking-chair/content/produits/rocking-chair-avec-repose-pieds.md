@@ -60,7 +60,7 @@ Prévoyez un dégagement libre à l'arrière pour une bascule confortable, repos
 La housse se retire et se lave pour garder le fauteuil propre. Dépoussiérez le bois régulièrement.
 
 ## Livraison
-Expédié depuis notre entrepôt en Allemagne, comptez 3 à 10 jours ouvrés. Livraison offerte en France métropolitaine. Le fauteuil arrive en un colis à assembler ; le guide de montage est offert en ligne.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteuil arrive en un colis à assembler ; le guide de montage est offert en ligne.
 
 ## FAQ
 
@@ -80,7 +80,7 @@ Jusqu'à 150 kg.
 Ce rocking chair se choisit en gris foncé ou en blanc.
 
 **6. Quels sont les délais de livraison ?**
-Expédié depuis l'Allemagne sous 3 à 10 jours ouvrés, livraison offerte en France métropolitaine.
+Livraison en 3 à 10 jours ouvrés, offerte en France métropolitaine.
 
 ## Images (ALT et rôle)
 1. Désir — Rocking chair en bois de bouleau, repose-pieds déployé, lumière douce de fin de journée.

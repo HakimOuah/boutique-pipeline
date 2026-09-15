@@ -59,7 +59,7 @@ Repliez le fauteuil à plat pour le ranger à l'abri l'hiver.
 Rangez le fauteuil à l'abri de la pluie pour éviter la formation de rouille sur la structure ; retirez le coussin pour le nettoyer à l'éponge humide.
 
 ## Livraison
-Fauteuil expédié depuis un entrepôt européen, 3 à 10 jours ouvrés. Livraison offerte en France métropolitaine. Livré prêt à l'usage, sans assemblage.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Livré prêt à l'usage, sans assemblage.
 
 ## FAQ
 **1. Comment régler la position zéro gravité ?**
@@ -84,7 +84,7 @@ Le fauteuil est livré prêt à l'usage, sans assemblage.
 Gris ou noir.
 
 **8. Quels sont les délais de livraison ?**
-Le fauteuil est expédié depuis un entrepôt européen, sous 3 à 10 jours ouvrés, livraison offerte en France métropolitaine.
+Livraison en 3 à 10 jours ouvrés, offerte en France métropolitaine.
 
 ## Images (ALT et rôle)
 1. Désir — Fauteuil relax extérieur inclinable sur une terrasse en lumière du soir, plaid posé sur l'accoudoir

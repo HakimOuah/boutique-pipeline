@@ -12,7 +12,6 @@ Saisissez votre numéro de commande et votre e-mail, ou votre numéro de suivi, 
 
 | | Fauteuils et chaises à bascule, relax, enfant | Accessoires (coussins, plaids, repose-pieds, housses) |
 |---|---|---|
-| Expédition | Depuis nos entrepôts européens | Depuis la Chine |
 | Délai de livraison total | 3 à 10 jours ouvrés | 7 à 15 jours ouvrés |
 | Frais de livraison | Offerts en France métropolitaine | Offerts en France métropolitaine |
 

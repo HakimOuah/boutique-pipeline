@@ -63,7 +63,7 @@ Conseil de place : comptez 132 cm de largeur repose-pieds déployé, et un déga
 Le tissu teddy se dépoussière à l'aspirateur, embout tissu, et une tache se traite localement à l'eau tiède. Le bois se nettoie au chiffon sec.
 
 ## Livraison
-Fauteuil expédié depuis un entrepôt européen, livraison en 3 à 10 jours ouvrés. Livraison offerte en France métropolitaine. Le fauteuil arrive à monter, notice fournie.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteuil arrive à monter, notice fournie.
 
 ## FAQ
 
@@ -89,7 +89,7 @@ Blanc.
 Sa ligne épurée garde sa place dans la chambre pour un coin lecture.
 
 **8. Quels sont les délais de livraison et la politique de retour ?**
-Livraison en 3 à 10 jours ouvrés depuis un entrepôt européen, offerte en France métropolitaine. Retours sous 14 jours après réception, frais de retour à votre charge pour ce colis volumineux. Colis abîmé ou pièce manquante : signalez-le sous 48 h avec photos, nous renvoyons ou remboursons à nos frais. Garantie légale de conformité 2 ans.
+Livraison en 3 à 10 jours ouvrés, offerte en France métropolitaine. Retours sous 14 jours après réception, frais de retour à votre charge pour ce colis volumineux. Colis abîmé ou pièce manquante : signalez-le sous 48 h avec photos, nous renvoyons ou remboursons à nos frais. Garantie légale de conformité 2 ans.
 
 ## Images (ALT et rôle)
 

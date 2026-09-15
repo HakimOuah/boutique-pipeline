@@ -65,7 +65,7 @@ Prévoyez au moins 162 cm de longueur disponible pour profiter de la position in
 Essuyez le similicuir avec un chiffon doux légèrement humide ; évitez les produits abrasifs et à base d'alcool.
 
 ## Livraison
-Fauteuil expédié depuis un entrepôt européen, 3 à 10 jours ouvrés. Livraison offerte en France métropolitaine. Un assemblage de la base et des accoudoirs est nécessaire à réception.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Un assemblage de la base et des accoudoirs est nécessaire à réception.
 
 ## FAQ
 **1. Comment incliner le fauteuil ?**
@@ -90,7 +90,7 @@ Un assemblage de la base et des accoudoirs est nécessaire à réception.
 Noir, marron et blanc cassé.
 
 **8. Quels sont les délais de livraison ?**
-Le fauteuil est expédié depuis un entrepôt européen, sous 3 à 10 jours ouvrés, livraison offerte en France métropolitaine.
+Livraison en 3 à 10 jours ouvrés, offerte en France métropolitaine.
 
 ## Images (ALT et rôle)
 1. Désir — Fauteuil relax manuel en similicuir dans un salon éclairé en lumière du soir

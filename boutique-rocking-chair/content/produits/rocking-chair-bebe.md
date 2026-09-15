@@ -50,7 +50,7 @@ Ce siège 2 en 1 est annoncé pour des enfants de 0 à 3 ans.
 | Poids du colis | 7 kg |
 
 ## Livraison
-Expédié depuis nos entrepôts en Allemagne et en Pologne, comptez 3 à 10 jours ouvrés. Livraison offerte en France métropolitaine.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.
 
 ## FAQ
 
@@ -67,7 +67,7 @@ La même structure se convertit entre les deux usages.
 Blanc ou gris.
 
 **5. Quels sont les délais de livraison ?**
-Expédié depuis l'Allemagne ou la Pologne sous 3 à 10 jours ouvrés, livraison offerte en France métropolitaine.
+Livraison en 3 à 10 jours ouvrés, offerte en France métropolitaine.
 
 ## Images (ALT et rôle)
 1. Désir — Siège bébé 2 en 1 en position transat, lumière douce du soir.

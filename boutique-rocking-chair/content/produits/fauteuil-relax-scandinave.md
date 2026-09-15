@@ -65,7 +65,7 @@ Laissez de l'espace devant et derrière le fauteuil pour profiter de la bascule.
 Dépoussiérez le velours côtelé à l'aspirateur (embout brosse douce) et nettoyez les taches localisées à l'éponge légèrement humide.
 
 ## Livraison
-Fauteuil expédié depuis un entrepôt européen, 3 à 10 jours ouvrés. Livraison offerte en France métropolitaine. Un assemblage des accoudoirs et du repose-pieds est nécessaire à réception.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Un assemblage des accoudoirs et du repose-pieds est nécessaire à réception.
 
 ## FAQ
 **1. Le fauteuil pivote-t-il ?**
@@ -90,7 +90,7 @@ Elle permet de poser un livre, une tasse ou une télécommande sans quitter le f
 61,5 cm.
 
 **8. Quels sont les délais de livraison ?**
-Le fauteuil est expédié depuis un entrepôt européen, sous 3 à 10 jours ouvrés, livraison offerte en France métropolitaine.
+Livraison en 3 à 10 jours ouvrés, offerte en France métropolitaine.
 
 ## Images (ALT et rôle)
 1. Désir — Fauteuil relax scandinave en velours côtelé beige dans un salon éclairé en lumière du soir

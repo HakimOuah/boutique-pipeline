@@ -52,7 +52,7 @@ La chaise se déplace sur roulettes, d'une pièce à l'autre selon vos besoins.
 | Poids du colis | 7 kg |
 
 ## Livraison
-Expédié depuis nos entrepôts européens, comptez 3 à 10 jours ouvrés. Livraison offerte en France métropolitaine.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.
 
 ## FAQ
 
@@ -72,7 +72,7 @@ Oui, elle est équipée de roulettes.
 Blanc ou gris.
 
 **6. Quels sont les délais de livraison ?**
-Expédiée depuis nos entrepôts européens sous 3 à 10 jours ouvrés, livraison offerte en France métropolitaine.
+Livraison en 3 à 10 jours ouvrés, offerte en France métropolitaine.
 
 ## Images (ALT et rôle)
 1. Désir — Chaise 2 en 1 en position transat, lumière douce du soir.

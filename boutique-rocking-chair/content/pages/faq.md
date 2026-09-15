@@ -27,7 +27,7 @@ Certains modèles de notre collection [Rocking chair extérieur](/collections/ro
 Oui, en France métropolitaine, sur l'ensemble du catalogue.
 
 **7. Quel est le délai de livraison ?**
-Les fauteuils sont expédiés depuis des entrepôts européens, avec un délai de 3 à 10 jours ouvrés. Les accessoires sont expédiés depuis la Chine, avec un délai de 7 à 15 jours ouvrés.
+Les fauteuils sont livrés en 3 à 10 jours ouvrés. Les accessoires (plaid, coussin, repose-pieds, housse de protection) sont livrés en 7 à 15 jours ouvrés.
 
 **8. Le fauteuil arrive-t-il monté ?**
 Non, un montage est nécessaire à réception, avec la notice fournie dans le colis.

@@ -63,7 +63,7 @@ Conseil de place : comptez la profondeur de la base (78,5 cm) et un dégagement 
 Le tissu peluche se dépoussière à l'aspirateur, embout tissu, et une tache se traite localement à l'eau tiède. Le bois se nettoie au chiffon sec.
 
 ## Livraison
-Chaise expédiée depuis un entrepôt européen, livraison en 3 à 10 jours ouvrés. Livraison offerte en France métropolitaine. La chaise arrive à monter, notice fournie.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. La chaise arrive à monter, notice fournie.
 
 ## FAQ
 
@@ -86,7 +86,7 @@ Blanc.
 Le dossier haut et les poches latérales accompagnent les tétées, au calme.
 
 **7. Quels sont les délais de livraison et la politique de retour ?**
-Livraison en 3 à 10 jours ouvrés depuis un entrepôt européen, offerte en France métropolitaine. Retours sous 14 jours après réception, frais de retour à votre charge pour ce colis volumineux. Colis abîmé ou pièce manquante : signalez-le sous 48 h avec photos, nous renvoyons ou remboursons à nos frais. Garantie légale de conformité 2 ans.
+Livraison en 3 à 10 jours ouvrés, offerte en France métropolitaine. Retours sous 14 jours après réception, frais de retour à votre charge pour ce colis volumineux. Colis abîmé ou pièce manquante : signalez-le sous 48 h avec photos, nous renvoyons ou remboursons à nos frais. Garantie légale de conformité 2 ans.
 
 ## Images (ALT et rôle)
 

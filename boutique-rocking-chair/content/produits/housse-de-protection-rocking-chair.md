@@ -49,7 +49,7 @@ Plusieurs formats sont disponibles : choisissez la taille la plus proche de votr
 Nettoyez la housse à l'eau savonneuse et laissez-la sécher à l'air libre avant de la replier.
 
 ## Livraison
-Expédié depuis la Chine, comptez 7 à 15 jours ouvrés. Livraison offerte en France métropolitaine.
+Livraison offerte en France métropolitaine, en 7 à 15 jours ouvrés.
 
 ## FAQ
 
@@ -63,7 +63,7 @@ Elle est annoncée imperméable, coupe-vent et résistante aux UV, contre la plu
 Un cordon de serrage en bas de housse la resserre autour du mobilier.
 
 **4. Quels sont les délais de livraison ?**
-Expédiée depuis la Chine, comptez 7 à 15 jours ouvrés, livraison offerte en France métropolitaine.
+Livraison en 7 à 15 jours ouvrés, offerte en France métropolitaine.
 
 ## Images (ALT et rôle)
 1. Usage — Housse de protection posée sur un ensemble de mobilier de jardin, en fin de journée.

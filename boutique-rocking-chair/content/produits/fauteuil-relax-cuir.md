@@ -59,7 +59,7 @@ Comptez l'espace du repose-pieds devant le fauteuil pour profiter pleinement de 
 Essuyez le similicuir avec un chiffon doux légèrement humide ; évitez les produits abrasifs et à base d'alcool.
 
 ## Livraison
-Fauteuil expédié depuis un entrepôt européen, 3 à 10 jours ouvrés. Livraison offerte en France métropolitaine. Un assemblage de la base et du repose-pieds est nécessaire à réception.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Un assemblage de la base et du repose-pieds est nécessaire à réception.
 
 ## FAQ
 **1. Le fauteuil pivote-t-il ?**
@@ -84,7 +84,7 @@ Un chiffon doux légèrement humide suffit ; évitez les produits abrasifs.
 Un assemblage de la base et du repose-pieds est nécessaire à réception.
 
 **8. Quels sont les délais de livraison ?**
-Le fauteuil est expédié depuis un entrepôt européen, sous 3 à 10 jours ouvrés, livraison offerte en France métropolitaine.
+Livraison en 3 à 10 jours ouvrés, offerte en France métropolitaine.
 
 ## Images (ALT et rôle)
 1. Désir — Fauteuil relax en similicuir noir et son repose-pieds dans un salon éclairé en lumière du soir

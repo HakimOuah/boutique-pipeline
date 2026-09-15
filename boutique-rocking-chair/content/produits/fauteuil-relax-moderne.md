@@ -59,7 +59,7 @@ Comptez de l'espace à l'avant du fauteuil pour profiter de l'inclinaison jusqu'
 Dépoussiérez régulièrement le tissu à l'aspirateur (embout brosse) et nettoyez les taches localisées avec une éponge légèrement humide.
 
 ## Livraison
-Fauteuil expédié depuis un entrepôt européen, 3 à 10 jours ouvrés. Livraison offerte en France métropolitaine. Un assemblage simple est nécessaire à réception.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Un assemblage simple est nécessaire à réception.
 
 ## FAQ
 **1. Comment régler l'inclinaison ?**
@@ -84,7 +84,7 @@ Un assemblage simple est nécessaire à réception.
 Oui, il se branche sur une prise secteur standard.
 
 **8. Quels sont les délais de livraison ?**
-Le fauteuil est expédié depuis un entrepôt européen, sous 3 à 10 jours ouvrés, livraison offerte en France métropolitaine.
+Livraison en 3 à 10 jours ouvrés, offerte en France métropolitaine.
 
 ## Images (ALT et rôle)
 1. Désir — Fauteuil relax moderne gris chiné dans un salon éclairé en lumière du soir

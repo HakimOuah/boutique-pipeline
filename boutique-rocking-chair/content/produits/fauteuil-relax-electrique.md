@@ -58,7 +58,7 @@ Comptez de l'espace à l'avant du fauteuil pour déplier complètement le repose
 Dépoussiérez régulièrement le tissu à l'aspirateur (embout brosse) et nettoyez les taches localisées avec une éponge légèrement humide.
 
 ## Livraison
-Fauteuil expédié depuis un entrepôt européen, 3 à 10 jours ouvrés. Livraison offerte en France métropolitaine. Un assemblage simple est nécessaire à réception.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Un assemblage simple est nécessaire à réception.
 
 ## FAQ
 **1. Comment régler les trois positions ?**
@@ -80,7 +80,7 @@ Un dépoussiérage régulier et un nettoyage local à l'éponge humide suffisent
 Un assemblage simple est nécessaire à réception.
 
 **7. Quels sont les délais de livraison ?**
-Le fauteuil est expédié depuis un entrepôt européen, sous 3 à 10 jours ouvrés, livraison offerte en France métropolitaine.
+Livraison en 3 à 10 jours ouvrés, offerte en France métropolitaine.
 
 **8. Quelles couleurs sont disponibles ?**
 Blanc, marron et gris.

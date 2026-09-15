@@ -61,7 +61,7 @@ Prévoyez un dégagement libre à l'arrière pour une bascule confortable.
 Dépoussiérez le tressage en rotin régulièrement. Rentrez le coussin en cas de forte pluie prolongée.
 
 ## Livraison
-Expédié depuis notre entrepôt en Pologne, comptez 3 à 10 jours ouvrés. Livraison offerte en France métropolitaine. La chaise arrive en un colis à assembler ; le guide de montage est offert en ligne.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. La chaise arrive en un colis à assembler ; le guide de montage est offert en ligne.
 
 ## FAQ
 
@@ -81,7 +81,7 @@ Le coussin se choisit en beige ou en gris.
 La base mesure 93 × 84 cm. Prévoyez un dégagement libre à l'arrière pour la bascule.
 
 **6. Quels sont les délais de livraison ?**
-Expédié depuis la Pologne sous 3 à 10 jours ouvrés, livraison offerte en France métropolitaine.
+Livraison en 3 à 10 jours ouvrés, offerte en France métropolitaine.
 
 ## Images (ALT et rôle)
 1. Désir — Chaise à bascule extérieure en rotin sur une terrasse, lumière douce de fin de journée.

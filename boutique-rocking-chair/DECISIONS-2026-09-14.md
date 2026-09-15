@@ -32,7 +32,8 @@
 - Politiques rédigées depuis les gabarits NoBrand de Sous Abri : `content/politiques/politiques-bercelou-nobrand-2026-09-15.md`. Elles couvrent le remboursement, la confidentialité, les CGV/CGU, la livraison, les mentions légales, les coordonnées, les moyens de paiement, l'accordéon des fiches et le bloc « À propos de notre marque ».
 - Coordonnées uniques : contact@bercelou.fr (boîte Google Workspace à créer après l'achat du domaine), +33 7 56 82 80 94, OH Ventures, 47 rue Vivienne, 75002 Paris. `info@ohventures.fr` est remplacé dans les pages et dans BRIEF-COPY. Nouvelle page `suivre-ma-commande`.
 - Délai de réponse harmonisé à « sous 1 jour ouvré », horaires du lundi au vendredi de 9h à 18h.
+- **Règle Hakim (15/09)** : aucune fiche ni page ne mentionne le lieu d'expédition (pays, entrepôt, Europe, Chine). On annonce seulement le délai et la livraison offerte. Toutes les mentions ont été retirées : 41 fiches, FAQ, Livraison et retours, Suivre ma commande, politiques. La règle et le grep sont ajoutés à la charte.
 - **Écarts à trancher** :
-  - rocking-chair-bambou-pliable n'est expédié que du Mexique (stock 0), alors que la fiche annonce l'Allemagne ;
-  - l'entrepôt du fauteuil-relax-pivotant est déduit en Chine, alors que la fiche annonce un entrepôt européen ;
+  - rocking-chair-bambou-pliable : seule variante chez le fournisseur expédiée du Mexique (stock 0), donc le délai de 3 à 10 jours ouvrés n'est pas tenable ;
+  - fauteuil-relax-pivotant : entrepôt déduit en Chine, donc le délai de 3 à 10 jours ouvrés est à vérifier ;
   - la section avis réservée en accueil est contraire à la checklist NoBrand (« pas d'avis clients »).

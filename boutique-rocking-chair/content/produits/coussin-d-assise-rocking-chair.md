@@ -44,7 +44,7 @@ Ce format s'adapte à un panier suspendu de taille standard : vérifiez les dime
 | Poids du colis | 1,84 kg |
 
 ## Livraison
-Expédié depuis la Chine, comptez 7 à 15 jours ouvrés. Livraison offerte en France métropolitaine.
+Livraison offerte en France métropolitaine, en 7 à 15 jours ouvrés.
 
 ## FAQ
 
@@ -58,7 +58,7 @@ Oui, elle est amovible et lavable.
 Il mesure 60 × 120 cm : vérifiez les dimensions de votre structure avant de commander.
 
 **4. Quels sont les délais de livraison ?**
-Expédié depuis la Chine, comptez 7 à 15 jours ouvrés, livraison offerte en France métropolitaine.
+Livraison en 7 à 15 jours ouvrés, offerte en France métropolitaine.
 
 ## Images (ALT et rôle)
 1. Usage — Coussin en place dans un panier suspendu, lumière douce du soir.

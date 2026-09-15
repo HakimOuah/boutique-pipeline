@@ -37,7 +37,7 @@ Ce plaid se choisit dans plusieurs tailles et coloris, pour s'accorder à votre 
 | Coloris | Vert, marron, kaki foncé, ivoire, gris ou bleu |
 
 ## Livraison
-Expédié depuis la Chine, comptez 7 à 15 jours ouvrés. Livraison offerte en France métropolitaine.
+Livraison offerte en France métropolitaine, en 7 à 15 jours ouvrés.
 
 ## FAQ
 
@@ -51,7 +51,7 @@ Plusieurs tailles sont proposées : choisissez celle qui convient à votre faute
 Vert, marron, kaki foncé, ivoire, gris ou bleu.
 
 **4. Quels sont les délais de livraison ?**
-Expédié depuis la Chine, comptez 7 à 15 jours ouvrés, livraison offerte en France métropolitaine.
+Livraison en 7 à 15 jours ouvrés, offerte en France métropolitaine.
 
 ## Images (ALT et rôle)
 1. Usage — Plaid posé sur l'accoudoir d'un fauteuil, lumière douce du soir.

@@ -55,7 +55,7 @@ Conseil de place : prévoyez un dégagement derrière la chaise pour une bascule
 La polaire teddy se dépoussière à l'aspirateur, embout tissu. Une tache se traite localement, à l'eau tiède.
 
 ## Livraison
-Chaise expédiée depuis un entrepôt européen, livraison en 3 à 10 jours ouvrés. Livraison offerte en France métropolitaine. La chaise arrive à monter, notice fournie.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. La chaise arrive à monter, notice fournie.
 
 ## FAQ
 
@@ -75,7 +75,7 @@ La structure repose sur des patins en bois stables. Posez-la sur un tapis épais
 Gris clair, gris foncé, rose.
 
 **6. Quels sont les délais de livraison et la politique de retour ?**
-Livraison en 3 à 10 jours ouvrés depuis un entrepôt européen, offerte en France métropolitaine. Retours sous 14 jours après réception, frais de retour à votre charge pour ce colis volumineux. Colis abîmé ou pièce manquante : signalez-le sous 48 h avec photos, nous renvoyons ou remboursons à nos frais. Garantie légale de conformité 2 ans.
+Livraison en 3 à 10 jours ouvrés, offerte en France métropolitaine. Retours sous 14 jours après réception, frais de retour à votre charge pour ce colis volumineux. Colis abîmé ou pièce manquante : signalez-le sous 48 h avec photos, nous renvoyons ou remboursons à nos frais. Garantie légale de conformité 2 ans.
 
 ## Images (ALT et rôle)
 

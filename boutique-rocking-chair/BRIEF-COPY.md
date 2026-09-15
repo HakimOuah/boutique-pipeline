@@ -36,7 +36,7 @@
 ## Dimensions            (tableau 2 colonnes : Mesure | Valeur ; uniquement les valeurs connues ; conseil de place)
 ## Caractéristiques      (tableau 2 colonnes : Caractéristique | Valeur)
 ## Entretien             (si la matière est connue)
-## Livraison             (entrepôt, délai de la famille, colis, montage)
+## Livraison             (délai de la famille, colis, montage ; jamais le lieu d'expédition)
 ## FAQ                   (6 à 8 : **1. question** puis réponse)
 ## Images (ALT et rôle)  (6 : désir · usage · matière · dimensions cotées · situation · détail)
 ```

@@ -28,14 +28,15 @@ bercer · tétées de nuit · coin calme · chaise à câlins · soutenir le dos
 - **Tout vocabulaire de santé** : médical, thérapeutique, soulage les douleurs, releveur, orthopédique, recommandé par les sages-femmes. On écrit « soutient le dos », « position confortable pour allaiter ».
 - **« Glider »** en titre : on écrit « fauteuil d'allaitement pivotant à bascule ».
 - **Les avis, notes, compteurs de ventes**, « déjà X mamans », urgence, compte à rebours, « satisfait ou remboursé », « 30 jours pour changer d'avis ».
+- **Toute mention du lieu d'expédition** (pays, entrepôt, Europe, Chine) : on n'annonce que le délai et la livraison offerte (règle Hakim du 15/09, valable pour toutes les fiches et pages).
 - **« Inclus dans le colis »** pour un bonus : les guides sont « offerts en ligne ».
 - **Les marqueurs internes** `[À VÉRIFIER]`, `[À DÉCIDER]` dans les textes finaux (ils restent tolérés dans les brouillons).
 
 ## Obligations
-- **Chiffres uniquement tirés de `content/FAITS-FOURNISSEURS-2026-09-14.md`** : dimensions, hauteur d'assise, charge, matières, entretien, montage, délais d'entrepôt.
+- **Chiffres uniquement tirés de `content/FAITS-FOURNISSEURS-2026-09-14.md`** : dimensions, hauteur d'assise, charge, matières, entretien, montage.
 - **Rétractation** : 14 jours après réception, frais de retour à la charge du client (colis volumineux) ; colis abîmé ou pièce manquante signalé sous 48 h avec photos : renvoi ou remboursement à nos frais.
 - **Garantie légale de conformité 2 ans** et vices cachés ; aucune garantie commerciale sans décision de Hakim.
-- **Délais** identiques partout : fauteuils expédiés d'entrepôts européens, 3 à 10 jours ouvrés ; accessoires expédiés de Chine, 7 à 15 jours ouvrés ; livraison offerte en France métropolitaine.
+- **Délais** identiques partout : fauteuils livrés en 3 à 10 jours ouvrés ; accessoires livrés en 7 à 15 jours ouvrés ; livraison offerte en France métropolitaine.
 - **Paiement** : cartes, PayPal, Apple Pay ; en 3 fois avec Klarna ou 4 fois avec PayPal.
 - **Accessoires sous 50 €** : présentés comme compléments (« complétez votre coin cocon »), jamais comme produits d'appel.
 
@@ -56,4 +57,4 @@ bercer · tétées de nuit · coin calme · chaise à câlins · soutenir le dos
 - **Accessoires** : plaid, coussin et repose-pieds pour prolonger le confort.
 
 ## Relecture obligatoire (grep avant livraison)
-`non communiqu|nous n'avons pas|à confirmer|honnêtement|sans détour|mauvaise surprise|selon le fournisseur|médical|thérapeut|orthopéd|releveur|soulage|glider|satisfait ou rembours|30 jours|inclus dans le colis|meilleur|incroyable|premium|!|\[À VÉRIFIER|\[À DÉCIDER`
+`non communiqu|nous n'avons pas|à confirmer|honnêtement|sans détour|mauvaise surprise|selon le fournisseur|médical|thérapeut|orthopéd|releveur|soulage|entrepôt|expédié depuis|expédiée depuis|Allemagne|Pologne|Espagne|de Chine|la Chine|entrepôts européens|entrepôt européen|glider|satisfait ou rembours|30 jours|inclus dans le colis|meilleur|incroyable|premium|!|\[À VÉRIFIER|\[À DÉCIDER`

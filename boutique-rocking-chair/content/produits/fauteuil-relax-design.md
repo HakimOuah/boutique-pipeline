@@ -57,7 +57,7 @@ Prévoyez un espace dégagé autour du fauteuil pour profiter de la rotation à 
 Essuyez les parties similicuir avec un chiffon doux légèrement humide ; dépoussiérez les parties tissu et nettoyez les taches à l'éponge humide.
 
 ## Livraison
-Fauteuil expédié depuis un entrepôt européen, 3 à 10 jours ouvrés. Livraison offerte en France métropolitaine. Un assemblage simple est nécessaire à réception.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Un assemblage simple est nécessaire à réception.
 
 ## FAQ
 **1. Le fauteuil pivote-t-il ?**
@@ -82,7 +82,7 @@ Un assemblage simple est nécessaire à réception.
 Oui, il se branche sur une prise secteur standard.
 
 **8. Quels sont les délais de livraison ?**
-Le fauteuil est expédié depuis un entrepôt européen, sous 3 à 10 jours ouvrés, livraison offerte en France métropolitaine.
+Livraison en 3 à 10 jours ouvrés, offerte en France métropolitaine.
 
 ## Images (ALT et rôle)
 1. Désir — Fauteuil relax design dans un salon éclairé en lumière du soir

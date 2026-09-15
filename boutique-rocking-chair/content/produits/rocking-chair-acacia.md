@@ -68,7 +68,7 @@ Prévoyez un dégagement libre à l'arrière pour une bascule confortable, repos
 Dépoussiérez la bouclette régulièrement à la brosse douce. Essuyez les taches localement, sans immerger le tissu.
 
 ## Livraison
-Expédié depuis notre entrepôt en Allemagne, comptez 3 à 10 jours ouvrés. Livraison offerte en France métropolitaine. Le fauteuil arrive en un colis à assembler ; le guide de montage est offert en ligne.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteuil arrive en un colis à assembler ; le guide de montage est offert en ligne.
 
 ## FAQ
 
@@ -88,7 +88,7 @@ Dépoussiérez-la régulièrement à la brosse douce et essuyez les taches local
 Ce rocking chair est annoncé pour le salon comme pour un balcon abrité.
 
 **6. Quels sont les délais de livraison ?**
-Expédié depuis l'Allemagne sous 3 à 10 jours ouvrés, livraison offerte en France métropolitaine.
+Livraison en 3 à 10 jours ouvrés, offerte en France métropolitaine.
 
 ## Images (ALT et rôle)
 1. Désir — Rocking chair bouclette avec repose-pieds déployé, lumière douce de fin de journée.

@@ -63,7 +63,7 @@ Conseil de place : comptez environ 75 cm de profondeur au sol pour la bascule, e
 La bouclette teddy se dépoussière à l'aspirateur, embout tissu. Une tache se traite localement, à l'eau tiède, sans passage en machine.
 
 ## Livraison
-Fauteuil expédié depuis un entrepôt européen, livraison en 3 à 10 jours ouvrés. Livraison offerte en France métropolitaine. Le fauteuil arrive à monter, notice fournie.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteuil arrive à monter, notice fournie.
 
 ## FAQ
 
@@ -86,7 +86,7 @@ Le fauteuil mesure 92 cm de haut pour une base de 75 × 53,5 cm. Comptez 50 cm d
 Rose, beige, gris clair et gris foncé, tous en bouclette teddy.
 
 **7. Combien de temps pour la livraison ?**
-Le fauteuil est expédié depuis un entrepôt européen, en 3 à 10 jours ouvrés. Livraison offerte en France métropolitaine.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.
 
 **8. Quelle est la politique de retour ?**
 14 jours après réception, frais de retour à votre charge pour ce colis volumineux. Colis abîmé ou pièce manquante : signalez-le sous 48 h avec photos, nous renvoyons ou remboursons à nos frais. Garantie légale de conformité 2 ans.

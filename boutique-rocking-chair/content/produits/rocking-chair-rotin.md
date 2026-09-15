@@ -64,7 +64,7 @@ Prévoyez un dégagement libre à l'arrière pour une bascule confortable.
 Dépoussiérez le tressage en rotin régulièrement.
 
 ## Livraison
-Expédié depuis notre entrepôt en Allemagne, comptez 3 à 10 jours ouvrés. Livraison offerte en France métropolitaine. Montage annoncé en 10 minutes ; le guide est offert en ligne.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Montage annoncé en 10 minutes ; le guide est offert en ligne.
 
 ## FAQ
 
@@ -84,7 +84,7 @@ Le coussin se choisit en gris ou en beige.
 La base mesure 93 × 84 cm. Prévoyez un dégagement libre à l'arrière pour la bascule.
 
 **6. Quels sont les délais de livraison ?**
-Expédié depuis l'Allemagne sous 3 à 10 jours ouvrés, livraison offerte en France métropolitaine.
+Livraison en 3 à 10 jours ouvrés, offerte en France métropolitaine.
 
 ## Images (ALT et rôle)
 1. Désir — Rocking chair en rotin sur un balcon, lumière douce de fin de journée.
