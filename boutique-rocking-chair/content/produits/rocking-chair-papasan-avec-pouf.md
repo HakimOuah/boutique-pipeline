@@ -59,7 +59,7 @@ Prévoyez un dégagement libre à l'arrière pour une bascule confortable.
 Dépoussiérez le tissu régulièrement. Rentrez le fauteuil en cas de forte pluie prolongée.
 
 ## Livraison
-Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteuil arrive en un colis à assembler ; le guide de montage est offert en ligne.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteuil arrive en un colis à assembler, notice fournie.
 
 ## FAQ
 

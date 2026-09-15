@@ -20,7 +20,7 @@ Livraison offerte en France métropolitaine · Paiement sécurisé en 3 ou 4 foi
 Cette housse en polyester protège un fauteuil, une table ou un ensemble de mobilier de jardin de la pluie, du vent et du soleil. Elle se choisit selon les dimensions de votre mobilier extérieur, dont votre fauteuil à bascule.
 
 ### Imperméable, coupe-vent et anti-UV
-La housse est annoncée imperméable, coupe-vent et résistante aux UV, contre la pluie, le vent et la neige.
+La housse est imperméable, coupe-vent et résistante aux UV, contre la pluie, le vent et la neige.
 
 ### Plusieurs tailles selon votre mobilier
 De nombreux formats sont disponibles, du fauteuil seul à l'ensemble table et chaises, à choisir selon votre mobilier.
@@ -57,7 +57,7 @@ Livraison offerte en France métropolitaine, en 7 à 15 jours ouvrés.
 Elle se choisit selon les dimensions de votre mobilier : plusieurs formats sont disponibles, du fauteuil seul à un ensemble complet.
 
 **2. Protège-t-elle vraiment de la pluie ?**
-Elle est annoncée imperméable, coupe-vent et résistante aux UV, contre la pluie, le vent et la neige.
+Elle est imperméable, coupe-vent et résistante aux UV, contre la pluie, le vent et la neige.
 
 **3. Comment la maintenir en place par vent ?**
 Un cordon de serrage en bas de housse la resserre autour du mobilier.

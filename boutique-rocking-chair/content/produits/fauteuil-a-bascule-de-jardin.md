@@ -23,7 +23,7 @@ Ce fauteuil à bascule de jardin enveloppe l'assise d'un tressage en rotin et d'
 Le fauteuil enveloppe l'assise d'un rotin tressé et d'un coussin épais, avec un coussin de tête inclus.
 
 ### Monté en 10 minutes
-Le montage est annoncé pour durer 10 minutes, sans outillage complexe.
+Le montage prend environ 10 minutes, sans outillage complexe.
 
 ### Une bascule stable jusqu'à 136 kg
 La structure métal soutient une charge maximale de 136 kg (300 lb).
@@ -64,12 +64,12 @@ Prévoyez un dégagement libre à l'arrière pour une bascule confortable.
 Dépoussiérez le tressage en rotin régulièrement. Rentrez le coussin en cas de forte pluie prolongée.
 
 ## Livraison
-Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Montage annoncé en 10 minutes ; le guide est offert en ligne.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Montage en 10 minutes environ.
 
 ## FAQ
 
 **1. Le montage est-il long ?**
-Il est annoncé pour durer environ 10 minutes.
+Comptez environ 10 minutes.
 
 **2. Quels coloris sont disponibles ?**
 Le coussin se choisit en riz blanc ou en gris.

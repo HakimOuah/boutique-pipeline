@@ -61,7 +61,7 @@ Prévoyez un dégagement libre à l'arrière pour une bascule confortable.
 Dépoussiérez le tressage en rotin régulièrement. Rentrez le coussin en cas de forte pluie prolongée.
 
 ## Livraison
-Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. La chaise arrive en un colis à assembler ; le guide de montage est offert en ligne.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. La chaise arrive en un colis à assembler, notice fournie.
 
 ## FAQ
 

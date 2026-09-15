@@ -20,7 +20,7 @@ Notre catalogue couvre les fauteuils d'allaitement, les rocking chairs design et
 
 Une question avant ou après votre achat : notre équipe vous répond.
 
-- **E-mail** : contact@bercelou.fr
+- **E-mail** : contact@bercelou.com
 - **Téléphone** : +33 7 56 82 80 94
 - **Adresse** : OH Ventures (SASU), 47 rue Vivienne, 75002 Paris, France
 

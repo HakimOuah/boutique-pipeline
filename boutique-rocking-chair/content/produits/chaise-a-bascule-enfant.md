@@ -26,7 +26,7 @@ En position transat, le siège se balance doucement, harnais de maintien et repo
 La même structure se transforme en chaise haute, avec plateau amovible, pour suivre bébé au fil des mois.
 
 ### Adaptée de 0 à 6 ans
-Ce siège 2 en 1 est annoncé pour des enfants de 0 à 6 ans, du transat des premiers mois à la chaise haute qui suit.
+Ce siège 2 en 1 convient aux enfants de 0 à 6 ans, du transat des premiers mois à la chaise haute qui suit.
 
 ### Des roulettes pour la déplacer facilement
 La chaise se déplace sur roulettes, d'une pièce à l'autre selon vos besoins.
@@ -44,7 +44,7 @@ La chaise se déplace sur roulettes, d'une pièce à l'autre selon vos besoins.
 |---|---|
 | Matière | Plastique, structure bois clair, métal |
 | Usages | 2 en 1 : transat à bascule et chaise haute évolutive |
-| Âge annoncé | 0 à 6 ans |
+| Âge | 0 à 6 ans |
 | Harnais | Oui |
 | Plateau | Amovible |
 | Roulettes | Oui |
@@ -57,7 +57,7 @@ Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.
 ## FAQ
 
 **1. La chaise sert-elle dès la naissance ?**
-Elle est annoncée pour des enfants de 0 à 6 ans, en position transat pour les premiers mois puis en chaise haute.
+Elle convient aux enfants de 0 à 6 ans, en position transat pour les premiers mois puis en chaise haute.
 
 **2. Peut-on retirer le plateau ?**
 Oui, le plateau est amovible.

@@ -34,7 +34,7 @@ Vous cherchez un fauteuil pour les tétées de nuit, pas un meuble de plus dans 
 
 **Pourquoi ce critère compte.** Vous bercez bébé pour l'endormir : la bascule doit rester lente et ne pas attirer l'attention par un bruit de mécanisme.
 
-**Comment le vérifier sur une fiche.** Lisez la description du piétement et du mécanisme de bascule. Une mention explicite de bascule silencieuse n'apparaît que lorsque le fournisseur ou notre propre échantillon la confirme : si la fiche n'en parle pas, considérez que ce n'est pas garanti.
+**Comment le vérifier sur une fiche.** Regardez le piétement sur les photos et dans la description : des patins larges et arrondis donnent une bascule lente et régulière. Installez le fauteuil sur un tapis épais pour une bascule encore plus discrète.
 
 **Où regarder :** [collection Allaitement](/collections/fauteuil-allaitement).
 
@@ -64,13 +64,13 @@ Vous cherchez un fauteuil pour les tétées de nuit, pas un meuble de plus dans 
 
 ## Votre checklist avant d'acheter
 
-- [ ] J'ai vérifié la hauteur d'assise et la forme du dossier
-- [ ] J'ai vérifié la largeur et le rembourrage des accoudoirs
-- [ ] J'ai vérifié la hauteur du dossier
-- [ ] J'ai lu la description du mécanisme de bascule
-- [ ] J'ai prévu la place nécessaire, dégagement compris
-- [ ] J'ai vérifié la matière et, si besoin, la présence d'une housse amovible
-- [ ] J'ai regardé le fauteuil en situation salon
+- J'ai vérifié la hauteur d'assise et la forme du dossier
+- J'ai vérifié la largeur et le rembourrage des accoudoirs
+- J'ai vérifié la hauteur du dossier
+- J'ai lu la description du mécanisme de bascule
+- J'ai prévu la place nécessaire, dégagement compris
+- J'ai vérifié la matière et, si besoin, la présence d'une housse amovible
+- J'ai regardé le fauteuil en situation salon
 
 ## Trouver votre fauteuil
 

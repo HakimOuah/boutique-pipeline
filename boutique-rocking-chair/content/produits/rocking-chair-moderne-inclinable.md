@@ -32,7 +32,7 @@ Le coussin se retire pour être nettoyé à part, sans démonter le reste du fau
 Le cadre en acier soutient une charge maximale de 136 kg, pour une bascule stable dans la durée.
 
 ### À la maison comme sur la terrasse
-Ce rocking chair est annoncé pour un usage intérieur et extérieur : coin lecture au salon l'hiver, terrasse abritée l'été.
+Ce rocking chair convient à un usage intérieur et extérieur : coin lecture au salon l'hiver, terrasse abritée l'été.
 
 ## Dimensions
 
@@ -59,7 +59,7 @@ Prévoyez un dégagement libre à l'arrière pour une bascule confortable, repos
 Retirez le coussin amovible pour le nettoyer à part. Dépoussiérez la structure tissée régulièrement.
 
 ## Livraison
-Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteuil arrive en un colis à assembler ; le guide de montage est offert en ligne.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteuil arrive en un colis à assembler, notice fournie.
 
 ## FAQ
 
@@ -67,7 +67,7 @@ Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteu
 Il est intégré au fauteuil et se déploie en un geste depuis sous l'assise.
 
 **2. Peut-on l'installer dehors ?**
-Oui, ce rocking chair est annoncé pour un usage intérieur et extérieur.
+Oui, ce rocking chair convient à un usage intérieur et extérieur.
 
 **3. Quel poids peut-il supporter ?**
 La structure acier supporte jusqu'à 136 kg.

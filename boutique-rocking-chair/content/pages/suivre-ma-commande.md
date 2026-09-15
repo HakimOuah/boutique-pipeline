@@ -6,8 +6,6 @@
 
 Saisissez votre numéro de commande et votre e-mail, ou votre numéro de suivi, pour connaître l'avancement de votre livraison.
 
-*(Formulaire de suivi ParcelPanel à cet emplacement : app gratuite, page créée par l'app puis complétée avec les blocs ci-dessous.)*
-
 ### Nos délais
 
 | | Fauteuils et chaises à bascule, relax, enfant | Accessoires (coussins, plaids, repose-pieds, housses) |
@@ -21,4 +19,4 @@ Le délai applicable à votre article figure sur sa fiche produit. Le délai tot
 
 Notre équipe vous accompagne du lundi au vendredi, entre 9h00 et 18h00. Si vous nous contactez après 18h, votre demande sera prise en charge le jour suivant. Nous vous répondons sous 1 jour ouvré.
 
-Une question sur votre livraison : contact@bercelou.fr · +33 7 56 82 80 94. Consultez aussi notre [politique de livraison](/policies/shipping-policy).
+Une question sur votre livraison : contact@bercelou.com · +33 7 56 82 80 94. Consultez aussi notre [politique de livraison](/policies/shipping-policy).

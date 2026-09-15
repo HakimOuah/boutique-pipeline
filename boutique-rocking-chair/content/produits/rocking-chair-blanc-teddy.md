@@ -23,7 +23,7 @@ Ce rocking chair blanc habille un coin salon ou une chambre d'un volume doux et 
 Le tissu teddy enveloppe l'assise, le dossier et les accoudoirs d'un toucher moelleux, dans un blanc qui s'accorde à un intérieur clair ou scandinave.
 
 ### Une bascule silencieuse, pensée pour un coin calme
-La base est annoncée silencieuse et antidérapante : vous vous installez sans grincement pour lire ou vous détendre en fin de journée.
+La base est silencieuse et antidérapante : vous vous installez sans grincement pour lire ou vous détendre en fin de journée.
 
 ### Des accoudoirs qui rangent vos affaires
 Une poche latérale cousue dans l'accoudoir garde un livre ou une télécommande à portée de main, sans encombrer l'assise.
@@ -67,18 +67,18 @@ Prévoyez un dégagement libre derrière le fauteuil pour une bascule confortabl
 La bouclette se dépoussière régulièrement à la brosse douce. Essuyez les taches localement, sans immerger le tissu.
 
 ## Livraison
-Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteuil arrive en un colis à assembler ; le guide de montage est offert en ligne.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteuil arrive en un colis à assembler, notice fournie.
 
 ## FAQ
 
 **1. Le fauteuil bascule-t-il en silence ?**
-La base est annoncée silencieuse et antidérapante, pour vous installer sans réveiller la pièce à côté.
+La base est silencieuse et antidérapante, pour vous installer sans réveiller la pièce à côté.
 
 **2. Quel espace faut-il prévoir autour du fauteuil ?**
 La base mesure 78,5 × 69,2 cm. Prévoyez un dégagement libre à l'arrière pour que la bascule reste ample.
 
 **3. Le montage est-il difficile ?**
-Le fauteuil est livré en kit à assembler ; un guide de montage est offert en ligne pour vous accompagner.
+Le fauteuil est livré en kit à assembler ; une notice de montage est fournie.
 
 **4. La bouclette se salit-elle facilement ?**
 Dépoussiérez-la régulièrement à la brosse douce et essuyez les taches localement.

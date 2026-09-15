@@ -14,14 +14,12 @@ Votre fauteuil bénéficie également de la garantie légale des vices cachés, 
 
 ### Comment faire jouer votre garantie
 
-Contactez notre service client à contact@bercelou.fr, en décrivant le défaut constaté et en joignant des photos. Nous vous indiquons la marche à suivre : réparation, remplacement ou remboursement, selon la situation.
+Contactez notre service client à contact@bercelou.com, en décrivant le défaut constaté et en joignant des photos. Nous vous indiquons la marche à suivre : réparation, remplacement ou remboursement, selon la situation.
 
 ### Le médiateur de la consommation
 
-En cas de litige que notre service client n'aurait pas permis de résoudre, vous pouvez recourir gratuitement au médiateur de la consommation CM2C :
-14 rue Saint Jean, 75017 Paris
-https://www.cm2c.net/
+En cas de litige que notre service client n'aurait pas permis de résoudre, vous pouvez recourir gratuitement au médiateur de la consommation CM2C, 14 rue Saint Jean, 75017 Paris, [www.cm2c.net](https://www.cm2c.net/).
 
 ### Nous contacter
 
-contact@bercelou.fr, réponse sous 1 jour ouvré, du lundi au vendredi. Retrouvez aussi notre page [Livraison et retours](/pages/livraison-retours) et notre page [Contact](/pages/contact).
+contact@bercelou.com, réponse sous 1 jour ouvré, du lundi au vendredi. Retrouvez aussi notre page [Livraison et retours](/pages/livraison-retours) et notre page [Contact](/pages/contact).

@@ -32,7 +32,7 @@ L'assise et le dossier sont habillés d'une bouclette douce, sur une structure e
 La structure soutient une charge maximale de 150 kg.
 
 ### Au salon, pensé pour durer
-Ce rocking chair est annoncé pour une utilisation à domicile sur la longue durée, au salon comme sur un balcon abrité.
+Ce rocking chair est conçu pour une utilisation à domicile sur la longue durée, au salon comme sur un balcon abrité.
 
 ## Dimensions
 
@@ -68,7 +68,7 @@ Prévoyez un dégagement libre à l'arrière pour une bascule confortable, repos
 Dépoussiérez la bouclette régulièrement à la brosse douce. Essuyez les taches localement, sans immerger le tissu.
 
 ## Livraison
-Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteuil arrive en un colis à assembler ; le guide de montage est offert en ligne.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteuil arrive en un colis à assembler, notice fournie.
 
 ## FAQ
 
@@ -85,7 +85,7 @@ Jusqu'à 150 kg.
 Dépoussiérez-la régulièrement à la brosse douce et essuyez les taches localement.
 
 **5. Peut-on l'installer sur un balcon ?**
-Ce rocking chair est annoncé pour le salon comme pour un balcon abrité.
+Ce rocking chair convient au salon comme pour un balcon abrité.
 
 **6. Quels sont les délais de livraison ?**
 Livraison en 3 à 10 jours ouvrés, offerte en France métropolitaine.

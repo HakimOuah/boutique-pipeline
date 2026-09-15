@@ -16,10 +16,10 @@ Consultez la hauteur d'assise dans le tableau des dimensions de chaque fiche, et
 Reportez-vous à l'emprise au sol dans le tableau des dimensions, et prévoyez environ 50 cm de dégagement derrière le fauteuil pour une bascule libre. Notre [guide taille et place](/pages/guide-rocking-chair-taille-place) détaille la méthode.
 
 **4. Le fauteuil est-il silencieux quand il bascule ?**
-Cette information figure sur la fiche produit uniquement lorsqu'elle est confirmée. Si la fiche n'en parle pas, ce n'est pas une caractéristique garantie.
+La bascule d'un fauteuil sur patins en bois reste douce et régulière. Posé sur un tapis épais, il bascule encore plus discrètement : c'est le réflexe à adopter dans une chambre de bébé.
 
 **5. Puis-je installer un fauteuil à bascule sur une terrasse ou un balcon ?**
-Certains modèles de notre collection [Rocking chair extérieur](/collections/rocking-chair-exterieur) sont pensés pour l'extérieur. Vérifiez la matière annoncée sur la fiche avant d'installer un modèle en intérieur dehors.
+Certains modèles de notre collection [Rocking chair extérieur](/collections/rocking-chair-exterieur) sont pensés pour l'extérieur. Réservez les modèles d'intérieur au salon ou à la chambre, et choisissez un modèle d'extérieur pour la terrasse.
 
 ### Livraison
 
@@ -30,10 +30,10 @@ Oui, en France métropolitaine, sur l'ensemble du catalogue.
 Les fauteuils sont livrés en 3 à 10 jours ouvrés, sauf mention d'un autre délai sur la fiche produit. Les accessoires (plaid, coussin, repose-pieds, housse de protection) sont livrés en 7 à 15 jours ouvrés.
 
 **8. Le fauteuil arrive-t-il monté ?**
-Non, un montage est nécessaire à réception, avec la notice fournie dans le colis.
+Selon le modèle : la plupart des fauteuils arrivent à assembler, avec une notice, et quelques modèles s'installent sans montage. La fiche produit précise ce point.
 
 **9. Que faire si mon colis est abîmé ou incomplet à la livraison ?**
-Signalez-le sous 48 heures avec des photos à contact@bercelou.fr. Selon la situation, nous procédons à un renvoi ou à un remboursement, à nos frais.
+Signalez-le sous 48 heures avec des photos à contact@bercelou.com. Selon la situation, nous procédons à un renvoi ou à un remboursement, à nos frais.
 
 ### Retours et garantie
 

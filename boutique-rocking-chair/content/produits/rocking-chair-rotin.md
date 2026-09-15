@@ -23,10 +23,10 @@ Ce rocking chair enveloppe l'assise d'un tressage en rotin et d'un coussin épai
 Le rotin tressé dessine une assise enveloppante, garnie d'un coussin épais et d'un coussin de tête.
 
 ### Un coussin résistant à l'eau
-Le coussin fourni est annoncé résistant à l'eau, pour rester en place sur un balcon ou une véranda.
+Le coussin fourni résiste à l'eau, pour rester en place sur un balcon ou une véranda.
 
 ### Monté en 10 minutes
-Le montage est annoncé pour durer 10 minutes, sans outillage complexe.
+Le montage prend environ 10 minutes, sans outillage complexe.
 
 ### Une bascule stable jusqu'à 136 kg
 La structure métal soutient une charge maximale de 136 kg (300 lb).
@@ -64,15 +64,15 @@ Prévoyez un dégagement libre à l'arrière pour une bascule confortable.
 Dépoussiérez le tressage en rotin régulièrement.
 
 ## Livraison
-Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Montage annoncé en 10 minutes ; le guide est offert en ligne.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Montage en 10 minutes environ.
 
 ## FAQ
 
 **1. Le montage est-il long ?**
-Il est annoncé pour durer environ 10 minutes.
+Comptez environ 10 minutes.
 
 **2. Le coussin résiste-t-il à l'eau ?**
-Oui, il est annoncé résistant à l'eau.
+Oui, il résiste à l'eau.
 
 **3. Quel poids peut-il supporter ?**
 Jusqu'à 136 kg (300 lb).

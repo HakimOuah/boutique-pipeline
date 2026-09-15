@@ -18,7 +18,7 @@ Vérifiez l'état du colis dès sa réception, avant de signer le bon de livrais
 
 ### Colis abîmé ou pièce manquante
 
-Signalez tout colis abîmé ou toute pièce manquante sous 48 heures, avec des photos, à contact@bercelou.fr. Selon la situation, nous procédons à un renvoi ou à un remboursement, à nos frais.
+Signalez tout colis abîmé ou toute pièce manquante sous 48 heures, avec des photos, à contact@bercelou.com. Selon la situation, nous procédons à un renvoi ou à un remboursement, à nos frais.
 
 ### Droit de rétractation
 
@@ -26,7 +26,7 @@ Vous disposez de 14 jours après réception de votre commande pour vous rétract
 
 ### La procédure de retour, étape par étape
 
-1. Contactez-nous à contact@bercelou.fr en indiquant votre numéro de commande et le motif du retour.
+1. Contactez-nous à contact@bercelou.com en indiquant votre numéro de commande et le motif du retour.
 2. Nous vous confirmons la marche à suivre et l'adresse de retour.
 3. Reconditionnez le fauteuil, si possible dans son emballage d'origine.
 4. Expédiez le colis à vos frais, à l'adresse indiquée.

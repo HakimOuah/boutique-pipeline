@@ -16,11 +16,11 @@ Un fauteuil à bascule se balance vers l'arrière et vers l'avant : il a besoin 
 
 ### La hauteur de l'utilisateur et du dossier
 
-La hauteur d'assise et la hauteur du dossier sont indiquées dans le tableau des dimensions de chaque fiche quand elles sont connues. Comparez-les à votre propre taille assise habituelle : un dossier plus haut accompagne la tête, une assise plus basse ou plus haute change la façon de se relever.
+La hauteur d'assise et la hauteur du dossier figurent dans le tableau des dimensions de chaque fiche. Comparez-les à votre propre taille assise habituelle : un dossier plus haut accompagne la tête, une assise plus basse ou plus haute change la façon de se relever.
 
 ### La charge à respecter
 
-Chaque fiche indique, quand elle est connue, une charge maximale supportée par le fauteuil. Vérifiez ce chiffre avant l'achat, en particulier si le fauteuil doit accueillir un adulte et un bébé en même temps.
+Vérifiez la charge maximale supportée par le fauteuil, indiquée sur sa fiche, avant l'achat, en particulier si le fauteuil doit accueillir un adulte et un bébé en même temps.
 
 ### Le passage des portes pour la livraison
 

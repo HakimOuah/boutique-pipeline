@@ -23,7 +23,7 @@ Ce fauteuil cocon enveloppe l'assise d'un tressage en rotin et d'un coussin épa
 Le tressage en rotin dessine une coque arrondie, garnie d'un coussin épais et d'un coussin de tête, pour une assise enveloppante.
 
 ### Un coussin pensé pour rester dehors
-Le coussin est annoncé résistant aux UV, pour garder sa couleur au fil des saisons sur une terrasse ensoleillée.
+Le coussin résiste aux UV, pour garder sa couleur au fil des saisons sur une terrasse ensoleillée.
 
 ### Sans montage, prêt à l'emploi
 Le fauteuil s'installe seul, sans outils ni assemblage : vous le sortez du carton et vous vous installez.
@@ -69,7 +69,7 @@ Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteu
 Non, il s'installe seul, sans outils ni assemblage.
 
 **2. Le coussin résiste-t-il au soleil ?**
-Il est annoncé résistant aux UV, pour garder sa couleur sur une terrasse exposée.
+Il résiste aux UV, pour garder sa couleur sur une terrasse exposée.
 
 **3. Quel poids peut-il supporter ?**
 Jusqu'à 136 kg (300 lb), pour une bascule stable.

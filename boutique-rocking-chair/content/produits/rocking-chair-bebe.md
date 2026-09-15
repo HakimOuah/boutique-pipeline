@@ -29,7 +29,7 @@ La même structure se convertit en chaise haute, pour suivre bébé jusqu'à ses
 Le siège se déplace sur des roulettes silencieuses, d'une pièce à l'autre sans réveiller la maison.
 
 ### Adapté de 0 à 3 ans
-Ce siège 2 en 1 est annoncé pour des enfants de 0 à 3 ans.
+Ce siège 2 en 1 convient aux enfants de 0 à 3 ans.
 
 ## Dimensions
 
@@ -44,7 +44,7 @@ Ce siège 2 en 1 est annoncé pour des enfants de 0 à 3 ans.
 |---|---|
 | Matière | Plastique, structure bois clair, métal |
 | Usages | 2 en 1 : transat à bascule et chaise haute convertible |
-| Âge annoncé | 0 à 3 ans |
+| Âge | 0 à 3 ans |
 | Roulettes | Silencieuses |
 | Coloris | Blanc ou gris |
 | Poids du colis | 7 kg |
@@ -55,10 +55,10 @@ Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.
 ## FAQ
 
 **1. Ce siège sert-il dès la naissance ?**
-Il est annoncé pour des enfants de 0 à 3 ans, en position transat puis en chaise haute.
+Il convient aux enfants de 0 à 3 ans, en position transat puis en chaise haute.
 
 **2. Les roulettes font-elles du bruit ?**
-Elles sont annoncées silencieuses.
+Elles sont silencieuses.
 
 **3. Comment passe-t-on du transat à la chaise haute ?**
 La même structure se convertit entre les deux usages.

@@ -20,7 +20,7 @@ Livraison offerte en France métropolitaine · Paiement sécurisé en 3 ou 4 foi
 Ce fauteuil relax à bascule associe une assise rembourrée, un coussin imperméable et un repose-pieds assorti, sur une structure en métal. Il s'installe au jardin, pour un moment de détente qui se prolonge.
 
 ### Une assise rembourrée, coussin imperméable
-Le tissu rembourré habille l'assise et le dossier, avec un coussin annoncé imperméable.
+Le tissu rembourré habille l'assise et le dossier, avec un coussin imperméable.
 
 ### Un repose-pieds assorti inclus
 Le repose-pieds assorti accompagne le fauteuil, pour allonger les jambes lors d'une pause plus longue.
@@ -62,7 +62,7 @@ Prévoyez un dégagement libre à l'arrière pour une bascule confortable.
 Dépoussiérez le tissu régulièrement. Essuyez les taches localement.
 
 ## Livraison
-Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteuil arrive en un colis à assembler ; le guide de montage est offert en ligne.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteuil arrive en un colis à assembler, notice fournie.
 
 ## FAQ
 
@@ -70,7 +70,7 @@ Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteu
 Oui, le repose-pieds assorti est inclus avec le fauteuil.
 
 **2. Le coussin résiste-t-il à la pluie ?**
-Il est annoncé imperméable.
+Il est imperméable.
 
 **3. Quel poids peut-il supporter ?**
 Jusqu'à 150 kg pour le fauteuil, 30 kg pour le repose-pieds.

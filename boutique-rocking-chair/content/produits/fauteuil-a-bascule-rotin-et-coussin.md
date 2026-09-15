@@ -23,7 +23,7 @@ Ce fauteuil à bascule enveloppe l'assise d'un tressage en rotin, d'un coussin e
 Le rotin tressé enveloppe l'assise, garnie d'un coussin et d'un oreiller épais de 15 cm.
 
 ### Monté en 10 minutes
-Le montage est annoncé pour durer 10 minutes, sans outillage complexe.
+Le montage prend environ 10 minutes, sans outillage complexe.
 
 ### Une bascule stable jusqu'à 150 kg
 Le cadre en métal soutient une charge maximale de 150 kg.
@@ -61,7 +61,7 @@ Prévoyez un dégagement libre à l'arrière pour une bascule confortable.
 Dépoussiérez le tressage en rotin régulièrement.
 
 ## Livraison
-Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Montage annoncé en 10 minutes ; le guide est offert en ligne.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Montage en 10 minutes environ.
 
 ## FAQ
 
@@ -69,7 +69,7 @@ Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Montage a
 Oui, le coussin et l'oreiller épais de 15 cm sont fournis avec le fauteuil.
 
 **2. Le montage est-il long ?**
-Il est annoncé pour durer environ 10 minutes.
+Comptez environ 10 minutes.
 
 **3. Quel poids peut-il supporter ?**
 Jusqu'à 150 kg.

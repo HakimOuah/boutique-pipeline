@@ -63,7 +63,7 @@ Prévoyez un espace dégagé autour du fauteuil pour une bascule libre.
 Dépoussiérez le tressage en rotin régulièrement. Utilisez la housse fournie pour protéger le fauteuil entre deux utilisations en extérieur.
 
 ## Livraison
-Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteuil arrive en un colis à assembler ; le guide de montage est offert en ligne.
+Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés. Le fauteuil arrive en un colis à assembler, notice fournie.
 
 ## FAQ
 
