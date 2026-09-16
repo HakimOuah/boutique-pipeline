@@ -51,3 +51,9 @@
 - **Deuxième reprise livrée et validée** (8 images). Jeu final assemblé dans `livraisons/visuels-final-2026-09-15/`, avec `provenance.json`.
 - **fauteuil-relax-design retiré** (décision Hakim, 15/09) : seul le noir est photographié, et il est en rupture. Fiche, ligne du catalogue et ligne de BRIEF-COPY supprimées. Catalogue : 39 fiches, toutes illustrées.
 - **Logo et thème** (décision Hakim, 15/09, planche `da/proposition-theme-logo-2026-09-15.html`) : logo **B « le mot bercé »** (« bercelou » en Fraunces bas de casse posé sur un patin de bascule, bleu nuit et terre brûlée sur sable, sable lait et ambre sur nuit), « b » sur patin en favicon. **En-tête bleu nuit** (contre la recommandation d'un en-tête sable) : annonce, en-tête, hero et pied de page en nuit, pages en sable.
+
+## 16/09 — variantes et catalogue
+- **Variantes en rupture retirées** (décision Hakim) : repose-pieds kaki foncé et blanc beige ; relax manuel marron et noir ; rocking chair moderne inclinable gris, beige et marron ; fauteuil d'allaitement teddy beige ; fauteuil à bascule bois massif beige. Textes des fiches et des collections mis à jour.
+- **Coloris renommés** : plaid « Kaki foncé » → « Caramel » ; fauteuil cocon « Gris foncé » → « Beige ».
+- **Visuels par coloris** : brief `BRIEF-VISUELS-CODEX-VARIANTES-2026-09-16.md`, lots V1 (46 images) et V2 (refonte de 6 galeries), lancés par Hakim dans Codex.
+- **Catalogue à 100 références** : univers actuel et familles voisines (poufs, repose-pieds, coussins de sol, plaids, tables d'appoint), jeu Codex complet, import DSers fait par Claude dans le Chrome de Hakim une fois la sélection prête, mêmes règles de prix et de délai.

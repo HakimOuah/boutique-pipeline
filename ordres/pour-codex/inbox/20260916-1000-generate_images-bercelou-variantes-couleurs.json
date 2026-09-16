@@ -145,9 +145,9 @@
         "handle": "plaid-pour-fauteuil",
         "sku": "BCL-793372",
         "slot": "couleur",
-        "couleur": "Kaki foncé",
-        "fichier": "plaid-pour-fauteuil-couleur-kaki-fonce.jpg",
-        "reference_couleur": "boutique-rocking-chair/assets/source/1005008932793372/couleurs/kaki-fonce.jpg",
+        "couleur": "Caramel",
+        "fichier": "plaid-pour-fauteuil-couleur-caramel.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005008932793372/couleurs/caramel.jpg",
         "reference_scene": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/plaid-pour-fauteuil-face.jpg"
       },
       {
@@ -463,7 +463,7 @@
       "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
       "specifiques": [
         "Planche qa/controle-<handle>.jpg : face existante, photo fournisseur du coloris, image livrée.",
-        "Teinte livrée = teinte de reference_couleur ; signaler tout écart entre le nom du coloris et la photo (ex. plaid « Kaki foncé » qui est caramel)."
+        "Teinte livrée = teinte de reference_couleur ; signaler tout écart entre le nom du coloris et la photo."
       ]
     },
     "sortie": {
