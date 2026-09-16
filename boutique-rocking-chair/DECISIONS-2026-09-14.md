@@ -57,3 +57,7 @@
 - **Coloris renommés** : plaid « Kaki foncé » → « Caramel » ; fauteuil cocon « Gris foncé » → « Beige ».
 - **Visuels par coloris** : brief `BRIEF-VISUELS-CODEX-VARIANTES-2026-09-16.md`, lots V1 (46 images) et V2 (refonte de 6 galeries), lancés par Hakim dans Codex.
 - **Catalogue à 100 références** : univers actuel et familles voisines (poufs, repose-pieds, coussins de sol, plaids, tables d'appoint), jeu Codex complet, import DSers fait par Claude dans le Chrome de Hakim une fois la sélection prête, mêmes règles de prix et de délai.
+- **Lot 2 importé** : 90 fiches DSers, 86 gardées en brouillon (textes, variantes, collections). **Retirés et archivés** (décision Hakim) : relax dit « pivotant » qui ne pivote pas, rocking chair cuir (coût au-dessus du prix vidaXL), doublon teddy, et le pouf d'extérieur, hors de l'univers bien-être des mamans. La collection « Poufs d'extérieur », vide et non publiée, est à supprimer dans l'admin.
+- **Prix du lot 2 conservés** (décision Hakim), y compris ceux au-dessus du marché.
+- **Poufs** : la collection « Poufs poire » devient « Poufs géants et fauteuils poufs » (`/collections/pouf-geant`, redirection depuis l'ancienne adresse). **Pas de collection pouf poire** (décision Hakim) : aucun pouf à billes en entrepôt UE, seulement des modèles en mousse proches de ceux déjà en place (`scratchpad/sourcing3/RAPPORT-POUFS-POIRE.md`).
+- **Visuels du lot 2** : brief `BRIEF-VISUELS-CODEX-LOT2-CATALOGUE-2026-09-16.md`, 5 ordres, 611 images, pour remplacer toutes les photos fournisseur.
