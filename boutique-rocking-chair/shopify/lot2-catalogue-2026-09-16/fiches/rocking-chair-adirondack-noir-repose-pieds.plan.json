@@ -1,0 +1,120 @@
+{
+ "pid": "1005010636093808",
+ "gid": "gid://shopify/Product/16616075460953",
+ "handle": "rocking-chair-adirondack-noir-repose-pieds",
+ "title": "Rocking chair Adirondack noir en PEHD, repose-pieds",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "rocking-chair-exterieur",
+  "rocking-chair-repose-pieds"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162064421209",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "GREY",
+     "new": null,
+     "hex": null,
+     "note": "valeur disparaît avec la suppression des variantes sans stock"
+    },
+    {
+     "old": "BLACK",
+     "new": "Noir",
+     "hex": "#1E1E1E"
+    },
+    {
+     "old": "BLUE",
+     "new": null,
+     "hex": null,
+     "note": "valeur disparaît avec la suppression des variantes sans stock"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162064453977",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Poland",
+     "new": null,
+     "hex": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450098352473",
+   "keep": false,
+   "motif": "GREY — stock 0, Pologne : stock nul",
+   "price": null
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450098385241",
+   "keep": true,
+   "motif": "Noir — stock 9, Pologne",
+   "price": 389.0
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450098418009",
+   "keep": false,
+   "motif": "BLUE — stock 0, Pologne : stock nul",
+   "price": null
+  }
+ ],
+ "prix": {
+  "vente": 389,
+  "cout_max": 216.14,
+  "ratio": 1.8,
+  "plancher_1_6": 345.82,
+  "source_prix": "grille",
+  "comparables": []
+ },
+ "coloris_couleur_galerie": "Noir",
+ "alertes": [
+  "Seul le noir est en stock (9 unités) : GREY et BLUE à 0, variantes supprimées ; retirer de la galerie les images grises et bleues",
+  "Image g13 / d15 « Shopping note » avec étoiles, avis et carte d'entrepôts : ne pas publier",
+  "Le texte fournisseur mentionne « adirondack rocking chairs set of 2 » : vérifier la quantité livrée (1 fauteuil attendu)",
+  "Charge : texte 380 lb (172 kg), images 400 lb : fiche à 172 kg",
+  "Nombre de pièces (10 ou 12) et temps de montage (30 ou 25 min) contradictoires : fiche « environ 30 minutes »",
+  "Marque HiMISS au titre fournisseur",
+  "Coloris noir plastique hors DA « Veille douce »",
+  "Prix grille 389 € pour un fauteuil en PEHD (plancher 346 €) : positionnement à valider"
+ ],
+ "faits": [
+  {
+   "fait": "Hauteur 105 cm (41,2 po), profondeur 84 cm (33,1 po)",
+   "source": "image c01 convertie"
+  },
+  {
+   "fait": "Accoudoirs 66 cm (25,8 po), profondeur d'assise 46 cm (18,1 po), dossier 50 cm (19,5 po)",
+   "source": "image c01 convertie"
+  },
+  {
+   "fait": "Repose-pieds 47 × 42 cm (18,5 × 16,7 po), escamotable",
+   "source": "image c01 + desc.html"
+  },
+  {
+   "fait": "PEHD, visserie inox 304, base à bascule amovible, pliable, porte-verres",
+   "source": "desc.html + images"
+  },
+  {
+   "fait": "Charge 380 lb",
+   "source": "desc.html"
+  },
+  {
+   "fait": "80 % préassemblé, 30 minutes",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Colis 95 × 55 × 25 cm, 27,5 kg",
+   "source": "candidat_sourcing.colis"
+  }
+ ]
+}

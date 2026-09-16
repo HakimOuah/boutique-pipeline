@@ -1,0 +1,88 @@
+{
+ "pid": "1005012574132131",
+ "gid": "gid://shopify/Product/16616075493721",
+ "handle": "chaise-longue-a-bascule-acacia",
+ "title": "Chaise longue à bascule en acacia massif, coussin gris",
+ "productType": "Fauteuil relax",
+ "collections": [
+  "fauteuil-relax-jardin",
+  "rocking-chair-exterieur"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162064486745",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "france",
+     "new": null,
+     "hex": null
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162064519513",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Brun",
+     "new": "Acacia et coussin gris",
+     "hex": "#9A6A3F"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450098614617",
+   "keep": true,
+   "motif": "Acacia et coussin gris — stock 15, France",
+   "price": 269.0
+  }
+ ],
+ "prix": {
+  "vente": 269,
+  "cout_max": 147.65,
+  "ratio": 1.82,
+  "plancher_1_6": 236.24,
+  "source_prix": "grille",
+  "comparables": [
+   {
+    "site": "vente-unique.ch (marketplace, même modèle probable)",
+    "url": "https://fr.vente-unique.ch/p/chaise-longue-a-bascule-avec-coussin-en-bois-d-acacia-massif-1",
+    "prix": null,
+    "releve": "2026-09-16",
+    "modele": "même modèle probable, CHF 221 (Suisse, marketplace : contexte seulement)"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Acacia et coussin gris",
+ "alertes": [
+  "Charge maximale contradictoire : bandeau d'image 120 kg (et 170 × 60 × 75 cm), schéma 154 × 60 × 74 cm, même modèle chez vente-unique à 110 kg : charge non affichée, dimensions du schéma retenues",
+  "Images IA (femme, chiens, bricoleur) et textes allemands sur les visuels",
+  "Valeur de couleur « Brun » renommée d'après la photo (acacia + coussin gris)",
+  "Boutique notée 4,0/4,0/4,2, stock 15"
+ ],
+ "faits": [
+  {
+   "fait": "Dimensions 154 × 60 × 74 cm, coussin de tête 45,5 × 26,5 cm",
+   "source": "image d07/g07 cotée"
+  },
+  {
+   "fait": "Acacia massif, lattes, butées anti-basculement, coussins épais",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Housse imperméable recommandée",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Colis 102 × 57 × 15 cm, 15,4 kg",
+   "source": "var package_info_dto"
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "pid": "1005013125252309",
+ "gid": "gid://shopify/Product/16616092729689",
+ "handle": "fauteuil-allaitement-bouclette-blanche-usb",
+ "title": "Fauteuil d'allaitement bouclette blanche, repose-pieds, USB",
+ "productType": "Fauteuil d'allaitement",
+ "collections": [
+  "fauteuil-allaitement",
+  "rocking-chair-repose-pieds",
+  "fauteuil-a-bascule"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162087162201",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162087194969",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "white",
+     "new": "Blanc",
+     "hex": "#F3F0E8"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450188169561",
+   "keep": true,
+   "motif": "white · stock 10, Germany",
+   "price": 379.0,
+   "cout": 197.9
+  }
+ ],
+ "prix": {
+  "vente": 379,
+  "cout_max": 197.9,
+  "ratio": 1.92,
+  "plancher_1_6": 316.64,
+  "source_prix": "comparable",
+  "comparables": [
+   {
+    "site": "Oscille (MAJA)",
+    "url": "https://oscille.fr/products/maja-rocking-chair-teddy-avec-repose-pieds",
+    "prix": 390,
+    "releve": "2026-09-16",
+    "modele": "proche",
+    "note": "teddy, repose-pieds escamotable, poche, bascule ~30°"
+   },
+   {
+    "site": "Oscille (ONA)",
+    "url": "https://oscille.fr/products/rocking-chair-teddy-blanc-allaitement-repose-pieds-ona",
+    "prix": 399,
+    "releve": "2026-09-16",
+    "modele": "proche"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Blanc",
+ "alertes": [
+  "PRISE USB CONFIRMÉE : ports USB et USB-C dans l'accoudoir, alimentés par un câble USB à brancher sur un adaptateur secteur non fourni (texte + photos d20/d23/d24/d27/d31). Mentionné factuellement dans la fiche ; élément électrique à valider par Hakim (conformité, notice).",
+  "Le texte fournisseur annonce une bascule « silencieuse » : non reprise (non testée).",
+  "Le texte évoque « trois positions : assis, allongé, jambes étendues » : seul le repose-pieds extensible est repris (pas de dossier inclinable visible).",
+  "Titre DSers contient « Glider » : à ne pas reprendre.",
+  "0 avis, 0 vente, stock 10."
+ ],
+ "faits": [
+  {
+   "fait": "66,5 × 121,5 × 102 cm, charge 136 kg, 19,2 kg net, bascule ~30° gauche/droite, protection anti-basculement, bois massif, bouclette, mousse",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "Dossier 62,5 × 51,5 cm ; accoudoirs 67 cm du sol, longueur 73,5 cm ; hauteur d'assise 50 cm ; assise 49 × 49,5 cm ; profondeur 72,5 cm ; repose-pieds 33 × 20,5 cm",
+   "source": "schéma de cotes (galerie g01)"
+  },
+  {
+   "fait": "Poches latérales, ports USB et USB-C (adaptateur non fourni)",
+   "source": "desc.html texte + photos"
+  },
+  {
+   "fait": "Entretien rouleau ou chiffon humide",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "Colis 74 × 67 × 43 cm, 21,7 kg",
+   "source": "bundle candidat_sourcing.colis"
+  }
+ ]
+}

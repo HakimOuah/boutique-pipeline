@@ -1,0 +1,153 @@
+{
+ "pid": "1005013087155309",
+ "gid": "gid://shopify/Product/16616057799001",
+ "handle": "repose-pieds-carre-velours-cotele",
+ "title": "Repose-pieds carré en velours côtelé, housse lavable",
+ "productType": "Repose-pieds",
+ "collections": [
+  "repose-pieds",
+  "pouf"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162044694873",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Dark green",
+     "new": "Vert sapin",
+     "hex": "#2F4A3E",
+     "supprimee": false
+    },
+    {
+     "old": "Navy Blue",
+     "new": "Bleu marine",
+     "hex": "#294357",
+     "supprimee": false
+    },
+    {
+     "old": "Dark gray",
+     "new": "Gris anthracite",
+     "hex": "#6A6A6A",
+     "supprimee": false
+    },
+    {
+     "old": "Beige",
+     "new": "Beige",
+     "hex": "#C5BCB3",
+     "supprimee": true
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162044727641",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59449966428505",
+   "options": {
+    "Color": "Dark green",
+    "Ships From": "Germany"
+   },
+   "keep": true,
+   "motif": "stock 6, Allemagne (Vert sapin)",
+   "price": 79.0,
+   "cout": 43.94
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59449966461273",
+   "options": {
+    "Color": "Navy Blue",
+    "Ships From": "Germany"
+   },
+   "keep": true,
+   "motif": "stock 6, Allemagne (Bleu marine)",
+   "price": 79.0,
+   "cout": 43.94
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59449966494041",
+   "options": {
+    "Color": "Dark gray",
+    "Ships From": "Germany"
+   },
+   "keep": true,
+   "motif": "stock 10, Allemagne (Gris anthracite)",
+   "price": 79.0,
+   "cout": 43.94
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59449966526809",
+   "options": {
+    "Color": "Beige",
+    "Ships From": "Germany"
+   },
+   "keep": false,
+   "motif": "stock 0, Allemagne, rupture (Beige)",
+   "price": null,
+   "cout": 59.19
+  }
+ ],
+ "prix": {
+  "vente": 79,
+  "cout_max": 43.94,
+  "ratio": 1.8,
+  "plancher_1_6": 70.3,
+  "source_prix": "grille",
+  "comparables": [
+   {
+    "site": "Beaumont Concept",
+    "url": "https://beaumont-concept.com/products/pouf-carre-en-velours-cotele",
+    "prix": 189,
+    "releve": "2026-09-16",
+    "modele": "éloigné (pouf carré velours côtelé 65 × 65 cm) : contexte"
+   }
+  ]
+ },
+ "livraison": "Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.",
+ "coloris_couleur_galerie": "Gris anthracite",
+ "alertes": [
+  "Photos fournisseur inversées : la photo « Dark green » montre un pouf gris et la photo « Dark gray » un pouf vert. Vérifier les images de variante posées par DSers avant publication.",
+  "Beige en rupture (stock 0, prix différent) : supprimé.",
+  "Stocks 6 à 10 ; boutique OKYUK, 1 vente. Texte fournisseur mentionnant « fausse fourrure » : la fiche suit les photos (velours côtelé).",
+  "Pas de comparable du même modèle : grille (1,8 × 43,94 € → 79 €)."
+ ],
+ "faits": [
+  {
+   "fait": "50 × 50 × 35 cm",
+   "source": "desc.html + image cotée"
+  },
+  {
+   "fait": "Velours côtelé, garnissage mousse en morceaux",
+   "source": "desc.html + photos"
+  },
+  {
+   "fait": "Base antidérapante en silicone, fermeture éclair",
+   "source": "image détail"
+  },
+  {
+   "fait": "Housse lavable en machine",
+   "source": "image"
+  },
+  {
+   "fait": "Poignée de transport",
+   "source": "photos"
+  },
+  {
+   "fait": "Colis 36 × 31 × 20 cm, 6,5 kg",
+   "source": "var package_info"
+  }
+ ]
+}

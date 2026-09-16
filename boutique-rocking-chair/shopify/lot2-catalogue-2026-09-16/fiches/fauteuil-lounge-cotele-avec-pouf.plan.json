@@ -1,0 +1,133 @@
+{
+ "pid": "1005012777333851",
+ "gid": "gid://shopify/Product/16616075329881",
+ "handle": "fauteuil-lounge-cotele-avec-pouf",
+ "title": "Fauteuil lounge moelleux en tissu côtelé, avec pouf",
+ "productType": "Fauteuil relax",
+ "collections": [
+  "fauteuil-relax"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162064224601",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Blue",
+     "new": "Bleu nuit",
+     "hex": "#2E3F66"
+    },
+    {
+     "old": "Pink",
+     "new": "Rose poudré",
+     "hex": "#E8C4C4"
+    },
+    {
+     "old": "light green",
+     "new": "Vert sauge",
+     "hex": "#A9B5A3"
+    },
+    {
+     "old": "Beige",
+     "new": "Crème",
+     "hex": "#EDE6DA"
+    },
+    {
+     "old": "Grey",
+     "new": "Gris",
+     "hex": "#7C7B7D"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162064257369",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null,
+     "hex": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450098123097",
+   "keep": true,
+   "motif": "Bleu nuit — stock 50, Allemagne",
+   "price": 299.0
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450098155865",
+   "keep": true,
+   "motif": "Rose poudré — stock 50, Allemagne",
+   "price": 299.0
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450098188633",
+   "keep": true,
+   "motif": "Vert sauge — stock 50, Allemagne",
+   "price": 299.0
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450098221401",
+   "keep": true,
+   "motif": "Crème — stock 50, Allemagne",
+   "price": 299.0
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450098254169",
+   "keep": true,
+   "motif": "Gris — stock 50, Allemagne",
+   "price": 299.0
+  }
+ ],
+ "prix": {
+  "vente": 299,
+  "cout_max": 168.87,
+  "ratio": 1.77,
+  "plancher_1_6": 270.19,
+  "source_prix": "grille",
+  "comparables": []
+ },
+ "coloris_couleur_galerie": "Crème",
+ "alertes": [
+  "Fauteuil lounge avec pouf, NON inclinable et NON à bascule (malgré « Style: Rocking Chair » dans SPECIFICATIONS) : classé seulement en fauteuil-relax",
+  "Variante « light green » sans photo DSers (a_une_image false) alors que l'API a une image de coloris : poser la photo c02",
+  "Texte fournisseur (allemand) cite un coloris « Marineblau » : le bleu gardé est un bleu nuit",
+  "Marque Comanlai au titre fournisseur",
+  "Charge 250 lb convertie en 113 kg",
+  "Bleu nuit plus soutenu que la DA « Veille douce » : garder ou retirer selon Hakim"
+ ],
+ "faits": [
+  {
+   "fait": "Fauteuil 80 × 64 × 95 cm (31,5 × 25,2 × 37,4 po), piètement 70 cm",
+   "source": "image d01 + texte (27,52 × 25,20 × 37,40 po)"
+  },
+  {
+   "fait": "Hauteur d'assise 51 cm, accoudoirs 65 cm, assise 45 × 60 cm, dossier 50 cm",
+   "source": "image d01 convertie"
+  },
+  {
+   "fait": "Pouf 50 × 45 × 46 cm",
+   "source": "texte + image d02"
+  },
+  {
+   "fait": "Charge 113 kg (250 lb)",
+   "source": "texte"
+  },
+  {
+   "fait": "Flanelle, coton PP, acier thermolaqué, tube central",
+   "source": "texte"
+  },
+  {
+   "fait": "Colis 77,5 × 66 × 19 cm, 15,9 kg",
+   "source": "texte + var"
+  }
+ ]
+}

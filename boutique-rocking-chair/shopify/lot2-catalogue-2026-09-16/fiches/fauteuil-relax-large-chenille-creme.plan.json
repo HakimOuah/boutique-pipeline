@@ -1,0 +1,80 @@
+{
+ "pid": "1005012986761246",
+ "gid": "gid://shopify/Product/16616075100505",
+ "handle": "fauteuil-relax-large-chenille-creme",
+ "title": "Grand fauteuil relax chenille crème, pivotant et à bascule",
+ "productType": "Fauteuil relax",
+ "collections": [
+  "fauteuil-relax",
+  "rocking-chair-repose-pieds"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162063929689",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null,
+     "hex": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450097238361",
+   "keep": true,
+   "motif": "stock 30, Allemagne",
+   "price": 599.0
+  }
+ ],
+ "prix": {
+  "vente": 599,
+  "cout_max": 334.07,
+  "ratio": 1.79,
+  "plancher_1_6": 534.51,
+  "source_prix": "grille",
+  "comparables": []
+ },
+ "coloris_couleur_galerie": "Crème (coloris unique)",
+ "alertes": [
+  "Coût 334,07 € : prix grille 599 €, au-dessus du plus cher du catalogue actuel (499 €) — à valider par Hakim (plancher 535 €)",
+  "Marque HOMCOM au titre fournisseur",
+  "Image de description d07 = bannière vendeur (garantie 3 ans, avis) : ne pas publier",
+  "Textes des images en allemand (« Breiter Sitz », « 145° Liegefunktion ») : à éviter en galerie",
+  "Colis 44 kg"
+ ],
+ "faits": [
+  {
+   "fait": "Dimensions 95 × 94 × 104 cm, inclinées 95 × 162 × 83 cm",
+   "source": "desc.html + image d03"
+  },
+  {
+   "fait": "Assise 52 × 56 cm, hauteur 51 cm",
+   "source": "desc.html + image d03"
+  },
+  {
+   "fait": "Dossier 90 × 62 cm ; épaisseur 20/22 cm",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Accoudoirs 20 × 66 × 58 cm",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Inclinaison 145° par tirette + repose-pieds, rotation 360°, bascule",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Charge 150 kg, utilisateur < 190 cm, distance au mur 30 cm",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Colis 86 × 66 × 48 cm, 44,3 kg",
+   "source": "var package_info_dto"
+  }
+ ]
+}

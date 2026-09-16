@@ -1,0 +1,93 @@
+{
+ "pid": "1005012995378687",
+ "gid": "gid://shopify/Product/16616056750425",
+ "handle": "pouf-coffre-sherpa-creme",
+ "title": "Pouf coffre en sherpa crème, base effet bois",
+ "productType": "Pouf",
+ "collections": [
+  "pouf",
+  "repose-pieds"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162043253081",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59449961939289",
+   "options": {
+    "Ships From": "Germany"
+   },
+   "keep": true,
+   "motif": "stock 30, Allemagne",
+   "price": 109.0,
+   "cout": 57.25
+  }
+ ],
+ "prix": {
+  "vente": 109,
+  "cout_max": 57.25,
+  "ratio": 1.9,
+  "plancher_1_6": 91.6,
+  "source_prix": "comparable",
+  "comparables": [
+   {
+    "site": "ChicPouf",
+    "url": "https://chicpouf.com/products/pouf-coffre-beige",
+    "prix": 113.9,
+    "releve": "2026-09-16",
+    "modele": "proche (pouf coffre rond en polaire peluche)"
+   }
+  ]
+ },
+ "livraison": "Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.",
+ "coloris_couleur_galerie": "Crème",
+ "alertes": [
+  "Le texte fournisseur parle aussi de « chenille » alors que les spécifications et photos montrent du sherpa : la fiche retient le sherpa.",
+  "Même châssis Ø38 × 45 cm que le pouf chenille beige (1005013107014989) : deux fiches voisines, handles différenciés par la matière.",
+  "Pas d’option couleur Shopify (seulement « Ships From ») : aucune pastille.",
+  "Marque HOMCOM dans le titre fournisseur : retirée ; photos de galerie en allemand, planche commerciale espagnole à exclure.",
+  "0 vente chez le fournisseur.",
+  "Seule option Shopify « Ships From » (une valeur) : la supprimer ramène le produit à une variante unique sans option."
+ ],
+ "faits": [
+  {
+   "fait": "38 × 38 × 45 cm, hauteur d’assise 45 cm",
+   "source": "desc.html + photo cotée"
+  },
+  {
+   "fait": "Épaisseur d’assise 7 cm",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Charge 120 kg",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Rangement intérieur Ø35 × 37 cm",
+   "source": "photo cotée"
+  },
+  {
+   "fait": "Sherpa 100 % polyester, mousse, métal",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Livré monté (Assembly Required : No ; photo « prêt à l’emploi »)",
+   "source": "attribut + photo"
+  },
+  {
+   "fait": "Colis 40 × 40 × 47 cm, 5,6 kg",
+   "source": "var package_info"
+  }
+ ]
+}

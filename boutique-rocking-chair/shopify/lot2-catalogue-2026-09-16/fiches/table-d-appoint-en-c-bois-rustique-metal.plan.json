@@ -1,0 +1,83 @@
+{
+ "pid": "1005013073677922",
+ "gid": "gid://shopify/Product/16616092467545",
+ "handle": "table-d-appoint-en-c-bois-rustique-metal",
+ "title": "Table d'appoint en C, bois rustique et métal noir",
+ "productType": "Table d'appoint",
+ "collections": [
+  "table-d-appoint"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162086736217",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "40*25*50cm",
+     "new": "Bois rustique et noir",
+     "hex": "#7A4E2D"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162086768985",
+   "name_old": "Ships From",
+   "name_new": "Ships From",
+   "delete": true,
+   "values": [
+    {
+     "old": "spain",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450187579737",
+   "keep": true,
+   "motif": "stock 100, coût 39.88 €, spain",
+   "price": 69.0,
+   "options": {
+    "Color": "40*25*50cm",
+    "Ships From": "spain"
+   }
+  }
+ ],
+ "prix": {
+  "vente": 69.0,
+  "cout_max": 39.88,
+  "ratio": 1.73,
+  "source_prix": "grille",
+  "comparables": [],
+  "note": "Pas de comparable du même modèle hors marketplace ; grille ~1,8 × coût. 69 € (coût 39,88, ratio 1,73)."
+ },
+ "coloris_couleur_galerie": "Bois rustique et noir",
+ "alertes": [
+  "Valeur couleur « 40*25*50cm » (une cote) renommée « Bois rustique et noir ».",
+  "Option « Ships From » (une seule valeur) à supprimer.",
+  "Transporteur annoncé sans suivi : risque SAV.",
+  "Toutes les photos fournisseur portent du texte en espagnol : visuels à recomposer intégralement.",
+  "Coût élevé pour une petite table (39,88 €) : prix 69 € à comparer aux bouts de canapé en C du marché."
+ ],
+ "faits": [
+  {
+   "fait": "40 × 25 × 50 cm, 15 kg, 2,3 kg",
+   "source": "desc.html Technical Specifications + photo g5/g6"
+  },
+  {
+   "fait": "Plateau effet bois, structure métal noir mat",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Patins de base, protection des sols",
+   "source": "desc.html + mobile_detail"
+  },
+  {
+   "fait": "Montage rapide",
+   "source": "desc.html Simple Assembly"
+  }
+ ]
+}

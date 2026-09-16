@@ -1,0 +1,90 @@
+{
+ "pid": "1005013013796008",
+ "gid": "gid://shopify/Product/16616086110553",
+ "handle": "rocking-chair-mid-century-kaki-bois-fonce",
+ "title": "Rocking chair mid-century kaki, cadre en bois foncé",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "rocking-chair-bois-rotin"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162078904665",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Khaki",
+     "new": "Kaki",
+     "hex": "#B08D62"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162078937433",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Poland",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450163528025",
+   "keep": true,
+   "motif": "stock 68, Poland",
+   "cout": 145.2,
+   "price": 269.0
+  }
+ ],
+ "prix": {
+  "vente": 269,
+  "cout_max": 145.2,
+  "ratio": 1.85,
+  "plancher_1_6": 232.32,
+  "grille_1_8": 261.36,
+  "source_prix": "grille",
+  "comparables": [
+   {
+    "site": "Oscille (KANOA CHAIR)",
+    "url": "https://oscille.fr/products/rocking-chair-retro-en-tissu-vert-cadre-en-bois-massif-kanoa-chair",
+    "prix": 399,
+    "releve": "2026-09-16",
+    "modele": "proche",
+    "note": "rétro cadre bois, silhouette différente"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Kaki (variante unique)",
+ "alertes": [
+  "Aucun comparable du même modèle trouvé ; prix à la grille (1,8 ×). Même modèle en France à 303,81 € sur AliExpress (sourcing).",
+  "Toutes les cotes viennent d'un schéma en pouces (g03), converties ; la hauteur totale (27,5 in) a une référence incertaine : non reprise.",
+  "Texte fournisseur pauvre et en partie incohérent (« Middle Ages… », « Whether Cushioned : No », « Frame Material : None ») : seuls titre, photos et schéma sont exploités.",
+  "Teinte réelle plutôt beige sable sur les photos, libellée « Khaki » : pastille à vérifier.",
+  "Boutique sans notes, 0 avis, 0 vente, stock 68. Pas de charge maximale."
+ ],
+ "faits": [
+  {
+   "fait": "Largeur 29,1 in (74 cm), profondeur 34,6 in (88 cm), assise à 19,6 in (50 cm), accoudoirs 23,6 in (60 cm), assise 23,6 × 20 in (60 × 51 cm), coussin 3,9 in (10 cm), dossier 22,8 × 17,7 in (58 × 45 cm), accoudoir 3,54 in (9 cm)",
+   "source": "schéma g03"
+  },
+  {
+   "fait": "Mousse haute densité, coussin lombaire intégré, assemblage sans outil supplémentaire pour la plupart",
+   "source": "desc.html texte + mobile_detail"
+  },
+  {
+   "fait": "Structure en bois, usage salon/chambre/véranda",
+   "source": "titre fournisseur"
+  },
+  {
+   "fait": "Colis 83 × 73 × 80 cm, 12,7 kg",
+   "source": "var package_info_dto"
+  }
+ ]
+}

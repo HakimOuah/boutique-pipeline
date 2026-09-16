@@ -1,0 +1,109 @@
+{
+ "pid": "1005012689086194",
+ "gid": "gid://shopify/Product/16616057766233",
+ "handle": "repose-pieds-cube-lin-creme-poche",
+ "title": "Repose-pieds cube aspect lin crème, poche latérale",
+ "productType": "Repose-pieds",
+ "collections": [
+  "repose-pieds",
+  "accessoires-rocking-chair"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162044629337",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "WHITE",
+     "new": "Crème",
+     "hex": "#EDE6D6",
+     "supprimee": false
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162044662105",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "france",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59449965511001",
+   "options": {
+    "Color": "WHITE",
+    "Ships From": "france"
+   },
+   "keep": true,
+   "motif": "stock 49, France (Crème)",
+   "price": 49.0,
+   "cout": 26.53
+  }
+ ],
+ "prix": {
+  "vente": 49,
+  "cout_max": 26.53,
+  "ratio": 1.85,
+  "plancher_1_6": 42.45,
+  "source_prix": "grille",
+  "comparables": [
+   {
+    "site": "Leroy Merlin (marketplace, contexte)",
+    "url": "https://www.leroymerlin.fr/produits/homcom-pouf-repose-pieds-polyester-caoutchouc-bois-creme-35x35x35-cm-838-517v00cw-94994050.html",
+    "prix": null,
+    "releve": "2026-09-16",
+    "modele": "même modèle, prix non lisible (403)"
+   }
+  ]
+ },
+ "livraison": "Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.",
+ "coloris_couleur_galerie": "Crème",
+ "alertes": [
+  "Coloris « WHITE » renommé « Crème » (texte fournisseur : crème).",
+  "Marque HOMCOM dans le titre fournisseur : retirée ; une image de description est une plaquette commerciale à exclure ; un lien d’image externe traîne dans le texte fournisseur.",
+  "Pas de comparable indépendant : grille (1,8 × 26,53 € → 49 €)."
+ ],
+ "faits": [
+  {
+   "fait": "35 × 35 × 35 cm",
+   "source": "desc.html + image cotée"
+  },
+  {
+   "fait": "Poche latérale 35 × 20 cm",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Hauteur des pieds 5 cm",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Charge 120 kg",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Aspect lin 100 % polyester, mousse haute densité, hévéa et eucalyptus",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Dessus capitonné à boutons, patins antidérapants",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Aucun assemblage requis",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Colis 37 × 37 × 37 cm, 4 kg",
+   "source": "var package_info"
+  }
+ ]
+}

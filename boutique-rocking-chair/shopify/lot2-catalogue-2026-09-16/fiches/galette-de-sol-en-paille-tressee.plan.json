@@ -1,0 +1,78 @@
+{
+ "pid": "1005004377947842",
+ "gid": "gid://shopify/Product/16616092205401",
+ "handle": "galette-de-sol-en-paille-tressee",
+ "title": "Galette de sol ronde en paille tressée, Ø 40 cm",
+ "productType": "Coussin de sol",
+ "collections": [
+  "coussin-de-sol"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162086343001",
+   "name_old": "Specification",
+   "name_new": "Dimensions",
+   "delete": false,
+   "values": [
+    {
+     "old": "Dia40CM Height6CM",
+     "new": "Ø 40 × 6 cm"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450186629465",
+   "keep": true,
+   "motif": "stock 30, coût 14.84 €",
+   "price": 29.0,
+   "options": {
+    "Specification": "Dia40CM Height6CM"
+   }
+  }
+ ],
+ "prix": {
+  "vente": 29.0,
+  "cout_max": 14.84,
+  "ratio": 1.95,
+  "source_prix": "grille",
+  "comparables": [],
+  "par_taille": [
+   {
+    "taille": "Ø 40 × 6 cm",
+    "prix": 29.0,
+    "cout_max": 14.84,
+    "ratio": 1.95,
+    "plancher_1_6": 23.74
+   }
+  ],
+  "note": "Pas de boutique indépendante trouvée ; marketplaces en contexte (ManoMano, Cdiscount : coussin de paille rond ~25 €). Grille 1,95 × coût (plancher 23,74 €)."
+ },
+ "coloris_couleur_galerie": "Paille naturelle",
+ "alertes": [
+  "Option unique « Specification » : pas d'option couleur ; renommée « Dimensions ».",
+  "Mousse « EVA » dans le texte, « PE » dans la fiche : écrit « mousse ».",
+  "Stock 30 seulement, port 1,99 € non inclus.",
+  "Photos fournisseur avec décor asiatique (idéogrammes) : visuels à recomposer.",
+  "Usage extérieur non prévu (entretien au sec)."
+ ],
+ "faits": [
+  {
+   "fait": "Paille naturelle tressée main + mousse",
+   "source": "desc.html Materials + Feature Handmade"
+  },
+  {
+   "fait": "Ø 40 × 6 cm",
+   "source": "desc.html + image cotée g2"
+  },
+  {
+   "fait": "Entretien chiffon sec, séchage naturel",
+   "source": "desc.html Maintenance"
+  },
+  {
+   "fait": "Non déhoussable",
+   "source": "desc.html Unpick and Wash"
+  }
+ ]
+}

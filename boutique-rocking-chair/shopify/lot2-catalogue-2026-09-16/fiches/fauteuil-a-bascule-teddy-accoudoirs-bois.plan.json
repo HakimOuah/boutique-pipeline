@@ -1,0 +1,79 @@
+{
+ "pid": "1005012789835381",
+ "gid": "gid://shopify/Product/16616092762457",
+ "handle": "fauteuil-a-bascule-teddy-accoudoirs-bois",
+ "title": "Fauteuil à bascule en teddy écru, accoudoirs en bois",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "fauteuil-a-bascule",
+  "fauteuil-allaitement",
+  "rocking-chair-design-scandinave"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162087227737",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450188333401",
+   "keep": true,
+   "motif": "stock 60, Germany",
+   "price": 319.0,
+   "cout": 196.51
+  }
+ ],
+ "prix": {
+  "vente": 319,
+  "cout_max": 196.51,
+  "ratio": 1.62,
+  "plancher_1_6": 314.42,
+  "source_prix": "plancher",
+  "comparables": [
+   {
+    "site": "Oscille (NORKA)",
+    "url": "https://oscille.fr/products/fauteuil-a-bascule-relax-tissu-teddy-accoudoirs-appui-tete",
+    "prix": 299,
+    "releve": "2026-09-16",
+    "modele": "proche",
+    "note": "299 € sans repose-pieds, 349 € avec repose-pieds"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Écru (variante unique)",
+ "alertes": [
+  "DOUBLON PROBABLE avec la fiche rocking-chair-teddy-creme-accoudoirs-bois (autre lot) : même modèle teddy crème, hévéa, rembourrage 15 cm, 120 kg. N'en garder qu'un (le moins cher).",
+  "Prix au plancher (1,6 × 196,51 = 314 €) : 319 €, au-dessus du comparable Oscille NORKA (299 €).",
+  "Même modèle que le HOMCOM 65 × 90 × 98 cm (marque officielle, vendu aussi sur Conforama par SUPLY SHOP, prix non lu) : risque de comparaison défavorable ; marque « Svintora » dans les specs.",
+  "Accoudoirs en bois : douleur n°3 du persona ; la fiche conseille un coussin sur l'accoudoir.",
+  "« Bascule silencieuse » annoncée par le fournisseur : non reprise.",
+  "0 avis, 0 vente."
+ ],
+ "faits": [
+  {
+   "fait": "65 × 90 × 98 cm, charge 120 kg, assemblage requis, bandes de feutre antidérapantes, hévéa massif, teddy",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "Dossier 65 cm ; assise 60 × 57 cm ; hauteur d'assise 53 cm ; accoudoirs 17 cm au-dessus de l'assise",
+   "source": "schéma de cotes (image d15/g04)"
+  },
+  {
+   "fait": "Rembourrage 15 cm ; bascule 10° avant/arrière",
+   "source": "infographies d14/d16"
+  },
+  {
+   "fait": "Colis 86 × 44 × 62 cm, 19,5 kg",
+   "source": "bundle candidat_sourcing.colis"
+  }
+ ]
+}

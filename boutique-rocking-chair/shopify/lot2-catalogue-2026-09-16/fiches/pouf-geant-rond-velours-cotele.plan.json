@@ -1,0 +1,152 @@
+{
+ "pid": "1005013164392205",
+ "gid": "gid://shopify/Product/16616057143641",
+ "handle": "pouf-geant-rond-velours-cotele",
+ "title": "Pouf géant rond en velours côtelé à larges côtes",
+ "productType": "Pouf",
+ "collections": [
+  "pouf-poire",
+  "pouf"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162043810137",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "black",
+     "new": "Noir",
+     "hex": "#2B2B2B",
+     "supprimee": false
+    },
+    {
+     "old": "gray",
+     "new": "Gris perle",
+     "hex": "#C6C6C6",
+     "supprimee": false
+    },
+    {
+     "old": "green",
+     "new": "Vert sapin",
+     "hex": "#2F4A33",
+     "supprimee": false
+    },
+    {
+     "old": "white",
+     "new": "Blanc crème",
+     "hex": "#EDEAE3",
+     "supprimee": false
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162043842905",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59449962856793",
+   "options": {
+    "Color": "black",
+    "Ships From": "Germany"
+   },
+   "keep": true,
+   "motif": "stock 20, Allemagne (Noir)",
+   "price": 209.0,
+   "cout": 85.63
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59449962889561",
+   "options": {
+    "Color": "gray",
+    "Ships From": "Germany"
+   },
+   "keep": true,
+   "motif": "stock 20, Allemagne (Gris perle)",
+   "price": 209.0,
+   "cout": 85.63
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59449962922329",
+   "options": {
+    "Color": "green",
+    "Ships From": "Germany"
+   },
+   "keep": true,
+   "motif": "stock 20, Allemagne (Vert sapin)",
+   "price": 209.0,
+   "cout": 85.63
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59449962955097",
+   "options": {
+    "Color": "white",
+    "Ships From": "Germany"
+   },
+   "keep": true,
+   "motif": "stock 20, Allemagne (Blanc crème)",
+   "price": 209.0,
+   "cout": 85.63
+  }
+ ],
+ "prix": {
+  "vente": 209,
+  "cout_max": 85.63,
+  "ratio": 2.44,
+  "plancher_1_6": 137.01,
+  "source_prix": "comparable",
+  "comparables": [
+   {
+    "site": "ChicPouf",
+    "url": "https://chicpouf.com/products/grand-pouf-poire-velours-cotele",
+    "prix": 217.9,
+    "releve": "2026-09-16",
+    "modele": "proche (grand pouf poire rond velours côtelé, D100)"
+   }
+  ]
+ },
+ "livraison": "Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.",
+ "coloris_couleur_galerie": "Gris perle",
+ "alertes": [
+  "Description fournisseur vide : cotes relevées sur les images (43 à 48 po de diamètre, 23 à 26 po de haut, soit 109 à 122 cm et 58 à 66 cm, la mousse reprenant son volume).",
+  "Déhoussabilité non confirmée : non mentionnée.",
+  "Boutique fournisseur sans note, 0 vente ; stock 20 par coloris."
+ ],
+ "faits": [
+  {
+   "fait": "Diamètre 109 à 122 cm, hauteur 58 à 66 cm (43–48 × 23–26 po)",
+   "source": "images PRODUCT SIZE"
+  },
+  {
+   "fait": "Velours côtelé à larges côtes",
+   "source": "titre + images"
+  },
+  {
+   "fait": "Mousse haute résilience",
+   "source": "image description"
+  },
+  {
+   "fait": "Livré compressé, 72 h pour reprendre sa forme",
+   "source": "image description"
+  },
+  {
+   "fait": "Dessous antidérapant",
+   "source": "image description"
+  },
+  {
+   "fait": "Colis 48 × 38 × 21 cm, 10,4 kg",
+   "source": "var package_info"
+  }
+ ]
+}

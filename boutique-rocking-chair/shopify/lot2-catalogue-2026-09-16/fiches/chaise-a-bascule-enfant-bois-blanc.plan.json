@@ -1,0 +1,99 @@
+{
+ "pid": "1005012470203910",
+ "gid": "gid://shopify/Product/16616092172633",
+ "handle": "chaise-a-bascule-enfant-bois-blanc",
+ "title": "Chaise à bascule enfant en bois massif blanc, à lattes",
+ "productType": "Fauteuil enfant",
+ "collections": [
+  "rocking-chair-enfant"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162086277465",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "army green",
+     "new": "Vert armée",
+     "hex": "#5B6147",
+     "supprimee": true
+    },
+    {
+     "old": "Weiß",
+     "new": "Blanc",
+     "hex": "#F4F4F0"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162086310233",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "france",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450186498393",
+   "keep": false,
+   "motif": "army green · stock 6, france ; photo de variante noire, couleur non identifiable, hors DA",
+   "price": null,
+   "cout": 120.65
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450186531161",
+   "keep": true,
+   "motif": "Weiß · stock 132, france",
+   "price": 239.0,
+   "cout": 143.31
+  }
+ ],
+ "prix": {
+  "vente": 239,
+  "cout_max": 143.31,
+  "ratio": 1.67,
+  "plancher_1_6": 229.3,
+  "source_prix": "plancher",
+  "comparables": [
+   {
+    "site": "vidaXL / Conforama / Truffaut (même modèle)",
+    "url": "https://www.vidaxl.fr/e/vidaxl-chaise-a-bascule-enfants-blanc-bois-de-peuplier-massif/8721102641909.html",
+    "prix": null,
+    "releve": "2026-09-16",
+    "modele": "même modèle",
+    "note": "modèle vidaXL en peuplier, 36 × 46,5 × 57 cm, 3-6 ans, prix non lu ; marques/places de marché exclues"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Blanc",
+ "alertes": [
+  "LOT DE 2 PROBABLE : les photos de variante (v16 noir, v17 blanc) montrent DEUX chaises ; le dossier de sourcing mentionne un lot de 2 en alternative. Vérifier que la variante blanche est bien une chaise seule avant publication.",
+  "La variante « army green » porte une photo de chaises NOIRES et la galerie est entièrement noire : couleur non identifiable, hors DA, stock 6 → supprimée (à confirmer par Hakim).",
+  "PRIX NON COMPÉTITIF : coût 143,31 € (plancher 239 €) pour le modèle vidaXL vendu bien moins cher chez vidaXL/Conforama/Truffaut. Recommandation : ne pas publier ou changer de fournisseur.",
+  "Âge contradictoire dans la source (0-36 mois / 7-12 ans / 12+) ; vidaXL indique 3-6 ans ailleurs : aucun âge repris.",
+  "Aucune norme mentionnée ; charge « > 20 kg » trop vague, non reprise.",
+  "Schéma de cotes au format vidaXL (d15) : visuel à recomposer ; boutique sans note, 0 avis."
+ ],
+ "faits": [
+  {
+   "fait": "57 × 34,5 × 46,5 cm ; assise 27,5 × 30 cm ; hauteur d'assise 28 cm ; accoudoirs 37,5 cm ; dossier 27 cm",
+   "source": "schéma de cotes (image d15/g07)"
+  },
+  {
+   "fait": "Bois massif, finition imperméable, piètement à lattes drainant, intérieur et extérieur, nettoyage à l'éponge, angle des pieds anti-basculement",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "Colis 57 × 39 × 8 cm, 5,4 kg",
+   "source": "bundle candidat_sourcing.colis"
+  }
+ ]
+}

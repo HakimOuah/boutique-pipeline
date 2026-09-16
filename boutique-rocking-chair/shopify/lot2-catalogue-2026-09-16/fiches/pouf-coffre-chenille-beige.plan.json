@@ -1,0 +1,102 @@
+{
+ "pid": "1005013107014989",
+ "gid": "gid://shopify/Product/16616056848729",
+ "handle": "pouf-coffre-chenille-beige",
+ "title": "Pouf coffre rond en chenille beige, base effet bois",
+ "productType": "Pouf",
+ "collections": [
+  "pouf",
+  "repose-pieds"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162043351385",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "france",
+     "new": null
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162043384153",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Ottoman",
+     "new": "Beige",
+     "hex": "#D6CCBC",
+     "supprimee": false
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59449961972057",
+   "options": {
+    "Ships From": "france",
+    "Color": "Ottoman"
+   },
+   "keep": true,
+   "motif": "stock 10, France (Beige)",
+   "price": 109.0,
+   "cout": 62.69
+  }
+ ],
+ "prix": {
+  "vente": 109,
+  "cout_max": 62.69,
+  "ratio": 1.74,
+  "plancher_1_6": 100.3,
+  "source_prix": "comparable",
+  "comparables": [
+   {
+    "site": "ChicPouf",
+    "url": "https://chicpouf.com/products/pouf-coffre-beige",
+    "prix": 113.9,
+    "releve": "2026-09-16",
+    "modele": "proche (pouf coffre rond en polaire peluche)"
+   }
+  ]
+ },
+ "livraison": "Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.",
+ "coloris_couleur_galerie": "Beige",
+ "alertes": [
+  "Coloris libellé « Ottoman » : renommé « Beige » (valeur brute AliExpress « Beige »).",
+  "Contradiction montage : texte « assemblage simple requis », photo « livré entièrement monté ». Le montage n’est pas mentionné.",
+  "Stock 10, boutique fournisseur récente sans note, 0 vente.",
+  "Plancher 1,6 × 62,69 € = 100,3 € : 109 € reste au-dessus."
+ ],
+ "faits": [
+  {
+   "fait": "38 × 38 × 45 cm",
+   "source": "desc.html + photo cotée"
+  },
+  {
+   "fait": "Poids 4,9 kg",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Charge 120 kg",
+   "source": "photo"
+  },
+  {
+   "fait": "Rangement Ø35 × 37 cm",
+   "source": "photo"
+  },
+  {
+   "fait": "Chenille 100 % polyester, base métal effet bois",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Colis 40 × 40 × 47 cm, 5,6 kg",
+   "source": "desc.html + var"
+  }
+ ]
+}

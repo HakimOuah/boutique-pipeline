@@ -1,0 +1,90 @@
+{
+ "pid": "1005013028772180",
+ "gid": "gid://shopify/Product/16616075297113",
+ "handle": "rocking-chair-acacia-coussins-beige",
+ "title": "Rocking chair en acacia, dossier haut et coussins beiges",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "rocking-chair-exterieur",
+  "fauteuil-a-bascule"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162064159065",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Beige",
+     "new": "Beige",
+     "hex": "#D9CDBB"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162064191833",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null,
+     "hex": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450097598809",
+   "keep": true,
+   "motif": "Beige — stock 10, Allemagne",
+   "price": 259.0
+  }
+ ],
+ "prix": {
+  "vente": 259,
+  "cout_max": 143.55,
+  "ratio": 1.8,
+  "plancher_1_6": 229.68,
+  "source_prix": "grille",
+  "comparables": []
+ },
+ "coloris_couleur_galerie": "Beige",
+ "alertes": [
+  "Texte : « No assembly required », mais colis plat 94 × 72 × 23 cm : montage non mentionné dans la fiche, à vérifier",
+  "Variante sans photo côté API (image de coloris absente) mais DSers a posé une image",
+  "Stock faible : 10 unités",
+  "Modèle vendu aussi sous la marque Outsunny (résultats de recherche) : aucun prix relevé",
+  "Textes allemands sur les images de galerie",
+  "Usage conseillé : porche ou terrasse couverte"
+ ],
+ "faits": [
+  {
+   "fait": "Dimensions 60 × 89 × 107 cm",
+   "source": "desc.html + image g02"
+  },
+  {
+   "fait": "Assise 48 × 46,5 cm, hauteur 42,5-44,5 cm",
+   "source": "desc.html + image g02"
+  },
+  {
+   "fait": "Dossier 63 cm",
+   "source": "desc.html + image g04"
+  },
+  {
+   "fait": "Charge 160 kg",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Housses zippées polyester déperlant, patins réglables",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Colis 94 × 72 × 23 cm, 12,5 kg",
+   "source": "var package_info_dto"
+  }
+ ]
+}

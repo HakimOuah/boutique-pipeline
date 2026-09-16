@@ -1,0 +1,80 @@
+{
+ "pid": "1005010544893518",
+ "gid": "gid://shopify/Product/16616093024601",
+ "handle": "fauteuil-enfant-teddy-oreilles-ours",
+ "title": "Fauteuil enfant en teddy écru, oreilles d'ours",
+ "productType": "Fauteuil enfant",
+ "collections": [
+  "rocking-chair-enfant"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162087620953",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    },
+    {
+     "old": "france",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450188955993",
+   "keep": false,
+   "motif": "stock 81, Germany ; doublon du même produit expédié de France (stock égal), un seul pays gardé",
+   "price": null,
+   "cout": 108.33
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450188988761",
+   "keep": true,
+   "motif": "stock 81, france",
+   "price": 179.0,
+   "cout": 108.33
+  }
+ ],
+ "prix": {
+  "vente": 179,
+  "cout_max": 108.33,
+  "ratio": 1.65,
+  "plancher_1_6": 173.33,
+  "source_prix": "plancher",
+  "comparables": [
+   {
+    "site": "Vente-unique (proche, avec accoudoirs)",
+    "url": "https://www.vente-unique.com/p/fauteuil-pour-enfant-beige-oreilles-d-ours",
+    "prix": 95.03,
+    "releve": "2026-09-16",
+    "modele": "proche",
+    "note": "place de marché / distributeur, contexte seulement"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Écru (variante unique)",
+ "alertes": [
+  "Deux entrepôts au même stock (81) : France gardée (tie-break : fiche de référence du sourcing), Allemagne supprimée.",
+  "Pas d'option couleur ; titre DSers « on-site » et « beige » : coloris écru d'après photos.",
+  "« Sans danger / safe » est une déclaration vendeur : non reprise ; aucune norme ni âge dans la source.",
+  "Marché : fauteuils enfant oreilles d'ours autour de 95 € (Vente-unique, Conforama) : plancher 179 € nettement au-dessus.",
+  "Poids 4,4 kg = poids du colis, dimensions du colis = dimensions du produit (déclaration douteuse).",
+  "Boutique sous le seuil (4,2 / 4,3 / 4,5), 0 avis. Pas un fauteuil à bascule."
+ ],
+ "faits": [
+  {
+   "fait": "47 × 43 × 53 cm ; charge 45 kg ; pieds en hévéa à visser, montage 5 minutes ; mousse, polaire teddy ; oreilles d'ours ; sans angles vifs ; léger",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "Assise 47 × 33 cm, hauteur d'assise 27 cm",
+   "source": "schéma de cotes (galerie g02)"
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "pid": "1005012207939487",
+ "gid": "gid://shopify/Product/16616075166041",
+ "handle": "fauteuil-relax-push-back-cotele",
+ "title": "Fauteuil relax push-back en tissu côtelé, repose-pieds",
+ "productType": "Fauteuil relax",
+ "collections": [
+  "fauteuil-relax"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162063995225",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "DARK GRAY",
+     "new": "Gris ardoise",
+     "hex": "#6F7883"
+    },
+    {
+     "old": "Beige",
+     "new": "Crème",
+     "hex": "#EAE3D6"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162064027993",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null,
+     "hex": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450097467737",
+   "keep": true,
+   "motif": "Gris ardoise — stock 203, Allemagne",
+   "price": 249.0
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450097500505",
+   "keep": true,
+   "motif": "Crème — stock 111, Allemagne",
+   "price": 249.0
+  }
+ ],
+ "prix": {
+  "vente": 249,
+  "cout_max": 136.71,
+  "ratio": 1.82,
+  "plancher_1_6": 218.74,
+  "source_prix": "grille",
+  "comparables": []
+ },
+ "coloris_couleur_galerie": "Crème",
+ "alertes": [
+  "Matière : le texte annonce un tissu « lin », les photos montrent un tissu côtelé ; fiche rédigée « tissu côtelé » d'après les photos",
+  "Dimensions contradictoires : texte 61 × 89 × 100 cm, images 60 × 73 × 97 cm ; fiche rédigée d'après les images cotées",
+  "« DARK GRAY » apparaît gris-bleu sur la photo de variante : nommé « Gris ardoise »",
+  "Texte fournisseur cite la marque OYAJIA (modèle SGN0056-KD)",
+  "Textes allemands sur les images (Abmessungen, Multifunktionaler Liegesessel)",
+  "Dimensions du colis déclarées identiques à celles du produit : non reprises"
+ ],
+ "faits": [
+  {
+   "fait": "Dimensions 60 × 73 × 97 cm",
+   "source": "images c00/c01/g08"
+  },
+  {
+   "fait": "Déplié 155 cm de long, 75 cm de haut",
+   "source": "images + desc.html"
+  },
+  {
+   "fait": "Largeur d'assise 44 cm, dossier 54 cm",
+   "source": "images c01/g08"
+  },
+  {
+   "fait": "Inclinaison 90-160°",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Charge 150 kg",
+   "source": "desc.html + images"
+  },
+  {
+   "fait": "100 % polyester, fer, panneaux",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Poids colis 24,5 kg",
+   "source": "candidat_sourcing.colis"
+  }
+ ]
+}

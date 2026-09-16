@@ -1,0 +1,139 @@
+{
+ "pid": "1005004938164380",
+ "gid": "gid://shopify/Product/16616092238169",
+ "handle": "petit-pouf-carre-coton-gaufre",
+ "title": "Petit pouf carré en coton gaufré, 30 × 30 cm",
+ "productType": "Pouf",
+ "collections": [
+  "coussin-de-sol",
+  "pouf",
+  "repose-pieds"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162086375769",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "S-30X30X20cm-beige",
+     "new": "Écru",
+     "hex": "#E9E2D4"
+    },
+    {
+     "old": "S-30X30X20cm-black",
+     "new": null,
+     "delete": true
+    },
+    {
+     "old": "S-30X30X20cm-white",
+     "new": "Blanc",
+     "hex": "#F5F5F2"
+    },
+    {
+     "old": "S-30X30X20cm-yellow",
+     "new": null,
+     "delete": true
+    },
+    {
+     "old": "S-30X30X20cm-khaki",
+     "new": "Caramel",
+     "hex": "#C7A57A"
+    },
+    {
+     "old": "S-30X30X20cm-grey",
+     "new": "Gris perle",
+     "hex": "#A9A7AD"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450186727769",
+   "keep": true,
+   "motif": "stock 9944, coût 23.99 €",
+   "price": 39.0,
+   "options": {
+    "Color": "S-30X30X20cm-beige"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450186760537",
+   "keep": false,
+   "motif": "coloris « S-30X30X20cm-black » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "S-30X30X20cm-black"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450186793305",
+   "keep": true,
+   "motif": "stock 9980, coût 23.99 €",
+   "price": 39.0,
+   "options": {
+    "Color": "S-30X30X20cm-white"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450186826073",
+   "keep": false,
+   "motif": "stock 0; coloris « S-30X30X20cm-yellow » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "S-30X30X20cm-yellow"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450186858841",
+   "keep": true,
+   "motif": "stock 9947, coût 23.99 €",
+   "price": 39.0,
+   "options": {
+    "Color": "S-30X30X20cm-khaki"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450186891609",
+   "keep": true,
+   "motif": "stock 9941, coût 23.99 €",
+   "price": 39.0,
+   "options": {
+    "Color": "S-30X30X20cm-grey"
+   }
+  }
+ ],
+ "prix": {
+  "vente": 39.0,
+  "cout_max": 23.99,
+  "ratio": 1.63,
+  "source_prix": "grille",
+  "comparables": [],
+  "note": "Pas de comparable du même modèle. Grille : 39 € (ratio 1,63, plancher 38,38 €)."
+ },
+ "coloris_couleur_galerie": "Écru",
+ "alertes": [
+  "Marque OTAUTAU dans le titre et logo sur toutes les photos de coloris (les images de variante posées par DSers portent le logo) : visuels à recomposer, images de variante à remplacer.",
+  "Valeurs couleur « S-30X30X20cm-… » renommées avec la vraie couleur.",
+  "Coloris noir supprimé (hors DA), jaune supprimé (stock 0).",
+  "Petit format (30 cm) : repose-pieds bas plus qu'assise.",
+  "Note 4,0 (2 avis), 4 ventes. Déhoussabilité non indiquée.",
+  "Texte fournisseur : « we have size L 43X43X30cm » non disponible dans ce lien."
+ ],
+ "faits": [
+  {
+   "fait": "Housse 100 % coton gaufré",
+   "source": "desc.html About materials"
+  },
+  {
+   "fait": "Garni de billes EPS, livré garni",
+   "source": "desc.html About filler / Packing"
+  },
+  {
+   "fait": "30 × 30 × 20 cm, mesuré garni, ±1-3 cm",
+   "source": "desc.html About size"
+  }
+ ]
+}

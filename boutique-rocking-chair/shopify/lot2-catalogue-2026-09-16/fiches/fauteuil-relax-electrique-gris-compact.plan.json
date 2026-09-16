@@ -1,0 +1,69 @@
+{
+ "pid": "1005012324660125",
+ "gid": "gid://shopify/Product/16616075231577",
+ "handle": "fauteuil-relax-electrique-gris-compact",
+ "title": "Fauteuil relax électrique compact en tissu gris",
+ "productType": "Fauteuil relax",
+ "collections": [
+  "fauteuil-relax"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162064093529",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null,
+     "hex": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450097566041",
+   "keep": true,
+   "motif": "stock 10, Allemagne",
+   "price": 259.0
+  }
+ ],
+ "prix": {
+  "vente": 259,
+  "cout_max": 145.03,
+  "ratio": 1.79,
+  "plancher_1_6": 232.05,
+  "source_prix": "grille",
+  "comparables": []
+ },
+ "coloris_couleur_galerie": "Gris (coloris unique)",
+ "alertes": [
+  "PRODUIT ÉLECTRIQUE : alimentation (tension, puissance) et conformité CE non précisées par la source ; notice FR à vérifier",
+  "Aucune fonction releveur (dossier + repose-pieds uniquement, 90-160°) : pas d'alerte releveur",
+  "Marque Homall au titre fournisseur",
+  "Stock faible : 10 unités",
+  "Charge maximale absente de toutes les sources",
+  "Hauteur d'accoudoirs (61 cm) et repose-pieds (37 cm) relevés sur l'image cotée g02, lecture à confirmer sur échantillon",
+  "Texte fournisseur annonce un mécanisme « low-noise » : non repris (pas de promesse de silence)"
+ ],
+ "faits": [
+  {
+   "fait": "Dimensions 60 × 65 × 103 cm, largeur d'assise 55 cm",
+   "source": "desc.html + image g02"
+  },
+  {
+   "fait": "Positions 90° / 120° / 160°, télécommande filaire",
+   "source": "desc.html + image d02"
+  },
+  {
+   "fait": "Mousse haute densité, structure métal, poche latérale, patins",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Poids colis 22,5 kg",
+   "source": "var package_info_dto"
+  }
+ ]
+}

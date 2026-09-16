@@ -1,0 +1,98 @@
+{
+ "pid": "1005013136333929",
+ "gid": "gid://shopify/Product/16616085979481",
+ "handle": "rocking-chair-acier-noir-coussin-cotele-ecru",
+ "title": "Rocking chair en acier noir, coussin côtelé écru",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "rocking-chair-design-scandinave"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162078708057",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162078740825",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "White + Steel + Cotton",
+     "new": "Écru",
+     "hex": "#EDE7DB"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450163396953",
+   "keep": true,
+   "motif": "stock 10, Germany",
+   "cout": 150.4,
+   "price": 279.0
+  }
+ ],
+ "prix": {
+  "vente": 279,
+  "cout_max": 150.4,
+  "ratio": 1.86,
+  "plancher_1_6": 240.64,
+  "grille_1_8": 270.72,
+  "source_prix": "comparable",
+  "comparables": [
+   {
+    "site": "Oscille (SVIKA)",
+    "url": "https://oscille.fr/products/svika-rocking-chair-corduroy-capitonne-cadre-metal-noir",
+    "prix": 299,
+    "releve": "2026-09-16",
+    "modele": "même modèle",
+    "note": "côtelé beige capitonné, cadre métal noir"
+   },
+   {
+    "site": "So Inside (Cargo)",
+    "url": "https://www.so-inside.com/rocking-chairs/6223-rocking-chair-design-avec-coussin-en-tissu-gris-cargo.html",
+    "prix": 199,
+    "releve": "2026-09-16",
+    "modele": "proche",
+    "note": "métal noir + coussin épais gris, 80 × 115 × 70 cm (prix barré 279 €)"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Écru (variante unique)",
+ "alertes": [
+  "Coloris : valeur Shopify « White + Steel + Cotton », valeur brute « Gris clair » ; photo : coussin côtelé écru : renommé « Écru ».",
+  "Usage extérieur annoncé (structure résistante aux intempéries) : la fiche le mentionne avec le conseil de rentrer le coussin.",
+  "Cotes lues sur le schéma g07 : 82 cm (hauteur), 116 cm (profondeur), 56 (dossier), 54 (assise), 38 (hauteur d'assise), 8 (coussin) ; 68 et 75 cm non attribuables. Pas de largeur totale ni de charge.",
+  "Comparable proche So Inside à 199 € (prix promo) sous notre plancher (240,64 €).",
+  "0 avis, 0 vente, stock 10."
+ ],
+ "faits": [
+  {
+   "fait": "Structure noire, coussin blanc épais amovible, usage intérieur/extérieur, patins antidérapants, visserie et notice illustrée",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "Hauteur 82, profondeur 116, dossier 56, assise 54, hauteur d'assise 38, coussin 8 cm",
+   "source": "schéma g07"
+  },
+  {
+   "fait": "Coussin effet velours côtelé",
+   "source": "photos g02/g06"
+  },
+  {
+   "fait": "Colis 86 × 61 × 13 cm, 11,1 kg",
+   "source": "var package_info_dto"
+  }
+ ]
+}

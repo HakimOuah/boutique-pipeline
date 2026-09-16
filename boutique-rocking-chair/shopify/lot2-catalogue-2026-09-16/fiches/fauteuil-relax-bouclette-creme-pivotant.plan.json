@@ -1,0 +1,87 @@
+{
+ "pid": "1005010777511035",
+ "gid": "gid://shopify/Product/16616086339929",
+ "handle": "fauteuil-relax-bouclette-creme-pivotant",
+ "title": "Fauteuil relax en bouclette crème, pivotant et à bascule",
+ "productType": "Fauteuil relax",
+ "collections": [
+  "fauteuil-relax",
+  "rocking-chair-repose-pieds"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162079232345",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "france",
+     "new": null,
+     "hex": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450164609369",
+   "keep": true,
+   "motif": "stock 44, France",
+   "price": 429.0
+  }
+ ],
+ "prix": {
+  "vente": 429,
+  "cout_max": 239.75,
+  "ratio": 1.79,
+  "plancher_1_6": 383.6,
+  "source_prix": "grille",
+  "comparables": [
+   {
+    "site": "E.Leclerc / Carrefour (marketplace, même modèle)",
+    "url": "https://www.carrefour.fr/p/fauteuil-relax-design-bouclette-inclinable-pivotant-repose-pieds-integre-beige-3662970311936",
+    "prix": null,
+    "releve": "2026-09-16",
+    "modele": "même modèle (prix non lisible, page 403 ; marketplace exclue)"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Crème (coloris unique)",
+ "alertes": [
+  "Marque HOMCOM (réf. 83B-586V00BG) au titre et possiblement sur les photos : vérifier",
+  "Seulement 6 photos, aucune image de description",
+  "Même modèle vendu sur les marketplaces E.Leclerc et Carrefour (prix non relevé) : vérifier le positionnement",
+  "Coloris « Beige » du fournisseur, rendu crème sur les photos : nommé crème"
+ ],
+ "faits": [
+  {
+   "fait": "Dimensions 76 × 94 × 100 cm, inclinées 76 × 160 × 78 cm",
+   "source": "desc.html + image g05"
+  },
+  {
+   "fait": "Assise 55 × 56 cm, hauteur 49,5 cm",
+   "source": "desc.html + image g05"
+  },
+  {
+   "fait": "Accoudoirs à 61 cm du sol",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Inclinaison 135° par poignée, rotation 360°, bascule",
+   "source": "desc.html + images"
+  },
+  {
+   "fait": "Charge 120 kg, distance au mur 30 cm",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Bouclette 100 % polyester, coton PP, ressorts ensachés, acier",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Colis 77 × 58 × 47 cm, 28 kg",
+   "source": "candidat_sourcing.colis"
+  }
+ ]
+}

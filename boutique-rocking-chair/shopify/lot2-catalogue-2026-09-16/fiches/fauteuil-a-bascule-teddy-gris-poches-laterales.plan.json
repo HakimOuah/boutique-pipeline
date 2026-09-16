@@ -1,0 +1,91 @@
+{
+ "pid": "1005012921558422",
+ "gid": "gid://shopify/Product/16616085127513",
+ "handle": "fauteuil-a-bascule-teddy-gris-poches-laterales",
+ "title": "Fauteuil à bascule en teddy gris clair, dossier haut",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "fauteuil-a-bascule"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162077397337",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162077430105",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Grey",
+     "new": "Gris clair",
+     "hex": "#BDBDBA"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450160742745",
+   "keep": true,
+   "motif": "stock 6, Germany",
+   "cout": 165.47,
+   "price": 269.0
+  }
+ ],
+ "prix": {
+  "vente": 269,
+  "cout_max": 165.47,
+  "ratio": 1.63,
+  "plancher_1_6": 264.75,
+  "grille_1_8": 297.85,
+  "source_prix": "plancher",
+  "comparables": [
+   {
+    "site": "Oscille (FLOVRA)",
+    "url": "https://oscille.fr/products/flovra-rocking-chair-teddy-dossier-haut",
+    "prix": 253,
+    "releve": "2026-09-16",
+    "modele": "même modèle",
+    "note": "teddy blanc, même silhouette, poche et base bois"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Gris clair (variante unique)",
+ "alertes": [
+  "Prix au plancher : 1,6 × 165,47 = 264,75 € → 269 €, au-dessus du comparable Oscille FLOVRA (253 €, même modèle en blanc).",
+  "Coloris : valeur Shopify « Grey », valeur brute AliExpress « Riz blanc » ; la photo de propriété montre un teddy gris clair : renommé « Gris clair ».",
+  "Marque Garvee dans les specs et le titre fournisseur (retirée) ; stock faible (6), 0 avis, 1 vente.",
+  "Toutes les cotes viennent du schéma « Product size » (image g01) ; aucune cote dans le texte.",
+  "Silhouette proche de la fiche existante chaise-rocking-chair (accoudoirs pleins, patins bois) : vérifier visuellement l'absence de doublon.",
+  "Le fournisseur parle de « poches » au pluriel ; les visuels n'en montrent qu'une par vue : la fiche écrit « poche latérale »."
+ ],
+ "faits": [
+  {
+   "fait": "Hauteur 104,1 cm ; base 63 × 73 cm ; assise à 49 cm ; accoudoirs à 68 cm ; assise 49 × 48,5 cm ; dossier 66,1 cm ; accoudoir 21,5 cm ; charge 136 kg",
+   "source": "schéma Product size (image g01/d01)"
+  },
+  {
+   "fait": "Dossier haut, appui-tête rembourré, poche latérale, base en bois massif, usage allaitement",
+   "source": "desc.html texte + mobile_detail"
+  },
+  {
+   "fait": "Assemblage facile",
+   "source": "infographie g03"
+  },
+  {
+   "fait": "Colis 63 × 90 × 102 cm, 19 kg",
+   "source": "var package_info_dto"
+  }
+ ]
+}

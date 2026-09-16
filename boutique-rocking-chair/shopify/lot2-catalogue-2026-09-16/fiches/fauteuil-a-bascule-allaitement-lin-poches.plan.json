@@ -1,0 +1,114 @@
+{
+ "pid": "1005012601882433",
+ "gid": "gid://shopify/Product/16616092959065",
+ "handle": "fauteuil-a-bascule-allaitement-lin-poches",
+ "title": "Fauteuil à bascule d'allaitement en lin, poches latérales",
+ "productType": "Fauteuil d'allaitement",
+ "collections": [
+  "fauteuil-allaitement",
+  "fauteuil-a-bascule"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162087522649",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Pink",
+     "new": "Rose",
+     "hex": "#D98C86",
+     "supprimee": true
+    },
+    {
+     "old": "Beige linen",
+     "new": "Lin beige",
+     "hex": "#D8CEBD"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162087555417",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450188857689",
+   "keep": false,
+   "motif": "Pink · stock 0, Germany ; rupture",
+   "price": null,
+   "cout": 162.89
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450188890457",
+   "keep": true,
+   "motif": "Beige linen · stock 99, Germany",
+   "price": 339.0,
+   "cout": 208.91
+  }
+ ],
+ "prix": {
+  "vente": 339,
+  "cout_max": 208.91,
+  "ratio": 1.62,
+  "plancher_1_6": 334.26,
+  "source_prix": "plancher",
+  "comparables": [
+   {
+    "site": "Oscille (NORKA)",
+    "url": "https://oscille.fr/products/fauteuil-a-bascule-relax-tissu-teddy-accoudoirs-appui-tete",
+    "prix": 299,
+    "releve": "2026-09-16",
+    "modele": "proche",
+    "note": "299 € sans repose-pieds, 349 € avec repose-pieds"
+   },
+   {
+    "site": "Oscille (MERINO)",
+    "url": "https://oscille.fr/products/merino-fauteuil-a-bascule-scandinave-velours-cotele-allaitement",
+    "prix": 389,
+    "releve": "2026-09-16",
+    "modele": "proche"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Lin beige",
+ "alertes": [
+  "Prix au plancher (1,6 × 208,91 = 334 €) : 339 €, au-dessus du comparable NORKA (299 €), sous MERINO (389 €).",
+  "Coloris rose (teddy) en rupture : variante supprimée ; la galerie DSers contient des photos roses à retirer.",
+  "Forme proche de la fiche chaise-a-bascule-allaitement-bouclette (Simurq) : contrôle visuel Hakim.",
+  "« Silencieux » et patins « ignifuges » annoncés par le fournisseur : non repris.",
+  "Charge maximale absente ; infographies en allemand/français mêlés."
+ ],
+ "faits": [
+  {
+   "fait": "93 × 68 × 96 cm ; assemblage requis ; 1 fauteuil + notice + outils ; lin (beige) / teddy (rose)",
+   "source": "desc.html Product Specifications"
+  },
+  {
+   "fait": "Dossier 60 cm ; hauteur d'assise 54 cm ; accoudoirs 70 cm du sol ; assise 56 × 52 cm",
+   "source": "schéma de cotes (galerie g01)"
+  },
+  {
+   "fait": "Poches sur les deux accoudoirs, base à bascule en bois massif, patins antidérapants, mousse haute densité",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "Coussin lombaire",
+   "source": "photos + infographie g05"
+  },
+  {
+   "fait": "Colis 72 × 69 × 45 cm, 23,8 kg",
+   "source": "bundle candidat_sourcing.colis"
+  }
+ ]
+}

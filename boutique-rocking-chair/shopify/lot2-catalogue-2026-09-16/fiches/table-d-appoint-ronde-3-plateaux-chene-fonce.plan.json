@@ -1,0 +1,83 @@
+{
+ "pid": "1005013054497567",
+ "gid": "gid://shopify/Product/16616092434777",
+ "handle": "table-d-appoint-ronde-3-plateaux-chene-fonce",
+ "title": "Table d'appoint ronde 3 plateaux, chêne foncé et métal",
+ "productType": "Table d'appoint",
+ "collections": [
+  "table-d-appoint"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162086670681",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Dark Oak",
+     "new": "Chêne foncé",
+     "hex": "#6B4A33"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162086703449",
+   "name_old": "Ships From",
+   "name_new": "Ships From",
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450187514201",
+   "keep": true,
+   "motif": "stock 62, coût 26.78 €, Germany",
+   "price": 49.0,
+   "options": {
+    "Color": "Dark Oak",
+    "Ships From": "Germany"
+   }
+  }
+ ],
+ "prix": {
+  "vente": 49.0,
+  "cout_max": 26.78,
+  "ratio": 1.83,
+  "source_prix": "grille",
+  "comparables": [],
+  "note": "Pas de comparable du même modèle hors marketplace ; grille ~1,8 × coût. 49 € (coût 26,78, ratio 1,83)."
+ },
+ "coloris_couleur_galerie": "Chêne foncé",
+ "alertes": [
+  "Option « Ships From » (une seule valeur) à supprimer.",
+  "Style classique (colonnes tournées, effet rustique) plus éloigné de la DA Veille douce.",
+  "Photo cotée en inch (18,7 in ≈ 47,5 cm) contre 46 cm dans le texte : 46 cm retenu.",
+  "Fiche « Base to top distance 12.5 cm » incohérente : ignorée.",
+  "Photos fournisseur avec livres portant une marque de luxe (« CHANEL ») : visuels à recomposer."
+ ],
+ "faits": [
+  {
+   "fait": "46 × 46 × 60 cm, MDF et métal, chêne foncé",
+   "source": "desc.html Spezifikation"
+  },
+  {
+   "fait": "3 niveaux, pieds colonnes métal",
+   "source": "desc.html Highlights + photos"
+  },
+  {
+   "fait": "Montage par un adulte, notice, resserrer les vis",
+   "source": "desc.html Hinweis"
+  },
+  {
+   "fait": "Colis 6,9 kg",
+   "source": "package_info_dto"
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "pid": "1005012508296904",
+ "gid": "gid://shopify/Product/16616075592025",
+ "handle": "transat-a-bascule-pliable-gris",
+ "title": "Transat à bascule pliable, matelas gris aspect daim",
+ "productType": "Fauteuil relax",
+ "collections": [
+  "fauteuil-relax-jardin"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162064617817",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "DARK GRAY",
+     "new": "Gris anthracite",
+     "hex": "#5A5C5E"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162064650585",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "france",
+     "new": null,
+     "hex": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450098647385",
+   "keep": true,
+   "motif": "Gris anthracite — stock 16, France",
+   "price": 129.0
+  }
+ ],
+ "prix": {
+  "vente": 129,
+  "cout_max": 70.19,
+  "ratio": 1.84,
+  "plancher_1_6": 112.3,
+  "source_prix": "grille",
+  "comparables": [
+   {
+    "site": "123comparer.fr (Aosom, Darty, Fnac, Conforama, Amazon)",
+    "url": "https://www.123comparer.fr/transats-et-bains-de-soleil/gc5dcct3ghadyp338yhdn.html",
+    "prix": 95.9,
+    "releve": "2026-09-16",
+    "modele": "même modèle (réf. 84A-159) ; marque et marketplaces, contexte seulement"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Gris anthracite",
+ "alertes": [
+  "Même modèle vendu 95,90 € par la marque et les grandes enseignes (Amazon 91,10 €) : notre prix grille 129 € (plancher 112 €) est au-dessus du marché, à arbitrer par Hakim",
+  "Marque Outsunny au titre fournisseur",
+  "Dimensions du colis déclarées 93 × 7 × 91 cm (incohérent) : non reprises",
+  "Image de description d05 = bannière vendeur (avis, garantie) : ne pas publier",
+  "Look « piscine » plus que cocooning (réserve sourcing)"
+ ],
+ "faits": [
+  {
+   "fait": "Dimensions 145 × 74 × 86 cm, plié 145 × 40 × 97 cm",
+   "source": "desc.html + image d01"
+  },
+  {
+   "fait": "Hauteur d'assise 36 cm, accoudoirs 50 cm",
+   "source": "desc.html + image d01"
+  },
+  {
+   "fait": "Matelas 166 × 40/51 × 6 cm",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Textilène 560 g/m² résistant UV, 2 butées",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Charge 120 kg",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Appui-tête amovible",
+   "source": "image g02"
+  }
+ ]
+}

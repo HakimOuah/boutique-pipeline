@@ -1,0 +1,119 @@
+{
+ "pid": "1005012891279628",
+ "gid": "gid://shopify/Product/16616092598617",
+ "handle": "fauteuil-allaitement-capitonne-poches",
+ "title": "Fauteuil à bascule d'allaitement capitonné, poches latérales",
+ "productType": "Fauteuil d'allaitement",
+ "collections": [
+  "fauteuil-allaitement",
+  "fauteuil-a-bascule"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162086965593",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Dark Grey",
+     "new": "Gris anthracite",
+     "hex": "#4F5155"
+    },
+    {
+     "old": "Light Grey",
+     "new": "Gris clair",
+     "hex": "#A9ABAE"
+    },
+    {
+     "old": "Beige",
+     "new": "Écru",
+     "hex": "#EDE6D8"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162086998361",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450187841881",
+   "keep": true,
+   "motif": "Dark Grey · stock 7, Germany",
+   "price": 289.0,
+   "cout": 159.88
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450187874649",
+   "keep": true,
+   "motif": "Light Grey · stock 10, Germany",
+   "price": 289.0,
+   "cout": 159.88
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450187907417",
+   "keep": true,
+   "motif": "Beige · stock 10, Germany",
+   "price": 289.0,
+   "cout": 159.88
+  }
+ ],
+ "prix": {
+  "vente": 289,
+  "cout_max": 159.88,
+  "ratio": 1.81,
+  "plancher_1_6": 255.81,
+  "source_prix": "comparable",
+  "comparables": [
+   {
+    "site": "Oscille (NORKA)",
+    "url": "https://oscille.fr/products/fauteuil-a-bascule-relax-tissu-teddy-accoudoirs-appui-tete",
+    "prix": 299,
+    "releve": "2026-09-16",
+    "modele": "proche",
+    "note": "299 € sans repose-pieds, 349 € avec repose-pieds"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Écru",
+ "alertes": [
+  "Titre DSers/fournisseur annonce « White » et « Garvee » : marque tierce à retirer ; la variante « Beige » est en réalité une bouclette écrue (photo), les deux gris sont en tissu lisse.",
+  "Étiquette « NORDIC » visible sur la poche latérale de 2 visuels (d12/g00) : ne pas utiliser ces images telles quelles.",
+  "Le dossier est capitonné à boutons (photos), pas « matelassé en bandes » comme le note le dossier de sourcing.",
+  "Cotes lues sur le schéma en pouces (converties en cm) ; charge maximale et hauteur d'accoudoirs absentes.",
+  "Stock faible : 7 à 10 par coloris.",
+  "0 avis, 1 vente, fournisseur à tester."
+ ],
+ "faits": [
+  {
+   "fait": "Hauteur 33,86\" = 86 cm ; dossier 25,2\" = 64 cm × 20,08\" = 51 cm ; assise 19,69\" × 19,49\" = 50 × 49,5 cm ; hauteur d'assise 20,87\" = 53 cm ; base 25,98\" × 25,59\" = 66 × 65 cm",
+   "source": "schéma de cotes (image desc d09 / galerie g03)"
+  },
+  {
+   "fait": "Pieds à bascule en bois d'hévéa (rubber wood), dossier haut, siège rembourré, poches latérales",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "Patins antidérapants",
+   "source": "image desc d12 « Non-slip Pad »"
+  },
+  {
+   "fait": "Structure bois",
+   "source": "desc.html SPECIFICATIONS Frame Material"
+  },
+  {
+   "fait": "Colis 74 × 55 × 46 cm, 25 kg",
+   "source": "var package_info_dto"
+  }
+ ]
+}

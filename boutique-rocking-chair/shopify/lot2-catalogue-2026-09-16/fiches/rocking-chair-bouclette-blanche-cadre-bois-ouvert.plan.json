@@ -1,0 +1,89 @@
+{
+ "pid": "1005013025227014",
+ "gid": "gid://shopify/Product/16616075985241",
+ "handle": "rocking-chair-bouclette-blanche-cadre-bois-ouvert",
+ "title": "Rocking chair en bouclette blanche, cadre en bois ouvert",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "rocking-chair-design-scandinave"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162065207641",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "WHITE",
+     "new": "Blanc crème",
+     "hex": "#F3EFE6"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162065240409",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "france",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450100220249",
+   "keep": true,
+   "motif": "stock 30, france",
+   "cout": 97.17,
+   "price": 349.0
+  }
+ ],
+ "prix": {
+  "vente": 349,
+  "cout_max": 97.17,
+  "ratio": 3.59,
+  "plancher_1_6": 155.47,
+  "grille_1_8": 174.91,
+  "source_prix": "comparable",
+  "comparables": [
+   {
+    "site": "Oscille (NORDEN)",
+    "url": "https://oscille.fr/products/rocking-chair-design-nordique-en-bois-d-hevea-tissu-bouclette-creme-norden",
+    "prix": 375,
+    "releve": "2026-09-16",
+    "modele": "même modèle",
+    "note": "bouclette crème, cadre ouvert en hévéa"
+   },
+   {
+    "site": "meubles.fr (contexte : Aosom 121,90 €, Maisons du Monde 124,90 €, Cdiscount 124,90 €)",
+    "url": "https://www.meubles.fr/sejour/fauteuils/fauteuil-a-bascule?data-sheet=7b18a9faacc719c86042567c6aa6368e",
+    "prix": 121.9,
+    "releve": "2026-09-16",
+    "modele": "même modèle",
+    "note": "marque officielle et marketplaces, exclues comme référence"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Blanc crème (variante unique)",
+ "alertes": [
+  "ALERTE PRIX : prix calé sous Oscille NORDEN (375 €) mais le même modèle HOMCOM (réf. 839-227) est vendu 121,90 € (Aosom) et 124,90 € (Maisons du Monde, Cdiscount) : fort risque de comparaison sur Google Shopping. Ratio 3,59 : à arbitrer par Hakim (le plancher serait 159 €).",
+  "Produit HOMCOM (marque dans le titre et le texte) ; specs incohérentes (« Âge 0-36 mois »).",
+  "Le titre fournisseur dit « fauteuil d'allaitement » : repris avec retenue (dossier bas de 38 cm).",
+  "0 avis, 0 vente, stock 30."
+ ],
+ "faits": [
+  {
+   "fait": "60 × 81 × 71 cm ; assise 53 × 50 × 46 cm ; dossier 48 × 38 cm ; accoudoirs à 65 cm ; coussin 14,5 cm ; 150 kg ; bascule 90–135° ; hévéa, effet laine bouclée 100 % polyester ; à monter soi-même ; manuel",
+   "source": "desc.html texte + schéma g05"
+  },
+  {
+   "fait": "Colis 105 × 65 × 25 cm, 15,3 kg",
+   "source": "var package_info_dto"
+  }
+ ]
+}

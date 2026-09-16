@@ -1,0 +1,20 @@
+mutation {
+  x66_m: metafieldsSet(metafields:[{ownerId:"gid://shopify/ProductVariant/59450187579737", namespace:"color", key:"hexcode", type:"color", value:"#7A4E2D"}]) { userErrors { field message } }
+  x67_ou0: productOptionUpdate(productId:"gid://shopify/Product/16616092434777", option:{id:"gid://shopify/ProductOption/19162086670681", name:"Couleur"}, optionValuesToUpdate:[{id:"gid://shopify/ProductOptionValue/16570962575705", name:"Chêne foncé"}]) { userErrors { field message code } }
+  x67_od1: productOptionsDelete(productId:"gid://shopify/Product/16616092434777", options:["gid://shopify/ProductOption/19162086703449"], strategy:DEFAULT) { userErrors { field message code } }
+  x67_u: productVariantsBulkUpdate(productId:"gid://shopify/Product/16616092434777", variants:[{id:"gid://shopify/ProductVariant/59450187514201", price:"49.00", inventoryPolicy:DENY}]) { userErrors { field message } }
+  x67_m: metafieldsSet(metafields:[{ownerId:"gid://shopify/ProductVariant/59450187514201", namespace:"color", key:"hexcode", type:"color", value:"#6B4A33"}]) { userErrors { field message } }
+  x68_ou0: productOptionUpdate(productId:"gid://shopify/Product/16616092336473", option:{id:"gid://shopify/ProductOption/19162086506841", name:"Couleur"}, optionValuesToUpdate:[{id:"gid://shopify/ProductOptionValue/16570962313561", name:"Blanc"}]) { userErrors { field message code } }
+  x68_od1: productOptionsDelete(productId:"gid://shopify/Product/16616092336473", options:["gid://shopify/ProductOption/19162086539609"], strategy:DEFAULT) { userErrors { field message code } }
+  x68_u: productVariantsBulkUpdate(productId:"gid://shopify/Product/16616092336473", variants:[{id:"gid://shopify/ProductVariant/59450187383129", price:"49.00", inventoryPolicy:DENY}]) { userErrors { field message } }
+  x68_m: metafieldsSet(metafields:[{ownerId:"gid://shopify/ProductVariant/59450187383129", namespace:"color", key:"hexcode", type:"color", value:"#F4F4F2"}]) { userErrors { field message } }
+  x69_d: productVariantsBulkDelete(productId:"gid://shopify/Product/16616092565849", variantsIds:["gid://shopify/ProductVariant/59450187809113"]) { userErrors { field message } }
+  x69_ou0: productOptionUpdate(productId:"gid://shopify/Product/16616092565849", option:{id:"gid://shopify/ProductOption/19162086900057", name:"Couleur"}, optionValuesToUpdate:[{id:"gid://shopify/ProductOptionValue/16570963067225", name:"Blanc et bambou"}]) { userErrors { field message code } }
+  x69_od1: productOptionsDelete(productId:"gid://shopify/Product/16616092565849", options:["gid://shopify/ProductOption/19162086932825"], strategy:DEFAULT) { userErrors { field message code } }
+  x69_u: productVariantsBulkUpdate(productId:"gid://shopify/Product/16616092565849", variants:[{id:"gid://shopify/ProductVariant/59450187776345", price:"69.00", inventoryPolicy:DENY}]) { userErrors { field message } }
+  x69_m: metafieldsSet(metafields:[{ownerId:"gid://shopify/ProductVariant/59450187776345", namespace:"color", key:"hexcode", type:"color", value:"#F4F4F2"}]) { userErrors { field message } }
+  x70_ou0: productOptionUpdate(productId:"gid://shopify/Product/16616075592025", option:{id:"gid://shopify/ProductOption/19162064617817", name:"Couleur"}, optionValuesToUpdate:[{id:"gid://shopify/ProductOptionValue/16570874659161", name:"Gris anthracite"}]) { userErrors { field message code } }
+  x70_od1: productOptionsDelete(productId:"gid://shopify/Product/16616075592025", options:["gid://shopify/ProductOption/19162064650585"], strategy:DEFAULT) { userErrors { field message code } }
+  x70_u: productVariantsBulkUpdate(productId:"gid://shopify/Product/16616075592025", variants:[{id:"gid://shopify/ProductVariant/59450098647385", price:"129.00", inventoryPolicy:DENY}]) { userErrors { field message } }
+  x70_m: metafieldsSet(metafields:[{ownerId:"gid://shopify/ProductVariant/59450098647385", namespace:"color", key:"hexcode", type:"color", value:"#5A5C5E"}]) { userErrors { field message } }
+}

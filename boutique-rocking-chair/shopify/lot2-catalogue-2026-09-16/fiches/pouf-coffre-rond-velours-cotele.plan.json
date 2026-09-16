@@ -1,0 +1,144 @@
+{
+ "pid": "1005013146637098",
+ "gid": "gid://shopify/Product/16616056652121",
+ "handle": "pouf-coffre-rond-velours-cotele",
+ "title": "Pouf coffre rond en velours côtelé, 32 L",
+ "productType": "Pouf",
+ "collections": [
+  "pouf",
+  "repose-pieds"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162043089241",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Beige",
+     "new": "Beige sable",
+     "hex": "#D8C8AE",
+     "supprimee": false
+    },
+    {
+     "old": "LIGHT GRAY",
+     "new": "Gris clair",
+     "hex": "#BFBFBF",
+     "supprimee": false
+    },
+    {
+     "old": "light blue",
+     "new": "Bleu ciel",
+     "hex": "#A9C6CC",
+     "supprimee": false
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162043122009",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "spain",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59449961709913",
+   "options": {
+    "Color": "Beige",
+    "Ships From": "spain"
+   },
+   "keep": true,
+   "motif": "stock 48, Espagne (Beige sable)",
+   "price": 49.0,
+   "cout": 25.04
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59449961742681",
+   "options": {
+    "Color": "LIGHT GRAY",
+    "Ships From": "spain"
+   },
+   "keep": true,
+   "motif": "stock 54, Espagne (Gris clair)",
+   "price": 49.0,
+   "cout": 22.44
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59449961775449",
+   "options": {
+    "Color": "light blue",
+    "Ships From": "spain"
+   },
+   "keep": true,
+   "motif": "stock 45, Espagne (Bleu ciel)",
+   "price": 49.0,
+   "cout": 24.18
+  }
+ ],
+ "prix": {
+  "vente": 49,
+  "cout_max": 25.04,
+  "ratio": 1.96,
+  "plancher_1_6": 40.06,
+  "source_prix": "grille",
+  "comparables": [
+   {
+    "site": "Beaumont Concept",
+    "url": "https://beaumont-concept.com/products/tabouret-pouf-velours-cotele",
+    "prix": 69,
+    "releve": "2026-09-16",
+    "modele": "éloigné (tabouret velours côtelé sur pieds, sans coffre) : contexte"
+   },
+   {
+    "site": "Conforama (marketplace, contexte)",
+    "url": "https://www.conforama.fr/canape-salon-sejour/sejour/tabouret/pouf-coffre-de-rangement-velours-cotele-dim-40-x-40-x-40-cm-gris/p/O13943599",
+    "prix": null,
+    "releve": "2026-09-16",
+    "modele": "modèle voisin de la même gamme (40 × 40 × 40 cm), prix non relevé"
+   }
+  ]
+ },
+ "livraison": "Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.",
+ "coloris_couleur_galerie": "Bleu ciel",
+ "alertes": [
+  "Aucun comparable indépendant du même modèle : prix de grille (1,8 × 25,04 € → 49 €). Prix bas face au positionnement du parc, à arbitrer.",
+  "Contradiction montage : « Assembly Required : No » mais le texte annonce un montage en 10 minutes. Le montage n’est pas mentionné dans la fiche.",
+  "Contradiction structure : attribut « Frame Material : Wood », texte « structure en acier ». La fiche ne cite pas la structure.",
+  "Seul le bleu ciel a une photo de coloris propre ; le prix DS réel est à reconfirmer au panier (écart signalé au sourcing).",
+  "Marque HOMCOM dans le titre fournisseur : retirée. Une image de description est une plaquette commerciale espagnole à ne pas importer."
+ ],
+ "faits": [
+  {
+   "fait": "Diamètre 40 cm, hauteur 41 cm",
+   "source": "desc.html + photo cotée"
+  },
+  {
+   "fait": "Rangement Ø33 × 30 cm, 32 L",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Charge max. 120 kg",
+   "source": "desc.html + photo"
+  },
+  {
+   "fait": "Velours côtelé 100 % polyester, mousse",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Coloris beige, gris clair, bleu ciel",
+   "source": "variantes"
+  },
+  {
+   "fait": "Colis 41 × 17 × 41 cm, 4,7 kg",
+   "source": "var package_info"
+  }
+ ]
+}

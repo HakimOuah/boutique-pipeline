@@ -1,0 +1,88 @@
+{
+ "pid": "1005012638731688",
+ "gid": "gid://shopify/Product/16616092500313",
+ "handle": "table-d-appoint-bambou-hauteur-reglable",
+ "title": "Table d'appoint en bambou, hauteur réglable et pivotante",
+ "productType": "Table d'appoint",
+ "collections": [
+  "table-d-appoint"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162086801753",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Log Color",
+     "new": "Bambou naturel",
+     "hex": "#D2A86A"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162086834521",
+   "name_old": "Ships From",
+   "name_new": "Ships From",
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450187710809",
+   "keep": true,
+   "motif": "stock 20, coût 28.87 €, Germany",
+   "price": 49.0,
+   "options": {
+    "Color": "Log Color",
+    "Ships From": "Germany"
+   }
+  }
+ ],
+ "prix": {
+  "vente": 49.0,
+  "cout_max": 28.87,
+  "ratio": 1.7,
+  "source_prix": "grille",
+  "comparables": [],
+  "note": "Pas de comparable du même modèle hors marketplace ; grille ~1,8 × coût. 49 € (coût 28,87, ratio 1,70). Contexte : Costway, ManoMano (C réglables pivotants)."
+ },
+ "coloris_couleur_galerie": "Bambou naturel",
+ "alertes": [
+  "Option « Ships From » (une seule valeur) à supprimer.",
+  "Charge 40 kg affirmée partout par le fournisseur sur un pied unique : à vérifier sur échantillon avant de la mettre en avant.",
+  "Allégation ergonomique du fournisseur (fatigue épaules, nuque) non reprise.",
+  "Schéma de montage en anglais : prévoir un guide de montage numérique.",
+  "Photos avec texte anglais incrusté et verre de vin : visuels à recomposer.",
+  "Stock 20, 5 ventes."
+ ],
+ "faits": [
+  {
+   "fait": "Plateau 40 × 22 cm, hauteur 42-82 cm, base 36 × 22 cm, 40 kg",
+   "source": "desc.html Specification"
+  },
+  {
+   "fait": "Pivotant 360°, rainures, rebords légèrement surélevés",
+   "source": "desc.html + photos g1, g3, g7"
+  },
+  {
+   "fait": "Bambou + fer, poncé poli peint, résiste à la rouille",
+   "source": "desc.html Build to Last"
+  },
+  {
+   "fait": "Patins antidérapants, base fine",
+   "source": "desc.html Details"
+  },
+  {
+   "fait": "Poids net 1,7 kg, colis 42 × 30 × 4,5 cm 1,9 kg",
+   "source": "desc.html"
+  }
+ ]
+}

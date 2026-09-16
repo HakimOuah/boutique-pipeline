@@ -1,0 +1,123 @@
+{
+ "pid": "1005012523384767",
+ "gid": "gid://shopify/Product/16616075886937",
+ "handle": "fauteuil-suspendu-tissu-sur-pied",
+ "title": "Fauteuil suspendu sur pied en tissu imperméable, pliable",
+ "productType": "Fauteuil cocon",
+ "collections": [
+  "fauteuil-cocon",
+  "fauteuil-relax-jardin"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162065043801",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Kaffeebraun",
+     "new": "Brun café",
+     "hex": "#6B4A35"
+    },
+    {
+     "old": "Taupe",
+     "new": "Taupe",
+     "hex": "#A8927A"
+    },
+    {
+     "old": "Beige",
+     "new": "Beige sable",
+     "hex": "#E3D6B0"
+    },
+    {
+     "old": "Anthrazit",
+     "new": "Anthracite",
+     "hex": "#5E656B"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162065076569",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "france",
+     "new": null,
+     "hex": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450099630425",
+   "keep": true,
+   "motif": "Brun café — stock 8, France",
+   "price": 349.0
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450099663193",
+   "keep": true,
+   "motif": "Taupe — stock 6, France",
+   "price": 349.0
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450099695961",
+   "keep": true,
+   "motif": "Beige sable — stock 8, France",
+   "price": 349.0
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450099728729",
+   "keep": true,
+   "motif": "Anthracite — stock 7, France",
+   "price": 349.0
+  }
+ ],
+ "prix": {
+  "vente": 349,
+  "cout_max": 192.55,
+  "ratio": 1.81,
+  "plancher_1_6": 308.08,
+  "source_prix": "grille",
+  "comparables": []
+ },
+ "coloris_couleur_galerie": "Taupe",
+ "alertes": [
+  "Charge maximale absente de toutes les sources",
+  "Texte « livré entièrement assemblé » contredit par « Installation Method: Assembly » et l'image « Complete Assembly Kit » : la fiche dit « livré complet avec la visserie », montage à vérifier",
+  "Coût différent selon coloris (179,59 à 192,55 €) : prix unique calé sur l'anthracite (plancher 308 €) ; retirer l'anthracite permettrait de descendre à 319 €",
+  "Stock faible : 6 à 8 par coloris ; boutique notée 3,8/4,2/4,8",
+  "Textes allemands sur les images (« Hängendes Ei-Stul Kaffeebraun »)",
+  "Coloris d'après les photos de variantes : le « Beige » tire vers un jaune pâle"
+ ],
+ "faits": [
+  {
+   "fait": "Hauteur 197 cm, emprise 108 × 94 cm, assise 71 × 52 cm",
+   "source": "image d07/g07 cotée"
+  },
+  {
+   "fait": "94 × 107 × 196,5 cm",
+   "source": "image d02/d03"
+  },
+  {
+   "fait": "Structure acier, revêtement polyester imperméable, coussin inclus, pliable",
+   "source": "mobile_detail/desc"
+  },
+  {
+   "fait": "Livré avec structure, revêtement, coussin, chaînes, visserie",
+   "source": "desc"
+  },
+  {
+   "fait": "Entretien chiffon humide, housse recommandée",
+   "source": "desc"
+  },
+  {
+   "fait": "Colis 115 × 59 × 24 cm, 21,6 kg",
+   "source": "candidat_sourcing.colis"
+  }
+ ]
+}

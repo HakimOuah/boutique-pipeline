@@ -1,0 +1,79 @@
+{
+ "pid": "1005012986755372",
+ "gid": "gid://shopify/Product/16616074936665",
+ "handle": "fauteuil-relax-aspect-lin-creme",
+ "title": "Fauteuil relax en tissu aspect lin crème, repose-pieds",
+ "productType": "Fauteuil relax",
+ "collections": [
+  "fauteuil-relax"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162063667545",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null,
+     "hex": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450093732185",
+   "keep": true,
+   "motif": "stock 31, Allemagne",
+   "price": 309.0
+  }
+ ],
+ "prix": {
+  "vente": 309,
+  "cout_max": 171.73,
+  "ratio": 1.8,
+  "plancher_1_6": 274.77,
+  "source_prix": "grille",
+  "comparables": []
+ },
+ "coloris_couleur_galerie": "Crème (coloris unique)",
+ "alertes": [
+  "Marque HOMCOM dans le titre fournisseur et sur les images : vérifier l'absence de logo visible avant publication",
+  "Image de description d07 = bannière vendeur (garantie 3 ans, services, avis) : ne pas publier",
+  "SPECIFICATIONS indique « Frame Material: Wood » alors que le texte annonce une structure acier + panneaux multiplis : fiche rédigée « acier et panneaux multiplis »",
+  "Poche latérale visible sur les photos, absente du texte fournisseur",
+  "Aucun comparable indépendant trouvé (recherches par référence 83B-595V00CW) : prix grille"
+ ],
+ "faits": [
+  {
+   "fait": "Dimensions 73 × 86 × 100 cm, inclinées 73 × 158 × 74 cm",
+   "source": "desc.html Especificaciones + image d03"
+  },
+  {
+   "fait": "Assise 51 × 56 cm, hauteur 46 cm",
+   "source": "desc.html + image d03"
+  },
+  {
+   "fait": "Inclinaison 145°, repose-pieds intégré, verrouillage en appuyant avec les jambes",
+   "source": "desc.html Características"
+  },
+  {
+   "fait": "Charge 120 kg, taille jusqu'à 185 cm",
+   "source": "desc.html + image d03"
+  },
+  {
+   "fait": "Tissu aspect lin 100 % polyester, mousse, acier, panneaux multiplis",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Montage 5 minutes à deux",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Colis 77 × 73 × 55 cm, 27,5 kg",
+   "source": "var package_info_dto"
+  }
+ ]
+}

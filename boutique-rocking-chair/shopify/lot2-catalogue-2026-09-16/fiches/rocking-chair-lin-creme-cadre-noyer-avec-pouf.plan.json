@@ -1,0 +1,88 @@
+{
+ "pid": "1005012449604570",
+ "gid": "gid://shopify/Product/16616075952473",
+ "handle": "rocking-chair-lin-creme-cadre-noyer-avec-pouf",
+ "title": "Rocking chair en lin crème et bois teinte noyer, avec pouf",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "rocking-chair-bois-rotin",
+  "rocking-chair-repose-pieds"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162065142105",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Poland",
+     "new": null
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162065174873",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "FXC6CJYNFUPLM0",
+     "new": "Crème",
+     "hex": "#EAE3D6"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450100121945",
+   "keep": true,
+   "motif": "stock 15, Poland",
+   "cout": 227.17,
+   "price": 369.0
+  }
+ ],
+ "prix": {
+  "vente": 369,
+  "cout_max": 227.17,
+  "ratio": 1.62,
+  "plancher_1_6": 363.47,
+  "grille_1_8": 408.91,
+  "source_prix": "plancher",
+  "comparables": [
+   {
+    "site": "Oscille (KANOA CHAIR)",
+    "url": "https://oscille.fr/products/rocking-chair-retro-en-tissu-vert-cadre-en-bois-massif-kanoa-chair",
+    "prix": 399,
+    "releve": "2026-09-16",
+    "modele": "proche",
+    "note": "rétro, cadre bois massif, sans pouf"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Crème (variante unique)",
+ "alertes": [
+  "ALERTE COLIS : colis déclaré 5 × 5 × 5 cm pour 18,5 kg (fictif) ; faire confirmer le colis réel par le vendeur avant test.",
+  "Coloris codé « FXC6CJYNFUPLM0 », valeur brute AliExpress « Vert armée », titre « Beige » : la photo de propriété montre un tissu crème : renommé « Crème ».",
+  "Prix au plancher : 1,6 × 227,17 = 363,47 € → 369 € (coût le plus élevé du lot hors cuir) ; même modèle signalé en France à 283,59 € sur AliExpress par le sourcing.",
+  "Specs contradictoires : « Frame Material : Plastic » et « Origin : Fr » alors que le texte décrit un cadre en hévéa massif : la fiche suit le texte.",
+  "Aucune dimension du fauteuil ni du pouf : seules les épaisseurs de coussin (20 et 14 cm, visuel) sont connues.",
+  "Boutique MintGreen 3,9/4,1/4,3, 0 avis, 0 vente, stock 15."
+ ],
+ "faits": [
+  {
+   "fait": "Cadre hévéa massif (fauteuil et pouf), 150 kg / 80 kg, bascule 40°, patins feutre, pieds réglables, coton-lin, mousse haute densité et ressorts, pouf repose-pieds/table/assise, poche amovible",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "Coussins 20 cm (assise) et 14 cm (pouf)",
+   "source": "visuel g07"
+  },
+  {
+   "fait": "Teinte noyer du bois, tissu crème",
+   "source": "photos g00–g06"
+  }
+ ]
+}

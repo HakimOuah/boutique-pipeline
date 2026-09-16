@@ -1,0 +1,137 @@
+{
+ "pid": "1005012649367497",
+ "gid": "gid://shopify/Product/16616057307481",
+ "handle": "fauteuil-pouf-bouclette-sherpa-matelasse",
+ "title": "Fauteuil pouf matelassé en bouclette sherpa",
+ "productType": "Pouf",
+ "collections": [
+  "pouf-poire",
+  "pouf"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162044072281",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Beige",
+     "new": "Beige crème",
+     "hex": "#D9CDB5",
+     "supprimee": false
+    },
+    {
+     "old": "Green",
+     "new": "Vert mousse",
+     "hex": "#3E5A34",
+     "supprimee": true
+    },
+    {
+     "old": "Pink",
+     "new": "Rose poudré",
+     "hex": "#E3B7B8",
+     "supprimee": false
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162044105049",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59449964331353",
+   "options": {
+    "Color": "Beige",
+    "Ships From": "Germany"
+   },
+   "keep": true,
+   "motif": "stock 16, Allemagne (Beige crème)",
+   "price": 319.0,
+   "cout": 155.86
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59449964364121",
+   "options": {
+    "Color": "Green",
+    "Ships From": "Germany"
+   },
+   "keep": false,
+   "motif": "stock 0, Allemagne, rupture (Vert mousse)",
+   "price": null,
+   "cout": 182.16
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59449964396889",
+   "options": {
+    "Color": "Pink",
+    "Ships From": "Germany"
+   },
+   "keep": true,
+   "motif": "stock 23, Allemagne (Rose poudré)",
+   "price": 319.0,
+   "cout": 178.09
+  }
+ ],
+ "prix": {
+  "vente": 319,
+  "cout_max": 178.09,
+  "ratio": 1.79,
+  "plancher_1_6": 284.94,
+  "source_prix": "grille",
+  "comparables": [
+   {
+    "site": "Designix",
+    "url": "https://designix.fr/collections/fauteuil-togo",
+    "prix": 149,
+    "releve": "2026-09-16",
+    "modele": "proche annoncé « dès 149 € », collection vide au relevé : contexte"
+   }
+  ]
+ },
+ "livraison": "Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.",
+ "coloris_couleur_galerie": "Beige crème",
+ "alertes": [
+  "Silhouette matelassée proche d’un fauteuil design célèbre : aucun nom de modèle déposé dans la fiche (ni titre, ni texte, ni ALT).",
+  "Cotes : attribut 110 × 85 × 79 cm, image cotée 86 cm de large, 75 cm de haut, assise à 37,5 cm. La fiche publie les cotes de l’image ; hauteur à confirmer (75 ou 79 cm).",
+  "Vert en rupture (stock 0) : supprimé. Rose poudré gardé (cohérent avec le teddy rose du catalogue).",
+  "Description vide, marque KeepGoon en attribut ; boutique Werk 4,1/4,3/4,5 sous le seuil sur une note.",
+  "Pas de comparable indépendant chiffré : grille (1,8 × 178,09 € → 319 €)."
+ ],
+ "faits": [
+  {
+   "fait": "Largeur 86 cm, hauteur 75 cm, hauteur d’assise 37,5 cm, dossier 51 cm",
+   "source": "image cotée"
+  },
+  {
+   "fait": "Attribut dimensions 110 × 85 × 79 cm",
+   "source": "attribut (contradictoire)"
+  },
+  {
+   "fait": "Bouclette sherpa (Teddy plush)",
+   "source": "attribut + images"
+  },
+  {
+   "fait": "Base antidérapante, surpiqûres matelassées",
+   "source": "image description"
+  },
+  {
+   "fait": "Livré sans montage (Installation : self-contained)",
+   "source": "attribut"
+  },
+  {
+   "fait": "Colis 100 × 30 × 29 cm, 12,8 kg",
+   "source": "var package_info"
+  }
+ ]
+}

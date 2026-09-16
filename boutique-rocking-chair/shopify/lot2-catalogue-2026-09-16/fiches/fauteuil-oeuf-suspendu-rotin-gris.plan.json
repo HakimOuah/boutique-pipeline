@@ -1,0 +1,108 @@
+{
+ "pid": "1005011870884355",
+ "gid": "gid://shopify/Product/16616075821401",
+ "handle": "fauteuil-oeuf-suspendu-rotin-gris",
+ "title": "Fauteuil œuf suspendu sur pied, rotin gris ou noir",
+ "productType": "Fauteuil cocon",
+ "collections": [
+  "fauteuil-cocon"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162064945497",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "GRAY",
+     "new": "Gris",
+     "hex": "#8A8C8E"
+    },
+    {
+     "old": "black",
+     "new": "Noir",
+     "hex": "#2B2B2B"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162064978265",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null,
+     "hex": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450099564889",
+   "keep": true,
+   "motif": "Gris — stock 30, Allemagne",
+   "price": 219.0
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450099597657",
+   "keep": true,
+   "motif": "Noir — stock 30, Allemagne",
+   "price": 219.0
+  }
+ ],
+ "prix": {
+  "vente": 219,
+  "cout_max": 136.19,
+  "ratio": 1.61,
+  "plancher_1_6": 217.9,
+  "source_prix": "plancher",
+  "comparables": [
+   {
+    "site": "idmarket.com",
+    "url": "https://www.idmarket.com/5077-fauteuil-oeuf-suspendu-ajoure-effet-rotin-avec-coussin-gris-3662897045075.html",
+    "prix": 159.99,
+    "releve": "2026-09-16",
+    "modele": "proche (fauteuil œuf suspendu sur pied effet rotin, 100 × 105 × 200 cm, 120 kg)"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Gris",
+ "alertes": [
+  "Prix : le comparable proche (159,99 €) est sous le plancher (1,6 × 136,19 = 218 €) : prix plancher 219 €",
+  "Logo WOLTU sur les images d02 / g08 : à écarter",
+  "Images bannières « DESCRIPTION » et « PHOTO SHOW » (d00, d01, g06, g07) : à supprimer",
+  "Dimensions : SPECIFICATIONS 102 × 100 × 196 cm, images 105 × 105 × 195 cm (nacelle 90 × 107) : fiche d'après les images",
+  "Les deux coloris sont sombres, plus froids que la DA",
+  "Silhouette très courante (au moins 5 vendeurs)"
+ ],
+ "faits": [
+  {
+   "fait": "Nacelle 90 × 107 cm, pied 105 × 105 × 195 cm",
+   "source": "images d03/g05"
+  },
+  {
+   "fait": "Charge 150 kg",
+   "source": "desc.html + images"
+  },
+  {
+   "fait": "Tubes acier galvanisé Ø 42 × 2,5 mm, 4 branches, patins",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Ressort, balancement 360°, hauteur réglable par 2 chaînes",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Housses polyester imperméables amovibles et lavables",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Colis 116 × 58 × 22 cm, 20,85 kg",
+   "source": "candidat_sourcing.colis"
+  }
+ ]
+}

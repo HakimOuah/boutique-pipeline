@@ -1,0 +1,92 @@
+{
+ "pid": "1005012903717125",
+ "gid": "gid://shopify/Product/16616057536857",
+ "handle": "repose-pieds-vintage-lin-beige",
+ "title": "Repose-pieds vintage capitonné aspect lin beige",
+ "productType": "Repose-pieds",
+ "collections": [
+  "repose-pieds",
+  "accessoires-rocking-chair"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162044367193",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Beige",
+     "new": "Beige lin",
+     "hex": "#D9CFBE",
+     "supprimee": false
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162044399961",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "spain",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59449964560729",
+   "options": {
+    "Color": "Beige",
+    "Ships From": "spain"
+   },
+   "keep": true,
+   "motif": "stock 56, Espagne (Beige lin)",
+   "price": 169.0,
+   "cout": 91.29
+  }
+ ],
+ "prix": {
+  "vente": 169,
+  "cout_max": 91.29,
+  "ratio": 1.85,
+  "plancher_1_6": 146.06,
+  "source_prix": "grille",
+  "comparables": []
+ },
+ "livraison": "Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.",
+ "coloris_couleur_galerie": "Beige lin",
+ "alertes": [
+  "Le titre et les spécifications annoncent « pivotant » et « réglable en hauteur », mais les photos montrent un tabouret à 4 pieds bois fixes : ces fonctions ne sont pas reprises dans la fiche. À clarifier avant publication.",
+  "Boutique EuroPick sans note, 0 vente. Pas de comparable du même modèle : grille (1,8 × 91,29 € → 169 €)."
+ ],
+ "faits": [
+  {
+   "fait": "40 × 40 × 43 cm",
+   "source": "desc.html + image cotée"
+  },
+  {
+   "fait": "Tissu aspect lin respirant, coussin en mousse épaisse",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Pieds en bois sculpté, style vintage",
+   "source": "desc.html + photos"
+  },
+  {
+   "fait": "Assise capitonnée",
+   "source": "photos"
+  },
+  {
+   "fait": "Montage selon notice",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Colis 54 × 15 × 42 cm, 5,9 kg",
+   "source": "var package_info"
+  }
+ ]
+}

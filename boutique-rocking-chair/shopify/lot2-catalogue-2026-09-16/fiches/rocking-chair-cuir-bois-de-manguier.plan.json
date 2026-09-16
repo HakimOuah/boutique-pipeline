@@ -1,0 +1,83 @@
+{
+ "pid": "1005012370122212",
+ "gid": "gid://shopify/Product/16616086241625",
+ "handle": "rocking-chair-cuir-bois-de-manguier",
+ "title": "Rocking chair en cuir et bois de manguier massif",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "rocking-chair-bois-rotin"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162079101273",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162079134041",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "57 x 85 x 75 cm",
+     "new": "Cognac",
+     "hex": "#8A4B2A"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450164019545",
+   "keep": true,
+   "motif": "stock 10, Germany",
+   "cout": 239.17,
+   "price": 389.0
+  }
+ ],
+ "prix": {
+  "vente": 389,
+  "cout_max": 239.17,
+  "ratio": 1.63,
+  "plancher_1_6": 382.67,
+  "grille_1_8": 430.51,
+  "source_prix": "plancher",
+  "comparables": [
+   {
+    "site": "vidaXL.fr (marque/marketplace, contexte)",
+    "url": "https://www.vidaxl.fr/e/vidaxl-chaise-a-bascule-marron-cuir-veritable-et-manguier-massif/8719883667195.html",
+    "prix": 213.99,
+    "releve": "2026-09-16",
+    "modele": "même modèle",
+    "note": "exclu comme référence ; aussi chez Truffaut (indisponible) et directachat56.fr (~160 € selon l'extrait de recherche, non vérifié)"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Cognac (variante unique)",
+ "alertes": [
+  "ALERTE PRIX : coût DS 239,17 € supérieur au prix public du même modèle chez vidaXL (213,99 €) ; plancher 1,6 × = 382,67 € → 389 €. Produit non compétitif : publication déconseillée sans nouveau fournisseur.",
+  "ALERTE COLIS : colis déclaré 1 kg / 40 × 30 × 20 cm pour un fauteuil en bois massif : incohérent, à faire confirmer par le vendeur.",
+  "Coloris : la valeur Shopify est une cote (« 57 x 85 x 75 cm ») ; valeur brute « marron olive » ; photo : cuir marron cognac + toile grise : renommé « Cognac ».",
+  "Produit vidaXL (texte catalogue revendeur) : vérifier l'absence de marque sur les photos. « Cuir véritable » annoncé par la source : à valider par Hakim avant publication.",
+  "Le fournisseur précise que la livraison du coloris/veinage est aléatoire (pièce unique) : repris comme « chaque pièce est unique ».",
+  "Boutique ScapeTale, 0 vente, 0 avis, stock 10."
+ ],
+ "faits": [
+  {
+   "fait": "Cuir véritable et toile, manguier massif, 57 × 85 × 75 cm, 110 kg, accoudoirs, coussin amovible, montage facile, couleurs variables, risque flammes",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "Coussins cuir marron + toile grise",
+   "source": "photos g00/g04"
+  }
+ ]
+}

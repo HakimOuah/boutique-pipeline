@@ -1,0 +1,86 @@
+{
+ "pid": "1005012630073012",
+ "gid": "gid://shopify/Product/16616085455193",
+ "handle": "fauteuil-a-bascule-inclinable-velours-cotele-terracotta",
+ "title": "Fauteuil à bascule inclinable en velours côtelé terracotta",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "fauteuil-a-bascule",
+  "rocking-chair-repose-pieds"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162077921625",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Brown",
+     "new": "Terracotta",
+     "hex": "#C0562B"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162077954393",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450161594713",
+   "keep": true,
+   "motif": "stock 3, Germany",
+   "cout": 169.99,
+   "price": 369.0
+  }
+ ],
+ "prix": {
+  "vente": 369,
+  "cout_max": 169.99,
+  "ratio": 2.17,
+  "plancher_1_6": 271.98,
+  "grille_1_8": 305.98,
+  "source_prix": "comparable",
+  "comparables": [
+   {
+    "site": "Oscille (KORVEN)",
+    "url": "https://oscille.fr/products/rocking-chair-inclinable-en-corduroy-avec-repose-pieds-4-positions-korven",
+    "prix": 390,
+    "releve": "2026-09-16",
+    "modele": "même modèle",
+    "note": "même photo orange, 4 positions, repose-pieds"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Terracotta (variante unique)",
+ "alertes": [
+  "Coloris : valeur « Brown » alors que le texte et les photos montrent un velours côtelé orange brûlé : renommé « Terracotta ».",
+  "Stock 3, un seul coloris ; 0 avis, 2 ventes.",
+  "Le fournisseur promet une base « qui élimine les grincements » et un effet sur le stress et l'anxiété : non repris (silence non testé, pas d'allégation santé).",
+  "Schéma coté partiel : 78 cm (largeur haute), 89 cm (hauteur), 87 × 88 cm (emprise) retenus ; 60/43/47 cm non attribuables avec certitude, non repris."
+ ],
+ "faits": [
+  {
+   "fait": "Dossier 4 positions 100°–160°, repose-pieds coulissant, coussin lombaire amovible, pochettes d'accoudoirs, mousse haute densité, velours côtelé, cadre métal renforcé, patins bois massif, 160 kg, coussins compressés, visserie et notice",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "78 cm, 89 cm, 87 × 88 cm, charge 160 kg",
+   "source": "schéma Product Dimension (g07)"
+  },
+  {
+   "fait": "Colis 82 × 62 × 20 cm, 20,5 kg",
+   "source": "var package_info_dto"
+  }
+ ]
+}

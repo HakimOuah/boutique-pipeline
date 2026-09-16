@@ -1,0 +1,104 @@
+{
+ "pid": "1005010764533309",
+ "gid": "gid://shopify/Product/16616056521049",
+ "handle": "pouf-coffre-rond-bouclette-blanc",
+ "title": "Pouf coffre rond en bouclette blanche, pieds bois",
+ "productType": "Pouf",
+ "collections": [
+  "pouf",
+  "repose-pieds"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162042925401",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "france",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59449960235353",
+   "options": {
+    "Ships From": "france"
+   },
+   "keep": true,
+   "motif": "stock 83, France",
+   "price": 89.0,
+   "cout": 52.84
+  }
+ ],
+ "prix": {
+  "vente": 89,
+  "cout_max": 52.84,
+  "ratio": 1.68,
+  "plancher_1_6": 84.54,
+  "source_prix": "plancher",
+  "comparables": [
+   {
+    "site": "Beaumont Concept",
+    "url": "https://beaumont-concept.com/products/pouf-rangement-bouclette",
+    "prix": 89,
+    "releve": "2026-09-16",
+    "modele": "proche (pouf coffre bouclette Ø35 × 40 cm sur pieds)"
+   },
+   {
+    "site": "E.Leclerc (marketplace, contexte seulement)",
+    "url": "https://www.e.leclerc/fp/pouf-coffre-rangement-en-tissu-bouclette-charge-120-kg-diam-45-x-41-cm-blanc-3662970246801",
+    "prix": 56.9,
+    "releve": "2026-09-16",
+    "modele": "même modèle"
+   }
+  ]
+ },
+ "livraison": "Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.",
+ "coloris_couleur_galerie": "Blanc",
+ "alertes": [
+  "Plancher 1,6 × coût = 84,5 € : 89 € égale le comparable Beaumont Concept (89 €) au lieu de passer dessous.",
+  "Même modèle vendu 56,90 € chez E.Leclerc et présent chez Conforama, BUT, ManoMano (marketplaces) : risque de comparaison défavorable.",
+  "Marque HOMCOM dans le titre fournisseur : vérifier l’absence de logo sur les 6 photos (aucun vu sur la planche-contact).",
+  "Un seul coloris (blanc) et pas d’option couleur Shopify : aucune pastille possible sans créer l’option.",
+  "Seulement 1 vente et 2 avis chez le fournisseur.",
+  "Seule option Shopify « Ships From » (une valeur) : la supprimer ramène le produit à une variante unique sans option."
+ ],
+ "faits": [
+  {
+   "fait": "Diamètre 45 cm, hauteur 41 cm",
+   "source": "desc.html + photo cotée"
+  },
+  {
+   "fait": "Rangement Ø43 × 28 cm, 40,5 L",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Charge max. recommandée 120 kg",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Bouclette 100 % polyester, rembourrage mousse, pieds en pin",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Dessus capitonné motif losange",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Pieds 4,5 × 4,5 × 5 cm",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Montage simple",
+   "source": "desc.html (Easy to assemble)"
+  },
+  {
+   "fait": "Colis 47 × 47 × 38 cm, 6 kg",
+   "source": "var package_info"
+  }
+ ]
+}

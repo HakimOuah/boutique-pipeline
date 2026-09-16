@@ -1,0 +1,103 @@
+{
+ "pid": "1005012230993913",
+ "gid": "gid://shopify/Product/16616056684889",
+ "handle": "lot-2-poufs-coffres-gigognes-velours-blanc",
+ "title": "Lot de 2 poufs coffres gigognes en velours blanc",
+ "productType": "Pouf",
+ "collections": [
+  "pouf",
+  "repose-pieds"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162043154777",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162043187545",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "WHITE",
+     "new": "Blanc",
+     "hex": "#EEECE7",
+     "supprimee": false
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59449961873753",
+   "options": {
+    "Ships From": "Germany",
+    "Color": "WHITE"
+   },
+   "keep": true,
+   "motif": "stock 30, Allemagne (Blanc)",
+   "price": 69.0,
+   "cout": 37.44
+  }
+ ],
+ "prix": {
+  "vente": 69,
+  "cout_max": 37.44,
+  "ratio": 1.84,
+  "plancher_1_6": 59.9,
+  "source_prix": "grille",
+  "comparables": [
+   {
+    "site": "Beliani (grand distributeur, contexte)",
+    "url": "https://www.beliani.fr/lot-de-2-poufs-de-rangement-en-velours-blanc-casse-camdenton.html",
+    "prix": null,
+    "releve": "2026-09-16",
+    "modele": "proche (lot de 2 poufs de rangement velours), prix non relevé"
+   }
+  ]
+ },
+ "livraison": "Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.",
+ "coloris_couleur_galerie": "Blanc",
+ "alertes": [
+  "Logo WOLTU visible sur au moins 2 images (galerie n°1 et une image de description) : à exclure ou retoucher.",
+  "Lot de 2 (grand Ø41 × 24,5 cm + petit Ø32 × 20,5 cm) : le titre et la fiche le disent clairement.",
+  "Matière : attribut « Frame Material : Wood », texte « MDF » : la fiche écrit « structure en MDF ».",
+  "Hauteurs basses (24,5 et 20,5 cm) : usage repose-pieds plutôt que siège.",
+  "Pas de comparable indépendant trouvé : prix de grille (1,8 × 37,44 € → 69 €)."
+ ],
+ "faits": [
+  {
+   "fait": "Grand pouf Ø41 × 24,5 cm, petit pouf Ø32 × 20,5 cm",
+   "source": "desc.html + photo cotée"
+  },
+  {
+   "fait": "Charge 150 kg",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Matériaux : MDF, mousse, velours nuage",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Le petit pouf se range dans le grand",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Colis : 2 poufs + notice",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Colis 43 × 42 × 29 cm, 5,7 kg",
+   "source": "var package_info"
+  }
+ ]
+}

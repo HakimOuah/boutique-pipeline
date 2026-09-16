@@ -1,0 +1,125 @@
+{
+ "pid": "1005011960778981",
+ "gid": "gid://shopify/Product/16616056947033",
+ "handle": "pouf-jute-tresse-raye-naturel",
+ "title": "Pouf rond en jute tressé main, rayures naturelles",
+ "productType": "Pouf",
+ "collections": [
+  "pouf",
+  "repose-pieds"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162043547993",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Beige",
+     "new": "Beige naturel",
+     "hex": "#D8C39A",
+     "supprimee": false
+    },
+    {
+     "old": "Khaki",
+     "new": "Kaki",
+     "hex": "#A89468",
+     "supprimee": false
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162043580761",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "france",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59449962234201",
+   "options": {
+    "Color": "Beige",
+    "Ships From": "france"
+   },
+   "keep": true,
+   "motif": "stock 38, France (Beige naturel)",
+   "price": 179.0,
+   "cout": 67.27
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59449962266969",
+   "options": {
+    "Color": "Khaki",
+    "Ships From": "france"
+   },
+   "keep": true,
+   "motif": "stock 38, France (Kaki)",
+   "price": 179.0,
+   "cout": 75.12
+  }
+ ],
+ "prix": {
+  "vente": 179,
+  "cout_max": 75.12,
+  "ratio": 2.38,
+  "plancher_1_6": 120.19,
+  "source_prix": "comparable",
+  "comparables": [
+   {
+    "site": "ChicPouf",
+    "url": "https://chicpouf.com/products/pouf-rond-jute-tresse",
+    "prix": 195.9,
+    "releve": "2026-09-16",
+    "modele": "proche (pouf jute tressé 45 × 30 cm, uni)"
+   },
+   {
+    "site": "ChicPouf",
+    "url": "https://chicpouf.com/products/pouf-jute-tresse",
+    "prix": 196.9,
+    "releve": "2026-09-16",
+    "modele": "proche (pouf jute tressé 45 × 30 cm, motif)"
+   },
+   {
+    "site": "Beaumont Concept",
+    "url": "https://beaumont-concept.com/products/pouf-rond-jute-tresse",
+    "prix": 129,
+    "releve": "2026-09-16",
+    "modele": "proche (pouf jute tressé 45 × 30 cm, uni)"
+   }
+  ]
+ },
+ "livraison": "Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.",
+ "coloris_couleur_galerie": "Beige naturel",
+ "alertes": [
+  "Comparables proches à 129 € (Beaumont Concept) et 195,90 € (ChicPouf) : 179 € se place sous ChicPouf mais au-dessus de Beaumont. À arbitrer (plancher 120,2 €).",
+  "Dimensions contradictoires : 45 × 30 cm puis 40 × 45 cm dans le même texte. La fiche retient 45 × 30 cm (première mention, standard de la gamme).",
+  "Aucune photo par coloris : impossible de savoir si la photo rayée jute et blanc correspond au beige ou au kaki. À vérifier avant publication.",
+  "Produit de la gamme vidaXL (attribut marque, images vdxl.im) ; colis déclaré 1 kg (valeur de remplissage)."
+ ],
+ "faits": [
+  {
+   "fait": "Diamètre 45 cm, hauteur 30 cm",
+   "source": "desc.html (1re mention)"
+  },
+  {
+   "fait": "Jute, garnissage billes de mousse EPS",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Fait main, corde de jute tressée à la main",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Coloris beige et kaki",
+   "source": "variantes"
+  }
+ ]
+}

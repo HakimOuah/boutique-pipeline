@@ -1,0 +1,59 @@
+{
+ "pid": "1005013054913734",
+ "gid": "gid://shopify/Product/16616085061977",
+ "handle": "fauteuil-enfant-velours-rose-pouf",
+ "title": "Fauteuil enfant en velours rose avec pouf assorti",
+ "productType": "Fauteuil enfant",
+ "collections": [
+  "rocking-chair-enfant"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162077299033",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450160283993",
+   "keep": true,
+   "motif": "stock 29, Germany",
+   "price": 109.0,
+   "cout": 57.42
+  }
+ ],
+ "prix": {
+  "vente": 109,
+  "cout_max": 57.42,
+  "ratio": 1.9,
+  "plancher_1_6": 91.87,
+  "source_prix": "grille",
+  "comparables": []
+ },
+ "coloris_couleur_galerie": "Rose poudré (variante unique)",
+ "alertes": [
+  "Rose poudré : en limite de la DA « Veille douce », à valider par Hakim.",
+  "Le texte fournisseur parle de « rocking chair » mais le fauteuil a 4 pieds fixes : la fiche le précise (FAQ 5).",
+  "HOMCOM (marque Aosom) dans le titre et le texte : retirée ; image « Wer sind wir » (Aosom, d11) à exclure.",
+  "Aucune norme mentionnée par la source.",
+  "Aucun comparable indépendant : prix grille."
+ ],
+ "faits": [
+  {
+   "fait": "51 × 51 × 50 cm ; pouf 35 × 30 × 25 cm ; assise 34 × 36,5 × 27,5 cm ; dossier 22 cm ; charge 45 kg ; 3-5 ans ; eucalyptus, mousse, velours, plastique ; seuls les pieds à monter",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "Colis 52 × 52 × 38 cm, 8,4 kg",
+   "source": "bundle candidat_sourcing.colis"
+  }
+ ]
+}

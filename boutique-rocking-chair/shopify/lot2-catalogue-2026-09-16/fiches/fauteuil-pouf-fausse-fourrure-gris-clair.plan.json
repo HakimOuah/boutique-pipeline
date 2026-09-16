@@ -1,0 +1,98 @@
+{
+ "pid": "1005013019531945",
+ "gid": "gid://shopify/Product/16616057241945",
+ "handle": "fauteuil-pouf-fausse-fourrure-gris-clair",
+ "title": "Fauteuil pouf en fausse fourrure gris clair",
+ "productType": "Pouf",
+ "collections": [
+  "pouf-poire",
+  "pouf"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162043941209",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162043973977",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Grey",
+     "new": "Gris clair",
+     "hex": "#C4C4C6",
+     "supprimee": false
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59449964101977",
+   "options": {
+    "Ships From": "Germany",
+    "Color": "Grey"
+   },
+   "keep": true,
+   "motif": "stock 9, Allemagne (Gris clair)",
+   "price": 169.0,
+   "cout": 100.32
+  }
+ ],
+ "prix": {
+  "vente": 169,
+  "cout_max": 100.32,
+  "ratio": 1.68,
+  "plancher_1_6": 160.51,
+  "source_prix": "plancher",
+  "comparables": [
+   {
+    "site": "ChicPouf",
+    "url": "https://chicpouf.com/products/fauteuil-pouf-fausse-fourrure",
+    "prix": 147.9,
+    "releve": "2026-09-16",
+    "modele": "proche (fauteuil pouf fausse fourrure lapin 75 × 88 × 80 cm)"
+   }
+  ]
+ },
+ "livraison": "Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.",
+ "coloris_couleur_galerie": "Gris clair",
+ "alertes": [
+  "Plancher 1,6 × 100,32 € = 160,5 € supérieur au comparable ChicPouf (147,90 €) : prix fixé à 169 €, au-dessus du comparable.",
+  "Profondeur contradictoire : 81 cm dans le texte, 37 po (94 cm) sur l’image cotée. Seules largeur (99 cm) et hauteur (71 cm) sont publiées.",
+  "Marque Garvee dans le titre fournisseur : retirée. Vérifier l’absence de logo sur les photos.",
+  "Stock 9, gris uniquement, 1 vente."
+ ],
+ "faits": [
+  {
+   "fait": "Largeur 99 cm, hauteur 71 cm",
+   "source": "desc.html + image cotée (39 × 28 po)"
+  },
+  {
+   "fait": "Fausse fourrure de lapin, mousse haute densité",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Accoudoirs et dossier",
+   "source": "desc.html + photos"
+  },
+  {
+   "fait": "Housse amovible, lavable, anti-taches",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Colis 90 × 40 × 10 cm, 19,2 kg",
+   "source": "var package_info"
+  }
+ ]
+}

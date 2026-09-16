@@ -1,0 +1,81 @@
+{
+ "pid": "1005013050709726",
+ "gid": "gid://shopify/Product/16616085782873",
+ "handle": "chaise-a-bascule-retro-similicuir-cognac",
+ "title": "Chaise à bascule rétro en similicuir cognac, bois foncé",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "chaise-a-bascule"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162078413145",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Brown",
+     "new": "Cognac",
+     "hex": "#A0592E"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162078445913",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450162413913",
+   "keep": true,
+   "motif": "stock 10, Germany",
+   "cout": 116.98,
+   "price": 219.0
+  }
+ ],
+ "prix": {
+  "vente": 219,
+  "cout_max": 116.98,
+  "ratio": 1.87,
+  "plancher_1_6": 187.17,
+  "grille_1_8": 210.56,
+  "source_prix": "grille",
+  "comparables": []
+ },
+ "coloris_couleur_galerie": "Cognac (variante unique)",
+ "alertes": [
+  "Aucun comparable trouvé (recherches similicuir cognac + bois noyer infructueuses) : prix à la grille (1,8 ×).",
+  "Marque Chairus dans le titre et les specs (retirée).",
+  "Toutes les cotes viennent du schéma g01 (62,5 × 86 × 88 cm, assise 55 × 55, hauteur 47, dossier 56, coussin 8) ; bascule 40° sur visuel g05.",
+  "Visuel g03 annonce « Water-Proof » : non repris.",
+  "Boutique sans notes, 0 avis, 0 vente, stock 10."
+ ],
+ "faits": [
+  {
+   "fait": "Similicuir PU mat, cadre bois massif (noyer), mousse haute densité, 300 lb (136 kg), livré à plat avec notice illustrée, facile à nettoyer, usage allaitement ou détente",
+   "source": "desc.html texte + SPECIFICATIONS"
+  },
+  {
+   "fait": "62,5 × 86 × 88 cm, assise 55 × 55 cm, hauteur d'assise 47 cm, dossier 56 cm, coussin 8 cm",
+   "source": "schéma g01"
+  },
+  {
+   "fait": "Bascule 40°",
+   "source": "visuel g05"
+  },
+  {
+   "fait": "Colis 84 × 65 × 43 cm, 17 kg",
+   "source": "var package_info_dto"
+  }
+ ]
+}

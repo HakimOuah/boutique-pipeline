@@ -1,0 +1,95 @@
+{
+ "pid": "1005012498644730",
+ "gid": "gid://shopify/Product/16616085553497",
+ "handle": "rocking-chair-teddy-creme-accoudoirs-bois",
+ "title": "Rocking chair en teddy crème, accoudoirs en bois",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "rocking-chair-bois-rotin"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162078118233",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Beige",
+     "new": "Crème",
+     "hex": "#F1EBDF"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162078151001",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "france",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450161856857",
+   "keep": true,
+   "motif": "stock 150, france",
+   "cout": 143.53,
+   "price": 259.0
+  }
+ ],
+ "prix": {
+  "vente": 259,
+  "cout_max": 143.53,
+  "ratio": 1.8,
+  "plancher_1_6": 229.65,
+  "grille_1_8": 258.35,
+  "source_prix": "grille",
+  "comparables": [
+   {
+    "site": "Oscille (NORDEN)",
+    "url": "https://oscille.fr/products/rocking-chair-design-nordique-en-bois-d-hevea-tissu-bouclette-creme-norden",
+    "prix": 375,
+    "releve": "2026-09-16",
+    "modele": "proche",
+    "note": "bouclette crème et cadre hévéa, autre silhouette"
+   },
+   {
+    "site": "Conforama (marketplace, SUPLY SHOP) — contexte",
+    "url": "https://www.conforama.fr/canape-salon-sejour/fauteuil/tous-les-fauteuils/fauteuil-a-bascule-rocking-chair-en-velours-teddy-avec-assise-rembourre-dossier-ergonomique-65-x-90-x-98-cm-creme/p/C79243081",
+    "prix": null,
+    "releve": "2026-09-16",
+    "modele": "même modèle",
+    "note": "marketplace exclue, prix non lu"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Crème (variante unique)",
+ "alertes": [
+  "DOUBLON avec la fiche fauteuil-a-bascule-teddy-accoudoirs-bois (autre lot, pid 1005012789835381, coût 196,51 €, prix 319 €) : même modèle HOMCOM 65 × 90 × 98 cm. Cette fiche-ci est moins chère (coût 143,53 €, stock 150) : garder celle-ci et supprimer l'autre.",
+  "Produit HOMCOM (marque officielle, référence 83B-106V00CW) : aucune offre éligible trouvée ; prix à la grille (1,8 ×).",
+  "Specs fournisseur incohérentes (« Âge 0-36 mois », « balançoires bébé ») : ignorées.",
+  "« Bascule silencieuse » annoncée par le fournisseur : non reprise.",
+  "Accoudoirs en bois (douleur n°3 du persona pour l'allaitement) : fiche orientée salon et lecture.",
+  "0 avis, 2 ventes."
+ ],
+ "faits": [
+  {
+   "fait": "65 × 90 × 98 cm ; assise 60 × 57 × 44–53 cm ; épaisseur 15 cm ; dossier 59 × 65 cm, 18 cm ; 120 kg ; teddy 100 % polyester, mousse, hévéa ; bande antidérapante ; montage ; manuel",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "Bascule 10°, appui-tête, feutre antidérapant",
+   "source": "infographies g02/g03"
+  },
+  {
+   "fait": "Colis 86 × 44 × 62 cm, 19,5 kg",
+   "source": "var package_info_dto"
+  }
+ ]
+}

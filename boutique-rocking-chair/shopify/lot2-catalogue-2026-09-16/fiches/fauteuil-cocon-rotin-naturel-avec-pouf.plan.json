@@ -1,0 +1,75 @@
+{
+ "pid": "1005013013286149",
+ "gid": "gid://shopify/Product/16616074838361",
+ "handle": "fauteuil-cocon-rotin-naturel-avec-pouf",
+ "title": "Fauteuil cocon sur pieds en rotin naturel, avec pouf",
+ "productType": "Fauteuil cocon",
+ "collections": [
+  "fauteuil-cocon"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162063503705",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Poland",
+     "new": null,
+     "hex": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450093666649",
+   "keep": true,
+   "motif": "stock 5, Pologne",
+   "price": 329.0
+  }
+ ],
+ "prix": {
+  "vente": 329,
+  "cout_max": 184.82,
+  "ratio": 1.78,
+  "plancher_1_6": 295.71,
+  "source_prix": "grille",
+  "comparables": []
+ },
+ "coloris_couleur_galerie": "Rotin naturel, coussins crème (coloris unique)",
+ "alertes": [
+  "Stock très faible : 5 unités",
+  "Charge maximale du fauteuil absente (seul le pouf est annoncé à 120 kg)",
+  "Épaisseur des coussins contradictoire (11 pouces = 28 cm, puis 11 cm) : non reprise",
+  "Coloris non nommé : rotin naturel et coussins crème d'après les photos",
+  "Hauteur d'assise 38 cm lue sur l'image cotée d02"
+ ],
+ "faits": [
+  {
+   "fait": "Fauteuil 76 × 65 × 147 cm, pouf 66 × 42 × 41 cm",
+   "source": "desc.html + image d02"
+  },
+  {
+   "fait": "Assise 60 × 54 cm, hauteur 38 cm",
+   "source": "image d02"
+  },
+  {
+   "fait": "Pouf 120 kg",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Rotin PE résistant UV/eau, acier thermolaqué, patins réglables, liens",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Montage environ 1 h seul",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Colis 83 × 62 × 42 cm, 18,5 kg",
+   "source": "var package_info_dto"
+  }
+ ]
+}

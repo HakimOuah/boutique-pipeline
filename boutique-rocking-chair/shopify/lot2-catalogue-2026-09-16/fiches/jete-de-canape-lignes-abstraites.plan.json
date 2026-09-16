@@ -1,0 +1,496 @@
+{
+ "pid": "1005005622708163",
+ "gid": "gid://shopify/Product/16616099873113",
+ "handle": "jete-de-canape-lignes-abstraites",
+ "title": "Jeté de canapé crème à lignes abstraites et franges",
+ "productType": "Plaid",
+ "collections": [
+  "plaid"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162095124825",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "5",
+     "new": "Lignes anthracite",
+     "hex": "#4A4A4A"
+    },
+    {
+     "old": "1",
+     "new": "Lignes taupe",
+     "hex": "#B79C86"
+    },
+    {
+     "old": "3",
+     "new": null,
+     "delete": true
+    },
+    {
+     "old": "2",
+     "new": "Lignes terracotta",
+     "hex": "#D2693C"
+    },
+    {
+     "old": "4",
+     "new": "Lignes grises",
+     "hex": "#A7A9AB"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162095157593",
+   "name_old": "Specification",
+   "name_new": "Taille",
+   "delete": false,
+   "values": [
+    {
+     "old": "180x230cm",
+     "new": "180 × 230 cm"
+    },
+    {
+     "old": "180x260cm",
+     "new": null,
+     "delete": true
+    },
+    {
+     "old": "180x300cm",
+     "new": null,
+     "delete": true
+    },
+    {
+     "old": "180x90cm",
+     "new": null,
+     "delete": true
+    },
+    {
+     "old": "180x130cm",
+     "new": "130 × 180 cm"
+    },
+    {
+     "old": "180x150cm",
+     "new": null,
+     "delete": true
+    },
+    {
+     "old": "180x180cm",
+     "new": null,
+     "delete": true
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450210615641",
+   "keep": true,
+   "motif": "stock 993, coût 38.61 €",
+   "price": 69.0,
+   "options": {
+    "Color": "5",
+    "Specification": "180x230cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450210648409",
+   "keep": false,
+   "motif": "format « 180x260cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "5",
+    "Specification": "180x260cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450210681177",
+   "keep": false,
+   "motif": "format « 180x300cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "1",
+    "Specification": "180x300cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450210713945",
+   "keep": false,
+   "motif": "coloris « 3 » hors sélection; format « 180x300cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "3",
+    "Specification": "180x300cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450210746713",
+   "keep": false,
+   "motif": "format « 180x300cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "2",
+    "Specification": "180x300cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450210779481",
+   "keep": false,
+   "motif": "format « 180x300cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "5",
+    "Specification": "180x300cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450210812249",
+   "keep": false,
+   "motif": "format « 180x300cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "4",
+    "Specification": "180x300cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450210845017",
+   "keep": false,
+   "motif": "format « 180x90cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "4",
+    "Specification": "180x90cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450210877785",
+   "keep": true,
+   "motif": "stock 999, coût 25.34 €",
+   "price": 49.0,
+   "options": {
+    "Color": "4",
+    "Specification": "180x130cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450210910553",
+   "keep": false,
+   "motif": "stock 0; coloris « 3 » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "3",
+    "Specification": "180x230cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450210943321",
+   "keep": false,
+   "motif": "stock 0; coloris « 3 » hors sélection; format « 180x260cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "3",
+    "Specification": "180x260cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450210976089",
+   "keep": false,
+   "motif": "stock 0; coloris « 3 » hors sélection; format « 180x150cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "3",
+    "Specification": "180x150cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450211008857",
+   "keep": false,
+   "motif": "stock 0; coloris « 3 » hors sélection; format « 180x180cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "3",
+    "Specification": "180x180cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450211041625",
+   "keep": false,
+   "motif": "stock 0; coloris « 3 » hors sélection; format « 180x90cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "3",
+    "Specification": "180x90cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450211074393",
+   "keep": false,
+   "motif": "stock 0; coloris « 3 » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "3",
+    "Specification": "180x130cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450211107161",
+   "keep": false,
+   "motif": "format « 180x150cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "5",
+    "Specification": "180x150cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450211139929",
+   "keep": false,
+   "motif": "format « 180x180cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "5",
+    "Specification": "180x180cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450211172697",
+   "keep": false,
+   "motif": "format « 180x90cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "5",
+    "Specification": "180x90cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450211205465",
+   "keep": true,
+   "motif": "stock 995, coût 25.34 €",
+   "price": 49.0,
+   "options": {
+    "Color": "5",
+    "Specification": "180x130cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450211238233",
+   "keep": true,
+   "motif": "stock 993, coût 38.61 €",
+   "price": 69.0,
+   "options": {
+    "Color": "4",
+    "Specification": "180x230cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450211271001",
+   "keep": false,
+   "motif": "format « 180x260cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "4",
+    "Specification": "180x260cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450211303769",
+   "keep": false,
+   "motif": "format « 180x150cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "4",
+    "Specification": "180x150cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450211336537",
+   "keep": false,
+   "motif": "format « 180x180cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "4",
+    "Specification": "180x180cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450211369305",
+   "keep": false,
+   "motif": "format « 180x150cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "1",
+    "Specification": "180x150cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450211402073",
+   "keep": false,
+   "motif": "format « 180x180cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "1",
+    "Specification": "180x180cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450211434841",
+   "keep": false,
+   "motif": "format « 180x90cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "1",
+    "Specification": "180x90cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450211467609",
+   "keep": true,
+   "motif": "stock 989, coût 25.34 €",
+   "price": 49.0,
+   "options": {
+    "Color": "1",
+    "Specification": "180x130cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450211500377",
+   "keep": true,
+   "motif": "stock 995, coût 38.61 €",
+   "price": 69.0,
+   "options": {
+    "Color": "2",
+    "Specification": "180x230cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450211533145",
+   "keep": false,
+   "motif": "format « 180x260cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "2",
+    "Specification": "180x260cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450211565913",
+   "keep": false,
+   "motif": "format « 180x150cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "2",
+    "Specification": "180x150cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450211598681",
+   "keep": false,
+   "motif": "format « 180x180cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "2",
+    "Specification": "180x180cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450211631449",
+   "keep": false,
+   "motif": "format « 180x90cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "2",
+    "Specification": "180x90cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450211664217",
+   "keep": true,
+   "motif": "stock 997, coût 25.34 €",
+   "price": 49.0,
+   "options": {
+    "Color": "2",
+    "Specification": "180x130cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450211696985",
+   "keep": true,
+   "motif": "stock 988, coût 38.61 €",
+   "price": 69.0,
+   "options": {
+    "Color": "1",
+    "Specification": "180x230cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450211729753",
+   "keep": false,
+   "motif": "format « 180x260cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "1",
+    "Specification": "180x260cm"
+   }
+  }
+ ],
+ "prix": {
+  "vente": 69.0,
+  "cout_max": 38.61,
+  "ratio": 1.79,
+  "source_prix": "grille",
+  "comparables": [
+   {
+    "site": "becquet.fr",
+    "url": "https://www.becquet.fr/jete-canape-jete-fauteuil-c44",
+    "prix": 89.9,
+    "releve": "2026-09-16",
+    "modele": "contexte (jeté tufté 180 × 250, marque maison)"
+   }
+  ],
+  "par_taille": [
+   {
+    "taille": "180 × 230 cm",
+    "prix": 69.0,
+    "cout_max": 38.61,
+    "ratio": 1.79,
+    "plancher_1_6": 61.78
+   },
+   {
+    "taille": "130 × 180 cm",
+    "prix": 49.0,
+    "cout_max": 25.34,
+    "ratio": 1.93,
+    "plancher_1_6": 40.54
+   }
+  ],
+  "note": "Pas de comparable du même modèle. Grille : 49 € (coût 25,34) et 69 € (coût 38,61)."
+ },
+ "coloris_couleur_galerie": "Lignes taupe",
+ "alertes": [
+  "Coloris codés 1 à 5 identifiés sur photos : tous sur fond crème (5 anthracite, 1 taupe, 3 bleu, 2 terracotta, 4 gris). Bleu (3) supprimé : rupture sur 130 × 180 et 180 × 230.",
+  "Composition incohérente : fiche « 100% polyester », texte « fil de coton et polyester ». Aucune composition citée.",
+  "Titre fournisseur « Knitted » alors qu'il s'agit d'un jeté tissé : non repris.",
+  "Fiche fournisseur « Size 110x130/130x170/130x200 » contredit les variantes ; valeurs DSers retenues.",
+  "Proche du jeté « motif arches » (1005007507555808) : deux fiches jeté dans le même lot, à différencier en visuels."
+ ],
+ "faits": [
+  {
+   "fait": "Lavage < 30 °C, doux, sans javel, séchage à l'air, rétrécissement 2-3 %",
+   "source": "desc.html Washing Note"
+  },
+  {
+   "fait": "Fibres flottantes normales au début",
+   "source": "desc.html Note"
+  },
+  {
+   "fait": "Finition brossée",
+   "source": "desc.html Fabric Style"
+  },
+  {
+   "fait": "Franges",
+   "source": "titre + photos"
+  }
+ ]
+}

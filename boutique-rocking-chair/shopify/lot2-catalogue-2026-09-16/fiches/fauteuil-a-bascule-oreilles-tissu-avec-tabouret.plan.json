@@ -1,0 +1,116 @@
+{
+ "pid": "1005012357476164",
+ "gid": "gid://shopify/Product/16616056422745",
+ "handle": "fauteuil-a-bascule-oreilles-tissu-avec-tabouret",
+ "title": "Fauteuil à bascule à oreilles en tissu, avec tabouret",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "rocking-chair-design-scandinave",
+  "rocking-chair-repose-pieds"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162042794329",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162042827097",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "61 x 78 x 98 cm",
+     "new": "Vert tilleul",
+     "hex": "#A9BF5A"
+    },
+    {
+     "old": "61 x 78 x 98 cm 1",
+     "new": "Bleu",
+     "hex": "#2F5B8C"
+    },
+    {
+     "old": "61 x 78 x 98 cm 2",
+     "new": "Noir",
+     "hex": "#1F1F1F"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59449960300889",
+   "keep": false,
+   "motif": "retiré : vert trop cher (décision Claude sur recommandation lot A)",
+   "cout": 183.78,
+   "price": 299.0
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59449960333657",
+   "keep": true,
+   "motif": "stock 19, Germany",
+   "cout": 140.13,
+   "price": 249.0
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59449960366425",
+   "keep": true,
+   "motif": "stock 10, Germany",
+   "cout": 148.54,
+   "price": 249.0
+  }
+ ],
+ "prix": {
+  "vente": 249,
+  "cout_max": 148.54,
+  "ratio": 1.63,
+  "plancher_1_6": 294.05,
+  "grille_1_8": 330.8,
+  "source_prix": "plancher",
+  "comparables": [
+   {
+    "site": "Oscille (MOLVIK)",
+    "url": "https://oscille.fr/products/molvik-rocking-chair-velours-rembourre-ultra-confortable",
+    "prix": 240,
+    "releve": "2026-09-16",
+    "modele": "proche",
+    "note": "fauteuil à oreilles similaire, velours, sans tabouret"
+   },
+   {
+    "site": "vidaXL.fr (marque/marketplace, contexte)",
+    "url": "https://www.vidaxl.fr/e/vidaxl-chaise-a-bascule-vert-tissu/8720286423837.html",
+    "prix": 110.99,
+    "releve": "2026-09-16",
+    "modele": "proche",
+    "note": "même fauteuil sans tabouret ; version avec tabouret vendue aussi chez Ubaldi (prix non lu)"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Bleu",
+ "alertes": [
+  "Coloris : les 3 valeurs Shopify sont des cotes (« 61 x 78 x 98 cm », « … 1 », « … 2 ») ; identifiées par SKU (14:175 / 14:173 / 14:193) et images de propriété : vert (tilleul, pas sauge), bleu, noir.",
+  "ALERTE COLIS : colis déclaré 1 kg / 40 × 30 × 20 cm : incohérent, à faire confirmer par le vendeur.",
+  "ALERTE PRIX : plancher imposé par le vert (1,6 × 183,78 = 294 €) → 299 €, au-dessus du comparable Oscille MOLVIK (240 €) et très au-dessus de vidaXL (110,99 € sans tabouret). Option recommandée : supprimer le vert (coût 183,78 €) et vendre bleu + noir à 249 € (plancher 237,66 €).",
+  "Produit vidaXL (texte catalogue, 7 coloris listés dont bordeaux et taupe non proposés) : vérifier l'absence de marque sur les photos.",
+  "Le vert réel est un vert tilleul/anis, hors DA « vert sauge ».",
+  "Boutique ScapeTale, 0 vente, 0 avis."
+ ],
+ "faits": [
+  {
+   "fait": "61 × 78 × 98 cm ; tabouret 47 × 31 × 37,5 cm ; assise 47 × 53,5 cm, à 47,5 cm ; accoudoirs à 60,5 cm ; 110 kg par siège ; tissu 100 % polyester, hévéa massif, acier ; mousse ; montage",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "Coloris vert / bleu / noir",
+   "source": "var variants raw_value + images de propriété"
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "pid": "1005012995416978",
+ "gid": "gid://shopify/Product/16616092664153",
+ "handle": "fauteuil-a-bascule-velours-cotele-repose-pieds-integre",
+ "title": "Fauteuil à bascule en velours côtelé, repose-pieds intégré",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "fauteuil-allaitement",
+  "rocking-chair-repose-pieds",
+  "fauteuil-a-bascule"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162087096665",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450188104025",
+   "keep": true,
+   "motif": "stock 9, Germany",
+   "price": 329.0,
+   "cout": 202.5
+  }
+ ],
+ "prix": {
+  "vente": 329,
+  "cout_max": 202.5,
+  "ratio": 1.62,
+  "plancher_1_6": 324.0,
+  "source_prix": "plancher",
+  "comparables": [
+   {
+    "site": "Oscille (OLENA)",
+    "url": "https://oscille.fr/products/olena-rocking-chair-cocon-velours-cotele-haut-dossier-repose-pieds",
+    "prix": 329,
+    "releve": "2026-09-16",
+    "modele": "proche"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Écru (variante unique)",
+ "alertes": [
+  "Prix au plancher (1,6 × 202,50 = 324 €) : 329 € = prix du comparable Oscille OLENA, pas en dessous.",
+  "Étiquette de marque « Healer » visible sur le sac latéral de toutes les photos : visuels à recomposer.",
+  "Pas d'option couleur : coloris écru d'après les photos (titre : « Beige »).",
+  "Boutique sous le seuil (4,2 / 4,3 / 4,4), 0 avis, stock 9.",
+  "Texte fournisseur : « soulage le dos et la nuque » non repris (vocabulaire santé)."
+ ],
+ "faits": [
+  {
+   "fait": "92 × 70 × 80 cm ; hauteur d'assise 46 cm ; profondeur d'assise 54 cm ; coussin 51 × 22 cm ; repose-pieds sorti 114 cm ; allongé 134 × 74 cm ; repose-pieds 36 × 22 cm ; charge 150 kg",
+   "source": "schéma de cotes (galerie g07)"
+  },
+  {
+   "fait": "Dossier réglable 3 positions, repose-pieds extensible/repliable, coussin lombaire inclus, sac latéral gauche ou droite, bois massif, velours côtelé, mousse haute densité, charge 150 kg",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "Assemblage requis",
+   "source": "desc.html SPECIFICATIONS Installation Method"
+  },
+  {
+   "fait": "Colis 84 × 22 × 66 cm, 19 kg",
+   "source": "var package_info_dto"
+  }
+ ]
+}

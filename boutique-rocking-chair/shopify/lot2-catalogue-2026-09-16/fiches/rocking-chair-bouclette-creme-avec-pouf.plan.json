@@ -1,0 +1,96 @@
+{
+ "pid": "1005012856259972",
+ "gid": "gid://shopify/Product/16616085160281",
+ "handle": "rocking-chair-bouclette-creme-avec-pouf",
+ "title": "Rocking chair en bouclette crème capitonnée, avec pouf",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "fauteuil-a-bascule",
+  "rocking-chair-repose-pieds"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162077462873",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Beige",
+     "new": "Crème",
+     "hex": "#EFE8DC"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162077495641",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "france",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450160841049",
+   "keep": true,
+   "motif": "stock 132, france",
+   "cout": 167.48,
+   "price": 299.0
+  }
+ ],
+ "prix": {
+  "vente": 299,
+  "cout_max": 167.48,
+  "ratio": 1.79,
+  "plancher_1_6": 267.97,
+  "grille_1_8": 301.46,
+  "source_prix": "comparable",
+  "comparables": [
+   {
+    "site": "Oscille (TEDVA)",
+    "url": "https://oscille.fr/products/tedva-rocking-chair-ergonomique-velours-pour-allaitement",
+    "prix": 329,
+    "releve": "2026-09-16",
+    "modele": "proche",
+    "note": "teddy blanc à oreilles avec pouf, piètement métal et patins bois"
+   },
+   {
+    "site": "Vente-unique (contexte)",
+    "url": "https://www.vente-unique.com/c/fauteuil-a-bascule",
+    "prix": null,
+    "releve": "2026-09-16",
+    "modele": "proche",
+    "note": "plusieurs rocking chairs bouclette avec repose-pieds, prix non relevés"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Crème (variante unique)",
+ "alertes": [
+  "Produit HOMCOM (marque dans le titre et les specs, retirée) : même modèle vendu par la marque officielle et sur marketplaces (prix non relevés).",
+  "Charge : le texte donne 120 kg (fauteuil) et 120 kg (pouf) ; un visuel affiche « 240 kg » : la fiche retient 120 kg.",
+  "Specs fournisseur incohérentes (« Âge 0-36 mois », « Type : balançoires bébé ») : ignorées ; aucune allégation enfant.",
+  "Le texte fournisseur annonce aussi un coloris noir, absent des variantes Shopify.",
+  "Image de description d05 = bannière commerciale d'un revendeur (numéro de téléphone, garanties) : ne pas publier.",
+  "0 avis, 1 vente."
+ ],
+ "faits": [
+  {
+   "fait": "72 × 97 × 100 cm ; pouf 56 × 43 × 41 cm ; assise 48 × 56 × 52 cm ; dossier 70 × 61 cm ; épaisseurs 14/11 cm ; accoudoirs 10,5 × 47 cm, à 67,5 cm du sol ; 120 kg + 120 kg",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "Bouclette 70 % polyester 30 % acrylique, panneau multicouche, mousse, ouate, métal ; bascule 105° ; montage requis ; manuel",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "Colis 73 × 46 × 72 cm, 20,7 kg",
+   "source": "var package_info_dto"
+  }
+ ]
+}

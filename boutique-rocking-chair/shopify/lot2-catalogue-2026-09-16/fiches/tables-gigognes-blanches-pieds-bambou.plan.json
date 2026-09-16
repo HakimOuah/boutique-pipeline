@@ -1,0 +1,106 @@
+{
+ "pid": "1005009092288996",
+ "gid": "gid://shopify/Product/16616092565849",
+ "handle": "tables-gigognes-blanches-pieds-bambou",
+ "title": "Tables gigognes blanches, pieds bambou (lot de 2)",
+ "productType": "Table d'appoint",
+ "collections": [
+  "table-d-appoint"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162086900057",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "WHITE",
+     "new": "Blanc et bambou",
+     "hex": "#F4F4F2"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162086932825",
+   "name_old": "Ships From",
+   "name_new": "Ships From",
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    },
+    {
+     "old": "spain",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450187776345",
+   "keep": true,
+   "motif": "stock 45, coût 35.83 €, Germany",
+   "price": 69.0,
+   "options": {
+    "Color": "WHITE",
+    "Ships From": "Germany"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450187809113",
+   "keep": false,
+   "motif": "second pays d'expédition (spain), un seul gardé",
+   "price": null,
+   "options": {
+    "Color": "WHITE",
+    "Ships From": "spain"
+   }
+  }
+ ],
+ "prix": {
+  "vente": 69.0,
+  "cout_max": 35.83,
+  "ratio": 1.93,
+  "source_prix": "grille",
+  "comparables": [],
+  "note": "Pas de comparable du même modèle hors marketplace ; grille ~1,8 × coût. 69 € (coût 35,83, ratio 1,93). Contexte : Trazen lot de 2 (BUT, marketplace), même modèle vendu sur Amazon."
+ },
+ "coloris_couleur_galerie": "Blanc et bambou",
+ "alertes": [
+  "Marque SoBuy et référence FBT74 dans le titre DSers et la fiche fournisseur : supprimées partout.",
+  "Deux pays d'expédition pour l'unique coloris : variante Allemagne gardée (stock 45, coût 35,83 €), variante Espagne supprimée (stock 10, coût 41,56 €).",
+  "Titre fournisseur « avec étagères » alors que les photos montrent des tables sans étagère : aucune étagère mentionnée.",
+  "Texte fournisseur « triangular » et photos : forme triangulaire arrondie retenue.",
+  "Photo g5 : collage avec d'autres meubles de la marque, à écarter. Fiche fournisseur en anglais pour la notice : prévoir un guide numérique.",
+  "Hauteur des tables basse (40 et 45 cm) : conseil de placement à côté d'un fauteuil bas."
+ ],
+ "faits": [
+  {
+   "fait": "Grande 55 × 55 × 45 cm (25 kg), petite 40 × 40 × 40 cm (15 kg), 5 kg",
+   "source": "desc.html Specifications"
+  },
+  {
+   "fait": "MDF laqué blanc résistant aux rayures, pieds bambou vernis, patins caoutchouc",
+   "source": "desc.html Robust construction"
+  },
+  {
+   "fait": "S'emboîtent",
+   "source": "desc.html Space-saving"
+  },
+  {
+   "fait": "Livrées à plat, pièces pré-percées numérotées, notice",
+   "source": "desc.html Quick build / Scope of delivery"
+  },
+  {
+   "fait": "Plateau 2 cm",
+   "source": "image cotée g2"
+  },
+  {
+   "fait": "Colis 66 × 61,5 × 10 cm, 6 kg",
+   "source": "desc.html Packaging"
+  }
+ ]
+}

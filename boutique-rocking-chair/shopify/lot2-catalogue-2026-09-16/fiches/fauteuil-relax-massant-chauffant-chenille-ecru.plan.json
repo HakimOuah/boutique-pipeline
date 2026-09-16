@@ -1,0 +1,111 @@
+{
+ "pid": "1005012865975013",
+ "gid": "gid://shopify/Product/16616075034969",
+ "handle": "fauteuil-relax-massant-chauffant-chenille-ecru",
+ "title": "Fauteuil relax massant et chauffant en chenille écru",
+ "productType": "Fauteuil relax",
+ "collections": [
+  "fauteuil-relax",
+  "rocking-chair-repose-pieds"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162063765849",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Ivory",
+     "new": "Écru chiné",
+     "hex": "#E4E0D8"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162063798617",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "france",
+     "new": null,
+     "hex": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450097172825",
+   "keep": true,
+   "motif": "Écru chiné — stock 116, France",
+   "price": 449.0
+  }
+ ],
+ "prix": {
+  "vente": 449,
+  "cout_max": 273.82,
+  "ratio": 1.64,
+  "plancher_1_6": 438.11,
+  "source_prix": "plancher",
+  "comparables": [
+   {
+    "site": "achatmoinscher.com (comparateur : ManoMano 303,91 €, Aosom 328,90–338,90 €)",
+    "url": "https://www.achatmoinscher.com/comparateur-de-prix-Bien-etre-massage/fauteuil-relax-electrique-massant-et-chauffant-tissu-chenille-beige.html",
+    "prix": 303.91,
+    "releve": "2026-09-16",
+    "modele": "proche (autre référence HOMCOM, chenille beige ; marketplace et marque, contexte seulement)"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Écru chiné",
+ "alertes": [
+  "PRODUIT ÉLECTRIQUE : fiche source « Certification: CE », « Voltage <50V AC », entrée 100-240 V / sortie 12 V 12 W. Mention CE non reprise dans la fiche : validation Hakim (notice FR, marquage CE réel)",
+  "Aucune fonction releveur : l'inclinaison est manuelle par poignée, pas d'aide à se lever",
+  "Texte fournisseur à promesses de santé (« relieve tension », « painful day ») : non repris, fonctions décrites factuellement",
+  "Logo HOMCOM visible sur la télécommande dans les images c00/g00/g02 : retoucher ou écarter",
+  "Image de description d05 = bannière vendeur (avis, garantie) : ne pas publier",
+  "Prix : coût 273,82 € → plancher 438 €. Le marché du modèle voisin se situe à 304–339 € (marque et marketplaces) : notre prix de 449 € est nettement au-dessus, marge à arbitrer par Hakim",
+  "Le catalogue a déjà des relax massants chauffants (fauteuil-relax-electrique) : ici chenille écru, pivotant et à bascule"
+ ],
+ "faits": [
+  {
+   "fait": "Dimensions 73,5 × 97 × 108 cm, inclinées 73,5 × 163 × 86 cm",
+   "source": "desc.html + image d01"
+  },
+  {
+   "fait": "Assise 53 × 54 cm, hauteur 50 cm",
+   "source": "desc.html + image d01"
+  },
+  {
+   "fait": "8 points de vibration, chauffage lombaire, télécommande filaire",
+   "source": "desc.html"
+  },
+  {
+   "fait": "3 modes, 3 intensités",
+   "source": "image g02"
+  },
+  {
+   "fait": "Inclinaison 155° par poignée intérieure, rotation 360°, bascule",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Entrée 100-240 V 50/60 Hz 0,5 A ; sortie 12 V 1 A 12 W",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Charge 150 kg, utilisateurs 150-190 cm",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Chenille 100 % polyester",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Colis 77 × 60 × 49 cm, 43 kg",
+   "source": "candidat_sourcing.colis"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "pid": "1005012055587169",
+ "gid": "gid://shopify/Product/16616084799833",
+ "handle": "fauteuil-enfant-mousse-teddy-gris",
+ "title": "Fauteuil enfant en mousse et teddy gris, avec poignée",
+ "productType": "Fauteuil enfant",
+ "collections": [
+  "rocking-chair-enfant"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162076971353",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "france",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450159399257",
+   "keep": true,
+   "motif": "stock 15, france",
+   "price": 89.0,
+   "cout": 47.85
+  }
+ ],
+ "prix": {
+  "vente": 89,
+  "cout_max": 47.85,
+  "ratio": 1.86,
+  "plancher_1_6": 76.56,
+  "source_prix": "grille",
+  "comparables": []
+ },
+ "coloris_couleur_galerie": "Gris (variante unique)",
+ "alertes": [
+  "Pas un fauteuil à bascule : fauteuil club en mousse ; placé en rocking-chair-enfant faute de collection mobilier enfant.",
+  "Logos CPSC / CPSIA / ASTM (normes américaines) sur l'infographie g02 : AUCUNE norme reprise ; à valider par Hakim avant toute mention.",
+  "Âge « 3+ » lu uniquement sur l'infographie : repris (« dès 3 ans »), à valider.",
+  "Housse déhoussable et lavable en machine + livraison compressée (48 h) : lus sur infographie d07 uniquement.",
+  "Colis déclaré 5 × 5 × 5 cm / 20 kg : incohérent ; poids réel inconnu.",
+  "Photo principale = scène de Noël : visuel à recomposer.",
+  "Aucun comparable indépendant trouvé : prix grille."
+ ],
+ "faits": [
+  {
+   "fait": "24,5\" × 16\" × 16\" = 62 × 41 × 41 cm ; assise 16\" × 12,5\" = 41 × 32 cm ; âge 3+",
+   "source": "schéma de cotes (galerie g02)"
+  },
+  {
+   "fait": "Mousse, housse polaire douce, grise",
+   "source": "desc.html texte / mobile_detail"
+  },
+  {
+   "fait": "Poignée, antidérapant, mousse haute densité",
+   "source": "titre fournisseur"
+  },
+  {
+   "fait": "Housse déhoussable lavable en machine ; sans installation, 48 h pour reprendre forme",
+   "source": "infographie d07"
+  }
+ ]
+}

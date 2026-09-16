@@ -1,0 +1,91 @@
+{
+ "pid": "1005012504729763",
+ "gid": "gid://shopify/Product/16616074969433",
+ "handle": "fauteuil-relax-pivotant-beige-avec-pouf",
+ "title": "Fauteuil relax pivotant en tissu beige, avec pouf",
+ "productType": "Fauteuil relax",
+ "collections": [
+  "fauteuil-relax"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162063700313",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Beige",
+     "new": "Beige",
+     "hex": "#CDBFA8"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162063733081",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "france",
+     "new": null,
+     "hex": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450097140057",
+   "keep": true,
+   "motif": "Beige — stock 36, France",
+   "price": 229.0
+  }
+ ],
+ "prix": {
+  "vente": 229,
+  "cout_max": 127.83,
+  "ratio": 1.79,
+  "plancher_1_6": 204.53,
+  "source_prix": "grille",
+  "comparables": []
+ },
+ "coloris_couleur_galerie": "Beige",
+ "alertes": [
+  "Marque HOMCOM (réf. 839-391V02BG) dans le titre fournisseur",
+  "Image de description d05 = bannière vendeur (garantie 2 ans, avis, services) : ne pas publier",
+  "Pied rond chromé : style plus bureau que cocooning (réserve du sourcing)",
+  "Aucun comparable indépendant trouvé : prix grille"
+ ],
+ "faits": [
+  {
+   "fait": "Fauteuil 69 × 71 × 104 cm, incliné 69 × 93 × 97 cm",
+   "source": "desc.html + image d01"
+  },
+  {
+   "fait": "Pouf 42 × 43 × 35/40 cm",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Assise 47 × 47 cm, hauteur 45 cm, épaisseur 10 cm",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Inclinaison 135°, rotation 360°",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Charge 150 kg fauteuil, 50 kg pouf",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Base Ø 55 cm",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Colis 77 × 56 × 39 cm, 22 kg",
+   "source": "candidat_sourcing.colis"
+  }
+ ]
+}

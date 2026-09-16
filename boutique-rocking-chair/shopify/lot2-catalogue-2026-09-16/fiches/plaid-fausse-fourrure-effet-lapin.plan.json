@@ -1,0 +1,574 @@
+{
+ "pid": "1005010012846690",
+ "gid": "gid://shopify/Product/16616099643737",
+ "handle": "plaid-fausse-fourrure-effet-lapin",
+ "title": "Plaid en fausse fourrure effet lapin, relief nervuré",
+ "productType": "Plaid",
+ "collections": [
+  "plaid",
+  "accessoires-rocking-chair"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162094698841",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Milky white",
+     "new": "Blanc lait",
+     "hex": "#EFE8DA"
+    },
+    {
+     "old": "khaki",
+     "new": "Taupe",
+     "hex": "#BFB2A2"
+    },
+    {
+     "old": "Fruit green",
+     "new": "Vert amande",
+     "hex": "#9BAF6A"
+    },
+    {
+     "old": "Silver grey",
+     "new": "Gris perle",
+     "hex": "#A9AAA8"
+    },
+    {
+     "old": "Pink",
+     "new": "Rose poudré",
+     "hex": "#DDA3A3"
+    },
+    {
+     "old": "Dark gray",
+     "new": null,
+     "delete": true
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162094731609",
+   "name_old": "Size",
+   "name_new": "Taille",
+   "delete": false,
+   "values": [
+    {
+     "old": "200x230cm",
+     "new": null,
+     "delete": true
+    },
+    {
+     "old": "180x200cm",
+     "new": null,
+     "delete": true
+    },
+    {
+     "old": "150x200cm",
+     "new": "150 × 200 cm"
+    },
+    {
+     "old": "120x200cm",
+     "new": "120 × 200 cm"
+    },
+    {
+     "old": "100x150cm Very Small",
+     "new": null,
+     "delete": true
+    },
+    {
+     "old": "200x230cm 3 pcs set",
+     "new": null,
+     "delete": true
+    },
+    {
+     "old": "180x200cm 3 pcs set",
+     "new": null,
+     "delete": true
+    },
+    {
+     "old": "150x200cm 3 pcs set",
+     "new": null,
+     "delete": true
+    },
+    {
+     "old": "120x200cm 3 pcs set",
+     "new": null,
+     "delete": true
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450202358105",
+   "keep": false,
+   "motif": "format « 200x230cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "Milky white",
+    "Size": "200x230cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450202390873",
+   "keep": false,
+   "motif": "format « 180x200cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "Milky white",
+    "Size": "180x200cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450202423641",
+   "keep": true,
+   "motif": "stock 1819, coût 29.31 €",
+   "price": 49.0,
+   "options": {
+    "Color": "Milky white",
+    "Size": "150x200cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450202456409",
+   "keep": true,
+   "motif": "stock 1823, coût 23.66 €",
+   "price": 39.0,
+   "options": {
+    "Color": "Milky white",
+    "Size": "120x200cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450202489177",
+   "keep": false,
+   "motif": "format « 100x150cm Very Small » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "Milky white",
+    "Size": "100x150cm Very Small"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450202521945",
+   "keep": false,
+   "motif": "format « 180x200cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "khaki",
+    "Size": "180x200cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450202554713",
+   "keep": true,
+   "motif": "stock 1824, coût 29.31 €",
+   "price": 49.0,
+   "options": {
+    "Color": "khaki",
+    "Size": "150x200cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450202587481",
+   "keep": true,
+   "motif": "stock 1823, coût 23.66 €",
+   "price": 39.0,
+   "options": {
+    "Color": "khaki",
+    "Size": "120x200cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450202620249",
+   "keep": false,
+   "motif": "format « 100x150cm Very Small » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "khaki",
+    "Size": "100x150cm Very Small"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450202653017",
+   "keep": false,
+   "motif": "format « 200x230cm 3 pcs set » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "Milky white",
+    "Size": "200x230cm 3 pcs set"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450202685785",
+   "keep": false,
+   "motif": "format « 180x200cm 3 pcs set » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "Milky white",
+    "Size": "180x200cm 3 pcs set"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450202718553",
+   "keep": false,
+   "motif": "format « 150x200cm 3 pcs set » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "Milky white",
+    "Size": "150x200cm 3 pcs set"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450202751321",
+   "keep": false,
+   "motif": "format « 120x200cm 3 pcs set » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "Milky white",
+    "Size": "120x200cm 3 pcs set"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450202784089",
+   "keep": false,
+   "motif": "format « 100x150cm Very Small » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "Fruit green",
+    "Size": "100x150cm Very Small"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450202816857",
+   "keep": false,
+   "motif": "format « 200x230cm 3 pcs set » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "Silver grey",
+    "Size": "200x230cm 3 pcs set"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450202849625",
+   "keep": false,
+   "motif": "format « 180x200cm 3 pcs set » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "Silver grey",
+    "Size": "180x200cm 3 pcs set"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450202882393",
+   "keep": false,
+   "motif": "format « 150x200cm 3 pcs set » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "Silver grey",
+    "Size": "150x200cm 3 pcs set"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450202915161",
+   "keep": false,
+   "motif": "format « 120x200cm 3 pcs set » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "Silver grey",
+    "Size": "120x200cm 3 pcs set"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450202947929",
+   "keep": false,
+   "motif": "format « 200x230cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "Silver grey",
+    "Size": "200x230cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450202980697",
+   "keep": false,
+   "motif": "format « 180x200cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "Silver grey",
+    "Size": "180x200cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450203013465",
+   "keep": true,
+   "motif": "stock 1822, coût 29.31 €",
+   "price": 49.0,
+   "options": {
+    "Color": "Silver grey",
+    "Size": "150x200cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450203046233",
+   "keep": false,
+   "motif": "format « 200x230cm 3 pcs set » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "Fruit green",
+    "Size": "200x230cm 3 pcs set"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450203079001",
+   "keep": false,
+   "motif": "format « 180x200cm 3 pcs set » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "Fruit green",
+    "Size": "180x200cm 3 pcs set"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450203111769",
+   "keep": false,
+   "motif": "format « 150x200cm 3 pcs set » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "Fruit green",
+    "Size": "150x200cm 3 pcs set"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450203144537",
+   "keep": false,
+   "motif": "format « 120x200cm 3 pcs set » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "Fruit green",
+    "Size": "120x200cm 3 pcs set"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450203177305",
+   "keep": false,
+   "motif": "format « 200x230cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "Fruit green",
+    "Size": "200x230cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450203210073",
+   "keep": false,
+   "motif": "format « 180x200cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "Fruit green",
+    "Size": "180x200cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450203242841",
+   "keep": true,
+   "motif": "stock 1822, coût 29.31 €",
+   "price": 49.0,
+   "options": {
+    "Color": "Fruit green",
+    "Size": "150x200cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450203275609",
+   "keep": true,
+   "motif": "stock 1824, coût 23.66 €",
+   "price": 39.0,
+   "options": {
+    "Color": "Fruit green",
+    "Size": "120x200cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450203308377",
+   "keep": true,
+   "motif": "stock 1822, coût 29.31 €",
+   "price": 49.0,
+   "options": {
+    "Color": "Pink",
+    "Size": "150x200cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450203341145",
+   "keep": true,
+   "motif": "stock 1823, coût 23.66 €",
+   "price": 39.0,
+   "options": {
+    "Color": "Pink",
+    "Size": "120x200cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450203373913",
+   "keep": false,
+   "motif": "format « 100x150cm Very Small » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "Pink",
+    "Size": "100x150cm Very Small"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450203406681",
+   "keep": false,
+   "motif": "format « 200x230cm 3 pcs set » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "khaki",
+    "Size": "200x230cm 3 pcs set"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450203439449",
+   "keep": false,
+   "motif": "format « 180x200cm 3 pcs set » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "khaki",
+    "Size": "180x200cm 3 pcs set"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450203472217",
+   "keep": false,
+   "motif": "format « 150x200cm 3 pcs set » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "khaki",
+    "Size": "150x200cm 3 pcs set"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450203504985",
+   "keep": false,
+   "motif": "format « 120x200cm 3 pcs set » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "khaki",
+    "Size": "120x200cm 3 pcs set"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450203537753",
+   "keep": false,
+   "motif": "format « 200x230cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "khaki",
+    "Size": "200x230cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450203570521",
+   "keep": true,
+   "motif": "stock 1824, coût 23.66 €",
+   "price": 39.0,
+   "options": {
+    "Color": "Silver grey",
+    "Size": "120x200cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450203603289",
+   "keep": false,
+   "motif": "format « 100x150cm Very Small » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "Silver grey",
+    "Size": "100x150cm Very Small"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450203636057",
+   "keep": false,
+   "motif": "format « 200x230cm 3 pcs set » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "Pink",
+    "Size": "200x230cm 3 pcs set"
+   }
+  }
+ ],
+ "prix": {
+  "vente": 49.0,
+  "cout_max": 29.31,
+  "ratio": 1.67,
+  "source_prix": "comparable",
+  "comparables": [
+   {
+    "site": "ronydeco.com",
+    "url": "https://ronydeco.com/produit/plaid-fourrure-3d-double-polaire-150x200/",
+    "prix": 49.95,
+    "releve": "2026-09-16",
+    "modele": "proche (plaid fourrure 3D doublé polaire 150 × 200)"
+   },
+   {
+    "site": "plaid-addict.com",
+    "url": "https://www.plaid-addict.com/1026-plaid-imitation-fourrure-ultra-doux-gris-fonce-collection-laponie-140-x-190-cm.html",
+    "prix": 99,
+    "releve": "2026-09-16",
+    "modele": "proche (imitation fourrure 140 × 190), contexte"
+   }
+  ],
+  "par_taille": [
+   {
+    "taille": "150 × 200 cm",
+    "prix": 49.0,
+    "cout_max": 29.31,
+    "ratio": 1.67,
+    "plancher_1_6": 46.9
+   },
+   {
+    "taille": "120 × 200 cm",
+    "prix": 39.0,
+    "cout_max": 23.66,
+    "ratio": 1.65,
+    "plancher_1_6": 37.86
+   }
+  ],
+  "note": "49 € en 150 × 200 juste sous Rony Déco (49,95 €) ; 39 € en 120 × 200 (plancher 37,86 €)."
+ },
+ "coloris_couleur_galerie": "Blanc lait",
+ "alertes": [
+  "Formats « Very Small » (100 × 150), 180 × 200, 200 × 230 et tous les lots « 3 pcs set » (plaid + 2 taies) supprimés.",
+  "Coloris « Dark gray » sans variante dans Shopify : valeur à supprimer.",
+  "« Fruit green » est un vert pomme assez soutenu sur la photo : nommé « Vert amande », à valider avec la DA.",
+  "Fiche fournisseur « Âge : bébés » : aucune mention enfant ou bébé reprise.",
+  "Image principale fournisseur avec texte incrusté (« Grade A ») : visuels à recomposer.",
+  "Marge étroite en 150 × 200 (ratio 1,67)."
+ ],
+ "faits": [
+  {
+   "fait": "Peluche imitation lapin",
+   "source": "desc.html Material"
+  },
+  {
+   "fait": "Anti-boulochage, lavable en machine",
+   "source": "desc.html SPECIFICATIONS"
+  },
+  {
+   "fait": "Formats 120 × 200 et 150 × 200, 1 plaid sans taie",
+   "source": "desc.html Size Details"
+  },
+  {
+   "fait": "Livré sous vide, jusqu'à 24 h pour reprendre forme",
+   "source": "desc.html guide"
+  },
+  {
+   "fait": "Relief nervuré",
+   "source": "photos de coloris"
+  }
+ ]
+}

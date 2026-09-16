@@ -1,0 +1,91 @@
+{
+ "pid": "1005010757482866",
+ "gid": "gid://shopify/Product/16616057635161",
+ "handle": "petit-repose-pieds-effet-lin-marron-clair",
+ "title": "Petit repose-pieds capitonné effet lin marron clair",
+ "productType": "Repose-pieds",
+ "collections": [
+  "repose-pieds",
+  "accessoires-rocking-chair"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162044498265",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "france",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59449965412697",
+   "options": {
+    "Ships From": "france"
+   },
+   "keep": true,
+   "motif": "stock 470, France",
+   "price": 59.0,
+   "cout": 34.01
+  }
+ ],
+ "prix": {
+  "vente": 59,
+  "cout_max": 34.01,
+  "ratio": 1.73,
+  "plancher_1_6": 54.42,
+  "source_prix": "grille",
+  "comparables": [
+   {
+    "site": "Aosom (site de la marque, contexte)",
+    "url": "https://www.aosom.fr/item/homcom-repose-pied-salon-ottoman-siege-rembourre-en-tissu-avec-pieds-en-bois-27-x-27-x-26-cm-marron-clair~1QMKCK72PR800.html",
+    "prix": null,
+    "releve": "2026-09-16",
+    "modele": "même modèle, prix non lisible (403)"
+   }
+  ]
+ },
+ "livraison": "Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.",
+ "coloris_couleur_galerie": "Marron clair",
+ "alertes": [
+  "Très petit format (27 × 27 × 26 cm) : présenté comme petit repose-pieds.",
+  "Pas d’option couleur Shopify : aucune pastille ; coloris marron clair cité dans le texte.",
+  "Marque HOMCOM dans le titre fournisseur : retirée. Pas de comparable indépendant : grille (1,8 × 34,01 € → 59 €, ratio 1,73).",
+  "Seule option Shopify « Ships From » (une valeur) : la supprimer ramène le produit à une variante unique sans option."
+ ],
+ "faits": [
+  {
+   "fait": "27 × 27 × 26 cm",
+   "source": "desc.html + image cotée"
+  },
+  {
+   "fait": "Épaisseur d’assise 12 cm, pieds 14 cm",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Charge 110 kg",
+   "source": "desc.html + image"
+  },
+  {
+   "fait": "Tissu effet lin 100 % polyester, mousse, bois d’hévéa",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Patins antidérapants",
+   "source": "desc.html + image"
+  },
+  {
+   "fait": "Montage simple et rapide",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Colis 30 × 30 × 19 cm, 3,1 kg",
+   "source": "var package_info"
+  }
+ ]
+}

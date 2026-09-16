@@ -1,0 +1,122 @@
+{
+ "pid": "1005012958899337",
+ "gid": "gid://shopify/Product/16616092893529",
+ "handle": "fauteuil-a-bascule-chenille-soutien-lombaire",
+ "title": "Fauteuil à bascule chenille, soutien lombaire, repose-pieds",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "fauteuil-allaitement",
+  "rocking-chair-repose-pieds",
+  "fauteuil-a-bascule"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162087391577",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162087424345",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Dark Gray - Chenille - Foam",
+     "new": "Gris anthracite",
+     "hex": "#56585C"
+    },
+    {
+     "old": "Blue - Chenille - Foam",
+     "new": "Bleu gris",
+     "hex": "#6F86A2"
+    },
+    {
+     "old": "Beige - Chenille - Foam",
+     "new": "Beige rosé",
+     "hex": "#E4D0C4"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450188595545",
+   "keep": true,
+   "motif": "Dark Gray - Chenille - Foam · stock 50, Germany",
+   "price": 339.0,
+   "cout": 203.92
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450188628313",
+   "keep": true,
+   "motif": "Blue - Chenille - Foam · stock 30, Germany",
+   "price": 339.0,
+   "cout": 203.92
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450188661081",
+   "keep": true,
+   "motif": "Beige - Chenille - Foam · stock 79, Germany",
+   "price": 339.0,
+   "cout": 203.92
+  }
+ ],
+ "prix": {
+  "vente": 339,
+  "cout_max": 203.92,
+  "ratio": 1.66,
+  "plancher_1_6": 326.27,
+  "source_prix": "comparable",
+  "comparables": [
+   {
+    "site": "Oscille (NORKA)",
+    "url": "https://oscille.fr/products/fauteuil-a-bascule-relax-tissu-teddy-accoudoirs-appui-tete",
+    "prix": 299,
+    "releve": "2026-09-16",
+    "modele": "proche",
+    "note": "299 € sans repose-pieds, 349 € avec repose-pieds"
+   },
+   {
+    "site": "Oscille (NESTA)",
+    "url": "https://oscille.fr/products/nesta-rocking-chair-cocon-chenille-grande-assise",
+    "prix": 429,
+    "releve": "2026-09-16",
+    "modele": "proche"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Gris anthracite",
+ "alertes": [
+  "La variante « Beige » apparaît rosée sur la photo : nommée « Beige rosé », à confirmer.",
+  "Charge 110 kg lue uniquement sur l'infographie (pas dans le texte).",
+  "Colis déclaré 63 × 92 × 89 cm pour 11,2 kg (cotes du fauteuil monté) : poids et format à vérifier.",
+  "Texte fournisseur « sans causer de douleurs dorsales » et « soulage la pression » : non repris.",
+  "Boutique sans note, 0 avis ; ratio 1,66 seulement."
+ ],
+ "faits": [
+  {
+   "fait": "89 × 63 cm ; profondeur 92 cm ; dossier 59,5 cm ; assise 42 × 43 cm ; accoudoirs 26 cm ; repose-pieds 27,5 cm, avancée 30 cm ; charge 110 kg",
+   "source": "schéma de cotes (galerie g02)"
+  },
+  {
+   "fait": "Chenille, mousse haute densité, acier + bois massif, coussin d'air lombaire réglable, poche côté droit, repose-pieds sous l'assise, bord d'assise en cascade",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "Poire de gonflage et bouton de dégonflage ; patins antidérapants",
+   "source": "infographies g05/g06"
+  },
+  {
+   "fait": "Assemblage requis",
+   "source": "SPECIFICATIONS"
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "pid": "1005011961058094",
+ "gid": "gid://shopify/Product/16616056881497",
+ "handle": "pouf-macrame-coton-ecru",
+ "title": "Pouf rond en macramé de coton tressé main",
+ "productType": "Pouf",
+ "collections": [
+  "pouf",
+  "repose-pieds"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162043416921",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Beige",
+     "new": "Beige naturel",
+     "hex": "#DCCFB4",
+     "supprimee": false
+    },
+    {
+     "old": "Ivory",
+     "new": "Ivoire",
+     "hex": "#EFE8D8",
+     "supprimee": false
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162043449689",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "france",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59449962103129",
+   "options": {
+    "Color": "Beige",
+    "Ships From": "france"
+   },
+   "keep": true,
+   "motif": "stock 142, France (Beige naturel)",
+   "price": 209.0,
+   "cout": 73.69
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59449962135897",
+   "options": {
+    "Color": "Ivory",
+    "Ships From": "france"
+   },
+   "keep": true,
+   "motif": "stock 67, France (Ivoire)",
+   "price": 209.0,
+   "cout": 66.48
+  }
+ ],
+ "prix": {
+  "vente": 209,
+  "cout_max": 73.69,
+  "ratio": 2.84,
+  "plancher_1_6": 117.9,
+  "source_prix": "comparable",
+  "comparables": [
+   {
+    "site": "ChicPouf",
+    "url": "https://chicpouf.com/products/pouf-tresse-coton-macrame",
+    "prix": 220.9,
+    "releve": "2026-09-16",
+    "modele": "même modèle (macramé coton 45 × 30 cm, billes EPS)"
+   },
+   {
+    "site": "Beaumont Concept",
+    "url": "https://beaumont-concept.com/products/tabouret-pouf-macrame",
+    "prix": 159,
+    "releve": "2026-09-16",
+    "modele": "éloigné (tabouret macramé sur pieds) : contexte"
+   }
+  ]
+ },
+ "livraison": "Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.",
+ "coloris_couleur_galerie": "Ivoire",
+ "alertes": [
+  "Produit de la gamme vidaXL (attribut marque, images vdxl.im) : aussi vendu sur Leroy Merlin, Fnac, Vente-unique, Auchan, ManoMano. Vérifier l’absence de logo.",
+  "Colis déclaré 1 kg 40 × 30 × 20 cm : valeur de remplissage, poids réel inconnu.",
+  "Les photos des coloris beige et ivoire sont presque identiques : écart de teinte faible à l’écran.",
+  "Boutique fournisseur 4,3/4,4/4,6, 0 vente."
+ ],
+ "faits": [
+  {
+   "fait": "Diamètre 45 cm, hauteur 30 cm",
+   "source": "desc.html + photo cotée"
+  },
+  {
+   "fait": "Coton, garnissage billes de mousse EPS",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Fait main, corde tressée à la main",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Coloris beige et ivoire",
+   "source": "variantes"
+  }
+ ]
+}

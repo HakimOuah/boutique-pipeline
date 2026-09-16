@@ -1,0 +1,95 @@
+{
+ "pid": "1005012800637836",
+ "gid": "gid://shopify/Product/16616057405785",
+ "handle": "pouf-exterieur-acacia-coussin-anthracite",
+ "title": "Pouf d'extérieur en acacia massif, coussin anthracite",
+ "productType": "Pouf",
+ "collections": [
+  "pouf-exterieur",
+  "pouf"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162044203353",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Marron",
+     "new": "Acacia et anthracite",
+     "hex": "#9C6B3F",
+     "supprimee": false
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162044236121",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "france",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59449964462425",
+   "options": {
+    "Color": "Marron",
+    "Ships From": "france"
+   },
+   "keep": true,
+   "motif": "stock 15, France (Acacia et anthracite)",
+   "price": 149.0,
+   "cout": 81.85
+  }
+ ],
+ "prix": {
+  "vente": 149,
+  "cout_max": 81.85,
+  "ratio": 1.82,
+  "plancher_1_6": 130.96,
+  "source_prix": "grille",
+  "comparables": []
+ },
+ "livraison": "Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.",
+ "coloris_couleur_galerie": "Acacia et anthracite",
+ "alertes": [
+  "Texte fournisseur générique (« canapé modulaire ») : seuls les éléments cohérents avec les photos sont repris (cadre acacia, assise textilène, coussin polyester).",
+  "Cotes relevées sur l’image : 79 × 79 cm, cadre 37 cm de haut, coussin 80 × 80 × 8 cm.",
+  "Design de la gamme vidaXL (même photo que les salons modulaires) : vérifier l’absence de logo.",
+  "Boutique sans note, 0 vente, stock 15. Pas de comparable du même modèle : grille (1,8 × 81,85 € → 149 €).",
+  "Coloris « Marron » renommé « Acacia et anthracite » (bois naturel, coussin gris foncé)."
+ ],
+ "faits": [
+  {
+   "fait": "Plateau 79 × 79 cm, hauteur du cadre 37 cm, coussin 8 cm",
+   "source": "image cotée"
+  },
+  {
+   "fait": "Cadre en acacia massif",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Assise en textilène résistant aux intempéries et aux décolorations",
+   "source": "desc.html + photos"
+  },
+  {
+   "fait": "Coussin en polyester",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Montage à réception",
+   "source": "attribut Installation : Assembly"
+  },
+  {
+   "fait": "Colis 92 × 25 × 18 cm, 8,2 kg",
+   "source": "var package_info"
+  }
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "pid": "1005010223201799",
+ "gid": "gid://shopify/Product/16616085913945",
+ "handle": "rocking-chair-bois-blanc-dossier-a-lattes",
+ "title": "Rocking chair classique en bois blanc, dossier à lattes",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "chaise-a-bascule"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162078609753",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "black",
+     "new": "Noir",
+     "note": "valeur supprimée avec ses variantes (stock 0)"
+    },
+    {
+     "old": "WHITE",
+     "new": "Blanc",
+     "hex": "#F5F5F2"
+    },
+    {
+     "old": "YELLOW",
+     "new": "Jaune",
+     "note": "valeur supprimée avec ses variantes (stock 0)"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162078642521",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    },
+    {
+     "old": "United States",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450163200345",
+   "keep": false,
+   "motif": "stock 0, Germany (rupture)",
+   "cout": 121.99,
+   "price": null
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450163233113",
+   "keep": false,
+   "motif": "stock 0, United States (hors UE) (rupture)",
+   "cout": 108.44,
+   "price": null
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450163265881",
+   "keep": true,
+   "motif": "stock 10, Germany",
+   "cout": 92.02,
+   "price": 169.0
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450163298649",
+   "keep": false,
+   "motif": "stock 0, United States (hors UE) (rupture)",
+   "cout": 108.44,
+   "price": null
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450163331417",
+   "keep": false,
+   "motif": "stock 0, Germany (rupture)",
+   "cout": 121.99,
+   "price": null
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450163364185",
+   "keep": false,
+   "motif": "stock 0, United States (hors UE) (rupture)",
+   "cout": 108.44,
+   "price": null
+  }
+ ],
+ "prix": {
+  "vente": 169,
+  "cout_max": 92.02,
+  "ratio": 1.84,
+  "plancher_1_6": 147.23,
+  "grille_1_8": 165.64,
+  "source_prix": "grille",
+  "comparables": []
+ },
+ "coloris_couleur_galerie": "Blanc",
+ "alertes": [
+  "Meuble de porche/extérieur présenté en véranda ou coin lecture comme demandé ; la fiche ne promet pas l'extérieur.",
+  "Seul le blanc Allemagne est en stock (10) : noir et jaune à 0 et les 3 variantes « United States » supprimées.",
+  "Charge : 350 lb (159 kg) annoncés, mais la mise en garde dit « pas plus de 300 lb » : la fiche retient 136 kg.",
+  "Marques AuAg et Homfa dans les specs et le texte (retirées) ; essence du bois non précisée.",
+  "Aucun comparable adulte du même modèle trouvé (fauteuil-a-bascule.com « bois blanc » = lot de 2 chaises enfant à 159 €) : prix à la grille.",
+  "0 avis, 0 vente."
+ ],
+ "faits": [
+  {
+   "fait": "27 × 33,8 × 45,3 in (69 × 86 × 115 cm) ; assise 21,5 × 21,3 in (55 × 54 cm) ; accoudoir 21,3 × 3,3 in (54 × 8,5 cm) ; patins 33,8 in ; bois massif 100 %, finition polyuréthane mate ; montage 10–15 min ; ne pas s'asseoir sur les accoudoirs ; sol plan ; nettoyage chiffon humide sans détergent ; pas de soleil direct",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "Hauteur d'assise 18,7 in (47,5 cm), accoudoirs 27 in (68,5 cm)",
+   "source": "schéma g03"
+  },
+  {
+   "fait": "Colis 129 × 64 × 11 cm, 10 kg",
+   "source": "var package_info_dto"
+  }
+ ]
+}

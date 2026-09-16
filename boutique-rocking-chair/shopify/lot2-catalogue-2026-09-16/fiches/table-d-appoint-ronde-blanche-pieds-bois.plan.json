@@ -1,0 +1,87 @@
+{
+ "pid": "1005012697805884",
+ "gid": "gid://shopify/Product/16616092336473",
+ "handle": "table-d-appoint-ronde-blanche-pieds-bois",
+ "title": "Table d'appoint ronde blanche, pieds bois, Ø 50 cm",
+ "productType": "Table d'appoint",
+ "collections": [
+  "table-d-appoint"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162086506841",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "WHITE",
+     "new": "Blanc",
+     "hex": "#F4F4F2"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162086539609",
+   "name_old": "Ships From",
+   "name_new": "Ships From",
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450187383129",
+   "keep": true,
+   "motif": "stock 30, coût 26.89 €, Germany",
+   "price": 49.0,
+   "options": {
+    "Color": "WHITE",
+    "Ships From": "Germany"
+   }
+  }
+ ],
+ "prix": {
+  "vente": 49.0,
+  "cout_max": 26.89,
+  "ratio": 1.82,
+  "source_prix": "grille",
+  "comparables": [],
+  "note": "Pas de comparable du même modèle hors marketplace ; grille ~1,8 × coût. 49 € (coût 26,89, ratio 1,82). Contexte : tables rondes scandinaves Ø 45-50 de 50 € à 300 € (kollori.com 300 € TTC, modèle design)."
+ },
+ "coloris_couleur_galerie": "Blanc",
+ "alertes": [
+  "Option « Ships From » (une seule valeur) à supprimer.",
+  "Hauteur : 40 cm dans le titre et le texte, pieds cotés 42 cm sur la photo (pieds inclinés) : 40 cm retenu.",
+  "Texte fournisseur mal traduit (« MDF and solid drink ») : pieds écrits « bois », sans « massif ».",
+  "0 vente, aucun avis, stock 30.",
+  "Photo g0 avec des coussins de sol : réutilisable en situation."
+ ],
+ "faits": [
+  {
+   "fait": "Ø 50 × 40 cm",
+   "source": "titre + desc.html Unique design"
+  },
+  {
+   "fait": "Plateau 2 cm",
+   "source": "image cotée g2"
+  },
+  {
+   "fait": "MDF, peinture à l'eau, surface lisse sans arête vive",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Montage 5 min, pieds vissés, sans outil",
+   "source": "desc.html Easy mounting"
+  },
+  {
+   "fait": "Colis 2,1 kg",
+   "source": "package_info_dto"
+  }
+ ]
+}

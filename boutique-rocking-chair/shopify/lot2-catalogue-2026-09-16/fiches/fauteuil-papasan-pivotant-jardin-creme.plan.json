@@ -1,0 +1,94 @@
+{
+ "pid": "1005012506786486",
+ "gid": "gid://shopify/Product/16616075755865",
+ "handle": "fauteuil-papasan-pivotant-jardin-creme",
+ "title": "Fauteuil papasan pivotant en résine tressée, coussin crème",
+ "productType": "Fauteuil cocon",
+ "collections": [
+  "fauteuil-relax-jardin",
+  "fauteuil-cocon"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162064847193",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Beige",
+     "new": "Crème",
+     "hex": "#EFE6D2"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162064879961",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "france",
+     "new": null,
+     "hex": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450099466585",
+   "keep": true,
+   "motif": "Crème — stock 41, France",
+   "price": 199.0
+  }
+ ],
+ "prix": {
+  "vente": 199,
+  "cout_max": 109.57,
+  "ratio": 1.82,
+  "plancher_1_6": 175.31,
+  "source_prix": "grille",
+  "comparables": [
+   {
+    "site": "Truffaut (vendeur marketplace Aosom-MH France)",
+    "url": "https://www.truffaut.com/fauteuil-papasan-pivotant-grand-confort-97-90h-cm-creme-943343.html",
+    "prix": 132.9,
+    "releve": "2026-09-16",
+    "modele": "même modèle (réf. 867-021CW) ; marketplace, contexte seulement"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Crème",
+ "alertes": [
+  "Même modèle vendu 132,90 € sur les marketplaces (Truffaut, Leroy Merlin, Conforama, Castorama, vente-unique) : notre prix 199 € (plancher 175 €) est nettement au-dessus, à arbitrer par Hakim",
+  "Marque Outsunny au titre fournisseur",
+  "Hauteur : texte 90 cm, image cotée 86 cm ; fiche rédigée 90 cm",
+  "Image de description d05 = bannière vendeur : ne pas publier",
+  "Proche des papasans à bascule du catalogue (celui-ci pivote, ne bascule pas)",
+  "Visuel « base large » avec un enfant sur les genoux d'un adulte : à valider"
+ ],
+ "faits": [
+  {
+   "fait": "Dimensions 97 × 87 × 90 cm",
+   "source": "desc.html + SPECIFICATIONS"
+  },
+  {
+   "fait": "Assise 92 cm de large",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Charge 160 kg",
+   "source": "desc.html + image d02"
+  },
+  {
+   "fait": "Rotation 360°, résine PE, métal époxy, housse polyester 220 g/m² déhoussable, liens",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Colis 74 × 63 × 47 cm, 17 kg",
+   "source": "candidat_sourcing.colis"
+  }
+ ]
+}

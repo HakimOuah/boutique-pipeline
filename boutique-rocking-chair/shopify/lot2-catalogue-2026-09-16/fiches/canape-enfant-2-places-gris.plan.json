@@ -1,0 +1,82 @@
+{
+ "pid": "1005010112837796",
+ "gid": "gid://shopify/Product/16616084930905",
+ "handle": "canape-enfant-2-places-gris",
+ "title": "Canapé enfant 2 places en tissu gris, structure bois",
+ "productType": "Fauteuil enfant",
+ "collections": [
+  "rocking-chair-enfant"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162077102425",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "LIGHT GRAY",
+     "new": "Gris clair",
+     "hex": "#B4B5B3"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162077135193",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "spain",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450160120153",
+   "keep": true,
+   "motif": "LIGHT GRAY · stock 100, spain",
+   "price": 149.0,
+   "cout": 79.15
+  }
+ ],
+ "prix": {
+  "vente": 149,
+  "cout_max": 79.15,
+  "ratio": 1.88,
+  "plancher_1_6": 126.64,
+  "source_prix": "grille",
+  "comparables": [
+   {
+    "site": "Cdiscount (même modèle)",
+    "url": "https://www.cdiscount.com/pret-a-porter/bebe-puericulture/fauteuil-canap-bb-gris/f-11317381503-aacih38992.html",
+    "prix": null,
+    "releve": "2026-09-16",
+    "modele": "même modèle",
+    "note": "place de marché, prix non lu ; contexte"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Gris clair",
+ "alertes": [
+  "NORMES DÉCLARÉES PAR LA SOURCE : « Norme de sécurité : EN17191, EN71-3 » : non reprises, à valider par Hakim.",
+  "Âge contradictoire : texte « à partir de 3 ans », infographies « 3 à 15 ans » et « 3 à 8 ans » : seule la mention « dès 3 ans » est reprise.",
+  "Hauteur d'assise contradictoire (26 cm texte / 33 cm schéma) : non reprise.",
+  "Image « Quiénes somos » (Aosom, d13) et infographies en espagnol : à exclure.",
+  "AIYAPLAY (marque Aosom) dans le texte : retirée. Canapé, pas fauteuil à bascule.",
+  "Aucun comparable indépendant : prix grille."
+ ],
+ "faits": [
+  {
+   "fait": "77 × 42 × 48 cm ; assise 69 × 31 cm ; dossier 69 × 25 cm ; accoudoirs 36 × 5 × 9 cm ; charge 80 kg ; dès 3 ans ; tissu poils courts, mousse PU, bois d'hévéa ; montage requis ; 2 enfants",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "Colis 71 × 35 × 22 cm, 7 kg",
+   "source": "bundle candidat_sourcing.colis"
+  }
+ ]
+}

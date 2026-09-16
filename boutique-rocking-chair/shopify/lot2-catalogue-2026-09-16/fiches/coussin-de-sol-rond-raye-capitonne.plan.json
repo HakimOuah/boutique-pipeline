@@ -1,0 +1,238 @@
+{
+ "pid": "1005007061568546",
+ "gid": "gid://shopify/Product/16616092303705",
+ "handle": "coussin-de-sol-rond-raye-capitonne",
+ "title": "Coussin de sol rond rayé et capitonné",
+ "productType": "Coussin de sol",
+ "collections": [
+  "coussin-de-sol",
+  "accessoires-rocking-chair"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162086441305",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "stripe red",
+     "new": null,
+     "delete": true
+    },
+    {
+     "old": "stripe grey",
+     "new": "Rayé gris",
+     "hex": "#B9C0C0"
+    },
+    {
+     "old": "stripe cream",
+     "new": "Rayé beige",
+     "hex": "#D9C9B5"
+    },
+    {
+     "old": "stripe blue",
+     "new": "Rayé bleu",
+     "hex": "#5E7FA8"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162086474073",
+   "name_old": "Specification",
+   "name_new": "Diamètre",
+   "delete": false,
+   "values": [
+    {
+     "old": "Round 47cm",
+     "new": "Ø 47 cm"
+    },
+    {
+     "old": "Round 55cm",
+     "new": "Ø 55 cm"
+    },
+    {
+     "old": "Round 42cm",
+     "new": null,
+     "delete": true
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450186957145",
+   "keep": false,
+   "motif": "coloris « stripe red » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "stripe red",
+    "Specification": "Round 47cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450186989913",
+   "keep": false,
+   "motif": "coloris « stripe red » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "stripe red",
+    "Specification": "Round 55cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450187022681",
+   "keep": true,
+   "motif": "stock 195, coût 29.93 €",
+   "price": 59.0,
+   "options": {
+    "Color": "stripe grey",
+    "Specification": "Round 55cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450187055449",
+   "keep": false,
+   "motif": "coloris « stripe red » hors sélection; format « Round 42cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "stripe red",
+    "Specification": "Round 42cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450187088217",
+   "keep": false,
+   "motif": "format « Round 42cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "stripe grey",
+    "Specification": "Round 42cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450187120985",
+   "keep": true,
+   "motif": "stock 196, coût 16.81 €",
+   "price": 29.0,
+   "options": {
+    "Color": "stripe grey",
+    "Specification": "Round 47cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450187153753",
+   "keep": true,
+   "motif": "stock 189, coût 16.53 €",
+   "price": 29.0,
+   "options": {
+    "Color": "stripe cream",
+    "Specification": "Round 47cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450187186521",
+   "keep": true,
+   "motif": "stock 193, coût 30.15 €",
+   "price": 59.0,
+   "options": {
+    "Color": "stripe cream",
+    "Specification": "Round 55cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450187219289",
+   "keep": true,
+   "motif": "stock 199, coût 29.93 €",
+   "price": 59.0,
+   "options": {
+    "Color": "stripe blue",
+    "Specification": "Round 55cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450187252057",
+   "keep": false,
+   "motif": "format « Round 42cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "stripe cream",
+    "Specification": "Round 42cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450187284825",
+   "keep": false,
+   "motif": "format « Round 42cm » hors sélection",
+   "price": null,
+   "options": {
+    "Color": "stripe blue",
+    "Specification": "Round 42cm"
+   }
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450187317593",
+   "keep": true,
+   "motif": "stock 190, coût 16.74 €",
+   "price": 29.0,
+   "options": {
+    "Color": "stripe blue",
+    "Specification": "Round 47cm"
+   }
+  }
+ ],
+ "prix": {
+  "vente": 59.0,
+  "cout_max": 30.15,
+  "ratio": 1.96,
+  "source_prix": "grille",
+  "comparables": [],
+  "par_taille": [
+   {
+    "taille": "Ø 55 cm",
+    "prix": 59.0,
+    "cout_max": 30.15,
+    "ratio": 1.96,
+    "plancher_1_6": 48.24
+   },
+   {
+    "taille": "Ø 47 cm",
+    "prix": 29.0,
+    "cout_max": 16.81,
+    "ratio": 1.73,
+    "plancher_1_6": 26.9
+   }
+  ],
+  "note": "Pas de comparable du même modèle hors marketplace. Grille : 29 € (coût 16,81, ratio 1,73) et 59 € (coût 30,15, ratio 1,96)."
+ },
+ "coloris_couleur_galerie": "Rayé beige",
+ "alertes": [
+  "Composition incohérente : titre « coton-lin », fiche « 100% Polyester », texte « doublure coton + coton perlé EPE ». Aucune composition citée.",
+  "Texte fournisseur avec allégations santé (système nerveux, méridiens, sommeil) et « massage » : non repris.",
+  "Coloris rayé rouge supprimé (hors DA) ; Ø 42 cm supprimé (petit format).",
+  "Épaisseur non donnée.",
+  "Port 1,99 € non inclus."
+ ],
+ "faits": [
+  {
+   "fait": "Ø 42/47/55 cm",
+   "source": "variantes Shopify"
+  },
+  {
+   "fait": "Arrive compressé, reprend sa taille en quelques jours",
+   "source": "desc.html Suit Size"
+  },
+  {
+   "fait": "Garnissage fibre, rembourrage généreux",
+   "source": "desc.html Filling + High-quality"
+  },
+  {
+   "fait": "Non déhoussable",
+   "source": "desc.html Unpick and Wash"
+  },
+  {
+   "fait": "Capitonné, rayé",
+   "source": "photos"
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "pid": "1005012221174406",
+ "gid": "gid://shopify/Product/16616092926297",
+ "handle": "fauteuil-pivotant-360-bouclette",
+ "title": "Fauteuil pivotant 360° en bouclette, dossier sculpté",
+ "productType": "Fauteuil d'allaitement",
+ "collections": [
+  "fauteuil-allaitement"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162087457113",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Rice White",
+     "new": "Blanc cassé",
+     "hex": "#F0EBE0"
+    },
+    {
+     "old": "DARK GRAY",
+     "new": "Gris anthracite",
+     "hex": "#3E3F42"
+    },
+    {
+     "old": "Khaki",
+     "new": "Ocre",
+     "hex": "#C49A4A"
+    },
+    {
+     "old": "Orange",
+     "new": "Terracotta",
+     "hex": "#C2673A"
+    },
+    {
+     "old": "Emerald Green",
+     "new": "Vert olive",
+     "hex": "#8C9A4C"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162087489881",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450188693849",
+   "keep": true,
+   "motif": "Rice White · stock 28, Germany",
+   "price": 309.0,
+   "cout": 191.22
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450188726617",
+   "keep": true,
+   "motif": "DARK GRAY · stock 29, Germany",
+   "price": 309.0,
+   "cout": 191.22
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450188759385",
+   "keep": true,
+   "motif": "Khaki · stock 1, Germany",
+   "price": 309.0,
+   "cout": 191.22
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450188792153",
+   "keep": true,
+   "motif": "Orange · stock 5, Germany",
+   "price": 309.0,
+   "cout": 191.22
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450188824921",
+   "keep": true,
+   "motif": "Emerald Green · stock 30, Germany",
+   "price": 309.0,
+   "cout": 191.22
+  }
+ ],
+ "prix": {
+  "vente": 309,
+  "cout_max": 191.22,
+  "ratio": 1.62,
+  "plancher_1_6": 305.95,
+  "source_prix": "plancher",
+  "comparables": [
+   {
+    "site": "Oscille (SELVA)",
+    "url": "https://oscille.fr/products/selva-fauteuil-pivotant-360-cocon-en-tissu-chenille-creme",
+    "prix": 299,
+    "releve": "2026-09-16",
+    "modele": "proche",
+    "note": "pivotant 360°, chenille crème"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Blanc cassé",
+ "alertes": [
+  "Pivotant mais PAS à bascule, dossier bas (30 cm au-dessus de l'assise) : faible adéquation allaitement (douleur « dossier trop court »). Envisager plutôt une collection design ; la fiche le présente honnêtement comme pivotant sans bascule.",
+  "Prix au plancher (1,6 × 191,22 = 306 €) : 309 €, au-dessus du comparable Oscille SELVA (299 €).",
+  "La variante « Emerald Green » porte une photo vert olive (DSers) : nommée « Vert olive », à confirmer ; la galerie montre aussi un vert émeraude foncé.",
+  "La variante « Khaki » porte une photo ocre/moutarde : nommée « Ocre ». Stock 1 : risque de rupture.",
+  "Orange (terracotta) stock 5 et hors palette « Veille douce » : gardé selon la règle stock > 0, à trancher par Hakim.",
+  "LVHOM = marque du vendeur (titre) : retirée."
+ ],
+ "faits": [
+  {
+   "fait": "W67 × D55 × H74 cm ; hauteur d'assise 44 ; profondeur 46 ; largeur 53 ; dossier 30 ; base Ø 48 ; charge 150 kg ; 14,4 kg net / 16,4 kg brut ; bouclette ; mousse ; hévéa + contreplaqué + base métal ; rotation 360°",
+   "source": "desc.html SPECIFICATIONS"
+  },
+  {
+   "fait": "Accoudoirs 57 cm du sol ; coussin 20 cm",
+   "source": "schéma de cotes (galerie g01)"
+  },
+  {
+   "fait": "Ressorts en S, mousse haute densité",
+   "source": "infographie d09"
+  },
+  {
+   "fait": "Entretien brosse à poils souples",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "Colis 70 × 57 × 52 cm",
+   "source": "bundle candidat_sourcing.colis"
+  }
+ ]
+}

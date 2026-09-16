@@ -1,0 +1,78 @@
+{
+ "pid": "1005013105895748",
+ "gid": "gid://shopify/Product/16616085684569",
+ "handle": "fauteuil-a-bascule-teddy-caramel-repose-pieds",
+ "title": "Fauteuil à bascule teddy caramel, repose-pieds escamotable",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "fauteuil-a-bascule",
+  "rocking-chair-repose-pieds"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162078282073",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450161987929",
+   "keep": true,
+   "motif": "stock 7, Germany",
+   "cout": 119.16,
+   "price": 369.0
+  }
+ ],
+ "prix": {
+  "vente": 369,
+  "cout_max": 119.16,
+  "ratio": 3.1,
+  "plancher_1_6": 190.66,
+  "grille_1_8": 214.49,
+  "source_prix": "comparable",
+  "comparables": [
+   {
+    "site": "Oscille (MAJA)",
+    "url": "https://oscille.fr/products/maja-rocking-chair-teddy-avec-repose-pieds",
+    "prix": 390,
+    "releve": "2026-09-16",
+    "modele": "même modèle",
+    "note": "teddy crème, même repose-pieds tiroir, poche et base bois"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Caramel (variante unique, pas d'option couleur)",
+ "alertes": [
+  "Aucune option couleur dans Shopify (seule l'option Ships From, supprimée) : le coloris caramel n'apparaît que dans le texte ; créer une option « Couleur : Caramel » si l'on veut la pastille.",
+  "Ratio élevé (3,10) : prix calé juste sous Oscille MAJA (390 €, même modèle en crème) ; à valider par Hakim.",
+  "Repose-pieds escamotable visible sur les photos et cité par le sourcing, absent du texte fournisseur.",
+  "Cotes en pouces sur le schéma g05, converties (39 in = 99 cm, 24,8 in = 63 cm, 25,9 in = 66 cm, 18,8–19 in = 48 cm) ; 29,5 in non attribuable, non repris.",
+  "Boutique 4,3/4,4/4,6, 0 avis, 0 vente, stock 7."
+ ],
+ "faits": [
+  {
+   "fait": "Base bois, 300 lb (136 kg), poche latérale, accoudoirs lisses, coussin d'assise épais, finition velours/teddy, assemblage",
+   "source": "desc.html texte + SPECIFICATIONS"
+  },
+  {
+   "fait": "99 × 63 cm, dossier 66 cm, assise 48 × 48 cm, 300 lbs",
+   "source": "schéma g05 (pouces convertis)"
+  },
+  {
+   "fait": "Repose-pieds tiroir",
+   "source": "photos g00/g01/g03/g05"
+  },
+  {
+   "fait": "Colis 75 × 67 × 44 cm, 22,4 kg",
+   "source": "var package_info_dto"
+  }
+ ]
+}

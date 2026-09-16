@@ -1,0 +1,116 @@
+{
+ "pid": "1005012144412667",
+ "gid": "gid://shopify/Product/16616085324121",
+ "handle": "fauteuil-a-bascule-xxl-coussin-capitonne",
+ "title": "Fauteuil à bascule XXL, coussin capitonné épais",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "fauteuil-a-bascule"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162077725017",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Terracotta",
+     "new": "Terracotta",
+     "hex": "#C4623F"
+    },
+    {
+     "old": "Beige",
+     "new": "Écru",
+     "hex": "#EDE6DA"
+    },
+    {
+     "old": "Dark Grey",
+     "new": "Gris anthracite",
+     "hex": "#4A4B4D"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162077757785",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450161103193",
+   "keep": true,
+   "motif": "stock 1, Germany",
+   "cout": 141.13,
+   "price": 249.0
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450161135961",
+   "keep": true,
+   "motif": "stock 3, Germany",
+   "cout": 141.13,
+   "price": 249.0
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450161168729",
+   "keep": true,
+   "motif": "stock 3, Germany",
+   "cout": 141.13,
+   "price": 249.0
+  }
+ ],
+ "prix": {
+  "vente": 249,
+  "cout_max": 141.13,
+  "ratio": 1.76,
+  "plancher_1_6": 225.81,
+  "grille_1_8": 254.03,
+  "source_prix": "comparable",
+  "comparables": [
+   {
+    "site": "Oscille (BOLMO)",
+    "url": "https://oscille.fr/products/bolmo-rocking-chair-cocon-rotin-metal",
+    "prix": 269,
+    "releve": "2026-09-16",
+    "modele": "même modèle",
+    "note": "coussin beige, coque et arceaux métal noir identiques"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Écru",
+ "alertes": [
+  "Logo JustEvo imprimé sur toutes les images fournisseur (et filigrane) : ne publier aucune photo brute, recomposer.",
+  "Stock très faible : terracotta 1, écru 3, gris anthracite 3.",
+  "Dimensions du fauteuil absentes : seule la taille du coussin (97 × 70 cm regonflé, 86 × 67 cm compressé) est donnée ; pas de charge maximale.",
+  "La coque semble cerclée d'un jonc façon rotin sur les photos, non déclaré : la fiche ne parle pas de rotin.",
+  "Le qualificatif « tissu adapté aux animaux » vient d'un visuel (« pet-friendly ») ; « Whether Cushioned : No » dans les specs contredit la photo (ignoré).",
+  "Oscille classe ce modèle en « rotin & métal » : à vérifier sur l'échantillon avant d'ajouter la collection rocking-chair-bois-rotin.",
+  "0 avis, 2 ventes."
+ ],
+ "faits": [
+  {
+   "fait": "Coussin 86 cm compressé / 97 cm regonflé de large, 67/70 cm de profondeur ; regonflage environ 2 jours",
+   "source": "image g05"
+  },
+  {
+   "fait": "Structure métal, tissu, assemblage facile, style moderne minimaliste",
+   "source": "desc.html SPECIFICATIONS + texte"
+  },
+  {
+   "fait": "Tissu « pet-friendly », assise large",
+   "source": "visuels g00/g01"
+  },
+  {
+   "fait": "Colis 55 × 55 × 34 cm, 12,9 kg",
+   "source": "var package_info_dto"
+  }
+ ]
+}

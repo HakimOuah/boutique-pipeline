@@ -1,0 +1,95 @@
+{
+ "pid": "1005010757484840",
+ "gid": "gid://shopify/Product/16616057569625",
+ "handle": "repose-pieds-banquette-polaire-grise",
+ "title": "Repose-pieds incurvé en polaire bouclée grise",
+ "productType": "Repose-pieds",
+ "collections": [
+  "repose-pieds",
+  "accessoires-rocking-chair"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162044432729",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "france",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59449965117785",
+   "options": {
+    "Ships From": "france"
+   },
+   "keep": true,
+   "motif": "stock 133, France",
+   "price": 79.0,
+   "cout": 41.72
+  }
+ ],
+ "prix": {
+  "vente": 79,
+  "cout_max": 41.72,
+  "ratio": 1.89,
+  "plancher_1_6": 66.75,
+  "source_prix": "grille",
+  "comparables": [
+   {
+    "site": "Leroy Merlin (marketplace, contexte)",
+    "url": "https://www.leroymerlin.fr/produits/repose-pieds-moderne-avec-revetement-en-polaire-et-pieds-en-bois-capitonne-pour-salon-chambre-couloir-marron-78014168.html",
+    "prix": null,
+    "releve": "2026-09-16",
+    "modele": "modèle voisin de la même gamme, prix non relevé"
+   }
+  ]
+ },
+ "livraison": "Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.",
+ "coloris_couleur_galerie": "Gris",
+ "alertes": [
+  "Pas d’option couleur Shopify (seulement « Ships From ») : aucune pastille ; coloris gris cité dans le texte.",
+  "Marque HOMCOM dans le titre fournisseur : retirée. Gamme vendue par la marque et sur les marketplaces.",
+  "Pas de comparable indépendant : grille (1,8 × 41,72 € → 79 €).",
+  "Seule option Shopify « Ships From » (une valeur) : la supprimer ramène le produit à une variante unique sans option."
+ ],
+ "faits": [
+  {
+   "fait": "67 × 45 × 38 cm",
+   "source": "desc.html + image cotée"
+  },
+  {
+   "fait": "Épaisseur d’assise 12 cm, hauteur des pieds 24 cm",
+   "source": "desc.html + image"
+  },
+  {
+   "fait": "Charge 120 kg",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Polaire berbère 100 % polyester, mousse haute densité, pieds en hêtre massif",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Assise incurvée",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Montage nécessaire",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Coloris gris",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Colis 61 × 22 × 44 cm, 5,5 kg",
+   "source": "var package_info"
+  }
+ ]
+}

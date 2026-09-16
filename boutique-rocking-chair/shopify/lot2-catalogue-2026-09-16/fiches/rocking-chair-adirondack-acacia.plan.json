@@ -1,0 +1,88 @@
+{
+ "pid": "1005012984533106",
+ "gid": "gid://shopify/Product/16616075395417",
+ "handle": "rocking-chair-adirondack-acacia",
+ "title": "Rocking chair Adirondack en acacia massif",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "rocking-chair-exterieur",
+  "fauteuil-a-bascule"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162064322905",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "france",
+     "new": null,
+     "hex": null
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162064355673",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Brun",
+     "new": "Acacia naturel",
+     "hex": "#B5773A"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450098090329",
+   "keep": true,
+   "motif": "Acacia naturel — stock 9, France",
+   "price": 359.0
+  }
+ ],
+ "prix": {
+  "vente": 359,
+  "cout_max": 222.75,
+  "ratio": 1.61,
+  "plancher_1_6": 356.4,
+  "source_prix": "plancher",
+  "comparables": [
+   {
+    "site": "fauteuil-a-bascule.com",
+    "url": "https://fauteuil-a-bascule.com/products/chaise-adirondack-en-bois",
+    "prix": 250,
+    "releve": "2026-09-16",
+    "modele": "proche (chaise Adirondack en acacia massif, non basculante, épuisée)"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Acacia naturel",
+ "alertes": [
+  "Prix : le comparable indépendant (250 €) est sous le plancher (1,6 × 222,75 = 356 €) : prix plancher 359 €, bien au-dessus du marché ; à arbitrer par Hakim",
+  "Charge maximale absente ; repère de 52 cm du schéma ambigu (hauteur d'accoudoir ?) : non repris",
+  "Stock faible : 9 unités ; boutique sans notes",
+  "Images IA (personnes) ; sans coussin"
+ ],
+ "faits": [
+  {
+   "fait": "Dimensions 75 × 105 × 90 cm",
+   "source": "image d05/g05 cotée"
+  },
+  {
+   "fait": "Acacia massif, dossier haut incliné, accoudoirs larges",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Instructions fournies ; housse imperméable recommandée",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Colis 102 × 54 × 14 cm, 13,6 kg",
+   "source": "var package_info_dto"
+  }
+ ]
+}

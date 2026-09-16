@@ -1,0 +1,91 @@
+{
+ "pid": "1005012977023383",
+ "gid": "gid://shopify/Product/16616092369241",
+ "handle": "table-d-appoint-en-c-a-roulettes",
+ "title": "Table d'appoint en C à roulettes, plateau rond effet bois",
+ "productType": "Table d'appoint",
+ "collections": [
+  "table-d-appoint"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162086572377",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "wooden color",
+     "new": "Bois naturel",
+     "hex": "#B9844F"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162086605145",
+   "name_old": "Ships From",
+   "name_new": "Ships From",
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450187481433",
+   "keep": true,
+   "motif": "stock 18, coût 24.07 €, Germany",
+   "price": 49.0,
+   "options": {
+    "Color": "wooden color",
+    "Ships From": "Germany"
+   }
+  }
+ ],
+ "prix": {
+  "vente": 49.0,
+  "cout_max": 24.07,
+  "ratio": 2.04,
+  "source_prix": "grille",
+  "comparables": [],
+  "note": "Pas de comparable du même modèle hors marketplace ; grille ~1,8 × coût. 49 € (coût 24,07, ratio 2,04 ; 45 € hors règle de terminaison). Contexte : Leroy Merlin, ManoMano."
+ },
+ "coloris_couleur_galerie": "Bois naturel",
+ "alertes": [
+  "Option « Ships From » (une seule valeur) à supprimer.",
+  "Titre fournisseur « Rectangular » alors que le plateau est rond (base rectangulaire) : fiche alignée sur les photos et le texte.",
+  "Charge maximale faible (5 kg) : ne pas suggérer d'y poser un ordinateur lourd.",
+  "Photo cotée avec texte incrusté (cotes en inch) : visuel à recomposer.",
+  "Stock 18, 1 vente."
+ ],
+ "faits": [
+  {
+   "fait": "40 × 40 × 60 cm, rebord 3 cm, 5 kg, 4,08 kg net",
+   "source": "desc.html Specification"
+  },
+  {
+   "fait": "MDF + fer, stratifié, 2 niveaux, 4 roues dont 2 à frein",
+   "source": "desc.html Specification"
+  },
+  {
+   "fait": "Base 40 × 30 cm",
+   "source": "image cotée g6"
+  },
+  {
+   "fait": "Colis 54 × 44 × 14 cm, 4,3 kg",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Surface résistante à l'eau, chiffon humide",
+   "source": "desc.html Easy to Clean"
+  },
+  {
+   "fait": "Trous pré-percés, schéma fourni",
+   "source": "desc.html Easy to Install"
+  }
+ ]
+}

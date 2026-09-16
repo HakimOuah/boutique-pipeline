@@ -1,0 +1,160 @@
+{
+ "pid": "1005013078459287",
+ "gid": "gid://shopify/Product/16616057012569",
+ "handle": "pouf-rond-velours-cotele-moelleux",
+ "title": "Pouf rond en velours côtelé moelleux, housse lavable",
+ "productType": "Pouf",
+ "collections": [
+  "pouf",
+  "repose-pieds"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162043613529",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Dark green",
+     "new": "Vert sapin",
+     "hex": "#2F4A3E",
+     "supprimee": false
+    },
+    {
+     "old": "Dark gray",
+     "new": "Gris anthracite",
+     "hex": "#6C6B6D",
+     "supprimee": false
+    },
+    {
+     "old": "Navy Blue",
+     "new": "Bleu marine",
+     "hex": "#243C4F",
+     "supprimee": false
+    },
+    {
+     "old": "Beige",
+     "new": "Beige",
+     "hex": "#C9BFB0",
+     "supprimee": false
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162043646297",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59449962660185",
+   "options": {
+    "Color": "Dark green",
+    "Ships From": "Germany"
+   },
+   "keep": true,
+   "motif": "stock 6, Allemagne (Vert sapin)",
+   "price": 69.0,
+   "cout": 38.94
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59449962692953",
+   "options": {
+    "Color": "Dark gray",
+    "Ships From": "Germany"
+   },
+   "keep": true,
+   "motif": "stock 10, Allemagne (Gris anthracite)",
+   "price": 69.0,
+   "cout": 38.94
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59449962725721",
+   "options": {
+    "Color": "Navy Blue",
+    "Ships From": "Germany"
+   },
+   "keep": true,
+   "motif": "stock 5, Allemagne (Bleu marine)",
+   "price": 69.0,
+   "cout": 38.94
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59449962758489",
+   "options": {
+    "Color": "Beige",
+    "Ships From": "Germany"
+   },
+   "keep": true,
+   "motif": "stock 2, Allemagne (Beige)",
+   "price": 69.0,
+   "cout": 38.94
+  }
+ ],
+ "prix": {
+  "vente": 69,
+  "cout_max": 38.94,
+  "ratio": 1.77,
+  "plancher_1_6": 62.3,
+  "source_prix": "grille",
+  "comparables": [
+   {
+    "site": "ChicPouf",
+    "url": "https://chicpouf.com/products/pouf-velours-rond",
+    "prix": 195.9,
+    "releve": "2026-09-16",
+    "modele": "éloigné (pouf rond velours lisse 50 × 35 cm) : contexte"
+   },
+   {
+    "site": "Beaumont Concept",
+    "url": "https://beaumont-concept.com/products/pouf-rond-velours-cotele",
+    "prix": 209,
+    "releve": "2026-09-16",
+    "modele": "éloigné (pouf poire rond velours côtelé) : contexte"
+   }
+  ]
+ },
+ "livraison": "Livraison offerte en France métropolitaine, en 3 à 10 jours ouvrés.",
+ "coloris_couleur_galerie": "Gris anthracite",
+ "alertes": [
+  "Le texte fournisseur indique « Shape : Square » et « fausse fourrure » alors que photos et titre montrent un pouf rond en velours côtelé : la fiche suit les photos.",
+  "Stocks faibles : beige 2, bleu marine 5, vert 6, gris 10.",
+  "Aucun comparable du même modèle : grille (1,8 × 38,94 € → 69 €). Les poufs ronds velours des boutiques indépendantes sont à 195–209 € : marge de hausse possible, à arbitrer.",
+  "Boutique fournisseur OKYUK, 1 vente."
+ ],
+ "faits": [
+  {
+   "fait": "Diamètre 50 cm, hauteur 35 cm",
+   "source": "desc.html + photo cotée"
+  },
+  {
+   "fait": "Velours côtelé, garnissage mousse en morceaux",
+   "source": "desc.html + photos"
+  },
+  {
+   "fait": "Base antidérapante en silicone",
+   "source": "photo détail"
+  },
+  {
+   "fait": "Fermeture éclair sous le pouf, housse lavable en machine",
+   "source": "desc.html + photo"
+  },
+  {
+   "fait": "Poignée de transport",
+   "source": "photos"
+  },
+  {
+   "fait": "Colis 36 × 31 × 20 cm, 5,2 kg",
+   "source": "var package_info"
+  }
+ ]
+}

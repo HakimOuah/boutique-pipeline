@@ -1,0 +1,82 @@
+{
+ "pid": "1005008518579141",
+ "gid": "gid://shopify/Product/16616085619033",
+ "handle": "rocking-chair-tissu-gris-cadre-bois-clair",
+ "title": "Rocking chair en tissu gris clair, cadre en bois clair",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "rocking-chair-bois-rotin"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162078216537",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "LIGHT GRAY",
+     "new": "Gris clair",
+     "hex": "#A9B0B1"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162078249305",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "spain",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450161955161",
+   "keep": true,
+   "motif": "stock 13, spain",
+   "cout": 147.31,
+   "price": 269.0
+  }
+ ],
+ "prix": {
+  "vente": 269,
+  "cout_max": 147.31,
+  "ratio": 1.83,
+  "plancher_1_6": 235.7,
+  "grille_1_8": 265.16,
+  "source_prix": "grille",
+  "comparables": [
+   {
+    "site": "home24 (contexte)",
+    "url": "https://www.home24.fr/article/fauteuil-salon-a-bascule-tg32718nqfr-beige-bois-massif-87-x-85-x-65-cm",
+    "prix": null,
+    "releve": "2026-09-16",
+    "modele": "proche",
+    "note": "87 × 85 × 65 cm, page bloquée, prix non lu"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Gris clair (variante unique)",
+ "alertes": [
+  "Produit HOMCOM (marque dans le titre, référence 83B-211V00LG) : aucune offre éligible trouvée ; prix à la grille (1,8 ×).",
+  "Teinte réelle gris-bleu sur les photos (texte : gris clair) : vérifier la pastille ; proche du vert sauge selon le sourcing.",
+  "Texte mobile en partie en espagnol ; image d00 = mention « pas de livraison aux Canaries », image d07 = bannière de revendeur : ne pas publier.",
+  "Hauteur des accoudoirs : la fiche donne « 79 × 3,8 × 53 cm » sans préciser la référence de hauteur.",
+  "0 vente, stock 13, pas d'image de coloris."
+ ],
+ "faits": [
+  {
+   "fait": "65 × 87 × 84 cm ; assise 58,5 × 56 × 39/43 cm ; 15 cm ; dossier 58,5 × 54,5 × 10 cm ; accoudoirs 79 × 3,8 × 53 cm ; 120 kg ; bascule 35° ; lin synthétique 100 % polyester, mousse, hévéa massif ; feutre antidérapant ; coussin lombaire ; montage",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "Colis 82 × 37 × 61 cm, 13,8 kg",
+   "source": "var package_info_dto"
+  }
+ ]
+}

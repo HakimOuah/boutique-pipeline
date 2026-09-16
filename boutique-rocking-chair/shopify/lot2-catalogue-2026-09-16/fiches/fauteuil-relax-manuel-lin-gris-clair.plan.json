@@ -1,0 +1,79 @@
+{
+ "pid": "1005013152654317",
+ "gid": "gid://shopify/Product/16616075133273",
+ "handle": "fauteuil-relax-manuel-lin-gris-clair",
+ "title": "Fauteuil relax manuel en tissu aspect lin gris clair",
+ "productType": "Fauteuil relax",
+ "collections": [
+  "fauteuil-relax"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162063962457",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null,
+     "hex": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450097303897",
+   "keep": true,
+   "motif": "stock 43, Allemagne",
+   "price": 189.0
+  }
+ ],
+ "prix": {
+  "vente": 189,
+  "cout_max": 103.28,
+  "ratio": 1.83,
+  "plancher_1_6": 165.25,
+  "source_prix": "grille",
+  "comparables": []
+ },
+ "coloris_couleur_galerie": "Gris clair (coloris unique)",
+ "alertes": [
+  "Logo GARVEE home sur plusieurs images de galerie (d00, d02, g00, g05, g06, g08) : à écarter ou retoucher",
+  "Contradiction coloris : le texte annonce « gris foncé et marron », les photos montrent un gris clair ; fiche rédigée en gris clair d'après les photos",
+  "Contradiction angle : texte 90-160°, images 90° / 120° / 150° ; fiche rédigée 90° / 120° / 150°",
+  "Dimensions absentes du texte : relevées sur l'image cotée en pouces (39,8 × 28,3 × 25,6 po) et converties",
+  "Charge 136 kg (300 lb) cohérente texte + image"
+ ],
+ "faits": [
+  {
+   "fait": "Dimensions 72 × 65 × 101 cm (28,3 × 25,6 × 39,8 po)",
+   "source": "image d04/g02 convertie"
+  },
+  {
+   "fait": "Longueur déplié 157 cm (61,8 po)",
+   "source": "image d04 convertie"
+  },
+  {
+   "fait": "Assise 49 × 56 cm (19,2 × 22 po)",
+   "source": "image d04 convertie"
+  },
+  {
+   "fait": "Positions 90° / 120° / 150°",
+   "source": "image d01"
+  },
+  {
+   "fait": "Charge 136 kg",
+   "source": "mobile_detail/desc + image"
+  },
+  {
+   "fait": "Montage 15 minutes, pièces numérotées, outils inclus",
+   "source": "desc.html + SPECIFICATIONS"
+  },
+  {
+   "fait": "Colis 75 × 66 × 54 cm, 26 kg",
+   "source": "candidat_sourcing.colis"
+  }
+ ]
+}

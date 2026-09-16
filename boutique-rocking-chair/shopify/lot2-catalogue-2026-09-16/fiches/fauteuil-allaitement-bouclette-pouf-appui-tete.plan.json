@@ -1,0 +1,103 @@
+{
+ "pid": "1005013082094511",
+ "gid": "gid://shopify/Product/16616092631385",
+ "handle": "fauteuil-allaitement-bouclette-pouf-appui-tete",
+ "title": "Fauteuil d'allaitement en bouclette avec pouf et appui-tête",
+ "productType": "Fauteuil d'allaitement",
+ "collections": [
+  "fauteuil-allaitement",
+  "rocking-chair-repose-pieds",
+  "fauteuil-a-bascule"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162087031129",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "Beige",
+     "new": "Écru",
+     "hex": "#E9E2D4"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162087063897",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450188038489",
+   "keep": true,
+   "motif": "Beige · stock 51, Germany",
+   "price": 339.0,
+   "cout": 188.44
+  }
+ ],
+ "prix": {
+  "vente": 339,
+  "cout_max": 188.44,
+  "ratio": 1.8,
+  "plancher_1_6": 301.5,
+  "source_prix": "comparable",
+  "comparables": [
+   {
+    "site": "Oscille (NORKA)",
+    "url": "https://oscille.fr/products/fauteuil-a-bascule-relax-tissu-teddy-accoudoirs-appui-tete",
+    "prix": 299,
+    "releve": "2026-09-16",
+    "modele": "proche",
+    "note": "299 € sans repose-pieds, 349 € avec repose-pieds"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Écru",
+ "alertes": [
+  "Comanlai = marque du vendeur (titre DSers) : à retirer.",
+  "Schéma : largeur 75 cm mais « 77 cm » entre accoudoirs ; les deux valeurs sont reprises telles quelles (à contrôler sur échantillon).",
+  "Proche des modèles avec pouf déjà au catalogue : contrôle visuel Hakim (note sourcing).",
+  "Infographies en allemand : à recomposer.",
+  "0 avis, 0 vente."
+ ],
+ "faits": [
+  {
+   "fait": "75 × 75 × 92,5 cm ; dossier 59,5 cm ; largeur 77 cm ; assise 55 cm ; hauteur d'assise 41,5 cm ; pouf 46,5 × 34 × 40,5 cm, coussin 9 cm",
+   "source": "schéma de cotes (images desc d08/d09, galerie g07)"
+  },
+  {
+   "fait": "Charge 150 kg, taille conseillée max 178 cm",
+   "source": "image desc d08"
+  },
+  {
+   "fait": "Cadre métal, pieds en bois (caoutchouc/hévéa), patins antidérapants",
+   "source": "desc.html texte + image d11/d12"
+  },
+  {
+   "fait": "Montage 10 à 15 minutes, outils fournis",
+   "source": "desc.html texte point 4"
+  },
+  {
+   "fait": "Mousse haute densité, dossier haut",
+   "source": "desc.html texte point 5"
+  },
+  {
+   "fait": "Appui-tête, coussin lombaire, poche latérale",
+   "source": "images desc d10/d11/d14"
+  },
+  {
+   "fait": "Colis 76 × 40 × 68 cm, 18 kg",
+   "source": "var package_info_dto"
+  }
+ ]
+}

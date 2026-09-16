@@ -1,0 +1,124 @@
+{
+ "pid": "1005012336646068",
+ "gid": "gid://shopify/Product/16616085258585",
+ "handle": "fauteuil-a-bascule-effet-lin-avec-repose-pieds",
+ "title": "Fauteuil à bascule effet lin, à oreilles, avec repose-pieds",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "rocking-chair-design-scandinave",
+  "rocking-chair-repose-pieds"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162077626713",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "YELLOW",
+     "new": "Jaune moutarde",
+     "note": "valeur supprimée avec ses variantes (stock 0)"
+    },
+    {
+     "old": "Cream",
+     "new": "Crème",
+     "hex": "#EEE8DC"
+    },
+    {
+     "old": "light green",
+     "new": "Vert d'eau",
+     "note": "valeur supprimée avec ses variantes (stock 0)"
+    },
+    {
+     "old": "gray",
+     "new": "Gris",
+     "hex": "#6E6F71"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162077659481",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "spain",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450160972121",
+   "keep": false,
+   "motif": "stock 0, spain (rupture)",
+   "cout": 122.88,
+   "price": null
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450161004889",
+   "keep": true,
+   "motif": "stock 21, spain",
+   "cout": 155.06,
+   "price": 299.0
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450161037657",
+   "keep": false,
+   "motif": "stock 0, spain (rupture)",
+   "cout": 132.11,
+   "price": null
+  },
+  {
+   "id": "gid://shopify/ProductVariant/59450161070425",
+   "keep": true,
+   "motif": "stock 5, spain",
+   "cout": 135.54,
+   "price": 299.0
+  }
+ ],
+ "prix": {
+  "vente": 299,
+  "cout_max": 155.06,
+  "ratio": 1.93,
+  "plancher_1_6": 248.1,
+  "grille_1_8": 279.11,
+  "source_prix": "comparable",
+  "comparables": [
+   {
+    "site": "Vente-unique",
+    "url": "https://www.vente-unique.com/p/fauteuil-a-bascule-avec-repose-pieds-structure-en-bois-et-acier-tissu-polyester-creme-64x89x90-cm",
+    "prix": 319.99,
+    "releve": "2026-09-16",
+    "modele": "même modèle",
+    "note": "crème, 64 × 89 × 90 cm, épuisé ; gris clair à 327,99 € (épuisé)"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Crème",
+ "alertes": [
+  "Produit HOMCOM (marque dans le titre et le texte, réf. 839-867).",
+  "Jaune et vert d'eau à stock 0 : supprimés ; seuls crème (21) et gris (5) restent.",
+  "Le fournisseur classe le produit en « mobilier d'extérieur / ensemble de jardin » : incohérent avec un tissu effet lin, présenté en intérieur.",
+  "Vente-unique est aussi une place de marché : le relevé est une offre « vendue par Vente-unique.com », actuellement épuisée.",
+  "Silhouette à oreilles proche de chaise-qui-se-balance (empreinte différente).",
+  "Note 5,0 (1 avis), 9 ventes."
+ ],
+ "faits": [
+  {
+   "fait": "64 × 89 × 90 cm ; repose-pieds 45 × 37 × 31 cm ; assise 60 × 49 × 43 cm ; coussin 59 × 47 × 7 cm ; dossier 63 × 7 × 60 cm ; 130 kg ; lin synthétique 100 % polyester, mousse, acier, hêtre ; protections de sol ; montage simple ; usage allaitement/biberon",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "Bascule 15°",
+   "source": "infographie g02"
+  },
+  {
+   "fait": "Colis 66 × 65 × 34 cm, 14,5 kg",
+   "source": "var package_info_dto"
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "pid": "1005012833191108",
+ "gid": "gid://shopify/Product/16616092795225",
+ "handle": "fauteuil-a-bascule-chenille-taupe",
+ "title": "Fauteuil à bascule en tissu chenille taupe, dossier haut",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "fauteuil-a-bascule",
+  "fauteuil-allaitement"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162087260505",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "P3626",
+     "new": "Taupe",
+     "hex": "#9C8B7B"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162087293273",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "france",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450188431705",
+   "keep": true,
+   "motif": "P3626 · stock 15, france",
+   "price": 619.0,
+   "cout": 382.05
+  }
+ ],
+ "prix": {
+  "vente": 619,
+  "cout_max": 382.05,
+  "ratio": 1.62,
+  "plancher_1_6": 611.28,
+  "source_prix": "plancher",
+  "comparables": [
+   {
+    "site": "Oscille (NESTA)",
+    "url": "https://oscille.fr/products/nesta-rocking-chair-cocon-chenille-grande-assise",
+    "prix": 429,
+    "releve": "2026-09-16",
+    "modele": "proche"
+   },
+   {
+    "site": "Oscille (ANGORA)",
+    "url": "https://oscille.fr/products/angora-fauteuil-a-bascule-scandinave-en-tissu-chenille-rouge-terracotta",
+    "prix": 389,
+    "releve": "2026-09-16",
+    "modele": "proche"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Taupe",
+ "alertes": [
+  "NON PIVOTANT : « Swivel chair » est une mauvaise traduction de « Schwingsessel » (fauteuil à bascule). Specs : Is Rotatable = no ; photos : bascule simple sur pieds métal et patins bois. La fiche le dit clairement (FAQ 4).",
+  "PRIX INJUSTIFIABLE : coût DS 382,05 € (plancher 619 €) pour un fauteuil à bascule chenille basique, modèle type HOMCOM 120 kg ; les comparables chenille indépendants sont à 389-429 €. Recommandation : ne pas publier, ou remplacer par un autre fournisseur du même modèle.",
+  "Coloris codé « P3626 » : taupe d'après les photos.",
+  "Colis déclaré 70 × 98 × 96 cm pour 10,5 kg (quasiment les cotes du fauteuil monté) : incohérent.",
+  "Description fournisseur d'une ligne ; boutique sans note, 0 avis.",
+  "Hauteur du dossier illisible sur le schéma."
+ ],
+ "faits": [
+  {
+   "fait": "97 × 71 × 98,5 cm ; hauteur d'assise 53 cm ; assise 53 × 47 cm ; accoudoirs 27 cm au-dessus de l'assise ; charge 120 kg",
+   "source": "schéma de cotes (image d11/g05)"
+  },
+  {
+   "fait": "Tissu aspect chenille, charge 120 kg",
+   "source": "titre fournisseur"
+  },
+  {
+   "fait": "Structure métal + bois massif",
+   "source": "infographie d09 « Robustes Metallgestell + Massivholz » ; SPECIFICATIONS Frame Material Metal"
+  },
+  {
+   "fait": "Non pivotant",
+   "source": "SPECIFICATIONS Is Rotatable: no ; photos"
+  },
+  {
+   "fait": "Assemblage requis",
+   "source": "SPECIFICATIONS"
+  }
+ ]
+}

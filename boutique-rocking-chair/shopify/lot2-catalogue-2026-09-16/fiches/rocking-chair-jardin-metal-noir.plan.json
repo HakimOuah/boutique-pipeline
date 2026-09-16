@@ -1,0 +1,68 @@
+{
+ "pid": "1005012726811064",
+ "gid": "gid://shopify/Product/16616075690329",
+ "handle": "rocking-chair-jardin-metal-noir",
+ "title": "Rocking chair de jardin en métal noir et toile",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "fauteuil-relax-jardin",
+  "rocking-chair-exterieur"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162064748889",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null,
+     "hex": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450099302745",
+   "keep": true,
+   "motif": "stock 18, Allemagne",
+   "price": 129.0
+  }
+ ],
+ "prix": {
+  "vente": 129,
+  "cout_max": 71.35,
+  "ratio": 1.81,
+  "plancher_1_6": 114.16,
+  "source_prix": "grille",
+  "comparables": []
+ },
+ "coloris_couleur_galerie": "Noir (coloris unique)",
+ "alertes": [
+  "Le texte parle d'un coussin épais et « Whether Cushioned: No » : la photo montre une toile tendue ; aucun coussin annoncé dans la fiche",
+  "Texte « Color: Gray », photos noir / gris foncé : H1 en noir",
+  "Charge 150 kg lue sur l'image g01 uniquement",
+  "Dimensions du colis déclarées identiques au produit : non reprises",
+  "Aucune image de description ; photos de mise en scène par paire (vendu à l'unité)"
+ ],
+ "faits": [
+  {
+   "fait": "Dimensions 59,5 × 102 × 92,5 cm",
+   "source": "desc.html + image g01"
+  },
+  {
+   "fait": "Charge 150 kg",
+   "source": "image g01"
+  },
+  {
+   "fait": "Acier thermolaqué et cataphorèse anticorrosion",
+   "source": "desc.html"
+  },
+  {
+   "fait": "Poids colis 10 kg",
+   "source": "candidat_sourcing.colis"
+  }
+ ]
+}

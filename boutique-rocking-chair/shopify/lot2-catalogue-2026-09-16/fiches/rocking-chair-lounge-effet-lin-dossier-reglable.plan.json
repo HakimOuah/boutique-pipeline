@@ -1,0 +1,83 @@
+{
+ "pid": "1005012885425028",
+ "gid": "gid://shopify/Product/16616085487961",
+ "handle": "rocking-chair-lounge-effet-lin-dossier-reglable",
+ "title": "Rocking chair lounge effet lin, dossier réglable",
+ "productType": "Fauteuil à bascule",
+ "collections": [
+  "rocking-chair-design-scandinave"
+ ],
+ "options": [
+  {
+   "id": "gid://shopify/ProductOption/19162077987161",
+   "name_old": "Color",
+   "name_new": "Couleur",
+   "delete": false,
+   "values": [
+    {
+     "old": "WHITE",
+     "new": "Blanc cassé",
+     "hex": "#EFEADF"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/ProductOption/19162078019929",
+   "name_old": "Ships From",
+   "name_new": null,
+   "delete": true,
+   "values": [
+    {
+     "old": "Germany",
+     "new": null
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": "gid://shopify/ProductVariant/59450161725785",
+   "keep": true,
+   "motif": "stock 99, Germany",
+   "cout": 128.01,
+   "price": 269.0
+  }
+ ],
+ "prix": {
+  "vente": 269,
+  "cout_max": 128.01,
+  "ratio": 2.1,
+  "plancher_1_6": 204.82,
+  "grille_1_8": 230.42,
+  "source_prix": "comparable",
+  "comparables": [
+   {
+    "site": "Oscille (SLOWEN)",
+    "url": "https://oscille.fr/products/rocking-chair-inclinable-2-en-1-en-lin-beige-dossier-reglable-bois-de-hetre-slowen",
+    "prix": 290,
+    "releve": "2026-09-16",
+    "modele": "même modèle",
+    "note": "lin beige, dossier réglable 2 en 1"
+   }
+  ]
+ },
+ "coloris_couleur_galerie": "Blanc cassé (variante unique)",
+ "alertes": [
+  "Nombre de positions incohérent : 5 dans le texte, 10 (« Zehn ») sur un visuel : la fiche ne chiffre pas.",
+  "Assise très basse (29 cm) : non recommandé pour l'allaitement (se relever) ; fiche orientée lounge.",
+  "Matière : « lin » dans le titre mais composition « panneau de fibres + métal + tissu » : écrit « effet lin ». Oscille annonce du hêtre, non confirmé par notre source.",
+  "Marque HYNHXBP dans les specs (retirée) ; visuels en allemand/anglais à recomposer.",
+  "Pas de charge maximale ; hauteur totale incertaine (70 cm sur schéma).",
+  "0 avis, 1 vente, stock 99."
+ ],
+ "faits": [
+  {
+   "fait": "Dossier réglable 5 positions d'une pression, mousse haute densité, tissu effet lin respirant, patins bois élargis, cadre métal noir, coque PU gris mat, patin antidérapant allongé, MDF + métal + tissu, 17,9 kg, colis 19 kg, notice + outil",
+   "source": "desc.html texte"
+  },
+  {
+   "fait": "62 cm, 90,5 cm, dossier 61 cm, assise 57 cm, hauteur d'assise 29 cm, coussin 20 cm",
+   "source": "schéma g01"
+  }
+ ]
+}
