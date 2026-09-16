@@ -1,0 +1,314 @@
+{
+  "id": "claude-20260916-1010-bercelou-refonte-galeries",
+  "type": "generate_images",
+  "created_at": "2026-09-16T08:10:00Z",
+  "requested_by": "claude-code",
+  "notes": "Bercelou, refonte de 6 galeries qui montrent une couleur en rupture ou non vendue (30 images). Aucun accès boutique.",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "fauteuil-relax-manuel",
+        "sku": "BCL-267746",
+        "slot": "face",
+        "couleur": "Blanc cassé",
+        "fichier": "fauteuil-relax-manuel-face.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005008598267746/couleurs/blanc-casse.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/fauteuil-relax-manuel-face.jpg"
+      },
+      {
+        "handle": "fauteuil-relax-manuel",
+        "sku": "BCL-267746",
+        "slot": "salon",
+        "couleur": "Blanc cassé",
+        "fichier": "fauteuil-relax-manuel-salon.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005008598267746/couleurs/blanc-casse.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/fauteuil-relax-manuel-salon.jpg"
+      },
+      {
+        "handle": "fauteuil-relax-manuel",
+        "sku": "BCL-267746",
+        "slot": "reglages",
+        "couleur": "Blanc cassé",
+        "fichier": "fauteuil-relax-manuel-reglages.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005008598267746/couleurs/blanc-casse.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/fauteuil-relax-manuel-reglages.jpg"
+      },
+      {
+        "handle": "fauteuil-relax-manuel",
+        "sku": "BCL-267746",
+        "slot": "matiere",
+        "couleur": "Blanc cassé",
+        "fichier": "fauteuil-relax-manuel-matiere.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005008598267746/couleurs/blanc-casse.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/fauteuil-relax-manuel-matiere.jpg"
+      },
+      {
+        "handle": "fauteuil-relax-manuel",
+        "sku": "BCL-267746",
+        "slot": "detail",
+        "couleur": "Blanc cassé",
+        "fichier": "fauteuil-relax-manuel-detail.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005008598267746/couleurs/blanc-casse.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/fauteuil-relax-manuel-detail.jpg"
+      },
+      {
+        "handle": "rocking-chair-moderne-inclinable",
+        "sku": "BCL-192978",
+        "slot": "face",
+        "couleur": "Bleu",
+        "fichier": "rocking-chair-moderne-inclinable-face.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005012105192978/couleurs/bleu.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/rocking-chair-moderne-inclinable-face.jpg"
+      },
+      {
+        "handle": "rocking-chair-moderne-inclinable",
+        "sku": "BCL-192978",
+        "slot": "soir",
+        "couleur": "Bleu",
+        "fichier": "rocking-chair-moderne-inclinable-soir.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005012105192978/couleurs/bleu.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/rocking-chair-moderne-inclinable-soir.jpg"
+      },
+      {
+        "handle": "rocking-chair-moderne-inclinable",
+        "sku": "BCL-192978",
+        "slot": "usage",
+        "couleur": "Bleu",
+        "fichier": "rocking-chair-moderne-inclinable-usage.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005012105192978/couleurs/bleu.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/rocking-chair-moderne-inclinable-usage.jpg"
+      },
+      {
+        "handle": "rocking-chair-moderne-inclinable",
+        "sku": "BCL-192978",
+        "slot": "matiere",
+        "couleur": "Bleu",
+        "fichier": "rocking-chair-moderne-inclinable-matiere.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005012105192978/couleurs/bleu.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/rocking-chair-moderne-inclinable-matiere.jpg"
+      },
+      {
+        "handle": "rocking-chair-moderne-inclinable",
+        "sku": "BCL-192978",
+        "slot": "detail",
+        "couleur": "Bleu",
+        "fichier": "rocking-chair-moderne-inclinable-detail.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005012105192978/couleurs/bleu.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/rocking-chair-moderne-inclinable-detail.jpg"
+      },
+      {
+        "handle": "fauteuil-a-bascule-allaitement-teddy",
+        "sku": "BCL-578018",
+        "slot": "face",
+        "couleur": "Gris clair",
+        "fichier": "fauteuil-a-bascule-allaitement-teddy-face.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005010201578018/couleurs/gris-clair.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/fauteuil-a-bascule-allaitement-teddy-face.jpg"
+      },
+      {
+        "handle": "fauteuil-a-bascule-allaitement-teddy",
+        "sku": "BCL-578018",
+        "slot": "nuit",
+        "couleur": "Gris clair",
+        "fichier": "fauteuil-a-bascule-allaitement-teddy-nuit.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005010201578018/couleurs/gris-clair.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/fauteuil-a-bascule-allaitement-teddy-nuit.jpg"
+      },
+      {
+        "handle": "fauteuil-a-bascule-allaitement-teddy",
+        "sku": "BCL-578018",
+        "slot": "salon",
+        "couleur": "Gris clair",
+        "fichier": "fauteuil-a-bascule-allaitement-teddy-salon.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005010201578018/couleurs/gris-clair.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/fauteuil-a-bascule-allaitement-teddy-salon.jpg"
+      },
+      {
+        "handle": "fauteuil-a-bascule-allaitement-teddy",
+        "sku": "BCL-578018",
+        "slot": "matiere",
+        "couleur": "Gris clair",
+        "fichier": "fauteuil-a-bascule-allaitement-teddy-matiere.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005010201578018/couleurs/gris-clair.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/fauteuil-a-bascule-allaitement-teddy-matiere.jpg"
+      },
+      {
+        "handle": "fauteuil-a-bascule-allaitement-teddy",
+        "sku": "BCL-578018",
+        "slot": "detail",
+        "couleur": "Gris clair",
+        "fichier": "fauteuil-a-bascule-allaitement-teddy-detail.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005010201578018/couleurs/gris-clair.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/fauteuil-a-bascule-allaitement-teddy-detail.jpg"
+      },
+      {
+        "handle": "fauteuil-a-bascule-bois-massif",
+        "sku": "BCL-890256",
+        "slot": "face",
+        "couleur": "Gris",
+        "fichier": "fauteuil-a-bascule-bois-massif-face.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005012803890256/couleurs/gris.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/fauteuil-a-bascule-bois-massif-face.jpg"
+      },
+      {
+        "handle": "fauteuil-a-bascule-bois-massif",
+        "sku": "BCL-890256",
+        "slot": "nuit",
+        "couleur": "Gris",
+        "fichier": "fauteuil-a-bascule-bois-massif-nuit.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005012803890256/couleurs/gris.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/fauteuil-a-bascule-bois-massif-nuit.jpg"
+      },
+      {
+        "handle": "fauteuil-a-bascule-bois-massif",
+        "sku": "BCL-890256",
+        "slot": "salon",
+        "couleur": "Gris",
+        "fichier": "fauteuil-a-bascule-bois-massif-salon.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005012803890256/couleurs/gris.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/fauteuil-a-bascule-bois-massif-salon.jpg"
+      },
+      {
+        "handle": "fauteuil-a-bascule-bois-massif",
+        "sku": "BCL-890256",
+        "slot": "matiere",
+        "couleur": "Gris",
+        "fichier": "fauteuil-a-bascule-bois-massif-matiere.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005012803890256/couleurs/gris.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/fauteuil-a-bascule-bois-massif-matiere.jpg"
+      },
+      {
+        "handle": "fauteuil-a-bascule-bois-massif",
+        "sku": "BCL-890256",
+        "slot": "detail",
+        "couleur": "Gris",
+        "fichier": "fauteuil-a-bascule-bois-massif-detail.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005012803890256/couleurs/gris.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/fauteuil-a-bascule-bois-massif-detail.jpg"
+      },
+      {
+        "handle": "chaise-rocking-chair",
+        "sku": "BCL-771968",
+        "slot": "face",
+        "couleur": "Lin beige",
+        "fichier": "chaise-rocking-chair-face.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005010240771968/couleurs/lin-beige.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/chaise-rocking-chair-face.jpg"
+      },
+      {
+        "handle": "chaise-rocking-chair",
+        "sku": "BCL-771968",
+        "slot": "nuit",
+        "couleur": "Lin beige",
+        "fichier": "chaise-rocking-chair-nuit.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005010240771968/couleurs/lin-beige.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/chaise-rocking-chair-nuit.jpg"
+      },
+      {
+        "handle": "chaise-rocking-chair",
+        "sku": "BCL-771968",
+        "slot": "salon",
+        "couleur": "Lin beige",
+        "fichier": "chaise-rocking-chair-salon.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005010240771968/couleurs/lin-beige.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/chaise-rocking-chair-salon.jpg"
+      },
+      {
+        "handle": "chaise-rocking-chair",
+        "sku": "BCL-771968",
+        "slot": "matiere",
+        "couleur": "Lin beige",
+        "fichier": "chaise-rocking-chair-matiere.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005010240771968/couleurs/lin-beige.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/chaise-rocking-chair-matiere.jpg"
+      },
+      {
+        "handle": "chaise-rocking-chair",
+        "sku": "BCL-771968",
+        "slot": "detail",
+        "couleur": "Lin beige",
+        "fichier": "chaise-rocking-chair-detail.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005010240771968/couleurs/lin-beige.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/chaise-rocking-chair-detail.jpg"
+      },
+      {
+        "handle": "chaise-qui-se-balance",
+        "sku": "BCL-961063",
+        "slot": "face",
+        "couleur": "Gris clair",
+        "fichier": "chaise-qui-se-balance-face.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005012653961063/couleurs/gris-clair.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/chaise-qui-se-balance-face.jpg"
+      },
+      {
+        "handle": "chaise-qui-se-balance",
+        "sku": "BCL-961063",
+        "slot": "nuit",
+        "couleur": "Gris clair",
+        "fichier": "chaise-qui-se-balance-nuit.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005012653961063/couleurs/gris-clair.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/chaise-qui-se-balance-nuit.jpg"
+      },
+      {
+        "handle": "chaise-qui-se-balance",
+        "sku": "BCL-961063",
+        "slot": "salon",
+        "couleur": "Gris clair",
+        "fichier": "chaise-qui-se-balance-salon.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005012653961063/couleurs/gris-clair.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/chaise-qui-se-balance-salon.jpg"
+      },
+      {
+        "handle": "chaise-qui-se-balance",
+        "sku": "BCL-961063",
+        "slot": "matiere",
+        "couleur": "Gris clair",
+        "fichier": "chaise-qui-se-balance-matiere.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005012653961063/couleurs/gris-clair.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/chaise-qui-se-balance-matiere.jpg"
+      },
+      {
+        "handle": "chaise-qui-se-balance",
+        "sku": "BCL-961063",
+        "slot": "detail",
+        "couleur": "Gris clair",
+        "fichier": "chaise-qui-se-balance-detail.jpg",
+        "reference_couleur": "boutique-rocking-chair/assets/source/1005012653961063/couleurs/gris-clair.jpg",
+        "remplace": "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/chaise-qui-se-balance-detail.jpg"
+      }
+    ],
+    "sources": [
+      "boutique-rocking-chair/assets/source/1005008598267746",
+      "boutique-rocking-chair/assets/source/1005012105192978",
+      "boutique-rocking-chair/assets/source/1005010201578018",
+      "boutique-rocking-chair/assets/source/1005012803890256",
+      "boutique-rocking-chair/assets/source/1005010240771968",
+      "boutique-rocking-chair/assets/source/1005012653961063",
+      "boutique-rocking-chair/livraisons/visuels-final-2026-09-15/"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+      "surcharges": "boutique-rocking-chair/BRIEF-VISUELS-CODEX-2026-09-14.md §2 (« Veille douce », validée par Hakim) + boutique-rocking-chair/BRIEF-VISUELS-CODEX-LOTS-2-5-2026-09-15.md §2 (scènes par famille, formats) + boutique-rocking-chair/BRIEF-VISUELS-CODEX-VARIANTES-2026-09-16.md."
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "Lire EN ENTIER boutique-rocking-chair/BRIEF-VISUELS-CODEX-VARIANTES-2026-09-16.md (§2 refonte de galerie), après les deux briefs Bercelou précédents.",
+        "Chaque image reprend la composition de l'image 'remplace' du même slot, dans le coloris 'couleur' (teinte de reference_couleur). Ne pas écraser le fichier d'origine : écrire dans le dossier de sortie.",
+        "Vérité produit : silhouette, base et éléments des sources 01 à 08 inchangés.",
+        "Slot face : produit seul, aucune personne ; poches vides ; aucun texte ni logo ; JPEG 2048 × 2048."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Planche qa/controle-<handle>.jpg : image d'origine, photo du coloris, image livrée, pour chaque slot.",
+        "Les 5 images d'une fiche sont dans la même teinte."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-rocking-chair/livraisons/visuels-refonte-galeries-2026-09-16/",
+      "manifeste": "manifeste-realise.json"
+    }
+  }
+}
