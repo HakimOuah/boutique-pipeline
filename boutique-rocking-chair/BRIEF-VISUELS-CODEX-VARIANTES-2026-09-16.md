@@ -26,7 +26,7 @@ Deux ordres :
 ### Points connus, fiche par fiche
 
 - **plaid-pour-fauteuil, « Caramel »** : teinte caramel ou camel de la photo fournisseur (coloris renommé le 16/09, ancien nom « Kaki foncé »).
-- **fauteuil-cocon-suspendu, « Noir »** : coussin gris anthracite et panier noir, comme la photo fournisseur. L'image `face` existante montre le coloris vendu sous le nom « Gris foncé » (coussin beige, cadre noir).
+- **fauteuil-cocon-suspendu, « Noir »** : coussin gris anthracite et panier noir, comme la photo fournisseur. L'image `face` existante montre l'autre coloris, renommé « Beige » le 16/09 (coussin beige, cadre noir).
 - **repose-pieds-assorti** : pouf rond au pied d'un rocking chair, comme l'image `face`. Onze teintes vives ou sombres : garde la même scène douce, seul le pouf change de couleur.
 - **housse-de-protection-rocking-chair, « Argent »** : housse rectangulaire argentée posée sur un mobilier de terrasse, comme l'image `face` noire.
 - **rocking-chair-papasan-avec-pouf, « Blanc »** : fauteuil et pouf en tissu épais blanc cassé, même cadre noir.
