@@ -1,0 +1,1 @@
+mutation($id:ID!,$title:String!,$handle:String!,$items:[MenuItemUpdateInput!]!){ menuUpdate(id:$id,title:$title,handle:$handle,items:$items){ menu{ id items{ title items{ title } } } userErrors{ field message } } }
