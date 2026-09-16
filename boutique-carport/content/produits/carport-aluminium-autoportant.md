@@ -41,9 +41,9 @@ Une ou deux voitures à l'abri de la grêle, du soleil, du gel et des fientes, �
 
 ### Faut-il le déclarer ?
 
-En 6 x 6 m, ce carport représente 36 m² d'emprise au sol. Les seuils sont simples : jusqu'à 5 m², aucune formalité ; de 5 à 20 m², une déclaration préalable ; au-delà de 20 m², un permis de construire. À 36 m², vous déposez donc un permis de construire, une démarche plus complète que la déclaration préalable mais courante pour un abri deux voitures. Prévoyez aussi la distance à la limite de propriété fixée par votre PLU, souvent 3 m. Notre conseil : passez par le service urbanisme de votre mairie avant de valider la commande, le carport étant fabriqué à vos coloris, puis instruisez le dossier pendant les 4 à 8 semaines de fabrication. Le guide déclaration offert vous liste les pièces à fournir et vous accompagne étape par étape.
+En 6 x 6 m, ce carport représente 36 m² d'emprise au sol. Les seuils sont simples : jusqu'à 5 m², aucune formalité ; de 5 à 20 m², une déclaration préalable ; au-delà de 20 m², un permis de construire. À 36 m², vous déposez donc un permis de construire, une démarche plus complète que la déclaration préalable mais courante pour un abri deux voitures. Prévoyez aussi la distance à la limite de propriété fixée par votre PLU, souvent 3 m. Le carport étant fabriqué à vos coloris, instruisez le dossier pendant les 4 à 8 semaines de fabrication : il est prêt quand l'abri arrive. Le guide déclaration offert vous liste les pièces à fournir et vous accompagne étape par étape.
 
-### Le montage, honnêtement
+### Le montage
 
 Comptez une à deux journées à deux. L'aluminium se travaille sans peine : les profilés 6063-T5 sont légers à porter et les panneaux de polycarbonate se posent sur l'arche une fois la structure levée. Montez les quatre poteaux sur leurs platines, assemblez les poutres et l'arche au sol avant de les lever, puis posez les panneaux et la gouttière : soyez deux pour aligner et tenir la structure jusqu'à la fixation définitive. Le guide de montage offert détaille l'ordre des étapes et les points de contrôle avant la fixation définitive.
 
@@ -51,7 +51,7 @@ Comptez une à deux journées à deux. L'aluminium se travaille sans peine : les
 
 Sans mur d'appui, la stabilité vient des pieds : c'est le point auquel nous vous demandons le plus de soin, et il est simple. Chaque poteau se fixe par une platine sur une dalle béton ou un plot coulé hors gel (au moins 60 cm de profondeur sur sol meuble), avec des chevilles ou tiges filetées adaptées à votre support. Une fois les quatre platines serrées, la structure est rigide et prête pour les vents d'hiver. Une vérification du serrage à chaque changement de saison, et vous abordez les tempêtes annoncées l'esprit tranquille.
 
-### Ce qu'il ne fait pas
+### Bon à savoir
 
 Un carport aluminium se contente de très peu. Rincez les panneaux de polycarbonate à l'eau claire au printemps, sans solvant ni éponge abrasive, pour garder toute la lumière. Après une forte chute de neige, dégagez le toit arqué depuis le sol avec un balai à manche : la neige glisse déjà d'elle-même sur la courbe, un coup de main finit le travail. Vérifiez à l'automne que la gouttière et son tube d'évacuation sont libres de feuilles, et l'eau continue de partir là où vous l'avez prévu. Les côtés ouverts laissent circuler l'air : la carrosserie sèche vite après une averse.
 
@@ -99,7 +99,7 @@ Oui. Quatre poteaux d'angle en aluminium 6063-T5, des poutres et une arche : la 
 Deux voitures côte à côte, avec 6 m de large et 6 m de long : de quoi ouvrir les portières des deux côtés. La hauteur libre de 2,50 m sous poutre accueille aussi un SUV ou un van aménagé à toit relevable.
 
 **3. Faut-il un permis de construire pour 36 m² ?**
-Oui : au-delà de 20 m² d'emprise au sol, c'est un permis de construire. Le guide déclaration offert liste les pièces à joindre ; déposez le dossier pendant les 4 à 8 semaines de fabrication et confirmez les règles de distance auprès du service urbanisme de votre mairie.
+Oui : au-delà de 20 m² d'emprise au sol, c'est un permis de construire. Le guide déclaration offert liste les pièces à joindre ; déposez le dossier pendant les 4 à 8 semaines de fabrication.
 
 **4. Le toit arqué tient-il sous la neige ?**
 Le toit arqué fait glisser la neige d'elle-même sur sa courbe. Après une forte chute, finissez le travail depuis le sol avec un balai à manche : la structure vous remerciera.

@@ -21,7 +21,7 @@ L'emprise au sol, c'est la surface occupée au sol par la projection verticale d
 
 Concrètement, un carport pour une voiture (12 à 15 m² environ) relève de la déclaration préalable. Un carport 2 voitures ou un abri pour van aménagé et caravane, souvent au-delà de 20 m², passe au permis de construire (voir plus bas).
 
-Ces seuils sont ceux du droit commun. Le PLU de votre commune peut prévoir des règles particulières (zone protégée, secteur sauvegardé, abords de monument historique), et il prime alors sur la règle générale. Le service urbanisme de votre mairie vous indique en quelques minutes ce que prévoit le PLU pour votre parcelle : c'est le premier appel à passer, avant de commander.
+Ces seuils sont ceux du droit commun. Le PLU de votre commune peut prévoir des règles particulières (zone protégée, secteur sauvegardé, abords de monument historique), et il prime alors sur la règle générale. Le PLU de votre commune se consulte en ligne ou en mairie en quelques minutes.
 
 ## En dessous de 5 m² : dans la majorité des cas, rien à faire
 

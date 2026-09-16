@@ -45,9 +45,9 @@ Votre voiture reste au sec, à l'ombre et à l'abri des regards toute l'année. 
 
 ### Faut-il le déclarer ?
 
-Avec 598 × 299 cm au sol, cette tente-carport occupe environ 17,9 m² : entre 5 et 20 m², c'est une déclaration préalable de travaux qu'il faut déposer, une formalité plus simple que le permis de construire, réservé aux abris de plus de 20 m² ; les moins de 5 m² sont dispensés de formalité. Notre guide déclaration, offert avec votre commande et consultable en ligne, vous accompagne du formulaire Cerfa à la réponse de la mairie. Conseil pratique : passez au service urbanisme de votre mairie avec un plan coté de votre terrain avant de commander ; il vous confirmera la procédure et la distance à respecter par rapport aux limites de propriété, souvent 3 m selon le PLU.
+Avec 598 × 299 cm au sol, cette tente-carport occupe environ 17,9 m² : entre 5 et 20 m², c'est une déclaration préalable de travaux qu'il faut déposer, une formalité plus simple que le permis de construire, réservé aux abris de plus de 20 m² ; les moins de 5 m² sont dispensés de formalité. Notre guide déclaration, offert avec votre commande et consultable en ligne, vous accompagne du formulaire Cerfa à la réponse de la mairie.
 
-### Le montage, honnêtement
+### Le montage
 
 Comptez 1 à 2 heures à deux adultes, sans outil spécial : c'est l'un des montages les plus rapides de notre catalogue. Lisez la notice en entier avant de commencer, montez le cadre acier galvanisé à blanc, sans serrage définitif, vérifiez l'alignement, puis fixez et tendez la toile. Notre guide de montage offert complète la notice avec l'ordre des étapes et les points de contrôle avant de tendre la toile.
 
@@ -55,7 +55,7 @@ Comptez 1 à 2 heures à deux adultes, sans outil spécial : c'est l'un des mont
 
 Tout est prévu dans le kit : piquets de sol et cordes fixent la tente dès le montage, sans fondation. Sur terre ou gazon, plantez les piquets fournis et tendez les cordes. Sur une dalle, un enrobé ou du béton, complétez avec des chevilles adaptées au support ou des plots à visser, et lestez les angles. Quand le vent se lève, fermez les deux portes zippées : une tente close offre moins de prise au vent et la structure travaille comme prévu. Sur un terrain exposé, doublez les cordes : c'est le geste qui fait la différence.
 
-### Ce qu'il ne fait pas
+### Bon à savoir
 
 Après une chute de neige, dégagez le toit avec un balai à manche : la structure vous remerciera. Une fois par saison, retendez les cordes et vérifiez les piquets, surtout après un coup de vent. Un jet d'eau et une brosse douce entretiennent la toile ; évitez les solvants, qui abîment le traitement anti-UV. Les fenêtres à croisillons habillent la façade ; pour aérer, ouvrez une porte zippée ou démontez une paroi par beau temps. Si vous rangez la tente pour l'hiver, pliez la toile sèche et stockez-la à l'abri de la lumière.
 
@@ -98,7 +98,7 @@ Conseil : ajoutez environ 60 cm à la longueur et à la largeur de votre véhicu
 598 × 299 cm au sol, 283 cm au faîte, 198 cm aux parois : une tente de 3 × 6 m taillée pour une voiture, avec de la place derrière pour les vélos ou le matériel.
 
 **2. Faut-il la déclarer en mairie ?**
-Oui, par une déclaration préalable de travaux : avec environ 17,9 m² au sol, elle se situe entre 5 et 20 m², sous le seuil du permis de construire. Notre guide déclaration offert vous accompagne pas à pas ; confirmez la procédure auprès du service urbanisme de votre mairie avant de commander.
+Oui, par une déclaration préalable de travaux : avec environ 17,9 m² au sol, elle se situe entre 5 et 20 m², sous le seuil du permis de construire. Notre guide déclaration offert vous accompagne pas à pas, du formulaire aux pièces à joindre.
 
 **3. Va-t-elle résister au vent ?**
 Elle est conçue pour vivre dehors, ancrée et haubanée avec les piquets et les cordes fournis. Fermez les deux portes quand le vent se lève, et sur un terrain exposé, doublez les cordes et lestez les angles.

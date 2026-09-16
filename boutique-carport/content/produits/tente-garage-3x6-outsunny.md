@@ -40,9 +40,9 @@ Votre voiture reste au sec et à l'ombre toute l'année : plus de pare-brise à 
 
 ### Faut-il le déclarer ?
 
-Avec 600 × 295 cm, cette tente-garage couvre 17,7 m² au sol. Les seuils sont simples : jusqu'à 5 m², aucune formalité ; de 5 à 20 m², une déclaration préalable de travaux ; au-delà de 20 m², un permis de construire. À 17,7 m², vous êtes en déclaration préalable, un formulaire et quelques plans à déposer en mairie. Prévoyez aussi la distance à la limite de propriété fixée par votre PLU, souvent 3 m, parfois en limite. Notre conseil : déposez la déclaration dès la commande, la tente arrive en 5 à 12 jours ouvrés. Le guide déclaration offert, disponible en ligne, vous accompagne étape par étape, et le service urbanisme de votre mairie confirme les règles propres à votre commune.
+Avec 600 × 295 cm, cette tente-garage couvre 17,7 m² au sol. Les seuils sont simples : jusqu'à 5 m², aucune formalité ; de 5 à 20 m², une déclaration préalable de travaux ; au-delà de 20 m², un permis de construire. À 17,7 m², vous êtes en déclaration préalable, un formulaire et quelques plans à déposer en mairie. Prévoyez aussi la distance à la limite de propriété fixée par votre PLU, souvent 3 m, parfois en limite. Notre conseil : déposez la déclaration dès la commande, la tente arrive en 5 à 12 jours ouvrés. Le guide déclaration offert, disponible en ligne, vous accompagne étape par étape.
 
-### Le montage, honnêtement
+### Le montage
 
 Le montage se fait à deux, sans outil spécial ni fondation : comptez environ 3 h 30 pour l'assemblage complet. Lisez la notice en entier, puis montez la structure « à blanc », pièces posées sans serrage définitif, pour vérifier l'alignement avant de tout fixer : vous gagnez du temps et la toile se tend sans pli. Réglez la hauteur sur l'un des 4 niveaux avant de tendre la bâche. Un maillet pour les piquets et un tournevis ou une clé pour la visserie suffisent. Le guide de montage offert complète la notice avec l'ordre des étapes et les points de contrôle.
 
@@ -50,7 +50,7 @@ Le montage se fait à deux, sans outil spécial ni fondation : comptez environ 3
 
 Tout est fourni pour fixer la tente au sol : 16 piquets de sol, 4 piquets hélicoïdaux et 4 haubans. Sur terre ou pelouse, plantez les piquets et tendez les haubans, la tente est prête pour le vent. Sur dalle, enrobé ou béton, remplacez les piquets par des plots à visser ou des chevilles adaptées au support, et lestez les angles avec des sacs de sable. Quand le vent se lève, fermez les deux portes enroulables : une tente fermée offre peu de prise. Après les premières semaines, un tour de visserie et de haubans redonne toute sa tension à la structure ; en zone exposée, renforcez l'ancrage aux angles.
 
-### Ce qu'il ne fait pas
+### Bon à savoir
 
 Une bâche bien tendue dure : retendez-la après les premières semaines et rincez-la à l'eau claire au printemps. Après une forte chute de neige, dégagez le toit avec un balai à manche : la pente fait déjà glisser l'essentiel, la structure vous remerciera. Ouvrez les fenêtres en maille par temps chaud pour ventiler ; par pluie battante de côté, roulez-les et fermez les portes. Fermez la tente quand vous partez : elle abrite aussi vélos, outils et mobilier de jardin hors saison.
 
@@ -93,7 +93,7 @@ Conseil : ajoutez environ 60 cm à la longueur et à la largeur de votre véhicu
 ## FAQ
 
 **1. Faut-il déclarer cette tente-garage en mairie ?**
-Oui, par une déclaration préalable de travaux : avec 17,7 m² d'emprise au sol, elle se situe dans la tranche de 5 à 20 m². Le guide numérique offert détaille le formulaire et les plans à joindre ; confirmez les règles de distance auprès du service urbanisme de votre mairie.
+Oui, par une déclaration préalable de travaux : avec 17,7 m² d'emprise au sol, elle se situe dans la tranche de 5 à 20 m². Le guide numérique offert détaille le formulaire et les plans à joindre ;
 
 **2. Va-t-elle résister au vent ?**
 Oui, avec ses piquets et haubans en place : c'est pour cela qu'ils sont fournis. Fermez les portes quand le vent se lève, vérifiez la tension des haubans après les premières semaines et, sur un terrain exposé, lestez les angles avec des sacs de sable.

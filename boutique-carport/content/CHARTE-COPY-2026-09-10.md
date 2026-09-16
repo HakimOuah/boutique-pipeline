@@ -47,3 +47,7 @@ Sous Abri est **le spécialiste français de l'abri voiture en kit** : carports 
 ## Règle du 16/09/2026 — plus de « vraie personne »
 
 Hakim : « le copy est trop tourné vers "réponse d'une vraie personne" ». Le motif conseiller / service client français / réponse sous 1 jour ouvré / avant et après l'achat est retiré de tout le site (accueil, fiches, collections, FAQ, guides, comparatif, à propos, barre d'annonce). Il ne reste que sur la page Contact et dans la section « Nous contacter » de la page garantie et SAV, en formulation neutre (« Réponse sous 1 jour ouvré, du lundi au vendredi »). Le 4e pilier de réassurance devient **« Kit complet, prêt à monter »** : structure, toile ou toiture, kit d'ancrage et notice dans les colis, guides offerts. La ligne du comparatif devient « Cotes et hauteur de passage vérifiées pour votre véhicule ». Quand une phrase renvoyait au conseiller pour vérifier des cotes, elle renvoie désormais à la fiche produit qui les donne.
+
+## Règle du 16/09/2026 (bis) — pas d'injonction à passer en mairie, pas de coulisses
+
+Hakim : « c'est de leur devoir de le faire, et nous avons déjà des guides ». On ne dit jamais au client de passer en mairie avant de commander ; on renvoie au guide déclaration et aux seuils. Pas de section « ce que nous ne promettons pas », pas de titre « honnêtement », pas de pays de stock ni d'aparté sur la fabrication : « stock européen » suffit. Les frais de retour à la charge du client ne figurent que sur la FAQ générale et la page garantie (obligation légale).

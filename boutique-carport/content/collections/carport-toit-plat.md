@@ -19,7 +19,7 @@ L'aluminium 6063-T5 ne rouille jamais et garde sa teinte sans repeinture : un ca
 
 Parce que ce modèle est fabriqué à vos cotes exactes, vous décidez de tout : une place ou deux, la profondeur qui laisse ouvrir le coffre, la hauteur de passage adaptée à un coffre de toit ou à un utilitaire. Mesurez la longueur et la largeur de vos véhicules, la place disponible entre limites de propriété, allée et façade, et photographiez l'emplacement : ces éléments suffisent pour établir le devis.
 
-Côté démarches, l'emprise au sol décide : jusqu'à 5 m² aucune formalité, de 5 à 20 m² une déclaration préalable, au-delà un permis de construire, ce qui est souvent le cas pour deux voitures. Confirmez le seuil applicable auprès de votre mairie ; notre guide déclaration, offert, vous indique les pièces à préparer pendant que le carport est en fabrication.
+Côté démarches, l'emprise au sol décide : jusqu'à 5 m² aucune formalité, de 5 à 20 m² une déclaration préalable, au-delà un permis de construire, ce qui est souvent le cas pour deux voitures. Notre guide déclaration, offert, vous indique les pièces à préparer pendant que le carport est en fabrication.
 
 Après validation du devis, la livraison se fait par transporteur spécialisé, sur rendez-vous, dans le délai précisé sur le devis, livraison comprise dans le prix. Le montage se fait sur platines fixées à une dalle ou à des plots béton coulés au niveau ; notre guide de montage détaille l'implantation des poteaux, le contrôle d'équerrage et la pose de la toiture, à deux personnes. Fabriqué à vos mesures, ce carport n'ouvre pas droit à la rétractation de 14 jours (article L221-28 du Code de la consommation) : nous validons chaque cote et chaque coloris avec vous avant la mise en production.
 

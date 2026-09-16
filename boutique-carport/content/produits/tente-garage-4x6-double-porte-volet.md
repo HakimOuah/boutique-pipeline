@@ -41,9 +41,9 @@ Votre voiture reste au sec et à l'ombre toute l'année, protégée de la pluie,
 
 ### Faut-il le déclarer ?
 
-Avec 601 × 400 cm au sol, cette tente-garage occupe 24 m². Au-delà de 20 m², c'est un permis de construire qu'il faut déposer ; la déclaration préalable est réservée aux abris de 5 à 20 m², et les moins de 5 m² sont dispensés de formalité. La démarche est balisée : notre guide déclaration, offert avec votre commande et consultable en ligne, vous accompagne du formulaire Cerfa à la taxe d'aménagement. Conseil pratique : passez au service urbanisme de votre mairie avec un plan coté de votre terrain avant de commander ; il vous confirmera la procédure et la distance à respecter par rapport aux limites de propriété, souvent 3 m selon le PLU.
+Avec 601 × 400 cm au sol, cette tente-garage occupe 24 m². Au-delà de 20 m², c'est un permis de construire qu'il faut déposer ; la déclaration préalable est réservée aux abris de 5 à 20 m², et les moins de 5 m² sont dispensés de formalité. La démarche est balisée : notre guide déclaration, offert avec votre commande et consultable en ligne, vous accompagne du formulaire Cerfa à la taxe d'aménagement.
 
-### Le montage, honnêtement
+### Le montage
 
 Montage à deux, sans outil spécial : les tubes acier à raccords renforcés s'emboîtent et se verrouillent, notice illustrée à l'appui. Comptez 3 à 4 heures, notice lue en entier avant de commencer. Attendez d'avoir reçu les 3 colis avant d'ouvrir le premier, montez le cadre à blanc, sans verrouillage définitif, vérifiez l'alignement, puis fixez et tendez la bâche. Notre guide de montage offert complète la notice avec l'ordre des étapes et les points de contrôle avant de tendre la toile.
 
@@ -51,7 +51,7 @@ Montage à deux, sans outil spécial : les tubes acier à raccords renforcés s'
 
 Tout est prévu dans le kit : platines de pied percées et piquets fixent la tente dès le montage, sans fondation. Sur terre ou gazon, plantez les piquets fournis. Sur une dalle, un enrobé ou du béton, vissez les platines avec des chevilles adaptées au support, et lestez les angles si vous ne pouvez pas percer. Quand le vent se lève, fermez les deux portes enroulables et les fenêtres, et remettez le toit et les parois en place si vous les aviez retirés : une tente close offre moins de prise au vent et la structure travaille comme prévu. Sur un terrain exposé, ajoutez des haubans aux angles : c'est le geste qui fait la différence.
 
-### Ce qu'il ne fait pas
+### Bon à savoir
 
 Après une forte chute de neige, dégagez le toit avec un balai à manche : la structure vous remerciera. Une fois par saison, vérifiez les platines et les piquets et la tension de la bâche, surtout après un coup de vent. Un jet d'eau et une brosse douce suffisent à entretenir la bâche ; évitez les solvants, qui abîment le traitement anti-UV. Avec deux portes, prenez l'habitude de fermer les deux extrémités en quittant la tente. Quand vous retirez le toit et les parois pour l'été, rangez-les secs et pliés à l'abri de la lumière.
 
@@ -92,7 +92,7 @@ Conseil : ajoutez environ 60 cm à la longueur et à la largeur de votre véhicu
 ## FAQ
 
 **1. Faut-il déclarer cette tente en mairie ?**
-Oui : avec 24 m² au sol (601 × 400 cm), elle dépasse le seuil de 20 m² et relève du permis de construire. Notre guide déclaration offert vous accompagne pas à pas ; confirmez la procédure auprès du service urbanisme de votre mairie avant de commander.
+Oui : avec 24 m² au sol (601 × 400 cm), elle dépasse le seuil de 20 m² et relève du permis de construire. Notre guide déclaration offert vous accompagne pas à pas, du formulaire aux pièces à joindre.
 
 **2. À quoi sert le passage traversant ?**
 À entrer d'un côté et ressortir de l'autre sans manœuvrer, un vrai confort si votre allée ne permet pas de faire demi-tour, et un accès large pour charger une remorque.

@@ -25,15 +25,14 @@ Quand on cherche un carport, on trouve trois réponses : le fabricant qui pose s
 - Une réponse claire à la question de la mairie : chaque fiche indique le régime applicable en général à ses dimensions, notre guide déclaration vous accompagne pas à pas, et votre mairie confirme.
 - Le nécessaire pour ancrer : ce qui est fourni avec chaque modèle, et notre guide montage et ancrage offert pour le poser dans les règles.
 - Un délai clair, annoncé avant l'achat et suivi par e-mail : expédition sous 1 à 3 jours ouvrés, livraison sous 5 à 12 jours ouvrés ; pour un carport sur devis, le délai figure sur le devis.
-- Des visuels fidèles au produit livré, composés à partir des photos réelles du fabricant.
+- Des visuels fidèles au produit livré.
 - Un service client joignable par e-mail et par téléphone, du lundi au vendredi.
 
-## Ce que nous ne promettons pas
+## Ce qui fait la différence
 
-- Un carport à vos cotes livré la semaine prochaine : un abri fabriqué pour vous prend le temps annoncé sur votre devis, et vous le savez avant de vous engager.
-- Un abri qui tient sans ancrage : la tenue au vent se joue au sol, c'est pourquoi chaque modèle arrive avec de quoi le fixer et un guide pour le faire dans les règles.
-- Une décision d'urbanisme à la place de votre mairie : nous vous donnons les seuils et la méthode, le service urbanisme de votre commune valide votre projet.
-- Un atelier de fabrication : nous sélectionnons des abris produits par des fabricants partenaires, et c'est cette sélection, vérifiée modèle par modèle, qui fait notre métier.
+- Un abri complet au prix d'un kit : structure, toile ou toiture, ancrage et notice arrivent ensemble, sans chantier ni devis d'artisan.
+- Des modèles choisis chez des fabricants partenaires et vérifiés un par un : cotes, kit d'ancrage et contenu des colis.
+- Des démarches balisées : nos guides déclaration et montage donnent les seuils, les pièces à fournir et l'ordre de montage.
 
 ## Ce que vous trouverez ici
 

@@ -41,9 +41,9 @@ Un van aménagé ou une caravane vit dehors la plus grande partie de l'année, e
 
 ### Faut-il le déclarer ?
 
-En 6 x 3,8 m, ce carport représente 22,8 m² d'emprise au sol (36 m² pour la version 6 x 6 m). Les seuils sont simples : jusqu'à 5 m², aucune formalité ; de 5 à 20 m², une déclaration préalable ; au-delà de 20 m², un permis de construire. À 22,8 m², vous déposez donc un permis de construire. Prévoyez aussi la distance à la limite de propriété fixée par votre PLU, souvent 3 m. Notre conseil : faites confirmer les règles de votre commune par le service urbanisme de la mairie avant de valider la commande, puis montez le dossier pendant les 4 à 8 semaines de fabrication. Le guide déclaration offert vous liste les pièces à joindre et vous accompagne étape par étape.
+En 6 x 3,8 m, ce carport représente 22,8 m² d'emprise au sol (36 m² pour la version 6 x 6 m). Les seuils sont simples : jusqu'à 5 m², aucune formalité ; de 5 à 20 m², une déclaration préalable ; au-delà de 20 m², un permis de construire. À 22,8 m², vous déposez donc un permis de construire. Prévoyez aussi la distance à la limite de propriété fixée par votre PLU, souvent 3 m. Montez le dossier pendant les 4 à 8 semaines de fabrication : il est prêt quand l'abri arrive. Le guide déclaration offert vous liste les pièces à joindre et vous accompagne étape par étape.
 
-### Le montage, honnêtement
+### Le montage
 
 Comptez une à deux journées à deux. Les profilés aluminium se portent sans effort : fixez les quatre poteaux sur leurs platines, assemblez les poutres, puis posez les panneaux du toit cintré depuis une échelle ou un échafaudage léger, à deux pour les guider. Terminez par la gouttière et son tube d'évacuation. Le guide de montage offert détaille l'ordre des étapes et les points de contrôle avant la fixation définitive.
 
@@ -51,7 +51,7 @@ Comptez une à deux journées à deux. Les profilés aluminium se portent sans e
 
 Sur 6 m de long, chaque pied compte : fixez les quatre platines sur une dalle béton ou des plots coulés hors gel (au moins 60 cm de profondeur sur sol meuble), avec des chevilles ou tiges filetées adaptées à votre support. Une fois les platines serrées, la structure est rigide et prête pour les vents d'hiver. Un tour de clé à chaque changement de saison, et vous abordez les tempêtes annoncées l'esprit tranquille.
 
-### Ce qu'il ne fait pas
+### Bon à savoir
 
 Garez le véhicule centré sous l'arche, dans l'axe des poteaux : c'est là que la place est la plus généreuse. Rincez les panneaux à l'eau claire au printemps, sans solvant, pour conserver toute la lumière. Après une forte chute de neige, dégagez le toit depuis le sol avec un balai à manche : la courbe fait déjà glisser la neige, un coup de main finit le travail. À l'automne, un coup d'œil à la gouttière et à son tube d'évacuation, et l'eau part toujours là où vous l'avez prévu. Pour l'entretien du toit de votre van, sortez-le de l'abri : vous travaillez à l'aise, sans plafond au-dessus de la tête.
 
@@ -94,10 +94,10 @@ Conseil : comparez la hauteur totale de votre véhicule, antennes et coffre de t
 ## FAQ
 
 **1. Quelle hauteur de passage offre ce carport ?**
-2,50 m sous poutre. C'est la cote qui compte : les vans aménagés à toit relevable (California 1,99 m, Marco Polo 1,98 m, Nugget 2,05 m environ), les caravanes compactes comme l'Eriba Touring (2,20 m environ), les caravanes pliantes, les SUV et les pick-up passent avec de la marge. Comparez la hauteur totale de votre véhicule, antennes et coffre de toit compris, aux 2,50 m de passage ; en cas de doute, envoyez-nous le modèle, nous vérifions avec vous.
+2,50 m sous poutre. C'est la cote qui compte : les vans aménagés à toit relevable (California 1,99 m, Marco Polo 1,98 m, Nugget 2,05 m environ), les caravanes compactes comme l'Eriba Touring (2,20 m environ), les caravanes pliantes, les SUV et les pick-up passent avec de la marge. Comparez la hauteur totale de votre véhicule, antennes et coffre de toit compris, aux 2,50 m de passage.
 
 **2. Faut-il un permis de construire pour 22,8 m² ?**
-Oui : au-delà de 20 m² d'emprise au sol, c'est un permis de construire (22,8 m² en 6 x 3,8 m, 36 m² en 6 x 6 m). Le guide déclaration offert liste les pièces à joindre ; déposez le dossier pendant la fabrication et confirmez les règles de distance auprès du service urbanisme de votre mairie.
+Oui : au-delà de 20 m² d'emprise au sol, c'est un permis de construire (22,8 m² en 6 x 3,8 m, 36 m² en 6 x 6 m). Le guide déclaration offert liste les pièces à joindre ; déposez le dossier pendant la fabrication.
 
 **3. Le carport protège-t-il vraiment le toit du véhicule ?**
 Oui, c'est son premier rôle : le toit d'un van ou d'une caravane est la partie la plus exposée au soleil, à la grêle et au gel. À l'ombre et au sec, joints, lanterneaux et panneaux gardent leur état, et le véhicule sa valeur.

@@ -41,9 +41,9 @@ Votre voiture reste au sec et à l'ombre toute l'année : pluie, grêle, soleil 
 
 ### Faut-il le déclarer ?
 
-Avec 601 × 400 cm, cette tente-garage couvre 24 m² au sol. Les seuils sont simples : jusqu'à 5 m², aucune formalité ; de 5 à 20 m², une déclaration préalable ; au-delà de 20 m², un permis de construire. À 24 m², vous déposez donc un permis de construire, une démarche plus complète que la déclaration préalable mais bien balisée. Prévoyez aussi la distance à la limite de propriété fixée par votre PLU, souvent 3 m. Notre conseil : passez par le service urbanisme de votre mairie avant de commander, il confirme les règles propres à votre commune ; le guide déclaration offert, disponible en ligne, vous liste les pièces à fournir et vous accompagne étape par étape.
+Avec 601 × 400 cm, cette tente-garage couvre 24 m² au sol. Les seuils sont simples : jusqu'à 5 m², aucune formalité ; de 5 à 20 m², une déclaration préalable ; au-delà de 20 m², un permis de construire. À 24 m², vous déposez donc un permis de construire, une démarche plus complète que la déclaration préalable mais bien balisée. Prévoyez aussi la distance à la limite de propriété fixée par votre PLU, souvent 3 m. Le guide déclaration offert, disponible en ligne, vous liste les pièces à fournir et vous accompagne étape par étape.
 
-### Le montage, honnêtement
+### Le montage
 
 Le montage se fait à deux, sans outil spécial : les tubes s'emboîtent et se verrouillent, comptez 3 à 4 heures notice en main. Lisez la notice illustrée en entier, attendez d'avoir reçu les trois colis, puis montez la structure à blanc avant de tendre la toile : l'alignement se vérifie d'un coup d'œil et la bâche se tend sans pli. Un maillet pour les piquets suffit. Le toit et les parois se posent et se retirent séparément : pratique pour aérer en été ou déplacer la tente. Le guide de montage offert complète la notice avec l'ordre des étapes et les points de contrôle.
 
@@ -51,7 +51,7 @@ Le montage se fait à deux, sans outil spécial : les tubes s'emboîtent et se v
 
 Les platines de pied percées et les piquets sont fournis. Sur terre ou pelouse, plantez les piquets à travers les platines et la tente est prête pour le vent. Sur dalle, enrobé ou béton, fixez les platines avec des vis d'expansion ou des chevilles adaptées au support, et lestez les angles avec des sacs de sable. Quand le vent se lève, fermez les deux portes enroulables : une tente fermée offre peu de prise. En zone exposée, renforcez l'ancrage aux angles et vérifiez la tension de la toile après les premières semaines.
 
-### Ce qu'il ne fait pas
+### Bon à savoir
 
 Une toile bien tendue dure : retendez-la après les premières semaines et rincez-la à l'eau claire au printemps. Après une forte chute de neige, dégagez le toit avec un balai à manche : la structure vous remerciera. Ouvrez les fenêtres par temps chaud pour ventiler ; par pluie battante de côté, fermez-les avec les portes. Le toit et les parois amovibles se rangent à plat : la tente se démonte et se déplace si vous déménagez ou réaménagez le jardin.
 
@@ -93,7 +93,7 @@ Conseil : ajoutez environ 60 cm à la longueur et à la largeur de votre véhicu
 ## FAQ
 
 **1. Faut-il déclarer cette tente-garage en mairie ?**
-Oui, par un permis de construire : avec 601 × 400 cm, soit 24 m² d'emprise au sol, elle dépasse le seuil de 20 m². Le guide déclaration offert liste les pièces à joindre ; passez par le service urbanisme de votre mairie avant de commander pour confirmer les règles de distance.
+Oui, par un permis de construire : avec 601 × 400 cm, soit 24 m² d'emprise au sol, elle dépasse le seuil de 20 m². Le guide déclaration offert liste les pièces à joindre et vous accompagne étape par étape.
 
 **2. Va-t-elle résister au vent ?**
 Oui, avec ses platines et piquets en place : c'est pour cela qu'ils sont fournis. Fermez les deux portes quand le vent se lève, vérifiez la tension de la toile après les premières semaines et, sur un terrain exposé, lestez les angles avec des sacs de sable.
@@ -117,7 +117,7 @@ Signalez-le sous 48 h avec des photos, nous vous renvoyons la pièce à nos frai
 La sélection et le kit. Nous avons vérifié les cotes, le kit d'ancrage et le contenu des trois colis avant d'inscrire ce modèle au catalogue ; vous recevez les guides déclaration et montage, et le kit d'ancrage est compris. Livraison offerte, sur rendez-vous.
 
 **9. Quelles sont les cotes exactes de la tente ?**
-601 cm de long, 400 cm de large, 281 cm au faîte et 198 cm aux parois. Si votre emplacement est mesuré au centimètre près, envoyez-nous un croquis avant de commander : nous vérifions avec vous que tout passe.
+601 cm de long, 400 cm de large, 281 cm au faîte et 198 cm aux parois. Les cotes extérieures et intérieures figurent sur cette fiche, débords compris.
 
 ---
 

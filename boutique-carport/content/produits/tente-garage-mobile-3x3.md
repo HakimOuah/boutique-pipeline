@@ -41,9 +41,9 @@ Une citadine, deux motos, un quad, la tondeuse ou le matériel d'un chantier : s
 
 ### Faut-il le déclarer ?
 
-Avec 305 × 305 cm au sol, cette tente occupe environ 9,3 m² : entre 5 et 20 m², c'est une déclaration préalable de travaux qu'il faut déposer, une formalité plus simple que le permis de construire, réservé aux abris de plus de 20 m² ; les moins de 5 m² sont dispensés de formalité. Notre guide déclaration, offert avec votre commande et consultable en ligne, vous accompagne du formulaire Cerfa à la réponse de la mairie. Conseil pratique : passez au service urbanisme de votre mairie avec un plan coté de votre terrain avant de commander ; il vous confirmera la procédure et la distance à respecter par rapport aux limites de propriété, souvent 3 m selon le PLU.
+Avec 305 × 305 cm au sol, cette tente occupe environ 9,3 m² : entre 5 et 20 m², c'est une déclaration préalable de travaux qu'il faut déposer, une formalité plus simple que le permis de construire, réservé aux abris de plus de 20 m² ; les moins de 5 m² sont dispensés de formalité. Notre guide déclaration, offert avec votre commande et consultable en ligne, vous accompagne du formulaire Cerfa à la réponse de la mairie.
 
-### Le montage, honnêtement
+### Le montage
 
 Montage sans outil : les pièces sont pré-marquées, la notice illustrée, et la structure se replie. Comptez environ 2 heures à deux, un format plus rapide qu'une tente de 4 × 6 m. Lisez la notice en entier avant de commencer, montez le cadre à blanc, sans serrage définitif, vérifiez l'alignement, puis fixez et tendez la bâche. Notre guide de montage offert complète la notice avec l'ordre des étapes et les points de contrôle avant de tendre la toile.
 
@@ -51,7 +51,7 @@ Montage sans outil : les pièces sont pré-marquées, la notice illustrée, et l
 
 Tout est prévu dans le kit : les ancrages au sol fournis fixent la tente dès le montage, sans fondation. Sur terre ou gazon, plantez-les à chaque pied. Sur une dalle, un enrobé ou du béton (cour, allée), complétez avec des chevilles adaptées au support ou des plots à visser, et lestez les angles. Quand le vent se lève, fermez les deux portes enroulables : une tente close offre moins de prise au vent et la structure, avec ses angles renforcés, travaille comme prévu. Sur un terrain exposé, ajoutez des haubans aux angles : c'est le geste qui fait la différence.
 
-### Ce qu'il ne fait pas
+### Bon à savoir
 
 Après une forte chute de neige, dégagez le toit avec un balai à manche : la structure vous remerciera. Une fois par saison, vérifiez les ancrages et la tension de la bâche, surtout après un coup de vent. Un jet d'eau et une brosse douce suffisent à l'entretenir ; évitez les solvants, qui abîment le traitement anti-UV. Fermez les fenêtres en maille par pluie battante poussée par le vent. Quand vous repliez la tente pour l'hiver ou un déménagement, rangez la bâche sèche et pliée à l'abri de la lumière.
 
@@ -89,7 +89,7 @@ Conseil : ajoutez environ 60 cm à la longueur et à la largeur de votre véhicu
 ## FAQ
 
 **1. Faut-il déclarer cette tente en mairie ?**
-Oui, par une déclaration préalable de travaux : avec environ 9,3 m² au sol, elle se situe entre 5 et 20 m², sous le seuil du permis de construire. Notre guide déclaration offert vous accompagne pas à pas ; confirmez la procédure auprès du service urbanisme de votre mairie avant de commander.
+Oui, par une déclaration préalable de travaux : avec environ 9,3 m² au sol, elle se situe entre 5 et 20 m², sous le seuil du permis de construire. Notre guide déclaration offert vous accompagne pas à pas, du formulaire aux pièces à joindre.
 
 **2. Peut-elle servir à autre chose qu'une voiture ?**
 Oui : deux motos, un quad, la tondeuse, un atelier de saison ou un rangement le temps de travaux, dans le format 3 × 3 m. Elle se replie et se déplace quand vos besoins changent.

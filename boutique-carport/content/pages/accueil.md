@@ -85,7 +85,7 @@ Bouton : Lire le guide déclaration offert → `guide-declaration-carport`
 - **Carport aluminium autoportant, toit arqué** — 1 199 € — fabriqué à la commande dans votre coloris (fiche en brouillon pendant l'examen GMC, 15/09/2026)
 
 ### Carport acier
-- **Carport acier thermolaqué 4,5 × 3 m, toit tôle, noir** — 1 069 € — 5 à 12 jours ouvrés (stock Pologne)
+- **Carport acier thermolaqué 4,5 × 3 m, toit tôle, noir** — 1 069 € — 5 à 12 jours ouvrés (stock européen)
 
 ### Tentes-garages
 - **Tente-garage Outsunny 3 × 6 m, hauteur réglable** — 459 € — 5 à 12 jours ouvrés (stock France)

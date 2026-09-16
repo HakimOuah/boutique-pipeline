@@ -23,7 +23,7 @@ La tente-garage 4 × 6 m fermée à fenêtres en maille (611 × 396 × 300 cm) a
 
 Pour garder ces abris en forme, fermez les portes quand le vent se lève, dégagez le toit après une forte chute de neige, et resserrez haubans et fixations dans les premières semaines. Sur sol dur, préférez les vis d'expansion ; sur sol meuble, les piquets fournis. Notre guide de montage et d'ancrage, offert, détaille ces gestes pour chaque modèle.
 
-Un carport fermé démontable suit les mêmes règles qu'un carport rigide : c'est l'emprise au sol qui compte. Jusqu'à 5 m² aucune formalité, de 5 à 20 m² une déclaration préalable, au-delà un permis de construire ; confirmez le seuil applicable auprès de votre mairie, notre guide déclaration, offert, vous y prépare. Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds, 14 jours pour changer d'avis. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, guides déclaration et montage offerts. Chaque modèle est vérifié, cotes, kit d'ancrage et contenu des colis, avant d'entrer au catalogue.
+Un carport fermé démontable suit les mêmes règles qu'un carport rigide : c'est l'emprise au sol qui compte. Jusqu'à 5 m² aucune formalité, de 5 à 20 m² une déclaration préalable, au-delà un permis de construire ; Notre guide déclaration, offert, vous y prépare. Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds, 14 jours pour changer d'avis. Paiement sécurisé, en 3 ou 4 fois avec Klarna et PayPal. Garantie légale de conformité 2 ans, guides déclaration et montage offerts. Chaque modèle est vérifié, cotes, kit d'ancrage et contenu des colis, avant d'entrer au catalogue.
 
 ## Fiches du catalogue dans cette collection
 

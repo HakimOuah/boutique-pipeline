@@ -22,7 +22,6 @@ Les carports et tentes-garages voyagent avec des transporteurs spécialisés dan
 
 Chaque famille a son délai, rappelé sur la fiche et suivi par e-mail :
 
-- **Tentes-garages et carport acier** (stock en France, en Allemagne ou en Pologne) : **5 à 12 jours ouvrés**.
 - **Traitement** : une commande passée avant 12 h un jour ouvré est traitée le jour même, puis expédiée sous **1 à 3 jours ouvrés**.
 - **Livraison** : **5 à 12 jours ouvrés** après expédition.
 - **Carports aluminium sur devis** : délai précisé sur votre devis, avant tout engagement.

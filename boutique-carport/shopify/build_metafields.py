@@ -9,7 +9,7 @@ def section(txt,title):
 def sub(txt,title):
     m=re.search(r"^###\s*"+re.escape(title)+r"[^\n]*\n(.*?)(?=^###\s|^##\s|^---\s*$|\Z)",txt,re.S|re.M); return m.group(1).strip() if m else ""
 PID={"carport-acier-thermolaque-4-5x3":"15884512199039","carport-aluminium-autoportant":"15884512231807","carport-camping-car-aluminium":"15884512264575","tente-carport-fermee-2-cotes":"15884512297343","tente-garage-3x6-outsunny":"15884512690559","tente-garage-4x6-double-porte-volet":"15884512723327","tente-garage-4x6-fenetres":"15884512756095","tente-garage-4x6-portes-enroulables":"15884513182079","tente-garage-4x7-6-camping-car":"15884513214847","tente-garage-mobile-3x3":"15884513247615"}
-SUBS=[("protege","Ce qu'il protège vraiment"),("declarer","Faut-il le déclarer ?"),("montage_texte","Le montage, honnêtement"),("ancrage_vent","L'ancrage et le vent"),("ne_fait_pas","Ce qu'il ne fait pas"),("livraison_texte","La livraison, concrètement")]
+SUBS=[("protege","Ce qu'il protège vraiment"),("declarer","Faut-il le déclarer ?"),("montage_texte","Le montage"),("ancrage_vent","L'ancrage et le vent"),("ne_fait_pas","Bon à savoir"),("livraison_texte","La livraison, concrètement")]
 out=[]
 for h,pid in PID.items():
     t=open(f"content/produits/{h}.md").read(); owner=f"gid://shopify/Product/{pid}"
