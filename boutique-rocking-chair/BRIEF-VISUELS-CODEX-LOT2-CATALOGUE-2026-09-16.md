@@ -49,7 +49,7 @@ Le champ `contenu_fiche` est l'intention écrite par le rédacteur de la fiche. 
 | `usage` | Le produit en service, avec une personne si la fiche le prévoit (règles du §4). |
 | `matiere` | Macro du revêtement ou du matériau, lumière rasante chaude, main posée autorisée. |
 | `dimensions` | **Produit seul, entier, sur fond uni clair** (blanc cassé ou lin), vu de face ou de trois quarts, avec de la marge autour.<br>**Aucune cote, flèche, chiffre ni texte** : Claude Code posera les cotes ensuite.<br>Pour un lot ou un produit convertible, montre toutes les pièces vendues, côte à côte. |
-| `situation` | Le produit dans une autre pièce ou un autre usage que `desir`, sans personne sauf si la fiche en prévoit une. |
+| `situation` | Le produit dans une autre pièce ou un autre usage que `desir`, sans personne sauf si la fiche en prévoit une.<br>**Pièce, angle et lumière différents de `desir`** (par exemple chambre si `desir` est au salon, vue de profil ou de plus loin). Une variante du même décor est rejetée comme doublon. |
 | `detail` | Gros plan fonctionnel (base, patins, poche, couvercle, roulette, frein, franges), fidèle aux sources. |
 
 Formats : JPEG 2048 × 2048, qualité ~90, fichier nommé comme dans le manifeste.
