@@ -33,20 +33,27 @@ C'est une copie du thème en ligne du 17/09, avec seulement ces changements :
 - footer : origine Chine dans le bloc livraison, « OH Ventures » devant l'adresse ;
 - fiches (accordéon Livraison) : origine Chine, retour vers la France.
 
-## 3. Dépublier 6 collections (≈ 3 min)
+## 3. Dépublier 2 collections (≈ 1 min) — 4 sur 6 sont déjà faites
 
-**Produits → Collections → [collection] → Disponibilité des ventes → décocher Boutique en ligne.**
+**Dépublier une collection ne sort aucun produit du catalogue.** Les fiches restent publiées et
+restent dans leurs autres collections ; c'est la page de collection qui disparaît. Le nombre
+affiché dans la colonne de l'admin compte aussi les brouillons — d'où l'écart avec ce qu'un
+visiteur voit.
 
-| Collection | Pourquoi |
-|---|---|
-| Lustres pampilles | vide en visiteur |
-| Lustres statement | vide en visiteur |
-| Suspensions modernes | vide en visiteur |
-| Suspensions papier | vide en visiteur |
-| Grandes suspensions XXL | 1 seule fiche |
-| Suspensions osier | ne contient que du rotin (déjà retirée du menu) |
+| Collection | Admin | Visible en visiteur | État |
+|---|---|---|---|
+| Lustres pampilles | 7 | **0** | ✅ déjà dépubliée |
+| Lustres statement | 1 | **0** | ✅ déjà dépubliée |
+| Suspensions modernes | 1 | **0** | ✅ déjà dépubliée |
+| Suspensions papier | 1 | **0** | ✅ déjà dépubliée |
+| Grandes suspensions XXL | 15 | **1** | à dépublier — 14 des 15 sont en brouillon |
+| Suspensions osier | 5 | **2** | à dépublier — les 2 fiches visibles sont du rotin |
 
-À décider : **Plafonniers cuisine** (2 fiches, hors menu).
+**Produits → Collections → [collection] → Disponibilité des ventes → décocher Boutique en ligne
+et Google & YouTube.**
+
+À décider : **Plafonniers cuisine** (2 fiches visibles, hors menu, description corrigée). Elle ne
+mentait plus après la passe du 17/09 — on peut la laisser.
 
 ## 4. Ensuite
 
