@@ -1,0 +1,74 @@
+<style>
+.bcg{--bcg-nuit:#1E2A3A;--bcg-sable:#F7F2EA;--bcg-sable-f:#E7DFD1;--bcg-terre:#AE5420;--bcg-ambre:#E08E45;--bcg-encre:#22201C;
+color:var(--bcg-encre);font-size:1rem;line-height:1.65;max-width:1120px;margin:0 auto;width:100%}
+.bcg *{box-sizing:border-box}
+.bcg p{margin:0 0 .8em}
+.bcg a{color:inherit}
+.bcg h2,.bcg h3{font-family:var(--font-heading--family,Fraunces,Georgia,serif);font-weight:500;line-height:1.15;text-wrap:balance;margin:0 0 .5em;color:var(--bcg-nuit)}
+.bcg h2{font-size:clamp(1.55rem,1.2rem + 1.4vw,2.2rem)}
+.bcg h3{font-size:1.15rem}
+.bcg-hero{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(20px,4vw,48px);align-items:center;margin:0 0 36px}
+.bcg-eyebrow{display:inline-block;font-size:.78rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--bcg-terre);margin:0 0 .6em}
+.bcg-lead{font-size:1.12rem;max-width:36em}
+.bcg-hero img,.bcg-step img{display:block;width:100%;height:auto;border-radius:18px;object-fit:cover}
+.bcg-hero img{aspect-ratio:4/3}
+.bcg-btns{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 0}
+.bcg-btn{display:inline-flex;align-items:center;gap:8px;padding:.78em 1.35em;border-radius:30px;font-weight:600;font-size:.95rem;text-decoration:none!important;line-height:1.2;transition:background .2s,color .2s,border-color .2s}
+.bcg-btn svg{width:18px;height:18px;flex:none}
+.bcg-btn--plein{background:var(--bcg-terre);color:#fff!important;border:1px solid var(--bcg-terre)}
+.bcg-btn--plein:hover{background:var(--bcg-nuit);border-color:var(--bcg-nuit)}
+.bcg-btn--ligne{background:transparent;color:var(--bcg-nuit)!important;border:1px solid rgba(30,42,58,.35)}
+.bcg-btn--ligne:hover{border-color:var(--bcg-nuit);background:#fff}
+.bcg-btn:focus-visible{outline:2px solid var(--bcg-ambre);outline-offset:3px}
+.bcg-toc{background:#fff;border:1px solid var(--bcg-sable-f);border-radius:18px;padding:20px 22px;margin:0 0 40px}
+.bcg-toc p{font-weight:600;margin:0 0 10px;color:var(--bcg-nuit)}
+.bcg-toc ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px}
+.bcg-toc a{display:flex;gap:10px;align-items:baseline;padding:8px 12px;border-radius:12px;background:var(--bcg-sable);text-decoration:none;font-size:.93rem}
+.bcg-toc a:hover{background:var(--bcg-sable-f)}
+.bcg-toc b{color:var(--bcg-terre);font-variant-numeric:tabular-nums}
+.bcg-step{display:grid;grid-template-columns:1fr 1fr;gap:clamp(20px,4vw,44px);align-items:center;padding:clamp(20px,3vw,32px);margin:0 0 22px;background:#fff;border-radius:22px;scroll-margin-top:110px}
+.bcg-step:nth-of-type(even) .bcg-step__media{order:2}
+.bcg-step img{aspect-ratio:1/1}
+.bcg-step--sans-image{grid-template-columns:1fr}
+.bcg-num{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:var(--bcg-nuit);color:var(--bcg-sable);font-weight:600;font-variant-numeric:tabular-nums;margin:0 0 12px}
+.bcg-note{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:start;padding:12px 14px;border-radius:14px;margin:0 0 10px}
+.bcg-note svg{width:22px;height:22px;margin-top:2px}
+.bcg-note p{margin:0}
+.bcg-note strong{display:block;font-size:.82rem;letter-spacing:.04em;text-transform:uppercase;margin:0 0 2px}
+.bcg-note--pourquoi{background:var(--bcg-sable)}
+.bcg-note--pourquoi svg{color:var(--bcg-terre)}
+.bcg-note--fiche{background:#EEF1F4}
+.bcg-note--fiche svg{color:var(--bcg-nuit)}
+.bcg-cap{font-size:.82rem;opacity:.75;margin:8px 2px 0}
+.bcg-list{list-style:none;margin:0 0 10px;padding:0}
+.bcg-list li{position:relative;padding:0 0 0 26px;margin:0 0 8px}
+.bcg-list li::before{content:"";position:absolute;left:4px;top:.55em;width:9px;height:9px;border-radius:50%;background:var(--bcg-ambre)}
+.bcg-check{background:var(--bcg-sable-f);border-radius:22px;padding:clamp(22px,3vw,36px);margin:34px 0 22px}
+.bcg-check ul{list-style:none;margin:14px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}
+.bcg-check li{display:grid;grid-template-columns:24px 1fr;gap:10px;align-items:start;background:#fff;border-radius:14px;padding:12px 14px}
+.bcg-check svg{width:22px;height:22px;color:var(--bcg-terre)}
+.bcg-fin{background:var(--bcg-nuit);color:var(--bcg-sable);border-radius:22px;padding:clamp(24px,4vw,44px);display:grid;grid-template-columns:1.3fr 1fr;gap:24px;align-items:center;margin:22px 0 0}
+.bcg-fin h2{color:var(--bcg-sable)}
+.bcg-fin p{margin:0}
+.bcg-fin .bcg-btns{justify-content:flex-end;margin:0}
+.bcg-fin .bcg-btn--ligne{color:var(--bcg-sable)!important;border-color:rgba(247,242,234,.45)}
+.bcg-fin .bcg-btn--ligne:hover{background:rgba(247,242,234,.1);border-color:var(--bcg-sable)}
+.bcg-liens{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0}
+@media (max-width:749px){
+.bcg-hero,.bcg-step,.bcg-fin{grid-template-columns:1fr}
+.bcg-hero__media{order:-1}
+.bcg-step:nth-of-type(even) .bcg-step__media{order:0}
+.bcg-fin .bcg-btns{justify-content:flex-start}
+.bcg-btn{width:100%;justify-content:center}
+.bcg-btns{flex-direction:column}
+}
+@media (prefers-reduced-motion:reduce){.bcg-btn{transition:none}}
+</style>
+<div class="bcg">
+<div class="bcg-hero"><div class="bcg-hero__texte"><span class="bcg-eyebrow">Guide Bercelou · Entretien</span><p class="bcg-lead">Nos fauteuils se déclinent en bouclette, velours côtelé ou lin selon les modèles. Ces matières se vivent bien au quotidien à condition de suivre quelques réflexes simples.</p><div class="bcg-btns"><a class="bcg-btn bcg-btn--plein" href="/collections/fauteuil-a-bascule">Voir les fauteuils à bascule<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="bcg-btn bcg-btn--ligne" href="#tache">En cas de tache<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a></div></div><div class="bcg-hero__media"><img src="https://cdn.shopify.com/s/files/1/1082/4564/7705/files/fauteuil-pivotant-360-bouclette-matiere.jpg?width=1200" alt="Gros plan sur la bouclette crème d&#x27;un fauteuil" width="1200" height="900"></div></div>
+<nav class="bcg-toc" aria-label="Sommaire"><p>Au sommaire</p><ol><li><a href="#courant"><b>1</b><span>Entretien courant</span></a></li><li><a href="#tache"><b>2</b><span>En cas de tache</span></a></li><li><a href="#housses"><b>3</b><span>Housses amovibles</span></a></li></ol></nav>
+<section class="bcg-step" id="courant"><div class="bcg-step__media"><img src="https://cdn.shopify.com/s/files/1/1082/4564/7705/files/fauteuil-a-bascule-velours-cotele-repose-pieds-integre-matiere.jpg?width=900" alt="Gros plan sur le velours côtelé crème d&#x27;un fauteuil" width="900" height="900" loading="lazy"></div><div class="bcg-step__texte"><span class="bcg-num">1</span><h2>L'entretien courant</h2><div class="bcg-note bcg-note--pourquoi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1 2V16h5.2v-.2c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg><p><strong>Pourquoi c'est important</strong>La poussière s'installe dans les boucles et les côtes : un geste régulier garde la matière nette et gonflante.</p></div><div class="bcg-note bcg-note--fiche"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="7.5" width="19" height="9" rx="1.5"/><path d="M6.5 7.5v3M10.5 7.5v4M14.5 7.5v3M18.5 7.5v4"/></svg><p><strong>Sur la fiche produit</strong>La matière de chaque fauteuil figure dans ses caractéristiques, avec ses consignes d'entretien.</p></div><ul class="bcg-list"><li>Dépoussiérez avec la brosse douce de l'aspirateur, dans le sens du poil pour la bouclette et le velours.</li><li>Aérez la pièce de temps en temps : une matière textile respire mieux dans un intérieur ventilé.</li><li>Évitez le plein soleil prolongé pour préserver la couleur du tissu.</li></ul></div></section>
+<section class="bcg-step" id="tache"><div class="bcg-step__media"><img src="https://cdn.shopify.com/s/files/1/1082/4564/7705/files/rocking-chair-effet-lin-creme-bois-clair-matiere.jpg?width=900" alt="Gros plan sur le tissu effet lin crème d&#x27;un rocking chair" width="900" height="900" loading="lazy"></div><div class="bcg-step__texte"><span class="bcg-num">2</span><h2>En cas de tache</h2><div class="bcg-note bcg-note--pourquoi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1 2V16h5.2v-.2c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg><p><strong>Pourquoi c'est important</strong>Plus une tache reste en place, plus elle est difficile à faire partir.</p></div><div class="bcg-note bcg-note--fiche"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="7.5" width="19" height="9" rx="1.5"/><path d="M6.5 7.5v3M10.5 7.5v4M14.5 7.5v3M18.5 7.5v4"/></svg><p><strong>Sur la fiche produit</strong>L'étiquette d'entretien cousue sur votre fauteuil prime toujours sur ces conseils généraux.</p></div><ul class="bcg-list"><li>Intervenez rapidement.</li><li>Épongez sans frotter, avec un chiffon propre et sec.</li><li>Testez votre produit sur une zone cachée avant de l'appliquer sur la tache.</li><li>Tamponnez avec un peu d'eau tiède et de savon doux, puis laissez sécher à l'air libre, loin d'une source de chaleur.</li></ul></div></section>
+<section class="bcg-step" id="housses"><div class="bcg-step__media"><img src="https://cdn.shopify.com/s/files/1/1082/4564/7705/files/pouf-rond-velours-cotele-moelleux-detail.jpg?width=900" alt="Mains qui ouvrent la housse zippée d&#x27;un pouf en velours côtelé vert" width="900" height="900" loading="lazy"><p class="bcg-cap">Exemple : la housse zippée du pouf rond en velours côtelé.</p></div><div class="bcg-step__texte"><span class="bcg-num">3</span><h2>Les housses amovibles</h2><div class="bcg-note bcg-note--pourquoi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1 2V16h5.2v-.2c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg><p><strong>Pourquoi c'est important</strong>Une housse qui se retire se lave en machine, sans nettoyage en place.</p></div><div class="bcg-note bcg-note--fiche"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="7.5" width="19" height="9" rx="1.5"/><path d="M6.5 7.5v3M10.5 7.5v4M14.5 7.5v3M18.5 7.5v4"/></svg><p><strong>Sur la fiche produit</strong>Certains modèles disposent d'une housse amovible et lavable : c'est indiqué sur la fiche produit lorsque c'est le cas. Reportez-vous à l'étiquette de la housse pour la température de lavage. Sans housse amovible, l'entretien se fait en place, en surface.</p></div><div class="bcg-btns"><a class="bcg-btn bcg-btn--plein" href="/collections/pouf">Voir les poufs<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="bcg-btn bcg-btn--ligne" href="/collections/repose-pieds">Voir les repose-pieds<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></div></section>
+<div class="bcg-fin"><div><h2>Trouver votre fauteuil</h2><p>Vérifiez la matière annoncée sur chaque fiche avant de choisir : bouclette, velours côtelé, lin ou chenille.</p></div><div class="bcg-btns"><a class="bcg-btn bcg-btn--plein" href="/collections/fauteuil-a-bascule">Voir les fauteuils à bascule<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="bcg-btn bcg-btn--ligne" href="/pages/guide-bien-choisir-fauteuil-allaitement">Lire le guide allaitement<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></div>
+</div>

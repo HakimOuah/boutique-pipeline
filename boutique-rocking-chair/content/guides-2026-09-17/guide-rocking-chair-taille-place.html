@@ -1,0 +1,76 @@
+<style>
+.bcg{--bcg-nuit:#1E2A3A;--bcg-sable:#F7F2EA;--bcg-sable-f:#E7DFD1;--bcg-terre:#AE5420;--bcg-ambre:#E08E45;--bcg-encre:#22201C;
+color:var(--bcg-encre);font-size:1rem;line-height:1.65;max-width:1120px;margin:0 auto;width:100%}
+.bcg *{box-sizing:border-box}
+.bcg p{margin:0 0 .8em}
+.bcg a{color:inherit}
+.bcg h2,.bcg h3{font-family:var(--font-heading--family,Fraunces,Georgia,serif);font-weight:500;line-height:1.15;text-wrap:balance;margin:0 0 .5em;color:var(--bcg-nuit)}
+.bcg h2{font-size:clamp(1.55rem,1.2rem + 1.4vw,2.2rem)}
+.bcg h3{font-size:1.15rem}
+.bcg-hero{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(20px,4vw,48px);align-items:center;margin:0 0 36px}
+.bcg-eyebrow{display:inline-block;font-size:.78rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--bcg-terre);margin:0 0 .6em}
+.bcg-lead{font-size:1.12rem;max-width:36em}
+.bcg-hero img,.bcg-step img{display:block;width:100%;height:auto;border-radius:18px;object-fit:cover}
+.bcg-hero img{aspect-ratio:4/3}
+.bcg-btns{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 0}
+.bcg-btn{display:inline-flex;align-items:center;gap:8px;padding:.78em 1.35em;border-radius:30px;font-weight:600;font-size:.95rem;text-decoration:none!important;line-height:1.2;transition:background .2s,color .2s,border-color .2s}
+.bcg-btn svg{width:18px;height:18px;flex:none}
+.bcg-btn--plein{background:var(--bcg-terre);color:#fff!important;border:1px solid var(--bcg-terre)}
+.bcg-btn--plein:hover{background:var(--bcg-nuit);border-color:var(--bcg-nuit)}
+.bcg-btn--ligne{background:transparent;color:var(--bcg-nuit)!important;border:1px solid rgba(30,42,58,.35)}
+.bcg-btn--ligne:hover{border-color:var(--bcg-nuit);background:#fff}
+.bcg-btn:focus-visible{outline:2px solid var(--bcg-ambre);outline-offset:3px}
+.bcg-toc{background:#fff;border:1px solid var(--bcg-sable-f);border-radius:18px;padding:20px 22px;margin:0 0 40px}
+.bcg-toc p{font-weight:600;margin:0 0 10px;color:var(--bcg-nuit)}
+.bcg-toc ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px}
+.bcg-toc a{display:flex;gap:10px;align-items:baseline;padding:8px 12px;border-radius:12px;background:var(--bcg-sable);text-decoration:none;font-size:.93rem}
+.bcg-toc a:hover{background:var(--bcg-sable-f)}
+.bcg-toc b{color:var(--bcg-terre);font-variant-numeric:tabular-nums}
+.bcg-step{display:grid;grid-template-columns:1fr 1fr;gap:clamp(20px,4vw,44px);align-items:center;padding:clamp(20px,3vw,32px);margin:0 0 22px;background:#fff;border-radius:22px;scroll-margin-top:110px}
+.bcg-step:nth-of-type(even) .bcg-step__media{order:2}
+.bcg-step img{aspect-ratio:1/1}
+.bcg-step--sans-image{grid-template-columns:1fr}
+.bcg-num{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:var(--bcg-nuit);color:var(--bcg-sable);font-weight:600;font-variant-numeric:tabular-nums;margin:0 0 12px}
+.bcg-note{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:start;padding:12px 14px;border-radius:14px;margin:0 0 10px}
+.bcg-note svg{width:22px;height:22px;margin-top:2px}
+.bcg-note p{margin:0}
+.bcg-note strong{display:block;font-size:.82rem;letter-spacing:.04em;text-transform:uppercase;margin:0 0 2px}
+.bcg-note--pourquoi{background:var(--bcg-sable)}
+.bcg-note--pourquoi svg{color:var(--bcg-terre)}
+.bcg-note--fiche{background:#EEF1F4}
+.bcg-note--fiche svg{color:var(--bcg-nuit)}
+.bcg-cap{font-size:.82rem;opacity:.75;margin:8px 2px 0}
+.bcg-list{list-style:none;margin:0 0 10px;padding:0}
+.bcg-list li{position:relative;padding:0 0 0 26px;margin:0 0 8px}
+.bcg-list li::before{content:"";position:absolute;left:4px;top:.55em;width:9px;height:9px;border-radius:50%;background:var(--bcg-ambre)}
+.bcg-check{background:var(--bcg-sable-f);border-radius:22px;padding:clamp(22px,3vw,36px);margin:34px 0 22px}
+.bcg-check ul{list-style:none;margin:14px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}
+.bcg-check li{display:grid;grid-template-columns:24px 1fr;gap:10px;align-items:start;background:#fff;border-radius:14px;padding:12px 14px}
+.bcg-check svg{width:22px;height:22px;color:var(--bcg-terre)}
+.bcg-fin{background:var(--bcg-nuit);color:var(--bcg-sable);border-radius:22px;padding:clamp(24px,4vw,44px);display:grid;grid-template-columns:1.3fr 1fr;gap:24px;align-items:center;margin:22px 0 0}
+.bcg-fin h2{color:var(--bcg-sable)}
+.bcg-fin p{margin:0}
+.bcg-fin .bcg-btns{justify-content:flex-end;margin:0}
+.bcg-fin .bcg-btn--ligne{color:var(--bcg-sable)!important;border-color:rgba(247,242,234,.45)}
+.bcg-fin .bcg-btn--ligne:hover{background:rgba(247,242,234,.1);border-color:var(--bcg-sable)}
+.bcg-liens{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0}
+@media (max-width:749px){
+.bcg-hero,.bcg-step,.bcg-fin{grid-template-columns:1fr}
+.bcg-hero__media{order:-1}
+.bcg-step:nth-of-type(even) .bcg-step__media{order:0}
+.bcg-fin .bcg-btns{justify-content:flex-start}
+.bcg-btn{width:100%;justify-content:center}
+.bcg-btns{flex-direction:column}
+}
+@media (prefers-reduced-motion:reduce){.bcg-btn{transition:none}}
+</style>
+<div class="bcg">
+<div class="bcg-hero"><div class="bcg-hero__texte"><span class="bcg-eyebrow">Guide Bercelou · Taille et place</span><p class="bcg-lead">Avant de choisir un modèle, cinq points valent la peine d'être vérifiés : la place au sol, le dégagement pour la bascule, la hauteur d'assise et du dossier, la charge supportée et le passage nécessaire à la livraison.</p><div class="bcg-btns"><a class="bcg-btn bcg-btn--plein" href="/collections/fauteuil-a-bascule">Voir les fauteuils à bascule<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="bcg-btn bcg-btn--ligne" href="#piece">Commencer par la pièce<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a></div></div><div class="bcg-hero__media"><img src="https://cdn.shopify.com/s/files/1/1082/4564/7705/files/accueil-berceau-coin-lecture-bandeau.jpg?width=1200" alt="Fauteuil à bascule en bouclette dans une chambre, près d&#x27;un berceau" width="1200" height="900"></div></div>
+<nav class="bcg-toc" aria-label="Sommaire"><p>Les 5 points à vérifier</p><ol><li><a href="#piece"><b>1</b><span>Mesurer la pièce</span></a></li><li><a href="#degagement"><b>2</b><span>Dégagement</span></a></li><li><a href="#hauteur"><b>3</b><span>Hauteur et dossier</span></a></li><li><a href="#charge"><b>4</b><span>Charge</span></a></li><li><a href="#livraison"><b>5</b><span>Passage des portes</span></a></li></ol></nav>
+<section class="bcg-step" id="piece"><div class="bcg-step__media"><img src="https://cdn.shopify.com/s/files/1/1082/4564/7705/files/rocking-chair-bois-blanc-dossier-a-lattes-dimensions.jpg?width=900" alt="Rocking chair en bois blanc avec ses cotes : 69 cm de large, 115 cm de haut, 86 cm de profondeur" width="900" height="900" loading="lazy"><p class="bcg-cap">Exemple : 69 cm de large et 86 cm de profondeur, patins compris.</p></div><div class="bcg-step__texte"><span class="bcg-num">1</span><h2>Mesurer la pièce</h2><div class="bcg-note bcg-note--pourquoi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1 2V16h5.2v-.2c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg><p><strong>Pourquoi c'est important</strong>Un rocking chair est souvent plus large et plus profond à la base qu'à l'assise : ce sont les patins qui fixent l'emprise au sol.</p></div><div class="bcg-note bcg-note--fiche"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="7.5" width="19" height="9" rx="1.5"/><path d="M6.5 7.5v3M10.5 7.5v4M14.5 7.5v3M18.5 7.5v4"/></svg><p><strong>Sur la fiche produit</strong>Reportez l'emprise au sol, indiquée dans le tableau des dimensions, à l'endroit où vous comptez l'installer. Pensez à la largeur totale et à la profondeur, patins compris.</p></div></div></section>
+<section class="bcg-step" id="degagement"><div class="bcg-step__media"><img src="https://cdn.shopify.com/s/files/1/1082/4564/7705/files/rocking-chair-bois-blanc-dossier-a-lattes-situation.jpg?width=900" alt="Rocking chair en bois blanc installé devant une bibliothèque, avec de l&#x27;espace derrière" width="900" height="900" loading="lazy"></div><div class="bcg-step__texte"><span class="bcg-num">2</span><h2>Le dégagement pour la bascule</h2><div class="bcg-note bcg-note--pourquoi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1 2V16h5.2v-.2c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg><p><strong>Pourquoi c'est important</strong>Un fauteuil à bascule se balance vers l'arrière et vers l'avant : il a besoin d'espace libre des deux côtés, sans meuble ni mur trop proches.</p></div><div class="bcg-note bcg-note--fiche"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="7.5" width="19" height="9" rx="1.5"/><path d="M6.5 7.5v3M10.5 7.5v4M14.5 7.5v3M18.5 7.5v4"/></svg><p><strong>Sur la fiche produit</strong>Prévoyez environ 50 cm de dégagement derrière le fauteuil pour une bascule libre, et un peu d'espace devant pour vous asseoir et vous relever sans contrainte. Avec un repose-pieds, ajoutez sa profondeur devant le fauteuil.</p></div></div></section>
+<section class="bcg-step" id="hauteur"><div class="bcg-step__media"><img src="https://cdn.shopify.com/s/files/1/1082/4564/7705/files/rocking-chair-tissu-gris-cadre-bois-clair-dimensions.jpg?width=900" alt="Rocking chair en tissu gris avec ses cotes : 84 cm de haut, assise de 39 à 43 cm" width="900" height="900" loading="lazy"><p class="bcg-cap">Exemple : une assise entre 39 et 43 cm du sol.</p></div><div class="bcg-step__texte"><span class="bcg-num">3</span><h2>La hauteur de l'assise et du dossier</h2><div class="bcg-note bcg-note--pourquoi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1 2V16h5.2v-.2c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg><p><strong>Pourquoi c'est important</strong>La hauteur d'assise change la façon de s'installer et de se lever ; la hauteur du dossier décide si la tête est accompagnée ou non.</p></div><div class="bcg-note bcg-note--fiche"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="7.5" width="19" height="9" rx="1.5"/><path d="M6.5 7.5v3M10.5 7.5v4M14.5 7.5v3M18.5 7.5v4"/></svg><p><strong>Sur la fiche produit</strong>La hauteur d'assise et la hauteur du dossier figurent dans le tableau des dimensions de chaque fiche. Comparez-les à une chaise de votre salon, autour de 45 cm d'assise.</p></div><div class="bcg-btns"><a class="bcg-btn bcg-btn--ligne" href="/pages/guide-bien-choisir-fauteuil-allaitement">Lire le guide allaitement<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></div></section>
+<section class="bcg-step" id="charge"><div class="bcg-step__media"><img src="https://cdn.shopify.com/s/files/1/1082/4564/7705/files/fauteuil-a-bascule-chenille-soutien-lombaire-usage.jpg?width=900" alt="Maman qui allaite dans un fauteuil à bascule en chenille, repose-pieds déplié" width="900" height="900" loading="lazy"></div><div class="bcg-step__texte"><span class="bcg-num">4</span><h2>La charge à respecter</h2><div class="bcg-note bcg-note--pourquoi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1 2V16h5.2v-.2c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg><p><strong>Pourquoi c'est important</strong>Un fauteuil peut accueillir un adulte et un bébé en même temps, parfois avec un enfant sur les genoux.</p></div><div class="bcg-note bcg-note--fiche"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="7.5" width="19" height="9" rx="1.5"/><path d="M6.5 7.5v3M10.5 7.5v4M14.5 7.5v3M18.5 7.5v4"/></svg><p><strong>Sur la fiche produit</strong>Vérifiez la charge maximale supportée, indiquée dans les caractéristiques de chaque fiche, avant l'achat.</p></div></div></section>
+<section class="bcg-step bcg-step--sans-image" id="livraison"><div class="bcg-step__texte"><span class="bcg-num">5</span><h2>Le passage des portes pour la livraison</h2><div class="bcg-note bcg-note--pourquoi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1 2V16h5.2v-.2c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg><p><strong>Pourquoi c'est important</strong>Le fauteuil arrive en colis, dans son carton d'origine, et doit passer vos portes et votre couloir jusqu'à la pièce.</p></div><div class="bcg-note bcg-note--fiche"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="7.5" width="19" height="9" rx="1.5"/><path d="M6.5 7.5v3M10.5 7.5v4M14.5 7.5v3M18.5 7.5v4"/></svg><p><strong>Sur la fiche produit</strong>Mesurez la largeur de vos portes et de votre couloir, puis comparez-les aux dimensions du colis quand la fiche les indique. La plupart des fauteuils arrivent à assembler, notice fournie.</p></div><ul class="bcg-list"><li>Largeur de la porte d'entrée</li><li>Largeur du couloir et des virages</li><li>Largeur de la porte de la pièce</li></ul></div></section>
+<div class="bcg-fin"><div><h2>Trouver votre fauteuil</h2><p>Parcourez nos rocking chairs avec ces points en tête : chaque fiche donne les cotes, la charge et, souvent, les dimensions du colis.</p></div><div class="bcg-btns"><a class="bcg-btn bcg-btn--plein" href="/collections/fauteuil-a-bascule">Voir les fauteuils à bascule<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="bcg-btn bcg-btn--ligne" href="/collections/fauteuil-allaitement">Voir les fauteuils d&#x27;allaitement<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></div>
+</div>
