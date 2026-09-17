@@ -1,0 +1,107 @@
+<style>
+.bcg{--bcg-nuit:#1E2A3A;--bcg-sable:#F7F2EA;--bcg-sable-f:#E7DFD1;--bcg-terre:#AE5420;--bcg-ambre:#E08E45;--bcg-encre:#22201C;
+color:var(--bcg-encre);font-size:1rem;line-height:1.65;max-width:1120px;margin:0 auto;width:100%}
+.bcg *{box-sizing:border-box}
+.bcg p{margin:0 0 .8em}
+.bcg a{color:inherit}
+.bcg h2,.bcg h3{font-family:var(--font-heading--family,Fraunces,Georgia,serif);font-weight:500;line-height:1.15;text-wrap:balance;margin:0 0 .5em;color:var(--bcg-nuit)}
+.bcg h2{font-size:clamp(1.55rem,1.2rem + 1.4vw,2.2rem)}
+.bcg h3{font-size:1.15rem}
+.bcg-hero{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(20px,4vw,48px);align-items:center;margin:0 0 36px}
+.bcg-eyebrow{display:inline-block;font-size:.78rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--bcg-terre);margin:0 0 .6em}
+.bcg-lead{font-size:1.12rem;max-width:36em}
+.bcg-hero img,.bcg-step img{display:block;width:100%;height:auto;border-radius:18px;object-fit:cover}
+.bcg-hero img{aspect-ratio:4/3}
+.bcg-btns{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 0}
+.bcg-btn{display:inline-flex;align-items:center;gap:8px;padding:.78em 1.35em;border-radius:30px;font-weight:600;font-size:.95rem;text-decoration:none!important;line-height:1.2;transition:background .2s,color .2s,border-color .2s}
+.bcg-btn svg{width:18px;height:18px;flex:none}
+.bcg-btn--plein{background:var(--bcg-terre);color:#fff!important;border:1px solid var(--bcg-terre)}
+.bcg-btn--plein:hover{background:var(--bcg-nuit);border-color:var(--bcg-nuit)}
+.bcg-btn--ligne{background:transparent;color:var(--bcg-nuit)!important;border:1px solid rgba(30,42,58,.35)}
+.bcg-btn--ligne:hover{border-color:var(--bcg-nuit);background:#fff}
+.bcg-btn:focus-visible{outline:2px solid var(--bcg-ambre);outline-offset:3px}
+.bcg-toc{background:#fff;border:1px solid var(--bcg-sable-f);border-radius:18px;padding:20px 22px;margin:0 0 40px}
+.bcg-toc p{font-weight:600;margin:0 0 10px;color:var(--bcg-nuit)}
+.bcg-toc ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px}
+.bcg-toc a{display:flex;gap:10px;align-items:baseline;padding:8px 12px;border-radius:12px;background:var(--bcg-sable);text-decoration:none;font-size:.93rem}
+.bcg-toc a:hover{background:var(--bcg-sable-f)}
+.bcg-toc b{color:var(--bcg-terre);font-variant-numeric:tabular-nums}
+.bcg-step{display:grid;grid-template-columns:1fr 1fr;gap:clamp(20px,4vw,44px);align-items:center;padding:clamp(20px,3vw,32px);margin:0 0 22px;background:#fff;border-radius:22px;scroll-margin-top:110px}
+.bcg-step:nth-of-type(even) .bcg-step__media{order:2}
+.bcg-step img{aspect-ratio:1/1}
+.bcg-step--sans-image{grid-template-columns:1fr}
+.bcg-num{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:var(--bcg-nuit);color:var(--bcg-sable);font-weight:600;font-variant-numeric:tabular-nums;margin:0 0 12px}
+.bcg-note{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:start;padding:12px 14px;border-radius:14px;margin:0 0 10px}
+.bcg-note svg{width:22px;height:22px;margin-top:2px}
+.bcg-note p{margin:0}
+.bcg-note strong{display:block;font-size:.82rem;letter-spacing:.04em;text-transform:uppercase;margin:0 0 2px}
+.bcg-note--pourquoi{background:var(--bcg-sable)}
+.bcg-note--pourquoi svg{color:var(--bcg-terre)}
+.bcg-note--fiche{background:#EEF1F4}
+.bcg-note--fiche svg{color:var(--bcg-nuit)}
+.bcg-cap{font-size:.82rem;opacity:.75;margin:8px 2px 0}
+.bcg-list{list-style:none;margin:0 0 10px;padding:0}
+.bcg-list li{position:relative;padding:0 0 0 26px;margin:0 0 8px}
+.bcg-list li::before{content:"";position:absolute;left:4px;top:.55em;width:9px;height:9px;border-radius:50%;background:var(--bcg-ambre)}
+.bcg-check{background:var(--bcg-sable-f);border-radius:22px;padding:clamp(22px,3vw,36px);margin:34px 0 22px}
+.bcg-check ul{list-style:none;margin:14px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}
+.bcg-check li{display:grid;grid-template-columns:24px 1fr;gap:10px;align-items:start;background:#fff;border-radius:14px;padding:12px 14px}
+.bcg-check svg{width:22px;height:22px;color:var(--bcg-terre)}
+.bcg-fin{background:var(--bcg-nuit);color:var(--bcg-sable);border-radius:22px;padding:clamp(24px,4vw,44px);display:grid;grid-template-columns:1.3fr 1fr;gap:24px;align-items:center;margin:22px 0 0}
+.bcg-fin h2{color:var(--bcg-sable)}
+.bcg-fin p{margin:0}
+.bcg-fin .bcg-btns{justify-content:flex-end;margin:0}
+.bcg-fin .bcg-btn--ligne{color:var(--bcg-sable)!important;border-color:rgba(247,242,234,.45)}
+.bcg-fin .bcg-btn--ligne:hover{background:rgba(247,242,234,.1);border-color:var(--bcg-sable)}
+.bcg-liens{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0}
+@media (max-width:749px){
+.bcg-hero,.bcg-step,.bcg-fin{grid-template-columns:1fr}
+.bcg-hero__media{order:-1}
+.bcg-step:nth-of-type(even) .bcg-step__media{order:0}
+.bcg-fin .bcg-btns{justify-content:flex-start}
+.bcg-btn{width:100%;justify-content:center}
+.bcg-btns{flex-direction:column}
+}
+@media (prefers-reduced-motion:reduce){.bcg-btn{transition:none}}
+</style>
+<style>
+.bcg h2.bcg-h1{font-family:var(--font-heading--family,Fraunces,Georgia,serif);font-weight:500;line-height:1.1;text-wrap:balance;color:var(--bcg-nuit);font-size:clamp(1.8rem,1.3rem + 2vw,2.8rem);margin:0 0 .45em}
+.bcg-sec{margin:0 0 40px}
+.bcg-sec__tete{max-width:44em;margin:0 0 18px}
+.bcg-crit{list-style:none;margin:14px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.bcg-crit li{display:grid;grid-template-columns:24px 1fr;gap:10px;align-items:start;background:var(--bcg-sable);border-radius:14px;padding:12px 14px;font-size:.95rem}
+.bcg-crit svg{width:22px;height:22px;color:var(--bcg-terre)}
+.bcg-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.bcg-card{display:block;background:#fff;border-radius:18px;overflow:hidden;text-decoration:none!important;color:var(--bcg-encre)!important;transition:transform .2s,box-shadow .2s}
+.bcg-card:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(30,42,58,.10)}
+.bcg-card:focus-visible{outline:2px solid var(--bcg-ambre);outline-offset:3px}
+.bcg-card img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+.bcg-card__txt{padding:14px 16px 16px}
+.bcg-card__txt strong{display:flex;justify-content:space-between;align-items:center;gap:8px;font-family:var(--font-heading--family,Fraunces,Georgia,serif);font-weight:500;font-size:1.15rem;color:var(--bcg-nuit)}
+.bcg-card__txt strong svg{width:18px;height:18px;color:var(--bcg-terre);flex:none}
+.bcg-card__txt span{display:block;font-size:.88rem;opacity:.8;margin-top:4px}
+.bcg-perks{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:0 0 40px}
+.bcg-perk{background:var(--bcg-sable-f);border-radius:18px;padding:18px}
+.bcg-perk svg{width:28px;height:28px;color:var(--bcg-terre);margin:0 0 8px}
+.bcg-perk strong{display:block;color:var(--bcg-nuit);margin:0 0 2px}
+.bcg-perk span{font-size:.9rem}
+.bcg-contact{display:grid;grid-template-columns:1fr 1fr;gap:clamp(20px,4vw,44px);background:#fff;border-radius:22px;padding:clamp(20px,3vw,32px);margin:0 0 22px;align-items:center}
+.bcg-coord{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.bcg-coord li{display:grid;grid-template-columns:24px 1fr;gap:10px;align-items:start}
+.bcg-coord svg{width:22px;height:22px;color:var(--bcg-nuit)}
+.bcg-coord a{font-weight:600}
+.bcg-petit{font-size:.88rem;opacity:.8;margin:14px 0 0}
+@media (max-width:989px){.bcg-perks{grid-template-columns:repeat(2,minmax(0,1fr))}.bcg-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:749px){.bcg-contact{grid-template-columns:1fr}.bcg-crit{grid-template-columns:1fr}}
+@media (max-width:480px){.bcg-cards{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){.bcg-card{transition:none}.bcg-card:hover{transform:none}}
+</style>
+<div class="bcg">
+<div class="bcg-hero"><div class="bcg-hero__texte"><span class="bcg-eyebrow">Notre histoire</span><h2 class="bcg-h1">Le fauteuil des vraies nuits, et des moments à soi</h2><p class="bcg-lead">Bercelou est né d'un constat simple : la plupart des fauteuils à bascule sont pensés pour une photo de chambre de bébé, pas pour la vie qui va avec. Une tétée de nuit qui dure, un lever qui doit rester silencieux, un salon qui garde le fauteuil bien après. Nous choisissons nos modèles pour ces deux usages à la fois.</p><div class="bcg-btns"><a class="bcg-btn bcg-btn--plein" href="/collections/fauteuil-allaitement">Voir les fauteuils d&#x27;allaitement<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="bcg-btn bcg-btn--ligne" href="#methode">Notre méthode<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a></div></div><div class="bcg-hero__media"><img src="https://cdn.shopify.com/s/files/1/1082/4564/7705/files/bercelou-hero.jpg?width=1200" alt="Une maman berce son bébé la nuit dans un fauteuil à bascule en bouclette" width="1200" height="900"></div></div>
+<section class="bcg-step" id="methode"><div class="bcg-step__media"><img src="https://cdn.shopify.com/s/files/1/1082/4564/7705/files/fauteuil-a-bascule-allaitement-lin-poches-dimensions.jpg?width=900" alt="Fauteuil à bascule en lin avec ses cotes : 68 cm de large, 96 cm de haut, assise à 54 cm" width="900" height="900" loading="lazy"><p class="bcg-cap">Chaque fiche donne les cotes qui comptent, comme ici.</p></div><div class="bcg-step__texte"><span class="bcg-eyebrow">Notre méthode de sélection</span><h2>Des fauteuils choisis sur leurs cotes</h2><p>Nous ne référençons pas tout ce qui existe. Nous sélectionnons chaque fauteuil d'après ses dimensions et sa matière. Ces cotes figurent sur chaque fiche, pour que vous choisissiez selon ce qui compte pour vous.</p><ul class="bcg-crit"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M8 12.5l2.6 2.6L16 9.5"/></svg><span><strong>La hauteur d'assise</strong>, pour choisir entre une assise qui se love et une assise facile à quitter</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M8 12.5l2.6 2.6L16 9.5"/></svg><span><strong>Les accoudoirs</strong>, leur hauteur et leur rembourrage, pour poser les bras</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M8 12.5l2.6 2.6L16 9.5"/></svg><span><strong>Le dossier</strong>, sa hauteur et sa forme, pour accompagner la tête</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M8 12.5l2.6 2.6L16 9.5"/></svg><span><strong>La matière</strong>, son toucher et son entretien au quotidien</span></li></ul><div class="bcg-btns"><a class="bcg-btn bcg-btn--ligne" href="/pages/guide-bien-choisir-fauteuil-allaitement">Lire le guide pour bien choisir<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></div></section>
+<section class="bcg-sec"><div class="bcg-sec__tete"><span class="bcg-eyebrow">Une sélection qui s'élargit</span><h2>Du berceau au coin lecture</h2><p>Chaque famille répond à un moment de vie différent : les tétées de nuit, la pause au salon, le soir sur la terrasse, le coin cocooning.</p></div><div class="bcg-cards"><a class="bcg-card" href="/collections/fauteuil-allaitement"><img src="https://cdn.shopify.com/s/files/1/1082/4564/7705/files/collection-fauteuil-allaitement-carte.jpg?width=700" alt="Allaitement" width="700" height="525" loading="lazy"><div class="bcg-card__txt"><strong>Allaitement<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></strong><span>Pour les tétées de nuit, et bien après</span></div></a><a class="bcg-card" href="/collections/fauteuil-a-bascule"><img src="https://cdn.shopify.com/s/files/1/1082/4564/7705/files/collection-fauteuil-a-bascule-carte.jpg?width=700" alt="Rocking chairs" width="700" height="525" loading="lazy"><div class="bcg-card__txt"><strong>Rocking chairs<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></strong><span>Design, scandinaves, bois et rotin</span></div></a><a class="bcg-card" href="/collections/fauteuil-relax"><img src="https://cdn.shopify.com/s/files/1/1082/4564/7705/files/fauteuil-relax-bouclette-creme-pivotant-desir.jpg?width=700" alt="Fauteuils relax" width="700" height="525" loading="lazy"><div class="bcg-card__txt"><strong>Fauteuils relax<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></strong><span>Pivotants, inclinables, avec repose-pieds</span></div></a><a class="bcg-card" href="/collections/pouf"><img src="https://cdn.shopify.com/s/files/1/1082/4564/7705/collections/collection-pouf-carte.jpg?width=700" alt="Cocooning" width="700" height="525" loading="lazy"><div class="bcg-card__txt"><strong>Cocooning<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></strong><span>Poufs, repose-pieds, plaids et coussins de sol</span></div></a><a class="bcg-card" href="/collections/rocking-chair-exterieur"><img src="https://cdn.shopify.com/s/files/1/1082/4564/7705/files/collection-rocking-chair-exterieur-carte.jpg?width=700" alt="Extérieur" width="700" height="525" loading="lazy"><div class="bcg-card__txt"><strong>Extérieur<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></strong><span>Rocking chairs de terrasse et de jardin</span></div></a><a class="bcg-card" href="/collections/accessoires-rocking-chair"><img src="https://cdn.shopify.com/s/files/1/1082/4564/7705/files/collection-accessoires-rocking-chair-carte.jpg?width=700" alt="Accessoires" width="700" height="525" loading="lazy"><div class="bcg-card__txt"><strong>Accessoires<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></strong><span>Plaids, repose-pieds, coussins</span></div></a></div></section>
+<div class="bcg-perks"><div class="bcg-perk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7h11v9H3z"/><path d="M14 10h4l3 3v3h-7z"/><circle cx="7" cy="17.5" r="1.6"/><circle cx="17" cy="17.5" r="1.6"/></svg><strong>Livraison offerte</strong><span>En France métropolitaine, suivi par e-mail</span></div><div class="bcg-perk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 14L4 9l5-5"/><path d="M4 9h10a6 6 0 0 1 0 12h-3"/></svg><strong>Retours sous 14 jours</strong><span>Après réception, sans avoir à vous justifier</span></div><div class="bcg-perk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg><strong>Garantie légale 2 ans</strong><span>Conformité et vices cachés</span></div><div class="bcg-perk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="M3 10h18M7 15h4"/></svg><strong>Paiement en 3 ou 4 fois</strong><span>Avec Klarna ou PayPal, selon leurs conditions</span></div></div>
+<section class="bcg-contact" id="contact"><div><span class="bcg-eyebrow">Nous contacter</span><h2>Une question avant ou après votre achat ?</h2><p>Notre équipe vous répond sous 1 jour ouvré, du lundi au vendredi. Si vous nous contactez après 18h, votre demande est prise en charge le jour suivant.</p><div class="bcg-btns"><a class="bcg-btn bcg-btn--plein" href="mailto:contact@bercelou.com">Nous écrire<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="bcg-btn bcg-btn--ligne" href="/pages/contact">Page contact<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></div><ul class="bcg-coord"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="M3.5 7l8.5 6 8.5-6"/></svg><span><a href="mailto:contact@bercelou.com">contact@bercelou.com</a></span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg><span><a href="tel:+33756828094">+33 7 56 82 80 94</a></span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Du lundi au vendredi, de 9h00 à 18h00</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span>Bercelou, 47 rue Vivienne, 75002 Paris, France</span></li></ul></section>
+<div class="bcg-fin"><div><h2>Trouver votre fauteuil</h2><p>Parcourez nos fauteuils d'allaitement et nos rocking chairs, cotes à l'appui.</p></div><div class="bcg-btns"><a class="bcg-btn bcg-btn--plein" href="/collections/fauteuil-allaitement">Voir les fauteuils d&#x27;allaitement<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="bcg-btn bcg-btn--ligne" href="/collections/fauteuil-a-bascule">Voir les rocking chairs<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></div>
+<p class="bcg-petit">Retrouvez nos <a href="/policies/legal-notice">mentions légales</a> et nos <a href="/policies/terms-of-service">conditions générales de vente</a>.</p>
+</div>
