@@ -1,0 +1,103 @@
+{
+  "id": "claude-20260910-1330-sousabri-lot5-faces-voitures",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "carport-acier-thermolaque-4-5x3",
+        "sku": "SA-ACIER-450",
+        "slot": "face",
+        "fichier": "carport-acier-thermolaque-4-5x3-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "carport-aluminium-autoportant",
+        "sku": "SA-ALU-AUTO-6x6",
+        "slot": "face",
+        "fichier": "carport-aluminium-autoportant-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      },
+      {
+        "handle": "carport-camping-car-aluminium",
+        "sku": "SA-ALU-CC-6x38",
+        "slot": "face",
+        "fichier": "carport-camping-car-aluminium-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      },
+      {
+        "handle": "tente-garage-3x6-outsunny",
+        "sku": "SA-TG-3x6-OUT",
+        "slot": "face",
+        "fichier": "tente-garage-3x6-outsunny-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      },
+      {
+        "handle": "tente-garage-4x6-fenetres",
+        "sku": "SA-TG-4x6-FEN",
+        "slot": "face",
+        "fichier": "tente-garage-4x6-fenetres-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "tente-garage-4x7-6-camping-car",
+        "sku": "SA-TG-4x76",
+        "slot": "face",
+        "fichier": "tente-garage-4x7-6-camping-car-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/carport-aluminium-autoportant-v1-porte-plaque.jpg",
+        "motif": "support de plaque noir visible au centre du bouclier avant"
+      },
+      {
+        "fichier": "rejected/carport-aluminium-autoportant-v2-porte-plaque.jpg",
+        "motif": "support de plaque noir encore visible malgré régénération"
+      },
+      {
+        "fichier": "rejected/carport-camping-car-aluminium-v2-plaque-vide.jpg",
+        "motif": "rectangle blanc de plaque présent sur le camping-car"
+      },
+      {
+        "fichier": "rejected/tente-garage-3x6-outsunny-v1-logement-plaque.jpg",
+        "motif": "logement arrière de plaque visible sur la Citroën C3"
+      },
+      {
+        "fichier": "rejected/tente-garage-3x6-outsunny-v2-porte-plaque.jpg",
+        "motif": "rectangle de support avant visible sur la Citroën C3"
+      },
+      {
+        "fichier": "rejected/tente-garage-4x6-fenetres-v1-porte-plaque.jpg",
+        "motif": "support de plaque noir visible sur l’Audi"
+      },
+      {
+        "fichier": "rejected/tente-garage-4x7-6-camping-car-v1-plaque-vide.jpg",
+        "motif": "rectangle de plaque vide visible sur le camping-car"
+      },
+      {
+        "fichier": "rejected/tente-garage-mobile-3x3-v2-voiture-en-travers.jpg",
+        "motif": "Citroën C3 placée en travers de la tente, contraire à l’axe d’entrée"
+      },
+      {
+        "fichier": "rejected/tente-garage-mobile-3x3-v3-porte-plaque.jpg",
+        "motif": "support de plaque noir visible au centre du bouclier"
+      },
+      {
+        "fichier": "rejected/tente-garage-mobile-3x3-v4-poteau-invente.jpg",
+        "motif": "montant central en toile inventé pour masquer la plaque; géométrie produit fausse"
+      }
+    ],
+    "sujets_difficiles": [
+      "tente-garage-mobile-3x3-face.jpg : 4 tentatives; conflit persistant entre véhicule dans l’axe, absence de porte-plaque et géométrie exacte de la tente. Entrée non livrée."
+    ]
+  },
+  "executed_at": "2026-09-10T10:50:31+00:00",
+  "executor": "codex-2026-09-10"
+}

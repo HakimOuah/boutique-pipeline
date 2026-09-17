@@ -1,0 +1,109 @@
+{
+  "id": "claude-20260909-2300-sousabri-lot1",
+  "status": "failed",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "sousabri-accueil",
+        "sku": "SA-ACIER-450",
+        "slot": "famille-alu",
+        "fichier": "sousabri-famille-alu.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "sousabri-accueil",
+        "sku": "SA-TG-3x6-OUT",
+        "slot": "famille-tentes",
+        "fichier": "sousabri-famille-tentes.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "sousabri-accueil",
+        "sku": "SA-DEVIS-2P",
+        "slot": "famille-devis",
+        "fichier": "sousabri-famille-devis.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "sousabri-accueil",
+        "sku": "SA-SCENE",
+        "slot": "douleur-grele",
+        "fichier": "sousabri-douleur-grele.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "sousabri-accueil",
+        "sku": "SA-SCENE",
+        "slot": "douleur-soleil",
+        "fichier": "sousabri-douleur-soleil.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "sousabri-accueil",
+        "sku": "SA-TRIO",
+        "slot": "comparaison",
+        "fichier": "sousabri-comparaison.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/hero-v1-cinq-poteaux-logo-voiture.jpg",
+        "motif": "Cinq poteaux au lieu des quatre de la source ; emblème parasite sur la calandre."
+      },
+      {
+        "fichier": "rejected/hero-v2-cinq-poteaux.jpg",
+        "motif": "Cinq poteaux au lieu des quatre de la source."
+      },
+      {
+        "fichier": "rejected/hero-v3-symbole-voiture.jpg",
+        "motif": "Symbole ovale sur le capot ; élément vertical supplémentaire ambigu derrière le poteau avant."
+      },
+      {
+        "fichier": "rejected/hero-v4-poteaux-supplementaires.jpg",
+        "motif": "Poteaux supplémentaires et emblèmes parasites sur la voiture."
+      },
+      {
+        "fichier": "rejected/hero-v5-cinq-poteaux-logo.jpg",
+        "motif": "Cinq poteaux au lieu de quatre ; logo sur la calandre."
+      },
+      {
+        "fichier": "rejected/devis-v1-toit-hors-cadre.jpg",
+        "motif": "Bord droit de la toiture coupé par le cadre."
+      },
+      {
+        "fichier": "rejected/comparaison-v1-renforts-toit-deformes.jpg",
+        "motif": "Treillis et renforts déformés sous la toiture bronze, absents de la référence."
+      }
+    ],
+    "sujets_difficiles": [
+      "hero / SA-ALU-AUTO-6x6 : cinq essais, quatre régénérations ; poteaux supplémentaires et marques parasites persistants. Aucun hero livré."
+    ],
+    "bilan": {
+      "demandes": 7,
+      "livres": 6,
+      "non_livres": 1,
+      "statut": "Livraison partielle après QA, hero rejeté."
+    },
+    "sortie": {
+      "dossier": "boutique-carport/livraisons/visuels-lot1-2026-09-09/",
+      "manifeste": "manifeste.json"
+    },
+    "qa_rapport": "qa-rapport.json",
+    "prompts": "prompts.json",
+    "limites": [
+      "SA-ACIER-450 : la source montre huit montants verticaux, quatre par côté long, contrairement aux quatre du brief. La carte conserve les huit.",
+      "SA-DEVIS-2P : la source montre trois supports visibles, contrairement aux deux du brief et du nom SKU. La carte reproduit les trois supports visibles ; ceci ne valide pas la désignation commerciale.",
+      "SA-ALU-AUTO-6x6 : quatre poteaux dans la source, structure bronze conservée dans la comparaison ; hero rejeté pour dérive de géométrie persistante.",
+      "Lanczos vers les dimensions demandées, sans retouche du contenu ; ce ne sont pas des images natives 2048 px."
+    ]
+  },
+  "executed_at": "2026-09-09T19:20:19.947296+00:00",
+  "executor": "codex-2026-09-09"
+}

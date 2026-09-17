@@ -1,0 +1,36 @@
+{
+  "id": "claude-20260910-1540-sousabri-lot6-devis-toit-plat-adosse",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "devis-carport-aluminium-toit-plat",
+        "sku": "SA-DEVIS-TP",
+        "slot": "situation",
+        "fichier": "devis-carport-aluminium-toit-plat-situation.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "devis-carport-aluminium-adosse",
+        "sku": "SA-DEVIS-AD",
+        "slot": "situation",
+        "fichier": "devis-carport-aluminium-adosse-situation.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/devis-carport-aluminium-toit-plat-v1-texte-poubelle.jpg",
+        "motif": "chiffres visibles sur une poubelle en arrière-plan"
+      }
+    ],
+    "sujets_difficiles": [],
+    "observations": [
+      "Référence de style localisée dans visuels-lot3 plutôt que visuels-lot1."
+    ]
+  },
+  "executed_at": "2026-09-10T13:49:54+00:00",
+  "executor": "codex-2026-09-10"
+}

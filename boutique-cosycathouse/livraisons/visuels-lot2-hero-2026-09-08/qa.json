@@ -1,0 +1,66 @@
+{
+  "statut": "PASS",
+  "methode": "Inspection visuelle des sources, sorties complètes, planche comparative et détails produit/chat. Boîtes englobantes relevées manuellement sur les sorties natives; mesures approximatives.",
+  "images": [
+    {
+      "slot": "hero",
+      "dimensions": [
+        2048,
+        1152
+      ],
+      "dimensions_natives": [
+        1672,
+        941
+      ],
+      "bbox_abri_native": [
+        850,
+        250,
+        1456,
+        806
+      ],
+      "hauteur_pourcent": 59.09,
+      "intervalle_attendu": [
+        45,
+        60
+      ],
+      "position": "Abri dans moitié droite; x_min 50.8 %; tiers gauche flou sans objet net gênant le titre."
+    },
+    {
+      "slot": "hero-mobile",
+      "dimensions": [
+        1152,
+        2048
+      ],
+      "dimensions_natives": [
+        941,
+        1672
+      ],
+      "bbox_abri_native": [
+        160,
+        713,
+        840,
+        1369
+      ],
+      "hauteur_pourcent": 39.23,
+      "intervalle_attendu": [
+        35,
+        45
+      ],
+      "position": "Centre-bas; tiers supérieur haie floue dégagée."
+    }
+  ],
+  "produit": "Tissu gris, toit à deux pans et film argenté, porte carrée à rabat, fenêtre droite, pieds tubulaires noirs conformes visuellement; trois pieds visibles, quatrième masqué par perspective comme les références. Aucun texte/logo/accessoire ajouté observé.",
+  "chat": "Un chat par image, une tête et deux yeux visibles, anatomie du visage sans défaut observé; zéro patte et zéro queue visibles car corps couché à intérieur, contrôle limité aux parties visibles.",
+  "planche": "qa-planche.jpg; chaque image possède un petit côté de 740 px minimum.",
+  "details": [
+    "qa-hero-detail.jpg",
+    "qa-mobile-detail.jpg"
+  ],
+  "export": "JPEG qualité 90, redimensionnement Lanczos des sorties natives vers dimensions prescrites; aucune retouche générative ni inpainting.",
+  "usage_mobile": "Utiliser le portrait livré pour mobile. Le cadrage moitié droite explicite du lot 2 remplace le recadrage central du hero du brief lot 1; un recadrage central du paysage couperait le produit.",
+  "prompts": "prompts.json",
+  "sha256": {
+    "insulated-outdoor-cat-house-hero-v2.jpg": "bc8324d6f79891d43b2f619e94691a24aa1374898482cdcd3618b9e87ec6c1df",
+    "insulated-outdoor-cat-house-hero-mobile.jpg": "ffd78fb5b126449d174408575d192b2511ce3d38dd1ef33b303b493f2fea3943"
+  }
+}

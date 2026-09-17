@@ -1,0 +1,74 @@
+{
+ "action": "exact",
+ "ok": true,
+ "result": {
+  "checked_at_utc": "2026-09-08T09:39:07+00:00",
+  "destination": "GB",
+  "exact_sku": {
+   "currency": "EUR",
+   "offer_sale_price": "33.99",
+   "properties": [
+    {
+     "image": "https://ae01.alicdn.com/kf/S3ba2571e84d94c94affe84b575d2d453n.png",
+     "name": "Couleur",
+     "raw_value": "GRIS",
+     "value": "GRIS"
+    },
+    {
+     "image": null,
+     "name": "Taille",
+     "raw_value": "S",
+     "value": "S"
+    },
+    {
+     "image": null,
+     "name": "Expédié depuis",
+     "raw_value": "China Mainland",
+     "value": "China Mainland"
+    }
+   ],
+   "sku_attr": "5:100014064;14:691;200007763:201336100",
+   "sku_id": "12000050697511833",
+   "sku_price": "67.94",
+   "stock": 7,
+   "tax_included": true
+  },
+  "freight": {
+   "code": 200,
+   "message": "Call succeeds",
+   "options": [
+    {
+     "available_stock": "7",
+     "code": "CAINIAO_FULFILLMENT_OVER_WH",
+     "company": "AliExpress Selection Shipping for Oversized Goods",
+     "currency": "EUR",
+     "delivery_date": "oct. 03 - 11",
+     "free_shipping": false,
+     "max_delivery_days": 33,
+     "min_delivery_days": 25,
+     "ship_from_country": "CN",
+     "shipping_fee": "€1.99",
+     "tracking": true
+    }
+   ],
+   "success": true
+  },
+  "product": {
+   "evaluation_count": "0",
+   "product_id": "1005009960200806",
+   "rating": "0.0",
+   "sales_count": "401",
+   "status": "onSelling",
+   "store": {
+    "communication_rating": "4.8",
+    "country": "CN",
+    "id": 1103573332,
+    "item_as_described_rating": "5.0",
+    "name": "Stone's Store",
+    "shipping_speed_rating": "4.8"
+   },
+   "title": "Maison pour chat d'extérieur, toutes saisons, imperméable, base surélevée, isolation thermique estivale, abri chaud en hiver pour chats errants et petits chiens"
+  },
+  "source": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS"
+ }
+}

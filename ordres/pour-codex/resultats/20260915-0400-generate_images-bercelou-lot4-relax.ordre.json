@@ -1,0 +1,386 @@
+{
+ "id": "claude-20260915-0400-bercelou-lot4-relax",
+ "type": "generate_images",
+ "created_at": "2026-09-15T08:00:00Z",
+ "requested_by": "claude-code",
+ "payload": {
+  "manifest": [
+   {
+    "handle": "fauteuil-relax-electrique",
+    "sku": "BCL-721103",
+    "slot": "face",
+    "fichier": "fauteuil-relax-electrique-face.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-electrique",
+    "sku": "BCL-721103",
+    "slot": "salon",
+    "fichier": "fauteuil-relax-electrique-salon.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-electrique",
+    "sku": "BCL-721103",
+    "slot": "reglages",
+    "fichier": "fauteuil-relax-electrique-reglages.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-electrique",
+    "sku": "BCL-721103",
+    "slot": "matiere",
+    "fichier": "fauteuil-relax-electrique-matiere.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-electrique",
+    "sku": "BCL-721103",
+    "slot": "detail",
+    "fichier": "fauteuil-relax-electrique-detail.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-moderne",
+    "sku": "BCL-786223",
+    "slot": "face",
+    "fichier": "fauteuil-relax-moderne-face.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-moderne",
+    "sku": "BCL-786223",
+    "slot": "salon",
+    "fichier": "fauteuil-relax-moderne-salon.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-moderne",
+    "sku": "BCL-786223",
+    "slot": "reglages",
+    "fichier": "fauteuil-relax-moderne-reglages.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-moderne",
+    "sku": "BCL-786223",
+    "slot": "matiere",
+    "fichier": "fauteuil-relax-moderne-matiere.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-moderne",
+    "sku": "BCL-786223",
+    "slot": "detail",
+    "fichier": "fauteuil-relax-moderne-detail.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-manuel",
+    "sku": "BCL-267746",
+    "slot": "face",
+    "fichier": "fauteuil-relax-manuel-face.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-manuel",
+    "sku": "BCL-267746",
+    "slot": "salon",
+    "fichier": "fauteuil-relax-manuel-salon.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-manuel",
+    "sku": "BCL-267746",
+    "slot": "reglages",
+    "fichier": "fauteuil-relax-manuel-reglages.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-manuel",
+    "sku": "BCL-267746",
+    "slot": "matiere",
+    "fichier": "fauteuil-relax-manuel-matiere.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-manuel",
+    "sku": "BCL-267746",
+    "slot": "detail",
+    "fichier": "fauteuil-relax-manuel-detail.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-cuir",
+    "sku": "BCL-948146",
+    "slot": "face",
+    "fichier": "fauteuil-relax-cuir-face.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-cuir",
+    "sku": "BCL-948146",
+    "slot": "salon",
+    "fichier": "fauteuil-relax-cuir-salon.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-cuir",
+    "sku": "BCL-948146",
+    "slot": "reglages",
+    "fichier": "fauteuil-relax-cuir-reglages.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-cuir",
+    "sku": "BCL-948146",
+    "slot": "matiere",
+    "fichier": "fauteuil-relax-cuir-matiere.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-cuir",
+    "sku": "BCL-948146",
+    "slot": "detail",
+    "fichier": "fauteuil-relax-cuir-detail.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-design",
+    "sku": "BCL-998756",
+    "slot": "face",
+    "fichier": "fauteuil-relax-design-face.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-design",
+    "sku": "BCL-998756",
+    "slot": "salon",
+    "fichier": "fauteuil-relax-design-salon.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-design",
+    "sku": "BCL-998756",
+    "slot": "reglages",
+    "fichier": "fauteuil-relax-design-reglages.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-design",
+    "sku": "BCL-998756",
+    "slot": "matiere",
+    "fichier": "fauteuil-relax-design-matiere.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-design",
+    "sku": "BCL-998756",
+    "slot": "detail",
+    "fichier": "fauteuil-relax-design-detail.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-de-salon",
+    "sku": "BCL-448823",
+    "slot": "face",
+    "fichier": "fauteuil-relax-de-salon-face.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-de-salon",
+    "sku": "BCL-448823",
+    "slot": "salon",
+    "fichier": "fauteuil-relax-de-salon-salon.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-de-salon",
+    "sku": "BCL-448823",
+    "slot": "reglages",
+    "fichier": "fauteuil-relax-de-salon-reglages.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-de-salon",
+    "sku": "BCL-448823",
+    "slot": "matiere",
+    "fichier": "fauteuil-relax-de-salon-matiere.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-de-salon",
+    "sku": "BCL-448823",
+    "slot": "detail",
+    "fichier": "fauteuil-relax-de-salon-detail.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-pivotant",
+    "sku": "BCL-845495",
+    "slot": "face",
+    "fichier": "fauteuil-relax-pivotant-face.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-pivotant",
+    "sku": "BCL-845495",
+    "slot": "salon",
+    "fichier": "fauteuil-relax-pivotant-salon.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-pivotant",
+    "sku": "BCL-845495",
+    "slot": "reglages",
+    "fichier": "fauteuil-relax-pivotant-reglages.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-pivotant",
+    "sku": "BCL-845495",
+    "slot": "matiere",
+    "fichier": "fauteuil-relax-pivotant-matiere.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-pivotant",
+    "sku": "BCL-845495",
+    "slot": "detail",
+    "fichier": "fauteuil-relax-pivotant-detail.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-scandinave",
+    "sku": "BCL-772306",
+    "slot": "face",
+    "fichier": "fauteuil-relax-scandinave-face.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-scandinave",
+    "sku": "BCL-772306",
+    "slot": "salon",
+    "fichier": "fauteuil-relax-scandinave-salon.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-scandinave",
+    "sku": "BCL-772306",
+    "slot": "reglages",
+    "fichier": "fauteuil-relax-scandinave-reglages.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-scandinave",
+    "sku": "BCL-772306",
+    "slot": "matiere",
+    "fichier": "fauteuil-relax-scandinave-matiere.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-scandinave",
+    "sku": "BCL-772306",
+    "slot": "detail",
+    "fichier": "fauteuil-relax-scandinave-detail.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-exterieur-inclinable",
+    "sku": "BCL-331532",
+    "slot": "face",
+    "fichier": "fauteuil-relax-exterieur-inclinable-face.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-exterieur-inclinable",
+    "sku": "BCL-331532",
+    "slot": "salon",
+    "fichier": "fauteuil-relax-exterieur-inclinable-salon.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-exterieur-inclinable",
+    "sku": "BCL-331532",
+    "slot": "reglages",
+    "fichier": "fauteuil-relax-exterieur-inclinable-reglages.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-exterieur-inclinable",
+    "sku": "BCL-331532",
+    "slot": "matiere",
+    "fichier": "fauteuil-relax-exterieur-inclinable-matiere.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-exterieur-inclinable",
+    "sku": "BCL-331532",
+    "slot": "detail",
+    "fichier": "fauteuil-relax-exterieur-inclinable-detail.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-a-bascule",
+    "sku": "BCL-697791",
+    "slot": "face",
+    "fichier": "fauteuil-relax-a-bascule-face.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-a-bascule",
+    "sku": "BCL-697791",
+    "slot": "salon",
+    "fichier": "fauteuil-relax-a-bascule-salon.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-a-bascule",
+    "sku": "BCL-697791",
+    "slot": "reglages",
+    "fichier": "fauteuil-relax-a-bascule-reglages.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-a-bascule",
+    "sku": "BCL-697791",
+    "slot": "matiere",
+    "fichier": "fauteuil-relax-a-bascule-matiere.jpg"
+   },
+   {
+    "handle": "fauteuil-relax-a-bascule",
+    "sku": "BCL-697791",
+    "slot": "detail",
+    "fichier": "fauteuil-relax-a-bascule-detail.jpg"
+   },
+   {
+    "handle": "rocking-chair-avec-repose-pieds",
+    "sku": "BCL-143897",
+    "slot": "face",
+    "fichier": "rocking-chair-avec-repose-pieds-face.jpg"
+   },
+   {
+    "handle": "rocking-chair-avec-repose-pieds",
+    "sku": "BCL-143897",
+    "slot": "salon",
+    "fichier": "rocking-chair-avec-repose-pieds-salon.jpg"
+   },
+   {
+    "handle": "rocking-chair-avec-repose-pieds",
+    "sku": "BCL-143897",
+    "slot": "reglages",
+    "fichier": "rocking-chair-avec-repose-pieds-reglages.jpg"
+   },
+   {
+    "handle": "rocking-chair-avec-repose-pieds",
+    "sku": "BCL-143897",
+    "slot": "matiere",
+    "fichier": "rocking-chair-avec-repose-pieds-matiere.jpg"
+   },
+   {
+    "handle": "rocking-chair-avec-repose-pieds",
+    "sku": "BCL-143897",
+    "slot": "detail",
+    "fichier": "rocking-chair-avec-repose-pieds-detail.jpg"
+   }
+  ],
+  "sources": [
+   "boutique-rocking-chair/assets/source/1005012054721103",
+   "boutique-rocking-chair/assets/source/1005012454786223",
+   "boutique-rocking-chair/assets/source/1005008598267746",
+   "boutique-rocking-chair/assets/source/1005012780948146",
+   "boutique-rocking-chair/assets/source/1005010018998756",
+   "boutique-rocking-chair/assets/source/1005012809448823",
+   "boutique-rocking-chair/assets/source/1005012491845495",
+   "boutique-rocking-chair/assets/source/1005012837772306",
+   "boutique-rocking-chair/assets/source/1005008174331532",
+   "boutique-rocking-chair/assets/source/1005011808697791",
+   "boutique-rocking-chair/assets/source/1005010240143897",
+   "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/fauteuil-a-bascule-allaitement-teddy-face.jpg",
+   "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/fauteuil-a-bascule-allaitement-teddy-nuit.jpg",
+   "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/fauteuil-a-bascule-allaitement-teddy-salon.jpg",
+   "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/fauteuil-allaitement-chambre-bebe-avec-repose-pieds-detail.jpg",
+   "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/fauteuil-a-bascule-scandinave-velours-cotele-matiere.jpg"
+  ],
+  "da": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+   "surcharges": "boutique-rocking-chair/BRIEF-VISUELS-CODEX-2026-09-14.md §2 (« Veille douce », validée par Hakim le 14/09 et le 15/09 sur le lot test) + boutique-rocking-chair/BRIEF-VISUELS-CODEX-LOTS-2-5-2026-09-15.md §2 (scènes par famille, formats)."
+  },
+  "contraintes": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+   "specifiques": [
+    "Lire EN ENTIER boutique-rocking-chair/BRIEF-VISUELS-CODEX-2026-09-14.md puis boutique-rocking-chair/BRIEF-VISUELS-CODEX-LOTS-2-5-2026-09-15.md.",
+    "Avant chaque fiche : écrire qa/verite-<handle>.md depuis toutes les photos sources et le H1 (§1) ; si les photos contredisent le H1, rejeter la fiche avec motif.",
+    "Le produit n'est jamais réinventé : seule la mise en scène change ; couleur de 01.jpg ; bloc d'orientation §2 bis du brief du lot test dans chaque prompt.",
+    "Aucun texte, logo, étiquette, pictogramme, cote, badge ni tableau à personnage sous licence (les sources en contiennent).",
+    "Personnes de profil/dos, jamais de visage en gros plan ; bébé emmailloté uniquement sur les slots nuit de la famille A ; aucun bébé ni enfant sur la famille D.",
+    "Relax : aucun élément médical ; positions inclinées ou repose-pieds sortis seulement si les sources les montrent."
+   ]
+  },
+  "qa_attendue": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+   "specifiques": [
+    "Planche par fiche (01.jpg + images livrées, vignettes ≥ 740 px) dans qa/controle-<handle>.jpg.",
+    "Zoom sur étiquettes, poches, livres, écrans : aucun texte ni logo.",
+    "Scènes du soir : source chaude visible et pièce réellement sombre ; mains et proportions humaines contrôlées."
+   ]
+  },
+  "sortie": {
+   "dossier": "boutique-rocking-chair/livraisons/visuels-lot4-relax-2026-09-15/",
+   "manifeste": "manifeste-realise.json"
+  }
+ },
+ "notes": "Bercelou, lot4-relax : 55 images. Style validé par Hakim le 15/09 sur le lot test. Aucun accès boutique."
+}

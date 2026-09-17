@@ -1,0 +1,162 @@
+{
+  "id": "claude-20260914-1900-bercelou-lot1-test",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "fauteuil-a-bascule-allaitement-teddy",
+        "sku": "BCL-TEDDY-ROSA",
+        "slot": "face",
+        "fichier": "fauteuil-a-bascule-allaitement-teddy-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-a-bascule-allaitement-teddy",
+        "sku": "BCL-TEDDY-ROSA",
+        "slot": "nuit",
+        "fichier": "fauteuil-a-bascule-allaitement-teddy-nuit.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-a-bascule-allaitement-teddy",
+        "sku": "BCL-TEDDY-ROSA",
+        "slot": "salon",
+        "fichier": "fauteuil-a-bascule-allaitement-teddy-salon.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      },
+      {
+        "handle": "fauteuil-a-bascule-allaitement-teddy",
+        "sku": "BCL-TEDDY-ROSA",
+        "slot": "matiere",
+        "fichier": "fauteuil-a-bascule-allaitement-teddy-matiere.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-a-bascule-allaitement-teddy",
+        "sku": "BCL-TEDDY-ROSA",
+        "slot": "detail",
+        "fichier": "fauteuil-a-bascule-allaitement-teddy-detail.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-a-bascule-scandinave-velours-cotele",
+        "sku": "BCL-COTELE-ANAJ",
+        "slot": "face",
+        "fichier": "fauteuil-a-bascule-scandinave-velours-cotele-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-a-bascule-scandinave-velours-cotele",
+        "sku": "BCL-COTELE-ANAJ",
+        "slot": "nuit",
+        "fichier": "fauteuil-a-bascule-scandinave-velours-cotele-nuit.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "fauteuil-a-bascule-scandinave-velours-cotele",
+        "sku": "BCL-COTELE-ANAJ",
+        "slot": "salon",
+        "fichier": "fauteuil-a-bascule-scandinave-velours-cotele-salon.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-a-bascule-scandinave-velours-cotele",
+        "sku": "BCL-COTELE-ANAJ",
+        "slot": "matiere",
+        "fichier": "fauteuil-a-bascule-scandinave-velours-cotele-matiere.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-a-bascule-scandinave-velours-cotele",
+        "sku": "BCL-COTELE-ANAJ",
+        "slot": "detail",
+        "fichier": "fauteuil-a-bascule-scandinave-velours-cotele-detail.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-allaitement-chambre-bebe-avec-repose-pieds",
+        "sku": "BCL-BOUCLE-FANG",
+        "slot": "face",
+        "fichier": "fauteuil-allaitement-chambre-bebe-avec-repose-pieds-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-allaitement-chambre-bebe-avec-repose-pieds",
+        "sku": "BCL-BOUCLE-FANG",
+        "slot": "nuit",
+        "fichier": "fauteuil-allaitement-chambre-bebe-avec-repose-pieds-nuit.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "fauteuil-allaitement-chambre-bebe-avec-repose-pieds",
+        "sku": "BCL-BOUCLE-FANG",
+        "slot": "salon",
+        "fichier": "fauteuil-allaitement-chambre-bebe-avec-repose-pieds-salon.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-allaitement-chambre-bebe-avec-repose-pieds",
+        "sku": "BCL-BOUCLE-FANG",
+        "slot": "matiere",
+        "fichier": "fauteuil-allaitement-chambre-bebe-avec-repose-pieds-matiere.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-allaitement-chambre-bebe-avec-repose-pieds",
+        "sku": "BCL-BOUCLE-FANG",
+        "slot": "detail",
+        "fichier": "fauteuil-allaitement-chambre-bebe-avec-repose-pieds-detail.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "bercelou-accueil",
+        "sku": "BCL-HERO",
+        "slot": "hero",
+        "fichier": "bercelou-hero.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/fauteuil-a-bascule-allaitement-teddy-salon-v1-dossier-incoherent-et-textes.png",
+        "motif": "Dossier capitonne expose sur la face arriere et orientation du fauteuil incoherente avec la personne; marques textuelles sur les dos de livres."
+      },
+      {
+        "fichier": "rejected/fauteuil-a-bascule-allaitement-teddy-salon-v2-marques-sur-livres.png",
+        "motif": "Marques assimilables a des lettres ou chiffres encore visibles sur les dos de livres de la bibliotheque au zoom."
+      },
+      {
+        "fichier": "rejected/fauteuil-a-bascule-scandinave-velours-cotele-nuit-v1-livre-a-marquages-douteux.png",
+        "motif": "Motifs typographiques ou graphiques douteux sur un livre en haut a gauche; absence de texte non verifiable proprement."
+      },
+      {
+        "fichier": "rejected/fauteuil-allaitement-chambre-bebe-avec-repose-pieds-nuit-v1-pictogramme-babyphone.png",
+        "motif": "Pictogramme de bouton et petits marquages parasites sur le babyphone visibles au zoom."
+      }
+    ],
+    "sujets_difficiles": [],
+    "dossier_livraison": "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/",
+    "manifeste_fichier": "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/manifeste-realise.json",
+    "rapport_qa": "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/qa/rapport-qa.json",
+    "prompts": "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/qa/generation-journal.json",
+    "note_export": "Les images natives de l outil sont en 1254 x 1254 px (carres) et 1672 x 941 px (hero). Les JPEG livres ont ete reechantillonnes en 2048 x 2048 et 2048 x 1152. Il ne s agit pas de generation native en 2048 px. Les PNG natifs sont conserves dans qa/originaux/."
+  },
+  "executed_at": "2026-09-14T21:21:47Z",
+  "executor": "codex-2026-09-14"
+}

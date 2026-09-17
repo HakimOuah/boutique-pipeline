@@ -1,0 +1,39 @@
+{
+  "id": "claude-20260909-2345-sousabri-lot1c-hero",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "sousabri-accueil",
+        "sku": "SA-DEVIS-2P",
+        "slot": "hero",
+        "fichier": "sousabri-hero.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 4
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/sousabri-hero-1c-v1.png",
+        "motif": "Voiture blanche mouillée et plaque vide."
+      },
+      {
+        "fichier": "rejected/sousabri-hero-1c-v2.png",
+        "motif": "Voiture mouillée sous le toit."
+      },
+      {
+        "fichier": "rejected/sousabri-hero-1c-v3.png",
+        "motif": "Médaillon sur la calandre."
+      },
+      {
+        "fichier": "rejected/sousabri-hero-1c-v4.png",
+        "motif": "Voiture mouillée et rectangle de plaque."
+      }
+    ],
+    "sujets_difficiles": [
+      "hero : 4 régénérations pour carrosserie sèche et absence de plaque/emblème"
+    ]
+  },
+  "executed_at": "2026-09-09T19:59:35.294984+00:00",
+  "executor": "codex-2026-09-09"
+}

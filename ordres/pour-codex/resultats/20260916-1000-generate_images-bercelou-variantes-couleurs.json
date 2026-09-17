@@ -1,0 +1,20 @@
+{
+  "id": "claude-20260916-1000-bercelou-variantes-couleurs",
+  "type": "generate_images",
+  "status": "done",
+  "executed_at": "2026-09-16T09:15:34.093857+00:00",
+  "executor": "codex-2026-09-16",
+  "payload": {
+    "dossier": "boutique-rocking-chair/livraisons/visuels-variantes-couleurs-2026-09-16",
+    "manifeste_realise": "boutique-rocking-chair/livraisons/visuels-variantes-couleurs-2026-09-16/manifeste-realise.json",
+    "images_livrees": 46,
+    "planches_qa": 21,
+    "rejets": [
+      {
+        "fichier": "boutique-rocking-chair/livraisons/visuels-variantes-couleurs-2026-09-16/rejected/fauteuil-relax-exterieur-inclinable-couleur-noir-tentative-1-plateau-objets-inventes.jpg",
+        "motif": "plateau/objets inventés sur la variante noire"
+      }
+    ],
+    "sujets_difficiles": []
+  }
+}

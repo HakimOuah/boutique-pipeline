@@ -1,0 +1,173 @@
+{
+  "id": "claude-20260910-0210-sousabri-lot4-realisme",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "carport-acier-thermolaque-4-5x3",
+        "sku": "SA-ACIER-450",
+        "slot": "face",
+        "fichier": "carport-acier-thermolaque-4-5x3-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "carport-aluminium-autoportant",
+        "sku": "SA-ALU-AUTO-6x6",
+        "slot": "face",
+        "fichier": "carport-aluminium-autoportant-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "carport-camping-car-aluminium",
+        "sku": "SA-ALU-CC-6x38",
+        "slot": "face",
+        "fichier": "carport-camping-car-aluminium-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "tente-garage-3x6-outsunny",
+        "sku": "SA-TG-3x6-OUT",
+        "slot": "face",
+        "fichier": "tente-garage-3x6-outsunny-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "tente-garage-4x6-portes-enroulables",
+        "sku": "SA-TG-4x6-PE",
+        "slot": "face",
+        "fichier": "tente-garage-4x6-portes-enroulables-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "tente-garage-4x6-fenetres",
+        "sku": "SA-TG-4x6-FEN",
+        "slot": "face",
+        "fichier": "tente-garage-4x6-fenetres-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "tente-garage-4x7-6-camping-car",
+        "sku": "SA-TG-4x76",
+        "slot": "face",
+        "fichier": "tente-garage-4x7-6-camping-car-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "tente-carport-fermee-2-cotes",
+        "sku": "SA-TG-FERM2",
+        "slot": "face",
+        "fichier": "tente-carport-fermee-2-cotes-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "tente-garage-mobile-3x3",
+        "sku": "SA-TG-3x3",
+        "slot": "face",
+        "fichier": "tente-garage-mobile-3x3-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "tente-garage-4x6-double-porte-volet",
+        "sku": "SA-TG-4x6-VOL",
+        "slot": "face",
+        "fichier": "tente-garage-4x6-double-porte-volet-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "sousabri-accueil",
+        "sku": "SA-ACIER-450",
+        "slot": "famille-alu",
+        "fichier": "sousabri-famille-alu.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "sousabri-accueil",
+        "sku": "SA-TG-3x6-OUT",
+        "slot": "famille-tentes",
+        "fichier": "sousabri-famille-tentes.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "devis-carport-cintre-2-pieds",
+        "sku": "SA-DEVIS-2P",
+        "slot": "face",
+        "fichier": "devis-carport-cintre-2-pieds-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "tente-garage-4x6-portes-enroulables",
+        "sku": "SA-TG-4x6-PE",
+        "slot": "montage",
+        "fichier": "tente-garage-4x6-portes-enroulables-montage.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "tente-garage-4x6-fenetres",
+        "sku": "SA-TG-4x6-FEN",
+        "slot": "montage",
+        "fichier": "tente-garage-4x6-fenetres-montage.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "tente-carport-fermee-2-cotes",
+        "sku": "SA-TG-FERM2",
+        "slot": "montage",
+        "fichier": "tente-carport-fermee-2-cotes-montage.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "tente-garage-4x6-double-porte-volet",
+        "sku": "SA-TG-4x6-VOL",
+        "slot": "montage",
+        "fichier": "tente-garage-4x6-double-porte-volet-montage.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/carport-aluminium-autoportant-face-v1-cinquieme-poteau.png",
+        "motif": "Cinq poteaux visibles au lieu des quatre poteaux d'angle de la source 1005009961706626."
+      },
+      {
+        "fichier": "rejected/tente-garage-3x6-outsunny-face-v1-fenetres-pignon.png",
+        "motif": "Deux fenêtres ajoutées sur le pignon arrière, absentes de la source 1005012736849383."
+      },
+      {
+        "fichier": "rejected/tente-garage-4x6-portes-enroulables-face-v1-trois-fenetres.png",
+        "motif": "Trois fenêtres cathédrale seulement sur le long côté, contre quatre sur la source 1005010670791375."
+      },
+      {
+        "fichier": "rejected/sousabri-famille-tentes-v1-fenetres-pignon.png",
+        "motif": "Deux fenêtres ajoutées sur le pignon arrière, absentes de la source 1005012736849383."
+      },
+      {
+        "fichier": "rejected/tente-garage-4x6-double-porte-volet-face-v1-pignon-vitre.png",
+        "motif": "Le pignon arrière a été transformé en paroi vitrée au lieu de conserver la fermeture opaque de la configuration garage."
+      },
+      {
+        "fichier": "rejected/tente-carport-fermee-2-cotes-face-v1-porte-enroulee.png",
+        "motif": "La façade a été transformée en ouverture à porte enroulée, au lieu des deux vantaux frontaux vitrés de la source 1005012904297579."
+      }
+    ],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-09-09T23:08:00.188504Z",
+  "executor": "codex-2026-09-10"
+}

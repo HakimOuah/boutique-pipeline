@@ -1,0 +1,28 @@
+{
+  "id": "claude-20260910-1420-sousabri-lot5b-reprise-2-faces",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "tente-garage-4x7-6-camping-car",
+        "sku": "SA-TG-4x76",
+        "slot": "face",
+        "fichier": "tente-garage-4x7-6-camping-car-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "tente-garage-mobile-3x3",
+        "sku": "SA-TG-3x3",
+        "slot": "face",
+        "fichier": "tente-garage-mobile-3x3-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-09-10T11:51:43+00:00",
+  "executor": "codex-2026-09-10"
+}

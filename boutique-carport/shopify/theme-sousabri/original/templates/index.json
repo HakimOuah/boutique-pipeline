@@ -1,0 +1,421 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+    "sections": {
+        "slideshow_WzgFfr": {
+            "type": "slideshow",
+            "blocks": {
+                "slide_TgKbxR": {
+                    "type": "slide",
+                    "settings": {
+                        "image": "shopify://shop_images/gemini-image-6aa1b5279a5f1-hero_banner-7f03fa.webp",
+                        "box_align": "bottom-left",
+                        "box_align_mobile": "middle-center",
+                        "text_alignment": "left",
+                        "text_alignment_mobile": "center",
+                        "show_background": true,
+                        "show_background_mobile": false,
+                        "content_border_radius": 12,
+                        "heading": "Sous Abri : Protégez vos véhicules avec style.",
+                        "hn": "h2",
+                        "heading_size": "h1",
+                        "subheading": "<p>L'abri de voiture moderne qui allie design, durabilité et protection optimale pour vos véhicules.</p>",
+                        "primary_button_label": "",
+                        "primary_button_url": "",
+                        "primary_secondary_style": false,
+                        "secondary_button_label": "",
+                        "secondary_button_url": "",
+                        "secondary_secondary_style": true,
+                        "banner_link": "",
+                        "show_text_box": true,
+                        "image_overlay_opacity": 0,
+                        "remove_opacity_mobile": true,
+                        "color_scheme": "",
+                        "decoration": "none",
+                        "image_mobile": "shopify://shop_images/gemini-image-6aa1b544c4e6b.webp"
+                    }
+                }
+            },
+            "block_order": [
+                "slide_TgKbxR"
+            ],
+            "settings": {
+                "height": "auto",
+                "max_height": 600,
+                "auto_rotate": false,
+                "change_slides_speed": 5,
+                "loading": "eager",
+                "arrow_position_desktop": "left",
+                "arrow_position_mobile": "center",
+                "arrow_color_desktop": "#000",
+                "arrow_color_mobile": "#000",
+                "hide_dots": false,
+                "keep_text_on_media_mobile": false,
+                "display_as_card": false,
+                "color_scheme": "",
+                "margin_top": 0,
+                "margin_bottom": 0
+            }
+        },
+        "featured_collection_icJf3j": {
+            "type": "featured-collection",
+            "name": "t:sections.featured-collection.presets.name",
+            "settings": {
+                "title": "Nos Meilleures Ventes",
+                "hn": "h6",
+                "heading_size": "h1",
+                "description": "",
+                "show_description": false,
+                "text_alignment": "left",
+                "collection": "best-sellers",
+                "products_to_show": 4,
+                "columns_desktop": 4,
+                "columns_tablet": 3,
+                "columns_mobile": "2",
+                "enable_desktop_slider": false,
+                "swipe_on_mobile": false,
+                "image_ratio": "adapt",
+                "show_secondary_image": false,
+                "show_vendor": false,
+                "show_rating": false,
+                "enable_quick_add": false,
+                "product_title_type": "h3",
+                "arrow_alignment": "left",
+                "hide_dots": false,
+                "show_view_all": false,
+                "view_all_style": "solid",
+                "display_as_card": false,
+                "color_scheme": "",
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        },
+        "rich_text_YQNnCn": {
+            "type": "rich-text",
+            "blocks": {
+                "heading_6r3RA7": {
+                    "type": "heading",
+                    "settings": {
+                        "heading": "Sous Abri — L'abri de voiture moderne en aluminium pour 2 véhicules.",
+                        "heading_size": "h1",
+                        "hn": "h2"
+                    }
+                },
+                "text_mADEDY": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>Chez Sous Abri, nous imaginons des solutions de protection automobile qui subliment votre espace extérieur. Notre engagement : allier esthétique épurée, robustesse et fonctionnalité pour une sérénité au quotidien.</p>"
+                    }
+                }
+            },
+            "block_order": [
+                "heading_6r3RA7",
+                "text_mADEDY"
+            ],
+            "name": "t:sections.rich-text.presets.name",
+            "settings": {
+                "border_top": false,
+                "desktop_content_position": "center",
+                "content_alignment": "center",
+                "narrow_text": true,
+                "display_as_card": true,
+                "color_scheme": "background-2",
+                "margin_top": 0,
+                "margin_bottom": 16,
+                "padding_top": 40,
+                "padding_bottom": 52
+            }
+        },
+        "testimonials_aWxMba": {
+            "type": "testimonials",
+            "blocks": {
+                "testimonial_i8cBEr": {
+                    "type": "testimonial",
+                    "settings": {
+                        "color_scheme": "",
+                        "author_name": "Camille R.",
+                        "author_description": "Cliente vérifiée",
+                        "rating": 5,
+                        "content": "<p>Enfin un abri de voiture qui ne défigure pas mon jardin ! La qualité de l&#039;aluminium et la facilité de montage sont top.</p>"
+                    }
+                },
+                "testimonial_nAHUxK": {
+                    "type": "testimonial",
+                    "settings": {
+                        "color_scheme": "",
+                        "author_name": "Thomas L.",
+                        "author_description": "Client vérifié",
+                        "rating": 5,
+                        "content": "<p>Mon mari a été bluffé par la qualité. Nos deux voitures sont parfaitement abritées maintenant, c&#039;est un vrai confort.</p>"
+                    }
+                },
+                "testimonial_Qbr6NA": {
+                    "type": "testimonial",
+                    "settings": {
+                        "color_scheme": "",
+                        "author_name": "Sarah M.",
+                        "author_description": "Cliente fidèle",
+                        "rating": 5,
+                        "content": "<p>La structure en aluminium est très solide et le toit en polycarbonate laisse passer la lumière tout en protégeant de la pluie. Super investissement.</p>"
+                    }
+                }
+            },
+            "block_order": [
+                "testimonial_i8cBEr",
+                "testimonial_nAHUxK",
+                "testimonial_Qbr6NA"
+            ],
+            "disabled": true,
+            "name": "t:sections.testimonials.presets.name",
+            "settings": {
+                "heading": "Nos clients nous adorent",
+                "heading_size": "h1",
+                "hn": "h2",
+                "text_alignment": "left",
+                "show_stars": true,
+                "stars_color": "#00b67a",
+                "show_profile_picture": false,
+                "enable_premium_rating": true,
+                "rating_text": "Excellent",
+                "rating_number": "4.8",
+                "enable_desktop_slider": false,
+                "enable_mobile_slider": false,
+                "enable_auto_slider": false,
+                "auto_slider_delay": 5,
+                "columns_desktop": 3,
+                "columns_tablet": 3,
+                "columns_mobile": "2",
+                "hide_dots": false,
+                "display_as_card": true,
+                "color_scheme": "",
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        },
+        "featured_collection_CbXiGK": {
+            "type": "featured-collection",
+            "name": "t:sections.featured-collection.presets.name",
+            "settings": {
+                "title": "Collection 1",
+                "hn": "h2",
+                "heading_size": "h1",
+                "description": "",
+                "show_description": false,
+                "text_alignment": "left",
+                "collection": "best-sellers",
+                "products_to_show": 4,
+                "columns_desktop": 4,
+                "columns_tablet": 3,
+                "columns_mobile": "2",
+                "enable_desktop_slider": false,
+                "swipe_on_mobile": false,
+                "image_ratio": "adapt",
+                "show_secondary_image": false,
+                "show_vendor": false,
+                "show_rating": false,
+                "enable_quick_add": false,
+                "product_title_type": "h3",
+                "arrow_alignment": "left",
+                "hide_dots": false,
+                "show_view_all": false,
+                "view_all_style": "solid",
+                "display_as_card": false,
+                "color_scheme": "",
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        },
+        "image_with_text_HGNCKw": {
+            "type": "image-with-text",
+            "blocks": {
+                "heading_DYerRw": {
+                    "type": "heading",
+                    "settings": {
+                        "heading": "Aluminium et polycarbonate : la force au service de vos véhicules.",
+                        "background_heading": false,
+                        "heading_size": "h1",
+                        "hn": "h2"
+                    }
+                },
+                "text_N6GJam": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>Conçu pour résister au temps et aux éléments, notre abri de voiture en aluminium et polycarbonate assure une protection impeccable et durable. Profitez d'un investissement qui valorise votre propriété.</p>",
+                        "text_style": "body"
+                    }
+                }
+            },
+            "block_order": [
+                "heading_DYerRw",
+                "text_N6GJam"
+            ],
+            "settings": {
+                "image": "shopify://shop_images/gemini-image-6aa1b536219b8.webp",
+                "decoration": "none",
+                "video_url": "",
+                "enable_video_looping": true,
+                "enable_video_autoplay": false,
+                "enable_video_controls": false,
+                "enable_video_muted": false,
+                "media_border": false,
+                "media_border_thickness": 4,
+                "media_border_color": "#fff",
+                "height": "medium",
+                "desktop_image_width": "medium",
+                "layout": "image_first",
+                "desktop_content_position": "middle",
+                "desktop_content_alignment": "left",
+                "mobile_content_alignment": "left",
+                "section_style": "overlap",
+                "color_scheme": "background-2",
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        },
+        "featured_collection_knc4hq": {
+            "type": "featured-collection",
+            "name": "t:sections.featured-collection.presets.name",
+            "settings": {
+                "title": "Collection 2",
+                "hn": "h2",
+                "heading_size": "h1",
+                "description": "",
+                "show_description": false,
+                "text_alignment": "left",
+                "collection": "best-sellers",
+                "products_to_show": 4,
+                "columns_desktop": 4,
+                "columns_tablet": 3,
+                "columns_mobile": "2",
+                "enable_desktop_slider": false,
+                "swipe_on_mobile": false,
+                "image_ratio": "adapt",
+                "show_secondary_image": false,
+                "show_vendor": false,
+                "show_rating": false,
+                "enable_quick_add": false,
+                "product_title_type": "h3",
+                "arrow_alignment": "left",
+                "hide_dots": false,
+                "show_view_all": false,
+                "view_all_style": "solid",
+                "display_as_card": false,
+                "color_scheme": "",
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        },
+        "image_with_text_4ezXMi": {
+            "type": "image-with-text",
+            "blocks": {
+                "heading_GMycX7": {
+                    "type": "heading",
+                    "settings": {
+                        "heading": "Des milliers de clients nous font confiance.",
+                        "background_heading": false,
+                        "heading_size": "h1",
+                        "hn": "h2"
+                    }
+                },
+                "text_dRCeyR": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>Rejoignez la communauté Sous Abri et découvrez pourquoi tant de propriétaires choisissent nos abris de voiture pour allier sécurité et esthétisme.</p>",
+                        "text_style": "body"
+                    }
+                }
+            },
+            "block_order": [
+                "heading_GMycX7",
+                "text_dRCeyR"
+            ],
+            "settings": {
+                "image": "shopify://shop_images/gemini-image-6aa1b52ea4141.webp",
+                "decoration": "none",
+                "video_url": "",
+                "enable_video_looping": true,
+                "enable_video_autoplay": false,
+                "enable_video_controls": false,
+                "enable_video_muted": false,
+                "media_border": false,
+                "media_border_thickness": 4,
+                "media_border_color": "#fff",
+                "height": "medium",
+                "desktop_image_width": "medium",
+                "layout": "text_first",
+                "desktop_content_position": "middle",
+                "desktop_content_alignment": "left",
+                "mobile_content_alignment": "left",
+                "section_style": "overlap",
+                "color_scheme": "background-2",
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        },
+        "featured_collection_WHJWmK": {
+            "type": "featured-collection",
+            "name": "t:sections.featured-collection.presets.name",
+            "settings": {
+                "title": "Collection 3",
+                "hn": "h2",
+                "heading_size": "h1",
+                "description": "",
+                "show_description": false,
+                "text_alignment": "left",
+                "collection": "best-sellers",
+                "products_to_show": 4,
+                "columns_desktop": 4,
+                "columns_tablet": 3,
+                "columns_mobile": "2",
+                "enable_desktop_slider": false,
+                "swipe_on_mobile": false,
+                "image_ratio": "adapt",
+                "show_secondary_image": false,
+                "show_vendor": false,
+                "show_rating": false,
+                "enable_quick_add": false,
+                "product_title_type": "h3",
+                "arrow_alignment": "left",
+                "hide_dots": false,
+                "show_view_all": false,
+                "view_all_style": "solid",
+                "display_as_card": false,
+                "color_scheme": "",
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        }
+    },
+    "order": [
+        "slideshow_WzgFfr",
+        "featured_collection_icJf3j",
+        "rich_text_YQNnCn",
+        "testimonials_aWxMba",
+        "featured_collection_CbXiGK",
+        "image_with_text_HGNCKw",
+        "featured_collection_knc4hq",
+        "image_with_text_4ezXMi",
+        "featured_collection_WHJWmK"
+    ]
+}

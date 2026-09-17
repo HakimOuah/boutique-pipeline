@@ -1,0 +1,11 @@
+# Trustpilot — Dancovershop (www.dancovershop.com, vendeur tentes/carports) — avis filtrés « carport »
+
+URL : https://fr.trustpilot.com/review/www.dancovershop.com?search=carport — consulté le 09/09/2026 (5 avis en français).
+
+1. Scarpinati Ignazio — 07/04/2025 — 5/5 — "Expédition rapide et soignée, très bon suivi par le transporteur sérieux et professionnel ! La finition du carport est excellent, le montage démontre un carport solide et d un très beau Design !!!! Entreprise TRES SERIEUSE et facile à joindre. Je recommende vivement ce matériel. MERCI"
+2. Thierry DUMAS — 15/09/2021 — 4/5 — "Très satisfait du délai de livraison ainsi que du produit Mini Serre PLANT INN. Par contre pas satisfait du tout de votre prestataire UPS. Lorsque j'ai reçu l'e-mail de confirmation de la livraison, j'ai été surpris. Personne n'avait sonné à la porte mais il était mentionné "livraison garage". Je suis donc sorti mais n'ai pas vu de carton devant mon garage. L'article a été simplement déposé sous le couvert (carport) du voisin ! De plus l'emballage était ouvert. On pouvait facilement en retirer des pièces (photos disponibles) ! Je trouve cette pratique inadmissible même si elle fait très certainement gagner du temps au livreur d'UPS."
+3. FRANCOISE KRESAC — 07/11/2018 — 3/5 — "L'achat du carport fin octobre, nous voilà le 7 Novembre 2018 et nous n'avons pas encore été livré de celui-ci. J'espère que vous allez reconctater votre transporteur pour que celui-ci nous livre le plus vite et surtout que le carport nous arrive en bon état ! Dans l'attente d'une réponse de votre part, merci..."
+4. Patricia Allemann — 30/08/2017 — 2/5 — "Un peu compliqué pour savoir où et quand pour la livraison .... en plus pour 3 paquets il ne fallait pas de personnel ni d'élevateur ...... le carport n'est pas encore monté je me permettrai de vous donner mon avis."
+5. RAMEL François — 16/08/2017 — 5/5 — "J'ai acheté un carport deux places. Commandé le jeudi, livré le mardi, alors que je m'attendais à deux semaines pour la livraison. Chapeau bas !"
+
+Thème dominant : anxiété/attente sur le délai et la remise en main propre du colis (dépôt du colis sans sonner, chez le voisin, emballage ouvert) plus que sur le produit lui-même.

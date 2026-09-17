@@ -1,0 +1,402 @@
+{{ 'section-logo-list.css' | asset_url | stylesheet_tag }}
+
+<style>
+  {% if section.settings.display_as_card %}
+    .logo-list-wrapper--{{ section.id }} {
+      margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+      margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+    }
+
+    @media screen and (min-width: 750px) {
+      .logo-list-wrapper--{{ section.id }} {
+        margin-top: {{ section.settings.margin_top }}px;
+        margin-bottom: {{ section.settings.margin_bottom }}px;
+      }
+    }
+
+    {% comment %} Adjust padding when marquee is enabled and displayed as card {% endcomment %}
+    {% if section.settings.enable_marquee_desktop or section.settings.enable_marquee_mobile %}
+      /* Remove horizontal padding from the inner container */
+      .logo-list-wrapper--{{ section.id }} .section-{{ section.id }}-padding {
+        padding-left: 0;
+        padding-right: 0;
+      }
+      
+      /* Make marquee use full card width by compensating for card padding */
+      .logo-list-wrapper--{{ section.id }} .logo-list__marquee {
+        position: relative;
+        left: -2.5rem;
+        width: calc(100% + 5rem);
+        overflow: hidden;
+      }
+      
+      @media screen and (min-width: 750px) {
+        .logo-list-wrapper--{{ section.id }} .logo-list__marquee {
+          left: -5rem;
+          width: calc(100% + 10rem);
+        }
+      }
+    {% endif %}
+  {% else %}
+    .section-{{ section.id }}-padding {
+      margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+      margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+    }
+
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        margin-top: {{ section.settings.margin_top }}px;
+        margin-bottom: {{ section.settings.margin_bottom }}px;
+      }
+    }
+  {% endif %}
+
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+</style>
+
+{% liquid
+    assign enable_marquee = false
+    assign enable_marquee_on = "none"
+    assign enable_grid_on = "none"
+    assign page_width = "page-width"
+    if section.settings.enable_marquee_desktop or section.settings.enable_marquee_mobile
+        assign enable_marquee = true
+    endif
+    if section.settings.enable_marquee_desktop and section.settings.enable_marquee_mobile
+        assign enable_marquee_on = "both"
+        assign page_width = ""
+    elsif section.settings.enable_marquee_desktop
+        assign enable_marquee_on = "desktop--only"
+        assign enable_grid_on = "mobile--only"
+        assign page_width = "page-width-mobile"
+    elsif section.settings.enable_marquee_mobile
+        assign enable_marquee_on = "mobile--only"
+        assign enable_grid_on = "desktop--only"
+        assign page_width = "page-width-desktop"
+    endif
+%}
+
+{%- liquid
+    if section.index == 1
+    assign loading = "eager"
+    else
+    assign loading = "lazy"
+    endif
+-%}
+
+{% if section.settings.display_as_card %}
+  <div class="page-width">
+    <div class="logo-list-wrapper logo-list-wrapper--{{ section.id }} content-container content-container--card color-{{ section.settings.color_scheme | default: 'background-1' }} gradient">
+{% endif %}
+
+<div class="section-{{ section.id }}-padding {% unless section.settings.display_as_card %}{{ page_width }}{% endunless %} logo-list{% unless section.settings.display_as_card %} color-{{ section.settings.color_scheme }}{% endunless %}" style="--logo-width: {{ section.settings.logo_width }}px; --marquee-speed-desktop: {{ section.settings.marquee_speed_desktop }}s; --marquee-speed-mobile: {{ section.settings.marquee_speed_mobile }}s;">
+    {% if section.settings.heading != blank %}
+        <{{ section.settings.hn }} class="logo-list__heading {{ section.settings.heading_size }} {{ section.settings.text_alignment }}">
+            {{ section.settings.heading }}
+        </{{ section.settings.hn }}>
+    {% endif %}
+    {% if enable_marquee and section.blocks.size > 0 %}
+        <div class="logo-list__marquee marquee {{ enable_marquee_on }}">
+            <ul class="marquee__content">
+              {% comment %} Iterate over the block to make sure it feels all the space {% endcomment %}
+              {% for i in (1..5) %}
+                {% for block in section.blocks %}
+                  {%- if block.settings.logo != blank -%}
+                    <li {{ block.shopify_attributes }}>
+
+                        {{ block.settings.logo | image_url: width: 1000 | image_tag: loading: loading }}
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              {% endfor %}
+            </ul>
+
+            {% comment %} Mirrors the content to create an infinite loop effect {% endcomment %}
+            <ul class="marquee__content" aria-hidden="true">
+              {% for i in (1..5) %}
+                {% for block in section.blocks %}
+                    {%- if block.settings.logo != blank -%}
+                      <li {{ block.shopify_attributes }}>
+                          {{ block.settings.logo | image_url: width: 1000 | image_tag: loading: loading }}
+                      </li>
+                    {% endif %}
+                  {% endfor %}
+              {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+
+    {% if enable_marquee_on != "both" %}
+        <ul class="logo-list__grid {{ enable_grid_on }}" style="
+            --grid-template-columns-desktop: repeat({{ section.settings.per_row_desktop }}, minmax(0, 1fr));
+            --grid-template-columns-mobile: repeat({{ section.settings.per_row_mobile }}, minmax(0, 1fr));
+            ">
+            {% for block in section.blocks %}
+                {% if block.settings.logo != blank %}
+                    <li class="logo-list__item">
+                        {{ block.settings.logo | image_url: width: 1000 | image_tag: loading: loading }}
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    {% endif %}
+</div>
+
+{% if section.settings.display_as_card %}
+    </div>
+  </div>
+{% endif %}
+
+{% schema %}
+    {
+        "name": "t:sections.logo-list.name",
+        "tag": "section",
+        "class": "section-logo-list",
+        "settings": [
+            {
+                "type": "header",
+                "content": "t:sections.logo-list.settings.header_content.content"
+            },
+            {
+				"type": "text",
+				"id": "heading",
+				"label": "t:sections.logo-list.settings.heading.label",
+				"default": {
+					"en": "As Seen On",
+					"fr": "Ils Nous Font Confiance"
+				}
+			},
+            {
+				"type": "select",
+				"id": "heading_size",
+				"options": [
+					{
+						"value": "h2",
+						"label": "t:sections.all.heading_size.options__1.label"
+					},
+					{
+						"value": "h1",
+						"label": "t:sections.all.heading_size.options__2.label"
+					},
+					{
+						"value": "h0",
+						"label": "t:sections.all.heading_size.options__3.label"
+					}
+				],
+				"default": "h1",
+				"label": "t:sections.all.heading_size.label"
+			},
+			{
+				"type": "select",
+				"id": "hn",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "h4",
+						"label": "H4"
+					},
+					{
+						"value": "h5",
+						"label": "H5"
+					},
+					{
+						"value": "h6",
+						"label": "H6"
+					}
+				],
+				"default": "h2",
+				"label": "t:sections.all.hn.label",
+				"info": "t:sections.all.hn.info"
+			},
+            {
+				"type": "select",
+				"id": "text_alignment",
+				"label": "t:settings_schema.global.settings.text_alignment.label",
+				"options": [
+					{
+						"value": "left",
+						"label": "t:settings_schema.global.settings.text_alignment.options__1.label"
+					},
+					{
+						"value": "center",
+						"label": "t:settings_schema.global.settings.text_alignment.options__2.label"
+					},
+					{
+						"value": "right",
+						"label": "t:settings_schema.global.settings.text_alignment.options__3.label"
+					}
+				]
+			},
+            {
+                "type": "header",
+                "content": "t:sections.logo-list.settings.header_layout.content"
+            },
+            {
+                "type": "range",
+                "id": "logo_width",
+                "label": "t:sections.logo-list.settings.logo_width.label",
+                "min": 100,
+                "max": 500,
+                "step": 10,
+                "unit": "px",
+                "default": 200
+            },
+            {
+                "type": "range",
+                "id": "per_row_desktop",
+                "label": "t:sections.logo-list.settings.per_row_desktop.label",
+                "min": 3,
+                "max": 7,
+                "step": 1,
+                "default": 5
+            },
+            {
+                "type": "checkbox",
+                "id": "enable_marquee_desktop",
+                "label": "t:sections.logo-list.settings.enable_marquee_desktop.label",
+                "default": false
+            },
+            {
+                "type": "range",
+                "id": "marquee_speed_desktop",
+                "label": "t:sections.logo-list.settings.marquee_speed_desktop.label",
+                "min": 5,
+                "max": 120,
+                "step": 5,
+                "unit": "s",
+                "default": 25,
+                "info": "t:sections.logo-list.settings.marquee_speed_desktop.info"
+            },
+            {
+                "type": "header",
+                "content": "t:sections.logo-list.settings.header_mobile.content"
+            },
+            {
+                "type": "range",
+                "id": "per_row_mobile",
+                "label": "t:sections.logo-list.settings.per_row_mobile.label",
+                "min": 2,
+                "max": 4,
+                "step": 1,
+                "default": 2
+            },
+            {
+                "type": "checkbox",
+                "id": "enable_marquee_mobile",
+                "label": "t:sections.logo-list.settings.enable_marquee_mobile.label",
+                "default": false
+            },
+            {
+                "type": "range",
+                "id": "marquee_speed_mobile",
+                "label": "t:sections.logo-list.settings.marquee_speed_mobile.label",
+                "min": 5,
+                "max": 120,
+                "step": 5,
+                "unit": "s",
+                "default": 25,
+                "info": "t:sections.logo-list.settings.marquee_speed_mobile.info"
+            },
+            {
+                "type": "header",
+                "content": "t:sections.logo-list.settings.header_section_style.content"
+            },
+            {
+                "type": "checkbox",
+                "id": "display_as_card",
+                "label": "t:sections.slideshow.settings.display_as_card.label",
+                "info": "t:sections.slideshow.settings.display_as_card.info",
+                "default": false
+            },
+            {
+                "type": "color_scheme",
+                "id": "color_scheme",
+                "label": "t:sections.all.colors.label",
+                "default": "background-1"
+            },
+            {
+                "type": "header",
+                "content": "t:sections.all.padding.section_padding_heading"
+            },
+            {
+                "type": "range",
+                "id": "margin_top",
+                "min": 0,
+                "max": 100,
+                "step": 4,
+                "unit": "px",
+                "label": "t:sections.all.margin.margin_top",
+                "default": 0
+            },
+            {
+                "type": "range",
+                "id": "margin_bottom",
+                "min": 0,
+                "max": 100,
+                "step": 4,
+                "unit": "px",
+                "label": "t:sections.all.margin.margin_bottom",
+                "default": 0
+            },
+            {
+                "type": "range",
+                "id": "padding_top",
+                "min": 0,
+                "max": 100,
+                "step": 4,
+                "unit": "px",
+                "label": "t:sections.all.padding.padding_top",
+                "default": 36
+            },
+            {
+                "type": "range",
+                "id": "padding_bottom",
+                "min": 0,
+                "max": 100,
+                "step": 4,
+                "unit": "px",
+                "label": "t:sections.all.padding.padding_bottom",
+                "default": 36
+            }
+        ],
+        "blocks": [
+            {
+                "type": "logo",
+                "name": "Logo",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "logo",
+                        "label": "Logo"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "t:sections.logo-list.name"
+            }
+        ]
+    }
+{% endschema %}

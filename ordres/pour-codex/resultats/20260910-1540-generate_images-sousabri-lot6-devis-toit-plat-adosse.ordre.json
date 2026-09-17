@@ -1,0 +1,68 @@
+{
+ "type": "generate_images",
+ "requested_by": "claude-code",
+ "created_at": "2026-09-10T15:40:00Z",
+ "id": "claude-20260910-1540-sousabri-lot6-devis-toit-plat-adosse",
+ "notes": "Sous Abri, lot 6 : visuels de situation des deux pages devis encore sans image (carport aluminium toit plat, carport aluminium adossé). Sources : les seules photos réelles du fabricant STAR ALU sont des vignettes de chantier (~420×270 px) extraites de sa description ; elles servent de référence de géométrie, jamais à publier. Mêmes règles que le lot 5 (véhicule attitré, logique de scène, anti slop IA, plaque : support vide toléré, aucun caractère).",
+ "payload": {
+  "manifest": [
+   {
+    "handle": "devis-carport-aluminium-toit-plat",
+    "sku": "SA-DEVIS-TP",
+    "slot": "situation",
+    "fichier": "devis-carport-aluminium-toit-plat-situation.jpg",
+    "vehicule": "Peugeot 3008 gris foncé (le SUV du parc imposé)",
+    "source_id": "1005012158685405"
+   },
+   {
+    "handle": "devis-carport-aluminium-adosse",
+    "sku": "SA-DEVIS-AD",
+    "slot": "situation",
+    "fichier": "devis-carport-aluminium-adosse-situation.jpg",
+    "vehicule": "Renault Scenic E-Tech blanche",
+    "source_id": "1005012143140387"
+   }
+  ],
+  "sources": [
+   "boutique-carport/assets/source/index.json",
+   "boutique-carport/assets/source/1005012158685405/display-poland.jpg",
+   "boutique-carport/assets/source/1005012158685405/display-slovakia.jpg",
+   "boutique-carport/assets/source/1005012158685405/display-australia.jpg",
+   "boutique-carport/assets/source/1005012143140387/display-italy.jpg",
+   "boutique-carport/assets/source/1005012143140387/display-ireland.jpg",
+   "boutique-carport/assets/source/1005012143140387/display-slovakia.jpg",
+   "boutique-carport/livraisons/visuels-lot1-2026-09-09/devis-carport-cintre-2-pieds-situation.jpg",
+   "boutique-carport/content/FAITS-FOURNISSEURS-2026-09-10.md"
+  ],
+  "da": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+   "surcharges": "boutique-carport/BRIEF-VISUELS-CODEX-2026-09-09.md §2 (Voitures, Logique de scène, Anti slop IA). Situation 2048×1536, photo de terrain devant un pavillon français ordinaire."
+  },
+  "contraintes": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+   "specifiques": [
+    "Toit plat : carport autoportant à toit plat sur 4 poteaux carrés en aluminium gris anthracite (référence display-poland : 4 poteaux, plateau plat en polycarbonate gris fumé sur chevrons, léger débord), 3 m × 5 m environ, un SUV dessous garé dans l'axe, sur une allée en enrobé ou en pavés qui rejoint le portail. Pas de version adossée sur cette image.",
+    "Adossé : carport monopente fixé au mur pignon d'une maison crépie (référence display-slovakia et display-ireland : muraille de fixation le long du mur, 2 poteaux côté extérieur, toit plat ou très légèrement incliné en polycarbonate sur profils aluminium, gouttière côté extérieur), 3 m × 5 m environ, la voiture garée sous l'auvent le long du mur, allée en gravier ou en béton qui rejoint la rue.",
+    "Structure : profilés aluminium rectangulaires (poteaux 130 × 70 mm environ), pas de tubes ronds, pas de bois ; polycarbonate gris fumé ou transparent ; coloris structure gris mat ou brun mat ; aucune tente, aucun toit cintré sur ces deux images.",
+    "Véhicule : modèle attitré, emblèmes conservés, aucun caractère sur la plaque (support vide discret toléré), dans l'axe du carport.",
+    "Logique de scène et anti slop IA du brief : sol porteur continu jusqu'à la rue, maison ordinaire avec ses défauts, ciel banal, trois imperfections listées, cadrage 35–50 mm légèrement décalé.",
+    "Aucun texte, aucun logo hors emblèmes du véhicule, aucune personne.",
+    "QA écrite par image : nombre de poteaux, type de fixation (autoportant / mural), forme du toit (plat), par où la voiture est entrée, trois imperfections, zoom plaque."
+   ]
+  },
+  "qa_attendue": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+   "specifiques": [
+    "Toit plat : 4 poteaux, aucun mur porteur ; adossé : fixation murale visible + 2 poteaux extérieurs",
+    "Profilés aluminium rectangulaires, polycarbonate, aucun élément de tente",
+    "Véhicule dans l'axe, plaque sans caractère",
+    "Accès et sol porteur continu",
+    "Planche-contact des 2 images à côté des vignettes de référence"
+   ]
+  },
+  "sortie": {
+   "dossier": "boutique-carport/livraisons/visuels-lot6-2026-09-10/",
+   "manifeste": "manifeste.json"
+  }
+ }
+}

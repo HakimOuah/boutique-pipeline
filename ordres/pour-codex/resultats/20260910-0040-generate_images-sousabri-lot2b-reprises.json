@@ -1,0 +1,89 @@
+{
+  "id": "claude-20260910-0040-sousabri-lot2b-reprises",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "carport-acier-thermolaque-4-5x3",
+        "sku": "SA-ACIER-450",
+        "slot": "ancrage",
+        "fichier": "carport-acier-thermolaque-4-5x3-ancrage.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "carport-camping-car-aluminium",
+        "sku": "SA-ALU-CC-6x38",
+        "slot": "situation",
+        "fichier": "carport-camping-car-aluminium-situation.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "tente-garage-4x6-portes-enroulables",
+        "sku": "SA-TG-4x6-PE",
+        "slot": "montage",
+        "fichier": "tente-garage-4x6-portes-enroulables-montage.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "tente-garage-4x6-fenetres",
+        "sku": "SA-TG-4x6-FEN",
+        "slot": "montage",
+        "fichier": "tente-garage-4x6-fenetres-montage.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "tente-garage-4x7-6-camping-car",
+        "sku": "SA-TG-4x76",
+        "slot": "situation",
+        "fichier": "tente-garage-4x7-6-camping-car-situation.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "tente-carport-fermee-2-cotes",
+        "sku": "SA-TG-FERM2",
+        "slot": "montage",
+        "fichier": "tente-carport-fermee-2-cotes-montage.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "tente-garage-4x6-double-porte-volet",
+        "sku": "SA-TG-4x6-VOL",
+        "slot": "montage",
+        "fichier": "tente-garage-4x6-double-porte-volet-montage.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "sousabri-guides",
+        "sku": "SA-SCENE",
+        "slot": "guide-comparatif",
+        "fichier": "sousabri-guide-comparatif.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/sousabri-guide-comparatif-v1.png",
+        "motif": "Carport aluminium genere avec six poteaux au lieu des quatre poteaux d'angle de la source 1005009961706626."
+      },
+      {
+        "fichier": "rejected/tente-garage-4x6-fenetres-montage-v1.png",
+        "motif": "Ossature limitee a trois portiques et six appuis, au lieu de quatre portiques et huit appuis."
+      },
+      {
+        "fichier": "rejected/tente-carport-fermee-2-cotes-montage-v1.png",
+        "motif": "Voiture parasite dans un slot montage ou tout vehicule est interdit."
+      }
+    ],
+    "sujets_difficiles": []
+  },
+  "executed_at": "2026-09-09T22:15:23Z",
+  "executor": "codex-2026-09-10"
+}

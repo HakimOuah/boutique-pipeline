@@ -1,0 +1,494 @@
+{
+  "id": "claude-20260915-0400-bercelou-lot4-relax",
+  "status": "done",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "fauteuil-relax-electrique",
+        "sku": "BCL-721103",
+        "slot": "face",
+        "fichier": "fauteuil-relax-electrique-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      },
+      {
+        "handle": "fauteuil-relax-electrique",
+        "sku": "BCL-721103",
+        "slot": "salon",
+        "fichier": "fauteuil-relax-electrique-salon.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "fauteuil-relax-electrique",
+        "sku": "BCL-721103",
+        "slot": "reglages",
+        "fichier": "fauteuil-relax-electrique-reglages.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      },
+      {
+        "handle": "fauteuil-relax-electrique",
+        "sku": "BCL-721103",
+        "slot": "matiere",
+        "fichier": "fauteuil-relax-electrique-matiere.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "fauteuil-relax-electrique",
+        "sku": "BCL-721103",
+        "slot": "detail",
+        "fichier": "fauteuil-relax-electrique-detail.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "fauteuil-relax-moderne",
+        "sku": "BCL-786223",
+        "slot": "face",
+        "fichier": "fauteuil-relax-moderne-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      },
+      {
+        "handle": "fauteuil-relax-moderne",
+        "sku": "BCL-786223",
+        "slot": "salon",
+        "fichier": "fauteuil-relax-moderne-salon.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "fauteuil-relax-moderne",
+        "sku": "BCL-786223",
+        "slot": "reglages",
+        "fichier": "fauteuil-relax-moderne-reglages.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "fauteuil-relax-moderne",
+        "sku": "BCL-786223",
+        "slot": "matiere",
+        "fichier": "fauteuil-relax-moderne-matiere.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "fauteuil-relax-moderne",
+        "sku": "BCL-786223",
+        "slot": "detail",
+        "fichier": "fauteuil-relax-moderne-detail.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "fauteuil-relax-manuel",
+        "sku": "BCL-267746",
+        "slot": "face",
+        "fichier": "fauteuil-relax-manuel-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-manuel",
+        "sku": "BCL-267746",
+        "slot": "salon",
+        "fichier": "fauteuil-relax-manuel-salon.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-manuel",
+        "sku": "BCL-267746",
+        "slot": "reglages",
+        "fichier": "fauteuil-relax-manuel-reglages.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-manuel",
+        "sku": "BCL-267746",
+        "slot": "matiere",
+        "fichier": "fauteuil-relax-manuel-matiere.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "fauteuil-relax-manuel",
+        "sku": "BCL-267746",
+        "slot": "detail",
+        "fichier": "fauteuil-relax-manuel-detail.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-cuir",
+        "sku": "BCL-948146",
+        "slot": "face",
+        "fichier": "fauteuil-relax-cuir-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-cuir",
+        "sku": "BCL-948146",
+        "slot": "salon",
+        "fichier": "fauteuil-relax-cuir-salon.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-cuir",
+        "sku": "BCL-948146",
+        "slot": "reglages",
+        "fichier": "fauteuil-relax-cuir-reglages.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-cuir",
+        "sku": "BCL-948146",
+        "slot": "matiere",
+        "fichier": "fauteuil-relax-cuir-matiere.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-cuir",
+        "sku": "BCL-948146",
+        "slot": "detail",
+        "fichier": "fauteuil-relax-cuir-detail.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-de-salon",
+        "sku": "BCL-448823",
+        "slot": "face",
+        "fichier": "fauteuil-relax-de-salon-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-de-salon",
+        "sku": "BCL-448823",
+        "slot": "salon",
+        "fichier": "fauteuil-relax-de-salon-salon.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-de-salon",
+        "sku": "BCL-448823",
+        "slot": "reglages",
+        "fichier": "fauteuil-relax-de-salon-reglages.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-de-salon",
+        "sku": "BCL-448823",
+        "slot": "matiere",
+        "fichier": "fauteuil-relax-de-salon-matiere.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-de-salon",
+        "sku": "BCL-448823",
+        "slot": "detail",
+        "fichier": "fauteuil-relax-de-salon-detail.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-pivotant",
+        "sku": "BCL-845495",
+        "slot": "face",
+        "fichier": "fauteuil-relax-pivotant-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-pivotant",
+        "sku": "BCL-845495",
+        "slot": "salon",
+        "fichier": "fauteuil-relax-pivotant-salon.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-pivotant",
+        "sku": "BCL-845495",
+        "slot": "reglages",
+        "fichier": "fauteuil-relax-pivotant-reglages.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-pivotant",
+        "sku": "BCL-845495",
+        "slot": "matiere",
+        "fichier": "fauteuil-relax-pivotant-matiere.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-pivotant",
+        "sku": "BCL-845495",
+        "slot": "detail",
+        "fichier": "fauteuil-relax-pivotant-detail.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-scandinave",
+        "sku": "BCL-772306",
+        "slot": "face",
+        "fichier": "fauteuil-relax-scandinave-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "fauteuil-relax-scandinave",
+        "sku": "BCL-772306",
+        "slot": "salon",
+        "fichier": "fauteuil-relax-scandinave-salon.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-scandinave",
+        "sku": "BCL-772306",
+        "slot": "reglages",
+        "fichier": "fauteuil-relax-scandinave-reglages.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-scandinave",
+        "sku": "BCL-772306",
+        "slot": "matiere",
+        "fichier": "fauteuil-relax-scandinave-matiere.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-scandinave",
+        "sku": "BCL-772306",
+        "slot": "detail",
+        "fichier": "fauteuil-relax-scandinave-detail.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-exterieur-inclinable",
+        "sku": "BCL-331532",
+        "slot": "face",
+        "fichier": "fauteuil-relax-exterieur-inclinable-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-exterieur-inclinable",
+        "sku": "BCL-331532",
+        "slot": "salon",
+        "fichier": "fauteuil-relax-exterieur-inclinable-salon.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-exterieur-inclinable",
+        "sku": "BCL-331532",
+        "slot": "reglages",
+        "fichier": "fauteuil-relax-exterieur-inclinable-reglages.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-exterieur-inclinable",
+        "sku": "BCL-331532",
+        "slot": "matiere",
+        "fichier": "fauteuil-relax-exterieur-inclinable-matiere.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-exterieur-inclinable",
+        "sku": "BCL-331532",
+        "slot": "detail",
+        "fichier": "fauteuil-relax-exterieur-inclinable-detail.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-a-bascule",
+        "sku": "BCL-697791",
+        "slot": "face",
+        "fichier": "fauteuil-relax-a-bascule-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-a-bascule",
+        "sku": "BCL-697791",
+        "slot": "salon",
+        "fichier": "fauteuil-relax-a-bascule-salon.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-a-bascule",
+        "sku": "BCL-697791",
+        "slot": "reglages",
+        "fichier": "fauteuil-relax-a-bascule-reglages.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-a-bascule",
+        "sku": "BCL-697791",
+        "slot": "matiere",
+        "fichier": "fauteuil-relax-a-bascule-matiere.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-a-bascule",
+        "sku": "BCL-697791",
+        "slot": "detail",
+        "fichier": "fauteuil-relax-a-bascule-detail.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "rocking-chair-avec-repose-pieds",
+        "sku": "BCL-143897",
+        "slot": "face",
+        "fichier": "rocking-chair-avec-repose-pieds-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "rocking-chair-avec-repose-pieds",
+        "sku": "BCL-143897",
+        "slot": "salon",
+        "fichier": "rocking-chair-avec-repose-pieds-salon.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "rocking-chair-avec-repose-pieds",
+        "sku": "BCL-143897",
+        "slot": "reglages",
+        "fichier": "rocking-chair-avec-repose-pieds-reglages.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "rocking-chair-avec-repose-pieds",
+        "sku": "BCL-143897",
+        "slot": "matiere",
+        "fichier": "rocking-chair-avec-repose-pieds-matiere.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "rocking-chair-avec-repose-pieds",
+        "sku": "BCL-143897",
+        "slot": "detail",
+        "fichier": "rocking-chair-avec-repose-pieds-detail.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/fauteuil-relax-electrique-detail-contamination-reference-ambiance.jpg",
+        "motif": "Reference d ambiance injectee comme reference produit : silhouette ou base contaminee, version ecartee avant livraison."
+      },
+      {
+        "fichier": "rejected/fauteuil-relax-electrique-face-contamination-reference-ambiance.jpg",
+        "motif": "Reference d ambiance injectee comme reference produit : silhouette ou base contaminee, version ecartee avant livraison."
+      },
+      {
+        "fichier": "rejected/fauteuil-relax-electrique-face-qa-pictogrammes.jpg",
+        "motif": "Pictogrammes de chauffage ou massage visibles dans l image."
+      },
+      {
+        "fichier": "rejected/fauteuil-relax-electrique-matiere-contamination-reference-ambiance.jpg",
+        "motif": "Reference d ambiance injectee comme reference produit : silhouette ou base contaminee, version ecartee avant livraison."
+      },
+      {
+        "fichier": "rejected/fauteuil-relax-electrique-reglages-contamination-reference-ambiance.jpg",
+        "motif": "Reference d ambiance injectee comme reference produit : silhouette ou base contaminee, version ecartee avant livraison."
+      },
+      {
+        "fichier": "rejected/fauteuil-relax-electrique-reglages-qa-pictogrammes.jpg",
+        "motif": "Pictogrammes de chauffage ou massage visibles dans l image."
+      },
+      {
+        "fichier": "rejected/fauteuil-relax-electrique-salon-contamination-reference-ambiance.jpg",
+        "motif": "Reference d ambiance injectee comme reference produit : silhouette ou base contaminee, version ecartee avant livraison."
+      },
+      {
+        "fichier": "rejected/fauteuil-relax-manuel-matiere-contamination-reference-ambiance.jpg",
+        "motif": "Reference d ambiance injectee comme reference produit : silhouette ou base contaminee, version ecartee avant livraison."
+      },
+      {
+        "fichier": "rejected/fauteuil-relax-moderne-detail-contamination-reference-ambiance.jpg",
+        "motif": "Reference d ambiance injectee comme reference produit : silhouette ou base contaminee, version ecartee avant livraison."
+      },
+      {
+        "fichier": "rejected/fauteuil-relax-moderne-face-contamination-reference-ambiance.jpg",
+        "motif": "Reference d ambiance injectee comme reference produit : silhouette ou base contaminee, version ecartee avant livraison."
+      },
+      {
+        "fichier": "rejected/fauteuil-relax-moderne-face-qa-personne-sur-face.jpg",
+        "motif": "Presence humaine sur un slot face exigeant le produit seul."
+      },
+      {
+        "fichier": "rejected/fauteuil-relax-moderne-matiere-contamination-reference-ambiance.jpg",
+        "motif": "Reference d ambiance injectee comme reference produit : silhouette ou base contaminee, version ecartee avant livraison."
+      },
+      {
+        "fichier": "rejected/fauteuil-relax-moderne-reglages-contamination-reference-ambiance.jpg",
+        "motif": "Reference d ambiance injectee comme reference produit : silhouette ou base contaminee, version ecartee avant livraison."
+      },
+      {
+        "fichier": "rejected/fauteuil-relax-moderne-salon-contamination-reference-ambiance.jpg",
+        "motif": "Reference d ambiance injectee comme reference produit : silhouette ou base contaminee, version ecartee avant livraison."
+      },
+      {
+        "fichier": "rejected/fauteuil-relax-scandinave-face-qa-personne-sur-face.jpg",
+        "motif": "Presence humaine sur un slot face exigeant le produit seul."
+      },
+      {
+        "fichier": "rejected/fauteuil-relax-design-fiche-rejetee.motif.json",
+        "handle": "fauteuil-relax-design",
+        "sku": "BCL-998756",
+        "motif": "Contradiction entre le H1 et les photographies fournisseur : le H1 annonce chauffage et massage, mais les sources montrent un fauteuil relax pivotant manuel sans commande ni preuve de ces fonctions. Les fonctions ne peuvent pas être ajoutées ou suggérées.",
+        "slots_non_generes": [
+          "face",
+          "salon",
+          "reglages",
+          "matiere",
+          "detail"
+        ]
+      }
+    ],
+    "sujets_difficiles": [],
+    "dossier_livraison": "boutique-rocking-chair/livraisons/visuels-lot4-relax-2026-09-15/",
+    "manifeste_fichier": "boutique-rocking-chair/livraisons/visuels-lot4-relax-2026-09-15/manifeste-realise.json",
+    "qa": {
+      "planches_controle": 11,
+      "fichiers_verite": 11,
+      "images_livrees": 50
+    },
+    "note_export": "Les JPEG livres ont ete reechantillonnes aux dimensions contractuelles. Les originaux generes restent dans le stockage Codex; les versions refusees sont conservees dans rejected/."
+  },
+  "executed_at": "2026-09-15T10:01:56Z",
+  "executor": "codex-2026-09-15"
+}

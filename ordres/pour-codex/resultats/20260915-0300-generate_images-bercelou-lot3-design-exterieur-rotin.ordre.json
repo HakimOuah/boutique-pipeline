@@ -1,0 +1,386 @@
+{
+ "id": "claude-20260915-0300-bercelou-lot3-design-exterieur-rotin",
+ "type": "generate_images",
+ "created_at": "2026-09-15T08:00:00Z",
+ "requested_by": "claude-code",
+ "payload": {
+  "manifest": [
+   {
+    "handle": "rocking-chair-blanc-teddy",
+    "sku": "BCL-587244",
+    "slot": "face",
+    "fichier": "rocking-chair-blanc-teddy-face.jpg"
+   },
+   {
+    "handle": "rocking-chair-blanc-teddy",
+    "sku": "BCL-587244",
+    "slot": "soir",
+    "fichier": "rocking-chair-blanc-teddy-soir.jpg"
+   },
+   {
+    "handle": "rocking-chair-blanc-teddy",
+    "sku": "BCL-587244",
+    "slot": "usage",
+    "fichier": "rocking-chair-blanc-teddy-usage.jpg"
+   },
+   {
+    "handle": "rocking-chair-blanc-teddy",
+    "sku": "BCL-587244",
+    "slot": "matiere",
+    "fichier": "rocking-chair-blanc-teddy-matiere.jpg"
+   },
+   {
+    "handle": "rocking-chair-blanc-teddy",
+    "sku": "BCL-587244",
+    "slot": "detail",
+    "fichier": "rocking-chair-blanc-teddy-detail.jpg"
+   },
+   {
+    "handle": "rocking-chair-moderne-inclinable",
+    "sku": "BCL-192978",
+    "slot": "face",
+    "fichier": "rocking-chair-moderne-inclinable-face.jpg"
+   },
+   {
+    "handle": "rocking-chair-moderne-inclinable",
+    "sku": "BCL-192978",
+    "slot": "soir",
+    "fichier": "rocking-chair-moderne-inclinable-soir.jpg"
+   },
+   {
+    "handle": "rocking-chair-moderne-inclinable",
+    "sku": "BCL-192978",
+    "slot": "usage",
+    "fichier": "rocking-chair-moderne-inclinable-usage.jpg"
+   },
+   {
+    "handle": "rocking-chair-moderne-inclinable",
+    "sku": "BCL-192978",
+    "slot": "matiere",
+    "fichier": "rocking-chair-moderne-inclinable-matiere.jpg"
+   },
+   {
+    "handle": "rocking-chair-moderne-inclinable",
+    "sku": "BCL-192978",
+    "slot": "detail",
+    "fichier": "rocking-chair-moderne-inclinable-detail.jpg"
+   },
+   {
+    "handle": "fauteuil-cocon-exterieur",
+    "sku": "BCL-290288",
+    "slot": "face",
+    "fichier": "fauteuil-cocon-exterieur-face.jpg"
+   },
+   {
+    "handle": "fauteuil-cocon-exterieur",
+    "sku": "BCL-290288",
+    "slot": "soir",
+    "fichier": "fauteuil-cocon-exterieur-soir.jpg"
+   },
+   {
+    "handle": "fauteuil-cocon-exterieur",
+    "sku": "BCL-290288",
+    "slot": "usage",
+    "fichier": "fauteuil-cocon-exterieur-usage.jpg"
+   },
+   {
+    "handle": "fauteuil-cocon-exterieur",
+    "sku": "BCL-290288",
+    "slot": "matiere",
+    "fichier": "fauteuil-cocon-exterieur-matiere.jpg"
+   },
+   {
+    "handle": "fauteuil-cocon-exterieur",
+    "sku": "BCL-290288",
+    "slot": "detail",
+    "fichier": "fauteuil-cocon-exterieur-detail.jpg"
+   },
+   {
+    "handle": "fauteuil-cocon-suspendu",
+    "sku": "BCL-732576",
+    "slot": "face",
+    "fichier": "fauteuil-cocon-suspendu-face.jpg"
+   },
+   {
+    "handle": "fauteuil-cocon-suspendu",
+    "sku": "BCL-732576",
+    "slot": "soir",
+    "fichier": "fauteuil-cocon-suspendu-soir.jpg"
+   },
+   {
+    "handle": "fauteuil-cocon-suspendu",
+    "sku": "BCL-732576",
+    "slot": "usage",
+    "fichier": "fauteuil-cocon-suspendu-usage.jpg"
+   },
+   {
+    "handle": "fauteuil-cocon-suspendu",
+    "sku": "BCL-732576",
+    "slot": "matiere",
+    "fichier": "fauteuil-cocon-suspendu-matiere.jpg"
+   },
+   {
+    "handle": "fauteuil-cocon-suspendu",
+    "sku": "BCL-732576",
+    "slot": "detail",
+    "fichier": "fauteuil-cocon-suspendu-detail.jpg"
+   },
+   {
+    "handle": "fauteuil-a-bascule-de-jardin",
+    "sku": "BCL-563839",
+    "slot": "face",
+    "fichier": "fauteuil-a-bascule-de-jardin-face.jpg"
+   },
+   {
+    "handle": "fauteuil-a-bascule-de-jardin",
+    "sku": "BCL-563839",
+    "slot": "soir",
+    "fichier": "fauteuil-a-bascule-de-jardin-soir.jpg"
+   },
+   {
+    "handle": "fauteuil-a-bascule-de-jardin",
+    "sku": "BCL-563839",
+    "slot": "usage",
+    "fichier": "fauteuil-a-bascule-de-jardin-usage.jpg"
+   },
+   {
+    "handle": "fauteuil-a-bascule-de-jardin",
+    "sku": "BCL-563839",
+    "slot": "matiere",
+    "fichier": "fauteuil-a-bascule-de-jardin-matiere.jpg"
+   },
+   {
+    "handle": "fauteuil-a-bascule-de-jardin",
+    "sku": "BCL-563839",
+    "slot": "detail",
+    "fichier": "fauteuil-a-bascule-de-jardin-detail.jpg"
+   },
+   {
+    "handle": "chaise-a-bascule-exterieur-coussin-impermeable",
+    "sku": "BCL-302710",
+    "slot": "face",
+    "fichier": "chaise-a-bascule-exterieur-coussin-impermeable-face.jpg"
+   },
+   {
+    "handle": "chaise-a-bascule-exterieur-coussin-impermeable",
+    "sku": "BCL-302710",
+    "slot": "soir",
+    "fichier": "chaise-a-bascule-exterieur-coussin-impermeable-soir.jpg"
+   },
+   {
+    "handle": "chaise-a-bascule-exterieur-coussin-impermeable",
+    "sku": "BCL-302710",
+    "slot": "usage",
+    "fichier": "chaise-a-bascule-exterieur-coussin-impermeable-usage.jpg"
+   },
+   {
+    "handle": "chaise-a-bascule-exterieur-coussin-impermeable",
+    "sku": "BCL-302710",
+    "slot": "matiere",
+    "fichier": "chaise-a-bascule-exterieur-coussin-impermeable-matiere.jpg"
+   },
+   {
+    "handle": "chaise-a-bascule-exterieur-coussin-impermeable",
+    "sku": "BCL-302710",
+    "slot": "detail",
+    "fichier": "chaise-a-bascule-exterieur-coussin-impermeable-detail.jpg"
+   },
+   {
+    "handle": "rocking-chair-acacia",
+    "sku": "BCL-904475",
+    "slot": "face",
+    "fichier": "rocking-chair-acacia-face.jpg"
+   },
+   {
+    "handle": "rocking-chair-acacia",
+    "sku": "BCL-904475",
+    "slot": "soir",
+    "fichier": "rocking-chair-acacia-soir.jpg"
+   },
+   {
+    "handle": "rocking-chair-acacia",
+    "sku": "BCL-904475",
+    "slot": "usage",
+    "fichier": "rocking-chair-acacia-usage.jpg"
+   },
+   {
+    "handle": "rocking-chair-acacia",
+    "sku": "BCL-904475",
+    "slot": "matiere",
+    "fichier": "rocking-chair-acacia-matiere.jpg"
+   },
+   {
+    "handle": "rocking-chair-acacia",
+    "sku": "BCL-904475",
+    "slot": "detail",
+    "fichier": "rocking-chair-acacia-detail.jpg"
+   },
+   {
+    "handle": "rocking-chair-rotin",
+    "sku": "BCL-518388",
+    "slot": "face",
+    "fichier": "rocking-chair-rotin-face.jpg"
+   },
+   {
+    "handle": "rocking-chair-rotin",
+    "sku": "BCL-518388",
+    "slot": "soir",
+    "fichier": "rocking-chair-rotin-soir.jpg"
+   },
+   {
+    "handle": "rocking-chair-rotin",
+    "sku": "BCL-518388",
+    "slot": "usage",
+    "fichier": "rocking-chair-rotin-usage.jpg"
+   },
+   {
+    "handle": "rocking-chair-rotin",
+    "sku": "BCL-518388",
+    "slot": "matiere",
+    "fichier": "rocking-chair-rotin-matiere.jpg"
+   },
+   {
+    "handle": "rocking-chair-rotin",
+    "sku": "BCL-518388",
+    "slot": "detail",
+    "fichier": "rocking-chair-rotin-detail.jpg"
+   },
+   {
+    "handle": "fauteuil-a-bascule-rotin-et-coussin",
+    "sku": "BCL-789726",
+    "slot": "face",
+    "fichier": "fauteuil-a-bascule-rotin-et-coussin-face.jpg"
+   },
+   {
+    "handle": "fauteuil-a-bascule-rotin-et-coussin",
+    "sku": "BCL-789726",
+    "slot": "soir",
+    "fichier": "fauteuil-a-bascule-rotin-et-coussin-soir.jpg"
+   },
+   {
+    "handle": "fauteuil-a-bascule-rotin-et-coussin",
+    "sku": "BCL-789726",
+    "slot": "usage",
+    "fichier": "fauteuil-a-bascule-rotin-et-coussin-usage.jpg"
+   },
+   {
+    "handle": "fauteuil-a-bascule-rotin-et-coussin",
+    "sku": "BCL-789726",
+    "slot": "matiere",
+    "fichier": "fauteuil-a-bascule-rotin-et-coussin-matiere.jpg"
+   },
+   {
+    "handle": "fauteuil-a-bascule-rotin-et-coussin",
+    "sku": "BCL-789726",
+    "slot": "detail",
+    "fichier": "fauteuil-a-bascule-rotin-et-coussin-detail.jpg"
+   },
+   {
+    "handle": "rocking-chair-papasan-avec-pouf",
+    "sku": "BCL-530016",
+    "slot": "face",
+    "fichier": "rocking-chair-papasan-avec-pouf-face.jpg"
+   },
+   {
+    "handle": "rocking-chair-papasan-avec-pouf",
+    "sku": "BCL-530016",
+    "slot": "soir",
+    "fichier": "rocking-chair-papasan-avec-pouf-soir.jpg"
+   },
+   {
+    "handle": "rocking-chair-papasan-avec-pouf",
+    "sku": "BCL-530016",
+    "slot": "usage",
+    "fichier": "rocking-chair-papasan-avec-pouf-usage.jpg"
+   },
+   {
+    "handle": "rocking-chair-papasan-avec-pouf",
+    "sku": "BCL-530016",
+    "slot": "matiere",
+    "fichier": "rocking-chair-papasan-avec-pouf-matiere.jpg"
+   },
+   {
+    "handle": "rocking-chair-papasan-avec-pouf",
+    "sku": "BCL-530016",
+    "slot": "detail",
+    "fichier": "rocking-chair-papasan-avec-pouf-detail.jpg"
+   },
+   {
+    "handle": "rocking-chair-bambou-pliable",
+    "sku": "BCL-932994",
+    "slot": "face",
+    "fichier": "rocking-chair-bambou-pliable-face.jpg"
+   },
+   {
+    "handle": "rocking-chair-bambou-pliable",
+    "sku": "BCL-932994",
+    "slot": "soir",
+    "fichier": "rocking-chair-bambou-pliable-soir.jpg"
+   },
+   {
+    "handle": "rocking-chair-bambou-pliable",
+    "sku": "BCL-932994",
+    "slot": "usage",
+    "fichier": "rocking-chair-bambou-pliable-usage.jpg"
+   },
+   {
+    "handle": "rocking-chair-bambou-pliable",
+    "sku": "BCL-932994",
+    "slot": "matiere",
+    "fichier": "rocking-chair-bambou-pliable-matiere.jpg"
+   },
+   {
+    "handle": "rocking-chair-bambou-pliable",
+    "sku": "BCL-932994",
+    "slot": "detail",
+    "fichier": "rocking-chair-bambou-pliable-detail.jpg"
+   }
+  ],
+  "sources": [
+   "boutique-rocking-chair/assets/source/1005012929587244",
+   "boutique-rocking-chair/assets/source/1005012105192978",
+   "boutique-rocking-chair/assets/source/1005013011290288",
+   "boutique-rocking-chair/assets/source/1005012269732576",
+   "boutique-rocking-chair/assets/source/1005011730563839",
+   "boutique-rocking-chair/assets/source/1005012626302710",
+   "boutique-rocking-chair/assets/source/1005012803904475",
+   "boutique-rocking-chair/assets/source/1005012477518388",
+   "boutique-rocking-chair/assets/source/1005012627789726",
+   "boutique-rocking-chair/assets/source/1005010552530016",
+   "boutique-rocking-chair/assets/source/1005002888932994",
+   "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/fauteuil-a-bascule-allaitement-teddy-face.jpg",
+   "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/fauteuil-a-bascule-allaitement-teddy-nuit.jpg",
+   "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/fauteuil-a-bascule-allaitement-teddy-salon.jpg",
+   "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/fauteuil-allaitement-chambre-bebe-avec-repose-pieds-detail.jpg",
+   "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/fauteuil-a-bascule-scandinave-velours-cotele-matiere.jpg"
+  ],
+  "da": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+   "surcharges": "boutique-rocking-chair/BRIEF-VISUELS-CODEX-2026-09-14.md §2 (« Veille douce », validée par Hakim le 14/09 et le 15/09 sur le lot test) + boutique-rocking-chair/BRIEF-VISUELS-CODEX-LOTS-2-5-2026-09-15.md §2 (scènes par famille, formats)."
+  },
+  "contraintes": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+   "specifiques": [
+    "Lire EN ENTIER boutique-rocking-chair/BRIEF-VISUELS-CODEX-2026-09-14.md puis boutique-rocking-chair/BRIEF-VISUELS-CODEX-LOTS-2-5-2026-09-15.md.",
+    "Avant chaque fiche : écrire qa/verite-<handle>.md depuis toutes les photos sources et le H1 (§1) ; si les photos contredisent le H1, rejeter la fiche avec motif.",
+    "Le produit n'est jamais réinventé : seule la mise en scène change ; couleur de 01.jpg ; bloc d'orientation §2 bis du brief du lot test dans chaque prompt.",
+    "Aucun texte, logo, étiquette, pictogramme, cote, badge ni tableau à personnage sous licence (les sources en contiennent).",
+    "Personnes de profil/dos, jamais de visage en gros plan ; bébé emmailloté uniquement sur les slots nuit de la famille A ; aucun bébé ni enfant sur la famille D.",
+    "Relax : aucun élément médical ; positions inclinées ou repose-pieds sortis seulement si les sources les montrent."
+   ]
+  },
+  "qa_attendue": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+   "specifiques": [
+    "Planche par fiche (01.jpg + images livrées, vignettes ≥ 740 px) dans qa/controle-<handle>.jpg.",
+    "Zoom sur étiquettes, poches, livres, écrans : aucun texte ni logo.",
+    "Scènes du soir : source chaude visible et pièce réellement sombre ; mains et proportions humaines contrôlées."
+   ]
+  },
+  "sortie": {
+   "dossier": "boutique-rocking-chair/livraisons/visuels-lot3-design-exterieur-rotin-2026-09-15/",
+   "manifeste": "manifeste-realise.json"
+  }
+ },
+ "notes": "Bercelou, lot3-design-exterieur-rotin : 55 images. Style validé par Hakim le 15/09 sur le lot test. Aucun accès boutique."
+}

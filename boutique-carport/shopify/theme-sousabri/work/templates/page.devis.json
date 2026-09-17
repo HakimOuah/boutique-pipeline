@@ -1,0 +1,245 @@
+{
+  "sections": {
+    "styles": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n.sa-acc{margin-top:8px}.sa-acc details{border-top:1px solid rgba(27,31,36,.15)}.sa-acc details:last-child{border-bottom:1px solid rgba(27,31,36,.15)}\n.sa-acc summary{cursor:pointer;padding:14px 0;font-weight:600;font-size:1.05rem;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px}\n.sa-acc summary::-webkit-details-marker{display:none}.sa-acc summary::after{content:\"+\";font-size:1.5rem;line-height:1;color:#C8552B;flex:none}\n.sa-acc details[open]>summary::after{content:\"–\"}.sa-acc .sa-body{padding:0 0 16px}.sa-acc .sa-body>:first-child{margin-top:0}.sa-acc details>p{padding:0 0 16px;margin:0}\n.sa-acc table{width:100%;border-collapse:collapse;font-size:.95rem}.sa-acc td,.sa-acc th{padding:8px 6px;border-bottom:1px solid rgba(27,31,36,.1);text-align:left;vertical-align:top}\n.rte details{border-top:1px solid rgba(27,31,36,.15)}.rte details:last-of-type{border-bottom:1px solid rgba(27,31,36,.15)}.rte summary{cursor:pointer;padding:14px 0;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:12px}.rte summary::-webkit-details-marker{display:none}.rte summary::after{content:\"+\";font-size:1.5rem;line-height:1;color:#C8552B;flex:none}.rte details[open]>summary::after{content:\"–\"}.rte details>p{margin:0 0 16px}\nmark.a-verifier{background:#FFE58A;padding:0 3px}.sa-lead{font-size:1.15rem}\n</style>",
+        "color_scheme": "background-1",
+        "display_as_card": false,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 24,
+        "padding_bottom": 8
+      }
+    },
+    "formulaire-devis": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{%- form 'contact', id: 'DevisForm', class: 'isolate contact' -%}\n  <input type=\"hidden\" name=\"contact[Sujet]\" value=\"Devis carport aluminium sur mesure\">\n  {%- if form.posted_successfully? -%}\n    <h2 class=\"form-status form-status-list form__message\" tabindex=\"-1\" autofocus>\n      {% render 'icon-success' %}\n      Merci, votre demande de devis a bien été envoyée. Réponse sous 48 h ouvrées.\n    </h2>\n  {%- endif -%}\n  <div class=\"contact__fields\">\n    <div class=\"field\">\n      <input class=\"field__input\" type=\"text\" id=\"Devis-longueur\" name=\"contact[Longueur souhaitée (m)]\" placeholder=\"Longueur souhaitée (m)\">\n      <label class=\"field__label\" for=\"Devis-longueur\">Longueur souhaitée (m)</label>\n    </div>\n    <div class=\"field\">\n      <input class=\"field__input\" type=\"text\" id=\"Devis-largeur\" name=\"contact[Largeur souhaitée (m)]\" placeholder=\"Largeur souhaitée (m)\">\n      <label class=\"field__label\" for=\"Devis-largeur\">Largeur souhaitée (m)</label>\n    </div>\n  </div>\n  <div class=\"contact__fields\">\n    <div class=\"field\">\n      <input class=\"field__input\" type=\"text\" id=\"Devis-hauteur\" name=\"contact[Hauteur de passage souhaitée (m)]\" placeholder=\"Hauteur de passage souhaitée (m)\">\n      <label class=\"field__label\" for=\"Devis-hauteur\">Hauteur de passage souhaitée (m)</label>\n    </div>\n    <div class=\"field\">\n      <div class=\"select\"><select class=\"select__select\" id=\"Devis-voitures\" name=\"contact[Nombre de voitures]\">\n        <option value=\"\" disabled selected>1 ou 2 voitures</option>\n        <option value=\"1 voiture\">1 voiture</option>\n        <option value=\"2 voitures\">2 voitures</option>\n      </select><svg aria-hidden=\"true\" focusable=\"false\" class=\"icon icon-caret\" viewBox=\"0 0 10 6\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z\" fill=\"currentColor\"/></svg></div>\n    </div>\n  </div>\n  <div class=\"contact__fields\">\n    <div class=\"field\">\n      <div class=\"select\"><select class=\"select__select\" id=\"Devis-config\" name=\"contact[Configuration]\">\n        <option value=\"\" disabled selected>Autoportant ou adossé</option>\n        <option value=\"Autoportant\">Autoportant</option>\n        <option value=\"Adossé à un mur\">Adossé à un mur</option>\n      </select><svg aria-hidden=\"true\" focusable=\"false\" class=\"icon icon-caret\" viewBox=\"0 0 10 6\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z\" fill=\"currentColor\"/></svg></div>\n    </div>\n    <div class=\"field\">\n      <div class=\"select\"><select class=\"select__select\" id=\"Devis-toit\" name=\"contact[Type de toit]\">\n        <option value=\"\" disabled selected>Type de toit</option>\n        <option value=\"Toit plat\">Toit plat</option>\n        <option value=\"Monopente\">Monopente</option>\n        <option value=\"Cintré\">Cintré</option>\n      </select><svg aria-hidden=\"true\" focusable=\"false\" class=\"icon icon-caret\" viewBox=\"0 0 10 6\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z\" fill=\"currentColor\"/></svg></div>\n    </div>\n  </div>\n  <div class=\"contact__fields\">\n    <div class=\"field\">\n      <div class=\"select\"><select class=\"select__select\" id=\"Devis-toiture\" name=\"contact[Toiture]\">\n        <option value=\"\" disabled selected>Toiture</option>\n        <option value=\"Polycarbonate transparent\">Polycarbonate transparent</option>\n        <option value=\"Polycarbonate teinté\">Polycarbonate teinté</option>\n        <option value=\"Polycarbonate opaque\">Polycarbonate opaque</option>\n      </select><svg aria-hidden=\"true\" focusable=\"false\" class=\"icon icon-caret\" viewBox=\"0 0 10 6\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z\" fill=\"currentColor\"/></svg></div>\n    </div>\n    <div class=\"field\">\n      <input class=\"field__input\" type=\"text\" id=\"Devis-coloris\" name=\"contact[Coloris souhaité]\" placeholder=\"Coloris (anthracite, blanc, autre)\">\n      <label class=\"field__label\" for=\"Devis-coloris\">Coloris souhaité</label>\n    </div>\n  </div>\n  <div class=\"contact__fields\">\n    <div class=\"field\">\n      <div class=\"select\"><select class=\"select__select\" id=\"Devis-sol\" name=\"contact[Nature du sol]\">\n        <option value=\"\" disabled selected>Nature du sol</option>\n        <option value=\"Terre\">Terre</option>\n        <option value=\"Dalle béton\">Dalle béton</option>\n        <option value=\"Enrobé\">Enrobé</option>\n      </select><svg aria-hidden=\"true\" focusable=\"false\" class=\"icon icon-caret\" viewBox=\"0 0 10 6\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z\" fill=\"currentColor\"/></svg></div>\n    </div>\n    <div class=\"field\">\n      <input class=\"field__input\" type=\"text\" id=\"Devis-cp\" name=\"contact[Code postal]\" placeholder=\"Code postal\">\n      <label class=\"field__label\" for=\"Devis-cp\">Code postal</label>\n    </div>\n  </div>\n  <div class=\"contact__fields\">\n    <div class=\"field field--with-error\">\n      <input class=\"field__input\" type=\"email\" id=\"Devis-email\" name=\"contact[email]\" placeholder=\"E-mail\" aria-required=\"true\" value=\"{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}\">\n      <label class=\"field__label\" for=\"Devis-email\">E-mail<span aria-hidden=\"true\">*</span></label>\n    </div>\n    <div class=\"field\">\n      <input class=\"field__input\" type=\"tel\" id=\"Devis-tel\" name=\"contact[phone]\" placeholder=\"Téléphone\" value=\"{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}\">\n      <label class=\"field__label\" for=\"Devis-tel\">Téléphone</label>\n    </div>\n  </div>\n  <div class=\"field\">\n    <label>\n      <input type=\"checkbox\" name=\"contact[J'ai lu qu'une déclaration en mairie est en général nécessaire]\" value=\"Oui, lu et compris\" required>\n      J'ai lu que ce carport nécessite en général une déclaration préalable en mairie\n    </label>\n  </div>\n  <div class=\"field\">\n    <textarea rows=\"4\" id=\"Devis-message\" class=\"text-area field__input\" name=\"contact[body]\" placeholder=\"Précisions utiles (emplacement, contraintes, questions)\"></textarea>\n    <label class=\"form__label field__label\" for=\"Devis-message\">Précisions utiles</label>\n  </div>\n  <div class=\"contact__button\">\n    <button type=\"submit\" class=\"button\">\n      <span>Demander mon devis gratuit</span>\n    </button>\n  </div>\n  <p class=\"caption\">Réponse sous 48 h ouvrées avec un prix ferme, livraison en France métropolitaine (Corse comprise) incluse. Aucun paiement à cette étape.</p>\n{%- endform -%}",
+        "color_scheme": "background-2",
+        "display_as_card": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "pourquoi-devis": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Un carport fabriqué à vos cotes, chiffré au plus juste",
+            "background_heading": false,
+            "heading_size": "h1",
+            "hn": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ce carport est fabriqué à vos dimensions, dans le coloris et la toiture de votre choix, en aluminium 6063-T5 testé par le fabricant à 122 km/h et couvert par une garantie fabricant de 5 ans. Son prix dépend de la surface, de la hauteur, du type de toit et de la toiture : le devis vous donne un prix ferme, livraison comprise, sous 48 h ouvrées. Il est gratuit et sans engagement, et vous ne réglez rien avant de l'accepter.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/sousabri-famille-devis.jpg",
+        "decoration": "none",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_style": "normal",
+        "color_scheme": "background-1",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Puis-je avoir un prix indicatif avant de remplir le formulaire ?",
+            "answer": "<p>Le prix se calcule à vos cotes : dimensions, hauteur, type de toit, toiture et accès pour la livraison. Remplissez le formulaire et vous recevez sous 48 h ouvrées un devis ferme, livraison en France métropolitaine comprise.</p>",
+            "open_by_default": true
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Le devis m'engage-t-il ?",
+            "answer": "<p>Non. Le devis est gratuit et sans engagement : vous ne réglez qu'après l'avoir accepté.</p>",
+            "open_by_default": false
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Combien de temps est-il valable ?",
+            "answer": "<p>Le devis est valable 30 jours. Passé ce délai, nous l'actualisons pour vous si les tarifs ou le transport ont évolué.</p>",
+            "open_by_default": false
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Puis-je changer les dimensions après le devis ?",
+            "answer": "<p>Oui, tant que vous n'avez pas accepté le devis : contactez-nous, nous le recalculons à vos nouvelles cotes.</p>",
+            "open_by_default": false
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "Que se passe-t-il si ma mairie refuse ?",
+            "answer": "<p>Tant que la fabrication n'est pas lancée, vous annulez sans frais. Une fois lancée, le carport est fabriqué à vos cotes et ne peut plus être annulé. Notre conseil : déposez votre demande en mairie avant de valider le devis, notre guide déclaration offert vous accompagne pas à pas.</p>",
+            "open_by_default": false
+          }
+        },
+        "q6": {
+          "type": "question",
+          "settings": {
+            "question": "Livrez-vous et montez-vous ?",
+            "answer": "<p>Nous livrons, offert, en France métropolitaine, Corse comprise, par transporteur spécialisé et sur rendez-vous. Le délai de livraison est indiqué sur votre devis. Le montage se fait par vos soins ou par l'artisan de votre choix : le kit arrive avec sa notice, et notre guide montage et ancrage vous accompagne.</p>",
+            "open_by_default": false
+          }
+        },
+        "q7": {
+          "type": "question",
+          "settings": {
+            "question": "Le polycarbonate jaunit-il ?",
+            "answer": "<p>Non. Le polycarbonate est traité anti-UV, couvert par la garantie fabricant de 5 ans, et il laisse passer la lumière sans la chaleur. Vous choisissez sa teinte : transparent, gris clair, gris foncé, ambre ou bleu lac.</p>",
+            "open_by_default": false
+          }
+        },
+        "q8": {
+          "type": "question",
+          "settings": {
+            "question": "Puis-je payer en plusieurs fois ?",
+            "answer": "<p>Oui, en 3 ou 4 fois avec Klarna et PayPal, selon les conditions de ces services au moment de votre commande, après acceptation du devis.</p>",
+            "open_by_default": false
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6",
+        "q7",
+        "q8"
+      ],
+      "settings": {
+        "heading": "Questions fréquentes sur le devis",
+        "heading_size": "h1",
+        "hn": "h2",
+        "description": "",
+        "text_alignment": "left",
+        "display_as_card": false,
+        "color_scheme": "background-1",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "reassurance": {
+      "type": "reassurance",
+      "blocks": {
+        "item-1": {
+          "type": "item",
+          "settings": {
+            "heading": "Livraison incluse",
+            "description": "<p>France métropolitaine, Corse comprise, par transporteur spécialisé sur rendez-vous.</p>"
+          }
+        },
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "heading": "Devis gratuit",
+            "description": "<p>Prix ferme sous 48 h ouvrées, sans engagement.</p>"
+          }
+        },
+        "item-3": {
+          "type": "item",
+          "settings": {
+            "heading": "Rappel des démarches",
+            "description": "<p>Le devis indique la démarche en mairie qui s'applique à vos dimensions, avec notre guide offert.</p>"
+          }
+        },
+        "item-4": {
+          "type": "item",
+          "settings": {
+            "heading": "Paiement sécurisé",
+            "description": "<p>Après acceptation du devis, en 3 ou 4 fois avec Klarna et PayPal.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2",
+        "item-3",
+        "item-4"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "hn": "h2",
+        "heading": "Ce que vous garantit le devis",
+        "content": "",
+        "content_alignment": "center",
+        "column_mobile": "2",
+        "card_style": "text-below",
+        "card_background": true,
+        "card_border": true,
+        "display_as_card": false,
+        "color_scheme": "background-2",
+        "border_radius": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "visuel": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{%- assign visuel = blank -%}{%- assign alt = '' -%}\n{%- case page.handle -%}\n{%- when 'guide-declaration-carport' -%}{%- assign visuel = 'sousabri-guide-declaration.jpg' -%}{%- assign alt = 'Plan de maison et mètre sur une table, préparation de la déclaration préalable' -%}\n{%- when 'guide-montage-ancrage' -%}{%- assign visuel = 'sousabri-guide-montage.jpg' -%}{%- assign alt = 'Pièces d un carport en kit posées au sol avant le montage à deux' -%}\n{%- when 'devis-carport-cintre-2-pieds' -%}{%- assign visuel = 'devis-carport-cintre-2-pieds-situation.jpg' -%}{%- assign alt = 'Carport aluminium cintré à 2 pieds devant une maison, voiture grise à l abri' -%}\n{%- when 'devis-carport-aluminium-toit-plat' -%}{%- assign visuel = 'devis-carport-aluminium-toit-plat-situation.jpg' -%}{%- assign alt = 'Carport aluminium à toit plat sur quatre poteaux devant une maison, SUV gris à l abri' -%}\n{%- when 'devis-carport-aluminium-adosse' -%}{%- assign visuel = 'devis-carport-aluminium-adosse-situation.jpg' -%}{%- assign alt = 'Carport aluminium adossé au mur d une maison, voiture blanche à l abri' -%}\n{%- when 'comparatif-carport-tente-garage' -%}{%- assign visuel = 'sousabri-guide-comparatif.jpg' -%}{%- assign alt = 'Carport aluminium à toit cintré et tente-garage blanche côte à côte dans un jardin' -%}\n{%- endcase -%}\n{%- if visuel != blank -%}\n<div class=\"page-width\" style=\"padding-top:24px\"><img src=\"{{ visuel | file_img_url: '2048x' }}\" alt=\"{{ alt }}\" loading=\"eager\" style=\"width:100%;height:auto;border-radius:6px;display:block\"></div>\n{%- endif -%}",
+        "color_scheme": "background-1",
+        "display_as_card": false,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "styles",
+    "visuel",
+    "main",
+    "formulaire-devis",
+    "pourquoi-devis",
+    "faq",
+    "reassurance"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "claude-20260909-2330-sousabri-lot1b-hero",
+  "status": "rejected",
+  "payload": {
+    "manifeste_realise": [],
+    "rejets": [
+      {
+        "fichier": "sousabri-hero.jpg",
+        "motif": "Sources contradictoires avec la contrainte de deux pieds : chacune des deux images locales montre trois poteaux verticaux visibles (arrière gauche, intermédiaire à gauche, avant au premier plan). L'ordre exige exactement deux pieds du même côté, tandis que le brief interdit tout poteau ajouté ou retiré par rapport à la source. Impossible de produire fidèlement le carport demandé sans deviner sa structure ou modifier le nombre de poteaux. Aucune génération effectuée.",
+        "fichier_produit": false
+      }
+    ],
+    "sujets_difficiles": [],
+    "code": "SOURCE_CONTRADICTOIRE_NOMBRE_POTEAUX",
+    "sources_controlees": [
+      {
+        "fichier": "boutique-carport/assets/source/1005012231765595/01.png",
+        "lisible": true,
+        "poteaux_visibles": 3
+      },
+      {
+        "fichier": "boutique-carport/livraisons/visuels-lot1-2026-09-09/sousabri-famille-devis.jpg",
+        "lisible": true,
+        "poteaux_visibles": 3
+      }
+    ],
+    "generation_effectuee": false,
+    "resolution_attendue": "Fournir une référence locale lisible montrant sans ambiguïté le carport à exactement deux pieds demandé, et une référence de rendu cohérente ou un ordre corrigé.",
+    "qa": {
+      "controle": "Inspection visuelle des deux sources avant génération",
+      "constat": "Trois poteaux visibles dans chaque source ; incompatibilité avec les deux pieds exigés."
+    }
+  },
+  "executed_at": "2026-09-09T19:22:31.667051Z",
+  "executor": "codex-2026-09-09"
+}

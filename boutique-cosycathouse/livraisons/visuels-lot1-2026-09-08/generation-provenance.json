@@ -1,0 +1,115 @@
+{
+  "mapping": [
+    {
+      "key": "face_gen",
+      "path": "/Users/Hakim/.codex/generated_images/01a080f1-bbfb-7b43-bf4e-6b05e76832d0/exec-841fe50f-96cc-4e6f-bc40-b79720d9ebbf.png"
+    },
+    {
+      "key": "situation-jardin",
+      "path": "/Users/Hakim/.codex/generated_images/01a080f1-bbfb-7b43-bf4e-6b05e76832d0/exec-5bc27f9d-d16e-446c-9cee-68638b8e109f.png"
+    },
+    {
+      "key": "chat-entree",
+      "path": "/Users/Hakim/.codex/generated_images/01a080f1-bbfb-7b43-bf4e-6b05e76832d0/exec-34b20873-56db-4162-b11c-b869cb680cb1.png"
+    },
+    {
+      "key": "macro-doublure",
+      "path": "/Users/Hakim/.codex/generated_images/01a080f1-bbfb-7b43-bf4e-6b05e76832d0/exec-21f5cc79-c98f-4dc6-b280-970f8bc747bd.png"
+    },
+    {
+      "key": "pieds-sureleves",
+      "path": "/Users/Hakim/.codex/generated_images/01a080f1-bbfb-7b43-bf4e-6b05e76832d0/exec-07911d12-efad-4c6e-a465-0bc1567755ca.png"
+    },
+    {
+      "key": "hero",
+      "path": "/Users/Hakim/.codex/generated_images/01a080f1-bbfb-7b43-bf4e-6b05e76832d0/exec-2b03a48b-d32d-46a7-8ab5-6259cfc56b08.png"
+    },
+    {
+      "key": "benefice-chaleur",
+      "path": "/Users/Hakim/.codex/generated_images/01a080f1-bbfb-7b43-bf4e-6b05e76832d0/exec-4da275d9-5454-41ec-9e87-d50e282b3a8f.png"
+    },
+    {
+      "key": "benefice-sec",
+      "path": "/Users/Hakim/.codex/generated_images/01a080f1-bbfb-7b43-bf4e-6b05e76832d0/exec-276fe6bd-9150-4d92-a4e7-158c17aae9fc.png"
+    },
+    {
+      "key": "benefice-installation",
+      "path": "/Users/Hakim/.codex/generated_images/01a080f1-bbfb-7b43-bf4e-6b05e76832d0/exec-879007fc-57d9-4339-80d4-f89584ba8a8c.png"
+    },
+    {
+      "key": "benefice-refuge",
+      "path": "/Users/Hakim/.codex/generated_images/01a080f1-bbfb-7b43-bf4e-6b05e76832d0/exec-73ae9f39-d33f-471d-b08c-7957d07cba3a.png"
+    },
+    {
+      "key": "carte",
+      "path": "/Users/Hakim/.codex/generated_images/01a080f1-bbfb-7b43-bf4e-6b05e76832d0/exec-e7a82648-5336-4b1e-96c6-9aabb42007c7.png"
+    },
+    {
+      "key": "hero_rejected",
+      "path": "/Users/Hakim/.codex/generated_images/01a080f1-bbfb-7b43-bf4e-6b05e76832d0/exec-ab0db778-bf0e-4de7-8b9f-f695dc9ff726.png"
+    },
+    {
+      "key": "hero_rejected_v2",
+      "path": "/Users/Hakim/.codex/generated_images/01a080f1-bbfb-7b43-bf4e-6b05e76832d0/exec-d7f385c0-0311-4f65-8966-89a0d1e5ce2e.png"
+    },
+    {
+      "key": "installation_rejected",
+      "path": "/Users/Hakim/.codex/generated_images/01a080f1-bbfb-7b43-bf4e-6b05e76832d0/exec-8aaa3139-4939-44ab-a555-b4758cd77367.png"
+    },
+    {
+      "key": "installation_rejected_v2",
+      "path": "/Users/Hakim/.codex/generated_images/01a080f1-bbfb-7b43-bf4e-6b05e76832d0/exec-603b3aa6-3bc0-4ab7-bcbe-dc389fec228c.png"
+    },
+    {
+      "key": "installation_rejected_v3",
+      "path": "/Users/Hakim/.codex/generated_images/01a080f1-bbfb-7b43-bf4e-6b05e76832d0/exec-5919b18a-ff55-4cce-a42b-e43a3d50f02f.png"
+    }
+  ],
+  "base_prompt": "Use case product-mockup. Generate a single photorealistic editorial ecommerce image, image-to-image FROM THE LOCAL SOURCE, sole product truth. Exact grey Oxford fabric shelter, identical seam positions and proportions, gabled overhanging roof silver underside, square front flap offset left with silver backing, narrow rectangular silver-lined right window, black tubular base with four short legs. Preserve fabric colour. No invented accessories, cushions, cable, heater, lettering, logo, badge, watermark, folded states. Normal British suburban garden if outdoors, subtle grey natural upper-left light. No inpainting; regenerate complete image from source.\nMANDATORY ORIENTATION — the watch lies flat (or on the wrist), dial fully readable:\n12 o'clock marker at the TOP, crown on the RIGHT. Every printed numeral must READ\nRIGHT-SIDE UP — NOT flipped, NOT rotated. If in doubt, keep the reference framing\nand move the camera closer.\nWatch clause is not a request to add a watch. Subject is solely the shelter.\nMANDATORY ORIENTATION — the shelter stands on its four black tubular legs, roof at the TOP,\ngable ridge horizontal, square door flap on the front face, side window on the right face.\nNever upside down, never on its side, never floating. Keep the reference three-quarter framing\nunless the slot says otherwise; if in doubt, keep the reference framing and move the camera.\n",
+  "jobs": [
+    [
+      "situation-jardin",
+      "2048x2048. Shelter on wet stone patio against old brick wall, damp lawn, grey late afternoon, no cat. Whole product fills 70% frame."
+    ],
+    [
+      "chat-entree",
+      "2048x2048. Same ordinary British patio brick wall damp lawn scene. One ordinary adult grey tabby cat seated just in front of the entrance, to its left, full cat visible, realistic scale shelter 55x45x40 cm. Four anatomically coherent paws, two eyes, two ears, one tail. Keep the reference flap unchanged, cat outside."
+    ],
+    [
+      "macro-doublure",
+      "2048x2048. Close-up upper front showing the roof silver underside and the square front flap silver backing with sharply detailed woven Oxford fabric, cream #FFF7ED studio backdrop. Preserve exact reference geometry, move camera closer, no invented interior. No cat."
+    ],
+    [
+      "pieds-sureleves",
+      "2048x2048. Low angle on wet patio slabs showing all four black tubular feet and the space below the base, keep front-right three-quarter view but camera near ground. Full product with roof included, no cat."
+    ],
+    [
+      "hero",
+      "2048x1152 landscape 16:9. British suburban garden at grey dusk, shelter with one adult grey tabby cat seated just at entrance to its left. CRITICAL central mobile crop: entire shelter and cat inside x=730..1350 and y=180..1020 of 2048x1152 frame. Shelter center x=1100, so slightly right of center; product and cat small enough to fit central 648-pixel wide crop. Left third calm blurred grass/brick negative space for HTML title; no rendered text. Realistic adult cat anatomy one tail, four paws, two eyes. Shelter 55x45x40 cm."
+    ],
+    [
+      "benefice-chaleur",
+      "2048x1536 landscape 4:3. Shelter on sheltered British patio at grey dawn, subtle dew around. One ordinary adult grey tabby lying within shelter with ONLY head naturally visible through front flap, body/paws/tail fully occluded inside. Silver flap physically lifted slightly by head, retain exact square door geometry and silver flap. No cushion, steam, glow, heating or exaggerated claims."
+    ],
+    [
+      "benefice-sec",
+      "2048x1536 landscape 4:3. Shelter standing elevated on its black tubular legs on wet stone patio with puddles around, under covered corner by brick wall, fabric dry. No cat, no rain effects, no extra products. Three-quarter reference angle."
+    ],
+    [
+      "benefice-installation",
+      "2048x1536 landscape 4:3. Fully assembled shelter resting with all four legs on sheltered decking beside brick wall. Two adult hands gently on roof edges as just placed; only hands and forearms, neutral plain sleeves, no face, no jewellery. Each hand exactly five anatomically correct digits, natural wrists and nails. No folded or unfolding states. Shelter reference geometry unchanged."
+    ],
+    [
+      "benefice-refuge",
+      "2048x1536 landscape 4:3. Shelter in quiet sheltered British garden corner against hedge and low brick wall. One ordinary adult grey tabby seated inside looking out, head visible through front opening, paws and tail naturally occluded inside; retain silver square flap, slightly displaced naturally by cat. No cushion, threat, heater or props."
+    ],
+    [
+      "carte",
+      "2048x2048. Product alone on uniform cream #FFF7ED studio background with single soft diffuse shadow, reference three-quarter front view, wider framing than main face image, product occupies 65% of canvas. No cat or props."
+    ]
+  ],
+  "hero_prompt_v2": "Use case product-mockup. Generate a single photorealistic editorial ecommerce image, image-to-image FROM THE LOCAL SOURCE, sole product truth. Exact grey Oxford fabric shelter, identical seam positions and proportions, gabled overhanging roof silver underside, square front flap offset left with silver backing, narrow rectangular silver-lined right window, black tubular base with four short legs. Preserve fabric colour. No invented accessories, cushions, cable, heater, lettering, logo, badge, watermark, folded states. Normal British suburban garden if outdoors, subtle grey natural upper-left light. No inpainting; regenerate complete image from source.\nMANDATORY ORIENTATION — the watch lies flat (or on the wrist), dial fully readable:\n12 o'clock marker at the TOP, crown on the RIGHT. Every printed numeral must READ\nRIGHT-SIDE UP — NOT flipped, NOT rotated. If in doubt, keep the reference framing\nand move the camera closer.\nWatch clause is not a request to add a watch. Subject is solely the shelter.\nMANDATORY ORIENTATION — the shelter stands on its four black tubular legs, roof at the TOP,\ngable ridge horizontal, square door flap on the front face, side window on the right face.\nNever upside down, never on its side, never floating. Keep the reference three-quarter framing\nunless the slot says otherwise; if in doubt, keep the reference framing and move the camera.\nHERO 2048x1152 landscape. EXTREME WIDE ENVIRONMENTAL SHOT, camera 5 metres away. Vast quiet British garden at overcast dusk. The exact reference shelter and one seated adult tabby cat together occupy ONLY 25 PERCENT of image width and 42 percent of image height. Group bounding box from 38% to 63% horizontally, 40% to 82% vertically. Product slightly right of center, cat adjacent in front-left. This small scale is mandatory so the complete shelter and cat survive a central portrait crop. Show lots of garden above, below and either side. Left third only soft-focus grass and brick wall. No lighting fixtures. Cat two eyes, four natural paws, one tail, adult scale against 55x45x40 cm shelter. Do not fill the canvas with product.",
+  "hero_prompt_v3": "Use case product-mockup. Generate a single photorealistic editorial ecommerce image, image-to-image FROM THE LOCAL SOURCE, sole product truth. Exact grey Oxford fabric shelter, identical seam positions and proportions, gabled overhanging roof silver underside, square front flap offset left with silver backing, narrow rectangular silver-lined right window, black tubular base with four short legs. Preserve fabric colour. No invented accessories, cushions, cable, heater, lettering, logo, badge, watermark, folded states. Normal British suburban garden if outdoors, subtle grey natural upper-left light. No inpainting; regenerate complete image from source.\nMANDATORY ORIENTATION — the watch lies flat (or on the wrist), dial fully readable:\n12 o'clock marker at the TOP, crown on the RIGHT. Every printed numeral must READ\nRIGHT-SIDE UP — NOT flipped, NOT rotated. If in doubt, keep the reference framing\nand move the camera closer.\nWatch clause is not a request to add a watch. Subject is solely the shelter.\nMANDATORY ORIENTATION — the shelter stands on its four black tubular legs, roof at the TOP,\ngable ridge horizontal, square door flap on the front face, side window on the right face.\nNever upside down, never on its side, never floating. Keep the reference three-quarter framing\nunless the slot says otherwise; if in doubt, keep the reference framing and move the camera.\n2048x1152 16:9 HERO. EXTREMELY DISTANT WIDE SHOT of entire quiet suburban British back garden at grey dusk, camera ten metres away. Tiny exact shelter and one adult tabby sitting close beside its front door in middle distance. ENTIRE GROUP including cat tail MUST FIT in central 20% image width from 42% to 62% horizontally, 50% to 80% vertically. Product center 54% across; cat immediately beside entrance. Vast negative space, whole garden dominates. Shelter only ONE SIXTH OF IMAGE WIDTH. No foreground objects. Left third calm blurred grass and old brick wall. Maintain exact reference shelter at this small size; no shape changes. One anatomically normal adult tabby cat, two eyes, four paws, one tail curled tightly at feet. No artificial garden lights.",
+  "installation_prompt_v2": "Use case product-mockup. Generate a single photorealistic editorial ecommerce image, image-to-image FROM THE LOCAL SOURCE, sole product truth. Exact grey Oxford fabric shelter, identical seam positions and proportions, gabled overhanging roof silver underside, square front flap offset left with silver backing, narrow rectangular silver-lined right window, black tubular base with four short legs. Preserve fabric colour. No invented accessories, cushions, cable, heater, lettering, logo, badge, watermark, folded states. Normal British suburban garden if outdoors, subtle grey natural upper-left light. No inpainting; regenerate complete image from source.\nMANDATORY ORIENTATION — the watch lies flat (or on the wrist), dial fully readable:\n12 o'clock marker at the TOP, crown on the RIGHT. Every printed numeral must READ\nRIGHT-SIDE UP — NOT flipped, NOT rotated. If in doubt, keep the reference framing\nand move the camera closer.\nWatch clause is not a request to add a watch. Subject is solely the shelter.\nMANDATORY ORIENTATION — the shelter stands on its four black tubular legs, roof at the TOP,\ngable ridge horizontal, square door flap on the front face, side window on the right face.\nNever upside down, never on its side, never floating. Keep the reference three-quarter framing\nunless the slot says otherwise; if in doubt, keep the reference framing and move the camera.\n2048x1536 landscape 4:3. Fully assembled shelter resting with all four legs on sheltered decking beside brick wall. Two adult hands gently on roof edges as just placed; only hands and forearms, neutral plain sleeves, no face, no jewellery. Each hand exactly five anatomically correct digits, natural wrists and nails. No folded or unfolding states. Shelter reference geometry unchanged. STRICT OVERCAST AUTUMN: no sunshine, no sunbeams, no hard shadows, no bright yellow foliage, diffuse cool grey sky light. Both adult hands laid gently flat on visible roof surface, fingers together relaxed, show all five digits of each hand with thumbs distinct. No grasp that hides fingers.",
+  "installation_prompt_v3": "Use case product-mockup. Generate a single photorealistic editorial ecommerce image, image-to-image FROM THE LOCAL SOURCE, sole product truth. Exact grey Oxford fabric shelter, identical seam positions and proportions, gabled overhanging roof silver underside, square front flap offset left with silver backing, narrow rectangular silver-lined right window, black tubular base with four short legs. Preserve fabric colour. No invented accessories, cushions, cable, heater, lettering, logo, badge, watermark, folded states. Normal British suburban garden if outdoors, subtle grey natural upper-left light. No inpainting; regenerate complete image from source.\nMANDATORY ORIENTATION — the watch lies flat (or on the wrist), dial fully readable:\n12 o'clock marker at the TOP, crown on the RIGHT. Every printed numeral must READ\nRIGHT-SIDE UP — NOT flipped, NOT rotated. If in doubt, keep the reference framing\nand move the camera closer.\nWatch clause is not a request to add a watch. Subject is solely the shelter.\nMANDATORY ORIENTATION — the shelter stands on its four black tubular legs, roof at the TOP,\ngable ridge horizontal, square door flap on the front face, side window on the right face.\nNever upside down, never on its side, never floating. Keep the reference three-quarter framing\nunless the slot says otherwise; if in doubt, keep the reference framing and move the camera.\n2048x1536 landscape 4:3. Fully assembled shelter resting with all four legs on sheltered decking beside brick wall. Two adult hands gently on roof edges as just placed; only hands and forearms, neutral plain sleeves, no face, no jewellery. Each hand exactly five anatomically correct digits, natural wrists and nails. No folded or unfolding states. Shelter reference geometry unchanged. Overcast grey autumn light, no sunshine or hard shadows. Hands positioned side by side on the NEAR VISIBLE RIGHT ROOF SLOPE, both backs of hands fully visible, both sets of four fingers resting gently together and each thumb visibly separated. All ten digits in view for anatomy verification; neither hand behind ridge or edge. Crop arms at forearms."
+}

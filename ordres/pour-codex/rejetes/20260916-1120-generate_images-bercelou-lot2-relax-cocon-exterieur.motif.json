@@ -1,0 +1,29 @@
+{
+  "id": "claude-20260916-1120-bercelou-lot2-relax-cocon-exterieur",
+  "status": "rejected",
+  "payload": {
+    "manifeste_realise": [],
+    "rejets": [],
+    "sujets_difficiles": [],
+    "motifs": [
+      {
+        "code": "IDENTIFIANT_PRODUIT_INTERDIT_DANS_MANIFESTE",
+        "motif": "Les 123 entrées de payload.manifest contiennent le champ `pid`, un identifiant produit numérique. Le document 15 §6 et §7.4 ainsi que le protocole 14 §9.2 imposent un manifeste indexé exclusivement sur handle + sku + slot et interdisent les identifiants de produit, variante ou média. Un ordre étant une donnée, cet écart ne peut pas suspendre la règle permanente. Rejet avant génération.",
+        "champ": "payload.manifest[*].pid",
+        "occurrences": 123,
+        "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §6 et §7.4 ; docs/codex-handoff/14-PROTOCOLE-ORDRES.md §9.2"
+      }
+    ],
+    "images_generees": 0,
+    "qa_livrables": "Sans objet : ordre rejeté avant génération ; aucune image générée ou livrée.",
+    "reprise_requise": "Transmettre un nouvel ordre dont chaque entrée de payload.manifest omet le champ `pid` et tout autre identifiant produit, variante ou média ; conserver uniquement handle, sku et slot comme identité durable, avec les autres champs descriptifs autorisés."
+  },
+  "journal": [
+    "Lecture intégrale du document 15 et lecture du protocole 14 §9.",
+    "Vérification de l’absence de résultat ou de rejet portant le même id.",
+    "Contrôle structurel des 123 entrées du manifeste : champ `pid` présent 123 fois.",
+    "Rejet avant génération ; aucun navigateur, aucune API distante et aucun accès boutique."
+  ],
+  "executed_at": "2026-09-16T14:54:01Z",
+  "executor": "codex-2026-09-16"
+}

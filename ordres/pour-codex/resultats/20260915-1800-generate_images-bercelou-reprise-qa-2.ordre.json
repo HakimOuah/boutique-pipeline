@@ -1,0 +1,96 @@
+{
+  "id": "claude-20260915-1800-bercelou-reprise-qa-2",
+  "type": "generate_images",
+  "created_at": "2026-09-15T16:00:00Z",
+  "requested_by": "claude-code",
+  "notes": "Bercelou, deuxième reprise après contrôle de visuels-reprise-qa-2026-09-15 : 3 rejets + 5 slots matière/détail devenus des doublons du slot face = 8 images. Aucun accès boutique.",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "collection-fauteuil-relax",
+        "sku": "BCL-786223",
+        "slot": "carte",
+        "fichier": "collection-fauteuil-relax-carte.jpg"
+      },
+      {
+        "handle": "guide-entretien-bouclette-velours-lin",
+        "sku": "BCL-587244",
+        "slot": "bandeau",
+        "fichier": "guide-entretien-bouclette-velours-lin-bandeau.jpg"
+      },
+      {
+        "handle": "housse-de-protection-rocking-chair",
+        "sku": "BCL-185058",
+        "slot": "face",
+        "fichier": "housse-de-protection-rocking-chair-face.jpg"
+      },
+      {
+        "handle": "fauteuil-relax-moderne",
+        "sku": "BCL-786223",
+        "slot": "matiere",
+        "fichier": "fauteuil-relax-moderne-matiere.jpg"
+      },
+      {
+        "handle": "fauteuil-relax-moderne",
+        "sku": "BCL-786223",
+        "slot": "detail",
+        "fichier": "fauteuil-relax-moderne-detail.jpg"
+      },
+      {
+        "handle": "fauteuil-relax-electrique",
+        "sku": "BCL-721103",
+        "slot": "detail",
+        "fichier": "fauteuil-relax-electrique-detail.jpg"
+      },
+      {
+        "handle": "fauteuil-relax-manuel",
+        "sku": "BCL-267746",
+        "slot": "detail",
+        "fichier": "fauteuil-relax-manuel-detail.jpg"
+      },
+      {
+        "handle": "rocking-chair-blanc-teddy",
+        "sku": "BCL-587244",
+        "slot": "detail",
+        "fichier": "rocking-chair-blanc-teddy-detail.jpg"
+      }
+    ],
+    "sources": [
+      "boutique-rocking-chair/assets/source/1005012454786223",
+      "boutique-rocking-chair/assets/source/1005012054721103",
+      "boutique-rocking-chair/assets/source/1005008598267746",
+      "boutique-rocking-chair/assets/source/1005012929587244",
+      "boutique-rocking-chair/assets/source/1005006353185058",
+      "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/fauteuil-a-bascule-allaitement-teddy-face.jpg",
+      "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/fauteuil-a-bascule-allaitement-teddy-nuit.jpg",
+      "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/fauteuil-a-bascule-allaitement-teddy-salon.jpg",
+      "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/fauteuil-allaitement-chambre-bebe-avec-repose-pieds-detail.jpg",
+      "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/fauteuil-a-bascule-scandinave-velours-cotele-matiere.jpg"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+      "surcharges": "boutique-rocking-chair/BRIEF-VISUELS-CODEX-2026-09-14.md §2 (« Veille douce », validée par Hakim le 14/09 et le 15/09 sur le lot test) + boutique-rocking-chair/BRIEF-VISUELS-CODEX-LOTS-2-5-2026-09-15.md §2 (scènes par famille, formats)."
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "Lire EN ENTIER boutique-rocking-chair/BRIEF-VISUELS-CODEX-2026-09-14.md puis boutique-rocking-chair/BRIEF-VISUELS-CODEX-LOTS-2-5-2026-09-15.md : même DA, mêmes scènes et formats que l'image d'origine du même slot.",
+        "Chaque image remplace la version de même nom (dans visuels-reprise-qa-2026-09-15/ si elle y existe, sinon dans son lot d'origine). Motif à corriger, par fichier : {\"collection-fauteuil-relax-carte.jpg\": \"REJET : des patins de bascule noirs ont été inventés ; le fauteuil relax moderne (…786223) repose sur quatre petits pieds noirs, sans bascule. Poche vide.\", \"guide-entretien-bouclette-velours-lin-bandeau.jpg\": \"REJET : composition en deux images juxtaposées avec une coupure visible, et bouclette encore en perles. Une seule image continue : gros plan réaliste de bouclette teddy (boucles souples et irrégulières, pas de billes), lumière chaude, espace calme à gauche pour un titre.\", \"housse-de-protection-rocking-chair-face.jpg\": \"REJET : housse ajustée en forme de fauteuil posée en intérieur, alors que le produit est une housse rectangulaire pour mobilier extérieur (vérité lot 5). Housse rectangulaire noire tombant sur un mobilier, sur une terrasse au soir, cordon de serrage visible, aucune personne, aucun texte.\", \"fauteuil-relax-moderne-matiere.jpg\": \"RÉSERVE : vue d'ensemble quasi identique au slot face. Slot matière = gros plan serré sur le tissu gris chiné de l'accoudoir ou du dossier, poche vide ou hors champ, aucune télécommande.\", \"fauteuil-relax-moderne-detail.jpg\": \"RÉSERVE : vue d'ensemble quasi identique au slot face. Slot détail = gros plan sur le repose-jambes déployé et le mécanisme, comme sur les sources, poche vide ou hors champ, aucune télécommande.\", \"fauteuil-relax-electrique-detail.jpg\": \"RÉSERVE : vue d'ensemble au lieu d'un détail. Gros plan sur le repose-jambes électrique déployé ou le coussin lombaire, aucune télécommande ni pictogramme.\", \"fauteuil-relax-manuel-detail.jpg\": \"RÉSERVE : quasi doublon du slot face. Gros plan sur l'accoudoir avec porte-gobelet et la poche latérale vide.\", \"rocking-chair-blanc-teddy-detail.jpg\": \"RÉSERVE : quasi doublon du slot face, et la poche d'accoudoir de la source n'apparaît pas. Gros plan de trois quarts sur l'accoudoir avec sa poche (vide) et le patin en bois clair, proportions de 01.jpg.\"}",
+        "Un slot matière ou détail doit être un GROS PLAN distinct de la vue d'ensemble : si le premier essai revient à une vue générale, le rejeter et recadrer.",
+        "Toutes les images de la reprise : slot face = produit seul, AUCUNE personne même lointaine ; poches vides (aucun livre, magazine, télécommande, étiquette) ; aucun tableau ou décor figuratif ; objets unis sans motif.",
+        "Relax : aucun élément médical ; positions inclinées ou repose-pieds sortis seulement si les sources les montrent."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Planche avant/après par fichier dans qa/controle-<handle>.jpg, avec 01.jpg et le slot face livré de la fiche pour montrer que détail et matière s'en distinguent.",
+        "Aucune composition en plusieurs panneaux ; aucune personne ; poches vides."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-rocking-chair/livraisons/visuels-reprise-qa-2-2026-09-15/",
+      "manifeste": "manifeste-realise.json"
+    }
+  }
+}

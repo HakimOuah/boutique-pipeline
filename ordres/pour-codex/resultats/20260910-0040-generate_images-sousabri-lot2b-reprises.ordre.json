@@ -1,0 +1,109 @@
+{
+ "type": "generate_images",
+ "requested_by": "claude-code",
+ "created_at": "2026-09-10T00:40:00Z",
+ "id": "claude-20260910-0040-sousabri-lot2b-reprises",
+ "notes": "Sous Abri, reprises : 7 slots du lot 2 et le visuel guide-comparatif du lot 3, rejetés par la QA Codex (plaques/emblèmes sur les voitures, ossature au mauvais nombre de montants, géométrie non sourcée). Mêmes sources, mêmes règles ; contraintes renforcées ci-dessous. Aucun accès boutique.",
+ "payload": {
+  "manifest": [
+   {
+    "handle": "carport-acier-thermolaque-4-5x3",
+    "sku": "SA-ACIER-450",
+    "slot": "ancrage",
+    "fichier": "carport-acier-thermolaque-4-5x3-ancrage.jpg"
+   },
+   {
+    "handle": "carport-camping-car-aluminium",
+    "sku": "SA-ALU-CC-6x38",
+    "slot": "situation",
+    "fichier": "carport-camping-car-aluminium-situation.jpg"
+   },
+   {
+    "handle": "tente-garage-4x6-portes-enroulables",
+    "sku": "SA-TG-4x6-PE",
+    "slot": "montage",
+    "fichier": "tente-garage-4x6-portes-enroulables-montage.jpg"
+   },
+   {
+    "handle": "tente-garage-4x6-fenetres",
+    "sku": "SA-TG-4x6-FEN",
+    "slot": "montage",
+    "fichier": "tente-garage-4x6-fenetres-montage.jpg"
+   },
+   {
+    "handle": "tente-garage-4x7-6-camping-car",
+    "sku": "SA-TG-4x76",
+    "slot": "situation",
+    "fichier": "tente-garage-4x7-6-camping-car-situation.jpg"
+   },
+   {
+    "handle": "tente-carport-fermee-2-cotes",
+    "sku": "SA-TG-FERM2",
+    "slot": "montage",
+    "fichier": "tente-carport-fermee-2-cotes-montage.jpg"
+   },
+   {
+    "handle": "tente-garage-4x6-double-porte-volet",
+    "sku": "SA-TG-4x6-VOL",
+    "slot": "montage",
+    "fichier": "tente-garage-4x6-double-porte-volet-montage.jpg"
+   },
+   {
+    "handle": "sousabri-guides",
+    "sku": "SA-SCENE",
+    "slot": "guide-comparatif",
+    "fichier": "sousabri-guide-comparatif.jpg"
+   }
+  ],
+  "sources": [
+   "boutique-carport/assets/source/1005012344715751/01.jpg",
+   "boutique-carport/assets/source/1005009961706626/01.jpg",
+   "boutique-carport/assets/source/1005011994406763/01.png",
+   "boutique-carport/assets/source/1005012736849383/01.jpg",
+   "boutique-carport/assets/source/1005010670791375/01.jpg",
+   "boutique-carport/assets/source/1005012384075437/01.jpg",
+   "boutique-carport/assets/source/1005012322112744/01.jpg",
+   "boutique-carport/assets/source/1005012904297579/01.jpg",
+   "boutique-carport/assets/source/1005012942086535/01.jpg",
+   "boutique-carport/assets/source/1005013014844719/01.jpg",
+   "boutique-carport/assets/source/index.json",
+   "boutique-carport/assets/source/1005012158685405/01.jpg",
+   "boutique-carport/assets/source/1005012143140387/01.png",
+   "boutique-carport/assets/source/1005012231765595/01.png"
+  ],
+  "da": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+   "surcharges": "boutique-carport/BRIEF-VISUELS-CODEX-2026-09-09.md §2 et §3 (face 2048×2048 fond sable #F4F1EA ; situation/detail/montage/ancrage 2048×1536 scènes de pavillon français ordinaire) — surcharges de DA au sens de la spec §3 ; DA proposée [À CONFIRMER par Hakim]"
+  },
+  "contraintes": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+   "specifiques": [
+    "Lire boutique-carport/BRIEF-VISUELS-CODEX-2026-09-09.md EN ENTIER (§1 vérité produit par source, §2 DA, §2 bis bloc d'orientation à inclurer dans chaque prompt, §3 formats, §4 QA).",
+    "Sources fabricant avec logos, téléphones, bandeaux : composer sans jamais les reproduire ; aucun texte, logo, plaque, badge, note ou étoile dans les images livrées.",
+    "Même nombre de poteaux, même forme de toit, même couleur de structure et de toile que la source ; les tentes montrées en tente de réception par le fournisseur sont remises en scène en garage (voiture ou utilitaire dessous).",
+    "Slots montage et ancrage : deux adultes ordinaires autorisés sur montage uniquement, sans visage en gros plan, sans logo ; ancrage = ce que la source permet (platine sur dalle, piquet, hauban), sans quincaillerie inventée.",
+    "Aucune promesse visuelle : pas de neige portée par une bâche, pas de grêle qui rebondit sur une toile.",
+    "Slots situation (carport-camping-car-aluminium, tente-garage-4x7-6-camping-car) : AUCUNE voiture ni camping-car ni véhicule dans le cadre ; l'abri est montré vide, ouvert, en situation (allée, jardin), la scène doit lire l'usage sans véhicule. Cela supprime la cause des rejets précédents (plaques et emblèmes).",
+    "Slots montage (4 tentes-garages) : montrer l'ossature COMPLÈTE de la source vue de trois quarts, sans bâche, avec exactement le même nombre de portiques et d'appuis que la source (compter sur la source avant de générer, écrire le compte dans la QA) ; les deux adultes tiennent une traverse haute, aucun véhicule, aucune fenêtre ni bâche posée ; si le compte ne peut pas être confirmé au zoom, rejeter et régénérer (3 essais maximum).",
+    "Slot ancrage carport-acier-thermolaque-4-5x3 : gros plan sur UN SEUL pied noir posé sur une dalle béton, platine plate boulonnée, aucun rail, aucune soudure, aucune jambe de force ni géométrie non visible sur la source, aucune voiture ; cadrage serré au sol.",
+    "Slot guide-comparatif : côte à côte dans un même jardin, à gauche un carport aluminium à toit cintré (source 1005009961706626), à droite une tente-garage blanche (source 1005012736849383), tous deux VIDES, aucun véhicule d'aucune sorte dans l'image ; lumière du matin ; ratio 16:9."
+   ]
+  },
+  "qa_attendue": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+   "specifiques": [
+    "Compter les poteaux et comparer à la source",
+    "Forme du toit et couleur identiques à la source",
+    "Une voiture entière tient sous l'abri sans toucher les poteaux",
+    "Aucune lettre, aucun chiffre, aucun logo",
+    "Météo présente mais crédible",
+    "Zoom sur toute zone susceptible de porter une plaque ou un emblème ; s'il y a un véhicule dans un slot où il est interdit, rejeter.",
+    "Compte des portiques et appuis écrit dans la QA de chaque slot montage."
+   ]
+  },
+  "sortie": {
+   "dossier": "boutique-carport/livraisons/visuels-lot2b-2026-09-10/",
+   "manifeste": "manifeste.json"
+  }
+ }
+}

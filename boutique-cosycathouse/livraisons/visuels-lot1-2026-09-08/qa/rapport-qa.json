@@ -1,0 +1,164 @@
+{
+  "status": "PASS",
+  "controle_visuel": "Chaque génération inspectée puis galerie comparée à la source; zooms chats et mains inspectés avant livraison.",
+  "source": "boutique-cosycathouse/assets/source/1005010759559289/sku-gris.jpg",
+  "source_sha256": "c2036fb9b9ca0aa6078daf768ba0fc844390b6fccec5a64c38ea5d3d4ea03b8e",
+  "source_dimensions": [
+    800,
+    800
+  ],
+  "planche": "qa/planche-controle.jpg",
+  "planche_dimensions": [
+    4320,
+    3400
+  ],
+  "vignettes": "810 px de hauteur; carrés 810×810, hero 1440×810, bénéfices 1080×810; source 800×800.",
+  "hero_mobile": {
+    "fichier": "qa/hero-central-9x16.jpg",
+    "crop": [
+      700,
+      0,
+      1348,
+      1152
+    ],
+    "resultat": "PASS: produit entier et chat entier conservés; sujet volontairement petit dans le hero paysage."
+  },
+  "mains": {
+    "fichier": "qa/mains-zoom.jpg",
+    "resultat": "PASS: cinq doigts visibles sur chacune des deux mains, ongles et poignets cohérents, sans visage ni bijoux."
+  },
+  "chats": {
+    "chat-entree": "Une tête, deux yeux, une queue; deux pattes avant et une patte arrière visibles, autre arrière occultée par posture assise. Aucun membre surnuméraire observé.",
+    "hero": "Une tête, deux yeux, une queue enroulée; deux pattes avant visibles, arrière masqué par posture assise. Détail limité par taille du sujet dans le plan large.",
+    "benefice-chaleur": "Une tête, deux yeux; corps, quatre pattes et queue masqués par abri, non dénombrables visuellement. Aucun membre inventé visible.",
+    "benefice-refuge": "Une tête, deux yeux; pattes et queue masquées dans abri. Oreille partiellement masquée par rabat. Aucun défaut visible."
+  },
+  "limites": [
+    "Images de synthèse depuis une référence fournisseur unique, pas des photographies de l’objet livré.",
+    "JPEG agrandis par Lanczos depuis sorties natives 1254×1254, 1672×941 ou 1448×1086; dimensions finales conformes, détail natif non équivalent à une photographie 2048 px.",
+    "La posture complète du chat intérieur est masquée par le produit; la source ne documente pas l’intérieur, aucun coussin ni accessoire ajouté."
+  ],
+  "fichiers": [
+    {
+      "slot": "face",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "sha256": "44a1099d2e86d45c9f5abcf7ecdd5da69864bbd3d4e803b256cc0e49cf2dc30e",
+      "fidelite_visible": "PASS",
+      "orientation": "PASS",
+      "texte_logo_parasite": "aucun observé"
+    },
+    {
+      "slot": "situation-jardin",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "sha256": "a15de6af8a678badd8652e8c4411db84ee8503433166835c8e4010ab7b19861a",
+      "fidelite_visible": "PASS",
+      "orientation": "PASS",
+      "texte_logo_parasite": "aucun observé"
+    },
+    {
+      "slot": "chat-entree",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "sha256": "ee3866cd80065aa5e5c4c94d6499810c61ad60c6fbf27d039dcfcca2adc44243",
+      "fidelite_visible": "PASS",
+      "orientation": "PASS",
+      "texte_logo_parasite": "aucun observé"
+    },
+    {
+      "slot": "macro-doublure",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "sha256": "09e23152e51b916510028b9e61c4142df712b594516ac5ab35c4d75e85c60e1e",
+      "fidelite_visible": "PASS",
+      "orientation": "PASS",
+      "texte_logo_parasite": "aucun observé"
+    },
+    {
+      "slot": "pieds-sureleves",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "sha256": "c56e4d56b519a9dc8f6105542179fcf7f3a87d91ed0d81e256721a5df2d5ecc3",
+      "fidelite_visible": "PASS",
+      "orientation": "PASS",
+      "texte_logo_parasite": "aucun observé"
+    },
+    {
+      "slot": "hero",
+      "dimensions": [
+        2048,
+        1152
+      ],
+      "sha256": "3564bd44556b37f8835b9f6a29e551a947becfae1074588c1d32217c93e59954",
+      "fidelite_visible": "PASS",
+      "orientation": "PASS",
+      "texte_logo_parasite": "aucun observé"
+    },
+    {
+      "slot": "benefice-chaleur",
+      "dimensions": [
+        2048,
+        1536
+      ],
+      "sha256": "9f1121bc246f91fbfcf0ac1010acaf1a83204fc9fbd6584955e37413c9e33150",
+      "fidelite_visible": "PASS",
+      "orientation": "PASS",
+      "texte_logo_parasite": "aucun observé"
+    },
+    {
+      "slot": "benefice-sec",
+      "dimensions": [
+        2048,
+        1536
+      ],
+      "sha256": "dc382bd3b19f7ff519fd9cc0100e4c68416e5d2d9106369ed41522f0a93fd7c5",
+      "fidelite_visible": "PASS",
+      "orientation": "PASS",
+      "texte_logo_parasite": "aucun observé"
+    },
+    {
+      "slot": "benefice-installation",
+      "dimensions": [
+        2048,
+        1536
+      ],
+      "sha256": "08ac7e639b6dc172c38947a8a830e6949b15242c5fe7eec94522ed13583b3f22",
+      "fidelite_visible": "PASS",
+      "orientation": "PASS",
+      "texte_logo_parasite": "aucun observé"
+    },
+    {
+      "slot": "benefice-refuge",
+      "dimensions": [
+        2048,
+        1536
+      ],
+      "sha256": "2e2dcb73f88fb00628a709c20819ea600b59577842ec56a7348a4222279647cc",
+      "fidelite_visible": "PASS",
+      "orientation": "PASS",
+      "texte_logo_parasite": "aucun observé"
+    },
+    {
+      "slot": "carte",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "sha256": "e1a8988e40ea6859060d6dd014b83f16c6338e2bca1791ea1d185c6d98de038d",
+      "fidelite_visible": "PASS",
+      "orientation": "PASS",
+      "texte_logo_parasite": "aucun observé"
+    }
+  ]
+}

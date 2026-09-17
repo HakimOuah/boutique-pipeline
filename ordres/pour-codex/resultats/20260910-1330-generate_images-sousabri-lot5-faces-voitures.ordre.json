@@ -1,0 +1,115 @@
+{
+ "type": "generate_images",
+ "requested_by": "claude-code",
+ "created_at": "2026-09-10T13:30:00Z",
+ "id": "claude-20260910-1330-sousabri-lot5-faces-voitures",
+ "notes": "Sous Abri, lot 5 : Hakim (10/09 midi) retient les visuels de la reprise « voitures » (vrais modèles, emblèmes conservés, plaques retirées) comme photos principales. Les 7 produits dont la face lot 4 ne contient pas de véhicule reçoivent une nouvelle face AVEC le véhicule attitré du produit, et un réalisme poussé : logique de scène (l'abri est là où une voiture arrive) et suppression du « slop IA ». Les fichiers portent les MÊMES noms que les faces lot 4 et les remplacent. Aucun accès boutique.",
+ "payload": {
+  "manifest": [
+   {
+    "handle": "carport-acier-thermolaque-4-5x3",
+    "sku": "SA-ACIER-450",
+    "slot": "face",
+    "fichier": "carport-acier-thermolaque-4-5x3-face.jpg",
+    "vehicule": "Peugeot 308 blanche, la même que sur la vue situation livrée le 10/09 (avant-reprise : voiture identique)",
+    "source_id": "1005012344715751"
+   },
+   {
+    "handle": "carport-aluminium-autoportant",
+    "sku": "SA-ALU-AUTO-6x6",
+    "slot": "face",
+    "fichier": "carport-aluminium-autoportant-face.jpg",
+    "vehicule": "Peugeot 308 blanche, la même que sur la vue situation du 10/09",
+    "source_id": "1005009961706626"
+   },
+   {
+    "handle": "carport-camping-car-aluminium",
+    "sku": "SA-ALU-CC-6x38",
+    "slot": "face",
+    "fichier": "carport-camping-car-aluminium-face.jpg",
+    "vehicule": "camping-car profilé blanc sans marque ni marquage, gabarit 6 m, garé dans l'axe",
+    "source_id": "1005011994406763"
+   },
+   {
+    "handle": "tente-garage-3x6-outsunny",
+    "sku": "SA-TG-3x6-OUT",
+    "slot": "face",
+    "fichier": "tente-garage-3x6-outsunny-face.jpg",
+    "vehicule": "Citroën C3 sable et toit noir, la même que sur la vue situation du 10/09",
+    "source_id": "1005012736849383"
+   },
+   {
+    "handle": "tente-garage-4x6-fenetres",
+    "sku": "SA-TG-4x6-FEN",
+    "slot": "face",
+    "fichier": "tente-garage-4x6-fenetres-face.jpg",
+    "vehicule": "Audi A4 Avant bleu nuit, la même que sur la vue situation du 10/09",
+    "source_id": "1005012384075437"
+   },
+   {
+    "handle": "tente-garage-4x7-6-camping-car",
+    "sku": "SA-TG-4x76",
+    "slot": "face",
+    "fichier": "tente-garage-4x7-6-camping-car-face.jpg",
+    "vehicule": "camping-car profilé blanc sans marque ni marquage, gabarit 7 m, ou grande caravane blanche",
+    "source_id": "1005012322112744"
+   },
+   {
+    "handle": "tente-garage-mobile-3x3",
+    "sku": "SA-TG-3x3",
+    "slot": "face",
+    "fichier": "tente-garage-mobile-3x3-face.jpg",
+    "vehicule": "Citroën C3 sable et toit noir (la citadine du parc imposé ; abri 3 × 3, la voiture dépasse légèrement à l'arrière si nécessaire, vérité produit avant tout)",
+    "source_id": "1005012942086535"
+   }
+  ],
+  "sources": [
+   "boutique-carport/assets/source/index.json",
+   "boutique-carport/assets/source/1005012344715751/01.jpg",
+   "boutique-carport/assets/source/1005009961706626/01.jpg",
+   "boutique-carport/assets/source/1005011994406763/01.png",
+   "boutique-carport/assets/source/1005012736849383/01.jpg",
+   "boutique-carport/assets/source/1005012384075437/01.jpg",
+   "boutique-carport/assets/source/1005012322112744/01.jpg",
+   "boutique-carport/assets/source/1005012942086535/01.jpg",
+   "boutique-carport/livraisons/visuels-lot2-2026-09-09/carport-acier-thermolaque-4-5x3-situation.jpg",
+   "boutique-carport/livraisons/visuels-lot2-2026-09-09/carport-aluminium-autoportant-situation.jpg",
+   "boutique-carport/livraisons/visuels-lot2-2026-09-09/tente-garage-3x6-outsunny-situation.jpg",
+   "boutique-carport/livraisons/visuels-lot2-2026-09-09/tente-garage-4x6-fenetres-situation.jpg",
+   "boutique-carport/livraisons/visuels-lot4-2026-09-10/"
+  ],
+  "da": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+   "surcharges": "boutique-carport/BRIEF-VISUELS-CODEX-2026-09-09.md §2, mis à jour le 10/09 midi : règles « Voitures » (parc imposé, emblèmes conservés, plaque absente), « Logique de scène obligatoire » et « Anti slop IA ». Face 2048×2048, photo de terrain, véhicule attitré sous l'abri."
+  },
+  "contraintes": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+   "specifiques": [
+    "Lire boutique-carport/BRIEF-VISUELS-CODEX-2026-09-09.md §1 (vérité produit par source), §2 (DA mise à jour 10/09 midi), §2 bis (bloc d'orientation), §4 (QA).",
+    "Véhicule : exactement le modèle indiqué dans le champ `vehicule` du manifeste, même modèle, même couleur et même finition que sur la vue situation du même produit livrée le 10/09 (fichiers listés dans `sources`) ; emblèmes et marquages du constructeur conservés ; AUCUNE plaque d'immatriculation, ni avant ni arrière, et aucun support de plaque vide (la reprise Audi du 10/09 a été rejetée pour cela). Pour les deux produits camping-car : camping-car profilé blanc sans aucune marque, ni logo, ni décor.",
+    "Vérité produit inchangée : même nombre de poteaux, de portiques, de fenêtres et de portes que la source fournisseur ; même forme de toit, mêmes couleurs de structure et de toile. Le véhicule tient sous l'abri sans toucher les poteaux (sauf tente 3 × 3 : la citadine peut dépasser légèrement à l'arrière, l'abri n'est pas agrandi pour autant).",
+    "Logique de scène (règle Hakim, exemple rejeté : la face lot 4 de la tente 4x6 fenêtres, dalle de béton isolée au milieu d'une pelouse, sans aucun accès pour une voiture) : l'abri est posé sur un sol porteur continu (gravier, enrobé, dalle, pavés) qui rejoint visiblement la rue ou le portail ; placé devant un garage, en bout d'allée, le long d'un pignon, sur une place de stationnement existante. Il doit être évident dans l'image par où la voiture est entrée. Aucun abri sur une pelouse, aucun abri collé à un potager, aucune dalle « posée » sans raccord au terrain.",
+    "Anti slop IA : lumière neutre ou grise acceptée (pas de lumière dorée à chaque image), ciel réel et souvent banal, végétation ordinaire et inégale, sol sale (feuilles, traces de pneus, gravier tassé, flaque), bâche avec des plis, tôle avec des reflets irréguliers, maison ordinaire avec ses défauts (gouttière, compteur, mur taché), premier plan légèrement encombré (poubelle, tuyau, vélo, pot) ; cadrage de trois quarts un peu décalé du centre ; profondeur de champ d'un 35–50 mm, grain léger, arrière-plan un peu moins net. Refuser : image « parfaite », symétrie, saturation, surfaces sans texture, rendu 3D.",
+    "Les 7 scènes sont différentes entre elles (maison, sol, heure, météo, saison) et différentes des vues situation déjà livrées du même produit (autre angle, autre heure ou autre côté de la maison), tout en gardant le même véhicule.",
+    "Aucun texte, aucun logo autre que ceux du véhicule, aucune plaque, aucun badge, note, étoile ou cote dans l'image. Personne dans le champ.",
+    "Test final avant livraison, à écrire dans la QA pour chaque image : 1) par où la voiture est entrée ; 2) trois imperfections visibles ; 3) nombre de poteaux/portiques compté et comparé à la source ; 4) zoom sur l'avant et l'arrière du véhicule : aucune plaque, aucun support."
+   ]
+  },
+  "qa_attendue": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+   "specifiques": [
+    "Modèle, couleur et finition du véhicule identiques à la vue situation du même produit (comparaison côte à côte dans la planche-contact)",
+    "Aucune plaque ni support de plaque, emblèmes conservés",
+    "Chemin d'accès visible et sol porteur continu jusqu'à l'abri ; aucun abri sur pelouse ni dalle isolée",
+    "Compter poteaux, portiques, fenêtres et portes ; comparer à la source",
+    "Au moins trois imperfections réelles listées par image ; aucune lumière dorée systématique ; aucune symétrie parfaite",
+    "Les 7 faces sont visiblement différentes entre elles et de leurs vues situation",
+    "Planche-contact des 7 faces avec, à côté de chacune, la vue situation du même produit"
+   ]
+  },
+  "sortie": {
+   "dossier": "boutique-carport/livraisons/visuels-lot5-2026-09-10/",
+   "manifeste": "manifeste.json"
+  }
+ }
+}

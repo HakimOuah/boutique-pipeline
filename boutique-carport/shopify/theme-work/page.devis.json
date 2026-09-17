@@ -1,0 +1,451 @@
+{
+ "sections": {
+  "sa_head": {
+   "type": "custom-section",
+   "blocks": {
+    "code": {
+     "type": "custom-code",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "custom_liquid": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"><link rel=\"stylesheet\" href=\"{{ 'sa-motion.css' | asset_url }}\">",
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    }
+   },
+   "block_order": [
+    "code"
+   ],
+   "name": "SA - head (CSS)",
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-1",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "column",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 10,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": true,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 0,
+    "padding_bottom": 0,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": "sa-head"
+   }
+  },
+  "hero": {
+   "type": "custom-section",
+   "blocks": {
+    "h1": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<h1>{{ closest.page.title }}</h1>",
+      "text_style": "h2",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Voir plus",
+      "read_less_text": "Voir moins",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 10,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "sub": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "{{ closest.page.metafields.custom.sous_titre }}",
+      "text_style": "paragraph",
+      "paragraph_font_size": "large",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Voir plus",
+      "read_less_text": "Voir moins",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "btn": {
+     "type": "group",
+     "name": "t:group",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "wrap_in_card": false,
+      "card_link": "",
+      "color_scheme": "",
+      "show_card_border": false,
+      "layout_type": "flex",
+      "width_desktop": 100,
+      "layout_direction_desktop": "column",
+      "layout_grid_columns_desktop": 3,
+      "layout_gap_desktop": 10,
+      "layout_wrap_desktop": "nowrap",
+      "layout_justify_desktop": "flex-start",
+      "layout_align_items_desktop": "flex-start",
+      "same_as_desktop": true,
+      "width_mobile": 100,
+      "layout_direction_mobile": "column",
+      "layout_grid_columns_mobile": 1,
+      "layout_gap_mobile": 10,
+      "layout_wrap_mobile": "nowrap",
+      "layout_justify_mobile": "flex-start",
+      "layout_align_items_mobile": "flex-start",
+      "use_global_container_padding": false,
+      "padding_horizontal": 0,
+      "padding_vertical": 0,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {
+      "b": {
+       "type": "button",
+       "settings": {
+        "show_on_display": "desktop_and_mobile",
+        "link": "#devis",
+        "open_in_new_tab": false,
+        "label": "Demander mon devis gratuit",
+        "button_style": "primary",
+        "button_shape": "default",
+        "icon": "none",
+        "icon_custom": "",
+        "icon_position": "end",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "additional_class": ""
+       },
+       "blocks": {}
+      }
+     },
+     "block_order": [
+      "b"
+     ]
+    }
+   },
+   "block_order": [
+    "h1",
+    "sub",
+    "btn"
+   ],
+   "name": "Hero devis",
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-3",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "column",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 10,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": true,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 50,
+    "padding_bottom": 40,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": ""
+   }
+  },
+  "formulaire": {
+   "type": "custom-section",
+   "blocks": {
+    "h2": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<h2>Demander mon devis gratuit</h2>",
+      "text_style": "h3",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Voir plus",
+      "read_less_text": "Voir moins",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 10,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "intro": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<p>Vous nous donnez les cotes, nous vous envoyons un prix ferme sous 48 h ouvrées, sans engagement.</p>",
+      "text_style": "paragraph",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Voir plus",
+      "read_less_text": "Voir moins",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "form": {
+     "type": "custom-code",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "custom_liquid": "<div class=\"sa-form\">{% form 'contact', id: 'FormDevisSousAbri' %}{% if form.posted_successfully? %}<p class=\"sa-form__ok\">Demande envoyée. Réponse sous 48 h ouvrées avec un prix ferme.</p>{% endif %}<input type=\"hidden\" name=\"contact[Page]\" value=\"{{ closest.page.title }}\"><div class=\"sa-form__row\"><div><label for=\"DevisLongueur\">Longueur souhaitée (m)</label><input type=\"text\" id=\"DevisLongueur\" name=\"contact[Longueur (m)]\" required></div><div><label for=\"DevisLargeur\">Largeur souhaitée (m)</label><input type=\"text\" id=\"DevisLargeur\" name=\"contact[Largeur (m)]\" required></div><div><label for=\"DevisHauteur\">Hauteur de passage souhaitée (m)</label><input type=\"text\" id=\"DevisHauteur\" name=\"contact[Hauteur de passage (m)]\"></div></div><div class=\"sa-form__row\"><div><label for=\"DevisVoitures\">Nombre de voitures</label><select id=\"DevisVoitures\" name=\"contact[Nombre de voitures]\"><option>1 voiture</option><option>2 voitures</option></select></div><div><label for=\"DevisConfig\">Configuration</label><select id=\"DevisConfig\" name=\"contact[Configuration]\"><option>Adossé (contre un mur)</option><option>Autoportant</option></select></div></div><div class=\"sa-form__row\"><div><label for=\"DevisToit\">Type de toit</label><select id=\"DevisToit\" name=\"contact[Type de toit]\"><option>Toit plat</option><option>Monopente</option><option>Cintré</option></select></div><div><label for=\"DevisToiture\">Toiture</label><select id=\"DevisToiture\" name=\"contact[Toiture]\"><option>Polycarbonate transparent</option><option>Polycarbonate teinté</option><option>Polycarbonate opaque</option></select></div></div><div class=\"sa-form__row\"><div><label for=\"DevisColoris\">Coloris de la structure</label><input type=\"text\" id=\"DevisColoris\" name=\"contact[Coloris]\" placeholder=\"Anthracite, blanc, autre\"></div><div><label for=\"DevisSol\">Nature du sol</label><select id=\"DevisSol\" name=\"contact[Nature du sol]\"><option>Terre</option><option>Dalle béton</option><option>Enrobé</option><option>Autre</option></select></div></div><div class=\"sa-form__row\"><div><label for=\"DevisCP\">Code postal</label><input type=\"text\" id=\"DevisCP\" name=\"contact[Code postal]\" required></div><div><label for=\"DevisEmail\">E-mail</label><input type=\"email\" id=\"DevisEmail\" name=\"contact[email]\" required></div></div><label for=\"DevisTel\">Téléphone</label><input type=\"tel\" id=\"DevisTel\" name=\"contact[Telephone]\"><label class=\"sa-form__checkbox\"><input type=\"checkbox\" name=\"contact[Demarches mairie confirmees]\" value=\"Oui, j'ai lu que ce carport nécessite en général une déclaration préalable en mairie\" required> J'ai lu que ce carport nécessite en général une déclaration préalable en mairie</label><button type=\"submit\" class=\"button\">Demander mon devis gratuit</button>{% endform %}</div>",
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "note": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<p><em>Réponse sous 48 h ouvrées avec un prix ferme, livraison en France métropolitaine (Corse comprise) incluse, et le rappel des démarches à faire en mairie pour vos dimensions. Aucun paiement à cette étape.</em></p>",
+      "text_style": "paragraph",
+      "paragraph_font_size": "small",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Voir plus",
+      "read_less_text": "Voir moins",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    }
+   },
+   "block_order": [
+    "h2",
+    "intro",
+    "form",
+    "note"
+   ],
+   "name": "Demander mon devis gratuit",
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-2",
+    "wrap_in_card": true,
+    "color_scheme_card": "scheme-1",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "column",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 12,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": true,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 40,
+    "padding_bottom": 40,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "devis",
+    "additional_class": ""
+   }
+  },
+  "corps": {
+   "type": "custom-section",
+   "blocks": {
+    "content": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "{{ closest.page.content }}",
+      "text_style": "auto",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Voir plus",
+      "read_less_text": "Voir moins",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    }
+   },
+   "block_order": [
+    "content"
+   ],
+   "name": "Corps de page",
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "column",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 10,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": true,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 40,
+    "padding_bottom": 30,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": ""
+   }
+  },
+  "faq": {
+   "type": "custom-section",
+   "blocks": {
+    "h2": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<h2>Questions fréquentes</h2>",
+      "text_style": "h3",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Voir plus",
+      "read_less_text": "Voir moins",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 6,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "acc": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "{{ closest.page.metafields.custom.faq }}",
+      "text_style": "auto",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Voir plus",
+      "read_less_text": "Voir moins",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    }
+   },
+   "block_order": [
+    "h2",
+    "acc"
+   ],
+   "name": "FAQ devis",
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-2",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "column",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 10,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": true,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 30,
+    "padding_bottom": 50,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "faq",
+    "additional_class": ""
+   }
+  }
+ },
+ "order": [
+  "sa_head",
+  "hero",
+  "formulaire",
+  "corps",
+  "faq"
+ ]
+}

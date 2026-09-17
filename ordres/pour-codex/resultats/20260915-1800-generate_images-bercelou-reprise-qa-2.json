@@ -1,0 +1,92 @@
+{
+  "id": "claude-20260915-1800-bercelou-reprise-qa-2",
+  "status": "done",
+  "completed_at": "2026-09-15T11:50:58Z",
+  "executor": "codex",
+  "payload": {
+    "dossier": "boutique-rocking-chair/livraisons/visuels-reprise-qa-2-2026-09-15/",
+    "manifeste": "boutique-rocking-chair/livraisons/visuels-reprise-qa-2-2026-09-15/manifeste-realise.json",
+    "manifeste_realise": [
+      {
+        "handle": "collection-fauteuil-relax",
+        "sku": "BCL-786223",
+        "slot": "carte",
+        "fichier": "collection-fauteuil-relax-carte.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "guide-entretien-bouclette-velours-lin",
+        "sku": "BCL-587244",
+        "slot": "bandeau",
+        "fichier": "guide-entretien-bouclette-velours-lin-bandeau.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 1
+      },
+      {
+        "handle": "housse-de-protection-rocking-chair",
+        "sku": "BCL-185058",
+        "slot": "face",
+        "fichier": "housse-de-protection-rocking-chair-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-moderne",
+        "sku": "BCL-786223",
+        "slot": "matiere",
+        "fichier": "fauteuil-relax-moderne-matiere.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-moderne",
+        "sku": "BCL-786223",
+        "slot": "detail",
+        "fichier": "fauteuil-relax-moderne-detail.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-electrique",
+        "sku": "BCL-721103",
+        "slot": "detail",
+        "fichier": "fauteuil-relax-electrique-detail.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "fauteuil-relax-manuel",
+        "sku": "BCL-267746",
+        "slot": "detail",
+        "fichier": "fauteuil-relax-manuel-detail.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "rocking-chair-blanc-teddy",
+        "sku": "BCL-587244",
+        "slot": "detail",
+        "fichier": "rocking-chair-blanc-teddy-detail.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/guide-entretien-bouclette-velours-lin-bandeau-tentative-1-composition-incrustee.png",
+        "motif": "Composition avec incrustation circulaire, contraire a l exigence d une photographie continue; tentative ecartee avant livraison."
+      }
+    ],
+    "sujets_difficiles": [],
+    "qa": {
+      "planches": 7,
+      "format": "qa/controle-<handle>.jpg",
+      "verite": "qa/verite-<handle>.md"
+    },
+    "notes": [
+      "8 images livrees; les slots matiere et detail sont des gros plans distincts de la vue de face.",
+      "Aucun acces a la boutique; ecriture limitee au dossier de livraison et a l enveloppe de resultat de classe A."
+    ]
+  }
+}

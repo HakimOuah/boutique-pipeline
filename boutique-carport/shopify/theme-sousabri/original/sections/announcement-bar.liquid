@@ -1,0 +1,175 @@
+{{ 'component-announcement.css' | asset_url | stylesheet_tag }}
+
+<div
+  class="utility-bar color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator and section.blocks.size > 0 %} utility-bar--bottom-border{% endif %}"
+  {{ block.shopify_attributes }}
+>
+  {% if section.settings.marquee and section.blocks.size > 0 %}
+    {% assign marquee_speed = section.settings.marquee_speed | default: 25 %}
+    <div class="marquee">
+      <ul class="marquee__content" style="animation-duration: {{ marquee_speed }}s;">
+        {% comment %} Iterate over the block to make sure it feels all the space {% endcomment %}
+        {% for i in (1..5) %}
+          {% for block in section.blocks %}
+            {%- if block.settings.text != blank -%}
+              <li {{ block.shopify_attributes }}>{{ block.settings.text }}</li>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      </ul>
+
+      {% comment %} Mirrors the content to create an infinite loop effect {% endcomment %}
+      <ul class="marquee__content" aria-hidden="true" style="animation-duration: {{ marquee_speed }}s;">
+        {% for i in (1..5) %}
+          {% for block in section.blocks %}
+            {%- if block.settings.text != blank -%}
+              <li {{ block.shopify_attributes }}>{{ block.settings.text }}</li>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      </ul>
+    </div>
+
+  {% else %}
+      <slider-element
+        class="announcement-bar__slider"
+        data-slide-per-view-desktop="1"
+        data-slide-per-view-mobile="1"
+        data-enabled-desktop="true"
+        data-enabled-mobile="true"
+        {% if section.settings.auto_rotate %}
+          data-auto-rotate="{{ section.settings.change_slides_speed | times: 1000 }}"
+        {% endif %}
+      >
+        <div class="page-width">
+          <div class="keen-slider">
+            {%- for block in section.blocks -%}
+              <div class="keen-slider__slide announcement-bar__slide" {{ block.shopify_attributes }} id="slide--{{ block.id }}">
+                <a href="{{ block.settings.link }}">
+                  {{ block.settings.text }}
+                </a>
+              </div>
+            {%- endfor -%}
+            <div class="slider__navigation">
+              <div class="page-width slider__navigation--inner" data-navigation-icon="{{ section.settings.icon }}">
+              </div>
+            </div>
+          </div>
+        </div>
+      </slider-element>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.announcement-bar.name",
+  "max_blocks": 12,
+  "class": "announcement-bar-section",
+  "enabled_on": {
+    "groups": ["header"]
+  },
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:sections.announcement-bar.settings.header_slider_behavior.content"
+    },
+    {
+      "type": "select",
+      "id": "icon",
+      "label": "t:sections.announcement-bar.settings.icon.label",
+      "default": "arrow",
+      "options": [
+        {
+          "value": "arrow",
+          "label": "t:sections.announcement-bar.settings.icon.options.arrow.label"
+        },
+        {
+          "value": "caret",
+          "label": "t:sections.announcement-bar.settings.icon.options.caret.label"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "auto_rotate",
+      "label": "t:sections.announcement-bar.settings.auto_rotate.label",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "change_slides_speed",
+      "min": 5,
+      "max": 10,
+      "step": 1,
+      "unit": "s",
+      "label": "t:sections.announcement-bar.settings.change_slides_speed.label",
+      "default": 5
+    },
+    {
+      "type": "checkbox",
+      "id": "marquee",
+      "label": "t:sections.announcement-bar.settings.marquee.label",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "marquee_speed",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "s",
+      "label": "t:sections.announcement-bar.settings.marquee_speed.label",
+      "default": 25,
+      "info": "t:sections.announcement-bar.settings.marquee_speed.info"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.announcement-bar.settings.header_section_style.content"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_line_separator",
+      "default": true,
+      "label": "t:sections.header.settings.show_line_separator.label"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "accent-1"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "announcement",
+      "name": "t:sections.announcement-bar.blocks.announcement.name",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": {
+            "en": "<p><strong>Free delivery</strong> from $70.</p>",
+            "fr": "<p><strong>Livraison offerte</strong> dès 70€ d'achat.</p>"
+          },
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.link.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.announcement-bar.presets.name",
+      "blocks": [
+        {
+          "type": "announcement"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

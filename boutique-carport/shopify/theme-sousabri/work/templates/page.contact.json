@@ -1,0 +1,93 @@
+{
+  "sections": {
+    "intro": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact",
+            "heading_size": "h0",
+            "hn": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Une question sur un modèle, une déclaration en mairie, une livraison en cours ou une pièce manquante : écrivez-nous ou appelez-nous. Réponse sous 1 jour ouvré, du lundi au vendredi.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "border_top": false,
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "narrow_text": true,
+        "display_as_card": false,
+        "color_scheme": "background-1",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "formulaire": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "hn": "h2",
+        "display_as_card": true,
+        "color_scheme": "background-2",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "autres-contacts": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nos coordonnées",
+            "heading_size": "h2",
+            "hn": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>E-mail</strong> : <a href=\"mailto:contact@sousabri.fr\">contact@sousabri.fr</a><br><strong>Téléphone</strong> : +33 7 56 82 80 94<br><strong>Adresse postale</strong> : OH Ventures (SASU), 47 rue Vivienne, 75002 Paris, France</p><p>Notre équipe vous accompagne du lundi au vendredi, entre 9h00 et 18h00. Si vous nous contactez après 18h, votre demande sera prise en charge le jour suivant. Nous faisons le maximum pour vous répondre sous 24 heures.</p><p>Liens utiles : <a href=\"/policies/shipping-policy\">politique de livraison</a> · <a href=\"/policies/refund-policy\">retours et remboursements</a> · <a href=\"/policies/privacy-policy\">confidentialité</a> · <a href=\"/policies/terms-of-service\">conditions générales</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "border_top": true,
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "narrow_text": true,
+        "display_as_card": false,
+        "color_scheme": "background-1",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "intro",
+    "autres-contacts",
+    "formulaire"
+  ]
+}

@@ -1,0 +1,264 @@
+{
+ "sections": {
+  "intro": {
+   "type": "custom-section",
+   "blocks": {
+    "title": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<h1>{{ closest.page.title }}</h1>",
+      "text_style": "h2",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Voir plus",
+      "read_less_text": "Voir moins",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 10,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "content": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "{{ closest.page.content }}",
+      "text_style": "auto",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Voir plus",
+      "read_less_text": "Voir moins",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    }
+   },
+   "block_order": [
+    "title",
+    "content"
+   ],
+   "name": "Intro contact",
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "column",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 10,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": true,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 50,
+    "padding_bottom": 20,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": ""
+   }
+  },
+  "formulaire": {
+   "type": "custom-section",
+   "blocks": {
+    "form": {
+     "type": "custom-code",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "custom_liquid": "<div class=\"sa-form\">{% form 'contact', id: 'ContactFormSousAbri' %}{% if form.posted_successfully? %}<p class=\"sa-form__ok\">Message envoyé. Nous répondons sous 1 jour ouvré, du lundi au vendredi.</p>{% endif %}<label for=\"ContactFormName\">Nom</label><input type=\"text\" id=\"ContactFormName\" name=\"contact[Nom]\" required><label for=\"ContactFormEmail\">E-mail</label><input type=\"email\" id=\"ContactFormEmail\" name=\"contact[email]\" value=\"{% if customer %}{{ customer.email }}{% endif %}\" required><label for=\"ContactFormOrder\">Numéro de commande (si applicable)</label><input type=\"text\" id=\"ContactFormOrder\" name=\"contact[Numero de commande]\"><label for=\"ContactFormSubject\">Sujet</label><select id=\"ContactFormSubject\" name=\"contact[Sujet]\"><option>Avant achat</option><option>Suivi de livraison</option><option>Pièce manquante ou cassée</option><option>Retour / rétractation</option><option>Autre</option></select><label for=\"ContactFormMessage\">Message</label><textarea id=\"ContactFormMessage\" name=\"contact[body]\" rows=\"6\" required></textarea><button type=\"submit\" class=\"button\">Poser ma question</button>{% endform %}</div>",
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "note": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<p><em>Pièces jointes (photos) : [À VÉRIFIER : le thème gère-t-il l'upload de fichiers sur le formulaire de contact natif Shopify] — à défaut, indiquer dans le message qu'une photo peut être envoyée par retour d'e-mail.</em></p>",
+      "text_style": "paragraph",
+      "paragraph_font_size": "small",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Voir plus",
+      "read_less_text": "Voir moins",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    }
+   },
+   "block_order": [
+    "form",
+    "note"
+   ],
+   "name": "Formulaire de contact",
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-2",
+    "wrap_in_card": true,
+    "color_scheme_card": "scheme-1",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "column",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 10,
+    "layout_wrap_desktop": "nowrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": true,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 10,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 20,
+    "padding_bottom": 40,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": ""
+   }
+  },
+  "infos": {
+   "type": "custom-section",
+   "blocks": {
+    "prep": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<h3>Ce qu'il est utile de préparer avant de nous écrire</h3><ul><li>Votre <strong>numéro de commande</strong>, si vous avez déjà commandé.</li><li>Des <strong>photos</strong> si vous signalez une pièce manquante, cassée, ou un défaut à la livraison (à joindre dans les 48 heures suivant la réception).</li><li>Les <strong>dimensions de votre allée ou de votre emplacement</strong> si votre question porte sur le choix d'un modèle.</li><li>Le <strong>nom exact de la fiche produit</strong> qui vous intéresse ou concerne votre commande.</li></ul>",
+      "text_style": "auto",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Voir plus",
+      "read_less_text": "Voir moins",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "autres": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<h3>Autres façons de nous joindre</h3><p>E-mail : info@ohventures.fr<br>Téléphone : +33 7 56 82 80 94<br>Adresse postale : OH Ventures (SASU), 47 rue Vivienne, 75002 Paris</p>",
+      "text_style": "auto",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Voir plus",
+      "read_less_text": "Voir moins",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    },
+    "reassurance": {
+     "type": "text",
+     "settings": {
+      "show_on_display": "desktop_and_mobile",
+      "text": "<h3>Réassurance</h3><ul><li>Réponse sous 1 jour ouvré, du lundi au vendredi</li><li>Pièce manquante ou cassée signalée sous 48 h avec photos : renvoi à nos frais</li><li>SIREN 103 157 251 · TVA FR55103157251 · Directeur de la publication : Hakim Ouahabi</li></ul>",
+      "text_style": "auto",
+      "paragraph_font_size": "normal",
+      "font_weight": 400,
+      "alignment": "left",
+      "alignment_mobile": "left",
+      "show_read_more": false,
+      "read_more_length": 50,
+      "read_more_text": "Voir plus",
+      "read_less_text": "Voir moins",
+      "truncate": false,
+      "truncate_length": 2,
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "additional_class": ""
+     },
+     "blocks": {}
+    }
+   },
+   "block_order": [
+    "prep",
+    "autres",
+    "reassurance"
+   ],
+   "name": "Infos complementaires",
+   "settings": {
+    "show_on_display": "desktop_and_mobile",
+    "color_scheme": "scheme-1",
+    "wrap_in_card": false,
+    "color_scheme_card": "",
+    "section_width": "normal",
+    "layout_type": "flex",
+    "layout_flex_direction_desktop": "row",
+    "layout_grid_columns_desktop": 3,
+    "layout_gap_desktop": 30,
+    "layout_wrap_desktop": "wrap",
+    "layout_flex_justify_desktop": "flex-start",
+    "layout_flex_align_items_desktop": "flex-start",
+    "same_as_desktop": false,
+    "layout_flex_direction_mobile": "column",
+    "layout_gap_mobile": 20,
+    "layout_wrap_mobile": "nowrap",
+    "layout_flex_justify_mobile": "flex-start",
+    "layout_flex_align_items_mobile": "flex-start",
+    "layout_grid_columns_mobile": 1,
+    "padding_top": 20,
+    "padding_bottom": 50,
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "anchor_id": "",
+    "additional_class": ""
+   }
+  }
+ },
+ "order": [
+  "intro",
+  "formulaire",
+  "infos"
+ ]
+}

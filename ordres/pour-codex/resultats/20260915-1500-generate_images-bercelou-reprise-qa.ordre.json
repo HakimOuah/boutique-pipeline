@@ -1,0 +1,279 @@
+{
+  "id": "claude-20260915-1500-bercelou-reprise-qa",
+  "type": "generate_images",
+  "created_at": "2026-09-15T13:00:00Z",
+  "requested_by": "claude-code",
+  "notes": "Bercelou, reprise après contrôle qualité des lots 2 à 5 : 31 images à regénérer + 5 images de la fiche renommée chaise-a-bascule-allaitement-bouclette = 36 images. Aucun accès boutique.",
+  "payload": {
+    "manifest": [
+      {
+        "handle": "rocking-chair-vintage-velours",
+        "sku": "BCL-576965",
+        "slot": "face",
+        "fichier": "rocking-chair-vintage-velours-face.jpg"
+      },
+      {
+        "handle": "rocking-chair-vintage-velours",
+        "sku": "BCL-576965",
+        "slot": "nuit",
+        "fichier": "rocking-chair-vintage-velours-nuit.jpg"
+      },
+      {
+        "handle": "rocking-chair-vintage-velours",
+        "sku": "BCL-576965",
+        "slot": "salon",
+        "fichier": "rocking-chair-vintage-velours-salon.jpg"
+      },
+      {
+        "handle": "fauteuil-rocking-chair-teddy-dossier-haut",
+        "sku": "BCL-082802",
+        "slot": "face",
+        "fichier": "fauteuil-rocking-chair-teddy-dossier-haut-face.jpg"
+      },
+      {
+        "handle": "fauteuil-cocon-suspendu",
+        "sku": "BCL-732576",
+        "slot": "face",
+        "fichier": "fauteuil-cocon-suspendu-face.jpg"
+      },
+      {
+        "handle": "rocking-chair-blanc-teddy",
+        "sku": "BCL-587244",
+        "slot": "face",
+        "fichier": "rocking-chair-blanc-teddy-face.jpg"
+      },
+      {
+        "handle": "rocking-chair-blanc-teddy",
+        "sku": "BCL-587244",
+        "slot": "detail",
+        "fichier": "rocking-chair-blanc-teddy-detail.jpg"
+      },
+      {
+        "handle": "chaise-a-bascule-exterieur-coussin-impermeable",
+        "sku": "BCL-302710",
+        "slot": "detail",
+        "fichier": "chaise-a-bascule-exterieur-coussin-impermeable-detail.jpg"
+      },
+      {
+        "handle": "fauteuil-cocon-exterieur",
+        "sku": "BCL-290288",
+        "slot": "soir",
+        "fichier": "fauteuil-cocon-exterieur-soir.jpg"
+      },
+      {
+        "handle": "fauteuil-relax-electrique",
+        "sku": "BCL-721103",
+        "slot": "detail",
+        "fichier": "fauteuil-relax-electrique-detail.jpg"
+      },
+      {
+        "handle": "fauteuil-relax-electrique",
+        "sku": "BCL-721103",
+        "slot": "salon",
+        "fichier": "fauteuil-relax-electrique-salon.jpg"
+      },
+      {
+        "handle": "fauteuil-relax-moderne",
+        "sku": "BCL-786223",
+        "slot": "matiere",
+        "fichier": "fauteuil-relax-moderne-matiere.jpg"
+      },
+      {
+        "handle": "fauteuil-relax-moderne",
+        "sku": "BCL-786223",
+        "slot": "detail",
+        "fichier": "fauteuil-relax-moderne-detail.jpg"
+      },
+      {
+        "handle": "fauteuil-relax-manuel",
+        "sku": "BCL-267746",
+        "slot": "face",
+        "fichier": "fauteuil-relax-manuel-face.jpg"
+      },
+      {
+        "handle": "fauteuil-relax-manuel",
+        "sku": "BCL-267746",
+        "slot": "reglages",
+        "fichier": "fauteuil-relax-manuel-reglages.jpg"
+      },
+      {
+        "handle": "fauteuil-relax-manuel",
+        "sku": "BCL-267746",
+        "slot": "detail",
+        "fichier": "fauteuil-relax-manuel-detail.jpg"
+      },
+      {
+        "handle": "fauteuil-relax-manuel",
+        "sku": "BCL-267746",
+        "slot": "salon",
+        "fichier": "fauteuil-relax-manuel-salon.jpg"
+      },
+      {
+        "handle": "rocking-chair-bebe",
+        "sku": "BCL-364227",
+        "slot": "face",
+        "fichier": "rocking-chair-bebe-face.jpg"
+      },
+      {
+        "handle": "rocking-chair-bebe",
+        "sku": "BCL-364227",
+        "slot": "detail",
+        "fichier": "rocking-chair-bebe-detail.jpg"
+      },
+      {
+        "handle": "housse-de-protection-rocking-chair",
+        "sku": "BCL-185058",
+        "slot": "face",
+        "fichier": "housse-de-protection-rocking-chair-face.jpg"
+      },
+      {
+        "handle": "plaid-pour-fauteuil",
+        "sku": "BCL-793372",
+        "slot": "face",
+        "fichier": "plaid-pour-fauteuil-face.jpg"
+      },
+      {
+        "handle": "plaid-pour-fauteuil",
+        "sku": "BCL-793372",
+        "slot": "situation",
+        "fichier": "plaid-pour-fauteuil-situation.jpg"
+      },
+      {
+        "handle": "repose-pieds-assorti",
+        "sku": "BCL-322385",
+        "slot": "face",
+        "fichier": "repose-pieds-assorti-face.jpg"
+      },
+      {
+        "handle": "collection-fauteuil-a-bascule",
+        "sku": "BCL-082802",
+        "slot": "carte",
+        "fichier": "collection-fauteuil-a-bascule-carte.jpg"
+      },
+      {
+        "handle": "accueil-berceau-coin-lecture",
+        "sku": "BCL-082802",
+        "slot": "bandeau",
+        "fichier": "accueil-berceau-coin-lecture-bandeau.jpg"
+      },
+      {
+        "handle": "collection-accessoires-rocking-chair",
+        "sku": "BCL-793372",
+        "slot": "carte",
+        "fichier": "collection-accessoires-rocking-chair-carte.jpg"
+      },
+      {
+        "handle": "collection-chaise-a-bascule",
+        "sku": "BCL-245255",
+        "slot": "carte",
+        "fichier": "collection-chaise-a-bascule-carte.jpg"
+      },
+      {
+        "handle": "collection-rocking-chair-design-scandinave",
+        "sku": "BCL-587244",
+        "slot": "carte",
+        "fichier": "collection-rocking-chair-design-scandinave-carte.jpg"
+      },
+      {
+        "handle": "collection-fauteuil-relax",
+        "sku": "BCL-786223",
+        "slot": "carte",
+        "fichier": "collection-fauteuil-relax-carte.jpg"
+      },
+      {
+        "handle": "accueil-moment-tetees-nuit",
+        "sku": "BCL-578018",
+        "slot": "carte",
+        "fichier": "accueil-moment-tetees-nuit-carte.jpg"
+      },
+      {
+        "handle": "guide-entretien-bouclette-velours-lin",
+        "sku": "BCL-587244",
+        "slot": "bandeau",
+        "fichier": "guide-entretien-bouclette-velours-lin-bandeau.jpg"
+      },
+      {
+        "handle": "chaise-a-bascule-allaitement-bouclette",
+        "sku": "BCL-645873",
+        "slot": "face",
+        "fichier": "chaise-a-bascule-allaitement-bouclette-face.jpg"
+      },
+      {
+        "handle": "chaise-a-bascule-allaitement-bouclette",
+        "sku": "BCL-645873",
+        "slot": "nuit",
+        "fichier": "chaise-a-bascule-allaitement-bouclette-nuit.jpg"
+      },
+      {
+        "handle": "chaise-a-bascule-allaitement-bouclette",
+        "sku": "BCL-645873",
+        "slot": "salon",
+        "fichier": "chaise-a-bascule-allaitement-bouclette-salon.jpg"
+      },
+      {
+        "handle": "chaise-a-bascule-allaitement-bouclette",
+        "sku": "BCL-645873",
+        "slot": "matiere",
+        "fichier": "chaise-a-bascule-allaitement-bouclette-matiere.jpg"
+      },
+      {
+        "handle": "chaise-a-bascule-allaitement-bouclette",
+        "sku": "BCL-645873",
+        "slot": "detail",
+        "fichier": "chaise-a-bascule-allaitement-bouclette-detail.jpg"
+      }
+    ],
+    "sources": [
+      "boutique-rocking-chair/assets/source/1005011653752895",
+      "boutique-rocking-chair/assets/source/1005006353185058",
+      "boutique-rocking-chair/assets/source/1005007185322385",
+      "boutique-rocking-chair/assets/source/1005008598267746",
+      "boutique-rocking-chair/assets/source/1005008932793372",
+      "boutique-rocking-chair/assets/source/1005010201578018",
+      "boutique-rocking-chair/assets/source/1005010263245255",
+      "boutique-rocking-chair/assets/source/1005010686364227",
+      "boutique-rocking-chair/assets/source/1005011838576965",
+      "boutique-rocking-chair/assets/source/1005012054721103",
+      "boutique-rocking-chair/assets/source/1005012269732576",
+      "boutique-rocking-chair/assets/source/1005012454786223",
+      "boutique-rocking-chair/assets/source/1005012626302710",
+      "boutique-rocking-chair/assets/source/1005012886082802",
+      "boutique-rocking-chair/assets/source/1005012929587244",
+      "boutique-rocking-chair/assets/source/1005013011290288",
+      "boutique-rocking-chair/assets/source/1005013103645873",
+      "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/fauteuil-a-bascule-allaitement-teddy-face.jpg",
+      "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/fauteuil-a-bascule-allaitement-teddy-nuit.jpg",
+      "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/fauteuil-a-bascule-allaitement-teddy-salon.jpg",
+      "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/fauteuil-allaitement-chambre-bebe-avec-repose-pieds-detail.jpg",
+      "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/fauteuil-a-bascule-scandinave-velours-cotele-matiere.jpg"
+    ],
+    "da": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+      "surcharges": "boutique-rocking-chair/BRIEF-VISUELS-CODEX-2026-09-14.md §2 (« Veille douce », validée par Hakim le 14/09 et le 15/09 sur le lot test) + boutique-rocking-chair/BRIEF-VISUELS-CODEX-LOTS-2-5-2026-09-15.md §2 (scènes par famille, formats)."
+    },
+    "contraintes": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+      "specifiques": [
+        "Lire EN ENTIER boutique-rocking-chair/BRIEF-VISUELS-CODEX-2026-09-14.md puis boutique-rocking-chair/BRIEF-VISUELS-CODEX-LOTS-2-5-2026-09-15.md : même DA, mêmes scènes et formats que l'image d'origine du même slot.",
+        "Chaque image de ce manifeste remplace l'image de même nom dans son lot d'origine. Motif du rejet à corriger, par fichier : {\"rocking-chair-vintage-velours-face.jpg\": \"REJET : femme et bébé en arrière-plan ; face = produit seul, aucune personne.\", \"rocking-chair-vintage-velours-nuit.jpg\": \"REJET : étiquette à pictogramme copiée sur le patin gauche ; aucune étiquette.\", \"rocking-chair-vintage-velours-salon.jpg\": \"RÉSERVE : poche latérale absente (visible sur les sources 03 à 06) ; la montrer.\", \"fauteuil-rocking-chair-teddy-dossier-haut-face.jpg\": \"RÉSERVE : poche de l'accoudoir droit absente (sources 02 à 04) ; la montrer.\", \"fauteuil-cocon-suspendu-face.jpg\": \"REJET : femme au balcon ; aucune personne. Pied en croix à QUATRE branches (pas cinq).\", \"rocking-chair-blanc-teddy-face.jpg\": \"REJET : femme en arrière-plan ; aucune personne.\", \"rocking-chair-blanc-teddy-detail.jpg\": \"REJET : perspective impossible, assise trop longue devant l'accoudoir ; proportions de 01.jpg.\", \"chaise-a-bascule-exterieur-coussin-impermeable-detail.jpg\": \"RÉSERVE : petit oreiller gris du produit remplacé par un coussin tricoté beige ; garder l'oreiller gris, aucun coussin ajouté.\", \"fauteuil-cocon-exterieur-soir.jpg\": \"RÉSERVE : oreiller gris remplacé par un coussin tricoté beige ; garder l'oreiller gris, aucun coussin ajouté.\", \"fauteuil-relax-electrique-detail.jpg\": \"REJET : télécommande à pictogrammes en gros plan ; télécommande hors champ ou rangée, aucune touche lisible.\", \"fauteuil-relax-electrique-salon.jpg\": \"REJET : télécommande à pictogrammes lisible ; télécommande hors champ.\", \"fauteuil-relax-moderne-matiere.jpg\": \"REJET : deux télécommandes à touches en gros plan ; poche vide.\", \"fauteuil-relax-moderne-detail.jpg\": \"REJET : télécommandes, câble et livre illustré dans la poche ; poche vide.\", \"fauteuil-relax-manuel-face.jpg\": \"REJET : livre à faux texte et télécommande colorée dans la poche ; poche vide.\", \"fauteuil-relax-manuel-reglages.jpg\": \"REJET : même livre et télécommande ; poche vide.\", \"fauteuil-relax-manuel-detail.jpg\": \"REJET : même livre et télécommande ; poche vide.\", \"fauteuil-relax-manuel-salon.jpg\": \"RÉSERVE : livre et télécommande dans la poche ; poche vide.\", \"rocking-chair-bebe-face.jpg\": \"REJET : femme en arrière-plan et tableau mural à faon ; aucune personne, aucun tableau figuratif, aucun enfant.\", \"rocking-chair-bebe-detail.jpg\": \"RÉSERVE : quasi doublon de face ; montrer la bascule (patins) ou la conversion 2 en 1 si les sources la montrent, sans enfant.\", \"housse-de-protection-rocking-chair-face.jpg\": \"REJET : femme en arrière-plan ; aucune personne.\", \"plaid-pour-fauteuil-face.jpg\": \"REJET : femme debout en arrière-plan ; aucune personne.\", \"plaid-pour-fauteuil-situation.jpg\": \"RÉSERVE : tasse à motif feuillage ; objets unis uniquement.\", \"repose-pieds-assorti-face.jpg\": \"REJET : personne assise en arrière-plan ; aucune personne.\", \"collection-fauteuil-a-bascule-carte.jpg\": \"REJET : mannequin de la photo fournisseur reprise (visage de face) ; fauteuil seul en scène, aucune personne.\", \"accueil-berceau-coin-lecture-bandeau.jpg\": \"REJET : mannequin fournisseur reprise, main sur le ventre ; aucune personne, salon du soir avec le fauteuil et un coin lecture.\", \"collection-accessoires-rocking-chair-carte.jpg\": \"RÉSERVE : pouf en bouclette crème au lieu du repose-pieds gris chiné vendu, personne et tasse à motif ; montrer plaid, coussin et repose-pieds conformes à leurs sources, aucune personne.\", \"collection-chaise-a-bascule-carte.jpg\": \"RÉSERVE : magazine à faux texte dans la poche ; poche vide.\", \"collection-rocking-chair-design-scandinave-carte.jpg\": \"RÉSERVE : magazine à faux texte dans la poche ; poche vide.\", \"collection-fauteuil-relax-carte.jpg\": \"RÉSERVE : télécommandes à touches dans la poche ; poche vide.\", \"accueil-moment-tetees-nuit-carte.jpg\": \"RÉSERVE : le moment de vie ne se lit pas ; parent de profil ou de dos avec bébé emmailloté, veilleuse, aucun visage en gros plan, aucun tableau à personnage.\", \"guide-entretien-bouclette-velours-lin-bandeau.jpg\": \"RÉSERVE : bouclette qui ressemble à des perles ; texture réaliste de bouclette teddy, espace calme pour un titre.\"}",
+        "Toutes les images de la reprise : slot face = produit seul, AUCUNE personne même lointaine ; poches vides (aucun livre, magazine, télécommande, étiquette) ; aucun tableau ou décor figuratif ; objets unis sans motif.",
+        "Fiche chaise-a-bascule-allaitement-bouclette (ex chaise-a-bascule-allaitement-velours, rejetée à juste titre) : H1 corrigé « Chaise à bascule d'allaitement en bouclette blanche, patins bois ». Vérité : bouclette teddy blanche, dossier haut en deux coussins, accoudoirs pleins arrondis, une poche de chaque côté, patins en bois massif clair reliés par une traverse. Slots et scènes famille A (face, nuit, salon, matiere, detail) ; detail = patins en bois massif.",
+        "Fichiers de vérité à corriger dans les lots d'origine (les images de ces fiches sont validées, ne pas les regénérer) : lot 2 verite-fauteuil-a-bascule-bois-massif.md et verite-fauteuil-allaitement-confortable-dossier-haut.md sont inversés (bois-massif = pid …890256 : appui-tête, châssis tubulaire noir, patins bois clair, pouf ; confortable-dossier-haut = pid …034232 : cadre acajou, repose-pieds escamotable) ; lot 3 verite-fauteuil-a-bascule-de-jardin.md à réécrire depuis les sources …563839 (rotin brun, coussin gris clair, oreiller, aucun pouf) ; lot 3 verite-fauteuil-cocon-suspendu.md : pied en croix à quatre branches.",
+        "Relax : aucun élément médical ; positions inclinées ou repose-pieds sortis seulement si les sources les montrent.",
+        "Ne pas traiter rocking-chair-bambou-pliable (retiré du catalogue) ni fauteuil-relax-design (fiche réécrite, coloris en attente de Hakim)."
+      ]
+    },
+    "qa_attendue": {
+      "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+      "specifiques": [
+        "Planche par fiche dans qa/controle-<handle>.jpg : 01.jpg + ancienne image rejetée + nouvelle image, pour chaque fichier repris.",
+        "Zoom sur poches, arrière-plans et murs : aucune personne sur face, aucun texte, logo, télécommande ni livre.",
+        "Écrire qa/verite-chaise-a-bascule-allaitement-bouclette.md avant génération."
+      ]
+    },
+    "sortie": {
+      "dossier": "boutique-rocking-chair/livraisons/visuels-reprise-qa-2026-09-15/",
+      "manifeste": "manifeste-realise.json"
+    }
+  }
+}

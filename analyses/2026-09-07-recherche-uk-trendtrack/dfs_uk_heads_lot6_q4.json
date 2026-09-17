@@ -1,0 +1,3929 @@
+{
+ "version": "0.1.20260902",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "4.1966 sec.",
+ "cost": 0.09,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "09071623-1621-0367-0000-ce7f2c8969ba",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "4.1159 sec.",
+   "cost": 0.09,
+   "result_count": 52,
+   "path": [
+    "v3",
+    "keywords_data",
+    "google_ads",
+    "search_volume",
+    "live"
+   ],
+   "data": {
+    "api": "keywords_data",
+    "function": "search_volume",
+    "se": "google_ads",
+    "keywords": [
+     "chess set",
+     "chess board",
+     "wooden chess set",
+     "luxury chess set",
+     "chess set uk",
+     "marble chess set",
+     "chess table",
+     "chess pieces",
+     "chess sets for adults",
+     "large chess set",
+     "chess board and pieces",
+     "travel chess set",
+     "electronic chess board",
+     "chess clock",
+     "backgammon set",
+     "chess",
+     "led mirror",
+     "full length mirror with lights",
+     "led full length mirror",
+     "bathroom led mirror",
+     "illuminated mirror",
+     "light up mirror",
+     "mirror with lights",
+     "hollywood mirrors",
+     "hollywood mirror with storage",
+     "vanity mirror",
+     "dressing table with mirror and lights",
+     "jewellery cabinet",
+     "mirror jewellery cabinet",
+     "led bathroom mirror cabinet",
+     "boxing bag",
+     "punch bag",
+     "free standing punch bag",
+     "punch bag stand",
+     "boxing bag with stand",
+     "bivvy",
+     "fishing bivvy",
+     "golf net",
+     "golf practice net",
+     "golf simulator",
+     "3d puzzle",
+     "wooden puzzle",
+     "jigsaw puzzle table",
+     "puzzle board",
+     "globe",
+     "world globe",
+     "illuminated globe",
+     "globe lamp",
+     "led face mask",
+     "foot spa",
+     "humidifier",
+     "tufting"
+    ],
+    "location_name": "United Kingdom",
+    "language_name": "English",
+    "search_partners": false
+   },
+   "result": [
+    {
+     "keyword": "chess",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 3,
+     "search_volume": 450000,
+     "low_top_of_page_bid": 0.34,
+     "high_top_of_page_bid": 3.1,
+     "cpc": 1.08,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 450000
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 550000
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 550000
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 450000
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 450000
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 450000
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 450000
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 450000
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 368000
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 368000
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 368000
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 301000
+      }
+     ]
+    },
+    {
+     "keyword": "globe",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 77,
+     "search_volume": 74000,
+     "low_top_of_page_bid": 0.64,
+     "high_top_of_page_bid": 1.36,
+     "cpc": 0.47,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 90500
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 90500
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 90500
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 74000
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 90500
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 74000
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 90500
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 74000
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 74000
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 74000
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 74000
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 49500
+      }
+     ]
+    },
+    {
+     "keyword": "led face mask",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 49500,
+     "low_top_of_page_bid": 0.91,
+     "high_top_of_page_bid": 2.96,
+     "cpc": 2.46,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 22200
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 27100
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 40500
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 40500
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 74000
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 135000
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 110000
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 40500
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 27100
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 22200
+      }
+     ]
+    },
+    {
+     "keyword": "humidifier",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 49500,
+     "low_top_of_page_bid": 0.16,
+     "high_top_of_page_bid": 0.7,
+     "cpc": 0.42,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 27100
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 40500
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 40500
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 40500
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 40500
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 49500
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 74000
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 74000
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 74000
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 60500
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 40500
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 33100
+      }
+     ]
+    },
+    {
+     "keyword": "chess board",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 40500,
+     "low_top_of_page_bid": 0.37,
+     "high_top_of_page_bid": 1.6,
+     "cpc": 0.46,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 33100
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 40500
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 40500
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 33100
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 40500
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 40500
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 40500
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 60500
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 49500
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 40500
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 33100
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 33100
+      }
+     ]
+    },
+    {
+     "keyword": "punch bag",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 22200,
+     "low_top_of_page_bid": 0.12,
+     "high_top_of_page_bid": 0.65,
+     "cpc": 0.6,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 22200
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 33100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 27100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 22200
+      }
+     ]
+    },
+    {
+     "keyword": "wooden puzzle",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 34,
+     "search_volume": 22200,
+     "low_top_of_page_bid": 0.38,
+     "high_top_of_page_bid": 1.91,
+     "cpc": 0.75,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 27100
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 22200
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 33100
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 33100
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 27100
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 27100
+      }
+     ]
+    },
+    {
+     "keyword": "hollywood mirrors",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 18100,
+     "low_top_of_page_bid": 0.14,
+     "high_top_of_page_bid": 0.78,
+     "cpc": 0.51,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 33100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 40500
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 18100
+      }
+     ]
+    },
+    {
+     "keyword": "vanity mirror",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 18100,
+     "low_top_of_page_bid": 0.17,
+     "high_top_of_page_bid": 1.22,
+     "cpc": 0.56,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 27100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 27100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 22200
+      }
+     ]
+    },
+    {
+     "keyword": "golf simulator",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 18100,
+     "low_top_of_page_bid": 1.08,
+     "high_top_of_page_bid": 2.9,
+     "cpc": 2.34,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 18100
+      }
+     ]
+    },
+    {
+     "keyword": "foot spa",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 18100,
+     "low_top_of_page_bid": 0.17,
+     "high_top_of_page_bid": 0.39,
+     "cpc": 0.32,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 22200
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 33100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 27100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 22200
+      }
+     ]
+    },
+    {
+     "keyword": "chess set",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 14800,
+     "low_top_of_page_bid": 0.37,
+     "high_top_of_page_bid": 1.45,
+     "cpc": 0.85,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 33100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 27100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 12100
+      }
+     ]
+    },
+    {
+     "keyword": "chess pieces",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 14800,
+     "low_top_of_page_bid": 0.23,
+     "high_top_of_page_bid": 1.12,
+     "cpc": 0.23,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 14800
+      }
+     ]
+    },
+    {
+     "keyword": "boxing bag",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 14800,
+     "low_top_of_page_bid": 0.12,
+     "high_top_of_page_bid": 0.64,
+     "cpc": 0.54,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 14800
+      }
+     ]
+    },
+    {
+     "keyword": "bathroom led mirror",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 12100,
+     "low_top_of_page_bid": 0.61,
+     "high_top_of_page_bid": 2.7,
+     "cpc": 2.15,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 9900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 12100
+      }
+     ]
+    },
+    {
+     "keyword": "led mirror",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 8100,
+     "low_top_of_page_bid": 0.45,
+     "high_top_of_page_bid": 2.75,
+     "cpc": 1.56,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 9900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 9900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 9900
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 8100
+      }
+     ]
+    },
+    {
+     "keyword": "light up mirror",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 8100,
+     "low_top_of_page_bid": 0.22,
+     "high_top_of_page_bid": 1.75,
+     "cpc": 0.8,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 9900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 9900
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 6600
+      }
+     ]
+    },
+    {
+     "keyword": "mirror with lights",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 8100,
+     "low_top_of_page_bid": 0.25,
+     "high_top_of_page_bid": 1.84,
+     "cpc": 0.81,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 9900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 9900
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 9900
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 8100
+      }
+     ]
+    },
+    {
+     "keyword": "dressing table with mirror and lights",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 8100,
+     "low_top_of_page_bid": 0.26,
+     "high_top_of_page_bid": 1.1,
+     "cpc": 0.9,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 9900
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 9900
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 8100
+      }
+     ]
+    },
+    {
+     "keyword": "golf net",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 8100,
+     "low_top_of_page_bid": 0.18,
+     "high_top_of_page_bid": 1.05,
+     "cpc": 0.83,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 12100
+      }
+     ]
+    },
+    {
+     "keyword": "puzzle board",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 8100,
+     "low_top_of_page_bid": 0.09,
+     "high_top_of_page_bid": 0.49,
+     "cpc": 0.25,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 9900
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 4400
+      }
+     ]
+    },
+    {
+     "keyword": "free standing punch bag",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 6600,
+     "low_top_of_page_bid": 0.17,
+     "high_top_of_page_bid": 0.89,
+     "cpc": 0.69,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 9900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 9900
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 6600
+      }
+     ]
+    },
+    {
+     "keyword": "punch bag stand",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 6600,
+     "low_top_of_page_bid": 0.14,
+     "high_top_of_page_bid": 0.69,
+     "cpc": 0.53,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 6600
+      }
+     ]
+    },
+    {
+     "keyword": "boxing bag with stand",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 6600,
+     "low_top_of_page_bid": 0.14,
+     "high_top_of_page_bid": 0.69,
+     "cpc": 0.53,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 6600
+      }
+     ]
+    },
+    {
+     "keyword": "bivvy",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 6600,
+     "low_top_of_page_bid": 0.15,
+     "high_top_of_page_bid": 0.46,
+     "cpc": 0.39,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 8100
+      }
+     ]
+    },
+    {
+     "keyword": "world globe",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 5400,
+     "low_top_of_page_bid": 0.19,
+     "high_top_of_page_bid": 0.81,
+     "cpc": 0.41,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 6600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 9900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 4400
+      }
+     ]
+    },
+    {
+     "keyword": "fishing bivvy",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 4400,
+     "low_top_of_page_bid": 0.15,
+     "high_top_of_page_bid": 0.39,
+     "cpc": 0.41,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 3600
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 3600
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 6600
+      }
+     ]
+    },
+    {
+     "keyword": "3d puzzle",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 4400,
+     "low_top_of_page_bid": 0.12,
+     "high_top_of_page_bid": 0.92,
+     "cpc": 0.3,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 9900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 3600
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 2900
+      }
+     ]
+    },
+    {
+     "keyword": "chess clock",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 99,
+     "search_volume": 3600,
+     "low_top_of_page_bid": 0.14,
+     "high_top_of_page_bid": 0.54,
+     "cpc": 0.27,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 3600
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 2400
+      }
+     ]
+    },
+    {
+     "keyword": "golf practice net",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 2900,
+     "low_top_of_page_bid": 0.2,
+     "high_top_of_page_bid": 0.91,
+     "cpc": 0.84,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 3600
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 4400
+      }
+     ]
+    },
+    {
+     "keyword": "tufting",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 79,
+     "search_volume": 2900,
+     "low_top_of_page_bid": 0.27,
+     "high_top_of_page_bid": 1.14,
+     "cpc": 0.5,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 3600
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 2400
+      }
+     ]
+    },
+    {
+     "keyword": "chess table",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 2400,
+     "low_top_of_page_bid": 0.17,
+     "high_top_of_page_bid": 0.88,
+     "cpc": 0.36,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 2400
+      }
+     ]
+    },
+    {
+     "keyword": "led bathroom mirror cabinet",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 2400,
+     "low_top_of_page_bid": 0.72,
+     "high_top_of_page_bid": 3.25,
+     "cpc": 2.41,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 2400
+      }
+     ]
+    },
+    {
+     "keyword": "wooden chess set",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1900,
+     "low_top_of_page_bid": 0.41,
+     "high_top_of_page_bid": 1.19,
+     "cpc": 0.9,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 3600
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 1300
+      }
+     ]
+    },
+    {
+     "keyword": "marble chess set",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1900,
+     "low_top_of_page_bid": 0.31,
+     "high_top_of_page_bid": 0.91,
+     "cpc": 0.66,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 1900
+      }
+     ]
+    },
+    {
+     "keyword": "illuminated mirror",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1900,
+     "low_top_of_page_bid": 1.36,
+     "high_top_of_page_bid": 6.58,
+     "cpc": 5.44,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 1900
+      }
+     ]
+    },
+    {
+     "keyword": "electronic chess board",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1600,
+     "low_top_of_page_bid": 0.11,
+     "high_top_of_page_bid": 0.35,
+     "cpc": 0.26,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 720
+      }
+     ]
+    },
+    {
+     "keyword": "globe lamp",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1600,
+     "low_top_of_page_bid": 0.19,
+     "high_top_of_page_bid": 1.02,
+     "cpc": 0.35,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 1300
+      }
+     ]
+    },
+    {
+     "keyword": "chess set uk",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1300,
+     "low_top_of_page_bid": 0.27,
+     "high_top_of_page_bid": 0.94,
+     "cpc": 0.77,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 1300
+      }
+     ]
+    },
+    {
+     "keyword": "travel chess set",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1300,
+     "low_top_of_page_bid": 0.18,
+     "high_top_of_page_bid": 0.74,
+     "cpc": 0.46,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 1300
+      }
+     ]
+    },
+    {
+     "keyword": "mirror jewellery cabinet",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1300,
+     "low_top_of_page_bid": 0.13,
+     "high_top_of_page_bid": 0.55,
+     "cpc": 0.39,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 1600
+      }
+     ]
+    },
+    {
+     "keyword": "jigsaw puzzle table",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1300,
+     "low_top_of_page_bid": 0.11,
+     "high_top_of_page_bid": 0.45,
+     "cpc": 0.25,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 880
+      }
+     ]
+    },
+    {
+     "keyword": "jewellery cabinet",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1000,
+     "low_top_of_page_bid": 0.2,
+     "high_top_of_page_bid": 1.6,
+     "cpc": 0.47,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 1000
+      }
+     ]
+    },
+    {
+     "keyword": "luxury chess set",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 880,
+     "low_top_of_page_bid": 0.47,
+     "high_top_of_page_bid": 1.52,
+     "cpc": 1.28,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 880
+      }
+     ]
+    },
+    {
+     "keyword": "chess board and pieces",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 880,
+     "low_top_of_page_bid": 0.43,
+     "high_top_of_page_bid": 1.77,
+     "cpc": 0.54,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 720
+      }
+     ]
+    },
+    {
+     "keyword": "led full length mirror",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 880,
+     "low_top_of_page_bid": 0.19,
+     "high_top_of_page_bid": 1.27,
+     "cpc": 0.59,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 880
+      }
+     ]
+    },
+    {
+     "keyword": "full length mirror with lights",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 720,
+     "low_top_of_page_bid": 0.21,
+     "high_top_of_page_bid": 0.78,
+     "cpc": 0.51,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 720
+      }
+     ]
+    },
+    {
+     "keyword": "large chess set",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 260,
+     "low_top_of_page_bid": 0.21,
+     "high_top_of_page_bid": 0.74,
+     "cpc": 0.54,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 210
+      }
+     ]
+    },
+    {
+     "keyword": "illuminated globe",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 260,
+     "low_top_of_page_bid": 0.15,
+     "high_top_of_page_bid": 1.21,
+     "cpc": 0.59,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 210
+      }
+     ]
+    },
+    {
+     "keyword": "chess sets for adults",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 70,
+     "low_top_of_page_bid": 0.47,
+     "high_top_of_page_bid": 0.91,
+     "cpc": 0.76,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 40
+      }
+     ]
+    },
+    {
+     "keyword": "hollywood mirror with storage",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 30,
+     "low_top_of_page_bid": 0.29,
+     "high_top_of_page_bid": 1.21,
+     "cpc": 0.73,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 8,
+       "search_volume": 20
+      }
+     ]
+    },
+    {
+     "keyword": "backgammon set",
+     "spell": null,
+     "location_code": 2826,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    }
+   ]
+  }
+ ]
+}

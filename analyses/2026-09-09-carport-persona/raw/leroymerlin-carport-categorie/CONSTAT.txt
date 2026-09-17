@@ -1,0 +1,7 @@
+Cibles tentées (2026-09-09):
+- https://www.leroymerlin.fr/produits/terrasse-jardin/abri-garage-rangement/carport/ (catégorie)
+- https://www.leroymerlin.fr/produits/carport-bois-1-voiture-15-m2-76161715.html (fiche produit test)
+- https://www.leroymerlin.fr/produits/x-metal-carport-autoportant-aluminium-blanc-17-28m2-polycarbonate-6mm-98973769.html (X-Metal, cible du brief)
+
+Constat [O]: leroymerlin.fr bloque systématiquement (403, protection DataDome) tous les accès testés — WebFetch, curl avec User-Agent Chrome desktop + Accept-Language fr-FR, et monid mrscraper (browserRendering + super/stealth réel-device). Le corps de réponse curl affiche "Please enable JS and disable any ad blocker" avec un script DataDome ('dd': ...). Blocage constaté au niveau du domaine entier, pas seulement de la page catégorie.
+Conséquence: aucune fiche Leroy Merlin (catégorie carport, X-Metal, Preston) n'a pu être documentée en verbatim malgré plusieurs tentatives outillées. Seuls des titres de produits (via Google/WebSearch, non vérifiés en page) ont pu être identifiés — non utilisés comme source de vérité, seulement pour retrouver les URLs.

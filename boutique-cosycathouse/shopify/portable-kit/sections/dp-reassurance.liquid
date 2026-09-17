@@ -1,0 +1,100 @@
+<section class="dp-reassurance" style="--dp-accent: {{ section.settings.accent_color }}; --dp-surface: {{ section.settings.surface_color }}; --dp-text: {{ section.settings.text_color }};">
+  <ul class="dp-reassurance__grid" role="list">
+    {%- for block in section.blocks -%}
+      <li class="dp-reassurance__item" {{ block.shopify_attributes }}>
+        <span class="dp-reassurance__icon">{% render 'dp-icon', name: block.settings.icon %}</span>
+        <div>
+          <strong>{{ block.settings.heading }}</strong>
+          {%- if block.settings.text != blank -%}<p>{{ block.settings.text }}</p>{%- endif -%}
+        </div>
+      </li>
+    {%- endfor -%}
+  </ul>
+</section>
+
+{% stylesheet %}
+  .dp-reassurance__grid {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .dp-reassurance__item {
+    align-items: flex-start;
+    background: var(--dp-surface);
+    border: 1px solid color-mix(in srgb, var(--dp-accent) 35%, transparent);
+    border-radius: 12px;
+    color: var(--dp-text);
+    display: flex;
+    gap: 12px;
+    padding: 16px;
+  }
+
+  .dp-reassurance__item strong {
+    display: block;
+    font-size: 0.9rem;
+    line-height: 1.3;
+    text-transform: uppercase;
+  }
+
+  .dp-reassurance__item p {
+    font-size: 0.85rem;
+    line-height: 1.45;
+    margin: 5px 0 0;
+  }
+
+  .dp-reassurance__icon {
+    color: var(--dp-accent);
+    flex: 0 0 28px;
+  }
+
+  .dp-reassurance__icon svg {
+    fill: none;
+    height: 24px;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.8;
+    width: 24px;
+  }
+
+  @media (max-width: 749px) {
+    .dp-reassurance__grid {
+      grid-template-columns: 1fr;
+    }
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "t:dropilot.reassurance.name",
+  "tag": "div",
+  "class": "dp-section",
+  "max_blocks": 4,
+  "settings": [
+    {"type": "color", "id": "accent_color", "label": "t:dropilot.common.accent_color", "default": "#0E3A5A"},
+    {"type": "color", "id": "surface_color", "label": "t:dropilot.common.surface_color", "default": "#F7F4EE"},
+    {"type": "color", "id": "text_color", "label": "t:dropilot.common.text_color", "default": "#1C2830"}
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "t:dropilot.reassurance.item",
+      "settings": [
+        {"type": "select", "id": "icon", "label": "t:dropilot.common.icon", "options": [
+          {"value": "shield", "label": "t:dropilot.icons.shield"},
+          {"value": "wrench", "label": "t:dropilot.icons.wrench"},
+          {"value": "check", "label": "t:dropilot.icons.check"}
+        ], "default": "shield"},
+        {"type": "text", "id": "heading", "label": "t:dropilot.common.heading", "default": "Achat sécurisé"},
+        {"type": "textarea", "id": "text", "label": "t:dropilot.common.text", "default": "Ajoutez ici une preuve ou une condition réellement vérifiée."}
+      ]
+    }
+  ],
+  "presets": [{"name": "t:dropilot.reassurance.name", "blocks": [{"type": "item"}, {"type": "item"}, {"type": "item"}]}]
+}
+{% endschema %}
+

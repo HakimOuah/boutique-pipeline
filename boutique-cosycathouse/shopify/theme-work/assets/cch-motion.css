@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap");
+:root{--cch-ink:#1F2937;--cch-green:#1F5E3A;--cch-amber:#F59E0B;--cch-cream:#FFF7ED;--cch-sky:#2563EB}
+::selection{background:var(--cch-amber);color:var(--cch-ink)}
+.cch-hand,.cch-handnote p{font-family:Caveat,cursive;font-weight:600;letter-spacing:0}
+.cch-handnote p{font-size:1.65em;line-height:1.1}
+.cch-step em{font-family:Caveat,cursive;font-style:normal;font-weight:700;font-size:2.6em;line-height:.7;vertical-align:-.12em;margin-right:.1em;background:none;padding:0}
+.cch-step-1 em{color:var(--cch-green)}.cch-step-2 em{color:var(--cch-sky)}.cch-step-3 em{color:var(--cch-amber)}
+h1 em,h2 em,.h1 em,.h2 em{font-style:italic;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 12' preserveAspectRatio='none'><path d='M3 9 C 20 3, 45 3, 60 7 S 100 11, 117 5' fill='none' stroke='%23F59E0B' stroke-width='5' stroke-linecap='round'/></svg>");background-repeat:no-repeat;background-position:0 92%;background-size:100% .32em;padding-bottom:.1em}
+.button{box-shadow:3px 3px 0 var(--cch-ink);transition:transform .16s ease,box-shadow .16s ease}
+.button:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--cch-ink)}
+.button:active{transform:translate(1px,1px);box-shadow:1px 1px 0 var(--cch-ink)}
+.product-card,.collection-card{transition:transform .25s cubic-bezier(.22,.61,.36,1)}
+.product-card:hover,.collection-card:hover{transform:translateY(-5px) rotate(-.6deg)}
+.cch-sticker,.cch-stickerize p{display:inline-block;transform:rotate(-3deg);background:var(--cch-amber);color:var(--cch-ink);border:2px solid var(--cch-ink);border-radius:12px;padding:.2em .65em;font-weight:700;box-shadow:2px 2px 0 var(--cch-ink)}
+.cch-stickerize--green p{background:var(--cch-green);color:#fff}
+.cch-fringe{position:relative;z-index:1}
+.cch-fringe:after{content:"";position:absolute;left:0;right:0;bottom:-9px;height:10px;background:radial-gradient(circle at 10px -3px,currentColor 9px,transparent 10px) repeat-x;background-size:20px 10px;color:var(--cch-green);pointer-events:none}
+.cch-promo-old{text-decoration:line-through;opacity:.6;margin-left:.4em;font-weight:400}
+.cch-promo-badge{display:inline-block;margin-left:.5em;background:var(--cch-amber);color:var(--cch-ink);border-radius:8px;padding:.1em .55em;font-weight:700;font-size:.85em;vertical-align:middle}
+.cch-delivery{display:flex;justify-content:space-between;gap:12px;align-items:center;background:#F1F5F9;border-radius:10px;padding:10px 14px;font-size:.95rem;margin:6px 0}
+.cch-delivery b{font-weight:700}
+.cch-box{border:2px solid var(--cch-ink);border-radius:14px;padding:18px 20px;background:#fff}
+.cch-box h4{margin:0 0 8px;font-size:1.05rem}
+.cch-box ul{margin:0;padding-left:1.2em}
+.cch-box small{display:block;margin-top:8px;color:#6b7280}
+@media(prefers-reduced-motion:reduce){.button,.product-card,.collection-card{transition:none}}

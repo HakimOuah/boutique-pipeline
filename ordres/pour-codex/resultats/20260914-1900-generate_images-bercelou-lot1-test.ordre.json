@@ -1,0 +1,161 @@
+{
+ "id": "claude-20260914-1900-bercelou-lot1-test",
+ "type": "generate_images",
+ "created_at": "2026-09-14T19:00:00Z",
+ "requested_by": "claude-code",
+ "payload": {
+  "manifest": [
+   {
+    "handle": "fauteuil-a-bascule-allaitement-teddy",
+    "sku": "BCL-TEDDY-ROSA",
+    "slot": "face",
+    "fichier": "fauteuil-a-bascule-allaitement-teddy-face.jpg"
+   },
+   {
+    "handle": "fauteuil-a-bascule-allaitement-teddy",
+    "sku": "BCL-TEDDY-ROSA",
+    "slot": "nuit",
+    "fichier": "fauteuil-a-bascule-allaitement-teddy-nuit.jpg"
+   },
+   {
+    "handle": "fauteuil-a-bascule-allaitement-teddy",
+    "sku": "BCL-TEDDY-ROSA",
+    "slot": "salon",
+    "fichier": "fauteuil-a-bascule-allaitement-teddy-salon.jpg"
+   },
+   {
+    "handle": "fauteuil-a-bascule-allaitement-teddy",
+    "sku": "BCL-TEDDY-ROSA",
+    "slot": "matiere",
+    "fichier": "fauteuil-a-bascule-allaitement-teddy-matiere.jpg"
+   },
+   {
+    "handle": "fauteuil-a-bascule-allaitement-teddy",
+    "sku": "BCL-TEDDY-ROSA",
+    "slot": "detail",
+    "fichier": "fauteuil-a-bascule-allaitement-teddy-detail.jpg"
+   },
+   {
+    "handle": "fauteuil-a-bascule-scandinave-velours-cotele",
+    "sku": "BCL-COTELE-ANAJ",
+    "slot": "face",
+    "fichier": "fauteuil-a-bascule-scandinave-velours-cotele-face.jpg"
+   },
+   {
+    "handle": "fauteuil-a-bascule-scandinave-velours-cotele",
+    "sku": "BCL-COTELE-ANAJ",
+    "slot": "nuit",
+    "fichier": "fauteuil-a-bascule-scandinave-velours-cotele-nuit.jpg"
+   },
+   {
+    "handle": "fauteuil-a-bascule-scandinave-velours-cotele",
+    "sku": "BCL-COTELE-ANAJ",
+    "slot": "salon",
+    "fichier": "fauteuil-a-bascule-scandinave-velours-cotele-salon.jpg"
+   },
+   {
+    "handle": "fauteuil-a-bascule-scandinave-velours-cotele",
+    "sku": "BCL-COTELE-ANAJ",
+    "slot": "matiere",
+    "fichier": "fauteuil-a-bascule-scandinave-velours-cotele-matiere.jpg"
+   },
+   {
+    "handle": "fauteuil-a-bascule-scandinave-velours-cotele",
+    "sku": "BCL-COTELE-ANAJ",
+    "slot": "detail",
+    "fichier": "fauteuil-a-bascule-scandinave-velours-cotele-detail.jpg"
+   },
+   {
+    "handle": "fauteuil-allaitement-chambre-bebe-avec-repose-pieds",
+    "sku": "BCL-BOUCLE-FANG",
+    "slot": "face",
+    "fichier": "fauteuil-allaitement-chambre-bebe-avec-repose-pieds-face.jpg"
+   },
+   {
+    "handle": "fauteuil-allaitement-chambre-bebe-avec-repose-pieds",
+    "sku": "BCL-BOUCLE-FANG",
+    "slot": "nuit",
+    "fichier": "fauteuil-allaitement-chambre-bebe-avec-repose-pieds-nuit.jpg"
+   },
+   {
+    "handle": "fauteuil-allaitement-chambre-bebe-avec-repose-pieds",
+    "sku": "BCL-BOUCLE-FANG",
+    "slot": "salon",
+    "fichier": "fauteuil-allaitement-chambre-bebe-avec-repose-pieds-salon.jpg"
+   },
+   {
+    "handle": "fauteuil-allaitement-chambre-bebe-avec-repose-pieds",
+    "sku": "BCL-BOUCLE-FANG",
+    "slot": "matiere",
+    "fichier": "fauteuil-allaitement-chambre-bebe-avec-repose-pieds-matiere.jpg"
+   },
+   {
+    "handle": "fauteuil-allaitement-chambre-bebe-avec-repose-pieds",
+    "sku": "BCL-BOUCLE-FANG",
+    "slot": "detail",
+    "fichier": "fauteuil-allaitement-chambre-bebe-avec-repose-pieds-detail.jpg"
+   },
+   {
+    "handle": "bercelou-accueil",
+    "sku": "BCL-HERO",
+    "slot": "hero",
+    "fichier": "bercelou-hero.jpg"
+   }
+  ],
+  "sources": [
+   "boutique-rocking-chair/assets/source/1005010201578018/01.jpg",
+   "boutique-rocking-chair/assets/source/1005010201578018/02.jpg",
+   "boutique-rocking-chair/assets/source/1005010201578018/03.jpg",
+   "boutique-rocking-chair/assets/source/1005010201578018/04.jpg",
+   "boutique-rocking-chair/assets/source/1005010201578018/05.jpg",
+   "boutique-rocking-chair/assets/source/1005010201578018/06.jpg",
+   "boutique-rocking-chair/assets/source/1005010201578018/dim-01.jpg",
+   "boutique-rocking-chair/assets/source/1005012640407961/01.jpg",
+   "boutique-rocking-chair/assets/source/1005012640407961/02.jpg",
+   "boutique-rocking-chair/assets/source/1005012640407961/03.jpg",
+   "boutique-rocking-chair/assets/source/1005012640407961/04.jpg",
+   "boutique-rocking-chair/assets/source/1005012640407961/05.jpg",
+   "boutique-rocking-chair/assets/source/1005012640407961/06.jpg",
+   "boutique-rocking-chair/assets/source/1005012640407961/07.jpg",
+   "boutique-rocking-chair/assets/source/1005012640407961/08.jpg",
+   "boutique-rocking-chair/assets/source/1005012640407961/dim-01.jpg",
+   "boutique-rocking-chair/assets/source/1005012822557916/01.jpg",
+   "boutique-rocking-chair/assets/source/1005012822557916/02.jpg",
+   "boutique-rocking-chair/assets/source/1005012822557916/03.jpg",
+   "boutique-rocking-chair/assets/source/1005012822557916/04.jpg",
+   "boutique-rocking-chair/assets/source/1005012822557916/05.jpg",
+   "boutique-rocking-chair/assets/source/1005012822557916/06.jpg",
+   "boutique-rocking-chair/assets/source/1005012822557916/07.jpg",
+   "boutique-rocking-chair/assets/source/1005012822557916/08.jpg",
+   "boutique-rocking-chair/assets/source/1005012822557916/dim-01.jpg"
+  ],
+  "da": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §3",
+   "surcharges": "boutique-rocking-chair/BRIEF-VISUELS-CODEX-2026-09-14.md §2 — direction « Veille douce » VALIDÉE par Hakim le 14/09/2026 (lumière de lampe/veilleuse, chambre de bébé et salon français ordinaires, réalisme photo, personnes de profil/dos, bébé emmailloté) et formats (hero 2048×1152, autres 2048×2048). Remplace pierre/craie."
+  },
+  "contraintes": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §4",
+   "specifiques": [
+    "Lire boutique-rocking-chair/BRIEF-VISUELS-CODEX-2026-09-14.md EN ENTIER : §1 vérité produit par fauteuil (capitonnage, patins, piètement, similicuir cognac, accoudoirs bois, repose-pieds), §2 bis bloc d'orientation à inclure dans chaque prompt.",
+    "Le fauteuil n'est jamais réinventé : image de référence = photos fournisseur du pid ; seule la mise en scène change.",
+    "Aucun texte, logo, étiquette (poche du Fangange), pictogramme, badge, cote ou tableau à personnage sous licence (les sources en contiennent : ne jamais les reproduire).",
+    "Personnes : adulte de profil/dos, jamais de visage en gros plan ; bébé nouveau-né emmailloté aux proportions réalistes ; allaitement pudique, aucune nudité ; mains à 5 doigts.",
+    "Repose-pieds : jamais sur le teddy Rosahqnda (1005010201578018)."
+   ]
+  },
+  "qa_attendue": {
+   "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §5",
+   "specifiques": [
+    "Planche par fauteuil (5 vignettes ≥ 740 px) comparée à 01.jpg : forme, capitonnage, patins, piètement, couleurs.",
+    "Zoom : aucune étiquette ni texte (poche, livres, babyphone).",
+    "Personnes : doigts, bébé, pudeur.",
+    "Slots nuit et hero : source chaude visible et pièce réellement sombre."
+   ]
+  },
+  "sortie": {
+   "dossier": "boutique-rocking-chair/livraisons/visuels-lot1-test-2026-09-14/",
+   "manifeste": "manifeste-realise.json"
+  }
+ },
+ "notes": "Bercelou (rocking chairs), lot 1 TEST de style : 3 fauteuils échantillons × 5 slots + hero accueil. Validation Hakim avant production des 44 fiches. Aucun accès boutique."
+}

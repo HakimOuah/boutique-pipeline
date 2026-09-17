@@ -1,0 +1,374 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "sous-titre": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.sous_titre.value }}",
+            "text_style": "subtitle",
+            "text_color": "",
+            "enable_icon": false,
+            "icon": "heart"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes": false,
+            "price_text_box": "",
+            "price_text_box_text_color": "#000000",
+            "price_text_box_background_color": "#f5f5f5",
+            "price_text_box_border_color": "#e0e0e0",
+            "regular_price_font_size_desktop": 24,
+            "regular_price_font_size_mobile": 20,
+            "regular_price_color": "#1B1F24",
+            "regular_price_font_weight": "bold",
+            "sale_price_font_size_desktop": 24,
+            "sale_price_font_size_mobile": 20,
+            "sale_price_color": "#C8552B",
+            "sale_price_font_weight": "bold",
+            "compare_price_font_size_desktop": 24,
+            "compare_price_font_size_mobile": 20,
+            "compare_price_color": "#999999",
+            "compare_price_font_weight": "normal"
+          }
+        },
+        "buy-buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_payment_icons": true,
+            "show_gift_card_recipient": false,
+            "show_price_in_button": false,
+            "sticky": true,
+            "enable_sticky_atc_desktop": false,
+            "sticky_atc_show_image": true,
+            "sticky_atc_show_variant": true,
+            "sticky_atc_show_quantity": true,
+            "sticky_atc_bg_color": "#ffffff",
+            "sticky_atc_text_color": "#1B1F24",
+            "sticky_atc_button_bg_color": "#C8552B",
+            "sticky_atc_button_text_color": "#ffffff"
+          }
+        },
+        "accordeons": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%- assign mf = product.metafields.custom -%}\n<style>\n.sa-acc{margin-top:8px}.sa-acc details{border-top:1px solid rgba(27,31,36,.15)}.sa-acc details:last-child{border-bottom:1px solid rgba(27,31,36,.15)}\n.sa-acc summary{cursor:pointer;padding:14px 0;font-weight:600;font-size:1.05rem;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px}\n.sa-acc summary::-webkit-details-marker{display:none}.sa-acc summary::after{content:\"+\";font-size:1.5rem;line-height:1;color:#C8552B;flex:none}\n.sa-acc details[open]>summary::after{content:\"–\"}.sa-acc .sa-body{padding:0 0 16px}.sa-acc .sa-body>:first-child{margin-top:0}.sa-acc details>p{padding:0 0 16px;margin:0}\n.sa-acc table{width:100%;border-collapse:collapse;font-size:.95rem}.sa-acc td,.sa-acc th{padding:8px 6px;border-bottom:1px solid rgba(27,31,36,.1);text-align:left;vertical-align:top}\n.rte details{border-top:1px solid rgba(27,31,36,.15)}.rte details:last-of-type{border-bottom:1px solid rgba(27,31,36,.15)}.rte summary{cursor:pointer;padding:14px 0;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:12px}.rte summary::-webkit-details-marker{display:none}.rte summary::after{content:\"+\";font-size:1.5rem;line-height:1;color:#C8552B;flex:none}.rte details[open]>summary::after{content:\"–\"}.rte details>p{margin:0 0 16px}\nmark.a-verifier{background:#FFE58A;padding:0 3px}.sa-lead{font-size:1.15rem}\n</style>\n<div class=\"sa-acc rte\">\n{%- if mf.specifications.value != blank -%}<details open><summary>Dimensions et caractéristiques</summary><div class=\"sa-body\">{{ mf.specifications.value }}</div></details>{%- endif -%}\n{%- if mf.declarer.value != blank -%}<details><summary>Démarches en mairie</summary><div class=\"sa-body\">{{ mf.declarer.value }}</div></details>{%- endif -%}\n{%- if mf.montage_texte.value != blank -%}<details><summary>Montage</summary><div class=\"sa-body\">{{ mf.montage_texte.value }}</div></details>{%- endif -%}\n{%- if mf.ancrage_vent.value != blank -%}<details><summary>Ancrage et vent</summary><div class=\"sa-body\">{{ mf.ancrage_vent.value }}</div></details>{%- endif -%}\n{%- if mf.ne_fait_pas.value != blank -%}<details><summary>Bon à savoir</summary><div class=\"sa-body\">{{ mf.ne_fait_pas.value }}</div></details>{%- endif -%}\n{%- if mf.livraison_texte.value != blank -%}<details><summary>Livraison</summary><div class=\"sa-body\">{{ mf.livraison_texte.value }}</div></details>{%- endif -%}\n{%- if mf.contenu_colis.value != blank -%}<details><summary>Contenu du colis</summary><div class=\"sa-body\">{{ mf.contenu_colis.value }}</div></details>{%- endif -%}\n</div>"
+          }
+        },
+        "reass-1": {
+          "type": "text",
+          "settings": {
+            "text": "Livraison offerte en France métropolitaine, sur rendez-vous pour les colis lourds",
+            "text_style": "body",
+            "text_color": "",
+            "enable_icon": true,
+            "icon": "truck"
+          }
+        },
+        "reass-2": {
+          "type": "text",
+          "settings": {
+            "text": "Garantie légale de conformité 2 ans, rétractation 14 jours",
+            "text_style": "body",
+            "text_color": "",
+            "enable_icon": true,
+            "icon": "check_mark"
+          }
+        },
+        "reass-3": {
+          "type": "text",
+          "settings": {
+            "text": "Paiement sécurisé : carte, Apple Pay, Shop Pay, et en 3 ou 4 fois avec Klarna et PayPal",
+            "text_style": "body",
+            "text_color": "",
+            "enable_icon": true,
+            "icon": "lock"
+          }
+        },
+        "reass-4": {
+          "type": "text",
+          "settings": {
+            "text": "Guides déclaration et montage offerts, kit d'ancrage compris",
+            "text_style": "body",
+            "text_color": "",
+            "enable_icon": true,
+            "icon": "clipboard"
+          }
+        },
+        "livraison-retours": {
+          "type": "collapsible",
+          "settings": {
+            "heading": "Livraison & Retours",
+            "content": "<p>Livraison offerte en France métropolitaine, Corse comprise, sur rendez-vous pour les colis lourds. Votre commande est expédiée sous 1 à 3 jours ouvrés, puis livrée sous 5 à 12 jours ouvrés. <a href=\"/policies/shipping-policy\">Consulter les conditions de livraison.</a></p><p>Vous disposez de 14 jours après réception pour vous rétracter. Tous nos abris bénéficient de la garantie légale de conformité de 2 ans. <a href=\"/policies/refund-policy\">Consulter les conditions de retour.</a></p>",
+            "description": false,
+            "open_by_default": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "sous-titre",
+        "price",
+        "buy-buttons",
+        "reass-1",
+        "reass-2",
+        "reass-3",
+        "reass-4",
+        "livraison-retours",
+        "accordeons"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": "large",
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "mobile_gallery_layout": "thumbnail_slider",
+        "image_ratio": "adapt",
+        "media_fit": "contain",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "initial_image_behavior": "product",
+        "display_card": true,
+        "color_scheme": "background-1",
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    },
+    "protege": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{%- if product.metafields.custom.protege.value != blank -%}\n<div class=\"page-width rte\">\n  <h2>Ce qu'il vous apporte</h2>\n  {{ product.metafields.custom.protege.value }}\n</div>\n{%- endif -%}",
+        "color_scheme": "background-1",
+        "display_as_card": false,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faq": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{%- if product.metafields.custom.faq.value != blank -%}\n<div class=\"page-width rte sa-acc\">\n  <h2>Questions fréquentes sur ce produit</h2>\n  {{ product.metafields.custom.faq.value }}\n</div>\n{%- endif -%}",
+        "color_scheme": "background-2",
+        "display_as_card": false,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "comparaison": {
+      "type": "compare-table",
+      "settings": {
+        "heading_size": "h1",
+        "hn": "h2",
+        "heading": "Sous Abri ou grande surface de bricolage",
+        "content": "<p>La différence se joue dans la sélection des modèles et dans ce qui arrive avec votre abri : kit d'ancrage, guides, livraison sur rendez-vous.</p>",
+        "content_position": "above",
+        "heading_col_1": "Sous Abri",
+        "heading_col_2": "Grande surface",
+        "display_as_card": false,
+        "color_scheme": "background-2",
+        "border_radius": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      },
+      "blocks": {
+        "row-1": {
+          "type": "row",
+          "settings": {
+            "heading": "Modèle vérifié avant d'entrer au catalogue : cotes, kit d'ancrage, contenu des colis",
+            "is_checked_col_1": true,
+            "is_checked_col_2": false
+          }
+        },
+        "row-2": {
+          "type": "row",
+          "settings": {
+            "heading": "Démarche en mairie indiquée sur la fiche, guide déclaration offert",
+            "is_checked_col_1": true,
+            "is_checked_col_2": false
+          }
+        },
+        "row-3": {
+          "type": "row",
+          "settings": {
+            "heading": "Montage et ancrage expliqués, guide offert",
+            "is_checked_col_1": true,
+            "is_checked_col_2": false
+          }
+        }
+      },
+      "block_order": [
+        "row-1",
+        "row-2",
+        "row-3"
+      ]
+    },
+    "reassurance": {
+      "type": "reassurance",
+      "blocks": {
+        "item-1": {
+          "type": "item",
+          "settings": {
+            "heading": "Livraison offerte",
+            "description": "<p>En France métropolitaine, Corse comprise, sur rendez-vous pour les colis lourds.</p>"
+          }
+        },
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "heading": "Garantie légale 2 ans",
+            "description": "<p>Garantie légale de conformité 2 ans. Rétractation 14 jours après réception, retours encadrés par notre politique.</p>"
+          }
+        },
+        "item-3": {
+          "type": "item",
+          "settings": {
+            "heading": "Paiement sécurisé",
+            "description": "<p>Carte, Apple Pay, Shop Pay, et en 3 ou 4 fois avec Klarna et PayPal.</p>"
+          }
+        },
+        "item-4": {
+          "type": "item",
+          "settings": {
+            "heading": "Kit complet, prêt à monter",
+            "description": "<p>Structure, toile ou toiture, kit d'ancrage et notice dans les colis. Guides déclaration et montage offerts.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2",
+        "item-3",
+        "item-4"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "hn": "h2",
+        "heading": "Nos garanties",
+        "content": "",
+        "content_alignment": "center",
+        "column_mobile": "2",
+        "card_style": "text-below",
+        "card_background": true,
+        "card_border": true,
+        "display_as_card": false,
+        "color_scheme": "background-2",
+        "border_radius": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related": {
+      "type": "related-products",
+      "settings": {
+        "heading": "Vous aimerez peut-être",
+        "heading_size": "h1",
+        "hn": "span",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "enable_desktop_slider": false,
+        "enable_mobile_slider": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "hide_dots": false,
+        "arrow_alignment_desktop": "center",
+        "arrow_alignment_mobile": "center",
+        "enable_auto_slider": false,
+        "auto_slider_delay": 5000,
+        "display_as_card": false,
+        "color_scheme": "background-1",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "marque": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "caption": "Un mot sur Sous Abri",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Le spécialiste français de l'abri voiture en kit",
+            "background_heading": false,
+            "heading_size": "h1",
+            "hn": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Carports aluminium et acier, tentes-garages : nous sélectionnons chaque modèle pour les jardins et allées de France et nous le vérifions avant de le vendre, cotes, kit d'ancrage et contenu des colis compris. Livraison offerte, guides déclaration et montage offerts, kit d'ancrage compris.</p>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Qui sommes-nous",
+            "button_link": "/pages/qui-sommes-nous"
+          }
+        }
+      },
+      "block_order": [
+        "caption",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/sousabri-famille-alu.jpg",
+        "decoration": "rectangle",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_style": "overlap",
+        "display_as_card": false,
+        "color_scheme": "background-1",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "main",
+    "protege",
+    "faq",
+    "marque",
+    "comparaison",
+    "reassurance",
+    "related"
+  ]
+}

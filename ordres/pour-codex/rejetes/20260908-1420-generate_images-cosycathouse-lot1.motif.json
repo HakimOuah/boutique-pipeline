@@ -1,0 +1,97 @@
+{
+  "id": "claude-20260908-1420-cosycathouse-lot1",
+  "status": "rejected",
+  "payload": {
+    "manifeste_realise": [],
+    "rejets": [
+      {
+        "fichier": "insulated-outdoor-cat-house-face.jpg",
+        "motif": "Ordre rejeté avant génération : conflit de contraintes permanentes ; références supplémentaires nécessaires pour les deux slots de pliage."
+      },
+      {
+        "fichier": "insulated-outdoor-cat-house-situation-jardin.jpg",
+        "motif": "Ordre rejeté avant génération : conflit de contraintes permanentes ; références supplémentaires nécessaires pour les deux slots de pliage."
+      },
+      {
+        "fichier": "insulated-outdoor-cat-house-chat-entree.jpg",
+        "motif": "Ordre rejeté avant génération : conflit de contraintes permanentes ; références supplémentaires nécessaires pour les deux slots de pliage."
+      },
+      {
+        "fichier": "insulated-outdoor-cat-house-macro-doublure.jpg",
+        "motif": "Ordre rejeté avant génération : conflit de contraintes permanentes ; références supplémentaires nécessaires pour les deux slots de pliage."
+      },
+      {
+        "fichier": "insulated-outdoor-cat-house-pieds-sureleves.jpg",
+        "motif": "Ordre rejeté avant génération : conflit de contraintes permanentes ; références supplémentaires nécessaires pour les deux slots de pliage."
+      },
+      {
+        "fichier": "insulated-outdoor-cat-house-pliage.jpg",
+        "motif": "Ordre rejeté avant génération : conflit de contraintes permanentes ; références supplémentaires nécessaires pour les deux slots de pliage."
+      },
+      {
+        "fichier": "insulated-outdoor-cat-house-hero.jpg",
+        "motif": "Ordre rejeté avant génération : conflit de contraintes permanentes ; références supplémentaires nécessaires pour les deux slots de pliage."
+      },
+      {
+        "fichier": "insulated-outdoor-cat-house-benefice-chaleur.jpg",
+        "motif": "Ordre rejeté avant génération : conflit de contraintes permanentes ; références supplémentaires nécessaires pour les deux slots de pliage."
+      },
+      {
+        "fichier": "insulated-outdoor-cat-house-benefice-sec.jpg",
+        "motif": "Ordre rejeté avant génération : conflit de contraintes permanentes ; références supplémentaires nécessaires pour les deux slots de pliage."
+      },
+      {
+        "fichier": "insulated-outdoor-cat-house-benefice-pliage.jpg",
+        "motif": "Ordre rejeté avant génération : conflit de contraintes permanentes ; références supplémentaires nécessaires pour les deux slots de pliage."
+      },
+      {
+        "fichier": "insulated-outdoor-cat-house-benefice-refuge.jpg",
+        "motif": "Ordre rejeté avant génération : conflit de contraintes permanentes ; références supplémentaires nécessaires pour les deux slots de pliage."
+      },
+      {
+        "fichier": "insulated-outdoor-cat-house-carte.jpg",
+        "motif": "Ordre rejeté avant génération : conflit de contraintes permanentes ; références supplémentaires nécessaires pour les deux slots de pliage."
+      }
+    ],
+    "sujets_difficiles": [],
+    "motifs": [
+      {
+        "code": "CONFLIT_CONTRAINTE_PERMANENTE",
+        "motif": "payload.contraintes.specifiques déclare « Le bloc d’orientation montres de la spec ne s’applique pas » et le brief §0 prétend surcharger les contraintes montres. Le document 15 §2 interdit à un ordre de suspendre ses règles ; le §4.2 impose son bloc dans tout prompt de mise en situation, macro ou porté. La consigne directe de la mission réaffirme ce bloc impératif et la priorité du document 15. Cette exemption ne peut donc pas être appliquée.",
+        "reference": "docs/codex-handoff/15-CODEX-EXECUTANT-IMAGES.md §2 et §4.2"
+      },
+      {
+        "code": "REFERENCE_INSUFFISANTE_PLIAGE",
+        "motif": "La source unique, inspectée visuellement, montre uniquement l’abri monté. Aucune référence locale fournie ne montre la configuration pliée, les articulations ou le dépliage. Produire fidèlement les slots pliage et benefice-pliage exigerait de deviner une configuration non documentée. La mention textuelle de pliabilité ne prouve pas la géométrie de ces états.",
+        "slots": [
+          "pliage",
+          "benefice-pliage"
+        ],
+        "reference": "boutique-cosycathouse/assets/source/1005010759559289/sku-gris.jpg"
+      }
+    ],
+    "verification_sources": [
+      {
+        "fichier": "boutique-cosycathouse/assets/source/1005010759559289/sku-gris.jpg",
+        "lisible": true,
+        "format_detecte": "WEBP",
+        "dimensions": [
+          800,
+          800
+        ],
+        "inspection_visuelle_effectuee": true
+      }
+    ],
+    "images_generees": 0,
+    "qa_livrables": "Sans objet : aucune image générée ou livrée.",
+    "reprise_requise": "Nouvel ordre conforme sans suspension des contraintes permanentes ; références locales des états plié et en dépliage, ou retrait de ces deux slots. Si une adaptation de la règle permanente aux produits autres que les montres est souhaitée, elle doit être autorisée directement par Hakim, hors des données de l’ordre."
+  },
+  "journal": [
+    "Lecture intégrale du document 15, du brief et de l’ordre ; lecture du protocole 14 §9.",
+    "Vérification de l’absence de résultat ou de rejet portant le même id.",
+    "Décodage de la source locale et inspection visuelle à 800 × 800.",
+    "Rejet avant génération ; aucun navigateur, aucune API distante et aucun accès boutique."
+  ],
+  "executed_at": "2026-09-08T12:12:15.583177+00:00",
+  "executor": "codex-2026-09-08"
+}

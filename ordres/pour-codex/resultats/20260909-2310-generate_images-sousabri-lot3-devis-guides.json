@@ -1,0 +1,115 @@
+{
+  "id": "claude-20260909-2310-sousabri-lot3-devis-guides",
+  "status": "failed",
+  "payload": {
+    "manifeste_realise": [
+      {
+        "handle": "devis-carport-cintre-2-pieds",
+        "sku": "SA-DEVIS-2P",
+        "slot": "face",
+        "fichier": "devis-carport-cintre-2-pieds-face.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "devis-carport-cintre-2-pieds",
+        "sku": "SA-DEVIS-2P",
+        "slot": "situation",
+        "fichier": "devis-carport-cintre-2-pieds-situation.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      },
+      {
+        "handle": "sousabri-guides",
+        "sku": "SA-SCENE",
+        "slot": "guide-declaration",
+        "fichier": "sousabri-guide-declaration.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 0
+      },
+      {
+        "handle": "sousabri-guides",
+        "sku": "SA-SCENE",
+        "slot": "guide-montage",
+        "fichier": "sousabri-guide-montage.jpg",
+        "modele": "gpt-image-2",
+        "regenerations": 2
+      }
+    ],
+    "rejets": [
+      {
+        "fichier": "rejected/guide-montage-v1.png",
+        "motif": "Abri monte et voiture ajoutes, hors cadrage demande."
+      },
+      {
+        "fichier": "rejected/guide-montage-v2.png",
+        "motif": "Sept mains au lieu de quatre."
+      },
+      {
+        "fichier": "rejected/cintre-situation-v2.png",
+        "motif": "Rectangle de plaque encore visible, doute refuse."
+      },
+      {
+        "fichier": "rejected/guide-comparatif-v1.png",
+        "motif": "Plaque et/ou embleme automobile; sterile non respecte."
+      },
+      {
+        "fichier": "rejected/guide-comparatif-v2.png",
+        "motif": "Plaque et/ou embleme automobile; sterile non respecte."
+      },
+      {
+        "fichier": "rejected/guide-comparatif-v3.png",
+        "motif": "Plaque et/ou embleme automobile; sterile non respecte."
+      },
+      {
+        "fichier": "rejected/guide-comparatif-v4.png",
+        "motif": "Plaque et/ou embleme automobile; sterile non respecte."
+      },
+      {
+        "fichier": "rejected/cintre-situation-v1-plaque.png",
+        "motif": "Plaque vide visible."
+      },
+      {
+        "handle": "devis-carport-aluminium-toit-plat",
+        "sku": "SA-DEVIS-PLAT",
+        "slot": "face",
+        "fichier": "devis-carport-aluminium-toit-plat-face.jpg",
+        "motif": "Source incompatible avec le type de page : ni toit plat ni adosse confirme; interdiction de changer la geometrie fournisseur."
+      },
+      {
+        "handle": "devis-carport-aluminium-toit-plat",
+        "sku": "SA-DEVIS-PLAT",
+        "slot": "situation",
+        "fichier": "devis-carport-aluminium-toit-plat-situation.jpg",
+        "motif": "Source incompatible avec le type de page : ni toit plat ni adosse confirme; interdiction de changer la geometrie fournisseur."
+      },
+      {
+        "handle": "devis-carport-aluminium-adosse",
+        "sku": "SA-DEVIS-ADOS",
+        "slot": "face",
+        "fichier": "devis-carport-aluminium-adosse-face.jpg",
+        "motif": "Source incompatible avec le type de page : ni toit plat ni adosse confirme; interdiction de changer la geometrie fournisseur."
+      },
+      {
+        "handle": "devis-carport-aluminium-adosse",
+        "sku": "SA-DEVIS-ADOS",
+        "slot": "situation",
+        "fichier": "devis-carport-aluminium-adosse-situation.jpg",
+        "motif": "Source incompatible avec le type de page : ni toit plat ni adosse confirme; interdiction de changer la geometrie fournisseur."
+      },
+      {
+        "handle": "sousabri-guides",
+        "sku": "SA-SCENE",
+        "slot": "guide-comparatif",
+        "fichier": "sousabri-guide-comparatif.jpg",
+        "motif": "Quatre tentatives, plaques ou emblemes persistants; aucune image conforme."
+      }
+    ],
+    "sujets_difficiles": [
+      "guide-comparatif : 4 tentatives, 3 regenerations, plaques ou emblemes persistants.",
+      "Pages toit-plat et adosse : sources non conformes, aucun produit invente."
+    ]
+  },
+  "executed_at": "2026-09-09T20:10:37.732690+00:00",
+  "executor": "codex-2026-09-09"
+}

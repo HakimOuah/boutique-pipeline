@@ -1,0 +1,74 @@
+{
+ "action": "exact",
+ "ok": true,
+ "result": {
+  "checked_at_utc": "2026-09-08T09:39:43+00:00",
+  "destination": "GB",
+  "exact_sku": {
+   "currency": "EUR",
+   "offer_sale_price": "42.19",
+   "properties": [
+    {
+     "image": null,
+     "name": "Taille",
+     "raw_value": "L'",
+     "value": "L 55X45X40CM"
+    },
+    {
+     "image": "https://ae01.alicdn.com/kf/S868e32e764204ad48c02979f7e0bc06cR.jpg",
+     "name": "Couleur",
+     "raw_value": "GRIS",
+     "value": "GRIS"
+    },
+    {
+     "image": null,
+     "name": "Expédié depuis",
+     "raw_value": "China Mainland",
+     "value": "China Mainland"
+    }
+   ],
+   "sku_attr": "5:361385#L 55X45X40CM;14:691;200007763:201336100",
+   "sku_id": "12000053415828827",
+   "sku_price": "84.37",
+   "stock": 314,
+   "tax_included": true
+  },
+  "freight": {
+   "code": 200,
+   "message": "Call succeeds",
+   "options": [
+    {
+     "available_stock": "314",
+     "code": "CAINIAO_FULFILLMENT_PRE",
+     "company": "AliExpress Selection Premium shipping",
+     "currency": "EUR",
+     "delivery_date": "sep. 14 - 18",
+     "free_shipping": false,
+     "max_delivery_days": 10,
+     "min_delivery_days": 6,
+     "ship_from_country": "CN",
+     "shipping_fee": "€1.99",
+     "tracking": true
+    }
+   ],
+   "success": true
+  },
+  "product": {
+   "evaluation_count": "0",
+   "product_id": "1005010759559289",
+   "rating": "0.0",
+   "sales_count": "97",
+   "status": "onSelling",
+   "store": {
+    "communication_rating": "4.8",
+    "country": "CN",
+    "id": 1103573332,
+    "item_as_described_rating": "5.0",
+    "name": "Stone's Store",
+    "shipping_speed_rating": "4.8"
+   },
+   "title": "Nid chaud d'hiver pour chat, abri d'extérieur pour chat, maison pour chat errant, sol, isolation thermique, nid pour chaton, grotte, tente pour chat"
+  },
+  "source": "AliExpress Open Platform / AE-Dropshipper via whitelisted VPS"
+ }
+}
