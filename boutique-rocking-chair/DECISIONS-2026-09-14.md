@@ -67,3 +67,13 @@
   - copie de travail : liens sociaux de démonstration du thème vidés (JSON-LD `sameAs`) ; barre « Plus que 30 € » retirée du panier et du tiroir ; « Prix TTC, livraison offerte » sous le prix ; paiement fractionné affiché seulement dès 30 € (PayPal) ou 35 € (Klarna) ; téléphone au format +33 sur les fiches ; « OH VENTURES (SASU) » et SIREN dans le footer ;
   - données : prix barrés (coût fournisseur) vidés sur les 86 brouillons et les 14 archivés ; 152 variantes brutes restantes supprimées sur 4 fiches (plaid grosse maille, plaid effet lapin, coussin de sol rond, coussin carré), le nettoyage initial ayant plafonné à 40 variantes ; page « Suivre ma commande » : lien vers le vrai formulaire ParcelPanel.
 - **Reste à Hakim** : renommer le tarif « Livraison offerte - expédition 24/48h » ; harmoniser le téléphone de l'adresse de la boutique (+33 7 56 82 80 94) ; tester la caisse en visiteur (Klarna, PayPal 4 fois) ; décider pour les relax électriques et les sièges bébé (documents CE et normes, ou passage en brouillon) ; adresse de retour ; règle de prix barré de DSers ; publier la copie de travail.
+
+## 17/09/2026 : lancement du lot 2, conformité, panier
+
+- Lot 2 lancé : 77 fiches activées et publiées sur la boutique en ligne, 6 collections Cocooning publiées, menu principal (entrée Cocooning) et menu « Footer — Boutique » à jour.
+- Conformité (contrôle fournisseur en lecture seule) :
+  - Repassés en brouillon : `fauteuil-relax-electrique` et `fauteuil-relax-moderne` (ni CE ni tension déclarés, décrits comme releveurs), `rocking-chair-bebe` et `chaise-a-bascule-enfant` (puériculture 0-36 mois sans EN 12790 / EN 14988).
+  - Restent en brouillon : `fauteuil-relax-massant-chauffant-chenille-ecru` (CE déclaré, déclaration UE de conformité, prise et notice FR à obtenir), `fauteuil-relax-electrique-gris-compact`, `fauteuil-allaitement-bouclette-blanche-usb`, `chaise-a-bascule-enfant-bois-blanc`, `fauteuil-enfant-mousse-teddy-gris` (âge 3+ à confirmer), `fauteuil-enfant-teddy-oreilles-ours` (âge à obtenir).
+  - Publiés avec une section « Sécurité » : `canape-enfant-2-places-gris`, `fauteuil-enfant-nuage-blanc`, `fauteuil-enfant-velours-rose-pouf`.
+- Panier : recette 12b de Lumière Matière portée sur la copie `bercelou-travail-panier-2026-09-17` (bannière livraison, suggestions « Pour compléter votre coin cocon », accordéons retours 14 jours et livraison, recommandations Accessoires). À publier par Hakim.
+- Collection « Poufs d'extérieur » : vide et non publiée, suppression laissée à Hakim dans l'admin.
