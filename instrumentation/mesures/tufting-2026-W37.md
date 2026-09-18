@@ -13,7 +13,7 @@ checkouts_atteints: 4
 commandes: 2
 ca_eur: 12.9
 aov_eur: 6.45
-cvr_pct: 0.01
+cvr_pct: 1.7094
 remboursements_eur: 0
 # --- acquisition
 depense_ads_eur:
